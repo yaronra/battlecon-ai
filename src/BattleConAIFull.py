@@ -1,7 +1,24 @@
 # TO DO
 
+# Choose finisher at start, if both available.  If only one implemented
+# for human, explain this.  If only one available for AI, report it
+# as "chosen".
+
 # Add beat number to gamestate - and cause win exceptions on beat 15.
 # At that point, also make sure pulses don't advance beat number.
+
+# Double Pulse/Cancel: both choose again, 
+#    special actions go to discard 1 (not removed completely).
+# The same happens when finishers clash.
+
+# Cancel: opponent's pair goes in discard (two pairs there),
+# then both choose a pair (ante is locked).
+
+# Beta bases: set order_forks for characters where needed.
+#    Choose initial discards, or always play with default in beta.
+
+# Can't move directly to own space.  Probably best to remove from
+# destination of each instance.
 
 # KNOWN BUGS/PROBLEMS
 
@@ -19,18 +36,16 @@
 # TO CHECK OPENING DISCARDS
 # free_for_all (1, <name>, skip=['kehrolyn'], first_beats=True)
 
-import itertools
-import cProfile
-import pstats
-from operator import itemgetter, attrgetter
-import random
-import numpy
+from operator import attrgetter
 import copy
-import re
+import itertools
+import numpy
 import os.path
-import time
-
+import pstats
+import random
+import re
 import solve
+import time
 
 debug_log = []
 
@@ -75,14 +90,7 @@ playable = ['adjenna',
             'voco',
             'zaamassal']
 
-playable = ['alexian',
-            'eligor',
-            'karin',
-            'marmelee',
-            'shekhtur']
-            
-
-def test (first=None):
+def test (first=None, beta_bases=False):
     log = []
     random.seed(0)
     found_first = not first
@@ -96,17 +104,17 @@ def test (first=None):
         j = i+1 if i+1 < len(playable) else 0
         n1 = playable[j]
         print n0, n1
-        start_time = time.clock()
-        game_log, winner = play_game (n0, n1,
-                                      default_discards = True)
-        end_time = time.clock()
-        print end_time - start_time, "seconds"
+        start_time = time.time()
+        game_log, unused_winner = play_game (
+            n0, n1, beta_bases, beta_bases,
+            default_discards = True)
+        end_time = time.time()
+        print "tot time:", end_time - start_time
         log.extend(game_log)
-    logfilename = "v0.7_test"
+    logfilename = "v1.1_test"
     with open (logfilename, 'w') as f:
         for g in log:
-           f.write (g+'\n')
-
+            f.write (g+'\n')
 
 def play ():
     # hepzibah and clive are too slow.
@@ -117,14 +125,28 @@ def play ():
         human = names [menu(names)]
         print "Select AI character: [1-%d]\n" %len(names)
         ai = names[menu(names)]
+#         print "Which set of bases should be used?"
+#         ans = menu(['Standard bases',
+#                     'Beta bases',
+#                     'I use standard, AI uses beta',
+#                     'I use beta, AI uses standard'])
+        # For now, don't use beta bases.
+        ans = 0
+        ai_beta = ans in (1,2)
+        human_beta = ans in (1,3)
         print "Default Discards?"
         default_discards = menu (["No", "Yes"])
-        game_log, winner = play_game (ai, human,
-                                      default_discards = default_discards,
-                                      interactive = True)
+        game_log, unused_winner = play_game (
+                                    ai, human, ai_beta, human_beta,
+                                    default_discards = default_discards,
+                                    interactive = True)
         if not os.path.exists ("logs"):
             os.mkdir ("logs")
-        basename = "logs/"+ai+"(AI)_vs_"+human
+        if ai_beta:
+            ai = ai + '_beta'
+        if human_beta:
+            human = human + '_beta'
+        basename = "logs/" + ai + "(AI)_vs_" + human
         name = save_log (basename, game_log)
         print "Log saved at: ", name
         print
@@ -162,14 +184,17 @@ def free_for_all (repeat, names=None, start=None, skip=[],
                         print "duel: %s vs. %s" %(playable[i],playable[j])
                         print "exception", e
 
-def duel (name0, name1, repeat, first_beats=False):
+def duel (name0, name1, repeat, beta_bases0=False, beta_bases1=False,
+          first_beats=False):
     victories = [0,0]
-    print name0, "vs.", name1
+    beta_str0 = " (beta bases)" if beta_bases0 else ""
+    beta_str1 = " (beta bases)" if beta_bases1 else ""
+    print name0 + beta_str0, "vs.", name1 + beta_str1
     log = []
     for i in range(repeat):
-        game_log, winner = play_game (name0, name1, \
-                                      default_discards = False,
-                                      first_beats=first_beats)
+        game_log, winner = play_game (
+            name0, name1, beta_bases0, beta_bases1,
+            default_discards = False, first_beats=first_beats)
         log.append ("GAME %d\n-------\n" %i)
         log.extend (game_log)
         if winner == None:
@@ -189,18 +214,22 @@ def duel (name0, name1, repeat, first_beats=False):
         for g in log:
             f.write (g+'\n')
 
-def play_game (name0, name1, default_discards=False,
+def play_game (name0, name1, beta_bases0=False, beta_bases1=False, 
+               default_discards=False,
                interactive=False, cheating=0, first_beats=False):
-    game = Game.from_start (name0, name1, default_discards,
+    game = Game.from_start (name0, name1, beta_bases0, beta_bases1, 
+                            default_discards,
                             interactive=interactive, cheating=cheating,
                             first_beats=first_beats)
-    game_log = ["\n" + game.player[0].name + " vs. " + game.player[1].name]
+    game_log = ["\n" + game.player[0].name + 
+                (" (beta bases)" if beta_bases0 else "") +
+                " vs. " + game.player[1].name +
+                (" (beta bases)" if beta_bases1 else "")]
     for p in game.player:
         game_log.append ("Implemented finishers for %s: " % p.name +
-                         ', '.join([o.name for o in p.overdrives]))
+                         ', '.join([o.name for o in p.finishers]))
     n_beats = 2 if first_beats else 15
     for beat in xrange (1, n_beats+1):
-#        print "Beat %d" %beat
         game_log.append ("\nBeat %d" %beat)
         game_log.append ("-------\n")
         game_log.extend (game.situation_report ())
@@ -401,7 +430,15 @@ class Game:
         
         name0 = lines[0][:-1].lower()
         name1 = lines[char1_start][:-1].lower()
-        game = Game(name0, name1)
+        beta_bases0, beta_bases1 = (False, False)
+        if name0.endswith(" (beta bases)"):
+            name0 = name0[:-13]
+            beta_bases0 = True
+        if name1.endswith(" (beta bases)"):
+            name1 = name1[:-13]
+            beta_bases1 = True
+                
+        game = Game(name0, name1, beta_bases0, beta_bases1)
         lines0 = lines [2 : char1_start-1]
         lines1 = lines [char1_start+2 : char1_end]
         board = lines [board_start]
@@ -417,19 +454,20 @@ class Game:
         return game
 
     @staticmethod
-    def from_start (name0, name1,
+    def from_start (name0, name1, beta_bases0, beta_bases1,
                     default_discards=True, interactive=False, cheating=0,
                     first_beats=False):
         """Create a game in starting position.
         name0, name1: names of characters
         """
-        game = Game(name0, name1, interactive, cheating, first_beats=first_beats)
+        game = Game(name0, name1, beta_bases0, beta_bases1,
+                    interactive, cheating, first_beats=first_beats)
         game.set_starting_setup (default_discards,
                                  use_special_actions = True)
         game.initialize_simulations()
         return game
 
-    def __init__ (self, name0, name1,
+    def __init__ (self, name0, name1, beta_bases0, beta_bases1,
                   interactive=False, cheating=0, first_beats=False):
 
         name0 = name0.lower()
@@ -447,8 +485,9 @@ class Game:
         self.replay_mode = False
         self.interactive_counter = None
         self.log = []
-        self.player = [character_dict [name0] (self, 0), \
-                       character_dict [name1] (self, 1, is_user=interactive)]
+        self.player = [character_dict[name0](self, 0, beta_bases0),
+                       character_dict[name1](self, 1, beta_bases1,
+                                             is_user=interactive)]
         for i in range(2):
             self.player[i].opponent = self.player[1-i]
             for card in self.player[i].all_cards():
@@ -485,6 +524,10 @@ class Game:
             if self.interactive:
                 print line
         log[:] = []
+
+    def logfile_name(self):
+        return "%s_%s" % (self.player[0].logfile_name(),
+                          self.player[1].logfile_name())
 
     # makes snapshot of game state (pre strategy selection)
     def initial_save (self):
@@ -537,47 +580,46 @@ class Game:
 
         self.initial_restore (self.initial_state)
         
-        # remove redundant overdrive strategies
+        # remove redundant finisher strategies
         # (that devolve into identical cancels)
-        self.remove_redundant_overdrives()
+        self.remove_redundant_finishers()
 
         # Usually this does nothing, but some characters might need to
         # fix the result tables and strategies (e.g. Seth).
         for p in self.player:
             p.post_simulation_processing ()
 
-
-    def remove_redundant_overdrives (self):
-        redundant_overdrives = []
+    def remove_redundant_finishers (self):
+        redundant_finishers = []
         s0 = self.player[0].strats
         for i in xrange(len(self.results)):
-            if isinstance (s0[i][1], Overdrive):
+            if isinstance (s0[i][1], Finisher):
                 for ii in xrange(len(self.results)):
                     if isinstance (s0[ii][1], Cancel) and s0[ii][2] == s0[i][2]:
                         if self.results[i] == self.results[ii] :
-                            redundant_overdrives.append (i)
+                            redundant_finishers.append (i)
                             break
         self.results = [self.results[i] for i in xrange(len(self.results)) \
-                                        if i not in redundant_overdrives]
+                                        if i not in redundant_finishers]
         self.player[0].strats = [s0[i] for i in xrange(len(s0)) \
-                                       if i not in redundant_overdrives]
+                                       if i not in redundant_finishers]
 
-        redundant_overdrives = []
+        redundant_finishers = []
         s1 = self.player[1].strats
         for j in xrange(len(self.results[0])):
-            if isinstance (s1[j][1], Overdrive):
+            if isinstance (s1[j][1], Finisher):
                 for jj in xrange(len(self.results[0])):
                     if isinstance (s1[jj][1], Cancel) and \
                        s1[jj][2] == s1[j][2]:
                         if [r[j] for r in self.results] == \
                            [r[jj] for r in self.results]:
-                            redundant_overdrives.append (j)
+                            redundant_finishers.append (j)
                             break
         self.results = [[r[j] for j in xrange(len(r)) \
-                               if j not in redundant_overdrives] \
+                               if j not in redundant_finishers] \
                                for r in self.results]
         self.player[1].strats = [s1[j] for j in xrange(len(s1)) \
-                                 if j not in redundant_overdrives]
+                                 if j not in redundant_finishers]
 
 
     # if state != None, this is a forked simulation
@@ -620,12 +662,12 @@ class Game:
 
             # Special Actions
 
-            # Overdrives devolve into Cancels above 7 life
+            # Finishers devolve into Cancels above 7 life
             # or if failing to meet their specific conditions
             for p in self.player:
-                if isinstance (p.base, Overdrive):
-                   if p.base.devolves_into_cancel():
-                    p.base = p.cancel
+                if isinstance (p.base, Finisher):
+                    if p.base.devolves_into_cancel():
+                        p.base = p.cancel
 
             # Cancel - return an appropriate cancel indicator
             # (depending on who cancelled)
@@ -704,9 +746,9 @@ class Game:
                         self.report (self.active.name + " is active")
                 # priority tie
                 else:
-                    # two overdrives turn into cancels
-                    if isinstance (self.player[0].base, Overdrive) and \
-                       isinstance (self.player[1].base, Overdrive):
+                    # two finishers turn into cancels
+                    if isinstance (self.player[0].base, Finisher) and \
+                       isinstance (self.player[1].base, Finisher):
                         final_state = self.full_save (None)
                         return self.cancel_both_indicator, final_state, self.fork_decisions[:]
                     else:
@@ -821,7 +863,7 @@ class Game:
     def cycle_and_evaluate (self):
         for p in self.player:
             p.cycle ()
-            # overdrivers and pulsers lose their special actions
+            # finisherrs and pulsers lose their special actions
             # (a cancel doesn't get here)
             if isinstance (p.style, SpecialAction):
                 p.special_action_available = False
@@ -978,7 +1020,7 @@ class Game:
     def solve_and_execute_beat (self):
         ss0 = self.player[0].strats
         ss1 = self.player[1].strats
-        recursive_clash = (len(ss0)<=4)
+#        recursive_clash = (len(ss0)<=4)
         self.initial_restore (self.initial_state)
         self.solve ()
         if self.interactive:
@@ -1001,7 +1043,7 @@ class Game:
                 self.replay_mode = True
             self.interactive_mode = False
         else:
-            value, final_state, forks = self.simulate (s0, s1)
+            value, final_state, unused_forks = self.simulate (s0, s1)
         report.extend (final_state.reports)
 
         # Solve Cancels
@@ -1071,7 +1113,7 @@ class Game:
                     self.replay_mode = True
                 self.interactive_mode = False
             else:
-                value, final_state, forks = self.simulate (s0, s1)
+                value, final_state, unused_forks = self.simulate (s0, s1)
             report.extend (final_state.reports)
 
         # if we have a real result (possibly after the cancel/s)
@@ -1231,7 +1273,7 @@ class Game:
                     sub_matrix = [[matrix[ii][jj] for jj in range(m) if jj!=j] \
                                                   for ii in range(n) if ii!=i]
                     matrix[i][j] = self.sub_solve(sub_matrix)
-        (sol, val) = solve.solve_game_matrix (numpy.array(matrix))
+        (unused_sol, val) = solve.solve_game_matrix (numpy.array(matrix))
         return val
 
     # return report of positive strategies
@@ -1312,8 +1354,10 @@ class Game:
         worst = array_results.argmin (1)
         for i in range(n):
             print array_results[i,worst[i]], ':',
-            print self.player[0].get_strategy_name(sel[0][i]), '--->',
-            print self.player[1].get_strategy_name(ss1[worst[i]])
+            print self.player[0].get_strategy_name(
+                self.player[0].strats[i]), '--->',
+            print self.player[1].get_strategy_name(
+                self.player[1].strats[worst[i]])
         print '##################################################'
         worst = array_results.argmax (0)
         for j in range(m):
@@ -1346,7 +1390,7 @@ class Game:
               if self.player[0].get_strategy_name(s).lower() == name0]
         s1 = [s for s in self.player[1].get_strategies() \
               if self.player[1].get_strategy_name(s).lower() == name1]
-        value, state, forks = self.simulate (s0[0], s1[0])
+        unused_value, state, forks = self.simulate (s0[0], s1[0])
         self.debugging = False
         self.reporting = False
         for s in state.reports:
@@ -1454,9 +1498,9 @@ class Game:
             return
         a0 = ab0/b0
         a1 = ab1/b1
-        (mix0, value0) = solve_for_player0_with_b0_known \
+        (mix0, value0) = solve.solve_for_player0_with_b0_known \
                          (array_results, a0,b0,a1,b1)
-        (mix1, value1) = solve_for_player0_with_b1_known \
+        (mix1, value1) = solve.solve_for_player0_with_b1_known \
                          (-array_results.transpose(), a1,b1,a0,b0)
         # mix1 (2nd ante) has full pair/ante mix for each ante of player 0
         # followed by pre-ante pair mix
@@ -1521,7 +1565,7 @@ class Character (object):
 
     # Bureaucratic Methods
 
-    def __init__(self, the_game, n, is_user=False):
+    def __init__(self, the_game, n, use_beta_bases=False, is_user=False):
         self.game = the_game
         self.my_number = n
         self.is_user = is_user
@@ -1535,22 +1579,38 @@ class Character (object):
         self.null_style = NullStyle (the_game, self)
         self.null_base = NullBase (the_game, self)
         
-        self.strike = Strike (the_game,self)
-        self.shot = Shot (the_game,self)
-        self.drive = Drive (the_game,self)
-        self.burst = Burst (the_game,self)
-        self.grasp = Grasp (the_game,self)
-        self.dash = Dash (the_game,self)
-        self.bases = [self.unique_base, \
-                      self.strike, \
-                      self.shot, \
-                      self.drive, \
-                      self.burst, \
-                      self.grasp, \
-                      self.dash ]
+        self.use_beta_bases = use_beta_bases
+        if use_beta_bases:
+            self.counter = Counter (the_game,self)
+            self.spike = Spike (the_game,self)
+            self.force = Force (the_game,self)
+            self.wave = Wave (the_game,self)
+            self.throw = Throw (the_game,self)
+            self.parry = Parry (the_game,self)
+            self.bases = [self.unique_base,
+                          self.counter,
+                          self.wave,
+                          self.force,
+                          self.spike,
+                          self.throw,
+                          self.parry]
+        else:
+            self.strike = Strike (the_game,self)
+            self.shot = Shot (the_game,self)
+            self.drive = Drive (the_game,self)
+            self.burst = Burst (the_game,self)
+            self.grasp = Grasp (the_game,self)
+            self.dash = Dash (the_game,self)
+            self.bases = [self.unique_base,
+                          self.strike,
+                          self.shot,
+                          self.drive,
+                          self.burst,
+                          self.grasp,
+                          self.dash]
 
-        # create attributes for styles and overdrives
-        for card in self.styles + self.overdrives:
+        # create attributes for styles and finishers
+        for card in self.styles + self.finishers:
             name = card.name.replace('-','_').replace(' ','_').replace("'",'').lower()
             self.__dict__[name] = card
         
@@ -1561,16 +1621,15 @@ class Character (object):
             self.styles[i].order = i
         for i in range(7):
             self.bases[i].order = i
-        # special action card (a style) and bases
-        # overdrives are unique to each character
+        # special action card (a style) and bases.
+        # (finishers are unique to each character)
         self.special_action = SpecialAction (the_game,self)
         self.pulse = Pulse (the_game,self)
         self.cancel = Cancel (the_game,self)
-        self.pulse_generators = set ([self.burst, self.dash])
-        self.cancel_generators = set ([self.shot, self.grasp])
-        self.overdrive_generators = set ([self.unique_base,
-                                          self.strike,
-                                          self.drive])
+        self.pulse_generators = set ([self.bases[4], self.bases[6]])
+        self.cancel_generators = set ([self.bases[2], self.bases[5]])
+        self.finisher_generators = set ([self.bases[0], self.bases[1],
+                                         self.bases[3]])
         # discard[0] is for cards played this beat.
         # they will cycle into discard[1] at end of beat.
         # (discard [0] is empty between beats)
@@ -1578,12 +1637,20 @@ class Character (object):
 
     # used by game to add opponent to all your cards/tokens etc.
     def all_cards (self):
-        return self.styles + self.bases + self.tokens + self.overdrives + \
+        return self.styles + self.bases + self.tokens + self.finishers + \
                [self.special_action, self.pulse, self.cancel,
                 self.null_style, self.null_base]
 
     def __str__ (self):
         return self.name
+
+    def logfile_name(self):
+        name = self.name
+        if self.use_beta_bases:
+            name = name + "(beta)"
+        if self.opponent.is_user:
+            name = name + "(AI)"
+        return name
 
     # read character state from list of strings (as written in game log)
     # lines - list of strings for this character's situation report
@@ -1648,7 +1715,8 @@ class Character (object):
         
     def situation_report (self):
         report = []
-        report.append (self.name)
+        report.append (self.name + (" (beta bases)" 
+                                    if self.use_beta_bases else ""))
         report.append ('-' * len (self.name))
         report.append ('life: %d' %self.life)
         report.append ('discard 1: ' + self.discard_report (self.discard[1]))
@@ -1759,8 +1827,8 @@ class Character (object):
                 pairs.append ((self.special_action, self.pulse))
             if len(self.cancel_generators - unavailable_cards) > 0:
                 pairs.append ((self.special_action, self.cancel))
-            if len(self.overdrive_generators - unavailable_cards) > 0:
-                for drive in self.overdrives:
+            if len(self.finisher_generators - unavailable_cards) > 0:
+                for drive in self.finishers:
                     pairs.append ((self.special_action, drive))
         return pairs
 
@@ -2126,16 +2194,14 @@ class Character (object):
         # but remove cards from the virtual discard[0] in any case
         self.discard [0] = set()
 
-    # return amount gained (can't go over 20)
+    # can't go over 20
     def gain_life (self, gain):
-        old_life = self.life
-        self.life = min (20, old_life + gain)
-        if self.game.reporting and self.life != old_life:
+        self.life = min (20, self.life + gain)
+        if self.game.reporting and gain > 0:
             self.game.report (self.name + " gains %d life (now at %d)" \
-                              %(self.life-old_life, self.life))
-        return self.life - old_life
+                              %(gain, self.life))
     
-    # return amount lost (can't go under 1)
+    # can't go under 1
     def lose_life (self, loss):
         self.life = max (1, self.life - loss)
         if self.game.reporting and loss > 0:
@@ -2448,7 +2514,7 @@ class Character (object):
         special_action_bonus = \
                     ((self.special_action.value +
                       (max([drive.evaluate_setup()
-                            for drive in self.overdrives])
+                            for drive in self.finishers])
                        if (self.life <= 7) else 0)) \
                     if self.special_action_available else 0)
 
@@ -2650,16 +2716,16 @@ class DebugException (Exception):
 # A game creates an instance of each player's character
 
 class Adjenna (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Gaze (the_game, self)
         self.styles = [Alluring     (the_game, self),
                        Arresting    (the_game, self),
                        Pacifying    (the_game, self),
                        Irresistible (the_game, self),
                        Beckoning    (the_game, self)]
-        self.overdrives = [BasiliskGaze (the_game, self),
+        self.finishers = [BasiliskGaze (the_game, self),
                            Fossilize    (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
 
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -2756,16 +2822,16 @@ class Adjenna (Character):
                - effective_life + 2 * self.petrification
 
 class Alexian (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Divider (the_game, self)
         self.styles = [Gestalt  (the_game, self), \
                        Regal    (the_game, self), \
                        Stalwart (the_game, self), \
                        Mighty   (the_game, self), \
                        Steeled  (the_game, self)  ]
-        self.overdrives = [EmpireDivider (the_game, self),
+        self.finishers = [EmpireDivider (the_game, self),
                            HailTheKing (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.chivalry = Chivalry  (the_game, self)
         self.induced_tokens = [self.chivalry]
     
@@ -2904,15 +2970,15 @@ class Alexian (Character):
 
 
 class Aria (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Reconfiguration (the_game, self)
         self.styles = [Photovoltaic (the_game, self), \
                        Ionic        (the_game, self), \
                        Laser        (the_game, self), \
                        Catalyst     (the_game, self), \
                        Dimensional  (the_game, self)  ]
-        self.overdrives = [LaserLattice (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        self.finishers = [LaserLattice (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.dampening = Dampening()
         self.magnetron = Magnetron()
         self.turret = Turret()
@@ -3078,16 +3144,16 @@ class Aria (Character):
         return value
     
 class Byron (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Smoke (the_game, self)
         self.styles = [Soulless   (the_game, self), \
                        Deathless  (the_game, self), \
                        Heartless  (the_game, self), \
                        Faceless   (the_game, self), \
                        Breathless (the_game, self)  ]
-        self.overdrives = [SoulTrap (the_game, self),
+        self.finishers = [SoulTrap (the_game, self),
                            SoulGate (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.starting_life = 15
     
     def choose_initial_discards (self):
@@ -3242,16 +3308,16 @@ class Byron (Character):
         return 20.0 / 15 * max (3 * self.mask_emblems - self.life_lost * life_loss_effect, 1)
 
 class Cadenza (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Press (the_game, self)
         self.styles = [Battery    (the_game, self), \
                        Clockwork  (the_game, self), \
                        Hydraulic  (the_game, self), \
                        Grapnel    (the_game, self), \
                        Mechanical (the_game, self)  ]
-        self.overdrives = [RocketPress   (the_game, self),
+        self.finishers = [RocketPress   (the_game, self),
                            FeedbackField (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.iron_body = IronBody  (the_game, self)
         self.tokens = [self.iron_body]
 
@@ -3368,15 +3434,15 @@ class Cadenza (Character):
         return Character.evaluate(self) + 2.5 * len(self.pool)
 
 class Cesar (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Suppression (the_game, self)
         self.styles = [Phalanx     (the_game, self),
                        Unstoppable (the_game, self),
                        Fueled      (the_game, self),
                        Bulwark     (the_game, self),
                        Inevitable  (the_game, self)  ]
-        self.overdrives = [Level4Protocol (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        self.finishers = [Level4Protocol (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def choose_initial_discards (self):
         return (self.fueled, self.strike,
@@ -3500,15 +3566,15 @@ class Cesar (Character):
          
 
 ##class Claus (Character):
-##    def __init__ (self, the_game, n, is_user=False):
+##    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
 ##        self.unique_base = Tempest (the_game, self)
 ##        self.styles = [Hurricane (the_game, self),
 ##                       Tailwind  (the_game, self),
 ##                       Blast     (the_game, self),
 ##                       Cyclone   (the_game, self),
 ##                       Downdraft (the_game, self)]
-##        self.overdrives = [AutumnsAdvance (the_game, self)]
-##        Character.__init__ (self, the_game, n, is_user)
+##        self.finishers = [AutumnsAdvance (the_game, self)]
+##        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
 ##    
 ##    def choose_initial_discards (self):
 ##        # needs checking
@@ -3516,16 +3582,16 @@ class Cesar (Character):
 ##                self.styles[1], self.grasp)
 
 class Clinhyde (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Frenzy (the_game, self)
         self.styles = [Toxic     (the_game, self),
                        Shock     (the_game, self),
                        Diffusion (the_game, self),
                        Gravity   (the_game, self),
                        Phase     (the_game, self)  ]
-        self.overdrives = [VitalSilverInfusion (the_game, self),
+        self.finishers = [VitalSilverInfusion (the_game, self),
                            RitherwhyteInfusion (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.packs = [Crizma   (the_game, self),
                       Ehrlite  (the_game, self),
                       Hylatine (the_game, self) ]
@@ -3663,15 +3729,15 @@ class Clinhyde (Character):
         return value
 
 class Clive (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Wrench (the_game, self)
         self.styles = [Upgradeable (the_game, self), \
                        Rocket      (the_game, self), \
                        Burnout     (the_game, self), \
                        Megaton     (the_game, self), \
                        Leaping     (the_game, self)  ]
-        self.overdrives = [SystemShock (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        self.finishers = [SystemShock (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.modules = [RocketBoots   (the_game, self), \
                         BarrierChip   (the_game, self), \
                         AtomicReactor (the_game, self), \
@@ -3953,16 +4019,16 @@ class Clive (Character):
     
 
 class Demitras (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Deathblow (the_game, self)
         self.styles = [Darkside     (the_game, self), \
                        Bloodletting (the_game, self), \
                        Vapid        (the_game, self), \
                        Illusory     (the_game, self), \
                        Jousting     (the_game, self)  ]
-        self.overdrives = [SymphonyOfDemise (the_game, self),
+        self.finishers = [SymphonyOfDemise (the_game, self),
                            Accelerando      (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.crescendo = Crescendo  (the_game, self)
         self.tokens = [self.crescendo]
         self.max_tokens = 5
@@ -4054,16 +4120,16 @@ class Demitras (Character):
         return spend_value + pool_value
 
 class Eligor (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Aegis (the_game, self)
-        self.styles = [Vengeful    (the_game, self), \
-                       Counter     (the_game, self), \
-                       Martial     (the_game, self), \
-                       Chained     (the_game, self), \
-                       Retribution (the_game, self)  ]
-        self.overdrives = [SweetRevenge   (the_game, self),
+        self.styles = [Vengeful     (the_game, self), \
+                       CounterStyle (the_game, self), \
+                       Martial      (the_game, self), \
+                       Chained      (the_game, self), \
+                       Retribution  (the_game, self)  ]
+        self.finishers = [SweetRevenge   (the_game, self),
                            SheetLightning (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.vengeance = VengeanceT (the_game, self)
         self.tokens = [self.vengeance]
         self.max_tokens = 5
@@ -4161,16 +4227,16 @@ class Eligor (Character):
         return Character.evaluate (self) + 0.3 * len(self.pool)
 
 class Heketch (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Knives (the_game, self)
         self.styles = [Merciless (the_game, self), \
                        Rasping   (the_game, self), \
                        Critical  (the_game, self), \
                        Assassin  (the_game, self), \
                        Psycho    (the_game, self)  ]
-        self.overdrives = [MillionKnives   (the_game, self),
+        self.finishers = [MillionKnives   (the_game, self),
                            LivingNightmare (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.dark_force = DarkForce (the_game, self)
         self.tokens = [self.dark_force]
         self.max_tokens = 1
@@ -4339,15 +4405,15 @@ class Heketch (Character):
 
 # BUG : free_token is sometimes Token object, sometimes number
 class Hepzibah (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Bloodlight (the_game, self)
         self.styles = [Pactbond    (the_game, self), \
                        Anathema    (the_game, self), \
                        Necrotizing (the_game, self), \
                        Darkheart   (the_game, self), \
                        Accursed    (the_game, self)  ]
-        self.overdrives = [SealThePact (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        self.finishers = [SealThePact (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.tokens = [Almighty    (the_game, self), \
                        Corruption  (the_game, self), \
                        Endless     (the_game, self), \
@@ -4475,7 +4541,7 @@ class Hepzibah (Character):
         self.pool = self.tokens[:]
 
 class Hikaru (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = PalmStrike (the_game,self)
         self.styles = [Trance    (the_game, self), \
                        Focused   (the_game, self), \
@@ -4487,9 +4553,9 @@ class Hikaru (Character):
                        Water (the_game, self), \
                        Wind  (the_game, self)]
         self.water = self.tokens[2]
-        self.overdrives = [WrathOfElements (the_game, self),
+        self.finishers = [WrathOfElements (the_game, self),
                            FourWinds       (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -4581,16 +4647,16 @@ class Hikaru (Character):
 
 class Kajia (Character):
 
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Mandibles (the_game,self)
         self.styles = [Burrowing (the_game,self),
                        Swarming  (the_game,self),
                        Parasitic (the_game,self),
                        Stinging  (the_game,self),
                        Biting    (the_game,self)]
-        self.overdrives = [Wormwood      (the_game, self),
+        self.finishers = [Wormwood      (the_game, self),
                            CreepingDeath (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def choose_initial_discards (self):
         # Stinging Strike, Swarming Burst
@@ -4790,16 +4856,16 @@ class Kajia (Character):
 
 
 class Kallistar (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Spellbolt (the_game,self)
         self.styles = [Flare    (the_game,self), \
                        Caustic  (the_game,self), \
                        Volcanic (the_game,self), \
                        Ignition (the_game,self), \
                        Blazing  (the_game,self)  ]
-        self.overdrives = [Supernova          (the_game, self),
+        self.finishers = [Supernova          (the_game, self),
                            ChainOfDestruction (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -4890,16 +4956,16 @@ class Kallistar (Character):
         return 0 + (self.life <= 2)
 
 class Karin (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Claw (the_game,self)
         self.styles = [Howling     (the_game,self), \
                        Coordinated (the_game,self), \
                        FullMoon    (the_game,self), \
                        Feral       (the_game,self), \
                        Dual        (the_game,self)  ]
-        self.overdrives = [RedMoonRage (the_game, self),
+        self.finishers = [RedMoonRage (the_game, self),
                            LunarCross  (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         # give bases different preferred ranges for jager
         # (because jager isn't moved by base)
         self.unique_base.jager_preferred_range = 1.5
@@ -5065,15 +5131,15 @@ class Karin (Character):
                 - 0.2 * abs(self.opponent.position-self.jager_position))
 
 class Kehrolyn (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Overload (the_game,self)
         self.styles = [Mutating    (the_game, self), \
                        Bladed      (the_game, self), \
                        Whip        (the_game, self), \
                        Quicksilver (the_game,self), \
                        Exoskeletal (the_game,self)  ]
-        self.overdrives = [HydraFork (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        self.finishers = [HydraFork (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def choose_initial_discards (self):
         return (self.mutating, self.grasp,
@@ -5131,15 +5197,15 @@ class Kehrolyn (Character):
 
     
 class Khadath (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Snare (the_game,self)
         self.styles = [Hunters    (the_game, self), \
                        Teleport   (the_game, self), \
                        Evacuation (the_game, self), \
                        Blight     (the_game,self), \
                        Lure       (the_game,self)  ]
-        self.overdrives = [DimensionalExile (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        self.finishers = [DimensionalExile (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -5241,15 +5307,15 @@ class Khadath (Character):
         return result
 
 class Lixis (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Lance (the_game,self)
         self.styles = [Venomous     (the_game, self), \
                        Rooted       (the_game, self), \
                        Naturalizing (the_game, self), \
                        Vine         (the_game,self), \
                        Pruning      (the_game,self)  ]
-        self.overdrives = [VirulentMiasma (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        self.finishers = [VirulentMiasma (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -5361,15 +5427,15 @@ class Lixis (Character):
         return self.style.blocks_tokens() or self.base.blocks_tokens()
 
 class Luc (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Flash (the_game, self)
         self.styles = [Eternal  (the_game, self), \
                        Memento  (the_game, self), \
                        Fusion   (the_game, self), \
                        Feinting (the_game, self), \
                        Chrono   (the_game, self)  ]
-        self.overdrives = [TemporalRecursion (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        self.finishers = [TemporalRecursion (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.time = Time  (the_game, self)
         self.tokens = [self.time]
         self.max_tokens = 5
@@ -5467,16 +5533,16 @@ class Luc (Character):
         return Character.evaluate (self) + 1.2 * len(self.pool)
 
 class Lymn (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Visions (the_game,self)
         self.styles = [Maddening  (the_game, self), \
                        Chimeric   (the_game, self), \
                        Surreal    (the_game, self), \
                        Reverie    (the_game,self), \
                        Fathomless (the_game,self)  ]
-        self.overdrives = [Megrim  (the_game, self),
+        self.finishers = [Megrim  (the_game, self),
                            Conceit (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def choose_initial_discards (self):
         return (self.maddening, self.burst,
@@ -5595,15 +5661,15 @@ class Lymn (Character):
 # The new Magdelina can't be implemented (clash dependent level gaining),
 # so I'm keeping the old one.
 class Magdelina (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Blessing (the_game,self)
         self.styles = [Sanctimonious (the_game, self), \
                        Priestess     (the_game, self), \
                        Safety        (the_game, self), \
                        Spiritual     (the_game,self), \
                        Excelsius     (the_game,self)  ]
-        self.overdrives = [SolarSoul (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        self.finishers = [SolarSoul (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -5678,16 +5744,16 @@ class Magdelina (Character):
     # opponent's preferred range (at least at low levels)
 
 class Marmelee (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Meditation (the_game, self)
         self.styles = [Petrifying  (the_game, self), \
                        Magnificent (the_game, self), \
                        Sorceress   (the_game, self), \
                        Barrier     (the_game, self), \
                        Nullifying  (the_game, self)  ]
-        self.overdrives = [AstralCannon (the_game, self),
+        self.finishers = [AstralCannon (the_game, self),
                            AstralTrance (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.concentration = Concentration  (the_game, self)
         self.tokens = [self.concentration]
         self.max_tokens = 5
@@ -5767,16 +5833,16 @@ class Marmelee (Character):
         return Character.evaluate (self) + 0.85 * len(self.pool)
 
 class Mikhail (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Scroll (the_game, self)
         self.styles = [Immutable    (the_game, self), \
                        Transcendent (the_game, self), \
                        Hallowed     (the_game, self), \
                        Apocalyptic  (the_game, self), \
                        Sacred       (the_game, self)  ]
-        self.overdrives = [MagnusMalleus (the_game, self),
+        self.finishers = [MagnusMalleus (the_game, self),
                            TheFourthSeal (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.seal = Seal (the_game, self)
         self.tokens = [self.seal]
         self.max_tokens = 3
@@ -5871,16 +5937,16 @@ class Mikhail (Character):
 
 
 class Oriana (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Meteor (the_game, self)
         self.styles = [Celestial   (the_game, self), \
                        Stellar     (the_game, self), \
                        Unstable    (the_game, self), \
                        Metamagical (the_game, self), \
                        Calamity    (the_game, self)  ]
-        self.overdrives = [NihilEraser   (the_game, self),
+        self.finishers = [NihilEraser   (the_game, self),
                            GalaxyConduit (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.mp = MagicPoint (the_game, self)
         self.tokens = [self.mp]
         self.max_tokens = 10
@@ -5971,15 +6037,15 @@ class Oriana (Character):
         return Character.evaluate (self) + 0.3 * len (self.pool)
 
 class Rexan (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Malediction  (the_game, self)
         self.styles = [Unyielding   (the_game, self), \
                        Devastating  (the_game, self), \
                        Enervating   (the_game, self), \
                        Vainglorious (the_game, self), \
                        Overlords    (the_game, self)  ]
-        self.overdrives = [ZeroHour     (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        self.finishers = [ZeroHour     (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.curse = Curse (the_game, self)
         self.induced_tokens = [self.curse]
 
@@ -6099,16 +6165,16 @@ class Rexan (Character):
         return value
 
 class Rukyuk (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Reload  (the_game, self)
         self.styles = [Sniper     (the_game, self), \
                        PointBlank (the_game, self), \
                        Gunner     (the_game, self), \
                        Crossfire  (the_game, self), \
                        Trick      (the_game, self)  ]
-        self.overdrives = [FullyAutomatic (the_game, self),
+        self.finishers = [FullyAutomatic (the_game, self),
                            ForceGrenade   (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.tokens = [APShell        (the_game, self), \
                        ExplosiveShell (the_game, self), \
                        FlashShell     (the_game, self), \
@@ -6179,10 +6245,10 @@ class Rukyuk (Character):
     def recover_tokens (self):
         self.pool = self.tokens[:]
 
-    # Both overdrives block Ammo tokens
+    # Both finishers block Ammo tokens
     def get_active_tokens (self):
         active_tokens = Character.get_active_tokens (self)
-        if self.base.name in self.overdrives:
+        if self.base.name in self.finishers:
             # Induced tokens are still active
             return [t for t in active_tokens if t not in self.tokens]
         else:
@@ -6217,16 +6283,16 @@ class Rukyuk (Character):
     n_token_values = [-4, -3, -2, -1.5, -1, -0.5, 0] 
 
 class Runika (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Tinker  (the_game, self)
         self.styles = [Channeled   (the_game, self),
                        Maintenance (the_game, self),
                        Explosive   (the_game, self),
                        Impact      (the_game, self),
                        Overcharged (the_game, self)]
-        self.overdrives = [ArtificeAvarice (the_game, self),
+        self.finishers = [ArtificeAvarice (the_game, self),
                            UdstadBeam      (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.artifacts = [Autodeflector  (the_game, self),
                           Battlefist     (the_game, self),
                           HoverBoots     (the_game, self),
@@ -6347,7 +6413,6 @@ class Runika (Character):
     # Runika chooses an artifact to activate
     def activation_fork (self, prompt='Choose artifact to activate:'):
         deactivated = list(self.deactivated_artifacts)
-        n_deactivated = len (deactivated)
         if not deactivated:
             if self.game.reporting:
                 self.game.report ('No artifacts to activate')
@@ -6435,15 +6500,15 @@ class Runika (Character):
                 sum(artifact.value for artifact in self.deactivated_artifacts)
     
 class Seth (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Omen  (the_game, self)
         self.styles = [Fools      (the_game, self), \
                        Mimics     (the_game, self), \
                        Vanishing  (the_game, self), \
                        Wyrding    (the_game, self), \
                        Compelling (the_game, self)  ]
-        self.overdrives = [FortuneBuster (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        self.finishers = [FortuneBuster (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def choose_initial_discards (self):
         return (self.fools, self.grasp,
@@ -6662,7 +6727,7 @@ class Seth (Character):
 
 
 class Shekhtur (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Brand (the_game, self)
         self.styles = [Unleashed   (the_game, self), \
                        Combination (the_game, self), \
@@ -6670,8 +6735,8 @@ class Shekhtur (Character):
                        Jugular     (the_game, self), \
                        Spiral      (the_game, self)  ]
         # Soul Breaker isn't fully implemented, so only Coffin Nails is listed
-        self.overdrives = [CoffinNails (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        self.finishers = [CoffinNails (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.malice = Malice (the_game, self)
         self.tokens = [self.malice]
         self.max_tokens = 5
@@ -6804,16 +6869,16 @@ class Shekhtur (Character):
 
 # Add special case juto and style evaluation
 class Tatsumi (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Whirlpool  (the_game, self)
-        self.styles = [Siren    (the_game, self), \
-                       Fearless (the_game, self), \
-                       Riptide  (the_game, self), \
-                       Empathic (the_game, self), \
-                       Wave     (the_game, self)  ]
-        self.overdrives = [TsunamisCollide (the_game, self),
+        self.styles = [Siren     (the_game, self), \
+                       Fearless  (the_game, self), \
+                       Riptide   (the_game, self), \
+                       Empathic  (the_game, self), \
+                       WaveStyle (the_game, self)  ]
+        self.finishers = [TsunamisCollide (the_game, self),
                            BearArms (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         # give bases different preferred ranges for juto
         # (because juto isn't moved by base)
         self.unique_base.juto_preferred_range = 1.5
@@ -6851,7 +6916,7 @@ class Tatsumi (Character):
         self.juto_life = int (lines[0][-2])
         self.juto_position = addendum[0].find('j')
         if self.juto_position == -1:
-            self.juto_position == None
+            self.juto_position = None
 
     def initial_save (self):
         state = Character.initial_save (self)
@@ -6973,11 +7038,6 @@ class Tatsumi (Character):
         else:
             Character.after_trigger (self)
 
-    def set_preferred_range (self):
-        Character.set_preferred_range (self)
-        if self.zone(0):
-            self.preferred_range += 1
- 
     # different preferred range for tatsumi and juto, based on the styles
     # that let each of them attack
     # preferred range is now 4-tuple of preferred ranges, and also of
@@ -7025,16 +7085,16 @@ class Tatsumi (Character):
         return Character.evaluate (self) + juto_value
 
 class Vanaah (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Scythe  (the_game, self)
         self.styles = [Reaping   (the_game, self), \
                        Judgment  (the_game, self), \
                        Glorious  (the_game, self), \
                        Paladin   (the_game, self), \
                        Vengeance (the_game, self)  ]
-        self.overdrives = [DeathWalks     (the_game, self),
+        self.finishers = [DeathWalks     (the_game, self),
                            HandOfDivinity (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.divine_rush = DivineRush (the_game, self)
         self.tokens = [self.divine_rush]
 
@@ -7139,24 +7199,24 @@ class Vanaah (Character):
         if self.divine_rush in self.discard[2] and \
            not isinstance (self.style, SpecialAction):
             self.pool = [self.divine_rush]
-        # ... and moving from 0 to 1 with overdrive (which doesn't cycle)
-        if self.overdrives[0] in self.discard[0] and  \
+        # ... and moving from 0 to 1 with finisher (which doesn't cycle)
+        if self.finishers[0] in self.discard[0] and  \
            self.divine_rush in self.discard[0]:
             self.discard[1].add(self.divine_rush)
         Character.cycle (self)
 
 
 class Voco (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Shred  (the_game, self)
         self.styles = [Monster     (the_game, self), \
                        Metal       (the_game, self), \
                        Hellraising (the_game, self), \
                        Abyssal     (the_game, self), \
                        Thunderous  (the_game, self)  ]
-        self.overdrives = [ZMosh   (the_game, self),
+        self.finishers = [ZMosh   (the_game, self),
                            TheWave (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -7322,7 +7382,6 @@ class Voco (Character):
     # zombies in the soak range or on opponent are .5
     # zombies anywhere else are .25
     def evaluate (self):
-        p = self.position
         op = self.opponent.position
         better = self.soak_positions() | set([op])
         value =  Character.evaluate(self) + 0.25 * len(self.zombies) \
@@ -7330,7 +7389,7 @@ class Voco (Character):
         return value
 
 class Zaamassal (Character):
-    def __init__ (self, the_game, n, is_user=False):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = ParadigmShift  (the_game, self)
         self.styles = [Malicious (the_game, self), \
                        Sinuous   (the_game, self), \
@@ -7344,9 +7403,9 @@ class Zaamassal (Character):
                           Distortion (the_game, self)  ]
         self.fluidity = self.paradigms[1]
         self.distortion = self.paradigms[4]
-        self.overdrives = [OpenTheGate  (the_game, self),
+        self.finishers = [OpenTheGate  (the_game, self),
                            PlaneDivider (the_game, self)]
-        Character.__init__ (self, the_game, n, is_user)
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def all_cards (self):
         return Character.all_cards (self) + self.paradigms
@@ -7565,6 +7624,77 @@ class Dash (Base):
     def discard_penalty(self):
         return -0.5
 
+# Beta Bases
+
+class Counter (Base):
+    minrange = 1
+    maxrange = 1
+    power = 4
+    priority = 1
+    soak = 1
+    stunguard = 4
+    preferred_range = 2 # counter can hit at ranges 1-3
+    def before_trigger(self):
+        self.me.advance ([1,2])
+
+class Force (Base):
+    minrange = 1
+    maxrange = 1
+    power = 3
+    priority = 2
+    stunguard = 2
+    preferred_range = 2 # force can hit at ranges 1-3
+    def start_trigger(self):
+        self.me.advance ([1,2])
+    def reduce_stunguard (self, stunguard):
+        return 0
+
+class Parry (Base):
+    power = None
+    priority = 3
+    preferred_range = 1.5 # arbitrary average
+    is_attack = False
+    def end_trigger(self):
+        self.me.move([1,2,3])
+    # Opponent has to match priority parity to hit.
+    def can_be_hit(self):
+        return (1 + self.me.get_priority() 
+                  + self.opponent.get_priority()) % 2
+
+class Throw (Base):
+    minrange = 1
+    maxrange = 1
+    power = 2
+    priority = 5
+    preferred_range = 1
+    def hit_trigger(self):
+        self.me.execute_move(self.opponent, [-2,1])
+
+class Wave (Base):
+    minrange = 2
+    maxrange = 4
+    power = 3
+    priority = 4
+    # extra range in corner
+    def get_preferred_range (self):
+        return 3 if self.me.position in [0,6] else 2
+    def before_trigger(self):
+        self.me.retreat ([1,2])
+
+class Spike (Base):
+    minrange = 2
+    maxrange = 2
+    power = 3
+    priority = 3
+    # range restriction in corner
+    def get_preferred_range (self):
+        return 2.5 if self.me.position in [0,6] else 2
+    def start_trigger(self):
+        self.me.move([1])
+    def hit_trigger(self):
+        self.me.triggered_dodge = True
+
+
 # Special Action style and bases
 
 class SpecialAction (Style):
@@ -7572,25 +7702,25 @@ class SpecialAction (Style):
     order = 10 # presented after regular styles in lists
     # value of keeping this in hand
     value = 5.0
-    # this is only relevant for overdrives -
+    # this is only relevant for finishers -
     # pulses and cancels never get to the reveal phase
     def reveal_trigger (self):
         self.special_action_available = False
 
-# Cancel, Pulse and Overdrive inherit from this
+# Cancel, Pulse and Finisher inherit from this
 class SpecialBase (Base):
     pass
 
-# classes for specific overdrives inherit from this
-class Overdrive (SpecialBase):
+# classes for specific finishers inherit from this
+class Finisher (SpecialBase):
     order = 10
-    # overdrives win priority, even vs. characters that win priority
+    # finishers win priority, even vs. characters that win priority
     clash_priority = 0.2
-    # returns True if overdrive devolves into a cancel
+    # returns True if finisher devolves into a cancel
     # normally, that happens above 7 life
     def devolves_into_cancel (self):
         return self.me.life > 7
-    # bonus evaluation points for having overdrive set up
+    # bonus evaluation points for having finisher set up
     # (does not check life<=7 and availability of special action
     def evaluate_setup (self):
         return 0
@@ -7603,7 +7733,7 @@ class Pulse (SpecialBase):
 
 
 #Adjenna
-class BasiliskGaze (Overdrive):
+class BasiliskGaze (Finisher):
     minrange = 2
     maxrange = 3
     power = None
@@ -7617,7 +7747,7 @@ class BasiliskGaze (Overdrive):
     def evaluate_setup (self):
         return 2 if self.game.distance() in (2,3) else 0
 
-class Fossilize (Overdrive):
+class Fossilize (Finisher):
     minrange = 1
     maxrange = 5
     soak = 3
@@ -7689,7 +7819,7 @@ class Beckoning (Style):
 
 #Alexian
 
-class HailTheKing (Overdrive):
+class HailTheKing (Finisher):
     minrange = 1
     maxrange = 1
     soak = 6
@@ -7714,7 +7844,7 @@ class HailTheKing (Overdrive):
     def evaluate_setup (self):
         return 0.25 * (self.game.distance()-1)
 
-class EmpireDivider (Overdrive):
+class EmpireDivider (Finisher):
     name_override = "Hail the King"
     minrange = 1
     maxrange = 2
@@ -7813,7 +7943,7 @@ class Chivalry (Token):
 #Aria
 
 # Not implemented
-class SynchroMerge (Overdrive):
+class SynchroMerge (Finisher):
     minrange = 2
     maxrange = 3
     power = 3
@@ -7821,7 +7951,7 @@ class SynchroMerge (Overdrive):
     def start_trigger (self):
         raise NotImplementedError
 
-class LaserLattice (Overdrive):
+class LaserLattice (Finisher):
     minrange = 1
     maxrnage = 2
     power = 2
@@ -8046,7 +8176,7 @@ class Turret (Droid):
     
 #Byron
 
-class SoulTrap (Overdrive):
+class SoulTrap (Finisher):
     minrange = 1
     maxrange = 3
     power = 7
@@ -8058,7 +8188,7 @@ class SoulTrap (Overdrive):
     def evaluate_setup (self):
         return 1 if self.game.distance() in (1,2,3) else 0
 
-class SoulGate (Overdrive):
+class SoulGate (Finisher):
     minrange = 3
     maxrnage = 4
     power = 25
@@ -8165,7 +8295,7 @@ class Breathless (Style):
 
 #Cadenza
 
-class RocketPress (Overdrive):
+class RocketPress (Finisher):
     minrange = 1
     maxrange = 1
     power = 8
@@ -8178,7 +8308,7 @@ class RocketPress (Overdrive):
         return 2 if self.game.distance() > 1 or self.opponent.position in (0,6)\
                else 0
 
-class FeedbackField (Overdrive):
+class FeedbackField (Finisher):
     minrange = 1
     maxrange = 2
     power = 1
@@ -8242,7 +8372,7 @@ class IronBody (Token):
 
 #Cesar
 
-class Level4Protocol (Overdrive):
+class Level4Protocol (Finisher):
     minrange = 1
     maxrange = 1
     power = 7
@@ -8256,7 +8386,7 @@ class Level4Protocol (Overdrive):
         return 1 if self.game.distance() == 1 else 0
 
 # Not implemented - not sure how to evaluate it
-class EndlessVigil (Overdrive):
+class EndlessVigil (Finisher):
     is_attack = False
     power = None
     priority = 8
@@ -8332,7 +8462,7 @@ class Inevitable (Style):
 
 #Clinhyde
 
-class VitalSilverInfusion (Overdrive):
+class VitalSilverInfusion (Finisher):
     is_attack = False
     power = None
     priority = 4
@@ -8341,7 +8471,7 @@ class VitalSilverInfusion (Overdrive):
         self.me.vital_silver_activated = True
         self.me.evaluation_bonus -= 4 # for losing life in the future
 
-class RitherwhyteInfusion (Overdrive):
+class RitherwhyteInfusion (Finisher):
     is_attack = False
     power = None
     priority = 4
@@ -8478,7 +8608,7 @@ class Hylatine (StimPack):
 #Clive
 
 # Not implemented, fork is too large.
-class SystemReset (Overdrive):
+class SystemReset (Finisher):
     is_attack = False
     power = None
     priority = 5
@@ -8486,14 +8616,14 @@ class SystemReset (Overdrive):
     def after_trigger (self):
         raise NotImplementedError()
         
-class SystemShock (Overdrive):
+class SystemShock (Finisher):
     minrange = 1
     maxrange = 4
     power = 7
     priority = 7
     # Only activates if all modules are discarded
     def devolves_into_cancel (self):
-        return (Overdrive.devolves_into_cancel(self) or
+        return (Finisher.devolves_into_cancel(self) or
                 self.me.module_stack or self.me.active_modules)
     def evaluate_setup (self):
         return 2 if self.game.distance()<= 4 and not (self.me.module_stack or
@@ -8630,7 +8760,7 @@ class ExtendingArms (Module):
     
 #Demitras
 
-class SymphonyOfDemise (Overdrive):
+class SymphonyOfDemise (Finisher):
     name_override = 'Symphony of Demise'
     minrange = 1
     maxrange = 1
@@ -8645,7 +8775,7 @@ class SymphonyOfDemise (Overdrive):
     def evaluate_setup (self):
         return 2 if self.game.distance()<6 and len(self.me.pool) < 3 else 0
 
-class Accelerando (Overdrive):
+class Accelerando (Finisher):
     minrange = 2
     maxrange = 2
     power = 2
@@ -8753,7 +8883,7 @@ class Crescendo (Token):
 
 #Eligor
 
-class SweetRevenge (Overdrive):
+class SweetRevenge (Finisher):
     minrange = 1
     maxrange = 2
     stunguard = 3
@@ -8767,7 +8897,7 @@ class SweetRevenge (Overdrive):
     def evaluate_setup (self):
         return 2 if self.game.distance() <= 2 else 0
 
-class SheetLightning (Overdrive):
+class SheetLightning (Finisher):
     minrange = 3
     maxrange = 6
     power = 4
@@ -8802,7 +8932,7 @@ class Vengeful (Style):
     def blocks_pullpush (self):
         return set(xrange(7))
 
-class Counter (Style):
+class CounterStyle (Style):
     power = 1
     priority = -1
     def start_trigger (self):
@@ -8858,7 +8988,7 @@ class VengeanceT (Token):
 
 #Heketch
 
-class MillionKnives (Overdrive):
+class MillionKnives (Finisher):
     minrange = 1
     maxrange = 4
     power = 3
@@ -8874,7 +9004,7 @@ class MillionKnives (Overdrive):
 
 # Unlimited tokens are implemented by having Heketch recover a token whenever
 # he discards one.
-class LivingNightmare (Overdrive):
+class LivingNightmare (Finisher):
     minrange = 1
     maxrange = 1
     power = 3
@@ -8979,7 +9109,7 @@ class DarkForce (Token):
 
 #Hepzibah
 
-class SealThePact (Overdrive):
+class SealThePact (Finisher):
     name_override = 'Seal the Pact'
     power = None
     soak = 2
@@ -9074,7 +9204,7 @@ class InevitableT (Token):
 
 #Hikaru
 
-class WrathOfElements (Overdrive):
+class WrathOfElements (Finisher):
     name_override = 'Wrath of Elements'
     minrange = 1
     maxrange = 1
@@ -9089,7 +9219,7 @@ class WrathOfElements (Overdrive):
                if dist == 1 or (dist==2 and self.me.water in self.me.pool) \
                else 0
 
-class FourWinds (Overdrive):
+class FourWinds (Finisher):
     minrange = 1
     maxrange = 1
     power = 2
@@ -9188,7 +9318,7 @@ class Wind (Token):
 
 #Kajia
 
-class Wormwood (Overdrive):
+class Wormwood (Finisher):
     minrange = 1
     maxrange = 1
     power = 3
@@ -9206,7 +9336,7 @@ class Wormwood (Overdrive):
                 if self.game.distance() <= insects + 1
                 else 0)
 
-class CreepingDeath (Overdrive):
+class CreepingDeath (Finisher):
     minrange = 3
     maxrange = 6
     power = 1
@@ -9338,14 +9468,14 @@ class Biting (Style):
         
 #Kallistar
 
-class Supernova (Overdrive):
+class Supernova (Finisher):
     minrange = 1
     maxrange = 2
     power = 8
     priority = 5
     # devolves to cancel if I'm human
     def devolves_into_cancel (self):
-        return Overdrive.devolves_into_cancel (self) or not self.me.is_elemental
+        return Finisher.devolves_into_cancel (self) or not self.me.is_elemental
     # if you got here, you lose
     def end_trigger (self):
         raise WinException (self.opponent.my_number)
@@ -9353,7 +9483,7 @@ class Supernova (Overdrive):
         return 1 if self.me.is_elemental and self.game.distance() <=2 and \
                self.opponent.life <= 8 else 0
 
-class ChainOfDestruction (Overdrive):
+class ChainOfDestruction (Finisher):
     name_override = 'Chain of Destruction'
     minrange = 4
     maxrange = 6
@@ -9361,7 +9491,7 @@ class ChainOfDestruction (Overdrive):
     priority = 5
     # devolves to cancel if I'm elemental
     def devolves_into_cancel (self):
-        return Overdrive.devolves_into_cancel (self) or self.me.is_elemental
+        return Finisher.devolves_into_cancel (self) or self.me.is_elemental
     def hit_trigger (self):
         if self.me.life >= 4:
             if self.game.make_fork (2, self.me,
@@ -9444,7 +9574,7 @@ class Blazing (Style):
 
 #Karin
 
-class RedMoonRage (Overdrive):
+class RedMoonRage (Finisher):
     power = 10
     priority = 12
     standard_range = False
@@ -9458,7 +9588,7 @@ class RedMoonRage (Overdrive):
            self.me.position + self.me.jager_position == 2 * self.opponent.position \
            else 0
 
-class LunarCross (Overdrive):
+class LunarCross (Finisher):
     power = 6
     priority = 5
     # Swap places with Jager if possible.
@@ -9618,7 +9748,7 @@ class Dual (Style):
 
 #Kehrolyn
 
-class HydraFork (Overdrive):
+class HydraFork (Finisher):
     minrange = 1
     maxrange = 3
     power = 6
@@ -9630,7 +9760,7 @@ class HydraFork (Overdrive):
         return 1 if self.game.distance() <= 3 else 0
 
 # NOT IMPLEMENTED
-class TheAugustStrain (Overdrive):
+class TheAugustStrain (Finisher):
     minrange = 1
     maxrange = 2
     power = 4
@@ -9710,7 +9840,7 @@ class Exoskeletal (Style):
 
 #Khadath
 
-class DimensionalExile (Overdrive):
+class DimensionalExile (Finisher):
     power = 25
     priority  = 0
     standard_range = False
@@ -9722,7 +9852,7 @@ class DimensionalExile (Overdrive):
         return 1 if self.opponent.position == self.me.trap_position else 0
 
 # NOT IMPLEMENTED
-class PlanarCrossing (Overdrive):
+class PlanarCrossing (Finisher):
     minrange = 1
     maxrange = 2
     power = 4
@@ -9827,7 +9957,7 @@ class Lure (Style):
 
 #Lixis
 
-class VirulentMiasma (Overdrive):
+class VirulentMiasma (Finisher):
     minrange = 1
     maxrange = 3
     power = 4
@@ -9839,7 +9969,7 @@ class VirulentMiasma (Overdrive):
         return 1.5 if self.game.distance() <= 3 else 0
 
 # NOT IMPLEMENTED
-class LifeVirus (Overdrive):
+class LifeVirus (Finisher):
     minrange = 3
     maxrnage = 6
     power = 4
@@ -9920,7 +10050,7 @@ class Pruning (Style):
         
 #Luc
 
-class TemporalRecursion (Overdrive):
+class TemporalRecursion (Finisher):
     minrange = 1
     maxrange = 1
     power = 3
@@ -9941,7 +10071,7 @@ class TemporalRecursion (Overdrive):
                 self.game.report ("Luc attacks %d more times" %extra_attacks)
 
 # NOT IMPLEMENTED
-class StassisCharge (Overdrive):
+class StassisCharge (Finisher):
     minrange = 1
     maxrange = 1
     power = 4
@@ -10039,7 +10169,7 @@ class Time (Token):
 
 #Lymn
 
-class Megrim (Overdrive):
+class Megrim (Finisher):
     is_attack = False
     power = None
     def can_be_hit(self):
@@ -10047,7 +10177,7 @@ class Megrim (Overdrive):
     def end_trigger(self):
         self.opponent.lose_life (self.me.disparity)
 
-class Conceit (Overdrive):
+class Conceit (Finisher):
     is_attack = False
     power = None
     priority = 7
@@ -10159,7 +10289,7 @@ class Fathomless (Style):
 
 #Magdelina
 
-class SolarSoul (Overdrive):
+class SolarSoul (Finisher):
     minrange = 1
     maxrange = 1
     power = 1
@@ -10241,7 +10371,7 @@ class Excelsius (Style):
 
 #Marmelee
 
-class AstralCannon (Overdrive):
+class AstralCannon (Finisher):
     minrange = 2
     maxrange = 4
     priority = 4
@@ -10256,7 +10386,7 @@ class AstralCannon (Overdrive):
         return 1 if len(self.me.pool) >= 3 and self.game.distance() in (2,3,4) \
                else 0
 
-class AstralTrance (Overdrive):
+class AstralTrance (Finisher):
     is_attack = False
     power = None
     soak = 5
@@ -10417,7 +10547,7 @@ class Concentration (Token):
 
 #Mikhail
 
-class MagnusMalleus (Overdrive):
+class MagnusMalleus (Finisher):
     minrange = 2
     maxrange = 4
     power = 2
@@ -10433,7 +10563,7 @@ class MagnusMalleus (Overdrive):
         return 0.5 * len(self.me.pool) if self.me.attack_range() in [2,3,4] \
                else 0
 
-class TheFourthSeal (Overdrive):
+class TheFourthSeal (Finisher):
     minrange = 1
     maxrange = 2
     power = 7
@@ -10517,7 +10647,7 @@ class Seal (Token):
 
 #Oriana
 
-class NihilEraser (Overdrive):
+class NihilEraser (Finisher):
     minrange = 1
     maxrange = 6
     priority = 4
@@ -10526,7 +10656,7 @@ class NihilEraser (Overdrive):
     def evaluate_setup (self):
         return 1 if self.me.ante.count(self.me.mp) == 10 else 0
 
-class GalaxyConduit (Overdrive):
+class GalaxyConduit (Finisher):
     is_attack = False
     power = None
     priority = 4
@@ -10664,7 +10794,7 @@ class MagicPoint (Token):
 
 #Rexan
 
-class ZeroHour (Overdrive):
+class ZeroHour (Finisher):
     is_attack = False
     power = None
     def end_trigger (self):
@@ -10674,7 +10804,7 @@ class ZeroHour (Overdrive):
         return 2 if len(self.me.induced_pool) == 3 else 0
 
 # Restricting all stats to printed *base* power is not implemented
-class BlackEclipse (Overdrive):
+class BlackEclipse (Finisher):
     minrange = 1
     maxrange = 1
     power = 3
@@ -10705,7 +10835,6 @@ class Unyielding (Style):
     def can_be_hit (self):
         return len(self.me.induced_pool) < 3
     def evaluation_bonus (self):
-        pool = len(self.me.induced_pool)
         return 0.5 if len(self.me.induced_pool) == 3 else -0.1
     # Extra cursing handled by Rexan.take_a_hit_trigger()
 
@@ -10766,7 +10895,7 @@ class Curse (Token):
 
 #Rukyuk
 
-class FullyAutomatic (Overdrive):
+class FullyAutomatic (Finisher):
     minrange = 3
     maxrange = 6
     power = 2
@@ -10788,7 +10917,7 @@ class FullyAutomatic (Overdrive):
     def evaluate_setup (self):
         return 2 if len(self.me.pool) > 2 and self.game.distance() >= 3 else 0
 
-class ForceGrenade (Overdrive):
+class ForceGrenade (Finisher):
     minrange = 1
     maxrange = 2
     power = 4
@@ -10907,7 +11036,7 @@ class SwiftShell (Token):
 
 #Runika
 
-class ArtificeAvarice (Overdrive):
+class ArtificeAvarice (Finisher):
     minrange = 1
     maxrange = 1
     power = 3
@@ -10935,7 +11064,7 @@ class ArtificeAvarice (Overdrive):
         return repair_value if self.game.distance() <= 2 else repair_value / 2.0
     # protecting artifacts handled by Runika.take_a_hit_trigger()
 
-class UdstadBeam (Overdrive):
+class UdstadBeam (Finisher):
     minrange = 4
     maxrange = 5
     power = 6
@@ -11086,7 +11215,7 @@ class Battlefist (Artifact):
 #Seth
 
 # Not Implemented
-class ReadingFate (Overdrive):
+class ReadingFate (Finisher):
     minrange = 1
     maxrange = 3
     priority = 6
@@ -11096,16 +11225,16 @@ class ReadingFate (Overdrive):
     def evaluate_setup (self):
         return 2 if self.game.distanc() <= 3 else 0
 
-class FortuneBuster (Overdrive):
+class FortuneBuster (Finisher):
     deals_damage = False
     minrange = 1
     maxrange = 6
     power = None
     priority = 13
-    # Wins priority, even against other overdrives (that get 0.2)
+    # Wins priority, even against other finishers (that get 0.2)
     clash_priority = 0.3
     def hit_trigger (self):
-        if isinstance(self.opponent.base, Overdrive):
+        if isinstance(self.opponent.base, Finisher):
             raise WinException (self.me.my_number)
     def evaluate_setup (self):
         return (1 if self.opponent.special_action_available and
@@ -11196,8 +11325,8 @@ class Compelling (Style):
 #Shekhtur
 
 # Soul Breaker isn't fully implemented -
-# so Shekhtur only has her other overdrive
-class SoulBreaker (Overdrive):
+# so Shekhtur only has her other finisher
+class SoulBreaker (Finisher):
     minrange = 1
     maxrange = 1
     power = 3
@@ -11206,7 +11335,7 @@ class SoulBreaker (Overdrive):
         self.opponent.stun()
         # MISSING: opponent loses abilities
 
-class CoffinNails (Overdrive):
+class CoffinNails (Finisher):
     minrange = 1
     maxrange = 1
     power = 3
@@ -11295,7 +11424,7 @@ class Malice (Token):
 
 #Tatsumi
 
-class TsunamisCollide (Overdrive):
+class TsunamisCollide (Finisher):
     minrange = 2
     maxrange = 4
     def can_hit (self):
@@ -11314,7 +11443,7 @@ class TsunamisCollide (Overdrive):
         else:
             return 0
 
-class BearArms (Overdrive):
+class BearArms (Finisher):
     power = 6
     priority = 5
     standard_range = False
@@ -11426,7 +11555,7 @@ class Empathic (Style):
     def end_trigger (self):
         self.opponent.lose_life(self.me.juto_damage_taken)
 
-class Wave (Style):
+class WaveStyle (Style):
     minrange = 2
     maxrange = 4
     power = -1
@@ -11444,7 +11573,7 @@ class Wave (Style):
 
 #Vanaah
 
-class DeathWalks (Overdrive):
+class DeathWalks (Finisher):
     minrange = 1
     maxrange = 2
     power = 5
@@ -11456,7 +11585,7 @@ class DeathWalks (Overdrive):
     def evaluate_setup (self):
         return 1 if self.game.distance() <= 2 else 0
 
-class HandOfDivinity (Overdrive):
+class HandOfDivinity (Finisher):
     name_override = "Hand of Divinity"
     minrange = 5
     maxrange = 5
@@ -11539,7 +11668,7 @@ class DivineRush (Token):
 
 #Voco
 
-class ZMosh (Overdrive):
+class ZMosh (Finisher):
     name_override = 'Z-Mosh'
     minrange = 1
     maxrange = 6
@@ -11553,7 +11682,7 @@ class ZMosh (Overdrive):
         return 0.5 * len (self.me.zombies & set ((pos-1,pos,pos+1)))
     # Non-removal of zombies handled by Voco.soak_trigger()
 
-class TheWave (Overdrive):
+class TheWave (Finisher):
     power = 2
     priority = 5
     standard_range = False
@@ -11680,7 +11809,7 @@ class Thunderous (Style):
 
 #Zaamassal
 
-class OpenTheGate (Overdrive):
+class OpenTheGate (Finisher):
     name_override = 'Open the Gate'
     minrange = 1
     maxrange = 2
@@ -11700,7 +11829,7 @@ class OpenTheGate (Overdrive):
                     (dist in (3,4) and self.me.distortion in self.me.paradigms) \
                else 0
 
-class PlaneDivider (Overdrive):
+class PlaneDivider (Finisher):
     minrange = 1
     maxrange = 1
     power = 2

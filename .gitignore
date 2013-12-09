@@ -27,6 +27,7 @@ pip-log.txt
 .tox
 nosetests.xml
 
+
 # Translations
 *.mo
 
@@ -34,3 +35,6 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+*~
+doc
