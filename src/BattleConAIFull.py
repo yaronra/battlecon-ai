@@ -7,12 +7,6 @@
 # Add beat number to gamestate - and cause win exceptions on beat 15.
 # At that point, also make sure pulses don't advance beat number.
 
-# Double Pulse/Cancel: both choose again, 
-#    special actions go to discard 1 (not removed completely).
-# The same happens when finishers clash.
-# Handle this in simulation: discard the special action, evaluate.
-# That way, no need to solve sub-matrices later.
-
 # Cancel: opponent's pair goes in discard (two pairs there),
 # then both choose a pair (ante is locked).
 # Option 1: For each cancel vs. pair, solve 15x8 matrix.
@@ -125,17 +119,17 @@ def test (first=None, beta_bases=False):
         n1 = playable[j]
         print n0, n1
         start_time = time.time()
-        game_log, unused_winner = play_game (
-            n0, n1, beta_bases, beta_bases,
-            default_discards = True)
+        game = Game.from_start (n0, n1, beta_bases, beta_bases, 
+                                default_discards=True)
+        game_log, unused_winner = game.play_game()
         end_time = time.time()
         print "tot time:", end_time - start_time
         log.extend(game_log)
-    logfilename = "v1.1_test"
+    logfilename = "logs/v1.1_test"
     with open (logfilename, 'w') as f:
         for g in log:
             f.write (g+'\n')
-
+        
 def play ():
     # hepzibah and clive are too slow.
     names = sorted([k.capitalize() for k in character_dict.keys()
@@ -145,21 +139,22 @@ def play ():
         human = names [menu(names)]
         print "Select AI character: [1-%d]\n" %len(names)
         ai = names[menu(names)]
+        # For now, don't use beta bases.
 #         print "Which set of bases should be used?"
 #         ans = menu(['Standard bases',
 #                     'Beta bases',
 #                     'I use standard, AI uses beta',
 #                     'I use beta, AI uses standard'])
-        # For now, don't use beta bases.
-        ans = 1
+        ans = 0
         ai_beta = ans in (1,2)
         human_beta = ans in (1,3)
         print "Default Discards?"
         default_discards = menu (["No", "Yes"])
-        game_log, unused_winner = play_game (
-                                    ai, human, ai_beta, human_beta,
-                                    default_discards = default_discards,
-                                    interactive = True)
+        game = Game.from_start (ai, human, ai_beta, human_beta, 
+                                default_discards=default_discards,
+                                interactive=True)
+        game.select_finishers()
+        game_log, unused_winner = game.play_game()
         if not os.path.exists ("logs"):
             os.mkdir ("logs")
         if ai_beta:
@@ -173,7 +168,7 @@ def play ():
         print "\nAnother game?"
         if not menu (["No","Yes"]):
             break
-        
+
 def save_log(basename, log):
     for i in range (1,10000):
         name = basename + "[" + str(i) + "].txt"
@@ -212,9 +207,10 @@ def duel (name0, name1, repeat, beta_bases0=False, beta_bases1=False,
     print name0 + beta_str0, "vs.", name1 + beta_str1
     log = []
     for i in range(repeat):
-        game_log, winner = play_game (
-            name0, name1, beta_bases0, beta_bases1,
-            default_discards = False, first_beats=first_beats)
+        game = Game.from_start (name0, name1, beta_bases0, beta_bases1, 
+                                default_discards=False,
+                                first_beats=first_beats)
+        game_log, winner = game.play_game()
         log.append ("GAME %d\n-------\n" %i)
         log.extend (game_log)
         if winner == None:
@@ -233,92 +229,6 @@ def duel (name0, name1, repeat, beta_bases0=False, beta_bases1=False,
     with open (logfilename, 'w') as f:
         for g in log:
             f.write (g+'\n')
-
-def play_game (name0, name1, beta_bases0=False, beta_bases1=False, 
-               default_discards=False,
-               interactive=False, cheating=0, first_beats=False):
-    game = Game.from_start (name0, name1, beta_bases0, beta_bases1, 
-                            default_discards,
-                            interactive=interactive, cheating=cheating,
-                            first_beats=first_beats)
-    game_log = ["\n" + game.player[0].name + 
-                (" (beta bases)" if beta_bases0 else "") +
-                " vs. " + game.player[1].name +
-                (" (beta bases)" if beta_bases1 else "")]
-    for p in game.player:
-        game_log.append ("Implemented finishers for %s: " % p.name +
-                         ', '.join([o.name for o in p.finishers]))
-    n_beats = 2 if first_beats else 15
-    for beat in xrange (1, n_beats+1):
-        game_log.append ("\nBeat %d" %beat)
-        game_log.append ("-------\n")
-        game_log.extend (game.situation_report ())
-        game.initialize_simulations ()
-        if interactive:
-            game.dump (game_log)
-        game.reporting = False
-        game.simulate_beat ()
-
-        log_unbeatable_strategies (game, game_log)
-
-        game.reporting = True
-        final_state, report = game.solve_and_execute_beat ()
-        game_log.extend (report)
-        if final_state.winner != None:
-            break
-        game.full_restore (final_state)
-        game.prepare_next_beat ()
-    winner = final_state.winner
-    # break ties
-    if winner == None:
-        diff = game.player[0].life - game.player[1].life
-        if diff > 0:
-            winner = 0
-        elif diff < 0:
-            winner = 1
-    if winner == None: 
-        game_log.append ("\nGAME IS TIED!\n")
-    else:
-        game_log.append ("\n" + game.player[winner].name.upper() + " WINS\n")
-        winner = game.player[winner].name
-    game.dump (game_log)
-    return game.log, winner
-
-
-def log_unbeatable_strategies (game, game_log):
-    # check if there's a 100% positive strategy, and note it in log:
-    # disregard special actions
-    if not game.interactive:
-        if len(game.results[0]) == 0:
-            raise DebugException(game)
-        results = numpy.array(game.results)
-        s0 = game.player[0].strats
-        s1 = game.player[1].strats
-        regular_0 = [i for i in range(len(s0))
-                   if not isinstance (s0[i][0], SpecialAction)] 
-        regular_1 = [i for i in range(len(s1))
-                   if not isinstance (s1[i][0], SpecialAction)]
-        results = results[regular_0,:][:,regular_1]
-        row_values = results.min(1)
-        if row_values.max() > 0:
-            for i in range(len(row_values)):
-                if row_values[i] > 0:
-                    game_log.append ("Unbeatable strategy for %s: %s: %.2f"
-                        % (game.player[0].name,
-                           game.player[0].get_strategy_name(
-                                            s0[regular_0[i]]),
-                           row_values[i]))
-            game_log.append ("")
-        col_values = results.max(0)
-        if col_values.min() < 0:
-            for j in range(len(col_values)):
-                if col_values[j] < 0:
-                    game_log.append ("Unbeatable strategy for %s: %s: %.2f"
-                        % (game.player[1].name,
-                           game.player[1].get_strategy_name(
-                                            s1[regular_1[j]]),
-                           col_values[j]))
-            game_log.append ("")
 
 # runs one beat from file data
 def play_beat (filename='starting states/start.txt'):
@@ -505,6 +415,7 @@ class Game:
         # If this is True, we're checking initial discards, so we only play
         # two beats, and start the game with all cards in hand.
         self.first_beats = first_beats
+        self.n_beats = (2 if first_beats else 15)
         
         self.interactive_mode = False
         self.replay_mode = False
@@ -525,6 +436,10 @@ class Game:
         for p in self.player:
             p.set_starting_setup (default_discards, use_special_actions)
 
+    def select_finishers(self):
+        for p in self.player:
+            p.select_finisher()
+
     def initialize_simulations (self):
         # save initial game state
         self.initial_state = self.initial_save ()
@@ -534,6 +449,48 @@ class Game:
             p.set_preferred_range()
         self.initial_evaluation = [p.evaluate() for p in self.player]
 
+    # Play a game from current situation to conclusion
+    def play_game (self):
+        full_names = [p.name + 
+                      (" (beta bases)" if p.use_beta_bases else "")
+                      for p in self.player]
+        log = ["\n" + " vs. ".join(full_names)]
+        for p in self.player:
+            log.append ("Chosen finisher for %s: " % p.name +
+                             ', '.join([o.name for o in p.finishers]))
+        for beat in xrange (1, self.n_beats+1):
+            log.append ("\nBeat %d" %beat)
+            log.append ("-------\n")
+            log.extend (self.situation_report ())
+            self.initialize_simulations ()
+            if self.interactive:
+                self.dump(log)
+            self.reporting = False
+            self.simulate_beat ()
+            self.log_unbeatable_strategies(log)
+            self.reporting = True
+            final_state, report = self.solve_and_execute_beat ()
+            log.extend (report)
+            if final_state.winner != None:
+                break
+            self.full_restore (final_state)
+            self.prepare_next_beat ()
+        winner = final_state.winner
+        # break ties
+        if winner == None:
+            diff = self.player[0].life - self.player[1].life
+            if diff > 0:
+                winner = 0
+            elif diff < 0:
+                winner = 1
+        if winner == None: 
+            log.append ("\nGAME IS TIED!\n")
+        else:
+            log.append ("\n" + self.player[winner].name.upper() + " WINS\n")
+            winner = self.player[winner].name
+        self.dump(log)
+        return log, winner
+
     def situation_report (self):
         report = []
         for p in self.player:
@@ -541,6 +498,42 @@ class Game:
             report.append ("")
         report.extend (self.get_board())
         return report
+
+    def log_unbeatable_strategies (self, log):
+        # check if there's a 100% positive strategy, and note it in log:
+        # disregard special actions
+        if self.interactive:
+            return
+        if len(self.results[0]) == 0:
+            raise DebugException(self)
+        results = numpy.array(self.results)
+        s0 = self.player[0].strats
+        s1 = self.player[1].strats
+        regular_0 = [i for i in range(len(s0))
+                   if not isinstance (s0[i][0], SpecialAction)] 
+        regular_1 = [i for i in range(len(s1))
+                   if not isinstance (s1[i][0], SpecialAction)]
+        results = results[regular_0,:][:,regular_1]
+        row_values = results.min(1)
+        if row_values.max() > 0:
+            for i in range(len(row_values)):
+                if row_values[i] > 0:
+                    log.append ("Unbeatable strategy for %s: %s: %.2f"
+                        % (self.player[0].name,
+                           self.player[0].get_strategy_name(
+                                            s0[regular_0[i]]),
+                           row_values[i]))
+            log.append ("")
+        col_values = results.max(0)
+        if col_values.min() < 0:
+            for j in range(len(col_values)):
+                if col_values[j] < 0:
+                    log.append ("Unbeatable strategy for %s: %s: %.2f"
+                        % (self.player[1].name,
+                           self.player[1].get_strategy_name(
+                                            s1[regular_1[j]]),
+                           col_values[j]))
+            log.append ("")
 
     # empty given log into Game.log; print it if game is interactive
     def dump (self, log):
@@ -1651,6 +1644,19 @@ class Character (object):
         # they will cycle into discard[1] at end of beat.
         # (discard [0] is empty between beats)
         self.discard = [set() for i in range(3)]
+
+    def select_finisher(self):
+        if len(self.finishers) == 1:
+            print "Only one Finisher implemented for %s" % self.name
+        else:
+            if self.is_user:
+                print "Select a Finisher for %s:" % self.name
+                ans = menu([f.name for f in self.finishers])
+            else:
+                ans = int(random.random() * len(self.finishers))
+            self.finishers = [self.finishers[ans]]
+            print "%s selects a Finisher: %s" %(self.name,
+                                                self.finishers[0].name)
 
     # used by game to add opponent to all your cards/tokens etc.
     def all_cards (self):
@@ -12049,5 +12055,5 @@ character_dict = {'adjenna'  :Adjenna,
                   'zaamassal':Zaamassal}
 
 if __name__ == "__main__":
-    test()
+    play()
 
