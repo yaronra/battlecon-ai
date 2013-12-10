@@ -10,12 +10,32 @@
 # Double Pulse/Cancel: both choose again, 
 #    special actions go to discard 1 (not removed completely).
 # The same happens when finishers clash.
+# Handle this in simulation: discard the special action, evaluate.
+# That way, no need to solve sub-matrices later.
 
 # Cancel: opponent's pair goes in discard (two pairs there),
 # then both choose a pair (ante is locked).
+# Option 1: For each cancel vs. pair, solve 15x8 matrix.
+#     Problems:
+#         1. Takes a long time.
+#         2. Imprecise, because original sims didn't take into account
+#            the extra missing pair at end of beat.
+#                (can simulate again, but that's even longer.)
+# Option 2: Evaluate in simulation the loss of a pair for 3 beats
+#     Problems:
+#         1. Always the same evaluation of lost pair.  There's also
+#            preferred_range of lost/remaining card, but that's 
+#            very rough.
+#         2. Not clear how to evaluate spent ante, which might be
+#            a complete loss, or still useful this beat.
+
 
 # Beta bases: set order_forks for characters where needed.
 #    Choose initial discards, or always play with default in beta.
+
+# Pulse: when no character has board markers, can use board symmetry
+# to trim fork size.  This means every character should have a function
+# that says if board is currently empty (or at least symmetrical).
 
 # Can't move directly to own space.  Probably best to remove from
 # destination of each instance.
@@ -131,7 +151,7 @@ def play ():
 #                     'I use standard, AI uses beta',
 #                     'I use beta, AI uses standard'])
         # For now, don't use beta bases.
-        ans = 0
+        ans = 1
         ai_beta = ans in (1,2)
         human_beta = ans in (1,3)
         print "Default Discards?"
@@ -400,7 +420,9 @@ def pos_range (a, b):
 # main game class, holds all information and methods
 class Game:
 
-    # constants for indicating special events in result matrix
+    # Constants for indicating special events in result matrix.
+    # These will never actually given to the solver - they need to 
+    # be dealt with in pre-processing.
     # (all constants are floats, so that the numpy array stays a float array)
     clash_indicator = -1000.0
     cancel_0_indicator = -2000.0
@@ -409,6 +431,9 @@ class Game:
     cancel_indicators = set ([cancel_0_indicator, \
                                  cancel_1_indicator, \
                                  cancel_both_indicator])
+    # Very good/bad result constant (used to prevent certain strats
+    # from being chosen by AI:
+    extreme_result = 20.0
 
     @staticmethod
     def from_file (file_name):
@@ -669,19 +694,17 @@ class Game:
                     if p.base.devolves_into_cancel():
                         p.base = p.cancel
 
-            # Cancel - return an appropriate cancel indicator
-            # (depending on who cancelled)
-            # this will be solved retroactively
+            # Cancel - if one player cancelled, return an appropriate 
+            # cancel indicator (depending on who cancelled).
+            # This will be solved retroactively.
+            # (A double Cancel will be simulated).
             cancel0 = isinstance (self.player[0].base, Cancel)
             cancel1 = isinstance (self.player[1].base, Cancel)
-            if cancel0 or cancel1:
+            if cancel0 + cancel1 == 1:
                 final_state = self.full_save (None)
-            if cancel0 and cancel1:
-                return self.cancel_both_indicator, final_state, self.fork_decisions[:]
-            if cancel0:
-                return self.cancel_0_indicator, final_state, self.fork_decisions[:]
-            if cancel1:
-                return self.cancel_1_indicator, final_state, self.fork_decisions[:]
+                cancel_indicator = (self.cancel_0_indicator if cancel0
+                                    else self.cancel_1_indicator)
+                return cancel_indicator, final_state, self.fork_decisions[:]
 
             # save state before pulse phase (stage 0)
             state = self.full_save (0)
@@ -689,38 +712,53 @@ class Game:
         # catch ForkExceptions and WinExceptions
         try:
 
-            # stage 0 is pulse check, reveal trigger and clash check
+            # stage 0 includes: pulse (and double cancel) check, 
+            #                   reveal trigger, clash check.
             if state.stage <=0:
-                pulsing_players = [p for p in self.player \
+                pulsing_players = [p for p in self.player
                                    if isinstance (p.base, Pulse)]
-                # Pulse - rearrange players and skip directly to cycle and
-                # evaluation phase.
+                # Treat a double cancel like a double pulse
+                cancelling_players = [p for p in self.player
+                                      if isinstance (p.base, Cancel)]
+                if len(cancelling_players) == 2:
+                    pulsing_players = cancelling_players
+                    
+                # With one pulse - fork to decide new player positions.
                 # Not using execute_move, because Pulse negates any blocking
                 # or reaction effects (including status effects from last beat).
-                if len (pulsing_players) > 0:
-                    # one pulse - fork to decide new player positions.
-                    if len (pulsing_players) == 1:
-                        pairs = list(itertools.permutations(xrange(7), 2))
-                        prompt = "Choose positions after Pulse:"
-                        options = []
-                        if pulsing_players[0].is_user and self.interactive_mode:
-                            current_pair = (self.player[0].position,
-                                            self.player[1].position)
-                            for pair in pairs:
-                                (self.player[0].position,
-                                 self.player[1].position) = pair
-                                options.append (self.get_basic_board())
+                if len (pulsing_players) == 1:
+                    pairs = list(itertools.permutations(xrange(7), 2))
+                    prompt = "Choose positions after Pulse:"
+                    options = []
+                    if pulsing_players[0].is_user and self.interactive_mode:
+                        current_pair = (self.player[0].position,
+                                        self.player[1].position)
+                        for pair in pairs:
                             (self.player[0].position,
-                             self.player[1].position) = current_pair
+                             self.player[1].position) = pair
+                            options.append (self.get_basic_board())
                         (self.player[0].position,
-                         self.player[1].position) = pairs [
-                                                     self.make_fork (len(pairs),
-                                                     pulsing_players[0],
-                                                     prompt, options)]
+                         self.player[1].position) = current_pair
+                    (self.player[0].position,
+                     self.player[1].position) = pairs [
+                                                 self.make_fork (len(pairs),
+                                                 pulsing_players[0],
+                                                 prompt, options)]
                     if self.reporting:
                         self.report ('Pulse:')
                         for s in self.get_board():
                             self.report (s)
+                
+                # With double pulse (or double cancel), put special
+                # action card in discard so that it returns
+                # in 3 beats.
+                if len(pulsing_players) == 2:
+                    for p in pulsing_players:
+                        p.discard[1].add(p.special_action)
+                        
+                # For any Pulse (or double Cancel), skip directly to 
+                # cycle and evaluation phase.
+                if pulsing_players:
                     return self.cycle_and_evaluate()
 
                 for p in range(2):
@@ -746,11 +784,14 @@ class Game:
                         self.report (self.active.name + " is active")
                 # priority tie
                 else:
-                    # two finishers turn into cancels
+                    # Two finishers turn into cancels:
+                    # Put special actions in discard, and skip
+                    # to cycling and evaluation.
                     if isinstance (self.player[0].base, Finisher) and \
                        isinstance (self.player[1].base, Finisher):
-                        final_state = self.full_save (None)
-                        return self.cancel_both_indicator, final_state, self.fork_decisions[:]
+                        for p in self.player:
+                            p.discard[1].add(p.special_action)
+                        return self.cycle_and_evaluate()
                     else:
                         if self.reporting:
                             self.report ("Clash!\n")
@@ -863,7 +904,7 @@ class Game:
     def cycle_and_evaluate (self):
         for p in self.player:
             p.cycle ()
-            # finisherrs and pulsers lose their special actions
+            # finishers, pulses and double cancels lose their special actions
             # (a cancel doesn't get here)
             if isinstance (p.style, SpecialAction):
                 p.special_action_available = False
@@ -1020,7 +1061,6 @@ class Game:
     def solve_and_execute_beat (self):
         ss0 = self.player[0].strats
         ss1 = self.player[1].strats
-#        recursive_clash = (len(ss0)<=4)
         self.initial_restore (self.initial_state)
         self.solve ()
         if self.interactive:
@@ -1048,37 +1088,34 @@ class Game:
 
         # Solve Cancels
         if value in self.cancel_indicators:
-            cancel_0 = (value in (self.cancel_0_indicator,
-                                  self.cancel_both_indicator))
-            cancel_1 = (value in (self.cancel_1_indicator,
-                                  self.cancel_both_indicator))
-            # record lost special actions
+            # Both players can only cancel into (non special action)
+            # strategies with the same ante and no components of original
+            # strategy (this last restriction will only affect 
+            # the player who didn't cancel).
+            post_cancel_strats0 = [s for s in ss0 if 
+                    s[2] == s0[2] and
+                    s[0] != s0[0] and
+                    s[1] != s0[1] and
+                    not isinstance (s[0], SpecialAction)]
+            post_cancel_strats1 = [s for s in ss1 if
+                    s[2] == s1[2] and
+                    s[0] != s1[0] and
+                    s[1] != s1[1] and
+                    not isinstance (s[0], SpecialAction)]
+            # Before re-simulating, we need to update the game state
+            # (record the lost special action and discarded attack pair).
             self.initial_restore (self.initial_state)
-            if cancel_0:
-                self.player[0].special_action_available = False
-            if cancel_1:
-                self.player[1].special_action_available = False
+            canceller = (self.player[0] if value == self.cancel_0_indicator
+                         else self.player[1])
+            canceller.special_action_available = False
+            opp = canceller.opponent
+            opp_strat = s0 if self.cancel_1_indicator else s1
+            opp.discard[1] |= set(opp_strat[:2])
             self.initial_state = self.initial_save ()
-            # find strategies that can be canceled into
-            # (same ante, not a special action)
-            if cancel_0:
-                g0 = [ii for ii in range(len(ss0))
-                      if ss0[ii][2] == s0[2]
-                      and not isinstance (ss0[ii][0], SpecialAction)]
-            else:
-                g0 = [ss0.index(s0)]
-            if cancel_1:
-                g1 = [jj for jj in range(len(ss1))
-                      if ss1[jj][2] == s1[2]
-                      and not isinstance (ss1[jj][0], SpecialAction)]
-            else:
-                g1 = [ss1.index(s1)]
-            # create limited table of results
-            post_cancel_results = [[self.results[ii][jj]
-                                    for jj in g1]
-                                   for ii in g0]
-            post_cancel_strats0 = [ss0[i] for i in g0]
-            post_cancel_strats1 = [ss1[j] for j in g1]
+            # Re-simulate available strategies with updated situation.
+            post_cancel_results = [[float(self.simulate (t0,t1)[0])
+                                    for t1 in post_cancel_strats1]
+                                   for t0 in post_cancel_strats0]
             # solve new table
             array_results = numpy.array(post_cancel_results)
             (mix0, value0) = solve.solve_game_matrix (array_results)
@@ -1211,7 +1248,9 @@ class Game:
                         # and solve it
                         self.results[i][j] = self.sub_solve (subresults)
 
-    # fix cancel results
+    # Fix cancel results in matrix.
+    # Until a better solution is found, just cause AI to ignore the 
+    # possibility: it doesn't play cancel, or play around cancel.
     def fix_cancels(self):
         ss0 = self.player[0].strats
         ss1 = self.player[1].strats
@@ -1220,34 +1259,12 @@ class Game:
         for i in range(n):
             for j in range(m):
                 if self.results[i][j] in self.cancel_indicators:
-                    cancel0 = (self.results[i][j] == self.cancel_0_indicator or \
-                               self.results[i][j] == self.cancel_both_indicator)
-                    cancel1 = (self.results[i][j] == self.cancel_1_indicator or \
-                               self.results[i][j] == self.cancel_both_indicator)
-                    # for each canceller, find indices of strategies that
-                    # share ante decisions with cancel, as long as they
-                    # don't use the special action
-                    # for any non-canceller, keep her strategy
-                    if cancel0:
-                        g0 = [ii for ii in range(n) \
-                              if not isinstance (ss0[ii][0], SpecialAction) \
-                              and ss0[ii][2]==ss0[i][2]]
+                    if self.results[i][j] == self.cancel_0_indicator:
+                        self.results[i][j] = -self.extreme_result
+                    elif self.results[i][j] == self.cancel_1_indicator:
+                        self.results[i][j] = self.extreme_result
                     else:
-                        g0 = [i]
-                    if cancel1:
-                        g1 = [jj for jj in range(m) \
-                              if not isinstance (ss1[jj][0], SpecialAction) \
-                              and ss1[jj][2]==ss1[j][2]]
-                    else:
-                        g1 = [j]
-                    # make sub matrix of those results
-                    subresults = [[self.results[ii][jj] for jj in g1] \
-                                  for ii in g0]
-                    # and solve it, adding penalties for spending
-                    # the special action
-                    # multiplying cancel booleans by 1 is necessary, for some reason
-                    self.results[i][j] = self.sub_solve (subresults) - \
-                            SpecialAction.value * (1*cancel0 - 1*cancel1)
+                        raise Exception("Found double cancel is solution phase - should be handled in sim")
 
     # solves 4x4 (or smaller) matrix created by clash
     def sub_solve (self, matrix):
@@ -2189,6 +2206,10 @@ class Character (object):
     def cycle (self):
         # unless you played your special action
         if not isinstance (self.style, SpecialAction):
+            # if the special action cycles back, restore it.
+            if self.special_action in self.discard[2]:
+                self.special_action_available = True
+            # Actual cycling.
             self.discard [2] = self.discard [1].copy()
             self.discard [1] = self.discard [0].copy()
         # but remove cards from the virtual discard[0] in any case
@@ -12028,5 +12049,5 @@ character_dict = {'adjenna'  :Adjenna,
                   'zaamassal':Zaamassal}
 
 if __name__ == "__main__":
-    play()
+    test()
 
