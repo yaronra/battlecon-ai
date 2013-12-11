@@ -1,12 +1,5 @@
 # TO DO
 
-# Choose finisher at start, if both available.  If only one implemented
-# for human, explain this.  If only one available for AI, report it
-# as "chosen".
-
-# Add beat number to gamestate - and cause win exceptions on beat 15.
-# At that point, also make sure pulses don't advance beat number.
-
 # Cancel: opponent's pair goes in discard (two pairs there),
 # then both choose a pair (ante is locked).
 # Option 1: For each cancel vs. pair, solve 15x8 matrix.
@@ -32,7 +25,10 @@
 # that says if board is currently empty (or at least symmetrical).
 
 # Can't move directly to own space.  Probably best to remove from
-# destination of each instance.
+# destination of each instance (use move to unoccupied instead of 
+# move anywhere.
+
+# Check that all movement blocks interact correctly with direct movement.
 
 # KNOWN BUGS/PROBLEMS
 
@@ -94,6 +90,7 @@ playable = ['adjenna',
             'magdelina',
             'marmelee',
             'mikhail',
+            'oriana',
             'rexan',
             'rukyuk',
             'runika',
@@ -132,8 +129,7 @@ def test (first=None, beta_bases=False):
         
 def play ():
     # hepzibah and clive are too slow.
-    names = sorted([k.capitalize() for k in character_dict.keys()
-                    if k != 'hepzibah' and k != 'clive'])
+    names = sorted([k.capitalize() for k in character_dict.keys()])
     while True:
         print "Select your character: [1-%d]\n" %len(names)
         human = names [menu(names)]
@@ -412,10 +408,12 @@ class Game:
         self.clash0 = False
         self.interactive = interactive
         self.cheating = cheating
-        # If this is True, we're checking initial discards, so we only play
-        # two beats, and start the game with all cards in hand.
+        # If first_beats==True, we're checking initial discards, 
+        # so we only play two beats, and start the game with all cards 
+        # in hand.
         self.first_beats = first_beats
-        self.n_beats = (2 if first_beats else 15)
+        # Initial beat is 1, even if starting from file.  Might need changing.
+        self.current_beat = 1
         
         self.interactive_mode = False
         self.replay_mode = False
@@ -458,8 +456,9 @@ class Game:
         for p in self.player:
             log.append ("Chosen finisher for %s: " % p.name +
                              ', '.join([o.name for o in p.finishers]))
-        for beat in xrange (1, self.n_beats+1):
-            log.append ("\nBeat %d" %beat)
+        # Loop over beats:
+        while True:
+            log.append ("\nBeat %d" % self.current_beat)
             log.append ("-------\n")
             log.extend (self.situation_report ())
             self.initialize_simulations ()
@@ -473,20 +472,14 @@ class Game:
             log.extend (report)
             if final_state.winner != None:
                 break
+            if self.first_beats and self.current_beat == 2:
+                break
             self.full_restore (final_state)
             self.prepare_next_beat ()
         winner = final_state.winner
-        # break ties
-        if winner == None:
-            diff = self.player[0].life - self.player[1].life
-            if diff > 0:
-                winner = 0
-            elif diff < 0:
-                winner = 1
-        if winner == None: 
-            log.append ("\nGAME IS TIED!\n")
+        if winner == 0.5:
+            winner = None
         else:
-            log.append ("\n" + self.player[winner].name.upper() + " WINS\n")
             winner = self.player[winner].name
         self.dump(log)
         return log, winner
@@ -566,6 +559,7 @@ class Game:
         state.winner = self.winner
         state.stage = stage
         state.active = self.active
+        state.stop_the_clock = self.stop_the_clock
         return state
 
     def full_restore (self, state):
@@ -575,6 +569,7 @@ class Game:
         self.decision_counter = state.decision_counter
         self.winner = state.winner
         self.active = state.active
+        self.stop_the_clock = state.stop_the_clock
 
     # resets game state to start of beat position (post strategy selection)
     def reset (self):
@@ -585,6 +580,7 @@ class Game:
         self.decision_counter = 0
         self.winner = None
         self.active = None
+        self.stop_the_clock = False
 
     # run simulation for all strategies, creating result table
     def simulate_beat (self):
@@ -687,17 +683,19 @@ class Game:
                     if p.base.devolves_into_cancel():
                         p.base = p.cancel
 
-            # Cancel - if one player cancelled, return an appropriate 
-            # cancel indicator (depending on who cancelled).
+            # Cancel - return an appropriate cancel indicator
+            # (depending on who cancelled).
             # This will be solved retroactively.
-            # (A double Cancel will be simulated).
             cancel0 = isinstance (self.player[0].base, Cancel)
             cancel1 = isinstance (self.player[1].base, Cancel)
-            if cancel0 + cancel1 == 1:
+            if cancel0 or cancel1:
                 final_state = self.full_save (None)
-                cancel_indicator = (self.cancel_0_indicator if cancel0
-                                    else self.cancel_1_indicator)
-                return cancel_indicator, final_state, self.fork_decisions[:]
+            if cancel0 and cancel1:
+                return self.cancel_both_indicator, final_state, self.fork_decisions[:]
+            if cancel0:
+                return self.cancel_0_indicator, final_state, self.fork_decisions[:]
+            if cancel1:
+                return self.cancel_1_indicator, final_state, self.fork_decisions[:]
 
             # save state before pulse phase (stage 0)
             state = self.full_save (0)
@@ -705,17 +703,10 @@ class Game:
         # catch ForkExceptions and WinExceptions
         try:
 
-            # stage 0 includes: pulse (and double cancel) check, 
-            #                   reveal trigger, clash check.
+            # Stage 0 includes: pulse check, reveal trigger, clash check.
             if state.stage <=0:
                 pulsing_players = [p for p in self.player
                                    if isinstance (p.base, Pulse)]
-                # Treat a double cancel like a double pulse
-                cancelling_players = [p for p in self.player
-                                      if isinstance (p.base, Cancel)]
-                if len(cancelling_players) == 2:
-                    pulsing_players = cancelling_players
-                    
                 # With one pulse - fork to decide new player positions.
                 # Not using execute_move, because Pulse negates any blocking
                 # or reaction effects (including status effects from last beat).
@@ -742,16 +733,17 @@ class Game:
                         for s in self.get_board():
                             self.report (s)
                 
-                # With double pulse (or double cancel), put special
+                # With double pulse, put special
                 # action card in discard so that it returns
                 # in 3 beats.
                 if len(pulsing_players) == 2:
                     for p in pulsing_players:
                         p.discard[1].add(p.special_action)
                         
-                # For any Pulse (or double Cancel), skip directly to 
+                # For any Pulse, skip directly to 
                 # cycle and evaluation phase.
                 if pulsing_players:
+                    self.stop_the_clock = True
                     return self.cycle_and_evaluate()
 
                 for p in range(2):
@@ -777,14 +769,11 @@ class Game:
                         self.report (self.active.name + " is active")
                 # priority tie
                 else:
-                    # Two finishers turn into cancels:
-                    # Put special actions in discard, and skip
-                    # to cycling and evaluation.
+                    # Two clashing finishers turn into cancels.
                     if isinstance (self.player[0].base, Finisher) and \
                        isinstance (self.player[1].base, Finisher):
-                        for p in self.player:
-                            p.discard[1].add(p.special_action)
-                        return self.cycle_and_evaluate()
+                        final_state = self.full_save (None)
+                        return self.cancel_both_indicator, final_state, self.fork_decisions[:]
                     else:
                         if self.reporting:
                             self.report ("Clash!\n")
@@ -864,10 +853,16 @@ class Game:
             w = win.winner
             self.winner = w
             if self.reporting:
-                self.report (self.player[1-w].name.upper() + " IS DEFEATED")
-            final_state = self.full_save (None)
-            return ((-1)**w) * (5 + self.initial_state.player_states[1-w].life), \
-                   final_state, self.fork_decisions[:]
+                if w == 0.5:
+                    self.report("THE GAME IS TIED!")
+                else:
+                    self.report (self.player[w].name.upper() + " WINS!")
+            if w == 0.5:
+                value = 0
+            else:
+                value = ((-1)**w) * (5 + self.initial_state.player_states[1-w].life)
+            final_state = self.full_save(None)
+            return value, final_state, self.fork_decisions[:]
 
     def players_in_order (self):
         if self.active == self.player[0]:
@@ -897,10 +892,22 @@ class Game:
     def cycle_and_evaluate (self):
         for p in self.player:
             p.cycle ()
-            # finishers, pulses and double cancels lose their special actions
+            # finishers and pulsers lose their special actions
             # (a cancel doesn't get here)
             if isinstance (p.style, SpecialAction):
                 p.special_action_available = False
+        
+        # If 15 beats have been played, raise WinException 
+        if self.current_beat == 15 and not self.stop_the_clock:
+            diff = self.player[0].life - self.player[1].life
+            if diff > 0:
+                raise WinException (0)
+            elif diff < 0:
+                raise WinException (1)
+            else:
+                # A tie.
+                raise WinException (0.5)
+        
         for p in self.player:
             p.set_preferred_range()
         relative_evaluation = \
@@ -1084,7 +1091,7 @@ class Game:
             # Both players can only cancel into (non special action)
             # strategies with the same ante and no components of original
             # strategy (this last restriction will only affect 
-            # the player who didn't cancel).
+            # any player who didn't cancel).
             post_cancel_strats0 = [s for s in ss0 if 
                     s[2] == s0[2] and
                     s[0] != s0[0] and
@@ -1096,14 +1103,20 @@ class Game:
                     s[1] != s1[1] and
                     not isinstance (s[0], SpecialAction)]
             # Before re-simulating, we need to update the game state
-            # (record the lost special action and discarded attack pair).
+            # (record the lost special action/s and any discarded attack pair).
             self.initial_restore (self.initial_state)
-            canceller = (self.player[0] if value == self.cancel_0_indicator
-                         else self.player[1])
-            canceller.special_action_available = False
-            opp = canceller.opponent
-            opp_strat = s0 if self.cancel_1_indicator else s1
-            opp.discard[1] |= set(opp_strat[:2])
+            if value == self.cancel_0_indicator:
+                cancellers = [self.player[0]]
+            elif value == self.cancel_1_indicator:
+                cancellers = [self.player[1]]
+            else:
+                cancellers = self.player[:]
+            for c in cancellers:
+                c.special_action_available = False
+            if self.player[0] not in cancellers:
+                self.player[0].discard[1] |= set(s0[:2])
+            if self.player[1] not in cancellers:
+                self.player[1].discard[1] |= set(s1[:2])
             self.initial_state = self.initial_save ()
             # Re-simulate available strategies with updated situation.
             post_cancel_results = [[float(self.simulate (t0,t1)[0])
@@ -1245,8 +1258,6 @@ class Game:
     # Until a better solution is found, just cause AI to ignore the 
     # possibility: it doesn't play cancel, or play around cancel.
     def fix_cancels(self):
-        ss0 = self.player[0].strats
-        ss1 = self.player[1].strats
         n = len (self.results)
         m = len (self.results[0])
         for i in range(n):
@@ -1257,7 +1268,7 @@ class Game:
                     elif self.results[i][j] == self.cancel_1_indicator:
                         self.results[i][j] = self.extreme_result
                     else:
-                        raise Exception("Found double cancel is solution phase - should be handled in sim")
+                        self.results[i][j] = 0
 
     # solves 4x4 (or smaller) matrix created by clash
     def sub_solve (self, matrix):
@@ -1416,79 +1427,6 @@ class Game:
         else:
             self.reports.append (s)
         
-    # given two strategies, analyze their clash
-    # can add a list of extra unavailabe bases for each players
-    # (for a re-clash)
-    # given a cancel strategy, it will analyze a cancel
-    def clash (self, name0, name1, bases0=[], bases1=[]):
-        ss0 = self.player[0].strats
-        ss1 = self.player[1].strats
-        name0 = name0.lower()
-        name1 = name1.lower()
-        bases0 = [b.lower() for b in bases0]
-        bases1 = [b.lower() for b in bases1]
-        i = [self.player[0].get_strategy_name(s).lower() \
-             for s in ss0].index (name0)
-        j = [self.player[1].get_strategy_name(s).lower() \
-             for s in ss1].index (name1)
-        res = self.pre_clash_results[i][j]
-        cancel0 = res in [self.cancel_0_indicator, self.cancel_both_indicator]
-        cancel1 = res in [self.cancel_1_indicator, self.cancel_both_indicator]
-        # if there's no cancel, assume it's a clash
-        # get strats that share style and ante, but not base
-        # (and their base is not in list of extra unavailable bases)
-        if not (cancel0 or cancel1):
-            g0 = [ii for ii in range(len(ss0)) \
-                      if  ss0[ii][0]==ss0[i][0] \
-                      and ss0[ii][2]==ss0[i][2] \
-                      and ss0[ii][1]!=ss0[i][1] \
-                      and ss0[ii][1].name.lower() not in bases0]
-            g1 = [jj for jj in range(len(ss1)) \
-                      if  ss1[jj][0]==ss1[j][0] \
-                      and ss1[jj][2]==ss1[j][2] \
-                      and ss1[jj][1]!=ss1[j][1] \
-                      and ss1[jj][1].name.lower() not in bases1]
-        # if I cancelled, I can do anything that keeps my ante
-        # and doesn't use special action
-        # if just the opponent cancelled, I keep my strats
-        else:
-            if cancel0:
-                g0 = [ii for ii in range(len(ss0)) \
-                      if ss0[ii][2]==ss0[i][2] \
-                        and not isinstance (ss0[ii][0], SpecialAction)]
-            else:
-                g0 = [i]
-            if cancel1:
-                g1 = [jj for jj in range(len(ss1)) \
-                      if ss1[jj][2]==ss1[j][2] \
-                        and not isinstance (ss1[jj][0], SpecialAction)]
-            else:
-                g1 = [j]
-        # make sub matrix of those results
-        # if it's a clash, use pre_clash_results
-        if cancel0 or cancel1:
-            subresults = [[self.results[ii][jj] for jj in g1] \
-                          for ii in g0]
-        else:
-            subresults = [[self.pre_clash_results[ii][jj] for jj in g1] \
-                          for ii in g0]
-        # and vectors of strategies
-        substrats = [[],[]]
-        substrats[0] = [ss0[i] for i in g0]
-        substrats[1] = [ss1[j] for j in g1]
-        # create game copy just to run solve
-        clash_game = copy.deepcopy (self)
-        clash_game.results = subresults
-        for i in (0,1):
-            clash_game.player[i].strats = substrats[i]
-        clash_game.solve ()
-        # print entire matrix for clash or one way cancel
-        # but just relevant strategies for two way cancel
-        if cancel0 and cancel1:
-            clash_game.print_solution()
-        else:
-            clash_game.print_solution ([p.name for p in clash_game.player])
-
     # re-solve matrix assuming that one player antes first
     def first_ante (self, first):
         ss0 = self.player[0].strats
@@ -1560,6 +1498,8 @@ class Game:
         self.print_solution()        
 
     def prepare_next_beat (self):
+        if not self.stop_the_clock:
+            self.current_beat += 1
         for p in self.player:
             p.prepare_next_beat()
 
@@ -1793,6 +1733,9 @@ class Character (object):
         # accumulated bonuses from triggers this beat
         self.triggered_power_bonus = 0
         self.triggered_priority_bonus = 0
+        # if not None, someone has replaced the power of your pair
+        # with this number 
+        self.alt_pair_power = None
 
     # snapshot of game state mid-turn, for forks
     def full_save (self):
@@ -1812,6 +1755,7 @@ class Character (object):
         state.evaluation_bonus = self.evaluation_bonus
         state.triggered_power_bonus = self.triggered_power_bonus
         state.triggered_priority_bonus = self.triggered_priority_bonus
+        state.alt_pair_power = self.alt_pair_power
         return state
 
     # restoration of mid-turn snapshot (in a fork)
@@ -1832,6 +1776,7 @@ class Character (object):
         self.evaluation_bonus = state.evaluation_bonus
         self.triggered_power_bonus = state.triggered_power_bonus
         self.triggered_priority_bonus = state.triggered_priority_bonus
+        self.alt_pair_power = state.alt_pair_power
 
     # switch "next beat" bonuses to "this beat", etc.
     def prepare_next_beat (self):
@@ -1861,10 +1806,6 @@ class Character (object):
     def input_pair (self):
         styles = sorted(list(set([m[0][0] for m in self.mix])),
                        key=attrgetter('order'))
-        # after a one sided cancel, SpecialAction isn't available
-        # (even though it's still in the mix)
-        if not self.special_action_available:
-            styles = [s for s in styles if not isinstance (s, SpecialAction)]
         bases = sorted(list(set([m[0][1] for m in self.mix])),
                        key=attrgetter('order'))
         # friendly reminder of bases in hand when asking about styles
@@ -1942,8 +1883,7 @@ class Character (object):
     # choose a random strategy according to mix
     # (or prompt human player for a strategy)
     def choose_strategy (self):
-        # If there's only one option, return it
-        # (this happens after opponent Cancelled).
+        # If there's only one option, return it.
         if len(self.mix) == 1:
             return self.mix[0][0]
         if self.is_user:
@@ -2008,10 +1948,20 @@ class Character (object):
             priority = min (priority, self.style.priority + self.base.priority)
         return priority
     def get_power (self):
-        power =    self.get_power_bonus() + self.triggered_power_bonus + \
-                   sum(card.power+card.get_power_bonus()
-                        for card in self.active_cards) + \
-                   self.opponent.give_power_penalty()
+        if self.alt_pair_power is None:
+            card_power = sum(card.power+card.get_power_bonus()
+                             for card in self.active_cards)
+        else:
+            # When pair power is externally fixed, used it instead
+            # of actual pair power on the two cards.
+            card_power = (self.alt_pair_power +
+                          sum(card.power for card in self.active_cards
+                              if card not in (self.style, self.base)) +
+                          sum(card.get_power_bonus()
+                              for card in self.active_cards))
+        power = (card_power + self.get_power_bonus() + 
+                 self.triggered_power_bonus + 
+                 self.opponent.give_power_penalty())
         if self.opponent.blocks_bonuses():
             power = min (power, self.style.power + self.base.power)
         # power has a minimum of 0
@@ -2221,6 +2171,11 @@ class Character (object):
         # but remove cards from the virtual discard[0] in any case
         self.discard [0] = set()
 
+    def become_active_player(self):
+        self.game.active = self
+        if self.game.reporting:
+            self.game.report("%s becomes the active player" % self.name)
+
     # can't go over 20
     def gain_life (self, gain):
         self.life = min (20, self.life + gain)
@@ -2384,10 +2339,6 @@ class Character (object):
         self.execute_move (self, dests, direct=True)
     def move_opponent_directly (self, dests):
         self.execute_move (self.opponent, dests, direct=True)
-    def move_anywhere (self):
-        self.move_directly (range(7))
-    def move_opponent_anywhere (self):
-        self.move_opponent_directly (range(7))
     def move_to_unoccupied (self):
         self.move_directly (list(set(xrange(7)) -
                                  set((self.position,
@@ -2429,7 +2380,8 @@ class Character (object):
         mover_pos = mover.position
         # obtain set of attempted destinations
         if direct:
-            # moves are given as destinations, just remove opponent's position
+            # Moves are given as destinations, just remove opponent's position.
+            # Don't remove own position, because some moves say "may".
             dests = (set(moves) - set([mover.opponent.position])) & set(xrange(7))
         else:
             # convert relative moves to destinations
@@ -2441,7 +2393,7 @@ class Character (object):
             blocked = self.opponent.blocks_pullpush()
         # record this for later inspection
         self.blocked = blocked
-        # compute possible destination after blocking
+        # compute possible destinations after blocking
         if len (blocked) == 0:
             possible = list (dests)
         else:
@@ -2949,11 +2901,6 @@ class Alexian (Character):
     # record damage soaked (for Steeled and Empire Divider)
     def soak_trigger (self, soaked_damage):
         self.damage_soaked += soaked_damage
-
-    def blocks_hit_triggers (self):
-        return self.regal in self.active_cards
-    def blocks_damage_triggers (self):
-        return self.regal in self.active_cards
 
     # Record switching sides, for Divider
     # This tracks switching under Alexian's initiative
@@ -3478,11 +3425,14 @@ class Cesar (Character):
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
         self.threat_level = 0
+        self.defeat_immunity = True
         self.power_penalty = False
 
     def situation_report (self):
         report = Character.situation_report (self)
         report.append ("Threat level: %d" % self.threat_level)
+        if not self.defeat_immunity:
+            report.append("Defeat immunity used-up")
         if self.power_penalty:
             report.append ("Opponent has -3 power this beat")
         return report
@@ -3491,17 +3441,20 @@ class Cesar (Character):
         lines = Character.read_my_state (self, lines, board, addendum)
         self.threat_level = int(lines[0][-2])
         self.power_penalty = find_start (lines, "Opponent has -3 power this beat")
+        self.defeat_immunity = not find_start(lines, "Defeat immunity used")
         
     def initial_save (self):
         state = Character.initial_save (self)
         state.threat_level = self.threat_level
         state.power_penalty = self.power_penalty
+        state.defeat_immunity = self.defeat_immunity
         return state
 
     def initial_restore (self, state):
         Character.initial_restore (self, state)
         self.threat_level = state.threat_level
         self.power_penalty = state.power_penalty
+        self.defeat_immunity = state.defeat_immunity
 
     def reset (self):
         Character.reset (self)
@@ -3538,7 +3491,7 @@ class Cesar (Character):
             self.stun()
 
     def get_power_bonus(self):
-        return self.threat_level
+        return (self.threat_level if self.threat_level < 4 else 0)
 
     def get_stunguard(self):
         stunguard = Character.get_stunguard(self)
@@ -3555,9 +3508,36 @@ class Cesar (Character):
             soak += 2
         return soak
 
-    def get_minimum_life (self):
-        return 1 if self.life > 1 \
-               else Character.get_minimum_life(self)
+    # Copying all this to implement Cesar's death immunity.
+    def take_damage (self, damage):
+        soak = self.opponent.reduce_soak(self.get_soak())
+        if self.game.debug and soak:
+            self.game.report ('%s has %d soak' % (self, soak))
+        damage_soaked = min (soak, damage)
+        if damage_soaked:
+            self.soak_trigger (damage_soaked)
+        remaining_damage = max(self.get_damage_cap() - self.damage_taken, 0)
+        final_damage = min (damage - damage_soaked, remaining_damage)
+
+        # life can't go below certain minimum (usually 0)
+        self.life = max (self.life - final_damage,
+                         self.get_minimum_life())
+        if self.game.reporting:
+            self.game.report (self.name + \
+                              " takes %d damage (now at %d life)" \
+                              %(final_damage, self.life))
+        if self.life <= 0:
+            if self.defeat_immunity:
+                self.life = 1
+                self.defeat_immunity = False
+            else:
+                raise WinException (self.opponent.my_number)
+        self.opponent.damage_trigger (final_damage)
+        self.take_damage_trigger (final_damage)
+        # damage_taken updated after triggers, so that triggers can
+        # check if this is first damage this beat
+        self.damage_taken += final_damage
+
 
     # overrides default method, which I set to pass for performance
     def movement_reaction (self, mover, old_position, direct):
@@ -3588,8 +3568,9 @@ class Cesar (Character):
 
     # It's best to end the beat with level 4,0,1 and worst to end with 3
     def evaluate (self):
-        return Character.evaluate(self) + \
-               [1.4, 0.9, -0.35, -2.6, 1.15][self.threat_level]
+        return (Character.evaluate(self) +
+                [1.4, 0.9, -0.35, -2.6, 1.15][self.threat_level] +
+                5 * self.defeat_immunity)
          
 
 ##class Claus (Character):
@@ -3770,14 +3751,13 @@ class Clive (Character):
                         AtomicReactor (the_game, self), \
                         ForceGloves   (the_game, self), \
                         CoreShielding (the_game, self), \
-                        FailSafe      (the_game, self), \
+                        AfterBurner   (the_game, self), \
                         SynapseBoost  (the_game, self), \
                         AutoRepair    (the_game, self), \
                         ExtendingArms (the_game, self)  ]
         self.rocket_boots = self.modules[0]
         self.force_gloves = self.modules[3]
         self.core_shielding = self.modules[4]
-        self.failsafe = self.modules[5]
         self.extending_arms = self.modules[8]
         
     def all_cards (self):
@@ -3891,14 +3871,8 @@ class Clive (Character):
             # Oppnent loses life when playing Burnout
             if self.game.distance() == 1 and isinstance(self.style, Burnout):
                 self.opponent.lose_life (len(self.active_modules))
-            # Failsafe module causes all other modules to be returned
-            if self.failsafe in self.active_modules:
-                self.discard_module(self.failsafe)
-                while self.active_modules:
-                    self.return_module(self.active_modules[0])
-            else:
-                while self.active_modules:
-                    self.discard_module(self.active_modules[0])
+            while self.active_modules:
+                self.discard_module(self.active_modules[0])
 
     def activate_module (self, module):
         self.module_stack.remove(module)
@@ -4053,8 +4027,7 @@ class Demitras (Character):
                        Vapid        (the_game, self), \
                        Illusory     (the_game, self), \
                        Jousting     (the_game, self)  ]
-        self.finishers = [SymphonyOfDemise (the_game, self),
-                           Accelerando      (the_game, self)]
+        self.finishers = [SymphonyOfDemise (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.crescendo = Crescendo  (the_game, self)
         self.tokens = [self.crescendo]
@@ -4285,7 +4258,7 @@ class Heketch (Character):
         if self.assassin_immobilized:
             report.append (self.opponent.name + "is immobilized")
         if self.living_nightmare_active:
-            report.append ("Unlimited Dark Force Tokens")
+            report.append ("Living Nightmare active")
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -4293,7 +4266,7 @@ class Heketch (Character):
         self.pool = ([self.dark_force] if find_start(lines, 'Dark Force')
                      else [])
         self.assassin_immobilized = find_end(lines, "is immobilized\n")
-        self.living_nightmare_active = find_start(lines, "Unlimited Dark Force")
+        self.living_nightmare_active = find_start(lines, "Living Nightmare active")
 
     def initial_save (self):
         state = Character.initial_save (self)
@@ -4415,17 +4388,9 @@ class Heketch (Character):
 
     # retrieve token at end of beat
     def unique_ability_end_trigger (self):
-        if self.game.distance() >= 3:
+        if self.game.distance() >= 3 or self.living_nightmare_active:
             self.recover_tokens(1)
 
-    # Living Nightmare - recover token whenever it is discarded
-    def discard_token (self, token = None, verb = "discard"):
-        ret = Character.discard_token (self, token, verb)
-        if self.living_nightmare_active:
-            self.recover_tokens(1)
-        return ret
-
-    # 13/2/13: token value changed from 2.5
     def evaluate (self):
         return Character.evaluate (self) + 2 * len (self.pool)
 
@@ -4682,7 +4647,7 @@ class Kajia (Character):
                        Stinging  (the_game,self),
                        Biting    (the_game,self)]
         self.finishers = [Wormwood      (the_game, self),
-                           CreepingDeath (the_game, self)]
+                           ImagoEmergence (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def choose_initial_discards (self):
@@ -4695,7 +4660,7 @@ class Kajia (Character):
         # number of insect counters on each discard pile
         # (current pair, discard 1, discard 2)
         self.insects = [0,0,0]
-        self.creeping_death_active = False
+        self.imago_emergence_active = False
 
     def situation_report (self):
         report = Character.situation_report (self)
@@ -4703,8 +4668,8 @@ class Kajia (Character):
                        self.insects[1])
         report.append ("%d insects on opponent's discard 2" %
                        self.insects[2])
-        if self.creeping_death_active:
-            report.append ("Creeping Death is active")
+        if self.imago_emergence_active:
+            report.append ("Imago Emergence is active")
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -4712,19 +4677,19 @@ class Kajia (Character):
         i1 = int(lines[0].split(' ')[0])
         i2 = int(lines[1].split(' ')[0])
         self.insects = [0,i1,i2]
-        self.creeping_death_active = find_start(lines,
-                                                "Creeping Death is active")
+        self.imago_emergence_active = find_start(lines,
+                                                "Imago Emergence is active")
 
     def initial_save (self):
         state = Character.initial_save (self)
         state.insects = self.insects[:]
-        state.creeping_death_active = self.creeping_death_active
+        state.imago_emergence_active = self.imago_emergence_active
         return state
 
     def initial_restore (self, state):
         Character.initial_restore (self, state)
         self.insects = state.insects[:]
-        self.creeping_death_active = state.creeping_death_active
+        self.imago_emergence_active = state.imago_emergence_active
 
     def reset (self):
         self.infested_piles_on_reveal = 0
@@ -4758,57 +4723,11 @@ class Kajia (Character):
     def total_insects (self):
         return self.insects[1] + self.insects[2]
 
-    # v0.8: when an opponent moves/is moved adjacent to Kajia
-    # v0.9: when anyone switches sides
-    # v0.91: when opponent switches sides, no matter who initiated it
-    UA_version = 'v0.91'
-    
-# v0.8 UA
-
-##    # Dish out counters when Kajia moves opponent
-##    def execute_move (self, mover, moves, direct=False):
-##        old_pos = self.opponent.position
-##        Character.execute_move (self, mover, moves, direct)
-##        if mover == self.opponent:
-##            # in a direct move, only the destination matters:
-##            if direct:
-##                if self.game.distance() == 1 and \
-##                   self.opponent.position != old_pos:
-##                    self.give_insects(1)
-##            # in a non direct move, the path matters:
-##            else:
-##                path = pos_range(self.opponent.position, old_pos)
-##                # path doesn't include original position
-##                path.remove(old_pos)
-##                # check how many spaces adjacent to me the path goes through
-##                insects = len(set((self.position-1, self.position+1)) & path)
-##                self.give_insects(insects)
-##
-##    # Dish out counters when opponent moves on her own
-##    def movement_reaction (self, mover, old_position, direct):
-##        if mover == self.opponent:
-##            # in a direct move, only the destination matters:
-##            if direct:
-##                if self.game.distance() == 1 and \
-##                   self.opponent.position != old_position:
-##                    self.give_insects(1)
-##            # in a non direct move, the path matters:
-##            else:
-##                path = pos_range(self.opponent.position, old_position)
-##                # path doesn't include original position
-##                path.remove(old_position)
-##                # check how many spaces adjacent to me the path goes through
-##                insects = len(set((self.position-1, self.position+1)) & path)
-##                self.give_insects(insects)
-
-# v0.9/v0.91 UA
-
     # Give counter when Kajia initiates switch
     def execute_move (self, mover, moves, direct=False):
         old_dir = self.opponent.position - self.position
         Character.execute_move (self, mover, moves, direct)
-        # v0.9 gives insects on any switch.  v0.91 only if opponent moved
-        if mover == self.opponent or self.UA_version == 'v0.9':
+        if mover == self.opponent:
             new_dir = self.opponent.position - self.position
             if new_dir * old_dir < 0:
                 self.give_insects(1)
@@ -4818,8 +4737,7 @@ class Kajia (Character):
         old_dir = (old_position - self.position
                    if mover == self.opponent
                    else self.opponent.position - old_position)
-        # v0.9 gives insects on any switch.  v0.91 only if opponent moved
-        if mover == self.opponent or self.UA_version == 'v0.9':
+        if mover == self.opponent:
             new_dir = self.opponent.position - self.position
             if new_dir * old_dir < 0:
                 self.give_insects(1)
@@ -4870,7 +4788,7 @@ class Kajia (Character):
             
     def end_trigger (self):
         Character.end_trigger (self)
-        if self.creeping_death_active:
+        if self.imago_emergence_active:
             self.give_insects(1)
 
     # This just evaluates projected life loss.
@@ -4950,6 +4868,12 @@ class Kallistar (Character):
     def get_power_bonus (self):
         return 2*self.is_elemental
     
+    def get_soak(self):
+        soak = Character.get_soak(self)
+        if not self.is_elemental:
+            soak += 1
+        return soak
+    
     def give_priority_penalty (self):
         return -2 if (self.priority_penalty and
                      not self.game.status_effects_blocked()) else 0
@@ -4957,8 +4881,6 @@ class Kallistar (Character):
     def ante_trigger (self):
         if self.is_elemental:
             self.lose_life (1)
-        else:
-            self.gain_life (1)
 
     # in a Human Blazing Dash, the order of after triggers matters
     # but blazing first should work, so it's a fake fork
@@ -5182,14 +5104,14 @@ class Kehrolyn (Character):
         self.active_cards.append (self.current_form)
 
     # if mutating is in active cards, replace it with a copy of the other style
-    def start_trigger (self):
+    def reveal_trigger (self):
         if self.current_form == self.mutating:
             self.active_cards [self.active_cards.index (self.mutating)] = \
                 self.style
         if self.style == self.mutating:
             self.active_cards [self.active_cards.index (self.mutating)] = \
                 self.current_form
-        Character.start_trigger (self)
+        Character.reveal_trigger (self)
 
     # if Whip is style/form, and Grasp is base, order of hit triggers matters,
     def card_hit_triggers (self):
@@ -5466,6 +5388,8 @@ class Luc (Character):
         self.time = Time  (the_game, self)
         self.tokens = [self.time]
         self.max_tokens = 5
+        # virtual card helps implement the 3 token ante effect.
+        self.ante_virtual_card = AnteEffect(the_game, self)
         
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -5515,41 +5439,51 @@ class Luc (Character):
         else:
             return 0
 
-
-    # luc's tokens don't have ante effects, so they're not checked for them
-    # (for efficiency)
-    def get_active_tokens (self):
-        tokens = Character.get_active_tokens (self)
-        # Induced tokens are still checked normally.
-        return [t for t in tokens if t not in self.tokens]
-
     def get_priority_bonus (self):
         if self.get_active_tokens().count(self.time) == 1:
-            return 2
+            return 1
         else:
             return 0
 
     def ante_trigger (self):
         for i in range(self.strat[2][0]):
             self.ante_token(self.time)
-        if self.ante.count(self.time) == 5:
-            self.opponent.stun()
 
-    # in a Chrono Burst, the order of start triggers matters
+    # the order of start triggers [Ante/Chrono/Burst/Flash] matters
+    # Also, Luc might take over priority
     def start_trigger (self):
-        if self.style.name == 'Chrono' and self.base.name == 'Burst':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        else:
-            Character.start_trigger (self)
-
-    def before_trigger (self):
-        # assume teleport comes before Memento/Drive/Temporal Recursion trigger.
-        if self.get_active_tokens().count(self.time) == 3:
-            if self.game.reporting:
-                self.game.report ("Luc Teleports:")
-            self.move_to_unoccupied()
-        Character.before_trigger (self)
+        ante = self.get_active_tokens().count(self.time) 
+        if ante == 5:
+            self.become_active_player()
+        cards = [c for c in self.active_cards
+                 if c.name in ['Chrono', 'Burst', 'Flash']]
+        if ante == 3:
+            cards.append(self.ante_virtual_card)
+        if len(cards) == 1:
+            cards[0].start_trigger()
+        elif len(cards) == 2:
+            prompt = "Choose order of triggers:"
+            options = []
+            for i in range (2):
+                options.append (', '.join([cards[i].name, cards[1-i].name]))
+            order = self.game.make_fork (2, self, prompt, options)
+            cards[order].start_trigger()
+            cards[1-order].start_trigger()
+        elif len(cards) == 3:
+            prompt = "Choose order of triggers:"
+            options = []
+            if self.is_user and self.game.interactive_mode:
+                for i in range (6):
+                    options.append (', '.join([cards[i%3].name,
+                                               cards[2-i/2].name,
+                                               cards[1-i%3+i/2].name]))
+            order = self.game.make_fork (6, self, prompt, options)
+            first = order%3             # [012012]
+            second = 2 - order/2        # [221100]
+            third = 3 - first - second  # [100221]
+            cards[first].start_trigger()
+            cards[second].start_trigger()
+            cards[third].start_trigger()
 
     def unique_ability_end_trigger (self):
         self.recover_tokens (1)
@@ -5575,80 +5509,18 @@ class Lymn (Character):
         return (self.maddening, self.burst,
                 self.chimeric, self.dash)
 
-    def set_starting_setup (self, default_discards, use_special_actions):
-        Character.set_starting_setup (self, default_discards, use_special_actions)
-        self.priority_mod = 0
-        self.priority_ante = False
-
-    def situation_report (self):
-        report = Character.situation_report (self)
-        if self.priority_mod != 0:
-            report.append ("%s%d Priority this beat" %
-                           ('+' if self.priority_mod > 0 else '',
-                            self.priority_mod))
-        if self.priority_ante:
-            report.append ("Can ante priority this beat")
-        return report
-
-    def read_my_state (self, lines, board, addendum):
-        lines = Character.read_my_state (self, lines, board, addendum)
-        line = find_end_line (lines, 'Priority this beat\n')
-        if line is None:
-            self.priority_mod = 0
-        else:
-            self.priority_mod = int(line[:2])
-        self.priority_ante = find_start ("Can ante priority")
-
-    def initial_save (self):
-        state = Character.initial_save (self)
-        state.priority_mod = self.priority_mod
-        state.priority_ante = self.priority_ante
-        return state
-
-    def initial_restore (self, state):
-        Character.initial_restore (self, state)
-        self.priority_mod = state.priority_mod
-        self.priority_ante = state.priority_ante
-
     def reset (self):
         self.disparity = None
-        self.priority_mod_next_beat = 0
-        self.priority_ante_next_beat = False
         Character.reset (self)
 
     def full_save (self):
         state = Character.full_save (self)
         state.disparity = self.disparity
-        state.priority_mod_next_beat = self.priority_mod_next_beat
-        state.priority_ante_next_beat = self.priority_ante_next_beat
         return state
 
     def full_restore (self, state):
         Character.full_restore (self, state)
         self.disparity = state.disparity
-        self.priority_mod_next_beat = state.priority_mod_next_beat
-        self.priority_ante_next_beat = state.priority_ante_next_beat
-
-    def prepare_next_beat (self):
-        Character.prepare_next_beat (self)
-        self.priority_mod = self.priority_mod_next_beat
-        self.priority_ante = self.priority_ante_next_beat
-
-    def get_antes (self):
-        if self.priority_ante:
-            return [-2,-1,0,1,2]
-        else:
-            return [0]
-
-    def input_ante (self):
-        if self.priority_ante:
-            print "Choose priority modification ante:"
-            return menu (["-2", "-1", "0", "1", "2"]) - 2
-        else:
-            return 0
-
-    def get_ante_name (self, a):
-        return str(a)
 
     # Setting Disparity at Start of Beat.
     # It's not needed earlier, and hopefully priorities haven't changed
@@ -5664,9 +5536,6 @@ class Lymn (Character):
         else:
             Character.start_trigger (self)
         
-    def get_priority_bonus (self): 
-        return self.priority_mod + self.strat[2][0]
-
     # in a Chimeric Drive, the order of before triggers matters
     def before_trigger (self):
         if self.style.name == 'Chimeric' and self.base.name == 'Drive':
@@ -5685,60 +5554,98 @@ class Lymn (Character):
             Character.after_trigger (self)
 
 
-# The new Magdelina can't be implemented (clash dependent level gaining),
-# so I'm keeping the old one.
 class Magdelina (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Blessing (the_game,self)
-        self.styles = [Sanctimonious (the_game, self), \
-                       Priestess     (the_game, self), \
-                       Safety        (the_game, self), \
-                       Spiritual     (the_game,self), \
-                       Excelsius     (the_game,self)  ]
-        self.finishers = [SolarSoul (the_game, self)]
+        self.styles = [Safety        (the_game, self),
+                       Priestess     (the_game, self),
+                       Spiritual     (the_game,self),
+                       Sanctimonious (the_game, self),
+                       Excelsius     (the_game,self)]
+        self.finishers = [SolarSoul  (the_game, self),
+                          Apotheosis (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
         self.level = 0
-        self.level_cap = 5
+        self.trance = 0
 
     def choose_initial_discards (self):
-        return (self.sanctimonious, self.drive,
-                self.safety, self.shot)
+        return (self.spiritual, self.drive,
+                self.sanctimonious, self.grasp)
 
     def situation_report (self):
         report = Character.situation_report (self)
         report.append ("Level: %d" %self.level)
-        if self.level_cap == 4:
-            report.append ("Solar Soul activated")
+        report.append ("Trance: %d" %self.trance)
         return report
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
         self.level = int(lines[0][-2])
-        if find_start (lines, 'Solar Soul activated'):
-            self.level_cap = 4
-        else:
-            self.level_cap = 5
+        self.trance = int(lines[1][-2])
 
     def initial_save (self):
         state = Character.initial_save (self)
         state.level = self.level
-        state.level_cap = self.level_cap
+        state.trance = self.trance
         return state
 
     def initial_restore (self, state):
         Character.initial_restore (self, state)
         self.level = state.level
-        self.level_cap = state.level_cap
+        self.trance = state.trance
 
-    def get_priority_bonus (self): 
-        return self.level
+    def full_save (self):
+        state = Character.full_save (self)
+        state.initial_level = self.initial_level
+        return state
+
+    def full_restore (self, state):
+        Character.full_restore (self, state)
+        self.initial_level = state.initial_level
+
+    def ante_trigger(self):
+        Character.ante_trigger(self)
+        # Remember current level, so that later level changes don't
+        # change the bonus.
+        self.initial_level = self.level
+        if self.level != 0 and self.game.reporting:
+            self.game.report ("Magdelina gets a +%d bonus to power, priority and stungard" % self.level)
+
+    def get_level_bonus(self):
+        if self.spiritual in self.active_cards:
+            return 0
+        else:
+            return self.initial_level
+
+    def get_priority_bonus (self):
+        return self.get_level_bonus() + Character.get_priority_bonus(self)
     def get_power_bonus (self):
-        return self.level
-    def get_stunguard (self): 
-        return self.level + Character.get_stunguard(self)
+        return self.get_level_bonus() + Character.get_power_bonus(self)
+    def get_stunguard (self):
+        return self.get_level_bonus() + Character.get_stunguard(self)
+
+    def unique_ability_end_trigger (self):
+        self.gain_trance()
+        if self.trance > self.level:
+            self.trance = 0
+            if self.game.reporting:
+                self.game.report("Magdelina discards all Trance counters")
+            self.gain_level()
+
+    def gain_trance(self):
+        if self.trance < 5:
+            self.trance += 1
+            if self.game.reporting:
+                self.game.report ("Magdelina gains a Trance counter: has %d" % self.trance)
+
+    def gain_level(self):
+        if self.level < 5:
+            self.level += 1
+            if self.game.reporting:
+                self.game.report ("Magdelina gains a Level: has %d" % self.level)
 
     # in an Excelsius Drive, the order of before triggers matters
     def before_trigger (self):
@@ -5759,15 +5666,18 @@ class Magdelina (Character):
 
     # only half value to dealing damage    
     def evaluate (self):
-        return Character.evaluate(self) \
-               + self.opponent.effective_life() / 2.0 \
-               + self.level_values [self.level]
-    # importance of going up a level is 10,8,6,4,2
-    #level_values = [0,10,18,24,28,30]
+        # Each trance token is worth 1 point for each level
+        # you expect to go up (it hastens the level by one beat).
+        return (Character.evaluate(self)
+                + self.opponent.effective_life() / 2.0
+                + self.level_values[self.level]
+                + self.trance * self.trance_values_per_level[self.level])
+               
     # importance of going up a level is 15,12,9,6,3
-    level_values = [0,15,27,36,42,45]
+    level_values = [0,4,10,16,20,22.5]
+    trance_values_per_level = [0, 3, 2, 1, 0.5, 0]
 
-    # her preferred range should probably be more about not being at the
+    # TODO: her preferred range should probably be more about not being at the
     # opponent's preferred range (at least at low levels)
 
 class Marmelee (Character):
@@ -6144,9 +6054,8 @@ class Rexan (Character):
         return "%d Curse tokens" %a
 
     def take_a_hit_trigger (self):
-        if self.curse not in self.opponent.ante:
-            self.give_induced_tokens(1)
-        if self.unyielding in self.active_cards:
+        if (not self.opponent.did_hit and 
+            self.curse not in self.opponent.ante):
             self.give_induced_tokens(1)
 
     # Opponent gets n tokens, up to 3
@@ -6161,7 +6070,7 @@ class Rexan (Character):
                                 ("s" if gain>1 else "")))
         if new_pool > 3:
             self.opponent.lose_life (2 * (new_pool - 3))
-
+        
     # returning tokens on cycle, so that it happens on a Pulse, too
     def cycle (self):
         if not (self.did_hit or self.opponent.did_hit):
@@ -6176,9 +6085,9 @@ class Rexan (Character):
         else:
             Character.start_trigger (self)
 
-    # in a Vainglorious/Enervating/Overlord's Drive, the order of before triggers matters
+    # in a Vainglorious/Overlord's Drive, the order of before triggers matters
     def before_trigger (self):
-        if self.style.name in ["Vainglorious", "Overlord's", "Enervating"] and \
+        if self.style.name in ["Vainglorious", "Overlord's"] and \
            self.base.name == 'Drive':
             for card in self.order_fork ([self.style, self.base]):
                 card.before_trigger()
@@ -6560,6 +6469,9 @@ class Seth (Character):
     # After a clash, we go back to correct/incorrect (because correctness
     # has already been decided, and has nothing to do with opponent's new
     # base.
+    # TODO: actually, Seth can use the bonuses if the base changes.
+    # However, he wins priority ties when he guesses correctly,
+    # so a clash is usually not possible.
     def get_ante_name (self, a):
         # post processing - guess is an opponent's base
         if isinstance (a, Base):
@@ -6579,6 +6491,8 @@ class Seth (Character):
             self.add_triggered_power_bonus (2)
             self.add_triggered_priority_bonus (2)
         Character.reveal_trigger(self)
+    def clash_priority (self):
+        return 0.1 * self.correct_guess + Character.clash_priority(self)
 
     # logic to handle Wyrding shenanigans
     # Cutting a corner, Vanishing will always happen before Burst
@@ -6645,10 +6559,8 @@ class Seth (Character):
         full_strats = [(s[0], s[1], (b, s[2][1]))
                        for s in strats_without_guesses for b in bases]
 
-
         n = len(full_strats)
         m = len(opp_strats)
-        
         # for each strat combination, take the simulation result corresponding
         # to those pairs, but pick correct/incorrect guess based on whether
         # Seth's guess actually corresponds to the played base
@@ -6839,11 +6751,6 @@ class Shekhtur (Character):
     def ante_trigger (self):
         for i in range(self.strat[2][0]):
             self.ante_token(self.malice)
-##        count = self.ante.count(self.malice)
-##        if count >=3:
-##            self.lose_life (1)
-##        if count >=5:
-##            self.lose_life (1)
 
     def get_ante_name (self, a):
         if a == 0:
@@ -6852,13 +6759,9 @@ class Shekhtur (Character):
             return "1 token"
         return str(a) + " tokens"
 
-    # Trying the v0.9 -1 power thing
     def get_power_bonus (self):
-        a = self.ante.count(self.malice)
-        ante_bonus = -2 if a==5 else (-1 if a>=3 else 0)
-        unleashed_bonus = 1 if (self.unleashed_bonus and
-                                not self.game.status_effects_blocked()) else 0
-        return ante_bonus + unleashed_bonus
+        return 1 if (self.unleashed_bonus and
+                     not self.game.status_effects_blocked()) else 0
 
     # shortcut: no other way for opponent to lose all soak
     def reduce_soak (self, soak):
@@ -7043,6 +6946,10 @@ class Tatsumi (Character):
         if self.style.name == 'Riptide' and self.base.name=='Burst':
             self.base.start_trigger()
             self.style.start_trigger()
+        # in an Empathic Burst, the order matters.
+        elif self.style.name == 'Empathic' and self.base.name=='Burst':
+            for card in self.order_fork ([self.style, self.base]):
+                card.start_trigger()
         # otherwise (including Riptide Whirlpol), use normal style->base
         else:
             Character.start_trigger (self)
@@ -7055,10 +6962,10 @@ class Tatsumi (Character):
         else:
             Character.card_hit_triggers (self)
 
-    # in an Empathic/Wave Dash/Whirlpool, the order of after triggers matters
+    # in a Wave Dash/Whirlpool, the order of after triggers matters
     # KNOWN BUG: can't put style trigger between the two base triggers.
     def after_trigger (self):
-        if self.style.name == ['Empathic','Wave'] and \
+        if self.style.name == 'Wave' and \
            self.base.name in ['Dash','Whirlpool']:
             for card in self.order_fork ([self.style, self.base]):
                 card.after_trigger()
@@ -7429,6 +7336,7 @@ class Zaamassal (Character):
                           Resilience (the_game, self), \
                           Distortion (the_game, self)  ]
         self.fluidity = self.paradigms[1]
+        self.resilience = self.paradigms[3]
         self.distortion = self.paradigms[4]
         self.finishers = [OpenTheGate  (the_game, self),
                            PlaneDivider (the_game, self)]
@@ -7494,7 +7402,7 @@ class Zaamassal (Character):
         Character.set_active_cards (self)
         self.active_cards.extend (list(self.active_paradigms))
 
-    # Resilence's Soak checked here, becuase it works even if Resilience was
+    # Resilience's Soak checked here, becuase it works even if Resilience was
     # already replaced.
     def get_soak (self):
         return self.resilience_soak + Character.get_soak (self)
@@ -7515,24 +7423,21 @@ class Zaamassal (Character):
             moves.append(new_move)
         Character.execute_move (self, mover, moves, direct)
 
-    # in a Warped Burst, the order of start triggers matters
+    # in a Warped Burst, the order of start triggers matters (but
+    # let Resilience work too).
     def start_trigger (self):
         if self.style.name == 'Warped' and self.base.name == 'Burst':
             for card in self.order_fork ([self.style, self.base]):
                 card.start_trigger()
+            if self.resilience in self.active_cards:
+                self.resilience.start_trigger()
         else:
             Character.start_trigger (self)
 
-    # the order of before triggers [Fluidity/Urgent/Drive] matters
+    # the order of before triggers [Fluidity/Urgent/Drive/Plane Divider] matters
     def before_trigger (self):
-        fluidity_before_shift = self.fluidity in self.active_cards
-        if self.unique_base in self.active_cards:
-            self.unique_base.before_trigger()
         cards = [c for c in self.active_cards \
                  if c.name in ['Fluidity','Urgent','Drive','Plane Divider']]
-        # Fluidity can be used if was active before Paradigm Shifting.
-        if fluidity_before_shift and self.fluidity not in cards:
-            cards = [self.fluidity] + cards
         if len(cards) == 1:
             cards[0].before_trigger()
         elif len(cards) == 2:
@@ -7559,11 +7464,11 @@ class Zaamassal (Character):
             cards[second].before_trigger()
             cards[third].before_trigger()
 
-    # for Fluidity/Warped, the order of end triggers matters
+    # for Fluidity/Sinuous, the order of end triggers matters
     def end_trigger (self):
-        if self.style.name == 'Warped' and self.fluidity in self.active_cards:
+        if self.style.name == 'Sinuous' and self.fluidity in self.active_cards:
             prompt = "Choose trigger to activate first:"
-            options = ['Fluidity','Warped']
+            options = ['Fluidity','Sinuous']
             order = self.game.make_fork (2, self, prompt, options)
             if order == 0 :
                 self.fluidity.end_trigger()
@@ -7717,7 +7622,7 @@ class Spike (Base):
     def get_preferred_range (self):
         return 2.5 if self.me.position in [0,6] else 2
     def start_trigger(self):
-        self.me.move([1])
+        self.me.move([0, 1])
     def hit_trigger(self):
         self.me.triggered_dodge = True
 
@@ -7829,7 +7734,7 @@ class Pacifying (Style):
 class Irresistible (Style):
     stunguard = 3
     def before_trigger (self):
-        if self.me.damage_taken > 0:
+        if self.opponent.did_hit:
             self.me.pull ((3,2,1,0))
 
 class Beckoning (Style):
@@ -7850,12 +7755,6 @@ class HailTheKing (Finisher):
     minrange = 1
     maxrange = 1
     soak = 6
-    # Block switching sides
-    def blocks_movement(self, direct):
-        if self.opponent.position > self.me.position:
-            return set(xrange(self.me.position))
-        else:
-            return set(xrange(self.me.position+1,7))
     def before_trigger(self):
         # advance up to 5, get +1 power per advance
         old_pos = self.me.position
@@ -7911,8 +7810,12 @@ class Regal (Style):
     power = 1
     priority = 1
     stunguard = 3
-    # Opponents can't retreat
+    # Opponents at range 1 can't retreat
     def blocks_movement (self, direct):
+        if direct:
+            return set()
+        if self.game.distance() > 1:
+            return set()
         if self.me.position < self.opponent.position:
             return set(xrange(self.opponent.position + 1, 7))
         else:
@@ -7922,7 +7825,6 @@ class Regal (Style):
         return 0.1 * (len(self.me.induced_pool) - 1) + \
                (0.5 if self.game.distance() == 1 else -0.5)
     # disabling tokens handled by tokens themselves
-    # blocking hit/damage triggers handled by Alexian
     
 class Stalwart (Style):
     power = 1
@@ -7954,7 +7856,7 @@ class Steeled (Style):
     priority = -1
     preferred_range = 2 # can usually advance 3, and higher range gives more soak
     def get_soak (self):
-        return self.game.distance()
+        return self.game.distance() - 1
     # Advance up to 1 space for each damage soaked.
     # Recording soak handled by Alexian.soak_trigger()
     def before_trigger (self):
@@ -7984,7 +7886,7 @@ class LaserLattice (Finisher):
     power = 2
     priority = 6
     def hit_trigger (self):
-        self.me.move_opponent((1,))
+        self.me.move_opponent([1])
     def after_trigger (self):
         droids = [droid for droid in self.me.droids
                   if droid.position is not None
@@ -8180,7 +8082,7 @@ class Dimensional (Style):
         else:
             self.me.dimensional_no_stun = True
     def end_trigger (self):
-        self.me.move_anywhere()
+        self.me.move_to_unoccupied()
     def evaluation_bonus (self):
         return 0.5 if self.game.distance() == 3 else -0.2
 
@@ -8225,13 +8127,11 @@ class SoulGate (Finisher):
         return 1 if self.game.distance() in (3,4) else 0
 
 class Smoke (Base):
-    #minrange = 1
-    minrange = 2
+    minrange = 1
     maxrange = 5
     power = 2
     priority = 3
-#    preferred_range = 2.5 # ignores style range
-    preferred_range = 3 # ignores style range
+    preferred_range = 2.5 # ignores style range
     def hit_trigger (self):
         self.me.move_opponent((0,1))
     # Ignoring style range handled by Byron.get_maxrange(), Byron.get_minrange()
@@ -8298,11 +8198,11 @@ class Breathless (Style):
     maxrange = 4
     preferred_range = 3.5
     def start_trigger (self):
-        # may move to same side of opponent
+        # may move to other side of opponent
         opp = self.opponent.position
         me = self.me.position
-        dests = range(opp) if me < opp else range(opp+1, 7)
-        #dests.append(me)
+        dests = range(opp) if me > opp else range(opp+1, 7)
+        dests.append(me)
         self.me.move_directly(dests)
     def hit_trigger (self):
         if self.game.distance() == 5:
@@ -8313,10 +8213,10 @@ class Breathless (Style):
             return 0.5
         opp = self.opponent.position
         me = self.me.position
-        spaces_on_this_side = opp if me < opp else 6-opp
-        if spaces_on_this_side < 3:
+        spaces_on_other_side = opp if me > opp else 6-opp
+        if spaces_on_other_side < 3:
             return -0.25
-        if spaces_on_this_side >= 5:
+        if spaces_on_other_side >= 5:
             return 0.75
         return 0.25
 
@@ -8427,14 +8327,16 @@ class Suppression (Base):
     power = 2
     priority = 2
     preferred_range = 1
-    # Block switching sides
+    # Opponents cannot move past you.
     def blocks_movement(self, direct):
+        if direct:
+            return set()
         if self.opponent.position > self.me.position:
             return set(xrange(self.me.position))
         else:
             return set(xrange(self.me.position+1,7))
     def can_be_hit (self):
-        return self.opponent.attack_range() <= 2
+        return self.opponent.attack_range() < 3
     def end_trigger (self):
         self.me.move((0,1,2,3))
     def evaluation_bonus (self):
@@ -8477,7 +8379,7 @@ class Bulwark (Style):
     def blocks_pullpush (self):
         return set(xrange(7))
     def after_trigger (self):
-        self.me.move ([0,1])
+        self.me.move ([0,1,2,3])
 
 class Inevitable (Style):
     stunguard = 3
@@ -8537,8 +8439,8 @@ class Toxic (Style):
         projected_stims = min (3, len(self.me.active_packs)+0.5)
         return projected_stims / 2.0
     def start_trigger (self):
-        n = len(self.me.active_packs)
-        self.me.move (range(n+1))
+        for i in xrange(len(self.me.active_packs)):
+            self.me.advance([1])
     # doubling of stims handled by stims themselves
     def evaluation_bonus (self):
         # if we have 2 stims at end of beat, we can easily go to 3 next beat
@@ -8587,7 +8489,7 @@ class Gravity (Style):
     maxrange = 3
     preferred_range = 2
     def hit_trigger (self):
-        self.me.move_opponent_anywhere()
+        self.me.move_opponent_to_unoccupied()
     def blocks_pullpush (self):
         if self.game.make_fork(2, self.me,
                                "Block opponent's attempt to move you?",
@@ -8646,7 +8548,7 @@ class SystemReset (Finisher):
 class SystemShock (Finisher):
     minrange = 1
     maxrange = 4
-    power = 7
+    power = 9
     priority = 7
     # Only activates if all modules are discarded
     def devolves_into_cancel (self):
@@ -8664,7 +8566,7 @@ class Wrench (Base):
     priority = 4
     preferred_range = 1.5
     def get_power_bonus(self):
-        return len(self.me.active_modules)
+        return min (4, len(self.me.active_modules))
     def after_trigger(self):
         returned_modules = []
         for module in self.me.active_modules:
@@ -8676,6 +8578,7 @@ class Wrench (Base):
             self.me.return_module(module)
 
 class Upgradeable (Style):
+    maxrange = 1
     power = -2
     priority = 2
     stunguard = 2
@@ -8688,13 +8591,13 @@ class Upgradeable (Style):
         self.me.move ([1])
 
 class Rocket (Style):
-    minrange = 3
+    minrange = 2
     maxrange = 3
     power = 1
     priority = 1
-    preferred_range = 3.5
+    preferred_range = 2 # actually depends on corner
     def start_trigger (self):
-        self.me.advance ((0,1))
+        self.me.retreat ((0,1))
     def hit_trigger (self):
         self.me.move_opponent ((1,2))
 
@@ -8719,6 +8622,8 @@ class Megaton (Style):
     def hit_trigger (self):
         me = self.me.position
         opp = self.opp.position
+        # This doesn't really retreat as far as possible, when the
+        # full retreat is blocked.
         max_retreat = me if me < opp else 6-me
         self.me.retreat ([max_retreat])
         self.me.push ([1])
@@ -8743,36 +8648,25 @@ class Module (Card):
 
 class RocketBoots (Module):
     def before_trigger (self):
-        self.me.advance ((0,1))
-    def after_trigger (self):
-        self.me.push ((1,0))
+        self.me.advance ([1])
 
 class BarrierChip (Module):
-    soak = 1
+    stunguard = 1
 
 class AtomicReactor (Module):
     power = 1
 
 class ForceGloves (Module):
     def hit_trigger (self):
-        self.me.push ((2,1))
+        self.me.push ([1])
 
 class CoreShielding (Module):
-    def end_trigger (self):
-        returned_modules = []
-        for module in self.me.active_modules:
-            # Fake fork, AI has no reason to deactivate at end of beat.
-            if self.game.make_fork (2, self.me,
-                            "Return %s to your module stack?" % module.name,
-                                    ["No", "Yes"], choice=0):
-                returned_modules.append(module)
-        for module in returned_modules:
-            self.me.return_module(module)
+    pass
     # Blocking hit and damage trigger handled by Clive
 
-class FailSafe (Module):
-    pass
-    # stun behavior handled by Clive.stun()
+class AfterBurner(Module):
+    def after_trigger(self):
+        self.me.retreat([1])
 
 class SynapseBoost (Module):
     priority = 1
@@ -8780,9 +8674,11 @@ class SynapseBoost (Module):
 class AutoRepair (Module):
     def end_trigger (self):
         self.me.gain_life(1)
+        # TODO: return this to module stack
 
 class ExtendingArms (Module):
-    maxrange = 1
+    def before_trigger(self):
+        self.me.pull([1])
 
     
 #Demitras
@@ -8792,7 +8688,6 @@ class SymphonyOfDemise (Finisher):
     minrange = 1
     maxrange = 1
     priority = 9
-    # move forwards up to 4
     def before_trigger (self):
         self.me.advance ((0,1,2,3,4))
     def hit_trigger (self):
@@ -8802,15 +8697,19 @@ class SymphonyOfDemise (Finisher):
     def evaluate_setup (self):
         return 2 if self.game.distance()<6 and len(self.me.pool) < 3 else 0
 
+# NOT IMPLEMENTED
 class Accelerando (Finisher):
-    minrange = 2
+    minrange = 1
     maxrange = 2
     power = 2
     priority = 4
     def reduce_stunguard (self, stunguard):
         return 0
     def before_trigger (self):
-        self.me.advance ((0,1,2,3,4,5))
+        pass
+        # Advance as far as possible - needs a change in execute_move.
+        # Can't just try decreasing amounts, because that might trigger
+        # multiple movement reactions.
     def hit_trigger (self):
         if self.me.can_spend (1):
             spend = self.game.make_fork (len(self.me.pool)+1, self.me, \
@@ -8839,7 +8738,9 @@ class Deathblow (Base):
             # not really added to ante, but Bloodletting trigger was already executed
             for i in range (spend):
                 self.me.ante_token()
-        self.me.recover_tokens (1)
+    def after_trigger(self):
+        if self.me.did_hit:
+            self.me.recover_tokens (1)
 
 class Darkside (Style):
     power = -2
@@ -9029,8 +8930,6 @@ class MillionKnives (Finisher):
         dist = self.game.distance()
         return 0.5*(dist-1) if dist <= 4 else 0
 
-# Unlimited tokens are implemented by having Heketch recover a token whenever
-# he discards one.
 class LivingNightmare (Finisher):
     minrange = 1
     maxrange = 1
@@ -9039,7 +8938,6 @@ class LivingNightmare (Finisher):
     def hit_trigger (self):
         self.opponent.stun()
         self.me.living_nightmare_active = True
-        self.me.recover_tokens(1)
         self.me.evaluation_bonus += 10
     def evaluate_setup (self):
         # only real way of hitting is with +3 priority from token
@@ -9273,7 +9171,7 @@ class PalmStrike (Base):
     priority = 5
     preferred_range = 0.5 # advance 1 makes effective range 1-2
     def start_trigger (self):
-        self.me.advance ((1,))
+        self.me.advance ([1])
     def damage_trigger (self, damage):
         self.me.recover_tokens ()
 
@@ -9323,7 +9221,6 @@ class Geomantic (Style):
         token_number = self.game.make_fork (n_options, self.me, prompt, options)
         if token_number < len (self.me.pool):
             self.me.ante_token (self.me.pool[token_number])
-        
 
 class Earth (Token):
     soak = 3
@@ -9353,8 +9250,7 @@ class Wormwood (Finisher):
     def start_trigger (self):
         insects = self.me.total_insects()
         self.opponent.lose_life(insects)
-        #v0.91 errata: "up to"
-        self.me.pull(range(insects+1))
+        self.me.pull([insects])
     def hit_trigger (self):
         self.me.add_triggered_power_bonus (self.me.total_insects())
     def evaluate_setup (self):
@@ -9363,7 +9259,7 @@ class Wormwood (Finisher):
                 if self.game.distance() <= insects + 1
                 else 0)
 
-class CreepingDeath (Finisher):
+class ImagoEmergence (Finisher):
     minrange = 3
     maxrange = 6
     power = 1
@@ -9371,7 +9267,7 @@ class CreepingDeath (Finisher):
     def hit_trigger (self):
         self.opponent.stun()
         self.me.give_insects(1, pile=1)
-        self.me.creeping_death_active = True
+        self.me.imago_emergence_active = True
         self.me.evaluation_bonus += 3
     def evaluate_setup (self):
         return 0.5 if self.game.distance() >= 3 else 0
@@ -9393,15 +9289,8 @@ class Mandibles (Base):
         self.me.advance ([1])
     def evaluation_bonus (self):
         stun_potential = self.me.insects[1] and self.me.insects[2]
-        if self.me.UA_version == 'v0.8':
-            insect_potential = 1 if self.game.distance() <= 3 else 0
-            insect_value = 0.3 * (insect_potential - 0.5)
-        if self.me.UA_version == 'v0.9':
-            insect_potential = max (0, 4 - self.game.distance())
-            insect_value = 0.3 * (insect_potential - 1)
-        if self.me.UA_version == 'v0.91':
-            insect_potential = 1 if self.game.distance() <= 2 else 0
-            insect_value = 0.3 * (insect_potential - 0.5)
+        insect_potential = 1 if self.game.distance() <= 2 else 0
+        insect_value = 0.3 * (insect_potential - 0.5)
         return (0.25 if stun_potential else -0.25) + \
                insect_value
         
@@ -9434,21 +9323,18 @@ class Parasitic (Style):
     @property
     def maxrange (self):
         return self.me.total_insects()
+    priority = -1
     def get_preferred_range (self):
         return 0.5 * (self.me.total_insects())
     def start_trigger (self):
-        self.me.pull ((3,))
+        self.me.pull ([3])
     def evaluation_bonus (self):
         value = 0.25 * (self.me.total_insects() - 2)
         me = self.me.position
         opp = self.opponent.position
         pull_works = (opp > 3) if me < opp else (opp < 3)
         if pull_works:
-            # a pull that gives an insect is even better than a regular pull
-            if self.me.UA_version == 'v0.8':
-                max_insect_range = 4
-            if self.me.UA_version == 'v0.9' or self.me.UA_version == 'v0.91':
-                max_insect_range = 3
+            max_insect_range = 3
             value += (0.5 if self.game.distance() <= max_insect_range else 0.25)
         else:
             value -= 0.25
@@ -9478,18 +9364,9 @@ class Biting (Style):
     def damage_trigger (self, damage):
         self.me.pull ((0,1,2))
     def evaluation_bonus (self):
-        if self.me.UA_version == 'v0.8':
-            insect_potential = 0
-            dist = self.game.distance()
-            if dist in (2,3):
-                insect_potential += 1
-            if dist in (1,2) and not self.me.position in (0,6):
-                insect_potential += 1
-            insect_value = 0.3 * (insect_potential - 1)
-        if self.me.UA_version == 'v0.9' or self.me.UA_version == 'v0.91':
-            insect_potential = (self.game.distance() <= 2 and
-                                not self.me.position in (0,6))
-            insect_value = 0.3 * (insect_potential - 0.5)
+        insect_potential = (self.game.distance() <= 2 and
+                            not self.me.position in (0,6))
+        insect_value = 0.3 * (insect_potential - 0.5)
         return insect_value + \
                0.15 * (self.me.infested_piles() - 1)
         
@@ -9605,7 +9482,6 @@ class RedMoonRage (Finisher):
     power = 10
     priority = 12
     standard_range = False
-    # conditions under which special range hits
     def special_range_hit (self):
         return abs (self.me.position - self.me.jager_position) == 2 and \
                self.me.position + self.me.jager_position == \
@@ -9622,16 +9498,22 @@ class LunarCross (Finisher):
     def before_trigger (self):
         if self.me.jager_position not in \
                                        [self.me.position, self.opponent.position]:
-            self.me.jager_position, self.me.position = \
-                                        self.me.position, self.me.jager_position
-            self.me.lunar_swap = True
+            old_pos = self.me.position
+            self.me.move_directly([self.me.jager_position])
+            if self.me.position != old_pos:
+                self.me.jager_position = old_pos
+                if ordered(self.me.position,
+                           self.opponent.position,
+                           old_pos):
+                    self.me.lunar_swap = True
     def standard_range (self):
         return False
     def special_range_hit (self):
         return self.me.lunar_swap
     def evaluate_setup (self):
-        return 1 if (self.me.jager_position not in
-                     [self.me.position, self.opponent.position]) else 0
+        return 1 if ordered(self.me.jager_position,
+                            self.opponent.position, 
+                            self.me.position) else 0
 
 class Claw (Base):
     minrange = 1
@@ -9765,7 +9647,8 @@ class Dual (Style):
         # jager uses relative movement
         relative_moves = [pos - self.me.jager_position for pos in xrange(7)
                           if pos not in (self.me.position,
-                                         self.opponent.position)]
+                                         self.opponent.position,
+                                         self.me.jager_position)]
         self.me.move_jager (relative_moves)
         if jager_on_opponent:
             self.me.move_opponent_directly ([self.me.jager_position])
@@ -9823,7 +9706,7 @@ class Overload (Base):
         else:
             self.me.active_cards.append (available_styles[choice])
 
-# replaced at start of beat, never does anything
+# replaced at reveal, never does anything
 class Mutating (Style):
     # doubles as Whip if Whip is current form
     def get_preferred_range (self):
@@ -9895,8 +9778,8 @@ class Snare (Base):
     def has_stun_immunity (self):
         return True
     def special_range_hit (self):
-        return self.me.trap_position in range (self.opponent.position-1, \
-                                               self.opponent.position+2)
+        return (self.me.trap_position is not None and
+                abs(self.me.trap_position - self.opponent.position) <= 1)
     # immobility of trap handled Khadath.move_trap()
     def evaluation_bonus(self):
         if self.me.trap_position is not None and \
@@ -9920,24 +9803,19 @@ class Hunters (Style):
             return -0.5
 
 class Teleport (Style):
-    maxrange = 2
     power = 1
-    priority = -4
-    preferred_range = 1
+    priority = -3
     def can_be_hit (self):
         trap = self.me.trap_position
-        if trap is None:
-            return True
-        me = self.me.position
-        her = self.opponent.position
-        return (me - trap) * (her - trap) >= 0
+        return trap is None or not ordered(self.me.position,
+                                           trap,
+                                           self.opponent.position)
     def end_trigger (self):
-        self.me.move_anywhere()
-        # move trap anywhere that's unoccupied
-        positions = set(xrange(7)) - \
-                    set([self.me.position,self.opponent.position])
-        assert positions, "%s | %s | %s" %(set(xrange(7)), self.me.position,
-                                       self.opponent.position)
+        self.me.move_to_unoccupied()
+        # move trap anywhere (except current location, I guess)
+        positions = set(xrange(7))
+        if self.me.trap_position is not None:
+            positions.remove(self.me.trap_position)
         self.me.move_trap (positions)
     def evaluation_bonus(self):
         # Teleport is better when trap is between me and opponent
@@ -10020,7 +9898,6 @@ class Venomous (Style):
     power = 1
     def before_trigger (self):
         self.me.advance ([0,1])
-    # 6/2/13 - fixed bug: priority penalty wasn't given
     def hit_trigger (self):
         self.me.priority_penalty_next_beat = True
         self.me.evaluation_bonus += 1
@@ -10039,7 +9916,6 @@ class Rooted (Style):
             return set() #don't block
         else:
             return set(xrange(7)) #block
-
     # optional negation of own movement implemented by always adding 0
     # to Lixis' move options (handled by Lixis.execute_move())
 
@@ -10073,7 +9949,7 @@ class Pruning (Style):
         return len (set(her.bases) & (her.discard[1] | her.discard[2]))
     # generally weak but not when there are lots of bases in opponent's discard
     def evaluation_bonus (self):
-        return 0.5 * (self.count_bases() - 3)
+        return 0.3 * (self.count_bases() - 3)
         
 #Luc
 
@@ -10149,7 +10025,8 @@ class Memento (Style):
                     self.game.report ("Luc attacks again")
 
 class Fusion (Style):
-    priority = 2
+    power = -1
+    priority = 1
     def damage_trigger (self, damage):
         blow_out = self.me.get_destinations (self.opponent, (-damage,)) == set()
         self.me.push ([damage])
@@ -10171,15 +10048,14 @@ class Feinting (Style):
         self.me.advance ((1,2))
 
 class Chrono (Style):
-    power = 1
     priority = 1
     # can go far, but at a cost
     preferred_range = 0.3
     def start_trigger (self):
         if self.me.can_spend (1):
-            max_advance = (self.me.position - 1 \
-                           if self.me.position > self.opponent.position \
-                           else 5 - self.me.position)
+            # Can't go past opponent.
+            max_advance = abs(self.me.position - 
+                              self.opponent.position) - 1
             max_advance = min (max_advance, len (self.me.pool))
             advance = self.game.make_fork (max_advance + 1, self.me, \
                                 "How many Time tokens to spend for advancing?")
@@ -10193,6 +10069,10 @@ class Chrono (Style):
 class Time (Token):
     pass
 
+# Virtual Card that helps implement the 3-token ante effect
+class AnteEffect(Card):
+    def start_trigger(self):
+        self.me.advance([0,1,2])
 
 #Lymn
 
@@ -10200,7 +10080,7 @@ class Megrim (Finisher):
     is_attack = False
     power = None
     def can_be_hit(self):
-        return self.me.disparity not in (3,4)
+        return self.me.disparity < 3
     def end_trigger(self):
         self.opponent.lose_life (self.me.disparity)
 
@@ -10209,7 +10089,7 @@ class Conceit (Finisher):
     power = None
     priority = 7
     def can_be_hit(self):
-        return self.me.disparity not in (3,4)
+        return self.me.disparity < 3
     def end_trigger(self):
         self.opponent.lose_life (self.me.disparity)
 
@@ -10223,47 +10103,45 @@ class Visions (Base):
     priority = 3
     preferred_range = 1.5
     def before_trigger (self):
-        self.me.move([1])
+        self.me.move(range(self.me.disparity + 1))
     def after_trigger (self):
         self.me.move([1,2])
-    def end_trigger (self):
-        self.me.priority_ante_next_beat = True
-        self.me.evaluation_bonus += 1.5
 
 class Maddening (Style):
     maxrange = 1
-    power = -1
+    printed_power = None
     preferred_range = 0.5
-    def get_damage_cap (self):
-        return self.me.disparity
     def start_trigger (self):
-        if self.me.disparity >= 7:
-            self.game.active = self.me
-            if self.game.reporting:
-                self.game.report ("Lymn becomes the active player")
+        self.me.alt_pair_power = self.me.disparity
+        self.opponent.alt_pair_power = self.me.disparity
+    def get_soak (self):
+        if self.me.disparity >= 5:
+            return 5
+        if self.me.disparity >= 3:
+            return 2
+        return 0
 
 class Chimeric (Style):
     power = -1
     priority = 2
     preferred_range = 0.5
     def get_power_bonus (self):
-        return 2 if self.me.disparity == 4 else 0
+        disparity = self.me.disparity
+        bonus = 0
+        if disparity >= 2:
+            bonus += 1
+        if disparity >= 4:
+            bonus += 2
+        if disparity >= 6:
+            bonus += 3
+        return bonus
     def before_trigger (self):
-        self.me.move([1])
-    def end_trigger (self):
-        # life loss wins, unless no life to lose
-        choice = 0 if self.me.life > 3 else 3
-        self.me.priority_mod_next_beat = self.game.make_fork(
-            4, self.me,
-            "Choose life loss + priority bonus for next beat:",
-            choice)
-        self.me.lose_life(self.me.priority_mod_next_beat)
-        self.me.evaluation_bonus += 0.4 * self.me.priority_mod_next_beat
+        self.me.advance([1])
 
 class Surreal (Style):
     @property
     def maxrange (self):
-        return max (1, min (5, self.me.disparity))
+        return self.me.disparity
     priority = 1
     preferred_range = 1.5
     def after_trigger (self):
@@ -10272,84 +10150,107 @@ class Surreal (Style):
             maxrange = self.me.get_maxrange()
             pos = self.me.position
             dests = [d for d in xrange(7) if abs(d-pos) >= minrange and
-                                             abs(d-pos) <= maxrange]
-            self.me.move_directly(dests)
+                                             abs(d-pos) <= maxrange and
+                                             d != self.me.position]
+            if dests:
+                self.me.move_directly(dests)
 
 class Reverie (Style):
     minrange = 1
-    maxrange = 2
+    maxrange = 3
+    power = 3
     priority = -1
-    preferred_range = 1
+    preferred_range = 2
     clash_priority = 0.1
     def start_trigger (self):
-        self.me.retreat (range(6))
-    def hit_trigger (self):
         disparity = self.me.disparity
-        if disparity == 0:
-            self.opponent.lose_life (2)
-        elif disparity == 2:
-            self.opponent.lose_life (2)
-            self.me.gain_life (2)
-        elif disparity == 4:
-            self.opponent.lose_life (2)
-            self.me.gain_life (2)
-            self.opponent.stun()
+        if disparity >= 3:
+            self.me.lose_life (2)
+        if disparity >= 5:
+            self.me.stun()
 
 class Fathomless (Style):
     maxrange = 1
-    power = 1
+    power = -1
     priority = -2
     preferred_range = 0.5
+    def get_stunguard(self):
+        return 2 * (self.me.disparity >= 3)
+    def get_power_bonus(self):
+        if self.me.disparity >= 6:
+            return 4
+        if self.me.disparity >= 3:
+            return 2
+        return 0
+    def has_stun_immunity (self):
+        return (self.me.disparity >= 6)
     def start_trigger (self):
-        if self.me.disparity in (1,2):
-            self.me.triggered_dodge = True
-    def end_trigger (self):
-        # gaining life is better, if there's life to be gained.
-        choice = 3 if self.me.life < 20 else 0
-        self.me.priority_mod_next_beat = -self.game.make_fork(
-            4, self.me,
-            "Choose life gain + priority penalty for next beat:",
-            choice)
-        self.me.gain_life(self.me.priority_mod_next_beat)
-        self.me.evaluation_bonus += 0.25 * self.me.priority_mod_next_beat
+        if self.me.disparity >= 8:
+            self.me.become_active_player()
+            self.me.move_to_unoccupied()
+    def evaluate(self):
+        # Good against Dash
+        return (-0.5 if self.opponent.dash in (self.opponent.discard[1] |
+                                               self.opponent.discard[2])
+                else 0.5)
 
 
 #Magdelina
 
 class SolarSoul (Finisher):
     minrange = 1
+    maxrange = 2
+    power = 2
+    priority = 4
+    soak = 2
+    def hit_trigger (self):
+        spend = self.game.make_fork (1+self.me.trance, self.me,
+                                 "Spend how many Trance counters (+1 Power each)?")
+        if spend:
+            if self.game.reporting():
+                self.game.report("Magdelinga spends %d Trance counters" % spend)
+            self.trance -= spend
+            self.me.add_triggered_power_bonus(spend)
+    def evaluate_setup (self):
+        return (1 + 0.25 * self.me.trance 
+                if self.game.distance() <= 2 else 0)
+                
+class Apotheosis(Finisher):
+    minrange = 1
     maxrange = 1
     power = 1
     priority = 4
-    def hit_trigger (self):
+    def hit_trigger(self):
         self.opponent.stun()
-        self.me.level = 4
-        self.me.level_cap = 4
-        # not penalizing for level cap, it's probably good enough
-    def evaluate_setup (self):
-        return (4-min(4,self.me.level)) if self.game.distance() == 1 else 0
+        self.me.gain_level()
+    def evaluate_setup(self):
+        if self.game.distance() > 1:
+            return 0
+        if self.me.level == 5:
+            return 0.25
+        return 1
 
 class Blessing (Base):
     minrange = 1
     maxrange = 2
     power = None
-    priority = 4
+    priority = 3
     stunguard = 3
     preferred_range = 1.5
     deals_damage = False
     def hit_trigger (self):
-        self.game.player[0].gain_life (3)
-        self.game.player[1].gain_life (3)
+        self.me.gain_life (3)
+        self.opponent.gain_life (3)
+        self.me.gain_trance()
 
-class Sanctimonious (Style):
-    power = -1
-    priority = -2
-    def get_maxrange_bonus (self):
-        return self.me.level
-    def get_preferred_range (self):
-        return self.me.level / 2.0
-    def evaluation_bonus (self):
-        return 0.5 * (self.me.level - 2)
+class Safety (Style):
+    power = -2
+    priority = -1
+    def get_damage_cap (self):
+        return 4
+    def end_trigger (self):
+        if self.opponent.did_hit:
+            self.me.move ((0,1,2,3))
 
 class Priestess (Style):
     power = -1
@@ -10359,32 +10260,32 @@ class Priestess (Style):
     def after_trigger (self):
         self.me.gain_life (1)
 
-class Safety (Style):
-    power = -2
-    priority = -1
-    def get_damage_cap (self):
-        return 4
-    # choosing position
-    def end_trigger (self):
-        if self.opponent.did_hit:
-            self.me.move ((0,1,2,3))
-
 class Spiritual (Style):
-    power = -2
-    priority = -2
-    badness = -2.0 # Spiritual is worse than other styles, on average
-    def end_trigger (self):
-        self.me.level = min (self.me.level + 1, self.me.level_cap)
-    # the average value of using Spiritual is the value of going up
-    # to the next level, reduced by the style's general badness.
-    # that's the cost of missing spiritual for a whole 3 discard cycle
-    # having it in the discard delays it by 1/3 or 2/3 of a cycle
-    def discard_penalty (self):
-        me = self.me
-        average_value = me.level_values [min (me.level + 1, me.level_cap)] - \
-                        me.level_values [me.level] + self.badness
-        return average_value * (-2/3.0)
+    maxrange = 2
+    power = 2
+    priority = 1
+    preferred_range = 1
+    def before_trigger(self):
+        if self.me.trance:
+            self.me.trance -= 1
+        else:
+            self.opponent.triggered_dodge = True
+    # Disabling level bonuses is handled by Magdelina.get_level_bonus() 
+    def evaluation_bonus(self):
+        return (0.3 * (1.8 - self.me.level)
+                if self.me.trance
+                else -1)
         
+class Sanctimonious (Style):
+    power = -1
+    priority = -2
+    def get_maxrange_bonus (self):
+        return self.me.level
+    def get_preferred_range (self):
+        return self.me.level / 2.0
+    def evaluation_bonus (self):
+        return 0.3 * (self.me.level - 2)
+
 class Excelsius (Style):
     maxrange = 1
     power = -1
@@ -10402,13 +10303,13 @@ class AstralCannon (Finisher):
     minrange = 2
     maxrange = 4
     priority = 4
+    def has_stun_immunity (self):
+        return True
     def start_trigger (self):
         n = len(self.me.pool)
         for i in range (n):
             self.me.discard_token()
         self.me.add_triggered_power_bonus(2*n)
-    def has_stun_immunity (self):
-        return True
     def evaluate_setup (self):
         return 1 if len(self.me.pool) >= 3 and self.game.distance() in (2,3,4) \
                else 0
@@ -10452,9 +10353,7 @@ class Petrifying (Style):
                                      ["No", "Yes"])):
                 for i in range (3):
                     self.me.spend_token()
-                self.game.active = self.me
-                if self.game.reporting:
-                    self.game.report ("Marmelee becomes the active player")
+                self.me.become_active_player()
     def hit_trigger (self):
         if self.me.can_spend (2) and not self.opponent.has_stun_immunity():
             if (self.game.make_fork (2, self.me,
@@ -10497,7 +10396,7 @@ class Magnificent (Style):
 class Sorceress (Style):
     priority = -1
     preferred_range = 0.5 # 0-2 is 1, but it costs a token
-    def start_trigger (self):
+    def before_trigger (self):
         if self.me.is_attacking() and self.me.can_spend (1):
             self.me.tokens_spent_by_style = \
                 self.game.make_fork (2, self.me,
@@ -10585,7 +10484,7 @@ class MagnusMalleus (Finisher):
                                      "Spend how many tokens (+3 Power each)?")
             for i in range (spend):
                 self.me.spend_token()
-            self.me.add_triggered_power_bonus(spend)
+            self.me.add_triggered_power_bonus(3 * spend)
     def evaluate_setup (self):
         return 0.5 * len(self.me.pool) if self.me.attack_range() in [2,3,4] \
                else 0
@@ -10618,10 +10517,8 @@ class Immutable (Style):
     priority = -3
     preferred_range = 0.25 # halved because not necessarily active
     def take_a_hit_trigger (self):
-        if self.me.discard_token():
+        if not self.opponent.did_hit and self.me.discard_token():
             self.me.immutable_soak = 3
-        else:
-            self.me.immutable_soak = 0
     def get_soak (self):
         return self.me.immutable_soak
 
@@ -10642,12 +10539,7 @@ class Hallowed (Style):
     def start_trigger (self):
         self.me.pull ([1])
     def damage_trigger (self, damage):
-        blow_out = self.me.get_destinations (self.opponent, (-damage,)) == set()
-        self.me.push ([damage])
-        # if moving opponent back is illegal and opponent doesn't block
-        # (assumes oppoent either blocks all pushes or none)
-        if blow_out and self.me.blocked == set():
-            self.opponent.stun()
+        self.me.push (range(damage+1))
 
 class Apocalyptic (Style):
     minrange = 2
@@ -10688,8 +10580,9 @@ class GalaxyConduit (Finisher):
     power = None
     priority = 4
     def after_trigger (self):
-        self.me.gain_life (self.me.ante.count(self.me.mp))
-        self.me.recover_tokens (self.me.ante.count(self.me.mp))
+        ante = self.me.ante.count(self.me.mp)
+        self.me.gain_life (ante)
+        self.me.recover_tokens (2 * ante)
     def evaluate_setup (self):
         pool = len (self.me.pool)
         # 1 point per life, 0.5 point per MP recovered
@@ -10752,7 +10645,7 @@ class Unstable (Style):
     def choose_regain (self):
         self.me.recover_tokens(5)
     def choose_move (self):
-        self.me.move_opponent_anywhere()
+        self.me.move_opponent_to_unoccupied()
         self.opponent.stun()
     def choose_lose_2 (self):
         self.opponent.lose_life (2)
@@ -10824,11 +10717,14 @@ class MagicPoint (Token):
 class ZeroHour (Finisher):
     is_attack = False
     power = None
+    def start_trigger(self):
+        self.me.deal_damage(3 * len(self.me.induced_pool))
     def end_trigger (self):
         if len(self.me.induced_pool) == 3:
             raise WinException (self.me.my_number)
     def evaluate_setup (self):
-        return 2 if len(self.me.induced_pool) == 3 else 0
+        values = [0, 0.25, .75, 1]
+        return values[len(self.me.induced_pool)]
 
 # Restricting all stats to printed *base* power is not implemented
 class BlackEclipse (Finisher):
@@ -10855,15 +10751,14 @@ class Malediction (Base):
 
 class Unyielding (Style):
     maxrange = 1
-    priority = -2
+    power = -1
     preferred_range = 0.5
-    def has_stun_immunity (self):
-        return True
+    def special_range_hit(self):
+        return self.me.curse in self.opponent.ante
     def can_be_hit (self):
         return len(self.me.induced_pool) < 3
     def evaluation_bonus (self):
         return 0.5 if len(self.me.induced_pool) == 3 else -0.1
-    # Extra cursing handled by Rexan.take_a_hit_trigger()
 
 class Devastating (Style):
     power = 2
@@ -10880,8 +10775,6 @@ class Enervating (Style):
     preferred_range = 0.5
     def give_power_penalty (self):
         return -len(self.me.induced_pool)
-    def before_trigger (self):
-        self.me.advance([1])
     def hit_trigger (self):
         self.me.add_triggered_power_bonus(len(self.me.induced_pool))
 
@@ -11083,9 +10976,7 @@ class ArtificeAvarice (Finisher):
         # (Cutting a corner - player should have the choice of using the
         # trigger before the boots are overcharged, thus negating it)
         if self.me.overcharged_artifact is self.me.hover_boots:
-            self.game.active = self.me
-            if self.game.reporting:
-                self.game.report ("Runika becomes the active player")
+            self.me.become_active_player()
     def evaluate_setup (self):
         repair_value = len(self.me.deactivated_artifacts)
         return repair_value if self.game.distance() <= 2 else repair_value / 2.0
@@ -11094,7 +10985,7 @@ class ArtificeAvarice (Finisher):
 class UdstadBeam (Finisher):
     minrange = 4
     maxrange = 5
-    power = 6
+    power = 7
     priority = 3
     def has_stun_immunity(self):
         return True
@@ -11123,7 +11014,7 @@ class Tinker (Base):
 class Channeled (Style):
     power = 1
     priority = 1
-    def hit_trigger (self):
+    def start_trigger (self):
         self.me.activation_fork ()
     def end_trigger (self):
         # At end of beat, the only thing that matters is artifact value,
@@ -11138,9 +11029,9 @@ class Maintenance (Style):
         return len(self.me.deactivated_artifacts)
     def after_trigger (self):
         self.me.retreat ([2,1])
-    # Deactivation protection doesn't work as written
 
 class Explosive (Style):
+    power = -1
     preferred_range = 0.5
     def start_trigger (self):
         self.me.pull ([0,1])
@@ -11185,9 +11076,7 @@ class Overcharged (Style):
         # (Cutting a corner - player should have the choice of using the
         # trigger before the boots are overcharged, thus negating it)
         if self.me.overcharged_artifact is self.me.hover_boots:
-            self.game.active = self.me
-            if self.game.reporting:
-                self.game.report ("Runika becomes the active player")
+            self.me.become_active_player()
     def end_trigger (self):
         self.me.remove_artifact (self.me.overcharged_artifact)
     # deactivation immunity handled by Runika.deactivation_fork()
@@ -11237,6 +11126,8 @@ class Battlefist (Artifact):
         if self is self.me.overcharged_artifact:
             return 3
         return 1
+    def reduce_soak(self, soak):
+        return 0 if self is self.me.overcharged_artifact else soak
     
 
 #Seth
@@ -11264,7 +11155,7 @@ class FortuneBuster (Finisher):
         if isinstance(self.opponent.base, Finisher):
             raise WinException (self.me.my_number)
     def evaluate_setup (self):
-        return (1 if self.opponent.special_action_available and
+        return (0.5 if self.opponent.special_action_available and
                      self.opponent.life <= 7
                 else 0)
 
@@ -11351,8 +11242,7 @@ class Compelling (Style):
 
 #Shekhtur
 
-# Soul Breaker isn't fully implemented -
-# so Shekhtur only has her other finisher
+# NOT IMPLEMENTED
 class SoulBreaker (Finisher):
     minrange = 1
     maxrange = 1
@@ -11360,7 +11250,7 @@ class SoulBreaker (Finisher):
     prioirity = 3
     def damage_trigger (self, damage):
         self.opponent.stun()
-        # MISSING: opponent loses abilities
+        # MISSING: opponent can't ante, except for mandatory.
 
 class CoffinNails (Finisher):
     minrange = 1
@@ -11368,6 +11258,7 @@ class CoffinNails (Finisher):
     power = 3
     prioirity = 3
     def damage_trigger (self, damage):
+        self.opponent.stun()
         self.me.coffin_nails_hit = True
         # This should really depend on specific opponent for soak,
         # but ignoring stunguard is always very good
@@ -11380,7 +11271,7 @@ class Brand (Base):
     priority = 2
     preferred_range = 1.5
     def reduce_stunguard (self, stunguard):
-        return 0 if self.me.get_priority() >= 7 else stunguard
+        return 0 if self.me.get_priority() >= 6 else stunguard
     def after_trigger (self):
         if self.me.did_hit and self.me.can_spend(2):
             max_leech = min(4,len(self.me.pool)) / 2
@@ -11564,12 +11455,11 @@ class Riptide (Style):
             
 
 class Empathic (Style):
-    priority = -2
-    stunguard = 3
+    priority = -1
     tatsumi_attack = True
     juto_attack = False
     # may swap places with juto
-    def after_trigger (self):
+    def start_trigger (self):
         if self.me.juto_position not in [None, self.me.position, \
                                          self.opponent.position]:
             if self.game.make_fork (2, self.me,
@@ -11654,8 +11544,13 @@ class Judgment (Style):
     priority = -1
     preferred_range = 0.5
     def blocks_movement (self, direct):
-        # block all movement
-        return set(xrange(7))
+        # Can't retreat or move past me.
+        if direct:
+            return set()
+        direction = (self.me.position - self.opponent.position)
+        direction /= abs(direction)
+        return set([self.me.position + direction,
+                    self.opponent.position - direction])
 
 class Glorious (Style):
     power = 2
@@ -11713,7 +11608,6 @@ class TheWave (Finisher):
     power = 2
     priority = 5
     standard_range = False
-    preferred_range = 2 # average so it doesn't interfere
     def special_range_hit (self):
         return self.opponent.position in self.me.zombies
     def hit_trigger (self):
@@ -11798,11 +11692,12 @@ class Metal (Style):
 
 class Hellraising (Style):
     minrange = 1
-    maxrange = 1
+    maxrange = 2
+    power = -1
     priority = -2
     # in corner, no retreat, so extra range is effective
     def get_preferred_range (self):
-        return 1 if self.me.position in [0,6] else 0
+        return 1.5 if self.me.position in [0,6] else 0.5
     def start_trigger (self):
         self.me.retreat ([1])
         self.me.add_zombies (pos_range (self.me.position,
@@ -11814,7 +11709,6 @@ class Hellraising (Style):
 class Abyssal (Style):
     minrange = 2
     maxrange = 4
-    priority = 1
     preferred_range = 3
     def after_trigger (self):
         if self.me.base.is_attack and self.me.base.standard_range:
@@ -11825,14 +11719,14 @@ class Abyssal (Style):
 class Thunderous (Style):
     minrange = 1
     maxrange = 2
-    power = -2
+    power = -1
     def get_preferred_range (self):
         return 1.5 if self.me.position in (0,6) else 1
     def start_trigger (self):
         self.me.zombies.add(self.me.position)
-        self.me.retreat((-1,0))
+        self.me.advance([2])
     def hit_trigger (self):
-        self.me.push ((-2,-1,0))
+        self.me.push ((2,1,0))
 
 #Zaamassal
 
@@ -11860,11 +11754,11 @@ class PlaneDivider (Finisher):
     minrange = 1
     maxrange = 1
     power = 2
-    priority = 5
+    priority = 4
     def before_trigger (self):
-        self.me.move_anywhere()
+        self.me.move_to_unoccupied()
     def hit_trigger (self):
-        self.me.move_opponent_anywhere()
+        self.me.move_opponent_to_unoccupied()
         self.me.add_triggered_power_bonus (self.game.distance() - 1)
         prompt = "Select new paradigm:"
         options = [p.name for p in self.me.paradigms]
@@ -11882,21 +11776,23 @@ class ParadigmShift (Base):
     power = 3
     priority = 3
     preferred_range = 2.5
-    def before_trigger (self):
+    def after_trigger (self):
         prompt = "Select new paradigm:"
         options = [p.name for p in self.me.paradigms]
         paradigm = self.me.paradigms [self.game.make_fork (5, self.me, prompt,
                                                            options)]
         if paradigm not in self.me.active_paradigms:
             self.me.set_active_paradigms ([paradigm])
-        # We can now use the new paradigm's before trigger, but that's
-        # handled by Zaamassal.before_trigger()
+            paradigm.after_trigger()
     def discard_evaluation (self, discard_pile):
-        return -1
+        return 0.5
 
 # all zaamassal styles allow him to assume the appropriate paradigm
 class ZStyle (Style):
     def after_trigger (self):
+        # No need to switch if we can switch again anyway.
+        if self.me.unique_base in self.me.active_cards:
+            return
         # if appropriate paradigm not active, fork to decide on activation
         paradigm = self.me.paradigms [self.order]
         if paradigm not in self.me.active_paradigms:
@@ -11905,10 +11801,6 @@ class ZStyle (Style):
                 self.me.set_active_paradigms ([paradigm])
                 # if the new paradigm has an after_trigger, activate it.
                 paradigm.after_trigger()
-                # the old paradigm's after trigger is optional but will be
-                # activated anyway by Zaamassal.after_trigger()
-                # This is bad for Resilience,
-                # so Resilience has a specific clause to avoid this
             
 class Malicious (ZStyle):
     power = 1
@@ -11939,6 +11831,8 @@ class Sturdy (ZStyle):
             return set() #don't block
         else:
             return set(xrange(7)) #block
+    # optional negation of own movement implemented by always adding 0
+    # to own move options (handled by Zaamassal.execute_move())
 
 class Warped (ZStyle):
     maxrange = 2
@@ -11996,7 +11890,7 @@ class Resilience (Paradigm):
         self.resilience_soak = 2
     # if Resilience is replaced in the after trigger,
     # it's own after trigger can be avoided
-    # (style triggers precede paradigm triggers)
+    # (style and base triggers precede paradigm triggers)
     def after_trigger (self):
         if self in self.me.active_paradigms:
             self.resilience_soak = 0
@@ -12005,11 +11899,11 @@ class Resilience (Paradigm):
 
 class Distortion (Paradigm):
     shorthand = 'd'
-    values = [0,0,0.5,2.5,2.5,0.5,0]
+    values = [0,0,0.5,1.5,1.5,0.5,0]
     def can_be_hit (self):
-        return (self.opponent.attack_range() not in (3,4))
+        return (self.opponent.attack_range() != 4)
     def special_range_hit (self):
-        return (self.me.attack_range() in (3,4))
+        return (self.me.attack_range() == 3)
     # value depends on range.
     # completely useless against Heketch, who can jump right back in
     def evaluate (self):
@@ -12027,7 +11921,6 @@ character_dict = {'adjenna'  :Adjenna,
                   'cadenza'  :Cadenza,
                   'cesar'    :Cesar,
                   'clinhyde' :Clinhyde,
-                  'clive'    :Clive,
                   'demitras' :Demitras,
                   'eligor'   :Eligor,
                   'heketch'  :Heketch,
