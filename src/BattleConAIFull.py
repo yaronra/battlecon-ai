@@ -1,3 +1,6 @@
+#!/usr/bin/python
+
+
 # TO DO
 
 # Cancel: opponent's pair goes in discard (two pairs there),
@@ -47,7 +50,7 @@
 # free_for_all (1, <name>, skip=['kehrolyn'], first_beats=True)
 
 from operator import attrgetter
-import copy
+from optparse import OptionParser
 import itertools
 import numpy
 import os.path
@@ -61,12 +64,35 @@ debug_log = []
 
 # MAIN FUNCTIONS
 
+def main():
+    parser = OptionParser()
+    parser.add_option("-t", "--test",
+                      action="store_true", dest="test",
+                      default=False,
+                      help="run test")
+    parser.add_option("-a", "--ad_hoc",
+                      action="store_true", dest="ad_hoc",
+                      default=False,
+                      help="run ad_hoc")
+    options, unused_args = parser.parse_args()
+    if options.test:
+        test()
+    elif options.ad_hoc:
+        ad_hoc()
+    else:
+        play()
+    
+
 def ad_hoc():
-    # test byron, runika, rexan, lymn, cesar, karin
-    try:
-        free_for_all(10, 'lymn','runika')
-    except DebugException as e:
-        return e.game
+    start_with = 'adjenna'
+    names = [n for n in playable if n >= start_with]
+    names = 'vanaah'
+    free_for_all (repeat=1,
+                  names=names, 
+                  start=start_with, 
+                  skip=[],
+                  raise_exceptions=True, 
+                  first_beats=False)
 
 playable = ['adjenna',
             'alexian',
@@ -202,6 +228,7 @@ def duel (name0, name1, repeat, beta_bases0=False, beta_bases1=False,
     beta_str1 = " (beta bases)" if beta_bases1 else ""
     print name0 + beta_str0, "vs.", name1 + beta_str1
     log = []
+    start = time.time()
     for i in range(repeat):
         game = Game.from_start (name0, name1, beta_bases0, beta_bases1, 
                                 default_discards=False,
@@ -221,7 +248,11 @@ def duel (name0, name1, repeat, beta_bases0=False, beta_bases1=False,
         print winner,
     print
     print victories[0], ":", victories[1]
+    end = time.time()
     logfilename = "logs/"+name0+"_"+name1+"_log.txt"
+    time_string = "total_time: %d" % (end-start) 
+    log.append(time_string)
+    print time_string
     with open (logfilename, 'w') as f:
         for g in log:
             f.write (g+'\n')
@@ -482,7 +513,7 @@ class Game:
         else:
             winner = self.player[winner].name
         self.dump(log)
-        return log, winner
+        return self.log, winner
 
     def situation_report (self):
         report = []
@@ -899,6 +930,8 @@ class Game:
         
         # If 15 beats have been played, raise WinException 
         if self.current_beat == 15 and not self.stop_the_clock:
+            if self.reporting:
+                self.report("Game goes to time")
             diff = self.player[0].life - self.player[1].life
             if diff > 0:
                 raise WinException (0)
@@ -2809,7 +2842,7 @@ class Alexian (Character):
                        Mighty   (the_game, self), \
                        Steeled  (the_game, self)  ]
         self.finishers = [EmpireDivider (the_game, self),
-                           HailTheKing (the_game, self)]
+                          HailTheKing (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.chivalry = Chivalry  (the_game, self)
         self.induced_tokens = [self.chivalry]
@@ -2936,10 +2969,9 @@ class Alexian (Character):
         else:
             Character.before_trigger (self)
  
-
     def evaluate (self):
         value = Character.evaluate(self)
-        value -= 0.8 * len(self.induced_pool)
+        value -= 0.6 * len(self.induced_pool)
         return value
 
 
@@ -3112,7 +3144,7 @@ class Aria (Character):
         if turret == 3:
             value += 0.2
            
-        # Short term value vs. style effects depend on which style is in hand,
+        # Short term value vs. style effects depend on which styles are in hand,
         # and are handled by evaluation_bonus() on each style.
 
         return value
@@ -4224,7 +4256,7 @@ class Eligor (Character):
                else Character.get_minimum_life(self)
 
     def evaluate (self):
-        return Character.evaluate (self) + 0.3 * len(self.pool)
+        return Character.evaluate (self) + 0.2 * len(self.pool)
 
 class Heketch (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
@@ -4386,6 +4418,18 @@ class Heketch (Character):
         for card in self.active_cards:
             card.movement_reaction (mover, old_position, direct)
 
+    # Apply Merciless when I move opponent.
+    def execute_move (self, mover, moves, direct=False):
+        old_dir = self.opponent.position - self.position
+        Character.execute_move (self, mover, moves, direct)
+        if mover == self.opponent and self.merciless in self.active_cards:
+            new_dir = self.opponent.position - self.position
+            if new_dir * old_dir < 0:
+                self.opponent.lose_life (2)
+                self.merciless_immobilized = True
+                if self.game.reporting:
+                    self.game.report (self.opponent.name + " cannot move again this beat")
+
     # retrieve token at end of beat
     def unique_ability_end_trigger (self):
         if self.game.distance() >= 3 or self.living_nightmare_active:
@@ -4540,18 +4584,18 @@ class Hikaru (Character):
                        Advancing (the_game, self), \
                        Sweeping  (the_game, self), \
                        Geomantic (the_game, self)  ]
+        self.finishers = [WrathOfElements (the_game, self),
+                          FourWinds       (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.tokens = [Earth (the_game, self), \
                        Fire  (the_game, self), \
                        Water (the_game, self), \
                        Wind  (the_game, self)]
         self.water = self.tokens[2]
-        self.finishers = [WrathOfElements (the_game, self),
-                           FourWinds       (the_game, self)]
-        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
-        self.pool = [t for t in self.tokens]
+        self.pool = self.tokens[:]
 
     def choose_initial_discards (self):
         # Focused Palm Strike, Trance Strike
@@ -5488,10 +5532,8 @@ class Luc (Character):
     def unique_ability_end_trigger (self):
         self.recover_tokens (1)
 
-    # used to be 1.5 per token
-    # many matches (especially intra base game) are with old eval.
     def evaluate (self):
-        return Character.evaluate (self) + 1.2 * len(self.pool)
+        return Character.evaluate (self) + 0.4 * len(self.pool)
 
 class Lymn (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
@@ -6093,6 +6135,15 @@ class Rexan (Character):
                 card.before_trigger()
         else:
             Character.before_trigger (self)
+
+    # in an Enervating Malediction, give the token before calculating
+    # Power.
+    def card_hit_triggers (self):
+        if self.style.name == 'Enervating' and self.base.name == 'Malediction':
+            self.base.hit_trigger()
+            self.style.hit_trigger()
+        else:
+            Character.card_hit_triggers (self)
 
     # There seems to be little punishment for hoarding tokens
     def evaluate (self):
@@ -7752,6 +7803,7 @@ class Beckoning (Style):
 #Alexian
 
 class HailTheKing (Finisher):
+    name_override = "Hail the King"
     minrange = 1
     maxrange = 1
     soak = 6
@@ -7771,7 +7823,6 @@ class HailTheKing (Finisher):
         return 0.25 * (self.game.distance()-1)
 
 class EmpireDivider (Finisher):
-    name_override = "Hail the King"
     minrange = 1
     maxrange = 2
     power = 7
@@ -8191,7 +8242,7 @@ class Faceless (Style):
     def damage_trigger (self, damage):
         if self.me.attack_range() == 2:
             self.me.priority_bonus_next_beat = damage
-            self.me.evaluation_bonus += damage / 2.0
+            self.me.evaluation_bonus += damage / 3.0
 
 class Breathless (Style):
     minrange = 3
@@ -8257,7 +8308,7 @@ class Battery (Style):
     priority = -1
     def end_trigger (self):
         self.me.priority_bonus_next_beat = True
-        self.me.evaluation_bonus += 2
+        self.me.evaluation_bonus += 1.3
 
 class Clockwork (Style):
     power = 3
@@ -8386,7 +8437,7 @@ class Inevitable (Style):
     def hit_trigger (self):
         self.opponent.stun()
         self.me.power_penalty_next_beat = True
-        self.me.evaluation_bonus += 1.5
+        self.me.evaluation_bonus += 1
     
 
 #Clinhyde
@@ -8861,6 +8912,7 @@ class Vengeful (Style):
         return set(xrange(7))
 
 class CounterStyle (Style):
+    name_override = 'Counter'
     power = 1
     priority = -1
     def start_trigger (self):
@@ -8938,7 +8990,7 @@ class LivingNightmare (Finisher):
     def hit_trigger (self):
         self.opponent.stun()
         self.me.living_nightmare_active = True
-        self.me.evaluation_bonus += 10
+        self.me.evaluation_bonus += 7
     def evaluate_setup (self):
         # only real way of hitting is with +3 priority from token
         return 1 if len(self.me.pool) == 1 else 0
@@ -8961,7 +9013,7 @@ class Merciless (Style):
     def movement_reaction (self, mover, old_pos, direct):
         if mover == self.opponent and not direct and \
            (mover.position - self.me.position) * \
-           (old_pos - self.me.position) < 1:
+           (old_pos - self.me.position) < 0:
             self.opponent.lose_life (2)
             self.me.merciless_immobilized = True
             if self.game.reporting:
@@ -8969,6 +9021,7 @@ class Merciless (Style):
     def after_trigger (self):
         if len (self.me.pool) == 1:
             self.me.triggered_dodge = True
+    # reaction to moving opponent handled by Heketch.execute_move()
 
 class Rasping (Style):
     maxrange = 1
@@ -9009,7 +9062,7 @@ class Assassin (Style):
                                     ["No", "Yes"], 1):
                 self.me.assassin_immobilized_next_beat = True
                 self.me.spend_token ()
-                self.me.evaluation_bonus += 4
+                self.me.evaluation_bonus += 3.5
                 if self.game.reporting:
                     self.game.report (self.opponent.name + " immobilized next beat")
 
@@ -9224,20 +9277,20 @@ class Geomantic (Style):
 
 class Earth (Token):
     soak = 3
-    value = 1.75
+    value = 1.2
 
 class Fire (Token):
     power = 3
-    value = 1.5
+    value = 1
 
 class Water (Token):
     minrange = -1
     maxrange = 1
-    value = 1.25
+    value = 0.8
 
 class Wind (Token):
     priority = 2
-    value = 1
+    value = 0.6
 
 
 #Kajia
@@ -9445,7 +9498,7 @@ class Volcanic (Style):
     def hit_trigger (self):
         if self.me.is_elemental:
             self.me.priority_penalty_next_beat = True
-            self.me.evaluation_bonus += 1
+            self.me.evaluation_bonus += 0.7
     def end_trigger (self):
         if not self.me.is_elemental:
             self.me.move_to_unoccupied()
@@ -9900,7 +9953,7 @@ class Venomous (Style):
         self.me.advance ([0,1])
     def hit_trigger (self):
         self.me.priority_penalty_next_beat = True
-        self.me.evaluation_bonus += 1
+        self.me.evaluation_bonus += 0.7
 
 class Rooted (Style):
     minrange = -1
@@ -10207,9 +10260,9 @@ class SolarSoul (Finisher):
         spend = self.game.make_fork (1+self.me.trance, self.me,
                                  "Spend how many Trance counters (+1 Power each)?")
         if spend:
-            if self.game.reporting():
+            if self.game.reporting:
                 self.game.report("Magdelinga spends %d Trance counters" % spend)
-            self.trance -= spend
+            self.me.trance -= spend
             self.me.add_triggered_power_bonus(spend)
     def evaluate_setup (self):
         return (1 + 0.25 * self.me.trance 
@@ -11291,7 +11344,7 @@ class Unleashed (Style):
     def end_trigger (self):
         self.me.recover_tokens(2)
         self.me.unleashed_bonus_next_beat = True
-        self.me.evaluation_bonus += 0.5
+        self.me.evaluation_bonus += 0.3
 
 class Combination (Style):
     power = 2
@@ -11473,6 +11526,7 @@ class Empathic (Style):
         self.opponent.lose_life(self.me.juto_damage_taken)
 
 class WaveStyle (Style):
+    name_override = 'Wave'
     minrange = 2
     maxrange = 4
     power = -1
@@ -11498,7 +11552,7 @@ class DeathWalks (Finisher):
     def hit_trigger (self):
         self.opponent.stun()
         self.me.priority_penalty_next_beat = True
-        self.me.evaluation_bonus += 2
+        self.me.evaluation_bonus += 1.3
     def evaluate_setup (self):
         return 1 if self.game.distance() <= 2 else 0
 
@@ -11539,6 +11593,7 @@ class Reaping (Style):
             self.me.recover_tokens()
 
 class Judgment (Style):
+    minrange = 1
     maxrange = 1
     power = 1
     priority = -1
@@ -11847,12 +11902,13 @@ class Paradigm (Card):
 
 class Pain (Paradigm):
     shorthand = 'p'
+    values = [0,0,0,0,0.1,0.4,0.8]
     def damage_trigger (self, damage):
         self.opponent.lose_life (2)
     # almost 2 damage usually, but less when opponent low on life
     # (can't take last life with life loss)
     def evaluate (self):
-        return min (0.3 * (self.opponent.life - 1), 1.5)
+        return self.values[min(6, self.opponent.life)]
         
 class Fluidity (Paradigm):
     shorthand = 'f'
@@ -11882,7 +11938,7 @@ class Haste (Paradigm):
             return set ([self.me.position - 1])
     # winning clashes is 0.5 priority, or 0.25 value
     def evaluate (self):
-        return 1.5 if self.game.distance() == 1 else 0.25
+        return 1.0 if self.game.distance() == 1 else 0.25
 
 class Resilience (Paradigm):
     shorthand = 'r'
@@ -11895,11 +11951,11 @@ class Resilience (Paradigm):
         if self in self.me.active_paradigms:
             self.resilience_soak = 0
     def evaluate (self):
-        return 1.5
+        return 1.2
 
 class Distortion (Paradigm):
     shorthand = 'd'
-    values = [0,0,0.5,1.5,1.5,0.5,0]
+    values = [0,0,0.0,1.0,1.0,0.0,0]
     def can_be_hit (self):
         return (self.opponent.attack_range() != 4)
     def special_range_hit (self):
@@ -11948,5 +12004,5 @@ character_dict = {'adjenna'  :Adjenna,
                   'zaamassal':Zaamassal}
 
 if __name__ == "__main__":
-    play()
+    main()
 

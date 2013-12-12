@@ -1,11 +1,12 @@
+#!/usr/bin/python
+
 import os
 from operator import itemgetter
-import string
 import csv
 from numpy import array
 
 phrases = {  'adjenna' : ['Basilisk Gaze'],
-             'alexian' : ['Empire Divider', 'Hail the King'],
+             'alexian' : ['Empire Divider', 'Hail The King'],
              'aria' : ['Laser Lattice'],
              'byron' : ['Soul Trap', 'Soul Gate'],
              'cadenza' : ['Rocket Press', 'Feedback Field'],
@@ -15,8 +16,8 @@ phrases = {  'adjenna' : ['Basilisk Gaze'],
              'eligor' : ['Sweet Revenge', 'Sheet Lightning'],
              'heketch' : ['Million Knives', 'Living Nightmare'],
              'hikaru' : ['Wrath of Elements', 'Four Winds', 'Palm Strike'],
+             'kajia' : ['Imago Emergence'],
              'kallistar' : ['Chain of Destruction'],
-             'kajia' : ['Creeping Death'],
              'karin' : ['Red Moon Rage', 'Lunar Cross', 'Full Moon'],
              'kehrolyn' : ['Hydra Fork'],
              'khadath' : ['Dimensional Exile'],
@@ -26,7 +27,7 @@ phrases = {  'adjenna' : ['Basilisk Gaze'],
              'magdelina' : ['Solar Soul'],
              'marmelee' : ['Astral Cannon', 'Astral Trance'],
              'mikhail' : ['Magnus Malleus', 'The Fourth Seal'],
-#             'oriana' : ['Nihil Eraser', 'Galaxy Conduit'],
+             'oriana' : ['Nihil Eraser', 'Galaxy Conduit'],
              'rexan' : ['Zero Hour'],
              'rukyuk' : ['Point Blank', 'Fully Automatic', 'Force Grenade'],
              'runika' : ['Artifice Avarice', 'Udstad Beam'],
@@ -124,7 +125,7 @@ def strategies (name, logdir="main", beat=None,
                     if ratio > 1.5:
                         print "STRONG - %.2f" %ratio
                     elif ratio < 0.5:
-                        print "weak - %.2f" %ratio
+                        print "WEAK - %.2f" %ratio
                     else:
                         print                                     
             print '-----------'
@@ -191,7 +192,6 @@ def hitting (name, logdir="main", printing=True):
     print "stunned/missed/hit/dam per hit/dam per beat"
     for rec in all_recs:
         if rec.name != 'Special':
-            beats = float(rec.beats)
             # a stunned beat is not necessarily an attack beat,
             # but dashes don't usually get stunned
             attack_beats = float(rec.stunned + rec.misses + rec.hits)
@@ -278,7 +278,7 @@ def specials (name, logdir="main"):
     stats = {'all': [0]*16,
              'pulse': [0]*16,
              'cancel': [0]*16,
-             'overdrive': [0]*16}
+             'finisher': [0]*16}
     # count first turns to figure out number of games
     d = parse(name, logdir, 1)
     games = sum ([d[k] for k in d.keys()])
@@ -292,7 +292,7 @@ def specials (name, logdir="main"):
                 elif key[1] == 'Cancel':
                     stats['cancel'][beat] += d[key]
                 else:
-                    stats['overdrive'][beat] += d[key]
+                    stats['finisher'][beat] += d[key]
     for stat in sorted(stats.keys()):
         s = stats[stat]
         total = 0
@@ -344,7 +344,7 @@ def total_bases(specials=True, logdir="main"):
                  "Cancel" : 0}
     total_total = 0
     for name in all_names:
-        count, styles, bases = pair_count (parse (name, logdir), specials)
+        count, unused_styles, bases = pair_count (parse (name, logdir), specials)
         base_count = count.sum(axis=0)
         total = (count.sum())
         for b in range(len(bases)):
@@ -417,24 +417,28 @@ def base_ante_count (strat_dict, specials=False):
 
 def victories (name, logdir="main", return_timeouts=False, silent=False,
                per_name=False):
-    (win,lose,draw,real_win,real_lose) = (0,0,0,0,0)
+    (win,lose,draw,time_win,time_lose) = (0,0,0,0,0)
+    next_result_is_timeout = False
     for filename in list_files(logdir, name):
-        (_win,_lose,_draw,_real_win,_real_lose) = (0,0,0,0,0)
+        (_win,_lose,_draw) = (0,0,0)
         with open (filename) as f:
             log = [line for line in f]
         for line in log:
-            if line.endswith ('WINS\n'):
+            if line.endswith ('WINS!\n'):
                 if line.find(name.upper()) > -1:
                     _win += 1
+                    if next_result_is_timeout:
+                        time_win += 1
                 else:
                     _lose += 1
+                    if next_result_is_timeout:
+                        time_lose += 1
+                next_result_is_timeout = False
             if line.endswith ('TIED!\n'):
                 _draw += 1
-            if line.endswith ('IS DEFEATED\n'):
-                if line.find(name.upper()) > -1:
-                    real_lose += 1
-                else:
-                    real_win += 1
+                next_result_is_timeout = False
+            if line.endswith ('Game goes to time\n'):
+                next_result_is_timeout = True
         if per_name:
             names = filename.split('/')[-1].split('_')
             other_name = names[0] if names[0] != name else names[1]
@@ -449,14 +453,14 @@ def victories (name, logdir="main", return_timeouts=False, silent=False,
     if not silent:
         print "power:", percentify ((win+draw/2.0)/games)
         print "win: %d (%s) - %s by time out" %(win, percentify(win/games),
-                                                percentify(1-real_win/float(win)))
+                                                percentify(time_win/float(win)))
         print "lose: %d (%s) - %s by time out" %(lose, percentify(lose/games),
-                                                 percentify(1-real_lose/float(lose)))
+                                                 percentify(time_lose/float(lose)))
         print "draw: %d (%s)" %(draw, percentify(draw/games))
-        print "total: %s by timeout" %percentify(1-(real_win+real_lose)/games)
+        print "total: %s by timeout" %percentify((time_win+time_lose)/games)
 
     if return_timeouts:
-        return (1-(real_win+real_lose)/games)
+        return (time_win+time_lose)/games
     else:
         return (win+draw/2.0)/games
 
@@ -524,7 +528,7 @@ def solution_percents (name, logdir="first beats", beat=None):
         while True:
             # forward to start of beat
             while i < len (log) and not log[i].startswith("Beat"):
-               i += 1
+                i += 1
             if i == len (log):
                 break
             current_beat = int(log[i].split(' ')[1])
@@ -576,6 +580,7 @@ def unbeatable_strategies (name, thresh=5, life_thresh=8,
     winfile = open (outdir+'/'+name+'_win_by_%d.txt'%thresh,'w')
     total = 0
     for filename in list_files(logdir, name):
+        names = filename.split('/')[-1].split('_')
         count = 0
         with open (filename) as f:
             log = [line for line in f]
@@ -585,16 +590,16 @@ def unbeatable_strategies (name, thresh=5, life_thresh=8,
             while i < len (log) and \
                   not log[i].startswith("Unbeatable strategy for %s"
                                         % name.capitalize()):
-               i += 1
+                i += 1
             if i == len (log):
                 break
             if len(log[i].split(' ')) < 6:
-                   i += 1
+                    i += 1
             diffs = []
             first_unbeatable_line = i
             while string_is_float(log[i][:-1].split(' ')[-1]):
-                   diffs.append (abs(float(log[i][:-1].split(' ')[-1])))
-                   i+=1
+                    diffs.append (abs(float(log[i][:-1].split(' ')[-1])))
+                    i+=1
             if max(diffs) >= thresh:
                 # go back to start of beat
                 start = i
@@ -636,7 +641,7 @@ def parse (name, logdir="main", beat=None, condition='',
         while True:
             # forward to start of beat
             while i < len (log) and not log[i].startswith("Beat"):
-               i += 1
+                i += 1
             if i == len (log):
                 break
             condition_active = reverse_condition
@@ -796,10 +801,10 @@ def alexian_tokens (logdir="main"):
                 current_ante_count = j
             if line.startswith("Opponent has ") and \
                line.endswith("Chivalry tokens\n"):
+                current_tokens = int(line[13])
                 if current_ante_count is not None:
                     antes[current_ante_count] += 1
                     post_ante[current_tokens - current_ante_count] += 1
-                current_tokens = int(line[13])
                 current_ante_count = 0
                 tokens[current_tokens] += 1
                 beat_sums[current_beat] += 1
@@ -865,15 +870,15 @@ def aria_droids (logdir="main"):
                 else:
                     t = t if left else 6-t
                 turret[t] += 1 
-    print "dampening: %s", percentify(sum(dampening[:-1])/n_beats)
+    print "dampening: %s" % percentify(sum(dampening[:-1])/n_beats)
     for i in range(7):
         print percentify(dampening[i]/n_beats),
     print
-    print "magnetron: %s", percentify(sum(magnetron[:-1])/n_beats)
+    print "magnetron: %s" % percentify(sum(magnetron[:-1])/n_beats)
     for i in range(7):
         print percentify(magnetron[i]/n_beats),
     print
-    print "turret: %s", percentify(sum(turret[:-1])/n_beats)
+    print "turret: %s" % percentify(sum(turret[:-1])/n_beats)
     for i in range(7):
         print percentify(turret[i]/n_beats),
     print
@@ -913,7 +918,7 @@ def cesar_cycle (logdir='main'):
         while True:
             # forward to start of beat, threat level
             while i < len (log) and not log[i].startswith("Threat level: "):
-               i += 1
+                i += 1
             if i == len (log):
                 break
             threat_level = int(log[i].split(' ')[2])
@@ -1077,7 +1082,7 @@ def karin_jager (logdir="main"):
         while True:
             # forward to start of beat
             while i < len (log) and not log[i].startswith("Beat"):
-               i += 1
+                i += 1
             if i == len (log):
                 break
             # look for board
@@ -1125,7 +1130,7 @@ def lymn_disparity (logdir='main'):
         while True:
             # forward to start of beat
             while i < len (log) and not log[i].startswith("Beat "):
-               i += 1
+                i += 1
             if i == len (log):
                 break
             # advance to first pair used
@@ -1166,6 +1171,7 @@ def marmelee_tokens (logdir="main"):
 def marmelee_spending (logdir="main"):
     style_spend_dict = {}
     for filename in list_files(logdir, 'marmelee'):
+        names = filename.split('/')[-1].split('_')
         with open (filename) as f:
             log = [line for line in f]
         style = None
@@ -1231,7 +1237,7 @@ def mikhail_pairs_with_tokens (logdir="main"):
                 if ratio > 1.5:
                     print "STRONG - %.2f" %ratio
                 elif ratio < 0.5:
-                    print "weak - %.2f" %ratio
+                    print "WEAK - %.2f" %ratio
                 else:
                     print                                     
           
@@ -1245,9 +1251,9 @@ def mikhail_tokens (logdir="main"):
             log = [line for line in f]
         for line in log:
             if line.startswith('Beat '):
+                beat = int(line.split(' ')[1])
                 if ante_this_beat is not None:
                     antes[beat][int(ante_this_beat)] += 1
-                beat = int(line.split(' ')[1])
                 ante_this_beat = False
             elif len(line) == 14 and line.endswith (' Seal tokens\n'):
                 beat_tokens[beat][int(line[0])] += 1
@@ -1322,10 +1328,10 @@ def rexan_tokens (logdir="main"):
                 current_ante_count = j
             if line.startswith("Opponent has ") and \
                line.endswith("Curse tokens\n"):
+                current_tokens = int(line[13])
                 if current_ante_count is not None:
                     antes[current_ante_count] += 1
                     post_ante[current_tokens - current_ante_count] += 1
-                current_tokens = int(line[13])
                 current_ante_count = 0
                 tokens[current_tokens] += 1
                 beat_sums[current_beat] += 1
@@ -1468,7 +1474,7 @@ def voco_zombies (logdir="main"):
         while True:
             # forward to start of beat
             while i < len (log) and not log[i].startswith("Beat"):
-               i += 1
+                i += 1
             if i == len (log):
                 break
             # look for board
@@ -1515,7 +1521,7 @@ def parse_base_vs_induced_ante (name, logdir="main"):
         while True:
             # forward to start of beat
             while i < len (log) and not log[i].startswith("Beat"):
-               i += 1
+                i += 1
             if i == len (log):
                 break
             # look for first pair used
@@ -1536,7 +1542,7 @@ def parse_base_vs_induced_ante (name, logdir="main"):
                 strat_dict[strat] = 1
 
     bases = ['Burst','Dash','Drive','Grasp','Shot','Strike','Cancel','Pulse']
-    all_bases = bases + ['Overdrive','Unique']
+    all_bases = bases + ['Finisher','Unique']
     antes = sorted(list(set([p[2] for p in strat_dict.keys()])))
     new_dict = {}
     for (s,b,a) in strat_dict.keys():
@@ -1544,8 +1550,8 @@ def parse_base_vs_induced_ante (name, logdir="main"):
             new_dict[(b,a)] = new_dict.get((b,a),0) + strat_dict[(s,b,a)]
         else:
             if s == 'Special':
-                new_dict[('Overdrive',a)] = \
-                        new_dict.get(('Overdrive',a),0) + strat_dict[(s,b,a)]
+                new_dict[('Finisher',a)] = \
+                        new_dict.get(('Finisher',a),0) + strat_dict[(s,b,a)]
             else:
                 new_dict[('Unique',a)] = \
                         new_dict.get(('Unique',a),0) + strat_dict[(s,b,a)]
@@ -1570,15 +1576,17 @@ def parse_base_vs_induced_ante (name, logdir="main"):
         print percentify(a[1]/float(total)), a[0]
     print '--------------'
     for x in range(len(all_bases)):
-        for y in range(len(antes)):
-            cxy = count[x][y]
-            print all_bases[x], antes[y], \
-                  percentify(cxy/float(base_count[x])), \
-                  percentify(cxy/float(ante_count[y])),
-            ratio = float(cxy * total) / (base_count[x]*ante_count[y])
-            if ratio > 1.5:
-                print "STRONG - %.2f" %ratio
-            elif ratio < 0.5:
-                print "weak - %.2f" %ratio
-            else:
-                print                                     
+        if base_count[x]:
+            for y in range(len(antes)):
+                if ante_count[y]:
+                    cxy = count[x][y]
+                    print all_bases[x], antes[y], \
+                          percentify(cxy/float(base_count[x])), \
+                          percentify(cxy/float(ante_count[y])),
+                    ratio = float(cxy * total) / (base_count[x]*ante_count[y])
+                    if ratio > 1.5:
+                        print "STRONG - %.2f" %ratio
+                    elif ratio < 0.5:
+                        print "WEAK - %.2f" %ratio
+                    else:
+                        print                                     
