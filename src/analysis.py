@@ -1,9 +1,11 @@
 #!/usr/bin/python
 
-import os
+from numpy import array
 from operator import itemgetter
 import csv
-from numpy import array
+import os
+import re
+from reportlab.lib.rparsexml import filenames
 
 phrases = {  'adjenna' : ['Basilisk Gaze'],
              'alexian' : ['Empire Divider', 'Hail The King'],
@@ -44,12 +46,17 @@ devastation = ['adjenna', 'alexian', 'aria', 'byron', 'cesar', 'clinhyde',
 
 all_names = sorted(phrases.keys())
 
-def list_files (logdir, name=None):
+def list_files (logdir, name=None, player_num=None):
     fulldir = 'logs/' + logdir + '/'
-    filenames = [filename for filename in os.listdir(fulldir)]
-    return [fulldir+fn for fn in filenames
-            if (name is None or name in fn) and os.path.isfile(fulldir+fn)]
-
+    filenames = [fn for fn in os.listdir(fulldir) 
+                 if os.path.isfile(fulldir+fn)]
+    if name is None:
+        return [fulldir+fn for fn in filenames]
+    if player_num is None:
+        return [fulldir+fn for fn in filenames if name in fn]
+    return [fulldir+fn for fn in filenames 
+            if name == fn.split('_')[player_num]]
+    
 def all_victories(logdir='main', devastation_only=False):
     names = devastation if devastation_only else all_names
     name_power = []
@@ -333,18 +340,29 @@ def anomalies():
                           %(styles[s], bases[b], sb, base_count[b],
                             percentify (sb/float(base_count[b])))
         
-def total_bases(specials=True, logdir="main"):
-    base_dict = {"Strike" : 0,
-                 "Shot" : 0,
-                 "Drive" : 0,
-                 "Burst" : 0,
-                 "Grasp" : 0,
-                 "Dash" : 0,
-                 "Pulse" : 0,
-                 "Cancel" : 0}
+def total_bases(specials=True, player_num=None, logdir="main"):
+    if player_num == 1:
+        base_dict = {"Counter" : 0,
+                     "Wave" : 0,
+                     "Force" : 0,
+                     "Spike" : 0,
+                     "Throw" : 0,
+                     "Parry" : 0,
+                     "Pulse" : 0,
+                     "Cancel" : 0}
+    else:
+        base_dict = {"Strike" : 0,
+                     "Shot" : 0,
+                     "Drive" : 0,
+                     "Burst" : 0,
+                     "Grasp" : 0,
+                     "Dash" : 0,
+                     "Pulse" : 0,
+                     "Cancel" : 0}
     total_total = 0
     for name in all_names:
-        count, unused_styles, bases = pair_count (parse (name, logdir), specials)
+        count, unused_styles, bases = pair_count (
+                parse (name, logdir, player_num=player_num), specials)
         base_count = count.sum(axis=0)
         total = (count.sum())
         for b in range(len(bases)):
@@ -463,6 +481,39 @@ def victories (name, logdir="main", return_timeouts=False, silent=False,
         return (time_win+time_lose)/games
     else:
         return (win+draw/2.0)/games
+
+def side_victories (logdir="main"):
+    (win,lose,draw,time_win,time_lose) = (0,0,0,0,0)
+    next_result_is_timeout = False
+    for filename in list_files(logdir, None):
+        names = filename.split('/')[-1].split('_')
+        with open (filename) as f:
+            log = [line for line in f]
+        for line in log:
+            if line.endswith ('WINS!\n'):
+                if line.find(names[0].upper()) > -1:
+                    win += 1
+                    if next_result_is_timeout:
+                        time_win += 1
+                else:
+                    lose += 1
+                    if next_result_is_timeout:
+                        time_lose += 1
+                next_result_is_timeout = False
+            if line.endswith ('TIED!\n'):
+                draw += 1
+                next_result_is_timeout = False
+            if line.endswith ('Game goes to time\n'):
+                next_result_is_timeout = True
+
+    games = float(win+lose+draw)
+    print "alpha power:", percentify ((win+draw/2.0)/games)
+    print "alpha wins: %d (%s) - %s by time out" %(win, percentify(win/games),
+                                            percentify(time_win/float(win)))
+    print "beta wins: %d (%s) - %s by time out" %(lose, percentify(lose/games),
+                                             percentify(time_lose/float(lose)))
+    print "draw: %d (%s)" %(draw, percentify(draw/games))
+    print "total: %s by timeout" %percentify((time_win+time_lose)/games)
 
 def victory_csv (logdir="main"):
     index = {name:i for (i,name) in enumerate(all_names)}
@@ -629,12 +680,12 @@ def unbeatable_strategies (name, thresh=5, life_thresh=8,
 
 
 def parse (name, logdir="main", beat=None, condition='',
-           reverse_condition=False):
+           reverse_condition=False, player_num=None):
     if isinstance (beat, int):
         beat = [beat]
     replacement = {p : p.replace(' ','') for p in phrases[name]} 
     strat_dict = {}
-    for filename in list_files(logdir, name):
+    for filename in list_files(logdir, name, player_num):
         with open (filename) as f:
             log = [line for line in f]
         i=0
@@ -1156,17 +1207,17 @@ def lymn_disparity (logdir='main'):
             if disparities[card][i]:
                 print i, percentify (disparities[card][i]/total)
 
-def marmelee_tokens (logdir="main"):
-    tokens = [0,0,0,0,0,0]
+def marmelee_counters (logdir="main"):
+    counters = [0,0,0,0,0,0]
     for filename in list_files(logdir, 'marmelee'):
         with open (filename) as f:
             log = [line for line in f]
         for line in log:
-            if line[2:] == "Concentration tokens\n":
-                tokens[int(line[0])] += 1
-    for i, count in enumerate(tokens):
-        print i, percentify(count/float(sum(tokens)))
-    print "total:", sum(tokens)
+            if line[2:] == "Concentration counters\n":
+                counters[int(line[0])] += 1
+    for i, count in enumerate(counters):
+        print i, percentify(count/float(sum(counters)))
+    print "total:", sum(counters)
 
 def marmelee_spending (logdir="main"):
     style_spend_dict = {}
@@ -1195,8 +1246,9 @@ def marmelee_spending (logdir="main"):
                 else:
                     style_spend_dict[key] = 1
                 spend = 0
-            if line.startswith('Marmelee spends a Concentration token'):
-                spend += 1
+            if re.search(r'Marmelee discards . Concentration Counters$',
+                         line):
+                spend += int(line.split(' ')[2])
                 if log[i+1].startswith ('Marmelee moves:'):
                     spend += .1 # additional +.1 marks spending for move
             if line.startswith('Marmelee gains Soak'):

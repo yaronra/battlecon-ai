@@ -24,7 +24,7 @@ life: 20
 discard 1: Petrifying Burst
 discard 2: Barrier Grasp
 special action
-2 Concentration tokens
+2 Concentration counters
 
 
 .K...M.
@@ -46,32 +46,71 @@ Marmelee:
 20% Nullifying Shot
 
 
-Kajia: Parasitic Drive
+Kajia: Biting Drive
+Marmelee: Nullifying Shot
+
+Priorities:  3 | 3
+Clash!
+
+Kajia:
+50% Biting Mandibles
+50% Biting Grasp
+
+Marmelee:
+50% Nullifying Meditation
+50% Nullifying Strike
+
+
+Kajia: Biting Grasp
 Marmelee: Nullifying Meditation
 
-Priorities:  3 | 4
+Priorities:  4 | 4
+Clash!
+
+Kajia:
+100% Biting Mandibles
+
+Marmelee:
+100% Nullifying Strike
+
+
+Kajia: Biting Mandibles
+Marmelee: Nullifying Strike
+
+Priorities:  2 | 4
 Marmelee is active
 Marmelee moves:
 
 .K....M
 
+Marmelee misses
+Kajia moves:
+
+..K...M
+
+Kajia hits
 Kajia moves Marmelee:
 
-.K.M...
+..K..M.
 
-Marmelee hits
-Kajia takes 2 damage (now at 18 life)
-Kajia is stunned
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
+Marmelee takes 2 damage (now at 18 life)
+Kajia moves Marmelee:
+
+..K.M..
+
+Kajia moves:
+
+...KM..
+
+Marmelee gains 1 Concentration Counter
 
 Beat 2
 -------
 
 Kajia
 -----
-life: 18
-discard 1: Parasitic Drive
+life: 20
+discard 1: Biting Mandibles
 discard 2: Stinging Strike
 special action
 0 insects on opponent's discard 1
@@ -79,664 +118,891 @@ special action
 
 Marmelee
 --------
-life: 20
-discard 1: Nullifying Meditation
+life: 18
+discard 1: Nullifying Strike
 discard 2: Petrifying Burst
 special action
-4 Concentration tokens
+3 Concentration counters
 
 
-.K.M...
+...KM..
 
 Kajia:
-14% Burrowing Grasp
-66% Swarming Dash
-20% Biting Shot
+38% Burrowing Grasp
+8% Swarming Shot
+19% Swarming Dash
+9% Parasitic Shot
+10% Parasitic Drive
+15% Parasitic Burst
 
 Marmelee:
-29% Magnificent Strike
-61% Magnificent Grasp
-10% Sorceress Dash
+38% Magnificent Drive
+6% Magnificent Grasp
+32% Magnificent Dash
+14% Sorceress Meditation
+4% Sorceress Grasp
+5% Barrier Grasp
 
 
 Kajia: Swarming Dash
-Marmelee: Magnificent Grasp
+Marmelee: Magnificent Dash
 
-Priorities:  8 | 5
-Kajia is active
-Kajia moves:
-
-..KM...
-
-Marmelee misses
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
+Priorities:  8 | 9
+Marmelee is active
 Marmelee moves:
 
-..K...M
+...K.M.
 
-Marmelee gains 1 Concentration token
+Kajia moves:
+
+....KM.
+
+Kajia places 1 insect token on the oppoent's attack pair
+(Current insects: 1 / 0 / 0)
+Marmelee gains 1 Concentration Counter
 
 Beat 3
 -------
 
 Kajia
 -----
-life: 18
+life: 20
 discard 1: Swarming Dash
-discard 2: Parasitic Drive
+discard 2: Biting Mandibles
 special action
-0 insects on opponent's discard 1
+1 insects on opponent's discard 1
 0 insects on opponent's discard 2
 
 Marmelee
 --------
-life: 20
-discard 1: Magnificent Grasp
-discard 2: Nullifying Meditation
+life: 18
+discard 1: Magnificent Dash
+discard 2: Nullifying Strike
 special action
-3 Concentration tokens
+4 Concentration counters
 
 
-..K...M
+....KM.
 
 Kajia:
-8% Burrowing Shot
-14% Stinging Shot
-30% Biting Mandibles
-49% Biting Shot
+29% Burrowing Strike
+39% Parasitic Drive
+23% Parasitic Burst
+9% Stinging Strike
 
 Marmelee:
-21% Petrifying Shot
-32% Sorceress Drive
-2% Barrier Strike
-45% Barrier Shot
+6% Petrifying Shot
+19% Petrifying Drive
+57% Barrier Shot
+18% Barrier Drive
 
 
-Kajia: Biting Mandibles
+Kajia: Parasitic Burst
 Marmelee: Petrifying Shot
 
-Priorities:  2 | 1
-Kajia is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee becomes the active player
-Marmelee hits
-Kajia takes 4 damage (now at 14 life)
-Kajia is stunned
-Marmelee gains 1 Concentration token
+Priorities:  0 | 1
+Marmelee is active
+Kajia moves Marmelee:
+
+.M..K..
+
+Kajia places 1 insect token on the oppoent's attack pair
+(Current insects: 1 / 1 / 0)
+Kajia moves:
+
+.M....K
+
+Marmelee misses
+Kajia misses
+Marmelee gains 1 Concentration Counter
 
 Beat 4
 -------
 
 Kajia
 -----
-life: 14
-discard 1: Biting Mandibles
+life: 20
+discard 1: Parasitic Burst
 discard 2: Swarming Dash
 special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+1 insects on opponent's discard 1
+1 insects on opponent's discard 2
 
 Marmelee
 --------
-life: 20
+life: 18
 discard 1: Petrifying Shot
-discard 2: Magnificent Grasp
+discard 2: Magnificent Dash
 special action
-1 Concentration tokens
+5 Concentration counters
 
 
-..K...M
+.M....K
+
+Unbeatable strategy for Marmelee: Barrier Burst: -0.53
+Unbeatable strategy for Marmelee: Nullifying Meditation: -1.88
+Unbeatable strategy for Marmelee: Nullifying Strike: -1.41
 
 Kajia:
-5% Burrowing Shot
-3% Burrowing Drive
-36% Burrowing Burst
-0% Parasitic Strike
-16% Parasitic Burst
-22% Parasitic Grasp
-19% Stinging Shot
+15% Burrowing Mandibles
+58% Burrowing Strike
+23% Biting Mandibles
+1% Biting Shot
+3% Biting Grasp
 
 Marmelee:
-10% Sorceress Strike
-6% Sorceress Drive
-13% Barrier Meditation
-6% Barrier Strike
-5% Barrier Burst
-33% Nullifying Meditation
-27% Nullifying Drive
+1% Sorceress Strike
+3% Sorceress Drive
+3% Sorceress Burst
+40% Nullifying Meditation
+53% Nullifying Strike
 
 
-Kajia: Parasitic Grasp
-Marmelee: Sorceress Drive
+Kajia: Burrowing Strike
+Marmelee: Nullifying Meditation
 
-Priorities:  4 | 3
-Kajia is active
+Kajia gets +2 power
+Kajia gets +2 priority
+Priorities:  4 | 4
+Clash!
+
+Kajia:
+35% Burrowing Mandibles
+65% Burrowing Grasp
+
+Marmelee:
+10% Nullifying Burst
+90% Nullifying Grasp
+
+
+Kajia: Burrowing Grasp
+Marmelee: Nullifying Grasp
+
+Kajia gets +2 power
+Kajia gets +2 priority
+Priorities:  6 | 6
+Clash!
+
+Kajia:
+22% Burrowing Mandibles
+8% Burrowing Shot
+71% Burrowing Drive
+
+Marmelee:
+66% Nullifying Strike
+13% Nullifying Drive
+22% Nullifying Burst
+
+
+Kajia: Burrowing Shot
+Marmelee: Nullifying Strike
+
+Kajia gets +2 power
+Kajia gets +2 priority
+Priorities:  3 | 4
+Marmelee is active
+Marmelee moves:
+
+M.....K
+
+Marmelee misses
 Kajia moves Marmelee:
 
-..KM...
+.M....K
 
-Kajia hits
-Kajia moves Marmelee:
-
-.MK....
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 0)
-Marmelee takes 2 damage (now at 18 life)
-Marmelee is stunned
-Marmelee loses all tokens
-Marmelee gains 1 Concentration token
+Kajia misses
+Marmelee loses 1 life (now at 17)
 
 Beat 5
 -------
 
 Kajia
 -----
-life: 14
-discard 1: Parasitic Grasp
-discard 2: Biting Mandibles
-special action
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
-
-Marmelee
---------
-life: 18
-discard 1: Sorceress Drive
-discard 2: Petrifying Shot
-special action
-1 Concentration tokens
-
-
-.MK....
-
-Kajia:
-27% Burrowing Shot
-6% Burrowing Drive
-7% Stinging Strike
-17% Stinging Drive
-44% Stinging Burst
-
-Marmelee:
-33% Magnificent Meditation
-13% Barrier Strike
-10% Barrier Dash
-11% Nullifying Strike
-32% Nullifying Grasp
-
-
-Kajia: Burrowing Shot
-Marmelee: Magnificent Meditation
-
-Kajia gets +1 power
-Kajia gets +1 priority
-Priorities:  2 | 3
-Marmelee is active
-Marmelee spends a Concentration token
-Marmelee gains Soak 1
-Marmelee misses
-Kajia moves Marmelee:
-
-..KM...
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 0)
-Kajia hits
-Marmelee has 1 soak
-Marmelee takes 3 damage (now at 15 life)
-Marmelee is stunned
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
-
-Beat 6
--------
-
-Kajia
------
-life: 14
+life: 20
 discard 1: Burrowing Shot
-discard 2: Parasitic Grasp
-special action
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
-
-Marmelee
---------
-life: 15
-discard 1: Magnificent Meditation
-discard 2: Sorceress Drive
-special action
-2 Concentration tokens
-
-
-..KM...
-
-Unbeatable strategy for Marmelee: Barrier Dash: -0.84
-
-Kajia:
-13% Swarming Mandibles
-10% Swarming Drive
-77% Biting Mandibles
-
-Marmelee:
-2% Petrifying Grasp
-6% Barrier Shot
-92% Barrier Dash
-
-
-Kajia: Biting Mandibles
-Marmelee: Barrier Dash
-
-Marmelee gets -2 power
-Priorities:  2 | 9
-Marmelee is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee moves Kajia:
-
-K..M...
-
-Marmelee moves:
-
-K.....M
-
-Kajia moves:
-
-.K....M
-
-Kajia misses
-Kajia moves:
-
-..K...M
-
-Marmelee gains 1 Concentration token
-Marmelee loses 1 life (now at 14)
-
-Beat 7
--------
-
-Kajia
------
-life: 14
-discard 1: Biting Mandibles
-discard 2: Burrowing Shot
+discard 2: Parasitic Burst
 special action
 0 insects on opponent's discard 1
 1 insects on opponent's discard 2
 
 Marmelee
 --------
-life: 14
-discard 1: Barrier Dash
-discard 2: Magnificent Meditation
+life: 17
+discard 1: Nullifying Strike
+discard 2: Petrifying Shot
 special action
-1 Concentration tokens
+5 Concentration counters
 
 
-..K...M
-
-Unbeatable strategy for Kajia: Swarming Dash: 0.41
+.M....K
 
 Kajia:
-3% Swarming Drive
-5% Swarming Burst
-88% Swarming Dash
-4% Parasitic Strike
+3% Swarming Grasp
+71% Stinging Strike
+24% Biting Mandibles
+2% Biting Drive
 
 Marmelee:
-28% Petrifying Drive
-16% Petrifying Burst
-28% Sorceress Drive
-18% Nullifying Drive
-10% Nullifying Burst
+21% Magnificent Drive
+56% Sorceress Meditation
+7% Sorceress Drive
+16% Sorceress Burst
 
 
-Kajia: Swarming Dash
-Marmelee: Petrifying Drive
+Kajia: Stinging Strike
+Marmelee: Sorceress Drive
 
-Priorities:  8 | 3
+Priorities:  4 | 3
 Kajia is active
-Kajia moves:
-
-....K.M
-
+Kajia misses
+Marmelee discards 1 Concentration Counter
+Marmelee gains +0~2 range
 Marmelee moves:
 
-....KM.
+...M..K
 
+Marmelee hits
+Kajia takes 3 damage (now at 17 life)
+Marmelee gains 1 Concentration Counter
+Marmelee loses 1 life (now at 16)
+
+Beat 6
+-------
+
+Kajia
+-----
+life: 17
+discard 1: Stinging Strike
+discard 2: Burrowing Shot
+special action
+0 insects on opponent's discard 1
+0 insects on opponent's discard 2
+
+Marmelee
+--------
+life: 16
+discard 1: Sorceress Drive
+discard 2: Nullifying Strike
+special action
+5 Concentration counters
+
+
+...M..K
+
+Unbeatable strategy for Marmelee: Petrifying Shot: -0.41
+
+Kajia:
+27% Swarming Drive
+53% Parasitic Mandibles
+12% Parasitic Dash
+8% Biting Mandibles
+
+Marmelee:
+64% Petrifying Shot
+5% Petrifying Burst
+12% Magnificent Meditation
+19% Magnificent Grasp
+
+
+Kajia: Parasitic Mandibles
+Marmelee: Petrifying Shot
+
+Priorities:  2 | 1
+Kajia is active
+Marmelee discards 3 Concentration Counters
+Marmelee becomes the active player
+Marmelee hits
+Kajia takes 4 damage (now at 13 life)
+Kajia is stunned
+Marmelee gains 1 Concentration Counter
+
+Beat 7
+-------
+
+Kajia
+-----
+life: 13
+discard 1: Parasitic Mandibles
+discard 2: Stinging Strike
+special action
+0 insects on opponent's discard 1
+0 insects on opponent's discard 2
+
+Marmelee
+--------
+life: 16
+discard 1: Petrifying Shot
+discard 2: Sorceress Drive
+special action
+3 Concentration counters
+
+
+...M..K
+
+Unbeatable strategy for Marmelee: Magnificent Meditation: -1.10
+Unbeatable strategy for Marmelee: Magnificent Strike: -0.10
+
+Kajia:
+6% Swarming Dash
+22% Biting Shot
+19% Biting Drive
+52% Biting Grasp
+
+Marmelee:
+49% Magnificent Meditation
+21% Magnificent Strike
+18% Magnificent Grasp
+12% Barrier Burst
+
+
+Kajia: Biting Grasp
+Marmelee: Magnificent Strike
+
+Priorities:  4 | 3
+Kajia is active
+Kajia hits
+Kajia moves Marmelee:
+
+..M...K
+
+Marmelee takes 1 damage (now at 15 life)
 Marmelee misses
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 1)
-Marmelee gains 1 Concentration token
-Marmelee loses 1 life (now at 13)
+Marmelee gains 1 Concentration Counter
 
 Beat 8
 -------
 
 Kajia
 -----
-life: 14
-discard 1: Swarming Dash
-discard 2: Biting Mandibles
+life: 13
+discard 1: Biting Grasp
+discard 2: Parasitic Mandibles
 special action
-1 insects on opponent's discard 1
+0 insects on opponent's discard 1
 0 insects on opponent's discard 2
 
 Marmelee
 --------
-life: 13
-discard 1: Petrifying Drive
-discard 2: Barrier Dash
+life: 15
+discard 1: Magnificent Strike
+discard 2: Petrifying Shot
 special action
-2 Concentration tokens
+4 Concentration counters
 
 
-....KM.
+..M...K
 
-Kajia:
-7% Burrowing Strike
-24% Burrowing Grasp
-53% Parasitic Burst
-2% Stinging Strike
-7% Stinging Shot
-1% Stinging Drive
-0% Stinging Burst
-6% Stinging Grasp
-
-Marmelee:
-35% Magnificent Meditation
-6% Sorceress Strike
-9% Sorceress Shot
-1% Sorceress Burst
-7% Nullifying Meditation
-10% Nullifying Strike
-3% Nullifying Shot
-27% Nullifying Grasp
-
-
-Kajia: Stinging Shot
-Marmelee: Magnificent Meditation
-
-Priorities:  3 | 3
-Clash!
+Unbeatable strategy for Marmelee: Sorceress Drive: -0.28
+Unbeatable strategy for Marmelee: Sorceress Burst: -2.16
+Unbeatable strategy for Marmelee: Sorceress Dash: -0.88
+Unbeatable strategy for Marmelee: Barrier Burst: -0.78
+Unbeatable strategy for Marmelee: Barrier Dash: -0.59
+Unbeatable strategy for Marmelee: Nullifying Burst: -1.09
+Unbeatable strategy for Marmelee: Nullifying Dash: -1.03
 
 Kajia:
-2% Stinging Strike
-57% Stinging Drive
-42% Stinging Grasp
+54% Burrowing Burst
+46% Burrowing Dash
 
 Marmelee:
-60% Magnificent Strike
-16% Magnificent Burst
-24% Magnificent Grasp
+47% Sorceress Drive
+53% Sorceress Burst
 
 
-Kajia: Stinging Strike
-Marmelee: Magnificent Strike
+Kajia: Burrowing Burst
+Marmelee: Sorceress Drive
 
-Priorities:  4 | 3
-Kajia is active
-Kajia hits
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 0)
-Marmelee takes 4 damage (now at 9 life)
-Marmelee misses
-Marmelee gains 1 Concentration token
+Priorities:  0 | 3
+Marmelee is active
+Marmelee discards 1 Concentration Counter
+Marmelee gains +0~2 range
+Marmelee moves:
+
+...M..K
+
+Marmelee hits
+Kajia takes 3 damage (now at 10 life)
+Kajia is stunned
+Marmelee gains 1 Concentration Counter
 
 Beat 9
 -------
 
 Kajia
 -----
-life: 14
-discard 1: Stinging Strike
-discard 2: Swarming Dash
+life: 10
+discard 1: Burrowing Burst
+discard 2: Biting Grasp
 special action
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
+0 insects on opponent's discard 1
+0 insects on opponent's discard 2
 
 Marmelee
 --------
-life: 9
-discard 1: Magnificent Strike
-discard 2: Petrifying Drive
+life: 15
+discard 1: Sorceress Drive
+discard 2: Magnificent Strike
 special action
-3 Concentration tokens
+4 Concentration counters
 
 
-....KM.
+...M..K
+
+Unbeatable strategy for Marmelee: Petrifying Shot: -0.32
+Unbeatable strategy for Marmelee: Petrifying Dash: -0.17
+Unbeatable strategy for Marmelee: Barrier Burst: -1.72
+Unbeatable strategy for Marmelee: Barrier Dash: -0.02
+Unbeatable strategy for Marmelee: Nullifying Burst: -0.51
 
 Kajia:
-18% Burrowing Drive
-12% Burrowing Grasp
-41% Parasitic Shot
-29% Parasitic Burst
+57% Swarming Mandibles
+26% Swarming Shot
+6% Parasitic Mandibles
+11% Parasitic Shot
 
 Marmelee:
-56% Sorceress Dash
-23% Barrier Dash
-10% Nullifying Shot
-10% Nullifying Grasp
+32% Petrifying Dash
+61% Barrier Burst
+1% Nullifying Shot
+7% Nullifying Burst
 
 
-Kajia: Burrowing Grasp
-Marmelee: Sorceress Dash
+Kajia: Swarming Mandibles
+Marmelee: Barrier Burst
 
-Kajia gets +2 power
-Kajia gets +2 priority
-Priorities:  6 | 8
-Marmelee is active
+Priorities:  2 | 1
+Kajia is active
 Marmelee moves:
+
+.M....K
+
+Kajia moves:
+
+.M...K.
+
+Kajia misses
+Kajia moves:
 
 .M..K..
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 1)
-Kajia moves Marmelee:
-
-..M.K..
-
-Kajia misses
-Marmelee spends a Concentration token
-Marmelee moves:
-
-...MK..
-
-Marmelee gains 1 Concentration token
-Marmelee loses 1 life (now at 8)
+Marmelee hits
+Kajia takes 2 damage (now at 8 life)
+Kajia is stunned
+Marmelee gains 1 Concentration Counter
 
 Beat 10
 -------
 
 Kajia
 -----
-life: 14
-discard 1: Burrowing Grasp
-discard 2: Stinging Strike
+life: 8
+discard 1: Swarming Mandibles
+discard 2: Burrowing Burst
 special action
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
+0 insects on opponent's discard 1
+0 insects on opponent's discard 2
 
 Marmelee
 --------
-life: 8
-discard 1: Sorceress Dash
-discard 2: Magnificent Strike
+life: 15
+discard 1: Barrier Burst
+discard 2: Sorceress Drive
 special action
-3 Concentration tokens
+5 Concentration counters
 
-
-...MK..
-
-Kajia:
-23% Swarming Mandibles
-3% Swarming Shot
-2% Swarming Burst
-58% Biting Drive
-14% Biting Burst
-
-Marmelee:
-44% Petrifying Meditation
-3% Petrifying Shot
-5% Petrifying Drive
-29% Petrifying Burst
-19% Petrifying Grasp
-
-
-Kajia: Biting Drive
-Marmelee: Petrifying Burst
-
-Marmelee gets -2 power
-Priorities:  3 | 0
-Kajia is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee becomes the active player
-Marmelee moves:
 
 .M..K..
 
+Kajia:
+57% Parasitic Strike
+36% Stinging Shot
+7% Biting Strike
+
+Marmelee:
+48% Petrifying Meditation
+46% Petrifying Shot
+6% Magnificent Strike
+
+
+Kajia: Stinging Shot
+Marmelee: Petrifying Shot
+
+Priorities:  3 | 1
+Kajia is active
+Marmelee discards 3 Concentration Counters
+Marmelee becomes the active player
 Marmelee hits
-Kajia takes 2 damage (now at 12 life)
-Kajia moves:
-
-.MK....
-
-Kajia hits
-Marmelee takes 2 damage (now at 6 life)
-Kajia moves Marmelee:
-
-..K.M..
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 1)
-Marmelee is stunned
-Marmelee gains 1 Concentration token
-Marmelee loses 1 life (now at 5)
+Kajia takes 4 damage (now at 4 life)
+Kajia is stunned
+Marmelee gains 1 Concentration Counter
 
 Beat 11
 -------
 
 Kajia
 -----
-life: 12
-discard 1: Biting Drive
-discard 2: Burrowing Grasp
+life: 4
+discard 1: Stinging Shot
+discard 2: Swarming Mandibles
 special action
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
+0 insects on opponent's discard 1
+0 insects on opponent's discard 2
 
 Marmelee
 --------
-life: 5
-discard 1: Petrifying Burst
-discard 2: Sorceress Dash
+life: 15
+discard 1: Petrifying Shot
+discard 2: Barrier Burst
 special action
-1 Concentration tokens
+3 Concentration counters
 
 
-..K.M..
-
-Unbeatable strategy for Marmelee: Magnificent Meditation: -0.34
-Unbeatable strategy for Marmelee: Barrier Meditation: -0.20
+.M..K..
 
 Kajia:
-35% Swarming Mandibles
-57% Parasitic Strike
-2% Parasitic Dash
-5% Stinging Mandibles
+12% Burrowing Burst
+54% Burrowing Dash
+5% Parasitic Strike
+12% Parasitic Drive
+1% Parasitic Dash
+16% Special Imago Emergence
 
 Marmelee:
-20% Magnificent Strike
-36% Magnificent Grasp
-21% Barrier Shot
-23% Nullifying Shot
+10% Magnificent Drive
+19% Magnificent Dash
+17% Sorceress Meditation
+22% Sorceress Strike
+31% Sorceress Dash
+1% Nullifying Dash
 
 
-Kajia: Parasitic Strike
-Marmelee: Magnificent Grasp
+Kajia: Burrowing Dash
+Marmelee: Magnificent Drive
 
-Priorities:  2 | 5
-Marmelee is active
+Priorities:  8 | 4
+Kajia is active
 Kajia moves Marmelee:
 
-M.K....
+..M.K..
+
+Kajia moves:
+
+.KM....
+
+Marmelee moves:
+
+MK.....
 
 Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 1)
-Marmelee hits
-Marmelee spends a Concentration token
-Marmelee gets +1 power
-Marmelee moves Kajia:
-
-M..K...
-
-Kajia takes 2 damage (now at 10 life)
-Kajia hits
-Marmelee takes 4 damage (now at 1 life)
-Marmelee is stunned
-Marmelee gains 1 Concentration token
-Marmelee loses 1 life (now at 1)
+(Current insects: 1 / 0 / 0)
+Marmelee misses
+Marmelee gains 1 Concentration Counter
 
 Beat 12
 -------
 
 Kajia
 -----
-life: 10
-discard 1: Parasitic Strike
-discard 2: Biting Drive
+life: 4
+discard 1: Burrowing Dash
+discard 2: Stinging Shot
 special action
 1 insects on opponent's discard 1
+0 insects on opponent's discard 2
+
+Marmelee
+--------
+life: 15
+discard 1: Magnificent Drive
+discard 2: Petrifying Shot
+special action
+4 Concentration counters
+
+
+MK.....
+
+Kajia:
+8% Swarming Mandibles
+92% Swarming Drive
+
+Marmelee:
+85% Sorceress Dash
+15% Barrier Meditation
+
+
+Kajia: Swarming Drive
+Marmelee: Sorceress Dash
+
+Priorities:  3 | 8
+Marmelee is active
+Marmelee moves:
+
+.K.M...
+
+Kajia places 1 insect token on the oppoent's attack pair
+(Current insects: 1 / 1 / 0)
+Kajia moves:
+
+..KM...
+
+Kajia misses
+Kajia places 1 insect token on the oppoent's attack pair
+(Current insects: 2 / 1 / 0)
+Marmelee gains 1 Concentration Counter
+
+Beat 13
+-------
+
+Kajia
+-----
+life: 4
+discard 1: Swarming Drive
+discard 2: Burrowing Dash
+special action
+2 insects on opponent's discard 1
 1 insects on opponent's discard 2
 
 Marmelee
 --------
-life: 1
-discard 1: Magnificent Grasp
-discard 2: Petrifying Burst
+life: 15
+discard 1: Sorceress Dash
+discard 2: Magnificent Drive
 special action
-1 Concentration tokens
+5 Concentration counters
 
-
-M..K...
-
-Kajia:
-49% Burrowing Mandibles
-9% Burrowing Burst
-43% Swarming Mandibles
-
-Marmelee:
-1% Barrier Dash
-51% Nullifying Shot
-48% Nullifying Drive
-
-
-Kajia: Swarming Mandibles
-Marmelee: Nullifying Drive
-
-Priorities:  2 | 5
-Marmelee is active
-Marmelee moves:
-
-.M.K...
-
-Marmelee misses
-Kajia moves:
-
-.MK....
-
-Kajia hits
-Kajia moves Marmelee:
 
 ..KM...
 
+Kajia:
+7% Biting Mandibles
+25% Biting Strike
+7% Biting Burst
+61% Biting Grasp
+
+Marmelee:
+8% Petrifying Strike
+68% Petrifying Shot
+19% Petrifying Grasp
+4% Nullifying Burst
+
+
+Kajia: Biting Grasp
+Marmelee: Petrifying Shot
+
+Marmelee gets -2 power
+Priorities:  4 | 1
+Kajia is active
+Marmelee discards 3 Concentration Counters
+Marmelee becomes the active player
+Marmelee hits
+Marmelee discards 2 Concentration Counters
+Kajia is stunned
+Kajia takes 2 damage (now at 2 life)
+Marmelee gains 1 Concentration Counter
+Marmelee loses 1 life (now at 14)
+
+Beat 14
+-------
+
+Kajia
+-----
+life: 2
+discard 1: Biting Grasp
+discard 2: Swarming Drive
+special action
+0 insects on opponent's discard 1
+2 insects on opponent's discard 2
+
+Marmelee
+--------
+life: 14
+discard 1: Petrifying Shot
+discard 2: Sorceress Dash
+special action
+1 Concentration counters
+
+
+..KM...
+
+Unbeatable strategy for Marmelee: Barrier Drive: -1.03
+
+Kajia:
+8% Burrowing Burst
+67% Burrowing Dash
+16% Stinging Mandibles
+9% Stinging Burst
+
+Marmelee:
+41% Barrier Drive
+10% Barrier Burst
+26% Nullifying Meditation
+23% Nullifying Grasp
+
+
+Kajia: Burrowing Dash
+Marmelee: Nullifying Meditation
+
+Kajia gets +1 power
+Kajia gets +1 priority
+Priorities:  9 | 4
+Kajia is active
+Marmelee moves:
+
+..K.M..
+
+Kajia moves:
+
+...KM..
+
+Marmelee misses
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
+Marmelee loses 2 life (now at 12)
+
+Beat 15
+-------
+
+Kajia
+-----
+life: 2
+discard 1: Burrowing Dash
+discard 2: Biting Grasp
+special action
+0 insects on opponent's discard 1
+0 insects on opponent's discard 2
+
+Marmelee
+--------
+life: 12
+discard 1: Nullifying Meditation
+discard 2: Petrifying Shot
+special action
+3 Concentration counters
+
+
+...KM..
+
+Unbeatable strategy for Marmelee: Magnificent Strike: -7.00
+Unbeatable strategy for Marmelee: Magnificent Drive: -7.00
+Unbeatable strategy for Marmelee: Magnificent Burst: -7.00
+Unbeatable strategy for Marmelee: Magnificent Grasp: -7.00
+Unbeatable strategy for Marmelee: Magnificent Dash: -7.00
+Unbeatable strategy for Marmelee: Sorceress Strike: -7.00
+Unbeatable strategy for Marmelee: Sorceress Drive: -7.00
+Unbeatable strategy for Marmelee: Sorceress Burst: -7.00
+Unbeatable strategy for Marmelee: Sorceress Grasp: -7.00
+Unbeatable strategy for Marmelee: Sorceress Dash: -7.00
+Unbeatable strategy for Marmelee: Barrier Strike: -7.00
+Unbeatable strategy for Marmelee: Barrier Drive: -7.00
+Unbeatable strategy for Marmelee: Barrier Burst: -7.00
+Unbeatable strategy for Marmelee: Barrier Grasp: -7.00
+Unbeatable strategy for Marmelee: Barrier Dash: -7.00
+
+Kajia:
+100% Special Pulse
+
+Marmelee:
+100% Magnificent Burst
+
+
+Kajia: Special Pulse
+Marmelee: Magnificent Burst
+
+Pulse:
+
+MK.....
+
+
+Beat 15
+-------
+
+Kajia
+-----
+life: 2
+discard 1: Burrowing Dash
+discard 2: Biting Grasp
+0 insects on opponent's discard 1
+0 insects on opponent's discard 2
+
+Marmelee
+--------
+life: 12
+discard 1: Magnificent Burst
+discard 2: Nullifying Meditation
+special action
+3 Concentration counters
+
+
+MK.....
+
+Unbeatable strategy for Marmelee: Petrifying Strike: -7.00
+Unbeatable strategy for Marmelee: Petrifying Shot: -7.00
+Unbeatable strategy for Marmelee: Petrifying Drive: -7.00
+Unbeatable strategy for Marmelee: Petrifying Grasp: -7.00
+Unbeatable strategy for Marmelee: Petrifying Dash: -7.00
+Unbeatable strategy for Marmelee: Sorceress Strike: -7.00
+Unbeatable strategy for Marmelee: Sorceress Shot: -7.00
+Unbeatable strategy for Marmelee: Sorceress Drive: -7.00
+Unbeatable strategy for Marmelee: Sorceress Grasp: -7.00
+Unbeatable strategy for Marmelee: Sorceress Dash: -7.00
+Unbeatable strategy for Marmelee: Barrier Strike: -7.00
+Unbeatable strategy for Marmelee: Barrier Shot: -7.00
+Unbeatable strategy for Marmelee: Barrier Drive: -7.00
+Unbeatable strategy for Marmelee: Barrier Grasp: -7.00
+Unbeatable strategy for Marmelee: Barrier Dash: -7.00
+
+Kajia:
+6% Swarming Mandibles
+7% Swarming Strike
+7% Swarming Shot
+7% Swarming Drive
+7% Swarming Burst
+6% Parasitic Mandibles
+7% Parasitic Strike
+7% Parasitic Shot
+7% Parasitic Drive
+6% Parasitic Burst
+7% Stinging Mandibles
+7% Stinging Strike
+7% Stinging Shot
+7% Stinging Drive
+7% Stinging Burst
+
+Marmelee:
+7% Petrifying Strike
+7% Petrifying Shot
+7% Petrifying Drive
+7% Petrifying Grasp
+7% Petrifying Dash
+7% Sorceress Strike
+7% Sorceress Shot
+7% Sorceress Drive
+7% Sorceress Grasp
+7% Sorceress Dash
+7% Barrier Strike
+7% Barrier Shot
+7% Barrier Drive
+7% Barrier Grasp
+7% Barrier Dash
+
+
+Kajia: Stinging Drive
+Marmelee: Petrifying Dash
+
+Priorities:  5 | 8
+Marmelee is active
+Marmelee moves:
+
+.KM....
+
 Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 1)
-Marmelee takes 3 damage (now at 0 life)
-KAJIA WINS!
-total_time: 10
+(Current insects: 1 / 0 / 0)
+Kajia moves:
+
+..MK...
+
+Kajia misses
+Marmelee gains 1 Concentration Counter
+Game goes to time
+MARMELEE WINS!
+total_time: 20

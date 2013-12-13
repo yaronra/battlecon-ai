@@ -29,131 +29,45 @@ pool: AP, Explosive, Flash, Impact, Longshot, Swift
 .L...R.
 
 Luc:
-13% Memento Dash
-0% Feinting Grasp
-13% Feinting Dash
-27% Chrono Drive
-47% Chrono Dash
+11% Memento Dash
+5% Feinting Dash (1 token)
+22% Chrono Shot
+16% Chrono Drive
+7% Chrono Drive (1 token)
+38% Chrono Dash
 
 Rukyuk:
-2% Point Blank Burst (Longshot)
-34% Gunner Strike (Longshot)
-17% Gunner Grasp (Longshot)
-13% Gunner Grasp (Swift)
-34% Special Pulse
+21% Sniper Strike
+0% Point Blank Burst (Longshot)
+52% Gunner Strike (Longshot)
+5% Gunner Grasp (Impact)
+18% Gunner Grasp (Swift)
+5% Special Pulse
 
 
-Luc: Feinting Dash
-Rukyuk: Special Pulse
+Luc: Chrono Drive (1 token)
+Rukyuk: Gunner Grasp (Swift)
 
-Pulse:
-
-L.....R
-
-
-Beat 1
--------
-
-Luc
----
-life: 20
-discard 1: Feinting Dash
-discard 2: Eternal Flash
-special action
-2 Time tokens
-
-Rukyuk
-------
-life: 20
-discard 1: Crossfire Reload
-discard 2: Trick Shot
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
-
-
-L.....R
-
-Unbeatable strategy for Rukyuk: Sniper Strike (Longshot): -0.20
-Unbeatable strategy for Rukyuk: Sniper Strike (Swift): -0.37
-Unbeatable strategy for Rukyuk: Sniper Drive (Longshot): -0.35
-
-Luc:
-9% Chrono Drive
-4% Chrono Drive
-10% Chrono Grasp
-77% Special Pulse
-
-Rukyuk:
-28% Sniper Strike (AP)
-34% Sniper Drive
-19% Sniper Drive (Longshot)
-19% Sniper Grasp (Explosive)
-
-
-Luc: Special Pulse
-Rukyuk: Sniper Drive
-
-Pulse:
-
-RL.....
-
-
-Beat 1
--------
-
-Luc
----
-life: 20
-discard 1: Feinting Dash
-discard 2: Eternal Flash
-2 Time tokens
-
-Rukyuk
-------
-life: 20
-discard 1: Sniper Drive
-discard 2: Crossfire Reload
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
-
-
-RL.....
-
-Unbeatable strategy for Rukyuk: Gunner Dash: -0.23
-
-Luc:
-1% Memento Shot
-14% Fusion Strike
-4% Fusion Shot
-42% Fusion Drive
-28% Chrono Burst
-11% Chrono Grasp
-
-Rukyuk:
-5% Point Blank Strike (Longshot)
-26% Point Blank Shot (Explosive)
-25% Point Blank Shot (Impact)
-12% Point Blank Grasp (Longshot)
-12% Point Blank Grasp (Swift)
-20% Gunner Dash
-
-
-Luc: Fusion Drive
-Rukyuk: Gunner Dash
-
-Priorities:  5 | 9
+Luc antes a Time token
+Rukyuk antes a Swift token
+Priorities:  6 | 7
 Rukyuk is active
-Rukyuk moves:
+Luc spends a Time token
+Luc moves:
 
-.L.R...
+..L..R.
 
+Rukyuk hits
+Rukyuk moves Luc:
+
+.L...R.
+
+Luc takes 2 damage (now at 18 life)
+Luc is stunned
 Rukyuk moves:
 
 .L....R
 
-Luc moves:
-
-...L..R
-
-Luc misses
 Luc gains 1 Time token
 
 Beat 2
@@ -161,49 +75,57 @@ Beat 2
 
 Luc
 ---
-life: 20
-discard 1: Fusion Drive
-discard 2: Feinting Dash
-3 Time tokens
+life: 18
+discard 1: Chrono Drive
+discard 2: Eternal Flash
+special action
+1 Time tokens
 
 Rukyuk
 ------
 life: 20
-discard 1: Gunner Dash
-discard 2: Sniper Drive
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+discard 1: Gunner Grasp
+discard 2: Crossfire Reload
+special action
+pool: AP, Explosive, Flash, Impact, Longshot
 
 
-...L..R
+.L....R
+
+Unbeatable strategy for Luc: Feinting Dash: 1.65
+Unbeatable strategy for Luc: Feinting Dash (1 token): 1.25
 
 Luc:
-42% Chrono Flash
-21% Chrono Strike
-24% Chrono Shot
-14% Chrono Burst
+8% Feinting Strike (1 token)
+19% Feinting Burst
+74% Feinting Dash
 
 Rukyuk:
-15% Point Blank Shot (Impact)
-4% Point Blank Grasp (Longshot)
-4% Trick Reload
-3% Trick Reload (AP)
-3% Trick Reload (Explosive)
-3% Trick Reload (Flash)
-3% Trick Reload (Impact)
-3% Trick Reload (Longshot)
-62% Trick Strike (Longshot)
+48% Point Blank Shot (Longshot)
+22% Point Blank Burst (Impact)
+30% Trick Shot (Explosive)
 
 
-Luc: Chrono Strike
-Rukyuk: Trick Reload (Longshot)
+Luc: Feinting Dash
+Rukyuk: Point Blank Shot (Longshot)
 
 Rukyuk antes a Longshot token
-Priorities:  4 | 1
+Priorities:  7 | 2
 Luc is active
-Luc misses
-Rukyuk moves:
+Luc moves:
 
-R..L...
+....L.R
+
+Rukyuk hits
+Rukyuk moves Luc:
+
+..L...R
+
+Luc takes 3 damage (now at 15 life)
+Luc is stunned
+Luc moves:
+
+....L.R
 
 Luc gains 1 Time token
 
@@ -212,58 +134,68 @@ Beat 3
 
 Luc
 ---
-life: 20
-discard 1: Chrono Strike
-discard 2: Fusion Drive
-4 Time tokens
+life: 15
+discard 1: Feinting Dash
+discard 2: Chrono Drive
+special action
+2 Time tokens
 
 Rukyuk
 ------
 life: 20
-discard 1: Trick Reload
-discard 2: Gunner Dash
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+discard 1: Point Blank Shot
+discard 2: Gunner Grasp
+special action
+pool: AP, Explosive, Flash, Impact
 
-
-R..L...
-
-Luc:
-15% Eternal Shot
-31% Feinting Flash
-16% Feinting Flash
-11% Feinting Burst
-27% Feinting Dash
-
-Rukyuk:
-24% Sniper Shot (Longshot)
-59% Sniper Drive
-8% Point Blank Shot (Impact)
-7% Point Blank Grasp (Longshot)
-0% Crossfire Shot (Impact)
-
-
-Luc: Feinting Dash
-Rukyuk: Sniper Drive
-
-Priorities:  7 | 6
-Luc is active
-Luc moves:
-
-R.L....
-
-Rukyuk moves:
-
-..LR...
-
-Rukyuk misses
-Rukyuk moves:
-
-..L...R
-
-Luc moves:
 
 ....L.R
 
+Unbeatable strategy for Rukyuk: Sniper Dash: -0.75
+Unbeatable strategy for Rukyuk: Sniper Dash (AP): -0.25
+Unbeatable strategy for Rukyuk: Sniper Dash (Flash): -0.15
+Unbeatable strategy for Rukyuk: Sniper Dash (Impact): -0.05
+
+Luc:
+7% Eternal Flash
+4% Memento Strike
+13% Memento Shot
+52% Memento Burst (1 token)
+0% Fusion Flash
+24% Fusion Burst
+
+Rukyuk:
+1% Sniper Reload
+1% Sniper Reload (AP)
+1% Sniper Reload (Explosive)
+1% Sniper Reload (Flash)
+1% Sniper Reload (Impact)
+64% Sniper Dash
+11% Crossfire Reload
+8% Crossfire Strike (Impact)
+6% Trick Strike (Impact)
+7% Trick Burst (Impact)
+
+
+Luc: Memento Burst (1 token)
+Rukyuk: Sniper Dash
+
+Luc antes a Time token
+Priorities:  1 | 11
+Rukyuk is active
+Luc moves:
+
+...L..R
+
+Rukyuk moves:
+
+..RL...
+
+Rukyuk moves:
+
+...L..R
+
+Luc misses
 Luc gains 1 Time token
 
 Beat 4
@@ -271,117 +203,125 @@ Beat 4
 
 Luc
 ---
-life: 20
-discard 1: Feinting Dash
-discard 2: Chrono Strike
-5 Time tokens
+life: 15
+discard 1: Memento Burst
+discard 2: Feinting Dash
+special action
+2 Time tokens
 
 Rukyuk
 ------
 life: 20
-discard 1: Sniper Drive
-discard 2: Trick Reload
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+discard 1: Sniper Dash
+discard 2: Point Blank Shot
+special action
+pool: AP, Explosive, Flash, Impact
 
 
-....L.R
+...L..R
 
 Luc:
-11% Eternal Drive
-6% Memento Drive
-20% Fusion Flash
-15% Fusion Drive
-25% Fusion Drive
-23% Fusion Burst
+28% Eternal Drive
+39% Chrono Strike
+34% Chrono Shot
 
 Rukyuk:
-24% Point Blank Shot (Impact)
-5% Point Blank Shot (Swift)
-5% Point Blank Grasp (Swift)
-61% Gunner Dash
-5% Crossfire Shot (Impact)
+6% Crossfire Reload
+6% Crossfire Reload (AP)
+6% Crossfire Reload (Explosive)
+6% Crossfire Reload (Flash)
+6% Crossfire Reload (Impact)
+24% Crossfire Grasp (AP)
+8% Trick Reload
+10% Trick Reload (AP)
+9% Trick Reload (Explosive)
+9% Trick Reload (Flash)
+9% Trick Reload (Impact)
 
 
 Luc: Eternal Drive
-Rukyuk: Gunner Dash
+Rukyuk: Trick Reload (AP)
 
-Priorities:  0 | 9
+Rukyuk antes an AP token
+Priorities:  0 | 1
 Rukyuk is active
 Rukyuk moves:
 
-...RL..
-
-Rukyuk moves:
-
-R...L..
+.R.L...
 
 Luc moves:
 
-R.L....
+.RL....
 
-Luc misses
+Luc hits
+Rukyuk takes 3 damage (now at 17 life)
+Luc gains 1 Time token
 
 Beat 5
 -------
 
 Luc
 ---
-life: 20
+life: 15
 discard 1: Eternal Drive
-discard 2: Feinting Dash
-5 Time tokens
+discard 2: Memento Burst
+special action
+3 Time tokens
 
 Rukyuk
 ------
-life: 20
-discard 1: Gunner Dash
-discard 2: Sniper Drive
+life: 17
+discard 1: Trick Reload
+discard 2: Sniper Dash
+special action
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-R.L....
+.RL....
 
 Luc:
-22% Memento Flash
-15% Fusion Burst
-2% Chrono Flash
-4% Chrono Flash
-2% Chrono Strike
-29% Chrono Shot
-18% Chrono Burst
-8% Chrono Burst
+30% Fusion Flash
+14% Fusion Grasp
+3% Fusion Dash
+12% Feinting Strike (1 token)
+12% Feinting Grasp
+16% Feinting Grasp (1 token)
+13% Feinting Dash
 
 Rukyuk:
-1% Point Blank Reload (Swift)
-2% Point Blank Shot (Impact)
-17% Point Blank Shot (Swift)
-22% Point Blank Grasp (Longshot)
-2% Crossfire Shot (Impact)
-7% Trick Reload
-7% Trick Reload (AP)
-6% Trick Reload (Explosive)
-7% Trick Reload (Flash)
-7% Trick Reload (Impact)
-11% Trick Reload (Longshot)
-11% Trick Reload (Swift)
+1% Point Blank Strike (Impact)
+5% Point Blank Shot (Impact)
+4% Point Blank Burst (Longshot)
+5% Point Blank Burst (Swift)
+9% Gunner Drive (Swift)
+9% Gunner Burst (Swift)
+66% Special Pulse
 
 
-Luc: Chrono Shot
-Rukyuk: Crossfire Shot (Impact)
+Luc: Fusion Flash
+Rukyuk: Gunner Burst (Swift)
 
-Luc antes a Time token
-Rukyuk antes an Impact token
-Priorities:  4 | 0
+Rukyuk antes a Swift token
+Priorities:  7 | 3
 Luc is active
-Luc spends a Time token
 Luc moves:
 
-RL.....
+LR.....
 
-Luc hits
-Rukyuk has 2 soak
-Rukyuk takes 1 damage (now at 19 life)
-Rukyuk misses
+Rukyuk moves:
+
+L..R...
+
+Luc misses
+Rukyuk spends an AP token
+Rukyuk gains -1/+1 range
+Rukyuk hits
+Luc takes 3 damage (now at 12 life)
+Luc is stunned
+Rukyuk moves:
+
+L....R.
+
 Luc gains 1 Time token
 
 Beat 6
@@ -389,68 +329,60 @@ Beat 6
 
 Luc
 ---
-life: 20
-discard 1: Chrono Shot
+life: 12
+discard 1: Fusion Flash
 discard 2: Eternal Drive
+special action
 4 Time tokens
 
 Rukyuk
 ------
-life: 19
-discard 1: Crossfire Shot
-discard 2: Gunner Dash
-pool: AP, Explosive, Flash, Longshot, Swift
+life: 17
+discard 1: Gunner Burst
+discard 2: Trick Reload
+special action
+pool: Explosive, Flash, Impact, Longshot
 
 
-RL.....
+L....R.
 
-Unbeatable strategy for Rukyuk: Sniper Reload (Swift): -0.24
+Unbeatable strategy for Luc: Memento Dash: 1.41
+Unbeatable strategy for Luc: Memento Dash (3 tokens): 0.21
+Unbeatable strategy for Luc: Chrono Dash: 1.33
+Unbeatable strategy for Luc: Chrono Dash (3 tokens): 0.13
 
 Luc:
-7% Memento Burst
-5% Fusion Flash
-22% Fusion Flash
-8% Fusion Strike
-51% Feinting Burst
-5% Feinting Grasp
-2% Feinting Dash
+2% Memento Strike
+49% Memento Dash
+0% Feinting Dash
+14% Feinting Dash (3 tokens)
+33% Chrono Shot
+1% Chrono Burst
 
 Rukyuk:
-5% Sniper Reload
-5% Sniper Reload (AP)
-5% Sniper Reload (Explosive)
-5% Sniper Reload (Flash)
-5% Sniper Reload (Longshot)
-22% Sniper Reload (Swift)
-4% Point Blank Drive (Explosive)
-18% Point Blank Burst (Explosive)
-13% Point Blank Grasp (Longshot)
-19% Trick Reload (Longshot)
-1% Trick Reload (Swift)
+17% Sniper Shot
+32% Sniper Drive
+4% Sniper Grasp
+27% Sniper Dash
+18% Point Blank Shot (Explosive)
+3% Crossfire Dash
 
 
-Luc: Feinting Burst
-Rukyuk: Point Blank Grasp (Longshot)
+Luc: Memento Dash
+Rukyuk: Sniper Drive
 
-Rukyuk antes a Longshot token
-Priorities:  -1 | 5
-Rukyuk is active
+Priorities:  8 | 6
+Luc is active
 Luc moves:
 
-R.L....
+...L.R.
 
-Rukyuk hits
-Rukyuk moves Luc:
+Rukyuk moves:
 
-R...L..
+..RL...
 
-Rukyuk moves Luc:
-
-R....L.
-
-Luc takes 2 damage (now at 18 life)
-Luc is stunned
-Luc moves:
+Rukyuk misses
+Rukyuk moves:
 
 R..L...
 
@@ -461,198 +393,261 @@ Beat 7
 
 Luc
 ---
-life: 18
-discard 1: Feinting Burst
-discard 2: Chrono Shot
+life: 12
+discard 1: Memento Dash
+discard 2: Fusion Flash
+special action
 5 Time tokens
 
 Rukyuk
 ------
-life: 19
-discard 1: Point Blank Grasp
-discard 2: Crossfire Shot
-pool: AP, Explosive, Flash, Swift
+life: 17
+discard 1: Sniper Drive
+discard 2: Gunner Burst
+special action
+pool: Explosive, Flash, Impact, Longshot
 
 
 R..L...
 
 Luc:
-45% Eternal Drive
-9% Eternal Drive
-1% Memento Drive
-8% Memento Drive
-38% Fusion Drive
+17% Feinting Drive (1 token)
+24% Feinting Drive (5 tokens)
+3% Feinting Burst
+10% Feinting Burst (1 token)
+3% Feinting Burst (3 tokens)
+43% Chrono Burst
 
 Rukyuk:
-32% Sniper Reload
-2% Sniper Reload (AP)
-1% Sniper Reload (Explosive)
-2% Sniper Reload (Flash)
-3% Sniper Reload (Swift)
-17% Sniper Dash
-8% Gunner Strike (AP)
-20% Gunner Drive (AP)
-3% Trick Reload
-3% Trick Reload (AP)
-3% Trick Reload (Explosive)
-3% Trick Reload (Flash)
+43% Point Blank Strike (Longshot)
+11% Point Blank Shot (Explosive)
+12% Point Blank Shot (Impact)
+20% Point Blank Shot (Longshot)
+13% Crossfire Reload (Impact)
 
 
-Luc: Fusion Drive
-Rukyuk: Sniper Dash
+Luc: Feinting Drive (5 tokens)
+Rukyuk: Point Blank Shot (Impact)
 
-Priorities:  5 | 11
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Rukyuk antes an Impact token
+Priorities:  2 | 2
+Clash!
+
+Luc:
+100% Feinting Shot (5 tokens)
+
+Rukyuk:
+100% Point Blank Reload (Impact)
+
+
+Luc: Feinting Shot (5 tokens)
+Rukyuk: Point Blank Reload (Impact)
+
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Rukyuk antes an Impact token
+Priorities:  0 | 4
 Rukyuk is active
-Rukyuk moves:
-
-.R.L...
-
-Rukyuk moves:
-
-..RL...
-
+Luc becomes the active player
+Luc hits
+Rukyuk takes 3 damage (now at 14 life)
+Rukyuk is stunned
 Luc moves:
 
-.LR....
+RL.....
 
-Luc hits
-Rukyuk takes 2 damage (now at 17 life)
-Luc moves Rukyuk:
-
-.L..R..
-
-Rukyuk is stunned
+Luc gains 1 Time token
 
 Beat 8
 -------
 
 Luc
 ---
-life: 18
-discard 1: Fusion Drive
-discard 2: Feinting Burst
-5 Time tokens
+life: 12
+discard 1: Feinting Shot
+discard 2: Memento Dash
+special action
+1 Time tokens
 
 Rukyuk
 ------
-life: 17
-discard 1: Sniper Dash
-discard 2: Point Blank Grasp
-pool: AP, Explosive, Flash, Swift
+life: 14
+discard 1: Point Blank Reload
+discard 2: Sniper Drive
+special action
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-.L..R..
+RL.....
 
-Unbeatable strategy for Rukyuk: Crossfire Reload (Swift): -0.27
-
-Luc:
-31% Chrono Flash
-11% Chrono Strike
-14% Chrono Shot
-44% Chrono Dash
-
-Rukyuk:
-21% Gunner Reload (Swift)
-17% Crossfire Reload (Swift)
-17% Trick Reload
-10% Trick Reload (AP)
-4% Trick Reload (Explosive)
-6% Trick Reload (Flash)
-25% Trick Burst (Explosive)
-
-
-Luc: Chrono Strike
-Rukyuk: Crossfire Reload (Swift)
-
-Rukyuk antes a Swift token
-Priorities:  4 | 4
-Clash!
+Unbeatable strategy for Rukyuk: Gunner Dash: -1.66
+Unbeatable strategy for Rukyuk: Gunner Dash (AP): -1.16
+Unbeatable strategy for Rukyuk: Gunner Dash (Explosive): -0.76
+Unbeatable strategy for Rukyuk: Gunner Dash (Flash): -1.06
+Unbeatable strategy for Rukyuk: Gunner Dash (Impact): -0.96
+Unbeatable strategy for Rukyuk: Gunner Dash (Longshot): -0.66
+Unbeatable strategy for Rukyuk: Gunner Dash (Swift): -0.56
 
 Luc:
-11% Chrono Shot
-89% Chrono Dash
+58% Eternal Drive
+34% Fusion Drive
+9% Special Pulse
 
 Rukyuk:
-74% Crossfire Shot (Swift)
-26% Crossfire Burst (Swift)
+50% Gunner Dash
+50% Special Pulse
+
+
+Luc: Fusion Drive
+Rukyuk: Special Pulse
+
+Pulse:
+
+L.....R
+
+
+Beat 8
+-------
+
+Luc
+---
+life: 12
+discard 1: Fusion Drive
+discard 2: Feinting Shot
+special action
+1 Time tokens
+
+Rukyuk
+------
+life: 14
+discard 1: Point Blank Reload
+discard 2: Sniper Drive
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
+
+
+L.....R
+
+Unbeatable strategy for Luc: Chrono Dash: 0.05
+
+Luc:
+12% Chrono Dash
+88% Special Pulse
+
+Rukyuk:
+28% Gunner Shot
+72% Gunner Shot (Impact)
 
 
 Luc: Chrono Dash
-Rukyuk: Crossfire Shot (Swift)
+Rukyuk: Gunner Shot
 
-Rukyuk antes a Swift token
 Priorities:  10 | 2
 Luc is active
+Luc spends a Time token
 Luc moves:
 
-...LR..
+.L....R
+
+Luc moves:
+
+....L.R
 
 Rukyuk misses
+Rukyuk moves:
+
+...RL..
+
+Luc gains 1 Time token
 
 Beat 9
 -------
 
 Luc
 ---
-life: 18
+life: 12
 discard 1: Chrono Dash
 discard 2: Fusion Drive
-5 Time tokens
+special action
+1 Time tokens
 
 Rukyuk
 ------
-life: 17
-discard 1: Crossfire Shot
-discard 2: Sniper Dash
-pool: AP, Explosive, Flash
+life: 14
+discard 1: Gunner Shot
+discard 2: Point Blank Reload
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-...LR..
+...RL..
+
+Unbeatable strategy for Rukyuk: Sniper Strike: -0.59
+Unbeatable strategy for Rukyuk: Sniper Strike (AP): -0.09
+Unbeatable strategy for Rukyuk: Sniper Strike (Swift): -0.02
+Unbeatable strategy for Rukyuk: Sniper Drive: -0.04
+Unbeatable strategy for Rukyuk: Sniper Burst: -0.64
+Unbeatable strategy for Rukyuk: Sniper Burst (AP): -0.14
+Unbeatable strategy for Rukyuk: Sniper Burst (Flash): -0.04
+Unbeatable strategy for Rukyuk: Sniper Grasp: -1.12
+Unbeatable strategy for Rukyuk: Sniper Grasp (AP): -0.62
+Unbeatable strategy for Rukyuk: Sniper Grasp (Explosive): -0.22
+Unbeatable strategy for Rukyuk: Sniper Grasp (Flash): -0.52
+Unbeatable strategy for Rukyuk: Sniper Grasp (Impact): -0.42
+Unbeatable strategy for Rukyuk: Sniper Grasp (Longshot): -0.12
+Unbeatable strategy for Rukyuk: Sniper Grasp (Swift): -0.02
+Unbeatable strategy for Rukyuk: Sniper Dash: -0.92
+Unbeatable strategy for Rukyuk: Sniper Dash (AP): -0.42
+Unbeatable strategy for Rukyuk: Sniper Dash (Explosive): -0.02
+Unbeatable strategy for Rukyuk: Sniper Dash (Flash): -0.32
+Unbeatable strategy for Rukyuk: Sniper Dash (Impact): -0.22
+Unbeatable strategy for Rukyuk: Crossfire Burst: -0.13
+Unbeatable strategy for Rukyuk: Crossfire Dash: -0.30
+Unbeatable strategy for Rukyuk: Trick Burst (AP): -0.20
+Unbeatable strategy for Rukyuk: Trick Burst (Explosive): -1.80
+Unbeatable strategy for Rukyuk: Trick Burst (Flash): -0.10
+Unbeatable strategy for Rukyuk: Trick Burst (Impact): -1.10
 
 Luc:
-5% Eternal Shot
-27% Eternal Shot
-4% Memento Flash
-3% Memento Flash
-15% Memento Shot
-1% Feinting Shot
-9% Feinting Burst
-10% Feinting Burst
-28% Feinting Grasp
+26% Eternal Shot
+8% Eternal Burst (1 token)
+1% Memento Strike (1 token)
+37% Feinting Shot
+28% Feinting Burst
 
 Rukyuk:
-1% Point Blank Strike (Explosive)
-1% Point Blank Drive (AP)
-21% Point Blank Drive (Explosive)
-9% Point Blank Burst (Explosive)
-34% Gunner Reload (Explosive)
-18% Trick Reload (Explosive)
-15% Trick Burst (Explosive)
+25% Sniper Burst (Longshot)
+38% Crossfire Drive (Longshot)
+3% Crossfire Burst (Longshot)
+3% Trick Drive (Explosive)
+31% Trick Burst (Explosive)
 
 
-Luc: Feinting Burst
-Rukyuk: Gunner Reload (Explosive)
+Luc: Feinting Shot
+Rukyuk: Sniper Burst (Longshot)
 
-Luc antes a Time token
-Rukyuk antes an Explosive token
-Priorities:  0 | 4
+Rukyuk antes a Longshot token
+Priorities:  0 | 3
 Rukyuk is active
-Luc moves:
-
-..L.R..
-
 Rukyuk moves:
 
-.RL....
+.R..L..
 
+Rukyuk misses
 Rukyuk moves:
 
-..LR...
+....LR.
 
 Luc misses
 Luc moves:
 
-...RL..
+.....RL
 
 Luc gains 1 Time token
 
@@ -661,67 +656,57 @@ Beat 10
 
 Luc
 ---
-life: 18
-discard 1: Feinting Burst
+life: 12
+discard 1: Feinting Shot
 discard 2: Chrono Dash
-5 Time tokens
+special action
+2 Time tokens
 
 Rukyuk
 ------
-life: 17
-discard 1: Gunner Reload
-discard 2: Crossfire Shot
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+life: 14
+discard 1: Sniper Burst
+discard 2: Gunner Shot
+pool: AP, Explosive, Flash, Impact, Swift
 
 
-...RL..
+.....RL
 
 Luc:
-3% Eternal Strike
-13% Eternal Drive
-6% Eternal Drive
-0% Eternal Drive
-41% Memento Drive
-4% Memento Drive
-12% Fusion Flash
-20% Fusion Flash
-0% Fusion Grasp
+27% Memento Flash (1 token)
+20% Memento Drive (1 token)
+2% Fusion Flash
+10% Fusion Strike
+41% Fusion Drive (1 token)
 
 Rukyuk:
-30% Sniper Dash
-0% Point Blank Strike (AP)
-1% Point Blank Strike (Swift)
-8% Point Blank Drive (AP)
-27% Point Blank Drive (Swift)
-2% Point Blank Burst (AP)
-7% Point Blank Grasp (AP)
-24% Trick Drive (Impact)
+13% Point Blank Reload (Swift)
+6% Point Blank Strike (Impact)
+1% Point Blank Drive (Swift)
+38% Crossfire Reload (Swift)
+8% Trick Reload
+8% Trick Reload (AP)
+7% Trick Reload (Explosive)
+7% Trick Reload (Flash)
+8% Trick Reload (Impact)
+4% Trick Reload (Swift)
 
 
-Luc: Fusion Flash
-Rukyuk: Trick Drive (Impact)
+Luc: Memento Flash (1 token)
+Rukyuk: Crossfire Reload (Swift)
 
 Luc antes a Time token
-Rukyuk antes an Impact token
-Priorities:  8 | 1
+Rukyuk antes a Swift token
+Priorities:  6 | 4
 Luc is active
 Luc moves:
 
-..LR...
+....LR.
 
 Luc hits
-Rukyuk takes 0 damage (now at 17 life)
-Rukyuk moves:
-
-R.L....
-
-Rukyuk hits
-Rukyuk moves Luc:
-
-R...L..
-
-Luc takes 3 damage (now at 15 life)
-Luc is stunned
+Rukyuk has 2 soak
+Rukyuk takes 0 damage (now at 14 life)
+Rukyuk is stunned
 Luc gains 1 Time token
 
 Beat 11
@@ -729,57 +714,54 @@ Beat 11
 
 Luc
 ---
-life: 15
-discard 1: Fusion Flash
-discard 2: Feinting Burst
-5 Time tokens
+life: 12
+discard 1: Memento Flash
+discard 2: Feinting Shot
+special action
+2 Time tokens
 
 Rukyuk
 ------
-life: 17
-discard 1: Trick Drive
-discard 2: Gunner Reload
-pool: AP, Explosive, Flash, Longshot, Swift
+life: 14
+discard 1: Crossfire Reload
+discard 2: Sniper Burst
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-R...L..
+....LR.
 
 Luc:
-21% Memento Strike
-8% Memento Strike
-23% Chrono Strike
-41% Chrono Drive
-7% Chrono Drive
+43% Eternal Dash
+9% Fusion Strike
+5% Chrono Drive
+24% Chrono Drive (1 token)
+19% Chrono Burst (1 token)
 
 Rukyuk:
-19% Sniper Strike (Explosive)
-1% Point Blank Strike (Longshot)
-55% Point Blank Shot (Explosive)
-16% Point Blank Shot (Swift)
-9% Point Blank Grasp (Explosive)
+1% Point Blank Drive (Swift)
+5% Point Blank Grasp (AP)
+1% Point Blank Grasp (Longshot)
+43% Gunner Strike (Longshot)
+50% Gunner Dash
 
 
-Luc: Chrono Strike
-Rukyuk: Point Blank Shot (Explosive)
+Luc: Eternal Dash
+Rukyuk: Gunner Dash
 
-Rukyuk antes an Explosive token
-Priorities:  4 | 2
-Luc is active
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
+Priorities:  5 | 9
+Rukyuk is active
+Rukyuk moves:
+
+..R.L..
+
+Rukyuk moves:
+
+....LR.
+
 Luc moves:
 
-RL.....
+.....RL
 
-Luc hits
-Rukyuk takes 4 damage (now at 13 life)
-Rukyuk hits
-Rukyuk moves Luc:
-
-R..L...
-
-Luc takes 5 damage (now at 10 life)
 Luc gains 1 Time token
 
 Beat 12
@@ -787,57 +769,54 @@ Beat 12
 
 Luc
 ---
-life: 10
-discard 1: Chrono Strike
-discard 2: Fusion Flash
+life: 12
+discard 1: Eternal Dash
+discard 2: Memento Flash
+special action
 3 Time tokens
 
 Rukyuk
 ------
-life: 13
-discard 1: Point Blank Shot
-discard 2: Trick Drive
-pool: AP, Flash, Longshot, Swift
+life: 14
+discard 1: Gunner Dash
+discard 2: Crossfire Reload
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-R..L...
+.....RL
 
 Luc:
-32% Eternal Drive
-9% Eternal Drive
-12% Eternal Dash
-0% Memento Drive
-2% Memento Dash
-1% Feinting Drive
-43% Feinting Dash
+4% Feinting Burst (3 tokens)
+10% Chrono Strike
+46% Chrono Shot
+4% Chrono Shot (1 token)
+8% Chrono Drive (1 token)
+27% Chrono Drive (3 tokens)
 
 Rukyuk:
-2% Sniper Reload
-2% Sniper Reload (AP)
-2% Sniper Reload (Flash)
-2% Sniper Reload (Longshot)
-23% Sniper Grasp (Longshot)
-2% Gunner Reload
-2% Gunner Reload (AP)
-2% Gunner Reload (Flash)
-2% Gunner Reload (Longshot)
-21% Gunner Strike (Longshot)
-8% Gunner Grasp (AP)
-13% Crossfire Strike (AP)
-17% Crossfire Grasp (AP)
+27% Sniper Strike
+14% Sniper Burst
+1% Point Blank Strike (Explosive)
+23% Point Blank Strike (Swift)
+29% Point Blank Shot (Explosive)
+6% Trick Burst (Explosive)
 
 
-Luc: Eternal Dash
-Rukyuk: Crossfire Strike (AP)
+Luc: Chrono Shot
+Rukyuk: Trick Burst (Explosive)
 
-Rukyuk antes an AP token
-Priorities:  5 | 1
+Rukyuk antes an Explosive token
+Priorities:  3 | -2
 Luc is active
-Luc moves:
+Rukyuk moves:
 
-RL.....
+...R..L
 
-Rukyuk misses
+Luc hits
+Rukyuk takes 3 damage (now at 11 life)
+Rukyuk hits
+Luc takes 5 damage (now at 7 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 13
@@ -845,74 +824,70 @@ Beat 13
 
 Luc
 ---
-life: 10
-discard 1: Eternal Dash
-discard 2: Chrono Strike
+life: 7
+discard 1: Chrono Shot
+discard 2: Eternal Dash
+special action
 4 Time tokens
 
 Rukyuk
 ------
-life: 13
-discard 1: Crossfire Strike
-discard 2: Point Blank Shot
-pool: Flash, Longshot, Swift
+life: 11
+discard 1: Trick Burst
+discard 2: Gunner Dash
+pool: AP, Flash, Impact, Longshot, Swift
 
 
-RL.....
+...R..L
 
-Unbeatable strategy for Rukyuk: Sniper Reload: -1.93
-Unbeatable strategy for Rukyuk: Sniper Reload (Flash): -1.93
-Unbeatable strategy for Rukyuk: Sniper Reload (Longshot): -1.93
-Unbeatable strategy for Rukyuk: Sniper Reload (Swift): -1.93
-Unbeatable strategy for Rukyuk: Sniper Drive: -0.12
-Unbeatable strategy for Rukyuk: Sniper Dash: -0.21
-Unbeatable strategy for Rukyuk: Gunner Reload (Swift): -1.40
-Unbeatable strategy for Rukyuk: Trick Reload: -0.08
-Unbeatable strategy for Rukyuk: Trick Reload (Flash): -0.08
-Unbeatable strategy for Rukyuk: Trick Reload (Longshot): -0.08
-Unbeatable strategy for Rukyuk: Trick Reload (Swift): -1.09
+Unbeatable strategy for Luc: Feinting Burst (3 tokens): 0.01
 
 Luc:
-26% Memento Drive
-74% Feinting Burst
+10% Feinting Drive
+90% Feinting Drive (3 tokens)
+0% Special Temporal Recursion
 
 Rukyuk:
-21% Sniper Reload
-17% Sniper Reload (Flash)
-15% Sniper Reload (Longshot)
-35% Sniper Reload (Swift)
-12% Gunner Drive (Longshot)
+9% Sniper Reload
+9% Sniper Reload (AP)
+9% Sniper Reload (Flash)
+9% Sniper Reload (Impact)
+9% Sniper Reload (Longshot)
+39% Sniper Reload (Swift)
+2% Sniper Shot
+12% Point Blank Shot (Swift)
 
 
-Luc: Memento Drive
-Rukyuk: Sniper Reload (Flash)
+Luc: Feinting Drive (3 tokens)
+Rukyuk: Sniper Reload (Impact)
 
-Rukyuk antes a Flash token
-Priorities:  3 | 6
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Rukyuk antes an Impact token
+Priorities:  2 | 6
 Rukyuk is active
+Luc moves:
+
+...RL..
+
 Rukyuk moves:
+
+R...L..
+
+Rukyuk moves:
+
+..R.L..
+
+Luc moves:
 
 .LR....
 
-Rukyuk moves:
-
-.L...R.
-
-Luc moves:
-
-..L..R.
-
 Luc misses
-Luc spends a Time token
-Luc spends a Time token
-Luc attacks again
 Luc moves:
 
-....LR.
+..RL...
 
-Luc hits
-Rukyuk takes 3 damage (now at 10 life)
-Rukyuk is stunned
 Luc gains 1 Time token
 
 Beat 14
@@ -920,59 +895,59 @@ Beat 14
 
 Luc
 ---
-life: 10
-discard 1: Memento Drive
-discard 2: Eternal Dash
-3 Time tokens
+life: 7
+discard 1: Feinting Drive
+discard 2: Chrono Shot
+special action
+2 Time tokens
 
 Rukyuk
 ------
-life: 10
+life: 11
 discard 1: Sniper Reload
-discard 2: Crossfire Strike
+discard 2: Trick Burst
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-....LR.
+..RL...
+
+Unbeatable strategy for Rukyuk: Gunner Dash: -0.52
+Unbeatable strategy for Rukyuk: Gunner Dash (AP): -0.02
+Unbeatable strategy for Rukyuk: Crossfire Dash: -0.24
 
 Luc:
-39% Fusion Flash
-3% Fusion Strike
-8% Feinting Burst
-29% Feinting Grasp
-9% Feinting Grasp
-11% Chrono Burst
+41% Eternal Dash
+2% Memento Flash (1 token)
+20% Memento Dash
+11% Fusion Flash
+8% Fusion Strike
+12% Fusion Grasp
+7% Special Temporal Recursion
 
 Rukyuk:
-21% Point Blank Shot (Impact)
-13% Point Blank Drive (Explosive)
-9% Point Blank Burst (Swift)
-1% Gunner Burst (Explosive)
-11% Gunner Burst (Swift)
-44% Gunner Dash
+6% Point Blank Grasp (AP)
+1% Gunner Strike
+3% Gunner Strike (Impact)
+13% Gunner Strike (Longshot)
+29% Gunner Grasp
+43% Gunner Dash
+5% Crossfire Dash
 
 
-Luc: Feinting Grasp
-Rukyuk: Gunner Burst (Swift)
+Luc: Eternal Dash
+Rukyuk: Gunner Strike (Longshot)
 
-Luc antes a Time token
-Rukyuk antes a Swift token
-Priorities:  4 | 3
+Rukyuk antes a Longshot token
+Priorities:  5 | 3
 Luc is active
-Rukyuk moves:
-
-....L.R
-
-Luc hits
-Luc moves Rukyuk:
-
-....LR.
-
-Rukyuk takes 2 damage (now at 8 life)
-Rukyuk is stunned
 Luc moves:
 
-.....RL
+.LR....
+
+Rukyuk misses
+Rukyuk moves:
+
+.L..R..
 
 Luc gains 1 Time token
 
@@ -981,145 +956,255 @@ Beat 15
 
 Luc
 ---
-life: 10
-discard 1: Feinting Grasp
-discard 2: Memento Drive
+life: 7
+discard 1: Eternal Dash
+discard 2: Feinting Drive
+special action
 3 Time tokens
 
 Rukyuk
 ------
-life: 8
-discard 1: Gunner Burst
+life: 11
+discard 1: Gunner Strike
 discard 2: Sniper Reload
-pool: AP, Explosive, Flash, Impact, Longshot
+pool: AP, Explosive, Flash, Impact, Swift
 
 
-.....RL
+.L..R..
 
-Unbeatable strategy for Luc: Fusion Dash: 13.00
-Unbeatable strategy for Luc: Fusion Dash: 13.00
-Unbeatable strategy for Luc: Fusion Dash: 13.00
-Unbeatable strategy for Luc: Chrono Dash: 13.00
-Unbeatable strategy for Luc: Chrono Dash: 13.00
-Unbeatable strategy for Luc: Chrono Dash: 13.00
+Unbeatable strategy for Rukyuk: Point Blank Shot (AP): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Shot (Explosive): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Shot (Flash): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Shot (Impact): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Shot (Swift): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Drive (Swift): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Burst (AP): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Burst (Explosive): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Burst (Flash): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Burst (Impact): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Burst (Swift): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Dash: -12.00
+Unbeatable strategy for Rukyuk: Point Blank Dash (AP): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Dash (Explosive): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Dash (Flash): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Dash (Impact): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Dash (Swift): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Shot: -12.00
+Unbeatable strategy for Rukyuk: Crossfire Shot (AP): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Shot (Explosive): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Shot (Flash): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Shot (Impact): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Shot (Swift): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Drive: -12.00
+Unbeatable strategy for Rukyuk: Crossfire Drive (AP): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Drive (Explosive): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Drive (Flash): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Drive (Impact): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Drive (Swift): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Burst: -12.00
+Unbeatable strategy for Rukyuk: Crossfire Burst (AP): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Burst (Explosive): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Burst (Flash): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Burst (Impact): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Burst (Swift): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Grasp: -12.00
+Unbeatable strategy for Rukyuk: Crossfire Grasp (AP): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Grasp (Explosive): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Grasp (Flash): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Grasp (Impact): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Grasp (Swift): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Dash: -12.00
+Unbeatable strategy for Rukyuk: Crossfire Dash (AP): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Dash (Explosive): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Dash (Flash): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Dash (Impact): -12.00
+Unbeatable strategy for Rukyuk: Crossfire Dash (Swift): -12.00
+Unbeatable strategy for Rukyuk: Trick Drive (AP): -12.00
+Unbeatable strategy for Rukyuk: Trick Drive (Explosive): -12.00
+Unbeatable strategy for Rukyuk: Trick Drive (Flash): -12.00
+Unbeatable strategy for Rukyuk: Trick Drive (Impact): -12.00
+Unbeatable strategy for Rukyuk: Trick Burst (AP): -12.00
+Unbeatable strategy for Rukyuk: Trick Burst (Explosive): -12.00
+Unbeatable strategy for Rukyuk: Trick Burst (Flash): -12.00
+Unbeatable strategy for Rukyuk: Trick Burst (Impact): -12.00
+Unbeatable strategy for Rukyuk: Trick Burst (Swift): -12.00
+Unbeatable strategy for Rukyuk: Trick Dash: -12.00
+Unbeatable strategy for Rukyuk: Trick Dash (AP): -12.00
+Unbeatable strategy for Rukyuk: Trick Dash (Explosive): -12.00
+Unbeatable strategy for Rukyuk: Trick Dash (Flash): -12.00
+Unbeatable strategy for Rukyuk: Trick Dash (Impact): -12.00
+Unbeatable strategy for Rukyuk: Trick Dash (Swift): -12.00
 
 Luc:
-10% Eternal Strike
-10% Eternal Strike
-10% Eternal Dash
-10% Eternal Dash
-10% Fusion Dash
-10% Fusion Dash
-10% Fusion Dash
-10% Chrono Dash
-10% Chrono Dash
-10% Chrono Dash
+100% Special Pulse
 
 Rukyuk:
-2% Point Blank Strike
-0% Point Blank Strike (AP)
-0% Point Blank Strike (Explosive)
-0% Point Blank Strike (Flash)
-0% Point Blank Strike (Impact)
-0% Point Blank Strike (Longshot)
-2% Point Blank Shot
-0% Point Blank Shot (AP)
-0% Point Blank Shot (Explosive)
-0% Point Blank Shot (Flash)
-0% Point Blank Shot (Impact)
-0% Point Blank Shot (Longshot)
-2% Point Blank Drive
-0% Point Blank Drive (AP)
-0% Point Blank Drive (Explosive)
-0% Point Blank Drive (Flash)
-0% Point Blank Drive (Impact)
-0% Point Blank Drive (Longshot)
-2% Point Blank Grasp
-0% Point Blank Grasp (AP)
-0% Point Blank Grasp (Explosive)
-0% Point Blank Grasp (Flash)
-0% Point Blank Grasp (Impact)
-0% Point Blank Grasp (Longshot)
-2% Point Blank Dash
-2% Point Blank Dash (AP)
-2% Point Blank Dash (Explosive)
-2% Point Blank Dash (Flash)
-2% Point Blank Dash (Impact)
-2% Point Blank Dash (Longshot)
-2% Crossfire Strike
-2% Crossfire Strike (AP)
-2% Crossfire Strike (Explosive)
-2% Crossfire Strike (Flash)
-2% Crossfire Strike (Impact)
-0% Crossfire Strike (Longshot)
-1% Crossfire Shot
-1% Crossfire Shot (AP)
-1% Crossfire Shot (Explosive)
-1% Crossfire Shot (Flash)
-1% Crossfire Shot (Impact)
-0% Crossfire Shot (Longshot)
-2% Crossfire Drive
-2% Crossfire Drive (AP)
-2% Crossfire Drive (Explosive)
-2% Crossfire Drive (Flash)
-2% Crossfire Drive (Impact)
-2% Crossfire Drive (Longshot)
-2% Crossfire Grasp
-2% Crossfire Grasp (AP)
-2% Crossfire Grasp (Explosive)
-2% Crossfire Grasp (Flash)
-2% Crossfire Grasp (Impact)
-2% Crossfire Grasp (Longshot)
-2% Crossfire Dash
-2% Crossfire Dash (AP)
-2% Crossfire Dash (Explosive)
-2% Crossfire Dash (Flash)
-2% Crossfire Dash (Impact)
-2% Crossfire Dash (Longshot)
-1% Trick Strike
-0% Trick Strike (AP)
-0% Trick Strike (Explosive)
-0% Trick Strike (Flash)
-0% Trick Strike (Impact)
-0% Trick Strike (Longshot)
-2% Trick Shot
-2% Trick Shot (AP)
-0% Trick Shot (Explosive)
-2% Trick Shot (Flash)
-2% Trick Shot (Impact)
-0% Trick Shot (Longshot)
-2% Trick Drive
-0% Trick Drive (AP)
-0% Trick Drive (Explosive)
-0% Trick Drive (Flash)
-0% Trick Drive (Impact)
-0% Trick Drive (Longshot)
-2% Trick Grasp
-2% Trick Grasp (AP)
-0% Trick Grasp (Explosive)
-2% Trick Grasp (Flash)
-2% Trick Grasp (Impact)
-0% Trick Grasp (Longshot)
-1% Trick Dash
-2% Trick Dash (AP)
-1% Trick Dash (Explosive)
-1% Trick Dash (Flash)
-1% Trick Dash (Impact)
-1% Trick Dash (Longshot)
+50% Crossfire Shot
+50% Crossfire Burst
 
 
-Luc: Eternal Strike
-Rukyuk: Crossfire Strike (Explosive)
+Luc: Special Pulse
+Rukyuk: Crossfire Shot
+
+Pulse:
+
+RL.....
+
+
+Beat 15
+-------
+
+Luc
+---
+life: 7
+discard 1: Eternal Dash
+discard 2: Feinting Drive
+3 Time tokens
+
+Rukyuk
+------
+life: 11
+discard 1: Crossfire Shot
+discard 2: Gunner Strike
+pool: AP, Explosive, Flash, Impact, Swift
+
+
+RL.....
+
+Unbeatable strategy for Rukyuk: Sniper Reload: -12.00
+Unbeatable strategy for Rukyuk: Sniper Reload (AP): -12.00
+Unbeatable strategy for Rukyuk: Sniper Reload (Explosive): -12.00
+Unbeatable strategy for Rukyuk: Sniper Reload (Flash): -12.00
+Unbeatable strategy for Rukyuk: Sniper Reload (Impact): -12.00
+Unbeatable strategy for Rukyuk: Sniper Reload (Swift): -12.00
+Unbeatable strategy for Rukyuk: Sniper Drive: -12.00
+Unbeatable strategy for Rukyuk: Sniper Drive (AP): -12.00
+Unbeatable strategy for Rukyuk: Sniper Drive (Explosive): -12.00
+Unbeatable strategy for Rukyuk: Sniper Drive (Flash): -12.00
+Unbeatable strategy for Rukyuk: Sniper Drive (Impact): -12.00
+Unbeatable strategy for Rukyuk: Sniper Drive (Swift): -12.00
+Unbeatable strategy for Rukyuk: Sniper Dash: -12.00
+Unbeatable strategy for Rukyuk: Sniper Dash (AP): -12.00
+Unbeatable strategy for Rukyuk: Sniper Dash (Explosive): -12.00
+Unbeatable strategy for Rukyuk: Sniper Dash (Flash): -12.00
+Unbeatable strategy for Rukyuk: Sniper Dash (Impact): -12.00
+Unbeatable strategy for Rukyuk: Sniper Dash (Swift): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Reload (Swift): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Drive (Swift): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Dash: -12.00
+Unbeatable strategy for Rukyuk: Point Blank Dash (AP): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Dash (Explosive): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Dash (Flash): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Dash (Impact): -12.00
+Unbeatable strategy for Rukyuk: Point Blank Dash (Swift): -12.00
+Unbeatable strategy for Rukyuk: Trick Dash: -12.00
+Unbeatable strategy for Rukyuk: Trick Dash (AP): -12.00
+Unbeatable strategy for Rukyuk: Trick Dash (Explosive): -12.00
+Unbeatable strategy for Rukyuk: Trick Dash (Flash): -12.00
+Unbeatable strategy for Rukyuk: Trick Dash (Impact): -12.00
+Unbeatable strategy for Rukyuk: Trick Dash (Swift): -12.00
+
+Luc:
+7% Memento Flash
+0% Memento Flash (1 token)
+7% Memento Flash (3 tokens)
+0% Memento Strike
+0% Memento Strike (1 token)
+0% Memento Strike (3 tokens)
+0% Memento Shot
+0% Memento Shot (1 token)
+7% Memento Shot (3 tokens)
+0% Memento Burst
+0% Memento Burst (1 token)
+7% Memento Burst (3 tokens)
+0% Memento Grasp (1 token)
+7% Memento Grasp (3 tokens)
+7% Fusion Flash
+1% Fusion Flash (1 token)
+7% Fusion Flash (3 tokens)
+0% Fusion Strike
+0% Fusion Strike (1 token)
+0% Fusion Strike (3 tokens)
+0% Fusion Shot
+0% Fusion Shot (1 token)
+0% Fusion Shot (3 tokens)
+0% Fusion Burst
+0% Fusion Burst (1 token)
+0% Fusion Burst (3 tokens)
+0% Fusion Grasp
+7% Fusion Grasp (1 token)
+0% Fusion Grasp (3 tokens)
+7% Chrono Flash
+1% Chrono Flash (1 token)
+7% Chrono Flash (3 tokens)
+0% Chrono Strike
+0% Chrono Strike (1 token)
+0% Chrono Strike (3 tokens)
+7% Chrono Shot
+3% Chrono Shot (1 token)
+7% Chrono Shot (3 tokens)
+1% Chrono Burst
+1% Chrono Burst (1 token)
+1% Chrono Burst (3 tokens)
+1% Chrono Grasp
+7% Chrono Grasp (1 token)
+1% Chrono Grasp (3 tokens)
+
+Rukyuk:
+4% Sniper Reload
+4% Sniper Reload (AP)
+4% Sniper Reload (Explosive)
+4% Sniper Reload (Flash)
+4% Sniper Reload (Impact)
+4% Sniper Reload (Swift)
+4% Sniper Drive
+4% Sniper Drive (AP)
+4% Sniper Drive (Explosive)
+4% Sniper Drive (Flash)
+4% Sniper Drive (Impact)
+4% Sniper Drive (Swift)
+4% Sniper Dash
+4% Sniper Dash (AP)
+4% Sniper Dash (Explosive)
+4% Sniper Dash (Flash)
+4% Sniper Dash (Impact)
+4% Sniper Dash (Swift)
+4% Point Blank Reload (Swift)
+4% Point Blank Drive (Swift)
+4% Point Blank Dash
+4% Point Blank Dash (AP)
+4% Point Blank Dash (Explosive)
+4% Point Blank Dash (Flash)
+4% Point Blank Dash (Impact)
+4% Point Blank Dash (Swift)
+
+
+Luc: Memento Burst (3 tokens)
+Rukyuk: Sniper Reload
 
 Luc antes a Time token
-Rukyuk antes an Explosive token
-Priorities:  0 | 1
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  0 | 6
 Rukyuk is active
-Rukyuk misses
-Luc hits
-Rukyuk has 2 soak
-Rukyuk takes 2 damage (now at 6 life)
+Luc moves:
+
+R.L....
+
+Luc moves:
+
+RL.....
+
+Rukyuk moves:
+
+.LR....
+
+Rukyuk moves:
+
+RL.....
+
+Luc misses
 Luc gains 1 Time token
 Game goes to time
-LUC WINS!
-total_time: 390
+RUKYUK WINS!
+total_time: 235

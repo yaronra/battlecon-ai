@@ -15,7 +15,7 @@ life: 20
 discard 1: Petrifying Burst
 discard 2: Barrier Grasp
 special action
-2 Concentration tokens
+2 Concentration counters
 
 Runika
 ------
@@ -24,10 +24,10 @@ discard 1: Channeled Grasp
 discard 2: Impact Strike
 special action
 Active artifacts: 
-  Autodeflector
-  Shield Amulet
   Battlefist
   Phase Goggles
+  Shield Amulet
+  Autodeflector
   Hover Boots
 
 
@@ -64,13 +64,12 @@ Runika: Overcharged Drive
 Priorities:  4 | 6
 Runika is active
 Runika overcharges her Phase Goggles
+Marmelee discards 2 Concentration Counters
+Marmelee gains Soak 2
 Marmelee moves:
 
 M....R.
 
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee gains Soak 2
 Runika moves:
 
 M..R...
@@ -80,8 +79,8 @@ Marmelee has 2 soak
 Marmelee takes 2 damage (now at 18 life)
 Marmelee is stunned
 Phase Goggles is removed from the game
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
 
 Beat 2
 -------
@@ -92,7 +91,7 @@ life: 18
 discard 1: Nullifying Meditation
 discard 2: Petrifying Burst
 special action
-2 Concentration tokens
+2 Concentration counters
 
 Runika
 ------
@@ -101,10 +100,10 @@ discard 1: Overcharged Drive
 discard 2: Channeled Grasp
 special action
 Active artifacts: 
-  Autodeflector
   Battlefist
-  Hover Boots
+  Autodeflector
   Shield Amulet
+  Hover Boots
 Removed artifacts: 
   Phase Goggles
 
@@ -125,21 +124,36 @@ Runika:
 72% Explosive Dash
 
 
-Marmelee: Barrier Drive
-Runika: Explosive Dash
+Marmelee: Magnificent Drive
+Runika: Maintenance Tinker
 
-Priorities:  4 | 11
+Priorities:  4 | 4
+Clash!
+
+Marmelee:
+13% Magnificent Shot
+87% Magnificent Grasp
+
+Runika:
+4% Maintenance Shot
+96% Maintenance Dash
+
+
+Marmelee: Magnificent Grasp
+Runika: Maintenance Dash
+
+Priorities:  5 | 10
 Runika is active
-Runika moves Marmelee:
+Runika moves:
 
-.M.R...
+M...R..
 
 Runika moves:
 
-RM.....
+MR.....
 
 Marmelee misses
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 3
 -------
@@ -147,619 +161,120 @@ Beat 3
 Marmelee
 --------
 life: 18
-discard 1: Barrier Drive
+discard 1: Magnificent Grasp
 discard 2: Nullifying Meditation
 special action
-3 Concentration tokens
+3 Concentration counters
 
 Runika
 ------
 life: 20
-discard 1: Explosive Dash
+discard 1: Maintenance Dash
 discard 2: Overcharged Drive
 special action
 Active artifacts: 
-  Autodeflector
-  Hover Boots
-  Shield Amulet
   Battlefist
+  Autodeflector
+  Shield Amulet
+  Hover Boots
 Removed artifacts: 
   Phase Goggles
 
 
-RM.....
+MR.....
 
-Unbeatable strategy for Marmelee: Petrifying Burst: 0.78
+Unbeatable strategy for Marmelee: Barrier Dash: 0.26
 
 Marmelee:
-30% Petrifying Strike
-61% Petrifying Burst
-9% Petrifying Grasp
+7% Petrifying Strike
+3% Petrifying Shot
+78% Petrifying Dash
+4% Sorceress Strike
+8% Sorceress Dash
 
 Runika:
-47% Maintenance Shot
-29% Maintenance Burst
-24% Impact Tinker
+1% Channeled Grasp
+30% Explosive Tinker
+17% Explosive Strike
+19% Explosive Shot
+32% Explosive Burst
 
 
-Marmelee: Petrifying Burst
-Runika: Maintenance Shot
+Marmelee: Petrifying Dash
+Runika: Explosive Tinker
 
-Priorities:  0 | 3
-Runika is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee becomes the active player
+Priorities:  8 | 5
+Marmelee is active
 Marmelee moves:
 
-R..M...
+.R..M..
 
-Marmelee hits
-Autodeflector is de-activated
-Runika has 1 soak
-Runika takes 3 damage (now at 17 life)
-Runika hits
-Marmelee takes 3 damage (now at 15 life)
-Marmelee is stunned
-Marmelee gains 1 Concentration token
+Runika misses
+No artifacts to activate
+Marmelee gains 1 Concentration Counter
 
 Beat 4
 -------
 
 Marmelee
 --------
-life: 15
-discard 1: Petrifying Burst
-discard 2: Barrier Drive
+life: 18
+discard 1: Petrifying Dash
+discard 2: Magnificent Grasp
 special action
-1 Concentration tokens
+4 Concentration counters
 
 Runika
 ------
-life: 17
-discard 1: Maintenance Shot
-discard 2: Explosive Dash
+life: 20
+discard 1: Explosive Tinker
+discard 2: Maintenance Dash
 special action
 Active artifacts: 
-  Shield Amulet
   Battlefist
-  Hover Boots
-Removed artifacts: 
-  Phase Goggles
-
-
-R..M...
-
-Marmelee:
-18% Magnificent Strike
-6% Magnificent Grasp
-26% Sorceress Strike
-24% Nullifying Shot
-27% Nullifying Dash
-
-Runika:
-5% Channeled Drive
-54% Impact Tinker
-16% Impact Drive
-14% Impact Burst
-11% Overcharged Burst
-
-
-Marmelee: Sorceress Strike
-Runika: Impact Tinker
-
-Priorities:  2 | 5
-Runika is active
-Runika moves:
-
-.R.M...
-
-Runika misses
-Autodeflector is activated
-Marmelee spends a Concentration token
-Marmelee gains +0~2 range
-Marmelee hits
-Battlefist is de-activated
-Runika has 2 soak
-Runika takes 2 damage (now at 15 life)
-Marmelee gains 1 Concentration token
-
-Beat 5
--------
-
-Marmelee
---------
-life: 15
-discard 1: Sorceress Strike
-discard 2: Petrifying Burst
-special action
-1 Concentration tokens
-
-Runika
-------
-life: 15
-discard 1: Impact Tinker
-discard 2: Maintenance Shot
-special action
-Active artifacts: 
-  Autodeflector
-  Hover Boots
-  Shield Amulet
-Removed artifacts: 
-  Phase Goggles
-
-
-.R.M...
-
-Marmelee:
-46% Magnificent Dash
-40% Barrier Dash
-14% Nullifying Grasp
-
-Runika:
-47% Channeled Drive
-53% Overcharged Drive
-0% Overcharged Burst
-
-
-Marmelee: Magnificent Dash
-Runika: Overcharged Drive
-
-Priorities:  9 | 6
-Marmelee is active
-Runika overcharges her Hover Boots
-Runika becomes the active player
-Runika moves:
-
-..RM...
-
-Runika hits
-Marmelee takes 3 damage (now at 12 life)
-Marmelee is stunned
-Marmelee loses all tokens
-Hover Boots is removed from the game
-Marmelee gains 1 Concentration token
-
-Beat 6
--------
-
-Marmelee
---------
-life: 12
-discard 1: Magnificent Dash
-discard 2: Sorceress Strike
-special action
-1 Concentration tokens
-
-Runika
-------
-life: 15
-discard 1: Overcharged Drive
-discard 2: Impact Tinker
-special action
-Active artifacts: 
   Autodeflector
   Shield Amulet
-Removed artifacts: 
   Hover Boots
-  Phase Goggles
-
-
-..RM...
-
-Marmelee:
-21% Petrifying Drive
-30% Petrifying Grasp
-12% Nullifying Meditation
-35% Nullifying Shot
-1% Nullifying Burst
-
-Runika:
-15% Channeled Strike
-23% Channeled Shot
-2% Channeled Burst
-13% Channeled Grasp
-47% Explosive Shot
-
-
-Marmelee: Petrifying Grasp
-Runika: Explosive Shot
-
-Priorities:  4 | 2
-Marmelee is active
-Runika moves Marmelee:
-
-.MR....
-
-Marmelee hits
-Marmelee moves Runika:
-
-.M.R...
-
-Autodeflector is de-activated
-Runika takes 3 damage (now at 12 life)
-Runika hits
-Shield Amulet is de-activated
-Runika gets +2 power
-Marmelee takes 4 damage (now at 8 life)
-Marmelee is stunned
-Marmelee loses all tokens
-Marmelee gains 1 Concentration token
-
-Beat 7
--------
-
-Marmelee
---------
-life: 8
-discard 1: Petrifying Grasp
-discard 2: Magnificent Dash
-special action
-1 Concentration tokens
-
-Runika
-------
-life: 12
-discard 1: Explosive Shot
-discard 2: Overcharged Drive
-special action
-No active artifacts
 Removed artifacts: 
-  Hover Boots
-  Phase Goggles
-
-
-.M.R...
-
-Marmelee:
-28% Sorceress Burst
-1% Barrier Meditation
-27% Barrier Shot
-1% Barrier Burst
-43% Nullifying Meditation
-
-Runika:
-46% Maintenance Tinker
-28% Maintenance Dash
-2% Impact Tinker
-9% Impact Strike
-15% Impact Dash
-
-
-Marmelee: Nullifying Meditation
-Runika: Maintenance Tinker
-
-Priorities:  4 | 2
-Marmelee is active
-Marmelee moves:
-
-M..R...
-
-Marmelee misses
-Runika misses
-Runika moves:
-
-M...R..
-
-Autodeflector is activated
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
-
-Beat 8
--------
-
-Marmelee
---------
-life: 8
-discard 1: Nullifying Meditation
-discard 2: Petrifying Grasp
-special action
-3 Concentration tokens
-
-Runika
-------
-life: 12
-discard 1: Maintenance Tinker
-discard 2: Explosive Shot
-special action
-Active artifacts: 
-  Autodeflector
-Removed artifacts: 
-  Hover Boots
-  Phase Goggles
-
-
-M...R..
-
-Marmelee:
-18% Magnificent Shot
-82% Sorceress Shot
-
-Runika:
-37% Impact Drive
-63% Impact Burst
-
-
-Marmelee: Sorceress Shot
-Runika: Impact Drive
-
-Priorities:  1 | 4
-Runika is active
-Runika moves:
-
-M..R...
-
-Runika moves:
-
-MR.....
-
-Runika hits
-Marmelee takes 2 damage (now at 6 life)
-Marmelee hits
-Autodeflector is de-activated
-Runika takes 3 damage (now at 9 life)
-Runika is stunned
-Marmelee gains 1 Concentration token
-
-Beat 9
--------
-
-Marmelee
---------
-life: 6
-discard 1: Sorceress Shot
-discard 2: Nullifying Meditation
-special action
-4 Concentration tokens
-
-Runika
-------
-life: 9
-discard 1: Impact Drive
-discard 2: Maintenance Tinker
-special action
-No active artifacts
-Removed artifacts: 
-  Hover Boots
-  Phase Goggles
-
-
-MR.....
-
-Unbeatable strategy for Marmelee: Petrifying Dash: 0.11
-
-Marmelee:
-28% Petrifying Drive
-3% Petrifying Grasp
-31% Petrifying Dash
-2% Magnificent Grasp
-37% Barrier Dash
-
-Runika:
-18% Channeled Strike
-9% Channeled Burst
-5% Channeled Grasp
-58% Explosive Shot
-9% Explosive Dash
-
-
-Marmelee: Barrier Dash
-Runika: Channeled Strike
-
-Priorities:  9 | 4
-Marmelee is active
-Battlefist is activated
-Marmelee moves:
-
-.R..M..
-
-Runika misses
-Battlefist is de-activated
-Marmelee gains 1 Concentration token
-
-Beat 10
--------
-
-Marmelee
---------
-life: 6
-discard 1: Barrier Dash
-discard 2: Sorceress Shot
-special action
-5 Concentration tokens
-
-Runika
-------
-life: 9
-discard 1: Channeled Strike
-discard 2: Impact Drive
-special action
-No active artifacts
-Removed artifacts: 
-  Hover Boots
   Phase Goggles
 
 
 .R..M..
 
-Unbeatable strategy for Runika: Maintenance Tinker: -1.09
+Unbeatable strategy for Marmelee: Barrier Shot: 0.91
+Unbeatable strategy for Marmelee: Barrier Burst: 2.29
 
 Marmelee:
-8% Petrifying Meditation
-27% Petrifying Strike
-12% Petrifying Drive
-23% Magnificent Strike
-9% Magnificent Burst
-18% Nullifying Burst
-2% Special Astral Cannon
+38% Barrier Drive
+62% Barrier Burst
 
 Runika:
-51% Maintenance Tinker
-1% Maintenance Shot
-4% Maintenance Burst
-17% Maintenance Dash
-7% Explosive Shot
-1% Explosive Burst
-20% Overcharged Tinker
-
-
-Marmelee: Petrifying Strike
-Runika: Maintenance Tinker
-
-Priorities:  2 | 2
-Clash!
-
-Marmelee:
-49% Petrifying Meditation
-44% Petrifying Burst
-8% Petrifying Grasp
-
-Runika:
-1% Maintenance Shot
-82% Maintenance Grasp
-17% Maintenance Dash
-
-
-Marmelee: Petrifying Burst
-Runika: Maintenance Grasp
-
-Priorities:  0 | 4
-Runika is active
-Marmelee moves:
-
-.R....M
-
-Runika misses
-Runika moves:
-
-R.....M
-
-Marmelee misses
-
-Beat 11
--------
-
-Marmelee
---------
-life: 6
-discard 1: Petrifying Burst
-discard 2: Barrier Dash
-special action
-5 Concentration tokens
-
-Runika
-------
-life: 9
-discard 1: Maintenance Grasp
-discard 2: Channeled Strike
-special action
-No active artifacts
-Removed artifacts: 
-  Hover Boots
-  Phase Goggles
-
-
-R.....M
-
-Marmelee:
-41% Magnificent Meditation
-43% Magnificent Strike
-7% Sorceress Shot
-7% Sorceress Drive
-2% Nullifying Shot
-
-Runika:
-1% Explosive Shot
-12% Impact Shot
-4% Impact Burst
-65% Overcharged Tinker
-19% Overcharged Burst
-
-
-Marmelee: Sorceress Drive
-Runika: Overcharged Tinker
-
-Priorities:  3 | 3
-Clash!
-
-Marmelee:
-13% Sorceress Meditation
-13% Sorceress Strike
-29% Sorceress Shot
-46% Sorceress Grasp
-
-Runika:
-47% Overcharged Shot
-23% Overcharged Drive
-30% Overcharged Burst
-
-
-Marmelee: Sorceress Shot
-Runika: Overcharged Drive
-
-Priorities:  1 | 4
-Runika is active
-No active artifacts to overcharge
-Runika moves:
-
-.R....M
-
-Runika misses
-Marmelee spends a Concentration token
-Marmelee gains +0~2 range
-Marmelee hits
-No artifacts to de-activate
-Runika takes 3 damage (now at 6 life)
-Runika is stunned
-Marmelee gains 1 Concentration token
-
-Beat 12
--------
-
-Marmelee
---------
-life: 6
-discard 1: Sorceress Shot
-discard 2: Petrifying Burst
-special action
-5 Concentration tokens
-
-Runika
-------
-life: 6
-discard 1: Overcharged Drive
-discard 2: Maintenance Grasp
-special action
-No active artifacts
-Removed artifacts: 
-  Hover Boots
-  Phase Goggles
-
-
-.R....M
-
-Unbeatable strategy for Runika: Channeled Tinker: -1.21
-
-Marmelee:
-11% Magnificent Drive
-34% Barrier Strike
-25% Barrier Drive
-20% Nullifying Meditation
-10% Nullifying Strike
-
-Runika:
-43% Channeled Tinker
-21% Channeled Strike
-0% Explosive Tinker
-36% Impact Dash
+62% Impact Shot
+38% Impact Drive
 
 
 Marmelee: Barrier Drive
-Runika: Impact Dash
+Runika: Impact Shot
 
-Priorities:  4 | 9
+Priorities:  4 | 4
+Clash!
+
+Marmelee:
+100% Barrier Burst
+
+Runika:
+100% Impact Drive
+
+
+Marmelee: Barrier Burst
+Runika: Impact Drive
+
+Priorities:  1 | 6
 Runika is active
+Marmelee moves:
+
+.R....M
+
 Runika moves:
 
 ..R...M
@@ -768,264 +283,692 @@ Runika moves:
 
 ....R.M
 
+Runika misses
+Marmelee hits
+Autodeflector is de-activated
+Runika takes 2 damage (now at 18 life)
+Marmelee gains 1 Concentration Counter
+
+Beat 5
+-------
+
+Marmelee
+--------
+life: 18
+discard 1: Barrier Burst
+discard 2: Petrifying Dash
+special action
+5 Concentration counters
+
+Runika
+------
+life: 18
+discard 1: Impact Drive
+discard 2: Explosive Tinker
+special action
+Active artifacts: 
+  Battlefist
+  Shield Amulet
+  Hover Boots
+Removed artifacts: 
+  Phase Goggles
+
+
+....R.M
+
+Unbeatable strategy for Runika: Overcharged Shot: -5.07
+Unbeatable strategy for Runika: Overcharged Burst: -4.68
+
+Marmelee:
+52% Magnificent Meditation
+15% Sorceress Grasp
+33% Nullifying Meditation
+
+Runika:
+21% Channeled Shot
+37% Overcharged Shot
+42% Overcharged Burst
+
+
+Marmelee: Nullifying Meditation
+Runika: Overcharged Burst
+
+Priorities:  4 | 3
+Marmelee is active
+Runika overcharges her Battlefist
+Runika moves:
+
+...R..M
+
+Marmelee misses
+Runika hits
+Marmelee takes 6 damage (now at 12 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
+Battlefist is removed from the game
+Marmelee gains 1 Concentration Counter
+
+Beat 6
+-------
+
+Marmelee
+--------
+life: 12
+discard 1: Nullifying Meditation
+discard 2: Barrier Burst
+special action
+2 Concentration counters
+
+Runika
+------
+life: 18
+discard 1: Overcharged Burst
+discard 2: Impact Drive
+special action
+Active artifacts: 
+  Hover Boots
+  Shield Amulet
+Removed artifacts: 
+  Battlefist
+  Phase Goggles
+
+
+...R..M
+
+Marmelee:
+83% Magnificent Grasp
+13% Sorceress Strike
+3% Sorceress Grasp
+
+Runika:
+25% Channeled Shot
+30% Channeled Dash
+46% Maintenance Tinker
+
+
+Marmelee: Magnificent Grasp
+Runika: Maintenance Tinker
+
+Priorities:  5 | 4
+Marmelee is active
+Marmelee hits
+Marmelee moves Runika:
+
+..R...M
+
+Shield Amulet is de-activated
+Runika has 2 soak
+Runika takes 0 damage (now at 18 life)
+Runika misses
+Autodeflector is activated
+Runika moves:
+
+.R....M
+
+Marmelee gains 1 Concentration Counter
+
+Beat 7
+-------
+
+Marmelee
+--------
+life: 12
+discard 1: Magnificent Grasp
+discard 2: Nullifying Meditation
+special action
+3 Concentration counters
+
+Runika
+------
+life: 18
+discard 1: Maintenance Tinker
+discard 2: Overcharged Burst
+special action
+Active artifacts: 
+  Hover Boots
+  Autodeflector
+Removed artifacts: 
+  Battlefist
+  Phase Goggles
+
+
+.R....M
+
+Unbeatable strategy for Marmelee: Petrifying Shot: 1.03
+
+Marmelee:
+49% Petrifying Shot
+16% Sorceress Shot
+35% Sorceress Burst
+
+Runika:
+58% Channeled Dash
+32% Explosive Shot
+11% Impact Shot
+
+
+Marmelee: Sorceress Shot
+Runika: Channeled Dash
+
+Priorities:  1 | 12
+Runika is active
+Shield Amulet is activated
+Runika moves:
+
+R.....M
+
+Marmelee discards 1 Concentration Counter
+Marmelee gains +0~2 range
+Marmelee hits
+Autodeflector is de-activated
+Runika takes 3 damage (now at 15 life)
+Shield Amulet is de-activated
+Marmelee gains 1 Concentration Counter
+
+Beat 8
+-------
+
+Marmelee
+--------
+life: 12
+discard 1: Sorceress Shot
+discard 2: Magnificent Grasp
+special action
+3 Concentration counters
+
+Runika
+------
+life: 15
+discard 1: Channeled Dash
+discard 2: Maintenance Tinker
+special action
+Active artifacts: 
+  Hover Boots
+Removed artifacts: 
+  Battlefist
+  Phase Goggles
+
+
+R.....M
+
+Unbeatable strategy for Marmelee: Petrifying Meditation: 2.49
+Unbeatable strategy for Marmelee: Petrifying Strike: 1.49
+Unbeatable strategy for Marmelee: Petrifying Burst: 1.47
+Unbeatable strategy for Marmelee: Barrier Burst: 0.96
+Unbeatable strategy for Marmelee: Nullifying Burst: 0.74
+
+Marmelee:
+57% Petrifying Meditation
+40% Nullifying Meditation
+3% Nullifying Burst
+
+Runika:
+36% Explosive Shot
+39% Explosive Drive
+26% Impact Drive
+
+
+Marmelee: Nullifying Meditation
+Runika: Explosive Shot
+
+Priorities:  4 | 4
+Clash!
+
+Marmelee:
+100% Nullifying Strike
+
+Runika:
+100% Explosive Drive
+
+
+Marmelee: Nullifying Strike
+Runika: Explosive Drive
+
+Priorities:  4 | 6
+Runika is active
+Runika moves Marmelee:
+
+R....M.
+
 Marmelee moves:
 
-...MR..
+R.....M
+
+Runika moves:
+
+..R...M
+
+Runika misses
+Marmelee misses
+Marmelee gains 1 Concentration Counter
+
+Beat 9
+-------
+
+Marmelee
+--------
+life: 12
+discard 1: Nullifying Strike
+discard 2: Sorceress Shot
+special action
+4 Concentration counters
+
+Runika
+------
+life: 15
+discard 1: Explosive Drive
+discard 2: Channeled Dash
+special action
+Active artifacts: 
+  Hover Boots
+Removed artifacts: 
+  Battlefist
+  Phase Goggles
+
+
+..R...M
+
+Unbeatable strategy for Runika: Maintenance Tinker: -1.35
+
+Marmelee:
+9% Petrifying Meditation
+4% Petrifying Drive
+7% Magnificent Meditation
+49% Magnificent Drive
+31% Barrier Grasp
+
+Runika:
+23% Maintenance Tinker
+25% Maintenance Strike
+17% Maintenance Shot
+30% Impact Tinker
+4% Impact Shot
+
+
+Marmelee: Petrifying Drive
+Runika: Impact Tinker
+
+Priorities:  3 | 5
+Runika is active
+Runika moves:
+
+...R..M
+
+Runika misses
+Autodeflector is activated
+Marmelee moves:
+
+...RM..
 
 Marmelee hits
-No artifacts to de-activate
-Runika takes 2 damage (now at 4 life)
+Hover Boots is de-activated
+Runika has 2 soak
+Runika takes 2 damage (now at 13 life)
+Marmelee gains 1 Concentration Counter
+
+Beat 10
+-------
+
+Marmelee
+--------
+life: 12
+discard 1: Petrifying Drive
+discard 2: Nullifying Strike
+special action
+5 Concentration counters
+
+Runika
+------
+life: 13
+discard 1: Impact Tinker
+discard 2: Explosive Drive
+special action
+Active artifacts: 
+  Autodeflector
+Removed artifacts: 
+  Battlefist
+  Phase Goggles
+
+
+...RM..
+
+Marmelee:
+11% Magnificent Meditation
+17% Sorceress Meditation
+49% Sorceress Dash
+23% Barrier Burst
+
+Runika:
+13% Channeled Strike
+5% Channeled Shot
+77% Channeled Dash
+6% Maintenance Shot
+
+
+Marmelee: Barrier Burst
+Runika: Channeled Dash
+
+Priorities:  1 | 10
+Runika is active
+Hover Boots is activated
+Marmelee moves:
+
+...R.M.
+
+Runika moves:
+
+....RM.
+
+Marmelee misses
+Hover Boots is de-activated
+
+Beat 11
+-------
+
+Marmelee
+--------
+life: 12
+discard 1: Barrier Burst
+discard 2: Petrifying Drive
+special action
+5 Concentration counters
+
+Runika
+------
+life: 13
+discard 1: Channeled Dash
+discard 2: Impact Tinker
+special action
+Active artifacts: 
+  Autodeflector
+Removed artifacts: 
+  Battlefist
+  Phase Goggles
+
+
+....RM.
+
+Unbeatable strategy for Runika: Explosive Shot: -0.19
+
+Marmelee:
+80% Sorceress Meditation
+17% Sorceress Grasp
+4% Nullifying Strike
+
+Runika:
+62% Maintenance Grasp
+31% Explosive Drive
+7% Explosive Grasp
+
+
+Marmelee: Sorceress Grasp
+Runika: Maintenance Grasp
+
+Priorities:  4 | 4
+Clash!
+
+Marmelee:
+26% Sorceress Meditation
+74% Sorceress Strike
+
+Runika:
+74% Maintenance Strike
+26% Maintenance Drive
+
+
+Marmelee: Sorceress Strike
+Runika: Maintenance Drive
+
+Priorities:  2 | 3
+Runika is active
+Runika moves:
+
+.....MR
+
+Runika hits
+Marmelee takes 2 damage (now at 10 life)
+Marmelee hits
+Autodeflector is de-activated
+Runika has 3 soak
+Runika takes 1 damage (now at 12 life)
 Runika is stunned
+Marmelee discards 1 Concentration Counter
+Marmelee moves:
+
+....M.R
+
+Marmelee gains 1 Concentration Counter
+
+Beat 12
+-------
+
+Marmelee
+--------
+life: 10
+discard 1: Sorceress Strike
+discard 2: Barrier Burst
+special action
+5 Concentration counters
+
+Runika
+------
+life: 12
+discard 1: Maintenance Drive
+discard 2: Channeled Dash
+special action
+No active artifacts
+Removed artifacts: 
+  Battlefist
+  Phase Goggles
+
+
+....M.R
+
+Marmelee:
+51% Petrifying Shot
+4% Petrifying Drive
+45% Magnificent Grasp
+
+Runika:
+29% Explosive Tinker
+58% Explosive Strike
+13% Explosive Burst
+
+
+Marmelee: Petrifying Shot
+Runika: Explosive Strike
+
+Priorities:  1 | 3
+Runika is active
+Runika moves Marmelee:
+
+.....MR
+
+Marmelee discards 3 Concentration Counters
+Marmelee becomes the active player
+Marmelee hits
+Marmelee discards 2 Concentration Counters
+Runika is stunned
+No artifacts to de-activate
+Runika takes 4 damage (now at 8 life)
+Marmelee gains 1 Concentration Counter
 
 Beat 13
 -------
 
 Marmelee
 --------
-life: 6
-discard 1: Barrier Drive
-discard 2: Sorceress Shot
+life: 10
+discard 1: Petrifying Shot
+discard 2: Sorceress Strike
 special action
-5 Concentration tokens
+1 Concentration counters
 
 Runika
 ------
-life: 4
-discard 1: Impact Dash
-discard 2: Overcharged Drive
+life: 8
+discard 1: Explosive Strike
+discard 2: Maintenance Drive
 special action
 No active artifacts
 Removed artifacts: 
-  Hover Boots
+  Battlefist
   Phase Goggles
 
 
-...MR..
-
-Unbeatable strategy for Marmelee: Petrifying Dash: 0.13
-Unbeatable strategy for Marmelee: Nullifying Dash: 0.25
+.....MR
 
 Marmelee:
-18% Petrifying Meditation
-16% Petrifying Strike
-9% Petrifying Burst
-1% Magnificent Burst
-40% Nullifying Meditation
-15% Nullifying Burst
+28% Barrier Burst
+12% Nullifying Meditation
+5% Nullifying Burst
+55% Nullifying Dash
 
 Runika:
-2% Channeled Shot
-21% Maintenance Tinker
-45% Maintenance Shot
-12% Maintenance Grasp
-20% Explosive Shot
-1% Special Udstad Beam
+28% Channeled Tinker
+1% Channeled Dash
+0% Impact Tinker
+71% Impact Shot
 
 
-Marmelee: Nullifying Meditation
-Runika: Explosive Shot
+Marmelee: Barrier Burst
+Runika: Impact Shot
 
-Priorities:  4 | 2
-Marmelee is active
+Priorities:  1 | 2
+Runika is active
 Marmelee moves:
 
-..M.R..
+...M..R
 
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee gains Soak 2
+Runika moves:
+
+...M.R.
+
+Runika hits
 Runika moves Marmelee:
 
-...MR..
+..M..R.
 
-Marmelee misses
-Runika hits
-Marmelee has 2 soak
-Marmelee takes 0 damage (now at 6 life)
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
+Marmelee takes 2 damage (now at 8 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
 
 Beat 14
 -------
 
 Marmelee
 --------
-life: 6
-discard 1: Nullifying Meditation
-discard 2: Barrier Drive
+life: 8
+discard 1: Barrier Burst
+discard 2: Petrifying Shot
 special action
-5 Concentration tokens
+1 Concentration counters
 
 Runika
 ------
-life: 4
-discard 1: Explosive Shot
-discard 2: Impact Dash
+life: 8
+discard 1: Impact Shot
+discard 2: Explosive Strike
 special action
 No active artifacts
 Removed artifacts: 
-  Hover Boots
+  Battlefist
   Phase Goggles
 
 
-...MR..
-
-Unbeatable strategy for Marmelee: Petrifying Dash: 0.77
-Unbeatable strategy for Marmelee: Magnificent Dash: 0.64
-Unbeatable strategy for Marmelee: Sorceress Dash: 0.99
+..M..R.
 
 Marmelee:
-9% Petrifying Strike
-29% Petrifying Burst
-11% Magnificent Shot
-9% Magnificent Burst
-4% Magnificent Grasp
-39% Sorceress Dash
+3% Sorceress Strike
+53% Nullifying Meditation
+44% Nullifying Grasp
 
 Runika:
-9% Channeled Drive
-50% Maintenance Tinker
-24% Maintenance Drive
-1% Overcharged Drive
-13% Special Artifice Avarice
-3% Special Udstad Beam
+41% Maintenance Tinker
+12% Overcharged Tinker
+47% Overcharged Drive
 
 
-Marmelee: Sorceress Dash
+Marmelee: Nullifying Grasp
 Runika: Maintenance Tinker
 
-Priorities:  8 | 2
+Priorities:  6 | 2
 Marmelee is active
 Marmelee moves:
 
-.M..R..
+.M...R.
 
+Marmelee misses
 Runika misses
+Autodeflector is activated
 Runika moves:
 
 .M....R
 
-Autodeflector is activated
-Marmelee spends a Concentration token
-Marmelee moves:
-
-..M...R
-
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 15
 -------
 
 Marmelee
 --------
-life: 6
-discard 1: Sorceress Dash
-discard 2: Nullifying Meditation
+life: 8
+discard 1: Nullifying Grasp
+discard 2: Barrier Burst
 special action
-5 Concentration tokens
+2 Concentration counters
 
 Runika
 ------
-life: 4
+life: 8
 discard 1: Maintenance Tinker
-discard 2: Explosive Shot
+discard 2: Impact Shot
 special action
 Active artifacts: 
   Autodeflector
 Removed artifacts: 
-  Hover Boots
+  Battlefist
   Phase Goggles
 
 
-..M...R
-
-Unbeatable strategy for Marmelee: Petrifying Burst: 9.00
+.M....R
 
 Marmelee:
-13% Magnificent Strike
-87% Magnificent Grasp
+7% Petrifying Meditation
+7% Petrifying Strike
+6% Petrifying Shot
+6% Petrifying Drive
+8% Petrifying Dash
+7% Magnificent Meditation
+7% Magnificent Strike
+7% Magnificent Shot
+6% Magnificent Drive
+7% Magnificent Dash
+7% Sorceress Meditation
+7% Sorceress Strike
+5% Sorceress Shot
+6% Sorceress Drive
+8% Sorceress Dash
 
 Runika:
-100% Special Pulse
+19% Overcharged Strike
+20% Overcharged Drive
+20% Overcharged Burst
+21% Overcharged Grasp
+20% Overcharged Dash
 
 
-Marmelee: Magnificent Grasp
-Runika: Special Pulse
+Marmelee: Petrifying Meditation
+Runika: Overcharged Strike
 
-Pulse:
-
-MR.....
-
-
-Beat 15
--------
-
-Marmelee
---------
-life: 6
-discard 1: Magnificent Grasp
-discard 2: Sorceress Dash
-special action
-5 Concentration tokens
-
-Runika
-------
-life: 4
-discard 1: Maintenance Tinker
-discard 2: Explosive Shot
-Active artifacts: 
-  Autodeflector
-Removed artifacts: 
-  Hover Boots
-  Phase Goggles
-
-
-MR.....
-
-Marmelee:
-10% Petrifying Meditation
-10% Petrifying Shot
-11% Petrifying Drive
-12% Barrier Meditation
-12% Barrier Strike
-11% Barrier Shot
-12% Barrier Drive
-12% Barrier Burst
-11% Special Astral Trance
-
-Runika:
-4% Channeled Strike
-4% Channeled Drive
-6% Channeled Burst
-3% Channeled Grasp
-14% Channeled Dash
-3% Impact Strike
-4% Impact Drive
-5% Impact Burst
-12% Impact Grasp
-14% Impact Dash
-3% Overcharged Strike
-3% Overcharged Drive
-5% Overcharged Burst
-6% Overcharged Grasp
-13% Overcharged Dash
-
-
-Marmelee: Petrifying Drive
-Runika: Impact Burst
-
-Priorities:  3 | 1
-Marmelee is active
-Runika moves:
-
-M.R....
-
-Marmelee moves:
-
-.MR....
-
-Marmelee hits
-Autodeflector is de-activated
-Runika takes 4 damage (now at 0 life)
-MARMELEE WINS!
-total_time: 27
+Priorities:  2 | 3
+Runika is active
+Runika overcharges her Autodeflector
+Runika misses
+Marmelee misses
+Autodeflector is removed from the game
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
+Game goes to time
+THE GAME IS TIED!
+total_time: 35

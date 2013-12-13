@@ -29,29 +29,148 @@ pool: Earth, Fire, Water, Wind
 .E...H.
 
 Eligor:
-3% Counter Shot
-15% Counter Shot (1 token)
-9% Counter Burst
-2% Counter Burst (2 tokens)
-10% Counter Dash
-8% Chained Drive
-11% Chained Burst
-30% Chained Dash
-12% Retribution Strike
+9% Counter Strike (1 token)
+10% Counter Shot (1 token)
+4% Counter Burst
+6% Counter Burst (2 tokens)
+4% Chained Drive
+6% Chained Burst
+41% Chained Dash
+20% Retribution Strike
 
 Hikaru:
-0% Advancing Shot
-5% Advancing Drive (Fire)
-2% Advancing Drive (Water)
-43% Advancing Dash
-23% Sweeping Burst
-17% Geomantic Shot
-3% Geomantic Shot (Water)
-2% Geomantic Drive
-6% Geomantic Drive (Water)
+6% Advancing Shot (Fire)
+4% Advancing Drive (Fire)
+26% Sweeping Burst
+13% Sweeping Dash
+15% Geomantic Shot
+8% Geomantic Shot (Water)
+9% Geomantic Drive
+18% Geomantic Drive (Water)
 
 
-Eligor: Chained Dash
+Eligor: Counter Shot (1 token)
+Hikaru: Geomantic Shot
+
+Eligor antes a Vengeance token
+Priorities:  1 | 2
+Hikaru is active
+Hikaru antes an Earth token
+Hikaru is stunned
+Eligor hits
+Hikaru has 3 soak
+Hikaru takes 1 damage (now at 19 life)
+
+Beat 2
+-------
+
+Eligor
+------
+life: 20
+discard 1: Counter Shot
+discard 2: Martial Grasp
+special action
+1 Vengeance tokens
+
+Hikaru
+------
+life: 19
+discard 1: Geomantic Shot
+discard 2: Focused Palm Strike
+special action
+pool: Fire, Water, Wind
+
+
+.E...H.
+
+Unbeatable strategy for Hikaru: Trance Strike: -0.86
+Unbeatable strategy for Hikaru: Trance Strike (Fire): -0.86
+Unbeatable strategy for Hikaru: Trance Strike (Water): -0.86
+Unbeatable strategy for Hikaru: Trance Strike (Wind): -0.86
+Unbeatable strategy for Hikaru: Trance Burst: -0.23
+Unbeatable strategy for Hikaru: Trance Burst (Fire): -0.23
+Unbeatable strategy for Hikaru: Trance Burst (Water): -0.23
+Unbeatable strategy for Hikaru: Trance Burst (Wind): -0.23
+Unbeatable strategy for Hikaru: Trance Dash: -0.55
+Unbeatable strategy for Hikaru: Trance Dash (Fire): -0.55
+Unbeatable strategy for Hikaru: Trance Dash (Water): -0.55
+Unbeatable strategy for Hikaru: Trance Dash (Wind): -0.55
+Unbeatable strategy for Hikaru: Advancing Dash: -0.00
+Unbeatable strategy for Hikaru: Sweeping Dash: -0.07
+
+Eligor:
+13% Vengeful Dash
+26% Chained Strike
+18% Chained Burst
+44% Chained Dash
+
+Hikaru:
+20% Trance Strike
+19% Trance Strike (Fire)
+19% Trance Strike (Water)
+20% Trance Strike (Wind)
+2% Trance Drive
+2% Trance Drive (Fire)
+2% Trance Drive (Water)
+2% Trance Drive (Wind)
+3% Trance Grasp
+3% Trance Grasp (Fire)
+3% Trance Grasp (Water)
+3% Trance Grasp (Wind)
+1% Advancing Drive (Fire)
+
+
+Eligor: Chained Strike
+Hikaru: Trance Strike (Wind)
+
+Hikaru antes a Wind token
+Priorities:  2 | 3
+Hikaru is active
+Hikaru misses
+Eligor misses
+Hikaru recovers an Earth token
+
+Beat 3
+-------
+
+Eligor
+------
+life: 20
+discard 1: Chained Strike
+discard 2: Counter Shot
+special action
+1 Vengeance tokens
+
+Hikaru
+------
+life: 19
+discard 1: Trance Strike
+discard 2: Geomantic Shot
+special action
+pool: Fire, Water, Wind, Earth
+
+
+.E...H.
+
+Unbeatable strategy for Hikaru: Advancing Dash: -0.34
+Unbeatable strategy for Hikaru: Sweeping Burst: -0.05
+
+Eligor:
+11% Vengeful Burst (1 token)
+1% Martial Drive
+26% Martial Burst
+30% Martial Dash
+32% Retribution Drive (1 token)
+
+Hikaru:
+7% Advancing Drive (Water)
+53% Advancing Dash
+2% Sweeping Burst
+4% Sweeping Grasp
+34% Sweeping Dash
+
+
+Eligor: Martial Dash
 Hikaru: Advancing Dash
 
 Priorities:  8 | 10
@@ -69,411 +188,166 @@ Eligor moves:
 ..H..E.
 
 
-Beat 2
--------
-
-Eligor
-------
-life: 20
-discard 1: Chained Dash
-discard 2: Martial Grasp
-special action
-2 Vengeance tokens
-
-Hikaru
-------
-life: 20
-discard 1: Advancing Dash
-discard 2: Focused Palm Strike
-special action
-pool: Earth, Fire, Water, Wind
-
-
-..H..E.
-
-Eligor:
-3% Vengeful Shot (1 token)
-5% Vengeful Drive
-9% Counter Burst
-14% Counter Burst (2 tokens)
-62% Retribution Aegis (2 tokens)
-7% Retribution Strike
-
-Hikaru:
-2% Sweeping Strike
-31% Sweeping Burst
-2% Sweeping Grasp
-3% Geomantic Shot (Fire)
-7% Geomantic Drive
-16% Geomantic Drive (Fire)
-39% Geomantic Burst
-
-
-Eligor: Retribution Aegis (2 tokens)
-Hikaru: Sweeping Burst
-
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  -1 | 4
-Hikaru is active
-Hikaru moves:
-
-.H...E.
-
-Hikaru misses
-Eligor misses
-
-Beat 3
--------
-
-Eligor
-------
-life: 20
-discard 1: Retribution Aegis
-discard 2: Chained Dash
-special action
-0 Vengeance tokens
-
-Hikaru
-------
-life: 20
-discard 1: Sweeping Burst
-discard 2: Advancing Dash
-special action
-pool: Earth, Fire, Water, Wind
-
-
-.H...E.
-
-Eligor:
-3% Vengeful Shot
-44% Counter Shot
-53% Martial Burst
-
-Hikaru:
-55% Geomantic Shot
-39% Geomantic Drive
-6% Geomantic Drive (Water)
-
-
-Eligor: Counter Shot
-Hikaru: Geomantic Drive
-
-Priorities:  1 | 4
-Hikaru is active
-Hikaru antes a Water token
-Hikaru moves:
-
-...H.E.
-
-Hikaru hits
-Eligor takes 4 damage (now at 16 life)
-Eligor is stunned
-Eligor gains 4 Vengeance tokens
-
 Beat 4
 -------
 
 Eligor
 ------
-life: 16
-discard 1: Counter Shot
-discard 2: Retribution Aegis
+life: 20
+discard 1: Martial Dash
+discard 2: Chained Strike
 special action
-4 Vengeance tokens
+1 Vengeance tokens
 
 Hikaru
 ------
-life: 20
-discard 1: Geomantic Drive
-discard 2: Sweeping Burst
+life: 19
+discard 1: Advancing Dash
+discard 2: Trance Strike
 special action
-pool: Earth, Fire, Wind
+pool: Fire, Water, Wind, Earth
 
 
-...H.E.
-
-Unbeatable strategy for Hikaru: Trance Dash: -0.36
-Unbeatable strategy for Hikaru: Trance Dash (Earth): -0.36
-Unbeatable strategy for Hikaru: Trance Dash (Fire): -0.36
-Unbeatable strategy for Hikaru: Trance Dash (Wind): -0.36
+..H..E.
 
 Eligor:
-4% Vengeful Burst
-61% Vengeful Dash
-1% Martial Strike (1 token)
-1% Martial Drive (1 token)
-17% Martial Burst (2 tokens)
-6% Martial Burst (3 tokens)
-11% Martial Burst (4 tokens)
+21% Counter Shot
+28% Counter Drive
+6% Retribution Aegis (1 token)
+46% Retribution Burst
 
 Hikaru:
-1% Trance Palm Strike
-1% Trance Palm Strike (Earth)
-1% Trance Palm Strike (Fire)
-1% Trance Palm Strike (Wind)
-4% Trance Strike
-5% Trance Strike (Earth)
-5% Trance Strike (Fire)
-4% Trance Strike (Wind)
-2% Trance Shot
-2% Trance Shot (Earth)
-2% Trance Shot (Fire)
-2% Trance Shot (Wind)
-2% Trance Grasp
-2% Trance Grasp (Earth)
-2% Trance Grasp (Fire)
-2% Trance Grasp (Wind)
-26% Trance Dash
-9% Trance Dash (Earth)
-9% Trance Dash (Fire)
-12% Trance Dash (Wind)
-4% Focused Shot (Fire)
-2% Advancing Shot (Fire)
+32% Geomantic Shot (Fire)
+37% Geomantic Drive (Fire)
+17% Geomantic Burst
+13% Geomantic Burst (Fire)
 
 
-Eligor: Vengeful Dash
-Hikaru: Trance Strike (Earth)
+Eligor: Counter Drive
+Hikaru: Geomantic Burst
 
-Hikaru antes an Earth token
-Priorities:  9 | 3
+Priorities:  3 | 1
 Eligor is active
+Hikaru antes a Fire token
+Hikaru moves:
+
+.H...E.
+
 Eligor moves:
 
-...H..E
+.H..E..
 
-Hikaru misses
-Hikaru recovers a Water token
+Eligor misses
+Hikaru hits
+Eligor takes 7 damage (now at 13 life)
+Eligor is stunned
+Eligor gains 4 Vengeance tokens
 
 Beat 5
 -------
 
 Eligor
 ------
-life: 16
-discard 1: Vengeful Dash
-discard 2: Counter Shot
+life: 13
+discard 1: Counter Drive
+discard 2: Martial Dash
 special action
-4 Vengeance tokens
+5 Vengeance tokens
 
 Hikaru
 ------
-life: 20
-discard 1: Trance Strike
-discard 2: Geomantic Drive
+life: 19
+discard 1: Geomantic Burst
+discard 2: Advancing Dash
 special action
-pool: Fire, Wind, Earth, Water
+pool: Water, Wind, Earth
 
 
-...H..E
-
-Eligor:
-24% Martial Aegis (3 tokens)
-3% Martial Strike (1 token)
-28% Martial Drive (3 tokens)
-1% Chained Strike (1 token)
-23% Chained Drive
-2% Chained Drive (2 tokens)
-8% Chained Burst (2 tokens)
-11% Retribution Strike (1 token)
-
-Hikaru:
-6% Focused Shot
-1% Focused Shot (Fire)
-67% Focused Burst
-11% Advancing Palm Strike (Fire)
-3% Advancing Palm Strike (Earth)
-4% Advancing Shot (Fire)
-6% Advancing Burst (Wind)
-2% Sweeping Shot (Fire)
-
-
-Eligor: Retribution Strike (1 token)
-Hikaru: Focused Burst
-
-Eligor antes a Vengeance token
-Priorities:  2 | 2
-Clash!
+.H..E..
 
 Eligor:
-19% Retribution Aegis (1 token)
-13% Retribution Drive (1 token)
-69% Retribution Grasp (1 token)
+48% Chained Burst (2 tokens)
+42% Retribution Aegis (1 token)
+9% Retribution Shot
 
 Hikaru:
-10% Focused Palm Strike
-4% Focused Shot
-86% Focused Dash
+2% Trance Strike
+2% Trance Strike (Water)
+2% Trance Strike (Wind)
+2% Trance Strike (Earth)
+9% Trance Shot
+10% Trance Shot (Water)
+9% Trance Shot (Wind)
+10% Trance Shot (Earth)
+2% Trance Grasp
+3% Trance Grasp (Water)
+3% Trance Grasp (Wind)
+3% Trance Grasp (Earth)
+42% Focused Drive (Earth)
 
 
-Eligor: Retribution Grasp (1 token)
-Hikaru: Focused Shot
+Eligor: Retribution Aegis (1 token)
+Hikaru: Trance Strike (Earth)
 
 Eligor antes a Vengeance token
-Priorities:  4 | 3
-Eligor is active
+Hikaru antes an Earth token
+Priorities:  -1 | 3
+Hikaru is active
+Hikaru misses
 Eligor misses
-Hikaru hits
-Eligor has 2 soak
-Eligor gains 2 Vengeance tokens
-Eligor takes 1 damage (now at 15 life)
+Hikaru recovers a Fire token
 
 Beat 6
 -------
 
 Eligor
 ------
-life: 15
-discard 1: Retribution Grasp
-discard 2: Vengeful Dash
+life: 13
+discard 1: Retribution Aegis
+discard 2: Counter Drive
 special action
-5 Vengeance tokens
+4 Vengeance tokens
 
 Hikaru
 ------
-life: 20
-discard 1: Focused Shot
-discard 2: Trance Strike
-special action
-pool: Fire, Wind, Earth, Water
-
-
-...H..E
-
-Eligor:
-21% Martial Aegis (3 tokens)
-61% Martial Shot (3 tokens)
-14% Chained Strike
-4% Chained Drive
-
-Hikaru:
-5% Advancing Burst (Fire)
-9% Sweeping Dash
-23% Geomantic Drive (Earth)
-63% Geomantic Burst
-
-
-Eligor: Martial Aegis (3 tokens)
-Hikaru: Geomantic Burst
-
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  -1 | 1
-Hikaru is active
-Hikaru moves:
-
-..H...E
-
-Hikaru misses
-Eligor misses
-
-Beat 7
--------
-
-Eligor
-------
-life: 15
-discard 1: Martial Aegis
-discard 2: Retribution Grasp
-special action
-2 Vengeance tokens
-
-Hikaru
-------
-life: 20
-discard 1: Geomantic Burst
-discard 2: Focused Shot
-special action
-pool: Fire, Wind, Earth, Water
-
-
-..H...E
-
-Eligor:
-24% Vengeful Shot (1 token)
-23% Counter Shot (1 token)
-43% Counter Drive
-9% Counter Drive (2 tokens)
-1% Chained Shot
-
-Hikaru:
-4% Trance Drive
-5% Trance Drive (Fire)
-5% Trance Drive (Wind)
-5% Trance Drive (Earth)
-5% Trance Drive (Water)
-11% Advancing Palm Strike (Water)
-5% Advancing Drive (Fire)
-13% Advancing Drive (Earth)
-47% Sweeping Dash
-
-
-Eligor: Counter Drive
-Hikaru: Sweeping Dash
-
-Priorities:  3 | 12
-Hikaru is active
-Hikaru moves:
-
-.H....E
-
-Eligor moves:
-
-.H...E.
-
-Eligor misses
-
-Beat 8
--------
-
-Eligor
-------
-life: 15
-discard 1: Counter Drive
-discard 2: Martial Aegis
-special action
-2 Vengeance tokens
-
-Hikaru
-------
-life: 20
-discard 1: Sweeping Dash
+life: 19
+discard 1: Trance Strike
 discard 2: Geomantic Burst
 special action
-pool: Fire, Wind, Earth, Water
+pool: Water, Wind, Earth, Fire
 
 
-.H...E.
+.H..E..
 
 Eligor:
-12% Vengeful Strike (1 token)
-6% Vengeful Burst
-11% Chained Dash
-34% Retribution Strike
-38% Retribution Shot (2 tokens)
+24% Vengeful Strike
+15% Vengeful Shot
+14% Vengeful Shot (1 token)
+17% Martial Strike (1 token)
+7% Martial Shot (3 tokens)
+2% Martial Grasp
+21% Chained Burst
 
 Hikaru:
-3% Trance Drive
-4% Trance Drive (Fire)
-3% Trance Drive (Wind)
-4% Trance Drive (Earth)
-4% Trance Drive (Water)
-40% Advancing Shot (Fire)
-12% Advancing Drive
-20% Advancing Drive (Fire)
-11% Advancing Drive (Earth)
+1% Focused Shot (Fire)
+0% Advancing Shot (Wind)
+2% Advancing Shot (Earth)
+4% Advancing Shot (Fire)
+0% Advancing Drive (Earth)
+91% Advancing Dash
+2% Sweeping Shot (Fire)
 
 
-Eligor: Retribution Shot (2 tokens)
-Hikaru: Advancing Drive (Earth)
+Eligor: Chained Burst
+Hikaru: Advancing Dash
 
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Hikaru antes an Earth token
-Priorities:  1 | 5
+Priorities:  0 | 10
 Hikaru is active
 Hikaru moves:
+
+..H.E..
+
+Eligor moves:
 
 ..H..E.
 
@@ -481,18 +355,116 @@ Hikaru moves:
 
 ....HE.
 
-Hikaru hits
-Eligor has 2 soak
-Eligor gains 2 Vengeance tokens
-Eligor takes 2 damage (now at 13 life)
-Eligor gains 2 Vengeance tokens
+Eligor misses
+
+Beat 7
+-------
+
+Eligor
+------
+life: 13
+discard 1: Chained Burst
+discard 2: Retribution Aegis
+special action
+4 Vengeance tokens
+
+Hikaru
+------
+life: 19
+discard 1: Advancing Dash
+discard 2: Trance Strike
+special action
+pool: Water, Wind, Earth, Fire
+
+
+....HE.
+
+Eligor:
+20% Vengeful Shot (1 token)
+58% Martial Shot (3 tokens)
+0% Martial Drive (1 token)
+8% Martial Drive (3 tokens)
+15% Martial Drive (4 tokens)
+
+Hikaru:
+23% Focused Shot (Earth)
+7% Geomantic Shot
+5% Geomantic Drive
+48% Geomantic Burst
+18% Geomantic Grasp
+
+
+Eligor: Martial Drive (4 tokens)
+Hikaru: Geomantic Burst
+
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  3 | 1
+Eligor is active
+Hikaru antes an Earth token
+Hikaru moves:
+
+...H.E.
+
 Eligor moves:
 
-...EH..
+..EH...
 
 Eligor hits
 Hikaru has 3 soak
-Hikaru takes 0 damage (now at 20 life)
+Hikaru takes 1 damage (now at 18 life)
+Hikaru is stunned
+
+Beat 8
+-------
+
+Eligor
+------
+life: 13
+discard 1: Martial Drive
+discard 2: Chained Burst
+special action
+0 Vengeance tokens
+
+Hikaru
+------
+life: 18
+discard 1: Geomantic Burst
+discard 2: Advancing Dash
+special action
+pool: Water, Wind, Fire
+
+
+..EH...
+
+Eligor:
+12% Vengeful Shot
+14% Vengeful Grasp
+1% Counter Strike
+1% Counter Shot
+72% Retribution Strike
+
+Hikaru:
+19% Focused Strike (Fire)
+22% Focused Shot (Fire)
+17% Focused Drive
+28% Sweeping Drive
+14% Sweeping Drive (Fire)
+
+
+Eligor: Retribution Strike
+Hikaru: Sweeping Drive
+
+Priorities:  2 | 7
+Hikaru is active
+Hikaru moves:
+
+H.E....
+
+Hikaru misses
+Eligor misses
 
 Beat 9
 -------
@@ -500,363 +472,676 @@ Beat 9
 Eligor
 ------
 life: 13
-discard 1: Retribution Shot
-discard 2: Counter Drive
+discard 1: Retribution Strike
+discard 2: Martial Drive
 special action
-4 Vengeance tokens
+0 Vengeance tokens
 
 Hikaru
 ------
-life: 20
-discard 1: Advancing Drive
-discard 2: Sweeping Dash
+life: 18
+discard 1: Sweeping Drive
+discard 2: Geomantic Burst
 special action
-pool: Fire, Wind, Water
+pool: Water, Wind, Fire
 
 
-...EH..
+H.E....
 
-Unbeatable strategy for Eligor: Martial Burst (4 tokens): 0.70
+Unbeatable strategy for Hikaru: Trance Dash: -0.52
+Unbeatable strategy for Hikaru: Trance Dash (Water): -0.52
+Unbeatable strategy for Hikaru: Trance Dash (Wind): -0.52
+Unbeatable strategy for Hikaru: Trance Dash (Fire): -0.52
 
 Eligor:
-14% Martial Burst (2 tokens)
-77% Martial Burst (4 tokens)
-9% Chained Strike (2 tokens)
+2% Vengeful Shot
+45% Vengeful Burst
+22% Vengeful Dash
+31% Counter Shot
 
 Hikaru:
-0% Trance Strike
-0% Trance Strike (Fire)
-0% Trance Strike (Wind)
-0% Trance Strike (Water)
-15% Trance Burst
-18% Trance Burst (Fire)
-17% Trance Burst (Wind)
-18% Trance Burst (Water)
-31% Geomantic Shot
+8% Trance Strike
+9% Trance Strike (Water)
+9% Trance Strike (Wind)
+9% Trance Strike (Fire)
+7% Trance Dash
+7% Trance Dash (Water)
+7% Trance Dash (Wind)
+7% Trance Dash (Fire)
+8% Focused Shot (Fire)
+29% Advancing Shot
 
 
-Eligor: Martial Burst (4 tokens)
-Hikaru: Trance Burst (Fire)
+Eligor: Vengeful Burst
+Hikaru: Advancing Shot
 
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Hikaru antes a Fire token
-Priorities:  0 | 1
+Priorities:  1 | 3
 Hikaru is active
 Hikaru moves:
 
-...E..H
+.HE....
 
 Eligor moves:
 
-..E...H
+.H..E..
 
 Hikaru hits
-Eligor takes 3 damage (now at 10 life)
-Eligor gains 3 Vengeance tokens
-Eligor gets +2 power
-Eligor hits
-Hikaru takes 6 damage (now at 14 life)
-Hikaru is stunned
-Hikaru recovers an Earth token
+Eligor takes 4 damage (now at 9 life)
+Eligor is stunned
+Eligor gains 4 Vengeance tokens
 
 Beat 10
 -------
 
 Eligor
 ------
-life: 10
-discard 1: Martial Burst
-discard 2: Retribution Shot
+life: 9
+discard 1: Vengeful Burst
+discard 2: Retribution Strike
 special action
-3 Vengeance tokens
+4 Vengeance tokens
 
 Hikaru
 ------
-life: 14
-discard 1: Trance Burst
-discard 2: Advancing Drive
+life: 18
+discard 1: Advancing Shot
+discard 2: Sweeping Drive
 special action
-pool: Wind, Water, Fire, Earth
+pool: Water, Wind, Fire
 
 
-..E...H
+.H..E..
 
 Eligor:
-48% Counter Dash
-25% Chained Strike
-14% Chained Strike (1 token)
-2% Chained Drive
-12% Chained Grasp
+6% Counter Shot (1 token)
+80% Counter Dash
+7% Martial Shot
+4% Martial Shot (1 token)
+1% Martial Shot (2 tokens)
+1% Martial Drive (1 token)
 
 Hikaru:
-8% Focused Shot (Fire)
-7% Sweeping Grasp
-43% Geomantic Palm Strike
-25% Geomantic Shot
-17% Geomantic Shot (Wind)
+1% Trance Palm Strike
+1% Trance Palm Strike (Water)
+1% Trance Palm Strike (Wind)
+1% Trance Palm Strike (Fire)
+7% Trance Strike
+8% Trance Strike (Water)
+7% Trance Strike (Wind)
+7% Trance Strike (Fire)
+7% Trance Burst
+11% Trance Burst (Water)
+8% Trance Burst (Wind)
+9% Trance Burst (Fire)
+8% Trance Dash
+6% Trance Dash (Water)
+7% Trance Dash (Wind)
+7% Trance Dash (Fire)
+1% Geomantic Palm Strike
+4% Geomantic Palm Strike (Fire)
 
 
-Eligor: Chained Drive
-Hikaru: Geomantic Palm Strike
+Eligor: Counter Dash
+Hikaru: Trance Palm Strike (Fire)
 
-Priorities:  3 | 5
-Hikaru is active
-Hikaru antes an Earth token
+Hikaru antes a Fire token
+Priorities:  8 | 5
+Eligor is active
 Hikaru moves:
 
-..E..H.
+..H.E..
 
-Hikaru misses
 Eligor moves:
 
-...E.H.
+..H...E
 
-Eligor misses
+Hikaru misses
+Hikaru recovers an Earth token
 
 Beat 11
 -------
 
 Eligor
 ------
-life: 10
-discard 1: Chained Drive
-discard 2: Martial Burst
+life: 9
+discard 1: Counter Dash
+discard 2: Vengeful Burst
 special action
-3 Vengeance tokens
+4 Vengeance tokens
 
 Hikaru
 ------
-life: 14
-discard 1: Geomantic Palm Strike
-discard 2: Trance Burst
+life: 18
+discard 1: Trance Palm Strike
+discard 2: Advancing Shot
 special action
-pool: Wind, Water, Fire
+pool: Water, Wind, Fire, Earth
 
 
-...E.H.
+..H...E
 
 Eligor:
-12% Vengeful Shot
-3% Vengeful Shot (1 token)
-1% Vengeful Shot (2 tokens)
-0% Vengeful Grasp
-70% Counter Dash
-13% Retribution Shot
+1% Martial Shot (3 tokens)
+6% Chained Strike
+39% Chained Strike (1 token)
+27% Chained Grasp
+27% Chained Grasp (2 tokens)
 
 Hikaru:
-1% Advancing Strike
-4% Advancing Strike (Fire)
-0% Advancing Shot
-18% Advancing Drive
-4% Advancing Drive (Fire)
-74% Sweeping Dash
+7% Focused Drive (Earth)
+13% Geomantic Drive (Water)
+21% Geomantic Drive (Wind)
+4% Geomantic Drive (Earth)
+55% Geomantic Burst
 
 
-Eligor: Retribution Shot
-Hikaru: Sweeping Dash
+Eligor: Chained Strike (1 token)
+Hikaru: Focused Drive (Earth)
 
-Priorities:  1 | 12
+Eligor antes a Vengeance token
+Hikaru antes an Earth token
+Priorities:  2 | 5
 Hikaru is active
 Hikaru moves:
 
-.H.E...
+....H.E
 
-Eligor misses
+Hikaru misses
+Eligor spends a Vengeance token
+Eligor moves Hikaru:
+
+.....HE
+
+Eligor hits
+Hikaru has 3 soak
+Hikaru takes 1 damage (now at 17 life)
 
 Beat 12
 -------
 
 Eligor
 ------
-life: 10
-discard 1: Retribution Shot
-discard 2: Chained Drive
+life: 9
+discard 1: Chained Strike
+discard 2: Counter Dash
 special action
-3 Vengeance tokens
+2 Vengeance tokens
 
 Hikaru
 ------
-life: 14
-discard 1: Sweeping Dash
-discard 2: Geomantic Palm Strike
+life: 17
+discard 1: Focused Drive
+discard 2: Trance Palm Strike
 special action
-pool: Wind, Water, Fire
+pool: Water, Wind, Fire
 
 
-.H.E...
+.....HE
+
+Unbeatable strategy for Eligor: Retribution Aegis (2 tokens): 0.52
 
 Eligor:
-3% Counter Aegis (3 tokens)
-6% Counter Strike (1 token)
-34% Martial Aegis (3 tokens)
-42% Martial Burst (2 tokens)
-15% Martial Burst (3 tokens)
+7% Vengeful Shot (2 tokens)
+40% Retribution Aegis (2 tokens)
+52% Retribution Shot (2 tokens)
 
 Hikaru:
-8% Trance Burst
-8% Trance Burst (Wind)
-8% Trance Burst (Water)
-8% Trance Burst (Fire)
-8% Trance Grasp
-8% Trance Grasp (Wind)
-9% Trance Grasp (Water)
-9% Trance Grasp (Fire)
-2% Focused Shot (Fire)
-31% Advancing Shot (Fire)
-0% Advancing Drive (Fire)
+47% Geomantic Strike
+0% Geomantic Burst
+53% Geomantic Dash
 
 
-Eligor: Martial Burst (2 tokens)
-Hikaru: Trance Grasp (Fire)
+Eligor: Retribution Shot (2 tokens)
+Hikaru: Geomantic Strike
 
 Eligor antes a Vengeance token
 Eligor antes a Vengeance token
-Hikaru antes a Fire token
-Priorities:  0 | 5
+Priorities:  1 | 3
 Hikaru is active
+Hikaru antes a Fire token
+Hikaru hits
+Eligor has 2 soak
+Eligor gains 2 Vengeance tokens
+Eligor takes 6 damage (now at 3 life)
+Eligor gains 3 Vengeance tokens
 Eligor moves:
 
-.H..E..
+....EH.
 
-Hikaru misses
 Eligor hits
-Hikaru takes 4 damage (now at 10 life)
-Hikaru is stunned
-Hikaru recovers an Earth token
+Hikaru takes 3 damage (now at 14 life)
 
 Beat 13
 -------
 
 Eligor
 ------
-life: 10
-discard 1: Martial Burst
-discard 2: Retribution Shot
+life: 3
+discard 1: Retribution Shot
+discard 2: Chained Strike
 special action
-1 Vengeance tokens
+5 Vengeance tokens
 
 Hikaru
 ------
-life: 10
-discard 1: Trance Grasp
-discard 2: Sweeping Dash
+life: 14
+discard 1: Geomantic Strike
+discard 2: Focused Drive
 special action
-pool: Wind, Water, Fire, Earth
+pool: Water, Wind
 
 
-.H..E..
+....EH.
 
-Eligor:
-4% Vengeful Aegis (1 token)
-12% Vengeful Strike
-0% Vengeful Drive (1 token)
-16% Counter Drive
-3% Chained Grasp
-65% Chained Dash
-
-Hikaru:
-0% Advancing Palm Strike
-46% Advancing Shot
-26% Advancing Drive
-1% Advancing Burst
-14% Geomantic Drive
-13% Geomantic Burst
-
-
-Eligor: Counter Drive
-Hikaru: Advancing Shot
-
-Priorities:  3 | 3
-Clash!
+Unbeatable strategy for Hikaru: Trance Dash: -0.62
+Unbeatable strategy for Hikaru: Trance Dash (Water): -0.62
+Unbeatable strategy for Hikaru: Trance Dash (Wind): -0.62
 
 Eligor:
-66% Counter Strike
-34% Counter Dash
+14% Vengeful Drive
+55% Vengeful Dash
+6% Counter Aegis (3 tokens)
+1% Counter Burst
+18% Martial Aegis (3 tokens)
+5% Martial Burst
+2% Martial Dash
 
 Hikaru:
-66% Advancing Drive
-34% Advancing Burst
+7% Trance Palm Strike
+8% Trance Palm Strike (Water)
+8% Trance Palm Strike (Wind)
+0% Trance Shot
+0% Trance Shot (Water)
+0% Trance Shot (Wind)
+1% Trance Burst
+1% Trance Burst (Water)
+1% Trance Burst (Wind)
+10% Advancing Shot (Wind)
+3% Advancing Burst (Wind)
+60% Sweeping Dash
 
 
-Eligor: Counter Strike
-Hikaru: Advancing Drive
+Eligor: Vengeful Dash
+Hikaru: Sweeping Dash
 
-Priorities:  2 | 5
+Priorities:  9 | 12
 Hikaru is active
 Hikaru moves:
 
-..H.E..
+.H..E..
 
-Hikaru moves:
-
-...HE..
-
-Hikaru hits
-Eligor takes 4 damage (now at 6 life)
-Eligor gains 4 Vengeance tokens
 Eligor moves:
 
-..EH...
+.HE....
 
-Eligor hits
-Hikaru takes 5 damage (now at 5 life)
-Hikaru is stunned
 
 Beat 14
 -------
 
 Eligor
 ------
-life: 6
-discard 1: Counter Strike
-discard 2: Martial Burst
+life: 3
+discard 1: Vengeful Dash
+discard 2: Retribution Shot
 special action
 5 Vengeance tokens
 
 Hikaru
 ------
-life: 5
-discard 1: Advancing Drive
-discard 2: Trance Grasp
+life: 14
+discard 1: Sweeping Dash
+discard 2: Geomantic Strike
 special action
-pool: Wind, Water, Fire, Earth
+pool: Water, Wind
 
 
-..EH...
+.HE....
 
 Eligor:
-9% Vengeful Dash (4 tokens)
-9% Vengeful Dash (5 tokens)
-25% Chained Dash (1 token)
-21% Chained Dash (2 tokens)
-35% Retribution Aegis (3 tokens)
+31% Counter Aegis (3 tokens)
+10% Counter Drive (1 token)
+7% Counter Burst
+32% Martial Aegis (3 tokens)
+6% Martial Grasp (3 tokens)
+15% Chained Aegis (3 tokens)
 
 Hikaru:
-3% Sweeping Palm Strike
-4% Sweeping Palm Strike (Fire)
-6% Sweeping Dash
-77% Geomantic Dash
-2% Special Wrath of Elements
-2% Special Wrath of Elements (Wind)
-2% Special Wrath of Elements (Water)
-2% Special Wrath of Elements (Fire)
-2% Special Wrath of Elements (Earth)
+11% Trance Palm Strike
+18% Trance Palm Strike (Water)
+15% Trance Palm Strike (Wind)
+5% Trance Drive
+7% Trance Drive (Water)
+6% Trance Drive (Wind)
+5% Trance Grasp
+6% Trance Grasp (Water)
+5% Trance Grasp (Wind)
+1% Focused Shot (Wind)
+13% Advancing Burst
+8% Advancing Burst (Wind)
 
 
-Eligor: Chained Dash (1 token)
-Hikaru: Special Wrath of Elements (Earth)
+Eligor: Counter Aegis (3 tokens)
+Hikaru: Trance Drive
 
 Eligor antes a Vengeance token
-Hikaru antes an Earth token
-Hikaru antes a Wind token
-Hikaru antes a Water token
-Hikaru antes a Fire token
-Priorities:  8 | 8
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  -1 | 4
 Hikaru is active
+Hikaru moves:
+
+..E.H..
+
 Hikaru hits
-Eligor takes 10 damage (now at 0 life)
+Eligor has 3 soak
+Eligor takes 0 damage (now at 3 life)
+Eligor misses
+Hikaru recovers an Earth token
+
+Beat 15
+-------
+
+Eligor
+------
+life: 3
+discard 1: Counter Aegis
+discard 2: Vengeful Dash
+special action
+2 Vengeance tokens
+
+Hikaru
+------
+life: 14
+discard 1: Trance Drive
+discard 2: Sweeping Dash
+special action
+pool: Water, Wind, Earth
+
+
+..E.H..
+
+Unbeatable strategy for Hikaru: Focused Palm Strike: -8.00
+Unbeatable strategy for Hikaru: Focused Palm Strike (Water): -8.00
+Unbeatable strategy for Hikaru: Focused Palm Strike (Wind): -8.00
+Unbeatable strategy for Hikaru: Focused Palm Strike (Earth): -8.00
+Unbeatable strategy for Hikaru: Focused Strike: -8.00
+Unbeatable strategy for Hikaru: Focused Strike (Water): -8.00
+Unbeatable strategy for Hikaru: Focused Strike (Wind): -8.00
+Unbeatable strategy for Hikaru: Focused Strike (Earth): -8.00
+Unbeatable strategy for Hikaru: Focused Shot: -8.00
+Unbeatable strategy for Hikaru: Focused Shot (Water): -8.00
+Unbeatable strategy for Hikaru: Focused Shot (Wind): -8.00
+Unbeatable strategy for Hikaru: Focused Shot (Earth): -8.00
+Unbeatable strategy for Hikaru: Focused Burst: -8.00
+Unbeatable strategy for Hikaru: Focused Burst (Water): -8.00
+Unbeatable strategy for Hikaru: Focused Burst (Wind): -8.00
+Unbeatable strategy for Hikaru: Focused Burst (Earth): -8.00
+Unbeatable strategy for Hikaru: Focused Grasp: -8.00
+Unbeatable strategy for Hikaru: Focused Grasp (Water): -8.00
+Unbeatable strategy for Hikaru: Focused Grasp (Wind): -8.00
+Unbeatable strategy for Hikaru: Focused Grasp (Earth): -8.00
+Unbeatable strategy for Hikaru: Advancing Palm Strike: -8.00
+Unbeatable strategy for Hikaru: Advancing Palm Strike (Water): -8.00
+Unbeatable strategy for Hikaru: Advancing Palm Strike (Wind): -8.00
+Unbeatable strategy for Hikaru: Advancing Palm Strike (Earth): -8.00
+Unbeatable strategy for Hikaru: Advancing Strike: -8.00
+Unbeatable strategy for Hikaru: Advancing Strike (Water): -8.00
+Unbeatable strategy for Hikaru: Advancing Strike (Wind): -8.00
+Unbeatable strategy for Hikaru: Advancing Strike (Earth): -8.00
+Unbeatable strategy for Hikaru: Advancing Shot: -8.00
+Unbeatable strategy for Hikaru: Advancing Shot (Water): -8.00
+Unbeatable strategy for Hikaru: Advancing Shot (Wind): -8.00
+Unbeatable strategy for Hikaru: Advancing Shot (Earth): -8.00
+Unbeatable strategy for Hikaru: Advancing Burst: -8.00
+Unbeatable strategy for Hikaru: Advancing Burst (Water): -8.00
+Unbeatable strategy for Hikaru: Advancing Burst (Wind): -8.00
+Unbeatable strategy for Hikaru: Advancing Burst (Earth): -8.00
+Unbeatable strategy for Hikaru: Advancing Grasp: -8.00
+Unbeatable strategy for Hikaru: Advancing Grasp (Water): -8.00
+Unbeatable strategy for Hikaru: Advancing Grasp (Wind): -8.00
+Unbeatable strategy for Hikaru: Advancing Grasp (Earth): -8.00
+Unbeatable strategy for Hikaru: Geomantic Palm Strike: -8.00
+Unbeatable strategy for Hikaru: Geomantic Palm Strike (Water): -8.00
+Unbeatable strategy for Hikaru: Geomantic Palm Strike (Wind): -8.00
+Unbeatable strategy for Hikaru: Geomantic Palm Strike (Earth): -8.00
+Unbeatable strategy for Hikaru: Geomantic Strike: -8.00
+Unbeatable strategy for Hikaru: Geomantic Strike (Water): -8.00
+Unbeatable strategy for Hikaru: Geomantic Strike (Wind): -8.00
+Unbeatable strategy for Hikaru: Geomantic Strike (Earth): -8.00
+Unbeatable strategy for Hikaru: Geomantic Shot: -8.00
+Unbeatable strategy for Hikaru: Geomantic Shot (Water): -8.00
+Unbeatable strategy for Hikaru: Geomantic Shot (Wind): -8.00
+Unbeatable strategy for Hikaru: Geomantic Shot (Earth): -8.00
+Unbeatable strategy for Hikaru: Geomantic Burst: -8.00
+Unbeatable strategy for Hikaru: Geomantic Burst (Water): -8.00
+Unbeatable strategy for Hikaru: Geomantic Burst (Wind): -8.00
+Unbeatable strategy for Hikaru: Geomantic Burst (Earth): -8.00
+Unbeatable strategy for Hikaru: Geomantic Grasp: -8.00
+Unbeatable strategy for Hikaru: Geomantic Grasp (Water): -8.00
+Unbeatable strategy for Hikaru: Geomantic Grasp (Wind): -8.00
+Unbeatable strategy for Hikaru: Geomantic Grasp (Earth): -8.00
+
+Eligor:
+100% Special Pulse
+
+Hikaru:
+50% Focused Palm Strike
+50% Geomantic Palm Strike
+
+
+Eligor: Special Pulse
+Hikaru: Geomantic Palm Strike
+
+Pulse:
+
+E.....H
+
+
+Beat 15
+-------
+
+Eligor
+------
+life: 3
+discard 1: Counter Aegis
+discard 2: Vengeful Dash
+2 Vengeance tokens
+
+Hikaru
+------
+life: 14
+discard 1: Geomantic Palm Strike
+discard 2: Trance Drive
+special action
+pool: Water, Wind, Earth
+
+
+E.....H
+
+Unbeatable strategy for Hikaru: Focused Strike: -8.00
+Unbeatable strategy for Hikaru: Focused Strike (Water): -8.00
+Unbeatable strategy for Hikaru: Focused Strike (Wind): -8.00
+Unbeatable strategy for Hikaru: Focused Strike (Earth): -8.00
+Unbeatable strategy for Hikaru: Focused Shot: -8.00
+Unbeatable strategy for Hikaru: Focused Shot (Water): -8.00
+Unbeatable strategy for Hikaru: Focused Shot (Wind): -8.00
+Unbeatable strategy for Hikaru: Focused Shot (Earth): -8.00
+Unbeatable strategy for Hikaru: Focused Burst: -8.00
+Unbeatable strategy for Hikaru: Focused Burst (Water): -8.00
+Unbeatable strategy for Hikaru: Focused Burst (Wind): -8.00
+Unbeatable strategy for Hikaru: Focused Burst (Earth): -8.00
+Unbeatable strategy for Hikaru: Focused Grasp: -8.00
+Unbeatable strategy for Hikaru: Focused Grasp (Water): -8.00
+Unbeatable strategy for Hikaru: Focused Grasp (Wind): -8.00
+Unbeatable strategy for Hikaru: Focused Grasp (Earth): -8.00
+Unbeatable strategy for Hikaru: Focused Dash: -8.00
+Unbeatable strategy for Hikaru: Focused Dash (Water): -8.00
+Unbeatable strategy for Hikaru: Focused Dash (Wind): -8.00
+Unbeatable strategy for Hikaru: Focused Dash (Earth): -8.00
+Unbeatable strategy for Hikaru: Advancing Strike: -8.00
+Unbeatable strategy for Hikaru: Advancing Strike (Water): -8.00
+Unbeatable strategy for Hikaru: Advancing Strike (Wind): -8.00
+Unbeatable strategy for Hikaru: Advancing Strike (Earth): -8.00
+Unbeatable strategy for Hikaru: Advancing Shot: -8.00
+Unbeatable strategy for Hikaru: Advancing Shot (Water): -8.00
+Unbeatable strategy for Hikaru: Advancing Shot (Wind): -8.00
+Unbeatable strategy for Hikaru: Advancing Shot (Earth): -8.00
+Unbeatable strategy for Hikaru: Advancing Burst: -8.00
+Unbeatable strategy for Hikaru: Advancing Burst (Water): -8.00
+Unbeatable strategy for Hikaru: Advancing Burst (Wind): -8.00
+Unbeatable strategy for Hikaru: Advancing Burst (Earth): -8.00
+Unbeatable strategy for Hikaru: Advancing Grasp: -8.00
+Unbeatable strategy for Hikaru: Advancing Grasp (Water): -8.00
+Unbeatable strategy for Hikaru: Advancing Grasp (Wind): -8.00
+Unbeatable strategy for Hikaru: Advancing Grasp (Earth): -8.00
+Unbeatable strategy for Hikaru: Advancing Dash: -8.00
+Unbeatable strategy for Hikaru: Advancing Dash (Water): -8.00
+Unbeatable strategy for Hikaru: Advancing Dash (Wind): -8.00
+Unbeatable strategy for Hikaru: Advancing Dash (Earth): -8.00
+Unbeatable strategy for Hikaru: Sweeping Strike: -8.00
+Unbeatable strategy for Hikaru: Sweeping Strike (Water): -8.00
+Unbeatable strategy for Hikaru: Sweeping Strike (Wind): -8.00
+Unbeatable strategy for Hikaru: Sweeping Strike (Earth): -8.00
+Unbeatable strategy for Hikaru: Sweeping Shot: -8.00
+Unbeatable strategy for Hikaru: Sweeping Shot (Water): -8.00
+Unbeatable strategy for Hikaru: Sweeping Shot (Wind): -8.00
+Unbeatable strategy for Hikaru: Sweeping Shot (Earth): -8.00
+Unbeatable strategy for Hikaru: Sweeping Burst: -8.00
+Unbeatable strategy for Hikaru: Sweeping Burst (Water): -8.00
+Unbeatable strategy for Hikaru: Sweeping Burst (Wind): -8.00
+Unbeatable strategy for Hikaru: Sweeping Burst (Earth): -8.00
+Unbeatable strategy for Hikaru: Sweeping Grasp: -8.00
+Unbeatable strategy for Hikaru: Sweeping Grasp (Water): -8.00
+Unbeatable strategy for Hikaru: Sweeping Grasp (Wind): -8.00
+Unbeatable strategy for Hikaru: Sweeping Grasp (Earth): -8.00
+Unbeatable strategy for Hikaru: Sweeping Dash: -8.00
+Unbeatable strategy for Hikaru: Sweeping Dash (Water): -8.00
+Unbeatable strategy for Hikaru: Sweeping Dash (Wind): -8.00
+Unbeatable strategy for Hikaru: Sweeping Dash (Earth): -8.00
+
+Eligor:
+2% Martial Strike
+2% Martial Strike (1 token)
+3% Martial Strike (2 tokens)
+2% Martial Shot
+2% Martial Shot (1 token)
+2% Martial Shot (2 tokens)
+2% Martial Drive
+2% Martial Drive (1 token)
+2% Martial Drive (2 tokens)
+2% Martial Burst
+2% Martial Burst (1 token)
+2% Martial Burst (2 tokens)
+2% Martial Grasp
+2% Martial Grasp (1 token)
+3% Martial Grasp (2 tokens)
+2% Chained Strike
+2% Chained Strike (1 token)
+3% Chained Strike (2 tokens)
+2% Chained Shot
+2% Chained Shot (1 token)
+2% Chained Shot (2 tokens)
+2% Chained Drive
+2% Chained Drive (1 token)
+2% Chained Drive (2 tokens)
+2% Chained Burst
+2% Chained Burst (1 token)
+2% Chained Burst (2 tokens)
+2% Chained Grasp
+2% Chained Grasp (1 token)
+3% Chained Grasp (2 tokens)
+3% Retribution Strike
+2% Retribution Strike (1 token)
+2% Retribution Strike (2 tokens)
+3% Retribution Shot
+3% Retribution Shot (1 token)
+2% Retribution Shot (2 tokens)
+3% Retribution Drive
+3% Retribution Drive (1 token)
+2% Retribution Drive (2 tokens)
+3% Retribution Burst
+3% Retribution Burst (1 token)
+2% Retribution Burst (2 tokens)
+3% Retribution Grasp
+2% Retribution Grasp (1 token)
+2% Retribution Grasp (2 tokens)
+
+Hikaru:
+2% Focused Strike
+2% Focused Strike (Water)
+2% Focused Strike (Wind)
+2% Focused Strike (Earth)
+2% Focused Shot
+2% Focused Shot (Water)
+2% Focused Shot (Wind)
+2% Focused Shot (Earth)
+2% Focused Burst
+2% Focused Burst (Water)
+2% Focused Burst (Wind)
+2% Focused Burst (Earth)
+2% Focused Grasp
+2% Focused Grasp (Water)
+2% Focused Grasp (Wind)
+2% Focused Grasp (Earth)
+2% Focused Dash
+2% Focused Dash (Water)
+2% Focused Dash (Wind)
+2% Focused Dash (Earth)
+2% Advancing Strike
+2% Advancing Strike (Water)
+2% Advancing Strike (Wind)
+2% Advancing Strike (Earth)
+2% Advancing Shot
+2% Advancing Shot (Water)
+2% Advancing Shot (Wind)
+2% Advancing Shot (Earth)
+2% Advancing Burst
+2% Advancing Burst (Water)
+2% Advancing Burst (Wind)
+2% Advancing Burst (Earth)
+2% Advancing Grasp
+2% Advancing Grasp (Water)
+2% Advancing Grasp (Wind)
+2% Advancing Grasp (Earth)
+2% Advancing Dash
+2% Advancing Dash (Water)
+2% Advancing Dash (Wind)
+2% Advancing Dash (Earth)
+2% Sweeping Strike
+2% Sweeping Strike (Water)
+2% Sweeping Strike (Wind)
+2% Sweeping Strike (Earth)
+2% Sweeping Shot
+2% Sweeping Shot (Water)
+2% Sweeping Shot (Wind)
+2% Sweeping Shot (Earth)
+2% Sweeping Burst
+2% Sweeping Burst (Water)
+2% Sweeping Burst (Wind)
+2% Sweeping Burst (Earth)
+2% Sweeping Grasp
+2% Sweeping Grasp (Water)
+2% Sweeping Grasp (Wind)
+2% Sweeping Grasp (Earth)
+2% Sweeping Dash
+2% Sweeping Dash (Water)
+2% Sweeping Dash (Wind)
+2% Sweeping Dash (Earth)
+
+
+Eligor: Martial Drive (2 tokens)
+Hikaru: Focused Strike
+
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  3 | 4
+Hikaru is active
+Hikaru misses
+Eligor moves:
+
+.E....H
+
+Eligor misses
+Game goes to time
 HIKARU WINS!
-total_time: 113
+total_time: 88

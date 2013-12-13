@@ -24,26 +24,27 @@ discard 1: Channeled Grasp
 discard 2: Impact Strike
 special action
 Active artifacts: 
-  Autodeflector
-  Shield Amulet
   Phase Goggles
-  Battlefist
+  Autodeflector
   Hover Boots
+  Shield Amulet
+  Battlefist
 
 
 .L...R.
 
-Unbeatable strategy for Runika: Overcharged Shot: -0.54
+Unbeatable strategy for Runika: Overcharged Shot: -1.34
+Unbeatable strategy for Runika: Overcharged Drive: -0.47
 
 Luc:
-17% Memento Burst
-61% Memento Dash
-22% Chrono Drive
+20% Memento Grasp
+41% Memento Dash
+39% Chrono Drive (1 token)
 
 Runika:
-32% Maintenance Shot
-37% Overcharged Shot
-31% Overcharged Drive
+2% Explosive Burst
+69% Overcharged Shot
+29% Overcharged Drive
 
 
 Luc: Memento Dash
@@ -77,10 +78,10 @@ discard 1: Overcharged Shot
 discard 2: Channeled Grasp
 special action
 Active artifacts: 
-  Autodeflector
-  Phase Goggles
   Shield Amulet
   Battlefist
+  Phase Goggles
+  Autodeflector
 Removed artifacts: 
   Hover Boots
 
@@ -88,35 +89,34 @@ Removed artifacts:
 .L...R.
 
 Luc:
-25% Fusion Burst
-7% Feinting Shot
-46% Chrono Strike
-22% Chrono Drive
+22% Feinting Shot
+18% Chrono Strike
+43% Chrono Drive
+18% Chrono Burst
 
 Runika:
-44% Maintenance Tinker
-24% Maintenance Drive
-12% Impact Tinker
-20% Impact Drive
+61% Maintenance Tinker
+18% Maintenance Drive
+5% Impact Tinker
+16% Impact Drive
 
 
-Luc: Chrono Strike
-Runika: Maintenance Drive
+Luc: Chrono Drive
+Runika: Maintenance Tinker
 
-Priorities:  4 | 3
+Priorities:  5 | 2
 Luc is active
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
 Luc moves:
 
-....LR.
+..L..R.
 
-Luc hits
-Shield Amulet is de-activated
-Runika has 3 soak
-Runika takes 1 damage (now at 19 life)
-Runika is stunned
+Luc misses
+Runika misses
+Runika moves:
+
+..L...R
+
+No artifacts to activate
 Luc gains 1 Time token
 
 Beat 3
@@ -125,54 +125,63 @@ Beat 3
 Luc
 ---
 life: 16
-discard 1: Chrono Strike
+discard 1: Chrono Drive
 discard 2: Memento Dash
 special action
-1 Time tokens
+4 Time tokens
 
 Runika
 ------
-life: 19
-discard 1: Maintenance Drive
+life: 20
+discard 1: Maintenance Tinker
 discard 2: Overcharged Shot
 special action
 Active artifacts: 
-  Autodeflector
-  Phase Goggles
+  Shield Amulet
   Battlefist
+  Phase Goggles
+  Autodeflector
 Removed artifacts: 
   Hover Boots
 
 
-....LR.
+..L...R
+
+Unbeatable strategy for Luc: Eternal Strike: 0.29
+Unbeatable strategy for Luc: Eternal Burst: 0.23
+Unbeatable strategy for Luc: Fusion Flash (3 tokens): 0.50
+Unbeatable strategy for Luc: Feinting Burst: 0.96
+Unbeatable strategy for Luc: Feinting Burst (1 token): 0.56
 
 Luc:
-37% Fusion Flash
-1% Fusion Shot
-23% Fusion Drive
-39% Fusion Burst
+51% Eternal Shot
+2% Eternal Shot (3 tokens)
+47% Fusion Shot
 
 Runika:
-18% Channeled Tinker
-31% Channeled Burst
-47% Explosive Tinker
-4% Explosive Grasp
+0% Explosive Dash
+10% Impact Drive
+18% Impact Burst
+72% Impact Dash
 
 
-Luc: Fusion Flash
-Runika: Explosive Tinker
+Luc: Eternal Shot (3 tokens)
+Runika: Impact Dash
 
-Priorities:  7 | 3
-Luc is active
-Luc moves:
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  -2 | 9
+Runika is active
+Runika moves:
 
-.....RL
+..L..R.
 
-Luc hits
-Battlefist is de-activated
-Runika has 2 soak
-Runika takes 0 damage (now at 19 life)
-Runika is stunned
+Runika moves:
+
+.RL....
+
+Luc misses
 Luc gains 1 Time token
 
 Beat 4
@@ -181,53 +190,61 @@ Beat 4
 Luc
 ---
 life: 16
-discard 1: Fusion Flash
-discard 2: Chrono Strike
+discard 1: Eternal Shot
+discard 2: Chrono Drive
 special action
 2 Time tokens
 
 Runika
 ------
-life: 19
-discard 1: Explosive Tinker
-discard 2: Maintenance Drive
+life: 20
+discard 1: Impact Dash
+discard 2: Maintenance Tinker
 special action
 Active artifacts: 
-  Autodeflector
+  Shield Amulet
+  Battlefist
   Phase Goggles
+  Autodeflector
 Removed artifacts: 
   Hover Boots
 
 
-.....RL
-
-Unbeatable strategy for Luc: Memento Dash: 0.80
-Unbeatable strategy for Luc: Feinting Dash: 0.80
+.RL....
 
 Luc:
-2% Eternal Shot
-3% Memento Drive
-44% Memento Dash
-51% Feinting Dash
+14% Memento Flash
+22% Memento Flash (1 token)
+32% Memento Dash
+22% Fusion Burst
+10% Fusion Burst (1 token)
 
 Runika:
-23% Channeled Strike
-72% Channeled Shot
-5% Channeled Grasp
+31% Explosive Strike
+8% Explosive Drive
+45% Explosive Burst
+13% Explosive Grasp
+3% Overcharged Burst
 
 
 Luc: Memento Dash
-Runika: Channeled Shot
+Runika: Explosive Burst
 
-Priorities:  8 | 3
+Priorities:  8 | 1
 Luc is active
-Shield Amulet is activated
+Runika moves Luc:
+
+LR.....
+
+Runika moves:
+
+L..R...
+
 Luc moves:
 
-....LR.
+..LR...
 
 Runika misses
-Shield Amulet is de-activated
 Luc gains 1 Time token
 
 Beat 5
@@ -237,64 +254,70 @@ Luc
 ---
 life: 16
 discard 1: Memento Dash
-discard 2: Fusion Flash
+discard 2: Eternal Shot
 special action
 3 Time tokens
 
 Runika
 ------
-life: 19
-discard 1: Channeled Shot
-discard 2: Explosive Tinker
+life: 20
+discard 1: Explosive Burst
+discard 2: Impact Dash
 special action
 Active artifacts: 
-  Autodeflector
+  Shield Amulet
+  Battlefist
   Phase Goggles
+  Autodeflector
 Removed artifacts: 
   Hover Boots
 
 
-....LR.
-
-Unbeatable strategy for Luc: Eternal Shot: 1.62
-Unbeatable strategy for Luc: Eternal Shot: 0.27
-Unbeatable strategy for Luc: Eternal Burst: 1.11
-
-Luc:
-1% Eternal Shot
-49% Eternal Burst
-14% Feinting Drive
-0% Chrono Strike
-11% Chrono Drive
-25% Chrono Grasp
-
-Runika:
-3% Maintenance Strike
-2% Maintenance Drive
-2% Maintenance Burst
-35% Maintenance Dash
-0% Impact Burst
-58% Impact Dash
-
-
-Luc: Eternal Burst
-Runika: Maintenance Dash
-
-Priorities:  -3 | 8
-Runika is active
-Luc moves:
-
-..L..R.
-
-Runika moves:
-
-..L...R
-
-Runika moves:
-
 ..LR...
 
-Luc misses
+Unbeatable strategy for Runika: Overcharged Tinker: -0.46
+
+Luc:
+59% Chrono Flash
+41% Chrono Burst (1 token)
+
+Runika:
+76% Overcharged Tinker
+24% Overcharged Drive
+
+
+Luc: Chrono Burst (1 token)
+Runika: Overcharged Tinker
+
+Luc antes a Time token
+Priorities:  3 | 3
+Clash!
+
+Luc:
+100% Chrono Flash (1 token)
+
+Runika:
+100% Overcharged Strike
+
+
+Luc: Chrono Flash (1 token)
+Runika: Overcharged Strike
+
+Luc antes a Time token
+Priorities:  8 | 3
+Luc is active
+Luc moves:
+
+...RL..
+
+Runika overcharges her Shield Amulet
+Luc hits
+Autodeflector is de-activated
+Runika takes 1 damage (now at 19 life)
+Runika hits
+Luc takes 5 damage (now at 11 life)
+Luc is stunned
+Shield Amulet is removed from the game
 Luc gains 1 Time token
 
 Beat 6
@@ -302,52 +325,67 @@ Beat 6
 
 Luc
 ---
-life: 16
-discard 1: Eternal Burst
+life: 11
+discard 1: Chrono Flash
 discard 2: Memento Dash
 special action
-4 Time tokens
+3 Time tokens
 
 Runika
 ------
 life: 19
-discard 1: Maintenance Dash
-discard 2: Channeled Shot
+discard 1: Overcharged Strike
+discard 2: Explosive Burst
 special action
 Active artifacts: 
-  Autodeflector
+  Battlefist
   Phase Goggles
 Removed artifacts: 
   Hover Boots
+  Shield Amulet
 
-
-..LR...
-
-Luc:
-51% Chrono Flash
-36% Chrono Shot
-13% Chrono Drive
-
-Runika:
-12% Explosive Grasp
-50% Impact Tinker
-38% Overcharged Burst
-
-
-Luc: Chrono Flash
-Runika: Impact Tinker
-
-Priorities:  7 | 3
-Luc is active
-Luc moves:
 
 ...RL..
 
+Unbeatable strategy for Runika: Maintenance Tinker: -0.50
+
+Luc:
+37% Eternal Shot
+45% Eternal Drive
+11% Eternal Grasp (1 token)
+7% Fusion Burst
+
+Runika:
+5% Channeled Tinker
+8% Channeled Drive
+68% Maintenance Tinker
+19% Impact Tinker
+
+
+Luc: Eternal Drive
+Runika: Maintenance Tinker
+
+Priorities:  0 | 2
+Runika is active
+Runika hits
+Luc spends a Time token
+Luc spends a Time token
+Luc gains +2 soak (3 total)
+Luc has 3 soak
+Luc takes 0 damage (now at 11 life)
+Runika moves:
+
+.R..L..
+
+Autodeflector is activated
+Luc moves:
+
+.RL....
+
 Luc hits
-Phase Goggles is de-activated
-Runika has 2 soak
+Battlefist is de-activated
+Runika has 3 soak
 Runika takes 0 damage (now at 19 life)
-Runika is stunned
 Luc gains 1 Time token
 
 Beat 7
@@ -355,59 +393,55 @@ Beat 7
 
 Luc
 ---
-life: 16
-discard 1: Chrono Flash
-discard 2: Eternal Burst
+life: 11
+discard 1: Eternal Drive
+discard 2: Chrono Flash
 special action
-5 Time tokens
+2 Time tokens
 
 Runika
 ------
 life: 19
-discard 1: Impact Tinker
-discard 2: Maintenance Dash
+discard 1: Maintenance Tinker
+discard 2: Overcharged Strike
 special action
 Active artifacts: 
   Autodeflector
+  Phase Goggles
 Removed artifacts: 
   Hover Boots
+  Shield Amulet
 
 
-...RL..
+.RL....
 
 Luc:
-12% Memento Strike
-72% Fusion Drive
-16% Fusion Grasp
+6% Memento Dash (1 token)
+0% Fusion Strike (1 token)
+3% Fusion Shot
+8% Fusion Shot (1 token)
+34% Fusion Burst (1 token)
+48% Fusion Grasp
 
 Runika:
-46% Channeled Shot
-34% Channeled Drive
-20% Channeled Grasp
+14% Channeled Shot
+12% Channeled Drive
+13% Channeled Burst
+2% Channeled Grasp
+13% Explosive Dash
+46% Impact Dash
 
 
 Luc: Fusion Grasp
-Runika: Channeled Shot
+Runika: Explosive Dash
 
-Luc antes a Time token
-Priorities:  7 | 3
-Luc is active
-Battlefist is activated
-Luc hits
-Luc moves Runika:
+Priorities:  6 | 9
+Runika is active
+Runika moves:
 
-..R.L..
+..L..R.
 
-Autodeflector is de-activated
-Runika takes 1 damage (now at 18 life)
-Luc moves Runika:
-
-.R..L..
-
-Runika hits
-Luc takes 5 damage (now at 11 life)
-Luc is stunned
-Battlefist is de-activated
+Luc misses
 Luc gains 1 Time token
 
 Beat 8
@@ -417,55 +451,82 @@ Luc
 ---
 life: 11
 discard 1: Fusion Grasp
-discard 2: Chrono Flash
+discard 2: Eternal Drive
 special action
-5 Time tokens
+3 Time tokens
 
 Runika
 ------
-life: 18
-discard 1: Channeled Shot
-discard 2: Impact Tinker
+life: 19
+discard 1: Explosive Dash
+discard 2: Maintenance Tinker
 special action
-No active artifacts
+Active artifacts: 
+  Autodeflector
+  Phase Goggles
 Removed artifacts: 
   Hover Boots
+  Shield Amulet
 
 
-.R..L..
-
-Unbeatable strategy for Luc: Eternal Burst: 0.18
-Unbeatable strategy for Luc: Eternal Burst: 0.18
-Unbeatable strategy for Luc: Eternal Dash: 0.00
+..L..R.
 
 Luc:
-19% Eternal Burst
-21% Eternal Burst
-17% Memento Burst
-17% Memento Burst
-26% Memento Dash
+39% Feinting Burst
+24% Chrono Strike (1 token)
+10% Chrono Shot
+25% Chrono Shot (1 token)
+2% Chrono Burst (1 token)
 
 Runika:
-40% Maintenance Strike
-49% Maintenance Grasp
-11% Explosive Dash
+13% Channeled Shot
+31% Channeled Drive
+33% Channeled Burst
+19% Impact Drive
+5% Overcharged Drive
 
 
-Luc: Memento Dash
-Runika: Maintenance Grasp
+Luc: Chrono Shot (1 token)
+Runika: Impact Drive
 
 Luc antes a Time token
-Priorities:  9 | 4
+Priorities:  4 | 4
+Clash!
+
+Luc:
+57% Chrono Flash (1 token)
+43% Chrono Burst (1 token)
+
+Runika:
+67% Impact Strike
+33% Impact Burst
+
+
+Luc: Chrono Flash (1 token)
+Runika: Impact Burst
+
+Luc antes a Time token
+Priorities:  8 | 1
 Luc is active
+Luc spends a Time token
 Luc moves:
 
-.R....L
+...L.R.
 
-Runika misses
+Luc moves:
+
+....LR.
+
 Runika moves:
 
-R.....L
+....L.R
 
+Luc misses
+Runika moves:
+
+....LR.
+
+Runika misses
 Luc gains 1 Time token
 
 Beat 9
@@ -474,57 +535,61 @@ Beat 9
 Luc
 ---
 life: 11
-discard 1: Memento Dash
+discard 1: Chrono Flash
 discard 2: Fusion Grasp
 special action
-5 Time tokens
+2 Time tokens
 
 Runika
 ------
-life: 18
-discard 1: Maintenance Grasp
-discard 2: Channeled Shot
+life: 19
+discard 1: Impact Burst
+discard 2: Explosive Dash
 special action
-No active artifacts
+Active artifacts: 
+  Autodeflector
+  Phase Goggles
 Removed artifacts: 
   Hover Boots
+  Shield Amulet
 
 
-R.....L
-
-Unbeatable strategy for Runika: Explosive Tinker: -0.02
-Unbeatable strategy for Runika: Explosive Strike: -0.15
-Unbeatable strategy for Runika: Overcharged Strike: -0.05
+....LR.
 
 Luc:
-2% Eternal Flash
-11% Chrono Shot
-87% Chrono Burst
+62% Eternal Shot
+1% Memento Strike
+37% Feinting Burst
 
 Runika:
-39% Impact Dash
-52% Overcharged Tinker
-9% Overcharged Strike
+0% Channeled Strike
+6% Channeled Drive
+94% Maintenance Tinker
 
 
-Luc: Chrono Burst
-Runika: Overcharged Tinker
+Luc: Feinting Burst
+Runika: Maintenance Tinker
 
-Priorities:  2 | 3
+Priorities:  -1 | 2
 Runika is active
-No active artifacts to overcharge
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
 Luc moves:
 
-R..L...
+..L..R.
 
 Runika misses
-Autodeflector is activated
+Runika moves:
+
+..L...R
+
+Battlefist is activated
 Luc hits
-Autodeflector is de-activated
-Runika takes 3 damage (now at 15 life)
+Battlefist is de-activated
+Runika has 3 soak
+Runika takes 0 damage (now at 19 life)
+Luc moves:
+
+....L.R
+
 Luc gains 1 Time token
 
 Beat 10
@@ -533,60 +598,56 @@ Beat 10
 Luc
 ---
 life: 11
-discard 1: Chrono Burst
-discard 2: Memento Dash
+discard 1: Feinting Burst
+discard 2: Chrono Flash
 special action
 3 Time tokens
 
 Runika
 ------
-life: 15
-discard 1: Overcharged Tinker
-discard 2: Maintenance Grasp
+life: 19
+discard 1: Maintenance Tinker
+discard 2: Impact Burst
 special action
-No active artifacts
+Active artifacts: 
+  Autodeflector
+  Phase Goggles
 Removed artifacts: 
   Hover Boots
+  Shield Amulet
 
 
-R..L...
+....L.R
 
-Unbeatable strategy for Luc: Eternal Shot: 0.11
-Unbeatable strategy for Luc: Fusion Drive: 0.13
+Unbeatable strategy for Luc: Eternal Shot: 0.74
 
 Luc:
-10% Eternal Shot
-25% Fusion Drive
-36% Fusion Drive
-28% Feinting Flash
+12% Eternal Strike
+41% Eternal Shot
+13% Eternal Drive
+34% Fusion Drive
 
 Runika:
-18% Channeled Strike
-58% Channeled Shot
-13% Channeled Drive
-11% Explosive Strike
+3% Channeled Strike
+2% Channeled Drive
+1% Channeled Grasp
+95% Explosive Dash
 
 
-Luc: Feinting Flash
-Runika: Channeled Shot
+Luc: Fusion Drive
+Runika: Explosive Dash
 
-Luc antes a Time token
-Priorities:  5 | 3
-Luc is active
+Priorities:  5 | 9
+Runika is active
+Runika moves:
+
+..R.L..
+
 Luc moves:
 
-R.L....
+.LR....
 
-Autodeflector is activated
-Luc hits
-Autodeflector is de-activated
-Runika takes 1 damage (now at 14 life)
-Runika is stunned
-Luc moves:
-
-RL.....
-
-No artifacts to de-activate
+Luc misses
 Luc gains 1 Time token
 
 Beat 11
@@ -595,43 +656,62 @@ Beat 11
 Luc
 ---
 life: 11
-discard 1: Feinting Flash
-discard 2: Chrono Burst
+discard 1: Fusion Drive
+discard 2: Feinting Burst
 special action
-3 Time tokens
+4 Time tokens
 
 Runika
 ------
-life: 14
-discard 1: Channeled Shot
-discard 2: Overcharged Tinker
+life: 19
+discard 1: Explosive Dash
+discard 2: Maintenance Tinker
 special action
-No active artifacts
+Active artifacts: 
+  Autodeflector
+  Phase Goggles
 Removed artifacts: 
   Hover Boots
+  Shield Amulet
 
 
-RL.....
+.LR....
+
+Unbeatable strategy for Luc: Eternal Shot: 2.97
+Unbeatable strategy for Luc: Eternal Shot (1 token): 1.97
 
 Luc:
-18% Eternal Shot
-82% Eternal Dash
+13% Eternal Strike
+87% Eternal Shot
 
 Runika:
-71% Maintenance Strike
-29% Impact Drive
+86% Channeled Strike
+14% Channeled Burst
 
 
-Luc: Eternal Dash
-Runika: Maintenance Strike
+Luc: Eternal Shot
+Runika: Channeled Burst
 
-Priorities:  5 | 2
-Luc is active
-Luc moves:
+Priorities:  -2 | 2
+Runika is active
+Runika moves:
 
-R.L....
+.L..R..
 
-Runika misses
+Battlefist is activated
+Runika hits
+Luc spends a Time token
+Luc spends a Time token
+Luc spends a Time token
+Luc spends a Time token
+Luc gains +4 soak (5 total)
+Luc has 5 soak
+Luc takes 0 damage (now at 11 life)
+Luc hits
+Autodeflector is de-activated
+Runika takes 3 damage (now at 16 life)
+Runika is stunned
+Battlefist is de-activated
 Luc gains 1 Time token
 
 Beat 12
@@ -640,54 +720,56 @@ Beat 12
 Luc
 ---
 life: 11
-discard 1: Eternal Dash
-discard 2: Feinting Flash
+discard 1: Eternal Shot
+discard 2: Fusion Drive
 special action
-4 Time tokens
+1 Time tokens
 
 Runika
 ------
-life: 14
-discard 1: Maintenance Strike
-discard 2: Channeled Shot
+life: 16
+discard 1: Channeled Burst
+discard 2: Explosive Dash
 special action
-No active artifacts
+Active artifacts: 
+  Phase Goggles
 Removed artifacts: 
   Hover Boots
+  Shield Amulet
 
 
-R.L....
+.L..R..
+
+Unbeatable strategy for Luc: Chrono Flash: 2.07
 
 Luc:
-4% Memento Shot
-46% Chrono Drive
-50% Chrono Burst
+4% Feinting Flash
+96% Chrono Flash
 
 Runika:
-1% Explosive Drive
-45% Explosive Dash
-52% Impact Dash
-2% Overcharged Tinker
+93% Maintenance Shot
+7% Maintenance Grasp
 
 
-Luc: Chrono Drive
-Runika: Impact Dash
+Luc: Chrono Flash
+Runika: Maintenance Shot
 
-Priorities:  5 | 9
-Runika is active
-Runika moves:
+Priorities:  7 | 1
+Luc is active
+Luc spends a Time token
+Luc moves:
 
-.RL....
-
-Runika moves:
-
-..LR...
+..L.R..
 
 Luc moves:
 
-...RL..
+...LR..
 
-Luc misses
+Luc hits
+Phase Goggles is de-activated
+Runika has 3 soak
+Runika takes 0 damage (now at 16 life)
+Runika is stunned
 Luc gains 1 Time token
 
 Beat 13
@@ -696,60 +778,52 @@ Beat 13
 Luc
 ---
 life: 11
-discard 1: Chrono Drive
-discard 2: Eternal Dash
+discard 1: Chrono Flash
+discard 2: Eternal Shot
 special action
-5 Time tokens
+1 Time tokens
 
 Runika
 ------
-life: 14
-discard 1: Impact Dash
-discard 2: Maintenance Strike
+life: 16
+discard 1: Maintenance Shot
+discard 2: Channeled Burst
 special action
 No active artifacts
 Removed artifacts: 
   Hover Boots
+  Shield Amulet
 
 
-...RL..
+...LR..
 
 Luc:
-6% Memento Flash
-15% Memento Strike
-3% Fusion Flash
-3% Fusion Flash
-41% Fusion Shot
-33% Fusion Grasp
+6% Memento Drive
+27% Memento Burst
+67% Fusion Drive
+0% Feinting Burst
 
 Runika:
-22% Channeled Shot
-30% Channeled Drive
-29% Channeled Burst
-12% Channeled Grasp
-8% Overcharged Burst
+0% Explosive Tinker
+99% Explosive Dash
+1% Overcharged Tinker
+0% Overcharged Drive
 
 
-Luc: Fusion Grasp
-Runika: Channeled Drive
+Luc: Fusion Drive
+Runika: Explosive Dash
 
-Luc antes a Time token
-Priorities:  7 | 5
-Luc is active
-Autodeflector is activated
-Luc hits
-Luc moves Runika:
+Priorities:  5 | 9
+Runika is active
+Runika moves:
 
-..R.L..
+.R.L...
 
-Autodeflector is de-activated
-Runika takes 1 damage (now at 13 life)
-Luc moves Runika:
+Luc moves:
 
-.R..L..
+.RL....
 
-Runika is stunned
-No artifacts to de-activate
+Luc misses
 Luc gains 1 Time token
 
 Beat 14
@@ -758,167 +832,96 @@ Beat 14
 Luc
 ---
 life: 11
-discard 1: Fusion Grasp
-discard 2: Chrono Drive
+discard 1: Fusion Drive
+discard 2: Chrono Flash
 special action
-5 Time tokens
+2 Time tokens
 
 Runika
 ------
-life: 13
-discard 1: Channeled Drive
-discard 2: Impact Dash
+life: 16
+discard 1: Explosive Dash
+discard 2: Maintenance Shot
 special action
 No active artifacts
 Removed artifacts: 
   Hover Boots
+  Shield Amulet
+
+
+.RL....
+
+Luc:
+46% Eternal Shot
+24% Eternal Burst
+11% Memento Grasp (1 token)
+19% Feinting Dash
+
+Runika:
+20% Channeled Tinker
+18% Channeled Strike
+52% Channeled Drive
+10% Channeled Burst
+
+
+Luc: Eternal Burst
+Runika: Channeled Strike
+
+Priorities:  -3 | 4
+Runika is active
+Autodeflector is activated
+Luc moves:
+
+.R..L..
+
+Runika misses
+Luc hits
+Autodeflector is de-activated
+Runika takes 3 damage (now at 13 life)
+No artifacts to de-activate
+Luc gains 1 Time token
+
+Beat 15
+-------
+
+Luc
+---
+life: 11
+discard 1: Eternal Burst
+discard 2: Fusion Drive
+special action
+3 Time tokens
+
+Runika
+------
+life: 13
+discard 1: Channeled Strike
+discard 2: Explosive Dash
+special action
+No active artifacts
+Removed artifacts: 
+  Hover Boots
+  Shield Amulet
 
 
 .R..L..
 
-Unbeatable strategy for Runika: Maintenance Tinker: -0.53
+Unbeatable strategy for Runika: Maintenance Tinker: -16.00
+Unbeatable strategy for Runika: Maintenance Shot: -16.00
+Unbeatable strategy for Runika: Maintenance Drive: -16.00
+Unbeatable strategy for Runika: Maintenance Burst: -16.00
+Unbeatable strategy for Runika: Maintenance Grasp: -16.00
 
 Luc:
-32% Eternal Flash
-5% Eternal Burst
-5% Eternal Burst
-2% Memento Burst
-1% Memento Burst
-3% Feinting Flash
-6% Feinting Flash
-2% Feinting Shot
-42% Feinting Shot
+100% Special Pulse
 
 Runika:
-26% Maintenance Tinker
-68% Maintenance Strike
-2% Explosive Tinker
-5% Overcharged Shot
-
-
-Luc: Feinting Shot
-Runika: Maintenance Tinker
-
-Priorities:  0 | 2
-Runika is active
-Runika misses
-Runika moves:
-
-R...L..
-
-Autodeflector is activated
-Luc hits
-Autodeflector is de-activated
-Runika has 4 soak
-Runika takes 0 damage (now at 13 life)
-Luc moves:
-
-R.L....
-
-
-Beat 15
--------
-
-Luc
----
-life: 11
-discard 1: Feinting Shot
-discard 2: Fusion Grasp
-special action
-5 Time tokens
-
-Runika
-------
-life: 13
-discard 1: Maintenance Tinker
-discard 2: Channeled Drive
-special action
-No active artifacts
-Removed artifacts: 
-  Hover Boots
-
-
-R.L....
-
-Unbeatable strategy for Luc: Eternal Burst: 18.00
-Unbeatable strategy for Luc: Memento Burst: 18.00
-
-Luc:
-8% Eternal Burst
-34% Memento Drive
-8% Memento Burst
-33% Memento Dash
-16% Chrono Strike
-
-Runika:
-0% Explosive Strike
-0% Explosive Grasp
-6% Explosive Dash
-0% Impact Strike
-1% Impact Shot
-0% Impact Burst
-2% Impact Grasp
-6% Impact Dash
-0% Overcharged Strike
-0% Overcharged Grasp
-83% Special Pulse
-
-
-Luc: Memento Dash
-Runika: Special Pulse
-
-Luc antes a Time token
-Pulse:
-
-.L....R
-
-
-Beat 15
--------
-
-Luc
----
-life: 11
-discard 1: Memento Dash
-discard 2: Feinting Shot
-special action
-4 Time tokens
-
-Runika
-------
-life: 13
-discard 1: Maintenance Tinker
-discard 2: Channeled Drive
-No active artifacts
-Removed artifacts: 
-  Hover Boots
-
-
-.L....R
-
-Unbeatable strategy for Runika: Impact Dash: -16.00
-
-Luc:
-0% Eternal Drive
-0% Eternal Burst
-0% Fusion Burst
-0% Chrono Strike
-0% Chrono Drive
-0% Chrono Drive
-0% Chrono Drive
-0% Chrono Burst
-1% Chrono Burst
-0% Chrono Burst
-97% Special Pulse
-
-Runika:
-37% Impact Strike
-37% Impact Shot
-26% Impact Dash
+88% Maintenance Grasp
+12% Overcharged Grasp
 
 
 Luc: Special Pulse
-Runika: Impact Dash
+Runika: Maintenance Grasp
 
 Pulse:
 
@@ -931,65 +934,80 @@ Beat 15
 Luc
 ---
 life: 11
-discard 1: Memento Dash
-discard 2: Feinting Shot
-4 Time tokens
+discard 1: Eternal Burst
+discard 2: Fusion Drive
+3 Time tokens
 
 Runika
 ------
 life: 13
-discard 1: Impact Dash
-discard 2: Maintenance Tinker
+discard 1: Maintenance Grasp
+discard 2: Channeled Strike
+special action
 No active artifacts
 Removed artifacts: 
   Hover Boots
+  Shield Amulet
 
 
 RL.....
 
+Unbeatable strategy for Runika: Explosive Dash: -16.00
+Unbeatable strategy for Runika: Impact Dash: -16.00
+Unbeatable strategy for Runika: Overcharged Dash: -16.00
+
 Luc:
-10% Eternal Strike
-19% Eternal Drive
-5% Eternal Burst
-5% Eternal Burst
-6% Eternal Burst
-8% Fusion Drive
-4% Fusion Burst
-5% Fusion Burst
-4% Fusion Burst
-23% Chrono Drive
-4% Chrono Burst
-4% Chrono Burst
-4% Chrono Burst
+67% Memento Dash (1 token)
+33% Chrono Strike (1 token)
 
 Runika:
-50% Channeled Strike
-29% Channeled Drive
-13% Explosive Drive
-8% Overcharged Drive
+2% Explosive Tinker
+2% Explosive Shot
+3% Explosive Drive
+2% Explosive Burst
+3% Impact Tinker
+2% Impact Shot
+3% Impact Drive
+2% Impact Burst
+3% Overcharged Tinker
+4% Overcharged Shot
+5% Overcharged Drive
+2% Overcharged Burst
+67% Overcharged Dash
 
 
-Luc: Eternal Burst
-Runika: Channeled Drive
+Luc: Memento Dash (1 token)
+Runika: Overcharged Dash
 
 Luc antes a Time token
-Priorities:  -2 | 5
+Priorities:  9 | 9
+Clash!
+
+Luc:
+24% Memento Strike (1 token)
+26% Memento Shot (1 token)
+50% Memento Grasp (1 token)
+
+Runika:
+50% Overcharged Shot
+50% Overcharged Drive
+
+
+Luc: Memento Shot (1 token)
+Runika: Overcharged Drive
+
+Luc antes a Time token
+Priorities:  2 | 4
 Runika is active
-Autodeflector is activated
-Luc moves:
-
-R.L....
-
+No active artifacts to overcharge
 Runika moves:
 
-.RL....
+.LR....
 
 Runika hits
-Luc has 1 soak
 Luc takes 3 damage (now at 8 life)
 Luc is stunned
-Autodeflector is de-activated
 Luc gains 1 Time token
 Game goes to time
 RUNIKA WINS!
-total_time: 59
+total_time: 46

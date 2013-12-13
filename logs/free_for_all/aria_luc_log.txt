@@ -31,60 +31,44 @@ special action
 .......
 
 Aria:
-7% Photovoltaic Reconfiguration
-37% Photovoltaic Drive
-14% Photovoltaic Burst
-30% Catalyst Reconfiguration
-12% Catalyst Burst
+4% Photovoltaic Reconfiguration
+22% Photovoltaic Drive
+1% Photovoltaic Burst
+33% Catalyst Reconfiguration
+25% Catalyst Shot
+16% Dimensional Reconfiguration
 
 Luc:
-9% Memento Drive
-35% Feinting Drive
-35% Feinting Dash
-7% Chrono Drive
-13% Chrono Drive
+10% Memento Drive
+5% Feinting Shot
+42% Feinting Dash
+19% Feinting Dash (1 token)
+3% Chrono Drive
+20% Chrono Drive (1 token)
 
 
-Aria: Catalyst Reconfiguration
-Luc: Chrono Drive
+Aria: Catalyst Shot
+Luc: Feinting Dash (1 token)
 
+Luc antes a Time token
 Aria gets +4 priority
-Priorities:  8 | 5
-Aria is active
-Luc spends a Time token
-Luc spends a Time token
+Priorities:  7 | 8
+Luc is active
 Luc moves:
 
-.A.L...
+.AL....
 .......
-.m.....
-.......
-
-Aria moves:
-
-...LA..
-.......
-.m.....
-.......
-
-Aria adds her Dampening droid:
-
-...LA..
-.....d.
 .m.....
 .......
 
 Aria misses
 Luc moves:
 
-....AL.
-.....d.
+LA.....
+.......
 .m.....
 .......
 
-Luc hits
-Aria takes 2 damage (now at 18 life)
-Aria is stunned
 Luc gains 1 Time token
 
 Beat 2
@@ -92,70 +76,82 @@ Beat 2
 
 Aria
 ----
-life: 18
-discard 1: Catalyst Reconfiguration
+life: 20
+discard 1: Catalyst Shot
 discard 2: Laser Grasp
 special action
 
 Luc
 ---
 life: 20
-discard 1: Chrono Drive
+discard 1: Feinting Dash
 discard 2: Eternal Flash
 special action
-1 Time tokens
+2 Time tokens
 
 
-....AL.
-.....d.
+LA.....
+.......
 .m.....
 .......
+
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 2.35
 
 Aria:
-46% Photovoltaic Drive
-25% Photovoltaic Burst
-29% Photovoltaic Dash
+3% Photovoltaic Reconfiguration
+10% Photovoltaic Strike
+14% Photovoltaic Burst
+73% Dimensional Reconfiguration
 
 Luc:
-4% Memento Strike
-13% Fusion Strike
-83% Feinting Dash
+20% Memento Strike
+51% Memento Drive
+9% Chrono Drive
+20% Chrono Drive (1 token)
 
 
-Aria: Photovoltaic Drive
-Luc: Feinting Dash
+Aria: Photovoltaic Burst
+Luc: Memento Drive
 
-Priorities:  5 | 7
-Luc is active
-Luc moves:
+Priorities:  2 | 2
+Clash!
 
-...LA..
-.....d.
-.m.....
-.......
+Aria:
+100% Photovoltaic Reconfiguration
 
+Luc:
+22% Memento Strike
+78% Memento Grasp
+
+
+Aria: Photovoltaic Reconfiguration
+Luc: Memento Strike
+
+Priorities:  4 | 1
+Aria is active
 Aria moves:
 
-.A.L...
-.....d.
+L.....A
+.......
 .m.....
 .......
 
-Aria misses
 Aria adds her Turret droid:
 
-.A.L...
-.....d.
+L.....A
+.......
 .m.....
 .t.....
 
-Luc moves:
+Aria misses
+Aria adds her Dampening droid:
 
-.AL....
-.....d.
+L.....A
+......d
 .m.....
 .t.....
 
+Luc misses
 Luc loses 1 life (now at 19)
 Luc gains 1 Time token
 
@@ -164,62 +160,69 @@ Beat 3
 
 Aria
 ----
-life: 18
-discard 1: Photovoltaic Drive
-discard 2: Catalyst Reconfiguration
+life: 20
+discard 1: Photovoltaic Reconfiguration
+discard 2: Catalyst Shot
 special action
 
 Luc
 ---
 life: 19
-discard 1: Feinting Dash
-discard 2: Chrono Drive
+discard 1: Memento Strike
+discard 2: Feinting Dash
 special action
-2 Time tokens
+3 Time tokens
 
 
-.AL....
-.....d.
+L.....A
+......d
 .m.....
 .t.....
+
+Unbeatable strategy for Luc: Eternal Flash (3 tokens): -0.27
+Unbeatable strategy for Luc: Eternal Drive (3 tokens): -1.26
+Unbeatable strategy for Luc: Chrono Flash: -0.11
+Unbeatable strategy for Luc: Chrono Shot: -3.08
+Unbeatable strategy for Luc: Chrono Burst: -0.08
 
 Aria:
-41% Ionic Strike
-22% Ionic Burst
-38% Dimensional Dash
+3% Ionic Burst
+18% Laser Drive
+38% Dimensional Strike
+41% Dimensional Grasp
 
 Luc:
-61% Eternal Shot
-34% Eternal Burst
-5% Memento Strike
+4% Fusion Shot (3 tokens)
+85% Chrono Shot
+10% Chrono Drive
 
 
-Aria: Ionic Burst
-Luc: Eternal Shot
+Aria: Dimensional Grasp
+Luc: Chrono Shot
 
-Priorities:  2 | -3
+Priorities:  9 | 2
 Aria is active
-Aria moves Luc:
+Luc spends a Time token
+Luc spends a Time token
+Luc moves:
 
-LA.....
-.....d.
+..L...A
+......d
 .m.....
 .t.....
 
+Aria misses
+Luc hits
+Aria takes 3 damage (now at 17 life)
+Aria is stunned
 Aria moves:
 
-L..A...
-.....d.
+..L..A.
+......d
 .m.....
 .t.....
 
-Aria hits
-Luc has 1 soak
-Luc takes 2 damage (now at 17 life)
-Luc hits
-Aria takes 3 damage (now at 15 life)
-Aria is stunned
-Luc loses 1 life (now at 16)
+Luc loses 1 life (now at 18)
 Luc gains 1 Time token
 
 Beat 4
@@ -227,66 +230,54 @@ Beat 4
 
 Aria
 ----
-life: 15
-discard 1: Ionic Burst
-discard 2: Photovoltaic Drive
+life: 17
+discard 1: Dimensional Grasp
+discard 2: Photovoltaic Reconfiguration
 special action
 
 Luc
 ---
-life: 16
-discard 1: Eternal Shot
-discard 2: Feinting Dash
+life: 18
+discard 1: Chrono Shot
+discard 2: Memento Strike
 special action
-3 Time tokens
+2 Time tokens
 
 
-L..A...
-.....d.
+..L..A.
+......d
 .m.....
 .t.....
 
+Unbeatable strategy for Luc: Eternal Dash: -1.21
+Unbeatable strategy for Luc: Eternal Dash (1 token): -0.11
+
 Aria:
-8% Catalyst Strike
-78% Dimensional Reconfiguration
-13% Dimensional Strike
+40% Ionic Burst
+23% Laser Strike
+27% Laser Drive
+10% Catalyst Burst
 
 Luc:
-29% Memento Drive
-13% Chrono Strike
-57% Chrono Drive
+29% Eternal Drive
+57% Eternal Dash
+2% Fusion Drive (1 token)
+12% Feinting Burst
 
 
-Aria: Dimensional Reconfiguration
-Luc: Chrono Drive
+Aria: Laser Strike
+Luc: Eternal Dash
 
-Aria gets +2 power
-Priorities:  7 | 4
-Aria is active
-Aria moves:
+Priorities:  3 | 4
+Luc is active
+Luc moves:
 
-L...A..
-.....d.
+.....AL
+......d
 .m.....
 .t.....
 
 Aria misses
-Luc moves:
-
-..L.A..
-.....d.
-.m.....
-.t.....
-
-Luc misses
-Aria moves:
-
-..L...A
-.....d.
-.m.....
-.t.....
-
-Luc loses 1 life (now at 15)
 Luc gains 1 Time token
 
 Beat 5
@@ -294,63 +285,61 @@ Beat 5
 
 Aria
 ----
-life: 15
-discard 1: Dimensional Reconfiguration
-discard 2: Ionic Burst
+life: 17
+discard 1: Laser Strike
+discard 2: Dimensional Grasp
 special action
 
 Luc
 ---
-life: 15
-discard 1: Chrono Drive
-discard 2: Eternal Shot
+life: 18
+discard 1: Eternal Dash
+discard 2: Chrono Shot
 special action
-4 Time tokens
+3 Time tokens
 
 
-..L...A
-.....d.
+.....AL
+......d
 .m.....
 .t.....
 
-Unbeatable strategy for Luc: Fusion Flash: -0.51
-
 Aria:
-33% Photovoltaic Shot
-44% Photovoltaic Drive
-10% Photovoltaic Grasp
-13% Laser Shot
+12% Photovoltaic Shot
+0% Ionic Shot
+26% Ionic Drive
+62% Ionic Dash
 
 Luc:
-4% Fusion Flash
-50% Feinting Flash
-32% Feinting Burst
-13% Feinting Dash
+23% Memento Drive (1 token)
+57% Fusion Drive (1 token)
+10% Fusion Grasp
+11% Feinting Flash (1 token)
 
 
-Aria: Laser Shot
-Luc: Feinting Burst
+Aria: Ionic Drive
+Luc: Memento Drive (1 token)
 
-Priorities:  2 | -2
+Luc antes a Time token
+Priorities:  5 | 4
 Aria is active
-Luc moves:
+Aria moves Luc:
 
-.L....A
-.....d.
+....LA.
+......d
+.m.....
+.t.....
+
+Aria moves:
+
+..A.L..
+......d
 .m.....
 .t.....
 
 Aria hits
-Luc takes 3 damage (now at 12 life)
+Luc takes 3 damage (now at 15 life)
 Luc is stunned
-Luc loses 1 life (now at 11)
-Luc moves:
-
-...L..A
-.....d.
-.m.....
-.t.....
-
 Luc gains 1 Time token
 
 Beat 6
@@ -358,61 +347,54 @@ Beat 6
 
 Aria
 ----
-life: 15
-discard 1: Laser Shot
-discard 2: Dimensional Reconfiguration
+life: 17
+discard 1: Ionic Drive
+discard 2: Laser Strike
 special action
 
 Luc
 ---
-life: 11
-discard 1: Feinting Burst
-discard 2: Chrono Drive
+life: 15
+discard 1: Memento Drive
+discard 2: Eternal Dash
 special action
-5 Time tokens
+3 Time tokens
 
 
-...L..A
-.....d.
+..A.L..
+......d
 .m.....
 .t.....
 
 Aria:
-51% Photovoltaic Strike
-19% Ionic Burst
-30% Catalyst Grasp
+10% Photovoltaic Shot
+42% Photovoltaic Burst
+37% Photovoltaic Grasp
+11% Catalyst Dash
 
 Luc:
-59% Eternal Shot
-24% Eternal Dash
-17% Fusion Strike
+24% Fusion Shot
+15% Feinting Burst
+28% Chrono Flash
+33% Chrono Burst (1 token)
 
 
-Aria: Ionic Burst
-Luc: Fusion Strike
+Aria: Photovoltaic Grasp
+Luc: Chrono Flash
 
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  2 | 4
+Priorities:  6 | 7
 Luc is active
 Luc moves:
 
-.....LA
-.....d.
+..AL...
+......d
 .m.....
 .t.....
 
-Aria moves Luc:
-
-....L.A
-.....d.
-.m.....
-.t.....
-
-Luc misses
-Aria hits
-Luc takes 3 damage (now at 8 life)
+Luc hits
+Aria takes 1 damage (now at 16 life)
+Aria is stunned
+Aria is stunned
 Luc gains 1 Time token
 
 Beat 7
@@ -420,62 +402,57 @@ Beat 7
 
 Aria
 ----
-life: 15
-discard 1: Ionic Burst
-discard 2: Laser Shot
+life: 16
+discard 1: Photovoltaic Grasp
+discard 2: Ionic Drive
 special action
 
 Luc
 ---
-life: 8
-discard 1: Fusion Strike
-discard 2: Feinting Burst
+life: 15
+discard 1: Chrono Flash
+discard 2: Memento Drive
 special action
-3 Time tokens
+4 Time tokens
 
 
-....L.A
-.....d.
+..AL...
+......d
 .m.....
 .t.....
+
+Unbeatable strategy for Aria: Dimensional Dash: 0.88
 
 Aria:
-3% Photovoltaic Strike
-3% Photovoltaic Drive
-5% Dimensional Grasp
-89% Dimensional Dash
+6% Laser Strike
+15% Laser Burst
+77% Catalyst Dash
+2% Dimensional Dash
 
 Luc:
-33% Eternal Shot
-27% Memento Flash
-27% Chrono Flash
-13% Chrono Grasp
+47% Eternal Shot
+0% Fusion Dash
+38% Feinting Strike
+15% Feinting Shot
 
 
-Aria: Dimensional Dash
-Luc: Chrono Flash
+Aria: Catalyst Dash
+Luc: Feinting Strike
 
-Priorities:  13 | 7
+Priorities:  10 | 1
 Aria is active
-Luc moves:
-
-.....LA
-.....d.
-.m.....
-.t.....
-
 Aria moves:
 
-..A..L.
-.....d.
+A..L...
+......d
 .m.....
 .t.....
 
 Luc misses
-Aria moves:
+Luc moves:
 
-.A...L.
-.....d.
+AL.....
+......d
 .m.....
 .t.....
 
@@ -486,73 +463,61 @@ Beat 8
 
 Aria
 ----
-life: 15
-discard 1: Dimensional Dash
-discard 2: Ionic Burst
+life: 16
+discard 1: Catalyst Dash
+discard 2: Photovoltaic Grasp
 special action
 
 Luc
 ---
-life: 8
-discard 1: Chrono Flash
-discard 2: Fusion Strike
+life: 15
+discard 1: Feinting Strike
+discard 2: Chrono Flash
 special action
-4 Time tokens
+5 Time tokens
 
 
-.A...L.
-.....d.
+AL.....
+......d
 .m.....
 .t.....
 
 Aria:
-71% Photovoltaic Shot
-2% Photovoltaic Drive
-10% Laser Reconfiguration
-16% Laser Shot
+35% Laser Reconfiguration
+30% Laser Shot
+2% Laser Burst
+32% Dimensional Reconfiguration
 
 Luc:
-31% Eternal Shot
-60% Eternal Dash
-5% Memento Drive
-4% Feinting Drive
+46% Eternal Burst
+20% Eternal Burst (5 tokens)
+11% Memento Burst (5 tokens)
+0% Fusion Drive
+6% Fusion Drive (1 token)
+17% Fusion Burst (5 tokens)
 
 
-Aria: Photovoltaic Shot
-Luc: Eternal Shot
+Aria: Laser Burst
+Luc: Eternal Burst
 
-Priorities:  3 | -2
+Priorities:  1 | -4
 Aria is active
-Aria hits
-Aria removes her Magnetron droid:
+Luc moves:
 
-.A...L.
-.....d.
-.......
+A..L...
+......d
+.m.....
 .t.....
 
-Aria gets +1 power
-Aria removes her Turret droid:
-
-.A...L.
-.....d.
-.......
-.......
-
-Aria gets +1 power
+Aria hits
 Luc spends a Time token
-Luc gains +1 soak (2 total)
-Luc has 2 soak
-Luc takes 2 damage (now at 6 life)
-Aria adds her Magnetron droid:
-
-.A...L.
-.....d.
-.m.....
-.......
-
+Luc spends a Time token
+Luc gains +2 soak (3 total)
+Luc has 3 soak
+Luc takes 0 damage (now at 15 life)
 Luc hits
-Aria takes 2 damage (now at 13 life)
+Aria takes 3 damage (now at 13 life)
+Aria is stunned
 Luc gains 1 Time token
 
 Beat 9
@@ -561,83 +526,50 @@ Beat 9
 Aria
 ----
 life: 13
-discard 1: Photovoltaic Shot
-discard 2: Dimensional Dash
+discard 1: Laser Burst
+discard 2: Catalyst Dash
 special action
 
 Luc
 ---
-life: 6
-discard 1: Eternal Shot
-discard 2: Chrono Flash
+life: 15
+discard 1: Eternal Burst
+discard 2: Feinting Strike
 special action
 4 Time tokens
 
 
-.A...L.
-.....d.
+A..L...
+......d
 .m.....
-.......
+.t.....
 
 Aria:
-5% Laser Reconfiguration
-73% Catalyst Reconfiguration
-22% Catalyst Strike
+14% Photovoltaic Strike
+25% Photovoltaic Grasp
+18% Dimensional Shot
+43% Dimensional Grasp
 
 Luc:
-14% Feinting Drive
-14% Feinting Grasp
-72% Feinting Dash
+40% Fusion Dash
+6% Chrono Flash
+16% Chrono Shot (1 token)
+38% Chrono Drive (1 token)
 
 
-Aria: Catalyst Reconfiguration
-Luc: Feinting Dash
+Aria: Photovoltaic Grasp
+Luc: Fusion Dash
 
-Luc antes a Time token
-Aria gets +4 priority
-Priorities:  8 | 8
-Clash!
-
-Aria:
-59% Catalyst Drive
-41% Catalyst Burst
-
-Luc:
-39% Feinting Strike
-61% Feinting Burst
-
-
-Aria: Catalyst Drive
-Luc: Feinting Burst
-
-Luc antes a Time token
-Aria gets +4 priority
-Priorities:  9 | 0
-Aria is active
+Priorities:  6 | 10
+Luc is active
 Luc moves:
 
-.A....L
-.....d.
+A...L..
+......d
 .m.....
-.......
+.t.....
 
-Aria moves:
-
-...A..L
-.....d.
-.m.....
-.......
-
-Aria hits
-Luc takes 2 damage (now at 4 life)
-Luc is stunned
-Luc moves:
-
-...AL..
-.....d.
-.m.....
-.......
-
+Aria misses
 Luc gains 1 Time token
 
 Beat 10
@@ -646,105 +578,72 @@ Beat 10
 Aria
 ----
 life: 13
-discard 1: Catalyst Drive
-discard 2: Photovoltaic Shot
+discard 1: Photovoltaic Grasp
+discard 2: Laser Burst
 special action
 
 Luc
 ---
-life: 4
-discard 1: Feinting Burst
-discard 2: Eternal Shot
+life: 15
+discard 1: Fusion Dash
+discard 2: Eternal Burst
 special action
-4 Time tokens
+5 Time tokens
 
 
-...AL..
-.....d.
+A...L..
+......d
 .m.....
-.......
+.t.....
+
+Unbeatable strategy for Luc: Memento Shot (5 tokens): -1.00
+Unbeatable strategy for Luc: Feinting Shot (5 tokens): -1.50
+Unbeatable strategy for Luc: Chrono Strike: -0.93
+Unbeatable strategy for Luc: Chrono Strike (1 token): -0.63
+Unbeatable strategy for Luc: Chrono Strike (3 tokens): -0.38
+Unbeatable strategy for Luc: Chrono Shot (5 tokens): -0.85
+Unbeatable strategy for Luc: Chrono Drive: -0.33
+Unbeatable strategy for Luc: Chrono Drive (1 token): -0.33
 
 Aria:
-0% Ionic Reconfiguration
-9% Ionic Strike
-25% Ionic Burst
-6% Ionic Grasp
-59% Dimensional Reconfiguration
+18% Ionic Shot
+18% Ionic Drive
+35% Dimensional Reconfiguration
+4% Dimensional Shot
+25% Special Pulse
 
 Luc:
-5% Memento Drive
-22% Memento Dash
-9% Fusion Grasp
-13% Fusion Dash
-38% Chrono Flash
-13% Special Temporal Recursion
+19% Memento Shot
+31% Chrono Flash
+2% Chrono Strike
+5% Chrono Shot (1 token)
+44% Chrono Drive (1 token)
 
 
-Aria: Dimensional Reconfiguration
-Luc: Special Temporal Recursion
+Aria: Ionic Drive
+Luc: Chrono Drive (1 token)
 
-Priorities:  7 | 5
-Aria is active
-Aria moves:
-
-A...L..
-.....d.
-.m.....
-.......
-
-Aria adds her Turret droid:
-
-A...L..
-.....d.
-.m.....
-..t....
-
-Aria misses
-Luc moves:
+Luc antes a Time token
+Priorities:  5 | 6
+Luc is active
+Aria moves Luc:
 
 A..L...
-.....d.
+......d
 .m.....
-..t....
+.t.....
 
-Luc misses
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc attacks 4 more times
-Luc moves:
-
-A.L....
-.....d.
-.m.....
-..t....
-
-Luc misses
 Luc moves:
 
 AL.....
-.....d.
+......d
 .m.....
-..t....
+.t.....
 
 Luc hits
 Aria takes 3 damage (now at 10 life)
 Aria is stunned
-Luc hits
-Aria takes 3 damage (now at 7 life)
-Aria is stunned
-Luc hits
-Aria takes 3 damage (now at 4 life)
-Aria is stunned
-Aria moves:
-
-.L....A
-.....d.
-.m.....
-..t....
-
-Luc loses 1 life (now at 3)
+Luc loses 1 life (now at 14)
 Luc gains 1 Time token
 
 Beat 11
@@ -752,82 +651,408 @@ Beat 11
 
 Aria
 ----
-life: 4
-discard 1: Dimensional Reconfiguration
-discard 2: Catalyst Drive
+life: 10
+discard 1: Ionic Drive
+discard 2: Photovoltaic Grasp
 special action
 
 Luc
 ---
-life: 3
-discard 1: Feinting Burst
-discard 2: Eternal Shot
-1 Time tokens
+life: 14
+discard 1: Chrono Drive
+discard 2: Fusion Dash
+special action
+5 Time tokens
 
 
-.L....A
-.....d.
+AL.....
+......d
 .m.....
-..t....
+.t.....
 
 Aria:
-49% Laser Strike
+68% Dimensional Reconfiguration
+32% Special Pulse
+
+Luc:
+61% Eternal Burst
+35% Eternal Burst (5 tokens)
+2% Memento Burst
+2% Memento Burst (5 tokens)
+
+
+Aria: Special Pulse
+Luc: Eternal Burst
+
+Pulse:
+
+L.....A
+......d
+.m.....
+.t.....
+
+
+Beat 11
+-------
+
+Aria
+----
+life: 10
+discard 1: Ionic Drive
+discard 2: Photovoltaic Grasp
+
+Luc
+---
+life: 14
+discard 1: Eternal Burst
+discard 2: Chrono Drive
+special action
+5 Time tokens
+
+
+L.....A
+......d
+.m.....
+.t.....
+
+Unbeatable strategy for Luc: Memento Dash: -1.40
+Unbeatable strategy for Luc: Memento Dash (1 token): -1.00
+Unbeatable strategy for Luc: Memento Dash (3 tokens): -1.00
+Unbeatable strategy for Luc: Fusion Dash (3 tokens): -1.00
+Unbeatable strategy for Luc: Feinting Flash: -0.71
+Unbeatable strategy for Luc: Feinting Flash (1 token): -0.71
+Unbeatable strategy for Luc: Feinting Flash (3 tokens): -0.24
+Unbeatable strategy for Luc: Feinting Shot (3 tokens): -1.16
+Unbeatable strategy for Luc: Feinting Dash: -1.82
+Unbeatable strategy for Luc: Feinting Dash (1 token): -1.71
+Unbeatable strategy for Luc: Feinting Dash (3 tokens): -1.75
+
+Aria:
+3% Laser Reconfiguration
 40% Laser Shot
-12% Laser Burst
+9% Catalyst Reconfiguration
+49% Dimensional Reconfiguration
 
 Luc:
-40% Memento Drive
-31% Memento Drive
-30% Memento Grasp
+14% Memento Shot (3 tokens)
+28% Memento Dash (3 tokens)
+7% Feinting Flash
+51% Feinting Shot (3 tokens)
 
 
-Aria: Laser Strike
-Luc: Memento Drive
-
-Luc antes a Time token
-Priorities:  3 | 3
-Clash!
-
-Aria:
-28% Laser Shot
-72% Laser Grasp
-
-Luc:
-6% Memento Flash
-94% Memento Strike
-
-
-Aria: Laser Shot
-Luc: Memento Strike
+Aria: Dimensional Reconfiguration
+Luc: Feinting Shot (3 tokens)
 
 Luc antes a Time token
-Priorities:  2 | 2
-Clash!
-
-Aria:
-23% Laser Burst
-77% Laser Grasp
-
-Luc:
-23% Memento Flash
-77% Memento Grasp
-
-
-Aria: Laser Burst
-Luc: Memento Flash
-
 Luc antes a Time token
-Priorities:  1 | 5
-Luc is active
+Luc antes a Time token
+Priorities:  7 | -1
+Aria is active
 Luc moves:
 
 ..L...A
-.....d.
+......d
 .m.....
-..t....
+.t.....
+
+Aria moves:
+
+..LA...
+......d
+.m.....
+.t.....
+
+Aria misses
+Luc misses
+Aria moves:
+
+.AL....
+......d
+.m.....
+.t.....
+
+Luc loses 1 life (now at 13)
+Luc moves:
+
+LA.....
+......d
+.m.....
+.t.....
+
+Luc gains 1 Time token
+
+Beat 12
+-------
+
+Aria
+----
+life: 10
+discard 1: Dimensional Reconfiguration
+discard 2: Ionic Drive
+
+Luc
+---
+life: 13
+discard 1: Feinting Shot
+discard 2: Eternal Burst
+special action
+3 Time tokens
+
+
+LA.....
+......d
+.m.....
+.t.....
+
+Aria:
+21% Photovoltaic Strike
+30% Photovoltaic Grasp
+30% Laser Burst
+14% Laser Dash
+5% Catalyst Shot
+
+Luc:
+3% Memento Strike
+6% Memento Drive
+65% Memento Dash
+9% Chrono Drive
+17% Chrono Dash
+
+
+Aria: Laser Dash
+Luc: Chrono Drive
+
+Priorities:  9 | 4
+Aria is active
+Aria moves:
+
+L...A..
+......d
+.m.....
+.t.....
+
+Luc moves:
+
+..L.A..
+......d
+.m.....
+.t.....
 
 Luc misses
+Luc loses 1 life (now at 12)
+Luc gains 1 Time token
+
+Beat 13
+-------
+
+Aria
+----
+life: 10
+discard 1: Laser Dash
+discard 2: Dimensional Reconfiguration
+
+Luc
+---
+life: 12
+discard 1: Chrono Drive
+discard 2: Feinting Shot
+special action
+4 Time tokens
+
+
+..L.A..
+......d
+.m.....
+.t.....
+
+Unbeatable strategy for Luc: Memento Dash: -1.17
+Unbeatable strategy for Luc: Memento Dash (1 token): -0.77
+Unbeatable strategy for Luc: Memento Dash (3 tokens): -0.09
+Unbeatable strategy for Luc: Fusion Dash (3 tokens): -0.09
+
+Aria:
+2% Ionic Burst
+5% Catalyst Shot
+0% Catalyst Drive
+92% Catalyst Burst
+
+Luc:
+2% Eternal Burst (3 tokens)
+1% Memento Strike (1 token)
+94% Memento Dash
+3% Fusion Burst (1 token)
+
+
+Aria: Catalyst Burst
+Luc: Memento Dash
+
+Priorities:  2 | 7
+Luc is active
+Aria moves:
+
+..L...A
+......d
+.m.....
+.t.....
+
+Luc moves:
+
+.....LA
+......d
+.m.....
+.t.....
+
+Aria misses
+Luc gains 1 Time token
+
+Beat 14
+-------
+
+Aria
+----
+life: 10
+discard 1: Catalyst Burst
+discard 2: Laser Dash
+
+Luc
+---
+life: 12
+discard 1: Memento Dash
+discard 2: Chrono Drive
+special action
+5 Time tokens
+
+
+.....LA
+......d
+.m.....
+.t.....
+
+Aria:
+2% Photovoltaic Reconfiguration
+32% Photovoltaic Strike
+1% Photovoltaic Shot
+44% Photovoltaic Drive
+22% Ionic Shot
+
+Luc:
+15% Eternal Shot
+36% Eternal Burst
+6% Eternal Burst (5 tokens)
+11% Fusion Strike (5 tokens)
+32% Fusion Burst (5 tokens)
+
+
+Aria: Photovoltaic Strike
+Luc: Eternal Shot
+
+Priorities:  4 | -2
+Aria is active
 Aria hits
-Luc takes 3 damage (now at 0 life)
-ARIA WINS!
-total_time: 67
+Aria removes her Turret droid:
+
+.....LA
+......d
+.m.....
+.......
+
+Aria gets +1 power
+Luc spends a Time token
+Luc spends a Time token
+Luc spends a Time token
+Luc gains +3 soak (4 total)
+Luc has 4 soak
+Luc takes 0 damage (now at 12 life)
+Aria adds her Turret droid:
+
+.....LA
+......d
+.m.....
+......t
+
+Luc hits
+Aria takes 2 damage (now at 8 life)
+Luc loses 1 life (now at 11)
+Luc gains 1 Time token
+
+Beat 15
+-------
+
+Aria
+----
+life: 8
+discard 1: Photovoltaic Strike
+discard 2: Catalyst Burst
+
+Luc
+---
+life: 11
+discard 1: Eternal Shot
+discard 2: Memento Dash
+special action
+3 Time tokens
+
+
+.....LA
+......d
+.m.....
+......t
+
+Unbeatable strategy for Luc: Fusion Drive (1 token): -13.00
+Unbeatable strategy for Luc: Fusion Drive (3 tokens): -13.00
+Unbeatable strategy for Luc: Chrono Drive: -13.00
+Unbeatable strategy for Luc: Chrono Drive (1 token): -13.00
+Unbeatable strategy for Luc: Chrono Drive (3 tokens): -13.00
+
+Aria:
+24% Ionic Shot
+24% Ionic Drive
+47% Ionic Grasp
+5% Laser Shot
+
+Luc:
+4% Fusion Strike
+5% Fusion Strike (1 token)
+4% Fusion Strike (3 tokens)
+24% Fusion Drive (1 token)
+4% Fusion Drive (3 tokens)
+3% Fusion Burst (1 token)
+11% Feinting Flash (1 token)
+4% Chrono Strike
+5% Chrono Strike (1 token)
+4% Chrono Strike (3 tokens)
+4% Chrono Drive
+24% Chrono Drive (1 token)
+4% Chrono Drive (3 tokens)
+3% Chrono Burst (1 token)
+
+
+Aria: Ionic Drive
+Luc: Fusion Drive (1 token)
+
+Luc antes a Time token
+Priorities:  5 | 6
+Luc is active
+Aria moves Luc:
+
+....L.A
+......d
+.m.....
+......t
+
+Luc moves:
+
+.....LA
+......d
+.m.....
+......t
+
+Luc hits
+Aria takes 1 damage (now at 7 life)
+Aria loses 2 life (now at 5)
+Aria is stunned
+Luc loses 1 life (now at 10)
+Luc gains 1 Time token
+Game goes to time
+LUC WINS!
+total_time: 73

@@ -28,40 +28,50 @@ special action
 
 .C...L.
 
-Unbeatable strategy for Luc: Memento Burst: -0.29
-
 Cesar:
-17% Phalanx Suppression
-5% Phalanx Shot
-65% Bulwark Shot
-13% Bulwark Drive
+22% Phalanx Suppression
+1% Phalanx Drive
+56% Bulwark Shot
+10% Bulwark Drive
+11% Inevitable Shot
 
 Luc:
-65% Memento Burst
-19% Feinting Drive
-16% Feinting Burst
-1% Chrono Shot
+26% Memento Shot
+47% Memento Burst
+10% Feinting Drive
+11% Feinting Burst
+5% Chrono Shot
 
 
-Cesar: Bulwark Shot
-Luc: Feinting Drive
+Cesar: Phalanx Suppression
+Luc: Memento Burst
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 2
-Luc is active
-Luc moves:
+Priorities:  0 | 0
+Clash!
 
-.C.L...
+Cesar:
+67% Phalanx Shot
+33% Phalanx Drive
 
-Luc hits
-Cesar takes 3 damage (now at 17 life)
+Luc:
+44% Memento Shot
+56% Memento Drive
+
+
+Cesar: Phalanx Drive
+Luc: Memento Shot
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  2 | 1
+Cesar is active
+Cesar moves:
+
+...C.L.
+
 Cesar hits
 Luc takes 4 damage (now at 16 life)
 Luc is stunned
-Luc moves:
-
-.CL....
-
 Luc gains 1 Time token
 
 Beat 2
@@ -69,8 +79,8 @@ Beat 2
 
 Cesar
 -----
-life: 17
-discard 1: Bulwark Shot
+life: 20
+discard 1: Phalanx Drive
 discard 2: Fueled Strike
 special action
 Threat level: 1
@@ -78,35 +88,37 @@ Threat level: 1
 Luc
 ---
 life: 16
-discard 1: Feinting Drive
+discard 1: Memento Shot
 discard 2: Eternal Flash
 special action
 3 Time tokens
 
 
-.CL....
-
-Unbeatable strategy for Luc: Memento Dash: -0.06
+...C.L.
 
 Cesar:
-18% Phalanx Drive
-30% Unstoppable Burst
-20% Inevitable Suppression
-32% Inevitable Drive
+62% Unstoppable Shot
+15% Unstoppable Burst
+14% Bulwark Burst
+9% Inevitable Shot
 
 Luc:
-1% Memento Burst
-67% Memento Dash
-19% Chrono Shot
-12% Chrono Burst
+47% Feinting Strike (1 token)
+9% Feinting Strike (3 tokens)
+18% Feinting Burst (1 token)
+26% Chrono Drive
 
 
-Cesar: Inevitable Drive
-Luc: Memento Burst
+Cesar: Unstoppable Burst
+Luc: Chrono Drive
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  4 | 0
-Cesar is active
+Priorities:  -1 | 5
+Luc is active
+Cesar moves:
+
+.C...L.
+
 Luc moves:
 
 .C.L...
@@ -115,10 +127,9 @@ Cesar moves:
 
 ..CL...
 
-Cesar hits
-Luc is stunned
-Luc takes 5 damage (now at 11 life)
-Luc is stunned
+Luc hits
+Cesar takes 3 damage (now at 17 life)
+Cesar is stunned
 Luc gains 1 Time token
 
 Beat 3
@@ -127,17 +138,16 @@ Beat 3
 Cesar
 -----
 life: 17
-discard 1: Inevitable Drive
-discard 2: Bulwark Shot
+discard 1: Unstoppable Burst
+discard 2: Phalanx Drive
 special action
 Threat level: 2
-Opponent has -3 power this beat
 
 Luc
 ---
-life: 11
-discard 1: Memento Burst
-discard 2: Feinting Drive
+life: 16
+discard 1: Chrono Drive
+discard 2: Memento Shot
 special action
 4 Time tokens
 
@@ -145,43 +155,36 @@ special action
 ..CL...
 
 Cesar:
-46% Fueled Suppression
-25% Fueled Strike
-29% Fueled Grasp
+7% Fueled Suppression
+5% Fueled Strike
+51% Fueled Grasp
+13% Bulwark Shot
+24% Inevitable Shot
 
 Luc:
-54% Eternal Grasp
-22% Eternal Dash
-24% Fusion Dash
+52% Eternal Strike
+30% Eternal Burst
+5% Eternal Dash
+8% Fusion Burst (1 token)
+6% Fusion Dash
 
 
-Cesar: Fueled Suppression
-Luc: Eternal Grasp
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  1 | 1
-Clash!
-
-Cesar:
-45% Fueled Strike
-55% Fueled Grasp
-
-Luc:
-100% Eternal Dash
-
-
-Cesar: Fueled Strike
-Luc: Eternal Dash
+Cesar: Fueled Grasp
+Luc: Eternal Burst
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  2 | 5
-Luc is active
+Priorities:  4 | -3
+Cesar is active
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
 Luc moves:
 
-..C...L
+..C..L.
 
+Luc hits
+Cesar has 2 soak
+Cesar takes 1 damage (now at 16 life)
+Cesar is stunned
 Luc gains 1 Time token
 
 Beat 4
@@ -189,57 +192,59 @@ Beat 4
 
 Cesar
 -----
-life: 17
-discard 1: Fueled Strike
-discard 2: Inevitable Drive
+life: 16
+discard 1: Fueled Grasp
+discard 2: Unstoppable Burst
 special action
 Threat level: 4
 
 Luc
 ---
-life: 11
-discard 1: Eternal Dash
-discard 2: Memento Burst
+life: 16
+discard 1: Eternal Burst
+discard 2: Chrono Drive
 special action
 5 Time tokens
 
 
-..C...L
-
-Unbeatable strategy for Cesar: Bulwark Burst: 0.90
-
-Cesar:
-1% Unstoppable Suppression
-99% Bulwark Shot
-
-Luc:
-48% Feinting Shot
-52% Chrono Drive
-
-
-Cesar: Bulwark Shot
-Luc: Chrono Drive
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  0 | 5
-Luc is active
-Luc spends a Time token
-Luc moves:
-
 ..C..L.
 
+Cesar:
+12% Bulwark Drive
+52% Bulwark Dash
+20% Inevitable Drive
+15% Inevitable Dash
+
+Luc:
+5% Memento Shot (5 tokens)
+2% Fusion Shot (5 tokens)
+87% Feinting Flash (1 token)
+5% Feinting Shot (5 tokens)
+
+
+Cesar: Bulwark Dash
+Luc: Feinting Flash (1 token)
+
+Cesar gains a Threat Level (current level: 0)
+Luc antes a Time token
+Priorities:  7 | 5
+Cesar is active
 Luc moves:
 
-..CL...
+..C.L..
 
-Luc hits
-Cesar takes 3 damage (now at 14 life)
-Cesar hits
-Luc takes 3 damage (now at 8 life)
-Luc is stunned
 Cesar moves:
 
-.C.L...
+.C..L..
+
+Cesar moves:
+
+....LC.
+
+Luc misses
+Luc moves:
+
+.....CL
 
 Luc gains 1 Time token
 
@@ -248,53 +253,62 @@ Beat 5
 
 Cesar
 -----
-life: 14
-discard 1: Bulwark Shot
-discard 2: Fueled Strike
+life: 16
+discard 1: Bulwark Dash
+discard 2: Fueled Grasp
 special action
 Threat level: 0
 
 Luc
 ---
-life: 8
-discard 1: Chrono Drive
-discard 2: Eternal Dash
+life: 16
+discard 1: Feinting Flash
+discard 2: Eternal Burst
 special action
 5 Time tokens
 
 
-.C.L...
+.....CL
+
+Unbeatable strategy for Luc: Memento Drive (1 token): -0.40
 
 Cesar:
-43% Phalanx Drive
-7% Phalanx Grasp
-14% Unstoppable Suppression
-36% Inevitable Burst
+56% Phalanx Strike
+11% Inevitable Suppression
+32% Inevitable Drive
+2% Inevitable Burst
 
 Luc:
-11% Memento Shot
-25% Fusion Shot
-63% Fusion Burst
-1% Feinting Burst
+12% Memento Strike (1 token)
+31% Memento Drive (1 token)
+29% Memento Dash
+27% Fusion Strike (1 token)
 
 
-Cesar: Inevitable Burst
-Luc: Fusion Shot
+Cesar: Phalanx Strike
+Luc: Memento Drive (1 token)
 
 Cesar gains a Threat Level (current level: 1)
 Luc antes a Time token
 Priorities:  1 | 4
 Luc is active
-Cesar moves:
+Luc moves:
 
-C..L...
+....LC.
 
 Luc hits
-Cesar takes 2 damage (now at 12 life)
-Cesar loses 2 life (now at 10)
+Cesar takes 3 damage (now at 13 life)
+Luc spends a Time token
+Luc spends a Time token
+Luc attacks again
+Luc moves:
+
+.....CL
+
+Luc hits
+Cesar takes 3 damage (now at 10 life)
 Cesar hits
-Luc is stunned
-Luc takes 4 damage (now at 4 life)
+Luc takes 5 damage (now at 11 life)
 Luc is stunned
 Luc gains 1 Time token
 
@@ -304,50 +318,56 @@ Beat 6
 Cesar
 -----
 life: 10
-discard 1: Inevitable Burst
-discard 2: Bulwark Shot
+discard 1: Phalanx Strike
+discard 2: Bulwark Dash
 special action
 Threat level: 1
-Opponent has -3 power this beat
 
 Luc
 ---
-life: 4
-discard 1: Fusion Shot
-discard 2: Chrono Drive
+life: 11
+discard 1: Memento Drive
+discard 2: Feinting Flash
 special action
-5 Time tokens
+3 Time tokens
 
 
-C..L...
-
-Unbeatable strategy for Luc: Feinting Dash: -0.32
-Unbeatable strategy for Luc: Feinting Dash: -0.32
+.....CL
 
 Cesar:
-58% Unstoppable Suppression
-19% Unstoppable Drive
-5% Unstoppable Dash
-14% Fueled Drive
-4% Fueled Dash
+1% Unstoppable Suppression
+30% Unstoppable Shot
+9% Unstoppable Burst
+0% Fueled Suppression
+26% Inevitable Suppression
+10% Inevitable Drive
+10% Inevitable Burst
+15% Inevitable Grasp
 
 Luc:
-32% Eternal Strike
-12% Eternal Grasp
-10% Eternal Dash
-11% Eternal Dash
-9% Feinting Dash
-26% Feinting Dash
+12% Eternal Strike
+53% Eternal Dash
+9% Eternal Dash (1 token)
+2% Fusion Shot (3 tokens)
+6% Fusion Burst (3 tokens)
+3% Chrono Burst (3 tokens)
+15% Chrono Grasp
 
 
-Cesar: Unstoppable Suppression
-Luc: Eternal Grasp
+Cesar: Inevitable Drive
+Luc: Eternal Dash
 
 Cesar gains a Threat Level (current level: 2)
-Luc antes a Time token
-Priorities:  0 | 2
+Priorities:  4 | 5
 Luc is active
-Luc misses
+Luc moves:
+
+..L..C.
+
+Cesar moves:
+
+..LC...
+
 Cesar misses
 Luc gains 1 Time token
 
@@ -357,51 +377,50 @@ Beat 7
 Cesar
 -----
 life: 10
-discard 1: Unstoppable Suppression
-discard 2: Inevitable Burst
+discard 1: Inevitable Drive
+discard 2: Phalanx Strike
 special action
 Threat level: 2
 
 Luc
 ---
-life: 4
-discard 1: Eternal Grasp
-discard 2: Fusion Shot
+life: 11
+discard 1: Eternal Dash
+discard 2: Memento Drive
 special action
-5 Time tokens
+4 Time tokens
 
 
-C..L...
+..LC...
 
 Cesar:
-1% Phalanx Shot
-40% Fueled Strike
-59% Fueled Grasp
+43% Unstoppable Shot
+7% Unstoppable Burst
+20% Unstoppable Grasp
+30% Bulwark Burst
 
 Luc:
-76% Feinting Burst
-12% Chrono Drive
-13% Chrono Drive
+7% Fusion Burst
+15% Chrono Strike
+63% Chrono Shot
+15% Chrono Shot (1 token)
 
 
-Cesar: Fueled Grasp
-Luc: Feinting Burst
+Cesar: Bulwark Burst
+Luc: Chrono Strike
 
 Cesar gains a Threat Level (current level: 3)
-Luc antes a Time token
-Priorities:  4 | 0
-Cesar is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Luc moves:
+Priorities:  -1 | 4
+Luc is active
+Cesar moves:
 
-C...L..
+..L.C..
 
-Luc hits
-Cesar has 2 soak
-Cesar takes 1 damage (now at 9 life)
-Cesar is stunned
-Luc moves:
+Luc misses
+Cesar hits
+Luc takes 6 damage (now at 5 life)
+Luc is stunned
+Cesar moves:
 
 C.L....
 
@@ -412,17 +431,17 @@ Beat 8
 
 Cesar
 -----
-life: 9
-discard 1: Fueled Grasp
-discard 2: Unstoppable Suppression
+life: 10
+discard 1: Bulwark Burst
+discard 2: Inevitable Drive
 special action
-Threat level: 4
+Threat level: 3
 
 Luc
 ---
-life: 4
-discard 1: Feinting Burst
-discard 2: Eternal Grasp
+life: 5
+discard 1: Chrono Strike
+discard 2: Eternal Dash
 special action
 5 Time tokens
 
@@ -430,168 +449,214 @@ special action
 C.L....
 
 Cesar:
-11% Phalanx Shot
-16% Bulwark Shot
-1% Bulwark Dash
-72% Inevitable Dash
+23% Phalanx Strike
+20% Unstoppable Strike
+57% Unstoppable Shot
 
 Luc:
-46% Memento Dash
-48% Chrono Flash
-4% Chrono Strike
-1% Special Temporal Recursion
-1% Special Temporal Recursion
+11% Memento Shot
+88% Memento Shot (1 token)
+1% Memento Burst
 
 
-Cesar: Inevitable Dash
-Luc: Memento Dash
+Cesar: Unstoppable Shot
+Luc: Memento Shot (1 token)
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  9 | 8
-Cesar is active
-Cesar moves:
-
-..LC...
-
-Luc moves:
-
-L..C...
-
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Luc antes a Time token
+Priorities:  0 | 2
+Luc is active
+Luc hits
+Cesar has 2 soak
+Cesar takes 1 damage (now at 9 life)
+Luc spends a Time token
+Luc spends a Time token
+Luc attacks again
+Luc hits
+Cesar has 2 soak
+Cesar takes 1 damage (now at 8 life)
+Luc gains 1 Time token
 
 Beat 9
 -------
 
 Cesar
 -----
-life: 9
-discard 1: Inevitable Dash
-discard 2: Fueled Grasp
+life: 8
+discard 1: Unstoppable Shot
+discard 2: Bulwark Burst
+special action
+Threat level: 4
+
+Luc
+---
+life: 5
+discard 1: Memento Shot
+discard 2: Chrono Strike
+special action
+3 Time tokens
+
+
+C.L....
+
+Cesar:
+2% Phalanx Drive
+44% Phalanx Dash
+5% Fueled Strike
+10% Fueled Drive
+11% Inevitable Suppression
+28% Inevitable Dash
+
+Luc:
+11% Eternal Drive
+7% Eternal Burst
+2% Eternal Dash
+76% Fusion Flash
+3% Fusion Drive
+1% Special Temporal Recursion
+
+
+Cesar: Phalanx Dash
+Luc: Fusion Flash
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  7 | 7
+Clash!
+
+Cesar:
+60% Phalanx Strike
+40% Phalanx Drive
+
+Luc:
+14% Fusion Drive
+86% Fusion Burst
+
+
+Cesar: Phalanx Strike
+Luc: Fusion Drive
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  1 | 5
+Luc is active
+Luc moves:
+
+CL.....
+
+Luc hits
+Cesar takes 2 damage (now at 6 life)
+Cesar loses 2 life (now at 4)
+Cesar moves:
+
+.LC....
+
+Cesar hits
+Luc takes 4 damage (now at 1 life)
+Luc is stunned
+Luc gains 1 Time token
+
+Beat 10
+-------
+
+Cesar
+-----
+life: 4
+discard 1: Phalanx Strike
+discard 2: Unstoppable Shot
 special action
 Threat level: 0
 
 Luc
 ---
-life: 4
-discard 1: Memento Dash
-discard 2: Feinting Burst
+life: 1
+discard 1: Fusion Drive
+discard 2: Memento Shot
 special action
-5 Time tokens
+4 Time tokens
 
 
-L..C...
+.LC....
+
+Unbeatable strategy for Luc: Eternal Dash: -0.61
 
 Cesar:
-72% Unstoppable Burst
-13% Bulwark Shot
-14% Bulwark Drive
+13% Fueled Suppression
+6% Fueled Drive
+10% Bulwark Drive
+11% Bulwark Burst
+51% Bulwark Dash
+9% Special Level 4 Protocol
 
 Luc:
-2% Eternal Strike
-86% Eternal Grasp
-10% Special Temporal Recursion
-2% Special Temporal Recursion
+14% Eternal Strike
+13% Eternal Dash
+43% Eternal Dash (3 tokens)
+5% Chrono Strike (3 tokens)
+7% Chrono Burst
+17% Special Temporal Recursion
 
 
-Cesar: Unstoppable Burst
-Luc: Eternal Grasp
+Cesar: Fueled Drive
+Luc: Chrono Strike (3 tokens)
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  -1 | 1
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  3 | 4
 Luc is active
-Cesar moves:
-
-L....C.
-
-Luc misses
-Cesar misses
-
-Beat 10
--------
-
-Cesar
------
-life: 9
-discard 1: Unstoppable Burst
-discard 2: Inevitable Dash
-special action
-Threat level: 1
-
-Luc
----
-life: 4
-discard 1: Eternal Grasp
-discard 2: Memento Dash
-special action
-5 Time tokens
-
-
-L....C.
-
-Cesar:
-39% Fueled Drive
-0% Bulwark Strike
-19% Bulwark Shot
-41% Bulwark Grasp
-
-Luc:
-4% Feinting Shot
-8% Feinting Drive
-8% Chrono Shot
-80% Special Pulse
-
-
-Cesar: Bulwark Grasp
-Luc: Special Pulse
-
 Cesar gains a Threat Level (current level: 2)
-Pulse:
+Luc hits
+Cesar takes 4 damage (now at 0 life)
+Cesar is stunned
+Luc gains 1 Time token
 
-L..C...
-
-
-Beat 10
+Beat 11
 -------
 
 Cesar
 -----
-life: 9
-discard 1: Bulwark Grasp
-discard 2: Unstoppable Burst
+life: 1
+discard 1: Fueled Drive
+discard 2: Phalanx Strike
 special action
 Threat level: 2
+Defeat immunity used-up
 
 Luc
 ---
-life: 4
-discard 1: Eternal Grasp
-discard 2: Memento Dash
-5 Time tokens
+life: 1
+discard 1: Chrono Strike
+discard 2: Fusion Drive
+special action
+2 Time tokens
 
 
-L..C...
+.LC....
 
 Cesar:
-39% Phalanx Shot
-39% Phalanx Drive
-22% Inevitable Drive
+10% Unstoppable Suppression
+34% Unstoppable Burst
+45% Unstoppable Grasp
+11% Special Level 4 Protocol
 
 Luc:
-22% Fusion Strike
-39% Feinting Shot
-39% Feinting Drive
+25% Memento Burst
+1% Memento Grasp
+1% Memento Grasp (1 token)
+23% Memento Dash
+26% Special Pulse
+12% Special Temporal Recursion
+11% Special Temporal Recursion (1 token)
 
 
-Cesar: Phalanx Drive
-Luc: Feinting Shot
+Cesar: Unstoppable Suppression
+Luc: Memento Grasp
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  2 | 0
-Cesar is active
-Cesar moves:
-
-LC.....
-
-Cesar hits
-Luc takes 6 damage (now at 0 life)
-CESAR WINS!
-total_time: 63
+Priorities:  0 | 4
+Luc is active
+Luc hits
+Cesar takes 2 damage (now at 0 life)
+LUC WINS!
+total_time: 42

@@ -29,20 +29,20 @@ special action
 .A...L.
 
 Adjenna:
-29% Arresting Drive
-19% Arresting Dash
-3% Pacifying Gaze
-16% Pacifying Drive
-5% Pacifying Dash
-28% Irresistible Gaze
+31% Arresting Drive
+17% Arresting Dash
+4% Pacifying Gaze
+6% Pacifying Drive
+14% Irresistible Gaze
+29% Irresistible Shot
 
 Luc:
-2% Memento Shot
-3% Memento Dash
-2% Chrono Shot
+1% Memento Shot
+0% Memento Shot (1 token)
+4% Memento Dash
+3% Chrono Shot (1 token)
 4% Chrono Drive
-2% Chrono Dash
-87% Special Pulse
+88% Special Pulse
 
 
 Adjenna: Irresistible Gaze
@@ -75,24 +75,42 @@ discard 2: Fusion Strike
 A.....L
 
 Adjenna:
-35% Alluring Shot
-9% Alluring Grasp
-47% Arresting Shot
-8% Arresting Drive
+13% Alluring Shot
+27% Alluring Drive
+17% Arresting Shot
+43% Pacifying Drive
 
 Luc:
-12% Memento Shot
-9% Memento Grasp
-50% Feinting Shot
-29% Chrono Shot
+33% Memento Shot
+5% Memento Grasp
+22% Feinting Shot
+40% Chrono Shot
 
 
-Adjenna: Alluring Grasp
-Luc: Memento Shot
+Adjenna: Alluring Drive
+Luc: Chrono Shot
 
-Priorities:  4 | 1
+Priorities:  3 | 3
+Clash!
+
+Adjenna:
+14% Alluring Strike
+86% Alluring Dash
+
+Luc:
+86% Chrono Burst
+14% Chrono Grasp
+
+
+Adjenna: Alluring Dash
+Luc: Chrono Burst
+
+Priorities:  8 | 2
 Adjenna is active
-Adjenna misses
+Adjenna moves:
+
+..A...L
+
 Luc misses
 Luc gains 1 Time token
 
@@ -102,7 +120,7 @@ Beat 2
 Adjenna
 -------
 life: 20
-discard 1: Alluring Grasp
+discard 1: Alluring Dash
 discard 2: Irresistible Gaze
 special action
 0 Petrification markers on Luc
@@ -110,40 +128,55 @@ special action
 Luc
 ---
 life: 20
-discard 1: Memento Shot
+discard 1: Chrono Burst
 discard 2: Eternal Flash
 3 Time tokens
 
 
-A.....L
-
-Unbeatable strategy for Adjenna: Pacifying Dash: 0.79
+..A...L
 
 Adjenna:
-1% Arresting Dash
-1% Pacifying Dash
-87% Beckoning Strike
-11% Beckoning Drive
+1% Arresting Shot
+16% Arresting Burst
+16% Pacifying Strike
+54% Beckoning Drive
+13% Beckoning Grasp
 
 Luc:
-35% Fusion Strike
-27% Fusion Burst
-35% Fusion Grasp
-2% Feinting Drive
+35% Memento Shot
+7% Memento Drive
+14% Fusion Shot
+17% Fusion Shot (1 token)
+27% Fusion Shot (3 tokens)
 
 
-Adjenna: Beckoning Strike
-Luc: Fusion Strike
+Adjenna: Beckoning Drive
+Luc: Fusion Shot
 
-Priorities:  2 | 4
+Priorities:  3 | 3
+Clash!
+
+Adjenna:
+20% Beckoning Strike
+22% Beckoning Shot
+50% Beckoning Burst
+7% Beckoning Grasp
+
+Luc:
+36% Fusion Drive
+64% Fusion Dash
+
+
+Adjenna: Beckoning Shot
+Luc: Fusion Dash
+
+Priorities:  1 | 10
 Luc is active
-Luc misses
-Adjenna hits
-Adjenna moves Luc:
+Luc moves:
 
-A...L..
+..A.L..
 
-Luc takes 2 damage (now at 18 life)
+Adjenna misses
 Luc gains 1 Time token
 
 Beat 3
@@ -152,48 +185,56 @@ Beat 3
 Adjenna
 -------
 life: 20
-discard 1: Beckoning Strike
-discard 2: Alluring Grasp
+discard 1: Beckoning Shot
+discard 2: Alluring Dash
 special action
 0 Petrification markers on Luc
 
 Luc
 ---
-life: 18
-discard 1: Fusion Strike
-discard 2: Memento Shot
+life: 20
+discard 1: Fusion Dash
+discard 2: Chrono Burst
 4 Time tokens
 
 
-A...L..
+..A.L..
 
 Adjenna:
-66% Arresting Gaze
-16% Arresting Dash
-17% Pacifying Dash
+14% Arresting Strike
+10% Arresting Burst
+36% Pacifying Strike
+9% Pacifying Burst
+22% Irresistible Gaze
+9% Irresistible Burst
 
 Luc:
-61% Eternal Dash
-39% Chrono Drive
+10% Eternal Flash
+26% Eternal Strike (3 tokens)
+11% Eternal Grasp
+24% Memento Flash
+19% Memento Shot (1 token)
+11% Memento Drive (1 token)
 
 
-Adjenna: Arresting Gaze
-Luc: Eternal Dash
+Adjenna: Pacifying Strike
+Luc: Memento Flash
 
 Priorities:  3 | 5
 Luc is active
 Luc moves:
 
-A.....L
+..AL...
 
-Adjenna moves:
-
-..A...L
-
-Adjenna hits
-Luc receives a Petrification Marker
-Luc has 1 soak
-Luc takes 0 damage (now at 18 life)
+Luc hits
+Adjenna takes 1 damage (now at 19 life)
+Adjenna is stunned
+Luc spends a Time token
+Luc spends a Time token
+Luc attacks again
+Luc hits
+Adjenna takes 1 damage (now at 18 life)
+Adjenna is stunned
 Luc gains 1 Time token
 
 Beat 4
@@ -201,58 +242,58 @@ Beat 4
 
 Adjenna
 -------
-life: 20
-discard 1: Arresting Gaze
-discard 2: Beckoning Strike
+life: 18
+discard 1: Pacifying Strike
+discard 2: Beckoning Shot
 special action
-1 Petrification markers on Luc
+0 Petrification markers on Luc
 
 Luc
 ---
-life: 18
-discard 1: Eternal Dash
-discard 2: Fusion Strike
-5 Time tokens
+life: 20
+discard 1: Memento Flash
+discard 2: Fusion Dash
+3 Time tokens
 
 
-..A...L
-
-Unbeatable strategy for Adjenna: Irresistible Dash: 0.82
+..AL...
 
 Adjenna:
-6% Alluring Shot
-16% Alluring Drive
-21% Alluring Dash
-18% Pacifying Shot
-2% Irresistible Shot
-37% Irresistible Dash
+45% Alluring Drive
+5% Alluring Dash
+6% Arresting Burst
+12% Arresting Grasp
+20% Irresistible Drive
+12% Irresistible Burst
 
 Luc:
-8% Memento Shot
-35% Memento Drive
-22% Feinting Shot
-14% Feinting Drive
-17% Feinting Grasp
-4% Chrono Shot
+15% Eternal Strike
+8% Eternal Shot
+7% Feinting Strike
+28% Feinting Shot (3 tokens)
+15% Feinting Drive
+27% Feinting Grasp (3 tokens)
 
 
-Adjenna: Irresistible Dash
-Luc: Memento Shot
+Adjenna: Alluring Drive
+Luc: Feinting Shot (3 tokens)
 
-Priorities:  9 | 1
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  3 | 0
 Adjenna is active
 Adjenna moves:
 
-.....AL
+...LA..
 
-Luc hits
-Adjenna takes 3 damage (now at 17 life)
-Luc spends a Time token
-Luc spends a Time token
-Luc attacks again
-Luc hits
-Adjenna takes 3 damage (now at 14 life)
-Luc receives a Petrification Marker
+Adjenna hits
+Luc takes 2 damage (now at 18 life)
+Luc misses
+Luc moves:
+
+....A.L
+
 Luc gains 1 Time token
 
 Beat 5
@@ -260,65 +301,54 @@ Beat 5
 
 Adjenna
 -------
-life: 14
-discard 1: Irresistible Dash
-discard 2: Arresting Gaze
+life: 18
+discard 1: Alluring Drive
+discard 2: Pacifying Strike
 special action
-2 Petrification markers on Luc
+0 Petrification markers on Luc
 
 Luc
 ---
 life: 18
-discard 1: Memento Shot
-discard 2: Eternal Dash
-4 Time tokens
+discard 1: Feinting Shot
+discard 2: Memento Flash
+1 Time tokens
 
 
-.....AL
+....A.L
 
 Adjenna:
-29% Alluring Drive
-34% Alluring Grasp
-12% Pacifying Strike
-3% Pacifying Burst
-21% Beckoning Drive
+3% Arresting Burst
+1% Irresistible Gaze
+58% Irresistible Shot
+30% Irresistible Burst
+8% Beckoning Dash
 
 Luc:
-32% Fusion Drive
-15% Fusion Burst
-41% Feinting Strike
-11% Feinting Strike
-1% Feinting Grasp
+6% Eternal Strike
+46% Eternal Drive
+11% Eternal Dash
+9% Chrono Burst
+27% Chrono Dash
 
 
-Adjenna: Alluring Drive
-Luc: Fusion Burst
+Adjenna: Irresistible Burst
+Luc: Chrono Burst
 
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  3 | 2
-Adjenna is active
-Luc moves:
-
-...L.A.
-
-Luc moves:
-
-.L...A.
-
+Priorities:  1 | 2
+Luc is active
 Adjenna moves:
 
-.L.A...
+...A..L
+
+Luc hits
+Adjenna takes 3 damage (now at 15 life)
+Adjenna moves Luc:
+
+..LA...
 
 Adjenna misses
-Luc hits
-Adjenna takes 2 damage (now at 12 life)
-Luc moves Adjenna:
-
-.L...A.
-
-Adjenna is stunned
+Luc receives a Petrification Marker
 Luc gains 1 Time token
 
 Beat 6
@@ -326,56 +356,60 @@ Beat 6
 
 Adjenna
 -------
-life: 12
-discard 1: Alluring Drive
-discard 2: Irresistible Dash
+life: 15
+discard 1: Irresistible Burst
+discard 2: Alluring Drive
 special action
-2 Petrification markers on Luc
+1 Petrification markers on Luc
 
 Luc
 ---
 life: 18
-discard 1: Fusion Burst
-discard 2: Memento Shot
+discard 1: Chrono Burst
+discard 2: Feinting Shot
 2 Time tokens
 
 
-.L...A.
+..LA...
 
 Adjenna:
-38% Arresting Gaze
-14% Arresting Strike
-18% Arresting Shot
-2% Arresting Burst
-1% Pacifying Gaze
-27% Beckoning Grasp
+5% Arresting Gaze
+5% Arresting Strike
+3% Arresting Shot
+16% Arresting Grasp
+5% Arresting Dash
+7% Pacifying Strike
+17% Pacifying Grasp
+43% Pacifying Dash
 
 Luc:
-30% Feinting Drive
-9% Feinting Dash
-20% Chrono Flash
-16% Chrono Strike
-25% Chrono Drive
+15% Eternal Strike
+2% Eternal Grasp
+44% Eternal Dash
+4% Memento Strike
+12% Fusion Strike
+14% Fusion Strike (1 token)
+10% Fusion Drive (1 token)
 
 
-Adjenna: Arresting Strike
-Luc: Chrono Drive
+Adjenna: Pacifying Grasp
+Luc: Fusion Drive (1 token)
 
-Priorities:  2 | 5
+Luc antes a Time token
+Priorities:  5 | 6
 Luc is active
 Luc moves:
 
-..L..A.
+...AL..
 
-Luc misses
-Adjenna moves:
+Luc loses 1 life (now at 17)
+Luc hits
+Adjenna takes 2 damage (now at 13 life)
+Luc moves Adjenna:
 
-..LA...
+.A..L..
 
-Adjenna hits
-Luc takes 3 damage (now at 15 life)
-Luc is stunned
-Luc receives a Petrification Marker
+Adjenna is stunned
 Luc gains 1 Time token
 
 Beat 7
@@ -383,50 +417,46 @@ Beat 7
 
 Adjenna
 -------
-life: 12
-discard 1: Arresting Strike
-discard 2: Alluring Drive
+life: 13
+discard 1: Pacifying Grasp
+discard 2: Irresistible Burst
 special action
-3 Petrification markers on Luc
+1 Petrification markers on Luc
 
 Luc
 ---
-life: 15
-discard 1: Chrono Drive
-discard 2: Fusion Burst
-3 Time tokens
+life: 17
+discard 1: Fusion Drive
+discard 2: Chrono Burst
+2 Time tokens
 
 
-..LA...
+.A..L..
 
 Adjenna:
-17% Pacifying Gaze
-26% Pacifying Shot
-57% Pacifying Dash
+75% Alluring Drive
+16% Alluring Dash
+10% Beckoning Drive
 
 Luc:
-34% Eternal Shot
-11% Eternal Dash
-15% Memento Shot
-40% Memento Dash
+6% Eternal Dash
+8% Feinting Flash
+86% Feinting Dash
 
 
-Adjenna: Pacifying Gaze
-Luc: Memento Dash
+Adjenna: Alluring Drive
+Luc: Feinting Dash
 
-Priorities:  4 | 8
+Priorities:  3 | 7
 Luc is active
 Luc moves:
 
-.L.A...
+LA.....
 
-Luc loses 3 life (now at 12)
-Adjenna hits
-Luc receives a Petrification Marker
-Luc takes 0 damage (now at 12 life)
-Adjenna moves:
+Adjenna misses
+Luc moves:
 
-AL.....
+.A.L...
 
 Luc gains 1 Time token
 
@@ -435,46 +465,47 @@ Beat 8
 
 Adjenna
 -------
-life: 12
-discard 1: Pacifying Gaze
-discard 2: Arresting Strike
+life: 13
+discard 1: Alluring Drive
+discard 2: Pacifying Grasp
 special action
-4 Petrification markers on Luc
+1 Petrification markers on Luc
 
 Luc
 ---
-life: 12
-discard 1: Memento Dash
-discard 2: Chrono Drive
-4 Time tokens
+life: 17
+discard 1: Feinting Dash
+discard 2: Fusion Drive
+3 Time tokens
 
 
-AL.....
-
-Unbeatable strategy for Adjenna: Irresistible Dash: 3.38
+.A.L...
 
 Adjenna:
-0% Alluring Shot
-92% Irresistible Dash
-8% Beckoning Dash
+14% Arresting Burst
+22% Arresting Dash
+25% Irresistible Gaze
+38% Irresistible Shot
 
 Luc:
-23% Eternal Shot
-30% Fusion Shot
-47% Feinting Shot
+32% Eternal Strike (3 tokens)
+29% Eternal Shot (3 tokens)
+13% Eternal Burst
+25% Chrono Flash
 
 
-Adjenna: Irresistible Dash
-Luc: Fusion Shot
+Adjenna: Irresistible Shot
+Luc: Eternal Strike (3 tokens)
 
-Priorities:  9 | 3
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  2 | -1
 Adjenna is active
-Adjenna moves:
-
-.LA....
-
+Adjenna hits
+Luc has 1 soak
+Luc takes 2 damage (now at 15 life)
 Luc misses
-Luc receives a Petrification Marker
 Luc gains 1 Time token
 
 Beat 9
@@ -482,99 +513,48 @@ Beat 9
 
 Adjenna
 -------
-life: 12
-discard 1: Irresistible Dash
-discard 2: Pacifying Gaze
+life: 13
+discard 1: Irresistible Shot
+discard 2: Alluring Drive
 special action
-5 Petrification markers on Luc
+1 Petrification markers on Luc
 
 Luc
 ---
-life: 12
-discard 1: Fusion Shot
-discard 2: Memento Dash
-5 Time tokens
+life: 15
+discard 1: Eternal Strike
+discard 2: Feinting Dash
+1 Time tokens
 
 
-.LA....
+.A.L...
 
-Unbeatable strategy for Luc: Chrono Burst: -0.10
-
-Adjenna:
-7% Alluring Strike
-26% Alluring Drive
-2% Arresting Strike
-30% Arresting Drive
-27% Arresting Burst
-7% Arresting Grasp
-
-Luc:
-21% Eternal Strike
-4% Eternal Drive
-4% Feinting Burst
-4% Feinting Burst
-28% Feinting Burst
-25% Chrono Burst
-14% Chrono Burst
-
-
-Adjenna: Arresting Burst
-Luc: Eternal Strike
-
-Luc antes a Time token
-Priorities:  0 | 0
-Clash!
+Unbeatable strategy for Adjenna: Pacifying Dash: 1.34
 
 Adjenna:
-65% Arresting Strike
-35% Arresting Drive
+16% Pacifying Burst
+84% Pacifying Dash
 
 Luc:
-33% Eternal Flash
-67% Eternal Grasp
+31% Fusion Shot
+69% Chrono Flash
 
 
-Adjenna: Arresting Strike
-Luc: Eternal Grasp
+Adjenna: Pacifying Dash
+Luc: Fusion Shot
 
-Luc antes a Time token
-Priorities:  2 | 2
-Clash!
-
-Adjenna:
-24% Arresting Shot
-52% Arresting Drive
-24% Arresting Grasp
-
-Luc:
-48% Eternal Flash
-52% Eternal Drive
-
-
-Adjenna: Arresting Drive
-Luc: Eternal Drive
-
-Luc antes a Time token
-Priorities:  3 | 1
+Priorities:  9 | 3
 Adjenna is active
 Adjenna moves:
 
-AL.....
+A..L...
 
 Adjenna moves:
 
-.LA....
-
-Adjenna hits
-Luc spends a Time token
-Luc gains +1 soak (2 total)
-Luc has 2 soak
-Luc takes 0 damage (now at 12 life)
-Luc moves:
-
-..A.L..
+...LA..
 
 Luc misses
+Luc receives a Petrification Marker
 Luc gains 1 Time token
 
 Beat 10
@@ -582,57 +562,52 @@ Beat 10
 
 Adjenna
 -------
-life: 12
-discard 1: Arresting Drive
-discard 2: Irresistible Dash
+life: 13
+discard 1: Pacifying Dash
+discard 2: Irresistible Shot
 special action
-5 Petrification markers on Luc
+2 Petrification markers on Luc
 
 Luc
 ---
-life: 12
-discard 1: Eternal Drive
-discard 2: Fusion Shot
-4 Time tokens
+life: 15
+discard 1: Fusion Shot
+discard 2: Eternal Strike
+2 Time tokens
 
 
-..A.L..
+...LA..
+
+Unbeatable strategy for Luc: Feinting Dash: -0.52
+Unbeatable strategy for Luc: Feinting Dash (1 token): -0.12
 
 Adjenna:
-36% Pacifying Gaze
-12% Pacifying Strike
-9% Pacifying Shot
-27% Pacifying Burst
-16% Pacifying Grasp
+36% Alluring Gaze
+61% Alluring Drive
+2% Alluring Grasp
+1% Arresting Drive
 
 Luc:
-100% Feinting Dash
+7% Memento Dash
+0% Feinting Drive
+6% Feinting Grasp
+86% Feinting Dash
 
 
-Adjenna: Pacifying Burst
-Luc: Feinting Dash
+Adjenna: Alluring Drive
+Luc: Memento Dash
 
-Priorities:  1 | 7
+Priorities:  3 | 8
 Luc is active
-Adjenna moves:
-
-.A..L..
-
 Luc moves:
 
-.A....L
+L...A..
 
-Luc loses 5 life (now at 7)
+Adjenna moves:
+
+L.A....
+
 Adjenna misses
-Adjenna moves:
-
-...A..L
-
-Luc moves:
-
-...A.L.
-
-Luc loses 5 life (now at 2)
 Luc gains 1 Time token
 
 Beat 11
@@ -640,71 +615,404 @@ Beat 11
 
 Adjenna
 -------
-life: 12
-discard 1: Pacifying Burst
-discard 2: Arresting Drive
+life: 13
+discard 1: Alluring Drive
+discard 2: Pacifying Dash
 special action
-5 Petrification markers on Luc
+2 Petrification markers on Luc
 
 Luc
 ---
-life: 2
-discard 1: Feinting Dash
-discard 2: Eternal Drive
+life: 15
+discard 1: Memento Dash
+discard 2: Fusion Shot
+3 Time tokens
+
+
+L.A....
+
+Adjenna:
+4% Arresting Strike
+27% Arresting Burst
+9% Irresistible Gaze
+41% Irresistible Shot
+20% Beckoning Strike
+
+Luc:
+8% Eternal Strike
+50% Eternal Strike (3 tokens)
+16% Eternal Drive
+18% Eternal Burst
+8% Chrono Burst
+
+
+Adjenna: Irresistible Shot
+Luc: Eternal Strike
+
+Priorities:  2 | -1
+Adjenna is active
+Adjenna hits
+Luc has 1 soak
+Luc takes 2 damage (now at 13 life)
+Luc misses
+Luc gains 1 Time token
+
+Beat 12
+-------
+
+Adjenna
+-------
+life: 13
+discard 1: Irresistible Shot
+discard 2: Alluring Drive
+special action
+2 Petrification markers on Luc
+
+Luc
+---
+life: 13
+discard 1: Eternal Strike
+discard 2: Memento Dash
+4 Time tokens
+
+
+L.A....
+
+Adjenna:
+51% Pacifying Gaze
+49% Pacifying Strike
+
+Luc:
+25% Fusion Shot (1 token)
+75% Chrono Shot
+
+
+Adjenna: Pacifying Gaze
+Luc: Chrono Shot
+
+Priorities:  4 | 3
+Adjenna is active
+Luc spends a Time token
+Luc moves:
+
+.LA....
+
+Luc loses 2 life (now at 11)
+Adjenna misses
+Adjenna moves:
+
+AL.....
+
+Luc hits
+Adjenna takes 3 damage (now at 10 life)
+Adjenna is stunned
+Luc gains 1 Time token
+
+Beat 13
+-------
+
+Adjenna
+-------
+life: 10
+discard 1: Pacifying Gaze
+discard 2: Irresistible Shot
+special action
+2 Petrification markers on Luc
+
+Luc
+---
+life: 11
+discard 1: Chrono Shot
+discard 2: Eternal Strike
+4 Time tokens
+
+
+AL.....
+
+Adjenna:
+4% Alluring Drive
+27% Alluring Dash
+18% Arresting Strike
+8% Arresting Drive
+26% Arresting Dash
+17% Beckoning Drive
+
+Luc:
+14% Memento Drive
+35% Memento Dash
+23% Memento Dash (1 token)
+0% Fusion Flash (1 token)
+9% Feinting Drive
+19% Feinting Dash
+
+
+Adjenna: Beckoning Drive
+Luc: Memento Drive
+
+Priorities:  3 | 3
+Clash!
+
+Adjenna:
+55% Beckoning Burst
+26% Beckoning Grasp
+19% Beckoning Dash
+
+Luc:
+10% Memento Burst
+11% Memento Grasp
+79% Memento Dash
+
+
+Adjenna: Beckoning Grasp
+Luc: Memento Dash
+
+Priorities:  4 | 8
+Luc is active
+Luc moves:
+
+A.L....
+
+Adjenna misses
+Luc gains 1 Time token
+
+Beat 14
+-------
+
+Adjenna
+-------
+life: 10
+discard 1: Beckoning Grasp
+discard 2: Pacifying Gaze
+special action
+2 Petrification markers on Luc
+
+Luc
+---
+life: 11
+discard 1: Memento Dash
+discard 2: Chrono Shot
 5 Time tokens
 
 
-...A.L.
-
-Unbeatable strategy for Adjenna: Irresistible Dash: 4.41
+A.L....
 
 Adjenna:
-13% Alluring Gaze
-4% Alluring Strike
-10% Alluring Grasp
-4% Alluring Dash
-6% Irresistible Gaze
-2% Irresistible Strike
-12% Irresistible Shot
-48% Irresistible Dash
+11% Arresting Strike
+18% Arresting Drive
+6% Arresting Dash
+7% Irresistible Strike
+9% Irresistible Shot
+8% Irresistible Burst
+41% Irresistible Dash
 
 Luc:
-0% Memento Burst
-0% Memento Burst
-20% Memento Burst
-3% Chrono Flash
-65% Chrono Flash
-1% Chrono Strike
-3% Chrono Shot
-2% Chrono Burst
-5% Chrono Burst
+3% Eternal Flash (5 tokens)
+7% Eternal Strike
+3% Eternal Drive
+38% Eternal Burst
+10% Eternal Burst (5 tokens)
+1% Eternal Grasp
+38% Feinting Strike (5 tokens)
+
+
+Adjenna: Irresistible Burst
+Luc: Feinting Strike (5 tokens)
+
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  1 | 1
+Clash!
+
+Adjenna:
+28% Irresistible Strike
+72% Irresistible Shot
+
+Luc:
+9% Feinting Drive (5 tokens)
+91% Feinting Grasp (5 tokens)
+
+
+Adjenna: Irresistible Shot
+Luc: Feinting Drive (5 tokens)
+
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  2 | 2
+Clash!
+
+Adjenna:
+100% Irresistible Strike
+
+Luc:
+100% Feinting Grasp (5 tokens)
+
+
+Adjenna: Irresistible Strike
+Luc: Feinting Grasp (5 tokens)
+
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  3 | 3
+Clash!
+
+Adjenna:
+38% Irresistible Drive
+62% Irresistible Dash
+
+Luc:
+63% Feinting Flash (5 tokens)
+37% Feinting Burst (5 tokens)
+
+
+Adjenna: Irresistible Drive
+Luc: Feinting Flash (5 tokens)
+
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  4 | 4
+Clash!
+
+Adjenna:
+100% Irresistible Dash
+
+Luc:
+100% Feinting Burst (5 tokens)
 
 
 Adjenna: Irresistible Dash
-Luc: Memento Burst
+Luc: Feinting Burst (5 tokens)
 
 Luc antes a Time token
 Luc antes a Time token
 Luc antes a Time token
 Luc antes a Time token
 Luc antes a Time token
-Priorities:  9 | 0
+Priorities:  9 | -1
 Adjenna is active
 Luc becomes the active player
 Luc moves:
 
-...A..L
+A..L...
 
 Luc hits
-Adjenna takes 3 damage (now at 9 life)
+Adjenna takes 3 damage (now at 7 life)
 Adjenna moves Luc:
 
-..LA...
+AL.....
 
 Adjenna moves:
 
-.AL....
+.L.A...
+
+Luc moves:
+
+..LA...
 
 Luc receives a Petrification Marker
-Luc has 6 Petrification Markers
-ADJENNA WINS!
+Luc gains 1 Time token
+
+Beat 15
+-------
+
+Adjenna
+-------
+life: 7
+discard 1: Irresistible Dash
+discard 2: Beckoning Grasp
+special action
+3 Petrification markers on Luc
+
+Luc
+---
+life: 11
+discard 1: Feinting Burst
+discard 2: Memento Dash
+1 Time tokens
+
+
+..LA...
+
+Adjenna:
+1% Alluring Strike
+2% Pacifying Strike
+96% Special Pulse
+1% Special Fossilize
+
+Luc:
+44% Eternal Flash
+28% Eternal Strike
+16% Eternal Shot
+12% Chrono Drive
+
+
+Adjenna: Special Pulse
+Luc: Eternal Strike
+
+Pulse:
+
+AL.....
+
+
+Beat 15
+-------
+
+Adjenna
+-------
+life: 7
+discard 1: Irresistible Dash
+discard 2: Beckoning Grasp
+3 Petrification markers on Luc
+
+Luc
+---
+life: 11
+discard 1: Eternal Strike
+discard 2: Feinting Burst
+1 Time tokens
+
+
+AL.....
+
+Adjenna:
+37% Alluring Strike
+16% Alluring Shot
+13% Alluring Drive
+34% Pacifying Shot
+
+Luc:
+50% Memento Shot
+8% Memento Dash
+8% Memento Dash (1 token)
+8% Fusion Dash
+8% Fusion Dash (1 token)
+8% Chrono Dash
+8% Chrono Dash (1 token)
+
+
+Adjenna: Alluring Strike
+Luc: Fusion Dash (1 token)
+
+Luc antes a Time token
+Priorities:  2 | 11
+Luc is active
+Luc moves:
+
+A.L....
+
+Adjenna misses
+Luc gains 1 Time token
+Game goes to time
+LUC WINS!
+total_time: 27

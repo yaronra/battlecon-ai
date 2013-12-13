@@ -28,25 +28,26 @@ pool: Earth, Fire, Water, Wind
 
 .B...H.
 
-Unbeatable strategy for Hikaru: Advancing Drive (Water): -1.21
-Unbeatable strategy for Hikaru: Sweeping Shot (Water): -0.10
+Unbeatable strategy for Hikaru: Advancing Shot (Wind): -0.28
+Unbeatable strategy for Hikaru: Advancing Drive (Water): -1.66
+Unbeatable strategy for Hikaru: Sweeping Shot (Water): -0.55
 
 Byron:
-8% Faceless Burst
-7% Breathless Grasp
-85% Breathless Dash
+3% Faceless Burst
+11% Breathless Grasp
+86% Breathless Dash
 
 Hikaru:
-32% Advancing Shot
-39% Advancing Drive
-29% Advancing Drive (Water)
+10% Advancing Drive
+58% Advancing Drive (Water)
+32% Advancing Drive (Wind)
 
 
 Byron: Breathless Dash
-Hikaru: Advancing Drive (Water)
+Hikaru: Advancing Drive (Wind)
 
-Hikaru antes a Water token
-Priorities:  9 | 5
+Hikaru antes a Wind token
+Priorities:  9 | 7
 Byron is active
 Hikaru moves:
 
@@ -54,11 +55,11 @@ Hikaru moves:
 
 Byron moves:
 
-....HB.
+B...H..
 
 Hikaru moves:
 
-.....BH
+B.H....
 
 Hikaru misses
 
@@ -79,636 +80,514 @@ life: 20
 discard 1: Advancing Drive
 discard 2: Focused Palm Strike
 special action
-pool: Earth, Fire, Wind
+pool: Earth, Fire, Water
 
 
-.....BH
-
-Unbeatable strategy for Hikaru: Sweeping Shot (Fire): -0.92
+B.H....
 
 Byron:
-9% Deathless Burst
-3% Heartless Burst
-25% Faceless Shot
-11% Faceless Burst
-21% Faceless Grasp
-31% Special Pulse
+43% Deathless Shot
+5% Deathless Grasp
+0% Heartless Drive
+22% Heartless Grasp
+30% Faceless Shot
 
 Hikaru:
-1% Trance Shot
-6% Trance Dash
-13% Sweeping Strike
-40% Sweeping Shot
-21% Sweeping Shot (Fire)
-18% Geomantic Grasp (Wind)
-
-
-Byron: Special Pulse
-Hikaru: Sweeping Shot
-
-Pulse:
-
-B.....H
-
-
-Beat 2
--------
-
-Byron
------
-life: 15
-discard 1: Breathless Dash
-discard 2: Soulless Strike
-5 Mask emblems
-
-Hikaru
-------
-life: 20
-discard 1: Sweeping Shot
-discard 2: Advancing Drive
-special action
-pool: Earth, Fire, Wind
-
-
-B.....H
-
-Unbeatable strategy for Byron: Deathless Burst: 0.35
-
-Byron:
-92% Deathless Shot
-1% Deathless Drive
-7% Deathless Burst
-
-Hikaru:
-10% Trance Palm Strike
-10% Trance Palm Strike (Earth)
-10% Trance Palm Strike (Fire)
-10% Trance Palm Strike (Wind)
-15% Trance Dash
-15% Trance Dash (Earth)
-15% Trance Dash (Fire)
-15% Trance Dash (Wind)
+7% Trance Strike
+2% Trance Strike (Earth)
+3% Trance Strike (Fire)
+2% Trance Strike (Water)
+15% Trance Burst
+2% Trance Burst (Earth)
+2% Trance Burst (Fire)
+2% Trance Burst (Water)
+12% Trance Grasp
+3% Trance Grasp (Earth)
+4% Trance Grasp (Fire)
+3% Trance Grasp (Water)
+31% Sweeping Strike (Water)
+12% Sweeping Grasp (Water)
 
 
 Byron: Deathless Shot
-Hikaru: Trance Dash (Wind)
+Hikaru: Sweeping Grasp (Water)
 
-Hikaru antes a Wind token
-Priorities:  1 | 9
+Hikaru antes a Water token
+Priorities:  1 | 8
 Hikaru is active
-Hikaru moves:
+Hikaru hits
+Hikaru moves Byron:
 
-B..H...
+.BH....
 
-Byron hits
-Hikaru takes 5 damage (now at 15 life)
-Hikaru is stunned
-Hikaru recovers a Water token
+Byron takes 1 damage (now at 14 life)
+Byron loses a Mask Emblem: now at 4
+Byron misses
 
 Beat 3
 -------
 
 Byron
 -----
-life: 15
+life: 12
 discard 1: Deathless Shot
 discard 2: Breathless Dash
-5 Mask emblems
+special action
+4 Mask emblems
 
 Hikaru
 ------
-life: 15
-discard 1: Trance Dash
-discard 2: Sweeping Shot
+life: 20
+discard 1: Sweeping Grasp
+discard 2: Advancing Drive
 special action
-pool: Earth, Fire, Wind, Water
+pool: Earth, Fire
 
 
-B..H...
-
-Unbeatable strategy for Hikaru: Geomantic Drive (Wind): -0.95
+.BH....
 
 Byron:
-43% Soulless Smoke
-1% Heartless Smoke
-36% Heartless Grasp
-20% Faceless Strike
+20% Soulless Burst
+36% Heartless Burst
+38% Faceless Drive
+7% Faceless Grasp
 
 Hikaru:
-33% Advancing Palm Strike
-10% Advancing Palm Strike (Earth)
-27% Geomantic Drive (Wind)
-31% Geomantic Burst
+5% Trance Palm Strike
+6% Trance Palm Strike (Earth)
+6% Trance Palm Strike (Fire)
+15% Trance Dash
+18% Trance Dash (Earth)
+17% Trance Dash (Fire)
+27% Focused Shot (Earth)
+5% Focused Burst (Earth)
 
 
-Byron: Heartless Grasp
-Hikaru: Geomantic Burst
+Byron: Heartless Burst
+Hikaru: Focused Shot (Earth)
 
-Priorities:  6 | 1
-Byron is active
-Hikaru antes a Water token
-Hikaru moves:
+Hikaru antes an Earth token
+Priorities:  2 | 3
+Hikaru is active
+Byron moves:
 
-B...H..
+B.H....
 
-Byron misses
 Hikaru hits
-Byron takes 4 damage (now at 11 life)
+Hikaru recovers a Water token
+Byron takes 3 damage (now at 9 life)
 Byron is stunned
-Byron loses a Mask Emblem: now at 4
+Byron loses a Mask Emblem: now at 3
 
 Beat 4
 -------
 
 Byron
 -----
-life: 12
-discard 1: Heartless Grasp
+life: 9
+discard 1: Heartless Burst
 discard 2: Deathless Shot
-4 Mask emblems
+special action
+3 Mask emblems
 
 Hikaru
 ------
-life: 15
-discard 1: Geomantic Burst
-discard 2: Trance Dash
+life: 20
+discard 1: Focused Shot
+discard 2: Sweeping Grasp
 special action
-pool: Earth, Fire, Wind
+pool: Fire, Water
 
 
-B...H..
-
-Unbeatable strategy for Hikaru: Advancing Drive: -0.74
+B.H....
 
 Byron:
-7% Soulless Smoke
-2% Faceless Burst
-91% Breathless Dash
+17% Breathless Smoke
+18% Breathless Drive
+40% Breathless Grasp
+26% Breathless Dash
 
 Hikaru:
-55% Advancing Drive
-3% Sweeping Shot
-42% Sweeping Drive
+2% Trance Palm Strike
+2% Trance Palm Strike (Fire)
+2% Trance Palm Strike (Water)
+3% Trance Strike
+3% Trance Strike (Fire)
+3% Trance Strike (Water)
+9% Trance Drive
+9% Trance Drive (Fire)
+9% Trance Drive (Water)
+23% Trance Dash
+17% Trance Dash (Fire)
+16% Trance Dash (Water)
 
 
-Byron: Breathless Dash
-Hikaru: Advancing Drive
+Byron: Breathless Grasp
+Hikaru: Trance Dash (Water)
 
-Priorities:  9 | 5
-Byron is active
-Byron moves:
-
-....H.B
-
+Hikaru antes a Water token
+Priorities:  5 | 9
+Hikaru is active
 Hikaru moves:
 
-.....HB
+B..H...
 
-Byron moves:
-
-...B.H.
-
-Hikaru moves:
-
-..HB...
-
-Hikaru misses
+Byron misses
+Hikaru recovers an Earth token
 
 Beat 5
 -------
 
 Byron
 -----
-life: 12
-discard 1: Breathless Dash
-discard 2: Heartless Grasp
-4 Mask emblems
+life: 9
+discard 1: Breathless Grasp
+discard 2: Heartless Burst
+special action
+3 Mask emblems
 
 Hikaru
 ------
-life: 15
-discard 1: Advancing Drive
-discard 2: Geomantic Burst
+life: 20
+discard 1: Trance Dash
+discard 2: Focused Shot
 special action
-pool: Earth, Fire, Wind
+pool: Fire, Water, Earth
 
 
-..HB...
+B..H...
 
-Unbeatable strategy for Hikaru: Trance Dash: -0.18
-Unbeatable strategy for Hikaru: Trance Dash (Earth): -0.18
-Unbeatable strategy for Hikaru: Trance Dash (Fire): -0.18
-Unbeatable strategy for Hikaru: Trance Dash (Wind): -0.18
+Unbeatable strategy for Hikaru: Geomantic Drive: -1.45
+Unbeatable strategy for Hikaru: Geomantic Drive (Fire): -0.45
+Unbeatable strategy for Hikaru: Geomantic Drive (Water): -0.62
+Unbeatable strategy for Hikaru: Geomantic Drive (Earth): -0.25
 
 Byron:
-13% Soulless Burst
-34% Deathless Drive
-34% Faceless Strike
-19% Faceless Burst
+28% Soulless Smoke
+1% Deathless Smoke
+2% Deathless Strike
+35% Deathless Dash
+5% Faceless Strike
+29% Faceless Drive
 
 Hikaru:
-0% Trance Grasp
-0% Trance Grasp (Earth)
-0% Trance Grasp (Fire)
-0% Trance Grasp (Wind)
-17% Trance Dash
-17% Trance Dash (Earth)
-17% Trance Dash (Fire)
-17% Trance Dash (Wind)
-23% Focused Shot (Wind)
-9% Focused Grasp (Earth)
+10% Advancing Palm Strike
+2% Sweeping Drive
+8% Geomantic Palm Strike
+2% Geomantic Palm Strike (Water)
+50% Geomantic Drive
+28% Geomantic Burst
 
 
-Byron: Deathless Drive
-Hikaru: Trance Dash
+Byron: Deathless Dash
+Hikaru: Geomantic Burst
 
-Priorities:  3 | 9
-Hikaru is active
+Priorities:  8 | 1
+Byron is active
+Hikaru antes a Water token
 Hikaru moves:
 
-.H.B...
+B....H.
 
 Byron moves:
 
-.HB....
+.B...H.
 
-Byron misses
-Hikaru recovers a Water token
+Hikaru hits
+Byron takes 1 damage (now at 8 life)
+Byron is stunned
+Byron loses a Mask Emblem: now at 2
 
 Beat 6
 -------
 
 Byron
 -----
-life: 12
-discard 1: Deathless Drive
-discard 2: Breathless Dash
-4 Mask emblems
+life: 6
+discard 1: Deathless Dash
+discard 2: Breathless Grasp
+special action
+2 Mask emblems
 
 Hikaru
 ------
-life: 15
-discard 1: Trance Dash
-discard 2: Advancing Drive
+life: 20
+discard 1: Geomantic Burst
+discard 2: Trance Dash
 special action
-pool: Earth, Fire, Wind, Water
+pool: Fire, Earth
 
 
-.HB....
-
-Unbeatable strategy for Byron: Soulless Smoke: 0.12
-Unbeatable strategy for Byron: Soulless Burst: 2.25
+.B...H.
 
 Byron:
-99% Soulless Burst
-1% Heartless Burst
+24% Heartless Smoke
+5% Heartless Strike
+46% Heartless Drive
+25% Faceless Burst
 
 Hikaru:
-6% Focused Burst (Earth)
-71% Geomantic Strike
-23% Geomantic Grasp
+7% Focused Shot
+6% Advancing Shot (Fire)
+50% Advancing Shot (Earth)
+38% Advancing Drive (Fire)
 
 
-Byron: Soulless Burst
-Hikaru: Geomantic Strike
+Byron: Heartless Drive
+Hikaru: Advancing Drive (Fire)
 
-Hikaru loses 2 life (now at 13)
-Byron gets +2 power
-Priorities:  -3 | 3
+Hikaru antes a Fire token
+Priorities:  5 | 5
+Clash!
+
+Byron:
+53% Heartless Smoke
+45% Heartless Strike
+2% Heartless Burst
+
+Hikaru:
+65% Advancing Strike (Fire)
+3% Advancing Shot (Fire)
+31% Advancing Grasp (Fire)
+
+
+Byron: Heartless Strike
+Hikaru: Advancing Grasp (Fire)
+
+Hikaru antes a Fire token
+Priorities:  4 | 6
 Hikaru is active
-Hikaru antes an Earth token
-Byron moves:
+Hikaru moves:
 
-.H..B..
+.B..H..
 
 Hikaru misses
 Byron hits
-Hikaru has 3 soak
-Hikaru takes 3 damage (now at 10 life)
-Byron loses a Mask Emblem: now at 3
+Hikaru takes 5 damage (now at 15 life)
+Hikaru is stunned
 
 Beat 7
 -------
 
 Byron
 -----
-life: 9
-discard 1: Soulless Burst
-discard 2: Deathless Drive
-3 Mask emblems
+life: 6
+discard 1: Heartless Strike
+discard 2: Deathless Dash
+special action
+2 Mask emblems
 
 Hikaru
 ------
-life: 10
-discard 1: Geomantic Strike
-discard 2: Trance Dash
+life: 15
+discard 1: Advancing Grasp
+discard 2: Geomantic Burst
 special action
-pool: Fire, Wind, Water
+pool: Earth
 
 
-.H..B..
+.B..H..
 
-Unbeatable strategy for Hikaru: Advancing Drive (Wind): -0.15
-Unbeatable strategy for Hikaru: Sweeping Drive: -0.93
+Unbeatable strategy for Hikaru: Trance Drive: -0.81
+Unbeatable strategy for Hikaru: Trance Drive (Earth): -0.81
 
 Byron:
-4% Heartless Grasp
-31% Heartless Dash
-22% Faceless Dash
-43% Breathless Dash
+11% Faceless Drive
+8% Faceless Burst
+9% Breathless Smoke
+35% Breathless Drive
+11% Breathless Grasp
+27% Special Soul Trap
 
 Hikaru:
-56% Advancing Drive
-2% Sweeping Palm Strike (Wind)
-33% Sweeping Drive
-8% Sweeping Drive (Wind)
+21% Trance Drive
+12% Trance Drive (Earth)
+15% Trance Dash
+12% Trance Dash (Earth)
+6% Focused Shot
+2% Focused Shot (Earth)
+21% Focused Drive
+10% Sweeping Shot
 
 
-Byron: Heartless Dash
-Hikaru: Advancing Drive
+Byron: Breathless Drive
+Hikaru: Sweeping Shot
 
-Priorities:  10 | 5
-Byron is active
-Hikaru moves:
-
-..H.B..
-
+Priorities:  4 | 5
+Hikaru is active
 Byron moves:
 
-..H...B
+....HB.
 
-Hikaru moves:
-
-....H.B
-
-Hikaru misses
+Hikaru hits
+Byron takes 2 damage (now at 4 life)
+Byron is stunned
+Byron loses a Mask Emblem: now at 1
 
 Beat 8
 -------
 
 Byron
 -----
-life: 9
-discard 1: Heartless Dash
-discard 2: Soulless Burst
-3 Mask emblems
+life: 3
+discard 1: Breathless Drive
+discard 2: Heartless Strike
+special action
+1 Mask emblems
 
 Hikaru
 ------
-life: 10
-discard 1: Advancing Drive
-discard 2: Geomantic Strike
+life: 15
+discard 1: Sweeping Shot
+discard 2: Advancing Grasp
 special action
-pool: Fire, Wind, Water
+pool: Earth
 
 
-....H.B
+....HB.
 
 Byron:
-35% Breathless Smoke
-40% Breathless Strike
-26% Breathless Grasp
+24% Soulless Smoke
+15% Deathless Smoke
+10% Deathless Shot
+18% Deathless Burst
+21% Deathless Dash
+12% Faceless Grasp
 
 Hikaru:
-16% Trance Dash
-16% Trance Dash (Fire)
-16% Trance Dash (Wind)
-16% Trance Dash (Water)
-22% Focused Shot (Wind)
-14% Sweeping Shot (Wind)
+2% Trance Palm Strike
+2% Trance Palm Strike (Earth)
+1% Trance Strike
+2% Trance Strike (Earth)
+41% Trance Dash
+29% Trance Dash (Earth)
+22% Focused Drive
+1% Focused Burst
+0% Focused Burst (Earth)
 
 
-Byron: Breathless Strike
-Hikaru: Trance Dash (Fire)
+Byron: Deathless Dash
+Hikaru: Focused Drive
 
-Hikaru antes a Fire token
-Priorities:  3 | 9
-Hikaru is active
+Priorities:  8 | 5
+Byron is active
+Byron moves:
+
+..B.H..
+
 Hikaru moves:
 
-...H..B
+.HB....
 
-Byron misses
-Hikaru recovers an Earth token
+Hikaru misses
 
 Beat 9
 -------
 
 Byron
 -----
-life: 9
-discard 1: Breathless Strike
-discard 2: Heartless Dash
-3 Mask emblems
+life: 3
+discard 1: Deathless Dash
+discard 2: Breathless Drive
+special action
+1 Mask emblems
 
 Hikaru
 ------
-life: 10
-discard 1: Trance Dash
-discard 2: Advancing Drive
+life: 15
+discard 1: Focused Drive
+discard 2: Sweeping Shot
 special action
-pool: Wind, Water, Fire, Earth
+pool: Earth
 
 
-...H..B
+.HB....
+
+Unbeatable strategy for Hikaru: Trance Dash: -1.54
+Unbeatable strategy for Hikaru: Trance Dash (Earth): -1.54
+Unbeatable strategy for Hikaru: Geomantic Dash: -0.48
 
 Byron:
-38% Soulless Smoke
-4% Deathless Smoke
-28% Deathless Shot
-1% Deathless Grasp
-13% Faceless Smoke
-17% Faceless Grasp
+14% Soulless Smoke
+13% Soulless Shot
+32% Heartless Smoke
+3% Heartless Grasp
+37% Faceless Burst
 
 Hikaru:
-2% Focused Palm Strike (Water)
-42% Geomantic Palm Strike
-4% Geomantic Palm Strike (Wind)
-13% Geomantic Shot
-6% Geomantic Shot (Wind)
-33% Geomantic Burst
+44% Trance Dash
+39% Trance Dash (Earth)
+4% Advancing Palm Strike (Earth)
+10% Advancing Burst (Earth)
+2% Geomantic Palm Strike
+0% Geomantic Burst
+0% Geomantic Burst (Earth)
 
 
-Byron: Soulless Smoke
-Hikaru: Geomantic Burst
+Byron: Heartless Smoke
+Hikaru: Trance Dash (Earth)
 
-Priorities:  -1 | 1
-Hikaru is active
 Hikaru antes an Earth token
+Priorities:  4 | 9
+Hikaru is active
 Hikaru moves:
 
-..H...B
+..B.H..
 
-Hikaru misses
-Byron hits
-Byron moves Hikaru:
-
-.H....B
-
-Hikaru has 3 soak
-Hikaru takes 0 damage (now at 10 life)
-Byron loses a Mask Emblem: now at 2
+Byron misses
+Hikaru recovers a Fire token
 
 Beat 10
 -------
 
 Byron
 -----
-life: 6
-discard 1: Soulless Smoke
-discard 2: Breathless Strike
-2 Mask emblems
-
-Hikaru
-------
-life: 10
-discard 1: Geomantic Burst
-discard 2: Trance Dash
+life: 3
+discard 1: Heartless Smoke
+discard 2: Deathless Dash
 special action
-pool: Wind, Water, Fire
-
-
-.H....B
-
-Unbeatable strategy for Hikaru: Advancing Drive (Water): -0.70
-
-Byron:
-75% Deathless Shot
-2% Deathless Grasp
-23% Heartless Drive
-
-Hikaru:
-29% Advancing Drive
-43% Advancing Drive (Wind)
-29% Advancing Drive (Water)
-
-
-Byron: Deathless Shot
-Hikaru: Advancing Drive (Wind)
-
-Hikaru antes a Wind token
-Priorities:  1 | 7
-Hikaru is active
-Hikaru moves:
-
-..H...B
-
-Hikaru moves:
-
-....H.B
-
-Hikaru misses
-Byron hits
-Hikaru takes 5 damage (now at 5 life)
-Hikaru is stunned
-
-Beat 11
--------
-
-Byron
------
-life: 6
-discard 1: Deathless Shot
-discard 2: Soulless Smoke
-2 Mask emblems
+1 Mask emblems
 
 Hikaru
 ------
-life: 5
-discard 1: Advancing Drive
-discard 2: Geomantic Burst
-special action
-pool: Water, Fire
-
-
-....H.B
-
-Byron:
-14% Heartless Strike
-18% Faceless Strike
-4% Faceless Grasp
-3% Breathless Burst
-62% Breathless Dash
-
-Hikaru:
-3% Trance Palm Strike
-3% Trance Palm Strike (Water)
-3% Trance Palm Strike (Fire)
-11% Trance Strike
-11% Trance Strike (Water)
-11% Trance Strike (Fire)
-4% Trance Grasp
-4% Trance Grasp (Water)
-4% Trance Grasp (Fire)
-14% Trance Dash
-14% Trance Dash (Water)
-14% Trance Dash (Fire)
-4% Special Four Winds
-
-
-Byron: Breathless Burst
-Hikaru: Trance Dash (Water)
-
-Hikaru antes a Water token
-Priorities:  1 | 9
-Hikaru is active
-Hikaru moves:
-
-.....HB
-
-Byron misses
-Hikaru recovers an Earth token
-
-Beat 12
--------
-
-Byron
------
-life: 6
-discard 1: Breathless Burst
-discard 2: Deathless Shot
-2 Mask emblems
-
-Hikaru
-------
-life: 5
+life: 15
 discard 1: Trance Dash
-discard 2: Advancing Drive
+discard 2: Focused Drive
 special action
-pool: Fire, Water, Earth
+pool: Earth, Fire
 
 
-.....HB
-
-Unbeatable strategy for Byron: Soulless Drive: 10.00
+..B.H..
 
 Byron:
-1% Soulless Smoke
-35% Soulless Drive
-0% Heartless Grasp
-62% Heartless Dash
-0% Faceless Drive
+7% Soulless Burst
+14% Faceless Drive
+20% Faceless Burst
+15% Faceless Grasp
+43% Special Pulse
 
 Hikaru:
-66% Sweeping Burst
-8% Special Wrath of Elements
-8% Special Wrath of Elements (Fire)
-8% Special Wrath of Elements (Water)
-8% Special Wrath of Elements (Earth)
+31% Advancing Palm Strike
+13% Advancing Palm Strike (Earth)
+6% Sweeping Shot (Fire)
+48% Geomantic Shot
+2% Geomantic Burst
 
 
-Byron: Soulless Drive
-Hikaru: Special Wrath of Elements
+Byron: Faceless Drive
+Hikaru: Advancing Palm Strike
 
-Hikaru loses 2 life (now at 3)
-Byron gets +2 power
-Hikaru antes a Fire token
-Hikaru antes a Water token
-Hikaru antes an Earth token
-Priorities:  0 | 6
+Priorities:  4 | 6
 Hikaru is active
+Hikaru moves:
+
+..BH...
+
+Hikaru moves:
+
+.HB....
+
 Hikaru hits
-Byron has 3 soak
-Byron takes 7 damage (now at 0 life)
+Byron takes 3 damage (now at 0 life)
 HIKARU WINS!
-total_time: 21
+total_time: 16

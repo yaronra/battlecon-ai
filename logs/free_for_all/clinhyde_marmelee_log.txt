@@ -23,7 +23,7 @@ life: 20
 discard 1: Petrifying Burst
 discard 2: Barrier Grasp
 special action
-2 Concentration tokens
+2 Concentration counters
 
 
 .C...M.
@@ -40,30 +40,23 @@ Marmelee:
 
 
 Clinhyde: Shock Drive
-Marmelee: Magnificent Dash
+Marmelee: Magnificent Drive
 
-Priorities:  5 | 9
-Marmelee is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee moves:
+Priorities:  5 | 4
+Clinhyde is active
+Clinhyde moves:
 
-MC.....
-
-Marmelee moves:
-
-.C.M...
+.....MC
 
 Clinhyde moves:
 
-..CM...
+....CM.
 
-Clinhyde moves:
-
-...M..C
-
-Clinhyde misses
-Marmelee gains 1 Concentration token
+Clinhyde hits
+Marmelee takes 2 damage (now at 18 life)
+Marmelee is stunned
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
 
 Beat 2
 -------
@@ -78,385 +71,555 @@ Active Stim Packs:
 
 Marmelee
 --------
-life: 20
-discard 1: Magnificent Dash
+life: 18
+discard 1: Magnificent Drive
 discard 2: Petrifying Burst
 special action
-1 Concentration tokens
+1 Concentration counters
 
 
-...M..C
+....CM.
 
 Clinhyde:
-30% Gravity Strike (Crizma)
-52% Gravity Strike (Ehrlite)
-18% Gravity Grasp (Crizma)
+19% Toxic Shot (Crizma)
+17% Toxic Shot
+35% Toxic Burst
+15% Toxic Dash (Crizma)
+15% Phase Burst
 
 Marmelee:
-61% Barrier Meditation
-11% Barrier Grasp
-28% Nullifying Drive
+9% Sorceress Strike
+6% Sorceress Grasp
+25% Barrier Meditation
+20% Nullifying Shot
+40% Nullifying Dash
 
 
-Clinhyde: Gravity Strike (Ehrlite)
-Marmelee: Barrier Meditation
+Clinhyde: Toxic Shot
+Marmelee: Nullifying Dash
 
-Clinhyde activates Ehrlite
-Clinhyde loses 1 life (now at 19)
-Priorities:  5 | 3
-Clinhyde is active
-Marmelee spends a Concentration token
-Marmelee gains Soak 1
-Clinhyde hits
-Clinhyde moves Marmelee:
+Priorities:  3 | 10
+Marmelee is active
+Marmelee moves:
 
-.M....C
+....C.M
 
-Marmelee has 1 soak
-Marmelee takes 3 damage (now at 17 life)
-Marmelee is stunned
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
+Marmelee moves:
+
+...MC..
+
+Clinhyde misses
+Marmelee gains 1 Concentration Counter
 
 Beat 3
 -------
 
 Clinhyde
 --------
-life: 19
-discard 1: Gravity Strike
+life: 20
+discard 1: Toxic Shot
 discard 2: Shock Drive
 special action
-Active Stim Packs: Ehrlite
+Active Stim Packs: 
 
 Marmelee
 --------
-life: 17
-discard 1: Barrier Meditation
-discard 2: Magnificent Dash
+life: 18
+discard 1: Nullifying Dash
+discard 2: Magnificent Drive
 special action
-2 Concentration tokens
+2 Concentration counters
 
+
+...MC..
+
+Clinhyde:
+5% Diffusion Grasp (Crizma)
+35% Gravity Burst (Ehrlite)
+30% Gravity Burst (Hylatine)
+30% Gravity Burst
+
+Marmelee:
+25% Sorceress Strike
+6% Sorceress Shot
+52% Barrier Meditation
+17% Barrier Burst
+
+
+Clinhyde: Gravity Burst (Ehrlite)
+Marmelee: Sorceress Strike
+
+Clinhyde activates Ehrlite
+Clinhyde loses 1 life (now at 19)
+Priorities:  3 | 2
+Clinhyde is active
+Clinhyde moves:
+
+...M..C
+
+Clinhyde hits
+Clinhyde moves Marmelee:
 
 .M....C
 
-Clinhyde:
-42% Toxic Shot (Crizma)
-3% Toxic Shot
-2% Diffusion Shot (Crizma)
-53% Phase Shot
-
-Marmelee:
-9% Petrifying Burst
-19% Petrifying Grasp
-27% Sorceress Shot
-44% Nullifying Drive
-
-
-Clinhyde: Phase Shot
-Marmelee: Nullifying Drive
-
-Clinhyde loses 1 life (now at 18)
-Priorities:  0 | 5
-Marmelee is active
-Marmelee moves:
-
-M.....C
-
-Marmelee moves:
-
-..M...C
-
+Marmelee takes 3 damage (now at 15 life)
 Marmelee misses
-Clinhyde hits
-Marmelee takes 4 damage (now at 13 life)
-Marmelee is stunned
-Marmelee loses all tokens
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 4
 -------
 
 Clinhyde
 --------
-life: 18
-discard 1: Phase Shot
-discard 2: Gravity Strike
+life: 19
+discard 1: Gravity Burst
+discard 2: Toxic Shot
 special action
 Active Stim Packs: Ehrlite
 
 Marmelee
 --------
-life: 13
-discard 1: Nullifying Drive
-discard 2: Barrier Meditation
+life: 15
+discard 1: Sorceress Strike
+discard 2: Nullifying Dash
 special action
-1 Concentration tokens
+3 Concentration counters
 
 
-..M...C
+.M....C
+
+Unbeatable strategy for Marmelee: Petrifying Meditation: -1.42
+Unbeatable strategy for Marmelee: Magnificent Meditation: -1.01
+Unbeatable strategy for Marmelee: Barrier Meditation: -1.28
 
 Clinhyde:
-1% Toxic Frenzy (Crizma)
-11% Shock Frenzy (Crizma)
-77% Shock Drive (Crizma)
-11% Shock Burst (Crizma)
+54% Shock Frenzy
+46% Shock Strike
 
 Marmelee:
-10% Petrifying Dash
-26% Magnificent Burst
-54% Magnificent Grasp
-9% Sorceress Strike
+97% Petrifying Meditation
+3% Petrifying Shot
 
 
-Clinhyde: Shock Drive (Crizma)
-Marmelee: Magnificent Grasp
+Clinhyde: Shock Frenzy
+Marmelee: Petrifying Meditation
 
-Clinhyde activates Crizma
-Clinhyde loses 2 life (now at 16)
-Priorities:  6 | 5
+Clinhyde loses 1 life (now at 18)
+Priorities:  5 | 2
 Clinhyde is active
 Clinhyde moves:
 
-C.M....
+.M...C.
 
+Marmelee discards 1 Concentration Counter
+Marmelee gains Soak 1
 Clinhyde moves:
 
-.CM....
+CM.....
 
 Clinhyde hits
-Marmelee takes 4 damage (now at 9 life)
+Marmelee has 1 soak
+Marmelee takes 0 damage (now at 15 life)
 Marmelee is stunned
-Marmelee loses all tokens
-Marmelee is stunned
-Marmelee gains 1 Concentration token
+Clinhyde de-activates Ehrlite
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
 
 Beat 5
 -------
 
 Clinhyde
 --------
-life: 16
-discard 1: Shock Drive
-discard 2: Phase Shot
+life: 18
+discard 1: Shock Frenzy
+discard 2: Gravity Burst
 special action
-Active Stim Packs: Ehrlite, Crizma
+Active Stim Packs: 
 
 Marmelee
 --------
-life: 9
-discard 1: Magnificent Grasp
-discard 2: Nullifying Drive
+life: 15
+discard 1: Petrifying Meditation
+discard 2: Sorceress Strike
 special action
-1 Concentration tokens
+2 Concentration counters
 
 
-.CM....
-
-Unbeatable strategy for Marmelee: Petrifying Dash: -1.07
-Unbeatable strategy for Marmelee: Sorceress Dash: -0.91
-Unbeatable strategy for Marmelee: Barrier Dash: -1.11
+CM.....
 
 Clinhyde:
-38% Toxic Frenzy (Hylatine)
-22% Toxic Frenzy
-40% Gravity Frenzy
+3% Toxic Shot (Crizma)
+15% Toxic Shot
+0% Toxic Drive (Crizma)
+25% Toxic Drive
+8% Toxic Grasp (Crizma)
+10% Diffusion Shot (Crizma)
+12% Diffusion Drive (Ehrlite)
+27% Phase Shot
 
 Marmelee:
-9% Petrifying Strike
-3% Petrifying Burst
-88% Barrier Dash
+9% Magnificent Drive
+16% Magnificent Grasp
+10% Magnificent Dash
+4% Barrier Shot
+19% Barrier Drive
+2% Nullifying Shot
+12% Nullifying Grasp
+29% Nullifying Dash
 
 
-Clinhyde: Gravity Frenzy
-Marmelee: Barrier Dash
+Clinhyde: Phase Shot
+Marmelee: Nullifying Dash
 
-Clinhyde loses 2 life (now at 14)
-Priorities:  4 | 9
+Priorities:  -1 | 10
 Marmelee is active
 Marmelee moves:
 
-MC.....
+C.M....
 
-Clinhyde misses
-Clinhyde de-activates Ehrlite
-Clinhyde de-activates Crizma
-Marmelee gains 1 Concentration token
+Marmelee moves:
+
+CM.....
+
+Clinhyde hits
+Marmelee takes 4 damage (now at 11 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
 
 Beat 6
 -------
 
 Clinhyde
 --------
-life: 14
-discard 1: Gravity Frenzy
-discard 2: Shock Drive
+life: 18
+discard 1: Phase Shot
+discard 2: Shock Frenzy
 special action
 Active Stim Packs: 
 
 Marmelee
 --------
-life: 9
-discard 1: Barrier Dash
-discard 2: Magnificent Grasp
+life: 11
+discard 1: Nullifying Dash
+discard 2: Petrifying Meditation
 special action
-2 Concentration tokens
+1 Concentration counters
 
 
-MC.....
+CM.....
 
 Clinhyde:
-33% Toxic Strike (Crizma)
-49% Diffusion Strike (Ehrlite)
-18% Diffusion Grasp (Crizma)
+36% Toxic Drive (Crizma)
+5% Toxic Burst (Crizma)
+28% Toxic Grasp (Crizma)
+3% Gravity Drive (Crizma)
+27% Gravity Drive (Hylatine)
 
 Marmelee:
-10% Petrifying Strike
-44% Sorceress Strike
-46% Nullifying Drive
+44% Magnificent Grasp
+15% Sorceress Strike
+16% Sorceress Burst
+2% Sorceress Grasp
+23% Barrier Grasp
 
 
-Clinhyde: Diffusion Strike (Ehrlite)
-Marmelee: Nullifying Drive
+Clinhyde: Toxic Grasp (Crizma)
+Marmelee: Magnificent Grasp
 
-Clinhyde activates Ehrlite
-Clinhyde loses 1 life (now at 13)
+Clinhyde activates Crizma
+Clinhyde loses 1 life (now at 17)
 Priorities:  6 | 5
 Clinhyde is active
+Clinhyde moves:
+
+.MC....
+
 Clinhyde hits
-Marmelee loses 2 life (now at 7)
-Marmelee takes 3 damage (now at 4 life)
-Clinhyde de-activates Ehrlite
+Clinhyde moves Marmelee:
+
+M.C....
+
+Marmelee takes 5 damage (now at 6 life)
 Marmelee is stunned
-Marmelee loses all tokens
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 7
 -------
 
 Clinhyde
 --------
-life: 13
-discard 1: Diffusion Strike
-discard 2: Gravity Frenzy
+life: 17
+discard 1: Toxic Grasp
+discard 2: Phase Shot
 special action
-Active Stim Packs: 
+Active Stim Packs: Crizma
 
 Marmelee
 --------
-life: 4
-discard 1: Nullifying Drive
-discard 2: Barrier Dash
+life: 6
+discard 1: Magnificent Grasp
+discard 2: Nullifying Dash
 special action
-1 Concentration tokens
+1 Concentration counters
 
 
-MC.....
+M.C....
 
-Unbeatable strategy for Clinhyde: Toxic Grasp (Crizma): 9.00
-
-Clinhyde:
-44% Toxic Drive (Crizma)
-17% Shock Shot
-32% Shock Drive
-7% Shock Burst
-
-Marmelee:
-11% Petrifying Meditation
-2% Petrifying Grasp
-6% Magnificent Meditation
-81% Special Pulse
-
-
-Clinhyde: Shock Burst
-Marmelee: Petrifying Meditation
-
-Priorities:  2 | 2
-Clash!
+Unbeatable strategy for Clinhyde: Diffusion Strike (Ehrlite): 0.80
+Unbeatable strategy for Clinhyde: Gravity Frenzy (Ehrlite): 1.97
+Unbeatable strategy for Clinhyde: Gravity Strike (Ehrlite): 1.48
+Unbeatable strategy for Clinhyde: Gravity Drive (Ehrlite): 0.45
 
 Clinhyde:
-4% Shock Shot
-96% Shock Drive
+17% Shock Drive
+1% Diffusion Burst (Hylatine)
+1% Diffusion Burst
+81% Gravity Drive
 
 Marmelee:
-98% Petrifying Shot
-2% Petrifying Grasp
+19% Petrifying Meditation
+21% Barrier Meditation
+14% Barrier Drive
+46% Special Astral Trance
 
 
 Clinhyde: Shock Drive
-Marmelee: Petrifying Shot
+Marmelee: Barrier Meditation
 
-Priorities:  5 | 1
+Clinhyde loses 1 life (now at 16)
+Priorities:  5 | 3
 Clinhyde is active
+Marmelee discards 1 Concentration Counter
+Marmelee gains Soak 1
+Clinhyde moves:
+
+MC.....
+
 Clinhyde hits
-Marmelee takes 2 damage (now at 2 life)
+Marmelee has 1 soak
+Marmelee takes 2 damage (now at 4 life)
 Marmelee is stunned
-Marmelee loses all tokens
-Marmelee gains 1 Concentration token
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
 
 Beat 8
 -------
 
 Clinhyde
 --------
-life: 13
+life: 16
 discard 1: Shock Drive
-discard 2: Diffusion Strike
+discard 2: Toxic Grasp
+special action
+Active Stim Packs: Crizma
+
+Marmelee
+--------
+life: 4
+discard 1: Barrier Meditation
+discard 2: Magnificent Grasp
+special action
+2 Concentration counters
+
+
+MC.....
+
+Unbeatable strategy for Marmelee: Petrifying Dash: -1.80
+Unbeatable strategy for Marmelee: Sorceress Dash: -2.02
+Unbeatable strategy for Marmelee: Nullifying Dash: -1.95
+
+Clinhyde:
+75% Diffusion Frenzy
+25% Phase Frenzy
+
+Marmelee:
+96% Sorceress Dash
+4% Nullifying Drive
+
+
+Clinhyde: Diffusion Frenzy
+Marmelee: Sorceress Dash
+
+Clinhyde loses 1 life (now at 15)
+Priorities:  4 | 8
+Marmelee is active
+Marmelee moves:
+
+.CM....
+
+Clinhyde misses
+Clinhyde de-activates Crizma
+Marmelee gains 1 Concentration Counter
+
+Beat 9
+-------
+
+Clinhyde
+--------
+life: 15
+discard 1: Diffusion Frenzy
+discard 2: Shock Drive
 special action
 Active Stim Packs: 
 
 Marmelee
 --------
-life: 2
-discard 1: Petrifying Shot
-discard 2: Nullifying Drive
+life: 4
+discard 1: Sorceress Dash
+discard 2: Barrier Meditation
 special action
-1 Concentration tokens
+3 Concentration counters
 
 
-MC.....
-
-Unbeatable strategy for Marmelee: Magnificent Dash: -0.15
-Unbeatable strategy for Marmelee: Barrier Dash: -0.09
+.CM....
 
 Clinhyde:
-35% Toxic Frenzy (Crizma)
-30% Toxic Shot (Crizma)
-36% Toxic Grasp (Ehrlite)
+12% Toxic Strike (Ehrlite)
+14% Toxic Strike
+20% Toxic Burst (Ehrlite)
+29% Toxic Burst (Hylatine)
+20% Phase Shot
+6% Phase Burst
 
 Marmelee:
-26% Magnificent Meditation
-30% Magnificent Dash
-45% Special Astral Trance
+17% Petrifying Strike
+6% Petrifying Drive
+33% Petrifying Burst
+19% Petrifying Grasp
+14% Magnificent Strike
+11% Magnificent Grasp
 
 
-Clinhyde: Toxic Grasp (Ehrlite)
-Marmelee: Magnificent Dash
-
-Clinhyde activates Ehrlite
-Clinhyde loses 1 life (now at 12)
-Priorities:  9 | 9
-Clash!
-
-Clinhyde:
-53% Toxic Shot (Ehrlite)
-47% Toxic Burst (Ehrlite)
-
-Marmelee:
-26% Magnificent Meditation
-24% Magnificent Strike
-25% Magnificent Burst
-24% Magnificent Grasp
-
-
-Clinhyde: Toxic Shot (Ehrlite)
+Clinhyde: Toxic Strike
 Marmelee: Magnificent Grasp
 
+Priorities:  4 | 5
+Marmelee is active
+Marmelee misses
+Marmelee discards 2 Concentration Counters
+Marmelee moves:
+
+.C.M...
+
+Clinhyde misses
+Marmelee gains 1 Concentration Counter
+
+Beat 10
+-------
+
+Clinhyde
+--------
+life: 15
+discard 1: Toxic Strike
+discard 2: Diffusion Frenzy
+special action
+Active Stim Packs: 
+
+Marmelee
+--------
+life: 4
+discard 1: Magnificent Grasp
+discard 2: Sorceress Dash
+special action
+2 Concentration counters
+
+
+.C.M...
+
+Unbeatable strategy for Clinhyde: Gravity Drive (Ehrlite): 1.48
+
+Clinhyde:
+2% Shock Shot (Crizma)
+6% Gravity Shot (Crizma)
+47% Gravity Drive (Ehrlite)
+44% Gravity Grasp (Crizma)
+1% Phase Burst (Crizma)
+
+Marmelee:
+22% Petrifying Meditation
+31% Barrier Meditation
+24% Nullifying Meditation
+20% Nullifying Drive
+3% Nullifying Burst
+
+
+Clinhyde: Gravity Drive (Ehrlite)
+Marmelee: Petrifying Meditation
+
 Clinhyde activates Ehrlite
-Clinhyde loses 1 life (now at 12)
-Priorities:  6 | 5
+Clinhyde loses 1 life (now at 14)
+Priorities:  6 | 2
 Clinhyde is active
+Marmelee discards 2 Concentration Counters
+Marmelee gains Soak 2
 Clinhyde hits
-Marmelee takes 3 damage (now at 0 life)
+Clinhyde moves Marmelee:
+
+.C...M.
+
+Marmelee has 2 soak
+Marmelee takes 1 damage (now at 3 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
+
+Beat 11
+-------
+
+Clinhyde
+--------
+life: 14
+discard 1: Gravity Drive
+discard 2: Toxic Strike
+special action
+Active Stim Packs: Ehrlite
+
+Marmelee
+--------
+life: 3
+discard 1: Petrifying Meditation
+discard 2: Magnificent Grasp
+special action
+2 Concentration counters
+
+
+.C...M.
+
+Clinhyde:
+3% Shock Frenzy (Crizma)
+33% Shock Frenzy
+10% Shock Burst (Crizma)
+27% Diffusion Shot
+24% Phase Shot
+3% Phase Burst
+
+Marmelee:
+6% Sorceress Shot
+3% Barrier Strike
+7% Barrier Drive
+2% Barrier Dash
+78% Special Pulse
+4% Special Astral Trance
+
+
+Clinhyde: Shock Burst (Crizma)
+Marmelee: Barrier Drive
+
+Clinhyde activates Crizma
+Clinhyde loses 2 life (now at 12)
+Priorities:  3 | 4
+Marmelee is active
+Clinhyde moves:
+
+C....M.
+
+Marmelee moves:
+
+C..M...
+
+Marmelee misses
+Clinhyde hits
+Marmelee takes 4 damage (now at 0 life)
 CLINHYDE WINS!
-total_time: 20
+total_time: 37

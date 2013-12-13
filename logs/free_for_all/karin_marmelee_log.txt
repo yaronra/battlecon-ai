@@ -22,7 +22,7 @@ life: 20
 discard 1: Petrifying Burst
 discard 2: Barrier Grasp
 special action
-2 Concentration tokens
+2 Concentration counters
 
 
 .K...M.
@@ -45,33 +45,30 @@ Marmelee:
 3% Nullifying Drive
 
 
-Karin: Dual Claw
+Karin: Dual Burst
 Marmelee: Sorceress Meditation
 
-Priorities:  4 | 2
-Karin is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee gains Soak 2
-Jager moves:
-
-.K...M.
-...j...
-
+Priorities:  1 | 2
+Marmelee is active
 Karin moves:
 
-..K..M.
-...j...
+K....M.
+.j.....
 
-Karin misses
 Marmelee misses
 Jager moves:
 
-..K..M.
+K....M.
 ....j..
 
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
+Karin misses
+Marmelee gains 1 Concentration Counter
+Jager moves:
+
+K....M.
+.....j.
+
+Marmelee gains 1 Concentration Counter
 
 Beat 2
 -------
@@ -79,7 +76,7 @@ Beat 2
 Karin
 -----
 life: 20
-discard 1: Dual Claw
+discard 1: Dual Burst
 discard 2: Full Moon Strike
 special action
 
@@ -89,55 +86,54 @@ life: 20
 discard 1: Sorceress Meditation
 discard 2: Petrifying Burst
 special action
-2 Concentration tokens
+4 Concentration counters
 
-
-..K..M.
-....j..
-
-Karin:
-7% Howling Burst
-17% Coordinated Drive
-59% Coordinated Burst
-17% Feral Shot
-
-Marmelee:
-11% Magnificent Strike
-19% Magnificent Grasp
-62% Magnificent Dash
-8% Barrier Shot
-
-
-Karin: Coordinated Burst
-Marmelee: Magnificent Strike
-
-Priorities:  1 | 3
-Marmelee is active
-Karin moves:
 
 K....M.
-....j..
+.....j.
 
-Marmelee misses
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee moves:
+Karin:
+42% Howling Shot
+11% Coordinated Claw
+20% Coordinated Shot
+28% Feral Claw
 
-KM.....
-....j..
+Marmelee:
+38% Barrier Strike
+18% Barrier Shot
+39% Barrier Dash
+6% Special Pulse
+
+
+Karin: Feral Claw
+Marmelee: Barrier Strike
+
+Priorities:  5 | 3
+Karin is active
+Karin moves:
+
+.K...M.
+.....j.
+
+Marmelee discards 4 Concentration Counters
+Karin moves:
+
+..K..M.
+.....j.
 
 Karin misses
+Marmelee misses
+Karin moves:
+
+.K...M.
+.....j.
+
 Jager moves:
 
-KM.....
-...j...
+.K...M.
+....j..
 
-Jager moves:
-
-KM.....
-..j....
-
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 3
 -------
@@ -145,61 +141,53 @@ Beat 3
 Karin
 -----
 life: 20
-discard 1: Coordinated Burst
-discard 2: Dual Claw
+discard 1: Feral Claw
+discard 2: Dual Burst
 special action
 
 Marmelee
 --------
 life: 20
-discard 1: Magnificent Strike
+discard 1: Barrier Strike
 discard 2: Sorceress Meditation
 special action
-1 Concentration tokens
+1 Concentration counters
 
 
-KM.....
-..j....
+.K...M.
+....j..
 
 Karin:
-54% Howling Shot
-31% Howling Grasp
-14% Full Moon Strike
-2% Full Moon Drive
+5% Coordinated Shot
+50% Full Moon Strike
+41% Full Moon Shot
+5% Full Moon Grasp
 
 Marmelee:
-40% Petrifying Grasp
-9% Nullifying Shot
-12% Nullifying Burst
-39% Nullifying Dash
+12% Petrifying Dash
+18% Magnificent Drive
+38% Nullifying Shot
+32% Nullifying Grasp
 
 
-Karin: Howling Grasp
-Marmelee: Petrifying Grasp
+Karin: Full Moon Strike
+Marmelee: Nullifying Grasp
 
-Priorities:  6 | 4
-Karin is active
-Karin hits
-Karin moves Marmelee:
+Priorities:  4 | 6
+Marmelee is active
+Marmelee moves:
 
-K.M....
-..j....
+.K....M
+....j..
 
-Karin gets +2 power
-Marmelee takes 4 damage (now at 16 life)
-Marmelee is stunned
-Marmelee loses all tokens
+Marmelee misses
+Karin misses
 Jager moves:
 
-K.M....
-.j.....
+.K....M
+.....j.
 
-Jager moves:
-
-K.M....
-..j....
-
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 4
 -------
@@ -207,66 +195,55 @@ Beat 4
 Karin
 -----
 life: 20
-discard 1: Howling Grasp
-discard 2: Coordinated Burst
+discard 1: Full Moon Strike
+discard 2: Feral Claw
 special action
 
 Marmelee
 --------
-life: 16
-discard 1: Petrifying Grasp
-discard 2: Magnificent Strike
+life: 20
+discard 1: Nullifying Grasp
+discard 2: Barrier Strike
 special action
-1 Concentration tokens
+2 Concentration counters
 
 
-K.M....
-..j....
-
-Unbeatable strategy for Marmelee: Nullifying Dash: -0.36
+.K....M
+.....j.
 
 Karin:
-15% Full Moon Claw
-10% Full Moon Shot
-16% Full Moon Drive
-30% Feral Shot
-28% Feral Dash
+61% Howling Burst
+12% Howling Grasp
+27% Coordinated Shot
 
 Marmelee:
-11% Sorceress Dash
-15% Nullifying Meditation
-9% Nullifying Shot
-8% Nullifying Drive
-57% Nullifying Dash
+12% Magnificent Meditation
+8% Magnificent Shot
+80% Magnificent Dash
 
 
-Karin: Feral Shot
-Marmelee: Nullifying Dash
+Karin: Howling Grasp
+Marmelee: Magnificent Dash
 
-Priorities:  3 | 10
+Priorities:  6 | 9
 Marmelee is active
 Marmelee moves:
 
-K..M...
-..j....
-
-Karin moves:
-
-..KM...
-..j....
-
-Marmelee moves:
-
-.MK....
-..j....
+.K.M...
+.....j.
 
 Karin misses
-Karin moves:
+Jager moves:
 
-.M.K...
-..j....
+.K.M...
+....j..
 
-Marmelee gains 1 Concentration token
+Jager moves:
+
+.K.M...
+...j...
+
+Marmelee gains 1 Concentration Counter
 
 Beat 5
 -------
@@ -274,636 +251,739 @@ Beat 5
 Karin
 -----
 life: 20
-discard 1: Feral Shot
-discard 2: Howling Grasp
+discard 1: Howling Grasp
+discard 2: Full Moon Strike
 special action
 
 Marmelee
 --------
-life: 16
-discard 1: Nullifying Dash
-discard 2: Petrifying Grasp
+life: 20
+discard 1: Magnificent Dash
+discard 2: Nullifying Grasp
 special action
-2 Concentration tokens
+3 Concentration counters
 
 
-.M.K...
-..j....
+.K.M...
+...j...
+
+Unbeatable strategy for Marmelee: Petrifying Shot: -1.78
+Unbeatable strategy for Marmelee: Petrifying Drive: -2.97
 
 Karin:
-9% Coordinated Burst
-91% Full Moon Strike
+89% Feral Claw
+11% Dual Claw
 
 Marmelee:
-28% Magnificent Strike
-72% Barrier Strike
+11% Petrifying Strike
+89% Petrifying Drive
 
 
-Karin: Full Moon Strike
-Marmelee: Barrier Strike
+Karin: Feral Claw
+Marmelee: Petrifying Drive
 
-Priorities:  4 | 3
+Priorities:  5 | 3
 Karin is active
-Karin hits
-Marmelee takes 4 damage (now at 12 life)
+Karin moves:
+
+..KM...
+...j...
+
+Marmelee discards 3 Concentration Counters
+Marmelee becomes the active player
+Marmelee moves:
+
+.MK....
+...j...
+
 Marmelee hits
-Karin has 2 soak
-Karin takes 1 damage (now at 19 life)
-Jager moves:
+Karin takes 4 damage (now at 16 life)
+Karin is stunned
+Karin moves:
 
-.M.K...
-.j.....
+KM.....
+...j...
 
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 6
 -------
 
 Karin
 -----
-life: 19
-discard 1: Full Moon Strike
-discard 2: Feral Shot
+life: 16
+discard 1: Feral Claw
+discard 2: Howling Grasp
 special action
 
 Marmelee
 --------
-life: 12
-discard 1: Barrier Strike
-discard 2: Nullifying Dash
+life: 20
+discard 1: Petrifying Drive
+discard 2: Magnificent Dash
 special action
-3 Concentration tokens
+1 Concentration counters
 
 
-.M.K...
-.j.....
+KM.....
+...j...
 
 Karin:
-58% Howling Claw
-42% Coordinated Burst
+14% Full Moon Strike
+38% Full Moon Drive
+48% Full Moon Burst
 
 Marmelee:
-55% Petrifying Shot
-45% Petrifying Drive
+41% Sorceress Strike
+38% Sorceress Burst
+21% Nullifying Shot
 
 
-Karin: Howling Claw
-Marmelee: Petrifying Shot
+Karin: Full Moon Burst
+Marmelee: Sorceress Burst
 
-Priorities:  5 | 1
+Priorities:  2 | 0
 Karin is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee becomes the active player
-Marmelee hits
-Karin takes 4 damage (now at 15 life)
-Karin moves:
+Marmelee moves:
 
-.MK....
-.j.....
+K..M...
+...j...
 
 Karin hits
-Karin gets +2 power
-Karin gets +2 power
-Jager moves:
-
-.MK....
-j......
-
-Marmelee takes 6 damage (now at 6 life)
+Marmelee takes 3 damage (now at 17 life)
 Marmelee is stunned
-Jager moves:
-
-.MK....
-.j.....
-
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 7
 -------
 
 Karin
 -----
-life: 15
-discard 1: Howling Claw
-discard 2: Full Moon Strike
+life: 16
+discard 1: Full Moon Burst
+discard 2: Feral Claw
 special action
 
 Marmelee
 --------
-life: 6
-discard 1: Petrifying Shot
-discard 2: Barrier Strike
+life: 17
+discard 1: Sorceress Burst
+discard 2: Petrifying Drive
 special action
-1 Concentration tokens
+1 Concentration counters
 
 
-.MK....
-.j.....
+K..M...
+...j...
 
 Karin:
-4% Coordinated Drive
-11% Coordinated Burst
-25% Feral Shot
-30% Feral Drive
-12% Dual Shot
-17% Dual Drive
+41% Howling Strike
+55% Howling Shot
+4% Dual Shot
 
 Marmelee:
-27% Magnificent Meditation
-1% Sorceress Drive
-31% Sorceress Dash
-14% Nullifying Meditation
-20% Nullifying Drive
-6% Nullifying Dash
+37% Magnificent Dash
+46% Barrier Meditation
+17% Barrier Dash
 
 
-Karin: Feral Drive
-Marmelee: Nullifying Drive
+Karin: Howling Shot
+Marmelee: Barrier Meditation
 
-Priorities:  5 | 5
+Priorities:  3 | 3
 Clash!
 
 Karin:
-66% Feral Shot
-34% Feral Dash
+3% Howling Strike
+97% Howling Drive
 
 Marmelee:
-34% Nullifying Meditation
-66% Nullifying Dash
+3% Barrier Grasp
+97% Barrier Dash
 
 
-Karin: Feral Dash
-Marmelee: Nullifying Dash
+Karin: Howling Drive
+Marmelee: Barrier Dash
 
-Priorities:  10 | 10
-Clash!
-
-Karin:
-100% Feral Shot
-
-Marmelee:
-100% Nullifying Meditation
-
-
-Karin: Feral Shot
-Marmelee: Nullifying Meditation
-
-Priorities:  3 | 4
+Priorities:  5 | 9
 Marmelee is active
 Marmelee moves:
 
-M.K....
-.j.....
+K.....M
+...j...
 
-Marmelee spends a Concentration token
-Marmelee gains Soak 1
 Karin moves:
 
-MK.....
-.j.....
+.K....M
+...j...
 
-Marmelee misses
-Karin hits
-Karin moves:
+Karin misses
+Jager moves:
 
-M..K...
-.j.....
+.K....M
+....j..
 
-Marmelee has 1 soak
-Marmelee takes 2 damage (now at 4 life)
-Marmelee is stunned
-Marmelee gains 1 Concentration token
-Karin moves:
+Jager moves:
 
-M.K....
-.j.....
+.K....M
+.....j.
 
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 8
 -------
 
 Karin
 -----
-life: 15
-discard 1: Feral Shot
-discard 2: Howling Claw
+life: 16
+discard 1: Howling Drive
+discard 2: Full Moon Burst
 special action
 
 Marmelee
 --------
-life: 4
-discard 1: Nullifying Meditation
-discard 2: Petrifying Shot
+life: 17
+discard 1: Barrier Dash
+discard 2: Sorceress Burst
 special action
-2 Concentration tokens
+2 Concentration counters
 
 
-M.K....
-.j.....
+.K....M
+.....j.
+
+Unbeatable strategy for Marmelee: Petrifying Meditation: -0.25
 
 Karin:
-11% Coordinated Strike
-16% Coordinated Drive
-58% Coordinated Grasp
-14% Full Moon Strike
+50% Coordinated Claw
+38% Feral Claw
+12% Feral Shot
 
 Marmelee:
-30% Magnificent Grasp
-52% Magnificent Dash
-10% Sorceress Strike
-7% Barrier Strike
+96% Petrifying Meditation
+2% Magnificent Meditation
+2% Nullifying Shot
 
 
-Karin: Coordinated Grasp
-Marmelee: Magnificent Dash
+Karin: Feral Claw
+Marmelee: Petrifying Meditation
 
-Priorities:  5 | 9
-Marmelee is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee moves:
-
-..KM...
-.j.....
-
-Marmelee moves:
+Priorities:  5 | 2
+Karin is active
+Karin moves:
 
 ..K...M
-.j.....
+.....j.
+
+Marmelee discards 2 Concentration Counters
+Marmelee gains Soak 2
+Karin moves:
+
+...K..M
+.....j.
 
 Karin misses
-Jager moves:
+Marmelee misses
+Karin moves:
 
-..K...M
-..j....
+....K.M
+.....j.
 
-Jager moves:
-
-..K...M
-...j...
-
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
 
 Beat 9
 -------
 
 Karin
 -----
-life: 15
-discard 1: Coordinated Grasp
-discard 2: Feral Shot
+life: 16
+discard 1: Feral Claw
+discard 2: Howling Drive
 special action
 
 Marmelee
 --------
-life: 4
-discard 1: Magnificent Dash
-discard 2: Nullifying Meditation
+life: 17
+discard 1: Petrifying Meditation
+discard 2: Barrier Dash
 special action
-1 Concentration tokens
+2 Concentration counters
 
 
-..K...M
-...j...
-
-Unbeatable strategy for Karin: Dual Dash: 0.04
+....K.M
+.....j.
 
 Karin:
-9% Howling Burst
-6% Full Moon Drive
-27% Full Moon Burst
-3% Dual Claw
-55% Dual Burst
+19% Coordinated Burst
+12% Coordinated Grasp
+17% Full Moon Strike
+52% Full Moon Shot
 
 Marmelee:
-52% Petrifying Strike
-0% Petrifying Shot
-33% Sorceress Drive
-8% Barrier Strike
-7% Barrier Shot
+24% Magnificent Grasp
+21% Sorceress Strike
+2% Nullifying Shot
+53% Special Pulse
 
 
-Karin: Dual Burst
-Marmelee: Sorceress Drive
+Karin: Coordinated Burst
+Marmelee: Magnificent Grasp
 
-Priorities:  1 | 3
+Priorities:  1 | 5
 Marmelee is active
 Karin moves:
 
-K.....M
-...j...
-
-Marmelee moves:
-
-K...M..
-...j...
+..K...M
+.....j.
 
 Marmelee misses
-Jager moves:
+Marmelee discards 2 Concentration Counters
+Marmelee moves:
 
-K...M..
+.MK....
 .....j.
 
 Karin misses
-Marmelee spends a Concentration token
-Marmelee moves:
+Jager moves:
 
-K..M...
-.....j.
+.MK....
+....j..
 
 Jager moves:
 
-K..M...
-....j..
+.MK....
+...j...
 
-Marmelee gains 1 Concentration token
-
-Beat 10
--------
-
-Karin
------
-life: 15
-discard 1: Dual Burst
-discard 2: Coordinated Grasp
-special action
-
-Marmelee
---------
-life: 4
-discard 1: Sorceress Drive
-discard 2: Magnificent Dash
-special action
-1 Concentration tokens
-
-
-K..M...
-....j..
-
-Karin:
-1% Howling Claw
-49% Howling Shot
-17% Full Moon Strike
-9% Full Moon Shot
-24% Feral Claw
-
-Marmelee:
-6% Petrifying Meditation
-2% Barrier Grasp
-9% Nullifying Burst
-72% Special Pulse
-11% Special Astral Trance
-
-
-Karin: Howling Shot
-Marmelee: Special Pulse
-
-Pulse:
-
-...MK..
-....j..
-
+Marmelee gains 1 Concentration Counter
 
 Beat 10
 -------
 
 Karin
 -----
-life: 15
-discard 1: Howling Shot
-discard 2: Dual Burst
+life: 16
+discard 1: Coordinated Burst
+discard 2: Feral Claw
 special action
 
 Marmelee
 --------
-life: 4
-discard 1: Sorceress Drive
-discard 2: Magnificent Dash
-1 Concentration tokens
+life: 17
+discard 1: Magnificent Grasp
+discard 2: Petrifying Meditation
+special action
+1 Concentration counters
 
 
-...MK..
-....j..
-
-Karin:
-17% Full Moon Drive
-70% Feral Claw
-3% Feral Strike
-5% Feral Drive
-5% Feral Grasp
-
-Marmelee:
-22% Petrifying Meditation
-2% Petrifying Burst
-43% Barrier Grasp
-6% Nullifying Burst
-27% Nullifying Grasp
-
-
-Karin: Feral Drive
-Marmelee: Barrier Grasp
-
-Priorities:  5 | 5
-Clash!
+.MK....
+...j...
 
 Karin:
-66% Feral Claw
-34% Feral Strike
+6% Howling Shot
+23% Full Moon Strike
+34% Full Moon Dash
+37% Dual Drive
 
 Marmelee:
-71% Barrier Meditation
-29% Barrier Burst
+1% Sorceress Strike
+61% Sorceress Dash
+23% Barrier Dash
+16% Nullifying Strike
 
 
-Karin: Feral Strike
-Marmelee: Barrier Meditation
+Karin: Full Moon Dash
+Marmelee: Sorceress Dash
 
-Priorities:  4 | 3
+Priorities:  10 | 8
 Karin is active
 Karin moves:
 
-..KM...
-....j..
+KM.....
+...j...
 
-Marmelee spends a Concentration token
-Marmelee gains Soak 1
-Karin hits
-Karin moves:
+Marmelee moves:
 
-K..M...
-....j..
+K.M....
+...j...
 
-Marmelee has 1 soak
-Marmelee takes 3 damage (now at 1 life)
-Marmelee is stunned
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
+Jager moves:
+
+K.M....
+..j....
+
+Marmelee discards 1 Concentration Counter
+Marmelee moves:
+
+KM.....
+..j....
+
+Marmelee gains 1 Concentration Counter
 
 Beat 11
 -------
 
 Karin
 -----
-life: 15
-discard 1: Feral Strike
-discard 2: Howling Shot
+life: 16
+discard 1: Full Moon Dash
+discard 2: Coordinated Burst
 special action
 
 Marmelee
 --------
-life: 1
-discard 1: Barrier Meditation
-discard 2: Sorceress Drive
-2 Concentration tokens
+life: 17
+discard 1: Sorceress Dash
+discard 2: Magnificent Grasp
+special action
+1 Concentration counters
 
-
-K..M...
-....j..
-
-Karin:
-39% Coordinated Drive
-38% Coordinated Grasp
-23% Full Moon Grasp
-
-Marmelee:
-8% Petrifying Shot
-20% Magnificent Grasp
-72% Magnificent Dash
-
-
-Karin: Coordinated Grasp
-Marmelee: Magnificent Dash
-
-Priorities:  5 | 9
-Marmelee is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee moves:
 
 KM.....
-....j..
+..j....
 
-Marmelee moves:
+Karin:
+25% Howling Claw
+20% Feral Strike
+37% Feral Shot
+19% Feral Drive
 
-K..M...
-....j..
+Marmelee:
+55% Petrifying Meditation
+6% Petrifying Burst
+32% Barrier Strike
+7% Nullifying Shot
 
-Karin misses
+
+Karin: Feral Strike
+Marmelee: Petrifying Meditation
+
+Priorities:  4 | 2
+Karin is active
+Karin moves:
+
+.MK....
+..j....
+
+Marmelee discards 1 Concentration Counter
+Marmelee gains Soak 1
+Karin hits
+Karin moves:
+
+.M..K..
+..j....
+
+Marmelee has 1 soak
+Marmelee takes 3 damage (now at 14 life)
+Marmelee is stunned
+Karin moves:
+
+.M...K.
+..j....
+
 Jager moves:
 
-K..M...
-...j...
+.M...K.
+.j.....
 
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
 
 Beat 12
 -------
 
 Karin
 -----
-life: 15
-discard 1: Coordinated Grasp
+life: 16
+discard 1: Feral Strike
+discard 2: Full Moon Dash
+special action
+
+Marmelee
+--------
+life: 14
+discard 1: Petrifying Meditation
+discard 2: Sorceress Dash
+special action
+2 Concentration counters
+
+
+.M...K.
+.j.....
+
+Karin:
+9% Howling Burst
+91% Howling Grasp
+
+Marmelee:
+15% Nullifying Grasp
+85% Special Pulse
+
+
+Karin: Howling Grasp
+Marmelee: Special Pulse
+
+Pulse:
+
+.K....M
+.j.....
+
+
+Beat 12
+-------
+
+Karin
+-----
+life: 16
+discard 1: Howling Grasp
 discard 2: Feral Strike
 special action
 
 Marmelee
 --------
-life: 1
-discard 1: Magnificent Dash
-discard 2: Barrier Meditation
-1 Concentration tokens
+life: 14
+discard 1: Petrifying Meditation
+discard 2: Sorceress Dash
+2 Concentration counters
 
-
-K..M...
-...j...
-
-Karin:
-27% Howling Claw
-55% Howling Shot
-18% Howling Burst
-
-Marmelee:
-18% Petrifying Shot
-55% Nullifying Shot
-27% Nullifying Burst
-
-
-Karin: Howling Claw
-Marmelee: Nullifying Burst
-
-Priorities:  5 | 2
-Karin is active
-Marmelee moves:
-
-K...M..
-...j...
-
-Marmelee moves:
-
-K.....M
-...j...
-
-Karin moves:
 
 .K....M
-...j...
+.j.....
 
-Karin misses
-Marmelee misses
+Karin:
+14% Coordinated Claw
+2% Coordinated Shot
+10% Full Moon Claw
+27% Full Moon Shot
+47% Dual Dash
+
+Marmelee:
+15% Magnificent Strike
+29% Magnificent Shot
+18% Magnificent Drive
+29% Barrier Strike
+8% Nullifying Shot
+
+
+Karin: Dual Dash
+Marmelee: Barrier Strike
+
+Priorities:  9 | 3
+Karin is active
 Jager moves:
 
 .K....M
 ....j..
 
+Karin moves:
+
+...K..M
+....j..
+
+Marmelee misses
 Jager moves:
 
-.K....M
+...K..M
 .....j.
 
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 13
 -------
 
 Karin
 -----
-life: 15
-discard 1: Howling Claw
-discard 2: Coordinated Grasp
+life: 16
+discard 1: Dual Dash
+discard 2: Howling Grasp
 special action
 
 Marmelee
 --------
-life: 1
-discard 1: Nullifying Burst
-discard 2: Magnificent Dash
-2 Concentration tokens
+life: 14
+discard 1: Barrier Strike
+discard 2: Petrifying Meditation
+3 Concentration counters
 
+
+...K..M
+.....j.
+
+Karin:
+25% Coordinated Drive
+58% Coordinated Burst
+17% Full Moon Shot
+
+Marmelee:
+20% Magnificent Grasp
+77% Magnificent Dash
+3% Nullifying Shot
+
+
+Karin: Coordinated Burst
+Marmelee: Magnificent Dash
+
+Priorities:  1 | 9
+Marmelee is active
+Karin moves:
 
 .K....M
 .....j.
 
+Marmelee discards 2 Concentration Counters
+Marmelee moves:
+
+.KM....
+.....j.
+
+Marmelee moves:
+
+MK.....
+.....j.
+
+Karin misses
+Jager moves:
+
+MK.....
+....j..
+
+Jager moves:
+
+MK.....
+...j...
+
+Marmelee gains 1 Concentration Counter
+
+Beat 14
+-------
+
+Karin
+-----
+life: 16
+discard 1: Coordinated Burst
+discard 2: Dual Dash
+special action
+
+Marmelee
+--------
+life: 14
+discard 1: Magnificent Dash
+discard 2: Barrier Strike
+2 Concentration counters
+
+
+MK.....
+...j...
+
 Karin:
-37% Full Moon Shot
-51% Full Moon Drive
-12% Full Moon Burst
+100% Full Moon Grasp
 
 Marmelee:
-12% Sorceress Grasp
-37% Barrier Strike
-51% Barrier Grasp
+100% Sorceress Meditation
 
 
-Karin: Full Moon Shot
-Marmelee: Barrier Grasp
+Karin: Full Moon Grasp
+Marmelee: Sorceress Meditation
 
-Priorities:  3 | 5
-Marmelee is active
-Marmelee misses
+Priorities:  6 | 2
+Karin is active
+Marmelee discards 2 Concentration Counters
+Marmelee gains Soak 2
 Karin hits
-Marmelee takes 3 damage (now at 0 life)
+Karin moves Marmelee:
+
+.KM....
+...j...
+
+Marmelee has 2 soak
+Marmelee takes 2 damage (now at 12 life)
+Marmelee is stunned
+Jager moves:
+
+.KM....
+..j....
+
+Marmelee gains 1 Concentration Counter
+Marmelee discards 1 Concentration Counter
+Marmelee moves:
+
+.K.M...
+..j....
+
+Marmelee gains 1 Concentration Counter
+
+Beat 15
+-------
+
+Karin
+-----
+life: 16
+discard 1: Full Moon Grasp
+discard 2: Coordinated Burst
+special action
+
+Marmelee
+--------
+life: 12
+discard 1: Sorceress Meditation
+discard 2: Magnificent Dash
+1 Concentration counters
+
+
+.K.M...
+..j....
+
+Unbeatable strategy for Karin: Howling Dash: 17.00
+Unbeatable strategy for Karin: Feral Dash: 17.00
+Unbeatable strategy for Karin: Dual Dash: 17.00
+
+Karin:
+12% Howling Shot
+12% Howling Dash
+13% Feral Claw
+13% Feral Shot
+13% Feral Drive
+12% Feral Dash
+13% Dual Claw
+12% Dual Dash
+
+Marmelee:
+6% Petrifying Strike
+6% Petrifying Shot
+9% Petrifying Drive
+12% Petrifying Burst
+7% Petrifying Grasp
+6% Barrier Strike
+6% Barrier Shot
+6% Barrier Drive
+6% Barrier Burst
+6% Barrier Grasp
+6% Nullifying Strike
+6% Nullifying Shot
+6% Nullifying Drive
+6% Nullifying Burst
+6% Nullifying Grasp
+
+
+Karin: Howling Shot
+Marmelee: Barrier Shot
+
+Priorities:  3 | 2
+Karin is active
+Karin hits
+Marmelee takes 3 damage (now at 9 life)
+Marmelee is stunned
+Jager moves:
+
+.K.M...
+.j.....
+
+Jager moves:
+
+.K.M...
+j......
+
+Marmelee gains 1 Concentration Counter
+Game goes to time
 KARIN WINS!
-total_time: 33
+total_time: 43

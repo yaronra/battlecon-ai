@@ -29,45 +29,42 @@ special action
 
 
 Khadath:
-35% Teleport Drive
-26% Teleport Dash
-18% Blight Drive
-20% Blight Burst
+16% Teleport Strike
+2% Teleport Shot
+2% Teleport Drive
+55% Teleport Dash
+11% Blight Drive
+13% Blight Burst
 
 Luc:
-37% Memento Dash
-17% Feinting Drive
-24% Chrono Shot
-22% Chrono Drive
+4% Memento Shot
+17% Memento Drive
+31% Memento Dash
+18% Chrono Shot
+23% Chrono Drive
+6% Chrono Grasp
 
 
-Khadath: Teleport Drive
-Luc: Feinting Drive
+Khadath: Teleport Strike
+Luc: Memento Dash
 
-Priorities:  1 | 2
+Priorities:  0 | 8
 Luc is active
 Luc moves:
 
 .K.L...
 
 
-Luc hits
-Khadath takes 3 damage (now at 17 life)
-Khadath is stunned
-Luc moves:
-
-.KL....
-
-
+Khadath misses
 Khadath moves:
 
-..L...K
+K..L...
 
 
 Khadath moves trap:
 
-..L...K
-..t....
+K..L...
+...t...
 
 Luc gains 1 Time token
 
@@ -76,57 +73,66 @@ Beat 2
 
 Khadath
 -------
-life: 17
-discard 1: Teleport Drive
+life: 20
+discard 1: Teleport Strike
 discard 2: Evacuation Grasp
 special action
 
 Luc
 ---
 life: 20
-discard 1: Feinting Drive
+discard 1: Memento Dash
 discard 2: Eternal Flash
 special action
 3 Time tokens
 
 
-..L...K
-..t....
+K..L...
+...t...
 
-Unbeatable strategy for Luc: Memento Dash: -1.20
-Unbeatable strategy for Luc: Fusion Dash: -1.20
-Unbeatable strategy for Luc: Chrono Burst: -0.01
-Unbeatable strategy for Luc: Chrono Dash: -0.99
+Unbeatable strategy for Luc: Feinting Strike (3 tokens): -0.64
+Unbeatable strategy for Luc: Chrono Strike (1 token): -1.72
+Unbeatable strategy for Luc: Chrono Grasp (1 token): -0.23
 
 Khadath:
-73% Blight Shot
-27% Blight Burst
+23% Hunter's Dash
+39% Blight Shot
+38% Blight Drive
 
 Luc:
-30% Memento Dash
-41% Fusion Strike
-30% Fusion Dash
+70% Chrono Strike (1 token)
+1% Chrono Drive (1 token)
+29% Chrono Grasp (1 token)
 
 
-Khadath: Blight Shot
-Luc: Memento Dash
+Khadath: Blight Drive
+Luc: Chrono Strike (1 token)
 
+Luc antes a Time token
 Luc gets -3 priority
-Priorities:  2 | 5
-Luc is active
+Priorities:  4 | 2
+Khadath is active
 Khadath moves trap:
 
-..L...K
-....t..
+K..L...
+..t....
 
+Luc spends a Time token
 Luc moves:
 
-.L....K
-....t..
+K.L....
+..t....
+
+Khadath moves:
+
+.KL....
+..t....
 
 Khadath hits
 Luc takes 3 damage (now at 17 life)
-Luc is stunned
+Luc hits
+Khadath takes 4 damage (now at 16 life)
+Khadath is stunned
 Luc gains 1 Time token
 
 Beat 3
@@ -134,46 +140,61 @@ Beat 3
 
 Khadath
 -------
-life: 17
-discard 1: Blight Shot
-discard 2: Teleport Drive
+life: 16
+discard 1: Blight Drive
+discard 2: Teleport Strike
 special action
 
 Luc
 ---
 life: 17
-discard 1: Memento Dash
-discard 2: Feinting Drive
+discard 1: Chrono Strike
+discard 2: Memento Dash
 special action
-4 Time tokens
+2 Time tokens
 
 
-.L....K
-....t..
+.KL....
+..t....
+
+Unbeatable strategy for Luc: Eternal Flash: -0.21
+Unbeatable strategy for Luc: Eternal Shot: -0.27
+Unbeatable strategy for Luc: Eternal Drive: -0.25
+Unbeatable strategy for Luc: Eternal Grasp: -0.28
 
 Khadath:
-34% Hunter's Snare
-24% Lure Strike
-42% Lure Grasp
+1% Hunter's Dash
+37% Evacuation Grasp
+62% Lure Grasp
 
 Luc:
-52% Eternal Flash
-35% Eternal Shot
-13% Chrono Shot
+41% Eternal Shot
+30% Eternal Drive
+29% Eternal Burst
 
 
-Khadath: Hunter's Snare
-Luc: Eternal Flash
+Khadath: Lure Grasp
+Luc: Eternal Shot
 
-Priorities:  1 | 2
-Luc is active
-Luc moves:
+Luc gets -3 priority
+Priorities:  4 | -5
+Khadath is active
+Khadath hits
+Khadath moves Luc:
 
-..L...K
-....t..
+.K.L...
+..t....
 
-Luc misses
-Khadath misses
+Khadath moves Luc:
+
+.KL....
+..t....
+
+Luc has 1 soak
+Luc takes 0 damage (now at 17 life)
+Luc hits
+Khadath takes 3 damage (now at 13 life)
+Khadath is stunned
 Luc gains 1 Time token
 
 Beat 4
@@ -181,64 +202,77 @@ Beat 4
 
 Khadath
 -------
-life: 17
-discard 1: Hunter's Snare
-discard 2: Blight Shot
+life: 13
+discard 1: Lure Grasp
+discard 2: Blight Drive
 special action
 
 Luc
 ---
 life: 17
-discard 1: Eternal Flash
-discard 2: Memento Dash
+discard 1: Eternal Shot
+discard 2: Chrono Strike
 special action
-5 Time tokens
+3 Time tokens
 
 
-..L...K
-....t..
+.KL....
+..t....
 
 Khadath:
-72% Teleport Strike
-17% Evacuation Drive
-11% Lure Strike
+4% Hunter's Strike
+16% Teleport Strike
+11% Teleport Shot
+11% Teleport Burst
+39% Teleport Dash
+14% Evacuation Shot
+4% Evacuation Burst
 
 Luc:
-62% Chrono Shot
-31% Chrono Drive
-6% Chrono Burst
+10% Memento Drive
+8% Memento Drive (1 token)
+6% Memento Grasp
+7% Memento Grasp (1 token)
+19% Memento Dash (1 token)
+22% Fusion Drive
+27% Fusion Burst
 
 
-Khadath: Teleport Strike
-Luc: Chrono Burst
+Khadath: Teleport Shot
+Luc: Memento Drive (1 token)
 
-Priorities:  0 | 2
+Luc antes a Time token
+Luc gets -3 priority
+Priorities:  -1 | 1
 Luc is active
 Luc moves:
 
-.L....K
-....t..
-
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc moves:
-
-....L.K
-....t..
+LK.....
+..t....
 
 Luc hits
-Khadath takes 3 damage (now at 14 life)
-Khadath misses
+Khadath takes 3 damage (now at 10 life)
+Khadath is stunned
+Luc spends a Time token
+Luc spends a Time token
+Luc attacks again
+Luc moves:
+
+.KL....
+..t....
+
+Luc hits
+Khadath takes 3 damage (now at 7 life)
+Khadath is stunned
 Khadath moves:
 
-K...L..
-....t..
+..L...K
+..t....
 
 Khadath moves trap:
 
-K...L..
-...t...
+..L...K
+.t.....
 
 Luc gains 1 Time token
 
@@ -247,53 +281,66 @@ Beat 5
 
 Khadath
 -------
-life: 14
-discard 1: Teleport Strike
-discard 2: Hunter's Snare
+life: 7
+discard 1: Teleport Shot
+discard 2: Lure Grasp
 special action
 
 Luc
 ---
 life: 17
-discard 1: Chrono Burst
-discard 2: Eternal Flash
+discard 1: Memento Drive
+discard 2: Eternal Shot
 special action
-3 Time tokens
+1 Time tokens
 
 
-K...L..
-...t...
+..L...K
+.t.....
+
+Unbeatable strategy for Luc: Feinting Dash: -1.36
+Unbeatable strategy for Luc: Feinting Dash (1 token): -0.96
+Unbeatable strategy for Luc: Chrono Burst: -0.06
+Unbeatable strategy for Luc: Chrono Dash: -0.02
 
 Khadath:
-37% Blight Shot
-22% Blight Drive
-41% Lure Grasp
+0% Blight Snare
+86% Blight Strike
+4% Blight Burst
+8% Blight Dash
+2% Special Dimensional Exile
 
 Luc:
-35% Fusion Shot
-13% Feinting Grasp
-52% Feinting Dash
+17% Fusion Dash
+32% Fusion Dash (1 token)
+1% Feinting Flash
+19% Feinting Burst
+31% Chrono Burst
 
 
-Khadath: Blight Drive
-Luc: Fusion Shot
+Khadath: Blight Strike
+Luc: Feinting Burst
 
 Luc gets -1 priority
-Priorities:  4 | 2
+Priorities:  3 | -2
 Khadath is active
 Khadath moves trap:
 
-K...L..
+..L...K
 ...t...
 
-Khadath moves:
+Luc moves:
 
-.K..L..
+L.....K
 ...t...
 
-Khadath hits
-Luc takes 3 damage (now at 14 life)
-Luc is stunned
+Khadath misses
+Luc misses
+Luc moves:
+
+.L....K
+...t...
+
 Luc gains 1 Time token
 
 Beat 6
@@ -301,54 +348,41 @@ Beat 6
 
 Khadath
 -------
-life: 14
-discard 1: Blight Drive
-discard 2: Teleport Strike
+life: 7
+discard 1: Blight Strike
+discard 2: Teleport Shot
 special action
 
 Luc
 ---
-life: 14
-discard 1: Fusion Shot
-discard 2: Chrono Burst
+life: 17
+discard 1: Feinting Burst
+discard 2: Memento Drive
 special action
-4 Time tokens
+2 Time tokens
 
 
-.K..L..
+.L....K
 ...t...
-
-Unbeatable strategy for Luc: Memento Drive: -0.02
-Unbeatable strategy for Luc: Memento Dash: -1.44
-Unbeatable strategy for Luc: Memento Dash: -0.24
 
 Khadath:
-12% Hunter's Snare
-5% Hunter's Shot
-16% Evacuation Burst
-21% Lure Shot
-46% Lure Grasp
+59% Hunter's Snare
+40% Lure Drive
+1% Lure Grasp
 
 Luc:
-18% Memento Flash
-17% Memento Drive
-59% Memento Dash
-5% Feinting Flash
-1% Feinting Drive
+71% Eternal Shot
+9% Chrono Shot (1 token)
+19% Chrono Dash
 
 
-Khadath: Hunter's Shot
-Luc: Memento Dash
+Khadath: Hunter's Snare
+Luc: Eternal Shot
 
-Luc gets -1 priority
-Priorities:  2 | 7
-Luc is active
-Luc moves:
-
-.K....L
-...t...
-
+Priorities:  1 | -2
+Khadath is active
 Khadath misses
+Luc misses
 Luc gains 1 Time token
 
 Beat 7
@@ -356,86 +390,65 @@ Beat 7
 
 Khadath
 -------
-life: 14
-discard 1: Hunter's Shot
-discard 2: Blight Drive
+life: 7
+discard 1: Hunter's Snare
+discard 2: Blight Strike
 special action
 
 Luc
 ---
-life: 14
-discard 1: Memento Dash
-discard 2: Fusion Shot
+life: 17
+discard 1: Eternal Shot
+discard 2: Feinting Burst
 special action
-5 Time tokens
+3 Time tokens
 
 
-.K....L
+.L....K
 ...t...
 
 Khadath:
-42% Teleport Snare
-16% Teleport Burst
-24% Teleport Grasp
-8% Teleport Dash
-11% Lure Strike
+20% Teleport Shot
+77% Teleport Drive
+3% Lure Grasp
 
 Luc:
-6% Eternal Grasp
-1% Feinting Strike
-16% Feinting Drive
-43% Chrono Drive
-34% Chrono Burst
+87% Memento Drive
+3% Fusion Drive (3 tokens)
+10% Chrono Drive
 
 
-Khadath: Teleport Grasp
-Luc: Chrono Burst
+Khadath: Teleport Drive
+Luc: Memento Drive
 
-Priorities:  2 | 2
-Clash!
-
-Khadath:
-100% Teleport Burst
-
-Luc:
-100% Chrono Drive
-
-
-Khadath: Teleport Burst
-Luc: Chrono Drive
-
-Priorities:  -2 | 5
+Priorities:  1 | 3
 Luc is active
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
 Luc moves:
 
-.K.L...
+...L..K
 ...t...
 
-Khadath moves:
-
-K..L...
-...t...
-
+Luc misses
+Luc spends a Time token
+Luc spends a Time token
+Luc attacks again
 Luc moves:
 
-KL.....
+.....LK
 ...t...
 
 Luc hits
-Khadath takes 3 damage (now at 11 life)
+Khadath takes 3 damage (now at 4 life)
 Khadath is stunned
 Khadath moves:
 
-.L...K.
+K....L.
 ...t...
 
 Khadath moves trap:
 
-.L...K.
-.t.....
+K....L.
+.....t.
 
 Luc gains 1 Time token
 
@@ -444,67 +457,62 @@ Beat 8
 
 Khadath
 -------
-life: 11
-discard 1: Teleport Burst
-discard 2: Hunter's Shot
+life: 4
+discard 1: Teleport Drive
+discard 2: Hunter's Snare
 special action
 
 Luc
 ---
-life: 14
-discard 1: Chrono Drive
-discard 2: Memento Dash
+life: 17
+discard 1: Memento Drive
+discard 2: Eternal Shot
 special action
-3 Time tokens
+2 Time tokens
 
 
-.L...K.
-.t.....
+K....L.
+.....t.
+
+Unbeatable strategy for Luc: Fusion Dash: -1.81
+Unbeatable strategy for Luc: Fusion Dash (1 token): -1.41
+Unbeatable strategy for Luc: Feinting Dash: -1.81
+Unbeatable strategy for Luc: Feinting Dash (1 token): -1.41
+Unbeatable strategy for Luc: Chrono Flash: -0.33
+Unbeatable strategy for Luc: Chrono Dash: -0.86
+Unbeatable strategy for Luc: Chrono Dash (1 token): -0.35
 
 Khadath:
-23% Evacuation Snare
-19% Blight Snare
-48% Blight Drive
-1% Blight Grasp
-9% Lure Strike
+76% Blight Shot
+14% Blight Burst
+4% Lure Shot
+4% Lure Burst
+1% Special Dimensional Exile
 
 Luc:
-26% Eternal Shot
-27% Eternal Shot
-23% Eternal Burst
-8% Fusion Flash
-17% Feinting Flash
+24% Fusion Strike (1 token)
+61% Fusion Dash
+7% Feinting Flash (1 token)
+8% Chrono Strike (1 token)
 
 
-Khadath: Blight Drive
-Luc: Feinting Flash
+Khadath: Blight Burst
+Luc: Fusion Dash
 
 Luc gets -3 priority
-Priorities:  4 | 1
-Khadath is active
+Priorities:  1 | 7
+Luc is active
 Khadath moves trap:
 
-.L...K.
-...t...
+K....L.
+..t....
 
 Luc moves:
 
-..L..K.
-...t...
+K.....L
+..t....
 
-Khadath moves:
-
-..L.K..
-...t...
-
-Khadath hits
-Luc takes 3 damage (now at 11 life)
-Luc is stunned
-Luc moves:
-
-...LK..
-...t...
-
+Khadath misses
 Luc gains 1 Time token
 
 Beat 9
@@ -512,63 +520,43 @@ Beat 9
 
 Khadath
 -------
-life: 11
-discard 1: Blight Drive
-discard 2: Teleport Burst
+life: 4
+discard 1: Blight Burst
+discard 2: Teleport Drive
 special action
 
 Luc
 ---
-life: 11
-discard 1: Feinting Flash
-discard 2: Chrono Drive
+life: 17
+discard 1: Fusion Dash
+discard 2: Memento Drive
 special action
-4 Time tokens
+3 Time tokens
 
 
-...LK..
-...t...
-
-Unbeatable strategy for Luc: Memento Dash: -1.99
-Unbeatable strategy for Luc: Memento Dash: -0.79
-Unbeatable strategy for Luc: Fusion Dash: -0.23
+K.....L
+..t....
 
 Khadath:
-32% Evacuation Shot
-24% Evacuation Grasp
-44% Lure Strike
+54% Hunter's Snare
+39% Lure Strike
+2% Lure Shot
+5% Lure Grasp
 
 Luc:
-27% Eternal Burst
-67% Memento Dash
-6% Fusion Dash
+61% Eternal Shot
+7% Eternal Shot (3 tokens)
+27% Eternal Grasp (1 token)
+4% Chrono Shot
 
 
-Khadath: Evacuation Grasp
-Luc: Eternal Burst
+Khadath: Hunter's Snare
+Luc: Eternal Shot
 
-Luc gets -3 priority
-Priorities:  5 | -6
+Priorities:  1 | -2
 Khadath is active
-Khadath moves trap:
-
-...LK..
-....t..
-
-Khadath moves:
-
-...L.K.
-....t..
-
-Luc moves:
-
-..L..K.
-....t..
-
 Khadath misses
-Luc hits
-Khadath takes 3 damage (now at 8 life)
-Khadath is stunned
+Luc misses
 Luc gains 1 Time token
 
 Beat 10
@@ -576,66 +564,62 @@ Beat 10
 
 Khadath
 -------
-life: 8
-discard 1: Evacuation Grasp
-discard 2: Blight Drive
+life: 4
+discard 1: Hunter's Snare
+discard 2: Blight Burst
 special action
 
 Luc
 ---
-life: 11
-discard 1: Eternal Burst
-discard 2: Feinting Flash
+life: 17
+discard 1: Eternal Shot
+discard 2: Fusion Dash
 special action
-5 Time tokens
+4 Time tokens
 
 
-..L..K.
-....t..
-
-Unbeatable strategy for Khadath: Teleport Burst: 1.67
+K.....L
+..t....
 
 Khadath:
-5% Teleport Strike
-3% Teleport Shot
-11% Teleport Burst
-67% Teleport Dash
-14% Lure Strike
+14% Teleport Drive
+75% Teleport Grasp
+11% Lure Strike
 
 Luc:
-14% Memento Strike
-2% Memento Strike
-9% Chrono Strike
-25% Chrono Shot
-50% Special Pulse
+47% Feinting Drive (1 token)
+32% Chrono Drive
+21% Chrono Burst
 
 
-Khadath: Teleport Dash
-Luc: Chrono Strike
+Khadath: Teleport Grasp
+Luc: Chrono Drive
 
-Priorities:  6 | 4
-Khadath is active
+Priorities:  2 | 5
+Luc is active
+Luc spends a Time token
 Luc spends a Time token
 Luc moves:
 
-...L.K.
-....t..
+K...L..
+..t....
 
-Khadath moves:
+Luc moves:
 
-.K.L...
-....t..
+K.L....
+..t....
 
 Luc misses
+Khadath misses
 Khadath moves:
 
-K..L...
-....t..
+..L...K
+..t....
 
 Khadath moves trap:
 
-K..L...
-...t...
+..L...K
+.t.....
 
 Luc gains 1 Time token
 
@@ -644,75 +628,65 @@ Beat 11
 
 Khadath
 -------
-life: 8
-discard 1: Teleport Dash
-discard 2: Evacuation Grasp
+life: 4
+discard 1: Teleport Grasp
+discard 2: Hunter's Snare
 special action
 
 Luc
 ---
-life: 11
-discard 1: Chrono Strike
-discard 2: Eternal Burst
+life: 17
+discard 1: Chrono Drive
+discard 2: Eternal Shot
 special action
-5 Time tokens
+3 Time tokens
 
 
-K..L...
-...t...
+..L...K
+.t.....
+
+Unbeatable strategy for Luc: Memento Flash (3 tokens): -1.77
+Unbeatable strategy for Luc: Fusion Flash (3 tokens): -0.77
 
 Khadath:
-37% Blight Strike
-63% Blight Shot
+26% Evacuation Drive
+62% Blight Shot
+10% Blight Drive
+3% Blight Burst
 
 Luc:
-2% Memento Dash
-2% Memento Dash
-2% Fusion Dash
-2% Fusion Dash
-37% Feinting Flash
-2% Feinting Dash
-54% Feinting Dash
+0% Memento Flash (3 tokens)
+93% Fusion Flash (3 tokens)
+6% Feinting Strike (3 tokens)
 
 
 Khadath: Blight Shot
-Luc: Feinting Flash
+Luc: Fusion Flash (3 tokens)
 
 Luc antes a Time token
-Luc gets -3 priority
-Priorities:  2 | 2
-Clash!
-
-Khadath:
-100% Blight Strike
-
-Luc:
-100% Feinting Dash
-
-
-Khadath: Blight Strike
-Luc: Feinting Dash
-
 Luc antes a Time token
-Luc gets -3 priority
-Priorities:  3 | 5
+Luc antes a Time token
+Luc gets -1 priority
+Priorities:  2 | 6
 Luc is active
+Luc moves:
+
+...L..K
+.t.....
+
+Luc moves:
+
+.....LK
+.t.....
+
 Khadath moves trap:
 
-K..L...
-..t....
+.....LK
+....t..
 
-Luc moves:
-
-K....L.
-..t....
-
-Khadath misses
-Luc moves:
-
-K...L..
-..t....
-
+Luc hits
+Khadath takes 0 damage (now at 4 life)
+Khadath is stunned
 Luc gains 1 Time token
 
 Beat 12
@@ -720,59 +694,50 @@ Beat 12
 
 Khadath
 -------
-life: 8
-discard 1: Blight Strike
-discard 2: Teleport Dash
+life: 4
+discard 1: Blight Shot
+discard 2: Teleport Grasp
 special action
 
 Luc
 ---
-life: 11
-discard 1: Feinting Dash
-discard 2: Chrono Strike
+life: 17
+discard 1: Fusion Flash
+discard 2: Chrono Drive
 special action
-5 Time tokens
+1 Time tokens
 
 
-K...L..
-..t....
+.....LK
+....t..
 
 Khadath:
-15% Evacuation Shot
-30% Lure Shot
-29% Lure Drive
-27% Lure Grasp
+4% Evacuation Drive
+16% Evacuation Dash
+9% Lure Strike
+52% Lure Drive
+20% Lure Dash
 
 Luc:
-51% Eternal Shot
-10% Memento Shot
-1% Fusion Shot
-38% Fusion Drive
+56% Eternal Shot
+7% Memento Grasp
+12% Memento Grasp (1 token)
+16% Feinting Burst
+8% Feinting Dash
 
 
-Khadath: Lure Drive
+Khadath: Lure Dash
 Luc: Eternal Shot
 
-Priorities:  3 | -2
+Luc gets -1 priority
+Priorities:  8 | -3
 Khadath is active
 Khadath moves:
 
-.K..L..
-..t....
+...K.L.
+....t..
 
-Khadath hits
-Khadath moves Luc:
-
-.KL....
-..t....
-
-Luc spends a Time token
-Luc gains +1 soak (2 total)
-Luc has 2 soak
-Luc takes 0 damage (now at 11 life)
-Luc hits
-Khadath takes 3 damage (now at 5 life)
-Khadath is stunned
+Luc misses
 Luc gains 1 Time token
 
 Beat 13
@@ -780,331 +745,327 @@ Beat 13
 
 Khadath
 -------
-life: 5
-discard 1: Lure Drive
-discard 2: Blight Strike
+life: 4
+discard 1: Lure Dash
+discard 2: Blight Shot
 special action
 
 Luc
 ---
-life: 11
+life: 17
 discard 1: Eternal Shot
-discard 2: Feinting Dash
+discard 2: Fusion Flash
 special action
-5 Time tokens
+2 Time tokens
 
+
+...K.L.
+....t..
+
+Khadath:
+11% Teleport Strike
+59% Teleport Burst
+22% Teleport Grasp
+8% Evacuation Burst
+
+Luc:
+5% Memento Drive
+25% Chrono Strike
+11% Chrono Drive
+60% Chrono Burst
+
+
+Khadath: Teleport Burst
+Luc: Chrono Burst
+
+Luc gets -1 priority
+Priorities:  -2 | 1
+Luc is active
+Luc moves:
+
+...K..L
+....t..
+
+Luc spends a Time token
+Luc spends a Time token
+Luc moves:
+
+...KL..
+....t..
+
+Khadath moves:
+
+..K.L..
+....t..
+
+Luc hits
+Khadath takes 3 damage (now at 1 life)
+Khadath is stunned
+Khadath moves:
+
+.K..L..
+....t..
+
+Khadath moves trap:
+
+.K..L..
+...t...
+
+Luc gains 1 Time token
+
+Beat 14
+-------
+
+Khadath
+-------
+life: 1
+discard 1: Teleport Burst
+discard 2: Lure Dash
+special action
+
+Luc
+---
+life: 17
+discard 1: Chrono Burst
+discard 2: Eternal Shot
+special action
+1 Time tokens
+
+
+.K..L..
+...t...
+
+Khadath:
+9% Blight Shot
+91% Blight Drive
+
+Luc:
+7% Feinting Flash (1 token)
+93% Feinting Dash
+
+
+Khadath: Blight Drive
+Luc: Feinting Dash
+
+Luc gets -1 priority
+Priorities:  4 | 6
+Luc is active
+Khadath moves trap:
+
+.K..L..
+..t....
+
+Luc moves:
 
 .KL....
 ..t....
 
-Khadath:
-25% Teleport Grasp
-4% Teleport Dash
-10% Evacuation Shot
-62% Evacuation Burst
-
-Luc:
-9% Memento Strike
-1% Memento Burst
-1% Memento Burst
-21% Fusion Strike
-49% Chrono Drive
-20% Chrono Burst
-
-
-Khadath: Evacuation Burst
-Luc: Memento Burst
-
-Luc gets -3 priority
-Priorities:  1 | -3
-Khadath is active
-Khadath moves trap:
-
-.KL....
-.t.....
-
 Khadath moves:
 
-K.L....
-.t.....
-
-Luc moves:
-
-K..L...
-.t.....
+..LK...
+..t....
 
 Khadath hits
-Luc takes 3 damage (now at 8 life)
+Luc takes 3 damage (now at 14 life)
 Luc is stunned
-
-Beat 14
--------
-
-Khadath
--------
-life: 5
-discard 1: Evacuation Burst
-discard 2: Lure Drive
-special action
-
-Luc
----
-life: 8
-discard 1: Memento Burst
-discard 2: Eternal Shot
-special action
-5 Time tokens
-
-
-K..L...
-.t.....
-
-Unbeatable strategy for Khadath: Teleport Snare: 0.53
-Unbeatable strategy for Khadath: Teleport Strike: 3.31
-Unbeatable strategy for Khadath: Teleport Shot: 0.03
-
-Khadath:
-8% Hunter's Snare
-11% Teleport Snare
-77% Teleport Strike
-5% Teleport Shot
-
-Luc:
-6% Feinting Strike
-1% Feinting Grasp
-1% Feinting Grasp
-7% Chrono Flash
-16% Chrono Strike
-70% Special Pulse
-
-
-Khadath: Teleport Strike
-Luc: Special Pulse
-
-Pulse:
-
-..KL...
-.t.....
-
-
-Beat 14
--------
-
-Khadath
--------
-life: 5
-discard 1: Teleport Strike
-discard 2: Evacuation Burst
-special action
-
-Luc
----
-life: 8
-discard 1: Memento Burst
-discard 2: Eternal Shot
-5 Time tokens
-
-
-..KL...
-.t.....
-
-Unbeatable strategy for Khadath: Hunter's Dash: 0.37
-Unbeatable strategy for Khadath: Blight Dash: 0.27
-
-Khadath:
-2% Hunter's Dash
-18% Blight Shot
-4% Blight Drive
-14% Blight Grasp
-62% Special Pulse
-
-Luc:
-7% Fusion Strike
-26% Feinting Dash
-15% Chrono Flash
-19% Chrono Strike
-34% Chrono Grasp
-
-
-Khadath: Special Pulse
-Luc: Feinting Dash
-
-Pulse:
-
-.L....K
-.t.....
-
-
-Beat 14
--------
-
-Khadath
--------
-life: 5
-discard 1: Teleport Strike
-discard 2: Evacuation Burst
-
-Luc
----
-life: 8
-discard 1: Feinting Dash
-discard 2: Memento Burst
-5 Time tokens
-
-
-.L....K
-.t.....
-
-Unbeatable strategy for Luc: Eternal Flash: -0.67
-Unbeatable strategy for Luc: Eternal Strike: -0.52
-Unbeatable strategy for Luc: Eternal Drive: -0.75
-Unbeatable strategy for Luc: Eternal Grasp: -0.52
-Unbeatable strategy for Luc: Chrono Flash: -2.36
-Unbeatable strategy for Luc: Chrono Flash: -2.27
-Unbeatable strategy for Luc: Chrono Strike: -1.32
-Unbeatable strategy for Luc: Chrono Drive: -2.01
-Unbeatable strategy for Luc: Chrono Drive: -1.15
-
-Khadath:
-20% Blight Shot
-20% Blight Drive
-44% Blight Grasp
-16% Lure Grasp
-
-Luc:
-13% Eternal Shot
-46% Chrono Flash
-40% Chrono Strike
-1% Chrono Grasp
-
-
-Khadath: Blight Grasp
-Luc: Chrono Flash
-
-Luc gets -3 priority
-Priorities:  5 | 4
-Khadath is active
-Khadath moves trap:
-
-.L....K
-...t...
-
 Luc moves:
 
-..L...K
-...t...
+...KL..
+..t....
 
-Khadath misses
-Luc misses
+Luc gains 1 Time token
 
 Beat 15
 -------
 
 Khadath
 -------
-life: 5
-discard 1: Blight Grasp
-discard 2: Teleport Strike
+life: 1
+discard 1: Blight Drive
+discard 2: Teleport Burst
+special action
 
 Luc
 ---
-life: 8
-discard 1: Chrono Flash
-discard 2: Feinting Dash
-5 Time tokens
+life: 14
+discard 1: Feinting Dash
+discard 2: Chrono Burst
+special action
+2 Time tokens
 
 
-..L...K
-...t...
+...KL..
+..t....
 
-Unbeatable strategy for Luc: Eternal Strike: -10.00
-Unbeatable strategy for Luc: Eternal Strike: -10.00
-Unbeatable strategy for Luc: Eternal Strike: -10.00
-Unbeatable strategy for Luc: Eternal Strike: -10.00
-Unbeatable strategy for Luc: Eternal Shot: -10.00
-Unbeatable strategy for Luc: Eternal Shot: -10.00
-Unbeatable strategy for Luc: Eternal Shot: -10.00
-Unbeatable strategy for Luc: Eternal Shot: -10.00
-Unbeatable strategy for Luc: Eternal Drive: -10.00
-Unbeatable strategy for Luc: Eternal Drive: -10.00
-Unbeatable strategy for Luc: Eternal Drive: -10.00
-Unbeatable strategy for Luc: Eternal Drive: -10.00
-Unbeatable strategy for Luc: Eternal Burst: -10.00
-Unbeatable strategy for Luc: Eternal Burst: -10.00
-Unbeatable strategy for Luc: Eternal Burst: -10.00
-Unbeatable strategy for Luc: Eternal Burst: -10.00
-Unbeatable strategy for Luc: Eternal Grasp: -10.00
-Unbeatable strategy for Luc: Eternal Grasp: -10.00
-Unbeatable strategy for Luc: Eternal Grasp: -10.00
-Unbeatable strategy for Luc: Eternal Grasp: -10.00
-Unbeatable strategy for Luc: Memento Shot: -10.00
-Unbeatable strategy for Luc: Memento Burst: -10.00
-Unbeatable strategy for Luc: Memento Burst: -10.00
-Unbeatable strategy for Luc: Memento Burst: -10.00
-Unbeatable strategy for Luc: Memento Burst: -10.00
-Unbeatable strategy for Luc: Fusion Shot: -10.00
-Unbeatable strategy for Luc: Fusion Drive: -10.00
-Unbeatable strategy for Luc: Fusion Burst: -10.00
-Unbeatable strategy for Luc: Fusion Burst: -10.00
-Unbeatable strategy for Luc: Fusion Burst: -10.00
-Unbeatable strategy for Luc: Fusion Burst: -10.00
+Unbeatable strategy for Luc: Eternal Flash: -6.00
+Unbeatable strategy for Luc: Eternal Flash (1 token): -6.00
+Unbeatable strategy for Luc: Eternal Strike: -6.00
+Unbeatable strategy for Luc: Eternal Strike (1 token): -6.00
+Unbeatable strategy for Luc: Eternal Shot: -6.00
+Unbeatable strategy for Luc: Eternal Shot (1 token): -6.00
+Unbeatable strategy for Luc: Eternal Drive: -6.00
+Unbeatable strategy for Luc: Eternal Drive (1 token): -6.00
+Unbeatable strategy for Luc: Eternal Grasp: -6.00
+Unbeatable strategy for Luc: Eternal Grasp (1 token): -6.00
+Unbeatable strategy for Luc: Memento Flash: -6.00
+Unbeatable strategy for Luc: Memento Flash (1 token): -6.00
+Unbeatable strategy for Luc: Memento Strike: -6.00
+Unbeatable strategy for Luc: Memento Strike (1 token): -6.00
+Unbeatable strategy for Luc: Memento Shot: -6.00
+Unbeatable strategy for Luc: Memento Shot (1 token): -6.00
+Unbeatable strategy for Luc: Memento Drive: -6.00
+Unbeatable strategy for Luc: Memento Drive (1 token): -6.00
+Unbeatable strategy for Luc: Memento Grasp: -6.00
+Unbeatable strategy for Luc: Memento Grasp (1 token): -6.00
+Unbeatable strategy for Luc: Fusion Flash: -6.00
+Unbeatable strategy for Luc: Fusion Flash (1 token): -6.00
+Unbeatable strategy for Luc: Fusion Strike: -6.00
+Unbeatable strategy for Luc: Fusion Strike (1 token): -6.00
+Unbeatable strategy for Luc: Fusion Shot: -6.00
+Unbeatable strategy for Luc: Fusion Shot (1 token): -6.00
+Unbeatable strategy for Luc: Fusion Drive: -6.00
+Unbeatable strategy for Luc: Fusion Drive (1 token): -6.00
+Unbeatable strategy for Luc: Fusion Grasp: -6.00
+Unbeatable strategy for Luc: Fusion Grasp (1 token): -6.00
 
 Khadath:
-0% Hunter's Snare
-0% Hunter's Shot
-1% Hunter's Drive
-1% Hunter's Burst
-8% Hunter's Dash
-0% Evacuation Snare
-0% Evacuation Shot
-0% Evacuation Drive
-0% Evacuation Burst
-7% Evacuation Dash
-39% Lure Snare
-9% Lure Shot
-9% Lure Drive
-16% Lure Burst
-9% Lure Dash
+100% Special Pulse
 
 Luc:
-4% Eternal Strike
-4% Eternal Strike
-4% Eternal Strike
-4% Eternal Strike
-4% Eternal Shot
-4% Eternal Shot
-4% Eternal Shot
-4% Eternal Shot
-4% Eternal Drive
-4% Eternal Drive
-4% Eternal Drive
-4% Eternal Drive
-4% Eternal Burst
-4% Eternal Burst
-4% Eternal Burst
-4% Eternal Burst
-4% Eternal Grasp
-4% Eternal Grasp
-4% Eternal Grasp
-4% Eternal Grasp
-4% Memento Shot
-4% Memento Burst
-4% Memento Burst
-4% Memento Burst
-4% Memento Burst
+17% Eternal Strike
+17% Eternal Grasp
+17% Memento Strike
+17% Memento Grasp
+17% Fusion Strike
+17% Fusion Grasp
 
 
-Khadath: Lure Snare
-Luc: Eternal Shot
+Khadath: Special Pulse
+Luc: Fusion Grasp
 
-Luc gets -1 priority
-Priorities:  0 | -3
+Pulse:
+
+..L..K.
+..t....
+
+
+Beat 15
+-------
+
+Khadath
+-------
+life: 1
+discard 1: Blight Drive
+discard 2: Teleport Burst
+
+Luc
+---
+life: 14
+discard 1: Fusion Grasp
+discard 2: Feinting Dash
+special action
+2 Time tokens
+
+
+..L..K.
+..t....
+
+Unbeatable strategy for Luc: Eternal Flash: -6.00
+Unbeatable strategy for Luc: Eternal Flash (1 token): -6.00
+Unbeatable strategy for Luc: Eternal Strike: -6.00
+Unbeatable strategy for Luc: Eternal Strike (1 token): -6.00
+Unbeatable strategy for Luc: Eternal Shot: -6.00
+Unbeatable strategy for Luc: Eternal Shot (1 token): -6.00
+Unbeatable strategy for Luc: Eternal Drive: -6.00
+Unbeatable strategy for Luc: Eternal Drive (1 token): -6.00
+Unbeatable strategy for Luc: Eternal Burst: -6.00
+Unbeatable strategy for Luc: Eternal Burst (1 token): -6.00
+Unbeatable strategy for Luc: Memento Flash: -6.00
+Unbeatable strategy for Luc: Memento Flash (1 token): -6.00
+Unbeatable strategy for Luc: Memento Strike: -6.00
+Unbeatable strategy for Luc: Memento Strike (1 token): -6.00
+Unbeatable strategy for Luc: Memento Shot: -6.00
+Unbeatable strategy for Luc: Memento Shot (1 token): -6.00
+Unbeatable strategy for Luc: Memento Drive: -6.00
+Unbeatable strategy for Luc: Memento Drive (1 token): -6.00
+Unbeatable strategy for Luc: Memento Burst: -6.00
+Unbeatable strategy for Luc: Memento Burst (1 token): -6.00
+Unbeatable strategy for Luc: Chrono Flash: -6.00
+Unbeatable strategy for Luc: Chrono Flash (1 token): -6.00
+Unbeatable strategy for Luc: Chrono Strike: -6.00
+Unbeatable strategy for Luc: Chrono Strike (1 token): -6.00
+Unbeatable strategy for Luc: Chrono Shot: -6.00
+Unbeatable strategy for Luc: Chrono Shot (1 token): -6.00
+Unbeatable strategy for Luc: Chrono Drive: -6.00
+Unbeatable strategy for Luc: Chrono Drive (1 token): -6.00
+Unbeatable strategy for Luc: Chrono Burst: -6.00
+Unbeatable strategy for Luc: Chrono Burst (1 token): -6.00
+
+Khadath:
+8% Hunter's Snare
+6% Hunter's Strike
+7% Hunter's Shot
+6% Hunter's Grasp
+4% Hunter's Dash
+8% Evacuation Snare
+7% Evacuation Strike
+8% Evacuation Shot
+7% Evacuation Grasp
+5% Evacuation Dash
+8% Lure Snare
+7% Lure Strike
+8% Lure Shot
+7% Lure Grasp
+5% Lure Dash
+
+Luc:
+3% Eternal Flash
+3% Eternal Flash (1 token)
+3% Eternal Strike
+3% Eternal Strike (1 token)
+3% Eternal Shot
+3% Eternal Shot (1 token)
+3% Eternal Drive
+3% Eternal Drive (1 token)
+3% Eternal Burst
+3% Eternal Burst (1 token)
+3% Memento Flash
+3% Memento Flash (1 token)
+3% Memento Strike
+3% Memento Strike (1 token)
+3% Memento Shot
+3% Memento Shot (1 token)
+3% Memento Drive
+3% Memento Drive (1 token)
+3% Memento Burst
+3% Memento Burst (1 token)
+3% Chrono Flash
+3% Chrono Flash (1 token)
+3% Chrono Strike
+3% Chrono Strike (1 token)
+3% Chrono Shot
+3% Chrono Shot (1 token)
+3% Chrono Drive
+3% Chrono Drive (1 token)
+3% Chrono Burst
+3% Chrono Burst (1 token)
+
+
+Khadath: Lure Grasp
+Luc: Memento Drive
+
+Luc gets -3 priority
+Priorities:  4 | 0
 Khadath is active
 Khadath hits
-Luc has 1 soak
-Luc takes 1 damage (now at 7 life)
-Luc hits
-Khadath takes 3 damage (now at 2 life)
+Khadath moves Luc:
+
+.L...K.
+..t....
+
+Luc takes 1 damage (now at 13 life)
+Luc is stunned
+Luc gains 1 Time token
 Game goes to time
 LUC WINS!
-total_time: 84
+total_time: 49

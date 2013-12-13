@@ -15,7 +15,7 @@ life: 20
 discard 1: Petrifying Burst
 discard 2: Barrier Grasp
 special action
-2 Concentration tokens
+2 Concentration counters
 
 Vanaah
 ------
@@ -44,75 +44,69 @@ Vanaah:
 18% Paladin Shot (Divine Rush)
 
 
-Marmelee: Magnificent Dash
+Marmelee: Nullifying Shot
 Vanaah: Paladin Shot
 
-Priorities:  9 | 0
+Priorities:  3 | 0
 Marmelee is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
 Marmelee moves:
 
-.....VM
+M....V.
 
-Marmelee moves:
-
-..M..V.
-
-Vanaah misses
+Marmelee hits
+Marmelee discards 2 Concentration Counters
+Vanaah gets -2 power
+Vanaah takes 3 damage (now at 17 life)
+Vanaah hits
+Marmelee takes 2 damage (now at 18 life)
 Vanaah moves:
 
-.VM....
+MV.....
 
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 2
 -------
 
 Marmelee
 --------
-life: 20
-discard 1: Magnificent Dash
+life: 18
+discard 1: Nullifying Shot
 discard 2: Petrifying Burst
 special action
-1 Concentration tokens
+1 Concentration counters
 
 Vanaah
 ------
-life: 20
+life: 17
 discard 1: Paladin Shot
 discard 2: Vengeance Burst
 special action
 Divine Rush token in pool
 
 
-.VM....
-
-Unbeatable strategy for Vanaah: Reaping Scythe (Divine Rush): -0.48
-Unbeatable strategy for Vanaah: Reaping Strike (Divine Rush): -3.17
-Unbeatable strategy for Vanaah: Reaping Drive (Divine Rush): -1.42
-Unbeatable strategy for Vanaah: Reaping Grasp (Divine Rush): -0.60
-Unbeatable strategy for Vanaah: Judgment Drive (Divine Rush): -3.32
-Unbeatable strategy for Vanaah: Glorious Drive (Divine Rush): -4.48
-Unbeatable strategy for Vanaah: Glorious Grasp (Divine Rush): -3.53
+MV.....
 
 Marmelee:
-91% Barrier Meditation
-9% Nullifying Grasp
+10% Magnificent Dash
+90% Barrier Dash
 
 Vanaah:
-7% Glorious Strike (Divine Rush)
-93% Glorious Drive (Divine Rush)
+51% Glorious Scythe (Divine Rush)
+42% Glorious Drive (Divine Rush)
+7% Glorious Dash
 
 
-Marmelee: Barrier Meditation
-Vanaah: Glorious Drive (Divine Rush)
+Marmelee: Barrier Dash
+Vanaah: Glorious Scythe (Divine Rush)
 
 Vanaah antes a Divine Rush token
-Priorities:  3 | 6
-Vanaah is active
-Marmelee spends a Concentration token
-Marmelee gains Soak 1
+Priorities:  9 | 5
+Marmelee is active
+Marmelee moves:
+
+.VM....
+
 Vanaah moves:
 
 ..MV...
@@ -121,28 +115,24 @@ Vanaah moves:
 
 .VM....
 
-Vanaah hits
-Marmelee has 1 soak
-Marmelee takes 6 damage (now at 14 life)
-Marmelee is stunned
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
+Vanaah misses
+Marmelee gains 1 Concentration Counter
 
 Beat 3
 -------
 
 Marmelee
 --------
-life: 14
-discard 1: Barrier Meditation
-discard 2: Magnificent Dash
+life: 18
+discard 1: Barrier Dash
+discard 2: Nullifying Shot
 special action
-2 Concentration tokens
+2 Concentration counters
 
 Vanaah
 ------
-life: 20
-discard 1: Glorious Drive Divine Rush
+life: 17
+discard 1: Glorious Scythe Divine Rush
 discard 2: Paladin Shot
 special action
 
@@ -150,229 +140,192 @@ special action
 .VM....
 
 Marmelee:
-4% Petrifying Drive
-60% Sorceress Strike
-25% Sorceress Grasp
-11% Nullifying Burst
+32% Magnificent Strike
+0% Magnificent Grasp
+68% Sorceress Strike
 
 Vanaah:
-19% Reaping Scythe
-17% Reaping Strike
-44% Reaping Burst
-20% Reaping Grasp
+59% Reaping Drive
+22% Judgment Drive
+19% Vengeance Burst
 
 
-Marmelee: Sorceress Grasp
-Vanaah: Reaping Grasp
+Marmelee: Sorceress Strike
+Vanaah: Judgment Drive
 
-Priorities:  4 | 6
+Priorities:  2 | 3
 Vanaah is active
+Vanaah moves:
+
+..M.V..
+
 Vanaah hits
-Marmelee discards a Concentration token
-Vanaah moves Marmelee:
-
-MV.....
-
-Marmelee takes 2 damage (now at 12 life)
-Marmelee is stunned
-Marmelee loses all tokens
-Marmelee gains 1 Concentration token
+Marmelee takes 4 damage (now at 14 life)
+Marmelee discards 1 Concentration Counter
+Marmelee gains +0~2 range
+Marmelee hits
+Vanaah takes 4 damage (now at 13 life)
+Vanaah is stunned
+Marmelee gains 1 Concentration Counter
 
 Beat 4
 -------
 
 Marmelee
 --------
-life: 12
-discard 1: Sorceress Grasp
-discard 2: Barrier Meditation
+life: 14
+discard 1: Sorceress Strike
+discard 2: Barrier Dash
 special action
-1 Concentration tokens
+2 Concentration counters
 
 Vanaah
 ------
-life: 20
-discard 1: Reaping Grasp
-discard 2: Glorious Drive Divine Rush
+life: 13
+discard 1: Judgment Drive
+discard 2: Glorious Scythe Divine Rush
 special action
 
 
-MV.....
-
-Unbeatable strategy for Marmelee: Nullifying Dash: 0.95
+..M.V..
 
 Marmelee:
-6% Petrifying Strike
-5% Petrifying Shot
-7% Petrifying Drive
-2% Petrifying Burst
-81% Magnificent Dash
+20% Petrifying Shot
+14% Petrifying Drive
+9% Magnificent Burst
+29% Magnificent Grasp
+28% Nullifying Shot
 
 Vanaah:
-8% Paladin Scythe
-5% Paladin Strike
-56% Paladin Shot
-14% Vengeance Shot
-16% Vengeance Burst
+27% Reaping Shot
+0% Reaping Burst
+27% Paladin Shot
+25% Paladin Burst
+21% Paladin Grasp
 
 
-Marmelee: Magnificent Dash
+Marmelee: Petrifying Shot
 Vanaah: Paladin Shot
 
-Priorities:  9 | 0
+Priorities:  1 | 0
 Marmelee is active
-Marmelee moves:
+Marmelee hits
+Marmelee discards 2 Concentration Counters
+Vanaah is stunned
+Vanaah takes 4 damage (now at 9 life)
+Vanaah moves:
 
 .VM....
 
-Vanaah misses
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 5
 -------
 
 Marmelee
 --------
-life: 12
-discard 1: Magnificent Dash
-discard 2: Sorceress Grasp
+life: 14
+discard 1: Petrifying Shot
+discard 2: Sorceress Strike
 special action
-2 Concentration tokens
+1 Concentration counters
 
 Vanaah
 ------
-life: 20
+life: 9
 discard 1: Paladin Shot
-discard 2: Reaping Grasp
+discard 2: Judgment Drive
 special action
 Divine Rush token in pool
 
 
 .VM....
 
-Unbeatable strategy for Vanaah: Judgment Drive (Divine Rush): -3.59
-Unbeatable strategy for Vanaah: Glorious Scythe (Divine Rush): -5.05
-Unbeatable strategy for Vanaah: Glorious Drive (Divine Rush): -4.85
-
 Marmelee:
-3% Petrifying Burst
-2% Barrier Meditation
-1% Nullifying Meditation
-94% Special Pulse
+3% Barrier Meditation
+43% Barrier Dash
+0% Nullifying Burst
+1% Nullifying Grasp
+52% Nullifying Dash
 
 Vanaah:
-73% Glorious Scythe (Divine Rush)
-19% Glorious Strike (Divine Rush)
-1% Vengeance Strike
-7% Vengeance Drive
+20% Reaping Dash
+19% Glorious Scythe (Divine Rush)
+20% Vengeance Scythe
+9% Vengeance Strike
+32% Vengeance Dash
 
 
-Marmelee: Special Pulse
-Vanaah: Glorious Strike (Divine Rush)
+Marmelee: Barrier Dash
+Vanaah: Glorious Scythe (Divine Rush)
 
 Vanaah antes a Divine Rush token
-Pulse:
-
-M....V.
-
-
-Beat 5
--------
-
-Marmelee
---------
-life: 12
-discard 1: Magnificent Dash
-discard 2: Sorceress Grasp
-2 Concentration tokens
-
-Vanaah
-------
-life: 20
-discard 1: Glorious Strike Divine Rush
-discard 2: Paladin Shot
-special action
-
-
-M....V.
-
-Marmelee:
-10% Petrifying Meditation
-10% Petrifying Shot
-63% Barrier Meditation
-12% Barrier Shot
-5% Nullifying Meditation
-
-Vanaah:
-41% Reaping Burst
-7% Judgment Burst
-11% Judgment Grasp
-22% Vengeance Scythe
-18% Vengeance Burst
-
-
-Marmelee: Petrifying Meditation
-Vanaah: Judgment Burst
-
-Priorities:  2 | 0
+Priorities:  9 | 5
 Marmelee is active
+Marmelee moves:
+
+.V...M.
+
 Vanaah moves:
 
-M.....V
+..V..M.
 
-Marmelee misses
+Vanaah moves:
+
+...V.M.
+
 Vanaah misses
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 6
 -------
 
 Marmelee
 --------
-life: 12
-discard 1: Petrifying Meditation
-discard 2: Magnificent Dash
-4 Concentration tokens
+life: 14
+discard 1: Barrier Dash
+discard 2: Petrifying Shot
+special action
+2 Concentration counters
 
 Vanaah
 ------
-life: 20
-discard 1: Judgment Burst
-discard 2: Glorious Strike Divine Rush
+life: 9
+discard 1: Glorious Scythe Divine Rush
+discard 2: Paladin Shot
 special action
 
 
-M.....V
+...V.M.
 
 Marmelee:
-51% Sorceress Shot
-49% Sorceress Burst
+56% Magnificent Meditation
+34% Magnificent Grasp
+7% Sorceress Strike
+1% Nullifying Drive
+2% Nullifying Burst
 
 Vanaah:
-42% Paladin Scythe
-58% Paladin Shot
+11% Reaping Strike
+38% Reaping Drive
+34% Reaping Burst
+1% Reaping Grasp
+15% Judgment Burst
 
 
-Marmelee: Sorceress Burst
-Vanaah: Paladin Scythe
+Marmelee: Magnificent Meditation
+Vanaah: Reaping Strike
 
-Priorities:  0 | 1
+Priorities:  3 | 4
 Vanaah is active
-Vanaah moves:
-
-M....V.
-
-Vanaah misses
-Marmelee spends a Concentration token
-Marmelee gains +0~2 range
-Marmelee hits
-Vanaah takes 3 damage (now at 17 life)
-Vanaah moves:
-
-MV.....
-
-Marmelee gains 1 Concentration token
+Marmelee discards 2 Concentration Counters
+Marmelee gains Soak 2
+Vanaah hits
+Marmelee has 2 soak
+Marmelee takes 2 damage (now at 12 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
 
 Beat 7
 -------
@@ -380,410 +333,238 @@ Beat 7
 Marmelee
 --------
 life: 12
-discard 1: Sorceress Burst
-discard 2: Petrifying Meditation
-4 Concentration tokens
+discard 1: Magnificent Meditation
+discard 2: Barrier Dash
+special action
+2 Concentration counters
 
 Vanaah
 ------
-life: 17
-discard 1: Paladin Scythe
-discard 2: Judgment Burst
+life: 9
+discard 1: Reaping Strike
+discard 2: Glorious Scythe
 special action
 Divine Rush token in pool
 
 
-MV.....
+...V.M.
+
+Unbeatable strategy for Vanaah: Judgment Grasp (Divine Rush): -1.28
+Unbeatable strategy for Vanaah: Paladin Drive (Divine Rush): -3.16
+Unbeatable strategy for Vanaah: Paladin Burst (Divine Rush): -3.15
 
 Marmelee:
-41% Magnificent Dash
-3% Barrier Shot
-37% Barrier Dash
-19% Nullifying Dash
+1% Nullifying Shot
+2% Nullifying Drive
+4% Nullifying Burst
+93% Special Pulse
 
 Vanaah:
-6% Reaping Dash
-55% Glorious Drive (Divine Rush)
-17% Glorious Dash
-23% Vengeance Shot
+49% Paladin Drive (Divine Rush)
+49% Paladin Burst (Divine Rush)
+1% Vengeance Shot
+1% Vengeance Burst
 
 
-Marmelee: Magnificent Dash
-Vanaah: Glorious Drive (Divine Rush)
+Marmelee: Special Pulse
+Vanaah: Paladin Burst (Divine Rush)
 
 Vanaah antes a Divine Rush token
-Priorities:  9 | 6
+Pulse:
+
+VM.....
+
+
+Beat 7
+-------
+
+Marmelee
+--------
+life: 12
+discard 1: Magnificent Meditation
+discard 2: Barrier Dash
+2 Concentration counters
+
+Vanaah
+------
+life: 9
+discard 1: Paladin Burst Divine Rush
+discard 2: Reaping Strike
+special action
+
+
+VM.....
+
+Marmelee:
+16% Petrifying Burst
+48% Petrifying Grasp
+36% Nullifying Grasp
+
+Vanaah:
+45% Judgment Drive
+11% Glorious Drive
+44% Glorious Grasp
+
+
+Marmelee: Nullifying Grasp
+Vanaah: Judgment Drive
+
+Priorities:  6 | 3
 Marmelee is active
-Marmelee moves:
-
-.V..M..
-
+Marmelee misses
 Vanaah moves:
 
-..V.M..
+.M.V...
 
-Vanaah moves:
-
-...VM..
-
-Vanaah misses
-Marmelee gains 1 Concentration token
+Vanaah hits
+Marmelee takes 4 damage (now at 8 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
 
 Beat 8
 -------
 
 Marmelee
 --------
-life: 12
-discard 1: Magnificent Dash
-discard 2: Sorceress Burst
-5 Concentration tokens
+life: 8
+discard 1: Nullifying Grasp
+discard 2: Magnificent Meditation
+1 Concentration counters
 
 Vanaah
 ------
-life: 17
-discard 1: Glorious Drive Divine Rush
-discard 2: Paladin Scythe
+life: 9
+discard 1: Judgment Drive
+discard 2: Paladin Burst Divine Rush
 special action
 
 
+.M.V...
+
+Unbeatable strategy for Marmelee: Petrifying Dash: 0.10
+
+Marmelee:
+8% Petrifying Strike
+1% Petrifying Burst
+89% Petrifying Dash
+2% Sorceress Strike
+
+Vanaah:
+32% Reaping Scythe
+26% Reaping Shot
+2% Glorious Strike
+40% Vengeance Shot
+
+
+Marmelee: Petrifying Dash
+Vanaah: Reaping Scythe
+
+Priorities:  8 | 4
+Marmelee is active
+Marmelee moves:
+
 ...VM..
 
-Marmelee:
-73% Petrifying Drive
-27% Petrifying Grasp
+Vanaah moves:
 
-Vanaah:
-84% Reaping Strike
-16% Vengeance Burst
+....MV.
 
-
-Marmelee: Petrifying Grasp
-Vanaah: Reaping Strike
-
-Priorities:  4 | 4
-Clash!
-
-Marmelee:
-73% Petrifying Strike
-27% Petrifying Drive
-
-Vanaah:
-31% Reaping Burst
-69% Reaping Grasp
-
-
-Marmelee: Petrifying Strike
-Vanaah: Reaping Burst
-
-Priorities:  2 | 2
-Clash!
-
-Marmelee:
-53% Petrifying Meditation
-47% Petrifying Drive
-
-Vanaah:
-53% Reaping Shot
-47% Reaping Grasp
-
-
-Marmelee: Petrifying Drive
-Vanaah: Reaping Shot
-
-Priorities:  3 | 3
-Clash!
-
-Marmelee:
-100% Petrifying Meditation
-
-Vanaah:
-100% Reaping Grasp
-
-
-Marmelee: Petrifying Meditation
-Vanaah: Reaping Grasp
-
-Priorities:  2 | 6
-Vanaah is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee becomes the active player
-Marmelee hits
-Vanaah takes 3 damage (now at 14 life)
-Vanaah is stunned
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
+Vanaah misses
+Marmelee gains 1 Concentration Counter
 
 Beat 9
 -------
 
 Marmelee
 --------
-life: 12
-discard 1: Petrifying Meditation
-discard 2: Magnificent Dash
-4 Concentration tokens
+life: 8
+discard 1: Petrifying Dash
+discard 2: Nullifying Grasp
+2 Concentration counters
 
 Vanaah
 ------
-life: 14
-discard 1: Reaping Grasp
-discard 2: Glorious Drive Divine Rush
+life: 9
+discard 1: Reaping Scythe
+discard 2: Judgment Drive
 special action
+Divine Rush token in pool
 
-
-...VM..
-
-Marmelee:
-65% Sorceress Strike
-6% Sorceress Shot
-25% Barrier Drive
-4% Nullifying Burst
-
-Vanaah:
-51% Paladin Scythe
-1% Paladin Strike
-18% Paladin Shot
-30% Vengeance Burst
-
-
-Marmelee: Sorceress Strike
-Vanaah: Paladin Scythe
-
-Priorities:  2 | 1
-Marmelee is active
-Marmelee hits
-Vanaah takes 4 damage (now at 10 life)
-Vanaah moves:
 
 ....MV.
 
+Unbeatable strategy for Vanaah: Glorious Shot (Divine Rush): -4.65
+Unbeatable strategy for Vanaah: Paladin Shot (Divine Rush): -2.57
+
+Marmelee:
+93% Magnificent Meditation
+7% Sorceress Burst
+
+Vanaah:
+26% Glorious Strike (Divine Rush)
+74% Glorious Shot (Divine Rush)
+
+
+Marmelee: Magnificent Meditation
+Vanaah: Glorious Shot (Divine Rush)
+
+Vanaah antes a Divine Rush token
+Priorities:  3 | 4
+Vanaah is active
+Marmelee discards 2 Concentration Counters
+Marmelee gains Soak 2
+Vanaah moves:
+
+...VM..
+
 Vanaah hits
-Vanaah moves Marmelee:
-
-.....VM
-
-Marmelee takes 4 damage (now at 8 life)
-Marmelee gains 1 Concentration token
+Marmelee has 2 soak
+Marmelee takes 5 damage (now at 3 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
 
 Beat 10
 -------
 
 Marmelee
 --------
-life: 8
-discard 1: Sorceress Strike
-discard 2: Petrifying Meditation
-5 Concentration tokens
+life: 3
+discard 1: Magnificent Meditation
+discard 2: Petrifying Dash
+2 Concentration counters
 
 Vanaah
 ------
-life: 10
-discard 1: Paladin Scythe
-discard 2: Reaping Grasp
-special action
-Divine Rush token in pool
-
-
-.....VM
-
-Marmelee:
-79% Magnificent Dash
-3% Barrier Shot
-1% Barrier Drive
-17% Nullifying Dash
-
-Vanaah:
-24% Judgment Shot
-21% Glorious Shot (Divine Rush)
-36% Glorious Drive (Divine Rush)
-19% Vengeance Shot
-
-
-Marmelee: Magnificent Dash
-Vanaah: Glorious Drive (Divine Rush)
-
-Vanaah antes a Divine Rush token
-Priorities:  9 | 6
-Marmelee is active
-Marmelee moves:
-
-..M..V.
-
-Vanaah moves:
-
-..M.V..
-
-Vanaah moves:
-
-.VM....
-
-Vanaah misses
-
-Beat 11
--------
-
-Marmelee
---------
-life: 8
-discard 1: Magnificent Dash
-discard 2: Sorceress Strike
-5 Concentration tokens
-
-Vanaah
-------
-life: 10
-discard 1: Glorious Drive Divine Rush
-discard 2: Paladin Scythe
+life: 9
+discard 1: Glorious Shot Divine Rush
+discard 2: Reaping Scythe
 special action
 
 
-.VM....
+...VM..
 
 Marmelee:
-33% Petrifying Meditation
-26% Petrifying Shot
-2% Petrifying Drive
-39% Petrifying Burst
+8% Barrier Drive
+47% Nullifying Shot
+45% Nullifying Burst
 
 Vanaah:
-15% Reaping Strike
-1% Judgment Shot
-79% Judgment Dash
-4% Vengeance Burst
+49% Judgment Drive
+42% Paladin Strike
+9% Paladin Drive
 
 
-Marmelee: Petrifying Meditation
-Vanaah: Reaping Strike
-
-Priorities:  2 | 4
-Vanaah is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee gains Soak 5
-Vanaah hits
-Marmelee has 5 soak
-Marmelee takes 0 damage (now at 8 life)
-Marmelee hits
-Vanaah takes 3 damage (now at 7 life)
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
-
-Beat 12
--------
-
-Marmelee
---------
-life: 8
-discard 1: Petrifying Meditation
-discard 2: Magnificent Dash
-2 Concentration tokens
-
-Vanaah
-------
-life: 7
-discard 1: Reaping Strike
-discard 2: Glorious Drive
-special action
-Divine Rush token in pool
-
-
-.VM....
-
-Unbeatable strategy for Vanaah: Paladin Scythe (Divine Rush): -1.69
-Unbeatable strategy for Vanaah: Paladin Shot (Divine Rush): -1.75
-
-Marmelee:
-5% Sorceress Drive
-59% Nullifying Shot
-11% Nullifying Burst
-25% Nullifying Grasp
-
-Vanaah:
-38% Paladin Scythe (Divine Rush)
-26% Paladin Shot (Divine Rush)
-15% Paladin Burst (Divine Rush)
-21% Paladin Grasp (Divine Rush)
-
-
-Marmelee: Nullifying Shot
-Vanaah: Paladin Burst (Divine Rush)
-
-Vanaah antes a Divine Rush token
-Priorities:  3 | 1
-Marmelee is active
-Marmelee moves:
-
-.V.M...
-
-Vanaah moves:
-
-V..M...
-
-Marmelee hits
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Vanaah gets -2 power
-Vanaah takes 3 damage (now at 4 life)
-Vanaah hits
-Marmelee takes 4 damage (now at 4 life)
-Marmelee is stunned
-Vanaah moves:
-
-..VM...
-
-Marmelee gains 1 Concentration token
-
-Beat 13
--------
-
-Marmelee
---------
-life: 4
-discard 1: Nullifying Shot
-discard 2: Petrifying Meditation
-1 Concentration tokens
-
-Vanaah
-------
-life: 4
-discard 1: Paladin Burst Divine Rush
-discard 2: Reaping Strike
-special action
-
-
-..VM...
-
-Marmelee:
-3% Sorceress Drive
-34% Sorceress Burst
-44% Barrier Drive
-5% Barrier Grasp
-14% Barrier Dash
-
-Vanaah:
-38% Judgment Drive
-16% Glorious Drive
-3% Glorious Grasp
-20% Vengeance Scythe
-23% Vengeance Shot
-
-
-Marmelee: Sorceress Burst
+Marmelee: Nullifying Burst
 Vanaah: Judgment Drive
 
-Priorities:  0 | 3
+Priorities:  2 | 3
 Vanaah is active
 Vanaah moves:
 
-...M.V.
+....M.V
 
 Vanaah hits
 Marmelee takes 4 damage (now at 0 life)
 VANAAH WINS!
-total_time: 13
+total_time: 12

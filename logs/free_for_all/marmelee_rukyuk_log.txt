@@ -15,7 +15,7 @@ life: 20
 discard 1: Petrifying Burst
 discard 2: Barrier Grasp
 special action
-2 Concentration tokens
+2 Concentration counters
 
 Rukyuk
 ------
@@ -44,9 +44,9 @@ Rukyuk:
 
 
 Marmelee: Special Pulse
-Rukyuk: Point Blank Burst (Longshot)
+Rukyuk: Sniper Grasp (Swift)
 
-Rukyuk antes a Longshot token
+Rukyuk antes a Swift token
 Pulse:
 
 RM.....
@@ -60,109 +60,81 @@ Marmelee
 life: 20
 discard 1: Petrifying Burst
 discard 2: Barrier Grasp
-2 Concentration tokens
+2 Concentration counters
 
 Rukyuk
 ------
 life: 20
-discard 1: Point Blank Burst
+discard 1: Sniper Grasp
 discard 2: Crossfire Reload
 special action
-pool: AP, Explosive, Flash, Impact, Swift
+pool: AP, Explosive, Flash, Impact, Longshot
 
 
 RM.....
 
-Unbeatable strategy for Rukyuk: Sniper Drive: -0.01
-Unbeatable strategy for Rukyuk: Sniper Dash: -0.46
-Unbeatable strategy for Rukyuk: Gunner Dash: -0.10
+Unbeatable strategy for Rukyuk: Point Blank Strike (AP): -0.15
+Unbeatable strategy for Rukyuk: Point Blank Strike (Flash): -0.05
+Unbeatable strategy for Rukyuk: Point Blank Strike (Longshot): -0.18
+Unbeatable strategy for Rukyuk: Point Blank Shot (Explosive): -1.42
+Unbeatable strategy for Rukyuk: Point Blank Shot (Impact): -1.42
+Unbeatable strategy for Rukyuk: Point Blank Drive (AP): -0.04
+Unbeatable strategy for Rukyuk: Point Blank Drive (Explosive): -1.15
+Unbeatable strategy for Rukyuk: Point Blank Drive (Flash): -1.45
+Unbeatable strategy for Rukyuk: Gunner Drive (Longshot): -2.33
 
 Marmelee:
-16% Magnificent Drive
-2% Sorceress Meditation
-2% Sorceress Strike
-6% Sorceress Drive
-74% Nullifying Meditation
+6% Magnificent Strike
+7% Sorceress Strike
+74% Nullifying Strike
+13% Nullifying Dash
 
 Rukyuk:
-11% Sniper Drive
-8% Gunner Drive (AP)
-0% Gunner Drive (Flash)
-8% Gunner Grasp (Impact)
-73% Special Pulse
+22% Point Blank Strike (Impact)
+25% Point Blank Shot (Impact)
+30% Point Blank Drive (Explosive)
+23% Point Blank Drive (Impact)
 
 
-Marmelee: Nullifying Meditation
-Rukyuk: Special Pulse
+Marmelee: Nullifying Strike
+Rukyuk: Point Blank Drive (Explosive)
 
-Pulse:
-
-M.....R
-
-
-Beat 1
--------
-
-Marmelee
---------
-life: 20
-discard 1: Nullifying Meditation
-discard 2: Petrifying Burst
-2 Concentration tokens
-
-Rukyuk
-------
-life: 20
-discard 1: Point Blank Burst
-discard 2: Crossfire Reload
-pool: AP, Explosive, Flash, Impact, Swift
-
-
-M.....R
-
-Marmelee:
-24% Magnificent Strike
-76% Magnificent Dash
-
-Rukyuk:
-72% Sniper Grasp (Swift)
-28% Gunner Drive (Flash)
-
-
-Marmelee: Magnificent Dash
-Rukyuk: Sniper Grasp (Swift)
-
-Rukyuk antes a Swift token
-Priorities:  9 | 9
+Rukyuk antes an Explosive token
+Priorities:  4 | 4
 Clash!
 
 Marmelee:
-100% Magnificent Strike
+46% Nullifying Meditation
+54% Nullifying Shot
 
 Rukyuk:
-100% Sniper Shot (Swift)
+46% Point Blank Strike (Explosive)
+54% Point Blank Shot (Explosive)
 
 
-Marmelee: Magnificent Strike
-Rukyuk: Sniper Shot (Swift)
+Marmelee: Nullifying Meditation
+Rukyuk: Point Blank Strike (Explosive)
 
-Rukyuk antes a Swift token
-Priorities:  3 | 6
-Rukyuk is active
-Rukyuk hits
-Marmelee takes 4 damage (now at 16 life)
-Rukyuk moves:
-
-M....R.
-
-Marmelee misses
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
+Rukyuk antes an Explosive token
+Priorities:  4 | 3
+Marmelee is active
 Marmelee moves:
 
-....MR.
+R.M....
 
-Marmelee gains 1 Concentration token
+Marmelee hits
+Marmelee discards 2 Concentration Counters
+Rukyuk gets -2 power
+Rukyuk takes 2 damage (now at 18 life)
+Rukyuk hits
+Rukyuk moves Marmelee:
+
+R...M..
+
+Marmelee takes 4 damage (now at 16 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
 
 Beat 2
 -------
@@ -170,61 +142,83 @@ Beat 2
 Marmelee
 --------
 life: 16
-discard 1: Magnificent Strike
-discard 2: Nullifying Meditation
-1 Concentration tokens
+discard 1: Nullifying Meditation
+discard 2: Petrifying Burst
+2 Concentration counters
 
 Rukyuk
 ------
-life: 20
-discard 1: Sniper Shot
-discard 2: Point Blank Burst
-pool: AP, Explosive, Flash, Impact
+life: 18
+discard 1: Point Blank Strike
+discard 2: Sniper Grasp
+special action
+pool: AP, Flash, Impact, Longshot
 
 
-....MR.
-
-Unbeatable strategy for Rukyuk: Trick Reload: -0.12
-Unbeatable strategy for Rukyuk: Trick Reload (AP): -0.12
-Unbeatable strategy for Rukyuk: Trick Reload (Explosive): -0.12
-Unbeatable strategy for Rukyuk: Trick Reload (Flash): -0.12
-Unbeatable strategy for Rukyuk: Trick Reload (Impact): -0.12
+R...M..
 
 Marmelee:
-0% Petrifying Shot
-3% Petrifying Drive
-88% Petrifying Grasp
-5% Sorceress Drive
-3% Barrier Burst
+8% Magnificent Strike
+63% Magnificent Drive
+16% Sorceress Drive
+12% Sorceress Grasp
 
 Rukyuk:
-29% Gunner Reload (AP)
-2% Gunner Drive (AP)
-44% Gunner Dash
-3% Crossfire Reload
-3% Crossfire Reload (AP)
-3% Crossfire Reload (Explosive)
-3% Crossfire Reload (Flash)
-3% Crossfire Reload (Impact)
-11% Trick Reload
+63% Gunner Reload (Longshot)
+3% Gunner Drive (Flash)
+20% Gunner Drive (Impact)
+14% Gunner Drive (Longshot)
 
 
-Marmelee: Sorceress Drive
-Rukyuk: Trick Reload
+Marmelee: Magnificent Drive
+Rukyuk: Gunner Drive (Longshot)
 
-Priorities:  3 | 1
-Marmelee is active
-Marmelee moves:
+Rukyuk antes a Longshot token
+Priorities:  4 | 4
+Clash!
 
-.....RM
+Marmelee:
+100% Magnificent Shot
 
-Marmelee hits
-Rukyuk takes 3 damage (now at 17 life)
+Rukyuk:
+100% Gunner Shot (Longshot)
+
+
+Marmelee: Magnificent Shot
+Rukyuk: Gunner Shot (Longshot)
+
+Rukyuk antes a Longshot token
+Priorities:  2 | 2
+Clash!
+
+Marmelee:
+100% Magnificent Strike
+
+Rukyuk:
+100% Gunner Reload (Longshot)
+
+
+Marmelee: Magnificent Strike
+Rukyuk: Gunner Reload (Longshot)
+
+Rukyuk antes a Longshot token
+Priorities:  3 | 4
+Rukyuk is active
 Rukyuk moves:
 
-R.....M
+.R..M..
 
-Marmelee gains 1 Concentration token
+Rukyuk moves:
+
+R...M..
+
+Marmelee misses
+Marmelee discards 2 Concentration Counters
+Marmelee moves:
+
+RM.....
+
+Marmelee gains 1 Concentration Counter
 
 Beat 3
 -------
@@ -232,574 +226,171 @@ Beat 3
 Marmelee
 --------
 life: 16
-discard 1: Sorceress Drive
-discard 2: Magnificent Strike
-2 Concentration tokens
+discard 1: Magnificent Strike
+discard 2: Nullifying Meditation
+1 Concentration counters
 
 Rukyuk
 ------
-life: 17
-discard 1: Trick Reload
-discard 2: Sniper Shot
+life: 18
+discard 1: Gunner Reload
+discard 2: Point Blank Strike
+special action
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-R.....M
+RM.....
 
-Unbeatable strategy for Rukyuk: Gunner Strike (AP): -0.92
-Unbeatable strategy for Rukyuk: Gunner Strike (Explosive): -1.11
-Unbeatable strategy for Rukyuk: Gunner Drive (AP): -0.56
-Unbeatable strategy for Rukyuk: Gunner Drive (Explosive): -1.41
-Unbeatable strategy for Rukyuk: Gunner Burst (Explosive): -0.55
-Unbeatable strategy for Rukyuk: Crossfire Drive (Longshot): -0.32
-Unbeatable strategy for Rukyuk: Crossfire Burst (Longshot): -0.88
+Unbeatable strategy for Rukyuk: Sniper Drive: -1.13
+Unbeatable strategy for Rukyuk: Sniper Drive (AP): -0.63
+Unbeatable strategy for Rukyuk: Sniper Drive (Explosive): -0.23
+Unbeatable strategy for Rukyuk: Sniper Drive (Flash): -0.53
+Unbeatable strategy for Rukyuk: Sniper Drive (Impact): -0.43
+Unbeatable strategy for Rukyuk: Sniper Drive (Longshot): -0.13
+Unbeatable strategy for Rukyuk: Sniper Drive (Swift): -0.03
+Unbeatable strategy for Rukyuk: Sniper Dash: -1.89
+Unbeatable strategy for Rukyuk: Sniper Dash (AP): -1.39
+Unbeatable strategy for Rukyuk: Sniper Dash (Explosive): -0.99
+Unbeatable strategy for Rukyuk: Sniper Dash (Flash): -1.29
+Unbeatable strategy for Rukyuk: Sniper Dash (Impact): -1.19
+Unbeatable strategy for Rukyuk: Sniper Dash (Longshot): -0.89
+Unbeatable strategy for Rukyuk: Sniper Dash (Swift): -0.79
+Unbeatable strategy for Rukyuk: Crossfire Dash: -0.13
 
 Marmelee:
-61% Petrifying Meditation
-23% Petrifying Dash
-12% Barrier Meditation
-4% Nullifying Meditation
+61% Petrifying Drive
+38% Petrifying Burst
+1% Sorceress Drive
 
 Rukyuk:
-28% Gunner Strike (Explosive)
-34% Gunner Drive (Explosive)
-36% Crossfire Drive (Longshot)
-3% Crossfire Burst (AP)
+21% Sniper Drive
+74% Sniper Dash
+5% Crossfire Grasp (Longshot)
 
 
-Marmelee: Petrifying Dash
-Rukyuk: Gunner Drive (Explosive)
+Marmelee: Petrifying Drive
+Rukyuk: Sniper Dash
 
-Rukyuk antes an Explosive token
-Priorities:  8 | 4
-Marmelee is active
+Priorities:  3 | 11
+Rukyuk is active
+Rukyuk moves:
+
+.M.R...
+
+Rukyuk moves:
+
+.M....R
+
 Marmelee moves:
 
-R..M...
+...M..R
 
-Rukyuk spends an AP token
-Rukyuk gains -1/+1 range
-Rukyuk moves:
-
-.R.M...
-
-Rukyuk hits
-Marmelee takes 5 damage (now at 11 life)
-Marmelee is stunned
-Marmelee loses all tokens
-Rukyuk moves:
-
-R..M...
-
-Marmelee gains 1 Concentration token
+Marmelee misses
+Marmelee gains 1 Concentration Counter
 
 Beat 4
 -------
 
 Marmelee
 --------
-life: 11
-discard 1: Petrifying Dash
-discard 2: Sorceress Drive
-1 Concentration tokens
+life: 16
+discard 1: Petrifying Drive
+discard 2: Magnificent Strike
+2 Concentration counters
 
 Rukyuk
 ------
-life: 17
-discard 1: Gunner Drive
-discard 2: Trick Reload
-pool: Flash, Impact, Longshot, Swift
+life: 18
+discard 1: Sniper Dash
+discard 2: Gunner Reload
+special action
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-R..M...
+...M..R
 
-Unbeatable strategy for Rukyuk: Point Blank Shot (Flash): -0.79
-Unbeatable strategy for Rukyuk: Point Blank Shot (Impact): -0.81
-Unbeatable strategy for Rukyuk: Point Blank Shot (Longshot): -0.39
-Unbeatable strategy for Rukyuk: Point Blank Shot (Swift): -0.70
-Unbeatable strategy for Rukyuk: Crossfire Strike (Longshot): -0.36
-Unbeatable strategy for Rukyuk: Crossfire Shot (Longshot): -1.16
-Unbeatable strategy for Rukyuk: Crossfire Grasp (Longshot): -0.36
+Unbeatable strategy for Rukyuk: Point Blank Shot (AP): -0.90
+Unbeatable strategy for Rukyuk: Point Blank Shot (Explosive): -0.50
+Unbeatable strategy for Rukyuk: Point Blank Shot (Flash): -0.80
+Unbeatable strategy for Rukyuk: Point Blank Shot (Impact): -0.70
+Unbeatable strategy for Rukyuk: Point Blank Shot (Longshot): -0.56
+Unbeatable strategy for Rukyuk: Point Blank Shot (Swift): -0.30
 
 Marmelee:
-11% Magnificent Meditation
-20% Magnificent Strike
-24% Magnificent Grasp
-29% Barrier Meditation
-16% Nullifying Burst
+35% Sorceress Meditation
+18% Sorceress Grasp
+26% Barrier Dash
+16% Nullifying Shot
+5% Nullifying Burst
 
 Rukyuk:
-34% Crossfire Strike (Longshot)
-13% Crossfire Shot (Impact)
-28% Crossfire Shot (Longshot)
-24% Crossfire Grasp (Longshot)
+12% Point Blank Strike (Longshot)
+63% Point Blank Shot (Longshot)
+3% Point Blank Drive (AP)
+4% Crossfire Strike (Longshot)
+18% Crossfire Shot (Explosive)
 
 
-Marmelee: Nullifying Burst
-Rukyuk: Crossfire Grasp (Longshot)
+Marmelee: Nullifying Shot
+Rukyuk: Point Blank Shot (Longshot)
 
 Rukyuk antes a Longshot token
-Priorities:  2 | 3
-Rukyuk is active
+Priorities:  3 | 2
+Marmelee is active
 Marmelee moves:
 
-R...M..
+..M...R
 
-Marmelee moves:
+Marmelee hits
+Marmelee discards 1 Concentration Counter
+Rukyuk gets -1 power
+Rukyuk takes 3 damage (now at 15 life)
+Rukyuk hits
+Rukyuk moves Marmelee:
 
-R.....M
+M.....R
 
-Rukyuk misses
-Marmelee misses
-Marmelee gains 1 Concentration token
+Marmelee takes 2 damage (now at 14 life)
+Marmelee gains 1 Concentration Counter
 
 Beat 5
 -------
 
 Marmelee
 --------
-life: 11
-discard 1: Nullifying Burst
-discard 2: Petrifying Dash
-2 Concentration tokens
-
-Rukyuk
-------
-life: 17
-discard 1: Crossfire Grasp
-discard 2: Gunner Drive
-pool: Flash, Impact, Swift
-
-
-R.....M
-
-Unbeatable strategy for Rukyuk: Sniper Strike (Flash): -1.04
-Unbeatable strategy for Rukyuk: Sniper Strike (Impact): -0.94
-Unbeatable strategy for Rukyuk: Sniper Strike (Swift): -0.54
-
-Marmelee:
-8% Magnificent Grasp
-38% Sorceress Meditation
-53% Barrier Meditation
-
-Rukyuk:
-49% Sniper Strike (Flash)
-42% Sniper Strike (Swift)
-9% Sniper Burst (Flash)
-
-
-Marmelee: Barrier Meditation
-Rukyuk: Sniper Strike (Swift)
-
-Rukyuk antes a Swift token
-Priorities:  3 | 7
-Rukyuk is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee gains Soak 2
-Rukyuk hits
-Marmelee has 2 soak
-Marmelee takes 3 damage (now at 8 life)
-Marmelee is stunned
-Rukyuk moves:
-
-.R....M
-
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
-
-Beat 6
--------
-
-Marmelee
---------
-life: 8
-discard 1: Barrier Meditation
-discard 2: Nullifying Burst
-2 Concentration tokens
-
-Rukyuk
-------
-life: 17
-discard 1: Sniper Strike
-discard 2: Crossfire Grasp
-pool: Flash, Impact
-
-
-.R....M
-
-Unbeatable strategy for Rukyuk: Trick Reload: -0.27
-Unbeatable strategy for Rukyuk: Trick Reload (Flash): -0.27
-Unbeatable strategy for Rukyuk: Trick Reload (Impact): -0.27
-
-Marmelee:
-96% Magnificent Drive
-0% Sorceress Drive
-4% Sorceress Dash
-
-Rukyuk:
-12% Gunner Drive
-12% Gunner Drive (Flash)
-1% Trick Reload
-70% Trick Reload (Flash)
-5% Trick Reload (Impact)
-
-
-Marmelee: Magnificent Drive
-Rukyuk: Gunner Drive
-
-Priorities:  4 | 4
-Clash!
-
-Marmelee:
-64% Magnificent Shot
-36% Magnificent Dash
-
-Rukyuk:
-64% Gunner Reload
-36% Gunner Shot
-
-
-Marmelee: Magnificent Dash
-Rukyuk: Gunner Shot
-
-Priorities:  9 | 2
-Marmelee is active
-Marmelee moves:
-
-.R.M...
-
-Rukyuk misses
-Rukyuk moves:
-
-R..M...
-
-Marmelee gains 1 Concentration token
-
-Beat 7
--------
-
-Marmelee
---------
-life: 8
-discard 1: Magnificent Dash
-discard 2: Barrier Meditation
-3 Concentration tokens
-
-Rukyuk
-------
-life: 17
-discard 1: Gunner Shot
-discard 2: Sniper Strike
-pool: Flash, Impact
-
-
-R..M...
-
-Marmelee:
-39% Petrifying Shot
-54% Petrifying Drive
-8% Sorceress Strike
-
-Rukyuk:
-60% Crossfire Reload
-8% Crossfire Grasp (Flash)
-32% Trick Reload
-
-
-Marmelee: Petrifying Shot
-Rukyuk: Crossfire Reload
-
-Priorities:  1 | 2
-Rukyuk is active
-Rukyuk moves:
-
-...M..R
-
-Marmelee hits
-Rukyuk has 2 soak
-Rukyuk takes 2 damage (now at 15 life)
-Rukyuk is stunned
-Marmelee gains 1 Concentration token
-
-Beat 8
--------
-
-Marmelee
---------
-life: 8
-discard 1: Petrifying Shot
-discard 2: Magnificent Dash
-4 Concentration tokens
+life: 14
+discard 1: Nullifying Shot
+discard 2: Petrifying Drive
+2 Concentration counters
 
 Rukyuk
 ------
 life: 15
-discard 1: Crossfire Reload
-discard 2: Gunner Shot
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
-
-
-...M..R
-
-Marmelee:
-63% Barrier Drive
-37% Barrier Burst
-
-Rukyuk:
-51% Sniper Strike (Longshot)
-8% Sniper Grasp (Longshot)
-41% Trick Grasp (Swift)
-
-
-Marmelee: Barrier Burst
-Rukyuk: Sniper Strike (Longshot)
-
-Rukyuk antes a Longshot token
-Priorities:  1 | 5
-Rukyuk is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee moves:
-
-..M...R
-
-Rukyuk misses
-Rukyuk moves:
-
-..M..R.
-
-Marmelee hits
-Rukyuk takes 2 damage (now at 13 life)
-Marmelee gains 1 Concentration token
-
-Beat 9
--------
-
-Marmelee
---------
-life: 8
-discard 1: Barrier Burst
-discard 2: Petrifying Shot
-1 Concentration tokens
-
-Rukyuk
-------
-life: 13
-discard 1: Sniper Strike
-discard 2: Crossfire Reload
-pool: AP, Explosive, Flash, Impact, Swift
-
-
-..M..R.
-
-Marmelee:
-5% Magnificent Dash
-60% Sorceress Dash
-12% Nullifying Drive
-23% Nullifying Dash
-
-Rukyuk:
-1% Point Blank Shot (Impact)
-52% Gunner Drive
-44% Gunner Drive (Swift)
-3% Trick Dash (Swift)
-
-
-Marmelee: Nullifying Dash
-Rukyuk: Gunner Drive
-
-Priorities:  10 | 4
-Marmelee is active
-Marmelee moves:
-
-.M...R.
-
-Marmelee moves:
-
-...M.R.
-
-Rukyuk moves:
-
-..RM...
-
-Rukyuk misses
-Rukyuk moves:
-
-R..M...
-
-Marmelee gains 1 Concentration token
-
-Beat 10
--------
-
-Marmelee
---------
-life: 8
-discard 1: Nullifying Dash
-discard 2: Barrier Burst
-2 Concentration tokens
-
-Rukyuk
-------
-life: 13
-discard 1: Gunner Drive
-discard 2: Sniper Strike
-pool: AP, Explosive, Flash, Impact, Swift
-
-
-R..M...
-
-Unbeatable strategy for Rukyuk: Crossfire Grasp (Swift): -0.59
-
-Marmelee:
-7% Petrifying Grasp
-40% Magnificent Strike
-3% Magnificent Drive
-50% Magnificent Grasp
-
-Rukyuk:
-18% Point Blank Shot (Explosive)
-57% Point Blank Shot (Swift)
-3% Crossfire Reload (Swift)
-22% Crossfire Grasp (Swift)
-
-
-Marmelee: Magnificent Grasp
-Rukyuk: Point Blank Shot (Swift)
-
-Rukyuk antes a Swift token
-Priorities:  5 | 4
-Marmelee is active
-Marmelee hits
-Marmelee moves Rukyuk:
-
-.R.M...
-
-Rukyuk takes 1 damage (now at 12 life)
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee moves:
-
-MR.....
-
-Rukyuk hits
-Marmelee takes 3 damage (now at 5 life)
-Marmelee is stunned
-Marmelee gains 1 Concentration token
-
-Beat 11
--------
-
-Marmelee
---------
-life: 5
-discard 1: Magnificent Grasp
-discard 2: Nullifying Dash
-1 Concentration tokens
-
-Rukyuk
-------
-life: 12
 discard 1: Point Blank Shot
-discard 2: Gunner Drive
-pool: AP, Explosive, Flash, Impact
+discard 2: Sniper Dash
+special action
+pool: AP, Explosive, Flash, Impact, Swift
 
 
-MR.....
+M.....R
 
-Unbeatable strategy for Rukyuk: Sniper Reload: -4.13
-Unbeatable strategy for Rukyuk: Sniper Reload (AP): -4.13
-Unbeatable strategy for Rukyuk: Sniper Reload (Explosive): -4.13
-Unbeatable strategy for Rukyuk: Sniper Reload (Flash): -4.13
-Unbeatable strategy for Rukyuk: Sniper Reload (Impact): -4.13
-Unbeatable strategy for Rukyuk: Sniper Dash: -1.28
-Unbeatable strategy for Rukyuk: Sniper Dash (AP): -0.78
-Unbeatable strategy for Rukyuk: Sniper Dash (Explosive): -0.38
-Unbeatable strategy for Rukyuk: Sniper Dash (Flash): -0.68
-Unbeatable strategy for Rukyuk: Sniper Dash (Impact): -0.58
+Unbeatable strategy for Marmelee: Magnificent Dash: 0.85
 
 Marmelee:
-100% Petrifying Meditation
+2% Magnificent Strike
+9% Magnificent Grasp
+89% Magnificent Dash
 
 Rukyuk:
-20% Sniper Reload
-20% Sniper Reload (AP)
-20% Sniper Reload (Explosive)
-20% Sniper Reload (Flash)
-20% Sniper Reload (Impact)
+87% Gunner Drive (AP)
+3% Gunner Drive (Flash)
+10% Gunner Drive (Swift)
 
 
-Marmelee: Petrifying Meditation
-Rukyuk: Sniper Reload (AP)
+Marmelee: Magnificent Strike
+Rukyuk: Gunner Drive (AP)
 
 Rukyuk antes an AP token
-Priorities:  2 | 6
-Rukyuk is active
-Rukyuk moves:
-
-M.R....
-
-Rukyuk moves:
-
-M.....R
-
-Marmelee misses
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
-
-Beat 12
--------
-
-Marmelee
---------
-life: 5
-discard 1: Petrifying Meditation
-discard 2: Magnificent Grasp
-3 Concentration tokens
-
-Rukyuk
-------
-life: 12
-discard 1: Sniper Reload
-discard 2: Point Blank Shot
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
-
-
-M.....R
-
-Unbeatable strategy for Rukyuk: Gunner Strike (Explosive): -10.00
-Unbeatable strategy for Rukyuk: Gunner Strike (Flash): -3.06
-Unbeatable strategy for Rukyuk: Gunner Drive (Explosive): -10.00
-Unbeatable strategy for Rukyuk: Gunner Drive (Flash): -2.25
-Unbeatable strategy for Rukyuk: Gunner Burst (Explosive): -10.00
-Unbeatable strategy for Rukyuk: Gunner Burst (Flash): -1.72
-Unbeatable strategy for Rukyuk: Gunner Grasp (Flash): -1.09
-Unbeatable strategy for Rukyuk: Crossfire Drive (Longshot): -10.00
-
-Marmelee:
-14% Sorceress Strike
-7% Sorceress Shot
-26% Barrier Strike
-26% Barrier Drive
-26% Barrier Burst
-0% Nullifying Dash
-
-Rukyuk:
-26% Gunner Strike (Explosive)
-26% Gunner Drive (Explosive)
-26% Gunner Burst (Explosive)
-14% Crossfire Drive (Longshot)
-7% Crossfire Burst (AP)
-1% Crossfire Burst (Longshot)
-
-
-Marmelee: Barrier Strike
-Rukyuk: Gunner Drive (Explosive)
-
-Rukyuk antes an Explosive token
 Priorities:  3 | 4
 Rukyuk is active
 Rukyuk moves:
@@ -807,6 +398,464 @@ Rukyuk moves:
 M...R..
 
 Rukyuk hits
-Marmelee takes 5 damage (now at 0 life)
+Marmelee takes 3 damage (now at 11 life)
+Rukyuk moves:
+
+M....R.
+
+Marmelee misses
+Marmelee discards 2 Concentration Counters
+Marmelee moves:
+
+....MR.
+
+Marmelee gains 1 Concentration Counter
+
+Beat 6
+-------
+
+Marmelee
+--------
+life: 11
+discard 1: Magnificent Strike
+discard 2: Nullifying Shot
+1 Concentration counters
+
+Rukyuk
+------
+life: 15
+discard 1: Gunner Drive
+discard 2: Point Blank Shot
+special action
+pool: Explosive, Flash, Impact, Swift
+
+
+....MR.
+
+Unbeatable strategy for Rukyuk: Sniper Reload: -0.29
+Unbeatable strategy for Rukyuk: Sniper Reload (Explosive): -0.29
+Unbeatable strategy for Rukyuk: Sniper Reload (Flash): -0.29
+Unbeatable strategy for Rukyuk: Sniper Reload (Impact): -0.29
+Unbeatable strategy for Rukyuk: Sniper Reload (Swift): -0.29
+Unbeatable strategy for Rukyuk: Sniper Dash: -0.32
+Unbeatable strategy for Rukyuk: Crossfire Reload (Swift): -0.97
+Unbeatable strategy for Rukyuk: Trick Reload (Swift): -0.42
+
+Marmelee:
+46% Petrifying Burst
+3% Petrifying Grasp
+32% Sorceress Drive
+6% Barrier Drive
+12% Barrier Burst
+
+Rukyuk:
+9% Sniper Reload
+9% Sniper Reload (Explosive)
+9% Sniper Reload (Flash)
+9% Sniper Reload (Impact)
+8% Sniper Reload (Swift)
+2% Crossfire Reload
+2% Crossfire Reload (Explosive)
+2% Crossfire Reload (Flash)
+2% Crossfire Reload (Impact)
+18% Crossfire Reload (Swift)
+29% Trick Reload
+4% Trick Grasp (Explosive)
+
+
+Marmelee: Sorceress Drive
+Rukyuk: Sniper Reload (Impact)
+
+Rukyuk antes an Impact token
+Priorities:  3 | 6
+Rukyuk is active
+Rukyuk moves:
+
+.R..M..
+
+Rukyuk moves:
+
+R...M..
+
+Marmelee discards 1 Concentration Counter
+Marmelee gains +0~2 range
+Marmelee moves:
+
+R.M....
+
+Marmelee hits
+Rukyuk takes 3 damage (now at 12 life)
+Rukyuk is stunned
+Marmelee gains 1 Concentration Counter
+
+Beat 7
+-------
+
+Marmelee
+--------
+life: 11
+discard 1: Sorceress Drive
+discard 2: Magnificent Strike
+1 Concentration counters
+
+Rukyuk
+------
+life: 12
+discard 1: Sniper Reload
+discard 2: Gunner Drive
+special action
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
+
+
+R.M....
+
+Unbeatable strategy for Rukyuk: Point Blank Shot (AP): -1.52
+Unbeatable strategy for Rukyuk: Point Blank Shot (Explosive): -2.11
+Unbeatable strategy for Rukyuk: Point Blank Shot (Flash): -0.87
+Unbeatable strategy for Rukyuk: Point Blank Shot (Impact): -1.93
+Unbeatable strategy for Rukyuk: Point Blank Shot (Longshot): -0.47
+Unbeatable strategy for Rukyuk: Point Blank Shot (Swift): -1.09
+
+Marmelee:
+23% Petrifying Meditation
+21% Barrier Meditation
+23% Barrier Grasp
+15% Nullifying Meditation
+17% Nullifying Burst
+
+Rukyuk:
+11% Point Blank Strike (Explosive)
+14% Point Blank Shot (Explosive)
+42% Point Blank Shot (Longshot)
+16% Point Blank Shot (Swift)
+17% Crossfire Strike (Longshot)
+
+
+Marmelee: Nullifying Meditation
+Rukyuk: Point Blank Shot (Swift)
+
+Rukyuk antes a Swift token
+Priorities:  4 | 4
+Clash!
+
+Marmelee:
+71% Nullifying Shot
+29% Nullifying Dash
+
+Rukyuk:
+2% Point Blank Strike (Swift)
+97% Point Blank Burst (Swift)
+2% Point Blank Grasp (Swift)
+
+
+Marmelee: Nullifying Shot
+Rukyuk: Point Blank Burst (Swift)
+
+Rukyuk antes a Swift token
+Priorities:  3 | 3
+Clash!
+
+Marmelee:
+84% Nullifying Burst
+16% Nullifying Grasp
+
+Rukyuk:
+19% Point Blank Strike (Swift)
+19% Point Blank Grasp (Swift)
+63% Point Blank Dash (Swift)
+
+
+Marmelee: Nullifying Burst
+Rukyuk: Point Blank Grasp (Swift)
+
+Rukyuk antes a Swift token
+Priorities:  2 | 7
+Rukyuk is active
+Marmelee moves:
+
+R..M...
+
+Marmelee moves:
+
+R...M..
+
+Rukyuk misses
+Marmelee hits
+Rukyuk takes 3 damage (now at 9 life)
+Rukyuk is stunned
+Marmelee gains 1 Concentration Counter
+
+Beat 8
+-------
+
+Marmelee
+--------
+life: 11
+discard 1: Nullifying Burst
+discard 2: Sorceress Drive
+2 Concentration counters
+
+Rukyuk
+------
+life: 9
+discard 1: Point Blank Grasp
+discard 2: Sniper Reload
+special action
+pool: AP, Explosive, Flash, Impact, Longshot
+
+
+R...M..
+
+Marmelee:
+35% Petrifying Meditation
+5% Petrifying Grasp
+28% Petrifying Dash
+6% Magnificent Meditation
+24% Magnificent Strike
+2% Barrier Meditation
+
+Rukyuk:
+23% Gunner Strike (Longshot)
+22% Gunner Shot (Longshot)
+3% Gunner Drive (Explosive)
+12% Gunner Drive (Flash)
+8% Gunner Drive (Impact)
+32% Gunner Drive (Longshot)
+
+
+Marmelee: Petrifying Dash
+Rukyuk: Gunner Drive (Longshot)
+
+Rukyuk antes a Longshot token
+Priorities:  8 | 4
+Marmelee is active
+Marmelee moves:
+
+R.M....
+
+Rukyuk spends an AP token
+Rukyuk gains -1/+1 range
+Rukyuk moves:
+
+..MR...
+
+Rukyuk hits
+Marmelee takes 3 damage (now at 8 life)
+Marmelee is stunned
+Rukyuk moves:
+
+..M..R.
+
+Marmelee gains 1 Concentration Counter
+
+Beat 9
+-------
+
+Marmelee
+--------
+life: 8
+discard 1: Petrifying Dash
+discard 2: Nullifying Burst
+1 Concentration counters
+
+Rukyuk
+------
+life: 9
+discard 1: Gunner Drive
+discard 2: Point Blank Grasp
+special action
+pool: Explosive, Flash, Impact
+
+
+..M..R.
+
+Unbeatable strategy for Rukyuk: Sniper Reload: -0.04
+Unbeatable strategy for Rukyuk: Sniper Reload (Explosive): -0.04
+Unbeatable strategy for Rukyuk: Sniper Reload (Flash): -0.04
+Unbeatable strategy for Rukyuk: Sniper Reload (Impact): -0.04
+Unbeatable strategy for Rukyuk: Trick Reload: -0.73
+Unbeatable strategy for Rukyuk: Trick Reload (Explosive): -0.73
+Unbeatable strategy for Rukyuk: Trick Reload (Flash): -0.73
+Unbeatable strategy for Rukyuk: Trick Reload (Impact): -0.73
+
+Marmelee:
+21% Sorceress Shot
+45% Sorceress Drive
+34% Barrier Drive
+
+Rukyuk:
+17% Sniper Reload
+17% Sniper Reload (Explosive)
+17% Sniper Reload (Flash)
+17% Sniper Reload (Impact)
+1% Crossfire Reload
+1% Crossfire Reload (Explosive)
+1% Crossfire Reload (Flash)
+1% Crossfire Reload (Impact)
+29% Trick Reload
+
+
+Marmelee: Sorceress Drive
+Rukyuk: Sniper Reload (Flash)
+
+Rukyuk antes a Flash token
+Priorities:  3 | 6
+Rukyuk is active
+Rukyuk moves:
+
+.RM....
+
+Rukyuk moves:
+
+..M...R
+
+Marmelee discards 1 Concentration Counter
+Marmelee gains +0~2 range
+Marmelee moves:
+
+....M.R
+
+Marmelee hits
+Rukyuk takes 3 damage (now at 6 life)
+Rukyuk is stunned
+Marmelee gains 1 Concentration Counter
+
+Beat 10
+-------
+
+Marmelee
+--------
+life: 8
+discard 1: Sorceress Drive
+discard 2: Petrifying Dash
+1 Concentration counters
+
+Rukyuk
+------
+life: 6
+discard 1: Sniper Reload
+discard 2: Gunner Drive
+special action
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
+
+
+....M.R
+
+Unbeatable strategy for Rukyuk: Point Blank Shot (AP): -0.94
+Unbeatable strategy for Rukyuk: Point Blank Shot (Explosive): -2.54
+Unbeatable strategy for Rukyuk: Point Blank Shot (Flash): -1.35
+Unbeatable strategy for Rukyuk: Point Blank Shot (Impact): -1.90
+Unbeatable strategy for Rukyuk: Point Blank Shot (Longshot): -0.44
+Unbeatable strategy for Rukyuk: Point Blank Shot (Swift): -1.60
+
+Marmelee:
+11% Magnificent Grasp
+40% Barrier Meditation
+18% Barrier Shot
+15% Nullifying Meditation
+16% Nullifying Burst
+
+Rukyuk:
+51% Point Blank Shot (Explosive)
+5% Point Blank Shot (Swift)
+17% Point Blank Grasp (Explosive)
+19% Crossfire Strike (Longshot)
+8% Special Fully Automatic (Longshot)
+
+
+Marmelee: Nullifying Burst
+Rukyuk: Point Blank Shot (Explosive)
+
+Rukyuk antes an Explosive token
+Priorities:  2 | 2
+Clash!
+
+Marmelee:
+54% Nullifying Meditation
+46% Nullifying Shot
+
+Rukyuk:
+54% Point Blank Strike (Explosive)
+46% Point Blank Burst (Explosive)
+
+
+Marmelee: Nullifying Shot
+Rukyuk: Point Blank Strike (Explosive)
+
+Rukyuk antes an Explosive token
+Priorities:  3 | 3
+Clash!
+
+Marmelee:
+100% Nullifying Meditation
+
+Rukyuk:
+100% Point Blank Burst (Explosive)
+
+
+Marmelee: Nullifying Meditation
+Rukyuk: Point Blank Burst (Explosive)
+
+Rukyuk antes an Explosive token
+Priorities:  4 | 1
+Marmelee is active
+Marmelee discards 1 Concentration Counter
+Marmelee gains Soak 1
+Marmelee moves:
+
+...M..R
+
+Marmelee misses
+Rukyuk hits
+Rukyuk moves Marmelee:
+
+.M....R
+
+Marmelee has 1 soak
+Marmelee takes 4 damage (now at 4 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
+
+Beat 11
+-------
+
+Marmelee
+--------
+life: 4
+discard 1: Nullifying Meditation
+discard 2: Sorceress Drive
+2 Concentration counters
+
+Rukyuk
+------
+life: 6
+discard 1: Point Blank Burst
+discard 2: Sniper Reload
+special action
+pool: AP, Flash, Impact, Longshot, Swift
+
+
+.M....R
+
+Unbeatable strategy for Rukyuk: Gunner Strike (Longshot): -9.00
+
+Marmelee:
+61% Magnificent Strike
+39% Magnificent Dash
+
+Rukyuk:
+61% Gunner Strike (Longshot)
+39% Gunner Strike (Swift)
+
+
+Marmelee: Magnificent Strike
+Rukyuk: Gunner Strike (Swift)
+
+Rukyuk antes a Swift token
+Priorities:  3 | 5
+Rukyuk is active
+Rukyuk hits
+Marmelee takes 4 damage (now at 0 life)
 RUKYUK WINS!
-total_time: 94
+total_time: 114

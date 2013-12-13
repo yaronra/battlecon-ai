@@ -23,7 +23,7 @@ life: 20
 discard 1: Petrifying Burst
 discard 2: Barrier Grasp
 special action
-2 Concentration tokens
+2 Concentration counters
 
 
 .C...M.
@@ -37,42 +37,47 @@ Cadenza:
 13% Grapnel Grasp
 
 Marmelee:
-6% Magnificent Drive
-4% Sorceress Meditation
-48% Sorceress Dash
-15% Nullifying Meditation
-13% Nullifying Strike
-13% Nullifying Shot
+4% Magnificent Drive
+2% Sorceress Meditation
+73% Sorceress Dash
+12% Nullifying Meditation
+6% Nullifying Strike
+4% Nullifying Shot
 
 
 Cadenza: Battery Grasp
-Marmelee: Nullifying Strike
+Marmelee: Nullifying Meditation
 
 Priorities:  4 | 4
 Clash!
 
 Cadenza:
-86% Battery Strike
-14% Battery Dash
+14% Battery Strike
+0% Battery Shot
+86% Battery Drive
 
 Marmelee:
-78% Nullifying Meditation
-22% Nullifying Shot
+79% Nullifying Strike
+14% Nullifying Shot
+7% Nullifying Drive
 
 
-Cadenza: Battery Strike
-Marmelee: Nullifying Meditation
+Cadenza: Battery Drive
+Marmelee: Nullifying Strike
 
-Priorities:  2 | 4
+Priorities:  3 | 4
 Marmelee is active
 Marmelee moves:
 
 .C....M
 
 Marmelee misses
+Cadenza moves:
+
+..C...M
+
 Cadenza misses
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 2
 -------
@@ -80,7 +85,7 @@ Beat 2
 Cadenza
 -------
 life: 20
-discard 1: Battery Strike
+discard 1: Battery Drive
 discard 2: Hydraulic Burst
 special action
 3 Iron Body tokens
@@ -89,40 +94,55 @@ special action
 Marmelee
 --------
 life: 20
-discard 1: Nullifying Meditation
+discard 1: Nullifying Strike
 discard 2: Petrifying Burst
 special action
-4 Concentration tokens
+3 Concentration counters
 
 
-.C....M
+..C...M
 
 Cadenza:
-6% Clockwork Shot
-63% Grapnel Drive
-32% Grapnel Grasp
+10% Grapnel Strike
+43% Grapnel Grasp
+47% Mechanical Shot
 
 Marmelee:
-29% Magnificent Dash
-50% Barrier Shot
-22% Barrier Dash
+47% Magnificent Dash
+13% Sorceress Grasp
+40% Barrier Meditation
 
 
-Cadenza: Grapnel Drive
+Cadenza: Grapnel Grasp
 Marmelee: Magnificent Dash
 
-Priorities:  8 | 9
-Marmelee is active
-Marmelee moves:
+Priorities:  9 | 9
+Clash!
 
-.C.M...
+Cadenza:
+100% Grapnel Strike
 
-Cadenza moves:
+Marmelee:
+100% Magnificent Meditation
+
+
+Cadenza: Grapnel Strike
+Marmelee: Magnificent Meditation
+
+Priorities:  7 | 3
+Cadenza is active
+Marmelee discards 3 Concentration Counters
+Marmelee gains Soak 3
+Cadenza hits
+Cadenza moves Marmelee:
 
 ..CM...
 
-Cadenza misses
-Marmelee gains 1 Concentration token
+Marmelee has 3 soak
+Marmelee takes 1 damage (now at 19 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
 
 Beat 3
 -------
@@ -130,56 +150,50 @@ Beat 3
 Cadenza
 -------
 life: 20
-discard 1: Grapnel Drive
-discard 2: Battery Strike
+discard 1: Grapnel Strike
+discard 2: Battery Drive
 special action
 3 Iron Body tokens
 
 Marmelee
 --------
-life: 20
-discard 1: Magnificent Dash
-discard 2: Nullifying Meditation
+life: 19
+discard 1: Magnificent Meditation
+discard 2: Nullifying Strike
 special action
-5 Concentration tokens
+2 Concentration counters
 
 
 ..CM...
 
-Unbeatable strategy for Cadenza: Clockwork Shot (Iron Body): 0.23
+Unbeatable strategy for Marmelee: Petrifying Dash: -0.43
+Unbeatable strategy for Marmelee: Sorceress Dash: -0.58
+Unbeatable strategy for Marmelee: Barrier Dash: -0.78
 
 Cadenza:
-59% Clockwork Shot
-35% Clockwork Shot (Iron Body)
-6% Clockwork Burst
-0% Hydraulic Burst
+17% Hydraulic Shot
+27% Hydraulic Grasp
+45% Mechanical Shot
+10% Mechanical Burst
 
 Marmelee:
-19% Petrifying Strike
-8% Petrifying Burst
-12% Barrier Drive
-61% Barrier Burst
+10% Petrifying Drive
+5% Petrifying Burst
+2% Petrifying Grasp
+83% Barrier Dash
 
 
-Cadenza: Clockwork Shot (Iron Body)
-Marmelee: Barrier Burst
+Cadenza: Mechanical Shot
+Marmelee: Barrier Dash
 
-Cadenza antes an Iron Body token
-Priorities:  -1 | 1
+Priorities:  0 | 9
 Marmelee is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
 Marmelee moves:
 
-..C..M.
+.MC....
 
-Marmelee hits
-Cadenza has 3 soak
-Cadenza takes 0 damage (now at 20 life)
 Cadenza misses
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 4
 -------
@@ -187,213 +201,376 @@ Beat 4
 Cadenza
 -------
 life: 20
-discard 1: Clockwork Shot
-discard 2: Grapnel Drive
+discard 1: Mechanical Shot
+discard 2: Grapnel Strike
 special action
-2 Iron Body tokens
+3 Iron Body tokens
 
 Marmelee
 --------
-life: 20
-discard 1: Barrier Burst
-discard 2: Magnificent Dash
+life: 19
+discard 1: Barrier Dash
+discard 2: Magnificent Meditation
 special action
-2 Concentration tokens
+3 Concentration counters
 
 
-..C..M.
-
-Unbeatable strategy for Marmelee: Nullifying Meditation: -0.09
+.MC....
 
 Cadenza:
-11% Battery Strike
-75% Battery Burst
-12% Battery Grasp
-1% Hydraulic Burst
+74% Clockwork Drive (Iron Body)
+20% Clockwork Burst
+1% Clockwork Burst (Iron Body)
+5% Clockwork Grasp
 
 Marmelee:
-32% Petrifying Meditation
-7% Sorceress Meditation
-55% Nullifying Meditation
-6% Nullifying Drive
+35% Petrifying Shot
+13% Petrifying Drive
+11% Nullifying Strike
+41% Special Pulse
 
 
-Cadenza: Battery Burst
-Marmelee: Nullifying Meditation
+Cadenza: Clockwork Drive (Iron Body)
+Marmelee: Petrifying Drive
 
-Priorities:  0 | 4
+Cadenza antes an Iron Body token
+Priorities:  1 | 3
 Marmelee is active
 Marmelee moves:
 
-..C...M
+..CM...
 
+Marmelee hits
+Cadenza has 3 soak
+Cadenza takes 1 damage (now at 19 life)
 Cadenza moves:
 
-C.....M
+...MC..
 
-Marmelee misses
-Cadenza misses
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
+Cadenza hits
+Marmelee takes 6 damage (now at 13 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
 
 Beat 5
 -------
 
 Cadenza
 -------
-life: 20
-discard 1: Battery Burst
-discard 2: Clockwork Shot
+life: 19
+discard 1: Clockwork Drive
+discard 2: Mechanical Shot
 special action
 2 Iron Body tokens
-+4 priority from last beat
 
 Marmelee
 --------
-life: 20
-discard 1: Nullifying Meditation
-discard 2: Barrier Burst
+life: 13
+discard 1: Petrifying Drive
+discard 2: Barrier Dash
 special action
-4 Concentration tokens
+1 Concentration counters
 
 
-C.....M
+...MC..
 
 Cadenza:
-42% Grapnel Press
-58% Grapnel Drive
+41% Hydraulic Press
+32% Hydraulic Strike
+10% Grapnel Strike
+17% Grapnel Burst
 
 Marmelee:
-82% Sorceress Strike
-18% Sorceress Dash
+42% Magnificent Burst
+21% Sorceress Meditation
+6% Sorceress Burst
+31% Nullifying Burst
 
 
-Cadenza: Grapnel Press
-Marmelee: Sorceress Strike
+Cadenza: Hydraulic Strike
+Marmelee: Magnificent Burst
 
-Priorities:  4 | 2
+Priorities:  2 | 1
 Cadenza is active
-Cadenza hits
-Cadenza moves Marmelee:
+Marmelee moves:
 
-C...M..
+.M..C..
 
-Marmelee takes 1 damage (now at 19 life)
+Cadenza moves:
+
+.M.C...
+
+Cadenza misses
 Marmelee misses
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 6
 -------
 
 Cadenza
 -------
-life: 20
-discard 1: Grapnel Press
-discard 2: Battery Burst
+life: 19
+discard 1: Hydraulic Strike
+discard 2: Clockwork Drive
 special action
 2 Iron Body tokens
 
 Marmelee
 --------
-life: 19
-discard 1: Sorceress Strike
-discard 2: Nullifying Meditation
+life: 13
+discard 1: Magnificent Burst
+discard 2: Petrifying Drive
 special action
-5 Concentration tokens
+2 Concentration counters
 
 
-C...M..
-
-Cadenza:
-62% Clockwork Strike
-1% Clockwork Shot (Iron Body)
-17% Clockwork Drive
-20% Mechanical Strike
-
-Marmelee:
-29% Petrifying Shot
-24% Petrifying Burst
-10% Petrifying Dash
-36% Magnificent Drive
-
-
-Cadenza: Mechanical Strike
-Marmelee: Petrifying Shot
-
-Priorities:  1 | 1
-Clash!
+.M.C...
 
 Cadenza:
-46% Mechanical Shot
-54% Mechanical Drive
+24% Battery Shot
+63% Battery Dash
+7% Grapnel Burst
+6% Mechanical Burst
 
 Marmelee:
-91% Petrifying Burst
-9% Petrifying Dash
+35% Sorceress Meditation
+3% Sorceress Strike
+55% Sorceress Dash
+7% Barrier Strike
 
 
-Cadenza: Mechanical Shot
-Marmelee: Petrifying Burst
+Cadenza: Battery Shot
+Marmelee: Sorceress Meditation
 
-Priorities:  0 | 0
-Clash!
-
-Cadenza:
-100% Mechanical Drive
-
-Marmelee:
-100% Petrifying Grasp
-
-
-Cadenza: Mechanical Drive
-Marmelee: Petrifying Grasp
-
-Priorities:  2 | 4
+Priorities:  1 | 2
 Marmelee is active
-Marmelee misses
-Cadenza moves:
-
-.C..M..
-
-Cadenza misses
-Cadenza moves:
-
-...CM..
-
+Marmelee discards 1 Concentration Counter
+Marmelee gains Soak 1
+Marmelee discards 1 Concentration Counter
+Marmelee gains +0~2 range
+Marmelee hits
+Cadenza takes 2 damage (now at 17 life)
+Cadenza hits
+Marmelee has 1 soak
+Marmelee takes 3 damage (now at 10 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
 
 Beat 7
 -------
 
 Cadenza
 -------
-life: 20
+life: 17
+discard 1: Battery Shot
+discard 2: Hydraulic Strike
+special action
+2 Iron Body tokens
++4 priority from last beat
+
+Marmelee
+--------
+life: 10
+discard 1: Sorceress Meditation
+discard 2: Magnificent Burst
+special action
+2 Concentration counters
+
+
+.M.C...
+
+Unbeatable strategy for Marmelee: Barrier Dash: -0.13
+
+Cadenza:
+9% Grapnel Burst
+86% Mechanical Drive
+5% Mechanical Burst
+
+Marmelee:
+3% Petrifying Strike
+95% Barrier Dash
+3% Nullifying Grasp
+
+
+Cadenza: Mechanical Drive
+Marmelee: Barrier Dash
+
+Priorities:  6 | 9
+Marmelee is active
+Marmelee moves:
+
+...CM..
+
+Cadenza moves:
+
+....MC.
+
+Cadenza misses
+Cadenza moves:
+
+.C..M..
+
+Marmelee gains 1 Concentration Counter
+
+Beat 8
+-------
+
+Cadenza
+-------
+life: 17
 discard 1: Mechanical Drive
-discard 2: Grapnel Press
+discard 2: Battery Shot
 special action
 2 Iron Body tokens
 
 Marmelee
 --------
-life: 19
-discard 1: Petrifying Grasp
-discard 2: Sorceress Strike
+life: 10
+discard 1: Barrier Dash
+discard 2: Sorceress Meditation
 special action
-5 Concentration tokens
+3 Concentration counters
 
 
-...CM..
-
-Unbeatable strategy for Cadenza: Battery Dash: 0.17
+.C..M..
 
 Cadenza:
-18% Battery Shot
-57% Battery Dash
-24% Clockwork Shot
+7% Clockwork Burst
+1% Hydraulic Burst
+15% Grapnel Strike
+32% Grapnel Burst
+44% Grapnel Grasp
 
 Marmelee:
-18% Magnificent Drive
-26% Magnificent Burst
-57% Barrier Dash
+14% Petrifying Shot
+1% Petrifying Drive
+45% Magnificent Grasp
+32% Nullifying Shot
+7% Nullifying Drive
+
+
+Cadenza: Grapnel Grasp
+Marmelee: Nullifying Shot
+
+Priorities:  5 | 3
+Cadenza is active
+Marmelee moves:
+
+.C...M.
+
+Cadenza hits
+Cadenza moves Marmelee:
+
+.CM....
+
+Cadenza moves Marmelee:
+
+MC.....
+
+Marmelee takes 2 damage (now at 8 life)
+Marmelee misses
+Marmelee gains 1 Concentration Counter
+
+Beat 9
+-------
+
+Cadenza
+-------
+life: 17
+discard 1: Grapnel Grasp
+discard 2: Mechanical Drive
+special action
+2 Iron Body tokens
+
+Marmelee
+--------
+life: 8
+discard 1: Nullifying Shot
+discard 2: Barrier Dash
+special action
+4 Concentration counters
+
+
+MC.....
+
+Cadenza:
+3% Battery Strike
+38% Clockwork Press
+16% Clockwork Burst
+4% Hydraulic Strike (Iron Body)
+12% Hydraulic Shot
+27% Hydraulic Shot (Iron Body)
+
+Marmelee:
+9% Petrifying Meditation
+9% Petrifying Strike
+19% Petrifying Drive
+26% Magnificent Meditation
+25% Magnificent Drive
+12% Magnificent Burst
+
+
+Cadenza: Hydraulic Shot
+Marmelee: Magnificent Drive
+
+Priorities:  1 | 4
+Marmelee is active
+Marmelee moves:
+
+.C.M...
+
+Marmelee hits
+Marmelee discards 4 Concentration Counters
+Marmelee gets +4 power
+Cadenza has 1 soak
+Cadenza takes 5 damage (now at 12 life)
+Cadenza spends an Iron Body token
+Cadenza gains infinite stunguard
+Cadenza moves:
+
+..CM...
+
+Cadenza hits
+Marmelee takes 5 damage (now at 3 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
+
+Beat 10
+-------
+
+Cadenza
+-------
+life: 12
+discard 1: Hydraulic Shot
+discard 2: Grapnel Grasp
+special action
+1 Iron Body tokens
+
+Marmelee
+--------
+life: 3
+discard 1: Magnificent Drive
+discard 2: Nullifying Shot
+special action
+1 Concentration counters
+
+
+..CM...
+
+Unbeatable strategy for Marmelee: Petrifying Dash: -0.11
+
+Cadenza:
+6% Battery Drive
+13% Battery Burst
+70% Battery Dash
+11% Mechanical Burst
+
+Marmelee:
+6% Sorceress Burst
+2% Barrier Meditation
+0% Barrier Burst
+91% Barrier Dash
 
 
 Cadenza: Battery Dash
@@ -403,484 +580,265 @@ Priorities:  8 | 9
 Marmelee is active
 Marmelee moves:
 
-M..C...
+M.C....
 
 Cadenza moves:
 
-MC.....
+M....C.
 
-
-Beat 8
--------
-
-Cadenza
--------
-life: 20
-discard 1: Battery Dash
-discard 2: Mechanical Drive
-special action
-2 Iron Body tokens
-+4 priority from last beat
-
-Marmelee
---------
-life: 19
-discard 1: Barrier Dash
-discard 2: Petrifying Grasp
-special action
-5 Concentration tokens
-
-
-MC.....
-
-Unbeatable strategy for Cadenza: Clockwork Grasp: 1.94
-Unbeatable strategy for Cadenza: Hydraulic Strike: 3.45
-Unbeatable strategy for Cadenza: Hydraulic Strike (Iron Body): 0.95
-
-Cadenza:
-2% Clockwork Strike
-47% Clockwork Shot
-8% Clockwork Burst
-33% Hydraulic Strike
-11% Hydraulic Burst
-
-Marmelee:
-18% Magnificent Meditation
-8% Magnificent Drive
-23% Sorceress Meditation
-8% Nullifying Meditation
-43% Special Pulse
-
-
-Cadenza: Clockwork Shot
-Marmelee: Nullifying Meditation
-
-Priorities:  3 | 4
-Marmelee is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee gains Soak 5
-Marmelee misses
-Cadenza hits
-Marmelee has 5 soak
-Marmelee takes 1 damage (now at 18 life)
-Marmelee is stunned
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
-
-Beat 9
--------
-
-Cadenza
--------
-life: 20
-discard 1: Clockwork Shot
-discard 2: Battery Dash
-special action
-2 Iron Body tokens
-
-Marmelee
---------
-life: 18
-discard 1: Nullifying Meditation
-discard 2: Barrier Dash
-special action
-2 Concentration tokens
-
-
-MC.....
-
-Cadenza:
-34% Hydraulic Strike
-58% Hydraulic Grasp
-8% Mechanical Burst
-
-Marmelee:
-26% Petrifying Strike
-5% Petrifying Grasp
-69% Magnificent Drive
-
-
-Cadenza: Hydraulic Grasp
-Marmelee: Magnificent Drive
-
-Priorities:  4 | 4
-Clash!
-
-Cadenza:
-100% Hydraulic Press
-
-Marmelee:
-21% Magnificent Strike
-79% Magnificent Grasp
-
-
-Cadenza: Hydraulic Press
-Marmelee: Magnificent Grasp
-
-Priorities:  -1 | 5
-Marmelee is active
-Marmelee misses
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee moves:
-
-.C...M.
-
-Cadenza moves:
-
-..C..M.
-
-Cadenza misses
-Marmelee gains 1 Concentration token
-
-Beat 10
--------
-
-Cadenza
--------
-life: 20
-discard 1: Hydraulic Press
-discard 2: Clockwork Shot
-special action
-2 Iron Body tokens
-
-Marmelee
---------
-life: 18
-discard 1: Magnificent Grasp
-discard 2: Nullifying Meditation
-special action
-1 Concentration tokens
-
-
-..C..M.
-
-Cadenza:
-66% Battery Burst
-18% Grapnel Strike
-16% Grapnel Grasp
-
-Marmelee:
-54% Petrifying Dash
-20% Sorceress Drive
-26% Sorceress Burst
-
-
-Cadenza: Grapnel Grasp
-Marmelee: Sorceress Drive
-
-Priorities:  5 | 3
-Cadenza is active
-Cadenza hits
-Cadenza moves Marmelee:
-
-..C.M..
-
-Cadenza moves Marmelee:
-
-..C..M.
-
-Marmelee takes 2 damage (now at 16 life)
-Marmelee is stunned
-Marmelee loses all tokens
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 11
 -------
 
 Cadenza
 -------
-life: 20
-discard 1: Grapnel Grasp
-discard 2: Hydraulic Press
+life: 12
+discard 1: Battery Dash
+discard 2: Hydraulic Shot
 special action
-2 Iron Body tokens
+1 Iron Body tokens
++4 priority from last beat
 
 Marmelee
 --------
-life: 16
-discard 1: Sorceress Drive
-discard 2: Magnificent Grasp
+life: 3
+discard 1: Barrier Dash
+discard 2: Magnificent Drive
 special action
-1 Concentration tokens
+2 Concentration counters
 
 
-..C..M.
+M....C.
+
+Unbeatable strategy for Cadenza: Grapnel Strike: 1.82
+Unbeatable strategy for Cadenza: Grapnel Drive: 1.15
+Unbeatable strategy for Cadenza: Grapnel Burst: 0.51
 
 Cadenza:
-47% Battery Shot
-29% Battery Drive
-0% Battery Dash
-24% Clockwork Shot
+100% Grapnel Strike
 
 Marmelee:
-13% Petrifying Dash
-13% Barrier Burst
-60% Barrier Dash
-13% Nullifying Burst
+100% Petrifying Meditation
 
 
-Cadenza: Clockwork Shot
-Marmelee: Nullifying Burst
+Cadenza: Grapnel Strike
+Marmelee: Petrifying Meditation
 
-Priorities:  -1 | 2
-Marmelee is active
-Marmelee moves:
-
-..C...M
-
-Marmelee hits
-Marmelee spends a Concentration token
-Cadenza gets -1 power
-Cadenza has 3 soak
-Cadenza takes 0 damage (now at 20 life)
+Priorities:  7 | 2
+Cadenza is active
+Marmelee discards 2 Concentration Counters
+Marmelee gains Soak 2
 Cadenza hits
-Marmelee takes 5 damage (now at 11 life)
+Cadenza moves Marmelee:
+
+...M.C.
+
+Marmelee has 2 soak
+Marmelee takes 2 damage (now at 1 life)
 Marmelee is stunned
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
 
 Beat 12
 -------
 
 Cadenza
 -------
-life: 20
-discard 1: Clockwork Shot
-discard 2: Grapnel Grasp
+life: 12
+discard 1: Grapnel Strike
+discard 2: Battery Dash
 special action
-2 Iron Body tokens
+1 Iron Body tokens
 
 Marmelee
 --------
-life: 11
-discard 1: Nullifying Burst
-discard 2: Sorceress Drive
+life: 1
+discard 1: Petrifying Meditation
+discard 2: Barrier Dash
 special action
-1 Concentration tokens
+2 Concentration counters
 
 
-..C...M
-
-Unbeatable strategy for Cadenza: Battery Burst: 0.21
+...M.C.
 
 Cadenza:
-9% Battery Strike
-36% Battery Drive
-41% Battery Burst
-14% Hydraulic Drive
+26% Hydraulic Shot
+74% Hydraulic Drive
 
 Marmelee:
-37% Petrifying Meditation
-4% Petrifying Shot
-41% Barrier Meditation
-18% Barrier Strike
+86% Magnificent Grasp
+14% Nullifying Burst
 
 
-Cadenza: Battery Drive
-Marmelee: Barrier Strike
+Cadenza: Hydraulic Shot
+Marmelee: Magnificent Grasp
 
-Priorities:  3 | 3
-Clash!
-
-Cadenza:
-100% Battery Burst
-
-Marmelee:
-100% Barrier Meditation
-
-
-Cadenza: Battery Burst
-Marmelee: Barrier Meditation
-
-Priorities:  0 | 3
+Priorities:  1 | 5
 Marmelee is active
+Marmelee hits
+Marmelee moves Cadenza:
+
+...M..C
+
+Cadenza has 1 soak
+Cadenza takes 0 damage (now at 12 life)
+Marmelee discards 2 Concentration Counters
+Marmelee moves:
+
+M.....C
+
 Cadenza moves:
 
-C.....M
+M....C.
 
-Marmelee misses
 Cadenza misses
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 13
 -------
 
 Cadenza
 -------
-life: 20
-discard 1: Battery Burst
-discard 2: Clockwork Shot
+life: 12
+discard 1: Hydraulic Shot
+discard 2: Grapnel Strike
 special action
-2 Iron Body tokens
-+4 priority from last beat
+1 Iron Body tokens
 
 Marmelee
 --------
-life: 11
-discard 1: Barrier Meditation
-discard 2: Nullifying Burst
+life: 1
+discard 1: Magnificent Grasp
+discard 2: Petrifying Meditation
 special action
-3 Concentration tokens
+1 Concentration counters
 
 
-C.....M
+M....C.
+
+Unbeatable strategy for Cadenza: Clockwork Press: 0.68
+Unbeatable strategy for Cadenza: Clockwork Burst: 0.68
+Unbeatable strategy for Cadenza: Clockwork Dash: 0.39
+Unbeatable strategy for Cadenza: Mechanical Burst: 0.04
 
 Cadenza:
-51% Grapnel Press
-49% Grapnel Drive
+29% Battery Burst
+7% Battery Grasp
+1% Battery Dash
+63% Clockwork Grasp
 
 Marmelee:
-81% Sorceress Strike
-19% Sorceress Dash
+49% Sorceress Shot
+14% Sorceress Burst
+34% Barrier Strike
+2% Barrier Shot
 
 
-Cadenza: Grapnel Press
-Marmelee: Sorceress Strike
+Cadenza: Battery Burst
+Marmelee: Barrier Strike
 
-Priorities:  4 | 2
-Cadenza is active
-Cadenza hits
-Cadenza moves Marmelee:
+Priorities:  0 | 3
+Marmelee is active
+Cadenza moves:
 
-C...M..
+M.....C
 
-Marmelee takes 1 damage (now at 10 life)
 Marmelee misses
-Marmelee gains 1 Concentration token
+Cadenza misses
+Marmelee gains 1 Concentration Counter
 
 Beat 14
 -------
 
 Cadenza
 -------
-life: 20
-discard 1: Grapnel Press
-discard 2: Battery Burst
+life: 12
+discard 1: Battery Burst
+discard 2: Hydraulic Shot
 special action
-2 Iron Body tokens
+1 Iron Body tokens
++4 priority from last beat
 
 Marmelee
 --------
-life: 10
-discard 1: Sorceress Strike
-discard 2: Barrier Meditation
+life: 1
+discard 1: Barrier Strike
+discard 2: Magnificent Grasp
 special action
-4 Concentration tokens
+2 Concentration counters
 
 
-C...M..
-
-Unbeatable strategy for Marmelee: Magnificent Burst: -0.93
-Unbeatable strategy for Marmelee: Nullifying Burst: -0.70
+M.....C
 
 Cadenza:
-59% Clockwork Strike
-12% Hydraulic Shot
-29% Mechanical Strike
-0% Mechanical Grasp
+50% Grapnel Press
+50% Grapnel Drive
 
 Marmelee:
-21% Petrifying Shot
-48% Petrifying Burst
-2% Magnificent Drive
-29% Nullifying Shot
+50% Petrifying Meditation
+50% Petrifying Dash
 
 
-Cadenza: Mechanical Strike
-Marmelee: Petrifying Shot
+Cadenza: Grapnel Press
+Marmelee: Petrifying Meditation
 
-Priorities:  1 | 1
-Clash!
-
-Cadenza:
-46% Mechanical Shot
-54% Mechanical Drive
-
-Marmelee:
-91% Petrifying Burst
-9% Petrifying Dash
-
-
-Cadenza: Mechanical Drive
-Marmelee: Petrifying Burst
-
-Priorities:  2 | 0
+Priorities:  4 | 2
 Cadenza is active
-Marmelee moves:
+Marmelee discards 1 Concentration Counter
+Marmelee gains Soak 1
+Cadenza hits
+Cadenza moves Marmelee:
 
-C....M.
+.M....C
 
-Cadenza moves:
-
-.C...M.
-
-Cadenza misses
+Marmelee has 1 soak
+Marmelee takes 0 damage (now at 1 life)
 Marmelee misses
-Cadenza moves:
-
-....CM.
-
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
 
 Beat 15
 -------
 
 Cadenza
 -------
-life: 20
-discard 1: Mechanical Drive
-discard 2: Grapnel Press
+life: 12
+discard 1: Grapnel Press
+discard 2: Battery Burst
 special action
-2 Iron Body tokens
+1 Iron Body tokens
 
 Marmelee
 --------
-life: 10
-discard 1: Petrifying Burst
-discard 2: Sorceress Strike
+life: 1
+discard 1: Petrifying Meditation
+discard 2: Barrier Strike
 special action
-5 Concentration tokens
+3 Concentration counters
 
 
-....CM.
+.M....C
 
-Unbeatable strategy for Cadenza: Battery Shot: 15.00
-Unbeatable strategy for Cadenza: Battery Shot (Iron Body): 15.00
-Unbeatable strategy for Cadenza: Battery Burst: 15.00
-Unbeatable strategy for Cadenza: Battery Burst (Iron Body): 15.00
-Unbeatable strategy for Cadenza: Battery Dash: 15.00
-Unbeatable strategy for Cadenza: Battery Dash (Iron Body): 15.00
-Unbeatable strategy for Cadenza: Clockwork Strike: 15.00
-Unbeatable strategy for Cadenza: Clockwork Strike (Iron Body): 15.00
-Unbeatable strategy for Cadenza: Clockwork Shot: 15.00
-Unbeatable strategy for Cadenza: Clockwork Shot (Iron Body): 15.00
-Unbeatable strategy for Cadenza: Clockwork Burst: 15.00
-Unbeatable strategy for Cadenza: Clockwork Burst (Iron Body): 15.00
-Unbeatable strategy for Cadenza: Hydraulic Shot: 15.00
-Unbeatable strategy for Cadenza: Hydraulic Shot (Iron Body): 15.00
-Unbeatable strategy for Cadenza: Hydraulic Burst: 15.00
-Unbeatable strategy for Cadenza: Hydraulic Burst (Iron Body): 15.00
-Unbeatable strategy for Cadenza: Hydraulic Dash: 15.00
-Unbeatable strategy for Cadenza: Hydraulic Dash (Iron Body): 15.00
+Unbeatable strategy for Cadenza: Clockwork Shot: 6.00
+Unbeatable strategy for Cadenza: Clockwork Shot (Iron Body): 6.00
+Unbeatable strategy for Cadenza: Mechanical Dash: 6.00
+Unbeatable strategy for Cadenza: Mechanical Dash (Iron Body): 6.00
 
 Cadenza:
-100% Hydraulic Burst
+50% Mechanical Strike
+50% Mechanical Grasp
 
 Marmelee:
 100% Special Pulse
 
 
-Cadenza: Hydraulic Burst
+Cadenza: Mechanical Grasp
 Marmelee: Special Pulse
 
 Pulse:
 
-CM.....
+C.....M
 
 
 Beat 15
@@ -888,105 +846,92 @@ Beat 15
 
 Cadenza
 -------
-life: 20
-discard 1: Hydraulic Burst
-discard 2: Mechanical Drive
+life: 12
+discard 1: Mechanical Grasp
+discard 2: Grapnel Press
 special action
-2 Iron Body tokens
+1 Iron Body tokens
 
 Marmelee
 --------
-life: 10
-discard 1: Petrifying Burst
-discard 2: Sorceress Strike
-5 Concentration tokens
+life: 1
+discard 1: Petrifying Meditation
+discard 2: Barrier Strike
+3 Concentration counters
 
 
-CM.....
+C.....M
 
-Unbeatable strategy for Cadenza: Battery Press: 15.00
-Unbeatable strategy for Cadenza: Battery Press (Iron Body): 15.00
-Unbeatable strategy for Cadenza: Battery Shot: 15.00
-Unbeatable strategy for Cadenza: Battery Shot (Iron Body): 15.00
-Unbeatable strategy for Cadenza: Battery Dash: 15.00
-Unbeatable strategy for Cadenza: Battery Dash (Iron Body): 15.00
-Unbeatable strategy for Cadenza: Clockwork Press: 15.00
-Unbeatable strategy for Cadenza: Clockwork Press (Iron Body): 15.00
-Unbeatable strategy for Cadenza: Clockwork Strike: 15.00
-Unbeatable strategy for Cadenza: Clockwork Strike (Iron Body): 15.00
-Unbeatable strategy for Cadenza: Clockwork Shot: 15.00
-Unbeatable strategy for Cadenza: Clockwork Shot (Iron Body): 15.00
-Unbeatable strategy for Cadenza: Grapnel Press: 15.00
-Unbeatable strategy for Cadenza: Grapnel Press (Iron Body): 15.00
+Unbeatable strategy for Cadenza: Clockwork Shot: 6.00
+Unbeatable strategy for Cadenza: Clockwork Shot (Iron Body): 6.00
+Unbeatable strategy for Cadenza: Clockwork Burst: 6.00
+Unbeatable strategy for Cadenza: Clockwork Burst (Iron Body): 6.00
 
 Cadenza:
-3% Battery Press
-3% Battery Press (Iron Body)
 3% Battery Strike
 3% Battery Strike (Iron Body)
 3% Battery Shot
 3% Battery Shot (Iron Body)
-3% Battery Grasp
-3% Battery Grasp (Iron Body)
+3% Battery Drive
+3% Battery Drive (Iron Body)
+3% Battery Burst
+3% Battery Burst (Iron Body)
 3% Battery Dash
 3% Battery Dash (Iron Body)
-3% Clockwork Press
-3% Clockwork Press (Iron Body)
 3% Clockwork Strike
 3% Clockwork Strike (Iron Body)
 3% Clockwork Shot
 3% Clockwork Shot (Iron Body)
-3% Clockwork Grasp
-3% Clockwork Grasp (Iron Body)
+3% Clockwork Drive
+3% Clockwork Drive (Iron Body)
+3% Clockwork Burst
+3% Clockwork Burst (Iron Body)
 3% Clockwork Dash
 3% Clockwork Dash (Iron Body)
-3% Grapnel Press
-3% Grapnel Press (Iron Body)
-3% Grapnel Strike
-3% Grapnel Strike (Iron Body)
-3% Grapnel Shot
-3% Grapnel Shot (Iron Body)
-3% Grapnel Grasp
-3% Grapnel Grasp (Iron Body)
-3% Grapnel Dash
-3% Grapnel Dash (Iron Body)
+3% Hydraulic Strike
+3% Hydraulic Strike (Iron Body)
+3% Hydraulic Shot
+3% Hydraulic Shot (Iron Body)
+3% Hydraulic Drive
+3% Hydraulic Drive (Iron Body)
+3% Hydraulic Burst
+3% Hydraulic Burst (Iron Body)
+3% Hydraulic Dash
+3% Hydraulic Dash (Iron Body)
 
 Marmelee:
-7% Magnificent Meditation
 7% Magnificent Shot
-6% Magnificent Drive
+7% Magnificent Drive
+7% Magnificent Burst
 7% Magnificent Grasp
-6% Magnificent Dash
-7% Barrier Meditation
-6% Barrier Shot
-7% Barrier Drive
-7% Barrier Grasp
-6% Barrier Dash
-7% Nullifying Meditation
-6% Nullifying Shot
+7% Magnificent Dash
+7% Sorceress Shot
+7% Sorceress Drive
+7% Sorceress Burst
+7% Sorceress Grasp
+6% Sorceress Dash
+7% Nullifying Shot
 7% Nullifying Drive
+7% Nullifying Burst
 7% Nullifying Grasp
 7% Nullifying Dash
 
 
-Cadenza: Clockwork Shot
-Marmelee: Nullifying Dash
+Cadenza: Clockwork Dash (Iron Body)
+Marmelee: Magnificent Dash
 
-Priorities:  -1 | 10
+Cadenza antes an Iron Body token
+Priorities:  6 | 9
 Marmelee is active
 Marmelee moves:
 
-C.M....
+C..M...
 
-Marmelee moves:
+Cadenza moves:
 
-CM.....
+.C.M...
 
-Cadenza hits
-Marmelee takes 6 damage (now at 4 life)
-Marmelee is stunned
-Marmelee loses all tokens
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 Game goes to time
 CADENZA WINS!
-total_time: 32
+total_time: 26

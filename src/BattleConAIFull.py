@@ -3,8 +3,13 @@
 
 # TO DO
 
-# Cancel: opponent's pair goes in discard (two pairs there),
-# then both choose a pair (ante is locked).
+# Pulse: when no character has board markers, can use board symmetry
+# to trim fork size.  This means every character should have a function
+# that says if board is currently empty (or at least symmetrical).
+
+# KNOWN BUGS/PROBLEMS
+
+# Cancel currently ignored by AI (not played or played around).
 # Option 1: For each cancel vs. pair, solve 15x8 matrix.
 #     Problems:
 #         1. Takes a long time.
@@ -19,24 +24,6 @@
 #         2. Not clear how to evaluate spent ante, which might be
 #            a complete loss, or still useful this beat.
 
-
-# Beta bases: set order_forks for characters where needed.
-#    Choose initial discards, or always play with default in beta.
-
-# Pulse: when no character has board markers, can use board symmetry
-# to trim fork size.  This means every character should have a function
-# that says if board is currently empty (or at least symmetrical).
-
-# Can't move directly to own space.  Probably best to remove from
-# destination of each instance (use move to unoccupied instead of 
-# move anywhere.
-
-# Check that all movement blocks interact correctly with direct movement.
-
-# KNOWN BUGS/PROBLEMS
-
-# Lacking a ruling, I've decided that non-attack damage triggers everything
-# (even if it says "damaged by an attack" etc.).
 
 # when a Cancel ends up killing the opponent, points are still deducted
 # for spending the special action
@@ -70,13 +57,17 @@ def main():
                       action="store_true", dest="test",
                       default=False,
                       help="run test")
+    parser.add_option("-b", "--beta",
+                      action="store_true", dest="beta",
+                      default=False,
+                      help="use beta bases in test")
     parser.add_option("-a", "--ad_hoc",
                       action="store_true", dest="ad_hoc",
                       default=False,
                       help="run ad_hoc")
     options, unused_args = parser.parse_args()
     if options.test:
-        test()
+        test(None, options.beta)
     elif options.ad_hoc:
         ad_hoc()
     else:
@@ -84,15 +75,18 @@ def main():
     
 
 def ad_hoc():
-    start_with = 'adjenna'
-    names = [n for n in playable if n >= start_with]
-    names = 'vanaah'
-    free_for_all (repeat=1,
-                  names=names, 
-                  start=start_with, 
-                  skip=[],
-                  raise_exceptions=True, 
-                  first_beats=False)
+    beta_challenge(['luc','rukyuk'],
+                   ['voco','zaamassal'],
+                   True, True)
+#     start_with = 'adjenna'
+#     names = [n for n in playable if n >= start_with]
+#     names = ['marmelee']
+#     free_for_all (repeat=1,
+#                   names=names, 
+#                   start=start_with, 
+#                   skip=[],
+#                   raise_exceptions=True, 
+#                   first_beats=False)
 
 playable = ['adjenna',
             'alexian',
@@ -146,7 +140,7 @@ def test (first=None, beta_bases=False):
                                 default_discards=True)
         game_log, unused_winner = game.play_game()
         end_time = time.time()
-        print "tot time:", end_time - start_time
+        print "tot time: %d" % (end_time - start_time)
         log.extend(game_log)
     logfilename = "logs/v1.1_test"
     with open (logfilename, 'w') as f:
@@ -154,20 +148,17 @@ def test (first=None, beta_bases=False):
             f.write (g+'\n')
         
 def play ():
-    # hepzibah and clive are too slow.
     names = sorted([k.capitalize() for k in character_dict.keys()])
     while True:
         print "Select your character: [1-%d]\n" %len(names)
         human = names [menu(names)]
         print "Select AI character: [1-%d]\n" %len(names)
         ai = names[menu(names)]
-        # For now, don't use beta bases.
-#         print "Which set of bases should be used?"
-#         ans = menu(['Standard bases',
-#                     'Beta bases',
-#                     'I use standard, AI uses beta',
-#                     'I use beta, AI uses standard'])
-        ans = 0
+        print "Which set of bases should be used?"
+        ans = menu(['Standard bases',
+                    'Beta bases',
+                    'I use standard, AI uses beta',
+                    'I use beta, AI uses standard'])
         ai_beta = ans in (1,2)
         human_beta = ans in (1,3)
         print "Default Discards?"
@@ -200,6 +191,25 @@ def save_log(basename, log):
                     f.write (g+'\n')
             break
     return name
+
+# Play everyone against everyone
+def beta_challenge(next_pair=None, last_pair=None, beta0=False, beta1=False):
+    if next_pair is None:
+        next_pair = (playable[0],playable[0])
+    if last_pair is None:
+        last_pair = (playable[-1], playable[-1])
+    firsts = [name for name in playable if name >= next_pair[0]
+                                       and name <= last_pair[0]]
+    for first in firsts:
+        seconds = playable
+        if first == next_pair[0]:
+            seconds = [name for name in seconds if name >= next_pair[1]]
+        if first == last_pair[0]:
+            seconds = [name for name in seconds if name <= last_pair[1]]
+        for second in seconds:
+            if ((beta0 == beta1 and first < second) or
+                (beta0 != beta1 and first != second)):
+                duel(first, second, 1, beta0, beta1)
 
 # play everyone in names against everyone from start onwards, unless in skip
 def free_for_all (repeat, names=None, start=None, skip=[],
@@ -1561,29 +1571,42 @@ class Character (object):
         # Placeholders that do nothing.  You have them until the reveal step.
         self.null_style = NullStyle (the_game, self)
         self.null_base = NullBase (the_game, self)
+
+        # All Characters have all bases (alpha and beta).
+        # This allows conversion of initial discards from alpha to
+        # beta.
+        self.strike = Strike (the_game,self)
+        self.shot = Shot (the_game,self)
+        self.drive = Drive (the_game,self)
+        self.burst = Burst (the_game,self)
+        self.grasp = Grasp (the_game,self)
+        self.dash = Dash (the_game,self)
+        # Counter and Wave avoid clashing with styles of same name.
+        self.counter_base = Counter (the_game,self)
+        self.wave_base = Wave (the_game,self)
+        self.force = Force (the_game,self)
+        self.spike = Spike (the_game,self)
+        self.throw = Throw (the_game,self)
+        self.parry = Parry (the_game,self)
+        # And create conversions:
+        self.strike.corresponding_beta = self.counter_base
+        self.shot.corresponding_beta = self.wave_base
+        self.drive.corresponding_beta = self.force
+        self.burst.corresponding_beta = self.spike
+        self.grasp.corresponding_beta = self.throw
+        self.dash.corresponding_beta = self.parry
+        self.unique_base.corresponding_beta = self.unique_base
         
         self.use_beta_bases = use_beta_bases
         if use_beta_bases:
-            self.counter = Counter (the_game,self)
-            self.spike = Spike (the_game,self)
-            self.force = Force (the_game,self)
-            self.wave = Wave (the_game,self)
-            self.throw = Throw (the_game,self)
-            self.parry = Parry (the_game,self)
             self.bases = [self.unique_base,
-                          self.counter,
-                          self.wave,
+                          self.counter_base,
+                          self.wave_base,
                           self.force,
                           self.spike,
                           self.throw,
                           self.parry]
         else:
-            self.strike = Strike (the_game,self)
-            self.shot = Shot (the_game,self)
-            self.drive = Drive (the_game,self)
-            self.burst = Burst (the_game,self)
-            self.grasp = Grasp (the_game,self)
-            self.dash = Dash (the_game,self)
             self.bases = [self.unique_base,
                           self.strike,
                           self.shot,
@@ -1706,6 +1729,9 @@ class Character (object):
                 b2 = bases[menu([b.name for b in bases])]
             else:
                 s1,b1,s2,b2 = self.choose_initial_discards()
+                if self.use_beta_bases:
+                    b1 = b1.corresponding_beta
+                    b2 = b2.corresponding_beta
             self.discard[1] = set ((s1,b1))
             self.discard[2] = set ((s2,b2))
         
@@ -1818,19 +1844,19 @@ class Character (object):
     def get_pairs (self):
         unavailable_cards = self.discard[1] \
                           | self.discard[2]
-        styles = sorted (tuple (set(self.styles) - unavailable_cards), \
+        styles = sorted (set(self.styles) - unavailable_cards,
                          key = attrgetter('order'))
-        bases = sorted (tuple (set(self.bases) - unavailable_cards), \
+        bases = sorted (set(self.bases) - unavailable_cards,
                         key = attrgetter('order'))
         pairs = [(s,b) for s in styles for b in bases]
         if self.special_action_available:
-            if len(self.pulse_generators - unavailable_cards) > 0:
+            if self.pulse_generators - unavailable_cards:
                 pairs.append ((self.special_action, self.pulse))
-            if len(self.cancel_generators - unavailable_cards) > 0:
+            if self.cancel_generators - unavailable_cards:
                 pairs.append ((self.special_action, self.cancel))
-            if len(self.finisher_generators - unavailable_cards) > 0:
-                for drive in self.finishers:
-                    pairs.append ((self.special_action, drive))
+            if self.finisher_generators - unavailable_cards:
+                for finisher in self.finishers:
+                    pairs.append ((self.special_action, finisher))
         return pairs
 
     # prompt user for a style and a base
@@ -2048,42 +2074,66 @@ class Character (object):
         for card in self.active_cards:
             card.reveal_trigger()
     def start_trigger (self):
-        for card in self.active_cards:
-            card.start_trigger()
+        self.activate_card_triggers('start_trigger')
     def before_trigger (self):
-        for card in self.active_cards:
-            card.before_trigger()
+        self.activate_card_triggers('before_trigger')
     def hit_trigger (self):
         if not self.opponent.blocks_hit_triggers():
-            self.card_hit_triggers()
+            self.activate_card_triggers('hit_trigger')
     def take_a_hit_trigger (self):
-        for card in self.active_cards:
-            card.take_a_hit_trigger()
+        self.activate_card_triggers('take_a_hit_trigger')
     def damage_trigger (self, damage):
         if not self.opponent.blocks_damage_triggers():
-            self.card_damage_triggers(damage)
+            self.activate_card_triggers('damage_trigger', [damage])
         self.opponent.stun (damage)
     def take_damage_trigger (self, damage):
         pass
     def soak_trigger (self, damage_soaked):
         pass
     def after_trigger (self):
-        for card in self.active_cards:
-            card.after_trigger()
+        self.activate_card_triggers('after_trigger')
     def end_trigger (self):
-        for card in self.active_cards:
-            card.end_trigger()
+        self.activate_card_triggers('end_trigger')
     # This is for unique abilites that say "end of beat"
     def unique_ability_end_trigger (self):
         pass
 
-    def card_hit_triggers (self):
-        for card in self.active_cards:
-            card.hit_trigger()
-    def card_damage_triggers (self, damage):
-        for card in self.active_cards:
-            card.damage_trigger(damage)
-        
+    def activate_card_triggers(self, trigger_name, params=[]):
+        cards = self.active_cards
+        trigger = attrgetter(trigger_name)
+        ordered = attrgetter('ordered_' + trigger_name)
+        ordered_cards = [c for c in cards if ordered(c)]
+        other_cards = [c for c in cards if not ordered(c)]
+        for card in other_cards:
+            trigger(card)(*params)
+        n_ordered = len(ordered_cards)
+        if n_ordered == 1:
+            trigger(ordered_cards[0])(*params)
+        elif n_ordered == 2:
+            prompt = "Choose trigger to execute first:"
+            options = [card.name for card in ordered_cards]
+            first = self.game.make_fork (2, self, prompt, options)
+            trigger(ordered_cards[first])(*params)
+            trigger(ordered_cards[1-first])(*params)
+        elif n_ordered == 3:
+            prompt = "Choose order of triggers:"
+            options = []
+            if self.is_user and self.game.interactive_mode:
+                for i in range (6):
+                    options.append (', '.join([ordered_cards[i%3].name,
+                                               ordered_cards[2-i/2].name,
+                                               ordered_cards[1-i%3+i/2].name]))
+            order = self.game.make_fork (6, self, prompt, options)
+            first = order%3             # [012012]
+            second = 2 - order/2        # [221100]
+            third = 3 - first - second  # [100221]
+            trigger(ordered_cards[first])(*params)
+            trigger(ordered_cards[second])(*params)
+            trigger(ordered_cards[third])(*params)
+        elif n_ordered > 3:
+            raise Exception("Can't handle %d simultaneous ordered triggers" % n_ordered)
+            
+            
 
     # special ability calculation
     def is_attacking (self):
@@ -2525,22 +2575,14 @@ class Character (object):
           + sum (card.discard_penalty() for card in self.discard[2]) / 2.0
         special_action_bonus = \
                     ((self.special_action.value +
-                      (max([drive.evaluate_setup()
-                            for drive in self.finishers])
+                      (max([finisher.evaluate_setup()
+                            for finisher in self.finishers])
                        if (self.life <= 7) else 0)) \
                     if self.special_action_available else 0)
 
         return - self.opponent.effective_life() + self.evaluation_bonus \
                + self.evaluate_range () + card_bonus \
                + discard_penalty + special_action_bonus
-
-    # create fork to decide order between two triggers
-    # if choice given, it's a "fake fork"
-    def order_fork (self, cards, choice=None):
-        prompt = "Choose trigger to execute first:"
-        options = [cards[0].name, cards[1].name]
-        order = self.game.make_fork (2, self, prompt, options, choice)
-        return [cards[order], cards[1-order]]
 
     # traits that are useful for AI opponents to know about
 
@@ -2634,6 +2676,15 @@ class Card (object):
         pass
     def end_trigger(self):
         pass
+    # Set to True if a card has a trigger of the appropriate type,
+    # for which ordering (vs. other triggers) is important.
+    ordered_start_trigger = False
+    ordered_before_trigger = False
+    ordered_hit_trigger = False
+    ordered_take_a_hit_trigger = False
+    ordered_damage_trigger = False
+    ordered_after_trigger = False
+    ordered_end_trigger = False
 
     #interrupting self/opponent
     def can_hit (self):
@@ -2778,18 +2829,6 @@ class Adjenna (Character):
     def full_restore (self, state):
         Character.full_restore (self, state)
         self.petrification_is_blocked = state.petrification_is_blocked
-
-    # theoretically, there should be an order fork for Beckoning Grasp
-    # in practice, there's no character that blocks moving the opponent
-    # (the way Khadath's Trap blocks normal movement), so no need.
-
-    # in a Pacifying Dash, the order of after triggers matters
-    def after_trigger (self):
-        if self.style.name == 'Pacifying' and self.base.name == 'Dash':
-            for card in self.order_fork ([self.style, self.base]):
-                card.after_trigger()
-        else:
-            Character.after_trigger (self)
 
     # When Arresting, pushed back 1 for each damage soaked
     def soak_trigger (self, soaked_damage):
@@ -2953,22 +2992,6 @@ class Alexian (Character):
         if old_direction * new_direction < 0:
             self.switched_sides = True
 
-    # in a Gestalt Burst, the order of start triggers matters
-    def start_trigger (self):
-        if self.style.name == 'Gestalt' and self.base.name == 'Burst':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        else:
-            Character.start_trigger (self)
-
-    # in a Steeled Drive, the order of before triggers matters
-    def before_trigger (self):
-        if self.style.name == 'Steeled' and self.base.name == 'Drive':
-            for card in self.order_fork ([self.style, self.base]):
-                card.before_trigger()
-        else:
-            Character.before_trigger (self)
- 
     def evaluate (self):
         value = Character.evaluate(self)
         value -= 0.6 * len(self.induced_pool)
@@ -3085,26 +3108,10 @@ class Aria (Character):
 
     def damage_trigger (self, damage):
         if not self.opponent.blocks_damage_triggers():
-            self.card_damage_triggers(damage)
+            self.activate_card_triggers('damage_trigger', [damage])
         # Dimensional doesn't stun if its trigger prevented it
         if not self.dimensional_no_stun:
             self.opponent.stun (damage)
-
-    # in an Ionic Burst, the order of start triggers matters
-    # (but only if Magnetron is online)
-    def start_trigger (self):
-        if self.style.name == 'Ionic' and self.base.name == 'Burst' and \
-           self.magnetron.position is not None:
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        else:
-            Character.start_trigger (self)
-
-    # Base before style, so that Drive/Reconfiguration trigger happnens before
-    # Laser looks at list of droids and asks for selection
-    def before_trigger (self):
-        self.base.before_trigger()
-        self.style.before_trigger()
 
     def evaluate (self):
         value = Character.evaluate(self)
@@ -3242,24 +3249,6 @@ class Byron (Character):
                 self.game.report ("Byron recovers a Mask Emblem: now at %d"
                                   % self.mask_emblems)
 
-    # in a Breathless Burst, we want to Burst first
-    def start_trigger (self):
-        self.base.start_trigger()
-        self.style.start_trigger()
-
-    # in a Heartless Grasp/Smoke, the order of hit triggers matters
-    def card_hit_triggers (self):
-        if self.style.name == 'Heartless' and \
-           self.base.name in ['Grasp','Smoke']:
-            if self.game.distance() == 3:
-                self.style.hit_trigger()
-                self.base.hit_trigger()
-            else:
-                self.base.hit_trigger()
-                self.style.hit_trigger()
-        else:
-            Character.card_hit_triggers (self)
-
     def take_damage_trigger (self, damage):
         if not self.damage_taken:
             self.discard_emblem()
@@ -3333,7 +3322,6 @@ class Cadenza (Character):
         self.priority_bonus = False
 
     def choose_initial_discards (self):
-        # Hydraulic Burst, Mechanical Press
         return (self.hydraulic, self.burst,
                 self.mechanical, self.unique_base)
 
@@ -3400,22 +3388,6 @@ class Cadenza (Character):
 
     def get_stunguard (self):
         return (1000000 if self.token_spent else Character.get_stunguard(self))
-
-    # in a Hydraulic Drive, the order of before triggers matters
-    def before_trigger (self):
-        if self.style.name == 'Hydraulic' and self.base.name == 'Drive':
-            for card in self.order_fork ([self.style, self.base]):
-                card.before_trigger()
-        else:
-            Character.before_trigger (self)
-
-    # in a Grapnel Grasp, the order of hit triggers matters
-    def card_hit_triggers (self):
-        if self.style.name == 'Grapnel' and self.base.name == 'Grasp':
-            for card in self.order_fork ([self.style, self.base]):
-                card.hit_trigger()
-        else:
-            Character.card_hit_triggers (self)
 
     # when Cadenza is about to be stunned by damage, he may spend a token
     def stun (self, damage=None):
@@ -3570,7 +3542,6 @@ class Cesar (Character):
         # check if this is first damage this beat
         self.damage_taken += final_damage
 
-
     # overrides default method, which I set to pass for performance
     def movement_reaction (self, mover, old_position, direct):
         for card in self.active_cards:
@@ -3582,45 +3553,12 @@ class Cesar (Character):
     def blocks_damage_triggers (self):
         return self.unstoppable in self.active_cards
 
-    # in a Phalanx Drive, the order of before triggers matters
-    def before_trigger (self):
-        if self.style.name == 'Phalanx' and self.base.name == 'Drive':
-            for card in self.order_fork ([self.style, self.base]):
-                card.before_trigger()
-        else:
-            Character.before_trigger (self)
-
-    # in a Bulwark Dash, the order of after triggers matters
-    def after_trigger (self):
-        if self.style.name == 'Bulwark' and self.base.name == 'Dash':
-            for card in self.order_fork ([self.style, self.base]):
-                card.after_trigger()
-        else:
-            Character.after_trigger (self)
-
     # It's best to end the beat with level 4,0,1 and worst to end with 3
     def evaluate (self):
         return (Character.evaluate(self) +
                 [1.4, 0.9, -0.35, -2.6, 1.15][self.threat_level] +
                 5 * self.defeat_immunity)
          
-
-##class Claus (Character):
-##    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
-##        self.unique_base = Tempest (the_game, self)
-##        self.styles = [Hurricane (the_game, self),
-##                       Tailwind  (the_game, self),
-##                       Blast     (the_game, self),
-##                       Cyclone   (the_game, self),
-##                       Downdraft (the_game, self)]
-##        self.finishers = [AutumnsAdvance (the_game, self)]
-##        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
-##    
-##    def choose_initial_discards (self):
-##        # needs checking
-##        return (self.styles[0], self.unique_base,
-##                self.styles[1], self.grasp)
-
 class Clinhyde (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Frenzy (the_game, self)
@@ -3720,34 +3658,6 @@ class Clinhyde (Character):
     def get_soak (self):
         return 2 if isinstance (self.ante_activation, Hylatine) else 0
 
-    # in a Toxic Burst, the order of start triggers matters
-    # but only with 1,3 active packs (0: no trigger; 2: identical triggers)
-    def start_trigger (self):
-        if self.style.name == 'Toxic' and self.base.name == 'Burst' \
-           and len(self.active_packs) in (1,3):
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        else:
-            Character.start_trigger (self)
-
-    # in a Shock Drive, the order of before triggers matters
-    def before_trigger (self):
-        if self.style.name == 'Shock' and self.base.name == 'Drive':
-            for card in self.order_fork ([self.style, self.base]):
-                card.before_trigger()
-        else:
-            Character.before_trigger (self)
-
-    # in a Diffusion Grasp, the order of hit triggers matters;
-    # otherwise, base first to have Grasp before Gravity
-    def card_hit_triggers (self):
-        if self.style.name == 'Diffusion' and self.base.name == 'Grasp':
-            for card in self.order_fork ([self.style, self.base]):
-                card.hit_trigger()
-        else:
-            self.base.hit_trigger()
-            self.style.hit_trigger()
-
     def execute_move (self, mover, moves, direct=False):
         # can choose not to move when using Gravity
         new_move = self.position if direct else 0
@@ -3796,7 +3706,7 @@ class Clive (Character):
         return Character.all_cards(self) + self.modules
 
     def choose_initial_discards (self):
-        # TODO: choose real discards
+        # Not really checked
         return (self.styles[0], self.grasp,
                 self.styles[1], self.strike)
 
@@ -3943,100 +3853,6 @@ class Clive (Character):
     def blocks_damage_triggers (self):
         return self.core_shielding in self.active_modules
 
-    # in a Rocket Burst, the order of start triggers matters
-    def start_trigger (self):
-        if self.style.name == 'Rocket' and self.base.name == 'Burst':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        else:
-            Character.start_trigger (self)
-
-    # the order of before triggers [Upgradeable/Leaping + Drive + Rocket Boots]
-    # matters
-    def before_trigger (self):
-        cards = [c for c in self.active_cards \
-                 if c.name in ['Upgradeable','Leaping','Drive','Rocket Boots']]
-        if len(cards) == 1:
-            cards[0].before_trigger()
-        elif len(cards) == 2:
-            prompt = "Choose order of triggers:"
-            options = []
-            for i in range (2):
-                options.append (', '.join([cards[i].name, cards[1-i].name]))
-            order = self.game.make_fork (2, self, prompt, options)
-            cards[order].before_trigger()
-            cards[1-order].before_trigger()
-        elif len(cards) == 3:
-            prompt = "Choose order of triggers:"
-            options = []
-            if self.is_user and self.game.interactive_mode:
-                for i in range (6):
-                    options.append (', '.join([cards[i%3].name,
-                                               cards[2-i/2].name,
-                                               cards[1-i%3+i/2].name]))
-            order = self.game.make_fork (6, self, prompt, options)
-            first = order%3             # [012012]
-            second = 2 - order/2        # [221100]
-            third = 3 - first - second  # [100221]
-            cards[first].before_trigger()
-            cards[second].before_trigger()
-            cards[third].before_trigger()
-
-    # the order of hit triggers [Burnout/Rocket/Megaton + Grasp + Force Gloves]
-    # matters
-    def card_hit_triggers (self):
-        cards = [c for c in self.active_cards \
-                 if c.name in ['Burnout','Rocket','Megaton',
-                               'Grasp','Force Gloves']]
-        # Burnout's place in the order only matters for Force Gloves
-        if self.burnout in cards and self.force_gloves not in cards:
-            self.burnout.hit_trigger()
-            cards.remove(self.burnout)
-        
-        if len(cards) == 0:
-            return
-        if len(cards) == 1:
-            cards[0].hit_trigger()
-        elif len(cards) == 2:
-            prompt = "Choose order of triggers:"
-            options = []
-            for i in range (2):
-                options.append (', '.join([cards[i].name, cards[1-i].name]))
-            order = self.game.make_fork (2, self, prompt, options)
-            cards[order].hit_trigger()
-            # check that Force Gloves wasn't removed by Burnout
-            if cards[1-order] in self.active_cards:
-                cards[1-order].hit_trigger()
-        elif len(cards) == 3:
-            prompt = "Choose order of triggers:"
-            options = []
-            if self.is_user and self.game.interactive_mode:
-                for i in range (6):
-                    options.append (', '.join([cards[i%3].name,
-                                               cards[2-i/2].name,
-                                               cards[1-i%3+i/2].name]))
-            order = self.game.make_fork (6, self, prompt, options)
-            first = order%3             # [012012]
-            second = 2 - order/2        # [221100]
-            third = 3 - first - second  # [100221]
-            cards[first].hit_trigger()
-            # check that Force Gloves wasn't removed by Burnout
-            if cards[second] in self.active_cards:
-                cards[second].hit_trigger()
-            # check that Force Gloves wasn't removed by Burnout
-            if cards[third] in self.active_cards:
-                cards[third].hit_trigger()
-
-    # in a Dash/Wrench with Rocket Boots online,
-    # the order of after triggers matters
-    def after_trigger (self):
-        if self.base.name in ('Dash', 'Wrench') and \
-           self.rocket_boots in self.active_modules:
-            for card in self.order_fork ([self.base, self.rocket_boots]):
-                card.after_trigger()
-        else:
-            Character.after_trigger (self)
-    
     def set_preferred_range (self):
         Character.set_preferred_range(self)
         if self.rocket_boots in self.active_modules:
@@ -4066,7 +3882,6 @@ class Demitras (Character):
         self.max_tokens = 5
         
     def choose_initial_discards (self):
-        # Bloodletting Grasp, Illusory Strike
         return (self.bloodletting, self.grasp,
                 self.illusory, self.strike)
 
@@ -4083,6 +3898,19 @@ class Demitras (Character):
         lines = Character.read_my_state (self, lines, board, addendum)
         self.pool = [self.crescendo] * int(lines[0][0])
 
+    def reset (self):
+        self.deathblow_spending = 0
+        Character.reset (self)
+
+    def full_save (self):
+        state = Character.full_save (self)
+        state.deathblow_spending = self.deathblow_spending
+        return state
+
+    def full_restore (self, state):
+        Character.full_restore (self, state)
+        self.deathblow_spending = state.deathblow_spending
+        
     def get_antes (self):
         return range (len(self.pool) + 1)
 
@@ -4108,28 +3936,14 @@ class Demitras (Character):
     def get_priority_bonus (self): 
         return len(self.pool)
     
-    # in a Jousting Burst, the order of start triggers matters
-    def start_trigger (self):
-        if self.style.name == 'Jousting' and self.base.name == 'Burst':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        else:
-            Character.start_trigger (self)
+    def get_power_bonus (self): 
+        return 2 * self.deathblow_spending
 
     # add new token before activating style/base triggers
     # to give Deathblow the option to use the new token
     def hit_trigger (self):
         self.recover_tokens (1)
         Character.hit_trigger (self)
-
-    # in a Darkside/Jousting Grasp, the order of hit triggers matters
-    def card_hit_triggers (self):
-        if self.style.name in ['Darkside','Jousting'] \
-           and self.base.name == 'Grasp':
-            for card in self.order_fork ([self.style, self.base]):
-                card.hit_trigger()
-        else:
-            Character.card_hit_triggers (self)
 
     def take_a_hit_trigger (self):
         self.discard_token ()
@@ -4242,14 +4056,6 @@ class Eligor (Character):
         return (set(xrange(7)) if (self.opponent_immobilized and
                              not self.game.status_effects_blocked())
                 else Character.blocks_movement(self, direct))
-
-    # in a Counter Drive, the order of before triggers matters
-    def before_trigger (self):
-        if self.style.name == 'Counter' and self.base.name == 'Drive':
-            for card in self.order_fork ([self.style, self.base]):
-                card.before_trigger()
-        else:
-            Character.before_trigger (self)
 
     def get_minimum_life (self):
         return 1 if self.base.name == 'Sweet Revenge' \
@@ -4375,31 +4181,9 @@ class Heketch (Character):
         if a == 1:
             return "Dark Force - right"
         
-    # in a Psycho Burst, the order of start triggers matters
-    def start_trigger (self):
-        if self.style.name == 'Psycho' and self.base.name == 'Burst':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        else:
-            Character.start_trigger (self)
-
-    # in a Rasping/Critical/Assassin Grasp, the order of hit triggers matters
-    def card_hit_triggers (self):
-        if self.style.name in ['Rasping','Critical','Assassin'] and \
-           self.base.name == "Grasp":
-            # for Rasping/Critical, we can make a heuristic decision:
-            if self.style.name == 'Assassin':
-                choice = None
-            else:
-                choice = (0 if self.game.distance() == 1 else 1)
-            for card in self.order_fork ([self.style, self.base], choice):
-                card.hit_trigger()
-        else:
-            Character.card_hit_triggers (self)
-
     def damage_trigger (self, damage):
         if not self.opponent.blocks_damage_triggers():
-            self.card_damage_triggers(damage)
+            self.activate_card_triggers('damage_trigger', [damage])
         # Knives doesn't stun at range 1
         if not isinstance (self.base, Knives) or self.game.distance() > 1:
             self.opponent.stun (damage)
@@ -4438,144 +4222,6 @@ class Heketch (Character):
     def evaluate (self):
         return Character.evaluate (self) + 2 * len (self.pool)
 
-
-# BUG : free_token is sometimes Token object, sometimes number
-class Hepzibah (Character):
-    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
-        self.unique_base = Bloodlight (the_game, self)
-        self.styles = [Pactbond    (the_game, self), \
-                       Anathema    (the_game, self), \
-                       Necrotizing (the_game, self), \
-                       Darkheart   (the_game, self), \
-                       Accursed    (the_game, self)  ]
-        self.finishers = [SealThePact (the_game, self)]
-        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
-        self.tokens = [Almighty    (the_game, self), \
-                       Corruption  (the_game, self), \
-                       Endless     (the_game, self), \
-                       Immortality (the_game, self), \
-                       InevitableT (the_game, self)  ]
-        self.pool = self.tokens[:]
-        self.almighty = self.tokens[0]
-
-    def set_starting_setup (self, default_discards, use_special_actions):
-        Character.set_starting_setup (self, default_discards, use_special_actions)
-        self.free_token = None
-        self.pact_sealed = False
-
-    def situation_report (self):
-        report = Character.situation_report (self)
-        if self.free_token != None:
-            report.append ("Free token: " + self.free_token.name)
-        if self.pact_sealed:
-            report.append ("The Pact is Sealed")
-        return report
-
-    def read_my_state (self, lines, board, addendum):
-        lines = Character.read_my_state (self, lines, board, addendum)
-        self.free_token = None
-        for line in lines:
-            if line.starts_with ("Free token:"):
-                for t in self.tokens:
-                    if t.name == line.split()[-1]:
-                        self.free_token = t
-        self.pact_sealed = find_start (lines, 'The Pact')
-
-    def initial_save (self):
-        state = Character.initial_save (self)
-        state.pact_sealed = self.pact_sealed
-        return state
-
-    def initial_restore (self, state):
-        Character.initial_restore (self, state)
-        self.pact_sealed = state.pact_sealed
-
-    def reset (self):
-        self.necro_power = 0
-        self.free_token_next_beat = None
-        Character.reset (self)
-
-    def full_save (self):
-        state = Character.full_save (self)
-        state.necro_power = self.necro_power
-        state.free_token_next_beat = self.free_token_next_beat
-        return state
-
-    def full_restore (self, state):
-        Character.full_restore (self, state)
-        self.necro_power = state.necro_power
-        self.free_token_next_beat = state.free_token_next_beat
-
-    def prepare_next_beat (self):
-        Character.prepare_next_beat (self)
-        self.free_token = self.free_token_next_beat
-
-    # all token combinations of size up to life-1    
-    def get_antes (self):
-        max_tokens = self.life - 1
-        # Seal the Pact allows taking one life from opponent
-        if self.pact_sealed and self.opponent.life > 1:
-            max_tokens += 1
-        max_tokens = min (max_tokens, 5)
-        ante_sets = sum ((list(itertools.combinations(self.pool, n_ante)) \
-                          for n_ante in range (max_tokens+1)),[])
-        # can get an extra token by using free token from Pactbond
-        if max_tokens < 5 and self.free_token != None:
-            ante_sets.extend \
-                ([a for a in itertools.combinations(self.pool, max_tokens+1) \
-                  if self.free_token in a])
-        return ante_sets
-        
-    def input_ante (self):
-        max_tokens = self.life - 1
-        # Seal the Pact allows taking one life from opponent
-        if self.pact_sealed and self.opponent.life > 1:
-            max_tokens += 1
-        if max_tokens > 0 or self.free_token != None:
-            print "Select tokens (string of initials):"
-            for t in self.pool:
-                print " ", t.name_with_initial
-            while True:
-                ans = raw_input ("")
-                ans = ans.lower()
-                ante = []
-                for t in self.pool:
-                    if t.shorthand in ans:
-                        ante.append (t)
-                if len (ante) <= max_tokens or \
-                   (len(ante) == max_tokens+1 and self.free_token in ante):
-                    break
-            return tuple(ante)
-        else:
-            return []
-
-    def get_ante_name (self, a):
-        if len (a) == 0:
-            return ""
-        name = a[0].name
-        for token in a[1:] :
-            name += (", " + token.name)
-        return name
-
-    def ante_trigger (self):
-        life_needed = len (self.ante)
-        if life_needed and self.pact_sealed:
-            if self.opponent.lose_life(1):
-                life_needed -= 1
-        if life_needed and self.free_token in self.ante:
-            life_needed -= 1
-        self.lose_life (life_needed)
-
-    # +0/1 to range for Inevitable token is +0.5
-    # 0.4 because it costs life to use it
-    def set_preferred_range (self):
-        Character.set_preferred_range (self)
-        self.preferred_range += 0.4
-
-    # recover all tokens at end of beat
-    def unique_ability_end_trigger (self):
-        self.pool = self.tokens[:]
-
 class Hikaru (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = PalmStrike (the_game,self)
@@ -4598,7 +4244,6 @@ class Hikaru (Character):
         self.pool = self.tokens[:]
 
     def choose_initial_discards (self):
-        # Focused Palm Strike, Trance Strike
         return (self.focused, self.unique_base,
                 self.trance, self.strike)
 
@@ -4631,15 +4276,6 @@ class Hikaru (Character):
     def get_ante_name (self, a):
         return ("" if a==None else a.name)
             
-    # in an Advancing Burst/Palm Strike, the order of start triggers matters
-    def start_trigger (self):
-        if self.base.name in ['Burst','Palm Strike'] and \
-           self.style.name == 'Advancing':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        else:
-            Character.start_trigger (self)
-
     def recover_tokens (self):
         recoverable = [t for t in self.tokens if t not in (self.pool+self.ante)]
         if len(recoverable) > 0:
@@ -4695,7 +4331,6 @@ class Kajia (Character):
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def choose_initial_discards (self):
-        # Stinging Strike, Swarming Burst
         return (self.stinging, self.strike,
                 self.swarming, self.burst)
 
@@ -4813,23 +4448,6 @@ class Kajia (Character):
                                  (remove, i))
         return insects_removed
 
-    # in a Parastic Burst, the order of start triggers matters
-    def start_trigger (self):
-        if self.style.name == 'Parasitic' and self.base.name == 'Burst':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        else:
-            Character.start_trigger (self)
-            
-    # in a Burrowing Mandibles/Drive, the order of before triggers matters
-    def before_trigger (self):
-        if self.style.name == 'Burrowing' and self.base.name in ['Mandibles',
-                                                                 'Drive']:
-            for card in self.order_fork ([self.style, self.base]):
-                card.before_trigger()
-        else:
-            Character.before_trigger (self)
-            
     def end_trigger (self):
         Character.end_trigger (self)
         if self.imago_emergence_active:
@@ -4926,16 +4544,6 @@ class Kallistar (Character):
         if self.is_elemental:
             self.lose_life (1)
 
-    # in a Human Blazing Dash, the order of after triggers matters
-    # but blazing first should work, so it's a fake fork
-    def after_trigger (self):
-        if self.style.name == 'Blazing' and self.base.name == 'Dash' \
-           and not self.is_elemental:
-            for card in self.order_fork ([self.style, self.base], 0):
-                card.after_trigger()
-        else:
-            Character.after_trigger (self)
-
     # assumes I'll change to elemental next beat,
     # so value of being elemental is value for one beat,
     # plus value of not having to ignite
@@ -4962,12 +4570,20 @@ class Karin (Character):
         # give bases different preferred ranges for jager
         # (because jager isn't moved by base)
         self.unique_base.jager_preferred_range = 1.5
-        self.strike.jager_preferred_range = 1
-        self.shot.jager_preferred_range = 2.5
-        self.drive.jager_preferred_range = 1
-        self.burst.jager_preferred_range = 2.5
-        self.grasp.jager_preferred_range = 1
-        self.dash.jager_preferred_range = 2
+        if self.use_beta_bases:
+            self.counter_base.jager_preferred_range = 1
+            self.wave_base.jager_preferred_range = 3
+            self.force.jager_preferred_range = 1
+            self.spike.jager_preferred_range = 2
+            self.throw.jager_preferred_range = 1
+            self.parry.jager_preferred_range = 2
+        else:
+            self.strike.jager_preferred_range = 1
+            self.shot.jager_preferred_range = 2.5
+            self.drive.jager_preferred_range = 1
+            self.burst.jager_preferred_range = 2.5
+            self.grasp.jager_preferred_range = 1
+            self.dash.jager_preferred_range = 2
 
     def choose_initial_discards (self):
         return (self.full_moon, self.strike,
@@ -5043,37 +4659,6 @@ class Karin (Character):
         attack_source = self.jager_position if self.jager_attacks else \
                         self.position
         return abs (self.opponent.position - attack_source)
-
-    # in an Feral / Full Moon Burst, the order of start triggers matters
-    def start_trigger (self):
-        if self.style.name in ('Feral','Full Moon') and self.base.name == 'Burst':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        else:
-            Character.start_trigger (self)
-
-    # In a Dual Drive/Claw, the order of before triggers matters.
-    def before_trigger (self):
-        if self.style.name == 'Dual' and \
-           self.base.name in ('Drive', 'Claw'):
-            for card in self.order_fork ([self.style, self.base]):
-                card.before_trigger()
-        else:
-            Character.before_trigger(self)
-            
-    # in a Feral Grasp, the order of hit triggers matters
-    # on a Feral/Howling Grasp/Claw, if Jager not on opponent, try the base trigger first
-    def card_hit_triggers (self):
-        if self.style.name == 'Feral' and self.base.name == 'Grasp':
-            for card in self.order_fork ([self.style, self.base]):
-                card.hit_trigger()
-        elif self.style.name in ['Feral','Howling'] and \
-             self.base.name in ['Grasp','Claw'] and \
-             self.jager_position != self.opponent.position:
-                self.base.hit_trigger ()
-                self.style.hit_trigger ()
-        else:
-            Character.card_hit_triggers (self)
 
     # overrides default method, which I set to pass for performance
     def movement_reaction (self, mover, old_position, direct):
@@ -5157,23 +4742,6 @@ class Kehrolyn (Character):
                 self.current_form
         Character.reveal_trigger (self)
 
-    # if Whip is style/form, and Grasp is base, order of hit triggers matters,
-    def card_hit_triggers (self):
-        if self.base.name == 'Grasp':
-            whip_count = sum (isinstance (c, Whip) for c in self.active_cards)
-            #if I'm reactive, it's a fake fork
-            choice = (None if self == self.game.active else whip_count)
-            whips_before_grasp = self.game.make_fork (whip_count+1, self,
-                                        "How many Whips before the Grasp?",
-                                                      choice = choice)
-            for i in range (whips_before_grasp):
-                self.whip.hit_trigger()
-            self.base.hit_trigger()
-            for i in range (whip_count - whips_before_grasp):
-                self.whip.hit_trigger()
-        else:
-            Character.card_hit_triggers (self)
-
     # if there's a repeating style in active_cards, lose life for Mutating
     # can't put this in Mutating, because it is replaced at start_trigger
     def end_trigger (self):
@@ -5251,23 +4819,6 @@ class Khadath (Character):
         elif trap_distance == 1:
             self.opponent.add_triggered_priority_bonus(-1)
         
-    # in an Evacuation/Blight Burst, the order of start triggers matters
-    def start_trigger (self):
-        if self.style.name in ['Evacuation','Blight'] and \
-           self.base.name == 'Burst':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        else:
-            Character.start_trigger (self)
-
-    # in a Lure Grasp, the order of hit triggers matters
-    def card_hit_triggers (self):
-        if self.style.name == 'Lure' and self.base.name == 'Grasp':
-            for card in self.order_fork ([self.style, self.base]):
-                card.hit_trigger()
-        else:
-            Character.card_hit_triggers (self)
-
     def move_trap (self, positions):
         if isinstance (self.base, Snare):
             return
@@ -5316,7 +4867,6 @@ class Lixis (Character):
         self.virulent_miasma = False
     
     def choose_initial_discards (self):
-        # Pruning Grasp, Rooted Strike
         return (self.pruning, self.grasp,
                 self.rooted, self.strike)
 
@@ -5359,14 +4909,6 @@ class Lixis (Character):
         Character.prepare_next_beat (self)
         self.priority_penalty = self.priority_penalty_next_beat
         
-    # in a Venomous Drive, the order of before triggers matters
-    def before_trigger (self):
-        if self.style.name == 'Venomous' and self.base.name == 'Drive':
-            for card in self.order_fork ([self.style, self.base]):
-                card.before_trigger()
-        else:
-            Character.before_trigger (self)
-
     def hit_trigger (self):
         Character.hit_trigger (self)
         # opponent discards base
@@ -5432,8 +4974,10 @@ class Luc (Character):
         self.time = Time  (the_game, self)
         self.tokens = [self.time]
         self.max_tokens = 5
-        # virtual card helps implement the 3 token ante effect.
-        self.ante_virtual_card = AnteEffect(the_game, self)
+        # virtual cards help implement ante effects
+        self.ante_1_effect = Ante1Effect(the_game, self)
+        self.ante_3_effect = Ante3Effect(the_game, self)
+        self.ante_5_effect = Ante5Effect(the_game, self)
         
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -5483,57 +5027,32 @@ class Luc (Character):
         else:
             return 0
 
-    def get_priority_bonus (self):
-        if self.get_active_tokens().count(self.time) == 1:
-            return 1
-        else:
-            return 0
+    def get_ante_name (self, a):
+        if a == 0:
+            return ""
+        if a == 1:
+            return "1 token"
+        return str(a) + " tokens"
 
+    def set_active_cards(self):
+        self.active_cards = [self.style, self.base]
+        n_tokens = self.get_active_tokens().count(self.time)
+        if n_tokens == 1:
+            self.active_cards.append(self.ante_1_effect)
+        elif n_tokens == 3:
+            self.active_cards.append(self.ante_3_effect)
+        elif n_tokens == 5:
+            self.active_cards.append(self.ante_5_effect)
+     
     def ante_trigger (self):
         for i in range(self.strat[2][0]):
             self.ante_token(self.time)
-
-    # the order of start triggers [Ante/Chrono/Burst/Flash] matters
-    # Also, Luc might take over priority
-    def start_trigger (self):
-        ante = self.get_active_tokens().count(self.time) 
-        if ante == 5:
-            self.become_active_player()
-        cards = [c for c in self.active_cards
-                 if c.name in ['Chrono', 'Burst', 'Flash']]
-        if ante == 3:
-            cards.append(self.ante_virtual_card)
-        if len(cards) == 1:
-            cards[0].start_trigger()
-        elif len(cards) == 2:
-            prompt = "Choose order of triggers:"
-            options = []
-            for i in range (2):
-                options.append (', '.join([cards[i].name, cards[1-i].name]))
-            order = self.game.make_fork (2, self, prompt, options)
-            cards[order].start_trigger()
-            cards[1-order].start_trigger()
-        elif len(cards) == 3:
-            prompt = "Choose order of triggers:"
-            options = []
-            if self.is_user and self.game.interactive_mode:
-                for i in range (6):
-                    options.append (', '.join([cards[i%3].name,
-                                               cards[2-i/2].name,
-                                               cards[1-i%3+i/2].name]))
-            order = self.game.make_fork (6, self, prompt, options)
-            first = order%3             # [012012]
-            second = 2 - order/2        # [221100]
-            third = 3 - first - second  # [100221]
-            cards[first].start_trigger()
-            cards[second].start_trigger()
-            cards[third].start_trigger()
 
     def unique_ability_end_trigger (self):
         self.recover_tokens (1)
 
     def evaluate (self):
-        return Character.evaluate (self) + 0.4 * len(self.pool)
+        return Character.evaluate (self) + 0.3 * len(self.pool)
 
 class Lymn (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
@@ -5571,30 +5090,8 @@ class Lymn (Character):
         self.disparity = abs (self.get_priority() - self.opponent.get_priority())
         if self.game.reporting:
             self.game.report ("Disparity is %d" % self.disparity)
-        # in a Reverie Burst, the order of start triggers matters
-        if self.style.name == 'Reverie' and self.base.name == 'Burst':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        else:
-            Character.start_trigger (self)
+        Character.start_trigger (self)
         
-    # in a Chimeric Drive, the order of before triggers matters
-    def before_trigger (self):
-        if self.style.name == 'Chimeric' and self.base.name == 'Drive':
-            for card in self.order_fork ([self.style, self.base]):
-                card.before_trigger()
-        else:
-            Character.before_trigger (self)
-            
-    # in Surreal Visions, the order of after triggers matters
-    # (Surreal doesn't move with Dash, so it doesn't matter there)
-    def after_trigger (self):
-        if self.style.name == 'Surreal' and self.base.name == 'Visions':
-            for card in self.order_fork ([self.style, self.base]):
-                card.after_trigger()
-        else:
-            Character.after_trigger (self)
-
 
 class Magdelina (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
@@ -5689,23 +5186,6 @@ class Magdelina (Character):
             if self.game.reporting:
                 self.game.report ("Magdelina gains a Level: has %d" % self.level)
 
-    # in an Excelsius Drive, the order of before triggers matters
-    def before_trigger (self):
-        if self.style.name == 'Excelsius' and self.base.name == 'Drive':
-            for card in self.order_fork ([self.style, self.base]):
-                card.before_trigger()
-        else:
-            Character.before_trigger (self)
-
-    # in an Excelsius Grasp (level 2+), the order of hit triggers matters
-    def card_hit_triggers (self):
-        if self.style.name == 'Excelsius' and self.base.name == 'Grasp' \
-           and self.level >= 2:
-            for card in self.order_fork ([self.style, self.base]):
-                card.hit_trigger()
-        else:
-            Character.card_hit_triggers (self)
-
     # only half value to dealing damage    
     def evaluate (self):
         # Each trance token is worth 1 point for each level
@@ -5733,9 +5213,7 @@ class Marmelee (Character):
         self.finishers = [AstralCannon (the_game, self),
                            AstralTrance (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
-        self.concentration = Concentration  (the_game, self)
-        self.tokens = [self.concentration]
-        self.max_tokens = 5
+        self.concentration = 5
         
     def choose_initial_discards (self):
         return (self.petrifying, self.burst,
@@ -5743,73 +5221,71 @@ class Marmelee (Character):
 
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
-        self.pool = 2 * [self.concentration]
+        self.concentration = 2
 
     def situation_report (self):
         report = Character.situation_report (self)
-        report.append ("%d Concentration tokens" %len(self.pool))
+        report.append ("%d Concentration counters" % self.concentration)
         return report
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
-        self.pool = [self.concentration] * int(lines[0][0])
+        self.concentration = int(lines[0][0])
+
+    def initial_save (self):
+        state = Character.initial_save (self)
+        state.concentration = self.concentration
+        return state
+
+    def initial_restore (self, state):
+        Character.initial_restore (self, state)
+        self.concentration = state.concentration
 
     def reset (self):
-        self.tokens_spent_by_style = 0
-        self.tokens_spent_by_base = 0
+        self.counters_spent_by_style = 0
+        self.counters_spent_by_base = 0
         Character.reset (self)
 
     def full_save (self):
         state = Character.full_save (self)
-        state.tokens_spent_by_style = self.tokens_spent_by_style
-        state.tokens_spent_by_base = self.tokens_spent_by_base
+        state.counters_spent_by_style = self.counters_spent_by_style
+        state.counters_spent_by_base = self.counters_spent_by_base
         return state
 
     def full_restore (self, state):
         Character.full_restore (self, state)
-        self.tokens_spent_by_style = state.tokens_spent_by_style
-        self.tokens_spent_by_base = state.tokens_spent_by_base
+        self.counters_spent_by_style = state.counters_spent_by_style
+        self.counters_spent_by_base = state.counters_spent_by_base
 
-    # in a Nullifying Burst, the order of start triggers matters
-    def start_trigger (self):
-        if self.style.name == 'Nullifying' and self.base.name == 'Burst':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        else:
-            Character.start_trigger (self)
-
-    # in a Magnificent Dash, the order of after triggers matters,
-    # but only if you have 2 tokens
-    def after_trigger (self):
-        if self.style.name == 'Maginificent' and self.base.name == 'Dash' and \
-           len(self.pool) >= 2:
-            for card in self.order_fork ([self.style, self.base]):
-                card.after_trigger()
-        else:
-            Character.after_trigger (self)
-
-    # base precedes style, instead of the default.
-    # this only matters in a Sorceress Meditation with no tokens.
-    # no reason to ever have it otherwise, though.
-    def end_trigger (self):
-        self.base.end_trigger()
-        self.style.end_trigger()
-        
     def unique_ability_end_trigger (self):
-        self.recover_tokens (1)
+        self.recover_counters (1)
 
-    # lose all tokens when stunned
+    def recover_counters(self, n):
+        old = self.concentration
+        self.concentration = min (5, old + n)
+        diff = self.concentration - old
+        if diff and self.game.reporting:
+            self.game.report("Marmelee gains %d Concentration Counter%s" %
+                             (diff, "s" if diff > 1 else ""))
+            
+    def discard_counters(self, n):
+        old = self.concentration
+        self.concentration = max (0, old - n)
+        diff = old - self.concentration
+        if diff and self.game.reporting:
+            self.game.report("Marmelee discards %d Concentration Counter%s" %
+                             (diff, "s" if diff > 1 else ""))
+
+    # lose all counters when stunned
     def stun (self, damage=None):
         Character.stun (self, damage)
         if self.is_stunned():
             if self.game.reporting and self.pool:
-                self.game.report ("Marmelee loses all tokens")
-            self.pool = []
+                self.game.report ("Marmelee loses all counters")
+            self.concentration = 0
 
-    # 13/2/13: token value changed from 1.1, because styles now care about
-    # tokens, making them more valuable
     def evaluate (self):
-        return Character.evaluate (self) + 0.85 * len(self.pool)
+        return Character.evaluate (self) + 0.85 * self.concentration
 
 class Mikhail (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
@@ -5899,18 +5375,9 @@ class Mikhail (Character):
         if self.apocalyptic not in self.active_cards:
             Character.recover_tokens (self, n)
     
-    # in a Hallowed Burst (with Seal),
-    # the order of start triggers matters
-    def start_trigger (self):
-        if self.hallowed in self.active_cards and self.base.name == 'Burst':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        else:
-            Character.start_trigger (self)
-
     # 0,4,6,8 didn't go well - he steady-stated at 2 tokens, instead of 1.6,
     # and lost more games.
-    token_values = (0,4,6,8)
+    token_values = (0,3,4,5)
     def evaluate (self):
         return Character.evaluate(self) + self.token_values[len(self.pool)]
 
@@ -5991,26 +5458,6 @@ class Oriana (Character):
             self.recover_tokens (loss)
         else:
             Character.lose_life (self, loss)
-
-    # in a Stellar Drive with MP 2+, the order of before triggers matters
-    def before_trigger (self):
-        if self.style.name == 'Stellar' and self.base.name == 'Drive' and \
-           self.ante.count(self.mp) >= 5:
-            for card in self.order_fork ([self.style, self.base]):
-                card.before_trigger()
-        else:
-            Character.before_trigger (self)
-
-    # in an Unstable Grasp with MP 2+ / Stellar Grasp with MP 4+,
-    # the order of hit triggers matters
-    def card_hit_triggers (self):
-        if self.base.name == 'Grasp' and \
-           ((self.style.name == 'Unstable' and self.ante.count(self.mp) >= 2) or \
-            (self.style.name == 'Stellar' and self.ante.count(self.mp) >= 2)):
-            for card in self.order_fork ([self.style, self.base]):
-                card.hit_trigger()
-        else:
-            Character.card_hit_triggers (self)
 
     def evaluate (self):
         return Character.evaluate (self) + 0.3 * len (self.pool)
@@ -6119,32 +5566,6 @@ class Rexan (Character):
             self.give_induced_tokens (self.opponent.ante.count(self.curse))
         Character.cycle (self)
 
-    # in a Devastating Burst, the order of start triggers matters
-    def start_trigger (self):
-        if self.style.name == 'Devastating' and self.base.name == 'Burst':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        else:
-            Character.start_trigger (self)
-
-    # in a Vainglorious/Overlord's Drive, the order of before triggers matters
-    def before_trigger (self):
-        if self.style.name in ["Vainglorious", "Overlord's"] and \
-           self.base.name == 'Drive':
-            for card in self.order_fork ([self.style, self.base]):
-                card.before_trigger()
-        else:
-            Character.before_trigger (self)
-
-    # in an Enervating Malediction, give the token before calculating
-    # Power.
-    def card_hit_triggers (self):
-        if self.style.name == 'Enervating' and self.base.name == 'Malediction':
-            self.base.hit_trigger()
-            self.style.hit_trigger()
-        else:
-            Character.card_hit_triggers (self)
-
     # There seems to be little punishment for hoarding tokens
     def evaluate (self):
         value = Character.evaluate(self)
@@ -6176,7 +5597,6 @@ class Rukyuk (Character):
         self.pool = [t for t in self.tokens]
 
     def choose_initial_discards (self):
-        # Sniper Burst, Crossfire Reload
         # AI says: Crossfire Reload, Trick Shot
         return (self.crossfire, self.unique_base,
                 self.trick, self.shot)
@@ -6240,27 +5660,6 @@ class Rukyuk (Character):
             return [t for t in active_tokens if t not in self.tokens]
         else:
             return active_tokens
-
-    # in a Grasp with an Impact token, the order of hit triggers matters
-    def card_hit_triggers (self):
-        if any (isinstance (c,ImpactShell) for c in self.active_cards) and \
-           self.base.name == 'Grasp':
-            self.style.hit_trigger() # Crossfire has other trigger
-            for card in self.order_fork ([self.impact, self.base]):
-                card.hit_trigger()
-        else:
-            Character.card_hit_triggers (self)
-
-    # in a Sniper/Gunner Reload/Dash, the order of after triggers matters
-    # for reload, style first should work, so it's a fake fork
-    def after_trigger (self):
-        if self.style.name in ['Gunner','Sniper'] and \
-           self.base.name in ['Dash','Reload']:
-            choice = (0 if self.base.name == 'Reload' else None)
-            for card in self.order_fork ([self.style, self.base], choice):
-                card.after_trigger()
-        else:
-            Character.after_trigger (self)
 
     # the main component is based on the total count
     # specific tokens might have small value bonuses
@@ -6453,32 +5852,6 @@ class Runika (Character):
         else:
             Character.lose_life (self, life)
 
-    def start_trigger (self):
-        # in an Explosive Burst, the order of start triggers matters
-        if self.style.name == 'Explosive' and self.base.name == 'Burst':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()    
-        else:
-            # in an Overcharged Tinker, Tinker should be first
-            self.base.start_trigger()
-            self.style.start_trigger()
-
-    # in an Impact Grasp, the order of hit triggers matters
-    def card_hit_triggers (self):
-        if self.style.name == 'Impact' and self.base.name == 'Grasp':
-            for card in self.order_fork ([self.style, self.base]):
-                card.hit_trigger()
-        else:
-            Character.card_hit_triggers (self)
-
-    # in a Maintenance Dash, the order of after triggers matters
-    def after_trigger (self):
-        if self.style.name == 'Maintenance' and self.base.name == 'Dash':
-            for card in self.order_fork ([self.style, self.base]):
-                card.after_trigger()
-        else:
-            Character.after_trigger (self)
-
     # deactivation is 3 times the value of an artifact.
     # removal is 1 more time the value
     def evaluate (self):
@@ -6546,38 +5919,24 @@ class Seth (Character):
         return 0.1 * self.correct_guess + Character.clash_priority(self)
 
     # logic to handle Wyrding shenanigans
-    # Cutting a corner, Vanishing will always happen before Burst
     def start_trigger (self):
-        old_base = self.base
-        # if style is Wyrding, we might get a new base
-        self.style.start_trigger ()
-        # if base changed, you can activate old base's start trigger,
-        if self.base != old_base:
-            # fork for old base is only necessary if it has a start trigger
-            if old_base.name in ['Omen','Burst']:
-                prompt = ("Execute %s's Start of Beat effect before switching?"%
-                          old_base.name)
-                options = ["No", "Yes"]
-                if self.game.make_fork (2, self, prompt, options):
-                    old_base.start_trigger()
-        # in any case, activate trigger for final base
-        self.base.start_trigger()
-
-    # in a Compelling Drive, the order of before triggers matters
-    def before_trigger (self):
-        if self.style.name == 'Compelling' and self.base.name == 'Drive':
-            for card in self.order_fork ([self.style, self.base]):
-                card.before_trigger()
+        if self.wyrding in self.active_cards:
+            old_base = self.base
+            # we might get a new base
+            self.style.start_trigger ()
+            # if base changed, you can activate old base's start trigger,
+            if self.base != old_base:
+                # fork for old base is only necessary if it has a start trigger
+                if old_base.name in ['Omen','Burst','Spike','Force']:
+                    prompt = ("Execute %s's Start of Beat effect before switching?"%
+                              old_base.name)
+                    options = ["No", "Yes"]
+                    if self.game.make_fork (2, self, prompt, options):
+                        old_base.start_trigger()
+            # in any case, activate trigger for final base
+            self.base.start_trigger()
         else:
-            Character.before_trigger (self)
-
-    # in a Compelling Dash, the order of after triggers matters
-    def after_trigger (self):
-        if self.style.name == 'Compelling' and self.base.name == 'Dash':
-            for card in self.order_fork ([self.style, self.base]):
-                card.after_trigger()
-        else:
-            Character.after_trigger (self)
+            Character.start_trigger(self)
 
     # overrides default method, which I set to pass for performance
     def movement_reaction (self, mover, old_position, direct):
@@ -6825,22 +6184,6 @@ class Shekhtur (Character):
                      not self.game.status_effects_blocked()
                 else stunguard)
 
-    # in a Spiral Drive, the order of before triggers matters
-    def before_trigger (self):
-        if self.style.name == 'Spiral' and self.base.name == 'Drive':
-            for card in self.order_fork ([self.style, self.base]):
-                card.before_trigger()
-        else:
-            Character.before_trigger (self)
-
-    # in an Unleashed Dash, the order of after triggers matters
-    def after_trigger (self):
-        if self.style.name == 'Unleashed' and self.base.name == 'Dash':
-            for card in self.order_fork ([self.style, self.base]):
-                card.after_trigger()
-        else:
-            Character.after_trigger (self)
-
     def damage_trigger (self, damage):
         self.recover_tokens (damage)
         Character.damage_trigger (self, damage)
@@ -6863,12 +6206,20 @@ class Tatsumi (Character):
         # give bases different preferred ranges for juto
         # (because juto isn't moved by base)
         self.unique_base.juto_preferred_range = 1.5
-        self.strike.juto_preferred_range = 1
-        self.shot.juto_preferred_range = 2.5
-        self.drive.juto_preferred_range = 1
-        self.burst.juto_preferred_range = 2.5
-        self.grasp.juto_preferred_range = 1
-        self.dash.juto_preferred_range = 2
+        if self.use_beta_bases:
+            self.counter_base.juto_preferred_range = 1
+            self.wave_base.juto_preferred_range = 3
+            self.force.juto_preferred_range = 1
+            self.spike.juto_preferred_range = 2
+            self.throw.juto_preferred_range = 1
+            self.parry.juto_preferred_range = 2
+        else:
+            self.strike.juto_preferred_range = 1
+            self.shot.juto_preferred_range = 2.5
+            self.drive.juto_preferred_range = 1
+            self.burst.juto_preferred_range = 2.5
+            self.grasp.juto_preferred_range = 1
+            self.dash.juto_preferred_range = 2
 
     def choose_initial_discards (self):
         return (self.fearless, self.burst,
@@ -6991,37 +6342,6 @@ class Tatsumi (Character):
         if isinstance (self.style, Fearless) and self.juto_position != None:
             return abs (self.juto_position - self.opponent.position)            
         return abs (self.position - self.opponent.position)
-
-    def start_trigger (self):
-        # in a Riptide Burst, always burst first
-        if self.style.name == 'Riptide' and self.base.name=='Burst':
-            self.base.start_trigger()
-            self.style.start_trigger()
-        # in an Empathic Burst, the order matters.
-        elif self.style.name == 'Empathic' and self.base.name=='Burst':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        # otherwise (including Riptide Whirlpol), use normal style->base
-        else:
-            Character.start_trigger (self)
-
-    # in a Wave Grasp, the order of hit triggers matters
-    def card_hit_triggers (self):
-        if self.style.name == 'Wave' and self.base.name == 'Grasp':
-            for card in self.order_fork ([self.style, self.base]):
-                card.hit_trigger()
-        else:
-            Character.card_hit_triggers (self)
-
-    # in a Wave Dash/Whirlpool, the order of after triggers matters
-    # KNOWN BUG: can't put style trigger between the two base triggers.
-    def after_trigger (self):
-        if self.style.name == 'Wave' and \
-           self.base.name in ['Dash','Whirlpool']:
-            for card in self.order_fork ([self.style, self.base]):
-                card.after_trigger()
-        else:
-            Character.after_trigger (self)
 
     # different preferred range for tatsumi and juto, based on the styles
     # that let each of them attack
@@ -7156,14 +6476,6 @@ class Vanaah (Character):
     def give_priority_penalty (self):
         return -4 if (self.priority_penalty and
                      not self.game.status_effects_blocked()) else 0
-
-    # in a Glorious Drive, the order of before triggers matters
-    def before_trigger (self):
-        if self.style.name == 'Glorious' and self.base.name == 'Drive':
-            for card in self.order_fork ([self.style, self.base]):
-                card.before_trigger()
-        else:
-            Character.before_trigger (self)
 
     # when vanaah antes/discards her token, she puts it
     # into her discard[0]
@@ -7337,33 +6649,6 @@ class Voco (Character):
         for card in self.active_cards:
             card.movement_reaction (mover, old_position, direct)
 
-    # in a Thunderous Burst, the order of start triggers matters
-    def start_trigger (self):
-        if self.style.name == 'Thunderous' and self.base.name == 'Burst':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-        else:
-            # base before style, so Burst happens before Hellraising
-            self.base.start_trigger()
-            self.style.start_trigger()
-
-    # in a Monster/Metal Drive, the order of before triggers matters
-    def before_trigger (self):
-        if self.style.name in ('Monster','Metal') and self.base.name == 'Drive':
-            for card in self.order_fork ([self.style, self.base]):
-                card.before_trigger()
-        else:
-            Character.before_trigger (self)
-
-    # in a Thunderous/Hellraising Grasp/Shred, the order of hit triggers matters
-    def card_hit_triggers (self):
-        if self.style.name in ('Thunderous', 'Hellraising') and \
-           self.base.name in ('Grasp', 'Shred'):
-            for card in self.order_fork ([self.style, self.base]):
-                card.hit_trigger()
-        else:
-            Character.card_hit_triggers (self)
-
     # zombies in the soak range or on opponent are .5
     # zombies anywhere else are .25
     def evaluate (self):
@@ -7474,62 +6759,6 @@ class Zaamassal (Character):
             moves.append(new_move)
         Character.execute_move (self, mover, moves, direct)
 
-    # in a Warped Burst, the order of start triggers matters (but
-    # let Resilience work too).
-    def start_trigger (self):
-        if self.style.name == 'Warped' and self.base.name == 'Burst':
-            for card in self.order_fork ([self.style, self.base]):
-                card.start_trigger()
-            if self.resilience in self.active_cards:
-                self.resilience.start_trigger()
-        else:
-            Character.start_trigger (self)
-
-    # the order of before triggers [Fluidity/Urgent/Drive/Plane Divider] matters
-    def before_trigger (self):
-        cards = [c for c in self.active_cards \
-                 if c.name in ['Fluidity','Urgent','Drive','Plane Divider']]
-        if len(cards) == 1:
-            cards[0].before_trigger()
-        elif len(cards) == 2:
-            prompt = "Choose order of triggers:"
-            options = []
-            for i in range (2):
-                options.append (', '.join([cards[i].name, cards[1-i].name]))
-            order = self.game.make_fork (2, self, prompt, options)
-            cards[order].before_trigger()
-            cards[1-order].before_trigger()
-        elif len(cards) == 3:
-            prompt = "Choose order of triggers:"
-            options = []
-            if self.is_user and self.game.interactive_mode:
-                for i in range (6):
-                    options.append (', '.join([cards[i%3].name,
-                                               cards[2-i/2].name,
-                                               cards[1-i%3+i/2].name]))
-            order = self.game.make_fork (6, self, prompt, options)
-            first = order%3             # [012012]
-            second = 2 - order/2        # [221100]
-            third = 3 - first - second  # [100221]
-            cards[first].before_trigger()
-            cards[second].before_trigger()
-            cards[third].before_trigger()
-
-    # for Fluidity/Sinuous, the order of end triggers matters
-    def end_trigger (self):
-        if self.style.name == 'Sinuous' and self.fluidity in self.active_cards:
-            prompt = "Choose trigger to activate first:"
-            options = ['Fluidity','Sinuous']
-            order = self.game.make_fork (2, self, prompt, options)
-            if order == 0 :
-                self.fluidity.end_trigger()
-                self.style.end_trigger()
-            else:
-                self.style.end_trigger()
-                self.fluidity.end_trigger()
-        else:
-            Character.end_trigger (self)
-
     def set_preferred_range (self):
         Character.set_preferred_range (self)
         if self.fluidity in self.active_paradigms:
@@ -7572,6 +6801,7 @@ class Drive (Base):
     preferred_range = 2 # drive can hit at ranges 1-3
     def before_trigger(self):
         self.me.advance ([1,2])
+    ordered_before_trigger = True
 
 class Burst (Base):
     minrange = 2
@@ -7583,6 +6813,7 @@ class Burst (Base):
         return 2.5 if self.me.position in [0,6] else 1.5
     def start_trigger(self):
         self.me.retreat ([1,2])
+    ordered_start_trigger = True
 
 class Grasp (Base):
     minrange = 1
@@ -7592,6 +6823,7 @@ class Grasp (Base):
     preferred_range = 1
     def hit_trigger(self):
         self.me.move_opponent([1])
+    ordered_hit_trigger = True
         
 class Dash (Base):
     power = None
@@ -7603,6 +6835,7 @@ class Dash (Base):
         self.me.move([1,2,3])
         if ordered (old_pos, self.opponent.position, self.me.position):
             self.me.triggered_dodge = True
+    ordered_after_trigger = True
     # Dash is usually a strong out, that's worth keeping in hand
     def discard_penalty(self):
         return -0.5
@@ -7619,39 +6852,7 @@ class Counter (Base):
     preferred_range = 2 # counter can hit at ranges 1-3
     def before_trigger(self):
         self.me.advance ([1,2])
-
-class Force (Base):
-    minrange = 1
-    maxrange = 1
-    power = 3
-    priority = 2
-    stunguard = 2
-    preferred_range = 2 # force can hit at ranges 1-3
-    def start_trigger(self):
-        self.me.advance ([1,2])
-    def reduce_stunguard (self, stunguard):
-        return 0
-
-class Parry (Base):
-    power = None
-    priority = 3
-    preferred_range = 1.5 # arbitrary average
-    is_attack = False
-    def end_trigger(self):
-        self.me.move([1,2,3])
-    # Opponent has to match priority parity to hit.
-    def can_be_hit(self):
-        return (1 + self.me.get_priority() 
-                  + self.opponent.get_priority()) % 2
-
-class Throw (Base):
-    minrange = 1
-    maxrange = 1
-    power = 2
-    priority = 5
-    preferred_range = 1
-    def hit_trigger(self):
-        self.me.execute_move(self.opponent, [-2,1])
+    ordered_before_trigger = True
 
 class Wave (Base):
     minrange = 2
@@ -7663,6 +6864,20 @@ class Wave (Base):
         return 3 if self.me.position in [0,6] else 2
     def before_trigger(self):
         self.me.retreat ([1,2])
+    ordered_before_trigger = True
+
+class Force (Base):
+    minrange = 1
+    maxrange = 1
+    power = 3
+    priority = 2
+    stunguard = 2
+    preferred_range = 2 # force can hit at ranges 1-3
+    def start_trigger(self):
+        self.me.advance ([1,2])
+    ordered_start_trigger = True
+    def reduce_stunguard (self, stunguard):
+        return 0
 
 class Spike (Base):
     minrange = 2
@@ -7674,8 +6889,32 @@ class Spike (Base):
         return 2.5 if self.me.position in [0,6] else 2
     def start_trigger(self):
         self.me.move([0, 1])
+    ordered_start_trigger = True
     def hit_trigger(self):
         self.me.triggered_dodge = True
+
+class Throw (Base):
+    minrange = 1
+    maxrange = 1
+    power = 2
+    priority = 5
+    preferred_range = 1
+    def hit_trigger(self):
+        self.me.execute_move(self.opponent, [-1,2])
+    ordered_hit_trigger = True
+
+class Parry (Base):
+    power = None
+    priority = 3
+    preferred_range = 1.5 # arbitrary average
+    is_attack = False
+    def end_trigger(self):
+        self.me.move([1,2,3])
+    ordered_end_trigger = True
+    # Opponent has to match priority parity to hit.
+    def can_be_hit(self):
+        return (1 + self.me.get_priority() 
+                  + self.opponent.get_priority()) % 2
 
 
 # Special Action style and bases
@@ -7770,6 +7009,7 @@ class Arresting (Style):
     priority = -1
     def before_trigger (self):
         self.me.advance ((1,2))
+    ordered_before_trigger = True
     def get_soak (self):
         return self.me.petrification
     # back push handled by Adjenna.soak_trigger()
@@ -7778,6 +7018,7 @@ class Pacifying (Style):
     power = -1
     def after_trigger (self):
         self.me.move ((1,2))
+    ordered_after_trigger = True
     def movement_reaction (self, mover, old_pos, direct):
         if mover is self.opponent and mover.position!=old_pos:
             self.opponent.lose_life (self.me.petrification)
@@ -7787,6 +7028,9 @@ class Irresistible (Style):
     def before_trigger (self):
         if self.opponent.did_hit:
             self.me.pull ((3,2,1,0))
+    @property
+    def ordered_before_trigger(self):
+        return self.opponent.did_hit
 
 class Beckoning (Style):
     minrange = 2
@@ -7798,6 +7042,7 @@ class Beckoning (Style):
         return 5 - self.me.petrification
     def hit_trigger (self):
         self.me.pull ((0,1,2))
+    ordered_hit_trigger = True
 
 
 #Alexian
@@ -7816,6 +7061,7 @@ class HailTheKing (Finisher):
         if ordered (old_pos, self.opponent.position, self.me.position):
             spaces_advanced -= 1
         self.me.add_triggered_power_bonus (spaces_advanced)
+    ordered_before_trigger = True
     # recording soaked damage handled by Alexian.soak_trigger()
     def get_power_bonus (self):
         return self.me.damage_soaked
@@ -7856,6 +7102,7 @@ class Gestalt (Style):
         return set(xrange(7))
     def start_trigger (self):
         self.me.advance ([0,1])
+    ordered_start_trigger = True
     
 class Regal (Style):
     power = 1
@@ -7888,6 +7135,7 @@ class Stalwart (Style):
         self.me.advance (range(min(self.game.distance(), 3)))
         spaces_advanced = abs(self.me.position-old_pos)
         self.me.add_triggered_power_bonus (spaces_advanced)
+    ordered_before_trigger = True
 
 class Mighty (Style):
     priority = 1
@@ -7912,6 +7160,7 @@ class Steeled (Style):
     # Recording soak handled by Alexian.soak_trigger()
     def before_trigger (self):
         self.me.advance(range(self.me.damage_soaked+1))
+    ordered_before_trigger = True
 
 class Chivalry (Token):
     def get_power_bonus(self):
@@ -7938,6 +7187,7 @@ class LaserLattice (Finisher):
     priority = 6
     def hit_trigger (self):
         self.me.move_opponent([1])
+    ordered_hit_trigger = True
     def after_trigger (self):
         droids = [droid for droid in self.me.droids
                   if droid.position is not None
@@ -7953,6 +7203,7 @@ class LaserLattice (Finisher):
         if self.game.reporting:
             self.game.report("Additional attack by %s droid" % droid)
         self.game.activate(self.me)
+    ordered_after_trigger = True
     def evaluate_setup (self):
         return 0.5 if self.game.distance() <= 2 else 0
 
@@ -7988,6 +7239,9 @@ class Reconfiguration (Base):
                 self.game.report ("Aria adds her %s droid:" % droid)
                 for s in self.game.get_board():
                     self.game.report (s)
+    @property
+    def ordered_before_trigger(self):
+        return any([d.position is None for d in self.me.droids])
     def evaluation_bonus (self):
         return (0.25 if self.opponent.position in [droid.position
                                                    for droid in self.me.droids]
@@ -8023,6 +7277,9 @@ class Photovoltaic (Style):
                 self.game.report ("Aria adds her %s droid:" % droid)
                 for s in self.game.get_board():
                     self.game.report (s)
+    @property
+    def ordered_after_trigger(self):
+        return any([d.position is None for d in self.me.droids])
 
 class Ionic (Style):
     maxrange = 1
@@ -8054,6 +7311,9 @@ class Ionic (Style):
             self.me.push((1,))
         else:
             self.me.pull((1,))
+    @property
+    def ordered_start_trigger(self):
+        return self.me.magnetron.position is not None
     def evaluation_bonus (self):
         return (0.1 if self.me.magnetron.position not in (None,
                                                           self.opponent.position)
@@ -8073,6 +7333,9 @@ class Laser (Style):
         if self.me.turret.position is not None and \
            abs (self.opponent.position - self.me.turret.position) == 3:
             self.opponent.lose_life(3)
+    @property 
+    def ordered_end_trigger(self):
+        return self.me.turret.position is not None
     def evaluation_bonus (self):
         value = 0
         her = self.opponent.position
@@ -8134,6 +7397,7 @@ class Dimensional (Style):
             self.me.dimensional_no_stun = True
     def end_trigger (self):
         self.me.move_to_unoccupied()
+    ordered_end_trigger = True
     def evaluation_bonus (self):
         return 0.5 if self.game.distance() == 3 else -0.2
 
@@ -8185,6 +7449,7 @@ class Smoke (Base):
     preferred_range = 2.5 # ignores style range
     def hit_trigger (self):
         self.me.move_opponent((0,1))
+    ordered_hit_trigger = True
     # Ignoring style range handled by Byron.get_maxrange(), Byron.get_minrange()
 
 class Soulless (Style):
@@ -8213,6 +7478,7 @@ class Deathless (Style):
     def damage_trigger (self, damage):
         if self.me.attack_range() == 4:
             self.me.move_opponent_to_unoccupied()
+    ordered_damage_trigger = True
     def get_damage_cap (self):
         return 1
 
@@ -8226,6 +7492,7 @@ class Heartless (Style):
         if self.me.attack_range() == 3:
             self.me.heartless_ignore_soak = True
             self.opponent.lose_life (self.opponent.get_soak())
+    ordered_hit_trigger = True
     def reduce_soak (self, soak):
         return 0 if self.me.heartless_ignore_soak else soak
     def damage_trigger (self, damage):
@@ -8243,6 +7510,7 @@ class Faceless (Style):
         if self.me.attack_range() == 2:
             self.me.priority_bonus_next_beat = damage
             self.me.evaluation_bonus += damage / 3.0
+    ordered_damage_trigger = True
 
 class Breathless (Style):
     minrange = 3
@@ -8255,10 +7523,12 @@ class Breathless (Style):
         dests = range(opp) if me > opp else range(opp+1, 7)
         dests.append(me)
         self.me.move_directly(dests)
+    ordered_start_trigger = True
     def hit_trigger (self):
         if self.game.distance() == 5:
             self.opponent.add_triggered_power_bonus(-3)
             self.opponent.lose_life(2)
+    ordered_hit_trigger = True
     def evaluation_bonus (self):
         if self.game.distance() == 5:
             return 0.5
@@ -8282,6 +7552,7 @@ class RocketPress (Finisher):
         return True
     def before_trigger (self):
         self.me.advance ((2,3,4,5))
+    ordered_before_trigger = True
     def evaluate_setup (self):
         return 2 if self.game.distance() > 1 or self.opponent.position in (0,6)\
                else 0
@@ -8322,6 +7593,7 @@ class Hydraulic (Style):
     preferred_range = 0.5 # adds 1 to max range, but usually not to minrange
     def before_trigger (self):
         self.me.advance ((1,))
+    ordered_before_trigger = True
 
 class Grapnel (Style):
     minrange = 2
@@ -8329,6 +7601,7 @@ class Grapnel (Style):
     preferred_range = 3
     def hit_trigger (self):
         self.me.pull ((0,1,2,3))
+    ordered_hit_trigger = True
     # discard bonus to encourage use of weak style
     def discard_penalty (self):
         return 0.5
@@ -8338,6 +7611,7 @@ class Mechanical (Style):
     priority = -2
     def end_trigger (self):
         self.me.advance ((0,1,2,3))
+    ordered_end_trigger = True
     # discard bonus to encourage use of weak style
     def discard_penalty (self):
         return 0.5
@@ -8390,6 +7664,7 @@ class Suppression (Base):
         return self.opponent.attack_range() < 3
     def end_trigger (self):
         self.me.move((0,1,2,3))
+    ordered_end_trigger = True
     def evaluation_bonus (self):
         return 0.5 if self.game.distance() <= 2 else -0.5
 
@@ -8401,6 +7676,9 @@ class Phalanx (Style):
     def before_trigger (self):
         if self.opponent.did_hit:
             self.me.advance (range(self.me.damage_taken+1))
+    @property
+    def ordered_before_trigger(self):
+        return self.opponent.did_hit
 
 class Unstoppable (Style):
     priority = -2
@@ -8418,6 +7696,7 @@ class Fueled (Style):
         self.me.gain_threat_level()
     def before_trigger (self):
         self.me.advance ((1,2))
+    ordered_before_trigger = True
     # You want to use it to skip low levels
     # (or 4, which is like skipping 0, but loses you the soak)
     def evaluation_bonus (self):
@@ -8431,6 +7710,7 @@ class Bulwark (Style):
         return set(xrange(7))
     def after_trigger (self):
         self.me.move ([0,1,2,3])
+    ordered_after_trigger = True
 
 class Inevitable (Style):
     stunguard = 3
@@ -8470,6 +7750,7 @@ class Frenzy (Base):
     printed_power = None
     def start_trigger (self):
         self.me.advance ([1])
+    ordered_start_trigger = True
     def after_trigger (self):
         active = self.me.active_packs
         if active:
@@ -8492,6 +7773,9 @@ class Toxic (Style):
     def start_trigger (self):
         for i in xrange(len(self.me.active_packs)):
             self.me.advance([1])
+    @property
+    def ordered_start_trigger(self):
+        return self.me.active_packs
     # doubling of stims handled by stims themselves
     def evaluation_bonus (self):
         # if we have 2 stims at end of beat, we can easily go to 3 next beat
@@ -8504,9 +7788,11 @@ class Shock (Style):
     preferred_range = 1.5 # this is wrong, but not sure how to fix it
     def before_trigger (self):
         self.me.move ([0,3,4,5])
+    ordered_before_trigger = True
     def damage_trigger (self, damage):
         if self.game.distance() == 1:
             self.opponent.stun()
+    ordered_damage_trigger = True    
     def evaluation_bonus (self):
         dist = self.game.distance()
         if dist >= 4 or (dist==3 and self.opponent.position not in (0,6)):
@@ -8523,6 +7809,7 @@ class Diffusion (Style):
         self.me.push ([2,1,0])
         if self.opponent.position in (0,6):
             self.opponent.lose_life (2)
+    ordered_hit_trigger = True
     def damage_trigger (self, damage):
         active = list(self.me.active_packs)
         if active:
@@ -8533,7 +7820,7 @@ class Diffusion (Style):
     def end_trigger (self):
         # advance until adjacent to opponent
         self.me.advance ([self.game.distance()-1])
-        
+    ordered_end_trigger = True
 
 class Gravity (Style):
     minrange = 1
@@ -8541,6 +7828,7 @@ class Gravity (Style):
     preferred_range = 2
     def hit_trigger (self):
         self.me.move_opponent_to_unoccupied()
+    ordered_hit_trigger = True
     def blocks_pullpush (self):
         if self.game.make_fork(2, self.me,
                                "Block opponent's attempt to move you?",
@@ -8640,6 +7928,7 @@ class Upgradeable (Style):
         return min(4, len(self.me.active_modules))
     def before_trigger (self):
         self.me.move ([1])
+    ordered_before_trigger = True
 
 class Rocket (Style):
     minrange = 2
@@ -8649,8 +7938,10 @@ class Rocket (Style):
     preferred_range = 2 # actually depends on corner
     def start_trigger (self):
         self.me.retreat ((0,1))
+    ordered_start_trigger = True
     def hit_trigger (self):
         self.me.move_opponent ((1,2))
+    ordered_hit_trigger = True
 
 class Burnout (Style):
     minrange = 1
@@ -8678,6 +7969,7 @@ class Megaton (Style):
         max_retreat = me if me < opp else 6-me
         self.me.retreat ([max_retreat])
         self.me.push ([1])
+    ordered_hit_trigger = True
 
 class Leaping (Style):
     priority = 1
@@ -8692,6 +7984,7 @@ class Leaping (Style):
             spaces_advanced -= 1
         if spaces_advanced == 3:
             self.me.add_triggered_power_bonus (2)
+    ordered_before_trigger = True
     # Clive.execute_move() keeps track of switching sides
 
 class Module (Card):
@@ -8700,6 +7993,7 @@ class Module (Card):
 class RocketBoots (Module):
     def before_trigger (self):
         self.me.advance ([1])
+    ordered_before_trigger = True
 
 class BarrierChip (Module):
     stunguard = 1
@@ -8710,6 +8004,7 @@ class AtomicReactor (Module):
 class ForceGloves (Module):
     def hit_trigger (self):
         self.me.push ([1])
+    ordered_hit_trigger = True
 
 class CoreShielding (Module):
     pass
@@ -8718,6 +8013,7 @@ class CoreShielding (Module):
 class AfterBurner(Module):
     def after_trigger(self):
         self.me.retreat([1])
+    ordered_after_trigger = True
 
 class SynapseBoost (Module):
     priority = 1
@@ -8730,6 +8026,7 @@ class AutoRepair (Module):
 class ExtendingArms (Module):
     def before_trigger(self):
         self.me.pull([1])
+    ordered_before_trigger = True
 
     
 #Demitras
@@ -8741,6 +8038,7 @@ class SymphonyOfDemise (Finisher):
     priority = 9
     def before_trigger (self):
         self.me.advance ((0,1,2,3,4))
+    ordered_before_trigger = True
     def hit_trigger (self):
         self.me.pool = 5 * [self.me.crescendo]
         if self.game.reporting:
@@ -8761,6 +8059,7 @@ class Accelerando (Finisher):
         # Advance as far as possible - needs a change in execute_move.
         # Can't just try decreasing amounts, because that might trigger
         # multiple movement reactions.
+    ordered_before_trigger = True
     def hit_trigger (self):
         if self.me.can_spend (1):
             spend = self.game.make_fork (len(self.me.pool)+1, self.me, \
@@ -8784,11 +8083,11 @@ class Deathblow (Base):
     priority = 8
     def hit_trigger (self):
         if self.me.can_spend (1):
-            spend = self.game.make_fork (len(self.me.pool)+1, self.me, \
-                                "Choose number of Crescendo tokens to spend:")
-            # not really added to ante, but Bloodletting trigger was already executed
-            for i in range (spend):
-                self.me.ante_token()
+            self.me.deathblow_spending = self.game.make_fork (
+                len(self.me.pool)+1, self.me, \
+                "Choose number of Crescendo tokens to spend:")
+            for i in range (self.me.deathblow_spending):
+                self.me.spend_token()
     def after_trigger(self):
         if self.me.did_hit:
             self.me.recover_tokens (1)
@@ -8800,6 +8099,7 @@ class Darkside (Style):
         return self.opponent.attack_range() < 4
     def hit_trigger (self):
         self.me.retreat (range(6))
+    ordered_hit_trigger = True
     def evaluation_bonuse (self):
         # Dark side is good when I can retreat to range 4
         if self.me.position > self.opponent.position:
@@ -8810,8 +8110,6 @@ class Darkside (Style):
 class Bloodletting (Style):
     power = -2
     priority = 3
-    # this is checked before Deathblow's trigger, as spent tokens
-    # shouldn't be counted
     def hit_trigger (self):
         self.me.gain_life (self.me.ante.count(self.me.crescendo))
     def reduce_soak (self, soak):
@@ -8847,6 +8145,7 @@ class Jousting (Style):
     def start_trigger (self):
         # advance until adjacent to opponent
         self.me.advance ([self.game.distance()-1])
+    ordered_start_trigger = True
     def hit_trigger (self):
         # advance as far as possible
         if self.me.position > self.opponent.position:
@@ -8854,6 +8153,7 @@ class Jousting (Style):
         else:
             move = 5 - self.me.position
         self.me.advance ((move,))
+    ordered_hit_trigger = True
 
 # Only token's ante bonus is listed here
 # The permanent priority bonus is handled by the character
@@ -8884,6 +8184,7 @@ class SheetLightning (Finisher):
     def hit_trigger (self):
         self.me.advance ([self.game.distance()-1])
         self.opponent_immobilized_next_beat = True
+    ordered_hit_trigger = True
     def evaluate_setup (self):
         return 1 if self.me.attack_range() >= 3 else 0
 
@@ -8921,7 +8222,10 @@ class CounterStyle (Style):
     def before_trigger (self):
         if self.me.damage_taken > 0:
             self.me.advance (range(self.me.damage_taken+1))
-
+    @property
+    def ordered_before_trigger(self):
+        return self.me.damage_taken
+        
 class Martial (Style):
     maxrange = 1
     power = 1
@@ -8948,6 +8252,9 @@ class Chained (Style):
                 self.me.spend_token()
             if pull > 0:
                 self.me.pull((pull,))
+    @property
+    def ordered_before_trigger(self):
+        return self.me.can_spend(1)
     
 class Retribution (Style):
     priority = -1
@@ -8959,6 +8266,9 @@ class Retribution (Style):
             self.me.move_directly ((self.me.position,
                                     self.opponent.position-1,
                                     self.opponent.position+1))
+    @property
+    def ordered_before_trigger(self):
+        return self.opponent.did_hit
     # regaining tokens for soak handled by Eligor.soak_trigger()
             
 class VengeanceT (Token):
@@ -8978,6 +8288,7 @@ class MillionKnives (Finisher):
         self.me.advance ((1,))
         if self.me.position != old_pos and self.game.distance() > 1:
             self.me.max_attacks += 1
+    ordered_hit_trigger = True
     def evaluate_setup (self):
         dist = self.game.distance()
         return 0.5*(dist-1) if dist <= 4 else 0
@@ -9035,6 +8346,9 @@ class Rasping (Style):
                                     ["No", "Yes"]):
                 self.me.spend_token ()
                 self.me.add_triggered_power_bonus(3)
+    @property
+    def ordered_hit_trigger(self):
+        return self.me.can_spend(1)
     def damage_trigger (self, damage):
         self.me.gain_life ((damage+1)/2)
 
@@ -9048,12 +8362,16 @@ class Critical (Style):
                                     ["No", "Yes"]):
                 self.me.spend_token ()
                 self.me.add_triggered_power_bonus(3)
+    @property
+    def ordered_hit_trigger(self):
+        return self.me.can_spend(1)
     def reduce_stunguard (self, stunguard):
         return 0
 
 class Assassin (Style):
     def hit_trigger (self):
         self.me.retreat (range(6))
+    ordered_hit_trigger = True
     def damage_trigger (self, damage):
         if self.game.distance() == 1 and self.me.can_spend(1):
             # fake fork, assume I immobilize if possible
@@ -9065,6 +8383,9 @@ class Assassin (Style):
                 self.me.evaluation_bonus += 3.5
                 if self.game.reporting:
                     self.game.report (self.opponent.name + " immobilized next beat")
+    @property
+    def ordered_hit_trigger(self):
+        return self.me.can_spend(1)
 
 class Psycho (Style):
     priority = 1
@@ -9072,6 +8393,7 @@ class Psycho (Style):
     def start_trigger (self):
         # advance until adjacent to opponent
         self.me.advance ([self.game.distance()-1])
+    ordered_start_trigger = True
     def end_trigger (self):
         if self.game.distance() == 1 and self.me.can_spend(1):
             if self.game.make_fork (2, self.me, \
@@ -9080,106 +8402,14 @@ class Psycho (Style):
                 if self.game.reporting:
                     self.game.report ("Heketch reactivates attack")
                 self.game.activate (self.me)
+    @property
+    def ordered_end_trigger(self):
+        return self.me.can_spend(1)
 
 class DarkForce (Token):
     priority = 3
+
         
-
-#Hepzibah
-
-class SealThePact (Finisher):
-    name_override = 'Seal the Pact'
-    power = None
-    soak = 2
-    is_attack = False
-    # spend opponent's life for one token per beat until end of duel
-    def after_trigger (self):
-        self.me.pact_sealed = True
-        self.me.evaluation_bonus += 2 * self.game.expected_beats()
-
-class Bloodlight (Base):
-    minrange = 1
-    maxrange = 3
-    power = 2
-    priority = 3
-    preferred_range = 2
-    def damage_trigger (self, damage):
-        self.me.gain_life (min (damage, len(self.me.ante)))
-
-class Pactbond (Style):
-    power = -1
-    priority = -1
-    def reveal_trigger (self):
-        self.me.gain_life (min (2, len(self.me.ante)))
-    def end_trigger (self):
-        prompt = "Select a free token next beat:"
-        options = [t.name for t in self.me.tokens]
-        # fake fork, AI selects almighty
-        self.me.free_token_next_beat = \
-            self.game.make_fork (5, self.me, prompt, options, 0)
-        # for saving 1 life next beat if you use the token
-        self.me.evaluation_bonus += 0.75
-
-class Anathema (Style):
-    power = -1
-    priority = -1
-    def get_power_bonus (self):
-        return min (3, len(self.me.ante))
-    def get_priority_bonus (self):
-        return min (3, len(self.me.ante))
-
-class Necrotizing (Style):
-    maxrange = 2
-    power = -1
-    preferred_range = 1
-    def get_power_bonus (self):
-        return self.me.necro_power
-    # fork to decide how much life to ante
-    def hit_trigger (self):
-        # ante 0-3 life, but not more than life-1
-        self.me.necro_power = self.me.lose_life \
-                (self.game.make_fork(min(self.me.life, 4), self.me, \
-                                     "Life to spend for power?"))
-        if self.game.reporting:
-            self.game.report ("Hepzibah spends %d life to increase power" %self.me.necro_power)
-
-class Darkheart (Style):
-    priority = -1
-    def hit_trigger (self):
-        self.me.gain_life (2)
-        self.opponent.discard_token()
-
-class Accursed (Style):
-    maxrange = 1
-    power = -1
-    preferred_range = 0.5
-    def has_stun_immunity (self):
-        return (len(self.me.ante) >= 3)
-
-class Almighty (Token):
-    name_with_initial = '[A]lmighty'
-    shorthand = 'a'
-    power = 2
-class Corruption (Token):
-    name_with_initial = '[C]orruption'
-    shorthand = 'c'
-    def reduce_stunguard (self, stunguard):
-        return 0
-class Endless (Token):
-    name_with_initial = '[E]ndless'
-    shorthand = 'e'
-    priority = 2
-class Immortality (Token):
-    name_with_initial = 'Im[M]ortality'
-    shorthand = 'm'
-    soak = 2
-# not to be confused with Cesar's Inevitable style
-class InevitableT (Token):
-    name_override = 'Inevitable'
-    name_with_initial = '[I]nevitable'
-    shorthand = 'i'
-    maxrange = 1
-
 #Hikaru
 
 class WrathOfElements (Finisher):
@@ -9205,6 +8435,7 @@ class FourWinds (Finisher):
     # Disabling tokens handled by Hikaru.get_active_tokens()
     def before_trigger (self):
         self.me.advance ((0,1))
+    ordered_before_trigger = True
     # Attack again each time you successfully regain a token
     def hit_trigger (self):
         len_pool = len(self.me.pool)
@@ -9225,6 +8456,7 @@ class PalmStrike (Base):
     preferred_range = 0.5 # advance 1 makes effective range 1-2
     def start_trigger (self):
         self.me.advance ([1])
+    ordered_start_trigger = True
     def damage_trigger (self, damage):
         self.me.recover_tokens ()
 
@@ -9255,6 +8487,7 @@ class Advancing (Style):
         self.me.advance ((1,))
         if ordered (old_pos, her.position, me.position):
             me.add_triggered_power_bonus(1)
+    ordered_start_trigger = True
 
 class Sweeping (Style):
     power = -1
@@ -9304,8 +8537,10 @@ class Wormwood (Finisher):
         insects = self.me.total_insects()
         self.opponent.lose_life(insects)
         self.me.pull([insects])
+    ordered_start_trigger = True
     def hit_trigger (self):
         self.me.add_triggered_power_bonus (self.me.total_insects())
+    ordered_hit_trigger = True
     def evaluate_setup (self):
         insects = self.me.total_insects()
         return (0.25 * max(0, insects - 1)
@@ -9322,6 +8557,7 @@ class ImagoEmergence (Finisher):
         self.me.give_insects(1, pile=1)
         self.me.imago_emergence_active = True
         self.me.evaluation_bonus += 3
+    ordered_hit_trigger = True
     def evaluate_setup (self):
         return 0.5 if self.game.distance() >= 3 else 0
     
@@ -9333,13 +8569,17 @@ class Mandibles (Base):
     preferred_range = 2
     def before_trigger (self):
         self.me.advance ([1])
+    ordered_before_trigger = True
     def hit_trigger (self):
         self.me.pull ([1])
+    ordered_hit_trigger = True
     def damage_trigger (self, damage):
         if self.me.insects[1] and self.me.insects[2]:
             self.opponent.stun()
+    ordered_damage_trigger = True
     def after_trigger (self):
         self.me.advance ([1])
+    ordered_after_trigger = True
     def evaluation_bonus (self):
         stun_potential = self.me.insects[1] and self.me.insects[2]
         insect_potential = 1 if self.game.distance() <= 2 else 0
@@ -9356,6 +8596,7 @@ class Burrowing (Style):
         self.me.add_triggered_priority_bonus (piles)
     def before_trigger (self):
         self.me.pull ((0,1))
+    ordered_before_trigger = True
     def evaluation_bonus (self):
         return 0.3 * (self.me.infested_piles() - 1)
     
@@ -9381,6 +8622,7 @@ class Parasitic (Style):
         return 0.5 * (self.me.total_insects())
     def start_trigger (self):
         self.me.pull ([3])
+    ordered_start_trigger = True
     def evaluation_bonus (self):
         value = 0.25 * (self.me.total_insects() - 2)
         me = self.me.position
@@ -9416,6 +8658,7 @@ class Biting (Style):
         self.opponent.add_triggered_power_bonus (-self.me.infested_piles())
     def damage_trigger (self, damage):
         self.me.pull ((0,1,2))
+    ordered_damage_trigger = True
     def evaluation_bonus (self):
         insect_potential = (self.game.distance() <= 2 and
                             not self.me.position in (0,6))
@@ -9472,6 +8715,9 @@ class Spellbolt (Base):
             self.me.pull ((0,1,2))
         else:
             self.opponent.add_triggered_power_bonus(-2)
+    @property
+    def ordered_hit_trigger(self):
+        return self.me.is_elemental
 
 class Flare (Style):
     power = 3
@@ -9502,6 +8748,9 @@ class Volcanic (Style):
     def end_trigger (self):
         if not self.me.is_elemental:
             self.me.move_to_unoccupied()
+    @property
+    def ordered_end_trigger(self):
+        return not self.me.is_elemental
     
 class Ignition (Style):
     power = 1
@@ -9528,6 +8777,9 @@ class Blazing (Style):
     def after_trigger(self):
         if not self.me.is_elemental:
             self.me.move ((1,2))
+    @property
+    def ordered_after_trigger(self):
+        return not self.me.is_elemental
 
 #Karin
 
@@ -9559,6 +8811,7 @@ class LunarCross (Finisher):
                            self.opponent.position,
                            old_pos):
                     self.me.lunar_swap = True
+    ordered_before_trigger = True
     def standard_range (self):
         return False
     def special_range_hit (self):
@@ -9576,10 +8829,12 @@ class Claw (Base):
     preferred_range = 2.5
     def before_trigger (self):
         self.me.advance ((1,2))
+    ordered_before_trigger = True
     def hit_trigger (self):
         if self.me.jager_position == self.opponent.position:
             self.me.add_triggered_power_bonus (2)
         self.me.move_jager ((-1,1))
+    ordered_hit_trigger = True
     def evaluation_bonus (self):
         return (0.15 if self.opponent.position == self.me.jager_position
                 else -0.05)
@@ -9597,6 +8852,7 @@ class Howling (Style):
     def hit_trigger (self):
         if self.me.jager_position == self.opponent.position:
             self.me.add_triggered_power_bonus(2)
+    ordered_hit_trigger = True
     def end_trigger (self):
         self.me.move_jager ((-1,-0,1))
     def evaluation_bonus (self):
@@ -9664,6 +8920,7 @@ class FullMoon (Style):
                 self.me.move_directly ([self.me.jager_position])
                 if self.me.position == self.me.jager_position:
                     self.me.jager_position = old_pos
+    ordered_start_trigger = True
     def evaluation_bonus (self):
         me = self.me.position
         opp = self.opponent.position
@@ -9682,12 +8939,15 @@ class Feral (Style):
     jager_attack = False
     def start_trigger (self):
         self.me.advance ([1,2])
+    ordered_start_trigger = True
     def hit_trigger (self):
         self.me.retreat ([2])
         if self.opponent.position == self.me.jager_position:
             self.opponent.stun()
+    ordered_hit_trigger = True
     def end_trigger (self):
         self.me.move ([0,1])
+    ordered_end_trigger = True
     def evaluation_bonus (self):
         return (0.3 if self.opponent.position == self.me.jager_position
                 else -0.1)
@@ -9705,6 +8965,7 @@ class Dual (Style):
         self.me.move_jager (relative_moves)
         if jager_on_opponent:
             self.me.move_opponent_directly ([self.me.jager_position])
+    ordered_before_trigger = True
     def evaluation_bonus (self):
         return (0.45 if self.opponent.position == self.me.jager_position
                 else -0.15)
@@ -9784,11 +9045,13 @@ class Whip (Style):
             self.opponent.stun()
         else:
             self.me.pull ([1])
+    ordered_hit_trigger = True
 
 class Quicksilver (Style):
     priority = 2
     def end_trigger (self):
         self.me.move ((0,1))
+    ordered_end_trigger = True
 
 class Exoskeletal (Style):
     soak = 2
@@ -9870,6 +9133,7 @@ class Teleport (Style):
         if self.me.trap_position is not None:
             positions.remove(self.me.trap_position)
         self.me.move_trap (positions)
+    ordered_end_trigger = True
     def evaluation_bonus(self):
         # Teleport is better when trap is between me and opponent
         if self.me.trap_position is not None and \
@@ -9888,6 +9152,7 @@ class Evacuation (Style):
     def start_trigger (self):
         self.me.move_trap ([self.me.position])
         self.me.retreat ([1])
+    ordered_start_trigger = True
     def can_be_hit (self):
         return self.opponent.position != self.me.trap_position
     def evaluation_bonus (self):
@@ -9904,6 +9169,7 @@ class Blight (Style):
                          and pos != self.opponent.position]
             if len (positions) > 0:
                 self.me.move_trap (positions)
+    ordered_start_trigger = True
 
 class Lure (Style):
     maxrange = 5
@@ -9912,6 +9178,7 @@ class Lure (Style):
     preferred_range = 2.5
     def hit_trigger (self):
         self.me.pull (range(self.game.distance()))
+    ordered_hit_trigger = True
 
 #Lixis
 
@@ -9951,6 +9218,7 @@ class Venomous (Style):
     power = 1
     def before_trigger (self):
         self.me.advance ([0,1])
+    ordered_before_trigger = True
     def hit_trigger (self):
         self.me.priority_penalty_next_beat = True
         self.me.evaluation_bonus += 0.7
@@ -9989,6 +9257,7 @@ class Vine (Style):
     preferred_range = 1
     def hit_trigger (self):
         self.me.pull ([0,1,2])
+    ordered_hit_trigger = True
     
 class Pruning (Style):
     power = -1
@@ -10013,6 +9282,7 @@ class TemporalRecursion (Finisher):
     priority = 5
     def before_trigger (self):
         self.me.advance ((0,1))
+    ordered_before_trigger = True
     # for efficiency, immediately decide how many forks to make
     # this may be incorrect if opponent has forks during your activation
     def after_trigger (self):
@@ -10044,6 +9314,7 @@ class Flash (Base):
     preferred_range = 1.5 # effective range 1-2
     def start_trigger (self):
         self.me.advance ([1])
+    ordered_start_trigger = True
     def damage_trigger (self, damage):
         self.opponent.stun()
 
@@ -10087,6 +9358,7 @@ class Fusion (Style):
         # (assumes oppoent either blocks all pushes or none)
         if blow_out and self.me.blocked == set():
             self.opponent.lose_life(2)
+    ordered_damage_trigger = True
 
 class Feinting (Style):
     minrange = 1
@@ -10097,8 +9369,10 @@ class Feinting (Style):
         return 1 if self.me.position in [0,6] else 0
     def start_trigger (self):
         self.me.retreat ([1])
+    ordered_start_trigger = True
     def end_trigger (self):
         self.me.advance ((1,2))
+    ordered_end_trigger = True
 
 class Chrono (Style):
     priority = 1
@@ -10116,16 +9390,28 @@ class Chrono (Style):
                 self.me.spend_token()
             if advance > 0:
                 self.me.advance ([advance])
+    @property
+    def ordered_start_trigger(self):
+        return self.me.can_spend(1)
 
 # I can't give each token an ante effect, as the effect depends on the total
 # number anted
 class Time (Token):
     pass
 
-# Virtual Card that helps implement the 3-token ante effect
-class AnteEffect(Card):
+# Virtual Cards that help implement Luc's ante effects.
+class Ante1Effect(Card):
+    priority = 1
+
+class Ante3Effect(Card):
+    name_override = "Ante Effect" # For order fork options
     def start_trigger(self):
         self.me.advance([0,1,2])
+    ordered_start_trigger = True
+
+class Ante5Effect(Card):
+    def start_trigger(self):
+        self.me.become_active_player()
 
 #Lymn
 
@@ -10157,8 +9443,10 @@ class Visions (Base):
     preferred_range = 1.5
     def before_trigger (self):
         self.me.move(range(self.me.disparity + 1))
+    ordered_before_trigger = True
     def after_trigger (self):
         self.me.move([1,2])
+    ordered_after_trigger = True
 
 class Maddening (Style):
     maxrange = 1
@@ -10190,6 +9478,7 @@ class Chimeric (Style):
         return bonus
     def before_trigger (self):
         self.me.advance([1])
+    ordered_before_trigger = True
 
 class Surreal (Style):
     @property
@@ -10207,6 +9496,9 @@ class Surreal (Style):
                                              d != self.me.position]
             if dests:
                 self.me.move_directly(dests)
+    @property
+    def ordered_after_trigger(self):
+        return self.me.base.is_attack and self.me.base.standard_range
 
 class Reverie (Style):
     minrange = 1
@@ -10241,8 +9533,11 @@ class Fathomless (Style):
         if self.me.disparity >= 8:
             self.me.become_active_player()
             self.me.move_to_unoccupied()
+    ordered_start_trigger = True
     def evaluate(self):
         # Good against Dash
+        if self.opponent.use_beta_bases:
+            return 0
         return (-0.5 if self.opponent.dash in (self.opponent.discard[1] |
                                                self.opponent.discard[2])
                 else 0.5)
@@ -10304,7 +9599,10 @@ class Safety (Style):
     def end_trigger (self):
         if self.opponent.did_hit:
             self.me.move ((0,1,2,3))
-
+    @property
+    def ordered_end_trigger(self):
+        return self.opponent.did_hit
+    
 class Priestess (Style):
     power = -1
     priority = -1
@@ -10346,9 +9644,13 @@ class Excelsius (Style):
     preferred_range = 1 # adds 2 to effective maxrange
     def before_trigger(self):
         self.me.move ([1])
+    ordered_before_trigger = True
     def hit_trigger (self):
         if self.me.level >= 2:
             self.me.push ((2,1,0))
+    @property
+    def ordered_hit_trigger(self):
+        return self.me.level >= 2
 
 #Marmelee
 
@@ -10359,12 +9661,11 @@ class AstralCannon (Finisher):
     def has_stun_immunity (self):
         return True
     def start_trigger (self):
-        n = len(self.me.pool)
-        for i in range (n):
-            self.me.discard_token()
+        n = self.me.concentration
+        self.me.discard_counters(n)
         self.me.add_triggered_power_bonus(2*n)
     def evaluate_setup (self):
-        return 1 if len(self.me.pool) >= 3 and self.game.distance() in (2,3,4) \
+        return 1 if self.me.concentration >= 3 and self.game.distance() in (2,3,4) \
                else 0
 
 class AstralTrance (Finisher):
@@ -10373,7 +9674,7 @@ class AstralTrance (Finisher):
     soak = 5
     # recover all tokens
     def after_trigger (self):
-        self.me.recover_tokens (5)
+        self.me.recover_counters (5)
             
 class Meditation (Base):
     minrange = 1
@@ -10382,44 +9683,44 @@ class Meditation (Base):
     priority = 3
     preferred_range = 1
     def start_trigger (self):
-        if self.me.can_spend(1):
-            self.me.tokens_spent_by_base = \
-                self.game.make_fork (1 + len(self.me.pool), self.me,
-                        "Spend how many tokens? [Soak 1 per token spent]")
-            for i in range (self.me.tokens_spent_by_base):
-                self.me.spend_token()
-            if self.game.reporting and self.me.tokens_spent_by_base:
+        if self.me.concentration >= 1:
+            self.me.counters_spent_by_base = \
+                self.game.make_fork (1 + self.me.concentration, self.me,
+                        "Spend how many counters? [Soak 1 per counter spent]")
+            self.me.discard_counters(self.me.counters_spent_by_base)
+            if self.game.reporting and self.me.counters_spent_by_base:
                 self.game.report ("Marmelee gains Soak %d"
-                                  %self.me.tokens_spent_by_base)
+                                  %self.me.counters_spent_by_base)
     def get_soak (self):
-        return self.me.tokens_spent_by_base
+        return self.me.counters_spent_by_base
     def end_trigger (self):
-        self.me.recover_tokens (1)
+        self.me.recover_counters (1)
+    # When pool is empty, Meditation/Sorceress order matters. 
+    @property
+    def ordered_end_trigger(self):
+        return self.me.concentration == 0
 
 class Petrifying (Style):
     power = 1
     priority = -1
     def start_trigger (self):
-        if self != self.game.active and self.me.can_spend (3):
+        if self != self.game.active and self.me.concentration >= 3:
             if (self.game.make_fork (2, self.me,
-                    "Spend 3 Concentration tokens to become Active Player?",
+                    "Spend 3 Concentration counters to become Active Player?",
                                      ["No", "Yes"])):
-                for i in range (3):
-                    self.me.spend_token()
+                self.me.discard_counters(3)
                 self.me.become_active_player()
     def hit_trigger (self):
-        if self.me.can_spend (2) and not self.opponent.has_stun_immunity():
+        if self.me.concentration >= 2 and not self.opponent.has_stun_immunity():
             if (self.game.make_fork (2, self.me,
-                                     "Spend 2 Concentration tokens to stun %s?"%
+                                     "Spend 2 Concentration counters to stun %s?"%
                                      self.opponent.name,
                                      ["No", "Yes"])):
-                for i in range (2):
-                    self.me.spend_token()
+                self.me.discard_counters(2)
                 self.opponent.stun()
     def evaluation_bonus (self):
-        tokens = len(self.me.pool)
-        value = 0.2 if tokens >=3 else -0.3
-        if tokens == 2 or tokens == 5:
+        value = 0.2 if self.me.concentration >=3 else -0.3
+        if self.me.concentration == 2 or self.me.concentration == 5:
             value += 0.1
         return value
 
@@ -10429,47 +9730,50 @@ class Magnificent (Style):
     power = -1
     preferred_range = 1.5
     def hit_trigger (self):
-        if self.me.can_spend (1):
-            spend = self.game.make_fork (1+len(self.me.pool), self.me,
-                                     "Spend how many tokens (+1 Power each)?")
-            for i in range (spend):
-                self.me.spend_token()
+        if self.me.concentration >= 1:
+            spend = self.game.make_fork (1+self.me.concentration, self.me,
+                                     "Spend how many counters (+1 Power each)?")
+            self.me.discard_counters(spend)
             self.me.add_triggered_power_bonus(spend)
     def after_trigger (self):
-        if self.me.can_spend (2):
+        if self.me.concentration >= 2:
             if self.game.make_fork (2, self.me,
-                                    "Spend a token to move anywhere?",
+                                    "Spend 2 counters to move anywhere?",
                                     ["No","Yes"]):
-                self.me.spend_token()
-                self.me.spend_token()
+                self.me.discard_counters(2)
                 self.me.move_to_unoccupied ()
+    @property
+    def ordered_after_trigger(self):
+        return self.me.concentration >= 2
     def evaluation_bonus(self):
-        return 0.1 * (len(self.me.pool) - 2)
+        return 0.1 * (self.me.concentration - 2)
 
 class Sorceress (Style):
     priority = -1
     preferred_range = 0.5 # 0-2 is 1, but it costs a token
     def before_trigger (self):
-        if self.me.is_attacking() and self.me.can_spend (1):
-            self.me.tokens_spent_by_style = \
+        if self.me.is_attacking() and self.me.concentration >= 1:
+            self.me.counters_spent_by_style = \
                 self.game.make_fork (2, self.me,
-                    "Spend a Concentration token for +0~2 range?",
+                    "Spend a Concentration counter for +0~2 range?",
                                      ["No", "Yes"])
-            for i in range (self.me.tokens_spent_by_style):
-                self.me.spend_token()
-            if self.me.tokens_spent_by_style and self.game.reporting:
+            self.me.discard_counters(self.me.counters_spent_by_style)
+            if self.me.counters_spent_by_style and self.game.reporting:
                 self.game.report ("Marmelee gains +0~2 range")
     def end_trigger (self):
-        if self.me.can_spend (1):
+        if self.me.concentration >= 1:
             if (self.game.make_fork (2, self.me,
-                    "Spend a Concentration token to move 1 space?",
+                    "Spend a Concentration counter to move 1 space?",
                                      ["No", "Yes"])):
-                self.me.spend_token()
+                self.me.discard_counters(1)
                 self.me.move ([1])
+    # With counters, order matters vs. Parry.  
+    # Without, it matters vs. Meditation.
+    ordered_end_trigger = True
     def get_maxrange_bonus (self):
-        return 2 * self.me.tokens_spent_by_style
+        return 2 * self.me.counters_spent_by_style
     def evaluation_bonus(self):
-        n = min(2, len(self.me.pool))
+        n = min(2, self.me.concentration)
         return 0.1 * (n-1)
 
 class Barrier (Style):
@@ -10477,29 +9781,29 @@ class Barrier (Style):
     power = -1
     preferred_range = 0.5
     def start_trigger (self):
-        if self.me.can_spend (4):
-            spend = 4 * self.game.make_fork (2, self.me,
-                        "Spend 4 Concentration Tokens to dodge all attacks?",
-                                             ["No", "Yes"])
-            for i in range (spend):
-                self.me.spend_token()
-            if spend:
-                self.me.triggered_dodge = True
+        if self.me.concentration >= 4 and self.game.make_fork (
+                2, self.me,
+                "Spend 4 Concentration counters to dodge all attacks?",
+                                             ["No", "Yes"]):
+            self.me.discard_counters(4)
+            self.me.triggered_dodge = True
     def before_trigger (self):
-        if self.me.can_spend (1) and self.game.distance() == 1:
+        if self.me.concentration >= 1 and self.game.distance() == 1:
             if self.me.position > self.opponent.position:
                 max_push = self.opponent.position
             else:
                 max_push = 6 - self.opponent.position
             max_push = min (max_push, len(self.me.pool))
             spend = self.game.make_fork (1 + max_push, self.me,
-                                     "Spend how many tokens to push opponent?")
-            for i in range (spend):
-                self.me.spend_token()
+                                     "Spend how many counters to push opponent?")
+            self.me.discard_counters(spend)
             if spend:
                 self.me.push([spend])
+    @property
+    def ordered_before_trigger(self):
+        return self.me.concentration >= 1
     def evaluation_bonus (self):
-        return 0.3 if len(self.me.pool) >=4 else -0.1
+        return 0.3 if self.me.concentration >=4 else -0.1
 
 class Nullifying (Style):
     minrange = 1
@@ -10508,21 +9812,16 @@ class Nullifying (Style):
     def get_preferred_range (self):
         return 1 if self.me.position in (0,6) else 0
     def start_trigger (self):
-        self.me.retreat ([1])        
+        self.me.retreat ([1])
+    ordered_start_trigger = True
     def hit_trigger (self):
-        if self.me.can_spend (1):
-            # spend tokens up to your pool
-            spend = self.game.make_fork (len (self.me.pool) + 1, self.me,
-                "Spend how many tokens? [opponent has -1 power per token spent]")
-            for i in range (spend):
-                self.me.spend_token()
+        if self.me.concentration >= 1:
+            spend = self.game.make_fork (self.me.concentration + 1, self.me,
+                "Spend how many counters? [opponent has -1 power per counter spent]")
+            self.me.discard_counters(spend)
             self.opponent.add_triggered_power_bonus (-spend)
     def evaluation_bonus(self):
-        n = len(self.me.pool)
-        return 0.05 * (n-2)
-
-class Concentration (Token):
-    pass
+        return 0.05 * (self.me.concentration - 2)
 
 #Mikhail
 
@@ -10591,8 +9890,10 @@ class Hallowed (Style):
     preferred_range = 0.5 # halved because not necessarily active
     def start_trigger (self):
         self.me.pull ([1])
+    ordered_start_trigger = True
     def damage_trigger (self, damage):
         self.me.push (range(damage+1))
+    ordered_damage_trigger = True
 
 class Apocalyptic (Style):
     minrange = 2
@@ -10672,9 +9973,15 @@ class Stellar (Style):
     def before_trigger (self):
         if self.me.ante.count(self.me.mp) >= 5:
             self.me.move_to_unoccupied()
+    @property
+    def ordered_before_trigger(self):
+        return self.me.ante.count(self.me.mp) >= 5
     def hit_trigger (self):
         if self.me.ante.count(self.me.mp) >= 2:
             self.me.move_opponent_to_unoccupied()
+    @property
+    def ordered_hit_trigger(self):
+        return self.me.ante.count(self.me.mp) >= 2
 
 class Unstable (Style):
     maxrange = 1
@@ -10695,6 +10002,9 @@ class Unstable (Style):
                                      options)
             for effect in combos[result]:
                 effect(self)
+    @property
+    def ordered_hit_trigger(self):
+        return self.me.ante.count(self.me.mp) >= 2
     def choose_regain (self):
         self.me.recover_tokens(5)
     def choose_move (self):
@@ -10797,10 +10107,15 @@ class Malediction (Base):
     def hit_trigger (self):
         self.me.malediction_damage_limit = True
         self.me.give_induced_tokens(1)
+    # To give the token before Enervating counts it
+    ordered_hit_trigger = True
     def end_trigger (self):
         max_pull = len(self.me.induced_pool)
         if max_pull:
             self.me.pull (range(max_pull+1))
+    @property
+    def ordered_end_trigger(self):
+        return self.me.induced_pool
 
 class Unyielding (Style):
     maxrange = 1
@@ -10819,6 +10134,7 @@ class Devastating (Style):
     # advance until adjacent to opponent
     def start_trigger (self):
         self.me.advance([self.game.distance() - 1])
+    ordered_start_trigger = True
     def get_damage_cap (self):
         return 4
 
@@ -10830,6 +10146,8 @@ class Enervating (Style):
         return -len(self.me.induced_pool)
     def hit_trigger (self):
         self.me.add_triggered_power_bonus(len(self.me.induced_pool))
+    # To count after Maledicition
+    ordered_hit_trigger = True
 
 class Vainglorious (Style):
     power = 1
@@ -10838,6 +10156,7 @@ class Vainglorious (Style):
         return -2 if self.game.distance() == 1 else 0
     def before_trigger (self):
         self.me.pull ((0,1))
+    ordered_before_trigger = True
     def evaluation_bonus (self):
         dist = self.game.distance()
         if dist == 1:
@@ -10861,6 +10180,9 @@ class Overlords (Style):
             if ordered (old_pos, self.me.position, self.opponent.position):
                 spaces_pulled -= 1
             self.me.add_triggered_power_bonus(-spaces_pulled)
+    @property
+    def ordered_before_trigger(self):
+        return self.me.base.is_attack and self.me.base.deals_damage
 
 class Curse (Token):
     power = -1
@@ -10899,8 +10221,10 @@ class ForceGrenade (Finisher):
     # Not needing a token to hit handled by Rukyuk.can_hit()
     def hit_trigger (self):
         self.me.push (range(6))
+    ordered_hit_trigger = True
     def after_trigger (self):
         self.me.retreat (range(6))
+    ordered_after_trigger = True
     def evaluate_setup (self):
         return 1 if self.game.distance() <= 2 else 0
         
@@ -10911,6 +10235,7 @@ class Reload (Base):
     preferred_range = 1 # low, becuase when you reload it matters less
     def after_trigger (self):
         self.me.move_to_unoccupied()
+    ordered_after_trigger = True
     def end_trigger (self):
         self.me.recover_tokens()
 
@@ -10922,6 +10247,7 @@ class Sniper (Style):
     preferred_range = 4 
     def after_trigger (self):
         self.me.move ((1,2,3))
+    ordered_after_trigger = True
 
 class PointBlank (Style):
     maxrange = 1
@@ -10929,6 +10255,7 @@ class PointBlank (Style):
     preferred_range = 0.5
     def hit_trigger (self):
         self.me.push ((2,1,0))
+    ordered_hit_trigger = True
 
 class Gunner (Style):
     minrange = 2
@@ -10950,6 +10277,7 @@ class Gunner (Style):
                     self.game.report ("Rukyuk gains -1/+1 range")
     def after_trigger (self):
         self.me.move ((1,2))
+    ordered_after_trigger = True
     
 class Crossfire (Style):
     minrange = 2
@@ -10995,6 +10323,7 @@ class ImpactShell (Token):
     value = 0.2
     def hit_trigger (self):
         self.me.push ([2])
+    ordered_hit_trigger = True
 
 class LongshotShell (Token):
     name_override = 'Longshot'
@@ -11044,6 +10373,7 @@ class UdstadBeam (Finisher):
         return True
     def start_trigger (self):
         self.me.retreat ([2,1,0])
+    ordered_start_trigger = True
     def evaluate_setup (self):
         me = self.me.position
         opp = self.opponent.position
@@ -11082,12 +10412,14 @@ class Maintenance (Style):
         return len(self.me.deactivated_artifacts)
     def after_trigger (self):
         self.me.retreat ([2,1])
+    ordered_after_trigger = True
 
 class Explosive (Style):
     power = -1
     preferred_range = 0.5
     def start_trigger (self):
         self.me.pull ([0,1])
+    ordered_start_trigger = True
     def hit_trigger (self):
         if self.me.active_artifacts:
             if self.game.make_fork (2, self.me,
@@ -11101,8 +10433,10 @@ class Impact (Style):
     preferred_range = 0.5
     def before_trigger (self):
         self.me.advance ([1])
+    ordered_before_trigger = True
     def hit_trigger (self):
         self.me.push ([2,1])
+    ordered_hit_trigger = True
 
 class Overcharged (Style):
     # Phase Goggles can be overcharged to increase max range by 1
@@ -11256,6 +10590,7 @@ class Vanishing (Style):
         return 1 if self.me.position in [0,6] else 0.5
     def start_trigger (self):
         self.me.retreat ((1,0))
+    ordered_start_trigger = True
     def can_be_hit (self):
         return self.opponent.attack_range() < 4
     # The built in retreat makes the dodge work from range 3
@@ -11290,8 +10625,10 @@ class Compelling (Style):
     preferred_range = 0.5
     def before_trigger (self):
         self.me.move_opponent([1])
+    ordered_before_trigger = True
     def after_trigger (self):
         self.me.move_opponent([1])
+    ordered_after_trigger = True
 
 #Shekhtur
 
@@ -11341,6 +10678,7 @@ class Unleashed (Style):
     preferred_range = 0.5
     def after_trigger (self):
         self.me.retreat ((2,1))
+    ordered_after_trigger = True
     def end_trigger (self):
         self.me.recover_tokens(2)
         self.me.unleashed_bonus_next_beat = True
@@ -11364,14 +10702,17 @@ class Reaver (Style):
     preferred_range = 0.5
     def damage_trigger (self, damage):
         self.me.push([damage])
+    ordered_damage_trigger = True
     def end_trigger (self):
         self.me.advance ((1,2))
+    ordered_end_trigger = True
 
 class Jugular (Style):
     power = 1
     priority = 2
     def hit_trigger (self):
         self.me.move_opponent ([1])
+    ordered_hit_trigger = True
     def end_trigger (self):
         while len(self.me.pool) > 3:
             self.me.discard_token()
@@ -11389,6 +10730,7 @@ class Spiral (Style):
         if ordered (old_pos, self.opponent.position, self.me.position):
             spiral_move -= 1
         self.me.add_triggered_power_bonus (-spiral_move)
+    ordered_before_trigger = True
             
 class Malice (Token):
     priority = 1
@@ -11446,12 +10788,16 @@ class Whirlpool (Base):
             # otherwise, if juto not with opponent, push opponent
             elif self.me.juto_position != self.opponent.position:
                 self.me.push([1])
+    @property
+    def ordered_start_trigger(self):
+        return self.me.juto_position is not None
     def after_trigger (self):
         self.me.move ((0,1,2))
         if self.me.juto_position is not None:
             juto_dests = [d for d in xrange(7) if d >= self.me.juto_position - 2 \
                                         and  d <= self.me.juto_position + 2]
             self.me.move_juto (juto_dests)
+    ordered_after_trigger = True
 
 class Siren (Style):
     power = -1
@@ -11494,6 +10840,9 @@ class Riptide (Style):
     juto_attack = False
     def start_trigger (self):
         self.me.riptide_zone_2 = self.me.zone_2 ()
+    @property
+    def ordered_start_trigger(self):
+        return self.me.juto_position is not None
     def can_be_hit (self):
         return not (self.me.riptide_zone_2 and
                     self.opponent.attack_range() >= 3)
@@ -11503,6 +10852,9 @@ class Riptide (Style):
             destinations = pos_range(self.me.position,
                                      self.me.juto_position)
             self.me.move_juto(destinations)
+    @property
+    def ordered_end_trigger(self):
+        return self.me.juto_position is not None
     def evaluation_bonus (self):
         return 1 if self.me.zone_2() and self.game.distance() >= 3 else -0.5
             
@@ -11522,6 +10874,9 @@ class Empathic (Style):
                 self.me.move_directly ([self.me.juto_position])
                 if self.me.position == self.me.juto_position:
                     self.me.move_juto([old_pos])
+    @property
+    def ordered_start_trigger(self):
+        return self.me.juto_position is not None
     def end_trigger (self):
         self.opponent.lose_life(self.me.juto_damage_taken)
 
@@ -11535,12 +10890,17 @@ class WaveStyle (Style):
     juto_attack = False
     def hit_trigger (self):
         self.me.push ((2,1,0))
+    ordered_hit_trigger = True
     def after_trigger (self):
+        # move Juto towards opponent
         if self.me.juto_position is not None:
             destinations = [d for d in xrange(7) \
                             if (d - self.me.juto_position) * \
                                (self.opponent.position - self.me.position) >= 0]
             self.me.move_juto(destinations)
+    @property
+    def ordered_after_trigger(self):
+        return self.me.juto_position is not None
 
 #Vanaah
 
@@ -11567,6 +10927,7 @@ class HandOfDivinity (Finisher):
         return True
     def hit_trigger (self):
         self.me.advance ((0,1,2,3,4,5))
+    ordered_hit_trigger = True
     def evaluate_setup (self):
         return 1 if self.game.distance() == 5 else 0
 
@@ -11579,8 +10940,10 @@ class Scythe (Base):
     preferred_range = 2 # effective range 1-3
     def before_trigger(self):
         self.me.advance ([1])
+    ordered_before_trigger = True
     def hit_trigger(self):
         self.me.pull ((0,1))
+    ordered_hit_trigger = True
     
 class Reaping (Style):
     maxrange = 1
@@ -11612,6 +10975,7 @@ class Glorious (Style):
     preferred_range = 0.5
     def before_trigger (self):
         self.me.advance ([1])
+    ordered_before_trigger = True
     def can_hit (self):
         return self.me.get_priority() >= self.opponent.get_priority()
     def evaluation_bonus(self):
@@ -11627,6 +10991,7 @@ class Paladin (Style):
     def end_trigger (self):
         self.me.move_directly ((self.opponent.position+1, \
                                 self.opponent.position-1))
+    ordered_end_trigger = True
 
 class Vengeance (Style):
     power = 2
@@ -11654,6 +11019,7 @@ class ZMosh (Finisher):
         pos = self.opponent.position
         self.me.add_triggered_power_bonus (
                         3 * len (self.me.zombies & set ((pos-1,pos,pos+1))))
+    ordered_hit_trigger = True
     def evaluate_setup (self):
         pos = self.opponent.position
         return 0.5 * len (self.me.zombies & set ((pos-1,pos,pos+1)))
@@ -11670,6 +11036,7 @@ class TheWave (Finisher):
         self.me.move_opponent ([1])
         if self.opponent.position in self.me.zombies:
             self.me.max_attacks += 1
+    ordered_hit_trigger = True
 
 class Shred (Base):
     power = 1
@@ -11684,6 +11051,7 @@ class Shred (Base):
                           else set(xrange(pos+1,7))
         self.me.add_triggered_power_bonus(
                                     len (self.me.zombies & behind_opponent))
+    ordered_hit_trigger = True
     def reduce_soak (self, soak):
         return 0
     def evaluation_bonus (self):
@@ -11710,6 +11078,7 @@ class Monster (Style):
                                 ["No", "Yes"]):
             visited_positions.append(self.me.position)
             self.me.advance ([1])
+    ordered_before_trigger = True
     # preferred range and evaluation bonus affected by crowdsurf potential
     def surf_potential (self):
         me = self.me.position
@@ -11733,6 +11102,7 @@ class Metal (Style):
     preferred_range = 3 
     def before_trigger (self):
         self.me.advance ([2])
+    ordered_before_trigger = True
     # zombie placement when Voco is moved by opponent
     def movement_reaction (self, mover, old_position, direct):
         if mover==self.me and self.me.position != old_position:
@@ -11758,8 +11128,10 @@ class Hellraising (Style):
         self.me.add_zombies (pos_range (self.me.position,
                                         self.opponent.position) \
                               - set ((self.me.position, self.opponent.position)))
+    ordered_start_trigger = True
     def hit_trigger (self):
         self.me.pull ([1])
+    ordered_hit_trigger = True
 
 class Abyssal (Style):
     minrange = 2
@@ -11770,6 +11142,9 @@ class Abyssal (Style):
             ranges = range (self.me.get_minrange(), 1+self.me.get_maxrange())
             self.me.add_zombies (set([r for r in xrange(7)
                                     if abs(r-self.me.position) in ranges]))
+    @property
+    def ordered_after_trigger(self):
+        return self.me.base.is_attack and self.me.base.standard_range
 
 class Thunderous (Style):
     minrange = 1
@@ -11780,8 +11155,10 @@ class Thunderous (Style):
     def start_trigger (self):
         self.me.zombies.add(self.me.position)
         self.me.advance([2])
+    ordered_start_trigger = True
     def hit_trigger (self):
         self.me.push ((2,1,0))
+    ordered_hit_trigger = True
 
 #Zaamassal
 
@@ -11822,6 +11199,7 @@ class PlaneDivider (Finisher):
         if paradigm not in self.me.active_paradigms:
             self.me.set_active_paradigms ([paradigm])
             # no paradigm has a hit trigger, so no tricky stuff.
+    ordered_hit_trigger = True
     def evaluate_setup (self):
         return 1
 
@@ -11866,6 +11244,7 @@ class Sinuous (ZStyle):
     priority = 1
     def end_trigger (self):
         self.me.move_to_unoccupied()
+    ordered_end_trigger = True
 
 class Urgent (ZStyle):
     maxrange = 1
@@ -11874,6 +11253,7 @@ class Urgent (ZStyle):
     preferred_range = 1 
     def before_trigger (self):
         self.me.advance ([0,1])
+    ordered_before_trigger = True
 
 class Sturdy (ZStyle):
     def has_stun_immunity (self):
@@ -11896,6 +11276,7 @@ class Warped (ZStyle):
         return 1 if self.me.position in [0,6] else 0.5
     def start_trigger (self):
         self.me.retreat ([1])
+    ordered_start_trigger = True
 
 class Paradigm (Card):
     pass
@@ -11914,8 +11295,10 @@ class Fluidity (Paradigm):
     shorthand = 'f'
     def before_trigger (self):
         self.me.move ([0,1])
+    ordered_before_trigger = True
     def end_trigger (self):
         self.me.move ([0,1])
+    ordered_end_trigger = True
     def evaluate (self):
         return 1.5
     
@@ -12005,4 +11388,3 @@ character_dict = {'adjenna'  :Adjenna,
 
 if __name__ == "__main__":
     main()
-

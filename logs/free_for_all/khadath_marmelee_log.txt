@@ -22,7 +22,7 @@ life: 20
 discard 1: Petrifying Burst
 discard 2: Barrier Grasp
 special action
-2 Concentration tokens
+2 Concentration counters
 
 
 .K...M.
@@ -39,31 +39,44 @@ Marmelee:
 16% Sorceress Drive
 
 
-Khadath: Teleport Shot
-Marmelee: Sorceress Meditation
+Khadath: Blight Drive
+Marmelee: Magnificent Drive
 
-Priorities:  -1 | 2
+Priorities:  4 | 4
+Clash!
+
+Khadath:
+98% Blight Shot
+2% Blight Dash
+
+Marmelee:
+14% Magnificent Shot
+86% Magnificent Dash
+
+
+Khadath: Blight Shot
+Marmelee: Magnificent Dash
+
+Priorities:  2 | 9
 Marmelee is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee gains Soak 2
-Marmelee misses
-Khadath hits
-Marmelee has 2 soak
-Marmelee takes 2 damage (now at 18 life)
-Marmelee is stunned
-Marmelee gains 1 Concentration token
-Khadath moves:
-
-K....M.
-
-
 Khadath moves trap:
 
-K....M.
-.....t.
+.K...M.
+..t....
 
-Marmelee gains 1 Concentration token
+Marmelee discards 2 Concentration Counters
+Marmelee moves:
+
+.KM....
+..t....
+
+Marmelee moves:
+
+MK.....
+..t....
+
+Khadath misses
+Marmelee gains 1 Concentration Counter
 
 Beat 2
 -------
@@ -71,919 +84,959 @@ Beat 2
 Khadath
 -------
 life: 20
-discard 1: Teleport Shot
+discard 1: Blight Shot
 discard 2: Evacuation Grasp
 special action
 
 Marmelee
 --------
-life: 18
-discard 1: Sorceress Meditation
+life: 20
+discard 1: Magnificent Dash
 discard 2: Petrifying Burst
 special action
-2 Concentration tokens
+1 Concentration counters
 
 
-K....M.
-.....t.
+MK.....
+..t....
 
-Unbeatable strategy for Marmelee: Magnificent Strike: -0.72
-Unbeatable strategy for Marmelee: Magnificent Dash: -0.41
-Unbeatable strategy for Marmelee: Barrier Dash: -0.22
+Unbeatable strategy for Khadath: Teleport Strike: 1.82
+Unbeatable strategy for Khadath: Teleport Burst: 0.40
 
 Khadath:
-2% Hunter's Snare
-8% Lure Snare
-50% Lure Strike
-40% Lure Drive
+66% Teleport Strike
+34% Teleport Burst
 
 Marmelee:
-76% Magnificent Strike
-1% Magnificent Grasp
-10% Magnificent Dash
-13% Special Pulse
+55% Sorceress Drive
+45% Sorceress Grasp
 
 
-Khadath: Lure Drive
-Marmelee: Magnificent Strike
+Khadath: Teleport Strike
+Marmelee: Sorceress Grasp
 
-Marmelee gets -3 priority
-Priorities:  3 | 0
-Khadath is active
+Priorities:  0 | 4
+Marmelee is active
+Marmelee hits
+Marmelee moves Khadath:
+
+M.K....
+..t....
+
+Khadath takes 2 damage (now at 18 life)
+Khadath misses
 Khadath moves:
 
-.K...M.
-.....t.
+M.....K
+..t....
 
-Khadath hits
-Marmelee takes 2 damage (now at 16 life)
-Marmelee misses
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee moves:
+Khadath moves trap:
 
-.K.M...
-.....t.
+M.....K
+t......
 
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 3
 -------
 
 Khadath
 -------
-life: 20
-discard 1: Lure Drive
-discard 2: Teleport Shot
-special action
-
-Marmelee
---------
-life: 16
-discard 1: Magnificent Strike
-discard 2: Sorceress Meditation
-special action
-1 Concentration tokens
-
-
-.K.M...
-.....t.
-
-Khadath:
-53% Hunter's Snare
-10% Blight Strike
-20% Blight Burst
-17% Blight Grasp
-
-Marmelee:
-6% Petrifying Drive
-1% Barrier Shot
-9% Nullifying Drive
-84% Nullifying Dash
-
-
-Khadath: Blight Burst
-Marmelee: Nullifying Dash
-
-Priorities:  1 | 10
-Marmelee is active
-Marmelee moves:
-
-.K..M..
-.....t.
-
-Khadath moves trap:
-
-.K..M..
-.....t.
-
-Khadath moves:
-
-K...M..
-.....t.
-
-Marmelee moves:
-
-KM.....
-.....t.
-
-Khadath misses
-Marmelee gains 1 Concentration token
-
-Beat 4
--------
-
-Khadath
--------
-life: 20
-discard 1: Blight Burst
-discard 2: Lure Drive
-special action
-
-Marmelee
---------
-life: 16
-discard 1: Nullifying Dash
-discard 2: Magnificent Strike
-special action
-2 Concentration tokens
-
-
-KM.....
-.....t.
-
-Unbeatable strategy for Khadath: Teleport Dash: 1.30
-
-Khadath:
-4% Teleport Strike
-11% Teleport Grasp
-79% Teleport Dash
-6% Evacuation Strike
-
-Marmelee:
-65% Petrifying Meditation
-17% Petrifying Burst
-7% Barrier Meditation
-11% Barrier Burst
-
-
-Khadath: Teleport Grasp
-Marmelee: Petrifying Meditation
-
-Priorities:  2 | 2
-Clash!
-
-Khadath:
-13% Teleport Strike
-87% Teleport Dash
-
-Marmelee:
-11% Petrifying Drive
-89% Petrifying Burst
-
-
-Khadath: Teleport Dash
-Marmelee: Petrifying Burst
-
-Priorities:  6 | 0
-Khadath is active
-Marmelee moves:
-
-K..M...
-.....t.
-
-Khadath moves:
-
-..KM...
-.....t.
-
-Marmelee misses
-Khadath moves:
-
-.K.M...
-.....t.
-
-Khadath moves trap:
-
-.K.M...
-...t...
-
-Marmelee gains 1 Concentration token
-
-Beat 5
--------
-
-Khadath
--------
-life: 20
-discard 1: Teleport Dash
-discard 2: Blight Burst
-special action
-
-Marmelee
---------
-life: 16
-discard 1: Petrifying Burst
-discard 2: Nullifying Dash
-special action
-3 Concentration tokens
-
-
-.K.M...
-...t...
-
-Khadath:
-8% Hunter's Drive
-54% Evacuation Snare
-12% Lure Strike
-26% Lure Grasp
-
-Marmelee:
-7% Magnificent Strike
-34% Magnificent Grasp
-54% Sorceress Strike
-5% Sorceress Grasp
-
-
-Khadath: Lure Grasp
-Marmelee: Sorceress Strike
-
-Marmelee gets -3 priority
-Priorities:  4 | -1
-Khadath is active
-Khadath hits
-Khadath moves Marmelee:
-
-.KM....
-...t...
-
-Khadath moves Marmelee:
-
-.K.M...
-...t...
-
-Marmelee takes 1 damage (now at 15 life)
-Marmelee spends a Concentration token
-Marmelee gains +0~2 range
-Marmelee hits
-Khadath takes 4 damage (now at 16 life)
-Khadath is stunned
-Marmelee spends a Concentration token
-Marmelee moves:
-
-.K..M..
-...t...
-
-Marmelee gains 1 Concentration token
-
-Beat 6
--------
-
-Khadath
--------
-life: 16
-discard 1: Lure Grasp
-discard 2: Teleport Dash
-special action
-
-Marmelee
---------
-life: 15
-discard 1: Sorceress Strike
-discard 2: Petrifying Burst
-special action
-2 Concentration tokens
-
-
-.K..M..
-...t...
-
-Unbeatable strategy for Marmelee: Magnificent Grasp: -1.36
-Unbeatable strategy for Marmelee: Magnificent Dash: -0.13
-
-Khadath:
-37% Evacuation Snare
-37% Blight Shot
-25% Blight Drive
-
-Marmelee:
-96% Magnificent Grasp
-0% Nullifying Meditation
-4% Nullifying Shot
-
-
-Khadath: Blight Shot
-Marmelee: Magnificent Grasp
-
-Marmelee gets -1 priority
-Priorities:  2 | 4
-Marmelee is active
-Khadath moves trap:
-
-.K..M..
-...t...
-
-Marmelee hits
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee gets +2 power
-Marmelee moves Khadath:
-
-K...M..
-...t...
-
-Khadath takes 3 damage (now at 13 life)
-Khadath is stunned
-Marmelee gains 1 Concentration token
-
-Beat 7
--------
-
-Khadath
--------
-life: 13
-discard 1: Blight Shot
-discard 2: Lure Grasp
-special action
-
-Marmelee
---------
-life: 15
-discard 1: Magnificent Grasp
-discard 2: Sorceress Strike
-special action
-1 Concentration tokens
-
-
-K...M..
-...t...
-
-Unbeatable strategy for Marmelee: Nullifying Meditation: -0.57
-
-Khadath:
-5% Teleport Snare
-95% Teleport Strike
-
-Marmelee:
-54% Barrier Meditation
-46% Nullifying Meditation
-
-
-Khadath: Teleport Strike
-Marmelee: Nullifying Meditation
-
-Marmelee gets -1 priority
-Priorities:  0 | 3
-Marmelee is active
-Marmelee moves:
-
-K....M.
-...t...
-
-Marmelee misses
-Khadath misses
-Marmelee gains 1 Concentration token
-Khadath moves:
-
-.K...M.
-...t...
-
-Khadath moves trap:
-
-.K...M.
-.....t.
-
-Marmelee gains 1 Concentration token
-
-Beat 8
--------
-
-Khadath
--------
-life: 13
+life: 18
 discard 1: Teleport Strike
 discard 2: Blight Shot
 special action
 
 Marmelee
 --------
-life: 15
-discard 1: Nullifying Meditation
-discard 2: Magnificent Grasp
+life: 20
+discard 1: Sorceress Grasp
+discard 2: Magnificent Dash
 special action
-3 Concentration tokens
+2 Concentration counters
 
 
-.K...M.
-.....t.
+M.....K
+t......
+
+Unbeatable strategy for Marmelee: Petrifying Meditation: -0.38
+Unbeatable strategy for Marmelee: Nullifying Meditation: -1.64
+Unbeatable strategy for Marmelee: Nullifying Strike: -0.99
 
 Khadath:
-23% Evacuation Snare
-22% Lure Drive
-34% Lure Burst
-21% Lure Grasp
+11% Evacuation Snare
+62% Lure Drive
+28% Lure Burst
 
 Marmelee:
-11% Petrifying Drive
-38% Petrifying Dash
-40% Sorceress Strike
-11% Sorceress Shot
+19% Petrifying Meditation
+60% Nullifying Meditation
+21% Nullifying Shot
 
 
-Khadath: Lure Grasp
-Marmelee: Sorceress Strike
+Khadath: Lure Drive
+Marmelee: Nullifying Meditation
 
 Marmelee gets -3 priority
-Priorities:  4 | -1
+Priorities:  3 | 1
 Khadath is active
+Marmelee discards 2 Concentration Counters
+Marmelee gains Soak 2
+Khadath moves:
+
+M...K..
+t......
+
 Khadath hits
-Khadath moves Marmelee:
-
-.K..M..
-.....t.
-
-Khadath moves Marmelee:
-
-.K...M.
-.....t.
-
-Marmelee takes 1 damage (now at 14 life)
+Marmelee has 2 soak
+Marmelee takes 0 damage (now at 20 life)
 Marmelee misses
-Marmelee spends a Concentration token
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
+
+Beat 4
+-------
+
+Khadath
+-------
+life: 18
+discard 1: Lure Drive
+discard 2: Teleport Strike
+special action
+
+Marmelee
+--------
+life: 20
+discard 1: Nullifying Meditation
+discard 2: Sorceress Grasp
+special action
+2 Concentration counters
+
+
+M...K..
+t......
+
+Unbeatable strategy for Marmelee: Magnificent Dash: -0.96
+
+Khadath:
+100% Hunter's Shot
+
+Marmelee:
+100% Magnificent Dash
+
+
+Khadath: Hunter's Shot
+Marmelee: Magnificent Dash
+
+Marmelee gets -3 priority
+Priorities:  2 | 6
+Marmelee is active
+Marmelee discards 2 Concentration Counters
 Marmelee moves:
 
-.K....M
+....KM.
+t......
+
+Marmelee moves:
+
+..M.K..
+t......
+
+Khadath misses
+Marmelee gains 1 Concentration Counter
+
+Beat 5
+-------
+
+Khadath
+-------
+life: 18
+discard 1: Hunter's Shot
+discard 2: Lure Drive
+special action
+
+Marmelee
+--------
+life: 20
+discard 1: Magnificent Dash
+discard 2: Nullifying Meditation
+special action
+1 Concentration counters
+
+
+..M.K..
+t......
+
+Unbeatable strategy for Khadath: Teleport Dash: 0.84
+
+Khadath:
+28% Blight Strike
+37% Blight Burst
+35% Blight Grasp
+
+Marmelee:
+69% Sorceress Strike
+26% Sorceress Drive
+5% Barrier Shot
+
+
+Khadath: Blight Burst
+Marmelee: Sorceress Drive
+
+Priorities:  1 | 3
+Marmelee is active
+Khadath moves:
+
+..M..K.
+t......
+
+Khadath moves trap:
+
+..M..K.
+...t...
+
+Marmelee discards 1 Concentration Counter
+Marmelee gains +0~2 range
+Marmelee moves:
+
+...M.K.
+...t...
+
+Marmelee hits
+Khadath takes 3 damage (now at 15 life)
+Khadath is stunned
+Marmelee gains 1 Concentration Counter
+
+Beat 6
+-------
+
+Khadath
+-------
+life: 15
+discard 1: Blight Burst
+discard 2: Hunter's Shot
+special action
+
+Marmelee
+--------
+life: 20
+discard 1: Sorceress Drive
+discard 2: Magnificent Dash
+special action
+1 Concentration counters
+
+
+...M.K.
+...t...
+
+Khadath:
+5% Teleport Snare
+18% Evacuation Snare
+19% Lure Snare
+58% Lure Strike
+
+Marmelee:
+67% Barrier Strike
+3% Barrier Grasp
+22% Nullifying Meditation
+8% Nullifying Burst
+
+
+Khadath: Lure Snare
+Marmelee: Barrier Strike
+
+Marmelee gets -3 priority
+Priorities:  0 | 0
+Clash!
+
+Khadath:
+52% Lure Strike
+48% Lure Drive
+
+Marmelee:
+81% Barrier Meditation
+19% Barrier Grasp
+
+
+Khadath: Lure Drive
+Marmelee: Barrier Grasp
+
+Marmelee gets -3 priority
+Priorities:  3 | 2
+Khadath is active
+Khadath moves:
+
+..KM...
+...t...
+
+Khadath hits
+Marmelee takes 2 damage (now at 18 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
+
+Beat 7
+-------
+
+Khadath
+-------
+life: 15
+discard 1: Lure Drive
+discard 2: Blight Burst
+special action
+
+Marmelee
+--------
+life: 18
+discard 1: Barrier Grasp
+discard 2: Sorceress Drive
+special action
+1 Concentration counters
+
+
+..KM...
+...t...
+
+Unbeatable strategy for Marmelee: Petrifying Dash: -0.86
+Unbeatable strategy for Marmelee: Magnificent Dash: -0.59
+Unbeatable strategy for Marmelee: Nullifying Burst: -0.80
+
+Khadath:
+1% Hunter's Shot
+27% Teleport Strike
+26% Teleport Shot
+47% Teleport Grasp
+
+Marmelee:
+3% Petrifying Dash
+8% Nullifying Meditation
+89% Nullifying Burst
+
+
+Khadath: Teleport Grasp
+Marmelee: Nullifying Burst
+
+Marmelee gets -3 priority
+Priorities:  2 | -1
+Khadath is active
+Marmelee moves:
+
+..K.M..
+...t...
+
+Marmelee moves:
+
+..K..M.
+...t...
+
+Khadath misses
+Marmelee misses
+Khadath moves:
+
+....KM.
+...t...
+
+Khadath moves trap:
+
+....KM.
 .....t.
 
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
+
+Beat 8
+-------
+
+Khadath
+-------
+life: 15
+discard 1: Teleport Grasp
+discard 2: Lure Drive
+special action
+
+Marmelee
+--------
+life: 18
+discard 1: Nullifying Burst
+discard 2: Barrier Grasp
+special action
+2 Concentration counters
+
+
+....KM.
+.....t.
+
+Unbeatable strategy for Marmelee: Magnificent Dash: -2.17
+
+Khadath:
+18% Evacuation Burst
+50% Evacuation Dash
+17% Blight Strike
+15% Blight Burst
+
+Marmelee:
+5% Magnificent Drive
+67% Magnificent Dash
+12% Sorceress Meditation
+16% Sorceress Strike
+
+
+Khadath: Blight Burst
+Marmelee: Magnificent Dash
+
+Marmelee gets -3 priority
+Priorities:  1 | 6
+Marmelee is active
+Khadath moves trap:
+
+....KM.
+..t....
+
+Khadath moves:
+
+..K..M.
+..t....
+
+Marmelee moves:
+
+.MK....
+..t....
+
+Khadath misses
+Marmelee gains 1 Concentration Counter
 
 Beat 9
 -------
 
 Khadath
 -------
-life: 13
-discard 1: Lure Grasp
-discard 2: Teleport Strike
+life: 15
+discard 1: Blight Burst
+discard 2: Teleport Grasp
 special action
 
 Marmelee
 --------
-life: 14
-discard 1: Sorceress Strike
-discard 2: Nullifying Meditation
+life: 18
+discard 1: Magnificent Dash
+discard 2: Nullifying Burst
 special action
-3 Concentration tokens
+3 Concentration counters
 
 
-.K....M
-.....t.
+.MK....
+..t....
+
+Unbeatable strategy for Marmelee: Sorceress Strike: -0.58
 
 Khadath:
-63% Hunter's Snare
-7% Blight Snare
-30% Blight Shot
+28% Evacuation Snare
+72% Evacuation Strike
 
 Marmelee:
-2% Magnificent Shot
-92% Magnificent Dash
-7% Barrier Shot
+48% Sorceress Strike
+52% Barrier Strike
 
 
-Khadath: Hunter's Snare
-Marmelee: Magnificent Dash
+Khadath: Evacuation Strike
+Marmelee: Barrier Strike
 
 Marmelee gets -1 priority
-Priorities:  1 | 8
-Marmelee is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee moves:
+Priorities:  3 | 2
+Khadath is active
+Khadath moves trap:
 
-MK.....
-.....t.
+.MK....
+..t....
 
-Marmelee moves:
+Khadath moves:
 
-.KM....
-.....t.
+.M.K...
+..t....
 
-Khadath misses
-Marmelee gains 1 Concentration token
+Khadath hits
+Marmelee takes 4 damage (now at 14 life)
+Marmelee hits
+Khadath takes 3 damage (now at 12 life)
+Marmelee gains 1 Concentration Counter
 
 Beat 10
 -------
 
 Khadath
 -------
-life: 13
-discard 1: Hunter's Snare
-discard 2: Lure Grasp
+life: 12
+discard 1: Evacuation Strike
+discard 2: Blight Burst
 special action
 
 Marmelee
 --------
 life: 14
-discard 1: Magnificent Dash
-discard 2: Sorceress Strike
+discard 1: Barrier Strike
+discard 2: Magnificent Dash
 special action
-2 Concentration tokens
+4 Concentration counters
 
 
-.KM....
-.....t.
-
-Khadath:
-26% Teleport Shot
-25% Teleport Burst
-0% Evacuation Shot
-10% Blight Strike
-40% Blight Drive
-
-Marmelee:
-5% Petrifying Burst
-15% Barrier Grasp
-48% Nullifying Meditation
-9% Nullifying Shot
-23% Nullifying Burst
-
-
-Khadath: Blight Strike
-Marmelee: Nullifying Meditation
-
-Priorities:  3 | 4
-Marmelee is active
-Marmelee moves:
-
-.K.M...
-.....t.
-
-Khadath moves trap:
-
-.K.M...
+.M.K...
 ..t....
 
+Khadath:
+19% Teleport Snare
+31% Teleport Shot
+10% Teleport Drive
+35% Teleport Grasp
+5% Lure Grasp
+
+Marmelee:
+6% Petrifying Drive
+1% Petrifying Burst
+0% Sorceress Meditation
+12% Nullifying Meditation
+80% Special Pulse
+
+
+Khadath: Teleport Shot
+Marmelee: Special Pulse
+
+Pulse:
+
+.....MK
+..t....
+
+
+Beat 10
+-------
+
+Khadath
+-------
+life: 12
+discard 1: Teleport Shot
+discard 2: Evacuation Strike
+special action
+
+Marmelee
+--------
+life: 14
+discard 1: Barrier Strike
+discard 2: Magnificent Dash
+4 Concentration counters
+
+
+.....MK
+..t....
+
+Khadath:
+89% Blight Drive
+3% Blight Burst
+9% Blight Grasp
+
+Marmelee:
+90% Petrifying Shot
+2% Petrifying Drive
+8% Petrifying Grasp
+
+
+Khadath: Blight Drive
+Marmelee: Petrifying Shot
+
+Priorities:  4 | 1
+Khadath is active
+Khadath moves trap:
+
+.....MK
+....t..
+
+Marmelee discards 3 Concentration Counters
+Marmelee becomes the active player
 Marmelee hits
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Khadath gets -2 power
-Khadath takes 2 damage (now at 11 life)
-Khadath hits
-Marmelee takes 2 damage (now at 12 life)
-Marmelee is stunned
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
+Khadath takes 4 damage (now at 8 life)
+Khadath is stunned
+Marmelee gains 1 Concentration Counter
 
 Beat 11
 -------
 
 Khadath
 -------
-life: 11
-discard 1: Blight Strike
-discard 2: Hunter's Snare
+life: 8
+discard 1: Blight Drive
+discard 2: Teleport Shot
 special action
 
 Marmelee
 --------
-life: 12
-discard 1: Nullifying Meditation
-discard 2: Magnificent Dash
-special action
-2 Concentration tokens
+life: 14
+discard 1: Petrifying Shot
+discard 2: Barrier Strike
+2 Concentration counters
 
 
-.K.M...
-..t....
+.....MK
+....t..
 
 Khadath:
-37% Teleport Shot
-5% Teleport Burst
-36% Teleport Grasp
-22% Lure Grasp
+6% Evacuation Snare
+42% Evacuation Strike
+52% Lure Strike
 
 Marmelee:
-16% Petrifying Drive
-34% Sorceress Strike
-21% Sorceress Drive
-29% Barrier Drive
+59% Magnificent Meditation
+33% Nullifying Meditation
+8% Nullifying Burst
 
 
-Khadath: Teleport Shot
-Marmelee: Sorceress Strike
+Khadath: Lure Strike
+Marmelee: Magnificent Meditation
 
 Marmelee gets -1 priority
-Priorities:  -1 | 1
+Priorities:  2 | 2
+Clash!
+
+Khadath:
+98% Lure Burst
+2% Lure Grasp
+
+Marmelee:
+2% Magnificent Drive
+98% Magnificent Grasp
+
+
+Khadath: Lure Burst
+Marmelee: Magnificent Grasp
+
+Marmelee gets -1 priority
+Priorities:  0 | 4
 Marmelee is active
 Marmelee misses
-Khadath hits
-Marmelee takes 4 damage (now at 8 life)
-Khadath moves:
-
-...M.K.
-..t....
-
-Khadath moves trap:
-
-...M.K.
-...t...
-
-Marmelee gains 1 Concentration token
+Khadath misses
+Marmelee gains 1 Concentration Counter
 
 Beat 12
 -------
 
 Khadath
 -------
-life: 11
-discard 1: Teleport Shot
-discard 2: Blight Strike
+life: 8
+discard 1: Lure Burst
+discard 2: Blight Drive
 special action
 
 Marmelee
 --------
-life: 8
-discard 1: Sorceress Strike
-discard 2: Nullifying Meditation
-special action
-3 Concentration tokens
+life: 14
+discard 1: Magnificent Grasp
+discard 2: Petrifying Shot
+3 Concentration counters
 
 
-...M.K.
-...t...
-
-Unbeatable strategy for Marmelee: Petrifying Dash: -3.33
-Unbeatable strategy for Marmelee: Magnificent Dash: -3.25
-Unbeatable strategy for Marmelee: Barrier Dash: -3.16
+.....MK
+....t..
 
 Khadath:
-58% Hunter's Snare
-7% Evacuation Drive
-16% Evacuation Grasp
-17% Lure Drive
-2% Lure Burst
+29% Teleport Snare
+10% Teleport Strike
+4% Teleport Shot
+48% Teleport Dash
+10% Evacuation Snare
 
 Marmelee:
-13% Petrifying Drive
-12% Petrifying Burst
-32% Petrifying Dash
-43% Magnificent Dash
-1% Barrier Burst
+12% Sorceress Meditation
+25% Sorceress Strike
+33% Nullifying Strike
+15% Nullifying Burst
+14% Nullifying Dash
 
 
-Khadath: Hunter's Snare
-Marmelee: Magnificent Dash
+Khadath: Teleport Snare
+Marmelee: Nullifying Strike
 
-Marmelee gets -3 priority
-Priorities:  1 | 6
+Marmelee gets -1 priority
+Priorities:  -2 | 3
 Marmelee is active
 Marmelee moves:
 
-.....KM
-...t...
+....M.K
+....t..
 
-Khadath misses
-Marmelee gains 1 Concentration token
+Marmelee hits
+Khadath takes 4 damage (now at 4 life)
+Khadath hits
+Marmelee takes 4 damage (now at 10 life)
+Khadath moves:
+
+...KM..
+....t..
+
+Marmelee gains 1 Concentration Counter
 
 Beat 13
 -------
 
 Khadath
 -------
-life: 11
-discard 1: Hunter's Snare
-discard 2: Teleport Shot
+life: 4
+discard 1: Teleport Snare
+discard 2: Lure Burst
 special action
 
 Marmelee
 --------
-life: 8
-discard 1: Magnificent Dash
-discard 2: Sorceress Strike
-special action
-4 Concentration tokens
+life: 10
+discard 1: Nullifying Strike
+discard 2: Magnificent Grasp
+4 Concentration counters
 
 
-.....KM
-...t...
+...KM..
+....t..
+
+Unbeatable strategy for Marmelee: Petrifying Meditation: -0.35
+Unbeatable strategy for Marmelee: Petrifying Shot: -9.00
+Unbeatable strategy for Marmelee: Petrifying Burst: -9.00
+Unbeatable strategy for Marmelee: Sorceress Meditation: -0.25
 
 Khadath:
-49% Evacuation Strike
-19% Evacuation Burst
-9% Evacuation Grasp
-23% Blight Strike
+1% Blight Strike
+99% Special Pulse
+1% Special Dimensional Exile
 
 Marmelee:
-1% Petrifying Drive
-25% Barrier Meditation
-52% Barrier Shot
-23% Barrier Grasp
+79% Petrifying Shot
+14% Sorceress Shot
+7% Sorceress Burst
 
 
-Khadath: Evacuation Burst
-Marmelee: Barrier Grasp
+Khadath: Special Pulse
+Marmelee: Petrifying Shot
 
-Priorities:  1 | 5
+Pulse:
+
+...KM..
+....t..
+
+
+Beat 13
+-------
+
+Khadath
+-------
+life: 4
+discard 1: Teleport Snare
+discard 2: Lure Burst
+
+Marmelee
+--------
+life: 10
+discard 1: Petrifying Shot
+discard 2: Nullifying Strike
+4 Concentration counters
+
+
+...KM..
+....t..
+
+Unbeatable strategy for Marmelee: Magnificent Dash: -1.40
+Unbeatable strategy for Marmelee: Barrier Meditation: -0.44
+
+Khadath:
+7% Evacuation Shot
+35% Blight Drive
+58% Blight Grasp
+
+Marmelee:
+77% Magnificent Dash
+18% Sorceress Meditation
+4% Sorceress Dash
+
+
+Khadath: Blight Drive
+Marmelee: Magnificent Dash
+
+Marmelee gets -3 priority
+Priorities:  4 | 6
 Marmelee is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
 Khadath moves trap:
 
-.....KM
-.....t.
+...KM..
+..t....
+
+Marmelee discards 2 Concentration Counters
+Marmelee moves:
+
+..MK...
+..t....
+
+Marmelee moves:
+
+...KM..
+..t....
 
 Khadath moves:
 
-....K.M
-.....t.
+....MK.
+..t....
 
-Khadath moves:
-
-..K...M
-.....t.
-
-Marmelee misses
 Khadath misses
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 14
 -------
 
 Khadath
 -------
-life: 11
-discard 1: Evacuation Burst
-discard 2: Hunter's Snare
-special action
+life: 4
+discard 1: Blight Drive
+discard 2: Teleport Snare
 
 Marmelee
 --------
-life: 8
-discard 1: Barrier Grasp
-discard 2: Magnificent Dash
-special action
-1 Concentration tokens
+life: 10
+discard 1: Magnificent Dash
+discard 2: Petrifying Shot
+3 Concentration counters
 
 
-..K...M
-.....t.
+....MK.
+..t....
 
 Khadath:
-32% Teleport Shot
-9% Blight Drive
-59% Lure Drive
+10% Hunter's Dash
+45% Evacuation Shot
+31% Evacuation Grasp
+14% Lure Grasp
 
 Marmelee:
-2% Petrifying Shot
-55% Sorceress Strike
-43% Sorceress Drive
+6% Sorceress Meditation
+32% Sorceress Strike
+16% Barrier Strike
+46% Nullifying Burst
 
 
-Khadath: Lure Drive
-Marmelee: Sorceress Drive
+Khadath: Lure Grasp
+Marmelee: Nullifying Burst
 
-Marmelee gets -1 priority
-Priorities:  3 | 2
+Priorities:  4 | 2
 Khadath is active
-Khadath moves:
+Marmelee moves:
 
-....K.M
-.....t.
+...M.K.
+..t....
+
+Marmelee moves:
+
+..M..K.
+..t....
 
 Khadath hits
 Khadath moves Marmelee:
 
-....KM.
-.....t.
+...M.K.
+..t....
 
-Marmelee takes 2 damage (now at 6 life)
+Khadath moves Marmelee:
+
+..M..K.
+..t....
+
+Marmelee takes 1 damage (now at 9 life)
 Marmelee is stunned
-Marmelee loses all tokens
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 15
 -------
 
 Khadath
 -------
-life: 11
-discard 1: Lure Drive
-discard 2: Evacuation Burst
-special action
+life: 4
+discard 1: Lure Grasp
+discard 2: Blight Drive
 
 Marmelee
 --------
-life: 6
-discard 1: Sorceress Drive
-discard 2: Barrier Grasp
-special action
-1 Concentration tokens
+life: 9
+discard 1: Nullifying Burst
+discard 2: Magnificent Dash
+1 Concentration counters
 
 
-....KM.
-.....t.
+..M..K.
+..t....
 
-Unbeatable strategy for Khadath: Hunter's Strike: 11.00
-Unbeatable strategy for Khadath: Hunter's Shot: 11.00
-Unbeatable strategy for Khadath: Hunter's Dash: 11.00
-Unbeatable strategy for Khadath: Teleport Grasp: 11.00
-Unbeatable strategy for Khadath: Blight Strike: 11.00
-Unbeatable strategy for Khadath: Blight Shot: 11.00
-Unbeatable strategy for Khadath: Blight Dash: 11.00
-
-Khadath:
-100% Hunter's Snare
-
-Marmelee:
-100% Special Pulse
-
-
-Khadath: Hunter's Snare
-Marmelee: Special Pulse
-
-Pulse:
-
-M....K.
-.....t.
-
-
-Beat 15
--------
-
-Khadath
--------
-life: 11
-discard 1: Hunter's Snare
-discard 2: Lure Drive
-special action
-
-Marmelee
---------
-life: 6
-discard 1: Sorceress Drive
-discard 2: Barrier Grasp
-1 Concentration tokens
-
-
-M....K.
-.....t.
-
-Unbeatable strategy for Khadath: Teleport Shot: 11.00
-Unbeatable strategy for Khadath: Teleport Burst: 11.00
-Unbeatable strategy for Khadath: Teleport Dash: 11.00
-Unbeatable strategy for Khadath: Evacuation Grasp: 11.00
-Unbeatable strategy for Khadath: Blight Grasp: 11.00
+Unbeatable strategy for Marmelee: Petrifying Meditation: -9.00
+Unbeatable strategy for Marmelee: Petrifying Strike: -9.00
+Unbeatable strategy for Marmelee: Petrifying Shot: -9.00
+Unbeatable strategy for Marmelee: Petrifying Drive: -9.00
+Unbeatable strategy for Marmelee: Petrifying Grasp: -9.00
+Unbeatable strategy for Marmelee: Sorceress Meditation: -9.00
+Unbeatable strategy for Marmelee: Sorceress Strike: -9.00
+Unbeatable strategy for Marmelee: Sorceress Shot: -9.00
+Unbeatable strategy for Marmelee: Sorceress Drive: -9.00
+Unbeatable strategy for Marmelee: Sorceress Grasp: -9.00
+Unbeatable strategy for Marmelee: Barrier Meditation: -9.00
+Unbeatable strategy for Marmelee: Barrier Strike: -9.00
+Unbeatable strategy for Marmelee: Barrier Shot: -9.00
+Unbeatable strategy for Marmelee: Barrier Drive: -9.00
+Unbeatable strategy for Marmelee: Barrier Grasp: -9.00
 
 Khadath:
+7% Hunter's Snare
+7% Hunter's Strike
+7% Hunter's Shot
+7% Hunter's Burst
+7% Hunter's Dash
+7% Teleport Snare
 7% Teleport Strike
 7% Teleport Shot
 7% Teleport Burst
-7% Teleport Grasp
 7% Teleport Dash
+7% Evacuation Snare
 7% Evacuation Strike
 7% Evacuation Shot
 7% Evacuation Burst
-7% Evacuation Grasp
 7% Evacuation Dash
-7% Blight Strike
-7% Blight Shot
-7% Blight Burst
-7% Blight Grasp
-7% Blight Dash
 
 Marmelee:
-6% Petrifying Meditation
-6% Petrifying Strike
-6% Petrifying Shot
-7% Petrifying Burst
-7% Petrifying Dash
-6% Magnificent Meditation
-6% Magnificent Strike
-6% Magnificent Shot
-6% Magnificent Burst
-7% Magnificent Dash
-7% Nullifying Meditation
-7% Nullifying Strike
-6% Nullifying Shot
-6% Nullifying Burst
-8% Nullifying Dash
+7% Petrifying Meditation
+7% Petrifying Strike
+7% Petrifying Shot
+7% Petrifying Drive
+7% Petrifying Grasp
+7% Sorceress Meditation
+7% Sorceress Strike
+7% Sorceress Shot
+7% Sorceress Drive
+7% Sorceress Grasp
+7% Barrier Meditation
+7% Barrier Strike
+7% Barrier Shot
+7% Barrier Drive
+7% Barrier Grasp
 
 
-Khadath: Blight Strike
-Marmelee: Petrifying Burst
+Khadath: Evacuation Strike
+Marmelee: Petrifying Drive
 
+Marmelee gets -3 priority
 Priorities:  3 | 0
 Khadath is active
 Khadath moves trap:
 
-M....K.
-..t....
+..M..K.
+.....t.
+
+Khadath moves:
+
+..M...K
+.....t.
 
 Khadath misses
+Marmelee moves:
+
+...M..K
+.....t.
+
 Marmelee misses
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 Game goes to time
-KHADATH WINS!
-total_time: 21
+MARMELEE WINS!
+total_time: 27

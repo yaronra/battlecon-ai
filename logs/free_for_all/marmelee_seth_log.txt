@@ -15,7 +15,7 @@ life: 20
 discard 1: Petrifying Burst
 discard 2: Barrier Grasp
 special action
-2 Concentration tokens
+2 Concentration counters
 
 Seth
 ----
@@ -46,49 +46,19 @@ Seth:
 20% Compelling Drive (Drive)
 
 
-Marmelee: Sorceress Meditation
-Seth: Mimic's Shot (Strike)
+Marmelee: Nullifying Shot
+Seth: Compelling Shot (Meditation)
 
-Priorities:  2 | 2
-Clash!
-
-Marmelee:
-50% Sorceress Shot
-50% Sorceress Drive
-
-Seth:
-50% Mimic's Omen (Incorrect Guess)
-50% Mimic's Burst (Incorrect Guess)
-
-
-Marmelee: Sorceress Shot
-Seth: Mimic's Burst (Incorrect Guess)
-
-Priorities:  1 | 1
-Clash!
-
-Marmelee:
-100% Sorceress Drive
-
-Seth:
-100% Mimic's Omen (Incorrect Guess)
-
-
-Marmelee: Sorceress Drive
-Seth: Mimic's Omen (Incorrect Guess)
-
-Priorities:  3 | 1
+Priorities:  3 | 2
 Marmelee is active
-Marmelee spends a Concentration token
-Marmelee gains +0~2 range
 Marmelee moves:
 
-...M.S.
+M....S.
 
 Marmelee hits
 Seth takes 3 damage (now at 17 life)
 Seth is stunned
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 2
 -------
@@ -96,59 +66,41 @@ Beat 2
 Marmelee
 --------
 life: 20
-discard 1: Sorceress Drive
+discard 1: Nullifying Shot
 discard 2: Petrifying Burst
 special action
-2 Concentration tokens
+3 Concentration counters
 
 Seth
 ----
 life: 17
-discard 1: Mimic's Omen
+discard 1: Compelling Shot
 discard 2: Fool's Grasp
 special action
 
 
-...M..S
+M....S.
 
 Marmelee:
-11% Magnificent Meditation
-5% Magnificent Strike
-6% Magnificent Grasp
-21% Barrier Strike
-41% Barrier Dash
-8% Nullifying Meditation
-8% Nullifying Shot
+32% Sorceress Strike
+32% Sorceress Grasp
+36% Barrier Meditation
 
 Seth:
-17% Wyrding Dash (Dash)
-20% Compelling Shot (Meditation)
-15% Compelling Shot (Strike)
-5% Compelling Shot (Shot)
-6% Compelling Drive (Meditation)
-7% Compelling Drive (Strike)
-31% Compelling Drive (Grasp)
+52% Mimic's Omen (Meditation)
+13% Mimic's Omen (Strike)
+24% Mimic's Omen (Grasp)
+11% Wyrding Omen (Strike)
 
 
-Marmelee: Barrier Dash
-Seth: Compelling Shot (Strike)
+Marmelee: Sorceress Strike
+Seth: Mimic's Omen (Meditation)
 
-Priorities:  9 | 2
+Priorities:  2 | 1
 Marmelee is active
-Marmelee moves:
-
-M.....S
-
-Seth moves Marmelee:
-
-.M....S
-
+Marmelee misses
 Seth misses
-Seth moves Marmelee:
-
-..M...S
-
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 3
 -------
@@ -156,61 +108,51 @@ Beat 3
 Marmelee
 --------
 life: 20
-discard 1: Barrier Dash
-discard 2: Sorceress Drive
+discard 1: Sorceress Strike
+discard 2: Nullifying Shot
 special action
-3 Concentration tokens
+4 Concentration counters
 
 Seth
 ----
 life: 17
-discard 1: Compelling Shot
-discard 2: Mimic's Omen
+discard 1: Mimic's Omen
+discard 2: Compelling Shot
 special action
 
 
-..M...S
+M....S.
 
 Marmelee:
-51% Petrifying Burst
-13% Magnificent Burst
-13% Nullifying Meditation
-23% Nullifying Shot
+76% Petrifying Burst
+9% Petrifying Grasp
+15% Magnificent Burst
 
 Seth:
-1% Fool's Drive (Meditation)
-1% Fool's Drive (Strike)
-1% Fool's Drive (Shot)
-21% Fool's Drive (Burst)
-1% Fool's Drive (Grasp)
-28% Vanishing Drive (Strike)
-7% Vanishing Drive (Shot)
-7% Vanishing Drive (Burst)
-11% Vanishing Drive (Grasp)
-3% Wyrding Strike (Meditation)
-3% Wyrding Grasp (Meditation)
-3% Wyrding Grasp (Strike)
-3% Wyrding Grasp (Shot)
-3% Wyrding Grasp (Burst)
-6% Wyrding Grasp (Grasp)
+11% Fool's Drive (Meditation)
+11% Fool's Drive (Drive)
+29% Fool's Drive (Burst)
+11% Fool's Drive (Grasp)
+11% Fool's Drive (Dash)
+5% Wyrding Burst (Meditation)
+6% Wyrding Burst (Drive)
+6% Wyrding Burst (Burst)
+6% Wyrding Burst (Grasp)
+6% Wyrding Burst (Dash)
 
 
-Marmelee: Petrifying Burst
-Seth: Vanishing Drive (Strike)
+Marmelee: Petrifying Grasp
+Seth: Fool's Drive (Drive)
 
-Priorities:  0 | 4
-Seth is active
-Marmelee moves:
-
-M.....S
-
+Priorities:  4 | 0
+Marmelee is active
+Marmelee misses
 Seth moves:
 
-M...S..
+M..S...
 
 Seth misses
-Marmelee misses
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 4
 -------
@@ -218,48 +160,57 @@ Beat 4
 Marmelee
 --------
 life: 20
-discard 1: Petrifying Burst
-discard 2: Barrier Dash
+discard 1: Petrifying Grasp
+discard 2: Sorceress Strike
 special action
-4 Concentration tokens
+5 Concentration counters
 
 Seth
 ----
 life: 17
-discard 1: Vanishing Drive
-discard 2: Compelling Shot
+discard 1: Fool's Drive
+discard 2: Mimic's Omen
 special action
 
 
-M...S..
+M..S...
+
+Unbeatable strategy for Seth: Wyrding Shot (Drive): -0.68
 
 Marmelee:
-26% Sorceress Meditation
-20% Sorceress Strike
-20% Sorceress Grasp
-12% Nullifying Shot
-21% Nullifying Drive
+13% Magnificent Meditation
+2% Magnificent Shot
+7% Magnificent Drive
+22% Magnificent Dash
+24% Barrier Meditation
+20% Barrier Shot
+5% Barrier Burst
+7% Barrier Dash
 
 Seth:
-21% Mimic's Omen (Meditation)
-16% Mimic's Omen (Strike)
-38% Mimic's Omen (Shot)
-8% Mimic's Omen (Drive)
-16% Mimic's Omen (Grasp)
+8% Vanishing Shot (Drive)
+43% Vanishing Burst (Meditation)
+3% Wyrding Shot (Meditation)
+2% Wyrding Shot (Drive)
+5% Wyrding Dash (Dash)
+17% Compelling Shot (Meditation)
+15% Compelling Shot (Drive)
+8% Compelling Burst (Shot)
 
 
-Marmelee: Nullifying Drive
-Seth: Mimic's Omen (Grasp)
+Marmelee: Barrier Shot
+Seth: Vanishing Burst (Meditation)
 
-Priorities:  5 | 1
+Priorities:  2 | 1
 Marmelee is active
-Marmelee moves:
+Marmelee discards 4 Concentration Counters
+Seth moves:
 
-.M..S..
+M...S..
 
 Marmelee misses
 Seth misses
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 5
 -------
@@ -267,778 +218,765 @@ Beat 5
 Marmelee
 --------
 life: 20
-discard 1: Nullifying Drive
-discard 2: Petrifying Burst
+discard 1: Barrier Shot
+discard 2: Petrifying Grasp
 special action
-5 Concentration tokens
+2 Concentration counters
 
 Seth
 ----
 life: 17
-discard 1: Mimic's Omen
-discard 2: Vanishing Drive
+discard 1: Vanishing Burst
+discard 2: Fool's Drive
 special action
 
 
-.M...S.
+M...S..
 
-Unbeatable strategy for Seth: Wyrding Shot (Meditation): -0.54
-Unbeatable strategy for Seth: Wyrding Shot (Strike): -0.54
-Unbeatable strategy for Seth: Wyrding Shot (Shot): -0.54
-Unbeatable strategy for Seth: Wyrding Shot (Grasp): -0.54
-Unbeatable strategy for Seth: Wyrding Shot (Dash): -0.54
-Unbeatable strategy for Seth: Compelling Shot (Meditation): -1.70
-Unbeatable strategy for Seth: Compelling Shot (Strike): -1.26
-Unbeatable strategy for Seth: Compelling Shot (Shot): -1.26
-Unbeatable strategy for Seth: Compelling Shot (Grasp): -1.26
-Unbeatable strategy for Seth: Compelling Shot (Dash): -1.26
+Unbeatable strategy for Seth: Mimic's Shot (Meditation): -0.69
+Unbeatable strategy for Seth: Mimic's Shot (Strike): -0.69
+Unbeatable strategy for Seth: Mimic's Shot (Drive): -1.19
+Unbeatable strategy for Seth: Mimic's Shot (Burst): -0.69
+Unbeatable strategy for Seth: Mimic's Shot (Dash): -0.69
+Unbeatable strategy for Seth: Wyrding Shot (Drive): -0.94
 
 Marmelee:
-11% Magnificent Strike
-22% Magnificent Dash
-0% Sorceress Strike
-38% Barrier Meditation
-29% Barrier Shot
+1% Magnificent Strike
+13% Magnificent Drive
+55% Sorceress Meditation
+31% Sorceress Strike
 
 Seth:
-50% Wyrding Shot (Meditation)
-10% Wyrding Shot (Strike)
-5% Wyrding Dash (Dash)
-6% Compelling Shot (Meditation)
-30% Compelling Shot (Shot)
+29% Mimic's Shot (Meditation)
+21% Mimic's Shot (Strike)
+21% Wyrding Shot (Meditation)
+29% Wyrding Shot (Drive)
 
 
-Marmelee: Barrier Meditation
-Seth: Compelling Shot (Meditation)
+Marmelee: Magnificent Drive
+Seth: Wyrding Shot (Drive)
 
 Seth gets +2 power
 Seth gets +2 priority
-Priorities:  3 | 4
+Priorities:  4 | 5
 Seth is active
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Seth moves Marmelee:
-
-M....S.
-
-Seth misses
-Seth moves Marmelee:
-
-.M...S.
-
-Marmelee misses
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
+Seth hits
+Marmelee takes 5 damage (now at 15 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
 
 Beat 6
 -------
 
 Marmelee
 --------
-life: 20
-discard 1: Barrier Meditation
-discard 2: Nullifying Drive
+life: 15
+discard 1: Magnificent Drive
+discard 2: Barrier Shot
 special action
-3 Concentration tokens
+1 Concentration counters
 
 Seth
 ----
 life: 17
-discard 1: Compelling Shot
-discard 2: Mimic's Omen
+discard 1: Wyrding Shot
+discard 2: Vanishing Burst
 special action
 
 
-.M...S.
+M...S..
 
-Unbeatable strategy for Marmelee: Petrifying Dash: 0.39
-Unbeatable strategy for Marmelee: Sorceress Dash: 0.46
-
-Marmelee:
-4% Sorceress Shot
-96% Sorceress Burst
-
-Seth:
-29% Fool's Drive (Strike)
-29% Fool's Drive (Grasp)
-29% Fool's Drive (Dash)
-14% Vanishing Drive (Shot)
-
-
-Marmelee: Sorceress Burst
-Seth: Fool's Drive (Dash)
-
-Priorities:  0 | 0
-Clash!
+Unbeatable strategy for Seth: Compelling Drive (Strike): -1.62
 
 Marmelee:
-21% Sorceress Shot
-79% Sorceress Dash
+16% Petrifying Grasp
+56% Sorceress Strike
+28% Nullifying Meditation
 
 Seth:
-94% Fool's Grasp (Incorrect Guess)
-6% Fool's Dash (Incorrect Guess)
+23% Compelling Drive (Meditation)
+48% Compelling Drive (Strike)
+30% Compelling Drive (Grasp)
 
 
-Marmelee: Sorceress Dash
-Seth: Fool's Grasp (Incorrect Guess)
+Marmelee: Sorceress Strike
+Seth: Compelling Drive (Strike)
 
-Priorities:  8 | 1
-Marmelee is active
-Marmelee moves:
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  2 | 6
+Seth is active
+Seth moves Marmelee:
 
-M....S.
+.M..S..
 
-Seth misses
-Marmelee gains 1 Concentration token
+Seth moves:
+
+.MS....
+
+Seth hits
+Marmelee takes 5 damage (now at 10 life)
+Seth moves Marmelee:
+
+M.S....
+
+Marmelee discards 1 Concentration Counter
+Marmelee gains +0~2 range
+Marmelee hits
+Seth takes 4 damage (now at 13 life)
+Seth is stunned
+Marmelee gains 1 Concentration Counter
 
 Beat 7
 -------
 
 Marmelee
 --------
-life: 20
-discard 1: Sorceress Dash
-discard 2: Barrier Meditation
+life: 10
+discard 1: Sorceress Strike
+discard 2: Magnificent Drive
 special action
-4 Concentration tokens
+1 Concentration counters
 
 Seth
 ----
-life: 17
-discard 1: Fool's Grasp
-discard 2: Compelling Shot
+life: 13
+discard 1: Compelling Drive
+discard 2: Wyrding Shot
 special action
 
 
-M....S.
+M.S....
 
 Marmelee:
-25% Petrifying Strike
-25% Petrifying Burst
-25% Petrifying Grasp
-0% Magnificent Drive
-14% Nullifying Shot
-11% Nullifying Drive
+9% Petrifying Dash
+32% Barrier Meditation
+3% Barrier Burst
+14% Barrier Grasp
+22% Nullifying Shot
+20% Nullifying Burst
 
 Seth:
-17% Mimic's Omen (Strike)
-1% Vanishing Drive (Grasp)
-22% Wyrding Omen (Shot)
-5% Wyrding Omen (Burst)
-6% Wyrding Omen (Grasp)
-16% Wyrding Burst (Burst)
-34% Wyrding Burst (Grasp)
+31% Mimic's Burst (Shot)
+20% Mimic's Burst (Burst)
+22% Vanishing Strike (Meditation)
+9% Vanishing Strike (Shot)
+5% Vanishing Burst (Meditation)
+13% Vanishing Burst (Burst)
 
 
-Marmelee: Nullifying Shot
-Seth: Wyrding Omen (Shot)
+Marmelee: Petrifying Dash
+Seth: Vanishing Strike (Shot)
 
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  3 | 4
-Seth is active
-Marmelee is stunned
-Marmelee loses all tokens
+Priorities:  8 | 3
+Marmelee is active
+Seth moves:
+
+M..S...
+
+Marmelee moves:
+
+..MS...
+
 Seth misses
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 8
 -------
 
 Marmelee
 --------
-life: 20
-discard 1: Nullifying Shot
-discard 2: Sorceress Dash
+life: 10
+discard 1: Petrifying Dash
+discard 2: Sorceress Strike
 special action
-1 Concentration tokens
+2 Concentration counters
 
 Seth
 ----
-life: 17
-discard 1: Wyrding Omen
-discard 2: Fool's Grasp
+life: 13
+discard 1: Vanishing Strike
+discard 2: Compelling Drive
 special action
 
 
-M....S.
+..MS...
 
-Unbeatable strategy for Seth: Vanishing Shot (Meditation): -0.38
-Unbeatable strategy for Seth: Compelling Shot (Drive): -0.36
+Unbeatable strategy for Seth: Mimic's Shot (Drive): -0.52
+Unbeatable strategy for Seth: Mimic's Grasp (Meditation): -2.34
+Unbeatable strategy for Seth: Mimic's Grasp (Shot): -0.34
+Unbeatable strategy for Seth: Mimic's Grasp (Drive): -0.34
+Unbeatable strategy for Seth: Mimic's Grasp (Burst): -0.34
+Unbeatable strategy for Seth: Mimic's Grasp (Grasp): -0.34
 
 Marmelee:
-53% Petrifying Meditation
-35% Petrifying Strike
-12% Magnificent Drive
+35% Magnificent Meditation
+11% Magnificent Shot
+18% Magnificent Drive
+16% Barrier Meditation
+8% Barrier Shot
+13% Barrier Grasp
 
 Seth:
-49% Vanishing Shot (Strike)
-47% Compelling Shot (Meditation)
-3% Compelling Shot (Strike)
+5% Mimic's Omen (Meditation)
+29% Mimic's Shot (Meditation)
+2% Mimic's Shot (Shot)
+2% Mimic's Shot (Drive)
+29% Mimic's Grasp (Meditation)
+33% Mimic's Grasp (Grasp)
 
 
-Marmelee: Petrifying Strike
-Seth: Vanishing Shot (Strike)
+Marmelee: Magnificent Drive
+Seth: Mimic's Grasp (Meditation)
 
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  2 | 4
+Priorities:  4 | 5
 Seth is active
 Seth hits
-Marmelee takes 5 damage (now at 15 life)
-Marmelee misses
-Marmelee gains 1 Concentration token
+Seth moves Marmelee:
+
+.M.S...
+
+Marmelee takes 3 damage (now at 7 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
 
 Beat 9
 -------
 
 Marmelee
 --------
-life: 15
-discard 1: Petrifying Strike
-discard 2: Nullifying Shot
+life: 7
+discard 1: Magnificent Drive
+discard 2: Petrifying Dash
 special action
-2 Concentration tokens
+1 Concentration counters
 
 Seth
 ----
-life: 17
-discard 1: Vanishing Shot
-discard 2: Wyrding Omen
+life: 13
+discard 1: Mimic's Grasp
+discard 2: Vanishing Strike
 special action
 
 
-M....S.
+.M.S...
 
-Unbeatable strategy for Marmelee: Sorceress Meditation: 1.04
+Unbeatable strategy for Seth: Wyrding Shot (Strike): -0.66
 
 Marmelee:
-49% Magnificent Meditation
-51% Sorceress Meditation
+3% Barrier Burst
+10% Nullifying Meditation
+6% Nullifying Strike
+2% Nullifying Shot
+79% Special Astral Trance
 
 Seth:
-2% Compelling Strike (Drive)
-2% Compelling Strike (Burst)
-2% Compelling Strike (Grasp)
-2% Compelling Strike (Dash)
-3% Compelling Dash (Meditation)
-3% Compelling Dash (Drive)
-3% Compelling Dash (Burst)
-3% Compelling Dash (Grasp)
-81% Compelling Dash (Dash)
+2% Wyrding Dash (Meditation)
+16% Compelling Drive (Meditation)
+9% Compelling Burst (Meditation)
+44% Compelling Burst (Shot)
+30% Compelling Burst (Burst)
 
 
-Marmelee: Sorceress Meditation
-Seth: Compelling Dash (Dash)
+Marmelee: Nullifying Strike
+Seth: Compelling Burst (Burst)
 
-Priorities:  2 | 9
-Seth is active
-Seth moves Marmelee:
+Priorities:  4 | 1
+Marmelee is active
+Marmelee moves:
 
-.M...S.
-
-Seth moves Marmelee:
-
-..M..S.
+M..S...
 
 Seth moves:
 
-.SM....
+M...S..
 
 Marmelee misses
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
+Seth moves Marmelee:
+
+.M..S..
+
+Seth hits
+Marmelee takes 3 damage (now at 4 life)
+Seth moves Marmelee:
+
+M...S..
+
+Marmelee gains 1 Concentration Counter
 
 Beat 10
 -------
 
 Marmelee
 --------
-life: 15
-discard 1: Sorceress Meditation
-discard 2: Petrifying Strike
+life: 4
+discard 1: Nullifying Strike
+discard 2: Magnificent Drive
 special action
-4 Concentration tokens
+2 Concentration counters
 
 Seth
 ----
-life: 17
-discard 1: Compelling Dash
-discard 2: Vanishing Shot
+life: 13
+discard 1: Compelling Burst
+discard 2: Mimic's Grasp
 special action
 
 
-.SM....
+M...S..
+
+Unbeatable strategy for Seth: Vanishing Shot (Meditation): -0.67
+Unbeatable strategy for Seth: Wyrding Shot (Meditation): -1.19
 
 Marmelee:
-19% Barrier Shot
-25% Barrier Drive
+5% Petrifying Shot
+2% Sorceress Grasp
+12% Barrier Meditation
 2% Barrier Burst
-13% Barrier Grasp
-16% Barrier Dash
-7% Nullifying Burst
-19% Nullifying Dash
+13% Barrier Dash
+67% Special Astral Trance
 
 Seth:
-12% Mimic's Omen (Dash)
-23% Mimic's Strike (Grasp)
-6% Wyrding Drive (Drive)
-16% Wyrding Drive (Grasp)
-16% Wyrding Drive (Dash)
-14% Wyrding Grasp (Shot)
-13% Wyrding Grasp (Dash)
+19% Fool's Drive (Dash)
+31% Vanishing Drive (Meditation)
+32% Vanishing Drive (Grasp)
+12% Wyrding Omen (Meditation)
+3% Wyrding Shot (Dash)
+2% Wyrding Drive (Shot)
 
 
-Marmelee: Nullifying Burst
-Seth: Wyrding Drive (Dash)
+Marmelee: Special Astral Trance
+Seth: Wyrding Omen (Meditation)
 
-Priorities:  2 | 5
+Priorities:  0 | 2
 Seth is active
-Marmelee moves:
-
-.S.M...
-
-Marmelee moves:
-
-.S...M.
-
-Seth moves:
-
-...S.M.
-
 Seth misses
-Marmelee misses
-Marmelee gains 1 Concentration token
+Marmelee gains 3 Concentration Counters
 
 Beat 11
 -------
 
 Marmelee
 --------
-life: 15
-discard 1: Nullifying Burst
-discard 2: Sorceress Meditation
-special action
-5 Concentration tokens
+life: 4
+discard 1: Nullifying Strike
+discard 2: Magnificent Drive
+5 Concentration counters
 
 Seth
 ----
-life: 17
-discard 1: Wyrding Drive
-discard 2: Compelling Dash
+life: 13
+discard 1: Wyrding Omen
+discard 2: Compelling Burst
 special action
 
 
-...S.M.
+M...S..
+
+Unbeatable strategy for Seth: Vanishing Shot (Meditation): -0.99
+Unbeatable strategy for Seth: Vanishing Shot (Shot): -0.04
+Unbeatable strategy for Seth: Vanishing Shot (Burst): -0.04
+Unbeatable strategy for Seth: Vanishing Shot (Grasp): -0.04
+Unbeatable strategy for Seth: Vanishing Shot (Dash): -0.04
+Unbeatable strategy for Seth: Vanishing Drive (Meditation): -0.18
+Unbeatable strategy for Seth: Vanishing Drive (Shot): -0.18
+Unbeatable strategy for Seth: Vanishing Drive (Burst): -0.18
+Unbeatable strategy for Seth: Vanishing Drive (Grasp): -0.18
+Unbeatable strategy for Seth: Vanishing Drive (Dash): -0.18
 
 Marmelee:
-3% Petrifying Shot
-5% Magnificent Strike
-10% Magnificent Drive
-6% Magnificent Grasp
-18% Magnificent Dash
-17% Barrier Strike
-18% Barrier Shot
-10% Barrier Drive
-12% Barrier Dash
+50% Barrier Meditation
+42% Barrier Shot
+4% Barrier Burst
+5% Barrier Dash
 
 Seth:
-12% Mimic's Burst (Strike)
-10% Mimic's Burst (Shot)
-1% Vanishing Omen (Strike)
-8% Vanishing Omen (Shot)
-11% Vanishing Omen (Dash)
-12% Vanishing Strike (Drive)
-8% Vanishing Burst (Strike)
-14% Vanishing Burst (Shot)
-25% Vanishing Grasp (Grasp)
+15% Mimic's Shot (Shot)
+11% Vanishing Shot (Shot)
+74% Vanishing Drive (Meditation)
 
 
-Marmelee: Magnificent Drive
-Seth: Vanishing Burst (Strike)
+Marmelee: Barrier Shot
+Seth: Vanishing Drive (Meditation)
 
-Priorities:  4 | 1
-Marmelee is active
+Priorities:  2 | 4
+Seth is active
+Marmelee discards 4 Concentration Counters
 Seth moves:
 
-..S..M.
+M.S....
 
-Seth moves:
-
-S....M.
-
-Marmelee moves:
-
-S..M...
-
+Seth misses
 Marmelee hits
-Marmelee spends a Concentration token
-Marmelee spends a Concentration token
-Marmelee gets +2 power
-Seth takes 4 damage (now at 13 life)
+Seth takes 2 damage (now at 11 life)
 Seth is stunned
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 12
 -------
 
 Marmelee
 --------
-life: 15
-discard 1: Magnificent Drive
-discard 2: Nullifying Burst
-special action
-4 Concentration tokens
+life: 4
+discard 1: Barrier Shot
+discard 2: Nullifying Strike
+2 Concentration counters
 
 Seth
 ----
-life: 13
-discard 1: Vanishing Burst
-discard 2: Wyrding Drive
+life: 11
+discard 1: Vanishing Drive
+discard 2: Wyrding Omen
 special action
 
 
-S..M...
+M.S....
 
 Marmelee:
-37% Petrifying Shot
-41% Sorceress Meditation
-22% Sorceress Strike
+6% Magnificent Meditation
+11% Magnificent Drive
+14% Magnificent Grasp
+69% Magnificent Dash
 
 Seth:
-48% Fool's Omen (Shot)
-34% Mimic's Shot (Meditation)
-18% Mimic's Shot (Strike)
+28% Mimic's Shot (Drive)
+3% Mimic's Burst (Meditation)
+57% Compelling Burst (Meditation)
+13% Compelling Grasp (Grasp)
 
 
-Marmelee: Petrifying Shot
-Seth: Fool's Omen (Shot)
+Marmelee: Magnificent Dash
+Seth: Mimic's Shot (Drive)
 
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  1 | -1
+Priorities:  9 | 2
 Marmelee is active
-Marmelee is stunned
-Marmelee loses all tokens
+Marmelee moves:
+
+..SM...
+
+Marmelee discards 2 Concentration Counters
+Marmelee moves:
+
+M....S.
+
 Seth misses
-Marmelee gains 1 Concentration token
+Marmelee gains 1 Concentration Counter
 
 Beat 13
 -------
 
 Marmelee
 --------
-life: 15
-discard 1: Petrifying Shot
-discard 2: Magnificent Drive
-special action
-1 Concentration tokens
+life: 4
+discard 1: Magnificent Dash
+discard 2: Barrier Shot
+1 Concentration counters
 
 Seth
 ----
-life: 13
-discard 1: Fool's Omen
-discard 2: Vanishing Burst
+life: 11
+discard 1: Mimic's Shot
+discard 2: Vanishing Drive
 special action
 
 
-S..M...
-
-Unbeatable strategy for Seth: Mimic's Shot (Meditation): -1.68
-Unbeatable strategy for Seth: Mimic's Shot (Strike): -1.68
-Unbeatable strategy for Seth: Mimic's Shot (Burst): -1.68
-Unbeatable strategy for Seth: Mimic's Shot (Grasp): -1.80
-Unbeatable strategy for Seth: Mimic's Shot (Dash): -1.68
-Unbeatable strategy for Seth: Mimic's Drive (Strike): -1.62
+M....S.
 
 Marmelee:
-22% Sorceress Meditation
-22% Sorceress Strike
-19% Sorceress Grasp
-24% Nullifying Meditation
-13% Nullifying Burst
+49% Petrifying Meditation
+6% Petrifying Strike
+6% Petrifying Grasp
+17% Sorceress Drive
+15% Sorceress Burst
+6% Nullifying Meditation
 
 Seth:
-12% Mimic's Shot (Meditation)
-28% Mimic's Shot (Strike)
-22% Mimic's Drive (Meditation)
-10% Mimic's Drive (Strike)
-28% Mimic's Drive (Grasp)
+25% Fool's Omen (Meditation)
+22% Wyrding Omen (Burst)
+2% Wyrding Burst (Drive)
+2% Wyrding Burst (Burst)
+2% Wyrding Burst (Grasp)
+35% Compelling Omen (Meditation)
+9% Compelling Omen (Drive)
+3% Compelling Omen (Burst)
 
 
-Marmelee: Nullifying Burst
-Seth: Mimic's Shot (Strike)
+Marmelee: Petrifying Meditation
+Seth: Compelling Omen (Meditation)
 
-Priorities:  2 | 2
-Clash!
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  2 | 3
+Seth is active
+Marmelee is stunned
+Seth moves Marmelee:
 
-Marmelee:
-50% Nullifying Meditation
-50% Nullifying Strike
+.M...S.
 
-Seth:
-25% Mimic's Strike (Incorrect Guess)
-50% Mimic's Drive (Incorrect Guess)
-25% Mimic's Grasp (Incorrect Guess)
-
-
-Marmelee: Nullifying Strike
-Seth: Mimic's Drive (Incorrect Guess)
-
-Priorities:  4 | 4
-Clash!
-
-Marmelee:
-100% Nullifying Meditation
-
-Seth:
-50% Mimic's Strike (Incorrect Guess)
-50% Mimic's Grasp (Incorrect Guess)
-
-
-Marmelee: Nullifying Meditation
-Seth: Mimic's Strike (Incorrect Guess)
-
-Priorities:  4 | 3
-Marmelee is active
-Marmelee moves:
-
-S...M..
-
-Marmelee misses
 Seth misses
-Marmelee gains 1 Concentration token
-Marmelee gains 1 Concentration token
+Seth moves Marmelee:
+
+..M..S.
+
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
 
 Beat 14
 -------
 
 Marmelee
 --------
-life: 15
-discard 1: Nullifying Meditation
-discard 2: Petrifying Shot
-special action
-3 Concentration tokens
+life: 4
+discard 1: Petrifying Meditation
+discard 2: Magnificent Dash
+2 Concentration counters
 
 Seth
 ----
-life: 13
-discard 1: Mimic's Strike
-discard 2: Fool's Omen
+life: 11
+discard 1: Compelling Omen
+discard 2: Mimic's Shot
 special action
 
 
-.S..M..
+..M..S.
 
 Marmelee:
-16% Magnificent Drive
-15% Magnificent Grasp
-35% Sorceress Strike
-3% Sorceress Burst
-32% Sorceress Dash
+95% Sorceress Burst
+2% Barrier Drive
+3% Nullifying Shot
 
 Seth:
-14% Vanishing Shot (Strike)
-33% Vanishing Shot (Drive)
-2% Wyrding Drive (Grasp)
-21% Wyrding Dash (Dash)
-30% Compelling Burst (Strike)
+13% Fool's Drive (Strike)
+17% Fool's Drive (Shot)
+34% Fool's Drive (Drive)
+10% Fool's Drive (Grasp)
+15% Vanishing Drive (Shot)
+10% Vanishing Drive (Drive)
 
 
-Marmelee: Sorceress Strike
-Seth: Wyrding Dash (Dash)
+Marmelee: Sorceress Burst
+Seth: Vanishing Drive (Shot)
 
-Priorities:  2 | 10
+Priorities:  0 | 4
 Seth is active
-Seth moves:
-
-S...M..
-
-Marmelee misses
-Marmelee gains 1 Concentration token
-
-Beat 15
--------
-
-Marmelee
---------
-life: 15
-discard 1: Sorceress Strike
-discard 2: Nullifying Meditation
-special action
-4 Concentration tokens
-
-Seth
-----
-life: 13
-discard 1: Wyrding Dash
-discard 2: Mimic's Strike
-special action
-
-
-S...M..
-
-Unbeatable strategy for Marmelee: Petrifying Dash: 18.00
-Unbeatable strategy for Marmelee: Magnificent Dash: 18.00
-Unbeatable strategy for Marmelee: Barrier Dash: 18.00
-
-Marmelee:
-100% Petrifying Burst
-
-Seth:
-20% Special Pulse (Shot)
-20% Special Pulse (Drive)
-20% Special Pulse (Burst)
-20% Special Pulse (Grasp)
-20% Special Pulse (Dash)
-
-
-Marmelee: Petrifying Burst
-Seth: Special Pulse (Drive)
-
-Pulse:
-
-.M....S
-
-
-Beat 15
--------
-
-Marmelee
---------
-life: 15
-discard 1: Petrifying Burst
-discard 2: Sorceress Strike
-special action
-4 Concentration tokens
-
-Seth
-----
-life: 13
-discard 1: Wyrding Dash
-discard 2: Mimic's Strike
-
-
-.M....S
-
-Unbeatable strategy for Marmelee: Magnificent Meditation: 18.00
-Unbeatable strategy for Marmelee: Magnificent Dash: 18.00
-Unbeatable strategy for Marmelee: Barrier Meditation: 18.00
-Unbeatable strategy for Marmelee: Barrier Dash: 18.00
-Unbeatable strategy for Marmelee: Nullifying Shot: 18.00
-Unbeatable strategy for Marmelee: Nullifying Grasp: 18.00
-
-Marmelee:
-9% Magnificent Meditation
-9% Magnificent Grasp
-9% Magnificent Dash
-9% Barrier Meditation
-9% Barrier Shot
-9% Barrier Drive
-9% Barrier Grasp
-9% Barrier Dash
-9% Nullifying Meditation
-9% Nullifying Shot
-9% Nullifying Grasp
-
-Seth:
-1% Fool's Omen (Meditation)
-1% Fool's Omen (Shot)
-1% Fool's Omen (Drive)
-1% Fool's Omen (Grasp)
-1% Fool's Omen (Dash)
-1% Fool's Shot (Meditation)
-1% Fool's Shot (Shot)
-1% Fool's Shot (Drive)
-1% Fool's Shot (Grasp)
-1% Fool's Shot (Dash)
-1% Fool's Drive (Meditation)
-1% Fool's Drive (Shot)
-1% Fool's Drive (Drive)
-1% Fool's Drive (Grasp)
-1% Fool's Drive (Dash)
-1% Fool's Burst (Meditation)
-1% Fool's Burst (Shot)
-1% Fool's Burst (Drive)
-1% Fool's Burst (Grasp)
-1% Fool's Burst (Dash)
-1% Fool's Grasp (Meditation)
-1% Fool's Grasp (Shot)
-1% Fool's Grasp (Drive)
-1% Fool's Grasp (Grasp)
-1% Fool's Grasp (Dash)
-1% Vanishing Omen (Meditation)
-1% Vanishing Omen (Shot)
-1% Vanishing Omen (Drive)
-1% Vanishing Omen (Grasp)
-1% Vanishing Omen (Dash)
-1% Vanishing Shot (Meditation)
-1% Vanishing Shot (Shot)
-1% Vanishing Shot (Drive)
-1% Vanishing Shot (Grasp)
-1% Vanishing Shot (Dash)
-1% Vanishing Drive (Meditation)
-2% Vanishing Drive (Shot)
-2% Vanishing Drive (Drive)
-2% Vanishing Drive (Grasp)
-2% Vanishing Drive (Dash)
-2% Vanishing Burst (Meditation)
-2% Vanishing Burst (Shot)
-2% Vanishing Burst (Drive)
-2% Vanishing Burst (Grasp)
-2% Vanishing Burst (Dash)
-1% Vanishing Grasp (Meditation)
-1% Vanishing Grasp (Shot)
-1% Vanishing Grasp (Drive)
-1% Vanishing Grasp (Grasp)
-1% Vanishing Grasp (Dash)
-1% Compelling Omen (Meditation)
-1% Compelling Omen (Shot)
-1% Compelling Omen (Drive)
-1% Compelling Omen (Grasp)
-1% Compelling Omen (Dash)
-1% Compelling Shot (Meditation)
-1% Compelling Shot (Shot)
-1% Compelling Shot (Drive)
-1% Compelling Shot (Grasp)
-1% Compelling Shot (Dash)
-1% Compelling Drive (Meditation)
-1% Compelling Drive (Shot)
-2% Compelling Drive (Drive)
-1% Compelling Drive (Grasp)
-1% Compelling Drive (Dash)
-1% Compelling Burst (Meditation)
-1% Compelling Burst (Shot)
-1% Compelling Burst (Drive)
-1% Compelling Burst (Grasp)
-1% Compelling Burst (Dash)
-1% Compelling Grasp (Meditation)
-1% Compelling Grasp (Shot)
-1% Compelling Grasp (Drive)
-1% Compelling Grasp (Grasp)
-1% Compelling Grasp (Dash)
-
-
-Marmelee: Nullifying Grasp
-Seth: Fool's Drive (Shot)
-
-Priorities:  6 | 0
-Marmelee is active
 Marmelee moves:
 
-M.....S
+M....S.
 
-Marmelee misses
 Seth moves:
 
 M...S..
 
 Seth misses
-Marmelee gains 1 Concentration token
+Marmelee misses
+Marmelee gains 1 Concentration Counter
+
+Beat 15
+-------
+
+Marmelee
+--------
+life: 4
+discard 1: Sorceress Burst
+discard 2: Petrifying Meditation
+3 Concentration counters
+
+Seth
+----
+life: 11
+discard 1: Vanishing Drive
+discard 2: Compelling Omen
+special action
+
+
+M...S..
+
+Unbeatable strategy for Seth: Fool's Strike (Strike): -9.00
+Unbeatable strategy for Seth: Fool's Strike (Shot): -9.00
+Unbeatable strategy for Seth: Fool's Strike (Drive): -9.00
+Unbeatable strategy for Seth: Fool's Strike (Grasp): -9.00
+Unbeatable strategy for Seth: Fool's Strike (Dash): -9.00
+Unbeatable strategy for Seth: Fool's Shot (Strike): -9.00
+Unbeatable strategy for Seth: Fool's Shot (Shot): -9.00
+Unbeatable strategy for Seth: Fool's Shot (Drive): -9.00
+Unbeatable strategy for Seth: Fool's Shot (Grasp): -9.00
+Unbeatable strategy for Seth: Fool's Shot (Dash): -9.00
+Unbeatable strategy for Seth: Fool's Burst (Strike): -9.00
+Unbeatable strategy for Seth: Fool's Burst (Shot): -9.00
+Unbeatable strategy for Seth: Fool's Burst (Drive): -9.00
+Unbeatable strategy for Seth: Fool's Burst (Grasp): -9.00
+Unbeatable strategy for Seth: Fool's Burst (Dash): -9.00
+Unbeatable strategy for Seth: Fool's Grasp (Strike): -9.00
+Unbeatable strategy for Seth: Fool's Grasp (Shot): -9.00
+Unbeatable strategy for Seth: Fool's Grasp (Drive): -9.00
+Unbeatable strategy for Seth: Fool's Grasp (Grasp): -9.00
+Unbeatable strategy for Seth: Fool's Grasp (Dash): -9.00
+Unbeatable strategy for Seth: Fool's Dash (Strike): -9.00
+Unbeatable strategy for Seth: Fool's Dash (Shot): -9.00
+Unbeatable strategy for Seth: Fool's Dash (Drive): -9.00
+Unbeatable strategy for Seth: Fool's Dash (Grasp): -9.00
+Unbeatable strategy for Seth: Fool's Dash (Dash): -9.00
+Unbeatable strategy for Seth: Mimic's Strike (Strike): -9.00
+Unbeatable strategy for Seth: Mimic's Strike (Shot): -9.00
+Unbeatable strategy for Seth: Mimic's Strike (Drive): -9.00
+Unbeatable strategy for Seth: Mimic's Strike (Grasp): -9.00
+Unbeatable strategy for Seth: Mimic's Strike (Dash): -9.00
+Unbeatable strategy for Seth: Mimic's Shot (Strike): -9.00
+Unbeatable strategy for Seth: Mimic's Shot (Shot): -9.00
+Unbeatable strategy for Seth: Mimic's Shot (Drive): -9.00
+Unbeatable strategy for Seth: Mimic's Shot (Grasp): -9.00
+Unbeatable strategy for Seth: Mimic's Shot (Dash): -9.00
+Unbeatable strategy for Seth: Mimic's Burst (Strike): -9.00
+Unbeatable strategy for Seth: Mimic's Burst (Shot): -9.00
+Unbeatable strategy for Seth: Mimic's Burst (Drive): -9.00
+Unbeatable strategy for Seth: Mimic's Burst (Grasp): -9.00
+Unbeatable strategy for Seth: Mimic's Burst (Dash): -9.00
+Unbeatable strategy for Seth: Mimic's Grasp (Strike): -9.00
+Unbeatable strategy for Seth: Mimic's Grasp (Shot): -9.00
+Unbeatable strategy for Seth: Mimic's Grasp (Drive): -9.00
+Unbeatable strategy for Seth: Mimic's Grasp (Grasp): -9.00
+Unbeatable strategy for Seth: Mimic's Grasp (Dash): -9.00
+Unbeatable strategy for Seth: Mimic's Dash (Strike): -9.00
+Unbeatable strategy for Seth: Mimic's Dash (Shot): -9.00
+Unbeatable strategy for Seth: Mimic's Dash (Drive): -9.00
+Unbeatable strategy for Seth: Mimic's Dash (Grasp): -9.00
+Unbeatable strategy for Seth: Mimic's Dash (Dash): -9.00
+Unbeatable strategy for Seth: Wyrding Strike (Strike): -9.00
+Unbeatable strategy for Seth: Wyrding Strike (Shot): -9.00
+Unbeatable strategy for Seth: Wyrding Strike (Drive): -9.00
+Unbeatable strategy for Seth: Wyrding Strike (Grasp): -9.00
+Unbeatable strategy for Seth: Wyrding Strike (Dash): -9.00
+Unbeatable strategy for Seth: Wyrding Shot (Strike): -9.00
+Unbeatable strategy for Seth: Wyrding Shot (Shot): -9.00
+Unbeatable strategy for Seth: Wyrding Shot (Drive): -9.00
+Unbeatable strategy for Seth: Wyrding Shot (Grasp): -9.00
+Unbeatable strategy for Seth: Wyrding Shot (Dash): -9.00
+Unbeatable strategy for Seth: Wyrding Burst (Strike): -9.00
+Unbeatable strategy for Seth: Wyrding Burst (Shot): -9.00
+Unbeatable strategy for Seth: Wyrding Burst (Drive): -9.00
+Unbeatable strategy for Seth: Wyrding Burst (Grasp): -9.00
+Unbeatable strategy for Seth: Wyrding Burst (Dash): -9.00
+Unbeatable strategy for Seth: Wyrding Grasp (Strike): -9.00
+Unbeatable strategy for Seth: Wyrding Grasp (Shot): -9.00
+Unbeatable strategy for Seth: Wyrding Grasp (Drive): -9.00
+Unbeatable strategy for Seth: Wyrding Grasp (Grasp): -9.00
+Unbeatable strategy for Seth: Wyrding Grasp (Dash): -9.00
+Unbeatable strategy for Seth: Wyrding Dash (Strike): -9.00
+Unbeatable strategy for Seth: Wyrding Dash (Shot): -9.00
+Unbeatable strategy for Seth: Wyrding Dash (Drive): -9.00
+Unbeatable strategy for Seth: Wyrding Dash (Grasp): -9.00
+Unbeatable strategy for Seth: Wyrding Dash (Dash): -9.00
+
+Marmelee:
+6% Magnificent Strike
+29% Magnificent Shot
+3% Magnificent Drive
+5% Magnificent Grasp
+6% Magnificent Dash
+7% Barrier Strike
+7% Barrier Shot
+4% Barrier Drive
+6% Barrier Grasp
+4% Barrier Dash
+4% Nullifying Strike
+6% Nullifying Shot
+5% Nullifying Drive
+4% Nullifying Grasp
+4% Nullifying Dash
+
+Seth:
+1% Fool's Strike (Strike)
+1% Fool's Strike (Shot)
+1% Fool's Strike (Drive)
+1% Fool's Strike (Grasp)
+1% Fool's Strike (Dash)
+1% Fool's Shot (Strike)
+1% Fool's Shot (Shot)
+1% Fool's Shot (Drive)
+1% Fool's Shot (Grasp)
+1% Fool's Shot (Dash)
+1% Fool's Burst (Strike)
+1% Fool's Burst (Shot)
+1% Fool's Burst (Drive)
+1% Fool's Burst (Grasp)
+1% Fool's Burst (Dash)
+1% Fool's Grasp (Strike)
+1% Fool's Grasp (Shot)
+1% Fool's Grasp (Drive)
+1% Fool's Grasp (Grasp)
+1% Fool's Grasp (Dash)
+1% Fool's Dash (Strike)
+1% Fool's Dash (Shot)
+1% Fool's Dash (Drive)
+1% Fool's Dash (Grasp)
+1% Fool's Dash (Dash)
+1% Mimic's Strike (Strike)
+1% Mimic's Strike (Shot)
+1% Mimic's Strike (Drive)
+1% Mimic's Strike (Grasp)
+1% Mimic's Strike (Dash)
+1% Mimic's Shot (Strike)
+1% Mimic's Shot (Shot)
+1% Mimic's Shot (Drive)
+1% Mimic's Shot (Grasp)
+1% Mimic's Shot (Dash)
+1% Mimic's Burst (Strike)
+1% Mimic's Burst (Shot)
+1% Mimic's Burst (Drive)
+1% Mimic's Burst (Grasp)
+1% Mimic's Burst (Dash)
+1% Mimic's Grasp (Strike)
+1% Mimic's Grasp (Shot)
+1% Mimic's Grasp (Drive)
+1% Mimic's Grasp (Grasp)
+1% Mimic's Grasp (Dash)
+1% Mimic's Dash (Strike)
+1% Mimic's Dash (Shot)
+1% Mimic's Dash (Drive)
+1% Mimic's Dash (Grasp)
+1% Mimic's Dash (Dash)
+1% Wyrding Strike (Strike)
+1% Wyrding Strike (Shot)
+1% Wyrding Strike (Drive)
+1% Wyrding Strike (Grasp)
+1% Wyrding Strike (Dash)
+1% Wyrding Shot (Strike)
+1% Wyrding Shot (Shot)
+1% Wyrding Shot (Drive)
+1% Wyrding Shot (Grasp)
+1% Wyrding Shot (Dash)
+1% Wyrding Burst (Strike)
+1% Wyrding Burst (Shot)
+1% Wyrding Burst (Drive)
+1% Wyrding Burst (Grasp)
+1% Wyrding Burst (Dash)
+1% Wyrding Grasp (Strike)
+1% Wyrding Grasp (Shot)
+1% Wyrding Grasp (Drive)
+1% Wyrding Grasp (Grasp)
+1% Wyrding Grasp (Dash)
+1% Wyrding Dash (Strike)
+1% Wyrding Dash (Shot)
+1% Wyrding Dash (Drive)
+1% Wyrding Dash (Grasp)
+1% Wyrding Dash (Dash)
+
+
+Marmelee: Nullifying Drive
+Seth: Wyrding Shot (Dash)
+
+Priorities:  5 | 3
+Marmelee is active
+Marmelee moves:
+
+.M..S..
+
+Marmelee misses
+Seth hits
+Marmelee takes 3 damage (now at 1 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
 Game goes to time
-MARMELEE WINS!
-total_time: 45
+SETH WINS!
+total_time: 42

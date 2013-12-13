@@ -29,56 +29,47 @@ Trance: 0
 
 .L...M.
 
-Unbeatable strategy for Magdelina: Safety Blessing: -0.21
-Unbeatable strategy for Magdelina: Safety Strike: -0.24
+Unbeatable strategy for Magdelina: Safety Blessing: -1.01
+Unbeatable strategy for Magdelina: Safety Strike: -1.04
+Unbeatable strategy for Magdelina: Safety Shot: -0.56
 Unbeatable strategy for Magdelina: Safety Burst: -1.31
-Unbeatable strategy for Magdelina: Safety Dash: -1.87
-Unbeatable strategy for Magdelina: Priestess Burst: -1.31
-Unbeatable strategy for Magdelina: Priestess Dash: -1.38
-Unbeatable strategy for Magdelina: Excelsius Blessing: -0.03
-Unbeatable strategy for Magdelina: Excelsius Strike: -0.09
+Unbeatable strategy for Magdelina: Safety Dash: -1.07
+Unbeatable strategy for Magdelina: Priestess Shot: -0.47
+Unbeatable strategy for Magdelina: Priestess Burst: -1.11
+Unbeatable strategy for Magdelina: Priestess Dash: -0.58
+Unbeatable strategy for Magdelina: Excelsius Blessing: -0.83
+Unbeatable strategy for Magdelina: Excelsius Strike: -0.89
+Unbeatable strategy for Magdelina: Excelsius Shot: -0.61
 Unbeatable strategy for Magdelina: Excelsius Burst: -1.10
-Unbeatable strategy for Magdelina: Excelsius Dash: -2.19
+Unbeatable strategy for Magdelina: Excelsius Dash: -2.99
 
 Luc:
-59% Memento Drive
-20% Feinting Shot
-21% Chrono Shot
+31% Memento Drive
+28% Feinting Shot
+5% Feinting Shot (1 token)
+35% Special Pulse
 
 Magdelina:
-42% Safety Burst
-5% Excelsius Strike
-53% Excelsius Dash
+15% Safety Blessing
+15% Safety Burst
+3% Priestess Shot
+67% Excelsius Dash
 
 
 Luc: Memento Drive
-Magdelina: Safety Burst
+Magdelina: Excelsius Dash
 
-Priorities:  3 | 0
-Luc is active
+Priorities:  3 | 8
+Magdelina is active
 Magdelina moves:
 
-.L....M
+.L..M..
 
-Luc moves:
+Magdelina moves:
 
-...L..M
+ML.....
 
 Luc misses
-Luc spends a Time token
-Luc spends a Time token
-Luc attacks again
-Luc moves:
-
-.....LM
-
-Luc hits
-Magdelina takes 3 damage (now at 17 life)
-Magdelina is stunned
-Magdelina moves:
-
-..M..L.
-
 Luc gains 1 Time token
 Magdelina gains a Trance counter: has 1
 Magdelina discards all Trance counters
@@ -93,57 +84,66 @@ life: 20
 discard 1: Memento Drive
 discard 2: Eternal Flash
 special action
-1 Time tokens
+3 Time tokens
 
 Magdelina
 ---------
-life: 17
-discard 1: Safety Burst
+life: 20
+discard 1: Excelsius Dash
 discard 2: Spiritual Drive
 special action
 Level: 1
 Trance: 0
 
 
-..M..L.
+ML.....
 
-Unbeatable strategy for Magdelina: Priestess Shot: -1.91
-Unbeatable strategy for Magdelina: Priestess Dash: -1.73
-Unbeatable strategy for Magdelina: Sanctimonious Shot: -0.67
-Unbeatable strategy for Magdelina: Sanctimonious Dash: -1.54
-Unbeatable strategy for Magdelina: Excelsius Blessing: -1.88
-Unbeatable strategy for Magdelina: Excelsius Strike: -1.76
-Unbeatable strategy for Magdelina: Excelsius Shot: -1.10
-Unbeatable strategy for Magdelina: Excelsius Grasp: -0.22
-Unbeatable strategy for Magdelina: Excelsius Dash: -0.99
+Unbeatable strategy for Magdelina: Sanctimonious Blessing: -2.18
+Unbeatable strategy for Magdelina: Sanctimonious Strike: -0.01
 
 Luc:
-11% Fusion Shot
-6% Feinting Shot
-64% Feinting Dash
-19% Chrono Shot
+36% Fusion Strike
+53% Fusion Burst
+11% Chrono Strike
 
 Magdelina:
-14% Priestess Blessing
-55% Priestess Shot
-23% Priestess Dash
-8% Sanctimonious Blessing
+38% Priestess Shot
+59% Sanctimonious Blessing
+3% Sanctimonious Strike
+
+
+Luc: Fusion Burst
+Magdelina: Sanctimonious Blessing
+
+Magdelina gets a +1 bonus to power, priority and stungard
+Priorities:  2 | 2
+Clash!
+
+Luc:
+46% Fusion Strike
+54% Fusion Shot
+
+Magdelina:
+46% Sanctimonious Strike
+54% Sanctimonious Grasp
 
 
 Luc: Fusion Shot
-Magdelina: Priestess Shot
+Magdelina: Sanctimonious Grasp
 
 Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  3 | 2
-Luc is active
+Priorities:  3 | 4
+Magdelina is active
+Magdelina hits
+Magdelina moves Luc:
+
+M.L....
+
+Luc takes 2 damage (now at 18 life)
 Luc hits
-Magdelina takes 2 damage (now at 15 life)
-Luc moves Magdelina:
-
-M....L.
-
-Magdelina misses
-Magdelina gains 1 life (now at 16)
+Magdelina takes 2 damage (now at 18 life)
+Magdelina loses 2 life (now at 16)
+Magdelina is stunned
 Luc gains 1 Time token
 Magdelina gains a Trance counter: has 1
 
@@ -152,350 +152,380 @@ Beat 3
 
 Luc
 ---
-life: 20
+life: 18
 discard 1: Fusion Shot
 discard 2: Memento Drive
-special action
-2 Time tokens
-
-Magdelina
----------
-life: 16
-discard 1: Priestess Shot
-discard 2: Safety Burst
-special action
-Level: 1
-Trance: 1
-
-
-M....L.
-
-Unbeatable strategy for Luc: Feinting Strike: 0.34
-
-Luc:
-11% Feinting Flash
-89% Feinting Strike
-
-Magdelina:
-11% Excelsius Blessing
-89% Excelsius Drive
-
-
-Luc: Feinting Strike
-Magdelina: Excelsius Blessing
-
-Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  1 | 3
-Magdelina is active
-Magdelina moves:
-
-.M...L.
-
-Magdelina misses
-Luc misses
-Luc moves:
-
-.M.L...
-
-Luc gains 1 Time token
-Magdelina gains a Trance counter: has 2
-Magdelina discards all Trance counters
-Magdelina gains a Level: has 2
-
-Beat 4
--------
-
-Luc
----
-life: 20
-discard 1: Feinting Strike
-discard 2: Fusion Shot
-special action
-3 Time tokens
-
-Magdelina
----------
-life: 16
-discard 1: Excelsius Blessing
-discard 2: Priestess Shot
-special action
-Level: 2
-Trance: 0
-
-
-.M.L...
-
-Unbeatable strategy for Magdelina: Safety Dash: -0.89
-Unbeatable strategy for Magdelina: Spiritual Dash: -1.17
-Unbeatable strategy for Magdelina: Sanctimonious Strike: -0.72
-Unbeatable strategy for Magdelina: Sanctimonious Dash: -1.23
-
-Luc:
-51% Chrono Flash
-46% Chrono Drive
-2% Chrono Drive
-
-Magdelina:
-9% Sanctimonious Burst
-36% Sanctimonious Grasp
-55% Sanctimonious Dash
-
-
-Luc: Chrono Flash
-Magdelina: Sanctimonious Dash
-
-Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  7 | 9
-Magdelina is active
-Luc moves:
-
-.ML....
-
-Magdelina moves:
-
-..LM...
-
-Luc misses
-Luc gains 1 Time token
-Magdelina gains a Trance counter: has 1
-
-Beat 5
--------
-
-Luc
----
-life: 20
-discard 1: Chrono Flash
-discard 2: Feinting Strike
 special action
 4 Time tokens
 
 Magdelina
 ---------
 life: 16
-discard 1: Sanctimonious Dash
-discard 2: Excelsius Blessing
+discard 1: Sanctimonious Grasp
+discard 2: Excelsius Dash
 special action
-Level: 2
+Level: 1
 Trance: 1
 
 
-..LM...
-
-Unbeatable strategy for Magdelina: Priestess Shot: -1.63
-Unbeatable strategy for Magdelina: Priestess Drive: -2.50
+M.L....
 
 Luc:
-46% Memento Dash
-8% Fusion Drive
-46% Fusion Dash
+33% Eternal Burst
+14% Feinting Burst
+5% Chrono Strike
+47% Chrono Strike (1 token)
 
 Magdelina:
-80% Priestess Drive
-20% Priestess Grasp
+53% Priestess Blessing
+3% Priestess Shot
+34% Spiritual Blessing
+10% Spiritual Drive
 
 
-Luc: Memento Dash
-Magdelina: Priestess Drive
+Luc: Feinting Burst
+Magdelina: Spiritual Drive
 
-Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  8 | 5
-Luc is active
+Magdelina gets a +1 bonus to power, priority and stungard
+Priorities:  -1 | 5
+Magdelina is active
 Luc moves:
 
-...ML..
+M..L...
 
 Magdelina moves:
 
-....LM.
+.M.L...
 
-Magdelina misses
-Magdelina gains 1 life (now at 17)
+Magdelina hits
+Luc takes 5 damage (now at 13 life)
+Luc is stunned
+Luc moves:
+
+LM.....
+
 Luc gains 1 Time token
+Magdelina gains a Trance counter: has 1
+
+Beat 4
+-------
+
+Luc
+---
+life: 13
+discard 1: Feinting Burst
+discard 2: Fusion Shot
+special action
+5 Time tokens
+
+Magdelina
+---------
+life: 16
+discard 1: Spiritual Drive
+discard 2: Sanctimonious Grasp
+special action
+Level: 1
+Trance: 1
+
+
+LM.....
+
+Unbeatable strategy for Magdelina: Safety Blessing: -0.96
+Unbeatable strategy for Magdelina: Safety Burst: -0.12
+Unbeatable strategy for Magdelina: Safety Dash: -0.33
+Unbeatable strategy for Magdelina: Priestess Blessing: -0.00
+Unbeatable strategy for Magdelina: Priestess Strike: -0.43
+
+Luc:
+13% Eternal Strike
+6% Eternal Strike (1 token)
+3% Memento Strike
+78% Memento Drive (1 token)
+
+Magdelina:
+75% Safety Blessing
+25% Priestess Dash
+
+
+Luc: Memento Drive (1 token)
+Magdelina: Safety Blessing
+
+Luc antes a Time token
+Magdelina gets a +1 bonus to power, priority and stungard
+Priorities:  4 | 3
+Luc is active
+Luc moves:
+
+.ML....
+
+Luc hits
+Magdelina takes 3 damage (now at 13 life)
+Magdelina hits
+Magdelina gains 3 life (now at 16)
+Luc gains 3 life (now at 16)
 Magdelina gains a Trance counter: has 2
+Magdelina moves:
+
+..L..M.
+
+Luc gains 1 Time token
+Magdelina gains a Trance counter: has 3
+Magdelina discards all Trance counters
+Magdelina gains a Level: has 2
+
+Beat 5
+-------
+
+Luc
+---
+life: 16
+discard 1: Memento Drive
+discard 2: Feinting Burst
+special action
+5 Time tokens
+
+Magdelina
+---------
+life: 16
+discard 1: Safety Blessing
+discard 2: Spiritual Drive
+special action
+Level: 2
+Trance: 0
+
+
+..L..M.
+
+Unbeatable strategy for Magdelina: Priestess Dash: -0.32
+Unbeatable strategy for Magdelina: Excelsius Strike: -0.06
+Unbeatable strategy for Magdelina: Excelsius Shot: -0.05
+
+Luc:
+12% Eternal Shot
+3% Eternal Shot (3 tokens)
+17% Eternal Shot (5 tokens)
+30% Fusion Shot (1 token)
+29% Chrono Flash
+9% Chrono Shot
+
+Magdelina:
+4% Priestess Shot
+23% Priestess Burst
+20% Priestess Dash
+1% Excelsius Strike
+26% Excelsius Shot
+26% Excelsius Grasp
+
+
+Luc: Fusion Shot (1 token)
+Magdelina: Excelsius Shot
+
+Luc antes a Time token
+Magdelina gets a +2 bonus to power, priority and stungard
+Priorities:  4 | 3
+Luc is active
+Luc hits
+Magdelina takes 2 damage (now at 14 life)
+Magdelina loses 2 life (now at 12)
+Magdelina moves:
+
+..L...M
+
+Magdelina hits
+Magdelina moves Luc:
+
+.L....M
+
+Luc takes 4 damage (now at 12 life)
+Luc is stunned
+Luc gains 1 Time token
+Magdelina gains a Trance counter: has 1
 
 Beat 6
 -------
 
 Luc
 ---
-life: 20
-discard 1: Memento Dash
-discard 2: Chrono Flash
+life: 12
+discard 1: Fusion Shot
+discard 2: Memento Drive
 special action
 5 Time tokens
 
 Magdelina
 ---------
-life: 17
-discard 1: Priestess Drive
-discard 2: Sanctimonious Dash
+life: 12
+discard 1: Excelsius Shot
+discard 2: Safety Blessing
 special action
 Level: 2
-Trance: 2
+Trance: 1
 
 
-....LM.
+.L....M
 
-Unbeatable strategy for Magdelina: Excelsius Blessing: -0.22
-Unbeatable strategy for Magdelina: Excelsius Grasp: -0.61
+Unbeatable strategy for Magdelina: Priestess Dash: -0.67
 
 Luc:
-1% Fusion Strike
-24% Fusion Shot
-75% Fusion Grasp
+11% Feinting Burst (3 tokens)
+31% Chrono Flash
+21% Chrono Burst
+37% Chrono Dash
 
 Magdelina:
-10% Safety Burst
-56% Spiritual Blessing
-35% Excelsius Grasp
+24% Priestess Drive
+3% Priestess Burst
+64% Priestess Dash
+4% Sanctimonious Strike
+5% Sanctimonious Grasp
 
 
-Luc: Fusion Grasp
-Magdelina: Excelsius Grasp
+Luc: Chrono Burst
+Magdelina: Priestess Dash
 
-Luc antes a Time token
 Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  7 | 6
-Luc is active
-Luc hits
-Luc moves Magdelina:
+Priorities:  2 | 10
+Magdelina is active
+Luc spends a Time token
+Luc spends a Time token
+Luc moves:
 
-....L.M
+...L..M
 
-Magdelina takes 1 damage (now at 16 life)
-Magdelina loses 2 life (now at 14)
+Luc moves:
+
+..L...M
+
+Magdelina gains 1 life (now at 13)
 Magdelina moves:
 
-....LM.
+..LM...
 
-Magdelina hits
-Magdelina moves Luc:
-
-..L..M.
-
-Magdelina moves Luc:
-
-.L...M.
-
-Luc takes 3 damage (now at 17 life)
-Luc is stunned
+Luc misses
 Luc gains 1 Time token
-Magdelina gains a Trance counter: has 3
-Magdelina discards all Trance counters
-Magdelina gains a Level: has 3
+Magdelina gains a Trance counter: has 2
 
 Beat 7
 -------
 
 Luc
 ---
-life: 17
-discard 1: Fusion Grasp
-discard 2: Memento Dash
+life: 12
+discard 1: Chrono Burst
+discard 2: Fusion Shot
 special action
-5 Time tokens
+4 Time tokens
 
 Magdelina
 ---------
-life: 14
-discard 1: Excelsius Grasp
-discard 2: Priestess Drive
+life: 13
+discard 1: Priestess Dash
+discard 2: Excelsius Shot
 special action
-Level: 3
-Trance: 0
+Level: 2
+Trance: 2
 
 
-.L...M.
+..LM...
 
-Unbeatable strategy for Magdelina: Spiritual Dash: -0.12
+Unbeatable strategy for Magdelina: Safety Blessing: -0.01
+Unbeatable strategy for Magdelina: Safety Drive: -0.47
 
 Luc:
-18% Eternal Burst
-1% Eternal Burst
-0% Feinting Drive
-16% Feinting Drive
-13% Chrono Strike
-53% Chrono Drive
+32% Eternal Strike
+58% Eternal Drive
+7% Memento Strike
+3% Feinting Strike (3 tokens)
 
 Magdelina:
-25% Safety Strike
-1% Safety Shot
-37% Spiritual Dash
-37% Sanctimonious Strike
+51% Safety Blessing
+21% Safety Drive
+8% Safety Burst
+20% Safety Grasp
 
 
-Luc: Feinting Drive
-Magdelina: Sanctimonious Strike
+Luc: Eternal Strike
+Magdelina: Safety Blessing
 
-Luc antes a Time token
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  3 | 4
+Magdelina gets a +2 bonus to power, priority and stungard
+Priorities:  -1 | 4
 Magdelina is active
 Magdelina hits
-Luc takes 6 damage (now at 11 life)
-Luc is stunned
-Luc moves:
+Magdelina gains 3 life (now at 16)
+Luc gains 3 life (now at 15)
+Magdelina gains a Trance counter: has 3
+Luc hits
+Magdelina takes 4 damage (now at 12 life)
+Magdelina moves:
 
-...L.M.
+..L...M
 
 Luc gains 1 Time token
-Magdelina gains a Trance counter: has 1
+Magdelina gains a Trance counter: has 4
+Magdelina discards all Trance counters
+Magdelina gains a Level: has 3
 
 Beat 8
 -------
 
 Luc
 ---
-life: 11
-discard 1: Feinting Drive
-discard 2: Fusion Grasp
+life: 15
+discard 1: Eternal Strike
+discard 2: Chrono Burst
 special action
 5 Time tokens
 
 Magdelina
 ---------
-life: 14
-discard 1: Sanctimonious Strike
-discard 2: Excelsius Grasp
+life: 12
+discard 1: Safety Blessing
+discard 2: Priestess Dash
 special action
 Level: 3
-Trance: 1
+Trance: 0
 
 
-...L.M.
+..L...M
 
-Unbeatable strategy for Magdelina: Safety Dash: -0.40
-Unbeatable strategy for Magdelina: Priestess Burst: -0.29
-Unbeatable strategy for Magdelina: Priestess Dash: -0.29
+Unbeatable strategy for Magdelina: Sanctimonious Strike: -0.00
+Unbeatable strategy for Magdelina: Sanctimonious Drive: -0.54
+Unbeatable strategy for Magdelina: Sanctimonious Grasp: -0.19
+Unbeatable strategy for Magdelina: Excelsius Drive: -1.00
 
 Luc:
-22% Eternal Burst
-11% Chrono Flash
-55% Chrono Shot
-11% Chrono Burst
+68% Fusion Flash (3 tokens)
+2% Fusion Shot (5 tokens)
+5% Fusion Drive (3 tokens)
+25% Feinting Shot (5 tokens)
 
 Magdelina:
-35% Priestess Shot
-12% Priestess Drive
-46% Priestess Burst
-7% Spiritual Drive
+24% Sanctimonious Strike
+19% Sanctimonious Shot
+42% Excelsius Drive
+15% Excelsius Grasp
 
 
-Luc: Chrono Shot
-Magdelina: Spiritual Drive
+Luc: Fusion Flash (3 tokens)
+Magdelina: Excelsius Drive
 
 Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
 Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  4 | 5
-Magdelina is active
-Magdelina moves:
+Priorities:  7 | 6
+Luc is active
+Luc moves:
 
-..ML...
+...L..M
 
-Magdelina hits
-Luc takes 5 damage (now at 6 life)
-Luc is stunned
+Luc moves:
+
+.....LM
+
+Luc hits
+Magdelina takes 0 damage (now at 12 life)
+Magdelina is stunned
 Luc gains 1 Time token
 Magdelina gains a Trance counter: has 1
 
@@ -504,65 +534,61 @@ Beat 9
 
 Luc
 ---
-life: 6
-discard 1: Chrono Shot
-discard 2: Feinting Drive
+life: 15
+discard 1: Fusion Flash
+discard 2: Eternal Strike
 special action
-5 Time tokens
+3 Time tokens
 
 Magdelina
 ---------
-life: 14
-discard 1: Spiritual Drive
-discard 2: Sanctimonious Strike
+life: 12
+discard 1: Excelsius Drive
+discard 2: Safety Blessing
 special action
 Level: 3
 Trance: 1
 
 
-..ML...
+.....LM
 
-Unbeatable strategy for Magdelina: Safety Burst: -0.29
-Unbeatable strategy for Magdelina: Safety Dash: -0.91
-Unbeatable strategy for Magdelina: Priestess Burst: -0.19
-Unbeatable strategy for Magdelina: Priestess Dash: -1.27
-Unbeatable strategy for Magdelina: Excelsius Blessing: -0.11
-Unbeatable strategy for Magdelina: Excelsius Burst: -1.94
-Unbeatable strategy for Magdelina: Excelsius Grasp: -1.04
-Unbeatable strategy for Magdelina: Excelsius Dash: -1.09
+Unbeatable strategy for Magdelina: Priestess Shot: -1.15
+Unbeatable strategy for Magdelina: Priestess Dash: -1.23
+Unbeatable strategy for Magdelina: Spiritual Strike: -0.04
+Unbeatable strategy for Magdelina: Sanctimonious Strike: -0.72
+Unbeatable strategy for Magdelina: Sanctimonious Shot: -0.05
+Unbeatable strategy for Magdelina: Sanctimonious Grasp: -1.30
+Unbeatable strategy for Magdelina: Sanctimonious Dash: -0.31
 
 Luc:
-6% Eternal Burst
-1% Memento Burst
-28% Memento Dash
-32% Memento Dash
-4% Fusion Flash
-28% Fusion Dash
-2% Special Temporal Recursion
+13% Memento Burst
+47% Chrono Drive
+0% Chrono Drive (1 token)
+40% Chrono Grasp (1 token)
 
 Magdelina:
-11% Priestess Shot
-11% Priestess Burst
-25% Priestess Grasp
-34% Priestess Dash
-19% Excelsius Grasp
+1% Priestess Strike
+55% Priestess Shot
+28% Priestess Grasp
+16% Sanctimonious Grasp
 
 
-Luc: Fusion Dash
-Magdelina: Priestess Dash
+Luc: Chrono Drive
+Magdelina: Priestess Grasp
 
 Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  10 | 11
+Priorities:  5 | 7
 Magdelina is active
-Magdelina gains 1 life (now at 15)
-Magdelina moves:
+Magdelina hits
+Luc gets -2 power
+Magdelina moves Luc:
 
-.M.L...
+....L.M
 
-Luc moves:
-
-.ML....
-
+Luc takes 4 damage (now at 11 life)
+Luc is stunned
+Magdelina gains 1 life (now at 13)
+Luc gains 1 Time token
 Magdelina gains a Trance counter: has 2
 
 Beat 10
@@ -570,64 +596,44 @@ Beat 10
 
 Luc
 ---
-life: 6
-discard 1: Fusion Dash
-discard 2: Chrono Shot
+life: 11
+discard 1: Chrono Drive
+discard 2: Fusion Flash
 special action
-5 Time tokens
+4 Time tokens
 
 Magdelina
 ---------
-life: 15
-discard 1: Priestess Dash
-discard 2: Spiritual Drive
+life: 13
+discard 1: Priestess Grasp
+discard 2: Excelsius Drive
 special action
 Level: 3
 Trance: 2
 
 
-.ML....
-
-Unbeatable strategy for Magdelina: Sanctimonious Grasp: -0.19
-Unbeatable strategy for Magdelina: Excelsius Shot: -0.13
-Unbeatable strategy for Magdelina: Excelsius Grasp: -1.41
+....L.M
 
 Luc:
-77% Eternal Flash
-3% Eternal Burst
-18% Memento Flash
-0% Feinting Burst
-0% Feinting Burst
-1% Special Temporal Recursion
+88% Eternal Shot
+12% Eternal Burst
 
 Magdelina:
-13% Safety Blessing
-1% Sanctimonious Strike
-7% Sanctimonious Grasp
-17% Excelsius Blessing
-61% Excelsius Grasp
+80% Safety Dash
+20% Sanctimonious Strike
 
 
-Luc: Eternal Flash
-Magdelina: Sanctimonious Grasp
+Luc: Eternal Shot
+Magdelina: Safety Dash
 
 Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  2 | 6
+Priorities:  -2 | 11
 Magdelina is active
-Luc moves:
+Magdelina moves:
 
-LM.....
+..M.L..
 
-Magdelina hits
-Magdelina moves Luc:
-
-.ML....
-
-Luc spends a Time token
-Luc gains +1 soak (2 total)
-Luc has 2 soak
-Luc takes 2 damage (now at 4 life)
-Luc is stunned
+Luc misses
 Luc gains 1 Time token
 Magdelina gains a Trance counter: has 3
 
@@ -636,114 +642,339 @@ Beat 11
 
 Luc
 ---
-life: 4
-discard 1: Eternal Flash
-discard 2: Fusion Dash
+life: 11
+discard 1: Eternal Shot
+discard 2: Chrono Drive
 special action
 5 Time tokens
 
 Magdelina
 ---------
-life: 15
-discard 1: Sanctimonious Grasp
-discard 2: Priestess Dash
+life: 13
+discard 1: Safety Dash
+discard 2: Priestess Grasp
 special action
 Level: 3
 Trance: 3
 
 
-.ML....
+..M.L..
 
-Unbeatable strategy for Magdelina: Safety Shot: -9.00
-Unbeatable strategy for Magdelina: Safety Drive: -1.21
-Unbeatable strategy for Magdelina: Spiritual Strike: -9.00
-Unbeatable strategy for Magdelina: Excelsius Strike: -9.00
-Unbeatable strategy for Magdelina: Excelsius Shot: -9.00
-Unbeatable strategy for Magdelina: Excelsius Drive: -1.21
+Unbeatable strategy for Magdelina: Excelsius Burst: -0.83
 
 Luc:
-1% Feinting Burst
-1% Feinting Burst
-4% Chrono Grasp
-92% Special Pulse
-1% Special Temporal Recursion
-2% Special Temporal Recursion
+1% Memento Flash
+2% Memento Flash (1 token)
+55% Feinting Dash
+42% Feinting Dash (1 token)
 
 Magdelina:
-39% Safety Strike
-37% Safety Shot
-8% Safety Drive
-16% Spiritual Strike
+67% Excelsius Shot
+9% Excelsius Drive
+24% Excelsius Burst
 
 
-Luc: Special Pulse
-Magdelina: Safety Strike
+Luc: Feinting Dash
+Magdelina: Excelsius Shot
 
 Magdelina gets a +3 bonus to power, priority and stungard
-Pulse:
+Priorities:  7 | 4
+Luc is active
+Luc moves:
 
-L....M.
+L.M....
 
+Magdelina moves:
 
-Beat 11
+LM.....
+
+Magdelina misses
+Luc moves:
+
+.ML....
+
+Magdelina gains a Trance counter: has 4
+Magdelina discards all Trance counters
+Magdelina gains a Level: has 4
+
+Beat 12
 -------
 
 Luc
 ---
-life: 4
-discard 1: Eternal Flash
-discard 2: Fusion Dash
+life: 11
+discard 1: Feinting Dash
+discard 2: Eternal Shot
+special action
 5 Time tokens
 
 Magdelina
 ---------
-life: 15
-discard 1: Safety Strike
-discard 2: Sanctimonious Grasp
+life: 13
+discard 1: Excelsius Shot
+discard 2: Safety Dash
 special action
-Level: 3
-Trance: 3
+Level: 4
+Trance: 0
 
 
-L....M.
-
-Unbeatable strategy for Magdelina: Priestess Burst: -0.44
-Unbeatable strategy for Magdelina: Priestess Dash: -1.37
-Unbeatable strategy for Magdelina: Spiritual Drive: -0.94
-Unbeatable strategy for Magdelina: Spiritual Burst: -0.83
-Unbeatable strategy for Magdelina: Spiritual Dash: -0.36
-Unbeatable strategy for Magdelina: Excelsius Blessing: -1.02
-Unbeatable strategy for Magdelina: Excelsius Shot: -9.00
-Unbeatable strategy for Magdelina: Excelsius Drive: -9.00
-Unbeatable strategy for Magdelina: Excelsius Dash: -0.58
+.ML....
 
 Luc:
-50% Chrono Shot
-0% Chrono Drive
-50% Chrono Grasp
+25% Memento Strike (3 tokens)
+30% Fusion Strike (5 tokens)
+1% Fusion Drive (1 token)
+3% Fusion Burst (5 tokens)
+41% Chrono Flash (1 token)
 
 Magdelina:
-2% Spiritual Drive
-50% Excelsius Shot
-48% Excelsius Drive
+12% Priestess Strike
+43% Priestess Drive
+24% Priestess Burst
+8% Priestess Grasp
+13% Sanctimonious Burst
 
 
-Luc: Chrono Shot
-Magdelina: Excelsius Drive
+Luc: Chrono Flash (1 token)
+Magdelina: Priestess Burst
 
 Luc antes a Time token
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  4 | 6
+Magdelina gets a +4 bonus to power, priority and stungard
+Priorities:  8 | 4
+Luc is active
+Luc moves:
+
+LM.....
+
+Magdelina moves:
+
+L..M...
+
+Luc misses
+Magdelina hits
+Luc gets -2 power
+Luc takes 6 damage (now at 5 life)
+Luc is stunned
+Magdelina gains 1 life (now at 14)
+Luc gains 1 Time token
+Magdelina gains a Trance counter: has 1
+
+Beat 13
+-------
+
+Luc
+---
+life: 5
+discard 1: Chrono Flash
+discard 2: Feinting Dash
+special action
+5 Time tokens
+
+Magdelina
+---------
+life: 14
+discard 1: Priestess Burst
+discard 2: Excelsius Shot
+special action
+Level: 4
+Trance: 1
+
+
+L..M...
+
+Luc:
+2% Eternal Shot (3 tokens)
+52% Eternal Drive
+39% Eternal Drive (3 tokens)
+7% Special Temporal Recursion
+
+Magdelina:
+1% Safety Drive
+77% Safety Dash
+13% Sanctimonious Strike
+9% Sanctimonious Drive
+
+
+Luc: Eternal Drive
+Magdelina: Safety Dash
+
+Magdelina gets a +4 bonus to power, priority and stungard
+Priorities:  0 | 12
 Magdelina is active
 Magdelina moves:
 
-L...M..
+L.....M
+
+Luc moves:
+
+..L...M
+
+Luc misses
+Magdelina gains a Trance counter: has 2
+
+Beat 14
+-------
+
+Luc
+---
+life: 5
+discard 1: Eternal Drive
+discard 2: Chrono Flash
+special action
+5 Time tokens
+
+Magdelina
+---------
+life: 14
+discard 1: Safety Dash
+discard 2: Priestess Burst
+special action
+Level: 4
+Trance: 2
+
+
+..L...M
+
+Unbeatable strategy for Magdelina: Sanctimonious Shot: -10.00
+Unbeatable strategy for Magdelina: Sanctimonious Drive: -10.00
+Unbeatable strategy for Magdelina: Excelsius Shot: -10.00
+Unbeatable strategy for Magdelina: Excelsius Drive: -0.44
+
+Luc:
+2% Feinting Shot (5 tokens)
+95% Special Pulse
+3% Special Temporal Recursion
+
+Magdelina:
+15% Spiritual Strike
+41% Spiritual Shot
+44% Excelsius Shot
+
+
+Luc: Special Pulse
+Magdelina: Excelsius Shot
+
+Magdelina gets a +4 bonus to power, priority and stungard
+Pulse:
+
+ML.....
+
+
+Beat 14
+-------
+
+Luc
+---
+life: 5
+discard 1: Eternal Drive
+discard 2: Chrono Flash
+5 Time tokens
+
+Magdelina
+---------
+life: 14
+discard 1: Excelsius Shot
+discard 2: Safety Dash
+special action
+Level: 4
+Trance: 2
+
+
+ML.....
+
+Unbeatable strategy for Magdelina: Priestess Drive: -2.43
+Unbeatable strategy for Magdelina: Spiritual Strike: -2.05
+Unbeatable strategy for Magdelina: Sanctimonious Strike: -0.90
+Unbeatable strategy for Magdelina: Sanctimonious Drive: -10.00
+Unbeatable strategy for Magdelina: Sanctimonious Grasp: -0.90
+
+Luc:
+1% Memento Strike
+1% Memento Strike (1 token)
+1% Memento Strike (3 tokens)
+1% Memento Strike (5 tokens)
+1% Memento Shot
+1% Memento Shot (1 token)
+1% Memento Shot (3 tokens)
+1% Memento Shot (5 tokens)
+2% Memento Burst
+2% Memento Burst (1 token)
+1% Memento Burst (3 tokens)
+2% Memento Burst (5 tokens)
+2% Memento Grasp
+2% Memento Grasp (1 token)
+2% Memento Grasp (3 tokens)
+2% Memento Grasp (5 tokens)
+2% Memento Dash
+2% Memento Dash (1 token)
+2% Memento Dash (3 tokens)
+2% Memento Dash (5 tokens)
+2% Fusion Strike
+2% Fusion Strike (1 token)
+2% Fusion Strike (3 tokens)
+1% Fusion Strike (5 tokens)
+2% Fusion Shot
+2% Fusion Shot (1 token)
+2% Fusion Shot (3 tokens)
+2% Fusion Shot (5 tokens)
+2% Fusion Burst
+2% Fusion Burst (1 token)
+1% Fusion Burst (3 tokens)
+2% Fusion Burst (5 tokens)
+2% Fusion Grasp
+2% Fusion Grasp (1 token)
+1% Fusion Grasp (3 tokens)
+2% Fusion Grasp (5 tokens)
+2% Fusion Dash
+2% Fusion Dash (1 token)
+2% Fusion Dash (3 tokens)
+2% Fusion Dash (5 tokens)
+2% Feinting Strike
+2% Feinting Strike (1 token)
+2% Feinting Strike (3 tokens)
+2% Feinting Strike (5 tokens)
+2% Feinting Shot
+2% Feinting Shot (1 token)
+2% Feinting Shot (3 tokens)
+2% Feinting Shot (5 tokens)
+2% Feinting Burst
+2% Feinting Burst (1 token)
+1% Feinting Burst (3 tokens)
+1% Feinting Burst (5 tokens)
+2% Feinting Grasp
+2% Feinting Grasp (1 token)
+2% Feinting Grasp (3 tokens)
+2% Feinting Grasp (5 tokens)
+2% Feinting Dash
+2% Feinting Dash (1 token)
+2% Feinting Dash (3 tokens)
+2% Feinting Dash (5 tokens)
+
+Magdelina:
+100% Sanctimonious Drive
+
+
+Luc: Fusion Dash (5 tokens)
+Magdelina: Sanctimonious Drive
+
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Magdelina gets a +4 bonus to power, priority and stungard
+Priorities:  10 | 6
+Luc is active
+Luc becomes the active player
+Luc moves:
+
+M.L....
 
 Magdelina moves:
 
-L.M....
+.ML....
 
 Magdelina hits
-Luc takes 5 damage (now at 0 life)
+Luc takes 6 damage (now at 0 life)
 MAGDELINA WINS!
-total_time: 39
+total_time: 40
