@@ -75,7 +75,7 @@ def main():
     
 
 def ad_hoc():
-    beta_challenge(['luc','rukyuk'],
+    beta_challenge(['shekhtur','tatsumi'],
                    ['voco','zaamassal'],
                    True, True)
 #     start_with = 'adjenna'
