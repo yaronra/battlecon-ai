@@ -340,8 +340,8 @@ def anomalies():
                           %(styles[s], bases[b], sb, base_count[b],
                             percentify (sb/float(base_count[b])))
         
-def total_bases(specials=True, player_num=None, logdir="main"):
-    if player_num == 1:
+def total_bases(specials=True, player_num=None, beta_bases=False, logdir="main"):
+    if beta_bases:
         base_dict = {"Counter" : 0,
                      "Wave" : 0,
                      "Force" : 0,

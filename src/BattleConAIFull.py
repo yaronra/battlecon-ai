@@ -2745,6 +2745,12 @@ class Style (Card):
 class Base (Card):
     is_attack = True  #change for bases that don't attack
     deals_damage = True #change for bases that do attack, but can't deal damage
+    # Some effect check for using "same base" as opponent.  This
+    # comparison equates alpha and beta bases by color.  To enable this,
+    # beta bases override this with the corresponding alpha base.
+    @property
+    def alpha_name(self):
+        return self.name
 
 # Placeholders used before the reveal step, so that no card abilities
 # are activated.
@@ -5655,7 +5661,7 @@ class Rukyuk (Character):
     # Both finishers block Ammo tokens
     def get_active_tokens (self):
         active_tokens = Character.get_active_tokens (self)
-        if self.base.name in self.finishers:
+        if self.base in self.finishers:
             # Induced tokens are still active
             return [t for t in active_tokens if t not in self.tokens]
         else:
@@ -6843,6 +6849,7 @@ class Dash (Base):
 # Beta Bases
 
 class Counter (Base):
+    alpha_name = 'Strike'
     minrange = 1
     maxrange = 1
     power = 4
@@ -6855,6 +6862,7 @@ class Counter (Base):
     ordered_before_trigger = True
 
 class Wave (Base):
+    alpha_name = 'Shot'
     minrange = 2
     maxrange = 4
     power = 3
@@ -6867,6 +6875,7 @@ class Wave (Base):
     ordered_before_trigger = True
 
 class Force (Base):
+    alpha_name = 'Drive'
     minrange = 1
     maxrange = 1
     power = 3
@@ -6880,6 +6889,7 @@ class Force (Base):
         return 0
 
 class Spike (Base):
+    alpha_name = 'Burst'
     minrange = 2
     maxrange = 2
     power = 3
@@ -6894,6 +6904,7 @@ class Spike (Base):
         self.me.triggered_dodge = True
 
 class Throw (Base):
+    alpha_name = 'Grasp'
     minrange = 1
     maxrange = 1
     power = 2
@@ -6904,6 +6915,7 @@ class Throw (Base):
     ordered_hit_trigger = True
 
 class Parry (Base):
+    alpha_name = 'Dash'
     power = None
     priority = 3
     preferred_range = 1.5 # arbitrary average
@@ -8217,7 +8229,8 @@ class CounterStyle (Style):
     power = 1
     priority = -1
     def start_trigger (self):
-        if self.me.base.name == self.opponent.base.name:
+        # Alpha and beta bases equate by color.
+        if self.me.base.alpha_name == self.opponent.base.alpha_name:
             self.opponent.stun()
     def before_trigger (self):
         if self.me.damage_taken > 0:
