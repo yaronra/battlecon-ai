@@ -3366,8 +3366,6 @@ class Cadenza (Character):
         Character.prepare_next_beat (self)
         self.priority_bonus = self.priority_bonus_next_beat
 
-    # Anteing Iron Body is "illegal" when there's absolutely no reason.
-    # Possible reasons are auto-stun and the possibility of losing the token
     def get_antes (self):
         if self.pool:
             return [0,1]
@@ -7597,6 +7595,9 @@ class Clockwork (Style):
     power = 3
     priority = -3
     soak = 3
+    # Clockwork is probably the strongest style.
+    def discard_penalty(self):
+        return -0.5
 
 class Hydraulic (Style):
     power = 2
