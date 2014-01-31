@@ -277,8 +277,9 @@ def play_beat (filename='starting states/start.txt'):
     game.print_solution()
     return game
 
-def play_start_beat (name0, name1):
-    game = Game.from_start(name0, name1, default_discards=True)
+def play_start_beat (name0, name1, beta_bases0=False, beta_bases1=False):
+    game = Game.from_start(name0, name1, beta_bases0, beta_bases1,
+                           default_discards=True)
     print "Simulating..."
     game.simulate_beat()
     print "Solving..."
