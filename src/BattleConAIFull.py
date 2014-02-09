@@ -75,9 +75,7 @@ def main():
     
 
 def ad_hoc():
-    beta_challenge(['shekhtur','tatsumi'],
-                   ['voco','zaamassal'],
-                   True, True)
+    free_for_all(1, ['claus'], None, [], True, False)
 #     start_with = 'adjenna'
 #     names = [n for n in playable if n >= start_with]
 #     names = ['marmelee']
@@ -89,37 +87,39 @@ def ad_hoc():
 #                   first_beats=False)
 
 playable = ['adjenna',
-            'alexian',
-            'aria',
-            'byron',
-            'cadenza',
-            'cesar',
-            'clinhyde',
-            'demitras',
-            'eligor',
-            'heketch',
-            'hikaru',
-            'kajia',
-            'kallistar',
-            'karin',
-            'kehrolyn',
-            'khadath',
-            'lixis',
-            'luc',
-            'lymn',
-            'magdelina',
-            'marmelee',
-            'mikhail',
-            'oriana',
-            'rexan',
-            'rukyuk',
-            'runika',
-            'seth',
-            'shekhtur',
-            'tatsumi',
-            'vanaah',
-            'voco',
-            'zaamassal']
+             'alexian',
+             'aria',
+             'byron',
+             'cadenza',
+             'cesar',
+             'claus',
+             'clinhyde',
+             'danny',
+             'demitras',
+             'eligor',
+             'heketch',
+             'hikaru',
+             'kajia',
+             'kallistar',
+             'karin',
+             'kehrolyn',
+             'khadath',
+             'lixis',
+             'luc',
+             'lymn',
+             'magdelina',
+             'marmelee',
+             'mikhail',
+             'oriana',
+             'rexan',
+             'rukyuk',
+             'runika',
+             'seth',
+             'shekhtur',
+             'tatsumi',
+             'vanaah',
+             'voco',
+             'zaamassal']
 
 def test (first=None, beta_bases=False):
     log = []
@@ -519,7 +519,7 @@ class Game:
             self.full_restore (final_state)
             self.prepare_next_beat ()
         winner = final_state.winner
-        if winner == 0.5:
+        if winner == 0.5 or winner is None:
             winner = None
         else:
             winner = self.player[winner].name
@@ -929,6 +929,7 @@ class Game:
             else:
                 if self.reporting:
                     self.report (p.name + " misses")
+        p.opponent.after_trigger_for_opponent()
         p.after_trigger()
 
     def cycle_and_evaluate (self):
@@ -987,8 +988,12 @@ class Game:
     def status_effects_blocked (self):
         return False
 
+    # Number of beats expected until end of game.
     def expected_beats (self):
-        return 0.6 * min ([p.life for p in self.player])
+        # TODO: This takes into account alternate counting of own life
+        # (like Byron's), but not alternate counting of opponent's life
+        # (like Adjenna's).
+        return 0.6 * min ([p.effective_life() for p in self.player])
 
     # check for a fork
     # n_options = number of branches in fork
@@ -2091,6 +2096,8 @@ class Character (object):
         pass
     def soak_trigger (self, damage_soaked):
         pass
+    def after_trigger_for_opponent(self):
+        pass
     def after_trigger (self):
         self.activate_card_triggers('after_trigger')
     def end_trigger (self):
@@ -2570,10 +2577,14 @@ class Character (object):
     # having a special action
     def evaluate (self):
         hand = self.styles_and_bases_set - (self.discard[1] | self.discard[2])
-        card_bonus = sum(card.evaluation_bonus() for card in hand)
-        discard_penalty = \
+        # When playing "first beats", to find best initial discards, we
+        # don't want to use card bonuses (the cards that get used due
+        # to having bad bonuses are precisely the ones we wanted to discard).
+        card_bonus = (0 if self.game.first_beats else
+                      sum(card.evaluation_bonus() for card in hand))
+        discard_penalty = (0 if self.game.first_beats else
             sum (card.discard_penalty() for card in self.discard[1]) \
-          + sum (card.discard_penalty() for card in self.discard[2]) / 2.0
+          + sum (card.discard_penalty() for card in self.discard[2]) / 2.0)
         special_action_bonus = \
                     ((self.special_action.value +
                       (max([finisher.evaluate_setup()
@@ -2582,7 +2593,7 @@ class Character (object):
                     if self.special_action_available else 0)
 
         return - self.opponent.effective_life() + self.evaluation_bonus \
-               + self.evaluate_range () + card_bonus \
+               + self.evaluate_range() + card_bonus \
                + discard_penalty + special_action_bonus
 
     # traits that are useful for AI opponents to know about
@@ -2605,6 +2616,11 @@ class Character (object):
     def fix_strategies_post_clash (self, strats, opp_orig):
         return strats
     
+    # How many spaces can I retreat?
+    def retreat_range(self):
+        me = self.position
+        opp = self.opponent.position
+        return 6-me if me > opp else me
                                   
 # One card, style or base
 class Card (object):
@@ -3172,7 +3188,7 @@ class Byron (Character):
                        Faceless   (the_game, self), \
                        Breathless (the_game, self)  ]
         self.finishers = [SoulTrap (the_game, self),
-                           SoulGate (the_game, self)]
+                          SoulGate (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.starting_life = 15
     
@@ -3564,6 +3580,116 @@ class Cesar (Character):
                 [1.4, 0.9, -0.35, -2.6, 1.15][self.threat_level] +
                 5 * self.defeat_immunity)
          
+class Claus (Character):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
+        self.unique_base = Tempest (the_game, self)
+        self.styles = [Hurricane (the_game, self),
+                       Tailwind  (the_game, self),
+                       Blast     (the_game, self),
+                       Cyclone   (the_game, self),
+                       Downdraft (the_game, self)  ]
+        self.finishers = [AutumnsAdvance (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
+
+    def set_starting_setup (self, default_discards, use_special_actions):
+        Character.set_starting_setup (self, default_discards, use_special_actions)
+        self.priority_penalty = False
+
+    # TODO: choose
+    def choose_initial_discards (self):
+        return (self.hurricane, self.grasp,
+                self.cyclone, self.shot)
+
+    def situation_report (self):
+        report = Character.situation_report (self)
+        if self.priority_penalty:
+            report.append ("-4 priority from last beat")
+        return report
+
+    def read_my_state (self, lines, board, addendum):
+        lines = Character.read_my_state (self, lines, board, addendum)
+        self.priority_penalty = find_start (lines, '-4 priority from last beat')
+
+    def reset (self):
+        Character.reset (self)
+        self.priority_penalty_next_beat = False
+
+    def full_save (self):
+        state = Character.full_save (self)
+        state.priority_penalty_next_beat = self.priority_penalty_next_beat
+        return state
+
+    def full_restore (self, state):
+        Character.full_restore (self, state)
+        self.priority_penalty_next_beat = state.priority_penalty_next_beat
+
+    def prepare_next_beat (self):
+        Character.prepare_next_beat (self)
+        self.priority_penalty = self.priority_penalty_next_beat
+
+    def get_priority_bonus(self):
+        return -4 if (self.priority_penalty and
+                     not self.game.status_effects_blocked()) else 0
+        
+    # Implement's Claus's movement rule: when you would pass over an 
+    # opponent, stop short and push opponent instead, causing damage
+    # for spaces moved.
+    # For now, assuming that :
+    # 1. Claus is pulled normally by opponents, may switch sides.
+    # 2. If Claus would be blocked from moving, pushing doesn't happen
+    #    (even if the UA would result in pushing only).
+    def inner_execute_move (self, mover, moves, direct):
+        # Moving opponent (Grasp) happens normally.
+        if mover is self.opponent:
+            return Character.inner_execute_move(self, mover, moves, direct)
+        # From now on, assume that mover is self, and that movement
+        # is not direct (since Claus has no direct moves). 
+        initial_pos = self.position
+        dests = self.get_destinations(self, moves)
+        blocked = self.opponent.blocks_movement(direct=False)
+        self.blocked = blocked
+        if len (blocked) == 0:
+            possible = list (dests)
+        else:
+            blocked.discard(initial_pos)
+            unobstructed = set([d for d in dests \
+                    if not (pos_range(initial_pos, d) & blocked)])
+            possible = list (dests & unobstructed)
+        if possible:
+            prompt = "Choose position to move to:"
+            options = []
+            possible = sorted(possible)
+            if self.is_user and self.game.interactive_mode:
+                for p in possible:
+                    self.position = p
+                    options.append (self.game.get_basic_board())
+                self.position = initial_pos
+            ans = self.game.make_fork (len(possible), self, prompt, options)
+            dest = possible[ans]
+            # If not trying to move over opponent, move normally.
+            # Also, against a mimic, move normally (they retreat as you
+            # advance, nothing interesting happens).
+            if (not ordered(initial_pos, self.opponent.position, dest)
+                or self.opponent.mimics_movement()):
+                self.position = dest
+                return
+            # Trying to move over opponent: this the fun part.
+            if dest > initial_pos:
+                self.position = self.opponent.position - 1
+            else:
+                self.position = self.opponent.position + 1
+            push_distance = abs(dest - self.opponent.position)
+            opp_initial_pos = self.opponent.position
+            self.push([push_distance])
+            self.deal_damage(abs(self.opponent.position - 
+                                 opp_initial_pos))
+            
+        # No possible moves: if I had possible destinations, but all 
+        # were blocked, then I was forced into attempting the block.
+        if dests:
+            self.forced_block = True
+            
+
 class Clinhyde (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Frenzy (the_game, self)
@@ -3573,7 +3699,7 @@ class Clinhyde (Character):
                        Gravity   (the_game, self),
                        Phase     (the_game, self)  ]
         self.finishers = [VitalSilverInfusion (the_game, self),
-                           RitherwhyteInfusion (the_game, self)]
+                          RitherwhyteInfusion (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.packs = [Crizma   (the_game, self),
                       Ehrlite  (the_game, self),
@@ -3871,6 +3997,160 @@ class Clive (Character):
               + 1.5 * len(self.active_modules)
               + 0.5 * len(self.module_stack))
     
+
+class Danny (Character):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
+        self.unique_base = Hellgate (the_game, self)
+        self.styles = [Monstrous (the_game, self), \
+                       Fallen    (the_game, self), \
+                       Shackled  (the_game, self), \
+                       Sinners   (the_game, self), \
+                       Vicious   (the_game, self)  ]
+        self.finishers = [TheDarkRide (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
+   
+    def choose_initial_discards (self):
+        return (self.fallen, self.burst,
+                self.vicious, self.shot)
+
+    def set_starting_setup (self, default_discards, use_special_actions):
+        Character.set_starting_setup (self, default_discards, use_special_actions)
+        self.monsters = set()
+
+    board_addendum_lines = 1
+    def get_board_addendum (self):
+        if not self.monsters:
+            return ''
+        addendum = ['.'] * 7
+        for m in self.monsters:
+            addendum [m] = 'm'
+        return ''.join(addendum)
+
+    def read_my_state (self, lines, board, addendum):
+        lines = Character.read_my_state (self, lines, board, addendum)
+        self.monsters = set([i for i in xrange(7) if addendum[0][i]=='m'])
+
+    def initial_save (self):
+        state = Character.initial_save (self)
+        state.monsters = self.monsters.copy()
+        return state
+
+    def initial_restore (self, state):
+        Character.initial_restore (self, state)
+        self.monsters = state.monsters.copy()
+
+    def reset (self):
+        self.hit_on_monster = False
+        Character.reset (self)
+
+    def full_save (self):
+        state = Character.full_save (self)
+        state.hit_on_monster = self.hit_on_monster
+        return state
+
+    def full_restore (self, state):
+        Character.full_restore (self, state)
+        self.hit_on_monster = state.hit_on_monster
+        
+    def add_monsters(self, n_monsters, positions):
+        positions &= set(xrange(7))
+        positions -= self.monsters
+        n_monsters = min(n_monsters, len(positions))
+        if not n_monsters:
+            return
+        combos = list(itertools.combinations(positions, n_monsters))
+        prompt = ("Add monster:" if n_monsters == 1
+                  else "Add monsters:")
+        options = []
+        if self.is_user and self.game.interactive_mode:
+            base_list = [('m' if m in self.monsters else '.'
+                          for m in xrange(7))]
+            for combo in combos:
+                tmp_list = base_list[:]
+                for m in combo:
+                    tmp_list[m] = 'm'
+                options.append (''.join(tmp_list))
+        combo = combos[
+            self.game.make_fork(len(combos), self, prompt, options)]
+        self.monsters |= set(combo)
+        if self.game.reporting:
+            self.game.report ("Danny adds monsters to the board:")
+            for s in self.game.get_board():
+                self.game.report (s)
+        
+    def remove_monsters(self, n_monsters, positions):
+        positions &= self.monsters
+        n_monsters = min(n_monsters, len(positions))
+        if not n_monsters:
+            return
+        combos = list(itertools.combinations(positions, n_monsters))
+        prompt = ("Remove monster:" if n_monsters == 1
+                  else "Remove monsters:")
+        options = []
+        if self.is_user and self.game.interactive_mode:
+            for combo in combos:
+                tmp_list = ['.'] * 7
+                for x in combo:
+                    tmp_list[x] = 'x'
+                options.append (''.join(tmp_list))
+        combo = combos[
+            self.game.make_fork(len(combos), self, prompt, options)]
+        self.monsters -= set(combo)
+        if self.game.reporting:
+            self.game.report ("%s removes monsters:" % self.opponent)
+            for s in self.game.get_board():
+                self.game.report (s)
+        
+    # Put one monster in range of the attack.
+    # I assume this happens before other "after activating" effects.
+    def after_trigger(self):
+        if self.is_attacking() and self.standard_range():
+            pos = self.position
+            maxr = self.get_maxrange()
+            minr = self.get_minrange()
+            attack_range = (set(xrange(pos-maxr, pos-minr+1)) |
+                            set(xrange(pos+minr, pos+maxr+1)))
+            self.add_monsters(n_monsters=1, positions=attack_range)
+        Character.after_trigger(self)    
+
+    def after_trigger_for_opponent(self):
+        if self.opponent.is_attacking() and self.opponent.standard_range():
+            pos = self.opponent.position
+            maxr = self.opponent.get_maxrange()
+            minr = self.opponent.get_minrange()
+            attack_range = (set(xrange(pos-maxr, pos-minr+1)) |
+                            set(xrange(pos+minr, pos+maxr+1)))
+            self.remove_monsters(n_monsters=1, positions=attack_range)
+
+    def special_range_hit (self):
+        return (self.opponent.position in self.monsters or 
+                Character.special_range_hit(self))
+
+    def evaluate_range (self):
+        # If the range is closer than my preferred range, the problem
+        # is that it's too easy for the opponent to hit.  Monsters
+        # don't help
+        # But if it's farther, the problem is that it's too hard for
+        # me to hit, and they do.
+        
+        distance = self.game.distance()
+        penalty = - self.game.range_weight * \
+                    (self.preferred_range - distance) ** 2
+        if distance <= self.preferred_range:
+            return penalty
+        # Monster on opponent kills 70% of penalty,
+        # monsters adjacent kill 20%, monsters at range 2 kill 10%.
+        attenuation = 0.7 * (self.opponent.position in self.monsters)
+        adjacent = self.get_destinations(self.opponent, [-1,1])
+        attenuation += 0.2 * len(adjacent & self.monsters) / len(adjacent)
+        two_away = self.get_destinations(self.opponent, [-2,2])
+        attenuation += 0.1 * len(two_away & self.monsters) / len(two_away)
+        return penalty * (1 - attenuation)
+
+    def evaluate (self):
+        # Monsters are worth more earlier in the game.
+        return (Character.evaluate(self) +
+                0.1 * self.game.expected_beats() * len(self.monsters))
 
 class Demitras (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
@@ -6819,6 +7099,13 @@ class Burst (Base):
     def start_trigger(self):
         self.me.retreat ([1,2])
     ordered_start_trigger = True
+    def evaluation_bonus(self):
+        r = self.me.retreat_range()
+        if r == 0:
+            return -0.3
+        if r == 1:
+            return 0
+        return 0.3
 
 class Grasp (Base):
     minrange = 1
@@ -6829,6 +7116,10 @@ class Grasp (Base):
     def hit_trigger(self):
         self.me.move_opponent([1])
     ordered_hit_trigger = True
+    def evaluation_bonus(self):
+        if self.opponent.position in [0,6]:
+            return -0.15
+        return 0.05
         
 class Dash (Base):
     power = None
@@ -6844,6 +7135,11 @@ class Dash (Base):
     # Dash is usually a strong out, that's worth keeping in hand
     def discard_penalty(self):
         return -0.5
+    def evaluation_bonus(self):
+        if self.opponent.position in [0,6]:
+            return -0.3
+        return 0.1
+    
 
 # Beta Bases
 
@@ -6872,6 +7168,13 @@ class Wave (Base):
     def before_trigger(self):
         self.me.retreat ([1,2])
     ordered_before_trigger = True
+    def evaluation_bonus(self):
+        r = self.me.retreat_range()
+        if r == 0:
+            return -0.3
+        if r == 1:
+            return 0
+        return 0.3
 
 class Force (Base):
     alpha_name = 'Drive'
@@ -6901,6 +7204,10 @@ class Spike (Base):
     ordered_start_trigger = True
     def hit_trigger(self):
         self.me.triggered_dodge = True
+    def evaluation_bonus(self):
+        if self.me.position in [0,6]:
+            return -0.1
+        return 0.2
 
 class Throw (Base):
     alpha_name = 'Grasp'
@@ -7733,6 +8040,84 @@ class Inevitable (Style):
         self.me.power_penalty_next_beat = True
         self.me.evaluation_bonus += 1
     
+#Claus
+
+class AutumnsAdvance(Finisher):
+    name_override = "Autumn's Advance"
+    minrange = 1
+    maxrange = 2
+    power = 3
+    priority = 6
+    def before_trigger(self):
+        self.me.advance(range(7))
+    def hit_trigger(self):
+        if self.opponent.position in [0,6]:
+            self.me.add_triggered_power_bonus(3)
+    def evaluate_setup(self):
+        return 0.5 if self.opponent.position in [0,1,5,6] else 0
+
+class Tempest(Base):
+    minrange = 1
+    maxrange = 3
+    power = 1
+    priority = 4
+    preferred_range = 2.5
+    def start_trigger(self):
+        self.me.advance(range(4))
+    ordered_start_trigger = True
+    def evaluation_bonus(self):
+        push = min(4 - self.game.distance(), 
+                   self.opponent.retreat_range())
+        return -0.15 + 0.15 * max(push, 0)
+        
+class Hurricane(Style):
+    power = 3
+    def end_trigger(self):
+        self.me.priority_penalty_next_beat = True
+        self.me.evaluation_bonus -= 1.4
+
+class Tailwind(Style):
+    maxrange = 1
+    power = 1
+    preferred_range = 1.5
+    def start_trigger(self):
+        self.me.advance([1,2])
+    ordered_start_trigger = True
+    def evaluation_bonus(self):
+        push = min(3 - self.game.distance(), 
+                   self.opponent.retreat_range())
+        return -0.2 + 0.25 * max(push, 0)
+
+class Blast(Style):
+    maxrange = 1
+    priority = -3
+    stungard = 2
+    preferred_range = 1
+    def start_trigger(self):
+        self.me.advance([1])
+    ordered_start_trigger = True
+    def evaluation_bonus(self):
+        push = min(2 - self.game.distance(), 
+                   self.opponent.retreat_range())
+        return -0.1 + 0.25 * max(push, 0)
+
+class Cyclone(Style):
+    power = 1
+    priority = 1
+    def end_trigger(self):
+        if self.opponent.position in [0,6] and self.game.distance() == 1:
+            self.opponent.lose_life(3)
+    ordered_end_trigger = True
+    
+class Downdraft(Style):
+    priority = -1
+    def can_be_hit(self):
+        return self.opponent.attack_range() < 3
+    def evaluation_bonus(self):
+        # Difference isn't very high, because can easily generate
+        # the distance with Dash/Drive
+        return 0.2 if self.game.distance() >= 3 else -0.2
+
 
 #Clinhyde
 
@@ -8042,7 +8427,134 @@ class ExtendingArms (Module):
         self.me.pull([1])
     ordered_before_trigger = True
 
-    
+
+#Danny
+class TheDarkRide(Finisher):
+    standard_range = False
+    power = 2
+    priority = 6
+    def hit_trigger(self):
+        self.me.monsters.remove(self.opponent.position)
+        self.me.move_opponent([1])
+        self.me.max_attacks += 1
+    def evaluate_setup(self):
+        # 0.5 for each time the attack hits beyond the first.
+        if self.opponent.position not in self.me.monsters:
+            return 0
+        pos = self.opponent.position - 1
+        count_a = 0
+        while pos in self.me.monsters:
+            count_a += 1
+            pos -= 1
+        pos = self.opponent.position + 1
+        count_b = 0
+        while pos in self.me.monsters:
+            count_b += 1
+            pos += 1
+        return 0.5 * max(count_a, count_b)
+
+class Hellgate(Base):
+    is_attack = False
+    power = None
+    soak = 3
+    preferred_range = 2
+    def after_trigger(self):
+        self.me.move_to_unoccupied()
+    ordered_after_trigger = True
+    def end_trigger(self):
+        self.me.add_monsters(3, set(xrange(7)))
+    def evaluation_bonus(self):
+        monsters_to_add = max(3, 7 - len(self.me.monsters))
+        return 0.1 * (monsters_to_add - 2)
+
+class Monstrous(Style):
+    power = 1
+    priority = -1
+    stunguard = 2
+    def end_trigger(self):
+        if self.me.did_hit:
+            self.me.add_monsters(1, set(xrange(7)))
+
+class Fallen(Style):
+    maxrange = 1
+    power = -1
+    preferred_range = 0.5
+    def hit_trigger(self):
+        if self.opponent.position in self.me.monsters:
+            self.me.hit_on_monster = True
+            self.me.add_triggered_power_bonus(2)
+    ordered_hit_trigger = True
+    def reduce_stunguard(self, stunguard):
+        return 0 if self.me.hit_on_monster else stunguard
+    def evaluation_bonus(self):
+        return 0.3 if self.opponent.position in self.me.monsters else -0.3
+
+class Shackled(Style):
+    maxrange = 1
+    priority = -1
+    def blocks_movement(self, direct):
+        return self.me.monsters
+    def evaluation_bonus(self):
+        adjacent = self.me.get_destinations(self.opponent, [-1,1])
+        two_away = self.me.get_destinations(self.opponent, [-2,2])
+        return (0.3 * len(adjacent & self.me.monsters) +
+                0.1 * len(two_away & self.me.monsters) - 0.3)
+
+class Sinners(Style):
+    name_override = "Sinner's"
+    minrange = 1
+    maxrange = 3
+    power = -1
+    preferred_range = 2
+    def after_trigger(self):
+        # Move up to 3 monsters to adjacent spaces.
+        # Method: for every possible placement of existing monsters,
+        # check if it's a valid move.
+        if not self.me.monsters:
+            return
+        monsters = sorted(list(self.me.monsters))
+        combos = itertools.combinations(xrange(7), len(self.me.monsters))
+        good_combos = []
+        for combo in combos:
+            shifts = [abs(m-c) for m,c in zip(monsters, combo)]
+            if max(shifts) <= 1 and sum(shifts) <= 3:
+                good_combos.append(combo)
+        prompt = "Move monsters:"
+        options = []
+        if self.me.is_user and self.game.interactive_mode:
+            for combo in good_combos:
+                tmp_list = ['m' if m in combo else '.'
+                            for m in xrange(7)]
+                options.append(''.join(tmp_list))
+        combo = good_combos[
+            self.game.make_fork(len(good_combos), self.me, prompt, options)]
+        self.me.monsters = set(combo)
+        if self.game.reporting:
+            self.game.report ("Danny moves his monsters:")
+            for s in self.game.get_board():
+                self.game.report (s)
+    def evaluation_bonus(self):
+        monsters = max(2, len(self.me.monsters))
+        return 0.03 * (monsters - 0.5)
+        
+class Vicious(Style):
+    power = -1
+    priority = 1
+    def get_priority_bonus(self):
+        me = self.me.position
+        opp = self.opponent.position
+        return len([m for m in self.me.monsters
+                    if (me - opp) * (m - opp) > 0])
+    def hit_trigger(self):
+        me = self.me.position
+        opp = self.opponent.position
+        self.me.add_triggered_power_bonus(
+            len([m for m in self.me.monsters
+                 if (me - opp) * (m - opp) < 0]))
+    ordered_hit_trigger = True
+    def evaluation_bonus(self):
+        return 0.3 * (len(self.me.monsters) - 3)
+              
 #Demitras
 
 class SymphonyOfDemise (Finisher):
@@ -9177,7 +9689,7 @@ class Blight (Style):
     maxrange = 2
     preferred_range = 1
     def start_trigger (self):
-        if self.me.base.is_attack and self.me.base.standard_range:
+        if self.me.is_attacking and self.me.standard_range():
             ranges = range (self.me.get_minrange(), 1 + self.me.get_maxrange())
             positions = [pos for pos in xrange(7)\
                          if abs (pos - self.me.position) in ranges
@@ -9388,6 +9900,8 @@ class Feinting (Style):
     def end_trigger (self):
         self.me.advance ((1,2))
     ordered_end_trigger = True
+    def evaluation_bonus (self):
+        return -0.3 if self.me.position in (0,6) else 0.15
 
 class Chrono (Style):
     priority = 1
@@ -9502,7 +10016,7 @@ class Surreal (Style):
     priority = 1
     preferred_range = 1.5
     def after_trigger (self):
-        if self.me.base.is_attack and self.me.base.standard_range:
+        if self.me.is_attacking() and self.me.standard_range():
             minrange = self.me.get_minrange()
             maxrange = self.me.get_maxrange()
             pos = self.me.position
@@ -9513,7 +10027,7 @@ class Surreal (Style):
                 self.me.move_directly(dests)
     @property
     def ordered_after_trigger(self):
-        return self.me.base.is_attack and self.me.base.standard_range
+        return self.me.is_attacking() and self.me.standard_range()
 
 class Reverie (Style):
     minrange = 1
@@ -9836,7 +10350,8 @@ class Nullifying (Style):
             self.me.discard_counters(spend)
             self.opponent.add_triggered_power_bonus (-spend)
     def evaluation_bonus(self):
-        return 0.05 * (self.me.concentration - 2)
+        return ((-0.3 if self.me.position in (0,6) else 0.15) +
+                0.05 * (self.me.concentration - 2))
 
 #Mikhail
 
@@ -10608,9 +11123,11 @@ class Vanishing (Style):
     ordered_start_trigger = True
     def can_be_hit (self):
         return self.opponent.attack_range() < 4
-    # The built in retreat makes the dodge work from range 3
     def evaluation_bonus (self):
-        return 0.25 if self.game.distance() >= 3 else -0.25
+        cornered = self.me.position in (0,6)
+        dodge_range = 4 if cornered else 3
+        return ((0.25 if self.game.distance() >= dodge_range else -0.25) +
+                (-0.3 if cornered else 0.15))
 
 class Wyrding (Style):
     priority = 1
@@ -11147,19 +11664,21 @@ class Hellraising (Style):
     def hit_trigger (self):
         self.me.pull ([1])
     ordered_hit_trigger = True
+    def evaluation_bonus(self):
+        return 0.3 if self.me.position in [0,6] else -0.15
 
 class Abyssal (Style):
     minrange = 2
     maxrange = 4
     preferred_range = 3
     def after_trigger (self):
-        if self.me.base.is_attack and self.me.base.standard_range:
+        if self.me.is_attacking() and self.me.standard_range():
             ranges = range (self.me.get_minrange(), 1+self.me.get_maxrange())
             self.me.add_zombies (set([r for r in xrange(7)
                                     if abs(r-self.me.position) in ranges]))
     @property
     def ordered_after_trigger(self):
-        return self.me.base.is_attack and self.me.base.standard_range
+        return self.me.is_attacking() and self.me.standard_range()
 
 class Thunderous (Style):
     minrange = 1
@@ -11292,6 +11811,8 @@ class Warped (ZStyle):
     def start_trigger (self):
         self.me.retreat ([1])
     ordered_start_trigger = True
+    def evaluation_bonus(self):
+        return 0.3 if self.me.position in [0,6] else -0.15
 
 class Paradigm (Card):
     pass
@@ -11374,8 +11895,10 @@ character_dict = {'adjenna'  :Adjenna,
                   'byron'    :Byron,
                   'cadenza'  :Cadenza,
                   'cesar'    :Cesar,
+                  'claus'    :Claus,
                   'clinhyde' :Clinhyde,
                   'demitras' :Demitras,
+                  'danny'    :Danny,
                   'eligor'   :Eligor,
                   'heketch'  :Heketch,
                   'hikaru'   :Hikaru,

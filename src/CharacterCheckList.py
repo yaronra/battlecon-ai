@@ -22,6 +22,4 @@
     def set_preferred_range (self): # if character can get non-style/base range
     def evaluate (self):
 
-    def order_fork (self, cards, choice=None):
-        # don't change, define functions for each fork that use this
-
+    # special evaluations for cards (situation dependent, none )

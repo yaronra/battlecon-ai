@@ -5,7 +5,6 @@ from operator import itemgetter
 import csv
 import os
 import re
-from reportlab.lib.rparsexml import filenames
 
 phrases = {  'adjenna' : ['Basilisk Gaze'],
              'alexian' : ['Empire Divider', 'Hail The King'],
@@ -13,7 +12,9 @@ phrases = {  'adjenna' : ['Basilisk Gaze'],
              'byron' : ['Soul Trap', 'Soul Gate'],
              'cadenza' : ['Rocket Press', 'Feedback Field'],
              'cesar' : ['Level 4 Protocol'],
+             'claus' : ["Autumn's Advance"],
              'clinhyde' : ['Vital Silver Infusion', 'Ritherwhyte Infusion'],
+             'danny': ['The Dark Ride'],
              'demitras' : ['Symphony of Demise'],
              'eligor' : ['Sweet Revenge', 'Sheet Lightning'],
              'heketch' : ['Million Knives', 'Living Nightmare'],
@@ -560,12 +561,12 @@ def victory_csv (logdir="main"):
         for (i,name) in enumerate(names):
             writer.writerow([name]+wins[i])
 
-def first_beats_percents (name, logdir="first beats"):
+def first_beats_percents (name, logdir="first_beats"):
     solution_percents (name, logdir, 1)
     print '----------'
     solution_percents (name, logdir, [1,2])
 
-def solution_percents (name, logdir="first beats", beat=None):
+def solution_percents (name, logdir="first_beats", beat=None):
     if isinstance (beat, int):
         beat = [beat]
     style_dict = {}
