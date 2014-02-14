@@ -65,17 +65,24 @@ def main():
                       action="store_true", dest="ad_hoc",
                       default=False,
                       help="run ad_hoc")
+    parser.add_option("-f", "--from_file",
+                      dest="from_file",
+                      default='',
+                      help="run single beat from given file")
     options, unused_args = parser.parse_args()
     if options.test:
         test(None, options.beta)
     elif options.ad_hoc:
         ad_hoc()
+    elif options.from_file:
+        play_beat(options.from_file)
     else:
         play()
     
 
 def ad_hoc():
-    free_for_all(1, ['claus'], None, [], True, False)
+#    duel('seth', 'ottavia', 1)
+    free_for_all(1, ['ottavia'], 'byron', [], True, False)
 #     start_with = 'adjenna'
 #     names = [n for n in playable if n >= start_with]
 #     names = ['marmelee']
@@ -86,7 +93,7 @@ def ad_hoc():
 #                   raise_exceptions=True, 
 #                   first_beats=False)
 
-playable = ['adjenna',
+playable = [ 'adjenna',
              'alexian',
              'aria',
              'byron',
@@ -111,6 +118,7 @@ playable = ['adjenna',
              'marmelee',
              'mikhail',
              'oriana',
+             'ottavia',
              'rexan',
              'rukyuk',
              'runika',
@@ -436,7 +444,7 @@ class Game:
         game = Game(name0, name1, beta_bases0, beta_bases1,
                     interactive, cheating, first_beats=first_beats)
         game.set_starting_setup (default_discards,
-                                 use_special_actions = True)
+                                 use_special_actions = not first_beats)
         game.initialize_simulations()
         return game
 
@@ -630,9 +638,9 @@ class Game:
         for p in self.player:
             p.strats = p.get_strategies()
         # run simulations, create result table
-        self.results = [[float(self.simulate (s0,s1)[0]) \
-                         for s1 in self.player[1].strats] \
-                         for s0 in self.player[0].strats]
+        self.results = [[self.simulate (s0,s1)
+                         for s1 in self.player[1].strats]
+                        for s0 in self.player[0].strats]
 
         self.initial_restore (self.initial_state)
         
@@ -641,9 +649,15 @@ class Game:
         self.remove_redundant_finishers()
 
         # Usually this does nothing, but some characters might need to
-        # fix the result tables and strategies (e.g. Seth).
+        # fix the result tables and strategies (e.g. Seth, Ottavia).
         for p in self.player:
             p.post_simulation_processing ()
+
+        # Once we're done with special processing, we can discard
+        # the full final state of each simulation, and keep just
+        # the evaluation. 
+        self.results = [[float(result[0]) for result in row] 
+                        for row in self.results]
 
     def remove_redundant_finishers (self):
         redundant_finishers = []
@@ -652,7 +666,7 @@ class Game:
             if isinstance (s0[i][1], Finisher):
                 for ii in xrange(len(self.results)):
                     if isinstance (s0[ii][1], Cancel) and s0[ii][2] == s0[i][2]:
-                        if self.results[i] == self.results[ii] :
+                        if self.results[i][0] == self.results[ii][0] :
                             redundant_finishers.append (i)
                             break
         self.results = [self.results[i] for i in xrange(len(self.results)) \
@@ -667,8 +681,8 @@ class Game:
                 for jj in xrange(len(self.results[0])):
                     if isinstance (s1[jj][1], Cancel) and \
                        s1[jj][2] == s1[j][2]:
-                        if [r[j] for r in self.results] == \
-                           [r[jj] for r in self.results]:
+                        if [r[j][0] for r in self.results] == \
+                           [r[jj][0] for r in self.results]:
                             redundant_finishers.append (j)
                             break
         self.results = [[r[j] for j in xrange(len(r)) \
@@ -1456,9 +1470,9 @@ class Game:
                           self.player[1].evaluate_range(), \
                           self.player[0].evaluate_range() - \
                           self.player[1].evaluate_range()))
-        s0 = [s for s in self.player[0].get_strategies() \
+        s0 = [s for s in self.player[0].strats \
               if self.player[0].get_strategy_name(s).lower() == name0]
-        s1 = [s for s in self.player[1].get_strategies() \
+        s1 = [s for s in self.player[1].strats \
               if self.player[1].get_strategy_name(s).lower() == name1]
         unused_value, state, forks = self.simulate (s0[0], s1[0])
         self.debugging = False
@@ -2003,7 +2017,12 @@ class Character (object):
         return ([] if self.opponent.blocks_tokens() else self.ante)
 
     # Bonus and ability calculation
-        
+    
+    def get_priority_pre_penalty(self):
+        # This only exists for when opponent is Ottavia.
+        return self.get_priority_bonus() + self.triggered_priority_bonus + \
+               sum(card.priority+card.get_priority_bonus()
+                    for card in self.active_cards)
     def get_priority (self):
         priority = self.get_priority_bonus() + self.triggered_priority_bonus + \
                    sum(card.priority+card.get_priority_bonus()
@@ -3595,7 +3614,6 @@ class Claus (Character):
         Character.set_starting_setup (self, default_discards, use_special_actions)
         self.priority_penalty = False
 
-    # TODO: choose
     def choose_initial_discards (self):
         return (self.hurricane, self.grasp,
                 self.cyclone, self.shot)
@@ -5747,6 +5765,163 @@ class Oriana (Character):
     def evaluate (self):
         return Character.evaluate (self) + 0.3 * len (self.pool)
 
+
+class Ottavia (Character):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
+        self.unique_base = Shooter  (the_game, self)
+        self.styles = [Snapback (the_game, self), \
+                       Demolition (the_game, self), \
+                       AntiPersonnel (the_game, self), \
+                       Cover (the_game, self), \
+                       Cybernetic (the_game, self)  ]
+        self.finishers = [ExtremePrejudice (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
+
+    def choose_initial_discards (self):
+        return (self.cybernetic, self.strike,
+                self.demolition, self.shot)
+
+    def reset (self):
+        self.opponent_priority_pre_penalty = None
+        self.target_lock = None
+        self.cybernetic_soak = 0
+        Character.reset (self)
+
+    def full_save (self):
+        state = Character.full_save (self)
+        state.opponent_priority_pre_penalty = self.opponent_priority_pre_penalty
+        state.target_lock = self.target_lock
+        state.cybernetic_soak = self.cybernetic_soak
+        return state
+
+    def full_restore (self, state):
+        Character.full_restore (self, state)
+        self.opponent_priority_pre_penalty = state.opponent_priority_pre_penalty
+        self.target_lock = state.target_lock
+        self.cybernetic_soak = state.cybernetic_soak
+
+    # These aren't really possible antes, but rather possible ante 
+    # results (correct or incorret guess).
+    # The actual strategies will be formed in post-processing.
+    def get_antes (self):
+        return [False, True]
+        
+    def input_ante (self):
+        priorities = self.all_opponent_priorities
+        print "Select opponent's priority for Target Lock:"
+        print "Possible opponent priorities:", priorities
+        mn = min(priorities)
+        mx = max(priorities)
+        while True:
+            ans = input_number(mx + 1, mn)
+            if ans in priorities:
+                return ans
+
+    # Handles both simulation strategies (correct/incorrect guess)
+    # and post-processing strategies (actual priority guessed).
+    def get_ante_name (self, a):
+        # post processing - guess is a number
+        if isinstance (a, int):
+            return "Target Lock: %d" % a
+        # simulation, guess is correct or not
+        else:
+            assert isinstance(a, bool)
+            if a:
+                return "Target Acquired"
+            else:
+                return "Target Missed"
+    
+    # Check whether target is locked
+    # Handles both boolean guess results and actual priority guesses.
+    def give_priority_penalty(self):
+        # Make sure we only make the check the first time priority is
+        # needed each beat (after the reveal).  Later checks
+        # just refer to the previous result.
+        if self.target_lock is None:
+            self.opponent_priority_pre_penalty = self.opponent.get_priority_pre_penalty()
+            guess = self.strat[2][0]
+            self.target_lock = (guess is True or
+                                guess is self.opponent_priority_pre_penalty)
+            if self.game.reporting and self.target_lock:
+                self.game.report ("Ottavia acquires target lock")
+        return -10 if self.target_lock else 0
+
+    def get_soak(self):
+        return self.cybernetic_soak + Character.get_soak(self)
+
+    # Ottavia's simulated strategies don't have a real target lock, but 
+    # rather an assumption about whether the guess was correct or not 
+    # (which is all that is needed for simulation).
+    # After simulation, some post-processing is required to get the real
+    # list of strategies and table of results.
+    def post_simulation_processing (self):
+        # Obtain from results a list of all possible pre-penalty
+        # priorities for opponent.
+        priorities = [result[1].player_states[self.my_number].opponent_priority_pre_penalty
+                      for row in self.game.results for result in row]
+        priorities = sorted(list(set(priorities)))
+        # When any player Cancels/Pulses, priority is None
+        if priorities[0] is None:
+            priorities.pop(0)
+            
+        fake_strats = self.strats
+        opp_strats = self.opponent.strats
+        fake_results = self.game.results
+
+        # For each pair of Ottavia's strategies (same except for guess 
+        # correctness), pick one (and record its index).
+        strats_without_guesses = [(s,i) for i,s in enumerate(fake_strats)
+                                  if s[2][0] is False]
+        # Then, make a new strategy list, with one guess for each
+        # possible opponent priority (keeping the index of the original
+        # fake strat).
+        full_strats = [((s[0][0], s[0][1], (p, s[0][2][1])), s[1])
+                       for s in strats_without_guesses for p in priorities]
+
+        n = len(full_strats)
+        m = len(opp_strats)
+        # for each strat combination, take the simulation result 
+        # corresponding to those pairs, but pick correct/incorrect guess 
+        # based on whether Ottavia's guess actually corresponds to 
+        # opponent's priority.
+        if self.my_number==0:
+            full_results = [[0]*m for _ in xrange(n)]
+            for i in xrange(n):
+                for j in xrange(m):
+                    my_strat = full_strats[i][0]
+                    my_fake_index = full_strats[i][1]
+                    opp_strat = opp_strats[j]
+                    # Compare my ante to opponent's pre-penalty priority,
+                    # found in original results table.
+                    is_correct = (my_strat[2][0] == 
+                        fake_results[my_fake_index][j][1].player_states[0].opponent_priority_pre_penalty)
+                    fake_strat = (my_strat[0], my_strat[1],
+                                  (is_correct, my_strat[2][1]))
+                    fake_i = fake_strats.index(fake_strat)
+                    full_results[i][j] = fake_results[fake_i][j]
+        else:
+            full_results = [[0]*n for _ in xrange(m)]
+            for i in xrange(m):
+                for j in xrange(n):
+                    my_strat = full_strats[j][0]
+                    my_fake_index = full_strats[j][1]
+                    opp_strat = opp_strats[i]
+                    # Compare my ante to opponent's pre-penalty priority,
+                    # found in original results table.
+                    is_correct = (my_strat[2][0] == 
+                        fake_results[i][my_fake_index][1].player_states[1].opponent_priority_pre_penalty)
+                    fake_strat = (my_strat[0], my_strat[1],
+                                  (is_correct, my_strat[2][1]))
+                    fake_j = fake_strats.index(fake_strat)
+                    full_results[i][j] = fake_results[i][fake_j]
+
+        self.game.results = full_results
+        self.strats = [s[0] for s in full_strats]
+
+        # Record this, in case we need to ask a human player to choose
+        # from the list.
+        self.all_opponent_priorities = priorities
+
 class Rexan (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Malediction  (the_game, self)
@@ -6200,6 +6375,7 @@ class Seth (Character):
             self.add_triggered_power_bonus (2)
             self.add_triggered_priority_bonus (2)
         Character.reveal_trigger(self)
+
     def clash_priority (self):
         return 0.1 * self.correct_guess + Character.clash_priority(self)
 
@@ -8420,7 +8596,7 @@ class SynapseBoost (Module):
 class AutoRepair (Module):
     def end_trigger (self):
         self.me.gain_life(1)
-        # TODO: return this to module stack
+        # need to return this to module stack
 
 class ExtendingArms (Module):
     def before_trigger(self):
@@ -10605,6 +10781,89 @@ class MagicPoint (Token):
     pass
 
 
+#Ottavia
+
+class ExtremePrejudice(Finisher):
+    standard_range = False
+    power = 10
+    priority = 9
+    def special_range_hit(self):
+        return self.me.target_lock
+
+# Not implemented.
+class DoubleBarrel(Finisher):
+    is_attack = False
+    priority = 4
+    
+class Shooter(Base):
+    minrange = 1
+    maxrange = 4
+    power = 4
+    priority = 2
+    preferred_range = 2.5
+    def reduce_stunguard(self, stunguard):
+        return 0 
+
+class Snapback(Style):
+    minrange = 1
+    maxrange = 3
+    preferred_range = 2
+    def blocks_movement(self, direct):
+        if self.opponent.get_priority() < self.me.get_priority():
+            return set(xrange(7))
+        else:
+            return set()
+    def after_trigger(self):
+        self.me.retreat([1,2])
+    ordered_after_trigger = True
+
+class Demolition(Style):
+    priority = 1
+    def hit_trigger(self):
+        if self.opponent.get_priority() <= 1:
+            self.opponent.stun
+    def after_trigger(self):
+        self.me.advance(range(5))
+    ordered_after_trigger = True
+    
+class Cover(Style):
+    minrange = 1
+    maxrange = 2
+    power = 1
+    priority = -3
+    soak = 1
+    stunguard = 3
+    preferred_range = 1.5
+    def after_trigger(self):
+        self.me.triggered_dodge = True
+
+class AntiPersonnel(Style):
+    name_override = 'Anti-Personnel'
+    minrange = 2
+    maxrange = 3
+    power = 3
+    priority = -1
+    preferred_range = 2.5
+    def take_a_hit_trigger(self):
+        self.me.stun()
+    def end_trigger(self):
+        if self.me.is_attacking() and self.me.standard_range():
+            pos = self.me.position
+            minr = self.me.get_minrange()
+            maxr = self.me.get_maxrange()
+            attack_range = (set(xrange(pos-maxr, pos-minr+1)) |
+                            set(xrange(pos+minr, pos+maxr+1)))
+            self.me.move_directly(sorted(list(attack_range)))
+    ordered_end_trigger = True
+    
+class Cybernetic(Style):
+    def damage_trigger(self, damage):
+        self.me.move_opponent(range(4))
+    def after_trigger(self):
+        self.me.cybernetic_soak = 2
+
+    
+    
 #Rexan
 
 class ZeroHour (Finisher):
@@ -11914,6 +12173,7 @@ character_dict = {'adjenna'  :Adjenna,
                   'marmelee' :Marmelee,
                   'mikhail'  :Mikhail,
                   'oriana'   :Oriana,
+                  'ottavia'  :Ottavia,
                   'rexan'    :Rexan,
                   'rukyuk'   :Rukyuk,
                   'runika'   :Runika,
