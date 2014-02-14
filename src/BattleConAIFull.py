@@ -3155,6 +3155,18 @@ class Aria (Character):
         if not self.dimensional_no_stun:
             self.opponent.stun (damage)
 
+    # When using Laser, make the choice about origin of attack - 
+    # just before attacking
+    def before_trigger (self):
+        Character.before_trigger(self)
+        if self.laser in self.active_cards:
+            sources = [self] + [d for d in self.droids
+                                if d.position is not None]
+            ans = self.game.make_fork (len(sources), self,
+                                       "Choose source of attack:",
+                                       sources)
+            self.attacker = sources[ans]
+
     def evaluate (self):
         value = Character.evaluate(self)
         dampening = self.dampening.position
@@ -3571,6 +3583,7 @@ class Cesar (Character):
                               " takes %d damage (now at %d life)" \
                               %(final_damage, self.life))
         if self.life <= 0:
+            # This is the different part.
             if self.defeat_immunity:
                 self.life = 1
                 self.defeat_immunity = False
@@ -4751,8 +4764,7 @@ class Kajia (Character):
                                  (remove, i))
         return insects_removed
 
-    def end_trigger (self):
-        Character.end_trigger (self)
+    def unique_ability_end_trigger (self):
         if self.imago_emergence_active:
             self.give_insects(1)
 
@@ -4909,21 +4921,17 @@ class Karin (Character):
         Character.initial_restore (self, state)
         self.jager_position = state.jager_position
 
-    # self.jager_attacks = True means range is calculated from jager
     def reset (self):
         Character.reset (self)
-        self.jager_attacks = False
         self.lunar_swap = False
 
     def full_save (self):
         state = Character.full_save (self)
-        state.jager_attacks = self.jager_attacks
         state.lunar_swap = self.lunar_swap
         return state
 
     def full_restore (self, state):
         Character.full_restore (self, state)
-        self.jager_attacks = state.jager_attacks
         self.lunar_swap = state.lunar_swap
         
     board_addendum_lines = 1
@@ -4932,6 +4940,8 @@ class Karin (Character):
         addendum [self.jager_position] = 'j'
         return ''.join(addendum)
 
+    # TODO: since this is an actual "End of Beat" effects, it should
+    # be blocked when such effects are blocked.
     def end_trigger (self):
         Character.end_trigger (self)
         if not self.is_stunned():
@@ -4956,11 +4966,10 @@ class Karin (Character):
             for s in self.game.get_board():
                 self.game.report (s)
 
-    # attacks are from Karin or from Jager, depending on style
-    # (style sets self.jager_attacks to True if needed)
     def attack_range (self):
-        attack_source = self.jager_position if self.jager_attacks else \
-                        self.position
+        attack_source = (self.jager_position 
+                         if self.howling in self.active_cards else
+                         self.position)
         return abs (self.opponent.position - attack_source)
 
     # overrides default method, which I set to pass for performance
@@ -5036,6 +5045,7 @@ class Kehrolyn (Character):
         self.active_cards.append (self.current_form)
 
     # if mutating is in active cards, replace it with a copy of the other style
+    # TODO: change this to a start trigger (and check for blocking start triggers).
     def reveal_trigger (self):
         if self.current_form == self.mutating:
             self.active_cards [self.active_cards.index (self.mutating)] = \
@@ -5047,6 +5057,7 @@ class Kehrolyn (Character):
 
     # if there's a repeating style in active_cards, lose life for Mutating
     # can't put this in Mutating, because it is replaced at start_trigger
+    # TODO: if end of beat effects are blocked, block this.
     def end_trigger (self):
         if len (set (self.active_cards)) < len (self.active_cards):
             self.lose_life (1)
@@ -6380,6 +6391,7 @@ class Seth (Character):
         return 0.1 * self.correct_guess + Character.clash_priority(self)
 
     # logic to handle Wyrding shenanigans
+    # TODO: block if start triggers are blocked.
     def start_trigger (self):
         if self.wyrding in self.active_cards:
             old_base = self.base
@@ -7814,15 +7826,6 @@ class Ionic (Style):
                 else -0.1)
                                     
 class Laser (Style):
-    # make the choice about origin of attack - just before attacking
-    # (Arias's before trigger calls base before style)
-    def before_trigger (self):
-        sources = [self.me] + [d for d in self.me.droids
-                               if d.position is not None]
-        ans = self.game.make_fork (len(sources), self.me,
-                                   "Choose source of attack:",
-                                   sources)
-        self.me.attacker = sources[ans]
     def end_trigger (self):
         if self.me.turret.position is not None and \
            abs (self.opponent.position - self.me.turret.position) == 3:
@@ -7846,6 +7849,7 @@ class Laser (Style):
         # add value if turret outside and you have Reconfiguration
         value += (0.1 if turret is None and reconfig else -0.1)
         return value
+    # Choice of attack origin handled by Aria.before_trigger()
 
 class Catalyst (Style):
     minrange = 1
@@ -8907,7 +8911,7 @@ class Vengeful (Style):
     power = 1
     stunguard = 3
     preferred_range = 0.5
-    def before_activating (self):
+    def before_trigger (self):
         self.me.advance([1])
     def hit_trigger (self):
         self.me.recover_tokens(2)
@@ -9550,8 +9554,6 @@ class Howling (Style):
     preferred_range = -0.5
     def has_stun_immunity (self):
         return True
-    def before_trigger (self):
-        self.me.jager_attacks = True
     def hit_trigger (self):
         if self.me.jager_position == self.opponent.position:
             self.me.add_triggered_power_bonus(2)
@@ -9725,6 +9727,9 @@ class Overload (Base):
 
 # replaced at reveal, never does anything
 class Mutating (Style):
+    # Just in case the start trigger was blocked, and it's still here.
+    def end_trigger(self):
+        self.me.lose_life(1)
     # doubles as Whip if Whip is current form
     def get_preferred_range (self):
         return (self.me.whip.preferred_range if self.me.whip in self.me.discard[1] else 0)
@@ -10018,8 +10023,8 @@ class Flash (Base):
     def start_trigger (self):
         self.me.advance ([1])
     ordered_start_trigger = True
-    def damage_trigger (self, damage):
-        self.opponent.stun()
+    def reduce_stunguard(self, stunguard):
+        return 0
 
 class Eternal (Style):
     priority = -4
@@ -10149,9 +10154,9 @@ class Visions (Base):
     def before_trigger (self):
         self.me.move(range(self.me.disparity + 1))
     ordered_before_trigger = True
-    def after_trigger (self):
-        self.me.move([1,2])
-    ordered_after_trigger = True
+    def hit_trigger (self):
+        self.me.move_opponent([1,2])
+    ordered_hit_trigger = True
 
 class Maddening (Style):
     maxrange = 1
@@ -11042,7 +11047,7 @@ class PointBlank (Style):
     maxrange = 1
     stunguard = 2
     preferred_range = 0.5
-    def hit_trigger (self):
+    def damage_trigger (self, damage):
         self.me.push ((2,1,0))
     ordered_hit_trigger = True
 
@@ -11716,8 +11721,8 @@ class HandOfDivinity (Finisher):
     soak = 3
     def has_stun_immunity (self):
         return True
-    def hit_trigger (self):
-        self.me.advance ((0,1,2,3,4,5))
+    def after_trigger (self):
+        self.me.advance (range(6))
     ordered_hit_trigger = True
     def evaluate_setup (self):
         return 1 if self.game.distance() == 5 else 0
@@ -11920,9 +11925,6 @@ class Hellraising (Style):
                                         self.opponent.position) \
                               - set ((self.me.position, self.opponent.position)))
     ordered_start_trigger = True
-    def hit_trigger (self):
-        self.me.pull ([1])
-    ordered_hit_trigger = True
     def evaluation_bonus(self):
         return 0.3 if self.me.position in [0,6] else -0.15
 
@@ -11949,9 +11951,9 @@ class Thunderous (Style):
         self.me.zombies.add(self.me.position)
         self.me.advance([2])
     ordered_start_trigger = True
-    def hit_trigger (self):
+    def damage_trigger (self, damage):
         self.me.push ((2,1,0))
-    ordered_hit_trigger = True
+    ordered_damage_trigger = True
 
 #Zaamassal
 
