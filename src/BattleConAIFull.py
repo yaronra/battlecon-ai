@@ -8102,19 +8102,19 @@ class Manipulative(Style):
      
 # blocks start/end triggers
 class Fear(Token):
-    value = 0.7
+    value = 0.5
     
 # blocks power/priority bonuses
 class Hesitation(Token):
-    value = 0.8
+    value = 0.6
 
 # blocks hit/damage triggers
 class Mercy(Token):
-    value = 0.6
+    value = 0.4
     
 # blocks before/after triggers
 class Recklessness(Token):
-    value = 1.2
+    value = 0.8
      
         
 #Aria
@@ -9660,11 +9660,11 @@ class Geomantic (Style):
 
 class Earth (Token):
     soak = 3
-    value = 1.2
+    value = 0.9
 
 class Fire (Token):
     power = 3
-    value = 1
+    value = 0.8
 
 class Water (Token):
     minrange = -1
@@ -9673,7 +9673,7 @@ class Water (Token):
 
 class Wind (Token):
     priority = 2
-    value = 0.8
+    value = 0.7
 
 
 #Kajia

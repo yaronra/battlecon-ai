@@ -887,6 +887,31 @@ def alexian_tokens (logdir="main"):
     print
     parse_base_vs_induced_ante('alexian', logdir)
 
+def arec_tokens (logdir="main"):
+    token_dict = {'Fear':0,
+                  'Hesitation':0,
+                  'Mercy':0,
+                  'Recklessness':0}
+    beats = 0
+    for filename in list_files(logdir, 'arec'):
+        with open (filename) as f:
+            log = [line for line in f]
+        arec_reporting = False
+        previous_line = ''
+        for line in log:
+            if line.startswith('---'):
+                arec_reporting = (previous_line == 'Arec\n')
+            elif arec_reporting and line.startswith ('pool:'):
+                tokens = line[6:-1].split(', ')
+                for t in tokens:
+                    if t!='':
+                        token_dict[t] += 1
+                beats += 1
+            previous_line = line
+    for token, count in token_dict.items():
+        print token, percentify(count/float(beats))
+    print "total:", sum([token_dict[t] for t in token_dict])/float(beats)
+
 def aria_droids (logdir="main"):
     n_beats = 0.0
     # last slot is for 'None'
