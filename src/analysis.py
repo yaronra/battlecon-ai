@@ -8,6 +8,7 @@ import re
 
 phrases = {  'adjenna' : ['Basilisk Gaze'],
              'alexian' : ['Empire Divider', 'Hail The King'],
+             'arec': ['Uncanny Oblivion'],
              'aria' : ['Laser Lattice'],
              'byron' : ['Soul Trap', 'Soul Gate'],
              'cadenza' : ['Rocket Press', 'Feedback Field'],

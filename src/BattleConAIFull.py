@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-
 # TO DO
 
 # Pulse: when no character has board markers, can use board symmetry
@@ -81,8 +80,8 @@ def main():
     
 
 def ad_hoc():
-#    duel('seth', 'ottavia', 1)
-    free_for_all(1, ['ottavia'], 'byron', [], True, False)
+#    duel('arec', 'kallistar', 1)
+    free_for_all(1, ['arec'], None, [], True, False)
 #     start_with = 'adjenna'
 #     names = [n for n in playable if n >= start_with]
 #     names = ['marmelee']
@@ -95,6 +94,7 @@ def ad_hoc():
 
 playable = [ 'adjenna',
              'alexian',
+             'arec',
              'aria',
              'byron',
              'cadenza',
@@ -949,8 +949,8 @@ class Game:
     def cycle_and_evaluate (self):
         for p in self.player:
             p.cycle ()
-            # finishers and pulsers lose their special actions
-            # (a cancel doesn't get here)
+            # Pulsers lose their special action
+            # (a cancel doesn't get here, a finisher lost it in reveal)
             if isinstance (p.style, SpecialAction):
                 p.special_action_available = False
         
@@ -1635,6 +1635,11 @@ class Character (object):
                           self.grasp,
                           self.dash]
 
+        # Record characters starting cards, in case they lose some
+        # during the game.
+        self.initial_styles = self.styles[:]
+        self.initial_bases = self.bases[:]
+        
         # create attributes for styles and finishers
         for card in self.styles + self.finishers:
             name = card.name.replace('-','_').replace(' ','_').replace("'",'').lower()
@@ -1711,12 +1716,20 @@ class Character (object):
         for d in (1,2):
             self.discard[d] = set([c for c in cards
                                    if c.name in lines[d]])
-        if len(lines) > 3 and lines[3] == "special action\n":
+        # Figure out where standard portion of report ends,
+        # and any character specific data starts.
+        next_line_index = 3
+        if find_start(lines, 'Special action available'):
             self.special_action_available = True
-            return lines[4:]
+            next_line_index += 1
         else:
             self.special_action_available = False
-            return lines[3:]
+        removed_line = find_start(lines, 'Removed cards:')
+        if removed_line:
+            self.styles = [s for s in self.styles if s.name not in removed_line]
+            self.bases = [b for b in self.bases if b.name not in removed_line]
+            next_line_index += 1
+        return lines[next_line_index:]
     
     # set character state for start of a game
     def set_starting_setup (self, default_discards, use_special_actions):
@@ -1760,11 +1773,16 @@ class Character (object):
         report.append (self.name + (" (beta bases)" 
                                     if self.use_beta_bases else ""))
         report.append ('-' * len (self.name))
-        report.append ('life: %d' %self.life)
-        report.append ('discard 1: ' + self.discard_report (self.discard[1]))
-        report.append ('discard 2: ' + self.discard_report (self.discard[2]))
+        report.append ('Life: %d' %self.life)
+        report.append ('Discard 1: ' + self.discard_report (self.discard[1]))
+        report.append ('Discard 2: ' + self.discard_report (self.discard[2]))
+        initial_cards = set(self.initial_styles + self.initial_bases)
+        cards = set(self.styles + self.bases)
+        missing_cards = initial_cards - cards
+        if missing_cards:
+            report.append('Removed cards: ' + self.discard_report (missing_cards))
         if self.special_action_available:
-            report.append ('special action')
+            report.append ('Special action available')
         return report
 
     def discard_report (self, pile):
@@ -1782,6 +1800,8 @@ class Character (object):
         state.discard = [d.copy() for d in self.discard]
         state.special_action_available = self.special_action_available
         state.pool = self.pool[:]
+        state.styles = self.styles[:]
+        state.bases = self.bases[:]
         return state
 
     # restore state before setting a new strategy
@@ -1791,7 +1811,9 @@ class Character (object):
         self.discard = [d.copy() for d in state.discard]
         self.special_action_available = state.special_action_available
         self.pool = state.pool[:]
-
+        self.styles = state.styles[:]
+        self.bases = state.bases[:]
+        
     # reset character to status at start of beat
     def reset (self):
         self.damage_taken = 0
@@ -2028,12 +2050,17 @@ class Character (object):
                    sum(card.priority+card.get_priority_bonus()
                         for card in self.active_cards) + \
                    self.opponent.give_priority_penalty()
-        if self.opponent.blocks_bonuses():
+        if self.opponent.blocks_priority_bonuses():
             priority = min (priority, self.style.priority + self.base.priority)
         return priority
+    def get_printed_power(self):
+        if self.alt_pair_power is None:
+            return self.style.power + self.base.power
+        else:
+            return self.alt_pair_power
     def get_power (self):
         if self.alt_pair_power is None:
-            card_power = sum(card.power+card.get_power_bonus()
+            card_power = sum(card.power + card.get_power_bonus()
                              for card in self.active_cards)
         else:
             # When pair power is externally fixed, used it instead
@@ -2046,8 +2073,8 @@ class Character (object):
         power = (card_power + self.get_power_bonus() + 
                  self.triggered_power_bonus + 
                  self.opponent.give_power_penalty())
-        if self.opponent.blocks_bonuses():
-            power = min (power, self.style.power + self.base.power)
+        if self.opponent.blocks_power_bonuses():
+            power = min (power, self.get_printed_power())
         # power has a minimum of 0
         return max (0, power)
     def get_minrange (self):
@@ -2055,7 +2082,7 @@ class Character (object):
                    sum(card.minrange+card.get_minrange_bonus()
                         for card in self.active_cards) + \
                    self.opponent.give_minrange_penalty()
-        if self.opponent.blocks_bonuses():
+        if self.opponent.blocks_range_bonuses():
             minrange = min (minrange, self.style.minrange + self.base.minrange)
         return minrange
     def get_maxrange (self):
@@ -2063,7 +2090,7 @@ class Character (object):
                    sum(card.maxrange+card.get_maxrange_bonus()
                         for card in self.active_cards) + \
                    self.opponent.give_maxrange_penalty()
-        if self.opponent.blocks_bonuses():
+        if self.opponent.blocks_range_bonuses():
             maxrange = min (maxrange, self.style.maxrange + self.base.maxrange)
         return maxrange
     def get_priority_bonus (self):
@@ -2099,9 +2126,11 @@ class Character (object):
         for card in self.active_cards:
             card.reveal_trigger()
     def start_trigger (self):
-        self.activate_card_triggers('start_trigger')
+        if not self.opponent.blocks_start_triggers():
+            self.activate_card_triggers('start_trigger')
     def before_trigger (self):
-        self.activate_card_triggers('before_trigger')
+        if not self.opponent.blocks_before_triggers():
+            self.activate_card_triggers('before_trigger')
     def hit_trigger (self):
         if not self.opponent.blocks_hit_triggers():
             self.activate_card_triggers('hit_trigger')
@@ -2118,9 +2147,11 @@ class Character (object):
     def after_trigger_for_opponent(self):
         pass
     def after_trigger (self):
-        self.activate_card_triggers('after_trigger')
+        if not self.opponent.blocks_after_triggers():
+            self.activate_card_triggers('after_trigger')
     def end_trigger (self):
-        self.activate_card_triggers('end_trigger')
+        if not self.opponent.blocks_end_triggers():
+            self.activate_card_triggers('end_trigger')
     # This is for unique abilites that say "end of beat"
     def unique_ability_end_trigger (self):
         pass
@@ -2140,8 +2171,9 @@ class Character (object):
             prompt = "Choose trigger to execute first:"
             options = [card.name for card in ordered_cards]
             first = self.game.make_fork (2, self, prompt, options)
-            trigger(ordered_cards[first])(*params)
-            trigger(ordered_cards[1-first])(*params)
+            abort = trigger(ordered_cards[first])(*params)
+            if not abort:
+                trigger(ordered_cards[1-first])(*params)
         elif n_ordered == 3:
             prompt = "Choose order of triggers:"
             options = []
@@ -2154,13 +2186,13 @@ class Character (object):
             first = order%3             # [012012]
             second = 2 - order/2        # [221100]
             third = 3 - first - second  # [100221]
-            trigger(ordered_cards[first])(*params)
-            trigger(ordered_cards[second])(*params)
-            trigger(ordered_cards[third])(*params)
+            abort = trigger(ordered_cards[first])(*params)
+            if not abort:
+                abort = trigger(ordered_cards[second])(*params)
+            if not abort:
+                trigger(ordered_cards[third])(*params)
         elif n_ordered > 3:
             raise Exception("Can't handle %d simultaneous ordered triggers" % n_ordered)
-            
-            
 
     # special ability calculation
     def is_attacking (self):
@@ -2212,8 +2244,12 @@ class Character (object):
     # For rare abilities, return False automatically.
     # Characters that have the ability need to override this.
 
-    # block opponent's power,priority,range from going above printed style+base
-    def blocks_bonuses (self):
+    # block opponent's stats from going above printed style+base
+    def blocks_priority_bonuses (self):
+        return False
+    def blocks_power_bonuses (self):
+        return False
+    def blocks_range_bonuses (self):
         return False
     # block effects of tokens anted and spent
     # cannot refer to self.active_cards, because it is used in making it
@@ -2228,24 +2264,19 @@ class Character (object):
     # makes in-beat choices (forks) for opponent
     def controls_opponent (self):
         return False
+    def blocks_start_triggers (self):
+        return False
+    def blocks_before_triggers (self):
+        return False
     def blocks_hit_triggers (self):
         return False
     def blocks_damage_triggers (self):
         return False
+    def blocks_after_triggers (self):
+        return False
+    def blocks_end_triggers (self):
+        return False
     
-    
-##    def mimics_movement (self):
-##        return any (card.mimics_movement() for card in self.active_cards)
-##    # block opponent's power,priority,range from increasing above style+base
-##    def blocks_bonuses (self):
-##        return any (card.blocks_bonuses() for card in self.active_cards)
-##    # block effects of tokens anted and spent
-##    # cannot refer to self.active_cards, because it is used in making it
-##    def blocks_tokens (self):
-##        return self.style.blocks_tokens() or self.base.blocks_tokens()
-##    def movement_reaction (self, mover, old_position, direct):
-##        for card in self.active_cards:
-##            card.movement_reaction (mover, old_position, direct)
     def has_stun_immunity (self):
         return any (card.has_stun_immunity() for card in self.active_cards)
     def give_priority_penalty (self):
@@ -2307,7 +2338,7 @@ class Character (object):
     # apply damage from attack or other source
     def take_damage (self, damage):
         soak = self.opponent.reduce_soak(self.get_soak())
-        if self.game.debug and soak:
+        if self.game.reporting and soak:
             self.game.report ('%s has %d soak' % (self, soak))
         damage_soaked = min (soak, damage)
         if damage_soaked:
@@ -2427,6 +2458,18 @@ class Character (object):
             self.game.report ("%s gains %d %s token%s"
                               %(self.name, gain, self.tokens[0].name,
                                 ("s" if gain>1 else "")))
+    
+    def remove_attack_pair_from_game(self):
+        # Remove attack pair from list of available cards for
+        # future beats.
+        self.styles = [s for s in self.styles if s is not self.style]
+        self.bases = [b for b in self.bases if b is not self.base]
+        self.discard[0] -= set([self.style, self.base])
+        # Replace current style and base with null cards, so that
+        # they don't do anything this beat.
+        self.style = self.null_style
+        self.base = self.null_base
+        self.set_active_cards()
 
     # Various convenience movement functions:
     def advance (self, moves):
@@ -2693,7 +2736,9 @@ class Card (object):
     def get_preferred_range(self):
         return self.preferred_range
 
-    # triggers
+    # Triggers
+    # Returning True instead of None causes further triggers of this
+    # type (by this player) to be aborted.
     def ante_trigger(self):
         pass
     def reveal_trigger(self):
@@ -2749,10 +2794,6 @@ class Card (object):
         pass
     def mimics_movement (self):
         return False
-    def blocks_bonuses (self):
-        return False
-    def blocks_tokens (self):
-        return False
     def has_stun_immunity (self):
         return False
     def give_priority_penalty (self):
@@ -2789,11 +2830,11 @@ class Base (Card):
         return self.name
 
 # Placeholders used before the reveal step, so that no card abilities
-# are activated.
+# are activated, and also when an ability removes cards mid beat.
 class NullStyle (Style):
     pass
 class NullBase (Base):
-    pass
+    is_attack = False
 
 # only covers token's effects when anted.
 # anything else should be covered by the character
@@ -3040,6 +3081,257 @@ class Alexian (Character):
         return value
 
 
+class Arec (Character):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
+        self.unique_base = Hex (the_game, self)
+        self.styles = [Phantom      (the_game, self),
+                       Perceptional (the_game, self),
+                       Returning    (the_game, self),
+                       Mirrored     (the_game, self),
+                       Manipulative (the_game, self)  ]
+        self.finishers = [UncannyOblivion (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
+        self.tokens = [Fear         (the_game, self),
+                       Hesitation   (the_game, self),
+                       Mercy        (the_game, self),
+                       Recklessness (the_game, self)]
+        for token in self.tokens:
+            self.__dict__[token.name.lower()] = token
+        
+    def set_starting_setup (self, default_discards, use_special_actions):
+        Character.set_starting_setup (self, default_discards, use_special_actions)
+        self.pool = self.tokens[:]
+        self.clone_position = None
+        self.manipulative_base = None
+
+    #TODO: choose
+    def choose_initial_discards (self):
+        return (self.phantom, self.strike,
+                self.manipulative, self.grasp)
+
+    def situation_report(self):
+        report = Character.situation_report (self)
+        tokens = [t.name for t in self.pool]
+        report.append("pool: " + ', '.join(tokens))
+        if self.manipulative_base:
+            report.append("Manipulative forced base: %s" % 
+                          self.manipulative_base)
+        return report
+
+    def read_my_state (self, lines, board, addendum):
+        lines = Character.read_my_state (self, lines, board, addendum)
+        self.pool = [t for t in self.tokens if t.name in lines[0]]
+        line = find_start(lines, "Manipulative forced base:")
+        self.manipulative_base = None
+        for base in self.opponent.bases:
+            if base.name in line:
+                self.manipulative_base = base
+        self.clone_position = addendum[0].find('c')
+        if self.clone_position == -1:
+            self.clone_position == None
+
+    board_addendum_lines = 1
+    def get_board_addendum (self):
+        if self.clone_position is None:
+            return ''
+        addendum = ['.'] * 7
+        addendum [self.clone_position] = 'c'
+        return ''.join(addendum)
+
+    def initial_save (self):
+        state = Character.initial_save (self)
+        state.clone_position = self.clone_position
+        state.manipulative_base = self.manipulative_base
+        return state
+
+    def initial_restore (self, state):
+        Character.initial_restore (self, state)
+        self.clone_position = state.clone_position
+        self.manipulative_base = state.manipulative_base
+
+    def reset (self):
+        self.returning_range_triggered = False
+        Character.reset (self)
+
+    def full_save (self):
+        state = Character.full_save (self)
+        state.returning_range_triggered = self.returning_range_triggered
+        return state
+
+    def full_restore (self, state):
+        Character.full_restore (self, state)
+        self.returning_range_triggered = state.returning_range_triggered
+
+    def get_antes (self):
+        clone_antes = ([False] if self.clone_position is None 
+                       else [False, True])
+        token_antes = [None] + self.pool
+        return list(itertools.product(clone_antes, token_antes))
+
+    def input_ante (self):
+        if self.clone_position is None:
+            clone_ante = False
+        else:
+            print "Move to clone?"
+            clone_ante = bool(menu(['No', 'Yes']))
+        if self.pool:
+            print "Select token to ante:"
+            options = [t.name for t in self.pool] + ["None"]
+            ans = menu (options)
+            token_ante = (self.pool[ans] if ans < len(self.pool) 
+                          else None)
+        else:
+            token_ante = None
+        return (clone_ante, token_ante)
+
+    def ante_trigger (self):
+        if self.strat[2][0][0]:
+            assert self.clone_position is not None
+            # Setting clone position to None before moving, so that
+            # clone doesn't appear in post-move board report.
+            pos = self.clone_position
+            self.clone_position = None
+            self.move_directly([pos])
+        if self.strat[2][0][1] is not None:
+            self.ante_token (self.strat[2][0][1])
+        self.clone_position = None
+
+    def get_ante_name (self, a):
+        token_name = a[1].name if a[1] else ""
+        clone_name = "move to clone" if a[0] else ""
+        names = [token_name, clone_name]
+        names = filter(None, names)
+        return '; '.join(names)
+        
+    def recover_tokens (self):
+        recoverable = [t for t in self.tokens if t not in (self.pool+self.ante)]
+        if len(recoverable) > 0:
+            values = [t.value for t in recoverable]
+            prompt = "Select a token to recover:"
+            options = [t.name for t in recoverable]
+            choice = values.index (max (values))
+            # fake fork for AI, just select the best token
+            choice = self.game.make_fork (len(recoverable), self, \
+                                               prompt, options, choice)
+            recovered = recoverable [choice]
+            self.pool += [recovered]
+            if self.game.reporting:
+                self.game.report ("%s recovers %s token" % (self, recovered.aname))
+
+    # Tokens block opponent's triggers.
+    def blocks_start_triggers(self):
+        return self.fear in self.active_cards
+    def blocks_before_triggers(self):
+        return self.recklessness in self.active_cards
+    def blocks_hit_triggers(self):
+        return self.mercy in self.active_cards
+    def blocks_damage_triggers(self):
+        return self.mercy in self.active_cards
+    def blocks_after_triggers(self):
+        return self.recklessness in self.active_cards
+    def blocks_end_triggers(self):
+        return self.fear in self.active_cards
+    
+    # Tokens block own triggers.
+    def start_trigger (self):
+        if not any(p.blocks_start_triggers() for p in self.game.player):
+            self.activate_card_triggers('start_trigger')
+    def before_trigger (self):
+        if not any(p.blocks_before_triggers() for p in self.game.player):
+            self.activate_card_triggers('before_trigger')
+    def hit_trigger (self):
+        if not any(p.blocks_hit_triggers() for p in self.game.player):
+            self.activate_card_triggers('hit_trigger')
+    # also, Hex doesn't stun.
+    def damage_trigger (self, damage):
+        if not any(p.blocks_damage_triggers() for p in self.game.player):
+            self.activate_card_triggers('damage_trigger', [damage])
+        if self.base != self.unique_base:
+            self.opponent.stun (damage)
+    def after_trigger (self):
+        if not any(p.blocks_after_triggers() for p in self.game.player):
+            self.activate_card_triggers('after_trigger')
+    def end_trigger (self):
+        if not any(p.blocks_end_triggers() for p in self.game.player):
+            self.activate_card_triggers('end_trigger')
+        
+    # Token blocks opponent's bonuses
+    def blocks_power_bonuses(self):
+        return self.hesitation in self.active_cards
+    def blocks_priority_bonuses(self):
+        return self.hesitation in self.active_cards
+    
+    # Token blocks own bonuses
+    def get_priority (self):
+        priority = Character.get_priority(self)
+        if self.blocks_priority_bonuses():
+            priority = min (priority, self.style.priority + self.base.priority)
+        return priority
+    def get_power (self):
+        power = Character.get_power(self)
+        if self.blocks_power_bonuses():
+            power = min(power, self.get_printed_power())
+        power = max(0, power)
+        return power
+
+    def get_minrange(self):
+        return 1 if self.returning_range_triggered else Character.get_minrange(self)
+    def get_maxrange(self):
+        return 6 if self.returning_range_triggered else Character.get_maxrange(self)
+
+    # BUG: doesn't play nice with clashes: will go by final base,
+    # rather than initial one.
+    def reveal_trigger(self):
+        if self.manipulative_base not in (None, self.opponent.base):
+            self.opponent.lose_life(2)
+        self.manipulative_base = None
+
+    def evaluate (self):
+        base_eval = Character.evaluate(self)
+        # To evaluate a clone, give the best evaluation of 
+        # real position and clone position.
+        if self.clone_position is not None:
+            # Check my and opponent's evaluation in current position,
+            # and from clone position.
+            my_eval = base_eval
+            opp_eval = self.opponent.evaluate()
+            real_pos = self.position
+            self.position = self.clone_position
+            my_clone_eval = Character.evaluate(self)
+            opp_clone_eval = self.opponent.evaluate()
+            self.position = real_pos
+            # Real evaluation is best of the two.
+            base_eval = max(my_eval - opp_eval, 
+                       my_clone_eval - opp_clone_eval)
+            # However, since this has already subtracted opponent's
+            # evalutaion (and it shouldn't), we need to cancel out
+            # opponent's actual evaluation.
+            base_eval += opp_eval
+            # Give bonus for having a clone position at all, and keeping
+            # the opponent guessing.  Bonus is larger clone position has
+            # different range from real position.
+            my_range = abs(self.position - self.opponent.position)
+            clone_range = abs(self.clone_position - self.opponent.position) 
+            base_eval += 0.3 * (abs(my_range - clone_range) + 1)
+        elif self.manipulative_base is not None and self.opponent.life > 1:
+            # Compare opponent's evalutation with and without chosen base.
+            opp_eval = self.opponent.evaluate()
+            real_preferred_range = self.opponent.preferred_range
+            self.opponent.discard[2].add(self.manipulative_base)
+            self.opponent.set_preferred_range()
+            new_opp_eval = self.opponent.evaluate()
+            self.opponent.discard[2].remove(self.manipulative_base)
+            self.opponent.preferred_range = real_preferred_range
+            base_value = opp_eval - new_opp_eval
+            # Shift range of possible values (say, -10 to 10) to (0 to 2)
+            # (2 is maximum value of this ability).
+            base_value = base_value / 10.0 + 1
+            if self.opponent.life == 2:
+                base_value /= 2
+            base_eval += base_value
+        # Assuming that token values are independent of position.
+        return base_eval + sum(t.value for t in self.pool)
+        
 class Aria (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Reconfiguration (the_game, self)
@@ -3316,7 +3608,7 @@ class Byron (Character):
         if self.base.name == 'Smoke':
             maxrange = self.base.maxrange + \
                        self.opponent.give_maxrange_penalty()
-            if self.opponent.blocks_bonuses():
+            if self.opponent.blocks_range_bonuses():
                 maxrange = min (maxrange, self.base.maxrange)
         else:
             maxrange = Character.get_maxrange(self)
@@ -3326,7 +3618,7 @@ class Byron (Character):
         if self.base.name == 'Smoke':
             minrange = self.base.minrange + \
                        self.opponent.give_minrange_penalty()
-            if self.opponent.blocks_bonuses():
+            if self.opponent.blocks_range_bonuses():
                 minrange = min (minrange, self.base.minrange)
         else:
             minrange = Character.get_minrange(self)
@@ -3567,7 +3859,7 @@ class Cesar (Character):
     # Copying all this to implement Cesar's death immunity.
     def take_damage (self, damage):
         soak = self.opponent.reduce_soak(self.get_soak())
-        if self.game.debug and soak:
+        if self.game.reporting and soak:
             self.game.report ('%s has %d soak' % (self, soak))
         damage_soaked = min (soak, damage)
         if damage_soaked:
@@ -4940,11 +5232,9 @@ class Karin (Character):
         addendum [self.jager_position] = 'j'
         return ''.join(addendum)
 
-    # TODO: since this is an actual "End of Beat" effects, it should
-    # be blocked when such effects are blocked.
     def end_trigger (self):
         Character.end_trigger (self)
-        if not self.is_stunned():
+        if not self.opponent.blocks_end_triggers() and not self.is_stunned():
             self.move_jager ([-1,0,1])
                 
     # given moves are relative
@@ -5035,6 +5325,22 @@ class Kehrolyn (Character):
         return (self.mutating, self.grasp,
                 self.bladed, self.strike)
 
+    def reset (self):
+        Character.reset (self)
+        self.overloaded_style = None
+        self.mutated_style = None
+
+    def full_save (self):
+        state = Character.full_save (self)
+        state.overloaded_style = self.overloaded_style
+        state.mutated_style = self.mutated_style
+        return state
+
+    def full_restore (self, state):
+        Character.full_restore (self, state)
+        self.overloaded_style = state.overloaded_style
+        self.mutated_style = state.mutated_style
+        
     # current form is active in addition to normal style and base
     def set_active_cards (self):
         Character.set_active_cards (self)
@@ -5042,26 +5348,14 @@ class Kehrolyn (Character):
         for card in self.discard[1]:
             if isinstance (card, Style):
                 self.current_form = card
+                break
+        else:
+            self.current_from = self.null_style
         self.active_cards.append (self.current_form)
-
-    # if mutating is in active cards, replace it with a copy of the other style
-    # TODO: change this to a start trigger (and check for blocking start triggers).
-    def reveal_trigger (self):
-        if self.current_form == self.mutating:
-            self.active_cards [self.active_cards.index (self.mutating)] = \
-                self.style
-        if self.style == self.mutating:
-            self.active_cards [self.active_cards.index (self.mutating)] = \
-                self.current_form
-        Character.reveal_trigger (self)
-
-    # if there's a repeating style in active_cards, lose life for Mutating
-    # can't put this in Mutating, because it is replaced at start_trigger
-    # TODO: if end of beat effects are blocked, block this.
-    def end_trigger (self):
-        if len (set (self.active_cards)) < len (self.active_cards):
-            self.lose_life (1)
-        Character.end_trigger (self)
+        if self.overloaded_style:
+            self.active_cards.append(self.overloaded_style)
+        if self.mutating in self.active_cards and self.mutated_style:
+            self.active_cards.append(self.mutated_style)
 
     # if Whip is current form, add Whip bonus (see under Whip)
     # if Mutating is current form, Whip doubling handled by Whip
@@ -5267,13 +5561,17 @@ class Lixis (Character):
     # for performance, the following methods just return False by default
     # so Lixis needs to override them
 
-    # block opponent's power,priority,range from increasing above style+base
-    def blocks_bonuses (self):
-        return any (card.blocks_bonuses() for card in self.active_cards)
+    # block opponent's stats from increasing above style+base
+    def blocks_priority_bonuses (self):
+        return self.naturalizing in self.active_cards
+    def blocks_power_bonuses (self):
+        return self.naturalizing in self.active_cards
+    def blocks_range_bonuses (self):
+        return self.naturalizing in self.active_cards
     # block effects of tokens anted and spent
     # cannot refer to self.active_cards, because it is used in making it
     def blocks_tokens (self):
-        return self.style.blocks_tokens() or self.base.blocks_tokens()
+        return self.naturalizing in self.active_cards
 
 class Luc (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
@@ -6391,9 +6689,9 @@ class Seth (Character):
         return 0.1 * self.correct_guess + Character.clash_priority(self)
 
     # logic to handle Wyrding shenanigans
-    # TODO: block if start triggers are blocked.
     def start_trigger (self):
-        if self.wyrding in self.active_cards:
+        if (not self.opponent.blocks_start_triggers() and 
+            self.wyrding in self.active_cards):
             old_base = self.base
             # we might get a new base
             self.style.start_trigger ()
@@ -7674,7 +7972,151 @@ class Chivalry (Token):
     def get_priority_bonus(self):
         return 1 if self.me.regal not in self.me.active_cards else 0
       
+#Arec
 
+class UncannyOblivion(Finisher):
+    minrange = 2
+    maxrange = 2
+    priority = 8
+    def hit_trigger(self):
+        self.opponent.remove_attack_pair_from_game()
+    def evaluate_setup(self):
+        return 1.0 if self.game.distance() == 2 else 0
+
+# Not Implemented
+class DominatePerson(Finisher):
+    pass
+
+class Hex(Base):
+    standard_range = False
+    power = 3
+    priority = 3
+    preferred_range = 3
+    def special_range_hit(self):
+        return True
+    def hit_trigger(self):
+        self.me.move_opponent([0,1])
+        self.me.recover_tokens()
+    ordered_hit_trigger = True
+    # Not stunning handled by Arec.damage_trigger()    
+    def evaluation_bonus(self):
+        return 0.05 if len(self.me.pool) < 4 else -0.1
+    
+class Phantom(Style):
+    maxrange = 2
+    power = -1
+    priority = 1
+    preferred_range = 1
+    def reduce_soak(self, soak):
+        return 0
+    def end_trigger(self):
+        self.me.recover_tokens()
+    def evaluation_bonus(self):
+        return 0.05 if len(self.me.pool) < 4 else -0.1
+     
+class Perceptional(Style):
+    minrange = 1
+    maxrange = 2
+    priority = 1
+    preferred_range = 1.5
+    def start_trigger(self):
+        # fork to decide which token is anted (or none)
+        if self.me.can_spend(1):
+            n_options = len(self.me.pool) + 1
+            prompt = "Select a token to ante with Perceptional:"
+            options = [t.name for t in self.me.pool] + ["None"]
+            token_number = self.game.make_fork(n_options, self.me, 
+                                               prompt, options)
+            if token_number < len (self.me.pool):
+                self.me.ante_token(self.me.pool[token_number])
+        # If Fear spent, block further start triggers by Arec.
+        if self.me.fear in self.me.active_cards:
+            return True
+    # Order only matters if you can spend a Fear token to block
+    # your own Burst.
+    @property
+    def ordered_start_trigger(self):
+        return self.me.can_spend(self.me.fear)
+    def hit_trigger(self):
+        self.me.pull([0,1])
+    ordered_hit_trigger = True
+    def evaluation_bonus(self):
+        return 0.1 if len(self.me.pool) > 0 else -0.2
+        
+class Returning(Style):
+    maxrange = 1
+    priority = 1
+    preferred_range = 0.5
+    clash_priority = 0.1
+    def start_trigger (self):
+        # Alpha and beta bases equate by color.
+        if self.me.base.alpha_name == self.opponent.base.alpha_name:
+            self.opponent.stun()
+            self.me.returning_range_triggered = True
+
+class Mirrored(Style):
+    minrange = 1
+    maxrange = 2
+    power = 1
+    preferred_range = 1.5
+    def can_be_hit(self):
+        return self.opponent.attack_range() != 2
+    def end_trigger(self):
+        # Fork to decide clone location.
+        positions = [i for i in xrange(6) if i not in (self.me.position,
+                                                       self.opponent.position)]
+        prompt = "Place clone:"
+        options = []
+        if self.me.is_user and self.game.interactive_mode:
+            for pos in positions:
+                self.me.clone_position = pos
+                options.append (self.get_board_addendum())
+        self.me.clone_position = positions [
+            self.game.make_fork(len(positions), self.me, prompt, options)]
+        if self.game.reporting:
+            self.game.report ("Arec places clone:")
+            for s in self.game.get_board():
+                self.game.report (s)
+    ordered_end_trigger = True
+    def evaluation_bonus(self):
+        return 0.4 if self.game.distance() == 2 else -0.2
+        
+class Manipulative(Style):
+    power = 1
+    def hit_trigger(self):
+        available_bases = list(set(self.opponent.bases)
+                               - self.opponent.discard[0]
+                               - self.opponent.discard[1]
+                               - self.opponent.discard[2])
+        ans = self.game.make_fork(len(available_bases), self.me,
+                "Choose base in opponent's hand:",
+                [base.name for base in available_bases])
+        self.me.manipulative_base = available_bases[ans]
+        if self.game.reporting:
+            self.game.report("Arec chooses %s's base: %s" %
+                             (self.opponent, self.me.manipulative_base))
+    def damage_trigger(self, damage):
+        self.me.recover_tokens()
+    def evaluation_bonus(self):
+        return 0.05 if len(self.me.pool) < 4 else -0.1
+     
+# blocks start/end triggers
+class Fear(Token):
+    value = 0.7
+    
+# blocks power/priority bonuses
+class Hesitation(Token):
+    value = 0.8
+
+# blocks hit/damage triggers
+class Mercy(Token):
+    value = 0.6
+    
+# blocks before/after triggers
+class Recklessness(Token):
+    value = 1.2
+     
+        
 #Aria
 
 # Not implemented
@@ -9207,13 +9649,14 @@ class Sweeping (Style):
 class Geomantic (Style):
     power = 1
     def start_trigger (self):
-        # fork to decide which token is anted (or none)
-        n_options = len(self.me.pool) + 1
-        prompt = "Select a token to ante with Geomantic:"
-        options = [t.name for t in self.me.pool] + ["None"]
-        token_number = self.game.make_fork (n_options, self.me, prompt, options)
-        if token_number < len (self.me.pool):
-            self.me.ante_token (self.me.pool[token_number])
+        if self.me.can_spend(1):
+            # fork to decide which token is anted (or none)
+            n_options = len(self.me.pool) + 1
+            prompt = "Select a token to ante with Geomantic:"
+            options = [t.name for t in self.me.pool] + ["None"]
+            token_number = self.game.make_fork (n_options, self.me, prompt, options)
+            if token_number < len (self.me.pool):
+                self.me.ante_token (self.me.pool[token_number])
 
 class Earth (Token):
     soak = 3
@@ -9226,11 +9669,11 @@ class Fire (Token):
 class Water (Token):
     minrange = -1
     maxrange = 1
-    value = 0.8
+    value = 0.6
 
 class Wind (Token):
     priority = 2
-    value = 0.6
+    value = 0.8
 
 
 #Kajia
@@ -9718,16 +10161,20 @@ class Overload (Base):
         options = [s.name for s in available_styles]
         choice = self.game.make_fork (len(available_styles), self.me, prompt,
                                       options)
+        self.me.overloaded_style = available_styles[choice] 
         if self.game.reporting:
-            self.game.report ("Kehrolyn overloads " + available_styles[choice].name)
-        if available_styles[choice] == self.me.mutating:
-            self.me.active_cards.append (self.me.current_form)
-        else:
-            self.me.active_cards.append (available_styles[choice])
+            self.game.report ("Kehrolyn overloads %s" % self.me.overloaded_style)
+        self.me.set_active_cards()
+        # In case Mutating was overloaded.
+        self.me.overloaded_style.start_trigger()
 
-# replaced at reveal, never does anything
 class Mutating (Style):
-    # Just in case the start trigger was blocked, and it's still here.
+    def start_trigger (self):
+        if self == self.me.current_form:
+            self.me.mutated_style = self.me.style
+        if self in (self.me.style, self.me.overloaded_style):
+            self.me.mutated_style = self.me.current_form
+        self.me.set_active_cards()
     def end_trigger(self):
         self.me.lose_life(1)
     # doubles as Whip if Whip is current form
@@ -9735,6 +10182,7 @@ class Mutating (Style):
         return (self.me.whip.preferred_range if self.me.whip in self.me.discard[1] else 0)
     def discard_penalty (self):
         return 0.5
+    # Duplication handled on character level.
 
 class Bladed (Style):
     power = 2
@@ -9953,10 +10401,7 @@ class Naturalizing (Style):
     power = -1
     priority = 1
     preferred_range = 0.5
-    def blocks_bonuses (self):
-        return True
-    def blocks_tokens (self):
-        return True
+    # blocking bonuses and tokens handled by Lixis.blocks_xxx() methods.
 
 class Vine (Style):
     maxrange = 2
@@ -10244,7 +10689,7 @@ class Fathomless (Style):
             self.me.become_active_player()
             self.me.move_to_unoccupied()
     ordered_start_trigger = True
-    def evaluate(self):
+    def evaluation_bonus(self):
         # Good against Dash
         if self.opponent.use_beta_bases:
             return 0
@@ -11049,7 +11494,7 @@ class PointBlank (Style):
     preferred_range = 0.5
     def damage_trigger (self, damage):
         self.me.push ((2,1,0))
-    ordered_hit_trigger = True
+    ordered_damage_trigger = True
 
 class Gunner (Style):
     minrange = 2
@@ -11723,7 +12168,7 @@ class HandOfDivinity (Finisher):
         return True
     def after_trigger (self):
         self.me.advance (range(6))
-    ordered_hit_trigger = True
+    ordered_after_trigger = True
     def evaluate_setup (self):
         return 1 if self.game.distance() == 5 else 0
 
@@ -12152,6 +12597,7 @@ class Distortion (Paradigm):
 # Character name => corresponding class
 character_dict = {'adjenna'  :Adjenna,
                   'alexian'  :Alexian,
+                  'arec'     :Arec,
                   'aria'     :Aria,
                   'byron'    :Byron,
                   'cadenza'  :Cadenza,
