@@ -29,43 +29,43 @@ Special action available
 .A...B.
 
 
+Unbeatable strategy for Arec: Returning Drive (Fear): 0.22
+
 Arec:
-17% Returning Drive
-35% Returning Drive (Fear)
-25% Mirrored Hex (Recklessness)
-12% Mirrored Shot
-10% Mirrored Drive
-1% Mirrored Drive (Mercy)
-1% Mirrored Burst (Recklessness)
+0% Returning Shot (Fear)
+8% Returning Drive
+56% Returning Drive (Fear)
+32% Mirrored Hex (Recklessness)
+3% Mirrored Burst (Recklessness)
 
 Byron:
-11% Deathless Drive
-5% Deathless Burst
-2% Deathless Grasp
-7% Breathless Smoke
-26% Breathless Grasp
-37% Breathless Dash
-12% Special Pulse
+12% Deathless Drive
+1% Deathless Burst
+15% Breathless Drive
+21% Breathless Grasp
+51% Breathless Dash
 
 
 Arec: Mirrored Hex (Recklessness)
-Byron: Breathless Dash
+Byron: Breathless Grasp
 
 Arec antes a Recklessness token
-Priorities:  3 | 9
+Priorities:  3 | 5
 Byron is active
-Byron moves:
+Byron hits
+Byron moves Arec:
 
-BA.....
+A....B.
 
 
-Arec hits
-Byron takes 4 damage (now at 11 life)
-Byron loses a Mask Emblem: now at 4
+Arec gets -3 power
+Arec loses 2 life (now at 18)
+Arec takes 2 damage (now at 16 life)
+Arec is stunned
 Arec places clone:
 
-BA.....
-.....c.
+A....B.
+....c..
 
 
 Beat 2
@@ -73,7 +73,7 @@ Beat 2
 
 Arec
 ----
-Life: 20
+Life: 16
 Discard 1: Mirrored Hex
 Discard 2: Phantom Strike
 Special action available
@@ -81,97 +81,99 @@ pool: Fear, Hesitation, Mercy
 
 Byron
 -----
-Life: 12
-Discard 1: Breathless Dash
+Life: 15
+Discard 1: Breathless Grasp
 Discard 2: Soulless Strike
 Special action available
-4 Mask emblems
+5 Mask emblems
 
 
-BA.....
-.....c.
+A....B.
+....c..
 
 Arec:
-2% Perceptional Burst (move to clone)
-84% Returning Drive
-1% Manipulative Burst
-13% Manipulative Grasp
+39% Perceptional Shot
+55% Returning Grasp (move to clone)
+7% Manipulative Grasp (move to clone)
 
 Byron:
-10% Deathless Drive
-50% Deathless Burst
-33% Heartless Drive
-7% Faceless Grasp
+54% Deathless Dash
+30% Heartless Shot
+16% Heartless Drive
 
 
-Arec: Returning Drive
-Byron: Deathless Drive
+Arec: Manipulative Grasp (move to clone)
+Byron: Heartless Shot
+
+Arec moves:
+
+....AB.
+
 
 Priorities:  5 | 3
 Arec is active
-Byron is stunned
 Arec hits
-Byron takes 1 damage (now at 11 life)
+Arec chooses Byron's base: Burst
+Arec moves Byron:
+
+....A.B
+
+
+Byron takes 3 damage (now at 12 life)
+Arec recovers a Recklessness token
 Byron is stunned
-Byron loses a Mask Emblem: now at 3
+Byron loses a Mask Emblem: now at 4
 
 Beat 3
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Returning Drive
+Life: 16
+Discard 1: Manipulative Grasp
 Discard 2: Mirrored Hex
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Hesitation, Mercy, Recklessness
+Manipulative forced base: Burst
 
 Byron
 -----
-Life: 9
-Discard 1: Deathless Drive
-Discard 2: Breathless Dash
+Life: 12
+Discard 1: Heartless Shot
+Discard 2: Breathless Grasp
 Special action available
-3 Mask emblems
+4 Mask emblems
 
 
-BA.....
+....A.B
 
 
-Unbeatable strategy for Byron: Soulless Shot: -0.65
+Unbeatable strategy for Byron: Soulless Smoke: -1.09
 
 Arec:
-7% Manipulative Shot (Hesitation)
-58% Manipulative Burst (Hesitation)
-35% Manipulative Grasp (Hesitation)
+56% Perceptional Strike
+11% Perceptional Shot
+32% Perceptional Shot (Mercy)
 
 Byron:
-96% Soulless Shot
-1% Heartless Smoke
-4% Heartless Strike
+97% Soulless Smoke
+1% Deathless Strike
+2% Faceless Drive
 
 
-Arec: Manipulative Burst (Hesitation)
-Byron: Soulless Shot
+Arec: Perceptional Shot (Mercy)
+Byron: Soulless Smoke
 
-Arec antes a Hesitation token
-Arec loses 2 life (now at 18)
-Byron gets +2 power
-Priorities:  1 | -2
+Arec antes a Mercy token
+Byron loses 2 life (now at 10)
+Priorities:  3 | -1
 Arec is active
-Arec moves:
-
-B.A....
-
-
 Arec hits
-Arec chooses Byron's base: Grasp
-Byron has 2 soak
-Byron takes 2 damage (now at 7 life)
-Arec recovers a Recklessness token
-Byron loses a Mask Emblem: now at 2
+Byron has 1 soak
+Byron takes 2 damage (now at 8 life)
+Byron loses a Mask Emblem: now at 3
 Byron hits
-Arec takes 4 damage (now at 14 life)
+Arec takes 3 damage (now at 13 life)
 Arec is stunned
 
 Beat 4
@@ -179,82 +181,437 @@ Beat 4
 
 Arec
 ----
-Life: 14
-Discard 1: Manipulative Burst
-Discard 2: Returning Drive
+Life: 13
+Discard 1: Perceptional Shot
+Discard 2: Manipulative Grasp
 Special action available
-pool: Fear, Mercy, Recklessness
-Manipulative forced base: Grasp
+pool: Fear, Hesitation, Recklessness
+
+Byron
+-----
+Life: 7
+Discard 1: Soulless Smoke
+Discard 2: Heartless Shot
+Special action available
+3 Mask emblems
+
+
+....A.B
+
+
+Arec:
+42% Returning Hex (Fear)
+22% Returning Drive
+3% Mirrored Hex
+1% Mirrored Hex (Fear)
+27% Mirrored Hex (Recklessness)
+5% Mirrored Burst
+
+Byron:
+23% Faceless Strike
+8% Breathless Strike
+6% Breathless Drive
+18% Breathless Grasp
+18% Breathless Dash
+26% Special Pulse
+
+
+Arec: Mirrored Burst
+Byron: Breathless Dash
+
+Priorities:  1 | 9
+Byron is active
+Byron moves:
+
+.B..A..
+
+
+Arec moves:
+
+.B...A.
+
+
+Byron moves:
+
+...B.A.
+
+
+Arec misses
+Arec places clone:
+
+...B.A.
+..c....
+
+
+Beat 5
+-------
+
+Arec
+----
+Life: 13
+Discard 1: Mirrored Burst
+Discard 2: Perceptional Shot
+Special action available
+pool: Fear, Hesitation, Recklessness
+
+Byron
+-----
+Life: 9
+Discard 1: Breathless Dash
+Discard 2: Soulless Smoke
+Special action available
+3 Mask emblems
+
+
+...B.A.
+..c....
+
+Arec:
+6% Phantom Hex
+23% Phantom Grasp
+1% Returning Strike
+32% Returning Grasp (Fear)
+38% Manipulative Grasp (Fear; move to clone)
+
+Byron:
+25% Deathless Shot
+6% Deathless Burst
+32% Faceless Strike
+31% Faceless Shot
+7% Faceless Grasp
+
+
+Arec: Manipulative Grasp (Fear; move to clone)
+Byron: Faceless Shot
+
+Arec moves:
+
+..AB...
+
+
+Arec antes a Fear token
+Priorities:  5 | 2
+Arec is active
+Arec hits
+Arec chooses Byron's base: Drive
+Arec moves Byron:
+
+..A.B..
+
+
+Byron takes 3 damage (now at 6 life)
+Arec recovers a Mercy token
+Byron is stunned
+Byron loses a Mask Emblem: now at 2
+
+Beat 6
+-------
+
+Arec
+----
+Life: 13
+Discard 1: Manipulative Grasp
+Discard 2: Mirrored Burst
+Special action available
+pool: Hesitation, Recklessness, Mercy
+Manipulative forced base: Drive
 
 Byron
 -----
 Life: 6
-Discard 1: Soulless Shot
-Discard 2: Deathless Drive
+Discard 1: Faceless Shot
+Discard 2: Breathless Dash
 Special action available
 2 Mask emblems
+
+
+..A.B..
+
+
+Arec:
+54% Perceptional Hex
+18% Perceptional Strike
+16% Perceptional Drive
+1% Returning Strike (Recklessness)
+11% Returning Strike (Mercy)
+
+Byron:
+29% Soulless Drive
+34% Deathless Drive
+11% Heartless Strike
+20% Heartless Drive
+6% Heartless Grasp
+
+
+Arec: Perceptional Drive
+Byron: Soulless Drive
+
+Priorities:  5 | 0
+Arec is active
+Arec antes a Recklessness token
+Arec hits
+Byron has 3 soak
+Byron takes 0 damage (now at 6 life)
+Byron loses a Mask Emblem: now at 1
+Byron misses
+
+Beat 7
+-------
+
+Arec
+----
+Life: 13
+Discard 1: Perceptional Drive
+Discard 2: Manipulative Grasp
+Special action available
+pool: Hesitation, Mercy
+
+Byron
+-----
+Life: 3
+Discard 1: Soulless Drive
+Discard 2: Faceless Shot
+Special action available
+1 Mask emblems
+
+
+..A.B..
+
+
+Arec:
+20% Returning Shot
+30% Mirrored Hex
+21% Mirrored Shot
+29% Mirrored Dash
+
+Byron:
+6% Deathless Burst
+71% Deathless Dash
+10% Breathless Smoke
+13% Breathless Dash
+
+
+Arec: Mirrored Shot
+Byron: Deathless Dash
+
+Priorities:  2 | 8
+Byron is active
+Byron moves:
+
+B.A....
+
+
+Arec misses
+Arec places clone:
+
+B.A....
+.....c.
+
+
+Beat 8
+-------
+
+Arec
+----
+Life: 13
+Discard 1: Mirrored Shot
+Discard 2: Perceptional Drive
+Special action available
+pool: Hesitation, Mercy
+
+Byron
+-----
+Life: 3
+Discard 1: Deathless Dash
+Discard 2: Soulless Drive
+Special action available
+1 Mask emblems
+
+
+B.A....
+.....c.
+
+Unbeatable strategy for Byron: Breathless Grasp: -0.19
+
+Arec:
+54% Phantom Dash (move to clone)
+19% Returning Hex (Mercy; move to clone)
+27% Returning Grasp
+
+Byron:
+4% Heartless Shot
+18% Breathless Smoke
+78% Breathless Grasp
+
+
+Arec: Phantom Dash (move to clone)
+Byron: Breathless Grasp
+
+Arec moves:
+
+B....A.
+
+
+Priorities:  10 | 5
+Arec is active
+Arec moves:
+
+B.A....
+
+
+Byron misses
+Arec recovers a Recklessness token
+
+Beat 9
+-------
+
+Arec
+----
+Life: 13
+Discard 1: Phantom Dash
+Discard 2: Mirrored Shot
+Special action available
+pool: Hesitation, Mercy, Recklessness
+
+Byron
+-----
+Life: 3
+Discard 1: Breathless Grasp
+Discard 2: Deathless Dash
+Special action available
+1 Mask emblems
 
 
 B.A....
 
 
-Arec:
-25% Mirrored Hex (Recklessness)
-0% Mirrored Shot (Fear)
-69% Mirrored Grasp (Fear)
-5% Mirrored Grasp (Mercy)
-
-Byron:
-6% Breathless Smoke
-52% Breathless Grasp
-34% Breathless Dash
-8% Special Soul Trap
-
-
-Arec: Mirrored Grasp (Fear)
-Byron: Breathless Grasp
-
-Arec antes a Fear token
-Priorities:  5 | 5
-Clash!
+Unbeatable strategy for Byron: Soulless Smoke: -0.88
+Unbeatable strategy for Byron: Soulless Shot: -1.41
 
 Arec:
-56% Mirrored Shot (Fear)
-44% Mirrored Dash (Fear)
+18% Perceptional Hex
+17% Returning Hex
+65% Manipulative Hex
 
 Byron:
-44% Breathless Smoke
-56% Breathless Dash
+99% Soulless Shot
+0% Soulless Drive
+0% Faceless Drive
 
 
-Arec: Mirrored Dash (Fear)
-Byron: Breathless Dash
+Arec: Returning Hex
+Byron: Soulless Shot
 
-Arec antes a Fear token
-Byron loses 2 life (now at 4)
-Priorities:  9 | 9
-Clash!
-
-Arec:
-33% Mirrored Hex (Fear)
-33% Mirrored Strike (Fear)
-33% Mirrored Shot (Fear)
-
-Byron:
-33% Breathless Smoke
-33% Breathless Strike
-33% Breathless Burst
-
-
-Arec: Mirrored Hex (Fear)
-Byron: Breathless Burst
-
-Arec antes a Fear token
-Byron loses 2 life (now at 4)
-Priorities:  3 | 1
+Priorities:  4 | -2
 Arec is active
 Arec hits
-Arec recovers a Hesitation token
-Byron takes 4 damage (now at 0 life)
+Arec recovers a Fear token
+Byron has 4 soak
+Byron takes 0 damage (now at 3 life)
+Byron loses a Mask Emblem: now at 0
+Byron hits
+Arec takes 4 damage (now at 9 life)
+Arec is stunned
+
+Beat 10
+-------
+
+Arec
+----
+Life: 9
+Discard 1: Returning Hex
+Discard 2: Phantom Dash
+Special action available
+pool: Hesitation, Mercy, Recklessness, Fear
+
+Byron
+-----
+Life: 1
+Discard 1: Soulless Shot
+Discard 2: Breathless Grasp
+Special action available
+0 Mask emblems
+
+
+B.A....
+
+
+Unbeatable strategy for Arec: Perceptional Grasp: 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Hesitation): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Mercy): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Recklessness): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Fear): 0.05
+
+Arec:
+61% Perceptional Grasp
+18% Mirrored Grasp
+18% Manipulative Strike
+2% Manipulative Drive
+
+Byron:
+2% Deathless Smoke
+6% Deathless Dash
+1% Heartless Smoke
+92% Special Pulse
+
+
+Arec: Perceptional Grasp
+Byron: Special Pulse
+
+Pulse:
+
+.A....B
+
+
+
+Beat 10
+-------
+
+Arec
+----
+Life: 9
+Discard 1: Perceptional Grasp
+Discard 2: Returning Hex
+Special action available
+pool: Hesitation, Mercy, Recklessness, Fear
+
+Byron
+-----
+Life: 1
+Discard 1: Soulless Shot
+Discard 2: Breathless Grasp
+0 Mask emblems
+
+
+.A....B
+
+
+Arec:
+1% Phantom Shot (Recklessness)
+48% Phantom Drive
+8% Phantom Burst (Mercy)
+23% Mirrored Shot (Recklessness)
+20% Mirrored Burst (Mercy)
+
+Byron:
+26% Deathless Smoke
+15% Deathless Drive
+5% Deathless Burst
+6% Heartless Smoke
+48% Heartless Drive
+
+
+Arec: Phantom Drive
+Byron: Deathless Smoke
+
+Priorities:  5 | 2
+Arec is active
+Arec moves:
+
+...A..B
+
+
+Arec hits
+Byron takes 1 damage (now at 0 life)
 AREC WINS!
-total_time: 18
+total_time: 41

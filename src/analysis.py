@@ -6,7 +6,8 @@ import csv
 import os
 import re
 
-phrases = {  'adjenna' : ['Basilisk Gaze'],
+phrases = {  'abarene' : ['Hallicris Snare'],
+             'adjenna' : ['Basilisk Gaze'],
              'alexian' : ['Empire Divider', 'Hail The King'],
              'arec': ['Uncanny Oblivion'],
              'aria' : ['Laser Lattice'],

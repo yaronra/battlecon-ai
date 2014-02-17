@@ -29,45 +29,51 @@ Special action available
 .A...L.
 
 
-Unbeatable strategy for Arec: Returning Shot (Recklessness): 0.81
+Unbeatable strategy for Arec: Returning Shot (Recklessness): 1.21
 
 Arec:
-1% Perceptional Hex
-17% Perceptional Drive
-27% Returning Hex (Fear)
-29% Mirrored Hex (Recklessness)
-20% Mirrored Drive (Hesitation)
-7% Mirrored Burst (Recklessness)
+4% Perceptional Drive (Hesitation)
+7% Returning Hex (Fear)
+44% Returning Shot (Recklessness)
+22% Returning Drive (Fear)
+13% Mirrored Hex (Recklessness)
+2% Mirrored Shot (Recklessness)
+8% Mirrored Drive (Hesitation)
 
 Luc:
-4% Memento Dash
-13% Feinting Shot
-14% Chrono Shot
-35% Chrono Shot (1 token)
-24% Chrono Drive
-10% Chrono Drive (1 token)
+1% Memento Dash
+30% Feinting Shot
+4% Feinting Dash
+13% Chrono Shot
+24% Chrono Shot (1 token)
+11% Chrono Drive
+17% Chrono Drive (1 token)
 
 
-Arec: Perceptional Drive
-Luc: Chrono Shot (1 token)
+Arec: Mirrored Shot (Recklessness)
+Luc: Feinting Dash
 
-Luc antes a Time token
-Priorities:  5 | 4
-Arec is active
-Luc spends a Time token
+Arec antes a Recklessness token
+Priorities:  2 | 7
+Luc is active
+Luc moves:
+
+.A....L
+
+
+Arec hits
+Luc takes 4 damage (now at 16 life)
+Luc is stunned
 Luc moves:
 
 .A..L..
 
 
-Arec moves:
+Arec places clone:
 
-..A.L..
+.A..L..
+c......
 
-
-Arec hits
-Luc takes 3 damage (now at 17 life)
-Luc is stunned
 Luc gains 1 Time token
 
 Beat 2
@@ -76,103 +82,54 @@ Beat 2
 Arec
 ----
 Life: 20
-Discard 1: Perceptional Drive
+Discard 1: Mirrored Shot
 Discard 2: Phantom Strike
 Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
+pool: Fear, Hesitation, Mercy
 
 Luc
 ---
-Life: 17
-Discard 1: Chrono Shot
+Life: 16
+Discard 1: Feinting Dash
 Discard 2: Eternal Flash
 Special action available
-1 Time tokens
+3 Time tokens
 
+
+.A..L..
+c......
+
+Unbeatable strategy for Arec: Returning Drive (Fear; move to clone): 0.50
+
+Arec:
+7% Returning Drive (move to clone)
+89% Returning Drive (Fear; move to clone)
+4% Manipulative Hex (Fear; move to clone)
+
+Luc:
+57% Memento Drive
+20% Chrono Strike
+22% Chrono Drive (1 token)
+
+
+Arec: Returning Drive (Fear; move to clone)
+Luc: Memento Drive
+
+Arec moves:
+
+A...L..
+
+
+Arec antes a Fear token
+Priorities:  5 | 3
+Arec is active
+Arec moves:
 
 ..A.L..
 
 
-Unbeatable strategy for Arec: Returning Shot (Recklessness): 0.80
-Unbeatable strategy for Arec: Returning Burst (Recklessness): 1.65
-Unbeatable strategy for Arec: Mirrored Dash (Hesitation): 0.55
-
-Arec:
-9% Mirrored Hex
-28% Mirrored Hex (Recklessness)
-19% Mirrored Shot
-21% Mirrored Shot (Recklessness)
-7% Mirrored Burst
-16% Mirrored Grasp
-
-Luc:
-2% Memento Drive
-5% Memento Drive (1 token)
-3% Fusion Drive (1 token)
-3% Feinting Burst
-4% Feinting Dash
-84% Special Pulse
-
-
-Arec: Mirrored Shot
-Luc: Special Pulse
-
-Pulse:
-
-.AL....
-
-
-
-Beat 2
--------
-
-Arec
-----
-Life: 20
-Discard 1: Mirrored Shot
-Discard 2: Perceptional Drive
-Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
-
-Luc
----
-Life: 17
-Discard 1: Chrono Shot
-Discard 2: Eternal Flash
-1 Time tokens
-
-
-.AL....
-
-
-Unbeatable strategy for Arec: Returning Burst (Recklessness): 2.90
-
-Arec:
-3% Returning Burst
-94% Returning Burst (Recklessness)
-3% Manipulative Burst (Recklessness)
-
-Luc:
-8% Memento Grasp
-10% Fusion Drive
-44% Fusion Grasp
-38% Feinting Strike
-
-
-Arec: Returning Burst (Recklessness)
-Luc: Fusion Drive
-
-Arec antes a Recklessness token
-Priorities:  2 | 5
-Luc is active
-Arec moves:
-
-A.L....
-
-
-Luc misses
 Arec hits
-Luc takes 3 damage (now at 14 life)
+Luc takes 3 damage (now at 13 life)
 Luc is stunned
 Luc gains 1 Time token
 
@@ -182,52 +139,70 @@ Beat 3
 Arec
 ----
 Life: 20
-Discard 1: Returning Burst
+Discard 1: Returning Drive
 Discard 2: Mirrored Shot
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Hesitation, Mercy
 
 Luc
 ---
-Life: 14
-Discard 1: Fusion Drive
-Discard 2: Chrono Shot
-2 Time tokens
+Life: 13
+Discard 1: Memento Drive
+Discard 2: Feinting Dash
+Special action available
+4 Time tokens
 
 
-A.L....
+..A.L..
 
 
 Arec:
-19% Phantom Strike (Hesitation)
-15% Phantom Drive
-7% Phantom Drive (Hesitation)
-21% Phantom Grasp
-6% Perceptional Strike (Fear)
-16% Perceptional Strike (Hesitation)
-16% Manipulative Hex (Fear)
-1% Manipulative Grasp
+14% Phantom Hex
+21% Phantom Strike
+34% Phantom Strike (Hesitation)
+31% Manipulative Burst
 
 Luc:
-8% Eternal Strike
-17% Memento Flash
-4% Memento Flash (1 token)
-32% Feinting Flash
-25% Feinting Flash (1 token)
-0% Feinting Burst
-1% Feinting Grasp (1 token)
-13% Feinting Dash
+9% Eternal Strike (3 tokens)
+26% Chrono Flash
+28% Chrono Shot
+37% Chrono Shot (1 token)
 
 
-Arec: Manipulative Hex (Fear)
-Luc: Feinting Flash
+Arec: Phantom Hex
+Luc: Chrono Shot (1 token)
 
-Arec antes a Fear token
-Priorities:  3 | 4
-Luc is active
-Luc hits
-Arec takes 1 damage (now at 19 life)
-Arec is stunned
+Luc antes a Time token
+Priorities:  4 | 4
+Clash!
+
+Arec:
+18% Phantom Burst
+82% Phantom Dash
+
+Luc:
+42% Chrono Flash (1 token)
+58% Chrono Burst (1 token)
+
+
+Arec: Phantom Dash
+Luc: Chrono Flash (1 token)
+
+Luc antes a Time token
+Priorities:  10 | 8
+Arec is active
+Luc moves:
+
+..AL...
+
+
+Arec moves:
+
+A..L...
+
+
+Luc misses
+Arec recovers a Recklessness token
 Luc gains 1 Time token
 
 Beat 4
@@ -235,84 +210,86 @@ Beat 4
 
 Arec
 ----
-Life: 19
-Discard 1: Manipulative Hex
-Discard 2: Returning Burst
+Life: 20
+Discard 1: Phantom Dash
+Discard 2: Returning Drive
 Special action available
-pool: Hesitation, Mercy
+pool: Hesitation, Mercy, Recklessness
 
 Luc
 ---
-Life: 14
-Discard 1: Feinting Flash
-Discard 2: Fusion Drive
-3 Time tokens
+Life: 13
+Discard 1: Chrono Flash
+Discard 2: Memento Drive
+Special action available
+4 Time tokens
 
 
-A.L....
+A..L...
 
 
 Arec:
-14% Phantom Strike
-14% Phantom Strike (Hesitation)
-12% Phantom Grasp
-7% Phantom Grasp (Hesitation)
-2% Mirrored Drive
-4% Mirrored Grasp
-47% Mirrored Dash
+47% Perceptional Hex
+5% Mirrored Hex
+8% Mirrored Shot (Mercy)
+41% Mirrored Grasp
 
 Luc:
-0% Eternal Strike (3 tokens)
-0% Memento Strike (3 tokens)
-12% Memento Grasp
-36% Chrono Strike
-12% Chrono Strike (1 token)
-10% Chrono Shot
-13% Chrono Shot (1 token)
-16% Chrono Grasp (1 token)
+43% Eternal Shot
+17% Fusion Strike (3 tokens)
+34% Fusion Shot (3 tokens)
+5% Feinting Shot
 
 
-Arec: Phantom Strike (Hesitation)
-Luc: Chrono Strike (1 token)
+Arec: Perceptional Hex
+Luc: Fusion Strike (3 tokens)
 
-Arec antes a Hesitation token
+Luc antes a Time token
+Luc antes a Time token
 Luc antes a Time token
 Priorities:  4 | 4
 Clash!
 
 Arec:
-67% Phantom Shot (Hesitation)
-33% Phantom Grasp (Hesitation)
+100% Perceptional Shot
 
 Luc:
-32% Chrono Shot (1 token)
-68% Chrono Grasp (1 token)
+100% Fusion Shot (3 tokens)
 
 
-Arec: Phantom Shot (Hesitation)
-Luc: Chrono Grasp (1 token)
+Arec: Perceptional Shot
+Luc: Fusion Shot (3 tokens)
 
-Arec antes a Hesitation token
 Luc antes a Time token
-Priorities:  3 | 6
-Luc is active
-Luc spends a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  3 | 3
+Clash!
+
+Arec:
+97% Perceptional Strike
+3% Perceptional Burst
+
+Luc:
+97% Fusion Burst (3 tokens)
+3% Fusion Dash (3 tokens)
+
+
+Arec: Perceptional Strike
+Luc: Fusion Burst (3 tokens)
+
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  4 | 2
+Arec is active
 Luc moves:
 
-AL.....
+A...L..
 
 
-Luc hits
-Luc moves Arec:
-
-.LA....
-
-
-Arec takes 2 damage (now at 17 life)
-Arec hits
-Luc takes 2 damage (now at 12 life)
-Luc is stunned
-Arec recovers a Recklessness token
+Arec misses
+Luc misses
 Luc gains 1 Time token
 
 Beat 5
@@ -320,65 +297,64 @@ Beat 5
 
 Arec
 ----
-Life: 17
-Discard 1: Phantom Shot
-Discard 2: Manipulative Hex
+Life: 20
+Discard 1: Perceptional Strike
+Discard 2: Phantom Dash
 Special action available
-pool: Mercy, Recklessness
+pool: Hesitation, Mercy, Recklessness
 
 Luc
 ---
-Life: 12
-Discard 1: Chrono Grasp
-Discard 2: Feinting Flash
+Life: 13
+Discard 1: Fusion Burst
+Discard 2: Chrono Flash
+Special action available
 2 Time tokens
 
 
-.LA....
+A...L..
 
 
-Arec:
-3% Returning Burst (Recklessness)
-19% Mirrored Burst
-13% Mirrored Burst (Recklessness)
-66% Mirrored Dash
-
-Luc:
-42% Eternal Dash
-31% Memento Shot
-3% Memento Drive
-25% Memento Dash (1 token)
-
-
-Arec: Mirrored Burst (Recklessness)
-Luc: Memento Shot
-
-Arec antes a Recklessness token
-Priorities:  1 | 1
-Clash!
+Unbeatable strategy for Arec: Returning Hex (Recklessness): 0.47
 
 Arec:
-96% Mirrored Strike (Recklessness)
-4% Mirrored Grasp (Recklessness)
+25% Mirrored Hex
+46% Mirrored Hex (Recklessness)
+11% Mirrored Drive
+4% Mirrored Burst
+15% Mirrored Burst (Recklessness)
 
 Luc:
-96% Memento Strike
-4% Memento Drive
+5% Eternal Shot
+35% Eternal Drive
+38% Eternal Grasp
+5% Memento Drive
+17% Feinting Grasp
 
 
-Arec: Mirrored Strike (Recklessness)
-Luc: Memento Strike
+Arec: Mirrored Hex (Recklessness)
+Luc: Eternal Grasp
 
 Arec antes a Recklessness token
-Priorities:  3 | 2
+Priorities:  3 | 1
 Arec is active
-Arec misses
-Luc hits
-Arec takes 4 damage (now at 13 life)
+Arec hits
+Arec moves Luc:
+
+A....L.
+
+
+Arec recovers a Fear token
+Luc spends a Time token
+Luc spends a Time token
+Luc gains +2 soak (3 total)
+Luc has 3 soak
+Luc takes 1 damage (now at 12 life)
+Luc misses
 Arec places clone:
 
-.LA....
-.....c.
+A....L.
+....c..
 
 Luc gains 1 Time token
 
@@ -387,61 +363,54 @@ Beat 6
 
 Arec
 ----
-Life: 13
-Discard 1: Mirrored Strike
-Discard 2: Phantom Shot
+Life: 20
+Discard 1: Mirrored Hex
+Discard 2: Perceptional Strike
 Special action available
-pool: Mercy
+pool: Hesitation, Mercy, Fear
 
 Luc
 ---
 Life: 12
-Discard 1: Memento Strike
-Discard 2: Chrono Grasp
-3 Time tokens
+Discard 1: Eternal Grasp
+Discard 2: Fusion Burst
+Special action available
+1 Time tokens
 
 
-.LA....
-.....c.
+A....L.
+....c..
 
-Unbeatable strategy for Luc: Eternal Dash (3 tokens): -0.32
-Unbeatable strategy for Luc: Fusion Dash (3 tokens): -1.18
-Unbeatable strategy for Luc: Feinting Dash (3 tokens): -1.82
+Unbeatable strategy for Luc: Memento Dash: -0.24
+Unbeatable strategy for Luc: Chrono Dash: -0.32
 
 Arec:
-31% Returning Drive (move to clone)
-40% Returning Dash (move to clone)
-25% Manipulative Hex
-3% Manipulative Hex (move to clone)
-1% Manipulative Drive
+69% Phantom Shot
+11% Phantom Shot (Hesitation)
+5% Returning Shot
+7% Returning Shot (Fear)
+9% Manipulative Shot (Fear)
 
 Luc:
-20% Eternal Flash (1 token)
-31% Eternal Shot
-12% Eternal Shot (3 tokens)
-38% Fusion Drive (3 tokens)
-0% Feinting Flash
+13% Memento Strike (1 token)
+18% Memento Drive
+52% Memento Dash
+10% Feinting Drive (1 token)
+8% Chrono Shot
 
 
-Arec: Returning Drive (move to clone)
-Luc: Eternal Shot
+Arec: Returning Shot (Fear)
+Luc: Memento Dash
 
-Arec moves:
+Arec antes a Fear token
+Priorities:  3 | 8
+Luc is active
+Luc moves:
 
-.L...A.
-
-
-Priorities:  5 | -2
-Arec is active
-Arec moves:
-
-.L..A..
+A.....L
 
 
 Arec misses
-Luc hits
-Arec takes 3 damage (now at 10 life)
-Arec is stunned
 Luc gains 1 Time token
 
 Beat 7
@@ -449,61 +418,49 @@ Beat 7
 
 Arec
 ----
-Life: 10
-Discard 1: Returning Drive
-Discard 2: Mirrored Strike
+Life: 20
+Discard 1: Returning Shot
+Discard 2: Mirrored Hex
 Special action available
-pool: Mercy
+pool: Hesitation, Mercy
 
 Luc
 ---
 Life: 12
-Discard 1: Eternal Shot
-Discard 2: Memento Strike
-4 Time tokens
+Discard 1: Memento Dash
+Discard 2: Eternal Grasp
+Special action available
+2 Time tokens
 
 
-.L..A..
+A.....L
 
 
-Unbeatable strategy for Luc: Chrono Drive (1 token): -0.47
-Unbeatable strategy for Luc: Chrono Dash: -0.02
+Unbeatable strategy for Luc: Feinting Drive: -0.24
 
 Arec:
-19% Phantom Grasp
-69% Phantom Dash
-12% Perceptional Hex
+42% Phantom Burst
+29% Perceptional Drive
+29% Manipulative Strike
 
 Luc:
-51% Feinting Drive (3 tokens)
-48% Chrono Drive
-1% Chrono Drive (1 token)
+3% Feinting Shot
+48% Feinting Drive
+50% Chrono Shot
 
 
-Arec: Phantom Dash
-Luc: Chrono Drive
+Arec: Perceptional Drive
+Luc: Chrono Shot
 
-Priorities:  10 | 5
+Priorities:  5 | 3
 Arec is active
-Luc spends a Time token
-Luc spends a Time token
-Luc moves:
-
-...LA..
-
-
 Arec moves:
 
-..AL...
+.A....L
 
 
-Luc moves:
-
-.LA....
-
-
+Arec misses
 Luc misses
-Arec recovers a Recklessness token
 Luc gains 1 Time token
 
 Beat 8
@@ -511,67 +468,52 @@ Beat 8
 
 Arec
 ----
-Life: 10
-Discard 1: Phantom Dash
-Discard 2: Returning Drive
+Life: 20
+Discard 1: Perceptional Drive
+Discard 2: Returning Shot
 Special action available
-pool: Mercy, Recklessness
+pool: Hesitation, Mercy
 
 Luc
 ---
 Life: 12
-Discard 1: Chrono Drive
-Discard 2: Eternal Shot
+Discard 1: Chrono Shot
+Discard 2: Memento Dash
+Special action available
 3 Time tokens
 
 
-.LA....
+.A....L
 
 
 Arec:
-12% Perceptional Burst
-19% Mirrored Hex
-6% Mirrored Hex (Recklessness)
-6% Mirrored Strike
-0% Mirrored Strike (Recklessness)
-38% Mirrored Burst
-18% Mirrored Burst (Recklessness)
+7% Mirrored Hex
+10% Mirrored Strike
+60% Mirrored Burst
+24% Mirrored Grasp
 
 Luc:
-34% Memento Burst (1 token)
-16% Memento Grasp
-1% Memento Dash
-21% Fusion Strike (3 tokens)
-1% Fusion Dash
-2% Feinting Strike (3 tokens)
-6% Feinting Burst (3 tokens)
-18% Feinting Dash
+26% Eternal Drive
+16% Fusion Drive (3 tokens)
+22% Feinting Flash
+36% Feinting Grasp
 
 
-Arec: Mirrored Hex
-Luc: Feinting Dash
+Arec: Mirrored Grasp
+Luc: Feinting Grasp
 
-Priorities:  3 | 7
-Luc is active
-Luc moves:
-
-L.A....
-
-
-Luc moves:
-
-..A.L..
-
-
+Priorities:  5 | 3
+Arec is active
 Arec misses
-Luc moves:
-
-..AL...
-
-
+Luc misses
 Arec places clone:
 
-..AL...
+.A....L
+c......
+
+Luc moves:
+
+.A..L..
 c......
 
 Luc gains 1 Time token
@@ -581,65 +523,66 @@ Beat 9
 
 Arec
 ----
-Life: 10
-Discard 1: Mirrored Hex
-Discard 2: Phantom Dash
+Life: 20
+Discard 1: Mirrored Grasp
+Discard 2: Perceptional Drive
 Special action available
-pool: Mercy, Recklessness
+pool: Hesitation, Mercy
 
 Luc
 ---
 Life: 12
-Discard 1: Feinting Dash
-Discard 2: Chrono Drive
+Discard 1: Feinting Grasp
+Discard 2: Chrono Shot
+Special action available
 4 Time tokens
 
 
-..AL...
+.A..L..
 c......
 
-Unbeatable strategy for Luc: Eternal Shot: -0.95
-Unbeatable strategy for Luc: Eternal Shot (1 token): -0.65
-Unbeatable strategy for Luc: Eternal Shot (3 tokens): -0.02
+Unbeatable strategy for Luc: Fusion Drive (3 tokens): -0.20
 
 Arec:
-2% Returning Shot (move to clone)
-23% Manipulative Shot (move to clone)
-24% Manipulative Drive
-9% Manipulative Drive (move to clone)
-8% Manipulative Burst
-33% Manipulative Grasp
+35% Phantom Strike (Mercy)
+13% Phantom Strike (Mercy; move to clone)
+2% Phantom Burst (Mercy)
+45% Phantom Dash
+5% Manipulative Burst
 
 Luc:
-13% Eternal Strike (3 tokens)
-50% Eternal Shot
-23% Eternal Shot (3 tokens)
-1% Memento Burst
-10% Fusion Strike (3 tokens)
-3% Fusion Grasp (3 tokens)
+37% Memento Flash (3 tokens)
+2% Memento Drive
+12% Memento Drive (1 token)
+35% Fusion Drive (3 tokens)
+14% Fusion Dash (3 tokens)
 
 
-Arec: Manipulative Grasp
-Luc: Eternal Shot
+Arec: Phantom Dash
+Luc: Memento Flash (3 tokens)
 
-Priorities:  5 | -2
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  10 | 5
 Arec is active
-Arec hits
-Arec chooses Luc's base: Burst
-Arec moves Luc:
+Luc moves:
 
-..A.L..
+.A.L...
 
 
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +2 soak (3 total)
-Luc has 3 soak
-Luc takes 0 damage (now at 12 life)
-Arec recovers a Fear token
-Luc hits
-Arec takes 3 damage (now at 7 life)
-Arec is stunned
+Luc moves:
+
+.AL....
+
+
+Arec moves:
+
+..L..A.
+
+
+Luc misses
+Arec recovers a Recklessness token
 Luc gains 1 Time token
 
 Beat 10
@@ -647,57 +590,51 @@ Beat 10
 
 Arec
 ----
-Life: 7
-Discard 1: Manipulative Grasp
-Discard 2: Mirrored Hex
+Life: 20
+Discard 1: Phantom Dash
+Discard 2: Mirrored Grasp
 Special action available
-pool: Mercy, Recklessness, Fear
-Manipulative forced base: Burst
+pool: Hesitation, Mercy, Recklessness
 
 Luc
 ---
 Life: 12
-Discard 1: Eternal Shot
-Discard 2: Feinting Dash
-3 Time tokens
+Discard 1: Memento Flash
+Discard 2: Feinting Grasp
+Special action available
+2 Time tokens
 
 
-..A.L..
+..L..A.
 
-
-Unbeatable strategy for Arec: Returning Burst (Recklessness): 0.75
 
 Arec:
-18% Returning Burst
-82% Returning Burst (Recklessness)
+3% Returning Hex
+39% Returning Shot
+1% Returning Drive
+49% Returning Burst (Recklessness)
+8% Manipulative Hex
 
 Luc:
-14% Chrono Drive
-86% Chrono Burst
+52% Eternal Shot
+8% Eternal Drive
+11% Chrono Strike
+17% Chrono Shot
+13% Chrono Drive
 
 
-Arec: Returning Burst (Recklessness)
-Luc: Chrono Drive
+Arec: Returning Shot
+Luc: Eternal Shot
 
-Arec antes a Recklessness token
-Luc loses 2 life (now at 10)
-Priorities:  2 | 5
-Luc is active
-Luc spends a Time token
-Luc moves:
-
-..AL...
-
-
-Arec moves:
-
-A..L...
-
-
-Luc misses
-Arec hits
-Luc takes 3 damage (now at 7 life)
+Priorities:  3 | -2
+Arec is active
 Luc is stunned
+Arec hits
+Luc spends a Time token
+Luc spends a Time token
+Luc gains +2 soak (3 total)
+Luc has 3 soak
+Luc takes 0 damage (now at 12 life)
 Luc gains 1 Time token
 
 Beat 11
@@ -705,82 +642,58 @@ Beat 11
 
 Arec
 ----
-Life: 7
-Discard 1: Returning Burst
-Discard 2: Manipulative Grasp
+Life: 20
+Discard 1: Returning Shot
+Discard 2: Phantom Dash
 Special action available
-pool: Mercy, Fear
+pool: Hesitation, Mercy, Recklessness
 
 Luc
 ---
-Life: 7
-Discard 1: Chrono Drive
-Discard 2: Eternal Shot
-3 Time tokens
+Life: 12
+Discard 1: Eternal Shot
+Discard 2: Memento Flash
+Special action available
+1 Time tokens
 
 
-A..L...
+..L..A.
 
 
 Arec:
-20% Mirrored Hex
-24% Mirrored Hex (Fear)
-8% Mirrored Strike
-18% Mirrored Strike (Fear)
-29% Mirrored Drive
+26% Mirrored Hex (Recklessness)
+16% Mirrored Strike (Recklessness)
+16% Mirrored Drive
+7% Mirrored Drive (Mercy)
+11% Mirrored Burst
+24% Mirrored Burst (Recklessness)
 
 Luc:
-6% Memento Strike (3 tokens)
-27% Memento Grasp (3 tokens)
-11% Memento Dash
-13% Fusion Strike (3 tokens)
-12% Fusion Dash
-32% Feinting Grasp
+20% Fusion Drive
+23% Fusion Burst
+14% Feinting Strike
+2% Feinting Burst
+39% Feinting Grasp
+1% Chrono Drive
 
 
-Arec: Mirrored Drive
-Luc: Memento Grasp (3 tokens)
+Arec: Mirrored Strike (Recklessness)
+Luc: Fusion Burst
 
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  4 | 4
-Clash!
-
-Arec:
-37% Mirrored Hex
-63% Mirrored Strike
-
-Luc:
-96% Memento Flash (3 tokens)
-4% Memento Strike (3 tokens)
-
-
-Arec: Mirrored Hex
-Luc: Memento Flash (3 tokens)
-
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  3 | 5
-Luc is active
+Arec antes a Recklessness token
+Priorities:  3 | 2
+Arec is active
 Luc moves:
 
-A.L....
+.L...A.
 
 
-Luc moves:
-
-AL.....
-
-
-Luc hits
-Arec takes 1 damage (now at 6 life)
-Arec is stunned
+Arec misses
+Luc misses
 Arec places clone:
 
-AL.....
-.....c.
+.L...A.
+c......
 
 Luc gains 1 Time token
 
@@ -789,52 +702,64 @@ Beat 12
 
 Arec
 ----
-Life: 6
-Discard 1: Mirrored Hex
-Discard 2: Returning Burst
+Life: 20
+Discard 1: Mirrored Strike
+Discard 2: Returning Shot
 Special action available
-pool: Mercy, Fear
+pool: Hesitation, Mercy
 
 Luc
 ---
-Life: 7
-Discard 1: Memento Flash
-Discard 2: Chrono Drive
-1 Time tokens
+Life: 12
+Discard 1: Fusion Burst
+Discard 2: Eternal Shot
+Special action available
+2 Time tokens
 
 
-AL.....
-.....c.
+.L...A.
+c......
+
+Unbeatable strategy for Luc: Chrono Drive: -1.04
 
 Arec:
-28% Phantom Strike
-17% Phantom Shot (move to clone)
-28% Phantom Drive
-12% Phantom Drive (move to clone)
-3% Manipulative Strike (Fear)
-1% Manipulative Shot
-8% Manipulative Shot (move to clone)
-3% Manipulative Shot (Fear; move to clone)
+40% Phantom Drive
+20% Phantom Drive (Hesitation)
+33% Phantom Burst
+7% Phantom Grasp (move to clone)
 
 Luc:
-34% Eternal Shot
-29% Eternal Dash
-9% Fusion Strike (1 token)
-10% Fusion Shot (1 token)
-2% Feinting Strike
-6% Feinting Strike (1 token)
-5% Feinting Shot
-6% Feinting Burst
+27% Chrono Flash
+9% Chrono Strike
+53% Chrono Drive
+11% Chrono Drive (1 token)
 
 
-Arec: Phantom Strike
-Luc: Eternal Shot
+Arec: Phantom Burst
+Luc: Chrono Drive
 
-Priorities:  4 | -2
-Arec is active
-Arec hits
-Luc takes 3 damage (now at 4 life)
-Luc is stunned
+Priorities:  2 | 5
+Luc is active
+Luc spends a Time token
+Luc spends a Time token
+Luc moves:
+
+...L.A.
+
+
+Arec moves:
+
+...L..A
+
+
+Luc moves:
+
+.....LA
+
+
+Luc hits
+Arec takes 3 damage (now at 17 life)
+Arec is stunned
 Arec recovers a Recklessness token
 Luc gains 1 Time token
 
@@ -843,56 +768,49 @@ Beat 13
 
 Arec
 ----
-Life: 6
-Discard 1: Phantom Strike
-Discard 2: Mirrored Hex
+Life: 17
+Discard 1: Phantom Burst
+Discard 2: Mirrored Strike
 Special action available
-pool: Mercy, Fear, Recklessness
+pool: Hesitation, Mercy, Recklessness
 
 Luc
 ---
-Life: 4
-Discard 1: Eternal Shot
-Discard 2: Memento Flash
-2 Time tokens
+Life: 12
+Discard 1: Chrono Drive
+Discard 2: Fusion Burst
+Special action available
+1 Time tokens
 
 
-AL.....
+.....LA
 
 
 Arec:
-8% Perceptional Drive
-50% Returning Drive
-8% Returning Grasp
-4% Returning Grasp (Fear)
-27% Manipulative Shot
-2% Manipulative Shot (Fear)
-1% Manipulative Drive
-1% Manipulative Grasp (Fear)
+7% Returning Hex
+2% Returning Hex (Hesitation)
+43% Returning Shot
+6% Returning Drive
+27% Returning Drive (Hesitation)
+15% Manipulative Hex
 
 Luc:
-10% Fusion Strike
-14% Fusion Strike (1 token)
-6% Feinting Strike (1 token)
-5% Feinting Dash
-1% Chrono Drive (1 token)
-29% Chrono Burst
-23% Chrono Grasp
-11% Chrono Grasp (1 token)
+5% Eternal Strike
+46% Eternal Shot
+5% Memento Flash
+12% Memento Flash (1 token)
+21% Feinting Flash
+11% Feinting Flash (1 token)
 
 
-Arec: Returning Drive
-Luc: Chrono Grasp
+Arec: Returning Shot
+Luc: Memento Flash (1 token)
 
-Priorities:  5 | 6
+Luc antes a Time token
+Priorities:  3 | 6
 Luc is active
 Luc hits
-Luc moves Arec:
-
-.LA....
-
-
-Arec takes 2 damage (now at 4 life)
+Arec takes 1 damage (now at 16 life)
 Arec is stunned
 Luc gains 1 Time token
 
@@ -901,51 +819,277 @@ Beat 14
 
 Arec
 ----
-Life: 4
-Discard 1: Returning Drive
-Discard 2: Phantom Strike
+Life: 16
+Discard 1: Returning Shot
+Discard 2: Phantom Burst
 Special action available
-pool: Mercy, Fear, Recklessness
+pool: Hesitation, Mercy, Recklessness
 
 Luc
 ---
-Life: 4
-Discard 1: Chrono Grasp
-Discard 2: Eternal Shot
-3 Time tokens
+Life: 12
+Discard 1: Memento Flash
+Discard 2: Chrono Drive
+Special action available
+1 Time tokens
 
 
-.LA....
+.....LA
 
+
+Unbeatable strategy for Arec: Mirrored Dash: 0.63
+Unbeatable strategy for Arec: Mirrored Dash (Hesitation): 0.03
+Unbeatable strategy for Arec: Mirrored Dash (Mercy): 0.23
 
 Arec:
-24% Perceptional Burst
-20% Mirrored Hex (Recklessness)
-14% Mirrored Shot (Recklessness)
-37% Mirrored Burst (Recklessness)
-5% Manipulative Grasp (Fear)
+1% Mirrored Hex (Mercy)
+10% Mirrored Strike
+7% Mirrored Drive
+59% Mirrored Drive (Hesitation)
+23% Mirrored Dash
 
 Luc:
-0% Memento Strike (1 token)
-37% Memento Drive (1 token)
-46% Memento Burst (1 token)
-12% Fusion Strike (1 token)
-5% Fusion Burst (3 tokens)
+29% Eternal Dash
+26% Fusion Strike
+13% Fusion Strike (1 token)
+18% Fusion Grasp
+14% Fusion Dash
 
 
-Arec: Mirrored Shot (Recklessness)
-Luc: Memento Burst (1 token)
+Arec: Mirrored Drive (Hesitation)
+Luc: Fusion Strike
 
-Arec antes a Recklessness token
+Arec antes a Hesitation token
+Priorities:  4 | 4
+Clash!
+
+Arec:
+24% Mirrored Hex (Hesitation)
+17% Mirrored Strike (Hesitation)
+59% Mirrored Dash (Hesitation)
+
+Luc:
+81% Fusion Shot
+14% Fusion Grasp
+5% Fusion Dash
+
+
+Arec: Mirrored Dash (Hesitation)
+Luc: Fusion Shot
+
+Arec antes a Hesitation token
+Priorities:  9 | 3
+Arec is active
+Arec moves:
+
+....AL.
+
+
+Luc misses
+Arec places clone:
+
+....AL.
+c......
+
+Luc gains 1 Time token
+
+Beat 15
+-------
+
+Arec
+----
+Life: 16
+Discard 1: Mirrored Dash
+Discard 2: Returning Shot
+Special action available
+pool: Mercy, Recklessness
+
+Luc
+---
+Life: 12
+Discard 1: Fusion Shot
+Discard 2: Memento Flash
+Special action available
+2 Time tokens
+
+
+....AL.
+c......
+
+Arec:
+56% Perceptional Hex
+44% Perceptional Hex (move to clone)
+
+Luc:
+100% Special Pulse
+
+
+Arec: Perceptional Hex
+Luc: Special Pulse
+
+Pulse:
+
+.AL....
+
+
+
+Beat 15
+-------
+
+Arec
+----
+Life: 16
+Discard 1: Perceptional Hex
+Discard 2: Mirrored Dash
+Special action available
+pool: Mercy, Recklessness
+
+Luc
+---
+Life: 12
+Discard 1: Fusion Shot
+Discard 2: Memento Flash
+2 Time tokens
+
+
+.AL....
+
+
+Unbeatable strategy for Arec: Returning Strike: 17.00
+Unbeatable strategy for Arec: Returning Strike (Mercy): 17.00
+Unbeatable strategy for Arec: Returning Strike (Recklessness): 17.00
+Unbeatable strategy for Arec: Returning Drive: 17.00
+Unbeatable strategy for Arec: Returning Drive (Mercy): 17.00
+Unbeatable strategy for Arec: Returning Burst: 17.00
+Unbeatable strategy for Arec: Returning Burst (Mercy): 17.00
+Unbeatable strategy for Arec: Returning Burst (Recklessness): 17.00
+Unbeatable strategy for Arec: Returning Grasp: 17.00
+Unbeatable strategy for Arec: Returning Grasp (Recklessness): 17.00
+
+Arec:
+4% Phantom Strike
+4% Phantom Strike (Mercy)
+4% Phantom Strike (Recklessness)
+4% Phantom Drive
+4% Phantom Drive (Mercy)
+4% Phantom Drive (Recklessness)
+4% Phantom Burst
+4% Phantom Burst (Mercy)
+4% Phantom Burst (Recklessness)
+4% Phantom Grasp
+4% Phantom Grasp (Mercy)
+4% Phantom Grasp (Recklessness)
+4% Returning Strike
+4% Returning Strike (Mercy)
+4% Returning Strike (Recklessness)
+4% Returning Drive
+4% Returning Drive (Mercy)
+4% Returning Burst
+4% Returning Burst (Mercy)
+4% Returning Burst (Recklessness)
+4% Returning Grasp
+4% Returning Grasp (Recklessness)
+4% Manipulative Burst
+4% Manipulative Burst (Mercy)
+4% Manipulative Burst (Recklessness)
+
+Luc:
+7% Eternal Strike
+3% Eternal Strike (1 token)
+2% Eternal Drive
+2% Eternal Drive (1 token)
+2% Eternal Burst
+3% Eternal Burst (1 token)
+2% Eternal Grasp
+2% Eternal Grasp (1 token)
+2% Eternal Dash
+3% Eternal Dash (1 token)
+6% Feinting Strike
+6% Feinting Strike (1 token)
+2% Feinting Drive
+3% Feinting Drive (1 token)
+3% Feinting Burst
+3% Feinting Burst (1 token)
+2% Feinting Grasp
+2% Feinting Grasp (1 token)
+3% Feinting Dash
+3% Feinting Dash (1 token)
+5% Chrono Strike
+10% Chrono Strike (1 token)
+3% Chrono Drive
+3% Chrono Drive (1 token)
+3% Chrono Burst
+3% Chrono Burst (1 token)
+2% Chrono Grasp
+3% Chrono Grasp (1 token)
+3% Chrono Dash
+4% Chrono Dash (1 token)
+
+
+Arec: Phantom Burst
+Luc: Feinting Strike (1 token)
+
 Luc antes a Time token
-Priorities:  2 | 1
+Priorities:  2 | 2
+Clash!
+
+Arec:
+25% Phantom Strike
+25% Phantom Shot
+25% Phantom Drive
+25% Phantom Grasp
+
+Luc:
+25% Feinting Drive (1 token)
+25% Feinting Burst (1 token)
+25% Feinting Grasp (1 token)
+25% Feinting Dash (1 token)
+
+
+Arec: Phantom Shot
+Luc: Feinting Drive (1 token)
+
+Luc antes a Time token
+Priorities:  3 | 3
+Clash!
+
+Arec:
+33% Phantom Strike
+33% Phantom Drive
+33% Phantom Grasp
+
+Luc:
+33% Feinting Burst (1 token)
+33% Feinting Grasp (1 token)
+33% Feinting Dash (1 token)
+
+
+Arec: Phantom Strike
+Luc: Feinting Burst (1 token)
+
+Luc antes a Time token
+Priorities:  4 | 0
 Arec is active
 Luc moves:
 
-L.A....
+.A.L...
+
+
+Luc moves:
+
+.A..L..
 
 
 Arec hits
-Luc takes 4 damage (now at 0 life)
+Luc takes 3 damage (now at 9 life)
+Luc is stunned
+Arec recovers a Hesitation token
+Luc moves:
+
+.AL....
+
+
+Luc gains 1 Time token
+Game goes to time
 AREC WINS!
-total_time: 150
+total_time: 213

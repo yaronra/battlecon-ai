@@ -29,73 +29,34 @@ Special action available
 
 
 Arec:
-3% Mirrored Hex
-53% Mirrored Drive
-43% Mirrored Burst (Recklessness)
+11% Mirrored Hex (Recklessness)
+49% Mirrored Drive
+40% Mirrored Burst (Recklessness)
 
 Lixis:
-3% Venomous Drive
-13% Venomous Dash
-85% Special Pulse
+54% Venomous Dash
+8% Naturalizing Shot
+38% Vine Shot
 
 
-Arec: Mirrored Burst (Recklessness)
-Lixis: Special Pulse
+Arec: Mirrored Drive
+Lixis: Naturalizing Shot
 
-Arec antes a Recklessness token
-Pulse:
+Priorities:  4 | 3
+Arec is active
+Arec moves:
 
-.AL....
-
-
-
-Beat 1
--------
-
-Arec
-----
-Life: 20
-Discard 1: Mirrored Burst
-Discard 2: Phantom Strike
-Special action available
-pool: Fear, Hesitation, Mercy
-
-Lixis
------
-Life: 20
-Discard 1: Pruning Grasp
-Discard 2: Rooted Strike
+...A.L.
 
 
-.AL....
+Arec hits
+Lixis takes 4 damage (now at 16 life)
+Lixis is stunned
+Arec places clone:
 
+...A.L.
+c......
 
-Arec:
-11% Perceptional Drive
-30% Returning Shot
-27% Returning Drive
-13% Manipulative Drive
-19% Manipulative Grasp
-
-Lixis:
-12% Venomous Drive
-1% Naturalizing Drive
-67% Naturalizing Dash
-17% Vine Shot
-2% Vine Burst
-
-
-Arec: Returning Drive
-Lixis: Naturalizing Dash
-
-Priorities:  5 | 10
-Lixis is active
-Lixis moves:
-
-LA.....
-
-
-Arec misses
 
 Beat 2
 -------
@@ -103,44 +64,51 @@ Beat 2
 Arec
 ----
 Life: 20
-Discard 1: Returning Drive
-Discard 2: Mirrored Burst
+Discard 1: Mirrored Drive
+Discard 2: Phantom Strike
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Hesitation, Mercy, Recklessness
 
 Lixis
 -----
-Life: 20
-Discard 1: Naturalizing Dash
+Life: 16
+Discard 1: Naturalizing Shot
 Discard 2: Pruning Grasp
+Special action available
 
 
-LA.....
-
+...A.L.
+c......
 
 Arec:
-39% Phantom Dash
-29% Manipulative Strike
-32% Manipulative Grasp
+64% Perceptional Burst (move to clone)
+16% Returning Shot (Mercy; move to clone)
+19% Manipulative Hex (Recklessness; move to clone)
+1% Manipulative Burst (Recklessness)
 
 Lixis:
-39% Venomous Drive
-55% Rooted Strike
-5% Rooted Shot
+78% Rooted Lance
+4% Rooted Strike
+3% Rooted Drive
+15% Rooted Dash
 
 
-Arec: Phantom Dash
-Lixis: Rooted Strike
+Arec: Perceptional Burst (move to clone)
+Lixis: Rooted Lance
 
-Priorities:  10 | 1
-Arec is active
 Arec moves:
 
-L...A..
+A....L.
 
 
+Priorities:  2 | 3
+Lixis is active
+Arec antes a Mercy token
 Lixis misses
-Arec recovers a Recklessness token
+Arec hits
+Lixis has 2 soak
+Lixis takes 1 damage (now at 15 life)
+Lixis is stunned
 
 Beat 3
 -------
@@ -148,178 +116,162 @@ Beat 3
 Arec
 ----
 Life: 20
-Discard 1: Phantom Dash
-Discard 2: Returning Drive
+Discard 1: Perceptional Burst
+Discard 2: Mirrored Drive
 Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
+pool: Fear, Hesitation, Recklessness
 
 Lixis
 -----
-Life: 20
-Discard 1: Rooted Strike
-Discard 2: Naturalizing Dash
+Life: 15
+Discard 1: Rooted Lance
+Discard 2: Naturalizing Shot
+Special action available
 
 
-L...A..
+A....L.
 
+
+Unbeatable strategy for Arec: Returning Hex: 1.04
+Unbeatable strategy for Arec: Returning Hex (Fear): 0.84
+Unbeatable strategy for Arec: Returning Hex (Hesitation): 0.74
+Unbeatable strategy for Arec: Returning Hex (Recklessness): 0.61
 
 Arec:
-38% Mirrored Shot
-42% Mirrored Burst (Mercy)
-21% Mirrored Burst (Recklessness)
+87% Returning Hex
+12% Returning Hex (Recklessness)
+1% Manipulative Hex (Recklessness)
 
 Lixis:
-5% Venomous Drive
-11% Venomous Burst
-84% Vine Shot
+47% Venomous Strike
+53% Pruning Drive
+1% Pruning Grasp
 
 
-Arec: Mirrored Shot
-Lixis: Vine Shot
+Arec: Returning Hex
+Lixis: Venomous Strike
 
-Priorities:  2 | 0
+Priorities:  4 | 3
 Arec is active
 Arec hits
-Lixis takes 4 damage (now at 16 life)
-Lixis hits
-Lixis moves Arec:
+Arec recovers a Mercy token
+Lixis takes 3 damage (now at 12 life)
+Lixis moves:
 
-L..A...
+A...L..
 
 
-Arec discards Grasp
-Arec takes 3 damage (now at 17 life)
-Arec is stunned
-Arec places clone:
-
-L..A...
-.....c.
-
+Lixis misses
 
 Beat 4
 -------
 
 Arec
 ----
-Life: 17
-Discard 1: Mirrored Shot Grasp
-Discard 2: Phantom Dash
+Life: 20
+Discard 1: Returning Hex
+Discard 2: Perceptional Burst
 Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
+pool: Fear, Hesitation, Recklessness, Mercy
 
 Lixis
 -----
-Life: 16
-Discard 1: Vine Shot
-Discard 2: Rooted Strike
+Life: 12
+Discard 1: Venomous Strike
+Discard 2: Rooted Lance
+Special action available
 
 
-L..A...
-.....c.
+A...L..
 
-Unbeatable strategy for Arec: Returning Hex (move to clone): 0.45
-Unbeatable strategy for Arec: Returning Hex (Hesitation; move to clone): 0.15
-Unbeatable strategy for Arec: Returning Hex (Recklessness; move to clone): 0.58
-Unbeatable strategy for Arec: Returning Burst (Recklessness): 0.59
-Unbeatable strategy for Arec: Manipulative Hex (move to clone): 3.15
-Unbeatable strategy for Arec: Manipulative Hex (Fear; move to clone): 2.30
-Unbeatable strategy for Arec: Manipulative Hex (Mercy; move to clone): 0.85
-Unbeatable strategy for Arec: Manipulative Hex (Recklessness; move to clone): 2.82
 
 Arec:
-99% Manipulative Hex (move to clone)
-1% Manipulative Hex (Recklessness; move to clone)
+30% Mirrored Shot (Recklessness)
+1% Mirrored Shot (Mercy)
+38% Mirrored Drive
+31% Mirrored Drive (Fear)
 
 Lixis:
-92% Venomous Drive
-8% Venomous Dash
+30% Naturalizing Drive
+37% Vine Drive
+17% Vine Burst
+16% Pruning Dash
 
 
-Arec: Manipulative Hex (move to clone)
-Lixis: Venomous Drive
+Arec: Mirrored Drive
+Lixis: Naturalizing Drive
 
-Arec moves:
-
-L....A.
-
-
-Priorities:  3 | 4
+Priorities:  4 | 5
 Lixis is active
 Lixis moves:
 
-.L...A.
-
-
-Lixis moves:
-
-...L.A.
+A.L....
 
 
 Lixis misses
-Arec hits
-Arec chooses Lixis's base: Burst
-Arec moves Lixis:
+Arec moves:
 
-..L..A.
+.AL....
 
 
-Lixis takes 4 damage (now at 12 life)
+Arec misses
+Arec places clone:
+
+.AL....
+.....c.
+
 
 Beat 5
 -------
 
 Arec
 ----
-Life: 17
-Discard 1: Manipulative Hex
-Discard 2: Mirrored Shot Grasp
+Life: 20
+Discard 1: Mirrored Drive
+Discard 2: Returning Hex
 Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
-Manipulative forced base: Burst
+pool: Fear, Hesitation, Recklessness, Mercy
 
 Lixis
 -----
 Life: 12
-Discard 1: Venomous Drive
-Discard 2: Vine Shot
+Discard 1: Naturalizing Drive
+Discard 2: Venomous Strike
+Special action available
 
+
+.AL....
+.....c.
+
+Unbeatable strategy for Lixis: Vine Shot: -1.17
+
+Arec:
+23% Phantom Strike (Mercy; move to clone)
+20% Perceptional Strike (move to clone)
+19% Perceptional Strike (Mercy; move to clone)
+9% Perceptional Dash
+29% Manipulative Dash
+
+Lixis:
+7% Rooted Lance
+13% Rooted Shot
+5% Vine Lance
+76% Vine Shot
+
+
+Arec: Perceptional Strike (move to clone)
+Lixis: Vine Lance
+
+Arec moves:
 
 ..L..A.
 
 
-Unbeatable strategy for Arec: Returning Burst: 0.20
-Unbeatable strategy for Arec: Returning Burst (Recklessness): 0.12
-
-Arec:
-28% Phantom Drive
-3% Perceptional Strike
-57% Returning Burst
-11% Returning Burst (Recklessness)
-
-Lixis:
-67% Rooted Burst
-25% Rooted Dash
-1% Naturalizing Dash
-7% Pruning Dash
-
-
-Arec: Phantom Drive
-Lixis: Rooted Burst
-
-Priorities:  5 | -1
+Priorities:  4 | 3
 Arec is active
-Lixis moves:
-
-L....A.
-
-
-Arec moves:
-
-L..A...
-
-
+Arec antes a Mercy token
 Arec hits
-Lixis takes 2 damage (now at 10 life)
+Lixis takes 4 damage (now at 8 life)
 Lixis is stunned
 
 Beat 6
@@ -327,158 +279,312 @@ Beat 6
 
 Arec
 ----
-Life: 17
-Discard 1: Phantom Drive
-Discard 2: Manipulative Hex
+Life: 20
+Discard 1: Perceptional Strike
+Discard 2: Mirrored Drive
 Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
+pool: Fear, Hesitation, Recklessness
 
 Lixis
 -----
-Life: 10
-Discard 1: Rooted Burst
-Discard 2: Venomous Drive
+Life: 8
+Discard 1: Vine Lance
+Discard 2: Naturalizing Drive
+Special action available
 
 
-L..A...
+..L..A.
 
 
-Unbeatable strategy for Arec: Mirrored Dash (Hesitation): 1.11
+Unbeatable strategy for Lixis: Rooted Shot: -0.70
 
 Arec:
-7% Mirrored Strike (Recklessness)
-19% Mirrored Burst (Mercy)
-28% Mirrored Burst (Recklessness)
-30% Mirrored Grasp
-16% Mirrored Dash
+9% Phantom Burst (Recklessness)
+91% Returning Shot
 
 Lixis:
-25% Naturalizing Lance
-3% Naturalizing Shot
-3% Vine Strike
-50% Vine Shot
-19% Vine Dash
+58% Rooted Shot
+42% Rooted Dash
 
 
-Arec: Mirrored Strike (Recklessness)
-Lixis: Vine Shot
+Arec: Returning Shot
+Lixis: Rooted Dash
 
-Arec antes a Recklessness token
-Priorities:  3 | 0
-Arec is active
+Priorities:  3 | 7
+Lixis is active
+Lixis moves:
+
+....LA.
+
+
 Arec hits
-Lixis takes 5 damage (now at 5 life)
-Lixis hits
-Arec discards Grasp
-Arec takes 3 damage (now at 14 life)
-Arec places clone:
-
-L..A...
-.....c.
-
+Lixis has 2 soak
+Lixis takes 1 damage (now at 7 life)
+Lixis is stunned
 
 Beat 7
 -------
 
 Arec
 ----
-Life: 14
-Discard 1: Mirrored Strike Grasp
-Discard 2: Phantom Drive
+Life: 20
+Discard 1: Returning Shot
+Discard 2: Perceptional Strike
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Hesitation, Recklessness
 
 Lixis
 -----
-Life: 5
-Discard 1: Vine Shot
-Discard 2: Rooted Burst
+Life: 7
+Discard 1: Rooted Dash
+Discard 2: Vine Lance
+Special action available
 
 
-L..A...
-.....c.
+....LA.
+
+
+Unbeatable strategy for Arec: Mirrored Dash: 0.95
+Unbeatable strategy for Arec: Mirrored Dash (Hesitation): 0.35
 
 Arec:
-68% Returning Hex (move to clone)
-32% Manipulative Hex (move to clone)
+7% Phantom Burst (Recklessness)
+3% Mirrored Hex (Hesitation)
+5% Mirrored Burst (Recklessness)
+2% Mirrored Grasp
+82% Mirrored Dash
+1% Manipulative Burst (Recklessness)
+1% Manipulative Grasp (Fear)
 
 Lixis:
-40% Venomous Strike
-60% Venomous Drive
+12% Venomous Strike
+2% Venomous Shot
+7% Venomous Drive
+21% Venomous Grasp
+23% Naturalizing Drive
+17% Pruning Drive
+18% Pruning Burst
 
 
-Arec: Returning Hex (move to clone)
-Lixis: Venomous Drive
+Arec: Manipulative Burst (Recklessness)
+Lixis: Venomous Grasp
 
+Arec antes a Recklessness token
+Priorities:  1 | 5
+Lixis is active
 Arec moves:
 
-L....A.
-
-
-Priorities:  4 | 4
-Arec is active
-Arec hits
-Arec recovers a Recklessness token
-Lixis takes 3 damage (now at 2 life)
-Lixis moves:
-
-.L...A.
-
-
-Lixis moves:
-
-...L.A.
+....L.A
 
 
 Lixis misses
+Arec hits
+Arec chooses Lixis's base: Shot
+Lixis takes 4 damage (now at 3 life)
+Arec recovers a Mercy token
+Lixis is stunned
 
 Beat 8
 -------
 
 Arec
 ----
-Life: 14
-Discard 1: Returning Hex
-Discard 2: Mirrored Strike Grasp
+Life: 20
+Discard 1: Manipulative Burst
+Discard 2: Returning Shot
 Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
+pool: Fear, Hesitation, Mercy
+Manipulative forced base: Shot
 
 Lixis
 -----
-Life: 2
-Discard 1: Venomous Drive
-Discard 2: Vine Shot
+Life: 3
+Discard 1: Venomous Grasp
+Discard 2: Rooted Dash
+Special action available
 
 
-...L.A.
+....L.A
 
+
+Unbeatable strategy for Arec: Mirrored Dash: 0.66
+Unbeatable strategy for Arec: Mirrored Dash (Hesitation): 0.06
+Unbeatable strategy for Arec: Mirrored Dash (Mercy): 0.26
 
 Arec:
-26% Phantom Shot
-13% Phantom Shot (Recklessness)
-52% Phantom Burst
-2% Perceptional Shot
-4% Perceptional Shot (Recklessness)
-2% Manipulative Burst
+2% Phantom Strike (Fear)
+2% Perceptional Hex (Hesitation)
+12% Perceptional Grasp
+27% Mirrored Hex
+4% Mirrored Drive
+29% Mirrored Grasp (Fear)
+24% Mirrored Grasp (Hesitation)
 
 Lixis:
-2% Rooted Dash
-49% Naturalizing Lance
-42% Naturalizing Strike
-6% Naturalizing Dash
-1% Pruning Lance
-0% Pruning Burst
+9% Naturalizing Shot
+8% Naturalizing Drive
+2% Naturalizing Burst
+5% Vine Burst
+10% Pruning Lance
+7% Pruning Drive
+59% Special Pulse
 
 
-Arec: Phantom Shot
-Lixis: Naturalizing Lance
+Arec: Mirrored Hex
+Lixis: Naturalizing Shot
 
-Priorities:  3 | 6
+Priorities:  3 | 3
+Clash!
+
+Arec:
+38% Mirrored Drive
+62% Mirrored Grasp
+
+Lixis:
+73% Naturalizing Drive
+27% Naturalizing Burst
+
+
+Arec: Mirrored Drive
+Lixis: Naturalizing Drive
+
+Lixis loses 2 life (now at 1)
+Priorities:  4 | 5
 Lixis is active
+Lixis moves:
+
+.....LA
+
+
 Lixis hits
-Arec discards Drive
-Arec takes 2 damage (now at 12 life)
+Arec discards Strike
+Arec takes 2 damage (now at 18 life)
+Arec is stunned
+Arec places clone:
+
+.....LA
+c......
+
+
+Beat 9
+-------
+
+Arec
+----
+Life: 18
+Discard 1: Mirrored Drive Strike
+Discard 2: Manipulative Burst
+Special action available
+pool: Fear, Hesitation, Mercy
+
+Lixis
+-----
+Life: 1
+Discard 1: Naturalizing Drive
+Discard 2: Venomous Grasp
+Special action available
+
+
+.....LA
+c......
+
+Unbeatable strategy for Arec: Phantom Hex (Hesitation): 6.00
+Unbeatable strategy for Arec: Phantom Hex (Hesitation; move to clone): 6.00
+Unbeatable strategy for Arec: Perceptional Hex (Hesitation): 6.00
+Unbeatable strategy for Arec: Perceptional Hex (Hesitation; move to clone): 6.00
+Unbeatable strategy for Arec: Returning Hex: 6.00
+Unbeatable strategy for Arec: Returning Hex (Fear): 6.00
+Unbeatable strategy for Arec: Returning Hex (Hesitation): 6.00
+Unbeatable strategy for Arec: Returning Hex (Mercy): 6.00
+Unbeatable strategy for Arec: Returning Hex (move to clone): 6.00
+Unbeatable strategy for Arec: Returning Hex (Fear; move to clone): 6.00
+Unbeatable strategy for Arec: Returning Hex (Hesitation; move to clone): 6.00
+Unbeatable strategy for Arec: Returning Hex (Mercy; move to clone): 6.00
+Unbeatable strategy for Arec: Returning Shot (Hesitation): 6.00
+
+Arec:
+74% Perceptional Hex (move to clone)
+26% Perceptional Shot (move to clone)
+
+Lixis:
+1% Pruning Strike
+99% Special Pulse
+
+
+Arec: Perceptional Hex (move to clone)
+Lixis: Special Pulse
+
+Arec moves:
+
+A....L.
+
+
+Pulse:
+
+AL.....
+
+
+
+Beat 9
+-------
+
+Arec
+----
+Life: 18
+Discard 1: Perceptional Hex
+Discard 2: Mirrored Drive Strike
+Special action available
+pool: Fear, Hesitation, Mercy
+
+Lixis
+-----
+Life: 1
+Discard 1: Naturalizing Drive
+Discard 2: Venomous Grasp
+
+
+AL.....
+
+
+Unbeatable strategy for Arec: Phantom Grasp (Hesitation): 1.93
+Unbeatable strategy for Arec: Returning Shot (Hesitation): 6.00
+Unbeatable strategy for Arec: Manipulative Grasp (Fear): 0.38
+
+Arec:
+100% Returning Shot (Hesitation)
+
+Lixis:
+9% Rooted Lance
+5% Rooted Strike
+2% Rooted Shot
+5% Rooted Burst
+10% Rooted Dash
+2% Vine Lance
+5% Vine Strike
+4% Vine Shot
+6% Vine Burst
+4% Vine Dash
+10% Pruning Lance
+17% Pruning Strike
+4% Pruning Shot
+4% Pruning Burst
+13% Pruning Dash
+
+
+Arec: Returning Shot (Hesitation)
+Lixis: Pruning Dash
+
+Arec antes a Hesitation token
+Lixis gets +3 power
+Lixis gets +3 priority
+Priorities:  3 | 7
+Lixis is active
+Lixis moves:
+
+A.L....
+
+
 Arec hits
-Lixis takes 2 damage (now at 0 life)
+Lixis takes 3 damage (now at 0 life)
 AREC WINS!
-total_time: 49
+total_time: 79

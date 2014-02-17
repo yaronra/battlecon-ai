@@ -80,19 +80,11 @@ def main():
     
 
 def ad_hoc():
-#    duel('arec', 'kallistar', 1)
-    free_for_all(1, ['arec'], None, [], True, False)
-#     start_with = 'adjenna'
-#     names = [n for n in playable if n >= start_with]
-#     names = ['marmelee']
-#     free_for_all (repeat=1,
-#                   names=names, 
-#                   start=start_with, 
-#                   skip=[],
-#                   raise_exceptions=True, 
-#                   first_beats=False)
+#    duel('abarene', 'kallistar', 1)
+    free_for_all(1, ['abarene'], None, [], True, False)
 
-playable = [ 'adjenna',
+playable = [ 'abarene',
+             'adjenna',
              'alexian',
              'arec',
              'aria',
@@ -505,7 +497,7 @@ class Game:
         log = ["\n" + " vs. ".join(full_names)]
         for p in self.player:
             log.append ("Chosen finisher for %s: " % p.name +
-                             ', '.join([o.name for o in p.finishers]))
+                             ', '.join(o.name for o in p.finishers))
         # Loop over beats:
         while True:
             log.append ("\nBeat %d" % self.current_beat)
@@ -1502,8 +1494,8 @@ class Game:
             ss0, ss1 = ss1, ss0
             
         ab0,ab1 = array_results.shape
-        b0 = len(set([s[2] for s in ss0]))
-        b1 = len(set([s[2] for s in ss1]))
+        b0 = len(set(s[2] for s in ss0))
+        b1 = len(set(s[2] for s in ss1))
         if ab0%b0 != 0 or ab1%b1 != 0:
             print "Total strategies not divisible by antes"
             return
@@ -1714,8 +1706,7 @@ class Character (object):
             self.position = board.find(self.name[0])
         cards = self.styles + self.bases
         for d in (1,2):
-            self.discard[d] = set([c for c in cards
-                                   if c.name in lines[d]])
+            self.discard[d] = set(c for c in cards if c.name in lines[d])
         # Figure out where standard portion of report ends,
         # and any character specific data starts.
         next_line_index = 3
@@ -1724,7 +1715,7 @@ class Character (object):
             next_line_index += 1
         else:
             self.special_action_available = False
-        removed_line = find_start(lines, 'Removed cards:')
+        removed_line = find_start_line(lines, 'Removed cards:')
         if removed_line:
             self.styles = [s for s in self.styles if s.name not in removed_line]
             self.bases = [b for b in self.bases if b.name not in removed_line]
@@ -1905,15 +1896,15 @@ class Character (object):
     # available cards based on cards in strategy mix
     # (so that they are suitably limited after a clash)
     def input_pair (self):
-        styles = sorted(list(set([m[0][0] for m in self.mix])),
+        styles = sorted(list(set(m[0][0] for m in self.mix)),
                        key=attrgetter('order'))
-        bases = sorted(list(set([m[0][1] for m in self.mix])),
+        bases = sorted(list(set(m[0][1] for m in self.mix)),
                        key=attrgetter('order'))
         # friendly reminder of bases in hand when asking about styles
         if len(styles) > 1:
             print "(Bases in hand: " + \
-                  ', '.join([b.name for b in bases
-                             if not isinstance (b, SpecialBase)]) + ")\n" 
+                  ', '.join(b.name for b in bases
+                            if not isinstance (b, SpecialBase)) + ")\n" 
         style = (styles[menu(styles)] if len(styles) > 1 else styles[0])
         if isinstance (style, SpecialAction):
             bases = [b for b in bases if isinstance (b, SpecialBase)]
@@ -1953,7 +1944,7 @@ class Character (object):
         # Look at antes in strategy mix.  If there's just one, we don't need
         # to input antes (either there was just one to begin with, or we are
         # post-clash/cancel.
-        possible_antes = list(set([m[0][2] for m in self.mix]))
+        possible_antes = list(set(m[0][2] for m in self.mix))
         if len(possible_antes) == 1:
             ante = possible_antes[0]
         # Otherwise, report ai's ante choice
@@ -1968,12 +1959,12 @@ class Character (object):
             opp_ante_name = ' | '.join(names)
             if opp_ante_name != "" :
                 print opp.name + "'s ante: " + opp_ante_name
-            possible_own_antes = list(set([a[0] for a in possible_antes]))
+            possible_own_antes = list(set(a[0] for a in possible_antes))
             if len(possible_own_antes) > 1:
                 own_ante = self.input_ante()
             else:
                 own_ante = possible_own_antes[0]
-            possible_induced_antes = list(set([a[1] for a in possible_antes]))
+            possible_induced_antes = list(set(a[1] for a in possible_antes))
             if len(possible_induced_antes) > 1:
                 induced_ante = opp.input_induced_ante()
             else:
@@ -2555,8 +2546,8 @@ class Character (object):
             # for normal movement, a position is 'unobstructed' if there are
             # no blocked positions between it and the mover
             if not direct:
-                unobstructed = set([pos for pos in xrange(7) \
-                        if len(pos_range(pos,mover_pos) & blocked) == 0])
+                unobstructed = set(pos for pos in xrange(7) \
+                        if len(pos_range(pos,mover_pos) & blocked) == 0)
             # for direct movement, only directly blocked spaces are obstructed.
             else: 
                 unobstructed = set(xrange(7)) - blocked
@@ -2861,6 +2852,146 @@ class DebugException (Exception):
 # Each character is a class.
 # A game creates an instance of each player's character
 
+class Abarene(Character):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
+        self.unique_base = Thorns (the_game, self)
+        self.styles = [Lethal       (the_game, self),
+                       Intoxicating (the_game, self),
+                       Barbed       (the_game, self),
+                       Crippling    (the_game, self),
+                       Pestilent    (the_game, self)]
+        self.finishers = [Flytrap        (the_game, self),
+                          HallicrisSnare (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
+        self.tokens = [Dizziness (the_game, self), \
+                       Fatigue   (the_game, self), \
+                       Nausea    (the_game, self), \
+                       PainSpike (the_game, self)]
+        self.pain_spike = self.tokens[3]
+
+    def set_starting_setup (self, default_discards, use_special_actions):
+        Character.set_starting_setup (self, default_discards, use_special_actions)
+        # Opponent chooses starting token.
+        if self.opponent.is_user:
+            print "Choose Abarene's starting token:"
+            ans = menu([t.name for t in self.tokens])
+            self.pool = [self.tokens[ans]]
+        else:
+            self.pool = [min(self.tokens, 
+                             key=attrgetter('starting_value'))]
+        
+    def choose_initial_discards (self):
+        return (self.lethal, self.strike,
+                self.intoxicating, self.grasp)
+
+    def situation_report (self):
+        report = Character.situation_report (self)
+        tokens = [t.name for t in self.pool]
+        report.append ("pool: " + ', '.join(tokens))
+        return report
+
+    def read_my_state (self, lines, board, addendum):
+        lines = Character.read_my_state (self, lines, board, addendum)
+        self.pool = [t for t in self.tokens if t.name in lines[0]]
+
+    def reset (self):
+        self.flytrap_discard = 0
+        Character.reset (self)
+
+    def full_save (self):
+        state = Character.full_save (self)
+        state.flytrap_discard = self.flytrap_discard
+        return state
+
+    def full_restore (self, state):
+        Character.full_restore (self, state)
+        self.flytrap_discard = state.flytrap_discard
+
+    def get_antes (self):
+        combos = [itertools.combinations(self.pool, n)
+                  for n in xrange(len(self.pool) + 1)]
+        return sum([list(c) for c in combos], [])
+
+    def input_ante (self):
+        if self.pool:
+            antes = self.get_antes()
+            options = [self.get_ante_name(a) for a in antes]
+            options[0] = "None"
+            print "Select tokens to ante:"
+            return antes[menu(options)]
+        else:
+            return []
+
+    def ante_trigger (self):
+        for token in self.strat[2][0]:
+            self.ante_token (token)
+            if token is self.pain_spike:
+                self.opponent.lose_life(3)
+
+    def get_ante_name (self, a):
+        return ', '.join(token.name for token in a)
+            
+    def recover_tokens (self, choosing_player, from_discard, from_ante):
+        if from_discard:
+            recoverable = [t for t in self.tokens if t not in self.pool]
+            if not from_ante:
+                recoverable = [t for t in recoverable if t not in self.ante]
+        else:
+            recoverable = [t for t in self.tokens if t in self.ante]
+        if len(recoverable) > 0:
+            prompt = "Select a token for Abarene to recover:"
+            options = [t.name for t in recoverable]
+            choice = self.game.make_fork (len(recoverable), choosing_player,
+                                          prompt, options)
+            recovered = recoverable[choice]
+            self.pool += [recovered]
+            self.pool = sorted(self.pool, key=attrgetter('name'))
+            if self.game.reporting:
+                self.game.report ("Abarene recovers " + recovered.aname + " token")
+
+    def hit_trigger(self):
+        self.recover_tokens(self.opponent, from_discard=True,
+                                           from_ante=True)
+        Character.hit_trigger(self)
+
+    # overrides default method, which I set to pass for performance
+    def movement_reaction (self, mover, old_position, direct):
+        for card in self.active_cards:
+            card.movement_reaction (mover, old_position, direct)
+
+    # Barbed hurts opponent when Adjenna moves her.
+    def execute_move (self, mover, moves, direct=False):
+        old_pos = self.opponent.position
+        Character.execute_move(self, mover, moves, direct)
+        if self.barbed in self.active_cards:
+            self.barbed_life_loss(mover, old_pos, direct)
+
+    def barbed_life_loss(self, mover, old_pos, direct):
+        if mover is self:
+            return
+        opp = self.opponent.position
+        if opp == old_pos:
+            return
+        if direct:
+            if self.game.distance() == 1:
+                self.opponent.lose_life(2)
+        else:
+            passed = pos_range(opp, old_pos)
+            passed.remove(old_pos)
+            me = self.position
+            if me + 1 in passed:
+                self.opponent.lose_life(2)
+            if me - 1 in passed:
+                self.opponent.lose_life(2)
+
+    def give_priority_penalty(self):
+        return (-2 * self.flytrap_discard + 
+                Character.give_priority_penalty(self))
+
+    def evaluate(self):
+        return Character.evaluate(self) + sum([token.get_value()
+                                               for token in self.pool])
+
 class Adjenna (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Gaze (the_game, self)
@@ -2923,6 +3054,14 @@ class Adjenna (Character):
     def movement_reaction (self, mover, old_position, direct):
         for card in self.active_cards:
             card.movement_reaction (mover, old_position, direct)
+
+    # Pacifying hurts opponent when Adjenna moves her.
+    def execute_move (self, mover, moves, direct=False):
+        pos = self.opponent.position
+        Character.execute_move(self, mover, moves, direct)
+        if (mover is self.opponent and mover.position != pos and
+            self.pacifying in self.active_cards):
+            self.opponent.lose_life(2) 
 
     # Adjenna wants to be as close to opponent as possible
     # regardless of her cards?
@@ -3121,11 +3260,13 @@ class Arec (Character):
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
         self.pool = [t for t in self.tokens if t.name in lines[0]]
-        line = find_start(lines, "Manipulative forced base:")
-        self.manipulative_base = None
-        for base in self.opponent.bases:
-            if base.name in line:
-                self.manipulative_base = base
+        line = find_start_line(lines, "Manipulative forced base:")
+        if line:
+            for base in self.opponent.bases:
+                if base.name in line:
+                    self.manipulative_base = base
+        else:
+            self.manipulative_base = None
         self.clone_position = addendum[0].find('c')
         if self.clone_position == -1:
             self.clone_position == None
@@ -3322,7 +3463,7 @@ class Arec (Character):
             new_opp_eval = self.opponent.evaluate()
             self.opponent.discard[2].remove(self.manipulative_base)
             self.opponent.preferred_range = real_preferred_range
-            base_value = opp_eval - new_opp_eval
+            base_value = new_opp_eval - opp_eval
             # Shift range of possible values (say, -10 to 10) to (0 to 2)
             # (2 is maximum value of this ability).
             base_value = base_value / 10.0 + 1
@@ -3534,7 +3675,7 @@ class Byron (Character):
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
         self.mask_emblems = int(lines[0][0])
-        line = find_start(lines, "Byron has +")
+        line = find_start_line(lines, "Byron has +")
         # assuming priority bonus is one digit
         self.priority_bonus = int(line[11]) if line else 0
         
@@ -5269,8 +5410,6 @@ class Karin (Character):
 
     # different preferred range for karin and jager, based on the styles
     # that let each of them attack
-    # preferred range is now 4-tuple of preferred ranges, and also of
-    # weights (number of styles that let each of them attack)
     def set_preferred_range (self):
         unavailable_cards = self.discard[1] \
                           | self.discard[2]
@@ -7497,7 +7636,9 @@ class Zaamassal (Character):
     def set_active_paradigms (self, paradigms):
         self.active_paradigms = set(paradigms)
         if self.game.reporting:
-            if len(paradigms) == 1:
+            if not paradigms:
+                self.game.report("Zaamassal loses all paradigms")
+            elif len(paradigms) == 1:
                 self.game.report ("Zaamassal assumes the Paradigm of " + paradigms[0].name)
             else:
                 self.game.report ("Zaamassal assumes the following paradigms:")
@@ -7757,8 +7898,167 @@ class Cancel (SpecialBase):
 class Pulse (SpecialBase):
     order = 30
 
+#Abarene
 
+class Flytrap(Finisher):
+    minrange = 1
+    maxrange = 2
+    power = 7
+    priority = 2
+    def reduce_soak(self, soak):
+        return 0
+    def reduce_stunguard(self, stunguard):
+        return 0
+    def reveal_trigger(self):
+        self.me.flytrap_discard = len(self.me.pool)
+        self.me.pool = []
+        if self.game.reporting:
+            self.game.report("Abarene discards all Poison tokens")
+    def evaluate_setup(self):
+        return 0.2 * len(self.me.pool) * (self.game.distance() in [1,2])
+
+class HallicrisSnare(Finisher):
+    minrange = 4
+    maxrange = 6
+    power = 1
+    priority = 5
+    def hit_trigger(self):
+        old_pos = self.opponent.position
+        self.me.pull(xrange(6))
+        distance = abs(self.opponent.position - old_pos)
+        if ordered(old_pos, self.me.position, self.opponent.position):
+            distance -= 1
+        self.me.add_triggered_power_bonus(distance)
+    def evaluate_setup(self):
+        return 0.5 * (self.game.distance() in [4,5,6]) 
+
+class Thorns(Base):
+    minrange = 1
+    maxrange = 1
+    power = 3
+    priority = 2
+    stunguard = 4
+    def get_preferred_range(self):
+        return 1 + 0.3 * len(self.me.pool)
+    def get_maxrange_bonus(self):
+        return len(set(self.me.ante) & set(self.me.tokens))
+    def hit_trigger(self):
+        self.me.recover_tokens(self.me, from_discard=True,
+                                        from_ante=True)
+    def evaluation_bonus(self):
+        return 0.05 * len(self.me.pool) - 0.1    
+
+class Lethal(Style):
+    power = -2
+    def get_power_bonus(self):
+        return len(self.me.pool)
+    def before_trigger(self):
+        self.me.move_directly([0, self.me.position, 6])
+    ordered_before_trigger = True
+    def evaluation_bonus(self):
+        return 0.05 * len(self.me.pool) - 0.1    
+
+class Intoxicating(Style):
+    power = 1
+    priority = 1
+    def start_trigger(self):
+        self.me.recover_tokens(self.me, from_discard=False,
+                                        from_ante = True)
+    def end_trigger(self):
+        self.me.recover_tokens(self.opponent, from_discard=True,
+                                              from_ante=False)
+    def evaluation_bonus(self):
+        if len(self.me.pool) in (0,4):
+            return -0.1
+        else:
+            return 0.05
+        
+class Barbed(Style):
+    maxrange = 1
+    power = -1
+    priority = 1
+    preferred_range = 0.5
+    def movement_reaction (self, mover, old_pos, direct):
+        self.me.barbed_life_loss(mover, old_pos, direct)
+    def hit_trigger(self):
+        self.me.pull([1])    
+    ordered_hit_trigger = True
+    def evaluation_bonus(self):
+        return 0.1 if (self.game.distance() == 2 and 
+                       self.opponent.life > 3) else -0.3
+
+class Crippling(Style):
+    power = 1
+    priority = -2
+    preferred_range = 1
+    # Block retreats.
+    def blocks_movement (self, direct):
+        if direct:
+            return set([])
+        opp = self.opponent.position
+        if opp < self.me.position:
+            return set(xrange(opp))
+        else:
+            return set(xrange(opp+1, 7))
+    def before_trigger(self):
+        self.me.advance([1,2])
+    ordered_before_trigger = True
+    def evaluation_bonus(self):
+        return -0.2 if self.opponent.position in (0,6) else 0.1
+    
+class Pestilent(Style):
+    maxrange = 1
+    power = -1
+    priority = 1
+    def after_trigger(self):
+        old_pos = self.me.position
+        self.me.advance(range(4))
+        if ordered(old_pos, self.opponent.position, self.me.position):
+            self.me.recover_tokens(self.opponent, from_discard=True,
+                                                  from_ante=True)
+    ordered_after_trigger = True
+    def evaluation_bonus(self):
+        return 0.05 if (self.game.distance() <= 3 and 
+                        self.opponent.position not in (0,6)) else -0.05
+
+class Dizziness(Token):
+    def give_power_penalty(self):
+        return -2
+    def get_value(self):
+        return 0.7
+    starting_value = 0.7
+
+class Fatigue(Token):
+    def give_priority_penalty(self):
+        return -2
+    def get_value(self):
+        return 0.6
+    starting_value = 0.6
+
+class Nausea(Token):
+    def give_minrange_penalty(self):
+        return -1
+    def give_maxrange_penalty(self):
+        return -1
+    def get_value(self):
+        # Value depends on opponent's preferred_range:
+        # -1 range is great against melee characters, but not very useful
+        # against rangers (might even help them reduce minimum range).
+        # Problems: 
+        #     if high preferred range comes from forward mobility,
+        #         Nausea might still be good
+        #     not so good against adjenna, in spite of her preferred range of 1.
+        return min(0.1, 1.5 - 0.3 * self.opponent.preferred_range)
+    starting_value = 0.8 
+    
+class PainSpike(Token):
+    # life loss handled by Abarene.ante_trigger()
+    def get_value(self):
+        return max(0.5 * min(3, self.opponent.life - 1), 0.1)
+    starting_value = 1.5
+    
 #Adjenna
+
 class BasiliskGaze (Finisher):
     minrange = 2
     maxrange = 3
@@ -11799,13 +12099,12 @@ class Fools (Style):
     name_override = "Fool's"
     power = -1
     priority = -4
-    # Reduces opponent's maximum range by 1.
-    # Their minimum range is usually 1 anyway, so it's not really affected.
-    preferred_range = 0.5 
     def give_minrange_penalty (self):
         return -1
     def give_maxrange_penalty (self):
         return -1
+    def evaluation_bonus(self):
+        return 0.9 - 0.3 * self.opponent.preferred_range
 
 class Mimics (Style):
     name_override = "Mimic's"
@@ -12201,7 +12500,7 @@ class Judgment (Style):
     maxrange = 1
     power = 1
     priority = -1
-    preferred_range = 0.5
+    preferred_range = 1
     def blocks_movement (self, direct):
         # Can't retreat or move past me.
         if direct:
@@ -12595,7 +12894,8 @@ class Distortion (Paradigm):
         
 
 # Character name => corresponding class
-character_dict = {'adjenna'  :Adjenna,
+character_dict = {'abarene'  :Abarene,
+                  'adjenna'  :Adjenna,
                   'alexian'  :Alexian,
                   'arec'     :Arec,
                   'aria'     :Aria,

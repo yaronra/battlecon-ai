@@ -29,91 +29,44 @@ Special action available
 
 
 
-Arec:
-16% Perceptional Drive
-8% Mirrored Hex
-10% Mirrored Shot
-40% Mirrored Shot (Recklessness)
-26% Mirrored Drive
-0% Mirrored Burst (Recklessness)
-
-Khadath:
-6% Teleport Dash
-1% Blight Shot
-9% Blight Drive
-9% Blight Burst
-1% Lure Strike
-74% Special Pulse
-
-
-Arec: Perceptional Drive
-Khadath: Special Pulse
-
-Pulse:
-
-.A....K
-
-
-
-
-Beat 1
--------
-
-Arec
-----
-Life: 20
-Discard 1: Perceptional Drive
-Discard 2: Phantom Strike
-Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
-
-Khadath
--------
-Life: 20
-Discard 1: Evacuation Grasp
-Discard 2: Hunter's Snare
-
-
-.A....K
-
-
-
-Unbeatable strategy for Arec: Returning Hex (Fear): 0.87
-Unbeatable strategy for Arec: Mirrored Grasp: 0.14
+Unbeatable strategy for Arec: Perceptional Drive: 0.28
+Unbeatable strategy for Arec: Perceptional Drive (Fear): 0.22
+Unbeatable strategy for Arec: Returning Hex (Fear): 0.13
 
 Arec:
-46% Mirrored Hex
-1% Mirrored Hex (Recklessness)
-53% Mirrored Shot (Recklessness)
+1% Mirrored Hex
+8% Mirrored Hex (Recklessness)
+43% Mirrored Shot (Recklessness)
+18% Mirrored Drive
+30% Mirrored Drive (Fear)
 
 Khadath:
-39% Blight Shot
-22% Blight Drive
-38% Lure Drive
+35% Teleport Dash
+34% Blight Shot
+8% Blight Drive
+13% Blight Burst
+10% Lure Strike
 
 
-Arec: Mirrored Shot (Recklessness)
-Khadath: Blight Drive
+Arec: Mirrored Drive (Fear)
+Khadath: Teleport Dash
 
-Arec antes a Recklessness token
-Priorities:  2 | 4
+Arec antes a Fear token
+Priorities:  4 | 6
 Khadath is active
-Khadath moves trap:
+Khadath moves:
 
-.A....K
+.A.K...
 
-....t..
 
-Khadath misses
-Arec hits
-Khadath takes 4 damage (now at 16 life)
-Khadath is stunned
-Arec places clone:
 
-.A....K
-.....c.
-....t..
+Arec moves:
 
+..AK...
+
+
+
+Arec misses
 
 Beat 2
 -------
@@ -121,47 +74,58 @@ Beat 2
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Shot
-Discard 2: Perceptional Drive
+Discard 1: Mirrored Drive
+Discard 2: Phantom Strike
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Hesitation, Mercy, Recklessness
 
 Khadath
 -------
-Life: 16
-Discard 1: Blight Drive
+Life: 20
+Discard 1: Teleport Dash
 Discard 2: Evacuation Grasp
+Special action available
 
 
-.A....K
-.....c.
-....t..
+..AK...
 
-Unbeatable strategy for Khadath: Teleport Snare: -0.39
-Unbeatable strategy for Khadath: Teleport Strike: -1.11
-Unbeatable strategy for Khadath: Teleport Dash: -1.54
+
+
+Unbeatable strategy for Khadath: Blight Strike: -3.23
 
 Arec:
-1% Returning Strike (move to clone)
-74% Manipulative Hex (Fear)
-18% Manipulative Strike (Fear; move to clone)
-8% Manipulative Grasp (Fear)
+11% Perceptional Hex
+44% Perceptional Shot
+45% Manipulative Grasp
 
 Khadath:
-17% Teleport Snare
-53% Teleport Strike
-24% Teleport Dash
-6% Lure Strike
+53% Blight Strike
+27% Blight Drive
+19% Blight Burst
 
 
-Arec: Manipulative Hex (Fear)
-Khadath: Teleport Strike
+Arec: Manipulative Grasp
+Khadath: Blight Drive
 
-Arec antes a Fear token
-Priorities:  3 | 0
+Priorities:  5 | 4
 Arec is active
-Arec misses
-Khadath misses
+Khadath moves trap:
+
+..AK...
+
+.t.....
+
+Arec hits
+Arec chooses Khadath's base: Shot
+Arec moves Khadath:
+
+..A.K..
+
+.t.....
+
+Khadath takes 3 damage (now at 17 life)
+Arec recovers a Fear token
+Khadath is stunned
 
 Beat 3
 -------
@@ -169,110 +133,170 @@ Beat 3
 Arec
 ----
 Life: 20
-Discard 1: Manipulative Hex
-Discard 2: Mirrored Shot
+Discard 1: Manipulative Grasp
+Discard 2: Mirrored Drive
 Special action available
-pool: Hesitation, Mercy
+pool: Hesitation, Mercy, Recklessness, Fear
+Manipulative forced base: Shot
 
 Khadath
 -------
-Life: 16
-Discard 1: Teleport Strike
-Discard 2: Blight Drive
+Life: 17
+Discard 1: Blight Drive
+Discard 2: Teleport Dash
+Special action available
 
 
-.A....K
+..A.K..
 
-....t..
+.t.....
+
+Unbeatable strategy for Arec: Phantom Dash (Fear): 0.16
+Unbeatable strategy for Arec: Perceptional Dash: 0.44
+Unbeatable strategy for Arec: Perceptional Dash (Hesitation): 0.14
+Unbeatable strategy for Arec: Perceptional Dash (Mercy): 0.34
+Unbeatable strategy for Arec: Perceptional Dash (Fear): 0.24
+Unbeatable strategy for Arec: Returning Shot: 1.10
+Unbeatable strategy for Arec: Returning Shot (Hesitation): 0.80
+Unbeatable strategy for Arec: Returning Shot (Mercy): 1.00
+Unbeatable strategy for Arec: Returning Shot (Recklessness): 0.60
+Unbeatable strategy for Arec: Returning Dash (Fear): 0.07
 
 Arec:
-36% Phantom Drive
-39% Phantom Dash (Mercy)
-25% Perceptional Drive
+8% Phantom Dash
+49% Perceptional Strike
+43% Perceptional Shot
 
 Khadath:
-29% Hunter's Snare
-36% Hunter's Grasp
-35% Lure Shot
+31% Evacuation Snare
+44% Lure Strike
+25% Lure Shot
 
 
-Arec: Phantom Dash (Mercy)
+Arec: Phantom Dash
 Khadath: Lure Shot
 
-Arec antes a Mercy token
-Priorities:  10 | 1
+Arec gets -1 priority
+Priorities:  9 | 1
 Arec is active
 Arec moves:
 
-A.....K
+....K.A
 
-....t..
+.t.....
 
-Khadath hits
-Arec takes 2 damage (now at 18 life)
-Arec is stunned
-Arec recovers a Recklessness token
+Khadath misses
 
 Beat 4
 -------
 
 Arec
 ----
-Life: 18
+Life: 20
 Discard 1: Phantom Dash
-Discard 2: Manipulative Hex
+Discard 2: Manipulative Grasp
 Special action available
-pool: Hesitation, Recklessness
+pool: Hesitation, Mercy, Recklessness, Fear
 
 Khadath
 -------
-Life: 16
+Life: 17
 Discard 1: Lure Shot
-Discard 2: Teleport Strike
+Discard 2: Blight Drive
+Special action available
 
 
-A.....K
+....K.A
 
-....t..
+.t.....
 
-Unbeatable strategy for Arec: Perceptional Shot: 1.54
-Unbeatable strategy for Arec: Perceptional Shot (Hesitation): 0.94
-Unbeatable strategy for Arec: Perceptional Shot (Recklessness): 0.66
-Unbeatable strategy for Arec: Mirrored Strike: 1.51
-Unbeatable strategy for Arec: Mirrored Strike (Hesitation): 0.91
-Unbeatable strategy for Arec: Mirrored Strike (Recklessness): 1.26
-Unbeatable strategy for Arec: Mirrored Shot: 4.34
-Unbeatable strategy for Arec: Mirrored Shot (Hesitation): 3.74
-Unbeatable strategy for Arec: Mirrored Shot (Recklessness): 4.67
+Unbeatable strategy for Arec: Perceptional Hex: 2.14
+Unbeatable strategy for Arec: Perceptional Hex (Hesitation): 1.54
+Unbeatable strategy for Arec: Perceptional Hex (Recklessness): 1.34
+Unbeatable strategy for Arec: Perceptional Strike: 0.38
+Unbeatable strategy for Arec: Perceptional Strike (Recklessness): 2.93
+Unbeatable strategy for Arec: Returning Strike (Fear): 0.25
+Unbeatable strategy for Arec: Mirrored Drive (Recklessness): 0.20
 
 Arec:
-34% Mirrored Shot
-66% Mirrored Shot (Recklessness)
+100% Mirrored Hex
 
 Khadath:
-48% Hunter's Grasp
-52% Hunter's Dash
+100% Special Pulse
 
 
-Arec: Mirrored Shot
-Khadath: Hunter's Dash
+Arec: Mirrored Hex
+Khadath: Special Pulse
 
-Priorities:  2 | 9
+Pulse:
+
+.AK....
+
+.t.....
+
+
+Beat 4
+-------
+
+Arec
+----
+Life: 20
+Discard 1: Mirrored Hex
+Discard 2: Phantom Dash
+Special action available
+pool: Hesitation, Mercy, Recklessness, Fear
+
+Khadath
+-------
+Life: 17
+Discard 1: Lure Shot
+Discard 2: Blight Drive
+
+
+.AK....
+
+.t.....
+
+Arec:
+36% Returning Drive (Fear)
+7% Returning Grasp (Recklessness)
+16% Manipulative Strike (Recklessness)
+41% Manipulative Burst
+
+Khadath:
+26% Hunter's Strike
+26% Teleport Grasp
+40% Teleport Dash
+8% Evacuation Snare
+
+
+Arec: Manipulative Strike (Recklessness)
+Khadath: Teleport Grasp
+
+Arec antes a Recklessness token
+Arec gets -3 priority
+Priorities:  0 | 2
 Khadath is active
+Khadath hits
+Khadath moves Arec:
+
+A.K....
+
+.t.....
+
+Arec takes 3 damage (now at 17 life)
+Arec misses
 Khadath moves:
 
-A..K...
+AK.....
 
-....t..
+.t.....
 
-Arec hits
-Khadath takes 4 damage (now at 12 life)
-Khadath is stunned
-Arec places clone:
+Khadath moves trap:
 
-A..K...
-..c....
-....t..
+AK.....
+
+t......
 
 
 Beat 5
@@ -280,235 +304,197 @@ Beat 5
 
 Arec
 ----
-Life: 18
-Discard 1: Mirrored Shot
-Discard 2: Phantom Dash
+Life: 17
+Discard 1: Manipulative Strike
+Discard 2: Mirrored Hex
 Special action available
-pool: Hesitation, Recklessness
+pool: Hesitation, Mercy, Fear
 
 Khadath
 -------
-Life: 12
-Discard 1: Hunter's Dash
+Life: 17
+Discard 1: Teleport Grasp
 Discard 2: Lure Shot
 
 
-A..K...
-..c....
-....t..
+AK.....
 
-Unbeatable strategy for Khadath: Blight Grasp: -0.87
+t......
+
+Unbeatable strategy for Arec: Phantom Dash (Fear): 2.71
+Unbeatable strategy for Arec: Perceptional Dash: 0.30
+Unbeatable strategy for Arec: Perceptional Dash (Fear): 2.86
+Unbeatable strategy for Arec: Returning Dash (Fear): 2.53
 
 Arec:
-1% Perceptional Grasp
-26% Returning Hex
-16% Returning Strike
-48% Returning Drive (move to clone)
-9% Manipulative Hex
+8% Perceptional Dash
+80% Perceptional Dash (Fear)
+12% Returning Drive
 
 Khadath:
-28% Teleport Burst
-7% Evacuation Strike
-26% Evacuation Burst
-8% Blight Drive
-31% Blight Grasp
+7% Hunter's Strike
+92% Blight Drive
+1% Blight Dash
 
 
-Arec: Returning Drive (move to clone)
-Khadath: Teleport Burst
+Arec: Perceptional Dash (Fear)
+Khadath: Blight Drive
 
+Arec antes a Fear token
+Arec gets -3 priority
+Priorities:  7 | 4
+Arec is active
 Arec moves:
+
+.KA....
+
+t......
+
+Khadath moves:
 
 ..AK...
 
-....t..
+t......
 
-Priorities:  5 | -2
-Arec is active
+Khadath misses
+
+Beat 6
+-------
+
+Arec
+----
+Life: 17
+Discard 1: Perceptional Dash
+Discard 2: Manipulative Strike
+Special action available
+pool: Hesitation, Mercy
+
+Khadath
+-------
+Life: 17
+Discard 1: Blight Drive
+Discard 2: Teleport Grasp
+
+
+..AK...
+
+t......
+
+Arec:
+24% Mirrored Hex
+20% Mirrored Shot
+2% Mirrored Drive
+43% Mirrored Burst
+11% Mirrored Grasp
+
+Khadath:
+1% Hunter's Strike
+1% Hunter's Shot
+9% Hunter's Dash
+1% Evacuation Shot
+88% Evacuation Dash
+
+
+Arec: Mirrored Grasp
+Khadath: Evacuation Dash
+
+Priorities:  5 | 9
+Khadath is active
+Khadath moves trap:
+
+..AK...
+
+...t...
+
 Khadath moves:
 
 ..A.K..
 
-....t..
+...t...
 
-Arec moves:
-
-...AK..
-
-....t..
-
-Arec hits
-Khadath takes 3 damage (now at 9 life)
-Khadath is stunned
 Khadath moves:
 
-K..A...
-
-....t..
-
-Khadath moves trap:
-
-K..A...
+..AK...
 
 ...t...
 
+Arec misses
+Arec places clone:
 
-Beat 6
--------
-
-Arec
-----
-Life: 18
-Discard 1: Returning Drive
-Discard 2: Mirrored Shot
-Special action available
-pool: Hesitation, Recklessness
-
-Khadath
--------
-Life: 9
-Discard 1: Teleport Burst
-Discard 2: Hunter's Dash
-
-
-K..A...
-
+..AK...
+c......
 ...t...
 
-Unbeatable strategy for Khadath: Lure Drive: -0.04
-
-Arec:
-59% Phantom Strike
-3% Phantom Grasp
-4% Phantom Dash
-34% Special Pulse
-
-Khadath:
-13% Blight Strike
-7% Blight Drive
-31% Lure Shot
-49% Lure Drive
-
-
-Arec: Special Pulse
-Khadath: Lure Shot
-
-Pulse:
-
-A....K.
-
-...t...
-
-
-Beat 6
--------
-
-Arec
-----
-Life: 18
-Discard 1: Returning Drive
-Discard 2: Mirrored Shot
-pool: Hesitation, Recklessness
-
-Khadath
--------
-Life: 9
-Discard 1: Lure Shot
-Discard 2: Teleport Burst
-
-
-A....K.
-
-...t...
-
-Arec:
-43% Perceptional Hex
-30% Manipulative Hex (Recklessness)
-27% Manipulative Strike (Recklessness)
-
-Khadath:
-51% Hunter's Strike
-43% Hunter's Drive
-5% Evacuation Drive
-
-
-Arec: Manipulative Hex (Recklessness)
-Khadath: Hunter's Drive
-
-Arec antes a Recklessness token
-Priorities:  3 | 4
-Khadath is active
-Khadath misses
-Arec hits
-Arec chooses Khadath's base: Dash
-Arec recovers a Fear token
-Khadath takes 4 damage (now at 5 life)
-Arec recovers a Mercy token
 
 Beat 7
 -------
 
 Arec
 ----
-Life: 18
-Discard 1: Manipulative Hex
-Discard 2: Returning Drive
-pool: Hesitation, Fear, Mercy
-Manipulative forced base: Dash
+Life: 17
+Discard 1: Mirrored Grasp
+Discard 2: Perceptional Dash
+Special action available
+pool: Hesitation, Mercy
 
 Khadath
 -------
-Life: 5
-Discard 1: Hunter's Drive
-Discard 2: Lure Shot
+Life: 17
+Discard 1: Evacuation Dash
+Discard 2: Blight Drive
 
 
-A....K.
-
+..AK...
+c......
 ...t...
 
-Unbeatable strategy for Khadath: Teleport Snare: -0.67
-Unbeatable strategy for Khadath: Teleport Strike: -0.37
-Unbeatable strategy for Khadath: Teleport Burst: -0.12
-Unbeatable strategy for Khadath: Teleport Grasp: -0.46
-Unbeatable strategy for Khadath: Teleport Dash: -2.13
+Unbeatable strategy for Khadath: Teleport Burst: -0.17
 
 Arec:
-100% Mirrored Burst
+43% Returning Drive
+27% Returning Drive (Mercy)
+25% Manipulative Hex (move to clone)
+5% Manipulative Shot (move to clone)
 
 Khadath:
-100% Teleport Dash
+18% Hunter's Grasp
+19% Teleport Shot
+49% Teleport Burst
+14% Lure Strike
 
 
-Arec: Mirrored Burst
-Khadath: Teleport Dash
+Arec: Returning Drive
+Khadath: Teleport Burst
 
-Priorities:  1 | 6
-Khadath is active
+Arec gets -1 priority
+Priorities:  4 | -2
+Arec is active
 Khadath moves:
 
-A...K..
+..A.K..
 
 ...t...
 
-Arec misses
+Arec moves:
+
+...AK..
+
+...t...
+
+Arec hits
+Khadath takes 3 damage (now at 14 life)
+Khadath is stunned
 Khadath moves:
 
-A.K....
+K..A...
 
 ...t...
 
 Khadath moves trap:
 
-A.K....
+K..A...
 
-t......
-
-Arec places clone:
-
-A.K....
-...c...
-t......
+..t....
 
 
 Beat 8
@@ -516,55 +502,53 @@ Beat 8
 
 Arec
 ----
-Life: 18
-Discard 1: Mirrored Burst
-Discard 2: Manipulative Hex
-pool: Hesitation, Fear, Mercy
+Life: 17
+Discard 1: Returning Drive
+Discard 2: Mirrored Grasp
+Special action available
+pool: Hesitation, Mercy
 
 Khadath
 -------
-Life: 5
-Discard 1: Teleport Dash
-Discard 2: Hunter's Drive
+Life: 14
+Discard 1: Teleport Burst
+Discard 2: Evacuation Dash
 
 
-A.K....
-...c...
-t......
+K..A...
+
+..t....
 
 Arec:
-2% Phantom Shot (Mercy; move to clone)
-22% Phantom Dash (move to clone)
-16% Returning Strike (move to clone)
-23% Returning Strike (Fear; move to clone)
-15% Returning Strike (Mercy; move to clone)
-22% Returning Grasp (Fear; move to clone)
+9% Phantom Strike
+7% Phantom Strike (Mercy)
+15% Phantom Shot (Mercy)
+70% Phantom Dash (Mercy)
 
 Khadath:
-8% Evacuation Burst
-2% Evacuation Grasp
-22% Blight Strike
-34% Blight Grasp
-24% Lure Strike
-10% Lure Burst
+32% Hunter's Drive
+16% Blight Shot
+52% Lure Strike
+0% Lure Drive
 
 
-Arec: Returning Strike (Fear; move to clone)
-Khadath: Blight Strike
+Arec: Phantom Dash (Mercy)
+Khadath: Lure Strike
 
+Arec antes a Mercy token
+Arec gets -1 priority
+Priorities:  9 | 2
+Arec is active
 Arec moves:
 
-..KA...
+K.....A
 
-t......
+..t....
 
-Arec antes a Fear token
-Priorities:  4 | 3
-Arec is active
-Arec hits
-Khadath takes 4 damage (now at 1 life)
 Khadath hits
-Arec takes 4 damage (now at 14 life)
+Arec takes 3 damage (now at 14 life)
+Arec is stunned
+Arec recovers a Recklessness token
 
 Beat 9
 -------
@@ -572,61 +556,433 @@ Beat 9
 Arec
 ----
 Life: 14
-Discard 1: Returning Strike
-Discard 2: Mirrored Burst
-pool: Hesitation, Mercy
+Discard 1: Phantom Dash
+Discard 2: Returning Drive
+Special action available
+pool: Hesitation, Recklessness
 
 Khadath
 -------
-Life: 1
-Discard 1: Blight Strike
-Discard 2: Teleport Dash
+Life: 14
+Discard 1: Lure Strike
+Discard 2: Teleport Burst
 
 
-..KA...
+K.....A
 
-t......
+..t....
 
-Unbeatable strategy for Arec: Phantom Grasp: 6.00
-Unbeatable strategy for Arec: Phantom Grasp (Hesitation): 6.00
-Unbeatable strategy for Arec: Phantom Grasp (Mercy): 6.00
+Unbeatable strategy for Arec: Perceptional Shot: 0.62
+Unbeatable strategy for Arec: Perceptional Shot (Hesitation): 0.02
+Unbeatable strategy for Arec: Mirrored Hex: 2.76
+Unbeatable strategy for Arec: Mirrored Hex (Hesitation): 2.16
+Unbeatable strategy for Arec: Mirrored Hex (Recklessness): 1.96
+Unbeatable strategy for Arec: Manipulative Hex: 1.36
+Unbeatable strategy for Arec: Manipulative Hex (Hesitation): 0.76
+Unbeatable strategy for Arec: Manipulative Hex (Recklessness): 0.56
 
 Arec:
-33% Phantom Grasp
-33% Phantom Grasp (Hesitation)
-33% Phantom Grasp (Mercy)
+40% Mirrored Hex
+41% Mirrored Shot
+19% Mirrored Shot (Recklessness)
 
 Khadath:
-6% Hunter's Snare
-4% Hunter's Shot
-7% Hunter's Drive
-4% Hunter's Burst
-7% Hunter's Grasp
-9% Evacuation Snare
-4% Evacuation Shot
+20% Hunter's Grasp
+53% Hunter's Dash
+27% Blight Shot
+
+
+Arec: Mirrored Hex
+Khadath: Hunter's Grasp
+
+Priorities:  3 | 5
+Khadath is active
+Khadath misses
+Arec hits
+Arec moves Khadath:
+
+.K....A
+
+..t....
+
+Arec recovers a Fear token
+Khadath takes 4 damage (now at 10 life)
+Arec places clone:
+
+.K....A
+c......
+..t....
+
+
+Beat 10
+-------
+
+Arec
+----
+Life: 14
+Discard 1: Mirrored Hex
+Discard 2: Phantom Dash
+Special action available
+pool: Hesitation, Recklessness, Fear
+
+Khadath
+-------
+Life: 10
+Discard 1: Hunter's Grasp
+Discard 2: Lure Strike
+
+
+.K....A
+c......
+..t....
+
+Arec:
+16% Perceptional Drive
+6% Returning Strike (Recklessness; move to clone)
+30% Returning Grasp (Fear; move to clone)
+14% Manipulative Strike (Recklessness; move to clone)
+23% Manipulative Strike (Fear; move to clone)
+1% Manipulative Shot (Recklessness; move to clone)
+11% Manipulative Shot (Fear; move to clone)
+
+Khadath:
+4% Teleport Shot
+3% Teleport Burst
+57% Teleport Dash
+9% Evacuation Shot
 7% Evacuation Drive
-8% Evacuation Burst
-12% Evacuation Grasp
-11% Lure Snare
-4% Lure Shot
-5% Lure Drive
-6% Lure Burst
-4% Lure Grasp
+14% Evacuation Dash
+7% Blight Dash
 
 
-Arec: Phantom Grasp (Mercy)
-Khadath: Evacuation Snare
+Arec: Returning Grasp (Fear; move to clone)
+Khadath: Teleport Dash
 
-Arec antes a Mercy token
-Priorities:  6 | 1
+Arec moves:
+
+AK.....
+
+..t....
+
+Arec antes a Fear token
+Priorities:  6 | 6
+Arec is active
+Arec hits
+Arec moves Khadath:
+
+A.K....
+
+..t....
+
+Khadath takes 2 damage (now at 8 life)
+Khadath is stunned
+
+Beat 11
+-------
+
+Arec
+----
+Life: 14
+Discard 1: Returning Grasp
+Discard 2: Mirrored Hex
+Special action available
+pool: Hesitation, Recklessness
+
+Khadath
+-------
+Life: 8
+Discard 1: Teleport Dash
+Discard 2: Hunter's Grasp
+
+
+A.K....
+
+..t....
+
+Unbeatable strategy for Khadath: Blight Strike: -2.16
+
+Arec:
+47% Perceptional Strike
+33% Perceptional Shot
+19% Perceptional Drive
+
+Khadath:
+48% Blight Strike
+34% Blight Drive
+18% Blight Burst
+
+
+Arec: Perceptional Strike
+Khadath: Blight Drive
+
+Priorities:  4 | 4
+Clash!
+
+Arec:
+100% Perceptional Shot
+
+Khadath:
+100% Blight Strike
+
+
+Arec: Perceptional Shot
+Khadath: Blight Strike
+
+Priorities:  3 | 3
+Clash!
+
+Arec:
+8% Perceptional Drive
+92% Perceptional Burst
+
+Khadath:
+17% Blight Snare
+83% Blight Shot
+
+
+Arec: Perceptional Burst
+Khadath: Blight Shot
+
+Priorities:  2 | 2
+Clash!
+
+Arec:
+100% Perceptional Drive
+
+Khadath:
+100% Blight Burst
+
+
+Arec: Perceptional Drive
+Khadath: Blight Burst
+
+Priorities:  5 | 1
 Arec is active
 Khadath moves:
 
-.K.A...
+A..K...
 
-t......
+..t....
+
+Khadath moves trap:
+
+A..K...
+
+.t.....
+
+Arec moves:
+
+.A.K...
+
+.t.....
 
 Arec hits
-Khadath takes 1 damage (now at 0 life)
+Khadath takes 3 damage (now at 5 life)
+Khadath is stunned
+
+Beat 12
+-------
+
+Arec
+----
+Life: 14
+Discard 1: Perceptional Drive
+Discard 2: Returning Grasp
+Special action available
+pool: Hesitation, Recklessness
+
+Khadath
+-------
+Life: 5
+Discard 1: Blight Burst
+Discard 2: Teleport Dash
+
+
+.A.K...
+
+.t.....
+
+Unbeatable strategy for Arec: Phantom Dash: 0.75
+Unbeatable strategy for Arec: Phantom Dash (Hesitation): 0.15
+Unbeatable strategy for Arec: Mirrored Shot: 0.36
+Unbeatable strategy for Arec: Mirrored Shot (Recklessness): 0.46
+Unbeatable strategy for Arec: Mirrored Burst: 0.19
+Unbeatable strategy for Arec: Mirrored Dash: 2.91
+Unbeatable strategy for Arec: Mirrored Dash (Hesitation): 2.31
+Unbeatable strategy for Arec: Manipulative Dash: 0.26
+
+Arec:
+2% Mirrored Hex (Recklessness)
+0% Mirrored Strike (Recklessness)
+12% Mirrored Shot
+85% Mirrored Dash
+
+Khadath:
+20% Hunter's Snare
+62% Evacuation Snare
+0% Evacuation Drive
+17% Lure Snare
+
+
+Arec: Mirrored Shot
+Khadath: Evacuation Snare
+
+Arec gets -3 priority
+Priorities:  -1 | 1
+Khadath is active
+Khadath moves:
+
+.A..K..
+
+.t.....
+
+Khadath hits
+Arec takes 3 damage (now at 11 life)
+Arec is stunned
+Arec places clone:
+
+.A..K..
+...c...
+.t.....
+
+
+Beat 13
+-------
+
+Arec
+----
+Life: 11
+Discard 1: Mirrored Shot
+Discard 2: Perceptional Drive
+Special action available
+pool: Hesitation, Recklessness
+
+Khadath
+-------
+Life: 5
+Discard 1: Evacuation Snare
+Discard 2: Blight Burst
+
+
+.A..K..
+...c...
+.t.....
+
+Arec:
+15% Returning Strike (move to clone)
+4% Returning Strike (Recklessness; move to clone)
+16% Manipulative Strike (Recklessness; move to clone)
+65% Manipulative Grasp (Recklessness; move to clone)
+
+Khadath:
+6% Teleport Shot
+20% Teleport Dash
+12% Lure Strike
+62% Lure Grasp
+
+
+Arec: Manipulative Grasp (Recklessness; move to clone)
+Khadath: Teleport Dash
+
+Arec moves:
+
+...AK..
+
+.t.....
+
+Arec antes a Recklessness token
+Priorities:  5 | 6
+Khadath is active
+Arec hits
+Arec chooses Khadath's base: Shot
+Arec moves Khadath:
+
+..KA...
+
+.t.....
+
+Khadath takes 3 damage (now at 2 life)
+Arec recovers a Fear token
+Khadath is stunned
+Khadath moves:
+
+...AK..
+
+.t.....
+
+Khadath moves trap:
+
+...AK..
+
+...t...
+
+
+Beat 14
+-------
+
+Arec
+----
+Life: 11
+Discard 1: Manipulative Grasp
+Discard 2: Mirrored Shot
+Special action available
+pool: Hesitation, Fear
+Manipulative forced base: Shot
+
+Khadath
+-------
+Life: 2
+Discard 1: Teleport Dash
+Discard 2: Evacuation Snare
+
+
+...AK..
+
+...t...
+
+Unbeatable strategy for Arec: Phantom Dash (Fear): 0.06
+Unbeatable strategy for Arec: Perceptional Dash: 0.54
+Unbeatable strategy for Arec: Perceptional Dash (Fear): 0.14
+Unbeatable strategy for Arec: Returning Strike (Fear): 7.00
+
+Arec:
+100% Returning Strike (Fear)
+
+Khadath:
+6% Hunter's Strike
+3% Hunter's Shot
+6% Hunter's Drive
+14% Hunter's Burst
+8% Hunter's Grasp
+6% Blight Strike
+5% Blight Shot
+5% Blight Drive
+14% Blight Burst
+7% Blight Grasp
+2% Lure Strike
+6% Lure Shot
+4% Lure Drive
+5% Lure Burst
+7% Lure Grasp
+
+
+Arec: Returning Strike (Fear)
+Khadath: Blight Grasp
+
+Arec antes a Fear token
+Khadath loses 2 life (now at 1)
+Arec gets -3 priority
+Priorities:  1 | 5
+Khadath is active
+Khadath hits
+Khadath moves Arec:
+
+..A.K..
+
+...t...
+
+Arec takes 2 damage (now at 9 life)
+Arec hits
+Khadath takes 4 damage (now at 0 life)
 AREC WINS!
-total_time: 75
+total_time: 102

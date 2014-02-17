@@ -32,32 +32,44 @@ Special action available
 .......
 
 Arec:
-1% Mirrored Hex (Recklessness)
-70% Mirrored Shot (Recklessness)
-15% Mirrored Drive
-14% Mirrored Drive (Hesitation)
+9% Mirrored Hex (Recklessness)
+61% Mirrored Shot (Recklessness)
+30% Mirrored Drive (Hesitation)
 
 Aria:
-8% Photovoltaic Shot
-6% Catalyst Burst
-16% Dimensional Reconfiguration
-70% Special Pulse
+34% Photovoltaic Shot
+36% Catalyst Burst
+30% Dimensional Reconfiguration
 
 
 Arec: Mirrored Shot (Recklessness)
-Aria: Special Pulse
+Aria: Dimensional Reconfiguration
 
 Arec antes a Recklessness token
-Pulse:
+Priorities:  2 | 7
+Aria is active
+Aria misses
+Arec hits
+Aria takes 4 damage (now at 16 life)
+Aria is stunned
+Aria moves:
 
-a....A.
+.A.a...
 
 .......
 .....m.
 .......
 
+Arec places clone:
 
-Beat 1
+.A.a...
+..c....
+.......
+.....m.
+.......
+
+
+Beat 2
 -------
 
 Arec
@@ -70,206 +82,128 @@ pool: Fear, Hesitation, Mercy
 
 Aria
 ----
-Life: 20
-Discard 1: Laser Grasp
-Discard 2: Ionic Dash
-
-
-a....A.
-
-.......
-.....m.
-.......
-
-Unbeatable strategy for Aria: Photovoltaic Reconfiguration: -2.33
-Unbeatable strategy for Aria: Catalyst Reconfiguration: -2.31
-
-Arec:
-9% Perceptional Drive
-20% Returning Drive
-8% Manipulative Hex
-62% Manipulative Grasp
-
-Aria:
-55% Photovoltaic Reconfiguration
-1% Photovoltaic Drive
-0% Photovoltaic Burst
-44% Dimensional Reconfiguration
-
-
-Arec: Manipulative Grasp
-Aria: Dimensional Reconfiguration
-
-Priorities:  4 | 7
-Aria is active
-Aria moves:
-
-.a...A.
-
-.......
-.....m.
-.......
-
-Aria adds her Dampening droid:
-
-.a...A.
-
-....d..
-.....m.
-.......
-
-Aria hits
-Arec takes 1 damage (now at 19 life)
-Arec misses
-Aria moves:
-
-...a.A.
-
-....d..
-.....m.
-.......
-
-
-Beat 2
--------
-
-Arec
-----
-Life: 19
-Discard 1: Manipulative Grasp
-Discard 2: Mirrored Shot
-Special action available
-pool: Fear, Hesitation, Mercy
-
-Aria
-----
-Life: 20
+Life: 16
 Discard 1: Dimensional Reconfiguration
 Discard 2: Laser Grasp
+Special action available
 
 
-...a.A.
-
-....d..
+.A.a...
+..c....
+.......
 .....m.
 .......
+
+Unbeatable strategy for Aria: Photovoltaic Strike: -0.94
+Unbeatable strategy for Aria: Photovoltaic Dash: -0.71
+Unbeatable strategy for Aria: Catalyst Dash: -0.37
 
 Arec:
-3% Phantom Drive
-44% Phantom Dash
-31% Returning Drive
-21% Returning Dash
+24% Returning Drive
+1% Returning Grasp (move to clone)
+36% Returning Dash
+39% Manipulative Grasp (move to clone)
 
 Aria:
-30% Photovoltaic Strike
-8% Photovoltaic Drive
-26% Photovoltaic Burst
-37% Photovoltaic Dash
+41% Photovoltaic Strike
+18% Photovoltaic Drive
+0% Photovoltaic Burst
+41% Photovoltaic Dash
 
 
-Arec: Phantom Dash
-Aria: Photovoltaic Burst
-
-Priorities:  9 | 2
-Arec is active
-Aria moves:
-
-..a..A.
-
-....d..
-.....m.
-.......
+Arec: Manipulative Grasp (move to clone)
+Aria: Photovoltaic Strike
 
 Arec moves:
 
-.Aa....
+..Aa...
+
+.......
+.....m.
+.......
+
+Priorities:  5 | 4
+Arec is active
+Arec hits
+Arec chooses Aria's base: Shot
+Arec moves Aria:
+
+..A.a..
+
+.......
+.....m.
+.......
+
+Aria takes 3 damage (now at 13 life)
+Arec recovers a Recklessness token
+Aria hits
+Arec takes 3 damage (now at 17 life)
+Arec is stunned
+Aria adds her Dampening droid:
+
+..A.a..
 
 ....d..
 .....m.
 .......
 
-Aria misses
-Aria adds her Turret droid:
-
-.Aa....
-
-....d..
-.....m.
-..t....
-
-Arec recovers a Recklessness token
-Arec loses 1 life (now at 18)
 
 Beat 3
 -------
 
 Arec
 ----
-Life: 18
-Discard 1: Phantom Dash
-Discard 2: Manipulative Grasp
+Life: 17
+Discard 1: Manipulative Grasp
+Discard 2: Mirrored Shot
 Special action available
 pool: Fear, Hesitation, Mercy, Recklessness
+Manipulative forced base: Shot
 
 Aria
 ----
-Life: 20
-Discard 1: Photovoltaic Burst
+Life: 13
+Discard 1: Photovoltaic Strike
 Discard 2: Dimensional Reconfiguration
+Special action available
 
 
-.Aa....
+..A.a..
 
 ....d..
 .....m.
-..t....
-
-Unbeatable strategy for Arec: Mirrored Burst: 0.73
-Unbeatable strategy for Arec: Mirrored Burst (Hesitation): 0.43
-Unbeatable strategy for Arec: Mirrored Burst (Mercy): 0.23
+.......
 
 Arec:
-5% Returning Drive
-5% Returning Burst
-15% Returning Burst (Recklessness)
-12% Mirrored Hex
-24% Mirrored Drive
-40% Mirrored Burst (Recklessness)
+70% Phantom Strike (Fear)
+21% Perceptional Burst
+9% Returning Strike (Mercy)
 
 Aria:
-0% Ionic Shot
-29% Ionic Drive
-2% Ionic Grasp
-37% Laser Shot
-20% Laser Grasp
-13% Catalyst Drive
+32% Ionic Shot
+53% Ionic Grasp
+15% Catalyst Shot
 
 
-Arec: Returning Burst (Recklessness)
-Aria: Ionic Drive
+Arec: Phantom Strike (Fear)
+Aria: Ionic Grasp
 
-Arec antes a Recklessness token
-Priorities:  2 | 5
+Arec antes a Fear token
+Aria loses 2 life (now at 11)
+Priorities:  4 | 6
 Aria is active
+Aria hits
 Aria moves Arec:
 
-..aA...
+...Aa..
 
 ....d..
 .....m.
-..t....
+.......
 
-Arec moves:
-
-..a..A.
-
-....d..
-.....m.
-..t....
-
-Aria misses
+Arec takes 2 damage (now at 15 life)
 Arec hits
-Aria takes 2 damage (now at 18 life)
+Aria takes 2 damage (now at 9 life)
 Aria is stunned
 
 Beat 4
@@ -277,278 +211,260 @@ Beat 4
 
 Arec
 ----
-Life: 18
-Discard 1: Returning Burst
-Discard 2: Phantom Dash
+Life: 15
+Discard 1: Phantom Strike
+Discard 2: Manipulative Grasp
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Hesitation, Mercy, Recklessness
 
 Aria
 ----
-Life: 18
-Discard 1: Ionic Drive
-Discard 2: Photovoltaic Burst
+Life: 9
+Discard 1: Ionic Grasp
+Discard 2: Photovoltaic Strike
+Special action available
 
 
-..a..A.
+...Aa..
 
 ....d..
 .....m.
-..t....
+.......
 
 Arec:
-29% Mirrored Strike
-8% Mirrored Strike (Hesitation)
-4% Mirrored Strike (Mercy)
-27% Mirrored Drive
-5% Mirrored Drive (Hesitation)
-20% Mirrored Grasp
-6% Mirrored Grasp (Hesitation)
+30% Perceptional Burst
+47% Mirrored Drive
+23% Mirrored Burst (Recklessness)
 
 Aria:
-19% Laser Reconfiguration
-51% Laser Strike
-2% Dimensional Reconfiguration
-10% Dimensional Strike
-18% Dimensional Grasp
+54% Catalyst Burst
+37% Dimensional Reconfiguration
+9% Dimensional Drive
 
 
-Arec: Mirrored Grasp
-Aria: Laser Strike
+Arec: Mirrored Drive
+Aria: Catalyst Burst
 
-Priorities:  4 | 3
+Priorities:  4 | 2
 Arec is active
-Arec hits
-Arec moves Aria:
+Aria moves:
 
-.a...A.
+...A.a.
 
 ....d..
 .....m.
-..t....
+.......
 
-Aria takes 2 damage (now at 16 life)
-Aria hits
-Arec takes 4 damage (now at 14 life)
-Arec is stunned
+Arec moves:
+
+.....aA
+
+....d..
+.....m.
+.......
+
+Arec misses
+Aria misses
 Arec places clone:
 
-.a...A.
+.....aA
 c......
 ....d..
 .....m.
-..t....
+.......
 
-Arec loses 3 life (now at 11)
 
 Beat 5
 -------
 
 Arec
 ----
-Life: 11
-Discard 1: Mirrored Grasp
-Discard 2: Returning Burst
+Life: 15
+Discard 1: Mirrored Drive
+Discard 2: Phantom Strike
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Hesitation, Mercy, Recklessness
 
 Aria
 ----
-Life: 16
-Discard 1: Laser Strike
-Discard 2: Ionic Drive
+Life: 9
+Discard 1: Catalyst Burst
+Discard 2: Ionic Grasp
+Special action available
 
 
-.a...A.
+.....aA
 c......
 ....d..
 .....m.
-..t....
-
-Unbeatable strategy for Aria: Catalyst Reconfiguration: -1.54
+.......
 
 Arec:
-23% Phantom Hex (Mercy; move to clone)
-54% Phantom Strike (Mercy; move to clone)
-23% Manipulative Hex (move to clone)
+80% Returning Shot (Recklessness; move to clone)
+9% Manipulative Hex
+11% Manipulative Hex (Recklessness; move to clone)
 
 Aria:
-24% Photovoltaic Grasp
-36% Catalyst Reconfiguration
-39% Dimensional Reconfiguration
+24% Laser Strike
+21% Dimensional Reconfiguration
+55% Dimensional Shot
 
 
-Arec: Phantom Strike (Mercy; move to clone)
+Arec: Returning Shot (Recklessness; move to clone)
 Aria: Dimensional Reconfiguration
 
 Arec moves:
-
-Aa.....
-
-....d..
-.....m.
-..t....
-
-Arec antes a Mercy token
-Priorities:  4 | 7
-Aria is active
-Aria moves:
-
-A...a..
-
-....d..
-.....m.
-..t....
-
-Aria misses
-Arec misses
-Aria moves:
 
 A....a.
 
 ....d..
 .....m.
-..t....
+.......
 
-Arec recovers a Recklessness token
+Arec antes a Recklessness token
+Priorities:  3 | 7
+Aria is active
+Aria misses
+Arec hits
+Aria takes 3 damage (now at 6 life)
+Aria is stunned
+Aria moves:
+
+Aa.....
+
+....d..
+.....m.
+.......
+
 
 Beat 6
 -------
 
 Arec
 ----
-Life: 11
-Discard 1: Phantom Strike
-Discard 2: Mirrored Grasp
+Life: 15
+Discard 1: Returning Shot
+Discard 2: Mirrored Drive
 Special action available
-pool: Fear, Hesitation, Recklessness
+pool: Hesitation, Mercy
 
 Aria
 ----
-Life: 16
+Life: 6
 Discard 1: Dimensional Reconfiguration
-Discard 2: Laser Strike
+Discard 2: Catalyst Burst
+Special action available
 
 
-A....a.
+Aa.....
 
 ....d..
 .....m.
-..t....
-
-Unbeatable strategy for Arec: Perceptional Hex: 0.82
-Unbeatable strategy for Arec: Perceptional Hex (Hesitation): 0.22
+.......
 
 Arec:
-14% Perceptional Hex
-39% Perceptional Drive
-17% Perceptional Burst
-26% Returning Shot
-3% Manipulative Hex (Fear)
+34% Phantom Hex
+22% Phantom Grasp
+40% Manipulative Strike
+4% Manipulative Grasp
 
 Aria:
-16% Ionic Shot
-18% Ionic Drive
-11% Ionic Dash
-41% Catalyst Shot
-16% Catalyst Drive
+49% Photovoltaic Strike
+12% Photovoltaic Drive
+13% Photovoltaic Grasp
+26% Photovoltaic Dash
 
 
-Arec: Perceptional Drive
-Aria: Ionic Dash
+Arec: Phantom Grasp
+Aria: Photovoltaic Drive
 
-Priorities:  5 | 10
-Aria is active
-Aria moves Arec:
+Priorities:  6 | 5
+Arec is active
+Arec hits
+Arec moves Aria:
 
-.A...a.
-
-....d..
-.....m.
-..t....
-
-Aria moves:
-
-.A.a...
+A.a....
 
 ....d..
 .....m.
-..t....
+.......
 
-Arec moves:
-
-..Aa...
-
-....d..
-.....m.
-..t....
-
-Arec misses
-Arec loses 1 life (now at 10)
+Aria takes 1 damage (now at 5 life)
+Aria is stunned
+Arec recovers a Recklessness token
 
 Beat 7
 -------
 
 Arec
 ----
-Life: 10
-Discard 1: Perceptional Drive
-Discard 2: Phantom Strike
+Life: 15
+Discard 1: Phantom Grasp
+Discard 2: Returning Shot
 Special action available
-pool: Fear, Hesitation, Recklessness
+pool: Hesitation, Mercy, Recklessness
 
 Aria
 ----
-Life: 16
-Discard 1: Ionic Dash
+Life: 5
+Discard 1: Photovoltaic Drive
 Discard 2: Dimensional Reconfiguration
+Special action available
 
 
-..Aa...
+A.a....
 
 ....d..
 .....m.
-..t....
-
-Unbeatable strategy for Arec: Mirrored Dash: 0.67
-Unbeatable strategy for Arec: Mirrored Dash (Hesitation): 0.07
+.......
 
 Arec:
-85% Mirrored Dash
-7% Manipulative Shot (Hesitation)
-2% Manipulative Grasp
-1% Manipulative Grasp (Fear)
-6% Manipulative Grasp (Hesitation)
+18% Perceptional Hex
+19% Mirrored Strike
+21% Mirrored Drive
+15% Mirrored Burst
+19% Manipulative Strike (Mercy)
+8% Manipulative Drive
 
 Aria:
-18% Photovoltaic Strike
-4% Photovoltaic Burst
-14% Photovoltaic Grasp
-59% Catalyst Shot
-4% Catalyst Burst
+39% Ionic Shot
+23% Ionic Grasp
+10% Laser Strike
+1% Laser Shot
+27% Catalyst Shot
+1% Catalyst Burst
 
 
-Arec: Mirrored Dash
-Aria: Catalyst Shot
+Arec: Mirrored Burst
+Aria: Ionic Shot
 
-Priorities:  9 | 3
-Arec is active
+Priorities:  1 | 3
+Aria is active
+Aria moves Arec:
+
+.Aa....
+
+....d..
+.....m.
+.......
+
 Arec moves:
 
-...a..A
+A.a....
 
 ....d..
 .....m.
-..t....
+.......
 
 Aria misses
+Arec misses
 Arec places clone:
 
-...a..A
-..c....
+A.a....
+.c.....
 ....d..
 .....m.
-..t....
+.......
 
 
 Beat 8
@@ -556,168 +472,184 @@ Beat 8
 
 Arec
 ----
-Life: 10
-Discard 1: Mirrored Dash
-Discard 2: Perceptional Drive
+Life: 15
+Discard 1: Mirrored Burst
+Discard 2: Phantom Grasp
 Special action available
-pool: Fear, Hesitation, Recklessness
+pool: Hesitation, Mercy, Recklessness
 
 Aria
 ----
-Life: 16
-Discard 1: Catalyst Shot
-Discard 2: Ionic Dash
+Life: 5
+Discard 1: Ionic Shot
+Discard 2: Photovoltaic Drive
+Special action available
 
 
-...a..A
-..c....
+A.a....
+.c.....
 ....d..
 .....m.
-..t....
+.......
 
 Arec:
-44% Phantom Strike (Recklessness; move to clone)
-5% Phantom Grasp (move to clone)
-8% Returning Strike
-10% Returning Strike (Hesitation)
-10% Returning Strike (move to clone)
-4% Returning Strike (Recklessness; move to clone)
-4% Returning Burst (Recklessness; move to clone)
-9% Returning Grasp (move to clone)
-6% Manipulative Shot (Hesitation; move to clone)
+54% Perceptional Drive
+2% Returning Hex
+9% Manipulative Hex
+7% Manipulative Hex (move to clone)
+8% Manipulative Strike
+12% Manipulative Strike (Recklessness; move to clone)
+0% Manipulative Shot
+8% Manipulative Drive (move to clone)
 
 Aria:
-22% Photovoltaic Strike
-28% Photovoltaic Drive
-5% Photovoltaic Burst
-5% Photovoltaic Grasp
 2% Laser Strike
-2% Laser Burst
-20% Laser Grasp
-5% Dimensional Reconfiguration
-11% Dimensional Burst
+13% Laser Burst
+1% Laser Grasp
+4% Catalyst Reconfiguration
+11% Catalyst Grasp
+1% Dimensional Reconfiguration
+6% Dimensional Burst
+63% Special Pulse
 
 
-Arec: Phantom Strike (Recklessness; move to clone)
-Aria: Photovoltaic Strike
+Arec: Manipulative Hex
+Aria: Special Pulse
 
-Arec moves:
+Pulse:
 
-..Aa...
+..a..A.
 
 ....d..
 .....m.
-..t....
+.......
 
-Arec antes a Recklessness token
-Priorities:  4 | 4
-Clash!
+
+Beat 8
+-------
+
+Arec
+----
+Life: 15
+Discard 1: Manipulative Hex
+Discard 2: Mirrored Burst
+Special action available
+pool: Hesitation, Mercy, Recklessness
+
+Aria
+----
+Life: 5
+Discard 1: Ionic Shot
+Discard 2: Photovoltaic Drive
+
+
+..a..A.
+
+....d..
+.....m.
+.......
 
 Arec:
-49% Phantom Shot (Recklessness; move to clone)
-51% Phantom Grasp (Recklessness; move to clone)
+25% Phantom Dash
+31% Perceptional Strike (Hesitation)
+6% Perceptional Shot (Hesitation)
+19% Perceptional Drive (Hesitation)
+9% Returning Drive (Hesitation)
+10% Returning Dash
 
 Aria:
-26% Photovoltaic Drive
-74% Photovoltaic Grasp
+35% Catalyst Reconfiguration
+0% Catalyst Strike
+35% Dimensional Reconfiguration
+1% Dimensional Strike
+21% Dimensional Burst
+8% Dimensional Grasp
 
 
-Arec: Phantom Grasp (Recklessness; move to clone)
-Aria: Photovoltaic Drive
+Arec: Perceptional Strike (Hesitation)
+Aria: Dimensional Burst
 
-Arec moves:
+Arec antes a Hesitation token
+Aria gets +2 power
+Priorities:  3 | 5
+Aria is active
+Aria moves:
 
-..Aa...
-
-....d..
-.....m.
-..t....
-
-Arec antes a Recklessness token
-Priorities:  6 | 5
-Arec is active
-Arec hits
-Arec moves Aria:
-
-.aA....
+a....A.
 
 ....d..
 .....m.
-..t....
+.......
 
-Aria takes 1 damage (now at 15 life)
-Aria is stunned
-Arec recovers a Mercy token
-Arec loses 1 life (now at 9)
+Aria hits
+Arec takes 2 damage (now at 13 life)
+Arec misses
+Aria moves:
+
+.....Aa
+
+....d..
+.....m.
+.......
+
 
 Beat 9
 -------
 
 Arec
 ----
-Life: 9
-Discard 1: Phantom Grasp
-Discard 2: Mirrored Dash
+Life: 13
+Discard 1: Perceptional Strike
+Discard 2: Manipulative Hex
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Mercy, Recklessness
 
 Aria
 ----
-Life: 15
-Discard 1: Photovoltaic Drive
-Discard 2: Catalyst Shot
+Life: 5
+Discard 1: Dimensional Burst
+Discard 2: Ionic Shot
 
 
-.aA....
+.....Aa
 
 ....d..
 .....m.
-..t....
-
-Unbeatable strategy for Aria: Dimensional Dash: -0.86
+.......
 
 Arec:
-34% Perceptional Burst
-16% Returning Strike
-33% Returning Shot
-17% Returning Drive
+35% Mirrored Burst (Recklessness)
+65% Mirrored Dash
 
 Aria:
-1% Laser Strike
-7% Laser Dash
-0% Dimensional Reconfiguration
-93% Dimensional Dash
+47% Laser Reconfiguration
+53% Laser Strike
 
 
-Arec: Perceptional Burst
-Aria: Dimensional Dash
+Arec: Mirrored Burst (Recklessness)
+Aria: Laser Strike
 
-Priorities:  2 | 13
+Arec antes a Recklessness token
+Priorities:  0 | 3
 Aria is active
 Arec moves:
 
-.a..A..
+....A.a
 
 ....d..
 .....m.
-..t....
+.......
 
-Aria moves:
+Aria hits
+Arec takes 4 damage (now at 9 life)
+Arec is stunned
+Arec places clone:
 
-..a.A..
-
+....A.a
+c......
 ....d..
 .....m.
-..t....
-
-Arec misses
-Aria moves:
-
-....Aa.
-
-....d..
-.....m.
-..t....
+.......
 
 
 Beat 10
@@ -726,284 +658,183 @@ Beat 10
 Arec
 ----
 Life: 9
-Discard 1: Perceptional Burst
-Discard 2: Phantom Grasp
+Discard 1: Mirrored Burst
+Discard 2: Perceptional Strike
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Mercy
 
 Aria
 ----
-Life: 15
-Discard 1: Dimensional Dash
-Discard 2: Photovoltaic Drive
+Life: 5
+Discard 1: Laser Strike
+Discard 2: Dimensional Burst
 
 
-....Aa.
-
+....A.a
+c......
 ....d..
 .....m.
-..t....
+.......
 
 Arec:
-21% Returning Strike
-2% Mirrored Hex
-26% Mirrored Strike
-51% Mirrored Dash
+60% Phantom Hex (move to clone)
+3% Returning Hex (move to clone)
+9% Returning Shot
+16% Returning Drive
+12% Manipulative Hex (move to clone)
 
 Aria:
-18% Ionic Burst
-35% Laser Reconfiguration
-26% Laser Strike
-21% Laser Burst
+14% Photovoltaic Reconfiguration
+45% Photovoltaic Shot
+12% Catalyst Reconfiguration
+15% Catalyst Shot
+13% Catalyst Grasp
 
 
-Arec: Mirrored Dash
-Aria: Laser Reconfiguration
+Arec: Returning Drive
+Aria: Photovoltaic Shot
 
-Priorities:  8 | 3
+Priorities:  4 | 3
 Arec is active
 Arec moves:
 
-.....aA
+.....Aa
 
 ....d..
 .....m.
-..t....
+.......
 
-Aria moves:
+Arec hits
+Aria takes 2 damage (now at 3 life)
+Aria hits
+Arec takes 2 damage (now at 7 life)
+Arec is stunned
+Aria adds her Turret droid:
 
-...a..A
+.....Aa
 
 ....d..
 .....m.
-..t....
+......t
 
-Aria misses
-Arec places clone:
-
-...a..A
-..c....
-....d..
-.....m.
-..t....
-
+Arec loses 1 life (now at 6)
 
 Beat 11
 -------
 
 Arec
 ----
-Life: 9
-Discard 1: Mirrored Dash
-Discard 2: Perceptional Burst
+Life: 6
+Discard 1: Returning Drive
+Discard 2: Mirrored Burst
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Mercy
 
 Aria
 ----
-Life: 15
-Discard 1: Laser Reconfiguration
-Discard 2: Dimensional Dash
+Life: 3
+Discard 1: Photovoltaic Shot
+Discard 2: Laser Strike
 
 
-...a..A
-..c....
+.....Aa
+
 ....d..
 .....m.
-..t....
+......t
+
+Unbeatable strategy for Aria: Catalyst Drive: -0.14
 
 Arec:
-6% Phantom Strike (Mercy; move to clone)
-10% Returning Strike
-35% Returning Strike (Fear; move to clone)
-24% Returning Strike (Mercy; move to clone)
-15% Returning Drive (move to clone)
-6% Manipulative Shot (Hesitation; move to clone)
-3% Manipulative Drive (Hesitation; move to clone)
+2% Phantom Grasp
+88% Phantom Dash
+10% Manipulative Shot
 
 Aria:
-27% Photovoltaic Strike
-10% Photovoltaic Drive
-9% Photovoltaic Burst
-14% Photovoltaic Grasp
-8% Ionic Drive
-11% Ionic Grasp
-20% Catalyst Burst
+11% Ionic Reconfiguration
+64% Catalyst Drive
+25% Dimensional Grasp
 
 
-Arec: Returning Strike (Fear; move to clone)
-Aria: Photovoltaic Strike
+Arec: Phantom Dash
+Aria: Catalyst Drive
 
+Priorities:  9 | 5
+Arec is active
 Arec moves:
 
-..Aa...
+...A..a
 
 ....d..
 .....m.
-..t....
+......t
 
-Arec antes a Fear token
-Priorities:  4 | 4
-Arec is active
-Arec hits
-Aria takes 4 damage (now at 11 life)
-Aria hits
-Aria removes her Magnetron droid:
+Aria moves:
 
-..Aa...
+...Aa..
 
 ....d..
-.......
-..t....
+.....m.
+......t
 
-Aria gets +1 power
-Arec takes 4 damage (now at 5 life)
-Aria adds her Magnetron droid:
-
-..Aa...
-
-....d..
-...m...
-..t....
-
-Arec loses 1 life (now at 4)
+Aria misses
+Arec recovers a Recklessness token
 
 Beat 12
 -------
 
 Arec
 ----
-Life: 4
-Discard 1: Returning Strike
-Discard 2: Mirrored Dash
+Life: 6
+Discard 1: Phantom Dash
+Discard 2: Returning Drive
 Special action available
-pool: Hesitation, Mercy
+pool: Mercy, Recklessness
 
 Aria
 ----
-Life: 11
-Discard 1: Photovoltaic Strike
-Discard 2: Laser Reconfiguration
+Life: 3
+Discard 1: Catalyst Drive
+Discard 2: Photovoltaic Shot
 
 
-..Aa...
+...Aa..
 
 ....d..
-...m...
-..t....
+.....m.
+......t
 
 Arec:
-28% Phantom Drive
-61% Phantom Burst
-10% Phantom Grasp
-0% Perceptional Drive
+53% Mirrored Hex
+16% Manipulative Strike (Mercy)
+22% Manipulative Strike (Recklessness)
+10% Manipulative Shot (Recklessness)
 
 Aria:
-39% Ionic Shot
-49% Ionic Drive
-3% Ionic Burst
-9% Catalyst Burst
+24% Ionic Reconfiguration
+25% Ionic Strike
+24% Ionic Burst
+27% Ionic Grasp
 
 
-Arec: Phantom Grasp
-Aria: Ionic Drive
-
-Priorities:  5 | 5
-Clash!
-
-Arec:
-54% Phantom Drive
-46% Phantom Burst
-
-Aria:
-64% Ionic Shot
-36% Ionic Grasp
-
-
-Arec: Phantom Drive
-Aria: Ionic Shot
-
-Priorities:  4 | 3
-Arec is active
-Aria moves Arec:
-
-...aA..
-
-....d..
-...m...
-..t....
-
-Arec moves:
-
-.A.a...
-
-....d..
-...m...
-..t....
-
-Arec hits
-Aria takes 2 damage (now at 9 life)
-Aria hits
-Arec takes 3 damage (now at 1 life)
-Arec is stunned
-Arec recovers a Recklessness token
-Arec loses 1 life (now at 1)
-
-Beat 13
--------
-
-Arec
-----
-Life: 1
-Discard 1: Phantom Drive
-Discard 2: Returning Strike
-Special action available
-pool: Hesitation, Mercy, Recklessness
-
-Aria
-----
-Life: 9
-Discard 1: Ionic Shot
-Discard 2: Photovoltaic Strike
-
-
-.A.a...
-
-....d..
-...m...
-..t....
-
-Arec:
-12% Perceptional Burst (Hesitation)
-7% Mirrored Shot (Hesitation)
-21% Mirrored Grasp (Recklessness)
-13% Mirrored Dash
-47% Mirrored Dash (Hesitation)
-
-Aria:
-5% Laser Grasp
-33% Laser Dash
-6% Catalyst Drive
-39% Catalyst Burst
-17% Dimensional Burst
-
-
-Arec: Mirrored Grasp (Recklessness)
-Aria: Catalyst Burst
+Arec: Manipulative Shot (Recklessness)
+Aria: Ionic Reconfiguration
 
 Arec antes a Recklessness token
-Aria gets +4 priority
-Priorities:  5 | 6
+Priorities:  2 | 4
 Aria is active
-Aria moves:
+Aria moves Arec:
 
-.A..a..
+....aA.
 
 ....d..
-...m...
-..t....
+.....m.
+......t
 
 Aria hits
-Arec takes 2 damage (now at 0 life)
-ARIA WINS!
-total_time: 120
+Arec takes 2 damage (now at 4 life)
+Arec hits
+Arec chooses Aria's base: Grasp
+Aria takes 3 damage (now at 0 life)
+AREC WINS!
+total_time: 139

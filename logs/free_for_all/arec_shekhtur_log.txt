@@ -29,51 +29,43 @@ Special action available
 .A...S.
 
 
-Unbeatable strategy for Arec: Returning Shot (Recklessness): 0.94
+Unbeatable strategy for Arec: Returning Shot (Recklessness): 1.34
 
 Arec:
+34% Returning Shot (Recklessness)
+5% Mirrored Hex (Hesitation)
 3% Mirrored Hex (Recklessness)
-31% Mirrored Shot (Hesitation)
-5% Mirrored Shot (Recklessness)
+25% Mirrored Shot (Hesitation)
+6% Mirrored Shot (Recklessness)
 4% Mirrored Drive
-37% Mirrored Drive (Hesitation)
-20% Mirrored Burst (Recklessness)
+17% Mirrored Drive (Hesitation)
+6% Mirrored Burst (Recklessness)
 
 Shekhtur:
-14% Unleashed Dash
-18% Reaver Shot
-4% Reaver Shot (1 token)
-20% Reaver Shot (2 tokens)
+27% Unleashed Dash
+14% Reaver Shot
+5% Reaver Shot (1 token)
+17% Reaver Shot (2 tokens)
 1% Reaver Shot (3 tokens)
-44% Spiral Dash
+20% Reaver Dash
+6% Spiral Drive
+11% Spiral Dash
 
 
-Arec: Mirrored Drive
-Shekhtur: Spiral Dash
+Arec: Returning Shot (Recklessness)
+Shekhtur: Reaver Shot
 
-Priorities:  4 | 8
-Shekhtur is active
+Arec antes a Recklessness token
+Priorities:  3 | 2
+Arec is active
+Shekhtur is stunned
+Arec hits
+Shekhtur takes 3 damage (now at 17 life)
+Shekhtur is stunned
 Shekhtur moves:
 
-.AS....
+.A..S..
 
-
-Shekhtur gets -3 power
-Shekhtur moves:
-
-.A.S...
-
-
-Arec moves:
-
-..AS...
-
-
-Arec misses
-Arec places clone:
-
-..AS...
-c......
 
 
 Beat 2
@@ -82,63 +74,65 @@ Beat 2
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Drive
+Discard 1: Returning Shot
 Discard 2: Phantom Strike
 Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
+pool: Fear, Hesitation, Mercy
 
 Shekhtur
 --------
-Life: 20
-Discard 1: Spiral Dash
+Life: 17
+Discard 1: Reaver Shot
 Discard 2: Combination Brand
 Special action available
 3 Malice tokens
 
 
-..AS...
-c......
+.A..S..
+
 
 Arec:
-31% Perceptional Hex (Hesitation; move to clone)
-25% Perceptional Shot (Hesitation; move to clone)
-8% Returning Shot (Hesitation)
-26% Returning Shot (Recklessness; move to clone)
-10% Manipulative Grasp (Hesitation)
+6% Mirrored Hex
+6% Mirrored Hex (Hesitation)
+7% Mirrored Grasp
+0% Mirrored Grasp (Hesitation)
+78% Mirrored Dash
+3% Mirrored Dash (Hesitation)
 
 Shekhtur:
-49% Reaver Shot
-9% Reaver Drive
-11% Reaver Burst (3 tokens)
-2% Jugular Shot
-4% Jugular Shot (1 token)
-6% Jugular Shot (2 tokens)
-8% Jugular Shot (3 tokens)
-2% Jugular Drive
-3% Jugular Drive (1 token)
-3% Jugular Drive (2 tokens)
-3% Jugular Drive (3 tokens)
+14% Unleashed Dash (1 token)
+10% Jugular Drive (3 tokens)
+18% Jugular Dash
+16% Jugular Dash (1 token)
+15% Jugular Dash (2 tokens)
+14% Jugular Dash (3 tokens)
+1% Spiral Drive
+12% Spiral Drive (2 tokens)
+1% Spiral Drive (3 tokens)
 
 
-Arec: Manipulative Grasp (Hesitation)
-Shekhtur: Reaver Shot
+Arec: Mirrored Dash
+Shekhtur: Jugular Dash (2 tokens)
 
-Arec antes a Hesitation token
-Priorities:  5 | 2
-Arec is active
-Arec hits
-Arec chooses Shekhtur's base: Burst
-Arec moves Shekhtur:
-
-.SA....
-
-
-Shekhtur takes 3 damage (now at 17 life)
-Shekhtur is stunned
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Priorities:  9 | 13
+Shekhtur is active
 Shekhtur moves:
 
-..AS...
+.A.S...
 
+
+Arec moves:
+
+A..S...
+
+
+Shekhtur gains 2 Malice tokens
+Arec places clone:
+
+A..S...
+..c....
 
 
 Beat 3
@@ -147,294 +141,423 @@ Beat 3
 Arec
 ----
 Life: 20
-Discard 1: Manipulative Grasp
-Discard 2: Mirrored Drive
+Discard 1: Mirrored Dash
+Discard 2: Returning Shot
 Special action available
-pool: Fear, Mercy, Recklessness
-Manipulative forced base: Burst
+pool: Fear, Hesitation, Mercy
 
 Shekhtur
 --------
 Life: 17
-Discard 1: Reaver Shot
-Discard 2: Spiral Dash
+Discard 1: Jugular Dash
+Discard 2: Reaver Shot
 Special action available
 3 Malice tokens
 
 
-..AS...
-
+A..S...
+..c....
 
 Arec:
-9% Phantom Strike
-40% Phantom Dash
-9% Perceptional Burst
-18% Perceptional Dash
-24% Returning Burst (Recklessness)
+40% Perceptional Hex (Hesitation)
+3% Perceptional Strike
+23% Perceptional Strike (Hesitation)
+5% Manipulative Hex
+18% Manipulative Hex (Hesitation)
+10% Manipulative Drive (Hesitation)
+0% Manipulative Grasp (move to clone)
 
 Shekhtur:
-47% Unleashed Brand (1 token)
-18% Unleashed Burst
-7% Unleashed Burst (1 token)
-7% Jugular Drive
-6% Jugular Drive (1 token)
-6% Jugular Drive (2 tokens)
-5% Jugular Drive (3 tokens)
-3% Jugular Grasp (3 tokens)
+3% Unleashed Drive
+3% Unleashed Drive (1 token)
+3% Combination Drive (1 token)
+65% Spiral Strike
+7% Spiral Strike (1 token)
+16% Spiral Drive
+4% Spiral Drive (1 token)
 
 
-Arec: Phantom Dash
-Shekhtur: Jugular Drive (3 tokens)
+Arec: Perceptional Strike (Hesitation)
+Shekhtur: Spiral Strike
 
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Shekhtur loses 2 life (now at 15)
-Priorities:  10 | 9
+Arec antes a Hesitation token
+Priorities:  4 | 2
 Arec is active
-Arec moves:
-
-...SA..
-
-
+Arec hits
+Shekhtur takes 4 damage (now at 13 life)
 Shekhtur moves:
 
-....AS.
+AS.....
 
 
-Shekhtur misses
-Arec recovers a Hesitation token
-Shekhtur gains 3 Malice tokens
+Shekhtur gets -2 power
+Shekhtur hits
+Arec takes 2 damage (now at 18 life)
+Shekhtur gains 2 Malice tokens
 
 Beat 4
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Phantom Dash
-Discard 2: Manipulative Grasp
+Life: 18
+Discard 1: Perceptional Strike
+Discard 2: Mirrored Dash
 Special action available
-pool: Fear, Mercy, Recklessness, Hesitation
+pool: Fear, Mercy
 
 Shekhtur
 --------
-Life: 15
-Discard 1: Jugular Drive
-Discard 2: Reaver Shot
+Life: 13
+Discard 1: Spiral Strike
+Discard 2: Jugular Dash
 Special action available
-3 Malice tokens
+5 Malice tokens
+Shekhtur hit the opponent last beat
 
 
-....AS.
+AS.....
+
+
+Unbeatable strategy for Shekhtur: Combination Brand (5 tokens): -6.75
+Unbeatable strategy for Shekhtur: Reaver Brand (5 tokens): -3.06
+
+Arec:
+3% Returning Drive (Mercy)
+9% Returning Grasp
+88% Special Pulse
+
+Shekhtur:
+42% Combination Brand (5 tokens)
+40% Combination Grasp
+18% Combination Grasp (1 token)
+
+
+Arec: Special Pulse
+Shekhtur: Combination Brand (5 tokens)
+
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Pulse:
+
+A....S.
+
+
+
+Beat 4
+-------
+
+Arec
+----
+Life: 18
+Discard 1: Perceptional Strike
+Discard 2: Mirrored Dash
+pool: Fear, Mercy
+
+Shekhtur
+--------
+Life: 13
+Discard 1: Combination Brand
+Discard 2: Spiral Strike
+Special action available
+0 Malice tokens
+
+
+A....S.
+
+
+Unbeatable strategy for Arec: Returning Hex: 2.28
+Unbeatable strategy for Arec: Returning Hex (Fear): 2.71
+
+Arec:
+26% Returning Hex
+67% Returning Hex (Fear)
+8% Manipulative Hex (Fear)
+
+Shekhtur:
+33% Jugular Drive
+22% Jugular Burst
+44% Special Pulse
+
+
+Arec: Returning Hex (Fear)
+Shekhtur: Special Pulse
+
+Arec antes a Fear token
+Pulse:
+
+.AS....
+
+
+
+Beat 4
+-------
+
+Arec
+----
+Life: 18
+Discard 1: Returning Hex
+Discard 2: Perceptional Strike
+pool: Mercy
+
+Shekhtur
+--------
+Life: 13
+Discard 1: Combination Brand
+Discard 2: Spiral Strike
+0 Malice tokens
+
+
+.AS....
 
 
 Arec:
-2% Perceptional Burst
-9% Perceptional Burst (Hesitation)
-5% Returning Burst (Recklessness)
-19% Returning Burst (Hesitation)
-6% Mirrored Hex
-3% Mirrored Hex (Recklessness)
-10% Mirrored Hex (Hesitation)
-11% Mirrored Strike
-34% Mirrored Burst (Recklessness)
+30% Phantom Dash
+67% Mirrored Dash
+2% Manipulative Grasp
 
 Shekhtur:
-1% Unleashed Brand
-4% Unleashed Brand (1 token)
-4% Unleashed Burst (2 tokens)
-33% Combination Burst
-32% Combination Grasp
-10% Spiral Brand
-6% Spiral Strike
-1% Spiral Strike (2 tokens)
-9% Spiral Grasp
+52% Jugular Shot
+20% Jugular Drive
+28% Jugular Grasp
 
 
-Arec: Mirrored Burst (Recklessness)
-Shekhtur: Combination Grasp
+Arec: Phantom Dash
+Shekhtur: Jugular Drive
 
-Arec antes a Recklessness token
-Priorities:  1 | 5
-Shekhtur is active
+Priorities:  10 | 6
+Arec is active
 Arec moves:
 
-..A..S.
+..SA...
+
+
+Shekhtur moves:
+
+...AS..
 
 
 Shekhtur misses
-Arec hits
-Shekhtur takes 4 damage (now at 11 life)
-Shekhtur is stunned
-Arec places clone:
-
-..A..S.
-c......
-
+Arec recovers a Recklessness token
+Shekhtur gains 3 Malice tokens
 
 Beat 5
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Mirrored Burst
-Discard 2: Phantom Dash
-Special action available
-pool: Fear, Mercy, Hesitation
+Life: 18
+Discard 1: Phantom Dash
+Discard 2: Returning Hex
+pool: Mercy, Recklessness
 
 Shekhtur
 --------
-Life: 11
-Discard 1: Combination Grasp
-Discard 2: Jugular Drive
-Special action available
+Life: 13
+Discard 1: Jugular Drive
+Discard 2: Combination Brand
 3 Malice tokens
 
 
-..A..S.
-c......
+...AS..
 
-Unbeatable strategy for Arec: Perceptional Hex (Hesitation; move to clone): 0.19
-Unbeatable strategy for Arec: Returning Hex (Hesitation; move to clone): 0.81
 
 Arec:
-19% Returning Hex (Fear; move to clone)
-77% Returning Hex (Hesitation; move to clone)
-3% Manipulative Strike (move to clone)
-1% Manipulative Shot (Fear)
+1% Perceptional Drive
+21% Mirrored Drive
+4% Mirrored Drive (Recklessness)
+21% Mirrored Burst
+26% Mirrored Burst (Recklessness)
+25% Mirrored Grasp
 
 Shekhtur:
-29% Unleashed Brand
-53% Unleashed Strike
-6% Unleashed Shot (3 tokens)
-12% Spiral Shot
+1% Reaver Strike (3 tokens)
+20% Reaver Shot (2 tokens)
+34% Reaver Shot (3 tokens)
+35% Reaver Burst (1 token)
+1% Spiral Strike
+9% Spiral Strike (2 tokens)
 
 
-Arec: Returning Hex (Hesitation; move to clone)
-Shekhtur: Unleashed Strike
+Arec: Mirrored Drive
+Shekhtur: Reaver Shot (3 tokens)
 
-Arec moves:
-
-A....S.
-
-
-Arec antes a Hesitation token
-Priorities:  4 | 3
-Arec is active
-Arec hits
-Arec moves Shekhtur:
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Priorities:  4 | 5
+Shekhtur is active
+Shekhtur hits
+Arec takes 3 damage (now at 15 life)
+Shekhtur gains 3 Malice tokens
+Shekhtur moves Arec:
 
 A...S..
 
 
-Arec recovers a Recklessness token
-Shekhtur takes 3 damage (now at 8 life)
-Shekhtur misses
+Arec is stunned
 Shekhtur moves:
 
-A.....S
+A.S....
 
 
-Shekhtur gains 2 Malice tokens
+Arec places clone:
+
+A.S....
+.....c.
+
 
 Beat 6
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Returning Hex
-Discard 2: Mirrored Burst
-Special action available
-pool: Fear, Mercy, Recklessness
+Life: 15
+Discard 1: Mirrored Drive
+Discard 2: Phantom Dash
+pool: Mercy, Recklessness
 
 Shekhtur
 --------
-Life: 8
-Discard 1: Unleashed Strike
-Discard 2: Combination Grasp
-Special action available
-5 Malice tokens
-+1 Power from playing Unleashed last beat
+Life: 13
+Discard 1: Reaver Shot
+Discard 2: Jugular Drive
+3 Malice tokens
+Shekhtur hit the opponent last beat
 
 
-A.....S
+A.S....
+.....c.
 
+Unbeatable strategy for Arec: Returning Burst (Recklessness; move to clone): 2.12
 
 Arec:
-4% Phantom Strike
-62% Phantom Shot (Recklessness)
-5% Perceptional Grasp
-23% Manipulative Shot
-7% Manipulative Shot (Fear)
+1% Perceptional Strike (move to clone)
+2% Returning Hex
+4% Returning Hex (move to clone)
+12% Returning Burst (move to clone)
+63% Returning Burst (Recklessness; move to clone)
+4% Manipulative Hex (Recklessness; move to clone)
+1% Manipulative Shot
+15% Manipulative Shot (Recklessness; move to clone)
 
 Shekhtur:
-15% Reaver Brand
-36% Reaver Brand (1 token)
-28% Reaver Shot (1 token)
-6% Jugular Burst
-16% Spiral Drive
+4% Unleashed Brand (1 token)
+4% Unleashed Brand (3 tokens)
+7% Unleashed Strike
+1% Unleashed Grasp
+35% Combination Brand
+28% Combination Strike
+10% Combination Burst
+10% Combination Dash
 
 
-Arec: Perceptional Grasp
-Shekhtur: Reaver Brand
+Arec: Returning Burst (move to clone)
+Shekhtur: Combination Brand
 
-Priorities:  6 | 2
+Arec moves:
+
+..S..A.
+
+
+Priorities:  2 | 2
 Arec is active
-Arec misses
-Shekhtur misses
-Shekhtur moves:
+Arec moves:
 
-A...S..
+..S...A
 
 
+Arec hits
+Shekhtur takes 3 damage (now at 10 life)
+Shekhtur is stunned
 
 Beat 7
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Perceptional Grasp
-Discard 2: Returning Hex
-Special action available
-pool: Fear, Mercy, Recklessness
+Life: 15
+Discard 1: Returning Burst
+Discard 2: Mirrored Drive
+pool: Mercy, Recklessness
 
 Shekhtur
 --------
-Life: 8
-Discard 1: Reaver Brand
-Discard 2: Unleashed Strike
-Special action available
-5 Malice tokens
+Life: 10
+Discard 1: Combination Brand
+Discard 2: Reaver Shot
+3 Malice tokens
 
 
-A...S..
+..S...A
 
-
-Unbeatable strategy for Shekhtur: Spiral Shot (3 tokens): -0.85
-Unbeatable strategy for Shekhtur: Spiral Shot (4 tokens): -0.55
-Unbeatable strategy for Shekhtur: Spiral Shot (5 tokens): -0.25
 
 Arec:
-5% Phantom Drive (Recklessness)
-51% Mirrored Strike
-43% Mirrored Drive
-1% Mirrored Drive (Recklessness)
+12% Perceptional Hex
+42% Manipulative Hex (Recklessness)
+35% Manipulative Strike (Recklessness)
+11% Manipulative Shot (Recklessness)
 
 Shekhtur:
-0% Jugular Shot (2 tokens)
-0% Jugular Shot (3 tokens)
-0% Jugular Shot (4 tokens)
-0% Jugular Shot (5 tokens)
-18% Spiral Shot (3 tokens)
-50% Spiral Shot (4 tokens)
-29% Spiral Shot (5 tokens)
+52% Unleashed Strike
+7% Unleashed Drive
+22% Unleashed Burst
+19% Unleashed Grasp
 
 
-Arec: Mirrored Strike
+Arec: Manipulative Strike (Recklessness)
+Shekhtur: Unleashed Grasp
+
+Arec antes a Recklessness token
+Priorities:  3 | 5
+Shekhtur is active
+Shekhtur misses
+Arec misses
+Shekhtur gains 2 Malice tokens
+
+Beat 8
+-------
+
+Arec
+----
+Life: 15
+Discard 1: Manipulative Strike
+Discard 2: Returning Burst
+pool: Mercy
+
+Shekhtur
+--------
+Life: 10
+Discard 1: Unleashed Grasp
+Discard 2: Combination Brand
+5 Malice tokens
++1 Power from playing Unleashed last beat
+
+
+..S...A
+
+
+Unbeatable strategy for Shekhtur: Jugular Shot (5 tokens): -3.65
+Unbeatable strategy for Shekhtur: Spiral Shot (4 tokens): -2.17
+Unbeatable strategy for Shekhtur: Spiral Shot (5 tokens): -1.83
+
+Arec:
+22% Mirrored Drive
+33% Mirrored Grasp
+44% Mirrored Dash
+
+Shekhtur:
+3% Jugular Shot (2 tokens)
+3% Jugular Shot (3 tokens)
+3% Jugular Shot (4 tokens)
+1% Spiral Shot (3 tokens)
+89% Spiral Shot (5 tokens)
+
+
+Arec: Mirrored Dash
 Shekhtur: Spiral Shot (5 tokens)
 
 Shekhtur antes a Malice token
@@ -442,150 +565,90 @@ Shekhtur antes a Malice token
 Shekhtur antes a Malice token
 Shekhtur antes a Malice token
 Shekhtur antes a Malice token
-Priorities:  3 | 6
-Shekhtur is active
+Priorities:  9 | 6
+Arec is active
+Arec moves:
+
+..S.A..
+
+
+Shekhtur moves:
+
+...SA..
+
+
+Shekhtur gets -1 power
 Shekhtur hits
-Arec takes 3 damage (now at 17 life)
+Arec takes 3 damage (now at 12 life)
 Shekhtur gains 3 Malice tokens
-Arec misses
+Arec is stunned
 Arec places clone:
 
-A...S..
-...c...
+...SA..
+c......
 
-
-Beat 8
--------
-
-Arec
-----
-Life: 17
-Discard 1: Mirrored Strike
-Discard 2: Perceptional Grasp
-Special action available
-pool: Fear, Mercy, Recklessness
-
-Shekhtur
---------
-Life: 8
-Discard 1: Spiral Shot
-Discard 2: Reaver Brand
-Special action available
-3 Malice tokens
-Shekhtur hit the opponent last beat
-
-
-A...S..
-...c...
-
-Unbeatable strategy for Arec: Returning Hex (Recklessness): 0.19
-
-Arec:
-5% Phantom Hex
-0% Phantom Shot
-3% Phantom Drive
-1% Returning Hex
-38% Returning Shot
-14% Returning Drive
-33% Manipulative Hex (Recklessness)
-6% Manipulative Shot
-
-Shekhtur:
-1% Unleashed Strike
-8% Unleashed Drive (1 token)
-3% Unleashed Drive (2 tokens)
-1% Unleashed Burst
-1% Unleashed Burst (1 token)
-3% Unleashed Burst (2 tokens)
-5% Unleashed Grasp
-78% Special Pulse
-
-
-Arec: Manipulative Shot
-Shekhtur: Unleashed Drive (1 token)
-
-Shekhtur antes a Malice token
-Priorities:  2 | 5
-Shekhtur is active
-Shekhtur moves:
-
-A..S...
-
-
-Shekhtur misses
-Shekhtur moves:
-
-A....S.
-
-
-Arec misses
-Shekhtur gains 2 Malice tokens
 
 Beat 9
 -------
 
 Arec
 ----
-Life: 17
-Discard 1: Manipulative Shot
-Discard 2: Mirrored Strike
-Special action available
-pool: Fear, Mercy, Recklessness
+Life: 12
+Discard 1: Mirrored Dash
+Discard 2: Manipulative Strike
+pool: Mercy
 
 Shekhtur
 --------
-Life: 8
-Discard 1: Unleashed Drive
-Discard 2: Spiral Shot
-Special action available
-4 Malice tokens
-+1 Power from playing Unleashed last beat
+Life: 10
+Discard 1: Spiral Shot
+Discard 2: Unleashed Grasp
+3 Malice tokens
+Shekhtur hit the opponent last beat
 
 
-A....S.
-
-
-Unbeatable strategy for Arec: Returning Hex (Recklessness): 0.14
+...SA..
+c......
 
 Arec:
-36% Perceptional Hex
-24% Perceptional Burst
-26% Returning Hex
-15% Returning Hex (Recklessness)
+3% Perceptional Hex (move to clone)
+5% Perceptional Burst
+15% Perceptional Burst (move to clone)
+4% Perceptional Grasp (move to clone)
+11% Returning Hex (move to clone)
+29% Returning Drive
+33% Returning Drive (move to clone)
 
 Shekhtur:
-25% Combination Strike (1 token)
-1% Combination Burst (3 tokens)
-31% Reaver Dash
-1% Jugular Burst (1 token)
-41% Special Pulse
+10% Combination Drive (1 token)
+25% Combination Drive (3 tokens)
+50% Reaver Strike
+13% Reaver Strike (1 token)
+2% Reaver Burst (3 tokens)
+1% Jugular Brand (2 tokens)
 
 
-Arec: Perceptional Hex
-Shekhtur: Combination Strike (1 token)
+Arec: Returning Drive (move to clone)
+Shekhtur: Combination Drive (3 tokens)
+
+Arec moves:
+
+A..S...
+
 
 Shekhtur antes a Malice token
-Priorities:  4 | 4
-Clash!
-
-Arec:
-24% Perceptional Drive
-76% Perceptional Burst
-
-Shekhtur:
-70% Combination Burst (1 token)
-30% Combination Dash (1 token)
-
-
-Arec: Perceptional Burst
-Shekhtur: Combination Dash (1 token)
-
 Shekhtur antes a Malice token
-Priorities:  2 | 10
+Shekhtur antes a Malice token
+Priorities:  5 | 7
 Shekhtur is active
-Arec antes a Recklessness token
+Shekhtur is stunned
+Arec moves:
+
+.A.S...
+
+
 Arec hits
-Shekhtur takes 3 damage (now at 5 life)
+Shekhtur takes 3 damage (now at 7 life)
 Shekhtur is stunned
 
 Beat 10
@@ -593,431 +656,458 @@ Beat 10
 
 Arec
 ----
-Life: 17
-Discard 1: Perceptional Burst
-Discard 2: Manipulative Shot
-Special action available
-pool: Fear, Mercy
+Life: 12
+Discard 1: Returning Drive
+Discard 2: Mirrored Dash
+pool: Mercy
 
 Shekhtur
 --------
-Life: 5
-Discard 1: Combination Dash
-Discard 2: Unleashed Drive
-Special action available
-3 Malice tokens
+Life: 7
+Discard 1: Combination Drive
+Discard 2: Spiral Shot
+0 Malice tokens
 
 
-A....S.
+.A.S...
 
 
 Arec:
-27% Returning Hex
-0% Mirrored Hex
-28% Mirrored Drive
-44% Mirrored Grasp
+33% Phantom Hex
+11% Phantom Shot
+22% Phantom Burst
+35% Phantom Grasp
 
 Shekhtur:
-24% Reaver Shot
-26% Reaver Shot (2 tokens)
-32% Reaver Shot (3 tokens)
-18% Spiral Burst
+84% Unleashed Dash
+8% Reaver Brand
+4% Reaver Burst
+4% Jugular Brand
 
 
-Arec: Mirrored Drive
-Shekhtur: Reaver Shot (2 tokens)
+Arec: Phantom Grasp
+Shekhtur: Unleashed Dash
 
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Priorities:  4 | 4
-Clash!
-
-Arec:
-50% Mirrored Hex
-50% Mirrored Strike
-
-Shekhtur:
-50% Reaver Burst (2 tokens)
-50% Reaver Grasp (2 tokens)
-
-
-Arec: Mirrored Hex
-Shekhtur: Reaver Burst (2 tokens)
-
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Priorities:  3 | 3
-Clash!
-
-Arec:
-100% Mirrored Strike
-
-Shekhtur:
-100% Reaver Grasp (2 tokens)
-
-
-Arec: Mirrored Strike
-Shekhtur: Reaver Grasp (2 tokens)
-
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Priorities:  3 | 7
+Priorities:  6 | 9
 Shekhtur is active
-Shekhtur misses
-Arec misses
 Shekhtur moves:
 
-A..S...
+.A..S..
 
 
-Arec places clone:
+Shekhtur moves:
 
-A..S...
-..c....
+SA.....
 
+
+Arec misses
+Shekhtur gains 2 Malice tokens
+Arec recovers a Recklessness token
 
 Beat 11
 -------
 
 Arec
 ----
-Life: 17
-Discard 1: Mirrored Strike
-Discard 2: Perceptional Burst
-Special action available
-pool: Fear, Mercy
+Life: 12
+Discard 1: Phantom Grasp
+Discard 2: Returning Drive
+pool: Mercy, Recklessness
 
 Shekhtur
 --------
-Life: 5
-Discard 1: Reaver Grasp
-Discard 2: Combination Dash
-Special action available
-1 Malice tokens
+Life: 7
+Discard 1: Unleashed Dash
+Discard 2: Combination Drive
+2 Malice tokens
++1 Power from playing Unleashed last beat
 
 
-A..S...
-..c....
+SA.....
+
 
 Arec:
-2% Phantom Dash
-93% Phantom Dash (move to clone)
-1% Returning Drive
-4% Returning Drive (move to clone)
+13% Perceptional Burst
+9% Mirrored Hex (Recklessness)
+36% Mirrored Burst
+33% Mirrored Burst (Recklessness)
+10% Manipulative Strike (Mercy)
 
 Shekhtur:
-19% Jugular Drive
-35% Jugular Drive (1 token)
-47% Spiral Strike
+17% Reaver Brand (2 tokens)
+8% Jugular Shot
+7% Jugular Shot (1 token)
+7% Jugular Shot (2 tokens)
+3% Spiral Strike
+46% Spiral Shot
+13% Spiral Burst (1 token)
 
 
-Arec: Phantom Dash (move to clone)
-Shekhtur: Spiral Strike
+Arec: Mirrored Burst (Recklessness)
+Shekhtur: Jugular Shot
 
+Arec antes a Recklessness token
+Priorities:  1 | 4
+Shekhtur is active
 Arec moves:
 
-..AS...
-
-
-Priorities:  10 | 2
-Arec is active
-Arec moves:
-
-...SA..
+S.A....
 
 
 Shekhtur misses
-Arec recovers a Recklessness token
+Arec misses
+Shekhtur gains 1 Malice token
+Arec places clone:
+
+S.A....
+.....c.
+
 
 Beat 12
 -------
 
 Arec
 ----
-Life: 17
-Discard 1: Phantom Dash
-Discard 2: Mirrored Strike
-Special action available
-pool: Fear, Mercy, Recklessness
+Life: 12
+Discard 1: Mirrored Burst
+Discard 2: Phantom Grasp
+pool: Mercy
 
 Shekhtur
 --------
-Life: 5
-Discard 1: Spiral Strike
-Discard 2: Reaver Grasp
-Special action available
-1 Malice tokens
+Life: 7
+Discard 1: Jugular Shot
+Discard 2: Unleashed Dash
+3 Malice tokens
 
 
-...SA..
-
+S.A....
+.....c.
 
 Arec:
-11% Perceptional Burst
-54% Returning Drive
-10% Returning Burst (Recklessness)
-3% Manipulative Burst (Recklessness)
-22% Manipulative Grasp (Recklessness)
+7% Perceptional Drive (move to clone)
+9% Returning Strike
+2% Returning Strike (move to clone)
+66% Returning Shot (move to clone)
+15% Returning Drive (move to clone)
+2% Manipulative Hex (move to clone)
 
 Shekhtur:
-11% Unleashed Burst (1 token)
-50% Unleashed Dash
-27% Jugular Shot (1 token)
-3% Jugular Drive
-4% Jugular Drive (1 token)
-1% Jugular Burst
-5% Jugular Burst (1 token)
+21% Combination Strike
+32% Combination Grasp
+4% Spiral Brand
+2% Spiral Strike
+24% Spiral Drive (2 tokens)
+17% Spiral Drive (3 tokens)
 
 
-Arec: Returning Drive
-Shekhtur: Unleashed Dash
-
-Priorities:  5 | 9
-Shekhtur is active
-Shekhtur moves:
-
-.S..A..
-
-
-Shekhtur moves:
-
-....AS.
-
+Arec: Perceptional Drive (move to clone)
+Shekhtur: Combination Strike
 
 Arec moves:
 
-.....SA
+S....A.
+
+
+Priorities:  5 | 3
+Arec is active
+Arec moves:
+
+S..A...
+
+
+Arec hits
+Arec moves Shekhtur:
+
+.S.A...
+
+
+Shekhtur takes 3 damage (now at 4 life)
+Shekhtur misses
+
+Beat 13
+-------
+
+Arec
+----
+Life: 12
+Discard 1: Perceptional Drive
+Discard 2: Mirrored Burst
+pool: Mercy
+
+Shekhtur
+--------
+Life: 4
+Discard 1: Combination Strike
+Discard 2: Jugular Shot
+3 Malice tokens
+
+
+.S.A...
+
+
+Arec:
+7% Phantom Strike
+23% Phantom Grasp
+23% Phantom Dash
+11% Phantom Dash (Mercy)
+11% Returning Strike (Mercy)
+7% Manipulative Shot
+7% Manipulative Dash
+11% Manipulative Dash (Mercy)
+
+Shekhtur:
+12% Unleashed Drive (3 tokens)
+18% Unleashed Dash
+17% Unleashed Dash (1 token)
+5% Reaver Brand (3 tokens)
+11% Reaver Drive (3 tokens)
+9% Reaver Dash
+21% Reaver Dash (1 token)
+7% Spiral Drive (3 tokens)
+
+
+Arec: Phantom Grasp
+Shekhtur: Unleashed Dash
+
+Priorities:  6 | 9
+Shekhtur is active
+Shekhtur moves:
+
+S..A...
+
+
+Shekhtur moves:
+
+...AS..
 
 
 Arec misses
 Shekhtur gains 2 Malice tokens
+Arec recovers a Recklessness token
 
-Beat 13
+Beat 14
 -------
 
 Arec
 ----
-Life: 17
-Discard 1: Returning Drive
-Discard 2: Phantom Dash
-Special action available
-pool: Fear, Mercy, Recklessness
+Life: 12
+Discard 1: Phantom Grasp
+Discard 2: Perceptional Drive
+pool: Mercy, Recklessness
 
 Shekhtur
 --------
-Life: 5
+Life: 4
 Discard 1: Unleashed Dash
-Discard 2: Spiral Strike
-Special action available
-3 Malice tokens
+Discard 2: Combination Strike
+5 Malice tokens
 +1 Power from playing Unleashed last beat
 
 
-.....SA
-
-
-Unbeatable strategy for Shekhtur: Combination Brand (3 tokens): -2.11
-Unbeatable strategy for Shekhtur: Combination Shot (3 tokens): -0.55
-Unbeatable strategy for Shekhtur: Combination Drive (1 token): -0.74
-Unbeatable strategy for Shekhtur: Combination Drive (2 tokens): -0.74
-Unbeatable strategy for Shekhtur: Combination Drive (3 tokens): -0.74
-
-Arec:
-50% Mirrored Strike (Recklessness)
-2% Mirrored Burst (Recklessness)
-9% Mirrored Grasp
-1% Manipulative Strike (Recklessness)
-3% Manipulative Grasp
-35% Special Pulse
-
-Shekhtur:
-1% Combination Brand
-35% Combination Brand (2 tokens)
-15% Combination Brand (3 tokens)
-2% Combination Shot (3 tokens)
-14% Combination Drive (1 token)
-33% Combination Grasp
-
-
-Arec: Special Pulse
-Shekhtur: Combination Grasp
-
-Pulse:
-
-A.....S
-
-
-
-Beat 13
--------
-
-Arec
-----
-Life: 17
-Discard 1: Returning Drive
-Discard 2: Phantom Dash
-pool: Fear, Mercy, Recklessness
-
-Shekhtur
---------
-Life: 5
-Discard 1: Combination Grasp
-Discard 2: Unleashed Dash
-Special action available
-3 Malice tokens
-
-
-A.....S
+...AS..
 
 
 Arec:
-37% Mirrored Hex
-22% Mirrored Strike
-27% Mirrored Shot
-14% Mirrored Shot (Recklessness)
+15% Returning Strike (Recklessness)
+7% Mirrored Hex
+32% Mirrored Strike
+10% Mirrored Burst
+18% Mirrored Burst (Recklessness)
+16% Mirrored Dash
+0% Manipulative Strike (Mercy)
 
 Shekhtur:
-5% Spiral Strike
-5% Spiral Shot (3 tokens)
-18% Spiral Drive
-72% Special Pulse
-
-
-Arec: Mirrored Strike
-Shekhtur: Spiral Drive
-
-Priorities:  3 | 3
-Clash!
-
-Arec:
-92% Mirrored Hex
-8% Mirrored Shot
-
-Shekhtur:
-94% Spiral Strike
-6% Spiral Shot
+3% Reaver Brand (2 tokens)
+52% Reaver Burst (2 tokens)
+10% Jugular Brand (5 tokens)
+26% Jugular Shot (5 tokens)
+2% Jugular Drive (4 tokens)
+4% Jugular Drive (5 tokens)
+1% Jugular Grasp (2 tokens)
+2% Spiral Brand
 
 
 Arec: Mirrored Hex
-Shekhtur: Spiral Strike
+Shekhtur: Jugular Shot (5 tokens)
 
-Priorities:  3 | 2
-Arec is active
-Arec hits
-Arec recovers a Hesitation token
-Shekhtur takes 4 damage (now at 1 life)
-Shekhtur moves:
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Priorities:  3 | 9
+Shekhtur is active
+Shekhtur hits
+Shekhtur moves Arec:
 
-A..S...
+..A.S..
 
 
-Shekhtur gets -3 power
-Shekhtur misses
+Arec takes 5 damage (now at 7 life)
+Shekhtur gains 5 Malice tokens
+Arec is stunned
+Shekhtur discards a Malice token
+Shekhtur discards a Malice token
 Arec places clone:
 
-A..S...
-..c....
+..A.S..
+c......
 
 
-Beat 14
+Beat 15
 -------
 
 Arec
 ----
-Life: 17
+Life: 7
 Discard 1: Mirrored Hex
-Discard 2: Returning Drive
-pool: Fear, Mercy, Recklessness, Hesitation
+Discard 2: Phantom Grasp
+pool: Mercy, Recklessness
 
 Shekhtur
 --------
-Life: 1
-Discard 1: Spiral Strike
-Discard 2: Combination Grasp
-Special action available
+Life: 4
+Discard 1: Jugular Shot
+Discard 2: Unleashed Dash
 3 Malice tokens
+Shekhtur hit the opponent last beat
 
 
-A..S...
-..c....
+..A.S..
+c......
+
+Unbeatable strategy for Arec: Perceptional Dash: 9.00
+Unbeatable strategy for Arec: Perceptional Dash (Mercy): 9.00
+Unbeatable strategy for Arec: Perceptional Dash (move to clone): 9.00
+Unbeatable strategy for Arec: Perceptional Dash (Mercy; move to clone): 9.00
+Unbeatable strategy for Arec: Perceptional Dash (Recklessness; move to clone): 9.00
+Unbeatable strategy for Arec: Returning Strike (Recklessness; move to clone): 9.00
+Unbeatable strategy for Arec: Returning Shot (Recklessness; move to clone): 9.00
+Unbeatable strategy for Arec: Returning Drive (Recklessness; move to clone): 9.00
+Unbeatable strategy for Arec: Returning Burst (Recklessness): 9.00
+Unbeatable strategy for Arec: Returning Burst (Recklessness; move to clone): 9.00
+Unbeatable strategy for Arec: Returning Dash: 9.00
+Unbeatable strategy for Arec: Returning Dash (Mercy): 9.00
+Unbeatable strategy for Arec: Returning Dash (Recklessness; move to clone): 9.00
+Unbeatable strategy for Arec: Manipulative Dash: 9.00
+Unbeatable strategy for Arec: Manipulative Dash (Mercy): 9.00
+Unbeatable strategy for Arec: Manipulative Dash (Recklessness; move to clone): 9.00
 
 Arec:
-15% Phantom Strike
-1% Phantom Grasp (move to clone)
-35% Perceptional Strike
-25% Perceptional Grasp
-24% Perceptional Grasp (Hesitation)
+3% Perceptional Strike (move to clone)
+3% Perceptional Strike (Mercy; move to clone)
+3% Perceptional Strike (Recklessness; move to clone)
+3% Perceptional Shot (move to clone)
+3% Perceptional Shot (Mercy; move to clone)
+3% Perceptional Shot (Recklessness; move to clone)
+3% Perceptional Drive (move to clone)
+3% Perceptional Drive (Mercy; move to clone)
+3% Perceptional Drive (Recklessness; move to clone)
+3% Perceptional Burst
+3% Perceptional Burst (Mercy)
+3% Perceptional Burst (move to clone)
+3% Perceptional Burst (Mercy; move to clone)
+3% Perceptional Burst (Recklessness; move to clone)
+3% Perceptional Dash
+3% Perceptional Dash (Mercy)
+3% Perceptional Dash (move to clone)
+3% Perceptional Dash (Mercy; move to clone)
+3% Perceptional Dash (Recklessness; move to clone)
+3% Returning Strike (Recklessness; move to clone)
+3% Returning Shot (Recklessness; move to clone)
+3% Returning Drive (Recklessness; move to clone)
+3% Returning Burst (Recklessness)
+3% Returning Burst (Recklessness; move to clone)
+3% Returning Dash
+3% Returning Dash (Mercy)
+3% Returning Dash (Recklessness; move to clone)
+3% Manipulative Strike (Recklessness; move to clone)
+3% Manipulative Shot (Recklessness; move to clone)
+3% Manipulative Drive (Recklessness; move to clone)
+3% Manipulative Burst (Recklessness; move to clone)
+3% Manipulative Dash
+3% Manipulative Dash (Mercy)
+3% Manipulative Dash (Recklessness; move to clone)
 
 Shekhtur:
-3% Reaver Shot (2 tokens)
-2% Jugular Shot (3 tokens)
-1% Jugular Burst (2 tokens)
-0% Jugular Burst (3 tokens)
-93% Special Pulse
+0% Combination Brand
+0% Combination Brand (1 token)
+0% Combination Brand (2 tokens)
+0% Combination Brand (3 tokens)
+0% Combination Strike
+0% Combination Strike (1 token)
+0% Combination Strike (2 tokens)
+6% Combination Strike (3 tokens)
+0% Combination Drive
+0% Combination Drive (1 token)
+0% Combination Drive (2 tokens)
+0% Combination Drive (3 tokens)
+6% Combination Burst
+5% Combination Burst (1 token)
+6% Combination Burst (2 tokens)
+6% Combination Burst (3 tokens)
+6% Combination Grasp
+6% Combination Grasp (1 token)
+6% Combination Grasp (2 tokens)
+6% Combination Grasp (3 tokens)
+0% Reaver Brand
+0% Reaver Brand (1 token)
+0% Reaver Brand (2 tokens)
+0% Reaver Brand (3 tokens)
+0% Reaver Strike
+0% Reaver Strike (1 token)
+0% Reaver Strike (2 tokens)
+0% Reaver Strike (3 tokens)
+0% Reaver Drive
+0% Reaver Drive (1 token)
+0% Reaver Drive (2 tokens)
+0% Reaver Drive (3 tokens)
+0% Reaver Burst
+0% Reaver Burst (1 token)
+0% Reaver Burst (2 tokens)
+0% Reaver Burst (3 tokens)
+2% Reaver Grasp
+6% Reaver Grasp (1 token)
+6% Reaver Grasp (2 tokens)
+6% Reaver Grasp (3 tokens)
+0% Spiral Brand
+0% Spiral Brand (1 token)
+0% Spiral Brand (2 tokens)
+0% Spiral Brand (3 tokens)
+0% Spiral Strike
+0% Spiral Strike (1 token)
+0% Spiral Strike (2 tokens)
+0% Spiral Strike (3 tokens)
+0% Spiral Drive
+0% Spiral Drive (1 token)
+0% Spiral Drive (2 tokens)
+0% Spiral Drive (3 tokens)
+0% Spiral Burst
+0% Spiral Burst (1 token)
+0% Spiral Burst (2 tokens)
+0% Spiral Burst (3 tokens)
+2% Spiral Grasp
+4% Spiral Grasp (1 token)
+7% Spiral Grasp (2 tokens)
+7% Spiral Grasp (3 tokens)
 
 
-Arec: Perceptional Grasp
-Shekhtur: Special Pulse
+Arec: Perceptional Dash (Mercy; move to clone)
+Shekhtur: Combination Grasp (2 tokens)
 
-Pulse:
-
-AS.....
-
-
-
-Beat 14
--------
-
-Arec
-----
-Life: 17
-Discard 1: Perceptional Grasp
-Discard 2: Mirrored Hex
-pool: Fear, Mercy, Recklessness, Hesitation
-
-Shekhtur
---------
-Life: 1
-Discard 1: Spiral Strike
-Discard 2: Combination Grasp
-3 Malice tokens
-
-
-AS.....
-
-
-Unbeatable strategy for Arec: Returning Drive (Hesitation): 1.18
-
-Arec:
-5% Phantom Strike (Recklessness)
-0% Phantom Shot (Fear)
-22% Phantom Drive (Recklessness)
-18% Returning Strike (Recklessness)
-54% Returning Drive (Hesitation)
-0% Manipulative Dash (Fear)
-
-Shekhtur:
-54% Unleashed Dash
-13% Reaver Burst (3 tokens)
-16% Jugular Shot (2 tokens)
-6% Jugular Drive
-11% Jugular Burst (1 token)
-1% Jugular Burst (3 tokens)
-
-
-Arec: Returning Drive (Hesitation)
-Shekhtur: Jugular Drive
-
-Arec antes a Hesitation token
-Priorities:  5 | 6
-Shekhtur is active
-Shekhtur is stunned
 Arec moves:
 
-.SA....
+A...S..
 
 
-Arec hits
-Shekhtur takes 3 damage (now at 0 life)
+Arec antes a Mercy token
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Priorities:  10 | 7
+Arec is active
+Arec antes a Recklessness token
+Shekhtur misses
+Game goes to time
 AREC WINS!
-total_time: 274
+total_time: 238
