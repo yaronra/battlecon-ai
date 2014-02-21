@@ -45,31 +45,11 @@ Eligor:
 43% Retribution Shot (1 token)
 
 
-Abarene: Crippling Burst (Fatigue)
-Eligor: Retribution Shot (1 token)
+Abarene: Barbed Drive
+Eligor: Chained Shot (1 token)
 
-Abarene antes a Fatigue token
 Eligor antes a Vengeance token
-Priorities:  -1 | -1
-Clash!
-
-Abarene:
-28% Crippling Thorns (Fatigue)
-31% Crippling Shot (Fatigue)
-41% Crippling Drive (Fatigue)
-
-Eligor:
-63% Retribution Strike (1 token)
-12% Retribution Drive (1 token)
-25% Retribution Burst (1 token)
-
-
-Abarene: Crippling Thorns (Fatigue)
-Eligor: Retribution Burst (1 token)
-
-Abarene antes a Fatigue token
-Eligor antes a Vengeance token
-Priorities:  0 | -2
+Priorities:  5 | 1
 Abarene is active
 Abarene moves:
 
@@ -77,13 +57,22 @@ Abarene moves:
 
 Abarene hits
 Abarene recovers a Nausea token
-Abarene recovers a Pain Spike token
-Eligor has 2 soak
+Abarene moves Eligor:
+
+...AE..
+
+Eligor loses 2 life (now at 18)
+Eligor takes 2 damage (now at 16 life)
 Eligor gains 2 Vengeance tokens
-Eligor takes 2 damage (now at 18 life)
-Eligor gains 2 Vengeance tokens
+Eligor spends a Vengeance token
+Eligor spends a Vengeance token
+Eligor moves Abarene:
+
+....E.A
+
 Eligor hits
 Abarene takes 3 damage (now at 17 life)
+Abarene is stunned
 
 Beat 2
 -------
@@ -91,74 +80,57 @@ Beat 2
 Abarene
 -------
 Life: 17
-Discard 1: Crippling Thorns
+Discard 1: Barbed Drive
 Discard 2: Lethal Strike
 Special action available
-pool: Nausea, Pain Spike
+pool: Fatigue, Nausea
 
 Eligor
 ------
-Life: 18
-Discard 1: Retribution Burst
+Life: 16
+Discard 1: Chained Shot
 Discard 2: Martial Grasp
 Special action available
-5 Vengeance tokens
+1 Vengeance tokens
 
 
-...A.E.
+....E.A
 
-Unbeatable strategy for Abarene: Intoxicating Drive (Nausea): 0.27
-Unbeatable strategy for Abarene: Intoxicating Drive (Nausea, Pain Spike): 3.01
-Unbeatable strategy for Abarene: Intoxicating Dash (Pain Spike): 2.30
-Unbeatable strategy for Abarene: Intoxicating Dash (Nausea, Pain Spike): 2.15
-Unbeatable strategy for Abarene: Barbed Drive (Nausea, Pain Spike): 1.23
-Unbeatable strategy for Abarene: Barbed Grasp (Pain Spike): 0.03
-Unbeatable strategy for Abarene: Barbed Grasp (Nausea, Pain Spike): 0.09
-Unbeatable strategy for Abarene: Barbed Dash (Pain Spike): 0.53
-Unbeatable strategy for Abarene: Barbed Dash (Nausea, Pain Spike): 0.24
-Unbeatable strategy for Abarene: Pestilent Dash (Pain Spike): 0.59
-Unbeatable strategy for Abarene: Pestilent Dash (Nausea, Pain Spike): 0.29
+Unbeatable strategy for Abarene: Intoxicating Thorns (Fatigue, Nausea): 0.18
 
 Abarene:
-20% Intoxicating Drive (Pain Spike)
-57% Intoxicating Drive (Nausea, Pain Spike)
-10% Intoxicating Burst (Pain Spike)
-12% Intoxicating Burst (Nausea, Pain Spike)
-1% Barbed Drive (Pain Spike)
-0% Barbed Burst (Nausea, Pain Spike)
+6% Intoxicating Thorns (Nausea)
+38% Intoxicating Thorns (Fatigue, Nausea)
+5% Intoxicating Shot (Nausea)
+20% Intoxicating Burst (Nausea)
+25% Crippling Thorns (Fatigue)
+7% Crippling Shot (Nausea)
 
 Eligor:
-7% Vengeful Aegis (4 tokens)
-17% Vengeful Shot
-25% Vengeful Shot (1 token)
-41% Vengeful Dash
-8% Counter Shot (1 token)
-2% Counter Drive
+6% Vengeful Strike
+3% Vengeful Strike (1 token)
+7% Vengeful Burst
+1% Vengeful Burst (1 token)
+18% Retribution Aegis (1 token)
+65% Retribution Burst (1 token)
 
 
-Abarene: Intoxicating Drive (Nausea, Pain Spike)
-Eligor: Vengeful Dash
+Abarene: Intoxicating Shot (Nausea)
+Eligor: Retribution Aegis (1 token)
 
 Abarene antes a Nausea token
-Abarene antes a Pain Spike token
-Eligor loses 3 life (now at 15)
-Priorities:  5 | 9
-Eligor is active
+Eligor antes a Vengeance token
+Priorities:  3 | -1
+Abarene is active
+Abarene recovers a Nausea token
+Abarene hits
+Abarene recovers a Dizziness token
+Eligor has 3 soak
+Eligor gains 2 Vengeance tokens
+Eligor takes 1 damage (now at 15 life)
+Eligor gains 1 Vengeance token
+Eligor misses
 Abarene recovers a Pain Spike token
-Eligor moves:
-
-...AE..
-
-Eligor moves:
-
-E..A...
-
-Abarene moves:
-
-E.A....
-
-Abarene misses
-Abarene recovers a Fatigue token
 
 Beat 3
 -------
@@ -166,52 +138,66 @@ Beat 3
 Abarene
 -------
 Life: 17
-Discard 1: Intoxicating Drive
-Discard 2: Crippling Thorns
+Discard 1: Intoxicating Shot
+Discard 2: Barbed Drive
 Special action available
-pool: Fatigue, Pain Spike
+pool: Dizziness, Fatigue, Nausea, Pain Spike
 
 Eligor
 ------
 Life: 15
-Discard 1: Vengeful Dash
-Discard 2: Retribution Burst
+Discard 1: Retribution Aegis
+Discard 2: Chained Shot
 Special action available
-5 Vengeance tokens
+3 Vengeance tokens
 
 
-E.A....
+....E.A
+
+Unbeatable strategy for Abarene: Crippling Dash (Pain Spike): 0.76
+Unbeatable strategy for Abarene: Crippling Dash (Nausea, Pain Spike): 0.59
+Unbeatable strategy for Abarene: Pestilent Dash (Pain Spike): 0.61
+Unbeatable strategy for Abarene: Pestilent Dash (Nausea, Pain Spike): 0.45
 
 Abarene:
-66% Lethal Grasp (Pain Spike)
-4% Barbed Strike
-14% Barbed Shot (Pain Spike)
-6% Barbed Burst (Pain Spike)
-6% Barbed Burst (Fatigue, Pain Spike)
-5% Barbed Grasp
+4% Lethal Thorns (Fatigue, Nausea)
+16% Lethal Thorns (Fatigue, Nausea, Pain Spike)
+6% Crippling Thorns (Fatigue, Pain Spike)
+38% Crippling Thorns (Nausea, Pain Spike)
+36% Crippling Thorns (Dizziness, Fatigue, Pain Spike)
 
 Eligor:
-32% Martial Strike (1 token)
-21% Martial Shot (1 token)
-6% Martial Grasp
-19% Chained Strike
-12% Chained Shot
-10% Chained Shot (1 token)
+40% Counter Burst (2 tokens)
+25% Martial Strike (2 tokens)
+15% Martial Drive (2 tokens)
+14% Martial Drive (3 tokens)
+6% Martial Burst (2 tokens)
 
 
-Abarene: Lethal Grasp (Pain Spike)
-Eligor: Martial Strike (1 token)
+Abarene: Crippling Thorns (Dizziness, Fatigue, Pain Spike)
+Eligor: Counter Burst (2 tokens)
 
+Abarene antes a Dizziness token
+Abarene antes a Fatigue token
 Abarene antes a Pain Spike token
 Eligor loses 3 life (now at 12)
 Eligor antes a Vengeance token
-Priorities:  5 | 2
+Eligor antes a Vengeance token
+Priorities:  0 | -2
 Abarene is active
 Abarene moves:
 
-E.....A
+....EA.
 
-Abarene misses
+Abarene hits
+Abarene recovers a Fatigue token
+Abarene recovers a Pain Spike token
+Eligor takes 4 damage (now at 8 life)
+Eligor gains 4 Vengeance tokens
+Eligor moves:
+
+.....AE
+
 Eligor misses
 
 Beat 4
@@ -220,48 +206,56 @@ Beat 4
 Abarene
 -------
 Life: 17
-Discard 1: Lethal Grasp
-Discard 2: Intoxicating Drive
+Discard 1: Crippling Thorns
+Discard 2: Intoxicating Shot
 Special action available
-pool: Fatigue
+pool: Fatigue, Nausea, Pain Spike
 
 Eligor
 ------
-Life: 12
-Discard 1: Martial Strike
-Discard 2: Vengeful Dash
+Life: 8
+Discard 1: Counter Burst
+Discard 2: Retribution Aegis
 Special action available
-4 Vengeance tokens
+5 Vengeance tokens
 
 
-E.....A
+.....AE
 
 Abarene:
-31% Crippling Thorns
-32% Crippling Strike
-36% Crippling Shot (Fatigue)
+13% Lethal Strike (Pain Spike)
+18% Barbed Strike (Nausea, Pain Spike)
+17% Barbed Drive (Nausea, Pain Spike)
+38% Barbed Burst (Nausea, Pain Spike)
+9% Barbed Grasp (Nausea, Pain Spike)
+5% Barbed Grasp (Fatigue, Nausea, Pain Spike)
 
 Eligor:
-20% Chained Aegis
-34% Chained Shot (1 token)
-46% Chained Drive
+24% Vengeful Strike
+23% Vengeful Shot
+36% Vengeful Dash
+5% Martial Drive (1 token)
+5% Chained Grasp
+6% Chained Dash
 
 
-Abarene: Crippling Thorns
-Eligor: Chained Drive
+Abarene: Barbed Strike (Nausea, Pain Spike)
+Eligor: Vengeful Strike
 
-Priorities:  0 | 3
-Eligor is active
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Eligor loses 3 life (now at 5)
+Priorities:  4 | 3
+Abarene is active
+Abarene hits
+Abarene recovers a Nausea token
+Eligor takes 3 damage (now at 2 life)
 Eligor moves:
 
-.E....A
+....EA.
 
+Eligor loses 2 life (now at 1)
 Eligor misses
-Abarene moves:
-
-.E..A..
-
-Abarene misses
 
 Beat 5
 -------
@@ -269,51 +263,53 @@ Beat 5
 Abarene
 -------
 Life: 17
-Discard 1: Crippling Thorns
-Discard 2: Lethal Grasp
+Discard 1: Barbed Strike
+Discard 2: Crippling Thorns
 Special action available
-pool: Fatigue
+pool: Fatigue, Nausea
 
 Eligor
 ------
-Life: 12
-Discard 1: Chained Drive
-Discard 2: Martial Strike
+Life: 1
+Discard 1: Vengeful Strike
+Discard 2: Counter Burst
 Special action available
-4 Vengeance tokens
+5 Vengeance tokens
 
 
-.E..A..
+....EA.
 
 Abarene:
-1% Intoxicating Shot
-0% Intoxicating Shot (Fatigue)
-1% Intoxicating Drive
-1% Intoxicating Drive (Fatigue)
-11% Intoxicating Burst
-14% Barbed Drive
-2% Barbed Burst
-70% Barbed Dash
+44% Lethal Grasp
+47% Intoxicating Burst (Nausea)
+10% Intoxicating Grasp (Fatigue, Nausea)
 
 Eligor:
-16% Vengeful Shot
-21% Counter Shot
-25% Counter Burst (1 token)
-33% Retribution Shot
-3% Retribution Burst
-2% Retribution Grasp
+0% Martial Drive
+18% Chained Dash
+82% Retribution Aegis (2 tokens)
 
 
-Abarene: Barbed Dash
-Eligor: Vengeful Shot
+Abarene: Intoxicating Burst (Nausea)
+Eligor: Retribution Aegis (2 tokens)
 
-Priorities:  10 | 2
+Abarene antes a Nausea token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  2 | -1
 Abarene is active
+Abarene recovers a Nausea token
 Abarene moves:
 
-AE.....
+....E.A
 
+Abarene hits
+Abarene recovers a Dizziness token
+Eligor has 4 soak
+Eligor gains 2 Vengeance tokens
+Eligor takes 0 damage (now at 1 life)
 Eligor misses
+Abarene recovers a Pain Spike token
 
 Beat 6
 -------
@@ -321,54 +317,60 @@ Beat 6
 Abarene
 -------
 Life: 17
-Discard 1: Barbed Dash
-Discard 2: Crippling Thorns
+Discard 1: Intoxicating Burst
+Discard 2: Barbed Strike
 Special action available
-pool: Fatigue
+pool: Dizziness, Fatigue, Nausea, Pain Spike
 
 Eligor
 ------
-Life: 12
-Discard 1: Vengeful Shot
-Discard 2: Chained Drive
+Life: 1
+Discard 1: Retribution Aegis
+Discard 2: Vengeful Strike
 Special action available
-4 Vengeance tokens
+5 Vengeance tokens
 
 
-AE.....
+....E.A
 
 Abarene:
-23% Lethal Drive
-19% Intoxicating Shot (Fatigue)
-6% Intoxicating Drive
-5% Intoxicating Drive (Fatigue)
-22% Pestilent Strike
-3% Pestilent Shot (Fatigue)
-5% Pestilent Burst
-17% Pestilent Burst (Fatigue)
+21% Lethal Thorns (Nausea, Pain Spike)
+6% Lethal Shot
+4% Lethal Drive (Nausea)
+30% Lethal Drive (Nausea, Pain Spike)
+40% Pestilent Grasp (Dizziness, Fatigue)
 
 Eligor:
-11% Counter Strike
-23% Counter Strike (1 token)
-20% Counter Burst (2 tokens)
-16% Martial Aegis (3 tokens)
-25% Martial Grasp (2 tokens)
-1% Retribution Aegis (1 token)
-3% Retribution Strike
+5% Counter Grasp
+1% Martial Drive
+4% Martial Burst
+1% Martial Grasp
+32% Chained Burst
+58% Chained Dash
 
 
-Abarene: Lethal Drive
-Eligor: Counter Strike (1 token)
+Abarene: Lethal Thorns (Nausea, Pain Spike)
+Eligor: Chained Dash
 
-Eligor antes a Vengeance token
-Priorities:  4 | 2
-Abarene is active
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Eligor loses 3 life (now at 1)
+Priorities:  2 | 8
+Eligor is active
+Eligor spends a Vengeance token
+Eligor moves Abarene:
+
+....EA.
+
+Eligor moves:
+
+.....AE
+
 Abarene moves:
 
-.E.A...
+A.....E
 
 Abarene misses
-Eligor misses
 
 Beat 7
 -------
@@ -376,385 +378,405 @@ Beat 7
 Abarene
 -------
 Life: 17
-Discard 1: Lethal Drive
-Discard 2: Barbed Dash
+Discard 1: Lethal Thorns
+Discard 2: Intoxicating Burst
 Special action available
-pool: Fatigue
+pool: Dizziness, Fatigue
 
 Eligor
 ------
-Life: 12
-Discard 1: Counter Strike
-Discard 2: Vengeful Shot
+Life: 1
+Discard 1: Chained Dash
+Discard 2: Retribution Aegis
 Special action available
-3 Vengeance tokens
+4 Vengeance tokens
 
 
-.E.A...
+A.....E
+
+Unbeatable strategy for Eligor: Counter Shot: -0.45
+Unbeatable strategy for Eligor: Counter Shot (1 token): -0.25
+Unbeatable strategy for Eligor: Counter Shot (2 tokens): -0.05
 
 Abarene:
-9% Intoxicating Burst
-8% Crippling Thorns
-6% Crippling Thorns (Fatigue)
-8% Crippling Burst
-67% Pestilent Thorns
-2% Pestilent Thorns (Fatigue)
+8% Crippling Shot
+0% Crippling Shot (Fatigue)
+91% Pestilent Grasp
 
 Eligor:
-21% Martial Drive (2 tokens)
-7% Martial Burst
-12% Martial Grasp
-0% Chained Burst
-54% Retribution Aegis (1 token)
-4% Retribution Drive
+77% Counter Shot
+6% Counter Burst
+16% Counter Grasp
 
 
-Abarene: Pestilent Thorns
-Eligor: Retribution Aegis (1 token)
+Abarene: Pestilent Grasp
+Eligor: Counter Grasp
 
-Eligor antes a Vengeance token
-Priorities:  3 | -1
+Priorities:  6 | 4
 Abarene is active
-Abarene hits
-Abarene recovers a Nausea token
-Abarene recovers a Dizziness token
-Eligor has 3 soak
-Eligor gains 2 Vengeance tokens
-Eligor takes 0 damage (now at 12 life)
-Abarene moves:
-
-AE.....
-
-Abarene recovers a Pain Spike token
-Eligor hits
-Abarene takes 2 damage (now at 15 life)
+Abarene is stunned
+Eligor misses
 
 Beat 8
 -------
 
 Abarene
 -------
-Life: 15
-Discard 1: Pestilent Thorns
-Discard 2: Lethal Drive
+Life: 17
+Discard 1: Pestilent Grasp
+Discard 2: Lethal Thorns
 Special action available
-pool: Dizziness, Fatigue, Nausea, Pain Spike
+pool: Dizziness, Fatigue
 
 Eligor
 ------
-Life: 12
-Discard 1: Retribution Aegis
-Discard 2: Counter Strike
+Life: 1
+Discard 1: Counter Grasp
+Discard 2: Chained Dash
 Special action available
 4 Vengeance tokens
 
 
-AE.....
+A.....E
 
-Unbeatable strategy for Abarene: Intoxicating Dash (Pain Spike): 2.50
-Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Pain Spike): 1.85
-Unbeatable strategy for Abarene: Intoxicating Dash (Nausea, Pain Spike): 2.35
-Unbeatable strategy for Abarene: Intoxicating Dash (Dizziness, Pain Spike): 1.75
-Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Nausea, Pain Spike): 1.70
-Unbeatable strategy for Abarene: Intoxicating Dash (Dizziness, Fatigue, Pain Spike): 1.10
-Unbeatable strategy for Abarene: Intoxicating Dash (Dizziness, Nausea, Pain Spike): 1.60
-Unbeatable strategy for Abarene: Intoxicating Dash (Dizziness, Fatigue, Nausea, Pain Spike): 0.95
-Unbeatable strategy for Abarene: Barbed Dash: 0.06
-Unbeatable strategy for Abarene: Barbed Dash (Nausea): 0.06
-Unbeatable strategy for Abarene: Barbed Dash (Pain Spike): 1.45
-Unbeatable strategy for Abarene: Barbed Dash (Fatigue, Pain Spike): 0.80
-Unbeatable strategy for Abarene: Barbed Dash (Nausea, Pain Spike): 1.30
-Unbeatable strategy for Abarene: Barbed Dash (Dizziness, Pain Spike): 0.70
-Unbeatable strategy for Abarene: Barbed Dash (Fatigue, Nausea, Pain Spike): 0.65
-Unbeatable strategy for Abarene: Barbed Dash (Dizziness, Fatigue, Pain Spike): 0.05
-Unbeatable strategy for Abarene: Barbed Dash (Dizziness, Nausea, Pain Spike): 0.55
-Unbeatable strategy for Abarene: Crippling Dash (Pain Spike): 0.93
-Unbeatable strategy for Abarene: Crippling Dash (Nausea, Pain Spike): 0.78
-Unbeatable strategy for Abarene: Crippling Dash (Dizziness, Pain Spike): 0.18
-Unbeatable strategy for Abarene: Crippling Dash (Dizziness, Nausea, Pain Spike): 0.03
+Unbeatable strategy for Abarene: Intoxicating Strike (Fatigue): 0.20
 
 Abarene:
-9% Intoxicating Strike (Dizziness, Pain Spike)
-2% Intoxicating Shot (Pain Spike)
-2% Intoxicating Shot (Nausea, Pain Spike)
-2% Intoxicating Shot (Dizziness, Pain Spike)
-85% Intoxicating Dash (Pain Spike)
+5% Intoxicating Strike
+26% Intoxicating Strike (Dizziness)
+27% Intoxicating Strike (Fatigue)
+2% Intoxicating Dash
+11% Intoxicating Dash (Dizziness)
+2% Intoxicating Dash (Fatigue)
+15% Crippling Shot
+12% Crippling Shot (Fatigue)
 
 Eligor:
-2% Vengeful Drive
-9% Vengeful Burst (1 token)
-37% Martial Drive (3 tokens)
-3% Martial Burst (2 tokens)
-50% Chained Drive
+52% Martial Aegis (4 tokens)
+7% Martial Strike
+19% Martial Burst
+22% Retribution Aegis (2 tokens)
 
 
-Abarene: Intoxicating Dash (Pain Spike)
-Eligor: Martial Burst (2 tokens)
+Abarene: Intoxicating Strike (Fatigue)
+Eligor: Martial Aegis (4 tokens)
 
-Abarene antes a Pain Spike token
-Eligor loses 3 life (now at 9)
+Abarene antes a Fatigue token
 Eligor antes a Vengeance token
 Eligor antes a Vengeance token
-Priorities:  10 | 0
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  4 | -3
 Abarene is active
-Abarene recovers a Pain Spike token
-Eligor moves:
-
-A..E...
-
-Abarene moves:
-
-..AE...
-
+Abarene recovers a Fatigue token
+Abarene misses
 Eligor misses
+Abarene recovers a Nausea token
 
 Beat 9
 -------
 
 Abarene
 -------
-Life: 15
-Discard 1: Intoxicating Dash
-Discard 2: Pestilent Thorns
+Life: 17
+Discard 1: Intoxicating Strike
+Discard 2: Pestilent Grasp
 Special action available
-pool: Dizziness, Fatigue, Nausea, Pain Spike
+pool: Dizziness, Fatigue, Nausea
 
 Eligor
 ------
-Life: 9
-Discard 1: Martial Burst
-Discard 2: Retribution Aegis
+Life: 1
+Discard 1: Martial Aegis
+Discard 2: Counter Grasp
 Special action available
-2 Vengeance tokens
+0 Vengeance tokens
 
 
-..AE...
+A.....E
 
 Abarene:
-38% Barbed Drive (Dizziness, Pain Spike)
-11% Barbed Burst (Nausea, Pain Spike)
-36% Barbed Grasp (Dizziness, Fatigue, Nausea, Pain Spike)
-15% Crippling Drive (Nausea, Pain Spike)
+30% Crippling Thorns
+40% Crippling Thorns (Dizziness, Fatigue, Nausea)
+31% Crippling Shot
 
 Eligor:
-35% Vengeful Shot
-8% Counter Shot (1 token)
-20% Counter Dash (1 token)
-37% Chained Dash
+17% Chained Strike
+15% Chained Burst
+68% Special Pulse
 
 
-Abarene: Barbed Drive (Dizziness, Pain Spike)
-Eligor: Counter Shot (1 token)
+Abarene: Crippling Thorns
+Eligor: Chained Strike
 
-Abarene antes a Dizziness token
-Abarene antes a Pain Spike token
-Eligor loses 3 life (now at 6)
-Eligor antes a Vengeance token
-Priorities:  5 | 1
-Abarene is active
+Priorities:  0 | 2
+Eligor is active
+Eligor misses
 Abarene moves:
 
-...EA..
+..A...E
 
-Abarene hits
-Abarene recovers a Pain Spike token
-Abarene moves Eligor:
-
-....AE.
-
-Eligor loses 2 life (now at 4)
-Eligor takes 2 damage (now at 2 life)
-Eligor gains 2 Vengeance tokens
-Eligor hits
-Abarene takes 2 damage (now at 13 life)
-Abarene is stunned
+Abarene misses
 
 Beat 10
 -------
 
 Abarene
 -------
-Life: 13
-Discard 1: Barbed Drive
-Discard 2: Intoxicating Dash
+Life: 17
+Discard 1: Crippling Thorns
+Discard 2: Intoxicating Strike
 Special action available
-pool: Fatigue, Nausea, Pain Spike
+pool: Dizziness, Fatigue, Nausea
 
 Eligor
 ------
-Life: 2
-Discard 1: Counter Shot
-Discard 2: Martial Burst
+Life: 1
+Discard 1: Chained Strike
+Discard 2: Martial Aegis
 Special action available
-3 Vengeance tokens
+0 Vengeance tokens
 
 
-....AE.
-
-Unbeatable strategy for Abarene: Crippling Strike (Nausea): 0.01
-Unbeatable strategy for Abarene: Crippling Strike (Nausea, Pain Spike): 0.45
-Unbeatable strategy for Abarene: Pestilent Grasp (Nausea): 0.14
-Unbeatable strategy for Abarene: Pestilent Grasp (Nausea, Pain Spike): 0.10
+..A...E
 
 Abarene:
-4% Crippling Thorns (Nausea, Pain Spike)
-3% Crippling Strike (Nausea, Pain Spike)
-1% Crippling Burst (Pain Spike)
-57% Pestilent Thorns (Nausea, Pain Spike)
-4% Pestilent Strike (Pain Spike)
-6% Pestilent Strike (Nausea, Pain Spike)
-22% Pestilent Grasp (Pain Spike)
-3% Pestilent Grasp (Fatigue, Nausea, Pain Spike)
+44% Lethal Shot
+0% Barbed Shot
+42% Pestilent Drive
+13% Pestilent Drive (Nausea)
 
 Eligor:
-38% Vengeful Dash
-2% Retribution Aegis (2 tokens)
-4% Retribution Aegis (3 tokens)
-0% Retribution Strike
-1% Retribution Drive
-1% Retribution Grasp
-10% Retribution Dash
-43% Retribution Dash (1 token)
+94% Vengeful Dash
+2% Counter Shot
+4% Retribution Shot
+0% Retribution Drive
 
 
-Abarene: Pestilent Thorns (Nausea, Pain Spike)
-Eligor: Retribution Dash
+Abarene: Lethal Shot
+Eligor: Vengeful Dash
 
-Abarene antes a Nausea token
-Abarene antes a Pain Spike token
-Eligor loses 3 life (now at 1)
-Priorities:  3 | 8
+Priorities:  2 | 9
 Eligor is active
 Eligor moves:
 
-..E.A..
+..A..E.
+
+Eligor moves:
+
+.EA....
 
 Abarene misses
-Abarene moves:
-
-..EA...
-
 
 Beat 11
 -------
 
 Abarene
 -------
-Life: 13
-Discard 1: Pestilent Thorns
-Discard 2: Barbed Drive
+Life: 17
+Discard 1: Lethal Shot
+Discard 2: Crippling Thorns
 Special action available
-pool: Fatigue
+pool: Dizziness, Fatigue, Nausea
 
 Eligor
 ------
 Life: 1
-Discard 1: Retribution Dash
-Discard 2: Counter Shot
+Discard 1: Vengeful Dash
+Discard 2: Chained Strike
 Special action available
-3 Vengeance tokens
+0 Vengeance tokens
 
 
-..EA...
+.EA....
+
+Unbeatable strategy for Abarene: Barbed Strike (Fatigue): 6.00
+Unbeatable strategy for Abarene: Barbed Strike (Dizziness, Fatigue): 6.00
+Unbeatable strategy for Abarene: Barbed Strike (Fatigue, Nausea): 6.00
+Unbeatable strategy for Abarene: Barbed Strike (Dizziness, Fatigue, Nausea): 6.00
+Unbeatable strategy for Abarene: Pestilent Strike (Fatigue): 6.00
+Unbeatable strategy for Abarene: Pestilent Strike (Dizziness, Fatigue): 6.00
+Unbeatable strategy for Abarene: Pestilent Strike (Fatigue, Nausea): 6.00
+Unbeatable strategy for Abarene: Pestilent Strike (Dizziness, Fatigue, Nausea): 6.00
 
 Abarene:
-26% Lethal Burst
-28% Intoxicating Shot (Fatigue)
-10% Intoxicating Burst (Fatigue)
-20% Crippling Grasp (Fatigue)
-16% Crippling Dash
+1% Intoxicating Strike (Fatigue)
+31% Intoxicating Drive (Nausea)
+24% Intoxicating Burst (Fatigue, Nausea)
+14% Barbed Grasp (Nausea)
+10% Pestilent Strike (Dizziness)
+13% Pestilent Strike (Dizziness, Fatigue)
+3% Pestilent Burst (Fatigue)
+3% Pestilent Grasp (Nausea)
 
 Eligor:
-5% Vengeful Aegis (3 tokens)
-6% Vengeful Drive
-10% Vengeful Grasp
-45% Chained Burst
-35% Special Sweet Revenge (1 token)
+23% Counter Drive
+11% Counter Burst
+14% Counter Grasp
+3% Retribution Shot
+4% Retribution Burst
+4% Retribution Grasp
+24% Special Pulse
+18% Special Sweet Revenge
 
 
-Abarene: Intoxicating Shot (Fatigue)
-Eligor: Special Sweet Revenge (1 token)
+Abarene: Pestilent Strike (Dizziness)
+Eligor: Retribution Grasp
 
-Abarene antes a Fatigue token
-Eligor antes a Vengeance token
-Priorities:  3 | -2
+Abarene antes a Dizziness token
+Priorities:  4 | 4
+Clash!
+
+Abarene:
+100% Pestilent Dash (Dizziness)
+
+Eligor:
+100% Retribution Drive
+
+
+Abarene: Pestilent Dash (Dizziness)
+Eligor: Retribution Drive
+
+Abarene antes a Dizziness token
+Priorities:  10 | 3
 Abarene is active
-Abarene recovers a Fatigue token
-Abarene hits
-Abarene recovers a Nausea token
-Eligor takes 4 damage (now at 1 life)
-Eligor gains 3 Vengeance tokens
-Eligor hits
-Abarene takes 12 damage (now at 1 life)
-Abarene is stunned
+Abarene moves:
+
+AE.....
+
 Abarene recovers a Pain Spike token
+Abarene moves:
+
+.EA....
+
+Eligor moves:
+
+..AE...
+
+Eligor misses
 
 Beat 12
 -------
 
 Abarene
 -------
-Life: 1
-Discard 1: Intoxicating Shot
-Discard 2: Pestilent Thorns
+Life: 17
+Discard 1: Pestilent Dash
+Discard 2: Lethal Shot
 Special action available
 pool: Fatigue, Nausea, Pain Spike
 
 Eligor
 ------
 Life: 1
-Discard 1: Retribution Dash
-Discard 2: Counter Shot
-5 Vengeance tokens
+Discard 1: Retribution Drive
+Discard 2: Vengeful Dash
+Special action available
+0 Vengeance tokens
 
 
-..EA...
+..AE...
+
+Unbeatable strategy for Abarene: Intoxicating Thorns (Fatigue, Nausea): 6.00
+Unbeatable strategy for Abarene: Intoxicating Thorns (Fatigue, Pain Spike): 6.00
+Unbeatable strategy for Abarene: Intoxicating Thorns (Nausea, Pain Spike): 6.00
+Unbeatable strategy for Abarene: Intoxicating Thorns (Fatigue, Nausea, Pain Spike): 6.00
+Unbeatable strategy for Abarene: Intoxicating Drive: 6.00
+Unbeatable strategy for Abarene: Intoxicating Drive (Fatigue): 6.00
+Unbeatable strategy for Abarene: Intoxicating Drive (Nausea): 6.00
+Unbeatable strategy for Abarene: Intoxicating Drive (Pain Spike): 6.00
+Unbeatable strategy for Abarene: Intoxicating Drive (Fatigue, Nausea): 6.00
+Unbeatable strategy for Abarene: Intoxicating Drive (Fatigue, Pain Spike): 6.00
+Unbeatable strategy for Abarene: Intoxicating Drive (Nausea, Pain Spike): 6.00
+Unbeatable strategy for Abarene: Intoxicating Drive (Fatigue, Nausea, Pain Spike): 6.00
+Unbeatable strategy for Abarene: Barbed Thorns (Fatigue): 6.00
+Unbeatable strategy for Abarene: Barbed Thorns (Nausea): 6.00
+Unbeatable strategy for Abarene: Barbed Thorns (Pain Spike): 6.00
+Unbeatable strategy for Abarene: Barbed Thorns (Fatigue, Nausea): 6.00
+Unbeatable strategy for Abarene: Barbed Thorns (Fatigue, Pain Spike): 6.00
+Unbeatable strategy for Abarene: Barbed Thorns (Nausea, Pain Spike): 6.00
+Unbeatable strategy for Abarene: Barbed Thorns (Fatigue, Nausea, Pain Spike): 6.00
+Unbeatable strategy for Abarene: Barbed Drive: 6.00
+Unbeatable strategy for Abarene: Barbed Drive (Fatigue): 6.00
+Unbeatable strategy for Abarene: Barbed Drive (Nausea): 6.00
+Unbeatable strategy for Abarene: Barbed Drive (Pain Spike): 6.00
+Unbeatable strategy for Abarene: Barbed Drive (Fatigue, Nausea): 6.00
+Unbeatable strategy for Abarene: Barbed Drive (Fatigue, Pain Spike): 6.00
+Unbeatable strategy for Abarene: Barbed Drive (Nausea, Pain Spike): 6.00
+Unbeatable strategy for Abarene: Barbed Drive (Fatigue, Nausea, Pain Spike): 6.00
 
 Abarene:
-24% Barbed Burst (Nausea)
-29% Barbed Burst (Fatigue, Nausea)
-2% Crippling Strike (Nausea)
+2% Intoxicating Thorns (Fatigue, Nausea)
+2% Intoxicating Thorns (Fatigue, Pain Spike)
+3% Intoxicating Thorns (Nausea, Pain Spike)
+2% Intoxicating Thorns (Fatigue, Nausea, Pain Spike)
+3% Intoxicating Drive
+3% Intoxicating Drive (Fatigue)
+37% Intoxicating Drive (Nausea)
+3% Intoxicating Drive (Pain Spike)
+1% Intoxicating Drive (Fatigue, Nausea)
+3% Intoxicating Drive (Fatigue, Pain Spike)
+1% Intoxicating Drive (Nausea, Pain Spike)
+2% Intoxicating Drive (Fatigue, Nausea, Pain Spike)
+1% Barbed Thorns (Fatigue)
+1% Barbed Thorns (Nausea)
+1% Barbed Thorns (Pain Spike)
+1% Barbed Thorns (Fatigue, Nausea)
+1% Barbed Thorns (Fatigue, Pain Spike)
+1% Barbed Thorns (Nausea, Pain Spike)
+1% Barbed Thorns (Fatigue, Nausea, Pain Spike)
+2% Barbed Drive
+1% Barbed Drive (Fatigue)
+1% Barbed Drive (Nausea)
+1% Barbed Drive (Pain Spike)
+1% Barbed Drive (Fatigue, Nausea)
+1% Barbed Drive (Fatigue, Pain Spike)
+1% Barbed Drive (Nausea, Pain Spike)
+1% Barbed Drive (Fatigue, Nausea, Pain Spike)
+3% Crippling Thorns (Fatigue)
+3% Crippling Thorns (Fatigue, Nausea)
+3% Crippling Thorns (Fatigue, Pain Spike)
+2% Crippling Thorns (Fatigue, Nausea, Pain Spike)
+3% Crippling Drive (Fatigue)
 2% Crippling Drive (Fatigue, Nausea)
-13% Crippling Grasp (Nausea)
-8% Special Flytrap
-8% Special Flytrap (Fatigue)
-8% Special Flytrap (Pain Spike)
-8% Special Flytrap (Fatigue, Pain Spike)
+2% Crippling Drive (Fatigue, Pain Spike)
+2% Crippling Drive (Fatigue, Nausea, Pain Spike)
 
 Eligor:
-5% Martial Aegis (3 tokens)
-5% Martial Aegis (4 tokens)
-55% Martial Aegis (5 tokens)
-1% Martial Drive
-1% Martial Drive (1 token)
-1% Martial Drive (2 tokens)
-1% Martial Drive (3 tokens)
-3% Martial Drive (4 tokens)
-0% Martial Grasp (5 tokens)
-30% Chained Burst
+2% Counter Aegis
+15% Counter Strike
+2% Counter Shot
+35% Counter Burst
+13% Counter Grasp
+2% Martial Aegis
+3% Martial Strike
+2% Martial Shot
+9% Martial Burst
+6% Martial Grasp
+2% Chained Aegis
+2% Chained Strike
+2% Chained Shot
+3% Chained Burst
+2% Chained Grasp
 
 
-Abarene: Barbed Burst (Fatigue, Nausea)
-Eligor: Chained Burst
+Abarene: Intoxicating Drive (Nausea)
+Eligor: Counter Burst
 
-Abarene antes a Fatigue token
 Abarene antes a Nausea token
-Priorities:  2 | -2
+Priorities:  5 | 0
 Abarene is active
-Abarene moves:
-
-..E.A..
-
+Abarene recovers a Nausea token
 Eligor moves:
 
-E...A..
+..A.E..
+
+Abarene moves:
+
+...AE..
 
 Abarene hits
 Abarene recovers a Dizziness token
-Abarene moves Eligor:
-
-.E..A..
-
-Eligor takes 2 damage (now at 0 life)
+Eligor takes 4 damage (now at 0 life)
 ABARENE WINS!
-total_time: 308
+total_time: 483

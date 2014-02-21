@@ -25,9 +25,9 @@ Discard 2: Impact Strike
 Special action available
 Active artifacts: 
   Hover Boots
+  Phase Goggles
   Shield Amulet
   Autodeflector
-  Phase Goggles
   Battlefist
 
 
@@ -46,16 +46,12 @@ Runika:
 
 
 Abarene: Pestilent Dash
-Runika: Overcharged Drive
+Runika: Overcharged Shot
 
-Priorities:  10 | 6
+Priorities:  10 | 4
 Abarene is active
 Runika overcharges her Hover Boots
 Runika becomes the active player
-Runika moves:
-
-.A.R...
-
 Runika hits
 Abarene takes 4 damage (now at 16 life)
 Abarene is stunned
@@ -75,59 +71,48 @@ pool: Fatigue
 Runika
 ------
 Life: 20
-Discard 1: Overcharged Drive
+Discard 1: Overcharged Shot
 Discard 2: Channeled Grasp
 Special action available
 Active artifacts: 
-  Shield Amulet
   Autodeflector
   Phase Goggles
   Battlefist
+  Shield Amulet
 Removed artifacts: 
   Hover Boots
 
 
-.A.R...
-
-Abarene:
-13% Barbed Shot
-22% Barbed Drive
-19% Barbed Burst
-30% Barbed Grasp
-6% Crippling Drive
-9% Crippling Burst (Fatigue)
-
-Runika:
-41% Maintenance Tinker
-15% Maintenance Burst
-11% Maintenance Dash
-6% Explosive Tinker
-19% Explosive Dash
-10% Impact Tinker
-
-
-Abarene: Barbed Shot
-Runika: Maintenance Dash
-
-Priorities:  3 | 8
-Runika is active
-Runika moves:
-
-.A..R..
-
-Runika moves:
-
 .A...R.
 
+Abarene:
+34% Intoxicating Shot (Fatigue)
+25% Barbed Shot
+7% Crippling Thorns (Fatigue)
+23% Crippling Drive
+10% Crippling Burst
+
+Runika:
+44% Maintenance Tinker
+8% Maintenance Drive
+0% Explosive Drive
+3% Impact Drive
+44% Impact Dash
+
+
+Abarene: Intoxicating Shot (Fatigue)
+Runika: Impact Drive
+
+Abarene antes a Fatigue token
+Priorities:  3 | 2
+Abarene is active
+Abarene recovers a Fatigue token
 Abarene hits
-Abarene recovers a Nausea token
-Abarene moves Runika:
-
-.A..R..
-
+Abarene recovers a Dizziness token
 Autodeflector is de-activated
-Runika has 1 soak
-Runika takes 1 damage (now at 19 life)
+Runika takes 4 damage (now at 16 life)
+Runika is stunned
+Abarene recovers a Nausea token
 
 Beat 3
 -------
@@ -135,63 +120,57 @@ Beat 3
 Abarene
 -------
 Life: 16
-Discard 1: Barbed Shot
+Discard 1: Intoxicating Shot
 Discard 2: Pestilent Dash
 Special action available
-pool: Fatigue, Nausea
+pool: Dizziness, Fatigue, Nausea
 
 Runika
 ------
-Life: 19
-Discard 1: Maintenance Dash
-Discard 2: Overcharged Drive
+Life: 16
+Discard 1: Impact Drive
+Discard 2: Overcharged Shot
 Special action available
 Active artifacts: 
+  Phase Goggles
   Shield Amulet
   Battlefist
-  Phase Goggles
 Removed artifacts: 
   Hover Boots
 
 
-.A..R..
+.A...R.
 
 Abarene:
-12% Intoxicating Thorns (Fatigue, Nausea)
-9% Intoxicating Drive (Nausea)
-46% Crippling Strike (Fatigue)
-21% Crippling Strike (Nausea)
-7% Crippling Strike (Fatigue, Nausea)
-5% Crippling Grasp
-1% Crippling Grasp (Nausea)
+16% Lethal Strike
+26% Barbed Thorns (Dizziness, Fatigue, Nausea)
+58% Crippling Drive
 
 Runika:
-4% Channeled Tinker
-39% Channeled Shot
-5% Channeled Burst
-2% Explosive Grasp
-1% Impact Tinker
-21% Impact Strike
-27% Special Pulse
+27% Maintenance Tinker
+12% Maintenance Strike
+62% Explosive Dash
 
 
-Abarene: Crippling Strike (Fatigue)
-Runika: Channeled Burst
+Abarene: Barbed Thorns (Dizziness, Fatigue, Nausea)
+Runika: Explosive Dash
 
+Abarene antes a Dizziness token
 Abarene antes a Fatigue token
-Priorities:  1 | 0
-Abarene is active
-Autodeflector is activated
-Abarene moves:
+Abarene antes a Nausea token
+Priorities:  3 | 7
+Runika is active
+Runika moves Abarene:
 
-...AR..
+..A..R.
 
-Abarene hits
-Abarene recovers a Fatigue token
-Autodeflector is de-activated
-Runika takes 5 damage (now at 14 life)
-Runika is stunned
-Battlefist is de-activated
+Runika moves:
+
+.RA....
+
+Runika loses 2 life (now at 14)
+Runika loses 2 life (now at 12)
+Abarene misses
 
 Beat 4
 -------
@@ -199,171 +178,216 @@ Beat 4
 Abarene
 -------
 Life: 16
-Discard 1: Crippling Strike
-Discard 2: Barbed Shot
+Discard 1: Barbed Thorns
+Discard 2: Intoxicating Shot
 Special action available
-pool: Fatigue, Nausea
+pool: 
 
 Runika
 ------
-Life: 14
-Discard 1: Channeled Burst
-Discard 2: Maintenance Dash
+Life: 12
+Discard 1: Explosive Dash
+Discard 2: Impact Drive
 Special action available
 Active artifacts: 
-  Shield Amulet
   Phase Goggles
+  Shield Amulet
+  Battlefist
 Removed artifacts: 
   Hover Boots
 
 
-...AR..
+.RA....
 
-Unbeatable strategy for Abarene: Intoxicating Drive (Fatigue): 2.90
-Unbeatable strategy for Abarene: Intoxicating Drive (Fatigue, Nausea): 3.17
-Unbeatable strategy for Abarene: Intoxicating Grasp: 2.00
-Unbeatable strategy for Abarene: Intoxicating Grasp (Nausea): 2.00
-Unbeatable strategy for Abarene: Intoxicating Grasp (Fatigue): 2.00
-Unbeatable strategy for Abarene: Intoxicating Grasp (Fatigue, Nausea): 0.37
-Unbeatable strategy for Abarene: Pestilent Drive (Fatigue, Nausea): 0.91
+Unbeatable strategy for Runika: Channeled Shot: -0.37
+Unbeatable strategy for Runika: Maintenance Tinker: -0.01
 
 Abarene:
-8% Lethal Thorns (Fatigue)
-1% Intoxicating Thorns (Nausea)
-72% Intoxicating Thorns (Fatigue, Nausea)
-18% Intoxicating Burst (Nausea)
+33% Pestilent Strike
+30% Pestilent Drive
+8% Pestilent Burst
+29% Pestilent Grasp
 
 Runika:
-43% Explosive Tinker
-4% Explosive Grasp
-27% Impact Tinker
-26% Impact Grasp
+25% Channeled Shot
+15% Channeled Grasp
+43% Maintenance Tinker
+17% Overcharged Tinker
 
 
-Abarene: Intoxicating Burst (Nausea)
-Runika: Explosive Tinker
+Abarene: Pestilent Strike
+Runika: Maintenance Tinker
 
-Abarene antes a Nausea token
-Priorities:  2 | 3
-Runika is active
-Abarene recovers a Nausea token
-Abarene moves:
-
-..A.R..
-
-Runika misses
-Autodeflector is activated
+Priorities:  4 | 2
+Abarene is active
 Abarene hits
-Abarene recovers a Dizziness token
+Abarene recovers a Fatigue token
 Shield Amulet is de-activated
 Runika has 2 soak
-Runika takes 2 damage (now at 12 life)
-Abarene recovers a Pain Spike token
+Runika takes 1 damage (now at 11 life)
+Abarene moves:
+
+AR.....
+
+Abarene recovers a Nausea token
+Runika hits
+Abarene takes 3 damage (now at 13 life)
+Autodeflector is activated
+Runika moves:
+
+A.R....
+
 
 Beat 5
 -------
 
 Abarene
 -------
-Life: 16
-Discard 1: Intoxicating Burst
-Discard 2: Crippling Strike
+Life: 13
+Discard 1: Pestilent Strike
+Discard 2: Barbed Thorns
 Special action available
-pool: Dizziness, Fatigue, Nausea, Pain Spike
+pool: Fatigue, Nausea
 
 Runika
 ------
-Life: 12
-Discard 1: Explosive Tinker
-Discard 2: Channeled Burst
+Life: 11
+Discard 1: Maintenance Tinker
+Discard 2: Explosive Dash
 Special action available
 Active artifacts: 
   Phase Goggles
+  Battlefist
   Autodeflector
 Removed artifacts: 
   Hover Boots
 
 
-..A.R..
-
-Unbeatable strategy for Abarene: Lethal Drive (Fatigue, Pain Spike): 0.67
-Unbeatable strategy for Abarene: Lethal Drive (Fatigue, Nausea, Pain Spike): 0.38
-Unbeatable strategy for Abarene: Barbed Drive (Fatigue): 1.07
-Unbeatable strategy for Abarene: Barbed Drive (Fatigue, Nausea): 1.18
-Unbeatable strategy for Abarene: Barbed Drive (Dizziness, Fatigue): 1.77
-Unbeatable strategy for Abarene: Barbed Drive (Dizziness, Fatigue, Nausea): 1.59
-Unbeatable strategy for Abarene: Barbed Drive (Fatigue, Nausea, Pain Spike): 0.07
-Unbeatable strategy for Abarene: Barbed Drive (Dizziness, Fatigue, Pain Spike): 0.96
-Unbeatable strategy for Abarene: Barbed Drive (Dizziness, Fatigue, Nausea, Pain Spike): 1.09
-Unbeatable strategy for Abarene: Barbed Grasp (Pain Spike): 1.25
-Unbeatable strategy for Abarene: Barbed Grasp (Nausea, Pain Spike): 0.97
-Unbeatable strategy for Abarene: Barbed Grasp (Dizziness, Pain Spike): 0.37
-Unbeatable strategy for Abarene: Barbed Grasp (Dizziness, Nausea, Pain Spike): 0.09
-Unbeatable strategy for Abarene: Barbed Dash (Pain Spike): 0.38
-Unbeatable strategy for Abarene: Barbed Dash (Nausea, Pain Spike): 0.09
-Unbeatable strategy for Abarene: Pestilent Drive (Fatigue, Pain Spike): 0.21
-Unbeatable strategy for Abarene: Pestilent Drive (Fatigue, Nausea, Pain Spike): 0.05
-Unbeatable strategy for Abarene: Pestilent Grasp (Pain Spike): 1.56
-Unbeatable strategy for Abarene: Pestilent Grasp (Nausea, Pain Spike): 1.07
-Unbeatable strategy for Abarene: Pestilent Grasp (Dizziness, Pain Spike): 0.77
-Unbeatable strategy for Abarene: Pestilent Grasp (Dizziness, Nausea, Pain Spike): 0.32
-Unbeatable strategy for Abarene: Pestilent Dash (Pain Spike): 1.43
-Unbeatable strategy for Abarene: Pestilent Dash (Nausea, Pain Spike): 0.32
-Unbeatable strategy for Abarene: Pestilent Dash (Dizziness, Pain Spike): 0.22
+A.R....
 
 Abarene:
-20% Barbed Drive (Nausea)
-48% Barbed Drive (Dizziness)
-17% Barbed Drive (Pain Spike)
-12% Barbed Grasp (Pain Spike)
-2% Pestilent Grasp (Fatigue, Pain Spike)
+11% Lethal Shot (Fatigue, Nausea)
+43% Intoxicating Shot (Fatigue)
+2% Intoxicating Shot (Fatigue, Nausea)
+44% Intoxicating Drive (Fatigue)
 
 Runika:
-11% Maintenance Strike
-24% Maintenance Shot
-18% Maintenance Dash
-28% Impact Dash
-20% Overcharged Dash
+70% Channeled Shot
+6% Channeled Drive
+10% Channeled Grasp
+14% Overcharged Burst
 
 
-Abarene: Barbed Drive (Dizziness)
-Runika: Impact Dash
+Abarene: Intoxicating Drive (Fatigue)
+Runika: Channeled Shot
 
-Abarene antes a Dizziness token
-Priorities:  5 | 9
-Runika is active
-Runika moves:
-
-..AR...
-
-Runika loses 2 life (now at 10)
-Runika moves:
-
-R.A....
-
-Runika loses 2 life (now at 8)
+Abarene antes a Fatigue token
+Priorities:  5 | 1
+Abarene is active
+Abarene recovers a Fatigue token
+Shield Amulet is activated
 Abarene moves:
 
-RA.....
+..RA...
 
-Abarene misses
+Abarene hits
+Abarene recovers a Dizziness token
+Battlefist is de-activated
+Runika has 2 soak
+Runika takes 2 damage (now at 9 life)
+Runika hits
+Abarene takes 4 damage (now at 9 life)
+Abarene is stunned
+Abarene recovers a Pain Spike token
+Shield Amulet is de-activated
 
 Beat 6
 -------
 
 Abarene
 -------
-Life: 16
-Discard 1: Barbed Drive
-Discard 2: Intoxicating Burst
+Life: 9
+Discard 1: Intoxicating Drive
+Discard 2: Pestilent Strike
 Special action available
-pool: Fatigue, Nausea, Pain Spike
+pool: Dizziness, Fatigue, Nausea, Pain Spike
 
 Runika
 ------
-Life: 8
-Discard 1: Impact Dash
-Discard 2: Explosive Tinker
+Life: 9
+Discard 1: Channeled Shot
+Discard 2: Maintenance Tinker
+Special action available
+Active artifacts: 
+  Phase Goggles
+  Autodeflector
+Removed artifacts: 
+  Hover Boots
+
+
+..RA...
+
+Unbeatable strategy for Abarene: Lethal Thorns (Dizziness): 0.78
+Unbeatable strategy for Abarene: Lethal Thorns (Dizziness, Nausea): 0.49
+Unbeatable strategy for Abarene: Lethal Thorns (Dizziness, Pain Spike): 0.09
+Unbeatable strategy for Abarene: Lethal Grasp (Dizziness, Fatigue, Pain Spike): 0.13
+Unbeatable strategy for Abarene: Barbed Burst (Dizziness, Nausea, Pain Spike): 0.11
+
+Abarene:
+6% Lethal Thorns (Dizziness, Fatigue, Pain Spike)
+29% Lethal Thorns (Fatigue, Nausea, Pain Spike)
+39% Lethal Dash (Dizziness, Pain Spike)
+21% Barbed Thorns (Dizziness, Pain Spike)
+3% Barbed Thorns (Fatigue, Nausea, Pain Spike)
+2% Barbed Grasp (Nausea)
+0% Barbed Grasp (Nausea, Pain Spike)
+
+Runika:
+17% Explosive Strike
+5% Explosive Drive
+3% Explosive Burst
+50% Explosive Dash
+18% Overcharged Drive
+6% Overcharged Grasp
+1% Special Artifice Avarice
+
+
+Abarene: Barbed Thorns (Fatigue, Nausea, Pain Spike)
+Runika: Explosive Dash
+
+Abarene antes a Fatigue token
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Runika loses 3 life (now at 6)
+Priorities:  3 | 7
+Runika is active
+Runika moves Abarene:
+
+.AR....
+
+Runika moves:
+
+RA.....
+
+Runika loses 2 life (now at 4)
+Abarene misses
+
+Beat 7
+-------
+
+Abarene
+-------
+Life: 9
+Discard 1: Barbed Thorns
+Discard 2: Intoxicating Drive
+Special action available
+pool: Dizziness
+
+Runika
+------
+Life: 4
+Discard 1: Explosive Dash
+Discard 2: Channeled Shot
 Special action available
 Active artifacts: 
   Phase Goggles
@@ -374,318 +398,321 @@ Removed artifacts:
 
 RA.....
 
-Abarene:
-26% Crippling Strike (Pain Spike)
-8% Pestilent Grasp (Nausea)
-54% Pestilent Grasp (Pain Spike)
-12% Pestilent Grasp (Fatigue, Nausea)
-
-Runika:
-7% Channeled Strike
-12% Channeled Grasp
-37% Maintenance Shot
-43% Maintenance Drive
-
-
-Abarene: Pestilent Grasp (Pain Spike)
-Runika: Maintenance Shot
-
-Abarene antes a Pain Spike token
-Runika loses 3 life (now at 5)
-Priorities:  6 | 1
-Abarene is active
-Abarene hits
-Abarene recovers a Dizziness token
-Abarene moves Runika:
-
-.AR....
-
-Phase Goggles is de-activated
-Runika has 5 soak
-Runika takes 0 damage (now at 5 life)
-Abarene moves:
-
-..R.A..
-
-Abarene recovers a Pain Spike token
-Runika hits
-Abarene takes 2 damage (now at 14 life)
-Abarene is stunned
-Runika moves:
-
-R...A..
-
-
-Beat 7
--------
-
-Abarene
--------
-Life: 14
-Discard 1: Pestilent Grasp
-Discard 2: Barbed Drive
-Special action available
-pool: Dizziness, Fatigue, Nausea, Pain Spike
-
-Runika
-------
-Life: 5
-Discard 1: Maintenance Shot
-Discard 2: Impact Dash
-Special action available
-Active artifacts: 
-  Autodeflector
-Removed artifacts: 
-  Hover Boots
-
-
-R...A..
-
-Unbeatable strategy for Abarene: Crippling Thorns (Pain Spike): 2.20
-Unbeatable strategy for Abarene: Crippling Thorns (Nausea, Pain Spike): 2.20
-Unbeatable strategy for Abarene: Crippling Thorns (Dizziness, Pain Spike): 2.20
-Unbeatable strategy for Abarene: Crippling Thorns (Dizziness, Nausea, Pain Spike): 1.80
-Unbeatable strategy for Abarene: Crippling Shot (Nausea, Pain Spike): 1.92
-Unbeatable strategy for Abarene: Crippling Shot (Dizziness, Pain Spike): 1.72
-Unbeatable strategy for Abarene: Crippling Shot (Dizziness, Nausea, Pain Spike): 1.15
-Unbeatable strategy for Abarene: Crippling Burst: 0.27
-Unbeatable strategy for Abarene: Crippling Burst (Nausea): 0.27
-Unbeatable strategy for Abarene: Crippling Burst (Dizziness): 0.27
-Unbeatable strategy for Abarene: Crippling Burst (Pain Spike): 3.97
-Unbeatable strategy for Abarene: Crippling Burst (Nausea, Pain Spike): 3.48
-Unbeatable strategy for Abarene: Crippling Burst (Dizziness, Pain Spike): 3.28
-Unbeatable strategy for Abarene: Crippling Burst (Dizziness, Nausea, Pain Spike): 2.65
+Unbeatable strategy for Abarene: Pestilent Grasp: 0.64
+Unbeatable strategy for Abarene: Pestilent Grasp (Dizziness): 0.19
 
 Abarene:
-13% Lethal Strike (Pain Spike)
-12% Intoxicating Thorns (Fatigue, Nausea, Pain Spike)
-12% Intoxicating Thorns (Dizziness, Fatigue, Pain Spike)
-1% Intoxicating Shot (Pain Spike)
-9% Intoxicating Shot (Fatigue, Pain Spike)
-53% Intoxicating Burst (Pain Spike)
+22% Lethal Grasp
+4% Crippling Strike (Dizziness)
+6% Crippling Grasp (Dizziness)
+56% Pestilent Burst (Dizziness)
+12% Pestilent Grasp (Dizziness)
 
 Runika:
-5% Channeled Tinker
-0% Channeled Drive
-6% Explosive Tinker
-15% Overcharged Tinker
-75% Special Artifice Avarice
+37% Maintenance Tinker
+15% Impact Tinker
+2% Impact Strike
+21% Overcharged Tinker
+24% Special Artifice Avarice
 
 
-Abarene: Lethal Strike (Pain Spike)
-Runika: Special Artifice Avarice
+Abarene: Crippling Strike (Dizziness)
+Runika: Overcharged Tinker
 
-Abarene antes a Pain Spike token
-Runika loses 3 life (now at 2)
-Priorities:  3 | 3
+Abarene antes a Dizziness token
+Priorities:  1 | 3
 Runika is active
+Runika overcharges her Phase Goggles
+Runika hits
+Abarene takes 1 damage (now at 8 life)
+Abarene is stunned
 Shield Amulet is activated
-Battlefist is activated
-Phase Goggles is activated
-Runika overcharges her Shield Amulet
-Runika misses
-Abarene moves:
-
-R.....A
-
-Abarene misses
+Phase Goggles is removed from the game
 
 Beat 8
 -------
 
 Abarene
 -------
-Life: 14
-Discard 1: Lethal Strike
-Discard 2: Pestilent Grasp
+Life: 8
+Discard 1: Crippling Strike
+Discard 2: Barbed Thorns
 Special action available
-pool: Dizziness, Fatigue, Nausea
+pool: 
 
 Runika
 ------
-Life: 2
-Discard 1: Maintenance Shot
-Discard 2: Impact Dash
+Life: 4
+Discard 1: Overcharged Tinker
+Discard 2: Explosive Dash
+Special action available
 Active artifacts: 
-  Shield Amulet
-  Battlefist
-  Phase Goggles
   Autodeflector
+  Shield Amulet
 Removed artifacts: 
   Hover Boots
+  Phase Goggles
 
 
-R.....A
-
-Unbeatable strategy for Abarene: Crippling Shot: 2.55
-Unbeatable strategy for Abarene: Crippling Shot (Nausea): 2.07
-Unbeatable strategy for Abarene: Crippling Shot (Dizziness): 1.87
-Unbeatable strategy for Abarene: Crippling Shot (Dizziness, Nausea): 1.24
+RA.....
 
 Abarene:
-100% Crippling Shot
+18% Intoxicating Drive
+17% Intoxicating Burst
+65% Intoxicating Grasp
 
 Runika:
-100% Overcharged Tinker
+17% Channeled Shot
+46% Channeled Drive
+37% Channeled Grasp
 
 
-Abarene: Crippling Shot
-Runika: Overcharged Tinker
+Abarene: Intoxicating Grasp
+Runika: Channeled Grasp
 
-Priorities:  0 | 3
-Runika is active
-Runika overcharges her Autodeflector
-Runika misses
-No artifacts to activate
+Priorities:  6 | 6
+Clash!
+
+Abarene:
+29% Intoxicating Drive
+71% Intoxicating Dash
+
+Runika:
+5% Channeled Shot
+95% Channeled Drive
+
+
+Abarene: Intoxicating Dash
+Runika: Channeled Drive
+
+Priorities:  10 | 5
+Abarene is active
+Battlefist is activated
 Abarene moves:
 
 R...A..
 
-Abarene hits
-Abarene recovers a Pain Spike token
+Runika moves:
+
+.R..A..
+
+Runika misses
+Abarene recovers a Nausea token
 Battlefist is de-activated
-Runika has 4 soak
-Runika takes 0 damage (now at 2 life)
-Autodeflector is removed from the game
 
 Beat 9
 -------
 
 Abarene
 -------
-Life: 14
-Discard 1: Crippling Shot
-Discard 2: Lethal Strike
+Life: 8
+Discard 1: Intoxicating Dash
+Discard 2: Crippling Strike
 Special action available
-pool: Dizziness, Fatigue, Nausea, Pain Spike
+pool: Nausea
 
 Runika
 ------
-Life: 2
-Discard 1: Overcharged Tinker
-Discard 2: Maintenance Shot
+Life: 4
+Discard 1: Channeled Drive
+Discard 2: Overcharged Tinker
+Special action available
 Active artifacts: 
+  Autodeflector
   Shield Amulet
-  Phase Goggles
 Removed artifacts: 
   Hover Boots
-  Autodeflector
+  Phase Goggles
 
+
+.R..A..
+
+Abarene:
+2% Lethal Thorns
+17% Barbed Shot
+50% Barbed Drive
+5% Barbed Drive (Nausea)
+17% Pestilent Thorns (Nausea)
+9% Pestilent Shot
+
+Runika:
+33% Maintenance Strike
+16% Maintenance Shot
+19% Maintenance Burst
+13% Explosive Grasp
+15% Explosive Dash
+4% Impact Dash
+
+
+Abarene: Barbed Drive
+Runika: Maintenance Burst
+
+Priorities:  5 | 0
+Abarene is active
+Runika moves:
 
 R...A..
 
-Unbeatable strategy for Abarene: Barbed Drive (Fatigue): 0.94
-Unbeatable strategy for Abarene: Barbed Drive (Fatigue, Nausea): 0.77
-Unbeatable strategy for Abarene: Barbed Drive (Dizziness, Fatigue): 0.17
-Unbeatable strategy for Abarene: Barbed Drive (Fatigue, Pain Spike): 0.77
-Unbeatable strategy for Abarene: Barbed Drive (Fatigue, Nausea, Pain Spike): 0.59
-Unbeatable strategy for Abarene: Pestilent Drive (Fatigue): 0.93
-Unbeatable strategy for Abarene: Pestilent Drive (Fatigue, Nausea): 0.41
-Unbeatable strategy for Abarene: Pestilent Drive (Dizziness, Fatigue): 0.31
-Unbeatable strategy for Abarene: Pestilent Drive (Fatigue, Pain Spike): 1.01
-Unbeatable strategy for Abarene: Pestilent Drive (Fatigue, Nausea, Pain Spike): 0.83
-Unbeatable strategy for Abarene: Pestilent Drive (Dizziness, Fatigue, Pain Spike): 0.23
-Unbeatable strategy for Abarene: Pestilent Drive (Dizziness, Fatigue, Nausea, Pain Spike): 0.05
+Abarene moves:
 
-Abarene:
-74% Barbed Thorns (Nausea, Pain Spike)
-21% Pestilent Drive (Pain Spike)
-5% Pestilent Burst (Pain Spike)
+R.A....
 
-Runika:
-3% Explosive Strike
-14% Explosive Dash
-84% Impact Dash
+Abarene hits
+Abarene recovers a Pain Spike token
+Abarene moves Runika:
 
+.RA....
 
-Abarene: Barbed Thorns (Nausea, Pain Spike)
-Runika: Explosive Dash
-
-Abarene antes a Nausea token
-Abarene antes a Pain Spike token
-Runika loses 3 life (now at 1)
-Priorities:  3 | 9
-Runika is active
-Runika moves Abarene:
-
-R..A...
-
+Runika loses 2 life (now at 2)
+Autodeflector is de-activated
+Runika has 2 soak
+Runika takes 0 damage (now at 2 life)
+Runika misses
 Runika moves:
 
-...AR..
+R.A....
 
-Runika loses 2 life (now at 1)
-Runika loses 2 life (now at 1)
-Abarene misses
 
 Beat 10
 -------
 
 Abarene
 -------
-Life: 14
-Discard 1: Barbed Thorns
-Discard 2: Crippling Shot
+Life: 8
+Discard 1: Barbed Drive
+Discard 2: Intoxicating Dash
 Special action available
-pool: Dizziness, Fatigue
+pool: Nausea, Pain Spike
+
+Runika
+------
+Life: 2
+Discard 1: Maintenance Burst
+Discard 2: Channeled Drive
+Special action available
+Active artifacts: 
+  Shield Amulet
+Removed artifacts: 
+  Hover Boots
+  Phase Goggles
+
+
+R.A....
+
+Unbeatable strategy for Abarene: Crippling Thorns (Nausea): 1.34
+Unbeatable strategy for Abarene: Crippling Thorns (Nausea, Pain Spike): 1.64
+Unbeatable strategy for Abarene: Crippling Strike: 1.02
+Unbeatable strategy for Abarene: Crippling Strike (Nausea): 1.26
+Unbeatable strategy for Abarene: Crippling Strike (Pain Spike): 1.37
+Unbeatable strategy for Abarene: Crippling Strike (Nausea, Pain Spike): 1.54
+Unbeatable strategy for Abarene: Pestilent Strike: 1.07
+Unbeatable strategy for Abarene: Pestilent Strike (Nausea): 1.43
+Unbeatable strategy for Abarene: Pestilent Strike (Pain Spike): 1.42
+Unbeatable strategy for Abarene: Pestilent Strike (Nausea, Pain Spike): 1.67
+Unbeatable strategy for Abarene: Pestilent Grasp: 1.13
+Unbeatable strategy for Abarene: Pestilent Grasp (Nausea): 0.94
+Unbeatable strategy for Abarene: Pestilent Grasp (Pain Spike): 1.98
+Unbeatable strategy for Abarene: Pestilent Grasp (Nausea, Pain Spike): 1.62
+
+Abarene:
+15% Lethal Thorns (Pain Spike)
+28% Lethal Thorns (Nausea, Pain Spike)
+4% Lethal Burst (Pain Spike)
+53% Lethal Grasp (Pain Spike)
+
+Runika:
+1% Explosive Tinker
+3% Explosive Strike
+8% Explosive Shot
+89% Impact Dash
+
+
+Abarene: Lethal Thorns (Nausea, Pain Spike)
+Runika: Impact Dash
+
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Runika loses 3 life (now at 1)
+Priorities:  2 | 9
+Runika is active
+Runika moves:
+
+.RA....
+
+Runika moves:
+
+..AR...
+
+Abarene moves:
+
+A..R...
+
+Abarene misses
+
+Beat 11
+-------
+
+Abarene
+-------
+Life: 8
+Discard 1: Lethal Thorns
+Discard 2: Barbed Drive
+Special action available
+pool: 
 
 Runika
 ------
 Life: 1
-Discard 1: Explosive Dash
-Discard 2: Overcharged Tinker
+Discard 1: Impact Dash
+Discard 2: Maintenance Burst
+Special action available
 Active artifacts: 
   Shield Amulet
-  Phase Goggles
 Removed artifacts: 
   Hover Boots
-  Autodeflector
+  Phase Goggles
 
 
-...AR..
+A..R...
 
-Unbeatable strategy for Abarene: Intoxicating Drive (Fatigue): 6.00
-Unbeatable strategy for Abarene: Intoxicating Drive (Dizziness, Fatigue): 6.00
-Unbeatable strategy for Abarene: Pestilent Drive (Dizziness, Fatigue): 0.14
+Unbeatable strategy for Abarene: Crippling Strike: 6.00
 
 Abarene:
-50% Intoxicating Drive (Fatigue)
-50% Intoxicating Drive (Dizziness, Fatigue)
+100% Crippling Strike
 
 Runika:
-7% Channeled Strike
-2% Channeled Shot
-8% Channeled Drive
-13% Channeled Burst
-6% Channeled Grasp
-5% Maintenance Strike
-6% Maintenance Shot
-6% Maintenance Drive
-23% Maintenance Burst
-4% Maintenance Grasp
-4% Impact Strike
-1% Impact Shot
-3% Impact Drive
-7% Impact Burst
-4% Impact Grasp
+6% Channeled Tinker
+5% Channeled Strike
+7% Channeled Shot
+7% Channeled Drive
+7% Channeled Grasp
+6% Explosive Tinker
+6% Explosive Strike
+6% Explosive Shot
+7% Explosive Drive
+6% Explosive Grasp
+6% Overcharged Tinker
+5% Overcharged Strike
+6% Overcharged Shot
+7% Overcharged Drive
+5% Overcharged Grasp
+5% Special Artifice Avarice
+4% Special Udstad Beam
 
 
-Abarene: Intoxicating Drive (Dizziness, Fatigue)
-Runika: Maintenance Grasp
+Abarene: Crippling Strike
+Runika: Explosive Strike
 
-Abarene antes a Fatigue token
-Abarene antes a Dizziness token
-Priorities:  5 | 2
-Abarene is active
-Abarene recovers a Dizziness token
+Priorities:  1 | 3
+Runika is active
+Runika misses
 Abarene moves:
 
-....RA.
+..AR...
 
 Abarene hits
-Abarene recovers a Fatigue token
+Abarene recovers a Dizziness token
 Shield Amulet is de-activated
-Runika has 2 soak
-Runika takes 2 damage (now at 0 life)
+Runika takes 5 damage (now at 0 life)
 ABARENE WINS!
-total_time: 189
+total_time: 156

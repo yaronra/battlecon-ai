@@ -23,3 +23,5 @@
     def evaluate (self):
 
     # special evaluations for cards (situation dependent, none )
+   
+    

@@ -46,20 +46,18 @@ Magdelina:
 55% Excelsius Dash
 
 
-Abarene: Crippling Shot
+Abarene: Crippling Drive
 Magdelina: Excelsius Shot
 
-Priorities:  0 | 1
-Magdelina is active
-Magdelina moves:
-
-.A..M..
-
-Magdelina hits
-Abarene takes 2 damage (now at 18 life)
+Priorities:  2 | 1
+Abarene is active
 Abarene moves:
 
-..A.M..
+..A..M.
+
+Abarene moves:
+
+....AM.
 
 Abarene hits
 Abarene recovers a Nausea token
@@ -74,8 +72,8 @@ Beat 2
 
 Abarene
 -------
-Life: 18
-Discard 1: Crippling Shot
+Life: 20
+Discard 1: Crippling Drive
 Discard 2: Lethal Strike
 Special action available
 pool: Fatigue, Nausea
@@ -90,41 +88,40 @@ Level: 1
 Trance: 0
 
 
-..A.M..
+....AM.
 
-Unbeatable strategy for Magdelina: Priestess Dash: -0.06
+Unbeatable strategy for Magdelina: Safety Dash: -0.55
+Unbeatable strategy for Magdelina: Priestess Dash: -1.55
+Unbeatable strategy for Magdelina: Sanctimonious Dash: -0.81
 
 Abarene:
-21% Intoxicating Burst (Fatigue)
-18% Intoxicating Burst (Fatigue, Nausea)
-47% Barbed Drive
-14% Barbed Drive (Fatigue)
+62% Barbed Thorns
+38% Barbed Burst
+0% Barbed Burst (Nausea)
 
 Magdelina:
-18% Priestess Blessing
-11% Priestess Grasp
-42% Priestess Dash
-29% Sanctimonious Blessing
+11% Priestess Blessing
+80% Priestess Dash
+9% Sanctimonious Blessing
 
 
-Abarene: Intoxicating Burst (Fatigue, Nausea)
-Magdelina: Sanctimonious Blessing
+Abarene: Barbed Burst
+Magdelina: Priestess Dash
 
-Abarene antes a Fatigue token
-Abarene antes a Nausea token
 Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  2 | 0
-Abarene is active
-Abarene recovers a Fatigue token
+Priorities:  2 | 9
+Magdelina is active
 Abarene moves:
 
-.A..M..
+..A..M.
 
-Abarene hits
-Abarene recovers a Nausea token
-Magdelina takes 4 damage (now at 12 life)
-Magdelina misses
-Abarene recovers a Dizziness token
+Magdelina gains 1 life (now at 17)
+Magdelina moves:
+
+..AM...
+
+Magdelina loses 2 life (now at 15)
+Abarene misses
 Magdelina gains a Trance counter: has 1
 
 Beat 3
@@ -132,52 +129,58 @@ Beat 3
 
 Abarene
 -------
-Life: 18
-Discard 1: Intoxicating Burst
-Discard 2: Crippling Shot
+Life: 20
+Discard 1: Barbed Burst
+Discard 2: Crippling Drive
 Special action available
-pool: Dizziness, Fatigue, Nausea
+pool: Fatigue, Nausea
 
 Magdelina
 ---------
-Life: 12
-Discard 1: Sanctimonious Blessing
+Life: 15
+Discard 1: Priestess Dash
 Discard 2: Excelsius Shot
 Special action available
 Level: 1
 Trance: 1
 
 
-.A..M..
+..AM...
 
 Abarene:
-21% Lethal Thorns (Dizziness, Nausea)
-28% Lethal Drive
-51% Barbed Thorns (Dizziness, Fatigue, Nausea)
+19% Intoxicating Thorns (Fatigue, Nausea)
+40% Intoxicating Shot (Fatigue)
+41% Intoxicating Grasp (Nausea)
 
 Magdelina:
-16% Priestess Grasp
-74% Priestess Dash
-10% Spiritual Drive
+63% Safety Blessing
+36% Safety Burst
+0% Spiritual Grasp
 
 
-Abarene: Barbed Thorns (Dizziness, Fatigue, Nausea)
-Magdelina: Priestess Dash
+Abarene: Intoxicating Thorns (Fatigue, Nausea)
+Magdelina: Safety Burst
 
 Abarene antes a Fatigue token
 Abarene antes a Nausea token
-Abarene antes a Dizziness token
 Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  3 | 7
-Magdelina is active
-Magdelina gains 1 life (now at 13)
+Priorities:  3 | -1
+Abarene is active
+Abarene recovers a Fatigue token
 Magdelina moves:
 
-MA.....
+..A.M..
 
-Magdelina loses 2 life (now at 11)
-Magdelina loses 2 life (now at 9)
-Abarene misses
+Abarene hits
+Abarene recovers a Dizziness token
+Abarene recovers a Nausea token
+Magdelina takes 4 damage (now at 11 life)
+Magdelina is stunned
+Abarene recovers a Pain Spike token
+Magdelina moves:
+
+..A...M
+
 Magdelina gains a Trance counter: has 2
 Magdelina discards all Trance counters
 Magdelina gains a Level: has 2
@@ -187,55 +190,59 @@ Beat 4
 
 Abarene
 -------
-Life: 18
-Discard 1: Barbed Thorns
-Discard 2: Intoxicating Burst
+Life: 20
+Discard 1: Intoxicating Thorns
+Discard 2: Barbed Burst
 Special action available
-pool: 
+pool: Dizziness, Fatigue, Nausea, Pain Spike
 
 Magdelina
 ---------
-Life: 9
-Discard 1: Priestess Dash
-Discard 2: Sanctimonious Blessing
+Life: 11
+Discard 1: Safety Burst
+Discard 2: Priestess Dash
 Special action available
 Level: 2
 Trance: 0
 
 
-MA.....
+..A...M
 
-Unbeatable strategy for Magdelina: Safety Strike: -1.85
-Unbeatable strategy for Magdelina: Safety Shot: -1.45
-Unbeatable strategy for Magdelina: Safety Drive: -0.82
-Unbeatable strategy for Magdelina: Safety Grasp: -0.80
-Unbeatable strategy for Magdelina: Excelsius Strike: -0.82
-Unbeatable strategy for Magdelina: Excelsius Shot: -0.54
-Unbeatable strategy for Magdelina: Excelsius Drive: -0.47
-Unbeatable strategy for Magdelina: Excelsius Grasp: -0.07
+Unbeatable strategy for Abarene: Crippling Shot (Dizziness, Nausea, Pain Spike): 1.03
 
 Abarene:
-100% Crippling Strike
+16% Lethal Shot (Dizziness, Pain Spike)
+5% Crippling Shot (Dizziness, Pain Spike)
+78% Crippling Shot (Dizziness, Nausea, Pain Spike)
 
 Magdelina:
-100% Safety Strike
+31% Sanctimonious Shot
+55% Sanctimonious Drive
+14% Excelsius Blessing
 
 
-Abarene: Crippling Strike
-Magdelina: Safety Strike
+Abarene: Crippling Shot (Dizziness, Nausea, Pain Spike)
+Magdelina: Excelsius Blessing
 
+Abarene antes a Dizziness token
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Magdelina loses 3 life (now at 8)
 Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  1 | 4
+Priorities:  0 | 4
 Magdelina is active
-Magdelina hits
-Abarene takes 4 damage (now at 14 life)
-Abarene hits
-Abarene recovers a Nausea token
-Magdelina takes 4 damage (now at 5 life)
 Magdelina moves:
 
-.A.M...
+..A..M.
 
+Magdelina misses
+Abarene moves:
+
+....AM.
+
+Abarene hits
+Abarene recovers a Nausea token
+Magdelina takes 4 damage (now at 4 life)
 Magdelina gains a Trance counter: has 1
 
 Beat 5
@@ -243,59 +250,53 @@ Beat 5
 
 Abarene
 -------
-Life: 14
-Discard 1: Crippling Strike
-Discard 2: Barbed Thorns
+Life: 20
+Discard 1: Crippling Shot
+Discard 2: Intoxicating Thorns
 Special action available
-pool: Nausea
+pool: Fatigue, Nausea
 
 Magdelina
 ---------
-Life: 5
-Discard 1: Safety Strike
-Discard 2: Priestess Dash
+Life: 4
+Discard 1: Excelsius Blessing
+Discard 2: Safety Burst
 Special action available
 Level: 2
 Trance: 1
 
 
-.A.M...
+....AM.
 
-Unbeatable strategy for Magdelina: Excelsius Drive: -2.22
+Unbeatable strategy for Magdelina: Priestess Dash: -0.60
 
 Abarene:
-76% Intoxicating Dash (Nausea)
-10% Pestilent Drive
-14% Pestilent Grasp
+27% Barbed Strike
+24% Barbed Strike (Nausea)
+21% Barbed Drive
+14% Barbed Grasp
+14% Barbed Dash (Nausea)
 
 Magdelina:
-83% Excelsius Drive
-11% Excelsius Burst
-6% Excelsius Grasp
+1% Priestess Strike
+2% Priestess Grasp
+20% Priestess Dash
+3% Spiritual Grasp
+75% Sanctimonious Dash
 
 
-Abarene: Intoxicating Dash (Nausea)
-Magdelina: Excelsius Drive
+Abarene: Barbed Grasp
+Magdelina: Sanctimonious Dash
 
-Abarene antes a Nausea token
 Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  10 | 5
-Abarene is active
-Abarene recovers a Nausea token
-Abarene moves:
-
-...MA..
-
-Magdelina moves:
-
-..M.A..
-
+Priorities:  6 | 9
+Magdelina is active
 Magdelina moves:
 
 ...MA..
 
-Magdelina misses
-Abarene recovers a Fatigue token
+Magdelina loses 2 life (now at 2)
+Abarene misses
 Magdelina gains a Trance counter: has 2
 
 Beat 6
@@ -303,17 +304,17 @@ Beat 6
 
 Abarene
 -------
-Life: 14
-Discard 1: Intoxicating Dash
-Discard 2: Crippling Strike
+Life: 20
+Discard 1: Barbed Grasp
+Discard 2: Crippling Shot
 Special action available
 pool: Fatigue, Nausea
 
 Magdelina
 ---------
-Life: 5
-Discard 1: Excelsius Drive
-Discard 2: Safety Strike
+Life: 2
+Discard 1: Sanctimonious Dash
+Discard 2: Excelsius Blessing
 Special action available
 Level: 2
 Trance: 2
@@ -321,38 +322,108 @@ Trance: 2
 
 ...MA..
 
-Unbeatable strategy for Abarene: Barbed Drive (Fatigue): 0.37
-Unbeatable strategy for Abarene: Barbed Drive (Fatigue, Nausea): 0.19
+Unbeatable strategy for Abarene: Intoxicating Drive (Fatigue): 7.00
+Unbeatable strategy for Abarene: Intoxicating Drive (Fatigue, Nausea): 7.00
+Unbeatable strategy for Abarene: Pestilent Drive (Fatigue): 7.00
+Unbeatable strategy for Abarene: Pestilent Drive (Fatigue, Nausea): 7.00
 
 Abarene:
-23% Barbed Shot
-19% Barbed Drive (Nausea)
-58% Barbed Drive (Fatigue)
+1% Lethal Drive (Nausea)
+2% Lethal Burst (Nausea)
+1% Intoxicating Burst (Nausea)
+1% Pestilent Thorns (Nausea)
+15% Pestilent Strike (Nausea)
+13% Pestilent Drive
+64% Pestilent Drive (Fatigue)
+3% Pestilent Burst
+0% Pestilent Burst (Nausea)
 
 Magdelina:
+1% Priestess Drive
+0% Priestess Burst
 3% Priestess Grasp
-87% Priestess Dash
-10% Spiritual Grasp
+1% Spiritual Strike
+1% Spiritual Drive
+4% Spiritual Burst
+1% Spiritual Grasp
+84% Special Pulse
+4% Special Solar Soul
 
 
-Abarene: Barbed Drive (Fatigue)
-Magdelina: Priestess Dash
+Abarene: Pestilent Drive (Fatigue)
+Magdelina: Special Pulse
 
 Abarene antes a Fatigue token
 Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  5 | 8
+Pulse:
+
+.A....M
+
+
+Beat 6
+-------
+
+Abarene
+-------
+Life: 20
+Discard 1: Pestilent Drive
+Discard 2: Barbed Grasp
+Special action available
+pool: Nausea
+
+Magdelina
+---------
+Life: 2
+Discard 1: Sanctimonious Dash
+Discard 2: Excelsius Blessing
+Level: 2
+Trance: 2
+
+
+.A....M
+
+Abarene:
+64% Intoxicating Burst (Nausea)
+14% Intoxicating Dash (Nausea)
+14% Crippling Shot
+7% Crippling Shot (Nausea)
+
+Magdelina:
+33% Priestess Burst
+2% Priestess Grasp
+62% Spiritual Shot
+3% Spiritual Burst
+
+
+Abarene: Intoxicating Burst (Nausea)
+Magdelina: Priestess Burst
+
+Abarene antes a Nausea token
+Magdelina gets a +2 bonus to power, priority and stungard
+Priorities:  2 | 2
+Clash!
+
+Abarene:
+41% Intoxicating Strike (Nausea)
+59% Intoxicating Dash (Nausea)
+
+Magdelina:
+84% Priestess Strike
+16% Priestess Grasp
+
+
+Abarene: Intoxicating Strike (Nausea)
+Magdelina: Priestess Grasp
+
+Abarene antes a Nausea token
+Magdelina gets a +2 bonus to power, priority and stungard
+Priorities:  4 | 6
 Magdelina is active
-Magdelina gains 1 life (now at 6)
-Magdelina moves:
-
-....AM.
-
-Magdelina loses 2 life (now at 4)
-Abarene moves:
-
-.....MA
-
+Abarene recovers a Nausea token
+Magdelina misses
+Magdelina gains 1 life (now at 3)
 Abarene misses
+Abarene recovers a Fatigue token
 Magdelina gains a Trance counter: has 3
 Magdelina discards all Trance counters
 Magdelina gains a Level: has 3
@@ -362,52 +433,51 @@ Beat 7
 
 Abarene
 -------
-Life: 14
-Discard 1: Barbed Drive
-Discard 2: Intoxicating Dash
+Life: 20
+Discard 1: Intoxicating Strike
+Discard 2: Pestilent Drive
 Special action available
-pool: Nausea
+pool: Fatigue, Nausea
 
 Magdelina
 ---------
-Life: 4
-Discard 1: Priestess Dash
-Discard 2: Excelsius Drive
-Special action available
+Life: 3
+Discard 1: Priestess Grasp
+Discard 2: Sanctimonious Dash
 Level: 3
 Trance: 0
 
 
-.....MA
-
-Unbeatable strategy for Magdelina: Sanctimonious Strike: -0.08
+.A....M
 
 Abarene:
-57% Lethal Grasp (Nausea)
-8% Crippling Thorns
-2% Crippling Strike
-33% Pestilent Strike
+47% Crippling Shot
+1% Crippling Shot (Nausea)
+53% Crippling Burst (Nausea)
 
 Magdelina:
-22% Sanctimonious Blessing
-59% Sanctimonious Strike
-1% Sanctimonious Shot
-18% Sanctimonious Grasp
+53% Spiritual Burst
+46% Excelsius Shot
+1% Excelsius Burst
 
 
-Abarene: Lethal Grasp (Nausea)
-Magdelina: Sanctimonious Strike
+Abarene: Crippling Burst (Nausea)
+Magdelina: Spiritual Burst
 
 Abarene antes a Nausea token
 Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  5 | 4
-Abarene is active
+Priorities:  -1 | 2
+Magdelina is active
 Abarene moves:
 
-A....M.
+A.....M
+
+Magdelina misses
+Abarene moves:
+
+..A...M
 
 Abarene misses
-Magdelina misses
 Magdelina gains a Trance counter: has 1
 
 Beat 8
@@ -415,121 +485,52 @@ Beat 8
 
 Abarene
 -------
-Life: 14
-Discard 1: Lethal Grasp
-Discard 2: Barbed Drive
+Life: 20
+Discard 1: Crippling Burst
+Discard 2: Intoxicating Strike
 Special action available
-pool: 
+pool: Fatigue
 
 Magdelina
 ---------
-Life: 4
-Discard 1: Sanctimonious Strike
-Discard 2: Priestess Dash
-Special action available
+Life: 3
+Discard 1: Spiritual Burst
+Discard 2: Priestess Grasp
 Level: 3
 Trance: 1
 
 
-A....M.
+..A...M
 
-Unbeatable strategy for Magdelina: Spiritual Shot: -1.37
-Unbeatable strategy for Magdelina: Spiritual Drive: -1.22
-Unbeatable strategy for Magdelina: Excelsius Shot: -2.88
+Unbeatable strategy for Abarene: Barbed Drive (Fatigue): 2.97
 
 Abarene:
-88% Intoxicating Burst
-12% Crippling Strike
+46% Barbed Drive
+54% Barbed Drive (Fatigue)
 
 Magdelina:
-91% Excelsius Shot
-9% Excelsius Drive
+8% Excelsius Drive
+92% Excelsius Dash
 
 
-Abarene: Intoxicating Burst
-Magdelina: Excelsius Shot
+Abarene: Barbed Drive (Fatigue)
+Magdelina: Excelsius Drive
 
+Abarene antes a Fatigue token
 Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  2 | 4
-Magdelina is active
-Magdelina moves:
-
-A...M..
-
-Magdelina hits
-Abarene takes 5 damage (now at 9 life)
-Abarene is stunned
-Abarene recovers a Nausea token
-Magdelina gains a Trance counter: has 2
-
-Beat 9
--------
-
-Abarene
--------
-Life: 9
-Discard 1: Intoxicating Burst
-Discard 2: Lethal Grasp
-Special action available
-pool: Nausea
-
-Magdelina
----------
-Life: 4
-Discard 1: Excelsius Shot
-Discard 2: Sanctimonious Strike
-Special action available
-Level: 3
-Trance: 2
-
-
-A...M..
-
-Unbeatable strategy for Magdelina: Spiritual Burst: -1.66
-
-Abarene:
-26% Crippling Strike
-35% Crippling Shot
-39% Crippling Drive (Nausea)
-
-Magdelina:
-67% Priestess Blessing
-20% Spiritual Drive
-13% Spiritual Burst
-
-
-Abarene: Crippling Drive (Nausea)
-Magdelina: Spiritual Burst
-
-Abarene antes a Nausea token
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  2 | 2
-Clash!
-
-Abarene:
-45% Crippling Thorns (Nausea)
-55% Crippling Strike (Nausea)
-
-Magdelina:
-45% Spiritual Drive
-55% Spiritual Grasp
-
-
-Abarene: Crippling Thorns (Nausea)
-Magdelina: Spiritual Grasp
-
-Abarene antes a Nausea token
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  0 | 6
-Magdelina is active
-Magdelina misses
+Priorities:  5 | 4
+Abarene is active
 Abarene moves:
 
-..A.M..
+....A.M
 
 Abarene hits
 Abarene recovers a Dizziness token
-Abarene recovers a Fatigue token
-Magdelina takes 4 damage (now at 0 life)
+Abarene moves Magdelina:
+
+....AM.
+
+Magdelina loses 2 life (now at 1)
+Magdelina takes 2 damage (now at 0 life)
 ABARENE WINS!
-total_time: 46
+total_time: 73

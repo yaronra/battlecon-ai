@@ -78,10 +78,9 @@ def main():
     else:
         play()
     
-
 def ad_hoc():
-#    duel('abarene', 'kallistar', 1)
-    free_for_all(1, ['abarene'], None, [], True, False)
+#    duel('tanis', 'kallistar', 1)
+    free_for_all(1, ['tanis'], 'voco', [], True, False)
 
 playable = [ 'abarene',
              'adjenna',
@@ -116,6 +115,7 @@ playable = [ 'abarene',
              'runika',
              'seth',
              'shekhtur',
+             'tanis',
              'tatsumi',
              'vanaah',
              'voco',
@@ -372,16 +372,21 @@ class Game:
     # These will never actually given to the solver - they need to 
     # be dealt with in pre-processing.
     # (all constants are floats, so that the numpy array stays a float array)
-    clash_indicator = -1000.0
-    cancel_0_indicator = -2000.0
-    cancel_1_indicator = -2001.0
-    cancel_both_indicator = -2002.0
-    cancel_indicators = set ([cancel_0_indicator, \
-                                 cancel_1_indicator, \
-                                 cancel_both_indicator])
+    CLASH_INDICATOR = -1000.0
+    CANCEL_0_INDICATOR = -2000.0
+    CANCEL_1_INDICATOR = -2001.0
+    CANCEL_BOTH_INDICATOR = -2002.0
+    CANCEL_INDICATORS = set ([CANCEL_0_INDICATOR, \
+                                 CANCEL_1_INDICATOR, \
+                                 CANCEL_BOTH_INDICATOR])
     # Very good/bad result constant (used to prevent certain strats
     # from being chosen by AI:
-    extreme_result = 20.0
+    EXTREME_RESULT = 20.0
+
+    # Constants for priorities of deciding where you are next beat.
+    CHOOSE_POSITION_NOW = 2
+    CHOOSE_POSITION_BEFORE_ATTACK_PAIRS = 1
+    CHOOSE_POSITION_IN_ANTE = 0
 
     @staticmethod
     def from_file (file_name):
@@ -485,9 +490,7 @@ class Game:
         self.initial_state = self.initial_save ()
         # evaluate game situation, as reference point for further evaluation
         self.reset()
-        for p in self.player:
-            p.set_preferred_range()
-        self.initial_evaluation = [p.evaluate() for p in self.player]
+        self.initial_evaluation = self.evaluate()
 
     # Play a game from current situation to conclusion
     def play_game (self):
@@ -509,8 +512,15 @@ class Game:
             self.reporting = False
             self.simulate_beat ()
             self.log_unbeatable_strategies(log)
+            self.solve()
             self.reporting = True
-            final_state, report = self.solve_and_execute_beat ()
+            log.extend(self.make_pre_attack_decision() + [''])
+            if self.interactive:
+                if self.cheating > 0:
+                    self.dump (self.report_solution())
+            else:
+                log.extend(self.report_solution())
+            final_state, report = self.execute_beat()
             log.extend (report)
             if final_state.winner != None:
                 break
@@ -539,36 +549,46 @@ class Game:
         # disregard special actions
         if self.interactive:
             return
-        if len(self.results[0]) == 0:
-            raise DebugException(self)
-        results = numpy.array(self.results)
-        s0 = self.player[0].strats
-        s1 = self.player[1].strats
-        regular_0 = [i for i in range(len(s0))
-                   if not isinstance (s0[i][0], SpecialAction)] 
-        regular_1 = [i for i in range(len(s1))
-                   if not isinstance (s1[i][0], SpecialAction)]
-        results = results[regular_0,:][:,regular_1]
-        row_values = results.min(1)
-        if row_values.max() > 0:
-            for i in range(len(row_values)):
-                if row_values[i] > 0:
-                    log.append ("Unbeatable strategy for %s: %s: %.2f"
-                        % (self.player[0].name,
-                           self.player[0].get_strategy_name(
-                                            s0[regular_0[i]]),
-                           row_values[i]))
-            log.append ("")
-        col_values = results.max(0)
-        if col_values.min() < 0:
-            for j in range(len(col_values)):
-                if col_values[j] < 0:
-                    log.append ("Unbeatable strategy for %s: %s: %.2f"
-                        % (self.player[1].name,
-                           self.player[1].get_strategy_name(
-                                            s1[regular_1[j]]),
-                           col_values[j]))
-            log.append ("")
+        n = len(self.pads[0])
+        m = len(self.pads[1])
+        for i in xrange(n):
+            for j in xrange(m):
+                results = numpy.array(self.results[i][j])
+                s0 = self.strats[0][i]
+                s1 = self.strats[1][j]
+                regular_0 = [k for k in range(len(s0))
+                             if not isinstance (s0[k][0], SpecialAction)] 
+                regular_1 = [k for k in range(len(s1))
+                             if not isinstance (s1[k][0], SpecialAction)]
+                results = results[regular_0,:][:,regular_1]
+                row_values = results.min(1)
+                if row_values.max() > 0:
+                    for k in range(len(row_values)):
+                        if row_values[k] > 0:
+                            if n > 1:
+                                log.append("Given %s by %s" % (self.pads[0][i], self.player[0]))
+                            if m > 1:
+                                log.append("Given %s by %s" % (self.pads[1][j], self.player[1]))
+                            log.append ("Unbeatable strategy for %s: %s: %.2f"
+                                % (self.player[0].name,
+                                   self.player[0].get_strategy_name(
+                                                    s0[regular_0[k]]),
+                                   row_values[k]))
+                    log.append ("")
+                col_values = results.max(0)
+                if col_values.min() < 0:
+                    for k in range(len(col_values)):
+                        if col_values[k] < 0:
+                            if n > 1:
+                                log.append("Given %s by %s" % (self.pads[0][i], self.player[0]))
+                            if m > 1:
+                                log.append("Given %s by %s" % (self.pads[1][j], self.player[1]))
+                            log.append ("Unbeatable strategy for %s: %s: %.2f"
+                                % (self.player[1].name,
+                                   self.player[1].get_strategy_name(
+                                                    s1[regular_1[k]]),
+                                   col_values[k]))
+                    log.append ("")
 
     # empty given log into Game.log; print it if game is interactive
     def dump (self, log):
@@ -651,6 +671,23 @@ class Game:
         self.results = [[float(result[0]) for result in row] 
                         for row in self.results]
 
+        # For each player, make list of strategies, separated into
+        # sub lists by pre-attack decision (pad).
+        self.pads = [[], []]
+        self.strats = [[], []]
+        for i, p in enumerate(self.player):
+            # group player strategies by pre attack decision.
+            for pad, pad_strats in itertools.groupby(p.strats,
+                                                     lambda s: s[2][2]):
+                self.pads[i].append(pad)
+                self.strats[i].append(list(pad_strats))
+        # split results into subtables according to pads:
+        self.results = [[self.get_pad_subresults(self.results, 
+                                                 [p.strats for p in self.player],
+                                                 pad0, pad1)
+                         for pad1 in self.pads[1]]
+                        for pad0 in self.pads[0]]
+
     def remove_redundant_finishers (self):
         redundant_finishers = []
         s0 = self.player[0].strats
@@ -684,6 +721,13 @@ class Game:
                                  if j not in redundant_finishers]
 
 
+    def get_pad_subresults(self, results, strats, pad0, pad1):
+        ii = [i for i, s in enumerate(strats[0]) if s[2][2] == pad0]
+        jj = [i for i, s in enumerate(strats[1]) if s[2][2] == pad1]
+        return [[results[i][j]
+                 for j in jj]
+                for i in ii]
+
     # if state != None, this is a forked simulation
     def simulate(self, s0, s1, state = None):
         # in a forked simulation, restore the given state
@@ -708,8 +752,11 @@ class Game:
                     self.report (p.name + ": " + p.get_strategy_name(p.strat))
                 self.report ('')
 
-            for p in range(2):
-                self.player[p].ante_trigger()
+            for p in self.player:
+                p.pre_attack_decision_effects()
+
+            for p in self.player:
+                p.ante_trigger()
 
             # Reveal and set attack pairs
 
@@ -739,11 +786,11 @@ class Game:
             if cancel0 or cancel1:
                 final_state = self.full_save (None)
             if cancel0 and cancel1:
-                return self.cancel_both_indicator, final_state, self.fork_decisions[:]
+                return self.CANCEL_BOTH_INDICATOR, final_state, self.fork_decisions[:]
             if cancel0:
-                return self.cancel_0_indicator, final_state, self.fork_decisions[:]
+                return self.CANCEL_0_INDICATOR, final_state, self.fork_decisions[:]
             if cancel1:
-                return self.cancel_1_indicator, final_state, self.fork_decisions[:]
+                return self.CANCEL_1_INDICATOR, final_state, self.fork_decisions[:]
 
             # save state before pulse phase (stage 0)
             state = self.full_save (0)
@@ -821,7 +868,7 @@ class Game:
                     if isinstance (self.player[0].base, Finisher) and \
                        isinstance (self.player[1].base, Finisher):
                         final_state = self.full_save (None)
-                        return self.cancel_both_indicator, final_state, self.fork_decisions[:]
+                        return self.CANCEL_BOTH_INDICATOR, final_state, self.fork_decisions[:]
                     else:
                         if self.reporting:
                             self.report ("Clash!\n")
@@ -829,7 +876,7 @@ class Game:
                         if self.clash0:
                             return 0, final_state, self.fork_decisions[:]
                         else:
-                            return self.clash_indicator, final_state, self.fork_decisions[:]
+                            return self.CLASH_INDICATOR, final_state, self.fork_decisions[:]
                 state = self.full_save (1)
 
             # start triggers
@@ -959,11 +1006,7 @@ class Game:
                 # A tie.
                 raise WinException (0.5)
         
-        for p in self.player:
-            p.set_preferred_range()
-        relative_evaluation = \
-            [self.player[i].evaluate() - self.initial_evaluation[i]
-             for i in range(2)]
+        evaluation = self.evaluate()
         if self.debugging:
             for p in self.player:
                 self.report (p.name+"'s life: " + \
@@ -979,20 +1022,48 @@ class Game:
                           self.player[0].evaluate_range() - \
                           self.player[1].evaluate_range()))
             self.report ("eval: %.2f vs %.2f gives %.2f" \
-                        %(relative_evaluation[0], relative_evaluation[1], \
-                          relative_evaluation[0] - relative_evaluation[1]))
+                        %(evaluation, self.initial_evaluation, \
+                          evaluation - self.initial_evaluation))
         final_state = self.full_save (None)
 ##        if self.reporting:
 ##            print "decisions returned: ", self.fork_decisions
-        return relative_evaluation[0] - relative_evaluation[1], final_state, \
+        return evaluation - self.initial_evaluation, final_state, \
                self.fork_decisions[:]
+
+    def evaluate(self):
+        # Some characters (Tanis, Arec with clone) can end the beat in
+        # a "superposition" of different positions.  We need to
+        # evaluate every possiblitiy.
+        real_positions = [p.position for p in self.player]
+        positions = [p.get_superposed_positions() for p in self.player]
+        # This is the order in which they'll collapse the superposition.
+        priorities = [p.get_superposition_priority() for p in self.player]
+        evaluations = []
+        for p0 in positions[0]:
+            row = []
+            for p1 in positions[1]:
+                if p0 != p1:
+                    self.player[0].position = p0
+                    self.player[1].position = p1
+                    for p in self.player:
+                        p.set_preferred_range()
+                    row.append(self.player[0].evaluate() - 
+                               self.player[1].evaluate())
+            if row:
+                evaluations.append(row)
+        for i in xrange(2):
+            self.player[i].position = real_positions[i]
+        # Higher priority chooses first, so evaluated last.
+        if priorities[0] > priorities[1]:
+            minima = [min(row) for row in evaluations]
+            return max(minima)
+        else:
+            evaluations = zip(*evaluations)
+            maxima = [max(row) for row in evaluations]
+            return min(maxima)
         
     def distance (self):
-        return abs (self.player[0].position - self.player[1].position)
-
-    # does any character block status effects?
-    def status_effects_blocked (self):
-        return False
+        return abs(self.player[0].position - self.player[1].position)
 
     # Number of beats expected until end of game.
     def expected_beats (self):
@@ -1095,35 +1166,70 @@ class Game:
     def get_basic_board (self):
         board = ['.'] * 7
         for p in self.player:
-            board[p.position] = p.get_board_symbol()
+            if p.position is not None:
+                board[p.position] = p.get_board_symbol()
         return ''.join(board)
         
     # find minmax for results table
     def solve (self):
-        self.fix_clashes()
-        self.fix_cancels()
-        array_results = numpy.array(self.results)
+        self.value = [[None] * len(self.strats[1])
+                      for s in self.strats[0]]
+        for p in self.player:
+            p.mix = [[None] * len(self.strats[1])
+                     for s in self.strats[0]]
+        self.pre_clash_results = [[[row[:]
+                                    for row in pad_col]
+                                   for pad_col in pad_row]
+                                  for pad_row in self.results]
+        for pad0 in xrange(len(self.strats[0])):
+            for pad1 in xrange(len(self.strats[1])):
+                value, mix0, mix1 = self.solve_per_pad(
+                                      self.results[pad0][pad1],
+                                      self.pre_clash_results[pad0][pad1],
+                                      self.strats[0][pad0], 
+                                      self.strats[1][pad1])
+                self.value[pad0][pad1] = value
+                self.player[0].mix[pad0][pad1] = mix0
+                self.player[1].mix[pad0][pad1] = mix1
+    
+    # Find minmax for one results table (for given set of pads).
+    def solve_per_pad(self, results, pre_clash_results, strats0, strats1):
+        self.fix_clashes(results, pre_clash_results, strats0, strats1)
+        self.fix_cancels(results)
+        array_results = numpy.array(results)
         (mix0, value0) = solve.solve_game_matrix (array_results)
-        (mix1, value1) = solve.solve_game_matrix (-array_results.transpose())
-        stratmix0 = zip (self.player[0].strats, list(mix0))
-        stratmix1 = zip (self.player[1].strats, list(mix1))
-        assert abs(value0 + value1) < 0.01, ("Error: value0=%f, value1=%f" %
-                                             (value0, value1))
-        self.value = value0
-        self.player[0].mix = stratmix0
-        self.player[1].mix = stratmix1
-
-    def solve_and_execute_beat (self):
-        ss0 = self.player[0].strats
-        ss1 = self.player[1].strats
-        self.initial_restore (self.initial_state)
-        self.solve ()
-        if self.interactive:
-            report = []
-            if self.cheating > 0:
-                self.dump (self.report_solution())
+        stratmix0 = zip (strats0, list(mix0))
+        # No need to calculate strategy mix for human player
+        if not self.player[1].is_user:
+            (mix1, value1) = solve.solve_game_matrix (-array_results.transpose())
+            stratmix1 = zip (strats1, list(mix1))
+            assert abs(value0 + value1) < 0.01, ("Error: value0=%f, value1=%f" %
+                                                 (value0, value1))
         else:
-            report = self.report_solution()
+            stratmix1 = [(s, 0) for s in strats1]
+        return value0, stratmix0, stratmix1
+
+    def make_pre_attack_decision(self):
+        # Player 0 makes a decision.
+        values = [row[0] for row in self.value]
+        d0 = max([(val, i) for i, val in enumerate(values)])[1]
+        # Player 1 makes a decision.
+        if self.interactive:
+            d1 = self.player[1].input_pre_attack_decision_index()
+        else:
+            values = self.value[0]
+            d1 = min([(val, i) 
+                      for i, val in enumerate(values)])[1]
+        self.value = self.value[d0][d1]
+        self.results = self.results[d0][d1]
+        self.pre_clash_results = self.pre_clash_results[d0][d1]
+        for p in self.player:
+            p.mix = p.mix[d0][d1]
+        return (self.player[0].pre_attack_decision_report(self.pads[0][d0]) +
+                self.player[1].pre_attack_decision_report(self.pads[1][d1]))
+            
+    def execute_beat (self):
+        self.initial_restore (self.initial_state)
         s0 = self.player[0].choose_strategy()
         if self.interactive and self.cheating == 2:
             print self.player[0], "plays", self.player[0].get_strategy_name(s0)
@@ -1139,10 +1245,13 @@ class Game:
             self.interactive_mode = False
         else:
             value, final_state, unused_forks = self.simulate (s0, s1)
-        report.extend (final_state.reports)
+        report = final_state.reports
 
+        ss0 = [m[0] for m in self.player[0].mix]
+        ss1 = [m[0] for m in self.player[1].mix]
+        
         # Solve Cancels
-        if value in self.cancel_indicators:
+        if value in self.CANCEL_INDICATORS:
             # Both players can only cancel into (non special action)
             # strategies with the same ante and no components of original
             # strategy (this last restriction will only affect 
@@ -1160,9 +1269,9 @@ class Game:
             # Before re-simulating, we need to update the game state
             # (record the lost special action/s and any discarded attack pair).
             self.initial_restore (self.initial_state)
-            if value == self.cancel_0_indicator:
+            if value == self.CANCEL_0_INDICATOR:
                 cancellers = [self.player[0]]
-            elif value == self.cancel_1_indicator:
+            elif value == self.CANCEL_1_INDICATOR:
                 cancellers = [self.player[1]]
             else:
                 cancellers = self.player[:]
@@ -1216,7 +1325,7 @@ class Game:
 
         # if we have a real result (possibly after the cancel/s)
         # return it
-        if value != self.clash_indicator:
+        if value != self.CLASH_INDICATOR:
             return final_state, report
         
         # clash - find strategies that can be switched into
@@ -1248,44 +1357,42 @@ class Game:
                                [p1.clash_strat_index(jj,ii,j,i)]
                          for jj in g1]
                         for ii in g0]
+        self.pre_clash_results = [row[:] for row in self.results]
         # make vectors of remaining strategies
-        self.player[0].strats = self.player[0].fix_strategies_post_clash(
-                                                        [ss0[i] for i in g0],
-                                                        s1)
-        self.player[1].strats = self.player[1].fix_strategies_post_clash(
-                                                        [ss1[j] for j in g1],
-                                                        s0)
-        # Run this function recrusively with post-clash strategies only.
+        self.strats[0] = self.player[0].fix_strategies_post_clash(
+                                        [ss0[i] for i in g0], s1)
+        self.strats[1] = self.player[1].fix_strategies_post_clash(
+                                        [ss1[j] for j in g1], s0)
+        # solve clash
+        value, self.player[0].mix, self.player[1].mix = \
+            self.solve_per_pad(self.results, self.pre_clash_results, 
+                               self.strats[0], self.strats[1])
+        # Run this function recursively with post-clash strategies only.
         if self.interactive:
             self.dump(report)
-        recursive_state, recursive_report = self.solve_and_execute_beat ()
-        report.extend (recursive_report)
+        recursive_state, recursive_report = self.execute_beat()
+        report.extend(recursive_report)
         return recursive_state, report
     
 
     # fix clash results
-    def fix_clashes (self):
+    def fix_clashes (self, results, pre_clash_results, ss0, ss1):
         if self.clash0:
             return
-        ss0 = self.player[0].strats
-        ss1 = self.player[1].strats
-        n = len (self.results)
-        m = len (self.results[0])
+        n = len (results)
+        m = len (results[0])
         # if at least one matrix dimension is 1, clashes are final,
         # and approximated with 0
         final_clashes = (min(n,m) == 1)
-        # record results before clash fixing
         # when each clash is resolved, other clashes should still be unresolved
-        self.pre_clash_results = [[self.results[i][j] for j in range(m)]
-                                  for i in range(n)]
         for i in range(n):
             for j in range(m):
-                if self.pre_clash_results[i][j] == self.clash_indicator:
+                if pre_clash_results[i][j] == self.CLASH_INDICATOR:
                     if final_clashes:
                         # Cutting a corner here:
                         # In fact, when someone runs out of bases, cycling
                         # happens, which might be better for one player.
-                        self.results[i][j] = 0
+                        results[i][j] = 0
                     else:
                         # find indices of strategies that share
                         # style and ante decisions with clash
@@ -1301,29 +1408,29 @@ class Game:
                         # make sub matrix of those results
                         p0 = self.player[0]
                         p1 = self.player[1]
-                        subresults = [[self.pre_clash_results
+                        subresults = [[pre_clash_results
                                        [p0.clash_strat_index(ii,jj,i,j)]
                                        [p1.clash_strat_index(jj,ii,j,i)]
                                        for jj in g1]
                                       for ii in g0]
                         # and solve it
-                        self.results[i][j] = self.sub_solve (subresults)
+                        results[i][j] = self.sub_solve(subresults)
 
     # Fix cancel results in matrix.
     # Until a better solution is found, just cause AI to ignore the 
     # possibility: it doesn't play cancel, or play around cancel.
-    def fix_cancels(self):
-        n = len (self.results)
-        m = len (self.results[0])
+    def fix_cancels(self, results):
+        n = len(results)
+        m = len(results[0])
         for i in range(n):
             for j in range(m):
-                if self.results[i][j] in self.cancel_indicators:
-                    if self.results[i][j] == self.cancel_0_indicator:
-                        self.results[i][j] = -self.extreme_result
-                    elif self.results[i][j] == self.cancel_1_indicator:
-                        self.results[i][j] = self.extreme_result
+                if results[i][j] in self.CANCEL_INDICATORS:
+                    if results[i][j] == self.CANCEL_0_INDICATOR:
+                        results[i][j] = -self.EXTREME_RESULT
+                    elif results[i][j] == self.CANCEL_1_INDICATOR:
+                        results[i][j] = self.EXTREME_RESULT
                     else:
-                        self.results[i][j] = 0
+                        results[i][j] = 0
 
     # solves 4x4 (or smaller) matrix created by clash
     def sub_solve (self, matrix):
@@ -1334,7 +1441,7 @@ class Game:
             # a final clash ends the beat, approximate as 0:
             for i in range(n):
                 for j in range(m):
-                    if matrix[i][j] == self.clash_indicator:
+                    if matrix[i][j] == self.CLASH_INDICATOR:
                         matrix[i][j] = 0
             # solve matrix trivially
             if n==1:
@@ -1345,7 +1452,7 @@ class Game:
         # fix clashes 
         for i in range(n):
             for j in range(m):
-                if matrix[i][j] == self.clash_indicator:
+                if matrix[i][j] == self.CLASH_INDICATOR:
                     sub_matrix = [[matrix[ii][jj] for jj in range(m) if jj!=j] \
                                                   for ii in range(n) if ii!=i]
                     matrix[i][j] = self.sub_solve(sub_matrix)
@@ -1355,7 +1462,6 @@ class Game:
     # return report of positive strategies
     def report_solution (self):
         report = []
-        # for each player
         for p in self.player:
             report.append (p.name + ':')
             for m in p.mix:
@@ -1373,36 +1479,42 @@ class Game:
         if isinstance (extra, str):
             extra = [extra]
         extra = [e.lower() for e in extra]
-        # for each player
-        for p in self.player:
-            # keep only positive probs
-            if p.name.lower() in extra:
-                p.filtered_indices = range(len(p.mix))
-            else:
-                p.filtered_indices = [i for i in range(len(p.mix)) \
-                                  if p.mix[i][1]>0.0001 \
-                                  or p.get_strategy_name(p.mix[i][0]).lower() in extra]
-            p.filtered_mix = [p.mix[j] for j in p.filtered_indices]
-            r = random.random()
-            total = 0
-            print "\n", p
-            for m in p.filtered_mix:
-                print str(int(100*m[1]+.5))+"%", \
-                      p.get_strategy_name(m[0]),
-                if total+m[1] >= r and total < r:
-                    print ' ***',
-                print " "
-                total = total + m[1]
-        print '\n' + self.player[0].name + '\'s Value:', self.value, '\n'
-        small_mat = numpy.array ([[self.results[i][j] \
-                             for j in self.player[1].filtered_indices] \
-                             for i in self.player[0].filtered_indices])
-        # if all player 1 strategies displayed, transpose for ease of reading
-        if self.player[1].name.lower() in extra and \
-           self.player[0].name.lower() not in extra:
-            small_mat = small_mat.transpose()
-            print "(transposing matrix)"
-        print small_mat.round(2)
+        for i, pad0 in enumerate(self.pads[0]):
+            for j, pad1 in enumerate(self.pads[1]):
+                if len(self.pads[0]) > 1:
+                    print "Pre attack decision: %s" % pad0
+                if len(self.pads[1]) > 1:
+                    print "Pre attack decision: %s" % pad1
+                # for each player
+                for p in self.player:
+                    # keep only positive probs
+                    if p.name.lower() in extra:
+                        p.filtered_indices = range(len(p.mix[i][j]))
+                    else:
+                        p.filtered_indices = [k for k in xrange(len(p.mix[i][j])) \
+                                              if p.mix[i][j][k][1]>0.0001 \
+                                              or p.get_strategy_name(p.mix[i][j][k][0]).lower() in extra]
+                    p.filtered_mix = [p.mix[i][j][k] for k in p.filtered_indices]
+                    r = random.random()
+                    total = 0
+                    print "\n", p
+                    for m in p.filtered_mix:
+                        print str(int(100*m[1]+.5))+"%", \
+                              p.get_strategy_name(m[0]),
+                        if total+m[1] >= r and total < r:
+                            print ' ***',
+                        print " "
+                        total = total + m[1]
+                print '\n' + self.player[0].name + '\'s Value:', self.value[i][j], '\n'
+                small_mat = numpy.array ([[self.results[i][j][k][m] \
+                                     for m in self.player[1].filtered_indices] \
+                                     for k in self.player[0].filtered_indices])
+                # if all player 1 strategies displayed, transpose for ease of reading
+                if self.player[1].name.lower() in extra and \
+                   self.player[0].name.lower() not in extra:
+                    small_mat = small_mat.transpose()
+                    print "(transposing matrix)"
+                print small_mat.round(2)
 
     # game value if one player uses given strategy, and other player uses
     # calculated mix
@@ -1593,7 +1705,7 @@ class Character (object):
         self.burst = Burst (the_game,self)
         self.grasp = Grasp (the_game,self)
         self.dash = Dash (the_game,self)
-        # Counter and Wave avoid clashing with styles of same name.
+        # Counter and Wave avoid name-clashes with styles of same name.
         self.counter_base = Counter (the_game,self)
         self.wave_base = Wave (the_game,self)
         self.force = Force (the_game,self)
@@ -1632,8 +1744,15 @@ class Character (object):
         self.initial_styles = self.styles[:]
         self.initial_bases = self.bases[:]
         
-        # create attributes for styles and finishers
-        for card in self.styles + self.finishers:
+        # If specific character's __init__ didn't create list of
+        # status effects, make an empty one.
+        try:
+            self.status_effects
+        except:
+            self.status_effects = []
+        
+        # create attributes for styles, finishers, and status effects.
+        for card in self.styles + self.finishers + self.status_effects:
             name = card.name.replace('-','_').replace(' ','_').replace("'",'').lower()
             self.__dict__[name] = card
         
@@ -1674,8 +1793,8 @@ class Character (object):
     # used by game to add opponent to all your cards/tokens etc.
     def all_cards (self):
         return self.styles + self.bases + self.tokens + self.finishers + \
-               [self.special_action, self.pulse, self.cancel,
-                self.null_style, self.null_base]
+               self.status_effects + [self.special_action, self.pulse, 
+                self.cancel, self.null_style, self.null_base]
 
     def __str__ (self):
         return self.name
@@ -1696,14 +1815,9 @@ class Character (object):
     # methods.
     def read_my_state (self, lines, board, addendum):
         self.life = int(lines[0].split()[-1])
-        # position on board marked with uppercase initial.
-        # for player1, it might be marked with lowercase
-        # (if both characters have same initial).
-        self.position = -1
-        if self.my_number == 1:
-            self.position = board.find(self.name[0].lower())
+        self.position = board.find(self.get_board_symbol())
         if self.position == -1:
-            self.position = board.find(self.name[0])
+            self.position = None
         cards = self.styles + self.bases
         for d in (1,2):
             self.discard[d] = set(c for c in cards if c.name in lines[d])
@@ -1720,6 +1834,9 @@ class Character (object):
             self.styles = [s for s in self.styles if s.name not in removed_line]
             self.bases = [b for b in self.bases if b.name not in removed_line]
             next_line_index += 1
+        self.active_status_effects = []
+        for status in self.status_effects:
+            status.read_my_state(lines)
         return lines[next_line_index:]
     
     # set character state for start of a game
@@ -1758,6 +1875,7 @@ class Character (object):
                     b2 = b2.corresponding_beta
             self.discard[1] = set ((s1,b1))
             self.discard[2] = set ((s2,b2))
+        self.active_status_effects = []
         
     def situation_report (self):
         report = []
@@ -1774,6 +1892,8 @@ class Character (object):
             report.append('Removed cards: ' + self.discard_report (missing_cards))
         if self.special_action_available:
             report.append ('Special action available')
+        for status in self.active_status_effects:
+            status.situation_report(report)
         return report
 
     def discard_report (self, pile):
@@ -1828,7 +1948,8 @@ class Character (object):
         # if not None, someone has replaced the power of your pair
         # with this number 
         self.alt_pair_power = None
-
+        self.pending_status_effects = []
+        
     # snapshot of game state mid-turn, for forks
     def full_save (self):
         state = self.initial_save()
@@ -1848,6 +1969,9 @@ class Character (object):
         state.triggered_power_bonus = self.triggered_power_bonus
         state.triggered_priority_bonus = self.triggered_priority_bonus
         state.alt_pair_power = self.alt_pair_power
+        state.pending_status_effects = self.pending_status_effects[:]
+        for status in self.pending_status_effects:
+            status.full_save(state)
         return state
 
     # restoration of mid-turn snapshot (in a fork)
@@ -1869,10 +1993,15 @@ class Character (object):
         self.triggered_power_bonus = state.triggered_power_bonus
         self.triggered_priority_bonus = state.triggered_priority_bonus
         self.alt_pair_power = state.alt_pair_power
+        self.pending_status_effects = state.pending_status_effects[:]
+        for status in self.pending_status_effects:
+            status.full_restore(state)
 
     # switch "next beat" bonuses to "this beat", etc.
     def prepare_next_beat (self):
-        pass
+        self.active_status_effects = self.pending_status_effects[:]
+        for status in self.active_status_effects:
+            status.prepare_next_beat()
 
     def get_pairs (self):
         unavailable_cards = self.discard[1] \
@@ -1927,17 +2056,26 @@ class Character (object):
     def input_induced_ante (self):
         return None
 
-    # Strategy format:
-    # (style, base, (ante, induced_ante))
-    # induced_ante is the ante decision you made because of opponent's ability.
-    def get_strategies (self):
-        return [p+((a,aa),) for p in self.get_pairs() for a in self.get_antes()
-                         for aa in self.opponent.get_induced_antes()]
+    # Used by characters who make a choice public before setting
+    # attack pairs (Tanis).
+    def get_pre_attack_decisions(self):
+        return [None]
+    
+    def input_pre_attack_decision_index(self):
+        return 0
 
-    def set_own_ante (self, ante):
-        pass
-    def add_induced_ante (self, ante):
-        pass
+    # Strategy format:
+    # (style, base, (ante, induced_ante, pre_attack_decision))
+    # induced_ante is the ante decision you made because of opponent's 
+    # ability (e.g. vs. Rexan/Alexian).
+    # pre_attack_decision is any decision made public before attack pairs
+    # are chosen (e.g., Tanis).
+    def get_strategies (self):
+        return [pair + ((ante, induced_ante, pre_attack_decision),) 
+                for pre_attack_decision in self.get_pre_attack_decisions()
+                for pair in self.get_pairs() 
+                for ante in self.get_antes()
+                for induced_ante in self.opponent.get_induced_antes()]
 
     def input_strategy (self):
         pair = self.input_pair()
@@ -2024,9 +2162,11 @@ class Character (object):
     def get_board_addendum (self):
         return None
 
-    def set_active_cards (self):
-        self.active_cards = [self.style, self.base] + self.get_active_tokens()
-    def get_active_tokens (self):
+    def set_active_cards(self):
+        self.active_cards = ([self.style, self.base] + 
+                             self.get_active_tokens() + 
+                             self.active_status_effects)
+    def get_active_tokens(self):
         return ([] if self.opponent.blocks_tokens() else self.ante)
 
     # Bonus and ability calculation
@@ -2036,6 +2176,14 @@ class Character (object):
         return self.get_priority_bonus() + self.triggered_priority_bonus + \
                sum(card.priority+card.get_priority_bonus()
                     for card in self.active_cards)
+    def get_priority_bonuses(self):
+        return (sum(card.priority for card in self.active_cards
+                   if card not in (self.style, self.base)) +
+                sum(card.get_priority_bonus()
+                    for card in self.active_cards) +
+                self.get_priority_bonus() + 
+                self.triggered_priority_bonus + 
+                self.opponent.give_priority_penalty())
     def get_priority (self):
         priority = self.get_priority_bonus() + self.triggered_priority_bonus + \
                    sum(card.priority+card.get_priority_bonus()
@@ -2049,6 +2197,14 @@ class Character (object):
             return self.style.power + self.base.power
         else:
             return self.alt_pair_power
+    def get_power_bonuses(self):
+        return (sum(card.power for card in self.active_cards
+                   if card not in (self.style, self.base)) +
+                sum(card.get_power_bonus()
+                    for card in self.active_cards) +
+                self.get_power_bonus() + 
+                self.triggered_power_bonus + 
+                self.opponent.give_power_penalty())
     def get_power (self):
         if self.alt_pair_power is None:
             card_power = sum(card.power + card.get_power_bonus()
@@ -2073,15 +2229,22 @@ class Character (object):
                    sum(card.minrange+card.get_minrange_bonus()
                         for card in self.active_cards) + \
                    self.opponent.give_minrange_penalty()
-        if self.opponent.blocks_range_bonuses():
+        if self.opponent.blocks_minrange_bonuses():
             minrange = min (minrange, self.style.minrange + self.base.minrange)
         return minrange
+    def get_maxrange_bonuses(self):
+        return (sum(card.maxrange for card in self.active_cards
+                   if card not in (self.style, self.base)) +
+                sum(card.get_maxrange_bonus()
+                    for card in self.active_cards) +
+                self.get_maxrange_bonus() + 
+                self.opponent.give_maxrange_penalty())
     def get_maxrange (self):
         maxrange = self.get_maxrange_bonus() + \
                    sum(card.maxrange+card.get_maxrange_bonus()
                         for card in self.active_cards) + \
                    self.opponent.give_maxrange_penalty()
-        if self.opponent.blocks_range_bonuses():
+        if self.opponent.blocks_maxrange_bonuses():
             maxrange = min (maxrange, self.style.maxrange + self.base.maxrange)
         return maxrange
     def get_priority_bonus (self):
@@ -2240,7 +2403,9 @@ class Character (object):
         return False
     def blocks_power_bonuses (self):
         return False
-    def blocks_range_bonuses (self):
+    def blocks_minrange_bonuses (self):
+        return False
+    def blocks_maxrange_bonuses (self):
         return False
     # block effects of tokens anted and spent
     # cannot refer to self.active_cards, because it is used in making it
@@ -2394,6 +2559,11 @@ class Character (object):
     # discard a token if possible, report which token was discarded
     # or False if none
     # if token = None, you choose
+    # Doesn't allow discarding induced tokens.
+    # That's ok, because:
+    #     1. Your own powers only cause you to discard your own tokens.
+    #     2. The characters that dole out tokens don't have powers that
+    #        cause them to be discarded.
     def discard_token (self, token = None, verb = "discard"):
         if not self.pool:
             return False
@@ -2531,10 +2701,7 @@ class Character (object):
             # convert relative moves to destinations
             dests = self.get_destinations(mover, moves)
         # obtain set of spaces blocked by opponent
-        if mover == self:
-            blocked = self.opponent.blocks_movement (direct)
-        else:
-            blocked = self.opponent.blocks_pullpush()
+        blocked = self.get_blocked_spaces(mover, direct)
         # record this for later inspection
         self.blocked = blocked
         # compute possible destinations after blocking
@@ -2570,6 +2737,12 @@ class Character (object):
             # then I was forced into attempting the block
             if dests:
                 self.forced_block = True
+
+    def get_blocked_spaces(self, mover, direct):
+        if mover == self:
+            return self.opponent.blocks_movement(direct)
+        else:
+            return self.opponent.blocks_pullpush()
             
     # given player moving/being moved, and set of relative moves,
     # return possible destinations, taking into account board size
@@ -2622,6 +2795,14 @@ class Character (object):
         return - self.game.range_weight * \
                       (self.preferred_range - self.game.distance()) ** 2
 
+    # Some characters (Tanis, Arec with clone) can choose their 
+    # position at the start of next beat.  They should return a list
+    # of possible positions.
+    def get_superposed_positions(self):
+        return [self.position]
+    def get_superposition_priority(self):
+        return self.game.CHOOSE_POSITION_NOW
+
     # opponent's life (negative)
     # special bonuses accumulated,
     # square difference between my preferred range and current range (negative)
@@ -2644,10 +2825,13 @@ class Character (object):
                             for finisher in self.finishers])
                        if (self.life <= 7) else 0)) \
                     if self.special_action_available else 0)
+        status_effect_bonus = sum([status.value for status in 
+                                   self.pending_status_effects])
 
-        return - self.opponent.effective_life() + self.evaluation_bonus \
-               + self.evaluate_range() + card_bonus \
-               + discard_penalty + special_action_bonus
+        return (- self.opponent.effective_life() + self.evaluation_bonus
+                + self.evaluate_range() + card_bonus
+                + discard_penalty + special_action_bonus 
+                + status_effect_bonus)
 
     # traits that are useful for AI opponents to know about
 
@@ -2669,6 +2853,11 @@ class Character (object):
     def fix_strategies_post_clash (self, strats, opp_orig):
         return strats
     
+    def pre_attack_decision_effects(self):
+        pass
+    def pre_attack_decision_report(self, decision):
+        return []
+
     # How many spaces can I retreat?
     def retreat_range(self):
         me = self.position
@@ -2832,6 +3021,163 @@ class NullBase (Base):
 class Token (Card):
     value = 0
 
+# Represents a status effect (effect that gives a bonus/penalty
+# next turn).
+class StatusEffect(Card):
+    def read_my_state(self, lines):
+        line = find_start_line(lines, self.read_state_prefix)
+        if line:
+            self.me.active_status_effects.append(self)
+        # In case inherited method wants to do more with the line.
+        return line
+    def situation_report(self, report):
+        if self in self.me.active_status_effects:
+            report.append(self.situation_report_line)
+    # Only save/restore pending effects.
+    # Active effects can't change during the beat.
+    # No need to reset pending effects - we remove the object
+    # from the pending_status_effects list.
+    # No need to rest/save/restore/move the object itself,
+    # that is handled by Character code.
+    # Only do something if StatusEffect has variable parameters.
+    def full_save(self, state):
+        pass
+    def full_restore(self, state):
+        pass
+    # Move pending effects to active state.
+    def prepare_next_beat(self):
+        pass
+    def activate(self):
+        self.me.pending_status_effects.append(self)
+        if self.game.reporting:
+            self.game.report(self.activation_line)
+
+class PowerBonusStatusEffect(StatusEffect):
+    read_state_prefix = "Power bonus: "
+    @property
+    def situation_report_line(self):
+        return ("Power bonus: %d" % 
+                self.me.active_power_bonus)
+    @property
+    def activation_line(self):
+        return ("%s will have %d power next beat" %
+                (self.me.name, self.me.pending_power_bonus))
+    @property
+    def value(self):
+        return 0.3 * self.me.pending_power_bonus
+    def read_my_state(self, lines):
+        line = StatusEffect.read_my_state(self, lines)
+        if line:
+            self.me.active_power_bonus = int(line.split()[2])
+    def full_save(self, state):
+        state.pending_power_bonus = self.me.pending_power_bonus
+    def full_restore(self, state):
+        self.me.pending_power_bonus = state.pending_power_bonus
+    def prepare_next_beat(self):
+        self.me.active_power_bonus = self.me.pending_power_bonus
+    def activate(self, bonus):
+        self.me.pending_power_bonus = bonus
+        StatusEffect.activate(self)
+    def get_power_bonus(self):
+        return self.me.active_power_bonus
+
+class PriorityBonusStatusEffect(StatusEffect):
+    read_state_prefix = "Priority bonus: "
+    @property
+    def situation_report_line(self):
+        return ("Priority bonus: %d" % 
+                self.me.active_priority_bonus)
+    @property
+    def activation_line(self):
+        return ("%s will have %d priority next beat" %
+                (self.me.name, self.me.pending_priority_bonus))
+    @property
+    def value(self):
+        return 0.3 * self.me.pending_priority_bonus
+    def read_my_state(self, lines):
+        line = StatusEffect.read_my_state(self, lines)
+        if line:
+            self.me.active_priority_bonus = int(line.split()[2])
+    def full_save(self, state):
+        state.pending_priority_bonus = self.me.pending_priority_bonus
+    def full_restore(self, state):
+        self.me.pending_priority_bonus = state.pending_priority_bonus
+    def prepare_next_beat(self):
+        self.me.active_priority_bonus = self.me.pending_priority_bonus
+    def activate(self, bonus):
+        self.me.pending_priority_bonus = bonus
+        StatusEffect.activate(self)
+    def get_priority_bonus(self):
+        return self.me.active_priority_bonus
+
+class PowerPenaltyStatusEffect(StatusEffect):
+    # Penalty represented by negative number
+    read_state_prefix = "Opponent has power penalty: -"
+    @property
+    def situation_report_line(self):
+        return ("Opponent has power penalty: %d" % 
+                self.me.active_power_penalty)
+    @property
+    def activation_line(self):
+        return ("%s will have %d priority next beat" %
+                (self.opponent.name, self.me.pending_power_penalty))
+    @property
+    def value(self):
+        return 0.3 * -self.me.pending_power_penalty
+    def read_my_state(self, lines):
+        line = StatusEffect.read_my_state(self, lines)
+        if line:
+            self.me.active_power_penalty = int(line.split([4]))
+    def full_save(self, state):
+        state.pending_power_penalty = self.me.pending_power_penalty
+    def full_restore(self, state):
+        self.me.pending_power_penalty = state.pending_power_penalty
+    def prepare_next_beat(self):
+        self.me.active_power_penalty = self.me.pending_power_penalty
+    def activate(self, penalty):
+        self.me.pending_power_penalty = penalty
+        StatusEffect.activate(self)
+    def give_power_penalty(self):
+        return self.me.active_power_penalty
+
+class PriorityPenaltyStatusEffect(StatusEffect):
+    # Penalty represented by negative number
+    read_state_prefix = "Opponent has priority penalty: -"
+    @property
+    def situation_report_line(self):
+        return ("Opponent has priority penalty: %d" % 
+                self.me.active_priority_penalty)
+    @property
+    def activation_line(self):
+        return ("%s will have %d priority next beat" %
+                (self.opponent.name, self.me.pending_priority_penalty))
+    @property
+    def value(self):
+        return 0.3 * -self.me.pending_priority_penalty
+    def read_my_state(self, lines):
+        line = StatusEffect.read_my_state(self, lines)
+        if line:
+            self.me.active_priority_penalty = int(line.split([4]))
+    def full_save(self, state):
+        state.pending_priority_penalty = self.me.pending_priority_penalty
+    def full_restore(self, state):
+        self.me.pending_priority_penalty = state.pending_priority_penalty
+    def prepare_next_beat(self):
+        self.me.active_priority_penalty = self.me.pending_priority_penalty
+    def activate(self, penalty):
+        self.me.pending_priority_penalty = penalty
+        StatusEffect.activate(self)
+    def give_priority_penalty(self):
+        return self.me.active_priority_penalty
+
+class OpponentImmobilizedStatusEffect(StatusEffect):
+    read_state_prefix = "Opponent is immobilized"
+    situation_report_line = "Opponent is immobilized"
+    activation_line = "Opponent will be immobilized next beat"
+    value = 3.5
+    def blocks_movement(self, direct):
+        return set(xrange(7))
+        
 # raised at fork points to throw simulation back up to main simulate() method
 class ForkException (Exception):
     def __init__ (self, n_options, player):
@@ -3363,13 +3709,13 @@ class Arec (Character):
     def blocks_start_triggers(self):
         return self.fear in self.active_cards
     def blocks_before_triggers(self):
-        return self.recklessness in self.active_cards
+        return self.hesitation in self.active_cards
     def blocks_hit_triggers(self):
         return self.mercy in self.active_cards
     def blocks_damage_triggers(self):
         return self.mercy in self.active_cards
     def blocks_after_triggers(self):
-        return self.recklessness in self.active_cards
+        return self.hesitation in self.active_cards
     def blocks_end_triggers(self):
         return self.fear in self.active_cards
     
@@ -3398,9 +3744,9 @@ class Arec (Character):
         
     # Token blocks opponent's bonuses
     def blocks_power_bonuses(self):
-        return self.hesitation in self.active_cards
+        return self.recklessness in self.active_cards
     def blocks_priority_bonuses(self):
-        return self.hesitation in self.active_cards
+        return self.recklessness in self.active_cards
     
     # Token blocks own bonuses
     def get_priority (self):
@@ -3427,34 +3773,23 @@ class Arec (Character):
             self.opponent.lose_life(2)
         self.manipulative_base = None
 
+    def get_superposed_positions(self):
+        if self.clone_position is None:
+            return [self.position]
+        else:
+            # Since Arec only moves in the ante phase, he gives
+            # the clone position even if it's on the opponent
+            # (the opponent might move before attack pairs are set).
+            return [self.position, self.clone_position]
+    def get_superposition_priority(self):
+        if self.clone_position is None:
+            return self.game.CHOOSE_POSITION_NOW
+        else:
+            return self.game.CHOOSE_POSITION_IN_ANTE
+
     def evaluate (self):
-        base_eval = Character.evaluate(self)
-        # To evaluate a clone, give the best evaluation of 
-        # real position and clone position.
-        if self.clone_position is not None:
-            # Check my and opponent's evaluation in current position,
-            # and from clone position.
-            my_eval = base_eval
-            opp_eval = self.opponent.evaluate()
-            real_pos = self.position
-            self.position = self.clone_position
-            my_clone_eval = Character.evaluate(self)
-            opp_clone_eval = self.opponent.evaluate()
-            self.position = real_pos
-            # Real evaluation is best of the two.
-            base_eval = max(my_eval - opp_eval, 
-                       my_clone_eval - opp_clone_eval)
-            # However, since this has already subtracted opponent's
-            # evalutaion (and it shouldn't), we need to cancel out
-            # opponent's actual evaluation.
-            base_eval += opp_eval
-            # Give bonus for having a clone position at all, and keeping
-            # the opponent guessing.  Bonus is larger clone position has
-            # different range from real position.
-            my_range = abs(self.position - self.opponent.position)
-            clone_range = abs(self.clone_position - self.opponent.position) 
-            base_eval += 0.3 * (abs(my_range - clone_range) + 1)
-        elif self.manipulative_base is not None and self.opponent.life > 1:
+        eval = (Character.evaluate(self) + sum(t.value for t in self.pool))
+        if self.manipulative_base is not None and self.opponent.life > 1:
             # Compare opponent's evalutation with and without chosen base.
             opp_eval = self.opponent.evaluate()
             real_preferred_range = self.opponent.preferred_range
@@ -3469,9 +3804,8 @@ class Arec (Character):
             base_value = base_value / 10.0 + 1
             if self.opponent.life == 2:
                 base_value /= 2
-            base_eval += base_value
-        # Assuming that token values are independent of position.
-        return base_eval + sum(t.value for t in self.pool)
+            eval += base_value
+        return eval
         
 class Aria (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
@@ -3653,6 +3987,7 @@ class Byron (Character):
                        Breathless (the_game, self)  ]
         self.finishers = [SoulTrap (the_game, self),
                           SoulGate (the_game, self)]
+        self.status_effects = [PriorityBonusStatusEffect(the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.starting_life = 15
     
@@ -3663,21 +3998,15 @@ class Byron (Character):
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
         self.mask_emblems = 5
-        self.priority_bonus = 0
         
     def situation_report (self):
         report = Character.situation_report (self)
         report.append ("%d Mask emblems" %self.mask_emblems)
-        if self.priority_bonus > 0:
-            report.append ("Byron has +%d priority this beat" % self.priority_bonus)
         return report
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
         self.mask_emblems = int(lines[0][0])
-        line = find_start_line(lines, "Byron has +")
-        # assuming priority bonus is one digit
-        self.priority_bonus = int(line[11]) if line else 0
         
     def initial_save (self):
         state = Character.initial_save (self)
@@ -3693,7 +4022,6 @@ class Byron (Character):
         self.emblems_discarded = 0
         self.heartless_ignore_soak = False
         self.heartless_soak = False
-        self.priority_bonus_next_beat = 0
         Character.reset (self)
 
     def full_save (self):
@@ -3702,7 +4030,6 @@ class Byron (Character):
         state.emblems_discarded = self.emblems_discarded
         state.heartless_ignore_soak = self.heartless_ignore_soak
         state.heartless_soak = self.heartless_soak
-        state.priority_bonus_next_beat = self.priority_bonus_next_beat
         return state
 
     def full_restore (self, state):
@@ -3711,14 +4038,6 @@ class Byron (Character):
         self.emblems_discarded = state.emblems_discarded
         self.heartless_ignore_soak = state.heartless_ignore_soak
         self.heartless_soak = state.heartless_soak
-        self.priority_bonus_next_beat = state.priority_bonus_next_beat
-
-    def prepare_next_beat (self):
-        Character.prepare_next_beat (self)
-        self.priority_bonus = self.priority_bonus_next_beat
-        
-    def get_priority_bonus (self):
-        return self.priority_bonus
 
     def discard_emblem (self):
         if self.mask_emblems > 0:
@@ -3749,7 +4068,7 @@ class Byron (Character):
         if self.base.name == 'Smoke':
             maxrange = self.base.maxrange + \
                        self.opponent.give_maxrange_penalty()
-            if self.opponent.blocks_range_bonuses():
+            if self.opponent.blocks_maxrange_bonuses():
                 maxrange = min (maxrange, self.base.maxrange)
         else:
             maxrange = Character.get_maxrange(self)
@@ -3759,7 +4078,7 @@ class Byron (Character):
         if self.base.name == 'Smoke':
             minrange = self.base.minrange + \
                        self.opponent.give_minrange_penalty()
-            if self.opponent.blocks_range_bonuses():
+            if self.opponent.blocks_minrange_bonuses():
                 minrange = min (minrange, self.base.minrange)
         else:
             minrange = Character.get_minrange(self)
@@ -3799,6 +4118,7 @@ class Cadenza (Character):
                        Mechanical (the_game, self)  ]
         self.finishers = [RocketPress   (the_game, self),
                            FeedbackField (the_game, self)]
+        self.status_effects = [PriorityBonusStatusEffect(the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.iron_body = IronBody  (the_game, self)
         self.tokens = [self.iron_body]
@@ -3806,7 +4126,6 @@ class Cadenza (Character):
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
         self.pool = [self.iron_body] * 3
-        self.priority_bonus = False
 
     def choose_initial_discards (self):
         return (self.hydraulic, self.burst,
@@ -3815,37 +4134,27 @@ class Cadenza (Character):
     def situation_report (self):
         report = Character.situation_report (self)
         report.append ("%d Iron Body tokens" %len (self.pool))
-        if self.priority_bonus:
-            report.append ("+4 priority from last beat")
         return report
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
         self.pool = [self.iron_body] * int(lines[0][0])
-        self.priority_bonus = find_start (lines, "+4 priority")
 
     def reset (self):
         self.token_spent = False
-        self.priority_bonus_next_beat = False
         self.damage_soaked = 0
         Character.reset (self)
 
     def full_save (self):
         state = Character.full_save (self)
         state.token_spent = self.token_spent
-        state.priority_bonus_next_beat = self.priority_bonus_next_beat
         state.damage_soaked = self.damage_soaked
         return state
 
     def full_restore (self, state):
         Character.full_restore (self, state)
         self.token_spent = state.token_spent
-        self.priority_bonus_next_beat = state.priority_bonus_next_beat
         self.damage_soaked = state.damage_soaked
-
-    def prepare_next_beat (self):
-        Character.prepare_next_beat (self)
-        self.priority_bonus = self.priority_bonus_next_beat
 
     def get_antes (self):
         if self.pool:
@@ -3866,10 +4175,6 @@ class Cadenza (Character):
 
     def get_ante_name (self, a):
         return ("Iron Body" if a==1 else "")
-
-    def get_priority_bonus (self):
-        return 4 if (self.priority_bonus and
-                     not self.game.status_effects_blocked()) else 0
 
     def get_stunguard (self):
         return (1000000 if self.token_spent else Character.get_stunguard(self))
@@ -3905,6 +4210,7 @@ class Cesar (Character):
                        Bulwark     (the_game, self),
                        Inevitable  (the_game, self)  ]
         self.finishers = [Level4Protocol (the_game, self)]
+        self.status_effects = [PowerPenaltyStatusEffect(the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def choose_initial_discards (self):
@@ -3915,56 +4221,29 @@ class Cesar (Character):
         Character.set_starting_setup (self, default_discards, use_special_actions)
         self.threat_level = 0
         self.defeat_immunity = True
-        self.power_penalty = False
 
     def situation_report (self):
         report = Character.situation_report (self)
         report.append ("Threat level: %d" % self.threat_level)
         if not self.defeat_immunity:
             report.append("Defeat immunity used-up")
-        if self.power_penalty:
-            report.append ("Opponent has -3 power this beat")
         return report
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
         self.threat_level = int(lines[0][-2])
-        self.power_penalty = find_start (lines, "Opponent has -3 power this beat")
         self.defeat_immunity = not find_start(lines, "Defeat immunity used")
         
     def initial_save (self):
         state = Character.initial_save (self)
         state.threat_level = self.threat_level
-        state.power_penalty = self.power_penalty
         state.defeat_immunity = self.defeat_immunity
         return state
 
     def initial_restore (self, state):
         Character.initial_restore (self, state)
         self.threat_level = state.threat_level
-        self.power_penalty = state.power_penalty
         self.defeat_immunity = state.defeat_immunity
-
-    def reset (self):
-        Character.reset (self)
-        self.power_penalty_next_beat = False
-
-    def full_save (self):
-        state = Character.full_save (self)
-        state.power_penalty_next_beat = self.power_penalty_next_beat
-        return state
-
-    def full_restore (self, state):
-        Character.full_restore (self, state)
-        self.power_penalty_next_beat = state.power_penalty_next_beat
-
-    def prepare_next_beat (self):
-        Character.prepare_next_beat (self)
-        self.power_penalty = self.power_penalty_next_beat
-        
-    def give_power_penalty (self):
-        return -3 if (self.power_penalty and
-                     not self.game.status_effects_blocked()) else 0
 
     def ante_trigger (self):
         self.gain_threat_level()
@@ -4054,47 +4333,13 @@ class Claus (Character):
                        Cyclone   (the_game, self),
                        Downdraft (the_game, self)  ]
         self.finishers = [AutumnsAdvance (the_game, self)]
+        self.status_effects = [PriorityBonusStatusEffect(the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
-
-    def set_starting_setup (self, default_discards, use_special_actions):
-        Character.set_starting_setup (self, default_discards, use_special_actions)
-        self.priority_penalty = False
 
     def choose_initial_discards (self):
         return (self.hurricane, self.grasp,
                 self.cyclone, self.shot)
 
-    def situation_report (self):
-        report = Character.situation_report (self)
-        if self.priority_penalty:
-            report.append ("-4 priority from last beat")
-        return report
-
-    def read_my_state (self, lines, board, addendum):
-        lines = Character.read_my_state (self, lines, board, addendum)
-        self.priority_penalty = find_start (lines, '-4 priority from last beat')
-
-    def reset (self):
-        Character.reset (self)
-        self.priority_penalty_next_beat = False
-
-    def full_save (self):
-        state = Character.full_save (self)
-        state.priority_penalty_next_beat = self.priority_penalty_next_beat
-        return state
-
-    def full_restore (self, state):
-        Character.full_restore (self, state)
-        self.priority_penalty_next_beat = state.priority_penalty_next_beat
-
-    def prepare_next_beat (self):
-        Character.prepare_next_beat (self)
-        self.priority_penalty = self.priority_penalty_next_beat
-
-    def get_priority_bonus(self):
-        return -4 if (self.priority_penalty and
-                     not self.game.status_effects_blocked()) else 0
-        
     # Implement's Claus's movement rule: when you would pass over an 
     # opponent, stop short and push opponent instead, causing damage
     # for spaces moved.
@@ -4724,6 +4969,7 @@ class Eligor (Character):
                        Retribution  (the_game, self)  ]
         self.finishers = [SweetRevenge   (the_game, self),
                            SheetLightning (the_game, self)]
+        self.status_effects = [OpponentImmobilizedStatusEffect(the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.vengeance = VengeanceT (the_game, self)
         self.tokens = [self.vengeance]
@@ -4732,7 +4978,6 @@ class Eligor (Character):
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
         self.pool = 2 * [self.vengeance]
-        self.opponent_immobilized = False
 
     def choose_initial_discards (self):
         return (self.martial, self.grasp,
@@ -4741,32 +4986,11 @@ class Eligor (Character):
     def situation_report (self):
         report = Character.situation_report (self)
         report.append ("%d Vengeance tokens" %len(self.pool))
-        if self.opponent_immobilized:
-            report.append (self.opponent.name + "is immobilized")
         return report
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
         self.pool = [self.vengeance] * int(lines[0][0])
-        self.opponent_immobilized = find_end (lines, "is immobilized\n")
-
-    def reset (self):
-        self.opponent_immobilized_next_beat = False
-        Character.reset (self)
-
-    def full_save (self):
-        state = Character.full_save (self)
-        state.opponent_immobilized_next_beat = \
-            self.opponent_immobilized_next_beat
-        return state
-
-    def full_restore (self, state):
-        Character.full_restore (self, state)
-        self.opponent_immobilized_next_beat = \
-            state.opponent_immobilized_next_beat
-
-    def prepare_next_beat (self):
-        self.opponent_immobilized = self.opponent_immobilized_next_beat
 
     def get_antes (self):
         return range (len(self.pool) + 1)
@@ -4801,11 +5025,6 @@ class Eligor (Character):
         if self.retribution in self.active_cards:
             self.recover_tokens (min(soaked_damage, 2))
         
-    def blocks_movement (self, direct):
-        return (set(xrange(7)) if (self.opponent_immobilized and
-                             not self.game.status_effects_blocked())
-                else Character.blocks_movement(self, direct))
-
     def get_minimum_life (self):
         return 1 if self.base.name == 'Sweet Revenge' \
                else Character.get_minimum_life(self)
@@ -4823,6 +5042,7 @@ class Heketch (Character):
                        Psycho    (the_game, self)  ]
         self.finishers = [MillionKnives   (the_game, self),
                            LivingNightmare (the_game, self)]
+        self.status_effects = [OpponentImmobilizedStatusEffect(the_game, self)] 
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.dark_force = DarkForce (the_game, self)
         self.tokens = [self.dark_force]
@@ -4831,7 +5051,6 @@ class Heketch (Character):
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
         self.pool = [self.dark_force]
-        self.assassin_immobilized = False
         self.living_nightmare_active = False
 
     def choose_initial_discards (self):
@@ -4842,8 +5061,6 @@ class Heketch (Character):
         report = Character.situation_report (self)
         if len(self.pool) == 1:
             report.append ("Dark Force in pool")
-        if self.assassin_immobilized:
-            report.append (self.opponent.name + "is immobilized")
         if self.living_nightmare_active:
             report.append ("Living Nightmare active")
         return report
@@ -4852,41 +5069,23 @@ class Heketch (Character):
         lines = Character.read_my_state (self, lines, board, addendum)
         self.pool = ([self.dark_force] if find_start(lines, 'Dark Force')
                      else [])
-        self.assassin_immobilized = find_end(lines, "is immobilized\n")
         self.living_nightmare_active = find_start(lines, "Living Nightmare active")
 
-    def initial_save (self):
-        state = Character.initial_save (self)
-        state.living_nightmare_active = self.living_nightmare_active
-        return state
-
-    def initial_restore (self, state):
-        Character.initial_restore (self, state)
-        self.living_nightmare_active = state.living_nightmare_active
-
     def reset (self):
-        self.assassin_immobilized_next_beat = False
         self.merciless_immobilized = False
         self.merciless_dodge = False
         Character.reset (self)
 
     def full_save (self):
         state = Character.full_save (self)
-        state.assassin_immobilized_next_beat = \
-            self.assassin_immobilized_next_beat
         state.merciless_immobilized = self.merciless_immobilized
         state.merciless_dodge = self.merciless_dodge
         return state
 
     def full_restore (self, state):
         Character.full_restore (self, state)
-        self.assassin_immobilized_next_beat = \
-            state.assassin_immobilized_next_beat
         self.merciless_immobilized = state.merciless_immobilized
         self.merciless_dodge = state.merciless_dodge
-
-    def prepare_next_beat (self):
-        self.assassin_immobilzied = self.assassin_immobilized_next_beat
 
     # 0 is no ante
     # -1,1 are ante and going to the left/right of opponent
@@ -4938,13 +5137,8 @@ class Heketch (Character):
             self.opponent.stun (damage)
 
     def blocks_movement (self, direct):
-        if (self.assassin_immobilized and
-            not self.game.status_effects_blocked()) \
-           or self.merciless_immobilized:
-            # block everything
-            return set(xrange(7))
-        else:
-            return set()
+        return (set(xrange(7)) if self.merciless_immobilized
+                else Character.blocks_movement(self, direct))
 
     # overrides default method, which I set to pass for performance
     def movement_reaction (self, mover, old_position, direct):
@@ -5220,12 +5414,12 @@ class Kallistar (Character):
                        Blazing  (the_game,self)  ]
         self.finishers = [Supernova          (the_game, self),
                            ChainOfDestruction (the_game, self)]
+        self.status_effects = [PriorityPenaltyStatusEffect(the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
         self.is_elemental = False
-        self.priority_penalty = False
 
     def choose_initial_discards (self):
         return (self.flare, self.strike,
@@ -5237,14 +5431,11 @@ class Kallistar (Character):
             report.append ("Elemental Form")
         else:
             report.append ("Human Form")
-        if self.priority_penalty:
-            report.append ("Opponent at -2 priority from last beat")
         return report
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
         self.is_elemental = find_start (lines, 'Elemental')
-        self.priority_penalty = find_start (lines, 'Opponent at -2')
 
     def initial_save (self):
         state = Character.initial_save (self)
@@ -5255,23 +5446,6 @@ class Kallistar (Character):
         Character.initial_restore (self, state)
         self.is_elemental = state.is_elemental
 
-    def reset (self):
-        Character.reset (self)
-        self.priority_penalty_next_beat = False
-
-    def full_save (self):
-        state = Character.full_save (self)
-        state.priority_penalty_next_beat = self.priority_penalty_next_beat
-        return state
-
-    def full_restore (self, state):
-        Character.full_restore (self, state)
-        self.priority_penalty_next_beat = state.priority_penalty_next_beat
-
-    def prepare_next_beat (self):
-        Character.prepare_next_beat (self)
-        self.priority_penalty = self.priority_penalty_next_beat
-        
     def get_priority_bonus (self):
         return 2*self.is_elemental
 
@@ -5284,10 +5458,6 @@ class Kallistar (Character):
             soak += 1
         return soak
     
-    def give_priority_penalty (self):
-        return -2 if (self.priority_penalty and
-                     not self.game.status_effects_blocked()) else 0
-
     def ante_trigger (self):
         if self.is_elemental:
             self.lose_life (1)
@@ -5606,11 +5776,11 @@ class Lixis (Character):
                        Vine         (the_game,self), \
                        Pruning      (the_game,self)  ]
         self.finishers = [VirulentMiasma (the_game, self)]
+        self.status_effects = [PriorityPenaltyStatusEffect(the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
-        self.priority_penalty = False
         self.virulent_miasma = False
     
     def choose_initial_discards (self):
@@ -5619,15 +5789,12 @@ class Lixis (Character):
 
     def situation_report (self):
         report = Character.situation_report (self)
-        if self.priority_penalty:
-            report.append ("Opponent at -2 priority from last beat")
         if self.virulent_miasma:
             report.append ("Virulent Miasma is active")
         return report
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
-        self.priority_penalty = find_start (lines, 'Opponent at -2')
         self.virulent_miasma = find_start (lines, 'Virulent Miasma')
 
     def initial_save (self):
@@ -5639,23 +5806,6 @@ class Lixis (Character):
         Character.initial_restore (self, state)
         self.virulent_miasma = state.virulent_miasma
 
-    def reset (self):
-        Character.reset (self)
-        self.priority_penalty_next_beat = False
-
-    def full_save (self):
-        state = Character.full_save (self)
-        state.priority_penalty_next_beat = self.priority_penalty_next_beat
-        return state
-
-    def full_restore (self, state):
-        Character.full_restore (self, state)
-        self.priority_penalty_next_beat = state.priority_penalty_next_beat
-
-    def prepare_next_beat (self):
-        Character.prepare_next_beat (self)
-        self.priority_penalty = self.priority_penalty_next_beat
-        
     def hit_trigger (self):
         Character.hit_trigger (self)
         # opponent discards base
@@ -5673,11 +5823,9 @@ class Lixis (Character):
         self.evaluation_bonus += 2
 
     def give_priority_penalty (self):
-        penalty = 0
-        if self.priority_penalty and not self.game.status_effects_blocked():
-            penalty -= 2
+        penalty = Character.give_priority_penalty(self)
         # If Virulent Miasma is active and opponent started beat with 1 life,
-        #she gets a priority penalty
+        # she gets a priority penalty
         if self.virulent_miasma and \
            self.game.initial_state.player_states[1-self.my_number].life == 1:
             penalty -= 3
@@ -5705,7 +5853,9 @@ class Lixis (Character):
         return self.naturalizing in self.active_cards
     def blocks_power_bonuses (self):
         return self.naturalizing in self.active_cards
-    def blocks_range_bonuses (self):
+    def blocks_minrange_bonuses (self):
+        return self.naturalizing in self.active_cards
+    def blocks_maxrange_bonuses (self):
         return self.naturalizing in self.active_cards
     # block effects of tokens anted and spent
     # cannot refer to self.active_cards, because it is used in making it
@@ -6323,7 +6473,7 @@ class Ottavia (Character):
         # Then, make a new strategy list, with one guess for each
         # possible opponent priority (keeping the index of the original
         # fake strat).
-        full_strats = [((s[0][0], s[0][1], (p, s[0][2][1])), s[1])
+        full_strats = [((s[0][0], s[0][1], (p, s[0][2][1], None)), s[1])
                        for s in strats_without_guesses for p in priorities]
 
         n = len(full_strats)
@@ -6344,7 +6494,7 @@ class Ottavia (Character):
                     is_correct = (my_strat[2][0] == 
                         fake_results[my_fake_index][j][1].player_states[0].opponent_priority_pre_penalty)
                     fake_strat = (my_strat[0], my_strat[1],
-                                  (is_correct, my_strat[2][1]))
+                                  (is_correct, my_strat[2][1], None))
                     fake_i = fake_strats.index(fake_strat)
                     full_results[i][j] = fake_results[fake_i][j]
         else:
@@ -6359,7 +6509,7 @@ class Ottavia (Character):
                     is_correct = (my_strat[2][0] == 
                         fake_results[i][my_fake_index][1].player_states[1].opponent_priority_pre_penalty)
                     fake_strat = (my_strat[0], my_strat[1],
-                                  (is_correct, my_strat[2][1]))
+                                  (is_correct, my_strat[2][1], None))
                     fake_j = fake_strats.index(fake_strat)
                     full_results[i][j] = fake_results[i][fake_j]
 
@@ -6871,12 +7021,12 @@ class Seth (Character):
         opp_strats = self.opponent.strats
         fake_results = self.game.results
 
-        # For each pair of Seth's strategies (same except for guess correctness),
-        # pick one.
+        # For each pair of Seth's strategies (same except for guess 
+        # correctness), pick one.
         strats_without_guesses = [s for s in fake_strats
                                  if s[2][0] is False]
         # Then, make a new strategy list, with 5 actual guess per strategy.
-        full_strats = [(s[0], s[1], (b, s[2][1]))
+        full_strats = [(s[0], s[1], (b, s[2][1], None))
                        for s in strats_without_guesses for b in bases]
 
         n = len(full_strats)
@@ -6892,8 +7042,8 @@ class Seth (Character):
                     opp_strat = opp_strats[j]
                     is_correct = (my_strat[2][0] == opp_strat[1])
                     fake_strat = (my_strat[0],
-                                     my_strat[1],
-                                     (is_correct, my_strat[2][1]))
+                                  my_strat[1],
+                                  (is_correct, my_strat[2][1], None))
                     fake_i = fake_strats.index(fake_strat)
                     full_results[i][j] = fake_results[fake_i][j]
         else:
@@ -6904,8 +7054,8 @@ class Seth (Character):
                     opp_strat = opp_strats[i]
                     is_correct = (my_strat[2][0] == opp_strat[1])
                     fake_strat = (my_strat[0],
-                                     my_strat[1],
-                                     (is_correct, my_strat[2][1]))
+                                  my_strat[1],
+                                  (is_correct, my_strat[2][1], None))
                     fake_j = fake_strats.index(fake_strat)
                     full_results[i][j] = fake_results[i][fake_j]
 
@@ -6939,7 +7089,7 @@ class Seth (Character):
             # vs. new base chosen.
             correct_new_strat = (my_new_strat[0],
                                  my_new_strat[1],
-                                 (opp_new_strat[1], my_new_strat[2][1]))
+                                 (opp_new_strat[1], my_new_strat[2][1], None))
             try:
                 return my_strats.index(correct_new_strat)
             except Exception as e:
@@ -6959,7 +7109,7 @@ class Seth (Character):
             else:
                 incorrect_new_strat = (my_new_strat[0],
                                        my_new_strat[1],
-                                       (opp_orig_strat[1], my_new_strat[2][1]))
+                                       (opp_orig_strat[1], my_new_strat[2][1], None))
                 try:
                     return my_strats.index(incorrect_new_strat)
                 except Exception as e:
@@ -6980,7 +7130,7 @@ class Seth (Character):
         # Otherwise, check original opponent strategy to see if guess was
         # originally correct, and write that into strategies.
         is_correct = (strats[0][2][0] == opp_orig[1])
-        new_strats = [(s[0], s[1], (is_correct, s[2][1]))
+        new_strats = [(s[0], s[1], (is_correct, s[2][1], None))
                       for s in strats]
         return new_strats
 
@@ -6995,6 +7145,7 @@ class Shekhtur (Character):
                        Spiral      (the_game, self)  ]
         # Soul Breaker isn't fully implemented, so only Coffin Nails is listed
         self.finishers = [CoffinNails (the_game, self)]
+        self.status_effects = [PowerBonusStatusEffect(the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.malice = Malice (the_game, self)
         self.tokens = [self.malice]
@@ -7008,14 +7159,11 @@ class Shekhtur (Character):
         Character.set_starting_setup (self, default_discards, use_special_actions)
         self.pool = 3 * [self.malice]
         self.did_hit_last_beat = False
-        self.unleashed_bonus = False
         self.coffin_nails_hit = False
 
     def situation_report (self):
         report = Character.situation_report (self)
         report.append ("%d Malice tokens" %len(self.pool))
-        if self.unleashed_bonus:
-            report.append ("+1 Power from playing Unleashed last beat")
         if self.coffin_nails_hit:
             report.append ("Opponent has no soak or stunguard (Coffin Nails)")
         if self.did_hit_last_beat:
@@ -7026,7 +7174,6 @@ class Shekhtur (Character):
         lines = Character.read_my_state (self, lines, board, addendum)
         self.pool = [self.malice] * int(lines[0][0])
         self.did_hit_last_beat = find_start (lines, 'Shekhtur hit the opponent')
-        self.unleashed_bonus = find_start (lines, '+1 Power')
         self.coffin_nails_hit = find_end (lines, '(Coffin Nails)\n')
 
     def initial_save (self):
@@ -7038,23 +7185,9 @@ class Shekhtur (Character):
         Character.initial_restore (self, state)
         self.coffin_nails_hit = state.coffin_nails_hit
 
-    def reset (self):
-        self.unleashed_bonus_next_beat = False
-        Character.reset (self)
-
-    def full_save (self):
-        state = Character.full_save (self)
-        state.unleashed_bonus_next_beat = self.unleashed_bonus_next_beat
-        return state
-
-    def full_restore (self, state):
-        Character.full_restore (self, state)
-        self.unleashed_bonus_next_beat = state.unleashed_bonus_next_beat
-
     def prepare_next_beat (self):
         Character.prepare_next_beat (self)
         self.did_hit_last_beat = self.did_hit
-        self.unleashed_bonus = self.unleashed_bonus_next_beat
 
     def get_antes (self):
         n = len(self.pool)
@@ -7079,20 +7212,12 @@ class Shekhtur (Character):
             return "1 token"
         return str(a) + " tokens"
 
-    def get_power_bonus (self):
-        return 1 if (self.unleashed_bonus and
-                     not self.game.status_effects_blocked()) else 0
-
     # shortcut: no other way for opponent to lose all soak
     def reduce_soak (self, soak):
-        return (0 if self.coffin_nails_hit and
-                     not self.game.status_effects_blocked()
-                else soak)
+        return 0 if self.coffin_nails_hit else soak
     # shortcut: no other way for opponent to lose all stunguard
     def reduce_stunguard (self, stunguard):
-        return (0 if self.coffin_nails_hit and
-                     not self.game.status_effects_blocked()
-                else stunguard)
+        return 0 if self.coffin_nails_hit else stunguard
 
     def damage_trigger (self, damage):
         self.recover_tokens (damage)
@@ -7100,6 +7225,169 @@ class Shekhtur (Character):
 
     def evaluate (self):
         return Character.evaluate (self) + 0.3 * len(self.pool)
+
+class Tanis(Character):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
+        self.unique_base = SceneShift  (the_game, self)
+        self.styles = [Valiant     (the_game, self), \
+                       Climactic  (the_game, self), \
+                       Storyteller   (the_game, self), \
+                       Playful  (the_game, self), \
+                       Distressed (the_game, self)  ]
+        self.finishers = [CurtainCall (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
+        self.puppets = [Eris     (the_game, self), 
+                        Loki     (the_game, self), 
+                        Mephisto (the_game, self)]
+        for p in self.puppets:
+            self.__dict__[p.name.lower()] = p
+
+    # TODO: choose
+    def choose_initial_discards (self):
+        return (self.climactic, self.grasp,
+                self.playful, self.unique_base)
+
+    def set_starting_setup (self, default_discards, use_special_actions):
+        Character.set_starting_setup (self, default_discards, use_special_actions)
+        self.possessed_puppet = None
+        if self.is_user:
+            perms = itertools.permutations(self.puppets)
+            options = ['....' + ''.join([puppet.initial for puppet in permutation])
+                       for permutation in perms]
+            print "Choose initial puppet positions:"
+            perm = perms[self.game.menu(options)]
+            for i, puppet in enumerate(perm):
+                puppet.position = i + 4
+        else:
+            (self.mephisto.position, self.eris.position, self.loki.position) = \
+                ((0,1,2) if self.position == 1 else (6,5,4))    
+        self.position = None
+
+    def situation_report (self):
+        report = Character.situation_report (self)
+        if self.possessed_puppet:
+            report.append ("Possessed puppet: %s" % self.possessed_puppet)
+        return report
+
+    board_addendum_lines = 3
+    def get_board_addendum (self):
+        addendum = []
+        for puppet in self.puppets:
+            if puppet.position is not None:
+                line = ['.'] * 7
+                line[puppet.position] = puppet.initial
+                line = ''.join(line)
+                addendum.append(line)
+        return addendum
+
+    def read_my_state (self, lines, board, addendum):
+        lines = Character.read_my_state (self, lines, board, addendum)
+        self.position = None
+        for i, puppet in enumerate(self.puppets):
+            puppet.position = addendum[i].find(puppet.initial)
+        line = find_start_line(lines, 'Possessed puppet:')
+        self.possessed_puppet = None
+        for puppet in self.puppet:
+            if puppet.name in line:
+                self.possessed_puppet = puppet
+                break
+
+    def initial_save (self):
+        state = Character.initial_save (self)
+        state.puppet_positions = [puppet.position 
+                                  for puppet in self.puppets]
+        state.possessed_puppet = self.possessed_puppet
+        return state
+
+    def initial_restore (self, state):
+        Character.initial_restore (self, state)
+        for i,puppet in enumerate(self.puppets):
+            puppet.position = state.puppet_positions[i]
+        self.possessed_puppet = state.possessed_puppet
+    
+    def reset (self):
+        self.switched_sides = False
+        Character.reset (self)
+
+    def full_save (self):
+        state = Character.full_save (self)
+        state.switched_sides = self.switched_sides
+        return state
+
+    def full_restore (self, state):
+        Character.full_restore (self, state)
+        self.switched_sides = state.switched_sides
+        
+    def get_pre_attack_decisions(self):
+        options = [p for p in self.puppets 
+                   if p.position != self.opponent.position and
+                   p is not self.possessed_puppet]
+        return options if options else [self.possessed_puppet]
+    
+    def input_pre_attack_decision_index(self):
+        options = self.get_pre_attack_decisions
+        if len(options) == 1:
+            return 0
+        print "Choose puppet to possess this beat:"
+        return menu([puppet.name for puppet in options])
+
+    def pre_attack_decision_report(self, decision):
+        return ['Tanis possesses %s' % decision]
+
+    # Switch Tanis in.
+    def pre_attack_decision_effects(self):
+        self.possessed_puppet = self.strat[2][2]
+        self.position = self.possessed_puppet.position
+        self.possessed_puppet.position = None
+
+    # Switch Tanis out.
+    def cycle(self):
+        Character.cycle(self)
+        self.possessed_puppet.position = self.position
+        self.position = None
+        
+    def get_superposed_positions(self):
+        return list(set(puppet.position for puppet in 
+                        self.get_pre_attack_decisions()))
+    
+    def get_superposition_priority(self):
+        return self.game.CHOOSE_POSITION_BEFORE_ATTACK_PAIRS
+
+    # Prevent movement into Loki when Valiant.
+    def get_blocked_spaces(self, mover, direct):
+        blocked = Character.get_blocked_spaces(self, mover, direct)
+        if (self.valiant in self.active_cards and 
+            self.loki.position != mover.opponent.position):
+            blocked.add(self.loki.position)
+        return blocked
+            
+    # Record switching sides, for SceneShift
+    # This tracks switching under Tanis' initiative
+    def execute_move (self, mover, moves, direct=False):
+        old_direction = self.position - self.opponent.position
+        Character.execute_move (self, mover, moves, direct)
+        new_direction = self.position - self.opponent.position
+        if old_direction * new_direction < 0:
+            self.switched_sides = True
+    # And this tracks switching under opponent's initiative
+    def movement_reaction (self, mover, old_position, direct):
+        if mover is self:
+            old_direction = old_position - self.opponent.position
+        else:
+            old_direction = self.position - old_position
+        new_direction = self.position - self.opponent.position
+        if old_direction * new_direction < 0:
+            self.switched_sides = True
+
+    def blocks_priority_bonuses (self):
+        return (self.playful in self.active_cards
+                and not self.playful.suspend_blocking)
+    def blocks_power_bonuses (self):
+        return (self.playful in self.active_cards
+                and not self.playful.suspend_blocking)
+    def blocks_maxrange_bonuses (self):
+        return (self.playful in self.active_cards
+                and not self.playful.suspend_blocking)
 
 # Add special case juto and style evaluation
 class Tatsumi (Character):
@@ -7309,6 +7597,7 @@ class Vanaah (Character):
                        Vengeance (the_game, self)  ]
         self.finishers = [DeathWalks     (the_game, self),
                            HandOfDivinity (the_game, self)]
+        self.status_effects = [PriorityPenaltyStatusEffect(the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.divine_rush = DivineRush (the_game, self)
         self.tokens = [self.divine_rush]
@@ -7316,7 +7605,6 @@ class Vanaah (Character):
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
         self.pool = [self.divine_rush]
-        self.priority_penalty = False
 
     def choose_initial_discards (self):
         return (self.vengeance, self.burst,
@@ -7326,8 +7614,6 @@ class Vanaah (Character):
         report = Character.situation_report (self)
         if self.pool:
             report.append ("Divine Rush token in pool")
-        if self.priority_penalty:
-            report.append ("Opponent at -4 priority from last beat")
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -7342,29 +7628,21 @@ class Vanaah (Character):
             self.pool = [self.divine_rush]
         else:
             self.discard[token_location].add(self.divine_rush)
-        self.priority_penalty = find_start (lines, 'Opponent at -4')
 
     def reset (self):
         self.judgment_catch_in_reveal_phase = False
-        self.priority_penalty_next_beat = False
         Character.reset (self)
 
     def full_save (self):
         state = Character.full_save (self)
         state.judgment_catch_in_reveal_phase = \
                                             self.judgment_catch_in_reveal_phase
-        state.priority_penalty_next_beat = self.priority_penalty_next_beat
         return state
 
     def full_restore (self, state):
         Character.full_restore (self, state)
         self.judgment_catch_in_reveal_phase = \
                                             state.judgment_catch_in_reveal_phase
-        self.priority_penalty_next_beat = state.priority_penalty_next_beat
-
-    def prepare_next_beat (self):
-        Character.prepare_next_beat (self)
-        self.priority_penalty = self.priority_penalty_next_beat
 
     def get_antes (self):
         return range (len(self.pool) + 1)
@@ -7383,10 +7661,6 @@ class Vanaah (Character):
     def get_ante_name (self, a):
         return ("Divine Rush" if a==1 else "")
         
-    def give_priority_penalty (self):
-        return -4 if (self.priority_penalty and
-                     not self.game.status_effects_blocked()) else 0
-
     # when vanaah antes/discards her token, she puts it
     # into her discard[0]
     def discard_token (self, token = None, verb = "discard"):
@@ -7428,22 +7702,14 @@ class Voco (Character):
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
         self.zombies = set()
-        self.monster_power_bonus = False
 
     def choose_initial_discards (self):
         return (self.thunderous, self.drive,
                 self.monster, self.burst)
     
-    def situation_report (self):
-        report = Character.situation_report (self)
-        if self.monster_power_bonus:
-            report.append ("+2 power from last beat")
-        return report
-
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
         self.zombies = set([i for i in xrange(7) if addendum[0][i]=='z'])
-        self.monster_power_bonus = find_start (lines, '+2 power')
 
     def initial_save (self):
         state = Character.initial_save (self)
@@ -7453,28 +7719,6 @@ class Voco (Character):
     def initial_restore (self, state):
         Character.initial_restore (self, state)
         self.zombies = state.zombies.copy()
-
-    def reset (self):
-        Character.reset (self)
-        self.monster_power_bonus_next_beat = False
-
-    def full_save (self):
-        state = Character.full_save (self)
-        state.monster_power_bonus_next_beat = self.monster_power_bonus_next_beat
-        return state
-
-    def full_restore (self, state):
-        Character.full_restore (self, state)
-        self.monster_power_bonus_next_beat = state.monster_power_bonus_next_beat
-
-    def prepare_next_beat (self):
-        Character.prepare_next_beat (self)
-        self.monster_power_bonus = self.monster_power_bonus_next_beat
-
-    # this was buggy until 6/2/13 - no bonus was given.
-    def get_power_bonus (self):
-        return 2 if (self.monster_power_bonus and
-                     not self.game.status_effects_blocked()) else 0
 
     board_addendum_lines = 1
     def get_board_addendum (self):
@@ -8404,17 +8648,17 @@ class Manipulative(Style):
 class Fear(Token):
     value = 0.5
     
-# blocks power/priority bonuses
+# blocks before/after triggers
 class Hesitation(Token):
-    value = 0.6
+    value = 0.8
 
 # blocks hit/damage triggers
 class Mercy(Token):
     value = 0.4
     
-# blocks before/after triggers
+# blocks power/priority bonuses
 class Recklessness(Token):
-    value = 0.8
+    value = 0.6
      
         
 #Aria
@@ -8748,8 +8992,7 @@ class Faceless (Style):
         self.me.triggered_dodge = True
     def damage_trigger (self, damage):
         if self.me.attack_range() == 2:
-            self.me.priority_bonus_next_beat = damage
-            self.me.evaluation_bonus += damage / 3.0
+            self.me.priority_bonus_status_effect.activate(damage)
     ordered_damage_trigger = True
 
 class Breathless (Style):
@@ -8818,8 +9061,7 @@ class Battery (Style):
     power = 1
     priority = -1
     def end_trigger (self):
-        self.me.priority_bonus_next_beat = True
-        self.me.evaluation_bonus += 1.3
+        self.me.priority_bonus_status_effect.activate(4)
 
 class Clockwork (Style):
     power = 3
@@ -8863,7 +9105,6 @@ class Mechanical (Style):
 class IronBody (Token):
     def has_stun_immunity (self):
         return True
-
 
 #Cesar
 
@@ -8959,8 +9200,7 @@ class Inevitable (Style):
     stunguard = 3
     def hit_trigger (self):
         self.opponent.stun()
-        self.me.power_penalty_next_beat = True
-        self.me.evaluation_bonus += 1
+        self.me.power_penalty_status_effect.activate(-3)
     
 #Claus
 
@@ -8995,8 +9235,7 @@ class Tempest(Base):
 class Hurricane(Style):
     power = 3
     def end_trigger(self):
-        self.me.priority_penalty_next_beat = True
-        self.me.evaluation_bonus -= 1.4
+        self.me.priority_bonus_status_effect.activate(-4)
 
 class Tailwind(Style):
     maxrange = 1
@@ -9284,7 +9523,7 @@ class Megaton (Style):
     stunguard = 2
     def hit_trigger (self):
         me = self.me.position
-        opp = self.opp.position
+        opp = self.opponent.position
         # This doesn't really retreat as far as possible, when the
         # full retreat is blocked.
         max_retreat = me if me < opp else 6-me
@@ -9631,7 +9870,7 @@ class SheetLightning (Finisher):
     priority = 6
     def hit_trigger (self):
         self.me.advance ([self.game.distance()-1])
-        self.opponent_immobilized_next_beat = True
+        self.me.opponent_immobilized_status_effect.activate()
     ordered_hit_trigger = True
     def evaluate_setup (self):
         return 1 if self.me.attack_range() >= 3 else 0
@@ -9827,11 +10066,8 @@ class Assassin (Style):
             if self.game.make_fork (2, self.me,
                 "Spend Dark Force Token to immobilze opponent next beat?",
                                     ["No", "Yes"], 1):
-                self.me.assassin_immobilized_next_beat = True
                 self.me.spend_token ()
-                self.me.evaluation_bonus += 3.5
-                if self.game.reporting:
-                    self.game.report (self.opponent.name + " immobilized next beat")
+                self.me.opponent_immobilized_status_effect.activate()
     @property
     def ordered_hit_trigger(self):
         return self.me.can_spend(1)
@@ -10193,8 +10429,7 @@ class Volcanic (Style):
     preferred_range = 3
     def hit_trigger (self):
         if self.me.is_elemental:
-            self.me.priority_penalty_next_beat = True
-            self.me.evaluation_bonus += 0.7
+            self.me.priority_penalty_status_effect.activate(-2)
     def end_trigger (self):
         if not self.me.is_elemental:
             self.me.move_to_unoccupied()
@@ -10676,8 +10911,7 @@ class Venomous (Style):
         self.me.advance ([0,1])
     ordered_before_trigger = True
     def hit_trigger (self):
-        self.me.priority_penalty_next_beat = True
-        self.me.evaluation_bonus += 0.7
+        self.me.priority_penalty_status_effect.activate(-2)
 
 class Rooted (Style):
     minrange = -1
@@ -12221,8 +12455,7 @@ class Unleashed (Style):
     ordered_after_trigger = True
     def end_trigger (self):
         self.me.recover_tokens(2)
-        self.me.unleashed_bonus_next_beat = True
-        self.me.evaluation_bonus += 0.3
+        self.me.power_bonus_status_effect.activate(1)
 
 class Combination (Style):
     power = 2
@@ -12275,6 +12508,263 @@ class Spiral (Style):
 class Malice (Token):
     priority = 1
 
+#Tanis
+
+# Not Implemented
+class EmpathyStrings(Finisher):
+    pass
+
+class CurtainCall(Finisher):
+    minrange = 1
+    maxrange = 2
+    power = 2
+    priority = 5
+    def before_trigger(self):
+        for puppet in self.me.puppets:
+            if (puppet.position is not None and
+                abs(puppet.position - self.me.position) == 1):
+                self.me.add_triggered_power_bonus(4)
+    def evaluate_setup(self):
+        if self.game.distance() > 2:
+            return 0
+        value = 0
+        for puppet in self.me.puppets:
+            if abs(puppet.position - self.me.position) == 1:
+                value += 0.5
+        return value
+
+class SceneShift(Base):
+    standard_range = False
+    power = 2
+    priority = 4
+    preferred_range = 2.5
+    def special_range_hit(self):
+        return self.me.switched_sides
+    def before_trigger(self):
+        self.me.advance(range(5))
+    ordered_before_trigger = True
+    # Move each puppet up to 3 spaces.
+    # Possessed puppet isn't on board, so it isn't moved.
+    def hit_trigger(self):
+        for puppet in self.me.puppets:
+            if puppet is not self.me.possessed_puppet:
+                old_pos = puppet.position
+                positions = range(max(0, old_pos - 3),
+                                  min(6, old_pos + 3) + 1)
+                prompt = "Choose new position for %s:", puppet
+                options = []
+                if self.me.is_user and self.game.interactive_mode:
+                    for pos in positions:
+                        opt = ['.'] * 7
+                        opt[pos] = puppet.initial
+                        options.append(''.join(opt))
+                pos = positions[
+                    self.game.make_fork(len(positions), self.me,
+                                        prompt, options)]
+                puppet.position = pos
+                if (old_pos == self.opponent.position and
+                    pos != old_pos):
+                    self.me.add_triggered_power_bonus(1) 
+        if self.game.reporting:
+            self.game.report("Tanis moves her puppets:")
+            for line in self.game.get_board():
+                self.game.report(line)
+    def evaluation_bonus(self):
+        opp = self.opponent.position
+        if opp in [0,6]:
+            return -0.5
+        value = 0
+        for puppet in self.me.puppets:
+            if puppet.position == opp:
+                value += 0.1
+        return value
+
+class Valiant(Style):
+    minrange = 1
+    maxrange = 1
+    priority = -1
+    preferred_range = 1
+    def get_soak(self):
+        if (self.me.loki.position is not None and 
+            ordered(self.me.position, 
+                    self.me.loki.position, 
+                    self.opponent.position)):
+            return 3
+        else:
+            return 0
+    def blocks_movement(self, direct):
+        loki = self.me.loki.position
+        if loki is None:
+            return set()
+        else:
+            return set([loki])
+    def blocks_pullpush(self):
+        loki = self.me.loki.position
+        if loki is None:
+            return set()
+        else:
+            return set([loki])
+    # Blocking my own movement handled by Tanis.get_blocked_spaces()
+    def evaluation_bonus(self):
+        me = self.me.position
+        opp = self.opponent.position
+        loki = self.me.loki.position
+        return 0.4 if ordered(self.me.position,
+                              self.me.loki.position,
+                              self.opponent.position) else -0.1
+
+class Climactic(Style):
+    priority = 1
+    def reduce_soak(self, soak):
+        return 0
+    def before_trigger(self):
+        mephisto = self.me.mephisto.position
+        if mephisto not in (self.me.position, self.opponent.position, None):
+            old_pos = self.me.position
+            self.me.move_directly([mephisto])
+            if self.me.position == mephisto:
+                self.me.mephisto.position = old_pos
+                if self.game.reporting:
+                    self.game.report("Mephisto moves:")
+                    for line in self.game.get_board():
+                        self.game.report(line)
+    @property
+    def ordered_before_trigger(self):
+        return self.me.mephisto.position not in [self.me.position,
+                                                 self.opponent.position,
+                                                 None]
+    def evaluation_bonus(self):
+        me = self.me.position
+        opp = self.opponent.position
+        mephisto = self.me.mephisto.position
+        if mephisto == opp:
+            return -0.1
+        my_range = abs(me - opp)
+        mephisto_range = abs(mephisto - opp)
+        diff = abs(my_range - mephisto_range)
+        return 0.1 * diff - 0.1
+        
+class Storyteller(Style):
+    power = 1
+    priority = 1
+    def get_preferred_range(self):
+        # extra range if I possess Eris:
+        if (self.me.position == self.me.eris.position and
+            self.me.possessed_puppet is not self.me.eris):
+            return 1.5
+        else:
+            return 0
+    def reduce_stunguard(self, stunguard):
+        return 0 if self.me.possessed_puppet is self.me.mephisto else stunguard
+    def can_be_hit(self):
+        return not (self.me.possessed_puppet is self.me.loki and
+                    self.opponent.attack_range() == 1)
+    def before_trigger(self):
+        if self.me.possessed_puppet is self.me.eris:    
+            self.me.advance(range(4))
+    @property
+    def ordered_before_trigger(self):
+        return self.me.possessed_puppet is self.me.eris
+    def evaluation_bonus(self):
+        me = self.me.position
+        opp = self.opponent.position
+        loki = self.me.loki.position
+        if loki == me:
+            if abs(loki-opp) == 1:
+                return 0.5
+            elif me in (self.me.eris.position, 
+                        self.me.mephisto.position):
+                return 0
+            else:
+                return -0.1
+        return 0
+
+class Playful(Style):
+    maxrange = 1
+    preferred_range = 0.5
+    suspend_blocking = False
+    def end_trigger(self):
+        self.me.move_directly(set(xrange(7)) - set([self.me.position]))
+    ordered_end_trigger = True
+    def get_maxrange_bonus(self):
+        return self.opponent.get_maxrange_bonuses()
+    def get_power_bonus(self):
+        return self.opponent.get_power_bonuses()
+    def get_priority_bonus(self):
+        return self.opponent.get_priority_bonuses()
+    # Blocking bonuses handled by character, stealing them handled
+    # above.
+
+class Distressed(Style):
+    priority = -1
+    def get_preferred_range(self):
+        me = self.me.position
+        eris = self.me.eris.position
+        opp = self.opponent.position
+        # If I'm definitely possessing Eris, no extra range.
+        if me == eris and not me in (self.me.loki.position,
+                                     self.me.mephisto.position):
+            return 0
+        if (me-opp) * (eris-opp) >= 0:
+            return 2
+        else:
+            return 0
+    def start_trigger(self):
+        if self.me.possessed_puppet is not self.me.eris:
+            me = self.me.position
+            opp = self.opponent.position
+            eris = self.me.eris.position
+            direction = (me - opp) * (eris - opp)
+            if direction > 0:
+                self.me.pull([1,2])
+            elif direction < 0:
+                self.me.push([1,2])
+            else:
+                self.me.move_opponent([1,2])
+    @property
+    def ordered_start_trigger(self):
+        return self.me.possessed_puppet is not self.me.eris
+    def end_trigger(self):
+        puppets = [p for p in self.me.puppets 
+                   if p is not self.me.possessed_puppet]
+        prompt = "Select a puppet to move:"
+        options = [p.name for p in puppets]
+        puppet = puppets[self.game.make_fork(len(puppets), self.me,
+                                             prompt, options)]
+        positions = range(7)
+        prompt = "Choose new position for %s:", puppet
+        options = []
+        if self.me.is_user and self.game.interactive_mode:
+            for pos in positions:
+                opt = ['.'] * 7
+                opt[pos] = puppet.initial
+                options.append(''.join(opt))
+        pos = positions[
+            self.game.make_fork(7, self.me, prompt, options)]
+        puppet.position = pos
+        if self.game.reporting:
+            self.game.report("Tanis moves %s:" % puppet)
+            for line in self.game.get_board():
+                self.game.report(line)
+    def evaluation_bonus(self):
+        me = self.me.position
+        if (me == self.me.eris.position and 
+            not me in (self.me.loki.position,
+                       self.me.mephisto.position)):
+            return -0.2
+        else:
+            return 0.1
+        
+# Making it a card gives it a name, and a link to the game object.
+class Puppet(Card):
+    pass
+class Eris(Puppet):
+    initial = 'e'
+class Loki(Puppet):
+    initial = 'l'
+class Mephisto(Puppet):
+    initial = 'm'
+    
 #Tatsumi
 
 class TsunamisCollide (Finisher):
@@ -12451,8 +12941,7 @@ class DeathWalks (Finisher):
     priority = 6
     def hit_trigger (self):
         self.opponent.stun()
-        self.me.priority_penalty_next_beat = True
-        self.me.evaluation_bonus += 1.3
+        self.me.priority_penalty_status_effect.activate(-4)
     def evaluate_setup (self):
         return 1 if self.game.distance() <= 2 else 0
 
@@ -12927,6 +13416,7 @@ character_dict = {'abarene'  :Abarene,
                   'runika'   :Runika,
                   'seth'     :Seth,
                   'shekhtur' :Shekhtur,
+                  'tanis'    :Tanis,
                   'tatsumi'  :Tatsumi,
                   'vanaah'   :Vanaah,
                   'voco'     :Voco,

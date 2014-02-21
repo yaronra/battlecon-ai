@@ -51,11 +51,15 @@ Arec:
 
 
 Abarene: Pestilent Shot
-Arec: Returning Shot
+Arec: Perceptional Drive
 
-Priorities:  3 | 3
+Priorities:  3 | 5
 Arec is active
-Abarene is stunned
+Arec moves:
+
+.A..a..
+
+
 Arec hits
 Abarene takes 3 damage (now at 17 life)
 Abarene is stunned
@@ -74,46 +78,41 @@ pool: Fatigue
 Arec
 ----
 Life: 20
-Discard 1: Returning Shot
+Discard 1: Perceptional Drive
 Discard 2: Phantom Strike
 Special action available
 pool: Fear, Hesitation, Mercy, Recklessness
 
 
-.A...a.
+.A..a..
 
 
-Unbeatable strategy for Arec: Perceptional Hex: -2.00
-Unbeatable strategy for Arec: Perceptional Hex (Hesitation): -1.65
-Unbeatable strategy for Arec: Perceptional Hex (Mercy): -1.80
-Unbeatable strategy for Arec: Perceptional Hex (Recklessness): -1.81
-Unbeatable strategy for Arec: Perceptional Burst: -1.92
-Unbeatable strategy for Arec: Perceptional Burst (Hesitation): -1.32
-Unbeatable strategy for Arec: Perceptional Burst (Mercy): -0.85
-Unbeatable strategy for Arec: Perceptional Burst (Recklessness): -1.12
-Unbeatable strategy for Arec: Mirrored Hex (Recklessness): -4.37
-Unbeatable strategy for Arec: Mirrored Drive (Recklessness): -0.55
-Unbeatable strategy for Arec: Mirrored Burst (Recklessness): -0.53
-Unbeatable strategy for Arec: Mirrored Grasp (Recklessness): -0.66
-Unbeatable strategy for Arec: Manipulative Hex (Recklessness): -4.29
+Unbeatable strategy for Arec: Returning Burst (Recklessness): -2.55
+Unbeatable strategy for Arec: Mirrored Shot (Recklessness): -1.67
+Unbeatable strategy for Arec: Mirrored Burst (Recklessness): -4.65
+Unbeatable strategy for Arec: Mirrored Dash: -0.54
+Unbeatable strategy for Arec: Mirrored Dash (Hesitation): -0.39
+Unbeatable strategy for Arec: Mirrored Dash (Mercy): -0.59
+Unbeatable strategy for Arec: Manipulative Shot (Recklessness): -1.44
 
 Abarene:
-7% Intoxicating Thorns
-10% Crippling Thorns
-5% Crippling Drive (Fatigue)
-78% Special Pulse
+0% Intoxicating Drive
+2% Intoxicating Drive (Fatigue)
+2% Crippling Drive
+3% Crippling Grasp (Fatigue)
+94% Special Pulse
 
 Arec:
-20% Mirrored Hex
-21% Mirrored Hex (Recklessness)
-33% Mirrored Drive (Mercy)
-25% Mirrored Burst (Recklessness)
+22% Mirrored Hex
+19% Mirrored Shot (Recklessness)
+6% Mirrored Burst (Mercy)
+53% Mirrored Burst (Recklessness)
 
 
 Abarene: Special Pulse
-Arec: Mirrored Drive (Mercy)
+Arec: Mirrored Shot (Recklessness)
 
-Arec antes a Mercy token
+Arec antes a Recklessness token
 Pulse:
 
 .a.A...
@@ -133,216 +132,222 @@ pool: Fatigue
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Drive
-Discard 2: Returning Shot
+Discard 1: Mirrored Shot
+Discard 2: Perceptional Drive
 Special action available
-pool: Fear, Hesitation, Recklessness
+pool: Fear, Hesitation, Mercy
 
 
 .a.A...
 
 
 Abarene:
-1% Intoxicating Thorns (Fatigue)
-69% Barbed Thorns (Fatigue)
-18% Barbed Grasp (Fatigue)
-10% Crippling Thorns
-3% Crippling Thorns (Fatigue)
+22% Intoxicating Drive (Fatigue)
+40% Barbed Drive
+27% Crippling Thorns
+11% Crippling Burst
 
 Arec:
-23% Perceptional Burst
-28% Perceptional Grasp
-18% Manipulative Strike
-26% Manipulative Strike (Recklessness)
-5% Manipulative Burst
+45% Phantom Strike (Mercy)
+37% Phantom Dash (Mercy)
+16% Returning Strike (Fear)
+2% Returning Grasp (Fear)
 
 
-Abarene: Crippling Thorns
-Arec: Perceptional Grasp
+Abarene: Barbed Drive
+Arec: Phantom Strike (Mercy)
 
-Priorities:  0 | 6
-Arec is active
-Arec antes a Recklessness token
+Arec antes a Mercy token
+Priorities:  5 | 4
+Abarene is active
+Abarene moves:
+
+.aA....
+
+
+Abarene hits
+Abarene recovers a Nausea token
+Arec takes 2 damage (now at 18 life)
 Arec hits
-Arec moves Abarene:
-
-.a..A..
-
-
-Abarene takes 2 damage (now at 15 life)
-Abarene misses
+Abarene takes 3 damage (now at 14 life)
+Abarene is stunned
+Arec recovers a Recklessness token
 
 Beat 3
 -------
 
 Abarene
 -------
-Life: 15
-Discard 1: Crippling Thorns
+Life: 14
+Discard 1: Barbed Drive
 Discard 2: Pestilent Shot
-pool: Fatigue
+pool: Fatigue, Nausea
 
 Arec
 ----
-Life: 20
-Discard 1: Perceptional Grasp
-Discard 2: Mirrored Drive
+Life: 18
+Discard 1: Phantom Strike
+Discard 2: Mirrored Shot
 Special action available
-pool: Fear, Hesitation
+pool: Fear, Hesitation, Recklessness
 
-
-.a..A..
-
-
-Abarene:
-0% Lethal Burst
-30% Lethal Grasp
-9% Intoxicating Drive
-7% Intoxicating Drive (Fatigue)
-41% Barbed Drive
-12% Barbed Burst
-1% Barbed Dash
-
-Arec:
-17% Phantom Strike
-9% Returning Burst
-59% Manipulative Strike
-1% Manipulative Strike (Hesitation)
-8% Manipulative Shot
-7% Manipulative Burst
-
-
-Abarene: Intoxicating Drive (Fatigue)
-Arec: Manipulative Shot
-
-Abarene antes a Fatigue token
-Priorities:  5 | 0
-Abarene is active
-Abarene recovers a Fatigue token
-Abarene moves:
 
 .aA....
 
 
+Unbeatable strategy for Abarene: Crippling Thorns (Nausea): 0.15
+
+Abarene:
+0% Intoxicating Strike
+2% Intoxicating Grasp
+9% Intoxicating Dash (Nausea)
+73% Crippling Thorns (Nausea)
+4% Crippling Grasp
+12% Crippling Grasp (Nausea)
+
+Arec:
+1% Perceptional Hex
+1% Perceptional Hex (Recklessness)
+40% Perceptional Dash
+49% Returning Dash
+6% Manipulative Hex
+3% Manipulative Hex (Recklessness)
+
+
+Abarene: Intoxicating Dash (Nausea)
+Arec: Perceptional Dash
+
+Abarene antes a Nausea token
+Priorities:  10 | 10
+Clash!
+
+Abarene:
+75% Intoxicating Thorns (Nausea)
+25% Intoxicating Grasp (Nausea)
+
+Arec:
+79% Perceptional Hex
+21% Perceptional Burst
+
+
+Abarene: Intoxicating Thorns (Nausea)
+Arec: Perceptional Burst
+
+Abarene antes a Nausea token
+Priorities:  3 | 2
+Abarene is active
+Abarene recovers a Nausea token
+Arec moves:
+
+a.A....
+
+
 Abarene hits
 Abarene recovers a Dizziness token
-Arec takes 4 damage (now at 16 life)
+Abarene recovers a Pain Spike token
+Arec takes 4 damage (now at 14 life)
 Arec is stunned
-Abarene recovers a Nausea token
 
 Beat 4
 -------
 
 Abarene
 -------
-Life: 15
-Discard 1: Intoxicating Drive
-Discard 2: Crippling Thorns
-pool: Dizziness, Fatigue, Nausea
+Life: 14
+Discard 1: Intoxicating Thorns
+Discard 2: Barbed Drive
+pool: Dizziness, Fatigue, Nausea, Pain Spike
 
 Arec
 ----
-Life: 16
-Discard 1: Manipulative Shot
-Discard 2: Perceptional Grasp
+Life: 14
+Discard 1: Perceptional Burst
+Discard 2: Phantom Strike
 Special action available
-pool: Fear, Hesitation
+pool: Fear, Hesitation, Recklessness
 
-
-.aA....
-
-
-Unbeatable strategy for Arec: Mirrored Dash: -0.60
-Unbeatable strategy for Arec: Mirrored Dash (Hesitation): -0.00
-
-Abarene:
-42% Barbed Burst
-3% Barbed Burst (Nausea)
-54% Barbed Grasp
-1% Pestilent Dash
-
-Arec:
-1% Mirrored Hex
-8% Mirrored Strike
-16% Mirrored Burst
-76% Mirrored Dash
-
-
-Abarene: Barbed Grasp
-Arec: Mirrored Dash
-
-Priorities:  6 | 9
-Arec is active
-Arec moves:
 
 a.A....
+
+
+Abarene:
+47% Lethal Strike (Dizziness, Nausea, Pain Spike)
+12% Lethal Burst (Fatigue, Nausea, Pain Spike)
+13% Crippling Strike (Dizziness, Pain Spike)
+3% Crippling Burst (Dizziness, Nausea, Pain Spike)
+11% Pestilent Burst (Dizziness, Pain Spike)
+13% Pestilent Burst (Dizziness, Fatigue, Pain Spike)
+
+Arec:
+14% Mirrored Hex
+36% Mirrored Hex (Recklessness)
+5% Mirrored Shot (Recklessness)
+8% Mirrored Drive
+37% Mirrored Drive (Recklessness)
+1% Manipulative Shot (Recklessness)
+
+
+Abarene: Lethal Strike (Dizziness, Nausea, Pain Spike)
+Arec: Mirrored Hex
+
+Abarene antes a Dizziness token
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Arec loses 3 life (now at 11)
+Priorities:  3 | 3
+Clash!
+
+Abarene:
+100% Lethal Shot (Dizziness, Nausea, Pain Spike)
+
+Arec:
+100% Mirrored Shot
+
+
+Abarene: Lethal Shot (Dizziness, Nausea, Pain Spike)
+Arec: Mirrored Shot
+
+Abarene antes a Dizziness token
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Arec loses 3 life (now at 11)
+Priorities:  2 | 2
+Clash!
+
+Abarene:
+25% Lethal Burst (Dizziness, Nausea, Pain Spike)
+75% Lethal Grasp (Dizziness, Nausea, Pain Spike)
+
+Arec:
+61% Mirrored Drive
+39% Mirrored Grasp
+
+
+Abarene: Lethal Grasp (Dizziness, Nausea, Pain Spike)
+Arec: Mirrored Drive
+
+Abarene antes a Dizziness token
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Arec loses 3 life (now at 11)
+Priorities:  5 | 4
+Abarene is active
+Abarene moves:
+
+a.....A
 
 
 Abarene misses
-Arec places clone:
-
-a.A....
-.....c.
-
-
-Beat 5
--------
-
-Abarene
--------
-Life: 15
-Discard 1: Barbed Grasp
-Discard 2: Intoxicating Drive
-pool: Dizziness, Fatigue, Nausea
-
-Arec
-----
-Life: 16
-Discard 1: Mirrored Dash
-Discard 2: Manipulative Shot
-Special action available
-pool: Fear, Hesitation
-
-
-a.A....
-.....c.
-
-Unbeatable strategy for Abarene: Crippling Thorns (Dizziness): 3.76
-Unbeatable strategy for Abarene: Crippling Thorns (Nausea): 1.76
-Unbeatable strategy for Abarene: Crippling Thorns (Dizziness, Nausea): 3.16
-Unbeatable strategy for Abarene: Crippling Shot (Dizziness): 2.47
-Unbeatable strategy for Abarene: Crippling Shot (Dizziness, Nausea): 1.70
-Unbeatable strategy for Abarene: Pestilent Thorns (Dizziness, Nausea): 1.76
-Unbeatable strategy for Abarene: Pestilent Shot (Dizziness): 1.06
-Unbeatable strategy for Abarene: Pestilent Shot (Dizziness, Nausea): 0.29
-
-Abarene:
-35% Crippling Thorns (Dizziness)
-31% Crippling Thorns (Nausea)
-23% Pestilent Thorns (Fatigue)
-11% Pestilent Strike
-
-Arec:
-2% Phantom Strike
-17% Perceptional Hex (move to clone)
-4% Returning Hex (move to clone)
-38% Special Pulse
-38% Special Pulse (move to clone)
-
-
-Abarene: Pestilent Thorns (Fatigue)
-Arec: Special Pulse (move to clone)
-
-Abarene antes a Fatigue token
 Arec moves:
 
-..A..a.
+.a....A
 
 
-Pulse:
+Arec misses
+Arec places clone:
 
-A.....a
-
+.a....A
+.....c.
 
 
 Beat 5
@@ -350,173 +355,236 @@ Beat 5
 
 Abarene
 -------
-Life: 15
-Discard 1: Pestilent Thorns
-Discard 2: Barbed Grasp
-pool: Dizziness, Nausea
+Life: 14
+Discard 1: Lethal Grasp
+Discard 2: Intoxicating Thorns
+pool: Fatigue
 
 Arec
 ----
-Life: 16
-Discard 1: Mirrored Dash
-Discard 2: Manipulative Shot
-pool: Fear, Hesitation
+Life: 11
+Discard 1: Mirrored Drive
+Discard 2: Perceptional Burst
+Special action available
+pool: Fear, Hesitation, Recklessness
 
 
-A.....a
+.a....A
+.....c.
 
-
-Unbeatable strategy for Abarene: Crippling Shot: 1.59
-Unbeatable strategy for Abarene: Crippling Shot (Dizziness): 2.84
-Unbeatable strategy for Abarene: Crippling Shot (Nausea): 0.94
-Unbeatable strategy for Abarene: Crippling Shot (Dizziness, Nausea): 2.19
+Unbeatable strategy for Arec: Returning Shot (Recklessness): -0.72
 
 Abarene:
-100% Crippling Shot (Dizziness)
+2% Crippling Drive (Fatigue)
+11% Pestilent Strike
+50% Pestilent Shot
+24% Pestilent Drive
+14% Pestilent Dash
 
 Arec:
-100% Returning Hex
+6% Returning Strike (move to clone)
+1% Returning Strike (Recklessness; move to clone)
+21% Returning Shot
+63% Returning Shot (Recklessness)
+9% Manipulative Hex (Recklessness)
 
 
-Abarene: Crippling Shot (Dizziness)
-Arec: Returning Hex
+Abarene: Pestilent Drive
+Arec: Returning Strike (move to clone)
 
-Abarene antes a Dizziness token
-Priorities:  0 | 4
-Arec is active
-Arec hits
-Arec recovers a Recklessness token
-Abarene takes 1 damage (now at 14 life)
+Arec moves:
+
+.....aA
+
+
+Priorities:  5 | 4
+Abarene is active
 Abarene moves:
 
-..A...a
+...A.a.
 
 
 Abarene hits
-Abarene recovers a Fatigue token
-Arec takes 4 damage (now at 12 life)
-Arec is stunned
+Abarene recovers a Nausea token
+Arec takes 2 damage (now at 9 life)
+Abarene moves:
+
+.....aA
+
+
+Abarene recovers a Dizziness token
+Arec hits
+Abarene takes 4 damage (now at 10 life)
+Abarene is stunned
 
 Beat 6
 -------
 
 Abarene
 -------
-Life: 14
-Discard 1: Crippling Shot
-Discard 2: Pestilent Thorns
-pool: Fatigue, Nausea
+Life: 10
+Discard 1: Pestilent Drive
+Discard 2: Lethal Grasp
+pool: Dizziness, Fatigue, Nausea
 
 Arec
 ----
-Life: 12
-Discard 1: Returning Hex
-Discard 2: Mirrored Dash
+Life: 9
+Discard 1: Returning Strike
+Discard 2: Mirrored Drive
+Special action available
 pool: Fear, Hesitation, Recklessness
 
 
-..A...a
+.....aA
 
 
-Unbeatable strategy for Arec: Phantom Burst (Recklessness): -0.09
-Unbeatable strategy for Arec: Perceptional Shot: -0.61
-Unbeatable strategy for Arec: Perceptional Shot (Hesitation): -0.01
-Unbeatable strategy for Arec: Perceptional Burst: -0.55
+Unbeatable strategy for Abarene: Crippling Thorns (Dizziness): 3.09
+Unbeatable strategy for Abarene: Crippling Thorns (Nausea): 1.09
+Unbeatable strategy for Abarene: Crippling Thorns (Dizziness, Nausea): 2.49
+Unbeatable strategy for Abarene: Crippling Shot (Dizziness): 1.81
+Unbeatable strategy for Abarene: Crippling Shot (Dizziness, Nausea): 1.04
 
 Abarene:
-4% Intoxicating Burst (Fatigue)
-51% Intoxicating Burst (Fatigue, Nausea)
-26% Intoxicating Dash
-14% Intoxicating Dash (Nausea)
-6% Barbed Drive
+9% Intoxicating Thorns (Nausea)
+16% Intoxicating Thorns (Fatigue, Nausea)
+25% Intoxicating Strike
+36% Intoxicating Shot
+6% Intoxicating Shot (Nausea)
+8% Crippling Thorns (Nausea)
 
 Arec:
-12% Phantom Shot (Fear)
-13% Perceptional Drive
-66% Perceptional Burst
-6% Manipulative Shot (Fear)
-4% Manipulative Shot (Recklessness)
+7% Perceptional Hex
+2% Perceptional Burst
+0% Perceptional Dash
+7% Manipulative Burst
+4% Manipulative Grasp (Fear)
+79% Special Pulse
 
 
-Abarene: Intoxicating Burst (Fatigue, Nausea)
-Arec: Perceptional Drive
+Abarene: Intoxicating Shot
+Arec: Special Pulse
 
-Abarene antes a Nausea token
-Abarene antes a Fatigue token
-Priorities:  2 | 3
+Pulse:
+
+.A....a
+
+
+
+Beat 6
+-------
+
+Abarene
+-------
+Life: 10
+Discard 1: Intoxicating Shot
+Discard 2: Pestilent Drive
+pool: Dizziness, Fatigue, Nausea
+
+Arec
+----
+Life: 9
+Discard 1: Returning Strike
+Discard 2: Mirrored Drive
+pool: Fear, Hesitation, Recklessness
+
+
+.A....a
+
+
+Abarene:
+55% Lethal Strike (Dizziness)
+16% Lethal Grasp (Dizziness, Nausea)
+3% Barbed Thorns (Nausea)
+7% Barbed Thorns (Dizziness, Fatigue, Nausea)
+1% Crippling Thorns (Dizziness, Nausea)
+18% Crippling Grasp (Dizziness)
+
+Arec:
+4% Perceptional Hex
+50% Perceptional Shot
+1% Manipulative Hex
+2% Manipulative Hex (Recklessness)
+7% Manipulative Grasp
+36% Manipulative Grasp (Recklessness)
+
+
+Abarene: Lethal Strike (Dizziness)
+Arec: Manipulative Grasp (Recklessness)
+
+Abarene antes a Dizziness token
+Arec antes a Recklessness token
+Priorities:  3 | 5
 Arec is active
-Arec antes a Fear token
-Arec moves:
-
-..A.a..
-
-
-Arec hits
-Abarene takes 3 damage (now at 11 life)
-Abarene is stunned
+Arec misses
+Abarene misses
 
 Beat 7
 -------
 
 Abarene
 -------
-Life: 11
-Discard 1: Intoxicating Burst
-Discard 2: Crippling Shot
-pool: 
+Life: 10
+Discard 1: Lethal Strike
+Discard 2: Intoxicating Shot
+pool: Fatigue, Nausea
 
 Arec
 ----
-Life: 12
-Discard 1: Perceptional Drive
-Discard 2: Returning Hex
-pool: Hesitation, Recklessness
+Life: 9
+Discard 1: Manipulative Grasp
+Discard 2: Returning Strike
+pool: Fear, Hesitation
 
 
-..A.a..
+.A....a
 
 
-Unbeatable strategy for Arec: Phantom Burst (Recklessness): -2.21
-Unbeatable strategy for Arec: Phantom Grasp (Recklessness): -0.31
-Unbeatable strategy for Arec: Mirrored Strike (Recklessness): -4.37
-Unbeatable strategy for Arec: Mirrored Shot (Recklessness): -3.46
-Unbeatable strategy for Arec: Mirrored Burst: -1.55
-Unbeatable strategy for Arec: Mirrored Burst (Hesitation): -0.95
-Unbeatable strategy for Arec: Mirrored Burst (Recklessness): -5.00
-Unbeatable strategy for Arec: Mirrored Grasp: -0.84
-Unbeatable strategy for Arec: Mirrored Grasp (Hesitation): -0.24
-Unbeatable strategy for Arec: Mirrored Grasp (Recklessness): -2.96
-Unbeatable strategy for Arec: Mirrored Dash: -0.57
-Unbeatable strategy for Arec: Manipulative Burst (Recklessness): -4.10
+Unbeatable strategy for Arec: Phantom Hex: -0.34
+Unbeatable strategy for Arec: Perceptional Hex: -1.00
+Unbeatable strategy for Arec: Perceptional Hex (Fear): -0.50
+Unbeatable strategy for Arec: Perceptional Hex (Hesitation): -0.40
 
 Abarene:
-3% Lethal Thorns
-97% Lethal Grasp
+45% Crippling Drive (Fatigue)
+44% Crippling Drive (Nausea)
+11% Crippling Grasp (Nausea)
 
 Arec:
-98% Mirrored Burst (Recklessness)
-2% Mirrored Grasp (Recklessness)
+53% Phantom Hex
+25% Mirrored Hex
+22% Mirrored Drive
 
 
-Abarene: Lethal Grasp
-Arec: Mirrored Burst (Recklessness)
+Abarene: Crippling Drive (Nausea)
+Arec: Mirrored Hex
 
-Arec antes a Recklessness token
-Priorities:  5 | 1
-Abarene is active
-Arec moves:
+Abarene antes a Nausea token
+Priorities:  2 | 3
+Arec is active
+Arec hits
+Arec moves Abarene:
 
-..A...a
+A.....a
+
+
+Arec recovers a Recklessness token
+Abarene takes 4 damage (now at 6 life)
+Abarene moves:
+
+.A....a
+
+
+Abarene moves:
+
+...A..a
 
 
 Abarene misses
-Arec hits
-Abarene takes 4 damage (now at 7 life)
-Abarene is stunned
 Arec places clone:
 
-..A...a
-.c.....
+...A..a
+..c....
 
 
 Beat 8
@@ -524,61 +592,54 @@ Beat 8
 
 Abarene
 -------
-Life: 7
-Discard 1: Lethal Grasp
-Discard 2: Intoxicating Burst
-pool: 
+Life: 6
+Discard 1: Crippling Drive
+Discard 2: Lethal Strike
+pool: Fatigue
 
 Arec
 ----
-Life: 12
-Discard 1: Mirrored Burst
-Discard 2: Perceptional Drive
-pool: Hesitation
+Life: 9
+Discard 1: Mirrored Hex
+Discard 2: Manipulative Grasp
+pool: Fear, Hesitation, Recklessness
 
 
-..A...a
-.c.....
+...A..a
+..c....
+
+Unbeatable strategy for Arec: Perceptional Drive: -1.00
+Unbeatable strategy for Arec: Perceptional Drive (Hesitation): -0.40
+Unbeatable strategy for Arec: Perceptional Drive (Recklessness): -0.86
 
 Abarene:
-5% Barbed Strike
-2% Barbed Shot
-44% Barbed Drive
-5% Crippling Drive
-44% Pestilent Dash
+4% Intoxicating Thorns (Fatigue)
+70% Barbed Thorns (Fatigue)
+26% Barbed Shot (Fatigue)
 
 Arec:
-16% Manipulative Hex
-11% Manipulative Strike (move to clone)
-25% Manipulative Shot
-37% Manipulative Shot (move to clone)
-10% Manipulative Grasp
+16% Perceptional Strike
+71% Perceptional Drive
+13% Returning Shot
 
 
-Abarene: Barbed Drive
-Arec: Manipulative Shot
+Abarene: Barbed Thorns (Fatigue)
+Arec: Returning Shot
 
-Priorities:  5 | 2
+Abarene antes a Fatigue token
+Priorities:  3 | 1
 Abarene is active
-Abarene moves:
-
-....A.a
-
-
 Abarene hits
 Abarene recovers a Nausea token
+Abarene recovers a Pain Spike token
 Abarene moves Arec:
 
-....Aa.
+...A.a.
 
 
-Arec loses 2 life (now at 10)
-Arec takes 2 damage (now at 8 life)
+Arec takes 2 damage (now at 7 life)
 Arec hits
-Arec chooses Abarene's base: Shot
-Abarene takes 4 damage (now at 3 life)
-Arec recovers a Recklessness token
-Abarene is stunned
+Abarene takes 3 damage (now at 3 life)
 
 Beat 9
 -------
@@ -586,79 +647,52 @@ Beat 9
 Abarene
 -------
 Life: 3
-Discard 1: Barbed Drive
-Discard 2: Lethal Grasp
-pool: Nausea
+Discard 1: Barbed Thorns
+Discard 2: Crippling Drive
+pool: Nausea, Pain Spike
 
 Arec
 ----
-Life: 8
-Discard 1: Manipulative Shot
-Discard 2: Mirrored Burst
-pool: Hesitation, Recklessness
-Manipulative forced base: Shot
+Life: 7
+Discard 1: Returning Shot
+Discard 2: Mirrored Hex
+pool: Fear, Hesitation, Recklessness
 
-
-....Aa.
-
-
-Unbeatable strategy for Arec: Perceptional Hex: -8.00
-Unbeatable strategy for Arec: Perceptional Hex (Hesitation): -8.00
-Unbeatable strategy for Arec: Perceptional Hex (Recklessness): -8.00
-Unbeatable strategy for Arec: Perceptional Drive: -0.33
-Unbeatable strategy for Arec: Returning Hex (Recklessness): -8.00
-Unbeatable strategy for Arec: Returning Drive: -0.05
-
-Abarene:
-1% Intoxicating Thorns
-3% Intoxicating Thorns (Nausea)
-5% Intoxicating Strike
-4% Intoxicating Strike (Nausea)
-2% Intoxicating Shot
-2% Intoxicating Shot (Nausea)
-4% Intoxicating Burst
-2% Intoxicating Burst (Nausea)
-4% Intoxicating Dash
-3% Intoxicating Dash (Nausea)
-2% Crippling Thorns
-4% Crippling Thorns (Nausea)
-2% Crippling Strike
-4% Crippling Strike (Nausea)
-2% Crippling Shot
-2% Crippling Shot (Nausea)
-4% Crippling Burst
-3% Crippling Burst (Nausea)
-5% Crippling Dash
-3% Crippling Dash (Nausea)
-2% Pestilent Thorns
-4% Pestilent Thorns (Nausea)
-5% Pestilent Strike
-4% Pestilent Strike (Nausea)
-3% Pestilent Shot
-2% Pestilent Shot (Nausea)
-4% Pestilent Burst
-1% Pestilent Burst (Nausea)
-6% Pestilent Dash
-6% Pestilent Dash (Nausea)
-
-Arec:
-100% Returning Hex (Recklessness)
-
-
-Abarene: Crippling Thorns
-Arec: Returning Hex (Recklessness)
-
-Arec antes a Recklessness token
-Abarene loses 2 life (now at 1)
-Priorities:  0 | 4
-Arec is active
-Arec hits
-Arec moves Abarene:
 
 ...A.a.
 
 
-Arec recovers a Fear token
+Abarene:
+18% Intoxicating Shot (Pain Spike)
+15% Intoxicating Shot (Nausea, Pain Spike)
+0% Intoxicating Burst (Nausea, Pain Spike)
+67% Pestilent Grasp (Nausea, Pain Spike)
+
+Arec:
+33% Phantom Strike
+34% Perceptional Strike
+12% Perceptional Burst
+10% Perceptional Burst (Hesitation)
+11% Perceptional Burst (Recklessness)
+
+
+Abarene: Pestilent Grasp (Nausea, Pain Spike)
+Arec: Perceptional Burst (Hesitation)
+
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Arec loses 3 life (now at 4)
+Arec antes a Hesitation token
+Priorities:  6 | 2
+Abarene is active
+Arec antes a Recklessness token
+Arec moves:
+
+...A..a
+
+
+Abarene misses
+Arec hits
 Abarene takes 3 damage (now at 0 life)
 AREC WINS!
-total_time: 195
+total_time: 366

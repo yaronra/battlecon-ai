@@ -39,6 +39,7 @@ phrases = {  'abarene' : ['Hallicris Snare'],
              'runika' : ['Artifice Avarice', 'Udstad Beam'],
              'seth' : ['Fortune Buster'],
              'shekhtur' : ['Coffin Nails'],
+             'tanis' : ['Scene Shift', 'Curtain Call'],
              'tatsumi' : ['Tsunamis Collide', 'Bear Arms'],
              'vanaah' : ['Death Walks', 'Hand of Divinity'],
              'voco' : ['The Wave'],
@@ -85,17 +86,20 @@ def check_redundancies():
                 if not exist01 and not exist10:
                     print "missing:", name0, name1
 
-def analyze (name, logdir="main"):
+def analyze (name, logdir="free_for_all"):
     victories (name,logdir)
     print "Average game length: %.1f"% one_beat(name, logdir)
     strategies(name, logdir)
     hitting (name, logdir)
 
-def strategies (name, logdir="main", beat=None,
+def strategies (name, logdir="free_for_all", beat=None,
                         condition='',reverse_condition=False):
     pair_dict = parse (name, logdir, beat, condition, reverse_condition)
     if name == 'seth':
         pair_dict = seth_consolidation (pair_dict)
+    inner_strategies(pair_dict)
+    
+def inner_strategies(pair_dict):
     count, styles, bases = pair_count (pair_dict, True) 
     style_count = count.sum(axis=1)
     base_count = count.sum(axis=0)
@@ -154,7 +158,7 @@ class HitRecord (object):
         self.opp_stunned = 0
         self.opp_damage = 0
 
-def hitting (name, logdir="main", printing=True):
+def hitting (name, logdir="free_for_all", printing=True):
     replacement = {p : p.replace(' ','') for p in phrases[name]} 
     record = {}
     cap_name = name.capitalize()
@@ -227,7 +231,7 @@ class HitWinCorrelationRecord (object):
         self.tie_hits = [0] * 6
         self.lose_hits = [0] * 6
         
-def style_win_correlation (name, logdir="main"):
+def style_win_correlation (name, logdir="free_for_all"):
     replacement = {p : p.replace(' ','') for p in phrases[name]} 
     record = {}
     cap_name = name.capitalize()
@@ -285,7 +289,7 @@ def style_win_correlation (name, logdir="main"):
 ##                                            lose,
 ##                                            tie)
 
-def specials (name, logdir="main"):
+def specials (name, logdir="free_for_all"):
     stats = {'all': [0]*16,
              'pulse': [0]*16,
              'cancel': [0]*16,
@@ -344,7 +348,7 @@ def anomalies():
                           %(styles[s], bases[b], sb, base_count[b],
                             percentify (sb/float(base_count[b])))
         
-def total_bases(specials=True, player_num=None, beta_bases=False, logdir="main"):
+def total_bases(specials=True, player_num=None, beta_bases=False, logdir="free_for_all"):
     if beta_bases:
         base_dict = {"Counter" : 0,
                      "Wave" : 0,
@@ -380,11 +384,11 @@ def total_bases(specials=True, player_num=None, beta_bases=False, logdir="main")
     for b in bases_counts:
         print percentify(b[1]/float(total_total)), b[0]
 
-def one_beat (name, logdir="main"):
+def one_beat (name, logdir="free_for_all"):
     return pair_count(parse(name,logdir),True)[0].sum() / \
-           (10.0 * (len(list_files(logdir, name))))
+           (1.0 * (len(list_files(logdir, name))))
     
-def beats (logdir="main"):
+def beats (logdir="free_for_all"):
     res = []
     for name in all_names:
         res.append ((name, one_beat(name, logdir),
@@ -437,7 +441,7 @@ def base_ante_count (strat_dict, specials=False):
                    for b in bases])
     return count, bases, antes
 
-def victories (name, logdir="main", return_timeouts=False, silent=False,
+def victories (name, logdir="free_for_all", return_timeouts=False, silent=False,
                per_name=False):
     (win,lose,draw,time_win,time_lose) = (0,0,0,0,0)
     next_result_is_timeout = False
@@ -479,14 +483,14 @@ def victories (name, logdir="main", return_timeouts=False, silent=False,
         print "lose: %d (%s) - %s by time out" %(lose, percentify(lose/games),
                                                  percentify(time_lose/float(lose)))
         print "draw: %d (%s)" %(draw, percentify(draw/games))
-        print "total: %s by timeout" %percentify((time_win+time_lose)/games)
+        print "total: %s by timeout" %percentify((time_win+time_lose+draw)/games)
 
     if return_timeouts:
         return (time_win+time_lose)/games
     else:
         return (win+draw/2.0)/games
 
-def side_victories (logdir="main"):
+def side_victories (logdir="free_for_all"):
     (win,lose,draw,time_win,time_lose) = (0,0,0,0,0)
     next_result_is_timeout = False
     for filename in list_files(logdir, None):
@@ -519,7 +523,7 @@ def side_victories (logdir="main"):
     print "draw: %d (%s)" %(draw, percentify(draw/games))
     print "total: %s by timeout" %percentify((time_win+time_lose)/games)
 
-def victory_csv (logdir="main"):
+def victory_csv (logdir="free_for_all"):
     index = {name:i for (i,name) in enumerate(all_names)}
     wins = [[0 for i in all_names] for j in all_names]
     logdir = "logs/" + logdir + "/"
@@ -631,7 +635,7 @@ def string_is_float (s):
         return False
 
 def unbeatable_strategies (name, thresh=5, life_thresh=8,
-                           logdir="main", outdir="logs/unbeatables/"):
+                           logdir="free_for_all", outdir="logs/unbeatables/"):
     winfile = open (outdir+'/'+name+'_win_by_%d.txt'%thresh,'w')
     total = 0
     for filename in list_files(logdir, name):
@@ -683,7 +687,7 @@ def unbeatable_strategies (name, thresh=5, life_thresh=8,
     print "total:", total
 
 
-def parse (name, logdir="main", beat=None, condition='',
+def parse (name, logdir="free_for_all", beat=None, condition='',
            reverse_condition=False, player_num=None):
     if isinstance (beat, int):
         beat = [beat]
@@ -721,7 +725,7 @@ def parse (name, logdir="main", beat=None, condition='',
                     strat_dict[strat] = 1
     return strat_dict
 
-def text (text, name=None, logdir="main", show=False):
+def text (text, name=None, logdir="free_for_all", show=False):
     total = 0
     for filename in list_files(logdir, name):
         with open (filename) as f:
@@ -739,7 +743,32 @@ def percentify (fraction):
     else:
         return str(int(fraction*1000+.5)/10.0)+'%'
 
-def adjenna_marker_beat (target=1, logdir="main"):
+def abarene_tokens (logdir="free_for_all"):
+    token_dict = {'Dizziness':0,
+                  'Fatigue':0,
+                  'Nausea':0,
+                  'Pain Spike':0}
+    beats = 0
+    for filename in list_files(logdir, 'abarene'):
+        with open (filename) as f:
+            log = [line for line in f]
+        abarene_reporting = False
+        previous_line = ''
+        for line in log:
+            if line.startswith('---'):
+                abarene_reporting = (previous_line == 'Abarene\n')
+            elif abarene_reporting and line.startswith ('pool:'):
+                tokens = line[6:-1].split(', ')
+                for t in tokens:
+                    if t!='':
+                        token_dict[t] += 1
+                beats += 1
+            previous_line = line
+    for token, count in token_dict.items():
+        print token, percentify(count/float(beats))
+    print "total:", sum([token_dict[t] for t in token_dict])/float(beats)
+
+def adjenna_marker_beat (target=1, logdir="free_for_all"):
     # 1-15 is beat in which opponent got to target number of markers
     # 0 means never
     gain_beat = [0 for _ in range (16)]
@@ -784,7 +813,7 @@ def adjenna_marker_beat (target=1, logdir="main"):
     for beat,count in enumerate(gain_beat):
         print beat,count
                         
-def adjenna_marker_and_wins (target_beat, logdir="main"):
+def adjenna_marker_and_wins (target_beat, logdir="free_for_all"):
     games_with_x_markers = [0,0,0,0,0,0,0]
     victories_with_x_markers = [0,0,0,0,0,0,0]
     for filename in list_files(logdir, 'adjenna'):
@@ -832,7 +861,7 @@ def adjenna_by_markers (logdir='main'):
                             condition='%d Petrification markers on'%markers)
         print '#############################'
         
-def alexian_tokens (logdir="main"):
+def alexian_tokens (logdir="free_for_all"):
     tokens = [0,0,0,0]
     antes = [0,0,0,0]
     post_ante = [0,0,0,0]
@@ -888,7 +917,7 @@ def alexian_tokens (logdir="main"):
     print
     parse_base_vs_induced_ante('alexian', logdir)
 
-def arec_tokens (logdir="main"):
+def arec_tokens (logdir="free_for_all"):
     token_dict = {'Fear':0,
                   'Hesitation':0,
                   'Mercy':0,
@@ -913,7 +942,7 @@ def arec_tokens (logdir="main"):
         print token, percentify(count/float(beats))
     print "total:", sum([token_dict[t] for t in token_dict])/float(beats)
 
-def aria_droids (logdir="main"):
+def aria_droids (logdir="free_for_all"):
     n_beats = 0.0
     # last slot is for 'None'
     dampening = [0] * 8
@@ -1034,7 +1063,7 @@ def cesar_cycle (logdir='main'):
     
         
     
-def clinhyde_stims (logdir="main"):
+def clinhyde_stims (logdir="free_for_all"):
     stims = {}
     n_stims = [0,0,0,0]
     for filename in list_files(logdir, 'clinhyde'):
@@ -1058,7 +1087,7 @@ def clinhyde_stims (logdir="main"):
         print p, percentify (stims[p]/total)
                 
 
-def eligor_tokens (logdir="main"):
+def eligor_tokens (logdir="free_for_all"):
     tokens = [0,0,0,0,0,0]
     for filename in list_files(logdir, 'eligor'):
         with open (filename) as f:
@@ -1070,7 +1099,7 @@ def eligor_tokens (logdir="main"):
         print i, percentify(count/float(sum(tokens)))
     print "total:", sum(tokens)
 
-def hikaru_tokens (logdir="main"):
+def hikaru_tokens (logdir="free_for_all"):
     token_dict = {'Earth':0,
                   'Fire':0,
                   'Water':0,
@@ -1134,7 +1163,7 @@ def kajia_insects(logdir='main'):
         if insect_count[2][i]:
             print "%d: %s" % (i, percentify(insect_count[2][i]/beats))
 
-def kallistar_elemental(logdir="main"):
+def kallistar_elemental(logdir="free_for_all"):
     print "ELEMENTAL"
     print "---------"
     strategies ('kallistar', logdir, condition="Elemental Form")
@@ -1143,7 +1172,7 @@ def kallistar_elemental(logdir="main"):
     print "-----"
     strategies ('kallistar', logdir, condition="Human Form")
 
-def karin_jager (logdir="main"):
+def karin_jager (logdir="free_for_all"):
     karin_dists = [0,0,0,0,0,0,0]
     opp_dists = [0,0,0,0,0,0,0]
     for filename in list_files(logdir, 'karin'):
@@ -1186,7 +1215,7 @@ def karin_jager (logdir="main"):
     for i,d in enumerate(opp_dists):
         print "%d: %s" %(i, percentify(d/total))
 
-def luc_tokens (logdir="main"):
+def luc_tokens (logdir="free_for_all"):
     tokens = [0,0,0,0,0,0]
     for filename in list_files(logdir, 'luc'):
         with open (filename) as f:
@@ -1236,7 +1265,7 @@ def lymn_disparity (logdir='main'):
             if disparities[card][i]:
                 print i, percentify (disparities[card][i]/total)
 
-def marmelee_counters (logdir="main"):
+def marmelee_counters (logdir="free_for_all"):
     counters = [0,0,0,0,0,0]
     for filename in list_files(logdir, 'marmelee'):
         with open (filename) as f:
@@ -1248,7 +1277,7 @@ def marmelee_counters (logdir="main"):
         print i, percentify(count/float(sum(counters)))
     print "total:", sum(counters)
 
-def marmelee_spending (logdir="main"):
+def marmelee_spending (logdir="free_for_all"):
     style_spend_dict = {}
     for filename in list_files(logdir, 'marmelee'):
         names = filename.split('/')[-1].split('_')
@@ -1297,7 +1326,7 @@ def marmelee_spending (logdir="main"):
         print key, style_spend_dict[key], \
               percentify(style_spend_dict[key]/float(total))
 
-def mikhail_pairs_with_tokens (logdir="main"):
+def mikhail_pairs_with_tokens (logdir="free_for_all"):
     d = parse('mikhail', logdir)
     keys = d.keys()
     for k in keys:
@@ -1323,7 +1352,7 @@ def mikhail_pairs_with_tokens (logdir="main"):
                     print                                     
           
 
-def mikhail_tokens (logdir="main"):
+def mikhail_tokens (logdir="free_for_all"):
     beat_tokens = [[0] * 4 for i in range(16)]
     antes = [[0] * 2 for i in range(16)]
     ante_this_beat = None
@@ -1351,7 +1380,7 @@ def mikhail_tokens (logdir="main"):
                    float(sum(beat_tokens[b])),
                 percentify(antes[b][1]/float(sum(antes[b]))))
 
-def oriana_meteor (logdir="main"):
+def oriana_meteor (logdir="free_for_all"):
     d = parse('oriana', logdir)
     styles = sorted(list(set([k[0] for k in d])))
     bases = sorted(list(set([k[1] for k in d])))
@@ -1371,7 +1400,7 @@ def oriana_meteor (logdir="main"):
                         tmp += d.get((s,b,t),0)
                 print t, percentify(tmp/total)
         
-def oriana_tokens (logdir="main"):
+def oriana_tokens (logdir="free_for_all"):
     tokens = [0,0,0,0,0,0,0,0,0,0,0]
     for filename in list_files(logdir, 'oriana'):
         with open (filename) as f:
@@ -1385,7 +1414,7 @@ def oriana_tokens (logdir="main"):
         print i, percentify(count/float(sum(tokens)))
     print "total:", sum(tokens)
 
-def rexan_tokens (logdir="main"):
+def rexan_tokens (logdir="free_for_all"):
     tokens = [0,0,0,0]
     antes = [0,0,0,0]
     post_ante = [0,0,0,0]
@@ -1446,7 +1475,7 @@ def rexan_tokens (logdir="main"):
     print
     parse_base_vs_induced_ante('rexan', logdir)
     
-def runika_artifacts (logdir="main"):
+def runika_artifacts (logdir="free_for_all"):
     artifacts = ['Hover Boots',
                  'Battlefist',
                  'Autodeflector',
@@ -1529,7 +1558,7 @@ def seth_consolidation (pair_dict):
             new_dict[new_strat] = new_dict.get(new_strat,0) + count
     return new_dict
     
-def shekhtur_tokens (logdir="main"):
+def shekhtur_tokens (logdir="free_for_all"):
     tokens = [0,0,0,0,0,0]
     for filename in list_files(logdir, 'shekhtur'):
         with open (filename) as f:
@@ -1541,7 +1570,16 @@ def shekhtur_tokens (logdir="main"):
         print i, percentify(count/float(sum(tokens)))
     print "total:", sum(tokens)
 
-def voco_zombies (logdir="main"):
+def tanis_possession(logdir="free_for_all"):
+    puppets = ('Eris', 'Loki', 'Mephisto')
+    full_dict = {}
+    for puppet in puppets:
+        pair_dict = parse('tanis', logdir, condition="Tanis possesses %s" % puppet)
+        for key, value in pair_dict.iteritems():
+            full_dict[(key[0], key[1], puppet)] = value
+    inner_strategies(full_dict)
+        
+def voco_zombies (logdir="free_for_all"):
     zombies = [0,0,0,0,0,0,0,0]
     zom_pos = [0,0,0,0,0,0,0]
     zom_opp = 0
@@ -1583,13 +1621,13 @@ def voco_zombies (logdir="main"):
         print "%d: %s" %(p, percentify(z/total))
     print "on opponent:", percentify(zom_opp/total)
 
-def zaamassal_paradigms (logdir="main"):
+def zaamassal_paradigms (logdir="free_for_all"):
     for paradigm in ['Pain','Fluidity','Haste','Resilience','Distortion']:
         print paradigm
         print text("Zaamassal assumes the Paradigm of %s"%paradigm, 'zaamassal',
              logdir)
 
-def parse_base_vs_induced_ante (name, logdir="main"):
+def parse_base_vs_induced_ante (name, logdir="free_for_all"):
     replacement = {p : p.replace(' ','') for opp_name in phrases.keys()
                                          for p in phrases[opp_name]} 
     strat_dict = {}

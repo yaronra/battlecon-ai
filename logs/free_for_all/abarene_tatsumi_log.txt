@@ -42,27 +42,59 @@ Tatsumi:
 37% Empathic Shot
 
 
-Abarene: Barbed Drive (Fatigue)
+Abarene: Barbed Drive
+Tatsumi: Siren Drive
+
+Priorities:  5 | 5
+Clash!
+
+Abarene:
+47% Barbed Thorns
+53% Barbed Shot
+
+Tatsumi:
+50% Siren Shot
+50% Siren Dash
+
+
+Abarene: Barbed Thorns
+Tatsumi: Siren Shot
+
+Priorities:  3 | 3
+Clash!
+
+Abarene:
+74% Barbed Shot
+26% Barbed Dash
+
+Tatsumi:
+26% Siren Whirlpool
+74% Siren Dash
+
+
+Abarene: Barbed Shot
 Tatsumi: Siren Dash
 
-Abarene antes a Fatigue token
-Priorities:  5 | 8
+Priorities:  3 | 10
 Tatsumi is active
 Tatsumi moves:
 
 .A....T
 .....j.
 
-Abarene moves:
+Abarene hits
+Abarene recovers a Nausea token
+Abarene moves Tatsumi:
 
-...A..T
+.A...T.
 .....j.
 
-Abarene misses
+Tatsumi has 3 soak
+Tatsumi takes 0 damage (now at 20 life)
 Juto moves
 
-...A..T
-....j..
+.A...T.
+...j...
 
 
 Beat 2
@@ -71,10 +103,10 @@ Beat 2
 Abarene
 -------
 Life: 20
-Discard 1: Barbed Drive
+Discard 1: Barbed Shot
 Discard 2: Lethal Strike
 Special action available
-pool: 
+pool: Fatigue, Nausea
 
 Tatsumi
 -------
@@ -82,52 +114,58 @@ Life: 20
 Discard 1: Siren Dash
 Discard 2: Fearless Burst
 Special action available
-Juto's life: 4
+Juto's life: 2
 
 
-...A..T
-....j..
+.A...T.
+...j...
+
+Unbeatable strategy for Abarene: Crippling Dash: 0.17
+Unbeatable strategy for Abarene: Pestilent Drive (Fatigue): 0.72
+Unbeatable strategy for Abarene: Pestilent Drive (Fatigue, Nausea): 0.32
+Unbeatable strategy for Abarene: Pestilent Dash: 0.22
 
 Abarene:
-55% Intoxicating Dash
-28% Crippling Thorns
-7% Crippling Burst
-11% Pestilent Thorns
+28% Crippling Thorns (Nausea)
+1% Crippling Thorns (Fatigue, Nausea)
+8% Crippling Drive (Fatigue)
+0% Crippling Drive (Fatigue, Nausea)
+62% Pestilent Drive (Fatigue)
 
 Tatsumi:
-2% Riptide Whirlpool
-36% Riptide Drive
-39% Riptide Grasp
-23% Wave Strike
+33% Riptide Strike
+21% Riptide Shot
+16% Empathic Strike
+8% Wave Strike
+21% Wave Grasp
 
 
-Abarene: Crippling Thorns
-Tatsumi: Riptide Drive
+Abarene: Pestilent Drive (Fatigue)
+Tatsumi: Riptide Strike
 
-Priorities:  0 | 3
-Tatsumi is active
-Tatsumi moves:
-
-...AT..
-....j..
-
-Tatsumi hits
-Abarene takes 3 damage (now at 17 life)
+Abarene antes a Fatigue token
+Priorities:  5 | 0
+Abarene is active
 Abarene moves:
 
-....TA.
-....j..
+...A.T.
+...j...
 
 Abarene hits
-Abarene recovers a Nausea token
-Abarene recovers a Pain Spike token
-Tatsumi has 3 soak
-Tatsumi takes 1 damage (now at 19 life)
-Tatsumi is stunned
+Abarene recovers a Fatigue token
+Tatsumi takes 2 damage (now at 18 life)
+Abarene moves:
+
+....AT.
+...j...
+
+Tatsumi hits
+Abarene takes 4 damage (now at 16 life)
+Abarene is stunned
 Juto moves
 
-....TA.
-....j..
+....AT.
+...j...
 
 
 Beat 3
@@ -135,181 +173,283 @@ Beat 3
 
 Abarene
 -------
-Life: 17
-Discard 1: Crippling Thorns
-Discard 2: Barbed Drive
+Life: 16
+Discard 1: Pestilent Drive
+Discard 2: Barbed Shot
 Special action available
-pool: Nausea, Pain Spike
+pool: Fatigue, Nausea
 
 Tatsumi
 -------
-Life: 19
-Discard 1: Riptide Drive
+Life: 18
+Discard 1: Riptide Strike
 Discard 2: Siren Dash
 Special action available
-Juto's life: 1
+Juto's life: 2
 
 
-....TA.
-....j..
-
-Unbeatable strategy for Abarene: Intoxicating Dash (Pain Spike): 1.16
-Unbeatable strategy for Abarene: Intoxicating Dash (Nausea, Pain Spike): 0.90
+....AT.
+...j...
 
 Abarene:
-31% Intoxicating Shot (Pain Spike)
-10% Intoxicating Burst (Pain Spike)
-16% Intoxicating Burst (Nausea, Pain Spike)
-35% Intoxicating Grasp (Pain Spike)
-8% Intoxicating Dash (Pain Spike)
+28% Lethal Grasp (Fatigue)
+19% Lethal Grasp (Nausea)
+8% Intoxicating Thorns (Fatigue)
+24% Intoxicating Thorns (Fatigue, Nausea)
+21% Crippling Thorns
 
 Tatsumi:
-19% Fearless Whirlpool
-27% Fearless Burst
-29% Fearless Grasp
-13% Empathic Shot
-11% Empathic Burst
+74% Fearless Whirlpool
+1% Fearless Burst
+7% Empathic Burst
+18% Wave Drive
 
 
-Abarene: Intoxicating Grasp (Pain Spike)
-Tatsumi: Empathic Shot
+Abarene: Lethal Grasp (Nausea)
+Tatsumi: Fearless Whirlpool
 
-Abarene antes a Pain Spike token
-Tatsumi loses 3 life (now at 16)
-Priorities:  6 | 1
-Abarene is active
-Abarene recovers a Pain Spike token
+Abarene antes a Nausea token
+Priorities:  5 | 5
+Clash!
+
+Abarene:
+97% Lethal Thorns (Nausea)
+3% Lethal Strike (Nausea)
+
+Tatsumi:
+3% Fearless Drive
+97% Fearless Burst
+
+
+Abarene: Lethal Thorns (Nausea)
+Tatsumi: Fearless Burst
+
+Abarene antes a Nausea token
+Priorities:  2 | 3
+Tatsumi is active
+Tatsumi moves:
+
+....A.T
+...j...
+
+Tatsumi hits
+Abarene takes 3 damage (now at 13 life)
 Abarene hits
-Abarene recovers a Dizziness token
-Abarene moves Tatsumi:
-
-.....AT
-....j..
-
-Tatsumi takes 3 damage (now at 13 life)
+Abarene recovers a Nausea token
+Abarene recovers a Pain Spike token
+Tatsumi takes 4 damage (now at 14 life)
 Tatsumi is stunned
-Abarene recovers a Fatigue token
 
 Beat 4
 -------
 
 Abarene
 -------
-Life: 17
-Discard 1: Intoxicating Grasp
-Discard 2: Crippling Thorns
+Life: 13
+Discard 1: Lethal Thorns
+Discard 2: Pestilent Drive
 Special action available
-pool: Nausea, Pain Spike, Dizziness, Fatigue
+pool: Fatigue, Nausea, Pain Spike
 
 Tatsumi
 -------
-Life: 13
-Discard 1: Empathic Shot
-Discard 2: Riptide Drive
+Life: 14
+Discard 1: Fearless Burst
+Discard 2: Riptide Strike
 Special action available
-Juto's life: 1
+Juto's life: 2
 
 
-.....AT
-....j..
+....A.T
+...j...
+
+Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Pain Spike): 0.31
+Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Nausea, Pain Spike): 0.20
 
 Abarene:
-7% Barbed Strike (Pain Spike)
-17% Barbed Strike (Fatigue, Pain Spike)
-63% Barbed Drive (Fatigue, Pain Spike)
-11% Barbed Burst (Nausea, Pain Spike)
-1% Barbed Dash (Pain Spike)
+14% Intoxicating Strike (Pain Spike)
+30% Intoxicating Shot (Fatigue, Pain Spike)
+30% Intoxicating Shot (Nausea, Pain Spike)
+9% Intoxicating Shot (Fatigue, Nausea, Pain Spike)
+3% Barbed Strike (Pain Spike)
+13% Barbed Shot (Fatigue, Pain Spike)
+1% Crippling Strike (Pain Spike)
 
 Tatsumi:
-2% Fearless Whirlpool
-24% Fearless Strike
-4% Fearless Burst
-14% Fearless Grasp
-55% Wave Dash
+19% Siren Whirlpool
+0% Siren Drive
+0% Empathic Whirlpool
+5% Empathic Grasp
+14% Wave Whirlpool
+6% Wave Dash
+55% Special Pulse
 
 
-Abarene: Barbed Burst (Nausea, Pain Spike)
-Tatsumi: Wave Dash
+Abarene: Barbed Strike (Pain Spike)
+Tatsumi: Special Pulse
 
-Abarene antes a Nausea token
 Abarene antes a Pain Spike token
-Tatsumi loses 3 life (now at 10)
-Priorities:  2 | 10
-Tatsumi is active
+Tatsumi loses 3 life (now at 11)
+Pulse:
+
+.A....T
+...j...
+
+
+Beat 4
+-------
+
+Abarene
+-------
+Life: 13
+Discard 1: Barbed Strike
+Discard 2: Lethal Thorns
+Special action available
+pool: Fatigue, Nausea
+
+Tatsumi
+-------
+Life: 11
+Discard 1: Fearless Burst
+Discard 2: Riptide Strike
+Juto's life: 2
+
+
+.A....T
+...j...
+
+Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue): 0.30
+Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Nausea): 0.35
+
+Abarene:
+1% Intoxicating Dash
+2% Intoxicating Dash (Fatigue)
+64% Intoxicating Dash (Nausea)
+33% Crippling Drive (Fatigue, Nausea)
+
+Tatsumi:
+25% Empathic Shot
+72% Empathic Grasp
+4% Wave Shot
+
+
+Abarene: Crippling Drive (Fatigue, Nausea)
+Tatsumi: Empathic Grasp
+
+Abarene antes a Fatigue token
+Abarene antes a Nausea token
+Priorities:  2 | 2
+Clash!
+
+Abarene:
+27% Crippling Shot (Fatigue, Nausea)
+73% Crippling Grasp (Fatigue, Nausea)
+
+Tatsumi:
+44% Empathic Shot
+56% Empathic Drive
+
+
+Abarene: Crippling Grasp (Fatigue, Nausea)
+Tatsumi: Empathic Shot
+
+Abarene antes a Fatigue token
+Abarene antes a Nausea token
+Priorities:  3 | -1
+Abarene is active
 Abarene moves:
 
-....A.T
-....j..
-
-Juto moves
-
-....A.T
+..A...T
 ...j...
 
-Tatsumi moves:
-
-....AT.
-...j...
-
-Tatsumi loses 2 life (now at 8)
 Abarene misses
+Tatsumi misses
 
 Beat 5
 -------
 
 Abarene
 -------
-Life: 17
-Discard 1: Barbed Burst
-Discard 2: Intoxicating Grasp
+Life: 13
+Discard 1: Crippling Grasp
+Discard 2: Barbed Strike
 Special action available
-pool: Dizziness, Fatigue
+pool: 
 
 Tatsumi
 -------
-Life: 8
-Discard 1: Wave Dash
-Discard 2: Empathic Shot
-Special action available
-Juto's life: 1
+Life: 11
+Discard 1: Empathic Shot
+Discard 2: Fearless Burst
+Juto's life: 2
 
 
-....AT.
+..A...T
 ...j...
-
-Unbeatable strategy for Tatsumi: Siren Grasp: -0.39
 
 Abarene:
-2% Lethal Thorns (Dizziness)
-19% Crippling Thorns (Dizziness)
-26% Pestilent Drive (Fatigue)
-54% Pestilent Dash
+20% Lethal Dash
+49% Pestilent Drive
+31% Pestilent Burst
 
 Tatsumi:
-11% Siren Whirlpool
-18% Siren Drive
-36% Siren Grasp
-35% Riptide Strike
+20% Riptide Strike
+16% Wave Whirlpool
+65% Wave Grasp
 
 
-Abarene: Crippling Thorns (Dizziness)
-Tatsumi: Siren Grasp
+Abarene: Pestilent Drive
+Tatsumi: Wave Grasp
 
-Abarene antes a Dizziness token
-Priorities:  0 | 7
-Tatsumi is active
-Tatsumi hits
-Abarene is stunned
-Tatsumi moves Abarene:
+Priorities:  5 | 5
+Clash!
 
-.....TA
+Abarene:
+55% Pestilent Thorns
+24% Pestilent Shot
+21% Pestilent Dash
+
+Tatsumi:
+40% Wave Whirlpool
+41% Wave Strike
+19% Wave Drive
+
+
+Abarene: Pestilent Thorns
+Tatsumi: Wave Whirlpool
+
+Priorities:  3 | 3
+Clash!
+
+Abarene:
+47% Pestilent Shot
+53% Pestilent Dash
+
+Tatsumi:
+46% Wave Strike
+54% Wave Drive
+
+
+Abarene: Pestilent Dash
+Tatsumi: Wave Drive
+
+Priorities:  10 | 4
+Abarene is active
+Abarene moves:
+
+...A..T
 ...j...
 
-Abarene takes 0 damage (now at 17 life)
+Tatsumi moves:
+
+...AT..
+...j...
+
+Tatsumi misses
 Juto moves
 
-.....TA
-....j..
+...AT..
+.j.....
 
 
 Beat 6
@@ -317,67 +457,67 @@ Beat 6
 
 Abarene
 -------
-Life: 17
-Discard 1: Crippling Thorns
-Discard 2: Barbed Burst
+Life: 13
+Discard 1: Pestilent Dash
+Discard 2: Crippling Grasp
 Special action available
-pool: Fatigue
+pool: 
 
 Tatsumi
 -------
-Life: 8
-Discard 1: Siren Grasp
-Discard 2: Wave Dash
-Special action available
-Juto's life: 1
+Life: 11
+Discard 1: Wave Drive
+Discard 2: Empathic Shot
+Juto's life: 2
 
 
-.....TA
-....j..
+...AT..
+.j.....
+
+Unbeatable strategy for Tatsumi: Siren Whirlpool: -1.38
+Unbeatable strategy for Tatsumi: Fearless Whirlpool: -2.47
 
 Abarene:
-10% Lethal Shot
-5% Intoxicating Drive
-17% Intoxicating Drive (Fatigue)
-13% Intoxicating Dash
-12% Intoxicating Dash (Fatigue)
-43% Pestilent Strike
+6% Lethal Thorns
+23% Intoxicating Thorns
+23% Intoxicating Burst
+49% Barbed Drive
 
 Tatsumi:
-0% Fearless Whirlpool
-7% Fearless Strike
-68% Riptide Strike
-25% Empathic Burst
+28% Siren Strike
+45% Fearless Whirlpool
+22% Fearless Strike
+5% Riptide Strike
 
 
-Abarene: Intoxicating Dash (Fatigue)
-Tatsumi: Empathic Burst
+Abarene: Intoxicating Burst
+Tatsumi: Fearless Whirlpool
 
-Abarene antes a Fatigue token
-Priorities:  10 | -2
-Abarene is active
-Abarene recovers a Fatigue token
-Tatsumi moves:
+Priorities:  2 | 5
+Tatsumi is active
+Tatsumi moves Abarene:
 
-....T.A
-....j..
-
-Juto moves
-
-....T.A
-.....j.
-
-Tatsumi moves:
-
-..T...A
-.....j.
+..A.T..
+.j.....
 
 Abarene moves:
 
-..TA...
-.....j.
+A...T..
+.j.....
 
-Tatsumi misses
+Tatsumi hits
+Abarene takes 3 damage (now at 10 life)
+Abarene is stunned
+Tatsumi moves:
+
+A..T...
+.j.....
+
+Juto moves
+
+A..T...
+.j.....
+
 Abarene recovers a Nausea token
 
 Beat 7
@@ -385,108 +525,61 @@ Beat 7
 
 Abarene
 -------
-Life: 17
-Discard 1: Intoxicating Dash
-Discard 2: Crippling Thorns
+Life: 10
+Discard 1: Intoxicating Burst
+Discard 2: Pestilent Dash
 Special action available
-pool: Fatigue, Nausea
+pool: Nausea
 
 Tatsumi
 -------
-Life: 8
-Discard 1: Empathic Burst
-Discard 2: Siren Grasp
-Special action available
-Juto's life: 1
+Life: 11
+Discard 1: Fearless Whirlpool
+Discard 2: Wave Drive
+Juto's life: 2
 
 
-..TA...
-.....j.
-
-Abarene:
-21% Barbed Grasp
-2% Barbed Grasp (Fatigue)
-56% Pestilent Strike
-21% Pestilent Grasp
-
-Tatsumi:
-6% Fearless Whirlpool
-9% Fearless Drive
-21% Riptide Strike
-64% Special Pulse
-
-
-Abarene: Pestilent Strike
-Tatsumi: Special Pulse
-
-Pulse:
-
-T.....A
-.....j.
-
-
-Beat 7
--------
-
-Abarene
--------
-Life: 17
-Discard 1: Pestilent Strike
-Discard 2: Intoxicating Dash
-Special action available
-pool: Fatigue, Nausea
-
-Tatsumi
--------
-Life: 8
-Discard 1: Empathic Burst
-Discard 2: Siren Grasp
-Juto's life: 1
-
-
-T.....A
-.....j.
-
-Unbeatable strategy for Abarene: Crippling Thorns (Nausea): 0.88
+A..T...
+.j.....
 
 Abarene:
-17% Lethal Burst (Fatigue, Nausea)
-47% Crippling Thorns (Nausea)
-21% Crippling Thorns (Fatigue, Nausea)
-14% Crippling Drive (Fatigue, Nausea)
+28% Barbed Drive
+12% Crippling Thorns (Nausea)
+17% Crippling Strike (Nausea)
+44% Crippling Grasp
 
 Tatsumi:
-25% Fearless Whirlpool
-42% Fearless Shot
-22% Riptide Shot
-12% Wave Whirlpool
+33% Siren Shot
+56% Riptide Strike
+5% Riptide Burst
+5% Empathic Strike
 
 
-Abarene: Crippling Drive (Fatigue, Nausea)
-Tatsumi: Riptide Shot
+Abarene: Crippling Grasp
+Tatsumi: Riptide Strike
 
-Abarene antes a Fatigue token
-Abarene antes a Nausea token
-Priorities:  2 | -1
+Priorities:  3 | 2
 Abarene is active
 Abarene moves:
 
-T...A..
-.....j.
+..AT...
+.j.....
 
-Abarene moves:
+Abarene hits
+Abarene recovers a Fatigue token
+Abarene moves Tatsumi:
 
-T.A....
-.....j.
+..A.T..
+.j.....
 
-Abarene misses
+Tatsumi takes 3 damage (now at 8 life)
 Tatsumi hits
-Abarene takes 3 damage (now at 14 life)
+Abarene takes 4 damage (now at 6 life)
 Abarene is stunned
 Juto moves
 
-T.A....
-...j...
+..A.T..
+.j.....
 
 
 Beat 8
@@ -494,172 +587,209 @@ Beat 8
 
 Abarene
 -------
-Life: 14
-Discard 1: Crippling Drive
-Discard 2: Pestilent Strike
+Life: 6
+Discard 1: Crippling Grasp
+Discard 2: Intoxicating Burst
 Special action available
-pool: 
+pool: Fatigue, Nausea
 
 Tatsumi
 -------
 Life: 8
-Discard 1: Riptide Shot
-Discard 2: Empathic Burst
-Juto's life: 1
+Discard 1: Riptide Strike
+Discard 2: Fearless Whirlpool
+Juto's life: 2
 
 
-T.A....
-...j...
-
-Unbeatable strategy for Tatsumi: Fearless Whirlpool: -2.18
+..A.T..
+.j.....
 
 Abarene:
-20% Lethal Grasp
-80% Intoxicating Dash
+5% Barbed Strike
+22% Barbed Strike (Nausea)
+8% Barbed Shot
+12% Barbed Shot (Nausea)
+53% Barbed Drive
 
 Tatsumi:
-88% Fearless Whirlpool
-12% Wave Dash
+3% Siren Shot
+3% Siren Dash
+26% Empathic Shot
+12% Empathic Grasp
+56% Wave Dash
 
 
-Abarene: Intoxicating Dash
-Tatsumi: Fearless Whirlpool
+Abarene: Barbed Drive
+Tatsumi: Empathic Shot
 
-Priorities:  10 | 5
+Priorities:  5 | 2
 Abarene is active
-Tatsumi moves Abarene:
+Tatsumi moves:
 
-T..A...
-...j...
+.TA....
+.j.....
+
+Tatsumi loses 2 life (now at 6)
+Juto moves
+
+.TA....
+....j..
 
 Abarene moves:
 
-T.....A
-...j...
+AT.....
+....j..
 
-Tatsumi misses
-Tatsumi moves:
-
-..T...A
-...j...
-
-Juto moves
-
-..T...A
-.j.....
-
-Abarene recovers a Nausea token
+Abarene hits
+Abarene recovers a Dizziness token
+Tatsumi takes 2 damage (now at 4 life)
+Tatsumi hits
+Abarene takes 4 damage (now at 2 life)
+Abarene is stunned
 
 Beat 9
 -------
 
 Abarene
 -------
-Life: 14
-Discard 1: Intoxicating Dash
-Discard 2: Crippling Drive
+Life: 2
+Discard 1: Barbed Drive
+Discard 2: Crippling Grasp
 Special action available
-pool: Nausea
+pool: Dizziness, Fatigue, Nausea
 
 Tatsumi
 -------
-Life: 8
-Discard 1: Fearless Whirlpool
-Discard 2: Riptide Shot
-Juto's life: 1
+Life: 4
+Discard 1: Empathic Shot
+Discard 2: Riptide Strike
+Juto's life: 2
 
 
-..T...A
-.j.....
+AT.....
+....j..
 
 Abarene:
-3% Lethal Grasp
-24% Pestilent Shot
-72% Pestilent Grasp (Nausea)
+8% Lethal Dash
+6% Intoxicating Thorns (Dizziness, Fatigue, Nausea)
+10% Intoxicating Strike (Fatigue)
+18% Intoxicating Shot (Dizziness)
+32% Intoxicating Dash (Dizziness)
+28% Pestilent Thorns (Dizziness, Fatigue)
 
 Tatsumi:
-6% Siren Burst
-47% Empathic Burst
-0% Wave Drive
-46% Wave Burst
+17% Siren Drive
+12% Siren Grasp
+11% Siren Dash
+19% Fearless Dash
+3% Wave Whirlpool
+38% Wave Dash
 
 
-Abarene: Pestilent Grasp (Nausea)
-Tatsumi: Empathic Burst
+Abarene: Intoxicating Strike (Fatigue)
+Tatsumi: Fearless Dash
 
-Abarene antes a Nausea token
-Priorities:  6 | 0
-Abarene is active
+Abarene antes a Fatigue token
+Priorities:  4 | 8
+Tatsumi is active
+Abarene recovers a Fatigue token
 Tatsumi moves:
 
-T.....A
-.j.....
+A..T...
+....j..
 
 Abarene misses
-Abarene moves:
-
-T..A...
-.j.....
-
-Tatsumi misses
+Abarene recovers a Pain Spike token
 
 Beat 10
 -------
 
 Abarene
 -------
-Life: 14
-Discard 1: Pestilent Grasp
-Discard 2: Intoxicating Dash
+Life: 2
+Discard 1: Intoxicating Strike
+Discard 2: Barbed Drive
 Special action available
-pool: 
+pool: Dizziness, Fatigue, Nausea, Pain Spike
 
 Tatsumi
 -------
-Life: 8
-Discard 1: Empathic Burst
-Discard 2: Fearless Whirlpool
-Juto's life: 1
+Life: 4
+Discard 1: Fearless Dash
+Discard 2: Empathic Shot
+Juto's life: 2
 
 
-T..A...
-.j.....
+A..T...
+....j..
+
+Unbeatable strategy for Abarene: Lethal Dash (Pain Spike): 0.46
+Unbeatable strategy for Abarene: Lethal Dash (Nausea, Pain Spike): 0.28
+Unbeatable strategy for Abarene: Crippling Dash (Pain Spike): 1.16
+Unbeatable strategy for Abarene: Crippling Dash (Dizziness, Pain Spike): 0.19
+Unbeatable strategy for Abarene: Crippling Dash (Fatigue, Pain Spike): 0.29
+Unbeatable strategy for Abarene: Crippling Dash (Nausea, Pain Spike): 0.79
+Unbeatable strategy for Abarene: Pestilent Dash (Pain Spike): 0.69
+Unbeatable strategy for Abarene: Pestilent Dash (Nausea, Pain Spike): 0.46
 
 Abarene:
-98% Barbed Drive
-2% Crippling Burst
+34% Crippling Grasp (Fatigue, Pain Spike)
+66% Pestilent Shot (Dizziness, Fatigue, Nausea, Pain Spike)
 
 Tatsumi:
-59% Riptide Strike
-41% Wave Grasp
+74% Siren Drive
+26% Riptide Burst
 
 
-Abarene: Barbed Drive
-Tatsumi: Riptide Strike
+Abarene: Crippling Grasp (Fatigue, Pain Spike)
+Tatsumi: Siren Drive
 
-Priorities:  5 | 2
+Abarene antes a Fatigue token
+Abarene antes a Pain Spike token
+Tatsumi loses 3 life (now at 1)
+Priorities:  3 | 3
+Clash!
+
+Abarene:
+100% Crippling Dash (Fatigue, Pain Spike)
+
+Tatsumi:
+100% Siren Whirlpool
+
+
+Abarene: Crippling Dash (Fatigue, Pain Spike)
+Tatsumi: Siren Whirlpool
+
+Abarene antes a Fatigue token
+Abarene antes a Pain Spike token
+Tatsumi loses 3 life (now at 1)
+Priorities:  7 | 2
 Abarene is active
+Tatsumi moves Abarene:
+
+.A.T...
+....j..
+
 Abarene moves:
 
-TA.....
-.j.....
+..AT...
+....j..
 
-Abarene hits
-Abarene recovers a Nausea token
-Abarene moves Tatsumi:
+Abarene moves:
 
-.AT....
-.j.....
+...TA..
+....j..
 
-Tatsumi loses 2 life (now at 6)
-Tatsumi takes 2 damage (now at 4 life)
-Tatsumi hits
-Abarene takes 4 damage (now at 10 life)
-Abarene is stunned
+Tatsumi misses
 Juto moves
 
-.AT....
+...TA..
 ..j....
+
+Juto moves
+
+...TA..
+j......
 
 
 Beat 11
@@ -667,183 +797,59 @@ Beat 11
 
 Abarene
 -------
-Life: 10
-Discard 1: Barbed Drive
-Discard 2: Pestilent Grasp
+Life: 2
+Discard 1: Crippling Dash
+Discard 2: Intoxicating Strike
 Special action available
-pool: Nausea
+pool: Dizziness, Nausea
 
 Tatsumi
 -------
-Life: 4
-Discard 1: Riptide Strike
-Discard 2: Empathic Burst
-Juto's life: 1
+Life: 1
+Discard 1: Siren Whirlpool
+Discard 2: Fearless Dash
+Juto's life: 2
 
 
-.AT....
-..j....
-
-Unbeatable strategy for Tatsumi: Siren Whirlpool: -1.30
+...TA..
+j......
 
 Abarene:
-70% Intoxicating Strike (Nausea)
-30% Crippling Burst
+50% Pestilent Drive (Dizziness)
+50% Pestilent Drive (Dizziness, Nausea)
 
 Tatsumi:
-53% Siren Whirlpool
-47% Fearless Dash
+4% Riptide Strike
+1% Riptide Shot
+2% Riptide Drive
+2% Riptide Burst
+4% Riptide Grasp
+6% Empathic Strike
+5% Empathic Shot
+4% Empathic Drive
+18% Empathic Burst
+8% Empathic Grasp
+3% Wave Strike
+3% Wave Shot
+4% Wave Drive
+5% Wave Burst
+32% Wave Grasp
 
 
-Abarene: Intoxicating Strike (Nausea)
-Tatsumi: Siren Whirlpool
+Abarene: Pestilent Drive (Dizziness, Nausea)
+Tatsumi: Empathic Drive
 
+Abarene antes a Dizziness token
 Abarene antes a Nausea token
-Priorities:  4 | 4
-Clash!
-
-Abarene:
-83% Intoxicating Shot (Nausea)
-17% Intoxicating Dash (Nausea)
-
-Tatsumi:
-53% Siren Shot
-47% Siren Dash
-
-
-Abarene: Intoxicating Shot (Nausea)
-Tatsumi: Siren Dash
-
-Abarene antes a Nausea token
-Priorities:  3 | 10
-Tatsumi is active
-Abarene recovers a Nausea token
-Tatsumi moves:
-
-TA.....
-..j....
-
-Abarene misses
-Juto moves
-
-TA.....
-...j...
-
-Abarene recovers a Fatigue token
-
-Beat 12
--------
-
-Abarene
--------
-Life: 10
-Discard 1: Intoxicating Shot
-Discard 2: Barbed Drive
-Special action available
-pool: Fatigue, Nausea
-
-Tatsumi
--------
-Life: 4
-Discard 1: Siren Dash
-Discard 2: Riptide Strike
-Juto's life: 1
-
-
-TA.....
-...j...
-
-Abarene:
-12% Crippling Thorns
-60% Pestilent Thorns (Fatigue)
-0% Pestilent Strike (Fatigue)
-28% Pestilent Grasp (Fatigue)
-
-Tatsumi:
-49% Fearless Whirlpool
-2% Fearless Shot
-38% Fearless Drive
-11% Empathic Whirlpool
-
-
-Abarene: Pestilent Thorns (Fatigue)
-Tatsumi: Empathic Whirlpool
-
-Abarene antes a Fatigue token
-Priorities:  3 | 1
+Priorities:  5 | 3
 Abarene is active
-Tatsumi moves Abarene:
-
-T.A....
-...j...
-
-Abarene hits
-Abarene recovers a Pain Spike token
-Abarene recovers a Dizziness token
-Tatsumi takes 2 damage (now at 2 life)
-Tatsumi is stunned
 Abarene moves:
 
-TA.....
-...j...
-
-
-Beat 13
--------
-
-Abarene
--------
-Life: 10
-Discard 1: Pestilent Thorns
-Discard 2: Intoxicating Shot
-Special action available
-pool: Nausea, Pain Spike, Dizziness
-
-Tatsumi
--------
-Life: 2
-Discard 1: Empathic Whirlpool
-Discard 2: Siren Dash
-Juto's life: 1
-
-
-TA.....
-...j...
-
-Abarene:
-19% Barbed Strike
-7% Barbed Strike (Pain Spike, Dizziness)
-16% Barbed Drive (Dizziness)
-41% Barbed Grasp (Pain Spike, Dizziness)
-17% Crippling Strike (Nausea, Pain Spike, Dizziness)
-
-Tatsumi:
-3% Fearless Shot
-15% Fearless Drive
-17% Riptide Burst
-24% Wave Drive
-41% Wave Grasp
-
-
-Abarene: Barbed Strike
-Tatsumi: Wave Grasp
-
-Priorities:  4 | 6
-Tatsumi is active
-Tatsumi misses
-Juto moves
-
-TA.....
-...j...
+.A.T...
+j......
 
 Abarene hits
-Abarene recovers a Fatigue token
-Abarene moves Tatsumi:
-
-.AT....
-...j...
-
-Tatsumi loses 2 life (now at 1)
-Tatsumi takes 3 damage (now at 0 life)
+Abarene recovers a Dizziness token
+Tatsumi takes 2 damage (now at 0 life)
 ABARENE WINS!
-total_time: 284
+total_time: 413

@@ -41,29 +41,22 @@ Luc:
 15% Chrono Dash
 
 
-Abarene: Crippling Thorns
-Luc: Chrono Drive
+Abarene: Crippling Drive (Fatigue)
+Luc: Chrono Burst
 
-Priorities:  0 | 5
-Luc is active
-Luc spends a Time token
-Luc moves:
-
-.A..L..
-
-Luc moves:
-
-.AL....
-
-Luc hits
-Abarene takes 3 damage (now at 17 life)
+Abarene antes a Fatigue token
+Priorities:  2 | 0
+Abarene is active
 Abarene moves:
 
-..LA...
+..A..L.
+
+Abarene moves:
+
+....AL.
 
 Abarene hits
 Abarene recovers a Nausea token
-Abarene recovers a Pain Spike token
 Luc takes 4 damage (now at 16 life)
 Luc is stunned
 Luc gains 1 Time token
@@ -73,68 +66,50 @@ Beat 2
 
 Abarene
 -------
-Life: 17
-Discard 1: Crippling Thorns
+Life: 20
+Discard 1: Crippling Drive
 Discard 2: Lethal Strike
 Special action available
-pool: Fatigue, Nausea, Pain Spike
+pool: Nausea
 
 Luc
 ---
 Life: 16
-Discard 1: Chrono Drive
+Discard 1: Chrono Burst
 Discard 2: Eternal Flash
 Special action available
-2 Time tokens
+3 Time tokens
 
 
-..LA...
-
-Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue): 0.04
-Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Nausea): 0.06
-Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Pain Spike): 2.39
-Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Nausea, Pain Spike): 2.41
-Unbeatable strategy for Abarene: Barbed Dash (Fatigue, Pain Spike): 0.45
-Unbeatable strategy for Abarene: Barbed Dash (Fatigue, Nausea, Pain Spike): 0.15
-Unbeatable strategy for Abarene: Pestilent Dash (Fatigue, Pain Spike): 0.74
-Unbeatable strategy for Abarene: Pestilent Dash (Fatigue, Nausea, Pain Spike): 0.19
+....AL.
 
 Abarene:
-46% Intoxicating Drive (Pain Spike)
-26% Intoxicating Drive (Nausea, Pain Spike)
-8% Intoxicating Grasp (Fatigue, Nausea, Pain Spike)
-8% Intoxicating Dash (Nausea, Pain Spike)
-4% Barbed Shot (Pain Spike)
-9% Barbed Shot (Nausea, Pain Spike)
+13% Intoxicating Thorns (Nausea)
+19% Intoxicating Shot (Nausea)
+16% Barbed Thorns
+19% Barbed Thorns (Nausea)
+33% Barbed Grasp
 
 Luc:
-26% Memento Dash
-47% Memento Dash (1 token)
-1% Fusion Strike (1 token)
-3% Fusion Grasp
-21% Fusion Dash
-2% Feinting Dash
+20% Memento Shot
+64% Memento Dash
+5% Fusion Shot (1 token)
+2% Fusion Grasp (1 token)
+9% Fusion Dash
+1% Feinting Shot (3 tokens)
 
 
-Abarene: Intoxicating Drive (Pain Spike)
-Luc: Memento Dash (1 token)
+Abarene: Barbed Grasp
+Luc: Memento Dash
 
-Abarene antes a Pain Spike token
-Luc loses 3 life (now at 13)
-Luc antes a Time token
-Priorities:  5 | 9
+Priorities:  6 | 8
 Luc is active
-Abarene recovers a Pain Spike token
 Luc moves:
 
-...AL..
+...LA..
 
-Abarene moves:
-
-....L.A
-
+Luc loses 2 life (now at 14)
 Abarene misses
-Abarene recovers a Dizziness token
 Luc gains 1 Time token
 
 Beat 3
@@ -142,69 +117,56 @@ Beat 3
 
 Abarene
 -------
-Life: 17
-Discard 1: Intoxicating Drive
-Discard 2: Crippling Thorns
+Life: 20
+Discard 1: Barbed Grasp
+Discard 2: Crippling Drive
 Special action available
-pool: Fatigue, Nausea, Pain Spike, Dizziness
+pool: Nausea
 
 Luc
 ---
-Life: 13
+Life: 14
 Discard 1: Memento Dash
-Discard 2: Chrono Drive
+Discard 2: Chrono Burst
 Special action available
-2 Time tokens
+4 Time tokens
 
 
-....L.A
-
-Unbeatable strategy for Abarene: Lethal Dash (Pain Spike): 0.37
-Unbeatable strategy for Abarene: Lethal Dash (Nausea, Pain Spike): 0.16
-Unbeatable strategy for Abarene: Barbed Dash (Pain Spike): 0.70
-Unbeatable strategy for Abarene: Barbed Dash (Nausea, Pain Spike): 0.33
-Unbeatable strategy for Abarene: Pestilent Dash (Pain Spike): 1.58
-Unbeatable strategy for Abarene: Pestilent Dash (Fatigue, Pain Spike): 0.03
-Unbeatable strategy for Abarene: Pestilent Dash (Nausea, Pain Spike): 0.47
-Unbeatable strategy for Abarene: Pestilent Dash (Pain Spike, Dizziness): 0.03
+...LA..
 
 Abarene:
-18% Lethal Shot (Pain Spike)
-19% Lethal Shot (Nausea, Pain Spike)
-0% Lethal Burst (Pain Spike)
-8% Lethal Burst (Nausea, Pain Spike)
-26% Pestilent Strike (Pain Spike, Dizziness)
-28% Pestilent Shot (Pain Spike, Dizziness)
+34% Intoxicating Thorns
+39% Intoxicating Thorns (Nausea)
+19% Intoxicating Strike (Nausea)
+3% Intoxicating Burst
+5% Intoxicating Burst (Nausea)
 
 Luc:
-9% Eternal Flash
-19% Eternal Flash (1 token)
-32% Eternal Shot
-27% Eternal Burst
-7% Fusion Burst
-5% Feinting Strike (1 token)
+69% Eternal Shot
+1% Eternal Shot (3 tokens)
+11% Fusion Shot (1 token)
+19% Feinting Flash (1 token)
 
 
-Abarene: Lethal Shot (Nausea, Pain Spike)
+Abarene: Intoxicating Thorns (Nausea)
 Luc: Eternal Shot
 
 Abarene antes a Nausea token
-Abarene antes a Pain Spike token
-Luc loses 3 life (now at 10)
-Priorities:  2 | -2
+Priorities:  3 | -2
 Abarene is active
-Abarene moves:
-
-A...L..
-
-Abarene hits
 Abarene recovers a Nausea token
+Abarene hits
+Abarene recovers a Dizziness token
+Abarene recovers a Fatigue token
 Luc spends a Time token
 Luc spends a Time token
-Luc gains +2 soak (3 total)
-Luc has 3 soak
-Luc takes 1 damage (now at 9 life)
-Luc misses
+Luc spends a Time token
+Luc gains +3 soak (4 total)
+Luc has 4 soak
+Luc takes 0 damage (now at 14 life)
+Luc hits
+Abarene takes 3 damage (now at 17 life)
+Abarene recovers a Pain Spike token
 Luc gains 1 Time token
 
 Beat 4
@@ -213,51 +175,60 @@ Beat 4
 Abarene
 -------
 Life: 17
-Discard 1: Lethal Shot
-Discard 2: Intoxicating Drive
+Discard 1: Intoxicating Thorns
+Discard 2: Barbed Grasp
 Special action available
-pool: Dizziness, Fatigue, Nausea
+pool: Dizziness, Fatigue, Nausea, Pain Spike
 
 Luc
 ---
-Life: 9
+Life: 14
 Discard 1: Eternal Shot
 Discard 2: Memento Dash
 Special action available
-1 Time tokens
+2 Time tokens
 
 
-A...L..
+...LA..
+
+Unbeatable strategy for Abarene: Pestilent Dash (Pain Spike): 0.61
 
 Abarene:
-32% Crippling Thorns (Fatigue)
-68% Crippling Thorns (Nausea)
+2% Lethal Burst (Fatigue, Pain Spike)
+44% Crippling Strike (Dizziness, Pain Spike)
+23% Crippling Strike (Dizziness, Nausea, Pain Spike)
+6% Crippling Strike (Fatigue, Nausea, Pain Spike)
+12% Pestilent Strike (Fatigue, Pain Spike)
+3% Pestilent Strike (Nausea, Pain Spike)
+10% Pestilent Drive (Nausea, Pain Spike)
 
 Luc:
-39% Feinting Drive
-61% Feinting Burst (1 token)
+2% Feinting Flash
+15% Feinting Strike
+27% Feinting Drive
+9% Chrono Flash
+35% Chrono Strike
+7% Chrono Drive (1 token)
+6% Chrono Burst
 
 
-Abarene: Crippling Thorns (Fatigue)
-Luc: Feinting Burst (1 token)
+Abarene: Crippling Strike (Dizziness, Nausea, Pain Spike)
+Luc: Chrono Strike
 
-Abarene antes a Fatigue token
-Luc antes a Time token
-Priorities:  0 | -2
-Abarene is active
+Abarene antes a Dizziness token
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Luc loses 3 life (now at 11)
+Priorities:  1 | 4
+Luc is active
+Luc misses
 Abarene moves:
 
-..A.L..
+..AL...
 
 Abarene hits
-Abarene recovers a Fatigue token
-Abarene recovers a Pain Spike token
-Luc takes 4 damage (now at 5 life)
-Luc is stunned
-Luc moves:
-
-.LA....
-
+Abarene recovers a Nausea token
+Luc takes 5 damage (now at 6 life)
 Luc gains 1 Time token
 
 Beat 5
@@ -266,61 +237,50 @@ Beat 5
 Abarene
 -------
 Life: 17
-Discard 1: Crippling Thorns
-Discard 2: Lethal Shot
+Discard 1: Crippling Strike
+Discard 2: Intoxicating Thorns
 Special action available
-pool: Dizziness, Fatigue, Nausea, Pain Spike
+pool: Fatigue, Nausea
 
 Luc
 ---
-Life: 5
-Discard 1: Feinting Burst
+Life: 6
+Discard 1: Chrono Strike
 Discard 2: Eternal Shot
 Special action available
-1 Time tokens
+3 Time tokens
 
 
-.LA....
-
-Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Pain Spike): 0.60
-Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Nausea, Pain Spike): 0.56
-Unbeatable strategy for Abarene: Barbed Dash (Fatigue, Pain Spike): 0.39
-Unbeatable strategy for Abarene: Barbed Dash (Fatigue, Nausea, Pain Spike): 0.33
-Unbeatable strategy for Abarene: Pestilent Dash (Fatigue, Pain Spike): 0.61
-Unbeatable strategy for Abarene: Pestilent Dash (Fatigue, Nausea, Pain Spike): 0.06
+..AL...
 
 Abarene:
-4% Intoxicating Dash (Nausea, Pain Spike)
-1% Barbed Strike (Nausea, Pain Spike)
-53% Barbed Drive (Pain Spike)
-36% Barbed Drive (Nausea, Pain Spike)
-3% Barbed Grasp (Pain Spike)
-4% Barbed Grasp (Fatigue, Pain Spike)
+27% Barbed Shot
+49% Barbed Shot (Nausea)
+17% Barbed Drive
+7% Barbed Drive (Nausea)
 
 Luc:
-7% Memento Dash
-1% Fusion Strike (1 token)
-1% Fusion Grasp
-1% Fusion Grasp (1 token)
-19% Chrono Dash
-71% Chrono Dash (1 token)
+19% Memento Drive
+32% Memento Dash
+2% Fusion Burst (1 token)
+45% Fusion Dash
+2% Special Temporal Recursion
 
 
-Abarene: Barbed Drive (Pain Spike)
-Luc: Chrono Dash
+Abarene: Barbed Drive (Nausea)
+Luc: Fusion Dash
 
-Abarene antes a Pain Spike token
-Luc loses 3 life (now at 2)
+Abarene antes a Nausea token
 Priorities:  5 | 10
 Luc is active
 Luc moves:
 
-..AL...
+.LA....
 
-Luc loses 2 life (now at 1)
+Luc loses 2 life (now at 4)
 Abarene moves:
 
-...LA..
+AL.....
 
 Abarene misses
 Luc gains 1 Time token
@@ -332,76 +292,551 @@ Abarene
 -------
 Life: 17
 Discard 1: Barbed Drive
-Discard 2: Crippling Thorns
+Discard 2: Crippling Strike
+Special action available
+pool: Fatigue
+
+Luc
+---
+Life: 4
+Discard 1: Fusion Dash
+Discard 2: Chrono Strike
+Special action available
+4 Time tokens
+
+
+AL.....
+
+Unbeatable strategy for Luc: Eternal Drive: -0.11
+
+Abarene:
+11% Lethal Burst
+6% Intoxicating Thorns (Fatigue)
+30% Intoxicating Dash
+33% Intoxicating Dash (Fatigue)
+19% Pestilent Thorns
+
+Luc:
+89% Eternal Drive
+7% Eternal Burst
+4% Memento Flash (1 token)
+0% Memento Drive (1 token)
+
+
+Abarene: Lethal Burst
+Luc: Eternal Drive
+
+Priorities:  1 | 0
+Abarene is active
+Abarene moves:
+
+.L....A
+
+Abarene misses
+Luc moves:
+
+..L...A
+
+Luc misses
+Luc gains 1 Time token
+
+Beat 7
+-------
+
+Abarene
+-------
+Life: 17
+Discard 1: Lethal Burst
+Discard 2: Barbed Drive
+Special action available
+pool: Fatigue
+
+Luc
+---
+Life: 4
+Discard 1: Eternal Drive
+Discard 2: Fusion Dash
+Special action available
+5 Time tokens
+
+
+..L...A
+
+Unbeatable strategy for Luc: Chrono Flash (1 token): -0.24
+
+Abarene:
+5% Intoxicating Grasp (Fatigue)
+14% Crippling Thorns (Fatigue)
+81% Pestilent Dash
+
+Luc:
+10% Feinting Shot (5 tokens)
+20% Chrono Flash
+70% Chrono Flash (1 token)
+
+
+Abarene: Pestilent Dash
+Luc: Chrono Flash (1 token)
+
+Luc antes a Time token
+Priorities:  10 | 8
+Abarene is active
+Luc moves:
+
+...L..A
+
+Abarene moves:
+
+..AL...
+
+Abarene recovers a Nausea token
+Abarene moves:
+
+A..L...
+
+Luc misses
+Luc gains 1 Time token
+
+Beat 8
+-------
+
+Abarene
+-------
+Life: 17
+Discard 1: Pestilent Dash
+Discard 2: Lethal Burst
+Special action available
+pool: Fatigue, Nausea
+
+Luc
+---
+Life: 4
+Discard 1: Chrono Flash
+Discard 2: Eternal Drive
+Special action available
+5 Time tokens
+
+
+A..L...
+
+Abarene:
+18% Barbed Thorns
+1% Barbed Thorns (Nausea)
+23% Barbed Drive
+2% Crippling Thorns
+54% Crippling Strike
+1% Crippling Shot
+0% Crippling Drive
+
+Luc:
+0% Memento Shot (3 tokens)
+1% Memento Shot (5 tokens)
+1% Memento Burst (3 tokens)
+2% Memento Grasp (1 token)
+0% Feinting Shot (5 tokens)
+1% Feinting Burst (3 tokens)
+95% Special Pulse
+
+
+Abarene: Crippling Shot
+Luc: Special Pulse
+
+Pulse:
+
+.A..L..
+
+
+Beat 8
+-------
+
+Abarene
+-------
+Life: 17
+Discard 1: Crippling Shot
+Discard 2: Pestilent Dash
+Special action available
+pool: Fatigue, Nausea
+
+Luc
+---
+Life: 4
+Discard 1: Chrono Flash
+Discard 2: Eternal Drive
+5 Time tokens
+
+
+.A..L..
+
+Abarene:
+6% Lethal Thorns (Nausea)
+3% Lethal Strike
+1% Lethal Strike (Nausea)
+11% Lethal Drive
+6% Intoxicating Drive (Nausea)
+17% Intoxicating Burst (Fatigue)
+50% Intoxicating Burst (Nausea)
+5% Barbed Drive
+
+Luc:
+2% Memento Burst
+2% Memento Burst (1 token)
+3% Memento Grasp (3 tokens)
+1% Fusion Shot (3 tokens)
+0% Fusion Shot (5 tokens)
+82% Fusion Burst (1 token)
+5% Feinting Strike (1 token)
+3% Feinting Shot (3 tokens)
+2% Feinting Burst (3 tokens)
+
+
+Abarene: Intoxicating Burst (Nausea)
+Luc: Fusion Burst (1 token)
+
+Abarene antes a Nausea token
+Luc antes a Time token
+Priorities:  2 | 3
+Luc is active
+Luc moves:
+
+.A....L
+
+Abarene recovers a Nausea token
+Abarene moves:
+
+A.....L
+
+Luc misses
+Abarene misses
+Abarene recovers a Dizziness token
+Luc gains 1 Time token
+
+Beat 9
+-------
+
+Abarene
+-------
+Life: 17
+Discard 1: Intoxicating Burst
+Discard 2: Crippling Shot
 Special action available
 pool: Dizziness, Fatigue, Nausea
 
 Luc
 ---
-Life: 1
-Discard 1: Chrono Dash
-Discard 2: Feinting Burst
-Special action available
-2 Time tokens
+Life: 4
+Discard 1: Fusion Burst
+Discard 2: Chrono Flash
+5 Time tokens
 
 
-...LA..
+A.....L
 
 Abarene:
-5% Intoxicating Strike (Fatigue)
-58% Intoxicating Strike (Fatigue, Nausea)
-11% Intoxicating Shot (Nausea)
-21% Intoxicating Shot (Fatigue, Nausea)
-5% Pestilent Strike (Dizziness)
+4% Lethal Thorns (Nausea)
+39% Lethal Drive
+28% Pestilent Grasp
+29% Pestilent Grasp (Nausea)
 
 Luc:
-5% Eternal Shot
-21% Fusion Strike (1 token)
-11% Fusion Shot
-63% Fusion Drive (1 token)
-0% Fusion Grasp (1 token)
+72% Eternal Grasp
+6% Memento Shot (3 tokens)
+2% Memento Grasp (1 token)
+7% Memento Grasp (3 tokens)
+12% Feinting Shot (3 tokens)
 
 
-Abarene: Intoxicating Strike (Fatigue, Nausea)
-Luc: Fusion Drive (1 token)
+Abarene: Pestilent Grasp
+Luc: Memento Grasp (3 tokens)
+
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  6 | 4
+Abarene is active
+Abarene misses
+Luc misses
+Luc gains 1 Time token
+
+Beat 10
+-------
+
+Abarene
+-------
+Life: 17
+Discard 1: Pestilent Grasp
+Discard 2: Intoxicating Burst
+Special action available
+pool: Dizziness, Fatigue, Nausea
+
+Luc
+---
+Life: 4
+Discard 1: Memento Grasp
+Discard 2: Fusion Burst
+3 Time tokens
+
+
+A.....L
+
+Abarene:
+41% Lethal Strike
+46% Crippling Thorns (Dizziness, Fatigue, Nausea)
+13% Crippling Shot
+
+Luc:
+16% Eternal Flash
+19% Eternal Strike
+65% Eternal Drive
+
+
+Abarene: Crippling Thorns (Dizziness, Fatigue, Nausea)
+Luc: Eternal Strike
+
+Abarene antes a Dizziness token
+Abarene antes a Fatigue token
+Abarene antes a Nausea token
+Priorities:  0 | -3
+Abarene is active
+Abarene moves:
+
+..A...L
+
+Abarene hits
+Abarene recovers a Nausea token
+Abarene recovers a Pain Spike token
+Luc spends a Time token
+Luc spends a Time token
+Luc spends a Time token
+Luc gains +3 soak (4 total)
+Luc has 4 soak
+Luc takes 0 damage (now at 4 life)
+Luc misses
+Luc gains 1 Time token
+
+Beat 11
+-------
+
+Abarene
+-------
+Life: 17
+Discard 1: Crippling Thorns
+Discard 2: Pestilent Grasp
+Special action available
+pool: Nausea, Pain Spike
+
+Luc
+---
+Life: 4
+Discard 1: Eternal Strike
+Discard 2: Memento Grasp
+1 Time tokens
+
+
+..A...L
+
+Unbeatable strategy for Abarene: Lethal Dash (Pain Spike): 0.71
+Unbeatable strategy for Abarene: Lethal Dash (Nausea, Pain Spike): 0.46
+
+Abarene:
+7% Intoxicating Shot (Nausea, Pain Spike)
+0% Barbed Shot (Pain Spike)
+22% Barbed Shot (Nausea, Pain Spike)
+28% Barbed Drive (Pain Spike)
+7% Barbed Burst (Pain Spike)
+36% Barbed Dash (Nausea, Pain Spike)
+
+Luc:
+2% Fusion Shot
+19% Fusion Drive
+8% Feinting Drive (1 token)
+20% Chrono Shot
+2% Chrono Drive
+49% Chrono Dash
+
+
+Abarene: Intoxicating Shot (Nausea, Pain Spike)
+Luc: Feinting Drive (1 token)
 
 Abarene antes a Nausea token
-Abarene antes a Fatigue token
+Abarene antes a Pain Spike token
+Luc loses 3 life (now at 1)
 Luc antes a Time token
-Priorities:  4 | 4
+Priorities:  3 | 3
 Clash!
 
 Abarene:
-34% Intoxicating Shot (Fatigue, Nausea)
-34% Intoxicating Burst (Fatigue, Nausea)
-33% Intoxicating Grasp (Fatigue, Nausea)
+7% Intoxicating Drive (Nausea, Pain Spike)
+93% Intoxicating Burst (Nausea, Pain Spike)
 
 Luc:
-33% Fusion Flash (1 token)
-34% Fusion Strike (1 token)
-34% Fusion Shot (1 token)
+93% Feinting Flash (1 token)
+7% Feinting Shot (1 token)
 
 
-Abarene: Intoxicating Burst (Fatigue, Nausea)
-Luc: Fusion Flash (1 token)
+Abarene: Intoxicating Burst (Nausea, Pain Spike)
+Luc: Feinting Flash (1 token)
 
 Abarene antes a Nausea token
-Abarene antes a Fatigue token
+Abarene antes a Pain Spike token
+Luc loses 3 life (now at 1)
 Luc antes a Time token
-Priorities:  2 | 6
+Priorities:  2 | 5
 Luc is active
 Luc moves:
 
-....AL.
-
-Abarene recovers a Fatigue token
-Abarene moves:
-
 ..A..L.
 
-Luc misses
-Abarene hits
 Abarene recovers a Nausea token
+Abarene moves:
+
+A....L.
+
+Luc misses
+Abarene misses
+Luc moves:
+
+A...L..
+
+Abarene recovers a Fatigue token
+Luc gains 1 Time token
+
+Beat 12
+-------
+
+Abarene
+-------
+Life: 17
+Discard 1: Intoxicating Burst
+Discard 2: Crippling Thorns
+Special action available
+pool: Fatigue, Nausea
+
+Luc
+---
+Life: 1
+Discard 1: Feinting Flash
+Discard 2: Eternal Strike
+1 Time tokens
+
+
+A...L..
+
+Abarene:
+1% Lethal Strike
+20% Lethal Drive
+1% Lethal Drive (Fatigue)
+10% Lethal Drive (Nausea)
+10% Lethal Grasp
+58% Pestilent Strike
+
+Luc:
+1% Memento Shot
+73% Memento Burst
+5% Memento Grasp
+2% Fusion Shot (1 token)
+11% Fusion Burst
+5% Chrono Shot
+3% Chrono Drive
+
+
+Abarene: Lethal Grasp
+Luc: Chrono Shot
+
+Priorities:  5 | 3
+Abarene is active
+Luc spends a Time token
+Luc moves:
+
+A..L...
+
+Abarene misses
+Luc hits
+Abarene takes 3 damage (now at 14 life)
+Abarene is stunned
+Luc gains 1 Time token
+
+Beat 13
+-------
+
+Abarene
+-------
+Life: 14
+Discard 1: Lethal Grasp
+Discard 2: Intoxicating Burst
+Special action available
+pool: Fatigue, Nausea
+
+Luc
+---
+Life: 1
+Discard 1: Chrono Shot
+Discard 2: Feinting Flash
+1 Time tokens
+
+
+A..L...
+
+Abarene:
+8% Crippling Thorns
+8% Crippling Thorns (Fatigue)
+8% Crippling Thorns (Nausea)
+8% Crippling Thorns (Fatigue, Nausea)
+8% Crippling Strike
+8% Crippling Strike (Fatigue)
+8% Crippling Strike (Nausea)
+8% Crippling Strike (Fatigue, Nausea)
+8% Crippling Shot (Nausea)
+8% Crippling Shot (Fatigue, Nausea)
+8% Crippling Drive (Nausea)
+8% Crippling Drive (Fatigue, Nausea)
+
+Luc:
+4% Eternal Strike
+2% Eternal Strike (1 token)
+2% Eternal Drive
+5% Eternal Drive (1 token)
+4% Eternal Burst
+4% Eternal Burst (1 token)
+3% Eternal Grasp
+1% Eternal Grasp (1 token)
+5% Eternal Dash
+4% Eternal Dash (1 token)
+1% Memento Strike
+2% Memento Strike (1 token)
+5% Memento Drive
+6% Memento Drive (1 token)
+3% Memento Burst
+4% Memento Burst (1 token)
+1% Memento Grasp
+3% Memento Grasp (1 token)
+4% Memento Dash
+5% Memento Dash (1 token)
+2% Fusion Strike
+3% Fusion Strike (1 token)
+5% Fusion Drive
+4% Fusion Drive (1 token)
+3% Fusion Burst
+4% Fusion Burst (1 token)
+1% Fusion Grasp
+2% Fusion Grasp (1 token)
+5% Fusion Dash
+5% Fusion Dash (1 token)
+
+
+Abarene: Crippling Thorns
+Luc: Fusion Grasp (1 token)
+
+Luc antes a Time token
+Priorities:  0 | 7
+Luc is active
+Luc misses
+Abarene moves:
+
+..AL...
+
+Abarene hits
+Abarene recovers a Dizziness token
+Abarene recovers a Pain Spike token
 Luc takes 4 damage (now at 0 life)
 ABARENE WINS!
-total_time: 140
+total_time: 479
