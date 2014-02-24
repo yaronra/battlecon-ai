@@ -61,17 +61,32 @@ Priorities:  3 | 3
 Clash!
 
 
-Arec: Mirrored Drive (Hesitation)
+Arec: Mirrored Shot (Hesitation)
 Tanis: Valiant Strike
 
 Arec antes a Hesitation token
-Priorities:  4 | 2
+Priorities:  2 | 2
+Clash!
+
+
+Arec: Mirrored Drive (Hesitation)
+Tanis: Valiant Burst
+
+Arec antes a Hesitation token
+Priorities:  4 | 0
 Arec is active
+Tanis moves:
+
+.A....T
+
+....l..
+......m
+
 Arec misses
 Tanis misses
 Arec places clone:
 
-.A...T.
+.A....T
 ....c..
 ....l..
 ......m
@@ -91,7 +106,7 @@ pool: Fear, Mercy, Recklessness
 Tanis
 -----
 Life: 20
-Discard 1: Valiant Strike
+Discard 1: Valiant Burst
 Discard 2: Climactic Grasp
 Special action available
 Possessed puppet: Eris
@@ -99,60 +114,67 @@ Possessed puppet: Eris
 
 .A.....
 ....c..
-.....e.
+......e
 ....l..
 ......m
 
 Given Mephisto by Tanis
-Unbeatable strategy for Arec: Returning Hex (Fear): 0.13
+Unbeatable strategy for Arec: Returning Hex (Fear): 0.25
 Given Mephisto by Tanis
-Unbeatable strategy for Arec: Returning Shot (Fear): 1.92
+Unbeatable strategy for Arec: Returning Shot: 0.00
+Given Mephisto by Tanis
+Unbeatable strategy for Arec: Returning Shot (Fear): 1.11
 
 Tanis possesses Loki
 
 Arec:
-14% Perceptional Grasp
-14% Perceptional Grasp (move to clone)
-15% Perceptional Dash
-15% Perceptional Dash (move to clone)
-9% Returning Shot
-9% Returning Shot (move to clone)
+5% Perceptional Grasp
+5% Perceptional Grasp (move to clone)
+24% Perceptional Dash
+24% Perceptional Dash (move to clone)
+5% Returning Shot
+5% Returning Shot (move to clone)
 1% Returning Burst
 1% Returning Burst (move to clone)
-11% Returning Dash
-11% Returning Dash (move to clone)
+14% Returning Dash
+14% Returning Dash (move to clone)
 
 Tanis:
-24% Storyteller Shot
-12% Storyteller Drive
-9% Storyteller Dash
-27% Playful Drive
-28% Distressed Shot
+7% Storyteller Shot
+13% Storyteller Dash
+33% Playful Shot
+36% Playful Drive
+12% Distressed Scene Shift
 
 
-Arec: Returning Shot
-Tanis: Storyteller Drive
+Arec: Returning Dash
+Tanis: Playful Shot
 
-Priorities:  3 | 5
-Tanis is active
-Tanis moves:
+Priorities:  10 | 2
+Arec is active
+Arec moves:
 
-.AT....
+....TA.
 
-.....e.
+......e
 ......m
 
-Tanis hits
-Arec takes 4 damage (now at 16 life)
-Arec is stunned
+Tanis misses
+Tanis moves:
+
+.....AT
+
+......e
+......m
+
 
 Beat 3
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Returning Shot
+Life: 20
+Discard 1: Returning Dash
 Discard 2: Mirrored Drive
 Special action available
 pool: Fear, Mercy, Recklessness
@@ -160,58 +182,55 @@ pool: Fear, Mercy, Recklessness
 Tanis
 -----
 Life: 20
-Discard 1: Storyteller Drive
-Discard 2: Valiant Strike
+Discard 1: Playful Shot
+Discard 2: Valiant Burst
 Special action available
 Possessed puppet: Loki
 
 
-.A.....
+.....A.
 
-.....e.
-..l....
+......e
+......l
 ......m
+
+Given Eris by Tanis
+Unbeatable strategy for Tanis: Storyteller Strike: -0.68
 
 Tanis possesses Eris
 
 Arec:
-58% Phantom Burst
-42% Phantom Dash
+8% Phantom Strike
+2% Phantom Grasp (Mercy)
+3% Perceptional Hex
+18% Manipulative Grasp
+69% Special Pulse
 
 Tanis:
-67% Playful Scene Shift
-33% Playful Shot
+32% Storyteller Scene Shift
+25% Storyteller Strike
+0% Storyteller Drive
+20% Storyteller Grasp
+21% Distressed Strike
 
 
-Arec: Phantom Burst
-Tanis: Playful Scene Shift
+Arec: Phantom Strike
+Tanis: Distressed Strike
 
-Priorities:  2 | 4
-Tanis is active
-Arec moves:
-
-A....T.
-
-..l....
-......m
-
-Tanis moves:
-
-AT.....
-
-..l....
-......m
-
-Tanis misses
-Arec misses
-Tanis moves:
-
-A.T....
-
-..l....
-......m
-
+Priorities:  4 | 2
+Arec is active
+Arec hits
+Tanis takes 3 damage (now at 17 life)
+Tanis hits
+Arec takes 4 damage (now at 16 life)
 Arec recovers a Hesitation token
+Tanis moves Loki:
+
+.....AT
+
+....l..
+......m
+
 
 Beat 4
 -------
@@ -219,223 +238,206 @@ Beat 4
 Arec
 ----
 Life: 16
-Discard 1: Phantom Burst
-Discard 2: Returning Shot
+Discard 1: Phantom Strike
+Discard 2: Returning Dash
 Special action available
 pool: Fear, Mercy, Recklessness, Hesitation
 
 Tanis
 -----
-Life: 20
-Discard 1: Playful Scene Shift
-Discard 2: Storyteller Drive
+Life: 17
+Discard 1: Distressed Strike
+Discard 2: Playful Shot
 Special action available
 Possessed puppet: Eris
 
 
-A......
+.....A.
 
-..e....
-..l....
+......e
+....l..
 ......m
 
-Given Loki by Tanis
-Unbeatable strategy for Arec: Perceptional Drive: 1.00
-Given Loki by Tanis
-Unbeatable strategy for Arec: Perceptional Drive (Mercy): 0.74
-Given Loki by Tanis
-Unbeatable strategy for Arec: Perceptional Drive (Recklessness): 0.54
-Given Loki by Tanis
-Unbeatable strategy for Arec: Perceptional Drive (Hesitation): 0.71
-Given Loki by Tanis
-Unbeatable strategy for Arec: Mirrored Grasp (Fear): 1.46
-Given Loki by Tanis
-Unbeatable strategy for Arec: Mirrored Dash: 1.23
-Given Loki by Tanis
-Unbeatable strategy for Arec: Mirrored Dash (Fear): 0.96
-Given Loki by Tanis
-Unbeatable strategy for Arec: Mirrored Dash (Mercy): 1.13
-Given Loki by Tanis
-Unbeatable strategy for Arec: Mirrored Dash (Recklessness): 0.93
-Given Loki by Tanis
-Unbeatable strategy for Arec: Manipulative Dash: 0.02
-Given Loki by Tanis
-Unbeatable strategy for Arec: Manipulative Dash (Fear): 1.06
+Given Mephisto by Tanis
+Unbeatable strategy for Arec: Mirrored Burst (Hesitation): 1.42
 
-Given Mephisto by Tanis
-Unbeatable strategy for Arec: Perceptional Drive: 1.76
-Given Mephisto by Tanis
-Unbeatable strategy for Arec: Perceptional Drive (Mercy): 1.36
-Given Mephisto by Tanis
-Unbeatable strategy for Arec: Perceptional Drive (Recklessness): 1.16
-Given Mephisto by Tanis
-Unbeatable strategy for Arec: Perceptional Drive (Hesitation): 0.21
-Given Mephisto by Tanis
-Unbeatable strategy for Arec: Mirrored Grasp (Fear): 1.63
-Given Mephisto by Tanis
-Unbeatable strategy for Arec: Manipulative Grasp (Fear): 1.68
-
-Tanis possesses Mephisto
+Tanis possesses Loki
 
 Arec:
-32% Perceptional Hex
-57% Manipulative Hex
-10% Manipulative Hex (Fear)
+13% Perceptional Drive
+6% Mirrored Hex
+1% Mirrored Burst
+33% Manipulative Shot (Hesitation)
+46% Manipulative Burst (Hesitation)
 
 Tanis:
-58% Valiant Grasp
-34% Climactic Shot
-8% Distressed Shot
+27% Valiant Drive
+23% Valiant Grasp
+13% Storyteller Drive
+8% Storyteller Burst
+29% Storyteller Grasp
 
 
-Arec: Manipulative Hex
+Arec: Manipulative Burst (Hesitation)
 Tanis: Valiant Grasp
 
-Priorities:  3 | 4
+Arec antes a Hesitation token
+Priorities:  1 | 4
 Tanis is active
-Tanis misses
-Arec hits
-Arec chooses Tanis's base: Shot
-Arec moves Tanis:
+Arec moves:
 
-A....T.
+....T.A
 
-..e....
-..l....
+......e
+......m
 
-Tanis has 3 soak
-Tanis takes 1 damage (now at 19 life)
+Tanis hits
+Tanis moves Arec:
+
+....TA.
+
+......e
+......m
+
+Arec takes 2 damage (now at 14 life)
+Arec is stunned
 
 Beat 5
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Manipulative Hex
-Discard 2: Phantom Burst
+Life: 14
+Discard 1: Manipulative Burst
+Discard 2: Phantom Strike
 Special action available
-pool: Fear, Mercy, Recklessness, Hesitation
-Manipulative forced base: Shot
+pool: Fear, Mercy, Recklessness
 
 Tanis
 -----
-Life: 19
+Life: 17
 Discard 1: Valiant Grasp
-Discard 2: Playful Scene Shift
+Discard 2: Distressed Strike
 Special action available
-Possessed puppet: Mephisto
+Possessed puppet: Loki
 
 
-A......
+.....A.
 
-..e....
-..l....
-.....m.
+......e
+....l..
+......m
 
-Tanis possesses Loki
+Given Mephisto by Tanis
+Unbeatable strategy for Arec: Returning Drive: 0.92
+Given Mephisto by Tanis
+Unbeatable strategy for Arec: Returning Drive (Fear): 0.58
+Given Mephisto by Tanis
+Unbeatable strategy for Arec: Returning Drive (Mercy): 0.52
+Given Mephisto by Tanis
+Unbeatable strategy for Arec: Returning Drive (Recklessness): 0.32
+
+Tanis possesses Eris
 
 Arec:
-50% Perceptional Strike
-17% Returning Strike (Hesitation)
-33% Returning Shot (Fear)
+64% Returning Drive
+35% Mirrored Drive
+1% Mirrored Dash
 
 Tanis:
-15% Storyteller Drive
-43% Distressed Shot
-42% Distressed Dash
+19% Climactic Drive
+13% Storyteller Scene Shift
+69% Storyteller Dash
 
 
-Arec: Returning Shot (Fear)
-Tanis: Distressed Dash
+Arec: Mirrored Drive
+Tanis: Storyteller Dash
 
-Arec antes a Fear token
-Tanis loses 2 life (now at 17)
-Priorities:  3 | 8
+Priorities:  4 | 10
 Tanis is active
 Tanis moves:
 
-AT.....
+..T..A.
 
-..e....
-.....m.
+....l..
+......m
 
-Arec hits
-Tanis takes 3 damage (now at 14 life)
-Tanis is stunned
+Tanis moves:
+
+.....AT
+
+....l..
+......m
+
+Arec misses
+Arec places clone:
+
+.....AT
+c......
+....l..
+......m
+
 
 Beat 6
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Returning Shot
-Discard 2: Manipulative Hex
+Life: 14
+Discard 1: Mirrored Drive
+Discard 2: Manipulative Burst
 Special action available
-pool: Mercy, Recklessness, Hesitation
+pool: Fear, Mercy, Recklessness
 
 Tanis
 -----
-Life: 14
-Discard 1: Distressed Dash
+Life: 17
+Discard 1: Storyteller Dash
 Discard 2: Valiant Grasp
 Special action available
-Possessed puppet: Loki
+Possessed puppet: Eris
 
 
-A......
+.....A.
+c......
+......e
+....l..
+......m
 
-..e....
-.l.....
-.....m.
+Given Mephisto by Tanis
+Unbeatable strategy for Arec: Returning Hex (Fear; move to clone): 2.31
 
-Tanis possesses Mephisto
+Tanis possesses Loki
 
 Arec:
-13% Perceptional Drive
-8% Perceptional Burst
-37% Mirrored Strike
-30% Mirrored Drive
-5% Mirrored Burst
-7% Mirrored Grasp
+2% Returning Hex (move to clone)
+4% Returning Hex (Fear; move to clone)
+27% Returning Strike
+3% Returning Shot
+64% Returning Grasp (Fear)
 
 Tanis:
-11% Storyteller Scene Shift
-16% Storyteller Burst
-22% Playful Scene Shift
-1% Playful Shot
-6% Playful Drive
-44% Playful Burst
+39% Climactic Scene Shift
+14% Climactic Strike
+25% Playful Strike
+3% Distressed Shot
+19% Distressed Burst
 
 
-Arec: Mirrored Strike
-Tanis: Playful Burst
+Arec: Returning Strike
+Tanis: Playful Strike
 
-Priorities:  3 | 1
+Priorities:  4 | 3
 Arec is active
+Tanis is stunned
+Arec hits
+Tanis takes 4 damage (now at 13 life)
 Tanis moves:
 
-A.....T
+T....A.
 
-..e....
-.l.....
-
-Arec misses
-Tanis misses
-Arec places clone:
-
-A.....T
-....c..
-..e....
-.l.....
-
-Tanis moves:
-
-AT.....
-....c..
-..e....
-.l.....
+......e
+......m
 
 
 Beat 7
@@ -443,203 +445,218 @@ Beat 7
 
 Arec
 ----
-Life: 16
-Discard 1: Mirrored Strike
-Discard 2: Returning Shot
+Life: 14
+Discard 1: Returning Strike
+Discard 2: Mirrored Drive
 Special action available
-pool: Mercy, Recklessness, Hesitation
+pool: Fear, Mercy, Recklessness
 
 Tanis
 -----
-Life: 14
-Discard 1: Playful Burst
-Discard 2: Distressed Dash
+Life: 13
+Discard 1: Playful Strike
+Discard 2: Storyteller Dash
 Special action available
-Possessed puppet: Mephisto
+Possessed puppet: Loki
 
 
-A......
-....c..
-..e....
-.l.....
-.m.....
+.....A.
+
+......e
+l......
+......m
 
 Tanis possesses Eris
 
 Arec:
-56% Perceptional Drive (move to clone)
-29% Perceptional Grasp (move to clone)
-14% Manipulative Hex (Hesitation)
-1% Manipulative Burst (Hesitation; move to clone)
+47% Phantom Grasp (Mercy)
+1% Manipulative Shot
+12% Manipulative Burst
+40% Manipulative Grasp
 
 Tanis:
-33% Valiant Drive
-20% Storyteller Scene Shift
-24% Storyteller Shot
-22% Storyteller Drive
+2% Climactic Scene Shift
+54% Climactic Drive
+11% Climactic Grasp
+33% Distressed Shot
 
 
-Arec: Perceptional Drive (move to clone)
-Tanis: Valiant Drive
+Arec: Manipulative Grasp
+Tanis: Distressed Shot
 
-Arec moves:
-
-..T.A..
-
-.l.....
-.m.....
-
-Priorities:  5 | 3
+Priorities:  5 | 1
 Arec is active
-Arec antes a Hesitation token
 Arec hits
-Tanis takes 3 damage (now at 11 life)
+Arec chooses Tanis's base: Scene Shift
+Arec moves Tanis:
+
+....TA.
+
+l......
+......m
+
+Tanis takes 3 damage (now at 10 life)
+Arec recovers a Hesitation token
 Tanis is stunned
+Tanis moves Loki:
+
+....TA.
+
+....l..
+......m
+
 
 Beat 8
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Perceptional Drive
-Discard 2: Mirrored Strike
+Life: 14
+Discard 1: Manipulative Grasp
+Discard 2: Returning Strike
 Special action available
-pool: Mercy, Recklessness
+pool: Fear, Mercy, Recklessness, Hesitation
+Manipulative forced base: Scene Shift
 
 Tanis
 -----
-Life: 11
-Discard 1: Valiant Drive
-Discard 2: Playful Burst
+Life: 10
+Discard 1: Distressed Shot
+Discard 2: Playful Strike
 Special action available
 Possessed puppet: Eris
 
 
-....A..
+.....A.
 
-..e....
-.l.....
-.m.....
+....e..
+....l..
+......m
 
 Given Loki by Tanis
-Unbeatable strategy for Tanis: Distressed Dash: -0.41
+Unbeatable strategy for Arec: Mirrored Burst: 0.95
+Given Loki by Tanis
+Unbeatable strategy for Arec: Mirrored Burst (Mercy): 0.85
+Given Loki by Tanis
+Unbeatable strategy for Arec: Mirrored Burst (Recklessness): 0.65
+Given Loki by Tanis
+Unbeatable strategy for Arec: Mirrored Burst (Hesitation): 0.45
+Given Loki by Tanis
+Unbeatable strategy for Arec: Mirrored Dash: 1.51
+Given Loki by Tanis
+Unbeatable strategy for Arec: Mirrored Dash (Fear): 0.07
+Given Loki by Tanis
+Unbeatable strategy for Arec: Mirrored Dash (Mercy): 1.41
+Given Loki by Tanis
+Unbeatable strategy for Arec: Mirrored Dash (Recklessness): 1.21
 
 Given Mephisto by Tanis
-Unbeatable strategy for Tanis: Distressed Dash: -0.51
+Unbeatable strategy for Arec: Mirrored Burst (Hesitation): 1.99
 
-Tanis possesses Mephisto
+Tanis possesses Loki
 
 Arec:
-2% Phantom Hex
-21% Phantom Burst
-30% Phantom Grasp
-32% Returning Shot
-15% Returning Burst
+45% Phantom Burst (Hesitation)
+39% Perceptional Drive
+3% Mirrored Hex (Hesitation)
+2% Mirrored Drive (Hesitation)
+11% Mirrored Dash
 
 Tanis:
-11% Storyteller Scene Shift
-5% Distressed Scene Shift
-1% Distressed Strike
-21% Distressed Shot
-63% Distressed Dash
+2% Valiant Grasp
+1% Climactic Scene Shift
+62% Storyteller Scene Shift
+17% Storyteller Burst
+17% Storyteller Grasp
 
 
-Arec: Phantom Grasp
-Tanis: Distressed Dash
+Arec: Mirrored Hex (Hesitation)
+Tanis: Storyteller Scene Shift
 
-Priorities:  6 | 8
+Arec antes a Hesitation token
+Priorities:  3 | 5
 Tanis is active
-Tanis moves Arec:
-
-.TA....
-
-..e....
-.l.....
-
-Tanis moves:
-
-..A..T.
-
-..e....
-.l.....
-
+Tanis misses
 Arec misses
-Tanis moves Loki:
+Arec places clone:
 
-..A..T.
+....TA.
+c......
+....e..
+......m
 
-..e....
-...l...
-
-Arec recovers a Hesitation token
 
 Beat 9
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Phantom Grasp
-Discard 2: Perceptional Drive
+Life: 14
+Discard 1: Mirrored Hex
+Discard 2: Manipulative Grasp
 Special action available
-pool: Mercy, Recklessness, Hesitation
+pool: Fear, Mercy, Recklessness
 
 Tanis
 -----
-Life: 11
-Discard 1: Distressed Dash
-Discard 2: Valiant Drive
+Life: 10
+Discard 1: Storyteller Scene Shift
+Discard 2: Distressed Shot
 Special action available
-Possessed puppet: Mephisto
+Possessed puppet: Loki
 
 
-..A....
+.....A.
+c......
+....e..
+....l..
+......m
 
-..e....
-...l...
-.....m.
-
-Unbeatable strategy for Arec: Mirrored Dash: 0.73
-Unbeatable strategy for Arec: Mirrored Dash (Mercy): 0.33
-Unbeatable strategy for Arec: Mirrored Dash (Recklessness): 0.13
-
-Tanis possesses Loki
+Tanis possesses Eris
 
 Arec:
-18% Mirrored Hex (Hesitation)
-12% Mirrored Strike (Hesitation)
-45% Mirrored Burst
-24% Mirrored Burst (Hesitation)
+14% Phantom Strike
+13% Phantom Shot
+15% Phantom Shot (move to clone)
+20% Phantom Drive
+9% Perceptional Drive (move to clone)
+26% Returning Strike
+3% Returning Burst (move to clone)
 
 Tanis:
-21% Storyteller Scene Shift
-18% Storyteller Strike
-57% Storyteller Shot
-3% Playful Shot
+6% Valiant Burst
+6% Climactic Drive
+25% Playful Strike
+10% Playful Drive
+11% Playful Burst
+9% Playful Grasp
+33% Playful Dash
 
 
-Arec: Mirrored Burst (Hesitation)
-Tanis: Storyteller Shot
+Arec: Phantom Drive
+Tanis: Playful Strike
 
-Arec antes a Hesitation token
-Priorities:  1 | 3
-Tanis is active
+Priorities:  5 | 3
+Arec is active
 Arec moves:
 
-.A.T...
+...AT..
 
-..e....
-.....m.
+....l..
+......m
 
-Tanis misses
-Arec misses
-Arec places clone:
+Arec hits
+Tanis takes 2 damage (now at 8 life)
+Tanis hits
+Arec takes 4 damage (now at 10 life)
+Arec is stunned
+Arec recovers a Hesitation token
+Tanis moves:
 
-.A.T...
-c......
-..e....
-.....m.
+...A.T.
+
+....l..
+......m
 
 
 Beat 10
@@ -647,68 +664,64 @@ Beat 10
 
 Arec
 ----
-Life: 16
-Discard 1: Mirrored Burst
-Discard 2: Phantom Grasp
+Life: 10
+Discard 1: Phantom Drive
+Discard 2: Mirrored Hex
 Special action available
-pool: Mercy, Recklessness
+pool: Fear, Mercy, Recklessness, Hesitation
 
 Tanis
 -----
-Life: 11
-Discard 1: Storyteller Shot
-Discard 2: Distressed Dash
+Life: 8
+Discard 1: Playful Strike
+Discard 2: Storyteller Scene Shift
 Special action available
-Possessed puppet: Loki
+Possessed puppet: Eris
 
 
-.A.....
-c......
-..e....
-...l...
-.....m.
+...A...
 
-Given Mephisto by Tanis
-Unbeatable strategy for Arec: Returning Hex (move to clone): 0.64
-Given Mephisto by Tanis
-Unbeatable strategy for Arec: Returning Hex (Recklessness; move to clone): 0.04
+.....e.
+....l..
+......m
 
 Tanis possesses Mephisto
 
 Arec:
-30% Returning Hex (move to clone)
-26% Manipulative Hex (move to clone)
-44% Manipulative Shot
+6% Perceptional Shot
+8% Perceptional Burst
+8% Manipulative Burst
+13% Manipulative Burst (Hesitation)
+66% Manipulative Dash (Fear)
 
 Tanis:
-69% Valiant Scene Shift
-25% Valiant Strike
-6% Playful Drive
+14% Valiant Shot
+46% Valiant Drive
+14% Climactic Drive
+1% Climactic Grasp
+25% Distressed Drive
 
 
-Arec: Returning Hex (move to clone)
-Tanis: Valiant Scene Shift
+Arec: Manipulative Dash (Fear)
+Tanis: Valiant Drive
 
+Arec antes a Fear token
+Priorities:  9 | 3
+Arec is active
 Arec moves:
+
+A.....T
+
+.....e.
+....l..
+
+Tanis moves:
 
 A....T.
 
-..e....
-...l...
+.....e.
+....l..
 
-Priorities:  4 | 3
-Arec is active
-Arec hits
-Arec moves Tanis:
-
-A...T..
-
-..e....
-...l...
-
-Arec recovers a Hesitation token
-Tanis has 3 soak
-Tanis takes 0 damage (now at 11 life)
 Tanis misses
 
 Beat 11
@@ -716,70 +729,97 @@ Beat 11
 
 Arec
 ----
-Life: 16
-Discard 1: Returning Hex
-Discard 2: Mirrored Burst
+Life: 10
+Discard 1: Manipulative Dash
+Discard 2: Phantom Drive
 Special action available
 pool: Mercy, Recklessness, Hesitation
 
 Tanis
 -----
-Life: 11
-Discard 1: Valiant Scene Shift
-Discard 2: Storyteller Shot
+Life: 8
+Discard 1: Valiant Drive
+Discard 2: Playful Strike
 Special action available
 Possessed puppet: Mephisto
 
 
 A......
 
-..e....
-...l...
-....m..
+.....e.
+....l..
+.....m.
 
-Given Loki by Tanis
-Unbeatable strategy for Tanis: Distressed Strike: -0.14
+Given Eris by Tanis
+Unbeatable strategy for Arec: Returning Hex (Hesitation): 0.05
 
 Tanis possesses Loki
 
 Arec:
-31% Phantom Shot
-69% Phantom Grasp
+9% Perceptional Hex
+6% Mirrored Hex
+67% Mirrored Hex (Hesitation)
+18% Mirrored Grasp
 
 Tanis:
-35% Playful Burst
-65% Distressed Strike
+1% Storyteller Shot
+22% Distressed Scene Shift
+0% Distressed Shot
+77% Special Pulse
 
 
-Arec: Phantom Grasp
-Tanis: Distressed Strike
+Arec: Mirrored Hex (Hesitation)
+Tanis: Distressed Scene Shift
 
-Priorities:  6 | 2
+Arec antes a Hesitation token
+Priorities:  3 | 3
+Clash!
+
+
+Arec: Mirrored Burst (Hesitation)
+Tanis: Distressed Shot
+
+Arec antes a Hesitation token
+Priorities:  1 | 1
+Clash!
+
+
+Arec: Mirrored Shot (Hesitation)
+Tanis: Distressed Burst
+
+Arec antes a Hesitation token
+Priorities:  2 | 0
 Arec is active
 Tanis moves Arec:
 
-.A.T...
+..A.T..
 
-..e....
-....m..
+.....e.
+.....m.
+
+Tanis moves:
+
+..A..T.
+
+.....e.
+.....m.
 
 Arec hits
-Arec moves Tanis:
+Tanis takes 4 damage (now at 4 life)
+Tanis is stunned
+Arec places clone:
 
-.A..T..
+..A..T.
+c......
+.....e.
+.....m.
 
-..e....
-....m..
+Tanis moves Eris:
 
-Tanis takes 1 damage (now at 10 life)
-Tanis misses
-Arec recovers a Fear token
-Tanis moves Mephisto:
-
-.A..T..
-
-..e....
-......m
+..A..T.
+c......
+.e.....
+.....m.
 
 
 Beat 12
@@ -787,79 +827,125 @@ Beat 12
 
 Arec
 ----
-Life: 16
-Discard 1: Phantom Grasp
-Discard 2: Returning Hex
+Life: 10
+Discard 1: Mirrored Shot
+Discard 2: Manipulative Dash
 Special action available
-pool: Mercy, Recklessness, Hesitation, Fear
+pool: Mercy, Recklessness
 
 Tanis
 -----
-Life: 10
-Discard 1: Distressed Strike
-Discard 2: Valiant Scene Shift
+Life: 4
+Discard 1: Distressed Burst
+Discard 2: Valiant Drive
 Special action available
 Possessed puppet: Loki
 
 
-.A.....
+..A....
+c......
+.e.....
+.....l.
+.....m.
 
-..e....
-....l..
-......m
+Given Mephisto by Tanis
+Unbeatable strategy for Arec: Returning Hex (move to clone): 3.99
+Given Mephisto by Tanis
+Unbeatable strategy for Arec: Returning Hex (Mercy; move to clone): 0.29
+Given Mephisto by Tanis
+Unbeatable strategy for Arec: Returning Hex (Recklessness; move to clone): 3.39
+Given Mephisto by Tanis
+Unbeatable strategy for Arec: Returning Drive: 0.25
+Given Mephisto by Tanis
+Unbeatable strategy for Arec: Returning Burst: 0.08
 
 Tanis possesses Eris
 
 Arec:
-7% Perceptional Drive
-14% Mirrored Strike
-2% Mirrored Drive
-51% Mirrored Dash
-14% Manipulative Strike (Mercy)
-12% Manipulative Burst (Hesitation)
+22% Phantom Hex (move to clone)
+19% Returning Strike (move to clone)
+31% Returning Drive
+29% Returning Grasp (move to clone)
 
 Tanis:
-29% Climactic Shot
-2% Storyteller Shot
-4% Storyteller Drive
-13% Storyteller Burst
-33% Storyteller Grasp
-19% Playful Grasp
+31% Climactic Scene Shift
+46% Climactic Dash
+15% Storyteller Strike
+8% Storyteller Grasp
 
 
-Arec: Mirrored Dash
-Tanis: Climactic Shot
+Arec: Returning Grasp (move to clone)
+Tanis: Storyteller Grasp
 
-Priorities:  9 | 3
-Arec is active
 Arec moves:
+
+AT.....
+
+.....l.
+.....m.
+
+Priorities:  6 | 6
+Arec is active
+Tanis is stunned
+Arec hits
+Arec moves Tanis:
 
 A.T....
 
-....l..
-......m
+.....l.
+.....m.
 
-Tanis moves:
+Tanis takes 2 damage (now at 2 life)
+Tanis is stunned
 
-A.....T
+Beat 13
+-------
 
-....l..
-......m
+Arec
+----
+Life: 10
+Discard 1: Returning Grasp
+Discard 2: Mirrored Shot
+Special action available
+pool: Mercy, Recklessness
 
-Mephisto moves:
+Tanis
+-----
+Life: 2
+Discard 1: Storyteller Grasp
+Discard 2: Distressed Burst
+Special action available
+Possessed puppet: Eris
 
-A.....T
 
-....l..
-..m....
+A......
 
-Tanis misses
-Arec places clone:
+..e....
+.....l.
+.....m.
 
-A.....T
-.c.....
-....l..
-..m....
+Tanis possesses Mephisto
+
+Arec:
+47% Phantom Hex
+11% Perceptional Hex
+42% Perceptional Drive
+
+Tanis:
+1% Valiant Dash
+2% Playful Drive
+97% Special Pulse
+
+
+Arec: Perceptional Hex
+Tanis: Special Pulse
+
+Pulse:
+
+.A....T
+
+..e....
+.....l.
 
 
 Beat 13
@@ -867,320 +953,129 @@ Beat 13
 
 Arec
 ----
-Life: 16
-Discard 1: Mirrored Dash
-Discard 2: Phantom Grasp
+Life: 10
+Discard 1: Perceptional Hex
+Discard 2: Returning Grasp
 Special action available
-pool: Mercy, Recklessness, Hesitation, Fear
+pool: Mercy, Recklessness
 
 Tanis
 -----
-Life: 10
-Discard 1: Climactic Shot
-Discard 2: Distressed Strike
-Special action available
-Possessed puppet: Eris
+Life: 2
+Discard 1: Storyteller Grasp
+Discard 2: Distressed Burst
+Possessed puppet: Mephisto
 
 
-A......
-.c.....
-......e
-....l..
-..m....
+.A.....
 
-Given Loki by Tanis
-Unbeatable strategy for Arec: Returning Hex (Hesitation): 1.35
-Given Loki by Tanis
-Unbeatable strategy for Arec: Returning Hex (Hesitation; move to clone): 1.25
-Given Loki by Tanis
-Unbeatable strategy for Arec: Returning Shot (Hesitation; move to clone): 1.40
-Given Loki by Tanis
-Unbeatable strategy for Arec: Returning Drive (Fear): 0.18
-Given Loki by Tanis
-Unbeatable strategy for Arec: Returning Burst (Hesitation): 1.66
-Given Loki by Tanis
-Unbeatable strategy for Arec: Returning Burst (Hesitation; move to clone): 1.66
+..e....
+.....l.
+......m
 
-Given Mephisto by Tanis
-Unbeatable strategy for Arec: Returning Drive (Fear): 0.40
-
-Tanis possesses Mephisto
+Tanis possesses Eris
 
 Arec:
-64% Perceptional Drive (Hesitation)
-8% Returning Strike (Fear)
-1% Returning Drive (Fear)
-6% Returning Drive (Fear; move to clone)
-12% Manipulative Strike (Fear)
-9% Manipulative Shot (Hesitation)
-0% Manipulative Shot (Fear)
+6% Phantom Shot
+14% Phantom Drive
+64% Phantom Dash
+16% Manipulative Dash
 
 Tanis:
-0% Storyteller Drive
-2% Storyteller Burst
-10% Storyteller Grasp
-6% Playful Drive
-7% Playful Burst
-55% Playful Grasp
-20% Playful Dash
+43% Valiant Dash
+13% Climactic Scene Shift
+3% Playful Drive
+41% Playful Dash
 
 
-Arec: Perceptional Drive (Hesitation)
-Tanis: Playful Grasp
+Arec: Phantom Dash
+Tanis: Playful Dash
 
-Arec antes a Hesitation token
-Priorities:  5 | 5
-Clash!
-
-
-Arec: Perceptional Hex (Hesitation)
-Tanis: Playful Scene Shift
-
-Arec antes a Hesitation token
-Priorities:  4 | 4
-Clash!
-
-
-Arec: Perceptional Strike (Hesitation)
-Tanis: Playful Drive
-
-Arec antes a Hesitation token
-Priorities:  4 | 4
-Clash!
-
-
-Arec: Perceptional Shot (Hesitation)
-Tanis: Playful Burst
-
-Arec antes a Hesitation token
-Priorities:  3 | 1
+Priorities:  10 | 9
 Arec is active
-Arec antes a Fear token
-Arec hits
-Arec moves Tanis:
+Arec moves:
 
-AT.....
+..T..A.
 
-......e
-....l..
+.....l.
+......m
 
-Tanis takes 3 damage (now at 7 life)
-Tanis is stunned
+Tanis moves:
+
+T....A.
+
+.....l.
+......m
+
+Arec recovers a Hesitation token
+Tanis moves:
+
+.T...A.
+
+.....l.
+......m
+
 
 Beat 14
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Perceptional Shot
-Discard 2: Mirrored Dash
-Special action available
-pool: Mercy, Recklessness
-
-Tanis
------
-Life: 7
-Discard 1: Playful Burst
-Discard 2: Climactic Shot
-Special action available
-Possessed puppet: Mephisto
-
-
-A......
-
-......e
-....l..
-.m.....
-
-Given Loki by Tanis
-Unbeatable strategy for Tanis: Distressed Dash: -0.68
-
-Tanis possesses Loki
-
-Arec:
-81% Phantom Hex
-19% Phantom Drive
-
-Tanis:
-3% Distressed Scene Shift
-97% Distressed Dash
-
-
-Arec: Phantom Drive
-Tanis: Distressed Dash
-
-Priorities:  5 | 8
-Tanis is active
-Tanis moves Arec:
-
-.A..T..
-
-......e
-.m.....
-
-Tanis moves:
-
-TA.....
-
-......e
-.m.....
-
-Arec misses
-Tanis moves Eris:
-
-TA.....
-
-.e.....
-.m.....
-
-Arec recovers a Hesitation token
-
-Beat 15
--------
-
-Arec
-----
-Life: 16
-Discard 1: Phantom Drive
-Discard 2: Perceptional Shot
+Life: 10
+Discard 1: Phantom Dash
+Discard 2: Perceptional Hex
 Special action available
 pool: Mercy, Recklessness, Hesitation
 
 Tanis
 -----
-Life: 7
-Discard 1: Distressed Dash
-Discard 2: Playful Burst
-Special action available
-Possessed puppet: Loki
+Life: 2
+Discard 1: Playful Dash
+Discard 2: Storyteller Grasp
+Possessed puppet: Eris
 
 
-.A.....
+.....A.
 
 .e.....
-l......
-.m.....
+.....l.
+......m
 
-Unbeatable strategy for Arec: Returning Hex: 12.00
-Unbeatable strategy for Arec: Returning Hex (Mercy): 12.00
-Unbeatable strategy for Arec: Returning Hex (Recklessness): 12.00
-Unbeatable strategy for Arec: Returning Hex (Hesitation): 12.00
-Unbeatable strategy for Arec: Returning Strike: 12.00
-Unbeatable strategy for Arec: Returning Strike (Mercy): 12.00
-Unbeatable strategy for Arec: Returning Strike (Recklessness): 12.00
-Unbeatable strategy for Arec: Returning Strike (Hesitation): 12.00
-Unbeatable strategy for Arec: Returning Burst: 12.00
-Unbeatable strategy for Arec: Returning Burst (Mercy): 12.00
-Unbeatable strategy for Arec: Returning Burst (Recklessness): 12.00
-Unbeatable strategy for Arec: Returning Burst (Hesitation): 12.00
-Unbeatable strategy for Arec: Returning Grasp: 12.00
-Unbeatable strategy for Arec: Returning Grasp (Mercy): 12.00
-Unbeatable strategy for Arec: Returning Grasp (Recklessness): 12.00
-Unbeatable strategy for Arec: Returning Grasp (Hesitation): 12.00
-Unbeatable strategy for Arec: Returning Dash: 12.00
-Unbeatable strategy for Arec: Returning Dash (Mercy): 12.00
-Unbeatable strategy for Arec: Returning Dash (Recklessness): 12.00
-Unbeatable strategy for Arec: Returning Dash (Hesitation): 12.00
-Unbeatable strategy for Arec: Mirrored Dash: 12.00
-Unbeatable strategy for Arec: Mirrored Dash (Mercy): 12.00
-Unbeatable strategy for Arec: Mirrored Dash (Recklessness): 12.00
-Unbeatable strategy for Arec: Mirrored Dash (Hesitation): 12.00
-Unbeatable strategy for Arec: Manipulative Dash: 12.00
-Unbeatable strategy for Arec: Manipulative Dash (Mercy): 12.00
-Unbeatable strategy for Arec: Manipulative Dash (Recklessness): 12.00
-Unbeatable strategy for Arec: Manipulative Dash (Hesitation): 12.00
+Unbeatable strategy for Arec: Returning Drive: 7.00
+Unbeatable strategy for Arec: Returning Drive (Mercy): 7.00
+Unbeatable strategy for Arec: Returning Drive (Recklessness): 7.00
 
-Tanis possesses Loki
+Tanis possesses Mephisto
 
 Arec:
-2% Returning Hex (Recklessness)
-2% Returning Hex (Hesitation)
-2% Returning Strike (Recklessness)
-2% Returning Strike (Hesitation)
-2% Returning Burst
-2% Returning Burst (Mercy)
-2% Returning Burst (Recklessness)
-2% Returning Burst (Hesitation)
-2% Returning Grasp
-2% Returning Grasp (Mercy)
-2% Returning Grasp (Recklessness)
-2% Returning Grasp (Hesitation)
-2% Returning Dash
-2% Returning Dash (Mercy)
-2% Returning Dash (Recklessness)
-2% Returning Dash (Hesitation)
-2% Mirrored Hex (Recklessness)
-2% Mirrored Hex (Hesitation)
-2% Mirrored Strike (Recklessness)
-2% Mirrored Strike (Hesitation)
-2% Mirrored Burst
-2% Mirrored Burst (Mercy)
-2% Mirrored Burst (Recklessness)
-2% Mirrored Burst (Hesitation)
-2% Mirrored Grasp (Recklessness)
-2% Mirrored Grasp (Hesitation)
-2% Mirrored Dash
-2% Mirrored Dash (Mercy)
-2% Mirrored Dash (Recklessness)
-2% Mirrored Dash (Hesitation)
-2% Manipulative Hex (Recklessness)
-2% Manipulative Hex (Hesitation)
-2% Manipulative Strike (Recklessness)
-2% Manipulative Strike (Hesitation)
-2% Manipulative Burst
-2% Manipulative Burst (Mercy)
-2% Manipulative Burst (Recklessness)
-2% Manipulative Burst (Hesitation)
-2% Manipulative Grasp (Recklessness)
-2% Manipulative Grasp (Hesitation)
-2% Manipulative Dash
-2% Manipulative Dash (Mercy)
-2% Manipulative Dash (Recklessness)
-2% Manipulative Dash (Hesitation)
+33% Returning Drive
+33% Returning Drive (Mercy)
+33% Returning Drive (Recklessness)
 
 Tanis:
 5% Valiant Scene Shift
-6% Valiant Strike
+5% Valiant Strike
 5% Valiant Shot
-5% Valiant Drive
-6% Valiant Grasp
-5% Climactic Scene Shift
-6% Climactic Strike
-5% Climactic Shot
-6% Climactic Drive
-7% Climactic Grasp
-5% Storyteller Scene Shift
-6% Storyteller Strike
-7% Storyteller Shot
-6% Storyteller Drive
-6% Storyteller Grasp
-13% Special Curtain Call
+4% Valiant Drive
+5% Valiant Burst
+7% Climactic Scene Shift
+11% Climactic Strike
+7% Climactic Shot
+14% Climactic Drive
+4% Climactic Burst
+7% Distressed Scene Shift
+3% Distressed Strike
+9% Distressed Shot
+6% Distressed Drive
+9% Distressed Burst
 
 
-Arec: Mirrored Grasp (Recklessness)
-Tanis: Storyteller Drive
+Arec: Returning Drive
+Tanis: Valiant Scene Shift
 
-Arec antes a Recklessness token
-Priorities:  5 | 5
-Clash!
-
-
-Arec: Mirrored Strike (Recklessness)
-Tanis: Storyteller Scene Shift
-
-Arec antes a Recklessness token
-Priorities:  3 | 5
-Tanis is active
-Tanis misses
-Arec misses
-Arec places clone:
-
-TA.....
-..c....
-.e.....
-.m.....
-
-Game goes to time
+Priorities:  5 | 3
+Arec is active
+Arec hits
+Tanis takes 3 damage (now at 0 life)
 AREC WINS!
-total_time: 622
+total_time: 651

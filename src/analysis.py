@@ -19,6 +19,7 @@ phrases = {  'abarene' : ['Hallicris Snare'],
              'danny': ['The Dark Ride'],
              'demitras' : ['Symphony of Demise'],
              'eligor' : ['Sweet Revenge', 'Sheet Lightning'],
+             'gerard' : ['Ultra Beatdown'],
              'heketch' : ['Million Knives', 'Living Nightmare'],
              'hikaru' : ['Wrath of Elements', 'Four Winds', 'Palm Strike'],
              'kajia' : ['Imago Emergence'],
@@ -26,6 +27,7 @@ phrases = {  'abarene' : ['Hallicris Snare'],
              'karin' : ['Red Moon Rage', 'Lunar Cross', 'Full Moon'],
              'kehrolyn' : ['Hydra Fork'],
              'khadath' : ['Dimensional Exile'],
+             'lesandra' : ['Invoke Duststalker'],
              'lixis' : ['Virulent Miasma'],
              'luc' : ['Temporal Recursion'],
              'lymn' : [],
@@ -45,9 +47,10 @@ phrases = {  'abarene' : ['Hallicris Snare'],
              'voco' : ['The Wave'],
              'zaamassal' : ['Paradigm Shift', 'Open the Gate', 'Plane Divider']}
 
-devastation = ['adjenna', 'alexian', 'aria', 'byron', 'cesar', 'clinhyde',
-               'eligor', 'kajia', 'lymn', 'marmelee', 'mikhail', 'rexan',
-               'runika', 'shekhtur', 'voco']
+devastation = ['adjenna', 'alexian', 'arec', 'aria', 'byron', 'cesar', 
+               'clinhyde', 'eligor', 'kajia', 'lesandra', 'lymn', 
+               'marmelee', 'mikhail', 'ottavia', 'rexan', 'runika', 
+               'shekhtur', 'tanis', 'voco']
 
 all_names = sorted(phrases.keys())
 
@@ -62,7 +65,7 @@ def list_files (logdir, name=None, player_num=None):
     return [fulldir+fn for fn in filenames 
             if name == fn.split('_')[player_num]]
     
-def all_victories(logdir='main', devastation_only=False):
+def all_victories(logdir='free_for_all', devastation_only=False):
     names = devastation if devastation_only else all_names
     name_power = []
     for name in names:
@@ -852,7 +855,7 @@ def adjenna_marker_and_wins (target_beat, logdir="free_for_all"):
               percentify (float(sum(victories_with_x_markers[:i+1])) /\
                           (0.000001+sum(games_with_x_markers[:i+1])))
 
-def adjenna_by_markers (logdir='main'):
+def adjenna_by_markers (logdir='free_for_all'):
     for markers in range (6):
         print '#############################'
         print markers, "MARKERS"
@@ -867,13 +870,22 @@ def alexian_tokens (logdir="free_for_all"):
     post_ante = [0,0,0,0]
     beat_sums = [0]*16
     beat_counts = [0]*16
-    current_ante_count = None
+    current_tokens = None
+    current_ante_count = 0
+    current_beat = None
     filenames = list_files(logdir, 'alexian')
     for filename in filenames:
         with open (filename) as f:
             log = [line for line in f]
         for i,line in enumerate(log):
             if line.startswith ("Beat "):
+                if current_tokens is not None:
+                    antes[current_ante_count] += 1
+                    post_ante[current_tokens - current_ante_count] += 1
+                    current_ante_count = 0
+                    tokens[current_tokens] += 1
+                    beat_sums[current_beat] += 1
+                    beat_counts[current_beat] += current_tokens
                 current_beat = int(line[5:-1])
             # look for consecutive ante lines
             # (a second batch can be a repeat due to cancel)
@@ -895,6 +907,9 @@ def alexian_tokens (logdir="free_for_all"):
                 beat_counts[current_beat] += current_tokens
     antes[current_ante_count] += 1
     post_ante[current_tokens - current_ante_count] += 1
+    tokens[current_tokens] += 1
+    beat_sums[current_beat] += 1
+    beat_counts[current_beat] += current_tokens
     print "Chivalry tokens at start of beat:"
     for i, count in enumerate(tokens):
         print i, percentify(count/float(sum(tokens)))
@@ -992,7 +1007,7 @@ def aria_droids (logdir="free_for_all"):
         print percentify(turret[i]/n_beats),
     print
 
-def byron_by_emblems (logdir='main'):
+def byron_by_emblems (logdir='free_for_all'):
     for emblems in range (6):
         print '#############################'
         print emblems, "Mask Emblems"
@@ -1001,7 +1016,7 @@ def byron_by_emblems (logdir='main'):
                             condition='%d Mask emblems'%emblems)
         print '#############################'
         
-def cesar_cycle (logdir='main'):
+def cesar_cycle (logdir='free_for_all'):
     for threat_level in range (5):
         print '#############################'
         print "THREAT LEVEL", threat_level
@@ -1099,6 +1114,22 @@ def eligor_tokens (logdir="free_for_all"):
         print i, percentify(count/float(sum(tokens)))
     print "total:", sum(tokens)
 
+def gerard_gold(logdir='free_for_all'):
+    beat_counts = [0] * 16
+    beat_gold = [0] * 16
+    for filename in list_files(logdir, 'gerard'):
+        with open (filename) as f:
+            log = [line for line in f]
+        for line in log:
+            if line.startswith("Beat "):
+                current_beat = int(line[5:-1])
+                beat_counts[current_beat] += 1
+            if line.startswith("Gold: "):
+                gold = int(line[6:-1])
+                beat_gold[current_beat] += gold
+    for beat in xrange(1,16):
+        print "%d: %f" % (beat, beat_gold[beat] / float(beat_counts[beat]))
+
 def hikaru_tokens (logdir="free_for_all"):
     token_dict = {'Earth':0,
                   'Fire':0,
@@ -1124,7 +1155,7 @@ def hikaru_tokens (logdir="free_for_all"):
         print token, percentify(count/float(beats))
     print "total:", sum([token_dict[t] for t in token_dict])/float(beats)
 
-def kajia_insects(logdir='main'):
+def kajia_insects(logdir='free_for_all'):
     insect_count = [[0]*10 for _ in (0,1,2)]
     totals_count = [0] * 10
     piles_count = [0] * 3
@@ -1227,7 +1258,7 @@ def luc_tokens (logdir="free_for_all"):
         print i, percentify(count/float(sum(tokens)))
     print "total:", sum(tokens)
 
-def lymn_disparity (logdir='main'):
+def lymn_disparity (logdir='free_for_all'):
     cards = ["Surreal", "Reverie", "Megrim", "Conceit", "Chimeric",
               "Maddening", "Fathomless", "Visions"]
     disparities = {card: [0]*20 for card in cards}
@@ -1420,13 +1451,22 @@ def rexan_tokens (logdir="free_for_all"):
     post_ante = [0,0,0,0]
     beat_sums = [0]*16
     beat_counts = [0]*16
-    current_ante_count = None
     filenames = list_files(logdir, 'rexan')
+    current_tokens = None
+    current_ante_count = 0
+    current_beat = None
     for filename in filenames:
         with open (filename) as f:
             log = [line for line in f]
         for i,line in enumerate(log):
             if line.startswith ("Beat "):
+                if current_tokens is not None:
+                    antes[current_ante_count] += 1
+                    post_ante[current_tokens - current_ante_count] += 1
+                    current_ante_count = 0
+                    tokens[current_tokens] += 1
+                    beat_sums[current_beat] += 1
+                    beat_counts[current_beat] += current_tokens
                 current_beat = int(line[5:-1])
             # look for consecutive ante lines
             # (a second batch can be a repeat due to cancel)
@@ -1439,15 +1479,11 @@ def rexan_tokens (logdir="free_for_all"):
             if line.startswith("Opponent has ") and \
                line.endswith("Curse tokens\n"):
                 current_tokens = int(line[13])
-                if current_ante_count is not None:
-                    antes[current_ante_count] += 1
-                    post_ante[current_tokens - current_ante_count] += 1
-                current_ante_count = 0
-                tokens[current_tokens] += 1
-                beat_sums[current_beat] += 1
-                beat_counts[current_beat] += current_tokens
     antes[current_ante_count] += 1
     post_ante[current_tokens - current_ante_count] += 1
+    tokens[current_tokens] += 1
+    beat_sums[current_beat] += 1
+    beat_counts[current_beat] += current_tokens
     print "Curse tokens at start of beat:"
     for i, count in enumerate(tokens):
         print i, percentify(count/float(sum(tokens)))
@@ -1464,7 +1500,7 @@ def rexan_tokens (logdir="free_for_all"):
     print "total:", sum(post_ante)
 
     gains = text ('gains 1 Curse token', 'rexan', logdir)
-    games = 10 * len (filenames)
+    games = len (filenames)
     print "%d gains in %d games - %f per game." %(gains, games,
                                                   float(gains)/games)
 

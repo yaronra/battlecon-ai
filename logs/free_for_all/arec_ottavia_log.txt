@@ -28,47 +28,75 @@ Special action available
 .A...O.
 
 
+
 Arec:
-9% Perceptional Drive
-4% Perceptional Burst
-10% Returning Drive
-17% Mirrored Hex
-17% Mirrored Drive
-16% Mirrored Burst
-0% Mirrored Burst (Recklessness)
+4% Perceptional Hex
+11% Perceptional Drive
+23% Perceptional Dash
+5% Returning Drive
+6% Mirrored Hex
+4% Mirrored Shot
+12% Mirrored Drive
+3% Mirrored Burst
+4% Mirrored Burst (Hesitation)
 28% Mirrored Dash
 
 Ottavia:
-26% Snapback Drive (Target Lock: 5)
+10% Snapback Drive (Target Lock: 5)
+2% Snapback Drive (Target Lock: 10)
+14% Snapback Grasp (Target Lock: 10)
 5% Anti-Personnel Drive (Target Lock: 4)
-0% Anti-Personnel Burst (Target Lock: 3)
-14% Anti-Personnel Burst (Target Lock: 4)
-5% Anti-Personnel Burst (Target Lock: 9)
-15% Anti-Personnel Grasp (Target Lock: 5)
-15% Anti-Personnel Grasp (Target Lock: 9)
-18% Cover Shooter (Target Lock: 4)
+8% Anti-Personnel Burst (Target Lock: 9)
+5% Anti-Personnel Grasp (Target Lock: 5)
+12% Anti-Personnel Grasp (Target Lock: 9)
+21% Cover Shooter (Target Lock: 4)
+1% Cover Shooter (Target Lock: 5)
+23% Cover Burst (Target Lock: 5)
 
 
-Arec: Mirrored Burst
-Ottavia: Cover Shooter (Target Lock: 4)
+Arec: Mirrored Drive
+Ottavia: Snapback Drive (Target Lock: 5)
 
-Priorities:  1 | -1
+Priorities:  4 | 4
+Clash!
+
+
+Arec: Mirrored Shot
+Ottavia: Snapback Shooter (Target Lock: 5)
+
+Priorities:  2 | 2
+Clash!
+
+
+Arec: Mirrored Hex
+Ottavia: Snapback Burst (Target Lock: 5)
+
+Priorities:  3 | 1
 Arec is active
-Arec moves:
+Ottavia moves:
 
-A....O.
+.A....O
 
 
 Arec hits
-Ottavia has 1 soak
-Ottavia takes 3 damage (now at 17 life)
+Arec moves Ottavia:
+
+.A...O.
+
+
+Ottavia takes 4 damage (now at 16 life)
 Ottavia hits
-Arec takes 5 damage (now at 15 life)
+Arec takes 3 damage (now at 17 life)
 Arec is stunned
+Ottavia moves:
+
+.A....O
+
+
 Arec places clone:
 
-A....O.
-....c..
+.A....O
+.....c.
 
 
 Beat 2
@@ -76,398 +104,306 @@ Beat 2
 
 Arec
 ----
-Life: 15
-Discard 1: Mirrored Burst
+Life: 17
+Discard 1: Mirrored Hex
 Discard 2: Phantom Strike
 Special action available
 pool: Fear, Hesitation, Mercy, Recklessness
 
 Ottavia
 -------
-Life: 17
-Discard 1: Cover Shooter
+Life: 16
+Discard 1: Snapback Burst
 Discard 2: Cybernetic Strike
 Special action available
 
 
-A....O.
-....c..
+.A....O
+.....c.
+
 
 Arec:
-10% Perceptional Hex
-18% Perceptional Drive
-4% Returning Hex
-22% Returning Shot (Recklessness; move to clone)
-13% Returning Drive (Mercy; move to clone)
-17% Manipulative Hex
-4% Manipulative Hex (Recklessness)
-1% Manipulative Shot (Recklessness; move to clone)
-11% Manipulative Drive (Fear; move to clone)
+0% Perceptional Drive
+8% Perceptional Burst (move to clone)
+14% Returning Shot
+11% Returning Shot (move to clone)
+7% Returning Shot (Hesitation; move to clone)
+24% Returning Drive (move to clone)
+10% Returning Grasp (move to clone)
+12% Manipulative Drive (move to clone)
+8% Manipulative Drive (Hesitation; move to clone)
+6% Manipulative Burst (Hesitation; move to clone)
 
 Ottavia:
-1% Snapback Drive (Target Lock: 4)
-5% Snapback Drive (Target Lock: 5)
-19% Snapback Burst (Target Lock: 3)
-15% Snapback Burst (Target Lock: 4)
-3% Snapback Burst (Target Lock: 5)
-18% Demolition Shot (Target Lock: 5)
-25% Demolition Drive (Target Lock: 5)
-1% Demolition Grasp (Target Lock: 2)
-1% Demolition Grasp (Target Lock: 3)
-1% Demolition Grasp (Target Lock: 4)
-1% Demolition Grasp (Target Lock: 5)
-1% Demolition Grasp (Target Lock: 6)
-1% Demolition Grasp (Target Lock: 9)
-1% Demolition Grasp (Target Lock: 10)
-5% Anti-Personnel Burst (Target Lock: 3)
+3% Demolition Shooter (Target Lock: 4)
+23% Demolition Shooter (Target Lock: 5)
+31% Demolition Drive (Target Lock: 6)
+2% Demolition Grasp (Target Lock: 1)
+2% Demolition Grasp (Target Lock: 2)
+2% Demolition Grasp (Target Lock: 3)
+2% Demolition Grasp (Target Lock: 4)
+2% Demolition Grasp (Target Lock: 5)
+3% Demolition Grasp (Target Lock: 6)
+2% Demolition Grasp (Target Lock: 9)
+2% Demolition Grasp (Target Lock: 10)
+7% Cover Shooter (Target Lock: 3)
+8% Cover Shooter (Target Lock: 4)
+2% Cover Shooter (Target Lock: 5)
+4% Cover Drive (Target Lock: 1)
+1% Cover Drive (Target Lock: 3)
+4% Cover Drive (Target Lock: 6)
 
 
-Arec: Manipulative Hex
-Ottavia: Snapback Burst (Target Lock: 3)
+Arec: Returning Drive (move to clone)
+Ottavia: Cover Shooter (Target Lock: 5)
+
+Arec moves:
+
+.....AO
+
 
 Ottavia acquires target lock
-Priorities:  -7 | 1
+Priorities:  -5 | -1
 Ottavia is active
-Ottavia moves:
-
-A.....O
-
-
-Ottavia hits
-Arec takes 3 damage (now at 12 life)
-Arec is stunned
+Ottavia misses
+Arec misses
 
 Beat 3
 -------
 
 Arec
 ----
-Life: 12
-Discard 1: Manipulative Hex
-Discard 2: Mirrored Burst
+Life: 17
+Discard 1: Returning Drive
+Discard 2: Mirrored Hex
 Special action available
 pool: Fear, Hesitation, Mercy, Recklessness
 
 Ottavia
 -------
-Life: 17
-Discard 1: Snapback Burst
-Discard 2: Cover Shooter
-Special action available
-
-
-A.....O
-
-
-Arec:
-9% Returning Strike (Recklessness)
-10% Returning Shot
-60% Returning Shot (Recklessness)
-21% Returning Grasp (Recklessness)
-
-Ottavia:
-0% Demolition Strike (Target Lock: 3)
-0% Demolition Strike (Target Lock: 4)
-0% Demolition Strike (Target Lock: 5)
-0% Demolition Strike (Target Lock: 6)
-0% Demolition Strike (Target Lock: 10)
-0% Demolition Grasp (Target Lock: 3)
-0% Demolition Grasp (Target Lock: 4)
-0% Demolition Grasp (Target Lock: 5)
-0% Demolition Grasp (Target Lock: 6)
-0% Demolition Grasp (Target Lock: 10)
-16% Anti-Personnel Shot (Target Lock: 3)
-0% Anti-Personnel Shot (Target Lock: 4)
-0% Anti-Personnel Shot (Target Lock: 5)
-0% Anti-Personnel Shot (Target Lock: 6)
-0% Anti-Personnel Shot (Target Lock: 10)
-0% Anti-Personnel Drive (Target Lock: 3)
-2% Anti-Personnel Drive (Target Lock: 4)
-2% Anti-Personnel Drive (Target Lock: 5)
-2% Anti-Personnel Drive (Target Lock: 6)
-4% Anti-Personnel Drive (Target Lock: 10)
-0% Cybernetic Strike (Target Lock: 3)
-2% Cybernetic Strike (Target Lock: 4)
-25% Cybernetic Strike (Target Lock: 5)
-2% Cybernetic Strike (Target Lock: 6)
-1% Cybernetic Strike (Target Lock: 10)
-4% Cybernetic Grasp (Target Lock: 3)
-8% Cybernetic Grasp (Target Lock: 4)
-15% Cybernetic Grasp (Target Lock: 5)
-8% Cybernetic Grasp (Target Lock: 6)
-8% Cybernetic Grasp (Target Lock: 10)
-
-
-Arec: Returning Shot (Recklessness)
-Ottavia: Cybernetic Strike (Target Lock: 5)
-
-Arec antes a Recklessness token
-Priorities:  3 | 3
-Arec is active
-Arec misses
-Ottavia misses
-
-Beat 4
--------
-
-Arec
-----
-Life: 12
-Discard 1: Returning Shot
-Discard 2: Manipulative Hex
-Special action available
-pool: Fear, Hesitation, Mercy
-
-Ottavia
--------
-Life: 17
-Discard 1: Cybernetic Strike
+Life: 16
+Discard 1: Cover Shooter
 Discard 2: Snapback Burst
 Special action available
 
 
-A.....O
+.....AO
 
 
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 1): -4.32
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 2): -4.40
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 3): -4.40
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 4): -4.47
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 5): -4.40
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 6): -4.40
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 9): -4.40
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 10): -4.40
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 1): -3.32
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 2): -3.40
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 3): -3.40
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 4): -3.47
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 5): -3.40
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 6): -3.40
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 9): -3.40
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 10): -3.40
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 1): -0.73
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 2): -0.73
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 3): -0.73
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 4): -0.73
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 5): -0.73
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 6): -0.73
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 9): -0.73
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 10): -0.73
 
 Arec:
-100% Special Pulse
+18% Phantom Strike (Hesitation)
+4% Phantom Strike (Mercy)
+43% Perceptional Burst
+23% Manipulative Strike (Hesitation)
+1% Manipulative Burst (Hesitation)
+9% Manipulative Grasp
+3% Manipulative Grasp (Hesitation)
 
 Ottavia:
-38% Anti-Personnel Shooter (Target Lock: 1)
-3% Anti-Personnel Shooter (Target Lock: 2)
-3% Anti-Personnel Shooter (Target Lock: 3)
-3% Anti-Personnel Shooter (Target Lock: 4)
-3% Anti-Personnel Shooter (Target Lock: 5)
-3% Anti-Personnel Shooter (Target Lock: 6)
-2% Anti-Personnel Shooter (Target Lock: 9)
-3% Anti-Personnel Shooter (Target Lock: 10)
-4% Anti-Personnel Shot (Target Lock: 1)
-6% Anti-Personnel Shot (Target Lock: 2)
-6% Anti-Personnel Shot (Target Lock: 3)
-6% Anti-Personnel Shot (Target Lock: 4)
-6% Anti-Personnel Shot (Target Lock: 5)
-6% Anti-Personnel Shot (Target Lock: 6)
-6% Anti-Personnel Shot (Target Lock: 9)
-5% Anti-Personnel Shot (Target Lock: 10)
+31% Demolition Shot (Target Lock: 4)
+13% Demolition Shot (Target Lock: 5)
+15% Cybernetic Strike (Target Lock: 3)
+15% Cybernetic Shot (Target Lock: 3)
+19% Cybernetic Drive (Target Lock: 5)
+2% Cybernetic Grasp (Target Lock: 5)
+6% Cybernetic Grasp (Target Lock: 9)
 
 
-Arec: Special Pulse
-Ottavia: Anti-Personnel Shot (Target Lock: 6)
+Arec: Phantom Strike (Hesitation)
+Ottavia: Demolition Shot (Target Lock: 4)
 
-Pulse:
-
-.O.A...
-
-
+Arec antes a Hesitation token
+Ottavia acquires target lock
+Priorities:  -6 | 3
+Ottavia is active
+Ottavia hits
+Arec takes 3 damage (now at 14 life)
+Arec hits
+Ottavia takes 3 damage (now at 13 life)
+Ottavia is stunned
 
 Beat 4
 -------
 
 Arec
 ----
-Life: 12
-Discard 1: Returning Shot
-Discard 2: Manipulative Hex
-pool: Fear, Hesitation, Mercy
+Life: 14
+Discard 1: Phantom Strike
+Discard 2: Returning Drive
+Special action available
+pool: Fear, Mercy, Recklessness
 
 Ottavia
 -------
-Life: 17
-Discard 1: Anti-Personnel Shot
-Discard 2: Cybernetic Strike
+Life: 13
+Discard 1: Demolition Shot
+Discard 2: Cover Shooter
 Special action available
 
 
-.O.A...
+.....AO
+
 
 
 Arec:
-12% Phantom Strike
-14% Perceptional Grasp
-25% Mirrored Burst
-24% Mirrored Grasp
-26% Mirrored Dash
+24% Perceptional Hex
+24% Perceptional Dash
+8% Mirrored Hex
+2% Mirrored Burst
+30% Mirrored Dash
+12% Manipulative Grasp
 
 Ottavia:
-7% Demolition Shooter (Target Lock: 4)
-12% Demolition Shooter (Target Lock: 6)
-45% Demolition Drive (Target Lock: 5)
-25% Demolition Drive (Target Lock: 6)
-12% Demolition Drive (Target Lock: 9)
+8% Snapback Drive (Target Lock: 4)
+6% Snapback Drive (Target Lock: 10)
+11% Cybernetic Drive (Target Lock: 4)
+30% Cybernetic Drive (Target Lock: 5)
+18% Cybernetic Drive (Target Lock: 9)
+28% Cybernetic Grasp (Target Lock: 9)
 
 
-Arec: Mirrored Burst
-Ottavia: Demolition Shooter (Target Lock: 4)
+Arec: Perceptional Dash
+Ottavia: Cybernetic Grasp (Target Lock: 9)
 
-Priorities:  1 | 3
-Ottavia is active
+Priorities:  10 | 5
+Arec is active
 Arec moves:
 
-.O..A..
+....A.O
 
 
-Ottavia hits
-Arec takes 4 damage (now at 8 life)
-Arec is stunned
-Ottavia moves:
-
-..O.A..
-
-
-Arec places clone:
-
-..O.A..
-.c.....
-
+Ottavia misses
 
 Beat 5
 -------
 
 Arec
 ----
-Life: 8
-Discard 1: Mirrored Burst
-Discard 2: Returning Shot
-pool: Fear, Hesitation, Mercy
+Life: 14
+Discard 1: Perceptional Dash
+Discard 2: Phantom Strike
+Special action available
+pool: Fear, Mercy, Recklessness
 
 Ottavia
 -------
-Life: 17
-Discard 1: Demolition Shooter
-Discard 2: Anti-Personnel Shot
+Life: 13
+Discard 1: Cybernetic Grasp
+Discard 2: Demolition Shot
 Special action available
 
 
-..O.A..
-.c.....
+....A.O
+
+
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 1): -0.13
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 2): -0.13
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 3): -0.13
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 4): -0.13
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 5): -0.13
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 6): -0.13
+
 
 Arec:
-8% Phantom Hex
-12% Phantom Hex (move to clone)
-3% Phantom Strike (Mercy; move to clone)
-15% Phantom Drive (Mercy; move to clone)
-10% Phantom Grasp (move to clone)
-24% Phantom Dash
-11% Perceptional Grasp
-8% Manipulative Hex (move to clone)
-2% Manipulative Drive (Fear)
-5% Manipulative Grasp (Fear; move to clone)
-2% Manipulative Dash (move to clone)
+95% Mirrored Hex
+3% Mirrored Shot
+0% Mirrored Grasp
+1% Manipulative Shot
 
 Ottavia:
-8% Snapback Grasp (Target Lock: 6)
-1% Snapback Grasp (Target Lock: 10)
-23% Snapback Dash (Target Lock: 9)
-18% Snapback Dash (Target Lock: 10)
-12% Cover Burst (Target Lock: 4)
-4% Cover Burst (Target Lock: 5)
-1% Cover Dash (Target Lock: 6)
-9% Cybernetic Drive (Target Lock: 5)
-4% Cybernetic Drive (Target Lock: 6)
-3% Cybernetic Drive (Target Lock: 10)
-16% Cybernetic Grasp (Target Lock: 6)
+6% Anti-Personnel Drive (Target Lock: 1)
+1% Anti-Personnel Drive (Target Lock: 5)
+5% Anti-Personnel Drive (Target Lock: 6)
+14% Anti-Personnel Dash (Target Lock: 1)
+14% Anti-Personnel Dash (Target Lock: 2)
+14% Anti-Personnel Dash (Target Lock: 3)
+14% Anti-Personnel Dash (Target Lock: 4)
+14% Anti-Personnel Dash (Target Lock: 5)
+14% Anti-Personnel Dash (Target Lock: 6)
+3% Cover Drive (Target Lock: 3)
 
 
-Arec: Phantom Dash
-Ottavia: Snapback Dash (Target Lock: 10)
+Arec: Mirrored Hex
+Ottavia: Anti-Personnel Dash (Target Lock: 2)
 
-Ottavia acquires target lock
-Priorities:  0 | 9
+Priorities:  3 | 8
 Ottavia is active
 Ottavia moves:
 
-.O..A..
+..O.A..
 
 
-Ottavia moves:
+Arec misses
+Arec places clone:
 
-O...A..
+..O.A..
+...c...
 
-
-Arec recovers a Recklessness token
 
 Beat 6
 -------
 
 Arec
 ----
-Life: 8
-Discard 1: Phantom Dash
-Discard 2: Mirrored Burst
-pool: Fear, Hesitation, Mercy, Recklessness
+Life: 14
+Discard 1: Mirrored Hex
+Discard 2: Perceptional Dash
+Special action available
+pool: Fear, Mercy, Recklessness
 
 Ottavia
 -------
-Life: 17
-Discard 1: Snapback Dash
-Discard 2: Demolition Shooter
+Life: 13
+Discard 1: Anti-Personnel Dash
+Discard 2: Cybernetic Grasp
 Special action available
 
 
-O...A..
+..O.A..
+...c...
 
 
 Arec:
-12% Perceptional Hex
-5% Perceptional Drive
-36% Returning Hex
-9% Returning Shot (Mercy)
-30% Returning Drive (Fear)
-3% Returning Grasp
-5% Manipulative Hex
+24% Phantom Strike (move to clone)
+14% Phantom Grasp (move to clone)
+9% Returning Shot (Fear)
+13% Returning Drive
+13% Returning Drive (move to clone)
+10% Returning Drive (Fear; move to clone)
+2% Returning Burst
+8% Manipulative Shot (Fear)
+8% Manipulative Drive (move to clone)
 
 Ottavia:
-3% Anti-Personnel Strike (Target Lock: 4)
-6% Anti-Personnel Drive (Target Lock: 4)
-18% Anti-Personnel Grasp (Target Lock: 4)
-18% Anti-Personnel Grasp (Target Lock: 5)
-5% Cover Shot (Target Lock: 4)
-16% Cover Shot (Target Lock: 5)
-35% Cover Burst (Target Lock: 5)
+6% Demolition Shooter (Target Lock: 4)
+2% Demolition Shooter (Target Lock: 5)
+6% Demolition Strike (Target Lock: 6)
+12% Demolition Shot (Target Lock: 5)
+9% Demolition Drive (Target Lock: 5)
+24% Demolition Drive (Target Lock: 6)
+1% Cover Shooter (Target Lock: 5)
+13% Cover Drive (Target Lock: 4)
+28% Cover Burst (Target Lock: 5)
 
 
-Arec: Perceptional Hex
-Ottavia: Anti-Personnel Drive (Target Lock: 4)
+Arec: Manipulative Shot (Fear)
+Ottavia: Demolition Drive (Target Lock: 6)
 
-Ottavia acquires target lock
-Priorities:  -6 | 3
+Arec antes a Fear token
+Priorities:  2 | 5
 Ottavia is active
 Ottavia moves:
 
-.O..A..
+....AO.
 
 
 Ottavia hits
-Arec takes 6 damage (now at 2 life)
+Arec takes 3 damage (now at 11 life)
 Arec is stunned
 Ottavia moves:
 
-....AO.
+O...A..
 
 
 
@@ -476,134 +412,118 @@ Beat 7
 
 Arec
 ----
-Life: 2
-Discard 1: Perceptional Hex
-Discard 2: Phantom Dash
-pool: Fear, Hesitation, Mercy, Recklessness
+Life: 11
+Discard 1: Manipulative Shot
+Discard 2: Mirrored Hex
+Special action available
+pool: Mercy, Recklessness
 
 Ottavia
 -------
-Life: 17
-Discard 1: Anti-Personnel Drive
-Discard 2: Snapback Dash
+Life: 13
+Discard 1: Demolition Drive
+Discard 2: Anti-Personnel Dash
 Special action available
 
 
-....AO.
+O...A..
+
+
+Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 5): -0.67
+Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 5): -0.67
 
 
 Arec:
-1% Returning Strike
-0% Returning Strike (Recklessness)
-10% Returning Shot
-11% Returning Burst (Recklessness)
-8% Returning Grasp
-6% Mirrored Strike
-8% Mirrored Strike (Recklessness)
-34% Mirrored Burst (Recklessness)
-8% Manipulative Drive
-2% Manipulative Drive (Fear)
-12% Manipulative Grasp (Fear)
+4% Phantom Burst
+66% Phantom Dash
+17% Perceptional Drive
+14% Returning Drive (Mercy)
 
 Ottavia:
-13% Demolition Shooter (Target Lock: 3)
-1% Demolition Strike (Target Lock: 5)
-12% Demolition Shot (Target Lock: 4)
-9% Demolition Shot (Target Lock: 5)
-3% Demolition Grasp (Target Lock: 1)
-3% Demolition Grasp (Target Lock: 2)
-3% Demolition Grasp (Target Lock: 3)
-3% Demolition Grasp (Target Lock: 4)
-3% Demolition Grasp (Target Lock: 5)
-5% Demolition Grasp (Target Lock: 6)
-6% Cover Burst (Target Lock: 3)
-10% Cover Burst (Target Lock: 4)
-18% Cover Burst (Target Lock: 5)
-4% Cybernetic Shot (Target Lock: 4)
-4% Cybernetic Shot (Target Lock: 5)
-0% Cybernetic Burst (Target Lock: 3)
-1% Cybernetic Burst (Target Lock: 4)
-0% Cybernetic Grasp (Target Lock: 3)
-0% Cybernetic Grasp (Target Lock: 4)
-1% Cybernetic Grasp (Target Lock: 5)
+24% Snapback Strike (Target Lock: 10)
+9% Snapback Grasp (Target Lock: 10)
+57% Cybernetic Shooter (Target Lock: 5)
+9% Cybernetic Shooter (Target Lock: 10)
 
 
-Arec: Manipulative Drive
-Ottavia: Cybernetic Shot (Target Lock: 5)
+Arec: Returning Drive (Mercy)
+Ottavia: Cybernetic Shooter (Target Lock: 5)
 
-Priorities:  4 | 2
-Arec is active
-Arec moves:
-
-.....OA
-
-
-Arec hits
-Arec chooses Ottavia's base: Shooter
-Ottavia takes 4 damage (now at 13 life)
-Ottavia is stunned
+Arec antes a Mercy token
+Ottavia acquires target lock
+Priorities:  -5 | 2
+Ottavia is active
+Ottavia hits
+Arec takes 4 damage (now at 7 life)
+Arec is stunned
 
 Beat 8
 -------
 
 Arec
 ----
-Life: 2
-Discard 1: Manipulative Drive
-Discard 2: Perceptional Hex
-pool: Fear, Hesitation, Mercy, Recklessness
-Manipulative forced base: Shooter
+Life: 7
+Discard 1: Returning Drive
+Discard 2: Manipulative Shot
+Special action available
+pool: Recklessness
 
 Ottavia
 -------
 Life: 13
-Discard 1: Cybernetic Shot
-Discard 2: Anti-Personnel Drive
+Discard 1: Cybernetic Shooter
+Discard 2: Demolition Drive
 Special action available
 
 
-.....OA
+O...A..
+
 
 
 Arec:
-34% Phantom Dash
-5% Returning Strike
-6% Returning Strike (Fear)
-2% Returning Shot
-19% Returning Grasp (Fear)
-6% Returning Grasp (Mercy)
-28% Mirrored Dash
+16% Phantom Dash
+14% Perceptional Hex
+14% Mirrored Hex
+13% Mirrored Strike
+29% Mirrored Burst
+14% Mirrored Dash
 
 Ottavia:
-2% Snapback Burst (Target Lock: 10)
-39% Demolition Shooter (Target Lock: 6)
-10% Demolition Shooter (Target Lock: 9)
-1% Demolition Strike (Target Lock: 9)
-23% Demolition Grasp (Target Lock: 9)
-18% Demolition Grasp (Target Lock: 10)
-7% Cover Shooter (Target Lock: 4)
+5% Snapback Strike (Target Lock: 3)
+40% Snapback Strike (Target Lock: 9)
+22% Snapback Strike (Target Lock: 10)
+3% Anti-Personnel Strike (Target Lock: 3)
+11% Anti-Personnel Shot (Target Lock: 9)
+19% Anti-Personnel Grasp (Target Lock: 10)
 
 
-Arec: Mirrored Dash
-Ottavia: Demolition Shooter (Target Lock: 6)
+Arec: Perceptional Hex
+Ottavia: Anti-Personnel Grasp (Target Lock: 10)
 
-Priorities:  9 | 3
+Priorities:  4 | 4
+Clash!
+
+
+Arec: Perceptional Burst
+Ottavia: Anti-Personnel Strike (Target Lock: 10)
+
+Priorities:  2 | 2
+Clash!
+
+
+Arec: Perceptional Strike
+Ottavia: Anti-Personnel Shot (Target Lock: 10)
+
+Priorities:  4 | 1
 Arec is active
-Arec moves:
-
-...A.O.
-
-
-Ottavia misses
+Arec misses
+Ottavia hits
+Arec takes 6 damage (now at 1 life)
+Arec is stunned
 Ottavia moves:
 
-..OA...
+...OA..
 
-
-Arec places clone:
-
-..OA...
-.....c.
 
 
 Beat 9
@@ -611,110 +531,135 @@ Beat 9
 
 Arec
 ----
-Life: 2
-Discard 1: Mirrored Dash
-Discard 2: Manipulative Drive
-pool: Fear, Hesitation, Mercy, Recklessness
+Life: 1
+Discard 1: Perceptional Strike
+Discard 2: Returning Drive
+Special action available
+pool: Recklessness
 
 Ottavia
 -------
 Life: 13
-Discard 1: Demolition Shooter
-Discard 2: Cybernetic Shot
+Discard 1: Anti-Personnel Shot
+Discard 2: Cybernetic Shooter
 Special action available
 
 
-..OA...
-.....c.
+...OA..
+
+
 
 Arec:
-18% Phantom Grasp (Recklessness)
-6% Perceptional Hex
-21% Perceptional Shot
-22% Perceptional Burst
-6% Perceptional Grasp
-13% Returning Hex (Recklessness)
-7% Returning Strike (Fear)
-7% Returning Grasp (Fear)
+16% Phantom Grasp
+14% Phantom Dash
+30% Mirrored Burst
+19% Mirrored Grasp
+22% Mirrored Dash
 
 Ottavia:
-26% Snapback Drive (Target Lock: 4)
-17% Snapback Drive (Target Lock: 6)
-0% Cover Drive (Target Lock: 6)
-9% Cover Burst (Target Lock: 2)
-13% Cover Burst (Target Lock: 3)
-27% Cover Burst (Target Lock: 4)
-7% Cover Burst (Target Lock: 6)
-1% Cover Dash (Target Lock: 4)
+13% Demolition Drive (Target Lock: 6)
+37% Demolition Drive (Target Lock: 9)
+8% Demolition Grasp (Target Lock: 9)
+42% Demolition Grasp (Target Lock: 10)
+0% Cover Burst (Target Lock: 5)
 
 
-Arec: Perceptional Shot
-Ottavia: Snapback Drive (Target Lock: 4)
+Arec: Mirrored Burst
+Ottavia: Demolition Grasp (Target Lock: 10)
 
-Priorities:  3 | 4
+Priorities:  1 | 6
 Ottavia is active
-Arec antes a Recklessness token
+Arec moves:
+
+...O..A
+
+
 Ottavia misses
+Ottavia moves:
+
+.....OA
+
+
 Arec misses
+Arec places clone:
+
+.....OA
+...c...
+
 
 Beat 10
 -------
 
 Arec
 ----
-Life: 2
-Discard 1: Perceptional Shot
-Discard 2: Mirrored Dash
-pool: Fear, Hesitation, Mercy
+Life: 1
+Discard 1: Mirrored Burst
+Discard 2: Perceptional Strike
+Special action available
+pool: Recklessness
 
 Ottavia
 -------
 Life: 13
-Discard 1: Snapback Drive
-Discard 2: Demolition Shooter
+Discard 1: Demolition Grasp
+Discard 2: Anti-Personnel Shot
 Special action available
 
+
+.....OA
+...c...
+
+
+Arec:
+6% Phantom Hex
+14% Phantom Drive (move to clone)
+1% Phantom Grasp
+21% Phantom Grasp (move to clone)
+4% Phantom Dash
+21% Phantom Dash (move to clone)
+9% Returning Drive
+4% Manipulative Hex
+9% Manipulative Drive
+10% Manipulative Drive (move to clone)
+1% Manipulative Grasp
+
+Ottavia:
+8% Snapback Burst (Target Lock: 4)
+1% Snapback Dash (Target Lock: 2)
+2% Snapback Dash (Target Lock: 3)
+5% Snapback Dash (Target Lock: 4)
+1% Snapback Dash (Target Lock: 5)
+1% Snapback Dash (Target Lock: 6)
+1% Snapback Dash (Target Lock: 8)
+27% Snapback Dash (Target Lock: 9)
+2% Cover Drive (Target Lock: 4)
+3% Cybernetic Shooter (Target Lock: 4)
+18% Cybernetic Shooter (Target Lock: 5)
+2% Cybernetic Strike (Target Lock: 3)
+3% Cybernetic Strike (Target Lock: 4)
+1% Cybernetic Strike (Target Lock: 10)
+1% Cybernetic Drive (Target Lock: 5)
+16% Cybernetic Drive (Target Lock: 6)
+7% Cybernetic Drive (Target Lock: 10)
+
+
+Arec: Phantom Grasp (move to clone)
+Ottavia: Cybernetic Drive (Target Lock: 6)
+
+Arec moves:
+
+...A.O.
+
+
+Ottavia acquires target lock
+Priorities:  -4 | 4
+Ottavia is active
+Ottavia moves:
 
 ..OA...
 
 
-Arec:
-16% Phantom Burst
-10% Phantom Grasp
-5% Returning Burst
-11% Returning Grasp
-2% Returning Grasp (Fear)
-14% Manipulative Strike (Fear)
-3% Manipulative Drive
-12% Manipulative Drive (Fear)
-12% Manipulative Burst
-15% Manipulative Grasp (Fear)
-
-Ottavia:
-7% Cover Shot (Target Lock: 3)
-5% Cover Burst (Target Lock: 3)
-1% Cover Burst (Target Lock: 4)
-2% Cover Burst (Target Lock: 6)
-28% Cybernetic Shot (Target Lock: 2)
-1% Cybernetic Shot (Target Lock: 3)
-2% Cybernetic Shot (Target Lock: 4)
-4% Cybernetic Shot (Target Lock: 5)
-47% Cybernetic Grasp (Target Lock: 5)
-3% Cybernetic Grasp (Target Lock: 6)
-
-
-Arec: Manipulative Strike (Fear)
-Ottavia: Cybernetic Grasp (Target Lock: 5)
-
-Arec antes a Fear token
-Priorities:  3 | 5
-Ottavia is active
 Ottavia hits
-Ottavia moves Arec:
-
-.AO....
-
-
-Arec takes 2 damage (now at 0 life)
+Arec takes 3 damage (now at 0 life)
 OTTAVIA WINS!
-total_time: 135
+total_time: 104

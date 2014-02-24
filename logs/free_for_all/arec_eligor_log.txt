@@ -29,74 +29,44 @@ Special action available
 .A...E.
 
 
-Arec:
-61% Mirrored Hex (Recklessness)
-39% Mirrored Burst (Recklessness)
-
-Eligor:
-78% Retribution Shot
-22% Retribution Drive
-
-
-Arec: Mirrored Hex (Recklessness)
-Eligor: Retribution Drive
-
-Arec antes a Recklessness token
-Priorities:  3 | 3
-Clash!
 
 Arec:
-100% Mirrored Burst (Recklessness)
+9% Returning Burst
+45% Mirrored Hex (Hesitation)
+8% Mirrored Shot (Hesitation)
+1% Mirrored Drive
+37% Mirrored Burst (Hesitation)
 
 Eligor:
-100% Retribution Shot
+6% Counter Drive
+8% Counter Burst
+25% Retribution Shot
+29% Retribution Drive
+31% Retribution Burst
 
 
-Arec: Mirrored Burst (Recklessness)
-Eligor: Retribution Shot
-
-Arec antes a Recklessness token
-Priorities:  1 | 1
-Clash!
-
-Arec:
-100% Mirrored Shot (Recklessness)
-
-Eligor:
-100% Retribution Strike
-
-
-Arec: Mirrored Shot (Recklessness)
-Eligor: Retribution Strike
-
-Arec antes a Recklessness token
-Priorities:  2 | 2
-Clash!
-
-Arec:
-100% Mirrored Drive (Recklessness)
-
-Eligor:
-100% Retribution Burst
-
-
-Arec: Mirrored Drive (Recklessness)
+Arec: Mirrored Burst (Hesitation)
 Eligor: Retribution Burst
 
-Arec antes a Recklessness token
-Priorities:  4 | 0
+Arec antes a Hesitation token
+Priorities:  1 | 0
 Arec is active
+Arec moves:
+
+A....E.
+
+
 Eligor moves:
 
-.A....E
+A.....E
 
 
 Arec misses
 Eligor misses
 Arec places clone:
 
-.A....E
-.....c.
+A.....E
+.c.....
 
 
 Beat 2
@@ -105,10 +75,10 @@ Beat 2
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Drive
+Discard 1: Mirrored Burst
 Discard 2: Phantom Strike
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Mercy, Recklessness
 
 Eligor
 ------
@@ -119,42 +89,46 @@ Special action available
 2 Vengeance tokens
 
 
-.A....E
-.....c.
+A.....E
+.c.....
 
-Unbeatable strategy for Eligor: Chained Strike: -0.48
-Unbeatable strategy for Eligor: Chained Dash: -0.01
+Unbeatable strategy for Eligor: Chained Strike: -0.14
+
 
 Arec:
-6% Returning Shot
-5% Returning Burst
-21% Returning Dash
-35% Manipulative Hex
-34% Manipulative Burst
+16% Perceptional Drive (move to clone)
+26% Returning Drive
+50% Manipulative Hex
+8% Manipulative Grasp
 
 Eligor:
-2% Counter Aegis
-21% Counter Strike
-37% Chained Strike
-4% Chained Shot
-13% Chained Drive
-24% Chained Dash
+48% Chained Strike
+8% Chained Shot
+13% Chained Shot (1 token)
+30% Chained Drive
 
 
-Arec: Returning Dash
+Arec: Perceptional Drive (move to clone)
 Eligor: Chained Strike
 
-Priorities:  10 | 2
+Arec moves:
+
+.A....E
+
+
+Priorities:  5 | 2
 Arec is active
 Arec moves:
 
-A.....E
+..A...E
 
 
+Arec misses
+Eligor spends a Vengeance token
 Eligor spends a Vengeance token
 Eligor moves Arec:
 
-.A....E
+....A.E
 
 
 Eligor misses
@@ -165,10 +139,10 @@ Beat 3
 Arec
 ----
 Life: 20
-Discard 1: Returning Dash
-Discard 2: Mirrored Drive
+Discard 1: Perceptional Drive
+Discard 2: Mirrored Burst
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Mercy, Recklessness
 
 Eligor
 ------
@@ -176,578 +150,652 @@ Life: 20
 Discard 1: Chained Strike
 Discard 2: Retribution Burst
 Special action available
-1 Vengeance tokens
+0 Vengeance tokens
 
 
-.A....E
+....A.E
+
 
 
 Arec:
-6% Phantom Shot
-9% Phantom Burst
-50% Perceptional Burst
-8% Manipulative Hex
-28% Manipulative Burst
+48% Returning Strike (Mercy)
+31% Returning Shot (Mercy)
+20% Returning Grasp
 
 Eligor:
-26% Counter Aegis
-37% Counter Aegis (1 token)
-17% Counter Shot
-17% Counter Shot (1 token)
-3% Martial Shot (1 token)
+47% Vengeful Shot
+6% Vengeful Drive
+47% Vengeful Grasp
 
 
-Arec: Manipulative Burst
-Eligor: Counter Aegis
+Arec: Returning Strike (Mercy)
+Eligor: Vengeful Grasp
 
-Priorities:  1 | -1
-Arec is active
-Arec moves:
+Arec antes a Mercy token
+Priorities:  4 | 5
+Eligor is active
+Eligor moves:
 
-A.....E
+....AE.
 
 
-Arec misses
-Eligor misses
+Eligor hits
+Arec takes 3 damage (now at 17 life)
+Arec hits
+Eligor takes 4 damage (now at 16 life)
+Eligor is stunned
+Eligor gains 4 Vengeance tokens
 
 Beat 4
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Manipulative Burst
-Discard 2: Returning Dash
+Life: 17
+Discard 1: Returning Strike
+Discard 2: Perceptional Drive
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Recklessness
 
 Eligor
 ------
-Life: 20
-Discard 1: Counter Aegis
+Life: 16
+Discard 1: Vengeful Grasp
 Discard 2: Chained Strike
 Special action available
-1 Vengeance tokens
+4 Vengeance tokens
 
 
-A.....E
+....AE.
 
 
-Unbeatable strategy for Arec: Phantom Grasp: 0.12
-
-Arec:
-32% Mirrored Hex
-68% Mirrored Strike
-
-Eligor:
-12% Vengeful Drive
-88% Retribution Drive
-
-
-Arec: Mirrored Strike
-Eligor: Retribution Drive
-
-Priorities:  3 | 3
-Clash!
 
 Arec:
-32% Mirrored Hex
-68% Mirrored Grasp
+2% Phantom Grasp
+23% Phantom Dash
+16% Mirrored Hex
+3% Mirrored Burst
+54% Mirrored Dash
+2% Manipulative Grasp
 
 Eligor:
-32% Retribution Shot
-68% Retribution Dash
+16% Counter Aegis (2 tokens)
+9% Counter Shot
+17% Counter Dash
+11% Martial Drive
+0% Martial Drive (2 tokens)
+47% Martial Dash
 
 
-Arec: Mirrored Grasp
-Eligor: Retribution Dash
+Arec: Phantom Dash
+Eligor: Counter Aegis (2 tokens)
 
-Priorities:  5 | 8
-Eligor is active
-Eligor moves:
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  10 | -1
+Arec is active
+Arec moves:
 
-A...E..
+...A.E.
 
 
-Arec misses
-Arec places clone:
-
-A...E..
-...c...
-
+Eligor misses
+Arec recovers a Hesitation token
 
 Beat 5
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Mirrored Grasp
-Discard 2: Manipulative Burst
+Life: 17
+Discard 1: Phantom Dash
+Discard 2: Returning Strike
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Recklessness, Hesitation
 
 Eligor
 ------
-Life: 20
-Discard 1: Retribution Dash
-Discard 2: Counter Aegis
+Life: 16
+Discard 1: Counter Aegis
+Discard 2: Vengeful Grasp
 Special action available
-1 Vengeance tokens
+2 Vengeance tokens
 
-
-A...E..
-...c...
-
-Arec:
-60% Phantom Dash (move to clone)
-11% Returning Shot
-7% Returning Drive
-23% Returning Drive (Hesitation)
-
-Eligor:
-22% Vengeful Shot
-44% Vengeful Drive
-3% Vengeful Burst
-30% Martial Shot (1 token)
-
-
-Arec: Phantom Dash (move to clone)
-Eligor: Vengeful Burst
-
-Arec moves:
-
-...AE..
-
-
-Priorities:  10 | 1
-Arec is active
-Eligor moves:
 
 ...A.E.
 
 
-Arec moves:
 
-A....E.
+Arec:
+47% Mirrored Hex (Hesitation)
+4% Mirrored Shot (Hesitation)
+47% Mirrored Burst (Hesitation)
+2% Manipulative Burst
+
+Eligor:
+57% Retribution Strike (1 token)
+23% Retribution Shot (1 token)
+17% Retribution Drive (1 token)
+3% Retribution Burst (1 token)
 
 
+Arec: Mirrored Hex (Hesitation)
+Eligor: Retribution Drive (1 token)
+
+Arec antes a Hesitation token
+Eligor antes a Vengeance token
+Priorities:  3 | 3
+Clash!
+
+
+Arec: Mirrored Burst (Hesitation)
+Eligor: Retribution Shot (1 token)
+
+Arec antes a Hesitation token
+Eligor antes a Vengeance token
+Priorities:  1 | 1
+Clash!
+
+
+Arec: Mirrored Grasp (Hesitation)
+Eligor: Retribution Burst (1 token)
+
+Arec antes a Hesitation token
+Eligor antes a Vengeance token
+Priorities:  5 | 0
+Arec is active
 Eligor moves:
 
-A...E..
+...A..E
 
 
+Arec hits
+Arec moves Eligor:
+
+...A.E.
+
+
+Eligor has 2 soak
+Eligor gains 2 Vengeance tokens
+Eligor takes 1 damage (now at 15 life)
+Eligor gains 1 Vengeance token
 Eligor misses
-Arec recovers a Recklessness token
+Arec places clone:
+
+...A.E.
+c......
+
 
 Beat 6
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Phantom Dash
-Discard 2: Mirrored Grasp
-Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
-
-Eligor
-------
-Life: 20
-Discard 1: Vengeful Burst
-Discard 2: Retribution Dash
-Special action available
-1 Vengeance tokens
-
-
-A...E..
-
-
-Arec:
-22% Returning Hex (Recklessness)
-8% Returning Shot
-45% Returning Shot (Recklessness)
-1% Returning Burst (Recklessness)
-18% Manipulative Hex (Recklessness)
-3% Manipulative Shot (Fear)
-2% Manipulative Shot (Recklessness)
-
-Eligor:
-13% Counter Aegis (1 token)
-9% Counter Strike
-15% Counter Shot
-3% Counter Shot (1 token)
-33% Counter Drive
-15% Martial Shot (1 token)
-12% Martial Drive
-
-
-Arec: Returning Shot (Recklessness)
-Eligor: Counter Drive
-
-Arec antes a Recklessness token
-Priorities:  3 | 3
-Arec is active
-Arec hits
-Eligor takes 3 damage (now at 17 life)
-Eligor is stunned
-Eligor gains 3 Vengeance tokens
-
-Beat 7
--------
-
-Arec
-----
-Life: 20
-Discard 1: Returning Shot
+Life: 17
+Discard 1: Mirrored Grasp
 Discard 2: Phantom Dash
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Recklessness
 
 Eligor
 ------
-Life: 17
-Discard 1: Counter Drive
-Discard 2: Vengeful Burst
+Life: 15
+Discard 1: Retribution Burst
+Discard 2: Counter Aegis
 Special action available
 4 Vengeance tokens
 
 
-A...E..
+...A.E.
+c......
+
+Unbeatable strategy for Eligor: Chained Dash: -0.01
 
 
 Arec:
-12% Mirrored Hex
-17% Mirrored Hex (Hesitation)
-41% Mirrored Strike
-19% Mirrored Drive
-1% Mirrored Burst
-10% Mirrored Grasp
+61% Perceptional Hex (move to clone)
+28% Returning Hex (move to clone)
+7% Returning Strike
+3% Returning Strike (move to clone)
+1% Manipulative Hex (move to clone)
 
 Eligor:
-8% Martial Shot
-4% Chained Aegis (1 token)
-15% Chained Strike
-11% Chained Grasp
-35% Retribution Aegis (2 tokens)
-27% Retribution Shot
+10% Chained Strike
+3% Chained Strike (1 token)
+2% Chained Strike (2 tokens)
+10% Chained Drive (2 tokens)
+5% Chained Grasp
+2% Chained Grasp (2 tokens)
+68% Chained Dash
 
 
-Arec: Mirrored Hex
-Eligor: Chained Strike
-
-Priorities:  3 | 2
-Arec is active
-Arec hits
-Arec moves Eligor:
-
-A....E.
-
-
-Arec recovers a Recklessness token
-Eligor takes 4 damage (now at 13 life)
-Eligor gains 1 Vengeance token
-Eligor spends a Vengeance token
-Eligor spends a Vengeance token
-Eligor spends a Vengeance token
-Eligor spends a Vengeance token
-Eligor spends a Vengeance token
-Eligor moves Arec:
-
-.....EA
-
-
-Eligor hits
-Arec takes 4 damage (now at 16 life)
-Arec is stunned
-Arec places clone:
-
-.....EA
-c......
-
-
-Beat 8
--------
-
-Arec
-----
-Life: 16
-Discard 1: Mirrored Hex
-Discard 2: Returning Shot
-Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
-
-Eligor
-------
-Life: 13
-Discard 1: Chained Strike
-Discard 2: Counter Drive
-Special action available
-0 Vengeance tokens
-
-
-.....EA
-c......
-
-Unbeatable strategy for Eligor: Vengeful Shot: -1.02
-
-Arec:
-5% Manipulative Strike
-19% Manipulative Strike (Fear)
-1% Manipulative Strike (Recklessness)
-17% Manipulative Strike (Recklessness; move to clone)
-58% Manipulative Burst (Recklessness; move to clone)
-
-Eligor:
-70% Vengeful Shot
-8% Vengeful Grasp
-9% Vengeful Dash
-3% Martial Shot
-4% Martial Burst
-2% Martial Grasp
-5% Martial Dash
-
-
-Arec: Manipulative Burst (Recklessness; move to clone)
-Eligor: Vengeful Shot
+Arec: Returning Hex (move to clone)
+Eligor: Chained Dash
 
 Arec moves:
 
 A....E.
 
 
-Arec antes a Recklessness token
-Priorities:  1 | 2
+Priorities:  4 | 8
 Eligor is active
-Eligor misses
+Eligor spends a Vengeance token
+Eligor spends a Vengeance token
+Eligor moves Arec:
+
+..A..E.
+
+
+Eligor moves:
+
+.EA....
+
+
 Arec misses
+
+Beat 7
+-------
+
+Arec
+----
+Life: 17
+Discard 1: Returning Hex
+Discard 2: Mirrored Grasp
+Special action available
+pool: Fear, Recklessness
+
+Eligor
+------
+Life: 15
+Discard 1: Chained Dash
+Discard 2: Retribution Burst
+Special action available
+2 Vengeance tokens
+
+
+.EA....
+
+
+Unbeatable strategy for Eligor: Martial Drive (2 tokens): -0.50
+
+
+Arec:
+4% Phantom Strike
+69% Phantom Dash
+3% Manipulative Strike
+15% Manipulative Strike (Recklessness)
+9% Manipulative Drive
+
+Eligor:
+65% Vengeful Drive
+4% Vengeful Grasp
+5% Counter Strike
+13% Martial Shot (2 tokens)
+14% Martial Drive (2 tokens)
+
+
+Arec: Phantom Dash
+Eligor: Martial Shot (2 tokens)
+
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  10 | 1
+Arec is active
+Arec moves:
+
+AE.....
+
+
+Eligor misses
+Arec recovers a Hesitation token
+
+Beat 8
+-------
+
+Arec
+----
+Life: 17
+Discard 1: Phantom Dash
+Discard 2: Returning Hex
+Special action available
+pool: Fear, Recklessness, Hesitation
+
+Eligor
+------
+Life: 15
+Discard 1: Martial Shot
+Discard 2: Chained Dash
+Special action available
+0 Vengeance tokens
+
+
+AE.....
+
+
+Unbeatable strategy for Eligor: Vengeful Strike: -0.48
+
+
+Arec:
+19% Manipulative Strike
+46% Manipulative Strike (Fear)
+32% Manipulative Drive
+3% Manipulative Drive (Fear)
+
+Eligor:
+90% Vengeful Strike
+2% Counter Strike
+4% Counter Drive
+4% Retribution Strike
+
+
+Arec: Manipulative Drive
+Eligor: Vengeful Strike
+
+Priorities:  4 | 3
+Arec is active
+Arec moves:
+
+.EA....
+
+
+Arec hits
+Arec chooses Eligor's base: Drive
+Eligor takes 4 damage (now at 11 life)
+Arec recovers a Mercy token
+Eligor gains 4 Vengeance tokens
+Eligor moves:
+
+..AE...
+
+
+Eligor hits
+Eligor gains 1 Vengeance token
+Arec takes 5 damage (now at 12 life)
+Arec is stunned
 
 Beat 9
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Manipulative Burst
-Discard 2: Mirrored Hex
+Life: 12
+Discard 1: Manipulative Drive
+Discard 2: Phantom Dash
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Recklessness, Hesitation, Mercy
+Manipulative forced base: Drive
 
 Eligor
 ------
-Life: 13
-Discard 1: Vengeful Shot
-Discard 2: Chained Strike
+Life: 11
+Discard 1: Vengeful Strike
+Discard 2: Martial Shot
 Special action available
-0 Vengeance tokens
+5 Vengeance tokens
 
 
-A....E.
+..AE...
+
+
+Unbeatable strategy for Arec: Perceptional Burst: 0.99
+Unbeatable strategy for Arec: Perceptional Burst (Recklessness): 0.39
+Unbeatable strategy for Arec: Perceptional Burst (Hesitation): 0.99
+Unbeatable strategy for Arec: Perceptional Burst (Mercy): 0.57
+Unbeatable strategy for Arec: Returning Hex (Hesitation): 0.72
+Unbeatable strategy for Arec: Returning Burst (Hesitation): 1.05
+Unbeatable strategy for Arec: Mirrored Burst (Hesitation): 2.27
 
 
 Arec:
-94% Phantom Shot
-6% Returning Shot
+2% Mirrored Hex
+18% Mirrored Hex (Hesitation)
+79% Mirrored Burst (Hesitation)
 
 Eligor:
-59% Counter Drive
-41% Counter Dash
+12% Retribution Aegis (2 tokens)
+84% Retribution Drive (2 tokens)
+4% Retribution Grasp
 
 
-Arec: Phantom Shot
-Eligor: Counter Dash
+Arec: Mirrored Burst (Hesitation)
+Eligor: Retribution Aegis (2 tokens)
 
-Priorities:  3 | 8
-Eligor is active
-Eligor moves:
+Arec antes a Hesitation token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Eligor loses 2 life (now at 9)
+Priorities:  1 | -1
+Arec is active
+Arec moves:
 
-A.....E
+.A.E...
 
 
-Arec hits
-Eligor takes 2 damage (now at 11 life)
-Eligor is stunned
-Eligor gains 2 Vengeance tokens
-Arec recovers a Recklessness token
+Arec misses
+Eligor misses
+Arec places clone:
+
+.A.E...
+c......
+
 
 Beat 10
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Phantom Shot
-Discard 2: Manipulative Burst
+Life: 12
+Discard 1: Mirrored Burst
+Discard 2: Manipulative Drive
 Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
+pool: Fear, Recklessness, Mercy
 
 Eligor
 ------
-Life: 11
-Discard 1: Counter Dash
-Discard 2: Vengeful Shot
+Life: 9
+Discard 1: Retribution Aegis
+Discard 2: Vengeful Strike
 Special action available
-2 Vengeance tokens
+3 Vengeance tokens
 
 
-A.....E
+.A.E...
+c......
 
+Unbeatable strategy for Eligor: Counter Shot (1 token): -0.08
+Unbeatable strategy for Eligor: Counter Drive (2 tokens): -0.60
+Unbeatable strategy for Eligor: Counter Drive (3 tokens): -0.40
+Unbeatable strategy for Eligor: Martial Drive (2 tokens): -0.70
+Unbeatable strategy for Eligor: Martial Drive (3 tokens): -0.50
+Unbeatable strategy for Eligor: Chained Drive (2 tokens): -0.70
+Unbeatable strategy for Eligor: Chained Drive (3 tokens): -0.50
+Unbeatable strategy for Eligor: Chained Burst (2 tokens): -0.23
 
-Unbeatable strategy for Arec: Returning Hex (Recklessness): 0.57
-Unbeatable strategy for Arec: Returning Strike: 0.48
-Unbeatable strategy for Arec: Returning Strike (Fear): 0.28
-Unbeatable strategy for Arec: Returning Strike (Hesitation): 0.18
-Unbeatable strategy for Arec: Returning Strike (Mercy): 0.38
-Unbeatable strategy for Arec: Returning Grasp: 0.44
-Unbeatable strategy for Arec: Returning Grasp (Fear): 0.24
-Unbeatable strategy for Arec: Returning Grasp (Hesitation): 0.14
-Unbeatable strategy for Arec: Returning Grasp (Mercy): 0.34
-Unbeatable strategy for Arec: Returning Grasp (Recklessness): 0.28
-Unbeatable strategy for Arec: Mirrored Grasp: 1.58
-Unbeatable strategy for Arec: Mirrored Grasp (Fear): 0.02
-Unbeatable strategy for Arec: Mirrored Grasp (Hesitation): 1.28
-Unbeatable strategy for Arec: Mirrored Grasp (Mercy): 1.48
-Unbeatable strategy for Arec: Mirrored Grasp (Recklessness): 1.97
-Unbeatable strategy for Arec: Mirrored Dash (Recklessness): 1.42
 
 Arec:
-41% Mirrored Hex (Recklessness)
-43% Mirrored Strike (Recklessness)
-16% Mirrored Grasp
+1% Phantom Grasp (move to clone)
+91% Phantom Dash
+4% Perceptional Strike (move to clone)
+4% Returning Shot (move to clone)
 
 Eligor:
-19% Chained Drive
-39% Chained Burst
-42% Retribution Aegis (2 tokens)
+15% Martial Drive (2 tokens)
+18% Chained Shot
+24% Chained Shot (1 token)
+43% Chained Grasp
 
 
-Arec: Mirrored Strike (Recklessness)
-Eligor: Retribution Aegis (2 tokens)
+Arec: Perceptional Strike (move to clone)
+Eligor: Chained Grasp
 
-Arec antes a Recklessness token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  3 | -1
+Arec moves:
+
+A..E...
+
+
+Priorities:  4 | 4
+Clash!
+
+
+Arec: Perceptional Shot (move to clone)
+Eligor: Chained Shot
+
+Arec moves:
+
+A..E...
+
+
+Priorities:  3 | 1
 Arec is active
-Arec misses
-Eligor misses
-Arec places clone:
-
-A.....E
-.....c.
-
+Arec hits
+Eligor takes 3 damage (now at 6 life)
+Eligor is stunned
+Eligor gains 2 Vengeance tokens
 
 Beat 11
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Mirrored Strike
-Discard 2: Phantom Shot
+Life: 12
+Discard 1: Perceptional Shot
+Discard 2: Mirrored Burst
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Recklessness, Mercy
 
 Eligor
 ------
-Life: 11
-Discard 1: Retribution Aegis
-Discard 2: Counter Dash
+Life: 6
+Discard 1: Chained Shot
+Discard 2: Retribution Aegis
 Special action available
-0 Vengeance tokens
+5 Vengeance tokens
 
 
-A.....E
-.....c.
+A..E...
+
+
+Unbeatable strategy for Eligor: Vengeful Drive (5 tokens): -0.56
+Unbeatable strategy for Eligor: Counter Drive (5 tokens): -0.14
+Unbeatable strategy for Eligor: Martial Drive (5 tokens): -0.26
+
 
 Arec:
-17% Perceptional Burst
-30% Returning Burst
-18% Manipulative Hex
-34% Manipulative Grasp
+19% Phantom Hex
+9% Returning Hex
+7% Returning Drive
+40% Manipulative Strike
+25% Manipulative Drive (Fear)
 
 Eligor:
-3% Vengeful Strike
-3% Martial Drive
-33% Chained Strike
-29% Chained Shot
-32% Chained Drive
+43% Vengeful Drive
+28% Vengeful Drive (5 tokens)
+8% Vengeful Burst
+5% Vengeful Burst (1 token)
+4% Vengeful Burst (2 tokens)
+3% Martial Strike
+8% Martial Grasp (2 tokens)
 
 
-Arec: Returning Burst
-Eligor: Chained Drive
+Arec: Phantom Hex
+Eligor: Vengeful Drive (5 tokens)
 
-Priorities:  2 | 3
-Eligor is active
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  4 | 4
+Clash!
+
+
+Arec: Phantom Dash
+Eligor: Vengeful Burst (5 tokens)
+
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  10 | 1
+Arec is active
 Eligor moves:
 
-A....E.
+A...E..
+
+
+Arec moves:
+
+..A.E..
+
+
+Eligor moves:
+
+..AE...
 
 
 Eligor misses
-Arec misses
+Arec recovers a Hesitation token
 
 Beat 12
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Returning Burst
-Discard 2: Mirrored Strike
+Life: 12
+Discard 1: Phantom Dash
+Discard 2: Perceptional Shot
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Recklessness, Mercy, Hesitation
 
 Eligor
 ------
-Life: 11
-Discard 1: Chained Drive
-Discard 2: Retribution Aegis
+Life: 6
+Discard 1: Vengeful Burst
+Discard 2: Chained Shot
 Special action available
 0 Vengeance tokens
 
 
-A....E.
+..AE...
 
 
-Unbeatable strategy for Eligor: Vengeful Shot: -1.70
+Unbeatable strategy for Arec: Returning Strike: 0.31
+Unbeatable strategy for Arec: Returning Strike (Recklessness): 0.01
+Unbeatable strategy for Arec: Returning Strike (Mercy): 0.21
+Unbeatable strategy for Arec: Returning Burst (Hesitation): 2.03
+Unbeatable strategy for Arec: Mirrored Burst (Hesitation): 2.98
+Unbeatable strategy for Arec: Manipulative Burst (Hesitation): 3.79
+
 
 Arec:
-13% Phantom Hex
-8% Perceptional Drive
-24% Manipulative Hex
-55% Manipulative Shot
+4% Manipulative Burst
+96% Manipulative Burst (Hesitation)
 
 Eligor:
-49% Vengeful Shot
-10% Counter Shot
-39% Counter Burst
-2% Martial Shot
+8% Retribution Drive
+92% Retribution Grasp
 
 
-Arec: Manipulative Hex
-Eligor: Counter Shot
+Arec: Manipulative Burst (Hesitation)
+Eligor: Retribution Grasp
 
-Priorities:  3 | 1
-Arec is active
+Arec antes a Hesitation token
+Priorities:  1 | 4
+Eligor is active
+Arec moves:
+
+A..E...
+
+
+Eligor misses
 Arec hits
-Arec chooses Eligor's base: Grasp
-Arec moves Eligor:
-
-A.....E
-
-
-Arec recovers a Recklessness token
-Eligor takes 4 damage (now at 7 life)
-Eligor gains 4 Vengeance tokens
-Eligor moves:
-
-A.E....
-
-
-Eligor hits
-Arec takes 4 damage (now at 12 life)
-Arec is stunned
+Arec chooses Eligor's base: Aegis
+Eligor has 2 soak
+Eligor gains 2 Vengeance tokens
+Eligor takes 2 damage (now at 4 life)
+Eligor is stunned
+Eligor gains 2 Vengeance tokens
 
 Beat 13
 -------
@@ -755,59 +803,68 @@ Beat 13
 Arec
 ----
 Life: 12
-Discard 1: Manipulative Hex
-Discard 2: Returning Burst
+Discard 1: Manipulative Burst
+Discard 2: Phantom Dash
 Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
-Manipulative forced base: Grasp
+pool: Fear, Recklessness, Mercy
+Manipulative forced base: Aegis
 
 Eligor
 ------
-Life: 7
-Discard 1: Counter Shot
-Discard 2: Chained Drive
+Life: 4
+Discard 1: Retribution Grasp
+Discard 2: Vengeful Burst
 Special action available
 4 Vengeance tokens
 
 
-A.E....
+A..E...
+
+
+Unbeatable strategy for Eligor: Chained Aegis (2 tokens): -1.25
 
 
 Arec:
-9% Phantom Strike (Recklessness)
-25% Mirrored Strike (Recklessness)
-30% Mirrored Shot (Recklessness)
-11% Mirrored Drive
-8% Mirrored Drive (Recklessness)
-18% Mirrored Dash
+64% Mirrored Hex
+36% Mirrored Grasp
 
 Eligor:
-0% Martial Aegis (4 tokens)
-19% Martial Burst (2 tokens)
-9% Retribution Aegis (2 tokens)
-33% Retribution Aegis (3 tokens)
-13% Retribution Grasp (1 token)
-25% Retribution Grasp (2 tokens)
+6% Counter Aegis (1 token)
+94% Chained Aegis (2 tokens)
 
 
-Arec: Mirrored Strike (Recklessness)
-Eligor: Retribution Grasp (2 tokens)
+Arec: Mirrored Hex
+Eligor: Chained Aegis (2 tokens)
 
-Arec antes a Recklessness token
 Eligor antes a Vengeance token
 Eligor antes a Vengeance token
-Priorities:  3 | 4
-Eligor is active
-Eligor misses
+Priorities:  3 | -1
+Arec is active
 Arec hits
+Arec moves Eligor:
+
+A...E..
+
+
+Arec recovers a Hesitation token
 Eligor has 2 soak
+Eligor takes 2 damage (now at 2 life)
 Eligor gains 2 Vengeance tokens
-Eligor takes 3 damage (now at 4 life)
-Eligor gains 1 Vengeance token
+Eligor spends a Vengeance token
+Eligor spends a Vengeance token
+Eligor spends a Vengeance token
+Eligor moves Arec:
+
+...AE..
+
+
+Eligor hits
+Arec takes 4 damage (now at 8 life)
+Arec is stunned
 Arec places clone:
 
-A.E....
-.....c.
+...AE..
+c......
 
 
 Beat 14
@@ -815,345 +872,300 @@ Beat 14
 
 Arec
 ----
-Life: 12
-Discard 1: Mirrored Strike
-Discard 2: Manipulative Hex
+Life: 8
+Discard 1: Mirrored Hex
+Discard 2: Manipulative Burst
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Recklessness, Mercy, Hesitation
 
 Eligor
 ------
-Life: 4
-Discard 1: Retribution Grasp
-Discard 2: Counter Shot
+Life: 2
+Discard 1: Chained Aegis
+Discard 2: Retribution Grasp
 Special action available
-5 Vengeance tokens
+1 Vengeance tokens
 
 
-A.E....
-.....c.
+...AE..
+c......
 
-Unbeatable strategy for Eligor: Vengeful Drive (5 tokens): -0.92
-Unbeatable strategy for Eligor: Martial Drive (5 tokens): -0.70
-Unbeatable strategy for Eligor: Chained Aegis (1 token): -1.10
-Unbeatable strategy for Eligor: Chained Aegis (2 tokens): -1.10
-Unbeatable strategy for Eligor: Chained Aegis (3 tokens): -0.46
-Unbeatable strategy for Eligor: Chained Strike: -2.00
-Unbeatable strategy for Eligor: Chained Strike (1 token): -1.80
-Unbeatable strategy for Eligor: Chained Strike (2 tokens): -1.60
-Unbeatable strategy for Eligor: Chained Strike (3 tokens): -0.78
-Unbeatable strategy for Eligor: Chained Dash: -0.10
 
 Arec:
-8% Phantom Burst
-2% Phantom Burst (move to clone)
-34% Phantom Dash
-31% Phantom Dash (move to clone)
-1% Perceptional Drive (move to clone)
-18% Returning Drive
-6% Returning Burst (move to clone)
+13% Phantom Shot (Hesitation)
+0% Phantom Drive (Hesitation)
+28% Perceptional Shot (move to clone)
+27% Perceptional Drive (move to clone)
+1% Returning Strike (Hesitation)
+13% Returning Strike (Hesitation; move to clone)
+1% Returning Grasp (Fear)
+16% Returning Grasp (Hesitation)
 
 Eligor:
-11% Vengeful Drive
-1% Martial Aegis (1 token)
-7% Martial Drive
-39% Chained Strike
-25% Chained Strike (1 token)
-0% Chained Burst (1 token)
-17% Chained Burst (2 tokens)
+7% Vengeful Burst
+5% Vengeful Dash
+3% Counter Shot
+3% Counter Drive
+9% Martial Drive
+6% Martial Dash
+30% Special Sweet Revenge
+9% Special Sweet Revenge (1 token)
+30% Special Sheet Lightning
 
 
-Arec: Phantom Dash
-Eligor: Chained Strike (1 token)
+Arec: Perceptional Shot (move to clone)
+Eligor: Special Sweet Revenge
 
-Eligor antes a Vengeance token
-Priorities:  10 | 2
-Arec is active
 Arec moves:
 
-..E.A..
+A...E..
 
 
-Eligor spends a Vengeance token
-Eligor spends a Vengeance token
-Eligor moves Arec:
-
-.AE....
-
-
-Eligor misses
-Arec recovers a Recklessness token
-
-Beat 15
--------
-
-Arec
-----
-Life: 12
-Discard 1: Phantom Dash
-Discard 2: Mirrored Strike
-Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
-
-Eligor
-------
-Life: 4
-Discard 1: Chained Strike
-Discard 2: Retribution Grasp
-Special action available
-2 Vengeance tokens
-
-
-.AE....
-
-
-Unbeatable strategy for Arec: Perceptional Drive: 9.00
-Unbeatable strategy for Arec: Perceptional Drive (Fear): 9.00
-Unbeatable strategy for Arec: Perceptional Drive (Hesitation): 9.00
-Unbeatable strategy for Arec: Perceptional Drive (Mercy): 9.00
-Unbeatable strategy for Arec: Perceptional Drive (Recklessness): 9.00
-Unbeatable strategy for Arec: Perceptional Grasp: 9.00
-Unbeatable strategy for Arec: Perceptional Grasp (Fear): 9.00
-Unbeatable strategy for Arec: Perceptional Grasp (Hesitation): 9.00
-Unbeatable strategy for Arec: Perceptional Grasp (Mercy): 9.00
-Unbeatable strategy for Arec: Perceptional Grasp (Recklessness): 9.00
-Unbeatable strategy for Arec: Returning Hex: 9.00
-Unbeatable strategy for Arec: Returning Hex (Fear): 9.00
-Unbeatable strategy for Arec: Returning Hex (Hesitation): 9.00
-Unbeatable strategy for Arec: Returning Hex (Mercy): 9.00
-Unbeatable strategy for Arec: Returning Hex (Recklessness): 9.00
-Unbeatable strategy for Arec: Returning Shot: 9.00
-Unbeatable strategy for Arec: Returning Shot (Fear): 9.00
-Unbeatable strategy for Arec: Returning Shot (Hesitation): 9.00
-Unbeatable strategy for Arec: Returning Shot (Mercy): 9.00
-Unbeatable strategy for Arec: Returning Shot (Recklessness): 9.00
-Unbeatable strategy for Arec: Returning Drive: 9.00
-Unbeatable strategy for Arec: Returning Drive (Fear): 9.00
-Unbeatable strategy for Arec: Returning Drive (Hesitation): 9.00
-Unbeatable strategy for Arec: Returning Drive (Mercy): 9.00
-Unbeatable strategy for Arec: Returning Drive (Recklessness): 9.00
-Unbeatable strategy for Arec: Returning Burst: 9.00
-Unbeatable strategy for Arec: Returning Burst (Fear): 9.00
-Unbeatable strategy for Arec: Returning Burst (Hesitation): 9.00
-Unbeatable strategy for Arec: Returning Burst (Mercy): 9.00
-Unbeatable strategy for Arec: Returning Burst (Recklessness): 9.00
-Unbeatable strategy for Arec: Returning Grasp: 9.00
-Unbeatable strategy for Arec: Returning Grasp (Fear): 9.00
-Unbeatable strategy for Arec: Returning Grasp (Hesitation): 9.00
-Unbeatable strategy for Arec: Returning Grasp (Mercy): 9.00
-Unbeatable strategy for Arec: Returning Grasp (Recklessness): 9.00
-Unbeatable strategy for Arec: Manipulative Grasp: 9.00
-Unbeatable strategy for Arec: Manipulative Grasp (Fear): 9.00
-Unbeatable strategy for Arec: Manipulative Grasp (Hesitation): 9.00
-Unbeatable strategy for Arec: Manipulative Grasp (Mercy): 9.00
-Unbeatable strategy for Arec: Manipulative Grasp (Recklessness): 9.00
-
-Arec:
-100% Perceptional Hex
-
-Eligor:
-100% Special Pulse
-
-
-Arec: Perceptional Hex
-Eligor: Special Pulse
-
-Pulse:
-
-AE.....
-
-
-
-Beat 15
--------
-
-Arec
-----
-Life: 12
-Discard 1: Perceptional Hex
-Discard 2: Phantom Dash
-Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
-
-Eligor
-------
-Life: 4
-Discard 1: Chained Strike
-Discard 2: Retribution Grasp
-2 Vengeance tokens
-
-
-AE.....
-
-
-Unbeatable strategy for Arec: Returning Strike: 9.00
-Unbeatable strategy for Arec: Returning Strike (Fear): 9.00
-Unbeatable strategy for Arec: Returning Strike (Hesitation): 9.00
-Unbeatable strategy for Arec: Returning Strike (Mercy): 9.00
-Unbeatable strategy for Arec: Returning Strike (Recklessness): 9.00
-Unbeatable strategy for Arec: Returning Shot: 9.00
-Unbeatable strategy for Arec: Returning Shot (Fear): 9.00
-Unbeatable strategy for Arec: Returning Shot (Hesitation): 9.00
-Unbeatable strategy for Arec: Returning Shot (Mercy): 9.00
-Unbeatable strategy for Arec: Returning Shot (Recklessness): 9.00
-Unbeatable strategy for Arec: Returning Drive: 9.00
-Unbeatable strategy for Arec: Returning Drive (Fear): 9.00
-Unbeatable strategy for Arec: Returning Drive (Hesitation): 9.00
-Unbeatable strategy for Arec: Returning Drive (Mercy): 9.00
-Unbeatable strategy for Arec: Returning Drive (Recklessness): 9.00
-Unbeatable strategy for Arec: Returning Burst: 9.00
-Unbeatable strategy for Arec: Returning Burst (Fear): 9.00
-Unbeatable strategy for Arec: Returning Burst (Hesitation): 9.00
-Unbeatable strategy for Arec: Returning Burst (Mercy): 9.00
-Unbeatable strategy for Arec: Returning Burst (Recklessness): 9.00
-Unbeatable strategy for Arec: Returning Grasp: 9.00
-Unbeatable strategy for Arec: Returning Grasp (Fear): 9.00
-Unbeatable strategy for Arec: Returning Grasp (Hesitation): 9.00
-Unbeatable strategy for Arec: Returning Grasp (Mercy): 9.00
-Unbeatable strategy for Arec: Returning Grasp (Recklessness): 9.00
-Unbeatable strategy for Arec: Mirrored Grasp: 9.00
-Unbeatable strategy for Arec: Mirrored Grasp (Fear): 9.00
-Unbeatable strategy for Arec: Mirrored Grasp (Hesitation): 9.00
-Unbeatable strategy for Arec: Mirrored Grasp (Mercy): 9.00
-Unbeatable strategy for Arec: Mirrored Grasp (Recklessness): 9.00
-Unbeatable strategy for Arec: Manipulative Grasp: 9.00
-Unbeatable strategy for Arec: Manipulative Grasp (Fear): 9.00
-Unbeatable strategy for Arec: Manipulative Grasp (Hesitation): 9.00
-Unbeatable strategy for Arec: Manipulative Grasp (Mercy): 9.00
-Unbeatable strategy for Arec: Manipulative Grasp (Recklessness): 9.00
-
-Arec:
-1% Returning Strike
-1% Returning Strike (Fear)
-1% Returning Strike (Hesitation)
-1% Returning Strike (Mercy)
-1% Returning Strike (Recklessness)
-1% Returning Shot
-1% Returning Shot (Fear)
-1% Returning Shot (Hesitation)
-1% Returning Shot (Mercy)
-1% Returning Shot (Recklessness)
-1% Returning Drive
-1% Returning Drive (Fear)
-1% Returning Drive (Hesitation)
-1% Returning Drive (Mercy)
-1% Returning Drive (Recklessness)
-1% Returning Burst
-1% Returning Burst (Fear)
-1% Returning Burst (Hesitation)
-1% Returning Burst (Mercy)
-1% Returning Burst (Recklessness)
-1% Returning Grasp
-1% Returning Grasp (Fear)
-1% Returning Grasp (Hesitation)
-1% Returning Grasp (Mercy)
-1% Returning Grasp (Recklessness)
-1% Mirrored Strike
-1% Mirrored Strike (Fear)
-1% Mirrored Strike (Hesitation)
-1% Mirrored Strike (Mercy)
-1% Mirrored Strike (Recklessness)
-1% Mirrored Shot
-1% Mirrored Shot (Fear)
-1% Mirrored Shot (Hesitation)
-1% Mirrored Shot (Mercy)
-1% Mirrored Shot (Recklessness)
-1% Mirrored Drive
-1% Mirrored Drive (Fear)
-1% Mirrored Drive (Hesitation)
-1% Mirrored Drive (Mercy)
-1% Mirrored Drive (Recklessness)
-1% Mirrored Burst
-1% Mirrored Burst (Fear)
-1% Mirrored Burst (Hesitation)
-1% Mirrored Burst (Mercy)
-1% Mirrored Burst (Recklessness)
-1% Mirrored Grasp
-1% Mirrored Grasp (Fear)
-1% Mirrored Grasp (Hesitation)
-1% Mirrored Grasp (Mercy)
-1% Mirrored Grasp (Recklessness)
-1% Manipulative Strike
-1% Manipulative Strike (Fear)
-1% Manipulative Strike (Hesitation)
-1% Manipulative Strike (Mercy)
-1% Manipulative Strike (Recklessness)
-1% Manipulative Shot
-1% Manipulative Shot (Fear)
-1% Manipulative Shot (Hesitation)
-1% Manipulative Shot (Mercy)
-1% Manipulative Shot (Recklessness)
-1% Manipulative Drive
-1% Manipulative Drive (Fear)
-1% Manipulative Drive (Hesitation)
-1% Manipulative Drive (Mercy)
-1% Manipulative Drive (Recklessness)
-1% Manipulative Burst
-1% Manipulative Burst (Fear)
-1% Manipulative Burst (Hesitation)
-1% Manipulative Burst (Mercy)
-1% Manipulative Burst (Recklessness)
-1% Manipulative Grasp
-1% Manipulative Grasp (Fear)
-1% Manipulative Grasp (Hesitation)
-1% Manipulative Grasp (Mercy)
-1% Manipulative Grasp (Recklessness)
-
-Eligor:
-3% Vengeful Aegis
-3% Vengeful Aegis (1 token)
-3% Vengeful Aegis (2 tokens)
-2% Vengeful Shot
-2% Vengeful Shot (1 token)
-2% Vengeful Shot (2 tokens)
-2% Vengeful Drive
-2% Vengeful Drive (1 token)
-2% Vengeful Drive (2 tokens)
-2% Vengeful Burst
-2% Vengeful Burst (1 token)
-2% Vengeful Burst (2 tokens)
-2% Vengeful Dash
-2% Vengeful Dash (1 token)
-1% Vengeful Dash (2 tokens)
-3% Counter Aegis
-3% Counter Aegis (1 token)
-2% Counter Aegis (2 tokens)
-2% Counter Shot
-2% Counter Shot (1 token)
-2% Counter Shot (2 tokens)
-2% Counter Drive
-2% Counter Drive (1 token)
-2% Counter Drive (2 tokens)
-3% Counter Burst
-3% Counter Burst (1 token)
-3% Counter Burst (2 tokens)
-2% Counter Dash
-1% Counter Dash (1 token)
-0% Counter Dash (2 tokens)
-3% Martial Aegis
-3% Martial Aegis (1 token)
-3% Martial Aegis (2 tokens)
-2% Martial Shot
-2% Martial Shot (1 token)
-2% Martial Shot (2 tokens)
-2% Martial Drive
-2% Martial Drive (1 token)
-2% Martial Drive (2 tokens)
-3% Martial Burst
-3% Martial Burst (1 token)
-3% Martial Burst (2 tokens)
-2% Martial Dash
-2% Martial Dash (1 token)
-1% Martial Dash (2 tokens)
-
-
-Arec: Returning Strike (Fear)
-Eligor: Martial Burst
-
-Arec antes a Fear token
-Priorities:  4 | 0
+Priorities:  3 | 0
 Arec is active
 Arec hits
-Eligor takes 4 damage (now at 0 life)
+Eligor takes 3 damage (now at 1 life)
+Eligor gains 3 Vengeance tokens
+Eligor misses
+
+Beat 15
+-------
+
+Arec
+----
+Life: 8
+Discard 1: Perceptional Shot
+Discard 2: Mirrored Hex
+Special action available
+pool: Fear, Recklessness, Mercy, Hesitation
+
+Eligor
+------
+Life: 1
+Discard 1: Chained Aegis
+Discard 2: Retribution Grasp
+4 Vengeance tokens
+
+
+A...E..
+
+
+Unbeatable strategy for Arec: Phantom Drive: 6.00
+Unbeatable strategy for Arec: Phantom Drive (Fear): 6.00
+Unbeatable strategy for Arec: Phantom Drive (Recklessness): 6.00
+Unbeatable strategy for Arec: Phantom Drive (Mercy): 6.00
+Unbeatable strategy for Arec: Phantom Drive (Hesitation): 6.00
+Unbeatable strategy for Arec: Phantom Grasp: 6.00
+Unbeatable strategy for Arec: Phantom Grasp (Fear): 6.00
+Unbeatable strategy for Arec: Phantom Grasp (Recklessness): 6.00
+Unbeatable strategy for Arec: Phantom Grasp (Mercy): 6.00
+Unbeatable strategy for Arec: Phantom Grasp (Hesitation): 6.00
+Unbeatable strategy for Arec: Phantom Dash: 6.00
+Unbeatable strategy for Arec: Phantom Dash (Fear): 6.00
+Unbeatable strategy for Arec: Phantom Dash (Recklessness): 6.00
+Unbeatable strategy for Arec: Phantom Dash (Mercy): 6.00
+Unbeatable strategy for Arec: Phantom Dash (Hesitation): 6.00
+Unbeatable strategy for Arec: Returning Strike: 6.00
+Unbeatable strategy for Arec: Returning Strike (Fear): 6.00
+Unbeatable strategy for Arec: Returning Strike (Recklessness): 6.00
+Unbeatable strategy for Arec: Returning Strike (Mercy): 6.00
+Unbeatable strategy for Arec: Returning Strike (Hesitation): 6.00
+Unbeatable strategy for Arec: Returning Drive: 6.00
+Unbeatable strategy for Arec: Returning Drive (Fear): 6.00
+Unbeatable strategy for Arec: Returning Drive (Recklessness): 6.00
+Unbeatable strategy for Arec: Returning Drive (Mercy): 6.00
+Unbeatable strategy for Arec: Returning Drive (Hesitation): 6.00
+Unbeatable strategy for Arec: Returning Burst: 6.00
+Unbeatable strategy for Arec: Returning Burst (Fear): 6.00
+Unbeatable strategy for Arec: Returning Burst (Recklessness): 6.00
+Unbeatable strategy for Arec: Returning Burst (Mercy): 6.00
+Unbeatable strategy for Arec: Returning Burst (Hesitation): 6.00
+Unbeatable strategy for Arec: Returning Grasp: 6.00
+Unbeatable strategy for Arec: Returning Grasp (Fear): 6.00
+Unbeatable strategy for Arec: Returning Grasp (Recklessness): 6.00
+Unbeatable strategy for Arec: Returning Grasp (Mercy): 6.00
+Unbeatable strategy for Arec: Returning Grasp (Hesitation): 6.00
+Unbeatable strategy for Arec: Returning Dash: 6.00
+Unbeatable strategy for Arec: Returning Dash (Fear): 6.00
+Unbeatable strategy for Arec: Returning Dash (Recklessness): 6.00
+Unbeatable strategy for Arec: Returning Dash (Mercy): 6.00
+Unbeatable strategy for Arec: Returning Dash (Hesitation): 6.00
+Unbeatable strategy for Arec: Manipulative Grasp: 6.00
+Unbeatable strategy for Arec: Manipulative Grasp (Fear): 6.00
+Unbeatable strategy for Arec: Manipulative Grasp (Recklessness): 6.00
+Unbeatable strategy for Arec: Manipulative Grasp (Mercy): 6.00
+Unbeatable strategy for Arec: Manipulative Grasp (Hesitation): 6.00
+
+
+Arec:
+1% Phantom Strike
+1% Phantom Strike (Fear)
+1% Phantom Strike (Recklessness)
+1% Phantom Strike (Mercy)
+1% Phantom Strike (Hesitation)
+1% Phantom Drive
+1% Phantom Drive (Fear)
+1% Phantom Drive (Recklessness)
+1% Phantom Drive (Mercy)
+1% Phantom Drive (Hesitation)
+1% Phantom Burst
+1% Phantom Burst (Fear)
+1% Phantom Burst (Recklessness)
+1% Phantom Burst (Mercy)
+1% Phantom Burst (Hesitation)
+1% Phantom Grasp
+1% Phantom Grasp (Fear)
+1% Phantom Grasp (Recklessness)
+1% Phantom Grasp (Mercy)
+1% Phantom Grasp (Hesitation)
+1% Phantom Dash
+1% Phantom Dash (Fear)
+1% Phantom Dash (Recklessness)
+1% Phantom Dash (Mercy)
+1% Phantom Dash (Hesitation)
+1% Returning Strike
+1% Returning Strike (Fear)
+1% Returning Strike (Recklessness)
+1% Returning Strike (Mercy)
+1% Returning Strike (Hesitation)
+1% Returning Drive
+1% Returning Drive (Fear)
+1% Returning Drive (Recklessness)
+1% Returning Drive (Mercy)
+1% Returning Drive (Hesitation)
+1% Returning Burst
+1% Returning Burst (Fear)
+1% Returning Burst (Recklessness)
+1% Returning Burst (Mercy)
+1% Returning Burst (Hesitation)
+1% Returning Grasp
+1% Returning Grasp (Fear)
+1% Returning Grasp (Recklessness)
+1% Returning Grasp (Mercy)
+1% Returning Grasp (Hesitation)
+1% Returning Dash
+1% Returning Dash (Fear)
+1% Returning Dash (Recklessness)
+1% Returning Dash (Mercy)
+1% Returning Dash (Hesitation)
+1% Manipulative Strike
+1% Manipulative Strike (Fear)
+1% Manipulative Strike (Recklessness)
+1% Manipulative Strike (Mercy)
+1% Manipulative Strike (Hesitation)
+1% Manipulative Drive
+1% Manipulative Drive (Fear)
+1% Manipulative Drive (Recklessness)
+1% Manipulative Drive (Mercy)
+1% Manipulative Drive (Hesitation)
+1% Manipulative Burst
+1% Manipulative Burst (Fear)
+1% Manipulative Burst (Recklessness)
+1% Manipulative Burst (Mercy)
+1% Manipulative Burst (Hesitation)
+1% Manipulative Grasp
+1% Manipulative Grasp (Fear)
+1% Manipulative Grasp (Recklessness)
+1% Manipulative Grasp (Mercy)
+1% Manipulative Grasp (Hesitation)
+1% Manipulative Dash
+1% Manipulative Dash (Fear)
+1% Manipulative Dash (Recklessness)
+1% Manipulative Dash (Mercy)
+1% Manipulative Dash (Hesitation)
+
+Eligor:
+1% Vengeful Strike
+1% Vengeful Strike (1 token)
+1% Vengeful Strike (2 tokens)
+1% Vengeful Strike (3 tokens)
+1% Vengeful Strike (4 tokens)
+1% Vengeful Shot
+1% Vengeful Shot (1 token)
+1% Vengeful Shot (2 tokens)
+1% Vengeful Shot (3 tokens)
+1% Vengeful Shot (4 tokens)
+1% Vengeful Drive
+1% Vengeful Drive (1 token)
+1% Vengeful Drive (2 tokens)
+1% Vengeful Drive (3 tokens)
+1% Vengeful Drive (4 tokens)
+1% Vengeful Burst
+1% Vengeful Burst (1 token)
+1% Vengeful Burst (2 tokens)
+1% Vengeful Burst (3 tokens)
+1% Vengeful Burst (4 tokens)
+1% Vengeful Dash
+1% Vengeful Dash (1 token)
+1% Vengeful Dash (2 tokens)
+1% Vengeful Dash (3 tokens)
+2% Vengeful Dash (4 tokens)
+1% Counter Strike
+1% Counter Strike (1 token)
+1% Counter Strike (2 tokens)
+1% Counter Strike (3 tokens)
+1% Counter Strike (4 tokens)
+1% Counter Shot
+1% Counter Shot (1 token)
+1% Counter Shot (2 tokens)
+1% Counter Shot (3 tokens)
+1% Counter Shot (4 tokens)
+1% Counter Drive
+1% Counter Drive (1 token)
+1% Counter Drive (2 tokens)
+1% Counter Drive (3 tokens)
+1% Counter Drive (4 tokens)
+1% Counter Burst
+1% Counter Burst (1 token)
+1% Counter Burst (2 tokens)
+1% Counter Burst (3 tokens)
+1% Counter Burst (4 tokens)
+1% Counter Dash
+1% Counter Dash (1 token)
+1% Counter Dash (2 tokens)
+1% Counter Dash (3 tokens)
+17% Counter Dash (4 tokens)
+1% Martial Strike
+1% Martial Strike (1 token)
+1% Martial Strike (2 tokens)
+1% Martial Strike (3 tokens)
+1% Martial Strike (4 tokens)
+1% Martial Shot
+1% Martial Shot (1 token)
+1% Martial Shot (2 tokens)
+1% Martial Shot (3 tokens)
+1% Martial Shot (4 tokens)
+1% Martial Drive
+1% Martial Drive (1 token)
+1% Martial Drive (2 tokens)
+1% Martial Drive (3 tokens)
+1% Martial Drive (4 tokens)
+1% Martial Burst
+1% Martial Burst (1 token)
+1% Martial Burst (2 tokens)
+1% Martial Burst (3 tokens)
+1% Martial Burst (4 tokens)
+1% Martial Dash
+1% Martial Dash (1 token)
+1% Martial Dash (2 tokens)
+1% Martial Dash (3 tokens)
+2% Martial Dash (4 tokens)
+
+
+Arec: Returning Drive (Hesitation)
+Eligor: Counter Shot (4 tokens)
+
+Arec antes a Hesitation token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  5 | 1
+Arec is active
+Arec misses
+Eligor hits
+Arec takes 4 damage (now at 4 life)
+Arec is stunned
+Game goes to time
 AREC WINS!
-total_time: 187
+total_time: 248

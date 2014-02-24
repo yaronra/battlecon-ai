@@ -79,8 +79,8 @@ def main():
         play()
     
 def ad_hoc():
-#    duel('tanis', 'kallistar', 1)
-    free_for_all(1, ['tanis'], 'voco', [], True, False)
+#   duel('gerard', 'kallistar', 1)
+    free_for_all(1, ['gerard'], 'hi', [], True, False)
 
 playable = [ 'abarene',
              'adjenna',
@@ -95,6 +95,7 @@ playable = [ 'abarene',
              'danny',
              'demitras',
              'eligor',
+             'gerard',
              'heketch',
              'hikaru',
              'kajia',
@@ -102,6 +103,7 @@ playable = [ 'abarene',
              'karin',
              'kehrolyn',
              'khadath',
+             'lesandra',
              'lixis',
              'luc',
              'lymn',
@@ -695,7 +697,8 @@ class Game:
             if isinstance (s0[i][1], Finisher):
                 for ii in xrange(len(self.results)):
                     if isinstance (s0[ii][1], Cancel) and s0[ii][2] == s0[i][2]:
-                        if self.results[i][0] == self.results[ii][0] :
+                        if ([res[0] for res in self.results[i]] == 
+                            [res[0] for res in self.results[ii]]):
                             redundant_finishers.append (i)
                             break
         self.results = [self.results[i] for i in xrange(len(self.results)) \
@@ -710,8 +713,8 @@ class Game:
                 for jj in xrange(len(self.results[0])):
                     if isinstance (s1[jj][1], Cancel) and \
                        s1[jj][2] == s1[j][2]:
-                        if [r[j][0] for r in self.results] == \
-                           [r[jj][0] for r in self.results]:
+                        if [row[j][0] for row in self.results] == \
+                           [row[jj][0] for row in self.results]:
                             redundant_finishers.append (j)
                             break
         self.results = [[r[j] for j in xrange(len(r)) \
@@ -1070,7 +1073,8 @@ class Game:
         # TODO: This takes into account alternate counting of own life
         # (like Byron's), but not alternate counting of opponent's life
         # (like Adjenna's).
-        return 0.6 * min ([p.effective_life() for p in self.player])
+        return min(0.6 * min ([p.effective_life() for p in self.player]),
+                   15 - self.current_beat)
 
     # check for a fork
     # n_options = number of branches in fork
@@ -1225,15 +1229,17 @@ class Game:
         self.pre_clash_results = self.pre_clash_results[d0][d1]
         for p in self.player:
             p.mix = p.mix[d0][d1]
+        self.player[0].final_pad = self.pads[0][d0]
+        self.player[1].final_pad = self.pads[1][d1]
         return (self.player[0].pre_attack_decision_report(self.pads[0][d0]) +
                 self.player[1].pre_attack_decision_report(self.pads[1][d1]))
             
-    def execute_beat (self):
+    def execute_beat (self, post_clash=False):
         self.initial_restore (self.initial_state)
-        s0 = self.player[0].choose_strategy()
+        s0 = self.player[0].choose_strategy(post_clash)
         if self.interactive and self.cheating == 2:
             print self.player[0], "plays", self.player[0].get_strategy_name(s0)
-        s1 = self.player[1].choose_strategy()
+        s1 = self.player[1].choose_strategy(post_clash)
         if self.interactive:
             self.interactive_state = None
             self.replay_mode = False
@@ -1304,10 +1310,10 @@ class Game:
                     self.dump (self.report_solution())
             else:
                 report.extend (self.report_solution())
-            s0 = self.player[0].choose_strategy()
+            s0 = self.player[0].choose_strategy(limit_antes=True)
             if self.interactive and self.cheating == 2:
                 print self.player[0], "plays", self.player[0].get_strategy_name(s0)
-            s1 = self.player[1].choose_strategy()
+            s1 = self.player[1].choose_strategy(limit_antes=True)
                 
             # Simulate beat based on new solutions
             if self.interactive:
@@ -1370,7 +1376,7 @@ class Game:
         # Run this function recursively with post-clash strategies only.
         if self.interactive:
             self.dump(report)
-        recursive_state, recursive_report = self.execute_beat()
+        recursive_state, recursive_report = self.execute_beat(post_clash=True)
         report.extend(recursive_report)
         return recursive_state, report
     
@@ -1744,21 +1750,19 @@ class Character (object):
         self.initial_styles = self.styles[:]
         self.initial_bases = self.bases[:]
         
-        # If specific character's __init__ didn't create list of
-        # status effects, make an empty one.
+        # If specific character's __init__ didn't create lists of
+        # status effects or tokens, make an empty ones.
         try:
             self.status_effects
         except:
             self.status_effects = []
-        
-        # create attributes for styles, finishers, and status effects.
-        for card in self.styles + self.finishers + self.status_effects:
-            name = card.name.replace('-','_').replace(' ','_').replace("'",'').lower()
-            self.__dict__[name] = card
+        try:
+            self.tokens
+        except:
+            self.tokens = []
+        self.pool = []
         
         self.styles_and_bases_set = set(self.styles) | set(self.bases)
-        self.tokens = []
-        self.pool = []
         for i in range(5):
             self.styles[i].order = i
         for i in range(7):
@@ -1777,6 +1781,11 @@ class Character (object):
         # (discard [0] is empty between beats)
         self.discard = [set() for i in range(3)]
 
+        # Create attributes for all card-like objects
+        for card in self.all_cards():
+            name = card.name.replace('-','_').replace(' ','_').replace("'",'').lower()
+            self.__dict__[name] = card
+        
     def select_finisher(self):
         if len(self.finishers) == 1:
             print "Only one Finisher implemented for %s" % self.name
@@ -1790,7 +1799,9 @@ class Character (object):
             print "%s selects a Finisher: %s" %(self.name,
                                                 self.finishers[0].name)
 
-    # used by game to add opponent to all your cards/tokens etc.
+    # Used by Game to add opponent to all your cards/tokens etc.,
+    # and by Character to create specifically named attributes for each 
+    # object.
     def all_cards (self):
         return self.styles + self.bases + self.tokens + self.finishers + \
                self.status_effects + [self.special_action, self.pulse, 
@@ -2021,9 +2032,9 @@ class Character (object):
                     pairs.append ((self.special_action, finisher))
         return pairs
 
-    # prompt user for a style and a base
-    # available cards based on cards in strategy mix
-    # (so that they are suitably limited after a clash)
+    # Prompt user for a style and a base.
+    # Available cards based on cards in strategy mix
+    # (so that they are suitably limited after a clash).
     def input_pair (self):
         styles = sorted(list(set(m[0][0] for m in self.mix)),
                        key=attrgetter('order'))
@@ -2077,13 +2088,11 @@ class Character (object):
                 for ante in self.get_antes()
                 for induced_ante in self.opponent.get_induced_antes()]
 
-    def input_strategy (self):
+    def input_strategy (self, limit_antes):
         pair = self.input_pair()
-        # Look at antes in strategy mix.  If there's just one, we don't need
-        # to input antes (either there was just one to begin with, or we are
-        # post-clash/cancel.
-        possible_antes = list(set(m[0][2] for m in self.mix))
-        if len(possible_antes) == 1:
+        if limit_antes:
+            possible_antes = list(set(m[0][2] for m in self.mix))
+            assert len(possible_antes) == 1
             ante = possible_antes[0]
         # Otherwise, report ai's ante choice
         # and prompt for human ante choice
@@ -2097,34 +2106,26 @@ class Character (object):
             opp_ante_name = ' | '.join(names)
             if opp_ante_name != "" :
                 print opp.name + "'s ante: " + opp_ante_name
-            possible_own_antes = list(set(a[0] for a in possible_antes))
-            if len(possible_own_antes) > 1:
-                own_ante = self.input_ante()
-            else:
-                own_ante = possible_own_antes[0]
-            possible_induced_antes = list(set(a[1] for a in possible_antes))
-            if len(possible_induced_antes) > 1:
-                induced_ante = opp.input_induced_ante()
-            else:
-                induced_ante = possible_induced_antes[0]
-            ante = (own_ante, induced_ante)
+            own_ante = self.input_ante()
+            induced_ante = opp.input_induced_ante()
+            ante = (own_ante, induced_ante, self.final_pad)
         return pair + (ante,)
 
     # choose a random strategy according to mix
     # (or prompt human player for a strategy)
-    def choose_strategy (self):
-        # If there's only one option, return it.
-        if len(self.mix) == 1:
-            return self.mix[0][0]
+    def choose_strategy (self, limit_antes=False):
         if self.is_user:
             strats = [m[0] for m in self.mix]
             while True:
-                strategy = self.input_strategy ()
+                strategy = self.input_strategy(limit_antes)
                 if strategy in strats:
                     break
                 else:
-                    print "Invalid strategy"
+                    print "Invalid strategy:"
         else:
+            # If there's only one option, return it.
+            if len(self.mix) == 1:
+                return self.mix[0][0]
             r = random.random()
             total = 0
             for m in self.mix:
@@ -2781,6 +2782,22 @@ class Character (object):
     def effective_life (self):
         return self.life
 
+    def expected_soak(self):
+        unavailable_cards = self.discard[1] \
+                          | self.discard[2]
+        styles = set(self.styles) - unavailable_cards
+        bases = set(self.bases) - unavailable_cards
+        return sum (s.soak for s in styles) / len (styles) + \
+               sum (b.soak for b in bases) / len (bases)
+        
+    def expected_stunguard(self):
+        unavailable_cards = self.discard[1] \
+                          | self.discard[2]
+        styles = set(self.styles) - unavailable_cards
+        bases = set(self.bases) - unavailable_cards
+        return sum (s.stunguard for s in styles) / len (styles) + \
+               sum (b.stunguard for b in bases) / len (bases)
+
     # determine the range the character wants to be in this beat:
     def set_preferred_range (self):
         unavailable_cards = self.discard[1] \
@@ -2870,8 +2887,11 @@ class Card (object):
     maxrange = 0
     power = 0 
     priority = 0
+    # These attributes are referenced by Card.get_soak(), but are also
+    # used for evaluating expected soak/stunguard after the beat.
     stunguard = 0
     soak = 0
+    
     name_override = None
     # average of minimum and maximum range (including movement)
     preferred_range = 0 
@@ -3178,6 +3198,15 @@ class OpponentImmobilizedStatusEffect(StatusEffect):
     def blocks_movement(self, direct):
         return set(xrange(7))
         
+class OpponentEliminatedStatusEffect(StatusEffect):
+    read_state_prefix = "Opponent will be eliminated at end of beat"
+    situation_report_line = "Opponent will be eliminated at end of beat"
+    activation_line = "Opponent will be eliminated at end of next beat"
+    @property
+    def value(self):
+        return self.opponent.life + 3
+    # Elimination trigger handled by Character.unique_ability_end_trigger()
+
 # raised at fork points to throw simulation back up to main simulate() method
 class ForkException (Exception):
     def __init__ (self, n_options, player):
@@ -3208,12 +3237,11 @@ class Abarene(Character):
                        Pestilent    (the_game, self)]
         self.finishers = [Flytrap        (the_game, self),
                           HallicrisSnare (the_game, self)]
-        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.tokens = [Dizziness (the_game, self), \
                        Fatigue   (the_game, self), \
                        Nausea    (the_game, self), \
                        PainSpike (the_game, self)]
-        self.pain_spike = self.tokens[3]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
 
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -3450,9 +3478,11 @@ class Alexian (Character):
                        Steeled  (the_game, self)  ]
         self.finishers = [EmpireDivider (the_game, self),
                           HailTheKing (the_game, self)]
+        self.induced_tokens = [Chivalry  (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
-        self.chivalry = Chivalry  (the_game, self)
-        self.induced_tokens = [self.chivalry]
+    
+    def all_cards(self):
+        return Character.all_cards(self) + self.induced_tokens
     
     def choose_initial_discards (self):
         return (self.regal, self.dash,
@@ -3464,13 +3494,13 @@ class Alexian (Character):
 
     def situation_report (self):
         report = Character.situation_report (self)
-        report.append ("Opponent has %d Chivalry tokens" %
-                       len(self.induced_pool))
+        report.append ("%s has %d Chivalry tokens" %
+                       (self.opponent, len(self.induced_pool)))
         return report
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
-        self.induced_pool = [self.chivalry] * int(lines[0][13])
+        self.induced_pool = [self.chivalry] * int(lines[0].split()[2])
         
     def initial_save (self):
         state = Character.initial_save (self)
@@ -3575,13 +3605,11 @@ class Arec (Character):
                        Mirrored     (the_game, self),
                        Manipulative (the_game, self)  ]
         self.finishers = [UncannyOblivion (the_game, self)]
-        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.tokens = [Fear         (the_game, self),
                        Hesitation   (the_game, self),
                        Mercy        (the_game, self),
                        Recklessness (the_game, self)]
-        for token in self.tokens:
-            self.__dict__[token.name.lower()] = token
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -4119,9 +4147,8 @@ class Cadenza (Character):
         self.finishers = [RocketPress   (the_game, self),
                            FeedbackField (the_game, self)]
         self.status_effects = [PriorityBonusStatusEffect(the_game, self)]
+        self.tokens = [IronBody  (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
-        self.iron_body = IronBody  (the_game, self)
-        self.tokens = [self.iron_body]
 
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -4178,6 +4205,14 @@ class Cadenza (Character):
 
     def get_stunguard (self):
         return (1000000 if self.token_spent else Character.get_stunguard(self))
+
+    def expected_stunguard(self):
+        ret = Character.expected_stunguard(self)
+        # Assume tokens are mostly used retroactively for stunguard,
+        # rather than preemptively for immunity.
+        if self.pool:
+            ret += 4
+        return ret
 
     # when Cadenza is about to be stunned by damage, he may spend a token
     def stun (self, damage=None):
@@ -4267,6 +4302,16 @@ class Cesar (Character):
             stunguard += self.threat_level
         return stunguard
 
+    def expected_stunguard(self):
+        ret = Character.expected_stunguard(self)
+        expected_level = (self.threat_level + 1) % 5
+        stunguard_per_level = [ret, ret+1, ret +2, 0, 0, 0]
+        if self.fueled  in self.discard[1]|self.discard[2]:
+            return stunguard_per_level[expected_level]
+        else:
+            return (2 * stunguard_per_level[expected_level] +
+                    stunguard_per_level[expected_level + 1]) / 3
+
     def has_stun_immunity(self):
         return self.threat_level == 3 or Character.has_stun_immunity(self)
 
@@ -4275,6 +4320,14 @@ class Cesar (Character):
         if self.threat_level == 4:
             soak += 2
         return soak
+
+    def expected_soak(self):
+        ret = Character.expected_soak(self)
+        if self.threat_level == 3:
+            ret += 2
+        if self.threat_level == 2 and self.fueled  not in self.discard[1]|self.discard[2]:
+            ret += 0.7
+        return ret
 
     # Copying all this to implement Cesar's death immunity.
     def take_damage (self, damage):
@@ -4409,10 +4462,10 @@ class Clinhyde (Character):
                        Phase     (the_game, self)  ]
         self.finishers = [VitalSilverInfusion (the_game, self),
                           RitherwhyteInfusion (the_game, self)]
-        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.packs = [Crizma   (the_game, self),
                       Ehrlite  (the_game, self),
                       Hylatine (the_game, self) ]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
 
     def all_cards (self):
         return Character.all_cards(self) + self.packs
@@ -4498,6 +4551,20 @@ class Clinhyde (Character):
     def get_soak (self):
         return 2 if isinstance (self.ante_activation, Hylatine) else 0
 
+    def expected_soak(self):
+        ret = Character.expected_soak(self)
+        if self.hylatine not in self.active_packs:
+            ret += 1
+        return ret
+
+    def expected_stunguard(self):
+        ret = Character.expected_stunguard(self)
+        if self.hylatine in self.active_packs:
+            ret += 2
+        else:
+            ret += 1
+        return ret
+
     def execute_move (self, mover, moves, direct=False):
         # can choose not to move when using Gravity
         new_move = self.position if direct else 0
@@ -4527,7 +4594,6 @@ class Clive (Character):
                        Megaton     (the_game, self), \
                        Leaping     (the_game, self)  ]
         self.finishers = [SystemShock (the_game, self)]
-        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.modules = [RocketBoots   (the_game, self), \
                         BarrierChip   (the_game, self), \
                         AtomicReactor (the_game, self), \
@@ -4537,24 +4603,20 @@ class Clive (Character):
                         SynapseBoost  (the_game, self), \
                         AutoRepair    (the_game, self), \
                         ExtendingArms (the_game, self)  ]
-        self.rocket_boots = self.modules[0]
-        self.force_gloves = self.modules[3]
-        self.core_shielding = self.modules[4]
-        self.extending_arms = self.modules[8]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def all_cards (self):
         return Character.all_cards(self) + self.modules
 
     def choose_initial_discards (self):
         # Not really checked
-        return (self.styles[0], self.grasp,
-                self.styles[1], self.strike)
+        return (self.upgradeable, self.grasp,
+                self.rocket, self.strike)
 
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
         self.module_stack = self.modules[:]
         self.active_modules = []
-        self.removed_modules = []
 
     def situation_report (self):
         report = Character.situation_report (self)
@@ -4651,8 +4713,8 @@ class Clive (Character):
         Character.stun (self, damage)
         if self.is_stunned():
             # Oppnent loses life when playing Burnout
-            if self.game.distance() == 1 and isinstance(self.style, Burnout):
-                self.opponent.lose_life (len(self.active_modules))
+            if self.game.distance() == 1 and self.burnout in self.active_cards:
+                self.opponent.lose_life(len(self.active_modules))
             while self.active_modules:
                 self.discard_module(self.active_modules[0])
 
@@ -4679,7 +4741,6 @@ class Clive (Character):
             self.game.report ("Clive discards %s" % module.name)
 
     # record switching sides, for Leaping
-    # I assume it only counts if it's my movement effect, and I'm moving
     def execute_move (self, mover, moves, direct=False):
         old_pos = self.position
         Character.execute_move (self, mover, moves, direct)
@@ -4688,23 +4749,35 @@ class Clive (Character):
             self.switched_sides = True
         
     def blocks_hit_triggers (self):
-        return self.core_shielding in self.active_modules
+        return self.core_shielding in self.active_cards
 
     def blocks_damage_triggers (self):
-        return self.core_shielding in self.active_modules
+        return self.core_shielding in self.active_cards
 
     def set_preferred_range (self):
         Character.set_preferred_range(self)
         if self.rocket_boots in self.active_modules:
             self.preferred_range += 0.5
+        elif self.rocket_boots in self.module_stack:
+            self.preferred_range += 0.1
         if self.extending_arms in self.active_modules:
             self.preferred_range += 0.5
+        elif self.extending_arms in self.module_stack:
+            self.preferred_range += 0.1
+        
+    def expected_stunguard(self):
+        ret = Character.expected_stunguard(self)
+        if self.barrier_chip in self.active_modules:
+            ret += 1
+        elif self.barrier_chip in self.module_stack:
+            ret += 0.2
+        return ret
 
-    # Activating a module is worth 1.0, losing it is worth -1.5
+    # Activating a module is worth 0.1, losing it is worth -1.1
     def evaluate (self):
         return (Character.evaluate(self)
-              + 1.5 * len(self.active_modules)
-              + 0.5 * len(self.module_stack))
+              + 1.1 * len(self.active_modules)
+              + 1.0 * len(self.module_stack))
     
 
 class Danny (Character):
@@ -4870,9 +4943,8 @@ class Demitras (Character):
                        Illusory     (the_game, self), \
                        Jousting     (the_game, self)  ]
         self.finishers = [SymphonyOfDemise (the_game, self)]
+        self.tokens = [Crescendo  (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
-        self.crescendo = Crescendo  (the_game, self)
-        self.tokens = [self.crescendo]
         self.max_tokens = 5
         
     def choose_initial_discards (self):
@@ -4970,9 +5042,8 @@ class Eligor (Character):
         self.finishers = [SweetRevenge   (the_game, self),
                            SheetLightning (the_game, self)]
         self.status_effects = [OpponentImmobilizedStatusEffect(the_game, self)]
+        self.tokens = [VengeanceT (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
-        self.vengeance = VengeanceT (the_game, self)
-        self.tokens = [self.vengeance]
         self.max_tokens = 5
         
     def set_starting_setup (self, default_discards, use_special_actions):
@@ -5032,6 +5103,261 @@ class Eligor (Character):
     def evaluate (self):
         return Character.evaluate (self) + 0.2 * len(self.pool)
 
+class Gerard (Character):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
+        self.unique_base = Larceny (the_game, self)
+        self.styles = [Villainous (the_game, self), \
+                       Gilded     (the_game, self), \
+                       Avaricious (the_game, self), \
+                       Hooked     (the_game, self), \
+                       Initiation (the_game, self)  ]
+        self.finishers = [Windfall   (the_game, self)]
+        self.mercenaries = [Brawler     (the_game, self),
+                            Archer      (the_game, self),
+                            Trebuchet   (the_game, self),
+                            HeavyKnight (the_game, self),
+                            Gunslinger  (the_game, self),
+                            Mage        (the_game, self),
+                            Lackey      (the_game, self),
+                            Bookie      (the_game, self)]
+        self.status_effects = [InitiationStatusEffect(the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
+
+    def all_cards(self):
+        return Character.all_cards(self) + self.mercenaries
+
+    def choose_initial_discards (self):
+        return (self.villainous, self.unique_base,
+                self.hooked, self.strike)
+
+    def set_starting_setup (self, default_discards, use_special_actions):
+        Character.set_starting_setup (self, default_discards, use_special_actions)
+        self.mercs_in_play = []
+        self.removed_mercs = []
+        self.gold = 3
+
+    def situation_report (self):
+        report = Character.situation_report (self)
+        report.append("Gold: %d" % self.gold)
+        if self.mercs_in_play:
+            report.append ("Mercenaries in play:")
+            for merc in self.mercs_in_play:
+                report.append ("  %s" % merc.name)
+        else:
+            report.append ("No mercenaries in play")
+        if self.removed_mercs:
+            report.append ("Mercenaries removed from the game:")
+            for merc in self.removed_mercs:
+                report.append ("  %s" % merc.name)
+        return report
+
+    def read_my_state (self, lines, board, addendum):
+        lines = Character.read_my_state (self, lines, board, addendum)
+        self.gold = int(lines[0].split[' '][1][:-1])
+        i = 2
+        if lines[1] == "No mercenaries in play\n":
+            self.mercs_in_play = []
+        else:
+            merc_names = []
+            while lines[i].startswith('  '):
+                merc_names.append(lines[i][2:-1])
+                i += 1
+            self.mercs_in_play = [merc for merc in self.mercenaries
+                                  if merc.name in merc_names]
+        if lines[i] == "Mercenaries removed from the game\n":
+            merc_names = []
+            i += 1
+            while lines[i].startswith('  '):
+                merc_names.append(lines[i][2:-1])
+                i += 1
+            self.removed_mercs = [merc for merc in self.mercenaries
+                                  if merc.name in merc_names]
+        else:
+            self.removed_mercs = []
+                
+    def initial_save (self):
+        state = Character.initial_save (self)
+        state.gold = self.gold
+        state.mercs_in_play = self.mercs_in_play[:]
+        state.removed_mercs = self.removed_mercs[:]
+        return state
+
+    def initial_restore (self, state):
+        Character.initial_restore (self, state)
+        self.gold = state.gold
+        self.mercs_in_play = state.mercs_in_play[:]
+        self.removed_mercs = state.removed_mercs[:]
+
+    def reset(self):
+        Character.reset(self)
+        self.activated_mercs = []
+        self.switched_sides = False
+        
+    def full_save(self):
+        state = Character.full_save(self)
+        state.activated_mercs = self.activated_mercs[:]
+        state.switched_sides = self.switched_sides
+        return state
+
+    def full_restore(self, state):
+        Character.full_restore(self, state)
+        self.activated_mercs = state.activated_mercs
+        self.switched_sides = state.switched_sides
+
+    def get_antes(self):
+        # a "first-beats" game doesn't care about mercenaries,
+        # which are more long term.
+        if self.game.first_beats:
+            return [([],[])]
+        antes = []
+        # Make list of mercenaries, and cost to ante each.
+        # AI never hires Bookie.
+        possible_hires = list(set(self.mercenaries) -
+                              set(self.mercs_in_play) - 
+                              set(self.removed_mercs) - 
+                              set([self.bookie]))
+        hiring_gold = self.gold
+        if self.initiation_status_effect in self.active_status_effects:
+            hiring_gold += 2
+        hiring_combos = []
+        for n_hires in xrange(len(possible_hires) + 1):
+            combos_n = itertools.combinations(possible_hires, n_hires)
+            playable = [c for c in combos_n if 
+                        sum([h.hiring_cost for h in c]) <= hiring_gold]
+            hiring_combos += playable
+            if not playable:
+                break
+        for hiring_combo in hiring_combos:
+            hiring_combo = list(hiring_combo)
+            if hiring_combo:
+                remaining_gold = hiring_gold - sum([h.hiring_cost 
+                                                    for h in hiring_combo])
+            else:
+                remaining_gold = self.gold
+            possible_activations = [merc for merc in self.mercs_in_play +
+                                                     hiring_combo
+                                    if merc.activation_cost]
+            for n_activations in xrange(len(possible_activations) + 1):
+                combos_n = itertools.combinations(possible_activations, 
+                                                  n_activations)
+                playable = [c for c in combos_n if 
+                            sum([a.activation_cost for a in c]) <= remaining_gold]
+                antes += [(hiring_combo, activation_combo)
+                          for activation_combo in playable]
+                if not playable:
+                    break
+        return antes
+        
+    def input_ante(self):
+        remaining_gold = self.gold
+        initiation = self.initiation_status_effect in self.active_status_effects
+        # List of new hirelings, list of activations
+        ante = ([], [])
+        # Start with hiring:
+        while True:
+            discount = 2 if initiation and not ante[0] else 0 
+            possible_hires = [
+                merc for merc in self.mercenaries
+                if merc not in self.mercs_in_play + 
+                               self.removed_mercs + ante[0] and
+                   merc.hiring_cost - discount <= remaining_gold]
+            if not possible_hires:
+                break
+            print "Choose next mercenary to hire:"
+            options = [h.name for h in possible_hires]
+            options.append("Done hiring")
+            ans = menu(options)
+            if ans == len(possible_hires):
+                break
+            ante[0].append(possible_hires[ans])
+            remaining_gold -= (possible_hires[ans].hiring_cost - discount)
+        # Proceed with activations:
+        while True:
+            possible_activations = [
+                merc for merc in self.mercs_in_play + ante[0]
+                if merc not in ante[1] and merc.activation_cost and
+                   merc.activation_cost <= remaining_gold]
+            if not possible_activations:
+                break
+            print "Choose next mercenary to activate:"
+            options = [a.name for a in possible_activations]
+            options.append("Done activating")
+            ans = menu(options)
+            if ans == len(possible_activations):
+                break
+            ante[1].append(possible_activations[ans])
+            remaining_gold -= possible_activations[ans].activation_cost
+        return ante
+        
+    def get_ante_name(self, ante):
+        strings = []
+        if ante[0]:
+            strings.append("Hire " + ', '.join([a.name for a in ante[0]]))
+        if ante[1]:
+            strings.append("Activate " + ', '.join([a.name for a in ante[1]]))
+        return '; '.join(strings)
+    
+    def ante_trigger(self):
+        hire = self.strat[2][0][0]
+        discount = 2 if (self.initiation_status_effect in 
+                         self.active_status_effects) else 0
+        for h in hire:
+            self.mercs_in_play.append(h)
+            self.gold -= (h.hiring_cost - discount)
+            discount = 0
+            if self.game.reporting:
+                self.game.report("Gerard hires a %s for %d gold (%d remaining" %
+                                 (h, h.hiring_cost - discount, self.gold))
+        activate = self.strat[2][0][1]
+        for a in activate:
+            self.activated_mercs.append(a)
+            self.gold -= a.activation_cost
+            if self.game.reporting:
+                self.game.report("Gerard activates his %s for %d gold (%d remaining" %
+                                 (a, a.activation_cost, self.gold))
+        self.set_active_cards()
+        
+    def set_active_cards(self):
+        Character.set_active_cards(self)
+        self.active_cards += [merc for merc in self.mercs_in_play
+                              if not merc.activation_cost]
+        self.active_cards += self.activated_mercs
+
+    def gain_gold(self, gold):
+        previous = self.gold
+        self.gold = min(10, self.gold + gold)
+        gain = self.gold - previous
+        if gain and self.game.reporting:
+            self.game.report("Gerard gains %d Gold Token%s (has %d)" % 
+                             (gain, 's' if gain > 1 else '', self.gold))
+
+    def unique_ability_end_trigger(self):
+        self.gain_gold(1)
+
+    def cycle(self):
+        Character.cycle(self)
+        if self.lackey in self.mercs_in_play:
+            self.mercs_in_play.remove(self.lackey)
+            self.removed_mercs.append(self.lackey)
+
+    # Keep track of switching sides
+    def execute_move(self, mover, moves, direct=False):
+        old_pos = mover.position
+        Character.execute_move(self, mover, moves, direct=direct)
+        if ordered(old_pos, mover.opponent.position, mover.position):
+            self.switched_sides = True
+    def movement_reaction(self, mover, old_position, direct):
+        if ordered(old_position, mover.opponent.position, mover.position):
+            self.switched_sides = True
+
+    @property
+    def gold_value(self):
+        return 0.2 * (min(3, self.game.expected_beats()) + 1) 
+        
+    def evaluate(self):
+        return (Character.evaluate(self) + self.gold * self.gold_value +
+                sum([merc.get_value() for merc in self.mercs_in_play]))
+
 class Heketch (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Knives (the_game, self)
@@ -5043,9 +5369,8 @@ class Heketch (Character):
         self.finishers = [MillionKnives   (the_game, self),
                            LivingNightmare (the_game, self)]
         self.status_effects = [OpponentImmobilizedStatusEffect(the_game, self)] 
+        self.tokens = [DarkForce (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
-        self.dark_force = DarkForce (the_game, self)
-        self.tokens = [self.dark_force]
         self.max_tokens = 1
     
     def set_starting_setup (self, default_discards, use_special_actions):
@@ -5165,6 +5490,125 @@ class Heketch (Character):
     def evaluate (self):
         return Character.evaluate (self) + 2 * len (self.pool)
 
+class Hepzibah(Character):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
+        self.unique_base = Bloodlight (the_game,self)
+        self.styles = [Pactbond    (the_game, self),
+                       Anathema    (the_game, self),
+                       Necrotizing (the_game, self),
+                       Darkheart   (the_game, self),
+                       Accursed    (the_game, self)  ]
+        self.finishers = [Altazziar       (the_game, self)]
+        self.pacts = [Almighty    (the_game, self),
+                      Corruption  (the_game, self),
+                      Endless     (the_game, self),
+                      Immortality (the_game, self),
+                      InevitableT (the_game, self)]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
+
+    def all_cards(self):
+        return Character.all_cards(self) + self.pacts
+    
+    # TODO: choose
+    def choose_initial_discards (self):
+        return (self.pactbond, self.unique_base,
+                self.anathema, self.strike)
+
+    def set_active_cards(self):
+        Character.set_active_cards(self)
+        self.active_cards += self.anted_pacts
+        # Double up on pacts if playing the finisher.
+        if self.altazziar in self.active_cards:
+            self.active_cards += self.anted_pacts
+
+    def set_starting_setup (self, default_discards, use_special_actions):
+        Character.set_starting_setup (self, default_discards, use_special_actions)
+        self.active_pactbond = None
+
+    def situation_report (self):
+        report = Character.situation_report (self)
+        if self.active_pactbond:
+            report.append("Pactbond: %s" % self.active_pactbond)
+        return report
+
+    def read_my_state (self, lines, board, addendum):
+        lines = Character.read_my_state (self, lines, board, addendum)
+        line = find_start_line(lines, 'Pactbond:')
+        self.active_pactbond = None
+        for pact in self.pacts:
+            if pact.name in line:
+                self.active_pactbond = pact
+
+    def reset (self):
+        self.pending_pactbond = None
+        Character.reset (self)
+
+    def full_save (self):
+        state = Character.full_save (self)
+        state.pending_pactbond = self.pending_pactbond
+        return state
+
+    def full_restore (self, state):
+        Character.full_restore (self, state)
+        self.pending_pactbond = state.pending_pactbond
+
+    def prepare_next_beat(self):
+        Character.prepare_next_beat(self)
+        self.active_pactbond = self.pending_pactbond
+
+    def get_antes (self):
+        available_life = self.life - 1
+        if self.active_pactbond:
+            available_life += 1
+        max_ante = min(5, available_life)
+        combos = [itertools.combinations(self.pacts, n)
+                  for n in xrange(max_ante + 1)]
+        # Optimization: force ante of active pactbond.
+        combos = sum([list(c) for c in combos], [])
+        if self.active_pactbond:
+            combos = [c for c in combos
+                      if self.active_pactbond in c]
+        return combos
+
+    def input_ante (self):
+        antes = self.get_antes()
+        if len(antes) == 1:
+            return antes[0]
+        options = [self.get_ante_name(a) for a in antes]
+        if not options[0]:
+            options[0] = "None"
+        print "Select Dark Pacts to ante:"
+        return antes[menu(options)]
+
+    def ante_trigger (self):
+        self.anted_pacts = self.strat[2][0]
+        life_loss = len(self.anted_pacts)
+        if self.active_pactbond in self.anted_pacts:
+            life_loss -= 1
+        self.lose_life(life_loss)
+
+    def get_ante_name (self, a):
+        return ', '.join(pact.name for pact in a)
+            
+    def set_preferred_range(self):
+        Character.set_preferred_range(self)
+        if self.pending_pactbond is self.inevitable:
+            self.preferred_range += 0.5
+        elif self.life > 1: 
+            self.preferred_range += 0.4
+        
+    def expected_soak(self):
+        ret = Character.expected_soak(self)
+        if self.pending_pactbond is self.immortality:
+            ret += 2
+        elif self.life > 1:
+            ret += 1
+        return ret
+
+    def evaluate(self):
+        # having low life is especially bad, can't ante.
+        return Character.evaluate(self) + 0.5 * min(0, self.life - 5)
+
 class Hikaru (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = PalmStrike (the_game,self)
@@ -5175,12 +5619,11 @@ class Hikaru (Character):
                        Geomantic (the_game, self)  ]
         self.finishers = [WrathOfElements (the_game, self),
                           FourWinds       (the_game, self)]
-        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.tokens = [Earth (the_game, self), \
                        Fire  (the_game, self), \
                        Water (the_game, self), \
                        Wind  (the_game, self)]
-        self.water = self.tokens[2]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -5256,6 +5699,9 @@ class Hikaru (Character):
         Character.set_preferred_range (self)
         self.preferred_range += 0.2 * (self.water in self.pool)
 
+    def expected_soak(self):
+        return 1.5 if self.earth in self.pool else 0
+        
     def evaluate (self):
         return Character.evaluate(self) + sum(t.value for t in self.pool)
 
@@ -5286,10 +5732,10 @@ class Kajia (Character):
 
     def situation_report (self):
         report = Character.situation_report (self)
-        report.append ("%d insects on opponent's discard 1" %
-                       self.insects[1])
-        report.append ("%d insects on opponent's discard 2" %
-                       self.insects[2])
+        report.append ("%d insects on %s's discard 1" %
+                       (self.insects[1], self.opponent))
+        report.append ("%d insects on %s's discard 2" %
+                       (self.insects[2], self.opponent))
         if self.imago_emergence_active:
             report.append ("Imago Emergence is active")
         return report
@@ -5332,10 +5778,11 @@ class Kajia (Character):
         if n > 0:
             self.insects[pile] += n
             if self.game.reporting:
-                report = "Kajia places %d insect token%s on the oppoent's %s" % \
+                report = "Kajia places %d insect token%s on %s's %s" % \
                          (n,
                           ('s' if n>1 else ''),
-                          ('attack pair' if pile==0 else 'disard pile %d' % pile))
+                          self.opponent,
+                          ('attack pair' if pile==0 else 'discard pile %d' % pile))
                 self.game.report (report)
                 self.game.report ("(Current insects: %d / %d / %d)" %
                                   tuple(self.insects))
@@ -5457,6 +5904,12 @@ class Kallistar (Character):
         if not self.is_elemental:
             soak += 1
         return soak
+    
+    def expected_soak(self):
+        ret = Character.expected_soak(self)
+        if not self.is_elemental:
+            ret += 1
+        return ret
     
     def ante_trigger (self):
         if self.is_elemental:
@@ -5673,7 +6126,6 @@ class Kehrolyn (Character):
         self.preferred_range += (self.whip.preferred_range \
                                  if self.whip in self.discard[1] else 0)
 
-    
 class Khadath (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Snare (the_game,self)
@@ -5767,14 +6219,167 @@ class Khadath (Character):
             result += 1.5
         return result
 
+class Lesandra(Character):
+    def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
+        self.unique_base = Summons (the_game,self)
+        self.styles = [Invocation  (the_game, self),
+                       Pactbreaker (the_game, self),
+                       Binding     (the_game, self),
+                       Guardian    (the_game, self),
+                       Window      (the_game, self)  ]
+        self.finishers = [InvokeDuststalker (the_game, self),
+                          Mazzaroth         (the_game, self)]
+        self.status_effects = [OpponentEliminatedStatusEffect(the_game, self)]
+        self.familiars = [Borneo      (the_game, self),
+                          Wyvern      (the_game, self),
+                          Salamander  (the_game, self),
+                          RuneKnight  (the_game, self),
+                          RavenKnight (the_game, self)  ]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
+
+    def all_cards(self):
+        return Character.all_cards(self) + self.familiars
+    
+    def choose_initial_discards (self):
+        return (self.pactbreaker, self.unique_base,
+                self.guardian, self.grasp)
+
+    def set_starting_setup (self, default_discards, use_special_actions):
+        Character.set_starting_setup (self, default_discards, use_special_actions)
+        self.active_familiar = self.borneo
+    
+    def situation_report (self):
+        report = Character.situation_report (self)
+        report.append("Familiar: %s" % self.active_familiar)
+        return report
+
+    def read_my_state (self, lines, board, addendum):
+        lines = Character.read_my_state (self, lines, board, addendum)
+        line = find_start_line(lines, 'Familiar:')
+        self.active_familiar = None
+        for familiar in self.familiars:
+            if familiar.name in line:
+                self.active_familiar = familiar
+                break
+
+    def initial_save (self):
+        state = Character.initial_save (self)
+        state.active_familiar = self.active_familiar
+        return state
+
+    def initial_restore (self, state):
+        Character.initial_restore (self, state)
+        self.active_familiar = state.active_familiar
+    
+    def reset (self):
+        Character.reset (self)
+        self.anted_familiar = None
+        self.invocation_soak = 0
+        
+    def full_save (self):
+        state = Character.full_save (self)
+        state.anted_familiar = self.anted_familiar
+        state.invocation_soak = self.invocation_soak
+        return state
+
+    def full_restore (self, state):
+        Character.full_restore (self, state)
+        self.anted_familiar = state.anted_familiar
+        self.invocation_soak = state.invocation_soak
+
+    def get_antes(self):
+        if self.active_familiar:
+            return [None, self.active_familiar]
+        else:
+            return [None]
+        
+    def input_ante(self):
+        if self.active_familiar:
+            print "Ante %s?" % self.active_familiar
+            if menu(['No', 'Yes']):
+                return self.active_familiar
+        return None
+    
+    def ante_trigger(self):
+        ante = self.strat[2][0]
+        if ante:
+            assert ante is self.active_familiar
+            self.anted_familiar = ante
+            self.active_familiar = None
+            
+    def get_ante_name(self, a):
+        return a.name if a else ''
+    
+    def set_active_cards(self):
+        Character.set_active_cards(self)
+        if self.active_familiar:
+            self.active_cards.append(self.active_familiar)
+        if self.anted_familiar:
+            self.active_cards.append(self.anted_familiar)
+            
+    def end_trigger(self):
+        Character.end_trigger(self)
+        unavailable = self.active_familiar or self.anted_familiar
+        available_familiars = [f for f in self.familiars
+                               if f is not unavailable]
+        prompt = "Choose familiar to summon:"
+        damage = self.opponent.damage_taken
+        if self.game.interactive_mode and self.is_user:
+            options = ["%s (cost: %d life)" % (f.name, 
+                         f.get_cost() if f.get_cost() > damage else 0)
+                       for f in available_familiars]
+            options.append['None']
+        else:
+            options = []
+        ans = self.game.make_fork(len(available_familiars) + 1, 
+                                  self, prompt, options)
+        if ans < len(available_familiars):
+            self.active_familiar = available_familiars[ans]
+            if self.game.reporting:
+                self.game.report("Lesandra summons her %s" % self.active_familiar)
+            cost = self.active_familiar.get_cost()
+            if cost > damage:
+                self.lose_life(cost)
+        
+    def unique_ability_end_trigger(self):
+        if self.opponent_eliminated_status_effect in self.active_status_effects:
+            raise WinException(self.my_number)
+        
+    def expected_soak(self):
+        ret = Character.expected_soak(self)
+        if self.active_familiar is self.rune_knight:
+            ret += 1
+        return ret
+    
+    def expected_stunguard(self):
+        ret = Character.expected_stunguard(self)
+        if self.active_familiar is self.rune_knight:
+            ret += 1.5
+        return ret 
+    
+    def take_damage_trigger(self, damage):
+        if self.invocation in self.active_cards:
+            self.add_triggered_power_bonus(-damage)
+
+    # overrides default method, which I set to pass for performance
+    def movement_reaction (self, mover, old_position, direct):
+        for card in self.active_cards:
+            card.movement_reaction (mover, old_position, direct)
+    
+    def evaluate(self):
+        ret = Character.evaluate(self)
+        if self.active_familiar is not None:
+            ret += self.active_familiar.get_value()
+        return ret
+    
 class Lixis (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Lance (the_game,self)
         self.styles = [Venomous     (the_game, self), \
                        Rooted       (the_game, self), \
                        Naturalizing (the_game, self), \
-                       Vine         (the_game,self), \
-                       Pruning      (the_game,self)  ]
+                       Vine         (the_game, self), \
+                       Pruning      (the_game, self)  ]
         self.finishers = [VirulentMiasma (the_game, self)]
         self.status_effects = [PriorityPenaltyStatusEffect(the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
@@ -5871,14 +6476,18 @@ class Luc (Character):
                        Feinting (the_game, self), \
                        Chrono   (the_game, self)  ]
         self.finishers = [TemporalRecursion (the_game, self)]
+        self.tokens = [Time(the_game, self)]
+        # Virtual cards help implement ante effects.
+        self.virtual_cards = [Ante1Effect(the_game, self),
+                              Ante3Effect(the_game, self),
+                              Ante5Effect(the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
-        self.time = Time  (the_game, self)
-        self.tokens = [self.time]
+        # Override the name override...
+        self.ante_3_effect = self.virtual_cards[1]
         self.max_tokens = 5
-        # virtual cards help implement ante effects
-        self.ante_1_effect = Ante1Effect(the_game, self)
-        self.ante_3_effect = Ante3Effect(the_game, self)
-        self.ante_5_effect = Ante5Effect(the_game, self)
+
+    def all_cards(self):
+        return Character.all_cards(self) + self.virtual_cards
         
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -6067,6 +6676,9 @@ class Magdelina (Character):
     def get_stunguard (self):
         return self.get_level_bonus() + Character.get_stunguard(self)
 
+    def expected_stunguard(self):
+        return Character.expected_stunguard(self) + self.level
+
     def unique_ability_end_trigger (self):
         self.gain_trance()
         if self.trance > self.level:
@@ -6158,7 +6770,8 @@ class Marmelee (Character):
         self.counters_spent_by_style = state.counters_spent_by_style
         self.counters_spent_by_base = state.counters_spent_by_base
 
-    def unique_ability_end_trigger (self):
+    def cycle(self):
+        Character.cycle(self)
         self.recover_counters (1)
 
     def recover_counters(self, n):
@@ -6198,9 +6811,8 @@ class Mikhail (Character):
                        Sacred       (the_game, self)  ]
         self.finishers = [MagnusMalleus (the_game, self),
                            TheFourthSeal (the_game, self)]
+        self.tokens = [Seal (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
-        self.seal = Seal (the_game, self)
-        self.tokens = [self.seal]
         self.max_tokens = 3
 
     def choose_initial_discards (self):
@@ -6293,9 +6905,9 @@ class Oriana (Character):
                        Calamity    (the_game, self)  ]
         self.finishers = [NihilEraser   (the_game, self),
                            GalaxyConduit (the_game, self)]
+        self.tokens = [MagicPoint (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
-        self.mp = MagicPoint (the_game, self)
-        self.tokens = [self.mp]
+        self.mp = self.magic_point # Convenient abbreviation.
         self.max_tokens = 10
 
     def set_starting_setup (self, default_discards, use_special_actions):
@@ -6406,8 +7018,8 @@ class Ottavia (Character):
         
     def input_ante (self):
         priorities = self.all_opponent_priorities
-        print "Select opponent's priority for Target Lock:"
-        print "Possible opponent priorities:", priorities
+        print "Guess %s's priority for Target Lock:" % self.opponent
+        print "Possible priorities:", priorities
         mn = min(priorities)
         mx = max(priorities)
         while True:
@@ -6443,9 +7055,6 @@ class Ottavia (Character):
             if self.game.reporting and self.target_lock:
                 self.game.report ("Ottavia acquires target lock")
         return -10 if self.target_lock else 0
-
-    def get_soak(self):
-        return self.cybernetic_soak + Character.get_soak(self)
 
     # Ottavia's simulated strategies don't have a real target lock, but 
     # rather an assumption about whether the guess was correct or not 
@@ -6529,9 +7138,11 @@ class Rexan (Character):
                        Vainglorious (the_game, self), \
                        Overlords    (the_game, self)  ]
         self.finishers = [ZeroHour     (the_game, self)]
+        self.induced_tokens = [Curse (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
-        self.curse = Curse (the_game, self)
-        self.induced_tokens = [self.curse]
+
+    def all_cards(self):
+        return Character.all_cards(self) + self.induced_tokens
 
     def choose_initial_discards (self):
         return (self.enervating, self.grasp,
@@ -6543,13 +7154,13 @@ class Rexan (Character):
 
     def situation_report (self):
         report = Character.situation_report (self)
-        report.append ("Opponent has %d Curse tokens" %
-                       len(self.induced_pool))
+        report.append ("%s has %d Curse tokens" %
+                       (self.opponent, len(self.induced_pool)))
         return report
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
-        self.induced_pool = [self.curse] * int(lines[0][13])
+        self.induced_pool = [self.curse] * int(lines[0].split()[2])
         
     def initial_save (self):
         state = Character.initial_save (self)
@@ -6640,15 +7251,13 @@ class Rukyuk (Character):
                        Trick      (the_game, self)  ]
         self.finishers = [FullyAutomatic (the_game, self),
                            ForceGrenade   (the_game, self)]
-        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.tokens = [APShell        (the_game, self), \
                        ExplosiveShell (the_game, self), \
                        FlashShell     (the_game, self), \
                        ImpactShell    (the_game, self), \
                        LongshotShell  (the_game, self), \
                        SwiftShell     (the_game, self)  ]
-        self.flash = self.tokens[2]
-        self.impact = self.tokens[3]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
 
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -6736,16 +7345,12 @@ class Runika (Character):
                        Overcharged (the_game, self)]
         self.finishers = [ArtificeAvarice (the_game, self),
                            UdstadBeam      (the_game, self)]
-        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.artifacts = [Autodeflector  (the_game, self),
                           Battlefist     (the_game, self),
                           HoverBoots     (the_game, self),
                           ShieldAmulet   (the_game, self),
                           PhaseGoggles   (the_game, self)     ]
-        self.autodeflector = self.artifacts[0]
-        self.battlefist = self.artifacts[1]
-        self.hover_boots = self.artifacts[2]
-        self.phase_goggles = self.artifacts[4]
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
 
     def all_cards (self):
         return Character.all_cards(self) + self.artifacts
@@ -6941,7 +7546,7 @@ class Seth (Character):
     def input_ante (self):
         discards = self.opponent.discard[1] | self.opponent.discard[2]
         bases = [b for b in self.opponent.bases if b not in discards]
-        print "Name one of the opponent's bases:"
+        print "Name one of %s's bases:" % self.opponent
         options = [b.name for b in bases]
         ans = menu (options)
         return bases[ans]
@@ -7146,9 +7751,8 @@ class Shekhtur (Character):
         # Soul Breaker isn't fully implemented, so only Coffin Nails is listed
         self.finishers = [CoffinNails (the_game, self)]
         self.status_effects = [PowerBonusStatusEffect(the_game, self)]
+        self.tokens = [Malice (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
-        self.malice = Malice (the_game, self)
-        self.tokens = [self.malice]
         self.max_tokens = 5
         
     def choose_initial_discards (self):
@@ -7165,15 +7769,15 @@ class Shekhtur (Character):
         report = Character.situation_report (self)
         report.append ("%d Malice tokens" %len(self.pool))
         if self.coffin_nails_hit:
-            report.append ("Opponent has no soak or stunguard (Coffin Nails)")
+            report.append ("%s has no soak or stunguard (Coffin Nails)" % self.opponent)
         if self.did_hit_last_beat:
-            report.append ("Shekhtur hit the opponent last beat")
+            report.append ("Shekhtur hit her opponent last beat")
         return report
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
         self.pool = [self.malice] * int(lines[0][0])
-        self.did_hit_last_beat = find_start (lines, 'Shekhtur hit the opponent')
+        self.did_hit_last_beat = find_start (lines, 'Shekhtur hit her opponent')
         self.coffin_nails_hit = find_end (lines, '(Coffin Nails)\n')
 
     def initial_save (self):
@@ -7235,12 +7839,13 @@ class Tanis(Character):
                        Playful  (the_game, self), \
                        Distressed (the_game, self)  ]
         self.finishers = [CurtainCall (the_game, self)]
-        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.puppets = [Eris     (the_game, self), 
                         Loki     (the_game, self), 
                         Mephisto (the_game, self)]
-        for p in self.puppets:
-            self.__dict__[p.name.lower()] = p
+        Character.__init__ (self, the_game, n, use_beta_bases, is_user)
+
+    def all_cards(self):
+        return Character.all_cards(self) + self.puppets
 
     # TODO: choose
     def choose_initial_discards (self):
@@ -7251,11 +7856,11 @@ class Tanis(Character):
         Character.set_starting_setup (self, default_discards, use_special_actions)
         self.possessed_puppet = None
         if self.is_user:
-            perms = itertools.permutations(self.puppets)
+            perms = list(itertools.permutations(self.puppets))
             options = ['....' + ''.join([puppet.initial for puppet in permutation])
                        for permutation in perms]
             print "Choose initial puppet positions:"
-            perm = perms[self.game.menu(options)]
+            perm = perms[menu(options)]
             for i, puppet in enumerate(perm):
                 puppet.position = i + 4
         else:
@@ -7325,7 +7930,7 @@ class Tanis(Character):
         return options if options else [self.possessed_puppet]
     
     def input_pre_attack_decision_index(self):
-        options = self.get_pre_attack_decisions
+        options = self.get_pre_attack_decisions()
         if len(options) == 1:
             return 0
         print "Choose puppet to possess this beat:"
@@ -7505,8 +8110,22 @@ class Tatsumi (Character):
     def get_stunguard (self):
         return Character.get_stunguard(self) + 2 * self.zone_2()
 
+    def expected_stunguard(self):
+        ret = Character.expected_stunguard(self)
+        if self.zone_2():
+            ret += 2
+        return ret
+
     def get_soak (self):
         return Character.get_soak(self) + 1 * self.zone_2() + 3 * self.zone_1()
+
+    def expected_soak(self):
+        ret = Character.expected_soak(self)
+        if self.zone_2():
+            ret += 1
+        if self.zone_1():
+            ret += 3
+        return ret
 
     # Reduce Juto's life when he soaks damage.
     def soak_trigger (self, soaked_damage):
@@ -7598,9 +8217,8 @@ class Vanaah (Character):
         self.finishers = [DeathWalks     (the_game, self),
                            HandOfDivinity (the_game, self)]
         self.status_effects = [PriorityPenaltyStatusEffect(the_game, self)]
+        self.tokens = [DivineRush (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
-        self.divine_rush = DivineRush (the_game, self)
-        self.tokens = [self.divine_rush]
 
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -7773,6 +8391,9 @@ class Voco (Character):
     def get_soak (self):
         return len (self.zombies & self.soak_positions())
     
+    def expected_soak(self):
+        return Character.expected_soak(self) + len (self.zombies & self.soak_positions()) 
+    
     # eliminates all zombies next to attacker after soaking
     def soak_trigger (self, damage_soaked):
         if self.z_mosh not in self.active_cards:
@@ -7825,9 +8446,8 @@ class Zaamassal (Character):
                           Haste      (the_game, self), \
                           Resilience (the_game, self), \
                           Distortion (the_game, self)  ]
-        self.fluidity = self.paradigms[1]
-        self.resilience = self.paradigms[3]
-        self.distortion = self.paradigms[4]
+        for paradigm in self.paradigms:
+            self.__dict__[paradigm.name.lower().replace(' ','_')] = paradigm
         self.finishers = [OpenTheGate  (the_game, self),
                            PlaneDivider (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
@@ -7898,6 +8518,12 @@ class Zaamassal (Character):
     # already replaced.
     def get_soak (self):
         return self.resilience_soak + Character.get_soak (self)
+
+    def expected_soak(self):
+        ret = Character.expected_soak(self)
+        if self.resilience in self.active_paradigms:
+            ret += 2
+        return ret
 
     # lose all paradigms when stunned
     def stun (self, damage=None):
@@ -8060,6 +8686,8 @@ class Force (Base):
     ordered_start_trigger = True
     def reduce_stunguard (self, stunguard):
         return 0
+    def evaluation_bonus(self):
+        return 0.03 * self.opponent.expected_stunguard() - 0.03
 
 class Spike (Base):
     alpha_name = 'Burst'
@@ -8341,6 +8969,8 @@ class Gaze (Base):
         self.me.petrify()
         self.me.petrification_is_blocked = True
     # preventing further petrification handled by Adjenna.petrify()
+    def evaluation_bonus(self):
+        return 0.03 * self.opponent.expected_stunguard() - 0.03
 
 class Alluring (Style):
     power = -1
@@ -8358,7 +8988,8 @@ class Arresting (Style):
     def before_trigger (self):
         self.me.advance ((1,2))
     ordered_before_trigger = True
-    def get_soak (self):
+    @property
+    def soak(self):
         return self.me.petrification
     # back push handled by Adjenna.soak_trigger()
         
@@ -8386,7 +9017,8 @@ class Beckoning (Style):
     power = -2
     priority = -1
     preferred_range = 3.5
-    def get_stunguard (self):
+    @property
+    def stunguard (self):
         return 5 - self.me.petrification
     def hit_trigger (self):
         self.me.pull ((0,1,2))
@@ -8502,7 +9134,8 @@ class Steeled (Style):
     power = 2
     priority = -1
     preferred_range = 2 # can usually advance 3, and higher range gives more soak
-    def get_soak (self):
+    @property
+    def soak (self):
         return self.game.distance() - 1
     # Advance up to 1 space for each damage soaked.
     # Recording soak handled by Alexian.soak_trigger()
@@ -8556,7 +9189,8 @@ class Phantom(Style):
     def end_trigger(self):
         self.me.recover_tokens()
     def evaluation_bonus(self):
-        return 0.05 if len(self.me.pool) < 4 else -0.1
+        return ((0.05 if len(self.me.pool) < 4 else -0.1) +
+                0.1 * self.opponent.expected_soak())
      
 class Perceptional(Style):
     minrange = 1
@@ -8633,7 +9267,7 @@ class Manipulative(Style):
                                - self.opponent.discard[1]
                                - self.opponent.discard[2])
         ans = self.game.make_fork(len(available_bases), self.me,
-                "Choose base in opponent's hand:",
+                "Choose base in %s's hand:" % self.opponent,
                 [base.name for base in available_bases])
         self.me.manipulative_base = available_bases[ans]
         if self.game.reporting:
@@ -8941,7 +9575,8 @@ class Soulless (Style):
     priority = -4
     def has_stun_immunity (self):
         return True
-    def get_soak (self):
+    @property
+    def soak (self):
         return 5 - self.me.mask_emblems
     def reveal_trigger (self):
         if self.game.distance() == 1:
@@ -8983,6 +9618,11 @@ class Heartless (Style):
         self.me.heartless_soak = damage
     def get_soak (self):
         return self.me.heartless_soak
+    # for evaluation
+    soak = 2
+    def evaluation_bonus(self):
+        return (0.2 * self.opponent.expected_soak() 
+                if self.game.distance() == 3 else 0)
 
 class Faceless (Style):
     maxrange = 1
@@ -9330,6 +9970,12 @@ class Toxic (Style):
         # we might activate a stim before start of beat.
         projected_stims = min (3, len(self.me.active_packs)+0.5)
         return projected_stims / 2.0
+    # Doesn't directly give stunguard, but might add to hylatine
+    def get_stunguard(self):
+        return 0
+    @property
+    def stunguard(self):
+        return 2 if self.me.hylatine in self.me.active_packs else 1
     def start_trigger (self):
         for i in xrange(len(self.me.active_packs)):
             self.me.advance([1])
@@ -9391,11 +10037,11 @@ class Gravity (Style):
     ordered_hit_trigger = True
     def blocks_pullpush (self):
         if self.game.make_fork(2, self.me,
-                               "Block opponent's attempt to move you?",
-                               ["No", "Yes"]) == 0:
-            return set() #don't block
-        else:
+            "Block %s's attempt to move you?" % self.opponent,
+            ["No", "Yes"]):
             return set(xrange(7)) #block
+        else:
+            return set() #don't block
     # ignoring own movement handled by self.execute_move
 
 class Phase (Style):
@@ -9467,14 +10113,12 @@ class Wrench (Base):
     def get_power_bonus(self):
         return min (4, len(self.me.active_modules))
     def after_trigger(self):
-        returned_modules = []
-        for module in self.me.active_modules:
-            if self.game.make_fork (2, self.me,
-                            "Return %s to your module stack?" % module.name,
-                                    ["No", "Yes"]):
-                returned_modules.append(module)
-        for module in returned_modules:
-            self.me.return_module(module)
+        # TODO: allow human players to make any choice,
+        # and fake fork it for AI to allow all or nothing.
+        if self.game.make_fork (2, self.me,
+            "Return all modules to your module stack?", ["No", "Yes"]):
+            while self.me.active_modules:
+                self.me.return_module(self.me.active_modules[0])
 
 class Upgradeable (Style):
     maxrange = 1
@@ -9533,6 +10177,8 @@ class Megaton (Style):
 
 class Leaping (Style):
     priority = 1
+    # Adds 1 to minrange, 3 to maxrange, and 3 is better.
+    preferred_range = 2.25
     def can_hit (self):
         return not self.me.switched_sides
     def before_trigger (self):
@@ -9570,6 +10216,7 @@ class CoreShielding (Module):
     pass
     # Blocking hit and damage trigger handled by Clive
 
+# TODO: can skip retreating if returning with Wrench
 class AfterBurner(Module):
     def after_trigger(self):
         self.me.retreat([1])
@@ -9581,7 +10228,7 @@ class SynapseBoost (Module):
 class AutoRepair (Module):
     def end_trigger (self):
         self.me.gain_life(1)
-        # need to return this to module stack
+        self.me.return_module(self)
 
 class ExtendingArms (Module):
     def before_trigger(self):
@@ -9648,7 +10295,8 @@ class Fallen(Style):
     def reduce_stunguard(self, stunguard):
         return 0 if self.me.hit_on_monster else stunguard
     def evaluation_bonus(self):
-        return 0.3 if self.opponent.position in self.me.monsters else -0.3
+        return 0.3 + (0.03 * self.opponent.expected_stunguard() - 0.03
+                if self.opponent.position in self.me.monsters else -0.33)
 
 class Shackled(Style):
     maxrange = 1
@@ -9674,9 +10322,8 @@ class Sinners(Style):
         if not self.me.monsters:
             return
         monsters = sorted(list(self.me.monsters))
-        combos = itertools.combinations(xrange(7), len(self.me.monsters))
         good_combos = []
-        for combo in combos:
+        for combo in itertools.combinations(xrange(7), len(self.me.monsters)):
             shifts = [abs(m-c) for m,c in zip(monsters, combo)]
             if max(shifts) <= 1 and sum(shifts) <= 3:
                 good_combos.append(combo)
@@ -9802,7 +10449,7 @@ class Bloodletting (Style):
     def reduce_soak (self, soak):
         return 0
     def evaluation_bonus (self):
-        return 0.1 * (len(self.me.pool) - 3)
+        return 0.1 * (len(self.me.pool) - 3) + 0.1 * self.opponent.expected_soak()
 
 class Vapid (Style):
     maxrange = 1
@@ -9887,6 +10534,10 @@ class Aegis (Base):
     printed_power = None
     def get_soak (self):
         return self.me.ante.count(self.me.vengeance)
+    # for evaluation
+    @property
+    def soak(self):
+        return len(self.me.pool) * 0.6
     
 class Vengeful (Style):
     power = 1
@@ -9963,7 +10614,193 @@ class VengeanceT (Token):
     name_override = 'Vengeance'
     stunguard = 2
 
+#Gerard
 
+class Windfall(Finisher):
+    minrange = 1
+    maxrange = 1
+    priority = 5
+    def before_trigger(self):
+        self.me.advance([1,2])
+    ordered_before_trigger = True
+    def hit_trigger(self):
+        self.me.add_triggered_power_bonus(self.me.gold)
+    def evaluate_setup(self):
+        return 0.2 * max(0, self.me.gold - 4) if self.game.distance() <= 3 else 0
+
+# Not implemented, possible big fork
+class UltraBeatdown(Finisher):
+    minrange = 1
+    maxrange = 3
+    power = 2
+    priority = 4
+    stunguard = 4
+    def hit_trigger(self):
+        pass
+
+class Larceny(Base):
+    minrange = 1
+    maxrange = 1
+    power = 4
+    priority = 3
+    preferred_range = 1.5
+    def can_hit(self):
+        return self.me.switched_sides
+    def before_trigger(self):
+        self.me.pull([1])
+        self.me.advance([1])
+    def damage_trigger(self, damage):
+        self.me.gain_gold(3)
+
+class Villainous(Style):
+    power = 1
+    def hit_trigger(self):
+        self.me.push([1,2])
+    ordered_hit_trigger = True
+    def end_trigger(self):
+        self.me.advance([1,2,3])
+        if self.opponent.position in [0,6] and self.game.distance() == 1:
+            self.me.gain_gold(2)
+    def evaluation_bonus(self):
+        value = self.me.gold_value * 0.3
+        return (value * 0.25 if self.opponent.retreat_range() <= 2 and
+                             self.me.retreat_range() >= 2
+                else -value * 0.75)
+            
+class Gilded(Style):
+    maxrange = 1
+    priority = -1
+    preferred_range = 0.5
+    def get_soak(self):
+        return 2 if self.me.gold > len(self.me.mercs_in_play) else 0
+    def get_stunguard(self):
+        return 0 if self.me.gold > len(self.me.mercs_in_play) else 4
+    # For evaluation: (might lose gold / add mercs in ante).
+    @property
+    def soak(self):
+        return 1 if self.me.gold > len(self.me.mercs_in_play) else 0
+    @property
+    def stunguard(self):
+        return 2 if self.me.gold > len(self.me.mercs_in_play) else 4
+
+class Avaricious(Style):
+    preferred_range = 0.5
+    def get_power_bonus(self):
+        return 1 if self.me.gold > len(self.me.mercs_in_play) else 0
+    def get_priority_bonus(self):
+        return 0 if self.me.gold > len(self.me.mercs_in_play) else 1
+    def start_trigger(self):
+        self.me.advance([1])
+    ordered_start_trigger = True
+    def damage_trigger(self, damage):
+        self.me.gain_gold(2)
+        
+class Hooked(Style):
+    minrange = 2
+    maxrange = 3
+    power = 1
+    priority = -1
+    def get_preferred_range(self):
+        return 2.5 - self.me.retreat_range()
+    # TODO: this doesn't retreat at all if full retreat is blocked.
+    def start_trigger(self):
+        self.me.retreat([self.me.retreat_range()])
+    ordered_start_trigger = True
+    def damage_trigger(self, damage):
+        self.me.pull(range(damage+1))
+    ordered_damage_trigger = True
+    
+class Initiation(Style):
+    priority = 1
+    preferred_range = 0.5
+    def before_trigger(self):
+        self.me.advance([0,1])
+    ordered_before_trigger = True
+    def hit_trigger(self):
+        self.me.initiation_status_effect.activate()
+
+class InitiationStatusEffect(StatusEffect):
+    read_state_prefix = "First hireling costs 2 gold less"
+    situation_report_line = "First hireling costs 2 gold less"
+    activation_line = "First hireling next beat will cost 2 gold less"
+    @property
+    def value(self):
+        return 1.5 * self.me.gold_value
+    # Reducing cost handled by Gerard methods: get_ante, input_antes,
+    #                                          ante_trigger
+
+class Mercenary(Card):
+    activation_cost = 0
+    def get_value(self):
+        return 0
+
+class Bookie(Mercenary):
+    hiring_cost = 3
+    def end_trigger(self):
+        if self.me.did_hit and not self.me.was_stunned:
+            self.me.gain_gold(1)
+
+class Brawler(Mercenary):
+    hiring_cost = 3
+    def after_trigger(self):
+        if self.game.distance() in [1,2]:
+            self.opponent.lose_life(1)
+    def get_value(self):
+        pr = self.opponent.preferred_range
+        next_beats_value = 0.2 * (6 - self.game.distance())
+        return 0.12 * (6-pr) * (self.game.expected_beats() - 1) + next_beats_value
+
+class Archer(Mercenary):
+    hiring_cost = 3
+    def after_trigger(self):
+        if self.game.distance() in [3,4]:
+            self.opponent.lose_life(1)
+    def get_value(self):
+        next_beats_value = 0.5 * (2.5 - abs(3.5 - self.game.distance()))
+        return 0.4 * (self.game.expected_beats() -1) + next_beats_value
+
+class Trebuchet(Mercenary):
+    hiring_cost = 3
+    def after_trigger(self):
+        if self.game.distance() in [5,6]:
+            self.opponent.lose_life(1)
+    def get_value(self):
+        pr = self.opponent.preferred_range
+        next_beats_value = 0.2 * (self.game.distance() - 1)
+        return 0.12 * (pr-1) * (self.game.expected_beats() -1) + next_beats_value
+
+class Lackey(Mercenary):
+    hiring_cost = 7
+    soak = 5
+    # End of beat removal handled by Gerard.cycle()
+        
+class Mage(Mercenary):
+    hiring_cost = 2
+    activation_cost = 3
+    power = 1
+    priority = 1
+    def get_value(self):
+        return self.me.gold_value
+    
+class Gunslinger(Mercenary):
+    hiring_cost = 2
+    activation_cost = 3
+    def reduce_stunguard(self, stunguard):
+        return 0
+    def get_value(self):
+        return self.me.gold_value
+    
+class HeavyKnight(Mercenary):
+    hiring_cost = 2
+    activation_cost = 3
+    def blocks_movement(self, direct):
+        return set() if direct else set([self.me.position])
+    def get_value(self):
+        return self.me.gold_value
+
+
+
+    
 #Heketch
 
 class MillionKnives (Finisher):
@@ -10055,6 +10892,8 @@ class Critical (Style):
         return self.me.can_spend(1)
     def reduce_stunguard (self, stunguard):
         return 0
+    def evaluation_bonus(self):
+        return 0.03 * self.opponent.expected_stunguard() - 0.03
 
 class Assassin (Style):
     def hit_trigger (self):
@@ -10094,7 +10933,98 @@ class Psycho (Style):
 class DarkForce (Token):
     priority = 3
 
+#Hepzibah
+
+class Altazziar(Finisher):
+    minrange = 1
+    maxrange = 1
+    power = 6
+    priority = 2
+    preferred_range = 1
+    def start_trigger(self):
+        self.me.lose_life(self.me.life - 1)
+    # Token doubling handled by Hepzibah.set_active_cards()
+    def evaluate_setup(self):
+        return 0 if self.game.distance() > 3 else 0.3 * min(4, self.me.life)
+
+class Bloodlight(Base):
+    minrange = 1
+    maxrange = 3
+    power = 2
+    priority = 3
+    preferred_range = 2
+    def damage_trigger(self, damage):
+        self.me.gain_life(min(damage, len(self.me.anted_pacts)))
+
+class Pactbond(Style):
+    power = -1
+    priority = -1
+    def reveal_trigger(self):
+        self.me.gain_life(min(2, len(self.me.anted_pacts)))
+    def end_trigger(self):
+        prompt = "Choose a free Pact for next beat:"
+        options = [pact.name for pact in self.me.pacts]
+        # Fake fork: AI always chooses Immortality.
+        ans = self.game.make_fork(5, self.me, prompt, options, choice=3)
+        self.me.pending_pactbond = self.me.pacts[ans]
+        if self.game.reporting:
+            self.game.report("Hepzibah Chooses %s as her free Pact" %
+                             self.me.pending_pactbond)
+        self.me.evaluation_bonus += 1
         
+class Anathema(Style):
+    power = -1
+    priority = -1
+    def get_power_bonus(self):
+        return min(3, len(self.me.anted_pacts))
+    def get_priority_bonus(self):
+        return min(3, len(self.me.anted_pacts))
+    
+class Necrotizing(Style):
+    maxrange = 2
+    power = -1
+    preferred_range = 1
+    def hit_trigger(self):
+        max_spend = min(3, self.me.life - 1)
+        prompt = "How much life to spend for Power?"
+        spend = self.game.make_fork(max_spend + 1, self.me, prompt)
+        self.me.lose_life(spend)
+        self.me.add_triggered_power_bonus(spend)
+        # All things being equal, play offensively
+        self.me.evaluation_bonus += 0.01 * spend
+
+class Darkheart(Style):
+    priority = -1
+    def hit_trigger(self):
+        self.me.gain_life(2)
+        self.opponent.discard_token()
+    def evaluation_bonus(self):
+        return 0.1 if self.opponent.pool else -0.1
+
+class Accursed(Style):
+    maxrange = 1
+    power = -1
+    preferred_range = 0.5
+    def has_stun_immunity (self):
+        return len(self.me.ante) >= 3
+    
+class Almighty(Card):
+    power = 2
+    
+class Corruption(Card):
+    def reduce_stunguard(self, stunguard):
+        return 0
+    
+class Endless(Card):
+    priority = 2
+    
+class Immortality(Card):
+    soak = 2
+
+class InevitableT(Card):
+    name_override = 'Inevitable'
+    maxrange = 1
+
 #Hikaru
 
 class WrathOfElements (Finisher):
@@ -10332,7 +11262,13 @@ class Stinging (Style):
     def hit_trigger (self):
         self.me.give_insects(1)
     def evaluation_bonus (self):
-        return 0.25 * (self.me.infested_piles() - 1)
+        piles = self.me.infested_piles()
+        value = -0.05
+        if piles > 0:
+            value += 0.1 * self.opponent.expected_soak()
+        if piles > 1:
+            value += 0.03 * self.opponent.expected_stunguard() 
+        return value
 
 class Biting (Style):
     maxrange = 2
@@ -10420,7 +11356,8 @@ class Caustic (Style):
     def hit_trigger (self):
         if self.me.is_elemental:
             self.opponent.stun()
-    def get_soak (self):
+    @property
+    def soak (self):
         return 2 * (not self.me.is_elemental)
 
 class Volcanic (Style):
@@ -10586,10 +11523,16 @@ class FullMoon (Style):
     preferred_range = 0.5
     karin_attack = True
     jager_attack = False
-    def get_soak (self):
+    def get_soak(self):
         return 2 if ordered(self.me.position,
                             self.me.jager_position,
                             self.opponent.position) else 0
+    # For next turn, can also get it with swapping
+    @property
+    def soak (self):
+        return 2 if ((self.me.position - self.me.opponent.position) *
+                      (self.me.jager_position - self.me.opponent.position) > 0
+                      and self.me.position != self.me.jager_position) else 0
     def get_power_bonus (self):
         return 2 if ordered(self.me.position,
                             self.opponent.position,
@@ -10715,6 +11658,12 @@ class Mutating (Style):
     # doubles as Whip if Whip is current form
     def get_preferred_range (self):
         return (self.me.whip.preferred_range if self.me.whip in self.me.discard[1] else 0)
+    # Doesn't grant soak, but can be expected to when evaluating
+    def get_soak(self):
+        return 0
+    @property
+    def soak(self):
+        return 2 if self.me.exoskeletal in self.me.discard[1] else 0
     def discard_penalty (self):
         return 0.5
     # Duplication handled on character level.
@@ -10745,15 +11694,21 @@ class Quicksilver (Style):
     ordered_end_trigger = True
 
 class Exoskeletal (Style):
-    soak = 2
+    # soak is 2, but can be expected to give 4 if mutating is current
+    # form
+    def get_soak(self):
+        return 2
+    @property
+    def soak(self):
+        return 4 if self.me.mutating in self.me.discard[1] else 2
     # may block pull/push  - fork to decide whether to block
     def blocks_pullpush (self):
         if self.game.make_fork(2, self.me,
-                               "Block opponent's attempt to move you?",
-                               ["No", "Yes"]) == 0:
-            return set() #don't block
-        else:
+            "Block %s's attempt to move you?" % self.opponent,
+            ["No", "Yes"]):
             return set(xrange(7)) #block
+        else:
+            return set() #don't block
 
 #Khadath
 
@@ -10871,6 +11826,192 @@ class Lure (Style):
         self.me.pull (range(self.game.distance()))
     ordered_hit_trigger = True
 
+#Lesandra
+
+class InvokeDuststalker(Finisher):
+    minrange = 1
+    maxrange = 3
+    power = 3
+    priority = 5
+    def start_trigger(self):
+        loss = self.me.life - 1
+        self.me.lose_life(loss)
+        self.me.add_triggered_power_bonus(loss)
+    def damage_trigger(self, damage):
+        self.me.gain_life(damage)
+    def evaluate_setup(self):
+        return 0.2 * self.me.life if self.game.distance() <= 3 else 0
+    
+class Mazzaroth(Finisher):
+    is_attack = False
+    priority = 1
+    def start_trigger(self):
+        self.me.lose_life(self.me.life -1)
+    def after_trigger(self):
+        self.me.opponent_eliminated_status_effect.activate()
+
+class Summons(Base):
+    minrange = 1
+    maxrange = 1
+    power = 2
+    priority = 2
+    stungard = 3
+    preferred_range = 1
+    def start_trigger(self):
+        me = self.me.position
+        self.me.move_opponent_directly([me-1, me+1])
+    ordered_start_trigger = True
+    def evaluation_bonus(self):
+        return 0.1 * self.game.distance() - 0.3
+        
+class Invocation(Style):
+    minrange = 1
+    maxrange = 3
+    power = 2
+    priority = -2
+    preferred_range = 2
+    def take_a_hit_trigger(self):
+        if (self.me.active_familiar and 
+            self.game.make_fork(2, self.me, "Banish %s for Soak 2?" %
+                                self.me.active_familiar, ["No", "Yes"])):
+            if self.game.reporting:
+                self.game.report("Lesandra banishes her %s for Soak 2" %
+                                 self.me.active_familiar)
+            self.me.active_familiar = None
+            self.me.invocation_soak = 2
+    def get_soak(self):
+        return self.me.invocation_soak
+    @property
+    def soak(self):
+        return 1 if self.me.active_familiar else 0
+    # Taking damage trigger handled by Lesandra.take_damage_trigger()
+    def evaluation_bonus(self):
+        return 0.1 if self.me.active_familiar else -0.2
+    
+class Pactbreaker(Style):
+    maxrange = 1
+    power = 1
+    priority = 1
+    preferred_range = 0.5
+    def can_hit(self):
+        return self.me.anted_familiar is not None
+    def evaluation_bonus(self):
+        return 0.3 if self.me.active_familiar else -0.6
+    
+class Binding(Style):
+    maxrange = 2
+    priority = -2
+    preferred_range = 1
+    stunguard = 2
+    def movement_reaction(self, mover, old_position, direct):
+        if mover.position != old_position:
+            self.opponent.lose_life(1)
+            self.opponent.add_triggered_power_bonus(-1)
+
+class Guardian(Style):
+    maxrange = 1
+    power = 1
+    priority = -1
+    preferred_range = 0.5
+    def get_stunguard(self):
+        return 2 if self.me.active_familiar else 0
+    # for evaluation
+    @property
+    def stungard(self):
+        return 1 if self.me.active_familiar else 0
+    # Cost reduction handled by Familiar.get_cost()
+    
+class Window(Style):
+    @property
+    def maxrange(self):
+        return 3 if self.me.active_familiar else 0
+    priority = 1
+    def get_preferred_range(self):
+        # 1.5 if we have a familar, but we might ante it.
+        return 1 if self.me.active_familiar else 0
+    def hit_trigger(self):
+        if self.game.reporting and self.me.active_familiar:
+            self.game.report("Lesandra banishes her %s" % self.me.active_familiar)
+        self.me.active_familiar = None
+        self.me.pull([1,2])
+    ordered_hit_trigger = True
+    def evaluation_bonus(self):
+        #Range is nice, but then there's forced banishment.
+        return 0.1 if self.me.active_familiar else -0.2
+
+class Familiar(Card):
+    def get_cost(self):
+        cost = self.cost
+        if self.me.guardian in self.me.active_cards:
+            cost -= self.me.damage_taken
+        if self.me.borneo is self.me.anted_familiar:
+            cost -= 1
+        return max(cost, 0)
+
+# When evaluating familiars, assume one beat of activation,
+# then an ante.
+
+class Borneo(Familiar):
+    cost = 1
+    @property
+    def clash_priority(self):
+        return 0.1 if self is self.me.active_familiar else 0
+    # Ante ability handled by Familar.get_cost()
+    def get_value(self):
+        return 0.85 if self.me.life > 1 else 0.15
+
+class Wyvern(Familiar):
+    cost = 2
+    def can_be_hit(self):
+        return not (self is self.me.active_familiar and 
+                    self.game.distance() == 4)
+    def before_trigger(self):
+        if self is self.me.anted_familiar:
+            self.me.move_to_unoccupied()
+    @property
+    def ordered_before_trigger(self):
+        return self is self.me.anted_familiar
+    def get_value(self):
+        return 3 if self.game.distance() == 4 else 1.5
+
+class Salamander(Familiar):
+    cost = 3
+    def get_power_bonus(self):
+        return 2 if self is self.me.anted_familiar else 1
+    def reduce_soak(self, soak):
+        return 0
+    def reduce_stunguard(self, stunguard):
+        return 0 if self is self.me.anted_familiar else stunguard
+    def get_value(self):
+        expected_damage = 3 + 2 * self.opponent.expected_soak()
+        return 0.3 * expected_damage + 0.1 * self.opponent.expected_stunguard()
+    
+class RuneKnight(Familiar):
+    cost = 4
+    def get_stunguard(self):
+        return 3 if self is self.me.active_familiar else 0
+    def get_soak(self):
+        return 2 if self is self.me.anted_familiar else 0
+    def get_value(self):
+        return 1.8
+    
+class RavenKnight(Familiar):
+    cost = 5
+    def after_trigger(self):
+        if self is self.me.active_familiar:
+            self.opponent.lose_life(1)
+    def get_priority_bonus(self):
+        return 4 if self is self.me.anted_familiar else 0
+    def get_value(self):
+        life = self.opponent.life
+        if life == 1:
+            loss = 0
+        elif life <= 5:
+            loss = 0.5
+        else:
+            loss = 1
+        return 1.2 + loss * 0.8
+
 #Lixis
 
 class VirulentMiasma (Finisher):
@@ -10922,11 +12063,11 @@ class Rooted (Style):
     # may block pull/push  - fork to decide whether to block
     def blocks_pullpush (self):
         if self.game.make_fork(2, self.me,
-                               "Block opponent's attempt to move you",
-                               ["No", "Yes"]) == 0:
-            return set() #don't block
-        else:
+            "Block %s's attempt to move you?" % self.opponent,
+            ["No", "Yes"]):
             return set(xrange(7)) #block
+        else:
+            return set() #don't block
     # optional negation of own movement implemented by always adding 0
     # to Lixis' move options (handled by Lixis.execute_move())
 
@@ -11004,10 +12145,11 @@ class Flash (Base):
     ordered_start_trigger = True
     def reduce_stunguard(self, stunguard):
         return 0
+    def evaluation_bonus(self):
+        return 0.03 * self.opponent.expected_stunguard() - 0.03
 
 class Eternal (Style):
     priority = -4
-    soak = 1
     def take_a_hit_trigger (self):
         if self.me.can_spend (1):
             self.me.eternal_spend = \
@@ -11021,6 +12163,10 @@ class Eternal (Style):
                                     self.me.eternal_spend+1))
     def get_soak (self):
         return 1 + self.me.eternal_spend
+    # for evaluation
+    @property
+    def soak(self):
+        return 1 + 0.6 * len(self.me.pool)
 
 class Memento (Style):
     priority = -1
@@ -11042,7 +12188,7 @@ class Fusion (Style):
         blow_out = self.me.get_destinations (self.opponent, (-damage,)) == set()
         self.me.push ([damage])
         # if moving opponent back is illegal and opponent doesn't block
-        # (assumes oppoent either blocks all pushes or none)
+        # (assumes  either blocks all pushes or none)
         if blow_out and self.me.blocked == set():
             self.opponent.lose_life(2)
     ordered_damage_trigger = True
@@ -11150,6 +12296,8 @@ class Maddening (Style):
         if self.me.disparity >= 3:
             return 2
         return 0
+    # for evaluation
+    soak = 1
 
 class Chimeric (Style):
     power = -1
@@ -11210,6 +12358,8 @@ class Fathomless (Style):
     preferred_range = 0.5
     def get_stunguard(self):
         return 2 * (self.me.disparity >= 3)
+    # for evaluation
+    stunguard = 1
     def get_power_bonus(self):
         if self.me.disparity >= 6:
             return 4
@@ -11305,6 +12455,12 @@ class Spiritual (Style):
     power = 2
     priority = 1
     preferred_range = 1
+    # Doesn't give stunguard, but negates it (for evaluation)
+    def get_stunguard(self):
+        return 0
+    @property
+    def stunguard(self):
+        return -self.me.level
     def before_trigger(self):
         if self.me.trance:
             self.me.trance -= 1
@@ -11382,6 +12538,10 @@ class Meditation (Base):
                                   %self.me.counters_spent_by_base)
     def get_soak (self):
         return self.me.counters_spent_by_base
+    # for evaluation
+    @property
+    def soak(self):
+        return 0.6 * self.me.concentration
     def end_trigger (self):
         self.me.recover_counters (1)
     # When pool is empty, Meditation/Sorceress order matters. 
@@ -11563,6 +12723,10 @@ class Immutable (Style):
             self.me.immutable_soak = 3
     def get_soak (self):
         return self.me.immutable_soak
+    # for evaluation, halved because not necessarily active
+    @property
+    def soak(self):
+        return 1.5 if self.me.pool else 0
 
 class Transcendent (Style):
     maxrange = 2
@@ -11642,6 +12806,10 @@ class Meteor (Base):
         return (1 + self.me.ante.count(self.me.mp)) / 2 # round up
     def get_stunguard (self):
         return self.me.ante.count(self.me.mp)
+    # for evaluation
+    @property
+    def stunguard(self):
+        return min(5, len(self.me.pool))
     def end_trigger (self):
         self.me.recover_tokens(2)
 
@@ -11747,6 +12915,10 @@ class Calamity (Style):
     power = 1
     def get_stunguard (self):
         return min (self.me.ante.count(self.me.mp), 6)
+    # for evaluation
+    @property
+    def stunguard(self):
+        return min(5, len(self.me.pool))
     def hit_trigger (self):
         mp = self.me.ante.count(self.me.mp)
         if mp >= 2:
@@ -11787,6 +12959,8 @@ class Shooter(Base):
     preferred_range = 2.5
     def reduce_stunguard(self, stunguard):
         return 0 
+    def evaluation_bonus(self):
+        return 0.03 * self.opponent.expected_stunguard() - 0.03
 
 class Snapback(Style):
     minrange = 1
@@ -11845,8 +13019,10 @@ class Cybernetic(Style):
         self.me.move_opponent(range(4))
     def after_trigger(self):
         self.me.cybernetic_soak = 2
-
-    
+    def get_soak(self):
+        return self.me.cybernetic_soak
+    # for evaluation
+    soak = 1
     
 #Rexan
 
@@ -12076,7 +13252,9 @@ class Trick (Style):
 
 class APShell (Token):
     name_override = 'AP'
-    value = 0
+    @property
+    def value(self):
+        return 0.1 * self.opponent.expected_soak()
     def reduce_soak (self, soak):
         return 0
 
@@ -12087,7 +13265,9 @@ class ExplosiveShell (Token):
 
 class FlashShell (Token):
     name_override = 'Flash'
-    value = 0.1
+    @property
+    def value(self):
+        return 0.03 * self.opponent.expected_stunguard()
     def reduce_stunguard (self, stunguard):
         return 0
 
@@ -12181,7 +13361,8 @@ class Channeled (Style):
 class Maintenance (Style):
     power = -1
     priority = -1
-    def get_soak (self):
+    @property
+    def soak (self):
         return len(self.me.deactivated_artifacts)
     def after_trigger (self):
         self.me.retreat ([2,1])
@@ -12445,6 +13626,8 @@ class Brand (Base):
                 self.me.spend_token()
             self.opponent.lose_life (leech)
             self.me.gain_life (leech)
+    def evaluation_bonus(self):
+        return 0.02 * self.opponent.expected_stunguard() - 0.02
 
 class Unleashed (Style):
     maxrange = 1
@@ -12468,7 +13651,8 @@ class Combination (Style):
             self.me.add_triggered_power_bonus(2)
     def evaluation_bonus (self):
         return (0.4 if self.game.distance() <=2 else -0.4) + \
-               (0.2 if self.me.did_hit else -0.2)
+               (0.2 if self.me.did_hit else -0.2) + \
+               0.1 * self.opponent.expected_soak()
             
 class Reaver (Style):
     maxrange = 1
@@ -12551,7 +13735,7 @@ class SceneShift(Base):
                 old_pos = puppet.position
                 positions = range(max(0, old_pos - 3),
                                   min(6, old_pos + 3) + 1)
-                prompt = "Choose new position for %s:", puppet
+                prompt = "Choose new position for %s:" % puppet
                 options = []
                 if self.me.is_user and self.game.interactive_mode:
                     for pos in positions:
@@ -12584,7 +13768,8 @@ class Valiant(Style):
     maxrange = 1
     priority = -1
     preferred_range = 1
-    def get_soak(self):
+    @property
+    def soak(self):
         if (self.me.loki.position is not None and 
             ordered(self.me.position, 
                     self.me.loki.position, 
@@ -12642,7 +13827,7 @@ class Climactic(Style):
         my_range = abs(me - opp)
         mephisto_range = abs(mephisto - opp)
         diff = abs(my_range - mephisto_range)
-        return 0.1 * diff - 0.1
+        return 0.1 * diff - 0.1 + 0.1 * self.opponent.expected_soak()
         
 class Storyteller(Style):
     power = 1
@@ -12666,18 +13851,19 @@ class Storyteller(Style):
     def ordered_before_trigger(self):
         return self.me.possessed_puppet is self.me.eris
     def evaluation_bonus(self):
-        me = self.me.position
-        opp = self.opponent.position
-        loki = self.me.loki.position
-        if loki == me:
-            if abs(loki-opp) == 1:
-                return 0.5
-            elif me in (self.me.eris.position, 
-                        self.me.mephisto.position):
-                return 0
-            else:
-                return -0.1
-        return 0
+        loki = self.me.loki
+        possible_puppets = [p for p in self.me.puppets
+                            if p.position == self.me.position]
+        possible_values = []
+        if loki in possible_puppets:
+            possible_values.append(
+                0.5 if abs(loki.position - self.opponent.position) == 1 
+                else -0.1)
+        if self.me.mephisto in possible_puppets:
+            possible_values.append(0.03 * self.opponent.expected_stunguard() - 0.03)
+        if self.me.eris in possible_puppets:
+            possible_values.append(0)
+        return max(possible_values)
 
 class Playful(Style):
     maxrange = 1
@@ -13089,7 +14275,7 @@ class Shred (Base):
         if op in self.me.zombies:
             behind_range = set(xrange(0,op)) if op<p else set(xrange(op+1,7))
             behind = len (self.me.zombies & behind_range)
-            return 0.3 + 0.1 * behind
+            return 0.3 + 0.15 * (behind + self.opponent.expected_soak()) 
         else:
             return -0.3
 
@@ -13289,11 +14475,11 @@ class Sturdy (ZStyle):
     # may block pull/push  - fork to decide whether to block
     def blocks_pullpush (self):
         if self.game.make_fork(2, self.me,
-                               "Block opponent's attempt to move you?",
-                               ["No", "Yes"]) == 0:
-            return set() #don't block
-        else:
+            "Block %s's attempt to move you?" % self.opponent,
+            ["No", "Yes"]):
             return set(xrange(7)) #block
+        else:
+            return set() #don't block
     # optional negation of own movement implemented by always adding 0
     # to own move options (handled by Zaamassal.execute_move())
 
@@ -13393,16 +14579,20 @@ character_dict = {'abarene'  :Abarene,
                   'cesar'    :Cesar,
                   'claus'    :Claus,
                   'clinhyde' :Clinhyde,
+                  'clive'    :Clive,
                   'demitras' :Demitras,
                   'danny'    :Danny,
                   'eligor'   :Eligor,
+                  'gerard'   :Gerard,
                   'heketch'  :Heketch,
+                  'hepzibah' :Hepzibah,
                   'hikaru'   :Hikaru,
                   'kallistar':Kallistar,
                   'karin'    :Karin,
                   'kehrolyn' :Kehrolyn,
                   'kajia'    :Kajia,
                   'khadath'  :Khadath,
+                  'lesandra' :Lesandra,
                   'lixis'    :Lixis,
                   'luc'      :Luc,
                   'lymn'     :Lymn,

@@ -28,34 +28,37 @@ Special action available
 .A...C.
 
 
+
 Arec:
-46% Returning Drive (Fear)
-8% Mirrored Drive (Recklessness)
-46% Mirrored Burst (Recklessness)
+12% Returning Drive
+50% Returning Drive (Fear)
+31% Returning Burst (Hesitation)
+7% Mirrored Drive (Hesitation)
 
 Claus:
-6% Tailwind Tempest
-20% Downdraft Tempest
-73% Downdraft Dash
+1% Tailwind Tempest
+1% Tailwind Strike
+1% Blast Tempest
+96% Downdraft Dash
 
 
-Arec: Mirrored Burst (Recklessness)
+Arec: Returning Drive (Fear)
 Claus: Downdraft Dash
 
-Arec antes a Recklessness token
-Priorities:  1 | 8
+Arec antes a Fear token
+Priorities:  5 | 8
 Claus is active
+Claus moves:
+
+.A....C
+
+
 Arec moves:
 
-A....C.
+..A...C
 
 
 Arec misses
-Arec places clone:
-
-A....C.
-....c..
-
 
 Beat 2
 -------
@@ -63,10 +66,10 @@ Beat 2
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Burst
+Discard 1: Returning Drive
 Discard 2: Phantom Strike
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Hesitation, Mercy, Recklessness
 
 Claus
 -----
@@ -76,143 +79,33 @@ Discard 2: Hurricane Grasp
 Special action available
 
 
-A....C.
-....c..
-
-Unbeatable strategy for Arec: Returning Hex (Fear): 1.36
-
-Arec:
-5% Returning Hex
-88% Returning Hex (Fear)
-7% Manipulative Hex (Fear)
-
-Claus:
-3% Cyclone Tempest
-33% Cyclone Shot
-63% Cyclone Drive
+..A...C
 
 
-Arec: Returning Hex (Fear)
-Claus: Cyclone Drive
-
-Arec antes a Fear token
-Priorities:  4 | 5
-Claus is active
-Claus moves:
-
-A..C...
-
-
-Claus misses
-Arec hits
-Arec moves Claus:
-
-A.C....
-
-
-Arec recovers a Recklessness token
-Claus takes 3 damage (now at 17 life)
-
-Beat 3
--------
-
-Arec
-----
-Life: 20
-Discard 1: Returning Hex
-Discard 2: Mirrored Burst
-Special action available
-pool: Hesitation, Mercy, Recklessness
-
-Claus
------
-Life: 17
-Discard 1: Cyclone Drive
-Discard 2: Downdraft Dash
-Special action available
-
-
-A.C....
-
-
-Unbeatable strategy for Claus: Tailwind Strike: -0.26
 
 Arec:
-8% Phantom Grasp
-79% Phantom Dash
-13% Manipulative Drive
+59% Perceptional Hex
+13% Mirrored Burst (Hesitation)
+19% Mirrored Grasp
+9% Manipulative Shot
 
 Claus:
-35% Tailwind Strike
-35% Tailwind Burst
-30% Tailwind Grasp
+50% Tailwind Tempest
+19% Tailwind Drive
+15% Cyclone Tempest
+16% Cyclone Shot
 
 
-Arec: Phantom Dash
-Claus: Tailwind Burst
+Arec: Mirrored Grasp
+Claus: Tailwind Tempest
 
-Priorities:  10 | 1
+Priorities:  5 | 4
 Arec is active
 Claus moves:
 
-AC.....
+..A.C..
 
 
-Claus moves:
-
-A..C...
-
-
-Arec moves:
-
-..AC...
-
-
-Claus misses
-Arec recovers a Fear token
-
-Beat 4
--------
-
-Arec
-----
-Life: 20
-Discard 1: Phantom Dash
-Discard 2: Returning Hex
-Special action available
-pool: Hesitation, Mercy, Recklessness, Fear
-
-Claus
------
-Life: 17
-Discard 1: Tailwind Burst
-Discard 2: Cyclone Drive
-Special action available
-
-
-..AC...
-
-
-Arec:
-2% Perceptional Strike
-23% Mirrored Strike (Recklessness)
-32% Mirrored Burst
-9% Manipulative Drive (Recklessness)
-34% Manipulative Grasp (Fear)
-
-Claus:
-27% Hurricane Tempest
-16% Hurricane Grasp
-28% Blast Dash
-12% Downdraft Tempest
-17% Downdraft Dash
-
-
-Arec: Mirrored Burst
-Claus: Hurricane Tempest
-
-Priorities:  1 | 4
-Claus is active
 Claus moves Arec:
 
 A..C...
@@ -220,70 +113,179 @@ A..C...
 
 Arec takes 2 damage (now at 18 life)
 Arec is stunned
+Claus moves:
+
+A..C...
+
+
 Claus hits
-Arec takes 4 damage (now at 14 life)
+Arec takes 2 damage (now at 16 life)
 Arec is stunned
 Arec places clone:
 
 A..C...
-..c....
+.c.....
 
+
+Beat 3
+-------
+
+Arec
+----
+Life: 16
+Discard 1: Mirrored Grasp
+Discard 2: Returning Drive
+Special action available
+pool: Hesitation, Mercy, Recklessness
+
+Claus
+-----
+Life: 20
+Discard 1: Tailwind Tempest
+Discard 2: Downdraft Dash
+Special action available
+
+
+A..C...
+.c.....
+
+
+Arec:
+13% Perceptional Strike
+8% Perceptional Shot
+59% Manipulative Hex (Hesitation)
+20% Manipulative Shot (Hesitation)
+
+Claus:
+47% Hurricane Shot
+25% Blast Strike
+16% Blast Burst
+12% Cyclone Shot
+
+
+Arec: Manipulative Hex (Hesitation)
+Claus: Hurricane Shot
+
+Arec antes a Hesitation token
+Priorities:  3 | 2
+Arec is active
+Arec hits
+Arec chooses Claus's base: Grasp
+Arec moves Claus:
+
+A...C..
+
+
+Arec recovers a Fear token
+Claus takes 4 damage (now at 16 life)
+Claus hits
+Arec takes 6 damage (now at 10 life)
+Arec is stunned
+Claus will have -4 priority next beat
+
+Beat 4
+-------
+
+Arec
+----
+Life: 10
+Discard 1: Manipulative Hex
+Discard 2: Mirrored Grasp
+Special action available
+pool: Mercy, Recklessness, Fear
+Manipulative forced base: Grasp
+
+Claus
+-----
+Life: 16
+Discard 1: Hurricane Shot
+Discard 2: Tailwind Tempest
+Special action available
+Priority bonus: -4
+
+
+A...C..
+
+
+
+Arec:
+11% Phantom Strike
+60% Phantom Drive
+30% Perceptional Drive
+
+Claus:
+25% Blast Strike
+38% Cyclone Dash
+37% Downdraft Grasp
+
+
+Arec: Phantom Drive
+Claus: Downdraft Grasp
+
+Priorities:  5 | 0
+Arec is active
+Arec moves:
+
+..A.C..
+
+
+Arec hits
+Claus takes 2 damage (now at 14 life)
+Claus is stunned
+Arec recovers a Hesitation token
 
 Beat 5
 -------
 
 Arec
 ----
-Life: 14
-Discard 1: Mirrored Burst
-Discard 2: Phantom Dash
+Life: 10
+Discard 1: Phantom Drive
+Discard 2: Manipulative Hex
 Special action available
-pool: Hesitation, Mercy, Recklessness, Fear
+pool: Mercy, Recklessness, Fear, Hesitation
 
 Claus
 -----
-Life: 17
-Discard 1: Hurricane Tempest
-Discard 2: Tailwind Burst
+Life: 14
+Discard 1: Downdraft Grasp
+Discard 2: Hurricane Shot
 Special action available
--4 priority from last beat
 
 
-A..C...
-..c....
+..A.C..
 
-Unbeatable strategy for Arec: Returning Strike (Recklessness; move to clone): 0.64
+
 
 Arec:
-22% Returning Strike (Mercy; move to clone)
-62% Returning Strike (Recklessness; move to clone)
-5% Manipulative Hex
-10% Manipulative Shot (Fear; move to clone)
+1% Perceptional Strike
+53% Perceptional Grasp
+7% Returning Strike (Hesitation)
+5% Mirrored Strike (Fear)
+35% Mirrored Dash (Fear)
 
 Claus:
-47% Blast Strike
-8% Cyclone Dash
-5% Downdraft Strike
-39% Downdraft Shot
+14% Tailwind Tempest
+9% Tailwind Drive
+44% Tailwind Dash
+16% Cyclone Tempest
+17% Cyclone Dash
 
 
-Arec: Manipulative Shot (Fear; move to clone)
-Claus: Blast Strike
+Arec: Perceptional Grasp
+Claus: Tailwind Drive
 
-Arec moves:
-
-..AC...
-
-
-Arec antes a Fear token
-Priorities:  2 | -4
+Priorities:  6 | 4
 Arec is active
+Arec antes a Fear token
 Arec hits
-Arec chooses Claus's base: Shot
-Claus takes 4 damage (now at 13 life)
-Claus hits
-Arec takes 4 damage (now at 10 life)
-Arec is stunned
+Arec moves Claus:
+
+..A..C.
+
+
+Claus takes 2 damage (now at 12 life)
+Claus is stunned
 
 Beat 6
 -------
@@ -291,117 +293,115 @@ Beat 6
 Arec
 ----
 Life: 10
-Discard 1: Manipulative Shot
-Discard 2: Mirrored Burst
+Discard 1: Perceptional Grasp
+Discard 2: Phantom Drive
 Special action available
-pool: Hesitation, Mercy, Recklessness
-Manipulative forced base: Shot
+pool: Mercy, Recklessness, Hesitation
 
 Claus
 -----
-Life: 13
-Discard 1: Blast Strike
-Discard 2: Hurricane Tempest
+Life: 12
+Discard 1: Tailwind Drive
+Discard 2: Downdraft Grasp
 Special action available
 
+
+..A..C.
+
+
+Unbeatable strategy for Claus: Hurricane Tempest: -0.47
+
+
+Arec:
+15% Mirrored Burst (Hesitation)
+73% Mirrored Dash
+13% Manipulative Shot
+
+Claus:
+55% Hurricane Tempest
+33% Blast Tempest
+12% Cyclone Tempest
+
+
+Arec: Manipulative Shot
+Claus: Hurricane Tempest
+
+Priorities:  2 | 4
+Claus is active
+Claus moves:
 
 ..AC...
 
 
-Unbeatable strategy for Claus: Tailwind Drive: -0.72
-Unbeatable strategy for Claus: Tailwind Burst: -3.43
-
-Arec:
-26% Phantom Hex
-40% Phantom Strike
-34% Returning Drive
-
-Claus:
-3% Tailwind Shot
-12% Tailwind Drive
-85% Tailwind Burst
-
-
-Arec: Returning Drive
-Claus: Tailwind Burst
-
-Claus loses 2 life (now at 11)
-Priorities:  5 | 1
-Arec is active
-Claus moves Arec:
-
-.A.C...
-
-
-Arec takes 1 damage (now at 9 life)
-Arec is stunned
-Claus moves:
-
-.A..C..
-
-
 Claus hits
-Arec takes 4 damage (now at 5 life)
+Arec takes 4 damage (now at 6 life)
 Arec is stunned
+Claus will have -4 priority next beat
 
 Beat 7
 -------
 
 Arec
 ----
-Life: 5
-Discard 1: Returning Drive
-Discard 2: Manipulative Shot
+Life: 6
+Discard 1: Manipulative Shot
+Discard 2: Perceptional Grasp
 Special action available
-pool: Hesitation, Mercy, Recklessness
+pool: Mercy, Recklessness, Hesitation
 
 Claus
 -----
-Life: 11
-Discard 1: Tailwind Burst
-Discard 2: Blast Strike
+Life: 12
+Discard 1: Hurricane Tempest
+Discard 2: Tailwind Drive
 Special action available
+Priority bonus: -4
 
 
-.A..C..
+..AC...
+
+
+Unbeatable strategy for Arec: Returning Burst: 1.02
+Unbeatable strategy for Arec: Returning Burst (Mercy): 0.62
+Unbeatable strategy for Arec: Returning Burst (Recklessness): 0.42
+Unbeatable strategy for Arec: Returning Burst (Hesitation): 0.87
+Unbeatable strategy for Arec: Mirrored Burst: 1.73
+Unbeatable strategy for Arec: Mirrored Burst (Mercy): 1.33
+Unbeatable strategy for Arec: Mirrored Burst (Recklessness): 1.13
+Unbeatable strategy for Arec: Mirrored Burst (Hesitation): 0.93
 
 
 Arec:
-19% Mirrored Hex
-18% Mirrored Burst
-1% Mirrored Grasp
-7% Mirrored Grasp (Recklessness)
-55% Mirrored Dash
+9% Returning Burst
+3% Returning Burst (Hesitation)
+88% Mirrored Burst
 
 Claus:
-21% Hurricane Tempest
-4% Hurricane Drive
-14% Cyclone Tempest
-1% Cyclone Drive
-61% Downdraft Tempest
+15% Blast Dash
+15% Cyclone Dash
+70% Downdraft Burst
 
 
 Arec: Mirrored Burst
-Claus: Downdraft Tempest
+Claus: Downdraft Burst
 
-Priorities:  1 | 3
-Claus is active
-Claus moves:
-
-.A.C...
-
-
+Priorities:  1 | -4
+Arec is active
 Arec moves:
 
 A..C...
 
 
-Claus hits
-Arec takes 1 damage (now at 4 life)
-Arec is stunned
+Claus moves:
+
+A...C..
+
+
+Arec misses
+Claus misses
 Arec places clone:
 
-A..C...
+A...C..
 ..c....
 
 
@@ -410,98 +410,106 @@ Beat 8
 
 Arec
 ----
-Life: 4
+Life: 6
 Discard 1: Mirrored Burst
-Discard 2: Returning Drive
+Discard 2: Manipulative Shot
 Special action available
-pool: Hesitation, Mercy, Recklessness
+pool: Mercy, Recklessness, Hesitation
 
 Claus
 -----
-Life: 11
-Discard 1: Downdraft Tempest
-Discard 2: Tailwind Burst
+Life: 12
+Discard 1: Downdraft Burst
+Discard 2: Hurricane Tempest
 Special action available
 
 
-A..C...
+A...C..
 ..c....
 
+
 Arec:
-74% Phantom Dash
-12% Perceptional Strike
-1% Perceptional Dash
-13% Manipulative Hex (Recklessness)
+27% Perceptional Hex
+32% Perceptional Drive
+33% Perceptional Grasp
+7% Returning Drive
 
 Claus:
-43% Hurricane Shot
-47% Blast Strike
-9% Cyclone Drive
-1% Cyclone Dash
+9% Tailwind Strike
+46% Tailwind Grasp
+13% Cyclone Shot
+32% Cyclone Dash
 
 
-Arec: Phantom Dash
-Claus: Blast Strike
+Arec: Perceptional Hex
+Claus: Tailwind Strike
 
-Priorities:  10 | 0
+Priorities:  4 | 3
 Arec is active
 Claus moves:
 
 A.C....
 
 
-Arec moves:
+Arec hits
+Arec moves Claus:
 
-..C.A..
+A..C...
 
 
-Claus misses
 Arec recovers a Fear token
+Claus takes 3 damage (now at 9 life)
+Claus misses
 
 Beat 9
 -------
 
 Arec
 ----
-Life: 4
-Discard 1: Phantom Dash
+Life: 6
+Discard 1: Perceptional Hex
 Discard 2: Mirrored Burst
 Special action available
-pool: Hesitation, Mercy, Recklessness, Fear
+pool: Mercy, Recklessness, Hesitation, Fear
 
 Claus
 -----
-Life: 11
-Discard 1: Blast Strike
-Discard 2: Downdraft Tempest
+Life: 9
+Discard 1: Tailwind Strike
+Discard 2: Downdraft Burst
 Special action available
 
 
-..C.A..
+A..C...
+
 
 
 Arec:
-2% Perceptional Drive
-66% Perceptional Drive (Recklessness)
-19% Perceptional Grasp
-13% Manipulative Shot (Fear)
+0% Phantom Grasp (Hesitation)
+43% Returning Drive
+31% Returning Drive (Fear)
+26% Manipulative Shot (Hesitation)
 
 Claus:
-5% Tailwind Shot
-32% Tailwind Grasp
-61% Tailwind Dash
-3% Cyclone Shot
+16% Hurricane Tempest
+13% Blast Grasp
+7% Cyclone Shot
+65% Cyclone Dash
 
 
-Arec: Perceptional Drive (Recklessness)
-Claus: Tailwind Shot
+Arec: Returning Drive (Fear)
+Claus: Hurricane Tempest
 
-Arec antes a Recklessness token
-Priorities:  5 | 2
-Arec is active
 Arec antes a Fear token
+Priorities:  5 | 4
+Arec is active
+Arec moves:
+
+.A.C...
+
+
 Arec hits
-Claus takes 3 damage (now at 8 life)
+Claus takes 3 damage (now at 6 life)
 Claus is stunned
 
 Beat 10
@@ -509,98 +517,56 @@ Beat 10
 
 Arec
 ----
-Life: 4
-Discard 1: Perceptional Drive
-Discard 2: Phantom Dash
+Life: 6
+Discard 1: Returning Drive
+Discard 2: Perceptional Hex
 Special action available
-pool: Hesitation, Mercy
+pool: Mercy, Recklessness, Hesitation
 
 Claus
 -----
-Life: 8
-Discard 1: Tailwind Shot
-Discard 2: Blast Strike
+Life: 6
+Discard 1: Hurricane Tempest
+Discard 2: Tailwind Strike
 Special action available
 
 
-..C.A..
+.A.C...
 
 
-Unbeatable strategy for Claus: Hurricane Tempest: -9.00
-Unbeatable strategy for Claus: Cyclone Tempest: -9.00
-Unbeatable strategy for Claus: Downdraft Tempest: -2.13
 
 Arec:
-1% Mirrored Burst
-4% Manipulative Hex
-95% Special Pulse
+3% Phantom Strike
+2% Phantom Strike (Hesitation)
+10% Phantom Burst (Hesitation)
+14% Mirrored Grasp
+71% Mirrored Dash
+1% Manipulative Shot (Hesitation)
 
 Claus:
-63% Hurricane Tempest
-2% Cyclone Tempest
-4% Cyclone Drive
-30% Cyclone Grasp
+13% Blast Shot
+25% Blast Drive
+9% Cyclone Shot
+8% Cyclone Drive
+12% Downdraft Shot
+33% Downdraft Burst
 
 
-Arec: Special Pulse
-Claus: Cyclone Grasp
+Arec: Mirrored Dash
+Claus: Downdraft Shot
 
-Pulse:
-
-A.....C
-
-
-
-Beat 10
--------
-
-Arec
-----
-Life: 4
-Discard 1: Perceptional Drive
-Discard 2: Phantom Dash
-pool: Hesitation, Mercy
-
-Claus
------
-Life: 8
-Discard 1: Cyclone Grasp
-Discard 2: Tailwind Shot
-Special action available
-
-
-A.....C
-
-
-Unbeatable strategy for Claus: Downdraft Tempest: -0.88
-
-Arec:
-21% Mirrored Hex
-79% Mirrored Grasp
-
-Claus:
-12% Hurricane Tempest
-88% Downdraft Tempest
-
-
-Arec: Mirrored Grasp
-Claus: Downdraft Tempest
-
-Priorities:  5 | 3
+Priorities:  9 | 1
 Arec is active
-Claus moves:
+Arec moves:
 
-A..C...
+...CA..
 
 
-Arec misses
-Claus hits
-Arec takes 1 damage (now at 3 life)
-Arec is stunned
+Claus misses
 Arec places clone:
 
-A..C...
-..c....
+...CA..
+.c.....
 
 
 Beat 11
@@ -608,169 +574,228 @@ Beat 11
 
 Arec
 ----
-Life: 3
-Discard 1: Mirrored Grasp
-Discard 2: Perceptional Drive
-pool: Hesitation, Mercy
+Life: 6
+Discard 1: Mirrored Dash
+Discard 2: Returning Drive
+Special action available
+pool: Mercy, Recklessness, Hesitation
 
 Claus
 -----
-Life: 8
-Discard 1: Downdraft Tempest
-Discard 2: Cyclone Grasp
+Life: 6
+Discard 1: Downdraft Shot
+Discard 2: Hurricane Tempest
 Special action available
 
 
-A..C...
-..c....
+...CA..
+.c.....
+
+Unbeatable strategy for Claus: Tailwind Strike: -1.34
+Unbeatable strategy for Claus: Tailwind Drive: -1.68
+Unbeatable strategy for Claus: Tailwind Grasp: -0.13
+
 
 Arec:
-91% Phantom Dash
-8% Returning Strike
-1% Manipulative Shot
+54% Phantom Burst (Hesitation)
+2% Perceptional Strike
+43% Perceptional Burst
 
 Claus:
-50% Tailwind Drive
-35% Tailwind Burst
-15% Blast Drive
+15% Tailwind Strike
+55% Tailwind Drive
+30% Blast Grasp
 
 
-Arec: Phantom Dash
-Claus: Blast Drive
+Arec: Perceptional Burst
+Claus: Tailwind Drive
 
-Priorities:  10 | 1
-Arec is active
-Claus moves:
-
-A.C....
-
-
-Arec moves:
-
-..C.A..
-
-
+Priorities:  2 | 4
+Claus is active
 Claus moves Arec:
 
-...C.A.
+...C..A
 
 
-Arec takes 1 damage (now at 2 life)
+Arec takes 2 damage (now at 4 life)
 Arec is stunned
-Claus moves:
-
-...C.A.
-
-
+Arec antes a Hesitation token
 Claus misses
-Arec recovers a Recklessness token
 
 Beat 12
 -------
 
 Arec
 ----
-Life: 2
-Discard 1: Phantom Dash
-Discard 2: Mirrored Grasp
-pool: Hesitation, Mercy, Recklessness
+Life: 4
+Discard 1: Perceptional Burst
+Discard 2: Mirrored Dash
+Special action available
+pool: Mercy, Recklessness
 
 Claus
 -----
-Life: 8
-Discard 1: Blast Drive
-Discard 2: Downdraft Tempest
+Life: 6
+Discard 1: Tailwind Drive
+Discard 2: Downdraft Shot
 Special action available
 
 
-...C.A.
+...C..A
 
 
-Unbeatable strategy for Claus: Tailwind Grasp: -7.00
 
 Arec:
-2% Perceptional Hex
-2% Perceptional Hex (Hesitation)
-2% Perceptional Hex (Mercy)
-2% Perceptional Hex (Recklessness)
-1% Perceptional Strike
-1% Perceptional Strike (Hesitation)
-1% Perceptional Strike (Mercy)
-1% Perceptional Strike (Recklessness)
-2% Perceptional Shot
-2% Perceptional Shot (Hesitation)
-2% Perceptional Shot (Mercy)
-2% Perceptional Shot (Recklessness)
-2% Perceptional Drive
-2% Perceptional Drive (Hesitation)
-2% Perceptional Drive (Mercy)
-1% Perceptional Drive (Recklessness)
-2% Perceptional Burst
-1% Perceptional Burst (Hesitation)
-2% Perceptional Burst (Mercy)
-1% Perceptional Burst (Recklessness)
-2% Returning Hex
-2% Returning Hex (Hesitation)
-2% Returning Hex (Mercy)
-2% Returning Hex (Recklessness)
-2% Returning Strike
-2% Returning Strike (Hesitation)
-2% Returning Strike (Mercy)
-2% Returning Strike (Recklessness)
-2% Returning Shot
-1% Returning Shot (Hesitation)
-2% Returning Shot (Mercy)
-1% Returning Shot (Recklessness)
-2% Returning Drive
-2% Returning Drive (Hesitation)
-2% Returning Drive (Mercy)
-2% Returning Drive (Recklessness)
-2% Returning Burst
-2% Returning Burst (Hesitation)
-2% Returning Burst (Mercy)
-2% Returning Burst (Recklessness)
-1% Manipulative Hex
-1% Manipulative Hex (Hesitation)
-2% Manipulative Hex (Mercy)
-1% Manipulative Hex (Recklessness)
-2% Manipulative Strike
-2% Manipulative Strike (Hesitation)
-2% Manipulative Strike (Mercy)
-2% Manipulative Strike (Recklessness)
-1% Manipulative Shot
-1% Manipulative Shot (Hesitation)
-2% Manipulative Shot (Mercy)
-1% Manipulative Shot (Recklessness)
-2% Manipulative Drive
-2% Manipulative Drive (Hesitation)
-2% Manipulative Drive (Mercy)
-2% Manipulative Drive (Recklessness)
-2% Manipulative Burst
-1% Manipulative Burst (Hesitation)
-2% Manipulative Burst (Mercy)
-1% Manipulative Burst (Recklessness)
+1% Phantom Hex (Recklessness)
+18% Phantom Drive (Recklessness)
+13% Phantom Grasp
+48% Phantom Grasp (Recklessness)
+20% Manipulative Hex (Recklessness)
 
 Claus:
-100% Tailwind Grasp
+8% Hurricane Tempest
+21% Blast Strike
+34% Blast Burst
+32% Cyclone Tempest
+5% Special Autumn's Advance
 
 
-Arec: Manipulative Drive (Hesitation)
-Claus: Tailwind Grasp
+Arec: Phantom Drive (Recklessness)
+Claus: Cyclone Tempest
 
-Arec antes a Hesitation token
-Priorities:  4 | 5
-Claus is active
-Claus moves:
-
-....CA.
+Arec antes a Recklessness token
+Priorities:  5 | 5
+Clash!
 
 
-Claus hits
-Claus moves Arec:
+Arec: Phantom Grasp (Recklessness)
+Claus: Cyclone Strike
+
+Arec antes a Recklessness token
+Priorities:  6 | 4
+Arec is active
+Arec hits
+Arec moves Claus:
+
+....C.A
+
+
+Claus takes 1 damage (now at 5 life)
+Claus misses
+Arec recovers a Hesitation token
+
+Beat 13
+-------
+
+Arec
+----
+Life: 4
+Discard 1: Phantom Grasp
+Discard 2: Perceptional Burst
+Special action available
+pool: Mercy, Hesitation
+
+Claus
+-----
+Life: 5
+Discard 1: Cyclone Strike
+Discard 2: Tailwind Drive
+Special action available
+
+
+....C.A
+
+
+
+Arec:
+9% Returning Hex (Hesitation)
+7% Returning Strike (Mercy)
+70% Returning Drive (Mercy)
+8% Mirrored Shot (Hesitation)
+6% Mirrored Drive (Hesitation)
+
+Claus:
+0% Hurricane Tempest
+60% Downdraft Tempest
+8% Downdraft Burst
+21% Downdraft Dash
+10% Special Autumn's Advance
+
+
+Arec: Returning Drive (Mercy)
+Claus: Downdraft Tempest
+
+Arec antes a Mercy token
+Priorities:  5 | 3
+Arec is active
+Arec moves:
 
 ...AC..
 
 
-Arec takes 3 damage (now at 0 life)
-CLAUS WINS!
-total_time: 49
+Arec hits
+Claus takes 3 damage (now at 2 life)
+Claus is stunned
+
+Beat 14
+-------
+
+Arec
+----
+Life: 4
+Discard 1: Returning Drive
+Discard 2: Phantom Grasp
+Special action available
+pool: Hesitation
+
+Claus
+-----
+Life: 2
+Discard 1: Downdraft Tempest
+Discard 2: Cyclone Strike
+Special action available
+
+
+...AC..
+
+
+
+Arec:
+29% Perceptional Shot
+5% Perceptional Burst
+25% Mirrored Shot (Hesitation)
+29% Mirrored Burst
+12% Mirrored Burst (Hesitation)
+
+Claus:
+34% Hurricane Shot
+2% Hurricane Drive
+20% Hurricane Grasp
+43% Tailwind Shot
+0% Tailwind Burst
+
+
+Arec: Mirrored Shot (Hesitation)
+Claus: Hurricane Shot
+
+Arec antes a Hesitation token
+Priorities:  2 | 2
+Clash!
+
+
+Arec: Mirrored Burst (Hesitation)
+Claus: Hurricane Drive
+
+Arec antes a Hesitation token
+Priorities:  1 | 4
+Claus is active
+Arec moves:
+
+.A..C..
+
+
+Claus misses
+Arec hits
+Claus takes 4 damage (now at 0 life)
+AREC WINS!
+total_time: 57

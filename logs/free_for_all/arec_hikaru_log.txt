@@ -29,61 +29,43 @@ pool: Earth, Fire, Water, Wind
 .A...H.
 
 
-Arec:
-6% Perceptional Drive
-9% Returning Shot (Recklessness)
-17% Mirrored Hex (Recklessness)
-2% Mirrored Drive
-18% Mirrored Drive (Hesitation)
-9% Mirrored Burst (Recklessness)
-39% Mirrored Dash
-
-Hikaru:
-30% Advancing Shot (Earth)
-4% Advancing Shot (Wind)
-8% Advancing Drive (Earth)
-4% Sweeping Shot
-21% Sweeping Shot (Water)
-1% Geomantic Shot (Wind)
-32% Geomantic Drive
-
-
-Arec: Perceptional Drive
-Hikaru: Sweeping Shot (Water)
-
-Hikaru antes a Water token
-Priorities:  5 | 5
-Clash!
 
 Arec:
-40% Perceptional Hex
-60% Perceptional Burst
+4% Perceptional Drive
+26% Returning Shot (Hesitation)
+14% Mirrored Hex (Hesitation)
+9% Mirrored Drive (Fear)
+8% Mirrored Drive (Recklessness)
+1% Mirrored Burst (Hesitation)
+38% Mirrored Dash
 
 Hikaru:
-40% Sweeping Drive (Water)
-60% Sweeping Burst (Water)
+28% Advancing Shot (Earth)
+8% Advancing Shot (Wind)
+18% Advancing Drive (Earth)
+2% Advancing Grasp (Earth)
+19% Sweeping Shot (Earth)
+3% Geomantic Shot (Wind)
+22% Geomantic Drive
 
 
-Arec: Perceptional Hex
-Hikaru: Sweeping Drive (Water)
+Arec: Mirrored Dash
+Hikaru: Sweeping Shot (Earth)
 
-Hikaru antes a Water token
-Priorities:  4 | 7
-Hikaru is active
-Arec antes a Recklessness token
+Hikaru antes an Earth token
+Priorities:  9 | 5
+Arec is active
+Arec moves:
+
+A....H.
+
+
 Hikaru misses
-Arec hits
-Arec moves Hikaru:
+Arec places clone:
 
-.A..H..
+A....H.
+.c.....
 
-
-Arec moves Hikaru:
-
-.A...H.
-
-
-Hikaru takes 5 damage (now at 15 life)
 
 Beat 2
 -------
@@ -91,68 +73,124 @@ Beat 2
 Arec
 ----
 Life: 20
-Discard 1: Perceptional Hex
+Discard 1: Mirrored Dash
 Discard 2: Phantom Strike
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Hesitation, Mercy, Recklessness
 
 Hikaru
 ------
-Life: 15
-Discard 1: Sweeping Drive
+Life: 20
+Discard 1: Sweeping Shot
 Discard 2: Focused Palm Strike
 Special action available
-pool: Earth, Fire, Wind
+pool: Fire, Water, Wind
 
 
-.A...H.
+A....H.
+.c.....
+
+Unbeatable strategy for Arec: Returning Hex (Fear): 2.37
+Unbeatable strategy for Arec: Returning Hex (Hesitation): 2.40
+Unbeatable strategy for Arec: Returning Hex (Hesitation; move to clone): 1.56
+Unbeatable strategy for Arec: Returning Shot (Fear): 1.13
+Unbeatable strategy for Arec: Returning Shot (Hesitation): 0.26
+Unbeatable strategy for Arec: Returning Shot (Hesitation; move to clone): 1.57
+Unbeatable strategy for Arec: Returning Burst (Fear): 0.51
 
 
 Arec:
-30% Returning Shot (Fear)
-18% Mirrored Drive
-37% Mirrored Drive (Hesitation)
-0% Mirrored Burst
-4% Mirrored Grasp
-11% Mirrored Dash
+33% Perceptional Hex
+11% Perceptional Shot
+1% Perceptional Burst
+38% Perceptional Burst (move to clone)
+0% Returning Hex
+6% Manipulative Hex
+11% Manipulative Shot (Hesitation; move to clone)
 
 Hikaru:
-1% Trance Dash
-1% Trance Dash (Earth)
-1% Trance Dash (Fire)
-1% Trance Dash (Wind)
-3% Advancing Shot (Earth)
-5% Advancing Shot (Wind)
-82% Advancing Dash
-0% Advancing Dash (Earth)
-5% Geomantic Shot (Wind)
+4% Trance Dash
+5% Trance Dash (Fire)
+5% Trance Dash (Water)
+5% Trance Dash (Wind)
+1% Advancing Strike
+0% Advancing Drive
+20% Geomantic Strike
+5% Geomantic Burst
+56% Special Pulse
 
 
-Arec: Mirrored Drive
-Hikaru: Advancing Dash
+Arec: Perceptional Burst
+Hikaru: Advancing Strike
 
-Priorities:  4 | 10
+Priorities:  2 | 4
 Hikaru is active
 Hikaru moves:
 
-.A..H..
+A...H..
 
 
-Hikaru moves:
+Arec antes a Mercy token
+Hikaru misses
+Arec hits
+Hikaru takes 3 damage (now at 17 life)
 
-.A.H...
+Beat 3
+-------
+
+Arec
+----
+Life: 20
+Discard 1: Perceptional Burst
+Discard 2: Mirrored Dash
+Special action available
+pool: Fear, Hesitation, Recklessness
+
+Hikaru
+------
+Life: 17
+Discard 1: Advancing Strike
+Discard 2: Sweeping Shot
+Special action available
+pool: Fire, Water, Wind
 
 
-Arec moves:
-
-..AH...
+A...H..
 
 
-Arec misses
-Arec places clone:
+Unbeatable strategy for Arec: Returning Hex (Hesitation): 2.03
+Unbeatable strategy for Arec: Returning Drive (Fear): 0.21
 
-..AH...
-c......
+
+Arec:
+17% Phantom Drive
+20% Returning Hex
+36% Manipulative Hex (Hesitation)
+11% Manipulative Shot (Fear)
+15% Manipulative Shot (Hesitation)
+
+Hikaru:
+1% Trance Drive
+1% Trance Drive (Fire)
+1% Trance Drive (Water)
+1% Trance Drive (Wind)
+1% Trance Burst
+1% Trance Burst (Fire)
+1% Trance Burst (Water)
+1% Trance Burst (Wind)
+5% Focused Drive (Water)
+2% Geomantic Drive (Wind)
+85% Special Pulse
+
+
+Arec: Manipulative Hex (Hesitation)
+Hikaru: Special Pulse
+
+Arec antes a Hesitation token
+Pulse:
+
+.AH....
+
 
 
 Beat 3
@@ -161,65 +199,65 @@ Beat 3
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Drive
-Discard 2: Perceptional Hex
+Discard 1: Manipulative Hex
+Discard 2: Perceptional Burst
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Recklessness
 
 Hikaru
 ------
-Life: 15
-Discard 1: Advancing Dash
-Discard 2: Sweeping Drive
-Special action available
-pool: Earth, Fire, Wind
+Life: 17
+Discard 1: Advancing Strike
+Discard 2: Sweeping Shot
+pool: Fire, Water, Wind
 
 
-..AH...
-c......
+.AH....
+
+
 
 Arec:
-12% Phantom Strike (Fear; move to clone)
-22% Phantom Strike (Mercy; move to clone)
-9% Phantom Shot (Fear; move to clone)
-41% Returning Shot (move to clone)
-0% Manipulative Strike (Fear)
-10% Manipulative Strike (Hesitation)
-1% Manipulative Burst
-5% Manipulative Burst (Fear; move to clone)
+8% Phantom Drive
+34% Phantom Dash
+5% Returning Strike (Fear)
+3% Returning Drive
+8% Returning Drive (Recklessness)
+4% Returning Grasp
+5% Returning Grasp (Fear)
+22% Returning Dash
+10% Mirrored Grasp
 
 Hikaru:
-6% Trance Palm Strike
-9% Trance Palm Strike (Earth)
-9% Trance Palm Strike (Fire)
-9% Trance Palm Strike (Wind)
-0% Trance Burst
-0% Trance Burst (Earth)
-0% Trance Burst (Fire)
-0% Trance Burst (Wind)
-18% Focused Strike (Earth)
-27% Focused Shot (Earth)
-3% Focused Shot (Fire)
-4% Focused Burst (Wind)
-0% Geomantic Shot
-13% Geomantic Shot (Wind)
+4% Trance Drive
+4% Trance Drive (Fire)
+4% Trance Drive (Water)
+4% Trance Drive (Wind)
+10% Trance Dash
+11% Trance Dash (Fire)
+11% Trance Dash (Water)
+11% Trance Dash (Wind)
+0% Focused Palm Strike (Fire)
+13% Focused Drive
+2% Focused Drive (Wind)
+11% Focused Grasp
+8% Focused Grasp (Fire)
+4% Focused Dash (Fire)
+4% Geomantic Palm Strike (Wind)
 
 
-Arec: Returning Shot (move to clone)
-Hikaru: Focused Shot (Earth)
+Arec: Returning Dash
+Hikaru: Trance Dash (Wind)
 
-Arec moves:
-
-A..H...
-
-
-Hikaru antes an Earth token
-Priorities:  3 | 3
+Hikaru antes a Wind token
+Priorities:  10 | 9
 Arec is active
 Hikaru is stunned
-Arec hits
-Hikaru has 3 soak
-Hikaru takes 0 damage (now at 15 life)
+Arec moves:
+
+..H.A..
+
+
+Hikaru recovers an Earth token
 
 Beat 4
 -------
@@ -227,511 +265,505 @@ Beat 4
 Arec
 ----
 Life: 20
-Discard 1: Returning Shot
-Discard 2: Mirrored Drive
+Discard 1: Returning Dash
+Discard 2: Manipulative Hex
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Recklessness
 
 Hikaru
 ------
-Life: 15
-Discard 1: Focused Shot
-Discard 2: Advancing Dash
-Special action available
-pool: Fire, Wind
+Life: 17
+Discard 1: Trance Dash
+Discard 2: Advancing Strike
+pool: Fire, Water, Wind, Earth
 
 
-A..H...
+..H.A..
+
 
 
 Arec:
-7% Phantom Strike
-10% Phantom Strike (Fear)
-60% Phantom Strike (Hesitation)
-16% Perceptional Grasp
-7% Manipulative Hex
+48% Phantom Strike (Recklessness)
+11% Phantom Drive (Recklessness)
+11% Phantom Burst
+4% Mirrored Shot (Fear)
+5% Mirrored Burst
+2% Mirrored Burst (Recklessness)
+11% Mirrored Grasp (Fear)
+8% Mirrored Grasp (Recklessness)
 
 Hikaru:
-6% Trance Drive
-6% Trance Drive (Fire)
-6% Trance Drive (Wind)
-3% Trance Burst
-3% Trance Burst (Fire)
-3% Trance Burst (Wind)
-38% Sweeping Drive
-10% Sweeping Drive (Fire)
-26% Sweeping Burst
+13% Focused Shot
+13% Focused Shot (Fire)
+13% Focused Drive
+16% Focused Drive (Water)
+10% Sweeping Drive (Water)
+9% Geomantic Palm Strike
+13% Geomantic Drive (Wind)
+13% Geomantic Burst
 
 
-Arec: Phantom Strike (Hesitation)
-Hikaru: Sweeping Drive (Fire)
+Arec: Phantom Strike (Recklessness)
+Hikaru: Focused Shot
 
-Arec antes a Hesitation token
-Hikaru antes a Fire token
-Priorities:  4 | 7
-Hikaru is active
-Hikaru moves:
-
-AH.....
-
-
-Hikaru hits
-Arec takes 2 damage (now at 18 life)
+Arec antes a Recklessness token
+Priorities:  4 | 3
+Arec is active
 Arec hits
-Hikaru takes 5 damage (now at 10 life)
-Hikaru is stunned
-Arec recovers a Recklessness token
+Hikaru takes 3 damage (now at 14 life)
+Hikaru hits
+Arec takes 3 damage (now at 17 life)
+Arec recovers a Hesitation token
 
 Beat 5
 -------
 
 Arec
 ----
-Life: 18
+Life: 17
 Discard 1: Phantom Strike
-Discard 2: Returning Shot
+Discard 2: Returning Dash
 Special action available
-pool: Fear, Mercy, Recklessness
+pool: Fear, Hesitation
 
 Hikaru
 ------
-Life: 10
-Discard 1: Sweeping Drive
-Discard 2: Focused Shot
-Special action available
-pool: Wind
+Life: 14
+Discard 1: Focused Shot
+Discard 2: Trance Dash
+pool: Fire, Water, Wind, Earth
 
 
-AH.....
+..H.A..
 
 
-Arec:
-8% Mirrored Hex
-6% Mirrored Drive (Mercy)
-21% Mirrored Grasp
-65% Mirrored Dash
-
-Hikaru:
-41% Trance Palm Strike
-21% Trance Palm Strike (Wind)
-9% Trance Strike
-9% Trance Strike (Wind)
-10% Trance Dash
-9% Trance Dash (Wind)
-1% Geomantic Dash
-
-
-Arec: Mirrored Grasp
-Hikaru: Trance Palm Strike
-
-Priorities:  5 | 5
-Clash!
 
 Arec:
-16% Mirrored Hex
-84% Mirrored Dash
+24% Perceptional Burst
+7% Mirrored Hex (Fear)
+10% Mirrored Shot (Hesitation)
+31% Mirrored Burst (Hesitation)
+1% Mirrored Grasp
+16% Mirrored Grasp (Fear)
+6% Mirrored Grasp (Hesitation)
+5% Manipulative Drive (Fear)
 
 Hikaru:
-81% Trance Grasp
-19% Trance Dash
+12% Advancing Strike (Earth)
+7% Advancing Drive (Wind)
+16% Advancing Drive (Earth)
+25% Advancing Burst (Water)
+1% Geomantic Palm Strike (Earth)
+4% Geomantic Drive (Wind)
+13% Geomantic Drive (Earth)
+23% Geomantic Burst (Earth)
 
 
-Arec: Mirrored Dash
-Hikaru: Trance Dash
+Arec: Perceptional Burst
+Hikaru: Advancing Drive (Earth)
 
-Priorities:  9 | 9
-Clash!
+Hikaru antes an Earth token
+Priorities:  2 | 5
+Hikaru is active
+Hikaru moves:
 
-Arec:
-27% Mirrored Drive
-73% Mirrored Burst
-
-Hikaru:
-1% Trance Strike
-99% Trance Grasp
+...HA..
 
 
-Arec: Mirrored Drive
-Hikaru: Trance Strike
-
-Priorities:  4 | 3
-Arec is active
+Arec antes a Hesitation token
 Arec moves:
 
-.H.A...
+...H..A
 
 
-Arec hits
-Hikaru takes 4 damage (now at 6 life)
 Hikaru misses
-Arec places clone:
-
-.H.A...
-.....c.
-
-Hikaru recovers an Earth token
+Arec hits
+Hikaru has 3 soak
+Hikaru takes 0 damage (now at 14 life)
 
 Beat 6
 -------
 
 Arec
 ----
-Life: 18
-Discard 1: Mirrored Drive
+Life: 17
+Discard 1: Perceptional Burst
 Discard 2: Phantom Strike
 Special action available
-pool: Fear, Mercy, Recklessness
+pool: Fear
 
 Hikaru
 ------
-Life: 6
-Discard 1: Trance Strike
-Discard 2: Sweeping Drive
-Special action available
-pool: Wind, Earth
+Life: 14
+Discard 1: Advancing Drive
+Discard 2: Focused Shot
+pool: Fire, Water, Wind
 
 
-.H.A...
-.....c.
+...H..A
+
+
 
 Arec:
-1% Perceptional Burst (move to clone)
-9% Returning Hex (Fear; move to clone)
-11% Returning Shot (Recklessness; move to clone)
-12% Manipulative Hex (Fear; move to clone)
-1% Manipulative Burst (move to clone)
-0% Manipulative Grasp (Fear; move to clone)
-5% Manipulative Grasp (Recklessness; move to clone)
-61% Manipulative Dash (Fear)
+3% Returning Hex
+42% Returning Hex (Fear)
+26% Mirrored Hex
+20% Mirrored Drive
+10% Manipulative Shot (Fear)
 
 Hikaru:
-12% Focused Palm Strike (Earth)
-5% Focused Shot
-0% Focused Shot (Wind)
-30% Focused Dash (Earth)
-18% Advancing Shot (Wind)
-3% Advancing Dash (Earth)
-17% Geomantic Palm Strike
-14% Geomantic Shot (Wind)
+6% Trance Palm Strike
+5% Trance Palm Strike (Fire)
+5% Trance Palm Strike (Water)
+5% Trance Palm Strike (Wind)
+10% Trance Strike
+10% Trance Strike (Fire)
+10% Trance Strike (Water)
+10% Trance Strike (Wind)
+2% Trance Dash
+1% Trance Dash (Fire)
+1% Trance Dash (Water)
+1% Trance Dash (Wind)
+14% Sweeping Burst (Wind)
+19% Geomantic Burst (Wind)
 
 
-Arec: Manipulative Hex (Fear; move to clone)
-Hikaru: Geomantic Shot (Wind)
+Arec: Mirrored Hex
+Hikaru: Geomantic Burst (Wind)
 
-Arec moves:
-
-.H...A.
-
-
-Arec antes a Fear token
 Hikaru antes a Wind token
-Priorities:  3 | 4
+Priorities:  3 | 3
+Clash!
+
+
+Arec: Mirrored Grasp
+Hikaru: Geomantic Dash (Wind)
+
+Hikaru antes a Wind token
+Priorities:  5 | 11
 Hikaru is active
-Hikaru hits
-Arec takes 4 damage (now at 14 life)
-Arec is stunned
+Hikaru moves:
+
+..H...A
+
+
+Arec misses
+Arec places clone:
+
+..H...A
+c......
+
 
 Beat 7
 -------
 
 Arec
 ----
-Life: 14
-Discard 1: Manipulative Hex
-Discard 2: Mirrored Drive
+Life: 17
+Discard 1: Mirrored Grasp
+Discard 2: Perceptional Burst
 Special action available
-pool: Mercy, Recklessness
+pool: Fear
 
 Hikaru
 ------
-Life: 6
-Discard 1: Geomantic Shot
-Discard 2: Trance Strike
-Special action available
-pool: Earth
+Life: 14
+Discard 1: Geomantic Dash
+Discard 2: Advancing Drive
+pool: Fire, Water
 
 
-.H...A.
+..H...A
+c......
+
+Unbeatable strategy for Arec: Returning Shot: 0.04
 
 
 Arec:
-47% Phantom Burst (Recklessness)
-23% Phantom Grasp (Recklessness)
-5% Perceptional Burst
-14% Returning Burst
-11% Returning Burst (Recklessness)
+9% Returning Hex
+69% Returning Shot
+13% Manipulative Hex
+10% Manipulative Shot (Fear)
 
 Hikaru:
-22% Focused Burst
-22% Advancing Palm Strike
-32% Advancing Palm Strike (Earth)
-11% Advancing Dash
-13% Special Pulse
+7% Trance Strike
+7% Trance Strike (Fire)
+7% Trance Strike (Water)
+14% Trance Burst
+16% Trance Burst (Fire)
+17% Trance Burst (Water)
+10% Focused Shot
+22% Sweeping Shot (Fire)
 
 
-Arec: Returning Burst
-Hikaru: Advancing Dash
+Arec: Returning Shot
+Hikaru: Focused Shot
 
-Priorities:  2 | 10
-Hikaru is active
-Hikaru moves:
-
-..H..A.
-
-
-Arec moves:
-
-..H...A
-
-
-Hikaru moves:
-
-.....HA
-
-
-Arec misses
+Priorities:  3 | 3
+Arec is active
+Hikaru is stunned
+Arec hits
+Hikaru takes 3 damage (now at 11 life)
 
 Beat 8
 -------
 
 Arec
 ----
-Life: 14
-Discard 1: Returning Burst
-Discard 2: Manipulative Hex
+Life: 17
+Discard 1: Returning Shot
+Discard 2: Mirrored Grasp
 Special action available
-pool: Mercy, Recklessness
+pool: Fear
 
 Hikaru
 ------
-Life: 6
-Discard 1: Advancing Dash
-Discard 2: Geomantic Shot
-Special action available
-pool: Earth
+Life: 11
+Discard 1: Focused Shot
+Discard 2: Geomantic Dash
+pool: Fire, Water
 
 
-.....HA
+..H...A
 
 
-Unbeatable strategy for Arec: Mirrored Dash: 3.10
-Unbeatable strategy for Arec: Mirrored Dash (Mercy): 2.70
+Unbeatable strategy for Hikaru: Advancing Drive (Water): -0.84
+
 
 Arec:
-35% Mirrored Drive
-1% Mirrored Drive (Mercy)
-27% Mirrored Grasp
-38% Mirrored Dash
+27% Phantom Strike
+27% Perceptional Strike (Fear)
+42% Perceptional Drive (Fear)
+4% Manipulative Hex (Fear)
 
 Hikaru:
-24% Trance Drive
-26% Trance Drive (Earth)
-10% Focused Palm Strike
-28% Focused Drive
-13% Sweeping Strike
+2% Advancing Drive (Fire)
+22% Advancing Drive (Water)
+32% Advancing Burst (Water)
+44% Sweeping Drive (Water)
 
 
-Arec: Mirrored Dash
-Hikaru: Trance Drive
+Arec: Phantom Strike
+Hikaru: Sweeping Drive (Water)
 
-Priorities:  9 | 4
-Arec is active
-Arec moves:
-
-..A..H.
-
-
+Hikaru antes a Water token
+Priorities:  4 | 7
+Hikaru is active
 Hikaru moves:
 
-..AH...
+....H.A
 
 
-Hikaru misses
-Arec places clone:
-
-..AH...
-c......
-
-Hikaru recovers a Fire token
+Hikaru hits
+Arec takes 2 damage (now at 15 life)
+Arec hits
+Hikaru takes 5 damage (now at 6 life)
+Hikaru is stunned
+Arec recovers a Hesitation token
 
 Beat 9
 -------
 
 Arec
 ----
-Life: 14
-Discard 1: Mirrored Dash
-Discard 2: Returning Burst
+Life: 15
+Discard 1: Phantom Strike
+Discard 2: Returning Shot
 Special action available
-pool: Mercy, Recklessness
+pool: Fear, Hesitation
 
 Hikaru
 ------
 Life: 6
-Discard 1: Trance Drive
-Discard 2: Advancing Dash
-Special action available
-pool: Earth, Fire
+Discard 1: Sweeping Drive
+Discard 2: Focused Shot
+pool: Fire
 
 
-..AH...
-c......
+....H.A
 
-Unbeatable strategy for Hikaru: Focused Shot: -0.47
-Unbeatable strategy for Hikaru: Focused Shot (Fire): -2.67
+
 
 Arec:
-62% Phantom Strike (move to clone)
-9% Perceptional Strike (move to clone)
-30% Manipulative Strike (move to clone)
+1% Perceptional Hex (Fear)
+7% Perceptional Grasp
+35% Mirrored Hex (Fear)
+5% Mirrored Drive (Hesitation)
+24% Mirrored Grasp
+27% Mirrored Grasp (Fear)
 
 Hikaru:
-51% Focused Shot (Fire)
-15% Sweeping Shot (Fire)
-34% Geomantic Shot
+12% Trance Palm Strike
+14% Trance Palm Strike (Fire)
+27% Trance Strike
+30% Trance Strike (Fire)
+2% Trance Dash
+2% Trance Dash (Fire)
+2% Advancing Palm Strike (Fire)
+4% Geomantic Palm Strike
+7% Geomantic Grasp
 
 
-Arec: Perceptional Strike (move to clone)
-Hikaru: Geomantic Shot
+Arec: Perceptional Hex (Fear)
+Hikaru: Trance Strike (Fire)
 
-Arec moves:
-
-A..H...
-
-
-Priorities:  4 | 2
+Arec antes a Fear token
+Hikaru antes a Fire token
+Priorities:  4 | 3
 Arec is active
-Hikaru antes an Earth token
 Arec hits
-Hikaru has 3 soak
-Hikaru takes 1 damage (now at 5 life)
-Hikaru hits
-Arec takes 4 damage (now at 10 life)
+Arec moves Hikaru:
+
+...H..A
+
+
+Arec recovers a Recklessness token
+Hikaru takes 3 damage (now at 3 life)
+Hikaru misses
 
 Beat 10
 -------
 
 Arec
 ----
-Life: 10
-Discard 1: Perceptional Strike
-Discard 2: Mirrored Dash
+Life: 15
+Discard 1: Perceptional Hex
+Discard 2: Phantom Strike
 Special action available
-pool: Mercy, Recklessness
+pool: Hesitation, Recklessness
 
 Hikaru
 ------
-Life: 5
-Discard 1: Geomantic Shot
-Discard 2: Trance Drive
-Special action available
+Life: 3
+Discard 1: Trance Strike
+Discard 2: Sweeping Drive
 pool: Fire
 
 
-A..H...
+...H..A
+
 
 
 Arec:
-35% Phantom Grasp
-48% Returning Grasp
-17% Manipulative Hex
+1% Returning Shot
+11% Returning Grasp
+9% Mirrored Drive
+2% Mirrored Grasp
+1% Mirrored Grasp (Hesitation)
+76% Mirrored Dash
 
 Hikaru:
-50% Advancing Palm Strike
-27% Advancing Burst (Fire)
-23% Advancing Grasp (Fire)
+6% Focused Dash
+59% Advancing Palm Strike
+6% Advancing Shot
+16% Advancing Burst
+5% Geomantic Palm Strike
+9% Geomantic Shot
 
 
-Arec: Returning Grasp
+Arec: Mirrored Dash
 Hikaru: Advancing Palm Strike
 
-Priorities:  6 | 6
+Priorities:  9 | 6
 Arec is active
 Hikaru moves:
 
-A.H....
+....H.A
 
 
 Hikaru moves:
 
-AH.....
+.....HA
 
 
-Arec hits
-Arec moves Hikaru:
+Arec moves:
 
-A.H....
+..A..H.
 
 
-Hikaru takes 2 damage (now at 3 life)
-Hikaru is stunned
+Hikaru misses
+Arec places clone:
+
+..A..H.
+c......
+
 
 Beat 11
 -------
 
 Arec
 ----
-Life: 10
-Discard 1: Returning Grasp
-Discard 2: Perceptional Strike
+Life: 15
+Discard 1: Mirrored Dash
+Discard 2: Perceptional Hex
 Special action available
-pool: Mercy, Recklessness
+pool: Hesitation, Recklessness
 
 Hikaru
 ------
 Life: 3
 Discard 1: Advancing Palm Strike
-Discard 2: Geomantic Shot
-Special action available
+Discard 2: Trance Strike
 pool: Fire
 
 
-A.H....
+..A..H.
+c......
+
+Unbeatable strategy for Arec: Returning Shot (Hesitation): 8.00
+Unbeatable strategy for Arec: Returning Shot (move to clone): 0.74
+Unbeatable strategy for Arec: Returning Shot (Recklessness; move to clone): 0.14
+Unbeatable strategy for Arec: Returning Burst: 1.11
+Unbeatable strategy for Arec: Returning Burst (Hesitation): 0.31
+Unbeatable strategy for Arec: Returning Burst (Recklessness): 0.51
+Unbeatable strategy for Arec: Returning Burst (move to clone): 0.38
+Unbeatable strategy for Arec: Returning Grasp (Hesitation; move to clone): 0.14
 
 
 Arec:
-1% Phantom Drive
-18% Mirrored Shot (Recklessness)
-37% Mirrored Drive
-44% Mirrored Drive (Recklessness)
+100% Returning Shot (Hesitation)
 
 Hikaru:
-4% Trance Strike
-5% Trance Strike (Fire)
-23% Trance Burst
-22% Trance Burst (Fire)
-9% Focused Drive (Fire)
-36% Sweeping Burst (Fire)
+4% Focused Shot
+4% Focused Shot (Fire)
+3% Focused Drive
+2% Focused Drive (Fire)
+3% Focused Burst
+7% Focused Burst (Fire)
+2% Focused Grasp
+4% Focused Grasp (Fire)
+6% Focused Dash
+3% Focused Dash (Fire)
+2% Sweeping Shot
+3% Sweeping Shot (Fire)
+3% Sweeping Drive
+2% Sweeping Drive (Fire)
+1% Sweeping Burst
+6% Sweeping Burst (Fire)
+3% Sweeping Grasp
+3% Sweeping Grasp (Fire)
+5% Sweeping Dash
+2% Sweeping Dash (Fire)
+2% Geomantic Shot
+4% Geomantic Shot (Fire)
+3% Geomantic Drive
+2% Geomantic Drive (Fire)
+4% Geomantic Burst
+3% Geomantic Burst (Fire)
+3% Geomantic Grasp
+2% Geomantic Grasp (Fire)
+6% Geomantic Dash
+3% Geomantic Dash (Fire)
 
 
-Arec: Mirrored Drive (Recklessness)
-Hikaru: Sweeping Burst (Fire)
+Arec: Returning Shot (Hesitation)
+Hikaru: Geomantic Dash
 
-Arec antes a Recklessness token
-Hikaru antes a Fire token
-Priorities:  4 | 4
-Clash!
-
-Arec:
-50% Mirrored Hex (Recklessness)
-50% Mirrored Shot (Recklessness)
-
-Hikaru:
-24% Sweeping Strike (Fire)
-23% Sweeping Drive (Fire)
-24% Sweeping Grasp (Fire)
-29% Sweeping Dash (Fire)
-
-
-Arec: Mirrored Shot (Recklessness)
-Hikaru: Sweeping Strike (Fire)
-
-Arec antes a Recklessness token
-Hikaru antes a Fire token
-Priorities:  2 | 6
+Arec antes a Hesitation token
+Priorities:  3 | 9
 Hikaru is active
-Hikaru misses
+Hikaru antes a Fire token
 Arec hits
-Hikaru takes 6 damage (now at 0 life)
+Hikaru takes 3 damage (now at 0 life)
 AREC WINS!
-total_time: 129
+total_time: 149

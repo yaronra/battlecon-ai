@@ -29,40 +29,54 @@ Active Stim Packs:
 .A...C.
 
 
+
 Arec:
-4% Perceptional Drive
-13% Perceptional Drive (Hesitation)
-19% Mirrored Hex (Recklessness)
-13% Mirrored Drive (Hesitation)
-17% Mirrored Burst (Recklessness)
-34% Mirrored Dash
+19% Perceptional Drive (Recklessness)
+12% Mirrored Hex (Hesitation)
+18% Mirrored Drive (Fear)
+26% Mirrored Drive (Recklessness)
+26% Mirrored Burst (Hesitation)
 
 Clinhyde:
-6% Toxic Shot (Ehrlite)
-22% Shock Drive
-14% Gravity Shot (Hylatine)
-16% Gravity Drive (Hylatine)
-3% Gravity Drive
-38% Gravity Burst (Hylatine)
+9% Toxic Shot (Ehrlite)
+8% Shock Drive
+30% Shock Burst (Hylatine)
+29% Gravity Drive (Hylatine)
+23% Gravity Burst (Hylatine)
 
 
-Arec: Mirrored Hex (Recklessness)
-Clinhyde: Shock Drive
+Arec: Mirrored Drive (Recklessness)
+Clinhyde: Gravity Burst (Hylatine)
 
 Arec antes a Recklessness token
-Priorities:  3 | 5
-Clinhyde is active
-Clinhyde misses
-Arec hits
-Arec moves Clinhyde:
+Clinhyde activates Hylatine
+Clinhyde loses 1 life (now at 19)
+Priorities:  4 | 1
+Arec is active
+Clinhyde moves:
 
 .A....C
 
 
-Clinhyde takes 4 damage (now at 16 life)
+Arec moves:
+
+...A..C
+
+
+Arec hits
+Clinhyde has 2 soak
+Clinhyde takes 2 damage (now at 17 life)
+Clinhyde hits
+Clinhyde moves Arec:
+
+A.....C
+
+
+Arec takes 3 damage (now at 17 life)
+Arec is stunned
 Arec places clone:
 
-.A....C
+A.....C
 .....c.
 
 
@@ -71,414 +85,497 @@ Beat 2
 
 Arec
 ----
-Life: 20
-Discard 1: Mirrored Hex
+Life: 17
+Discard 1: Mirrored Drive
 Discard 2: Phantom Strike
 Special action available
 pool: Fear, Hesitation, Mercy
 
 Clinhyde
 --------
-Life: 16
-Discard 1: Shock Drive
+Life: 17
+Discard 1: Gravity Burst
 Discard 2: Diffusion Frenzy
 Special action available
-Active Stim Packs: 
+Active Stim Packs: Hylatine
 
 
-.A....C
+A.....C
 .....c.
 
-Unbeatable strategy for Clinhyde: Toxic Shot (Hylatine): -0.04
-Unbeatable strategy for Clinhyde: Phase Strike (Hylatine): -0.52
-Unbeatable strategy for Clinhyde: Phase Shot (Hylatine): -0.28
-Unbeatable strategy for Clinhyde: Phase Burst (Hylatine): -0.45
-Unbeatable strategy for Clinhyde: Phase Grasp (Hylatine): -0.09
 
 Arec:
-67% Returning Shot
-6% Returning Shot (move to clone)
-17% Returning Burst
-10% Manipulative Drive (move to clone)
+36% Returning Hex (Fear)
+17% Returning Hex (Hesitation)
+2% Returning Shot (Hesitation)
+1% Returning Shot (Mercy)
+17% Returning Shot (Mercy; move to clone)
+26% Manipulative Hex (Hesitation)
 
 Clinhyde:
-10% Toxic Strike
-41% Gravity Burst (Hylatine)
-20% Phase Strike (Hylatine)
-29% Phase Shot (Hylatine)
+1% Toxic Strike
+29% Toxic Shot (Ehrlite)
+28% Toxic Shot
+12% Shock Drive (Crizma)
+20% Shock Drive
+10% Phase Strike
 
 
-Arec: Returning Shot
-Clinhyde: Toxic Strike
+Arec: Manipulative Hex (Hesitation)
+Clinhyde: Shock Drive
 
-Priorities:  3 | 4
+Arec antes a Hesitation token
+Clinhyde loses 1 life (now at 16)
+Priorities:  3 | 5
 Clinhyde is active
 Clinhyde misses
 Arec hits
-Clinhyde takes 3 damage (now at 13 life)
+Arec chooses Clinhyde's base: Grasp
+Arec moves Clinhyde:
+
+A....C.
+
+
+Arec recovers a Recklessness token
+Clinhyde takes 4 damage (now at 12 life)
 
 Beat 3
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Returning Shot
-Discard 2: Mirrored Hex
+Life: 17
+Discard 1: Manipulative Hex
+Discard 2: Mirrored Drive
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Mercy, Recklessness
+Manipulative forced base: Grasp
 
 Clinhyde
 --------
-Life: 13
-Discard 1: Toxic Strike
-Discard 2: Shock Drive
+Life: 12
+Discard 1: Shock Drive
+Discard 2: Gravity Burst
 Special action available
-Active Stim Packs: 
+Active Stim Packs: Hylatine
 
 
-.A....C
+A....C.
+
+
+Unbeatable strategy for Arec: Returning Shot: 0.69
+Unbeatable strategy for Arec: Returning Shot (Mercy): 0.29
+Unbeatable strategy for Arec: Returning Shot (Recklessness): 0.09
 
 
 Arec:
-2% Phantom Strike
-29% Phantom Grasp
-28% Phantom Dash (Mercy)
-12% Perceptional Drive
-30% Perceptional Burst
+15% Phantom Shot
+21% Phantom Grasp
+9% Perceptional Shot
+55% Returning Shot
 
 Clinhyde:
-11% Gravity Shot (Crizma)
-6% Gravity Shot (Ehrlite)
-1% Gravity Burst (Hylatine)
-22% Phase Shot
-61% Phase Grasp
+76% Toxic Grasp
+4% Toxic Dash
+9% Diffusion Shot
+11% Diffusion Dash
 
 
 Arec: Phantom Grasp
-Clinhyde: Phase Grasp
+Clinhyde: Toxic Grasp
 
-Priorities:  6 | 2
+Clinhyde loses 1 life (now at 11)
+Priorities:  6 | 6
+Clash!
+
+
+Arec: Phantom Shot
+Clinhyde: Toxic Shot
+
+Clinhyde loses 1 life (now at 11)
+Clinhyde loses 2 life (now at 9)
+Priorities:  3 | 3
+Clash!
+
+
+Arec: Phantom Dash
+Clinhyde: Toxic Frenzy
+
+Clinhyde loses 1 life (now at 11)
+Clinhyde loses 2 life (now at 9)
+Priorities:  10 | 4
 Arec is active
-Arec misses
+Clinhyde moves:
+
+A...C..
+
+
+Clinhyde moves:
+
+A..C...
+
+
+Arec moves:
+
+.A.C...
+
+
 Clinhyde misses
-Arec recovers a Recklessness token
+Clinhyde de-activates Hylatine
+Arec recovers a Hesitation token
 
 Beat 4
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Phantom Grasp
-Discard 2: Returning Shot
+Life: 17
+Discard 1: Phantom Dash
+Discard 2: Manipulative Hex
 Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
+pool: Fear, Mercy, Recklessness, Hesitation
 
 Clinhyde
 --------
-Life: 13
-Discard 1: Phase Grasp
-Discard 2: Toxic Strike
+Life: 9
+Discard 1: Toxic Frenzy
+Discard 2: Shock Drive
 Special action available
 Active Stim Packs: 
 
 
-.A....C
+.A.C...
+
 
 
 Arec:
-36% Mirrored Hex (Recklessness)
-12% Mirrored Drive
-20% Mirrored Drive (Hesitation)
-1% Mirrored Burst
-15% Mirrored Burst (Recklessness)
-16% Mirrored Dash
+11% Perceptional Strike
+28% Mirrored Strike (Fear)
+13% Mirrored Strike (Hesitation)
+18% Mirrored Shot (Fear)
+31% Mirrored Shot (Hesitation)
 
 Clinhyde:
-29% Shock Drive
-3% Diffusion Shot (Ehrlite)
-24% Gravity Frenzy (Hylatine)
-11% Gravity Frenzy
-6% Gravity Shot (Hylatine)
-25% Gravity Burst (Hylatine)
+8% Gravity Strike (Hylatine)
+11% Gravity Strike
+27% Gravity Shot (Hylatine)
+29% Gravity Burst (Hylatine)
+26% Gravity Dash
 
 
-Arec: Mirrored Dash
-Clinhyde: Shock Drive
+Arec: Mirrored Strike (Fear)
+Clinhyde: Gravity Strike
 
-Priorities:  9 | 5
-Arec is active
-Arec moves:
-
-A.....C
+Arec antes a Fear token
+Priorities:  3 | 3
+Clash!
 
 
+Arec: Mirrored Shot (Fear)
+Clinhyde: Gravity Dash
+
+Arec antes a Fear token
+Priorities:  2 | 9
+Clinhyde is active
 Clinhyde moves:
 
-AC.....
+.AC....
 
 
-Clinhyde hits
-Arec takes 2 damage (now at 18 life)
-Arec is stunned
-Arec is stunned
-Arec places clone:
-
-AC.....
-.....c.
-
+Arec misses
 
 Beat 5
 -------
 
 Arec
 ----
-Life: 18
-Discard 1: Mirrored Dash
-Discard 2: Phantom Grasp
+Life: 17
+Discard 1: Mirrored Shot
+Discard 2: Phantom Dash
 Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
+pool: Mercy, Recklessness, Hesitation
 
 Clinhyde
 --------
-Life: 13
-Discard 1: Shock Drive
-Discard 2: Phase Grasp
+Life: 9
+Discard 1: Gravity Dash
+Discard 2: Toxic Frenzy
 Special action available
 Active Stim Packs: 
 
 
-AC.....
-.....c.
+.AC....
+
+
 
 Arec:
-3% Perceptional Shot (Hesitation; move to clone)
-8% Returning Shot (Mercy; move to clone)
-4% Returning Drive (Mercy)
-23% Manipulative Hex (move to clone)
-4% Manipulative Strike
-15% Manipulative Strike (Fear)
-23% Manipulative Strike (Fear; move to clone)
-20% Manipulative Drive (Hesitation)
+10% Perceptional Hex
+4% Perceptional Drive
+28% Returning Strike (Mercy)
+20% Returning Drive
+1% Returning Burst (Hesitation)
+22% Returning Grasp
+10% Manipulative Drive
+4% Manipulative Burst (Hesitation)
 
 Clinhyde:
-31% Toxic Frenzy (Hylatine)
-3% Toxic Strike (Crizma)
-3% Toxic Shot (Ehrlite)
-35% Toxic Shot (Hylatine)
-3% Diffusion Shot (Ehrlite)
-20% Gravity Frenzy (Hylatine)
-5% Gravity Strike (Ehrlite)
-1% Gravity Burst (Hylatine)
+32% Shock Shot (Hylatine)
+7% Shock Burst (Hylatine)
+36% Shock Grasp
+1% Diffusion Strike (Ehrlite)
+9% Diffusion Drive (Hylatine)
+4% Diffusion Burst (Ehrlite)
+1% Diffusion Grasp (Crizma)
+9% Phase Burst
 
 
-Arec: Returning Shot (Mercy; move to clone)
-Clinhyde: Gravity Frenzy (Hylatine)
+Arec: Returning Grasp
+Clinhyde: Phase Burst
 
-Arec moves:
-
-.C...A.
-
-
-Arec antes a Mercy token
-Clinhyde activates Hylatine
-Clinhyde loses 1 life (now at 12)
-Priorities:  3 | 3
+Priorities:  6 | -2
 Arec is active
 Clinhyde moves:
 
-..C..A.
+.A..C..
 
 
-Arec hits
-Clinhyde has 2 soak
-Clinhyde takes 1 damage (now at 11 life)
-Clinhyde hits
-Arec takes 2 damage (now at 16 life)
-Clinhyde de-activates Hylatine
+Arec misses
+Clinhyde misses
 
 Beat 6
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Returning Shot
-Discard 2: Mirrored Dash
+Life: 17
+Discard 1: Returning Grasp
+Discard 2: Mirrored Shot
 Special action available
-pool: Fear, Hesitation, Recklessness
+pool: Mercy, Recklessness, Hesitation
 
 Clinhyde
 --------
-Life: 11
-Discard 1: Gravity Frenzy
-Discard 2: Shock Drive
+Life: 9
+Discard 1: Phase Burst
+Discard 2: Gravity Dash
 Special action available
 Active Stim Packs: 
 
 
-..C..A.
+.A..C..
+
 
 
 Arec:
-15% Phantom Hex
-15% Phantom Strike (Hesitation)
-18% Phantom Drive
-13% Perceptional Strike
-9% Perceptional Strike (Hesitation)
-1% Manipulative Hex
-18% Manipulative Hex (Hesitation)
-12% Manipulative Strike (Recklessness)
+31% Phantom Strike (Mercy)
+17% Phantom Drive (Mercy)
+0% Phantom Burst (Hesitation)
+14% Perceptional Strike
+16% Perceptional Strike (Recklessness)
+3% Perceptional Burst
+9% Manipulative Hex (Hesitation)
+4% Manipulative Strike (Hesitation)
+2% Manipulative Burst
+4% Manipulative Burst (Hesitation)
 
 Clinhyde:
-7% Toxic Shot (Ehrlite)
-47% Toxic Shot (Hylatine)
-5% Toxic Burst (Ehrlite)
-10% Toxic Burst (Hylatine)
-9% Toxic Dash
-1% Diffusion Shot (Ehrlite)
-15% Diffusion Shot (Hylatine)
-6% Diffusion Burst (Hylatine)
+13% Toxic Frenzy (Ehrlite)
+5% Toxic Strike
+0% Toxic Shot (Ehrlite)
+28% Toxic Shot (Hylatine)
+7% Toxic Shot
+2% Toxic Drive (Crizma)
+6% Shock Strike
+28% Diffusion Frenzy (Hylatine)
+5% Diffusion Strike
+5% Diffusion Shot (Hylatine)
 
 
 Arec: Manipulative Hex (Hesitation)
-Clinhyde: Toxic Burst (Hylatine)
+Clinhyde: Toxic Frenzy (Ehrlite)
 
 Arec antes a Hesitation token
-Clinhyde activates Hylatine
-Clinhyde loses 1 life (now at 10)
-Priorities:  3 | 2
-Arec is active
+Clinhyde activates Ehrlite
+Clinhyde loses 1 life (now at 8)
+Priorities:  3 | 7
+Clinhyde is active
 Clinhyde moves:
 
-...C.A.
+.A.C...
 
 
 Clinhyde moves:
 
-.C...A.
+.AC....
 
 
-Arec hits
-Arec chooses Clinhyde's base: Strike
-Arec recovers a Mercy token
-Clinhyde has 2 soak
-Clinhyde takes 2 damage (now at 8 life)
-Clinhyde misses
+Clinhyde hits
+Arec takes 2 damage (now at 15 life)
+Arec is stunned
 
 Beat 7
 -------
 
 Arec
 ----
-Life: 16
+Life: 15
 Discard 1: Manipulative Hex
-Discard 2: Returning Shot
+Discard 2: Returning Grasp
 Special action available
-pool: Fear, Recklessness, Mercy
-Manipulative forced base: Strike
+pool: Mercy, Recklessness
 
 Clinhyde
 --------
 Life: 8
-Discard 1: Toxic Burst
-Discard 2: Gravity Frenzy
+Discard 1: Toxic Frenzy
+Discard 2: Phase Burst
 Special action available
-Active Stim Packs: Hylatine
+Active Stim Packs: Ehrlite
 
 
-.C...A.
+.AC....
 
 
-Unbeatable strategy for Arec: Mirrored Dash: 0.54
-Unbeatable strategy for Arec: Mirrored Dash (Mercy): 0.14
+Unbeatable strategy for Arec: Mirrored Dash: 0.34
+
 
 Arec:
-11% Mirrored Strike
-17% Mirrored Drive
-22% Mirrored Drive (Recklessness)
-8% Mirrored Burst
-15% Mirrored Burst (Recklessness)
-19% Mirrored Burst (Mercy)
-7% Mirrored Grasp
+26% Phantom Shot (Mercy)
+15% Phantom Drive (Recklessness)
+59% Phantom Dash
 
 Clinhyde:
-2% Shock Strike (Ehrlite)
-9% Shock Strike
-7% Diffusion Shot (Ehrlite)
-7% Diffusion Shot
-61% Phase Strike
-4% Phase Shot
-9% Phase Drive
+10% Shock Strike
+86% Shock Drive
+4% Diffusion Strike
 
 
-Arec: Mirrored Drive (Recklessness)
-Clinhyde: Phase Strike
+Arec: Phantom Shot (Mercy)
+Clinhyde: Shock Drive
 
-Arec antes a Recklessness token
+Arec antes a Mercy token
 Clinhyde loses 1 life (now at 7)
-Priorities:  4 | 0
-Arec is active
-Arec misses
-Clinhyde misses
-Arec places clone:
+Priorities:  3 | 6
+Clinhyde is active
+Clinhyde moves:
 
-.C...A.
-..c....
+CA.....
 
+
+Clinhyde hits
+Arec takes 2 damage (now at 13 life)
+Arec hits
+Clinhyde takes 2 damage (now at 5 life)
+Clinhyde is stunned
+Arec recovers a Hesitation token
 
 Beat 8
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Mirrored Drive
+Life: 13
+Discard 1: Phantom Shot
 Discard 2: Manipulative Hex
 Special action available
-pool: Fear, Mercy
+pool: Recklessness, Hesitation
 
 Clinhyde
 --------
-Life: 7
-Discard 1: Phase Strike
-Discard 2: Toxic Burst
+Life: 5
+Discard 1: Shock Drive
+Discard 2: Toxic Frenzy
 Special action available
-Active Stim Packs: Hylatine
+Active Stim Packs: Ehrlite
 
 
-.C...A.
-..c....
+CA.....
 
-Unbeatable strategy for Clinhyde: Shock Drive: -0.35
+
+Unbeatable strategy for Arec: Mirrored Dash: 0.79
+
 
 Arec:
-66% Phantom Strike (Mercy; move to clone)
-21% Phantom Shot (Mercy; move to clone)
-1% Phantom Grasp (move to clone)
-10% Returning Strike (Mercy; move to clone)
-2% Returning Shot (Mercy)
+16% Returning Strike
+18% Returning Strike (Hesitation)
+65% Mirrored Burst
 
 Clinhyde:
-6% Shock Frenzy (Crizma)
-0% Shock Shot (Ehrlite)
-61% Shock Drive
-7% Gravity Drive
-26% Gravity Dash
+28% Diffusion Shot (Hylatine)
+64% Gravity Burst (Hylatine)
+8% Gravity Dash
 
 
-Arec: Phantom Strike (Mercy; move to clone)
-Clinhyde: Shock Drive
+Arec: Mirrored Burst
+Clinhyde: Diffusion Shot (Hylatine)
 
+Clinhyde activates Hylatine
+Clinhyde loses 2 life (now at 3)
+Priorities:  1 | 4
+Clinhyde is active
 Arec moves:
+
+C.A....
+
+
+Clinhyde misses
+Arec misses
+Clinhyde moves:
 
 .CA....
 
 
-Arec antes a Mercy token
-Clinhyde loses 1 life (now at 6)
-Priorities:  4 | 5
+Arec places clone:
+
+.CA....
+c......
+
+
+Beat 9
+-------
+
+Arec
+----
+Life: 13
+Discard 1: Mirrored Burst
+Discard 2: Phantom Shot
+Special action available
+pool: Recklessness, Hesitation
+
+Clinhyde
+--------
+Life: 3
+Discard 1: Diffusion Shot
+Discard 2: Shock Drive
+Special action available
+Active Stim Packs: Ehrlite, Hylatine
+
+
+.CA....
+c......
+
+
+Arec:
+46% Perceptional Hex (Recklessness)
+4% Returning Hex
+16% Returning Strike (Recklessness)
+34% Returning Strike (Recklessness; move to clone)
+0% Returning Grasp (Recklessness)
+
+Clinhyde:
+40% Toxic Burst (Crizma)
+49% Toxic Grasp
+4% Toxic Dash
+6% Phase Frenzy (Crizma)
+0% Phase Dash
+
+
+Arec: Perceptional Hex (Recklessness)
+Clinhyde: Toxic Grasp
+
+Arec antes a Recklessness token
+Clinhyde loses 2 life (now at 1)
+Priorities:  4 | 6
 Clinhyde is active
 Clinhyde moves:
 
@@ -487,375 +584,187 @@ Clinhyde moves:
 
 Clinhyde moves:
 
-..A...C
+.CA....
 
 
-Clinhyde misses
-Arec misses
-Arec recovers a Recklessness token
-
-Beat 9
--------
-
-Arec
-----
-Life: 16
-Discard 1: Phantom Strike
-Discard 2: Mirrored Drive
-Special action available
-pool: Fear, Recklessness
-
-Clinhyde
---------
-Life: 6
-Discard 1: Shock Drive
-Discard 2: Phase Strike
-Special action available
-Active Stim Packs: Hylatine
-
-
-..A...C
-
-
-Arec:
-36% Perceptional Burst
-29% Returning Shot
-7% Manipulative Hex (Fear)
-14% Manipulative Dash
-13% Manipulative Dash (Fear)
-
-Clinhyde:
-5% Toxic Frenzy (Crizma)
-26% Toxic Shot (Crizma)
-25% Toxic Burst
-3% Diffusion Shot
-41% Gravity Grasp
-
-
-Arec: Returning Shot
-Clinhyde: Gravity Grasp
-
-Clinhyde loses 1 life (now at 5)
-Priorities:  3 | 5
-Clinhyde is active
 Clinhyde hits
 Clinhyde moves Arec:
 
-.A....C
+.C.A...
 
 
-Clinhyde moves Arec:
-
-A.....C
-
-
-Arec takes 2 damage (now at 14 life)
-Arec misses
+Arec takes 2 damage (now at 11 life)
+Arec is stunned
 
 Beat 10
 -------
 
 Arec
 ----
-Life: 14
-Discard 1: Returning Shot
-Discard 2: Phantom Strike
-Special action available
-pool: Fear, Recklessness
-
-Clinhyde
---------
-Life: 5
-Discard 1: Gravity Grasp
-Discard 2: Shock Drive
-Special action available
-Active Stim Packs: Hylatine
-
-
-A.....C
-
-
-Arec:
-29% Perceptional Hex
-33% Perceptional Hex (Fear)
-30% Mirrored Hex
-9% Mirrored Burst
-
-Clinhyde:
-18% Toxic Shot (Ehrlite)
-4% Toxic Shot
-1% Diffusion Strike
-77% Diffusion Shot
-
-
-Arec: Perceptional Hex
-Clinhyde: Diffusion Shot
-
-Clinhyde loses 1 life (now at 4)
-Priorities:  4 | 3
-Arec is active
-Arec hits
-Arec moves Clinhyde:
-
-A....C.
-
-
-Arec moves Clinhyde:
-
-A.....C
-
-
-Arec recovers a Hesitation token
-Clinhyde takes 3 damage (now at 1 life)
-Clinhyde misses
-Clinhyde moves:
-
-AC.....
-
-
-
-Beat 11
--------
-
-Arec
-----
-Life: 14
+Life: 11
 Discard 1: Perceptional Hex
-Discard 2: Returning Shot
+Discard 2: Mirrored Burst
 Special action available
-pool: Fear, Recklessness, Hesitation
+pool: Hesitation
 
 Clinhyde
 --------
 Life: 1
-Discard 1: Diffusion Shot
-Discard 2: Gravity Grasp
+Discard 1: Toxic Grasp
+Discard 2: Diffusion Shot
 Special action available
-Active Stim Packs: Hylatine
+Active Stim Packs: Ehrlite, Hylatine
 
 
-AC.....
+.C.A...
 
 
-Unbeatable strategy for Arec: Mirrored Dash: 0.46
 
 Arec:
-9% Phantom Drive (Hesitation)
-9% Phantom Grasp (Recklessness)
-48% Phantom Grasp (Hesitation)
-5% Phantom Dash
-3% Phantom Dash (Hesitation)
-1% Manipulative Strike (Recklessness)
-26% Manipulative Grasp (Recklessness)
+66% Phantom Grasp
+8% Returning Grasp
+23% Returning Grasp (Hesitation)
+4% Manipulative Grasp
 
 Clinhyde:
-1% Toxic Drive (Crizma)
-0% Toxic Drive (Ehrlite)
-11% Toxic Dash
-18% Shock Drive (Ehrlite)
-8% Shock Dash (Ehrlite)
-3% Shock Dash
-59% Special Pulse
+2% Shock Drive
+11% Shock Dash
+2% Gravity Burst (Crizma)
+85% Special Pulse
 
 
-Arec: Manipulative Grasp (Recklessness)
+Arec: Phantom Grasp
 Clinhyde: Special Pulse
 
-Arec antes a Recklessness token
-Clinhyde loses 1 life (now at 1)
+Clinhyde loses 2 life (now at 1)
 Pulse:
 
-.A..C..
+.A....C
 
 
 
-Beat 11
+Beat 10
 -------
 
 Arec
 ----
-Life: 14
-Discard 1: Manipulative Grasp
+Life: 11
+Discard 1: Phantom Grasp
 Discard 2: Perceptional Hex
 Special action available
-pool: Fear, Hesitation
+pool: Hesitation
 
 Clinhyde
 --------
 Life: 1
-Discard 1: Diffusion Shot
-Discard 2: Gravity Grasp
-Active Stim Packs: Hylatine
+Discard 1: Toxic Grasp
+Discard 2: Diffusion Shot
+Active Stim Packs: Ehrlite, Hylatine
 
 
-.A..C..
+.A....C
 
 
-Unbeatable strategy for Arec: Mirrored Dash: 1.58
-Unbeatable strategy for Arec: Mirrored Dash (Fear): 0.01
-Unbeatable strategy for Arec: Mirrored Dash (Hesitation): 0.98
+Unbeatable strategy for Arec: Mirrored Dash: 0.42
+
 
 Arec:
-2% Phantom Shot
-5% Returning Drive
-8% Returning Drive (Fear)
-2% Returning Drive (Hesitation)
-15% Mirrored Strike
-5% Mirrored Shot
-62% Mirrored Dash
+0% Returning Shot (Hesitation)
+12% Mirrored Shot (Hesitation)
+35% Mirrored Drive
+34% Mirrored Drive (Hesitation)
+15% Mirrored Burst (Hesitation)
+4% Mirrored Dash
 
 Clinhyde:
-5% Toxic Frenzy (Crizma)
-3% Toxic Frenzy
-5% Shock Drive (Ehrlite)
-28% Shock Drive
-8% Shock Burst
-33% Shock Dash
-17% Phase Frenzy (Crizma)
+8% Shock Frenzy (Crizma)
+18% Shock Strike
+49% Gravity Frenzy
+1% Gravity Strike
+15% Gravity Burst
+10% Phase Drive
+
+
+Arec: Mirrored Drive
+Clinhyde: Gravity Frenzy
+
+Clinhyde loses 2 life (now at 1)
+Priorities:  4 | 4
+Clash!
 
 
 Arec: Mirrored Dash
-Clinhyde: Shock Drive (Ehrlite)
+Clinhyde: Gravity Drive
 
-Clinhyde activates Ehrlite
 Clinhyde loses 2 life (now at 1)
-Priorities:  9 | 7
+Priorities:  9 | 5
 Arec is active
 Arec moves:
 
-....CA.
+....A.C
 
 
 Clinhyde moves:
 
-.C...A.
-
-
-Clinhyde moves:
-
-...C.A.
+...CA..
 
 
 Clinhyde misses
 Arec places clone:
 
-...C.A.
+...CA..
 c......
 
 
-Beat 12
+Beat 11
 -------
 
 Arec
 ----
-Life: 14
+Life: 11
 Discard 1: Mirrored Dash
-Discard 2: Manipulative Grasp
+Discard 2: Phantom Grasp
 Special action available
-pool: Fear, Hesitation
+pool: Hesitation
 
 Clinhyde
 --------
 Life: 1
-Discard 1: Shock Drive
-Discard 2: Diffusion Shot
+Discard 1: Gravity Drive
+Discard 2: Toxic Grasp
 Active Stim Packs: Ehrlite, Hylatine
 
 
-...C.A.
+...CA..
 c......
 
+
 Arec:
-49% Phantom Hex (Hesitation)
-6% Phantom Strike
-7% Phantom Shot
-2% Phantom Shot (Fear)
-14% Phantom Shot (Hesitation)
-1% Phantom Drive (Hesitation)
-15% Phantom Drive (Hesitation; move to clone)
-4% Perceptional Hex (Fear)
-3% Returning Hex (Fear; move to clone)
+15% Perceptional Hex
+30% Perceptional Drive
+2% Returning Strike
+0% Returning Drive
+31% Returning Drive (Hesitation)
+22% Returning Burst
 
 Clinhyde:
-3% Toxic Frenzy (Crizma)
-5% Toxic Frenzy
-2% Toxic Grasp (Crizma)
-1% Toxic Grasp
-1% Toxic Dash
-3% Gravity Grasp (Crizma)
-1% Gravity Grasp
-19% Gravity Dash
-65% Phase Dash
+3% Diffusion Frenzy (Crizma)
+30% Diffusion Strike (Crizma)
+24% Diffusion Burst (Crizma)
+11% Phase Frenzy (Crizma)
+18% Phase Strike
+14% Phase Burst
 
 
-Arec: Phantom Hex (Hesitation)
-Clinhyde: Gravity Dash
+Arec: Returning Drive (Hesitation)
+Clinhyde: Diffusion Strike (Crizma)
 
 Arec antes a Hesitation token
-Clinhyde loses 2 life (now at 1)
-Priorities:  4 | 9
-Clinhyde is active
-Clinhyde moves:
-
-.....AC
-
-
-Arec misses
-Arec recovers a Recklessness token
-
-Beat 13
--------
-
-Arec
-----
-Life: 14
-Discard 1: Phantom Hex
-Discard 2: Mirrored Dash
-Special action available
-pool: Fear, Recklessness
-
-Clinhyde
---------
-Life: 1
-Discard 1: Gravity Dash
-Discard 2: Shock Drive
-Active Stim Packs: Ehrlite, Hylatine
-
-
-.....AC
-
-
-Arec:
-7% Returning Drive
-29% Returning Burst (Recklessness)
-33% Returning Grasp
-31% Returning Grasp (Fear)
-
-Clinhyde:
-33% Toxic Burst (Crizma)
-24% Diffusion Frenzy (Crizma)
-36% Diffusion Grasp (Crizma)
-7% Phase Frenzy (Crizma)
-
-
-Arec: Returning Grasp
-Clinhyde: Diffusion Frenzy (Crizma)
-
 Clinhyde activates Crizma
 Clinhyde loses 3 life (now at 1)
-Priorities:  6 | 5
+Priorities:  5 | 5
 Arec is active
-Clinhyde moves:
-
-....CA.
-
-
 Arec hits
-Arec moves Clinhyde:
-
-...C.A.
-
-
-Clinhyde takes 2 damage (now at 0 life)
+Clinhyde takes 3 damage (now at 0 life)
 AREC WINS!
-total_time: 236
+total_time: 153

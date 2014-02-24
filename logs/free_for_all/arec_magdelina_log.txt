@@ -30,39 +30,48 @@ Trance: 0
 .A...M.
 
 
-Unbeatable strategy for Magdelina: Safety Blessing: -0.21
-Unbeatable strategy for Magdelina: Safety Strike: -0.26
-Unbeatable strategy for Magdelina: Safety Shot: -0.09
+Unbeatable strategy for Magdelina: Safety Blessing: -0.64
+Unbeatable strategy for Magdelina: Safety Strike: -0.75
+Unbeatable strategy for Magdelina: Safety Shot: -0.56
+Unbeatable strategy for Magdelina: Safety Burst: -0.46
+Unbeatable strategy for Magdelina: Safety Dash: -0.50
+
 
 Arec:
-57% Mirrored Hex
-29% Mirrored Shot (Recklessness)
-13% Mirrored Burst (Recklessness)
+44% Mirrored Hex
+15% Mirrored Hex (Hesitation)
+30% Mirrored Shot (Hesitation)
+12% Mirrored Burst (Hesitation)
 
 Magdelina:
-79% Safety Strike
-8% Priestess Burst
+71% Safety Strike
+14% Safety Shot
+2% Safety Burst
 13% Excelsius Dash
 
 
-Arec: Mirrored Shot (Recklessness)
-Magdelina: Priestess Burst
+Arec: Mirrored Hex
+Magdelina: Safety Strike
 
-Arec antes a Recklessness token
-Priorities:  2 | 0
+Priorities:  3 | 2
 Arec is active
-Magdelina moves:
+Arec hits
+Arec moves Magdelina:
 
 .A....M
 
 
-Arec hits
 Magdelina takes 4 damage (now at 16 life)
-Magdelina is stunned
+Magdelina misses
 Arec places clone:
 
 .A....M
-.....c.
+c......
+
+Magdelina moves:
+
+.A.M...
+c......
 
 Magdelina gains a Trance counter: has 1
 Magdelina discards all Trance counters
@@ -74,77 +83,63 @@ Beat 2
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Shot
+Discard 1: Mirrored Hex
 Discard 2: Phantom Strike
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Hesitation, Mercy, Recklessness
 
 Magdelina
 ---------
 Life: 16
-Discard 1: Priestess Burst
+Discard 1: Safety Strike
 Discard 2: Spiritual Drive
 Special action available
 Level: 1
 Trance: 0
 
 
-.A....M
-.....c.
+.A.M...
+c......
 
-Unbeatable strategy for Magdelina: Safety Blessing: -0.22
-Unbeatable strategy for Magdelina: Excelsius Shot: -0.20
 
 Arec:
-49% Returning Hex (Fear)
-14% Manipulative Hex
-29% Manipulative Hex (Hesitation)
-2% Manipulative Drive (Hesitation; move to clone)
-5% Manipulative Burst (move to clone)
+24% Perceptional Shot (move to clone)
+17% Perceptional Burst (move to clone)
+33% Perceptional Burst (Hesitation; move to clone)
+13% Returning Shot (Mercy; move to clone)
+2% Manipulative Shot (Hesitation; move to clone)
+11% Manipulative Drive (Mercy; move to clone)
 
 Magdelina:
-22% Safety Blessing
-16% Safety Strike
-35% Sanctimonious Grasp
-5% Excelsius Strike
-22% Excelsius Shot
+22% Priestess Shot
+19% Priestess Dash
+17% Sanctimonious Blessing
+17% Sanctimonious Shot
+13% Excelsius Blessing
+12% Excelsius Grasp
 
 
-Arec: Manipulative Hex (Hesitation)
-Magdelina: Sanctimonious Grasp
+Arec: Perceptional Burst (Hesitation; move to clone)
+Magdelina: Excelsius Grasp
 
-Arec antes a Hesitation token
-Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  3 | 3
-Clash!
-
-Arec:
-85% Manipulative Burst (Hesitation)
-15% Manipulative Dash (Hesitation)
-
-Magdelina:
-51% Sanctimonious Strike
-49% Sanctimonious Dash
-
-
-Arec: Manipulative Burst (Hesitation)
-Magdelina: Sanctimonious Dash
-
-Arec antes a Hesitation token
-Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  1 | 7
-Magdelina is active
 Arec moves:
 
-A.....M
+A..M...
 
 
-Magdelina moves:
+Arec antes a Hesitation token
+Magdelina gets a +1 bonus to power, priority and stungard
+Priorities:  2 | 5
+Magdelina is active
+Magdelina misses
+Arec hits
+Arec moves Magdelina:
 
-A...M..
+A.M....
 
 
-Arec misses
+Magdelina takes 3 damage (now at 13 life)
+Magdelina is stunned
 Magdelina gains a Trance counter: has 1
 
 Beat 3
@@ -153,63 +148,55 @@ Beat 3
 Arec
 ----
 Life: 20
-Discard 1: Manipulative Burst
-Discard 2: Mirrored Shot
+Discard 1: Perceptional Burst
+Discard 2: Mirrored Hex
 Special action available
-pool: Fear, Mercy
+pool: Fear, Mercy, Recklessness
 
 Magdelina
 ---------
-Life: 16
-Discard 1: Sanctimonious Dash
-Discard 2: Priestess Burst
+Life: 13
+Discard 1: Excelsius Grasp
+Discard 2: Safety Strike
 Special action available
 Level: 1
 Trance: 1
 
 
-A...M..
+A.M....
+
+
+Unbeatable strategy for Magdelina: Priestess Dash: -0.23
 
 
 Arec:
-20% Phantom Hex
-9% Phantom Strike
-66% Perceptional Drive
-6% Returning Hex
+55% Phantom Drive (Mercy)
+10% Returning Strike
+10% Returning Strike (Mercy)
+6% Returning Shot
+19% Returning Shot (Mercy)
+1% Returning Shot (Recklessness)
 
 Magdelina:
-3% Spiritual Strike
-53% Spiritual Drive
-13% Excelsius Strike
-31% Excelsius Shot
+13% Priestess Blessing
+19% Priestess Shot
+10% Priestess Drive
+50% Priestess Dash
+7% Spiritual Drive
 
 
-Arec: Perceptional Drive
-Magdelina: Spiritual Drive
-
-Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  5 | 5
-Clash!
-
-Arec:
-28% Perceptional Hex
-72% Perceptional Grasp
-
-Magdelina:
-72% Spiritual Blessing
-28% Spiritual Shot
-
-
-Arec: Perceptional Grasp
-Magdelina: Spiritual Blessing
+Arec: Returning Strike
+Magdelina: Priestess Shot
 
 Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  6 | 4
+Priorities:  4 | 2
 Arec is active
-Arec antes a Mercy token
-Arec misses
-Magdelina hits
-Magdelina gains a Trance counter: has 1
+Arec hits
+Magdelina takes 4 damage (now at 9 life)
+Magdelina is stunned
+Magdelina gains a Trance counter: has 2
+Magdelina discards all Trance counters
+Magdelina gains a Level: has 2
 
 Beat 4
 -------
@@ -217,112 +204,66 @@ Beat 4
 Arec
 ----
 Life: 20
-Discard 1: Perceptional Grasp
-Discard 2: Manipulative Burst
+Discard 1: Returning Strike
+Discard 2: Perceptional Burst
 Special action available
-pool: Fear
+pool: Fear, Mercy, Recklessness
 
 Magdelina
 ---------
-Life: 16
-Discard 1: Spiritual Blessing
-Discard 2: Sanctimonious Dash
+Life: 9
+Discard 1: Priestess Shot
+Discard 2: Excelsius Grasp
 Special action available
-Level: 1
-Trance: 1
+Level: 2
+Trance: 0
 
 
-A...M..
+A.M....
 
 
-Unbeatable strategy for Magdelina: Priestess Strike: -0.16
-Unbeatable strategy for Magdelina: Excelsius Drive: -1.29
+Unbeatable strategy for Magdelina: Safety Drive: -0.49
+
 
 Arec:
-57% Returning Hex
-24% Returning Drive (Fear)
-19% Mirrored Drive
+49% Mirrored Hex (Recklessness)
+40% Mirrored Grasp
+11% Mirrored Grasp (Mercy)
 
 Magdelina:
-32% Priestess Burst
-0% Excelsius Shot
-67% Excelsius Drive
+59% Safety Drive
+28% Sanctimonious Blessing
+13% Sanctimonious Burst
 
 
-Arec: Mirrored Drive
-Magdelina: Excelsius Drive
+Arec: Mirrored Hex (Recklessness)
+Magdelina: Safety Drive
 
-Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  4 | 4
-Clash!
-
-Arec:
-23% Mirrored Hex
-77% Mirrored Shot
-
-Magdelina:
-25% Excelsius Strike
-75% Excelsius Shot
-
-
-Arec: Mirrored Shot
-Magdelina: Excelsius Shot
-
-Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  2 | 2
-Clash!
-
-Arec:
-45% Mirrored Hex
-55% Mirrored Strike
-
-Magdelina:
-55% Excelsius Strike
-45% Excelsius Burst
-
-
-Arec: Mirrored Strike
-Magdelina: Excelsius Strike
-
-Magdelina gets a +1 bonus to power, priority and stungard
+Arec antes a Recklessness token
+Magdelina gets a +2 bonus to power, priority and stungard
 Priorities:  3 | 3
 Clash!
 
-Arec:
-100% Mirrored Hex
 
-Magdelina:
-100% Excelsius Grasp
+Arec: Mirrored Shot (Recklessness)
+Magdelina: Safety Dash
 
-
-Arec: Mirrored Hex
-Magdelina: Excelsius Grasp
-
-Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  3 | 5
+Arec antes a Recklessness token
+Magdelina gets a +2 bonus to power, priority and stungard
+Priorities:  2 | 8
 Magdelina is active
 Magdelina moves:
 
-A..M...
+AM.....
 
 
-Magdelina misses
-Arec hits
-Arec moves Magdelina:
-
-A...M..
-
-
-Arec recovers a Recklessness token
-Magdelina takes 4 damage (now at 12 life)
+Arec misses
 Arec places clone:
 
-A...M..
-...c...
+AM.....
+....c..
 
-Magdelina gains a Trance counter: has 2
-Magdelina discards all Trance counters
-Magdelina gains a Level: has 2
+Magdelina gains a Trance counter: has 1
 
 Beat 5
 -------
@@ -330,81 +271,62 @@ Beat 5
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Hex
-Discard 2: Perceptional Grasp
+Discard 1: Mirrored Shot
+Discard 2: Returning Strike
 Special action available
-pool: Fear, Recklessness
+pool: Fear, Mercy
 
 Magdelina
 ---------
-Life: 12
-Discard 1: Excelsius Grasp
-Discard 2: Spiritual Blessing
+Life: 9
+Discard 1: Safety Dash
+Discard 2: Priestess Shot
 Special action available
 Level: 2
-Trance: 0
+Trance: 1
 
 
-A...M..
-...c...
+AM.....
+....c..
 
-Unbeatable strategy for Magdelina: Priestess Shot: -0.10
+Unbeatable strategy for Magdelina: Spiritual Drive: -0.45
+Unbeatable strategy for Magdelina: Sanctimonious Drive: -0.11
+Unbeatable strategy for Magdelina: Excelsius Blessing: -0.67
+Unbeatable strategy for Magdelina: Excelsius Strike: -0.47
+Unbeatable strategy for Magdelina: Excelsius Drive: -2.64
+Unbeatable strategy for Magdelina: Excelsius Grasp: -0.76
+
 
 Arec:
-8% Phantom Strike (Recklessness; move to clone)
-45% Returning Shot (Recklessness)
-25% Returning Drive (move to clone)
-4% Manipulative Shot (Recklessness)
-17% Manipulative Drive (move to clone)
+88% Phantom Dash
+3% Perceptional Hex (move to clone)
+9% Perceptional Drive (move to clone)
 
 Magdelina:
-12% Priestess Strike
-27% Priestess Shot
-14% Priestess Drive
-30% Priestess Burst
-17% Priestess Dash
+43% Sanctimonious Drive
+14% Excelsius Drive
+43% Excelsius Grasp
 
 
-Arec: Manipulative Drive (move to clone)
-Magdelina: Priestess Strike
-
-Arec moves:
-
-...AM..
-
+Arec: Phantom Dash
+Magdelina: Sanctimonious Drive
 
 Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  4 | 4
-Clash!
-
-Arec:
-32% Manipulative Strike (move to clone)
-68% Manipulative Dash (move to clone)
-
-Magdelina:
-75% Priestess Shot
-25% Priestess Burst
-
-
-Arec: Manipulative Dash (move to clone)
-Magdelina: Priestess Shot
-
-Arec moves:
-
-...AM..
-
-
-Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  9 | 3
+Priorities:  10 | 4
 Arec is active
 Arec moves:
 
-....M.A
+.MA....
+
+
+Magdelina moves:
+
+..AM...
 
 
 Magdelina misses
-Magdelina gains 1 life (now at 13)
-Magdelina gains a Trance counter: has 1
+Arec recovers a Hesitation token
+Magdelina gains a Trance counter: has 2
 
 Beat 6
 -------
@@ -412,71 +334,73 @@ Beat 6
 Arec
 ----
 Life: 20
-Discard 1: Manipulative Dash
-Discard 2: Mirrored Hex
+Discard 1: Phantom Dash
+Discard 2: Mirrored Shot
 Special action available
-pool: Fear, Recklessness
+pool: Fear, Mercy, Hesitation
 
 Magdelina
 ---------
-Life: 13
-Discard 1: Priestess Shot
-Discard 2: Excelsius Grasp
+Life: 9
+Discard 1: Sanctimonious Drive
+Discard 2: Safety Dash
 Special action available
 Level: 2
-Trance: 1
+Trance: 2
 
 
-....M.A
+..AM...
 
 
-Unbeatable strategy for Magdelina: Safety Blessing: -0.14
-Unbeatable strategy for Magdelina: Sanctimonious Blessing: -1.50
+Unbeatable strategy for Magdelina: Spiritual Grasp: -0.04
+
 
 Arec:
-52% Perceptional Strike
-20% Perceptional Shot
-28% Returning Strike
+37% Perceptional Hex
+11% Perceptional Burst
+17% Returning Strike
+5% Returning Strike (Mercy)
+3% Returning Burst
+24% Returning Grasp
+1% Manipulative Strike (Mercy)
+3% Manipulative Burst
 
 Magdelina:
-14% Safety Blessing
-74% Sanctimonious Blessing
-12% Sanctimonious Drive
+26% Priestess Shot
+6% Priestess Burst
+11% Priestess Grasp
+9% Spiritual Strike
+21% Spiritual Grasp
+6% Excelsius Blessing
+12% Excelsius Shot
+8% Excelsius Grasp
 
 
-Arec: Perceptional Strike
-Magdelina: Safety Blessing
+Arec: Perceptional Hex
+Magdelina: Spiritual Strike
 
 Magdelina gets a +2 bonus to power, priority and stungard
 Priorities:  4 | 4
 Clash!
 
-Arec:
-10% Perceptional Shot
-90% Perceptional Drive
 
-Magdelina:
-14% Safety Strike
-86% Safety Drive
-
-
-Arec: Perceptional Shot
-Magdelina: Safety Drive
+Arec: Perceptional Drive
+Magdelina: Spiritual Shot
 
 Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  3 | 5
-Magdelina is active
-Arec antes a Recklessness token
-Magdelina misses
+Priorities:  5 | 3
+Arec is active
+Arec moves:
+
+...M.A.
+
+
 Arec hits
-Magdelina takes 3 damage (now at 10 life)
+Magdelina takes 3 damage (now at 6 life)
 Magdelina is stunned
-Magdelina moves:
-
-.....MA
-
-
-Magdelina gains a Trance counter: has 2
+Magdelina gains a Trance counter: has 3
+Magdelina discards all Trance counters
+Magdelina gains a Level: has 3
 
 Beat 7
 -------
@@ -484,535 +408,128 @@ Beat 7
 Arec
 ----
 Life: 20
-Discard 1: Perceptional Shot
-Discard 2: Manipulative Dash
+Discard 1: Perceptional Drive
+Discard 2: Phantom Dash
 Special action available
-pool: Fear
+pool: Fear, Mercy, Hesitation
 
 Magdelina
 ---------
-Life: 10
-Discard 1: Safety Drive
-Discard 2: Priestess Shot
-Special action available
-Level: 2
-Trance: 2
-
-
-.....MA
-
-
-Arec:
-7% Phantom Hex
-24% Returning Strike
-17% Mirrored Hex
-52% Mirrored Drive
-
-Magdelina:
-30% Spiritual Blessing
-44% Spiritual Strike
-19% Sanctimonious Grasp
-7% Excelsius Burst
-
-
-Arec: Phantom Hex
-Magdelina: Spiritual Strike
-
-Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  4 | 4
-Clash!
-
-Arec:
-93% Phantom Strike
-7% Phantom Grasp
-
-Magdelina:
-19% Spiritual Blessing
-81% Spiritual Grasp
-
-
-Arec: Phantom Grasp
-Magdelina: Spiritual Grasp
-
-Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  6 | 6
-Clash!
-
-Arec:
-79% Phantom Strike
-21% Phantom Burst
-
-Magdelina:
-10% Spiritual Blessing
-90% Spiritual Burst
-
-
-Arec: Phantom Strike
-Magdelina: Spiritual Burst
-
-Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  4 | 2
-Arec is active
-Magdelina moves:
-
-....M.A
-
-
-Arec hits
-Magdelina takes 3 damage (now at 7 life)
-Magdelina is stunned
-Arec recovers a Recklessness token
-Magdelina gains a Trance counter: has 3
-Magdelina discards all Trance counters
-Magdelina gains a Level: has 3
-
-Beat 8
--------
-
-Arec
-----
-Life: 20
-Discard 1: Phantom Strike
-Discard 2: Perceptional Shot
-Special action available
-pool: Fear, Recklessness
-
-Magdelina
----------
-Life: 7
-Discard 1: Spiritual Burst
-Discard 2: Safety Drive
+Life: 6
+Discard 1: Spiritual Shot
+Discard 2: Sanctimonious Drive
 Special action available
 Level: 3
 Trance: 0
 
 
-....M.A
+...M.A.
 
-
-Unbeatable strategy for Arec: Mirrored Burst (Recklessness): 0.17
-
-Arec:
-40% Mirrored Hex (Recklessness)
-50% Mirrored Drive (Recklessness)
-10% Mirrored Grasp
-
-Magdelina:
-2% Sanctimonious Shot
-12% Excelsius Grasp
-85% Special Pulse
-
-
-Arec: Mirrored Hex (Recklessness)
-Magdelina: Special Pulse
-
-Arec antes a Recklessness token
-Magdelina gets a +3 bonus to power, priority and stungard
-Pulse:
-
-.A....M
-
-
-
-Beat 8
--------
-
-Arec
-----
-Life: 20
-Discard 1: Mirrored Hex
-Discard 2: Phantom Strike
-Special action available
-pool: Fear
-
-Magdelina
----------
-Life: 7
-Discard 1: Spiritual Burst
-Discard 2: Safety Drive
-Level: 3
-Trance: 0
-
-
-.A....M
 
 
 Arec:
-39% Perceptional Burst
-50% Returning Shot
-11% Manipulative Burst
+51% Mirrored Hex (Hesitation)
+35% Mirrored Strike (Hesitation)
+14% Mirrored Burst
 
 Magdelina:
-35% Priestess Strike
-48% Sanctimonious Blessing
-17% Excelsius Shot
+34% Safety Strike
+53% Safety Burst
+13% Excelsius Burst
 
 
-Arec: Manipulative Burst
-Magdelina: Excelsius Shot
+Arec: Mirrored Hex (Hesitation)
+Magdelina: Excelsius Burst
 
+Arec antes a Hesitation token
 Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  1 | 4
+Priorities:  3 | 3
+Clash!
+
+
+Arec: Mirrored Strike (Hesitation)
+Magdelina: Excelsius Grasp
+
+Arec antes a Hesitation token
+Magdelina gets a +3 bonus to power, priority and stungard
+Priorities:  3 | 7
 Magdelina is active
-Arec moves:
+Magdelina misses
+Arec hits
+Magdelina takes 5 damage (now at 1 life)
+Magdelina is stunned
+Arec places clone:
 
-A.....M
+...M.A.
+c......
 
-
-Magdelina moves:
-
-A....M.
-
-
-Magdelina hits
-Arec takes 5 damage (now at 15 life)
-Arec is stunned
 Magdelina gains a Trance counter: has 1
 
-Beat 9
+Beat 8
 -------
 
 Arec
 ----
-Life: 15
-Discard 1: Manipulative Burst
-Discard 2: Mirrored Hex
+Life: 20
+Discard 1: Mirrored Strike
+Discard 2: Perceptional Drive
 Special action available
-pool: Fear
+pool: Fear, Mercy
 
 Magdelina
 ---------
-Life: 7
-Discard 1: Excelsius Shot
-Discard 2: Spiritual Burst
+Life: 1
+Discard 1: Excelsius Grasp
+Discard 2: Spiritual Shot
+Special action available
 Level: 3
 Trance: 1
 
 
-A....M.
+...M.A.
+c......
 
-
-Unbeatable strategy for Magdelina: Priestess Dash: -0.23
 
 Arec:
-60% Phantom Drive
-40% Perceptional Shot
+40% Phantom Hex (move to clone)
+60% Phantom Grasp (move to clone)
 
 Magdelina:
-78% Priestess Dash
-22% Sanctimonious Drive
+40% Priestess Drive
+60% Priestess Dash
 
 
-Arec: Perceptional Shot
+Arec: Phantom Grasp (move to clone)
+Magdelina: Priestess Drive
+
+Arec moves:
+
+A..M...
+
+
+Magdelina gets a +3 bonus to power, priority and stungard
+Priorities:  6 | 6
+Clash!
+
+
+Arec: Phantom Shot (move to clone)
 Magdelina: Priestess Dash
+
+Arec moves:
+
+A..M...
+
 
 Magdelina gets a +3 bonus to power, priority and stungard
 Priorities:  3 | 11
 Magdelina is active
-Magdelina gains 1 life (now at 8)
+Magdelina gains 1 life (now at 2)
 Magdelina moves:
 
-A...M..
+AM.....
 
 
 Arec hits
-Arec moves Magdelina:
-
-A..M...
-
-
-Magdelina takes 3 damage (now at 5 life)
-Magdelina gains a Trance counter: has 2
-
-Beat 10
--------
-
-Arec
-----
-Life: 15
-Discard 1: Perceptional Shot
-Discard 2: Manipulative Burst
-Special action available
-pool: Fear
-
-Magdelina
----------
-Life: 5
-Discard 1: Priestess Dash
-Discard 2: Excelsius Shot
-Level: 3
-Trance: 2
-
-
-A..M...
-
-
-Arec:
-8% Returning Strike
-6% Mirrored Strike
-1% Mirrored Strike (Fear)
-1% Mirrored Drive
-10% Mirrored Grasp
-74% Mirrored Dash
-
-Magdelina:
-6% Safety Blessing
-38% Safety Drive
-12% Spiritual Burst
-14% Sanctimonious Blessing
-22% Sanctimonious Strike
-8% Sanctimonious Grasp
-
-
-Arec: Mirrored Dash
-Magdelina: Sanctimonious Blessing
-
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  9 | 4
-Arec is active
-Arec moves:
-
-...MA..
-
-
-Magdelina misses
-Arec places clone:
-
-...MA..
-c......
-
-Magdelina gains a Trance counter: has 3
-
-Beat 11
--------
-
-Arec
-----
-Life: 15
-Discard 1: Mirrored Dash
-Discard 2: Perceptional Shot
-Special action available
-pool: Fear
-
-Magdelina
----------
-Life: 5
-Discard 1: Sanctimonious Blessing
-Discard 2: Priestess Dash
-Level: 3
-Trance: 3
-
-
-...MA..
-c......
-
-Arec:
-20% Returning Hex (move to clone)
-4% Returning Strike
-16% Returning Strike (move to clone)
-25% Returning Drive
-36% Returning Grasp
-
-Magdelina:
-7% Excelsius Strike
-38% Excelsius Shot
-13% Excelsius Drive
-10% Excelsius Burst
-32% Excelsius Grasp
-
-
-Arec: Returning Drive
-Magdelina: Excelsius Burst
-
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  5 | 3
-Arec is active
-Magdelina moves:
-
-..M.A..
-
-
-Arec moves:
-
-..MA...
-
-
-Arec hits
-Magdelina takes 3 damage (now at 2 life)
-Magdelina moves:
-
-.M.A...
-
-
-Magdelina hits
-Arec takes 5 damage (now at 10 life)
-Arec is stunned
-Magdelina gains a Trance counter: has 4
-Magdelina discards all Trance counters
-Magdelina gains a Level: has 4
-
-Beat 12
--------
-
-Arec
-----
-Life: 10
-Discard 1: Returning Drive
-Discard 2: Mirrored Dash
-Special action available
-pool: Fear
-
-Magdelina
----------
-Life: 2
-Discard 1: Excelsius Burst
-Discard 2: Sanctimonious Blessing
-Level: 4
-Trance: 0
-
-
-.M.A...
-
-
-Unbeatable strategy for Magdelina: Priestess Dash: -0.90
-Unbeatable strategy for Magdelina: Spiritual Dash: -0.84
-
-Arec:
-9% Phantom Hex
-67% Phantom Burst
-24% Perceptional Grasp
-
-Magdelina:
-10% Priestess Shot
-12% Priestess Drive
-78% Priestess Dash
-
-
-Arec: Phantom Hex
-Magdelina: Priestess Dash
-
-Magdelina gets a +4 bonus to power, priority and stungard
-Priorities:  4 | 12
-Magdelina is active
-Magdelina gains 1 life (now at 3)
-Magdelina moves:
-
-...AM..
-
-
-Arec misses
-Arec recovers a Recklessness token
-Magdelina gains a Trance counter: has 1
-
-Beat 13
--------
-
-Arec
-----
-Life: 10
-Discard 1: Phantom Hex
-Discard 2: Returning Drive
-Special action available
-pool: Fear, Recklessness
-
-Magdelina
----------
-Life: 3
-Discard 1: Priestess Dash
-Discard 2: Excelsius Burst
-Level: 4
-Trance: 1
-
-
-...AM..
-
-
-Unbeatable strategy for Magdelina: Spiritual Grasp: -0.14
-
-Arec:
-40% Mirrored Burst
-58% Mirrored Dash
-2% Manipulative Grasp
-
-Magdelina:
-30% Spiritual Shot
-1% Spiritual Drive
-69% Spiritual Grasp
-
-
-Arec: Mirrored Dash
-Magdelina: Spiritual Grasp
-
-Magdelina gets a +4 bonus to power, priority and stungard
-Priorities:  9 | 6
-Arec is active
-Arec moves:
-
-A...M..
-
-
-Magdelina misses
-Arec places clone:
-
-A...M..
-...c...
-
-Magdelina gains a Trance counter: has 1
-
-Beat 14
--------
-
-Arec
-----
-Life: 10
-Discard 1: Mirrored Dash
-Discard 2: Phantom Hex
-Special action available
-pool: Fear, Recklessness
-
-Magdelina
----------
-Life: 3
-Discard 1: Spiritual Grasp
-Discard 2: Priestess Dash
-Level: 4
-Trance: 1
-
-
-A...M..
-...c...
-
-Arec:
-3% Perceptional Drive
-5% Perceptional Burst
-2% Returning Strike (Recklessness)
-1% Returning Shot (Recklessness)
-41% Returning Drive
-12% Returning Drive (move to clone)
-35% Returning Burst (Recklessness)
-
-Magdelina:
-20% Sanctimonious Strike
-16% Sanctimonious Drive
-1% Sanctimonious Burst
-15% Excelsius Blessing
-31% Excelsius Strike
-8% Excelsius Shot
-9% Excelsius Burst
-
-
-Arec: Returning Drive
-Magdelina: Sanctimonious Strike
-
-Magdelina gets a +4 bonus to power, priority and stungard
-Priorities:  5 | 5
-Arec is active
-Arec moves:
-
-..A.M..
-
-
-Arec hits
-Magdelina takes 3 damage (now at 0 life)
+Magdelina takes 2 damage (now at 0 life)
 AREC WINS!
-total_time: 36
+total_time: 38

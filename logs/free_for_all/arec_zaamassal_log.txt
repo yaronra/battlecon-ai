@@ -29,41 +29,42 @@ Active paradigm: None
 .A...Z.
 
 
+
 Arec:
-11% Perceptional Drive
-8% Returning Shot
-34% Returning Shot (Recklessness)
-18% Mirrored Shot (Recklessness)
-5% Mirrored Drive
-24% Mirrored Burst (Recklessness)
+14% Perceptional Drive
+37% Returning Shot (Hesitation)
+21% Mirrored Shot (Hesitation)
+11% Mirrored Drive
+18% Mirrored Burst (Hesitation)
 
 Zaamassal:
-4% Urgent Paradigm Shift
-42% Urgent Shot
-18% Sturdy Shot
-26% Warped Paradigm Shift
-4% Warped Strike
-6% Warped Shot
+8% Urgent Paradigm Shift
+30% Urgent Shot
+32% Sturdy Shot
+27% Warped Paradigm Shift
+2% Warped Strike
 
 
-Arec: Mirrored Drive
-Zaamassal: Sturdy Shot
+Arec: Mirrored Burst (Hesitation)
+Zaamassal: Urgent Paradigm Shift
 
-Priorities:  4 | 2
-Arec is active
+Arec antes a Hesitation token
+Priorities:  1 | 5
+Zaamassal is active
 Arec moves:
 
-...A.Z.
+A....Z.
 
 
+Zaamassal misses
 Arec hits
 Zaamassal takes 4 damage (now at 16 life)
-Zaamassal misses
-Zaamassal assumes the Paradigm of Resilience
+Zaamassal is stunned
+Zaamassal loses all paradigms
 Arec places clone:
 
-...A.Z.
-c......
+A....Z.
+.c.....
 
 
 Beat 2
@@ -72,68 +73,54 @@ Beat 2
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Drive
+Discard 1: Mirrored Burst
 Discard 2: Phantom Strike
 Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
+pool: Fear, Mercy, Recklessness
 
 Zaamassal
 ---------
 Life: 16
-Discard 1: Sturdy Shot
+Discard 1: Urgent Paradigm Shift
 Discard 2: Malicious Grasp
 Special action available
-Active paradigm: Resilience
+Active paradigm: None
 
-
-...A.Z.
-c......
-
-Unbeatable strategy for Arec: Returning Hex (Recklessness; move to clone): 0.10
-
-Arec:
-7% Perceptional Hex (Recklessness; move to clone)
-1% Perceptional Shot
-6% Perceptional Shot (move to clone)
-2% Perceptional Burst (Recklessness)
-38% Returning Hex (Recklessness; move to clone)
-5% Returning Shot (Fear; move to clone)
-41% Manipulative Hex (Recklessness; move to clone)
-
-Zaamassal:
-3% Sinuous Paradigm Shift
-1% Sinuous Strike
-19% Sinuous Drive
-29% Sinuous Dash
-10% Urgent Burst
-7% Warped Paradigm Shift
-31% Warped Strike
-
-
-Arec: Returning Hex (Recklessness; move to clone)
-Zaamassal: Warped Strike
-
-Arec moves:
 
 A....Z.
+.c.....
 
 
-Arec antes a Recklessness token
-Priorities:  4 | 3
+Arec:
+3% Perceptional Hex (Fear; move to clone)
+12% Perceptional Shot
+32% Perceptional Drive
+29% Returning Hex
+24% Returning Hex (Fear; move to clone)
+
+Zaamassal:
+7% Sinuous Dash
+34% Warped Strike
+23% Warped Shot
+10% Warped Drive
+26% Warped Dash
+
+
+Arec: Perceptional Drive
+Zaamassal: Warped Shot
+
+Priorities:  5 | 2
 Arec is active
-Zaamassal moves:
+Arec antes a Fear token
+Arec moves:
 
-A.....Z
+..A..Z.
 
 
 Arec hits
-Arec moves Zaamassal:
-
-A....Z.
-
-
 Zaamassal takes 3 damage (now at 13 life)
-Zaamassal misses
+Zaamassal is stunned
+Zaamassal loses all paradigms
 
 Beat 3
 -------
@@ -141,56 +128,59 @@ Beat 3
 Arec
 ----
 Life: 20
-Discard 1: Returning Hex
-Discard 2: Mirrored Drive
+Discard 1: Perceptional Drive
+Discard 2: Mirrored Burst
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Mercy, Recklessness
 
 Zaamassal
 ---------
 Life: 13
-Discard 1: Warped Strike
-Discard 2: Sturdy Shot
+Discard 1: Warped Shot
+Discard 2: Urgent Paradigm Shift
 Special action available
-Active paradigm: Resilience
+Active paradigm: None
 
 
-A....Z.
+..A..Z.
 
 
-Unbeatable strategy for Zaamassal: Urgent Paradigm Shift: -3.22
+Unbeatable strategy for Zaamassal: Sinuous Dash: -0.73
+Unbeatable strategy for Zaamassal: Sturdy Drive: -1.26
+Unbeatable strategy for Zaamassal: Sturdy Dash: -0.74
+
 
 Arec:
-34% Phantom Shot
-9% Manipulative Shot
-57% Manipulative Grasp
+8% Phantom Hex
+78% Phantom Strike
+12% Phantom Shot
+2% Phantom Dash
 
 Zaamassal:
-13% Sinuous Paradigm Shift
-59% Urgent Paradigm Shift
-28% Urgent Drive
+22% Sinuous Strike
+6% Sinuous Drive
+63% Sinuous Dash
+9% Sturdy Drive
 
 
-Arec: Manipulative Grasp
-Zaamassal: Urgent Paradigm Shift
+Arec: Phantom Shot
+Zaamassal: Sinuous Dash
 
-Priorities:  5 | 5
-Clash!
-
-Arec:
-100% Manipulative Shot
-
-Zaamassal:
-100% Urgent Grasp
-
-
-Arec: Manipulative Shot
-Zaamassal: Urgent Grasp
-
-Priorities:  2 | 7
+Priorities:  3 | 10
 Zaamassal is active
-Zaamassal misses
+Zaamassal assumes the Paradigm of Fluidity
+Zaamassal moves:
+
+.ZA....
+
+
 Arec misses
+Zaamassal moves:
+
+..AZ...
+
+
+Arec recovers a Hesitation token
 
 Beat 4
 -------
@@ -198,64 +188,61 @@ Beat 4
 Arec
 ----
 Life: 20
-Discard 1: Manipulative Shot
-Discard 2: Returning Hex
+Discard 1: Phantom Shot
+Discard 2: Perceptional Drive
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Mercy, Recklessness, Hesitation
 
 Zaamassal
 ---------
 Life: 13
-Discard 1: Urgent Grasp
-Discard 2: Warped Strike
+Discard 1: Sinuous Dash
+Discard 2: Warped Shot
 Special action available
-Active paradigm: Resilience
+Active paradigm: Fluidity
 
 
-A....Z.
+..AZ...
 
 
-Unbeatable strategy for Zaamassal: Sinuous Dash: -0.12
 
 Arec:
-0% Perceptional Dash
-2% Mirrored Drive (Fear)
-98% Mirrored Burst
+1% Returning Hex
+2% Returning Burst (Hesitation)
+4% Mirrored Hex
+4% Mirrored Burst (Hesitation)
+87% Mirrored Dash
+3% Manipulative Hex
 
 Zaamassal:
-2% Malicious Dash
-26% Sinuous Burst
-71% Sinuous Dash
-1% Sturdy Dash
+8% Urgent Paradigm Shift
+7% Urgent Strike
+2% Urgent Burst
+2% Sturdy Paradigm Shift
+29% Sturdy Drive
+51% Sturdy Burst
 
 
-Arec: Mirrored Burst
-Zaamassal: Sinuous Burst
+Arec: Mirrored Dash
+Zaamassal: Sturdy Burst
 
-Priorities:  1 | 2
-Zaamassal is active
-Zaamassal moves:
+Priorities:  9 | 1
+Arec is active
+Arec moves:
 
-A.....Z
+...Z..A
 
 
 Zaamassal misses
-Zaamassal assumes the Paradigm of Fluidity
-Arec misses
-Zaamassal moves:
-
-A....Z.
-
-
-Zaamassal moves:
-
-A.....Z
-
-
 Arec places clone:
 
-A.....Z
-.....c.
+...Z..A
+.c.....
+
+Zaamassal moves:
+
+....Z.A
+.c.....
 
 
 Beat 5
@@ -264,101 +251,60 @@ Beat 5
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Burst
-Discard 2: Manipulative Shot
+Discard 1: Mirrored Dash
+Discard 2: Phantom Shot
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Mercy, Recklessness, Hesitation
 
 Zaamassal
 ---------
 Life: 13
-Discard 1: Sinuous Burst
-Discard 2: Urgent Grasp
+Discard 1: Sturdy Burst
+Discard 2: Sinuous Dash
 Special action available
 Active paradigm: Fluidity
 
 
-A.....Z
-.....c.
+....Z.A
+.c.....
+
 
 Arec:
-6% Phantom Strike (move to clone)
-51% Returning Hex
-25% Returning Strike (move to clone)
-18% Returning Dash
+16% Perceptional Strike
+16% Perceptional Drive (move to clone)
+7% Perceptional Burst (move to clone)
+3% Returning Strike
+9% Returning Strike (Hesitation)
+8% Returning Drive (move to clone)
+7% Manipulative Hex (Hesitation; move to clone)
+34% Manipulative Burst (move to clone)
 
 Zaamassal:
-3% Malicious Shot
-24% Warped Shot
-6% Warped Drive
-67% Warped Dash
+51% Malicious Shot
+8% Urgent Paradigm Shift
+4% Urgent Strike
+3% Urgent Shot
+7% Urgent Grasp
+3% Warped Paradigm Shift
+14% Warped Strike
+10% Warped Drive
 
 
-Arec: Returning Hex
-Zaamassal: Warped Dash
+Arec: Manipulative Burst (move to clone)
+Zaamassal: Urgent Paradigm Shift
 
-Priorities:  4 | 9
+Arec moves:
+
+.A..Z..
+
+
+Priorities:  1 | 5
 Zaamassal is active
-Zaamassal moves:
-
-A....Z.
-
-
-Zaamassal assumes the Paradigm of Distortion
-Zaamassal moves:
+Arec moves:
 
 A...Z..
 
 
-Arec misses
-
-Beat 6
--------
-
-Arec
-----
-Life: 20
-Discard 1: Returning Hex
-Discard 2: Mirrored Burst
-Special action available
-pool: Fear, Hesitation, Mercy
-
-Zaamassal
----------
-Life: 13
-Discard 1: Warped Dash
-Discard 2: Sinuous Burst
-Special action available
-Active paradigm: Distortion
-
-
-A...Z..
-
-
-Unbeatable strategy for Zaamassal: Malicious Shot: -0.39
-Unbeatable strategy for Zaamassal: Urgent Paradigm Shift: -0.98
-Unbeatable strategy for Zaamassal: Urgent Strike: -0.10
-Unbeatable strategy for Zaamassal: Sturdy Paradigm Shift: -0.14
-Unbeatable strategy for Zaamassal: Sturdy Drive: -0.85
-
-Arec:
-20% Phantom Strike
-39% Phantom Drive
-27% Phantom Dash
-15% Perceptional Drive
-
-Zaamassal:
-19% Malicious Shot
-8% Malicious Drive
-54% Urgent Paradigm Shift
-19% Urgent Drive
-
-
-Arec: Phantom Drive
-Zaamassal: Urgent Drive
-
-Priorities:  5 | 6
-Zaamassal is active
 Zaamassal moves:
 
 A..Z...
@@ -366,14 +312,81 @@ A..Z...
 
 Zaamassal moves:
 
-AZ.....
+A.Z....
 
 
 Zaamassal hits
 Arec takes 2 damage (now at 18 life)
 Arec is stunned
-Zaamassal assumes the Paradigm of Haste
-Arec recovers a Recklessness token
+Zaamassal moves:
+
+AZ.....
+
+
+
+Beat 6
+-------
+
+Arec
+----
+Life: 18
+Discard 1: Manipulative Burst
+Discard 2: Mirrored Dash
+Special action available
+pool: Mercy, Recklessness, Hesitation
+
+Zaamassal
+---------
+Life: 13
+Discard 1: Urgent Paradigm Shift
+Discard 2: Sturdy Burst
+Special action available
+Active paradigm: Fluidity
+
+
+AZ.....
+
+
+
+Arec:
+48% Returning Strike
+35% Returning Shot
+2% Returning Shot (Hesitation)
+14% Returning Drive (Hesitation)
+
+Zaamassal:
+47% Malicious Shot
+4% Sinuous Strike
+35% Sinuous Drive
+14% Warped Dash
+
+
+Arec: Returning Strike
+Zaamassal: Warped Dash
+
+Priorities:  4 | 9
+Zaamassal is active
+Zaamassal moves:
+
+A.Z....
+
+
+Zaamassal moves:
+
+AZ.....
+
+
+Zaamassal moves:
+
+A..Z...
+
+
+Arec misses
+Zaamassal moves:
+
+A.Z....
+
+
 
 Beat 7
 -------
@@ -381,103 +394,125 @@ Beat 7
 Arec
 ----
 Life: 18
-Discard 1: Phantom Drive
-Discard 2: Returning Hex
+Discard 1: Returning Strike
+Discard 2: Manipulative Burst
 Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
+pool: Mercy, Recklessness, Hesitation
 
 Zaamassal
 ---------
 Life: 13
-Discard 1: Urgent Drive
-Discard 2: Warped Dash
+Discard 1: Warped Dash
+Discard 2: Urgent Paradigm Shift
 Special action available
-Active paradigm: Haste
+Active paradigm: Fluidity
 
 
-AZ.....
+A.Z....
 
 
-Unbeatable strategy for Arec: Manipulative Strike (Fear): 0.34
 
 Arec:
-44% Manipulative Strike
-44% Manipulative Strike (Fear)
-12% Manipulative Grasp
+33% Mirrored Hex
+32% Mirrored Hex (Hesitation)
+35% Mirrored Shot (Hesitation)
 
 Zaamassal:
-30% Malicious Strike
-3% Sinuous Burst
-66% Sturdy Strike
+4% Sinuous Strike
+13% Sturdy Strike
+83% Sturdy Burst
 
 
-Arec: Manipulative Strike (Fear)
-Zaamassal: Malicious Strike
+Arec: Mirrored Hex (Hesitation)
+Zaamassal: Sturdy Burst
 
-Arec antes a Fear token
-Priorities:  3 | 2
+Arec antes a Hesitation token
+Priorities:  3 | 1
 Arec is active
+Zaamassal moves:
+
+A..Z...
+
+
 Arec hits
-Arec chooses Zaamassal's base: Shot
-Zaamassal takes 5 damage (now at 8 life)
+Arec recovers a Fear token
+Zaamassal takes 4 damage (now at 9 life)
 Zaamassal hits
-Arec takes 5 damage (now at 13 life)
+Arec takes 3 damage (now at 15 life)
+Arec is stunned
+Arec places clone:
+
+A..Z...
+....c..
+
 
 Beat 8
 -------
 
 Arec
 ----
-Life: 13
-Discard 1: Manipulative Strike
-Discard 2: Phantom Drive
+Life: 15
+Discard 1: Mirrored Hex
+Discard 2: Returning Strike
 Special action available
-pool: Hesitation, Mercy, Recklessness
-Manipulative forced base: Shot
+pool: Mercy, Recklessness, Fear
 
 Zaamassal
 ---------
-Life: 8
-Discard 1: Malicious Strike
-Discard 2: Urgent Drive
+Life: 9
+Discard 1: Sturdy Burst
+Discard 2: Warped Dash
 Special action available
-Active paradigm: Haste
+Active paradigm: Fluidity
 
 
-AZ.....
+A..Z...
+....c..
 
+Unbeatable strategy for Zaamassal: Malicious Shot: -0.28
+Unbeatable strategy for Zaamassal: Urgent Strike: -0.23
 
-Unbeatable strategy for Zaamassal: Sinuous Shot: -1.13
 
 Arec:
-20% Returning Shot
-9% Mirrored Hex (Recklessness)
-71% Special Pulse
+8% Phantom Grasp
+80% Phantom Dash (move to clone)
+6% Manipulative Shot
+6% Manipulative Grasp (Fear; move to clone)
 
 Zaamassal:
-54% Sinuous Shot
-13% Sturdy Shot
-32% Sturdy Grasp
+7% Malicious Strike
+50% Malicious Shot
+27% Sinuous Paradigm Shift
+16% Sinuous Grasp
 
 
-Arec: Mirrored Hex (Recklessness)
-Zaamassal: Sinuous Shot
+Arec: Phantom Dash (move to clone)
+Zaamassal: Sinuous Paradigm Shift
 
-Arec antes a Recklessness token
-Priorities:  3 | 3
-Zaamassal is active
-Zaamassal hits
-Arec takes 3 damage (now at 10 life)
-Arec is stunned
+Arec moves:
+
+...ZA..
+
+
+Priorities:  10 | 4
+Arec is active
+Arec moves:
+
+..AZ...
+
+
 Zaamassal moves:
 
-A.Z....
+.ZA....
 
 
-Arec places clone:
+Zaamassal misses
+Zaamassal assumes the Paradigm of Distortion
+Arec recovers a Hesitation token
+Zaamassal moves:
 
-A.Z....
-.....c.
+..A...Z
+
 
 
 Beat 9
@@ -485,174 +520,121 @@ Beat 9
 
 Arec
 ----
-Life: 10
-Discard 1: Mirrored Hex
-Discard 2: Manipulative Strike
+Life: 15
+Discard 1: Phantom Dash
+Discard 2: Mirrored Hex
 Special action available
-pool: Hesitation, Mercy
+pool: Mercy, Recklessness, Fear, Hesitation
 
 Zaamassal
 ---------
-Life: 8
-Discard 1: Sinuous Shot
-Discard 2: Malicious Strike
+Life: 9
+Discard 1: Sinuous Paradigm Shift
+Discard 2: Sturdy Burst
 Special action available
-Active paradigm: Haste
+Active paradigm: Distortion
 
 
-A.Z....
-.....c.
+..A...Z
 
-Unbeatable strategy for Zaamassal: Sturdy Paradigm Shift: -0.66
-Unbeatable strategy for Zaamassal: Sturdy Drive: -0.13
-Unbeatable strategy for Zaamassal: Sturdy Dash: -0.29
+
+Unbeatable strategy for Arec: Returning Shot (Hesitation): 0.14
+
 
 Arec:
-9% Phantom Burst (move to clone)
-34% Phantom Dash (move to clone)
-1% Perceptional Grasp
-38% Returning Drive (move to clone)
-19% Returning Burst (move to clone)
+28% Perceptional Drive
+30% Perceptional Burst
+12% Returning Strike
+16% Returning Shot
+14% Returning Shot (Mercy)
+0% Returning Drive
 
 Zaamassal:
-41% Urgent Paradigm Shift
-37% Sturdy Drive
-15% Warped Drive
-6% Warped Burst
-1% Warped Grasp
+47% Malicious Strike
+28% Malicious Shot
+4% Malicious Drive
+1% Urgent Strike
+10% Urgent Drive
+11% Urgent Grasp
 
 
-Arec: Phantom Burst (move to clone)
-Zaamassal: Sturdy Drive
+Arec: Perceptional Drive
+Zaamassal: Malicious Strike
 
+Priorities:  5 | 2
+Arec is active
 Arec moves:
 
-..Z..A.
+...A..Z
 
 
-Priorities:  2 | 4
-Zaamassal is active
-Arec moves:
-
-..Z...A
-
-
-Zaamassal moves:
-
-....Z.A
-
-
-Zaamassal misses
-Zaamassal assumes the Paradigm of Resilience
 Arec hits
-Zaamassal takes 2 damage (now at 6 life)
-Arec recovers a Recklessness token
+Arec moves Zaamassal:
+
+...A.Z.
+
+
+Zaamassal takes 3 damage (now at 6 life)
+Zaamassal misses
+Zaamassal assumes the Paradigm of Pain
 
 Beat 10
 -------
 
 Arec
 ----
-Life: 10
-Discard 1: Phantom Burst
-Discard 2: Mirrored Hex
+Life: 15
+Discard 1: Perceptional Drive
+Discard 2: Phantom Dash
 Special action available
-pool: Hesitation, Mercy, Recklessness
+pool: Mercy, Recklessness, Fear, Hesitation
 
 Zaamassal
 ---------
 Life: 6
-Discard 1: Sturdy Drive
-Discard 2: Sinuous Shot
+Discard 1: Malicious Strike
+Discard 2: Sinuous Paradigm Shift
 Special action available
-Active paradigm: Resilience
+Active paradigm: Pain
 
 
-....Z.A
+...A.Z.
+
 
 
 Arec:
-6% Perceptional Strike (Recklessness)
-4% Perceptional Shot
-5% Perceptional Shot (Mercy)
-26% Perceptional Drive (Mercy)
-32% Returning Strike
-26% Returning Shot
+25% Mirrored Strike (Mercy)
+30% Mirrored Strike (Hesitation)
+25% Mirrored Burst (Hesitation)
+21% Mirrored Grasp (Hesitation)
 
 Zaamassal:
-31% Malicious Burst
-9% Urgent Strike
-16% Urgent Grasp
-6% Warped Paradigm Shift
-31% Warped Strike
-7% Warped Dash
+32% Urgent Shot
+6% Sturdy Shot
+35% Sturdy Burst
+27% Warped Grasp
 
 
-Arec: Perceptional Drive (Mercy)
-Zaamassal: Warped Strike
+Arec: Mirrored Strike (Hesitation)
+Zaamassal: Sturdy Burst
 
-Arec antes a Mercy token
-Priorities:  5 | 3
+Arec antes a Hesitation token
+Priorities:  3 | 1
 Arec is active
 Zaamassal moves:
 
-...Z..A
-
-
-Arec moves:
-
-...Z.A.
+...A..Z
 
 
 Arec hits
-Zaamassal takes 3 damage (now at 3 life)
+Zaamassal takes 5 damage (now at 1 life)
 Zaamassal hits
-Arec takes 4 damage (now at 6 life)
-Arec is stunned
+Arec takes 3 damage (now at 12 life)
+Arec loses 2 life (now at 10)
+Arec places clone:
 
-Beat 11
--------
-
-Arec
-----
-Life: 6
-Discard 1: Perceptional Drive
-Discard 2: Phantom Burst
-Special action available
-pool: Hesitation, Recklessness
-
-Zaamassal
----------
-Life: 3
-Discard 1: Warped Strike
-Discard 2: Sturdy Drive
-Special action available
-Active paradigm: Resilience
-
-
-...Z.A.
-
-
-Arec:
-14% Mirrored Hex
-64% Mirrored Hex (Recklessness)
-2% Mirrored Shot
-20% Mirrored Grasp
-
-Zaamassal:
-0% Urgent Burst
-5% Urgent Grasp
-93% Special Pulse
-2% Special Plane Divider
-
-
-Arec: Mirrored Hex
-Zaamassal: Special Pulse
-
-Pulse:
-
-.AZ....
-
+...A..Z
+c......
 
 
 Beat 11
@@ -660,161 +642,361 @@ Beat 11
 
 Arec
 ----
-Life: 6
-Discard 1: Mirrored Hex
+Life: 10
+Discard 1: Mirrored Strike
 Discard 2: Perceptional Drive
 Special action available
-pool: Hesitation, Recklessness
+pool: Mercy, Recklessness, Fear
 
 Zaamassal
 ---------
-Life: 3
-Discard 1: Warped Strike
-Discard 2: Sturdy Drive
-Active paradigm: Resilience
+Life: 1
+Discard 1: Sturdy Burst
+Discard 2: Malicious Strike
+Special action available
+Active paradigm: Pain
 
 
-.AZ....
+...A..Z
+c......
 
 
 Arec:
-31% Returning Strike (Recklessness)
-15% Returning Shot
-19% Returning Shot (Recklessness)
-35% Returning Burst
+5% Phantom Hex
+14% Phantom Hex (move to clone)
+3% Phantom Shot
+23% Phantom Grasp
+9% Returning Hex (move to clone)
+47% Returning Dash
 
 Zaamassal:
-33% Malicious Grasp
-33% Sinuous Paradigm Shift
-31% Sinuous Burst
-3% Sinuous Dash
+1% Sinuous Dash
+1% Urgent Drive
+2% Urgent Grasp
+19% Warped Shot
+5% Warped Drive
+72% Warped Dash
 
 
-Arec: Returning Shot (Recklessness)
-Zaamassal: Malicious Grasp
+Arec: Returning Dash
+Zaamassal: Warped Dash
 
-Arec antes a Recklessness token
-Priorities:  3 | 4
-Zaamassal is active
-Zaamassal hits
-Zaamassal moves Arec:
+Priorities:  10 | 9
+Arec is active
+Zaamassal is stunned
+Zaamassal loses all paradigms
+Arec moves:
 
-..ZA...
+A.....Z
 
 
-Arec takes 3 damage (now at 3 life)
-Arec is stunned
 
 Beat 12
 -------
 
 Arec
 ----
-Life: 3
-Discard 1: Returning Shot
-Discard 2: Mirrored Hex
+Life: 10
+Discard 1: Returning Dash
+Discard 2: Mirrored Strike
 Special action available
-pool: Hesitation
+pool: Mercy, Recklessness, Fear
 
 Zaamassal
 ---------
-Life: 3
-Discard 1: Malicious Grasp
-Discard 2: Warped Strike
-Active paradigm: Resilience
+Life: 1
+Discard 1: Warped Dash
+Discard 2: Sturdy Burst
+Special action available
+Active paradigm: None
 
 
-..ZA...
+A.....Z
+
 
 
 Arec:
-7% Phantom Strike
-21% Phantom Drive
-6% Phantom Grasp
-48% Phantom Dash
-18% Manipulative Grasp
+13% Phantom Shot (Mercy)
+53% Perceptional Hex
+34% Perceptional Shot
 
 Zaamassal:
-31% Sinuous Drive
-39% Sinuous Dash
-7% Urgent Drive
-10% Sturdy Drive
-12% Sturdy Burst
+46% Sinuous Strike
+43% Sinuous Shot
+11% Special Plane Divider
 
 
-Arec: Phantom Dash
-Zaamassal: Urgent Drive
+Arec: Perceptional Hex
+Zaamassal: Sinuous Strike
 
-Priorities:  10 | 6
+Priorities:  4 | 4
+Clash!
+
+
+Arec: Perceptional Grasp
+Zaamassal: Sinuous Shot
+
+Priorities:  6 | 3
 Arec is active
-Arec moves:
-
-.AZ....
-
-
-Zaamassal moves:
-
-ZA.....
-
-
-Zaamassal moves:
-
-.AZ....
-
-
+Arec antes a Fear token
+Arec misses
 Zaamassal misses
-Arec recovers a Recklessness token
+Zaamassal assumes the Paradigm of Fluidity
 
 Beat 13
 -------
 
 Arec
 ----
-Life: 3
-Discard 1: Phantom Dash
-Discard 2: Returning Shot
+Life: 10
+Discard 1: Perceptional Grasp
+Discard 2: Returning Dash
 Special action available
-pool: Hesitation, Recklessness
+pool: Mercy, Recklessness
 
 Zaamassal
 ---------
-Life: 3
+Life: 1
+Discard 1: Sinuous Shot
+Discard 2: Warped Dash
+Special action available
+Active paradigm: Fluidity
+
+
+A.....Z
+
+
+Unbeatable strategy for Zaamassal: Urgent Paradigm Shift: -1.53
+
+
+Arec:
+2% Phantom Hex
+1% Phantom Shot
+5% Phantom Shot (Mercy)
+56% Phantom Drive
+37% Mirrored Shot
+
+Zaamassal:
+36% Malicious Paradigm Shift
+57% Urgent Paradigm Shift
+1% Urgent Drive
+2% Urgent Burst
+4% Special Plane Divider
+
+
+Arec: Phantom Drive
+Zaamassal: Urgent Paradigm Shift
+
+Priorities:  5 | 5
+Clash!
+
+
+Arec: Phantom Hex
+Zaamassal: Urgent Drive
+
+Priorities:  4 | 6
+Zaamassal is active
+Zaamassal moves:
+
+A....Z.
+
+
+Zaamassal moves:
+
+A...Z..
+
+
+Zaamassal moves:
+
+A.Z....
+
+
+Zaamassal hits
+Arec takes 2 damage (now at 8 life)
+Arec is stunned
+Zaamassal moves:
+
+AZ.....
+
+
+Arec recovers a Hesitation token
+
+Beat 14
+-------
+
+Arec
+----
+Life: 8
+Discard 1: Phantom Hex
+Discard 2: Perceptional Grasp
+Special action available
+pool: Mercy, Recklessness, Hesitation
+
+Zaamassal
+---------
+Life: 1
 Discard 1: Urgent Drive
-Discard 2: Malicious Grasp
+Discard 2: Sinuous Shot
+Special action available
+Active paradigm: Fluidity
+
+
+AZ.....
+
+
+Unbeatable strategy for Arec: Returning Drive: 0.87
+Unbeatable strategy for Arec: Returning Drive (Mercy): 0.47
+Unbeatable strategy for Arec: Returning Drive (Recklessness): 0.27
+
+
+Arec:
+7% Returning Shot (Mercy)
+16% Returning Shot (Hesitation)
+39% Returning Drive (Mercy)
+21% Returning Drive (Hesitation)
+14% Returning Dash
+4% Mirrored Drive (Mercy)
+
+Zaamassal:
+2% Malicious Burst
+10% Malicious Grasp
+19% Sturdy Dash
+8% Warped Burst
+24% Warped Dash
+38% Special Open the Gate
+
+
+Arec: Returning Dash
+Zaamassal: Sturdy Dash
+
+Priorities:  10 | 9
+Arec is active
+Arec moves:
+
+.ZA....
+
+
+Zaamassal moves:
+
+Z.A....
+
+
+Zaamassal assumes the Paradigm of Resilience
+Zaamassal moves:
+
+..AZ...
+
+
+
+Beat 15
+-------
+
+Arec
+----
+Life: 8
+Discard 1: Returning Dash
+Discard 2: Phantom Hex
+Special action available
+pool: Mercy, Recklessness, Hesitation
+
+Zaamassal
+---------
+Life: 1
+Discard 1: Sturdy Dash
+Discard 2: Urgent Drive
+Special action available
 Active paradigm: Resilience
 
 
-.AZ....
+..AZ...
 
 
-Unbeatable strategy for Arec: Perceptional Drive: 0.81
-Unbeatable strategy for Arec: Perceptional Drive (Hesitation): 0.21
 
 Arec:
-50% Perceptional Hex
-50% Perceptional Drive
-0% Manipulative Grasp (Recklessness)
+2% Perceptional Strike
+2% Perceptional Strike (Mercy)
+2% Perceptional Strike (Recklessness)
+2% Perceptional Strike (Hesitation)
+2% Perceptional Shot
+2% Perceptional Shot (Mercy)
+2% Perceptional Shot (Recklessness)
+2% Perceptional Shot (Hesitation)
+2% Perceptional Drive
+2% Perceptional Drive (Mercy)
+2% Perceptional Drive (Recklessness)
+2% Perceptional Drive (Hesitation)
+2% Perceptional Burst
+2% Perceptional Burst (Mercy)
+2% Perceptional Burst (Recklessness)
+2% Perceptional Burst (Hesitation)
+2% Perceptional Grasp
+2% Perceptional Grasp (Mercy)
+2% Perceptional Grasp (Recklessness)
+2% Perceptional Grasp (Hesitation)
+2% Mirrored Strike (Mercy)
+2% Mirrored Strike (Recklessness)
+2% Mirrored Strike (Hesitation)
+2% Mirrored Shot (Mercy)
+2% Mirrored Shot (Recklessness)
+2% Mirrored Shot (Hesitation)
+2% Mirrored Drive (Mercy)
+2% Mirrored Drive (Recklessness)
+2% Mirrored Drive (Hesitation)
+2% Mirrored Burst (Mercy)
+2% Mirrored Burst (Recklessness)
+2% Mirrored Burst (Hesitation)
+2% Mirrored Grasp (Mercy)
+2% Mirrored Grasp (Recklessness)
+2% Mirrored Grasp (Hesitation)
+2% Manipulative Strike (Mercy)
+2% Manipulative Strike (Recklessness)
+2% Manipulative Strike (Hesitation)
+2% Manipulative Shot (Mercy)
+2% Manipulative Shot (Recklessness)
+2% Manipulative Shot (Hesitation)
+2% Manipulative Drive (Mercy)
+2% Manipulative Drive (Recklessness)
+2% Manipulative Drive (Hesitation)
+2% Manipulative Burst (Mercy)
+2% Manipulative Burst (Recklessness)
+2% Manipulative Burst (Hesitation)
+2% Manipulative Grasp
+2% Manipulative Grasp (Mercy)
+2% Manipulative Grasp (Recklessness)
+2% Manipulative Grasp (Hesitation)
 
 Zaamassal:
-23% Sinuous Paradigm Shift
-27% Sinuous Strike
-28% Sinuous Dash
-22% Sturdy Burst
+5% Malicious Paradigm Shift
+4% Malicious Strike
+5% Malicious Shot
+5% Malicious Burst
+4% Malicious Grasp
+5% Sinuous Paradigm Shift
+4% Sinuous Strike
+5% Sinuous Shot
+4% Sinuous Burst
+4% Sinuous Grasp
+5% Warped Paradigm Shift
+4% Warped Strike
+5% Warped Shot
+5% Warped Burst
+4% Warped Grasp
+8% Special Open the Gate
+24% Special Plane Divider
 
 
-Arec: Perceptional Hex
-Zaamassal: Sturdy Burst
+Arec: Perceptional Grasp
+Zaamassal: Malicious Burst
 
-Priorities:  4 | 1
+Priorities:  6 | 0
 Arec is active
-Arec antes a Hesitation token
+Arec antes a Mercy token
+Zaamassal moves:
+
+..A.Z..
+
+
 Arec hits
-Arec moves Zaamassal:
-
-ZA.....
-
-
-Arec recovers a Fear token
-Zaamassal takes 3 damage (now at 0 life)
+Zaamassal takes 2 damage (now at 0 life)
 AREC WINS!
-total_time: 146
+total_time: 293
