@@ -11,56 +11,55 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Grasp
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Hurricane Grasp
+Discard 2: Cyclone Shot
+Special action available
 
 Hikaru
 ------
-life: 20
-discard 1: Focused Palm Strike
-discard 2: Trance Strike
-special action
+Life: 20
+Discard 1: Focused Palm Strike
+Discard 2: Trance Strike
+Special action available
 pool: Earth, Fire, Water, Wind
 
 
 .C...H.
 
+
 Claus:
-15% Tailwind Tempest
-14% Blast Dash
-49% Downdraft Burst
-21% Downdraft Dash
+9% Tailwind Tempest
+0% Tailwind Drive
+18% Blast Dash
+41% Downdraft Burst
+32% Downdraft Dash
 
 Hikaru:
-27% Advancing Shot
-19% Advancing Drive (Water)
-9% Geomantic Shot
-45% Geomantic Drive
+21% Advancing Shot
+8% Advancing Shot (Fire)
+20% Advancing Drive (Water)
+1% Sweeping Drive (Fire)
+50% Geomantic Drive
 
 
-Claus: Blast Dash
-Hikaru: Advancing Shot
+Claus: Downdraft Burst
+Hikaru: Advancing Drive (Water)
 
-Priorities:  6 | 3
-Claus is active
+Hikaru antes a Water token
+Priorities:  0 | 5
+Hikaru is active
+Hikaru moves:
+
+.C..H..
+
 Claus moves:
 
-..C..H.
+C...H..
 
 Hikaru moves:
 
-..C.H..
-
-Claus moves Hikaru:
-
-...C..H
-
-Hikaru takes 2 damage (now at 18 life)
-Claus moves:
-
-...C..H
+C.H....
 
 Hikaru hits
 Claus takes 4 damage (now at 16 life)
@@ -71,795 +70,585 @@ Beat 2
 
 Claus
 -----
-life: 16
-discard 1: Blast Dash
-discard 2: Hurricane Grasp
-special action
+Life: 16
+Discard 1: Downdraft Burst
+Discard 2: Hurricane Grasp
+Special action available
 
 Hikaru
 ------
-life: 18
-discard 1: Advancing Shot
-discard 2: Focused Palm Strike
-special action
-pool: Earth, Fire, Water, Wind
+Life: 20
+Discard 1: Advancing Drive
+Discard 2: Focused Palm Strike
+Special action available
+pool: Earth, Fire, Wind
 
 
-...C..H
+C.H....
+
+Unbeatable strategy for Hikaru: Geomantic Shot (Earth): -3.57
+Unbeatable strategy for Hikaru: Geomantic Shot (Wind): -1.52
+
 
 Claus:
-11% Tailwind Burst
-4% Cyclone Tempest
-4% Cyclone Shot
-6% Cyclone Drive
-76% Cyclone Burst
+19% Tailwind Tempest
+19% Tailwind Shot
+62% Special Pulse
 
 Hikaru:
-1% Trance Drive
-1% Trance Drive (Earth)
-1% Trance Drive (Fire)
-1% Trance Drive (Water)
-1% Trance Drive (Wind)
-9% Sweeping Drive (Water)
-74% Geomantic Strike
-7% Geomantic Drive (Water)
-5% Geomantic Drive (Wind)
+14% Trance Strike
+53% Geomantic Shot (Earth)
+34% Geomantic Shot (Wind)
 
 
-Claus: Cyclone Burst
-Hikaru: Geomantic Strike
+Claus: Special Pulse
+Hikaru: Geomantic Shot (Earth)
 
+Hikaru antes an Earth token
+Pulse:
+
+C.....H
+
+
+Beat 2
+-------
+
+Claus
+-----
+Life: 16
+Discard 1: Downdraft Burst
+Discard 2: Hurricane Grasp
+
+Hikaru
+------
+Life: 20
+Discard 1: Geomantic Shot
+Discard 2: Advancing Drive
+Special action available
+pool: Fire, Wind
+
+
+C.....H
+
+Unbeatable strategy for Hikaru: Trance Strike: -0.43
+Unbeatable strategy for Hikaru: Trance Strike (Fire): -0.43
+Unbeatable strategy for Hikaru: Trance Strike (Wind): -0.43
+Unbeatable strategy for Hikaru: Trance Burst: -0.16
+Unbeatable strategy for Hikaru: Trance Burst (Fire): -0.16
+Unbeatable strategy for Hikaru: Trance Burst (Wind): -0.16
+Unbeatable strategy for Hikaru: Trance Grasp: -0.28
+Unbeatable strategy for Hikaru: Trance Grasp (Fire): -0.28
+Unbeatable strategy for Hikaru: Trance Grasp (Wind): -0.28
+
+
+Claus:
+1% Tailwind Strike
+99% Tailwind Shot
+
+Hikaru:
+32% Trance Strike
+32% Trance Strike (Fire)
+32% Trance Strike (Wind)
+1% Trance Grasp
+1% Trance Grasp (Fire)
+1% Trance Grasp (Wind)
+
+
+Claus: Tailwind Shot
+Hikaru: Trance Strike (Wind)
+
+Hikaru antes a Wind token
 Priorities:  2 | 3
 Hikaru is active
 Claus moves:
 
-.C....H
+..C...H
 
 Hikaru misses
-Claus misses
+Claus hits
+Hikaru takes 4 damage (now at 16 life)
+Hikaru recovers an Earth token
 
 Beat 3
 -------
 
 Claus
 -----
-life: 16
-discard 1: Cyclone Burst
-discard 2: Blast Dash
-special action
+Life: 16
+Discard 1: Tailwind Shot
+Discard 2: Downdraft Burst
 
 Hikaru
 ------
-life: 18
-discard 1: Geomantic Strike
-discard 2: Advancing Shot
-special action
-pool: Earth, Fire, Water, Wind
+Life: 16
+Discard 1: Trance Strike
+Discard 2: Geomantic Shot
+Special action available
+pool: Fire, Wind, Earth
 
 
-.C....H
+..C...H
 
-Unbeatable strategy for Claus: Downdraft Tempest: 0.09
 
 Claus:
-18% Tailwind Shot
-22% Tailwind Drive
-9% Tailwind Grasp
-49% Downdraft Shot
-2% Downdraft Grasp
+6% Hurricane Tempest
+4% Blast Tempest
+26% Blast Dash
+24% Cyclone Tempest
+4% Cyclone Drive
+36% Cyclone Dash
 
 Hikaru:
-0% Trance Drive
-0% Trance Drive (Earth)
-0% Trance Drive (Fire)
-0% Trance Drive (Water)
-0% Trance Drive (Wind)
-15% Focused Drive (Water)
-2% Focused Burst
-42% Focused Burst (Earth)
-3% Focused Grasp
-37% Focused Grasp (Earth)
+12% Focused Grasp (Earth)
+13% Advancing Palm Strike (Earth)
+17% Advancing Drive (Earth)
+28% Advancing Burst (Earth)
+24% Advancing Dash (Earth)
+5% Sweeping Drive (Fire)
 
 
-Claus: Tailwind Drive
-Hikaru: Focused Grasp (Earth)
+Claus: Cyclone Dash
+Hikaru: Advancing Drive (Earth)
 
 Hikaru antes an Earth token
-Priorities:  4 | 6
-Hikaru is active
+Priorities:  10 | 5
+Claus is active
+Hikaru moves:
+
+..C..H.
+
 Claus moves:
 
-...C..H
+C....H.
+
+Hikaru moves:
+
+C..H...
 
 Hikaru misses
-Claus moves:
-
-.....CH
-
-Claus hits
-Hikaru has 3 soak
-Hikaru takes 1 damage (now at 17 life)
 
 Beat 4
 -------
 
 Claus
 -----
-life: 16
-discard 1: Tailwind Drive
-discard 2: Cyclone Burst
-special action
+Life: 16
+Discard 1: Cyclone Dash
+Discard 2: Tailwind Shot
 
 Hikaru
 ------
-life: 17
-discard 1: Focused Grasp
-discard 2: Geomantic Strike
-special action
-pool: Fire, Water, Wind
+Life: 16
+Discard 1: Advancing Drive
+Discard 2: Trance Strike
+Special action available
+pool: Fire, Wind
 
 
-.....CH
+C..H...
+
 
 Claus:
-29% Hurricane Grasp
-6% Blast Strike
-10% Blast Dash
-56% Downdraft Dash
+9% Blast Tempest
+63% Downdraft Tempest
+28% Downdraft Burst
 
 Hikaru:
-14% Trance Drive
-14% Trance Drive (Fire)
-14% Trance Drive (Water)
-14% Trance Drive (Wind)
-29% Advancing Palm Strike (Fire)
-15% Sweeping Drive (Fire)
-0% Sweeping Drive (Wind)
+24% Focused Shot
+70% Focused Dash
+6% Geomantic Burst
 
 
-Claus: Blast Strike
-Hikaru: Advancing Palm Strike (Fire)
+Claus: Downdraft Tempest
+Hikaru: Focused Dash
 
-Hikaru antes a Fire token
-Priorities:  0 | 6
+Priorities:  3 | 10
 Hikaru is active
+Claus moves Hikaru:
+
+..C.H..
+
+Hikaru takes 1 damage (now at 15 life)
+Claus moves:
+
+..C.H..
+
 Hikaru moves:
 
-....HC.
+.HC....
 
-Hikaru gets +1 power
-Hikaru moves:
-
-.....CH
-
-Hikaru hits
-Claus takes 7 damage (now at 9 life)
-Hikaru recovers an Earth token
-Claus is stunned
+Claus misses
 
 Beat 5
 -------
 
 Claus
 -----
-life: 9
-discard 1: Blast Strike
-discard 2: Tailwind Drive
-special action
+Life: 16
+Discard 1: Downdraft Tempest
+Discard 2: Cyclone Dash
 
 Hikaru
 ------
-life: 17
-discard 1: Advancing Palm Strike
-discard 2: Focused Grasp
-special action
-pool: Water, Wind, Earth
+Life: 15
+Discard 1: Focused Dash
+Discard 2: Advancing Drive
+Special action available
+pool: Fire, Wind
 
 
-.....CH
+.HC....
 
-Unbeatable strategy for Hikaru: Geomantic Drive (Wind): -3.03
 
 Claus:
-7% Cyclone Shot
-18% Cyclone Burst
-50% Cyclone Grasp
-1% Downdraft Burst
-24% Downdraft Dash
+13% Hurricane Grasp
+40% Tailwind Strike
+47% Tailwind Drive
 
 Hikaru:
-11% Sweeping Drive
-30% Geomantic Strike
-9% Geomantic Shot
-36% Geomantic Drive
-14% Geomantic Drive (Wind)
+16% Trance Strike
+16% Trance Strike (Fire)
+16% Trance Strike (Wind)
+20% Geomantic Strike
+31% Geomantic Shot (Wind)
 
 
-Claus: Cyclone Grasp
-Hikaru: Geomantic Shot
+Claus: Tailwind Drive
+Hikaru: Trance Strike
 
-Priorities:  6 | 2
+Priorities:  4 | 3
 Claus is active
-Hikaru antes an Earth token
-Claus hits
 Claus moves Hikaru:
 
-....HC.
+H.C....
 
-Hikaru has 3 soak
-Hikaru takes 0 damage (now at 17 life)
+Hikaru takes 1 damage (now at 14 life)
+Claus moves:
+
+HC.....
+
+Claus hits
+Hikaru takes 4 damage (now at 10 life)
 Hikaru hits
-Claus takes 4 damage (now at 5 life)
+Claus takes 4 damage (now at 12 life)
 Claus is stunned
+Hikaru recovers an Earth token
 
 Beat 6
 -------
 
 Claus
 -----
-life: 5
-discard 1: Cyclone Grasp
-discard 2: Blast Strike
-special action
+Life: 12
+Discard 1: Tailwind Drive
+Discard 2: Downdraft Tempest
 
 Hikaru
 ------
-life: 17
-discard 1: Geomantic Shot
-discard 2: Advancing Palm Strike
-special action
-pool: Water, Wind
+Life: 10
+Discard 1: Trance Strike
+Discard 2: Focused Dash
+Special action available
+pool: Fire, Wind, Earth
 
 
-....HC.
+HC.....
+
+Unbeatable strategy for Hikaru: Advancing Shot (Earth): -2.71
+Unbeatable strategy for Hikaru: Advancing Drive (Earth): -0.37
+Unbeatable strategy for Hikaru: Sweeping Drive (Fire): -0.49
+Unbeatable strategy for Hikaru: Sweeping Drive (Earth): -0.14
+Unbeatable strategy for Hikaru: Geomantic Shot (Wind): -2.21
+Unbeatable strategy for Hikaru: Geomantic Drive (Wind): -0.41
+
 
 Claus:
-36% Tailwind Tempest
-9% Tailwind Shot
-26% Tailwind Burst
-29% Downdraft Tempest
+10% Hurricane Strike
+43% Cyclone Strike
+5% Cyclone Burst
+42% Cyclone Dash
 
 Hikaru:
-10% Trance Strike
-11% Trance Strike (Water)
-11% Trance Strike (Wind)
-33% Focused Strike (Water)
-24% Focused Drive (Water)
-12% Focused Burst (Water)
+1% Advancing Burst (Fire)
+37% Geomantic Shot (Fire)
+17% Geomantic Shot (Wind)
+44% Geomantic Drive (Wind)
 
 
-Claus: Tailwind Burst
-Hikaru: Focused Strike (Water)
+Claus: Hurricane Strike
+Hikaru: Geomantic Shot (Wind)
 
-Hikaru antes a Water token
-Priorities:  1 | 4
+Hikaru antes a Wind token
+Priorities:  3 | 4
 Hikaru is active
-Claus moves Hikaru:
-
-..H..C.
-
-Hikaru takes 2 damage (now at 15 life)
-Claus moves:
-
-..H...C
-
-Hikaru misses
-Claus hits
-Hikaru takes 4 damage (now at 11 life)
+Hikaru antes a Fire token
+Hikaru hits
+Claus takes 7 damage (now at 5 life)
+Claus is stunned
+Claus will have -4 priority next beat
 
 Beat 7
 -------
 
 Claus
 -----
-life: 5
-discard 1: Tailwind Burst
-discard 2: Cyclone Grasp
-special action
+Life: 5
+Discard 1: Hurricane Strike
+Discard 2: Tailwind Drive
+Priority bonus: -4
 
 Hikaru
 ------
-life: 11
-discard 1: Focused Strike
-discard 2: Geomantic Shot
-special action
-pool: Wind
+Life: 10
+Discard 1: Geomantic Shot
+Discard 2: Trance Strike
+Special action available
+pool: Earth
 
 
-..H...C
+HC.....
+
+Unbeatable strategy for Hikaru: Focused Drive: -0.28
+
 
 Claus:
-33% Hurricane Tempest
-67% Blast Tempest
+18% Cyclone Shot
+7% Cyclone Burst
+50% Cyclone Dash
+25% Downdraft Tempest
 
 Hikaru:
-19% Trance Drive
-19% Trance Drive (Wind)
-34% Trance Burst
-28% Trance Burst (Wind)
+19% Focused Drive
+36% Focused Grasp
+22% Advancing Drive (Earth)
+23% Sweeping Drive
 
 
-Claus: Blast Tempest
-Hikaru: Trance Burst (Wind)
+Claus: Cyclone Dash
+Hikaru: Advancing Drive (Earth)
 
-Hikaru antes a Wind token
-Priorities:  1 | 1
-Clash!
-
-Claus:
-100% Blast Dash
-
-Hikaru:
-100% Trance Dash (Wind)
-
-
-Claus: Blast Dash
-Hikaru: Trance Dash (Wind)
-
-Hikaru antes a Wind token
-Priorities:  6 | 9
-Hikaru is active
-Claus moves:
-
-..H..C.
-
+Hikaru antes an Earth token
+Priorities:  6 | 5
+Claus is active
 Hikaru moves:
 
-.....CH
+.CH....
 
-Claus moves:
+Hikaru gets +1 power
+Claus moves Hikaru:
 
-...C..H
+.C...H.
 
-Hikaru recovers an Earth token
+Hikaru has 3 soak
+Hikaru takes 0 damage (now at 10 life)
+Hikaru moves:
+
+.C.H...
+
+Hikaru misses
 
 Beat 8
 -------
 
 Claus
 -----
-life: 5
-discard 1: Blast Dash
-discard 2: Tailwind Burst
-special action
+Life: 5
+Discard 1: Cyclone Dash
+Discard 2: Hurricane Strike
 
 Hikaru
 ------
-life: 11
-discard 1: Trance Dash
-discard 2: Focused Strike
-special action
-pool: Wind, Earth
+Life: 10
+Discard 1: Advancing Drive
+Discard 2: Geomantic Shot
+Special action available
+pool: 
 
 
-...C..H
+.C.H...
 
-Unbeatable strategy for Hikaru: Advancing Shot (Wind): -2.20
-Unbeatable strategy for Hikaru: Advancing Drive (Earth): -1.71
-Unbeatable strategy for Hikaru: Geomantic Drive (Wind): -1.08
 
 Claus:
-1% Hurricane Strike
-7% Hurricane Drive
-11% Cyclone Tempest
-55% Cyclone Strike
-10% Cyclone Drive
-7% Downdraft Strike
-10% Special Autumn's Advance
+39% Tailwind Tempest
+48% Tailwind Burst
+14% Blast Tempest
 
 Hikaru:
-1% Advancing Palm Strike
-8% Advancing Shot
-22% Advancing Shot (Earth)
-48% Advancing Drive (Earth)
-8% Sweeping Drive
-9% Geomantic Shot
-5% Geomantic Drive (Wind)
+22% Trance Burst
+42% Focused Strike
+36% Focused Dash
 
 
-Claus: Cyclone Tempest
-Hikaru: Advancing Shot (Earth)
+Claus: Blast Tempest
+Hikaru: Focused Strike
 
-Hikaru antes an Earth token
-Priorities:  5 | 3
-Claus is active
-Hikaru moves:
+Priorities:  1 | 4
+Hikaru is active
+Claus moves:
 
-...C.H.
+..CH...
 
+Claus moves Hikaru:
+
+..C...H
+
+Hikaru takes 3 damage (now at 7 life)
+Hikaru misses
 Claus hits
-Hikaru has 3 soak
-Hikaru takes 0 damage (now at 11 life)
-Hikaru hits
-Claus takes 4 damage (now at 1 life)
-Claus is stunned
+Hikaru takes 1 damage (now at 6 life)
 
 Beat 9
 -------
 
 Claus
 -----
-life: 1
-discard 1: Cyclone Tempest
-discard 2: Blast Dash
-special action
+Life: 5
+Discard 1: Blast Tempest
+Discard 2: Cyclone Dash
 
 Hikaru
 ------
-life: 11
-discard 1: Advancing Shot
-discard 2: Trance Dash
-special action
-pool: Wind
+Life: 6
+Discard 1: Focused Strike
+Discard 2: Advancing Drive
+Special action available
+pool: 
 
-
-...C.H.
-
-Unbeatable strategy for Claus: Downdraft Burst: 0.18
-
-Claus:
-94% Tailwind Burst
-6% Tailwind Grasp
-
-Hikaru:
-86% Focused Drive
-14% Focused Drive (Wind)
-
-
-Claus: Tailwind Burst
-Hikaru: Focused Drive
-
-Priorities:  1 | 5
-Hikaru is active
-Claus moves Hikaru:
-
-....C.H
-
-Hikaru takes 1 damage (now at 10 life)
-Claus moves:
-
-....C.H
-
-Claus moves:
 
 ..C...H
 
+
+Claus:
+14% Hurricane Shot
+26% Tailwind Strike
+60% Downdraft Shot
+
+Hikaru:
+74% Trance Shot
+5% Trance Burst
+21% Trance Dash
+
+
+Claus: Downdraft Shot
+Hikaru: Trance Dash
+
+Priorities:  1 | 9
+Hikaru is active
 Hikaru moves:
 
-..C.H..
+..CH...
 
-Hikaru misses
 Claus hits
-Hikaru takes 4 damage (now at 6 life)
+Hikaru takes 3 damage (now at 3 life)
 Hikaru is stunned
+Hikaru recovers an Earth token
 
 Beat 10
 -------
 
 Claus
 -----
-life: 1
-discard 1: Tailwind Burst
-discard 2: Cyclone Tempest
-special action
+Life: 5
+Discard 1: Downdraft Shot
+Discard 2: Blast Tempest
 
 Hikaru
 ------
-life: 6
-discard 1: Focused Drive
-discard 2: Advancing Shot
-special action
-pool: Wind
+Life: 3
+Discard 1: Trance Dash
+Discard 2: Focused Strike
+Special action available
+pool: Earth
 
+
+..CH...
+
+Unbeatable strategy for Hikaru: Advancing Shot (Earth): -1.29
+
+
+Claus:
+15% Tailwind Strike
+53% Tailwind Grasp
+32% Tailwind Dash
+
+Hikaru:
+70% Advancing Shot (Earth)
+19% Advancing Drive (Earth)
+12% Geomantic Drive (Earth)
+
+
+Claus: Tailwind Grasp
+Hikaru: Geomantic Drive (Earth)
+
+Hikaru antes an Earth token
+Priorities:  5 | 4
+Claus is active
+Claus moves Hikaru:
 
 ..C.H..
 
-Claus:
-8% Hurricane Shot
-2% Hurricane Drive
-42% Blast Dash
-14% Downdraft Shot
-19% Downdraft Dash
-15% Special Autumn's Advance
+Hikaru has 3 soak
+Hikaru takes 0 damage (now at 3 life)
+Claus hits
+Claus moves Hikaru:
 
-Hikaru:
-1% Trance Strike
-1% Trance Strike (Wind)
-9% Trance Grasp
-8% Trance Grasp (Wind)
-30% Trance Dash
-26% Trance Dash (Wind)
-4% Sweeping Burst (Wind)
-20% Sweeping Grasp
-1% Geomantic Grasp (Wind)
+..CH...
 
-
-Claus: Blast Dash
-Hikaru: Trance Dash (Wind)
-
-Hikaru antes a Wind token
-Priorities:  6 | 9
-Hikaru is active
-Claus moves:
-
-...CH..
-
+Hikaru has 3 soak
+Hikaru takes 0 damage (now at 3 life)
 Hikaru moves:
 
-H..C...
+.HC....
 
-Claus moves:
-
-H.....C
-
-Hikaru recovers an Earth token
+Hikaru hits
+Claus takes 4 damage (now at 1 life)
+Claus is stunned
 
 Beat 11
 -------
 
 Claus
 -----
-life: 1
-discard 1: Blast Dash
-discard 2: Tailwind Burst
-special action
+Life: 1
+Discard 1: Tailwind Grasp
+Discard 2: Downdraft Shot
 
 Hikaru
 ------
-life: 6
-discard 1: Trance Dash
-discard 2: Focused Drive
-special action
-pool: Wind, Earth
+Life: 3
+Discard 1: Geomantic Drive
+Discard 2: Trance Dash
+Special action available
+pool: 
 
 
-H.....C
+.HC....
+
 
 Claus:
-9% Hurricane Tempest
-48% Cyclone Tempest
-11% Cyclone Drive
-27% Cyclone Grasp
-5% Downdraft Tempest
+27% Hurricane Tempest
+7% Blast Strike
+6% Blast Drive
+5% Blast Burst
+54% Cyclone Tempest
 
 Hikaru:
-1% Advancing Palm Strike (Earth)
+27% Focused Strike
+10% Focused Shot
 5% Advancing Shot
-3% Sweeping Shot
-40% Geomantic Palm Strike
-51% Geomantic Grasp
+4% Advancing Burst
+54% Sweeping Shot
 
 
-Claus: Cyclone Tempest
-Hikaru: Geomantic Grasp
+Claus: Hurricane Tempest
+Hikaru: Sweeping Shot
 
-Priorities:  5 | 5
-Clash!
-
-Claus:
-32% Cyclone Drive
-68% Cyclone Grasp
-
-Hikaru:
-58% Geomantic Palm Strike
-42% Geomantic Strike
-
-
-Claus: Cyclone Drive
-Hikaru: Geomantic Strike
-
-Priorities:  5 | 3
-Claus is active
-Claus moves:
-
-H...C..
-
-Claus misses
-Hikaru misses
-
-Beat 12
--------
-
-Claus
------
-life: 1
-discard 1: Cyclone Drive
-discard 2: Blast Dash
-special action
-
-Hikaru
-------
-life: 6
-discard 1: Geomantic Strike
-discard 2: Trance Dash
-special action
-pool: Wind, Earth
-
-
-H...C..
-
-Claus:
-10% Tailwind Burst
-0% Downdraft Shot
-86% Downdraft Burst
-3% Special Autumn's Advance
-
-Hikaru:
-28% Focused Drive
-32% Advancing Drive (Earth)
-4% Sweeping Shot
-37% Sweeping Shot (Wind)
-
-
-Claus: Downdraft Burst
-Hikaru: Focused Drive
-
-Priorities:  0 | 5
+Priorities:  4 | 5
 Hikaru is active
-Claus moves:
+Claus moves Hikaru:
 
-H....C.
+H.C....
 
-Hikaru moves:
-
-.H...C.
-
-Hikaru misses
-Claus misses
-
-Beat 13
--------
-
-Claus
------
-life: 1
-discard 1: Downdraft Burst
-discard 2: Cyclone Drive
-special action
-
-Hikaru
-------
-life: 6
-discard 1: Focused Drive
-discard 2: Geomantic Strike
-special action
-pool: Wind, Earth
-
-
-.H...C.
-
-Unbeatable strategy for Hikaru: Advancing Shot (Wind): -6.00
-Unbeatable strategy for Hikaru: Advancing Shot (Earth): -6.00
-
-Claus:
-3% Hurricane Shot
-3% Tailwind Tempest
-4% Tailwind Strike
-7% Tailwind Grasp
-3% Tailwind Dash
-3% Blast Tempest
-72% Special Pulse
-5% Special Autumn's Advance
-
-Hikaru:
-16% Trance Palm Strike
-0% Trance Burst
-13% Advancing Shot (Wind)
-41% Advancing Shot (Earth)
-0% Advancing Dash
-8% Sweeping Shot (Wind)
-17% Sweeping Shot (Earth)
-6% Sweeping Burst
-
-
-Claus: Special Pulse
-Hikaru: Advancing Shot (Earth)
-
-Hikaru antes an Earth token
-Pulse:
-
-C....H.
-
-
-Beat 13
--------
-
-Claus
------
-life: 1
-discard 1: Downdraft Burst
-discard 2: Cyclone Drive
-
-Hikaru
-------
-life: 6
-discard 1: Advancing Shot
-discard 2: Focused Drive
-special action
-pool: Wind
-
-
-C....H.
-
-Unbeatable strategy for Hikaru: Trance Dash: -0.35
-Unbeatable strategy for Hikaru: Trance Dash (Wind): -0.35
-
-Claus:
-61% Tailwind Tempest
-39% Tailwind Shot
-
-Hikaru:
-15% Trance Burst
-15% Trance Burst (Wind)
-35% Trance Dash
-35% Trance Dash (Wind)
-
-
-Claus: Tailwind Shot
-Hikaru: Trance Dash
-
-Priorities:  2 | 9
-Hikaru is active
-Claus moves:
-
-.C...H.
-
-Hikaru moves:
-
-.CH....
-
-Claus hits
-Hikaru takes 4 damage (now at 2 life)
-Hikaru is stunned
-Hikaru recovers an Earth token
-
-Beat 14
--------
-
-Claus
------
-life: 1
-discard 1: Tailwind Shot
-discard 2: Downdraft Burst
-
-Hikaru
-------
-life: 2
-discard 1: Trance Dash
-discard 2: Advancing Shot
-special action
-pool: Wind, Earth
-
-
-.CH....
-
-Unbeatable strategy for Hikaru: Sweeping Palm Strike (Wind): -6.00
-
-Claus:
-5% Hurricane Tempest
-3% Blast Tempest
-3% Blast Strike
-3% Blast Drive
-3% Blast Grasp
-8% Blast Dash
-9% Cyclone Tempest
-66% Cyclone Dash
-
-Hikaru:
-66% Sweeping Palm Strike
-34% Sweeping Grasp (Wind)
-
-
-Claus: Blast Dash
-Hikaru: Sweeping Palm Strike
-
-Priorities:  6 | 8
-Hikaru is active
-Hikaru moves:
-
-HC.....
-
-Hikaru hits
-Claus takes 1 damage (now at 0 life)
-HIKARU WINS!
-total_time: 29
+Hikaru takes 3 damage (now at 0 life)
+CLAUS WINS!
+total_time: 22

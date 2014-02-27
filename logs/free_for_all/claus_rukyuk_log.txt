@@ -11,270 +11,317 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Grasp
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Hurricane Grasp
+Discard 2: Cyclone Shot
+Special action available
 
 Rukyuk
 ------
-life: 20
-discard 1: Crossfire Reload
-discard 2: Trick Shot
-special action
+Life: 20
+Discard 1: Crossfire Reload
+Discard 2: Trick Shot
+Special action available
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
 .C...R.
 
+
 Claus:
-26% Tailwind Tempest
-2% Tailwind Drive
-9% Tailwind Burst
+29% Tailwind Tempest
+4% Tailwind Drive
+12% Tailwind Burst
 15% Blast Tempest
-48% Downdraft Dash
+40% Downdraft Dash
 
 Rukyuk:
-51% Point Blank Drive (Longshot)
-0% Point Blank Drive (Swift)
-9% Point Blank Burst (Impact)
-24% Point Blank Grasp (Longshot)
-15% Gunner Drive (Longshot)
+57% Point Blank Drive (Longshot)
+11% Point Blank Burst (Impact)
+22% Point Blank Grasp (Longshot)
+2% Gunner Drive (Impact)
+8% Gunner Drive (Longshot)
 
 
-Claus: Blast Tempest
-Rukyuk: Gunner Drive (Longshot)
+Claus: Downdraft Dash
+Rukyuk: Point Blank Drive (Longshot)
 
 Rukyuk antes a Longshot token
-Priorities:  1 | 4
-Rukyuk is active
+Priorities:  8 | 4
+Claus is active
 Claus moves:
 
-..C..R.
+C....R.
 
-Claus moves Rukyuk:
+Rukyuk moves:
 
-....C.R
+C...R..
 
-Rukyuk takes 1 damage (now at 19 life)
-Rukyuk is stunned
-Claus moves:
-
-....C.R
-
-Claus hits
-Rukyuk takes 1 damage (now at 18 life)
-Rukyuk is stunned
+Rukyuk misses
 
 Beat 2
 -------
 
 Claus
 -----
-life: 20
-discard 1: Blast Tempest
-discard 2: Hurricane Grasp
-special action
+Life: 20
+Discard 1: Downdraft Dash
+Discard 2: Hurricane Grasp
+Special action available
 
 Rukyuk
 ------
-life: 18
-discard 1: Gunner Drive
-discard 2: Crossfire Reload
-special action
+Life: 20
+Discard 1: Point Blank Drive
+Discard 2: Crossfire Reload
+Special action available
 pool: AP, Explosive, Flash, Impact, Swift
 
 
-....C.R
+C...R..
+
 
 Claus:
-9% Tailwind Drive
-0% Cyclone Shot
-9% Cyclone Drive
-21% Downdraft Burst
-61% Downdraft Dash
+36% Tailwind Tempest
+35% Tailwind Drive
+29% Blast Tempest
 
 Rukyuk:
-19% Sniper Strike
-7% Sniper Shot
-56% Sniper Dash
-3% Point Blank Strike (Impact)
-14% Point Blank Shot (Impact)
+53% Gunner Strike (Swift)
+13% Gunner Shot (Swift)
+34% Trick Burst (Impact)
 
 
-Claus: Downdraft Dash
-Rukyuk: Sniper Strike
+Claus: Blast Tempest
+Rukyuk: Gunner Shot (Swift)
 
-Priorities:  8 | 5
-Claus is active
+Rukyuk antes a Swift token
+Priorities:  1 | 4
+Rukyuk is active
 Claus moves:
 
-...C..R
+.C..R..
+
+Claus moves:
+
+...CR..
 
 Rukyuk misses
 Rukyuk moves:
 
-...C.R.
+...C..R
 
+Claus hits
+Rukyuk takes 1 damage (now at 19 life)
 
 Beat 3
 -------
 
 Claus
 -----
-life: 20
-discard 1: Downdraft Dash
-discard 2: Blast Tempest
-special action
+Life: 20
+Discard 1: Blast Tempest
+Discard 2: Downdraft Dash
+Special action available
 
 Rukyuk
 ------
-life: 18
-discard 1: Sniper Strike
-discard 2: Gunner Drive
-special action
-pool: AP, Explosive, Flash, Impact, Swift
+Life: 19
+Discard 1: Gunner Shot
+Discard 2: Point Blank Drive
+Special action available
+pool: AP, Explosive, Flash, Impact
 
 
-...C.R.
+...C..R
+
 
 Claus:
-36% Tailwind Drive
-7% Tailwind Burst
-26% Cyclone Drive
-31% Cyclone Burst
+10% Hurricane Shot
+0% Tailwind Drive
+42% Cyclone Shot
+48% Cyclone Drive
 
 Rukyuk:
-10% Point Blank Shot (Impact)
-55% Point Blank Shot (Swift)
-1% Point Blank Grasp (Explosive)
-34% Point Blank Grasp (Swift)
+5% Sniper Reload
+6% Sniper Reload (AP)
+6% Sniper Reload (Explosive)
+6% Sniper Reload (Flash)
+6% Sniper Reload (Impact)
+40% Sniper Dash
+6% Crossfire Strike (Impact)
+6% Trick Reload
+5% Trick Reload (AP)
+5% Trick Reload (Explosive)
+5% Trick Reload (Flash)
+5% Trick Reload (Impact)
 
 
-Claus: Tailwind Drive
-Rukyuk: Point Blank Grasp (Swift)
+Claus: Cyclone Shot
+Rukyuk: Sniper Reload (Explosive)
 
-Rukyuk antes a Swift token
-Priorities:  4 | 7
+Rukyuk antes an Explosive token
+Priorities:  3 | 6
 Rukyuk is active
-Claus moves:
+Rukyuk moves:
 
-....CR.
+..RC...
 
-Rukyuk hits
-Rukyuk moves Claus:
+Rukyuk moves:
 
-..C..R.
+R..C...
 
-Rukyuk moves Claus:
-
-.C...R.
-
-Claus takes 2 damage (now at 18 life)
-Claus is stunned
+Claus hits
+Rukyuk takes 4 damage (now at 15 life)
+Rukyuk is stunned
 
 Beat 4
 -------
 
 Claus
 -----
-life: 18
-discard 1: Tailwind Drive
-discard 2: Downdraft Dash
-special action
+Life: 20
+Discard 1: Cyclone Shot
+Discard 2: Blast Tempest
+Special action available
 
 Rukyuk
 ------
-life: 18
-discard 1: Point Blank Grasp
-discard 2: Sniper Strike
-special action
-pool: AP, Explosive, Flash, Impact
+Life: 15
+Discard 1: Sniper Reload
+Discard 2: Gunner Shot
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-.C...R.
+R..C...
 
-Unbeatable strategy for Claus: Cyclone Tempest: 0.60
 
 Claus:
-19% Hurricane Tempest
-22% Blast Grasp
-59% Cyclone Tempest
+2% Tailwind Strike
+2% Tailwind Burst
+16% Tailwind Grasp
+64% Downdraft Burst
+17% Downdraft Dash
 
 Rukyuk:
-24% Gunner Reload (Explosive)
-70% Crossfire Reload
-6% Crossfire Burst (Impact)
+3% Point Blank Strike (AP)
+64% Point Blank Drive (Swift)
+7% Point Blank Grasp (Impact)
+0% Point Blank Grasp (Swift)
+26% Crossfire Burst
 
 
-Claus: Hurricane Tempest
-Rukyuk: Crossfire Reload
+Claus: Downdraft Burst
+Rukyuk: Point Blank Drive (Swift)
 
-Priorities:  4 | 2
-Claus is active
+Rukyuk antes a Swift token
+Priorities:  0 | 6
+Rukyuk is active
 Claus moves:
 
-....CR.
+R....C.
 
-Claus hits
-Rukyuk has 2 soak
-Rukyuk takes 2 damage (now at 16 life)
-Rukyuk is stunned
+Rukyuk moves:
+
+.R...C.
+
+Rukyuk misses
+Claus misses
 
 Beat 5
 -------
 
 Claus
 -----
-life: 18
-discard 1: Hurricane Tempest
-discard 2: Tailwind Drive
-special action
--4 priority from last beat
+Life: 20
+Discard 1: Downdraft Burst
+Discard 2: Cyclone Shot
+Special action available
 
 Rukyuk
 ------
-life: 16
-discard 1: Crossfire Reload
-discard 2: Point Blank Grasp
-special action
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+Life: 15
+Discard 1: Point Blank Drive
+Discard 2: Sniper Reload
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot
 
 
-....CR.
+.R...C.
 
-Unbeatable strategy for Rukyuk: Gunner Strike (Longshot): -0.21
-Unbeatable strategy for Rukyuk: Trick Strike (Longshot): -0.01
-Unbeatable strategy for Rukyuk: Trick Dash: -0.30
+Unbeatable strategy for Claus: Tailwind Tempest: 2.00
+
 
 Claus:
-54% Blast Strike
-0% Blast Burst
-9% Cyclone Shot
-37% Downdraft Shot
+16% Hurricane Tempest
+22% Tailwind Drive
+60% Blast Tempest
+2% Blast Drive
 
 Rukyuk:
-44% Gunner Strike (Explosive)
-39% Gunner Strike (Longshot)
-11% Gunner Drive (Explosive)
-7% Trick Shot (Impact)
+2% Gunner Strike (Longshot)
+11% Crossfire Burst
+37% Crossfire Dash
+50% Special Pulse
 
 
-Claus: Blast Strike
-Rukyuk: Gunner Strike (Explosive)
+Claus: Blast Tempest
+Rukyuk: Special Pulse
 
-Rukyuk antes an Explosive token
-Priorities:  -4 | 3
-Rukyuk is active
-Claus moves Rukyuk:
+Pulse:
+
+C.....R
+
+
+Beat 5
+-------
+
+Claus
+-----
+Life: 20
+Discard 1: Blast Tempest
+Discard 2: Downdraft Burst
+Special action available
+
+Rukyuk
+------
+Life: 15
+Discard 1: Point Blank Drive
+Discard 2: Sniper Reload
+pool: AP, Explosive, Flash, Impact, Longshot
+
+
+C.....R
+
+
+Claus:
+23% Tailwind Drive
+11% Tailwind Grasp
+66% Tailwind Dash
+
+Rukyuk:
+46% Gunner Strike (Longshot)
+44% Gunner Grasp (Explosive)
+10% Gunner Dash (Explosive)
+
+
+Claus: Tailwind Dash
+Rukyuk: Gunner Strike (Longshot)
+
+Rukyuk antes a Longshot token
+Priorities:  9 | 3
+Claus is active
+Claus moves:
+
+.C....R
+
+Claus moves:
 
 ....C.R
 
-Rukyuk takes 1 damage (now at 15 life)
-Rukyuk spends an AP token
-Rukyuk gains -1/+1 range
 Rukyuk hits
-Claus takes 6 damage (now at 12 life)
+Claus takes 4 damage (now at 16 life)
 Claus is stunned
 Rukyuk moves:
 
@@ -286,48 +333,76 @@ Beat 6
 
 Claus
 -----
-life: 12
-discard 1: Blast Strike
-discard 2: Hurricane Tempest
-special action
+Life: 16
+Discard 1: Tailwind Dash
+Discard 2: Blast Tempest
+Special action available
 
 Rukyuk
 ------
-life: 15
-discard 1: Gunner Strike
-discard 2: Crossfire Reload
-special action
-pool: Flash, Impact, Longshot, Swift
+Life: 15
+Discard 1: Gunner Strike
+Discard 2: Point Blank Drive
+pool: AP, Explosive, Flash, Impact
 
 
 ...RC..
 
+Unbeatable strategy for Rukyuk: Sniper Reload: -1.25
+Unbeatable strategy for Rukyuk: Sniper Reload (AP): -1.25
+Unbeatable strategy for Rukyuk: Sniper Reload (Explosive): -1.25
+Unbeatable strategy for Rukyuk: Sniper Reload (Flash): -1.25
+Unbeatable strategy for Rukyuk: Sniper Reload (Impact): -1.25
+Unbeatable strategy for Rukyuk: Sniper Dash: -1.41
+Unbeatable strategy for Rukyuk: Sniper Dash (AP): -0.91
+Unbeatable strategy for Rukyuk: Sniper Dash (Explosive): -0.51
+Unbeatable strategy for Rukyuk: Sniper Dash (Flash): -0.88
+Unbeatable strategy for Rukyuk: Sniper Dash (Impact): -0.71
+Unbeatable strategy for Rukyuk: Crossfire Dash: -0.95
+Unbeatable strategy for Rukyuk: Crossfire Dash (AP): -0.45
+Unbeatable strategy for Rukyuk: Crossfire Dash (Explosive): -0.05
+Unbeatable strategy for Rukyuk: Crossfire Dash (Flash): -0.42
+Unbeatable strategy for Rukyuk: Crossfire Dash (Impact): -0.25
+Unbeatable strategy for Rukyuk: Trick Dash: -0.56
+Unbeatable strategy for Rukyuk: Trick Dash (AP): -0.06
+Unbeatable strategy for Rukyuk: Trick Dash (Flash): -0.03
+
+
 Claus:
-27% Tailwind Drive
-6% Tailwind Burst
-1% Cyclone Drive
-1% Downdraft Drive
-65% Downdraft Dash
+10% Hurricane Shot
+74% Cyclone Shot
+4% Cyclone Drive
+2% Downdraft Shot
+10% Downdraft Drive
 
 Rukyuk:
-5% Sniper Burst
-8% Point Blank Shot (Impact)
-12% Point Blank Drive (Swift)
-6% Point Blank Burst (Longshot)
-68% Special Pulse
+9% Sniper Reload
+8% Sniper Reload (AP)
+7% Sniper Reload (Explosive)
+8% Sniper Reload (Flash)
+7% Sniper Reload (Impact)
+1% Sniper Burst
+42% Sniper Dash
+11% Trick Reload
+8% Trick Burst (Impact)
 
 
-Claus: Downdraft Dash
-Rukyuk: Point Blank Shot (Impact)
+Claus: Cyclone Drive
+Rukyuk: Trick Burst (Impact)
 
 Rukyuk antes an Impact token
-Priorities:  8 | 2
+Priorities:  5 | -2
 Claus is active
-Claus moves Rukyuk:
+Rukyuk moves:
 
 .R..C..
 
-Rukyuk takes 2 damage (now at 13 life)
+Claus moves:
+
+.RC....
+
+Claus hits
+Rukyuk takes 4 damage (now at 11 life)
 Rukyuk misses
 
 Beat 7
@@ -335,286 +410,352 @@ Beat 7
 
 Claus
 -----
-life: 12
-discard 1: Downdraft Dash
-discard 2: Blast Strike
-special action
+Life: 16
+Discard 1: Cyclone Drive
+Discard 2: Tailwind Dash
+Special action available
 
 Rukyuk
 ------
-life: 13
-discard 1: Point Blank Shot
-discard 2: Gunner Strike
-special action
-pool: Flash, Longshot, Swift
+Life: 11
+Discard 1: Trick Burst
+Discard 2: Gunner Strike
+pool: AP, Explosive, Flash
 
-
-.R..C..
-
-Claus:
-19% Hurricane Tempest
-35% Tailwind Drive
-11% Tailwind Burst
-0% Cyclone Tempest
-7% Cyclone Shot
-28% Cyclone Drive
-
-Rukyuk:
-2% Sniper Reload
-2% Sniper Reload (Flash)
-2% Sniper Reload (Longshot)
-3% Sniper Reload (Swift)
-3% Crossfire Reload (Swift)
-22% Crossfire Dash
-27% Trick Reload
-1% Trick Reload (Swift)
-37% Special Pulse
-
-
-Claus: Tailwind Drive
-Rukyuk: Trick Reload
-
-Priorities:  4 | 1
-Claus is active
-Claus moves:
 
 .RC....
 
+Unbeatable strategy for Rukyuk: Sniper Reload: -0.31
+Unbeatable strategy for Rukyuk: Sniper Reload (AP): -0.31
+Unbeatable strategy for Rukyuk: Sniper Reload (Explosive): -0.31
+Unbeatable strategy for Rukyuk: Sniper Reload (Flash): -0.31
+
+
+Claus:
+32% Hurricane Tempest
+13% Hurricane Grasp
+31% Blast Burst
+10% Blast Grasp
+14% Downdraft Burst
+
+Rukyuk:
+10% Sniper Reload
+11% Sniper Reload (AP)
+11% Sniper Reload (Explosive)
+11% Sniper Reload (Flash)
+10% Point Blank Shot (Explosive)
+14% Point Blank Drive (Explosive)
+16% Point Blank Grasp (Explosive)
+18% Crossfire Reload
+
+
+Claus: Blast Grasp
+Rukyuk: Point Blank Grasp (Explosive)
+
+Rukyuk antes an Explosive token
+Priorities:  2 | 5
+Rukyuk is active
 Claus moves Rukyuk:
 
 R.C....
 
-Rukyuk takes 1 damage (now at 12 life)
-Claus hits
-Rukyuk takes 4 damage (now at 8 life)
-Rukyuk moves:
+Rukyuk takes 1 damage (now at 10 life)
+Rukyuk hits
+Rukyuk moves Claus:
 
-..C...R
+R..C...
 
+Claus takes 4 damage (now at 12 life)
+Rukyuk moves Claus:
+
+R....C.
+
+Claus is stunned
 
 Beat 8
 -------
 
 Claus
 -----
-life: 12
-discard 1: Tailwind Drive
-discard 2: Downdraft Dash
-special action
+Life: 12
+Discard 1: Blast Grasp
+Discard 2: Cyclone Drive
+Special action available
 
 Rukyuk
 ------
-life: 8
-discard 1: Trick Reload
-discard 2: Point Blank Shot
-special action
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+Life: 10
+Discard 1: Point Blank Grasp
+Discard 2: Trick Burst
+pool: AP, Flash
 
 
-..C...R
+R....C.
+
 
 Claus:
-30% Hurricane Tempest
-26% Blast Tempest
-8% Blast Grasp
-25% Cyclone Tempest
-11% Cyclone Shot
+23% Tailwind Tempest
+65% Tailwind Shot
+12% Downdraft Tempest
 
 Rukyuk:
-17% Sniper Drive
-61% Sniper Dash
-5% Gunner Drive (Explosive)
-10% Gunner Grasp (Explosive)
-8% Gunner Grasp (Impact)
+14% Sniper Reload
+12% Sniper Reload (AP)
+12% Sniper Reload (Flash)
+13% Gunner Strike (AP)
+49% Gunner Drive (AP)
 
 
-Claus: Blast Grasp
-Rukyuk: Sniper Drive
+Claus: Tailwind Tempest
+Rukyuk: Sniper Reload (AP)
 
-Priorities:  2 | 6
+Rukyuk antes an AP token
+Priorities:  4 | 6
 Rukyuk is active
 Claus moves:
 
-...C..R
+R..C...
 
 Rukyuk moves:
 
-...CR..
+.R.C...
 
-Rukyuk misses
 Rukyuk moves:
 
 R..C...
 
-Claus misses
+Claus hits
+Rukyuk takes 2 damage (now at 8 life)
+Rukyuk is stunned
 
 Beat 9
 -------
 
 Claus
 -----
-life: 12
-discard 1: Blast Grasp
-discard 2: Tailwind Drive
-special action
+Life: 12
+Discard 1: Tailwind Tempest
+Discard 2: Blast Grasp
+Special action available
 
 Rukyuk
 ------
-life: 8
-discard 1: Sniper Drive
-discard 2: Trick Reload
-special action
+Life: 8
+Discard 1: Sniper Reload
+Discard 2: Point Blank Grasp
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
 R..C...
 
+Unbeatable strategy for Rukyuk: Gunner Drive (Swift): -0.19
+
+
 Claus:
-0% Hurricane Tempest
-7% Hurricane Shot
-9% Cyclone Tempest
-32% Downdraft Tempest
-20% Downdraft Strike
-17% Downdraft Shot
-15% Downdraft Dash
+18% Cyclone Drive
+21% Cyclone Dash
+61% Downdraft Dash
 
 Rukyuk:
-1% Point Blank Strike (Longshot)
-1% Point Blank Shot (AP)
-2% Point Blank Shot (Impact)
-23% Point Blank Shot (Longshot)
-16% Point Blank Burst (Longshot)
-23% Gunner Dash
-33% Crossfire Burst
+7% Gunner Strike (Longshot)
+13% Gunner Drive (Longshot)
+80% Gunner Drive (Swift)
 
 
 Claus: Downdraft Dash
-Rukyuk: Crossfire Burst
+Rukyuk: Gunner Drive (Swift)
 
-Priorities:  8 | -1
+Rukyuk antes a Swift token
+Priorities:  8 | 6
 Claus is active
 Claus moves:
 
-RC.....
+R.C....
+
+Rukyuk moves:
+
+..CR...
 
 Rukyuk misses
+Rukyuk moves:
+
+..C..R.
+
 
 Beat 10
 -------
 
 Claus
 -----
-life: 12
-discard 1: Downdraft Dash
-discard 2: Blast Grasp
-special action
+Life: 12
+Discard 1: Downdraft Dash
+Discard 2: Tailwind Tempest
+Special action available
 
 Rukyuk
 ------
-life: 8
-discard 1: Crossfire Burst
-discard 2: Sniper Drive
-special action
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+Life: 8
+Discard 1: Gunner Drive
+Discard 2: Sniper Reload
+pool: AP, Explosive, Flash, Impact, Longshot
+
+
+..C..R.
+
+
+Claus:
+1% Hurricane Shot
+10% Hurricane Drive
+11% Blast Drive
+11% Blast Burst
+20% Cyclone Shot
+9% Cyclone Drive
+5% Cyclone Burst
+33% Special Pulse
+
+Rukyuk:
+1% Point Blank Strike (Impact)
+16% Point Blank Shot (Explosive)
+23% Point Blank Burst (Impact)
+42% Point Blank Grasp (Longshot)
+9% Crossfire Strike (Explosive)
+5% Crossfire Strike (Longshot)
+1% Crossfire Shot (Explosive)
+3% Crossfire Burst (AP)
+
+
+Claus: Special Pulse
+Rukyuk: Crossfire Strike (Explosive)
+
+Rukyuk antes an Explosive token
+Pulse:
+
+RC.....
+
+
+Beat 10
+-------
+
+Claus
+-----
+Life: 12
+Discard 1: Downdraft Dash
+Discard 2: Tailwind Tempest
+
+Rukyuk
+------
+Life: 8
+Discard 1: Crossfire Strike
+Discard 2: Gunner Drive
+pool: AP, Flash, Impact, Longshot
 
 
 RC.....
 
-Unbeatable strategy for Rukyuk: Point Blank Strike (Longshot): -0.14
-Unbeatable strategy for Rukyuk: Point Blank Shot (Swift): -0.58
-Unbeatable strategy for Rukyuk: Gunner Dash: -0.21
+Unbeatable strategy for Rukyuk: Sniper Reload: -2.83
+Unbeatable strategy for Rukyuk: Sniper Reload (AP): -2.83
+Unbeatable strategy for Rukyuk: Sniper Reload (Flash): -2.83
+Unbeatable strategy for Rukyuk: Sniper Reload (Impact): -2.83
+Unbeatable strategy for Rukyuk: Sniper Reload (Longshot): -2.83
+Unbeatable strategy for Rukyuk: Sniper Dash: -1.74
+Unbeatable strategy for Rukyuk: Sniper Dash (AP): -1.24
+Unbeatable strategy for Rukyuk: Sniper Dash (Flash): -1.21
+Unbeatable strategy for Rukyuk: Sniper Dash (Impact): -1.04
+Unbeatable strategy for Rukyuk: Sniper Dash (Longshot): -0.74
+Unbeatable strategy for Rukyuk: Trick Reload: -0.01
+Unbeatable strategy for Rukyuk: Trick Reload (AP): -0.01
+Unbeatable strategy for Rukyuk: Trick Reload (Flash): -0.01
+Unbeatable strategy for Rukyuk: Trick Reload (Impact): -0.01
+Unbeatable strategy for Rukyuk: Trick Reload (Longshot): -0.01
+
 
 Claus:
-9% Tailwind Burst
-18% Cyclone Strike
-21% Cyclone Shot
-34% Cyclone Drive
-9% Cyclone Burst
-9% Special Pulse
+35% Blast Burst
+19% Cyclone Burst
+46% Cyclone Grasp
 
 Rukyuk:
-24% Point Blank Strike (Impact)
-6% Point Blank Shot (Impact)
-24% Point Blank Shot (Swift)
-14% Point Blank Grasp (Impact)
-30% Point Blank Grasp (Longshot)
-2% Gunner Reload (Swift)
+37% Sniper Reload
+63% Sniper Dash
+1% Point Blank Shot (Impact)
 
 
-Claus: Cyclone Drive
-Rukyuk: Point Blank Shot (Swift)
+Claus: Cyclone Grasp
+Rukyuk: Sniper Dash
 
-Rukyuk antes a Swift token
-Priorities:  5 | 4
-Claus is active
-Claus hits
-Rukyuk takes 4 damage (now at 4 life)
-Rukyuk hits
-Rukyuk moves Claus:
+Priorities:  6 | 11
+Rukyuk is active
+Rukyuk moves:
 
-R..C...
+.C.R...
 
-Claus takes 3 damage (now at 9 life)
-Claus is stunned
+Rukyuk moves:
+
+.C....R
+
+Claus misses
 
 Beat 11
 -------
 
 Claus
 -----
-life: 9
-discard 1: Cyclone Drive
-discard 2: Downdraft Dash
-special action
+Life: 12
+Discard 1: Cyclone Grasp
+Discard 2: Downdraft Dash
 
 Rukyuk
 ------
-life: 4
-discard 1: Point Blank Shot
-discard 2: Crossfire Burst
-special action
-pool: AP, Explosive, Flash, Impact, Longshot
+Life: 8
+Discard 1: Sniper Dash
+Discard 2: Crossfire Strike
+pool: AP, Flash, Impact, Longshot
 
 
-R..C...
+.C....R
+
 
 Claus:
-19% Hurricane Tempest
-61% Tailwind Burst
-20% Tailwind Grasp
+31% Tailwind Tempest
+30% Tailwind Shot
+28% Tailwind Drive
+10% Blast Tempest
+1% Blast Shot
 
 Rukyuk:
-70% Sniper Dash
-13% Gunner Drive (Longshot)
-17% Gunner Grasp (Impact)
+2% Point Blank Shot (Impact)
+31% Point Blank Drive (Longshot)
+45% Gunner Reload (Impact)
+12% Gunner Drive (Flash)
+9% Gunner Drive (Impact)
 
 
-Claus: Tailwind Burst
-Rukyuk: Gunner Drive (Longshot)
+Claus: Tailwind Shot
+Rukyuk: Gunner Drive (Impact)
 
-Rukyuk antes a Longshot token
-Priorities:  1 | 4
+Rukyuk antes an Impact token
+Priorities:  2 | 4
 Rukyuk is active
 Claus moves:
 
-RC.....
-
-Claus moves:
-
-R.C....
+...C..R
 
 Rukyuk spends an AP token
 Rukyuk gains -1/+1 range
 Rukyuk moves:
 
-..CR...
+...C.R.
 
 Rukyuk hits
-Claus takes 3 damage (now at 6 life)
+Rukyuk moves Claus:
+
+.C...R.
+
+Claus takes 3 damage (now at 9 life)
 Claus is stunned
 Rukyuk moves:
 
-..C..R.
+.C....R
 
 
 Beat 12
@@ -622,197 +763,101 @@ Beat 12
 
 Claus
 -----
-life: 6
-discard 1: Tailwind Burst
-discard 2: Cyclone Drive
-special action
+Life: 9
+Discard 1: Tailwind Shot
+Discard 2: Cyclone Grasp
 
 Rukyuk
 ------
-life: 4
-discard 1: Gunner Drive
-discard 2: Point Blank Shot
-special action
-pool: Explosive, Flash, Impact
+Life: 8
+Discard 1: Gunner Drive
+Discard 2: Sniper Dash
+pool: Flash, Longshot
 
 
-..C..R.
+.C....R
 
-Unbeatable strategy for Claus: Hurricane Tempest: 0.51
 
 Claus:
-76% Hurricane Tempest
-24% Hurricane Shot
-0% Special Autumn's Advance
+13% Hurricane Tempest
+29% Blast Drive
+26% Downdraft Tempest
+25% Downdraft Strike
+7% Downdraft Drive
 
 Rukyuk:
-23% Crossfire Reload
-5% Crossfire Grasp (Explosive)
-72% Crossfire Dash
+25% Point Blank Reload (Longshot)
+20% Point Blank Shot (Flash)
+42% Crossfire Reload
+11% Crossfire Grasp (Flash)
+2% Trick Reload (Longshot)
 
 
-Claus: Hurricane Shot
+Claus: Downdraft Strike
 Rukyuk: Crossfire Reload
 
 Priorities:  2 | 2
 Clash!
 
-Claus:
-100% Hurricane Tempest
 
-Rukyuk:
-100% Crossfire Dash
+Claus: Downdraft Tempest
+Rukyuk: Crossfire Burst
 
-
-Claus: Hurricane Tempest
-Rukyuk: Crossfire Dash
-
-Priorities:  4 | 7
-Rukyuk is active
+Priorities:  3 | -1
+Claus is active
 Claus moves:
 
-...C.R.
+....C.R
 
-Rukyuk moves:
-
-.R.C...
-
-Claus misses
+Claus hits
+Rukyuk has 2 soak
+Rukyuk takes 0 damage (now at 8 life)
+Rukyuk misses
 
 Beat 13
 -------
 
 Claus
 -----
-life: 6
-discard 1: Hurricane Tempest
-discard 2: Tailwind Burst
-special action
--4 priority from last beat
+Life: 9
+Discard 1: Downdraft Tempest
+Discard 2: Tailwind Shot
 
 Rukyuk
 ------
-life: 4
-discard 1: Crossfire Dash
-discard 2: Gunner Drive
-special action
-pool: Explosive, Flash, Impact
+Life: 8
+Discard 1: Crossfire Burst
+Discard 2: Gunner Drive
+pool: Flash, Longshot
 
 
-.R.C...
+....C.R
+
+Unbeatable strategy for Rukyuk: Sniper Reload: -1.85
+Unbeatable strategy for Rukyuk: Sniper Reload (Flash): -1.85
+Unbeatable strategy for Rukyuk: Sniper Reload (Longshot): -1.85
+
 
 Claus:
-1% Cyclone Shot
-78% Cyclone Dash
-1% Downdraft Dash
-21% Special Autumn's Advance
+3% Blast Drive
+2% Cyclone Drive
+63% Cyclone Burst
+32% Cyclone Grasp
 
 Rukyuk:
-17% Point Blank Reload (Explosive)
-51% Point Blank Strike (Impact)
-26% Point Blank Shot (Impact)
-2% Trick Reload
-1% Trick Reload (Explosive)
-1% Trick Reload (Flash)
-1% Trick Reload (Impact)
+57% Sniper Reload
+1% Point Blank Reload
+1% Point Blank Reload (Flash)
+1% Point Blank Reload (Longshot)
+29% Trick Reload (Longshot)
+11% Trick Grasp (Flash)
 
 
-Claus: Cyclone Dash
-Rukyuk: Point Blank Strike (Impact)
+Claus: Cyclone Burst
+Rukyuk: Point Blank Reload (Longshot)
 
-Rukyuk antes an Impact token
-Priorities:  6 | 3
-Claus is active
-Claus moves:
-
-.R..C..
-
-Rukyuk misses
-
-Beat 14
--------
-
-Claus
------
-life: 6
-discard 1: Cyclone Dash
-discard 2: Hurricane Tempest
-special action
-
-Rukyuk
-------
-life: 4
-discard 1: Point Blank Strike
-discard 2: Crossfire Dash
-special action
-pool: Explosive, Flash
-
-
-.R..C..
-
-Claus:
-7% Tailwind Shot
-23% Tailwind Drive
-23% Blast Drive
-39% Downdraft Drive
-8% Downdraft Grasp
-
-Rukyuk:
-4% Sniper Reload
-4% Sniper Reload (Explosive)
-4% Sniper Reload (Flash)
-0% Gunner Reload (Flash)
-4% Gunner Drive (Explosive)
-79% Special Pulse
-6% Special Force Grenade
-
-
-Claus: Blast Drive
-Rukyuk: Special Pulse
-
-Pulse:
-
-C.....R
-
-
-Beat 14
--------
-
-Claus
------
-life: 6
-discard 1: Blast Drive
-discard 2: Cyclone Dash
-special action
-
-Rukyuk
-------
-life: 4
-discard 1: Point Blank Strike
-discard 2: Crossfire Dash
-pool: Explosive, Flash
-
-
-C.....R
-
-Claus:
-22% Tailwind Tempest
-5% Tailwind Shot
-46% Downdraft Tempest
-27% Special Autumn's Advance
-
-Rukyuk:
-10% Sniper Burst
-35% Sniper Grasp (Explosive)
-37% Gunner Reload (Explosive)
-17% Gunner Drive (Explosive)
-
-
-Claus: Downdraft Tempest
-Rukyuk: Gunner Reload (Explosive)
-
-Rukyuk antes an Explosive token
-Priorities:  3 | 4
+Rukyuk antes a Longshot token
+Priorities:  2 | 4
 Rukyuk is active
 Claus moves:
 
@@ -820,14 +865,71 @@ Claus moves:
 
 Rukyuk moves:
 
-...CR..
+..RC...
 
-Rukyuk moves:
+Claus misses
 
-R..C...
+Beat 14
+-------
 
+Claus
+-----
+Life: 9
+Discard 1: Cyclone Burst
+Discard 2: Downdraft Tempest
+
+Rukyuk
+------
+Life: 8
+Discard 1: Point Blank Reload
+Discard 2: Crossfire Burst
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
+
+
+..RC...
+
+
+Claus:
+40% Tailwind Strike
+24% Tailwind Drive
+36% Tailwind Grasp
+
+Rukyuk:
+54% Gunner Strike (Longshot)
+18% Gunner Strike (Swift)
+28% Trick Grasp (Swift)
+
+
+Claus: Tailwind Strike
+Rukyuk: Gunner Strike (Longshot)
+
+Rukyuk antes a Longshot token
+Priorities:  3 | 3
+Clash!
+
+
+Claus: Tailwind Grasp
+Rukyuk: Gunner Grasp (Longshot)
+
+Rukyuk antes a Longshot token
+Priorities:  5 | 5
+Clash!
+
+
+Claus: Tailwind Shot
+Rukyuk: Gunner Drive (Longshot)
+
+Rukyuk antes a Longshot token
+Priorities:  2 | 4
+Rukyuk is active
+Claus moves Rukyuk:
+
+.R.C...
+
+Rukyuk takes 1 damage (now at 7 life)
+Rukyuk is stunned
 Claus hits
-Rukyuk takes 1 damage (now at 3 life)
+Rukyuk takes 4 damage (now at 3 life)
 Rukyuk is stunned
 
 Beat 15
@@ -835,150 +937,150 @@ Beat 15
 
 Claus
 -----
-life: 6
-discard 1: Downdraft Tempest
-discard 2: Blast Drive
-special action
+Life: 9
+Discard 1: Tailwind Shot
+Discard 2: Cyclone Burst
 
 Rukyuk
 ------
-life: 3
-discard 1: Gunner Reload
-discard 2: Point Blank Strike
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+Life: 3
+Discard 1: Gunner Drive
+Discard 2: Point Blank Reload
+pool: AP, Explosive, Flash, Impact, Swift
 
 
-R..C...
+.R.C...
+
 
 Claus:
-33% Tailwind Strike
-33% Tailwind Shot
-33% Tailwind Grasp
+9% Hurricane Tempest
+9% Hurricane Drive
+9% Hurricane Dash
+9% Blast Tempest
+9% Blast Strike
+9% Blast Drive
+9% Blast Grasp
+9% Blast Dash
+9% Downdraft Tempest
+9% Downdraft Drive
+9% Downdraft Dash
 
 Rukyuk:
+1% Sniper Strike
+1% Sniper Strike (AP)
+1% Sniper Strike (Explosive)
+1% Sniper Strike (Flash)
+1% Sniper Strike (Impact)
+1% Sniper Strike (Swift)
 1% Sniper Shot
 1% Sniper Shot (AP)
 1% Sniper Shot (Explosive)
 1% Sniper Shot (Flash)
 1% Sniper Shot (Impact)
-0% Sniper Shot (Longshot)
 1% Sniper Shot (Swift)
-1% Sniper Drive
-1% Sniper Drive (AP)
-1% Sniper Drive (Explosive)
-1% Sniper Drive (Flash)
-1% Sniper Drive (Impact)
-1% Sniper Drive (Longshot)
-1% Sniper Drive (Swift)
 1% Sniper Burst
 1% Sniper Burst (AP)
 1% Sniper Burst (Explosive)
 1% Sniper Burst (Flash)
 1% Sniper Burst (Impact)
-1% Sniper Burst (Longshot)
 1% Sniper Burst (Swift)
 1% Sniper Grasp
 1% Sniper Grasp (AP)
 1% Sniper Grasp (Explosive)
 1% Sniper Grasp (Flash)
 1% Sniper Grasp (Impact)
-1% Sniper Grasp (Longshot)
 1% Sniper Grasp (Swift)
 1% Sniper Dash
 1% Sniper Dash (AP)
 1% Sniper Dash (Explosive)
 1% Sniper Dash (Flash)
 1% Sniper Dash (Impact)
-1% Sniper Dash (Longshot)
 1% Sniper Dash (Swift)
+1% Crossfire Strike
+1% Crossfire Strike (AP)
+1% Crossfire Strike (Explosive)
+1% Crossfire Strike (Flash)
+1% Crossfire Strike (Impact)
+1% Crossfire Strike (Swift)
 1% Crossfire Shot
-0% Crossfire Shot (AP)
-0% Crossfire Shot (Explosive)
-0% Crossfire Shot (Flash)
-0% Crossfire Shot (Impact)
-1% Crossfire Shot (Longshot)
-0% Crossfire Shot (Swift)
-1% Crossfire Drive
-1% Crossfire Drive (AP)
-1% Crossfire Drive (Explosive)
-1% Crossfire Drive (Flash)
-1% Crossfire Drive (Impact)
-0% Crossfire Drive (Longshot)
-1% Crossfire Drive (Swift)
+1% Crossfire Shot (AP)
+1% Crossfire Shot (Explosive)
+1% Crossfire Shot (Flash)
+1% Crossfire Shot (Impact)
+1% Crossfire Shot (Swift)
 1% Crossfire Burst
 1% Crossfire Burst (AP)
 1% Crossfire Burst (Explosive)
 1% Crossfire Burst (Flash)
 1% Crossfire Burst (Impact)
-0% Crossfire Burst (Longshot)
 1% Crossfire Burst (Swift)
 1% Crossfire Grasp
 1% Crossfire Grasp (AP)
 1% Crossfire Grasp (Explosive)
 1% Crossfire Grasp (Flash)
 1% Crossfire Grasp (Impact)
-1% Crossfire Grasp (Longshot)
-0% Crossfire Grasp (Swift)
+1% Crossfire Grasp (Swift)
 1% Crossfire Dash
 1% Crossfire Dash (AP)
 1% Crossfire Dash (Explosive)
 1% Crossfire Dash (Flash)
 1% Crossfire Dash (Impact)
-1% Crossfire Dash (Longshot)
 1% Crossfire Dash (Swift)
+1% Trick Strike
+1% Trick Strike (AP)
+0% Trick Strike (Explosive)
+1% Trick Strike (Flash)
+1% Trick Strike (Impact)
+1% Trick Strike (Swift)
 1% Trick Shot
 1% Trick Shot (AP)
-0% Trick Shot (Explosive)
+1% Trick Shot (Explosive)
 1% Trick Shot (Flash)
 1% Trick Shot (Impact)
-1% Trick Shot (Longshot)
 1% Trick Shot (Swift)
-1% Trick Drive
-1% Trick Drive (AP)
-1% Trick Drive (Explosive)
-1% Trick Drive (Flash)
-1% Trick Drive (Impact)
-1% Trick Drive (Longshot)
-1% Trick Drive (Swift)
 1% Trick Burst
 1% Trick Burst (AP)
-0% Trick Burst (Explosive)
+1% Trick Burst (Explosive)
 1% Trick Burst (Flash)
 1% Trick Burst (Impact)
-1% Trick Burst (Longshot)
 1% Trick Burst (Swift)
 1% Trick Grasp
 1% Trick Grasp (AP)
 1% Trick Grasp (Explosive)
 1% Trick Grasp (Flash)
 1% Trick Grasp (Impact)
-1% Trick Grasp (Longshot)
 1% Trick Grasp (Swift)
 1% Trick Dash
 1% Trick Dash (AP)
 1% Trick Dash (Explosive)
 1% Trick Dash (Flash)
 1% Trick Dash (Impact)
-1% Trick Dash (Longshot)
 1% Trick Dash (Swift)
 
 
-Claus: Tailwind Shot
-Rukyuk: Sniper Burst (AP)
+Claus: Hurricane Dash
+Rukyuk: Trick Grasp (Flash)
 
-Rukyuk antes an AP token
-Priorities:  2 | 3
-Rukyuk is active
+Rukyuk antes a Flash token
+Priorities:  9 | 2
+Claus is active
+Claus moves Rukyuk:
+
+R.C....
+
+Rukyuk takes 1 damage (now at 2 life)
 Claus moves:
+
+R.C....
+
+Rukyuk hits
+Rukyuk moves Claus:
 
 RC.....
 
-Rukyuk misses
-Rukyuk moves:
-
-.CR....
-
-Claus hits
-Rukyuk takes 4 damage (now at 0 life)
+Claus takes 2 damage (now at 7 life)
+Claus is stunned
+Claus will have -4 priority next beat
+Game goes to time
 CLAUS WINS!
-total_time: 110
+total_time: 109

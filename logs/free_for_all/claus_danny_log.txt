@@ -11,17 +11,17 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Grasp
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Hurricane Grasp
+Discard 2: Cyclone Shot
+Special action available
 
 Danny
 -----
-life: 20
-discard 1: Fallen Burst
-discard 2: Vicious Shot
-special action
+Life: 20
+Discard 1: Fallen Burst
+Discard 2: Vicious Shot
+Special action available
 
 
 .C...D.
@@ -30,6 +30,7 @@ special action
 Unbeatable strategy for Danny: Monstrous Hellgate: -3.60
 Unbeatable strategy for Danny: Shackled Hellgate: -2.96
 Unbeatable strategy for Danny: Sinner's Hellgate: -3.27
+
 
 Claus:
 46% Tailwind Strike
@@ -43,89 +44,99 @@ Danny:
 
 
 Claus: Tailwind Strike
-Danny: Monstrous Hellgate
+Danny: Sinner's Grasp
 
-Priorities:  3 | -1
-Claus is active
+Priorities:  3 | 5
+Danny is active
 Claus moves:
 
 ...C.D.
 
 
-Claus hits
-Danny has 3 soak
-Danny takes 2 damage (now at 18 life)
-Danny moves:
+Danny hits
+Danny moves Claus:
 
-D..C...
+..C..D.
 
 
+Claus takes 1 damage (now at 19 life)
 Danny adds monsters to the board:
 
-D..C...
-..mmm..
+..C..D.
+.m.....
 
+Danny moves his monsters:
+
+..C..D.
+..m....
+
+Claus misses
 
 Beat 2
 -------
 
 Claus
 -----
-life: 20
-discard 1: Tailwind Strike
-discard 2: Hurricane Grasp
-special action
+Life: 19
+Discard 1: Tailwind Strike
+Discard 2: Hurricane Grasp
+Special action available
 
 Danny
 -----
-life: 18
-discard 1: Monstrous Hellgate
-discard 2: Fallen Burst
-special action
+Life: 20
+Discard 1: Sinner's Grasp
+Discard 2: Fallen Burst
+Special action available
 
 
-D..C...
-..mmm..
+..C..D.
+..m....
+
+Unbeatable strategy for Danny: Monstrous Hellgate: -3.78
+Unbeatable strategy for Danny: Monstrous Shot: -0.48
+Unbeatable strategy for Danny: Shackled Hellgate: -3.42
+Unbeatable strategy for Danny: Vicious Hellgate: -3.52
+
 
 Claus:
-15% Cyclone Tempest
-28% Cyclone Burst
-27% Downdraft Tempest
-30% Downdraft Burst
+26% Blast Tempest
+67% Blast Shot
+7% Cyclone Drive
 
 Danny:
-23% Shackled Drive
-4% Sinner's Drive
-61% Vicious Drive
-13% Vicious Grasp
+5% Monstrous Drive
+76% Shackled Hellgate
+19% Vicious Hellgate
 
 
-Claus: Cyclone Burst
-Danny: Vicious Drive
+Claus: Blast Shot
+Danny: Vicious Hellgate
 
-Priorities:  2 | 6
+Priorities:  -1 | 1
 Danny is active
 Claus moves:
 
-D....C.
-..mmm..
+...C.D.
+..m....
 
 Danny moves:
 
-.D...C.
-..mmm..
+D..C...
+..m....
 
-Danny misses
-Danny adds monsters to the board:
-
-.D...C.
-m.mmm..
-
-Claus misses
+Claus hits
+Danny has 3 soak
+Danny takes 0 damage (now at 20 life)
 Claus removes monsters:
 
-.D...C.
-m..mm..
+D..C...
+
+
+Danny adds monsters to the board:
+
+D..C...
+..mmm..
 
 
 Beat 3
@@ -133,61 +144,69 @@ Beat 3
 
 Claus
 -----
-life: 20
-discard 1: Cyclone Burst
-discard 2: Tailwind Strike
-special action
+Life: 19
+Discard 1: Blast Shot
+Discard 2: Tailwind Strike
+Special action available
 
 Danny
 -----
-life: 18
-discard 1: Vicious Drive
-discard 2: Monstrous Hellgate
-special action
+Life: 20
+Discard 1: Vicious Hellgate
+Discard 2: Sinner's Grasp
+Special action available
 
 
-.D...C.
-m..mm..
+D..C...
+..mmm..
+
 
 Claus:
-2% Hurricane Shot
-20% Blast Tempest
-11% Blast Shot
-34% Downdraft Tempest
-13% Downdraft Shot
-20% Downdraft Grasp
+9% Hurricane Tempest
+16% Cyclone Tempest
+5% Cyclone Drive
+2% Cyclone Burst
+57% Downdraft Tempest
+12% Downdraft Burst
 
 Danny:
-1% Fallen Strike
-10% Fallen Burst
-21% Shackled Shot
-60% Shackled Burst
-4% Sinner's Strike
-4% Sinner's Burst
+29% Monstrous Strike
+4% Monstrous Shot
+6% Monstrous Drive
+6% Fallen Drive
+42% Shackled Strike
+13% Shackled Drive
 
 
-Claus: Blast Shot
+Claus: Downdraft Tempest
+Danny: Shackled Drive
+
+Priorities:  3 | 3
+Clash!
+
+
+Claus: Downdraft Burst
 Danny: Shackled Burst
 
-Priorities:  -1 | 0
-Danny is active
-Danny moves:
+Priorities:  0 | 0
+Clash!
 
-D....C.
-m..mm..
+
+Claus: Downdraft Grasp
+Danny: Shackled Strike
+
+Priorities:  4 | 2
+Claus is active
+Claus misses
+Claus removes monsters:
+
+D..C...
+...mm..
 
 Danny misses
 Danny adds monsters to the board:
 
-D....C.
-m.mmm..
-
-Claus hits
-Danny takes 3 damage (now at 15 life)
-Danny is stunned
-Claus removes monsters:
-
-D....C.
+D..C...
 ..mmm..
 
 
@@ -196,108 +215,113 @@ Beat 4
 
 Claus
 -----
-life: 20
-discard 1: Blast Shot
-discard 2: Cyclone Burst
-special action
+Life: 19
+Discard 1: Downdraft Grasp
+Discard 2: Blast Shot
+Special action available
 
 Danny
 -----
-life: 15
-discard 1: Shackled Burst
-discard 2: Vicious Drive
-special action
+Life: 20
+Discard 1: Shackled Strike
+Discard 2: Vicious Hellgate
+Special action available
+
+
+D..C...
+..mmm..
+
+
+Claus:
+6% Tailwind Strike
+2% Tailwind Drive
+25% Cyclone Tempest
+67% Cyclone Drive
+
+Danny:
+5% Monstrous Shot
+16% Fallen Grasp
+25% Sinner's Grasp
+54% Sinner's Dash
+
+
+Claus: Cyclone Drive
+Danny: Fallen Grasp
+
+Priorities:  5 | 5
+Clash!
+
+
+Claus: Cyclone Burst
+Danny: Fallen Burst
+
+Priorities:  2 | 1
+Claus is active
+Claus moves:
+
+D....C.
+..mmm..
+
+Claus misses
+Claus removes monsters:
+
+D....C.
+...mm..
+
+Danny misses
+Danny adds monsters to the board:
+
+D....C.
+..mmm..
+
+
+Beat 5
+-------
+
+Claus
+-----
+Life: 19
+Discard 1: Cyclone Burst
+Discard 2: Downdraft Grasp
+Special action available
+
+Danny
+-----
+Life: 20
+Discard 1: Fallen Burst
+Discard 2: Shackled Strike
+Special action available
 
 
 D....C.
 ..mmm..
 
-Unbeatable strategy for Danny: Monstrous Hellgate: -1.63
-Unbeatable strategy for Danny: Fallen Hellgate: -0.23
-Unbeatable strategy for Danny: Sinner's Hellgate: -0.32
+Unbeatable strategy for Danny: Monstrous Hellgate: -2.94
+Unbeatable strategy for Danny: Monstrous Grasp: -0.61
+Unbeatable strategy for Danny: Sinner's Hellgate: -2.52
+Unbeatable strategy for Danny: Vicious Hellgate: -1.97
+
 
 Claus:
-2% Tailwind Tempest
-98% Downdraft Tempest
+8% Hurricane Strike
+3% Blast Shot
+7% Blast Dash
+82% Special Pulse
 
 Danny:
-99% Monstrous Hellgate
-1% Sinner's Strike
-
-
-Claus: Downdraft Tempest
-Danny: Monstrous Hellgate
-
-Priorities:  3 | -1
-Claus is active
-Claus moves:
-
-D...C..
-..mmm..
-
-Claus misses
-Claus removes monsters:
-
-D...C..
-...mm..
-
-Danny moves:
-
-....C.D
-...mm..
-
-Danny adds monsters to the board:
-
-....C.D
-mmmmm..
-
-
-Beat 5
--------
-
-Claus
------
-life: 20
-discard 1: Downdraft Tempest
-discard 2: Blast Shot
-special action
-
-Danny
------
-life: 15
-discard 1: Monstrous Hellgate
-discard 2: Shackled Burst
-special action
-
-
-....C.D
-mmmmm..
-
-Unbeatable strategy for Danny: Fallen Grasp: -2.72
-Unbeatable strategy for Danny: Vicious Grasp: -4.47
-
-Claus:
-3% Tailwind Strike
-1% Tailwind Grasp
-8% Cyclone Drive
-39% Cyclone Grasp
-49% Special Pulse
-
-Danny:
-6% Fallen Strike
-26% Fallen Grasp
-8% Vicious Strike
-17% Vicious Drive
-43% Vicious Grasp
+22% Monstrous Hellgate
+48% Monstrous Grasp
+29% Sinner's Hellgate
+1% Vicious Grasp
 
 
 Claus: Special Pulse
-Danny: Vicious Grasp
+Danny: Monstrous Grasp
 
 Pulse:
 
-.....CD
-mmmmm..
+C....D.
+..mmm..
 
 
 Beat 5
@@ -305,115 +329,61 @@ Beat 5
 
 Claus
 -----
-life: 20
-discard 1: Downdraft Tempest
-discard 2: Blast Shot
+Life: 19
+Discard 1: Cyclone Burst
+Discard 2: Downdraft Grasp
 
 Danny
 -----
-life: 15
-discard 1: Vicious Grasp
-discard 2: Monstrous Hellgate
-special action
+Life: 20
+Discard 1: Monstrous Grasp
+Discard 2: Fallen Burst
+Special action available
 
 
-.....CD
-mmmmm..
+C....D.
+..mmm..
 
-Unbeatable strategy for Claus: Cyclone Drive: 0.36
+Unbeatable strategy for Danny: Shackled Hellgate: -4.68
+Unbeatable strategy for Danny: Sinner's Hellgate: -3.27
+Unbeatable strategy for Danny: Sinner's Strike: -0.33
+Unbeatable strategy for Danny: Vicious Hellgate: -4.44
+Unbeatable strategy for Danny: Vicious Shot: -0.17
+
 
 Claus:
-6% Hurricane Dash
-55% Cyclone Drive
-39% Cyclone Grasp
+55% Tailwind Shot
+14% Tailwind Drive
+30% Blast Shot
 
 Danny:
-28% Shackled Dash
-21% Sinner's Dash
-51% Special Pulse
+62% Shackled Hellgate
+2% Sinner's Hellgate
+36% Vicious Hellgate
 
 
-Claus: Cyclone Grasp
-Danny: Special Pulse
+Claus: Tailwind Shot
+Danny: Shackled Hellgate
 
-Pulse:
-
-C.....D
-mmmmm..
-
-
-Beat 5
--------
-
-Claus
------
-life: 20
-discard 1: Cyclone Grasp
-discard 2: Downdraft Tempest
-
-Danny
------
-life: 15
-discard 1: Vicious Grasp
-discard 2: Monstrous Hellgate
-
-
-C.....D
-mmmmm..
-
-Unbeatable strategy for Danny: Fallen Drive: -0.47
-Unbeatable strategy for Danny: Shackled Strike: -3.65
-Unbeatable strategy for Danny: Shackled Shot: -2.59
-Unbeatable strategy for Danny: Shackled Drive: -1.03
-Unbeatable strategy for Danny: Shackled Burst: -2.54
-
-Claus:
-33% Hurricane Strike
-39% Hurricane Shot
-18% Tailwind Strike
-10% Blast Strike
-
-Danny:
-9% Fallen Strike
-72% Shackled Strike
-4% Shackled Shot
-15% Shackled Burst
-
-
-Claus: Hurricane Shot
-Danny: Shackled Strike
-
-Priorities:  2 | 2
-Clash!
-
-Claus:
-50% Hurricane Strike
-8% Hurricane Drive
-43% Hurricane Burst
-
-Danny:
-47% Shackled Shot
-20% Shackled Drive
-33% Shackled Burst
-
-
-Claus: Hurricane Burst
-Danny: Shackled Burst
-
-Priorities:  1 | 0
+Priorities:  2 | -1
 Claus is active
-Claus misses
+Claus moves:
+
+.C...D.
+..mmm..
+
+Claus hits
+Danny has 3 soak
+Danny takes 1 damage (now at 19 life)
+Danny is stunned
 Claus removes monsters:
 
-C.....D
-mm.mm..
+.C...D.
+...mm..
 
-Danny hits
-Claus takes 3 damage (now at 17 life)
-Claus is stunned
 Danny adds monsters to the board:
 
-C.....D
+.C...D.
 mmmmm..
 
 
@@ -422,57 +392,53 @@ Beat 6
 
 Claus
 -----
-life: 17
-discard 1: Hurricane Burst
-discard 2: Cyclone Grasp
--4 priority from last beat
+Life: 19
+Discard 1: Tailwind Shot
+Discard 2: Cyclone Burst
 
 Danny
 -----
-life: 15
-discard 1: Shackled Burst
-discard 2: Vicious Grasp
+Life: 19
+Discard 1: Shackled Hellgate
+Discard 2: Monstrous Grasp
+Special action available
 
 
-C.....D
+.C...D.
 mmmmm..
+
 
 Claus:
-9% Tailwind Shot
-3% Tailwind Drive
-88% Downdraft Drive
+11% Hurricane Tempest
+3% Blast Tempest
+13% Downdraft Tempest
+54% Downdraft Grasp
+19% Downdraft Dash
 
 Danny:
-9% Monstrous Strike
-33% Fallen Hellgate
-58% Sinner's Hellgate
+50% Fallen Strike
+17% Fallen Drive
+17% Sinner's Burst
+11% Vicious Drive
+5% Vicious Burst
 
 
-Claus: Downdraft Drive
-Danny: Fallen Hellgate
+Claus: Downdraft Grasp
+Danny: Fallen Strike
 
-Priorities:  -1 | 0
-Danny is active
-Danny moves:
-
-C....D.
-mmmmm..
-
-Claus moves:
-
-..C..D.
-mmmmm..
-
+Priorities:  4 | 3
+Claus is active
 Claus misses
 Claus removes monsters:
 
-..C..D.
-m.mmm..
+.C...D.
+.mmmm..
 
+Danny misses
 Danny adds monsters to the board:
 
-..C..D.
-mmmmmmm
+.C...D.
+.mmmm.m
 
 
 Beat 7
@@ -480,46 +446,60 @@ Beat 7
 
 Claus
 -----
-life: 17
-discard 1: Downdraft Drive
-discard 2: Hurricane Burst
+Life: 19
+Discard 1: Downdraft Grasp
+Discard 2: Tailwind Shot
 
 Danny
 -----
-life: 15
-discard 1: Fallen Hellgate
-discard 2: Shackled Burst
+Life: 19
+Discard 1: Fallen Strike
+Discard 2: Shackled Hellgate
+Special action available
 
 
-..C..D.
-mmmmmmm
+.C...D.
+.mmmm.m
 
-Unbeatable strategy for Danny: Vicious Strike: -1.63
 
 Claus:
-27% Tailwind Strike
-4% Tailwind Grasp
-69% Cyclone Strike
+20% Hurricane Tempest
+9% Blast Tempest
+9% Blast Burst
+10% Blast Dash
+22% Cyclone Tempest
+30% Cyclone Burst
 
 Danny:
-13% Monstrous Strike
-8% Monstrous Drive
-78% Vicious Strike
+34% Monstrous Grasp
+3% Sinner's Drive
+34% Sinner's Burst
+6% Vicious Shot
+1% Vicious Drive
+21% Vicious Burst
 
 
-Claus: Cyclone Strike
-Danny: Vicious Strike
+Claus: Cyclone Burst
+Danny: Vicious Burst
 
-Priorities:  4 | 8
+Priorities:  2 | 6
 Danny is active
-Danny hits
-Danny gets +2 power
-Claus takes 5 damage (now at 12 life)
+Danny moves:
+
+.C....D
+.mmmm.m
+
+Claus moves:
+
+C.....D
+.mmmm.m
+
+Danny misses
 Claus misses
 Claus removes monsters:
 
-..C..D.
-m.mmmmm
+C.....D
+.mm.m.m
 
 
 Beat 8
@@ -527,102 +507,127 @@ Beat 8
 
 Claus
 -----
-life: 12
-discard 1: Cyclone Strike
-discard 2: Downdraft Drive
+Life: 19
+Discard 1: Cyclone Burst
+Discard 2: Downdraft Grasp
 
 Danny
 -----
-life: 15
-discard 1: Vicious Strike
-discard 2: Fallen Hellgate
+Life: 19
+Discard 1: Vicious Burst
+Discard 2: Fallen Strike
+Special action available
 
 
-..C..D.
-m.mmmmm
+C.....D
+.mm.m.m
+
+Unbeatable strategy for Danny: Monstrous Hellgate: -2.17
+Unbeatable strategy for Danny: Monstrous Grasp: -0.32
+Unbeatable strategy for Danny: Shackled Hellgate: -3.18
+Unbeatable strategy for Danny: Shackled Grasp: -1.51
+Unbeatable strategy for Danny: Sinner's Hellgate: -2.08
+
 
 Claus:
-4% Hurricane Shot
-59% Tailwind Tempest
-12% Tailwind Shot
-25% Tailwind Burst
+14% Hurricane Tempest
+15% Hurricane Strike
+8% Tailwind Tempest
+40% Blast Tempest
+24% Blast Shot
 
 Danny:
-47% Shackled Drive
-44% Shackled Grasp
-1% Sinner's Shot
-8% Sinner's Drive
+15% Monstrous Shot
+10% Monstrous Drive
+4% Monstrous Grasp
+55% Shackled Hellgate
+16% Sinner's Grasp
 
 
-Claus: Tailwind Tempest
-Danny: Shackled Drive
+Claus: Hurricane Tempest
+Danny: Sinner's Grasp
 
-Priorities:  4 | 3
-Claus is active
-Claus hits
-Danny takes 2 damage (now at 13 life)
-Danny is stunned
-Claus removes monsters:
+Priorities:  4 | 5
+Danny is active
+Claus moves:
 
-..C..D.
-m.mmm.m
+...C..D
+.mm.m.m
 
+Danny hits
+Danny moves Claus:
+
+..C...D
+.mm.m.m
+
+Claus takes 1 damage (now at 18 life)
+Claus is stunned
+Danny adds monsters to the board:
+
+..C...D
+.mmmm.m
+
+Danny moves his monsters:
+
+..C...D
+.mmmmm.
+
+Claus will have -4 priority next beat
 
 Beat 9
 -------
 
 Claus
 -----
-life: 12
-discard 1: Tailwind Tempest
-discard 2: Cyclone Strike
+Life: 18
+Discard 1: Hurricane Tempest
+Discard 2: Cyclone Burst
+Priority bonus: -4
 
 Danny
 -----
-life: 13
-discard 1: Shackled Drive
-discard 2: Vicious Strike
+Life: 19
+Discard 1: Sinner's Grasp
+Discard 2: Vicious Burst
+Special action available
 
 
-..C..D.
-m.mmm.m
+..C...D
+.mmmmm.
+
+Unbeatable strategy for Danny: Monstrous Hellgate: -0.69
+Unbeatable strategy for Danny: Fallen Hellgate: -0.39
+Unbeatable strategy for Danny: Fallen Drive: -0.93
+
 
 Claus:
-33% Hurricane Shot
-32% Hurricane Drive
-36% Downdraft Drive
+41% Blast Shot
+21% Downdraft Shot
+39% Downdraft Dash
 
 Danny:
-68% Monstrous Hellgate
-7% Monstrous Burst
-25% Fallen Grasp
+24% Monstrous Strike
+19% Fallen Drive
+57% Shackled Drive
 
 
-Claus: Downdraft Drive
-Danny: Monstrous Hellgate
+Claus: Downdraft Dash
+Danny: Shackled Drive
 
-Priorities:  3 | -1
+Priorities:  4 | 3
 Claus is active
-Claus moves:
-
-...C.D.
-m.mmm.m
-
-Claus misses
-Claus removes monsters:
-
-...C.D.
-m..mm.m
-
 Danny moves:
 
-D..C...
-m..mm.m
+..C.D..
+.mmmmm.
 
+Danny hits
+Claus takes 3 damage (now at 15 life)
+Claus is stunned
 Danny adds monsters to the board:
 
-D..C...
-mmmmmmm
+..C.D..
+.mmmmmm
 
 
 Beat 10
@@ -630,163 +635,188 @@ Beat 10
 
 Claus
 -----
-life: 12
-discard 1: Downdraft Drive
-discard 2: Tailwind Tempest
+Life: 15
+Discard 1: Downdraft Dash
+Discard 2: Hurricane Tempest
 
 Danny
 -----
-life: 13
-discard 1: Monstrous Hellgate
-discard 2: Shackled Drive
+Life: 19
+Discard 1: Shackled Drive
+Discard 2: Sinner's Grasp
+Special action available
 
 
-D..C...
-mmmmmmm
+..C.D..
+.mmmmmm
 
-Unbeatable strategy for Danny: Fallen Strike: -0.07
-Unbeatable strategy for Danny: Fallen Grasp: -1.51
-Unbeatable strategy for Danny: Vicious Strike: -0.20
-Unbeatable strategy for Danny: Vicious Burst: -0.22
-Unbeatable strategy for Danny: Vicious Grasp: -1.02
 
 Claus:
-44% Blast Grasp
-21% Cyclone Strike
-35% Cyclone Dash
+39% Tailwind Strike
+27% Tailwind Drive
+34% Cyclone Burst
 
 Danny:
-48% Fallen Grasp
-13% Vicious Strike
-39% Vicious Grasp
+25% Monstrous Hellgate
+26% Monstrous Burst
+49% Vicious Burst
 
 
-Claus: Cyclone Dash
-Danny: Vicious Grasp
+Claus: Tailwind Strike
+Danny: Monstrous Burst
 
-Priorities:  10 | 9
+Priorities:  3 | 0
 Claus is active
+Claus moves Danny:
+
+...C.D.
+.mmmmmm
+
+Danny takes 1 damage (now at 18 life)
 Claus moves:
 
-D.C....
-mmmmmmm
+...C.D.
+.mmmmmm
+
+Danny moves:
+
+...C..D
+.mmmmmm
+
+Claus misses
+Claus removes monsters:
+
+...C..D
+.mmm.mm
 
 Danny hits
-Danny gets +4 power
-Danny moves Claus:
+Claus takes 4 damage (now at 11 life)
+Danny adds monsters to the board:
 
-D..C...
+...C..D
+.mmmmmm
+
+Danny adds monsters to the board:
+
+...C..D
 mmmmmmm
 
-Claus takes 5 damage (now at 7 life)
-Claus is stunned
 
 Beat 11
 -------
 
 Claus
 -----
-life: 7
-discard 1: Cyclone Dash
-discard 2: Downdraft Drive
+Life: 11
+Discard 1: Tailwind Strike
+Discard 2: Downdraft Dash
 
 Danny
 -----
-life: 13
-discard 1: Vicious Grasp
-discard 2: Monstrous Hellgate
+Life: 18
+Discard 1: Monstrous Burst
+Discard 2: Shackled Drive
+Special action available
 
 
-D..C...
+...C..D
 mmmmmmm
+
+Unbeatable strategy for Danny: Fallen Grasp: -2.66
+Unbeatable strategy for Danny: Vicious Strike: -1.39
+Unbeatable strategy for Danny: Vicious Shot: -1.50
+Unbeatable strategy for Danny: Vicious Grasp: -3.45
+
 
 Claus:
-29% Hurricane Tempest
-65% Tailwind Tempest
-6% Tailwind Grasp
+68% Blast Grasp
+32% Cyclone Tempest
 
 Danny:
-64% Fallen Strike
-7% Fallen Drive
-30% Shackled Strike
+8% Vicious Strike
+92% Vicious Grasp
 
 
-Claus: Tailwind Tempest
-Danny: Fallen Strike
+Claus: Cyclone Tempest
+Danny: Vicious Grasp
 
-Priorities:  4 | 3
-Claus is active
+Priorities:  5 | 9
+Danny is active
 Claus moves:
 
-DC.....
+....C.D
 mmmmmmm
-
-Claus hits
-Danny takes 2 damage (now at 11 life)
-Claus removes monsters:
-
-DC.....
-mm.mmmm
 
 Danny hits
-Danny gets +2 power
-Claus takes 5 damage (now at 2 life)
-Claus is stunned
-Danny adds monsters to the board:
+Danny gets +4 power
+Danny moves Claus:
 
-DC.....
+...C..D
 mmmmmmm
 
+Claus takes 5 damage (now at 6 life)
+Claus is stunned
 
 Beat 12
 -------
 
 Claus
 -----
-life: 2
-discard 1: Tailwind Tempest
-discard 2: Cyclone Dash
+Life: 6
+Discard 1: Cyclone Tempest
+Discard 2: Tailwind Strike
 
 Danny
 -----
-life: 11
-discard 1: Fallen Strike
-discard 2: Vicious Grasp
+Life: 18
+Discard 1: Vicious Grasp
+Discard 2: Monstrous Burst
+Special action available
 
 
-DC.....
+...C..D
 mmmmmmm
 
-Unbeatable strategy for Danny: Monstrous Dash: -0.44
-Unbeatable strategy for Danny: Shackled Dash: -0.69
-Unbeatable strategy for Danny: Sinner's Dash: -0.27
 
 Claus:
-58% Hurricane Drive
-4% Blast Burst
-38% Downdraft Grasp
+16% Blast Shot
+27% Downdraft Drive
+56% Downdraft Grasp
 
 Danny:
-21% Monstrous Hellgate
-68% Shackled Dash
-11% Sinner's Drive
+21% Fallen Strike
+28% Fallen Drive
+52% Shackled Drive
 
 
-Claus: Downdraft Grasp
-Danny: Shackled Dash
+Claus: Downdraft Drive
+Danny: Fallen Strike
 
-Priorities:  4 | 8
+Priorities:  3 | 3
+Clash!
+
+
+Claus: Downdraft Burst
+Danny: Fallen Drive
+
+Priorities:  0 | 4
 Danny is active
-Danny moves:
+Claus moves:
 
-.C..D..
+.C....D
 mmmmmmm
 
+Danny moves:
+
+.C...D.
+mmmmmmm
+
+Danny misses
 Claus misses
 Claus removes monsters:
 
-.C..D..
-.mmmmmm
+.C...D.
+mmmm.mm
 
 
 Beat 13
@@ -794,55 +824,120 @@ Beat 13
 
 Claus
 -----
-life: 2
-discard 1: Downdraft Grasp
-discard 2: Tailwind Tempest
+Life: 6
+Discard 1: Downdraft Burst
+Discard 2: Cyclone Tempest
 
 Danny
 -----
-life: 11
-discard 1: Shackled Dash
-discard 2: Fallen Strike
+Life: 18
+Discard 1: Fallen Drive
+Discard 2: Vicious Grasp
+Special action available
 
 
-.C..D..
-.mmmmmm
+.C...D.
+mmmm.mm
 
-Unbeatable strategy for Danny: Sinner's Burst: -7.00
-Unbeatable strategy for Danny: Vicious Shot: -7.00
+Unbeatable strategy for Danny: Shackled Strike: -1.45
+
 
 Claus:
+21% Tailwind Shot
+2% Tailwind Drive
+49% Blast Shot
+28% Blast Grasp
+
+Danny:
+24% Monstrous Strike
+11% Shackled Hellgate
+48% Shackled Strike
+17% Shackled Burst
+
+
+Claus: Blast Shot
+Danny: Shackled Strike
+
+Priorities:  -1 | 2
+Danny is active
+Danny hits
+Claus takes 4 damage (now at 2 life)
+Danny adds monsters to the board:
+
+.C...D.
+mmmmmmm
+
+Claus hits
+Danny takes 3 damage (now at 15 life)
+Claus removes monsters:
+
+.C...D.
+mmmm.mm
+
+
+Beat 14
+-------
+
+Claus
+-----
+Life: 2
+Discard 1: Blast Shot
+Discard 2: Downdraft Burst
+
+Danny
+-----
+Life: 15
+Discard 1: Shackled Strike
+Discard 2: Fallen Drive
+Special action available
+
+
+.C...D.
+mmmm.mm
+
+Unbeatable strategy for Danny: Vicious Shot: -7.00
+Unbeatable strategy for Danny: Vicious Burst: -7.00
+
+
+Claus:
+7% Hurricane Tempest
 7% Hurricane Strike
-8% Hurricane Shot
-3% Hurricane Drive
-12% Hurricane Burst
-8% Hurricane Dash
-9% Blast Strike
-2% Blast Shot
-7% Blast Drive
-5% Blast Burst
-5% Blast Dash
-13% Cyclone Strike
-9% Cyclone Shot
+7% Hurricane Drive
+7% Hurricane Grasp
+5% Hurricane Dash
+9% Tailwind Tempest
+9% Tailwind Strike
+7% Tailwind Drive
+7% Tailwind Grasp
+6% Tailwind Dash
+6% Cyclone Tempest
+7% Cyclone Strike
 5% Cyclone Drive
-2% Cyclone Burst
+7% Cyclone Grasp
 5% Cyclone Dash
 
 Danny:
-100% Vicious Shot
+50% Vicious Shot
+50% Vicious Burst
 
 
-Claus: Hurricane Dash
-Danny: Vicious Shot
+Claus: Tailwind Drive
+Danny: Vicious Burst
 
-Priorities:  9 | 8
-Claus is active
+Priorities:  4 | 6
+Danny is active
+Danny moves:
+
+.C....D
+mmmm.mm
+
 Claus moves:
 
-C...D..
-.mmmmmm
+..C...D
+mmmm.mm
 
 Danny hits
-Claus takes 2 damage (now at 0 life)
+Danny gets +2 power
+Claus takes 4 damage (now at 0 life)
 DANNY WINS!
-total_time: 34
+total_time: 63

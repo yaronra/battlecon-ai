@@ -22,11 +22,11 @@ Life: 20
 Discard 1: 
 Discard 2: 
 Active artifacts: 
-  Battlefist
-  Shield Amulet
-  Phase Goggles
   Autodeflector
+  Phase Goggles
   Hover Boots
+  Shield Amulet
+  Battlefist
 
 
 .L...R.
@@ -45,25 +45,29 @@ Runika:
 37% Overcharged Drive
 
 
-Lesandra: Binding Burst
+Lesandra: Pactbreaker Grasp (Borneo)
 Runika: Overcharged Drive
 
-Priorities:  -1 | 6
-Runika is active
+Priorities:  6 | 6
+Clash!
+
+
+Lesandra: Pactbreaker Strike (Borneo)
+Runika: Overcharged Burst
+
+Priorities:  4 | 3
+Lesandra is active
 Runika overcharges her Phase Goggles
-Lesandra moves:
-
-L....R.
-
 Runika moves:
 
-L..R...
+.L....R
 
-Runika loses 1 life (now at 19)
-Runika gets -1 power
+Lesandra misses
 Runika hits
-Lesandra takes 3 damage (now at 17 life)
+Lesandra takes 4 damage (now at 16 life)
 Lesandra is stunned
+Lesandra summons her Wyvern
+Lesandra loses 1 life (now at 15)
 Phase Goggles is removed from the game
 
 Beat 2
@@ -71,15 +75,15 @@ Beat 2
 
 Lesandra
 --------
-Life: 17
-Discard 1: Binding Burst
+Life: 15
+Discard 1: Pactbreaker Strike
 Discard 2: 
-Familiar: Borneo
+Familiar: Wyvern
 
 Runika
 ------
-Life: 19
-Discard 1: Overcharged Drive
+Life: 20
+Discard 1: Overcharged Burst
 Discard 2: 
 Active artifacts: 
   Battlefist
@@ -90,36 +94,46 @@ Removed artifacts:
   Phase Goggles
 
 
-L..R...
+.L....R
 
-Unbeatable strategy for Runika: Explosive Dash: -0.44
+Unbeatable strategy for Lesandra: Invocation Burst (Wyvern): 2.09
+Unbeatable strategy for Lesandra: Binding Shot: 0.94
+Unbeatable strategy for Lesandra: Binding Shot (Wyvern): 0.05
+Unbeatable strategy for Lesandra: Binding Drive: 0.33
+Unbeatable strategy for Lesandra: Guardian Shot: 1.70
+Unbeatable strategy for Lesandra: Guardian Burst (Wyvern): 0.93
+Unbeatable strategy for Lesandra: Window Burst: 0.20
 
 
 Lesandra:
-5% Invocation Strike
-90% Invocation Dash
-0% Window Shot
-5% Window Drive
+31% Invocation Shot (Wyvern)
+21% Invocation Drive
+12% Invocation Burst
+18% Invocation Burst (Wyvern)
+18% Guardian Grasp (Wyvern)
 
 Runika:
-4% Explosive Shot
-8% Explosive Burst
-85% Explosive Dash
-2% Impact Tinker
+70% Maintenance Tinker
+5% Maintenance Dash
+2% Explosive Shot
+14% Impact Tinker
+9% Impact Dash
 
 
-Lesandra: Invocation Dash
-Runika: Explosive Burst
+Lesandra: Invocation Shot (Wyvern)
+Runika: Maintenance Tinker
 
-Priorities:  7 | 3
-Lesandra is active
-Runika moves:
-
-L...R..
-
+Priorities:  0 | 4
+Runika is active
+Runika misses
+No artifacts to activate
 Lesandra moves:
 
-...LR..
+L.....R
 
-Runika misses
-total_time: 56
+Lesandra hits
+Battlefist is de-activated
+Runika has 3 soak
+Runika takes 2 damage (now at 18 life)
+Lesandra summons her Borneo
+total_time: 91

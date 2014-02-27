@@ -29,93 +29,97 @@ Familiar: Borneo
 
 Abarene:
 2% Lethal Thorns
-1% Lethal Thorns (Fatigue)
 4% Lethal Strike
-26% Intoxicating Shot (Fatigue)
+1% Intoxicating Shot
+25% Intoxicating Shot (Fatigue)
 26% Crippling Thorns (Fatigue)
 41% Crippling Dash
 
 Lesandra:
-2% Invocation Strike
-13% Invocation Drive
-2% Pactbreaker Drive (Borneo)
-71% Binding Shot
-7% Binding Burst
-5% Window Burst
+3% Invocation Strike
+14% Invocation Drive
+70% Binding Shot
+6% Binding Burst
+8% Window Burst
 
 
-Abarene: Crippling Thorns (Fatigue)
-Lesandra: Binding Shot
+Abarene: Crippling Dash
+Lesandra: Binding Burst
 
-Abarene antes a Fatigue token
-Priorities:  0 | -2
+Priorities:  7 | -1
 Abarene is active
 Abarene moves:
 
-...A.L.
+..A..L.
 
 Abarene loses 1 life (now at 19)
 Abarene gets -1 power
-Abarene hits
-Abarene recovers a Nausea token
-Abarene recovers a Pain Spike token
-Lesandra takes 3 damage (now at 17 life)
-Lesandra hits
-Abarene takes 3 damage (now at 16 life)
-Lesandra summons her Wyvern
+Abarene moves:
+
+....AL.
+
+Abarene loses 1 life (now at 18)
+Abarene gets -1 power
+Lesandra misses
 
 Beat 2
 -------
 
 Abarene
 -------
-Life: 16
-Discard 1: Crippling Thorns
+Life: 18
+Discard 1: Crippling Dash
 Discard 2: 
-pool: Nausea, Pain Spike
+pool: Fatigue
 
 Lesandra
 --------
-Life: 17
-Discard 1: Binding Shot
+Life: 20
+Discard 1: Binding Burst
 Discard 2: 
-Familiar: Wyvern
+Familiar: Borneo
 
 
-...A.L.
+....AL.
 
 
 Abarene:
-3% Intoxicating Shot (Nausea, Pain Spike)
-37% Intoxicating Drive (Nausea, Pain Spike)
-7% Intoxicating Grasp (Nausea, Pain Spike)
-53% Intoxicating Dash (Pain Spike)
+44% Intoxicating Thorns (Fatigue)
+5% Intoxicating Burst (Fatigue)
+9% Barbed Strike
+3% Barbed Burst
+35% Barbed Grasp
+3% Pestilent Drive
 
 Lesandra:
-1% Invocation Strike
-14% Invocation Burst (Wyvern)
-81% Pactbreaker Grasp (Wyvern)
-4% Guardian Burst (Wyvern)
+11% Pactbreaker Strike (Borneo)
+24% Guardian Strike (Borneo)
+10% Guardian Shot
+45% Guardian Dash
+6% Window Strike
+3% Window Grasp
 
 
-Abarene: Intoxicating Dash (Pain Spike)
-Lesandra: Pactbreaker Grasp (Wyvern)
+Abarene: Barbed Grasp
+Lesandra: Guardian Strike (Borneo)
 
-Abarene antes a Pain Spike token
-Lesandra loses 3 life (now at 14)
-Priorities:  10 | 6
+Priorities:  6 | 2
 Abarene is active
-Abarene recovers a Pain Spike token
-Abarene moves:
+Abarene hits
+Abarene recovers a Nausea token
+Abarene moves Lesandra:
 
-.....LA
+...LA..
 
-Lesandra moves:
+Lesandra loses 2 life (now at 18)
+Abarene moves Lesandra:
 
-L.....A
+....AL.
 
-Lesandra misses
-Abarene recovers a Fatigue token
-Lesandra summons her Borneo
-Lesandra loses 1 life (now at 13)
-total_time: 233
+Lesandra loses 2 life (now at 16)
+Lesandra takes 1 damage (now at 15 life)
+Lesandra hits
+Abarene takes 5 damage (now at 13 life)
+Abarene is stunned
+Lesandra summons her Raven Knight
+total_time: 116

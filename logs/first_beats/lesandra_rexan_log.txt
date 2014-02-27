@@ -21,7 +21,7 @@ Rexan
 Life: 20
 Discard 1: 
 Discard 2: 
-Opponent has 0 Curse tokens
+Lesandra has 0 Curse tokens
 
 
 .L...R.
@@ -43,23 +43,23 @@ Rexan:
 
 
 Lesandra: Invocation Drive
-Rexan: Vainglorious Dash
+Rexan: Enervating Malediction
 
-Priorities:  2 | 9
-Rexan is active
-Rexan moves Lesandra:
+Priorities:  2 | 2
+Lesandra is active
+Lesandra moves:
 
 ..L..R.
 
-Rexan moves:
+Lesandra hits
+Lesandra gains 1 Curse token
+Rexan takes 4 damage (now at 16 life)
+Rexan is stunned
+Lesandra summons her Rune Knight
+Rexan moves Lesandra:
 
-.RL....
+...L.R.
 
-Lesandra moves:
-
-LR.....
-
-Lesandra misses
 
 Beat 2
 -------
@@ -69,43 +69,53 @@ Lesandra
 Life: 20
 Discard 1: Invocation Drive
 Discard 2: 
-Familiar: Borneo
+Familiar: Rune Knight
 
 Rexan
 -----
-Life: 20
-Discard 1: Vainglorious Dash
+Life: 16
+Discard 1: Enervating Malediction
 Discard 2: 
-Opponent has 0 Curse tokens
+Lesandra has 1 Curse tokens
 
 
-LR.....
+...L.R.
 
-Unbeatable strategy for Lesandra: Binding Dash: 0.14
+Unbeatable strategy for Lesandra: Binding Burst | (1 Curse token): 0.03
 
 
 Lesandra:
-1% Pactbreaker Strike (Borneo)
-5% Pactbreaker Dash
-90% Binding Dash
-5% Guardian Dash
+6% Pactbreaker Strike (Rune Knight) | (1 Curse token)
+7% Binding Strike | (1 Curse token)
+59% Binding Burst | (1 Curse token)
+2% Binding Grasp | (1 Curse token)
+9% Binding Dash
+11% Binding Dash | (1 Curse token)
+7% Guardian Grasp
 
 Rexan:
-94% Enervating Shot
-4% Overlord's Malediction
-3% Overlord's Shot
+19% Unyielding Dash
+8% Devastating Shot
+4% Devastating Drive
+30% Vainglorious Shot
+21% Vainglorious Dash
+9% Overlord's Strike
+10% Overlord's Dash
 
 
-Lesandra: Pactbreaker Strike (Borneo)
-Rexan: Enervating Shot
+Lesandra: Binding Dash
+Rexan: Vainglorious Dash
 
-Priorities:  4 | 0
-Lesandra is active
-Lesandra hits
-Lesandra gains 1 Curse token
-Rexan takes 4 damage (now at 16 life)
-Rexan hits
-Rexan gets +1 power
-Lesandra takes 4 damage (now at 16 life)
-Lesandra summons her Raven Knight
-total_time: 22
+Priorities:  7 | 9
+Rexan is active
+Rexan moves:
+
+...L..R
+
+Rexan loses 1 life (now at 15)
+Rexan gets -1 power
+Lesandra moves:
+
+L.....R
+
+total_time: 38

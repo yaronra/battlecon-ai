@@ -11,21 +11,22 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Grasp
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Hurricane Grasp
+Discard 2: Cyclone Shot
+Special action available
 
 Clinhyde
 --------
-life: 20
-discard 1: Diffusion Frenzy
-discard 2: Phase Grasp
-special action
+Life: 20
+Discard 1: Diffusion Frenzy
+Discard 2: Phase Grasp
+Special action available
 Active Stim Packs: 
 
 
 .C...c.
+
 
 Claus:
 14% Tailwind Tempest
@@ -61,21 +62,22 @@ Beat 2
 
 Claus
 -----
-life: 20
-discard 1: Downdraft Burst
-discard 2: Hurricane Grasp
-special action
+Life: 20
+Discard 1: Downdraft Burst
+Discard 2: Hurricane Grasp
+Special action available
 
 Clinhyde
 --------
-life: 20
-discard 1: Gravity Drive
-discard 2: Diffusion Frenzy
-special action
+Life: 20
+Discard 1: Gravity Drive
+Discard 2: Diffusion Frenzy
+Special action available
 Active Stim Packs: 
 
 
 C...c..
+
 
 Claus:
 15% Tailwind Tempest
@@ -93,378 +95,402 @@ Clinhyde:
 
 
 Claus: Cyclone Shot
-Clinhyde: Phase Burst
+Clinhyde: Toxic Shot
 
-Priorities:  3 | -2
+Priorities:  3 | 3
+Clash!
+
+
+Claus: Cyclone Dash
+Clinhyde: Toxic Dash
+
+Priorities:  10 | 10
+Clash!
+
+
+Claus: Cyclone Tempest
+Clinhyde: Toxic Burst
+
+Priorities:  5 | 2
 Claus is active
+Claus moves:
+
+...Cc..
+
 Clinhyde moves:
 
-C.....c
+...C..c
 
-Claus misses
-Clinhyde misses
+Claus hits
+Clinhyde takes 2 damage (now at 18 life)
+Clinhyde is stunned
 
 Beat 3
 -------
 
 Claus
 -----
-life: 20
-discard 1: Cyclone Shot
-discard 2: Downdraft Burst
-special action
+Life: 20
+Discard 1: Cyclone Tempest
+Discard 2: Downdraft Burst
+Special action available
 
 Clinhyde
 --------
-life: 20
-discard 1: Phase Burst
-discard 2: Gravity Drive
-special action
+Life: 18
+Discard 1: Toxic Burst
+Discard 2: Gravity Drive
+Special action available
 Active Stim Packs: 
 
 
-C.....c
+...C..c
+
+Unbeatable strategy for Clinhyde: Phase Grasp: -0.39
+
 
 Claus:
-28% Tailwind Tempest
-26% Tailwind Drive
-6% Tailwind Grasp
-9% Blast Tempest
-31% Blast Dash
+20% Hurricane Shot
+18% Tailwind Grasp
+63% Blast Dash
 
 Clinhyde:
-22% Toxic Shot (Ehrlite)
-9% Toxic Shot
-24% Shock Strike
-45% Shock Shot (Ehrlite)
-0% Shock Grasp (Crizma)
+5% Shock Strike (Crizma)
+2% Phase Shot (Crizma)
+93% Phase Grasp
 
 
-Claus: Blast Tempest
-Clinhyde: Shock Strike
+Claus: Blast Dash
+Clinhyde: Phase Grasp
 
-Priorities:  1 | 4
-Clinhyde is active
-Claus moves:
-
-.C....c
-
+Priorities:  6 | 2
+Claus is active
 Claus moves:
 
 ....C.c
 
-Clinhyde moves:
+Claus moves:
 
-c...C..
+..C...c
 
 Clinhyde misses
-Claus hits
-Clinhyde takes 1 damage (now at 19 life)
 
 Beat 4
 -------
 
 Claus
 -----
-life: 20
-discard 1: Blast Tempest
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Blast Dash
+Discard 2: Cyclone Tempest
+Special action available
 
 Clinhyde
 --------
-life: 19
-discard 1: Shock Strike
-discard 2: Phase Burst
-special action
+Life: 18
+Discard 1: Phase Grasp
+Discard 2: Toxic Burst
+Special action available
 Active Stim Packs: 
 
 
-c...C..
+..C...c
+
+Unbeatable strategy for Claus: Downdraft Burst: 0.18
+
 
 Claus:
-23% Tailwind Grasp
-2% Downdraft Drive
-44% Downdraft Burst
-32% Downdraft Dash
+7% Tailwind Shot
+7% Tailwind Drive
+3% Tailwind Grasp
+4% Downdraft Shot
+74% Downdraft Burst
+5% Downdraft Grasp
 
 Clinhyde:
-17% Toxic Shot
-22% Toxic Drive
-48% Gravity Drive (Ehrlite)
-13% Gravity Grasp
+40% Shock Strike (Crizma)
+3% Shock Shot (Crizma)
+24% Gravity Strike (Ehrlite)
+3% Gravity Strike
+24% Gravity Drive (Ehrlite)
+5% Gravity Drive
 
 
-Claus: Downdraft Dash
-Clinhyde: Toxic Shot
+Claus: Downdraft Burst
+Clinhyde: Gravity Strike (Ehrlite)
 
-Priorities:  8 | 3
-Claus is active
+Clinhyde activates Ehrlite
+Clinhyde loses 1 life (now at 17)
+Priorities:  0 | 5
+Clinhyde is active
 Claus moves:
 
-c..C...
+.C....c
 
 Clinhyde misses
+Claus misses
 
 Beat 5
 -------
 
 Claus
 -----
-life: 20
-discard 1: Downdraft Dash
-discard 2: Blast Tempest
-special action
+Life: 20
+Discard 1: Downdraft Burst
+Discard 2: Blast Dash
+Special action available
 
 Clinhyde
 --------
-life: 19
-discard 1: Toxic Shot
-discard 2: Shock Strike
-special action
-Active Stim Packs: 
+Life: 17
+Discard 1: Gravity Strike
+Discard 2: Phase Grasp
+Special action available
+Active Stim Packs: Ehrlite
 
 
-c..C...
+.C....c
 
-Unbeatable strategy for Clinhyde: Gravity Drive (Ehrlite): -0.94
 
 Claus:
-30% Tailwind Strike
-11% Tailwind Shot
-29% Tailwind Grasp
-31% Cyclone Grasp
+51% Tailwind Tempest
+28% Tailwind Drive
+10% Tailwind Grasp
+5% Cyclone Tempest
+7% Cyclone Drive
 
 Clinhyde:
-75% Gravity Drive (Ehrlite)
-2% Gravity Drive (Hylatine)
-10% Phase Drive
-13% Phase Grasp
+9% Toxic Shot (Crizma)
+4% Toxic Shot
+1% Toxic Burst (Crizma)
+35% Shock Shot (Crizma)
+51% Shock Drive (Crizma)
 
 
-Claus: Tailwind Strike
-Clinhyde: Gravity Drive (Ehrlite)
+Claus: Tailwind Tempest
+Clinhyde: Shock Shot (Crizma)
 
-Clinhyde activates Ehrlite
-Clinhyde loses 1 life (now at 18)
-Priorities:  3 | 6
+Clinhyde activates Crizma
+Clinhyde loses 2 life (now at 15)
+Priorities:  4 | 4
+Clash!
+
+
+Claus: Tailwind Shot
+Clinhyde: Shock Drive (Crizma)
+
+Clinhyde activates Crizma
+Clinhyde loses 2 life (now at 15)
+Priorities:  2 | 6
 Clinhyde is active
 Claus moves:
 
-cC.....
+..C...c
 
 Clinhyde moves:
 
-.C.c...
+c.C....
+
+Clinhyde moves:
+
+..Cc...
 
 Clinhyde hits
-Clinhyde moves Claus:
-
-C..c...
-
-Claus takes 3 damage (now at 17 life)
-Claus misses
+Claus takes 4 damage (now at 16 life)
+Claus is stunned
+Claus is stunned
 
 Beat 6
 -------
 
 Claus
 -----
-life: 17
-discard 1: Tailwind Strike
-discard 2: Downdraft Dash
-special action
+Life: 16
+Discard 1: Tailwind Shot
+Discard 2: Downdraft Burst
+Special action available
 
 Clinhyde
 --------
-life: 18
-discard 1: Gravity Drive
-discard 2: Toxic Shot
-special action
-Active Stim Packs: Ehrlite
+Life: 15
+Discard 1: Shock Drive
+Discard 2: Gravity Strike
+Special action available
+Active Stim Packs: Crizma, Ehrlite
 
 
-C..c...
+..Cc...
+
 
 Claus:
-23% Blast Tempest
-77% Cyclone Tempest
+10% Blast Tempest
+1% Blast Dash
+27% Cyclone Tempest
+6% Cyclone Strike
+14% Cyclone Grasp
+41% Special Pulse
 
 Clinhyde:
-26% Phase Burst (Hylatine)
-74% Phase Burst
+21% Toxic Frenzy (Hylatine)
+18% Toxic Shot (Hylatine)
+9% Toxic Burst (Hylatine)
+1% Toxic Grasp
+21% Diffusion Frenzy (Hylatine)
+29% Diffusion Shot (Hylatine)
 
 
-Claus: Cyclone Tempest
-Clinhyde: Phase Burst
+Claus: Cyclone Grasp
+Clinhyde: Diffusion Frenzy (Hylatine)
 
-Clinhyde loses 1 life (now at 17)
-Priorities:  5 | -1
+Clinhyde activates Hylatine
+Clinhyde loses 3 life (now at 12)
+Priorities:  6 | 5
 Claus is active
-Claus moves Clinhyde:
-
-..C.c..
-
-Clinhyde takes 1 damage (now at 16 life)
-Clinhyde is stunned
-Claus moves:
-
-..C.c..
-
 Clinhyde moves:
 
-..C...c
+.cC....
 
-Claus misses
+Claus hits
+Claus moves Clinhyde:
+
+c.C....
+
+Clinhyde has 2 soak
+Clinhyde takes 1 damage (now at 11 life)
+Clinhyde hits
+Clinhyde moves Claus:
+
+c..C...
+
+Claus takes 4 damage (now at 12 life)
+Clinhyde de-activates Crizma
+Claus is stunned
+Clinhyde de-activates Ehrlite
+Clinhyde de-activates Hylatine
+Clinhyde moves:
+
+..cC...
+
 
 Beat 7
 -------
 
 Claus
 -----
-life: 17
-discard 1: Cyclone Tempest
-discard 2: Tailwind Strike
-special action
+Life: 12
+Discard 1: Cyclone Grasp
+Discard 2: Tailwind Shot
+Special action available
 
 Clinhyde
 --------
-life: 16
-discard 1: Phase Burst
-discard 2: Gravity Drive
-special action
-Active Stim Packs: Ehrlite
+Life: 11
+Discard 1: Diffusion Frenzy
+Discard 2: Shock Drive
+Special action available
+Active Stim Packs: 
 
 
-..C...c
+..cC...
 
-Unbeatable strategy for Claus: Downdraft Burst: 0.85
 
 Claus:
-66% Downdraft Burst
-13% Downdraft Grasp
-22% Downdraft Dash
+28% Blast Tempest
+12% Blast Strike
+1% Downdraft Tempest
+6% Downdraft Strike
+44% Downdraft Drive
+9% Downdraft Dash
 
 Clinhyde:
-67% Shock Strike
-21% Shock Shot (Crizma)
-12% Shock Shot
+7% Toxic Strike (Crizma)
+33% Toxic Shot (Hylatine)
+7% Toxic Burst (Hylatine)
+8% Gravity Strike
+0% Gravity Shot (Hylatine)
+44% Gravity Dash
 
 
-Claus: Downdraft Grasp
-Clinhyde: Shock Strike
+Claus: Downdraft Drive
+Clinhyde: Gravity Dash
 
-Clinhyde loses 1 life (now at 15)
-Priorities:  4 | 5
+Priorities:  3 | 9
 Clinhyde is active
 Clinhyde moves:
 
-.cC....
+...C..c
 
-Clinhyde hits
-Claus takes 3 damage (now at 14 life)
-Claus is stunned
-Claus is stunned
+Claus moves:
+
+....C.c
+
+Claus misses
 
 Beat 8
 -------
 
 Claus
 -----
-life: 14
-discard 1: Downdraft Grasp
-discard 2: Cyclone Tempest
-special action
+Life: 12
+Discard 1: Downdraft Drive
+Discard 2: Cyclone Grasp
+Special action available
 
 Clinhyde
 --------
-life: 15
-discard 1: Shock Strike
-discard 2: Phase Burst
-special action
-Active Stim Packs: Ehrlite
+Life: 11
+Discard 1: Gravity Dash
+Discard 2: Diffusion Frenzy
+Special action available
+Active Stim Packs: 
 
 
-.cC....
+....C.c
 
-Unbeatable strategy for Clinhyde: Diffusion Shot (Crizma): -0.63
-Unbeatable strategy for Clinhyde: Gravity Drive (Crizma): -3.51
-Unbeatable strategy for Clinhyde: Gravity Drive (Hylatine): -1.51
-Unbeatable strategy for Clinhyde: Gravity Drive: -3.07
+Unbeatable strategy for Clinhyde: Toxic Shot (Hylatine): -0.33
+Unbeatable strategy for Clinhyde: Shock Drive (Crizma): -2.73
+Unbeatable strategy for Clinhyde: Shock Drive (Ehrlite): -0.73
+Unbeatable strategy for Clinhyde: Shock Drive (Hylatine): -0.73
+Unbeatable strategy for Clinhyde: Shock Drive: -2.05
+
 
 Claus:
-78% Blast Burst
-0% Blast Dash
-21% Special Pulse
+15% Hurricane Tempest
+4% Hurricane Shot
+2% Tailwind Strike
+57% Tailwind Shot
+22% Tailwind Burst
 
 Clinhyde:
-6% Toxic Shot (Crizma)
-49% Gravity Drive (Crizma)
-45% Gravity Drive
+1% Toxic Drive
+3% Shock Shot (Crizma)
+84% Shock Drive (Crizma)
+4% Phase Strike (Crizma)
+7% Phase Drive (Crizma)
 
 
-Claus: Special Pulse
-Clinhyde: Gravity Drive (Crizma)
+Claus: Tailwind Shot
+Clinhyde: Shock Drive (Crizma)
 
 Clinhyde activates Crizma
-Clinhyde loses 2 life (now at 13)
-Pulse:
-
-.cC....
-
-
-Beat 8
--------
-
-Claus
------
-life: 14
-discard 1: Downdraft Grasp
-discard 2: Cyclone Tempest
-
-Clinhyde
---------
-life: 13
-discard 1: Gravity Drive
-discard 2: Shock Strike
-special action
-Active Stim Packs: Ehrlite, Crizma
-
-
-.cC....
-
-Claus:
-75% Tailwind Strike
-24% Tailwind Drive
-1% Blast Dash
-
-Clinhyde:
-1% Toxic Shot (Hylatine)
-47% Toxic Shot
-53% Diffusion Shot (Hylatine)
-
-
-Claus: Tailwind Drive
-Clinhyde: Toxic Shot
-
-Clinhyde loses 2 life (now at 11)
-Priorities:  4 | 5
+Clinhyde loses 1 life (now at 10)
+Priorities:  2 | 5
 Clinhyde is active
+Claus moves:
+
+.....Cc
+
 Clinhyde moves:
 
-..Cc...
+..c..C.
 
 Clinhyde moves:
 
-.cC....
+....cC.
 
-Claus moves Clinhyde:
-
-c.C....
-
-Clinhyde takes 1 damage (now at 10 life)
 Clinhyde hits
-Claus takes 5 damage (now at 9 life)
+Claus takes 4 damage (now at 8 life)
+Claus is stunned
 Claus is stunned
 
 Beat 9
@@ -472,344 +498,361 @@ Beat 9
 
 Claus
 -----
-life: 9
-discard 1: Tailwind Drive
-discard 2: Downdraft Grasp
+Life: 8
+Discard 1: Tailwind Shot
+Discard 2: Downdraft Drive
+Special action available
 
 Clinhyde
 --------
-life: 10
-discard 1: Toxic Shot
-discard 2: Gravity Drive
-special action
-Active Stim Packs: Ehrlite, Crizma
+Life: 10
+Discard 1: Shock Drive
+Discard 2: Gravity Dash
+Special action available
+Active Stim Packs: Crizma
 
 
-c.C....
+....cC.
+
 
 Claus:
-9% Blast Strike
-5% Blast Shot
-11% Blast Burst
-46% Cyclone Tempest
-29% Cyclone Shot
+1% Hurricane Tempest
+15% Hurricane Strike
+26% Blast Tempest
+14% Cyclone Tempest
+4% Cyclone Strike
+25% Cyclone Burst
+15% Cyclone Grasp
 
 Clinhyde:
-20% Shock Frenzy (Hylatine)
-7% Shock Frenzy
-3% Shock Strike
-67% Shock Burst (Hylatine)
-3% Diffusion Grasp
+1% Toxic Strike
+1% Toxic Shot
+2% Toxic Burst (Ehrlite)
+8% Toxic Burst (Hylatine)
+17% Toxic Burst
+8% Toxic Grasp
+63% Diffusion Shot (Hylatine)
 
 
-Claus: Blast Burst
-Clinhyde: Shock Frenzy
+Claus: Cyclone Grasp
+Clinhyde: Toxic Burst (Hylatine)
 
+Clinhyde activates Hylatine
 Clinhyde loses 2 life (now at 8)
-Priorities:  -2 | 5
-Clinhyde is active
+Priorities:  6 | 2
+Claus is active
 Clinhyde moves:
 
-.cC....
+.....Cc
 
-Claus moves Clinhyde:
+Clinhyde moves:
 
-c.C....
+....cC.
 
-Clinhyde takes 1 damage (now at 7 life)
-Clinhyde is stunned
-Claus moves:
+Clinhyde moves:
 
-c..C...
+..c..C.
 
-Claus hits
-Clinhyde takes 3 damage (now at 4 life)
-Clinhyde is stunned
+Claus misses
+Clinhyde hits
+Claus takes 5 damage (now at 3 life)
+Claus is stunned
 
 Beat 10
 -------
 
 Claus
 -----
-life: 9
-discard 1: Blast Burst
-discard 2: Tailwind Drive
+Life: 3
+Discard 1: Cyclone Grasp
+Discard 2: Tailwind Shot
+Special action available
 
 Clinhyde
 --------
-life: 4
-discard 1: Shock Frenzy
-discard 2: Toxic Shot
-special action
-Active Stim Packs: Ehrlite, Crizma
+Life: 8
+Discard 1: Toxic Burst
+Discard 2: Shock Drive
+Special action available
+Active Stim Packs: Crizma, Hylatine
 
 
-c..C...
+..c..C.
 
-Unbeatable strategy for Claus: Downdraft Dash: 1.13
 
 Claus:
-5% Cyclone Tempest
-95% Downdraft Dash
+21% Hurricane Tempest
+1% Hurricane Dash
+58% Downdraft Tempest
+20% Downdraft Dash
 
 Clinhyde:
-98% Gravity Drive
-2% Phase Strike
+2% Diffusion Shot
+58% Gravity Dash
+26% Phase Strike
+15% Phase Shot
 
 
-Claus: Downdraft Dash
-Clinhyde: Gravity Drive
+Claus: Downdraft Tempest
+Clinhyde: Gravity Dash
 
-Clinhyde loses 2 life (now at 2)
-Priorities:  8 | 5
-Claus is active
+Clinhyde loses 2 life (now at 6)
+Priorities:  3 | 9
+Clinhyde is active
 Claus moves:
 
-c.....C
+..c.C..
 
-Clinhyde misses
+Clinhyde moves:
+
+c...C..
+
+Claus misses
 
 Beat 11
 -------
 
 Claus
 -----
-life: 9
-discard 1: Downdraft Dash
-discard 2: Blast Burst
+Life: 3
+Discard 1: Downdraft Tempest
+Discard 2: Cyclone Grasp
+Special action available
 
 Clinhyde
 --------
-life: 2
-discard 1: Gravity Drive
-discard 2: Shock Frenzy
-special action
-Active Stim Packs: Ehrlite, Crizma
+Life: 6
+Discard 1: Gravity Dash
+Discard 2: Toxic Burst
+Special action available
+Active Stim Packs: Crizma, Hylatine
 
-
-c.....C
-
-Claus:
-12% Tailwind Tempest
-62% Cyclone Tempest
-27% Cyclone Strike
-
-Clinhyde:
-5% Toxic Shot
-8% Toxic Burst (Hylatine)
-87% Phase Grasp
-
-
-Claus: Cyclone Tempest
-Clinhyde: Toxic Shot
-
-Clinhyde loses 2 life (now at 1)
-Priorities:  5 | 5
-Clash!
-
-Claus:
-87% Cyclone Strike
-13% Cyclone Shot
-
-Clinhyde:
-89% Toxic Burst
-11% Toxic Grasp
-
-
-Claus: Cyclone Strike
-Clinhyde: Toxic Burst
-
-Clinhyde loses 2 life (now at 1)
-Priorities:  4 | 4
-Clash!
-
-Claus:
-45% Cyclone Drive
-55% Cyclone Grasp
-
-Clinhyde:
-8% Toxic Grasp
-92% Toxic Dash
-
-
-Claus: Cyclone Drive
-Clinhyde: Toxic Dash
-
-Clinhyde loses 2 life (now at 1)
-Priorities:  5 | 12
-Clinhyde is active
-Clinhyde moves:
-
-.c....C
-
-Clinhyde moves:
-
-..c...C
-
-Clinhyde moves:
-
-c.....C
-
-Claus moves:
 
 c...C..
 
+Unbeatable strategy for Clinhyde: Shock Shot (Ehrlite): -8.00
+Unbeatable strategy for Clinhyde: Shock Drive (Ehrlite): -8.00
+Unbeatable strategy for Clinhyde: Shock Drive: -8.00
+
+
+Claus:
+6% Hurricane Shot
+4% Blast Burst
+79% Special Pulse
+11% Special Autumn's Advance
+
+Clinhyde:
+5% Shock Drive (Ehrlite)
+18% Shock Drive
+4% Phase Shot
+74% Phase Grasp
+
+
+Claus: Special Pulse
+Clinhyde: Shock Drive
+
+Clinhyde loses 2 life (now at 4)
+Pulse:
+
+.cC....
+
+
+Beat 11
+-------
+
+Claus
+-----
+Life: 3
+Discard 1: Downdraft Tempest
+Discard 2: Cyclone Grasp
+
+Clinhyde
+--------
+Life: 4
+Discard 1: Shock Drive
+Discard 2: Gravity Dash
+Special action available
+Active Stim Packs: Crizma, Hylatine
+
+
+.cC....
+
+
+Claus:
+37% Tailwind Strike
+10% Tailwind Shot
+17% Tailwind Drive
+36% Tailwind Burst
+
+Clinhyde:
+8% Toxic Burst
+42% Diffusion Strike
+10% Diffusion Shot
+39% Phase Shot
+
+
+Claus: Tailwind Drive
+Clinhyde: Diffusion Strike
+
+Clinhyde loses 2 life (now at 2)
+Priorities:  4 | 4
+Clash!
+
+
+Claus: Tailwind Strike
+Clinhyde: Diffusion Grasp
+
+Clinhyde loses 2 life (now at 2)
+Priorities:  3 | 6
+Clinhyde is active
+Claus moves Clinhyde:
+
+c.C....
+
+Clinhyde takes 1 damage (now at 1 life)
+Clinhyde hits
+Clinhyde moves Claus:
+
+c...C..
+
+Clinhyde moves Claus:
+
+c....C.
+
+Claus takes 2 damage (now at 1 life)
+Clinhyde de-activates Crizma
 Claus misses
+Clinhyde moves:
+
+....cC.
+
 
 Beat 12
 -------
 
 Claus
 -----
-life: 9
-discard 1: Cyclone Drive
-discard 2: Downdraft Dash
+Life: 1
+Discard 1: Tailwind Strike
+Discard 2: Downdraft Tempest
 
 Clinhyde
 --------
-life: 1
-discard 1: Toxic Dash
-discard 2: Gravity Drive
-special action
-Active Stim Packs: Ehrlite, Crizma
+Life: 1
+Discard 1: Diffusion Grasp
+Discard 2: Shock Drive
+Special action available
+Active Stim Packs: Hylatine
 
 
-c...C..
+....cC.
+
 
 Claus:
-14% Hurricane Tempest
-37% Hurricane Shot
-1% Hurricane Burst
-12% Tailwind Shot
-37% Tailwind Grasp
+41% Blast Burst
+21% Blast Dash
+37% Cyclone Drive
 
 Clinhyde:
-27% Shock Frenzy (Hylatine)
-22% Shock Shot
-10% Shock Grasp
-39% Phase Strike
-1% Phase Grasp
+24% Toxic Frenzy (Ehrlite)
+2% Toxic Shot (Ehrlite)
+41% Toxic Burst (Ehrlite)
+34% Gravity Frenzy (Ehrlite)
 
 
-Claus: Hurricane Tempest
-Clinhyde: Phase Strike
+Claus: Blast Burst
+Clinhyde: Gravity Frenzy (Ehrlite)
 
+Clinhyde activates Ehrlite
 Clinhyde loses 2 life (now at 1)
-Priorities:  4 | 1
-Claus is active
-Claus misses
+Priorities:  -2 | 5
+Clinhyde is active
+Clinhyde moves:
+
+.....Cc
+
+Claus moves:
+
+....C.c
+
+Claus moves:
+
+.....Cc
+
 Clinhyde misses
+Clinhyde de-activates Hylatine
+Clinhyde de-activates Ehrlite
+Claus misses
 
 Beat 13
 -------
 
 Claus
 -----
-life: 9
-discard 1: Hurricane Tempest
-discard 2: Cyclone Drive
--4 priority from last beat
+Life: 1
+Discard 1: Blast Burst
+Discard 2: Tailwind Strike
 
 Clinhyde
 --------
-life: 1
-discard 1: Phase Strike
-discard 2: Toxic Dash
-special action
-Active Stim Packs: Ehrlite, Crizma
+Life: 1
+Discard 1: Gravity Frenzy
+Discard 2: Diffusion Grasp
+Special action available
+Active Stim Packs: 
 
 
-c...C..
+.....Cc
 
-Unbeatable strategy for Clinhyde: Shock Shot: -1.31
-Unbeatable strategy for Clinhyde: Shock Drive: -0.50
-Unbeatable strategy for Clinhyde: Shock Burst: -0.63
-Unbeatable strategy for Clinhyde: Gravity Drive: -0.57
+Unbeatable strategy for Clinhyde: Shock Strike (Ehrlite): -1.55
+Unbeatable strategy for Clinhyde: Shock Drive (Ehrlite): -6.00
+Unbeatable strategy for Clinhyde: Shock Dash (Crizma): -0.48
+Unbeatable strategy for Clinhyde: Shock Dash (Ehrlite): -0.48
+Unbeatable strategy for Clinhyde: Shock Dash (Hylatine): -0.48
+Unbeatable strategy for Clinhyde: Shock Dash: -0.70
+
 
 Claus:
-10% Tailwind Burst
-4% Blast Shot
-7% Downdraft Shot
-79% Downdraft Burst
+5% Hurricane Tempest
+5% Hurricane Shot
+4% Hurricane Drive
+5% Hurricane Grasp
+9% Hurricane Dash
+7% Cyclone Tempest
+5% Cyclone Shot
+7% Cyclone Drive
+15% Cyclone Grasp
+10% Cyclone Dash
+5% Downdraft Tempest
+5% Downdraft Shot
+5% Downdraft Drive
+4% Downdraft Grasp
+8% Downdraft Dash
 
 Clinhyde:
-13% Shock Frenzy (Hylatine)
-75% Shock Shot
-7% Gravity Frenzy (Hylatine)
-5% Gravity Drive
+100% Shock Drive (Ehrlite)
 
 
-Claus: Downdraft Burst
-Clinhyde: Shock Shot
+Claus: Downdraft Dash
+Clinhyde: Shock Drive (Ehrlite)
 
-Clinhyde loses 2 life (now at 1)
-Priorities:  -4 | 4
-Clinhyde is active
-Claus moves:
-
-c.....C
-
-Clinhyde moves:
-
-....c.C
-
-Clinhyde hits
-Claus takes 3 damage (now at 6 life)
-Claus is stunned
-
-Beat 14
--------
-
-Claus
------
-life: 6
-discard 1: Downdraft Burst
-discard 2: Hurricane Tempest
-
-Clinhyde
---------
-life: 1
-discard 1: Shock Shot
-discard 2: Phase Strike
-special action
-Active Stim Packs: Ehrlite, Crizma
-
-
-....c.C
-
-Claus:
-1% Tailwind Shot
-21% Tailwind Drive
-34% Tailwind Grasp
-20% Tailwind Dash
-12% Cyclone Strike
-12% Cyclone Shot
-
-Clinhyde:
-9% Diffusion Drive (Hylatine)
-14% Diffusion Grasp (Hylatine)
-15% Gravity Frenzy (Hylatine)
-2% Gravity Frenzy
-4% Gravity Burst
-56% Gravity Dash
-
-
-Claus: Tailwind Dash
-Clinhyde: Diffusion Grasp (Hylatine)
-
-Clinhyde activates Hylatine
-Clinhyde loses 3 life (now at 1)
-Priorities:  9 | 7
+Clinhyde activates Ehrlite
+Clinhyde loses 1 life (now at 1)
+Priorities:  8 | 7
 Claus is active
 Claus moves:
 
-....cC.
+..C...c
 
-Claus moves Clinhyde:
+Clinhyde moves:
 
-.c...C.
+c.C....
 
-Clinhyde has 2 soak
-Clinhyde takes 1 damage (now at 0 life)
-CLAUS WINS!
-total_time: 45
+Clinhyde moves:
+
+.cC....
+
+Clinhyde hits
+Claus takes 2 damage (now at 0 life)
+CLINHYDE WINS!
+total_time: 40

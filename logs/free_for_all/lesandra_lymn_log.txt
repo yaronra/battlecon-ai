@@ -12,8 +12,8 @@ Beat 1
 Lesandra
 --------
 Life: 20
-Discard 1: Pactbreaker Summons
-Discard 2: Guardian Grasp
+Discard 1: Guardian Summons
+Discard 2: Pactbreaker Grasp
 Special action available
 Familiar: Borneo
 
@@ -38,24 +38,31 @@ Lesandra:
 Lymn:
 15% Surreal Strike
 18% Surreal Grasp
-7% Reverie Strike
+8% Reverie Strike
 20% Reverie Drive
-39% Fathomless Shot
+40% Fathomless Shot
 
 
-Lesandra: Binding Drive
+Lesandra: Window Drive
 Lymn: Fathomless Shot
 
-Priorities:  2 | 0
+Priorities:  5 | 0
 Lesandra is active
-Disparity is 2
+Disparity is 5
 Lesandra moves:
 
-...L.l.
+..L..l.
 
 Lesandra hits
+Lesandra banishes her Borneo
+Lesandra moves Lymn:
+
+..Ll...
+
 Lymn takes 3 damage (now at 17 life)
-Lymn is stunned
+Lymn hits
+Lesandra takes 4 damage (now at 16 life)
+Lesandra is stunned
 Lesandra summons her Wyvern
 
 Beat 2
@@ -63,9 +70,9 @@ Beat 2
 
 Lesandra
 --------
-Life: 20
-Discard 1: Binding Drive
-Discard 2: Pactbreaker Summons
+Life: 16
+Discard 1: Window Drive
+Discard 2: Guardian Summons
 Special action available
 Familiar: Wyvern
 
@@ -77,255 +84,260 @@ Discard 2: Maddening Burst
 Special action available
 
 
-...L.l.
+..Ll...
 
 
 Lesandra:
-2% Invocation Burst
-32% Guardian Strike (Wyvern)
-28% Guardian Dash
-36% Window Strike
-3% Window Burst (Wyvern)
+54% Binding Strike (Wyvern)
+46% Binding Dash
 
 Lymn:
-1% Chimeric Drive
-32% Chimeric Dash
-4% Surreal Visions
-57% Surreal Strike
-6% Reverie Strike
+60% Surreal Strike
+40% Surreal Dash
 
 
-Lesandra: Window Strike
-Lymn: Reverie Strike
+Lesandra: Binding Dash
+Lymn: Surreal Dash
 
-Priorities:  4 | 2
-Lesandra is active
-Disparity is 2
-Lesandra hits
-Lesandra banishes her Wyvern
-Lesandra moves Lymn:
+Priorities:  7 | 10
+Lymn is active
+Disparity is 3
+Lymn moves:
 
-..lL...
+..L...l
 
-Lymn takes 4 damage (now at 13 life)
-Lymn misses
-Lesandra summons her Rune Knight
+Lymn loses 1 life (now at 16)
+Lymn gets -1 power
+Lesandra moves:
+
+.....Ll
+
 
 Beat 3
 -------
 
 Lesandra
 --------
-Life: 20
-Discard 1: Window Strike
-Discard 2: Binding Drive
+Life: 16
+Discard 1: Binding Dash
+Discard 2: Window Drive
 Special action available
-Familiar: Rune Knight
+Familiar: Wyvern
 
 Lymn
 ----
-Life: 13
-Discard 1: Reverie Strike
+Life: 16
+Discard 1: Surreal Dash
 Discard 2: Fathomless Shot
 Special action available
 
 
-..lL...
+.....Ll
 
 
 Lesandra:
-8% Invocation Dash
-18% Pactbreaker Shot (Rune Knight)
-9% Guardian Shot (Rune Knight)
-21% Guardian Grasp
-45% Guardian Dash
+8% Invocation Burst
+12% Pactbreaker Summons (Wyvern)
+36% Pactbreaker Strike (Wyvern)
+26% Pactbreaker Grasp (Wyvern)
+18% Guardian Strike
 
 Lymn:
-55% Maddening Visions
-20% Chimeric Visions
-6% Chimeric Burst
-6% Chimeric Grasp
-13% Surreal Burst
+5% Maddening Visions
+40% Maddening Strike
+23% Maddening Drive
+31% Maddening Grasp
+1% Chimeric Grasp
 
 
-Lesandra: Guardian Grasp
-Lymn: Maddening Visions
+Lesandra: Pactbreaker Strike (Wyvern)
+Lymn: Maddening Grasp
 
-Priorities:  4 | 3
-Lesandra is active
+Priorities:  4 | 5
+Lymn is active
 Disparity is 1
+Lymn hits
+Lymn moves Lesandra:
+
+....L.l
+
+Lesandra takes 1 damage (now at 15 life)
+Lesandra moves:
+
+.....Ll
+
 Lesandra hits
-Lesandra moves Lymn:
-
-.l.L...
-
-Lymn takes 1 damage (now at 12 life)
+Lymn takes 1 damage (now at 15 life)
 Lymn is stunned
+Lesandra summons her Borneo
 
 Beat 4
 -------
 
 Lesandra
 --------
-Life: 20
-Discard 1: Guardian Grasp
-Discard 2: Window Strike
+Life: 15
+Discard 1: Pactbreaker Strike
+Discard 2: Binding Dash
 Special action available
-Familiar: Rune Knight
+Familiar: Borneo
 
 Lymn
 ----
-Life: 12
-Discard 1: Maddening Visions
-Discard 2: Reverie Strike
+Life: 15
+Discard 1: Maddening Grasp
+Discard 2: Surreal Dash
 Special action available
 
 
-.l.L...
+.....Ll
 
 
 Lesandra:
-7% Binding Shot
-6% Binding Shot (Rune Knight)
-37% Binding Drive
-9% Binding Drive (Rune Knight)
-41% Binding Dash
+23% Guardian Summons
+14% Guardian Drive
+9% Guardian Burst
+2% Window Drive
+52% Window Grasp
 
 Lymn:
-8% Chimeric Shot
-43% Surreal Shot
-43% Surreal Dash
-6% Fathomless Burst
+9% Chimeric Visions
+19% Chimeric Strike
+15% Chimeric Shot
+24% Chimeric Drive
+34% Fathomless Shot
 
 
-Lesandra: Binding Drive
-Lymn: Surreal Shot
+Lesandra: Guardian Drive
+Lymn: Chimeric Strike
 
-Priorities:  2 | 3
+Priorities:  3 | 5
 Lymn is active
-Disparity is 1
-Lymn hits
-Lesandra takes 3 damage (now at 17 life)
+Disparity is 2
 Lymn moves:
 
-..lL...
+....lL.
 
-Lymn loses 1 life (now at 11)
-Lymn gets -1 power
-Lesandra moves:
-
-L.l....
-
-Lesandra hits
-Lymn takes 3 damage (now at 8 life)
-Lymn is stunned
+Lymn hits
+Lesandra takes 4 damage (now at 11 life)
+Lesandra is stunned
+Lesandra summons her Rune Knight
 
 Beat 5
 -------
 
 Lesandra
 --------
-Life: 17
-Discard 1: Binding Drive
-Discard 2: Guardian Grasp
+Life: 11
+Discard 1: Guardian Drive
+Discard 2: Pactbreaker Strike
 Special action available
 Familiar: Rune Knight
 
 Lymn
 ----
-Life: 8
-Discard 1: Surreal Shot
-Discard 2: Maddening Visions
+Life: 15
+Discard 1: Chimeric Strike
+Discard 2: Maddening Grasp
 Special action available
 
 
-L.l....
+....lL.
 
 
 Lesandra:
-10% Invocation Summons
-2% Invocation Dash
-3% Pactbreaker Summons (Rune Knight)
-45% Pactbreaker Strike (Rune Knight)
-13% Window Summons
-26% Window Strike
+36% Binding Shot
+23% Binding Shot (Rune Knight)
+40% Binding Grasp
 
 Lymn:
-5% Chimeric Strike
-5% Chimeric Drive
-8% Chimeric Burst
-44% Reverie Grasp
-23% Fathomless Strike
-16% Fathomless Burst
+45% Surreal Shot
+30% Surreal Dash
+25% Fathomless Shot
 
 
-Lesandra: Pactbreaker Strike (Rune Knight)
-Lymn: Fathomless Strike
+Lesandra: Binding Grasp
+Lymn: Surreal Shot
 
-Priorities:  4 | 1
-Lesandra is active
-Disparity is 3
-Lesandra hits
-Lymn takes 5 damage (now at 3 life)
+Priorities:  3 | 3
+Clash!
+
+
+Lesandra: Binding Shot
+Lymn: Surreal Visions
+
+Priorities:  0 | 4
+Lymn is active
+Disparity is 4
 Lymn hits
-Lesandra has 2 soak
-Lesandra takes 3 damage (now at 14 life)
-Lesandra summons her Raven Knight
+Lymn moves Lesandra:
+
+....l.L
+
+Lymn loses 1 life (now at 14)
+Lymn gets -1 power
+Lesandra takes 3 damage (now at 8 life)
+Lymn moves:
+
+l.....L
+
+Lymn loses 1 life (now at 13)
+Lymn gets -1 power
+Lesandra hits
+Lymn takes 3 damage (now at 10 life)
+Lymn is stunned
 
 Beat 6
 -------
 
 Lesandra
 --------
-Life: 14
-Discard 1: Pactbreaker Strike
-Discard 2: Binding Drive
+Life: 8
+Discard 1: Binding Shot
+Discard 2: Guardian Drive
 Special action available
-Familiar: Raven Knight
+Familiar: Rune Knight
 
 Lymn
 ----
-Life: 3
-Discard 1: Fathomless Strike
-Discard 2: Surreal Shot
+Life: 10
+Discard 1: Surreal Visions
+Discard 2: Chimeric Strike
 Special action available
 
 
-L.l....
-
-Unbeatable strategy for Lesandra: Guardian Dash: 0.94
-Unbeatable strategy for Lesandra: Window Dash: 0.68
+l.....L
 
 
 Lesandra:
-54% Invocation Dash
-8% Guardian Shot
-16% Guardian Shot (Raven Knight)
-20% Guardian Grasp
-2% Window Burst (Raven Knight)
-0% Window Grasp
+7% Pactbreaker Grasp
+57% Window Summons
+26% Window Summons (Rune Knight)
+10% Window Burst
 
 Lymn:
-57% Maddening Drive
-13% Maddening Burst
-10% Maddening Grasp
-2% Chimeric Grasp
-3% Reverie Grasp
-15% Special Megrim
+75% Maddening Shot
+0% Maddening Dash
+12% Reverie Drive
+13% Fathomless Shot
 
 
-Lesandra: Invocation Dash
-Lymn: Special Megrim
+Lesandra: Window Summons
+Lymn: Maddening Shot
 
-Priorities:  7 | 0
+Priorities:  3 | 2
 Lesandra is active
-Disparity is 7
-Lymn loses 1 life (now at 2)
-Lesandra moves:
+Lesandra moves Lymn:
 
-..lL...
+.....lL
 
-Lesandra loses 7 life (now at 7)
+Disparity is 1
+Lesandra hits
+Lesandra banishes her Rune Knight
+Lymn takes 1 damage (now at 9 life)
+Lymn hits
+Lesandra takes 1 damage (now at 7 life)
+Lesandra summons her Borneo
 
 Beat 7
 -------
@@ -333,47 +345,54 @@ Beat 7
 Lesandra
 --------
 Life: 7
-Discard 1: Invocation Dash
-Discard 2: Pactbreaker Strike
+Discard 1: Window Summons
+Discard 2: Binding Shot
 Special action available
-Familiar: Raven Knight
+Familiar: Borneo
 
 Lymn
 ----
-Life: 2
-Discard 1: Fathomless Strike
-Discard 2: Surreal Shot
+Life: 9
+Discard 1: Maddening Shot
+Discard 2: Surreal Visions
+Special action available
 
 
-..lL...
+.....lL
 
 
 Lesandra:
-42% Binding Grasp
-6% Guardian Grasp
-52% Window Drive
+32% Invocation Grasp
+58% Pactbreaker Strike (Borneo)
+9% Guardian Drive (Borneo)
+0% Special Invoke Duststalker
+1% Special Invoke Duststalker (Borneo)
 
 Lymn:
-59% Maddening Dash
-5% Chimeric Drive
-32% Chimeric Dash
-4% Reverie Drive
+13% Chimeric Strike
+54% Chimeric Drive
+5% Fathomless Strike
+28% Fathomless Burst
 
 
-Lesandra: Binding Grasp
-Lymn: Maddening Dash
+Lesandra: Invocation Grasp
+Lymn: Fathomless Burst
 
-Priorities:  3 | 9
-Lymn is active
-Disparity is 6
+Priorities:  3 | -1
+Lesandra is active
+Disparity is 4
 Lymn moves:
 
-...L..l
+...l..L
 
-Lymn loses 1 life (now at 1)
-Lymn gets -1 power
-Lesandra misses
-Lymn loses 1 life (now at 1)
+Lesandra hits
+Lesandra moves Lymn:
+
+....l.L
+
+Lymn takes 4 damage (now at 5 life)
+Lymn is stunned
+Lesandra summons her Rune Knight
 
 Beat 8
 -------
@@ -381,65 +400,208 @@ Beat 8
 Lesandra
 --------
 Life: 7
-Discard 1: Binding Grasp
-Discard 2: Invocation Dash
+Discard 1: Invocation Grasp
+Discard 2: Window Summons
 Special action available
-Familiar: Raven Knight
+Familiar: Rune Knight
 
 Lymn
 ----
-Life: 1
-Discard 1: Maddening Dash
-Discard 2: Fathomless Strike
+Life: 5
+Discard 1: Fathomless Burst
+Discard 2: Maddening Shot
+Special action available
 
 
-...L..l
-
-Unbeatable strategy for Lesandra: Pactbreaker Drive (Raven Knight): 6.00
-Unbeatable strategy for Lesandra: Window Drive (Raven Knight): 6.00
+....l.L
 
 
 Lesandra:
-17% Pactbreaker Shot (Raven Knight)
-17% Pactbreaker Drive (Raven Knight)
-17% Pactbreaker Burst (Raven Knight)
-17% Window Shot (Raven Knight)
-17% Window Drive (Raven Knight)
-17% Special Invoke Duststalker (Raven Knight)
+7% Pactbreaker Drive (Rune Knight)
+1% Binding Shot (Rune Knight)
+27% Binding Drive (Rune Knight)
+29% Binding Dash
+30% Guardian Drive
+5% Special Invoke Duststalker
+1% Special Invoke Duststalker (Rune Knight)
 
 Lymn:
-10% Chimeric Visions
-7% Chimeric Shot
-12% Chimeric Drive
-8% Chimeric Burst
-9% Chimeric Grasp
-7% Surreal Visions
-4% Surreal Shot
-7% Surreal Drive
-7% Surreal Burst
-2% Surreal Grasp
-4% Reverie Visions
-4% Reverie Shot
-5% Reverie Drive
-7% Reverie Burst
-7% Reverie Grasp
+3% Chimeric Drive
+11% Surreal Visions
+31% Surreal Strike
+24% Surreal Dash
+8% Reverie Strike
+19% Special Pulse
+5% Special Megrim
 
 
-Lesandra: Window Drive (Raven Knight)
-Lymn: Surreal Drive
+Lesandra: Binding Dash
+Lymn: Surreal Dash
 
-Priorities:  9 | 5
-Lesandra is active
-Disparity is 4
+Priorities:  7 | 10
+Lymn is active
+Disparity is 3
+Lymn moves:
+
+.l....L
+
+Lymn loses 1 life (now at 4)
+Lymn gets -1 power
 Lesandra moves:
 
-.....Ll
+.l.L...
 
+
+Beat 9
+-------
+
+Lesandra
+--------
+Life: 7
+Discard 1: Binding Dash
+Discard 2: Invocation Grasp
+Special action available
+Familiar: Rune Knight
+
+Lymn
+----
+Life: 4
+Discard 1: Surreal Dash
+Discard 2: Fathomless Burst
+Special action available
+
+
+.l.L...
+
+
+Lesandra:
+7% Pactbreaker Drive (Rune Knight)
+14% Pactbreaker Burst (Rune Knight)
+19% Guardian Strike (Rune Knight)
+8% Guardian Shot
+18% Guardian Shot (Rune Knight)
+9% Special Invoke Duststalker
+24% Special Invoke Duststalker (Rune Knight)
+
+Lymn:
+10% Maddening Visions
+14% Maddening Grasp
+4% Chimeric Visions
+0% Chimeric Grasp
+3% Reverie Strike
+39% Special Megrim
+30% Special Conceit
+
+
+Lesandra: Guardian Shot
+Lymn: Maddening Grasp
+
+Priorities:  1 | 5
+Lymn is active
+Disparity is 4
+Lymn hits
+Lymn moves Lesandra:
+
+.l..L..
+
+Lesandra takes 4 damage (now at 3 life)
 Lesandra hits
-Lesandra moves Lymn:
+Lymn has 2 soak
+Lymn takes 2 damage (now at 2 life)
+Lymn is stunned
 
-...l.L.
+Beat 10
+-------
 
-Lymn takes 3 damage (now at 0 life)
+Lesandra
+--------
+Life: 3
+Discard 1: Guardian Shot
+Discard 2: Binding Dash
+Special action available
+Familiar: Rune Knight
+
+Lymn
+----
+Life: 2
+Discard 1: Maddening Grasp
+Discard 2: Surreal Dash
+Special action available
+
+
+.l..L..
+
+
+Lesandra:
+20% Invocation Strike
+2% Window Strike
+78% Window Grasp
+
+Lymn:
+0% Chimeric Drive
+89% Special Pulse
+11% Special Megrim
+
+
+Lesandra: Window Grasp
+Lymn: Special Pulse
+
+Pulse:
+
+Ll.....
+
+
+Beat 10
+-------
+
+Lesandra
+--------
+Life: 3
+Discard 1: Window Grasp
+Discard 2: Guardian Shot
+Special action available
+Familiar: Rune Knight
+
+Lymn
+----
+Life: 2
+Discard 1: Maddening Grasp
+Discard 2: Surreal Dash
+
+
+Ll.....
+
+
+Lesandra:
+100% Special Invoke Duststalker (Rune Knight)
+
+Lymn:
+9% Chimeric Visions
+6% Chimeric Strike
+4% Chimeric Shot
+16% Chimeric Drive
+6% Chimeric Burst
+2% Reverie Visions
+5% Reverie Strike
+2% Reverie Shot
+13% Reverie Drive
+8% Reverie Burst
+5% Fathomless Visions
+3% Fathomless Strike
+5% Fathomless Shot
+6% Fathomless Drive
+12% Fathomless Burst
+
+
+Lesandra: Special Invoke Duststalker (Rune Knight)
+Lymn: Chimeric Strike
+
+Priorities:  5 | 5
+Lesandra is active
+Lesandra loses 2 life (now at 1)
+Lesandra gets +2 power
+Disparity is 0
+Lesandra hits
+Lymn takes 5 damage (now at 0 life)
 LESANDRA WINS!
-total_time: 39
+total_time: 41

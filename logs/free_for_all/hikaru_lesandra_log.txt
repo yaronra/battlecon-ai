@@ -20,8 +20,8 @@ pool: Earth, Fire, Water, Wind
 Lesandra
 --------
 Life: 20
-Discard 1: Pactbreaker Summons
-Discard 2: Guardian Grasp
+Discard 1: Guardian Summons
+Discard 2: Pactbreaker Grasp
 Special action available
 Familiar: Borneo
 
@@ -44,11 +44,11 @@ Lesandra:
 56% Window Burst (Borneo)
 
 
-Hikaru: Geomantic Shot (Fire)
+Hikaru: Geomantic Shot (Wind)
 Lesandra: Window Strike
 
-Hikaru antes a Fire token
-Priorities:  2 | 4
+Hikaru antes a Wind token
+Priorities:  4 | 4
 Lesandra is active
 Hikaru antes an Earth token
 Lesandra hits
@@ -60,8 +60,7 @@ Lesandra moves Hikaru:
 Hikaru has 3 soak
 Hikaru takes 1 damage (now at 19 life)
 Hikaru hits
-Lesandra takes 7 damage (now at 13 life)
-Lesandra is stunned
+Lesandra takes 4 damage (now at 16 life)
 Lesandra summons her Borneo
 
 Beat 2
@@ -73,39 +72,38 @@ Life: 19
 Discard 1: Geomantic Shot
 Discard 2: Focused Palm Strike
 Special action available
-pool: Water, Wind
+pool: Fire, Water
 
 Lesandra
 --------
-Life: 13
+Life: 16
 Discard 1: Window Strike
-Discard 2: Pactbreaker Summons
+Discard 2: Guardian Summons
 Special action available
 Familiar: Borneo
 
 
 ..H..L.
 
-Unbeatable strategy for Lesandra: Binding Shot: -0.32
-
 
 Hikaru:
-4% Trance Drive
-4% Trance Drive (Water)
-4% Trance Drive (Wind)
-30% Trance Dash
-28% Trance Dash (Water)
-29% Trance Dash (Wind)
+7% Trance Drive
+7% Trance Drive (Fire)
+7% Trance Drive (Water)
+26% Trance Dash
+24% Trance Dash (Fire)
+24% Trance Dash (Water)
+4% Advancing Drive (Fire)
 
 Lesandra:
-53% Binding Shot
-47% Binding Dash
+5% Binding Shot
+28% Binding Burst
+66% Binding Dash
 
 
-Hikaru: Trance Dash (Water)
+Hikaru: Trance Dash
 Lesandra: Binding Dash
 
-Hikaru antes a Water token
 Priorities:  9 | 7
 Hikaru is active
 Hikaru moves:
@@ -129,11 +127,11 @@ Life: 18
 Discard 1: Trance Dash
 Discard 2: Geomantic Shot
 Special action available
-pool: Wind, Water, Earth
+pool: Fire, Water, Earth
 
 Lesandra
 --------
-Life: 13
+Life: 16
 Discard 1: Binding Dash
 Discard 2: Window Strike
 Special action available
@@ -142,93 +140,147 @@ Familiar: Borneo
 
 ...H..L
 
+Unbeatable strategy for Hikaru: Sweeping Drive (Fire): 0.08
+
 
 Hikaru:
-35% Focused Drive (Earth)
-61% Advancing Palm Strike (Earth)
-5% Advancing Strike (Water)
+17% Focused Drive (Fire)
+0% Advancing Palm Strike
+44% Advancing Palm Strike (Fire)
+0% Sweeping Strike (Fire)
+9% Sweeping Drive
+12% Sweeping Drive (Fire)
+17% Sweeping Grasp
 
 Lesandra:
-5% Pactbreaker Grasp (Borneo)
-33% Guardian Shot
-63% Special Pulse
+0% Invocation Burst
+1% Pactbreaker Drive (Borneo)
+4% Pactbreaker Grasp (Borneo)
+6% Guardian Summons
+5% Guardian Shot
+0% Guardian Drive
+83% Special Pulse
 
 
-Hikaru: Advancing Palm Strike (Earth)
-Lesandra: Guardian Shot
+Hikaru: Focused Drive (Fire)
+Lesandra: Special Pulse
 
-Hikaru antes an Earth token
-Priorities:  6 | 1
+Hikaru antes a Fire token
+Pulse:
+
+H.....L
+
+
+Beat 3
+-------
+
+Hikaru
+------
+Life: 18
+Discard 1: Focused Drive
+Discard 2: Trance Dash
+Special action available
+pool: Water, Earth
+
+Lesandra
+--------
+Life: 16
+Discard 1: Binding Dash
+Discard 2: Window Strike
+Familiar: Borneo
+
+
+H.....L
+
+Unbeatable strategy for Lesandra: Invocation Shot: -1.49
+
+
+Hikaru:
+23% Advancing Shot (Water)
+33% Geomantic Grasp
+44% Geomantic Grasp (Earth)
+
+Lesandra:
+88% Invocation Shot
+12% Invocation Drive
+
+
+Hikaru: Geomantic Grasp
+Lesandra: Invocation Shot
+
+Priorities:  5 | 0
 Hikaru is active
-Hikaru moves:
-
-....H.L
-
-Hikaru moves:
-
-.....HL
-
-Hikaru hits
-Lesandra takes 3 damage (now at 10 life)
-Hikaru recovers a Fire token
+Hikaru antes an Earth token
+Hikaru misses
 Lesandra hits
 Hikaru has 3 soak
-Hikaru takes 1 damage (now at 17 life)
+Hikaru takes 2 damage (now at 16 life)
 Hikaru is stunned
-Lesandra summons her Rune Knight
+Lesandra summons her Wyvern
 
 Beat 4
 -------
 
 Hikaru
 ------
-Life: 17
-Discard 1: Advancing Palm Strike
-Discard 2: Trance Dash
+Life: 16
+Discard 1: Geomantic Grasp
+Discard 2: Focused Drive
 Special action available
-pool: Wind, Water, Fire
+pool: Water
 
 Lesandra
 --------
-Life: 10
-Discard 1: Guardian Shot
+Life: 16
+Discard 1: Invocation Shot
 Discard 2: Binding Dash
-Special action available
-Familiar: Rune Knight
+Familiar: Wyvern
 
 
-.....HL
+H.....L
+
+Unbeatable strategy for Lesandra: Pactbreaker Strike (Wyvern): -0.19
+Unbeatable strategy for Lesandra: Guardian Strike (Wyvern): -2.32
+Unbeatable strategy for Lesandra: Guardian Drive: -0.60
+Unbeatable strategy for Lesandra: Guardian Drive (Wyvern): -3.10
+Unbeatable strategy for Lesandra: Window Drive: -2.54
 
 
 Hikaru:
-5% Sweeping Burst (Fire)
-27% Geomantic Strike (Wind)
-20% Geomantic Strike (Fire)
-36% Geomantic Drive (Wind)
-12% Geomantic Burst
+12% Trance Palm Strike
+12% Trance Palm Strike (Water)
+5% Trance Strike
+5% Trance Strike (Water)
+8% Trance Shot
+8% Trance Shot (Water)
+51% Special Pulse
 
 Lesandra:
-27% Pactbreaker Strike (Rune Knight)
-4% Pactbreaker Drive (Rune Knight)
-34% Pactbreaker Grasp (Rune Knight)
-19% Window Strike
-16% Window Grasp
+18% Pactbreaker Strike (Wyvern)
+40% Guardian Strike (Wyvern)
+36% Window Drive
+6% Window Burst
 
 
-Hikaru: Geomantic Drive (Wind)
-Lesandra: Window Strike
+Hikaru: Trance Shot
+Lesandra: Window Drive
 
-Hikaru antes a Wind token
-Priorities:  6 | 4
-Hikaru is active
-Hikaru antes a Fire token
-Hikaru hits
-Lesandra takes 7 damage (now at 3 life)
+Priorities:  2 | 5
+Lesandra is active
+Lesandra moves:
+
+H...L..
+
 Lesandra hits
-Lesandra banishes her Rune Knight
-Hikaru takes 4 damage (now at 13 life)
+Lesandra banishes her Wyvern
+Lesandra moves Hikaru:
+
+.H..L..
+
+Hikaru takes 3 damage (now at 13 life)
 Hikaru is stunned
-Lesandra summons her Rune Knight
+Lesandra summons her Salamander
+Hikaru recovers an Earth token
 
 Beat 5
 -------
@@ -236,103 +288,108 @@ Beat 5
 Hikaru
 ------
 Life: 13
-Discard 1: Geomantic Drive
-Discard 2: Advancing Palm Strike
+Discard 1: Trance Shot
+Discard 2: Geomantic Grasp
 Special action available
-pool: Water
+pool: Water, Earth
 
 Lesandra
 --------
-Life: 3
-Discard 1: Window Strike
-Discard 2: Guardian Shot
-Special action available
-Familiar: Rune Knight
+Life: 16
+Discard 1: Window Drive
+Discard 2: Invocation Shot
+Familiar: Salamander
 
 
-.....HL
+.H..L..
 
-Unbeatable strategy for Lesandra: Binding Drive (Rune Knight): -0.96
+Unbeatable strategy for Lesandra: Binding Burst: -1.29
+Unbeatable strategy for Lesandra: Binding Dash: -0.28
 
 
 Hikaru:
-35% Trance Strike
-34% Trance Strike (Water)
-23% Focused Strike (Water)
-8% Sweeping Strike
+62% Advancing Dash
+16% Advancing Dash (Earth)
+11% Sweeping Dash
+10% Sweeping Dash (Earth)
 
 Lesandra:
-35% Pactbreaker Drive (Rune Knight)
-39% Binding Drive (Rune Knight)
-26% Binding Grasp (Rune Knight)
+55% Binding Burst
+45% Binding Dash
 
 
-Hikaru: Trance Strike
-Lesandra: Binding Drive (Rune Knight)
+Hikaru: Advancing Dash
+Lesandra: Binding Burst
 
-Priorities:  3 | 2
+Priorities:  10 | -1
 Hikaru is active
-Hikaru hits
-Lesandra has 2 soak
-Lesandra takes 2 damage (now at 1 life)
+Hikaru moves:
+
+..H.L..
+
+Hikaru loses 1 life (now at 12)
+Hikaru gets -1 power
 Lesandra moves:
 
-...L.H.
+..H...L
 
-Lesandra hits
-Hikaru takes 3 damage (now at 10 life)
-Hikaru recovers an Earth token
-Lesandra summons her Raven Knight
-Lesandra loses 5 life (now at 1)
+Hikaru moves:
+
+.....HL
+
+Hikaru loses 1 life (now at 11)
+Hikaru gets -1 power
+Lesandra misses
 
 Beat 6
 -------
 
 Hikaru
 ------
-Life: 10
-Discard 1: Trance Strike
-Discard 2: Geomantic Drive
+Life: 11
+Discard 1: Advancing Dash
+Discard 2: Trance Shot
 Special action available
 pool: Water, Earth
 
 Lesandra
 --------
-Life: 1
-Discard 1: Binding Drive
-Discard 2: Window Strike
-Special action available
-Familiar: Raven Knight
+Life: 16
+Discard 1: Binding Burst
+Discard 2: Window Drive
+Familiar: Salamander
 
 
-...L.H.
+.....HL
 
 
 Hikaru:
-27% Focused Shot (Water)
-21% Advancing Palm Strike
-39% Advancing Shot
-4% Sweeping Palm Strike
-8% Sweeping Shot
+4% Focused Palm Strike
+20% Focused Strike
+33% Focused Drive
+9% Sweeping Drive
+33% Geomantic Burst
 
 Lesandra:
-22% Invocation Burst (Raven Knight)
-21% Invocation Grasp
-54% Invocation Dash
-2% Pactbreaker Burst (Raven Knight)
-1% Guardian Burst (Raven Knight)
+15% Invocation Grasp
+27% Invocation Dash
+9% Pactbreaker Grasp (Salamander)
+34% Guardian Strike (Salamander)
+15% Guardian Dash
 
 
-Hikaru: Focused Shot (Water)
-Lesandra: Invocation Dash
+Hikaru: Focused Drive
+Lesandra: Guardian Dash
 
-Hikaru antes a Water token
-Priorities:  3 | 7
+Priorities:  5 | 8
 Lesandra is active
-Hikaru loses 1 life (now at 9)
 Lesandra moves:
 
-.....HL
+..L..H.
+
+Hikaru moves:
+
+..LH...
 
 Hikaru misses
 
@@ -341,57 +398,68 @@ Beat 7
 
 Hikaru
 ------
-Life: 9
-Discard 1: Focused Shot
-Discard 2: Trance Strike
+Life: 11
+Discard 1: Focused Drive
+Discard 2: Advancing Dash
 Special action available
-pool: Earth
+pool: Water, Earth
 
 Lesandra
 --------
-Life: 1
-Discard 1: Invocation Dash
-Discard 2: Binding Drive
-Special action available
-Familiar: Raven Knight
+Life: 16
+Discard 1: Guardian Dash
+Discard 2: Binding Burst
+Familiar: Salamander
 
 
-.....HL
+..LH...
+
+Unbeatable strategy for Lesandra: Window Summons: -0.46
 
 
 Hikaru:
-19% Advancing Drive (Earth)
-26% Advancing Burst (Earth)
-50% Sweeping Grasp (Earth)
-5% Geomantic Drive
+7% Trance Palm Strike
+7% Trance Palm Strike (Water)
+7% Trance Palm Strike (Earth)
+0% Trance Strike
+0% Trance Strike (Water)
+0% Trance Strike (Earth)
+7% Trance Burst
+7% Trance Burst (Water)
+7% Trance Burst (Earth)
+41% Sweeping Palm Strike
+18% Geomantic Palm Strike
 
 Lesandra:
-2% Pactbreaker Strike (Raven Knight)
-48% Pactbreaker Shot (Raven Knight)
-49% Window Grasp (Raven Knight)
-2% Special Pulse
+21% Pactbreaker Summons (Salamander)
+21% Pactbreaker Strike (Salamander)
+6% Pactbreaker Shot (Salamander)
+17% Window Summons
+35% Window Grasp
 
 
-Hikaru: Advancing Burst (Earth)
-Lesandra: Pactbreaker Shot (Raven Knight)
+Hikaru: Geomantic Palm Strike
+Lesandra: Window Grasp
 
-Hikaru antes an Earth token
-Priorities:  2 | 7
+Priorities:  5 | 6
 Lesandra is active
 Hikaru moves:
 
-....H.L
-
-Hikaru moves:
-
-.....HL
+.HL....
 
 Lesandra hits
-Hikaru has 3 soak
-Hikaru takes 1 damage (now at 8 life)
+Lesandra banishes her Salamander
+Lesandra moves Hikaru:
+
+..L.H..
+
+Lesandra moves Hikaru:
+
+..L..H.
+
+Hikaru takes 3 damage (now at 8 life)
 Hikaru is stunned
-Lesandra summons her Rune Knight
-Lesandra loses 4 life (now at 1)
+Lesandra summons her Salamander
 
 Beat 8
 -------
@@ -399,48 +467,266 @@ Beat 8
 Hikaru
 ------
 Life: 8
-Discard 1: Advancing Burst
-Discard 2: Focused Shot
+Discard 1: Geomantic Palm Strike
+Discard 2: Focused Drive
 Special action available
-pool: 
+pool: Water, Earth
 
 Lesandra
 --------
-Life: 1
-Discard 1: Pactbreaker Shot
-Discard 2: Invocation Dash
-Special action available
-Familiar: Rune Knight
+Life: 16
+Discard 1: Window Grasp
+Discard 2: Guardian Dash
+Familiar: Salamander
 
 
-.....HL
+..L..H.
 
 
 Hikaru:
-48% Trance Strike
-0% Sweeping Strike
-13% Geomantic Palm Strike
-39% Geomantic Grasp
+4% Trance Dash
+4% Trance Dash (Water)
+4% Trance Dash (Earth)
+20% Advancing Shot
+1% Advancing Grasp (Water)
+67% Advancing Dash
 
 Lesandra:
-1% Binding Strike (Rune Knight)
-48% Guardian Drive (Rune Knight)
-4% Window Drive
-3% Window Drive (Rune Knight)
-45% Window Grasp (Rune Knight)
+34% Invocation Strike
+39% Invocation Shot
+1% Binding Shot
+27% Binding Burst
 
 
-Hikaru: Geomantic Grasp
-Lesandra: Guardian Drive (Rune Knight)
+Hikaru: Advancing Dash
+Lesandra: Invocation Shot
 
-Priorities:  5 | 3
+Priorities:  10 | 0
 Hikaru is active
+Hikaru moves:
+
+..L.H..
+
+Hikaru moves:
+
+..LH...
+
+Lesandra misses
+
+Beat 9
+-------
+
+Hikaru
+------
+Life: 8
+Discard 1: Advancing Dash
+Discard 2: Geomantic Palm Strike
+Special action available
+pool: Water, Earth
+
+Lesandra
+--------
+Life: 16
+Discard 1: Invocation Shot
+Discard 2: Window Grasp
+Familiar: Salamander
+
+
+..LH...
+
+
+Hikaru:
+5% Trance Strike
+5% Trance Strike (Water)
+5% Trance Strike (Earth)
+0% Trance Shot
+0% Trance Shot (Water)
+0% Trance Shot (Earth)
+10% Trance Burst
+10% Trance Burst (Water)
+10% Trance Burst (Earth)
+45% Focused Drive
+10% Focused Grasp
+
+Lesandra:
+33% Pactbreaker Drive (Salamander)
+4% Pactbreaker Burst (Salamander)
+7% Binding Summons (Salamander)
+51% Binding Strike (Salamander)
+5% Binding Burst
+
+
+Hikaru: Trance Shot (Water)
+Lesandra: Binding Summons (Salamander)
+
+Hikaru antes a Water token
+Priorities:  2 | 0
+Hikaru is active
+Lesandra moves Hikaru:
+
+.HL....
+
 Hikaru hits
-Hikaru moves Lesandra:
+Lesandra takes 3 damage (now at 13 life)
+Lesandra hits
+Hikaru takes 4 damage (now at 4 life)
+Hikaru is stunned
+Hikaru recovers a Fire token
+Lesandra summons her Rune Knight
 
-....LH.
+Beat 10
+-------
 
-Lesandra has 2 soak
-Lesandra takes 1 damage (now at 0 life)
-HIKARU WINS!
-total_time: 43
+Hikaru
+------
+Life: 4
+Discard 1: Trance Shot
+Discard 2: Advancing Dash
+Special action available
+pool: Earth, Water, Fire
+
+Lesandra
+--------
+Life: 13
+Discard 1: Binding Summons
+Discard 2: Invocation Shot
+Familiar: Rune Knight
+
+
+.HL....
+
+
+Hikaru:
+52% Focused Drive (Earth)
+16% Geomantic Strike (Fire)
+32% Geomantic Drive
+
+Lesandra:
+28% Pactbreaker Strike (Rune Knight)
+18% Pactbreaker Drive (Rune Knight)
+54% Guardian Dash
+
+
+Hikaru: Focused Drive (Earth)
+Lesandra: Guardian Dash
+
+Hikaru antes an Earth token
+Priorities:  5 | 8
+Lesandra is active
+Lesandra moves:
+
+.H...L.
+
+Hikaru moves:
+
+...H.L.
+
+Hikaru misses
+
+Beat 11
+-------
+
+Hikaru
+------
+Life: 4
+Discard 1: Focused Drive
+Discard 2: Trance Shot
+Special action available
+pool: Water, Fire
+
+Lesandra
+--------
+Life: 13
+Discard 1: Guardian Dash
+Discard 2: Binding Summons
+Familiar: Rune Knight
+
+
+...H.L.
+
+Unbeatable strategy for Lesandra: Window Strike: -0.25
+
+
+Hikaru:
+5% Advancing Strike (Water)
+1% Advancing Grasp (Fire)
+0% Sweeping Palm Strike (Fire)
+90% Sweeping Dash
+1% Special Wrath of Elements
+1% Special Wrath of Elements (Water)
+1% Special Wrath of Elements (Fire)
+
+Lesandra:
+7% Invocation Drive
+17% Invocation Burst
+29% Window Strike
+1% Window Shot
+47% Window Drive
+
+
+Hikaru: Sweeping Dash
+Lesandra: Window Drive
+
+Priorities:  12 | 5
+Hikaru is active
+Hikaru moves:
+
+.....LH
+
+Lesandra misses
+
+Beat 12
+-------
+
+Hikaru
+------
+Life: 4
+Discard 1: Sweeping Dash
+Discard 2: Focused Drive
+Special action available
+pool: Water, Fire
+
+Lesandra
+--------
+Life: 13
+Discard 1: Window Drive
+Discard 2: Guardian Dash
+Familiar: Rune Knight
+
+
+.....LH
+
+Unbeatable strategy for Lesandra: Binding Strike: -9.00
+Unbeatable strategy for Lesandra: Binding Strike (Rune Knight): -9.00
+
+
+Hikaru:
+23% Advancing Strike (Water)
+9% Advancing Strike (Fire)
+24% Advancing Burst (Fire)
+36% Geomantic Burst
+6% Geomantic Burst (Fire)
+1% Special Wrath of Elements
+1% Special Wrath of Elements (Water)
+1% Special Wrath of Elements (Fire)
+
+Lesandra:
+27% Pactbreaker Strike (Rune Knight)
+15% Pactbreaker Shot (Rune Knight)
+16% Pactbreaker Burst (Rune Knight)
+38% Binding Strike
+4% Binding Strike (Rune Knight)
+0% Binding Shot (Rune Knight)
+
+
+Hikaru: Geomantic Burst (Fire)
+Lesandra: Pactbreaker Strike (Rune Knight)
+
+Hikaru antes a Fire token
+Priorities:  1 | 4
+Lesandra is active
+Hikaru antes a Water token
+Lesandra hits
+Hikaru takes 5 damage (now at 0 life)
+LESANDRA WINS!
+total_time: 78

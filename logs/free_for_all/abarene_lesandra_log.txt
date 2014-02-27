@@ -20,8 +20,8 @@ pool: Fatigue
 Lesandra
 --------
 Life: 20
-Discard 1: Pactbreaker Summons
-Discard 2: Guardian Grasp
+Discard 1: Guardian Summons
+Discard 2: Pactbreaker Grasp
 Special action available
 Familiar: Borneo
 
@@ -40,89 +40,93 @@ Abarene:
 Lesandra:
 10% Invocation Drive
 29% Binding Shot
-14% Binding Shot (Borneo)
-5% Binding Drive
+13% Binding Shot (Borneo)
+4% Binding Drive
 42% Binding Drive (Borneo)
 1% Window Strike
 
 
-Abarene: Crippling Dash
-Lesandra: Binding Shot (Borneo)
+Abarene: Pestilent Shot
+Lesandra: Binding Drive (Borneo)
 
-Priorities:  7 | 0
+Priorities:  3 | 2
 Abarene is active
+Abarene hits
+Abarene recovers a Nausea token
+Lesandra takes 2 damage (now at 18 life)
 Abarene moves:
 
 ..A..L.
 
 Abarene loses 1 life (now at 19)
 Abarene gets -1 power
-Abarene moves:
+Lesandra moves:
 
-.....LA
+..AL...
 
-Abarene loses 1 life (now at 18)
-Abarene gets -1 power
-Lesandra misses
-Lesandra summons her Wyvern
-Lesandra loses 1 life (now at 19)
+Lesandra hits
+Abarene takes 3 damage (now at 16 life)
+Abarene is stunned
+Lesandra summons her Rune Knight
 
 Beat 2
 -------
 
 Abarene
 -------
-Life: 18
-Discard 1: Crippling Dash
+Life: 16
+Discard 1: Pestilent Shot
 Discard 2: Lethal Strike
 Special action available
-pool: Fatigue
+pool: Fatigue, Nausea
 
 Lesandra
 --------
-Life: 19
-Discard 1: Binding Shot
-Discard 2: Pactbreaker Summons
+Life: 18
+Discard 1: Binding Drive
+Discard 2: Guardian Summons
 Special action available
-Familiar: Wyvern
+Familiar: Rune Knight
 
 
-.....LA
+..AL...
 
 
 Abarene:
-31% Intoxicating Thorns (Fatigue)
-36% Intoxicating Drive (Fatigue)
-15% Barbed Drive
-2% Pestilent Thorns
-16% Pestilent Burst
+26% Intoxicating Drive (Fatigue)
+7% Intoxicating Drive (Nausea)
+6% Intoxicating Grasp (Nausea)
+17% Intoxicating Dash
+11% Intoxicating Dash (Nausea)
+22% Barbed Drive
+11% Crippling Dash
 
 Lesandra:
-18% Guardian Strike
-40% Guardian Strike (Wyvern)
-21% Guardian Dash
-15% Window Strike
-5% Window Grasp
+11% Invocation Dash
+14% Pactbreaker Strike (Rune Knight)
+19% Pactbreaker Shot (Rune Knight)
+18% Window Strike
+6% Window Grasp
+33% Window Dash
 
 
-Abarene: Barbed Drive
-Lesandra: Window Grasp
+Abarene: Intoxicating Drive (Fatigue)
+Lesandra: Window Dash
 
-Priorities:  5 | 6
+Abarene antes a Fatigue token
+Priorities:  5 | 8
 Lesandra is active
-Lesandra hits
-Lesandra banishes her Wyvern
-Lesandra moves Abarene:
+Abarene recovers a Fatigue token
+Lesandra moves:
 
-...A.L.
+.LA....
 
-Lesandra moves Abarene:
+Abarene moves:
 
-..A..L.
+AL.....
 
-Abarene takes 2 damage (now at 16 life)
-Abarene is stunned
-Lesandra summons her Wyvern
+Abarene misses
+Abarene recovers a Dizziness token
 
 Beat 3
 -------
@@ -130,96 +134,44 @@ Beat 3
 Abarene
 -------
 Life: 16
-Discard 1: Barbed Drive
-Discard 2: Crippling Dash
-Special action available
-pool: Fatigue
-
-Lesandra
---------
-Life: 19
-Discard 1: Window Grasp
-Discard 2: Binding Shot
-Special action available
-Familiar: Wyvern
-
-
-..A..L.
-
-
-Abarene:
-17% Intoxicating Shot (Fatigue)
-46% Pestilent Thorns (Fatigue)
-10% Pestilent Strike
-19% Pestilent Shot
-3% Pestilent Shot (Fatigue)
-5% Special Pulse
-
-Lesandra:
-15% Invocation Burst
-4% Invocation Burst (Wyvern)
-28% Pactbreaker Strike (Wyvern)
-26% Pactbreaker Drive (Wyvern)
-10% Guardian Strike (Wyvern)
-17% Guardian Burst (Wyvern)
-
-
-Abarene: Intoxicating Shot (Fatigue)
-Lesandra: Invocation Burst (Wyvern)
-
-Abarene antes a Fatigue token
-Priorities:  3 | -3
-Abarene is active
-Abarene recovers a Fatigue token
-Lesandra moves:
-
-..A...L
-
-Abarene hits
-Abarene recovers a Dizziness token
-Lesandra takes 4 damage (now at 15 life)
-Lesandra is stunned
-Lesandra gets -4 power
-Abarene recovers a Nausea token
-Lesandra summons her Borneo
-Lesandra loses 1 life (now at 14)
-
-Beat 4
--------
-
-Abarene
--------
-Life: 16
-Discard 1: Intoxicating Shot
-Discard 2: Barbed Drive
+Discard 1: Intoxicating Drive
+Discard 2: Pestilent Shot
 Special action available
 pool: Dizziness, Fatigue, Nausea
 
 Lesandra
 --------
-Life: 14
-Discard 1: Invocation Burst
-Discard 2: Window Grasp
+Life: 18
+Discard 1: Window Dash
+Discard 2: Binding Drive
 Special action available
-Familiar: Borneo
+Familiar: Rune Knight
 
 
-..A...L
+AL.....
 
 
 Abarene:
-51% Crippling Thorns (Dizziness)
-32% Crippling Thorns (Dizziness, Fatigue)
-17% Pestilent Thorns (Dizziness, Nausea)
+4% Lethal Strike
+1% Lethal Grasp (Nausea)
+43% Barbed Dash
+17% Crippling Thorns (Dizziness)
+30% Crippling Thorns (Dizziness, Fatigue)
+1% Crippling Strike
+3% Crippling Grasp (Nausea)
 
 Lesandra:
-2% Binding Summons (Borneo)
-82% Binding Shot (Borneo)
-16% Binding Drive (Borneo)
+5% Invocation Summons
+4% Pactbreaker Strike (Rune Knight)
+14% Guardian Strike
+39% Guardian Strike (Rune Knight)
+5% Guardian Shot
+5% Guardian Burst
+29% Special Pulse
 
 
 Abarene: Crippling Thorns (Dizziness, Fatigue)
-Lesandra: Binding Drive (Borneo)
+Lesandra: Guardian Strike (Rune Knight)
 
 Abarene antes a Dizziness token
 Abarene antes a Fatigue token
@@ -227,480 +179,450 @@ Priorities:  0 | 0
 Clash!
 
 
-Abarene: Crippling Burst (Dizziness, Fatigue)
-Lesandra: Binding Strike (Borneo)
+Abarene: Crippling Strike (Dizziness, Fatigue)
+Lesandra: Guardian Summons (Rune Knight)
 
 Abarene antes a Dizziness token
 Abarene antes a Fatigue token
-Priorities:  -1 | -1
+Priorities:  1 | -1
+Abarene is active
+Lesandra moves Abarene:
+
+.LA....
+
+Abarene moves:
+
+AL.....
+
+Abarene hits
+Abarene recovers a Fatigue token
+Lesandra has 2 soak
+Lesandra takes 3 damage (now at 15 life)
+Lesandra hits
+Abarene takes 1 damage (now at 15 life)
+Lesandra summons her Wyvern
+
+Beat 4
+-------
+
+Abarene
+-------
+Life: 15
+Discard 1: Crippling Strike
+Discard 2: Intoxicating Drive
+Special action available
+pool: Fatigue, Nausea
+
+Lesandra
+--------
+Life: 15
+Discard 1: Guardian Summons
+Discard 2: Window Dash
+Special action available
+Familiar: Wyvern
+
+
+AL.....
+
+
+Abarene:
+3% Lethal Thorns
+5% Lethal Thorns (Fatigue)
+14% Lethal Thorns (Nausea)
+27% Lethal Thorns (Fatigue, Nausea)
+45% Barbed Dash
+7% Pestilent Thorns (Fatigue)
+
+Lesandra:
+11% Invocation Shot
+6% Invocation Burst
+22% Pactbreaker Strike (Wyvern)
+3% Pactbreaker Grasp (Wyvern)
+50% Binding Strike (Wyvern)
+7% Binding Burst (Wyvern)
+
+
+Abarene: Lethal Thorns (Fatigue, Nausea)
+Lesandra: Pactbreaker Strike (Wyvern)
+
+Abarene antes a Fatigue token
+Abarene antes a Nausea token
+Priorities:  2 | 2
 Clash!
 
 
-Abarene: Crippling Grasp (Dizziness, Fatigue)
-Lesandra: Binding Shot (Borneo)
+Abarene: Lethal Dash (Fatigue, Nausea)
+Lesandra: Pactbreaker Drive (Wyvern)
 
-Abarene antes a Dizziness token
 Abarene antes a Fatigue token
-Priorities:  3 | -2
+Abarene antes a Nausea token
+Priorities:  9 | 3
 Abarene is active
 Abarene moves:
 
-....A.L
+.L.A...
 
-Abarene loses 1 life (now at 15)
-Abarene gets -1 power
-Abarene misses
-Lesandra hits
-Abarene takes 1 damage (now at 14 life)
-Abarene is stunned
-Lesandra summons her Wyvern
+Lesandra moves:
+
+..LA...
+
+Lesandra moves:
+
+L..A...
+
+Lesandra misses
+Lesandra summons her Borneo
+Lesandra loses 1 life (now at 14)
 
 Beat 5
 -------
 
 Abarene
 -------
-Life: 14
-Discard 1: Crippling Grasp
-Discard 2: Intoxicating Shot
+Life: 15
+Discard 1: Lethal Dash
+Discard 2: Crippling Strike
 Special action available
-pool: Nausea
+pool: 
 
 Lesandra
 --------
 Life: 14
-Discard 1: Binding Shot
-Discard 2: Invocation Burst
+Discard 1: Pactbreaker Drive
+Discard 2: Guardian Summons
 Special action available
-Familiar: Wyvern
+Familiar: Borneo
 
 
-....A.L
+L..A...
+
+Unbeatable strategy for Lesandra: Binding Strike (Borneo): -0.11
 
 
 Abarene:
-68% Barbed Strike (Nausea)
-16% Barbed Drive (Nausea)
-16% Pestilent Strike (Nausea)
+42% Intoxicating Shot
+58% Intoxicating Drive
 
 Lesandra:
-43% Pactbreaker Strike (Wyvern)
-54% Pactbreaker Grasp (Wyvern)
-3% Guardian Strike (Wyvern)
+89% Binding Strike (Borneo)
+11% Window Strike
 
 
-Abarene: Barbed Strike (Nausea)
-Lesandra: Pactbreaker Strike (Wyvern)
+Abarene: Intoxicating Drive
+Lesandra: Binding Strike (Borneo)
 
-Abarene antes a Nausea token
-Priorities:  4 | 4
-Clash!
-
-
-Abarene: Barbed Drive (Nausea)
-Lesandra: Pactbreaker Summons (Wyvern)
-
-Abarene antes a Nausea token
-Priorities:  5 | 3
+Priorities:  5 | 1
 Abarene is active
-Lesandra moves Abarene:
+Abarene moves:
 
-.....AL
+LA.....
 
+Abarene loses 1 life (now at 14)
+Abarene gets -1 power
 Abarene hits
+Abarene recovers a Fatigue token
+Lesandra takes 3 damage (now at 11 life)
+Lesandra hits
+Abarene takes 4 damage (now at 10 life)
+Abarene is stunned
 Abarene recovers a Nausea token
-Abarene moves Lesandra:
-
-....LA.
-
-Lesandra loses 2 life (now at 12)
-Lesandra takes 2 damage (now at 10 life)
-Lesandra is stunned
-Lesandra summons her Borneo
-Lesandra loses 1 life (now at 9)
+Lesandra summons her Raven Knight
 
 Beat 6
 -------
 
 Abarene
 -------
-Life: 14
-Discard 1: Barbed Drive
-Discard 2: Crippling Grasp
+Life: 10
+Discard 1: Intoxicating Drive
+Discard 2: Lethal Dash
 Special action available
-pool: Nausea
+pool: Fatigue, Nausea
 
 Lesandra
 --------
-Life: 9
-Discard 1: Pactbreaker Summons
-Discard 2: Binding Shot
+Life: 11
+Discard 1: Binding Strike
+Discard 2: Pactbreaker Drive
 Special action available
-Familiar: Borneo
+Familiar: Raven Knight
 
 
-....LA.
+LA.....
 
 
 Abarene:
-4% Lethal Thorns (Nausea)
-32% Intoxicating Dash
-28% Intoxicating Dash (Nausea)
-22% Pestilent Thorns
-13% Pestilent Strike
+49% Barbed Thorns
+21% Barbed Burst
+29% Barbed Grasp
 
 Lesandra:
-2% Guardian Drive
-64% Guardian Dash
-22% Window Strike
-12% Window Grasp
+1% Invocation Grasp
+19% Guardian Shot (Raven Knight)
+80% Guardian Dash
 
 
-Abarene: Intoxicating Dash
+Abarene: Barbed Thorns
 Lesandra: Guardian Dash
 
-Priorities:  10 | 8
-Abarene is active
-Abarene moves:
-
-...AL..
-
+Priorities:  3 | 8
+Lesandra is active
+Abarene loses 1 life (now at 9)
 Lesandra moves:
 
-L..A...
+.A..L..
 
-Abarene recovers a Fatigue token
-Lesandra summons her Wyvern
-Lesandra loses 2 life (now at 7)
+Lesandra loses 2 life (now at 9)
+Abarene misses
 
 Beat 7
 -------
 
 Abarene
 -------
-Life: 14
-Discard 1: Intoxicating Dash
-Discard 2: Barbed Drive
+Life: 9
+Discard 1: Barbed Thorns
+Discard 2: Intoxicating Drive
 Special action available
 pool: Fatigue, Nausea
 
 Lesandra
 --------
-Life: 7
+Life: 9
 Discard 1: Guardian Dash
-Discard 2: Pactbreaker Summons
+Discard 2: Binding Strike
 Special action available
-Familiar: Wyvern
+Familiar: Raven Knight
 
 
-L..A...
+.A..L..
 
 
 Abarene:
-18% Lethal Thorns (Fatigue, Nausea)
-4% Crippling Thorns (Fatigue)
-0% Crippling Thorns (Nausea)
-15% Crippling Strike
-14% Crippling Strike (Fatigue)
-3% Crippling Strike (Nausea)
-46% Special Pulse
+6% Crippling Strike
+8% Crippling Strike (Fatigue)
+4% Crippling Burst (Nausea)
+12% Crippling Grasp (Fatigue)
+2% Pestilent Strike
+67% Pestilent Dash
 
 Lesandra:
-0% Invocation Strike
-6% Invocation Grasp
-5% Binding Strike
-50% Binding Shot
-2% Binding Grasp
-2% Window Strike
-34% Special Invoke Duststalker (Wyvern)
+6% Invocation Burst
+31% Invocation Grasp
+16% Invocation Grasp (Raven Knight)
+13% Window Summons
+19% Window Shot
+14% Window Drive
 
 
-Abarene: Crippling Strike
-Lesandra: Window Strike
+Abarene: Pestilent Dash
+Lesandra: Invocation Grasp
 
-Priorities:  1 | 4
-Lesandra is active
-Lesandra hits
-Lesandra banishes her Wyvern
-Lesandra moves Abarene:
-
-LA.....
-
-Abarene takes 4 damage (now at 10 life)
-Abarene hits
-Abarene recovers a Pain Spike token
-Lesandra takes 5 damage (now at 2 life)
-Lesandra summons her Rune Knight
-
-Beat 8
--------
-
-Abarene
--------
-Life: 10
-Discard 1: Crippling Strike
-Discard 2: Intoxicating Dash
-Special action available
-pool: Fatigue, Nausea, Pain Spike
-
-Lesandra
---------
-Life: 2
-Discard 1: Window Strike
-Discard 2: Guardian Dash
-Special action available
-Familiar: Rune Knight
-
-
-LA.....
-
-Unbeatable strategy for Abarene: Lethal Thorns (Fatigue): 7.00
-Unbeatable strategy for Abarene: Lethal Thorns (Fatigue, Nausea): 7.00
-Unbeatable strategy for Abarene: Lethal Thorns (Fatigue, Pain Spike): 7.00
-Unbeatable strategy for Abarene: Lethal Thorns (Fatigue, Nausea, Pain Spike): 7.00
-
-
-Abarene:
-59% Lethal Thorns (Pain Spike)
-34% Lethal Grasp (Pain Spike)
-7% Pestilent Grasp (Pain Spike)
-
-Lesandra:
-1% Pactbreaker Burst (Rune Knight)
-4% Binding Shot (Rune Knight)
-94% Special Pulse
-
-
-Abarene: Lethal Thorns (Pain Spike)
-Lesandra: Special Pulse
-
-Abarene antes a Pain Spike token
-Lesandra loses 3 life (now at 1)
-Pulse:
-
-A.....L
-
-
-Beat 8
--------
-
-Abarene
--------
-Life: 10
-Discard 1: Lethal Thorns
-Discard 2: Crippling Strike
-Special action available
-pool: Fatigue, Nausea
-
-Lesandra
---------
-Life: 1
-Discard 1: Window Strike
-Discard 2: Guardian Dash
-Familiar: Rune Knight
-
-
-A.....L
-
-
-Abarene:
-1% Intoxicating Grasp
-1% Intoxicating Grasp (Fatigue)
-53% Intoxicating Grasp (Nausea)
-44% Pestilent Drive
-1% Pestilent Grasp
-
-Lesandra:
-36% Invocation Shot
-64% Binding Drive
-
-
-Abarene: Intoxicating Grasp (Nausea)
-Lesandra: Binding Drive
-
-Abarene antes a Nausea token
-Priorities:  6 | 2
+Priorities:  10 | 3
 Abarene is active
-Abarene recovers a Nausea token
-Abarene misses
-Lesandra moves:
+Abarene moves:
 
-A...L..
+....LA.
+
+Abarene recovers a Dizziness token
+Abarene moves:
+
+...AL..
 
 Lesandra misses
+Abarene loses 1 life (now at 8)
+
+Beat 8
+-------
+
+Abarene
+-------
+Life: 8
+Discard 1: Pestilent Dash
+Discard 2: Barbed Thorns
+Special action available
+pool: Dizziness, Fatigue, Nausea
+
+Lesandra
+--------
+Life: 9
+Discard 1: Invocation Grasp
+Discard 2: Guardian Dash
+Special action available
+Familiar: Raven Knight
+
+
+...AL..
+
+
+Abarene:
+8% Lethal Burst
+11% Intoxicating Strike (Dizziness)
+60% Intoxicating Shot (Dizziness)
+10% Intoxicating Burst (Dizziness, Nausea)
+11% Crippling Strike
+
+Lesandra:
+40% Pactbreaker Strike (Raven Knight)
+2% Pactbreaker Burst (Raven Knight)
+20% Binding Strike
+33% Binding Burst
+5% Binding Burst (Raven Knight)
+
+
+Abarene: Intoxicating Shot (Dizziness)
+Lesandra: Binding Burst
+
+Abarene antes a Dizziness token
+Priorities:  3 | -1
+Abarene is active
+Abarene recovers a Dizziness token
+Lesandra moves:
+
+...A..L
+
+Abarene hits
 Abarene recovers a Pain Spike token
-Lesandra summons her Wyvern
-Lesandra loses 2 life (now at 1)
+Lesandra takes 4 damage (now at 5 life)
+Lesandra is stunned
 
 Beat 9
 -------
 
 Abarene
 -------
-Life: 10
-Discard 1: Intoxicating Grasp
-Discard 2: Lethal Thorns
+Life: 8
+Discard 1: Intoxicating Shot
+Discard 2: Pestilent Dash
 Special action available
-pool: Fatigue, Nausea, Pain Spike
+pool: Dizziness, Fatigue, Nausea, Pain Spike
 
 Lesandra
 --------
-Life: 1
-Discard 1: Binding Drive
-Discard 2: Window Strike
-Familiar: Wyvern
-
-
-A...L..
-
-
-Abarene:
-6% Crippling Drive (Nausea)
-53% Crippling Drive (Fatigue, Nausea)
-41% Pestilent Drive (Fatigue)
-
-Lesandra:
-32% Invocation Burst (Wyvern)
-9% Pactbreaker Burst (Wyvern)
-58% Pactbreaker Grasp (Wyvern)
-
-
-Abarene: Crippling Drive (Fatigue, Nausea)
-Lesandra: Pactbreaker Grasp (Wyvern)
-
-Abarene antes a Fatigue token
-Abarene antes a Nausea token
-Priorities:  2 | 4
-Lesandra is active
-Lesandra moves:
-
-AL.....
-
-Lesandra hits
-Lesandra moves Abarene:
-
-.LA....
-
-Abarene takes 3 damage (now at 7 life)
-Abarene is stunned
-Lesandra summons her Raven Knight
-Lesandra loses 5 life (now at 1)
-
-Beat 10
--------
-
-Abarene
--------
-Life: 7
-Discard 1: Crippling Drive
-Discard 2: Intoxicating Grasp
+Life: 5
+Discard 1: Binding Burst
+Discard 2: Invocation Grasp
 Special action available
-pool: Pain Spike
-
-Lesandra
---------
-Life: 1
-Discard 1: Pactbreaker Grasp
-Discard 2: Binding Drive
 Familiar: Raven Knight
 
 
-.LA....
+...A..L
 
-Unbeatable strategy for Lesandra: Invocation Dash: -0.67
-Unbeatable strategy for Lesandra: Guardian Dash: -0.62
-Unbeatable strategy for Lesandra: Window Dash: -0.35
-
-
-Abarene:
-36% Pestilent Thorns
-12% Pestilent Strike
-27% Pestilent Shot
-25% Pestilent Burst
-
-Lesandra:
-0% Invocation Burst (Raven Knight)
-98% Invocation Dash
-1% Guardian Strike (Raven Knight)
-1% Guardian Burst (Raven Knight)
-
-
-Abarene: Pestilent Burst
-Lesandra: Invocation Dash
-
-Priorities:  2 | 7
-Lesandra is active
-Abarene moves:
-
-.L.A...
-
-Abarene loses 1 life (now at 6)
-Lesandra moves:
-
-..LA...
-
-Abarene misses
-Abarene moves:
-
-.AL....
-
-Abarene recovers a Nausea token
-
-Beat 11
--------
-
-Abarene
--------
-Life: 6
-Discard 1: Pestilent Burst
-Discard 2: Crippling Drive
-Special action available
-pool: Nausea, Pain Spike
-
-Lesandra
---------
-Life: 1
-Discard 1: Invocation Dash
-Discard 2: Pactbreaker Grasp
-Familiar: Raven Knight
-
-
-.AL....
+Unbeatable strategy for Abarene: Crippling Thorns (Dizziness): 0.70
+Unbeatable strategy for Abarene: Crippling Thorns (Pain Spike): 3.50
+Unbeatable strategy for Abarene: Crippling Thorns (Dizziness, Nausea): 0.35
+Unbeatable strategy for Abarene: Crippling Thorns (Dizziness, Pain Spike): 2.55
+Unbeatable strategy for Abarene: Crippling Thorns (Nausea, Pain Spike): 3.15
+Unbeatable strategy for Abarene: Crippling Thorns (Dizziness, Nausea, Pain Spike): 2.20
+Unbeatable strategy for Abarene: Crippling Burst (Dizziness, Nausea, Pain Spike): 0.79
 
 
 Abarene:
-5% Lethal Strike
-38% Intoxicating Thorns (Nausea, Pain Spike)
-11% Intoxicating Strike
-23% Intoxicating Strike (Nausea)
-11% Intoxicating Strike (Pain Spike)
-4% Intoxicating Shot
-6% Intoxicating Shot (Nausea)
-4% Intoxicating Shot (Pain Spike)
+31% Lethal Thorns (Nausea, Pain Spike)
+19% Lethal Burst (Pain Spike)
+10% Lethal Burst (Nausea, Pain Spike)
+11% Barbed Thorns (Pain Spike)
+1% Barbed Drive (Pain Spike)
+3% Barbed Burst (Pain Spike)
+4% Barbed Burst (Fatigue, Pain Spike)
+20% Crippling Strike (Pain Spike)
 
 Lesandra:
-1% Binding Burst (Raven Knight)
-50% Guardian Strike (Raven Knight)
-46% Guardian Burst
-3% Window Shot (Raven Knight)
+1% Pactbreaker Shot (Raven Knight)
+2% Guardian Summons
+1% Guardian Strike
+3% Guardian Shot (Raven Knight)
+5% Window Shot
+23% Window Dash
+61% Special Pulse
+4% Special Mazzaroth (Raven Knight)
 
 
-Abarene: Intoxicating Thorns (Nausea, Pain Spike)
-Lesandra: Guardian Burst
+Abarene: Lethal Burst (Nausea, Pain Spike)
+Lesandra: Special Pulse
 
 Abarene antes a Nausea token
 Abarene antes a Pain Spike token
-Lesandra loses 3 life (now at 1)
-Priorities:  3 | 0
-Abarene is active
-Abarene recovers a Nausea token
-Lesandra moves:
+Lesandra loses 3 life (now at 2)
+Pulse:
 
-.A.L...
+.A....L
+
+
+Beat 9
+-------
+
+Abarene
+-------
+Life: 8
+Discard 1: Lethal Burst
+Discard 2: Intoxicating Shot
+Special action available
+pool: Dizziness, Fatigue
+
+Lesandra
+--------
+Life: 2
+Discard 1: Binding Burst
+Discard 2: Invocation Grasp
+Familiar: Raven Knight
+
+
+.A....L
+
+
+Abarene:
+100% Crippling Thorns (Dizziness, Fatigue)
+
+Lesandra:
+3% Pactbreaker Summons
+5% Pactbreaker Summons (Raven Knight)
+3% Pactbreaker Strike
+3% Pactbreaker Strike (Raven Knight)
+3% Pactbreaker Shot
+6% Pactbreaker Shot (Raven Knight)
+3% Pactbreaker Drive
+3% Pactbreaker Drive (Raven Knight)
+4% Pactbreaker Dash
+2% Pactbreaker Dash (Raven Knight)
+4% Guardian Summons
+4% Guardian Summons (Raven Knight)
+2% Guardian Strike
+3% Guardian Strike (Raven Knight)
+3% Guardian Shot
+5% Guardian Shot (Raven Knight)
+3% Guardian Drive
+3% Guardian Drive (Raven Knight)
+3% Guardian Dash
+4% Guardian Dash (Raven Knight)
+3% Window Summons
+3% Window Summons (Raven Knight)
+3% Window Strike
+2% Window Strike (Raven Knight)
+3% Window Shot
+3% Window Shot (Raven Knight)
+5% Window Drive
+3% Window Drive (Raven Knight)
+4% Window Dash
+2% Window Dash (Raven Knight)
+
+
+Abarene: Crippling Thorns (Dizziness, Fatigue)
+Lesandra: Guardian Shot (Raven Knight)
+
+Abarene antes a Dizziness token
+Abarene antes a Fatigue token
+Priorities:  0 | 3
+Lesandra is active
+Lesandra hits
+Abarene takes 2 damage (now at 6 life)
+Abarene moves:
+
+...A..L
 
 Abarene hits
 Abarene recovers a Dizziness token
 Abarene recovers a Fatigue token
 Lesandra takes 4 damage (now at 0 life)
 ABARENE WINS!
-total_time: 368
+total_time: 285

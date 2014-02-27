@@ -11,28 +11,29 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Grasp
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Hurricane Grasp
+Discard 2: Cyclone Shot
+Special action available
 
 Runika
 ------
-life: 20
-discard 1: Channeled Grasp
-discard 2: Impact Strike
-special action
+Life: 20
+Discard 1: Channeled Grasp
+Discard 2: Impact Strike
+Special action available
 Active artifacts: 
-  Shield Amulet
   Autodeflector
   Phase Goggles
   Battlefist
+  Shield Amulet
   Hover Boots
 
 
 .C...R.
 
 Unbeatable strategy for Claus: Downdraft Burst: 0.10
+
 
 Claus:
 5% Blast Burst
@@ -64,22 +65,22 @@ Beat 2
 
 Claus
 -----
-life: 20
-discard 1: Downdraft Burst
-discard 2: Hurricane Grasp
-special action
+Life: 20
+Discard 1: Downdraft Burst
+Discard 2: Hurricane Grasp
+Special action available
 
 Runika
 ------
-life: 20
-discard 1: Explosive Drive
-discard 2: Channeled Grasp
-special action
+Life: 20
+Discard 1: Explosive Drive
+Discard 2: Channeled Grasp
+Special action available
 Active artifacts: 
-  Shield Amulet
-  Battlefist
-  Phase Goggles
   Autodeflector
+  Phase Goggles
+  Battlefist
+  Shield Amulet
   Hover Boots
 
 
@@ -87,111 +88,30 @@ C...R..
 
 Unbeatable strategy for Runika: Overcharged Shot: -1.93
 
+
 Claus:
-16% Tailwind Drive
-12% Cyclone Tempest
-53% Cyclone Strike
-19% Cyclone Shot
+17% Tailwind Drive
+7% Blast Shot
+59% Cyclone Strike
+18% Cyclone Shot
 
 Runika:
 32% Impact Tinker
-21% Impact Shot
-26% Impact Burst
-21% Overcharged Shot
+14% Impact Shot
+27% Impact Burst
+27% Overcharged Shot
 
 
-Claus: Cyclone Shot
-Runika: Impact Burst
+Claus: Blast Shot
+Runika: Impact Shot
 
-Priorities:  3 | 3
-Clash!
-
-Claus:
-11% Cyclone Tempest
-89% Cyclone Strike
-
-Runika:
-89% Impact Tinker
-11% Impact Shot
-
-
-Claus: Cyclone Strike
-Runika: Impact Tinker
-
-Priorities:  4 | 5
+Priorities:  -1 | 4
 Runika is active
-Runika moves:
-
-C..R...
-
-Runika misses
-No artifacts to activate
-Claus misses
-
-Beat 3
--------
-
-Claus
------
-life: 20
-discard 1: Cyclone Strike
-discard 2: Downdraft Burst
-special action
-
-Runika
-------
-life: 20
-discard 1: Impact Tinker
-discard 2: Explosive Drive
-special action
-Active artifacts: 
-  Shield Amulet
-  Battlefist
-  Phase Goggles
-  Autodeflector
-  Hover Boots
-
-
-C..R...
-
-Unbeatable strategy for Runika: Channeled Shot: -2.79
-Unbeatable strategy for Runika: Overcharged Strike: -3.06
-Unbeatable strategy for Runika: Overcharged Shot: -1.78
-Unbeatable strategy for Runika: Overcharged Grasp: -1.55
-
-Claus:
-57% Tailwind Grasp
-40% Tailwind Dash
-2% Blast Tempest
-
-Runika:
-75% Overcharged Strike
-2% Overcharged Shot
-24% Overcharged Burst
-
-
-Claus: Tailwind Grasp
-Runika: Overcharged Strike
-
-Priorities:  5 | 5
-Clash!
-
-Claus:
-70% Tailwind Drive
-30% Tailwind Dash
-
-Runika:
-39% Overcharged Shot
-61% Overcharged Grasp
-
-
-Claus: Tailwind Drive
-Runika: Overcharged Grasp
-
-Priorities:  4 | 7
-Runika is active
-Runika overcharges her Battlefist
 Claus moves:
+
+.C..R..
+
+Runika moves:
 
 .C.R...
 
@@ -200,7 +120,78 @@ Runika moves Claus:
 
 C..R...
 
-Claus takes 5 damage (now at 15 life)
+Claus takes 3 damage (now at 17 life)
+Claus hits
+Autodeflector is de-activated
+Runika takes 3 damage (now at 17 life)
+
+Beat 3
+-------
+
+Claus
+-----
+Life: 17
+Discard 1: Blast Shot
+Discard 2: Downdraft Burst
+Special action available
+
+Runika
+------
+Life: 17
+Discard 1: Impact Shot
+Discard 2: Explosive Drive
+Special action available
+Active artifacts: 
+  Hover Boots
+  Battlefist
+  Phase Goggles
+  Shield Amulet
+
+
+C..R...
+
+Unbeatable strategy for Runika: Channeled Burst: -1.81
+Unbeatable strategy for Runika: Maintenance Tinker: -0.85
+Unbeatable strategy for Runika: Overcharged Tinker: -3.89
+Unbeatable strategy for Runika: Overcharged Strike: -2.31
+Unbeatable strategy for Runika: Overcharged Grasp: -0.92
+
+
+Claus:
+44% Cyclone Tempest
+22% Cyclone Strike
+35% Cyclone Drive
+
+Runika:
+9% Channeled Burst
+46% Overcharged Tinker
+44% Overcharged Strike
+
+
+Claus: Cyclone Tempest
+Runika: Overcharged Strike
+
+Priorities:  5 | 5
+Clash!
+
+
+Claus: Cyclone Drive
+Runika: Overcharged Burst
+
+Priorities:  5 | 3
+Claus is active
+Runika overcharges her Battlefist
+Runika moves:
+
+C...R..
+
+Claus moves:
+
+.C..R..
+
+Claus misses
+Runika hits
+Claus takes 6 damage (now at 11 life)
 Claus is stunned
 Battlefist is removed from the game
 
@@ -209,53 +200,49 @@ Beat 4
 
 Claus
 -----
-life: 15
-discard 1: Tailwind Drive
-discard 2: Cyclone Strike
-special action
+Life: 11
+Discard 1: Cyclone Drive
+Discard 2: Blast Shot
+Special action available
 
 Runika
 ------
-life: 20
-discard 1: Overcharged Grasp
-discard 2: Impact Tinker
-special action
+Life: 17
+Discard 1: Overcharged Burst
+Discard 2: Impact Shot
+Special action available
 Active artifacts: 
-  Shield Amulet
-  Phase Goggles
-  Autodeflector
   Hover Boots
+  Phase Goggles
+  Shield Amulet
 Removed artifacts: 
   Battlefist
 
 
-C..R...
+.C..R..
 
-Unbeatable strategy for Runika: Channeled Drive: -1.82
-Unbeatable strategy for Runika: Explosive Drive: -1.83
+Unbeatable strategy for Runika: Channeled Dash: -0.35
+Unbeatable strategy for Runika: Maintenance Tinker: -0.58
+Unbeatable strategy for Runika: Maintenance Drive: -1.95
+
 
 Claus:
-31% Downdraft Tempest
-5% Downdraft Shot
-64% Downdraft Burst
+14% Tailwind Tempest
+34% Tailwind Strike
+53% Tailwind Grasp
 
 Runika:
-58% Channeled Drive
-7% Maintenance Drive
-34% Explosive Drive
+8% Channeled Tinker
+33% Channeled Drive
+58% Maintenance Tinker
 
 
-Claus: Downdraft Tempest
-Runika: Explosive Drive
+Claus: Tailwind Grasp
+Runika: Channeled Drive
 
-Priorities:  3 | 6
+Priorities:  5 | 7
 Runika is active
-Claus moves Runika:
-
-..C.R..
-
-Runika has 2 soak
-Runika takes 0 damage (now at 20 life)
+Autodeflector is activated
 Claus moves:
 
 ..C.R..
@@ -265,367 +252,380 @@ Runika moves:
 ..CR...
 
 Runika hits
-Shield Amulet is de-activated
-Runika gets +2 power
-Claus takes 4 damage (now at 11 life)
+Claus takes 4 damage (now at 7 life)
 Claus is stunned
+Shield Amulet is de-activated
 
 Beat 5
 -------
 
 Claus
 -----
-life: 11
-discard 1: Downdraft Tempest
-discard 2: Tailwind Drive
-special action
+Life: 7
+Discard 1: Tailwind Grasp
+Discard 2: Cyclone Drive
+Special action available
 
 Runika
 ------
-life: 20
-discard 1: Explosive Drive
-discard 2: Overcharged Grasp
-special action
+Life: 17
+Discard 1: Channeled Drive
+Discard 2: Overcharged Burst
+Special action available
 Active artifacts: 
-  Autodeflector
-  Phase Goggles
   Hover Boots
+  Phase Goggles
+  Autodeflector
 Removed artifacts: 
   Battlefist
 
 
 ..CR...
 
-Unbeatable strategy for Runika: Maintenance Tinker: -0.66
 
 Claus:
-32% Blast Burst
-14% Blast Dash
-25% Cyclone Strike
-29% Cyclone Dash
+18% Hurricane Tempest
+80% Blast Tempest
+2% Downdraft Tempest
 
 Runika:
-3% Channeled Shot
-32% Channeled Burst
-28% Maintenance Tinker
-37% Impact Tinker
+52% Maintenance Tinker
+13% Explosive Shot
+35% Impact Tinker
 
 
-Claus: Cyclone Strike
-Runika: Channeled Burst
+Claus: Blast Tempest
+Runika: Impact Tinker
 
-Priorities:  4 | 4
-Clash!
-
-Claus:
-31% Cyclone Burst
-69% Cyclone Grasp
-
-Runika:
-43% Channeled Tinker
-57% Channeled Shot
-
-
-Claus: Cyclone Grasp
-Runika: Channeled Shot
-
-Priorities:  6 | 5
-Claus is active
-Shield Amulet is activated
-Claus hits
+Priorities:  1 | 5
+Runika is active
 Claus moves Runika:
 
-.RC....
+..C...R
 
-Autodeflector is de-activated
-Runika takes 3 damage (now at 17 life)
+Runika has 2 soak
+Runika takes 1 damage (now at 16 life)
+Claus moves:
+
+...C..R
+
+Runika moves:
+
+...C.R.
+
 Runika hits
-Claus takes 4 damage (now at 7 life)
-Claus is stunned
+Runika moves Claus:
+
+.C...R.
+
+Claus takes 2 damage (now at 5 life)
+Shield Amulet is activated
+Claus hits
 Shield Amulet is de-activated
+Runika has 2 soak
+Runika takes 0 damage (now at 16 life)
 
 Beat 6
 -------
 
 Claus
 -----
-life: 7
-discard 1: Cyclone Grasp
-discard 2: Downdraft Tempest
-special action
+Life: 5
+Discard 1: Blast Tempest
+Discard 2: Tailwind Grasp
+Special action available
 
 Runika
 ------
-life: 17
-discard 1: Channeled Shot
-discard 2: Explosive Drive
-special action
+Life: 16
+Discard 1: Impact Tinker
+Discard 2: Channeled Drive
+Special action available
 Active artifacts: 
   Hover Boots
   Phase Goggles
+  Autodeflector
 Removed artifacts: 
   Battlefist
 
 
-.RC....
+.C...R.
+
+Unbeatable strategy for Runika: Maintenance Grasp: -0.02
+
 
 Claus:
-41% Tailwind Drive
-18% Tailwind Burst
-42% Blast Burst
+40% Cyclone Burst
+54% Downdraft Burst
+6% Special Autumn's Advance
 
 Runika:
-70% Maintenance Tinker
-12% Maintenance Burst
-18% Impact Tinker
+39% Maintenance Strike
+10% Maintenance Shot
+51% Maintenance Grasp
 
 
-Claus: Blast Burst
-Runika: Maintenance Tinker
+Claus: Downdraft Burst
+Runika: Maintenance Strike
 
-Priorities:  -2 | 4
+Priorities:  0 | 4
 Runika is active
-Claus moves Runika:
-
-R.C....
-
-Runika has 2 soak
-Runika takes 0 damage (now at 17 life)
 Claus moves:
 
-R...C..
+C....R.
 
 Runika misses
-Autodeflector is activated
-Claus hits
-Hover Boots is de-activated
-Runika has 4 soak
-Runika takes 0 damage (now at 17 life)
+Runika moves:
+
+C.....R
+
+Claus misses
 
 Beat 7
 -------
 
 Claus
 -----
-life: 7
-discard 1: Blast Burst
-discard 2: Cyclone Grasp
-special action
+Life: 5
+Discard 1: Downdraft Burst
+Discard 2: Blast Tempest
+Special action available
 
 Runika
 ------
-life: 17
-discard 1: Maintenance Tinker
-discard 2: Channeled Shot
-special action
+Life: 16
+Discard 1: Maintenance Strike
+Discard 2: Impact Tinker
+Special action available
 Active artifacts: 
-  Autodeflector
+  Hover Boots
   Phase Goggles
+  Autodeflector
 Removed artifacts: 
   Battlefist
 
 
-R...C..
+C.....R
+
+Unbeatable strategy for Runika: Explosive Shot: -0.00
+
 
 Claus:
-54% Hurricane Tempest
-44% Hurricane Dash
-1% Tailwind Strike
-0% Tailwind Drive
+10% Tailwind Drive
+29% Cyclone Strike
+17% Cyclone Shot
+44% Special Autumn's Advance
 
 Runika:
-15% Explosive Strike
-26% Explosive Drive
-45% Explosive Dash
-14% Impact Drive
+23% Channeled Drive
+22% Explosive Shot
+31% Explosive Drive
+25% Overcharged Shot
 
 
-Claus: Tailwind Strike
-Runika: Explosive Dash
+Claus: Tailwind Drive
+Runika: Explosive Shot
 
-Priorities:  3 | 9
-Runika is active
-Runika moves Claus:
+Priorities:  4 | 4
+Clash!
 
-R..C...
+
+Claus: Tailwind Dash
+Runika: Explosive Grasp
+
+Priorities:  9 | 7
+Claus is active
+Claus moves:
+
+.C....R
 
 Claus moves:
 
-RC.....
+C.....R
 
-Runika moves:
-
-.C.R...
-
-Claus misses
+Runika misses
 
 Beat 8
 -------
 
 Claus
 -----
-life: 7
-discard 1: Tailwind Strike
-discard 2: Blast Burst
-special action
+Life: 5
+Discard 1: Tailwind Dash
+Discard 2: Downdraft Burst
+Special action available
 
 Runika
 ------
-life: 17
-discard 1: Explosive Dash
-discard 2: Maintenance Tinker
-special action
+Life: 16
+Discard 1: Explosive Grasp
+Discard 2: Maintenance Strike
+Special action available
 Active artifacts: 
-  Autodeflector
+  Hover Boots
   Phase Goggles
+  Autodeflector
 Removed artifacts: 
   Battlefist
 
 
-.C.R...
+C.....R
 
-Unbeatable strategy for Runika: Channeled Drive: -3.48
 
 Claus:
-34% Cyclone Tempest
-15% Cyclone Shot
-51% Cyclone Drive
+37% Hurricane Tempest
+47% Blast Shot
+7% Cyclone Strike
+10% Special Autumn's Advance
 
 Runika:
-61% Channeled Drive
-36% Channeled Burst
-3% Channeled Grasp
+31% Channeled Shot
+38% Impact Tinker
+25% Overcharged Shot
+5% Overcharged Drive
 
 
-Claus: Cyclone Tempest
-Runika: Channeled Burst
+Claus: Hurricane Tempest
+Runika: Overcharged Drive
 
-Priorities:  5 | 2
-Claus is active
-Claus moves:
-
-..CR...
-
-Shield Amulet is activated
+Priorities:  4 | 6
+Runika is active
+Runika overcharges her Phase Goggles
 Runika moves:
 
-..C.R..
+C...R..
 
-Claus hits
-Autodeflector is de-activated
-Runika takes 2 damage (now at 15 life)
-Runika hits
-Claus takes 4 damage (now at 3 life)
-Claus is stunned
-Shield Amulet is de-activated
+Runika misses
+Claus misses
+Phase Goggles is removed from the game
+Claus will have -4 priority next beat
 
 Beat 9
 -------
 
 Claus
 -----
-life: 3
-discard 1: Cyclone Tempest
-discard 2: Tailwind Strike
-special action
+Life: 5
+Discard 1: Hurricane Tempest
+Discard 2: Tailwind Dash
+Special action available
+Priority bonus: -4
 
 Runika
 ------
-life: 15
-discard 1: Channeled Burst
-discard 2: Explosive Dash
-special action
+Life: 16
+Discard 1: Overcharged Drive
+Discard 2: Explosive Grasp
+Special action available
 Active artifacts: 
-  Phase Goggles
+  Hover Boots
+  Autodeflector
 Removed artifacts: 
+  Phase Goggles
   Battlefist
 
 
-..C.R..
+C...R..
 
-Unbeatable strategy for Runika: Maintenance Tinker: -1.64
+Unbeatable strategy for Claus: Blast Shot: 0.04
+
 
 Claus:
-29% Hurricane Drive
-31% Downdraft Burst
-39% Downdraft Dash
+74% Blast Shot
+26% Cyclone Grasp
 
 Runika:
 95% Maintenance Tinker
-1% Maintenance Strike
-3% Overcharged Drive
+5% Impact Tinker
 
 
-Claus: Hurricane Drive
+Claus: Blast Shot
 Runika: Maintenance Tinker
 
-Priorities:  4 | 2
-Claus is active
+Priorities:  -5 | 4
+Runika is active
 Claus moves:
 
-...CR..
+.C..R..
 
-Claus hits
-Phase Goggles is de-activated
-Runika has 4 soak
-Runika takes 2 damage (now at 13 life)
-Runika hits
-Claus takes 2 damage (now at 1 life)
-Claus is stunned
-Autodeflector is activated
+Runika misses
+Shield Amulet is activated
 Runika moves:
 
-...C..R
+.C....R
 
+Claus hits
+Shield Amulet is de-activated
+Runika has 3 soak
+Runika takes 0 damage (now at 16 life)
 
 Beat 10
 -------
 
 Claus
 -----
-life: 1
-discard 1: Hurricane Drive
-discard 2: Cyclone Tempest
-special action
--4 priority from last beat
+Life: 5
+Discard 1: Blast Shot
+Discard 2: Hurricane Tempest
+Special action available
 
 Runika
 ------
-life: 13
-discard 1: Maintenance Tinker
-discard 2: Channeled Burst
-special action
+Life: 16
+Discard 1: Maintenance Tinker
+Discard 2: Overcharged Drive
+Special action available
 Active artifacts: 
+  Hover Boots
   Autodeflector
 Removed artifacts: 
+  Phase Goggles
   Battlefist
 
 
-...C..R
+.C....R
 
-Unbeatable strategy for Claus: Downdraft Burst: 0.14
+Unbeatable strategy for Claus: Cyclone Burst: 0.24
+Unbeatable strategy for Claus: Cyclone Dash: 0.11
+Unbeatable strategy for Claus: Downdraft Burst: 0.04
+
 
 Claus:
-4% Tailwind Burst
-44% Downdraft Burst
-52% Downdraft Dash
+41% Tailwind Drive
+1% Tailwind Burst
+27% Tailwind Grasp
+31% Special Autumn's Advance
 
 Runika:
-26% Explosive Strike
-22% Explosive Shot
-52% Explosive Dash
+3% Channeled Shot
+8% Explosive Dash
+9% Impact Shot
+80% Impact Dash
 
 
-Claus: Downdraft Burst
-Runika: Explosive Strike
+Claus: Tailwind Drive
+Runika: Impact Dash
 
-Priorities:  -4 | 3
+Priorities:  4 | 11
 Runika is active
 Claus moves:
 
-.C....R
+...C..R
 
-Runika misses
+Runika moves:
+
+...C.R.
+
+Runika moves:
+
+..RC...
+
+Claus moves Runika:
+
+.R.C...
+
+Runika has 2 soak
+Runika takes 0 damage (now at 16 life)
 Claus misses
 
 Beat 11
@@ -633,400 +633,120 @@ Beat 11
 
 Claus
 -----
-life: 1
-discard 1: Downdraft Burst
-discard 2: Hurricane Drive
-special action
+Life: 5
+Discard 1: Tailwind Drive
+Discard 2: Blast Shot
+Special action available
 
 Runika
 ------
-life: 13
-discard 1: Explosive Strike
-discard 2: Maintenance Tinker
-special action
+Life: 16
+Discard 1: Impact Dash
+Discard 2: Maintenance Tinker
+Special action available
 Active artifacts: 
+  Hover Boots
   Autodeflector
 Removed artifacts: 
+  Phase Goggles
   Battlefist
 
 
-.C....R
+.R.C...
+
+Unbeatable strategy for Runika: Explosive Drive: -0.58
+
 
 Claus:
-3% Tailwind Shot
-22% Blast Dash
-17% Cyclone Tempest
-4% Cyclone Shot
-55% Cyclone Dash
+17% Cyclone Strike
+17% Cyclone Burst
+5% Cyclone Grasp
+16% Downdraft Strike
+18% Downdraft Burst
+27% Special Autumn's Advance
 
 Runika:
 1% Channeled Shot
-5% Channeled Drive
-6% Channeled Grasp
-20% Impact Shot
-69% Impact Dash
+22% Channeled Drive
+4% Explosive Strike
+64% Explosive Drive
+8% Explosive Burst
+1% Overcharged Burst
 
 
-Claus: Cyclone Dash
-Runika: Impact Shot
+Claus: Downdraft Strike
+Runika: Channeled Drive
 
-Priorities:  10 | 2
-Claus is active
-Claus moves:
-
-C.....R
-
+Priorities:  2 | 7
+Runika is active
+Shield Amulet is activated
 Runika moves:
 
-C....R.
+..RC...
 
-Runika misses
+Runika hits
+Claus takes 4 damage (now at 1 life)
+Claus hits
+Autodeflector is de-activated
+Runika takes 4 damage (now at 12 life)
+Runika is stunned
+Shield Amulet is de-activated
 
 Beat 12
 -------
 
 Claus
 -----
-life: 1
-discard 1: Cyclone Dash
-discard 2: Downdraft Burst
-special action
+Life: 1
+Discard 1: Downdraft Strike
+Discard 2: Tailwind Drive
+Special action available
 
 Runika
 ------
-life: 13
-discard 1: Impact Shot
-discard 2: Explosive Strike
-special action
+Life: 12
+Discard 1: Channeled Drive
+Discard 2: Impact Dash
+Special action available
 Active artifacts: 
-  Autodeflector
+  Hover Boots
 Removed artifacts: 
+  Phase Goggles
   Battlefist
 
 
-C....R.
+..RC...
 
-Unbeatable strategy for Runika: Maintenance Tinker: -1.70
-Unbeatable strategy for Runika: Maintenance Drive: -0.07
+Unbeatable strategy for Runika: Overcharged Shot: -6.00
+
 
 Claus:
-4% Hurricane Tempest
-43% Hurricane Shot
-41% Tailwind Shot
-12% Tailwind Drive
+37% Hurricane Tempest
+21% Hurricane Grasp
+40% Blast Dash
+2% Cyclone Tempest
 
 Runika:
-38% Channeled Tinker
-22% Channeled Drive
-7% Channeled Burst
-32% Maintenance Tinker
-
-
-Claus: Hurricane Shot
-Runika: Maintenance Tinker
-
-Priorities:  2 | 2
-Clash!
-
-Claus:
-50% Hurricane Tempest
-50% Hurricane Strike
-
-Runika:
-81% Maintenance Drive
-19% Maintenance Dash
-
-
-Claus: Hurricane Strike
-Runika: Maintenance Drive
-
-Priorities:  3 | 3
-Clash!
-
-Claus:
-63% Hurricane Tempest
-37% Hurricane Grasp
-
-Runika:
-39% Maintenance Grasp
-61% Maintenance Dash
+48% Maintenance Tinker
+15% Maintenance Shot
+5% Maintenance Grasp
+32% Overcharged Shot
 
 
 Claus: Hurricane Grasp
-Runika: Maintenance Dash
+Runika: Maintenance Shot
 
-Priorities:  5 | 8
-Runika is active
-Runika moves:
-
-C.....R
-
-Runika moves:
-
-C..R...
-
-Claus misses
-
-Beat 13
--------
-
-Claus
------
-life: 1
-discard 1: Hurricane Grasp
-discard 2: Cyclone Dash
-special action
--4 priority from last beat
-
-Runika
-------
-life: 13
-discard 1: Maintenance Dash
-discard 2: Impact Shot
-special action
-Active artifacts: 
-  Autodeflector
-Removed artifacts: 
-  Battlefist
-
-
-C..R...
-
-Unbeatable strategy for Claus: Tailwind Tempest: 1.09
-
-Claus:
-83% Tailwind Tempest
-17% Tailwind Burst
-
-Runika:
-93% Channeled Tinker
-7% Overcharged Drive
-
-
-Claus: Tailwind Tempest
-Runika: Channeled Tinker
-
-Priorities:  0 | 4
-Runika is active
-Shield Amulet is activated
-Claus moves:
-
-..CR...
-
+Priorities:  5 | 3
+Claus is active
+Claus hits
 Claus moves Runika:
 
-..C...R
+.R.C...
 
-Runika has 2 soak
-Runika takes 1 damage (now at 12 life)
-Runika misses
-Hover Boots is activated
-Claus hits
 Hover Boots is de-activated
-Runika has 2 soak
-Runika takes 0 damage (now at 12 life)
-Shield Amulet is de-activated
-
-Beat 14
--------
-
-Claus
------
-life: 1
-discard 1: Tailwind Tempest
-discard 2: Hurricane Grasp
-special action
-
-Runika
-------
-life: 12
-discard 1: Channeled Tinker
-discard 2: Maintenance Dash
-special action
-Active artifacts: 
-  Autodeflector
-Removed artifacts: 
-  Battlefist
-
-
-..C...R
-
-Claus:
-9% Blast Burst
-11% Cyclone Shot
-62% Cyclone Burst
-17% Downdraft Burst
-
-Runika:
-2% Explosive Strike
-36% Explosive Shot
-52% Explosive Drive
-10% Impact Shot
-
-
-Claus: Downdraft Burst
-Runika: Impact Shot
-
-Priorities:  0 | 2
-Runika is active
-Claus moves:
-
-C.....R
-
-Runika moves:
-
-C....R.
-
-Runika misses
-Claus misses
-
-Beat 15
--------
-
-Claus
------
-life: 1
-discard 1: Downdraft Burst
-discard 2: Tailwind Tempest
-special action
-
-Runika
-------
-life: 12
-discard 1: Impact Shot
-discard 2: Channeled Tinker
-special action
-Active artifacts: 
-  Autodeflector
-Removed artifacts: 
-  Battlefist
-
-
-C....R.
-
-Unbeatable strategy for Runika: Maintenance Strike: -6.00
-Unbeatable strategy for Runika: Maintenance Drive: -6.00
-Unbeatable strategy for Runika: Maintenance Burst: -6.00
-Unbeatable strategy for Runika: Maintenance Grasp: -6.00
-Unbeatable strategy for Runika: Maintenance Dash: -6.00
-Unbeatable strategy for Runika: Explosive Strike: -6.00
-Unbeatable strategy for Runika: Explosive Drive: -6.00
-Unbeatable strategy for Runika: Explosive Burst: -6.00
-Unbeatable strategy for Runika: Explosive Grasp: -6.00
-Unbeatable strategy for Runika: Explosive Dash: -6.00
-Unbeatable strategy for Runika: Overcharged Strike: -6.00
-Unbeatable strategy for Runika: Overcharged Drive: -6.00
-Unbeatable strategy for Runika: Overcharged Burst: -6.00
-Unbeatable strategy for Runika: Overcharged Grasp: -6.00
-Unbeatable strategy for Runika: Overcharged Dash: -6.00
-
-Claus:
-100% Special Pulse
-
-Runika:
-50% Maintenance Grasp
-50% Overcharged Grasp
-
-
-Claus: Special Pulse
-Runika: Overcharged Grasp
-
-Pulse:
-
-C....R.
-
-
-Beat 15
--------
-
-Claus
------
-life: 1
-discard 1: Downdraft Burst
-discard 2: Tailwind Tempest
-
-Runika
-------
-life: 12
-discard 1: Overcharged Grasp
-discard 2: Impact Shot
-special action
-Active artifacts: 
-  Autodeflector
-Removed artifacts: 
-  Battlefist
-
-
-C....R.
-
-Unbeatable strategy for Runika: Channeled Tinker: -6.00
-Unbeatable strategy for Runika: Channeled Strike: -6.00
-Unbeatable strategy for Runika: Channeled Drive: -6.00
-Unbeatable strategy for Runika: Channeled Burst: -6.00
-Unbeatable strategy for Runika: Channeled Dash: -6.00
-Unbeatable strategy for Runika: Maintenance Tinker: -6.00
-Unbeatable strategy for Runika: Maintenance Strike: -6.00
-Unbeatable strategy for Runika: Maintenance Drive: -6.00
-Unbeatable strategy for Runika: Maintenance Burst: -6.00
-Unbeatable strategy for Runika: Maintenance Dash: -6.00
-Unbeatable strategy for Runika: Explosive Tinker: -6.00
-Unbeatable strategy for Runika: Explosive Strike: -6.00
-Unbeatable strategy for Runika: Explosive Drive: -6.00
-Unbeatable strategy for Runika: Explosive Burst: -6.00
-Unbeatable strategy for Runika: Explosive Dash: -6.00
-
-Claus:
-7% Hurricane Strike
-7% Hurricane Shot
-7% Hurricane Drive
-7% Hurricane Grasp
-7% Hurricane Dash
-6% Blast Strike
-6% Blast Shot
-6% Blast Drive
-6% Blast Grasp
-7% Blast Dash
-7% Cyclone Strike
-7% Cyclone Shot
-7% Cyclone Drive
-7% Cyclone Grasp
-7% Cyclone Dash
-
-Runika:
-7% Channeled Tinker
-7% Channeled Strike
-7% Channeled Drive
-7% Channeled Burst
-7% Channeled Dash
-7% Maintenance Tinker
-7% Maintenance Strike
-7% Maintenance Drive
-7% Maintenance Burst
-7% Maintenance Dash
-7% Explosive Tinker
-7% Explosive Strike
-7% Explosive Drive
-7% Explosive Burst
-7% Explosive Dash
-
-
-Claus: Blast Dash
-Runika: Channeled Tinker
-
-Priorities:  6 | 4
-Claus is active
-Claus moves:
-
-.C...R.
-
-Hover Boots is activated
-Claus moves:
-
-C....R.
-
-Runika misses
-Shield Amulet is activated
-Shield Amulet is de-activated
-Game goes to time
+Runika has 3 soak
+Runika takes 2 damage (now at 10 life)
+Runika hits
+Claus takes 2 damage (now at 0 life)
 RUNIKA WINS!
-total_time: 24
+total_time: 21

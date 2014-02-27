@@ -11,48 +11,58 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Grasp
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Hurricane Grasp
+Discard 2: Cyclone Shot
+Special action available
 
 Vanaah
 ------
-life: 20
-discard 1: Vengeance Burst
-discard 2: Reaping Strike
-special action
+Life: 20
+Discard 1: Vengeance Burst
+Discard 2: Reaping Strike
+Special action available
 Divine Rush token in pool
 
 
 .C...V.
 
+
 Claus:
 3% Tailwind Tempest
-25% Tailwind Drive
-5% Tailwind Burst
-29% Downdraft Burst
-39% Downdraft Dash
+23% Tailwind Drive
+4% Tailwind Burst
+26% Downdraft Burst
+43% Downdraft Dash
 
 Vanaah:
-34% Judgment Drive
+33% Judgment Drive
 12% Glorious Scythe (Divine Rush)
 15% Glorious Drive (Divine Rush)
-9% Paladin Shot
+10% Paladin Shot
 30% Paladin Shot (Divine Rush)
 
 
-Claus: Downdraft Burst
-Vanaah: Judgment Drive
+Claus: Tailwind Drive
+Vanaah: Glorious Drive (Divine Rush)
 
-Priorities:  0 | 3
+Vanaah antes a Divine Rush token
+Priorities:  4 | 6
 Vanaah is active
+Claus moves:
+
+...C.V.
+
 Vanaah moves:
 
-.C.V...
+...CV..
+
+Vanaah moves:
+
+..VC...
 
 Vanaah hits
-Claus takes 4 damage (now at 16 life)
+Claus takes 7 damage (now at 13 life)
 Claus is stunned
 
 Beat 2
@@ -60,62 +70,53 @@ Beat 2
 
 Claus
 -----
-life: 16
-discard 1: Downdraft Burst
-discard 2: Hurricane Grasp
-special action
+Life: 13
+Discard 1: Tailwind Drive
+Discard 2: Hurricane Grasp
+Special action available
 
 Vanaah
 ------
-life: 20
-discard 1: Judgment Drive
-discard 2: Vengeance Burst
-special action
-Divine Rush token in pool
+Life: 20
+Discard 1: Glorious Drive Divine Rush
+Discard 2: Vengeance Burst
+Special action available
 
 
-.C.V...
+..VC...
+
+Unbeatable strategy for Vanaah: Judgment Dash: -0.36
+
 
 Claus:
-3% Tailwind Tempest
-27% Tailwind Strike
-5% Tailwind Shot
-13% Blast Dash
-34% Cyclone Tempest
-18% Cyclone Drive
+31% Blast Strike
+6% Cyclone Tempest
+25% Cyclone Strike
+16% Downdraft Shot
+22% Downdraft Dash
 
 Vanaah:
-6% Reaping Scythe (Divine Rush)
-0% Reaping Strike (Divine Rush)
-25% Glorious Scythe (Divine Rush)
-5% Glorious Strike (Divine Rush)
-13% Paladin Scythe (Divine Rush)
-50% Paladin Shot (Divine Rush)
+7% Reaping Scythe
+11% Judgment Dash
+48% Paladin Scythe
+13% Paladin Strike
+20% Paladin Shot
 
 
-Claus: Cyclone Tempest
-Vanaah: Paladin Shot (Divine Rush)
+Claus: Downdraft Dash
+Vanaah: Paladin Shot
 
-Vanaah antes a Divine Rush token
-Priorities:  5 | 2
+Priorities:  8 | 0
 Claus is active
 Claus moves Vanaah:
 
-..C..V.
+V..C...
 
 Vanaah takes 2 damage (now at 18 life)
-Claus moves:
-
-..C..V.
-
-Claus hits
-Vanaah takes 2 damage (now at 16 life)
-Vanaah hits
-Claus takes 6 damage (now at 10 life)
-Claus is stunned
+Vanaah misses
 Vanaah moves:
 
-..CV...
+..VC...
 
 
 Beat 3
@@ -123,470 +124,261 @@ Beat 3
 
 Claus
 -----
-life: 10
-discard 1: Cyclone Tempest
-discard 2: Downdraft Burst
-special action
+Life: 13
+Discard 1: Downdraft Dash
+Discard 2: Tailwind Drive
+Special action available
 
 Vanaah
 ------
-life: 16
-discard 1: Paladin Shot Divine Rush
-discard 2: Judgment Drive
-special action
+Life: 18
+Discard 1: Paladin Shot
+Discard 2: Glorious Drive Divine Rush
+Special action available
 
 
-..CV...
+..VC...
+
 
 Claus:
-71% Tailwind Strike
-15% Tailwind Shot
-8% Tailwind Drive
-6% Tailwind Dash
+39% Blast Tempest
+40% Blast Strike
+21% Cyclone Tempest
 
 Vanaah:
-35% Reaping Scythe
-10% Reaping Strike
-34% Vengeance Burst
-21% Vengeance Dash
+1% Reaping Scythe
+1% Reaping Strike
+98% Judgment Dash
 
 
-Claus: Tailwind Strike
-Vanaah: Vengeance Burst
+Claus: Blast Strike
+Vanaah: Judgment Dash
 
-Priorities:  3 | 1
-Claus is active
-Claus moves Vanaah:
-
-..C..V.
-
-Vanaah takes 2 damage (now at 14 life)
+Priorities:  0 | 8
+Vanaah is active
 Vanaah moves:
 
-..C...V
+...CV..
 
 Claus misses
-Vanaah misses
 
 Beat 4
 -------
 
 Claus
 -----
-life: 10
-discard 1: Tailwind Strike
-discard 2: Cyclone Tempest
-special action
+Life: 13
+Discard 1: Blast Strike
+Discard 2: Downdraft Dash
+Special action available
 
 Vanaah
 ------
-life: 14
-discard 1: Vengeance Burst
-discard 2: Paladin Shot Divine Rush
-special action
+Life: 18
+Discard 1: Judgment Dash
+Discard 2: Paladin Shot
+Special action available
+Divine Rush token in pool
 
 
-..C...V
+...CV..
 
-Unbeatable strategy for Vanaah: Judgment Drive: -0.78
 
 Claus:
-17% Blast Burst
-16% Downdraft Drive
-3% Downdraft Burst
-64% Downdraft Dash
+47% Tailwind Tempest
+1% Tailwind Drive
+40% Tailwind Burst
+12% Tailwind Grasp
 
 Vanaah:
-20% Reaping Strike
-33% Reaping Drive
-25% Judgment Scythe
-22% Judgment Drive
+36% Reaping Scythe (Divine Rush)
+7% Reaping Burst
+41% Reaping Burst (Divine Rush)
+16% Glorious Scythe (Divine Rush)
 
 
-Claus: Downdraft Dash
-Vanaah: Reaping Drive
+Claus: Tailwind Burst
+Vanaah: Reaping Burst (Divine Rush)
 
-Priorities:  8 | 5
-Claus is active
-Claus moves:
-
-C.....V
-
+Vanaah antes a Divine Rush token
+Priorities:  1 | 4
+Vanaah is active
 Vanaah moves:
 
-C....V.
+...C..V
 
-Vanaah misses
+Claus moves:
+
+....C.V
+
+Claus moves:
+
+...C..V
+
+Vanaah hits
+Claus takes 5 damage (now at 8 life)
+Claus is stunned
 
 Beat 5
 -------
 
 Claus
 -----
-life: 10
-discard 1: Downdraft Dash
-discard 2: Tailwind Strike
-special action
+Life: 8
+Discard 1: Tailwind Burst
+Discard 2: Blast Strike
+Special action available
 
 Vanaah
 ------
-life: 14
-discard 1: Reaping Drive
-discard 2: Vengeance Burst
-special action
+Life: 18
+Discard 1: Reaping Burst
+Discard 2: Judgment Dash
+Special action available
 Divine Rush token in pool
 
 
-C....V.
+...C..V
 
-Unbeatable strategy for Vanaah: Paladin Shot: -0.00
-Unbeatable strategy for Vanaah: Paladin Shot (Divine Rush): -2.59
+Unbeatable strategy for Vanaah: Glorious Drive (Divine Rush): -0.09
+
 
 Claus:
-44% Hurricane Tempest
-7% Blast Grasp
-21% Cyclone Tempest
-29% Cyclone Burst
+11% Hurricane Shot
+9% Cyclone Grasp
+80% Cyclone Dash
 
 Vanaah:
-1% Judgment Scythe (Divine Rush)
-18% Glorious Shot (Divine Rush)
-34% Paladin Shot
-46% Paladin Shot (Divine Rush)
+39% Glorious Drive (Divine Rush)
+20% Vengeance Scythe
+40% Vengeance Strike
 
 
-Claus: Hurricane Tempest
-Vanaah: Glorious Shot (Divine Rush)
+Claus: Cyclone Dash
+Vanaah: Vengeance Strike
 
-Vanaah antes a Divine Rush token
-Priorities:  4 | 4
-Clash!
+Priorities:  10 | 3
+Claus is active
+Claus moves:
 
-Claus:
-100% Hurricane Shot
+....C.V
 
-Vanaah:
-100% Glorious Dash (Divine Rush)
-
-
-Claus: Hurricane Shot
-Vanaah: Glorious Dash (Divine Rush)
-
-Vanaah antes a Divine Rush token
-Priorities:  2 | 11
-Vanaah is active
-Vanaah moves:
-
-C...V..
-
-Vanaah moves:
-
-C....V.
-
-Claus misses
+Vanaah misses
 
 Beat 6
 -------
 
 Claus
 -----
-life: 10
-discard 1: Hurricane Shot
-discard 2: Downdraft Dash
-special action
--4 priority from last beat
+Life: 8
+Discard 1: Cyclone Dash
+Discard 2: Tailwind Burst
+Special action available
 
 Vanaah
 ------
-life: 14
-discard 1: Glorious Dash Divine Rush
-discard 2: Reaping Drive
-special action
+Life: 18
+Discard 1: Vengeance Strike
+Discard 2: Reaping Burst
+Special action available
+Divine Rush token in pool
 
 
-C....V.
+....C.V
 
-Unbeatable strategy for Vanaah: Paladin Shot: -2.57
+Unbeatable strategy for Vanaah: Glorious Scythe (Divine Rush): -1.19
+Unbeatable strategy for Vanaah: Glorious Shot (Divine Rush): -0.08
+Unbeatable strategy for Vanaah: Glorious Drive (Divine Rush): -1.63
+Unbeatable strategy for Vanaah: Glorious Grasp (Divine Rush): -0.91
+Unbeatable strategy for Vanaah: Paladin Drive (Divine Rush): -0.43
+
 
 Claus:
-32% Tailwind Tempest
-10% Tailwind Burst
-16% Tailwind Grasp
-5% Cyclone Tempest
-37% Cyclone Strike
+1% Hurricane Grasp
+99% Blast Strike
 
 Vanaah:
-6% Judgment Scythe
-12% Judgment Shot
-19% Judgment Burst
-36% Paladin Scythe
-27% Paladin Shot
+76% Glorious Shot (Divine Rush)
+24% Glorious Drive (Divine Rush)
 
 
-Claus: Cyclone Strike
-Vanaah: Judgment Burst
+Claus: Blast Strike
+Vanaah: Glorious Drive (Divine Rush)
 
-Priorities:  0 | 0
-Clash!
-
-Claus:
-58% Cyclone Tempest
-42% Cyclone Drive
-
-Vanaah:
-44% Judgment Scythe
-56% Judgment Shot
-
-
-Claus: Cyclone Tempest
-Vanaah: Judgment Shot
-
-Priorities:  1 | 1
-Clash!
-
-Claus:
-34% Cyclone Burst
-66% Cyclone Grasp
-
-Vanaah:
-66% Judgment Scythe
-34% Judgment Strike
-
-
-Claus: Cyclone Grasp
-Vanaah: Judgment Scythe
-
-Priorities:  2 | 2
-Clash!
-
-Claus:
-100% Cyclone Burst
-
-Vanaah:
-100% Judgment Grasp
-
-
-Claus: Cyclone Burst
-Vanaah: Judgment Grasp
-
-Priorities:  -2 | 4
+Vanaah antes a Divine Rush token
+Priorities:  0 | 6
 Vanaah is active
-Vanaah misses
-Claus misses
+Claus moves:
+
+.....CV
+
+Vanaah moves:
+
+...V.C.
+
+Vanaah moves:
+
+....VC.
+
+Vanaah hits
+Claus takes 7 damage (now at 1 life)
+Claus hits
+Vanaah takes 4 damage (now at 14 life)
+Vanaah is stunned
 
 Beat 7
 -------
 
 Claus
 -----
-life: 10
-discard 1: Cyclone Burst
-discard 2: Hurricane Shot
-special action
+Life: 1
+Discard 1: Blast Strike
+Discard 2: Cyclone Dash
+Special action available
 
 Vanaah
 ------
-life: 14
-discard 1: Judgment Grasp
-discard 2: Glorious Dash Divine Rush
-special action
+Life: 14
+Discard 1: Glorious Drive Divine Rush
+Discard 2: Vengeance Strike
+Special action available
 
 
-C....V.
+....VC.
 
-Unbeatable strategy for Vanaah: Paladin Scythe: -0.31
-Unbeatable strategy for Vanaah: Vengeance Burst: -0.26
 
 Claus:
-14% Tailwind Tempest
-6% Tailwind Drive
-3% Blast Tempest
-5% Blast Drive
-36% Downdraft Tempest
-36% Downdraft Grasp
+42% Tailwind Drive
+57% Downdraft Tempest
+0% Downdraft Drive
 
 Vanaah:
-2% Reaping Drive
-4% Paladin Scythe
-24% Paladin Drive
-24% Vengeance Scythe
-11% Vengeance Drive
-36% Vengeance Burst
+42% Reaping Shot
+41% Paladin Scythe
+17% Paladin Shot
 
 
-Claus: Downdraft Grasp
-Vanaah: Vengeance Scythe
+Claus: Tailwind Drive
+Vanaah: Paladin Scythe
 
-Priorities:  4 | 3
+Priorities:  4 | 1
 Claus is active
-Claus misses
+Claus moves Vanaah:
+
+..V..C.
+
+Vanaah takes 2 damage (now at 12 life)
+Claus moves:
+
+..VC...
+
+Claus hits
+Vanaah takes 4 damage (now at 8 life)
 Vanaah moves:
 
-C...V..
-
-Vanaah misses
-
-Beat 8
--------
-
-Claus
------
-life: 10
-discard 1: Downdraft Grasp
-discard 2: Cyclone Burst
-special action
-
-Vanaah
-------
-life: 14
-discard 1: Vengeance Scythe
-discard 2: Judgment Grasp
-special action
-Divine Rush token in pool
-
-
-C...V..
-
-Unbeatable strategy for Vanaah: Reaping Shot (Divine Rush): -0.11
-Unbeatable strategy for Vanaah: Paladin Shot (Divine Rush): -0.17
-Unbeatable strategy for Vanaah: Paladin Drive (Divine Rush): -3.74
-
-Claus:
-45% Tailwind Tempest
-41% Tailwind Strike
-7% Tailwind Drive
-7% Tailwind Dash
-
-Vanaah:
-61% Reaping Shot (Divine Rush)
-10% Reaping Burst (Divine Rush)
-5% Paladin Drive (Divine Rush)
-24% Paladin Burst (Divine Rush)
-
-
-Claus: Tailwind Strike
-Vanaah: Reaping Shot (Divine Rush)
-
-Vanaah antes a Divine Rush token
-Priorities:  3 | 5
-Vanaah is active
-Claus moves:
-
-..C.V..
+...CV..
 
 Vanaah hits
-Claus takes 5 damage (now at 5 life)
-Claus hits
-Vanaah takes 5 damage (now at 9 life)
-Vanaah is stunned
-
-Beat 9
--------
-
-Claus
------
-life: 5
-discard 1: Tailwind Strike
-discard 2: Downdraft Grasp
-special action
-
-Vanaah
-------
-life: 9
-discard 1: Reaping Shot
-discard 2: Vengeance Scythe
-special action
-Divine Rush token in pool
-
-
-..C.V..
-
-Claus:
-55% Hurricane Tempest
-9% Blast Shot
-27% Cyclone Drive
-9% Cyclone Dash
-
-Vanaah:
-50% Judgment Strike (Divine Rush)
-20% Judgment Grasp (Divine Rush)
-14% Paladin Drive (Divine Rush)
-16% Paladin Burst (Divine Rush)
-
-
-Claus: Hurricane Tempest
-Vanaah: Judgment Grasp (Divine Rush)
-
-Vanaah antes a Divine Rush token
-Priorities:  4 | 6
-Vanaah is active
-Claus moves:
-
-...CV..
-
-Vanaah misses
-Claus hits
-Vanaah takes 4 damage (now at 5 life)
-Vanaah is stunned
-
-Beat 10
--------
-
-Claus
------
-life: 5
-discard 1: Hurricane Tempest
-discard 2: Tailwind Strike
-special action
--4 priority from last beat
-
-Vanaah
-------
-life: 5
-discard 1: Judgment Grasp Divine Rush
-discard 2: Reaping Shot
-special action
-
-
-...CV..
-
-Unbeatable strategy for Vanaah: Paladin Drive: -2.46
-
-Claus:
-34% Blast Drive
-3% Cyclone Dash
-60% Downdraft Dash
-3% Special Pulse
-
-Vanaah:
-46% Glorious Scythe
-1% Glorious Drive
-28% Paladin Drive
-25% Special Death Walks
-
-
-Claus: Blast Drive
-Vanaah: Glorious Drive
-
-Priorities:  -3 | 4
-Vanaah is active
-Claus moves Vanaah:
-
-...C.V.
-
-Vanaah takes 1 damage (now at 4 life)
-Vanaah is stunned
-Claus moves Vanaah:
-
-....C.V
-
-Vanaah takes 1 damage (now at 3 life)
-Vanaah is stunned
-Claus moves:
-
-....C.V
-
-Claus hits
-Vanaah takes 3 damage (now at 0 life)
-CLAUS WINS!
-total_time: 9
+Claus takes 4 damage (now at 0 life)
+VANAAH WINS!
+total_time: 7

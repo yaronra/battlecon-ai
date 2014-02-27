@@ -11,36 +11,38 @@ Beat 1
 
 Byron
 -----
-life: 15
-discard 1: Soulless Strike
-discard 2: Heartless Shot
-special action
+Life: 15
+Discard 1: Soulless Strike
+Discard 2: Heartless Shot
+Special action available
 5 Mask emblems
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Grasp
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Hurricane Grasp
+Discard 2: Cyclone Shot
+Special action available
 
 
 .B...C.
 
 Unbeatable strategy for Claus: Tailwind Tempest: -0.53
 Unbeatable strategy for Claus: Tailwind Drive: -2.50
+Unbeatable strategy for Claus: Blast Tempest: -0.72
+
 
 Byron:
-0% Deathless Grasp
+3% Deathless Grasp
 6% Breathless Smoke
-25% Breathless Dash
-68% Special Pulse
+24% Breathless Dash
+67% Special Pulse
 
 Claus:
-61% Tailwind Drive
-10% Tailwind Dash
-21% Blast Drive
-8% Downdraft Drive
+32% Tailwind Drive
+23% Tailwind Dash
+18% Blast Tempest
+26% Blast Drive
 
 
 Byron: Special Pulse
@@ -56,17 +58,17 @@ Beat 1
 
 Byron
 -----
-life: 15
-discard 1: Soulless Strike
-discard 2: Heartless Shot
+Life: 15
+Discard 1: Soulless Strike
+Discard 2: Heartless Shot
 5 Mask emblems
 
 Claus
 -----
-life: 20
-discard 1: Tailwind Drive
-discard 2: Hurricane Grasp
-special action
+Life: 20
+Discard 1: Tailwind Drive
+Discard 2: Hurricane Grasp
+Special action available
 
 
 B....C.
@@ -75,10 +77,11 @@ Unbeatable strategy for Claus: Cyclone Tempest: -3.11
 Unbeatable strategy for Claus: Downdraft Tempest: -2.51
 Unbeatable strategy for Claus: Downdraft Dash: -1.87
 
+
 Byron:
 34% Faceless Smoke
 26% Faceless Grasp
-40% Breathless Dash
+39% Breathless Dash
 
 Claus:
 19% Blast Dash
@@ -86,17 +89,18 @@ Claus:
 49% Downdraft Tempest
 
 
-Byron: Faceless Smoke
-Claus: Cyclone Tempest
+Byron: Faceless Grasp
+Claus: Downdraft Tempest
 
-Priorities:  3 | 5
-Claus is active
+Priorities:  5 | 3
+Byron is active
 Claus moves:
 
-B.C....
+B..C...
 
+Byron misses
 Claus hits
-Byron takes 2 damage (now at 13 life)
+Byron takes 1 damage (now at 14 life)
 Byron is stunned
 Byron loses a Mask Emblem: now at 4
 
@@ -105,161 +109,36 @@ Beat 2
 
 Byron
 -----
-life: 12
-discard 1: Faceless Smoke
-discard 2: Soulless Strike
+Life: 12
+Discard 1: Faceless Grasp
+Discard 2: Soulless Strike
 4 Mask emblems
 
 Claus
 -----
-life: 20
-discard 1: Cyclone Tempest
-discard 2: Tailwind Drive
-special action
+Life: 20
+Discard 1: Downdraft Tempest
+Discard 2: Tailwind Drive
+Special action available
 
 
-B.C....
+B..C...
+
 
 Byron:
-17% Deathless Drive
-12% Deathless Grasp
-22% Breathless Burst
-48% Breathless Dash
+34% Deathless Shot
+66% Heartless Smoke
 
 Claus:
-26% Blast Strike
-7% Blast Shot
-19% Downdraft Shot
-47% Downdraft Dash
+60% Blast Shot
+40% Blast Grasp
 
 
-Byron: Deathless Drive
-Claus: Downdraft Shot
+Byron: Heartless Smoke
+Claus: Blast Shot
 
-Priorities:  3 | 1
+Priorities:  4 | -1
 Byron is active
-Byron moves:
-
-.BC....
-
-Byron misses
-Claus hits
-Byron takes 1 damage (now at 11 life)
-Byron is stunned
-Byron loses a Mask Emblem: now at 3
-
-Beat 3
--------
-
-Byron
------
-life: 9
-discard 1: Deathless Drive
-discard 2: Faceless Smoke
-3 Mask emblems
-
-Claus
------
-life: 20
-discard 1: Downdraft Shot
-discard 2: Cyclone Tempest
-special action
-
-
-.BC....
-
-Unbeatable strategy for Claus: Tailwind Drive: -0.22
-
-Byron:
-5% Soulless Strike
-69% Soulless Shot
-15% Breathless Strike
-11% Breathless Grasp
-
-Claus:
-0% Tailwind Strike
-75% Tailwind Drive
-0% Tailwind Grasp
-25% Blast Burst
-
-
-Byron: Soulless Shot
-Claus: Tailwind Drive
-
-Claus loses 2 life (now at 18)
-Byron gets +2 power
-Priorities:  -2 | 4
-Claus is active
-Claus moves Byron:
-
-B.C....
-
-Byron has 2 soak
-Byron takes 0 damage (now at 9 life)
-Byron loses a Mask Emblem: now at 2
-Claus moves:
-
-BC.....
-
-Claus hits
-Byron has 3 soak
-Byron takes 1 damage (now at 8 life)
-Byron loses a Mask Emblem: now at 1
-Byron hits
-Claus takes 6 damage (now at 12 life)
-Claus is stunned
-
-Beat 4
--------
-
-Byron
------
-life: 3
-discard 1: Soulless Shot
-discard 2: Deathless Drive
-1 Mask emblems
-
-Claus
------
-life: 12
-discard 1: Tailwind Drive
-discard 2: Downdraft Shot
-special action
-
-
-BC.....
-
-Byron:
-19% Faceless Smoke
-6% Faceless Burst
-50% Breathless Smoke
-25% Breathless Burst
-
-Claus:
-70% Blast Tempest
-21% Blast Dash
-2% Cyclone Burst
-7% Cyclone Grasp
-
-
-Byron: Breathless Burst
-Claus: Blast Tempest
-
-Priorities:  1 | 1
-Clash!
-
-Byron:
-100% Breathless Smoke
-
-Claus:
-100% Blast Dash
-
-
-Byron: Breathless Smoke
-Claus: Blast Dash
-
-Priorities:  3 | 6
-Claus is active
 Claus moves:
 
 B.C....
@@ -267,61 +146,155 @@ B.C....
 Byron hits
 Byron moves Claus:
 
-B..C...
+BC.....
 
-Claus takes 2 damage (now at 10 life)
+Claus takes 3 damage (now at 17 life)
+Claus hits
+Byron has 3 soak
+Byron takes 0 damage (now at 12 life)
+Byron loses a Mask Emblem: now at 3
+
+Beat 3
+-------
+
+Byron
+-----
+Life: 9
+Discard 1: Heartless Smoke
+Discard 2: Faceless Grasp
+3 Mask emblems
+
+Claus
+-----
+Life: 17
+Discard 1: Blast Shot
+Discard 2: Downdraft Tempest
+Special action available
+
+
+BC.....
+
+
+Byron:
+39% Soulless Shot
+50% Soulless Drive
+11% Breathless Drive
+
+Claus:
+64% Cyclone Drive
+19% Cyclone Grasp
+17% Cyclone Dash
+
+
+Byron: Soulless Shot
+Claus: Cyclone Drive
+
+Claus loses 2 life (now at 15)
+Byron gets +2 power
+Priorities:  -2 | 5
+Claus is active
+Claus hits
+Byron has 2 soak
+Byron takes 2 damage (now at 7 life)
+Byron loses a Mask Emblem: now at 2
+Byron hits
+Claus takes 6 damage (now at 9 life)
 Claus is stunned
+Byron loses 3 life (now at 4)
+
+Beat 4
+-------
+
+Byron
+-----
+Life: 3
+Discard 1: Soulless Shot
+Discard 2: Heartless Smoke
+2 Mask emblems
+
+Claus
+-----
+Life: 9
+Discard 1: Cyclone Drive
+Discard 2: Blast Shot
+Special action available
+
+
+BC.....
+
+
+Byron:
+2% Deathless Grasp
+10% Faceless Drive
+19% Breathless Strike
+69% Breathless Burst
+
+Claus:
+12% Tailwind Burst
+16% Tailwind Dash
+19% Downdraft Grasp
+52% Downdraft Dash
+
+
+Byron: Breathless Strike
+Claus: Downdraft Dash
+
+Priorities:  3 | 8
+Claus is active
+Claus moves:
+
+B.C....
+
+Byron misses
 
 Beat 5
 -------
 
 Byron
 -----
-life: 3
-discard 1: Breathless Smoke
-discard 2: Soulless Shot
-1 Mask emblems
+Life: 6
+Discard 1: Breathless Strike
+Discard 2: Soulless Shot
+2 Mask emblems
 
 Claus
 -----
-life: 10
-discard 1: Blast Dash
-discard 2: Tailwind Drive
-special action
+Life: 9
+Discard 1: Downdraft Dash
+Discard 2: Cyclone Drive
+Special action available
 
 
-B..C...
+B.C....
 
-Unbeatable strategy for Claus: Cyclone Tempest: -0.12
-Unbeatable strategy for Claus: Downdraft Burst: -0.27
+Unbeatable strategy for Claus: Tailwind Grasp: -0.05
+
 
 Byron:
-5% Heartless Strike
-14% Heartless Drive
-9% Faceless Drive
-7% Faceless Grasp
-66% Faceless Dash
+96% Deathless Dash
+2% Heartless Drive
+1% Faceless Drive
+0% Faceless Grasp
 
 Claus:
-4% Hurricane Tempest
-15% Cyclone Tempest
-0% Downdraft Tempest
-3% Downdraft Shot
-78% Downdraft Burst
+9% Tailwind Shot
+12% Tailwind Burst
+52% Tailwind Grasp
+28% Blast Shot
 
 
-Byron: Faceless Dash
-Claus: Downdraft Burst
+Byron: Deathless Dash
+Claus: Blast Shot
 
-Priorities:  9 | 0
+Priorities:  8 | -1
 Byron is active
 Claus moves:
 
-B....C.
+BC.....
 
 Byron moves:
 
-.B...C.
+.CB....
 
 Claus misses
 
@@ -330,56 +303,62 @@ Beat 6
 
 Byron
 -----
-life: 3
-discard 1: Faceless Dash
-discard 2: Breathless Smoke
-1 Mask emblems
+Life: 6
+Discard 1: Deathless Dash
+Discard 2: Breathless Strike
+2 Mask emblems
 
 Claus
 -----
-life: 10
-discard 1: Downdraft Burst
-discard 2: Blast Dash
-special action
+Life: 9
+Discard 1: Blast Shot
+Discard 2: Downdraft Dash
+Special action available
 
 
-.B...C.
+.CB....
 
-Unbeatable strategy for Claus: Tailwind Tempest: -0.50
-Unbeatable strategy for Claus: Cyclone Tempest: -0.85
+Unbeatable strategy for Claus: Tailwind Tempest: -0.72
+Unbeatable strategy for Claus: Tailwind Drive: -0.20
+
 
 Byron:
-85% Soulless Shot
-15% Soulless Drive
+96% Soulless Smoke
+4% Soulless Burst
 
 Claus:
-60% Tailwind Tempest
-40% Tailwind Drive
+17% Tailwind Tempest
+83% Tailwind Drive
 
 
-Byron: Soulless Drive
+Byron: Soulless Smoke
 Claus: Tailwind Drive
 
-Priorities:  0 | 4
+Claus loses 2 life (now at 7)
+Byron gets +2 power
+Priorities:  -1 | 4
 Claus is active
+Claus moves Byron:
+
+.C..B..
+
+Byron has 3 soak
+Byron takes 0 damage (now at 6 life)
+Byron loses a Mask Emblem: now at 1
 Claus moves:
 
-.B.C...
-
-Claus moves:
-
-.BC....
+...CB..
 
 Claus hits
 Byron has 4 soak
-Byron takes 0 damage (now at 3 life)
+Byron takes 0 damage (now at 6 life)
 Byron loses a Mask Emblem: now at 0
-Byron moves:
-
-..CB...
-
 Byron hits
-Claus takes 4 damage (now at 6 life)
+Byron moves Claus:
+
+..C.B..
+
+Claus takes 5 damage (now at 2 life)
 Claus is stunned
 
 Beat 7
@@ -387,61 +366,53 @@ Beat 7
 
 Byron
 -----
-life: 1
-discard 1: Soulless Drive
-discard 2: Faceless Dash
+Life: 1
+Discard 1: Soulless Smoke
+Discard 2: Deathless Dash
 0 Mask emblems
 
 Claus
 -----
-life: 6
-discard 1: Tailwind Drive
-discard 2: Downdraft Burst
-special action
+Life: 2
+Discard 1: Tailwind Drive
+Discard 2: Blast Shot
+Special action available
 
-
-..CB...
-
-Unbeatable strategy for Claus: Hurricane Tempest: -6.00
-Unbeatable strategy for Claus: Blast Strike: -6.00
-Unbeatable strategy for Claus: Blast Shot: -6.00
-Unbeatable strategy for Claus: Blast Dash: -6.00
-Unbeatable strategy for Claus: Cyclone Tempest: -6.00
-
-Byron:
-8% Deathless Smoke
-7% Deathless Strike
-8% Deathless Shot
-4% Deathless Burst
-8% Deathless Grasp
-9% Heartless Smoke
-7% Heartless Strike
-8% Heartless Shot
-4% Heartless Burst
-8% Heartless Grasp
-9% Breathless Smoke
-5% Breathless Strike
-4% Breathless Shot
-4% Breathless Burst
-7% Breathless Grasp
-
-Claus:
-20% Hurricane Tempest
-20% Blast Strike
-20% Blast Shot
-20% Blast Dash
-20% Special Autumn's Advance
-
-
-Byron: Deathless Burst
-Claus: Blast Dash
-
-Priorities:  0 | 6
-Claus is active
-Claus moves Byron:
 
 ..C.B..
 
-Byron takes 1 damage (now at 0 life)
+Unbeatable strategy for Claus: Hurricane Tempest: -6.00
+Unbeatable strategy for Claus: Cyclone Tempest: -6.00
+Unbeatable strategy for Claus: Downdraft Tempest: -6.00
+
+
+Byron:
+7% Heartless Strike
+5% Heartless Shot
+8% Heartless Drive
+5% Heartless Burst
+5% Heartless Grasp
+6% Faceless Strike
+8% Faceless Shot
+5% Faceless Drive
+6% Faceless Burst
+6% Faceless Grasp
+10% Breathless Strike
+4% Breathless Shot
+9% Breathless Drive
+6% Breathless Burst
+10% Breathless Grasp
+
+Claus:
+100% Special Autumn's Advance
+
+
+Byron: Heartless Grasp
+Claus: Special Autumn's Advance
+
+Priorities:  6 | 6
+Claus is active
+Claus hits
+Byron takes 3 damage (now at 0 life)
 CLAUS WINS!
 total_time: 6

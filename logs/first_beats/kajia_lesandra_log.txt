@@ -14,8 +14,8 @@ Kajia
 Life: 20
 Discard 1: 
 Discard 2: 
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+0 insects on Lesandra's discard 1
+0 insects on Lesandra's discard 2
 
 Lesandra
 --------
@@ -34,7 +34,7 @@ Unbeatable strategy for Lesandra: Binding Shot (Borneo): -0.80
 Kajia:
 91% Burrowing Dash
 4% Parasitic Strike
-4% Parasitic Dash
+5% Parasitic Dash
 
 Lesandra:
 93% Binding Shot
@@ -42,23 +42,19 @@ Lesandra:
 
 
 Kajia: Burrowing Dash
-Lesandra: Binding Burst
+Lesandra: Binding Shot
 
-Priorities:  8 | -1
+Priorities:  8 | 0
 Kajia is active
-Lesandra moves:
-
-.K....L
-
 Kajia moves Lesandra:
 
-.K...L.
+.K..L..
 
 Kajia loses 1 life (now at 19)
 Kajia gets -1 power
 Kajia moves:
 
-....KL.
+....LK.
 
 Kajia loses 1 life (now at 18)
 Kajia gets -1 power
@@ -72,51 +68,62 @@ Kajia
 Life: 18
 Discard 1: Burrowing Dash
 Discard 2: 
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+0 insects on Lesandra's discard 1
+0 insects on Lesandra's discard 2
 
 Lesandra
 --------
 Life: 20
-Discard 1: Binding Burst
+Discard 1: Binding Shot
 Discard 2: 
 Familiar: Borneo
 
 
-....KL.
+....LK.
 
-Unbeatable strategy for Lesandra: Guardian Shot: -0.88
-Unbeatable strategy for Lesandra: Window Strike: -0.18
+Unbeatable strategy for Lesandra: Pactbreaker Strike (Borneo): -1.10
+Unbeatable strategy for Lesandra: Guardian Strike: -1.10
+Unbeatable strategy for Lesandra: Guardian Strike (Borneo): -1.21
+Unbeatable strategy for Lesandra: Window Strike: -0.94
 
 
 Kajia:
-53% Swarming Strike
-23% Stinging Strike
-8% Stinging Burst
-17% Stinging Grasp
+35% Swarming Strike
+9% Stinging Mandibles
+9% Stinging Drive
+44% Biting Strike
+3% Biting Grasp
 
 Lesandra:
-10% Invocation Drive
-13% Pactbreaker Drive (Borneo)
-29% Guardian Strike (Borneo)
-49% Guardian Shot
+51% Pactbreaker Strike (Borneo)
+9% Pactbreaker Burst (Borneo)
+24% Guardian Strike
+7% Window Strike
+4% Window Grasp
+5% Window Grasp (Borneo)
 
 
-Kajia: Stinging Burst
-Lesandra: Pactbreaker Drive (Borneo)
+Kajia: Biting Strike
+Lesandra: Window Grasp (Borneo)
 
-Priorities:  2 | 5
+Priorities:  2 | 6
 Lesandra is active
-Kajia moves:
-
-...K.L.
-
-Lesandra moves:
+Lesandra hits
+Lesandra moves Kajia:
 
 ...KL..
 
-Lesandra hits
-Kajia takes 4 damage (now at 14 life)
-Kajia is stunned
-Lesandra summons her Raven Knight
+Lesandra moves Kajia:
+
+....L.K
+
+Kajia takes 2 damage (now at 16 life)
+Kajia hits
+Lesandra takes 3 damage (now at 17 life)
+Kajia moves Lesandra:
+
+.....LK
+
+Lesandra is stunned
+Lesandra summons her Wyvern
 total_time: 21

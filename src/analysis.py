@@ -48,9 +48,9 @@ phrases = {  'abarene' : ['Hallicris Snare'],
              'zaamassal' : ['Paradigm Shift', 'Open the Gate', 'Plane Divider']}
 
 devastation = ['adjenna', 'alexian', 'arec', 'aria', 'byron', 'cesar', 
-               'clinhyde', 'eligor', 'kajia', 'lesandra', 'lymn', 
-               'marmelee', 'mikhail', 'ottavia', 'rexan', 'runika', 
-               'shekhtur', 'tanis', 'voco']
+               'clinhyde', 'eligor', 'gerard', 'kajia', 'karin', 
+               'lesandra', 'lymn', 'marmelee', 'mikhail', 'oriana', 
+               'ottavia', 'rexan', 'runika', 'shekhtur', 'tanis', 'voco']
 
 all_names = sorted(phrases.keys())
 

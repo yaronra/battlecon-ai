@@ -20,8 +20,8 @@ Threat level: 0
 Lesandra
 --------
 Life: 20
-Discard 1: Pactbreaker Summons
-Discard 2: Guardian Grasp
+Discard 1: Guardian Summons
+Discard 2: Pactbreaker Grasp
 Special action available
 Familiar: Borneo
 
@@ -81,40 +81,42 @@ Lesandra
 --------
 Life: 19
 Discard 1: Binding Shot
-Discard 2: Pactbreaker Summons
+Discard 2: Guardian Summons
 Special action available
 Familiar: Wyvern
 
 
 .....LC
 
+Unbeatable strategy for Lesandra: Pactbreaker Drive (Wyvern): -0.55
+
 
 Cesar:
-13% Phalanx Drive
-19% Unstoppable Shot
-8% Unstoppable Drive
-19% Inevitable Shot
-13% Inevitable Drive
-27% Inevitable Grasp
+35% Unstoppable Shot
+0% Unstoppable Drive
+28% Inevitable Drive
+37% Inevitable Grasp
 
 Lesandra:
-8% Guardian Strike
-16% Guardian Burst
-34% Guardian Dash
-41% Window Strike
-1% Window Drive (Wyvern)
-0% Window Burst
+32% Pactbreaker Strike (Wyvern)
+9% Pactbreaker Drive (Wyvern)
+5% Pactbreaker Burst (Wyvern)
+54% Window Dash
 
 
-Cesar: Inevitable Shot
-Lesandra: Guardian Dash
+Cesar: Inevitable Drive
+Lesandra: Window Dash
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 8
+Priorities:  4 | 10
 Lesandra is active
 Lesandra moves:
 
 ..L...C
+
+Cesar moves:
+
+..L.C..
 
 Cesar misses
 
@@ -124,7 +126,7 @@ Beat 3
 Cesar
 -----
 Life: 18
-Discard 1: Inevitable Shot
+Discard 1: Inevitable Drive
 Discard 2: Bulwark Dash
 Special action available
 Threat level: 2
@@ -132,599 +134,635 @@ Threat level: 2
 Lesandra
 --------
 Life: 19
-Discard 1: Guardian Dash
+Discard 1: Window Dash
 Discard 2: Binding Shot
 Special action available
 Familiar: Wyvern
 
 
-..L...C
+..L.C..
+
+Unbeatable strategy for Lesandra: Invocation Grasp: -0.01
+Unbeatable strategy for Lesandra: Pactbreaker Strike (Wyvern): -0.00
+Unbeatable strategy for Lesandra: Guardian Strike (Wyvern): -0.30
 
 
 Cesar:
-48% Phalanx Suppression
-7% Phalanx Drive
-14% Unstoppable Suppression
-31% Fueled Suppression
+1% Phalanx Grasp
+6% Unstoppable Shot
+40% Fueled Suppression
+53% Fueled Shot
 
 Lesandra:
-6% Invocation Summons (Wyvern)
-63% Invocation Strike
-4% Invocation Strike (Wyvern)
-27% Invocation Burst
+58% Invocation Strike
+6% Invocation Drive (Wyvern)
+33% Invocation Burst
+3% Guardian Burst
 
 
-Cesar: Phalanx Suppression
+Cesar: Fueled Shot
 Lesandra: Invocation Strike
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  0 | 1
+Priorities:  1 | 1
+Clash!
+
+
+Cesar: Fueled Suppression
+Lesandra: Invocation Grasp
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  1 | 3
 Lesandra is active
-Lesandra misses
-Cesar misses
-Cesar moves:
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Lesandra hits
+Lesandra moves Cesar:
 
 ..LC...
 
+Cesar has 2 soak
+Cesar takes 2 damage (now at 16 life)
+Cesar is stunned
 
 Beat 4
 -------
 
 Cesar
 -----
-Life: 18
-Discard 1: Phalanx Suppression
-Discard 2: Inevitable Shot
+Life: 16
+Discard 1: Fueled Suppression
+Discard 2: Inevitable Drive
 Special action available
-Threat level: 3
+Threat level: 4
 
 Lesandra
 --------
 Life: 19
-Discard 1: Invocation Strike
-Discard 2: Guardian Dash
+Discard 1: Invocation Grasp
+Discard 2: Window Dash
 Special action available
 Familiar: Wyvern
 
 
 ..LC...
 
-Unbeatable strategy for Cesar: Unstoppable Strike: 0.64
-Unbeatable strategy for Cesar: Unstoppable Dash: 0.40
-Unbeatable strategy for Cesar: Bulwark Strike: 1.44
-Unbeatable strategy for Cesar: Bulwark Dash: 1.09
+Unbeatable strategy for Lesandra: Binding Strike: -1.30
+Unbeatable strategy for Lesandra: Binding Strike (Wyvern): -1.88
+Unbeatable strategy for Lesandra: Binding Drive (Wyvern): -0.70
+Unbeatable strategy for Lesandra: Guardian Shot: -0.75
+Unbeatable strategy for Lesandra: Guardian Drive: -0.08
 
 
 Cesar:
-19% Unstoppable Drive
-6% Unstoppable Burst
-13% Bulwark Burst
-61% Bulwark Grasp
+3% Phalanx Strike
+3% Unstoppable Strike
+55% Unstoppable Dash
+14% Bulwark Shot
+24% Bulwark Dash
 
 Lesandra:
-19% Pactbreaker Burst (Wyvern)
-34% Binding Drive (Wyvern)
-42% Binding Burst
-5% Binding Burst (Wyvern)
+7% Binding Summons (Wyvern)
+68% Binding Strike (Wyvern)
+12% Binding Shot
+12% Binding Drive (Wyvern)
+1% Binding Burst (Wyvern)
 
 
-Cesar: Bulwark Grasp
-Lesandra: Binding Burst
+Cesar: Bulwark Dash
+Lesandra: Binding Strike (Wyvern)
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  3 | -1
+Cesar gains a Threat Level (current level: 0)
+Priorities:  7 | 1
 Cesar is active
+Cesar moves:
+
+C.L....
+
+Cesar loses 1 life (now at 15)
+Cesar gets -1 power
+Cesar moves:
+
+..LC...
+
+Cesar loses 1 life (now at 14)
+Cesar gets -1 power
 Lesandra moves:
 
 L..C...
 
-Lesandra hits
-Cesar has 2 soak
-Cesar takes 1 damage (now at 17 life)
+Lesandra misses
+Lesandra summons her Borneo
+Lesandra loses 1 life (now at 18)
 
 Beat 5
 -------
 
 Cesar
 -----
-Life: 17
-Discard 1: Bulwark Grasp
-Discard 2: Phalanx Suppression
+Life: 14
+Discard 1: Bulwark Dash
+Discard 2: Fueled Suppression
 Special action available
-Threat level: 4
+Threat level: 0
 
 Lesandra
 --------
-Life: 19
-Discard 1: Binding Burst
-Discard 2: Invocation Strike
+Life: 18
+Discard 1: Binding Strike
+Discard 2: Invocation Grasp
 Special action available
-Familiar: Wyvern
+Familiar: Borneo
 
 
 L..C...
 
-Unbeatable strategy for Cesar: Fueled Strike: 0.81
-Unbeatable strategy for Cesar: Inevitable Shot: 0.25
+Unbeatable strategy for Cesar: Inevitable Drive: 0.55
 
 
 Cesar:
-4% Unstoppable Shot
-77% Fueled Strike
-19% Inevitable Drive
+11% Phalanx Strike
+46% Inevitable Shot
+27% Inevitable Drive
+16% Inevitable Grasp
 
 Lesandra:
-35% Pactbreaker Drive (Wyvern)
-31% Window Summons (Wyvern)
-34% Window Dash
+85% Pactbreaker Drive (Borneo)
+3% Guardian Drive (Borneo)
+6% Guardian Burst (Borneo)
+6% Window Drive
 
 
-Cesar: Fueled Strike
-Lesandra: Pactbreaker Drive (Wyvern)
+Cesar: Inevitable Shot
+Lesandra: Pactbreaker Drive (Borneo)
 
-Cesar gains a Threat Level (current level: 0)
+Cesar gains a Threat Level (current level: 1)
 Priorities:  2 | 5
 Lesandra is active
-Cesar gains a Threat Level (current level: 1)
 Lesandra moves:
 
 .L.C...
 
-Lesandra moves:
-
-..LC...
-
 Lesandra hits
-Cesar takes 4 damage (now at 13 life)
-Cesar moves:
-
-.CL....
-
+Cesar takes 4 damage (now at 10 life)
 Cesar hits
-Lesandra takes 6 damage (now at 13 life)
 Lesandra is stunned
-Lesandra summons her Rune Knight
+Lesandra will have -3 priority next beat
+Lesandra takes 4 damage (now at 14 life)
+Lesandra is stunned
+Lesandra summons her Raven Knight
 
 Beat 6
 -------
 
 Cesar
 -----
-Life: 13
-Discard 1: Fueled Strike
-Discard 2: Bulwark Grasp
+Life: 10
+Discard 1: Inevitable Shot
+Discard 2: Bulwark Dash
 Special action available
+Opponent has power penalty: -3
 Threat level: 1
 
 Lesandra
 --------
-Life: 13
+Life: 14
 Discard 1: Pactbreaker Drive
-Discard 2: Binding Burst
+Discard 2: Binding Strike
 Special action available
-Familiar: Rune Knight
+Familiar: Raven Knight
 
 
-.CL....
+.L.C...
 
 
 Cesar:
-27% Phalanx Shot
-6% Unstoppable Burst
-67% Inevitable Drive
+1% Phalanx Strike
+13% Unstoppable Strike
+72% Unstoppable Drive
+14% Unstoppable Grasp
 
 Lesandra:
-7% Guardian Grasp
-35% Guardian Grasp (Rune Knight)
-58% Guardian Dash
+15% Invocation Shot (Raven Knight)
+1% Invocation Grasp
+17% Window Burst
+67% Special Pulse
 
 
-Cesar: Inevitable Drive
-Lesandra: Guardian Dash
+Cesar: Unstoppable Drive
+Lesandra: Special Pulse
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  4 | 8
+Pulse:
+
+.C....L
+
+
+Beat 6
+-------
+
+Cesar
+-----
+Life: 10
+Discard 1: Unstoppable Drive
+Discard 2: Inevitable Shot
+Special action available
+Threat level: 2
+
+Lesandra
+--------
+Life: 14
+Discard 1: Pactbreaker Drive
+Discard 2: Binding Strike
+Familiar: Raven Knight
+
+
+.C....L
+
+Unbeatable strategy for Lesandra: Guardian Shot: -0.20
+
+
+Cesar:
+59% Fueled Suppression
+41% Fueled Burst
+0% Fueled Grasp
+
+Lesandra:
+18% Invocation Burst
+44% Guardian Summons
+38% Guardian Shot
+
+
+Cesar: Fueled Burst
+Lesandra: Guardian Summons
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  0 | 1
 Lesandra is active
-Lesandra moves:
+Lesandra moves Cesar:
 
-.C...L.
+.....CL
 
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
 Cesar moves:
 
-...C.L.
+....C.L
 
-Cesar misses
+Lesandra hits
+Cesar has 2 soak
+Cesar takes 1 damage (now at 9 life)
+Cesar is stunned
+Cesar loses 1 life (now at 8)
 
 Beat 7
 -------
 
 Cesar
 -----
-Life: 13
-Discard 1: Inevitable Drive
-Discard 2: Fueled Strike
+Life: 8
+Discard 1: Fueled Burst
+Discard 2: Unstoppable Drive
 Special action available
-Threat level: 2
+Threat level: 4
 
 Lesandra
 --------
-Life: 13
-Discard 1: Guardian Dash
+Life: 14
+Discard 1: Guardian Summons
 Discard 2: Pactbreaker Drive
-Special action available
-Familiar: Rune Knight
+Familiar: Raven Knight
 
 
-...C.L.
-
-Unbeatable strategy for Lesandra: Invocation Grasp: -2.76
-Unbeatable strategy for Lesandra: Invocation Grasp (Rune Knight): -1.13
-Unbeatable strategy for Lesandra: Binding Summons: -1.60
-Unbeatable strategy for Lesandra: Binding Summons (Rune Knight): -2.92
-Unbeatable strategy for Lesandra: Binding Strike: -2.22
-Unbeatable strategy for Lesandra: Binding Strike (Rune Knight): -2.72
-Unbeatable strategy for Lesandra: Binding Shot: -3.31
-Unbeatable strategy for Lesandra: Binding Shot (Rune Knight): -3.01
-Unbeatable strategy for Lesandra: Binding Grasp: -0.24
-Unbeatable strategy for Lesandra: Binding Grasp (Rune Knight): -0.80
-Unbeatable strategy for Lesandra: Window Strike: -1.89
-Unbeatable strategy for Lesandra: Window Shot: -1.18
-Unbeatable strategy for Lesandra: Window Shot (Rune Knight): -1.69
+....C.L
 
 
 Cesar:
-1% Phalanx Suppression
-73% Phalanx Shot
-18% Phalanx Burst
-8% Phalanx Grasp
+92% Phalanx Strike
+3% Phalanx Dash
+3% Bulwark Dash
+2% Inevitable Dash
 
 Lesandra:
-4% Invocation Strike
-3% Invocation Strike (Rune Knight)
-50% Binding Summons
-8% Binding Strike (Rune Knight)
-35% Binding Shot (Rune Knight)
+66% Invocation Grasp
+34% Binding Strike
 
 
-Cesar: Phalanx Shot
-Lesandra: Binding Summons
+Cesar: Phalanx Strike
+Lesandra: Invocation Grasp
 
-Cesar gains a Threat Level (current level: 3)
-Priorities:  0 | 0
-Clash!
-
-
-Cesar: Phalanx Suppression
-Lesandra: Binding Shot
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  0 | 0
-Clash!
-
-
-Cesar: Phalanx Dash
-Lesandra: Binding Burst
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  7 | -1
-Cesar is active
-Lesandra moves:
+Cesar gains a Threat Level (current level: 0)
+Priorities:  1 | 3
+Lesandra is active
+Lesandra hits
+Lesandra moves Cesar:
 
 ...C..L
 
+Cesar takes 4 damage (now at 4 life)
+Cesar loses 1 life (now at 3)
 Cesar moves:
 
 .....CL
 
-Cesar loses 1 life (now at 12)
-Cesar gets -1 power
-Lesandra misses
+Cesar hits
+Lesandra banishes her Raven Knight for Soak 2
+Lesandra has 2 soak
+Lesandra takes 2 damage (now at 12 life)
+Lesandra is stunned
+Lesandra gets -2 power
+Lesandra summons her Rune Knight
 
 Beat 8
 -------
 
 Cesar
 -----
-Life: 12
-Discard 1: Phalanx Dash
-Discard 2: Inevitable Drive
+Life: 3
+Discard 1: Phalanx Strike
+Discard 2: Fueled Burst
 Special action available
-Threat level: 3
+Threat level: 0
 
 Lesandra
 --------
-Life: 13
-Discard 1: Binding Burst
-Discard 2: Guardian Dash
-Special action available
+Life: 12
+Discard 1: Invocation Grasp
+Discard 2: Guardian Summons
 Familiar: Rune Knight
 
 
 .....CL
 
+Unbeatable strategy for Lesandra: Pactbreaker Drive (Rune Knight): -3.58
+Unbeatable strategy for Lesandra: Window Drive: -2.49
+Unbeatable strategy for Lesandra: Window Drive (Rune Knight): -1.74
+
 
 Cesar:
-39% Unstoppable Grasp
-19% Bulwark Burst
-42% Bulwark Grasp
+5% Inevitable Drive
+95% Special Level 4 Protocol
 
 Lesandra:
-5% Invocation Drive
-39% Pactbreaker Strike (Rune Knight)
-57% Window Strike
+64% Binding Burst (Rune Knight)
+36% Window Drive (Rune Knight)
 
 
-Cesar: Unstoppable Grasp
-Lesandra: Pactbreaker Strike (Rune Knight)
+Cesar: Special Level 4 Protocol
+Lesandra: Window Drive (Rune Knight)
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  3 | 4
-Lesandra is active
-Lesandra hits
-Cesar has 2 soak
-Cesar takes 3 damage (now at 9 life)
-Cesar is stunned
-Lesandra summons her Wyvern
+Cesar gains a Threat Level (current level: 1)
+Priorities:  11 | 5
+Cesar is active
+Cesar hits
+Lesandra has 2 soak
+Lesandra takes 6 damage (now at 6 life)
+Lesandra is stunned
+Lesandra summons her Borneo
+Lesandra loses 1 life (now at 5)
 
 Beat 9
 -------
 
 Cesar
 -----
-Life: 9
-Discard 1: Unstoppable Grasp
-Discard 2: Phalanx Dash
-Special action available
-Threat level: 4
+Life: 3
+Discard 1: Phalanx Strike
+Discard 2: Fueled Burst
+Threat level: 1
 
 Lesandra
 --------
-Life: 13
-Discard 1: Pactbreaker Strike
-Discard 2: Binding Burst
-Special action available
-Familiar: Wyvern
+Life: 5
+Discard 1: Window Drive
+Discard 2: Invocation Grasp
+Familiar: Borneo
 
 
 .....CL
 
 
 Cesar:
-10% Fueled Suppression
-27% Fueled Shot
-63% Inevitable Drive
+0% Unstoppable Shot
+38% Bulwark Shot
+62% Inevitable Suppression
 
 Lesandra:
-4% Invocation Drive (Wyvern)
-54% Invocation Dash
-42% Guardian Grasp (Wyvern)
+24% Pactbreaker Shot (Borneo)
+76% Binding Dash
 
 
-Cesar: Inevitable Drive
-Lesandra: Invocation Dash
+Cesar: Bulwark Shot
+Lesandra: Binding Dash
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  4 | 7
+Cesar gains a Threat Level (current level: 2)
+Priorities:  0 | 7
 Lesandra is active
 Lesandra moves:
 
 ..L..C.
 
+Cesar misses
 Cesar moves:
 
 ..LC...
 
-Cesar misses
+Cesar loses 1 life (now at 2)
+Cesar gets -1 power
 
 Beat 10
 -------
 
 Cesar
 -----
-Life: 9
-Discard 1: Inevitable Drive
-Discard 2: Unstoppable Grasp
-Special action available
-Threat level: 0
+Life: 2
+Discard 1: Bulwark Shot
+Discard 2: Phalanx Strike
+Threat level: 2
 
 Lesandra
 --------
-Life: 13
-Discard 1: Invocation Dash
-Discard 2: Pactbreaker Strike
-Special action available
-Familiar: Wyvern
+Life: 5
+Discard 1: Binding Dash
+Discard 2: Window Drive
+Familiar: Borneo
 
 
 ..LC...
 
 
 Cesar:
-8% Phalanx Strike
-17% Phalanx Shot
-20% Fueled Strike
-21% Fueled Shot
-34% Bulwark Shot
+19% Unstoppable Grasp
+42% Fueled Suppression
+38% Inevitable Drive
 
 Lesandra:
-10% Binding Summons (Wyvern)
-19% Binding Grasp (Wyvern)
-70% Guardian Drive (Wyvern)
-1% Guardian Burst
-1% Guardian Burst (Wyvern)
+19% Invocation Summons
+72% Invocation Burst
+8% Pactbreaker Strike (Borneo)
 
 
-Cesar: Phalanx Shot
-Lesandra: Guardian Drive (Wyvern)
+Cesar: Unstoppable Grasp
+Lesandra: Invocation Burst
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 3
-Lesandra is active
+Cesar gains a Threat Level (current level: 3)
+Priorities:  3 | -1
+Cesar is active
 Lesandra moves:
 
-...CL..
+L..C...
 
-Lesandra moves:
+Cesar moves:
 
-..LC...
+LC.....
 
-Lesandra hits
-Cesar takes 4 damage (now at 5 life)
 Cesar hits
-Lesandra takes 4 damage (now at 9 life)
+Cesar moves Lesandra:
+
+.CL....
+
+Lesandra banishes her Borneo for Soak 2
+Lesandra has 2 soak
+Lesandra takes 3 damage (now at 2 life)
 Lesandra is stunned
-Lesandra summons her Rune Knight
+Lesandra gets -3 power
+Lesandra summons her Salamander
+Lesandra loses 3 life (now at 1)
 
 Beat 11
 -------
 
 Cesar
 -----
-Life: 5
-Discard 1: Phalanx Shot
-Discard 2: Inevitable Drive
-Special action available
-Threat level: 1
-
-Lesandra
---------
-Life: 9
-Discard 1: Guardian Drive
-Discard 2: Invocation Dash
-Special action available
-Familiar: Rune Knight
-
-
-..LC...
-
-Unbeatable strategy for Lesandra: Binding Strike: -3.02
-Unbeatable strategy for Lesandra: Binding Strike (Rune Knight): -2.47
-Unbeatable strategy for Lesandra: Binding Grasp (Rune Knight): -0.17
-
-
-Cesar:
-25% Unstoppable Strike
-1% Bulwark Burst
-68% Bulwark Dash
-6% Special Level 4 Protocol
-
-Lesandra:
-32% Pactbreaker Strike (Rune Knight)
-16% Binding Strike
-5% Binding Strike (Rune Knight)
-46% Binding Burst
-
-
-Cesar: Special Level 4 Protocol
-Lesandra: Pactbreaker Strike (Rune Knight)
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  11 | 4
-Cesar is active
-Cesar hits
-Lesandra has 2 soak
-Lesandra takes 7 damage (now at 2 life)
-Lesandra is stunned
-Lesandra summons her Raven Knight
-Lesandra loses 5 life (now at 1)
-
-Beat 12
--------
-
-Cesar
------
-Life: 5
-Discard 1: Phalanx Shot
-Discard 2: Inevitable Drive
-Threat level: 2
-
-Lesandra
---------
-Life: 1
-Discard 1: Pactbreaker Strike
-Discard 2: Guardian Drive
-Special action available
-Familiar: Raven Knight
-
-
-..LC...
-
-Unbeatable strategy for Lesandra: Binding Dash: -0.01
-
-
-Cesar:
-8% Unstoppable Suppression
-91% Fueled Suppression
-1% Bulwark Suppression
-
-Lesandra:
-94% Special Pulse
-3% Special Mazzaroth
-3% Special Mazzaroth (Raven Knight)
-
-
-Cesar: Fueled Suppression
-Lesandra: Special Pulse
-
-Cesar gains a Threat Level (current level: 3)
-Pulse:
-
-C.....L
-
-
-Beat 12
--------
-
-Cesar
------
-Life: 5
-Discard 1: Fueled Suppression
-Discard 2: Phalanx Shot
+Life: 2
+Discard 1: Unstoppable Grasp
+Discard 2: Bulwark Shot
 Threat level: 3
 
 Lesandra
 --------
 Life: 1
-Discard 1: Pactbreaker Strike
-Discard 2: Guardian Drive
-Familiar: Raven Knight
+Discard 1: Invocation Burst
+Discard 2: Binding Dash
+Familiar: Salamander
 
 
-C.....L
+.CL....
 
-Unbeatable strategy for Cesar: Unstoppable Strike: 0.63
-Unbeatable strategy for Cesar: Bulwark Strike: 0.63
-Unbeatable strategy for Cesar: Inevitable Burst: 0.18
-Unbeatable strategy for Cesar: Inevitable Grasp: 0.78
+Unbeatable strategy for Lesandra: Pactbreaker Summons (Salamander): -0.53
+Unbeatable strategy for Lesandra: Pactbreaker Strike (Salamander): -0.39
+Unbeatable strategy for Lesandra: Pactbreaker Shot (Salamander): -0.50
+Unbeatable strategy for Lesandra: Pactbreaker Grasp (Salamander): -0.38
+Unbeatable strategy for Lesandra: Guardian Summons: -0.83
+Unbeatable strategy for Lesandra: Guardian Summons (Salamander): -0.83
+Unbeatable strategy for Lesandra: Guardian Strike: -0.69
+Unbeatable strategy for Lesandra: Guardian Strike (Salamander): -0.69
+Unbeatable strategy for Lesandra: Guardian Shot: -0.80
+Unbeatable strategy for Lesandra: Guardian Shot (Salamander): -0.80
+Unbeatable strategy for Lesandra: Guardian Drive: -0.30
+Unbeatable strategy for Lesandra: Guardian Drive (Salamander): -0.30
+Unbeatable strategy for Lesandra: Guardian Grasp: -0.68
+Unbeatable strategy for Lesandra: Guardian Grasp (Salamander): -0.68
+Unbeatable strategy for Lesandra: Window Summons: -0.97
+Unbeatable strategy for Lesandra: Window Strike: -0.77
+Unbeatable strategy for Lesandra: Window Shot: -0.96
+Unbeatable strategy for Lesandra: Window Shot (Salamander): -0.96
+Unbeatable strategy for Lesandra: Window Drive: -0.98
+Unbeatable strategy for Lesandra: Window Drive (Salamander): -0.98
+Unbeatable strategy for Lesandra: Window Grasp: -0.96
 
 
 Cesar:
-9% Unstoppable Burst
-8% Unstoppable Grasp
-24% Bulwark Burst
-44% Bulwark Grasp
-14% Inevitable Grasp
+56% Fueled Suppression
+9% Fueled Strike
+35% Fueled Burst
 
 Lesandra:
-33% Invocation Shot
-67% Invocation Burst
+45% Window Shot
+36% Window Shot (Salamander)
+2% Window Drive
+2% Window Drive (Salamander)
+14% Window Grasp
 
 
-Cesar: Bulwark Grasp
-Lesandra: Invocation Burst
+Cesar: Fueled Burst
+Lesandra: Window Shot
 
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Priorities:  3 | -1
-Cesar is active
+Priorities:  0 | 3
+Lesandra is active
+Cesar gains a Threat Level (current level: 0)
+Cesar moves:
+
+C.L....
+
 Lesandra hits
-Cesar has 2 soak
-Cesar takes 3 damage (now at 2 life)
-Cesar loses 1 life (now at 1)
+Lesandra banishes her Salamander
+Lesandra moves Cesar:
+
+.CL....
+
+Cesar takes 4 damage (now at 0 life)
+Cesar is stunned
 Lesandra summons her Rune Knight
-Lesandra loses 4 life (now at 1)
+
+Beat 12
+-------
+
+Cesar
+-----
+Life: 1
+Discard 1: Fueled Burst
+Discard 2: Unstoppable Grasp
+Threat level: 0
+Defeat immunity used-up
+
+Lesandra
+--------
+Life: 1
+Discard 1: Window Shot
+Discard 2: Invocation Burst
+Familiar: Rune Knight
+
+
+.CL....
+
+Unbeatable strategy for Lesandra: Pactbreaker Strike (Rune Knight): -0.08
+Unbeatable strategy for Lesandra: Pactbreaker Grasp (Rune Knight): -0.03
+Unbeatable strategy for Lesandra: Guardian Grasp: -0.63
+Unbeatable strategy for Lesandra: Guardian Grasp (Rune Knight): -0.33
+
+
+Cesar:
+5% Phalanx Shot
+5% Bulwark Shot
+0% Bulwark Dash
+6% Inevitable Shot
+7% Inevitable Drive
+76% Inevitable Dash
+
+Lesandra:
+24% Pactbreaker Drive (Rune Knight)
+26% Binding Dash
+9% Guardian Grasp
+41% Guardian Dash
+
+
+Cesar: Inevitable Dash
+Lesandra: Guardian Dash
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  9 | 8
+Cesar is active
+Cesar moves:
+
+..LC...
+
+Lesandra moves:
+
+L..C...
+
 
 Beat 13
 -------
@@ -732,174 +770,58 @@ Beat 13
 Cesar
 -----
 Life: 1
-Discard 1: Bulwark Grasp
-Discard 2: Fueled Suppression
-Threat level: 4
-
-Lesandra
---------
-Life: 1
-Discard 1: Invocation Burst
-Discard 2: Pactbreaker Strike
-Familiar: Rune Knight
-
-
-C.....L
-
-Unbeatable strategy for Lesandra: Binding Shot: -1.17
-Unbeatable strategy for Lesandra: Binding Shot (Rune Knight): -0.87
-
-
-Cesar:
-23% Phalanx Shot
-47% Unstoppable Shot
-8% Inevitable Strike
-21% Inevitable Shot
-
-Lesandra:
-19% Binding Summons
-68% Binding Shot
-5% Binding Drive
-9% Window Drive
-
-
-Cesar: Inevitable Shot
-Lesandra: Binding Drive
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  2 | 2
-Clash!
-
-
-Cesar: Inevitable Strike
-Lesandra: Binding Grasp
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  3 | 3
-Clash!
-
-
-Cesar: Inevitable Burst
-Lesandra: Binding Shot
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  1 | 0
-Cesar is active
-Cesar misses
-Lesandra hits
-Cesar takes 3 damage (now at 0 life)
-
-Beat 14
--------
-
-Cesar
------
-Life: 1
-Discard 1: Inevitable Burst
-Discard 2: Bulwark Grasp
-Threat level: 0
-Defeat immunity used-up
-
-Lesandra
---------
-Life: 1
-Discard 1: Binding Shot
-Discard 2: Invocation Burst
-Familiar: Rune Knight
-
-
-C.....L
-
-Unbeatable strategy for Lesandra: Pactbreaker Summons (Rune Knight): -3.04
-Unbeatable strategy for Lesandra: Window Summons: -6.00
-Unbeatable strategy for Lesandra: Window Summons (Rune Knight): -2.09
-Unbeatable strategy for Lesandra: Window Drive: -2.35
-
-
-Cesar:
-42% Unstoppable Suppression
-58% Fueled Drive
-
-Lesandra:
-58% Window Summons
-42% Window Drive
-
-
-Cesar: Unstoppable Suppression
-Lesandra: Window Drive
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 5
-Lesandra is active
-Lesandra moves:
-
-C...L..
-
-Cesar moves:
-
-.C..L..
-
-Lesandra misses
-Cesar misses
-Lesandra summons her Wyvern
-Lesandra loses 2 life (now at 1)
-
-Beat 15
--------
-
-Cesar
------
-Life: 1
-Discard 1: Unstoppable Suppression
-Discard 2: Inevitable Burst
+Discard 1: Inevitable Dash
+Discard 2: Fueled Burst
 Threat level: 1
 Defeat immunity used-up
 
 Lesandra
 --------
 Life: 1
-Discard 1: Window Drive
-Discard 2: Binding Shot
-Familiar: Wyvern
+Discard 1: Guardian Dash
+Discard 2: Window Shot
+Familiar: Rune Knight
 
 
-.C..L..
+L..C...
+
+Unbeatable strategy for Lesandra: Pactbreaker Drive (Rune Knight): -6.00
+Unbeatable strategy for Lesandra: Binding Drive: -2.62
+Unbeatable strategy for Lesandra: Binding Drive (Rune Knight): -2.62
 
 
 Cesar:
-14% Phalanx Dash
-33% Fueled Drive
-39% Fueled Dash
-14% Bulwark Dash
+9% Phalanx Suppression
+7% Phalanx Strike
+4% Phalanx Shot
+3% Phalanx Drive
+7% Phalanx Grasp
+6% Unstoppable Suppression
+5% Unstoppable Strike
+5% Unstoppable Shot
+5% Unstoppable Drive
+7% Unstoppable Grasp
+10% Bulwark Suppression
+5% Bulwark Strike
+4% Bulwark Shot
+9% Bulwark Drive
+16% Bulwark Grasp
 
 Lesandra:
-8% Invocation Burst (Wyvern)
-22% Pactbreaker Strike (Wyvern)
-15% Pactbreaker Burst (Wyvern)
-25% Pactbreaker Grasp (Wyvern)
-10% Guardian Burst (Wyvern)
-20% Guardian Grasp (Wyvern)
+100% Pactbreaker Drive (Rune Knight)
 
 
-Cesar: Phalanx Dash
-Lesandra: Invocation Burst (Wyvern)
+Cesar: Bulwark Drive
+Lesandra: Pactbreaker Drive (Rune Knight)
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  7 | -1
-Cesar is active
+Priorities:  2 | 5
+Lesandra is active
 Lesandra moves:
 
-.C...L.
-
-Cesar moves:
-
-C....L.
-
-Lesandra moves:
-
-C..L...
+.L.C...
 
 Lesandra hits
-Cesar takes 5 damage (now at 0 life)
+Cesar takes 4 damage (now at 0 life)
 LESANDRA WINS!
-total_time: 85
+total_time: 56

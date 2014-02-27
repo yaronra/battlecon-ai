@@ -11,21 +11,22 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Grasp
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Hurricane Grasp
+Discard 2: Cyclone Shot
+Special action available
 
 Marmelee
 --------
-life: 20
-discard 1: Petrifying Burst
-discard 2: Barrier Grasp
-special action
+Life: 20
+Discard 1: Petrifying Burst
+Discard 2: Barrier Grasp
+Special action available
 2 Concentration counters
 
 
 .C...M.
+
 
 Claus:
 25% Tailwind Tempest
@@ -40,14 +41,14 @@ Marmelee:
 8% Nullifying Drive
 
 
-Claus: Tailwind Tempest
+Claus: Tailwind Drive
 Marmelee: Sorceress Strike
 
 Priorities:  4 | 2
 Claus is active
 Claus moves:
 
-..C..M.
+...C.M.
 
 Claus moves Marmelee:
 
@@ -59,7 +60,7 @@ Claus moves:
 ....C.M
 
 Claus hits
-Marmelee takes 2 damage (now at 17 life)
+Marmelee takes 4 damage (now at 15 life)
 Marmelee discards 1 Concentration Counter
 Marmelee gains +0~2 range
 Marmelee hits
@@ -72,53 +73,58 @@ Beat 2
 
 Claus
 -----
-life: 16
-discard 1: Tailwind Tempest
-discard 2: Hurricane Grasp
-special action
+Life: 16
+Discard 1: Tailwind Drive
+Discard 2: Hurricane Grasp
+Special action available
 
 Marmelee
 --------
-life: 17
-discard 1: Sorceress Strike
-discard 2: Petrifying Burst
-special action
+Life: 15
+Discard 1: Sorceress Strike
+Discard 2: Petrifying Burst
+Special action available
 2 Concentration counters
 
 
 ....C.M
 
+
 Claus:
-42% Blast Shot
-23% Cyclone Strike
-15% Cyclone Drive
-20% Downdraft Drive
+25% Blast Shot
+13% Cyclone Tempest
+2% Cyclone Shot
+23% Downdraft Tempest
+7% Downdraft Shot
+30% Downdraft Dash
 
 Marmelee:
-1% Magnificent Drive
-48% Magnificent Grasp
-33% Magnificent Dash
-19% Nullifying Drive
+7% Magnificent Meditation
+14% Magnificent Grasp
+49% Magnificent Dash
+14% Barrier Meditation
+1% Barrier Grasp
+14% Nullifying Drive
 
 
 Claus: Blast Shot
-Marmelee: Magnificent Grasp
+Marmelee: Barrier Meditation
 
-Priorities:  -1 | 5
+Priorities:  -1 | 3
 Marmelee is active
+Marmelee discards 2 Concentration Counters
+Marmelee gains Soak 2
 Claus moves:
 
 .....CM
 
-Marmelee misses
-Marmelee discards 2 Concentration Counters
-Marmelee moves:
-
-M....C.
-
+Marmelee hits
+Claus takes 1 damage (now at 15 life)
 Claus hits
-Marmelee takes 3 damage (now at 14 life)
+Marmelee has 2 soak
+Marmelee takes 1 damage (now at 14 life)
 Marmelee is stunned
+Marmelee gains 1 Concentration Counter
 Marmelee gains 1 Concentration Counter
 
 Beat 3
@@ -126,62 +132,61 @@ Beat 3
 
 Claus
 -----
-life: 16
-discard 1: Blast Shot
-discard 2: Tailwind Tempest
-special action
+Life: 15
+Discard 1: Blast Shot
+Discard 2: Tailwind Drive
+Special action available
 
 Marmelee
 --------
-life: 14
-discard 1: Magnificent Grasp
-discard 2: Sorceress Strike
-special action
-1 Concentration counters
+Life: 14
+Discard 1: Barrier Meditation
+Discard 2: Sorceress Strike
+Special action available
+2 Concentration counters
 
 
-M....C.
+.....CM
 
-Unbeatable strategy for Marmelee: Petrifying Meditation: -0.66
-Unbeatable strategy for Marmelee: Petrifying Burst: -0.11
-Unbeatable strategy for Marmelee: Barrier Meditation: -0.92
-Unbeatable strategy for Marmelee: Nullifying Meditation: -1.01
+Unbeatable strategy for Marmelee: Petrifying Dash: -1.50
+
 
 Claus:
-33% Cyclone Burst
-41% Downdraft Drive
-26% Downdraft Grasp
+6% Cyclone Tempest
+3% Cyclone Strike
+18% Cyclone Grasp
+8% Downdraft Burst
+65% Downdraft Dash
 
 Marmelee:
-41% Petrifying Meditation
-24% Barrier Meditation
-35% Nullifying Meditation
+1% Petrifying Drive
+81% Petrifying Dash
+5% Magnificent Drive
+8% Magnificent Grasp
+5% Nullifying Grasp
 
 
-Claus: Downdraft Drive
-Marmelee: Barrier Meditation
+Claus: Downdraft Dash
+Marmelee: Petrifying Dash
 
-Priorities:  3 | 3
+Priorities:  8 | 8
 Clash!
 
-Claus:
-100% Downdraft Burst
 
-Marmelee:
-100% Barrier Burst
+Claus: Downdraft Grasp
+Marmelee: Petrifying Shot
 
+Priorities:  4 | 1
+Claus is active
+Claus hits
+Claus moves Marmelee:
 
-Claus: Downdraft Burst
-Marmelee: Barrier Burst
+....MC.
 
-Priorities:  0 | 1
-Marmelee is active
-Claus moves:
-
-M.....C
-
-Marmelee misses
-Claus misses
+Marmelee takes 2 damage (now at 12 life)
+Marmelee hits
+Claus takes 4 damage (now at 11 life)
+Claus is stunned
 Marmelee gains 1 Concentration Counter
 
 Beat 4
@@ -189,93 +194,61 @@ Beat 4
 
 Claus
 -----
-life: 16
-discard 1: Downdraft Burst
-discard 2: Blast Shot
-special action
+Life: 11
+Discard 1: Downdraft Grasp
+Discard 2: Blast Shot
+Special action available
 
 Marmelee
 --------
-life: 14
-discard 1: Barrier Burst
-discard 2: Magnificent Grasp
-special action
-2 Concentration counters
+Life: 12
+Discard 1: Petrifying Shot
+Discard 2: Barrier Meditation
+Special action available
+3 Concentration counters
 
 
-M.....C
+....MC.
 
-Unbeatable strategy for Marmelee: Sorceress Strike: -0.18
-Unbeatable strategy for Marmelee: Nullifying Meditation: -0.64
 
 Claus:
-31% Tailwind Drive
-33% Cyclone Tempest
-35% Cyclone Strike
+10% Hurricane Strike
+24% Tailwind Strike
+23% Tailwind Drive
+1% Tailwind Burst
+20% Cyclone Tempest
+22% Cyclone Burst
 
 Marmelee:
-39% Sorceress Strike
-35% Nullifying Meditation
-26% Nullifying Strike
+15% Magnificent Strike
+54% Sorceress Strike
+6% Sorceress Burst
+1% Sorceress Grasp
+5% Nullifying Strike
+19% Nullifying Burst
 
 
-Claus: Tailwind Drive
-Marmelee: Nullifying Strike
+Claus: Cyclone Burst
+Marmelee: Sorceress Strike
 
-Priorities:  4 | 4
+Priorities:  2 | 2
 Clash!
 
-Claus:
-100% Tailwind Tempest
 
-Marmelee:
-100% Nullifying Meditation
+Claus: Cyclone Tempest
+Marmelee: Sorceress Grasp
 
+Priorities:  5 | 4
+Claus is active
+Claus moves Marmelee:
 
-Claus: Tailwind Tempest
-Marmelee: Nullifying Meditation
+..M..C.
 
-Priorities:  4 | 4
-Clash!
-
-Claus:
-73% Tailwind Strike
-27% Tailwind Grasp
-
-Marmelee:
-28% Nullifying Shot
-72% Nullifying Drive
-
-
-Claus: Tailwind Grasp
-Marmelee: Nullifying Drive
-
-Priorities:  5 | 5
-Clash!
-
-Claus:
-54% Tailwind Strike
-46% Tailwind Dash
-
-Marmelee:
-46% Nullifying Shot
-54% Nullifying Dash
-
-
-Claus: Tailwind Strike
-Marmelee: Nullifying Dash
-
-Priorities:  3 | 10
-Marmelee is active
-Claus moves:
-
-M...C..
-
-Marmelee moves:
-
-.M..C..
-
-Claus misses
+Marmelee takes 2 damage (now at 10 life)
+Marmelee is stunned
+Claus hits
+Marmelee takes 2 damage (now at 8 life)
+Marmelee is stunned
 Marmelee gains 1 Concentration Counter
 
 Beat 5
@@ -283,566 +256,45 @@ Beat 5
 
 Claus
 -----
-life: 16
-discard 1: Tailwind Strike
-discard 2: Downdraft Burst
-special action
+Life: 11
+Discard 1: Cyclone Tempest
+Discard 2: Downdraft Grasp
+Special action available
 
 Marmelee
 --------
-life: 14
-discard 1: Nullifying Dash
-discard 2: Barrier Burst
-special action
-3 Concentration counters
-
-
-.M..C..
-
-Unbeatable strategy for Marmelee: Petrifying Shot: -1.50
-
-Claus:
-33% Hurricane Tempest
-13% Hurricane Drive
-53% Blast Drive
-
-Marmelee:
-71% Petrifying Shot
-12% Petrifying Drive
-16% Sorceress Strike
-
-
-Claus: Blast Drive
-Marmelee: Petrifying Shot
-
-Priorities:  1 | 1
-Clash!
-
-Claus:
-53% Blast Tempest
-47% Blast Shot
-
-Marmelee:
-80% Petrifying Meditation
-20% Petrifying Drive
-
-
-Claus: Blast Tempest
-Marmelee: Petrifying Meditation
-
-Priorities:  1 | 2
-Marmelee is active
-Marmelee discards 1 Concentration Counter
-Marmelee gains Soak 1
-Claus moves:
-
-.M.C...
-
-Marmelee misses
-Claus hits
-Marmelee has 1 soak
-Marmelee takes 0 damage (now at 14 life)
-Marmelee gains 1 Concentration Counter
-Marmelee gains 1 Concentration Counter
-
-Beat 6
--------
-
-Claus
------
-life: 16
-discard 1: Blast Tempest
-discard 2: Tailwind Strike
-special action
-
-Marmelee
---------
-life: 14
-discard 1: Petrifying Meditation
-discard 2: Nullifying Dash
-special action
-4 Concentration counters
-
-
-.M.C...
-
-Claus:
-9% Cyclone Shot
-24% Cyclone Drive
-13% Cyclone Burst
-25% Cyclone Dash
-30% Downdraft Burst
-
-Marmelee:
-12% Magnificent Strike
-28% Magnificent Grasp
-2% Sorceress Strike
-47% Barrier Strike
-11% Barrier Drive
-
-
-Claus: Cyclone Drive
-Marmelee: Magnificent Grasp
-
-Priorities:  5 | 5
-Clash!
-
-Claus:
-100% Cyclone Shot
-
-Marmelee:
-100% Magnificent Strike
-
-
-Claus: Cyclone Shot
-Marmelee: Magnificent Strike
-
-Priorities:  3 | 3
-Clash!
-
-Claus:
-34% Cyclone Burst
-66% Cyclone Dash
-
-Marmelee:
-66% Magnificent Shot
-34% Magnificent Burst
-
-
-Claus: Cyclone Burst
-Marmelee: Magnificent Shot
-
-Priorities:  2 | 2
-Clash!
-
-Claus:
-100% Cyclone Dash
-
-Marmelee:
-100% Magnificent Burst
-
-
-Claus: Cyclone Dash
-Marmelee: Magnificent Burst
-
-Priorities:  10 | 1
-Claus is active
-Marmelee moves:
-
-M..C...
-
-Claus moves:
-
-MC.....
-
-Marmelee misses
-Marmelee discards 2 Concentration Counters
-Marmelee moves:
-
-.C....M
-
-Marmelee gains 1 Concentration Counter
-
-Beat 7
--------
-
-Claus
------
-life: 16
-discard 1: Cyclone Dash
-discard 2: Blast Tempest
-special action
-
-Marmelee
---------
-life: 14
-discard 1: Magnificent Burst
-discard 2: Petrifying Meditation
-special action
-3 Concentration counters
-
-
-.C....M
-
-Unbeatable strategy for Claus: Downdraft Burst: 0.19
-
-Claus:
-31% Tailwind Drive
-69% Tailwind Burst
-
-Marmelee:
-75% Sorceress Strike
-25% Sorceress Drive
-
-
-Claus: Tailwind Drive
-Marmelee: Sorceress Strike
-
-Priorities:  4 | 2
-Claus is active
-Claus moves:
-
-..C...M
-
-Claus moves:
-
-....C.M
-
-Claus hits
-Marmelee takes 4 damage (now at 10 life)
-Marmelee discards 1 Concentration Counter
-Marmelee gains +0~2 range
-Marmelee hits
-Claus takes 4 damage (now at 12 life)
-Claus is stunned
-Marmelee gains 1 Concentration Counter
-
-Beat 8
--------
-
-Claus
------
-life: 12
-discard 1: Tailwind Drive
-discard 2: Cyclone Dash
-special action
-
-Marmelee
---------
-life: 10
-discard 1: Sorceress Strike
-discard 2: Magnificent Burst
-special action
-3 Concentration counters
-
-
-....C.M
-
-Unbeatable strategy for Marmelee: Barrier Dash: -0.01
-
-Claus:
-12% Downdraft Strike
-26% Downdraft Shot
-62% Downdraft Burst
-
-Marmelee:
-92% Petrifying Dash
-6% Barrier Drive
-2% Nullifying Meditation
-
-
-Claus: Downdraft Burst
-Marmelee: Petrifying Dash
-
-Priorities:  0 | 8
-Marmelee is active
-Claus moves:
-
-..C...M
-
-Marmelee moves:
-
-..CM...
-
-Claus misses
-Marmelee gains 1 Concentration Counter
-
-Beat 9
--------
-
-Claus
------
-life: 12
-discard 1: Downdraft Burst
-discard 2: Tailwind Drive
-special action
-
-Marmelee
---------
-life: 10
-discard 1: Petrifying Dash
-discard 2: Sorceress Strike
-special action
-4 Concentration counters
-
-
-..CM...
-
-Claus:
-16% Hurricane Tempest
-2% Blast Tempest
-29% Blast Dash
-44% Cyclone Tempest
-9% Cyclone Strike
-
-Marmelee:
-6% Barrier Shot
-11% Barrier Grasp
-36% Nullifying Meditation
-15% Nullifying Shot
-32% Nullifying Drive
-
-
-Claus: Cyclone Tempest
-Marmelee: Nullifying Drive
-
-Priorities:  5 | 5
-Clash!
-
-Claus:
-100% Cyclone Shot
-
-Marmelee:
-100% Nullifying Shot
-
-
-Claus: Cyclone Shot
-Marmelee: Nullifying Shot
-
-Priorities:  3 | 3
-Clash!
-
-Claus:
-17% Cyclone Strike
-83% Cyclone Dash
-
-Marmelee:
-83% Nullifying Meditation
-17% Nullifying Burst
-
-
-Claus: Cyclone Dash
-Marmelee: Nullifying Meditation
-
-Priorities:  10 | 4
-Claus is active
-Marmelee discards 2 Concentration Counters
-Marmelee gains Soak 2
-Marmelee moves:
-
-..C.M..
-
-Claus moves:
-
-...CM..
-
-Marmelee misses
-Marmelee gains 1 Concentration Counter
-Marmelee gains 1 Concentration Counter
-
-Beat 10
--------
-
-Claus
------
-life: 12
-discard 1: Cyclone Dash
-discard 2: Downdraft Burst
-special action
-
-Marmelee
---------
-life: 10
-discard 1: Nullifying Meditation
-discard 2: Petrifying Dash
-special action
-4 Concentration counters
-
-
-...CM..
-
-Claus:
-1% Hurricane Shot
-53% Tailwind Strike
-41% Tailwind Shot
-5% Blast Strike
-
-Marmelee:
-5% Magnificent Strike
-3% Sorceress Strike
-25% Barrier Shot
-67% Special Pulse
-
-
-Claus: Tailwind Strike
-Marmelee: Special Pulse
-
-Pulse:
-
-C.....M
-
-
-Beat 10
--------
-
-Claus
------
-life: 12
-discard 1: Tailwind Strike
-discard 2: Cyclone Dash
-special action
-
-Marmelee
---------
-life: 10
-discard 1: Nullifying Meditation
-discard 2: Petrifying Dash
-4 Concentration counters
-
-
-C.....M
-
-Claus:
-24% Hurricane Tempest
-24% Blast Tempest
-25% Blast Shot
-26% Downdraft Tempest
-
-Marmelee:
-18% Magnificent Drive
-43% Sorceress Strike
-10% Sorceress Drive
-28% Barrier Shot
-
-
-Claus: Blast Tempest
-Marmelee: Magnificent Drive
-
-Priorities:  1 | 4
-Marmelee is active
-Claus moves:
-
-.C....M
-
-Claus moves:
-
-....C.M
-
-Marmelee moves:
-
-...MC..
-
-Marmelee misses
-Marmelee discards 2 Concentration Counters
-Marmelee moves:
-
-..M.C..
-
-Claus hits
-Marmelee takes 1 damage (now at 9 life)
-Marmelee is stunned
-Marmelee gains 1 Concentration Counter
-
-Beat 11
--------
-
-Claus
------
-life: 12
-discard 1: Blast Tempest
-discard 2: Tailwind Strike
-special action
-
-Marmelee
---------
-life: 9
-discard 1: Magnificent Drive
-discard 2: Nullifying Meditation
+Life: 8
+Discard 1: Sorceress Grasp
+Discard 2: Petrifying Shot
+Special action available
 1 Concentration counters
 
 
-..M.C..
+..M..C.
+
 
 Claus:
-9% Hurricane Drive
-24% Cyclone Shot
-37% Cyclone Dash
-24% Downdraft Burst
-6% Downdraft Dash
+0% Hurricane Shot
+16% Tailwind Shot
+30% Tailwind Drive
+20% Tailwind Burst
+34% Tailwind Dash
+0% Blast Drive
 
 Marmelee:
-3% Petrifying Burst
-17% Petrifying Dash
-48% Sorceress Strike
-16% Sorceress Burst
-16% Barrier Dash
+9% Barrier Strike
+5% Barrier Drive
+37% Barrier Dash
+34% Nullifying Meditation
+1% Nullifying Burst
+13% Nullifying Dash
 
 
-Claus: Downdraft Burst
-Marmelee: Sorceress Burst
+Claus: Tailwind Drive
+Marmelee: Nullifying Meditation
 
-Priorities:  0 | 0
+Priorities:  4 | 4
 Clash!
-
-Claus:
-63% Downdraft Drive
-37% Downdraft Dash
-
-Marmelee:
-40% Sorceress Strike
-60% Sorceress Dash
-
-
-Claus: Downdraft Dash
-Marmelee: Sorceress Dash
-
-Priorities:  8 | 8
-Clash!
-
-Claus:
-7% Downdraft Shot
-93% Downdraft Drive
-
-Marmelee:
-59% Sorceress Strike
-41% Sorceress Grasp
-
-
-Claus: Downdraft Drive
-Marmelee: Sorceress Strike
-
-Priorities:  3 | 2
-Claus is active
-Claus moves:
-
-..MC...
-
-Claus hits
-Marmelee takes 3 damage (now at 6 life)
-Marmelee hits
-Claus takes 4 damage (now at 8 life)
-Claus is stunned
-Marmelee gains 1 Concentration Counter
-
-Beat 12
--------
-
-Claus
------
-life: 8
-discard 1: Downdraft Drive
-discard 2: Blast Tempest
-special action
-
-Marmelee
---------
-life: 6
-discard 1: Sorceress Strike
-discard 2: Magnificent Drive
-2 Concentration counters
-
-
-..MC...
-
-Claus:
-42% Tailwind Strike
-33% Tailwind Shot
-26% Tailwind Burst
-
-Marmelee:
-18% Barrier Meditation
-19% Nullifying Shot
-64% Nullifying Burst
 
 
 Claus: Tailwind Shot
@@ -851,219 +303,296 @@ Marmelee: Nullifying Burst
 Priorities:  2 | 2
 Clash!
 
-Claus:
-100% Tailwind Strike
-
-Marmelee:
-100% Nullifying Shot
-
-
-Claus: Tailwind Strike
-Marmelee: Nullifying Shot
-
-Priorities:  3 | 3
-Clash!
-
-Claus:
-100% Tailwind Dash
-
-Marmelee:
-100% Nullifying Meditation
-
 
 Claus: Tailwind Dash
-Marmelee: Nullifying Meditation
+Marmelee: Nullifying Dash
 
-Priorities:  9 | 4
-Claus is active
-Claus moves Marmelee:
+Priorities:  9 | 10
+Marmelee is active
+Marmelee moves:
+
+.M...C.
+
+Claus moves:
+
+.M.C...
+
+Marmelee moves:
 
 M..C...
 
-Marmelee takes 2 damage (now at 4 life)
-Marmelee is stunned
 Claus moves:
 
 MC.....
 
 Marmelee gains 1 Concentration Counter
-Marmelee gains 1 Concentration Counter
 
-Beat 13
+Beat 6
 -------
 
 Claus
 -----
-life: 8
-discard 1: Tailwind Dash
-discard 2: Downdraft Drive
-special action
+Life: 11
+Discard 1: Tailwind Dash
+Discard 2: Cyclone Tempest
+Special action available
 
 Marmelee
 --------
-life: 4
-discard 1: Nullifying Meditation
-discard 2: Sorceress Strike
+Life: 8
+Discard 1: Nullifying Dash
+Discard 2: Sorceress Grasp
+Special action available
 2 Concentration counters
 
 
 MC.....
 
-Unbeatable strategy for Marmelee: Petrifying Dash: -1.01
-Unbeatable strategy for Marmelee: Magnificent Dash: -1.47
-Unbeatable strategy for Marmelee: Barrier Dash: -1.45
 
 Claus:
-11% Blast Strike
-23% Cyclone Strike
-62% Cyclone Burst
-3% Cyclone Grasp
+1% Hurricane Strike
+74% Hurricane Drive
+26% Hurricane Grasp
 
 Marmelee:
-3% Petrifying Drive
-2% Magnificent Drive
-3% Barrier Drive
-93% Barrier Dash
+43% Magnificent Meditation
+8% Barrier Drive
+48% Special Pulse
 
 
-Claus: Blast Strike
-Marmelee: Barrier Dash
-
-Priorities:  0 | 9
-Marmelee is active
-Marmelee moves:
-
-.C.M...
-
-Claus misses
-Marmelee gains 1 Concentration Counter
-
-Beat 14
--------
-
-Claus
------
-life: 8
-discard 1: Blast Strike
-discard 2: Tailwind Dash
-special action
-
-Marmelee
---------
-life: 4
-discard 1: Barrier Dash
-discard 2: Nullifying Meditation
-3 Concentration counters
-
-
-.C.M...
-
-Claus:
-50% Cyclone Tempest
-11% Downdraft Tempest
-39% Downdraft Burst
-
-Marmelee:
-57% Petrifying Shot
-9% Petrifying Drive
-33% Petrifying Burst
-
-
-Claus: Downdraft Tempest
-Marmelee: Petrifying Burst
-
-Priorities:  3 | 0
-Claus is active
-Claus moves Marmelee:
-
-..C..M.
-
-Marmelee takes 2 damage (now at 2 life)
-Marmelee is stunned
-Claus moves:
-
-..C..M.
-
-Marmelee moves:
-
-..C...M
-
-Claus misses
-Marmelee gains 1 Concentration Counter
-
-Beat 15
--------
-
-Claus
------
-life: 8
-discard 1: Downdraft Tempest
-discard 2: Blast Strike
-special action
-
-Marmelee
---------
-life: 2
-discard 1: Petrifying Burst
-discard 2: Barrier Dash
-1 Concentration counters
-
-
-..C...M
-
-Unbeatable strategy for Claus: Hurricane Dash: 7.00
-Unbeatable strategy for Claus: Tailwind Dash: 7.00
-Unbeatable strategy for Claus: Cyclone Dash: 7.00
-
-Claus:
-7% Hurricane Shot
-7% Hurricane Drive
-7% Hurricane Burst
-7% Hurricane Grasp
-7% Hurricane Dash
-7% Tailwind Shot
-7% Tailwind Drive
-7% Tailwind Burst
-7% Tailwind Grasp
-7% Tailwind Dash
-7% Cyclone Shot
-7% Cyclone Drive
-7% Cyclone Burst
-7% Cyclone Grasp
-7% Cyclone Dash
-
-Marmelee:
-6% Magnificent Meditation
-6% Magnificent Strike
-8% Magnificent Shot
-7% Magnificent Drive
-6% Magnificent Grasp
-6% Sorceress Meditation
-6% Sorceress Strike
-8% Sorceress Shot
-6% Sorceress Drive
-6% Sorceress Grasp
-7% Nullifying Meditation
-7% Nullifying Strike
-7% Nullifying Shot
-7% Nullifying Drive
-7% Nullifying Grasp
-
-
-Claus: Tailwind Grasp
-Marmelee: Nullifying Shot
+Claus: Hurricane Grasp
+Marmelee: Magnificent Meditation
 
 Priorities:  5 | 3
 Claus is active
+Marmelee discards 2 Concentration Counters
+Marmelee gains Soak 2
+Claus hits
+Claus moves Marmelee:
+
+.CM....
+
+Marmelee has 2 soak
+Marmelee takes 3 damage (now at 5 life)
+Marmelee is stunned
+Claus will have -4 priority next beat
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
+
+Beat 7
+-------
+
+Claus
+-----
+Life: 11
+Discard 1: Hurricane Grasp
+Discard 2: Tailwind Dash
+Special action available
+Priority bonus: -4
+
+Marmelee
+--------
+Life: 5
+Discard 1: Magnificent Meditation
+Discard 2: Nullifying Dash
+Special action available
+2 Concentration counters
+
+
+.CM....
+
+Unbeatable strategy for Claus: Downdraft Tempest: 0.86
+
+
+Claus:
+13% Blast Tempest
+15% Blast Strike
+16% Cyclone Tempest
+56% Downdraft Tempest
+
+Marmelee:
+4% Petrifying Shot
+8% Petrifying Burst
+15% Sorceress Strike
+72% Special Astral Trance
+
+
+Claus: Downdraft Tempest
+Marmelee: Special Astral Trance
+
+Priorities:  -1 | 0
+Marmelee is active
+Claus moves Marmelee:
+
+.C...M.
+
+Marmelee has 5 soak
+Marmelee takes 0 damage (now at 5 life)
+Marmelee gains 3 Concentration Counters
+Claus misses
+
+Beat 8
+-------
+
+Claus
+-----
+Life: 11
+Discard 1: Downdraft Tempest
+Discard 2: Hurricane Grasp
+Special action available
+
+Marmelee
+--------
+Life: 5
+Discard 1: Magnificent Meditation
+Discard 2: Nullifying Dash
+5 Concentration counters
+
+
+.C...M.
+
+
+Claus:
+19% Tailwind Strike
+19% Tailwind Drive
+13% Tailwind Burst
+34% Blast Drive
+14% Blast Burst
+
+Marmelee:
+45% Petrifying Shot
+7% Petrifying Drive
+9% Sorceress Drive
+28% Barrier Shot
+11% Barrier Burst
+
+
+Claus: Tailwind Strike
+Marmelee: Petrifying Shot
+
+Priorities:  3 | 1
+Claus is active
 Claus moves:
 
-...C..M
+...C.M.
+
+Marmelee discards 3 Concentration Counters
+Marmelee becomes the active player
+Marmelee hits
+Marmelee discards 2 Concentration Counters
+Claus is stunned
+Claus takes 4 damage (now at 7 life)
+Marmelee gains 1 Concentration Counter
+
+Beat 9
+-------
+
+Claus
+-----
+Life: 7
+Discard 1: Tailwind Strike
+Discard 2: Downdraft Tempest
+Special action available
+
+Marmelee
+--------
+Life: 5
+Discard 1: Petrifying Shot
+Discard 2: Magnificent Meditation
+1 Concentration counters
+
+
+...C.M.
+
+
+Claus:
+5% Hurricane Drive
+3% Hurricane Dash
+82% Cyclone Drive
+11% Special Autumn's Advance
+
+Marmelee:
+13% Sorceress Strike
+34% Sorceress Dash
+20% Barrier Grasp
+33% Barrier Dash
+
+
+Claus: Cyclone Drive
+Marmelee: Sorceress Dash
+
+Priorities:  5 | 8
+Marmelee is active
+Marmelee moves:
+
+.M.C...
+
+Claus moves Marmelee:
+
+M.C....
+
+Marmelee takes 1 damage (now at 4 life)
+Marmelee is stunned
+Claus moves:
+
+M.C....
 
 Claus misses
-Marmelee hits
-Claus takes 3 damage (now at 5 life)
-Claus is stunned
 Marmelee gains 1 Concentration Counter
-Game goes to time
+
+Beat 10
+-------
+
+Claus
+-----
+Life: 7
+Discard 1: Cyclone Drive
+Discard 2: Tailwind Strike
+Special action available
+
+Marmelee
+--------
+Life: 4
+Discard 1: Sorceress Dash
+Discard 2: Petrifying Shot
+1 Concentration counters
+
+
+M.C....
+
+
+Claus:
+100% Special Autumn's Advance
+
+Marmelee:
+5% Magnificent Meditation
+8% Magnificent Strike
+7% Magnificent Drive
+5% Magnificent Burst
+8% Magnificent Grasp
+5% Barrier Meditation
+7% Barrier Strike
+6% Barrier Drive
+7% Barrier Burst
+9% Barrier Grasp
+8% Nullifying Meditation
+9% Nullifying Strike
+7% Nullifying Drive
+7% Nullifying Burst
+5% Nullifying Grasp
+
+
+Claus: Special Autumn's Advance
+Marmelee: Barrier Drive
+
+Priorities:  6 | 4
+Claus is active
+Claus moves:
+
+MC.....
+
+Claus hits
+Claus gets +3 power
+Marmelee takes 6 damage (now at 0 life)
 CLAUS WINS!
-total_time: 15
+total_time: 9

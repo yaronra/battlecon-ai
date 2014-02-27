@@ -11,21 +11,22 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Grasp
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Hurricane Grasp
+Discard 2: Cyclone Shot
+Special action available
 
 Eligor
 ------
-life: 20
-discard 1: Martial Grasp
-discard 2: Vengeful Aegis
-special action
+Life: 20
+Discard 1: Martial Grasp
+Discard 2: Vengeful Aegis
+Special action available
 2 Vengeance tokens
 
 
 .C...E.
+
 
 Claus:
 10% Tailwind Strike
@@ -69,51 +70,59 @@ Beat 2
 
 Claus
 -----
-life: 20
-discard 1: Downdraft Tempest
-discard 2: Hurricane Grasp
-special action
+Life: 20
+Discard 1: Downdraft Tempest
+Discard 2: Hurricane Grasp
+Special action available
 
 Eligor
 ------
-life: 20
-discard 1: Counter Burst
-discard 2: Martial Grasp
-special action
+Life: 20
+Discard 1: Counter Burst
+Discard 2: Martial Grasp
+Special action available
 0 Vengeance tokens
 
 
 ..C...E
 
-Unbeatable strategy for Claus: Blast Burst: 0.00
 
 Claus:
-18% Tailwind Shot
-20% Tailwind Burst
-7% Blast Burst
-55% Cyclone Burst
+10% Tailwind Strike
+17% Tailwind Shot
+3% Tailwind Burst
+70% Cyclone Burst
 
 Eligor:
-42% Vengeful Shot
-26% Vengeful Drive
-29% Retribution Strike
-3% Retribution Drive
+13% Vengeful Shot
+3% Vengeful Dash
+24% Chained Drive
+61% Retribution Strike
 
 
 Claus: Cyclone Burst
+Eligor: Retribution Strike
+
+Priorities:  2 | 2
+Clash!
+
+
+Claus: Cyclone Shot
 Eligor: Retribution Drive
 
-Priorities:  2 | 3
+Priorities:  3 | 3
+Clash!
+
+
+Claus: Cyclone Strike
+Eligor: Retribution Dash
+
+Priorities:  4 | 8
 Eligor is active
-Claus moves:
-
-C.....E
-
 Eligor moves:
 
-C...E..
+..C.E..
 
-Eligor misses
 Claus misses
 
 Beat 3
@@ -121,285 +130,331 @@ Beat 3
 
 Claus
 -----
-life: 20
-discard 1: Cyclone Burst
-discard 2: Downdraft Tempest
-special action
+Life: 20
+Discard 1: Cyclone Strike
+Discard 2: Downdraft Tempest
+Special action available
 
 Eligor
 ------
-life: 20
-discard 1: Retribution Drive
-discard 2: Counter Burst
-special action
+Life: 20
+Discard 1: Retribution Dash
+Discard 2: Counter Burst
+Special action available
 0 Vengeance tokens
 
 
-C...E..
+..C.E..
 
-Unbeatable strategy for Eligor: Vengeful Shot: -1.26
-Unbeatable strategy for Eligor: Vengeful Dash: -0.65
+Unbeatable strategy for Eligor: Vengeful Drive: -2.48
+
 
 Claus:
-83% Tailwind Shot
-17% Tailwind Dash
+61% Tailwind Drive
+17% Tailwind Burst
+23% Blast Shot
 
 Eligor:
-22% Vengeful Shot
-39% Martial Dash
-39% Chained Dash
+4% Vengeful Strike
+64% Vengeful Drive
+32% Vengeful Grasp
+
+
+Claus: Tailwind Drive
+Eligor: Vengeful Drive
+
+Priorities:  4 | 4
+Clash!
 
 
 Claus: Tailwind Shot
-Eligor: Martial Dash
+Eligor: Vengeful Shot
 
-Priorities:  2 | 8
+Priorities:  2 | 2
+Clash!
+
+
+Claus: Tailwind Burst
+Eligor: Vengeful Strike
+
+Priorities:  1 | 3
 Eligor is active
+Claus moves:
+
+...CE..
+
 Claus moves:
 
 .C..E..
 
 Eligor moves:
 
-EC.....
+.C.E...
 
-Claus misses
+Eligor misses
+Claus hits
+Eligor takes 4 damage (now at 16 life)
+Eligor gains 4 Vengeance tokens
 
 Beat 4
 -------
 
 Claus
 -----
-life: 20
-discard 1: Tailwind Shot
-discard 2: Cyclone Burst
-special action
+Life: 20
+Discard 1: Tailwind Burst
+Discard 2: Cyclone Strike
+Special action available
 
 Eligor
 ------
-life: 20
-discard 1: Martial Dash
-discard 2: Retribution Drive
-special action
-0 Vengeance tokens
+Life: 16
+Discard 1: Vengeful Strike
+Discard 2: Retribution Dash
+Special action available
+4 Vengeance tokens
 
 
-EC.....
+.C.E...
+
+Unbeatable strategy for Eligor: Martial Drive (3 tokens): -1.46
+Unbeatable strategy for Eligor: Martial Drive (4 tokens): -1.26
+
 
 Claus:
-1% Hurricane Tempest
-8% Hurricane Drive
-6% Hurricane Grasp
-0% Blast Strike
-0% Downdraft Grasp
-84% Downdraft Dash
+2% Hurricane Shot
+2% Hurricane Drive
+1% Blast Tempest
+59% Downdraft Tempest
+9% Downdraft Shot
+8% Downdraft Drive
+18% Downdraft Dash
 
 Eligor:
-23% Vengeful Strike
-11% Vengeful Shot
-8% Vengeful Burst
-18% Vengeful Grasp
-13% Counter Burst
-26% Counter Grasp
+30% Counter Shot (2 tokens)
+26% Counter Burst (2 tokens)
+1% Martial Aegis (2 tokens)
+20% Martial Drive (2 tokens)
+5% Martial Drive (3 tokens)
+4% Chained Burst (1 token)
+15% Chained Burst (2 tokens)
 
 
-Claus: Hurricane Drive
-Eligor: Counter Grasp
+Claus: Downdraft Tempest
+Eligor: Counter Burst (2 tokens)
 
-Priorities:  4 | 4
-Clash!
-
-Claus:
-46% Hurricane Grasp
-54% Hurricane Dash
-
-Eligor:
-100% Counter Strike
-0% Counter Shot
-
-
-Claus: Hurricane Dash
-Eligor: Counter Strike
-
-Priorities:  9 | 2
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  3 | 0
 Claus is active
+Claus moves Eligor:
+
+..C.E..
+
+Eligor takes 1 damage (now at 15 life)
+Eligor gains 1 Vengeance token
 Claus moves:
 
-E.C....
+..C.E..
 
-Eligor misses
+Eligor moves:
+
+..C..E.
+
+Claus hits
+Eligor takes 1 damage (now at 14 life)
+Eligor gains 1 Vengeance token
+Eligor moves:
+
+..C.E..
+
+Eligor hits
+Claus takes 4 damage (now at 16 life)
+Claus is stunned
 
 Beat 5
 -------
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Dash
-discard 2: Tailwind Shot
-special action
--4 priority from last beat
+Life: 16
+Discard 1: Downdraft Tempest
+Discard 2: Tailwind Burst
+Special action available
 
 Eligor
 ------
-life: 20
-discard 1: Counter Strike
-discard 2: Martial Dash
-special action
-0 Vengeance tokens
+Life: 14
+Discard 1: Counter Burst
+Discard 2: Vengeful Strike
+Special action available
+4 Vengeance tokens
 
 
-E.C....
+..C.E..
+
+Unbeatable strategy for Eligor: Martial Aegis (2 tokens): -0.22
+Unbeatable strategy for Eligor: Martial Aegis (3 tokens): -0.02
+Unbeatable strategy for Eligor: Retribution Shot (1 token): -0.21
+Unbeatable strategy for Eligor: Retribution Shot (2 tokens): -0.21
+Unbeatable strategy for Eligor: Retribution Shot (3 tokens): -0.21
+Unbeatable strategy for Eligor: Retribution Shot (4 tokens): -0.21
+
 
 Claus:
-3% Cyclone Drive
-6% Cyclone Burst
-91% Downdraft Burst
+6% Hurricane Drive
+22% Blast Strike
+45% Blast Shot
+18% Blast Drive
+9% Cyclone Dash
 
 Eligor:
-10% Retribution Shot
-47% Retribution Drive
-42% Retribution Burst
+11% Martial Aegis (3 tokens)
+16% Martial Drive (3 tokens)
+4% Retribution Aegis (2 tokens)
+33% Retribution Shot (1 token)
+35% Retribution Drive (2 tokens)
 
 
-Claus: Downdraft Burst
-Eligor: Retribution Drive
+Claus: Blast Strike
+Eligor: Martial Aegis (3 tokens)
 
-Priorities:  -4 | 3
-Eligor is active
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  0 | -1
+Claus is active
 Claus moves:
 
-E...C..
+...CE..
 
-Eligor moves:
-
-..E.C..
-
-Eligor misses
 Claus hits
-Eligor has 2 soak
-Eligor gains 2 Vengeance tokens
-Eligor takes 1 damage (now at 19 life)
-Eligor is stunned
+Eligor has 3 soak
+Eligor takes 1 damage (now at 13 life)
 Eligor gains 1 Vengeance token
+Eligor gets +2 power
+Eligor hits
+Claus takes 7 damage (now at 9 life)
 
 Beat 6
 -------
 
 Claus
 -----
-life: 20
-discard 1: Downdraft Burst
-discard 2: Hurricane Dash
-special action
+Life: 9
+Discard 1: Blast Strike
+Discard 2: Downdraft Tempest
+Special action available
 
 Eligor
 ------
-life: 19
-discard 1: Retribution Drive
-discard 2: Counter Strike
-special action
-3 Vengeance tokens
+Life: 13
+Discard 1: Martial Aegis
+Discard 2: Counter Burst
+Special action available
+2 Vengeance tokens
 
 
-..E.C..
+...CE..
 
-Unbeatable strategy for Eligor: Martial Shot (2 tokens): -0.14
+Unbeatable strategy for Eligor: Vengeful Shot (1 token): -1.28
+Unbeatable strategy for Eligor: Vengeful Shot (2 tokens): -1.28
+Unbeatable strategy for Eligor: Vengeful Drive (1 token): -1.28
+Unbeatable strategy for Eligor: Vengeful Drive (2 tokens): -1.28
+Unbeatable strategy for Eligor: Vengeful Dash: -0.15
+Unbeatable strategy for Eligor: Retribution Shot (1 token): -0.72
+Unbeatable strategy for Eligor: Retribution Shot (2 tokens): -0.52
+
 
 Claus:
-18% Tailwind Drive
-28% Blast Tempest
-29% Blast Strike
-17% Cyclone Tempest
-8% Cyclone Shot
+0% Hurricane Grasp
+54% Tailwind Drive
+23% Tailwind Burst
+23% Cyclone Drive
 
 Eligor:
-27% Vengeful Aegis (3 tokens)
-5% Vengeful Shot
-16% Vengeful Burst (2 tokens)
-0% Martial Shot (1 token)
-51% Martial Shot (2 tokens)
+43% Vengeful Drive (1 token)
+8% Vengeful Grasp
+4% Retribution Shot
+45% Retribution Shot (1 token)
 
 
-Claus: Cyclone Tempest
-Eligor: Vengeful Aegis (3 tokens)
+Claus: Cyclone Drive
+Eligor: Retribution Shot (1 token)
 
 Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  5 | 0
+Priorities:  5 | 1
 Claus is active
-Claus hits
-Eligor has 3 soak
-Eligor takes 0 damage (now at 19 life)
-Eligor misses
+Claus moves Eligor:
+
+...C.E.
+
+Eligor has 2 soak
+Eligor gains 1 Vengeance token
+Eligor takes 0 damage (now at 13 life)
+Claus misses
+Eligor hits
+Claus takes 3 damage (now at 6 life)
+Claus is stunned
 
 Beat 7
 -------
 
 Claus
 -----
-life: 20
-discard 1: Cyclone Tempest
-discard 2: Downdraft Burst
-special action
+Life: 6
+Discard 1: Cyclone Drive
+Discard 2: Blast Strike
+Special action available
 
 Eligor
 ------
-life: 19
-discard 1: Vengeful Aegis
-discard 2: Retribution Drive
-special action
-0 Vengeance tokens
+Life: 13
+Discard 1: Retribution Shot
+Discard 2: Martial Aegis
+Special action available
+2 Vengeance tokens
 
 
-..E.C..
+...C.E.
+
+Unbeatable strategy for Eligor: Vengeful Drive: -1.23
+Unbeatable strategy for Eligor: Vengeful Drive (1 token): -1.03
+Unbeatable strategy for Eligor: Vengeful Drive (2 tokens): -0.83
+
 
 Claus:
-1% Hurricane Drive
-41% Tailwind Shot
-58% Tailwind Drive
+6% Tailwind Tempest
+10% Tailwind Grasp
+84% Downdraft Dash
 
 Eligor:
-44% Counter Strike
-26% Counter Shot
-30% Counter Grasp
+49% Vengeful Drive
+28% Vengeful Grasp
+23% Chained Dash (1 token)
 
 
-Claus: Tailwind Drive
-Eligor: Counter Strike
+Claus: Downdraft Dash
+Eligor: Chained Dash (1 token)
 
-Priorities:  4 | 2
-Claus is active
-Claus moves Eligor:
+Eligor antes a Vengeance token
+Priorities:  8 | 8
+Clash!
 
-.E.C...
 
-Eligor takes 1 damage (now at 18 life)
-Eligor gains 1 Vengeance token
-Claus moves:
+Claus: Downdraft Shot
+Eligor: Chained Strike (1 token)
 
-.E.C...
+Eligor antes a Vengeance token
+Priorities:  1 | 2
+Eligor is active
+Eligor spends a Vengeance token
+Eligor moves Claus:
 
-Claus moves Eligor:
-
-E.C....
-
-Eligor takes 1 damage (now at 17 life)
-Eligor gains 1 Vengeance token
-Claus moves:
-
-E.C....
-
-Claus hits
-Eligor takes 4 damage (now at 13 life)
-Eligor gains 3 Vengeance tokens
-Eligor moves:
-
-..CE...
+....CE.
 
 Eligor hits
-Claus takes 5 damage (now at 15 life)
+Claus takes 4 damage (now at 2 life)
 Claus is stunned
 
 Beat 8
@@ -407,63 +462,54 @@ Beat 8
 
 Claus
 -----
-life: 15
-discard 1: Tailwind Drive
-discard 2: Cyclone Tempest
-special action
+Life: 2
+Discard 1: Downdraft Shot
+Discard 2: Cyclone Drive
+Special action available
 
 Eligor
 ------
-life: 13
-discard 1: Counter Strike
-discard 2: Vengeful Aegis
-special action
-5 Vengeance tokens
+Life: 13
+Discard 1: Chained Strike
+Discard 2: Retribution Shot
+Special action available
+0 Vengeance tokens
 
 
-..CE...
+....CE.
 
-Unbeatable strategy for Eligor: Martial Drive (3 tokens): -3.69
-Unbeatable strategy for Eligor: Martial Drive (4 tokens): -3.49
-Unbeatable strategy for Eligor: Martial Drive (5 tokens): -3.29
-Unbeatable strategy for Eligor: Retribution Burst (2 tokens): -0.28
-Unbeatable strategy for Eligor: Retribution Burst (3 tokens): -0.08
-Unbeatable strategy for Eligor: Retribution Dash: -0.47
-Unbeatable strategy for Eligor: Retribution Dash (1 token): -0.32
-Unbeatable strategy for Eligor: Retribution Dash (2 tokens): -0.27
-Unbeatable strategy for Eligor: Retribution Dash (3 tokens): -0.07
 
 Claus:
-30% Hurricane Strike
-45% Downdraft Burst
-6% Downdraft Grasp
-20% Downdraft Dash
+33% Hurricane Grasp
+30% Tailwind Tempest
+37% Tailwind Burst
 
 Eligor:
-4% Martial Drive (2 tokens)
-90% Martial Drive (3 tokens)
-0% Martial Burst
-6% Martial Burst (2 tokens)
+34% Vengeful Drive
+35% Vengeful Grasp
+31% Counter Burst
 
 
-Claus: Downdraft Burst
-Eligor: Martial Drive (3 tokens)
+Claus: Tailwind Burst
+Eligor: Counter Burst
 
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  0 | 3
-Eligor is active
+Priorities:  1 | 0
+Claus is active
 Claus moves:
 
-C..E...
+...C.E.
 
-Eligor moves:
+Claus moves Eligor:
 
-C.E....
+....C.E
 
-Eligor hits
-Claus takes 4 damage (now at 11 life)
+Eligor takes 1 damage (now at 12 life)
+Eligor is stunned
+Eligor gains 1 Vengeance token
+Claus moves:
+
+....C.E
+
 Claus is stunned
 
 Beat 9
@@ -471,374 +517,96 @@ Beat 9
 
 Claus
 -----
-life: 11
-discard 1: Downdraft Burst
-discard 2: Tailwind Drive
-special action
+Life: 2
+Discard 1: Tailwind Burst
+Discard 2: Downdraft Shot
+Special action available
 
 Eligor
 ------
-life: 13
-discard 1: Martial Drive
-discard 2: Counter Strike
-special action
-2 Vengeance tokens
+Life: 12
+Discard 1: Counter Burst
+Discard 2: Chained Strike
+Special action available
+1 Vengeance tokens
 
-
-C.E....
-
-Unbeatable strategy for Eligor: Vengeful Shot: -0.73
-Unbeatable strategy for Eligor: Vengeful Shot (1 token): -0.73
-Unbeatable strategy for Eligor: Vengeful Shot (2 tokens): -0.73
-Unbeatable strategy for Eligor: Vengeful Burst (2 tokens): -0.17
-Unbeatable strategy for Eligor: Retribution Shot (1 token): -1.09
-Unbeatable strategy for Eligor: Retribution Shot (2 tokens): -1.09
-
-Claus:
-2% Hurricane Shot
-1% Blast Tempest
-35% Cyclone Strike
-62% Cyclone Shot
-
-Eligor:
-26% Vengeful Shot
-42% Retribution Aegis (2 tokens)
-17% Retribution Shot
-15% Retribution Shot (1 token)
-
-
-Claus: Cyclone Strike
-Eligor: Vengeful Shot
-
-Priorities:  4 | 2
-Claus is active
-Claus misses
-Eligor hits
-Eligor gains 2 Vengeance tokens
-Claus takes 4 damage (now at 7 life)
-
-Beat 10
--------
-
-Claus
------
-life: 7
-discard 1: Cyclone Strike
-discard 2: Downdraft Burst
-special action
-
-Eligor
-------
-life: 13
-discard 1: Vengeful Shot
-discard 2: Martial Drive
-special action
-4 Vengeance tokens
-
-
-C.E....
-
-Claus:
-2% Hurricane Shot
-34% Tailwind Drive
-40% Tailwind Dash
-1% Blast Tempest
-24% Blast Dash
-
-Eligor:
-2% Counter Aegis (2 tokens)
-33% Chained Aegis (2 tokens)
-24% Chained Burst (2 tokens)
-40% Retribution Aegis (1 token)
-0% Retribution Aegis (2 tokens)
-
-
-Claus: Tailwind Dash
-Eligor: Retribution Aegis (1 token)
-
-Eligor antes a Vengeance token
-Priorities:  9 | -1
-Claus is active
-Claus moves Eligor:
-
-.C.E...
-
-Eligor has 3 soak
-Eligor gains 1 Vengeance token
-Eligor takes 0 damage (now at 13 life)
-Claus moves:
-
-.C.E...
-
-Claus moves Eligor:
-
-..C..E.
-
-Eligor has 3 soak
-Eligor gains 1 Vengeance token
-Eligor takes 0 damage (now at 13 life)
-Claus moves:
-
-..C..E.
-
-Eligor misses
-
-Beat 11
--------
-
-Claus
------
-life: 7
-discard 1: Tailwind Dash
-discard 2: Cyclone Strike
-special action
-
-Eligor
-------
-life: 13
-discard 1: Retribution Aegis
-discard 2: Vengeful Shot
-special action
-5 Vengeance tokens
-
-
-..C..E.
-
-Unbeatable strategy for Eligor: Martial Drive (3 tokens): -0.22
-Unbeatable strategy for Eligor: Martial Drive (4 tokens): -0.02
-Unbeatable strategy for Eligor: Chained Drive (3 tokens): -0.09
-Unbeatable strategy for Eligor: Chained Drive (4 tokens): -0.02
-
-Claus:
-15% Hurricane Tempest
-5% Hurricane Shot
-68% Downdraft Tempest
-11% Downdraft Drive
-0% Downdraft Burst
-
-Eligor:
-9% Martial Drive (2 tokens)
-20% Chained Strike (1 token)
-40% Chained Strike (2 tokens)
-30% Chained Burst (2 tokens)
-0% Chained Burst (3 tokens)
-
-
-Claus: Downdraft Tempest
-Eligor: Chained Strike (2 tokens)
-
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  3 | 2
-Claus is active
-Claus moves Eligor:
 
 ....C.E
 
-Eligor takes 1 damage (now at 12 life)
-Eligor gains 1 Vengeance token
-Claus moves:
+Unbeatable strategy for Eligor: Vengeful Shot (1 token): -7.00
+Unbeatable strategy for Eligor: Vengeful Drive (1 token): -0.43
 
-....C.E
-
-Claus hits
-Eligor takes 1 damage (now at 11 life)
-Eligor gains 1 Vengeance token
-Eligor spends a Vengeance token
-Eligor moves Claus:
-
-.....CE
-
-Eligor hits
-Claus takes 4 damage (now at 3 life)
-Claus is stunned
-
-Beat 12
--------
-
-Claus
------
-life: 3
-discard 1: Downdraft Tempest
-discard 2: Tailwind Dash
-special action
-
-Eligor
-------
-life: 11
-discard 1: Chained Strike
-discard 2: Retribution Aegis
-special action
-4 Vengeance tokens
-
-
-.....CE
-
-Unbeatable strategy for Eligor: Vengeful Shot (1 token): -8.00
-Unbeatable strategy for Eligor: Vengeful Shot (2 tokens): -8.00
-Unbeatable strategy for Eligor: Vengeful Shot (3 tokens): -8.00
-Unbeatable strategy for Eligor: Vengeful Shot (4 tokens): -8.00
-Unbeatable strategy for Eligor: Vengeful Drive (1 token): -8.00
-Unbeatable strategy for Eligor: Vengeful Drive (2 tokens): -8.00
-Unbeatable strategy for Eligor: Vengeful Drive (3 tokens): -8.00
-Unbeatable strategy for Eligor: Vengeful Drive (4 tokens): -8.00
-Unbeatable strategy for Eligor: Vengeful Dash: -0.02
-Unbeatable strategy for Eligor: Counter Shot (3 tokens): -8.00
-Unbeatable strategy for Eligor: Counter Shot (4 tokens): -8.00
-Unbeatable strategy for Eligor: Counter Drive (3 tokens): -8.00
-Unbeatable strategy for Eligor: Counter Drive (4 tokens): -8.00
-Unbeatable strategy for Eligor: Martial Shot (3 tokens): -8.00
-Unbeatable strategy for Eligor: Martial Shot (4 tokens): -8.00
-Unbeatable strategy for Eligor: Martial Drive (3 tokens): -8.00
-Unbeatable strategy for Eligor: Martial Drive (4 tokens): -8.00
 
 Claus:
-5% Hurricane Shot
-0% Cyclone Strike
-1% Cyclone Drive
-92% Special Pulse
-1% Special Autumn's Advance
+2% Hurricane Drive
+3% Cyclone Dash
+95% Special Pulse
 
 Eligor:
-11% Vengeful Shot
 54% Vengeful Shot (1 token)
-23% Vengeful Drive
-9% Counter Drive
-3% Martial Shot (2 tokens)
+40% Retribution Shot
+6% Retribution Shot (1 token)
 
 
 Claus: Special Pulse
-Eligor: Vengeful Drive
+Eligor: Retribution Shot
 
 Pulse:
 
-EC.....
+CE.....
 
 
-Beat 12
+Beat 9
 -------
 
 Claus
 -----
-life: 3
-discard 1: Downdraft Tempest
-discard 2: Tailwind Dash
+Life: 2
+Discard 1: Tailwind Burst
+Discard 2: Downdraft Shot
 
 Eligor
 ------
-life: 11
-discard 1: Vengeful Drive
-discard 2: Chained Strike
-special action
-4 Vengeance tokens
+Life: 12
+Discard 1: Retribution Shot
+Discard 2: Counter Burst
+Special action available
+1 Vengeance tokens
 
 
-EC.....
+CE.....
 
-Unbeatable strategy for Eligor: Counter Aegis (4 tokens): -0.16
-Unbeatable strategy for Eligor: Counter Shot (3 tokens): -8.00
-Unbeatable strategy for Eligor: Counter Shot (4 tokens): -8.00
-Unbeatable strategy for Eligor: Martial Aegis (4 tokens): -0.27
-Unbeatable strategy for Eligor: Martial Shot (3 tokens): -8.00
-Unbeatable strategy for Eligor: Martial Shot (4 tokens): -8.00
-Unbeatable strategy for Eligor: Retribution Aegis (2 tokens): -1.11
-Unbeatable strategy for Eligor: Retribution Aegis (3 tokens): -0.91
-Unbeatable strategy for Eligor: Retribution Aegis (4 tokens): -0.71
-Unbeatable strategy for Eligor: Retribution Shot (1 token): -0.13
-Unbeatable strategy for Eligor: Retribution Shot (2 tokens): -8.00
-Unbeatable strategy for Eligor: Retribution Shot (3 tokens): -8.00
-Unbeatable strategy for Eligor: Retribution Shot (4 tokens): -8.00
-Unbeatable strategy for Eligor: Retribution Dash: -0.31
-Unbeatable strategy for Eligor: Retribution Dash (1 token): -0.11
+Unbeatable strategy for Eligor: Vengeful Strike: -7.00
+Unbeatable strategy for Eligor: Vengeful Strike (1 token): -7.00
+Unbeatable strategy for Eligor: Vengeful Drive (1 token): -7.00
+Unbeatable strategy for Eligor: Vengeful Grasp: -7.00
+Unbeatable strategy for Eligor: Vengeful Grasp (1 token): -7.00
+Unbeatable strategy for Eligor: Chained Strike (1 token): -7.00
+
 
 Claus:
-1% Hurricane Burst
-49% Blast Drive
-50% Blast Burst
+42% Hurricane Strike
+30% Hurricane Drive
+25% Hurricane Grasp
+3% Blast Grasp
 
 Eligor:
-41% Retribution Aegis (1 token)
-10% Retribution Aegis (2 tokens)
-49% Retribution Shot (2 tokens)
+42% Vengeful Strike (1 token)
+30% Vengeful Drive (1 token)
+25% Vengeful Grasp (1 token)
+3% Chained Strike (1 token)
 
 
-Claus: Blast Burst
-Eligor: Retribution Aegis (1 token)
-
-Eligor antes a Vengeance token
-Priorities:  -2 | -1
-Eligor is active
-Claus moves:
-
-E..C...
-
-Eligor misses
-Claus hits
-Eligor has 3 soak
-Eligor gains 2 Vengeance tokens
-Eligor takes 0 damage (now at 11 life)
-
-Beat 13
--------
-
-Claus
------
-life: 3
-discard 1: Blast Burst
-discard 2: Downdraft Tempest
-
-Eligor
-------
-life: 11
-discard 1: Retribution Aegis
-discard 2: Vengeful Drive
-special action
-5 Vengeance tokens
-
-
-E..C...
-
-Unbeatable strategy for Eligor: Chained Shot (2 tokens): -8.00
-Unbeatable strategy for Eligor: Chained Shot (3 tokens): -8.00
-
-Claus:
-4% Hurricane Strike
-7% Hurricane Shot
-8% Hurricane Drive
-2% Hurricane Grasp
-10% Hurricane Dash
-6% Tailwind Strike
-5% Tailwind Shot
-2% Tailwind Drive
-5% Tailwind Grasp
-7% Tailwind Dash
-3% Cyclone Strike
-3% Cyclone Shot
-1% Cyclone Drive
-7% Cyclone Grasp
-30% Cyclone Dash
-
-Eligor:
-50% Chained Shot (2 tokens)
-50% Chained Shot (3 tokens)
-
-
-Claus: Hurricane Drive
-Eligor: Chained Shot (3 tokens)
+Claus: Hurricane Grasp
+Eligor: Vengeful Drive (1 token)
 
 Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  4 | 1
+Priorities:  5 | 4
 Claus is active
-Claus moves:
-
-EC.....
-
 Claus hits
-Eligor takes 6 damage (now at 5 life)
-Eligor gains 3 Vengeance tokens
+Eligor takes 5 damage (now at 7 life)
+Eligor gains 5 Vengeance tokens
 Eligor hits
-Claus takes 3 damage (now at 0 life)
+Claus takes 4 damage (now at 0 life)
 ELIGOR WINS!
-total_time: 32
+total_time: 19

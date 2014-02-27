@@ -20,17 +20,17 @@ Special action available
 Lesandra
 --------
 Life: 20
-Discard 1: Pactbreaker Summons
-Discard 2: Guardian Grasp
+Discard 1: Guardian Summons
+Discard 2: Pactbreaker Grasp
 Special action available
 Familiar: Borneo
 
 
 .E...L.
 
-Unbeatable strategy for Lesandra: Binding Strike (Borneo): -0.32
-Unbeatable strategy for Lesandra: Binding Burst: -0.59
-Unbeatable strategy for Lesandra: Binding Burst (Borneo): -0.24
+Unbeatable strategy for Lesandra: Binding Strike (Borneo): -0.62
+Unbeatable strategy for Lesandra: Binding Burst: -0.89
+Unbeatable strategy for Lesandra: Binding Burst (Borneo): -0.54
 
 
 Eligor:
@@ -49,24 +49,22 @@ Lesandra:
 19% Binding Shot (Borneo)
 1% Binding Drive (Borneo)
 11% Binding Burst
-45% Binding Burst (Borneo)
+44% Binding Burst (Borneo)
 
 
-Eligor: Chained Burst
-Lesandra: Binding Strike (Borneo)
+Eligor: Retribution Shot
+Lesandra: Binding Shot (Borneo)
 
-Priorities:  0 | 1
-Lesandra is active
-Eligor moves:
-
-E....L.
-
-Eligor loses 1 life (now at 19)
-Eligor gets -1 power
-Lesandra misses
-Eligor misses
+Priorities:  1 | 0
+Eligor is active
+Eligor hits
+Lesandra takes 3 damage (now at 17 life)
+Lesandra hits
+Eligor has 2 soak
+Eligor gains 2 Vengeance tokens
+Eligor takes 1 damage (now at 19 life)
+Eligor gains 1 Vengeance token
 Lesandra summons her Wyvern
-Lesandra loses 1 life (now at 19)
 
 Beat 2
 -------
@@ -74,107 +72,119 @@ Beat 2
 Eligor
 ------
 Life: 19
-Discard 1: Chained Burst
+Discard 1: Retribution Shot
 Discard 2: Martial Grasp
 Special action available
-2 Vengeance tokens
+5 Vengeance tokens
 
 Lesandra
 --------
-Life: 19
-Discard 1: Binding Strike
-Discard 2: Pactbreaker Summons
+Life: 17
+Discard 1: Binding Shot
+Discard 2: Guardian Summons
 Special action available
 Familiar: Wyvern
 
 
-E....L.
+.E...L.
 
-Unbeatable strategy for Lesandra: Invocation Burst: -0.86
-Unbeatable strategy for Lesandra: Invocation Burst (Wyvern): -2.41
-Unbeatable strategy for Lesandra: Guardian Burst: -0.89
-Unbeatable strategy for Lesandra: Guardian Grasp: -0.29
-Unbeatable strategy for Lesandra: Guardian Dash: -0.10
+Unbeatable strategy for Eligor: Chained Dash: 2.24
+Unbeatable strategy for Eligor: Chained Dash (1 token): 2.04
+Unbeatable strategy for Eligor: Chained Dash (2 tokens): 1.84
+Unbeatable strategy for Eligor: Chained Dash (3 tokens): 1.38
 
 
 Eligor:
-4% Vengeful Shot
-22% Vengeful Dash
-65% Counter Aegis (2 tokens)
-9% Retribution Aegis (1 token)
+0% Vengeful Drive (3 tokens)
+13% Vengeful Drive (4 tokens)
+20% Chained Aegis (2 tokens)
+8% Chained Strike
+9% Chained Drive (3 tokens)
+50% Chained Dash
 
 Lesandra:
-43% Invocation Burst
-1% Invocation Burst (Wyvern)
-8% Guardian Shot
-48% Guardian Drive
+22% Invocation Burst
+10% Invocation Burst (Wyvern)
+25% Invocation Grasp
+29% Pactbreaker Strike (Wyvern)
+1% Window Strike
+14% Window Strike (Wyvern)
 
 
-Eligor: Vengeful Dash
-Lesandra: Invocation Burst
+Eligor: Chained Strike
+Lesandra: Pactbreaker Strike (Wyvern)
 
-Priorities:  9 | -1
-Eligor is active
+Priorities:  2 | 4
+Lesandra is active
 Lesandra moves:
 
-E.....L
+.E.L...
 
-Eligor moves:
+Lesandra hits
+Eligor takes 5 damage (now at 14 life)
+Eligor spends a Vengeance token
+Eligor spends a Vengeance token
+Eligor moves Lesandra:
 
-.E....L
+LE.....
 
-Eligor moves:
-
-....E.L
-
-Lesandra misses
+Eligor hits
+Lesandra takes 4 damage (now at 13 life)
+Lesandra summons her Raven Knight
 
 Beat 3
 -------
 
 Eligor
 ------
-Life: 19
-Discard 1: Vengeful Dash
-Discard 2: Chained Burst
+Life: 14
+Discard 1: Chained Strike
+Discard 2: Retribution Shot
 Special action available
-2 Vengeance tokens
+3 Vengeance tokens
 
 Lesandra
 --------
-Life: 19
-Discard 1: Invocation Burst
-Discard 2: Binding Strike
+Life: 13
+Discard 1: Pactbreaker Strike
+Discard 2: Binding Shot
 Special action available
-Familiar: Wyvern
+Familiar: Raven Knight
 
 
-....E.L
+LE.....
 
-Unbeatable strategy for Eligor: Retribution Aegis (1 token): 0.60
-Unbeatable strategy for Eligor: Retribution Aegis (2 tokens): 0.40
+Unbeatable strategy for Lesandra: Invocation Dash: -0.42
+Unbeatable strategy for Lesandra: Guardian Dash: -1.09
+Unbeatable strategy for Lesandra: Window Dash: -0.26
 
 
 Eligor:
-15% Martial Shot (1 token)
-35% Retribution Drive
-51% Retribution Drive (1 token)
+19% Vengeful Aegis (1 token)
+5% Vengeful Drive
+22% Vengeful Grasp
+29% Counter Drive
+22% Counter Dash
+3% Counter Dash (2 tokens)
 
 Lesandra:
-6% Guardian Drive
-8% Guardian Grasp (Wyvern)
-87% Window Dash
+68% Invocation Dash
+0% Guardian Summons (Raven Knight)
+8% Guardian Drive
+4% Guardian Drive (Raven Knight)
+3% Guardian Grasp
+17% Guardian Dash
 
 
-Eligor: Retribution Drive (1 token)
-Lesandra: Window Dash
+Eligor: Counter Drive
+Lesandra: Invocation Dash
 
-Eligor antes a Vengeance token
-Priorities:  3 | 10
+Priorities:  3 | 7
 Lesandra is active
+Eligor loses 1 life (now at 13)
 Lesandra moves:
 
-..L.E..
+.EL....
 
 Eligor moves:
 
@@ -187,673 +197,289 @@ Beat 4
 
 Eligor
 ------
-Life: 19
-Discard 1: Retribution Drive
-Discard 2: Vengeful Dash
+Life: 13
+Discard 1: Counter Drive
+Discard 2: Chained Strike
 Special action available
-1 Vengeance tokens
+3 Vengeance tokens
 
 Lesandra
 --------
-Life: 19
-Discard 1: Window Dash
-Discard 2: Invocation Burst
+Life: 13
+Discard 1: Invocation Dash
+Discard 2: Pactbreaker Strike
 Special action available
-Familiar: Wyvern
+Familiar: Raven Knight
 
 
 ..LE...
 
-Unbeatable strategy for Lesandra: Guardian Strike (Wyvern): -1.92
-
 
 Eligor:
-64% Counter Strike (1 token)
-7% Counter Burst (1 token)
-17% Counter Grasp
-12% Martial Shot (1 token)
+15% Martial Aegis (3 tokens)
+7% Martial Shot (1 token)
+14% Retribution Aegis (2 tokens)
+9% Retribution Shot
+54% Retribution Shot (1 token)
 
 Lesandra:
-30% Binding Drive (Wyvern)
-19% Binding Grasp (Wyvern)
-45% Guardian Strike
-6% Guardian Strike (Wyvern)
+37% Binding Summons
+16% Binding Grasp
+3% Guardian Summons
+39% Guardian Drive
+5% Guardian Burst
 
 
-Eligor: Counter Strike (1 token)
-Lesandra: Binding Drive (Wyvern)
-
-Eligor antes a Vengeance token
-Priorities:  2 | 2
-Clash!
-
-
-Eligor: Counter Shot (1 token)
-Lesandra: Binding Strike (Wyvern)
+Eligor: Retribution Aegis (2 tokens)
+Lesandra: Binding Summons
 
 Eligor antes a Vengeance token
-Priorities:  1 | 1
-Clash!
-
-
-Eligor: Counter Grasp (1 token)
-Lesandra: Binding Shot (Wyvern)
-
 Eligor antes a Vengeance token
-Priorities:  4 | 0
-Eligor is active
-Eligor hits
-Eligor moves Lesandra:
+Priorities:  -1 | 0
+Lesandra is active
+Lesandra moves Eligor:
 
-.L.E...
-
-Eligor loses 1 life (now at 18)
-Eligor gets -1 power
-Lesandra takes 2 damage (now at 17 life)
-Lesandra moves:
-
-L..E...
+.EL....
 
 Lesandra hits
-Eligor takes 3 damage (now at 15 life)
-Eligor is stunned
-Eligor gains 3 Vengeance tokens
-Lesandra summons her Salamander
+Eligor has 4 soak
+Eligor gains 2 Vengeance tokens
+Eligor takes 0 damage (now at 13 life)
+Eligor loses 1 life (now at 12)
+Eligor hits
+Lesandra takes 2 damage (now at 11 life)
 
 Beat 5
 -------
 
 Eligor
 ------
-Life: 15
-Discard 1: Counter Grasp
-Discard 2: Retribution Drive
+Life: 12
+Discard 1: Retribution Aegis
+Discard 2: Counter Drive
 Special action available
 3 Vengeance tokens
 
 Lesandra
 --------
-Life: 17
-Discard 1: Binding Shot
-Discard 2: Window Dash
+Life: 11
+Discard 1: Binding Summons
+Discard 2: Invocation Dash
 Special action available
-Familiar: Salamander
+Familiar: Raven Knight
 
-
-L..E...
-
-
-Eligor:
-8% Martial Aegis (3 tokens)
-6% Martial Shot (2 tokens)
-2% Chained Strike
-84% Chained Dash
-
-Lesandra:
-68% Invocation Drive
-6% Invocation Drive (Salamander)
-18% Invocation Grasp
-8% Guardian Strike
-
-
-Eligor: Chained Dash
-Lesandra: Invocation Drive
-
-Priorities:  8 | 2
-Eligor is active
-Eligor spends a Vengeance token
-Eligor spends a Vengeance token
-Eligor moves Lesandra:
-
-..LE...
-
-Eligor moves:
 
 .EL....
 
-Lesandra moves:
 
-LE.....
+Eligor:
+25% Vengeful Shot
+19% Martial Strike (1 token)
+4% Martial Shot (1 token)
+38% Martial Shot (2 tokens)
+14% Martial Burst (2 tokens)
 
-Lesandra misses
+Lesandra:
+11% Guardian Strike
+31% Guardian Shot
+28% Guardian Burst
+5% Guardian Burst (Raven Knight)
+26% Guardian Grasp
+
+
+Eligor: Vengeful Shot
+Lesandra: Guardian Grasp
+
+Priorities:  2 | 4
+Lesandra is active
+Lesandra hits
+Eligor takes 3 damage (now at 9 life)
+Eligor gains 2 Vengeance tokens
+Eligor loses 1 life (now at 8)
+Eligor moves:
+
+..LE...
+
+Eligor hits
+Lesandra takes 4 damage (now at 7 life)
+Lesandra is stunned
 
 Beat 6
 -------
 
 Eligor
 ------
-Life: 15
-Discard 1: Chained Dash
-Discard 2: Counter Grasp
-Special action available
-1 Vengeance tokens
-
-Lesandra
---------
-Life: 17
-Discard 1: Invocation Drive
-Discard 2: Binding Shot
-Special action available
-Familiar: Salamander
-
-
-LE.....
-
-
-Eligor:
-22% Vengeful Strike
-4% Vengeful Shot
-19% Vengeful Drive
-44% Vengeful Burst (1 token)
-11% Martial Strike
-
-Lesandra:
-0% Pactbreaker Burst (Salamander)
-3% Pactbreaker Grasp (Salamander)
-3% Guardian Grasp (Salamander)
-9% Window Strike
-85% Window Dash
-
-
-Eligor: Vengeful Drive
-Lesandra: Window Dash
-
-Priorities:  4 | 10
-Lesandra is active
-Lesandra moves:
-
-.EL....
-
-Eligor moves:
-
-..LE...
-
-Eligor moves:
-
-.EL....
-
-Eligor misses
-
-Beat 7
--------
-
-Eligor
-------
-Life: 15
-Discard 1: Vengeful Drive
-Discard 2: Chained Dash
-Special action available
-1 Vengeance tokens
-
-Lesandra
---------
-Life: 17
-Discard 1: Window Dash
-Discard 2: Invocation Drive
-Special action available
-Familiar: Salamander
-
-
-.EL....
-
-Unbeatable strategy for Lesandra: Guardian Strike: -2.02
-Unbeatable strategy for Lesandra: Guardian Strike (Salamander): -3.02
-Unbeatable strategy for Lesandra: Guardian Grasp (Salamander): -4.23
-
-
-Eligor:
-36% Counter Strike (1 token)
-3% Counter Shot
-5% Counter Burst (1 token)
-1% Counter Grasp
-8% Martial Shot
-2% Martial Grasp
-45% Special Pulse
-
-Lesandra:
-0% Pactbreaker Shot (Salamander)
-23% Pactbreaker Burst (Salamander)
-1% Pactbreaker Grasp (Salamander)
-52% Guardian Strike
-1% Guardian Strike (Salamander)
-23% Guardian Burst
-1% Guardian Grasp (Salamander)
-
-
-Eligor: Counter Strike (1 token)
-Lesandra: Guardian Strike
-
-Eligor antes a Vengeance token
-Priorities:  2 | 2
-Clash!
-
-
-Eligor: Counter Grasp (1 token)
-Lesandra: Guardian Shot
-
-Eligor antes a Vengeance token
-Priorities:  4 | 1
-Eligor is active
-Eligor hits
-Eligor moves Lesandra:
-
-LE.....
-
-Lesandra takes 3 damage (now at 14 life)
-Lesandra hits
-Eligor takes 5 damage (now at 10 life)
-Eligor is stunned
-Eligor gains 5 Vengeance tokens
-Lesandra summons her Raven Knight
-
-Beat 8
--------
-
-Eligor
-------
-Life: 10
-Discard 1: Counter Grasp
-Discard 2: Vengeful Drive
+Life: 8
+Discard 1: Vengeful Shot
+Discard 2: Retribution Aegis
 Special action available
 5 Vengeance tokens
 
 Lesandra
 --------
-Life: 14
-Discard 1: Guardian Shot
-Discard 2: Window Dash
-Special action available
-Familiar: Raven Knight
-
-
-LE.....
-
-
-Eligor:
-30% Martial Aegis (2 tokens)
-25% Martial Strike
-45% Martial Shot (2 tokens)
-
-Lesandra:
-55% Invocation Drive
-29% Invocation Burst
-16% Binding Drive
-
-
-Eligor: Martial Aegis (2 tokens)
-Lesandra: Invocation Burst
-
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  -1 | -1
-Clash!
-
-
-Eligor: Martial Shot (2 tokens)
-Lesandra: Invocation Strike
-
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  1 | 1
-Clash!
-
-
-Eligor: Martial Burst (2 tokens)
-Lesandra: Invocation Summons
-
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  0 | 0
-Clash!
-
-
-Eligor: Martial Strike (2 tokens)
-Lesandra: Invocation Grasp
-
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  2 | 3
-Lesandra is active
-Lesandra misses
-Eligor loses 1 life (now at 9)
-Eligor hits
-Lesandra takes 5 damage (now at 9 life)
-Lesandra is stunned
-Lesandra gets -5 power
-
-Beat 9
--------
-
-Eligor
-------
-Life: 9
-Discard 1: Martial Strike
-Discard 2: Counter Grasp
-Special action available
-3 Vengeance tokens
-
-Lesandra
---------
-Life: 9
-Discard 1: Invocation Grasp
-Discard 2: Guardian Shot
-Special action available
-Familiar: Raven Knight
-
-
-LE.....
-
-
-Eligor:
-7% Vengeful Shot
-93% Retribution Drive
-
-Lesandra:
-7% Window Summons
-93% Window Dash
-
-
-Eligor: Retribution Drive
-Lesandra: Window Dash
-
-Priorities:  3 | 10
-Lesandra is active
-Eligor loses 1 life (now at 8)
-Lesandra moves:
-
-.EL....
-
-Eligor moves:
-
-..LE...
-
-Eligor misses
-
-Beat 10
--------
-
-Eligor
-------
-Life: 8
-Discard 1: Retribution Drive
-Discard 2: Martial Strike
-Special action available
-3 Vengeance tokens
-
-Lesandra
---------
-Life: 9
-Discard 1: Window Dash
-Discard 2: Invocation Grasp
-Special action available
-Familiar: Raven Knight
-
-
-..LE...
-
-
-Eligor:
-17% Vengeful Shot
-19% Counter Aegis (2 tokens)
-28% Counter Shot (1 token)
-15% Counter Shot (2 tokens)
-22% Chained Aegis (2 tokens)
-
-Lesandra:
-19% Binding Strike
-7% Binding Drive
-40% Binding Burst
-27% Binding Burst (Raven Knight)
-6% Guardian Strike
-
-
-Eligor: Counter Shot (1 token)
-Lesandra: Binding Burst
-
-Eligor antes a Vengeance token
-Priorities:  1 | -1
-Eligor is active
-Lesandra moves:
-
-L..E...
-
-Eligor hits
-Lesandra takes 4 damage (now at 5 life)
-Lesandra is stunned
-
-Beat 11
--------
-
-Eligor
-------
-Life: 8
-Discard 1: Counter Shot
-Discard 2: Retribution Drive
-Special action available
-2 Vengeance tokens
-
-Lesandra
---------
-Life: 5
-Discard 1: Binding Burst
-Discard 2: Window Dash
-Special action available
-Familiar: Raven Knight
-
-
-L..E...
-
-
-Eligor:
-1% Vengeful Aegis (2 tokens)
-2% Chained Aegis
-26% Chained Aegis (2 tokens)
-23% Chained Strike
-17% Chained Burst
-28% Chained Grasp
-3% Chained Dash
-
-Lesandra:
-3% Invocation Strike (Raven Knight)
-28% Invocation Drive
-25% Invocation Grasp
-32% Guardian Strike
-7% Guardian Shot
-3% Guardian Shot (Raven Knight)
-1% Special Invoke Duststalker (Raven Knight)
-
-
-Eligor: Chained Strike
-Lesandra: Guardian Strike
-
-Priorities:  2 | 2
-Clash!
-
-
-Eligor: Chained Dash
-Lesandra: Guardian Shot
-
-Priorities:  8 | 1
-Eligor is active
-Eligor moves:
-
-L.....E
-
-Lesandra misses
-Eligor loses 1 life (now at 7)
-
-Beat 12
--------
-
-Eligor
-------
 Life: 7
-Discard 1: Chained Dash
-Discard 2: Counter Shot
-Special action available
-2 Vengeance tokens
-
-Lesandra
---------
-Life: 5
-Discard 1: Guardian Shot
-Discard 2: Binding Burst
+Discard 1: Guardian Grasp
+Discard 2: Binding Summons
 Special action available
 Familiar: Raven Knight
 
 
-L.....E
-
-Unbeatable strategy for Lesandra: Invocation Strike: -0.73
-Unbeatable strategy for Lesandra: Invocation Drive: -1.28
-Unbeatable strategy for Lesandra: Invocation Grasp: -0.88
-Unbeatable strategy for Lesandra: Invocation Dash: -0.19
-Unbeatable strategy for Lesandra: Pactbreaker Strike: -1.02
-Unbeatable strategy for Lesandra: Pactbreaker Drive: -0.53
-Unbeatable strategy for Lesandra: Pactbreaker Grasp: -1.02
-Unbeatable strategy for Lesandra: Window Strike: -1.43
-Unbeatable strategy for Lesandra: Window Drive: -0.73
-Unbeatable strategy for Lesandra: Window Grasp: -1.38
-Unbeatable strategy for Lesandra: Window Dash: -0.13
+..LE...
 
 
 Eligor:
-27% Martial Strike
-17% Martial Drive
-5% Retribution Strike
-51% Special Sheet Lightning
+1% Martial Drive (2 tokens)
+19% Chained Strike
+10% Chained Drive
+2% Chained Burst
+7% Chained Dash
+60% Special Pulse
 
 Lesandra:
-8% Invocation Summons
-12% Invocation Drive (Raven Knight)
-1% Pactbreaker Summons (Raven Knight)
-80% Window Strike
+1% Invocation Drive
+72% Invocation Dash
+3% Window Strike
+0% Window Burst
+3% Special Invoke Duststalker
+20% Special Invoke Duststalker (Raven Knight)
 
 
-Eligor: Special Sheet Lightning
-Lesandra: Window Strike
+Eligor: Special Pulse
+Lesandra: Invocation Dash
 
-Priorities:  6 | 4
-Eligor is active
-Eligor hits
-Eligor moves:
-
-LE.....
-
-Opponent will be immobilized next beat
-Lesandra takes 4 damage (now at 1 life)
-Lesandra hits
-Lesandra banishes her Raven Knight
-Eligor takes 4 damage (now at 3 life)
-Eligor is stunned
-Eligor gains 3 Vengeance tokens
-Lesandra summons her Rune Knight
-
-Beat 13
--------
-
-Eligor
-------
-Life: 3
-Discard 1: Chained Dash
-Discard 2: Counter Shot
-Opponent is immobilized
-5 Vengeance tokens
-
-Lesandra
---------
-Life: 1
-Discard 1: Window Strike
-Discard 2: Guardian Shot
-Special action available
-Familiar: Rune Knight
-
-
-LE.....
-
-
-Eligor:
-41% Vengeful Aegis (2 tokens)
-5% Vengeful Grasp
-3% Martial Aegis (1 token)
-15% Martial Grasp
-36% Retribution Strike
-
-Lesandra:
-1% Pactbreaker Drive (Rune Knight)
-0% Pactbreaker Grasp (Rune Knight)
-1% Binding Drive (Rune Knight)
-87% Special Pulse
-2% Special Invoke Duststalker
-3% Special Invoke Duststalker (Rune Knight)
-6% Special Mazzaroth (Rune Knight)
-
-
-Eligor: Vengeful Aegis (2 tokens)
-Lesandra: Special Pulse
-
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
 Pulse:
 
-.E....L
+.LE....
 
 
-Beat 13
+Beat 6
 -------
 
 Eligor
 ------
-Life: 3
-Discard 1: Vengeful Aegis
-Discard 2: Chained Dash
-3 Vengeance tokens
+Life: 8
+Discard 1: Vengeful Shot
+Discard 2: Retribution Aegis
+5 Vengeance tokens
 
 Lesandra
 --------
-Life: 1
-Discard 1: Window Strike
-Discard 2: Guardian Shot
-Familiar: Rune Knight
+Life: 7
+Discard 1: Invocation Dash
+Discard 2: Guardian Grasp
+Special action available
+Familiar: Raven Knight
 
 
-.E....L
+.LE....
 
 
 Eligor:
-41% Counter Burst
-9% Martial Strike
-10% Martial Strike (1 token)
-10% Martial Strike (2 tokens)
-11% Martial Strike (3 tokens)
-5% Martial Shot
-5% Martial Shot (1 token)
-5% Martial Shot (2 tokens)
-5% Martial Shot (3 tokens)
+1% Counter Strike
+1% Counter Strike (1 token)
+1% Counter Strike (2 tokens)
+1% Counter Strike (3 tokens)
+1% Counter Strike (4 tokens)
+1% Counter Strike (5 tokens)
+1% Counter Drive
+1% Counter Drive (1 token)
+1% Counter Drive (2 tokens)
+1% Counter Drive (3 tokens)
+1% Counter Drive (4 tokens)
+1% Counter Drive (5 tokens)
+1% Counter Burst
+1% Counter Burst (1 token)
+1% Counter Burst (2 tokens)
+1% Counter Burst (3 tokens)
+1% Counter Burst (4 tokens)
+1% Counter Burst (5 tokens)
+1% Counter Grasp
+1% Counter Grasp (1 token)
+1% Counter Grasp (2 tokens)
+1% Counter Grasp (3 tokens)
+1% Counter Grasp (4 tokens)
+1% Counter Grasp (5 tokens)
+2% Counter Dash
+1% Counter Dash (1 token)
+1% Counter Dash (2 tokens)
+1% Counter Dash (3 tokens)
+1% Counter Dash (4 tokens)
+1% Counter Dash (5 tokens)
+0% Martial Strike
+1% Martial Strike (1 token)
+1% Martial Strike (2 tokens)
+1% Martial Strike (3 tokens)
+1% Martial Strike (4 tokens)
+1% Martial Strike (5 tokens)
+1% Martial Drive
+1% Martial Drive (1 token)
+1% Martial Drive (2 tokens)
+1% Martial Drive (3 tokens)
+1% Martial Drive (4 tokens)
+1% Martial Drive (5 tokens)
+1% Martial Burst
+1% Martial Burst (1 token)
+1% Martial Burst (2 tokens)
+1% Martial Burst (3 tokens)
+1% Martial Burst (4 tokens)
+1% Martial Burst (5 tokens)
+1% Martial Grasp
+1% Martial Grasp (1 token)
+1% Martial Grasp (2 tokens)
+1% Martial Grasp (3 tokens)
+1% Martial Grasp (4 tokens)
+1% Martial Grasp (5 tokens)
+1% Martial Dash
+1% Martial Dash (1 token)
+1% Martial Dash (2 tokens)
+1% Martial Dash (3 tokens)
+1% Martial Dash (4 tokens)
+1% Martial Dash (5 tokens)
+1% Chained Strike
+1% Chained Strike (1 token)
+1% Chained Strike (2 tokens)
+1% Chained Strike (3 tokens)
+1% Chained Strike (4 tokens)
+1% Chained Strike (5 tokens)
+1% Chained Drive
+1% Chained Drive (1 token)
+1% Chained Drive (2 tokens)
+1% Chained Drive (3 tokens)
+1% Chained Drive (4 tokens)
+1% Chained Drive (5 tokens)
+1% Chained Burst
+1% Chained Burst (1 token)
+1% Chained Burst (2 tokens)
+1% Chained Burst (3 tokens)
+1% Chained Burst (4 tokens)
+1% Chained Burst (5 tokens)
+1% Chained Grasp
+1% Chained Grasp (1 token)
+1% Chained Grasp (2 tokens)
+1% Chained Grasp (3 tokens)
+1% Chained Grasp (4 tokens)
+1% Chained Grasp (5 tokens)
+2% Chained Dash
+1% Chained Dash (1 token)
+1% Chained Dash (2 tokens)
+1% Chained Dash (3 tokens)
+1% Chained Dash (4 tokens)
+1% Chained Dash (5 tokens)
 
 Lesandra:
-23% Invocation Drive
-18% Invocation Drive (Rune Knight)
-18% Pactbreaker Summons (Rune Knight)
-41% Binding Burst
+100% Special Invoke Duststalker (Raven Knight)
 
 
-Eligor: Counter Burst
-Lesandra: Pactbreaker Summons (Rune Knight)
+Eligor: Chained Grasp (2 tokens)
+Lesandra: Special Invoke Duststalker (Raven Knight)
 
-Priorities:  0 | 3
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  4 | 9
 Lesandra is active
-Lesandra moves Eligor:
-
-.....EL
-
-Eligor moves:
-
-...E..L
-
-Lesandra misses
-Eligor hits
-Lesandra has 2 soak
-Lesandra takes 2 damage (now at 0 life)
-ELIGOR WINS!
-total_time: 94
+Lesandra loses 6 life (now at 1)
+Lesandra gets +6 power
+Lesandra hits
+Eligor takes 9 damage (now at 0 life)
+LESANDRA WINS!
+total_time: 116

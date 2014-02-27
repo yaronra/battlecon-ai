@@ -12,8 +12,8 @@ Beat 1
 Lesandra
 --------
 Life: 20
-Discard 1: Pactbreaker Summons
-Discard 2: Guardian Grasp
+Discard 1: Guardian Summons
+Discard 2: Pactbreaker Grasp
 Special action available
 Familiar: Borneo
 
@@ -31,22 +31,26 @@ Special action available
 ......m
 
 Given Loki by Tanis
-Unbeatable strategy for Lesandra: Binding Dash: 0.59
+Unbeatable strategy for Lesandra: Binding Dash: 0.89
 Given Loki by Tanis
-Unbeatable strategy for Lesandra: Binding Dash (Borneo): 0.24
+Unbeatable strategy for Lesandra: Binding Dash (Borneo): 0.54
+Given Loki by Tanis
+Unbeatable strategy for Lesandra: Window Drive: 0.08
+Given Loki by Tanis
+Unbeatable strategy for Lesandra: Window Dash: 0.23
 
 Given Mephisto by Tanis
-Unbeatable strategy for Lesandra: Invocation Burst: 0.30
+Unbeatable strategy for Lesandra: Invocation Burst: 0.60
 Given Mephisto by Tanis
-Unbeatable strategy for Lesandra: Invocation Burst (Borneo): 0.23
+Unbeatable strategy for Lesandra: Invocation Burst (Borneo): 0.53
 Given Mephisto by Tanis
-Unbeatable strategy for Lesandra: Binding Burst: 1.28
+Unbeatable strategy for Lesandra: Binding Burst: 1.58
 Given Mephisto by Tanis
-Unbeatable strategy for Lesandra: Binding Burst (Borneo): 1.61
+Unbeatable strategy for Lesandra: Binding Burst (Borneo): 1.91
 Given Mephisto by Tanis
-Unbeatable strategy for Lesandra: Binding Dash: 0.55
+Unbeatable strategy for Lesandra: Binding Dash: 0.85
 Given Mephisto by Tanis
-Unbeatable strategy for Lesandra: Binding Dash (Borneo): 0.20
+Unbeatable strategy for Lesandra: Binding Dash (Borneo): 0.50
 
 Tanis possesses Eris
 
@@ -65,379 +69,398 @@ Tanis:
 6% Storyteller Burst
 
 
-Lesandra: Binding Burst
-Tanis: Valiant Shot
+Lesandra: Window Drive
+Tanis: Storyteller Shot
 
-Priorities:  -1 | 1
-Tanis is active
+Priorities:  5 | 3
+Lesandra is active
 Lesandra moves:
 
-L....T.
+..L..T.
 ....l..
 ......m
 
-Tanis hits
-Lesandra takes 3 damage (now at 17 life)
-Lesandra is stunned
+Lesandra hits
+Lesandra banishes her Borneo
+Lesandra moves Tanis:
+
+..LT...
+....l..
+......m
+
+Tanis takes 3 damage (now at 17 life)
+Tanis is stunned
+Lesandra summons her Wyvern
 
 Beat 2
 -------
 
 Lesandra
 --------
-Life: 17
-Discard 1: Binding Burst
-Discard 2: Pactbreaker Summons
+Life: 20
+Discard 1: Window Drive
+Discard 2: Guardian Summons
 Special action available
-Familiar: Borneo
+Familiar: Wyvern
 
 Tanis
 -----
-Life: 20
-Discard 1: Valiant Shot
+Life: 17
+Discard 1: Storyteller Shot
 Discard 2: Climactic Grasp
 Special action available
 Possessed puppet: Eris
 
 
-L......
-.....e.
+..L....
+...e...
 ....l..
 ......m
 
 Given Loki by Tanis
-Unbeatable strategy for Tanis: Distressed Dash: -0.77
+Unbeatable strategy for Lesandra: Binding Burst (Wyvern): 0.77
 
 Given Mephisto by Tanis
-Unbeatable strategy for Lesandra: Window Shot: 1.76
-Given Mephisto by Tanis
-Unbeatable strategy for Lesandra: Window Drive: 1.74
+Unbeatable strategy for Lesandra: Binding Burst: 0.60
 
 Tanis possesses Loki
 
 Lesandra:
-54% Guardian Dash (Borneo)
-46% Window Drive
+45% Binding Strike
+0% Binding Shot
+42% Binding Burst
+13% Binding Burst (Wyvern)
 
 Tanis:
-12% Storyteller Scene Shift
-88% Distressed Dash
+6% Valiant Strike
+19% Valiant Dash
+11% Distressed Scene Shift
+64% Distressed Dash
 
 
-Lesandra: Guardian Dash (Borneo)
+Lesandra: Binding Burst
 Tanis: Distressed Dash
 
-Priorities:  8 | 8
-Clash!
-
-
-Lesandra: Guardian Drive (Borneo)
-Tanis: Distressed Scene Shift
-
-Priorities:  3 | 3
-Clash!
-
-
-Lesandra: Guardian Shot (Borneo)
-Tanis: Distressed Strike
-
-Priorities:  1 | 2
+Priorities:  -1 | 8
 Tanis is active
 Tanis moves Lesandra:
 
-.L..T..
-.....e.
+...LT..
+...e...
 ......m
 
-Tanis misses
-Lesandra hits
-Tanis takes 4 damage (now at 16 life)
+Tanis loses 1 life (now at 16)
+Tanis gets -1 power
+Lesandra moves:
+
+..L.T..
+...e...
+......m
+
+Tanis moves:
+
+..LT...
+...e...
+......m
+
+Tanis loses 1 life (now at 15)
+Tanis gets -1 power
+Lesandra misses
 Tanis moves Eris:
 
-.L..T..
-......e
+..LT...
+....e..
 ......m
 
-Lesandra summons her Raven Knight
 
 Beat 3
 -------
 
 Lesandra
 --------
-Life: 17
-Discard 1: Guardian Shot
-Discard 2: Binding Burst
+Life: 20
+Discard 1: Binding Burst
+Discard 2: Window Drive
 Special action available
-Familiar: Raven Knight
+Familiar: Wyvern
 
 Tanis
 -----
-Life: 16
-Discard 1: Distressed Strike
-Discard 2: Valiant Shot
+Life: 15
+Discard 1: Distressed Dash
+Discard 2: Storyteller Shot
 Special action available
 Possessed puppet: Loki
 
 
-.L.....
-......e
-....l..
+..L....
+....e..
+...l...
 ......m
 
-Tanis possesses Eris
+Given Eris by Tanis
+Unbeatable strategy for Lesandra: Invocation Dash: 0.17
+Given Eris by Tanis
+Unbeatable strategy for Lesandra: Pactbreaker Dash: 0.15
+Given Eris by Tanis
+Unbeatable strategy for Lesandra: Guardian Dash: 0.45
+
+Given Mephisto by Tanis
+Unbeatable strategy for Lesandra: Invocation Dash: 0.13
+Given Mephisto by Tanis
+Unbeatable strategy for Lesandra: Pactbreaker Dash: 0.10
+Given Mephisto by Tanis
+Unbeatable strategy for Lesandra: Guardian Dash: 0.40
+
+Tanis possesses Mephisto
 
 Lesandra:
-17% Invocation Drive (Raven Knight)
-3% Invocation Dash
-9% Pactbreaker Summons (Raven Knight)
-41% Window Strike
-30% Window Drive
+2% Invocation Strike
+7% Invocation Strike (Wyvern)
+10% Pactbreaker Strike (Wyvern)
+66% Guardian Strike (Wyvern)
+14% Guardian Shot
 
 Tanis:
-37% Storyteller Scene Shift
-5% Storyteller Drive
-5% Storyteller Burst
-19% Storyteller Grasp
-34% Storyteller Dash
+20% Valiant Strike
+1% Valiant Drive
+20% Playful Scene Shift
+21% Playful Drive
+38% Special Pulse
 
 
-Lesandra: Window Strike
-Tanis: Storyteller Scene Shift
+Lesandra: Guardian Strike (Wyvern)
+Tanis: Playful Scene Shift
 
-Priorities:  4 | 5
+Priorities:  2 | 4
 Tanis is active
 Tanis moves:
 
-.L.T...
-....l..
-......m
-
-Tanis moves:
-
-TL.....
-....l..
-......m
+.TL....
+....e..
+...l...
 
 Tanis hits
 Tanis moves her puppets:
 
-TL.....
+.TL....
+.e.....
 ..l....
-......m
 
-Lesandra takes 3 damage (now at 14 life)
+Lesandra takes 2 damage (now at 18 life)
+Lesandra moves:
+
+LT.....
+.e.....
+..l....
+
 Lesandra hits
-Lesandra banishes her Raven Knight
-Lesandra moves Tanis:
-
-.LT....
-..l....
-......m
-
-Tanis takes 4 damage (now at 12 life)
+Tanis takes 5 damage (now at 10 life)
 Tanis is stunned
-Lesandra summons her Rune Knight
+Tanis moves:
+
+L.....T
+.e.....
+..l....
+
+Lesandra summons her Raven Knight
 
 Beat 4
 -------
 
 Lesandra
 --------
-Life: 14
-Discard 1: Window Strike
-Discard 2: Guardian Shot
+Life: 18
+Discard 1: Guardian Strike
+Discard 2: Binding Burst
 Special action available
-Familiar: Rune Knight
+Familiar: Raven Knight
 
 Tanis
 -----
-Life: 12
-Discard 1: Storyteller Scene Shift
-Discard 2: Distressed Strike
+Life: 10
+Discard 1: Playful Scene Shift
+Discard 2: Distressed Dash
 Special action available
-Possessed puppet: Eris
+Possessed puppet: Mephisto
 
 
-.L.....
-..e....
+L......
+.e.....
 ..l....
 ......m
 
-Given Loki by Tanis
-Unbeatable strategy for Lesandra: Binding Burst: 0.11
-Given Loki by Tanis
-Unbeatable strategy for Lesandra: Binding Dash: 0.25
+Given Eris by Tanis
+Unbeatable strategy for Lesandra: Invocation Dash: 0.32
+Given Eris by Tanis
+Unbeatable strategy for Lesandra: Pactbreaker Drive (Raven Knight): 0.29
+Given Eris by Tanis
+Unbeatable strategy for Lesandra: Pactbreaker Dash: 0.05
+Given Eris by Tanis
+Unbeatable strategy for Lesandra: Window Dash: 0.16
 
-Given Mephisto by Tanis
-Unbeatable strategy for Lesandra: Invocation Burst: 2.66
-Given Mephisto by Tanis
-Unbeatable strategy for Lesandra: Invocation Burst (Rune Knight): 2.46
-Given Mephisto by Tanis
-Unbeatable strategy for Lesandra: Binding Burst: 0.65
+Given Loki by Tanis
+Unbeatable strategy for Lesandra: Invocation Grasp (Raven Knight): 3.11
+Given Loki by Tanis
+Unbeatable strategy for Lesandra: Invocation Dash: 0.63
+Given Loki by Tanis
+Unbeatable strategy for Lesandra: Pactbreaker Dash: 0.28
+Given Loki by Tanis
+Unbeatable strategy for Lesandra: Window Dash: 0.31
 
-Tanis possesses Loki
+Tanis possesses Eris
 
 Lesandra:
-45% Binding Drive
-29% Binding Burst
-4% Binding Burst (Rune Knight)
-21% Binding Dash
+33% Pactbreaker Drive (Raven Knight)
+67% Window Dash
 
 Tanis:
-2% Valiant Grasp
-47% Valiant Dash
-46% Playful Shot
-5% Playful Drive
+30% Valiant Grasp
+70% Storyteller Strike
 
 
-Lesandra: Binding Burst
-Tanis: Valiant Dash
+Lesandra: Pactbreaker Drive (Raven Knight)
+Tanis: Valiant Grasp
 
-Priorities:  -1 | 8
-Tanis is active
-Lesandra moves:
-
-L.T....
-..e....
-......m
-
-Tanis moves:
-
-LT.....
-..e....
-......m
-
-Tanis loses 1 life (now at 11)
-Tanis gets -1 power
-Lesandra misses
+Priorities:  9 | 4
+Lesandra is active
+Lesandra hits
+Tanis takes 4 damage (now at 6 life)
+Tanis is stunned
+Lesandra summons her Rune Knight
 
 Beat 5
 -------
 
 Lesandra
 --------
-Life: 14
-Discard 1: Binding Burst
-Discard 2: Window Strike
+Life: 18
+Discard 1: Pactbreaker Drive
+Discard 2: Guardian Strike
 Special action available
 Familiar: Rune Knight
 
 Tanis
 -----
-Life: 11
-Discard 1: Valiant Dash
-Discard 2: Storyteller Scene Shift
+Life: 6
+Discard 1: Valiant Grasp
+Discard 2: Playful Scene Shift
 Special action available
-Possessed puppet: Loki
+Possessed puppet: Eris
 
 
 L......
-..e....
-.l.....
+.e.....
+..l....
 ......m
 
-Tanis possesses Eris
+Given Loki by Tanis
+Unbeatable strategy for Lesandra: Binding Dash: 0.49
+
+Given Mephisto by Tanis
+Unbeatable strategy for Lesandra: Invocation Burst: 5.63
+Given Mephisto by Tanis
+Unbeatable strategy for Lesandra: Invocation Burst (Rune Knight): 5.43
+Given Mephisto by Tanis
+Unbeatable strategy for Lesandra: Binding Burst: 0.43
+
+Tanis possesses Loki
 
 Lesandra:
-30% Invocation Shot
-4% Invocation Drive
-14% Pactbreaker Drive (Rune Knight)
-48% Guardian Shot (Rune Knight)
-5% Guardian Grasp
+19% Binding Burst (Rune Knight)
+14% Binding Grasp
+68% Binding Dash
 
 Tanis:
-42% Climactic Grasp
-14% Playful Drive
-1% Playful Burst
-6% Distressed Shot
-38% Distressed Drive
+84% Storyteller Shot
+14% Storyteller Drive
+2% Distressed Shot
 
 
-Lesandra: Guardian Grasp
-Tanis: Climactic Grasp
+Lesandra: Binding Dash
+Tanis: Storyteller Drive
 
-Priorities:  4 | 6
-Tanis is active
-Tanis moves:
+Priorities:  7 | 5
+Lesandra is active
+Lesandra moves:
 
-L.....T
-.l.....
+..TL...
+.e.....
 ......m
 
-Mephisto moves:
+Tanis moves:
 
-L.....T
-.l.....
-..m....
+...LT..
+.e.....
+......m
 
+Tanis loses 1 life (now at 5)
+Tanis gets -1 power
 Tanis misses
-Lesandra misses
 
 Beat 6
 -------
 
 Lesandra
 --------
-Life: 14
-Discard 1: Guardian Grasp
-Discard 2: Binding Burst
+Life: 18
+Discard 1: Binding Dash
+Discard 2: Pactbreaker Drive
 Special action available
 Familiar: Rune Knight
 
 Tanis
 -----
-Life: 11
-Discard 1: Climactic Grasp
-Discard 2: Valiant Dash
+Life: 5
+Discard 1: Storyteller Drive
+Discard 2: Valiant Grasp
 Special action available
-Possessed puppet: Eris
+Possessed puppet: Loki
 
 
-L......
-......e
-.l.....
-..m....
+...L...
+.e.....
+....l..
+......m
 
-Tanis possesses Loki
+Tanis possesses Eris
 
 Lesandra:
-3% Pactbreaker Shot (Rune Knight)
-28% Pactbreaker Drive (Rune Knight)
-1% Window Strike
-7% Window Drive
-61% Window Dash
+4% Invocation Summons
+29% Guardian Shot
+31% Window Summons
+37% Window Shot
 
 Tanis:
-20% Storyteller Scene Shift
-18% Storyteller Drive
-15% Storyteller Burst
-11% Distressed Scene Shift
-36% Distressed Strike
+13% Playful Scene Shift
+0% Playful Strike
+4% Distressed Shot
+83% Distressed Dash
 
 
-Lesandra: Pactbreaker Shot (Rune Knight)
-Tanis: Distressed Strike
+Lesandra: Window Summons
+Tanis: Distressed Dash
 
-Priorities:  3 | 2
-Lesandra is active
-Tanis moves Lesandra:
+Priorities:  3 | 8
+Tanis is active
+Lesandra moves Tanis:
 
-.TL....
-......e
-..m....
+...LT..
+....l..
+......m
 
-Lesandra hits
-Tanis takes 4 damage (now at 7 life)
-Tanis hits
-Lesandra has 2 soak
-Lesandra takes 2 damage (now at 12 life)
-Lesandra summons her Wyvern
-Tanis moves Eris:
+Tanis moves:
 
-.TL....
-..e....
-..m....
+.T.L...
+....l..
+......m
+
+Lesandra misses
+Tanis moves Loki:
+
+.T.L...
+..l....
+......m
 
 
 Beat 7
@@ -445,125 +468,134 @@ Beat 7
 
 Lesandra
 --------
-Life: 12
-Discard 1: Pactbreaker Shot
-Discard 2: Guardian Grasp
+Life: 18
+Discard 1: Window Summons
+Discard 2: Binding Dash
 Special action available
-Familiar: Wyvern
+Familiar: Rune Knight
 
 Tanis
 -----
-Life: 7
-Discard 1: Distressed Strike
-Discard 2: Climactic Grasp
+Life: 5
+Discard 1: Distressed Dash
+Discard 2: Storyteller Drive
 Special action available
-Possessed puppet: Loki
+Possessed puppet: Eris
 
 
-..L....
-..e....
-.l.....
-..m....
+...L...
+.e.....
+..l....
+......m
 
-Tanis possesses Loki
+Tanis possesses Mephisto
 
 Lesandra:
-54% Binding Strike (Wyvern)
-6% Binding Burst (Wyvern)
-40% Binding Dash
+5% Pactbreaker Drive (Rune Knight)
+38% Guardian Shot
+0% Guardian Shot (Rune Knight)
+57% Guardian Drive
 
 Tanis:
-56% Storyteller Scene Shift
-36% Storyteller Shot
-8% Special Curtain Call
+57% Climactic Scene Shift
+8% Climactic Shot
+29% Playful Scene Shift
+6% Playful Strike
 
 
-Lesandra: Binding Burst (Wyvern)
-Tanis: Storyteller Shot
+Lesandra: Guardian Drive
+Tanis: Climactic Scene Shift
 
-Priorities:  -1 | 3
+Priorities:  3 | 5
 Tanis is active
-Lesandra moves:
+Tanis moves:
 
-.T..L..
-..e....
-..m....
+..TL...
+.e.....
+..l....
 
 Tanis hits
-Lesandra takes 4 damage (now at 8 life)
-Lesandra is stunned
-Lesandra summons her Borneo
-Lesandra loses 1 life (now at 7)
+Tanis moves her puppets:
+
+..TL...
+.e.....
+.l.....
+
+Lesandra takes 2 damage (now at 16 life)
+Lesandra moves:
+
+L.T....
+.e.....
+.l.....
+
+Lesandra hits
+Tanis takes 4 damage (now at 1 life)
+Tanis is stunned
 
 Beat 8
 -------
 
 Lesandra
 --------
-Life: 7
-Discard 1: Binding Burst
-Discard 2: Pactbreaker Shot
+Life: 16
+Discard 1: Guardian Drive
+Discard 2: Window Summons
 Special action available
-Familiar: Borneo
+Familiar: Rune Knight
 
 Tanis
 -----
-Life: 7
-Discard 1: Storyteller Shot
-Discard 2: Distressed Strike
+Life: 1
+Discard 1: Climactic Scene Shift
+Discard 2: Distressed Dash
 Special action available
-Possessed puppet: Loki
+Possessed puppet: Mephisto
 
 
-....L..
-..e....
+L......
+.e.....
 .l.....
 ..m....
 
-Given Eris by Tanis
-Unbeatable strategy for Lesandra: Window Strike: 0.14
-Given Eris by Tanis
-Unbeatable strategy for Lesandra: Window Drive: 0.09
-Given Eris by Tanis
-Unbeatable strategy for Lesandra: Window Grasp: 0.09
+Given Loki by Tanis
+Unbeatable strategy for Lesandra: Invocation Dash: 0.18
 
-Given Mephisto by Tanis
-Unbeatable strategy for Lesandra: Window Strike: 0.28
-Given Mephisto by Tanis
-Unbeatable strategy for Lesandra: Window Grasp: 0.23
-
-Tanis possesses Mephisto
+Tanis possesses Loki
 
 Lesandra:
-2% Guardian Summons
-37% Guardian Drive (Borneo)
-8% Window Strike
-52% Window Grasp
+96% Invocation Dash
+3% Binding Shot (Rune Knight)
+0% Binding Burst (Rune Knight)
 
 Tanis:
-1% Climactic Drive
-1% Playful Drive
-5% Playful Grasp
-93% Playful Dash
+56% Storyteller Drive
+2% Playful Shot
+42% Playful Burst
 
 
-Lesandra: Window Grasp
-Tanis: Playful Dash
+Lesandra: Invocation Dash
+Tanis: Playful Burst
 
-Priorities:  6 | 9
-Tanis is active
+Priorities:  7 | 1
+Lesandra is active
 Tanis moves:
 
-....LT.
-..e....
-.l.....
+L.T....
+.e.....
+..m....
 
-Lesandra misses
+Lesandra moves:
+
+..TL...
+.e.....
+..m....
+
+Tanis misses
 Tanis moves:
 
-.T..L..
-..e....
-.l.....
+.T.L...
+.e.....
+..m....
 
 
 Beat 9
@@ -571,267 +603,454 @@ Beat 9
 
 Lesandra
 --------
-Life: 7
-Discard 1: Window Grasp
-Discard 2: Binding Burst
+Life: 16
+Discard 1: Invocation Dash
+Discard 2: Guardian Drive
 Special action available
-Familiar: Borneo
+Familiar: Rune Knight
 
 Tanis
 -----
-Life: 7
-Discard 1: Playful Dash
-Discard 2: Storyteller Shot
+Life: 1
+Discard 1: Playful Burst
+Discard 2: Climactic Scene Shift
 Special action available
-Possessed puppet: Mephisto
+Possessed puppet: Loki
 
 
-....L..
-..e....
+...L...
+.e.....
 .l.....
-.m.....
-
-Given Eris by Tanis
-Unbeatable strategy for Lesandra: Guardian Shot: 0.81
-
-Given Loki by Tanis
-Unbeatable strategy for Tanis: Distressed Strike: -0.22
-
-Tanis possesses Eris
-
-Lesandra:
-44% Pactbreaker Summons (Borneo)
-2% Pactbreaker Shot (Borneo)
-6% Guardian Summons
-29% Guardian Shot
-19% Special Invoke Duststalker
-
-Tanis:
-30% Climactic Scene Shift
-9% Climactic Drive
-19% Climactic Burst
-28% Distressed Burst
-14% Special Curtain Call
-
-
-Lesandra: Pactbreaker Summons (Borneo)
-Tanis: Climactic Scene Shift
-
-Priorities:  3 | 5
-Tanis is active
-Lesandra moves Tanis:
-
-...TL..
-.l.....
-.m.....
-
-Tanis moves:
-
-.T..L..
-.l.....
-.m.....
-
-Mephisto moves:
-
-.T..L..
-.l.....
-...m...
-
-Tanis moves:
-
-....LT.
-.l.....
-...m...
-
-Tanis hits
-Tanis moves her puppets:
-
-....LT.
-...l...
 ..m....
 
-Lesandra takes 2 damage (now at 5 life)
-Lesandra is stunned
-Lesandra summons her Wyvern
-Lesandra loses 1 life (now at 4)
+Given Eris by Tanis
+Unbeatable strategy for Lesandra: Binding Summons: 0.53
+Given Eris by Tanis
+Unbeatable strategy for Lesandra: Binding Shot: 0.53
+
+Tanis possesses Mephisto
+
+Lesandra:
+62% Binding Burst
+6% Window Strike
+31% Window Grasp
+
+Tanis:
+6% Storyteller Shot
+0% Storyteller Drive
+94% Distressed Dash
+
+
+Lesandra: Window Grasp
+Tanis: Distressed Dash
+
+Priorities:  6 | 8
+Tanis is active
+Tanis moves Lesandra:
+
+L.T....
+.e.....
+.l.....
+
+Tanis moves:
+
+L....T.
+.e.....
+.l.....
+
+Lesandra misses
+Tanis moves Eris:
+
+L....T.
+e......
+.l.....
+
 
 Beat 10
 -------
 
 Lesandra
 --------
-Life: 4
-Discard 1: Pactbreaker Summons
-Discard 2: Window Grasp
+Life: 16
+Discard 1: Window Grasp
+Discard 2: Invocation Dash
 Special action available
-Familiar: Wyvern
+Familiar: Rune Knight
 
 Tanis
 -----
-Life: 7
-Discard 1: Climactic Scene Shift
-Discard 2: Playful Dash
+Life: 1
+Discard 1: Distressed Dash
+Discard 2: Playful Burst
 Special action available
-Possessed puppet: Eris
+Possessed puppet: Mephisto
 
 
-....L..
-.....e.
-...l...
-..m....
-
-Given Loki by Tanis
-Unbeatable strategy for Lesandra: Binding Dash: 0.22
-
-Given Mephisto by Tanis
-Unbeatable strategy for Lesandra: Invocation Burst: 0.32
-Given Mephisto by Tanis
-Unbeatable strategy for Lesandra: Binding Burst: 1.72
+L......
+e......
+.l.....
+.....m.
 
 Tanis possesses Loki
 
 Lesandra:
-10% Invocation Burst
-4% Binding Burst
-65% Binding Dash
-8% Guardian Drive
-6% Guardian Drive (Wyvern)
-7% Special Invoke Duststalker (Wyvern)
+34% Binding Drive
+66% Binding Drive (Rune Knight)
 
 Tanis:
-6% Storyteller Strike
-20% Storyteller Shot
-2% Storyteller Drive
-24% Storyteller Grasp
-3% Distressed Strike
-45% Distressed Shot
+2% Storyteller Strike
+98% Storyteller Grasp
 
 
-Lesandra: Binding Dash
+Lesandra: Binding Drive (Rune Knight)
 Tanis: Storyteller Grasp
 
-Priorities:  7 | 6
-Lesandra is active
+Priorities:  2 | 6
+Tanis is active
+Tanis hits
+Tanis moves Lesandra:
+
+.TL....
+e......
+.....m.
+
+Tanis loses 1 life (now at 1)
+Tanis gets -1 power
+Lesandra has 2 soak
+Lesandra takes 0 damage (now at 16 life)
 Lesandra moves:
 
-..LT...
-.....e.
-..m....
+LT.....
+e......
+.....m.
 
-Tanis misses
+Lesandra misses
+Lesandra summons her Borneo
+Lesandra loses 1 life (now at 15)
 
 Beat 11
 -------
 
 Lesandra
 --------
-Life: 4
-Discard 1: Binding Dash
-Discard 2: Pactbreaker Summons
+Life: 15
+Discard 1: Binding Drive
+Discard 2: Window Grasp
 Special action available
-Familiar: Wyvern
+Familiar: Borneo
 
 Tanis
 -----
-Life: 7
+Life: 1
 Discard 1: Storyteller Grasp
-Discard 2: Climactic Scene Shift
+Discard 2: Distressed Dash
 Special action available
 Possessed puppet: Loki
 
 
-..L....
-.....e.
-...l...
-..m....
+L......
+e......
+.l.....
+.....m.
 
-Tanis possesses Eris
+Tanis possesses Mephisto
 
 Lesandra:
-29% Invocation Burst
-38% Invocation Burst (Wyvern)
-33% Guardian Strike (Wyvern)
+8% Invocation Shot
+41% Invocation Burst
+51% Guardian Shot
 
 Tanis:
-26% Valiant Shot
-22% Playful Shot
-52% Distressed Dash
+2% Valiant Shot
+51% Valiant Burst
+48% Playful Scene Shift
 
 
-Lesandra: Invocation Burst (Wyvern)
-Tanis: Valiant Shot
+Lesandra: Guardian Shot
+Tanis: Valiant Burst
 
-Priorities:  -1 | 1
-Tanis is active
-Lesandra moves:
+Priorities:  1 | 0
+Lesandra is active
+Tanis moves:
 
-L....T.
-...l...
-..m....
+L.....T
+e......
+.l.....
 
-Tanis hits
-Lesandra takes 3 damage (now at 1 life)
-Lesandra is stunned
-Lesandra gets -3 power
-Lesandra summons her Raven Knight
-Lesandra loses 5 life (now at 1)
+Lesandra misses
+Tanis misses
 
 Beat 12
 -------
 
 Lesandra
 --------
-Life: 1
-Discard 1: Invocation Burst
-Discard 2: Binding Dash
+Life: 15
+Discard 1: Guardian Shot
+Discard 2: Binding Drive
 Special action available
-Familiar: Raven Knight
+Familiar: Borneo
 
 Tanis
 -----
-Life: 7
-Discard 1: Valiant Shot
+Life: 1
+Discard 1: Valiant Burst
 Discard 2: Storyteller Grasp
 Special action available
-Possessed puppet: Eris
+Possessed puppet: Mephisto
 
 
 L......
-.....e.
+e......
+.l.....
+......m
+
+Tanis possesses Loki
+
+Lesandra:
+63% Invocation Summons
+30% Window Summons
+7% Window Grasp
+
+Tanis:
+1% Distressed Strike
+98% Distressed Dash
+1% Special Curtain Call
+
+
+Lesandra: Window Summons
+Tanis: Distressed Dash
+
+Priorities:  3 | 8
+Tanis is active
+Tanis moves Lesandra:
+
+.TL....
+e......
+......m
+
+Tanis moves:
+
+..LT...
+e......
+......m
+
+Lesandra misses
+Tanis moves Mephisto:
+
+..LT...
+e......
+.m.....
+
+
+Beat 13
+-------
+
+Lesandra
+--------
+Life: 15
+Discard 1: Window Summons
+Discard 2: Guardian Shot
+Special action available
+Familiar: Borneo
+
+Tanis
+-----
+Life: 1
+Discard 1: Distressed Dash
+Discard 2: Valiant Burst
+Special action available
+Possessed puppet: Loki
+
+
+..L....
+e......
 ...l...
-..m....
+.m.....
 
 Tanis possesses Mephisto
 
 Lesandra:
-5% Guardian Strike (Raven Knight)
-11% Guardian Drive (Raven Knight)
-26% Guardian Grasp
-24% Window Shot
-4% Window Drive
-30% Window Grasp
+37% Invocation Burst
+57% Pactbreaker Grasp (Borneo)
+6% Binding Burst
 
 Tanis:
-39% Climactic Drive
-43% Playful Strike
-0% Playful Drive
-8% Playful Burst
-2% Distressed Strike
-7% Distressed Burst
+8% Storyteller Shot
+34% Storyteller Drive
+57% Storyteller Grasp
 
 
-Lesandra: Guardian Grasp
-Tanis: Climactic Drive
+Lesandra: Invocation Burst
+Tanis: Storyteller Drive
 
-Priorities:  4 | 5
+Priorities:  -1 | 5
 Tanis is active
+Lesandra moves:
+
+.T.L...
+e......
+...l...
+
 Tanis moves:
 
-LT.....
-.....e.
+..TL...
+e......
 ...l...
 
 Tanis hits
-Lesandra takes 3 damage (now at 0 life)
-TANIS WINS!
-total_time: 1122
+Lesandra banishes her Borneo for Soak 2
+Lesandra has 2 soak
+Lesandra takes 2 damage (now at 13 life)
+Lesandra is stunned
+Lesandra gets -2 power
+Lesandra summons her Borneo
+Lesandra loses 1 life (now at 12)
+
+Beat 14
+-------
+
+Lesandra
+--------
+Life: 12
+Discard 1: Invocation Burst
+Discard 2: Window Summons
+Special action available
+Familiar: Borneo
+
+Tanis
+-----
+Life: 1
+Discard 1: Storyteller Drive
+Discard 2: Distressed Dash
+Special action available
+Possessed puppet: Mephisto
+
+
+...L...
+e......
+...l...
+..m....
+
+Unbeatable strategy for Lesandra: Binding Strike: 6.00
+Unbeatable strategy for Lesandra: Guardian Shot: 6.00
+
+Tanis possesses Eris
+
+Lesandra:
+87% Binding Strike
+13% Binding Drive
+
+Tanis:
+0% Climactic Strike
+100% Special Pulse
+
+
+Lesandra: Binding Strike
+Tanis: Special Pulse
+
+Pulse:
+
+T...L..
+...l...
+..m....
+
+
+Beat 14
+-------
+
+Lesandra
+--------
+Life: 12
+Discard 1: Binding Strike
+Discard 2: Invocation Burst
+Special action available
+Familiar: Borneo
+
+Tanis
+-----
+Life: 1
+Discard 1: Storyteller Drive
+Discard 2: Distressed Dash
+Possessed puppet: Eris
+
+
+....L..
+e......
+...l...
+..m....
+
+Given Loki by Tanis
+Unbeatable strategy for Lesandra: Guardian Summons: 6.00
+Given Loki by Tanis
+Unbeatable strategy for Lesandra: Guardian Shot: 6.00
+Given Loki by Tanis
+Unbeatable strategy for Lesandra: Guardian Drive: 6.00
+Given Loki by Tanis
+Unbeatable strategy for Lesandra: Window Summons: 6.00
+Given Loki by Tanis
+Unbeatable strategy for Lesandra: Window Shot: 6.00
+Given Loki by Tanis
+Unbeatable strategy for Lesandra: Window Drive: 6.00
+Given Loki by Tanis
+Unbeatable strategy for Lesandra: Window Grasp: 6.00
+
+Given Mephisto by Tanis
+Unbeatable strategy for Lesandra: Guardian Summons: 6.00
+Given Mephisto by Tanis
+Unbeatable strategy for Lesandra: Guardian Shot: 6.00
+
+Tanis possesses Loki
+
+Lesandra:
+10% Pactbreaker Summons (Borneo)
+10% Pactbreaker Shot (Borneo)
+10% Pactbreaker Drive (Borneo)
+10% Guardian Summons
+10% Guardian Shot
+10% Guardian Drive
+10% Window Summons
+10% Window Shot
+10% Window Drive
+10% Window Grasp
+
+Tanis:
+4% Valiant Scene Shift
+6% Valiant Strike
+5% Valiant Shot
+7% Valiant Burst
+6% Valiant Grasp
+7% Climactic Scene Shift
+6% Climactic Strike
+6% Climactic Shot
+8% Climactic Burst
+5% Climactic Grasp
+5% Playful Scene Shift
+12% Playful Strike
+5% Playful Shot
+8% Playful Burst
+9% Playful Grasp
+
+
+Lesandra: Guardian Shot
+Tanis: Climactic Strike
+
+Priorities:  1 | 4
+Tanis is active
+Tanis moves:
+
+..T.L..
+e......
+..m....
+
+Mephisto moves:
+
+..T.L..
+e......
+...m...
+
+Tanis misses
+Lesandra hits
+Tanis takes 4 damage (now at 0 life)
+LESANDRA WINS!
+total_time: 1510

@@ -28,96 +28,101 @@ pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
 Lesandra:
-10% Invocation Drive
-2% Invocation Grasp
-18% Pactbreaker Drive (Borneo)
-23% Binding Summons
-7% Binding Shot
+11% Invocation Drive
+52% Binding Summons
+6% Binding Shot (Borneo)
 0% Binding Drive (Borneo)
-33% Window Summons
-7% Window Drive
+9% Binding Dash
+1% Guardian Shot
+10% Window Strike
+1% Window Shot
+8% Window Drive
 
 Rukyuk:
-1% Sniper Strike (Swift)
-13% Sniper Grasp (Explosive)
-8% Point Blank Reload (Swift)
-21% Point Blank Shot (Explosive)
-3% Point Blank Shot (Swift)
-5% Point Blank Drive (Swift)
-28% Gunner Strike (Longshot)
-22% Gunner Dash
+2% Sniper Strike (Explosive)
+9% Sniper Strike (Swift)
+9% Sniper Grasp (Explosive)
+17% Point Blank Reload (Swift)
+18% Point Blank Strike (Explosive)
+5% Point Blank Shot (Explosive)
+1% Point Blank Shot (Flash)
+25% Gunner Strike (Longshot)
+14% Crossfire Reload (Swift)
 
 
-Lesandra: Window Summons
-Rukyuk: Gunner Dash
+Lesandra: Window Drive
+Rukyuk: Point Blank Shot (Explosive)
 
-Priorities:  3 | 9
-Rukyuk is active
+Rukyuk antes an Explosive token
+Priorities:  5 | 2
+Lesandra is active
+Lesandra moves:
+
+..L..R.
+
+Lesandra hits
+Lesandra banishes her Borneo
 Lesandra moves Rukyuk:
 
-RL.....
+..LR...
 
-Rukyuk moves:
+Rukyuk takes 3 damage (now at 17 life)
+Rukyuk hits
+Lesandra takes 5 damage (now at 15 life)
+Rukyuk moves Lesandra:
 
-.L.R...
+L..R...
 
-Rukyuk moves:
-
-.L....R
-
-Lesandra misses
+Lesandra is stunned
+Lesandra summons her Wyvern
 
 Beat 2
 -------
 
 Lesandra
 --------
-Life: 20
-Discard 1: Window Summons
+Life: 15
+Discard 1: Window Drive
 Discard 2: 
-Familiar: Borneo
+Familiar: Wyvern
 
 Rukyuk
 ------
-Life: 20
-Discard 1: Gunner Dash
+Life: 17
+Discard 1: Point Blank Shot
 Discard 2: 
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+pool: AP, Flash, Impact, Longshot, Swift
 
 
-.L....R
+L..R...
 
 
 Lesandra:
-4% Invocation Shot
-17% Invocation Drive
-7% Invocation Burst
-12% Binding Dash
-10% Binding Dash (Borneo)
-50% Guardian Dash
+22% Invocation Summons (Wyvern)
+38% Pactbreaker Summons (Wyvern)
+16% Pactbreaker Strike (Wyvern)
+24% Binding Strike (Wyvern)
 
 Rukyuk:
-20% Sniper Strike (AP)
-10% Sniper Grasp (Swift)
-1% Point Blank Shot (Swift)
-16% Crossfire Shot (Longshot)
-34% Crossfire Grasp (Longshot)
-19% Trick Shot (Explosive)
+10% Gunner Strike (Flash)
+6% Gunner Strike (Longshot)
+12% Gunner Grasp (Flash)
+72% Crossfire Reload (Swift)
 
 
-Lesandra: Guardian Dash
-Rukyuk: Sniper Strike (AP)
+Lesandra: Binding Strike (Wyvern)
+Rukyuk: Gunner Strike (Flash)
 
-Rukyuk antes an AP token
-Priorities:  8 | 5
-Lesandra is active
-Lesandra moves:
-
-...L..R
-
-Rukyuk misses
+Rukyuk antes a Flash token
+Priorities:  1 | 3
+Rukyuk is active
+Rukyuk hits
+Lesandra takes 4 damage (now at 11 life)
+Lesandra is stunned
 Rukyuk moves:
 
-...L.R.
+L....R.
 
-total_time: 316
+Rukyuk loses 1 life (now at 16)
+Rukyuk gets -1 power
+total_time: 604

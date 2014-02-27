@@ -15,23 +15,23 @@ Life: 20
 Discard 1: Stinging Strike
 Discard 2: Swarming Burst
 Special action available
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+0 insects on Lesandra's discard 1
+0 insects on Lesandra's discard 2
 
 Lesandra
 --------
 Life: 20
-Discard 1: Pactbreaker Summons
-Discard 2: Guardian Grasp
+Discard 1: Guardian Summons
+Discard 2: Pactbreaker Grasp
 Special action available
 Familiar: Borneo
 
 
 .K...L.
 
-Unbeatable strategy for Lesandra: Binding Strike (Borneo): -0.79
-Unbeatable strategy for Lesandra: Binding Shot: -0.85
-Unbeatable strategy for Lesandra: Binding Shot (Borneo): -1.12
+Unbeatable strategy for Lesandra: Binding Strike (Borneo): -1.09
+Unbeatable strategy for Lesandra: Binding Shot: -1.15
+Unbeatable strategy for Lesandra: Binding Shot (Borneo): -1.42
 
 
 Kajia:
@@ -45,79 +45,102 @@ Lesandra:
 60% Binding Shot
 
 
-Kajia: Parasitic Dash
-Lesandra: Binding Shot
+Kajia: Biting Drive
+Lesandra: Binding Strike
 
-Priorities:  8 | 0
+Priorities:  3 | 1
 Kajia is active
-Kajia moves Lesandra:
+Kajia moves:
 
-.KL....
+...K.L.
 
 Kajia loses 1 life (now at 19)
 Kajia gets -1 power
-Kajia moves:
+Kajia hits
+Lesandra takes 1 damage (now at 19 life)
+Kajia moves Lesandra:
 
 ..LK...
 
 Kajia loses 1 life (now at 18)
 Kajia gets -1 power
-Lesandra misses
+Kajia places 1 insect token on Lesandra's attack pair
+(Current insects: 1 / 0 / 0)
+Lesandra hits
+Kajia takes 4 damage (now at 14 life)
+Kajia is stunned
+Lesandra summons her Rune Knight
 
 Beat 2
 -------
 
 Kajia
 -----
-Life: 18
-Discard 1: Parasitic Dash
+Life: 14
+Discard 1: Biting Drive
 Discard 2: Stinging Strike
 Special action available
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+1 insects on Lesandra's discard 1
+0 insects on Lesandra's discard 2
 
 Lesandra
 --------
-Life: 20
-Discard 1: Binding Shot
-Discard 2: Pactbreaker Summons
+Life: 19
+Discard 1: Binding Strike
+Discard 2: Guardian Summons
 Special action available
-Familiar: Borneo
+Familiar: Rune Knight
 
 
 ..LK...
 
-Unbeatable strategy for Lesandra: Window Strike: -2.63
-
 
 Kajia:
-4% Swarming Burst
-96% Biting Shot
+10% Burrowing Mandibles
+51% Burrowing Dash
+29% Swarming Mandibles
+3% Parasitic Shot
+8% Parasitic Grasp
 
 Lesandra:
-4% Invocation Drive
-96% Window Strike
+2% Invocation Burst
+37% Invocation Dash
+26% Window Drive
+6% Window Burst
+30% Special Pulse
 
 
-Kajia: Biting Shot
-Lesandra: Window Strike
+Kajia: Swarming Mandibles
+Lesandra: Invocation Burst
 
-Priorities:  1 | 4
-Lesandra is active
-Lesandra hits
-Lesandra banishes her Borneo
-Lesandra moves Kajia:
+Priorities:  2 | -1
+Kajia is active
+Lesandra moves:
 
-K.L....
+L..K...
 
-Kajia takes 4 damage (now at 14 life)
+Kajia moves:
+
+L.K....
+
 Kajia hits
-Lesandra takes 2 damage (now at 18 life)
 Kajia moves Lesandra:
+
+.LK....
+
+Lesandra banishes her Rune Knight for Soak 2
+Lesandra has 2 soak
+Lesandra takes 1 damage (now at 18 life)
+Lesandra is stunned
+Lesandra gets -1 power
+Kajia moves:
 
 KL.....
 
-Lesandra summons her Rune Knight
+Kajia places 1 insect token on Lesandra's attack pair
+(Current insects: 1 / 1 / 0)
+Lesandra summons her Borneo
+Lesandra loses 1 life (now at 17)
 
 Beat 3
 -------
@@ -125,64 +148,84 @@ Beat 3
 Kajia
 -----
 Life: 14
-Discard 1: Biting Shot
-Discard 2: Parasitic Dash
+Discard 1: Swarming Mandibles
+Discard 2: Biting Drive
 Special action available
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+1 insects on Lesandra's discard 1
+1 insects on Lesandra's discard 2
 
 Lesandra
 --------
-Life: 18
-Discard 1: Window Strike
-Discard 2: Binding Shot
+Life: 17
+Discard 1: Invocation Burst
+Discard 2: Binding Strike
 Special action available
-Familiar: Rune Knight
+Familiar: Borneo
 
 
 KL.....
 
 
 Kajia:
-14% Swarming Mandibles
-33% Stinging Strike
-52% Stinging Drive
+10% Burrowing Strike
+5% Burrowing Shot
+12% Burrowing Dash
+18% Parasitic Strike
+6% Parasitic Dash
+5% Stinging Shot
+44% Stinging Dash
 
 Lesandra:
-26% Invocation Dash
-60% Pactbreaker Drive (Rune Knight)
-14% Pactbreaker Grasp (Rune Knight)
+9% Guardian Summons
+16% Guardian Drive
+5% Guardian Dash
+5% Guardian Dash (Borneo)
+8% Window Shot
+56% Window Grasp
+0% Window Dash (Borneo)
 
 
-Kajia: Swarming Mandibles
-Lesandra: Pactbreaker Drive (Rune Knight)
+Kajia: Stinging Shot
+Lesandra: Window Grasp
 
-Priorities:  2 | 5
+Priorities:  3 | 6
 Lesandra is active
 Lesandra hits
-Kajia takes 4 damage (now at 10 life)
-Kajia is stunned
+Lesandra banishes her Borneo
+Lesandra moves Kajia:
+
+.LK....
+
+Lesandra moves Kajia:
+
+KL.....
+
+Kajia takes 2 damage (now at 12 life)
+Kajia hits
+Kajia places 1 insect token on Lesandra's attack pair
+(Current insects: 1 / 1 / 1)
+Lesandra takes 3 damage (now at 14 life)
+Lesandra is stunned
 Lesandra summons her Wyvern
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 0)
+Lesandra loses 1 life (now at 13)
 
 Beat 4
 -------
 
 Kajia
 -----
-Life: 10
-Discard 1: Swarming Mandibles
-Discard 2: Biting Shot
+Life: 12
+Discard 1: Stinging Shot
+Discard 2: Swarming Mandibles
 Special action available
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
+1 insects on Lesandra's discard 1
+1 insects on Lesandra's discard 2
 
 Lesandra
 --------
-Life: 18
-Discard 1: Pactbreaker Drive
-Discard 2: Window Strike
+Life: 13
+Discard 1: Window Grasp
+Discard 2: Invocation Burst
 Special action available
 Familiar: Wyvern
 
@@ -191,220 +234,342 @@ KL.....
 
 
 Kajia:
-17% Burrowing Strike
-43% Burrowing Drive
-24% Parasitic Drive
-16% Stinging Dash
+1% Burrowing Strike
+26% Burrowing Drive
+73% Burrowing Dash
 
 Lesandra:
-22% Binding Shot
-1% Binding Burst (Wyvern)
-46% Binding Dash
-31% Binding Dash (Wyvern)
+23% Binding Summons (Wyvern)
+53% Binding Strike (Wyvern)
+24% Binding Dash
 
 
-Kajia: Parasitic Drive
-Lesandra: Binding Dash
+Kajia: Burrowing Drive
+Lesandra: Binding Summons (Wyvern)
 
-Priorities:  3 | 7
-Lesandra is active
-Lesandra moves:
+Kajia gets +2 power
+Kajia gets +2 priority
+Priorities:  5 | 0
+Kajia is active
+Lesandra moves Kajia:
 
-K...L..
+.LK....
 
+Kajia moves Lesandra:
+
+..KL...
+
+Kajia loses 1 life (now at 11)
+Kajia gets -1 power
+Kajia places 1 insect token on Lesandra's attack pair
+(Current insects: 1 / 1 / 1)
 Kajia moves:
 
-..K.L..
+...LK..
 
-Kajia loses 1 life (now at 9)
+Kajia loses 1 life (now at 10)
 Kajia gets -1 power
 Kajia hits
-Lesandra takes 2 damage (now at 16 life)
+Lesandra takes 3 damage (now at 10 life)
+Lesandra moves:
+
+.L..K..
+
+Lesandra hits
+Kajia takes 2 damage (now at 8 life)
+Kajia is stunned
+Lesandra summons her Borneo
+Lesandra loses 1 life (now at 9)
 
 Beat 5
 -------
 
 Kajia
 -----
-Life: 9
-Discard 1: Parasitic Drive
-Discard 2: Swarming Mandibles
+Life: 8
+Discard 1: Burrowing Drive
+Discard 2: Stinging Shot
 Special action available
-0 insects on opponent's discard 1
-1 insects on opponent's discard 2
+1 insects on Lesandra's discard 1
+1 insects on Lesandra's discard 2
 
 Lesandra
 --------
-Life: 16
-Discard 1: Binding Dash
-Discard 2: Pactbreaker Drive
+Life: 9
+Discard 1: Binding Summons
+Discard 2: Window Grasp
 Special action available
-Familiar: Wyvern
+Familiar: Borneo
 
 
-..K.L..
-
-Unbeatable strategy for Lesandra: Guardian Strike (Wyvern): -0.35
-Unbeatable strategy for Lesandra: Window Burst: -0.61
+.L..K..
 
 
 Kajia:
-10% Burrowing Shot
-78% Burrowing Dash
-5% Stinging Shot
-1% Biting Shot
-6% Biting Grasp
+23% Swarming Dash
+28% Parasitic Strike
+11% Parasitic Burst
+14% Parasitic Grasp
+16% Parasitic Dash
+8% Biting Mandibles
 
 Lesandra:
-12% Invocation Burst
-34% Invocation Grasp
-42% Guardian Burst (Wyvern)
-4% Guardian Grasp
-9% Window Strike (Wyvern)
+24% Invocation Drive
+25% Invocation Dash (Borneo)
+23% Pactbreaker Shot (Borneo)
+0% Pactbreaker Burst (Borneo)
+20% Guardian Strike (Borneo)
+7% Guardian Dash (Borneo)
 
 
-Kajia: Burrowing Dash
-Lesandra: Invocation Burst
+Kajia: Parasitic Burst
+Lesandra: Guardian Strike (Borneo)
 
-Kajia gets +1 power
-Kajia gets +1 priority
-Priorities:  9 | -1
-Kajia is active
-Lesandra moves:
+Priorities:  0 | 2
+Lesandra is active
+Kajia moves Lesandra:
+
+....KL.
+
+Kajia places 1 insect token on Lesandra's attack pair
+(Current insects: 1 / 1 / 1)
+Kajia moves:
 
 ..K..L.
 
-Kajia moves Lesandra:
-
-..K.L..
-
-Kajia moves:
-
-...KL..
-
 Lesandra misses
-Lesandra loses 1 life (now at 15)
+Kajia hits
+Lesandra takes 3 damage (now at 6 life)
+Lesandra summons her Rune Knight
+Lesandra loses 1 life (now at 5)
 
 Beat 6
 -------
 
 Kajia
 -----
-Life: 9
-Discard 1: Burrowing Dash
-Discard 2: Parasitic Drive
+Life: 8
+Discard 1: Parasitic Burst
+Discard 2: Burrowing Drive
 Special action available
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+1 insects on Lesandra's discard 1
+1 insects on Lesandra's discard 2
 
 Lesandra
 --------
-Life: 15
-Discard 1: Invocation Burst
-Discard 2: Binding Dash
+Life: 5
+Discard 1: Guardian Strike
+Discard 2: Binding Summons
 Special action available
-Familiar: Wyvern
+Familiar: Rune Knight
 
 
-...KL..
+..K..L.
 
-Unbeatable strategy for Lesandra: Window Strike: -0.76
+Unbeatable strategy for Kajia: Swarming Dash: 1.19
+Unbeatable strategy for Kajia: Biting Dash: 0.56
 
 
 Kajia:
-4% Swarming Strike
-3% Stinging Mandibles
-10% Stinging Grasp
-6% Biting Mandibles
-41% Biting Strike
-37% Biting Grasp
+9% Swarming Mandibles
+40% Swarming Dash
+17% Stinging Mandibles
+34% Biting Mandibles
 
 Lesandra:
-0% Pactbreaker Strike (Wyvern)
-10% Pactbreaker Shot (Wyvern)
-8% Pactbreaker Drive (Wyvern)
-17% Guardian Strike (Wyvern)
-29% Window Strike
-36% Window Grasp
+44% Invocation Drive
+6% Invocation Grasp
+36% Invocation Dash
+14% Window Burst
 
 
-Kajia: Biting Grasp
-Lesandra: Guardian Strike (Wyvern)
+Kajia: Stinging Mandibles
+Lesandra: Invocation Dash
 
-Priorities:  4 | 2
-Kajia is active
-Kajia hits
-Kajia moves Lesandra:
-
-..LK...
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 0)
-Lesandra takes 1 damage (now at 14 life)
-Kajia moves Lesandra:
-
-...K.L.
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 2 / 0 / 0)
+Priorities:  4 | 7
+Lesandra is active
 Lesandra moves:
 
-...KL..
+..K...L
 
-Lesandra hits
-Kajia takes 5 damage (now at 4 life)
-Kajia is stunned
-Lesandra summons her Rune Knight
+Kajia moves:
+
+...K..L
+
+Kajia misses
+Kajia moves:
+
+....K.L
+
+Lesandra loses 1 life (now at 4)
 
 Beat 7
 -------
 
 Kajia
 -----
-Life: 4
-Discard 1: Biting Grasp
-Discard 2: Burrowing Dash
+Life: 8
+Discard 1: Stinging Mandibles
+Discard 2: Parasitic Burst
 Special action available
-2 insects on opponent's discard 1
-0 insects on opponent's discard 2
+0 insects on Lesandra's discard 1
+1 insects on Lesandra's discard 2
 
 Lesandra
 --------
-Life: 14
-Discard 1: Guardian Strike
-Discard 2: Invocation Burst
+Life: 4
+Discard 1: Invocation Dash
+Discard 2: Guardian Strike
 Special action available
 Familiar: Rune Knight
 
 
-...KL..
+....K.L
 
 
 Kajia:
-16% Swarming Mandibles
-4% Swarming Strike
-49% Swarming Burst
-9% Stinging Strike
-21% Stinging Drive
+1% Burrowing Strike
+22% Swarming Strike
+33% Swarming Shot
+36% Swarming Dash
+0% Biting Strike
+7% Biting Drive
 
 Lesandra:
-20% Pactbreaker Shot (Rune Knight)
-41% Pactbreaker Drive (Rune Knight)
-25% Binding Drive
-5% Binding Grasp
-10% Window Grasp
+26% Pactbreaker Grasp (Rune Knight)
+11% Binding Shot (Rune Knight)
+10% Binding Drive
+32% Binding Drive (Rune Knight)
+16% Binding Burst (Rune Knight)
+6% Binding Grasp
 
 
-Kajia: Swarming Burst
-Lesandra: Pactbreaker Shot (Rune Knight)
+Kajia: Swarming Strike
+Lesandra: Pactbreaker Grasp (Rune Knight)
 
-Priorities:  0 | 3
+Priorities:  2 | 6
+Lesandra is active
+Lesandra hits
+Lesandra moves Kajia:
+
+...K..L
+
+Kajia takes 3 damage (now at 5 life)
+Kajia misses
+Lesandra summons her Wyvern
+Lesandra loses 1 life (now at 3)
+
+Beat 8
+-------
+
+Kajia
+-----
+Life: 5
+Discard 1: Swarming Strike
+Discard 2: Stinging Mandibles
+Special action available
+0 insects on Lesandra's discard 1
+0 insects on Lesandra's discard 2
+
+Lesandra
+--------
+Life: 3
+Discard 1: Pactbreaker Grasp
+Discard 2: Invocation Dash
+Special action available
+Familiar: Wyvern
+
+
+...K..L
+
+Unbeatable strategy for Lesandra: Binding Strike: -0.90
+Unbeatable strategy for Lesandra: Binding Strike (Wyvern): -2.63
+Unbeatable strategy for Lesandra: Binding Drive (Wyvern): -1.53
+Unbeatable strategy for Lesandra: Window Strike (Wyvern): -0.53
+Unbeatable strategy for Lesandra: Window Shot (Wyvern): -0.17
+
+
+Kajia:
+16% Burrowing Shot
+41% Burrowing Dash
+12% Parasitic Dash
+32% Special Imago Emergence
+
+Lesandra:
+15% Binding Strike
+56% Binding Strike (Wyvern)
+9% Guardian Summons
+19% Guardian Summons (Wyvern)
+
+
+Kajia: Special Imago Emergence
+Lesandra: Binding Strike
+
+Priorities:  7 | 1
+Kajia is active
+Kajia hits
+Lesandra is stunned
+Kajia places 1 insect token on Lesandra's discard pile 1
+(Current insects: 0 / 1 / 0)
+Lesandra takes 1 damage (now at 2 life)
+Lesandra summons her Rune Knight
+Lesandra loses 4 life (now at 1)
+Kajia places 1 insect token on Lesandra's attack pair
+(Current insects: 1 / 1 / 0)
+
+Beat 9
+-------
+
+Kajia
+-----
+Life: 5
+Discard 1: Swarming Strike
+Discard 2: Stinging Mandibles
+1 insects on Lesandra's discard 1
+1 insects on Lesandra's discard 2
+Imago Emergence is active
+
+Lesandra
+--------
+Life: 1
+Discard 1: Binding Strike
+Discard 2: Pactbreaker Grasp
+Special action available
+Familiar: Rune Knight
+
+
+...K..L
+
+
+Kajia:
+38% Burrowing Drive
+21% Burrowing Burst
+33% Biting Drive
+8% Biting Grasp
+
+Lesandra:
+33% Invocation Dash
+17% Guardian Summons (Rune Knight)
+28% Window Drive
+21% Window Drive (Rune Knight)
+
+
+Kajia: Burrowing Burst
+Lesandra: Invocation Dash
+
+Kajia gets +2 power
+Kajia gets +2 priority
+Priorities:  2 | 7
 Lesandra is active
 Kajia moves:
 
-.K..L..
+.K....L
 
-Lesandra hits
-Kajia takes 4 damage (now at 0 life)
-LESANDRA WINS!
-total_time: 25
+Lesandra moves:
+
+.K.L...
+
+Kajia hits
+Lesandra takes 5 damage (now at 0 life)
+KAJIA WINS!
+total_time: 30

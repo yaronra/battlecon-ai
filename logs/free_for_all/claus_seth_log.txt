@@ -11,20 +11,21 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Grasp
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Hurricane Grasp
+Discard 2: Cyclone Shot
+Special action available
 
 Seth
 ----
-life: 20
-discard 1: Fool's Grasp
-discard 2: Wyrding Strike
-special action
+Life: 20
+Discard 1: Fool's Grasp
+Discard 2: Wyrding Strike
+Special action available
 
 
 .C...S.
+
 
 Claus:
 7% Tailwind Tempest
@@ -38,421 +39,504 @@ Seth:
 
 
 Claus: Downdraft Burst
-Seth: Mimic's Shot (Tempest)
+Seth: Compelling Omen (Burst)
 
-Priorities:  0 | 2
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  0 | 3
 Seth is active
+Claus is stunned
 Claus moves:
 
 C....S.
 
+Seth moves Claus:
+
+.C...S.
+
 Seth misses
-Claus misses
+Seth moves Claus:
+
+..C..S.
+
 
 Beat 2
 -------
 
 Claus
 -----
-life: 20
-discard 1: Downdraft Burst
-discard 2: Hurricane Grasp
-special action
+Life: 20
+Discard 1: Downdraft Burst
+Discard 2: Hurricane Grasp
+Special action available
 
 Seth
 ----
-life: 20
-discard 1: Mimic's Shot
-discard 2: Fool's Grasp
-special action
+Life: 20
+Discard 1: Compelling Omen
+Discard 2: Fool's Grasp
+Special action available
 
 
-C...S..
+..C..S.
+
 
 Claus:
-58% Tailwind Tempest
-12% Tailwind Strike
-5% Tailwind Shot
-3% Tailwind Drive
-22% Cyclone Tempest
+13% Tailwind Strike
+13% Tailwind Drive
+46% Tailwind Dash
+16% Blast Shot
+9% Cyclone Tempest
+1% Cyclone Shot
 
 Seth:
-23% Vanishing Omen (Tempest)
-5% Vanishing Drive (Strike)
-28% Vanishing Drive (Drive)
-41% Wyrding Strike (Strike)
-2% Compelling Drive (Tempest)
+26% Mimic's Shot (Strike)
+29% Mimic's Drive (Tempest)
+19% Mimic's Drive (Drive)
+1% Vanishing Strike (Shot)
+21% Wyrding Shot (Drive)
+4% Wyrding Dash (Dash)
 
 
-Claus: Tailwind Tempest
-Seth: Vanishing Omen (Tempest)
+Claus: Tailwind Drive
+Seth: Mimic's Shot (Strike)
 
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  4 | 3
+Priorities:  4 | 2
 Claus is active
 Claus moves:
 
-..C.S..
+...C.S.
 
-Claus moves Seth:
-
-...C..S
-
-Seth takes 2 damage (now at 18 life)
-Seth is stunned
 Claus moves:
 
-...C..S
+....C.S
 
-Claus is stunned
+Claus hits
+Seth takes 4 damage (now at 16 life)
+Seth is stunned
 
 Beat 3
 -------
 
 Claus
 -----
-life: 20
-discard 1: Tailwind Tempest
-discard 2: Downdraft Burst
-special action
+Life: 20
+Discard 1: Tailwind Drive
+Discard 2: Downdraft Burst
+Special action available
 
 Seth
 ----
-life: 18
-discard 1: Vanishing Omen
-discard 2: Mimic's Shot
-special action
+Life: 16
+Discard 1: Mimic's Shot
+Discard 2: Compelling Omen
+Special action available
 
-
-...C..S
-
-Unbeatable strategy for Seth: Wyrding Drive (Strike): -0.04
-
-Claus:
-18% Blast Strike
-13% Cyclone Strike
-7% Cyclone Shot
-9% Cyclone Drive
-53% Cyclone Dash
-
-Seth:
-18% Wyrding Dash (Dash)
-50% Compelling Drive (Drive)
-19% Compelling Burst (Strike)
-1% Compelling Burst (Shot)
-12% Compelling Grasp (Strike)
-
-
-Claus: Cyclone Shot
-Seth: Compelling Drive (Drive)
-
-Priorities:  3 | 4
-Seth is active
-Seth moves Claus:
 
 ....C.S
 
+Unbeatable strategy for Seth: Wyrding Drive (Strike): -0.16
+
+
+Claus:
+14% Hurricane Grasp
+41% Blast Strike
+12% Blast Shot
+14% Blast Dash
+12% Cyclone Tempest
+3% Cyclone Shot
+4% Cyclone Dash
+
+Seth:
+31% Wyrding Strike (Strike)
+4% Wyrding Strike (Shot)
+2% Wyrding Strike (Dash)
+36% Wyrding Drive (Tempest)
+26% Wyrding Drive (Strike)
+2% Wyrding Dash (Dash)
+
+
+Claus: Blast Strike
+Seth: Wyrding Drive (Strike)
+
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  0 | 7
+Seth is active
+Claus moves:
+
+.....CS
+
 Seth moves:
 
-...SC..
+....SC.
 
 Seth hits
-Claus takes 3 damage (now at 17 life)
-Claus is stunned
-Seth moves Claus:
-
-...S.C.
-
+Claus takes 5 damage (now at 15 life)
+Claus hits
+Seth takes 4 damage (now at 12 life)
+Seth is stunned
 
 Beat 4
 -------
 
 Claus
 -----
-life: 17
-discard 1: Cyclone Shot
-discard 2: Tailwind Tempest
-special action
+Life: 15
+Discard 1: Blast Strike
+Discard 2: Tailwind Drive
+Special action available
 
 Seth
 ----
-life: 18
-discard 1: Compelling Drive
-discard 2: Vanishing Omen
-special action
+Life: 12
+Discard 1: Wyrding Drive
+Discard 2: Mimic's Shot
+Special action available
 
 
-...S.C.
+....SC.
 
-Unbeatable strategy for Seth: Mimic's Shot (Strike): -2.89
+Unbeatable strategy for Claus: Hurricane Tempest: 2.32
+
 
 Claus:
-9% Blast Strike
-43% Blast Grasp
-34% Downdraft Strike
-15% Downdraft Burst
+45% Hurricane Tempest
+51% Cyclone Tempest
+4% Downdraft Tempest
 
 Seth:
-43% Mimic's Shot (Strike)
-47% Mimic's Shot (Grasp)
-2% Mimic's Burst (Grasp)
-9% Wyrding Shot (Strike)
+14% Fool's Burst (Tempest)
+14% Fool's Burst (Shot)
+7% Fool's Burst (Burst)
+8% Fool's Burst (Grasp)
+14% Fool's Burst (Dash)
+7% Vanishing Strike (Shot)
+5% Vanishing Strike (Burst)
+5% Vanishing Strike (Grasp)
+5% Vanishing Strike (Dash)
+16% Vanishing Grasp (Shot)
+2% Vanishing Grasp (Burst)
+2% Vanishing Grasp (Grasp)
+1% Vanishing Grasp (Dash)
 
 
-Claus: Blast Grasp
-Seth: Mimic's Shot (Grasp)
+Claus: Cyclone Tempest
+Seth: Fool's Burst (Shot)
 
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  2 | 4
-Seth is active
-Claus moves:
+Priorities:  5 | -3
+Claus is active
+Claus moves Seth:
 
-...SC..
+.S...C.
 
-Seth hits
-Claus takes 6 damage (now at 11 life)
-Claus is stunned
+Seth takes 3 damage (now at 9 life)
+Seth is stunned
+Seth moves:
+
+S....C.
+
+Claus misses
 
 Beat 5
 -------
 
 Claus
 -----
-life: 11
-discard 1: Blast Grasp
-discard 2: Cyclone Shot
-special action
+Life: 15
+Discard 1: Cyclone Tempest
+Discard 2: Blast Strike
+Special action available
 
 Seth
 ----
-life: 18
-discard 1: Mimic's Shot
-discard 2: Compelling Drive
-special action
+Life: 9
+Discard 1: Fool's Burst
+Discard 2: Wyrding Drive
+Special action available
 
 
-..S.C..
+S....C.
+
+Unbeatable strategy for Claus: Downdraft Burst: 0.13
+Unbeatable strategy for Claus: Downdraft Grasp: 0.01
+
 
 Claus:
-72% Tailwind Tempest
-2% Tailwind Strike
-20% Tailwind Drive
-6% Tailwind Burst
+13% Tailwind Shot
+11% Tailwind Drive
+5% Tailwind Burst
+22% Downdraft Shot
+24% Downdraft Burst
+25% Downdraft Grasp
 
 Seth:
-47% Vanishing Omen (Tempest)
-4% Vanishing Dash (Tempest)
-4% Vanishing Dash (Strike)
-4% Vanishing Dash (Drive)
-4% Vanishing Dash (Burst)
-5% Vanishing Dash (Dash)
-16% Wyrding Burst (Tempest)
-15% Wyrding Burst (Drive)
+4% Mimic's Omen (Shot)
+15% Mimic's Shot (Shot)
+3% Compelling Omen (Shot)
+41% Compelling Strike (Drive)
+12% Compelling Shot (Drive)
+5% Compelling Dash (Shot)
+5% Compelling Dash (Drive)
+5% Compelling Dash (Burst)
+5% Compelling Dash (Grasp)
+5% Compelling Dash (Dash)
 
 
-Claus: Tailwind Tempest
-Seth: Vanishing Dash (Burst)
+Claus: Downdraft Burst
+Seth: Compelling Strike (Drive)
 
-Priorities:  4 | 9
+Priorities:  0 | 3
 Seth is active
-Seth moves:
-
-.S..C..
-
-Claus moves Seth:
-
-S.C....
-
-Seth takes 1 damage (now at 17 life)
-Seth is stunned
 Claus moves:
 
-S.C....
+S.....C
 
-Claus moves:
+Seth moves Claus:
 
-SC.....
+S....C.
 
-Claus hits
-Seth takes 2 damage (now at 15 life)
-Seth is stunned
+Seth misses
+Seth moves Claus:
+
+S...C..
+
+Claus misses
 
 Beat 6
 -------
 
 Claus
 -----
-life: 11
-discard 1: Tailwind Tempest
-discard 2: Blast Grasp
-special action
+Life: 15
+Discard 1: Downdraft Burst
+Discard 2: Cyclone Tempest
+Special action available
 
 Seth
 ----
-life: 15
-discard 1: Vanishing Dash
-discard 2: Mimic's Shot
-special action
+Life: 9
+Discard 1: Compelling Strike
+Discard 2: Fool's Burst
+Special action available
 
 
-SC.....
+S...C..
 
-Unbeatable strategy for Seth: Wyrding Drive (Strike): -0.94
-Unbeatable strategy for Seth: Wyrding Drive (Shot): -0.61
-Unbeatable strategy for Seth: Wyrding Drive (Drive): -0.61
-Unbeatable strategy for Seth: Wyrding Drive (Burst): -0.61
-Unbeatable strategy for Seth: Wyrding Drive (Dash): -0.61
-Unbeatable strategy for Seth: Compelling Drive (Drive): -3.57
 
 Claus:
-31% Cyclone Strike
-5% Cyclone Shot
-23% Cyclone Drive
-23% Cyclone Dash
-18% Downdraft Dash
+14% Hurricane Shot
+30% Tailwind Strike
+20% Tailwind Drive
+24% Tailwind Grasp
+12% Blast Shot
 
 Seth:
-12% Fool's Drive (Strike)
-49% Wyrding Drive (Drive)
-6% Wyrding Grasp (Dash)
-24% Compelling Drive (Strike)
-10% Compelling Drive (Drive)
+28% Mimic's Shot (Strike)
+21% Wyrding Shot (Drive)
+14% Wyrding Shot (Grasp)
+7% Wyrding Drive (Shot)
+30% Wyrding Drive (Grasp)
 
 
-Claus: Cyclone Drive
-Seth: Wyrding Drive (Drive)
+Claus: Tailwind Grasp
+Seth: Wyrding Shot (Drive)
 
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  5 | 7
-Seth is active
-Seth moves:
+Priorities:  5 | 3
+Claus is active
+Claus moves:
 
-.CS....
+S.C....
 
-Seth hits
-Claus takes 5 damage (now at 6 life)
-Claus is stunned
+Claus hits
+Claus moves Seth:
+
+.SC....
+
+Seth takes 3 damage (now at 6 life)
+Seth is stunned
 
 Beat 7
 -------
 
 Claus
 -----
-life: 6
-discard 1: Cyclone Drive
-discard 2: Tailwind Tempest
-special action
+Life: 15
+Discard 1: Tailwind Grasp
+Discard 2: Downdraft Burst
+Special action available
 
 Seth
 ----
-life: 15
-discard 1: Wyrding Drive
-discard 2: Vanishing Dash
-special action
+Life: 6
+Discard 1: Wyrding Shot
+Discard 2: Compelling Strike
+Special action available
 
 
-.CS....
+.SC....
 
-Unbeatable strategy for Seth: Mimic's Burst (Shot): -0.08
-Unbeatable strategy for Seth: Mimic's Grasp (Strike): -0.03
 
 Claus:
-2% Hurricane Strike
-3% Hurricane Shot
-1% Hurricane Grasp
-14% Blast Burst
-10% Blast Dash
-9% Downdraft Dash
-61% Special Autumn's Advance
+34% Blast Strike
+18% Blast Shot
+5% Blast Dash
+17% Cyclone Tempest
+16% Cyclone Drive
+11% Cyclone Dash
 
 Seth:
-13% Fool's Burst (Burst)
-26% Mimic's Omen (Dash)
-1% Mimic's Burst (Burst)
-25% Compelling Strike (Strike)
-1% Compelling Strike (Shot)
-26% Compelling Strike (Grasp)
-7% Compelling Shot (Burst)
+21% Mimic's Omen (Strike)
+5% Mimic's Drive (Tempest)
+36% Mimic's Grasp (Tempest)
+4% Mimic's Grasp (Shot)
+19% Mimic's Grasp (Drive)
+16% Vanishing Drive (Drive)
 
 
-Claus: Downdraft Dash
-Seth: Compelling Strike (Strike)
+Claus: Cyclone Tempest
+Seth: Vanishing Drive (Drive)
 
-Priorities:  8 | 3
+Priorities:  5 | 4
 Claus is active
 Claus moves Seth:
 
-.C...S.
+S.C....
 
-Seth takes 3 damage (now at 12 life)
-Seth moves Claus:
-
-C....S.
-
-Seth misses
-Seth moves Claus:
-
-.C...S.
-
+Seth takes 1 damage (now at 5 life)
+Seth is stunned
+Claus hits
+Seth takes 2 damage (now at 3 life)
+Seth is stunned
 
 Beat 8
 -------
 
 Claus
 -----
-life: 6
-discard 1: Downdraft Dash
-discard 2: Cyclone Drive
-special action
+Life: 15
+Discard 1: Cyclone Tempest
+Discard 2: Tailwind Grasp
+Special action available
 
 Seth
 ----
-life: 12
-discard 1: Compelling Strike
-discard 2: Wyrding Drive
-special action
+Life: 3
+Discard 1: Vanishing Drive
+Discard 2: Wyrding Shot
+Special action available
 
 
-.C...S.
+S.C....
 
-Unbeatable strategy for Seth: Mimic's Shot (Tempest): -2.86
 
 Claus:
-12% Hurricane Tempest
-3% Tailwind Tempest
-15% Tailwind Shot
-4% Tailwind Burst
-14% Blast Grasp
-52% Special Autumn's Advance
+9% Blast Strike
+22% Blast Shot
+14% Blast Drive
+7% Blast Dash
+24% Downdraft Shot
+21% Downdraft Drive
+3% Downdraft Burst
 
 Seth:
-23% Fool's Shot (Grasp)
-4% Fool's Dash (Tempest)
-4% Fool's Dash (Strike)
-4% Fool's Dash (Shot)
-4% Fool's Dash (Burst)
-4% Fool's Dash (Grasp)
-21% Mimic's Shot (Tempest)
-15% Mimic's Shot (Shot)
-5% Mimic's Shot (Grasp)
-15% Vanishing Burst (Shot)
+6% Fool's Omen (Shot)
+2% Mimic's Strike (Shot)
+2% Mimic's Dash (Strike)
+2% Mimic's Dash (Shot)
+2% Mimic's Dash (Drive)
+2% Mimic's Dash (Burst)
+18% Mimic's Dash (Dash)
+1% Compelling Omen (Shot)
+1% Compelling Strike (Drive)
+8% Compelling Burst (Drive)
+6% Compelling Dash (Strike)
+6% Compelling Dash (Shot)
+6% Compelling Dash (Drive)
+6% Compelling Dash (Burst)
+35% Compelling Dash (Dash)
 
 
-Claus: Tailwind Shot
-Seth: Mimic's Shot (Shot)
+Claus: Downdraft Shot
+Seth: Compelling Dash (Dash)
 
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  2 | 4
+Priorities:  1 | 9
+Seth is active
+Seth moves Claus:
+
+SC.....
+
+Seth moves:
+
+.CS....
+
+Seth moves Claus:
+
+C.S....
+
+Claus misses
+
+Beat 9
+-------
+
+Claus
+-----
+Life: 15
+Discard 1: Downdraft Shot
+Discard 2: Cyclone Tempest
+Special action available
+
+Seth
+----
+Life: 3
+Discard 1: Compelling Dash
+Discard 2: Vanishing Drive
+Special action available
+
+
+C.S....
+
+
+Claus:
+26% Tailwind Strike
+34% Tailwind Drive
+4% Tailwind Burst
+5% Tailwind Grasp
+11% Tailwind Dash
+20% Blast Grasp
+
+Seth:
+18% Mimic's Shot (Drive)
+4% Mimic's Burst (Strike)
+15% Mimic's Burst (Burst)
+22% Mimic's Burst (Grasp)
+11% Wyrding Shot (Drive)
+30% Wyrding Burst (Drive)
+
+
+Claus: Blast Grasp
+Seth: Wyrding Burst (Drive)
+
+Priorities:  2 | 2
+Clash!
+
+
+Claus: Blast Strike
+Seth: Wyrding Grasp (Incorrect Guess)
+
+Priorities:  0 | 6
 Seth is active
 Claus moves:
 
-..C..S.
+.CS....
 
 Seth hits
-Claus takes 6 damage (now at 0 life)
-SETH WINS!
-total_time: 19
+Seth moves Claus:
+
+C.S....
+
+Claus takes 2 damage (now at 13 life)
+Claus hits
+Seth takes 4 damage (now at 0 life)
+CLAUS WINS!
+total_time: 18

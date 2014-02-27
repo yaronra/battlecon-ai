@@ -11,23 +11,24 @@ Beat 1
 
 Cesar
 -----
-life: 20
-discard 1: Fueled Strike
-discard 2: Unstoppable Grasp
-special action
+Life: 20
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Grasp
+Special action available
 Threat level: 0
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Grasp
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Hurricane Grasp
+Discard 2: Cyclone Shot
+Special action available
 
 
 .C...c.
 
 Unbeatable strategy for Cesar: Bulwark Dash: 0.05
+
 
 Cesar:
 11% Phalanx Shot
@@ -39,90 +40,87 @@ Claus:
 29% Tailwind Strike
 14% Tailwind Burst
 20% Blast Burst
-36% Blast Dash
+37% Blast Dash
 
 
 Cesar: Bulwark Dash
-Claus: Blast Dash
+Claus: Tailwind Strike
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  7 | 6
+Priorities:  7 | 3
 Cesar is active
 Claus moves:
 
-.C..c..
+.C.c...
 
 Cesar moves:
 
-C...c..
+C..c...
 
 Cesar moves:
 
-...Cc..
+...cC..
 
-Claus moves:
-
-...C..c
-
+Claus misses
 
 Beat 2
 -------
 
 Cesar
 -----
-life: 20
-discard 1: Bulwark Dash
-discard 2: Fueled Strike
-special action
+Life: 20
+Discard 1: Bulwark Dash
+Discard 2: Fueled Strike
+Special action available
 Threat level: 1
 
 Claus
 -----
-life: 20
-discard 1: Blast Dash
-discard 2: Hurricane Grasp
-special action
+Life: 20
+Discard 1: Tailwind Strike
+Discard 2: Hurricane Grasp
+Special action available
 
 
-...C..c
+...cC..
+
 
 Cesar:
-22% Phalanx Shot
-21% Unstoppable Shot
-5% Inevitable Suppression
-28% Inevitable Shot
-24% Inevitable Drive
+3% Phalanx Shot
+11% Unstoppable Shot
+33% Unstoppable Drive
+40% Inevitable Drive
+14% Inevitable Burst
 
 Claus:
-40% Tailwind Tempest
-2% Tailwind Strike
-45% Tailwind Drive
-5% Downdraft Shot
-7% Downdraft Burst
+23% Blast Burst
+22% Blast Dash
+27% Cyclone Shot
+14% Downdraft Tempest
+15% Downdraft Dash
 
 
-Cesar: Phalanx Shot
-Claus: Tailwind Tempest
+Cesar: Inevitable Burst
+Claus: Blast Burst
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  0 | 4
-Claus is active
-Claus moves:
-
-...Cc..
-
-Claus moves Cesar:
-
-C...c..
-
-Cesar takes 3 damage (now at 17 life)
-Claus hits
-Cesar takes 2 damage (now at 15 life)
+Priorities:  1 | -2
+Cesar is active
 Cesar moves:
 
-...Cc..
+...c.C.
+
+Claus moves:
+
+....cC.
+
+Claus moves:
+
+..c..C.
 
 Cesar hits
+Claus is stunned
+Claus will have -3 priority next beat
 Claus takes 5 damage (now at 15 life)
 Claus is stunned
 
@@ -131,111 +129,160 @@ Beat 3
 
 Cesar
 -----
-life: 15
-discard 1: Phalanx Shot
-discard 2: Bulwark Dash
-special action
+Life: 20
+Discard 1: Inevitable Burst
+Discard 2: Bulwark Dash
+Special action available
+Opponent has power penalty: -3
 Threat level: 2
 
 Claus
 -----
-life: 15
-discard 1: Tailwind Tempest
-discard 2: Blast Dash
-special action
+Life: 15
+Discard 1: Blast Burst
+Discard 2: Tailwind Strike
+Special action available
 
 
-...Cc..
+..c..C.
+
 
 Cesar:
-9% Unstoppable Strike
-1% Unstoppable Drive
-16% Fueled Strike
-37% Fueled Burst
-24% Inevitable Drive
-12% Inevitable Grasp
+40% Unstoppable Drive
+60% Fueled Suppression
 
 Claus:
-19% Hurricane Drive
-5% Hurricane Burst
-27% Cyclone Strike
-8% Cyclone Drive
-28% Cyclone Burst
-14% Downdraft Grasp
+12% Downdraft Shot
+88% Special Pulse
 
 
-Cesar: Unstoppable Strike
-Claus: Hurricane Drive
+Cesar: Unstoppable Drive
+Claus: Special Pulse
 
 Cesar gains a Threat Level (current level: 3)
+Pulse:
+
+c..C...
+
+
+Beat 3
+-------
+
+Cesar
+-----
+Life: 20
+Discard 1: Unstoppable Drive
+Discard 2: Inevitable Burst
+Special action available
+Threat level: 3
+
+Claus
+-----
+Life: 15
+Discard 1: Blast Burst
+Discard 2: Tailwind Strike
+
+
+c..C...
+
+Unbeatable strategy for Cesar: Phalanx Suppression: 3.39
+Unbeatable strategy for Cesar: Phalanx Shot: 1.05
+Unbeatable strategy for Cesar: Phalanx Dash: 0.95
+Unbeatable strategy for Cesar: Bulwark Suppression: 3.41
+Unbeatable strategy for Cesar: Bulwark Shot: 1.77
+Unbeatable strategy for Cesar: Bulwark Dash: 1.61
+
+
+Cesar:
+41% Fueled Grasp
+59% Bulwark Suppression
+
+Claus:
+97% Hurricane Drive
+3% Cyclone Drive
+
+
+Cesar: Fueled Grasp
+Claus: Hurricane Drive
+
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  4 | 4
+Clash!
+
+
+Cesar: Fueled Suppression
+Claus: Hurricane Tempest
+
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
 Priorities:  1 | 4
 Claus is active
-Claus moves Cesar:
+Claus moves:
 
-.C..c..
+..cC...
 
-Cesar takes 2 damage (now at 13 life)
-Claus misses
-Cesar misses
+Cesar gains a Threat Level (current level: 0)
+Claus hits
+Cesar takes 4 damage (now at 16 life)
+Cesar is stunned
+Claus will have -4 priority next beat
+Cesar moves:
+
+C.c....
+
 
 Beat 4
 -------
 
 Cesar
 -----
-life: 13
-discard 1: Unstoppable Strike
-discard 2: Phalanx Shot
-special action
-Threat level: 3
+Life: 16
+Discard 1: Fueled Suppression
+Discard 2: Unstoppable Drive
+Special action available
+Threat level: 0
 
 Claus
 -----
-life: 15
-discard 1: Hurricane Drive
-discard 2: Tailwind Tempest
-special action
--4 priority from last beat
+Life: 15
+Discard 1: Hurricane Tempest
+Discard 2: Blast Burst
+Priority bonus: -4
 
 
-.C..c..
+C.c....
 
-Unbeatable strategy for Cesar: Fueled Suppression: 1.63
-Unbeatable strategy for Cesar: Fueled Drive: 0.30
-Unbeatable strategy for Cesar: Bulwark Grasp: 2.57
-Unbeatable strategy for Cesar: Bulwark Dash: 1.99
-Unbeatable strategy for Cesar: Inevitable Burst: 3.52
-Unbeatable strategy for Cesar: Inevitable Grasp: 2.57
-Unbeatable strategy for Cesar: Inevitable Dash: 1.99
+Unbeatable strategy for Claus: Downdraft Dash: -0.51
+
 
 Cesar:
-27% Bulwark Suppression
-33% Bulwark Burst
-17% Inevitable Suppression
-24% Inevitable Burst
+4% Phalanx Strike
+43% Bulwark Strike
+48% Bulwark Shot
+5% Bulwark Burst
 
 Claus:
-11% Blast Strike
-89% Blast Shot
+9% Cyclone Strike
+5% Cyclone Drive
+1% Downdraft Grasp
+86% Downdraft Dash
 
 
-Cesar: Bulwark Suppression
-Claus: Blast Shot
+Cesar: Bulwark Strike
+Claus: Downdraft Dash
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  0 | -5
-Cesar is active
+Cesar gains a Threat Level (current level: 1)
+Priorities:  1 | 4
+Claus is active
 Claus moves:
 
-.C.c...
+C..c...
 
-Claus hits
-Cesar has 2 soak
-Cesar takes 1 damage (now at 12 life)
+Cesar misses
 Cesar moves:
 
-C..c...
+..Cc...
 
 
 Beat 5
@@ -243,54 +290,56 @@ Beat 5
 
 Cesar
 -----
-life: 12
-discard 1: Bulwark Suppression
-discard 2: Unstoppable Strike
-special action
-Threat level: 4
+Life: 16
+Discard 1: Bulwark Strike
+Discard 2: Fueled Suppression
+Special action available
+Threat level: 1
 
 Claus
 -----
-life: 15
-discard 1: Blast Shot
-discard 2: Hurricane Drive
-special action
+Life: 15
+Discard 1: Downdraft Dash
+Discard 2: Hurricane Tempest
 
+
+..Cc...
+
+Unbeatable strategy for Claus: Tailwind Drive: -2.19
+
+
+Cesar:
+98% Phalanx Shot
+2% Inevitable Drive
+
+Claus:
+21% Tailwind Shot
+79% Tailwind Drive
+
+
+Cesar: Phalanx Shot
+Claus: Tailwind Drive
+
+Cesar gains a Threat Level (current level: 2)
+Priorities:  0 | 4
+Claus is active
+Claus moves Cesar:
 
 C..c...
 
-Cesar:
-8% Fueled Shot
-13% Fueled Drive
-51% Inevitable Shot
-28% Inevitable Drive
-
-Claus:
-34% Tailwind Strike
-31% Tailwind Grasp
-1% Cyclone Tempest
-34% Cyclone Burst
-
-
-Cesar: Inevitable Shot
-Claus: Tailwind Grasp
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  2 | 5
-Claus is active
+Cesar takes 2 damage (now at 14 life)
 Claus moves:
 
 C.c....
 
 Claus hits
-Claus moves Cesar:
+Cesar takes 4 damage (now at 10 life)
+Cesar moves:
 
-.Cc....
+..c.C..
 
-Cesar takes 3 damage (now at 9 life)
 Cesar hits
-Claus is stunned
-Claus takes 3 damage (now at 12 life)
+Claus takes 5 damage (now at 10 life)
 Claus is stunned
 
 Beat 6
@@ -298,557 +347,240 @@ Beat 6
 
 Cesar
 -----
-life: 9
-discard 1: Inevitable Shot
-discard 2: Bulwark Suppression
-special action
-Threat level: 0
-Opponent has -3 power this beat
+Life: 10
+Discard 1: Phalanx Shot
+Discard 2: Bulwark Strike
+Special action available
+Threat level: 2
 
 Claus
 -----
-life: 12
-discard 1: Tailwind Grasp
-discard 2: Blast Shot
-special action
+Life: 10
+Discard 1: Tailwind Drive
+Discard 2: Downdraft Dash
 
+
+..c.C..
+
+
+Cesar:
+23% Unstoppable Drive
+66% Fueled Suppression
+11% Inevitable Drive
+
+Claus:
+53% Hurricane Shot
+29% Hurricane Burst
+17% Cyclone Burst
+
+
+Cesar: Fueled Suppression
+Claus: Hurricane Shot
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  1 | 2
+Claus is active
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Claus hits
+Cesar has 2 soak
+Cesar takes 4 damage (now at 6 life)
+Cesar is stunned
+Claus will have -4 priority next beat
+Cesar moves:
 
 .Cc....
 
-Cesar:
-28% Phalanx Drive
-30% Unstoppable Burst
-4% Fueled Strike
-39% Fueled Drive
-
-Claus:
-12% Hurricane Strike
-15% Downdraft Tempest
-32% Downdraft Drive
-40% Downdraft Dash
-
-
-Cesar: Unstoppable Burst
-Claus: Downdraft Dash
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  -1 | 8
-Claus is active
-Cesar moves:
-
-C.c....
-
-Claus moves:
-
-C....c.
-
-Cesar moves:
-
-.C...c.
-
-Cesar misses
 
 Beat 7
 -------
 
 Cesar
 -----
-life: 9
-discard 1: Unstoppable Burst
-discard 2: Inevitable Shot
-special action
-Threat level: 1
+Life: 6
+Discard 1: Fueled Suppression
+Discard 2: Phalanx Shot
+Special action available
+Threat level: 4
 
 Claus
 -----
-life: 12
-discard 1: Downdraft Dash
-discard 2: Tailwind Grasp
-special action
+Life: 10
+Discard 1: Hurricane Shot
+Discard 2: Tailwind Drive
+Priority bonus: -4
 
+
+.Cc....
+
+Unbeatable strategy for Cesar: Bulwark Grasp: 0.63
+
+
+Cesar:
+10% Unstoppable Burst
+79% Bulwark Drive
+8% Bulwark Grasp
+3% Inevitable Grasp
+
+Claus:
+11% Blast Dash
+10% Cyclone Grasp
+43% Cyclone Dash
+36% Downdraft Dash
+
+
+Cesar: Bulwark Drive
+Claus: Downdraft Dash
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  2 | 4
+Claus is active
+Claus moves:
 
 .C...c.
 
-Cesar:
-29% Phalanx Strike
-1% Phalanx Drive
-38% Fueled Drive
-31% Bulwark Suppression
-
-Claus:
-33% Hurricane Strike
-18% Blast Drive
-10% Blast Burst
-39% Cyclone Shot
-
-
-Cesar: Fueled Drive
-Claus: Cyclone Shot
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  3 | 3
-Clash!
-
-Cesar:
-7% Fueled Suppression
-93% Fueled Strike
-
-Claus:
-69% Cyclone Strike
-31% Cyclone Burst
-
-
-Cesar: Fueled Strike
-Claus: Cyclone Strike
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 4
-Claus is active
-Cesar gains a Threat Level (current level: 3)
-Claus misses
 Cesar moves:
 
-...C.c.
+..C..c.
 
 Cesar misses
+Cesar moves:
+
+.....cC
+
 
 Beat 8
 -------
 
 Cesar
 -----
-life: 9
-discard 1: Fueled Strike
-discard 2: Unstoppable Burst
-special action
-Threat level: 3
+Life: 6
+Discard 1: Bulwark Drive
+Discard 2: Fueled Suppression
+Special action available
+Threat level: 0
 
 Claus
 -----
-life: 12
-discard 1: Cyclone Strike
-discard 2: Downdraft Dash
-special action
+Life: 10
+Discard 1: Downdraft Dash
+Discard 2: Hurricane Shot
 
 
-...C.c.
+.....cC
 
-Unbeatable strategy for Cesar: Phalanx Suppression: 1.62
-Unbeatable strategy for Cesar: Bulwark Suppression: 1.62
 
 Cesar:
-36% Phalanx Suppression
-36% Bulwark Suppression
-28% Bulwark Shot
-0% Inevitable Suppression
+5% Phalanx Strike
+15% Unstoppable Strike
+59% Inevitable Shot
+20% Inevitable Grasp
 
 Claus:
-89% Hurricane Drive
-11% Tailwind Burst
+65% Tailwind Strike
+9% Blast Burst
+4% Cyclone Tempest
+22% Cyclone Burst
 
 
-Cesar: Bulwark Shot
-Claus: Hurricane Drive
+Cesar: Inevitable Shot
+Claus: Cyclone Burst
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  0 | 4
+Cesar gains a Threat Level (current level: 1)
+Priorities:  2 | 2
+Clash!
+
+
+Cesar: Inevitable Grasp
+Claus: Cyclone Tempest
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  5 | 5
+Clash!
+
+
+Cesar: Inevitable Strike
+Claus: Cyclone Drive
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  3 | 5
 Claus is active
-Cesar has 2 soak
-Cesar takes 0 damage (now at 9 life)
-Claus moves:
-
-...Cc..
-
 Claus hits
-Cesar has 2 soak
-Cesar takes 4 damage (now at 5 life)
+Cesar takes 4 damage (now at 2 life)
+Cesar hits
+Claus is stunned
+Claus will have -3 priority next beat
+Claus takes 5 damage (now at 5 life)
+Claus is stunned
+Cesar loses 3 life (now at 1)
 
 Beat 9
 -------
 
 Cesar
 -----
-life: 5
-discard 1: Bulwark Shot
-discard 2: Fueled Strike
-special action
-Threat level: 4
-
-Claus
------
-life: 12
-discard 1: Hurricane Drive
-discard 2: Cyclone Strike
-special action
--4 priority from last beat
-
-
-...Cc..
-
-Cesar:
-53% Unstoppable Suppression
-47% Inevitable Suppression
-
-Claus:
-39% Tailwind Tempest
-61% Tailwind Burst
-
-
-Cesar: Inevitable Suppression
-Claus: Tailwind Tempest
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  2 | 0
-Cesar is active
-Cesar hits
-Claus is stunned
-Claus takes 2 damage (now at 10 life)
-Claus is stunned
-Cesar moves:
-
-C...c..
-
-
-Beat 10
--------
-
-Cesar
------
-life: 5
-discard 1: Inevitable Suppression
-discard 2: Bulwark Shot
-special action
-Threat level: 0
-Opponent has -3 power this beat
-
-Claus
------
-life: 10
-discard 1: Tailwind Tempest
-discard 2: Hurricane Drive
-special action
-
-
-C...c..
-
-Unbeatable strategy for Claus: Cyclone Dash: -0.58
-Unbeatable strategy for Claus: Downdraft Dash: -0.78
-
-Cesar:
-4% Phalanx Drive
-8% Unstoppable Strike
-3% Unstoppable Burst
-81% Unstoppable Grasp
-4% Fueled Dash
-
-Claus:
-10% Cyclone Shot
-24% Cyclone Burst
-7% Cyclone Grasp
-30% Cyclone Dash
-29% Downdraft Dash
-
-
-Cesar: Unstoppable Grasp
-Claus: Cyclone Grasp
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  3 | 6
-Claus is active
-Claus misses
-Cesar misses
-
-Beat 11
--------
-
-Cesar
------
-life: 5
-discard 1: Unstoppable Grasp
-discard 2: Inevitable Suppression
-special action
+Life: 1
+Discard 1: Inevitable Strike
+Discard 2: Bulwark Drive
+Special action available
+Opponent has power penalty: -3
 Threat level: 1
 
 Claus
 -----
-life: 10
-discard 1: Cyclone Grasp
-discard 2: Tailwind Tempest
-special action
+Life: 5
+Discard 1: Cyclone Drive
+Discard 2: Downdraft Dash
 
 
-C...c..
+.....cC
 
-Unbeatable strategy for Claus: Downdraft Burst: -1.46
-Unbeatable strategy for Claus: Downdraft Dash: -0.47
 
 Cesar:
-23% Phalanx Drive
-17% Fueled Burst
-60% Bulwark Drive
+32% Fueled Suppression
+32% Fueled Shot
+36% Fueled Grasp
 
 Claus:
-26% Blast Dash
-24% Downdraft Shot
-49% Downdraft Burst
-
-
-Cesar: Fueled Burst
-Claus: Blast Dash
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  0 | 6
-Claus is active
-Claus moves:
-
-C..c...
-
-Cesar gains a Threat Level (current level: 3)
-Claus moves:
-
-C.....c
-
-Cesar moves:
-
-..C...c
-
-Cesar misses
-
-Beat 12
--------
-
-Cesar
------
-life: 5
-discard 1: Fueled Burst
-discard 2: Unstoppable Grasp
-special action
-Threat level: 3
-
-Claus
------
-life: 10
-discard 1: Blast Dash
-discard 2: Cyclone Grasp
-special action
-
-
-..C...c
-
-Unbeatable strategy for Cesar: Phalanx Dash: 0.49
-Unbeatable strategy for Cesar: Bulwark Dash: 0.49
-Unbeatable strategy for Cesar: Inevitable Dash: 0.49
-
-Cesar:
-36% Phalanx Suppression
-36% Bulwark Suppression
-29% Inevitable Suppression
-
-Claus:
-100% Tailwind Strike
-
-
-Cesar: Inevitable Suppression
-Claus: Tailwind Strike
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  2 | 3
-Claus is active
-Claus moves:
-
-..C.c..
-
-Claus hits
-Cesar has 2 soak
-Cesar takes 3 damage (now at 2 life)
-Cesar moves:
-
-....cC.
-
-
-Beat 13
--------
-
-Cesar
------
-life: 2
-discard 1: Inevitable Suppression
-discard 2: Fueled Burst
-special action
-Threat level: 4
-
-Claus
------
-life: 10
-discard 1: Tailwind Strike
-discard 2: Blast Dash
-special action
-
-
-....cC.
-
-Unbeatable strategy for Claus: Cyclone Tempest: -0.53
-Unbeatable strategy for Claus: Cyclone Shot: -0.38
-Unbeatable strategy for Claus: Cyclone Grasp: -0.39
-Unbeatable strategy for Claus: Downdraft Grasp: -0.59
-
-Cesar:
-5% Phalanx Strike
-4% Phalanx Shot
-0% Phalanx Drive
-26% Phalanx Dash
-64% Bulwark Dash
-
-Claus:
-3% Cyclone Tempest
-45% Cyclone Drive
-2% Cyclone Burst
-33% Cyclone Grasp
-17% Downdraft Burst
-
-
-Cesar: Bulwark Dash
-Claus: Cyclone Drive
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  7 | 5
-Cesar is active
-Cesar moves:
-
-..C.c..
-
-Cesar takes 0 damage (now at 2 life)
-Claus moves:
-
-..Cc...
-
-Claus misses
-
-Beat 14
--------
-
-Cesar
------
-life: 2
-discard 1: Bulwark Dash
-discard 2: Inevitable Suppression
-special action
-Threat level: 0
-
-Claus
------
-life: 10
-discard 1: Cyclone Drive
-discard 2: Tailwind Strike
-special action
-
-
-..Cc...
-
-Unbeatable strategy for Claus: Hurricane Tempest: -7.00
-Unbeatable strategy for Claus: Blast Dash: -0.02
-Unbeatable strategy for Claus: Downdraft Tempest: -1.32
-
-Cesar:
-0% Fueled Strike
-17% Fueled Drive
-29% Fueled Burst
-54% Fueled Grasp
-
-Claus:
-8% Hurricane Tempest
-34% Hurricane Grasp
-14% Blast Tempest
-44% Downdraft Tempest
+4% Hurricane Tempest
+6% Hurricane Strike
+7% Hurricane Shot
+7% Hurricane Burst
+6% Hurricane Grasp
+5% Tailwind Tempest
+6% Tailwind Strike
+6% Tailwind Shot
+8% Tailwind Burst
+7% Tailwind Grasp
+4% Blast Tempest
+14% Blast Strike
+7% Blast Shot
+6% Blast Burst
+6% Blast Grasp
 
 
 Cesar: Fueled Grasp
-Claus: Downdraft Tempest
+Claus: Tailwind Grasp
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  4 | 3
-Cesar is active
 Cesar gains a Threat Level (current level: 2)
+Priorities:  4 | 5
+Claus is active
+Cesar gains a Threat Level (current level: 3)
+Claus hits
 Claus moves Cesar:
 
-C..c...
+....Cc.
 
-Cesar takes 2 damage (now at 0 life)
+Cesar takes 0 damage (now at 1 life)
 Cesar moves:
 
-..Cc...
+.....cC
 
 Cesar hits
 Cesar moves Claus:
 
-.cC....
+....c.C
 
-Claus takes 5 damage (now at 5 life)
-Claus is stunned
-
-Beat 15
--------
-
-Cesar
------
-life: 1
-discard 1: Fueled Grasp
-discard 2: Bulwark Dash
-special action
-Threat level: 2
-Defeat immunity used-up
-
-Claus
------
-life: 5
-discard 1: Downdraft Tempest
-discard 2: Cyclone Drive
-special action
-
-
-.cC....
-
-Unbeatable strategy for Claus: Tailwind Strike: -6.00
-Unbeatable strategy for Claus: Tailwind Shot: -6.00
-Unbeatable strategy for Claus: Tailwind Grasp: -6.00
-Unbeatable strategy for Claus: Blast Grasp: -6.00
-
-Cesar:
-6% Phalanx Suppression
-7% Phalanx Strike
-7% Phalanx Shot
-6% Phalanx Drive
-5% Phalanx Burst
-7% Unstoppable Suppression
-7% Unstoppable Strike
-6% Unstoppable Shot
-6% Unstoppable Drive
-6% Unstoppable Burst
-7% Inevitable Suppression
-7% Inevitable Strike
-5% Inevitable Shot
-5% Inevitable Drive
-4% Inevitable Burst
-7% Special Level 4 Protocol
-
-Claus:
-34% Tailwind Strike
-33% Tailwind Shot
-33% Tailwind Grasp
-
-
-Cesar: Inevitable Strike
-Claus: Tailwind Shot
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  3 | 2
-Cesar is active
-Claus moves Cesar:
-
-.c.C...
-
-Cesar takes 1 damage (now at 0 life)
-CLAUS WINS!
-total_time: 13
+Claus takes 6 damage (now at 0 life)
+CESAR WINS!
+total_time: 7

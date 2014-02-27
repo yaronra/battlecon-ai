@@ -38,6 +38,7 @@
 from operator import attrgetter
 from optparse import OptionParser
 import itertools
+import math
 import numpy
 import os.path
 import pstats
@@ -79,8 +80,8 @@ def main():
         play()
     
 def ad_hoc():
-#   duel('gerard', 'kallistar', 1)
-    free_for_all(1, ['gerard'], 'hi', [], True, False)
+#    duel('gerard', 'kallistar', 1)
+    free_for_all(1, ['lesandra'], 'tat', [], True, False)
 
 playable = [ 'abarene',
              'adjenna',
@@ -150,12 +151,13 @@ def test (first=None, beta_bases=False):
             f.write (g+'\n')
         
 def play ():
-    names = sorted([k.capitalize() for k in character_dict.keys()])
+    names = sorted([k.capitalize() for k in playable])
     while True:
         print "Select your character: [1-%d]\n" %len(names)
-        human = names [menu(names)]
-        print "Select AI character: [1-%d]\n" %len(names)
-        ai = names[menu(names)]
+        human = names [menu(names, n_cols=3)]
+        ai_names = [n for n in names if n != human]
+        print "Select AI character: [1-%d]\n" %len(ai_names)
+        ai = names[menu(ai_names, n_cols=3)]
         print "Which set of bases should be used?"
         ans = menu(['Standard bases',
                     'Beta bases',
@@ -302,10 +304,20 @@ def profile (pfile, n=30):
 # input functions
 
 # given a list of strings, prints a menu and prompts for a selection
-def menu (options):
-    # displays numbers 1..n
-    for i,o in enumerate (options):
-        print '[%d] %s' %(i+1,o)
+def menu (options, n_cols=1):
+    options = [str(o) for o in options]
+    col_len = int(math.ceil(len(options) / float(n_cols)))
+    max_width = max([len(o) for o in options])
+    # displays options with numbers 1..n, in n_cols columns
+    for r in xrange(col_len):
+        for c in xrange(n_cols):
+            i = c * col_len + r
+            if i >= len(options):
+                break
+            option = options[i]
+            spaces = ' ' * (max_width + 5 - len(option) - len(str(i+1)))
+            print '[%d] %s%s' % (i+1, option, spaces),
+        print
     # inputs number in range 1..n
     ans = input_number (len(options)+1, 1)
     # but returns answer in range 0..n-1
@@ -518,6 +530,7 @@ class Game:
             self.reporting = True
             log.extend(self.make_pre_attack_decision() + [''])
             if self.interactive:
+                self.dump(log)
                 if self.cheating > 0:
                     self.dump (self.report_solution())
             else:
@@ -2667,11 +2680,14 @@ class Character (object):
     # Mover is player that is actually being moved.
     # direct: the move skips intervening spaces.
     # Moves are relative for indirect moves, absolute for direct moves.
-    def execute_move (self, mover, moves, direct=False):
+    # max_move means you move as much as possible.  It's only relevant
+    # for direct moves, which should give the entire 1 to 6 (or -1 to
+    # -6) range as their moves.
+    def execute_move (self, mover, moves, direct=False, max_move=False):
         self.forced_block = False
         mover_pos = mover.position
         
-        self.inner_execute_move (mover, moves, direct)
+        self.inner_execute_move (mover, moves, direct, max_move)
 
         # Note and report movement
         if mover_pos != mover.position:
@@ -2691,7 +2707,7 @@ class Character (object):
         self.opponent.movement_reaction (mover, mover_pos, direct)
 
     # Does heavy lifting of movement.
-    def inner_execute_move (self, mover, moves, direct):
+    def inner_execute_move (self, mover, moves, direct, max_move):
         mover_pos = mover.position
         # obtain set of attempted destinations
         if direct:
@@ -2720,6 +2736,13 @@ class Character (object):
             else: 
                 unobstructed = set(xrange(7)) - blocked
             possible = list (dests & unobstructed)
+            if max_move:
+                direction = sum(moves) * (self.opponent.position -
+                                          self.position)
+                if direction > 0:
+                    possible = [max(possible)]
+                else:
+                    possible = [min(possible)]
         if possible:
             mover_name = ("" if mover == self else mover.name+" ")
             prompt = "Choose position to move " + mover_name + "to:"
@@ -3334,9 +3357,9 @@ class Abarene(Character):
             card.movement_reaction (mover, old_position, direct)
 
     # Barbed hurts opponent when Adjenna moves her.
-    def execute_move (self, mover, moves, direct=False):
+    def execute_move (self, mover, moves, direct=False, max_move=False):
         old_pos = self.opponent.position
-        Character.execute_move(self, mover, moves, direct)
+        Character.execute_move(self, mover, moves, direct, max_move)
         if self.barbed in self.active_cards:
             self.barbed_life_loss(mover, old_pos, direct)
 
@@ -3430,9 +3453,9 @@ class Adjenna (Character):
             card.movement_reaction (mover, old_position, direct)
 
     # Pacifying hurts opponent when Adjenna moves her.
-    def execute_move (self, mover, moves, direct=False):
+    def execute_move (self, mover, moves, direct=False, max_move=False):
         pos = self.opponent.position
-        Character.execute_move(self, mover, moves, direct)
+        Character.execute_move(self, mover, moves, direct, max_move)
         if (mover is self.opponent and mover.position != pos and
             self.pacifying in self.active_cards):
             self.opponent.lose_life(2) 
@@ -3574,9 +3597,9 @@ class Alexian (Character):
 
     # Record switching sides, for Divider
     # This tracks switching under Alexian's initiative
-    def execute_move (self, mover, moves, direct=False):
+    def execute_move (self, mover, moves, direct=False, max_move=False):
         old_direction = self.position - self.opponent.position
-        Character.execute_move (self, mover, moves, direct)
+        Character.execute_move (self, mover, moves, direct, max_move)
         new_direction = self.position - self.opponent.position
         if old_direction * new_direction < 0:
             self.switched_sides = True
@@ -4400,7 +4423,9 @@ class Claus (Character):
     # 1. Claus is pulled normally by opponents, may switch sides.
     # 2. If Claus would be blocked from moving, pushing doesn't happen
     #    (even if the UA would result in pushing only).
-    def inner_execute_move (self, mover, moves, direct):
+    # NOTE: not implementing max_move, because Claus doesn't have such
+    # movements.
+    def inner_execute_move (self, mover, moves, direct, max_move):
         # Moving opponent (Grasp) happens normally.
         if mover is self.opponent:
             return Character.inner_execute_move(self, mover, moves, direct)
@@ -4565,14 +4590,14 @@ class Clinhyde (Character):
             ret += 1
         return ret
 
-    def execute_move (self, mover, moves, direct=False):
+    def execute_move (self, mover, moves, direct=False, max_move=False):
         # can choose not to move when using Gravity
         new_move = self.position if direct else 0
         if self.style.name == 'Gravity' and \
                        mover == self and \
                        new_move not in moves:
             moves.append(new_move)
-        Character.execute_move (self, mover, moves, direct)
+        Character.execute_move (self, mover, moves, direct, max_move)
 
     def set_preferred_range (self):
         Character.set_preferred_range (self)
@@ -4741,9 +4766,9 @@ class Clive (Character):
             self.game.report ("Clive discards %s" % module.name)
 
     # record switching sides, for Leaping
-    def execute_move (self, mover, moves, direct=False):
+    def execute_move (self, mover, moves, direct=False, max_move=False):
         old_pos = self.position
-        Character.execute_move (self, mover, moves, direct)
+        Character.execute_move (self, mover, moves, direct, max_move)
         if mover == self and \
            ordered (old_pos, self.opponent.position, self.position):
             self.switched_sides = True
@@ -4942,7 +4967,8 @@ class Demitras (Character):
                        Vapid        (the_game, self), \
                        Illusory     (the_game, self), \
                        Jousting     (the_game, self)  ]
-        self.finishers = [SymphonyOfDemise (the_game, self)]
+        self.finishers = [SymphonyOfDemise (the_game, self),
+                          Accelerando      (the_game, self)]
         self.tokens = [Crescendo  (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         self.max_tokens = 5
@@ -5341,9 +5367,9 @@ class Gerard (Character):
             self.removed_mercs.append(self.lackey)
 
     # Keep track of switching sides
-    def execute_move(self, mover, moves, direct=False):
+    def execute_move(self, mover, moves, direct=False, max_move=False):
         old_pos = mover.position
-        Character.execute_move(self, mover, moves, direct=direct)
+        Character.execute_move(self, mover, moves, direct=direct, max_move)
         if ordered(old_pos, mover.opponent.position, mover.position):
             self.switched_sides = True
     def movement_reaction(self, mover, old_position, direct):
@@ -5471,9 +5497,9 @@ class Heketch (Character):
             card.movement_reaction (mover, old_position, direct)
 
     # Apply Merciless when I move opponent.
-    def execute_move (self, mover, moves, direct=False):
+    def execute_move (self, mover, moves, direct=False, max_move=False):
         old_dir = self.opponent.position - self.position
-        Character.execute_move (self, mover, moves, direct)
+        Character.execute_move (self, mover, moves, direct, max_move)
         if mover == self.opponent and self.merciless in self.active_cards:
             new_dir = self.opponent.position - self.position
             if new_dir * old_dir < 0:
@@ -5793,9 +5819,9 @@ class Kajia (Character):
         return self.insects[1] + self.insects[2]
 
     # Give counter when Kajia initiates switch
-    def execute_move (self, mover, moves, direct=False):
+    def execute_move (self, mover, moves, direct=False, max_move=False):
         old_dir = self.opponent.position - self.position
-        Character.execute_move (self, mover, moves, direct)
+        Character.execute_move (self, mover, moves, direct, max_move)
         if mover == self.opponent:
             new_dir = self.opponent.position - self.position
             if new_dir * old_dir < 0:
@@ -6241,8 +6267,8 @@ class Lesandra(Character):
         return Character.all_cards(self) + self.familiars
     
     def choose_initial_discards (self):
-        return (self.pactbreaker, self.unique_base,
-                self.guardian, self.grasp)
+        return (self.guardian, self.unique_base,
+                self.pactbreaker, self.grasp)
 
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -6328,7 +6354,7 @@ class Lesandra(Character):
             options = ["%s (cost: %d life)" % (f.name, 
                          f.get_cost() if f.get_cost() > damage else 0)
                        for f in available_familiars]
-            options.append['None']
+            options.append('None')
         else:
             options = []
         ans = self.game.make_fork(len(available_familiars) + 1, 
@@ -6438,13 +6464,13 @@ class Lixis (Character):
 
     # when Rooted, add 0 as an option to each self-move you perform
     # (if it's direct, add your own position)
-    def execute_move (self, mover, moves, direct=False):
+    def execute_move (self, mover, moves, direct=False, max_move=False):
         new_move = self.position if direct else 0
         if self.style.name == 'Rooted' and \
                        mover == self and \
                        new_move not in moves:
             moves.append(new_move)
-        Character.execute_move (self, mover, moves, direct)
+        Character.execute_move (self, mover, moves, direct, max_move)
 
     def ante_trigger (self):
         if self.virulent_miasma:
@@ -6661,7 +6687,7 @@ class Magdelina (Character):
         # change the bonus.
         self.initial_level = self.level
         if self.level != 0 and self.game.reporting:
-            self.game.report ("Magdelina gets a +%d bonus to power, priority and stungard" % self.level)
+            self.game.report ("Magdelina gets a +%d bonus to power, priority and stunguard" % self.level)
 
     def get_level_bonus(self):
         if self.spiritual in self.active_cards:
@@ -7968,9 +7994,9 @@ class Tanis(Character):
             
     # Record switching sides, for SceneShift
     # This tracks switching under Tanis' initiative
-    def execute_move (self, mover, moves, direct=False):
+    def execute_move (self, mover, moves, direct=False, max_move=False):
         old_direction = self.position - self.opponent.position
-        Character.execute_move (self, mover, moves, direct)
+        Character.execute_move (self, mover, moves, direct, max_move)
         new_direction = self.position - self.opponent.position
         if old_direction * new_direction < 0:
             self.switched_sides = True
@@ -8409,9 +8435,9 @@ class Voco (Character):
                 self.remove_zombies(set([opp]), 1)
 
     # Metal style leaves zombies behind on my move
-    def execute_move (self, mover, moves, direct=False):
+    def execute_move (self, mover, moves, direct=False, max_move=False):
         old_pos = self.position
-        Character.execute_move (self, mover, moves, direct)
+        Character.execute_move (self, mover, moves, direct, max_move)
         if mover==self and isinstance (self.style, Metal):
             # Voco has no direct moves, so assume he passed through all
             # spaces between old position and current position
@@ -8533,13 +8559,13 @@ class Zaamassal (Character):
             
     # when Sturdy, add 0 as an option to each self-move you perform
     # (if it's direct, add your own position)
-    def execute_move (self, mover, moves, direct=False):
+    def execute_move (self, mover, moves, direct=False, max_move=False):
         new_move = self.position if direct else 0
         if self.style.name == 'Sturdy' and \
                        mover == self and \
                        new_move not in moves:
             moves.append(new_move)
-        Character.execute_move (self, mover, moves, direct)
+        Character.execute_move (self, mover, moves, direct, max_move)
 
     def set_preferred_range (self):
         Character.set_preferred_range (self)
@@ -8796,7 +8822,7 @@ class HallicrisSnare(Finisher):
     priority = 5
     def hit_trigger(self):
         old_pos = self.opponent.position
-        self.me.pull(xrange(6))
+        self.me.pull(range(6))
         distance = abs(self.opponent.position - old_pos)
         if ordered(old_pos, self.me.position, self.opponent.position):
             distance -= 1
@@ -9241,14 +9267,14 @@ class Mirrored(Style):
         return self.opponent.attack_range() != 2
     def end_trigger(self):
         # Fork to decide clone location.
-        positions = [i for i in xrange(6) if i not in (self.me.position,
+        positions = [i for i in xrange(7) if i not in (self.me.position,
                                                        self.opponent.position)]
         prompt = "Place clone:"
         options = []
         if self.me.is_user and self.game.interactive_mode:
             for pos in positions:
                 self.me.clone_position = pos
-                options.append (self.get_board_addendum())
+                options.append (self.me.get_board_addendum())
         self.me.clone_position = positions [
             self.game.make_fork(len(positions), self.me, prompt, options)]
         if self.game.reporting:
@@ -9892,7 +9918,7 @@ class Tailwind(Style):
 class Blast(Style):
     maxrange = 1
     priority = -3
-    stungard = 2
+    stunguard = 2
     preferred_range = 1
     def start_trigger(self):
         self.me.advance([1])
@@ -10168,10 +10194,8 @@ class Megaton (Style):
     def hit_trigger (self):
         me = self.me.position
         opp = self.opponent.position
-        # This doesn't really retreat as far as possible, when the
-        # full retreat is blocked.
-        max_retreat = me if me < opp else 6-me
-        self.me.retreat ([max_retreat])
+        self.me.execute_move(self, me, range(-5,0),
+                             direct=False, max_move=True)
         self.me.push ([1])
     ordered_hit_trigger = True
 
@@ -10380,7 +10404,6 @@ class SymphonyOfDemise (Finisher):
     def evaluate_setup (self):
         return 2 if self.game.distance()<6 and len(self.me.pool) < 3 else 0
 
-# NOT IMPLEMENTED
 class Accelerando (Finisher):
     minrange = 1
     maxrange = 2
@@ -10389,10 +10412,8 @@ class Accelerando (Finisher):
     def reduce_stunguard (self, stunguard):
         return 0
     def before_trigger (self):
-        pass
-        # Advance as far as possible - needs a change in execute_move.
-        # Can't just try decreasing amounts, because that might trigger
-        # multiple movement reactions.
+        self.me.execute_move(self.me, range(1,6),
+                             direct=False, max_move=True)
     ordered_before_trigger = True
     def hit_trigger (self):
         if self.me.can_spend (1):
@@ -11855,7 +11876,7 @@ class Summons(Base):
     maxrange = 1
     power = 2
     priority = 2
-    stungard = 3
+    stunguard = 3
     preferred_range = 1
     def start_trigger(self):
         me = self.me.position
@@ -11917,7 +11938,7 @@ class Guardian(Style):
         return 2 if self.me.active_familiar else 0
     # for evaluation
     @property
-    def stungard(self):
+    def stunguard(self):
         return 1 if self.me.active_familiar else 0
     # Cost reduction handled by Familiar.get_cost()
     
@@ -13592,7 +13613,7 @@ class SoulBreaker (Finisher):
     minrange = 1
     maxrange = 1
     power = 3
-    prioirity = 3
+    priority = 3
     def damage_trigger (self, damage):
         self.opponent.stun()
         # MISSING: opponent can't ante, except for mandatory.
@@ -13601,7 +13622,7 @@ class CoffinNails (Finisher):
     minrange = 1
     maxrange = 1
     power = 3
-    prioirity = 3
+    priority = 3
     def damage_trigger (self, damage):
         self.opponent.stun()
         self.me.coffin_nails_hit = True

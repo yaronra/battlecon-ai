@@ -15,13 +15,13 @@ Life: 20
 Discard 1: Regal Dash
 Discard 2: Stalwart Strike
 Special action available
-Opponent has 1 Chivalry tokens
+Lesandra has 1 Chivalry tokens
 
 Lesandra
 --------
 Life: 20
-Discard 1: Pactbreaker Summons
-Discard 2: Guardian Grasp
+Discard 1: Guardian Summons
+Discard 2: Pactbreaker Grasp
 Special action available
 Familiar: Borneo
 
@@ -45,29 +45,16 @@ Lesandra:
 
 
 Alexian: Steeled Divider
-Lesandra: Binding Shot (Borneo) | (1 Chivalry token)
+Lesandra: Binding Strike (Borneo) | (1 Chivalry token)
 
 Lesandra antes a Chivalry token
-Priorities:  1 | 1
-Clash!
-
-
-Alexian: Steeled Shot
-Lesandra: Binding Burst (Borneo) | (1 Chivalry token)
-
-Lesandra antes a Chivalry token
-Priorities:  1 | 0
-Alexian is active
-Lesandra moves:
-
-.A....L
-
+Priorities:  1 | 2
+Lesandra is active
+Lesandra misses
 Alexian misses
-Lesandra hits
-Alexian has 4 soak
-Alexian takes 0 damage (now at 20 life)
 Lesandra summons her Wyvern
 Lesandra loses 1 life (now at 19)
+Lesandra gains 1 Chivalry token
 
 Beat 2
 -------
@@ -75,657 +62,480 @@ Beat 2
 Alexian
 -------
 Life: 20
-Discard 1: Steeled Shot
+Discard 1: Steeled Divider
 Discard 2: Regal Dash
 Special action available
-Opponent has 0 Chivalry tokens
+Lesandra has 1 Chivalry tokens
 
 Lesandra
 --------
 Life: 19
-Discard 1: Binding Burst
-Discard 2: Pactbreaker Summons
+Discard 1: Binding Strike
+Discard 2: Guardian Summons
 Special action available
 Familiar: Wyvern
 
 
-.A....L
-
-Unbeatable strategy for Lesandra: Invocation Strike (Wyvern): -1.52
-Unbeatable strategy for Lesandra: Guardian Shot (Wyvern): -0.03
+.A...L.
 
 
 Alexian:
-22% Stalwart Drive
-63% Mighty Divider
-15% Special Pulse
+4% Gestalt Drive
+60% Stalwart Shot
+2% Stalwart Drive
+2% Mighty Shot
+24% Mighty Burst
+7% Mighty Grasp
 
 Lesandra:
-28% Invocation Strike
-65% Invocation Strike (Wyvern)
-7% Invocation Grasp (Wyvern)
+3% Invocation Shot (Wyvern) | (1 Chivalry token)
+5% Invocation Drive
+29% Invocation Drive | (1 Chivalry token)
+31% Invocation Drive (Wyvern) | (1 Chivalry token)
+29% Invocation Burst | (1 Chivalry token)
+4% Invocation Burst (Wyvern) | (1 Chivalry token)
 
 
-Alexian: Mighty Divider
-Lesandra: Invocation Strike
+Alexian: Stalwart Shot
+Lesandra: Invocation Burst | (1 Chivalry token)
 
-Priorities:  3 | 1
-Alexian is active
-Alexian misses
-Lesandra misses
+Lesandra antes a Chivalry token
+Priorities:  -1 | 0
+Lesandra is active
+Lesandra moves:
+
+.A....L
+
+Lesandra hits
+Alexian takes 6 damage (now at 14 life)
+Alexian moves:
+
+...A..L
+
+Alexian gets +2 power
+Alexian hits
 Lesandra gains 1 Chivalry token
+Lesandra banishes her Wyvern for Soak 2
+Lesandra has 2 soak
+Lesandra takes 4 damage (now at 15 life)
+Lesandra is stunned
+Lesandra gets -4 power
+Lesandra summons her Raven Knight
 
 Beat 3
 -------
 
 Alexian
 -------
-Life: 20
-Discard 1: Mighty Divider
-Discard 2: Steeled Shot
+Life: 14
+Discard 1: Stalwart Shot
+Discard 2: Steeled Divider
 Special action available
-Opponent has 1 Chivalry tokens
+Lesandra has 1 Chivalry tokens
 
 Lesandra
 --------
-Life: 19
-Discard 1: Invocation Strike
-Discard 2: Binding Burst
+Life: 15
+Discard 1: Invocation Burst
+Discard 2: Binding Strike
 Special action available
-Familiar: Wyvern
+Familiar: Raven Knight
 
 
-.A....L
-
-Unbeatable strategy for Lesandra: Guardian Shot (Wyvern): -2.12
+...A..L
 
 
 Alexian:
-23% Regal Drive
-69% Stalwart Drive
-7% Stalwart Grasp
-1% Special Pulse
+19% Gestalt Drive
+6% Regal Drive
+10% Regal Dash
+14% Mighty Strike
+10% Mighty Drive
+29% Mighty Burst
+12% Mighty Dash
 
 Lesandra:
-43% Pactbreaker Shot (Wyvern) | (1 Chivalry token)
-37% Guardian Summons (Wyvern)
-3% Guardian Shot
-17% Guardian Drive (Wyvern) | (1 Chivalry token)
+17% Pactbreaker Shot (Raven Knight)
+49% Guardian Summons
+2% Guardian Shot
+3% Guardian Shot (Raven Knight) | (1 Chivalry token)
+4% Guardian Drive
+4% Window Shot | (1 Chivalry token)
+21% Window Drive | (1 Chivalry token)
 
 
-Alexian: Stalwart Drive
-Lesandra: Pactbreaker Shot (Wyvern) | (1 Chivalry token)
+Alexian: Mighty Strike
+Lesandra: Window Drive | (1 Chivalry token)
 
 Lesandra antes a Chivalry token
-Priorities:  1 | 4
+Priorities:  4 | 6
 Lesandra is active
 Lesandra moves:
 
-LA.....
+...AL..
 
 Lesandra hits
-Alexian takes 5 damage (now at 15 life)
-Alexian hits
-Lesandra gains 1 Chivalry token
-Lesandra takes 4 damage (now at 15 life)
-Lesandra is stunned
-Lesandra summons her Raven Knight
+Lesandra banishes her Raven Knight
+Lesandra moves Alexian:
+
+....L.A
+
+Alexian has 1 soak
+Alexian takes 3 damage (now at 11 life)
+Alexian misses
+Lesandra summons her Wyvern
 
 Beat 4
 -------
 
 Alexian
 -------
-Life: 15
-Discard 1: Stalwart Drive
-Discard 2: Mighty Divider
+Life: 11
+Discard 1: Mighty Strike
+Discard 2: Stalwart Shot
 Special action available
-Opponent has 1 Chivalry tokens
+Lesandra has 0 Chivalry tokens
 
 Lesandra
 --------
 Life: 15
-Discard 1: Pactbreaker Shot
-Discard 2: Invocation Strike
+Discard 1: Window Drive
+Discard 2: Invocation Burst
 Special action available
-Familiar: Raven Knight
+Familiar: Wyvern
 
 
-LA.....
+....L.A
 
-Unbeatable strategy for Lesandra: Binding Dash: -1.32
-Unbeatable strategy for Lesandra: Binding Dash | (1 Chivalry token): -0.82
-Unbeatable strategy for Lesandra: Guardian Dash: -0.46
-Unbeatable strategy for Lesandra: Window Dash: -0.22
+Unbeatable strategy for Lesandra: Binding Dash: -0.35
 
 
 Alexian:
-9% Gestalt Burst
-1% Regal Strike
-89% Regal Shot
-1% Steeled Strike
+15% Regal Drive
+6% Regal Burst
+20% Regal Dash
+31% Steeled Drive
+28% Steeled Dash
 
 Lesandra:
-2% Binding Burst (Raven Knight)
-83% Binding Dash
-3% Guardian Drive
-12% Guardian Drive (Raven Knight)
+10% Pactbreaker Strike (Wyvern)
+5% Binding Summons
+17% Binding Strike
+2% Binding Grasp
+66% Binding Dash
 
 
-Alexian: Regal Shot
+Alexian: Steeled Dash
 Lesandra: Binding Dash
 
-Priorities:  3 | 7
-Lesandra is active
-Alexian loses 1 life (now at 14)
+Priorities:  8 | 7
+Alexian is active
+Alexian moves:
+
+...AL..
+
+Alexian loses 1 life (now at 10)
+Alexian gets -1 power
 Lesandra moves:
 
-.A..L..
+L..A...
 
-Alexian misses
 
 Beat 5
 -------
 
 Alexian
 -------
-Life: 14
-Discard 1: Regal Shot
-Discard 2: Stalwart Drive
+Life: 10
+Discard 1: Steeled Dash
+Discard 2: Mighty Strike
 Special action available
-Opponent has 1 Chivalry tokens
+Lesandra has 0 Chivalry tokens
 
 Lesandra
 --------
 Life: 15
 Discard 1: Binding Dash
-Discard 2: Pactbreaker Shot
+Discard 2: Window Drive
 Special action available
-Familiar: Raven Knight
+Familiar: Wyvern
 
 
-.A..L..
-
-Unbeatable strategy for Lesandra: Invocation Strike: -0.98
-Unbeatable strategy for Lesandra: Invocation Burst: -0.45
-Unbeatable strategy for Lesandra: Guardian Burst: -1.08
-Unbeatable strategy for Lesandra: Guardian Burst | (1 Chivalry token): -0.48
+L..A...
 
 
 Alexian:
-0% Gestalt Burst
-53% Gestalt Dash
-5% Mighty Strike
-3% Mighty Burst
-31% Mighty Dash
-1% Steeled Divider
-6% Steeled Dash
+11% Regal Shot
+19% Regal Drive
+6% Regal Burst
+19% Stalwart Divider
+46% Stalwart Drive
 
 Lesandra:
-4% Invocation Summons
-25% Invocation Strike
-8% Invocation Drive
-3% Invocation Grasp (Raven Knight) | (1 Chivalry token)
-43% Guardian Strike
-16% Guardian Burst
-1% Window Drive (Raven Knight) | (1 Chivalry token)
-
-
-Alexian: Gestalt Dash
-Lesandra: Guardian Strike
-
-Priorities:  8 | 2
-Alexian is active
-Alexian moves:
-
-....LA.
-
-Lesandra misses
-Alexian loses 1 life (now at 13)
-
-Beat 6
--------
-
-Alexian
--------
-Life: 13
-Discard 1: Gestalt Dash
-Discard 2: Regal Shot
-Special action available
-Opponent has 1 Chivalry tokens
-
-Lesandra
---------
-Life: 15
-Discard 1: Guardian Strike
-Discard 2: Binding Dash
-Special action available
-Familiar: Raven Knight
-
-
-....LA.
-
-
-Alexian:
-36% Stalwart Divider
-42% Stalwart Strike
-8% Stalwart Drive
-15% Mighty Divider
-
-Lesandra:
-16% Invocation Burst | (1 Chivalry token)
-2% Invocation Burst (Raven Knight) | (1 Chivalry token)
-27% Pactbreaker Shot (Raven Knight) | (1 Chivalry token)
-55% Special Pulse
-
-
-Alexian: Stalwart Strike
-Lesandra: Special Pulse
-
-Pulse:
-
-A.....L
-
-
-Beat 6
--------
-
-Alexian
--------
-Life: 13
-Discard 1: Stalwart Strike
-Discard 2: Gestalt Dash
-Special action available
-Opponent has 1 Chivalry tokens
-
-Lesandra
---------
-Life: 15
-Discard 1: Guardian Strike
-Discard 2: Binding Dash
-Familiar: Raven Knight
-
-
-A.....L
-
-
-Alexian:
-14% Regal Drive
-7% Mighty Drive
-78% Mighty Grasp
-1% Steeled Burst
-
-Lesandra:
-1% Invocation Summons | (1 Chivalry token)
-5% Invocation Burst
-22% Window Burst
-72% Window Grasp
+2% Invocation Strike (Wyvern)
+32% Invocation Grasp
+5% Invocation Grasp (Wyvern)
+11% Pactbreaker Strike (Wyvern)
+50% Guardian Strike (Wyvern)
 
 
 Alexian: Regal Drive
-Lesandra: Window Grasp
+Lesandra: Guardian Strike (Wyvern)
 
-Priorities:  5 | 6
-Lesandra is active
-Lesandra misses
-Alexian loses 1 life (now at 12)
+Priorities:  5 | 2
+Alexian is active
 Alexian moves:
 
-..A...L
+LA.....
 
-Alexian misses
+Alexian hits
+Lesandra gains 1 Chivalry token
+Lesandra takes 4 damage (now at 11 life)
+Lesandra moves:
+
+.A.L...
+
+Lesandra hits
+Alexian takes 5 damage (now at 5 life)
+Alexian is stunned
+Lesandra summons her Rune Knight
+
+Beat 6
+-------
+
+Alexian
+-------
+Life: 5
+Discard 1: Regal Drive
+Discard 2: Steeled Dash
+Special action available
+Lesandra has 1 Chivalry tokens
+
+Lesandra
+--------
+Life: 11
+Discard 1: Guardian Strike
+Discard 2: Binding Dash
+Special action available
+Familiar: Rune Knight
+
+
+.A.L...
+
+Unbeatable strategy for Lesandra: Pactbreaker Shot (Rune Knight) | (1 Chivalry token): -0.10
+
+
+Alexian:
+19% Gestalt Divider
+16% Stalwart Divider
+40% Mighty Shot
+5% Mighty Burst
+20% Special Hail the King
+
+Lesandra:
+2% Invocation Shot
+23% Invocation Shot | (1 Chivalry token)
+4% Invocation Drive | (1 Chivalry token)
+38% Invocation Burst | (1 Chivalry token)
+34% Pactbreaker Drive (Rune Knight) | (1 Chivalry token)
+
+
+Alexian: Stalwart Divider
+Lesandra: Invocation Shot | (1 Chivalry token)
+
+Lesandra antes a Chivalry token
+Priorities:  -1 | 1
+Lesandra is active
+Lesandra hits
+Alexian has 2 soak
+Alexian takes 4 damage (now at 1 life)
+Alexian moves:
+
+..AL...
+
+Alexian gets +1 power
+Alexian hits
+Lesandra gains 1 Chivalry token
+Lesandra banishes her Rune Knight for Soak 2
+Lesandra has 2 soak
+Lesandra takes 4 damage (now at 7 life)
+Lesandra is stunned
+Lesandra gets -4 power
+Lesandra summons her Rune Knight
+Lesandra gains 1 Chivalry token
 
 Beat 7
 -------
 
 Alexian
 -------
-Life: 12
-Discard 1: Regal Drive
-Discard 2: Stalwart Strike
+Life: 1
+Discard 1: Stalwart Divider
+Discard 2: Regal Drive
 Special action available
-Opponent has 1 Chivalry tokens
+Lesandra has 2 Chivalry tokens
 
 Lesandra
 --------
-Life: 15
-Discard 1: Window Grasp
+Life: 7
+Discard 1: Invocation Shot
 Discard 2: Guardian Strike
-Familiar: Raven Knight
+Special action available
+Familiar: Rune Knight
 
 
-..A...L
+..AL...
+
+Unbeatable strategy for Lesandra: Binding Drive: -0.04
 
 
 Alexian:
-2% Gestalt Shot
-25% Mighty Shot
-23% Mighty Burst
-19% Mighty Dash
-7% Steeled Divider
-24% Steeled Burst
+32% Gestalt Dash
+33% Mighty Burst
+32% Mighty Dash
+4% Special Empire Divider
 
 Lesandra:
-11% Invocation Summons | (1 Chivalry token)
-12% Invocation Shot | (1 Chivalry token)
-1% Invocation Drive | (1 Chivalry token)
-49% Binding Shot | (1 Chivalry token)
-20% Binding Drive | (1 Chivalry token)
-8% Binding Burst
+33% Binding Dash | (1 Chivalry token)
+21% Window Drive
+18% Window Drive | (2 Chivalry tokens)
+28% Window Dash
 
 
-Alexian: Steeled Burst
-Lesandra: Binding Shot | (1 Chivalry token)
+Alexian: Gestalt Dash
+Lesandra: Window Drive
 
-Lesandra antes a Chivalry token
-Priorities:  0 | 1
-Lesandra is active
+Priorities:  8 | 5
+Alexian is active
 Alexian moves:
 
-A.....L
+...L.A.
 
-Alexian loses 1 life (now at 11)
-Alexian gets -1 power
-Lesandra hits
-Alexian has 5 soak
-Alexian takes 0 damage (now at 11 life)
-Alexian loses 1 life (now at 10)
-Alexian moves:
+Lesandra moves:
 
-....A.L
+....LA.
 
-Alexian loses 1 life (now at 9)
-Alexian gets -1 power
-Alexian hits
-Lesandra gains 1 Chivalry token
-Lesandra takes 3 damage (now at 12 life)
+Lesandra misses
 
 Beat 8
 -------
 
 Alexian
 -------
-Life: 9
-Discard 1: Steeled Burst
-Discard 2: Regal Drive
+Life: 1
+Discard 1: Gestalt Dash
+Discard 2: Stalwart Divider
 Special action available
-Opponent has 1 Chivalry tokens
+Lesandra has 2 Chivalry tokens
 
 Lesandra
 --------
-Life: 12
-Discard 1: Binding Shot
-Discard 2: Window Grasp
-Familiar: Raven Knight
+Life: 7
+Discard 1: Window Drive
+Discard 2: Invocation Shot
+Special action available
+Familiar: Rune Knight
 
 
-....A.L
+....LA.
+
+Unbeatable strategy for Lesandra: Binding Summons: -0.57
+Unbeatable strategy for Lesandra: Binding Summons | (1 Chivalry token): -0.07
 
 
 Alexian:
-14% Gestalt Divider
-6% Stalwart Divider
-54% Stalwart Strike
-26% Stalwart Grasp
+2% Regal Strike
+17% Regal Grasp
+25% Mighty Drive
+25% Mighty Burst
+14% Mighty Grasp
+8% Special Pulse
+8% Special Empire Divider
 
 Lesandra:
-2% Invocation Strike
-15% Invocation Strike | (1 Chivalry token)
-75% Invocation Dash
-7% Guardian Strike | (1 Chivalry token)
+30% Pactbreaker Strike (Rune Knight) | (2 Chivalry tokens)
+5% Pactbreaker Grasp (Rune Knight) | (2 Chivalry tokens)
+17% Binding Summons
+19% Binding Burst
+16% Guardian Summons (Rune Knight)
+2% Guardian Grasp | (2 Chivalry tokens)
+11% Special Invoke Duststalker | (1 Chivalry token)
 
 
-Alexian: Gestalt Divider
-Lesandra: Invocation Dash
+Alexian: Mighty Burst
+Lesandra: Pactbreaker Strike (Rune Knight) | (2 Chivalry tokens)
 
-Priorities:  1 | 7
+Lesandra antes a Chivalry token
+Lesandra antes a Chivalry token
+Priorities:  2 | 6
 Lesandra is active
-Alexian loses 1 life (now at 8)
-Lesandra moves:
+Alexian moves:
 
-..L.A..
+....L.A
 
-Alexian misses
+Lesandra misses
+Alexian hits
 Lesandra gains 1 Chivalry token
+Lesandra has 2 soak
+Lesandra takes 1 damage (now at 6 life)
 
 Beat 9
 -------
 
 Alexian
 -------
-Life: 8
-Discard 1: Gestalt Divider
-Discard 2: Steeled Burst
+Life: 1
+Discard 1: Mighty Burst
+Discard 2: Gestalt Dash
 Special action available
-Opponent has 2 Chivalry tokens
+Lesandra has 1 Chivalry tokens
 
 Lesandra
 --------
-Life: 12
-Discard 1: Invocation Dash
-Discard 2: Binding Shot
-Familiar: Raven Knight
-
-
-..L.A..
-
-Unbeatable strategy for Alexian: Stalwart Shot: 0.26
-
-
-Alexian:
-17% Regal Dash
-2% Stalwart Strike
-60% Stalwart Shot
-15% Stalwart Dash
-2% Mighty Shot
-5% Mighty Dash
-
-Lesandra:
-7% Pactbreaker Strike (Raven Knight) | (2 Chivalry tokens)
-0% Pactbreaker Burst (Raven Knight) | (2 Chivalry tokens)
-60% Guardian Strike | (1 Chivalry token)
-4% Guardian Strike (Raven Knight) | (2 Chivalry tokens)
-15% Guardian Drive | (2 Chivalry tokens)
-13% Guardian Burst | (2 Chivalry tokens)
-
-
-Alexian: Stalwart Shot
-Lesandra: Guardian Strike | (1 Chivalry token)
-
-Lesandra antes a Chivalry token
-Priorities:  -1 | 3
-Lesandra is active
-Lesandra hits
-Alexian takes 6 damage (now at 2 life)
-Alexian loses 1 life (now at 1)
-Alexian moves:
-
-..LA...
-
-Alexian gets +1 power
-Alexian hits
-Lesandra gains 1 Chivalry token
-Lesandra takes 5 damage (now at 7 life)
-Lesandra summons her Rune Knight
-
-Beat 10
--------
-
-Alexian
--------
-Life: 1
-Discard 1: Stalwart Shot
-Discard 2: Gestalt Divider
+Life: 6
+Discard 1: Pactbreaker Strike
+Discard 2: Window Drive
 Special action available
-Opponent has 2 Chivalry tokens
-
-Lesandra
---------
-Life: 7
-Discard 1: Guardian Strike
-Discard 2: Invocation Dash
-Familiar: Rune Knight
+Familiar: None
 
 
-..LA...
+....L.A
 
-Unbeatable strategy for Lesandra: Binding Shot: -1.12
-Unbeatable strategy for Lesandra: Binding Shot | (1 Chivalry token): -0.62
-Unbeatable strategy for Lesandra: Binding Shot | (2 Chivalry tokens): -0.12
-Unbeatable strategy for Lesandra: Binding Drive: -0.10
-Unbeatable strategy for Lesandra: Binding Grasp: -0.57
-Unbeatable strategy for Lesandra: Binding Grasp | (1 Chivalry token): -0.07
-Unbeatable strategy for Lesandra: Window Shot: -1.02
-Unbeatable strategy for Lesandra: Window Shot | (1 Chivalry token): -0.52
-Unbeatable strategy for Lesandra: Window Shot | (2 Chivalry tokens): -0.02
+Unbeatable strategy for Lesandra: Binding Shot | (1 Chivalry token): -6.00
 
 
 Alexian:
-6% Regal Strike
-68% Mighty Dash
-21% Steeled Dash
-5% Special Empire Divider
+5% Regal Divider
+5% Regal Strike
+6% Regal Shot
+5% Regal Drive
+6% Regal Grasp
+3% Stalwart Divider
+6% Stalwart Strike
+5% Stalwart Shot
+7% Stalwart Drive
+5% Stalwart Grasp
+7% Steeled Divider
+5% Steeled Strike
+5% Steeled Shot
+5% Steeled Drive
+5% Steeled Grasp
+10% Special Empire Divider
+9% Special Hail the King
 
 Lesandra:
-32% Binding Shot
-53% Binding Burst
-10% Window Shot | (2 Chivalry tokens)
-5% Window Grasp | (2 Chivalry tokens)
+50% Special Invoke Duststalker
+50% Special Invoke Duststalker | (1 Chivalry token)
 
 
-Alexian: Steeled Dash
-Lesandra: Binding Burst
+Alexian: Stalwart Drive
+Lesandra: Special Invoke Duststalker
 
-Priorities:  8 | -1
-Alexian is active
-Lesandra moves:
-
-L..A...
-
-Alexian moves:
-
-LA.....
-
-Alexian loses 1 life (now at 1)
-Alexian gets -1 power
-Lesandra misses
-
-Beat 11
--------
-
-Alexian
--------
-Life: 1
-Discard 1: Steeled Dash
-Discard 2: Stalwart Shot
-Special action available
-Opponent has 2 Chivalry tokens
-
-Lesandra
---------
-Life: 7
-Discard 1: Binding Burst
-Discard 2: Guardian Strike
-Familiar: Rune Knight
-
-
-LA.....
-
-Unbeatable strategy for Lesandra: Window Shot: -6.00
-Unbeatable strategy for Lesandra: Window Shot | (1 Chivalry token): -6.00
-Unbeatable strategy for Lesandra: Window Shot | (2 Chivalry tokens): -6.00
-Unbeatable strategy for Lesandra: Window Drive: -2.31
-Unbeatable strategy for Lesandra: Window Drive | (1 Chivalry token): -6.00
-Unbeatable strategy for Lesandra: Window Drive | (2 Chivalry tokens): -6.00
-
-
-Alexian:
-2% Gestalt Burst
-24% Regal Divider
-12% Regal Drive
-15% Regal Grasp
-6% Mighty Divider
-4% Special Empire Divider
-38% Special Hail the King
-
-Lesandra:
-37% Invocation Dash
-5% Pactbreaker Grasp (Rune Knight)
-14% Window Shot
-27% Window Shot | (2 Chivalry tokens)
-6% Window Shot (Rune Knight)
-6% Window Drive (Rune Knight)
-5% Window Drive (Rune Knight) | (1 Chivalry token)
-
-
-Alexian: Special Hail the King
-Lesandra: Window Shot | (2 Chivalry tokens)
-
-Lesandra antes a Chivalry token
-Lesandra antes a Chivalry token
-Priorities:  0 | 5
+Priorities:  1 | 5
 Lesandra is active
+Lesandra loses 5 life (now at 1)
+Lesandra gets +5 power
 Lesandra hits
-Lesandra banishes her Rune Knight
-Alexian has 6 soak
-Alexian takes 0 damage (now at 1 life)
-Alexian hits
-Lesandra gains 1 Chivalry token
-Lesandra takes 5 damage (now at 2 life)
-Lesandra is stunned
-Lesandra summons her Rune Knight
-Lesandra loses 4 life (now at 1)
-
-Beat 12
--------
-
-Alexian
--------
-Life: 1
-Discard 1: Steeled Dash
-Discard 2: Stalwart Shot
-Opponent has 1 Chivalry tokens
-
-Lesandra
---------
-Life: 1
-Discard 1: Window Shot
-Discard 2: Binding Burst
-Familiar: Rune Knight
-
-
-LA.....
-
-
-Alexian:
-26% Gestalt Drive
-23% Gestalt Burst
-50% Regal Grasp
-
-Lesandra:
-88% Invocation Dash
-2% Pactbreaker Drive (Rune Knight)
-6% Pactbreaker Drive (Rune Knight) | (1 Chivalry token)
-2% Pactbreaker Grasp (Rune Knight)
-0% Guardian Drive | (1 Chivalry token)
-1% Guardian Drive (Rune Knight) | (1 Chivalry token)
-
-
-Alexian: Gestalt Burst
-Lesandra: Pactbreaker Drive (Rune Knight) | (1 Chivalry token)
-
-Lesandra antes a Chivalry token
-Priorities:  0 | 6
-Lesandra is active
-Alexian moves:
-
-L.A....
-
-Lesandra moves:
-
-.LA....
-
-Lesandra hits
-Alexian takes 5 damage (now at 0 life)
+Alexian takes 8 damage (now at 0 life)
 LESANDRA WINS!
-total_time: 72
+total_time: 52

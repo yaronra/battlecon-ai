@@ -12,8 +12,8 @@ Beat 1
 Lesandra
 --------
 Life: 20
-Discard 1: Pactbreaker Summons
-Discard 2: Guardian Grasp
+Discard 1: Guardian Summons
+Discard 2: Pactbreaker Grasp
 Special action available
 Familiar: Borneo
 
@@ -70,7 +70,7 @@ Lesandra
 --------
 Life: 16
 Discard 1: Window Strike
-Discard 2: Pactbreaker Summons
+Discard 2: Guardian Summons
 Special action available
 Familiar: Rune Knight
 
@@ -88,7 +88,7 @@ pool: AP, Explosive, Flash, Impact, Swift
 
 Lesandra:
 13% Binding Drive
-27% Binding Drive (Rune Knight)
+26% Binding Drive (Rune Knight)
 15% Binding Grasp
 46% Binding Dash
 
@@ -99,10 +99,18 @@ Rukyuk:
 28% Point Blank Burst (Explosive)
 
 
-Lesandra: Binding Dash
-Rukyuk: Point Blank Burst (Explosive)
+Lesandra: Binding Drive
+Rukyuk: Point Blank Shot (Flash)
 
-Rukyuk antes an Explosive token
+Rukyuk antes a Flash token
+Priorities:  2 | 2
+Clash!
+
+
+Lesandra: Binding Dash
+Rukyuk: Point Blank Burst (Flash)
+
+Rukyuk antes a Flash token
 Priorities:  7 | 1
 Lesandra is active
 Rukyuk moves:
@@ -113,16 +121,24 @@ Rukyuk loses 1 life (now at 15)
 Rukyuk gets -1 power
 Lesandra moves:
 
-L.....R
+....L.R
 
-Rukyuk misses
+Rukyuk hits
+Lesandra takes 2 damage (now at 14 life)
+Rukyuk moves Lesandra:
+
+..L...R
+
+Rukyuk loses 1 life (now at 14)
+Rukyuk gets -1 power
+Lesandra is stunned
 
 Beat 3
 -------
 
 Lesandra
 --------
-Life: 16
+Life: 14
 Discard 1: Binding Dash
 Discard 2: Window Strike
 Special action available
@@ -130,58 +146,54 @@ Familiar: Rune Knight
 
 Rukyuk
 ------
-Life: 15
+Life: 14
 Discard 1: Point Blank Burst
 Discard 2: Gunner Strike
 Special action available
-pool: AP, Flash, Impact, Swift
+pool: AP, Explosive, Impact, Swift
 
 
-L.....R
+..L...R
 
 
 Lesandra:
-32% Invocation Summons
-7% Invocation Shot
-50% Invocation Drive
-11% Pactbreaker Summons (Rune Knight)
+83% Invocation Summons
+9% Invocation Drive
+0% Pactbreaker Drive (Rune Knight)
+9% Guardian Drive
 
 Rukyuk:
-6% Sniper Reload
-6% Sniper Reload (AP)
-6% Sniper Reload (Flash)
-6% Sniper Reload (Impact)
-8% Sniper Reload (Swift)
-24% Sniper Drive (AP)
-7% Sniper Drive (Flash)
-37% Crossfire Reload (AP)
+15% Sniper Shot (Explosive)
+61% Sniper Dash
+15% Crossfire Reload (Explosive)
+9% Crossfire Shot (AP)
 
 
 Lesandra: Invocation Summons
-Rukyuk: Sniper Drive (AP)
+Rukyuk: Sniper Dash
 
-Rukyuk antes an AP token
-Priorities:  0 | 6
+Priorities:  0 | 11
 Rukyuk is active
 Lesandra moves Rukyuk:
 
-LR.....
+..LR...
 
-Rukyuk misses
 Rukyuk moves:
 
-L..R...
+.RL....
 
-Lesandra hits
-Rukyuk takes 4 damage (now at 11 life)
-Rukyuk is stunned
+Rukyuk moves:
+
+..L..R.
+
+Lesandra misses
 
 Beat 4
 -------
 
 Lesandra
 --------
-Life: 16
+Life: 14
 Discard 1: Invocation Summons
 Discard 2: Binding Dash
 Special action available
@@ -189,31 +201,33 @@ Familiar: Rune Knight
 
 Rukyuk
 ------
-Life: 11
-Discard 1: Sniper Drive
+Life: 14
+Discard 1: Sniper Dash
 Discard 2: Point Blank Burst
 Special action available
-pool: Flash, Impact, Swift
+pool: AP, Explosive, Impact, Swift
 
 
-L..R...
-
-Unbeatable strategy for Rukyuk: Crossfire Reload (Swift): -0.10
+..L..R.
 
 
 Lesandra:
-19% Pactbreaker Drive (Rune Knight)
-1% Guardian Grasp
-10% Window Strike
-70% Window Drive
+1% Pactbreaker Shot (Rune Knight)
+15% Pactbreaker Drive (Rune Knight)
+9% Guardian Shot
+35% Guardian Shot (Rune Knight)
+2% Guardian Drive
+5% Window Strike
+33% Window Drive
 
 Rukyuk:
-16% Gunner Reload (Swift)
-4% Crossfire Reload
-4% Crossfire Reload (Flash)
-4% Crossfire Reload (Impact)
-70% Crossfire Reload (Swift)
-2% Crossfire Grasp (Swift)
+2% Gunner Strike (Impact)
+10% Gunner Grasp (AP)
+5% Gunner Grasp (Explosive)
+53% Crossfire Reload (Swift)
+8% Crossfire Strike (AP)
+10% Crossfire Grasp (AP)
+12% Crossfire Grasp (Swift)
 
 
 Lesandra: Window Drive
@@ -224,16 +238,16 @@ Priorities:  5 | 4
 Lesandra is active
 Lesandra moves:
 
-..LR...
+...L.R.
 
 Lesandra hits
 Lesandra banishes her Rune Knight
 Lesandra moves Rukyuk:
 
-.RL....
+..RL...
 
 Rukyuk has 2 soak
-Rukyuk takes 1 damage (now at 10 life)
+Rukyuk takes 1 damage (now at 13 life)
 Rukyuk is stunned
 Lesandra summons her Borneo
 
@@ -242,7 +256,7 @@ Beat 5
 
 Lesandra
 --------
-Life: 16
+Life: 14
 Discard 1: Window Drive
 Discard 2: Invocation Summons
 Special action available
@@ -250,47 +264,53 @@ Familiar: Borneo
 
 Rukyuk
 ------
-Life: 10
+Life: 13
 Discard 1: Crossfire Reload
-Discard 2: Sniper Drive
+Discard 2: Sniper Dash
 Special action available
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-.RL....
+..RL...
 
 
 Lesandra:
 3% Pactbreaker Strike (Borneo)
+2% Pactbreaker Shot (Borneo)
+1% Pactbreaker Burst (Borneo)
 7% Pactbreaker Grasp (Borneo)
-6% Binding Strike
-15% Binding Grasp (Borneo)
-64% Binding Dash
-5% Guardian Strike
+11% Binding Strike
+19% Binding Grasp (Borneo)
+57% Binding Dash
+1% Guardian Strike
 
 Rukyuk:
-12% Point Blank Strike (Impact)
-2% Point Blank Strike (Swift)
-10% Point Blank Shot (Explosive)
-3% Point Blank Shot (Swift)
-35% Gunner Strike (Longshot)
-38% Trick Dash
+1% Point Blank Strike (Flash)
+10% Point Blank Strike (Swift)
+33% Point Blank Shot (Flash)
+1% Point Blank Shot (Swift)
+18% Point Blank Burst (Longshot)
+5% Gunner Drive (Explosive)
+12% Gunner Drive (Flash)
+19% Gunner Grasp (Longshot)
 
 
 Lesandra: Binding Dash
-Rukyuk: Trick Dash
+Rukyuk: Gunner Grasp (Longshot)
 
-Priorities:  7 | 6
+Rukyuk antes a Longshot token
+Priorities:  7 | 5
 Lesandra is active
 Lesandra moves:
 
-.R.L...
+.LR....
 
+Rukyuk misses
 Rukyuk moves:
 
-R..L...
+.L..R..
 
-Rukyuk loses 1 life (now at 9)
+Rukyuk loses 1 life (now at 12)
 Rukyuk gets -1 power
 
 Beat 6
@@ -298,7 +318,7 @@ Beat 6
 
 Lesandra
 --------
-Life: 16
+Life: 14
 Discard 1: Binding Dash
 Discard 2: Window Drive
 Special action available
@@ -306,60 +326,43 @@ Familiar: Borneo
 
 Rukyuk
 ------
-Life: 9
-Discard 1: Trick Dash
+Life: 12
+Discard 1: Gunner Grasp
 Discard 2: Crossfire Reload
 Special action available
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+pool: AP, Explosive, Flash, Impact, Swift
 
 
-R..L...
-
-Unbeatable strategy for Rukyuk: Point Blank Shot (Impact): -0.08
-Unbeatable strategy for Rukyuk: Point Blank Shot (Swift): -0.32
-Unbeatable strategy for Rukyuk: Gunner Drive (Explosive): -1.81
-Unbeatable strategy for Rukyuk: Gunner Drive (Flash): -1.07
+.L..R..
 
 
 Lesandra:
-12% Invocation Summons
-1% Invocation Shot
-16% Invocation Grasp
-29% Guardian Strike (Borneo)
-4% Guardian Burst (Borneo)
-36% Guardian Grasp (Borneo)
+53% Invocation Summons
+7% Invocation Strike
+10% Invocation Grasp
+18% Pactbreaker Strike (Borneo)
+12% Guardian Summons
 
 Rukyuk:
-5% Point Blank Strike (Longshot)
-14% Point Blank Shot (Explosive)
-13% Point Blank Grasp (Longshot)
-3% Gunner Strike (Explosive)
-39% Gunner Drive (Explosive)
-26% Gunner Drive (Impact)
+48% Sniper Dash
+0% Point Blank Strike (Explosive)
+11% Point Blank Shot (Explosive)
+8% Point Blank Shot (Flash)
+33% Point Blank Drive (Explosive)
 
 
-Lesandra: Invocation Grasp
-Rukyuk: Gunner Drive (Explosive)
+Lesandra: Invocation Strike
+Rukyuk: Point Blank Shot (Flash)
 
-Rukyuk antes an Explosive token
-Priorities:  3 | 4
+Rukyuk antes a Flash token
+Priorities:  1 | 2
 Rukyuk is active
-Rukyuk spends an AP token
-Rukyuk gains -1/+1 range
-Rukyuk moves:
-
-.R.L...
-
 Rukyuk hits
 Lesandra banishes her Borneo for Soak 2
 Lesandra has 2 soak
-Lesandra takes 3 damage (now at 13 life)
+Lesandra takes 1 damage (now at 13 life)
 Lesandra is stunned
-Lesandra gets -3 power
-Rukyuk moves:
-
-R..L...
-
+Lesandra gets -1 power
 Lesandra summons her Borneo
 Lesandra loses 1 life (now at 12)
 
@@ -369,508 +372,448 @@ Beat 7
 Lesandra
 --------
 Life: 12
-Discard 1: Invocation Grasp
+Discard 1: Invocation Strike
 Discard 2: Binding Dash
 Special action available
 Familiar: Borneo
 
 Rukyuk
 ------
-Life: 9
-Discard 1: Gunner Drive
-Discard 2: Trick Dash
+Life: 12
+Discard 1: Point Blank Shot
+Discard 2: Gunner Grasp
 Special action available
-pool: Flash, Impact, Longshot, Swift
+pool: AP, Explosive, Impact, Swift
 
 
-R..L...
+.L..R..
+
+Unbeatable strategy for Lesandra: Window Drive: 2.25
 
 
 Lesandra:
-3% Guardian Burst (Borneo)
-58% Window Strike
-29% Window Drive
-10% Window Burst
+100% Window Drive
 
 Rukyuk:
-48% Sniper Grasp (Longshot)
-19% Point Blank Strike (Impact)
-16% Point Blank Shot (Impact)
-17% Point Blank Grasp (Longshot)
+100% Sniper Dash
 
 
 Lesandra: Window Drive
-Rukyuk: Point Blank Strike (Impact)
+Rukyuk: Sniper Dash
 
-Rukyuk antes an Impact token
-Priorities:  5 | 3
-Lesandra is active
-Lesandra moves:
+Priorities:  5 | 11
+Rukyuk is active
+Rukyuk moves:
 
 RL.....
 
-Lesandra hits
-Lesandra banishes her Borneo
-Lesandra moves Rukyuk:
+Rukyuk moves:
 
 .LR....
 
-Rukyuk takes 3 damage (now at 6 life)
-Rukyuk hits
-Lesandra takes 4 damage (now at 8 life)
-Rukyuk moves Lesandra:
+Lesandra moves:
 
-L.R....
+..RL...
 
-Lesandra is stunned
-Lesandra summons her Wyvern
+Lesandra misses
 
 Beat 8
 -------
 
 Lesandra
 --------
-Life: 8
+Life: 12
 Discard 1: Window Drive
-Discard 2: Invocation Grasp
+Discard 2: Invocation Strike
 Special action available
-Familiar: Wyvern
+Familiar: Borneo
 
 Rukyuk
 ------
-Life: 6
-Discard 1: Point Blank Strike
-Discard 2: Gunner Drive
+Life: 12
+Discard 1: Sniper Dash
+Discard 2: Point Blank Shot
 Special action available
-pool: Flash, Longshot, Swift
+pool: AP, Explosive, Impact, Swift
 
-
-L.R....
-
-
-Lesandra:
-6% Pactbreaker Summons (Wyvern)
-58% Pactbreaker Strike (Wyvern)
-0% Binding Strike
-0% Binding Strike (Wyvern)
-19% Guardian Strike
-17% Guardian Strike (Wyvern)
-
-Rukyuk:
-2% Crossfire Reload
-2% Crossfire Reload (Swift)
-8% Trick Reload
-1% Trick Reload (Flash)
-12% Trick Reload (Swift)
-75% Special Pulse
-
-
-Lesandra: Pactbreaker Strike (Wyvern)
-Rukyuk: Trick Reload (Swift)
-
-Rukyuk antes a Swift token
-Priorities:  4 | 3
-Lesandra is active
-Lesandra moves:
 
 ..RL...
 
+Unbeatable strategy for Rukyuk: Crossfire Reload: -0.06
+Unbeatable strategy for Rukyuk: Crossfire Reload (AP): -0.06
+Unbeatable strategy for Rukyuk: Crossfire Reload (Explosive): -0.06
+Unbeatable strategy for Rukyuk: Crossfire Reload (Impact): -0.06
+Unbeatable strategy for Rukyuk: Crossfire Reload (Swift): -0.45
+
+
+Lesandra:
+25% Pactbreaker Shot (Borneo)
+69% Binding Shot (Borneo)
+6% Guardian Grasp (Borneo)
+
+Rukyuk:
+5% Gunner Drive (Explosive)
+20% Crossfire Reload
+19% Crossfire Reload (AP)
+18% Crossfire Reload (Explosive)
+19% Crossfire Reload (Impact)
+18% Crossfire Reload (Swift)
+
+
+Lesandra: Pactbreaker Shot (Borneo)
+Rukyuk: Crossfire Reload (Explosive)
+
+Rukyuk antes an Explosive token
+Priorities:  3 | 2
+Lesandra is active
 Lesandra hits
-Rukyuk takes 5 damage (now at 1 life)
-Rukyuk moves:
-
-R..L...
-
-Lesandra summons her Rune Knight
+Rukyuk has 2 soak
+Rukyuk takes 2 damage (now at 10 life)
+Rukyuk is stunned
+Lesandra summons her Wyvern
 
 Beat 9
 -------
 
 Lesandra
 --------
-Life: 8
-Discard 1: Pactbreaker Strike
+Life: 12
+Discard 1: Pactbreaker Shot
 Discard 2: Window Drive
 Special action available
-Familiar: Rune Knight
+Familiar: Wyvern
 
 Rukyuk
 ------
-Life: 1
-Discard 1: Trick Reload
-Discard 2: Point Blank Strike
+Life: 10
+Discard 1: Crossfire Reload
+Discard 2: Sniper Dash
 Special action available
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-R..L...
+..RL...
 
 
 Lesandra:
-57% Invocation Dash
-14% Binding Shot (Rune Knight)
-19% Binding Burst
-1% Binding Grasp
-9% Binding Grasp (Rune Knight)
+8% Binding Strike
+4% Binding Strike (Wyvern)
+68% Binding Dash
+10% Guardian Strike (Wyvern)
+1% Guardian Burst (Wyvern)
+10% Guardian Grasp (Wyvern)
 
 Rukyuk:
-3% Sniper Drive
-75% Sniper Dash
-9% Gunner Shot (Flash)
-6% Gunner Drive (Flash)
-8% Gunner Drive (Impact)
+25% Point Blank Shot (Flash)
+4% Point Blank Grasp (Flash)
+12% Point Blank Grasp (Swift)
+29% Gunner Shot
+3% Gunner Shot (Flash)
+26% Gunner Drive (Flash)
 
 
-Lesandra: Binding Burst
-Rukyuk: Sniper Dash
+Lesandra: Binding Dash
+Rukyuk: Point Blank Shot (Flash)
 
-Priorities:  -1 | 11
-Rukyuk is active
-Lesandra moves:
-
-R....L.
-
-Rukyuk moves:
-
-.R...L.
-
-Rukyuk loses 1 life (now at 1)
-Rukyuk gets -1 power
-Rukyuk moves:
-
-....RL.
-
-Rukyuk loses 1 life (now at 1)
-Rukyuk gets -1 power
-Lesandra misses
-
-Beat 10
--------
-
-Lesandra
---------
-Life: 8
-Discard 1: Binding Burst
-Discard 2: Pactbreaker Strike
-Special action available
-Familiar: Rune Knight
-
-Rukyuk
-------
-Life: 1
-Discard 1: Sniper Dash
-Discard 2: Trick Reload
-Special action available
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
-
-
-....RL.
-
-
-Lesandra:
-3% Guardian Summons
-6% Guardian Drive
-18% Guardian Grasp
-71% Window Drive
-2% Window Grasp
-
-Rukyuk:
-1% Point Blank Grasp (Explosive)
-10% Point Blank Grasp (Flash)
-3% Gunner Burst (Explosive)
-16% Crossfire Grasp (Swift)
-70% Special Pulse
-
-
-Lesandra: Window Drive
-Rukyuk: Special Pulse
-
-Pulse:
-
-L.....R
-
-
-Beat 10
--------
-
-Lesandra
---------
-Life: 8
-Discard 1: Window Drive
-Discard 2: Binding Burst
-Special action available
-Familiar: Rune Knight
-
-Rukyuk
-------
-Life: 1
-Discard 1: Sniper Dash
-Discard 2: Trick Reload
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
-
-
-L.....R
-
-
-Lesandra:
-31% Invocation Summons
-20% Invocation Shot
-5% Pactbreaker Summons (Rune Knight)
-9% Guardian Summons
-2% Guardian Summons (Rune Knight)
-6% Guardian Shot
-27% Guardian Dash (Rune Knight)
-
-Rukyuk:
-6% Point Blank Strike (Explosive)
-37% Point Blank Grasp (Impact)
-7% Gunner Strike (Explosive)
-3% Gunner Drive (Explosive)
-15% Crossfire Shot (AP)
-6% Crossfire Shot (Swift)
-26% Crossfire Burst (Swift)
-
-
-Lesandra: Guardian Dash (Rune Knight)
-Rukyuk: Point Blank Grasp (Impact)
-
-Rukyuk antes an Impact token
-Priorities:  8 | 5
+Rukyuk antes a Flash token
+Priorities:  7 | 2
 Lesandra is active
 Lesandra moves:
 
-...L..R
+.LR....
 
 Rukyuk misses
-Lesandra summons her Borneo
-Lesandra loses 1 life (now at 7)
+
+Beat 10
+-------
+
+Lesandra
+--------
+Life: 12
+Discard 1: Binding Dash
+Discard 2: Pactbreaker Shot
+Special action available
+Familiar: Wyvern
+
+Rukyuk
+------
+Life: 10
+Discard 1: Point Blank Shot
+Discard 2: Crossfire Reload
+Special action available
+pool: AP, Explosive, Impact, Longshot, Swift
+
+
+.LR....
+
+
+Lesandra:
+23% Guardian Strike (Wyvern)
+77% Window Drive
+
+Rukyuk:
+61% Sniper Dash
+39% Gunner Strike (Longshot)
+
+
+Lesandra: Guardian Strike (Wyvern)
+Rukyuk: Gunner Strike (Longshot)
+
+Rukyuk antes a Longshot token
+Priorities:  2 | 3
+Rukyuk is active
+Rukyuk spends an AP token
+Rukyuk gains -1/+1 range
+Rukyuk hits
+Lesandra takes 4 damage (now at 8 life)
+Rukyuk moves:
+
+RL.....
+
+Lesandra moves:
+
+R.L....
+
+Lesandra hits
+Rukyuk takes 5 damage (now at 5 life)
+Lesandra summons her Rune Knight
 
 Beat 11
 -------
 
 Lesandra
 --------
-Life: 7
-Discard 1: Guardian Dash
-Discard 2: Window Drive
+Life: 8
+Discard 1: Guardian Strike
+Discard 2: Binding Dash
 Special action available
-Familiar: Borneo
+Familiar: Rune Knight
 
 Rukyuk
 ------
-Life: 1
-Discard 1: Point Blank Grasp
-Discard 2: Sniper Dash
-pool: AP, Explosive, Flash, Longshot, Swift
+Life: 5
+Discard 1: Gunner Strike
+Discard 2: Point Blank Shot
+Special action available
+pool: Explosive, Impact, Swift
 
 
-...L..R
+R.L....
 
-Unbeatable strategy for Rukyuk: Gunner Drive (Flash): -0.92
+Unbeatable strategy for Rukyuk: Sniper Dash: -1.03
+Unbeatable strategy for Rukyuk: Sniper Dash (Impact): -0.01
+Unbeatable strategy for Rukyuk: Crossfire Reload: -0.13
+Unbeatable strategy for Rukyuk: Crossfire Reload (Explosive): -0.13
+Unbeatable strategy for Rukyuk: Crossfire Reload (Impact): -0.13
+Unbeatable strategy for Rukyuk: Crossfire Reload (Swift): -0.35
+Unbeatable strategy for Rukyuk: Crossfire Dash: -0.10
+Unbeatable strategy for Rukyuk: Trick Reload: -0.13
+Unbeatable strategy for Rukyuk: Trick Reload (Explosive): -0.13
+Unbeatable strategy for Rukyuk: Trick Reload (Impact): -0.13
+Unbeatable strategy for Rukyuk: Trick Reload (Swift): -1.25
 
 
 Lesandra:
-21% Pactbreaker Strike (Borneo)
-32% Binding Strike
-29% Binding Grasp
-9% Special Invoke Duststalker
-9% Special Invoke Duststalker (Borneo)
+1% Invocation Drive
+17% Invocation Grasp
+45% Pactbreaker Drive (Rune Knight)
+5% Window Summons
+33% Window Burst
 
 Rukyuk:
-0% Gunner Strike (Flash)
-71% Gunner Drive (Flash)
-28% Gunner Drive (Swift)
-1% Crossfire Shot (Longshot)
+0% Sniper Reload
+0% Sniper Reload (Explosive)
+0% Sniper Reload (Impact)
+0% Sniper Reload (Swift)
+60% Sniper Dash
+23% Crossfire Reload (Swift)
+2% Trick Reload
+2% Trick Reload (Explosive)
+2% Trick Reload (Impact)
+11% Trick Reload (Swift)
 
 
-Lesandra: Binding Grasp
-Rukyuk: Gunner Drive (Flash)
+Lesandra: Window Burst
+Rukyuk: Trick Reload (Swift)
 
-Rukyuk antes a Flash token
-Priorities:  3 | 4
+Rukyuk antes a Swift token
+Priorities:  2 | 3
 Rukyuk is active
-Rukyuk spends an AP token
-Rukyuk gains -1/+1 range
+Lesandra moves:
+
+R..L...
+
 Rukyuk moves:
 
-...L.R.
+..RL...
 
-Rukyuk loses 1 life (now at 1)
-Rukyuk gets -1 power
-Rukyuk hits
-Lesandra takes 2 damage (now at 5 life)
-Lesandra is stunned
-Rukyuk moves:
-
-...L..R
-
-Rukyuk loses 1 life (now at 1)
-Rukyuk gets -1 power
+Lesandra misses
 
 Beat 12
 -------
 
 Lesandra
 --------
-Life: 5
-Discard 1: Binding Grasp
-Discard 2: Guardian Dash
+Life: 8
+Discard 1: Window Burst
+Discard 2: Guardian Strike
 Special action available
-Familiar: Borneo
+Familiar: Rune Knight
 
 Rukyuk
 ------
-Life: 1
-Discard 1: Gunner Drive
-Discard 2: Point Blank Grasp
-pool: Explosive, Longshot, Swift
+Life: 5
+Discard 1: Trick Reload
+Discard 2: Gunner Strike
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
-
-...L..R
-
-Unbeatable strategy for Rukyuk: Sniper Dash: -0.30
-
-
-Lesandra:
-51% Invocation Summons
-27% Window Summons
-22% Window Shot
-
-Rukyuk:
-0% Sniper Strike (Longshot)
-100% Sniper Dash
-0% Crossfire Reload
-0% Crossfire Reload (Explosive)
-0% Crossfire Reload (Longshot)
-
-
-Lesandra: Invocation Summons
-Rukyuk: Sniper Dash
-
-Priorities:  0 | 11
-Rukyuk is active
-Lesandra moves Rukyuk:
 
 ..RL...
 
-Rukyuk moves:
 
-...LR..
+Lesandra:
+12% Invocation Drive
+26% Pactbreaker Drive (Rune Knight)
+23% Binding Drive
+5% Binding Drive (Rune Knight)
+34% Binding Dash
 
-Rukyuk moves:
+Rukyuk:
+5% Sniper Shot
+26% Sniper Dash
+6% Point Blank Grasp (Flash)
+25% Crossfire Shot
+38% Crossfire Drive
 
-R..L...
 
-Lesandra misses
+Lesandra: Pactbreaker Drive (Rune Knight)
+Rukyuk: Crossfire Shot
+
+Priorities:  5 | 0
+Lesandra is active
+Lesandra moves:
+
+.LR....
+
+Lesandra hits
+Rukyuk has 2 soak
+Rukyuk takes 2 damage (now at 3 life)
+Rukyuk misses
+Lesandra summons her Wyvern
 
 Beat 13
 -------
 
 Lesandra
 --------
-Life: 5
-Discard 1: Invocation Summons
-Discard 2: Binding Grasp
+Life: 8
+Discard 1: Pactbreaker Drive
+Discard 2: Window Burst
 Special action available
-Familiar: Borneo
+Familiar: Wyvern
+
+Rukyuk
+------
+Life: 3
+Discard 1: Crossfire Shot
+Discard 2: Trick Reload
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
+
+
+.LR....
+
+
+Lesandra:
+4% Binding Summons (Wyvern)
+11% Binding Shot (Wyvern)
+6% Binding Grasp (Wyvern)
+72% Binding Dash
+7% Guardian Grasp (Wyvern)
+
+Rukyuk:
+75% Sniper Dash
+12% Point Blank Strike (Flash)
+7% Point Blank Drive (Flash)
+5% Gunner Strike
+0% Gunner Burst (Flash)
+
+
+Lesandra: Binding Dash
+Rukyuk: Sniper Dash
+
+Priorities:  7 | 11
+Rukyuk is active
+Rukyuk moves:
+
+RL.....
+
+Rukyuk loses 1 life (now at 2)
+Rukyuk gets -1 power
+Rukyuk moves:
+
+.LR....
+
+Rukyuk loses 1 life (now at 1)
+Rukyuk gets -1 power
+Lesandra moves:
+
+..RL...
+
+
+Beat 14
+-------
+
+Lesandra
+--------
+Life: 8
+Discard 1: Binding Dash
+Discard 2: Pactbreaker Drive
+Special action available
+Familiar: Wyvern
 
 Rukyuk
 ------
 Life: 1
 Discard 1: Sniper Dash
-Discard 2: Gunner Drive
-pool: Explosive, Longshot, Swift
+Discard 2: Crossfire Shot
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-R..L...
-
-Unbeatable strategy for Lesandra: Window Drive: 6.00
+..RL...
 
 
 Lesandra:
-33% Window Drive
-33% Special Invoke Duststalker
-33% Special Invoke Duststalker (Borneo)
+21% Invocation Burst
+5% Guardian Burst
+36% Window Strike
+38% Window Grasp
 
 Rukyuk:
-2% Point Blank Reload
-2% Point Blank Reload (Explosive)
-2% Point Blank Reload (Longshot)
-2% Point Blank Reload (Swift)
-2% Point Blank Strike
-2% Point Blank Strike (Explosive)
-2% Point Blank Strike (Longshot)
-2% Point Blank Strike (Swift)
-2% Point Blank Shot
-1% Point Blank Shot (Explosive)
-1% Point Blank Shot (Longshot)
-2% Point Blank Shot (Swift)
-2% Point Blank Burst
-1% Point Blank Burst (Explosive)
-1% Point Blank Burst (Longshot)
-1% Point Blank Burst (Swift)
-2% Point Blank Grasp
-2% Point Blank Grasp (Explosive)
-4% Point Blank Grasp (Longshot)
-2% Point Blank Grasp (Swift)
-2% Crossfire Reload
-2% Crossfire Reload (Explosive)
-2% Crossfire Reload (Longshot)
-2% Crossfire Reload (Swift)
-2% Crossfire Strike
-1% Crossfire Strike (Explosive)
-1% Crossfire Strike (Longshot)
-1% Crossfire Strike (Swift)
-2% Crossfire Shot
-1% Crossfire Shot (Explosive)
-1% Crossfire Shot (Longshot)
-1% Crossfire Shot (Swift)
-2% Crossfire Burst
-2% Crossfire Burst (Explosive)
-1% Crossfire Burst (Longshot)
-1% Crossfire Burst (Swift)
-2% Crossfire Grasp
-1% Crossfire Grasp (Explosive)
-2% Crossfire Grasp (Longshot)
-3% Crossfire Grasp (Swift)
-1% Trick Reload
-1% Trick Reload (Explosive)
-1% Trick Reload (Longshot)
-2% Trick Reload (Swift)
-2% Trick Strike
-2% Trick Strike (Explosive)
-1% Trick Strike (Longshot)
-2% Trick Strike (Swift)
-2% Trick Shot
-1% Trick Shot (Explosive)
-1% Trick Shot (Longshot)
-1% Trick Shot (Swift)
-2% Trick Burst
-1% Trick Burst (Explosive)
-2% Trick Burst (Longshot)
-1% Trick Burst (Swift)
-2% Trick Grasp
-2% Trick Grasp (Explosive)
-1% Trick Grasp (Longshot)
-2% Trick Grasp (Swift)
+36% Point Blank Grasp (Flash)
+38% Point Blank Grasp (Swift)
+25% Gunner Strike (Explosive)
+0% Gunner Strike (Impact)
 
 
-Lesandra: Window Drive
-Rukyuk: Trick Strike (Explosive)
+Lesandra: Window Grasp
+Rukyuk: Point Blank Grasp (Flash)
 
-Rukyuk antes an Explosive token
-Priorities:  5 | 0
+Rukyuk antes a Flash token
+Priorities:  6 | 5
 Lesandra is active
-Lesandra moves:
-
-RL.....
-
 Lesandra hits
-Lesandra banishes her Borneo
+Lesandra banishes her Wyvern
 Lesandra moves Rukyuk:
 
-.LR....
+...LR..
 
-Rukyuk takes 3 damage (now at 0 life)
+Lesandra moves Rukyuk:
+
+..RL...
+
+Rukyuk takes 2 damage (now at 0 life)
 LESANDRA WINS!
-total_time: 406
+total_time: 844

@@ -11,21 +11,22 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Grasp
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Hurricane Grasp
+Discard 2: Cyclone Shot
+Special action available
 
 Luc
 ---
-life: 20
-discard 1: Eternal Flash
-discard 2: Fusion Strike
-special action
+Life: 20
+Discard 1: Eternal Flash
+Discard 2: Fusion Strike
+Special action available
 2 Time tokens
 
 
 .C...L.
+
 
 Claus:
 41% Tailwind Tempest
@@ -40,27 +41,23 @@ Luc:
 40% Chrono Drive
 
 
-Claus: Tailwind Tempest
+Claus: Tailwind Strike
 Luc: Chrono Drive
 
-Priorities:  4 | 5
+Priorities:  3 | 5
 Luc is active
 Claus moves:
 
 ..C..L.
 
-Claus moves Luc:
+Luc moves:
 
-....C.L
+..CL...
 
-Luc takes 1 damage (now at 19 life)
-Luc is stunned
-Claus moves:
-
-....C.L
-
+Luc hits
+Claus takes 3 damage (now at 17 life)
 Claus hits
-Luc takes 2 damage (now at 17 life)
+Luc takes 5 damage (now at 15 life)
 Luc is stunned
 Luc gains 1 Time token
 
@@ -69,53 +66,68 @@ Beat 2
 
 Claus
 -----
-life: 20
-discard 1: Tailwind Tempest
-discard 2: Hurricane Grasp
-special action
+Life: 17
+Discard 1: Tailwind Strike
+Discard 2: Hurricane Grasp
+Special action available
 
 Luc
 ---
-life: 17
-discard 1: Chrono Drive
-discard 2: Eternal Flash
-special action
+Life: 15
+Discard 1: Chrono Drive
+Discard 2: Eternal Flash
+Special action available
 3 Time tokens
 
 
-....C.L
+..CL...
+
 
 Claus:
-4% Cyclone Shot
-26% Cyclone Drive
-14% Downdraft Shot
-9% Downdraft Drive
-38% Downdraft Burst
-8% Downdraft Dash
+22% Blast Drive
+12% Blast Dash
+7% Cyclone Tempest
+51% Downdraft Tempest
+8% Downdraft Burst
 
 Luc:
-27% Memento Dash
-3% Fusion Strike (3 tokens)
-5% Fusion Grasp (3 tokens)
-2% Feinting Strike (3 tokens)
-14% Feinting Shot (3 tokens)
-49% Feinting Dash
+1% Memento Shot (1 token)
+3% Memento Dash (3 tokens)
+6% Fusion Burst (1 token)
+3% Fusion Dash (3 tokens)
+4% Feinting Strike (3 tokens)
+85% Feinting Dash (3 tokens)
 
 
 Claus: Downdraft Burst
-Luc: Memento Dash
+Luc: Feinting Dash (3 tokens)
 
-Priorities:  0 | 8
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  0 | 7
 Luc is active
-Claus moves:
+Luc moves:
 
-..C...L
+..C.L..
 
 Luc moves:
 
-..CL...
+.LC....
+
+Claus moves:
+
+.L.C...
+
+Luc moves:
+
+..LC...
 
 Claus misses
+Luc moves:
+
+...CL..
+
 Luc gains 1 Time token
 
 Beat 3
@@ -123,48 +135,60 @@ Beat 3
 
 Claus
 -----
-life: 20
-discard 1: Downdraft Burst
-discard 2: Tailwind Tempest
-special action
+Life: 17
+Discard 1: Downdraft Burst
+Discard 2: Tailwind Strike
+Special action available
 
 Luc
 ---
-life: 17
-discard 1: Memento Dash
-discard 2: Chrono Drive
-special action
-4 Time tokens
+Life: 15
+Discard 1: Feinting Dash
+Discard 2: Chrono Drive
+Special action available
+1 Time tokens
 
 
-..CL...
+...CL..
 
-Unbeatable strategy for Luc: Eternal Shot: -1.23
 
 Claus:
-14% Hurricane Shot
-86% Cyclone Dash
+31% Hurricane Tempest
+15% Hurricane Shot
+11% Hurricane Grasp
+43% Blast Dash
 
 Luc:
-82% Eternal Shot
-2% Eternal Shot (3 tokens)
-16% Feinting Shot (3 tokens)
+23% Eternal Strike
+36% Eternal Shot
+24% Eternal Burst
+18% Fusion Strike
 
 
-Claus: Cyclone Dash
-Luc: Eternal Shot
+Claus: Hurricane Tempest
+Luc: Fusion Strike
 
-Priorities:  10 | -2
+Priorities:  4 | 4
+Clash!
+
+
+Claus: Hurricane Drive
+Luc: Fusion Burst
+
+Priorities:  4 | 2
 Claus is active
-Claus moves Luc:
+Luc moves:
 
-..C...L
+...C..L
 
-Luc has 1 soak
-Luc takes 2 damage (now at 15 life)
-Luc hits
-Claus takes 3 damage (now at 17 life)
-Claus is stunned
+Claus moves:
+
+.....CL
+
+Claus hits
+Luc takes 6 damage (now at 9 life)
+Luc is stunned
+Claus will have -4 priority next beat
 Luc gains 1 Time token
 
 Beat 4
@@ -172,66 +196,49 @@ Beat 4
 
 Claus
 -----
-life: 17
-discard 1: Cyclone Dash
-discard 2: Downdraft Burst
-special action
+Life: 17
+Discard 1: Hurricane Drive
+Discard 2: Downdraft Burst
+Special action available
+Priority bonus: -4
 
 Luc
 ---
-life: 15
-discard 1: Eternal Shot
-discard 2: Memento Dash
-special action
-5 Time tokens
+Life: 9
+Discard 1: Fusion Burst
+Discard 2: Feinting Dash
+Special action available
+2 Time tokens
 
 
-..C...L
+.....CL
+
 
 Claus:
-40% Hurricane Tempest
-5% Tailwind Tempest
-28% Tailwind Strike
-15% Tailwind Shot
-12% Tailwind Drive
+35% Tailwind Strike
+44% Cyclone Strike
+21% Cyclone Dash
 
 Luc:
-0% Fusion Drive
-5% Fusion Drive (1 token)
-5% Feinting Strike (3 tokens)
-42% Feinting Grasp (1 token)
-0% Chrono Drive
-38% Chrono Drive (1 token)
-10% Chrono Burst (1 token)
+31% Eternal Grasp
+38% Memento Strike
+31% Memento Drive
 
 
-Claus: Tailwind Drive
-Luc: Feinting Strike (3 tokens)
+Claus: Tailwind Strike
+Luc: Memento Strike
 
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  4 | 1
-Claus is active
-Claus moves:
-
-...C..L
-
-Luc moves:
-
-...CL..
-
-Claus moves Luc:
-
-...C..L
-
-Luc takes 2 damage (now at 13 life)
-Claus misses
-Luc misses
-Luc moves:
-
-...C.L.
-
+Priorities:  -1 | 2
+Luc is active
+Luc hits
+Claus takes 4 damage (now at 13 life)
+Luc spends a Time token
+Luc spends a Time token
+Luc attacks again
+Luc hits
+Claus takes 4 damage (now at 9 life)
+Claus hits
+Luc takes 5 damage (now at 4 life)
 Luc gains 1 Time token
 
 Beat 5
@@ -239,66 +246,50 @@ Beat 5
 
 Claus
 -----
-life: 17
-discard 1: Tailwind Drive
-discard 2: Cyclone Dash
-special action
+Life: 9
+Discard 1: Tailwind Strike
+Discard 2: Hurricane Drive
+Special action available
 
 Luc
 ---
-life: 13
-discard 1: Feinting Strike
-discard 2: Eternal Shot
-special action
-3 Time tokens
+Life: 4
+Discard 1: Memento Strike
+Discard 2: Fusion Burst
+Special action available
+1 Time tokens
 
 
-...C.L.
+.....CL
+
+Unbeatable strategy for Luc: Chrono Drive (1 token): -0.16
+
 
 Claus:
-21% Hurricane Tempest
-39% Blast Tempest
-40% Downdraft Tempest
+15% Blast Shot
+2% Cyclone Tempest
+7% Cyclone Shot
+9% Cyclone Grasp
+66% Downdraft Dash
 
 Luc:
-18% Memento Burst (1 token)
-36% Memento Grasp
-46% Chrono Burst (1 token)
+46% Eternal Shot
+11% Eternal Drive
+3% Chrono Flash (1 token)
+13% Chrono Drive
+27% Chrono Drive (1 token)
 
 
-Claus: Downdraft Tempest
-Luc: Chrono Burst (1 token)
+Claus: Downdraft Dash
+Luc: Eternal Shot
 
-Luc antes a Time token
-Priorities:  3 | 3
-Clash!
+Priorities:  8 | -2
+Claus is active
+Claus moves:
 
-Claus:
-72% Downdraft Strike
-28% Downdraft Burst
-
-Luc:
-59% Chrono Drive (1 token)
-41% Chrono Grasp (1 token)
-
-
-Claus: Downdraft Strike
-Luc: Chrono Drive (1 token)
-
-Luc antes a Time token
-Priorities:  2 | 6
-Luc is active
-Luc spends a Time token
-Luc moves:
-
-...CL..
-
-Luc moves:
-
-.L.C...
+...C..L
 
 Luc misses
-Claus misses
 Luc gains 1 Time token
 
 Beat 6
@@ -306,364 +297,50 @@ Beat 6
 
 Claus
 -----
-life: 17
-discard 1: Downdraft Strike
-discard 2: Tailwind Drive
-special action
+Life: 9
+Discard 1: Downdraft Dash
+Discard 2: Tailwind Strike
+Special action available
 
 Luc
 ---
-life: 13
-discard 1: Chrono Drive
-discard 2: Feinting Strike
-special action
+Life: 4
+Discard 1: Eternal Shot
+Discard 2: Memento Strike
+Special action available
 2 Time tokens
 
-
-.L.C...
-
-Claus:
-2% Blast Shot
-33% Cyclone Tempest
-0% Cyclone Shot
-66% Cyclone Dash
-
-Luc:
-16% Eternal Shot
-38% Eternal Dash
-46% Eternal Dash (1 token)
-0% Memento Shot
-
-
-Claus: Cyclone Dash
-Luc: Eternal Dash (1 token)
-
-Luc antes a Time token
-Priorities:  10 | 6
-Claus is active
-Claus moves:
-
-.LC....
-
-Luc moves:
-
-..CL...
-
-Luc gains 1 Time token
-
-Beat 7
--------
-
-Claus
------
-life: 17
-discard 1: Cyclone Dash
-discard 2: Downdraft Strike
-special action
-
-Luc
----
-life: 13
-discard 1: Eternal Dash
-discard 2: Chrono Drive
-special action
-2 Time tokens
-
-
-..CL...
-
-Claus:
-0% Hurricane Burst
-21% Tailwind Shot
-33% Tailwind Drive
-27% Tailwind Burst
-19% Tailwind Grasp
-
-Luc:
-1% Fusion Shot (1 token)
-16% Feinting Flash
-49% Feinting Flash (1 token)
-7% Feinting Strike (1 token)
-26% Feinting Grasp (1 token)
-
-
-Claus: Tailwind Grasp
-Luc: Feinting Grasp (1 token)
-
-Luc antes a Time token
-Priorities:  5 | 4
-Claus is active
-Claus moves Luc:
-
-..C..L.
-
-Luc takes 2 damage (now at 11 life)
-Luc is stunned
-Luc moves:
-
-..C...L
-
-Claus misses
-Luc moves:
-
-..C.L..
-
-Luc gains 1 Time token
-
-Beat 8
--------
-
-Claus
------
-life: 17
-discard 1: Tailwind Grasp
-discard 2: Cyclone Dash
-special action
-
-Luc
----
-life: 11
-discard 1: Feinting Grasp
-discard 2: Eternal Dash
-special action
-2 Time tokens
-
-
-..C.L..
-
-Claus:
-24% Hurricane Tempest
-17% Blast Tempest
-29% Downdraft Tempest
-30% Downdraft Burst
-
-Luc:
-11% Memento Drive
-20% Chrono Strike
-25% Chrono Shot (1 token)
-44% Chrono Burst (1 token)
-
-
-Claus: Downdraft Burst
-Luc: Chrono Shot (1 token)
-
-Luc antes a Time token
-Priorities:  0 | 4
-Luc is active
-Claus moves:
-
-.C..L..
-
-Luc misses
-Claus hits
-Luc takes 3 damage (now at 8 life)
-Luc is stunned
-Luc gains 1 Time token
-
-Beat 9
--------
-
-Claus
------
-life: 17
-discard 1: Downdraft Burst
-discard 2: Tailwind Grasp
-special action
-
-Luc
----
-life: 8
-discard 1: Chrono Shot
-discard 2: Feinting Grasp
-special action
-2 Time tokens
-
-
-.C..L..
-
-Claus:
-36% Blast Tempest
-27% Blast Dash
-4% Cyclone Tempest
-32% Cyclone Shot
-1% Cyclone Dash
-
-Luc:
-32% Eternal Strike
-1% Eternal Drive (1 token)
-47% Eternal Burst
-5% Memento Drive (1 token)
-14% Memento Burst (1 token)
-
-
-Claus: Cyclone Shot
-Luc: Memento Burst (1 token)
-
-Luc antes a Time token
-Priorities:  3 | 1
-Claus is active
-Luc moves:
-
-.C....L
-
-Claus misses
-Luc misses
-Luc gains 1 Time token
-
-Beat 10
--------
-
-Claus
------
-life: 17
-discard 1: Cyclone Shot
-discard 2: Downdraft Burst
-special action
-
-Luc
----
-life: 8
-discard 1: Memento Burst
-discard 2: Chrono Shot
-special action
-2 Time tokens
-
-
-.C....L
-
-Unbeatable strategy for Luc: Eternal Strike: -0.28
-Unbeatable strategy for Luc: Eternal Drive: -0.04
-
-Claus:
-100% Tailwind Drive
-
-Luc:
-100% Eternal Strike
-
-
-Claus: Tailwind Drive
-Luc: Eternal Strike
-
-Priorities:  4 | -1
-Claus is active
-Claus moves:
-
-..C...L
-
-Claus moves:
-
-....C.L
-
-Claus hits
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +2 soak (3 total)
-Luc has 3 soak
-Luc takes 1 damage (now at 7 life)
-Luc misses
-Luc gains 1 Time token
-
-Beat 11
--------
-
-Claus
------
-life: 17
-discard 1: Tailwind Drive
-discard 2: Cyclone Shot
-special action
-
-Luc
----
-life: 7
-discard 1: Eternal Strike
-discard 2: Memento Burst
-special action
-1 Time tokens
-
-
-....C.L
-
-Claus:
-69% Blast Strike
-31% Downdraft Burst
-
-Luc:
-43% Fusion Shot
-57% Chrono Drive
-
-
-Claus: Blast Strike
-Luc: Chrono Drive
-
-Priorities:  0 | 5
-Luc is active
-Claus moves:
-
-.....CL
-
-Luc moves:
-
-....LC.
-
-Luc hits
-Claus takes 3 damage (now at 14 life)
-Claus hits
-Luc takes 4 damage (now at 3 life)
-Luc is stunned
-Luc gains 1 Time token
-
-Beat 12
--------
-
-Claus
------
-life: 14
-discard 1: Blast Strike
-discard 2: Tailwind Drive
-special action
-
-Luc
----
-life: 3
-discard 1: Chrono Drive
-discard 2: Eternal Strike
-special action
-2 Time tokens
-
-
-....LC.
-
-Claus:
-12% Hurricane Tempest
-32% Cyclone Tempest
-10% Cyclone Shot
-13% Cyclone Grasp
-33% Downdraft Burst
-
-Luc:
-45% Fusion Flash
-4% Fusion Shot (1 token)
-31% Feinting Flash (1 token)
-1% Special Temporal Recursion
-20% Special Temporal Recursion (1 token)
-
-
-Claus: Downdraft Burst
-Luc: Fusion Flash
-
-Priorities:  0 | 7
-Luc is active
-Luc moves:
-
-.....CL
-
-Claus moves:
 
 ...C..L
 
+Unbeatable strategy for Luc: Chrono Drive: -0.21
+
+
+Claus:
+74% Cyclone Tempest
+26% Cyclone Burst
+
+Luc:
+74% Chrono Drive
+26% Chrono Drive (1 token)
+
+
+Claus: Cyclone Burst
+Luc: Chrono Drive (1 token)
+
+Luc antes a Time token
+Priorities:  2 | 6
+Luc is active
+Claus moves:
+
+..C...L
+
+Luc moves:
+
+..C.L..
+
 Luc misses
 Claus hits
-Luc takes 3 damage (now at 0 life)
+Luc takes 4 damage (now at 0 life)
 CLAUS WINS!
-total_time: 26
+total_time: 11

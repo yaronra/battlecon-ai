@@ -11,20 +11,21 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Grasp
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Hurricane Grasp
+Discard 2: Cyclone Shot
+Special action available
 
 Ottavia
 -------
-life: 20
-discard 1: Cybernetic Strike
-discard 2: Demolition Shot
-special action
+Life: 20
+Discard 1: Cybernetic Strike
+Discard 2: Demolition Shot
+Special action available
 
 
 .C...O.
+
 
 Claus:
 13% Tailwind Drive
@@ -40,17 +41,23 @@ Ottavia:
 
 
 Claus: Blast Dash
-Ottavia: Snapback Dash (Target Lock: 4)
+Ottavia: Snapback Drive (Target Lock: 8)
 
-Priorities:  6 | 9
-Ottavia is active
-Ottavia moves:
+Priorities:  6 | 4
+Claus is active
+Claus moves:
 
-.C..O..
+..C..O.
 
-Ottavia moves:
+Claus moves Ottavia:
 
-.C....O
+....C.O
+
+Ottavia takes 1 damage (now at 19 life)
+Ottavia is stunned
+Claus moves:
+
+....C.O
 
 
 Beat 2
@@ -58,284 +65,619 @@ Beat 2
 
 Claus
 -----
-life: 20
-discard 1: Blast Dash
-discard 2: Hurricane Grasp
-special action
+Life: 20
+Discard 1: Blast Dash
+Discard 2: Hurricane Grasp
+Special action available
 
 Ottavia
 -------
-life: 20
-discard 1: Snapback Dash
-discard 2: Cybernetic Strike
-special action
+Life: 19
+Discard 1: Snapback Drive
+Discard 2: Cybernetic Strike
+Special action available
 
 
-.C....O
+....C.O
+
 
 Claus:
-0% Tailwind Strike
-0% Tailwind Drive
-3% Cyclone Tempest
-10% Cyclone Shot
-13% Downdraft Tempest
-61% Downdraft Strike
-12% Downdraft Drive
+23% Tailwind Drive
+20% Cyclone Drive
+29% Downdraft Drive
+28% Downdraft Burst
 
 Ottavia:
-7% Demolition Shooter (Target Lock: 4)
-0% Demolition Shooter (Target Lock: 5)
-57% Demolition Shot (Target Lock: 4)
-18% Demolition Shot (Target Lock: 5)
-8% Cover Shooter (Target Lock: 4)
-5% Cover Shooter (Target Lock: 5)
-0% Cover Drive (Target Lock: 5)
-4% Cover Burst (Target Lock: 5)
-
-
-Claus: Cyclone Shot
-Ottavia: Demolition Shot (Target Lock: 4)
-
-Priorities:  3 | 3
-Clash!
-
-Claus:
-62% Cyclone Tempest
-38% Cyclone Drive
-
-Ottavia:
-35% Demolition Shooter (Target Lock: 4)
-65% Demolition Drive (Target Lock: 4)
-
-
-Claus: Cyclone Tempest
-Ottavia: Demolition Drive (Target Lock: 4)
-
-Priorities:  5 | 5
-Clash!
-
-Claus:
-82% Cyclone Strike
-7% Cyclone Drive
-11% Cyclone Burst
-
-Ottavia:
-16% Demolition Shooter (Target Lock: 4)
-80% Demolition Burst (Target Lock: 4)
+22% Demolition Shooter (Target Lock: 4)
+37% Demolition Shooter (Target Lock: 5)
+3% Demolition Grasp (Target Lock: 0)
+3% Demolition Grasp (Target Lock: 1)
+3% Demolition Grasp (Target Lock: 2)
+3% Demolition Grasp (Target Lock: 3)
 3% Demolition Grasp (Target Lock: 4)
+3% Demolition Grasp (Target Lock: 5)
+4% Demolition Dash (Target Lock: 0)
+4% Demolition Dash (Target Lock: 1)
+4% Demolition Dash (Target Lock: 2)
+4% Demolition Dash (Target Lock: 3)
+4% Demolition Dash (Target Lock: 4)
+4% Demolition Dash (Target Lock: 5)
 
 
-Claus: Cyclone Strike
-Ottavia: Demolition Burst (Target Lock: 4)
+Claus: Tailwind Drive
+Ottavia: Demolition Shooter (Target Lock: 4)
 
 Ottavia acquires target lock
-Priorities:  -6 | 2
+Priorities:  -6 | 3
 Ottavia is active
-Ottavia misses
-Claus misses
+Claus moves:
+
+.....CO
+
+Ottavia hits
+Claus takes 4 damage (now at 16 life)
+Claus is stunned
+Ottavia moves:
+
+.O...C.
+
 
 Beat 3
 -------
 
 Claus
 -----
-life: 20
-discard 1: Cyclone Strike
-discard 2: Blast Dash
-special action
+Life: 16
+Discard 1: Tailwind Drive
+Discard 2: Blast Dash
+Special action available
 
 Ottavia
 -------
-life: 20
-discard 1: Demolition Burst
-discard 2: Snapback Dash
-special action
+Life: 19
+Discard 1: Demolition Shooter
+Discard 2: Snapback Drive
+Special action available
 
 
-.C....O
+.O...C.
+
 
 Claus:
-4% Tailwind Tempest
-96% Downdraft Tempest
+10% Hurricane Tempest
+4% Hurricane Shot
+29% Cyclone Tempest
+8% Cyclone Shot
+49% Downdraft Tempest
 
 Ottavia:
-55% Cover Shooter (Target Lock: 4)
-7% Cover Shot (Target Lock: 4)
-38% Cybernetic Shot (Target Lock: 3)
+3% Cover Burst (Target Lock: 4)
+3% Cover Burst (Target Lock: 5)
+44% Cybernetic Strike (Target Lock: 5)
+4% Cybernetic Shot (Target Lock: 3)
+46% Cybernetic Shot (Target Lock: 4)
 
 
-Claus: Downdraft Tempest
-Ottavia: Cover Shooter (Target Lock: 4)
+Claus: Hurricane Shot
+Ottavia: Cybernetic Strike (Target Lock: 5)
 
-Priorities:  3 | -1
-Claus is active
-Claus moves:
-
-...C..O
-
-Claus hits
-Ottavia has 1 soak
-Ottavia takes 0 damage (now at 20 life)
+Priorities:  2 | 3
+Ottavia is active
 Ottavia misses
+Claus hits
+Ottavia has 2 soak
+Ottavia takes 4 damage (now at 15 life)
+Claus will have -4 priority next beat
 
 Beat 4
 -------
 
 Claus
 -----
-life: 20
-discard 1: Downdraft Tempest
-discard 2: Cyclone Strike
-special action
+Life: 16
+Discard 1: Hurricane Shot
+Discard 2: Tailwind Drive
+Special action available
+Priority bonus: -4
 
 Ottavia
 -------
-life: 20
-discard 1: Cover Shooter
-discard 2: Demolition Burst
-special action
+Life: 15
+Discard 1: Cybernetic Strike
+Discard 2: Demolition Shooter
+Special action available
 
 
-...C..O
+.O...C.
 
-Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 5): -0.26
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 6): -2.04
+
 
 Claus:
-16% Tailwind Shot
-1% Tailwind Drive
-19% Tailwind Grasp
-46% Tailwind Dash
-17% Blast Dash
+37% Cyclone Dash
+4% Downdraft Strike
+59% Downdraft Dash
 
 Ottavia:
-0% Snapback Strike (Target Lock: 9)
-49% Snapback Drive (Target Lock: 5)
-17% Snapback Drive (Target Lock: 9)
-33% Snapback Grasp (Target Lock: 9)
-1% Cybernetic Shot (Target Lock: 5)
+38% Snapback Drive (Target Lock: 4)
+24% Snapback Drive (Target Lock: 6)
+38% Snapback Grasp (Target Lock: 6)
 
 
-Claus: Tailwind Dash
-Ottavia: Snapback Grasp (Target Lock: 9)
+Claus: Cyclone Dash
+Ottavia: Snapback Grasp (Target Lock: 6)
 
 Ottavia acquires target lock
-Priorities:  -1 | 5
+Priorities:  -4 | 5
 Ottavia is active
 Ottavia hits
 Ottavia moves Claus:
 
-..C...O
+.O....C
 
-Claus takes 2 damage (now at 18 life)
+Claus takes 2 damage (now at 14 life)
 Claus is stunned
+Ottavia moves:
+
+O.....C
+
 
 Beat 5
 -------
 
 Claus
 -----
-life: 18
-discard 1: Tailwind Dash
-discard 2: Downdraft Tempest
-special action
+Life: 14
+Discard 1: Cyclone Dash
+Discard 2: Hurricane Shot
+Special action available
 
 Ottavia
 -------
-life: 20
-discard 1: Snapback Grasp
-discard 2: Cover Shooter
-special action
+Life: 15
+Discard 1: Snapback Grasp
+Discard 2: Cybernetic Strike
+Special action available
 
 
-..C...O
+O.....C
 
-Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: -2): -0.82
-Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: -1): -0.82
-Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: 0): -0.82
-Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: 1): -0.82
-Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: 2): -0.82
-Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: 3): -0.82
-Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: 4): -0.82
-Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: 5): -0.82
-Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: 6): -0.82
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 3): -0.82
+Unbeatable strategy for Claus: Downdraft Grasp: 0.93
+
 
 Claus:
-7% Hurricane Shot
-2% Hurricane Burst
-23% Blast Drive
-6% Blast Burst
-5% Blast Grasp
-16% Cyclone Shot
-11% Cyclone Drive
-30% Cyclone Burst
+6% Tailwind Drive
+0% Blast Drive
+94% Downdraft Grasp
 
 Ottavia:
-46% Demolition Shot (Target Lock: 3)
-6% Anti-Personnel Strike (Target Lock: 5)
-2% Anti-Personnel Shot (Target Lock: 1)
-6% Anti-Personnel Shot (Target Lock: 2)
-18% Anti-Personnel Shot (Target Lock: 3)
-1% Anti-Personnel Drive (Target Lock: 5)
-7% Cybernetic Shot (Target Lock: 2)
-13% Cybernetic Shot (Target Lock: 3)
+43% Demolition Shooter (Target Lock: 4)
+38% Demolition Shot (Target Lock: 4)
+0% Demolition Burst (Target Lock: -2)
+0% Demolition Burst (Target Lock: 0)
+0% Demolition Burst (Target Lock: 1)
+0% Demolition Burst (Target Lock: 2)
+0% Demolition Burst (Target Lock: 3)
+0% Demolition Burst (Target Lock: 4)
+0% Demolition Burst (Target Lock: 5)
+18% Cover Drive (Target Lock: 4)
 
 
-Claus: Cyclone Burst
-Ottavia: Anti-Personnel Shot (Target Lock: 2)
+Claus: Downdraft Grasp
+Ottavia: Demolition Shooter (Target Lock: 4)
 
 Ottavia acquires target lock
-Priorities:  -8 | 1
+Priorities:  -6 | 3
 Ottavia is active
-Claus moves:
-
-C.....O
-
-Ottavia hits
-Claus takes 6 damage (now at 12 life)
-Claus is stunned
+Ottavia misses
 Ottavia moves:
 
-C..O...
+..O...C
 
+Claus misses
 
 Beat 6
 -------
 
 Claus
 -----
-life: 12
-discard 1: Cyclone Burst
-discard 2: Tailwind Dash
-special action
+Life: 14
+Discard 1: Downdraft Grasp
+Discard 2: Cyclone Dash
+Special action available
 
 Ottavia
 -------
-life: 20
-discard 1: Anti-Personnel Shot
-discard 2: Snapback Grasp
-special action
+Life: 15
+Discard 1: Demolition Shooter
+Discard 2: Snapback Grasp
+Special action available
 
 
-C..O...
+..O...C
+
 
 Claus:
-10% Hurricane Tempest
-10% Hurricane Shot
-8% Hurricane Drive
-5% Blast Tempest
-3% Blast Drive
-43% Downdraft Tempest
-20% Downdraft Shot
+23% Tailwind Tempest
+34% Tailwind Shot
+22% Tailwind Drive
+20% Blast Burst
 
 Ottavia:
-2% Demolition Shooter (Target Lock: 4)
-10% Cover Drive (Target Lock: 2)
-18% Cover Drive (Target Lock: 4)
-23% Cybernetic Strike (Target Lock: 4)
-11% Cybernetic Drive (Target Lock: 2)
-5% Cybernetic Drive (Target Lock: 4)
-31% Cybernetic Burst (Target Lock: 4)
+20% Cover Burst (Target Lock: -2)
+19% Cover Burst (Target Lock: 2)
+32% Cover Burst (Target Lock: 4)
+28% Cybernetic Shot (Target Lock: 4)
+
+
+Claus: Tailwind Tempest
+Ottavia: Cybernetic Shot (Target Lock: 4)
+
+Ottavia acquires target lock
+Priorities:  -6 | 2
+Ottavia is active
+Claus moves:
+
+..O.C..
+
+Claus moves Ottavia:
+
+.O.C...
+
+Ottavia takes 1 damage (now at 14 life)
+Claus moves:
+
+.O.C...
+
+Ottavia hits
+Claus takes 3 damage (now at 11 life)
+Ottavia moves Claus:
+
+.O....C
+
+Claus is stunned
+
+Beat 7
+-------
+
+Claus
+-----
+Life: 11
+Discard 1: Tailwind Tempest
+Discard 2: Downdraft Grasp
+Special action available
+
+Ottavia
+-------
+Life: 14
+Discard 1: Cybernetic Shot
+Discard 2: Demolition Shooter
+Special action available
+
+
+.O....C
+
+Unbeatable strategy for Ottavia: Snapback Strike (Target Lock: 6): -0.56
+Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: 6): -2.11
+Unbeatable strategy for Ottavia: Snapback Grasp (Target Lock: 6): -0.71
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 10): -0.03
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 6): -0.74
+
+
+Claus:
+2% Hurricane Dash
+1% Blast Drive
+4% Blast Dash
+2% Cyclone Drive
+2% Cyclone Dash
+88% Special Pulse
+
+Ottavia:
+31% Snapback Burst (Target Lock: 6)
+5% Anti-Personnel Drive (Target Lock: 5)
+1% Anti-Personnel Drive (Target Lock: 6)
+10% Anti-Personnel Drive (Target Lock: 9)
+26% Anti-Personnel Drive (Target Lock: 10)
+27% Anti-Personnel Burst (Target Lock: 6)
+
+
+Claus: Special Pulse
+Ottavia: Anti-Personnel Burst (Target Lock: 6)
+
+Pulse:
+
+.OC....
+
+
+Beat 7
+-------
+
+Claus
+-----
+Life: 11
+Discard 1: Tailwind Tempest
+Discard 2: Downdraft Grasp
+
+Ottavia
+-------
+Life: 14
+Discard 1: Anti-Personnel Burst
+Discard 2: Cybernetic Shot
+Special action available
+
+
+.OC....
+
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: -2): -0.55
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: -1): -0.55
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 0): -0.55
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 1): -0.55
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 2): -0.55
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 3): -0.55
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 4): -0.55
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 5): -0.55
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 6): -0.87
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 9): -0.55
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 10): -0.55
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -2): -0.47
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -1): -0.47
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 0): -0.47
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 1): -0.47
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 2): -0.47
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): -0.47
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 4): -0.47
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 5): -0.47
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 6): -0.47
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 9): -0.47
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 10): -1.31
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: -2): -0.32
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: -1): -0.32
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 0): -0.32
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 1): -0.32
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 2): -0.32
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 3): -0.32
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 4): -0.32
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 5): -0.32
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 6): -0.32
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 9): -0.32
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 10): -0.32
+
+
+Claus:
+9% Hurricane Strike
+15% Blast Shot
+1% Blast Drive
+19% Blast Dash
+25% Cyclone Strike
+14% Cyclone Drive
+18% Cyclone Dash
+
+Ottavia:
+45% Snapback Drive (Target Lock: 4)
+5% Snapback Drive (Target Lock: 6)
+5% Snapback Drive (Target Lock: 10)
+8% Demolition Strike (Target Lock: 10)
+11% Cover Shooter (Target Lock: 4)
+19% Cover Strike (Target Lock: 6)
+8% Cover Drive (Target Lock: 4)
+
+
+Claus: Cyclone Strike
+Ottavia: Snapback Drive (Target Lock: 6)
+
+Priorities:  4 | 4
+Clash!
+
+
+Claus: Cyclone Burst
+Ottavia: Snapback Dash (Target Lock: 6)
+
+Priorities:  2 | 9
+Ottavia is active
+Ottavia moves:
+
+..C.O..
+
+Ottavia moves:
+
+..C...O
+
+Claus misses
+
+Beat 8
+-------
+
+Claus
+-----
+Life: 11
+Discard 1: Cyclone Burst
+Discard 2: Tailwind Tempest
+
+Ottavia
+-------
+Life: 14
+Discard 1: Snapback Dash
+Discard 2: Anti-Personnel Burst
+Special action available
+
+
+..C...O
+
+
+Claus:
+8% Hurricane Shot
+8% Blast Dash
+32% Downdraft Shot
+26% Downdraft Drive
+26% Downdraft Dash
+
+Ottavia:
+22% Cover Drive (Target Lock: 1)
+21% Cover Drive (Target Lock: 3)
+12% Cover Drive (Target Lock: 8)
+43% Cybernetic Shooter (Target Lock: 2)
+2% Cybernetic Shooter (Target Lock: 6)
+
+
+Claus: Downdraft Shot
+Ottavia: Cybernetic Shooter (Target Lock: 2)
+
+Priorities:  1 | 2
+Ottavia is active
+Ottavia misses
+Claus hits
+Ottavia has 2 soak
+Ottavia takes 1 damage (now at 13 life)
+Ottavia is stunned
+
+Beat 9
+-------
+
+Claus
+-----
+Life: 11
+Discard 1: Downdraft Shot
+Discard 2: Cyclone Burst
+
+Ottavia
+-------
+Life: 13
+Discard 1: Cybernetic Shooter
+Discard 2: Snapback Dash
+Special action available
+
+
+..C...O
+
+
+Claus:
+37% Hurricane Tempest
+5% Hurricane Drive
+13% Tailwind Tempest
+38% Tailwind Grasp
+8% Blast Drive
+
+Ottavia:
+23% Demolition Strike (Target Lock: 3)
+6% Demolition Strike (Target Lock: 5)
+20% Demolition Shot (Target Lock: 4)
+42% Demolition Drive (Target Lock: 5)
+9% Cover Drive (Target Lock: 4)
+
+
+Claus: Hurricane Tempest
+Ottavia: Demolition Strike (Target Lock: 3)
+
+Priorities:  4 | 4
+Clash!
+
+
+Claus: Hurricane Dash
+Ottavia: Demolition Shot (Target Lock: 3)
+
+Priorities:  9 | 3
+Claus is active
+Claus moves:
+
+.C....O
+
+Ottavia misses
+Claus will have -4 priority next beat
+
+Beat 10
+-------
+
+Claus
+-----
+Life: 11
+Discard 1: Hurricane Dash
+Discard 2: Downdraft Shot
+Priority bonus: -4
+
+Ottavia
+-------
+Life: 13
+Discard 1: Demolition Shot
+Discard 2: Cybernetic Shooter
+Special action available
+
+
+.C....O
+
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: -6): -1.43
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: -4): -1.43
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: -3): -1.43
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: -2): -1.43
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: -1): -1.43
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 0): -1.43
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 1): -1.43
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 2): -1.43
+Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: -6): -1.61
+Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: -4): -1.61
+Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: -3): -1.61
+Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: -2): -1.61
+Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: -1): -1.61
+Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: 0): -1.61
+Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: 1): -1.61
+Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: 2): -1.61
+
+
+Claus:
+30% Cyclone Tempest
+70% Cyclone Grasp
+
+Ottavia:
+95% Snapback Burst (Target Lock: 1)
+0% Anti-Personnel Burst (Target Lock: -6)
+0% Anti-Personnel Burst (Target Lock: -4)
+0% Anti-Personnel Burst (Target Lock: -3)
+0% Anti-Personnel Burst (Target Lock: -2)
+0% Anti-Personnel Burst (Target Lock: -1)
+4% Anti-Personnel Burst (Target Lock: 0)
+0% Anti-Personnel Burst (Target Lock: 1)
+
+
+Claus: Cyclone Grasp
+Ottavia: Snapback Burst (Target Lock: 1)
+
+Priorities:  2 | 1
+Claus is active
+Claus misses
+Ottavia hits
+Claus takes 3 damage (now at 8 life)
+Claus is stunned
+
+Beat 11
+-------
+
+Claus
+-----
+Life: 8
+Discard 1: Cyclone Grasp
+Discard 2: Hurricane Dash
+
+Ottavia
+-------
+Life: 13
+Discard 1: Snapback Burst
+Discard 2: Demolition Shot
+Special action available
+
+
+.C....O
+
+
+Claus:
+15% Tailwind Tempest
+2% Tailwind Shot
+63% Downdraft Tempest
+20% Downdraft Drive
+
+Ottavia:
+46% Cover Shooter (Target Lock: 4)
+2% Cover Drive (Target Lock: 4)
+8% Cybernetic Shooter (Target Lock: 4)
+43% Cybernetic Strike (Target Lock: 4)
 
 
 Claus: Downdraft Tempest
@@ -344,420 +686,59 @@ Ottavia: Cybernetic Strike (Target Lock: 4)
 Priorities:  3 | 3
 Clash!
 
-Claus:
-100% Downdraft Strike
-0% Downdraft Drive
 
-Ottavia:
-0% Cybernetic Shooter (Target Lock: 4)
-100% Cybernetic Drive (Target Lock: 4)
+Claus: Downdraft Drive
+Ottavia: Cybernetic Shooter (Target Lock: 4)
 
-
-Claus: Downdraft Strike
-Ottavia: Cybernetic Drive (Target Lock: 4)
-
-Priorities:  2 | 4
-Ottavia is active
-Ottavia moves:
-
-CO.....
-
-Ottavia hits
-Claus takes 3 damage (now at 9 life)
-Ottavia moves Claus:
-
-.O..C..
-
-Claus misses
-
-Beat 7
--------
-
-Claus
------
-life: 9
-discard 1: Downdraft Strike
-discard 2: Cyclone Burst
-special action
-
-Ottavia
--------
-life: 20
-discard 1: Cybernetic Drive
-discard 2: Anti-Personnel Shot
-special action
-
-
-.O..C..
-
-Claus:
-4% Tailwind Shot
-12% Tailwind Drive
-27% Tailwind Grasp
-22% Tailwind Dash
-35% Blast Dash
-
-Ottavia:
-23% Snapback Strike (Target Lock: 5)
-10% Snapback Grasp (Target Lock: 5)
-28% Snapback Grasp (Target Lock: 6)
-25% Snapback Grasp (Target Lock: 9)
-14% Demolition Burst (Target Lock: 5)
-
-
-Claus: Tailwind Dash
-Ottavia: Snapback Grasp (Target Lock: 5)
-
-Priorities:  9 | 5
+Priorities:  3 | 2
 Claus is active
 Claus moves:
 
-.OC....
+...C..O
 
-Claus moves Ottavia:
-
-O.C....
-
-Ottavia takes 1 damage (now at 19 life)
-Ottavia is stunned
-
-Beat 8
--------
-
-Claus
------
-life: 9
-discard 1: Tailwind Dash
-discard 2: Downdraft Strike
-special action
-
-Ottavia
--------
-life: 19
-discard 1: Snapback Grasp
-discard 2: Cybernetic Drive
-special action
-
-
-O.C....
-
-Claus:
-3% Hurricane Tempest
-35% Hurricane Drive
-6% Cyclone Tempest
-23% Cyclone Shot
-33% Cyclone Drive
-
-Ottavia:
-19% Demolition Shooter (Target Lock: 5)
-2% Demolition Strike (Target Lock: -2)
-2% Demolition Strike (Target Lock: -1)
-2% Demolition Strike (Target Lock: 1)
-2% Demolition Strike (Target Lock: 2)
-2% Demolition Strike (Target Lock: 3)
-2% Demolition Strike (Target Lock: 6)
-8% Cover Shooter (Target Lock: 4)
-1% Cover Shooter (Target Lock: 5)
-2% Cover Dash (Target Lock: -2)
-2% Cover Dash (Target Lock: -1)
-2% Cover Dash (Target Lock: 1)
-2% Cover Dash (Target Lock: 2)
-2% Cover Dash (Target Lock: 3)
-2% Cover Dash (Target Lock: 4)
-4% Cover Dash (Target Lock: 5)
-43% Cover Dash (Target Lock: 6)
-
-
-Claus: Hurricane Drive
-Ottavia: Cover Dash (Target Lock: 6)
-
-Priorities:  4 | 6
-Ottavia is active
-Ottavia moves:
-
-.OC....
-
-Claus moves Ottavia:
-
-O.C....
-
-Ottavia has 1 soak
-Ottavia takes 0 damage (now at 19 life)
 Claus misses
-
-Beat 9
--------
-
-Claus
------
-life: 9
-discard 1: Hurricane Drive
-discard 2: Tailwind Dash
-special action
--4 priority from last beat
-
-Ottavia
--------
-life: 19
-discard 1: Cover Dash
-discard 2: Snapback Grasp
-special action
-
-
-O.C....
-
-Claus:
-4% Blast Strike
-96% Downdraft Burst
-
-Ottavia:
-4% Cybernetic Shooter (Target Lock: -6)
-4% Cybernetic Shooter (Target Lock: -5)
-4% Cybernetic Shooter (Target Lock: -4)
-4% Cybernetic Shooter (Target Lock: -3)
-4% Cybernetic Shooter (Target Lock: -2)
-4% Cybernetic Shooter (Target Lock: -1)
-4% Cybernetic Shooter (Target Lock: 0)
-4% Cybernetic Shooter (Target Lock: 1)
-4% Cybernetic Shooter (Target Lock: 2)
-6% Cybernetic Burst (Target Lock: -6)
-6% Cybernetic Burst (Target Lock: -5)
-6% Cybernetic Burst (Target Lock: -4)
-6% Cybernetic Burst (Target Lock: -3)
-6% Cybernetic Burst (Target Lock: -2)
-6% Cybernetic Burst (Target Lock: -1)
-6% Cybernetic Burst (Target Lock: 0)
-17% Cybernetic Burst (Target Lock: 1)
-6% Cybernetic Burst (Target Lock: 2)
-
-
-Claus: Downdraft Burst
-Ottavia: Cybernetic Burst (Target Lock: -3)
-
-Priorities:  -4 | 1
-Ottavia is active
-Claus moves:
-
-O..C...
-
 Ottavia misses
-Claus hits
-Ottavia has 2 soak
-Ottavia takes 1 damage (now at 18 life)
-Ottavia is stunned
-
-Beat 10
--------
-
-Claus
------
-life: 9
-discard 1: Downdraft Burst
-discard 2: Hurricane Drive
-special action
-
-Ottavia
--------
-life: 18
-discard 1: Cybernetic Burst
-discard 2: Cover Dash
-special action
-
-
-O..C...
-
-Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 5): -0.27
-Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: 5): -0.25
-
-Claus:
-37% Tailwind Tempest
-10% Tailwind Strike
-19% Tailwind Grasp
-21% Cyclone Shot
-13% Cyclone Dash
-
-Ottavia:
-10% Snapback Drive (Target Lock: 4)
-1% Snapback Drive (Target Lock: 5)
-11% Snapback Grasp (Target Lock: 9)
-11% Snapback Grasp (Target Lock: 10)
-67% Demolition Shot (Target Lock: 5)
-
-
-Claus: Tailwind Tempest
-Ottavia: Demolition Shot (Target Lock: 5)
-
-Priorities:  4 | 3
-Claus is active
-Claus moves:
-
-O.C....
-
-Claus hits
-Ottavia takes 2 damage (now at 16 life)
-Ottavia hits
-Claus takes 3 damage (now at 6 life)
-Claus is stunned
-Ottavia moves:
-
-..C..O.
-
-
-Beat 11
--------
-
-Claus
------
-life: 6
-discard 1: Tailwind Tempest
-discard 2: Downdraft Burst
-special action
-
-Ottavia
--------
-life: 16
-discard 1: Demolition Shot
-discard 2: Cybernetic Burst
-special action
-
-
-..C..O.
-
-Claus:
-4% Hurricane Drive
-23% Hurricane Dash
-16% Blast Shot
-27% Blast Dash
-16% Cyclone Drive
-14% Cyclone Dash
-
-Ottavia:
-0% Snapback Strike (Target Lock: 5)
-21% Snapback Strike (Target Lock: 6)
-21% Snapback Grasp (Target Lock: 6)
-39% Snapback Grasp (Target Lock: 10)
-9% Anti-Personnel Shooter (Target Lock: 5)
-10% Anti-Personnel Shooter (Target Lock: 9)
-
-
-Claus: Cyclone Dash
-Ottavia: Snapback Grasp (Target Lock: 6)
-
-Priorities:  10 | 5
-Claus is active
-Claus moves Ottavia:
-
-....C.O
-
-Ottavia takes 1 damage (now at 15 life)
-Ottavia is stunned
-Claus moves:
-
-....C.O
-
 
 Beat 12
 -------
 
 Claus
 -----
-life: 6
-discard 1: Cyclone Dash
-discard 2: Tailwind Tempest
-special action
+Life: 8
+Discard 1: Downdraft Drive
+Discard 2: Cyclone Grasp
 
 Ottavia
 -------
-life: 15
-discard 1: Snapback Grasp
-discard 2: Demolition Shot
-special action
-
-
-....C.O
-
-Claus:
-12% Hurricane Drive
-9% Hurricane Burst
-6% Blast Drive
-11% Blast Grasp
-15% Downdraft Strike
-4% Downdraft Drive
-36% Downdraft Burst
-2% Downdraft Grasp
-5% Special Autumn's Advance
-
-Ottavia:
-13% Cover Strike (Target Lock: 3)
-4% Cover Strike (Target Lock: 4)
-0% Cover Drive (Target Lock: 1)
-8% Cover Drive (Target Lock: 2)
-27% Cover Drive (Target Lock: 4)
-22% Cybernetic Shooter (Target Lock: 4)
-2% Cybernetic Drive (Target Lock: 2)
-0% Cybernetic Drive (Target Lock: 4)
-23% Cybernetic Drive (Target Lock: 6)
-
-
-Claus: Downdraft Burst
-Ottavia: Cybernetic Shooter (Target Lock: 4)
-
-Priorities:  0 | 2
-Ottavia is active
-Claus moves:
-
-...C..O
-
-Ottavia misses
-Claus hits
-Ottavia has 2 soak
-Ottavia takes 1 damage (now at 14 life)
-Ottavia is stunned
-
-Beat 13
--------
-
-Claus
------
-life: 6
-discard 1: Downdraft Burst
-discard 2: Cyclone Dash
-special action
-
-Ottavia
--------
-life: 14
-discard 1: Cybernetic Shooter
-discard 2: Snapback Grasp
-special action
+Life: 13
+Discard 1: Cybernetic Shooter
+Discard 2: Snapback Burst
+Special action available
 
 
 ...C..O
 
+
 Claus:
-35% Tailwind Strike
-28% Tailwind Drive
-23% Tailwind Grasp
-10% Blast Drive
-4% Special Autumn's Advance
+21% Hurricane Tempest
+43% Tailwind Strike
+36% Blast Shot
 
 Ottavia:
-27% Demolition Strike (Target Lock: 5)
-20% Demolition Shot (Target Lock: 4)
-13% Demolition Shot (Target Lock: 5)
-13% Demolition Drive (Target Lock: 5)
-3% Demolition Dash (Target Lock: -1)
-3% Demolition Dash (Target Lock: 0)
-3% Demolition Dash (Target Lock: 1)
-3% Demolition Dash (Target Lock: 2)
-3% Demolition Dash (Target Lock: 3)
-3% Demolition Dash (Target Lock: 4)
-3% Demolition Dash (Target Lock: 5)
-3% Demolition Dash (Target Lock: 6)
+36% Demolition Shot (Target Lock: 3)
+54% Demolition Shot (Target Lock: 4)
+10% Cover Strike (Target Lock: 3)
 
 
-Claus: Blast Drive
-Ottavia: Demolition Drive (Target Lock: 5)
+Claus: Tailwind Strike
+Ottavia: Demolition Shot (Target Lock: 4)
+
+Priorities:  3 | 3
+Clash!
+
+
+Claus: Tailwind Burst
+Ottavia: Demolition Drive (Target Lock: 4)
 
 Priorities:  1 | 5
 Ottavia is active
@@ -765,619 +746,132 @@ Claus moves:
 
 ....C.O
 
+Claus moves:
+
+..C...O
+
 Ottavia moves:
 
-....CO.
+..C.O..
 
+Ottavia misses
+Ottavia moves:
+
+.OC....
+
+Claus misses
+
+Beat 13
+-------
+
+Claus
+-----
+Life: 8
+Discard 1: Tailwind Burst
+Discard 2: Downdraft Drive
+
+Ottavia
+-------
+Life: 13
+Discard 1: Demolition Drive
+Discard 2: Cybernetic Shooter
+Special action available
+
+
+.OC....
+
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -1): -0.89
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 0): -0.89
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 1): -0.89
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 2): -0.89
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): -0.89
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 4): -0.89
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 5): -0.89
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 6): -0.89
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 9): -0.89
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 10): -2.51
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: -1): -1.27
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 0): -1.27
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 1): -1.27
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 2): -1.27
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 3): -1.27
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 4): -1.27
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 5): -1.27
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 6): -1.27
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 9): -1.27
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 10): -1.27
+
+
+Claus:
+9% Hurricane Dash
+12% Blast Strike
+11% Blast Grasp
+15% Cyclone Strike
+31% Cyclone Grasp
+23% Cyclone Dash
+
+Ottavia:
+43% Snapback Dash (Target Lock: 9)
+40% Snapback Dash (Target Lock: 10)
+8% Anti-Personnel Burst (Target Lock: 2)
+3% Cover Shot (Target Lock: 2)
+4% Cover Shot (Target Lock: 4)
+3% Cover Shot (Target Lock: 6)
+
+
+Claus: Cyclone Dash
+Ottavia: Cover Shot (Target Lock: 4)
+
+Priorities:  10 | -1
+Claus is active
+Claus moves Ottavia:
+
+O.C....
+
+Ottavia has 1 soak
+Ottavia takes 0 damage (now at 13 life)
 Ottavia hits
-Claus takes 3 damage (now at 3 life)
+Claus takes 4 damage (now at 4 life)
 Claus is stunned
-Ottavia moves:
-
-O...C..
-
 
 Beat 14
 -------
 
 Claus
 -----
-life: 3
-discard 1: Blast Drive
-discard 2: Downdraft Burst
-special action
+Life: 4
+Discard 1: Cyclone Dash
+Discard 2: Tailwind Burst
 
 Ottavia
 -------
-life: 14
-discard 1: Demolition Drive
-discard 2: Cybernetic Shooter
-special action
+Life: 13
+Discard 1: Cover Shot
+Discard 2: Demolition Drive
+Special action available
 
 
-O...C..
+O.C....
+
+Unbeatable strategy for Ottavia: Snapback Strike (Target Lock: 4): -9.00
+
 
 Claus:
-24% Tailwind Tempest
-3% Tailwind Shot
-22% Tailwind Grasp
-21% Tailwind Dash
-17% Cyclone Dash
-13% Special Autumn's Advance
+37% Hurricane Drive
+63% Downdraft Tempest
 
 Ottavia:
-3% Snapback Grasp (Target Lock: 5)
-14% Snapback Grasp (Target Lock: 9)
-25% Snapback Grasp (Target Lock: 10)
-23% Snapback Dash (Target Lock: 5)
-14% Anti-Personnel Shot (Target Lock: 10)
-20% Cover Shot (Target Lock: 5)
+37% Snapback Shooter (Target Lock: 3)
+63% Snapback Strike (Target Lock: 4)
 
 
-Claus: Tailwind Tempest
-Ottavia: Snapback Grasp (Target Lock: 5)
+Claus: Hurricane Drive
+Ottavia: Snapback Strike (Target Lock: 4)
 
-Priorities:  4 | 5
-Ottavia is active
-Ottavia hits
-Ottavia moves Claus:
-
-O....C.
-
-Claus takes 2 damage (now at 1 life)
-Claus is stunned
-
-Beat 15
--------
-
-Claus
------
-life: 1
-discard 1: Tailwind Tempest
-discard 2: Blast Drive
-special action
-
-Ottavia
--------
-life: 14
-discard 1: Snapback Grasp
-discard 2: Demolition Drive
-special action
-
-
-O....C.
-
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 10): -6.00
-
-Claus:
-100% Special Pulse
-
-Ottavia:
-5% Anti-Personnel Shooter (Target Lock: 0)
-5% Anti-Personnel Shooter (Target Lock: 1)
-5% Anti-Personnel Shooter (Target Lock: 2)
-5% Anti-Personnel Shooter (Target Lock: 3)
-5% Anti-Personnel Shooter (Target Lock: 4)
-5% Anti-Personnel Shooter (Target Lock: 5)
-5% Anti-Personnel Shooter (Target Lock: 6)
-5% Anti-Personnel Shooter (Target Lock: 8)
-5% Anti-Personnel Shooter (Target Lock: 9)
-5% Anti-Personnel Shooter (Target Lock: 10)
-5% Anti-Personnel Shot (Target Lock: 0)
-5% Anti-Personnel Shot (Target Lock: 1)
-5% Anti-Personnel Shot (Target Lock: 2)
-5% Anti-Personnel Shot (Target Lock: 3)
-5% Anti-Personnel Shot (Target Lock: 4)
-5% Anti-Personnel Shot (Target Lock: 5)
-5% Anti-Personnel Shot (Target Lock: 6)
-5% Anti-Personnel Shot (Target Lock: 8)
-5% Anti-Personnel Shot (Target Lock: 9)
-5% Anti-Personnel Shot (Target Lock: 10)
-
-
-Claus: Special Pulse
-Ottavia: Anti-Personnel Shot (Target Lock: 5)
-
-Pulse:
-
-.OC....
-
-
-Beat 15
--------
-
-Claus
------
-life: 1
-discard 1: Tailwind Tempest
-discard 2: Blast Drive
-
-Ottavia
--------
-life: 14
-discard 1: Anti-Personnel Shot
-discard 2: Snapback Grasp
-special action
-
-
-.OC....
-
-Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Demolition Strike (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Demolition Strike (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Demolition Strike (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Demolition Strike (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Demolition Strike (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Demolition Strike (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Demolition Strike (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Demolition Strike (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Demolition Strike (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Demolition Strike (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Demolition Burst (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Demolition Burst (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Demolition Burst (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Demolition Burst (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Demolition Burst (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Demolition Burst (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Demolition Burst (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Demolition Burst (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Demolition Burst (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Demolition Burst (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 10): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 0): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 1): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 2): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 3): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 4): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 5): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 6): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 8): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 9): -6.00
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 10): -6.00
-
-Claus:
-6% Hurricane Strike
-9% Hurricane Shot
-11% Hurricane Burst
-1% Hurricane Grasp
-9% Hurricane Dash
-6% Cyclone Strike
-9% Cyclone Shot
-11% Cyclone Burst
-1% Cyclone Grasp
-9% Cyclone Dash
-10% Downdraft Strike
-0% Downdraft Shot
-11% Downdraft Burst
-7% Downdraft Grasp
-1% Downdraft Dash
-
-Ottavia:
-1% Demolition Shooter (Target Lock: 0)
-1% Demolition Shooter (Target Lock: 1)
-1% Demolition Shooter (Target Lock: 2)
-1% Demolition Shooter (Target Lock: 3)
-1% Demolition Shooter (Target Lock: 4)
-1% Demolition Shooter (Target Lock: 5)
-1% Demolition Shooter (Target Lock: 6)
-1% Demolition Shooter (Target Lock: 8)
-1% Demolition Shooter (Target Lock: 9)
-1% Demolition Shooter (Target Lock: 10)
-1% Demolition Strike (Target Lock: 0)
-1% Demolition Strike (Target Lock: 1)
-1% Demolition Strike (Target Lock: 2)
-1% Demolition Strike (Target Lock: 3)
-1% Demolition Strike (Target Lock: 4)
-1% Demolition Strike (Target Lock: 5)
-1% Demolition Strike (Target Lock: 6)
-1% Demolition Strike (Target Lock: 8)
-1% Demolition Strike (Target Lock: 9)
-1% Demolition Strike (Target Lock: 10)
-1% Demolition Drive (Target Lock: 0)
-1% Demolition Drive (Target Lock: 1)
-1% Demolition Drive (Target Lock: 2)
-1% Demolition Drive (Target Lock: 3)
-1% Demolition Drive (Target Lock: 4)
-1% Demolition Drive (Target Lock: 5)
-1% Demolition Drive (Target Lock: 6)
-1% Demolition Drive (Target Lock: 8)
-1% Demolition Drive (Target Lock: 9)
-1% Demolition Drive (Target Lock: 10)
-1% Demolition Burst (Target Lock: 0)
-1% Demolition Burst (Target Lock: 1)
-1% Demolition Burst (Target Lock: 2)
-1% Demolition Burst (Target Lock: 3)
-1% Demolition Burst (Target Lock: 4)
-1% Demolition Burst (Target Lock: 5)
-1% Demolition Burst (Target Lock: 6)
-1% Demolition Burst (Target Lock: 8)
-1% Demolition Burst (Target Lock: 9)
-1% Demolition Burst (Target Lock: 10)
-1% Demolition Dash (Target Lock: 0)
-1% Demolition Dash (Target Lock: 1)
-1% Demolition Dash (Target Lock: 2)
-1% Demolition Dash (Target Lock: 3)
-1% Demolition Dash (Target Lock: 4)
-1% Demolition Dash (Target Lock: 5)
-1% Demolition Dash (Target Lock: 6)
-1% Demolition Dash (Target Lock: 8)
-1% Demolition Dash (Target Lock: 9)
-1% Demolition Dash (Target Lock: 10)
-1% Cover Shooter (Target Lock: 0)
-1% Cover Shooter (Target Lock: 1)
-1% Cover Shooter (Target Lock: 2)
-1% Cover Shooter (Target Lock: 3)
-1% Cover Shooter (Target Lock: 4)
-1% Cover Shooter (Target Lock: 5)
-1% Cover Shooter (Target Lock: 6)
-1% Cover Shooter (Target Lock: 8)
-1% Cover Shooter (Target Lock: 9)
-1% Cover Shooter (Target Lock: 10)
-1% Cover Strike (Target Lock: 0)
-1% Cover Strike (Target Lock: 1)
-1% Cover Strike (Target Lock: 2)
-1% Cover Strike (Target Lock: 3)
-1% Cover Strike (Target Lock: 4)
-1% Cover Strike (Target Lock: 5)
-1% Cover Strike (Target Lock: 6)
-1% Cover Strike (Target Lock: 8)
-1% Cover Strike (Target Lock: 9)
-1% Cover Strike (Target Lock: 10)
-1% Cover Drive (Target Lock: 0)
-1% Cover Drive (Target Lock: 1)
-1% Cover Drive (Target Lock: 2)
-1% Cover Drive (Target Lock: 3)
-1% Cover Drive (Target Lock: 4)
-1% Cover Drive (Target Lock: 5)
-1% Cover Drive (Target Lock: 6)
-1% Cover Drive (Target Lock: 8)
-1% Cover Drive (Target Lock: 9)
-1% Cover Drive (Target Lock: 10)
-1% Cover Burst (Target Lock: 0)
-1% Cover Burst (Target Lock: 1)
-1% Cover Burst (Target Lock: 2)
-1% Cover Burst (Target Lock: 3)
-1% Cover Burst (Target Lock: 4)
-1% Cover Burst (Target Lock: 5)
-1% Cover Burst (Target Lock: 6)
-1% Cover Burst (Target Lock: 8)
-1% Cover Burst (Target Lock: 9)
-1% Cover Burst (Target Lock: 10)
-1% Cover Dash (Target Lock: 0)
-1% Cover Dash (Target Lock: 1)
-1% Cover Dash (Target Lock: 2)
-1% Cover Dash (Target Lock: 3)
-1% Cover Dash (Target Lock: 4)
-1% Cover Dash (Target Lock: 5)
-1% Cover Dash (Target Lock: 6)
-1% Cover Dash (Target Lock: 8)
-1% Cover Dash (Target Lock: 9)
-1% Cover Dash (Target Lock: 10)
-1% Cybernetic Shooter (Target Lock: 0)
-1% Cybernetic Shooter (Target Lock: 1)
-1% Cybernetic Shooter (Target Lock: 2)
-1% Cybernetic Shooter (Target Lock: 3)
-1% Cybernetic Shooter (Target Lock: 4)
-1% Cybernetic Shooter (Target Lock: 5)
-1% Cybernetic Shooter (Target Lock: 6)
-1% Cybernetic Shooter (Target Lock: 8)
-1% Cybernetic Shooter (Target Lock: 9)
-1% Cybernetic Shooter (Target Lock: 10)
-1% Cybernetic Strike (Target Lock: 0)
-1% Cybernetic Strike (Target Lock: 1)
-1% Cybernetic Strike (Target Lock: 2)
-1% Cybernetic Strike (Target Lock: 3)
-1% Cybernetic Strike (Target Lock: 4)
-1% Cybernetic Strike (Target Lock: 5)
-1% Cybernetic Strike (Target Lock: 6)
-1% Cybernetic Strike (Target Lock: 8)
-1% Cybernetic Strike (Target Lock: 9)
-1% Cybernetic Strike (Target Lock: 10)
-1% Cybernetic Drive (Target Lock: 0)
-1% Cybernetic Drive (Target Lock: 1)
-1% Cybernetic Drive (Target Lock: 2)
-1% Cybernetic Drive (Target Lock: 3)
-1% Cybernetic Drive (Target Lock: 4)
-1% Cybernetic Drive (Target Lock: 5)
-1% Cybernetic Drive (Target Lock: 6)
-1% Cybernetic Drive (Target Lock: 8)
-1% Cybernetic Drive (Target Lock: 9)
-1% Cybernetic Drive (Target Lock: 10)
-1% Cybernetic Burst (Target Lock: 0)
-1% Cybernetic Burst (Target Lock: 1)
-1% Cybernetic Burst (Target Lock: 2)
-1% Cybernetic Burst (Target Lock: 3)
-1% Cybernetic Burst (Target Lock: 4)
-1% Cybernetic Burst (Target Lock: 5)
-1% Cybernetic Burst (Target Lock: 6)
-1% Cybernetic Burst (Target Lock: 8)
-1% Cybernetic Burst (Target Lock: 9)
-1% Cybernetic Burst (Target Lock: 10)
-1% Cybernetic Dash (Target Lock: 0)
-1% Cybernetic Dash (Target Lock: 1)
-1% Cybernetic Dash (Target Lock: 2)
-1% Cybernetic Dash (Target Lock: 3)
-1% Cybernetic Dash (Target Lock: 4)
-1% Cybernetic Dash (Target Lock: 5)
-1% Cybernetic Dash (Target Lock: 6)
-1% Cybernetic Dash (Target Lock: 8)
-1% Cybernetic Dash (Target Lock: 9)
-1% Cybernetic Dash (Target Lock: 10)
-
-
-Claus: Cyclone Shot
-Ottavia: Demolition Strike (Target Lock: 10)
-
-Priorities:  3 | 4
+Ottavia acquires target lock
+Priorities:  -6 | 3
 Ottavia is active
 Ottavia hits
 Claus takes 4 damage (now at 0 life)
 OTTAVIA WINS!
-total_time: 33
+total_time: 34

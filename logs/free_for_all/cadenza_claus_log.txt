@@ -11,23 +11,24 @@ Beat 1
 
 Cadenza
 -------
-life: 20
-discard 1: Hydraulic Burst
-discard 2: Mechanical Press
-special action
+Life: 20
+Discard 1: Hydraulic Burst
+Discard 2: Mechanical Press
+Special action available
 3 Iron Body tokens
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Grasp
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Hurricane Grasp
+Discard 2: Cyclone Shot
+Special action available
 
 
 .C...c.
 
-Unbeatable strategy for Claus: Downdraft Tempest: -0.09
+Unbeatable strategy for Claus: Downdraft Tempest: -0.19
+
 
 Cadenza:
 1% Battery Drive
@@ -36,10 +37,10 @@ Cadenza:
 16% Clockwork Drive
 
 Claus:
-6% Tailwind Tempest
+5% Tailwind Tempest
 18% Tailwind Burst
 6% Blast Tempest
-70% Downdraft Tempest
+71% Downdraft Tempest
 
 
 Cadenza: Battery Dash
@@ -56,28 +57,30 @@ Cadenza moves:
 ...c.C.
 
 Claus misses
+Cadenza will have 4 priority next beat
 
 Beat 2
 -------
 
 Cadenza
 -------
-life: 20
-discard 1: Battery Dash
-discard 2: Hydraulic Burst
-special action
+Life: 20
+Discard 1: Battery Dash
+Discard 2: Hydraulic Burst
+Special action available
+Priority bonus: 4
 3 Iron Body tokens
-+4 priority from last beat
 
 Claus
 -----
-life: 20
-discard 1: Downdraft Tempest
-discard 2: Hurricane Grasp
-special action
+Life: 20
+Discard 1: Downdraft Tempest
+Discard 2: Hurricane Grasp
+Special action available
 
 
 ...c.C.
+
 
 Cadenza:
 12% Clockwork Shot
@@ -92,67 +95,17 @@ Claus:
 79% Cyclone Dash
 
 
-Cadenza: Mechanical Shot
-Claus: Tailwind Burst
+Cadenza: Clockwork Shot
+Claus: Tailwind Drive
 
-Priorities:  4 | 1
-Cadenza is active
+Priorities:  3 | 4
+Claus is active
 Claus moves Cadenza:
 
 ....c.C
 
-Cadenza takes 1 damage (now at 19 life)
-Claus moves:
-
-....c.C
-
-Claus moves:
-
-...c..C
-
-Cadenza hits
-Claus takes 5 damage (now at 15 life)
-Claus is stunned
-
-Beat 3
--------
-
-Cadenza
--------
-life: 19
-discard 1: Mechanical Shot
-discard 2: Battery Dash
-special action
-3 Iron Body tokens
-
-Claus
------
-life: 15
-discard 1: Tailwind Burst
-discard 2: Downdraft Tempest
-special action
-
-
-...c..C
-
-Cadenza:
-72% Hydraulic Press
-11% Hydraulic Drive
-15% Grapnel Drive
-2% Grapnel Grasp
-
-Claus:
-0% Blast Shot
-86% Blast Dash
-7% Cyclone Drive
-7% Cyclone Dash
-
-
-Cadenza: Grapnel Drive
-Claus: Blast Dash
-
-Priorities:  4 | 6
-Claus is active
+Cadenza has 3 soak
+Cadenza takes 0 damage (now at 20 life)
 Claus moves:
 
 ....c.C
@@ -161,342 +114,423 @@ Claus moves:
 
 .....cC
 
+Claus hits
+Cadenza has 3 soak
+Cadenza takes 1 damage (now at 19 life)
+Cadenza hits
+Claus takes 6 damage (now at 14 life)
+Claus is stunned
+
+Beat 3
+-------
+
+Cadenza
+-------
+Life: 19
+Discard 1: Clockwork Shot
+Discard 2: Battery Dash
+Special action available
+3 Iron Body tokens
+
+Claus
+-----
+Life: 14
+Discard 1: Tailwind Drive
+Discard 2: Downdraft Tempest
+Special action available
+
+
+.....cC
+
+
+Cadenza:
+41% Hydraulic Press
+22% Hydraulic Drive
+37% Mechanical Press
+
+Claus:
+20% Cyclone Strike
+27% Cyclone Burst
+53% Cyclone Grasp
+
+
+Cadenza: Hydraulic Drive
+Claus: Cyclone Grasp
+
+Priorities:  3 | 6
+Claus is active
+Claus hits
+Claus moves Cadenza:
+
+....Cc.
+
+Cadenza has 1 soak
+Cadenza takes 2 damage (now at 17 life)
+Cadenza spends an Iron Body token
+Cadenza gains infinite stunguard
 Cadenza moves:
 
-...C.c.
+.....cC
 
-Cadenza misses
+Cadenza moves:
+
+....Cc.
+
+Cadenza hits
+Claus takes 5 damage (now at 9 life)
+Claus is stunned
 
 Beat 4
 -------
 
 Cadenza
 -------
-life: 19
-discard 1: Grapnel Drive
-discard 2: Mechanical Shot
-special action
-3 Iron Body tokens
+Life: 17
+Discard 1: Hydraulic Drive
+Discard 2: Clockwork Shot
+Special action available
+2 Iron Body tokens
 
 Claus
 -----
-life: 15
-discard 1: Blast Dash
-discard 2: Tailwind Burst
-special action
+Life: 9
+Discard 1: Cyclone Grasp
+Discard 2: Tailwind Drive
+Special action available
 
+
+....Cc.
+
+Unbeatable strategy for Claus: Blast Tempest: -1.80
+Unbeatable strategy for Claus: Downdraft Tempest: -0.60
+
+
+Cadenza:
+27% Battery Burst
+1% Mechanical Press
+43% Mechanical Strike
+29% Mechanical Burst
+
+Claus:
+15% Hurricane Tempest
+63% Blast Tempest
+16% Blast Strike
+5% Blast Shot
+
+
+Cadenza: Mechanical Burst
+Claus: Blast Shot
+
+Priorities:  -1 | -1
+Clash!
+
+
+Cadenza: Mechanical Grasp
+Claus: Blast Burst
+
+Priorities:  3 | -2
+Cadenza is active
+Claus moves Cadenza:
 
 ...C.c.
 
-Unbeatable strategy for Cadenza: Hydraulic Press: 1.67
-
-Cadenza:
-97% Hydraulic Press
-3% Hydraulic Strike
-
-Claus:
-23% Downdraft Tempest
-77% Downdraft Drive
-
-
-Cadenza: Hydraulic Press
-Claus: Downdraft Drive
-
-Priorities:  -1 | 3
-Claus is active
-Claus moves Cadenza:
-
-..C.c..
-
-Cadenza has 1 soak
-Cadenza takes 0 damage (now at 19 life)
+Cadenza takes 1 damage (now at 16 life)
+Cadenza is stunned
 Claus moves:
 
-..C.c..
+...C..c
 
-Claus misses
-Cadenza moves:
-
-...Cc..
-
-Cadenza hits
-Claus takes 3 damage (now at 12 life)
-Claus is stunned
+Claus hits
+Cadenza takes 3 damage (now at 13 life)
+Cadenza is stunned
 
 Beat 5
 -------
 
 Cadenza
 -------
-life: 19
-discard 1: Hydraulic Press
-discard 2: Grapnel Drive
-special action
-3 Iron Body tokens
+Life: 13
+Discard 1: Mechanical Grasp
+Discard 2: Hydraulic Drive
+Special action available
+2 Iron Body tokens
 
 Claus
 -----
-life: 12
-discard 1: Downdraft Drive
-discard 2: Blast Dash
-special action
+Life: 9
+Discard 1: Blast Burst
+Discard 2: Cyclone Grasp
+Special action available
 
 
-...Cc..
+...C..c
+
 
 Cadenza:
-2% Battery Grasp
-4% Battery Dash
-30% Clockwork Shot
-64% Clockwork Burst
+46% Battery Burst
+54% Clockwork Shot
 
 Claus:
-48% Hurricane Shot
-22% Hurricane Burst
-22% Tailwind Burst
-8% Cyclone Burst
+18% Tailwind Drive
+82% Downdraft Tempest
 
 
-Cadenza: Clockwork Burst
-Claus: Hurricane Shot
+Cadenza: Clockwork Shot
+Claus: Downdraft Tempest
 
-Priorities:  -2 | 2
+Priorities:  -1 | 3
 Claus is active
-Cadenza moves:
-
-.C..c..
-
 Claus hits
 Cadenza has 3 soak
-Cadenza takes 3 damage (now at 16 life)
-Cadenza spends an Iron Body token
-Cadenza gains infinite stunguard
-Cadenza hits
-Claus takes 6 damage (now at 6 life)
-Claus is stunned
+Cadenza takes 0 damage (now at 13 life)
+Cadenza misses
 
 Beat 6
 -------
 
 Cadenza
 -------
-life: 16
-discard 1: Clockwork Burst
-discard 2: Hydraulic Press
-special action
+Life: 13
+Discard 1: Clockwork Shot
+Discard 2: Mechanical Grasp
+Special action available
 2 Iron Body tokens
 
 Claus
 -----
-life: 6
-discard 1: Hurricane Shot
-discard 2: Downdraft Drive
-special action
--4 priority from last beat
+Life: 9
+Discard 1: Downdraft Tempest
+Discard 2: Blast Burst
+Special action available
 
+
+...C..c
+
+
+Cadenza:
+38% Hydraulic Press
+60% Hydraulic Drive
+1% Hydraulic Drive (Iron Body)
+
+Claus:
+37% Tailwind Drive
+63% Tailwind Dash
+
+
+Cadenza: Hydraulic Drive
+Claus: Tailwind Dash
+
+Priorities:  3 | 9
+Claus is active
+Claus moves:
+
+...Cc..
+
+Claus moves Cadenza:
+
+C...c..
+
+Cadenza has 1 soak
+Cadenza takes 2 damage (now at 11 life)
+Cadenza spends an Iron Body token
+Cadenza gains infinite stunguard
+Cadenza moves:
 
 .C..c..
 
-Cadenza:
-4% Battery Shot
-86% Mechanical Shot
-10% Mechanical Drive
+Cadenza moves:
 
-Claus:
-21% Tailwind Tempest
-78% Tailwind Strike
-1% Cyclone Burst
-
-
-Cadenza: Mechanical Shot
-Claus: Tailwind Strike
-
-Priorities:  0 | -1
-Cadenza is active
-Claus moves:
-
-.C.c...
+...Cc..
 
 Cadenza hits
-Claus takes 5 damage (now at 1 life)
-Claus hits
-Cadenza takes 5 damage (now at 11 life)
-Cadenza is stunned
+Claus takes 5 damage (now at 4 life)
+Claus is stunned
 
 Beat 7
 -------
 
 Cadenza
 -------
-life: 11
-discard 1: Mechanical Shot
-discard 2: Clockwork Burst
-special action
-2 Iron Body tokens
+Life: 11
+Discard 1: Hydraulic Drive
+Discard 2: Clockwork Shot
+Special action available
+1 Iron Body tokens
 
 Claus
 -----
-life: 1
-discard 1: Tailwind Strike
-discard 2: Hurricane Shot
-special action
+Life: 4
+Discard 1: Tailwind Dash
+Discard 2: Downdraft Tempest
+Special action available
 
 
-.C.c...
+...Cc..
 
-Unbeatable strategy for Cadenza: Hydraulic Press: 1.05
 
 Cadenza:
-42% Battery Drive
-25% Hydraulic Press
-33% Hydraulic Drive
+18% Mechanical Press
+25% Mechanical Burst
+57% Mechanical Dash
 
 Claus:
-71% Cyclone Dash
-6% Downdraft Tempest
-6% Downdraft Drive
-17% Downdraft Burst
+12% Blast Shot
+14% Blast Grasp
+74% Cyclone Drive
 
 
-Cadenza: Battery Drive
-Claus: Cyclone Dash
+Cadenza: Mechanical Dash
+Claus: Cyclone Drive
 
-Priorities:  3 | 10
-Claus is active
+Priorities:  7 | 5
+Cadenza is active
+Cadenza moves:
+
+....c.C
+
 Claus moves:
 
-.C...c.
+.....cC
 
+Claus misses
 Cadenza moves:
 
 ..C..c.
 
-Cadenza misses
 
 Beat 8
 -------
 
 Cadenza
 -------
-life: 11
-discard 1: Battery Drive
-discard 2: Mechanical Shot
-special action
-2 Iron Body tokens
-+4 priority from last beat
+Life: 11
+Discard 1: Mechanical Dash
+Discard 2: Hydraulic Drive
+Special action available
+1 Iron Body tokens
 
 Claus
 -----
-life: 1
-discard 1: Cyclone Dash
-discard 2: Tailwind Strike
-special action
+Life: 4
+Discard 1: Cyclone Drive
+Discard 2: Tailwind Dash
+Special action available
 
 
 ..C..c.
 
-Unbeatable strategy for Claus: Downdraft Tempest: -0.75
-Unbeatable strategy for Claus: Downdraft Burst: -1.01
+Unbeatable strategy for Claus: Downdraft Tempest: -0.10
+
 
 Cadenza:
-61% Clockwork Press
-24% Clockwork Grasp
-11% Hydraulic Press
-2% Hydraulic Burst
-1% Grapnel Strike
+2% Battery Press
+98% Battery Shot
 
 Claus:
-1% Hurricane Shot
-16% Blast Tempest
-3% Blast Burst
-9% Downdraft Tempest
-71% Downdraft Burst
+98% Downdraft Tempest
+2% Downdraft Shot
 
 
-Cadenza: Clockwork Press
-Claus: Blast Tempest
+Cadenza: Battery Shot
+Claus: Downdraft Tempest
 
-Priorities:  1 | 1
-Clash!
-
-Cadenza:
-99% Clockwork Strike
-1% Clockwork Burst
-
-Claus:
-1% Blast Drive
-99% Blast Grasp
-
-
-Cadenza: Clockwork Strike
-Claus: Blast Grasp
-
-Priorities:  4 | 2
-Cadenza is active
-Claus moves:
-
-..C.c..
-
-Cadenza misses
+Priorities:  1 | 3
+Claus is active
 Claus hits
-Claus moves Cadenza:
-
-...Cc..
-
-Cadenza has 3 soak
-Cadenza takes 0 damage (now at 11 life)
+Cadenza takes 1 damage (now at 10 life)
+Cadenza misses
+Cadenza will have 4 priority next beat
 
 Beat 9
 -------
 
 Cadenza
 -------
-life: 11
-discard 1: Clockwork Strike
-discard 2: Battery Drive
-special action
-2 Iron Body tokens
+Life: 10
+Discard 1: Battery Shot
+Discard 2: Mechanical Dash
+Special action available
+Priority bonus: 4
+1 Iron Body tokens
 
 Claus
 -----
-life: 1
-discard 1: Blast Grasp
-discard 2: Cyclone Dash
-special action
+Life: 4
+Discard 1: Downdraft Tempest
+Discard 2: Cyclone Drive
+Special action available
 
 
-...Cc..
+..C..c.
 
-Unbeatable strategy for Claus: Downdraft Tempest: -1.01
+Unbeatable strategy for Cadenza: Hydraulic Drive: 9.00
+Unbeatable strategy for Cadenza: Hydraulic Drive (Iron Body): 9.00
+
 
 Cadenza:
-5% Hydraulic Press
-28% Hydraulic Shot
-5% Hydraulic Grasp
-62% Mechanical Grasp
+100% Hydraulic Drive
 
 Claus:
-5% Tailwind Shot
-16% Tailwind Drive
-0% Tailwind Burst
-78% Downdraft Tempest
+100% Special Pulse
 
 
-Cadenza: Hydraulic Shot
-Claus: Downdraft Tempest
+Cadenza: Hydraulic Drive
+Claus: Special Pulse
 
-Priorities:  1 | 3
+Pulse:
+
+.Cc....
+
+
+Beat 9
+-------
+
+Cadenza
+-------
+Life: 10
+Discard 1: Hydraulic Drive
+Discard 2: Battery Shot
+Special action available
+1 Iron Body tokens
+
+Claus
+-----
+Life: 4
+Discard 1: Downdraft Tempest
+Discard 2: Cyclone Drive
+
+
+.Cc....
+
+
+Cadenza:
+15% Clockwork Press
+13% Clockwork Burst
+3% Clockwork Dash
+66% Mechanical Strike
+3% Mechanical Burst
+
+Claus:
+4% Tailwind Strike
+38% Tailwind Burst
+30% Tailwind Dash
+2% Blast Burst
+26% Blast Dash
+
+
+Cadenza: Mechanical Strike
+Claus: Blast Dash
+
+Priorities:  1 | 6
 Claus is active
 Claus moves Cadenza:
 
-C...c..
+C.c....
 
-Cadenza has 1 soak
-Cadenza takes 2 damage (now at 9 life)
-Claus misses
-Cadenza moves:
+Cadenza takes 1 damage (now at 9 life)
+Claus moves:
 
-.C..c..
+C..c...
 
 Cadenza misses
 
@@ -505,105 +539,49 @@ Beat 10
 
 Cadenza
 -------
-life: 9
-discard 1: Hydraulic Shot
-discard 2: Clockwork Strike
-special action
-2 Iron Body tokens
+Life: 9
+Discard 1: Mechanical Strike
+Discard 2: Hydraulic Drive
+Special action available
+1 Iron Body tokens
 
 Claus
 -----
-life: 1
-discard 1: Downdraft Tempest
-discard 2: Blast Grasp
-special action
+Life: 4
+Discard 1: Blast Dash
+Discard 2: Downdraft Tempest
 
 
-.C..c..
+C..c...
+
 
 Cadenza:
-27% Battery Drive
-21% Battery Burst
-37% Grapnel Drive
-15% Mechanical Drive
+52% Battery Shot
+20% Clockwork Grasp
+23% Grapnel Shot
+5% Grapnel Grasp
 
 Claus:
-2% Tailwind Strike
-80% Tailwind Burst
-12% Cyclone Shot
-6% Cyclone Dash
+67% Hurricane Burst
+3% Tailwind Strike
+3% Cyclone Drive
+27% Cyclone Burst
 
 
-Cadenza: Battery Burst
-Claus: Tailwind Burst
+Cadenza: Battery Shot
+Claus: Cyclone Drive
 
-Priorities:  0 | 1
+Priorities:  1 | 5
 Claus is active
 Claus moves:
 
-.Cc....
-
-Claus moves:
-
-.C..c..
-
-Cadenza moves:
-
-C...c..
+Cc.....
 
 Claus hits
 Cadenza takes 4 damage (now at 5 life)
-Cadenza is stunned
-
-Beat 11
--------
-
-Cadenza
--------
-life: 5
-discard 1: Battery Burst
-discard 2: Hydraulic Shot
-special action
-2 Iron Body tokens
-+4 priority from last beat
-
-Claus
------
-life: 1
-discard 1: Tailwind Burst
-discard 2: Downdraft Tempest
-special action
-
-
-C...c..
-
-Cadenza:
-5% Clockwork Press
-34% Clockwork Drive
-24% Grapnel Drive
-37% Mechanical Press
-
-Claus:
-5% Blast Dash
-15% Cyclone Shot
-77% Cyclone Dash
-3% Special Autumn's Advance
-
-
-Cadenza: Grapnel Drive
-Claus: Special Autumn's Advance
-
-Priorities:  8 | 6
-Cadenza is active
-Cadenza moves:
-
-.C..c..
-
+Cadenza spends an Iron Body token
+Cadenza gains infinite stunguard
 Cadenza hits
-Cadenza moves Claus:
-
-cC.....
-
-Claus takes 3 damage (now at 0 life)
+Claus takes 4 damage (now at 0 life)
 CADENZA WINS!
 total_time: 14

@@ -11,38 +11,39 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Grasp
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Hurricane Grasp
+Discard 2: Cyclone Shot
+Special action available
 
 Voco
 ----
-life: 20
-discard 1: Thunderous Drive
-discard 2: Monster Burst
-special action
+Life: 20
+Discard 1: Thunderous Drive
+Discard 2: Monster Burst
+Special action available
 
 
 .C...V.
 
 
+
 Claus:
-39% Tailwind Drive
+1% Tailwind Strike
+36% Tailwind Drive
 37% Tailwind Dash
-3% Blast Strike
-0% Blast Drive
-21% Downdraft Tempest
+5% Blast Drive
+20% Downdraft Tempest
 
 Voco:
-10% Metal Shred
-19% Metal Dash
-5% Hellraising Shred
-12% Hellraising Dash
-54% Special Pulse
+15% Metal Shred
+20% Metal Dash
+13% Hellraising Shred
+3% Hellraising Dash
+48% Special Pulse
 
 
-Claus: Downdraft Tempest
+Claus: Tailwind Drive
 Voco: Special Pulse
 
 Pulse:
@@ -56,126 +57,121 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: Downdraft Tempest
-discard 2: Hurricane Grasp
-special action
+Life: 20
+Discard 1: Tailwind Drive
+Discard 2: Hurricane Grasp
+Special action available
 
 Voco
 ----
-life: 20
-discard 1: Thunderous Drive
-discard 2: Monster Burst
+Life: 20
+Discard 1: Thunderous Drive
+Discard 2: Monster Burst
 
 
 C.....V
 
 
+Unbeatable strategy for Claus: Downdraft Dash: 0.32
+
+
 Claus:
-20% Tailwind Shot
-8% Tailwind Drive
-54% Tailwind Dash
-18% Blast Dash
+43% Blast Tempest
+19% Cyclone Tempest
+38% Downdraft Tempest
 
 Voco:
-29% Hellraising Shred
-8% Abyssal Strike
-43% Abyssal Grasp
-20% Abyssal Dash
+40% Hellraising Strike
+26% Hellraising Grasp
+34% Abyssal Strike
 
 
-Claus: Blast Dash
-Voco: Abyssal Dash
+Claus: Cyclone Tempest
+Voco: Hellraising Strike
 
-Priorities:  6 | 9
-Voco is active
+Priorities:  5 | 1
+Claus is active
 Claus moves:
 
-.C....V
+...C..V
 
 
-Voco moves:
 
-.C...V.
+...C..V
+....zz.
 
-
-Claus moves:
-
-....CV.
-
-
+Claus hits
+Voco has 1 soak
+Voco takes 1 damage (now at 19 life)
+Voco hits
+Claus takes 3 damage (now at 17 life)
+Claus is stunned
 
 Beat 2
 -------
 
 Claus
 -----
-life: 20
-discard 1: Blast Dash
-discard 2: Downdraft Tempest
-special action
+Life: 17
+Discard 1: Cyclone Tempest
+Discard 2: Tailwind Drive
+Special action available
 
 Voco
 ----
-life: 20
-discard 1: Abyssal Dash
-discard 2: Thunderous Drive
+Life: 19
+Discard 1: Hellraising Strike
+Discard 2: Thunderous Drive
 
 
-....CV.
+...C..V
+.....z.
+
+Unbeatable strategy for Claus: Blast Shot: 0.01
 
 
 Claus:
-36% Tailwind Strike
-64% Tailwind Shot
+11% Hurricane Dash
+85% Blast Shot
+4% Blast Dash
 
 Voco:
-33% Metal Shred
-67% Metal Strike
+53% Monster Dash
+35% Metal Dash
+12% Abyssal Shot
 
 
-Claus: Tailwind Strike
-Voco: Metal Strike
+Claus: Blast Shot
+Voco: Metal Dash
 
-Priorities:  3 | 3
-Clash!
-
-Claus:
-49% Tailwind Shot
-51% Tailwind Grasp
-
-Voco:
-89% Metal Shred
-11% Metal Shot
-
-
-Claus: Tailwind Grasp
-Voco: Metal Shred
-
-Priorities:  5 | 4
-Claus is active
-Claus moves Voco:
-
-....C.V
-
-
+Priorities:  -1 | 9
+Voco is active
+Claus moves:
 
 ....C.V
 .....z.
 
-Voco has 1 soak
-Voco takes 0 damage (now at 20 life)
+Voco moves:
+
+...VC..
+.....z.
+
+
+...VC..
+.....zz
+
+Voco moves:
+
+V...C..
+.....zz
+
+
+V...C..
+.zzz.zz
+
 Claus hits
-Claus moves Voco:
-
-....CV.
-
-
-
-....CV.
-......z
-
-Voco takes 3 damage (now at 17 life)
+Voco has 2 soak
+Voco takes 1 damage (now at 18 life)
 Voco is stunned
 
 Beat 3
@@ -183,568 +179,434 @@ Beat 3
 
 Claus
 -----
-life: 20
-discard 1: Tailwind Grasp
-discard 2: Blast Dash
-special action
+Life: 17
+Discard 1: Blast Shot
+Discard 2: Cyclone Tempest
+Special action available
 
 Voco
 ----
-life: 17
-discard 1: Metal Shred
-discard 2: Abyssal Dash
+Life: 18
+Discard 1: Metal Dash
+Discard 2: Hellraising Strike
 
 
-....CV.
-......z
+V...C..
+.zz...z
+
 
 Claus:
-44% Hurricane Tempest
-6% Hurricane Strike
-19% Hurricane Shot
-12% Cyclone Tempest
-18% Cyclone Shot
-1% Cyclone Drive
+22% Tailwind Strike
+76% Tailwind Drive
+2% Tailwind Grasp
 
 Voco:
-42% Monster Strike
-5% Monster Grasp
-12% Hellraising Strike
-4% Thunderous Strike
-11% Thunderous Drive
-26% Thunderous Grasp
+63% Abyssal Shred
+36% Abyssal Drive
+1% Thunderous Burst
 
 
-Claus: Hurricane Tempest
-Voco: Monster Strike
+Claus: Tailwind Drive
+Voco: Abyssal Shred
 
-Priorities:  4 | 2
+Priorities:  4 | 4
+Clash!
+
+
+Claus: Tailwind Strike
+Voco: Abyssal Shot
+
+Priorities:  3 | 2
 Claus is active
-Claus moves Voco:
+Claus moves:
 
-....C.V
-......z
+V.C....
+.zz...z
 
-Voco takes 1 damage (now at 16 life)
 Claus hits
-Voco takes 4 damage (now at 12 life)
-Voco moves:
-
-....CV.
-......z
-
-Voco hits
-Claus takes 4 damage (now at 16 life)
-Claus is stunned
+Voco has 1 soak
+Voco takes 4 damage (now at 14 life)
+Voco is stunned
 
 Beat 4
 -------
 
 Claus
 -----
-life: 16
-discard 1: Hurricane Tempest
-discard 2: Tailwind Grasp
-special action
--4 priority from last beat
+Life: 17
+Discard 1: Tailwind Strike
+Discard 2: Blast Shot
+Special action available
 
 Voco
 ----
-life: 12
-discard 1: Monster Strike
-discard 2: Metal Shred
+Life: 14
+Discard 1: Abyssal Shot
+Discard 2: Metal Dash
 
 
-....CV.
-......z
+V.C....
+..z...z
+
 
 Claus:
-8% Blast Shot
-51% Cyclone Dash
-30% Downdraft Shot
-11% Downdraft Dash
+16% Hurricane Tempest
+44% Cyclone Tempest
+12% Cyclone Drive
+14% Cyclone Burst
+14% Downdraft Burst
 
 Voco:
-30% Hellraising Drive
-33% Thunderous Shot
-36% Thunderous Burst
-1% Thunderous Grasp
+19% Monster Strike
+6% Thunderous Strike
+35% Thunderous Drive
+21% Thunderous Burst
+18% Thunderous Grasp
 
 
-Claus: Cyclone Dash
-Voco: Thunderous Shot
+Claus: Downdraft Burst
+Voco: Thunderous Drive
 
-Priorities:  6 | 2
-Claus is active
+Priorities:  0 | 4
+Voco is active
 Voco moves:
 
-..V.C..
-.....zz
+..CV...
+z.z...z
 
 Claus moves:
 
-..VC...
-.....zz
+.C.V...
+z.z...z
+
+Voco moves:
+
+VC.....
+z.z...z
 
 Voco misses
+Claus misses
 
 Beat 5
 -------
 
 Claus
 -----
-life: 16
-discard 1: Cyclone Dash
-discard 2: Hurricane Tempest
-special action
+Life: 17
+Discard 1: Downdraft Burst
+Discard 2: Tailwind Strike
+Special action available
 
 Voco
 ----
-life: 12
-discard 1: Thunderous Shot
-discard 2: Monster Strike
+Life: 14
+Discard 1: Thunderous Drive
+Discard 2: Abyssal Shot
 
 
-..VC...
-.....zz
+VC.....
+z.z...z
+
+Unbeatable strategy for Voco: Metal Dash: -1.28
+
 
 Claus:
-97% Tailwind Shot
-3% Tailwind Burst
+53% Hurricane Dash
+14% Blast Shot
+10% Cyclone Drive
+23% Cyclone Dash
 
 Voco:
-11% Metal Shred
-89% Metal Burst
+34% Monster Dash
+11% Metal Strike
+50% Metal Dash
+6% Hellraising Burst
 
 
-Claus: Tailwind Shot
-Voco: Metal Burst
+Claus: Hurricane Dash
+Voco: Metal Dash
 
-Priorities:  2 | 1
-Claus is active
-Claus moves Voco:
-
-V..C...
-.....zz
+Priorities:  9 | 9
+Clash!
 
 
-V..C...
-.zz..zz
+Claus: Hurricane Shot
+Voco: Metal Grasp
 
-Voco has 1 soak
-Voco takes 1 damage (now at 11 life)
-Voco is stunned
+Priorities:  2 | 5
+Voco is active
+Voco moves:
+
+.C.V...
+z.z...z
+
+Voco hits
+Voco moves Claus:
+
+C..V...
+z.z...z
+
+Claus takes 2 damage (now at 15 life)
 Claus hits
-Voco takes 4 damage (now at 7 life)
+Voco takes 6 damage (now at 8 life)
 Voco is stunned
+Claus will have -4 priority next beat
 
 Beat 6
 -------
 
 Claus
 -----
-life: 16
-discard 1: Tailwind Shot
-discard 2: Cyclone Dash
-special action
+Life: 15
+Discard 1: Hurricane Shot
+Discard 2: Downdraft Burst
+Special action available
+Priority bonus: -4
 
 Voco
 ----
-life: 7
-discard 1: Metal Burst
-discard 2: Thunderous Shot
+Life: 8
+Discard 1: Metal Grasp
+Discard 2: Thunderous Drive
 
 
-V..C...
-.z...zz
+C..V...
+z.z...z
+
 
 Claus:
-32% Blast Strike
-3% Blast Burst
-66% Downdraft Drive
+55% Tailwind Tempest
+21% Tailwind Strike
+8% Tailwind Drive
+15% Tailwind Grasp
 
 Voco:
-34% Monster Grasp
-55% Monster Dash
-11% Abyssal Strike
+23% Hellraising Shred
+59% Hellraising Shot
+7% Hellraising Burst
+11% Hellraising Dash
 
 
-Claus: Downdraft Drive
-Voco: Abyssal Strike
+Claus: Tailwind Strike
+Voco: Hellraising Shred
 
-Priorities:  3 | 3
-Clash!
-
-Claus:
-87% Downdraft Tempest
-13% Downdraft Grasp
-
-Voco:
-87% Abyssal Shred
-13% Abyssal Grasp
-
-
-Claus: Downdraft Tempest
-Voco: Abyssal Shred
-
-Priorities:  3 | 4
+Priorities:  -1 | 2
 Voco is active
+Voco moves:
+
+C...V..
+z.z...z
+
+
+C...V..
+zzzz..z
+
 Claus moves:
 
-V.C....
-.z...zz
+..C.V..
+zzzz..z
 
-Voco misses
+Voco hits
+Voco gets +2 power
+Claus takes 2 damage (now at 13 life)
 Claus hits
-Voco has 1 soak
-Voco takes 0 damage (now at 7 life)
+Voco has 2 soak
+Voco takes 3 damage (now at 5 life)
+Voco is stunned
+Claus loses 1 life (now at 12)
 
 Beat 7
 -------
 
 Claus
 -----
-life: 16
-discard 1: Downdraft Tempest
-discard 2: Tailwind Shot
-special action
+Life: 12
+Discard 1: Tailwind Strike
+Discard 2: Hurricane Shot
+Special action available
 
 Voco
 ----
-life: 7
-discard 1: Abyssal Shred
-discard 2: Metal Burst
+Life: 5
+Discard 1: Hellraising Shred
+Discard 2: Metal Grasp
 
 
-V.C....
-.....zz
+..C.V..
+z.....z
+
+Unbeatable strategy for Claus: Cyclone Tempest: 1.27
+
 
 Claus:
-40% Blast Burst
-23% Cyclone Strike
-35% Cyclone Drive
-2% Cyclone Burst
+25% Blast Drive
+61% Cyclone Tempest
+7% Cyclone Drive
+7% Downdraft Drive
 
 Voco:
-9% Hellraising Strike
-74% Hellraising Dash
-12% Thunderous Shot
-5% Thunderous Dash
+54% Monster Shot
+4% Monster Drive
+34% Abyssal Burst
+8% Thunderous Strike
 
 
-Claus: Blast Burst
-Voco: Hellraising Dash
+Claus: Cyclone Tempest
+Voco: Abyssal Burst
 
-Priorities:  -2 | 7
-Voco is active
+Priorities:  5 | 1
+Claus is active
+Claus moves Voco:
 
-V.C....
-.z...zz
+...C..V
+z.....z
 
+Voco takes 2 damage (now at 3 life)
+Voco is stunned
 Claus moves:
 
-VC.....
-.z...zz
+...C..V
+z.....z
 
-Claus moves:
-
-V..C...
-.z...zz
-
-Voco moves:
-
-..VC...
-.z...zz
-
-Claus misses
+Claus hits
+Voco takes 2 damage (now at 1 life)
+Voco is stunned
 
 Beat 8
 -------
 
 Claus
 -----
-life: 16
-discard 1: Blast Burst
-discard 2: Downdraft Tempest
-special action
+Life: 12
+Discard 1: Cyclone Tempest
+Discard 2: Tailwind Strike
+Special action available
 
 Voco
 ----
-life: 7
-discard 1: Hellraising Dash
-discard 2: Abyssal Shred
+Life: 1
+Discard 1: Abyssal Burst
+Discard 2: Hellraising Shred
 
 
-..VC...
-.z...zz
+...C..V
+z.....z
+
+Unbeatable strategy for Voco: Metal Dash: -0.28
+
 
 Claus:
-50% Tailwind Shot
-42% Tailwind Drive
-8% Tailwind Grasp
+39% Hurricane Dash
+40% Blast Shot
+21% Downdraft Dash
 
 Voco:
-5% Monster Strike
-40% Metal Shot
-54% Metal Drive
+43% Monster Dash
+21% Metal Drive
+37% Metal Dash
 
 
-Claus: Tailwind Shot
-Voco: Metal Shot
+Claus: Blast Shot
+Voco: Metal Dash
 
-Priorities:  2 | 2
-Clash!
+Priorities:  -1 | 9
+Voco is active
+Claus moves:
 
-Claus:
-45% Tailwind Drive
-55% Tailwind Grasp
+....C.V
+z.....z
 
-Voco:
-56% Metal Drive
-44% Metal Burst
-
-
-Claus: Tailwind Drive
-Voco: Metal Drive
-
-Priorities:  4 | 4
-Clash!
-
-Claus:
-83% Tailwind Strike
-17% Tailwind Grasp
-
-Voco:
-1% Metal Strike
-99% Metal Burst
-
-
-Claus: Tailwind Strike
-Voco: Metal Burst
-
-Priorities:  3 | 1
-Claus is active
-Claus moves Voco:
-
-.V.C...
-.z...zz
-
-
-.V.C...
-.zz..zz
-
-Voco has 1 soak
-Voco takes 0 damage (now at 7 life)
 Voco moves:
 
-V..C...
-.z...zz
+...VC..
+z.....z
+
+
+...VC..
+z....zz
+
+Voco moves:
+
+....C.V
+z....zz
+
+
+....C.V
+z..z.zz
 
 Claus misses
-Voco moves:
-
-..VC...
-.z...zz
-
-
-..VC...
-zz...zz
-
-Voco misses
 
 Beat 9
 -------
 
 Claus
 -----
-life: 16
-discard 1: Tailwind Strike
-discard 2: Blast Burst
-special action
+Life: 12
+Discard 1: Blast Shot
+Discard 2: Cyclone Tempest
+Special action available
 
 Voco
 ----
-life: 7
-discard 1: Metal Burst
-discard 2: Hellraising Dash
+Life: 1
+Discard 1: Metal Dash
+Discard 2: Abyssal Burst
 
 
-..VC...
-zz...zz
+....C.V
+z..z.zz
+
 
 Claus:
-43% Hurricane Tempest
-13% Hurricane Shot
-44% Cyclone Tempest
+6% Hurricane Strike
+5% Tailwind Burst
+82% Tailwind Grasp
+5% Downdraft Burst
+2% Downdraft Dash
 
 Voco:
-75% Monster Strike
-6% Thunderous Shred
-19% Thunderous Grasp
+3% Monster Strike
+2% Monster Shot
+10% Monster Drive
+3% Thunderous Drive
+82% Thunderous Grasp
 
 
-Claus: Hurricane Tempest
-Voco: Monster Strike
+Claus: Tailwind Grasp
+Voco: Thunderous Grasp
 
-Priorities:  4 | 2
+Priorities:  5 | 5
+Clash!
+
+
+Claus: Tailwind Drive
+Voco: Thunderous Strike
+
+Priorities:  4 | 3
 Claus is active
-Claus moves Voco:
-
-V..C...
-zz...zz
-
-Voco takes 2 damage (now at 5 life)
-Claus hits
-Voco takes 4 damage (now at 1 life)
-Voco moves:
-
-.V.C...
-zz...zz
-
-Voco moves:
-
-..VC...
-zz...zz
-
-Voco hits
-Claus takes 4 damage (now at 12 life)
-Claus is stunned
-
-Beat 10
--------
-
-Claus
------
-life: 12
-discard 1: Hurricane Tempest
-discard 2: Tailwind Strike
-special action
--4 priority from last beat
-
-Voco
-----
-life: 1
-discard 1: Monster Strike
-discard 2: Metal Burst
-
-
-..VC...
-zz...zz
-
-Unbeatable strategy for Voco: Thunderous Dash: -0.21
-
-Claus:
-50% Blast Drive
-50% Downdraft Drive
-
-Voco:
-1% Thunderous Shot
-99% Thunderous Dash
-
-
-Claus: Blast Drive
-Voco: Thunderous Dash
-
-Priorities:  -3 | 9
-Voco is active
-Voco moves:
-
-...C.V.
-zzz..zz
-
 Claus moves:
 
-....CV.
-zzz..zz
+.....CV
+z..z.zz
 
 Voco moves:
 
-.V..C..
-zzz..zz
+...V.C.
+z..z.zz
 
-Claus moves:
-
-.VC....
-zzz..zz
-
-Claus misses
-
-Beat 11
--------
-
-Claus
------
-life: 12
-discard 1: Blast Drive
-discard 2: Hurricane Tempest
-special action
-
-Voco
-----
-life: 1
-discard 1: Thunderous Dash
-discard 2: Monster Strike
-
-
-.VC....
-zzz..zz
-
-Claus:
-52% Tailwind Strike
-48% Tailwind Grasp
-
-Voco:
-7% Metal Shred
-6% Metal Shot
-7% Metal Drive
-6% Metal Burst
-7% Metal Grasp
-6% Hellraising Shred
-6% Hellraising Shot
-7% Hellraising Drive
-5% Hellraising Burst
-7% Hellraising Grasp
-8% Abyssal Shred
-6% Abyssal Shot
-8% Abyssal Drive
-7% Abyssal Burst
-7% Abyssal Grasp
-
-
-Claus: Tailwind Strike
-Voco: Metal Drive
-
-Priorities:  3 | 4
-Voco is active
 Claus moves Voco:
 
-V.C....
-zzz..zz
+..V.C..
+z..z.zz
 
-Voco has 1 soak
-Voco takes 0 damage (now at 1 life)
-Voco moves:
-
-..CV...
-z.z..zz
-
-
-..CV...
-zzz..zz
-
-Voco moves:
-
-V.C....
-zzz..zz
-
-
-V.C....
-zzzz.zz
-
-Voco hits
-Claus takes 3 damage (now at 9 life)
-Claus hits
 Voco has 2 soak
-Voco takes 3 damage (now at 0 life)
+Voco takes 0 damage (now at 1 life)
+Claus moves:
+
+..V.C..
+z.....z
+
+Claus hits
+Voco takes 4 damage (now at 0 life)
 CLAUS WINS!
 total_time: 6

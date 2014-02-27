@@ -11,22 +11,23 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: Hurricane Grasp
-discard 2: Cyclone Shot
-special action
+Life: 20
+Discard 1: Hurricane Grasp
+Discard 2: Cyclone Shot
+Special action available
 
 Kajia
 -----
-life: 20
-discard 1: Stinging Strike
-discard 2: Swarming Burst
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 20
+Discard 1: Stinging Strike
+Discard 2: Swarming Burst
+Special action available
+0 insects on Claus's discard 1
+0 insects on Claus's discard 2
 
 
 .C...K.
+
 
 Claus:
 5% Tailwind Tempest
@@ -41,557 +42,490 @@ Kajia:
 47% Biting Grasp
 
 
-Claus: Tailwind Burst
-Kajia: Biting Drive
+Claus: Tailwind Drive
+Kajia: Burrowing Dash
 
-Priorities:  1 | 3
+Priorities:  4 | 8
 Kajia is active
 Claus moves:
 
 ..C..K.
 
-Claus moves:
-
-C....K.
-
 Kajia moves:
 
-C..K...
+.KC....
 
-Kajia hits
-Claus takes 2 damage (now at 18 life)
-Kajia moves Claus:
+Claus moves Kajia:
 
-.C.K...
+K.C....
 
-Claus is stunned
+Kajia takes 1 damage (now at 19 life)
+Kajia is stunned
+Claus misses
 
 Beat 2
 -------
 
 Claus
 -----
-life: 18
-discard 1: Tailwind Burst
-discard 2: Hurricane Grasp
-special action
+Life: 20
+Discard 1: Tailwind Drive
+Discard 2: Hurricane Grasp
+Special action available
 
 Kajia
 -----
-life: 20
-discard 1: Biting Drive
-discard 2: Stinging Strike
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 19
+Discard 1: Burrowing Dash
+Discard 2: Stinging Strike
+Special action available
+0 insects on Claus's discard 1
+0 insects on Claus's discard 2
 
 
-.C.K...
+K.C....
 
-Unbeatable strategy for Claus: Downdraft Tempest: 0.73
+Unbeatable strategy for Kajia: Biting Drive: -1.15
+
 
 Claus:
-39% Cyclone Shot
-61% Downdraft Tempest
+55% Cyclone Shot
+45% Downdraft Tempest
 
 Kajia:
-65% Parasitic Shot
-35% Parasitic Dash
+2% Biting Mandibles
+98% Biting Drive
 
 
-Claus: Downdraft Tempest
-Kajia: Parasitic Dash
+Claus: Cyclone Shot
+Kajia: Biting Drive
 
-Priorities:  3 | 8
-Kajia is active
-Kajia moves Claus:
+Priorities:  3 | 3
+Clash!
 
-...K.C.
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 0)
-Claus moves Kajia:
+Claus: Cyclone Strike
+Kajia: Biting Grasp
 
-.K..C..
+Priorities:  4 | 4
+Clash!
 
-Kajia takes 2 damage (now at 18 life)
-Kajia is stunned
+
+Claus: Cyclone Burst
+Kajia: Biting Shot
+
+Priorities:  2 | 1
+Claus is active
 Claus moves:
 
-.K..C..
+K..C...
 
 Claus hits
-Kajia takes 1 damage (now at 17 life)
-Kajia is stunned
+Kajia takes 4 damage (now at 15 life)
+Kajia hits
+Claus takes 2 damage (now at 18 life)
+Kajia moves Claus:
+
+K.C....
+
+Claus is stunned
 
 Beat 3
 -------
 
 Claus
 -----
-life: 18
-discard 1: Downdraft Tempest
-discard 2: Tailwind Burst
-special action
+Life: 18
+Discard 1: Cyclone Burst
+Discard 2: Tailwind Drive
+Special action available
 
 Kajia
 -----
-life: 17
-discard 1: Parasitic Dash
-discard 2: Biting Drive
-special action
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 15
+Discard 1: Biting Shot
+Discard 2: Burrowing Dash
+Special action available
+0 insects on Claus's discard 1
+0 insects on Claus's discard 2
 
 
-.K..C..
+K.C....
+
+Unbeatable strategy for Kajia: Stinging Mandibles: -0.90
+Unbeatable strategy for Kajia: Stinging Drive: -0.39
+
 
 Claus:
-10% Hurricane Shot
-1% Hurricane Drive
-15% Cyclone Shot
-20% Cyclone Drive
-53% Cyclone Dash
+7% Hurricane Tempest
+93% Downdraft Dash
 
 Kajia:
-25% Burrowing Strike
-9% Burrowing Shot
-6% Swarming Mandibles
-22% Swarming Shot
-38% Stinging Mandibles
+68% Swarming Mandibles
+32% Stinging Drive
 
 
-Claus: Cyclone Drive
-Kajia: Swarming Shot
+Claus: Hurricane Tempest
+Kajia: Swarming Mandibles
 
-Priorities:  5 | 1
+Priorities:  4 | 2
 Claus is active
-Claus moves:
-
-.K.C...
-
-Claus misses
-Kajia hits
-Claus takes 3 damage (now at 15 life)
-Claus is stunned
+Claus hits
+Kajia takes 4 damage (now at 11 life)
+Kajia is stunned
+Claus will have -4 priority next beat
 
 Beat 4
 -------
 
 Claus
 -----
-life: 15
-discard 1: Cyclone Drive
-discard 2: Downdraft Tempest
-special action
+Life: 18
+Discard 1: Hurricane Tempest
+Discard 2: Cyclone Burst
+Special action available
+Priority bonus: -4
 
 Kajia
 -----
-life: 17
-discard 1: Swarming Shot
-discard 2: Parasitic Dash
-special action
-0 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 11
+Discard 1: Swarming Mandibles
+Discard 2: Biting Shot
+Special action available
+0 insects on Claus's discard 1
+0 insects on Claus's discard 2
 
 
-.K.C...
+K.C....
 
-Unbeatable strategy for Kajia: Biting Drive: -0.18
 
 Claus:
-100% Tailwind Strike
+78% Tailwind Strike
+22% Tailwind Dash
 
 Kajia:
-100% Biting Drive
+1% Burrowing Dash
+99% Stinging Drive
 
 
 Claus: Tailwind Strike
-Kajia: Biting Drive
+Kajia: Stinging Drive
 
-Claus gets -1 power
-Priorities:  3 | 3
-Clash!
-
-Claus:
-60% Tailwind Shot
-40% Tailwind Burst
-
-Kajia:
-54% Biting Mandibles
-46% Biting Strike
-
-
-Claus: Tailwind Shot
-Kajia: Biting Mandibles
-
-Claus gets -1 power
-Priorities:  2 | 2
-Clash!
-
-Claus:
-67% Tailwind Burst
-33% Tailwind Grasp
-
-Kajia:
-27% Biting Strike
-73% Biting Burst
-
-
-Claus: Tailwind Grasp
-Kajia: Biting Burst
-
-Claus gets -1 power
-Priorities:  5 | 0
-Claus is active
-Claus moves Kajia:
-
-K.C....
-
-Kajia takes 1 damage (now at 16 life)
+Priorities:  -1 | 5
+Kajia is active
 Claus moves:
 
-K.C....
+KC.....
 
+Kajia moves:
+
+.CK....
+
+Kajia hits
+Kajia places 1 insect token on Claus's attack pair
+(Current insects: 1 / 0 / 0)
+Claus takes 3 damage (now at 15 life)
 Claus hits
-Claus moves Kajia:
-
-.KC....
-
-Kajia takes 2 damage (now at 14 life)
-Kajia misses
-Claus loses 1 life (now at 14)
+Kajia takes 5 damage (now at 6 life)
+Kajia is stunned
 
 Beat 5
 -------
 
 Claus
 -----
-life: 14
-discard 1: Tailwind Grasp
-discard 2: Cyclone Drive
-special action
+Life: 15
+Discard 1: Tailwind Strike
+Discard 2: Hurricane Tempest
+Special action available
 
 Kajia
 -----
-life: 14
-discard 1: Biting Burst
-discard 2: Swarming Shot
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 6
+Discard 1: Stinging Drive
+Discard 2: Swarming Mandibles
+Special action available
+1 insects on Claus's discard 1
+0 insects on Claus's discard 2
 
 
-.KC....
+.CK....
 
-Unbeatable strategy for Claus: Blast Strike: 0.72
-Unbeatable strategy for Claus: Blast Burst: 3.46
+Unbeatable strategy for Kajia: Parasitic Dash: -0.49
+
 
 Claus:
-3% Hurricane Strike
-3% Blast Strike
-94% Blast Burst
+84% Blast Dash
+12% Cyclone Drive
+4% Downdraft Dash
 
 Kajia:
-20% Burrowing Strike
-58% Parasitic Mandibles
-22% Parasitic Grasp
+7% Parasitic Burst
+91% Parasitic Dash
+2% Biting Grasp
 
 
-Claus: Blast Burst
-Kajia: Parasitic Mandibles
+Claus: Blast Dash
+Kajia: Parasitic Dash
 
-Priorities:  -2 | 2
+Priorities:  6 | 8
 Kajia is active
+Kajia moves Claus:
+
+..K..C.
+
+Kajia places 1 insect token on Claus's attack pair
+(Current insects: 1 / 1 / 0)
+Claus moves:
+
+..K.C..
+
+Kajia moves:
+
+.K..C..
+
 Claus moves Kajia:
 
 K.C....
 
-Kajia takes 1 damage (now at 13 life)
+Kajia takes 1 damage (now at 5 life)
 Kajia is stunned
 Claus moves:
 
-K...C..
+K.C....
 
-Claus hits
-Kajia takes 3 damage (now at 10 life)
-Kajia is stunned
 
 Beat 6
 -------
 
 Claus
 -----
-life: 14
-discard 1: Blast Burst
-discard 2: Tailwind Grasp
-special action
+Life: 15
+Discard 1: Blast Dash
+Discard 2: Tailwind Strike
+Special action available
 
 Kajia
 -----
-life: 10
-discard 1: Parasitic Mandibles
-discard 2: Biting Burst
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 5
+Discard 1: Parasitic Dash
+Discard 2: Stinging Drive
+Special action available
+1 insects on Claus's discard 1
+1 insects on Claus's discard 2
 
+
+K.C....
+
+
+Claus:
+32% Cyclone Tempest
+14% Cyclone Burst
+54% Downdraft Burst
+
+Kajia:
+26% Burrowing Mandibles
+58% Swarming Mandibles
+17% Swarming Burst
+
+
+Claus: Downdraft Burst
+Kajia: Swarming Mandibles
+
+Priorities:  0 | 2
+Kajia is active
+Claus moves:
 
 K...C..
 
-Claus:
-1% Hurricane Tempest
-13% Cyclone Tempest
-55% Cyclone Shot
-31% Downdraft Drive
+Kajia moves:
 
-Kajia:
-14% Burrowing Shot
-36% Burrowing Dash
-33% Swarming Drive
-17% Stinging Shot
+.K..C..
 
+Kajia misses
+Kajia moves:
 
-Claus: Cyclone Shot
-Kajia: Swarming Drive
+..K.C..
 
-Priorities:  3 | 3
-Clash!
-
-Claus:
-9% Cyclone Tempest
-14% Cyclone Drive
-77% Cyclone Dash
-
-Kajia:
-18% Swarming Shot
-25% Swarming Grasp
-57% Swarming Dash
-
-
-Claus: Cyclone Tempest
-Kajia: Swarming Shot
-
-Priorities:  5 | 1
-Claus is active
-Claus moves:
-
-KC.....
-
-Claus hits
-Kajia takes 2 damage (now at 8 life)
-Kajia hits
-Claus takes 3 damage (now at 11 life)
-Claus is stunned
-Kajia loses 3 life (now at 5)
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 0)
+Claus misses
+Claus loses 1 life (now at 14)
 
 Beat 7
 -------
 
 Claus
 -----
-life: 11
-discard 1: Cyclone Tempest
-discard 2: Blast Burst
-special action
+Life: 14
+Discard 1: Downdraft Burst
+Discard 2: Blast Dash
+Special action available
 
 Kajia
 -----
-life: 5
-discard 1: Swarming Shot
-discard 2: Parasitic Mandibles
-special action
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 5
+Discard 1: Swarming Mandibles
+Discard 2: Parasitic Dash
+Special action available
+0 insects on Claus's discard 1
+1 insects on Claus's discard 2
+
+
+..K.C..
+
+
+Claus:
+39% Hurricane Tempest
+3% Hurricane Shot
+17% Hurricane Drive
+41% Tailwind Tempest
+
+Kajia:
+10% Burrowing Drive
+21% Stinging Drive
+12% Biting Burst
+56% Biting Grasp
+
+
+Claus: Tailwind Tempest
+Kajia: Biting Grasp
+
+Claus gets -1 power
+Priorities:  4 | 4
+Clash!
+
+
+Claus: Tailwind Drive
+Kajia: Biting Burst
+
+Claus gets -1 power
+Priorities:  4 | 0
+Claus is active
+Claus moves Kajia:
+
+.K.C...
+
+Kajia takes 1 damage (now at 4 life)
+Claus moves:
+
+.K.C...
+
+Kajia moves:
+
+K..C...
+
+Claus moves:
+
+KC.....
+
+Claus hits
+Kajia takes 3 damage (now at 1 life)
+Kajia misses
+Claus loses 1 life (now at 13)
+
+Beat 8
+-------
+
+Claus
+-----
+Life: 13
+Discard 1: Tailwind Drive
+Discard 2: Downdraft Burst
+Special action available
+
+Kajia
+-----
+Life: 1
+Discard 1: Biting Burst
+Discard 2: Swarming Mandibles
+Special action available
+0 insects on Claus's discard 1
+0 insects on Claus's discard 2
 
 
 KC.....
 
+Unbeatable strategy for Claus: Blast Strike: 1.00
+Unbeatable strategy for Claus: Blast Shot: 0.84
+
+
 Claus:
-10% Hurricane Drive
-40% Tailwind Strike
-6% Tailwind Drive
-9% Tailwind Dash
-35% Downdraft Drive
+65% Blast Strike
+35% Blast Dash
 
 Kajia:
-9% Burrowing Strike
-6% Stinging Drive
-35% Stinging Dash
-4% Biting Drive
-45% Biting Dash
+65% Burrowing Dash
+35% Stinging Shot
 
 
-Claus: Hurricane Drive
-Kajia: Biting Dash
+Claus: Blast Dash
+Kajia: Stinging Shot
 
-Claus gets -1 power
-Priorities:  4 | 8
-Kajia is active
-Kajia moves:
-
-.C..K..
-
+Priorities:  6 | 3
+Claus is active
 Claus moves:
-
-...CK..
-
-Claus misses
-
-Beat 8
--------
-
-Claus
------
-life: 11
-discard 1: Hurricane Drive
-discard 2: Cyclone Tempest
-special action
--4 priority from last beat
-
-Kajia
------
-life: 5
-discard 1: Biting Dash
-discard 2: Swarming Shot
-special action
-0 insects on opponent's discard 1
-1 insects on opponent's discard 2
-
-
-...CK..
-
-Unbeatable strategy for Claus: Tailwind Strike: 10.00
-Unbeatable strategy for Claus: Tailwind Shot: 3.90
-Unbeatable strategy for Claus: Blast Strike: 0.09
-
-Claus:
-61% Tailwind Strike
-8% Tailwind Burst
-30% Downdraft Shot
-
-Kajia:
-0% Burrowing Strike
-1% Burrowing Burst
-99% Special Pulse
-
-
-Claus: Tailwind Strike
-Kajia: Special Pulse
-
-Pulse:
-
-C.K....
-
-Claus loses 1 life (now at 10)
-
-Beat 8
--------
-
-Claus
------
-life: 10
-discard 1: Tailwind Strike
-discard 2: Hurricane Drive
-special action
-
-Kajia
------
-life: 5
-discard 1: Biting Dash
-discard 2: Swarming Shot
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
-
-
-C.K....
-
-Unbeatable strategy for Claus: Blast Tempest: 2.17
-
-Claus:
-77% Blast Tempest
-23% Cyclone Shot
-
-Kajia:
-56% Parasitic Mandibles
-44% Parasitic Drive
-
-
-Claus: Blast Tempest
-Kajia: Parasitic Mandibles
-
-Priorities:  1 | 2
-Kajia is active
-Kajia moves Claus:
-
-..K.C..
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 0)
-Claus moves:
-
-..KC...
-
-Claus moves Kajia:
 
 K..C...
 
-Kajia takes 2 damage (now at 3 life)
-Kajia is stunned
-Claus hits
-Kajia takes 1 damage (now at 2 life)
-Kajia is stunned
+Kajia hits
+Kajia places 1 insect token on Claus's attack pair
+(Current insects: 1 / 0 / 0)
+Claus takes 3 damage (now at 10 life)
+Claus is stunned
 
 Beat 9
 -------
 
 Claus
 -----
-life: 10
-discard 1: Blast Tempest
-discard 2: Tailwind Strike
-special action
+Life: 10
+Discard 1: Blast Dash
+Discard 2: Tailwind Drive
+Special action available
 
 Kajia
 -----
-life: 2
-discard 1: Parasitic Mandibles
-discard 2: Biting Dash
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 1
+Discard 1: Stinging Shot
+Discard 2: Biting Burst
+Special action available
+1 insects on Claus's discard 1
+0 insects on Claus's discard 2
 
 
 K..C...
 
-Unbeatable strategy for Kajia: Swarming Drive: -0.03
+Unbeatable strategy for Kajia: Burrowing Dash: -0.68
+Unbeatable strategy for Kajia: Swarming Dash: -0.29
+
 
 Claus:
-9% Cyclone Shot
-6% Cyclone Drive
-28% Cyclone Burst
-56% Downdraft Burst
+13% Cyclone Tempest
+2% Downdraft Strike
+17% Downdraft Shot
+67% Downdraft Burst
 
 Kajia:
-32% Burrowing Strike
-9% Burrowing Drive
-8% Swarming Shot
-52% Swarming Drive
+3% Burrowing Drive
+86% Burrowing Dash
+1% Swarming Drive
+10% Swarming Dash
 
 
 Claus: Downdraft Burst
-Kajia: Burrowing Strike
+Kajia: Burrowing Dash
 
 Kajia gets +1 power
 Kajia gets +1 priority
-Priorities:  0 | 3
+Priorities:  0 | 9
 Kajia is active
 Claus moves:
 
 K...C..
 
-Kajia misses
+Kajia moves:
+
+...KC..
+
 Claus misses
 
 Beat 10
@@ -599,95 +533,63 @@ Beat 10
 
 Claus
 -----
-life: 10
-discard 1: Downdraft Burst
-discard 2: Blast Tempest
-special action
+Life: 10
+Discard 1: Downdraft Burst
+Discard 2: Blast Dash
+Special action available
 
 Kajia
 -----
-life: 2
-discard 1: Burrowing Strike
-discard 2: Parasitic Mandibles
-0 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 1
+Discard 1: Burrowing Dash
+Discard 2: Stinging Shot
+Special action available
+0 insects on Claus's discard 1
+1 insects on Claus's discard 2
 
 
-K...C..
+...KC..
+
+Unbeatable strategy for Claus: Tailwind Grasp: 6.00
+Unbeatable strategy for Claus: Cyclone Tempest: 6.00
+
 
 Claus:
-27% Tailwind Strike
-39% Tailwind Drive
-35% Tailwind Grasp
+12% Tailwind Tempest
+44% Tailwind Strike
+13% Tailwind Drive
+17% Tailwind Grasp
+14% Cyclone Tempest
 
 Kajia:
-1% Swarming Grasp
-61% Swarming Dash
-38% Stinging Drive
+4% Swarming Mandibles
+4% Swarming Strike
+5% Swarming Drive
+6% Swarming Burst
+5% Swarming Grasp
+4% Parasitic Mandibles
+5% Parasitic Strike
+7% Parasitic Drive
+5% Parasitic Burst
+7% Parasitic Grasp
+7% Biting Mandibles
+7% Biting Strike
+7% Biting Drive
+5% Biting Burst
+6% Biting Grasp
+8% Special Wormwood
+7% Special Imago Emergence
 
 
-Claus: Tailwind Grasp
-Kajia: Swarming Dash
+Claus: Tailwind Strike
+Kajia: Biting Mandibles
 
-Priorities:  5 | 8
-Kajia is active
-Claus moves:
-
-K..C...
-
-Kajia moves:
-
-..KC...
-
-Claus misses
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 1)
-Claus loses 1 life (now at 9)
-
-Beat 11
--------
-
-Claus
------
-life: 9
-discard 1: Tailwind Grasp
-discard 2: Downdraft Burst
-special action
-
-Kajia
------
-life: 2
-discard 1: Swarming Dash
-discard 2: Burrowing Strike
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
-
-
-..KC...
-
-Claus:
-21% Hurricane Tempest
-18% Blast Tempest
-16% Blast Strike
-36% Cyclone Tempest
-9% Cyclone Drive
-
-Kajia:
-21% Stinging Mandibles
-36% Stinging Drive
-18% Stinging Burst
-9% Stinging Grasp
-16% Biting Grasp
-
-
-Claus: Hurricane Tempest
-Kajia: Stinging Drive
-
-Priorities:  4 | 5
-Kajia is active
+Claus gets -1 power
+Priorities:  3 | 2
+Claus is active
 Claus moves Kajia:
 
-K..C...
+.K..C..
 
 Kajia takes 2 damage (now at 0 life)
 CLAUS WINS!

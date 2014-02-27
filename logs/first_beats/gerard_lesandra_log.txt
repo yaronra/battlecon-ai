@@ -45,17 +45,21 @@ Lesandra:
 7% Window Strike
 
 
-Gerard: Gilded Shot
-Lesandra: Binding Shot (Borneo)
+Gerard: Gilded Burst
+Lesandra: Binding Strike (Borneo)
 
-Priorities:  1 | 0
-Gerard is active
-Gerard hits
-Lesandra takes 3 damage (now at 17 life)
-Lesandra hits
-Gerard has 2 soak
-Gerard takes 1 damage (now at 19 life)
+Priorities:  0 | 1
+Lesandra is active
+Gerard moves:
+
+G....L.
+
+Gerard loses 1 life (now at 19)
+Gerard gets -1 power
+Lesandra misses
+Gerard misses
 Lesandra summons her Wyvern
+Lesandra loses 1 life (now at 19)
 Gerard gains 1 Gold Token (has 4)
 
 Beat 2
@@ -64,57 +68,61 @@ Beat 2
 Gerard
 ------
 Life: 19
-Discard 1: Gilded Shot
+Discard 1: Gilded Burst
 Discard 2: 
 Gold: 4
 No mercenaries in play
 
 Lesandra
 --------
-Life: 17
-Discard 1: Binding Shot
+Life: 19
+Discard 1: Binding Strike
 Discard 2: 
 Familiar: Wyvern
 
 
-.G...L.
+G....L.
+
+Unbeatable strategy for Lesandra: Invocation Grasp (Wyvern): -2.97
+Unbeatable strategy for Lesandra: Pactbreaker Shot (Wyvern): -2.79
+Unbeatable strategy for Lesandra: Guardian Drive (Wyvern): -2.52
+Unbeatable strategy for Lesandra: Window Shot (Wyvern): -1.35
+Unbeatable strategy for Lesandra: Window Drive: -1.43
 
 
 Gerard:
-34% Avaricious Dash
-33% Hooked Drive
-6% Hooked Burst
-2% Initiation Drive
-25% Initiation Dash
+51% Villainous Shot
+8% Villainous Dash
+14% Hooked Drive
+27% Initiation Dash
 
 Lesandra:
-26% Invocation Burst
-13% Invocation Grasp (Wyvern)
-18% Pactbreaker Strike (Wyvern)
-43% Guardian Burst (Wyvern)
+0% Invocation Shot (Wyvern)
+7% Invocation Burst
+49% Invocation Grasp (Wyvern)
+43% Pactbreaker Shot (Wyvern)
 
 
-Gerard: Hooked Drive
-Lesandra: Invocation Burst
+Gerard: Villainous Shot
+Lesandra: Invocation Grasp (Wyvern)
 
-Priorities:  3 | -1
-Gerard is active
-Gerard moves:
-
-G....L.
-
+Priorities:  2 | 3
+Lesandra is active
 Lesandra moves:
 
-G.....L
+G..L...
 
+Lesandra hits
+Lesandra moves Gerard:
+
+.G.L...
+
+Gerard takes 4 damage (now at 15 life)
+Gerard is stunned
+Lesandra summons her Rune Knight
 Gerard moves:
 
-.G....L
+..GL...
 
-Gerard misses
-Lesandra hits
-Gerard takes 5 damage (now at 14 life)
-Gerard is stunned
-Lesandra summons her Raven Knight
 Gerard gains 1 Gold Token (has 5)
-total_time: 33
+total_time: 35
