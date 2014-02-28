@@ -11,46 +11,55 @@ Beat 1
 
 Khadath
 -------
-life: 20
-discard 1: Evacuation Grasp
-discard 2: Hunter's Snare
-special action
+Life: 20
+Discard 1: Evacuation Grasp
+Discard 2: Hunter's Snare
+Special action available
 
 Runika
 ------
-life: 20
-discard 1: Channeled Grasp
-discard 2: Impact Strike
-special action
+Life: 20
+Discard 1: Channeled Grasp
+Discard 2: Impact Strike
+Special action available
 Active artifacts: 
-  Autodeflector
-  Phase Goggles
-  Shield Amulet
   Battlefist
+  Shield Amulet
+  Phase Goggles
+  Autodeflector
   Hover Boots
 
 
 .K...R.
 
 
+
 Khadath:
-20% Teleport Strike
-25% Blight Strike
-41% Blight Drive
-14% Blight Burst
+22% Teleport Strike
+21% Blight Strike
+39% Blight Drive
+18% Blight Burst
 
 Runika:
-52% Maintenance Shot
-12% Maintenance Burst
+57% Maintenance Shot
+11% Maintenance Burst
 22% Overcharged Shot
-14% Overcharged Drive
+11% Overcharged Drive
 
 
 Khadath: Blight Drive
-Runika: Maintenance Shot
+Runika: Overcharged Shot
 
-Priorities:  4 | 3
-Khadath is active
+Priorities:  4 | 4
+Clash!
+
+
+Khadath: Blight Burst
+Runika: Overcharged Dash
+
+Priorities:  1 | 11
+Runika is active
+Runika overcharges her Autodeflector
 Khadath moves trap:
 
 .K...R.
@@ -58,63 +67,62 @@ Khadath moves trap:
 
 Khadath moves:
 
-..K..R.
+K....R.
 ...t...
 
-Khadath hits
-Autodeflector is de-activated
-Runika has 1 soak
-Runika takes 2 damage (now at 18 life)
-Runika hits
-Khadath takes 3 damage (now at 17 life)
-Khadath is stunned
 Runika moves:
 
-..K...R
+K.....R
 ...t...
 
+Khadath misses
+Autodeflector is removed from the game
 
 Beat 2
 -------
 
 Khadath
 -------
-life: 17
-discard 1: Blight Drive
-discard 2: Evacuation Grasp
-special action
+Life: 20
+Discard 1: Blight Burst
+Discard 2: Evacuation Grasp
+Special action available
 
 Runika
 ------
-life: 18
-discard 1: Maintenance Shot
-discard 2: Channeled Grasp
-special action
+Life: 20
+Discard 1: Overcharged Dash
+Discard 2: Channeled Grasp
+Special action available
 Active artifacts: 
+  Hover Boots
+  Shield Amulet
   Phase Goggles
   Battlefist
-  Shield Amulet
-  Hover Boots
+Removed artifacts: 
+  Autodeflector
 
 
-..K...R
+K.....R
 ...t...
 
-Unbeatable strategy for Khadath: Teleport Burst: 1.25
-Unbeatable strategy for Khadath: Lure Burst: 0.78
+Unbeatable strategy for Khadath: Teleport Strike: 0.54
+Unbeatable strategy for Khadath: Teleport Shot: 1.34
+Unbeatable strategy for Khadath: Teleport Drive: 1.96
+
 
 Khadath:
-35% Teleport Shot
-3% Lure Shot
-61% Lure Burst
+64% Teleport Shot
+31% Lure Strike
+5% Lure Drive
 
 Runika:
-1% Explosive Tinker
-10% Impact Tinker
-89% Special Pulse
+11% Maintenance Burst
+3% Explosive Shot
+85% Special Pulse
 
 
-Khadath: Lure Burst
+Khadath: Lure Strike
 Runika: Special Pulse
 
 Pulse:
@@ -128,57 +136,67 @@ Beat 2
 
 Khadath
 -------
-life: 17
-discard 1: Lure Burst
-discard 2: Blight Drive
-special action
+Life: 20
+Discard 1: Lure Strike
+Discard 2: Blight Burst
+Special action available
 
 Runika
 ------
-life: 18
-discard 1: Maintenance Shot
-discard 2: Channeled Grasp
+Life: 20
+Discard 1: Overcharged Dash
+Discard 2: Channeled Grasp
 Active artifacts: 
+  Hover Boots
   Phase Goggles
   Shield Amulet
   Battlefist
-  Hover Boots
+Removed artifacts: 
+  Autodeflector
 
 
 KR.....
 ...t...
 
+
 Khadath:
-16% Teleport Strike
-19% Teleport Grasp
-65% Teleport Dash
+84% Teleport Shot
+16% Teleport Dash
 
 Runika:
-65% Overcharged Tinker
-35% Overcharged Drive
+4% Maintenance Strike
+96% Explosive Drive
 
 
-Khadath: Teleport Dash
-Runika: Overcharged Tinker
+Khadath: Teleport Shot
+Runika: Explosive Drive
 
-Priorities:  6 | 5
-Khadath is active
-Runika overcharges her Hover Boots
-Runika becomes the active player
-Runika hits
-Khadath takes 4 damage (now at 13 life)
-Khadath is stunned
-Autodeflector is activated
-Hover Boots is removed from the game
-Khadath moves:
+Priorities:  -1 | 6
+Runika is active
+Runika moves Khadath:
 
 .RK....
 ...t...
 
+Runika moves:
+
+..KR...
+...t...
+
+Runika hits
+Shield Amulet is de-activated
+Runika gets +2 power
+Khadath takes 5 damage (now at 15 life)
+Khadath is stunned
+Khadath moves:
+
+...RK..
+...t...
+
 Khadath moves trap:
 
-.RK....
-.t.....
+...RK..
+..t....
 
 
 Beat 3
@@ -186,655 +204,650 @@ Beat 3
 
 Khadath
 -------
-life: 13
-discard 1: Teleport Dash
-discard 2: Lure Burst
-special action
+Life: 15
+Discard 1: Teleport Shot
+Discard 2: Lure Strike
+Special action available
 
 Runika
 ------
-life: 18
-discard 1: Overcharged Tinker
-discard 2: Maintenance Shot
+Life: 20
+Discard 1: Explosive Drive
+Discard 2: Overcharged Dash
 Active artifacts: 
-  Phase Goggles
-  Autodeflector
-  Battlefist
-  Shield Amulet
-Removed artifacts: 
   Hover Boots
+  Phase Goggles
+  Battlefist
+Removed artifacts: 
+  Autodeflector
 
 
-.RK....
-.t.....
+...RK..
+..t....
 
-Unbeatable strategy for Runika: Impact Dash: -0.47
 
 Khadath:
-47% Hunter's Shot
-10% Blight Shot
-38% Blight Drive
-6% Blight Grasp
+41% Hunter's Drive
+8% Hunter's Grasp
+0% Evacuation Drive
+3% Evacuation Burst
+48% Blight Burst
 
 Runika:
-15% Channeled Grasp
-3% Explosive Dash
-3% Impact Strike
-80% Impact Dash
+2% Channeled Shot
+4% Channeled Burst
+56% Maintenance Tinker
+24% Impact Strike
+14% Impact Grasp
 
 
-Khadath: Hunter's Shot
-Runika: Impact Dash
+Khadath: Hunter's Drive
+Runika: Impact Strike
 
-Runika gets -3 priority
-Priorities:  2 | 6
-Runika is active
-Runika moves:
+Khadath gets +2 power
+Khadath gets +2 priority
+Runika gets -1 priority
+Priorities:  6 | 4
+Khadath is active
+Khadath moves:
 
 ..KR...
-.t.....
+..t....
 
+Khadath hits
+Battlefist is de-activated
+Runika takes 5 damage (now at 15 life)
 Runika moves:
 
 .RK....
-.t.....
+..t....
 
-Khadath misses
+Runika hits
+Runika moves Khadath:
+
+.R.K...
+..t....
+
+Khadath takes 3 damage (now at 12 life)
+Khadath is stunned
 
 Beat 4
 -------
 
 Khadath
 -------
-life: 13
-discard 1: Hunter's Shot
-discard 2: Teleport Dash
-special action
+Life: 12
+Discard 1: Hunter's Drive
+Discard 2: Teleport Shot
+Special action available
 
 Runika
 ------
-life: 18
-discard 1: Impact Dash
-discard 2: Overcharged Tinker
+Life: 15
+Discard 1: Impact Strike
+Discard 2: Explosive Drive
 Active artifacts: 
-  Phase Goggles
-  Autodeflector
-  Shield Amulet
-  Battlefist
-Removed artifacts: 
   Hover Boots
+  Phase Goggles
+Removed artifacts: 
+  Autodeflector
 
 
-.RK....
-.t.....
+.R.K...
+..t....
+
 
 Khadath:
-15% Evacuation Snare
-11% Evacuation Strike
-19% Evacuation Burst
-37% Blight Strike
-3% Blight Drive
-14% Lure Burst
+8% Evacuation Snare
+34% Blight Strike
+20% Blight Burst
+30% Blight Grasp
+7% Lure Grasp
 
 Runika:
-11% Maintenance Drive
-10% Maintenance Burst
-49% Maintenance Grasp
-18% Explosive Strike
-3% Explosive Drive
-9% Explosive Grasp
+7% Channeled Tinker
+45% Channeled Shot
+1% Channeled Grasp
+26% Maintenance Tinker
+21% Overcharged Tinker
 
 
-Khadath: Lure Burst
-Runika: Maintenance Grasp
+Khadath: Blight Grasp
+Runika: Channeled Shot
 
-Runika gets -3 priority
-Priorities:  0 | 1
-Runika is active
-Khadath moves:
+Runika gets -1 priority
+Priorities:  5 | 4
+Khadath is active
+Khadath moves trap:
 
-.R..K..
-.t.....
+.R.K...
+t......
 
-Runika misses
-Runika moves:
-
-R...K..
-.t.....
-
+Battlefist is activated
 Khadath hits
 Khadath moves Runika:
 
-.R..K..
-.t.....
+R..K...
+t......
 
-Autodeflector is de-activated
-Runika has 1 soak
-Runika takes 1 damage (now at 17 life)
+Phase Goggles is de-activated
+Runika takes 2 damage (now at 13 life)
+Runika hits
+Khadath takes 5 damage (now at 7 life)
+Khadath is stunned
+Battlefist is de-activated
 
 Beat 5
 -------
 
 Khadath
 -------
-life: 13
-discard 1: Lure Burst
-discard 2: Hunter's Shot
-special action
+Life: 7
+Discard 1: Blight Grasp
+Discard 2: Hunter's Drive
+Special action available
 
 Runika
 ------
-life: 17
-discard 1: Maintenance Grasp
-discard 2: Impact Dash
+Life: 13
+Discard 1: Channeled Shot
+Discard 2: Impact Strike
 Active artifacts: 
-  Phase Goggles
-  Battlefist
-  Shield Amulet
-Removed artifacts: 
   Hover Boots
+Removed artifacts: 
+  Autodeflector
 
 
-.R..K..
-.t.....
+R..K...
+t......
+
 
 Khadath:
-30% Teleport Snare
-0% Teleport Grasp
-5% Blight Snare
-24% Blight Strike
-40% Blight Drive
+72% Teleport Shot
+24% Teleport Burst
+5% Special Dimensional Exile
 
 Runika:
-27% Channeled Tinker
-19% Channeled Drive
-9% Channeled Burst
-20% Explosive Tinker
-26% Explosive Burst
+35% Maintenance Tinker
+56% Maintenance Drive
+9% Explosive Drive
 
 
-Khadath: Blight Strike
-Runika: Channeled Tinker
+Khadath: Teleport Shot
+Runika: Maintenance Drive
 
 Runika gets -3 priority
-Priorities:  3 | 1
-Khadath is active
+Priorities:  -1 | 2
+Runika is active
+Runika moves:
+
+..RK...
+t......
+
+Runika hits
+Khadath takes 2 damage (now at 5 life)
+Runika moves:
+
+R..K...
+t......
+
+Khadath hits
+Hover Boots is de-activated
+Runika has 4 soak
+Runika takes 0 damage (now at 13 life)
+Khadath moves:
+
+R.....K
+t......
+
 Khadath moves trap:
 
-.R..K..
-..t....
+R.....K
+.t.....
 
-Autodeflector is activated
-Khadath hits
-Phase Goggles is de-activated
-Runika has 2 soak
-Runika takes 2 damage (now at 15 life)
-Runika misses
-Phase Goggles is activated
-Battlefist is de-activated
 
 Beat 6
 -------
 
 Khadath
 -------
-life: 13
-discard 1: Blight Strike
-discard 2: Lure Burst
-special action
+Life: 5
+Discard 1: Teleport Shot
+Discard 2: Blight Grasp
+Special action available
 
 Runika
 ------
-life: 15
-discard 1: Channeled Tinker
-discard 2: Maintenance Grasp
-Active artifacts: 
-  Phase Goggles
-  Shield Amulet
-  Autodeflector
+Life: 13
+Discard 1: Maintenance Drive
+Discard 2: Channeled Shot
+No active artifacts
 Removed artifacts: 
-  Hover Boots
+  Autodeflector
 
 
-.R..K..
-..t....
+R.....K
+.t.....
 
-Unbeatable strategy for Khadath: Teleport Dash: 0.29
+Unbeatable strategy for Runika: Impact Dash: -1.67
+
 
 Khadath:
-11% Teleport Snare
-11% Teleport Shot
-12% Teleport Grasp
-65% Teleport Dash
-1% Evacuation Shot
+2% Evacuation Snare
+60% Lure Strike
+38% Lure Dash
 
 Runika:
-8% Explosive Drive
-10% Explosive Dash
-39% Impact Strike
-24% Impact Drive
-19% Impact Dash
+32% Impact Tinker
+53% Impact Dash
+15% Overcharged Tinker
 
 
-Khadath: Teleport Dash
+Khadath: Lure Dash
 Runika: Impact Dash
 
 Runika gets -1 priority
-Priorities:  6 | 8
+Priorities:  8 | 8
+Clash!
+
+
+Khadath: Lure Snare
+Runika: Impact Tinker
+
+Runika gets -1 priority
+Priorities:  0 | 2
 Runika is active
 Runika moves:
 
-..R.K..
-..t....
+.R....K
+.t.....
 
-Runika moves:
-
-...RK..
-..t....
-
-Khadath moves:
-
-K..R...
-..t....
-
-Khadath moves:
-
-.K.R...
-..t....
-
-Khadath moves trap:
-
-.K.R...
-...t...
-
+Runika misses
+Shield Amulet is activated
+Khadath hits
+Shield Amulet is de-activated
+Runika takes 2 damage (now at 11 life)
 
 Beat 7
 -------
 
 Khadath
 -------
-life: 13
-discard 1: Teleport Dash
-discard 2: Blight Strike
-special action
+Life: 5
+Discard 1: Lure Snare
+Discard 2: Teleport Shot
+Special action available
 
 Runika
 ------
-life: 15
-discard 1: Impact Dash
-discard 2: Channeled Tinker
-Active artifacts: 
-  Phase Goggles
-  Shield Amulet
-  Autodeflector
+Life: 11
+Discard 1: Impact Tinker
+Discard 2: Maintenance Drive
+No active artifacts
 Removed artifacts: 
-  Hover Boots
+  Autodeflector
 
 
-.K.R...
-...t...
+.R....K
+.t.....
+
+Unbeatable strategy for Runika: Channeled Strike: -0.55
+Unbeatable strategy for Runika: Channeled Burst: -2.03
+Unbeatable strategy for Runika: Channeled Dash: -2.52
+Unbeatable strategy for Runika: Explosive Burst: -2.84
+Unbeatable strategy for Runika: Explosive Dash: -2.58
+Unbeatable strategy for Runika: Overcharged Burst: -2.03
+Unbeatable strategy for Runika: Overcharged Dash: -2.81
+
 
 Khadath:
-7% Evacuation Snare
-13% Evacuation Shot
-24% Evacuation Drive
-22% Lure Burst
-34% Lure Grasp
+66% Hunter's Burst
+16% Hunter's Grasp
+18% Blight Burst
 
 Runika:
-28% Maintenance Shot
-39% Maintenance Drive
-13% Maintenance Grasp
-13% Explosive Burst
-7% Overcharged Drive
+13% Channeled Shot
+69% Explosive Burst
+18% Overcharged Dash
 
 
-Khadath: Evacuation Drive
-Runika: Maintenance Drive
+Khadath: Hunter's Burst
+Runika: Explosive Burst
 
+Khadath gets +2 power
+Khadath gets +2 priority
 Runika gets -3 priority
-Priorities:  4 | 0
+Priorities:  3 | -2
 Khadath is active
-Khadath moves trap:
+Runika moves Khadath:
 
-.K.R...
+.R...K.
 .t.....
 
-Khadath moves:
-
-K..R...
-.t.....
-
-Khadath moves:
-
-..KR...
-.t.....
-
-Khadath hits
-Autodeflector is de-activated
-Runika has 2 soak
-Runika takes 1 damage (now at 14 life)
 Runika moves:
 
-.RK....
+R....K.
 .t.....
 
+Khadath misses
 Runika misses
-Runika moves:
-
-R.K....
-.t.....
-
 
 Beat 8
 -------
 
 Khadath
 -------
-life: 13
-discard 1: Evacuation Drive
-discard 2: Teleport Dash
-special action
+Life: 5
+Discard 1: Hunter's Burst
+Discard 2: Lure Snare
+Special action available
 
 Runika
 ------
-life: 14
-discard 1: Maintenance Drive
-discard 2: Impact Dash
-Active artifacts: 
-  Phase Goggles
-  Shield Amulet
+Life: 11
+Discard 1: Explosive Burst
+Discard 2: Impact Tinker
+No active artifacts
 Removed artifacts: 
-  Hover Boots
+  Autodeflector
 
 
-R.K....
+R....K.
 .t.....
+
+Unbeatable strategy for Khadath: Teleport Shot: 2.51
+Unbeatable strategy for Khadath: Teleport Dash: 2.68
+
 
 Khadath:
-67% Blight Strike
-33% Blight Burst
+95% Teleport Strike
+5% Teleport Shot
 
 Runika:
-81% Channeled Tinker
-19% Channeled Shot
+15% Channeled Drive
+70% Maintenance Dash
+15% Overcharged Drive
 
 
-Khadath: Blight Strike
-Runika: Channeled Shot
+Khadath: Teleport Strike
+Runika: Channeled Drive
 
 Runika gets -1 priority
-Priorities:  3 | 2
-Khadath is active
-Khadath moves trap:
+Priorities:  0 | 4
+Runika is active
+Shield Amulet is activated
+Runika moves:
 
-R.K....
+.R...K.
 .t.....
 
-Autodeflector is activated
-Khadath hits
-Autodeflector is de-activated
-Runika takes 4 damage (now at 10 life)
-Runika hits
-Khadath takes 4 damage (now at 9 life)
+Runika misses
+Khadath misses
 Shield Amulet is de-activated
+Khadath moves:
+
+.R....K
+.t.....
+
+Khadath moves trap:
+
+.R....K
+t......
+
 
 Beat 9
 -------
 
 Khadath
 -------
-life: 9
-discard 1: Blight Strike
-discard 2: Evacuation Drive
-special action
+Life: 5
+Discard 1: Teleport Strike
+Discard 2: Hunter's Burst
+Special action available
 
 Runika
 ------
-life: 10
-discard 1: Channeled Shot
-discard 2: Maintenance Drive
-Active artifacts: 
-  Phase Goggles
+Life: 11
+Discard 1: Channeled Drive
+Discard 2: Explosive Burst
+No active artifacts
 Removed artifacts: 
-  Hover Boots
+  Autodeflector
 
 
-R.K....
-.t.....
+.R....K
+t......
 
-Unbeatable strategy for Khadath: Teleport Burst: 0.07
+Unbeatable strategy for Runika: Maintenance Tinker: -0.60
+Unbeatable strategy for Runika: Maintenance Dash: -2.33
+Unbeatable strategy for Runika: Impact Tinker: -1.53
+
 
 Khadath:
-25% Teleport Shot
-75% Teleport Burst
+6% Evacuation Snare
+79% Blight Shot
+0% Blight Drive
+15% Blight Grasp
 
 Runika:
-9% Impact Burst
-91% Impact Dash
+4% Maintenance Tinker
+75% Maintenance Dash
+3% Impact Tinker
+17% Overcharged Strike
 
 
-Khadath: Teleport Burst
-Runika: Impact Dash
+Khadath: Blight Shot
+Runika: Maintenance Dash
 
 Runika gets -1 priority
-Priorities:  -2 | 8
+Priorities:  2 | 7
 Runika is active
-Khadath moves:
-
-R..K...
-.t.....
-
-Runika moves:
-
-.R.K...
-.t.....
-
-Runika moves:
-
-..RK...
-.t.....
-
-Khadath misses
-Khadath moves:
-
-..R...K
-.t.....
-
 Khadath moves trap:
 
-..R...K
+.R....K
 ..t....
 
+Runika moves:
+
+R.....K
+..t....
+
+Khadath hits
+No artifacts to de-activate
+Runika has 4 soak
+Runika takes 0 damage (now at 11 life)
 
 Beat 10
 -------
 
 Khadath
 -------
-life: 9
-discard 1: Teleport Burst
-discard 2: Blight Strike
-special action
+Life: 5
+Discard 1: Blight Shot
+Discard 2: Teleport Strike
+Special action available
 
 Runika
 ------
-life: 10
-discard 1: Impact Dash
-discard 2: Channeled Shot
-Active artifacts: 
-  Phase Goggles
+Life: 11
+Discard 1: Maintenance Dash
+Discard 2: Channeled Drive
+No active artifacts
 Removed artifacts: 
-  Hover Boots
+  Autodeflector
 
+
+R.....K
+..t....
+
+Unbeatable strategy for Khadath: Lure Burst: 2.59
+Unbeatable strategy for Khadath: Lure Grasp: 0.28
+
+
+Khadath:
+38% Lure Drive
+62% Lure Burst
+
+Runika:
+94% Overcharged Tinker
+6% Overcharged Shot
+
+
+Khadath: Lure Drive
+Runika: Overcharged Tinker
+
+Priorities:  3 | 3
+Clash!
+
+
+Khadath: Lure Burst
+Runika: Overcharged Grasp
+
+Priorities:  0 | 5
+Runika is active
+No active artifacts to overcharge
+Runika misses
+Khadath hits
+Khadath moves Runika:
 
 ..R...K
 ..t....
 
-Unbeatable strategy for Runika: Maintenance Tinker: -1.31
-
-Khadath:
-76% Lure Drive
-24% Lure Grasp
-
-Runika:
-98% Maintenance Tinker
-2% Maintenance Drive
-
-
-Khadath: Lure Drive
-Runika: Maintenance Tinker
-
-Runika gets -3 priority
-Priorities:  3 | -1
-Khadath is active
-Khadath moves:
-
-..R..K.
-..t....
-
-Khadath hits
-Khadath moves Runika:
-
-...R.K.
-..t....
-
-Phase Goggles is de-activated
-Runika has 4 soak
-Runika takes 0 damage (now at 10 life)
-Runika misses
-Runika moves:
-
-..R..K.
-..t....
-
-Autodeflector is activated
+No artifacts to de-activate
+Runika takes 2 damage (now at 9 life)
+Runika is stunned
 
 Beat 11
 -------
 
 Khadath
 -------
-life: 9
-discard 1: Lure Drive
-discard 2: Teleport Burst
-special action
+Life: 5
+Discard 1: Lure Burst
+Discard 2: Blight Shot
+Special action available
 
 Runika
 ------
-life: 10
-discard 1: Maintenance Tinker
-discard 2: Impact Dash
-Active artifacts: 
-  Autodeflector
+Life: 9
+Discard 1: Overcharged Grasp
+Discard 2: Maintenance Dash
+No active artifacts
 Removed artifacts: 
-  Hover Boots
+  Autodeflector
 
+
+..R...K
+..t....
+
+
+Khadath:
+35% Hunter's Snare
+12% Hunter's Strike
+50% Teleport Strike
+3% Teleport Grasp
+
+Runika:
+0% Channeled Shot
+6% Channeled Drive
+5% Explosive Burst
+89% Impact Burst
+
+
+Khadath: Teleport Strike
+Runika: Impact Burst
+
+Runika gets -3 priority
+Priorities:  0 | -2
+Khadath is active
+Runika moves:
+
+.R....K
+..t....
+
+Khadath misses
+Runika moves:
+
+..R...K
+..t....
+
+Runika misses
+Khadath moves:
 
 ..R..K.
 ..t....
 
-Khadath:
-20% Blight Strike
-60% Blight Shot
-20% Blight Grasp
+Khadath moves trap:
 
-Runika:
-32% Channeled Drive
-26% Channeled Burst
-42% Overcharged Shot
+..R..K.
+.t.....
 
-
-Khadath: Blight Shot
-Runika: Channeled Drive
-
-Runika gets -3 priority
-Priorities:  2 | 2
-Clash!
-
-Khadath:
-79% Blight Snare
-21% Blight Dash
-
-Runika:
-21% Channeled Strike
-79% Channeled Burst
-
-
-Khadath: Blight Snare
-Runika: Channeled Burst
-
-Runika gets -3 priority
-Priorities:  1 | -1
-Khadath is active
-Runika moves:
-
-R....K.
-..t....
-
-Phase Goggles is activated
-Khadath misses
-Runika misses
-Phase Goggles is de-activated
 
 Beat 12
 -------
 
 Khadath
 -------
-life: 9
-discard 1: Blight Snare
-discard 2: Lure Drive
-special action
+Life: 5
+Discard 1: Teleport Strike
+Discard 2: Lure Burst
+Special action available
 
 Runika
 ------
-life: 10
-discard 1: Channeled Burst
-discard 2: Maintenance Tinker
-Active artifacts: 
-  Autodeflector
+Life: 9
+Discard 1: Impact Burst
+Discard 2: Overcharged Grasp
+No active artifacts
 Removed artifacts: 
-  Hover Boots
+  Autodeflector
 
 
-R....K.
-..t....
+..R..K.
+.t.....
 
-Unbeatable strategy for Khadath: Hunter's Burst: 2.82
-Unbeatable strategy for Khadath: Teleport Strike: 2.95
-Unbeatable strategy for Khadath: Teleport Shot: 4.69
-Unbeatable strategy for Khadath: Teleport Burst: 2.72
-Unbeatable strategy for Khadath: Teleport Dash: 2.32
-Unbeatable strategy for Khadath: Evacuation Burst: 2.09
+Unbeatable strategy for Runika: Maintenance Dash: -0.65
+
 
 Khadath:
-19% Teleport Strike
-64% Teleport Shot
-17% Teleport Grasp
+58% Blight Shot
+2% Blight Grasp
+41% Blight Dash
 
 Runika:
-39% Explosive Strike
-41% Explosive Grasp
-20% Impact Dash
+40% Maintenance Drive
+54% Maintenance Dash
+5% Explosive Tinker
 
 
-Khadath: Teleport Shot
-Runika: Explosive Strike
+Khadath: Blight Dash
+Runika: Maintenance Drive
 
-Priorities:  -1 | 3
-Runika is active
-Runika misses
-Khadath misses
-Khadath moves:
-
-R.....K
-..t....
-
+Runika gets -1 priority
+Priorities:  9 | 2
+Khadath is active
 Khadath moves trap:
 
-R.....K
-t......
+..R..K.
+.....t.
+
+Khadath moves:
+
+..RK...
+.....t.
+
+Runika moves:
+
+...KR..
+.....t.
+
+Runika hits
+Khadath takes 2 damage (now at 3 life)
+Khadath is stunned
+Runika moves:
+
+...K.R.
+.....t.
 
 
 Beat 13
@@ -842,59 +855,67 @@ Beat 13
 
 Khadath
 -------
-life: 9
-discard 1: Teleport Shot
-discard 2: Blight Snare
-special action
+Life: 3
+Discard 1: Blight Dash
+Discard 2: Teleport Strike
+Special action available
 
 Runika
 ------
-life: 10
-discard 1: Explosive Strike
-discard 2: Channeled Burst
-Active artifacts: 
-  Autodeflector
+Life: 9
+Discard 1: Maintenance Drive
+Discard 2: Impact Burst
+No active artifacts
 Removed artifacts: 
-  Hover Boots
+  Autodeflector
 
 
-R.....K
-t......
+...K.R.
+.....t.
 
-Unbeatable strategy for Runika: Maintenance Tinker: -1.57
-Unbeatable strategy for Runika: Maintenance Dash: -1.46
-Unbeatable strategy for Runika: Overcharged Drive: -0.07
-Unbeatable strategy for Runika: Overcharged Dash: -0.49
+Unbeatable strategy for Runika: Explosive Dash: -0.03
+
 
 Khadath:
-7% Lure Strike
-93% Lure Grasp
+2% Hunter's Snare
+12% Hunter's Drive
+23% Hunter's Burst
+10% Hunter's Grasp
+53% Evacuation Shot
 
 Runika:
-100% Maintenance Tinker
+12% Channeled Strike
+37% Channeled Dash
+25% Explosive Tinker
+3% Explosive Strike
+24% Explosive Dash
 
 
-Khadath: Lure Grasp
-Runika: Maintenance Tinker
+Khadath: Evacuation Shot
+Runika: Explosive Tinker
 
 Runika gets -3 priority
-Priorities:  4 | -1
+Priorities:  2 | 0
 Khadath is active
+Khadath moves trap:
+
+...K.R.
+...t...
+
+Khadath moves:
+
+..K..R.
+...t...
+
+Runika moves Khadath:
+
+...K.R.
+...t...
+
 Khadath hits
-Khadath moves Runika:
-
-.R....K
-t......
-
-Autodeflector is de-activated
-Runika has 4 soak
-Runika takes 0 damage (now at 10 life)
+No artifacts to de-activate
+Runika takes 3 damage (now at 6 life)
 Runika misses
-Runika moves:
-
-R.....K
-t......
-
 Phase Goggles is activated
 
 Beat 14
@@ -902,130 +923,189 @@ Beat 14
 
 Khadath
 -------
-life: 9
-discard 1: Lure Grasp
-discard 2: Teleport Shot
-special action
+Life: 3
+Discard 1: Evacuation Shot
+Discard 2: Blight Dash
+Special action available
 
 Runika
 ------
-life: 10
-discard 1: Maintenance Tinker
-discard 2: Explosive Strike
+Life: 6
+Discard 1: Explosive Tinker
+Discard 2: Maintenance Drive
 Active artifacts: 
   Phase Goggles
 Removed artifacts: 
-  Hover Boots
+  Autodeflector
 
 
-R.....K
-t......
+...K.R.
+...t...
 
-Unbeatable strategy for Runika: Impact Drive: -0.41
-Unbeatable strategy for Runika: Impact Dash: -0.55
+Unbeatable strategy for Khadath: Teleport Burst: 5.14
+
 
 Khadath:
-12% Blight Snare
-37% Blight Strike
-50% Blight Burst
+79% Teleport Burst
+16% Lure Burst
+5% Lure Grasp
 
 Runika:
-5% Impact Shot
-49% Impact Drive
-45% Impact Dash
+73% Channeled Burst
+10% Channeled Dash
+17% Overcharged Burst
 
 
-Khadath: Blight Burst
-Runika: Impact Dash
+Khadath: Teleport Burst
+Runika: Channeled Burst
 
-Runika gets -3 priority
-Priorities:  1 | 6
+Priorities:  -2 | 2
 Runika is active
+Hover Boots is activated
+Runika moves:
+
+...K..R
+...t...
+
+Khadath moves:
+
+.K....R
+...t...
+
+Runika misses
+Khadath misses
+Hover Boots is de-activated
+Khadath moves:
+
+K.....R
+...t...
+
 Khadath moves trap:
 
-R.....K
-.t.....
+K.....R
+......t
 
-Runika moves:
-
-.R....K
-.t.....
-
-Runika moves:
-
-R.....K
-.t.....
-
-Khadath misses
 
 Beat 15
 -------
 
 Khadath
 -------
-life: 9
-discard 1: Blight Burst
-discard 2: Lure Grasp
-special action
+Life: 3
+Discard 1: Teleport Burst
+Discard 2: Evacuation Shot
+Special action available
 
 Runika
 ------
-life: 10
-discard 1: Impact Dash
-discard 2: Maintenance Tinker
+Life: 6
+Discard 1: Channeled Burst
+Discard 2: Explosive Tinker
 Active artifacts: 
   Phase Goggles
 Removed artifacts: 
-  Hover Boots
+  Autodeflector
 
 
-R.....K
-.t.....
+K.....R
+......t
 
-Unbeatable strategy for Khadath: Teleport Snare: 15.00
+Unbeatable strategy for Runika: Maintenance Strike: -8.00
+Unbeatable strategy for Runika: Maintenance Shot: -8.00
+Unbeatable strategy for Runika: Maintenance Drive: -8.00
+Unbeatable strategy for Runika: Maintenance Grasp: -8.00
+Unbeatable strategy for Runika: Maintenance Dash: -8.00
+
 
 Khadath:
-100% Teleport Snare
+2% Hunter's Snare
+94% Special Pulse
+4% Special Dimensional Exile
 
 Runika:
-5% Channeled Strike
-5% Channeled Shot
-6% Channeled Drive
-10% Channeled Burst
-5% Channeled Grasp
-5% Explosive Strike
-11% Explosive Shot
-6% Explosive Drive
-7% Explosive Burst
-5% Explosive Grasp
-5% Overcharged Strike
-11% Overcharged Shot
-6% Overcharged Drive
-7% Overcharged Burst
-5% Overcharged Grasp
+14% Maintenance Grasp
+73% Maintenance Dash
+14% Impact Grasp
 
 
-Khadath: Teleport Snare
-Runika: Explosive Burst
+Khadath: Special Pulse
+Runika: Impact Grasp
 
-Runika gets -1 priority
-Priorities:  -2 | 0
-Runika is active
-Runika moves Khadath:
+Pulse:
 
-R....K.
+K.....R
+......t
+
+
+Beat 15
+-------
+
+Khadath
+-------
+Life: 3
+Discard 1: Teleport Burst
+Discard 2: Evacuation Shot
+
+Runika
+------
+Life: 6
+Discard 1: Impact Grasp
+Discard 2: Channeled Burst
+Active artifacts: 
+  Phase Goggles
+Removed artifacts: 
+  Autodeflector
+
+
+K.....R
+......t
+
+Unbeatable strategy for Runika: Maintenance Tinker: -8.00
+Unbeatable strategy for Runika: Maintenance Strike: -8.00
+Unbeatable strategy for Runika: Maintenance Shot: -8.00
+Unbeatable strategy for Runika: Maintenance Drive: -8.00
+Unbeatable strategy for Runika: Maintenance Dash: -8.00
+
+
+Khadath:
+1% Hunter's Snare
+11% Hunter's Strike
+1% Hunter's Drive
+10% Hunter's Grasp
+10% Hunter's Dash
+1% Blight Snare
+10% Blight Strike
+2% Blight Drive
+11% Blight Grasp
+10% Blight Dash
+1% Lure Snare
+1% Lure Strike
+10% Lure Drive
+10% Lure Grasp
+10% Lure Dash
+
+Runika:
+20% Maintenance Tinker
+21% Maintenance Strike
+21% Maintenance Shot
+20% Maintenance Drive
+18% Maintenance Dash
+
+
+Khadath: Blight Grasp
+Runika: Maintenance Tinker
+
+Runika gets -3 priority
+Priorities:  5 | -1
+Khadath is active
+Khadath moves trap:
+
+K.....R
 .t.....
 
+Khadath misses
 Runika misses
-Khadath hits
-Phase Goggles is de-activated
-Runika takes 4 damage (now at 6 life)
-Runika is stunned
-Khadath moves:
-
-RK.....
-.t.....
-
+Battlefist is activated
 Game goes to time
-KHADATH WINS!
-total_time: 31
+RUNIKA WINS!
+total_time: 34

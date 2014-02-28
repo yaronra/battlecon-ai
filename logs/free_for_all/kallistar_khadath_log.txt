@@ -11,61 +11,55 @@ Beat 1
 
 Kallistar
 ---------
-life: 20
-discard 1: Flare Strike
-discard 2: Caustic Drive
-special action
+Life: 20
+Discard 1: Flare Strike
+Discard 2: Caustic Drive
+Special action available
 Human Form
 
 Khadath
 -------
-life: 20
-discard 1: Evacuation Grasp
-discard 2: Hunter's Snare
-special action
+Life: 20
+Discard 1: Evacuation Grasp
+Discard 2: Hunter's Snare
+Special action available
 
 
 .K...k.
 
 
+
 Kallistar:
-38% Volcanic Burst
-36% Volcanic Grasp
-27% Ignition Spellbolt
+43% Volcanic Burst
+35% Volcanic Grasp
+22% Ignition Spellbolt
+0% Ignition Shot
 
 Khadath:
-64% Teleport Drive
-22% Teleport Dash
-13% Blight Drive
+40% Teleport Strike
+34% Teleport Drive
+18% Teleport Dash
+9% Blight Drive
 
 
-Kallistar: Volcanic Grasp
-Khadath: Teleport Drive
+Kallistar: Ignition Spellbolt
+Khadath: Teleport Strike
 
-Priorities:  5 | 1
+Priorities:  2 | 0
 Kallistar is active
 Kallistar hits
-Kallistar moves Khadath:
-
-.K..k..
-
-
-Khadath takes 2 damage (now at 18 life)
-Khadath is stunned
-Kallistar moves:
-
-...Kk..
-
-
+Khadath gets -2 power
+Khadath takes 3 damage (now at 17 life)
+Khadath misses
 Khadath moves:
 
-k..K...
+.K....k
 
 
 Khadath moves trap:
 
-k..K...
-...t...
+.K....k
+.t.....
 
 
 Beat 2
@@ -73,226 +67,189 @@ Beat 2
 
 Kallistar
 ---------
-life: 20
-discard 1: Volcanic Grasp
-discard 2: Flare Strike
-special action
-Human Form
+Life: 20
+Discard 1: Ignition Spellbolt
+Discard 2: Flare Strike
+Special action available
+Elemental Form
 
 Khadath
 -------
-life: 18
-discard 1: Teleport Drive
-discard 2: Evacuation Grasp
-special action
+Life: 17
+Discard 1: Teleport Strike
+Discard 2: Evacuation Grasp
+Special action available
 
 
-k..K...
-...t...
+.K....k
+.t.....
 
-Unbeatable strategy for Kallistar: Caustic Spellbolt: 0.17
-Unbeatable strategy for Kallistar: Caustic Shot: 0.09
-Unbeatable strategy for Kallistar: Caustic Burst: 0.24
-Unbeatable strategy for Kallistar: Caustic Dash: 2.93
-Unbeatable strategy for Kallistar: Ignition Dash: 2.33
-Unbeatable strategy for Kallistar: Blazing Dash: 1.13
 
 Kallistar:
-26% Caustic Shot
-3% Caustic Drive
-58% Ignition Dash
-12% Blazing Shot
+19% Caustic Grasp
+28% Caustic Dash
+18% Volcanic Drive
+28% Volcanic Grasp
+7% Blazing Drive
 
 Khadath:
-45% Hunter's Dash
-10% Blight Strike
-29% Blight Shot
-16% Lure Strike
+41% Hunter's Snare
+43% Hunter's Burst
+6% Blight Shot
+7% Lure Drive
+3% Lure Dash
 
 
-Kallistar: Ignition Dash
-Khadath: Hunter's Dash
+Kallistar: Volcanic Grasp
+Khadath: Hunter's Snare
 
+Kallistar loses 1 life (now at 19)
+Khadath gets +2 power
+Khadath gets +2 priority
 Kallistar gets -3 priority
-Priorities:  5 | 9
-Khadath is active
-Khadath moves:
+Priorities:  4 | 3
+Kallistar is active
+Kallistar hits
+Khadath will have -2 priority next beat
+Kallistar moves Khadath:
 
-.k.K...
-...t...
+.K...k.
+.t.....
 
-Kallistar moves:
-
-Kk.....
-...t...
-
+Khadath takes 4 damage (now at 13 life)
+Khadath hits
+Kallistar takes 5 damage (now at 14 life)
+Kallistar is stunned
 
 Beat 3
 -------
 
 Kallistar
 ---------
-life: 20
-discard 1: Ignition Dash
-discard 2: Volcanic Grasp
-special action
+Life: 14
+Discard 1: Volcanic Grasp
+Discard 2: Ignition Spellbolt
+Special action available
+Opponent has priority penalty: -2
 Elemental Form
 
 Khadath
 -------
-life: 18
-discard 1: Hunter's Dash
-discard 2: Teleport Drive
-special action
+Life: 13
+Discard 1: Hunter's Snare
+Discard 2: Teleport Strike
+Special action available
 
 
-Kk.....
-...t...
-
-Kallistar:
-33% Flare Spellbolt
-20% Flare Strike
-26% Flare Shot
-6% Blazing Strike
-15% Blazing Shot
-
-Khadath:
-7% Evacuation Strike
-33% Evacuation Grasp
-28% Blight Burst
-21% Lure Strike
-12% Lure Grasp
-
-
-Kallistar: Flare Shot
-Khadath: Evacuation Grasp
-
-Kallistar loses 1 life (now at 19)
-Priorities:  4 | 5
-Khadath is active
-Khadath moves trap:
-
-Kk.....
+.K...k.
 .t.....
 
+Unbeatable strategy for Khadath: Blight Drive: -1.52
+
+
+Kallistar:
+61% Flare Strike
+11% Caustic Drive
+29% Blazing Shot
+
+Khadath:
+76% Blight Drive
+8% Blight Burst
+16% Lure Grasp
+
+
+Kallistar: Flare Strike
+Khadath: Lure Grasp
+
+Kallistar loses 1 life (now at 13)
+Kallistar gets -3 priority
+Priorities:  2 | 2
+Clash!
+
+
+Kallistar: Flare Drive
+Khadath: Lure Drive
+
+Kallistar loses 1 life (now at 13)
+Kallistar gets -3 priority
+Priorities:  3 | 1
+Kallistar is active
+Kallistar moves:
+
+...K.k.
+.t.....
+
+Kallistar misses
 Khadath moves:
 
-K.k....
+..kK...
 .t.....
 
 Khadath hits
-Khadath moves Kallistar:
-
-.Kk....
-.t.....
-
-Kallistar takes 2 damage (now at 17 life)
-Kallistar misses
+Kallistar takes 2 damage (now at 11 life)
+Kallistar is stunned
 
 Beat 4
 -------
 
 Kallistar
 ---------
-life: 17
-discard 1: Flare Shot
-discard 2: Ignition Dash
-special action
+Life: 11
+Discard 1: Flare Drive
+Discard 2: Volcanic Grasp
+Special action available
 Human Form
 
 Khadath
 -------
-life: 18
-discard 1: Evacuation Grasp
-discard 2: Hunter's Dash
-special action
+Life: 13
+Discard 1: Lure Drive
+Discard 2: Hunter's Snare
+Special action available
 
+
+..kK...
+.t.....
+
+Unbeatable strategy for Khadath: Teleport Burst: -2.00
+Unbeatable strategy for Khadath: Teleport Dash: -1.60
+
+
+Kallistar:
+56% Blazing Spellbolt
+44% Blazing Shot
+
+Khadath:
+5% Teleport Shot
+95% Teleport Burst
+
+
+Kallistar: Blazing Spellbolt
+Khadath: Teleport Burst
+
+Priorities:  4 | -2
+Kallistar is active
+Khadath moves:
+
+k..K...
+.t.....
+
+Kallistar misses
+Kallistar moves:
+
+kK.....
+.t.....
+
+Khadath misses
+Khadath moves:
 
 .Kk....
 .t.....
 
-Kallistar:
-24% Caustic Spellbolt
-36% Caustic Strike
-7% Caustic Drive
-10% Blazing Strike
-23% Blazing Drive
-
-Khadath:
-8% Teleport Strike
-11% Teleport Shot
-34% Teleport Burst
-31% Blight Strike
-16% Blight Burst
-
-
-Kallistar: Caustic Strike
-Khadath: Blight Burst
-
-Kallistar gets -3 priority
-Priorities:  -1 | 1
-Khadath is active
-Khadath moves:
-
-.K..k..
-.t.....
-
 Khadath moves trap:
 
-.K..k..
-..t....
-
-Khadath hits
-Kallistar has 3 soak
-Kallistar takes 0 damage (now at 17 life)
-Kallistar misses
-
-Beat 5
--------
-
-Kallistar
----------
-life: 17
-discard 1: Caustic Strike
-discard 2: Flare Shot
-special action
-Human Form
-
-Khadath
--------
-life: 18
-discard 1: Blight Burst
-discard 2: Evacuation Grasp
-special action
-
-
-.K..k..
-..t....
-
-Unbeatable strategy for Khadath: Teleport Shot: -1.94
-
-Kallistar:
-1% Volcanic Burst
-20% Ignition Spellbolt
-6% Ignition Burst
-13% Blazing Spellbolt
-61% Special Pulse
-
-Khadath:
-1% Hunter's Drive
-6% Teleport Snare
-48% Teleport Strike
-7% Teleport Shot
-39% Teleport Drive
-
-
-Kallistar: Special Pulse
-Khadath: Teleport Strike
-
-Pulse:
-
-K.....k
-..t....
+.Kk....
+t......
 
 
 Beat 5
@@ -300,74 +257,71 @@ Beat 5
 
 Kallistar
 ---------
-life: 17
-discard 1: Caustic Strike
-discard 2: Flare Shot
+Life: 11
+Discard 1: Blazing Spellbolt
+Discard 2: Flare Drive
+Special action available
 Human Form
 
 Khadath
 -------
-life: 18
-discard 1: Teleport Strike
-discard 2: Blight Burst
-special action
+Life: 13
+Discard 1: Teleport Burst
+Discard 2: Lure Drive
+Special action available
 
 
-K.....k
-..t....
+.Kk....
+t......
 
-Unbeatable strategy for Khadath: Lure Grasp: -0.01
+Unbeatable strategy for Kallistar: Volcanic Burst: 0.02
+Unbeatable strategy for Kallistar: Volcanic Dash: 1.37
+
 
 Kallistar:
-87% Volcanic Spellbolt
-8% Volcanic Drive
-5% Ignition Spellbolt
+4% Caustic Shot
+14% Caustic Burst
+14% Volcanic Grasp
+52% Volcanic Dash
+15% Ignition Strike
 
 Khadath:
-14% Lure Drive
-82% Lure Grasp
-5% Lure Dash
+13% Hunter's Snare
+23% Hunter's Shot
+16% Evacuation Shot
+40% Evacuation Dash
+8% Blight Dash
 
 
-Kallistar: Volcanic Spellbolt
-Khadath: Lure Drive
+Kallistar: Volcanic Dash
+Khadath: Evacuation Dash
 
-Priorities:  3 | 3
-Clash!
-
-Kallistar:
-4% Volcanic Drive
-93% Volcanic Burst
-3% Volcanic Grasp
-
-Khadath:
-13% Lure Shot
-80% Lure Grasp
-7% Lure Dash
-
-
-Kallistar: Volcanic Burst
-Khadath: Lure Grasp
-
-Priorities:  1 | 4
+Kallistar gets -1 priority
+Priorities:  8 | 9
 Khadath is active
-Khadath hits
-Khadath moves Kallistar:
+Khadath moves trap:
 
-....K.k
+.Kk....
 ..t....
 
-Khadath moves Kallistar:
+Khadath moves:
 
-.....Kk
+.K.k...
 ..t....
 
-Kallistar has 1 soak
-Kallistar takes 0 damage (now at 17 life)
-Kallistar misses
+Khadath moves:
+
+kK.....
+..t....
+
 Kallistar moves:
 
-....K.k
+k.K....
+..t....
+
+Kallistar moves:
+
+k...K..
 ..t....
 
 
@@ -376,50 +330,99 @@ Beat 6
 
 Kallistar
 ---------
-life: 17
-discard 1: Volcanic Burst
-discard 2: Caustic Strike
+Life: 11
+Discard 1: Volcanic Dash
+Discard 2: Blazing Spellbolt
+Special action available
 Human Form
 
 Khadath
 -------
-life: 18
-discard 1: Lure Grasp
-discard 2: Teleport Strike
-special action
+Life: 13
+Discard 1: Evacuation Dash
+Discard 2: Teleport Burst
+Special action available
 
 
-....K.k
+k...K..
 ..t....
+
 
 Kallistar:
-0% Ignition Spellbolt
-58% Ignition Shot
-7% Ignition Grasp
-35% Blazing Shot
+29% Flare Shot
+63% Ignition Shot
+8% Ignition Burst
 
 Khadath:
-77% Hunter's Dash
-5% Blight Snare
-14% Blight Drive
-4% Blight Burst
+47% Blight Snare
+34% Blight Grasp
+19% Lure Shot
 
 
-Kallistar: Blazing Shot
-Khadath: Hunter's Dash
+Kallistar: Ignition Shot
+Khadath: Blight Grasp
 
-Priorities:  3 | 9
+Priorities:  1 | 5
 Khadath is active
-Khadath moves:
+Khadath moves trap:
 
-...kK..
-..t....
+k...K..
+...t...
 
-Kallistar misses
-Kallistar moves:
+Khadath misses
+Kallistar hits
+Khadath takes 4 damage (now at 9 life)
+Khadath is stunned
 
-...k..K
-..t....
+Beat 7
+-------
+
+Kallistar
+---------
+Life: 11
+Discard 1: Ignition Shot
+Discard 2: Volcanic Dash
+Special action available
+Elemental Form
+
+Khadath
+-------
+Life: 9
+Discard 1: Blight Grasp
+Discard 2: Evacuation Dash
+Special action available
+
+
+k...K..
+...t...
+
+Unbeatable strategy for Khadath: Teleport Strike: -0.76
+Unbeatable strategy for Khadath: Teleport Shot: -2.08
+Unbeatable strategy for Khadath: Teleport Drive: -1.64
+Unbeatable strategy for Khadath: Teleport Burst: -1.40
+
+
+Kallistar:
+1% Flare Spellbolt
+6% Caustic Spellbolt
+7% Blazing Burst
+86% Special Pulse
+
+Khadath:
+12% Teleport Snare
+52% Teleport Shot
+3% Lure Drive
+33% Lure Burst
+
+
+Kallistar: Special Pulse
+Khadath: Teleport Shot
+
+Kallistar loses 1 life (now at 10)
+Pulse:
+
+kK.....
+...t...
 
 
 Beat 7
@@ -427,324 +430,241 @@ Beat 7
 
 Kallistar
 ---------
-life: 17
-discard 1: Blazing Shot
-discard 2: Volcanic Burst
-Human Form
+Life: 10
+Discard 1: Ignition Shot
+Discard 2: Volcanic Dash
+Elemental Form
 
 Khadath
 -------
-life: 18
-discard 1: Hunter's Dash
-discard 2: Lure Grasp
-special action
+Life: 9
+Discard 1: Teleport Shot
+Discard 2: Blight Grasp
+Special action available
 
 
-...k..K
-..t....
+kK.....
+...t...
 
-Unbeatable strategy for Khadath: Teleport Burst: -2.25
-Unbeatable strategy for Khadath: Blight Strike: -1.37
-Unbeatable strategy for Khadath: Blight Shot: -0.28
+Unbeatable strategy for Khadath: Hunter's Dash: -2.79
+Unbeatable strategy for Khadath: Evacuation Dash: -1.99
+Unbeatable strategy for Khadath: Lure Dash: -2.89
+
 
 Kallistar:
-20% Caustic Spellbolt
-37% Caustic Drive
-42% Ignition Spellbolt
+47% Caustic Spellbolt
+3% Caustic Drive
+2% Blazing Drive
+37% Blazing Burst
+11% Blazing Grasp
 
 Khadath:
-51% Teleport Burst
-34% Blight Strike
-15% Blight Shot
+45% Hunter's Dash
+0% Evacuation Strike
+43% Evacuation Dash
+5% Lure Strike
+7% Lure Dash
 
 
-Kallistar: Caustic Drive
-Khadath: Teleport Burst
+Kallistar: Caustic Spellbolt
+Khadath: Evacuation Dash
 
-Priorities:  3 | -2
-Kallistar is active
-Khadath moves:
-
-..k...K
-..t....
-
-Kallistar moves:
-
-..k.K..
-..t....
-
-Kallistar misses
-Khadath hits
-Kallistar has 3 soak
-Kallistar takes 1 damage (now at 16 life)
-Kallistar is stunned
-Khadath moves:
-
-...kK..
-..t....
-
+Kallistar loses 1 life (now at 9)
+Priorities:  4 | 9
+Khadath is active
 Khadath moves trap:
 
-...kK..
-....t..
+kK.....
+t......
 
+Khadath moves:
+
+.Kk....
+t......
+
+Kallistar misses
 
 Beat 8
 -------
 
 Kallistar
 ---------
-life: 16
-discard 1: Caustic Drive
-discard 2: Blazing Shot
-Human Form
+Life: 9
+Discard 1: Caustic Spellbolt
+Discard 2: Ignition Shot
+Elemental Form
 
 Khadath
 -------
-life: 18
-discard 1: Teleport Burst
-discard 2: Hunter's Dash
-special action
+Life: 9
+Discard 1: Evacuation Dash
+Discard 2: Teleport Shot
+Special action available
 
 
-...kK..
-....t..
+.Kk....
+t......
 
-Unbeatable strategy for Kallistar: Volcanic Burst: 0.33
-Unbeatable strategy for Kallistar: Volcanic Dash: 0.65
 
 Kallistar:
-19% Volcanic Burst
-41% Volcanic Dash
-2% Ignition Strike
-39% Ignition Dash
+0% Flare Strike
+9% Volcanic Dash
+23% Blazing Drive
+31% Blazing Burst
+37% Blazing Grasp
 
 Khadath:
-28% Evacuation Shot
-45% Evacuation Drive
-26% Blight Drive
+29% Hunter's Drive
+6% Hunter's Burst
+28% Hunter's Grasp
+5% Blight Drive
+31% Blight Burst
 
 
-Kallistar: Ignition Dash
-Khadath: Evacuation Drive
+Kallistar: Blazing Burst
+Khadath: Hunter's Grasp
 
-Kallistar gets -3 priority
-Priorities:  5 | 4
-Kallistar is active
-Khadath moves trap:
-
-...kK..
-...t...
-
-Khadath moves:
-
-..k.K..
-...t...
-
+Kallistar loses 1 life (now at 8)
+Khadath gets +2 power
+Khadath gets +2 priority
+Kallistar gets -1 priority
+Priorities:  3 | 7
+Khadath is active
 Kallistar moves:
 
-..k...K
-...t...
+K.k....
+t......
 
-Khadath moves:
-
-....k.K
-...t...
-
-Khadath hits
-Kallistar has 1 soak
-Kallistar takes 2 damage (now at 14 life)
-Kallistar is stunned
+Khadath misses
+Kallistar hits
+Khadath takes 5 damage (now at 4 life)
+Khadath is stunned
 
 Beat 9
 -------
 
 Kallistar
 ---------
-life: 14
-discard 1: Ignition Dash
-discard 2: Caustic Drive
+Life: 8
+Discard 1: Blazing Burst
+Discard 2: Caustic Spellbolt
 Elemental Form
 
 Khadath
 -------
-life: 18
-discard 1: Evacuation Drive
-discard 2: Teleport Burst
-special action
+Life: 4
+Discard 1: Hunter's Grasp
+Discard 2: Evacuation Dash
+Special action available
 
 
-....k.K
-...t...
+K.k....
+t......
+
+Unbeatable strategy for Khadath: Blight Strike: -3.62
+
 
 Kallistar:
-30% Flare Spellbolt
-3% Blazing Spellbolt
-36% Blazing Strike
-31% Blazing Shot
+16% Flare Drive
+11% Volcanic Strike
+73% Volcanic Drive
 
 Khadath:
-2% Hunter's Dash
-3% Blight Strike
-13% Blight Grasp
-83% Special Pulse
+10% Teleport Drive
+84% Blight Strike
+6% Blight Burst
 
 
-Kallistar: Flare Spellbolt
-Khadath: Special Pulse
+Kallistar: Volcanic Drive
+Khadath: Blight Strike
 
-Kallistar loses 1 life (now at 13)
-Pulse:
-
-k..K...
-...t...
-
-
-Beat 9
--------
-
-Kallistar
----------
-life: 13
-discard 1: Flare Spellbolt
-discard 2: Ignition Dash
-Elemental Form
-
-Khadath
--------
-life: 18
-discard 1: Evacuation Drive
-discard 2: Teleport Burst
-
-
-k..K...
-...t...
-
-Kallistar:
-30% Volcanic Grasp
-26% Blazing Shot
-27% Blazing Drive
-18% Blazing Burst
-
-Khadath:
-16% Blight Strike
-13% Blight Grasp
-33% Lure Strike
-37% Lure Grasp
-
-
-Kallistar: Blazing Drive
-Khadath: Lure Grasp
-
-Kallistar loses 1 life (now at 12)
+Kallistar loses 1 life (now at 7)
 Kallistar gets -3 priority
-Priorities:  4 | 4
+Priorities:  3 | 3
 Clash!
 
-Kallistar:
-100% Blazing Shot
 
-Khadath:
-100% Lure Strike
+Kallistar: Volcanic Strike
+Khadath: Blight Shot
 
-
-Kallistar: Blazing Shot
-Khadath: Lure Strike
-
-Kallistar loses 1 life (now at 12)
+Kallistar loses 1 life (now at 7)
 Kallistar gets -3 priority
 Priorities:  2 | 2
 Clash!
 
-Kallistar:
-100% Blazing Burst
 
-Khadath:
-100% Lure Shot
+Kallistar: Volcanic Dash
+Khadath: Blight Snare
 
-
-Kallistar: Blazing Burst
-Khadath: Lure Shot
-
-Kallistar loses 1 life (now at 12)
+Kallistar loses 1 life (now at 7)
 Kallistar gets -3 priority
-Priorities:  1 | 1
-Clash!
-
-Kallistar:
-50% Blazing Strike
-50% Blazing Grasp
-
-Khadath:
-100% Lure Snare
-
-
-Kallistar: Blazing Strike
-Khadath: Lure Snare
-
-Kallistar loses 1 life (now at 12)
-Kallistar gets -3 priority
-Priorities:  3 | 0
+Priorities:  8 | 1
 Kallistar is active
-Kallistar misses
-Khadath hits
-Kallistar takes 2 damage (now at 10 life)
+Kallistar moves:
+
+..kK...
+t......
+
+Khadath misses
 
 Beat 10
 -------
 
 Kallistar
 ---------
-life: 10
-discard 1: Blazing Strike
-discard 2: Flare Spellbolt
+Life: 7
+Discard 1: Volcanic Dash
+Discard 2: Blazing Burst
 Elemental Form
 
 Khadath
 -------
-life: 18
-discard 1: Lure Snare
-discard 2: Evacuation Drive
+Life: 4
+Discard 1: Blight Snare
+Discard 2: Hunter's Grasp
+Special action available
 
 
-k..K...
-...t...
+..kK...
+t......
 
-Unbeatable strategy for Khadath: Teleport Dash: -0.67
+Unbeatable strategy for Khadath: Evacuation Dash: -0.75
+
 
 Kallistar:
-46% Volcanic Shot
-20% Volcanic Burst
-34% Volcanic Grasp
+26% Flare Spellbolt
+31% Caustic Spellbolt
+23% Caustic Shot
+20% Caustic Grasp
 
 Khadath:
-87% Teleport Dash
-3% Blight Shot
-10% Blight Grasp
+0% Teleport Strike
+2% Teleport Dash
+7% Evacuation Drive
+90% Evacuation Dash
 
 
-Kallistar: Volcanic Shot
+Kallistar: Caustic Shot
 Khadath: Teleport Dash
 
-Kallistar loses 1 life (now at 9)
-Kallistar gets -3 priority
-Priorities:  1 | 6
+Kallistar loses 1 life (now at 6)
+Priorities:  3 | 6
 Khadath is active
 Khadath moves:
 
-.k.K...
-...t...
+...Kk..
+t......
 
 Kallistar misses
 Khadath moves:
 
 ..kK...
-...t...
+t......
 
 Khadath moves trap:
 
 ..kK...
-..t....
+...t...
 
 
 Beat 11
@@ -752,181 +672,61 @@ Beat 11
 
 Kallistar
 ---------
-life: 9
-discard 1: Volcanic Shot
-discard 2: Blazing Strike
+Life: 6
+Discard 1: Caustic Shot
+Discard 2: Volcanic Dash
 Elemental Form
 
 Khadath
 -------
-life: 18
-discard 1: Teleport Dash
-discard 2: Lure Snare
+Life: 4
+Discard 1: Teleport Dash
+Discard 2: Blight Snare
+Special action available
 
 
 ..kK...
-..t....
+...t...
+
+Unbeatable strategy for Khadath: Hunter's Drive: -11.00
+
 
 Kallistar:
-23% Flare Spellbolt
+9% Flare Spellbolt
+4% Flare Strike
+3% Flare Drive
 8% Flare Burst
-17% Flare Grasp
-9% Caustic Drive
-43% Caustic Dash
+6% Flare Grasp
+10% Ignition Spellbolt
+10% Ignition Strike
+7% Ignition Drive
+6% Ignition Burst
+8% Ignition Grasp
+4% Blazing Spellbolt
+4% Blazing Strike
+5% Blazing Drive
+6% Blazing Burst
+9% Blazing Grasp
 
 Khadath:
-29% Evacuation Shot
-24% Evacuation Drive
-8% Evacuation Grasp
-23% Blight Shot
-16% Blight Grasp
+100% Hunter's Drive
 
 
-Kallistar: Caustic Dash
-Khadath: Evacuation Drive
+Kallistar: Flare Spellbolt
+Khadath: Hunter's Drive
 
-Kallistar loses 1 life (now at 8)
-Kallistar gets -1 priority
-Priorities:  9 | 4
-Kallistar is active
-Khadath moves trap:
-
-..kK...
-..t....
-
+Kallistar loses 1 life (now at 5)
+Khadath gets +2 power
+Khadath gets +2 priority
+Kallistar gets -3 priority
+Priorities:  2 | 6
+Khadath is active
 Khadath moves:
 
-.k.K...
-..t....
+...Kk..
+...t...
 
-Kallistar moves:
-
-.k....K
-..t....
-
-Khadath moves:
-
-..k...K
-..t....
-
-Khadath misses
-
-Beat 12
--------
-
-Kallistar
----------
-life: 8
-discard 1: Caustic Dash
-discard 2: Volcanic Shot
-Elemental Form
-
-Khadath
--------
-life: 18
-discard 1: Evacuation Drive
-discard 2: Teleport Dash
-
-
-..k...K
-..t....
-
-Unbeatable strategy for Kallistar: Blazing Spellbolt: 0.12
-
-Kallistar:
-25% Ignition Spellbolt
-72% Blazing Spellbolt
-3% Blazing Burst
-
-Khadath:
-33% Blight Strike
-10% Blight Burst
-50% Blight Grasp
-8% Lure Grasp
-
-
-Kallistar: Ignition Spellbolt
-Khadath: Blight Burst
-
-Kallistar loses 1 life (now at 7)
-Kallistar loses 3 life (now at 4)
-Kallistar gets +3 power
-Priorities:  4 | 1
-Kallistar is active
-Khadath moves trap:
-
-..k...K
-.....t.
-
-Khadath moves:
-
-.k....K
-.....t.
-
-Kallistar hits
-Khadath takes 8 damage (now at 10 life)
-Khadath is stunned
-
-Beat 13
--------
-
-Kallistar
----------
-life: 4
-discard 1: Ignition Spellbolt
-discard 2: Caustic Dash
-Elemental Form
-
-Khadath
--------
-life: 10
-discard 1: Blight Burst
-discard 2: Evacuation Drive
-
-
-.k....K
-.....t.
-
-Unbeatable strategy for Khadath: Hunter's Snare: -9.00
-Unbeatable strategy for Khadath: Teleport Snare: -9.00
-Unbeatable strategy for Khadath: Teleport Dash: -1.69
-
-Kallistar:
-11% Flare Strike
-7% Flare Shot
-15% Flare Drive
-10% Flare Burst
-14% Flare Grasp
-5% Volcanic Strike
-5% Volcanic Shot
-3% Volcanic Drive
-7% Volcanic Burst
-2% Volcanic Grasp
-6% Blazing Strike
-4% Blazing Shot
-6% Blazing Drive
-3% Blazing Burst
-3% Blazing Grasp
-
-Khadath:
-50% Hunter's Snare
-50% Teleport Snare
-
-
-Kallistar: Flare Drive
-Khadath: Teleport Snare
-
-Kallistar loses 1 life (now at 3)
-Kallistar gets -1 priority
-Priorities:  5 | -2
-Kallistar is active
-Kallistar moves:
-
-.k...K.
-.....t.
-
-Kallistar misses
 Khadath hits
-Kallistar takes 4 damage (now at 0 life)
+Kallistar takes 5 damage (now at 0 life)
 KHADATH WINS!
-total_time: 13
+total_time: 14

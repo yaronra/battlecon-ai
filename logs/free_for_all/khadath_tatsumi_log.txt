@@ -11,17 +11,17 @@ Beat 1
 
 Khadath
 -------
-life: 20
-discard 1: Evacuation Grasp
-discard 2: Hunter's Snare
-special action
+Life: 20
+Discard 1: Evacuation Grasp
+Discard 2: Hunter's Snare
+Special action available
 
 Tatsumi
 -------
-life: 20
-discard 1: Fearless Burst
-discard 2: Riptide Strike
-special action
+Life: 20
+Discard 1: Fearless Burst
+Discard 2: Riptide Strike
+Special action available
 Juto's life: 4
 
 
@@ -29,66 +29,56 @@ Juto's life: 4
 
 .....j.
 
+
 Khadath:
-8% Teleport Strike
-9% Teleport Shot
+6% Teleport Strike
+11% Teleport Shot
 52% Teleport Dash
 31% Blight Burst
 
 Tatsumi:
-11% Siren Grasp
-44% Empathic Whirlpool
-34% Empathic Drive
-11% Wave Whirlpool
+9% Siren Whirlpool
+50% Empathic Whirlpool
+36% Empathic Drive
+5% Wave Whirlpool
 
 
-Khadath: Teleport Dash
-Tatsumi: Wave Whirlpool
+Khadath: Teleport Strike
+Tatsumi: Empathic Whirlpool
 
-Priorities:  6 | 3
-Khadath is active
+Priorities:  0 | 2
+Tatsumi is active
 Tatsumi moves Khadath:
 
 ..K..T.
 
 .....j.
 
-Khadath moves:
+Tatsumi misses
+Tatsumi moves:
 
-...K.T.
+..K...T
 
 .....j.
 
-Tatsumi misses
 Juto moves
 
-...K.T.
+..K...T
 
-j......
+....j..
 
-Tatsumi moves:
-
-...KT..
-
-j......
-
-Juto moves
-
-...KT..
-
-..j....
-
+Khadath misses
 Khadath moves:
 
-K...T..
+....K.T
 
-..j....
+....j..
 
 Khadath moves trap:
 
-K...T..
-....t..
-..j....
+....K.T
+......t
+....j..
 
 
 Beat 2
@@ -96,71 +86,54 @@ Beat 2
 
 Khadath
 -------
-life: 20
-discard 1: Teleport Dash
-discard 2: Evacuation Grasp
-special action
+Life: 20
+Discard 1: Teleport Strike
+Discard 2: Evacuation Grasp
+Special action available
 
 Tatsumi
 -------
-life: 20
-discard 1: Wave Whirlpool
-discard 2: Fearless Burst
-special action
+Life: 20
+Discard 1: Empathic Whirlpool
+Discard 2: Fearless Burst
+Special action available
 Juto's life: 4
 
 
-K...T..
-....t..
-..j....
+....K.T
+......t
+....j..
 
-Unbeatable strategy for Tatsumi: Siren Dash: -1.72
-Unbeatable strategy for Tatsumi: Riptide Strike: -0.29
-Unbeatable strategy for Tatsumi: Riptide Dash: -2.46
-Unbeatable strategy for Tatsumi: Empathic Strike: -0.80
-Unbeatable strategy for Tatsumi: Empathic Dash: -1.72
 
 Khadath:
-15% Hunter's Drive
-43% Blight Shot
-42% Blight Drive
+46% Hunter's Shot
+8% Hunter's Drive
+47% Blight Burst
 
 Tatsumi:
-32% Siren Dash
-58% Riptide Dash
-10% Empathic Dash
+1% Siren Grasp
+77% Riptide Strike
+22% Wave Dash
 
 
-Khadath: Blight Drive
-Tatsumi: Siren Dash
+Khadath: Hunter's Shot
+Tatsumi: Riptide Strike
 
+Khadath gets +2 power
+Khadath gets +2 priority
 Tatsumi gets -3 priority
-Priorities:  4 | 7
-Tatsumi is active
-Khadath moves trap:
-
-K...T..
-.t.....
-..j....
-
-Tatsumi moves:
-
-K.....T
-.t.....
-..j....
-
-Khadath moves:
-
-..K...T
-.t.....
-..j....
-
-Khadath misses
+Priorities:  4 | 0
+Khadath is active
+Khadath hits
+Tatsumi takes 5 damage (now at 15 life)
+Tatsumi hits
+Khadath takes 4 damage (now at 16 life)
+Khadath is stunned
 Juto moves
 
-..K...T
-.t.....
-....j..
+....K.T
+......t
+......j
 
 
 Beat 3
@@ -168,133 +141,100 @@ Beat 3
 
 Khadath
 -------
-life: 20
-discard 1: Blight Drive
-discard 2: Teleport Dash
-special action
+Life: 16
+Discard 1: Hunter's Shot
+Discard 2: Teleport Strike
+Special action available
 
 Tatsumi
 -------
-life: 20
-discard 1: Siren Dash
-discard 2: Wave Whirlpool
-special action
+Life: 15
+Discard 1: Riptide Strike
+Discard 2: Empathic Whirlpool
+Special action available
 Juto's life: 4
 
 
-..K...T
-.t.....
-....j..
+....K.T
+......t
+......j
 
-Unbeatable strategy for Tatsumi: Riptide Shot: -2.13
+Unbeatable strategy for Tatsumi: Siren Shot: -0.24
+Unbeatable strategy for Tatsumi: Fearless Shot: -0.25
+
 
 Khadath:
-7% Hunter's Snare
-8% Hunter's Burst
-86% Special Pulse
+15% Evacuation Snare
+22% Blight Grasp
+59% Blight Dash
+4% Lure Burst
 
 Tatsumi:
-5% Fearless Shot
-49% Riptide Shot
-46% Riptide Burst
+14% Siren Shot
+3% Siren Drive
+63% Fearless Shot
+20% Fearless Drive
 
 
-Khadath: Special Pulse
-Tatsumi: Riptide Shot
-
-Pulse:
-
-.T..K..
-.t.....
-....j..
-
-
-Beat 3
--------
-
-Khadath
--------
-life: 20
-discard 1: Blight Drive
-discard 2: Teleport Dash
-
-Tatsumi
--------
-life: 20
-discard 1: Riptide Shot
-discard 2: Siren Dash
-special action
-Juto's life: 4
-
-
-.T..K..
-.t.....
-....j..
-
-Khadath:
-14% Hunter's Burst
-22% Evacuation Snare
-21% Lure Strike
-43% Lure Grasp
-
-Tatsumi:
-10% Fearless Whirlpool
-13% Fearless Strike
-37% Fearless Drive
-40% Fearless Grasp
-
-
-Khadath: Lure Strike
-Tatsumi: Fearless Drive
+Khadath: Lure Burst
+Tatsumi: Fearless Shot
 
 Tatsumi gets -3 priority
-Priorities:  2 | 3
+Priorities:  0 | 0
+Clash!
+
+
+Khadath: Lure Snare
+Tatsumi: Fearless Dash
+
+Tatsumi gets -3 priority
+Priorities:  0 | 7
 Tatsumi is active
 Tatsumi moves:
 
-...TK..
-.t.....
-....j..
+..T.K..
+......t
+......j
 
-Tatsumi hits
-Khadath takes 3 damage (now at 17 life)
-Khadath hits
-Tatsumi takes 3 damage (now at 17 life)
-Tatsumi is stunned
+Khadath misses
 
 Beat 4
 -------
 
 Khadath
 -------
-life: 17
-discard 1: Lure Strike
-discard 2: Blight Drive
+Life: 16
+Discard 1: Lure Snare
+Discard 2: Hunter's Shot
+Special action available
 
 Tatsumi
 -------
-life: 17
-discard 1: Fearless Drive
-discard 2: Riptide Shot
-special action
+Life: 15
+Discard 1: Fearless Dash
+Discard 2: Riptide Strike
+Special action available
 Juto's life: 4
 
 
-...TK..
-.t.....
-....j..
+..T.K..
+......t
+......j
 
-Unbeatable strategy for Khadath: Teleport Burst: 1.08
 
 Khadath:
-8% Teleport Shot
-18% Teleport Burst
-74% Teleport Dash
+16% Teleport Burst
+7% Teleport Grasp
+48% Teleport Dash
+26% Blight Drive
+3% Blight Grasp
 
 Tatsumi:
-57% Siren Whirlpool
-12% Siren Grasp
-31% Wave Burst
+47% Siren Whirlpool
+13% Siren Shot
+6% Siren Drive
+15% Empathic Shot
+18% Wave Whirlpool
 
 
 Khadath: Teleport Dash
@@ -302,42 +242,48 @@ Tatsumi: Siren Whirlpool
 
 Priorities:  6 | 5
 Khadath is active
+Tatsumi moves Khadath:
+
+..T..K.
+......t
+......j
+
 Khadath moves:
 
-.K.T...
-.t.....
-....j..
+.KT....
+......t
+......j
 
 Tatsumi misses
 Tatsumi moves:
 
-.KT....
-.t.....
+.K.T...
+......t
+......j
+
+Juto moves
+
+.K.T...
+......t
+....j..
+
+Khadath moves:
+
+..KT...
+......t
+....j..
+
+Khadath moves trap:
+
+..KT...
+...t...
 ....j..
 
 Juto moves
 
-.KT....
-.t.....
-..j....
-
-Khadath moves:
-
-..TK...
-.t.....
-..j....
-
-Khadath moves trap:
-
-..TK...
-..t....
-..j....
-
-Juto moves
-
-..TK...
-..t....
-j......
+..KT...
+...t...
+....j..
 
 
 Beat 5
@@ -345,34 +291,34 @@ Beat 5
 
 Khadath
 -------
-life: 17
-discard 1: Teleport Dash
-discard 2: Lure Strike
+Life: 16
+Discard 1: Teleport Dash
+Discard 2: Lure Snare
+Special action available
 
 Tatsumi
 -------
-life: 17
-discard 1: Siren Whirlpool
-discard 2: Fearless Drive
-special action
+Life: 15
+Discard 1: Siren Whirlpool
+Discard 2: Fearless Dash
+Special action available
 Juto's life: 4
 
 
-..TK...
-..t....
-j......
+..KT...
+...t...
+....j..
 
-Unbeatable strategy for Tatsumi: Riptide Dash: -1.78
-Unbeatable strategy for Tatsumi: Empathic Dash: -1.34
-Unbeatable strategy for Tatsumi: Wave Dash: -1.34
+Unbeatable strategy for Tatsumi: Empathic Burst: -0.34
+
 
 Khadath:
-85% Blight Drive
-15% Blight Burst
+11% Hunter's Strike
+89% Blight Drive
 
 Tatsumi:
-31% Riptide Strike
-69% Wave Dash
+50% Riptide Strike
+50% Empathic Burst
 
 
 Khadath: Blight Drive
@@ -383,26 +329,26 @@ Priorities:  4 | -1
 Khadath is active
 Khadath moves trap:
 
-..TK...
-.t.....
-j......
+..KT...
+....t..
+....j..
 
 Khadath moves:
 
-.KT....
-.t.....
-j......
+...TK..
+....t..
+....j..
 
 Khadath hits
-Tatsumi takes 3 damage (now at 14 life)
+Tatsumi takes 3 damage (now at 12 life)
 Tatsumi hits
-Khadath takes 4 damage (now at 13 life)
+Khadath takes 4 damage (now at 12 life)
 Khadath is stunned
 Juto moves
 
-.KT....
-.t.....
-j......
+...TK..
+....t..
+...j...
 
 
 Beat 6
@@ -410,61 +356,55 @@ Beat 6
 
 Khadath
 -------
-life: 13
-discard 1: Blight Drive
-discard 2: Teleport Dash
+Life: 12
+Discard 1: Blight Drive
+Discard 2: Teleport Dash
+Special action available
 
 Tatsumi
 -------
-life: 14
-discard 1: Riptide Strike
-discard 2: Siren Whirlpool
-special action
+Life: 12
+Discard 1: Riptide Strike
+Discard 2: Siren Whirlpool
+Special action available
 Juto's life: 4
 
 
-.KT....
-.t.....
-j......
+...TK..
+....t..
+...j...
+
 
 Khadath:
-21% Evacuation Shot
-21% Evacuation Grasp
-33% Lure Strike
-24% Lure Burst
-1% Lure Grasp
+14% Hunter's Grasp
+5% Evacuation Shot
+21% Lure Burst
+60% Lure Grasp
 
 Tatsumi:
-31% Fearless Shot
-24% Fearless Burst
-3% Empathic Drive
-27% Empathic Dash
-15% Wave Burst
+10% Fearless Drive
+19% Fearless Burst
+13% Empathic Shot
+58% Wave Dash
 
 
-Khadath: Lure Strike
-Tatsumi: Empathic Dash
+Khadath: Lure Grasp
+Tatsumi: Wave Dash
 
 Tatsumi gets -1 priority
-Priorities:  2 | 8
+Priorities:  4 | 8
 Tatsumi is active
-Tatsumi moves:
-
-TK.....
-.t.....
-j......
-
 Juto moves
 
-TK.....
-.t.....
-..j....
+...TK..
+....t..
+......j
 
 Tatsumi moves:
 
-.K..T..
-.t.....
-..j....
+....K.T
+....t..
+......j
 
 Khadath misses
 
@@ -473,351 +413,45 @@ Beat 7
 
 Khadath
 -------
-life: 13
-discard 1: Lure Strike
-discard 2: Blight Drive
+Life: 12
+Discard 1: Lure Grasp
+Discard 2: Blight Drive
+Special action available
 
 Tatsumi
 -------
-life: 14
-discard 1: Empathic Dash
-discard 2: Riptide Strike
-special action
+Life: 12
+Discard 1: Wave Dash
+Discard 2: Riptide Strike
+Special action available
 Juto's life: 4
 
 
-.K..T..
-.t.....
-..j....
+....K.T
+....t..
+......j
 
-Unbeatable strategy for Khadath: Teleport Burst: 4.44
 
 Khadath:
-16% Hunter's Snare
-78% Teleport Burst
-6% Teleport Grasp
+55% Teleport Burst
+45% Evacuation Burst
 
 Tatsumi:
-10% Siren Whirlpool
-4% Fearless Whirlpool
-86% Special Pulse
+29% Siren Drive
+71% Empathic Whirlpool
 
 
-Khadath: Teleport Burst
-Tatsumi: Special Pulse
+Khadath: Evacuation Burst
+Tatsumi: Empathic Whirlpool
 
-Pulse:
-
-K.....T
-.t.....
-..j....
-
-
-Beat 7
--------
-
-Khadath
--------
-life: 13
-discard 1: Teleport Burst
-discard 2: Lure Strike
-
-Tatsumi
--------
-life: 14
-discard 1: Empathic Dash
-discard 2: Riptide Strike
-Juto's life: 4
-
-
-K.....T
-.t.....
-..j....
-
-Unbeatable strategy for Tatsumi: Fearless Whirlpool: -0.50
-
-Khadath:
-100% Hunter's Drive
-
-Tatsumi:
-100% Fearless Whirlpool
-
-
-Khadath: Hunter's Drive
-Tatsumi: Fearless Whirlpool
-
-Priorities:  4 | 4
-Clash!
-
-Khadath:
-12% Hunter's Snare
-88% Hunter's Dash
-
-Tatsumi:
-79% Fearless Shot
-21% Fearless Drive
-
-
-Khadath: Hunter's Dash
-Tatsumi: Fearless Shot
-
-Priorities:  9 | 3
-Khadath is active
-Khadath moves:
-
-..K...T
-.t.....
-..j....
-
-Tatsumi hits
-Khadath takes 3 damage (now at 10 life)
-Khadath is stunned
-
-Beat 8
--------
-
-Khadath
--------
-life: 10
-discard 1: Hunter's Dash
-discard 2: Teleport Burst
-
-Tatsumi
--------
-life: 14
-discard 1: Fearless Shot
-discard 2: Empathic Dash
-Juto's life: 4
-
-
-..K...T
-.t.....
-..j....
-
-Unbeatable strategy for Tatsumi: Wave Strike: -1.17
-
-Khadath:
-30% Blight Shot
-70% Blight Drive
-
-Tatsumi:
-40% Wave Whirlpool
-60% Wave Strike
-
-
-Khadath: Blight Drive
-Tatsumi: Wave Strike
-
-Priorities:  4 | 4
-Clash!
-
-Khadath:
-34% Blight Strike
-33% Blight Shot
-34% Blight Grasp
-
-Tatsumi:
-33% Wave Whirlpool
-67% Wave Burst
-
-
-Khadath: Blight Grasp
-Tatsumi: Wave Burst
-
-Priorities:  5 | 2
-Khadath is active
-Khadath moves trap:
-
-..K...T
-.....t.
-..j....
-
-Khadath misses
-Tatsumi hits
+Priorities:  1 | 2
+Tatsumi is active
 Tatsumi moves Khadath:
 
-.K....T
-.....t.
-..j....
-
-Khadath takes 2 damage (now at 8 life)
-Khadath is stunned
-Juto moves
-
-.K....T
-.....t.
-..j....
-
-
-Beat 9
--------
-
-Khadath
--------
-life: 8
-discard 1: Blight Grasp
-discard 2: Hunter's Dash
-
-Tatsumi
--------
-life: 14
-discard 1: Wave Burst
-discard 2: Fearless Shot
-Juto's life: 4
-
-
-.K....T
-.....t.
-..j....
-
-Unbeatable strategy for Tatsumi: Empathic Grasp: -1.63
-
-Khadath:
-46% Teleport Strike
-54% Teleport Burst
-
-Tatsumi:
-0% Empathic Whirlpool
-100% Empathic Grasp
-
-
-Khadath: Teleport Burst
-Tatsumi: Empathic Grasp
-
-Tatsumi gets -1 priority
-Priorities:  -2 | 3
-Tatsumi is active
-Tatsumi moves:
-
-.KT....
-.....t.
-..j....
-
-Juto moves
-
-.KT....
-.....t.
-......j
-
-Khadath moves:
-
-K.T....
-.....t.
-......j
-
-Tatsumi hits
-Tatsumi moves Khadath:
-
-.KT....
-.....t.
-......j
-
-Khadath takes 3 damage (now at 5 life)
-Khadath is stunned
-Khadath moves:
-
-..T..K.
-.....t.
-......j
-
-Khadath moves trap:
-
-..T..K.
-..t....
-......j
-
-
-Beat 10
--------
-
-Khadath
--------
-life: 5
-discard 1: Teleport Burst
-discard 2: Blight Grasp
-
-Tatsumi
--------
-life: 14
-discard 1: Empathic Grasp
-discard 2: Wave Burst
-Juto's life: 4
-
-
-..T..K.
-..t....
-......j
-
-Unbeatable strategy for Tatsumi: Siren Dash: -1.74
-Unbeatable strategy for Tatsumi: Fearless Dash: -2.27
-Unbeatable strategy for Tatsumi: Riptide Dash: -3.08
-
-Khadath:
-21% Hunter's Drive
-22% Lure Shot
-57% Lure Drive
-
-Tatsumi:
-0% Fearless Whirlpool
-6% Fearless Drive
-94% Riptide Dash
-
-
-Khadath: Lure Drive
-Tatsumi: Riptide Dash
-
-Tatsumi gets -3 priority
-Priorities:  3 | 6
-Tatsumi is active
-Tatsumi moves:
-
 .....KT
-..t....
+....t..
 ......j
 
-Khadath misses
-Juto moves
-
-.....KT
-..t....
-......j
-
-
-Beat 11
--------
-
-Khadath
--------
-life: 5
-discard 1: Lure Drive
-discard 2: Teleport Burst
-
-Tatsumi
--------
-life: 14
-discard 1: Riptide Dash
-discard 2: Empathic Grasp
-Juto's life: 4
-
-
-.....KT
-..t....
-......j
-
-Khadath:
-37% Evacuation Strike
-63% Evacuation Grasp
-
-Tatsumi:
-58% Siren Whirlpool
-42% Siren Drive
-
-
-Khadath: Evacuation Strike
-Tatsumi: Siren Whirlpool
-
-Priorities:  3 | 4
-Tatsumi is active
 Khadath moves trap:
 
 .....KT
@@ -830,26 +464,331 @@ Khadath moves:
 .....t.
 ......j
 
+Khadath moves:
+
+..K...T
+.....t.
+......j
+
+Tatsumi misses
+Juto moves
+
+..K...T
+.....t.
+......j
+
+Khadath hits
+Tatsumi has 3 soak
+Tatsumi takes 0 damage (now at 12 life)
+Khadath loses 3 life (now at 9)
+
+Beat 8
+-------
+
+Khadath
+-------
+Life: 9
+Discard 1: Evacuation Burst
+Discard 2: Lure Grasp
+Special action available
+
+Tatsumi
+-------
+Life: 12
+Discard 1: Empathic Whirlpool
+Discard 2: Wave Dash
+Special action available
+Juto's life: 1
+
+
+..K...T
+.....t.
+......j
+
+
+Khadath:
+7% Hunter's Snare
+29% Hunter's Shot
+36% Teleport Snare
+8% Teleport Strike
+19% Teleport Shot
+
+Tatsumi:
+1% Siren Drive
+29% Fearless Strike
+13% Fearless Burst
+35% Fearless Grasp
+22% Riptide Drive
+
+
+Khadath: Teleport Shot
+Tatsumi: Fearless Grasp
+
+Tatsumi gets -1 priority
+Priorities:  -1 | 5
+Tatsumi is active
+Tatsumi misses
+Khadath hits
+Tatsumi has 3 soak
+Tatsumi takes 1 damage (now at 11 life)
+Tatsumi is stunned
+Juto is revived:
+
+..K...T
+.....t.
+......j
+
+Khadath moves:
+
+.....KT
+.....t.
+......j
+
+Khadath moves trap:
+
+.....KT
+......t
+......j
+
+
+Beat 9
+-------
+
+Khadath
+-------
+Life: 9
+Discard 1: Teleport Shot
+Discard 2: Evacuation Burst
+Special action available
+
+Tatsumi
+-------
+Life: 11
+Discard 1: Fearless Grasp
+Discard 2: Empathic Whirlpool
+Special action available
+Juto's life: 4
+
+
+.....KT
+......t
+......j
+
+Unbeatable strategy for Tatsumi: Riptide Strike: -0.21
+Unbeatable strategy for Tatsumi: Wave Dash: -0.43
+
+
+Khadath:
+2% Hunter's Strike
+40% Hunter's Drive
+59% Blight Grasp
+
+Tatsumi:
+28% Siren Dash
+64% Riptide Strike
+8% Riptide Dash
+
+
+Khadath: Hunter's Drive
+Tatsumi: Riptide Strike
+
+Khadath gets +2 power
+Khadath gets +2 priority
+Tatsumi gets -3 priority
+Priorities:  6 | -1
+Khadath is active
+Khadath hits
+Tatsumi has 3 soak
+Tatsumi takes 2 damage (now at 9 life)
 Tatsumi hits
+Khadath takes 4 damage (now at 5 life)
 Khadath is stunned
-Khadath takes 2 damage (now at 3 life)
+Juto moves
+
+.....KT
+......t
+......j
+
+
+Beat 10
+-------
+
+Khadath
+-------
+Life: 5
+Discard 1: Hunter's Drive
+Discard 2: Teleport Shot
+Special action available
+
+Tatsumi
+-------
+Life: 9
+Discard 1: Riptide Strike
+Discard 2: Fearless Grasp
+Special action available
+Juto's life: 1
+
+
+.....KT
+......t
+......j
+
+Unbeatable strategy for Tatsumi: Siren Shot: -0.27
+Unbeatable strategy for Tatsumi: Empathic Shot: -0.42
+Unbeatable strategy for Tatsumi: Wave Whirlpool: -0.25
+Unbeatable strategy for Tatsumi: Wave Drive: -0.29
+
+
+Khadath:
+34% Evacuation Strike
+43% Evacuation Grasp
+19% Blight Grasp
+4% Special Dimensional Exile
+
+Tatsumi:
+46% Siren Whirlpool
+2% Empathic Whirlpool
+37% Empathic Shot
+15% Empathic Dash
+
+
+Khadath: Evacuation Strike
+Tatsumi: Siren Whirlpool
+
+Tatsumi gets -3 priority
+Priorities:  3 | 1
+Khadath is active
+Khadath moves trap:
+
+.....KT
+.....t.
+......j
+
+Khadath moves:
+
+....K.T
+.....t.
+......j
+
+Tatsumi moves Khadath:
+
+.....KT
+.....t.
+......j
+
+Khadath hits
+Tatsumi has 3 soak
+Tatsumi takes 1 damage (now at 8 life)
+Tatsumi is stunned
+
+Beat 11
+-------
+
+Khadath
+-------
+Life: 5
+Discard 1: Evacuation Strike
+Discard 2: Hunter's Drive
+Special action available
+
+Tatsumi
+-------
+Life: 8
+Discard 1: Siren Whirlpool
+Discard 2: Riptide Strike
+Special action available
+Juto's life: 0
+
+
+.....KT
+.....t.
+
+
+Unbeatable strategy for Khadath: Teleport Burst: 4.42
+
+
+Khadath:
+24% Teleport Snare
+5% Teleport Shot
+71% Teleport Burst
+
+Tatsumi:
+3% Fearless Drive
+5% Fearless Dash
+92% Special Pulse
+
+
+Khadath: Teleport Burst
+Tatsumi: Special Pulse
+
+Pulse:
+
+.KT....
+.....t.
+
+
+
+Beat 11
+-------
+
+Khadath
+-------
+Life: 5
+Discard 1: Teleport Burst
+Discard 2: Evacuation Strike
+Special action available
+
+Tatsumi
+-------
+Life: 8
+Discard 1: Siren Whirlpool
+Discard 2: Riptide Strike
+Juto's life: 0
+
+
+.KT....
+.....t.
+
+
+
+Khadath:
+100% Blight Drive
+
+Tatsumi:
+100% Fearless Dash
+
+
+Khadath: Blight Drive
+Tatsumi: Fearless Dash
+
+Priorities:  4 | 10
+Tatsumi is active
+Khadath moves trap:
+
+.KT....
+t......
+
+
 Tatsumi moves:
 
-....KT.
-.....t.
-......j
+.K.T...
+t......
 
-Juto moves
 
-....KT.
-.....t.
-....j..
+Khadath moves:
 
-Juto moves
+..KT...
+t......
 
-....KT.
-.....t.
-......j
+
+Khadath hits
+Tatsumi takes 3 damage (now at 5 life)
+Tatsumi is stunned
+Juto is revived:
+
+..KT...
+t......
+...j...
 
 
 Beat 12
@@ -857,58 +796,62 @@ Beat 12
 
 Khadath
 -------
-life: 3
-discard 1: Evacuation Strike
-discard 2: Lure Drive
+Life: 5
+Discard 1: Blight Drive
+Discard 2: Teleport Burst
+Special action available
 
 Tatsumi
 -------
-life: 14
-discard 1: Siren Whirlpool
-discard 2: Riptide Dash
+Life: 5
+Discard 1: Fearless Dash
+Discard 2: Siren Whirlpool
 Juto's life: 4
 
 
-....KT.
-.....t.
-......j
+..KT...
+t......
+...j...
+
+Unbeatable strategy for Tatsumi: Riptide Burst: -0.50
+
 
 Khadath:
-1% Teleport Burst
-75% Teleport Dash
-23% Blight Dash
+0% Hunter's Dash
+15% Evacuation Dash
+0% Lure Grasp
+84% Lure Dash
 
 Tatsumi:
-11% Fearless Strike
-27% Fearless Shot
-35% Fearless Grasp
-28% Empathic Shot
+21% Riptide Shot
+46% Riptide Burst
+2% Wave Shot
+31% Wave Burst
 
 
-Khadath: Teleport Dash
-Tatsumi: Fearless Strike
+Khadath: Lure Dash
+Tatsumi: Wave Burst
 
-Tatsumi gets -3 priority
-Priorities:  6 | 1
+Priorities:  8 | 1
 Khadath is active
+Tatsumi moves:
+
+..K.T..
+t......
+...j...
+
 Khadath moves:
 
-.K...T.
-.....t.
-......j
+...KT..
+t......
+...j...
 
 Tatsumi misses
-Khadath moves:
+Juto moves
 
-.....TK
-.....t.
-......j
-
-Khadath moves trap:
-
-.....TK
-....t..
-......j
+...KT..
+t......
+j......
 
 
 Beat 13
@@ -916,57 +859,83 @@ Beat 13
 
 Khadath
 -------
-life: 3
-discard 1: Teleport Dash
-discard 2: Evacuation Strike
+Life: 5
+Discard 1: Lure Dash
+Discard 2: Blight Drive
+Special action available
 
 Tatsumi
 -------
-life: 14
-discard 1: Fearless Strike
-discard 2: Siren Whirlpool
+Life: 5
+Discard 1: Wave Burst
+Discard 2: Fearless Dash
 Juto's life: 4
 
 
-.....TK
-....t..
-......j
+...KT..
+t......
+j......
+
 
 Khadath:
-67% Blight Drive
-33% Blight Grasp
+20% Teleport Strike
+65% Teleport Burst
+16% Evacuation Strike
 
 Tatsumi:
-34% Riptide Shot
-66% Riptide Grasp
+60% Riptide Whirlpool
+7% Riptide Strike
+33% Empathic Whirlpool
 
 
-Khadath: Blight Grasp
-Tatsumi: Riptide Grasp
+Khadath: Teleport Burst
+Tatsumi: Empathic Whirlpool
 
-Tatsumi gets -1 priority
-Priorities:  5 | 4
-Khadath is active
-Khadath moves trap:
+Priorities:  -2 | 3
+Tatsumi is active
+Tatsumi moves:
 
-.....TK
-....t..
-......j
+T..K...
+t......
+j......
 
-Khadath hits
-Khadath moves Tatsumi:
-
-....T.K
-....t..
-......j
-
-Tatsumi takes 2 damage (now at 12 life)
-Tatsumi is stunned
 Juto moves
 
-....T.K
-....t..
+T..K...
+t......
 ....j..
+
+Tatsumi moves Khadath:
+
+T...K..
+t......
+....j..
+
+Khadath moves:
+
+T....K.
+t......
+....j..
+
+Tatsumi misses
+Juto moves
+
+T....K.
+t......
+...j...
+
+Khadath misses
+Khadath moves:
+
+T..K...
+t......
+...j...
+
+Khadath moves trap:
+
+T..K...
+.t.....
+...j...
 
 
 Beat 14
@@ -974,154 +943,60 @@ Beat 14
 
 Khadath
 -------
-life: 3
-discard 1: Blight Grasp
-discard 2: Teleport Dash
+Life: 5
+Discard 1: Teleport Burst
+Discard 2: Lure Dash
+Special action available
 
 Tatsumi
 -------
-life: 12
-discard 1: Riptide Grasp
-discard 2: Fearless Strike
+Life: 5
+Discard 1: Empathic Whirlpool
+Discard 2: Wave Burst
 Juto's life: 4
 
 
-....T.K
-....t..
-....j..
+T..K...
+.t.....
+...j...
+
+Unbeatable strategy for Tatsumi: Fearless Grasp: -0.09
+
 
 Khadath:
-0% Evacuation Snare
-50% Lure Strike
-49% Lure Drive
+100% Hunter's Drive
 
 Tatsumi:
-49% Empathic Whirlpool
-37% Empathic Shot
-14% Empathic Drive
+100% Fearless Grasp
 
 
-Khadath: Lure Strike
-Tatsumi: Empathic Drive
+Khadath: Hunter's Drive
+Tatsumi: Fearless Grasp
 
-Tatsumi gets -3 priority
-Priorities:  2 | 0
-Khadath is active
-Khadath hits
-Khadath moves Tatsumi:
-
-.....TK
-....t..
-....j..
-
-Tatsumi takes 3 damage (now at 9 life)
-Tatsumi is stunned
-
-Beat 15
--------
-
-Khadath
--------
-life: 3
-discard 1: Lure Strike
-discard 2: Blight Grasp
-
-Tatsumi
--------
-life: 9
-discard 1: Empathic Drive
-discard 2: Riptide Grasp
-Juto's life: 4
-
-
-.....TK
-....t..
-....j..
-
-Unbeatable strategy for Tatsumi: Siren Whirlpool: -8.00
-Unbeatable strategy for Tatsumi: Siren Strike: -8.00
-Unbeatable strategy for Tatsumi: Siren Shot: -8.00
-Unbeatable strategy for Tatsumi: Siren Burst: -8.00
-Unbeatable strategy for Tatsumi: Siren Dash: -8.00
-Unbeatable strategy for Tatsumi: Fearless Whirlpool: -8.00
-Unbeatable strategy for Tatsumi: Fearless Strike: -8.00
-Unbeatable strategy for Tatsumi: Fearless Shot: -8.00
-Unbeatable strategy for Tatsumi: Fearless Burst: -8.00
-Unbeatable strategy for Tatsumi: Fearless Dash: -8.00
-Unbeatable strategy for Tatsumi: Wave Whirlpool: -8.00
-Unbeatable strategy for Tatsumi: Wave Strike: -8.00
-Unbeatable strategy for Tatsumi: Wave Shot: -8.00
-Unbeatable strategy for Tatsumi: Wave Burst: -8.00
-Unbeatable strategy for Tatsumi: Wave Dash: -8.00
-
-Khadath:
-7% Hunter's Snare
-7% Hunter's Shot
-7% Hunter's Drive
-7% Hunter's Burst
-7% Hunter's Dash
-7% Teleport Snare
-7% Teleport Shot
-7% Teleport Drive
-7% Teleport Burst
-7% Teleport Dash
-7% Evacuation Snare
-7% Evacuation Shot
-7% Evacuation Drive
-7% Evacuation Burst
-7% Evacuation Dash
-
-Tatsumi:
-7% Siren Whirlpool
-7% Siren Strike
-7% Siren Shot
-7% Siren Burst
-7% Siren Dash
-7% Fearless Whirlpool
-7% Fearless Strike
-7% Fearless Shot
-7% Fearless Burst
-7% Fearless Dash
-7% Wave Whirlpool
-7% Wave Strike
-7% Wave Shot
-7% Wave Burst
-7% Wave Dash
-
-
-Khadath: Evacuation Drive
-Tatsumi: Siren Dash
-
+Khadath gets +2 power
+Khadath gets +2 priority
 Tatsumi gets -1 priority
-Priorities:  4 | 9
+Priorities:  6 | 6
+Clash!
+
+
+Khadath: Hunter's Snare
+Tatsumi: Fearless Drive
+
+Khadath gets +2 power
+Khadath gets +2 priority
+Tatsumi gets -1 priority
+Priorities:  3 | 5
 Tatsumi is active
-Khadath moves trap:
-
-.....TK
-......t
-....j..
-
 Tatsumi moves:
 
-..T...K
-......t
-....j..
+.T.K...
+.t.....
+...j...
 
-Khadath moves:
-
-..T.K..
-......t
-....j..
-
+Tatsumi hits
+Khadath takes 3 damage (now at 2 life)
 Khadath hits
-Tatsumi takes 3 damage (now at 6 life)
-Tatsumi is stunned
-Juto moves
-
-..T.K..
-......t
-..j....
-
-Game goes to time
-TATSUMI WINS!
-total_time: 84
+Tatsumi takes 5 damage (now at 0 life)
+KHADATH WINS!
+total_time: 83

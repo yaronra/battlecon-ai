@@ -11,90 +11,66 @@ Beat 1
 
 Danny
 -----
-life: 20
-discard 1: Fallen Burst
-discard 2: Vicious Shot
-special action
+Life: 20
+Discard 1: Fallen Burst
+Discard 2: Vicious Shot
+Special action available
 
 Khadath
 -------
-life: 20
-discard 1: Evacuation Grasp
-discard 2: Hunter's Snare
-special action
+Life: 20
+Discard 1: Evacuation Grasp
+Discard 2: Hunter's Snare
+Special action available
 
 
 .D...K.
 
 
 
+
 Danny:
 26% Shackled Hellgate
-42% Shackled Drive
-32% Sinner's Hellgate
+45% Shackled Drive
+29% Sinner's Hellgate
 
 Khadath:
-32% Teleport Strike
-43% Teleport Shot
-25% Teleport Burst
+47% Teleport Strike
+46% Teleport Shot
+8% Blight Burst
 
 
-Danny: Sinner's Hellgate
-Khadath: Teleport Strike
+Danny: Shackled Drive
+Khadath: Teleport Shot
 
-Priorities:  0 | 0
-Clash!
-
-Danny:
-53% Sinner's Strike
-47% Sinner's Drive
-
-Khadath:
-5% Teleport Shot
-95% Teleport Dash
-
-
-Danny: Sinner's Drive
-Khadath: Teleport Dash
-
-Priorities:  4 | 6
-Khadath is active
-Khadath moves:
-
-.D.K...
-
-
-
+Priorities:  3 | -1
+Danny is active
 Danny moves:
 
-..DK...
+...D.K.
 
 
 
-Danny misses
+Danny hits
+Khadath takes 3 damage (now at 17 life)
+Khadath is stunned
 Danny adds monsters to the board:
 
-..DK...
-.....m.
-
-
-Danny moves his monsters:
-
-..DK...
-......m
+...D.K.
+.m.....
 
 
 Khadath moves:
 
-..D...K
-......m
+...D..K
+.m.....
 
 
 Khadath moves trap:
 
-..D...K
-......m
-..t....
+...D..K
+.m.....
+...t...
 
 
 Beat 2
@@ -102,74 +78,109 @@ Beat 2
 
 Danny
 -----
-life: 20
-discard 1: Sinner's Drive
-discard 2: Fallen Burst
-special action
+Life: 20
+Discard 1: Shackled Drive
+Discard 2: Fallen Burst
+Special action available
 
 Khadath
 -------
-life: 20
-discard 1: Teleport Dash
-discard 2: Evacuation Grasp
-special action
+Life: 17
+Discard 1: Teleport Shot
+Discard 2: Evacuation Grasp
+Special action available
 
 
-..D...K
-......m
-..t....
-
-Unbeatable strategy for Danny: Monstrous Hellgate: 7.38
-Unbeatable strategy for Danny: Monstrous Shot: 3.28
-Unbeatable strategy for Danny: Shackled Hellgate: 7.08
-Unbeatable strategy for Danny: Vicious Hellgate: 7.38
-
-Danny:
-77% Vicious Hellgate
-23% Vicious Strike
-
-Khadath:
-5% Blight Drive
-95% Special Pulse
-
-
-Danny: Vicious Hellgate
-Khadath: Blight Drive
-
-Danny gets -3 priority
-Priorities:  -2 | 4
-Khadath is active
-Khadath moves trap:
-
-..D...K
-......m
+...D..K
+.m.....
 ...t...
 
+Unbeatable strategy for Danny: Monstrous Hellgate: 5.90
+Unbeatable strategy for Danny: Sinner's Hellgate: 3.40
+Unbeatable strategy for Danny: Vicious Hellgate: 2.84
+
+
+Danny:
+81% Monstrous Hellgate
+19% Vicious Dash
+
+Khadath:
+25% Hunter's Drive
+75% Special Pulse
+
+
+Danny: Vicious Dash
+Khadath: Special Pulse
+
+Pulse:
+
+...D..K
+.m.....
+...t...
+
+
+Beat 2
+-------
+
+Danny
+-----
+Life: 20
+Discard 1: Vicious Dash
+Discard 2: Shackled Drive
+Special action available
+
+Khadath
+-------
+Life: 17
+Discard 1: Teleport Shot
+Discard 2: Evacuation Grasp
+
+
+...D..K
+.m.....
+...t...
+
+Unbeatable strategy for Danny: Monstrous Hellgate: 4.47
+Unbeatable strategy for Danny: Fallen Hellgate: 1.98
+Unbeatable strategy for Danny: Sinner's Hellgate: 2.15
+
+
+Danny:
+82% Monstrous Hellgate
+18% Monstrous Burst
+
+Khadath:
+79% Hunter's Drive
+21% Blight Drive
+
+
+Danny: Monstrous Hellgate
+Khadath: Hunter's Drive
+
+Khadath gets +2 power
+Khadath gets +2 priority
+Danny gets -3 priority
+Priorities:  -4 | 6
+Khadath is active
 Khadath moves:
 
-..D.K..
-......m
+...DK..
+.m.....
 ...t...
 
 Khadath hits
 Danny has 3 soak
-Danny takes 0 damage (now at 20 life)
-Khadath removes monsters:
-
-..D.K..
-
-...t...
-
+Danny takes 2 damage (now at 18 life)
 Danny moves:
 
 D...K..
-
+.m.....
 ...t...
 
 Danny adds monsters to the board:
 
 D...K..
-...mmm.
+.m.mmm.
 ...t...
 
 
@@ -178,101 +189,117 @@ Beat 3
 
 Danny
 -----
-life: 20
-discard 1: Vicious Hellgate
-discard 2: Sinner's Drive
-special action
+Life: 18
+Discard 1: Monstrous Hellgate
+Discard 2: Vicious Dash
+Special action available
 
 Khadath
 -------
-life: 20
-discard 1: Blight Drive
-discard 2: Teleport Dash
-special action
+Life: 17
+Discard 1: Hunter's Drive
+Discard 2: Teleport Shot
 
 
 D...K..
-...mmm.
+.m.mmm.
 ...t...
+
 
 Danny:
-8% Fallen Strike
-35% Fallen Grasp
+0% Fallen Burst
+13% Fallen Grasp
 58% Shackled Strike
-0% Shackled Shot
+29% Sinner's Grasp
 
 Khadath:
-3% Lure Strike
-5% Lure Burst
-0% Lure Grasp
-92% Special Pulse
+43% Blight Strike
+51% Blight Grasp
+2% Lure Burst
+4% Lure Grasp
 
 
-Danny: Fallen Grasp
-Khadath: Special Pulse
+Danny: Sinner's Grasp
+Khadath: Blight Grasp
 
-Pulse:
+Priorities:  5 | 5
+Clash!
 
-.K.D...
-...mmm.
+
+Danny: Sinner's Strike
+Khadath: Blight Strike
+
+Priorities:  3 | 3
+Clash!
+
+
+Danny: Sinner's Shot
+Khadath: Blight Snare
+
+Priorities:  2 | 1
+Danny is active
+Danny hits
+Khadath takes 2 damage (now at 15 life)
+Danny adds monsters to the board:
+
+D...K..
+.m.mmmm
 ...t...
 
+Danny moves his monsters:
 
-Beat 3
+D...K..
+..mmmmm
+...t...
+
+Khadath misses
+
+Beat 4
 -------
 
 Danny
 -----
-life: 20
-discard 1: Fallen Grasp
-discard 2: Vicious Hellgate
-special action
+Life: 18
+Discard 1: Sinner's Shot
+Discard 2: Monstrous Hellgate
+Special action available
 
 Khadath
 -------
-life: 20
-discard 1: Blight Drive
-discard 2: Teleport Dash
+Life: 15
+Discard 1: Blight Snare
+Discard 2: Hunter's Drive
 
 
-.K.D...
-...mmm.
+D...K..
+..mmmmm
 ...t...
 
-Unbeatable strategy for Danny: Sinner's Dash: 0.71
+Unbeatable strategy for Khadath: Teleport Strike: -2.55
+Unbeatable strategy for Khadath: Teleport Shot: -6.03
+Unbeatable strategy for Khadath: Teleport Burst: -2.55
+Unbeatable strategy for Khadath: Teleport Grasp: -2.27
+Unbeatable strategy for Khadath: Teleport Dash: -0.50
+
 
 Danny:
-33% Monstrous Shot
-67% Sinner's Dash
+5% Shackled Drive
+3% Shackled Burst
+92% Special Pulse
 
 Khadath:
-6% Evacuation Snare
-94% Lure Strike
+7% Teleport Strike
+85% Teleport Grasp
+8% Evacuation Grasp
 
 
-Danny: Sinner's Dash
-Khadath: Lure Strike
+Danny: Special Pulse
+Khadath: Evacuation Grasp
 
-Danny gets -3 priority
-Priorities:  6 | 2
-Danny is active
-Danny moves his monsters:
+Pulse:
 
-.K.D...
-..mmm..
-...t...
-
-Danny moves:
-
-DK.....
-..mmm..
-...t...
-
-Khadath misses
-Khadath removes monsters:
-
-DK.....
-..mm...
+D.....K
+..mmmmm
 ...t...
 
 
@@ -281,72 +308,79 @@ Beat 4
 
 Danny
 -----
-life: 20
-discard 1: Sinner's Dash
-discard 2: Fallen Grasp
-special action
+Life: 18
+Discard 1: Sinner's Shot
+Discard 2: Monstrous Hellgate
 
 Khadath
 -------
-life: 20
-discard 1: Lure Strike
-discard 2: Blight Drive
+Life: 15
+Discard 1: Evacuation Grasp
+Discard 2: Blight Snare
 
 
-DK.....
-..mm...
+D.....K
+..mmmmm
 ...t...
 
+Unbeatable strategy for Khadath: Teleport Strike: -5.62
+Unbeatable strategy for Khadath: Teleport Shot: -5.28
+Unbeatable strategy for Khadath: Teleport Drive: -5.84
+Unbeatable strategy for Khadath: Teleport Burst: -4.44
+Unbeatable strategy for Khadath: Teleport Dash: -1.80
+
+
 Danny:
-9% Monstrous Hellgate
-3% Monstrous Strike
-20% Monstrous Drive
-35% Shackled Hellgate
-33% Shackled Drive
+96% Fallen Drive
+4% Fallen Burst
 
 Khadath:
-3% Hunter's Grasp
-10% Teleport Shot
-36% Teleport Burst
-24% Teleport Grasp
-27% Teleport Dash
+4% Teleport Shot
+96% Teleport Drive
 
 
-Danny: Shackled Hellgate
-Khadath: Teleport Burst
+Danny: Fallen Drive
+Khadath: Teleport Drive
 
-Priorities:  -1 | -2
+Priorities:  4 | 1
 Danny is active
 Danny moves:
 
-.K...D.
-..mm...
+..D...K
+..mmmmm
+...t...
+
+Danny misses
+Danny adds monsters to the board:
+
+..D...K
+m.mmmmm
+...t...
+
+Khadath moves:
+
+..D..K.
+m.mmmmm
 ...t...
 
 Khadath misses
 Khadath removes monsters:
 
-.K...D.
-..m....
-...t...
-
-Danny adds monsters to the board:
-
-.K...D.
-m.mmm..
+..D..K.
+m.mm.mm
 ...t...
 
 Khadath moves:
 
-.....DK
-m.mmm..
+..D...K
+m.mm.mm
 ...t...
 
 Khadath moves trap:
 
-.....DK
-m.mmm..
-.....t.
+..D...K
+m.mm.mm
+..t....
 
 
 Beat 5
@@ -354,180 +388,123 @@ Beat 5
 
 Danny
 -----
-life: 20
-discard 1: Shackled Hellgate
-discard 2: Sinner's Dash
-special action
+Life: 18
+Discard 1: Fallen Drive
+Discard 2: Sinner's Shot
 
 Khadath
 -------
-life: 20
-discard 1: Teleport Burst
-discard 2: Lure Strike
+Life: 15
+Discard 1: Teleport Drive
+Discard 2: Evacuation Grasp
 
 
-.....DK
-m.mmm..
-.....t.
+..D...K
+m.mm.mm
+..t....
+
+Unbeatable strategy for Danny: Monstrous Hellgate: 5.99
+Unbeatable strategy for Danny: Monstrous Strike: 0.87
+Unbeatable strategy for Danny: Shackled Hellgate: 1.70
+
 
 Danny:
-29% Monstrous Burst
-53% Vicious Strike
-3% Vicious Burst
-14% Vicious Grasp
+93% Monstrous Hellgate
+7% Monstrous Burst
 
 Khadath:
-46% Evacuation Snare
-32% Blight Shot
-19% Blight Drive
-3% Blight Grasp
+73% Hunter's Snare
+27% Blight Burst
 
 
-Danny: Vicious Grasp
-Khadath: Blight Shot
+Danny: Monstrous Hellgate
+Khadath: Hunter's Snare
 
+Khadath gets +2 power
+Khadath gets +2 priority
 Danny gets -3 priority
-Priorities:  7 | 2
-Danny is active
-Khadath moves trap:
-
-.....DK
-m.mmm..
-....t..
-
-Danny hits
-Danny moves Khadath:
-
-....KD.
-m.mmm..
-....t..
-
-Danny gets +3 power
-Khadath takes 4 damage (now at 16 life)
-Khadath is stunned
-Danny adds monsters to the board:
-
-....KD.
-m.mmm.m
-....t..
-
-
-Beat 6
--------
-
-Danny
------
-life: 20
-discard 1: Vicious Grasp
-discard 2: Shackled Hellgate
-special action
-
-Khadath
--------
-life: 16
-discard 1: Blight Shot
-discard 2: Teleport Burst
-
-
-....KD.
-m.mmm.m
-....t..
-
-Danny:
-31% Monstrous Strike
-22% Fallen Burst
-47% Special Pulse
-
-Khadath:
-66% Evacuation Drive
-27% Evacuation Grasp
-7% Lure Strike
-
-
-Danny: Special Pulse
-Khadath: Evacuation Drive
-
-Pulse:
-
-D.....K
-m.mmm.m
-....t..
-
-
-Beat 6
--------
-
-Danny
------
-life: 20
-discard 1: Vicious Grasp
-discard 2: Shackled Hellgate
-
-Khadath
--------
-life: 16
-discard 1: Evacuation Drive
-discard 2: Blight Shot
-
-
-D.....K
-m.mmm.m
-....t..
-
-Unbeatable strategy for Khadath: Teleport Snare: -1.81
-Unbeatable strategy for Khadath: Teleport Strike: -5.14
-Unbeatable strategy for Khadath: Teleport Burst: -6.06
-Unbeatable strategy for Khadath: Teleport Grasp: -4.83
-Unbeatable strategy for Khadath: Teleport Dash: -4.31
-Unbeatable strategy for Khadath: Lure Grasp: -2.82
-
-Danny:
-28% Monstrous Shot
-8% Fallen Drive
-64% Sinner's Drive
-
-Khadath:
-4% Teleport Strike
-84% Teleport Burst
-10% Teleport Grasp
-2% Lure Strike
-
-
-Danny: Fallen Drive
-Khadath: Teleport Burst
-
-Priorities:  4 | -2
-Danny is active
+Priorities:  -4 | 3
+Khadath is active
+Khadath hits
+Danny has 3 soak
+Danny takes 2 damage (now at 16 life)
 Danny moves:
 
-..D...K
-m.mmm.m
-....t..
+D.....K
+m.mm.mm
+..t....
 
-Danny misses
 Danny adds monsters to the board:
 
-..D...K
-mmmmm.m
-....t..
+D.....K
+mmmmmmm
+..t....
 
-Khadath misses
+
+Beat 6
+-------
+
+Danny
+-----
+Life: 16
+Discard 1: Monstrous Hellgate
+Discard 2: Fallen Drive
+
+Khadath
+-------
+Life: 15
+Discard 1: Hunter's Snare
+Discard 2: Teleport Drive
+
+
+D.....K
+mmmmmmm
+..t....
+
+Unbeatable strategy for Khadath: Lure Strike: -5.25
+
+
+Danny:
+100% Shackled Strike
+0% Sinner's Shot
+
+Khadath:
+66% Lure Strike
+34% Lure Grasp
+
+
+Danny: Shackled Strike
+Khadath: Lure Grasp
+
+Priorities:  2 | 4
+Khadath is active
+Khadath hits
+Khadath moves Danny:
+
+.D....K
+mmmmmmm
+..t....
+
+Khadath moves Danny:
+
+..D...K
+mmmmmmm
+..t....
+
+Danny takes 1 damage (now at 15 life)
 Khadath removes monsters:
 
 ..D...K
-mmm.m.m
-....t..
+.mmmmmm
+..t....
 
-Khadath moves:
+Danny hits
+Khadath takes 4 damage (now at 11 life)
+Khadath is stunned
+Danny adds monsters to the board:
 
-..D..K.
-mmm.m.m
-....t..
-
-Khadath moves trap:
-
-..D..K.
-mmm.m.m
+..D...K
+mmmmmmm
 ..t....
 
 
@@ -536,66 +513,74 @@ Beat 7
 
 Danny
 -----
-life: 20
-discard 1: Fallen Drive
-discard 2: Vicious Grasp
+Life: 15
+Discard 1: Shackled Strike
+Discard 2: Monstrous Hellgate
 
 Khadath
 -------
-life: 16
-discard 1: Teleport Burst
-discard 2: Evacuation Drive
+Life: 11
+Discard 1: Lure Grasp
+Discard 2: Hunter's Snare
 
 
-..D..K.
-mmm.m.m
+..D...K
+mmmmmmm
 ..t....
 
-Unbeatable strategy for Danny: Monstrous Hellgate: 6.87
-Unbeatable strategy for Danny: Monstrous Shot: 1.66
-Unbeatable strategy for Danny: Shackled Hellgate: 2.89
-Unbeatable strategy for Danny: Sinner's Hellgate: 3.10
-Unbeatable strategy for Danny: Sinner's Dash: 1.80
+Unbeatable strategy for Khadath: Teleport Shot: -0.34
+
 
 Danny:
-100% Monstrous Hellgate
+33% Fallen Burst
+55% Fallen Grasp
+11% Sinner's Burst
+1% Vicious Burst
 
 Khadath:
-100% Blight Shot
+52% Teleport Strike
+13% Teleport Shot
+23% Blight Drive
+12% Blight Burst
 
 
-Danny: Monstrous Hellgate
-Khadath: Blight Shot
+Danny: Fallen Burst
+Khadath: Teleport Strike
 
 Danny gets -3 priority
-Priorities:  -4 | 2
+Priorities:  -2 | 0
 Khadath is active
-Khadath moves trap:
-
-..D..K.
-mmm.m.m
-t......
-
-Khadath hits
-Danny has 3 soak
-Danny takes 0 damage (now at 20 life)
-Khadath removes monsters:
-
-..D..K.
-.mm.m.m
-t......
-
 Danny moves:
 
-....DK.
-.mm.m.m
-t......
+.D....K
+mmmmmmm
+..t....
 
+Khadath misses
+Khadath removes monsters:
+
+.D....K
+mmmmm.m
+..t....
+
+Danny misses
 Danny adds monsters to the board:
 
-....DK.
+.D....K
 mmmmmmm
-t......
+..t....
+
+Khadath moves:
+
+.D.K...
+mmmmmmm
+..t....
+
+Khadath moves trap:
+
+.D.K...
+mmmmmmm
+.t.....
 
 
 Beat 8
@@ -603,172 +588,124 @@ Beat 8
 
 Danny
 -----
-life: 20
-discard 1: Monstrous Hellgate
-discard 2: Fallen Drive
+Life: 15
+Discard 1: Fallen Burst
+Discard 2: Shackled Strike
 
 Khadath
 -------
-life: 16
-discard 1: Blight Shot
-discard 2: Teleport Burst
+Life: 11
+Discard 1: Teleport Strike
+Discard 2: Lure Grasp
 
 
-....DK.
+.D.K...
 mmmmmmm
-t......
+.t.....
 
-Unbeatable strategy for Khadath: Lure Strike: -1.94
+Unbeatable strategy for Danny: Monstrous Hellgate: 1.86
+
 
 Danny:
-33% Shackled Strike
-9% Shackled Burst
-2% Sinner's Strike
-3% Sinner's Burst
-53% Sinner's Dash
+54% Monstrous Hellgate
+2% Vicious Drive
+45% Vicious Dash
 
 Khadath:
-15% Hunter's Strike
-30% Evacuation Strike
-2% Evacuation Drive
-46% Lure Strike
-7% Lure Drive
+67% Hunter's Snare
+32% Hunter's Drive
+1% Blight Drive
 
 
-Danny: Sinner's Dash
-Khadath: Evacuation Strike
+Danny: Vicious Dash
+Khadath: Hunter's Snare
 
-Priorities:  9 | 3
+Khadath gets +2 power
+Khadath gets +2 priority
+Danny gets -3 priority
+Priorities:  10 | 3
 Danny is active
-Khadath moves trap:
-
-....DK.
-mmmmmmm
-.....t.
-
-Khadath moves:
-
-....D.K
-mmmmmmm
-.....t.
-
-Danny moves his monsters:
-
-....D.K
-mmmmmmm
-.....t.
-
 Danny moves:
 
-.D....K
+...KD..
 mmmmmmm
-.....t.
+.t.....
 
 Khadath misses
-Khadath removes monsters:
-
-.D....K
-mmmm.mm
-.....t.
-
 
 Beat 9
 -------
 
 Danny
 -----
-life: 20
-discard 1: Sinner's Dash
-discard 2: Monstrous Hellgate
+Life: 15
+Discard 1: Vicious Dash
+Discard 2: Fallen Burst
 
 Khadath
 -------
-life: 16
-discard 1: Evacuation Strike
-discard 2: Blight Shot
+Life: 11
+Discard 1: Hunter's Snare
+Discard 2: Teleport Strike
 
 
-.D....K
-mmmm.mm
-.....t.
+...KD..
+mmmmmmm
+.t.....
 
-Unbeatable strategy for Khadath: Teleport Drive: -4.39
-Unbeatable strategy for Khadath: Teleport Burst: -3.62
-Unbeatable strategy for Khadath: Teleport Grasp: -4.29
 
 Danny:
-86% Fallen Shot
-14% Shackled Shot
+6% Monstrous Drive
+94% Sinner's Hellgate
 
 Khadath:
-79% Teleport Drive
-21% Teleport Grasp
+11% Evacuation Shot
+89% Blight Grasp
 
 
-Danny: Shackled Shot
-Khadath: Teleport Drive
+Danny: Sinner's Hellgate
+Khadath: Blight Grasp
 
-Priorities:  1 | 1
-Clash!
+Priorities:  0 | 5
+Khadath is active
+Khadath moves trap:
 
-Danny:
-21% Shackled Strike
-79% Shackled Drive
-
-Khadath:
-21% Teleport Burst
-79% Teleport Grasp
-
-
-Danny: Shackled Strike
-Khadath: Teleport Grasp
-
-Priorities:  2 | 2
-Clash!
-
-Danny:
-100% Shackled Drive
-
-Khadath:
-100% Teleport Burst
-
-
-Danny: Shackled Drive
-Khadath: Teleport Burst
-
-Priorities:  3 | -2
-Danny is active
-Danny moves:
-
-..D...K
-mmmm.mm
-.....t.
-
-Danny misses
-Danny adds monsters to the board:
-
-..D...K
+...KD..
 mmmmmmm
 .....t.
 
-Khadath misses
+Khadath hits
+Khadath moves Danny:
+
+..DK...
+mmmmmmm
+.....t.
+
+Danny has 3 soak
+Danny takes 0 damage (now at 15 life)
 Khadath removes monsters:
 
-..D...K
-mmm.mmm
+..DK...
+.mmmmmm
 .....t.
 
-Khadath moves:
+Danny moves his monsters:
 
 ..DK...
 mmm.mmm
 .....t.
 
-Khadath moves trap:
+Danny moves:
 
-..DK...
+...KD..
 mmm.mmm
-..t....
+.....t.
+
+Danny adds monsters to the board:
+
+...KD..
+mmmmmmm
+.....t.
 
 
 Beat 10
@@ -776,60 +713,71 @@ Beat 10
 
 Danny
 -----
-life: 20
-discard 1: Shackled Drive
-discard 2: Sinner's Dash
+Life: 15
+Discard 1: Sinner's Hellgate
+Discard 2: Vicious Dash
 
 Khadath
 -------
-life: 16
-discard 1: Teleport Burst
-discard 2: Evacuation Strike
+Life: 11
+Discard 1: Blight Grasp
+Discard 2: Hunter's Snare
 
-
-..DK...
-mmm.mmm
-..t....
-
-Unbeatable strategy for Danny: Monstrous Hellgate: 3.78
-Unbeatable strategy for Danny: Monstrous Shot: 0.65
-Unbeatable strategy for Danny: Fallen Hellgate: 3.85
-
-Danny:
-33% Monstrous Hellgate
-67% Fallen Hellgate
-
-Khadath:
-50% Hunter's Snare
-50% Hunter's Shot
-
-
-Danny: Fallen Hellgate
-Khadath: Hunter's Shot
-
-Danny gets -3 priority
-Priorities:  -3 | 2
-Khadath is active
-Khadath hits
-Danny has 3 soak
-Danny takes 0 damage (now at 20 life)
-Khadath removes monsters:
-
-..DK...
-.mm.mmm
-..t....
-
-Danny moves:
-
-...KD..
-.mm.mmm
-..t....
-
-Danny adds monsters to the board:
 
 ...KD..
 mmmmmmm
-..t....
+.....t.
+
+
+Danny:
+51% Fallen Grasp
+14% Shackled Strike
+12% Shackled Shot
+16% Shackled Drive
+6% Shackled Burst
+1% Shackled Grasp
+
+Khadath:
+23% Teleport Strike
+8% Teleport Drive
+44% Teleport Dash
+3% Evacuation Drive
+7% Lure Strike
+15% Lure Drive
+
+
+Danny: Shackled Drive
+Khadath: Teleport Strike
+
+Danny gets -1 priority
+Priorities:  2 | 0
+Danny is active
+Danny moves:
+
+.D.K...
+mmmmmmm
+.....t.
+
+Danny hits
+Khadath takes 3 damage (now at 8 life)
+Khadath misses
+Khadath removes monsters:
+
+.D.K...
+mm.mmmm
+.....t.
+
+Khadath moves:
+
+.DK....
+mm.mmmm
+.....t.
+
+Khadath moves trap:
+
+.DK....
+mm.mmmm
+.t.....
 
 
 Beat 11
@@ -837,57 +785,55 @@ Beat 11
 
 Danny
 -----
-life: 20
-discard 1: Fallen Hellgate
-discard 2: Shackled Drive
+Life: 15
+Discard 1: Shackled Drive
+Discard 2: Sinner's Hellgate
 
 Khadath
 -------
-life: 16
-discard 1: Hunter's Shot
-discard 2: Teleport Burst
+Life: 8
+Discard 1: Teleport Strike
+Discard 2: Blight Grasp
 
 
-...KD..
-mmmmmmm
-..t....
+.DK....
+mm.mmmm
+.t.....
+
 
 Danny:
-5% Monstrous Burst
-56% Monstrous Grasp
-39% Vicious Strike
+45% Monstrous Strike
+22% Fallen Dash
+3% Vicious Strike
+30% Vicious Dash
 
 Khadath:
-50% Evacuation Strike
-9% Evacuation Grasp
-41% Blight Strike
+17% Hunter's Drive
+38% Evacuation Snare
+42% Evacuation Shot
+4% Evacuation Drive
 
 
-Danny: Monstrous Burst
-Khadath: Blight Strike
+Danny: Monstrous Strike
+Khadath: Evacuation Snare
 
-Priorities:  0 | 3
+Danny gets -3 priority
+Priorities:  -1 | 1
 Khadath is active
-Khadath moves trap:
+Khadath moves:
 
-...KD..
-mmmmmmm
-.....t.
-
-Danny moves:
-
-...K.D.
-mmmmmmm
-.....t.
+.D.K...
+mm.mmmm
+.t.....
 
 Khadath hits
-Danny takes 4 damage (now at 16 life)
-Danny is stunned
-Khadath removes monsters:
+Danny takes 3 damage (now at 12 life)
+Danny misses
+Danny adds monsters to the board:
 
-...K.D.
-.mmmmmm
-.....t.
+.D.K...
+mmmmmmm
+.t.....
 
 
 Beat 12
@@ -895,66 +841,63 @@ Beat 12
 
 Danny
 -----
-life: 16
-discard 1: Monstrous Burst
-discard 2: Fallen Hellgate
+Life: 12
+Discard 1: Monstrous Strike
+Discard 2: Shackled Drive
 
 Khadath
 -------
-life: 16
-discard 1: Blight Strike
-discard 2: Hunter's Shot
+Life: 8
+Discard 1: Evacuation Snare
+Discard 2: Teleport Strike
 
 
-...K.D.
-.mmmmmm
-.....t.
+.D.K...
+mmmmmmm
+.t.....
+
 
 Danny:
-35% Shackled Strike
-0% Shackled Grasp
-8% Shackled Dash
-15% Sinner's Drive
-24% Sinner's Dash
-17% Vicious Drive
+5% Sinner's Hellgate
+46% Vicious Grasp
+49% Vicious Dash
 
 Khadath:
-14% Teleport Drive
-16% Teleport Burst
-31% Evacuation Snare
-11% Evacuation Drive
-22% Evacuation Burst
-5% Lure Drive
+68% Hunter's Drive
+7% Blight Grasp
+25% Lure Dash
 
 
-Danny: Shackled Strike
-Khadath: Evacuation Drive
+Danny: Vicious Grasp
+Khadath: Hunter's Drive
 
+Khadath gets +2 power
+Khadath gets +2 priority
 Danny gets -3 priority
-Priorities:  -1 | 4
-Khadath is active
-Khadath moves trap:
+Priorities:  6 | 6
+Clash!
 
-...K.D.
-.mmmmmm
-...t...
 
-Khadath hits
-Danny takes 3 damage (now at 13 life)
+Danny: Vicious Dash
+Khadath: Hunter's Shot
+
+Khadath gets +2 power
+Khadath gets +2 priority
+Danny gets -3 priority
+Priorities:  10 | 4
+Danny is active
+Danny moves:
+
+...KD..
+mmmmmmm
+.t.....
+
+Khadath misses
 Khadath removes monsters:
 
-...K.D.
-.mmm.mm
-...t...
-
-Danny hits
-Khadath takes 4 damage (now at 12 life)
-Khadath is stunned
-Danny adds monsters to the board:
-
-...K.D.
+...KD..
 .mmmmmm
-...t...
+.t.....
 
 
 Beat 13
@@ -962,71 +905,69 @@ Beat 13
 
 Danny
 -----
-life: 13
-discard 1: Shackled Strike
-discard 2: Monstrous Burst
+Life: 12
+Discard 1: Vicious Dash
+Discard 2: Monstrous Strike
 
 Khadath
 -------
-life: 12
-discard 1: Evacuation Drive
-discard 2: Blight Strike
+Life: 8
+Discard 1: Hunter's Shot
+Discard 2: Evacuation Snare
 
+
+...KD..
+.mmmmmm
+.t.....
+
+
+Danny:
+17% Fallen Shot
+42% Fallen Grasp
+32% Shackled Hellgate
+9% Shackled Drive
+
+Khadath:
+27% Teleport Strike
+36% Teleport Dash
+7% Blight Strike
+30% Blight Grasp
+
+
+Danny: Fallen Shot
+Khadath: Blight Grasp
+
+Priorities:  2 | 5
+Khadath is active
+Khadath moves trap:
+
+...KD..
+.mmmmmm
+.....t.
+
+Khadath hits
+Khadath moves Danny:
 
 ...K.D.
 .mmmmmm
-...t...
+.....t.
 
-Unbeatable strategy for Khadath: Teleport Shot: -0.61
-Unbeatable strategy for Khadath: Teleport Burst: -0.69
-Unbeatable strategy for Khadath: Teleport Grasp: -0.64
-Unbeatable strategy for Khadath: Teleport Dash: -1.35
+Danny takes 2 damage (now at 10 life)
+Khadath removes monsters:
 
-Danny:
-29% Fallen Drive
-37% Sinner's Hellgate
-1% Sinner's Drive
-33% Vicious Drive
-
-Khadath:
-3% Teleport Snare
-4% Teleport Shot
-53% Teleport Burst
-41% Teleport Dash
-
-
-Danny: Fallen Drive
-Khadath: Teleport Shot
-
-Priorities:  4 | -1
-Danny is active
-Danny moves:
-
-..DK...
-.mmmmmm
-...t...
+...K.D.
+..mmmmm
+.....t.
 
 Danny hits
 Danny gets +2 power
-Khadath takes 4 damage (now at 8 life)
+Khadath takes 4 damage (now at 4 life)
 Khadath is stunned
 Danny adds monsters to the board:
 
-..DK...
-mmmmmmm
-...t...
-
-Khadath moves:
-
-..D..K.
-mmmmmmm
-...t...
-
-Khadath moves trap:
-
-..D..K.
-mmmmmmm
-..t....
+...K.D.
+.mmmmmm
+.....t.
 
 
 Beat 14
@@ -1034,59 +975,65 @@ Beat 14
 
 Danny
 -----
-life: 13
-discard 1: Fallen Drive
-discard 2: Shackled Strike
+Life: 10
+Discard 1: Fallen Shot
+Discard 2: Vicious Dash
 
 Khadath
 -------
-life: 8
-discard 1: Teleport Shot
-discard 2: Evacuation Drive
+Life: 4
+Discard 1: Blight Grasp
+Discard 2: Hunter's Shot
 
 
-..D..K.
-mmmmmmm
-..t....
+...K.D.
+.mmmmmm
+.....t.
 
-Unbeatable strategy for Danny: Monstrous Hellgate: 4.06
-Unbeatable strategy for Danny: Sinner's Dash: 1.80
-Unbeatable strategy for Danny: Vicious Dash: 1.06
+Unbeatable strategy for Danny: Monstrous Hellgate: 0.27
+Unbeatable strategy for Danny: Shackled Hellgate: 1.59
+Unbeatable strategy for Danny: Sinner's Hellgate: 0.09
+
 
 Danny:
-77% Monstrous Hellgate
-14% Monstrous Burst
-1% Monstrous Grasp
-8% Vicious Burst
+37% Monstrous Hellgate
+10% Monstrous Strike
+23% Shackled Strike
+27% Shackled Grasp
+3% Sinner's Drive
 
 Khadath:
-59% Hunter's Snare
-15% Blight Burst
-17% Blight Dash
-10% Lure Strike
+24% Teleport Snare
+16% Teleport Burst
+2% Teleport Dash
+47% Evacuation Snare
+11% Lure Strike
 
 
 Danny: Monstrous Hellgate
-Khadath: Blight Dash
+Khadath: Evacuation Snare
 
 Danny gets -3 priority
-Priorities:  -4 | 9
+Priorities:  -4 | 1
 Khadath is active
-Khadath moves trap:
-
-..D..K.
-mmmmmmm
-.....t.
-
 Khadath moves:
 
-.KD....
-mmmmmmm
+..K..D.
+.mmmmmm
 .....t.
 
+Khadath hits
+Danny has 3 soak
+Danny takes 0 damage (now at 10 life)
 Danny moves:
 
-DK.....
+..KD...
+.mmmmmm
+.....t.
+
+Danny adds monsters to the board:
+
+..KD...
 mmmmmmm
 .....t.
 
@@ -1096,81 +1043,79 @@ Beat 15
 
 Danny
 -----
-life: 13
-discard 1: Monstrous Hellgate
-discard 2: Fallen Drive
+Life: 10
+Discard 1: Monstrous Hellgate
+Discard 2: Fallen Shot
 
 Khadath
 -------
-life: 8
-discard 1: Blight Dash
-discard 2: Teleport Shot
+Life: 4
+Discard 1: Evacuation Snare
+Discard 2: Blight Grasp
 
 
-DK.....
+..KD...
 mmmmmmm
 .....t.
 
-Unbeatable strategy for Danny: Shackled Dash: 13.00
-Unbeatable strategy for Danny: Sinner's Dash: 13.00
-Unbeatable strategy for Danny: Vicious Grasp: 13.00
-Unbeatable strategy for Danny: Vicious Dash: 13.00
+Unbeatable strategy for Danny: Sinner's Grasp: 9.00
+Unbeatable strategy for Danny: Vicious Grasp: 9.00
+Unbeatable strategy for Danny: Vicious Dash: 9.00
+
 
 Danny:
 7% Shackled Strike
-7% Shackled Shot
+7% Shackled Drive
 7% Shackled Burst
 7% Shackled Grasp
 7% Shackled Dash
 7% Sinner's Strike
-7% Sinner's Shot
+7% Sinner's Drive
 7% Sinner's Burst
 7% Sinner's Grasp
 7% Sinner's Dash
 7% Vicious Strike
-7% Vicious Shot
+7% Vicious Drive
 7% Vicious Burst
 7% Vicious Grasp
 7% Vicious Dash
 
 Khadath:
-7% Hunter's Snare
 7% Hunter's Strike
+7% Hunter's Shot
 7% Hunter's Drive
 7% Hunter's Burst
-7% Hunter's Grasp
-7% Evacuation Snare
-7% Evacuation Strike
-7% Evacuation Drive
-7% Evacuation Burst
-7% Evacuation Grasp
-7% Lure Snare
+7% Hunter's Dash
+7% Teleport Strike
+7% Teleport Shot
+7% Teleport Drive
+7% Teleport Burst
+7% Teleport Dash
 7% Lure Strike
+7% Lure Shot
 7% Lure Drive
 7% Lure Burst
-7% Lure Grasp
+7% Lure Dash
 
 
-Danny: Sinner's Shot
-Khadath: Hunter's Burst
+Danny: Shackled Dash
+Khadath: Hunter's Strike
 
-Priorities:  2 | 1
+Priorities:  8 | 3
 Danny is active
-Khadath moves:
+Danny moves:
 
 D.K....
 mmmmmmm
 .....t.
 
-Danny hits
-Khadath takes 2 damage (now at 6 life)
-Khadath is stunned
-Danny moves his monsters:
+Khadath misses
+Khadath removes monsters:
 
 D.K....
-mmmmmmm
+m.mmmmm
 .....t.
 
 Game goes to time
 DANNY WINS!
-total_time: 73
+total_time: 89

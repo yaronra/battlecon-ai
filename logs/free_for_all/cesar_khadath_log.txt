@@ -11,152 +11,143 @@ Beat 1
 
 Cesar
 -----
-life: 20
-discard 1: Fueled Strike
-discard 2: Unstoppable Grasp
-special action
+Life: 20
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Grasp
+Special action available
 Threat level: 0
 
 Khadath
 -------
-life: 20
-discard 1: Evacuation Grasp
-discard 2: Hunter's Snare
-special action
+Life: 20
+Discard 1: Evacuation Grasp
+Discard 2: Hunter's Snare
+Special action available
 
 
 .C...K.
 
 
+
 Cesar:
-53% Phalanx Suppression
-38% Phalanx Shot
-0% Phalanx Drive
-9% Bulwark Shot
+6% Phalanx Shot
+18% Bulwark Suppression
+5% Bulwark Shot
+71% Special Pulse
 
 Khadath:
-15% Teleport Strike
-46% Teleport Shot
-10% Teleport Burst
+9% Teleport Strike
+48% Teleport Shot
+14% Teleport Burst
 29% Blight Burst
 
 
-Cesar: Phalanx Suppression
+Cesar: Special Pulse
 Khadath: Teleport Shot
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | -1
-Cesar is active
-Cesar misses
-Khadath misses
-Cesar moves:
+Pulse:
 
-...C.K.
+KC.....
 
+
+
+Beat 1
+-------
+
+Cesar
+-----
+Life: 20
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Grasp
+Threat level: 1
+
+Khadath
+-------
+Life: 20
+Discard 1: Teleport Shot
+Discard 2: Evacuation Grasp
+Special action available
+
+
+KC.....
+
+
+Unbeatable strategy for Khadath: Blight Drive: -1.10
+
+
+Cesar:
+48% Bulwark Drive
+32% Inevitable Suppression
+20% Inevitable Drive
+
+Khadath:
+30% Blight Strike
+45% Blight Drive
+25% Blight Dash
+
+
+Cesar: Inevitable Drive
+Khadath: Blight Dash
+
+Cesar gains a Threat Level (current level: 2)
+Priorities:  4 | 9
+Khadath is active
+Khadath moves trap:
+
+KC.....
+..t....
 
 Khadath moves:
 
-K..C...
+.C..K..
+..t....
 
+Cesar moves:
 
-Khadath moves trap:
+..C.K..
+..t....
 
-K..C...
-...t...
-
+Cesar misses
 
 Beat 2
 -------
 
 Cesar
 -----
-life: 20
-discard 1: Phalanx Suppression
-discard 2: Fueled Strike
-special action
-Threat level: 1
-
-Khadath
--------
-life: 20
-discard 1: Teleport Shot
-discard 2: Evacuation Grasp
-special action
-
-
-K..C...
-...t...
-
-Unbeatable strategy for Cesar: Unstoppable Shot: 0.76
-Unbeatable strategy for Cesar: Bulwark Shot: 2.42
-
-Cesar:
-100% Bulwark Shot
-
-Khadath:
-100% Blight Strike
-
-
-Cesar: Bulwark Shot
-Khadath: Blight Strike
-
-Cesar gains a Threat Level (current level: 2)
-Cesar gets -3 priority
-Priorities:  -3 | 3
-Khadath is active
-Khadath moves trap:
-
-K..C...
-..t....
-
-Khadath hits
-Cesar takes 4 damage (now at 16 life)
-Cesar hits
-Khadath takes 5 damage (now at 15 life)
-Cesar moves:
-
-K...C..
-..t....
-
-
-Beat 3
--------
-
-Cesar
------
-life: 16
-discard 1: Bulwark Shot
-discard 2: Phalanx Suppression
-special action
+Life: 20
+Discard 1: Inevitable Drive
+Discard 2: Fueled Strike
 Threat level: 2
 
 Khadath
 -------
-life: 15
-discard 1: Blight Strike
-discard 2: Teleport Shot
-special action
+Life: 20
+Discard 1: Blight Dash
+Discard 2: Teleport Shot
+Special action available
 
 
-K...C..
+..C.K..
 ..t....
 
-Unbeatable strategy for Khadath: Hunter's Snare: -0.06
-Unbeatable strategy for Khadath: Lure Burst: -0.40
-Unbeatable strategy for Khadath: Lure Grasp: -0.54
+Unbeatable strategy for Cesar: Phalanx Shot: 0.67
+
 
 Cesar:
-16% Unstoppable Strike
-3% Unstoppable Grasp
-31% Fueled Strike
-50% Fueled Grasp
+36% Phalanx Shot
+10% Phalanx Burst
+6% Unstoppable Shot
+48% Bulwark Shot
 
 Khadath:
-8% Lure Burst
-92% Special Pulse
+41% Hunter's Snare
+8% Evacuation Snare
+13% Evacuation Burst
+38% Special Pulse
 
 
-Cesar: Fueled Strike
+Cesar: Phalanx Burst
 Khadath: Special Pulse
 
 Cesar gains a Threat Level (current level: 3)
@@ -166,56 +157,54 @@ Pulse:
 ..t....
 
 
-Beat 3
+Beat 2
 -------
 
 Cesar
 -----
-life: 16
-discard 1: Fueled Strike
-discard 2: Bulwark Shot
-special action
+Life: 20
+Discard 1: Phalanx Burst
+Discard 2: Inevitable Drive
 Threat level: 3
 
 Khadath
 -------
-life: 15
-discard 1: Blight Strike
-discard 2: Teleport Shot
+Life: 20
+Discard 1: Blight Dash
+Discard 2: Teleport Shot
 
 
 ..C...K
 ..t....
 
-Unbeatable strategy for Cesar: Phalanx Suppression: 8.62
-Unbeatable strategy for Cesar: Phalanx Drive: 3.19
-Unbeatable strategy for Cesar: Phalanx Burst: 4.66
-Unbeatable strategy for Cesar: Unstoppable Suppression: 7.87
-Unbeatable strategy for Cesar: Unstoppable Drive: 3.19
-Unbeatable strategy for Cesar: Unstoppable Burst: 4.66
-Unbeatable strategy for Cesar: Inevitable Suppression: 8.62
-Unbeatable strategy for Cesar: Inevitable Burst: 4.66
-Unbeatable strategy for Cesar: Inevitable Grasp: 3.47
-Unbeatable strategy for Cesar: Inevitable Dash: 2.69
+Unbeatable strategy for Cesar: Unstoppable Suppression: 5.84
+Unbeatable strategy for Cesar: Unstoppable Strike: 2.46
+Unbeatable strategy for Cesar: Unstoppable Shot: 1.35
+Unbeatable strategy for Cesar: Fueled Suppression: 6.84
+Unbeatable strategy for Cesar: Fueled Strike: 0.71
+Unbeatable strategy for Cesar: Bulwark Suppression: 8.59
+Unbeatable strategy for Cesar: Bulwark Strike: 2.46
+Unbeatable strategy for Cesar: Bulwark Shot: 1.35
+
 
 Cesar:
-42% Phalanx Suppression
-6% Unstoppable Suppression
-11% Unstoppable Drive
-42% Inevitable Suppression
+5% Unstoppable Strike
+3% Unstoppable Shot
+92% Bulwark Suppression
 
 Khadath:
-9% Evacuation Snare
-91% Evacuation Drive
+5% Hunter's Drive
+83% Evacuation Drive
+12% Evacuation Burst
 
 
-Cesar: Inevitable Suppression
+Cesar: Bulwark Suppression
 Khadath: Evacuation Drive
 
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
 Cesar gets -3 priority
-Priorities:  -1 | 4
+Priorities:  -3 | 4
 Khadath is active
 Khadath moves trap:
 
@@ -229,11 +218,79 @@ Khadath moves:
 
 Khadath hits
 Cesar has 2 soak
-Cesar takes 1 damage (now at 15 life)
+Cesar takes 1 damage (now at 19 life)
 Cesar moves:
 
 ...CK..
 ......t
+
+
+Beat 3
+-------
+
+Cesar
+-----
+Life: 19
+Discard 1: Bulwark Suppression
+Discard 2: Phalanx Burst
+Threat level: 4
+
+Khadath
+-------
+Life: 20
+Discard 1: Evacuation Drive
+Discard 2: Blight Dash
+
+
+...CK..
+......t
+
+Unbeatable strategy for Khadath: Teleport Burst: -0.08
+
+
+Cesar:
+9% Fueled Drive
+2% Inevitable Strike
+23% Inevitable Shot
+65% Inevitable Drive
+
+Khadath:
+6% Teleport Snare
+11% Teleport Strike
+25% Teleport Burst
+57% Teleport Grasp
+
+
+Cesar: Inevitable Drive
+Khadath: Teleport Burst
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  4 | -2
+Cesar is active
+Khadath moves:
+
+...C..K
+......t
+
+Cesar moves:
+
+.....CK
+......t
+
+Cesar hits
+Khadath is stunned
+Khadath will have -3 priority next beat
+Khadath takes 3 damage (now at 17 life)
+Khadath is stunned
+Khadath moves:
+
+K....C.
+......t
+
+Khadath moves trap:
+
+K....C.
+.....t.
 
 
 Beat 4
@@ -241,222 +298,156 @@ Beat 4
 
 Cesar
 -----
-life: 15
-discard 1: Inevitable Suppression
-discard 2: Fueled Strike
-special action
-Threat level: 4
+Life: 19
+Discard 1: Inevitable Drive
+Discard 2: Bulwark Suppression
+Opponent has power penalty: -3
+Threat level: 0
 
 Khadath
 -------
-life: 15
-discard 1: Evacuation Drive
-discard 2: Blight Strike
+Life: 17
+Discard 1: Teleport Burst
+Discard 2: Evacuation Drive
 
 
-...CK..
-......t
-
-Unbeatable strategy for Khadath: Teleport Burst: -0.68
-Unbeatable strategy for Khadath: Teleport Grasp: -0.60
-Unbeatable strategy for Khadath: Teleport Dash: -2.87
-
-Cesar:
-23% Unstoppable Burst
-77% Bulwark Shot
-
-Khadath:
-14% Teleport Grasp
-86% Teleport Dash
-
-
-Cesar: Bulwark Shot
-Khadath: Teleport Dash
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  0 | 6
-Khadath is active
-Khadath moves:
-
-.K.C...
-......t
-
-Cesar misses
-Cesar moves:
-
-.K....C
-......t
-
-Khadath moves:
-
-K.....C
-......t
-
-Khadath moves trap:
-
-K.....C
+K....C.
 .....t.
 
+
+Cesar:
+34% Unstoppable Burst
+9% Unstoppable Dash
+9% Fueled Shot
+49% Fueled Dash
+
+Khadath:
+24% Hunter's Shot
+12% Blight Strike
+26% Blight Shot
+38% Lure Grasp
+
+
+Cesar: Unstoppable Burst
+Khadath: Blight Strike
+
+Cesar gains a Threat Level (current level: 1)
+Cesar gets -3 priority
+Priorities:  -4 | 3
+Khadath is active
+Khadath moves trap:
+
+K....C.
+.t.....
+
+Cesar moves:
+
+K.....C
+.t.....
+
+Khadath misses
+Cesar misses
 
 Beat 5
 -------
 
 Cesar
 -----
-life: 15
-discard 1: Bulwark Shot
-discard 2: Inevitable Suppression
-special action
-Threat level: 0
+Life: 19
+Discard 1: Unstoppable Burst
+Discard 2: Inevitable Drive
+Threat level: 1
 
 Khadath
 -------
-life: 15
-discard 1: Teleport Dash
-discard 2: Evacuation Drive
+Life: 17
+Discard 1: Blight Strike
+Discard 2: Teleport Burst
 
 
 K.....C
-.....t.
+.t.....
 
-Unbeatable strategy for Khadath: Hunter's Shot: -0.62
-Unbeatable strategy for Khadath: Hunter's Burst: -0.62
-Unbeatable strategy for Khadath: Blight Shot: -3.49
-Unbeatable strategy for Khadath: Blight Burst: -0.49
-Unbeatable strategy for Khadath: Lure Strike: -1.82
-Unbeatable strategy for Khadath: Lure Shot: -0.88
-Unbeatable strategy for Khadath: Lure Burst: -0.88
+Unbeatable strategy for Khadath: Hunter's Snare: -1.72
+Unbeatable strategy for Khadath: Evacuation Snare: -1.42
+
 
 Cesar:
-59% Unstoppable Grasp
-26% Fueled Drive
-9% Fueled Dash
-6% Special Pulse
+6% Fueled Suppression
+73% Bulwark Suppression
+21% Bulwark Strike
 
 Khadath:
-33% Hunter's Snare
-35% Blight Shot
-12% Blight Burst
-20% Lure Strike
+50% Hunter's Snare
+50% Hunter's Grasp
+0% Lure Snare
 
 
-Cesar: Fueled Drive
-Khadath: Hunter's Snare
+Cesar: Bulwark Suppression
+Khadath: Hunter's Grasp
 
-Cesar gains a Threat Level (current level: 1)
-Cesar gets -1 priority
-Priorities:  2 | 1
-Cesar is active
 Cesar gains a Threat Level (current level: 2)
-Cesar moves:
-
-K....C.
-.....t.
-
+Priorities:  0 | 5
+Khadath is active
+Khadath misses
+Cesar misses
 Cesar moves:
 
 K..C...
-.....t.
+.t.....
 
-Cesar misses
-Khadath misses
 
 Beat 6
 -------
 
 Cesar
 -----
-life: 15
-discard 1: Fueled Drive
-discard 2: Bulwark Shot
-special action
+Life: 19
+Discard 1: Bulwark Suppression
+Discard 2: Unstoppable Burst
 Threat level: 2
 
 Khadath
 -------
-life: 15
-discard 1: Hunter's Snare
-discard 2: Teleport Dash
+Life: 17
+Discard 1: Hunter's Grasp
+Discard 2: Blight Strike
 
 
 K..C...
-.....t.
+.t.....
 
-Unbeatable strategy for Khadath: Lure Shot: -0.56
-Unbeatable strategy for Khadath: Lure Burst: -0.50
-Unbeatable strategy for Khadath: Lure Grasp: -0.32
 
 Cesar:
-21% Phalanx Suppression
-10% Phalanx Strike
-31% Phalanx Burst
-39% Inevitable Suppression
+71% Fueled Grasp
+29% Inevitable Drive
 
 Khadath:
-16% Blight Shot
-1% Lure Strike
-14% Lure Drive
-69% Lure Burst
+52% Teleport Burst
+48% Teleport Dash
 
 
-Cesar: Inevitable Suppression
-Khadath: Lure Burst
+Cesar: Fueled Grasp
+Khadath: Teleport Burst
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  2 | 0
+Priorities:  4 | -2
 Cesar is active
-Cesar misses
-Khadath misses
-Cesar moves:
-
-KC.....
-.....t.
-
-
-Beat 7
--------
-
-Cesar
------
-life: 15
-discard 1: Inevitable Suppression
-discard 2: Fueled Drive
-special action
-Threat level: 3
-
-Khadath
--------
-life: 15
-discard 1: Lure Burst
-discard 2: Hunter's Snare
-
-
-KC.....
-.....t.
-
-Unbeatable strategy for Khadath: Teleport Strike: -0.10
-Unbeatable strategy for Khadath: Teleport Shot: -2.15
-Unbeatable strategy for Khadath: Teleport Drive: -2.06
-Unbeatable strategy for Khadath: Teleport Grasp: -0.10
-
-Cesar:
-7% Phalanx Burst
-93% Special Pulse
-
-Khadath:
-71% Teleport Drive
-29% Evacuation Drive
-
-
-Cesar: Special Pulse
-Khadath: Teleport Drive
-
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Pulse:
+Khadath hits
+Cesar has 2 soak
+Cesar takes 2 damage (now at 17 life)
+Cesar is stunned
+Khadath moves:
 
-KC.....
-.....t.
+...C..K
+.t.....
+
+Khadath moves trap:
+
+...C..K
+...t...
 
 
 Beat 7
@@ -464,148 +455,160 @@ Beat 7
 
 Cesar
 -----
-life: 15
-discard 1: Inevitable Suppression
-discard 2: Fueled Drive
+Life: 17
+Discard 1: Fueled Grasp
+Discard 2: Bulwark Suppression
 Threat level: 4
 
 Khadath
 -------
-life: 15
-discard 1: Teleport Drive
-discard 2: Lure Burst
+Life: 17
+Discard 1: Teleport Burst
+Discard 2: Hunter's Grasp
 
 
-KC.....
-.....t.
+...C..K
+...t...
 
-Unbeatable strategy for Khadath: Blight Strike: -0.70
+Unbeatable strategy for Cesar: Phalanx Strike: 0.82
+
 
 Cesar:
-46% Phalanx Strike
-7% Bulwark Burst
-48% Bulwark Grasp
+92% Phalanx Strike
+8% Phalanx Burst
 
 Khadath:
-19% Evacuation Dash
-18% Blight Strike
-63% Blight Shot
+60% Blight Strike
+40% Blight Shot
 
 
 Cesar: Phalanx Strike
-Khadath: Blight Shot
+Khadath: Blight Strike
 
 Cesar gains a Threat Level (current level: 0)
-Priorities:  1 | 2
+Cesar gets -3 priority
+Priorities:  -2 | 3
 Khadath is active
 Khadath moves trap:
 
-KC.....
-..t....
+...C..K
+....t..
 
 Khadath hits
-Cesar takes 3 damage (now at 12 life)
+Cesar takes 4 damage (now at 13 life)
+Cesar moves:
+
+....C.K
+....t..
+
 Cesar hits
-Khadath takes 4 damage (now at 11 life)
-Khadath is stunned
+Khadath takes 4 damage (now at 13 life)
 
 Beat 8
 -------
 
 Cesar
 -----
-life: 12
-discard 1: Phalanx Strike
-discard 2: Inevitable Suppression
+Life: 13
+Discard 1: Phalanx Strike
+Discard 2: Fueled Grasp
 Threat level: 0
 
 Khadath
 -------
-life: 11
-discard 1: Blight Shot
-discard 2: Teleport Drive
+Life: 13
+Discard 1: Blight Strike
+Discard 2: Teleport Burst
 
 
-KC.....
-..t....
+....C.K
+....t..
+
 
 Cesar:
-49% Bulwark Drive
-32% Bulwark Burst
-19% Bulwark Grasp
+73% Bulwark Shot
+3% Bulwark Dash
+23% Inevitable Drive
 
 Khadath:
-37% Hunter's Dash
-6% Evacuation Snare
-58% Lure Strike
+40% Hunter's Shot
+7% Hunter's Drive
+53% Evacuation Snare
 
 
-Cesar: Bulwark Drive
-Khadath: Lure Strike
+Cesar: Bulwark Shot
+Khadath: Evacuation Snare
 
 Cesar gains a Threat Level (current level: 1)
-Cesar gets -1 priority
-Priorities:  1 | 2
+Cesar gets -3 priority
+Priorities:  -3 | 1
 Khadath is active
 Khadath hits
-Cesar takes 3 damage (now at 9 life)
-Cesar hits
-Khadath takes 4 damage (now at 7 life)
+Cesar takes 3 damage (now at 10 life)
+Cesar misses
+Cesar moves:
+
+.....CK
+....t..
+
 
 Beat 9
 -------
 
 Cesar
 -----
-life: 9
-discard 1: Bulwark Drive
-discard 2: Phalanx Strike
+Life: 10
+Discard 1: Bulwark Shot
+Discard 2: Phalanx Strike
 Threat level: 1
 
 Khadath
 -------
-life: 7
-discard 1: Lure Strike
-discard 2: Blight Shot
+Life: 13
+Discard 1: Evacuation Snare
+Discard 2: Blight Strike
 
 
-KC.....
-..t....
+.....CK
+....t..
+
+Unbeatable strategy for Khadath: Hunter's Shot: -0.49
+Unbeatable strategy for Khadath: Hunter's Drive: -0.60
+
 
 Cesar:
-36% Fueled Suppression
-26% Fueled Shot
-38% Inevitable Suppression
+6% Unstoppable Burst
+33% Inevitable Suppression
+61% Inevitable Drive
 
 Khadath:
-7% Teleport Snare
-33% Teleport Grasp
-59% Teleport Dash
+9% Teleport Drive
+49% Teleport Grasp
+42% Teleport Dash
 
 
-Cesar: Fueled Shot
+Cesar: Inevitable Drive
 Khadath: Teleport Dash
 
 Cesar gains a Threat Level (current level: 2)
 Cesar gets -1 priority
-Priorities:  0 | 6
+Priorities:  3 | 6
 Khadath is active
-Cesar gains a Threat Level (current level: 3)
 Khadath moves:
 
-.CK....
-..t....
+....KC.
+....t..
 
 Cesar moves:
 
-..KC...
-..t....
+...CK..
+....t..
 
 Cesar misses
 Khadath moves:
 
 K..C...
-..t....
+....t..
 
 Khadath moves trap:
 
@@ -618,76 +621,61 @@ Beat 10
 
 Cesar
 -----
-life: 9
-discard 1: Fueled Shot
-discard 2: Bulwark Drive
-Threat level: 3
+Life: 10
+Discard 1: Inevitable Drive
+Discard 2: Bulwark Shot
+Threat level: 2
 
 Khadath
 -------
-life: 7
-discard 1: Teleport Dash
-discard 2: Lure Strike
+Life: 13
+Discard 1: Teleport Dash
+Discard 2: Evacuation Snare
 
 
 K..C...
 ...t...
 
-Unbeatable strategy for Cesar: Phalanx Suppression: 5.96
-Unbeatable strategy for Cesar: Phalanx Strike: 2.62
-Unbeatable strategy for Cesar: Phalanx Burst: 1.10
-Unbeatable strategy for Cesar: Phalanx Grasp: 2.62
-Unbeatable strategy for Cesar: Unstoppable Suppression: 6.52
-Unbeatable strategy for Cesar: Unstoppable Strike: 2.62
-Unbeatable strategy for Cesar: Unstoppable Burst: 1.10
-Unbeatable strategy for Cesar: Unstoppable Grasp: 2.62
-Unbeatable strategy for Cesar: Inevitable Suppression: 5.96
-Unbeatable strategy for Cesar: Inevitable Strike: 2.62
-Unbeatable strategy for Cesar: Inevitable Burst: 1.10
-Unbeatable strategy for Cesar: Inevitable Dash: 1.93
+Unbeatable strategy for Cesar: Fueled Suppression: 1.93
+
 
 Cesar:
-10% Phalanx Dash
-90% Unstoppable Suppression
-0% Unstoppable Dash
+17% Phalanx Strike
+31% Phalanx Burst
+2% Unstoppable Burst
+50% Fueled Suppression
 
 Khadath:
-2% Blight Shot
-95% Blight Drive
-2% Blight Burst
+67% Hunter's Drive
+5% Blight Burst
+18% Lure Drive
+10% Lure Grasp
 
 
-Cesar: Unstoppable Suppression
-Khadath: Blight Drive
+Cesar: Fueled Suppression
+Khadath: Hunter's Drive
 
+Cesar gains a Threat Level (current level: 3)
+Khadath gets +2 power
+Khadath gets +2 priority
+Cesar gets -3 priority
+Priorities:  -2 | 6
+Khadath is active
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Cesar gets -3 priority
-Priorities:  -3 | 4
-Khadath is active
-Khadath moves trap:
-
-K..C...
-.t.....
-
 Khadath moves:
 
-.K.C...
-.t.....
-
-Cesar moves:
-
-CK.....
-.t.....
+..KC...
+...t...
 
 Khadath hits
 Cesar has 2 soak
-Cesar takes 1 damage (now at 8 life)
+Cesar takes 3 damage (now at 7 life)
 Cesar is stunned
 Cesar moves:
 
-.K.C...
-.t.....
+.CK....
+...t...
 
 
 Beat 11
@@ -695,184 +683,202 @@ Beat 11
 
 Cesar
 -----
-life: 8
-discard 1: Unstoppable Suppression
-discard 2: Fueled Shot
+Life: 7
+Discard 1: Fueled Suppression
+Discard 2: Inevitable Drive
 Threat level: 4
 
 Khadath
 -------
-life: 7
-discard 1: Blight Drive
-discard 2: Teleport Dash
+Life: 13
+Discard 1: Hunter's Drive
+Discard 2: Teleport Dash
 
 
-.K.C...
-.t.....
+.CK....
+...t...
+
+Unbeatable strategy for Khadath: Evacuation Shot: -0.00
+Unbeatable strategy for Khadath: Blight Strike: -0.07
+
 
 Cesar:
-6% Phalanx Burst
-44% Bulwark Drive
-10% Bulwark Burst
-40% Bulwark Grasp
+1% Unstoppable Strike
+3% Unstoppable Grasp
+10% Bulwark Strike
+10% Bulwark Shot
+2% Bulwark Burst
+75% Bulwark Dash
 
 Khadath:
-50% Evacuation Snare
-24% Evacuation Strike
-8% Evacuation Shot
-18% Lure Strike
+28% Evacuation Shot
+1% Blight Snare
+1% Blight Strike
+16% Blight Burst
+31% Lure Snare
+24% Lure Burst
 
 
-Cesar: Bulwark Burst
-Khadath: Evacuation Snare
+Cesar: Bulwark Dash
+Khadath: Blight Burst
 
 Cesar gains a Threat Level (current level: 0)
-Priorities:  -1 | 1
-Khadath is active
+Priorities:  7 | 1
+Cesar is active
+Khadath moves trap:
+
+.CK....
+....t..
+
 Khadath moves:
 
-K..C...
-.t.....
+.C..K..
+....t..
 
 Cesar moves:
 
-K...C..
-.t.....
+..C.K..
+....t..
+
+Cesar moves:
+
+....K.C
+....t..
 
 Khadath misses
-Cesar misses
-Cesar moves:
-
-K.....C
-.t.....
-
 
 Beat 12
 -------
 
 Cesar
 -----
-life: 8
-discard 1: Bulwark Burst
-discard 2: Unstoppable Suppression
+Life: 7
+Discard 1: Bulwark Dash
+Discard 2: Fueled Suppression
 Threat level: 0
 
 Khadath
 -------
-life: 7
-discard 1: Evacuation Snare
-discard 2: Blight Drive
+Life: 13
+Discard 1: Blight Burst
+Discard 2: Hunter's Drive
 
 
-K.....C
-.t.....
+....K.C
+....t..
 
-Unbeatable strategy for Khadath: Hunter's Burst: -2.17
-Unbeatable strategy for Khadath: Teleport Strike: -3.71
-Unbeatable strategy for Khadath: Teleport Shot: -3.63
-Unbeatable strategy for Khadath: Teleport Burst: -3.70
-Unbeatable strategy for Khadath: Teleport Grasp: -3.71
-Unbeatable strategy for Khadath: Lure Strike: -1.13
-Unbeatable strategy for Khadath: Lure Shot: -0.50
+Unbeatable strategy for Khadath: Evacuation Dash: -0.16
+
 
 Cesar:
-5% Phalanx Shot
-31% Phalanx Drive
-2% Fueled Shot
-8% Inevitable Shot
-53% Inevitable Drive
+51% Unstoppable Shot
+14% Unstoppable Burst
+7% Inevitable Shot
+27% Inevitable Burst
 
 Khadath:
-28% Teleport Shot
-26% Teleport Grasp
-22% Lure Strike
-15% Lure Shot
-8% Lure Burst
+52% Teleport Dash
+26% Evacuation Strike
+16% Evacuation Dash
+6% Lure Strike
 
 
-Cesar: Inevitable Drive
-Khadath: Lure Strike
+Cesar: Unstoppable Shot
+Khadath: Evacuation Strike
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  4 | 2
-Cesar is active
+Priorities:  0 | 3
+Khadath is active
+Khadath moves trap:
+
+....K.C
+....t..
+
+Khadath moves:
+
+...K..C
+....t..
+
 Cesar moves:
 
-K...C..
-.t.....
+...KC..
+....t..
 
-Cesar misses
 Khadath hits
-Khadath moves Cesar:
-
-KC.....
-.t.....
-
-Cesar takes 3 damage (now at 5 life)
+Cesar takes 4 damage (now at 3 life)
+Cesar is stunned
 
 Beat 13
 -------
 
 Cesar
 -----
-life: 5
-discard 1: Inevitable Drive
-discard 2: Bulwark Burst
+Life: 3
+Discard 1: Unstoppable Shot
+Discard 2: Bulwark Dash
 Threat level: 1
 
 Khadath
 -------
-life: 7
-discard 1: Lure Strike
-discard 2: Evacuation Snare
+Life: 13
+Discard 1: Evacuation Strike
+Discard 2: Blight Burst
 
 
-KC.....
-.t.....
+...KC..
+....t..
+
+Unbeatable strategy for Khadath: Teleport Grasp: -3.89
+
 
 Cesar:
-6% Phalanx Suppression
-47% Unstoppable Suppression
-17% Fueled Suppression
-0% Fueled Strike
-30% Fueled Shot
+8% Inevitable Drive
+31% Inevitable Burst
+61% Inevitable Grasp
 
 Khadath:
-12% Teleport Shot
-14% Teleport Drive
-11% Teleport Burst
-51% Teleport Dash
-12% Blight Shot
+5% Hunter's Drive
+19% Hunter's Grasp
+76% Teleport Grasp
 
 
-Cesar: Fueled Shot
-Khadath: Teleport Dash
+Cesar: Inevitable Grasp
+Khadath: Teleport Grasp
 
 Cesar gains a Threat Level (current level: 2)
 Cesar gets -3 priority
-Priorities:  -2 | 6
+Priorities:  2 | 2
+Clash!
+
+
+Cesar: Inevitable Suppression
+Khadath: Teleport Drive
+
+Cesar gains a Threat Level (current level: 2)
+Cesar gets -3 priority
+Priorities:  -1 | 1
 Khadath is active
-Cesar gains a Threat Level (current level: 3)
+Khadath hits
+Cesar takes 4 damage (now at 0 life)
+Cesar hits
+Khadath is stunned
+Khadath will have -3 priority next beat
+Khadath takes 4 damage (now at 9 life)
+Khadath is stunned
 Khadath moves:
 
-.C.K...
-.t.....
-
-Cesar moves:
-
-..CK...
-.t.....
-
-Cesar misses
-Khadath moves:
-
-..C...K
-.t.....
+K...C..
+....t..
 
 Khadath moves trap:
 
-..C...K
-..t....
+K...C..
+...t...
+
+Cesar moves:
+
+K.....C
+...t...
 
 
 Beat 14
@@ -880,141 +886,133 @@ Beat 14
 
 Cesar
 -----
-life: 5
-discard 1: Fueled Shot
-discard 2: Inevitable Drive
-Threat level: 3
+Life: 1
+Discard 1: Inevitable Suppression
+Discard 2: Unstoppable Shot
+Opponent has power penalty: -3
+Threat level: 2
+Defeat immunity used-up
 
 Khadath
 -------
-life: 7
-discard 1: Teleport Dash
-discard 2: Lure Strike
+Life: 9
+Discard 1: Teleport Drive
+Discard 2: Evacuation Strike
 
 
-..C...K
-..t....
+K.....C
+...t...
 
-Unbeatable strategy for Cesar: Phalanx Suppression: 6.54
-Unbeatable strategy for Cesar: Phalanx Strike: 2.46
-Unbeatable strategy for Cesar: Phalanx Burst: 0.80
-Unbeatable strategy for Cesar: Phalanx Grasp: 2.46
-Unbeatable strategy for Cesar: Unstoppable Suppression: 6.54
-Unbeatable strategy for Cesar: Unstoppable Strike: 2.46
-Unbeatable strategy for Cesar: Unstoppable Burst: 0.80
-Unbeatable strategy for Cesar: Unstoppable Grasp: 2.46
-Unbeatable strategy for Cesar: Bulwark Suppression: 6.54
-Unbeatable strategy for Cesar: Bulwark Strike: 2.46
-Unbeatable strategy for Cesar: Bulwark Burst: 0.80
-Unbeatable strategy for Cesar: Bulwark Grasp: 2.46
+Unbeatable strategy for Khadath: Hunter's Snare: -0.08
+Unbeatable strategy for Khadath: Hunter's Grasp: -0.06
+Unbeatable strategy for Khadath: Blight Shot: -0.77
+Unbeatable strategy for Khadath: Blight Burst: -1.07
+Unbeatable strategy for Khadath: Lure Grasp: -0.17
+
 
 Cesar:
-32% Phalanx Suppression
-36% Unstoppable Suppression
-32% Bulwark Suppression
+100% Fueled Grasp
 
 Khadath:
-100% Blight Grasp
+100% Blight Burst
 
 
-Cesar: Bulwark Suppression
-Khadath: Blight Grasp
+Cesar: Fueled Grasp
+Khadath: Blight Burst
 
+Cesar gains a Threat Level (current level: 3)
+Priorities:  4 | 1
+Cesar is active
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Cesar gets -3 priority
-Priorities:  -3 | 5
-Khadath is active
 Khadath moves trap:
 
-..C...K
-...t...
+K.....C
+.....t.
 
 Khadath misses
-Cesar moves:
-
-.C....K
-...t...
-
 
 Beat 15
 -------
 
 Cesar
 -----
-life: 5
-discard 1: Bulwark Suppression
-discard 2: Fueled Shot
+Life: 1
+Discard 1: Fueled Grasp
+Discard 2: Inevitable Suppression
 Threat level: 4
+Defeat immunity used-up
 
 Khadath
 -------
-life: 7
-discard 1: Blight Grasp
-discard 2: Teleport Dash
+Life: 9
+Discard 1: Blight Burst
+Discard 2: Teleport Drive
 
 
-.C....K
-...t...
+K.....C
+.....t.
 
-Unbeatable strategy for Khadath: Hunter's Snare: -10.00
-Unbeatable strategy for Khadath: Hunter's Strike: -10.00
-Unbeatable strategy for Khadath: Hunter's Shot: -10.00
-Unbeatable strategy for Khadath: Hunter's Burst: -10.00
-Unbeatable strategy for Khadath: Evacuation Snare: -10.00
-Unbeatable strategy for Khadath: Evacuation Strike: -10.00
-Unbeatable strategy for Khadath: Evacuation Shot: -10.00
-Unbeatable strategy for Khadath: Evacuation Burst: -10.00
-Unbeatable strategy for Khadath: Lure Snare: -10.00
-Unbeatable strategy for Khadath: Lure Strike: -10.00
-Unbeatable strategy for Khadath: Lure Shot: -10.00
-Unbeatable strategy for Khadath: Lure Burst: -10.00
+Unbeatable strategy for Khadath: Hunter's Snare: -6.00
+Unbeatable strategy for Khadath: Hunter's Strike: -6.00
+Unbeatable strategy for Khadath: Hunter's Shot: -6.00
+Unbeatable strategy for Khadath: Hunter's Grasp: -6.00
+Unbeatable strategy for Khadath: Hunter's Dash: -6.00
+Unbeatable strategy for Khadath: Evacuation Snare: -6.00
+Unbeatable strategy for Khadath: Evacuation Strike: -6.00
+Unbeatable strategy for Khadath: Evacuation Shot: -6.00
+Unbeatable strategy for Khadath: Evacuation Grasp: -6.00
+Unbeatable strategy for Khadath: Evacuation Dash: -6.00
+Unbeatable strategy for Khadath: Lure Snare: -6.00
+Unbeatable strategy for Khadath: Lure Strike: -6.00
+Unbeatable strategy for Khadath: Lure Shot: -6.00
+Unbeatable strategy for Khadath: Lure Grasp: -6.00
+Unbeatable strategy for Khadath: Lure Dash: -6.00
+
 
 Cesar:
-2% Phalanx Strike
-1% Phalanx Drive
-3% Phalanx Burst
-7% Phalanx Grasp
-4% Phalanx Dash
-5% Unstoppable Strike
-1% Unstoppable Drive
-1% Unstoppable Burst
-5% Unstoppable Grasp
-5% Unstoppable Dash
-7% Inevitable Strike
-3% Inevitable Drive
-51% Inevitable Burst
-3% Inevitable Grasp
-3% Inevitable Dash
+7% Phalanx Strike
+7% Phalanx Shot
+7% Phalanx Drive
+7% Phalanx Burst
+7% Phalanx Dash
+7% Unstoppable Strike
+7% Unstoppable Shot
+7% Unstoppable Drive
+7% Unstoppable Burst
+7% Unstoppable Dash
+7% Bulwark Strike
+7% Bulwark Shot
+7% Bulwark Drive
+7% Bulwark Burst
+7% Bulwark Dash
 
 Khadath:
-8% Hunter's Snare
-8% Hunter's Strike
-9% Hunter's Shot
-8% Hunter's Burst
-8% Evacuation Snare
-8% Evacuation Strike
-8% Evacuation Shot
-8% Evacuation Burst
-9% Lure Snare
-9% Lure Strike
-8% Lure Shot
-9% Lure Burst
+7% Hunter's Snare
+7% Hunter's Strike
+7% Hunter's Shot
+7% Hunter's Grasp
+7% Hunter's Dash
+7% Evacuation Snare
+7% Evacuation Strike
+7% Evacuation Shot
+7% Evacuation Grasp
+7% Evacuation Dash
+7% Lure Snare
+7% Lure Strike
+7% Lure Shot
+7% Lure Grasp
+7% Lure Dash
 
 
-Cesar: Inevitable Burst
-Khadath: Lure Snare
+Cesar: Bulwark Burst
+Khadath: Lure Grasp
 
 Cesar gains a Threat Level (current level: 0)
-Priorities:  1 | 0
-Cesar is active
-Cesar moves:
-
-C.....K
-...t...
-
-Cesar misses
-Khadath misses
-Game goes to time
+Cesar gets -1 priority
+Priorities:  -2 | 4
+Khadath is active
+Khadath hits
+Cesar takes 1 damage (now at 0 life)
 KHADATH WINS!
-total_time: 20
+total_time: 19

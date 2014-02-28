@@ -11,34 +11,33 @@ Beat 1
 
 Khadath
 -------
-life: 20
-discard 1: Evacuation Grasp
-discard 2: Hunter's Snare
-special action
+Life: 20
+Discard 1: Evacuation Grasp
+Discard 2: Hunter's Snare
+Special action available
 
 Rukyuk
 ------
-life: 20
-discard 1: Crossfire Reload
-discard 2: Trick Shot
-special action
+Life: 20
+Discard 1: Crossfire Reload
+Discard 2: Trick Shot
+Special action available
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
 .K...R.
 
 
-Unbeatable strategy for Rukyuk: Sniper Grasp (Explosive): -0.19
 
 Khadath:
-50% Teleport Shot
-17% Teleport Dash
-33% Blight Dash
+51% Teleport Shot
+21% Teleport Dash
+28% Blight Dash
 
 Rukyuk:
 9% Sniper Strike (Explosive)
-84% Sniper Grasp (Explosive)
-7% Sniper Grasp (Swift)
+72% Sniper Grasp (Explosive)
+18% Sniper Grasp (Swift)
 
 
 Khadath: Teleport Shot
@@ -62,12 +61,12 @@ Rukyuk moves:
 
 Khadath moves:
 
-KR.....
+.R.K...
 
 
 Khadath moves trap:
 
-KR.....
+.R.K...
 .t.....
 
 
@@ -76,134 +75,175 @@ Beat 2
 
 Khadath
 -------
-life: 15
-discard 1: Teleport Shot
-discard 2: Evacuation Grasp
-special action
+Life: 15
+Discard 1: Teleport Shot
+Discard 2: Evacuation Grasp
+Special action available
 
 Rukyuk
 ------
-life: 20
-discard 1: Sniper Grasp
-discard 2: Crossfire Reload
-special action
+Life: 20
+Discard 1: Sniper Grasp
+Discard 2: Crossfire Reload
+Special action available
 pool: AP, Flash, Impact, Longshot, Swift
 
 
-KR.....
+.R.K...
 .t.....
 
+Unbeatable strategy for Rukyuk: Gunner Strike (Longshot): -0.38
+Unbeatable strategy for Rukyuk: Gunner Dash: -2.21
+Unbeatable strategy for Rukyuk: Gunner Dash (AP): -1.71
+Unbeatable strategy for Rukyuk: Gunner Dash (Flash): -1.68
+Unbeatable strategy for Rukyuk: Gunner Dash (Impact): -1.51
+Unbeatable strategy for Rukyuk: Gunner Dash (Longshot): -1.21
+Unbeatable strategy for Rukyuk: Gunner Dash (Swift): -1.11
+
+
 Khadath:
-42% Hunter's Snare
-14% Blight Strike
-21% Lure Strike
-23% Lure Burst
+88% Hunter's Drive
+12% Hunter's Burst
 
 Rukyuk:
-23% Gunner Strike (Longshot)
-0% Gunner Drive (Longshot)
-22% Gunner Dash
-55% Special Pulse
+94% Gunner Dash (Impact)
+6% Gunner Dash (Swift)
+
+
+Khadath: Hunter's Drive
+Rukyuk: Gunner Dash (Impact)
+
+Rukyuk antes an Impact token
+Khadath gets +2 power
+Khadath gets +2 priority
+Rukyuk gets -3 priority
+Priorities:  6 | 6
+Clash!
 
 
 Khadath: Hunter's Snare
-Rukyuk: Gunner Dash
+Rukyuk: Gunner Strike (Impact)
 
+Rukyuk antes an Impact token
+Khadath gets +2 power
+Khadath gets +2 priority
 Rukyuk gets -3 priority
-Priorities:  1 | 6
-Rukyuk is active
-Rukyuk moves:
+Priorities:  3 | 0
+Khadath is active
+Khadath hits
+Rukyuk takes 5 damage (now at 15 life)
+Rukyuk spends an AP token
+Rukyuk gains -1/+1 range
+Rukyuk hits
+Rukyuk moves Khadath:
 
-K..R...
+.R...K.
 .t.....
 
+Khadath takes 4 damage (now at 11 life)
 Rukyuk moves:
 
-K.....R
+R....K.
 .t.....
 
-Khadath misses
 
 Beat 3
 -------
 
 Khadath
 -------
-life: 15
-discard 1: Hunter's Snare
-discard 2: Teleport Shot
-special action
+Life: 11
+Discard 1: Hunter's Snare
+Discard 2: Teleport Shot
+Special action available
 
 Rukyuk
 ------
-life: 20
-discard 1: Gunner Dash
-discard 2: Sniper Grasp
-special action
-pool: AP, Flash, Impact, Longshot, Swift
+Life: 15
+Discard 1: Gunner Strike
+Discard 2: Sniper Grasp
+Special action available
+pool: Flash, Longshot, Swift
 
 
-K.....R
+R....K.
 .t.....
 
+
 Khadath:
-8% Blight Dash
-76% Lure Strike
-16% Lure Grasp
+27% Blight Drive
+73% Lure Strike
 
 Rukyuk:
-7% Crossfire Shot (Swift)
-37% Crossfire Drive (Swift)
-8% Trick Reload
-12% Trick Reload (AP)
-11% Trick Reload (Flash)
-17% Trick Reload (Impact)
-9% Trick Reload (Longshot)
+11% Crossfire Reload
+12% Crossfire Reload (Flash)
+39% Crossfire Reload (Longshot)
+11% Crossfire Reload (Swift)
+28% Crossfire Drive (Swift)
 
 
 Khadath: Lure Strike
-Rukyuk: Trick Reload (Flash)
+Rukyuk: Crossfire Drive (Swift)
 
-Rukyuk antes a Flash token
-Priorities:  2 | 1
-Khadath is active
-Khadath hits
-Rukyuk takes 3 damage (now at 17 life)
+Rukyuk antes a Swift token
+Rukyuk gets -1 priority
+Priorities:  2 | 3
+Rukyuk is active
 Rukyuk moves:
 
-K....R.
+.R...K.
 .t.....
 
+Rukyuk hits
+Rukyuk spends a Flash token
+Rukyuk gets +2 power
+Khadath takes 5 damage (now at 6 life)
+Khadath hits
+Khadath moves Rukyuk:
+
+....RK.
+.t.....
+
+Rukyuk has 2 soak
+Rukyuk takes 1 damage (now at 14 life)
+Rukyuk is stunned
 
 Beat 4
 -------
 
 Khadath
 -------
-life: 15
-discard 1: Lure Strike
-discard 2: Hunter's Snare
-special action
+Life: 6
+Discard 1: Lure Strike
+Discard 2: Hunter's Snare
+Special action available
 
 Rukyuk
 ------
-life: 17
-discard 1: Trick Reload
-discard 2: Gunner Dash
-special action
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+Life: 14
+Discard 1: Crossfire Drive
+Discard 2: Gunner Strike
+Special action available
+pool: Longshot
 
 
-K....R.
+....RK.
 .t.....
 
-Unbeatable strategy for Khadath: Teleport Burst: 5.07
+Unbeatable strategy for Rukyuk: Sniper Reload: -0.31
+Unbeatable strategy for Rukyuk: Sniper Reload (Longshot): -0.31
+
 
 Khadath:
-100% Teleport Grasp
+12% Teleport Shot
+51% Teleport Grasp
+37% Teleport Dash
 
 Rukyuk:
-100% Special Pulse
+9% Sniper Reload
+10% Point Blank Reload
+7% Point Blank Reload (Longshot)
+75% Special Pulse
 
 
 Khadath: Teleport Grasp
@@ -211,7 +251,7 @@ Rukyuk: Special Pulse
 
 Pulse:
 
-K.....R
+.K....R
 .t.....
 
 
@@ -220,42 +260,35 @@ Beat 4
 
 Khadath
 -------
-life: 15
-discard 1: Teleport Grasp
-discard 2: Lure Strike
-special action
+Life: 6
+Discard 1: Teleport Grasp
+Discard 2: Lure Strike
+Special action available
 
 Rukyuk
 ------
-life: 17
-discard 1: Trick Reload
-discard 2: Gunner Dash
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+Life: 14
+Discard 1: Crossfire Drive
+Discard 2: Gunner Strike
+pool: Longshot
 
 
-K.....R
+.K....R
 .t.....
 
-Unbeatable strategy for Rukyuk: Point Blank Shot (Longshot): -0.03
-Unbeatable strategy for Rukyuk: Crossfire Shot (AP): -0.34
-Unbeatable strategy for Rukyuk: Crossfire Shot (Explosive): -2.04
-Unbeatable strategy for Rukyuk: Crossfire Shot (Flash): -0.34
-Unbeatable strategy for Rukyuk: Crossfire Shot (Impact): -0.24
-Unbeatable strategy for Rukyuk: Crossfire Shot (Swift): -0.25
 
 Khadath:
-7% Blight Shot
-93% Special Pulse
+4% Blight Shot
+96% Special Pulse
 
 Rukyuk:
-70% Sniper Drive
-30% Sniper Drive (AP)
+86% Sniper Reload
+14% Sniper Shot
 
 
 Khadath: Special Pulse
-Rukyuk: Sniper Drive (AP)
+Rukyuk: Sniper Reload
 
-Rukyuk antes an AP token
 Pulse:
 
 .RK....
@@ -267,196 +300,160 @@ Beat 4
 
 Khadath
 -------
-life: 15
-discard 1: Teleport Grasp
-discard 2: Lure Strike
+Life: 6
+Discard 1: Teleport Grasp
+Discard 2: Lure Strike
 
 Rukyuk
 ------
-life: 17
-discard 1: Sniper Drive
-discard 2: Trick Reload
-pool: Explosive, Flash, Impact, Longshot, Swift
+Life: 14
+Discard 1: Sniper Reload
+Discard 2: Crossfire Drive
+pool: Longshot
 
 
 .RK....
 .t.....
 
-Unbeatable strategy for Rukyuk: Point Blank Shot (Swift): -1.00
-Unbeatable strategy for Rukyuk: Gunner Strike (Longshot): -0.82
-Unbeatable strategy for Rukyuk: Gunner Grasp (Swift): -0.49
-Unbeatable strategy for Rukyuk: Gunner Dash: -3.81
-Unbeatable strategy for Rukyuk: Gunner Dash (Explosive): -2.91
-Unbeatable strategy for Rukyuk: Gunner Dash (Flash): -3.21
-Unbeatable strategy for Rukyuk: Gunner Dash (Impact): -3.11
-Unbeatable strategy for Rukyuk: Gunner Dash (Longshot): -2.81
-Unbeatable strategy for Rukyuk: Gunner Dash (Swift): -2.71
-Unbeatable strategy for Rukyuk: Crossfire Strike: -0.49
-Unbeatable strategy for Rukyuk: Crossfire Shot: -0.87
-Unbeatable strategy for Rukyuk: Crossfire Shot (Flash): -0.27
-Unbeatable strategy for Rukyuk: Crossfire Shot (Impact): -0.17
-Unbeatable strategy for Rukyuk: Crossfire Burst: -0.12
-Unbeatable strategy for Rukyuk: Crossfire Grasp: -0.49
-Unbeatable strategy for Rukyuk: Crossfire Dash: -2.04
-Unbeatable strategy for Rukyuk: Crossfire Dash (Explosive): -1.14
-Unbeatable strategy for Rukyuk: Crossfire Dash (Flash): -1.45
-Unbeatable strategy for Rukyuk: Crossfire Dash (Impact): -1.34
-Unbeatable strategy for Rukyuk: Crossfire Dash (Longshot): -1.04
-Unbeatable strategy for Rukyuk: Crossfire Dash (Swift): -0.94
+Unbeatable strategy for Rukyuk: Gunner Dash: -3.41
+Unbeatable strategy for Rukyuk: Gunner Dash (Longshot): -1.91
+
 
 Khadath:
-71% Hunter's Snare
-22% Hunter's Drive
-7% Evacuation Snare
+24% Hunter's Snare
+76% Hunter's Drive
 
 Rukyuk:
-8% Point Blank Strike (Explosive)
-6% Gunner Grasp (Longshot)
-86% Gunner Dash
+76% Gunner Strike
+24% Gunner Dash
 
 
-Khadath: Hunter's Snare
-Rukyuk: Gunner Dash
+Khadath: Hunter's Drive
+Rukyuk: Gunner Strike
 
+Khadath gets +2 power
+Khadath gets +2 priority
 Rukyuk gets -3 priority
-Priorities:  1 | 6
-Rukyuk is active
-Rukyuk moves:
+Priorities:  6 | 0
+Khadath is active
+Khadath moves:
 
-..K.R..
+KR.....
 .t.....
 
+Khadath hits
+Rukyuk takes 5 damage (now at 9 life)
+Rukyuk misses
 Rukyuk moves:
 
-..KR...
+K..R...
 .t.....
 
-Khadath misses
 
 Beat 5
 -------
 
 Khadath
 -------
-life: 15
-discard 1: Hunter's Snare
-discard 2: Teleport Grasp
+Life: 6
+Discard 1: Hunter's Drive
+Discard 2: Teleport Grasp
 
 Rukyuk
 ------
-life: 17
-discard 1: Gunner Dash
-discard 2: Sniper Drive
-pool: Explosive, Flash, Impact, Longshot, Swift
+Life: 9
+Discard 1: Gunner Strike
+Discard 2: Sniper Reload
+pool: Longshot
 
 
-..KR...
+K..R...
 .t.....
 
+
 Khadath:
-7% Blight Strike
-8% Blight Shot
-28% Blight Drive
-47% Blight Dash
-4% Lure Strike
-6% Lure Burst
+39% Blight Dash
+61% Lure Strike
 
 Rukyuk:
-9% Point Blank Reload (Flash)
-19% Point Blank Strike (Explosive)
-31% Point Blank Shot (Explosive)
-0% Point Blank Grasp (Explosive)
-23% Crossfire Reload
-18% Crossfire Reload (Swift)
+58% Point Blank Shot (Longshot)
+42% Crossfire Burst
 
 
-Khadath: Blight Drive
-Rukyuk: Point Blank Shot (Explosive)
+Khadath: Blight Dash
+Rukyuk: Point Blank Shot (Longshot)
 
-Rukyuk antes an Explosive token
-Priorities:  4 | 2
+Rukyuk antes a Longshot token
+Priorities:  9 | 2
 Khadath is active
 Khadath moves trap:
 
-..KR...
-....t..
+K..R...
+..t....
 
 Khadath moves:
 
 ...RK..
-....t..
+..t....
 
-Khadath hits
-Rukyuk takes 3 damage (now at 14 life)
-Rukyuk hits
-Rukyuk moves Khadath:
-
-...R..K
-....t..
-
-Khadath takes 5 damage (now at 10 life)
-Khadath is stunned
+Rukyuk misses
 
 Beat 6
 -------
 
 Khadath
 -------
-life: 10
-discard 1: Blight Drive
-discard 2: Hunter's Snare
+Life: 6
+Discard 1: Blight Dash
+Discard 2: Hunter's Drive
 
 Rukyuk
 ------
-life: 14
-discard 1: Point Blank Shot
-discard 2: Gunner Dash
-pool: Flash, Impact, Longshot, Swift
+Life: 9
+Discard 1: Point Blank Shot
+Discard 2: Gunner Strike
+pool: 
 
 
-...R..K
-....t..
+...RK..
+..t....
+
+Unbeatable strategy for Rukyuk: Sniper Reload: -1.25
+Unbeatable strategy for Rukyuk: Crossfire Reload: -2.32
+
 
 Khadath:
-48% Teleport Shot
-35% Teleport Dash
-17% Lure Strike
+79% Teleport Shot
+21% Lure Shot
 
 Rukyuk:
-49% Sniper Reload (Swift)
-29% Crossfire Drive (Longshot)
-5% Trick Reload
-5% Trick Reload (Flash)
-5% Trick Reload (Impact)
-6% Trick Reload (Longshot)
+23% Sniper Reload
+77% Crossfire Reload
 
 
 Khadath: Teleport Shot
-Rukyuk: Sniper Reload (Swift)
+Rukyuk: Crossfire Reload
 
-Rukyuk antes a Swift token
 Rukyuk gets -1 priority
-Priorities:  -1 | 7
+Priorities:  -1 | 1
 Rukyuk is active
 Rukyuk moves:
 
-R.....K
-....t..
+..R.K..
+..t....
 
-Rukyuk moves:
-
-.R....K
-....t..
-
-Khadath misses
+Khadath hits
+Rukyuk has 2 soak
+Rukyuk takes 2 damage (now at 7 life)
+Rukyuk is stunned
 Khadath moves:
 
-.RK....
-....t..
+..RK...
+..t....
 
 Khadath moves trap:
 
-.RK....
+..RK...
 .t.....
 
 
@@ -465,71 +462,69 @@ Beat 7
 
 Khadath
 -------
-life: 10
-discard 1: Teleport Shot
-discard 2: Blight Drive
+Life: 6
+Discard 1: Teleport Shot
+Discard 2: Blight Dash
 
 Rukyuk
 ------
-life: 14
-discard 1: Sniper Reload
-discard 2: Point Blank Shot
+Life: 7
+Discard 1: Crossfire Reload
+Discard 2: Point Blank Shot
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-.RK....
+..RK...
 .t.....
 
-Unbeatable strategy for Rukyuk: Gunner Strike (AP): -0.09
-Unbeatable strategy for Rukyuk: Gunner Strike (Longshot): -0.37
-Unbeatable strategy for Rukyuk: Gunner Dash: -3.88
-Unbeatable strategy for Rukyuk: Gunner Dash (AP): -3.38
-Unbeatable strategy for Rukyuk: Gunner Dash (Explosive): -2.98
-Unbeatable strategy for Rukyuk: Gunner Dash (Flash): -3.28
-Unbeatable strategy for Rukyuk: Gunner Dash (Impact): -3.18
-Unbeatable strategy for Rukyuk: Gunner Dash (Longshot): -2.88
-Unbeatable strategy for Rukyuk: Gunner Dash (Swift): -2.78
-Unbeatable strategy for Rukyuk: Crossfire Dash: -1.38
-Unbeatable strategy for Rukyuk: Crossfire Dash (AP): -0.88
-Unbeatable strategy for Rukyuk: Crossfire Dash (Explosive): -0.48
-Unbeatable strategy for Rukyuk: Crossfire Dash (Flash): -0.78
-Unbeatable strategy for Rukyuk: Crossfire Dash (Impact): -0.68
-Unbeatable strategy for Rukyuk: Crossfire Dash (Longshot): -0.38
-Unbeatable strategy for Rukyuk: Crossfire Dash (Swift): -0.77
-Unbeatable strategy for Rukyuk: Trick Dash (Swift): -0.48
+Unbeatable strategy for Rukyuk: Sniper Dash: -3.18
+Unbeatable strategy for Rukyuk: Sniper Dash (AP): -2.68
+Unbeatable strategy for Rukyuk: Sniper Dash (Explosive): -2.28
+Unbeatable strategy for Rukyuk: Sniper Dash (Flash): -2.65
+Unbeatable strategy for Rukyuk: Sniper Dash (Impact): -2.48
+Unbeatable strategy for Rukyuk: Sniper Dash (Longshot): -2.18
+Unbeatable strategy for Rukyuk: Sniper Dash (Swift): -2.08
+Unbeatable strategy for Rukyuk: Gunner Dash: -2.70
+Unbeatable strategy for Rukyuk: Gunner Dash (AP): -2.20
+Unbeatable strategy for Rukyuk: Gunner Dash (Explosive): -1.80
+Unbeatable strategy for Rukyuk: Gunner Dash (Flash): -2.17
+Unbeatable strategy for Rukyuk: Gunner Dash (Impact): -2.00
+Unbeatable strategy for Rukyuk: Gunner Dash (Longshot): -1.70
+Unbeatable strategy for Rukyuk: Gunner Dash (Swift): -1.60
+
 
 Khadath:
-16% Hunter's Snare
-21% Hunter's Strike
-61% Hunter's Burst
-2% Hunter's Grasp
+30% Hunter's Snare
+28% Hunter's Drive
+42% Lure Drive
 
 Rukyuk:
-3% Gunner Strike (Swift)
-4% Gunner Grasp (Explosive)
-5% Gunner Grasp (Swift)
-88% Gunner Dash
+97% Sniper Dash
+2% Gunner Strike (Longshot)
+2% Gunner Drive (Swift)
 
 
-Khadath: Hunter's Burst
-Rukyuk: Gunner Dash
+Khadath: Hunter's Drive
+Rukyuk: Sniper Dash
 
-Rukyuk gets -3 priority
-Priorities:  1 | 6
+Khadath gets +2 power
+Khadath gets +2 priority
+Rukyuk gets -1 priority
+Priorities:  6 | 10
 Rukyuk is active
+Rukyuk moves:
+
+.R.K...
+.t.....
+
+Rukyuk moves:
+
+...KR..
+.t.....
+
 Khadath moves:
 
-.R..K..
-.t.....
-
-Rukyuk moves:
-
-..R.K..
-.t.....
-
-Rukyuk moves:
-
-....K.R
+....RK.
 .t.....
 
 Khadath misses
@@ -539,131 +534,127 @@ Beat 8
 
 Khadath
 -------
-life: 10
-discard 1: Hunter's Burst
-discard 2: Teleport Shot
+Life: 6
+Discard 1: Hunter's Drive
+Discard 2: Teleport Shot
 
 Rukyuk
 ------
-life: 14
-discard 1: Gunner Dash
-discard 2: Sniper Reload
+Life: 7
+Discard 1: Sniper Dash
+Discard 2: Crossfire Reload
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-....K.R
+....RK.
 .t.....
 
+
 Khadath:
-8% Evacuation Snare
-10% Evacuation Drive
-15% Evacuation Dash
-31% Blight Drive
-31% Blight Grasp
-4% Lure Strike
+22% Evacuation Grasp
+40% Blight Strike
+19% Blight Grasp
+19% Blight Dash
 
 Rukyuk:
-28% Point Blank Strike (Explosive)
-25% Point Blank Strike (Impact)
-16% Point Blank Shot (Explosive)
-5% Point Blank Shot (Impact)
-16% Point Blank Grasp (Impact)
-10% Point Blank Grasp (Longshot)
+20% Point Blank Strike (Explosive)
+7% Point Blank Grasp (Impact)
+38% Gunner Strike
+35% Gunner Burst (Swift)
 
 
-Khadath: Evacuation Drive
-Rukyuk: Point Blank Grasp (Impact)
+Khadath: Blight Grasp
+Rukyuk: Gunner Strike
 
-Rukyuk antes an Impact token
-Priorities:  4 | 5
-Rukyuk is active
+Priorities:  5 | 3
+Khadath is active
 Khadath moves trap:
 
-....K.R
-....t..
-
-Khadath moves:
-
-...K..R
-....t..
-
-Rukyuk misses
-Khadath moves:
-
-.....KR
-....t..
+....RK.
+...t...
 
 Khadath hits
-Rukyuk takes 3 damage (now at 11 life)
-Rukyuk is stunned
+Khadath moves Rukyuk:
+
+.....KR
+...t...
+
+Rukyuk takes 2 damage (now at 5 life)
+Rukyuk misses
+Rukyuk moves:
+
+....RK.
+...t...
+
 
 Beat 9
 -------
 
 Khadath
 -------
-life: 10
-discard 1: Evacuation Drive
-discard 2: Hunter's Burst
+Life: 6
+Discard 1: Blight Grasp
+Discard 2: Hunter's Drive
 
 Rukyuk
 ------
-life: 11
-discard 1: Point Blank Grasp
-discard 2: Gunner Dash
-pool: AP, Explosive, Flash, Longshot, Swift
+Life: 5
+Discard 1: Gunner Strike
+Discard 2: Sniper Dash
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-.....KR
-....t..
+....RK.
+...t...
+
 
 Khadath:
-4% Teleport Strike
+5% Teleport Strike
 22% Teleport Shot
-18% Teleport Grasp
-32% Teleport Dash
-10% Lure Strike
-13% Lure Dash
+9% Teleport Burst
+61% Teleport Dash
+3% Lure Dash
 
 Rukyuk:
-2% Sniper Reload
-66% Sniper Reload (Swift)
-12% Crossfire Reload
-2% Crossfire Burst
-15% Trick Strike (Longshot)
-1% Trick Drive (Longshot)
+25% Point Blank Drive (Explosive)
+2% Point Blank Burst (Explosive)
+2% Crossfire Reload
+2% Crossfire Reload (AP)
+2% Crossfire Reload (Explosive)
+2% Crossfire Reload (Flash)
+2% Crossfire Reload (Impact)
+2% Crossfire Reload (Longshot)
+3% Crossfire Reload (Swift)
+24% Crossfire Shot
+37% Crossfire Burst
 
 
 Khadath: Teleport Dash
-Rukyuk: Sniper Reload (Swift)
+Rukyuk: Crossfire Reload (Impact)
 
-Rukyuk antes a Swift token
-Priorities:  6 | 8
-Rukyuk is active
+Rukyuk antes an Impact token
+Rukyuk gets -1 priority
+Priorities:  6 | 1
+Khadath is active
+Khadath moves:
+
+...KR..
+...t...
+
 Rukyuk moves:
 
-....RK.
-....t..
-
-Rukyuk moves:
-
-.R...K.
-....t..
+..RK...
+...t...
 
 Khadath moves:
 
-.R.K...
-....t..
-
-Khadath moves:
-
-.RK....
-....t..
+.KR....
+...t...
 
 Khadath moves trap:
 
-.RK....
-.t.....
+.KR....
+..t....
 
 
 Beat 10
@@ -671,502 +662,201 @@ Beat 10
 
 Khadath
 -------
-life: 10
-discard 1: Teleport Dash
-discard 2: Evacuation Drive
+Life: 6
+Discard 1: Teleport Dash
+Discard 2: Blight Grasp
 
 Rukyuk
 ------
-life: 11
-discard 1: Sniper Reload
-discard 2: Point Blank Grasp
+Life: 5
+Discard 1: Crossfire Reload
+Discard 2: Gunner Strike
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-.RK....
-.t.....
+.KR....
+..t....
 
-Unbeatable strategy for Rukyuk: Gunner Strike (Longshot): -2.11
-Unbeatable strategy for Rukyuk: Gunner Dash: -3.73
-Unbeatable strategy for Rukyuk: Gunner Dash (AP): -3.23
-Unbeatable strategy for Rukyuk: Gunner Dash (Explosive): -2.83
-Unbeatable strategy for Rukyuk: Gunner Dash (Flash): -3.13
-Unbeatable strategy for Rukyuk: Gunner Dash (Impact): -3.03
-Unbeatable strategy for Rukyuk: Gunner Dash (Longshot): -2.73
-Unbeatable strategy for Rukyuk: Gunner Dash (Swift): -2.63
-Unbeatable strategy for Rukyuk: Crossfire Dash: -1.13
-Unbeatable strategy for Rukyuk: Crossfire Dash (AP): -0.63
-Unbeatable strategy for Rukyuk: Crossfire Dash (Explosive): -0.23
-Unbeatable strategy for Rukyuk: Crossfire Dash (Flash): -0.53
-Unbeatable strategy for Rukyuk: Crossfire Dash (Impact): -0.43
-Unbeatable strategy for Rukyuk: Crossfire Dash (Longshot): -0.13
-Unbeatable strategy for Rukyuk: Crossfire Dash (Swift): -0.88
 
 Khadath:
-51% Hunter's Snare
-37% Hunter's Burst
-12% Blight Grasp
+5% Hunter's Shot
+17% Hunter's Drive
+7% Lure Strike
+71% Lure Burst
 
 Rukyuk:
-4% Gunner Strike (Swift)
-3% Gunner Drive (Swift)
-93% Gunner Dash
+7% Sniper Grasp (Swift)
+69% Sniper Dash
+1% Point Blank Drive (Explosive)
+23% Point Blank Grasp (Explosive)
 
 
-Khadath: Blight Grasp
-Rukyuk: Gunner Dash
+Khadath: Lure Burst
+Rukyuk: Point Blank Grasp (Explosive)
 
+Rukyuk antes an Explosive token
 Rukyuk gets -3 priority
-Priorities:  5 | 6
+Priorities:  0 | 2
 Rukyuk is active
-Khadath moves trap:
+Khadath moves:
 
-.RK....
-.....t.
+K.R....
+..t....
 
-Rukyuk moves:
+Rukyuk hits
+Rukyuk moves Khadath:
 
-..KR...
-.....t.
+.KR....
+..t....
 
-Rukyuk moves:
+Khadath takes 4 damage (now at 2 life)
+Rukyuk moves Khadath:
 
-R.K....
-.....t.
+K.R....
+..t....
 
-Khadath misses
+Khadath is stunned
 
 Beat 11
 -------
 
 Khadath
 -------
-life: 10
-discard 1: Blight Grasp
-discard 2: Teleport Dash
+Life: 2
+Discard 1: Lure Burst
+Discard 2: Teleport Dash
 
 Rukyuk
 ------
-life: 11
-discard 1: Gunner Dash
-discard 2: Sniper Reload
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+Life: 5
+Discard 1: Point Blank Grasp
+Discard 2: Crossfire Reload
+pool: AP, Flash, Impact, Longshot, Swift
 
 
-R.K....
-.....t.
+K.R....
+..t....
 
-Unbeatable strategy for Rukyuk: Point Blank Shot (Explosive): -0.87
-Unbeatable strategy for Rukyuk: Point Blank Shot (Impact): -0.91
+Unbeatable strategy for Rukyuk: Sniper Dash: -4.73
+Unbeatable strategy for Rukyuk: Sniper Dash (AP): -4.23
+Unbeatable strategy for Rukyuk: Sniper Dash (Flash): -4.20
+Unbeatable strategy for Rukyuk: Sniper Dash (Impact): -4.03
+Unbeatable strategy for Rukyuk: Sniper Dash (Longshot): -3.73
+Unbeatable strategy for Rukyuk: Sniper Dash (Swift): -3.63
+Unbeatable strategy for Rukyuk: Gunner Dash: -5.07
+Unbeatable strategy for Rukyuk: Gunner Dash (AP): -4.57
+Unbeatable strategy for Rukyuk: Gunner Dash (Flash): -4.54
+Unbeatable strategy for Rukyuk: Gunner Dash (Impact): -4.37
+Unbeatable strategy for Rukyuk: Gunner Dash (Longshot): -4.07
+Unbeatable strategy for Rukyuk: Gunner Dash (Swift): -3.97
+
 
 Khadath:
-19% Hunter's Drive
-40% Evacuation Shot
-11% Evacuation Drive
-4% Evacuation Burst
-27% Lure Strike
+12% Hunter's Drive
+73% Blight Shot
+15% Blight Drive
 
 Rukyuk:
-19% Point Blank Strike (Longshot)
-46% Point Blank Shot (Explosive)
-1% Point Blank Shot (Swift)
-10% Point Blank Drive (Flash)
-24% Point Blank Grasp (Longshot)
+90% Sniper Dash
+1% Gunner Strike (Longshot)
+1% Trick Strike (Longshot)
+1% Trick Shot (Longshot)
+1% Trick Drive (Longshot)
+6% Trick Burst (Longshot)
 
 
-Khadath: Lure Strike
-Rukyuk: Point Blank Drive (Flash)
+Khadath: Blight Shot
+Rukyuk: Sniper Dash
 
-Rukyuk antes a Flash token
-Priorities:  2 | 4
+Rukyuk gets -3 priority
+Priorities:  2 | 8
 Rukyuk is active
+Khadath moves trap:
+
+K.R....
+......t
+
 Rukyuk moves:
 
-..KR...
-.....t.
-
-Rukyuk hits
-Rukyuk moves Khadath:
-
 K..R...
-.....t.
+......t
 
-Khadath takes 3 damage (now at 7 life)
-Khadath is stunned
+Rukyuk moves:
+
+K.....R
+......t
+
+Khadath hits
+Rukyuk takes 3 damage (now at 2 life)
+Rukyuk is stunned
 
 Beat 12
 -------
 
 Khadath
 -------
-life: 7
-discard 1: Lure Strike
-discard 2: Blight Grasp
+Life: 2
+Discard 1: Blight Shot
+Discard 2: Lure Burst
 
 Rukyuk
 ------
-life: 11
-discard 1: Point Blank Drive
-discard 2: Gunner Dash
-pool: AP, Explosive, Impact, Longshot, Swift
+Life: 2
+Discard 1: Sniper Dash
+Discard 2: Point Blank Grasp
+pool: AP, Flash, Impact, Longshot, Swift
 
 
-K..R...
-.....t.
+K.....R
+......t
+
+Unbeatable strategy for Rukyuk: Gunner Drive (Swift): -7.00
+
 
 Khadath:
-55% Teleport Drive
-45% Teleport Dash
+32% Hunter's Snare
+4% Hunter's Strike
+4% Hunter's Drive
+4% Hunter's Grasp
+4% Hunter's Dash
+5% Teleport Snare
+0% Teleport Strike
+1% Teleport Drive
+5% Teleport Grasp
+4% Teleport Dash
+11% Evacuation Snare
+2% Evacuation Strike
+8% Evacuation Drive
+9% Evacuation Grasp
+7% Evacuation Dash
 
 Rukyuk:
-10% Sniper Burst (Explosive)
-90% Sniper Grasp (Longshot)
+100% Gunner Drive (Swift)
 
 
-Khadath: Teleport Drive
-Rukyuk: Sniper Grasp (Longshot)
-
-Rukyuk antes a Longshot token
-Priorities:  1 | 7
-Rukyuk is active
-Rukyuk hits
-Rukyuk moves Khadath:
-
-.K.R...
-.....t.
-
-Khadath takes 3 damage (now at 4 life)
-Khadath is stunned
-Rukyuk moves:
-
-RK.....
-.....t.
-
-Khadath moves:
-
-R.K....
-.....t.
-
-Khadath moves trap:
-
-R.K....
-t......
-
-
-Beat 13
--------
-
-Khadath
--------
-life: 4
-discard 1: Teleport Drive
-discard 2: Lure Strike
-
-Rukyuk
-------
-life: 11
-discard 1: Sniper Grasp
-discard 2: Point Blank Drive
-pool: AP, Explosive, Impact, Swift
-
-
-R.K....
-t......
-
-Unbeatable strategy for Rukyuk: Gunner Reload (Swift): -0.17
-Unbeatable strategy for Rukyuk: Gunner Strike (AP): -0.45
-Unbeatable strategy for Rukyuk: Gunner Strike (Explosive): -0.05
-Unbeatable strategy for Rukyuk: Gunner Strike (Impact): -0.25
-Unbeatable strategy for Rukyuk: Gunner Strike (Swift): -0.35
-Unbeatable strategy for Rukyuk: Gunner Dash: -3.58
-Unbeatable strategy for Rukyuk: Gunner Dash (AP): -3.08
-Unbeatable strategy for Rukyuk: Gunner Dash (Explosive): -2.68
-Unbeatable strategy for Rukyuk: Gunner Dash (Impact): -2.88
-Unbeatable strategy for Rukyuk: Gunner Dash (Swift): -2.48
-Unbeatable strategy for Rukyuk: Crossfire Reload: -1.68
-Unbeatable strategy for Rukyuk: Crossfire Reload (AP): -1.68
-Unbeatable strategy for Rukyuk: Crossfire Reload (Explosive): -1.68
-Unbeatable strategy for Rukyuk: Crossfire Reload (Impact): -1.68
-Unbeatable strategy for Rukyuk: Crossfire Reload (Swift): -1.75
-Unbeatable strategy for Rukyuk: Crossfire Strike: -0.08
-Unbeatable strategy for Rukyuk: Crossfire Shot: -0.35
-Unbeatable strategy for Rukyuk: Crossfire Burst: -0.35
-Unbeatable strategy for Rukyuk: Trick Reload: -1.79
-Unbeatable strategy for Rukyuk: Trick Reload (AP): -1.79
-Unbeatable strategy for Rukyuk: Trick Reload (Explosive): -1.79
-Unbeatable strategy for Rukyuk: Trick Reload (Impact): -1.79
-Unbeatable strategy for Rukyuk: Trick Reload (Swift): -1.79
-
-Khadath:
-23% Hunter's Burst
-23% Evacuation Snare
-5% Blight Shot
-6% Blight Burst
-43% Blight Grasp
-
-Rukyuk:
-3% Gunner Strike (AP)
-4% Gunner Strike (Swift)
-86% Gunner Dash
-0% Crossfire Reload
-0% Crossfire Reload (AP)
-0% Crossfire Reload (Explosive)
-0% Crossfire Reload (Impact)
-6% Crossfire Reload (Swift)
-
-
-Khadath: Blight Grasp
-Rukyuk: Gunner Dash
-
-Rukyuk gets -3 priority
-Priorities:  5 | 6
-Rukyuk is active
-Khadath moves trap:
-
-R.K....
-.....t.
-
-Rukyuk moves:
-
-..KR...
-.....t.
-
-Rukyuk moves:
-
-R.K....
-.....t.
-
-Khadath misses
-
-Beat 14
--------
-
-Khadath
--------
-life: 4
-discard 1: Blight Grasp
-discard 2: Teleport Drive
-
-Rukyuk
-------
-life: 11
-discard 1: Gunner Dash
-discard 2: Sniper Grasp
-pool: AP, Explosive, Impact, Swift
-
-
-R.K....
-.....t.
-
-Unbeatable strategy for Rukyuk: Point Blank Shot (AP): -2.64
-Unbeatable strategy for Rukyuk: Point Blank Shot (Explosive): -2.24
-Unbeatable strategy for Rukyuk: Point Blank Shot (Impact): -2.44
-Unbeatable strategy for Rukyuk: Crossfire Reload: -0.15
-Unbeatable strategy for Rukyuk: Crossfire Reload (AP): -0.15
-Unbeatable strategy for Rukyuk: Crossfire Reload (Explosive): -0.15
-Unbeatable strategy for Rukyuk: Crossfire Reload (Impact): -0.15
-
-Khadath:
-7% Hunter's Shot
-25% Evacuation Shot
-52% Evacuation Dash
-16% Lure Strike
-
-Rukyuk:
-72% Point Blank Shot (AP)
-17% Point Blank Shot (Swift)
-8% Point Blank Drive (Explosive)
-3% Crossfire Shot (AP)
-
-
-Khadath: Lure Strike
-Rukyuk: Point Blank Shot (Swift)
+Khadath: Evacuation Dash
+Rukyuk: Gunner Drive (Swift)
 
 Rukyuk antes a Swift token
-Priorities:  2 | 4
-Rukyuk is active
-Rukyuk hits
-Khadath takes 3 damage (now at 1 life)
-Khadath hits
-Khadath moves Rukyuk:
-
-.RK....
-.....t.
-
-Rukyuk takes 3 damage (now at 8 life)
-
-Beat 15
--------
-
-Khadath
--------
-life: 1
-discard 1: Lure Strike
-discard 2: Blight Grasp
-
-Rukyuk
-------
-life: 8
-discard 1: Point Blank Shot
-discard 2: Gunner Dash
-pool: AP, Explosive, Impact
-
-
-.RK....
-.....t.
-
-Unbeatable strategy for Rukyuk: Sniper Reload: -6.00
-Unbeatable strategy for Rukyuk: Sniper Reload (AP): -6.00
-Unbeatable strategy for Rukyuk: Sniper Reload (Explosive): -6.00
-Unbeatable strategy for Rukyuk: Sniper Reload (Impact): -6.00
-Unbeatable strategy for Rukyuk: Sniper Strike: -6.00
-Unbeatable strategy for Rukyuk: Sniper Strike (AP): -6.00
-Unbeatable strategy for Rukyuk: Sniper Strike (Explosive): -6.00
-Unbeatable strategy for Rukyuk: Sniper Strike (Impact): -6.00
-Unbeatable strategy for Rukyuk: Sniper Drive: -6.00
-Unbeatable strategy for Rukyuk: Sniper Drive (AP): -6.00
-Unbeatable strategy for Rukyuk: Sniper Drive (Explosive): -6.00
-Unbeatable strategy for Rukyuk: Sniper Drive (Impact): -6.00
-Unbeatable strategy for Rukyuk: Sniper Burst: -6.00
-Unbeatable strategy for Rukyuk: Sniper Burst (AP): -6.00
-Unbeatable strategy for Rukyuk: Sniper Burst (Explosive): -6.00
-Unbeatable strategy for Rukyuk: Sniper Burst (Impact): -6.00
-Unbeatable strategy for Rukyuk: Sniper Grasp: -6.00
-Unbeatable strategy for Rukyuk: Sniper Grasp (AP): -6.00
-Unbeatable strategy for Rukyuk: Sniper Grasp (Explosive): -6.00
-Unbeatable strategy for Rukyuk: Sniper Grasp (Impact): -6.00
-Unbeatable strategy for Rukyuk: Crossfire Reload: -6.00
-Unbeatable strategy for Rukyuk: Crossfire Reload (AP): -6.00
-Unbeatable strategy for Rukyuk: Crossfire Reload (Explosive): -6.00
-Unbeatable strategy for Rukyuk: Crossfire Reload (Impact): -6.00
-Unbeatable strategy for Rukyuk: Crossfire Strike: -6.00
-Unbeatable strategy for Rukyuk: Crossfire Strike (AP): -6.00
-Unbeatable strategy for Rukyuk: Crossfire Strike (Explosive): -6.00
-Unbeatable strategy for Rukyuk: Crossfire Strike (Impact): -6.00
-Unbeatable strategy for Rukyuk: Crossfire Drive: -6.00
-Unbeatable strategy for Rukyuk: Crossfire Drive (AP): -6.00
-Unbeatable strategy for Rukyuk: Crossfire Drive (Explosive): -6.00
-Unbeatable strategy for Rukyuk: Crossfire Drive (Impact): -6.00
-Unbeatable strategy for Rukyuk: Crossfire Burst: -6.00
-Unbeatable strategy for Rukyuk: Crossfire Burst (AP): -6.00
-Unbeatable strategy for Rukyuk: Crossfire Burst (Explosive): -6.00
-Unbeatable strategy for Rukyuk: Crossfire Burst (Impact): -6.00
-Unbeatable strategy for Rukyuk: Crossfire Grasp: -6.00
-Unbeatable strategy for Rukyuk: Crossfire Grasp (AP): -6.00
-Unbeatable strategy for Rukyuk: Crossfire Grasp (Explosive): -6.00
-Unbeatable strategy for Rukyuk: Crossfire Grasp (Impact): -6.00
-Unbeatable strategy for Rukyuk: Trick Reload: -6.00
-Unbeatable strategy for Rukyuk: Trick Reload (AP): -6.00
-Unbeatable strategy for Rukyuk: Trick Reload (Explosive): -6.00
-Unbeatable strategy for Rukyuk: Trick Reload (Impact): -6.00
-Unbeatable strategy for Rukyuk: Trick Strike: -6.00
-Unbeatable strategy for Rukyuk: Trick Strike (AP): -6.00
-Unbeatable strategy for Rukyuk: Trick Strike (Explosive): -6.00
-Unbeatable strategy for Rukyuk: Trick Strike (Impact): -6.00
-Unbeatable strategy for Rukyuk: Trick Drive: -6.00
-Unbeatable strategy for Rukyuk: Trick Drive (AP): -6.00
-Unbeatable strategy for Rukyuk: Trick Drive (Explosive): -6.00
-Unbeatable strategy for Rukyuk: Trick Drive (Impact): -6.00
-Unbeatable strategy for Rukyuk: Trick Burst: -6.00
-Unbeatable strategy for Rukyuk: Trick Burst (AP): -6.00
-Unbeatable strategy for Rukyuk: Trick Burst (Explosive): -6.00
-Unbeatable strategy for Rukyuk: Trick Burst (Impact): -6.00
-Unbeatable strategy for Rukyuk: Trick Grasp: -6.00
-Unbeatable strategy for Rukyuk: Trick Grasp (AP): -6.00
-Unbeatable strategy for Rukyuk: Trick Grasp (Explosive): -6.00
-Unbeatable strategy for Rukyuk: Trick Grasp (Impact): -6.00
-
-Khadath:
-7% Hunter's Snare
-7% Hunter's Shot
-6% Hunter's Drive
-7% Hunter's Burst
-6% Hunter's Dash
-7% Teleport Snare
-7% Teleport Shot
-7% Teleport Drive
-7% Teleport Burst
-7% Teleport Dash
-7% Evacuation Snare
-7% Evacuation Shot
-6% Evacuation Drive
-7% Evacuation Burst
-6% Evacuation Dash
-
-Rukyuk:
-2% Sniper Reload
-2% Sniper Reload (AP)
-2% Sniper Reload (Explosive)
-2% Sniper Reload (Impact)
-2% Sniper Strike
-2% Sniper Strike (AP)
-2% Sniper Strike (Explosive)
-2% Sniper Strike (Impact)
-2% Sniper Drive
-2% Sniper Drive (AP)
-2% Sniper Drive (Explosive)
-2% Sniper Drive (Impact)
-2% Sniper Burst
-2% Sniper Burst (AP)
-2% Sniper Burst (Explosive)
-2% Sniper Burst (Impact)
-2% Sniper Grasp
-2% Sniper Grasp (AP)
-2% Sniper Grasp (Explosive)
-2% Sniper Grasp (Impact)
-2% Crossfire Reload
-2% Crossfire Reload (AP)
-2% Crossfire Reload (Explosive)
-2% Crossfire Reload (Impact)
-2% Crossfire Strike
-2% Crossfire Strike (AP)
-2% Crossfire Strike (Explosive)
-2% Crossfire Strike (Impact)
-2% Crossfire Drive
-2% Crossfire Drive (AP)
-2% Crossfire Drive (Explosive)
-2% Crossfire Drive (Impact)
-2% Crossfire Burst
-2% Crossfire Burst (AP)
-2% Crossfire Burst (Explosive)
-2% Crossfire Burst (Impact)
-2% Crossfire Grasp
-2% Crossfire Grasp (AP)
-2% Crossfire Grasp (Explosive)
-2% Crossfire Grasp (Impact)
-2% Trick Reload
-2% Trick Reload (AP)
-2% Trick Reload (Explosive)
-2% Trick Reload (Impact)
-2% Trick Strike
-2% Trick Strike (AP)
-2% Trick Strike (Explosive)
-2% Trick Strike (Impact)
-2% Trick Drive
-2% Trick Drive (AP)
-2% Trick Drive (Explosive)
-2% Trick Drive (Impact)
-2% Trick Burst
-2% Trick Burst (AP)
-2% Trick Burst (Explosive)
-2% Trick Burst (Impact)
-2% Trick Grasp
-2% Trick Grasp (AP)
-2% Trick Grasp (Explosive)
-2% Trick Grasp (Impact)
-
-
-Khadath: Hunter's Dash
-Rukyuk: Trick Grasp
-
-Priorities:  9 | 2
+Rukyuk gets -3 priority
+Priorities:  9 | 3
 Khadath is active
+Khadath moves trap:
+
+K.....R
+t......
+
 Khadath moves:
 
-KR.....
-.....t.
+.K....R
+t......
 
-Rukyuk misses
-Game goes to time
+Rukyuk moves:
+
+.K..R..
+t......
+
+Rukyuk hits
+Khadath takes 3 damage (now at 0 life)
 RUKYUK WINS!
-total_time: 117
+total_time: 141

@@ -11,98 +11,100 @@ Beat 1
 
 Byron
 -----
-life: 15
-discard 1: Soulless Strike
-discard 2: Heartless Shot
-special action
+Life: 15
+Discard 1: Soulless Strike
+Discard 2: Heartless Shot
+Special action available
 5 Mask emblems
 
 Khadath
 -------
-life: 20
-discard 1: Evacuation Grasp
-discard 2: Hunter's Snare
-special action
+Life: 20
+Discard 1: Evacuation Grasp
+Discard 2: Hunter's Snare
+Special action available
 
 
 .B...K.
 
 
+
 Byron:
-19% Deathless Smoke
-10% Deathless Grasp
-24% Breathless Smoke
-47% Breathless Grasp
+42% Deathless Smoke
+58% Breathless Grasp
 
 Khadath:
-61% Teleport Dash
-2% Blight Shot
-34% Blight Drive
-4% Lure Strike
+70% Teleport Dash
+30% Blight Drive
 
 
 Byron: Breathless Grasp
-Khadath: Blight Drive
+Khadath: Teleport Dash
 
-Priorities:  5 | 4
-Byron is active
+Priorities:  5 | 6
+Khadath is active
+Khadath moves:
+
+.B.K...
+
+
+Byron misses
+Khadath moves:
+
+.BK....
+
+
 Khadath moves trap:
 
-.B...K.
-..t....
+.BK....
+.t.....
 
-Byron hits
-Byron moves Khadath:
-
-.B....K
-..t....
-
-Khadath takes 2 damage (now at 18 life)
-Khadath is stunned
 
 Beat 2
 -------
 
 Byron
 -----
-life: 15
-discard 1: Breathless Grasp
-discard 2: Soulless Strike
-special action
+Life: 15
+Discard 1: Breathless Grasp
+Discard 2: Soulless Strike
+Special action available
 5 Mask emblems
 
 Khadath
 -------
-life: 18
-discard 1: Blight Drive
-discard 2: Evacuation Grasp
-special action
+Life: 20
+Discard 1: Teleport Dash
+Discard 2: Evacuation Grasp
+Special action available
 
 
-.B....K
-..t....
+.BK....
+.t.....
 
-Unbeatable strategy for Khadath: Teleport Dash: -1.21
-Unbeatable strategy for Khadath: Lure Strike: -0.41
+Unbeatable strategy for Khadath: Blight Drive: -0.36
+
 
 Byron:
-15% Deathless Drive
-24% Deathless Burst
-61% Special Pulse
+5% Deathless Dash
+8% Heartless Drive
+24% Heartless Dash
+64% Special Pulse
 
 Khadath:
-55% Teleport Snare
-40% Teleport Dash
-5% Lure Strike
+29% Hunter's Snare
+1% Hunter's Strike
+39% Blight Drive
+31% Blight Burst
 
 
 Byron: Special Pulse
-Khadath: Teleport Snare
+Khadath: Blight Burst
 
 Pulse:
 
-B.....K
-..t....
+K.....B
+.t.....
 
 
 Beat 2
@@ -110,45 +112,51 @@ Beat 2
 
 Byron
 -----
-life: 15
-discard 1: Breathless Grasp
-discard 2: Soulless Strike
+Life: 15
+Discard 1: Breathless Grasp
+Discard 2: Soulless Strike
 5 Mask emblems
 
 Khadath
 -------
-life: 18
-discard 1: Teleport Snare
-discard 2: Blight Drive
-special action
+Life: 20
+Discard 1: Blight Burst
+Discard 2: Teleport Dash
+Special action available
 
 
-B.....K
-..t....
+K.....B
+.t.....
 
-Unbeatable strategy for Khadath: Lure Strike: -3.19
-Unbeatable strategy for Khadath: Lure Grasp: -4.36
+Unbeatable strategy for Khadath: Lure Strike: -0.13
+Unbeatable strategy for Khadath: Lure Drive: -4.15
+Unbeatable strategy for Khadath: Lure Grasp: -4.70
+
 
 Byron:
-64% Deathless Shot
-36% Heartless Shot
+30% Deathless Drive
+70% Faceless Shot
 
 Khadath:
-47% Lure Strike
-3% Lure Shot
-50% Lure Grasp
+35% Lure Strike
+65% Lure Grasp
 
 
-Byron: Deathless Shot
-Khadath: Lure Strike
+Byron: Faceless Shot
+Khadath: Lure Grasp
 
-Priorities:  1 | 2
+Priorities:  2 | 4
 Khadath is active
 Khadath hits
 Khadath moves Byron:
 
-.....BK
-..t....
+K....B.
+.t.....
+
+Khadath moves Byron:
+
+K.....B
+.t.....
 
 Byron takes 1 damage (now at 14 life)
 Byron loses a Mask Emblem: now at 4
@@ -159,411 +167,577 @@ Beat 3
 
 Byron
 -----
-life: 12
-discard 1: Deathless Shot
-discard 2: Breathless Grasp
+Life: 12
+Discard 1: Faceless Shot
+Discard 2: Breathless Grasp
 4 Mask emblems
 
 Khadath
 -------
-life: 18
-discard 1: Lure Strike
-discard 2: Teleport Snare
-special action
+Life: 20
+Discard 1: Lure Grasp
+Discard 2: Blight Burst
+Special action available
 
 
-.....BK
-..t....
+K.....B
+.t.....
 
-Unbeatable strategy for Khadath: Hunter's Dash: -1.98
-Unbeatable strategy for Khadath: Evacuation Dash: -0.46
-Unbeatable strategy for Khadath: Blight Drive: -1.25
-Unbeatable strategy for Khadath: Blight Grasp: -0.25
-Unbeatable strategy for Khadath: Blight Dash: -1.48
+Unbeatable strategy for Khadath: Teleport Snare: -3.08
+Unbeatable strategy for Khadath: Teleport Strike: -6.24
+Unbeatable strategy for Khadath: Teleport Shot: -6.07
+Unbeatable strategy for Khadath: Teleport Drive: -1.08
+Unbeatable strategy for Khadath: Teleport Dash: -0.42
+
 
 Byron:
-16% Soulless Drive
-8% Heartless Drive
-58% Faceless Strike
-18% Faceless Drive
+100% Heartless Burst
 
 Khadath:
-18% Hunter's Dash
-41% Evacuation Dash
-23% Blight Drive
-19% Blight Grasp
+100% Teleport Strike
 
 
-Byron: Faceless Drive
-Khadath: Blight Grasp
+Byron: Heartless Burst
+Khadath: Teleport Strike
 
-Priorities:  4 | 5
-Khadath is active
+Priorities:  2 | 0
+Byron is active
+Byron misses
+Khadath misses
+Khadath moves:
+
+....K.B
+.t.....
+
 Khadath moves trap:
 
-.....BK
-....t..
+....K.B
+......t
 
-Khadath hits
-Khadath moves Byron:
-
-....B.K
-....t..
-
-Byron takes 2 damage (now at 10 life)
-Byron is stunned
-Byron loses a Mask Emblem: now at 3
 
 Beat 4
 -------
 
 Byron
 -----
-life: 9
-discard 1: Faceless Drive
-discard 2: Deathless Shot
-3 Mask emblems
+Life: 12
+Discard 1: Heartless Burst
+Discard 2: Faceless Shot
+4 Mask emblems
 
 Khadath
 -------
-life: 18
-discard 1: Blight Grasp
-discard 2: Lure Strike
-special action
+Life: 20
+Discard 1: Teleport Strike
+Discard 2: Lure Grasp
+Special action available
 
 
-....B.K
-....t..
+....K.B
+......t
+
+Unbeatable strategy for Byron: Breathless Smoke: 0.11
+Unbeatable strategy for Byron: Breathless Strike: 1.20
+
 
 Byron:
-6% Heartless Strike
-29% Heartless Grasp
-44% Heartless Dash
-10% Breathless Smoke
-11% Breathless Burst
+20% Soulless Smoke
+35% Breathless Grasp
+45% Breathless Dash
 
 Khadath:
-11% Hunter's Drive
-12% Teleport Snare
-3% Teleport Shot
-11% Teleport Drive
-63% Teleport Dash
-
-
-Byron: Breathless Smoke
-Khadath: Teleport Snare
-
-Byron gets -3 priority
-Priorities:  0 | -2
-Byron is active
-Byron hits
-Byron moves Khadath:
-
-....BK.
-....t..
-
-Khadath takes 2 damage (now at 16 life)
-Khadath hits
-Byron takes 4 damage (now at 5 life)
-Byron is stunned
-Byron loses a Mask Emblem: now at 2
-Khadath moves:
-
-..K.B..
-....t..
-
-
-Beat 5
--------
-
-Byron
------
-life: 6
-discard 1: Breathless Smoke
-discard 2: Faceless Drive
-2 Mask emblems
-
-Khadath
--------
-life: 16
-discard 1: Teleport Snare
-discard 2: Blight Grasp
-special action
-
-
-..K.B..
-....t..
-
-Byron:
-17% Soulless Shot
-23% Deathless Strike
-47% Deathless Dash
-13% Heartless Grasp
-
-Khadath:
-38% Evacuation Shot
-22% Lure Strike
-28% Lure Burst
-12% Lure Dash
-
-
-Byron: Deathless Strike
-Khadath: Lure Burst
-
-Byron gets -3 priority
-Priorities:  -1 | 0
-Khadath is active
-Khadath moves:
-
-.K..B..
-....t..
-
-Khadath hits
-Khadath moves Byron:
-
-.KB....
-....t..
-
-Byron takes 1 damage (now at 5 life)
-Byron loses a Mask Emblem: now at 1
-Byron misses
-
-Beat 6
--------
-
-Byron
------
-life: 3
-discard 1: Deathless Strike
-discard 2: Breathless Smoke
-1 Mask emblems
-
-Khadath
--------
-life: 16
-discard 1: Lure Burst
-discard 2: Teleport Snare
-special action
-
-
-.KB....
-....t..
-
-Unbeatable strategy for Khadath: Hunter's Dash: -1.36
-Unbeatable strategy for Khadath: Blight Dash: -0.86
-
-Byron:
-6% Soulless Shot
-30% Soulless Dash
-35% Heartless Dash
-1% Faceless Drive
-28% Faceless Grasp
-0% Faceless Dash
-
-Khadath:
-39% Hunter's Dash
-1% Evacuation Shot
-4% Evacuation Grasp
-26% Evacuation Dash
-26% Blight Shot
-4% Blight Grasp
-
-
-Byron: Faceless Grasp
-Khadath: Evacuation Dash
-
-Priorities:  5 | 9
-Khadath is active
-Khadath moves trap:
-
-.KB....
-.t.....
-
-Khadath moves:
-
-K.B....
-.t.....
-
-Khadath moves:
-
-..B.K..
-.t.....
-
-Byron misses
-
-Beat 7
--------
-
-Byron
------
-life: 3
-discard 1: Faceless Grasp
-discard 2: Deathless Strike
-1 Mask emblems
-
-Khadath
--------
-life: 16
-discard 1: Evacuation Dash
-discard 2: Lure Burst
-special action
-
-
-..B.K..
-.t.....
-
-Byron:
-50% Soulless Shot
-32% Soulless Drive
-8% Heartless Shot
-11% Breathless Dash
-
-Khadath:
-24% Teleport Shot
-46% Teleport Drive
-24% Blight Drive
-6% Blight Grasp
-
-
-Byron: Soulless Shot
-Khadath: Teleport Drive
-
-Byron gets -1 priority
-Priorities:  -3 | 1
-Khadath is active
-Khadath moves:
-
-..BK...
-.t.....
-
-Khadath hits
-Byron has 4 soak
-Byron takes 0 damage (now at 3 life)
-Byron loses a Mask Emblem: now at 0
-Byron hits
-Khadath takes 4 damage (now at 12 life)
-Khadath is stunned
-Khadath moves:
-
-.KB....
-.t.....
-
-Khadath moves trap:
-
-.KB....
-..t....
-
-
-Beat 8
--------
-
-Byron
------
-life: 1
-discard 1: Soulless Shot
-discard 2: Faceless Grasp
-0 Mask emblems
-
-Khadath
--------
-life: 12
-discard 1: Teleport Drive
-discard 2: Evacuation Dash
-special action
-
-
-.KB....
-..t....
-
-Unbeatable strategy for Byron: Heartless Dash: 0.19
-Unbeatable strategy for Byron: Breathless Dash: 0.67
-
-Byron:
-22% Heartless Drive
-78% Breathless Dash
-
-Khadath:
-74% Blight Shot
-26% Lure Shot
+23% Evacuation Shot
+13% Blight Shot
+63% Blight Drive
 
 
 Byron: Breathless Dash
-Khadath: Blight Shot
+Khadath: Evacuation Shot
 
 Byron gets -3 priority
 Priorities:  6 | 2
 Byron is active
 Byron moves:
 
-BK.....
-..t....
+.B..K..
+......t
 
 Khadath moves trap:
 
-BK.....
-..t....
+.B..K..
+....t..
+
+Khadath moves:
+
+.B...K.
+....t..
 
 Byron moves:
 
-.KB....
-..t....
+B....K.
+....t..
+
+Khadath hits
+Byron takes 3 damage (now at 9 life)
+Byron is stunned
+Byron loses a Mask Emblem: now at 3
+
+Beat 5
+-------
+
+Byron
+-----
+Life: 9
+Discard 1: Breathless Dash
+Discard 2: Heartless Burst
+3 Mask emblems
+
+Khadath
+-------
+Life: 20
+Discard 1: Evacuation Shot
+Discard 2: Teleport Strike
+Special action available
+
+
+B....K.
+....t..
+
+Unbeatable strategy for Khadath: Lure Drive: -1.15
+Unbeatable strategy for Khadath: Lure Grasp: -1.72
+
+
+Byron:
+8% Soulless Shot
+6% Deathless Shot
+26% Deathless Drive
+26% Deathless Grasp
+34% Faceless Shot
+
+Khadath:
+15% Blight Drive
+14% Blight Burst
+44% Lure Drive
+8% Lure Burst
+19% Lure Grasp
+
+
+Byron: Faceless Shot
+Khadath: Lure Drive
+
+Priorities:  2 | 3
+Khadath is active
+Khadath moves:
+
+B...K..
+....t..
+
+Khadath hits
+Khadath moves Byron:
+
+...BK..
+....t..
+
+Byron takes 2 damage (now at 7 life)
+Byron loses a Mask Emblem: now at 2
+Byron hits
+Khadath takes 4 damage (now at 16 life)
+Khadath is stunned
+
+Beat 6
+-------
+
+Byron
+-----
+Life: 6
+Discard 1: Faceless Shot
+Discard 2: Breathless Dash
+2 Mask emblems
+
+Khadath
+-------
+Life: 16
+Discard 1: Lure Drive
+Discard 2: Evacuation Shot
+Special action available
+
+
+...BK..
+....t..
+
+Unbeatable strategy for Khadath: Teleport Burst: -1.69
+Unbeatable strategy for Khadath: Teleport Dash: -2.00
+Unbeatable strategy for Khadath: Blight Dash: -1.25
+
+
+Byron:
+36% Soulless Drive
+38% Deathless Drive
+19% Deathless Burst
+8% Heartless Grasp
+
+Khadath:
+24% Teleport Burst
+50% Teleport Dash
+0% Blight Strike
+26% Blight Grasp
+
+
+Byron: Heartless Grasp
+Khadath: Teleport Dash
+
+Byron gets -1 priority
+Priorities:  5 | 6
+Khadath is active
+Khadath moves:
+
+K..B...
+....t..
+
+Byron misses
+Khadath moves:
+
+.K.B...
+....t..
+
+Khadath moves trap:
+
+.K.B...
+...t...
+
+
+Beat 7
+-------
+
+Byron
+-----
+Life: 6
+Discard 1: Heartless Grasp
+Discard 2: Faceless Shot
+2 Mask emblems
+
+Khadath
+-------
+Life: 16
+Discard 1: Teleport Dash
+Discard 2: Lure Drive
+Special action available
+
+
+.K.B...
+...t...
+
+Unbeatable strategy for Byron: Breathless Dash: 1.78
+
+
+Byron:
+24% Deathless Strike
+76% Breathless Dash
+
+Khadath:
+84% Blight Shot
+16% Blight Grasp
+
+
+Byron: Breathless Dash
+Khadath: Blight Grasp
+
+Byron gets -3 priority
+Priorities:  6 | 5
+Byron is active
+Khadath moves trap:
+
+.K.B...
+t......
+
+Byron moves:
+
+.K....B
+t......
 
 Khadath misses
+
+Beat 8
+-------
+
+Byron
+-----
+Life: 6
+Discard 1: Breathless Dash
+Discard 2: Heartless Grasp
+2 Mask emblems
+
+Khadath
+-------
+Life: 16
+Discard 1: Blight Grasp
+Discard 2: Teleport Dash
+Special action available
+
+
+.K....B
+t......
+
+
+Byron:
+50% Soulless Shot
+33% Deathless Drive
+17% Faceless Shot
+
+Khadath:
+1% Evacuation Strike
+2% Lure Strike
+97% Lure Drive
+
+
+Byron: Deathless Drive
+Khadath: Lure Drive
+
+Priorities:  3 | 3
+Clash!
+
+
+Byron: Deathless Strike
+Khadath: Lure Strike
+
+Priorities:  2 | 2
+Clash!
+
+
+Byron: Deathless Smoke
+Khadath: Lure Shot
+
+Priorities:  2 | 1
+Byron is active
+Byron hits
+Byron moves Khadath:
+
+K.....B
+t......
+
+Khadath takes 4 damage (now at 12 life)
+Khadath is stunned
 
 Beat 9
 -------
 
 Byron
 -----
-life: 1
-discard 1: Breathless Dash
-discard 2: Soulless Shot
-0 Mask emblems
+Life: 6
+Discard 1: Deathless Smoke
+Discard 2: Breathless Dash
+2 Mask emblems
 
 Khadath
 -------
-life: 12
-discard 1: Blight Shot
-discard 2: Teleport Drive
-special action
+Life: 12
+Discard 1: Lure Shot
+Discard 2: Blight Grasp
+Special action available
+
+
+K.....B
+t......
+
+Unbeatable strategy for Khadath: Teleport Strike: -1.34
+Unbeatable strategy for Khadath: Teleport Drive: -1.29
+Unbeatable strategy for Khadath: Teleport Burst: -0.77
+Unbeatable strategy for Khadath: Teleport Dash: -0.79
+
+
+Byron:
+100% Heartless Shot
+
+Khadath:
+100% Teleport Strike
+
+
+Byron: Heartless Shot
+Khadath: Teleport Strike
+
+Priorities:  3 | 0
+Byron is active
+Byron hits
+Khadath takes 4 damage (now at 8 life)
+Khadath misses
+Khadath moves:
+
+....K.B
+t......
+
+Khadath moves trap:
+
+....K.B
+......t
+
+
+Beat 10
+-------
+
+Byron
+-----
+Life: 6
+Discard 1: Heartless Shot
+Discard 2: Deathless Smoke
+2 Mask emblems
+
+Khadath
+-------
+Life: 8
+Discard 1: Teleport Strike
+Discard 2: Lure Shot
+Special action available
+
+
+....K.B
+......t
+
+Unbeatable strategy for Byron: Breathless Strike: 1.34
+Unbeatable strategy for Byron: Breathless Burst: 1.34
+Unbeatable strategy for Byron: Breathless Grasp: 1.29
+
+
+Byron:
+4% Faceless Strike
+14% Breathless Grasp
+82% Breathless Dash
+
+Khadath:
+23% Evacuation Drive
+38% Blight Drive
+39% Blight Grasp
+
+
+Byron: Breathless Dash
+Khadath: Blight Grasp
+
+Byron gets -3 priority
+Priorities:  6 | 5
+Byron is active
+Byron moves:
+
+.B..K..
+......t
+
+Khadath moves trap:
+
+.B..K..
+..t....
+
+Byron moves:
+
+B...K..
+..t....
+
+Khadath misses
+
+Beat 11
+-------
+
+Byron
+-----
+Life: 6
+Discard 1: Breathless Dash
+Discard 2: Heartless Shot
+2 Mask emblems
+
+Khadath
+-------
+Life: 8
+Discard 1: Blight Grasp
+Discard 2: Teleport Strike
+Special action available
+
+
+B...K..
+..t....
+
+
+Byron:
+7% Deathless Strike
+69% Deathless Drive
+24% Deathless Grasp
+
+Khadath:
+45% Lure Snare
+11% Lure Drive
+44% Lure Burst
+
+
+Byron: Deathless Drive
+Khadath: Lure Burst
+
+Priorities:  3 | 0
+Byron is active
+Khadath moves:
+
+B.....K
+..t....
+
+Byron moves:
+
+..B...K
+..t....
+
+Byron hits
+Khadath takes 5 damage (now at 3 life)
+Byron moves Khadath:
+
+.KB....
+..t....
+
+Khadath is stunned
+
+Beat 12
+-------
+
+Byron
+-----
+Life: 6
+Discard 1: Deathless Drive
+Discard 2: Breathless Dash
+2 Mask emblems
+
+Khadath
+-------
+Life: 3
+Discard 1: Lure Burst
+Discard 2: Blight Grasp
+Special action available
 
 
 .KB....
 ..t....
 
-Unbeatable strategy for Khadath: Lure Strike: -6.00
-Unbeatable strategy for Khadath: Lure Grasp: -6.00
 
 Byron:
-8% Deathless Smoke
-8% Deathless Strike
-4% Deathless Drive
-7% Deathless Burst
-7% Deathless Grasp
-6% Heartless Smoke
-7% Heartless Strike
-5% Heartless Drive
-6% Heartless Burst
-8% Heartless Grasp
-8% Faceless Smoke
-8% Faceless Strike
-4% Faceless Drive
-6% Faceless Burst
-8% Faceless Grasp
+17% Soulless Smoke
+17% Soulless Shot
+39% Heartless Smoke
+8% Heartless Shot
+20% Heartless Burst
 
 Khadath:
-50% Lure Strike
-50% Lure Grasp
+11% Hunter's Strike
+1% Hunter's Dash
+88% Teleport Dash
 
 
-Byron: Heartless Grasp
-Khadath: Lure Strike
+Byron: Soulless Shot
+Khadath: Hunter's Strike
 
+Khadath loses 2 life (now at 1)
+Byron gets +2 power
+Khadath gets +2 power
+Khadath gets +2 priority
 Byron gets -3 priority
-Priorities:  3 | 2
-Byron is active
-Byron misses
+Priorities:  -5 | 5
+Khadath is active
 Khadath hits
-Byron takes 3 damage (now at 0 life)
-KHADATH WINS!
-total_time: 8
+Byron has 3 soak
+Byron takes 3 damage (now at 3 life)
+Byron loses a Mask Emblem: now at 1
+Byron hits
+Khadath takes 6 damage (now at 0 life)
+BYRON WINS!
+total_time: 13

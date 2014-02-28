@@ -11,79 +11,65 @@ Beat 1
 
 Khadath
 -------
-life: 20
-discard 1: Evacuation Grasp
-discard 2: Hunter's Snare
-special action
+Life: 20
+Discard 1: Evacuation Grasp
+Discard 2: Hunter's Snare
+Special action available
 
 Vanaah
 ------
-life: 20
-discard 1: Vengeance Burst
-discard 2: Reaping Strike
-special action
+Life: 20
+Discard 1: Vengeance Burst
+Discard 2: Reaping Strike
+Special action available
 Divine Rush token in pool
 
 
 .K...V.
 
 
-Unbeatable strategy for Vanaah: Paladin Shot (Divine Rush): -0.54
+Unbeatable strategy for Vanaah: Paladin Shot (Divine Rush): -0.13
+
 
 Khadath:
-42% Teleport Burst
-10% Blight Shot
-49% Blight Drive
+32% Teleport Burst
+16% Teleport Dash
+18% Blight Shot
+34% Blight Drive
 
 Vanaah:
 35% Glorious Shot (Divine Rush)
 13% Paladin Scythe (Divine Rush)
-53% Paladin Shot (Divine Rush)
+4% Paladin Shot
+48% Paladin Shot (Divine Rush)
 
 
-Khadath: Blight Shot
-Vanaah: Paladin Shot (Divine Rush)
-
-Vanaah antes a Divine Rush token
-Priorities:  2 | 2
-Clash!
-
-Khadath:
-71% Blight Burst
-29% Blight Dash
-
-Vanaah:
-13% Paladin Scythe (Divine Rush)
-16% Paladin Drive (Divine Rush)
-71% Paladin Dash (Divine Rush)
-
-
-Khadath: Blight Burst
-Vanaah: Paladin Dash (Divine Rush)
+Khadath: Teleport Dash
+Vanaah: Glorious Shot (Divine Rush)
 
 Vanaah antes a Divine Rush token
-Priorities:  1 | 9
-Vanaah is active
+Priorities:  6 | 4
+Khadath is active
 Khadath moves:
 
-K....V.
+..K..V.
+
+
+Vanaah moves:
+
+..K.V..
+
+
+Vanaah misses
+Khadath moves:
+
+K...V..
 
 
 Khadath moves trap:
 
-K....V.
-..t....
-
-Vanaah moves:
-
-K.....V
-..t....
-
-Khadath misses
-Vanaah moves:
-
-KV.....
-..t....
+K...V..
+....t..
 
 
 Beat 2
@@ -91,63 +77,65 @@ Beat 2
 
 Khadath
 -------
-life: 20
-discard 1: Blight Burst
-discard 2: Evacuation Grasp
-special action
+Life: 20
+Discard 1: Teleport Dash
+Discard 2: Evacuation Grasp
+Special action available
 
 Vanaah
 ------
-life: 20
-discard 1: Paladin Dash Divine Rush
-discard 2: Vengeance Burst
-special action
+Life: 20
+Discard 1: Glorious Shot Divine Rush
+Discard 2: Vengeance Burst
+Special action available
 
 
-KV.....
-..t....
+K...V..
+....t..
 
-Unbeatable strategy for Khadath: Teleport Dash: 0.74
+Unbeatable strategy for Vanaah: Reaping Dash: -1.01
+Unbeatable strategy for Vanaah: Judgment Dash: -0.70
+Unbeatable strategy for Vanaah: Paladin Scythe: -3.91
+Unbeatable strategy for Vanaah: Paladin Drive: -0.69
+
 
 Khadath:
-1% Hunter's Drive
-0% Teleport Strike
-90% Teleport Dash
-9% Lure Dash
+100% Blight Shot
 
 Vanaah:
-29% Glorious Strike
-21% Glorious Shot
-1% Glorious Drive
-50% Glorious Grasp
+100% Paladin Scythe
 
 
-Khadath: Teleport Dash
-Vanaah: Glorious Shot
+Khadath: Blight Shot
+Vanaah: Paladin Scythe
 
-Vanaah gets -1 priority
-Priorities:  6 | 1
+Vanaah gets -3 priority
+Priorities:  2 | -2
 Khadath is active
-Khadath moves:
-
-.VK....
-..t....
-
-Vanaah moves:
-
-..KV...
-..t....
-
-Vanaah misses
-Khadath moves:
-
-.K.V...
-..t....
-
 Khadath moves trap:
 
+K...V..
+.t.....
+
+Khadath hits
+Vanaah takes 3 damage (now at 17 life)
+Vanaah moves:
+
+K..V...
+.t.....
+
+Vanaah hits
+Vanaah moves Khadath:
+
 .K.V...
-...t...
+.t.....
+
+Khadath takes 4 damage (now at 16 life)
+Khadath is stunned
+Vanaah moves:
+
+.KV....
+.t.....
 
 
 Beat 3
@@ -155,100 +143,103 @@ Beat 3
 
 Khadath
 -------
-life: 20
-discard 1: Teleport Dash
-discard 2: Blight Burst
-special action
+Life: 16
+Discard 1: Blight Shot
+Discard 2: Teleport Dash
+Special action available
 
 Vanaah
 ------
-life: 20
-discard 1: Glorious Shot
-discard 2: Paladin Dash Divine Rush
-special action
+Life: 17
+Discard 1: Paladin Scythe
+Discard 2: Glorious Shot Divine Rush
+Special action available
 
 
-.K.V...
-...t...
+.KV....
+.t.....
+
 
 Khadath:
-15% Evacuation Drive
-30% Lure Snare
-21% Lure Strike
-33% Lure Grasp
+14% Hunter's Strike
+65% Lure Strike
+21% Lure Drive
 
 Vanaah:
-39% Reaping Strike
-13% Reaping Drive
-41% Vengeance Scythe
-7% Vengeance Burst
+32% Reaping Strike
+2% Reaping Grasp
+66% Vengeance Dash
 
 
-Khadath: Lure Snare
-Vanaah: Vengeance Burst
+Khadath: Lure Strike
+Vanaah: Vengeance Dash
 
-Vanaah gets -3 priority
-Priorities:  0 | -2
-Khadath is active
+Vanaah gets -1 priority
+Priorities:  2 | 8
+Vanaah is active
 Vanaah moves:
 
-.K...V.
-...t...
+VK.....
+.t.....
 
 Khadath misses
-Vanaah misses
 
 Beat 4
 -------
 
 Khadath
 -------
-life: 20
-discard 1: Lure Snare
-discard 2: Teleport Dash
-special action
+Life: 16
+Discard 1: Lure Strike
+Discard 2: Blight Shot
+Special action available
 
 Vanaah
 ------
-life: 20
-discard 1: Vengeance Burst
-discard 2: Glorious Shot
-special action
+Life: 17
+Discard 1: Vengeance Dash
+Discard 2: Paladin Scythe
+Special action available
 Divine Rush token in pool
 
 
-.K...V.
-...t...
+VK.....
+.t.....
 
-Unbeatable strategy for Vanaah: Judgment Scythe (Divine Rush): -3.69
 
 Khadath:
-54% Blight Drive
-46% Blight Burst
+20% Hunter's Drive
+42% Hunter's Grasp
+30% Teleport Burst
+7% Teleport Dash
+2% Evacuation Burst
 
 Vanaah:
-53% Judgment Scythe (Divine Rush)
-47% Judgment Strike (Divine Rush)
+40% Reaping Strike (Divine Rush)
+21% Reaping Drive (Divine Rush)
+10% Reaping Grasp (Divine Rush)
+23% Judgment Drive (Divine Rush)
+5% Glorious Shot (Divine Rush)
 
 
-Khadath: Blight Burst
-Vanaah: Judgment Scythe (Divine Rush)
+Khadath: Hunter's Grasp
+Vanaah: Reaping Strike (Divine Rush)
 
 Vanaah antes a Divine Rush token
-Priorities:  1 | 4
-Vanaah is active
-Khadath moves trap:
+Khadath gets +2 power
+Khadath gets +2 priority
+Vanaah gets -1 priority
+Priorities:  7 | 5
+Khadath is active
+Khadath hits
+Khadath moves Vanaah:
 
-.K...V.
-....t..
+.KV....
+.t.....
 
-Vanaah moves:
-
-.K..V..
-....t..
-
+Vanaah takes 4 damage (now at 13 life)
 Vanaah hits
-Khadath takes 6 damage (now at 14 life)
+Khadath takes 6 damage (now at 10 life)
 Khadath is stunned
 
 Beat 5
@@ -256,58 +247,68 @@ Beat 5
 
 Khadath
 -------
-life: 14
-discard 1: Blight Burst
-discard 2: Lure Snare
-special action
+Life: 10
+Discard 1: Hunter's Grasp
+Discard 2: Lure Strike
+Special action available
 
 Vanaah
 ------
-life: 20
-discard 1: Judgment Scythe Divine Rush
-discard 2: Vengeance Burst
-special action
+Life: 13
+Discard 1: Reaping Strike
+Discard 2: Vengeance Dash
+Special action available
+Divine Rush token in pool
 
 
-.K..V..
-....t..
+.KV....
+.t.....
+
 
 Khadath:
-25% Teleport Shot
-28% Teleport Drive
-48% Teleport Dash
+9% Teleport Drive
+22% Teleport Dash
+0% Evacuation Shot
+2% Evacuation Burst
+66% Blight Dash
 
 Vanaah:
-13% Reaping Drive
-9% Glorious Drive
-78% Paladin Shot
+14% Glorious Drive (Divine Rush)
+16% Glorious Grasp (Divine Rush)
+22% Paladin Scythe (Divine Rush)
+36% Paladin Burst (Divine Rush)
+12% Paladin Grasp (Divine Rush)
 
 
-Khadath: Teleport Shot
-Vanaah: Paladin Shot
+Khadath: Teleport Drive
+Vanaah: Paladin Burst (Divine Rush)
 
-Vanaah gets -3 priority
-Priorities:  -1 | -3
+Vanaah antes a Divine Rush token
+Vanaah gets -1 priority
+Priorities:  1 | 0
 Khadath is active
-Khadath hits
-Vanaah takes 4 damage (now at 16 life)
-Vanaah hits
-Khadath takes 4 damage (now at 10 life)
-Khadath is stunned
+Vanaah moves:
+
+.K.V...
+.t.....
+
 Khadath moves:
 
-K...V..
-....t..
+..KV...
+.t.....
+
+Khadath hits
+Vanaah takes 4 damage (now at 9 life)
+Vanaah is stunned
+Khadath moves:
+
+...VK..
+.t.....
 
 Khadath moves trap:
 
-K...V..
-.t.....
-
-Vanaah moves:
-
-KV.....
-.t.....
+...VK..
+....t..
 
 
 Beat 6
@@ -315,529 +316,291 @@ Beat 6
 
 Khadath
 -------
-life: 10
-discard 1: Teleport Shot
-discard 2: Blight Burst
-special action
+Life: 10
+Discard 1: Teleport Drive
+Discard 2: Hunter's Grasp
+Special action available
 
 Vanaah
 ------
-life: 16
-discard 1: Paladin Shot
-discard 2: Judgment Scythe Divine Rush
-special action
+Life: 9
+Discard 1: Paladin Burst Divine Rush
+Discard 2: Reaping Strike
+Special action available
 
 
-KV.....
-.t.....
+...VK..
+....t..
+
 
 Khadath:
-27% Evacuation Snare
-9% Lure Snare
-64% Lure Strike
+14% Evacuation Burst
+69% Blight Strike
+14% Blight Burst
+3% Lure Dash
 
 Vanaah:
-26% Vengeance Strike
-58% Vengeance Drive
-16% Vengeance Burst
+51% Judgment Dash
+24% Glorious Drive
+14% Vengeance Shot
+11% Vengeance Dash
 
 
-Khadath: Lure Strike
-Vanaah: Vengeance Burst
+Khadath: Blight Strike
+Vanaah: Judgment Dash
 
-Vanaah gets -3 priority
-Priorities:  2 | -2
-Khadath is active
+Vanaah gets -1 priority
+Priorities:  3 | 7
+Vanaah is active
+Khadath moves trap:
+
+...VK..
+.....t.
+
 Vanaah moves:
 
-K.V....
-.t.....
+V...K..
+.....t.
 
-Khadath hits
-Khadath moves Vanaah:
-
-KV.....
-.t.....
-
-Vanaah takes 3 damage (now at 13 life)
-Vanaah misses
+Khadath misses
 
 Beat 7
 -------
 
 Khadath
 -------
-life: 10
-discard 1: Lure Strike
-discard 2: Teleport Shot
-special action
+Life: 10
+Discard 1: Blight Strike
+Discard 2: Teleport Drive
+Special action available
 
 Vanaah
 ------
-life: 13
-discard 1: Vengeance Burst
-discard 2: Paladin Shot
-special action
-Divine Rush token in pool
+Life: 9
+Discard 1: Judgment Dash
+Discard 2: Paladin Burst Divine Rush
+Special action available
 
 
-KV.....
-.t.....
+V...K..
+.....t.
+
+Unbeatable strategy for Khadath: Lure Burst: 2.41
+
 
 Khadath:
-60% Evacuation Snare
-5% Blight Snare
-9% Blight Drive
-27% Blight Burst
+100% Lure Burst
 
 Vanaah:
-57% Reaping Strike
-19% Reaping Strike (Divine Rush)
-5% Reaping Dash
-13% Judgment Dash
-6% Glorious Strike (Divine Rush)
+100% Vengeance Shot
 
 
-Khadath: Blight Burst
-Vanaah: Reaping Strike
+Khadath: Lure Burst
+Vanaah: Vengeance Shot
 
-Vanaah gets -3 priority
-Priorities:  1 | 1
-Clash!
-
-Khadath:
-32% Blight Snare
-68% Blight Drive
-
-Vanaah:
-68% Reaping Scythe
-32% Reaping Drive
-
-
-Khadath: Blight Snare
-Vanaah: Reaping Scythe
-
-Vanaah gets -3 priority
-Priorities:  1 | 1
-Clash!
-
-Khadath:
-100% Blight Drive
-
-Vanaah:
-100% Reaping Drive
-
-
-Khadath: Blight Drive
-Vanaah: Reaping Drive
-
-Vanaah gets -3 priority
-Priorities:  4 | 2
-Khadath is active
-Khadath moves trap:
-
-KV.....
-..t....
-
+Priorities:  0 | 2
+Vanaah is active
 Khadath moves:
 
-.V.K...
-..t....
+V.....K
+.....t.
 
+Vanaah misses
 Khadath hits
-Vanaah takes 3 damage (now at 10 life)
-Vanaah is stunned
+Khadath moves Vanaah:
+
+.....VK
+.....t.
+
+Vanaah takes 2 damage (now at 7 life)
 
 Beat 8
 -------
 
 Khadath
 -------
-life: 10
-discard 1: Blight Drive
-discard 2: Lure Strike
-special action
+Life: 10
+Discard 1: Lure Burst
+Discard 2: Blight Strike
+Special action available
 
 Vanaah
 ------
-life: 10
-discard 1: Reaping Drive
-discard 2: Vengeance Burst
-special action
+Life: 7
+Discard 1: Vengeance Shot
+Discard 2: Judgment Dash
+Special action available
 Divine Rush token in pool
 
 
-.V.K...
-..t....
+.....VK
+.....t.
+
 
 Khadath:
-11% Hunter's Dash
-16% Teleport Burst
-43% Teleport Dash
-16% Evacuation Snare
-13% Evacuation Burst
+33% Hunter's Shot
+3% Hunter's Drive
+8% Teleport Drive
+5% Teleport Grasp
+11% Teleport Dash
+40% Evacuation Snare
 
 Vanaah:
-16% Judgment Strike (Divine Rush)
-14% Glorious Scythe (Divine Rush)
-21% Glorious Shot (Divine Rush)
-26% Glorious Grasp (Divine Rush)
-23% Paladin Scythe (Divine Rush)
+19% Reaping Strike
+9% Reaping Burst
+15% Reaping Burst (Divine Rush)
+6% Reaping Grasp (Divine Rush)
+42% Paladin Scythe (Divine Rush)
+8% Paladin Drive (Divine Rush)
 
 
 Khadath: Evacuation Snare
-Vanaah: Glorious Grasp (Divine Rush)
+Vanaah: Reaping Strike
 
-Vanaah antes a Divine Rush token
-Vanaah gets -1 priority
-Priorities:  1 | 6
-Vanaah is active
-Khadath moves:
+Vanaah gets -3 priority
+Priorities:  1 | 1
+Clash!
 
-.V..K..
-..t....
 
-Vanaah moves:
+Khadath: Evacuation Shot
+Vanaah: Reaping Scythe
 
-..V.K..
-..t....
+Vanaah gets -3 priority
+Priorities:  2 | 1
+Khadath is active
+Khadath moves trap:
 
-Vanaah misses
+.....VK
+......t
+
 Khadath hits
-Vanaah takes 3 damage (now at 7 life)
-Vanaah is stunned
+Vanaah takes 3 damage (now at 4 life)
+Vanaah hits
+Vanaah moves Khadath:
+
+....KV.
+......t
+
+Khadath takes 3 damage (now at 7 life)
+Khadath is stunned
 
 Beat 9
 -------
 
 Khadath
 -------
-life: 10
-discard 1: Evacuation Snare
-discard 2: Blight Drive
-special action
+Life: 7
+Discard 1: Evacuation Shot
+Discard 2: Lure Burst
+Special action available
 
 Vanaah
 ------
-life: 7
-discard 1: Glorious Grasp Divine Rush
-discard 2: Reaping Drive
-special action
-
-
-..V.K..
-..t....
-
-Khadath:
-10% Hunter's Burst
-69% Teleport Shot
-20% Teleport Burst
-
-Vanaah:
-10% Judgment Strike
-7% Paladin Scythe
-83% Paladin Strike
-
-
-Khadath: Teleport Shot
-Vanaah: Paladin Strike
-
-Vanaah gets -3 priority
-Priorities:  -1 | -2
-Khadath is active
-Khadath hits
-Vanaah takes 4 damage (now at 3 life)
-Vanaah hits
-Khadath takes 5 damage (now at 5 life)
-Khadath is stunned
-Khadath moves:
-
-K.V....
-..t....
-
-Khadath moves trap:
-
-K.V....
-.t.....
-
-Vanaah moves:
-
-KV.....
-.t.....
-
-
-Beat 10
--------
-
-Khadath
--------
-life: 5
-discard 1: Teleport Shot
-discard 2: Evacuation Snare
-special action
-
-Vanaah
-------
-life: 3
-discard 1: Paladin Strike
-discard 2: Glorious Grasp Divine Rush
-special action
-
-
-KV.....
-.t.....
-
-Unbeatable strategy for Khadath: Blight Strike: 8.00
-Unbeatable strategy for Khadath: Blight Drive: 8.00
-
-Khadath:
-29% Hunter's Drive
-34% Hunter's Burst
-37% Blight Drive
-
-Vanaah:
-0% Vengeance Scythe
-0% Vengeance Shot
-1% Vengeance Dash
-97% Special Pulse
-0% Special Death Walks
-
-
-Khadath: Hunter's Drive
-Vanaah: Special Pulse
-
-Pulse:
-
-.....VK
-.t.....
-
-
-Beat 10
--------
-
-Khadath
--------
-life: 5
-discard 1: Hunter's Drive
-discard 2: Teleport Shot
-special action
-
-Vanaah
-------
-life: 3
-discard 1: Paladin Strike
-discard 2: Glorious Grasp Divine Rush
-
-
-.....VK
-.t.....
-
-Khadath:
-49% Blight Strike
-51% Lure Strike
-
-Vanaah:
-49% Reaping Shot
-51% Vengeance Shot
-
-
-Khadath: Lure Strike
-Vanaah: Vengeance Shot
-
-Priorities:  2 | 2
-Clash!
-
-Khadath:
-100% Lure Dash
-
-Vanaah:
-14% Vengeance Scythe
-86% Vengeance Drive
-
-
-Khadath: Lure Dash
-Vanaah: Vengeance Drive
-
-Priorities:  8 | 4
-Khadath is active
-Khadath moves:
-
-...K.V.
-.t.....
-
-Vanaah moves:
-
-...KV..
-.t.....
-
-Vanaah misses
-
-Beat 11
--------
-
-Khadath
--------
-life: 5
-discard 1: Lure Dash
-discard 2: Hunter's Drive
-special action
-
-Vanaah
-------
-life: 3
-discard 1: Vengeance Drive
-discard 2: Paladin Strike
+Life: 4
+Discard 1: Reaping Scythe
+Discard 2: Vengeance Shot
+Special action available
 Divine Rush token in pool
 
 
-...KV..
-.t.....
+....KV.
+......t
 
-Unbeatable strategy for Vanaah: Reaping Shot (Divine Rush): -10.00
 
 Khadath:
-1% Evacuation Burst
-3% Evacuation Grasp
-2% Blight Strike
-0% Blight Grasp
-94% Special Pulse
+9% Hunter's Drive
+5% Hunter's Grasp
+12% Teleport Drive
+10% Teleport Dash
+1% Blight Strike
+63% Blight Dash
 
 Vanaah:
-6% Reaping Shot
-25% Reaping Shot (Divine Rush)
-38% Reaping Burst
-10% Reaping Burst (Divine Rush)
-20% Glorious Scythe (Divine Rush)
+29% Judgment Dash
+6% Glorious Drive (Divine Rush)
+23% Glorious Dash (Divine Rush)
+6% Paladin Strike (Divine Rush)
+18% Paladin Burst (Divine Rush)
+18% Special Death Walks (Divine Rush)
 
 
-Khadath: Special Pulse
-Vanaah: Reaping Burst
-
-Pulse:
-
-.VK....
-.t.....
-
-
-Beat 11
--------
-
-Khadath
--------
-life: 5
-discard 1: Lure Dash
-discard 2: Hunter's Drive
-
-Vanaah
-------
-life: 3
-discard 1: Reaping Burst
-discard 2: Vengeance Drive
-Divine Rush token in pool
-
-
-.VK....
-.t.....
-
-Khadath:
-22% Teleport Burst
-34% Evacuation Burst
-26% Blight Strike
-17% Blight Shot
-
-Vanaah:
-3% Judgment Dash
-31% Judgment Dash (Divine Rush)
-16% Glorious Scythe (Divine Rush)
-6% Glorious Grasp (Divine Rush)
-44% Glorious Dash (Divine Rush)
-
-
-Khadath: Blight Shot
+Khadath: Blight Dash
 Vanaah: Glorious Dash (Divine Rush)
 
 Vanaah antes a Divine Rush token
-Vanaah gets -3 priority
-Priorities:  2 | 8
+Vanaah gets -1 priority
+Priorities:  9 | 10
 Vanaah is active
 Khadath moves trap:
 
-.VK....
-t......
+....KV.
+...t...
 
 Vanaah moves:
 
-..KV...
-t......
+...VK..
+...t...
 
 Vanaah moves:
 
-.VK....
-t......
+.V..K..
+...t...
 
-Khadath misses
+Khadath moves:
 
-Beat 12
+.V...K.
+...t...
+
+
+Beat 10
 -------
 
 Khadath
 -------
-life: 5
-discard 1: Blight Shot
-discard 2: Lure Dash
+Life: 7
+Discard 1: Blight Dash
+Discard 2: Evacuation Shot
+Special action available
 
 Vanaah
 ------
-life: 3
-discard 1: Glorious Dash Divine Rush
-discard 2: Reaping Burst
+Life: 4
+Discard 1: Glorious Dash Divine Rush
+Discard 2: Reaping Scythe
+Special action available
 
 
-.VK....
-t......
+.V...K.
+...t...
+
+Unbeatable strategy for Khadath: Teleport Snare: 0.59
+
 
 Khadath:
-57% Hunter's Strike
-8% Teleport Drive
-35% Evacuation Drive
+44% Teleport Snare
+54% Teleport Burst
+1% Lure Strike
+0% Lure Drive
 
 Vanaah:
-8% Judgment Drive
-57% Vengeance Drive
-35% Vengeance Grasp
+2% Judgment Strike
+25% Judgment Drive
+48% Paladin Strike
+25% Vengeance Burst
 
 
-Khadath: Hunter's Strike
-Vanaah: Vengeance Drive
+Khadath: Teleport Snare
+Vanaah: Judgment Drive
 
-Vanaah gets -1 priority
-Priorities:  3 | 3
-Clash!
-
-Khadath:
-20% Hunter's Snare
-40% Hunter's Drive
-40% Hunter's Burst
-
-Vanaah:
-20% Vengeance Scythe
-40% Vengeance Shot
-40% Vengeance Grasp
-
-
-Khadath: Hunter's Burst
-Vanaah: Vengeance Grasp
-
-Vanaah gets -1 priority
-Priorities:  1 | 4
+Priorities:  -2 | 3
 Vanaah is active
-Khadath moves:
+Vanaah moves:
 
-.V.K...
-t......
+..V..K.
+...t...
 
 Vanaah misses
 Khadath hits
-Vanaah takes 3 damage (now at 0 life)
+Vanaah takes 4 damage (now at 0 life)
 KHADATH WINS!
-total_time: 15
+total_time: 19

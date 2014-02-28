@@ -81,7 +81,7 @@ def main():
     
 def ad_hoc():
 #    duel('gerard', 'kallistar', 1)
-    free_for_all(1, ['lesandra'], 'tat', [], True, False)
+    free_for_all(1, ['khadath'], 'claus', [], True, False)
 
 playable = [ 'abarene',
              'adjenna',
@@ -857,8 +857,8 @@ class Game:
                     self.stop_the_clock = True
                     return self.cycle_and_evaluate()
 
-                for p in range(2):
-                    self.player[p].reveal_trigger()
+                for p in self.player:
+                    p.reveal_trigger()
 
                 # clash_priority is fraction
                 # that represents autowinning/losing clashes
@@ -3517,8 +3517,9 @@ class Alexian (Character):
 
     def situation_report (self):
         report = Character.situation_report (self)
-        report.append ("%s has %d Chivalry tokens" %
-                       (self.opponent, len(self.induced_pool)))
+        report.append ("%s has %d Chivalry token%s" %
+                       (self.opponent, len(self.induced_pool),
+                        '' if len(self.induced_pool)==1 else 's'))
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -4183,7 +4184,8 @@ class Cadenza (Character):
 
     def situation_report (self):
         report = Character.situation_report (self)
-        report.append ("%d Iron Body tokens" %len (self.pool))
+        report.append ("%d Iron Body token%s" %(len(self.pool),
+                       '' if len(self.pool)==1 else ''))
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -4428,7 +4430,7 @@ class Claus (Character):
     def inner_execute_move (self, mover, moves, direct, max_move):
         # Moving opponent (Grasp) happens normally.
         if mover is self.opponent:
-            return Character.inner_execute_move(self, mover, moves, direct)
+            return Character.inner_execute_move(self, mover, moves, direct, max_move)
         # From now on, assume that mover is self, and that movement
         # is not direct (since Claus has no direct moves). 
         initial_pos = self.position
@@ -4983,7 +4985,8 @@ class Demitras (Character):
 
     def situation_report (self):
         report = Character.situation_report (self)
-        report.append ("%d Crescendo tokens" %len (self.pool))
+        report.append ("%d Crescendo token%s" %(len(self.pool),
+                       '' if len(self.pool)==1 else ''))
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -5082,7 +5085,8 @@ class Eligor (Character):
 
     def situation_report (self):
         report = Character.situation_report (self)
-        report.append ("%d Vengeance tokens" %len(self.pool))
+        report.append ("%d Vengeance token%s" %(len(self.pool),
+                       '' if len(self.pool)==1 else ''))
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -5369,7 +5373,7 @@ class Gerard (Character):
     # Keep track of switching sides
     def execute_move(self, mover, moves, direct=False, max_move=False):
         old_pos = mover.position
-        Character.execute_move(self, mover, moves, direct=direct, max_move)
+        Character.execute_move(self, mover, moves, direct, max_move)
         if ordered(old_pos, mover.opponent.position, mover.position):
             self.switched_sides = True
     def movement_reaction(self, mover, old_position, direct):
@@ -6206,6 +6210,7 @@ class Khadath (Character):
                                  pos)])
 
     def reveal_trigger (self):
+        Character.reveal_trigger(self)
         if self.trap_position == None:
             return
         trap_distance = abs (self.trap_position - self.opponent.position)
@@ -6525,7 +6530,8 @@ class Luc (Character):
 
     def situation_report (self):
         report = Character.situation_report (self)
-        report.append ("%d Time tokens" %len(self.pool))
+        report.append ("%d Time token%s" % (len(self.pool),
+                       '' if len(self.pool)==1 else ''))
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -6851,7 +6857,8 @@ class Mikhail (Character):
 
     def situation_report (self):
         report = Character.situation_report (self)
-        report.append ("%d Seal tokens" %len(self.pool))
+        report.append ("%d Seal token%s" % (len(self.pool),
+                       '' if len(self.pool)==1 else ''))
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -6946,7 +6953,8 @@ class Oriana (Character):
 
     def situation_report (self):
         report = Character.situation_report (self)
-        report.append ("%d Magic Point tokens" %len(self.pool))
+        report.append ("%d Magic Point token%s" % (len(self.pool),
+                       '' if len(self.pool)==1 else ''))
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -7180,8 +7188,9 @@ class Rexan (Character):
 
     def situation_report (self):
         report = Character.situation_report (self)
-        report.append ("%s has %d Curse tokens" %
-                       (self.opponent, len(self.induced_pool)))
+        report.append ("%s has %d Curse token%s" %
+                       (self.opponent, len(self.induced_pool),
+                       '' if len(self.induced_pool)==1 else ''))
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -7793,7 +7802,8 @@ class Shekhtur (Character):
 
     def situation_report (self):
         report = Character.situation_report (self)
-        report.append ("%d Malice tokens" %len(self.pool))
+        report.append ("%d Malice token%s" % (len(self.pool),
+                       '' if len(self.pool)==1 else ''))
         if self.coffin_nails_hit:
             report.append ("%s has no soak or stunguard (Coffin Nails)" % self.opponent)
         if self.did_hit_last_beat:
@@ -11775,7 +11785,7 @@ class Hunters (Style):
     name_override = "Hunter's"
     def reveal_trigger (self):
         if self.me.trap_position is not None and \
-           abs(self.me.trap_position - self.me.opponent.position) <= 1:
+           abs(self.me.trap_position - self.opponent.position) <= 1:
             self.me.add_triggered_power_bonus(2)
             self.me.add_triggered_priority_bonus(2)
     def evaluation_bonus(self):
