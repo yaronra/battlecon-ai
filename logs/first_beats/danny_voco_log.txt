@@ -11,132 +11,131 @@ Beat 1
 
 Danny
 -----
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: 
+Discard 2: 
 
 Voco
 ----
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: 
+Discard 2: 
 
 
 .D...V.
+
 
 
 
 Danny:
-23% Monstrous Hellgate
-29% Sinner's Hellgate
-4% Sinner's Strike
-23% Sinner's Drive
-22% Vicious Hellgate
+21% Monstrous Hellgate
+38% Sinner's Hellgate
+20% Sinner's Strike
+21% Vicious Hellgate
 
 Voco:
-2% Hellraising Strike
-4% Hellraising Shot
-24% Hellraising Burst
-67% Abyssal Strike
-4% Abyssal Grasp
+4% Hellraising Strike
+8% Hellraising Shot
+25% Hellraising Burst
+63% Abyssal Strike
 
 
-Danny: Sinner's Hellgate
+Danny: Monstrous Hellgate
 Voco: Abyssal Strike
 
-Priorities:  0 | 3
+Priorities:  -1 | 3
 Voco is active
 Voco hits
 Danny has 3 soak
 Danny takes 1 damage (now at 19 life)
-Danny is stunned
 
 .D...V.
+
+zzz....
+
+Danny moves:
+
+....DV.
 
 zzz....
 
 Danny adds monsters to the board:
 
-.D...V.
-...mmm.
+....DV.
+mmm....
 zzz....
 
-Danny loses 1 life (now at 18)
 
 Beat 2
 -------
 
 Danny
 -----
-life: 18
-discard 1: Sinner's Hellgate
-discard 2: 
-special action
+Life: 19
+Discard 1: Monstrous Hellgate
+Discard 2: 
 
 Voco
 ----
-life: 20
-discard 1: Abyssal Strike
-discard 2: 
-special action
+Life: 20
+Discard 1: Abyssal Strike
+Discard 2: 
 
 
-.D...V.
-...mmm.
-z.z....
+....DV.
+mmm....
+zzz....
 
-Unbeatable strategy for Voco: Hellraising Shot: -1.41
 
 Danny:
-20% Monstrous Drive
-39% Shackled Shot
-10% Shackled Drive
-30% Shackled Burst
+30% Fallen Drive
+26% Shackled Strike
+12% Shackled Grasp
+32% Vicious Grasp
 
 Voco:
-24% Metal Shot
-46% Hellraising Shot
-15% Hellraising Drive
-15% Hellraising Grasp
+1% Metal Grasp
+70% Metal Dash
+17% Hellraising Shot
+13% Hellraising Grasp
 
 
-Danny: Shackled Burst
-Voco: Hellraising Grasp
+Danny: Fallen Drive
+Voco: Hellraising Shot
 
-Priorities:  0 | 3
-Voco is active
+Priorities:  4 | 0
+Danny is active
 Voco moves:
 
-.D....V
-...mmm.
-z.z....
+....D.V
+mmm....
+zzz....
 
 
-.D....V
-...mmm.
-z.zzzz.
+....D.V
+mmm....
+zzz..z.
 
 Danny moves:
 
-D.....V
-...mmm.
-z.zzzz.
+.....DV
+mmm....
+zzz..z.
+
+Danny hits
+Voco takes 2 damage (now at 18 life)
+Danny adds monsters to the board:
+
+.....DV
+mmmm...
+zzz..z.
 
 Voco misses
 Voco removes monsters:
 
-D.....V
-....mm.
-z.zzzz.
+.....DV
+.mmm...
+zzz..z.
 
-Danny misses
-Danny adds monsters to the board:
-
-D.....V
-..m.mm.
-z.zzzz.
-
-Danny loses 1 life (now at 17)
-total_time: 21
+Danny loses 1 life (now at 18)
+total_time: 24

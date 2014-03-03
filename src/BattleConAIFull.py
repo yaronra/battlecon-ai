@@ -23,6 +23,17 @@
 #         2. Not clear how to evaluate spent ante, which might be
 #            a complete loss, or still useful this beat.
 
+# Cancel vs. Finisher puts virtual finisher base in discard, instead of
+# real base played to invoke the Finisher.  Can be tricky to fix, since
+# real base played isn't determined.
+
+# Cancel vs. Pulse does the same, when Pulse should actually trump Cancel
+# (putting Cancel's special action into discard, as it didn't activate).
+# Need to qualify the Cancel check so that it doesn't activate if
+# opponent Pulsed
+
+# Pulse vs. Finisher doesn't put opponent's special action in discard.
+
 
 # when a Cancel ends up killing the opponent, points are still deducted
 # for spending the special action
@@ -81,7 +92,7 @@ def main():
     
 def ad_hoc():
 #    duel('gerard', 'kallistar', 1)
-    free_for_all(1, ['khadath'], 'claus', [], True, False)
+    free_for_all(1, ['kajia'], '', [], True, False)
 
 playable = [ 'abarene',
              'adjenna',
@@ -157,7 +168,7 @@ def play ():
         human = names [menu(names, n_cols=3)]
         ai_names = [n for n in names if n != human]
         print "Select AI character: [1-%d]\n" %len(ai_names)
-        ai = names[menu(ai_names, n_cols=3)]
+        ai = ai_names[menu(ai_names, n_cols=3)]
         print "Which set of bases should be used?"
         ans = menu(['Standard bases',
                     'Beta bases',
@@ -5803,8 +5814,8 @@ class Kajia (Character):
         self.infested_piles_on_reveal = state.infested_piles_on_reveal
 
     def give_insects (self, n, pile=0):
-        # can't give more insects than total of 9
-        n = min (n, 9 - sum(self.insects))
+        # can't give more insects than total of 7
+        n = min (n, 7 - sum(self.insects))
         if n > 0:
             self.insects[pile] += n
             if self.game.reporting:
@@ -8358,7 +8369,7 @@ class Voco (Character):
         self.zombies = set()
 
     def choose_initial_discards (self):
-        return (self.thunderous, self.drive,
+        return (self.thunderous, self.unique_base,
                 self.monster, self.burst)
     
     def read_my_state (self, lines, board, addendum):

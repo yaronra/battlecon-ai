@@ -11,20 +11,19 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: 
+Discard 2: 
 
 Voco
 ----
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: 
+Discard 2: 
 
 
 .C...V.
+
 
 
 Claus:
@@ -40,96 +39,94 @@ Voco:
 27% Thunderous Strike
 
 
-Claus: Tailwind Drive
-Voco: Thunderous Strike
+Claus: Tailwind Dash
+Voco: Hellraising Dash
 
-Priorities:  4 | 3
+Priorities:  9 | 7
 Claus is active
 Claus moves:
 
-..C..V.
+...C.V.
 
 
 Voco moves:
 
-..CV...
-.....z.
+...C..V
 
-Claus moves Voco:
 
-..C.V..
-.....z.
 
-Voco takes 1 damage (now at 19 life)
-Claus hits
-Voco takes 4 damage (now at 15 life)
-Voco hits
-Voco moves Claus:
+...C..V
+....zz.
 
-C...V..
-.....z.
+Claus moves:
 
-Claus takes 3 damage (now at 17 life)
-Claus is stunned
+....C.V
+....zz.
+
+Voco moves:
+
+..V.C..
+....zz.
+
+Claus loses 1 life (now at 19)
 
 Beat 2
 -------
 
 Claus
 -----
-life: 17
-discard 1: Tailwind Drive
-discard 2: 
-special action
+Life: 19
+Discard 1: Tailwind Dash
+Discard 2: 
 
 Voco
 ----
-life: 15
-discard 1: Thunderous Strike
-discard 2: 
-special action
+Life: 20
+Discard 1: Hellraising Dash
+Discard 2: 
 
 
-C...V..
+..V.C..
 .....z.
+
 
 Claus:
-73% Blast Dash
-27% Cyclone Tempest
+36% Hurricane Tempest
+9% Hurricane Shot
+40% Cyclone Tempest
+15% Cyclone Drive
 
 Voco:
+20% Metal Shred
 8% Metal Drive
-92% Hellraising Dash
+55% Metal Burst
+18% Metal Grasp
 
 
-Claus: Blast Dash
-Voco: Hellraising Dash
+Claus: Hurricane Tempest
+Voco: Metal Burst
 
-Priorities:  6 | 7
-Voco is active
-Voco moves:
+Priorities:  4 | 1
+Claus is active
+Claus moves Voco:
 
-C....V.
+V..C...
 .....z.
 
 
-C....V.
-.zzzzz.
+V..C...
+.zz..z.
 
+Voco has 1 soak
+Voco takes 1 damage (now at 19 life)
+Voco is stunned
 Claus moves:
 
-.C...V.
-.zzzzz.
+V..C...
+.z...z.
 
-Voco moves:
-
-.C....V
-.zzzzz.
-
-Claus moves:
-
-....C.V
-.zzzzz.
-
-Claus loses 1 life (now at 16)
-total_time: 13
+Claus hits
+Voco takes 4 damage (now at 15 life)
+Voco is stunned
+Claus will have -4 priority next beat
+total_time: 15

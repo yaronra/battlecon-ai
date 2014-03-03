@@ -11,43 +11,45 @@ Beat 1
 
 Kajia
 -----
-life: 20
-discard 1: Stinging Strike
-discard 2: Swarming Burst
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 20
+Discard 1: Stinging Strike
+Discard 2: Swarming Burst
+Special action available
+0 insects on Vanaah's discard 1
+0 insects on Vanaah's discard 2
 
 Vanaah
 ------
-life: 20
-discard 1: Vengeance Burst
-discard 2: Reaping Strike
-special action
+Life: 20
+Discard 1: Vengeance Burst
+Discard 2: Reaping Strike
+Special action available
 Divine Rush token in pool
 
 
 .K...V.
 
+
 Kajia:
 19% Parasitic Mandibles
-6% Parasitic Grasp
-61% Parasitic Dash
-11% Biting Mandibles
-3% Biting Drive
+8% Parasitic Grasp
+60% Parasitic Dash
+7% Biting Mandibles
+5% Biting Drive
 
 Vanaah:
-6% Glorious Shot (Divine Rush)
-6% Glorious Drive (Divine Rush)
-69% Paladin Shot
+8% Glorious Shot (Divine Rush)
+4% Glorious Drive (Divine Rush)
+72% Paladin Shot
 10% Paladin Grasp
-8% Paladin Grasp (Divine Rush)
+6% Paladin Grasp (Divine Rush)
 
 
 Kajia: Parasitic Dash
-Vanaah: Paladin Shot
+Vanaah: Paladin Grasp (Divine Rush)
 
-Priorities:  8 | 0
+Vanaah antes a Divine Rush token
+Priorities:  8 | 5
 Kajia is active
 Kajia moves Vanaah:
 
@@ -64,57 +66,69 @@ Beat 2
 
 Kajia
 -----
-life: 20
-discard 1: Parasitic Dash
-discard 2: Stinging Strike
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 20
+Discard 1: Parasitic Dash
+Discard 2: Stinging Strike
+Special action available
+0 insects on Vanaah's discard 1
+0 insects on Vanaah's discard 2
 
 Vanaah
 ------
-life: 20
-discard 1: Paladin Shot
-discard 2: Vengeance Burst
-special action
-Divine Rush token in pool
+Life: 20
+Discard 1: Paladin Grasp Divine Rush
+Discard 2: Vengeance Burst
+Special action available
 
 
 ..VK...
 
-Unbeatable strategy for Vanaah: Judgment Drive (Divine Rush): -2.91
-Unbeatable strategy for Vanaah: Glorious Scythe (Divine Rush): -1.97
-Unbeatable strategy for Vanaah: Glorious Drive (Divine Rush): -2.97
+Unbeatable strategy for Vanaah: Glorious Drive: -0.06
+
 
 Kajia:
-89% Swarming Mandibles
-11% Swarming Burst
+59% Biting Shot
+41% Biting Grasp
 
 Vanaah:
-2% Glorious Strike (Divine Rush)
-98% Glorious Drive (Divine Rush)
+7% Glorious Strike
+93% Glorious Drive
 
 
-Kajia: Swarming Mandibles
-Vanaah: Glorious Drive (Divine Rush)
+Kajia: Biting Grasp
+Vanaah: Glorious Drive
 
-Vanaah antes a Divine Rush token
-Priorities:  2 | 6
+Priorities:  4 | 4
+Clash!
+
+
+Kajia: Biting Drive
+Vanaah: Glorious Strike
+
+Priorities:  3 | 3
+Clash!
+
+
+Kajia: Biting Shot
+Vanaah: Glorious Shot
+
+Priorities:  1 | 2
 Vanaah is active
-Vanaah moves:
-
-...K.V.
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 0)
 Vanaah moves:
 
 ...KV..
 
+Kajia places 1 insect token on Vanaah's attack pair
+(Current insects: 1 / 0 / 0)
 Vanaah hits
-Kajia takes 7 damage (now at 13 life)
-Kajia is stunned
-Kajia places 1 insect token on the oppoent's attack pair
+Kajia takes 5 damage (now at 15 life)
+Kajia hits
+Vanaah takes 2 damage (now at 18 life)
+Kajia moves Vanaah:
+
+..VK...
+
+Kajia places 1 insect token on Vanaah's attack pair
 (Current insects: 2 / 0 / 0)
 
 Beat 3
@@ -122,117 +136,104 @@ Beat 3
 
 Kajia
 -----
-life: 13
-discard 1: Swarming Mandibles
-discard 2: Parasitic Dash
-special action
-2 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 15
+Discard 1: Biting Shot
+Discard 2: Parasitic Dash
+Special action available
+2 insects on Vanaah's discard 1
+0 insects on Vanaah's discard 2
 
 Vanaah
 ------
-life: 20
-discard 1: Glorious Drive Divine Rush
-discard 2: Paladin Shot
-special action
+Life: 18
+Discard 1: Glorious Shot
+Discard 2: Paladin Grasp Divine Rush
+Special action available
 
-
-...KV..
-
-Kajia:
-8% Burrowing Drive
-79% Biting Strike
-13% Biting Shot
-
-Vanaah:
-12% Reaping Strike
-3% Reaping Burst
-76% Reaping Dash
-9% Judgment Dash
-
-
-Kajia: Biting Shot
-Vanaah: Reaping Strike
-
-Vanaah gets -1 power
-Priorities:  1 | 4
-Vanaah is active
-Vanaah hits
-Kajia takes 3 damage (now at 10 life)
-Kajia hits
-Vanaah takes 2 damage (now at 18 life)
-Kajia moves Vanaah:
 
 ..VK...
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 2 / 0)
+
+Kajia:
+30% Burrowing Drive
+3% Swarming Mandibles
+7% Swarming Drive
+30% Stinging Drive
+30% Stinging Grasp
+
+Vanaah:
+4% Reaping Strike
+41% Reaping Drive
+8% Vengeance Scythe
+12% Vengeance Burst
+35% Vengeance Dash
+
+
+Kajia: Stinging Grasp
+Vanaah: Vengeance Dash
+
+Priorities:  6 | 9
+Vanaah is active
+Vanaah moves:
+
+V..K...
+
+Kajia misses
 
 Beat 4
 -------
 
 Kajia
 -----
-life: 10
-discard 1: Biting Shot
-discard 2: Swarming Mandibles
-special action
-1 insects on opponent's discard 1
-2 insects on opponent's discard 2
+Life: 15
+Discard 1: Stinging Grasp
+Discard 2: Biting Shot
+Special action available
+0 insects on Vanaah's discard 1
+2 insects on Vanaah's discard 2
 
 Vanaah
 ------
-life: 18
-discard 1: Reaping Strike
-discard 2: Glorious Drive
-special action
+Life: 18
+Discard 1: Vengeance Dash
+Discard 2: Glorious Shot
+Special action available
 Divine Rush token in pool
 
 
-..VK...
+V..K...
+
 
 Kajia:
-11% Burrowing Strike
-31% Burrowing Drive
-11% Parasitic Strike
-24% Parasitic Drive
-3% Parasitic Burst
-20% Stinging Drive
-1% Stinging Grasp
+19% Burrowing Mandibles
+0% Burrowing Drive
+81% Swarming Dash
 
 Vanaah:
-3% Judgment Scythe (Divine Rush)
-13% Paladin Scythe (Divine Rush)
-15% Paladin Shot (Divine Rush)
-7% Paladin Grasp (Divine Rush)
-10% Vengeance Shot
-8% Vengeance Grasp
-43% Vengeance Dash
+50% Reaping Grasp (Divine Rush)
+5% Judgment Scythe (Divine Rush)
+45% Judgment Drive (Divine Rush)
 
 
-Kajia: Burrowing Drive
-Vanaah: Vengeance Dash
+Kajia: Swarming Dash
+Vanaah: Reaping Grasp (Divine Rush)
 
-Kajia gets +2 power
-Kajia gets +2 priority
-Priorities:  5 | 9
+Vanaah antes a Divine Rush token
+Priorities:  8 | 8
+Clash!
+
+
+Kajia: Swarming Burst
+Vanaah: Reaping Burst (Divine Rush)
+
+Vanaah antes a Divine Rush token
+Priorities:  0 | 4
 Vanaah is active
-Vanaah moves:
-
-...K.V.
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 2)
 Kajia moves:
 
-....KV.
+V....K.
 
-Kajia moves Vanaah:
-
-...VK..
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 2 / 1 / 2)
+Vanaah misses
 Kajia misses
 Vanaah loses 2 life (now at 16)
 
@@ -241,220 +242,286 @@ Beat 5
 
 Kajia
 -----
-life: 10
-discard 1: Burrowing Drive
-discard 2: Biting Shot
-special action
-2 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 15
+Discard 1: Swarming Burst
+Discard 2: Stinging Grasp
+Special action available
+0 insects on Vanaah's discard 1
+0 insects on Vanaah's discard 2
 
 Vanaah
 ------
-life: 16
-discard 1: Vengeance Dash
-discard 2: Reaping Strike
-special action
-Divine Rush token in pool
+Life: 16
+Discard 1: Reaping Burst Divine Rush
+Discard 2: Vengeance Dash
+Special action available
 
+
+V....K.
+
+
+Kajia:
+33% Parasitic Mandibles
+42% Parasitic Dash
+25% Biting Mandibles
+
+Vanaah:
+31% Judgment Grasp
+1% Glorious Strike
+67% Paladin Shot
+
+
+Kajia: Parasitic Mandibles
+Vanaah: Paladin Shot
+
+Priorities:  2 | 0
+Kajia is active
+Kajia moves Vanaah:
+
+...V.K.
+
+Kajia moves:
 
 ...VK..
 
-Kajia:
-55% Swarming Mandibles
-11% Swarming Grasp
-28% Stinging Mandibles
-5% Stinging Grasp
-
-Vanaah:
-5% Glorious Grasp (Divine Rush)
-58% Paladin Drive
-21% Paladin Burst
-15% Paladin Grasp (Divine Rush)
-
-
-Kajia: Swarming Grasp
-Vanaah: Paladin Drive
-
-Priorities:  4 | 2
-Kajia is active
 Kajia hits
 Kajia moves Vanaah:
 
 ....KV.
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 2 / 1)
-Vanaah takes 2 damage (now at 14 life)
-Vanaah moves:
+Kajia places 1 insect token on Vanaah's attack pair
+(Current insects: 1 / 0 / 0)
+Vanaah takes 3 damage (now at 13 life)
+Kajia moves:
 
-..V.K..
+.....VK
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 2 / 2 / 1)
-Vanaah misses
-Vanaah moves:
-
-...VK..
-
-Vanaah loses 1 life (now at 13)
+Vanaah hits
+Kajia takes 4 damage (now at 11 life)
+Kajia is stunned
 
 Beat 6
 -------
 
 Kajia
 -----
-life: 10
-discard 1: Swarming Grasp
-discard 2: Burrowing Drive
-special action
-2 insects on opponent's discard 1
-2 insects on opponent's discard 2
+Life: 11
+Discard 1: Parasitic Mandibles
+Discard 2: Swarming Burst
+Special action available
+1 insects on Vanaah's discard 1
+0 insects on Vanaah's discard 2
 
 Vanaah
 ------
-life: 13
-discard 1: Paladin Drive
-discard 2: Vengeance Dash
-special action
-Divine Rush token in pool
+Life: 13
+Discard 1: Paladin Shot
+Discard 2: Reaping Burst Divine Rush
+Special action available
 
 
-...VK..
+.....VK
+
 
 Kajia:
-1% Parasitic Strike
-2% Parasitic Burst
-97% Biting Strike
+30% Burrowing Strike
+24% Burrowing Drive
+13% Burrowing Dash
+13% Stinging Grasp
+2% Biting Drive
+17% Biting Dash
 
 Vanaah:
-72% Reaping Burst (Divine Rush)
-14% Glorious Burst (Divine Rush)
-14% Glorious Grasp (Divine Rush)
+18% Judgment Dash
+13% Glorious Drive
+33% Glorious Grasp
+11% Vengeance Scythe
+4% Vengeance Strike
+21% Vengeance Dash
 
 
-Kajia: Biting Strike
-Vanaah: Reaping Burst (Divine Rush)
+Kajia: Burrowing Drive
+Vanaah: Glorious Drive
 
-Vanaah antes a Divine Rush token
-Vanaah gets -2 power
-Priorities:  2 | 4
+Kajia gets +1 power
+Kajia gets +1 priority
+Priorities:  4 | 4
+Clash!
+
+
+Kajia: Burrowing Grasp
+Vanaah: Glorious Dash
+
+Kajia gets +1 power
+Kajia gets +1 priority
+Priorities:  5 | 9
 Vanaah is active
 Vanaah moves:
 
-.V..K..
+...V..K
 
-Vanaah hits
-Kajia takes 3 damage (now at 7 life)
-Kajia hits
-Vanaah takes 3 damage (now at 10 life)
-Vanaah is stunned
-Vanaah loses 2 life (now at 8)
+Kajia misses
 
 Beat 7
 -------
 
 Kajia
 -----
-life: 7
-discard 1: Biting Strike
-discard 2: Swarming Grasp
-special action
-0 insects on opponent's discard 1
-2 insects on opponent's discard 2
+Life: 11
+Discard 1: Burrowing Grasp
+Discard 2: Parasitic Mandibles
+Special action available
+0 insects on Vanaah's discard 1
+1 insects on Vanaah's discard 2
 
 Vanaah
 ------
-life: 8
-discard 1: Reaping Burst
-discard 2: Paladin Drive
-special action
+Life: 13
+Discard 1: Glorious Dash
+Discard 2: Paladin Shot
+Special action available
 Divine Rush token in pool
 
 
-.V..K..
+...V..K
+
+Unbeatable strategy for Vanaah: Reaping Burst (Divine Rush): -2.32
+Unbeatable strategy for Vanaah: Judgment Drive (Divine Rush): -0.62
+
 
 Kajia:
-6% Burrowing Dash
-7% Parasitic Burst
-78% Parasitic Dash
-9% Special Imago Emergence
+37% Swarming Dash
+63% Biting Shot
 
 Vanaah:
-4% Judgment Dash (Divine Rush)
-21% Glorious Shot (Divine Rush)
-51% Vengeance Shot
-24% Vengeance Dash
+62% Reaping Burst (Divine Rush)
+38% Judgment Drive (Divine Rush)
 
 
-Kajia: Parasitic Dash
-Vanaah: Vengeance Dash
+Kajia: Swarming Dash
+Vanaah: Reaping Burst (Divine Rush)
 
-Priorities:  8 | 9
-Vanaah is active
-Kajia moves Vanaah:
-
-....KV.
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 2)
+Vanaah antes a Divine Rush token
+Priorities:  8 | 4
+Kajia is active
 Vanaah moves:
 
-....K.V
+.V....K
 
 Kajia moves:
 
-.....KV
+.V.K...
 
-Vanaah loses 2 life (now at 6)
+Vanaah hits
+Kajia takes 5 damage (now at 6 life)
+Kajia is stunned
+Vanaah loses 1 life (now at 12)
 
 Beat 8
 -------
 
 Kajia
 -----
-life: 7
-discard 1: Parasitic Dash
-discard 2: Biting Strike
-special action
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 6
+Discard 1: Swarming Dash
+Discard 2: Burrowing Grasp
+Special action available
+0 insects on Vanaah's discard 1
+0 insects on Vanaah's discard 2
 
 Vanaah
 ------
-life: 6
-discard 1: Vengeance Dash
-discard 2: Reaping Burst
-special action
+Life: 12
+Discard 1: Reaping Burst
+Discard 2: Glorious Dash
+Special action available
 Divine Rush token in pool
 
 
-.....KV
+.V.K...
+
+Unbeatable strategy for Vanaah: Judgment Grasp (Divine Rush): -2.70
+Unbeatable strategy for Vanaah: Paladin Scythe (Divine Rush): -11.00
+Unbeatable strategy for Vanaah: Paladin Shot (Divine Rush): -11.00
+Unbeatable strategy for Vanaah: Paladin Drive (Divine Rush): -11.00
+
 
 Kajia:
-57% Swarming Grasp
-9% Stinging Burst
-35% Stinging Grasp
+2% Parasitic Mandibles
+98% Special Pulse
 
 Vanaah:
-66% Judgment Drive (Divine Rush)
-0% Glorious Drive (Divine Rush)
-34% Paladin Strike (Divine Rush)
+34% Paladin Scythe (Divine Rush)
+34% Paladin Drive (Divine Rush)
+6% Vengeance Scythe
+27% Vengeance Drive
 
 
-Kajia: Swarming Grasp
-Vanaah: Judgment Drive (Divine Rush)
+Kajia: Special Pulse
+Vanaah: Paladin Scythe (Divine Rush)
 
 Vanaah antes a Divine Rush token
-Priorities:  4 | 5
+Pulse:
+
+VK.....
+
+
+Beat 8
+-------
+
+Kajia
+-----
+Life: 6
+Discard 1: Swarming Dash
+Discard 2: Burrowing Grasp
+0 insects on Vanaah's discard 1
+0 insects on Vanaah's discard 2
+
+Vanaah
+------
+Life: 12
+Discard 1: Paladin Scythe Divine Rush
+Discard 2: Reaping Burst
+Special action available
+
+
+VK.....
+
+
+Kajia:
+29% Parasitic Mandibles
+13% Parasitic Burst
+28% Stinging Drive
+29% Biting Strike
+
+Vanaah:
+13% Glorious Strike
+4% Glorious Shot
+53% Glorious Drive
+30% Vengeance Strike
+
+
+Kajia: Parasitic Mandibles
+Vanaah: Glorious Drive
+
+Priorities:  2 | 4
 Vanaah is active
+Kajia moves Vanaah:
+
+.K..V..
+
+Kajia places 1 insect token on Vanaah's attack pair
+(Current insects: 1 / 0 / 0)
 Vanaah moves:
 
-...V.K.
+.K.V...
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 0)
+Vanaah moves:
+
+.KV....
+
 Vanaah hits
-Kajia takes 6 damage (now at 1 life)
+Kajia takes 5 damage (now at 1 life)
 Kajia is stunned
 
 Beat 9
@@ -462,49 +529,49 @@ Beat 9
 
 Kajia
 -----
-life: 1
-discard 1: Swarming Grasp
-discard 2: Parasitic Dash
-special action
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 1
+Discard 1: Parasitic Mandibles
+Discard 2: Swarming Dash
+1 insects on Vanaah's discard 1
+0 insects on Vanaah's discard 2
 
 Vanaah
 ------
-life: 6
-discard 1: Judgment Drive Divine Rush
-discard 2: Vengeance Dash
-special action
+Life: 12
+Discard 1: Glorious Drive
+Discard 2: Paladin Scythe Divine Rush
+Special action available
 
 
-...V.K.
+.KV....
+
+Unbeatable strategy for Vanaah: Reaping Strike: -6.00
+Unbeatable strategy for Vanaah: Reaping Grasp: -6.00
+
 
 Kajia:
-40% Stinging Burst
-25% Biting Drive
-35% Special Wormwood
+14% Burrowing Drive
+36% Stinging Strike
+34% Stinging Grasp
+17% Biting Shot
 
 Vanaah:
-19% Reaping Scythe
-16% Reaping Shot
-65% Reaping Grasp
-0% Special Death Walks
+36% Reaping Strike
+14% Reaping Burst
+34% Reaping Grasp
+17% Vengeance Shot
 
 
-Kajia: Special Wormwood
-Vanaah: Reaping Scythe
+Kajia: Stinging Strike
+Vanaah: Reaping Grasp
 
-Priorities:  5 | 4
-Kajia is active
-Vanaah loses 2 life (now at 4)
-Kajia moves Vanaah:
+Priorities:  4 | 6
+Vanaah is active
+Vanaah hits
+Vanaah moves Kajia:
 
-.....KV
+K.V....
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 1)
-Kajia hits
-Kajia gets +2 power
-Vanaah takes 5 damage (now at 0 life)
-KAJIA WINS!
-total_time: 8
+Kajia takes 2 damage (now at 0 life)
+VANAAH WINS!
+total_time: 9

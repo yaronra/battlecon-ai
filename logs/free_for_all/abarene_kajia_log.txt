@@ -23,11 +23,12 @@ Life: 20
 Discard 1: Stinging Strike
 Discard 2: Swarming Burst
 Special action available
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+0 insects on Abarene's discard 1
+0 insects on Abarene's discard 2
 
 
 .A...K.
+
 
 Abarene:
 29% Barbed Shot
@@ -48,26 +49,38 @@ Kajia:
 27% Biting Drive
 
 
+Abarene: Barbed Shot
+Kajia: Biting Drive
+
+Priorities:  3 | 3
+Clash!
+
+
 Abarene: Barbed Drive
-Kajia: Parasitic Shot
+Kajia: Biting Shot
 
 Priorities:  5 | 1
 Abarene is active
-Kajia moves Abarene:
-
-....AK.
-
 Abarene moves:
 
-.....KA
+...A.K.
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 0)
 Abarene hits
 Abarene recovers a Nausea token
-Kajia takes 2 damage (now at 18 life)
+Abarene moves Kajia:
+
+...AK..
+
+Kajia loses 2 life (now at 18)
+Kajia takes 2 damage (now at 16 life)
 Kajia hits
-Abarene takes 3 damage (now at 17 life)
+Abarene takes 2 damage (now at 18 life)
+Kajia moves Abarene:
+
+....KA.
+
+Kajia places 1 insect token on Abarene's attack pair
+(Current insects: 1 / 0 / 0)
 Abarene is stunned
 
 Beat 2
@@ -75,7 +88,7 @@ Beat 2
 
 Abarene
 -------
-Life: 17
+Life: 18
 Discard 1: Barbed Drive
 Discard 2: Lethal Strike
 Special action available
@@ -83,230 +96,265 @@ pool: Fatigue, Nausea
 
 Kajia
 -----
-Life: 18
-Discard 1: Parasitic Shot
+Life: 16
+Discard 1: Biting Shot
 Discard 2: Stinging Strike
 Special action available
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
+1 insects on Abarene's discard 1
+0 insects on Abarene's discard 2
 
 
-.....KA
+....KA.
 
-Unbeatable strategy for Kajia: Burrowing Dash: -0.79
-Unbeatable strategy for Kajia: Swarming Mandibles: -0.30
-Unbeatable strategy for Kajia: Swarming Grasp: -0.17
+Unbeatable strategy for Kajia: Parasitic Dash: -0.18
+
 
 Abarene:
-13% Intoxicating Shot (Fatigue)
-2% Crippling Thorns (Nausea)
-49% Pestilent Dash
-36% Pestilent Dash (Nausea)
+5% Intoxicating Shot (Nausea)
+30% Intoxicating Burst (Fatigue)
+17% Intoxicating Burst (Nausea)
+9% Crippling Thorns (Fatigue)
+22% Crippling Burst (Nausea)
+16% Pestilent Grasp (Fatigue)
 
 Kajia:
-12% Burrowing Dash
-34% Swarming Mandibles
-15% Swarming Grasp
-40% Biting Drive
+1% Burrowing Burst
+5% Swarming Mandibles
+1% Swarming Drive
+9% Swarming Grasp
+23% Parasitic Burst
+61% Parasitic Dash
 
 
-Abarene: Pestilent Dash (Nausea)
-Kajia: Biting Drive
+Abarene: Intoxicating Shot (Nausea)
+Kajia: Parasitic Dash
 
 Abarene antes a Nausea token
-Abarene gets -1 power
-Priorities:  10 | 3
-Abarene is active
-Abarene moves:
+Priorities:  3 | 8
+Kajia is active
+Kajia moves Abarene:
 
-..A..K.
+.A..K..
 
-Kajia places 1 insect token on the oppoent's attack pair
+Kajia places 1 insect token on Abarene's attack pair
 (Current insects: 1 / 1 / 0)
 Abarene recovers a Nausea token
-Abarene moves:
-
-A....K.
-
 Kajia moves:
 
-A..K...
+KA.....
 
-Kajia misses
+Abarene misses
+Abarene recovers a Dizziness token
 
 Beat 3
 -------
 
 Abarene
 -------
-Life: 17
-Discard 1: Pestilent Dash
+Life: 18
+Discard 1: Intoxicating Shot
 Discard 2: Barbed Drive
 Special action available
-pool: Fatigue, Nausea
+pool: Dizziness, Fatigue, Nausea
 
 Kajia
 -----
-Life: 18
-Discard 1: Biting Drive
-Discard 2: Parasitic Shot
+Life: 16
+Discard 1: Parasitic Dash
+Discard 2: Biting Shot
 Special action available
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
+1 insects on Abarene's discard 1
+1 insects on Abarene's discard 2
 
 
-A..K...
+KA.....
 
-Unbeatable strategy for Kajia: Swarming Dash: -0.52
+Unbeatable strategy for Abarene: Lethal Grasp (Fatigue): 0.11
+Unbeatable strategy for Abarene: Lethal Grasp (Fatigue, Nausea): 0.07
+Unbeatable strategy for Abarene: Lethal Dash: 0.34
+Unbeatable strategy for Abarene: Lethal Dash (Nausea): 0.37
+
 
 Abarene:
-49% Intoxicating Shot (Fatigue)
-26% Intoxicating Grasp (Fatigue)
-26% Intoxicating Grasp (Fatigue, Nausea)
+31% Lethal Thorns (Fatigue, Nausea)
+2% Lethal Strike
+14% Lethal Burst (Fatigue, Nausea)
+39% Lethal Grasp
+9% Lethal Grasp (Nausea)
+6% Pestilent Burst (Fatigue, Nausea)
 
 Kajia:
-21% Burrowing Mandibles
-3% Burrowing Burst
-76% Swarming Dash
+3% Burrowing Strike
+14% Burrowing Drive
+13% Swarming Mandibles
+54% Swarming Drive
+13% Swarming Grasp
+3% Stinging Grasp
 
 
-Abarene: Intoxicating Shot (Fatigue)
-Kajia: Swarming Dash
+Abarene: Lethal Grasp
+Kajia: Swarming Drive
 
-Abarene antes a Fatigue token
-Priorities:  3 | 6
-Kajia is active
-Abarene recovers a Fatigue token
-Kajia moves:
+Priorities:  5 | 3
+Abarene is active
+Abarene moves:
 
-AK.....
+K.....A
 
 Abarene misses
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 1)
-Abarene recovers a Dizziness token
-Abarene loses 1 life (now at 16)
+Kajia moves:
+
+..K...A
+
+Kajia misses
+Abarene loses 1 life (now at 17)
 
 Beat 4
 -------
 
 Abarene
 -------
-Life: 16
-Discard 1: Intoxicating Shot
-Discard 2: Pestilent Dash
+Life: 17
+Discard 1: Lethal Grasp
+Discard 2: Intoxicating Shot
 Special action available
 pool: Dizziness, Fatigue, Nausea
 
 Kajia
 -----
-Life: 18
-Discard 1: Swarming Dash
-Discard 2: Biting Drive
+Life: 16
+Discard 1: Swarming Drive
+Discard 2: Parasitic Dash
 Special action available
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
+0 insects on Abarene's discard 1
+1 insects on Abarene's discard 2
 
 
-AK.....
+..K...A
 
-Unbeatable strategy for Abarene: Barbed Thorns (Dizziness, Fatigue, Nausea): 0.24
 
 Abarene:
-35% Lethal Thorns (Fatigue, Nausea)
-14% Barbed Thorns (Fatigue, Nausea)
-12% Barbed Drive
-5% Barbed Drive (Nausea)
-12% Crippling Strike (Nausea)
-22% Crippling Grasp (Fatigue, Nausea)
+1% Barbed Thorns (Dizziness, Nausea)
+21% Barbed Drive (Dizziness)
+34% Crippling Thorns (Dizziness)
+23% Crippling Drive (Dizziness)
+20% Crippling Drive (Dizziness, Fatigue)
 
 Kajia:
-10% Burrowing Mandibles
-26% Burrowing Strike
-15% Burrowing Shot
-18% Parasitic Strike
-21% Parasitic Burst
-10% Parasitic Grasp
+4% Burrowing Mandibles
+7% Stinging Shot
+35% Biting Mandibles
+17% Biting Strike
+36% Biting Burst
 
 
-Abarene: Crippling Grasp (Fatigue, Nausea)
-Kajia: Burrowing Mandibles
+Abarene: Crippling Thorns (Dizziness)
+Kajia: Biting Strike
 
-Abarene antes a Fatigue token
-Abarene antes a Nausea token
-Kajia gets +2 power
-Kajia gets +2 priority
-Priorities:  3 | 2
-Abarene is active
+Abarene antes a Dizziness token
+Abarene gets -1 power
+Priorities:  0 | 2
+Kajia is active
+Kajia misses
 Abarene moves:
 
-.KA....
+..K.A..
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 1)
 Abarene hits
-Abarene recovers a Nausea token
-Abarene moves Kajia:
-
-K.A....
-
-Kajia takes 3 damage (now at 15 life)
-Kajia is stunned
-Abarene loses 1 life (now at 15)
+Abarene recovers a Dizziness token
+Abarene recovers a Pain Spike token
+Kajia takes 3 damage (now at 13 life)
+Abarene loses 1 life (now at 16)
 
 Beat 5
 -------
 
 Abarene
 -------
-Life: 15
-Discard 1: Crippling Grasp
-Discard 2: Intoxicating Shot
+Life: 16
+Discard 1: Crippling Thorns
+Discard 2: Lethal Grasp
 Special action available
-pool: Dizziness, Nausea
+pool: Dizziness, Fatigue, Nausea, Pain Spike
 
 Kajia
 -----
-Life: 15
-Discard 1: Burrowing Mandibles
-Discard 2: Swarming Dash
+Life: 13
+Discard 1: Biting Strike
+Discard 2: Swarming Drive
 Special action available
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
+0 insects on Abarene's discard 1
+0 insects on Abarene's discard 2
 
 
-K.A....
+..K.A..
+
+Unbeatable strategy for Abarene: Intoxicating Shot (Fatigue, Pain Spike): 1.90
+Unbeatable strategy for Abarene: Intoxicating Shot (Dizziness, Fatigue, Pain Spike): 1.15
+Unbeatable strategy for Abarene: Intoxicating Shot (Fatigue, Nausea, Pain Spike): 1.75
+Unbeatable strategy for Abarene: Intoxicating Shot (Dizziness, Fatigue, Nausea, Pain Spike): 1.00
+Unbeatable strategy for Abarene: Intoxicating Drive (Dizziness, Pain Spike): 0.29
+Unbeatable strategy for Abarene: Intoxicating Drive (Nausea, Pain Spike): 0.62
+Unbeatable strategy for Abarene: Intoxicating Drive (Dizziness, Nausea, Pain Spike): 0.14
+Unbeatable strategy for Abarene: Barbed Shot (Dizziness, Fatigue): 0.13
+Unbeatable strategy for Abarene: Barbed Shot (Fatigue, Pain Spike): 0.78
+Unbeatable strategy for Abarene: Barbed Shot (Dizziness, Fatigue, Pain Spike): 1.58
+Unbeatable strategy for Abarene: Barbed Shot (Fatigue, Nausea, Pain Spike): 0.13
+Unbeatable strategy for Abarene: Barbed Shot (Dizziness, Fatigue, Nausea, Pain Spike): 0.93
+Unbeatable strategy for Abarene: Barbed Drive (Pain Spike): 1.77
+Unbeatable strategy for Abarene: Barbed Drive (Dizziness, Pain Spike): 1.02
+Unbeatable strategy for Abarene: Barbed Drive (Fatigue, Pain Spike): 0.97
+Unbeatable strategy for Abarene: Barbed Drive (Nausea, Pain Spike): 0.97
+Unbeatable strategy for Abarene: Barbed Drive (Dizziness, Fatigue, Pain Spike): 0.37
+Unbeatable strategy for Abarene: Barbed Drive (Dizziness, Nausea, Pain Spike): 0.87
+Unbeatable strategy for Abarene: Barbed Drive (Fatigue, Nausea, Pain Spike): 0.32
+Unbeatable strategy for Abarene: Barbed Drive (Dizziness, Fatigue, Nausea, Pain Spike): 0.07
+Unbeatable strategy for Abarene: Pestilent Shot (Dizziness, Fatigue, Pain Spike): 0.81
+Unbeatable strategy for Abarene: Pestilent Shot (Dizziness, Fatigue, Nausea, Pain Spike): 0.16
+Unbeatable strategy for Abarene: Pestilent Drive (Dizziness, Pain Spike): 0.09
+
 
 Abarene:
-6% Barbed Thorns (Dizziness)
-55% Barbed Strike (Dizziness)
-39% Barbed Burst (Dizziness)
-1% Pestilent Thorns (Dizziness)
+14% Intoxicating Shot (Fatigue, Pain Spike)
+27% Intoxicating Drive (Nausea, Pain Spike)
+1% Intoxicating Burst (Pain Spike)
+58% Barbed Shot (Pain Spike)
 
 Kajia:
-4% Stinging Drive
-76% Biting Strike
-19% Biting Drive
-1% Biting Grasp
+0% Parasitic Shot
+20% Parasitic Burst
+63% Parasitic Dash
+16% Stinging Mandibles
 
 
-Abarene: Barbed Strike (Dizziness)
-Kajia: Stinging Drive
+Abarene: Barbed Shot (Pain Spike)
+Kajia: Stinging Mandibles
 
-Abarene antes a Dizziness token
-Priorities:  4 | 5
+Abarene antes a Pain Spike token
+Kajia loses 3 life (now at 10)
+Priorities:  3 | 4
 Kajia is active
+Kajia moves:
+
+...KA..
+
+Kajia loses 2 life (now at 8)
+Kajia hits
+Kajia places 1 insect token on Abarene's attack pair
+(Current insects: 1 / 0 / 0)
+Kajia moves Abarene:
+
+..AK...
+
+Kajia places 1 insect token on Abarene's attack pair
+(Current insects: 2 / 0 / 0)
+Abarene takes 3 damage (now at 13 life)
+Abarene is stunned
 Kajia moves:
 
 .KA....
 
-Kajia loses 2 life (now at 13)
-Kajia hits
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 1)
-Abarene takes 1 damage (now at 14 life)
-Abarene is stunned
-Abarene loses 1 life (now at 13)
+Kajia loses 2 life (now at 6)
 
 Beat 6
 -------
@@ -314,709 +362,180 @@ Beat 6
 Abarene
 -------
 Life: 13
-Discard 1: Barbed Strike
-Discard 2: Crippling Grasp
+Discard 1: Barbed Shot
+Discard 2: Crippling Thorns
 Special action available
-pool: Nausea
+pool: Dizziness, Fatigue, Nausea
 
 Kajia
 -----
-Life: 13
-Discard 1: Stinging Drive
-Discard 2: Burrowing Mandibles
+Life: 6
+Discard 1: Stinging Mandibles
+Discard 2: Biting Strike
 Special action available
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
+2 insects on Abarene's discard 1
+0 insects on Abarene's discard 2
 
 
 .KA....
 
+
 Abarene:
-21% Lethal Thorns
-5% Lethal Drive
-1% Lethal Burst
-44% Lethal Burst (Nausea)
-30% Intoxicating Burst (Nausea)
+45% Intoxicating Burst (Fatigue)
+42% Intoxicating Burst (Nausea)
+8% Intoxicating Grasp (Dizziness)
+6% Intoxicating Grasp (Fatigue, Nausea)
 
 Kajia:
-4% Swarming Strike
-50% Swarming Dash
-13% Biting Strike
-16% Biting Shot
-17% Biting Burst
+12% Burrowing Drive
+2% Swarming Drive
+4% Swarming Grasp
+81% Swarming Dash
 
 
-Abarene: Lethal Burst (Nausea)
-Kajia: Biting Burst
+Abarene: Intoxicating Burst (Fatigue)
+Kajia: Swarming Dash
 
-Abarene antes a Nausea token
-Abarene gets -2 power
-Priorities:  1 | 0
-Abarene is active
+Abarene antes a Fatigue token
+Priorities:  2 | 6
+Kajia is active
+Abarene recovers a Fatigue token
 Abarene moves:
 
 .K.A...
 
 Kajia moves:
 
-K..A...
-
-Abarene moves:
-
-K.....A
+..KA...
 
 Abarene misses
-Kajia misses
-Abarene loses 1 life (now at 12)
+Kajia places 1 insect token on Abarene's attack pair
+(Current insects: 1 / 2 / 0)
+Abarene recovers a Pain Spike token
 
 Beat 7
 -------
 
 Abarene
 -------
-Life: 12
-Discard 1: Lethal Burst
-Discard 2: Barbed Strike
-Special action available
-pool: 
-
-Kajia
------
 Life: 13
-Discard 1: Biting Burst
-Discard 2: Stinging Drive
+Discard 1: Intoxicating Burst
+Discard 2: Barbed Shot
 Special action available
-0 insects on opponent's discard 1
-1 insects on opponent's discard 2
-
-
-K.....A
-
-Unbeatable strategy for Abarene: Crippling Thorns: 0.48
-Unbeatable strategy for Abarene: Pestilent Dash: 0.21
-
-Abarene:
-6% Intoxicating Thorns
-34% Intoxicating Shot
-36% Intoxicating Dash
-24% Crippling Shot
-
-Kajia:
-3% Burrowing Shot
-23% Burrowing Grasp
-1% Parasitic Mandibles
-73% Parasitic Dash
-
-
-Abarene: Crippling Shot
-Kajia: Parasitic Dash
-
-Priorities:  0 | 8
-Kajia is active
-Kajia moves Abarene:
-
-K..A...
-
-Kajia moves:
-
-...AK..
-
-Abarene moves:
-
-....K.A
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 1)
-Abarene misses
-Abarene loses 1 life (now at 11)
-
-Beat 8
--------
-
-Abarene
--------
-Life: 11
-Discard 1: Crippling Shot
-Discard 2: Lethal Burst
-Special action available
-pool: 
+pool: Dizziness, Fatigue, Nausea, Pain Spike
 
 Kajia
 -----
-Life: 13
-Discard 1: Parasitic Dash
-Discard 2: Biting Burst
+Life: 6
+Discard 1: Swarming Dash
+Discard 2: Stinging Mandibles
 Special action available
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
+1 insects on Abarene's discard 1
+2 insects on Abarene's discard 2
 
-
-....K.A
-
-Unbeatable strategy for Kajia: Swarming Strike: -0.01
-
-Abarene:
-5% Barbed Thorns
-37% Barbed Strike
-3% Pestilent Strike
-55% Pestilent Grasp
-
-Kajia:
-73% Swarming Strike
-6% Swarming Shot
-2% Swarming Grasp
-19% Stinging Shot
-
-
-Abarene: Pestilent Grasp
-Kajia: Swarming Strike
-
-Priorities:  6 | 2
-Abarene is active
-Abarene hits
-Abarene recovers a Nausea token
-Abarene moves Kajia:
-
-...K..A
-
-Kajia takes 1 damage (now at 12 life)
-Kajia misses
-
-Beat 9
--------
-
-Abarene
--------
-Life: 11
-Discard 1: Pestilent Grasp
-Discard 2: Crippling Shot
-Special action available
-pool: Nausea
-
-Kajia
------
-Life: 12
-Discard 1: Swarming Strike
-Discard 2: Parasitic Dash
-Special action available
-0 insects on opponent's discard 1
-1 insects on opponent's discard 2
-
-
-...K..A
-
-Abarene:
-36% Lethal Drive
-18% Intoxicating Thorns (Nausea)
-22% Intoxicating Burst (Nausea)
-24% Barbed Drive
-
-Kajia:
-11% Stinging Drive
-7% Biting Mandibles
-16% Biting Shot
-66% Biting Burst
-
-
-Abarene: Intoxicating Burst (Nausea)
-Kajia: Biting Mandibles
-
-Abarene antes a Nausea token
-Abarene gets -1 power
-Priorities:  2 | 2
-Clash!
-
-Abarene:
-32% Intoxicating Thorns (Nausea)
-25% Intoxicating Strike (Nausea)
-43% Intoxicating Drive (Nausea)
-
-Kajia:
-0% Biting Shot
-2% Biting Drive
-97% Biting Burst
-
-
-Abarene: Intoxicating Strike (Nausea)
-Kajia: Biting Burst
-
-Abarene antes a Nausea token
-Abarene gets -1 power
-Priorities:  4 | 0
-Abarene is active
-Abarene recovers a Nausea token
-Kajia moves:
-
-..K...A
-
-Abarene misses
-Kajia hits
-Abarene takes 2 damage (now at 9 life)
-Kajia moves Abarene:
-
-..K..A.
-
-Abarene recovers a Fatigue token
-Abarene loses 1 life (now at 8)
-
-Beat 10
--------
-
-Abarene
--------
-Life: 8
-Discard 1: Intoxicating Strike
-Discard 2: Pestilent Grasp
-Special action available
-pool: Fatigue, Nausea
-
-Kajia
------
-Life: 12
-Discard 1: Biting Burst
-Discard 2: Swarming Strike
-Special action available
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
-
-
-..K..A.
-
-Abarene:
-21% Lethal Thorns (Fatigue)
-5% Lethal Thorns (Nausea)
-12% Barbed Thorns
-3% Barbed Thorns (Nausea)
-33% Barbed Drive
-25% Crippling Burst
-
-Kajia:
-6% Burrowing Shot
-18% Parasitic Mandibles
-0% Parasitic Shot
-1% Parasitic Drive
-11% Parasitic Grasp
-64% Parasitic Dash
-
-
-Abarene: Crippling Burst
-Kajia: Parasitic Dash
-
-Priorities:  -1 | 8
-Kajia is active
-Kajia moves Abarene:
-
-.AK....
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 0)
-Abarene moves:
-
-A.K....
-
-Kajia moves:
-
-AK.....
-
-Abarene moves:
-
-.K.A...
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 2 / 0 / 0)
-Abarene hits
-Abarene recovers a Dizziness token
-Kajia takes 4 damage (now at 8 life)
-Kajia is stunned
-
-Beat 11
--------
-
-Abarene
--------
-Life: 8
-Discard 1: Crippling Burst
-Discard 2: Intoxicating Strike
-Special action available
-pool: Dizziness, Fatigue, Nausea
-
-Kajia
------
-Life: 8
-Discard 1: Parasitic Dash
-Discard 2: Biting Burst
-Special action available
-2 insects on opponent's discard 1
-0 insects on opponent's discard 2
-
-
-.K.A...
-
-Abarene:
-13% Lethal Thorns (Nausea)
-49% Lethal Thorns (Fatigue, Nausea)
-3% Lethal Shot (Fatigue, Nausea)
-6% Barbed Thorns (Dizziness)
-1% Barbed Thorns (Dizziness, Nausea)
-24% Barbed Grasp
-4% Barbed Grasp (Nausea)
-
-Kajia:
-27% Burrowing Strike
-16% Burrowing Shot
-41% Burrowing Drive
-1% Swarming Strike
-2% Swarming Grasp
-8% Stinging Mandibles
-5% Stinging Strike
-
-
-Abarene: Lethal Thorns (Nausea)
-Kajia: Burrowing Drive
-
-Abarene antes a Nausea token
-Kajia gets +1 power
-Kajia gets +1 priority
-Priorities:  2 | 4
-Kajia is active
-Kajia moves:
 
 ..KA...
 
-Kajia moves Abarene:
-
-.AK....
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 2 / 0)
-Kajia misses
-Abarene moves:
-
-A.K....
-
-Abarene hits
-Abarene recovers a Nausea token
-Abarene recovers a Pain Spike token
-Kajia takes 5 damage (now at 3 life)
-Kajia is stunned
-
-Beat 12
--------
-
-Abarene
--------
-Life: 8
-Discard 1: Lethal Thorns
-Discard 2: Crippling Burst
-Special action available
-pool: Dizziness, Fatigue, Nausea, Pain Spike
-
-Kajia
------
-Life: 3
-Discard 1: Burrowing Drive
-Discard 2: Parasitic Dash
-Special action available
-1 insects on opponent's discard 1
-2 insects on opponent's discard 2
-
-
-A.K....
-
-Unbeatable strategy for Abarene: Intoxicating Dash (Pain Spike): 0.51
-Unbeatable strategy for Abarene: Intoxicating Dash (Dizziness, Pain Spike): 0.21
-Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Pain Spike): 0.21
-Unbeatable strategy for Abarene: Barbed Dash (Pain Spike): 0.51
-Unbeatable strategy for Abarene: Pestilent Dash (Pain Spike): 0.21
 
 Abarene:
-9% Intoxicating Shot (Dizziness, Pain Spike)
-4% Intoxicating Shot (Dizziness, Nausea, Pain Spike)
-86% Barbed Dash (Pain Spike)
+29% Lethal Thorns (Nausea, Pain Spike)
+3% Lethal Strike (Nausea, Pain Spike)
+30% Lethal Drive (Pain Spike)
+3% Lethal Drive (Nausea, Pain Spike)
+10% Crippling Strike (Pain Spike)
+17% Crippling Strike (Nausea, Pain Spike)
+9% Crippling Grasp (Nausea, Pain Spike)
 
 Kajia:
-42% Swarming Mandibles
-15% Swarming Strike
-43% Swarming Shot
+0% Burrowing Strike
+1% Burrowing Shot
+0% Burrowing Drive
+0% Parasitic Grasp
+0% Biting Shot
+96% Special Pulse
+2% Special Wormwood
 
 
-Abarene: Barbed Dash (Pain Spike)
-Kajia: Swarming Mandibles
-
-Abarene antes a Pain Spike token
-Kajia loses 3 life (now at 1)
-Priorities:  10 | 2
-Abarene is active
-Abarene moves:
-
-..K.A..
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 2)
-Kajia moves:
-
-...KA..
-
-Kajia loses 2 life (now at 1)
-Kajia misses
-Kajia moves:
-
-....AK.
-
-Kajia loses 2 life (now at 1)
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 2 / 1 / 2)
-Abarene loses 2 life (now at 6)
-
-Beat 13
--------
-
-Abarene
--------
-Life: 6
-Discard 1: Barbed Dash
-Discard 2: Lethal Thorns
-Special action available
-pool: Dizziness, Fatigue, Nausea
-
-Kajia
------
-Life: 1
-Discard 1: Swarming Mandibles
-Discard 2: Burrowing Drive
-Special action available
-2 insects on opponent's discard 1
-1 insects on opponent's discard 2
-
-
-....AK.
-
-Abarene:
-10% Intoxicating Burst
-15% Intoxicating Burst (Dizziness)
-50% Intoxicating Burst (Fatigue)
-15% Intoxicating Burst (Nausea)
-9% Intoxicating Grasp (Fatigue)
-
-Kajia:
-22% Parasitic Dash
-78% Stinging Dash
-
-
-Abarene: Intoxicating Burst (Nausea)
-Kajia: Stinging Dash
-
-Abarene antes a Nausea token
-Priorities:  2 | 10
-Kajia is active
-Abarene recovers a Nausea token
-Abarene moves:
-
-...A.K.
-
-Kajia moves:
-
-.K.A...
-
-Abarene misses
-Abarene recovers a Pain Spike token
-Abarene loses 1 life (now at 5)
-
-Beat 14
--------
-
-Abarene
--------
-Life: 5
-Discard 1: Intoxicating Burst
-Discard 2: Barbed Dash
-Special action available
-pool: Dizziness, Fatigue, Nausea, Pain Spike
-
-Kajia
------
-Life: 1
-Discard 1: Stinging Dash
-Discard 2: Swarming Mandibles
-Special action available
-0 insects on opponent's discard 1
-2 insects on opponent's discard 2
-
-
-.K.A...
-
-Unbeatable strategy for Abarene: Lethal Drive (Fatigue): 6.00
-Unbeatable strategy for Abarene: Lethal Drive (Dizziness, Fatigue): 6.00
-Unbeatable strategy for Abarene: Lethal Drive (Fatigue, Nausea): 6.00
-Unbeatable strategy for Abarene: Lethal Drive (Fatigue, Pain Spike): 6.00
-Unbeatable strategy for Abarene: Lethal Drive (Dizziness, Fatigue, Nausea): 6.00
-Unbeatable strategy for Abarene: Lethal Drive (Dizziness, Fatigue, Pain Spike): 6.00
-Unbeatable strategy for Abarene: Lethal Drive (Fatigue, Nausea, Pain Spike): 6.00
-Unbeatable strategy for Abarene: Lethal Drive (Dizziness, Fatigue, Nausea, Pain Spike): 6.00
-Unbeatable strategy for Abarene: Pestilent Drive (Fatigue): 6.00
-Unbeatable strategy for Abarene: Pestilent Drive (Dizziness, Fatigue): 6.00
-Unbeatable strategy for Abarene: Pestilent Drive (Fatigue, Nausea): 6.00
-Unbeatable strategy for Abarene: Pestilent Drive (Fatigue, Pain Spike): 6.00
-Unbeatable strategy for Abarene: Pestilent Drive (Dizziness, Fatigue, Nausea): 6.00
-Unbeatable strategy for Abarene: Pestilent Drive (Dizziness, Fatigue, Pain Spike): 6.00
-Unbeatable strategy for Abarene: Pestilent Drive (Fatigue, Nausea, Pain Spike): 6.00
-Unbeatable strategy for Abarene: Pestilent Drive (Dizziness, Fatigue, Nausea, Pain Spike): 6.00
-
-Abarene:
-24% Lethal Drive (Fatigue)
-1% Lethal Drive (Nausea)
-10% Pestilent Drive
-24% Pestilent Drive (Fatigue)
-23% Pestilent Drive (Nausea)
-18% Pestilent Grasp
-
-Kajia:
-6% Biting Drive
-84% Special Pulse
-4% Special Wormwood
-6% Special Imago Emergence
-
-
-Abarene: Pestilent Grasp
+Abarene: Crippling Grasp (Nausea, Pain Spike)
 Kajia: Special Pulse
 
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Kajia loses 3 life (now at 3)
 Pulse:
 
-.AK....
+.A.K...
 
-Abarene loses 2 life (now at 3)
+Abarene loses 2 life (now at 11)
 
-Beat 14
+Beat 7
 -------
 
 Abarene
 -------
-Life: 3
-Discard 1: Pestilent Grasp
+Life: 11
+Discard 1: Crippling Grasp
 Discard 2: Intoxicating Burst
 Special action available
-pool: Dizziness, Fatigue, Nausea, Pain Spike
+pool: Dizziness, Fatigue
 
 Kajia
 -----
-Life: 1
-Discard 1: Stinging Dash
-Discard 2: Swarming Mandibles
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 3
+Discard 1: Swarming Dash
+Discard 2: Stinging Mandibles
+0 insects on Abarene's discard 1
+1 insects on Abarene's discard 2
 
 
-.AK....
+.A.K...
 
-Unbeatable strategy for Abarene: Barbed Thorns (Dizziness, Fatigue, Nausea): 6.00
-Unbeatable strategy for Abarene: Barbed Thorns (Dizziness, Fatigue, Pain Spike): 6.00
-Unbeatable strategy for Abarene: Barbed Thorns (Fatigue, Nausea, Pain Spike): 6.00
-Unbeatable strategy for Abarene: Barbed Thorns (Dizziness, Fatigue, Nausea, Pain Spike): 6.00
-Unbeatable strategy for Abarene: Barbed Shot (Fatigue): 6.00
-Unbeatable strategy for Abarene: Barbed Shot (Dizziness, Fatigue): 6.00
-Unbeatable strategy for Abarene: Barbed Shot (Fatigue, Nausea): 6.00
-Unbeatable strategy for Abarene: Barbed Shot (Fatigue, Pain Spike): 6.00
-Unbeatable strategy for Abarene: Barbed Shot (Dizziness, Fatigue, Nausea): 6.00
-Unbeatable strategy for Abarene: Barbed Shot (Dizziness, Fatigue, Pain Spike): 6.00
-Unbeatable strategy for Abarene: Barbed Shot (Fatigue, Nausea, Pain Spike): 6.00
-Unbeatable strategy for Abarene: Barbed Shot (Dizziness, Fatigue, Nausea, Pain Spike): 6.00
+Unbeatable strategy for Abarene: Barbed Drive (Fatigue): 1.09
+Unbeatable strategy for Abarene: Barbed Drive (Dizziness, Fatigue): 0.32
+
 
 Abarene:
-2% Barbed Thorns (Dizziness, Fatigue, Nausea)
-2% Barbed Thorns (Dizziness, Fatigue, Pain Spike)
-2% Barbed Thorns (Dizziness, Nausea, Pain Spike)
-2% Barbed Thorns (Fatigue, Nausea, Pain Spike)
-2% Barbed Thorns (Dizziness, Fatigue, Nausea, Pain Spike)
-2% Barbed Shot (Fatigue)
-2% Barbed Shot (Dizziness, Fatigue)
-2% Barbed Shot (Fatigue, Nausea)
-2% Barbed Shot (Fatigue, Pain Spike)
-2% Barbed Shot (Dizziness, Fatigue, Nausea)
-2% Barbed Shot (Dizziness, Fatigue, Pain Spike)
-2% Barbed Shot (Dizziness, Nausea, Pain Spike)
-2% Barbed Shot (Fatigue, Nausea, Pain Spike)
-2% Barbed Shot (Dizziness, Fatigue, Nausea, Pain Spike)
-2% Crippling Thorns (Dizziness)
-2% Crippling Thorns (Dizziness, Fatigue)
-2% Crippling Thorns (Dizziness, Nausea)
-2% Crippling Thorns (Dizziness, Pain Spike)
-2% Crippling Thorns (Fatigue, Nausea)
-2% Crippling Thorns (Dizziness, Fatigue, Nausea)
-2% Crippling Thorns (Dizziness, Fatigue, Pain Spike)
-2% Crippling Thorns (Dizziness, Nausea, Pain Spike)
-2% Crippling Thorns (Fatigue, Nausea, Pain Spike)
-2% Crippling Thorns (Dizziness, Fatigue, Nausea, Pain Spike)
-2% Crippling Strike (Dizziness)
-2% Crippling Strike (Fatigue)
-2% Crippling Strike (Dizziness, Fatigue)
-2% Crippling Strike (Dizziness, Nausea)
-2% Crippling Strike (Dizziness, Pain Spike)
-2% Crippling Strike (Fatigue, Nausea)
-2% Crippling Strike (Fatigue, Pain Spike)
-2% Crippling Strike (Dizziness, Fatigue, Nausea)
-2% Crippling Strike (Dizziness, Fatigue, Pain Spike)
-2% Crippling Strike (Dizziness, Nausea, Pain Spike)
-2% Crippling Strike (Fatigue, Nausea, Pain Spike)
-2% Crippling Strike (Dizziness, Fatigue, Nausea, Pain Spike)
-2% Crippling Shot (Dizziness)
-2% Crippling Shot (Dizziness, Fatigue)
-2% Crippling Shot (Dizziness, Nausea)
-2% Crippling Shot (Dizziness, Pain Spike)
-2% Crippling Shot (Fatigue, Nausea)
-2% Crippling Shot (Dizziness, Fatigue, Nausea)
-2% Crippling Shot (Dizziness, Fatigue, Pain Spike)
-2% Crippling Shot (Dizziness, Nausea, Pain Spike)
-2% Crippling Shot (Fatigue, Nausea, Pain Spike)
-2% Crippling Shot (Dizziness, Fatigue, Nausea, Pain Spike)
-2% Crippling Drive (Fatigue)
-2% Crippling Drive (Dizziness, Fatigue)
-2% Crippling Drive (Dizziness, Nausea)
-2% Crippling Drive (Fatigue, Nausea)
-2% Crippling Drive (Fatigue, Pain Spike)
-2% Crippling Drive (Dizziness, Fatigue, Nausea)
-2% Crippling Drive (Dizziness, Fatigue, Pain Spike)
-2% Crippling Drive (Dizziness, Nausea, Pain Spike)
-2% Crippling Drive (Fatigue, Nausea, Pain Spike)
-2% Crippling Drive (Dizziness, Fatigue, Nausea, Pain Spike)
+7% Lethal Thorns (Dizziness)
+26% Lethal Thorns (Fatigue)
+24% Lethal Shot
+2% Lethal Shot (Fatigue)
+36% Barbed Thorns (Dizziness, Fatigue)
+6% Barbed Drive (Fatigue)
 
 Kajia:
 2% Burrowing Strike
-3% Burrowing Shot
-1% Burrowing Drive
-6% Burrowing Burst
-3% Burrowing Grasp
-4% Parasitic Strike
-2% Parasitic Shot
-12% Parasitic Drive
-46% Parasitic Burst
-3% Parasitic Grasp
-6% Biting Strike
-4% Biting Shot
-2% Biting Drive
-3% Biting Burst
-3% Biting Grasp
+20% Burrowing Grasp
+40% Parasitic Burst
+3% Biting Strike
+1% Biting Burst
+33% Biting Grasp
 
 
-Abarene: Crippling Strike (Dizziness, Fatigue, Nausea)
+Abarene: Lethal Thorns (Fatigue)
 Kajia: Parasitic Burst
 
-Abarene antes a Dizziness token
 Abarene antes a Fatigue token
-Abarene antes a Nausea token
-Priorities:  1 | -2
+Priorities:  2 | -2
 Abarene is active
 Kajia moves Abarene:
 
-..K..A.
+...K.A.
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 0)
+Kajia places 1 insect token on Abarene's attack pair
+(Current insects: 1 / 0 / 1)
+Kajia moves:
+
+.K...A.
+
 Abarene moves:
 
-..KA...
+AK.....
 
+Kajia places 1 insect token on Abarene's attack pair
+(Current insects: 2 / 0 / 1)
 Abarene hits
-Abarene recovers a Dizziness token
-Kajia takes 5 damage (now at 0 life)
+Abarene recovers a Fatigue token
+Abarene recovers a Nausea token
+Kajia takes 4 damage (now at 0 life)
 ABARENE WINS!
-total_time: 107
+total_time: 121

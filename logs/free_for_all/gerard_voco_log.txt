@@ -21,7 +21,7 @@ No mercenaries in play
 Voco
 ----
 Life: 20
-Discard 1: Thunderous Drive
+Discard 1: Thunderous Shred
 Discard 2: Monster Burst
 Special action available
 
@@ -29,27 +29,29 @@ Special action available
 .G...V.
 
 
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Brawler): 0.74
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Brawler): 2.17
 Unbeatable strategy for Gerard: Avaricious Dash (Hire Trebuchet): 1.16
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Archer): 2.85
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Archer): 3.61
+Unbeatable strategy for Gerard: Initiation Dash: 0.28
+Unbeatable strategy for Gerard: Initiation Dash (Hire Brawler): 1.67
 Unbeatable strategy for Gerard: Initiation Dash (Hire Trebuchet): 1.41
-Unbeatable strategy for Gerard: Initiation Dash (Hire Archer): 1.25
+Unbeatable strategy for Gerard: Initiation Dash (Hire Archer): 3.64
 
 
 Gerard:
-38% Avaricious Shot (Hire Archer)
-8% Avaricious Dash
-52% Avaricious Dash (Hire Archer)
-2% Initiation Shot (Hire Archer)
+6% Avaricious Shot (Hire Archer)
+10% Initiation Shot (Hire Archer)
+2% Initiation Drive (Hire Archer)
+82% Initiation Dash (Hire Archer)
 
 Voco:
-11% Metal Strike
-48% Metal Dash
-21% Hellraising Shred
-20% Hellraising Grasp
+0% Metal Drive
+81% Metal Dash
+10% Hellraising Drive
+9% Abyssal Drive
 
 
-Gerard: Avaricious Dash (Hire Archer)
+Gerard: Initiation Dash (Hire Archer)
 Voco: Metal Dash
 
 Gerard hires a Archer for 3 gold (0 remaining
@@ -83,7 +85,7 @@ Beat 2
 Gerard
 ------
 Life: 20
-Discard 1: Avaricious Dash
+Discard 1: Initiation Dash
 Discard 2: Villainous Larceny
 Special action available
 Gold: 1
@@ -94,7 +96,7 @@ Voco
 ----
 Life: 19
 Discard 1: Metal Dash
-Discard 2: Thunderous Drive
+Discard 2: Thunderous Shred
 Special action available
 
 
@@ -103,55 +105,47 @@ Special action available
 
 
 Gerard:
-8% Hooked Drive
-59% Initiation Shot
-33% Initiation Drive
+55% Avaricious Shot
+35% Avaricious Drive
+11% Hooked Drive
 
 Voco:
-18% Monster Strike
-54% Hellraising Burst
-28% Hellraising Grasp
+7% Monster Strike
+60% Hellraising Burst
+33% Hellraising Grasp
 
 
-Gerard: Initiation Shot
-Voco: Hellraising Grasp
-
-Priorities:  3 | 3
-Clash!
-
-
-Gerard: Initiation Drive
+Gerard: Avaricious Shot
 Voco: Hellraising Burst
 
-Priorities:  5 | -1
+Priorities:  3 | -1
 Gerard is active
-Voco moves:
-
-..V...G
-.....z.
-
-Voco moves:
-
-.V....G
-.....z.
-
-
-.V....G
-..zzzz.
-
 Gerard moves:
+
+....VG.
+.....z.
+
+Voco moves:
+
+..V..G.
+.....z.
+
+Voco moves:
+
+.V...G.
+.....z.
+
 
 .V...G.
 ..zzzz.
 
-Gerard moves:
-
-.V.G...
-..zzzz.
-
-Gerard misses
-Voco misses
-Gerard gains 1 Gold Token (has 2)
+Gerard hits
+Voco has 1 soak
+Voco takes 2 damage (now at 17 life)
+Gerard gains 2 Gold Tokens (has 3)
+Voco is stunned
+Voco loses 1 life (now at 16)
+Gerard gains 1 Gold Token (has 4)
 
 Beat 3
 -------
@@ -159,187 +153,263 @@ Beat 3
 Gerard
 ------
 Life: 20
-Discard 1: Initiation Drive
-Discard 2: Avaricious Dash
+Discard 1: Avaricious Shot
+Discard 2: Initiation Dash
 Special action available
-Gold: 2
+Gold: 4
 Mercenaries in play:
   Archer
 
 Voco
 ----
-Life: 19
+Life: 16
 Discard 1: Hellraising Burst
 Discard 2: Metal Dash
 Special action available
 
 
-.V.G...
-..zzzz.
+.V...G.
+..zz.z.
 
 
 Gerard:
-11% Villainous Larceny
-16% Gilded Larceny (Hire Gunslinger)
-16% Gilded Larceny (Hire Mage)
-16% Gilded Larceny (Hire Heavy Knight)
-40% Gilded Grasp
+49% Villainous Drive (Hire Brawler)
+21% Villainous Grasp (Hire Brawler)
+4% Gilded Drive (Hire Brawler)
+9% Gilded Burst
+18% Hooked Strike (Hire Brawler)
 
 Voco:
-61% Monster Shred
-21% Monster Strike
-18% Abyssal Shot
+7% Monster Strike
+19% Abyssal Shred
+23% Abyssal Strike
+6% Abyssal Drive
+44% Abyssal Grasp
 
 
-Gerard: Villainous Larceny
-Voco: Monster Shred
+Gerard: Villainous Drive (Hire Brawler)
+Voco: Abyssal Grasp
 
-Priorities:  3 | 3
-Clash!
-
-
-Gerard: Villainous Shot
-Voco: Monster Drive
-
-Priorities:  2 | 3
+Gerard hires a Brawler for 3 gold (1 remaining
+Priorities:  4 | 5
 Voco is active
-Voco moves:
-
-..VG...
-..zzzz.
-
-Voco moves:
-
-...GV..
-..zzzz.
-
 Voco hits
-Gerard takes 3 damage (now at 17 life)
+Voco moves Gerard:
+
+.V....G
+..zz.z.
+
+Gerard takes 2 damage (now at 18 life)
 Gerard is stunned
+
+.V....G
+..zzzzz
+
 Gerard moves:
 
-....V.G
-..zzzz.
+.V.G...
+..zzzzz
 
-Gerard gains 1 Gold Token (has 3)
+Gerard gains 1 Gold Token (has 2)
 
 Beat 4
 -------
 
 Gerard
 ------
-Life: 17
-Discard 1: Villainous Shot
-Discard 2: Initiation Drive
+Life: 18
+Discard 1: Villainous Drive
+Discard 2: Avaricious Shot
 Special action available
-Gold: 3
+Gold: 2
 Mercenaries in play:
   Archer
+  Brawler
 
 Voco
 ----
-Life: 19
-Discard 1: Monster Drive
+Life: 16
+Discard 1: Abyssal Grasp
 Discard 2: Hellraising Burst
 Special action available
 
 
-....V.G
-..zzzz.
+.V.G...
+..zzzzz
 
-Unbeatable strategy for Gerard: Gilded Dash (Hire Brawler): 0.60
-Unbeatable strategy for Gerard: Avaricious Grasp (Hire Brawler): 0.60
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Brawler): 0.08
-Unbeatable strategy for Gerard: Hooked Dash (Hire Brawler): 0.66
+Unbeatable strategy for Gerard: Initiation Dash: 0.49
 
 
 Gerard:
-24% Gilded Strike (Hire Trebuchet)
-38% Gilded Grasp (Hire Trebuchet)
-5% Avaricious Larceny (Hire Brawler)
-26% Avaricious Grasp (Hire Brawler)
-8% Avaricious Dash
+14% Gilded Larceny
+19% Gilded Grasp
+64% Initiation Larceny
+3% Initiation Grasp
 
 Voco:
-5% Metal Shred
-5% Metal Strike
-8% Metal Grasp
-50% Metal Dash
-32% Special Pulse
+4% Metal Drive
+18% Metal Dash
+2% Thunderous Drive
+76% Special Pulse
 
 
-Gerard: Gilded Strike (Hire Trebuchet)
-Voco: Metal Dash
+Gerard: Gilded Larceny
+Voco: Special Pulse
 
-Gerard hires a Trebuchet for 3 gold (0 remaining
-Priorities:  2 | 9
-Voco is active
+Pulse:
+
+V....G.
+..zzzzz
+
+
+Beat 4
+-------
+
+Gerard
+------
+Life: 18
+Discard 1: Gilded Larceny
+Discard 2: Villainous Drive
+Special action available
+Gold: 2
+Mercenaries in play:
+  Archer
+  Brawler
+
+Voco
+----
+Life: 16
+Discard 1: Abyssal Grasp
+Discard 2: Hellraising Burst
+
+
+V....G.
+..zzzzz
+
+Unbeatable strategy for Gerard: Avaricious Dash: 2.33
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Gunslinger): 1.53
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage): 1.53
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Heavy Knight): 1.53
+Unbeatable strategy for Gerard: Initiation Grasp: 0.60
+Unbeatable strategy for Gerard: Initiation Dash: 2.33
+Unbeatable strategy for Gerard: Initiation Dash (Hire Gunslinger): 1.53
+Unbeatable strategy for Gerard: Initiation Dash (Hire Mage): 1.53
+Unbeatable strategy for Gerard: Initiation Dash (Hire Heavy Knight): 1.53
+
+
+Gerard:
+33% Avaricious Shot
+12% Avaricious Dash
+43% Initiation Shot
+12% Initiation Dash
+
+Voco:
+24% Monster Shred
+76% Monster Drive
+
+
+Gerard: Avaricious Shot
+Voco: Monster Drive
+
+Priorities:  3 | 3
+Clash!
+
+
+Gerard: Avaricious Dash
+Voco: Monster Shot
+
+Priorities:  10 | 1
+Gerard is active
+Gerard moves:
+
+V...G..
+..zzzzz
+
+Voco loses 1 life (now at 15)
+Gerard moves:
+
+V.....G
+..zzzzz
+
 Voco moves:
 
-...V..G
-..zzzz.
+.V....G
+..zzzzz
 
-Gerard misses
-Voco loses 1 life (now at 18)
-Gerard gains 1 Gold Token (has 1)
+Voco misses
+Gerard gains 1 Gold Token (has 3)
 
 Beat 5
 -------
 
 Gerard
 ------
-Life: 17
-Discard 1: Gilded Strike
-Discard 2: Villainous Shot
+Life: 18
+Discard 1: Avaricious Dash
+Discard 2: Gilded Larceny
 Special action available
-Gold: 1
+Gold: 3
 Mercenaries in play:
   Archer
-  Trebuchet
+  Brawler
 
 Voco
 ----
-Life: 18
-Discard 1: Metal Dash
-Discard 2: Monster Drive
-Special action available
+Life: 15
+Discard 1: Monster Shot
+Discard 2: Abyssal Grasp
 
 
-...V..G
-..zzzz.
+.V....G
+..zzzzz
 
 
 Gerard:
-32% Avaricious Larceny
-14% Avaricious Drive
-16% Avaricious Burst
-38% Hooked Drive
+17% Villainous Drive (Hire Trebuchet)
+4% Hooked Strike
+21% Hooked Shot
+39% Initiation Drive
+18% Initiation Grasp (Hire Trebuchet)
 
 Voco:
-15% Hellraising Burst
-25% Abyssal Shred
-38% Abyssal Burst
-21% Abyssal Grasp
+24% Metal Shred
+55% Metal Drive
+11% Hellraising Shred
+7% Hellraising Burst
+3% Thunderous Burst
 
 
-Gerard: Hooked Drive
-Voco: Abyssal Grasp
+Gerard: Initiation Drive
+Voco: Hellraising Shred
 
-Priorities:  3 | 5
-Voco is active
+Priorities:  5 | 2
+Gerard is active
+Voco moves:
+
+V.....G
+..zzzzz
+
+
+V.....G
+.zzzzzz
+
+Gerard moves:
+
+V....G.
+.zzzzzz
+
+Gerard moves:
+
+V..G...
+.zzzzzz
+
+Gerard misses
+Voco loses 1 life (now at 14)
 Voco hits
-Voco moves Gerard:
-
-...V.G.
-..zzzz.
-
-Gerard takes 2 damage (now at 15 life)
+Voco gets +3 power
+Gerard takes 3 damage (now at 15 life)
 Gerard is stunned
-
-...V.G.
-z.zzzzz
-
-Gerard gains 1 Gold Token (has 2)
+Gerard gains 1 Gold Token (has 4)
 Gerard loses 1 life (now at 14)
 
 Beat 6
@@ -348,701 +418,407 @@ Beat 6
 Gerard
 ------
 Life: 14
-Discard 1: Hooked Drive
-Discard 2: Gilded Strike
+Discard 1: Initiation Drive
+Discard 2: Avaricious Dash
 Special action available
-Gold: 2
+Gold: 4
 Mercenaries in play:
   Archer
-  Trebuchet
+  Brawler
 
 Voco
 ----
-Life: 18
-Discard 1: Abyssal Grasp
-Discard 2: Metal Dash
-Special action available
-
-
-...V.G.
-z.zzz.z
-
-
-Gerard:
-1% Villainous Larceny
-0% Villainous Grasp
-42% Villainous Dash
-18% Avaricious Shot
-39% Initiation Larceny
-
-Voco:
-3% Monster Strike
-17% Hellraising Burst
-1% Thunderous Shred
-8% Thunderous Drive
-71% Special Pulse
-
-
-Gerard: Avaricious Shot
-Voco: Special Pulse
-
-Pulse:
-
-G.....V
-z.zzz.z
-
-
-Beat 6
--------
-
-Gerard
-------
 Life: 14
-Discard 1: Avaricious Shot
-Discard 2: Hooked Drive
-Special action available
-Gold: 2
-Mercenaries in play:
-  Archer
-  Trebuchet
-
-Voco
-----
-Life: 18
-Discard 1: Abyssal Grasp
-Discard 2: Metal Dash
+Discard 1: Hellraising Shred
+Discard 2: Monster Shot
 
 
-G.....V
-z.zzz.z
-
-Unbeatable strategy for Gerard: Villainous Grasp: 1.22
-Unbeatable strategy for Gerard: Villainous Grasp (Hire Heavy Knight): 0.42
-Unbeatable strategy for Gerard: Villainous Grasp (Hire Mage): 0.42
-Unbeatable strategy for Gerard: Villainous Grasp (Hire Gunslinger): 0.42
-Unbeatable strategy for Gerard: Villainous Dash: 0.50
-Unbeatable strategy for Gerard: Initiation Dash: 0.65
+V..G...
+.zz.zzz
 
 
 Gerard:
-12% Villainous Larceny
-26% Villainous Strike
-10% Villainous Burst
-52% Villainous Dash
+3% Villainous Larceny
+41% Villainous Strike
+0% Villainous Shot
+4% Gilded Larceny
+52% Gilded Shot
 
 Voco:
-8% Monster Shot
-5% Monster Drive
-55% Hellraising Shot
-32% Thunderous Burst
+28% Metal Drive
+29% Abyssal Strike
+17% Abyssal Burst
+7% Thunderous Drive
+19% Thunderous Burst
 
 
-Gerard: Villainous Dash
-Voco: Thunderous Burst
+Gerard: Villainous Strike
+Voco: Abyssal Strike
 
-Priorities:  9 | 1
-Gerard is active
+Priorities:  3 | 3
+Clash!
+
+
+Gerard: Villainous Shot
+Voco: Abyssal Dash
+
+Priorities:  2 | 9
+Voco is active
 Voco moves:
 
-G...V..
-z.zzz.z
+...GV..
+.zz.zzz
 
-Voco moves:
-
-G.....V
-z.zzz.z
-
-Voco loses 1 life (now at 17)
+Gerard misses
+Voco loses 1 life (now at 13)
 Gerard moves:
 
-...G..V
-z.zzz.z
+....VG.
+.zz.zzz
 
-Voco hits
-Gerard takes 2 damage (now at 12 life)
-Voco moves Gerard:
-
-.G....V
-z.zzz.z
-
-Gerard is stunned
-Gerard moves:
-
-....G.V
-z.zzz.z
-
-Gerard gains 1 Gold Token (has 3)
+Gerard gains 1 Gold Token (has 5)
+Gerard loses 1 life (now at 13)
 
 Beat 7
 -------
 
 Gerard
 ------
-Life: 12
-Discard 1: Villainous Dash
-Discard 2: Avaricious Shot
+Life: 13
+Discard 1: Villainous Shot
+Discard 2: Initiation Drive
 Special action available
-Gold: 3
+Gold: 5
 Mercenaries in play:
   Archer
-  Trebuchet
+  Brawler
 
 Voco
 ----
-Life: 17
-Discard 1: Thunderous Burst
-Discard 2: Abyssal Grasp
+Life: 13
+Discard 1: Abyssal Dash
+Discard 2: Hellraising Shred
 
 
-....G.V
-z.zzz.z
+....VG.
+.zz.z.z
+
+Unbeatable strategy for Gerard: Avaricious Dash: 0.46
+Unbeatable strategy for Gerard: Hooked Dash: 0.52
 
 
 Gerard:
-81% Initiation Larceny (Hire Brawler)
-19% Initiation Drive (Hire Brawler)
+9% Gilded Larceny
+53% Gilded Strike
+5% Avaricious Larceny (Hire Gunslinger)
+5% Avaricious Larceny (Hire Mage)
+10% Avaricious Larceny (Hire Mage; Activate Mage)
+5% Avaricious Larceny (Hire Heavy Knight)
+12% Avaricious Burst
 
 Voco:
-9% Metal Shred
-91% Metal Dash
+31% Monster Strike
+13% Metal Drive
+24% Metal Burst
+29% Metal Grasp
+3% Thunderous Burst
 
 
-Gerard: Initiation Drive (Hire Brawler)
-Voco: Metal Dash
+Gerard: Gilded Strike
+Voco: Monster Strike
 
-Gerard hires a Brawler for 3 gold (0 remaining
-Priorities:  5 | 9
-Voco is active
-Voco moves:
-
-...VG..
-z.zzz.z
+Priorities:  2 | 2
+Clash!
 
 
-...VG..
-z.zzzzz
+Gerard: Gilded Dash
+Voco: Monster Drive
 
-Voco moves:
-
-....G.V
-z.zzzzz
-
+Priorities:  8 | 3
+Gerard is active
+Voco loses 1 life (now at 12)
 Gerard moves:
 
-.....GV
-z.zzzzz
+...GV..
+.zz.z.z
 
-Gerard misses
-Voco loses 1 life (now at 16)
-Gerard gains 1 Gold Token (has 1)
+Voco moves:
+
+..VG...
+.zz.z.z
+
+Voco moves:
+
+...G.V.
+.zz.z.z
+
+Voco misses
+Gerard gains 1 Gold Token (has 6)
 
 Beat 8
 -------
 
 Gerard
 ------
-Life: 12
-Discard 1: Initiation Drive
-Discard 2: Villainous Dash
+Life: 13
+Discard 1: Gilded Dash
+Discard 2: Villainous Shot
 Special action available
-Gold: 1
+Gold: 6
 Mercenaries in play:
   Archer
-  Trebuchet
   Brawler
 
 Voco
 ----
-Life: 16
-Discard 1: Metal Dash
-Discard 2: Thunderous Burst
+Life: 12
+Discard 1: Monster Drive
+Discard 2: Abyssal Dash
 
 
-.....GV
-z.zzzzz
+...G.V.
+.zz.z.z
+
+Unbeatable strategy for Gerard: Initiation Drive (Hire Mage; Activate Mage): 0.77
 
 
 Gerard:
-57% Avaricious Larceny
-43% Avaricious Strike
+27% Initiation Larceny
+73% Initiation Drive
 
 Voco:
-47% Monster Strike
-53% Monster Grasp
+57% Metal Shred
+43% Metal Strike
 
 
-Gerard: Avaricious Larceny
-Voco: Monster Grasp
+Gerard: Initiation Drive
+Voco: Metal Strike
 
-Priorities:  4 | 4
-Clash!
-
-
-Gerard: Avaricious Strike
-Voco: Monster Shred
-
-Priorities:  4 | 3
+Priorities:  5 | 3
 Gerard is active
+Gerard moves:
+
+.....VG
+.zz.z.z
+
 Gerard hits
-Voco has 2 soak
-Voco takes 2 damage (now at 14 life)
-Gerard gains 2 Gold Tokens (has 3)
-Voco is stunned
-Voco loses 1 life (now at 13)
-Gerard gains 1 Gold Token (has 4)
-Gerard loses 1 life (now at 11)
+First hireling next beat will cost 2 gold less
+Voco takes 3 damage (now at 9 life)
+Voco loses 1 life (now at 8)
+Voco misses
+Gerard gains 1 Gold Token (has 7)
 
 Beat 9
 -------
 
 Gerard
 ------
-Life: 11
-Discard 1: Avaricious Strike
-Discard 2: Initiation Drive
+Life: 13
+Discard 1: Initiation Drive
+Discard 2: Gilded Dash
 Special action available
-Gold: 4
+First hireling costs 2 gold less
+Gold: 7
 Mercenaries in play:
   Archer
-  Trebuchet
   Brawler
 
 Voco
 ----
-Life: 13
-Discard 1: Monster Shred
-Discard 2: Metal Dash
+Life: 8
+Discard 1: Metal Strike
+Discard 2: Monster Drive
 
 
-.....GV
-z.zz...
+.....VG
+.zz.z.z
 
 
 Gerard:
-16% Villainous Larceny
-21% Gilded Larceny (Hire Heavy Knight)
-21% Gilded Larceny (Hire Gunslinger)
-21% Gilded Larceny (Hire Mage)
-20% Gilded Grasp
+12% Villainous Larceny (Hire Gunslinger)
+12% Villainous Larceny (Hire Mage)
+12% Villainous Larceny (Hire Heavy Knight)
+9% Villainous Shot (Hire Gunslinger)
+9% Villainous Shot (Hire Mage)
+9% Villainous Shot (Hire Heavy Knight)
+6% Villainous Grasp (Hire Gunslinger)
+6% Villainous Grasp (Hire Mage)
+6% Villainous Grasp (Hire Heavy Knight)
+6% Avaricious Burst (Hire Gunslinger)
+6% Avaricious Burst (Hire Mage)
+6% Avaricious Burst (Hire Heavy Knight)
 
 Voco:
-52% Thunderous Strike
-20% Thunderous Shot
-28% Thunderous Grasp
+10% Hellraising Burst
+8% Hellraising Grasp
+56% Hellraising Dash
+26% Abyssal Shred
 
 
-Gerard: Gilded Larceny (Hire Heavy Knight)
-Voco: Thunderous Strike
+Gerard: Villainous Shot (Hire Gunslinger)
+Voco: Abyssal Shred
 
-Gerard hires a Heavy Knight for 2 gold (2 remaining
-Priorities:  2 | 3
+Gerard hires a Gunslinger for 2 gold (7 remaining
+Priorities:  2 | 4
 Voco is active
-Voco moves:
-
-...V.G.
-z.zz..z
-
 Voco hits
-Gerard takes 3 damage (now at 8 life)
-Voco moves Gerard:
-
-...V..G
-z.zz..z
-
+Gerard takes 1 damage (now at 12 life)
+Gerard hits
 Gerard moves Voco:
 
 ....V.G
-z.zz..z
+.zz.z.z
 
+Voco takes 4 damage (now at 4 life)
+Voco is stunned
+Voco loses 1 life (now at 3)
 Gerard moves:
 
-....VG.
-z.zz..z
+...GV..
+.zz.z.z
 
-Gerard hits
-Voco has 1 soak
-Voco takes 3 damage (now at 10 life)
-Gerard gains 3 Gold Tokens (has 5)
-Voco loses 1 life (now at 9)
-Gerard gains 1 Gold Token (has 6)
+Gerard gains 1 Gold Token (has 8)
 
 Beat 10
 -------
 
 Gerard
 ------
-Life: 8
-Discard 1: Gilded Larceny
-Discard 2: Avaricious Strike
+Life: 12
+Discard 1: Villainous Shot
+Discard 2: Initiation Drive
 Special action available
-Gold: 6
+Gold: 8
 Mercenaries in play:
   Archer
-  Trebuchet
   Brawler
-  Heavy Knight
+  Gunslinger
 
 Voco
 ----
-Life: 9
-Discard 1: Thunderous Strike
-Discard 2: Monster Shred
+Life: 3
+Discard 1: Abyssal Shred
+Discard 2: Metal Strike
 
 
-....VG.
-z.zz...
+...GV..
+.zz.z.z
 
 
 Gerard:
-42% Villainous Drive
-27% Villainous Dash
-0% Hooked Shot
-31% Initiation Drive
+4% Gilded Larceny (Hire Heavy Knight; Activate Heavy Knight)
+4% Gilded Dash (Hire Mage; Activate Mage)
+23% Avaricious Larceny
+1% Avaricious Larceny (Hire Heavy Knight; Activate Heavy Knight)
+1% Avaricious Burst
+45% Avaricious Grasp
+22% Hooked Burst
 
 Voco:
-4% Metal Shot
-8% Metal Drive
-40% Metal Dash
-49% Hellraising Dash
+1% Monster Burst
+18% Monster Dash
+0% Hellraising Shot
+0% Hellraising Burst
+15% Hellraising Dash
+6% Thunderous Drive
+60% Thunderous Dash
 
 
-Gerard: Villainous Drive
-Voco: Metal Shot
+Gerard: Avaricious Grasp
+Voco: Thunderous Dash
 
-Priorities:  4 | 2
-Gerard is active
-Gerard moves:
-
-...GV..
-z.zz...
-
-Gerard hits
-Gerard moves Voco:
-
-...G.V.
-z.zz...
-
-
-...G.V.
-z.zzz..
-
-Voco has 2 soak
-Voco takes 2 damage (now at 7 life)
-Voco loses 1 life (now at 6)
+Priorities:  5 | 9
+Voco is active
 Voco moves:
 
-..VG...
-z..z...
+.V.G...
+.zz.z.z
 
-
-..VG...
-z..zzz.
-
-Voco misses
 Gerard moves:
 
-.GV....
-z..zzz.
+.VG....
+.zz.z.z
 
-Gerard gains 1 Gold Token (has 7)
+Voco moves:
+
+..G.V..
+.zz.z.z
+
+Gerard misses
+Voco loses 1 life (now at 2)
+Gerard gains 1 Gold Token (has 9)
+Gerard loses 1 life (now at 11)
 
 Beat 11
 -------
 
 Gerard
 ------
-Life: 8
-Discard 1: Villainous Drive
-Discard 2: Gilded Larceny
-Special action available
-Gold: 7
-Mercenaries in play:
-  Archer
-  Trebuchet
-  Brawler
-  Heavy Knight
-
-Voco
-----
-Life: 6
-Discard 1: Metal Shot
-Discard 2: Thunderous Strike
-
-
-.GV....
-z..zzz.
-
-Unbeatable strategy for Voco: Hellraising Dash: -0.30
-
-
-Gerard:
-62% Avaricious Dash
-16% Initiation Shot
-22% Initiation Grasp
-
-Voco:
-15% Hellraising Burst
-81% Hellraising Dash
-4% Abyssal Dash
-
-
-Gerard: Initiation Shot
-Voco: Hellraising Burst
-
-Priorities:  3 | -1
-Gerard is active
-Voco moves:
-
-.G.V...
-z..zzz.
-
-
-.G.V...
-z.zzzz.
-
-Voco moves:
-
-.G...V.
-z.zzzz.
-
-Gerard hits
-First hireling next beat will cost 2 gold less
-Voco has 2 soak
-Voco takes 1 damage (now at 5 life)
-Voco is stunned
-Voco loses 1 life (now at 4)
-Gerard gains 1 Gold Token (has 8)
-
-Beat 12
--------
-
-Gerard
-------
-Life: 8
-Discard 1: Initiation Shot
-Discard 2: Villainous Drive
-Special action available
-First hireling costs 2 gold less
-Gold: 8
-Mercenaries in play:
-  Archer
-  Trebuchet
-  Brawler
-  Heavy Knight
-
-Voco
-----
-Life: 4
-Discard 1: Hellraising Burst
-Discard 2: Metal Shot
-
-
-.G...V.
-...zzz.
-
-
-Gerard:
-11% Avaricious Larceny (Hire Mage)
-11% Avaricious Larceny (Hire Gunslinger)
-10% Avaricious Grasp (Hire Mage)
-10% Avaricious Grasp (Hire Gunslinger)
-9% Avaricious Dash (Hire Mage)
-9% Avaricious Dash (Hire Gunslinger)
-41% Avaricious Dash (Hire Mage, Gunslinger)
-
-Voco:
-12% Abyssal Strike
-23% Abyssal Grasp
-52% Abyssal Dash
-14% Thunderous Dash
-
-
-Gerard: Avaricious Dash (Hire Gunslinger)
-Voco: Abyssal Dash
-
-Gerard hires a Gunslinger for 2 gold (8 remaining
-Priorities:  9 | 9
-Clash!
-
-
-Gerard: Avaricious Larceny (Hire Gunslinger)
-Voco: Abyssal Strike
-
-Gerard hires a Gunslinger for 2 gold (8 remaining
-Priorities:  3 | 3
-Clash!
-
-
-Gerard: Avaricious Grasp (Hire Gunslinger)
-Voco: Abyssal Drive
-
-Gerard hires a Gunslinger for 2 gold (8 remaining
-Priorities:  5 | 4
-Gerard is active
-Gerard moves:
-
-..G..V.
-...zzz.
-
-Gerard misses
-Voco loses 1 life (now at 3)
-Voco moves:
-
-..G.V..
-...zzz.
-
-Voco misses
-
-..G.V..
-zz.zzz.
-
-Gerard gains 1 Gold Token (has 9)
-
-Beat 13
--------
-
-Gerard
-------
-Life: 8
+Life: 11
 Discard 1: Avaricious Grasp
-Discard 2: Initiation Shot
+Discard 2: Villainous Shot
 Special action available
 Gold: 9
 Mercenaries in play:
   Archer
-  Trebuchet
   Brawler
-  Heavy Knight
-  Gunslinger
-
-Voco
-----
-Life: 3
-Discard 1: Abyssal Drive
-Discard 2: Hellraising Burst
-
-
-..G.V..
-zz.zzz.
-
-Unbeatable strategy for Voco: Monster Dash: -0.68
-Unbeatable strategy for Voco: Metal Dash: -0.92
-Unbeatable strategy for Voco: Thunderous Dash: -0.30
-
-
-Gerard:
-19% Villainous Larceny
-62% Villainous Drive (Activate Heavy Knight)
-9% Villainous Burst
-10% Villainous Dash
-
-Voco:
-7% Monster Grasp
-86% Monster Dash
-0% Metal Grasp
-7% Metal Dash
-
-
-Gerard: Villainous Drive (Activate Heavy Knight)
-Voco: Monster Dash
-
-Gerard activates his Heavy Knight for 3 gold (6 remaining
-Priorities:  4 | 8
-Voco is active
-Voco moves:
-
-..GV...
-zz.zzz.
-
-Voco moves:
-
-..G...V
-zz.zzz.
-
-Gerard moves:
-
-...G..V
-zz.zzz.
-
-Gerard misses
-Voco loses 1 life (now at 2)
-Gerard moves:
-
-.....GV
-zz.zzz.
-
-Gerard gains 2 Gold Tokens (has 8)
-Gerard gains 1 Gold Token (has 9)
-
-Beat 14
--------
-
-Gerard
-------
-Life: 8
-Discard 1: Villainous Drive
-Discard 2: Avaricious Grasp
-Special action available
-Gold: 9
-Mercenaries in play:
-  Archer
-  Trebuchet
-  Brawler
-  Heavy Knight
   Gunslinger
 
 Voco
 ----
 Life: 2
-Discard 1: Monster Dash
-Discard 2: Abyssal Drive
+Discard 1: Thunderous Dash
+Discard 2: Abyssal Shred
 
 
-.....GV
-zz.zzz.
+..G.V..
+.z..z.z
+
+Unbeatable strategy for Gerard: Initiation Drive (Hire Mage; Activate Mage): 7.00
+Unbeatable strategy for Gerard: Initiation Drive (Hire Mage; Activate Gunslinger, Mage): 7.00
+Unbeatable strategy for Gerard: Initiation Drive (Hire Mage, Trebuchet; Activate Mage): 7.00
+Unbeatable strategy for Gerard: Initiation Drive (Hire Mage, Heavy Knight; Activate Mage): 7.00
 
 
 Gerard:
-9% Initiation Larceny (Activate Heavy Knight)
-9% Initiation Larceny (Activate Heavy Knight, Gunslinger)
-9% Initiation Larceny (Hire Mage; Activate Heavy Knight)
-9% Initiation Larceny (Hire Mage; Activate Heavy Knight, Gunslinger)
-9% Initiation Larceny (Hire Mage; Activate Heavy Knight, Mage)
-9% Initiation Strike (Activate Heavy Knight)
-9% Initiation Strike (Activate Heavy Knight, Gunslinger)
-9% Initiation Strike (Hire Mage; Activate Heavy Knight)
-9% Initiation Strike (Hire Mage; Activate Heavy Knight, Gunslinger)
-9% Initiation Strike (Hire Mage; Activate Heavy Knight, Mage)
-9% Initiation Shot (Hire Mage; Activate Heavy Knight, Mage)
+25% Initiation Drive (Hire Mage; Activate Mage)
+25% Initiation Drive (Hire Mage; Activate Gunslinger, Mage)
+25% Initiation Drive (Hire Mage, Trebuchet; Activate Mage)
+25% Initiation Drive (Hire Mage, Heavy Knight; Activate Mage)
 
 Voco:
-9% Metal Shred
-5% Metal Strike
-13% Metal Shot
-2% Metal Burst
-4% Metal Grasp
-3% Hellraising Shred
-4% Hellraising Strike
-1% Hellraising Shot
-1% Hellraising Burst
-5% Hellraising Grasp
-5% Thunderous Shred
-4% Thunderous Strike
-13% Thunderous Shot
-23% Thunderous Burst
-6% Thunderous Grasp
+2% Monster Strike
+1% Monster Shot
+3% Monster Drive
+5% Monster Burst
+8% Monster Grasp
+4% Metal Strike
+5% Metal Shot
+13% Metal Drive
+5% Metal Burst
+8% Metal Grasp
+2% Hellraising Strike
+3% Hellraising Shot
+2% Hellraising Drive
+34% Hellraising Burst
+6% Hellraising Grasp
 
 
-Gerard: Initiation Strike (Activate Heavy Knight, Gunslinger)
-Voco: Hellraising Strike
+Gerard: Initiation Drive (Hire Mage; Activate Mage)
+Voco: Monster Drive
 
-Gerard activates his Heavy Knight for 3 gold (6 remaining
-Gerard activates his Gunslinger for 3 gold (3 remaining
-Priorities:  4 | 1
+Gerard hires a Mage for 2 gold (7 remaining
+Gerard activates his Mage for 3 gold (4 remaining
+Priorities:  6 | 3
 Gerard is active
+Gerard moves:
+
+...GV..
+.z..z.z
+
 Gerard hits
 First hireling next beat will cost 2 gold less
 Voco has 1 soak
 Voco takes 3 damage (now at 0 life)
 GERARD WINS!
-total_time: 93
+total_time: 127

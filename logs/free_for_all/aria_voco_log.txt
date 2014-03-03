@@ -11,17 +11,17 @@ Beat 1
 
 Aria
 ----
-life: 20
-discard 1: Laser Grasp
-discard 2: Ionic Dash
-special action
+Life: 20
+Discard 1: Laser Grasp
+Discard 2: Ionic Dash
+Special action available
 
 Voco
 ----
-life: 20
-discard 1: Thunderous Drive
-discard 2: Monster Burst
-special action
+Life: 20
+Discard 1: Thunderous Shred
+Discard 2: Monster Burst
+Special action available
 
 
 .A...V.
@@ -30,83 +30,107 @@ special action
 .......
 
 
-Unbeatable strategy for Aria: Catalyst Reconfiguration: 1.21
+Unbeatable strategy for Aria: Catalyst Reconfiguration: 2.05
+
 
 Aria:
-18% Photovoltaic Reconfiguration
-58% Catalyst Reconfiguration
-24% Dimensional Reconfiguration
+17% Photovoltaic Reconfiguration
+79% Catalyst Reconfiguration
+4% Dimensional Reconfiguration
 
 Voco:
-13% Hellraising Shred
-66% Hellraising Shot
-21% Abyssal Grasp
+41% Hellraising Shot
+40% Hellraising Drive
+20% Abyssal Grasp
 
 
-Aria: Photovoltaic Reconfiguration
-Voco: Abyssal Grasp
+Aria: Catalyst Reconfiguration
+Voco: Hellraising Drive
 
-Priorities:  4 | 5
-Voco is active
-Voco hits
-Voco moves Aria:
+Aria gets +4 priority
+Priorities:  8 | 2
+Aria is active
+Voco moves:
 
-A....V.
+.A....V
 .......
 .m.....
 .......
 
 
-Aria takes 2 damage (now at 18 life)
-Aria is stunned
+
+.A....V
+.......
+.m.....
+.......
+..zzzz.
+
+Aria moves:
+
+A.....V
+.......
+.m.....
+.......
+..zzzz.
+
+Aria adds her Turret droid:
+
+A.....V
+.......
+.m.....
+....t..
+..zzzz.
+
+Aria misses
+Voco moves:
 
 A....V.
 .......
 .m.....
-.......
-zzz....
+....t..
+..zzzz.
 
+Voco misses
+Voco loses 1 life (now at 19)
 
 Beat 2
 -------
 
 Aria
 ----
-life: 18
-discard 1: Photovoltaic Reconfiguration
-discard 2: Laser Grasp
-special action
+Life: 20
+Discard 1: Catalyst Reconfiguration
+Discard 2: Laser Grasp
+Special action available
 
 Voco
 ----
-life: 20
-discard 1: Abyssal Grasp
-discard 2: Thunderous Drive
-special action
+Life: 19
+Discard 1: Hellraising Drive
+Discard 2: Thunderous Shred
+Special action available
 
 
 A....V.
 .......
 .m.....
-.......
-zzz....
+....t..
+..zzzz.
 
-Unbeatable strategy for Voco: Monster Shot: -0.18
-Unbeatable strategy for Voco: Hellraising Shot: -0.36
 
 Aria:
-0% Ionic Shot
-86% Dimensional Shot
-13% Dimensional Drive
+66% Photovoltaic Shot
+10% Dimensional Shot
+24% Dimensional Dash
 
 Voco:
-21% Metal Shot
-16% Metal Burst
-63% Hellraising Shot
+36% Monster Burst
+26% Abyssal Strike
+38% Abyssal Burst
 
 
 Aria: Dimensional Shot
-Voco: Hellraising Shot
+Voco: Monster Burst
 
 Priorities:  6 | 0
 Aria is active
@@ -115,36 +139,53 @@ Voco moves:
 A.....V
 .......
 .m.....
-.......
-zzz....
-
-
-A.....V
-.......
-.m.....
-.......
-zzzzzz.
+....t..
+..zzzz.
 
 Aria hits
-Voco has 1 soak
-Voco takes 1 damage (now at 19 life)
-Voco hits
-Voco moves Aria:
+Voco takes 2 damage (now at 17 life)
+Voco moves:
 
-.A....V
+A....V.
 .......
 .m.....
-.......
-z.zzzz.
+....t..
+..zzzz.
 
-Aria takes 2 damage (now at 16 life)
+Voco moves:
+
+A...V..
+.......
+.m.....
+....t..
+..zzzz.
+
+Voco moves:
+
+A..V...
+.......
+.m.....
+....t..
+..zzzz.
+
+Voco moves:
+
+A.V....
+.......
+.m.....
+....t..
+..zzzz.
+
+Voco hits
+Aria takes 3 damage (now at 17 life)
+Aria is stunned
 Aria moves:
 
-.....AV
+.AV....
 .......
 .m.....
-.......
-z.zzzz.
+....t..
+..zzzz.
 
 
 Beat 3
@@ -152,828 +193,840 @@ Beat 3
 
 Aria
 ----
-life: 16
-discard 1: Dimensional Shot
-discard 2: Photovoltaic Reconfiguration
-special action
+Life: 17
+Discard 1: Dimensional Shot
+Discard 2: Catalyst Reconfiguration
+Special action available
 
 Voco
 ----
-life: 19
-discard 1: Hellraising Shot
-discard 2: Abyssal Grasp
-special action
+Life: 17
+Discard 1: Monster Burst
+Discard 2: Hellraising Drive
+Special action available
 
 
-.....AV
+.AV....
 .......
 .m.....
-.......
-z.zzzz.
+....t..
+..zzzz.
+
 
 Aria:
-33% Ionic Strike
-23% Ionic Drive
-36% Laser Drive
-8% Catalyst Drive
+19% Photovoltaic Strike
+23% Photovoltaic Grasp
+58% Laser Grasp
 
 Voco:
-17% Monster Strike
-80% Metal Dash
-1% Thunderous Drive
-3% Thunderous Dash
+3% Metal Shot
+19% Metal Dash
+11% Abyssal Dash
+67% Special Pulse
 
 
-Aria: Laser Drive
-Voco: Metal Dash
+Aria: Laser Grasp
+Voco: Special Pulse
 
-Priorities:  4 | 9
-Voco is active
-Voco moves:
+Pulse:
 
-...V.A.
+V....A.
 .......
 .m.....
-.......
-z.zzzz.
+....t..
+..zzzz.
 
 
-...V.A.
+Beat 3
+-------
+
+Aria
+----
+Life: 17
+Discard 1: Laser Grasp
+Discard 2: Dimensional Shot
+Special action available
+
+Voco
+----
+Life: 17
+Discard 1: Monster Burst
+Discard 2: Hellraising Drive
+
+
+V....A.
 .......
 .m.....
-.......
-z.zzzzz
+....t..
+..zzzz.
 
-Voco moves:
+Unbeatable strategy for Aria: Photovoltaic Dash: 0.97
+Unbeatable strategy for Aria: Ionic Drive: 0.32
+Unbeatable strategy for Aria: Ionic Dash: 0.24
+Unbeatable strategy for Aria: Catalyst Dash: 0.23
 
-.....AV
+
+Aria:
+50% Photovoltaic Dash
+34% Ionic Reconfiguration
+0% Ionic Strike
+16% Ionic Drive
+
+Voco:
+2% Metal Grasp
+30% Metal Dash
+13% Abyssal Shot
+56% Abyssal Grasp
+
+
+Aria: Ionic Drive
+Voco: Abyssal Grasp
+
+Priorities:  5 | 4
+Aria is active
+Aria moves Voco:
+
+.V...A.
 .......
 .m.....
-.......
-z.zzzzz
+....t..
+..zzzz.
 
-Aria misses
+Aria moves:
+
+.V.A...
+.......
+.m.....
+....t..
+..zzzz.
+
+Aria hits
+Voco has 2 soak
+Voco takes 1 damage (now at 16 life)
+Voco is stunned
 
 Beat 4
 -------
 
 Aria
 ----
-life: 16
-discard 1: Laser Drive
-discard 2: Dimensional Shot
-special action
+Life: 17
+Discard 1: Ionic Drive
+Discard 2: Laser Grasp
+Special action available
 
 Voco
 ----
-life: 19
-discard 1: Metal Dash
-discard 2: Hellraising Shot
-special action
+Life: 16
+Discard 1: Abyssal Grasp
+Discard 2: Monster Burst
 
 
-.....AV
+.V.A...
 .......
 .m.....
-.......
-z.zzzzz
+....t..
+...z.z.
+
+Unbeatable strategy for Aria: Photovoltaic Reconfiguration: 0.67
+Unbeatable strategy for Aria: Photovoltaic Dash: 0.15
+Unbeatable strategy for Aria: Catalyst Reconfiguration: 0.07
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.62
+
 
 Aria:
-27% Photovoltaic Reconfiguration
-16% Photovoltaic Strike
-11% Photovoltaic Burst
-45% Photovoltaic Grasp
+74% Photovoltaic Dash
+26% Dimensional Reconfiguration
 
 Voco:
-8% Monster Shred
-57% Monster Strike
-0% Thunderous Burst
-35% Thunderous Grasp
+94% Metal Dash
+6% Hellraising Shred
 
 
-Aria: Photovoltaic Grasp
-Voco: Monster Strike
+Aria: Photovoltaic Dash
+Voco: Metal Dash
 
-Priorities:  6 | 2
+Priorities:  10 | 8
 Aria is active
-Aria hits
-Aria moves Voco:
-
-....VA.
-.......
-.m.....
-.......
-z.zzzzz
-
-Voco has 2 soak
-Voco takes 0 damage (now at 19 life)
 Aria adds her Dampening droid:
 
-....VA.
-.....d.
+.V.A...
+...d...
 .m.....
-.......
-z.zz.z.
+....t..
+...z.z.
+
+Aria moves:
+
+AV.....
+...d...
+.m.....
+....t..
+...z.z.
 
 Voco moves:
 
-.....AV
-.....d.
+A.V....
+...d...
 .m.....
-.......
-z.zz.z.
+....t..
+...z.z.
 
-Voco hits
-Aria takes 3 damage (now at 13 life)
-Aria is stunned
+
+A.V....
+...d...
+.m.....
+....t..
+.z.z.z.
+
 
 Beat 5
 -------
 
 Aria
 ----
-life: 13
-discard 1: Photovoltaic Grasp
-discard 2: Laser Drive
-special action
+Life: 17
+Discard 1: Photovoltaic Dash
+Discard 2: Ionic Drive
+Special action available
 
 Voco
 ----
-life: 19
-discard 1: Monster Strike
-discard 2: Metal Dash
-special action
+Life: 16
+Discard 1: Metal Dash
+Discard 2: Abyssal Grasp
 
 
-.....AV
-.....d.
+A.V....
+...d...
 .m.....
-.......
-z.zz.z.
+....t..
+.z.z.z.
 
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 3.06
+Unbeatable strategy for Aria: Laser Grasp: 1.13
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.05
+
 
 Aria:
-12% Ionic Strike
-88% Dimensional Reconfiguration
+39% Laser Strike
+30% Laser Shot
+9% Laser Grasp
+22% Dimensional Reconfiguration
 
 Voco:
-95% Abyssal Shot
-5% Thunderous Drive
+54% Monster Strike
+14% Monster Shot
+26% Thunderous Strike
+6% Thunderous Shot
 
 
-Aria: Dimensional Reconfiguration
-Voco: Abyssal Shot
+Aria: Laser Strike
+Voco: Thunderous Strike
 
-Priorities:  7 | 2
+Priorities:  3 | 2
 Aria is active
-Aria moves:
-
-....A.V
-.....d.
-.m.....
-.......
-z.zz.z.
-
-Aria adds her Turret droid:
-
-....A.V
-.....d.
-.m.....
-.....t.
-z.zz.z.
-
-Aria misses
-Voco misses
-
-....A.V
-.....d.
-.m.....
-.....t.
-zzzz.z.
-
-Aria moves:
-
-.....AV
-.....d.
-.m.....
-.....t.
-zzzz.z.
-
-Voco loses 1 life (now at 18)
+Aria hits
+Voco has 1 soak
+Voco takes 3 damage (now at 13 life)
+Voco hits
+Aria takes 2 damage (now at 15 life)
 
 Beat 6
 -------
 
 Aria
 ----
-life: 13
-discard 1: Dimensional Reconfiguration
-discard 2: Photovoltaic Grasp
-special action
+Life: 15
+Discard 1: Laser Strike
+Discard 2: Photovoltaic Dash
+Special action available
 
 Voco
 ----
-life: 18
-discard 1: Abyssal Shot
-discard 2: Monster Strike
-special action
+Life: 13
+Discard 1: Thunderous Strike
+Discard 2: Metal Dash
 
 
-.....AV
-.....d.
+A.V....
+...d...
 .m.....
-.....t.
-zzzz.z.
+....t..
+..zz.z.
 
-Unbeatable strategy for Voco: Metal Dash: -1.02
-Unbeatable strategy for Voco: Thunderous Burst: -0.29
-Unbeatable strategy for Voco: Thunderous Dash: -0.26
+Unbeatable strategy for Aria: Ionic Drive: 0.87
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.45
+
 
 Aria:
-19% Ionic Shot
-24% Ionic Drive
-43% Laser Shot
-6% Laser Burst
-8% Catalyst Burst
+41% Ionic Shot
+29% Ionic Drive
+4% Catalyst Shot
+25% Catalyst Grasp
 
 Voco:
-1% Metal Shred
-3% Metal Drive
-5% Metal Grasp
-87% Metal Dash
-5% Thunderous Dash
+18% Monster Shot
+41% Hellraising Shot
+39% Abyssal Shred
+2% Abyssal Shot
 
 
-Aria: Laser Shot
-Voco: Metal Dash
+Aria: Ionic Drive
+Voco: Hellraising Shot
 
-Priorities:  2 | 9
-Voco is active
-Voco moves:
+Priorities:  5 | -1
+Aria is active
+Aria moves Voco:
 
-...V.A.
-.....d.
+AV.....
+...d...
 .m.....
-.....t.
-zzzz.z.
-
-
-...V.A.
-.....d.
-.m.....
-.....t.
-zzzzzzz
+....t..
+..zz.z.
 
 Voco moves:
 
-.....AV
-.....d.
+A.V....
+...d...
 .m.....
-.....t.
-zzzzzzz
+....t..
+..zz.z.
 
-Aria misses
-Voco loses 1 life (now at 17)
+
+A.V....
+...d...
+.m.....
+....t..
+.zzz.z.
+
+Aria moves:
+
+.AV....
+...d...
+.m.....
+....t..
+.zzz.z.
+
+Aria hits
+Voco has 1 soak
+Voco takes 2 damage (now at 11 life)
+Voco misses
 
 Beat 7
 -------
 
 Aria
 ----
-life: 13
-discard 1: Laser Shot
-discard 2: Dimensional Reconfiguration
-special action
+Life: 15
+Discard 1: Ionic Drive
+Discard 2: Laser Strike
+Special action available
 
 Voco
 ----
-life: 17
-discard 1: Metal Dash
-discard 2: Abyssal Shot
-special action
+Life: 11
+Discard 1: Hellraising Shot
+Discard 2: Thunderous Strike
 
 
-.....AV
-.....d.
-.m.....
-.....t.
-zzzzzzz
-
-Aria:
-1% Photovoltaic Strike
-29% Photovoltaic Drive
-15% Photovoltaic Burst
-22% Photovoltaic Grasp
-33% Ionic Burst
-
-Voco:
-37% Monster Strike
-8% Monster Drive
-10% Thunderous Drive
-12% Thunderous Burst
-33% Thunderous Grasp
-
-
-Aria: Photovoltaic Drive
-Voco: Thunderous Drive
-
-Priorities:  5 | 4
-Aria is active
-Voco moves:
-
-...V.A.
-.....d.
-.m.....
-.....t.
-zzzzzzz
-
-Aria moves:
-
-...VA..
-.....d.
-.m.....
-.....t.
-zzzzzzz
-
-Aria hits
-Aria removes her Turret droid:
-
-...VA..
-.....d.
-.m.....
-.......
-zzzzzzz
-
-Aria gets +1 power
-Voco has 2 soak
-Voco takes 1 damage (now at 16 life)
-Voco is stunned
-Aria adds her Turret droid:
-
-...VA..
-.....d.
+.AV....
+...d...
 .m.....
 ....t..
-zzz.z.z
+.z.z.z.
 
-Voco loses 1 life (now at 15)
+
+Aria:
+20% Photovoltaic Shot
+3% Photovoltaic Burst
+14% Photovoltaic Grasp
+63% Catalyst Burst
+
+Voco:
+15% Monster Drive
+1% Monster Grasp
+77% Metal Dash
+7% Abyssal Drive
+
+
+Aria: Catalyst Burst
+Voco: Metal Dash
+
+Aria gets +4 priority
+Priorities:  6 | 8
+Voco is active
+Aria moves:
+
+A.V....
+...d...
+.m.....
+....t..
+.z.z.z.
+
+Voco moves:
+
+AV.....
+...d...
+.m.....
+....t..
+.z.z.z.
+
+
+AV.....
+...d...
+.m.....
+....t..
+.zzz.z.
+
+Aria misses
 
 Beat 8
 -------
 
 Aria
 ----
-life: 13
-discard 1: Photovoltaic Drive
-discard 2: Laser Shot
-special action
+Life: 15
+Discard 1: Catalyst Burst
+Discard 2: Ionic Drive
+Special action available
 
 Voco
 ----
-life: 15
-discard 1: Thunderous Drive
-discard 2: Metal Dash
-special action
+Life: 11
+Discard 1: Metal Dash
+Discard 2: Hellraising Shot
 
 
-...VA..
-.....d.
+AV.....
+...d...
 .m.....
 ....t..
-zzz.z.z
+.zzz.z.
+
 
 Aria:
-14% Ionic Reconfiguration
-78% Catalyst Reconfiguration
-8% Dimensional Reconfiguration
+48% Laser Strike
+52% Laser Shot
 
 Voco:
-31% Monster Strike
-28% Monster Shot
-41% Hellraising Burst
+85% Monster Strike
+15% Monster Grasp
 
 
-Aria: Catalyst Reconfiguration
-Voco: Monster Shot
+Aria: Laser Strike
+Voco: Monster Grasp
 
-Priorities:  4 | 1
+Priorities:  3 | 3
+Clash!
+
+
+Aria: Laser Reconfiguration
+Voco: Monster Strike
+
+Priorities:  3 | 1
 Aria is active
 Aria moves:
 
-...V..A
-.....d.
+.V....A
+...d...
 .m.....
 ....t..
-zzz.z.z
+.zzz.z.
 
-Aria misses
+Aria hits
+Voco has 1 soak
+Voco takes 1 damage (now at 10 life)
 Voco moves:
 
-....V.A
-.....d.
+..V...A
+...d...
 .m.....
 ....t..
-zzz.z.z
+.zzz...
 
-Voco moves:
-
-.....VA
-.....d.
-.m.....
-....t..
-zzz.z.z
-
-Voco hits
-Aria takes 2 damage (now at 11 life)
-Aria is stunned
-Voco loses 1 life (now at 14)
+Voco misses
 
 Beat 9
 -------
 
 Aria
 ----
-life: 11
-discard 1: Catalyst Reconfiguration
-discard 2: Photovoltaic Drive
-special action
+Life: 15
+Discard 1: Laser Reconfiguration
+Discard 2: Catalyst Burst
+Special action available
 
 Voco
 ----
-life: 14
-discard 1: Monster Shot
-discard 2: Thunderous Drive
-special action
+Life: 10
+Discard 1: Monster Strike
+Discard 2: Metal Dash
 
 
-.....VA
-.....d.
+..V...A
+...d...
 .m.....
 ....t..
-zzz.z.z
+.zzz...
+
 
 Aria:
-85% Laser Strike
-0% Laser Shot
-4% Laser Grasp
-10% Dimensional Shot
+39% Photovoltaic Shot
+25% Dimensional Shot
+36% Dimensional Dash
 
 Voco:
-6% Metal Strike
-5% Hellraising Burst
-8% Hellraising Grasp
-81% Hellraising Dash
+1% Hellraising Shot
+48% Abyssal Drive
+51% Abyssal Burst
 
 
-Aria: Laser Strike
-Voco: Metal Strike
+Aria: Dimensional Dash
+Voco: Abyssal Drive
 
-Priorities:  3 | 3
-Clash!
-
-Aria:
-38% Laser Shot
-62% Laser Grasp
-
-Voco:
-25% Metal Burst
-75% Metal Dash
-
-
-Aria: Laser Grasp
-Voco: Metal Burst
-
-Priorities:  5 | 1
+Priorities:  13 | 3
 Aria is active
+Aria moves:
+
+..V..A.
+...d...
+.m.....
+....t..
+.zzz...
+
 Voco moves:
 
-...V..A
-.....d.
+....VA.
+...d...
 .m.....
 ....t..
-zzz.z.z
+.zzz...
 
+Voco misses
 
-...V..A
-.....d.
+....VA.
+...d...
 .m.....
 ....t..
-zzz.zzz
+zzzz...
 
-Aria hits
-Aria moves Voco:
+Aria moves:
 
 ....V.A
-.....d.
+...d...
 .m.....
 ....t..
-zzz.zzz
+zzzz...
 
-
-....V.A
-.....d.
-.m.....
-....t..
-zzzzzzz
-
-Voco has 1 soak
-Voco takes 1 damage (now at 13 life)
-Voco is stunned
-Voco loses 1 life (now at 12)
+Voco loses 1 life (now at 9)
 
 Beat 10
 -------
 
 Aria
 ----
-life: 11
-discard 1: Laser Grasp
-discard 2: Catalyst Reconfiguration
-special action
+Life: 15
+Discard 1: Dimensional Dash
+Discard 2: Laser Reconfiguration
+Special action available
 
 Voco
 ----
-life: 12
-discard 1: Metal Burst
-discard 2: Monster Shot
-special action
+Life: 9
+Discard 1: Abyssal Drive
+Discard 2: Monster Strike
 
 
 ....V.A
-.....d.
+...d...
 .m.....
 ....t..
-zzzzz.z
+zzzz...
+
 
 Aria:
-2% Photovoltaic Strike
-66% Photovoltaic Shot
-32% Photovoltaic Drive
+13% Photovoltaic Strike
+72% Photovoltaic Shot
+15% Photovoltaic Drive
 
 Voco:
-38% Hellraising Strike
-15% Hellraising Grasp
-47% Hellraising Dash
+13% Hellraising Burst
+30% Hellraising Grasp
+57% Hellraising Dash
 
 
-Aria: Photovoltaic Drive
+Aria: Photovoltaic Shot
 Voco: Hellraising Dash
 
-Priorities:  5 | 7
+Priorities:  3 | 7
 Voco is active
 Voco moves:
 
 ...V..A
-.....d.
+...d...
 .m.....
 ....t..
-zzzzz.z
+zzzz...
 
 
 ...V..A
-.....d.
+...d...
 .m.....
 ....t..
-zzzzzzz
+zzzzzz.
 
 Voco moves:
 
 V.....A
-.....d.
+...d...
 .m.....
 ....t..
-zzzzzzz
+zzzzzz.
 
-Aria moves:
+Aria hits
+Aria removes her Turret droid:
 
-V....A.
-.....d.
+V.....A
+...d...
 .m.....
-....t..
-zzzzzzz
+.......
+zzzzzz.
 
-Aria misses
+Aria gets +1 power
+Voco has 1 soak
+Voco takes 2 damage (now at 7 life)
+Voco is stunned
+Aria adds her Turret droid:
+
+V.....A
+...d...
+.m.....
+......t
+zzzzz..
+
 
 Beat 11
 -------
 
 Aria
 ----
-life: 11
-discard 1: Photovoltaic Drive
-discard 2: Laser Grasp
-special action
+Life: 15
+Discard 1: Photovoltaic Shot
+Discard 2: Dimensional Dash
+Special action available
 
 Voco
 ----
-life: 12
-discard 1: Hellraising Dash
-discard 2: Metal Burst
-special action
+Life: 7
+Discard 1: Hellraising Dash
+Discard 2: Abyssal Drive
 
 
-V....A.
-.....d.
+V.....A
+...d...
 .m.....
-....t..
-zzzzzzz
+......t
+zzzzz..
+
 
 Aria:
-63% Ionic Reconfiguration
-37% Ionic Shot
+59% Ionic Reconfiguration
+40% Laser Strike
+1% Laser Drive
 
 Voco:
-82% Monster Shot
-18% Abyssal Grasp
+42% Monster Strike
+44% Thunderous Burst
+14% Thunderous Grasp
 
 
 Aria: Ionic Reconfiguration
-Voco: Monster Shot
+Voco: Thunderous Burst
 
 Priorities:  4 | 0
 Aria is active
 Aria moves Voco:
 
-.V...A.
-.....d.
+.V....A
+...d...
 .m.....
-....t..
-zzzzzzz
+......t
+zzzzz..
+
+Voco moves:
+
+...V..A
+...d...
+.m.....
+......t
+zzzzz..
+
+Voco moves:
+
+..V...A
+...d...
+.m.....
+......t
+zzzzz..
 
 Aria moves:
 
-.VA....
-.....d.
+.AV....
+...d...
 .m.....
-....t..
-zzzzzzz
+......t
+zzzzz..
 
-Aria hits
-Voco has 2 soak
-Voco takes 0 damage (now at 12 life)
-Voco moves:
-
-..AV...
-.....d.
-.m.....
-....t..
-z.z.zzz
-
-Voco hits
-Aria takes 3 damage (now at 8 life)
-Aria is stunned
-Voco loses 1 life (now at 11)
+Aria misses
+Voco misses
 
 Beat 12
 -------
 
 Aria
 ----
-life: 8
-discard 1: Ionic Reconfiguration
-discard 2: Photovoltaic Drive
-special action
+Life: 15
+Discard 1: Ionic Reconfiguration
+Discard 2: Photovoltaic Shot
+Special action available
 
 Voco
 ----
-life: 11
-discard 1: Monster Shot
-discard 2: Hellraising Dash
-special action
+Life: 7
+Discard 1: Thunderous Burst
+Discard 2: Hellraising Dash
 
 
-..AV...
-.....d.
+.AV....
+...d...
 .m.....
-....t..
-z.z.zzz
+......t
+zzzzz..
+
+Unbeatable strategy for Voco: Abyssal Shot: -0.27
+
 
 Aria:
-15% Laser Strike
-8% Laser Burst
-29% Laser Grasp
-40% Catalyst Dash
-8% Dimensional Dash
+62% Laser Drive
+10% Laser Burst
+28% Dimensional Drive
 
 Voco:
-2% Metal Shred
-27% Metal Grasp
-9% Thunderous Drive
-30% Thunderous Burst
-32% Thunderous Grasp
+19% Monster Shot
+68% Metal Shot
+13% Abyssal Shot
 
 
-Aria: Catalyst Dash
-Voco: Metal Grasp
+Aria: Laser Drive
+Voco: Monster Shot
 
-Priorities:  10 | 5
+Priorities:  4 | 0
 Aria is active
 Aria moves:
 
-.A.V...
-.....d.
+..V.A..
+...d...
 .m.....
-....t..
-z.z.zzz
+......t
+zzzzz..
 
+Aria hits
+Voco has 1 soak
+Voco takes 2 damage (now at 5 life)
 Voco moves:
 
-VA.....
-.....d.
+...VA..
+...d...
 .m.....
-....t..
-z.z.zzz
+......t
+zzz.z..
 
-
-VA.....
-.....d.
-.m.....
-....t..
-z.zzzzz
-
-Voco misses
+Voco hits
+Aria takes 2 damage (now at 13 life)
+Aria is stunned
+Voco loses 3 life (now at 2)
 
 Beat 13
 -------
 
 Aria
 ----
-life: 8
-discard 1: Catalyst Dash
-discard 2: Ionic Reconfiguration
-special action
+Life: 13
+Discard 1: Laser Drive
+Discard 2: Ionic Reconfiguration
+Special action available
 
 Voco
 ----
-life: 11
-discard 1: Metal Grasp
-discard 2: Monster Shot
-special action
+Life: 2
+Discard 1: Monster Shot
+Discard 2: Thunderous Burst
 
 
-VA.....
-.....d.
+...VA..
+...d...
 .m.....
-....t..
-z.zzzzz
+......t
+zzz.z..
 
-Unbeatable strategy for Voco: Abyssal Dash: -0.05
 
 Aria:
-75% Photovoltaic Shot
-20% Laser Shot
-5% Laser Grasp
-1% Dimensional Burst
+18% Photovoltaic Shot
+16% Photovoltaic Burst
+13% Photovoltaic Grasp
+53% Dimensional Burst
 
 Voco:
-5% Abyssal Shred
-52% Abyssal Dash
-2% Thunderous Strike
-41% Thunderous Dash
+5% Metal Shred
+7% Metal Drive
+6% Metal Dash
+82% Hellraising Dash
 
 
-Aria: Photovoltaic Shot
-Voco: Thunderous Dash
+Aria: Dimensional Burst
+Voco: Hellraising Dash
 
-Priorities:  3 | 8
+Priorities:  5 | 7
 Voco is active
 Voco moves:
 
-.A.V...
-.....d.
+..V.A..
+...d...
 .m.....
-....t..
-z.zzzzz
+......t
+zzz.z..
+
+
+..V.A..
+...d...
+.m.....
+......t
+zzzzz..
+
+Aria moves:
+
+..V..A.
+...d...
+.m.....
+......t
+zzzzz..
 
 Voco moves:
 
-.A....V
-.....d.
+....VA.
+...d...
 .m.....
-....t..
-z.zzzzz
+......t
+zzzzz..
 
-Aria hits
-Aria removes her Magnetron droid:
+Aria misses
+Aria moves:
 
-.A....V
-.....d.
-.......
-....t..
-z.zzzzz
-
-Aria gets +1 power
-Voco has 2 soak
-Voco takes 1 damage (now at 10 life)
-Voco is stunned
-Aria adds her Magnetron droid:
-
-.A....V
-.....d.
+....V.A
+...d...
 .m.....
-....t..
-...zzzz
+......t
+zzzzz..
 
 
 Beat 14
@@ -981,207 +1034,180 @@ Beat 14
 
 Aria
 ----
-life: 8
-discard 1: Photovoltaic Shot
-discard 2: Catalyst Dash
-special action
+Life: 13
+Discard 1: Dimensional Burst
+Discard 2: Laser Drive
+Special action available
 
 Voco
 ----
-life: 10
-discard 1: Thunderous Dash
-discard 2: Metal Grasp
-special action
+Life: 2
+Discard 1: Hellraising Dash
+Discard 2: Monster Shot
 
 
-.A....V
-.....d.
+....V.A
+...d...
 .m.....
-....t..
-...zzzz
+......t
+zzzzz..
 
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.12
-Unbeatable strategy for Aria: Dimensional Drive: 0.39
 
 Aria:
-32% Ionic Reconfiguration
-30% Ionic Drive
-34% Laser Strike
-4% Laser Grasp
+42% Photovoltaic Shot
+46% Catalyst Strike
+12% Catalyst Shot
 
 Voco:
-17% Hellraising Strike
-15% Hellraising Shot
-43% Abyssal Strike
-25% Abyssal Drive
-
-
-Aria: Ionic Drive
-Voco: Abyssal Drive
-
-Priorities:  5 | 4
-Aria is active
-Aria moves Voco:
-
-.A...V.
-.....d.
-.m.....
-....t..
-...zzzz
-
-Aria moves:
-
-...A.V.
-.....d.
-.m.....
-....t..
-...zzzz
-
-Aria hits
-Voco has 1 soak
-Voco takes 2 damage (now at 8 life)
-Voco is stunned
-Voco loses 1 life (now at 7)
-
-Beat 15
--------
-
-Aria
-----
-life: 8
-discard 1: Ionic Drive
-discard 2: Photovoltaic Shot
-special action
-
-Voco
-----
-life: 7
-discard 1: Abyssal Drive
-discard 2: Thunderous Dash
-special action
-
-
-...A.V.
-.....d.
-.m.....
-....t..
-...z.zz
-
-Unbeatable strategy for Aria: Catalyst Dash: 12.00
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 12.00
-Unbeatable strategy for Aria: Dimensional Dash: 12.00
-
-Aria:
-34% Laser Reconfiguration
-43% Catalyst Strike
-24% Catalyst Grasp
-
-Voco:
-0% Metal Shred
-100% Special Pulse
-
-
-Aria: Laser Reconfiguration
-Voco: Special Pulse
-
-Pulse:
-
-V....A.
-.....d.
-.m.....
-....t..
-...z.zz
-
-
-Beat 15
--------
-
-Aria
-----
-life: 8
-discard 1: Laser Reconfiguration
-discard 2: Ionic Drive
-special action
-
-Voco
-----
-life: 7
-discard 1: Abyssal Drive
-discard 2: Thunderous Dash
-
-
-V....A.
-.....d.
-.m.....
-....t..
-...z.zz
-
-Aria:
-50% Photovoltaic Shot
-17% Catalyst Burst
-33% Catalyst Dash
-
-Voco:
-5% Monster Shot
-50% Monster Grasp
-11% Hellraising Shred
-6% Hellraising Strike
-14% Hellraising Shot
-7% Hellraising Burst
-6% Hellraising Grasp
+2% Metal Grasp
+54% Abyssal Strike
+45% Abyssal Burst
 
 
 Aria: Photovoltaic Shot
-Voco: Hellraising Shot
+Voco: Abyssal Strike
 
-Priorities:  3 | -1
+Priorities:  3 | 3
+Clash!
+
+
+Aria: Photovoltaic Reconfiguration
+Voco: Abyssal Drive
+
+Priorities:  4 | 4
+Clash!
+
+
+Aria: Photovoltaic Dash
+Voco: Abyssal Burst
+
+Priorities:  10 | 1
 Aria is active
+Voco moves:
 
-V....A.
-.....d.
+..V...A
+...d...
 .m.....
-....t..
-.zzzzzz
+......t
+zzzzz..
+
+Aria moves:
+
+..V..A.
+...d...
+.m.....
+......t
+zzzzz..
+
+Voco misses
+
+..V..A.
+...d...
+.m.....
+......t
+zzzzz.z
+
+
+Beat 15
+-------
+
+Aria
+----
+Life: 13
+Discard 1: Photovoltaic Dash
+Discard 2: Dimensional Burst
+Special action available
+
+Voco
+----
+Life: 2
+Discard 1: Abyssal Burst
+Discard 2: Hellraising Dash
+
+
+..V..A.
+...d...
+.m.....
+......t
+zzzzz.z
+
+Unbeatable strategy for Aria: Ionic Drive: 7.00
+Unbeatable strategy for Aria: Ionic Grasp: 7.00
+Unbeatable strategy for Aria: Laser Grasp: 7.00
+Unbeatable strategy for Aria: Catalyst Drive: 7.00
+Unbeatable strategy for Aria: Catalyst Grasp: 7.00
+
+
+Aria:
+7% Ionic Reconfiguration
+7% Ionic Strike
+7% Ionic Shot
+7% Ionic Drive
+7% Ionic Grasp
+7% Laser Reconfiguration
+7% Laser Strike
+7% Laser Shot
+7% Laser Drive
+7% Laser Grasp
+7% Catalyst Reconfiguration
+7% Catalyst Strike
+7% Catalyst Shot
+7% Catalyst Drive
+7% Catalyst Grasp
+
+Voco:
+7% Monster Shred
+7% Monster Strike
+7% Monster Shot
+7% Monster Drive
+6% Monster Grasp
+6% Metal Shred
+7% Metal Strike
+7% Metal Shot
+6% Metal Drive
+6% Metal Grasp
+6% Thunderous Shred
+7% Thunderous Strike
+7% Thunderous Shot
+6% Thunderous Drive
+6% Thunderous Grasp
+
+
+Aria: Ionic Drive
+Voco: Monster Strike
+
+Priorities:  5 | 1
+Aria is active
+Aria moves Voco:
+
+.V...A.
+...d...
+.m.....
+......t
+zzzzz.z
+
+Aria moves:
+
+.V.A...
+...d...
+.m.....
+......t
+zzzzz.z
 
 Aria hits
-Aria removes her Magnetron droid:
-
-V....A.
-.....d.
-.......
-....t..
-.zzzzzz
-
-Aria gets +1 power
-Aria removes her Turret droid:
-
-V....A.
-.....d.
-.......
-.......
-.zzzzzz
-
-Aria gets +1 power
 Voco has 2 soak
-Voco takes 2 damage (now at 5 life)
-Aria adds her Magnetron droid:
+Voco takes 1 damage (now at 1 life)
+Voco moves:
 
-V....A.
-.....d.
-.....m.
-.......
-.zzz.z.
+..VA...
+...d...
+.m.....
+......t
+zz.z..z
 
 Voco hits
-Voco moves Aria:
-
-V...A..
-.....d.
-.....m.
-.......
-.zzz.z.
-
-Aria takes 2 damage (now at 6 life)
+Aria takes 3 damage (now at 10 life)
+Aria is stunned
 Game goes to time
 ARIA WINS!
-total_time: 19
+total_time: 25

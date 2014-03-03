@@ -11,48 +11,45 @@ Beat 1
 
 Kajia
 -----
-life: 20
-discard 1: Stinging Strike
-discard 2: Swarming Burst
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 20
+Discard 1: Stinging Strike
+Discard 2: Swarming Burst
+Special action available
+0 insects on Lymn's discard 1
+0 insects on Lymn's discard 2
 
 Lymn
 ----
-life: 20
-discard 1: Maddening Burst
-discard 2: Chimeric Dash
-special action
+Life: 20
+Discard 1: Maddening Burst
+Discard 2: Chimeric Dash
+Special action available
 
 
 .K...L.
 
-Unbeatable strategy for Lymn: Surreal Grasp: -0.10
 
 Kajia:
-42% Burrowing Grasp
-7% Parasitic Mandibles
-34% Parasitic Grasp
-7% Parasitic Dash
-9% Biting Shot
-1% Biting Drive
+16% Parasitic Mandibles
+36% Parasitic Dash
+9% Biting Mandibles
+35% Biting Shot
+3% Biting Drive
 
 Lymn:
-11% Surreal Strike
-4% Surreal Shot
-69% Surreal Grasp
-5% Reverie Strike
-1% Fathomless Visions
-9% Fathomless Shot
+0% Surreal Visions
+14% Surreal Strike
+65% Surreal Grasp
+4% Reverie Strike
+18% Fathomless Shot
 
 
-Kajia: Parasitic Grasp
+Kajia: Parasitic Mandibles
 Lymn: Surreal Grasp
 
-Priorities:  4 | 6
+Priorities:  2 | 6
 Lymn is active
-Disparity is 2
+Disparity is 4
 Kajia moves Lymn:
 
 .KL....
@@ -66,7 +63,7 @@ Kajia takes 2 damage (now at 18 life)
 Kajia is stunned
 Lymn moves:
 
-K....L.
+K.....L
 
 
 Beat 2
@@ -74,85 +71,89 @@ Beat 2
 
 Kajia
 -----
-life: 18
-discard 1: Parasitic Grasp
-discard 2: Stinging Strike
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 18
+Discard 1: Parasitic Mandibles
+Discard 2: Stinging Strike
+Special action available
+0 insects on Lymn's discard 1
+0 insects on Lymn's discard 2
 
 Lymn
 ----
-life: 20
-discard 1: Surreal Grasp
-discard 2: Maddening Burst
-special action
+Life: 20
+Discard 1: Surreal Grasp
+Discard 2: Maddening Burst
+Special action available
 
+
+K.....L
+
+
+Kajia:
+2% Burrowing Shot
+26% Burrowing Burst
+42% Burrowing Grasp
+30% Burrowing Dash
+
+Lymn:
+14% Chimeric Visions
+11% Reverie Visions
+32% Reverie Drive
+43% Fathomless Visions
+
+
+Kajia: Burrowing Dash
+Lymn: Reverie Drive
+
+Priorities:  8 | 3
+Kajia is active
+Disparity is 5
+Lymn loses 2 life (now at 18)
+Lymn is stunned
+Kajia moves Lymn:
 
 K....L.
 
-Kajia:
-12% Burrowing Burst
-40% Burrowing Dash
-44% Biting Mandibles
-4% Biting Burst
+Kajia moves:
 
-Lymn:
-0% Chimeric Visions
-53% Reverie Drive
-15% Fathomless Visions
-31% Fathomless Shot
+...K.L.
 
-
-Kajia: Burrowing Burst
-Lymn: Reverie Drive
-
-Priorities:  0 | 3
-Lymn is active
-Disparity is 3
-Lymn loses 2 life (now at 18)
-Lymn moves:
-
-K..L...
-
-Lymn hits
-Kajia takes 6 damage (now at 12 life)
-Kajia is stunned
 
 Beat 3
 -------
 
 Kajia
 -----
-life: 12
-discard 1: Burrowing Burst
-discard 2: Parasitic Grasp
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 18
+Discard 1: Burrowing Dash
+Discard 2: Parasitic Mandibles
+Special action available
+0 insects on Lymn's discard 1
+0 insects on Lymn's discard 2
 
 Lymn
 ----
-life: 18
-discard 1: Reverie Drive
-discard 2: Surreal Grasp
-special action
+Life: 18
+Discard 1: Reverie Drive
+Discard 2: Surreal Grasp
+Special action available
 
 
-K..L...
+...K.L.
+
 
 Kajia:
-16% Swarming Dash
-13% Stinging Mandibles
-71% Biting Mandibles
+30% Biting Strike
+20% Biting Drive
+50% Biting Grasp
 
 Lymn:
-8% Maddening Visions
-22% Maddening Burst
-70% Chimeric Visions
+55% Chimeric Visions
+37% Chimeric Strike
+8% Fathomless Visions
 
 
-Kajia: Biting Mandibles
+Kajia: Biting Strike
 Lymn: Chimeric Visions
 
 Priorities:  2 | 5
@@ -160,500 +161,596 @@ Lymn is active
 Disparity is 3
 Lymn moves:
 
-K.L....
+...KL..
 
-Lymn moves:
+Lymn hits
+Lymn moves Kajia:
 
-K...L..
+.K..L..
 
-Lymn misses
-Lymn moves:
+Kajia takes 3 damage (now at 15 life)
+Kajia hits
+Lymn takes 3 damage (now at 15 life)
+Kajia moves Lymn:
 
-K.....L
+.KL....
 
-Kajia moves:
-
-.K....L
-
-Kajia misses
-Kajia moves:
-
-..K...L
-
+Lymn is stunned
 
 Beat 4
 -------
 
 Kajia
 -----
-life: 12
-discard 1: Biting Mandibles
-discard 2: Burrowing Burst
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 15
+Discard 1: Biting Strike
+Discard 2: Burrowing Dash
+Special action available
+0 insects on Lymn's discard 1
+0 insects on Lymn's discard 2
 
 Lymn
 ----
-life: 18
-discard 1: Chimeric Visions
-discard 2: Reverie Drive
-special action
+Life: 15
+Discard 1: Chimeric Visions
+Discard 2: Reverie Drive
+Special action available
 
 
-..K...L
+.KL....
+
+Unbeatable strategy for Lymn: Surreal Grasp: -3.10
+
 
 Kajia:
-44% Parasitic Grasp
-51% Stinging Shot
-5% Stinging Drive
+46% Stinging Drive
+54% Stinging Grasp
 
 Lymn:
-74% Surreal Shot
-22% Surreal Grasp
-4% Fathomless Burst
+32% Maddening Burst
+68% Surreal Grasp
 
 
-Kajia: Stinging Shot
-Lymn: Surreal Shot
+Kajia: Stinging Grasp
+Lymn: Surreal Grasp
 
-Priorities:  3 | 3
+Priorities:  6 | 6
 Clash!
 
-Kajia:
-60% Stinging Drive
-40% Stinging Dash
 
-Lymn:
-30% Surreal Strike
-70% Surreal Burst
+Kajia: Stinging Mandibles
+Lymn: Surreal Dash
 
-
-Kajia: Stinging Dash
-Lymn: Surreal Strike
-
-Priorities:  10 | 4
-Kajia is active
+Priorities:  4 | 10
+Lymn is active
 Disparity is 6
-Kajia moves:
-
-....K.L
-
-Lymn hits
-Kajia takes 4 damage (now at 8 life)
-Kajia is stunned
 Lymn moves:
 
-L...K..
+.K...L.
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 0)
+Kajia moves:
+
+..K..L.
+
+Kajia misses
+Kajia moves:
+
+...K.L.
+
 
 Beat 5
 -------
 
 Kajia
 -----
-life: 8
-discard 1: Stinging Dash
-discard 2: Biting Mandibles
-special action
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 15
+Discard 1: Stinging Mandibles
+Discard 2: Biting Strike
+Special action available
+0 insects on Lymn's discard 1
+0 insects on Lymn's discard 2
 
 Lymn
 ----
-life: 18
-discard 1: Surreal Strike
-discard 2: Chimeric Visions
-special action
+Life: 15
+Discard 1: Surreal Dash
+Discard 2: Chimeric Visions
+Special action available
 
 
-L...K..
+...K.L.
+
 
 Kajia:
-40% Burrowing Drive
-26% Parasitic Strike
-11% Parasitic Drive
-23% Parasitic Grasp
+39% Parasitic Drive
+39% Parasitic Burst
+23% Parasitic Dash
 
 Lymn:
-12% Maddening Drive
-55% Maddening Grasp
-28% Reverie Grasp
-4% Fathomless Burst
+25% Maddening Drive
+51% Maddening Grasp
+24% Fathomless Shot
 
 
-Kajia: Parasitic Strike
+Kajia: Parasitic Drive
 Lymn: Maddening Grasp
 
-Priorities:  2 | 5
+Priorities:  3 | 5
 Lymn is active
-Disparity is 3
+Disparity is 2
 Kajia moves Lymn:
 
-...LK..
+.L.K...
 
+Kajia places 1 insect token on Lymn's attack pair
+(Current insects: 1 / 0 / 0)
 Lymn hits
 Lymn moves Kajia:
 
-...L.K.
+.L..K..
 
-Kajia takes 3 damage (now at 5 life)
-Kajia hits
-Lymn has 2 soak
-Lymn takes 1 damage (now at 17 life)
-Lymn is stunned
+Kajia takes 2 damage (now at 13 life)
+Kajia is stunned
 
 Beat 6
 -------
 
 Kajia
 -----
-life: 5
-discard 1: Parasitic Strike
-discard 2: Stinging Dash
-special action
-0 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 13
+Discard 1: Parasitic Drive
+Discard 2: Stinging Mandibles
+Special action available
+1 insects on Lymn's discard 1
+0 insects on Lymn's discard 2
 
 Lymn
 ----
-life: 17
-discard 1: Maddening Grasp
-discard 2: Surreal Strike
-special action
+Life: 15
+Discard 1: Maddening Grasp
+Discard 2: Surreal Dash
+Special action available
 
 
-...L.K.
+.L..K..
+
 
 Kajia:
-19% Burrowing Drive
-19% Biting Mandibles
-61% Biting Drive
+5% Burrowing Shot
+12% Swarming Dash
+39% Biting Shot
+13% Biting Burst
+30% Biting Grasp
 
 Lymn:
-31% Chimeric Drive
-50% Chimeric Burst
-19% Fathomless Dash
+14% Chimeric Visions
+30% Reverie Strike
+11% Reverie Burst
+3% Fathomless Visions
+42% Fathomless Burst
 
 
-Kajia: Biting Drive
-Lymn: Chimeric Burst
+Kajia: Swarming Dash
+Lymn: Reverie Burst
 
-Lymn gets -1 power
-Priorities:  3 | 3
-Clash!
-
-Kajia:
-63% Biting Mandibles
-37% Biting Grasp
-
-Lymn:
-58% Chimeric Visions
-42% Chimeric Drive
-
-
-Kajia: Biting Mandibles
-Lymn: Chimeric Drive
-
-Lymn gets -1 power
-Priorities:  2 | 6
-Lymn is active
-Disparity is 4
+Priorities:  8 | 0
+Kajia is active
+Disparity is 8
+Lymn loses 2 life (now at 13)
+Lymn is stunned
 Lymn moves:
 
-....LK.
+L...K..
 
-Lymn moves:
+Kajia moves:
 
-.....KL
+LK.....
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 1)
-Lymn hits
-Kajia takes 4 damage (now at 1 life)
-Kajia is stunned
-Lymn loses 1 life (now at 16)
+Kajia places 1 insect token on Lymn's attack pair
+(Current insects: 1 / 1 / 0)
 
 Beat 7
 -------
 
 Kajia
 -----
-life: 1
-discard 1: Biting Mandibles
-discard 2: Parasitic Strike
-special action
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 13
+Discard 1: Swarming Dash
+Discard 2: Parasitic Drive
+Special action available
+1 insects on Lymn's discard 1
+1 insects on Lymn's discard 2
 
 Lymn
 ----
-life: 16
-discard 1: Chimeric Drive
-discard 2: Maddening Grasp
-special action
+Life: 13
+Discard 1: Reverie Burst
+Discard 2: Maddening Grasp
+Special action available
 
 
-.....KL
+LK.....
+
 
 Kajia:
-18% Burrowing Drive
-12% Burrowing Grasp
-42% Swarming Drive
-28% Swarming Grasp
+17% Burrowing Burst
+6% Burrowing Grasp
+27% Stinging Strike
+50% Stinging Grasp
 
 Lymn:
-21% Surreal Visions
-22% Surreal Strike
-41% Surreal Shot
-16% Fathomless Shot
+4% Chimeric Drive
+5% Surreal Drive
+3% Fathomless Shot
+87% Fathomless Dash
 
 
-Kajia: Swarming Drive
-Lymn: Surreal Strike
+Kajia: Stinging Strike
+Lymn: Fathomless Dash
 
-Priorities:  3 | 4
+Priorities:  4 | 7
 Lymn is active
-Disparity is 1
-Lymn misses
+Disparity is 3
 Lymn moves:
 
-....LK.
+.KL....
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 0)
-Kajia moves:
-
-...KL..
-
-Kajia hits
-Lymn takes 3 damage (now at 13 life)
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 2 / 1 / 0)
+Kajia places 1 insect token on Lymn's attack pair
+(Current insects: 1 / 1 / 1)
+Kajia misses
+Lymn loses 1 life (now at 12)
 
 Beat 8
 -------
 
 Kajia
 -----
-life: 1
-discard 1: Swarming Drive
-discard 2: Biting Mandibles
-special action
-2 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 13
+Discard 1: Stinging Strike
+Discard 2: Swarming Dash
+Special action available
+1 insects on Lymn's discard 1
+1 insects on Lymn's discard 2
 
 Lymn
 ----
-life: 13
-discard 1: Surreal Strike
-discard 2: Chimeric Drive
-special action
+Life: 12
+Discard 1: Fathomless Dash
+Discard 2: Reverie Burst
+Special action available
 
 
-...KL..
+.KL....
+
 
 Kajia:
-34% Burrowing Shot
-28% Burrowing Burst
-26% Burrowing Grasp
-12% Parasitic Grasp
+29% Burrowing Grasp
+71% Biting Shot
 
 Lymn:
-24% Maddening Visions
-25% Maddening Burst
-28% Maddening Grasp
-23% Fathomless Burst
+21% Surreal Strike
+79% Surreal Grasp
 
 
-Kajia: Burrowing Shot
-Lymn: Fathomless Burst
+Kajia: Burrowing Grasp
+Lymn: Surreal Grasp
 
 Kajia gets +2 power
 Kajia gets +2 priority
-Priorities:  3 | -1
-Kajia is active
-Disparity is 4
+Priorities:  6 | 6
+Clash!
+
+
+Kajia: Burrowing Mandibles
+Lymn: Surreal Drive
+
+Kajia gets +2 power
+Kajia gets +2 priority
+Priorities:  4 | 5
+Lymn is active
+Disparity is 1
 Lymn moves:
 
-...K..L
+LK.....
 
-Kajia moves Lymn:
+Kajia places 1 insect token on Lymn's attack pair
+(Current insects: 1 / 1 / 1)
+Lymn hits
+Kajia takes 3 damage (now at 10 life)
+Kajia is stunned
+Lymn moves:
 
-...K.L.
+.KL....
 
-Kajia hits
-Lymn takes 5 damage (now at 8 life)
-Lymn is stunned
-Lymn loses 1 life (now at 7)
+Kajia places 1 insect token on Lymn's attack pair
+(Current insects: 2 / 1 / 1)
+Lymn loses 1 life (now at 11)
 
 Beat 9
 -------
 
 Kajia
 -----
-life: 1
-discard 1: Burrowing Shot
-discard 2: Swarming Drive
-special action
-0 insects on opponent's discard 1
-2 insects on opponent's discard 2
+Life: 10
+Discard 1: Burrowing Mandibles
+Discard 2: Stinging Strike
+Special action available
+2 insects on Lymn's discard 1
+1 insects on Lymn's discard 2
 
 Lymn
 ----
-life: 7
-discard 1: Fathomless Burst
-discard 2: Surreal Strike
-special action
+Life: 11
+Discard 1: Surreal Drive
+Discard 2: Fathomless Dash
+Special action available
 
 
-...K.L.
+.KL....
+
 
 Kajia:
-74% Parasitic Dash
-24% Stinging Mandibles
-1% Biting Mandibles
-1% Special Wormwood
+9% Swarming Shot
+49% Swarming Drive
+7% Swarming Grasp
+35% Biting Grasp
 
 Lymn:
-45% Maddening Visions
-25% Maddening Shot
-7% Chimeric Visions
-23% Chimeric Drive
+23% Maddening Visions
+38% Maddening Strike
+20% Maddening Burst
+19% Maddening Grasp
 
 
-Kajia: Parasitic Dash
-Lymn: Chimeric Drive
+Kajia: Biting Grasp
+Lymn: Maddening Grasp
 
-Priorities:  8 | 6
-Kajia is active
+Lymn gets -2 power
+Priorities:  4 | 5
+Lymn is active
+Disparity is 1
+Lymn hits
+Lymn moves Kajia:
+
+K.L....
+
+Kajia takes 0 damage (now at 10 life)
+Kajia hits
 Kajia moves Lymn:
-
-.L.K...
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 2)
-Disparity is 2
-Kajia moves:
 
 KL.....
 
-Lymn misses
-Lymn loses 2 life (now at 5)
+Lymn takes 1 damage (now at 10 life)
+Lymn is stunned
+Lymn loses 1 life (now at 9)
 
 Beat 10
 -------
 
 Kajia
 -----
-life: 1
-discard 1: Parasitic Dash
-discard 2: Burrowing Shot
-special action
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 10
+Discard 1: Biting Grasp
+Discard 2: Burrowing Mandibles
+Special action available
+0 insects on Lymn's discard 1
+2 insects on Lymn's discard 2
 
 Lymn
 ----
-life: 5
-discard 1: Chimeric Drive
-discard 2: Fathomless Burst
-special action
+Life: 9
+Discard 1: Maddening Grasp
+Discard 2: Surreal Drive
+Special action available
 
 
 KL.....
 
-Unbeatable strategy for Lymn: Surreal Grasp: -1.30
 
 Kajia:
-50% Swarming Mandibles
-13% Swarming Drive
-27% Stinging Grasp
-10% Special Wormwood
+56% Swarming Drive
+18% Swarming Dash
+26% Stinging Drive
 
 Lymn:
-1% Maddening Visions
-2% Surreal Visions
-24% Surreal Shot
-73% Surreal Grasp
+42% Chimeric Burst
+51% Chimeric Dash
+7% Fathomless Shot
 
 
-Kajia: Swarming Mandibles
-Lymn: Surreal Grasp
+Kajia: Swarming Drive
+Lymn: Chimeric Dash
 
-Priorities:  2 | 6
+Priorities:  3 | 11
 Lymn is active
-Disparity is 4
-Lymn misses
+Disparity is 8
 Lymn moves:
 
-K.....L
+K...L..
 
 Kajia moves:
 
-.K....L
+..K.L..
 
-Kajia misses
-Kajia moves:
-
-..K...L
-
+Kajia hits
+Lymn takes 3 damage (now at 6 life)
+Lymn is stunned
+Lymn loses 2 life (now at 4)
 
 Beat 11
 -------
 
 Kajia
 -----
-life: 1
-discard 1: Swarming Mandibles
-discard 2: Parasitic Dash
-special action
-0 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 10
+Discard 1: Swarming Drive
+Discard 2: Biting Grasp
+Special action available
+0 insects on Lymn's discard 1
+0 insects on Lymn's discard 2
 
 Lymn
 ----
-life: 5
-discard 1: Surreal Grasp
-discard 2: Chimeric Drive
-special action
+Life: 4
+Discard 1: Chimeric Dash
+Discard 2: Maddening Grasp
+Special action available
 
 
-..K...L
+..K.L..
+
+Unbeatable strategy for Lymn: Surreal Visions: -1.16
+
 
 Kajia:
-26% Burrowing Shot
-18% Burrowing Drive
-49% Burrowing Burst
-7% Stinging Burst
+50% Burrowing Dash
+44% Parasitic Mandibles
+5% Stinging Strike
 
 Lymn:
-41% Reverie Visions
-3% Reverie Strike
-6% Reverie Burst
-50% Fathomless Shot
+87% Surreal Visions
+6% Fathomless Shot
+6% Fathomless Burst
 
 
-Kajia: Burrowing Drive
-Lymn: Fathomless Shot
+Kajia: Parasitic Mandibles
+Lymn: Surreal Visions
+
+Priorities:  2 | 4
+Lymn is active
+Disparity is 2
+Kajia moves Lymn:
+
+L.K....
+
+Kajia places 1 insect token on Lymn's attack pair
+(Current insects: 1 / 0 / 0)
+Lymn moves:
+
+..KL...
+
+Kajia places 1 insect token on Lymn's attack pair
+(Current insects: 2 / 0 / 0)
+Lymn hits
+Lymn moves Kajia:
+
+K..L...
+
+Kajia takes 2 damage (now at 8 life)
+Kajia is stunned
+Lymn moves:
+
+K.....L
+
+
+Beat 12
+-------
+
+Kajia
+-----
+Life: 8
+Discard 1: Parasitic Mandibles
+Discard 2: Swarming Drive
+Special action available
+2 insects on Lymn's discard 1
+0 insects on Lymn's discard 2
+
+Lymn
+----
+Life: 4
+Discard 1: Surreal Visions
+Discard 2: Chimeric Dash
+Special action available
+
+
+K.....L
+
+
+Kajia:
+63% Biting Shot
+37% Biting Dash
+
+Lymn:
+52% Reverie Drive
+48% Fathomless Shot
+
+
+Kajia: Biting Shot
+Lymn: Reverie Drive
+
+Lymn gets -1 power
+Priorities:  1 | 3
+Lymn is active
+Disparity is 2
+Lymn moves:
+
+K...L..
+
+Lymn hits
+Kajia takes 5 damage (now at 3 life)
+Kajia hits
+Lymn takes 2 damage (now at 2 life)
+Kajia moves Lymn:
+
+K..L...
+
+Lymn is stunned
+
+Beat 13
+-------
+
+Kajia
+-----
+Life: 3
+Discard 1: Biting Shot
+Discard 2: Parasitic Mandibles
+Special action available
+0 insects on Lymn's discard 1
+2 insects on Lymn's discard 2
+
+Lymn
+----
+Life: 2
+Discard 1: Reverie Drive
+Discard 2: Surreal Visions
+Special action available
+
+
+K..L...
+
+Unbeatable strategy for Lymn: Fathomless Burst: -1.84
+
+
+Kajia:
+1% Burrowing Strike
+37% Burrowing Burst
+37% Burrowing Dash
+25% Swarming Burst
+
+Lymn:
+5% Chimeric Shot
+33% Chimeric Burst
+1% Fathomless Strike
+61% Fathomless Burst
+
+
+Kajia: Burrowing Burst
+Lymn: Chimeric Burst
 
 Kajia gets +1 power
 Kajia gets +1 priority
-Priorities:  4 | 0
-Kajia is active
-Disparity is 4
-Kajia moves Lymn:
+Priorities:  1 | 3
+Lymn is active
+Disparity is 2
+Lymn moves:
 
-..K..L.
+K...L..
 
-Kajia moves:
+Lymn moves:
 
-...K.L.
+K..L...
 
-Kajia misses
 Lymn hits
-Kajia takes 4 damage (now at 0 life)
+Kajia takes 3 damage (now at 0 life)
 LYMN WINS!
-total_time: 7
+total_time: 10

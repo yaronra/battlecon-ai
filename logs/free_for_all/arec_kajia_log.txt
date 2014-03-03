@@ -23,8 +23,8 @@ Life: 20
 Discard 1: Stinging Strike
 Discard 2: Swarming Burst
 Special action available
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+0 insects on Arec's discard 1
+0 insects on Arec's discard 2
 
 
 .A...K.
@@ -46,20 +46,20 @@ Kajia:
 10% Parasitic Grasp
 
 
-Arec: Mirrored Hex (Fear)
+Arec: Perceptional Burst
 Kajia: Parasitic Shot
 
-Arec antes a Fear token
-Priorities:  3 | 1
+Priorities:  2 | 1
 Arec is active
+Arec moves:
+
+A....K.
+
+
+Arec antes a Fear token
 Arec hits
-Arec moves Kajia:
-
-.A....K
-
-
-Kajia takes 4 damage (now at 16 life)
-Kajia misses
+Kajia takes 3 damage (now at 17 life)
+Kajia is stunned
 
 Beat 2
 -------
@@ -67,56 +67,78 @@ Beat 2
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Hex
+Discard 1: Perceptional Burst
 Discard 2: Phantom Strike
 Special action available
 pool: Hesitation, Mercy, Recklessness
 
 Kajia
 -----
-Life: 16
+Life: 17
 Discard 1: Parasitic Shot
 Discard 2: Stinging Strike
 Special action available
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+0 insects on Arec's discard 1
+0 insects on Arec's discard 2
 
 
-.A....K
+A....K.
 
 
-Unbeatable strategy for Arec: Returning Shot: 0.20
-Unbeatable strategy for Arec: Returning Shot (Hesitation): 0.77
-Unbeatable strategy for Arec: Returning Shot (Mercy): 0.30
-Unbeatable strategy for Arec: Manipulative Burst: 0.14
+Unbeatable strategy for Arec: Returning Hex: 1.03
+Unbeatable strategy for Arec: Returning Hex (Hesitation): 1.97
+Unbeatable strategy for Arec: Returning Hex (Recklessness): 0.73
 
 
 Arec:
-19% Perceptional Shot
-14% Returning Shot
-55% Returning Shot (Hesitation)
-12% Returning Burst
+45% Returning Hex (Hesitation)
+13% Mirrored Hex
+29% Mirrored Drive
+13% Manipulative Hex (Hesitation)
 
 Kajia:
-37% Burrowing Mandibles
-13% Burrowing Drive
-27% Biting Mandibles
-23% Biting Burst
+28% Burrowing Drive
+37% Burrowing Grasp
+7% Burrowing Dash
+27% Special Pulse
 
 
-Arec: Returning Shot
-Kajia: Biting Burst
+Arec: Mirrored Drive
+Kajia: Burrowing Grasp
 
-Priorities:  3 | 0
-Arec is active
-Arec hits
-Kajia takes 3 damage (now at 13 life)
-Kajia hits
-Arec takes 2 damage (now at 18 life)
-Kajia moves Arec:
+Priorities:  4 | 4
+Clash!
 
-...A..K
 
+Arec: Mirrored Hex
+Kajia: Burrowing Drive
+
+Priorities:  3 | 3
+Clash!
+
+
+Arec: Mirrored Shot
+Kajia: Burrowing Mandibles
+
+Priorities:  2 | 2
+Clash!
+
+
+Arec: Mirrored Grasp
+Kajia: Burrowing Dash
+
+Priorities:  5 | 8
+Kajia is active
+Kajia moves:
+
+A...K..
+
+
+Arec misses
+Arec places clone:
+
+A...K..
+.c.....
 
 
 Beat 3
@@ -124,90 +146,44 @@ Beat 3
 
 Arec
 ----
-Life: 18
-Discard 1: Returning Shot
-Discard 2: Mirrored Hex
+Life: 20
+Discard 1: Mirrored Grasp
+Discard 2: Perceptional Burst
 Special action available
 pool: Hesitation, Mercy, Recklessness
 
 Kajia
 -----
-Life: 13
-Discard 1: Biting Burst
+Life: 17
+Discard 1: Burrowing Dash
 Discard 2: Parasitic Shot
 Special action available
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+0 insects on Arec's discard 1
+0 insects on Arec's discard 2
 
 
-...A..K
+A...K..
+.c.....
 
-
-
-Arec:
-34% Perceptional Strike
-66% Perceptional Drive
-
-Kajia:
-20% Swarming Strike
-80% Swarming Grasp
-
-
-Arec: Perceptional Drive
-Kajia: Swarming Grasp
-
-Priorities:  5 | 4
-Arec is active
-Arec moves:
-
-....A.K
-
-
-Arec hits
-Kajia takes 3 damage (now at 10 life)
-Kajia is stunned
-
-Beat 4
--------
-
-Arec
-----
-Life: 18
-Discard 1: Perceptional Drive
-Discard 2: Returning Shot
-Special action available
-pool: Hesitation, Mercy, Recklessness
-
-Kajia
------
-Life: 10
-Discard 1: Swarming Grasp
-Discard 2: Biting Burst
-Special action available
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
-
-
-....A.K
-
+Unbeatable strategy for Arec: Returning Hex (Hesitation): 2.54
 
 
 Arec:
-84% Mirrored Hex (Hesitation)
-6% Mirrored Strike
-1% Mirrored Burst
-4% Mirrored Grasp
-5% Manipulative Burst
+23% Returning Hex
+63% Returning Hex (Hesitation)
+2% Manipulative Hex (Hesitation)
+4% Manipulative Shot
+7% Manipulative Drive (move to clone)
 
 Kajia:
-1% Burrowing Mandibles
-9% Parasitic Mandibles
-2% Parasitic Strike
-7% Stinging Drive
-81% Special Pulse
+2% Swarming Drive
+3% Stinging Drive
+14% Biting Mandibles
+1% Biting Drive
+80% Special Pulse
 
 
-Arec: Mirrored Hex (Hesitation)
+Arec: Returning Hex (Hesitation)
 Kajia: Special Pulse
 
 Arec antes a Hesitation token
@@ -217,174 +193,238 @@ AK.....
 
 
 
-Beat 4
+Beat 3
 -------
 
 Arec
 ----
-Life: 18
-Discard 1: Mirrored Hex
-Discard 2: Perceptional Drive
+Life: 20
+Discard 1: Returning Hex
+Discard 2: Mirrored Grasp
 Special action available
 pool: Mercy, Recklessness
 
 Kajia
 -----
-Life: 10
-Discard 1: Swarming Grasp
-Discard 2: Biting Burst
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 17
+Discard 1: Burrowing Dash
+Discard 2: Parasitic Shot
+0 insects on Arec's discard 1
+0 insects on Arec's discard 2
 
 
 AK.....
 
 
-Unbeatable strategy for Kajia: Burrowing Dash: -0.07
-
 
 Arec:
-50% Phantom Strike
-28% Phantom Grasp
-22% Returning Strike
+11% Phantom Strike (Mercy)
+25% Phantom Drive (Mercy)
+8% Phantom Burst (Mercy)
+9% Phantom Dash
+44% Manipulative Strike
+3% Manipulative Drive
 
 Kajia:
-16% Burrowing Strike
-72% Burrowing Dash
-12% Stinging Drive
+32% Swarming Strike
+3% Swarming Burst
+33% Stinging Drive
+6% Stinging Burst
+19% Biting Drive
+6% Biting Burst
 
 
-Arec: Phantom Strike
-Kajia: Burrowing Dash
+Arec: Phantom Dash
+Kajia: Stinging Drive
 
-Priorities:  4 | 8
-Kajia is active
-Kajia moves Arec:
-
-.KA....
-
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 0)
-Kajia moves:
-
-..AK...
-
-
-Arec misses
-Arec recovers a Hesitation token
-
-Beat 5
--------
-
-Arec
-----
-Life: 18
-Discard 1: Phantom Strike
-Discard 2: Mirrored Hex
-Special action available
-pool: Mercy, Recklessness, Hesitation
-
-Kajia
------
-Life: 10
-Discard 1: Burrowing Dash
-Discard 2: Swarming Grasp
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
-
-
-..AK...
-
-
-Unbeatable strategy for Kajia: Biting Mandibles: -1.65
-Unbeatable strategy for Kajia: Biting Strike: -0.64
-Unbeatable strategy for Kajia: Biting Drive: -0.08
-
-
-Arec:
-23% Perceptional Burst (Mercy)
-36% Perceptional Dash
-15% Returning Shot (Mercy)
-14% Returning Burst (Mercy)
-12% Manipulative Shot (Mercy)
-
-Kajia:
-0% Stinging Shot
-9% Stinging Drive
-23% Biting Mandibles
-42% Biting Strike
-25% Biting Drive
-
-
-Arec: Manipulative Shot (Mercy)
-Kajia: Biting Drive
-
-Arec antes a Mercy token
-Arec gets -1 power
-Priorities:  2 | 3
-Kajia is active
-Kajia moves:
-
-.KA....
-
-
-Kajia hits
-Arec takes 2 damage (now at 16 life)
-Arec hits
-Kajia takes 3 damage (now at 7 life)
-
-Beat 6
--------
-
-Arec
-----
-Life: 16
-Discard 1: Manipulative Shot
-Discard 2: Phantom Strike
-Special action available
-pool: Recklessness, Hesitation
-
-Kajia
------
-Life: 7
-Discard 1: Biting Drive
-Discard 2: Burrowing Dash
-0 insects on opponent's discard 1
-1 insects on opponent's discard 2
-
-
-.KA....
-
-
-
-Arec:
-23% Returning Burst
-2% Returning Burst (Hesitation)
-27% Mirrored Burst (Hesitation)
-47% Mirrored Dash
-
-Kajia:
-38% Swarming Mandibles
-9% Swarming Shot
-9% Stinging Mandibles
-44% Stinging Shot
-
-
-Arec: Returning Burst
-Kajia: Swarming Mandibles
-
-Priorities:  2 | 2
+Priorities:  10 | 5
 Arec is active
 Arec moves:
 
 .K.A...
 
 
+Kajia places 1 insect token on Arec's attack pair
+(Current insects: 1 / 0 / 0)
+Kajia moves:
+
+..KA...
+
+
+Kajia misses
+Arec recovers a Hesitation token
+
+Beat 4
+-------
+
+Arec
+----
+Life: 20
+Discard 1: Phantom Dash
+Discard 2: Returning Hex
+Special action available
+pool: Mercy, Recklessness, Hesitation
+
+Kajia
+-----
+Life: 17
+Discard 1: Stinging Drive
+Discard 2: Burrowing Dash
+1 insects on Arec's discard 1
+0 insects on Arec's discard 2
+
+
+..KA...
+
+
+
+Arec:
+16% Perceptional Burst
+49% Mirrored Drive (Mercy)
+30% Mirrored Burst
+6% Mirrored Burst (Mercy)
+
+Kajia:
+23% Swarming Shot
+4% Swarming Grasp
+4% Biting Shot
+70% Biting Grasp
+
+
+Arec: Mirrored Burst
+Kajia: Biting Grasp
+
+Arec gets -1 power
+Priorities:  1 | 4
+Kajia is active
+Arec moves:
+
+..K.A..
+
+
+Kajia misses
+Arec misses
+Arec places clone:
+
+..K.A..
+......c
+
+
+Beat 5
+-------
+
+Arec
+----
+Life: 20
+Discard 1: Mirrored Burst
+Discard 2: Phantom Dash
+Special action available
+pool: Mercy, Recklessness, Hesitation
+
+Kajia
+-----
+Life: 17
+Discard 1: Biting Grasp
+Discard 2: Stinging Drive
+0 insects on Arec's discard 1
+1 insects on Arec's discard 2
+
+
+..K.A..
+......c
+
+
+Arec:
+4% Returning Strike
+3% Returning Shot (move to clone)
+14% Manipulative Hex
+24% Manipulative Hex (Hesitation; move to clone)
+21% Manipulative Strike (move to clone)
+34% Manipulative Shot (Hesitation; move to clone)
+
+Kajia:
+5% Burrowing Mandibles
+7% Burrowing Shot
+4% Burrowing Burst
+39% Parasitic Mandibles
+30% Parasitic Strike
+15% Parasitic Burst
+
+
+Arec: Manipulative Strike (move to clone)
+Kajia: Parasitic Strike
+
+Arec moves:
+
+..K...A
+
+
+Priorities:  3 | 2
+Arec is active
+Kajia moves Arec:
+
+..KA...
+
+
 Arec hits
-Kajia takes 3 damage (now at 4 life)
-Kajia is stunned
+Arec chooses Kajia's base: Mandibles
+Kajia takes 5 damage (now at 12 life)
+Arec recovers a Fear token
+Kajia hits
+Arec takes 4 damage (now at 16 life)
 Arec loses 1 life (now at 15)
+
+Beat 6
+-------
+
+Arec
+----
+Life: 15
+Discard 1: Manipulative Strike
+Discard 2: Mirrored Burst
+Special action available
+pool: Mercy, Recklessness, Hesitation, Fear
+Manipulative forced base: Mandibles
+
+Kajia
+-----
+Life: 12
+Discard 1: Parasitic Strike
+Discard 2: Biting Grasp
+0 insects on Arec's discard 1
+0 insects on Arec's discard 2
+
+
+..KA...
+
+
+
+Arec:
+43% Perceptional Drive
+17% Returning Grasp
+34% Returning Grasp (Hesitation)
+6% Returning Grasp (Fear)
+
+Kajia:
+83% Swarming Mandibles
+9% Swarming Dash
+6% Stinging Shot
+1% Stinging Burst
+
+
+Arec: Returning Grasp
+Kajia: Swarming Mandibles
+
+Priorities:  6 | 2
+Arec is active
+Arec hits
+Arec moves Kajia:
+
+.K.A...
+
+
+Kajia takes 2 damage (now at 10 life)
+Kajia is stunned
 
 Beat 7
 -------
@@ -392,59 +432,198 @@ Beat 7
 Arec
 ----
 Life: 15
-Discard 1: Returning Burst
-Discard 2: Manipulative Shot
+Discard 1: Returning Grasp
+Discard 2: Manipulative Strike
 Special action available
-pool: Recklessness, Hesitation
+pool: Mercy, Recklessness, Hesitation, Fear
 
 Kajia
 -----
-Life: 4
+Life: 10
 Discard 1: Swarming Mandibles
-Discard 2: Biting Drive
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Discard 2: Parasitic Strike
+0 insects on Arec's discard 1
+0 insects on Arec's discard 2
 
 
 .K.A...
 
 
-Unbeatable strategy for Arec: Perceptional Drive: 1.24
-Unbeatable strategy for Arec: Perceptional Drive (Recklessness): 0.64
-Unbeatable strategy for Arec: Perceptional Drive (Hesitation): 1.24
-Unbeatable strategy for Arec: Mirrored Grasp (Hesitation): 2.04
-
 
 Arec:
-33% Mirrored Hex (Hesitation)
-33% Mirrored Strike (Hesitation)
-34% Mirrored Drive (Hesitation)
+92% Mirrored Drive (Hesitation)
+3% Mirrored Burst (Mercy)
+5% Mirrored Burst (Hesitation)
 
 Kajia:
-1% Burrowing Strike
-7% Burrowing Shot
-5% Burrowing Burst
-4% Burrowing Grasp
-11% Burrowing Dash
-8% Parasitic Strike
-8% Parasitic Shot
-8% Parasitic Burst
-2% Parasitic Grasp
-12% Parasitic Dash
-4% Stinging Strike
-8% Stinging Shot
-8% Stinging Burst
-5% Stinging Grasp
-8% Stinging Dash
+5% Burrowing Drive
+2% Stinging Shot
+93% Stinging Grasp
 
 
 Arec: Mirrored Drive (Hesitation)
-Kajia: Stinging Shot
+Kajia: Stinging Grasp
 
 Arec antes a Hesitation token
+Priorities:  4 | 6
+Kajia is active
+Kajia misses
+Arec hits
+Kajia takes 4 damage (now at 6 life)
+Kajia is stunned
+Arec places clone:
+
+.K.A...
+......c
+
+
+Beat 8
+-------
+
+Arec
+----
+Life: 15
+Discard 1: Mirrored Drive
+Discard 2: Returning Grasp
+Special action available
+pool: Mercy, Recklessness, Fear
+
+Kajia
+-----
+Life: 6
+Discard 1: Stinging Grasp
+Discard 2: Swarming Mandibles
+0 insects on Arec's discard 1
+0 insects on Arec's discard 2
+
+
+.K.A...
+......c
+
+Unbeatable strategy for Arec: Perceptional Hex (Fear; move to clone): 0.59
+
+
+Arec:
+36% Perceptional Hex (Fear; move to clone)
+37% Perceptional Strike
+5% Manipulative Hex (move to clone)
+21% Manipulative Hex (Fear; move to clone)
+
+Kajia:
+32% Burrowing Drive
+15% Burrowing Dash
+7% Parasitic Dash
+45% Biting Shot
+
+
+Arec: Perceptional Strike
+Kajia: Burrowing Drive
+
 Priorities:  4 | 3
 Arec is active
 Arec hits
-Kajia takes 4 damage (now at 0 life)
+Kajia takes 4 damage (now at 2 life)
+Kajia is stunned
+
+Beat 9
+-------
+
+Arec
+----
+Life: 15
+Discard 1: Perceptional Strike
+Discard 2: Mirrored Drive
+Special action available
+pool: Mercy, Recklessness, Fear
+
+Kajia
+-----
+Life: 2
+Discard 1: Burrowing Drive
+Discard 2: Stinging Grasp
+0 insects on Arec's discard 1
+0 insects on Arec's discard 2
+
+
+.K.A...
+
+
+
+Arec:
+7% Phantom Hex
+33% Phantom Hex (Fear)
+61% Returning Dash
+
+Kajia:
+75% Swarming Dash
+10% Parasitic Dash
+15% Biting Mandibles
+
+
+Arec: Phantom Hex (Fear)
+Kajia: Swarming Dash
+
+Arec antes a Fear token
+Priorities:  4 | 8
+Kajia is active
+Kajia moves:
+
+...AK..
+
+
+Arec misses
+
+Beat 10
+-------
+
+Arec
+----
+Life: 15
+Discard 1: Phantom Hex
+Discard 2: Perceptional Strike
+Special action available
+pool: Mercy, Recklessness
+
+Kajia
+-----
+Life: 2
+Discard 1: Swarming Dash
+Discard 2: Burrowing Drive
+0 insects on Arec's discard 1
+0 insects on Arec's discard 2
+
+
+...AK..
+
+
+
+Arec:
+29% Returning Shot (Mercy)
+35% Returning Drive (Mercy)
+2% Returning Burst (Mercy)
+9% Returning Grasp
+25% Returning Grasp (Mercy)
+
+Kajia:
+26% Parasitic Burst
+31% Stinging Mandibles
+1% Stinging Strike
+8% Stinging Burst
+35% Stinging Grasp
+
+
+Arec: Returning Grasp
+Kajia: Stinging Grasp
+
+Priorities:  6 | 6
+Arec is active
+Kajia is stunned
+Arec hits
+Arec moves Kajia:
+
+..KA...
+
+
+Kajia takes 2 damage (now at 0 life)
 AREC WINS!
-total_time: 24
+total_time: 50

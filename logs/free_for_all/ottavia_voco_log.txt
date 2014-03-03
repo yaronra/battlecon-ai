@@ -11,51 +11,50 @@ Beat 1
 
 Ottavia
 -------
-life: 20
-discard 1: Cybernetic Strike
-discard 2: Demolition Shot
-special action
+Life: 20
+Discard 1: Cybernetic Strike
+Discard 2: Demolition Shot
+Special action available
 
 Voco
 ----
-life: 20
-discard 1: Thunderous Drive
-discard 2: Monster Burst
-special action
+Life: 20
+Discard 1: Thunderous Shred
+Discard 2: Monster Burst
+Special action available
 
 
 .O...V.
 
 
+
 Ottavia:
-5% Anti-Personnel Drive (Target Lock: 3)
-6% Anti-Personnel Drive (Target Lock: 5)
-9% Anti-Personnel Drive (Target Lock: 9)
-9% Anti-Personnel Burst (Target Lock: 3)
-4% Anti-Personnel Grasp (Target Lock: 9)
-11% Cover Shooter (Target Lock: 3)
-25% Cover Shooter (Target Lock: 5)
-23% Cover Drive (Target Lock: 9)
-1% Cover Burst (Target Lock: 2)
-8% Cover Burst (Target Lock: 3)
+5% Anti-Personnel Shooter (Target Lock: 3)
+4% Anti-Personnel Shooter (Target Lock: 9)
+2% Anti-Personnel Drive (Target Lock: 3)
+7% Anti-Personnel Drive (Target Lock: 5)
+3% Anti-Personnel Drive (Target Lock: 9)
+19% Cover Shooter (Target Lock: 3)
+9% Cover Shooter (Target Lock: 4)
+21% Cover Drive (Target Lock: 9)
+30% Cover Burst (Target Lock: 4)
 
 Voco:
-0% Metal Shred
-9% Metal Strike
-1% Metal Shot
-18% Metal Grasp
-27% Metal Dash
-3% Hellraising Shot
-11% Hellraising Grasp
-15% Abyssal Strike
-10% Abyssal Shot
+5% Metal Shot
+15% Metal Drive
+14% Metal Grasp
+21% Metal Dash
+12% Hellraising Shot
+8% Hellraising Grasp
+17% Abyssal Strike
+3% Abyssal Shot
 4% Abyssal Grasp
 
 
-Ottavia: Cover Drive (Target Lock: 9)
-Voco: Metal Grasp
+Ottavia: Cover Shooter (Target Lock: 3)
+Voco: Metal Shot
 
-Priorities:  1 | 5
+Priorities:  -1 | 2
 Voco is active
 Voco moves:
 
@@ -67,21 +66,10 @@ Voco moves:
 ....zz.
 
 Voco hits
-Voco moves Ottavia:
-
-..OV...
-....zz.
-
 Ottavia has 1 soak
-Ottavia takes 1 damage (now at 19 life)
-Ottavia moves:
-
-...V.O.
-....zz.
-
+Ottavia takes 2 damage (now at 18 life)
 Ottavia hits
-Voco has 1 soak
-Voco takes 3 damage (now at 17 life)
+Voco takes 5 damage (now at 15 life)
 Voco is stunned
 
 Beat 2
@@ -89,663 +77,356 @@ Beat 2
 
 Ottavia
 -------
-life: 19
-discard 1: Cover Drive
-discard 2: Cybernetic Strike
-special action
+Life: 18
+Discard 1: Cover Shooter
+Discard 2: Cybernetic Strike
+Special action available
 
 Voco
 ----
-life: 17
-discard 1: Metal Grasp
-discard 2: Thunderous Drive
-special action
+Life: 15
+Discard 1: Metal Shot
+Discard 2: Thunderous Shred
+Special action available
 
 
-...V.O.
-.....z.
+.O.V...
+....zz.
 
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 9): 0.11
 
 Ottavia:
-10% Snapback Shooter (Target Lock: 3)
-10% Snapback Shooter (Target Lock: 4)
-7% Snapback Shot (Target Lock: 9)
-11% Snapback Grasp (Target Lock: 9)
-14% Demolition Shot (Target Lock: 8)
-27% Demolition Shot (Target Lock: 9)
-18% Anti-Personnel Shooter (Target Lock: 7)
-2% Anti-Personnel Burst (Target Lock: 7)
+12% Snapback Shot (Target Lock: 7)
+2% Snapback Burst (Target Lock: 5)
+7% Snapback Grasp (Target Lock: 5)
+27% Snapback Grasp (Target Lock: 7)
+28% Snapback Grasp (Target Lock: 9)
+2% Demolition Shot (Target Lock: 3)
+16% Demolition Shot (Target Lock: 7)
+1% Demolition Drive (Target Lock: 5)
+5% Anti-Personnel Burst (Target Lock: 7)
 
 Voco:
-14% Monster Shred
-9% Monster Dash
-6% Hellraising Shred
-7% Hellraising Burst
-14% Hellraising Dash
-15% Abyssal Shred
-17% Abyssal Strike
-17% Abyssal Dash
+8% Monster Drive
+13% Hellraising Strike
+2% Hellraising Drive
+5% Hellraising Burst
+7% Hellraising Grasp
+21% Hellraising Dash
+4% Abyssal Strike
+25% Abyssal Grasp
+15% Abyssal Dash
 
 
-Ottavia: Demolition Shot (Target Lock: 9)
+Ottavia: Anti-Personnel Burst (Target Lock: 7)
 Voco: Hellraising Dash
 
-Priorities:  3 | 7
-Voco is active
-Voco moves:
+Ottavia acquires target lock
+Priorities:  0 | -3
+Ottavia is active
+Ottavia moves:
 
-..V..O.
-.....z.
-
-
-..V..O.
-...zzz.
+O..V...
+....zz.
 
 Voco moves:
 
-.....OV
-...zzz.
+O...V..
+....zz.
 
-Ottavia misses
+
+O...V..
+.zzzzz.
+
+Ottavia hits
+Voco has 1 soak
+Voco takes 5 damage (now at 10 life)
+Voco is stunned
+Ottavia moves:
+
+....V.O
+..zzzz.
+
 
 Beat 3
 -------
 
 Ottavia
 -------
-life: 19
-discard 1: Demolition Shot
-discard 2: Cover Drive
-special action
+Life: 18
+Discard 1: Anti-Personnel Burst
+Discard 2: Cover Shooter
+Special action available
 
 Voco
 ----
-life: 17
-discard 1: Hellraising Dash
-discard 2: Metal Grasp
-special action
+Life: 10
+Discard 1: Hellraising Dash
+Discard 2: Metal Shot
+Special action available
 
 
-.....OV
-...zzz.
+....V.O
+..zzzz.
+
+Unbeatable strategy for Ottavia: Snapback Grasp (Target Lock: 5): 0.78
+
 
 Ottavia:
-4% Snapback Burst (Target Lock: 3)
-3% Anti-Personnel Dash (Target Lock: 0)
-3% Anti-Personnel Dash (Target Lock: 1)
-3% Anti-Personnel Dash (Target Lock: 2)
-3% Anti-Personnel Dash (Target Lock: 3)
-3% Anti-Personnel Dash (Target Lock: 4)
-31% Cybernetic Shooter (Target Lock: 3)
-35% Cybernetic Shooter (Target Lock: 4)
-17% Cybernetic Strike (Target Lock: 4)
+14% Snapback Strike (Target Lock: 3)
+23% Snapback Strike (Target Lock: 4)
+58% Snapback Grasp (Target Lock: 5)
+5% Cybernetic Drive (Target Lock: 4)
 
 Voco:
-28% Monster Drive
-26% Abyssal Shred
-21% Thunderous Shred
-6% Thunderous Strike
-19% Thunderous Shot
+48% Monster Shred
+23% Monster Strike
+15% Monster Grasp
+13% Thunderous Grasp
 
 
-Ottavia: Cybernetic Shooter (Target Lock: 3)
-Voco: Monster Drive
+Ottavia: Snapback Strike (Target Lock: 4)
+Voco: Monster Strike
 
-Ottavia acquires target lock
-Priorities:  2 | -7
+Priorities:  3 | 2
 Ottavia is active
 Ottavia hits
 Voco has 1 soak
-Voco takes 3 damage (now at 14 life)
-Voco is stunned
+Voco takes 3 damage (now at 7 life)
+Voco misses
 
 Beat 4
 -------
 
 Ottavia
 -------
-life: 19
-discard 1: Cybernetic Shooter
-discard 2: Demolition Shot
-special action
+Life: 18
+Discard 1: Snapback Strike
+Discard 2: Anti-Personnel Burst
+Special action available
 
 Voco
 ----
-life: 14
-discard 1: Monster Drive
-discard 2: Hellraising Dash
-special action
+Life: 7
+Discard 1: Monster Strike
+Discard 2: Hellraising Dash
+Special action available
 
 
-.....OV
-...z.z.
+....V.O
+..zzz..
+
+Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 5): 2.49
+Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: 5): 1.46
+
 
 Ottavia:
-9% Cover Strike (Target Lock: 5)
-4% Cover Burst (Target Lock: 1)
-23% Cover Burst (Target Lock: 2)
-22% Cover Burst (Target Lock: 3)
-26% Cover Burst (Target Lock: 4)
-17% Cover Burst (Target Lock: 5)
+80% Demolition Shooter (Target Lock: 5)
+1% Demolition Grasp (Target Lock: 0)
+1% Demolition Grasp (Target Lock: 1)
+1% Demolition Grasp (Target Lock: 2)
+1% Demolition Grasp (Target Lock: 4)
+1% Demolition Grasp (Target Lock: 5)
+4% Cybernetic Shooter (Target Lock: 4)
+1% Cybernetic Shooter (Target Lock: 5)
+12% Cybernetic Drive (Target Lock: 5)
 
 Voco:
-17% Metal Shred
-21% Metal Burst
-16% Metal Grasp
-24% Abyssal Strike
-17% Abyssal Shot
-5% Thunderous Grasp
+1% Metal Shot
+1% Metal Grasp
+9% Abyssal Drive
+1% Abyssal Burst
+88% Special Pulse
 
 
-Ottavia: Cover Strike (Target Lock: 5)
-Voco: Abyssal Shot
+Ottavia: Demolition Shooter (Target Lock: 5)
+Voco: Special Pulse
 
-Priorities:  0 | 2
+Pulse:
+
+O.....V
+..zzz..
+
+
+Beat 4
+-------
+
+Ottavia
+-------
+Life: 18
+Discard 1: Demolition Shooter
+Discard 2: Snapback Strike
+Special action available
+
+Voco
+----
+Life: 7
+Discard 1: Monster Strike
+Discard 2: Hellraising Dash
+
+
+O.....V
+..zzz..
+
+Unbeatable strategy for Ottavia: Anti-Personnel Drive (Target Lock: 4): 5.60
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 1): 0.08
+
+
+Ottavia:
+15% Anti-Personnel Shot (Target Lock: 4)
+68% Anti-Personnel Drive (Target Lock: 4)
+17% Anti-Personnel Drive (Target Lock: 5)
+
+Voco:
+9% Metal Shot
+12% Metal Drive
+72% Metal Grasp
+6% Abyssal Drive
+
+
+Ottavia: Anti-Personnel Drive (Target Lock: 4)
+Voco: Metal Grasp
+
+Priorities:  3 | 5
 Voco is active
+Voco moves:
+
+O...V..
+..zzz..
+
+
+O...V..
+..zzzzz
+
 Voco misses
+Ottavia moves:
 
-.....OV
-zzzz.z.
+.O..V..
+..zzzzz
 
-Ottavia misses
+Ottavia hits
+Voco has 1 soak
+Voco takes 5 damage (now at 2 life)
+Voco is stunned
+Ottavia moves:
+
+....VO.
+...zzzz
+
 
 Beat 5
 -------
 
 Ottavia
 -------
-life: 19
-discard 1: Cover Strike
-discard 2: Cybernetic Shooter
-special action
+Life: 18
+Discard 1: Anti-Personnel Drive
+Discard 2: Demolition Shooter
+Special action available
 
 Voco
 ----
-life: 14
-discard 1: Abyssal Shot
-discard 2: Monster Drive
-special action
+Life: 2
+Discard 1: Metal Grasp
+Discard 2: Monster Strike
 
 
-.....OV
-zzzz.z.
+....VO.
+...zzzz
+
 
 Ottavia:
-12% Demolition Shot (Target Lock: 4)
-8% Demolition Shot (Target Lock: 5)
-19% Demolition Shot (Target Lock: 9)
-0% Demolition Drive (Target Lock: 5)
-28% Demolition Grasp (Target Lock: 9)
-2% Anti-Personnel Dash (Target Lock: -1)
-2% Anti-Personnel Dash (Target Lock: 1)
-2% Anti-Personnel Dash (Target Lock: 2)
-2% Anti-Personnel Dash (Target Lock: 3)
-2% Anti-Personnel Dash (Target Lock: 4)
-2% Anti-Personnel Dash (Target Lock: 5)
-2% Anti-Personnel Dash (Target Lock: 7)
-18% Anti-Personnel Dash (Target Lock: 9)
+21% Cover Shot (Target Lock: 2)
+11% Cover Burst (Target Lock: 7)
+16% Cybernetic Strike (Target Lock: 9)
+6% Cybernetic Shot (Target Lock: 2)
+26% Cybernetic Shot (Target Lock: 7)
+1% Cybernetic Shot (Target Lock: 9)
+5% Cybernetic Burst (Target Lock: 2)
+14% Cybernetic Burst (Target Lock: 4)
 
 Voco:
-18% Metal Shred
-25% Metal Strike
-14% Metal Grasp
-1% Metal Dash
-23% Thunderous Strike
-18% Thunderous Burst
-1% Thunderous Dash
+14% Hellraising Drive
+4% Hellraising Burst
+11% Hellraising Dash
+4% Abyssal Shred
+19% Abyssal Dash
+0% Thunderous Shred
+3% Thunderous Shot
+45% Thunderous Burst
 
 
-Ottavia: Anti-Personnel Dash (Target Lock: 9)
-Voco: Thunderous Burst
+Ottavia: Cybernetic Shot (Target Lock: 7)
+Voco: Hellraising Dash
 
-Priorities:  8 | 1
+Ottavia acquires target lock
+Priorities:  2 | -3
 Ottavia is active
 Voco moves:
 
 ...V.O.
-zzzz.zz
+...zzzz
 
-Voco moves:
+Ottavia hits
+Voco has 2 soak
+Voco takes 1 damage (now at 1 life)
+Ottavia moves Voco:
 
-.V...O.
-zzzz.zz
+.....OV
+...z.z.
 
-Ottavia moves:
-
-.VO....
-zzzz.zz
-
-Voco misses
+Voco is stunned
 
 Beat 6
 -------
 
 Ottavia
 -------
-life: 19
-discard 1: Anti-Personnel Dash
-discard 2: Cover Strike
-special action
+Life: 18
+Discard 1: Cybernetic Shot
+Discard 2: Anti-Personnel Drive
+Special action available
 
 Voco
 ----
-life: 14
-discard 1: Thunderous Burst
-discard 2: Abyssal Shot
-special action
+Life: 1
+Discard 1: Hellraising Dash
+Discard 2: Metal Grasp
 
 
-.VO....
-zzzz.zz
+.....OV
+...z.z.
+
 
 Ottavia:
-4% Demolition Shooter (Target Lock: 4)
-15% Demolition Shooter (Target Lock: 5)
-26% Demolition Drive (Target Lock: 5)
-49% Demolition Drive (Target Lock: 9)
-6% Demolition Burst (Target Lock: 8)
+2% Snapback Burst (Target Lock: 3)
+27% Demolition Shooter (Target Lock: 3)
+38% Demolition Shooter (Target Lock: 4)
+6% Cover Burst (Target Lock: 0)
+10% Cover Burst (Target Lock: 1)
+13% Cover Burst (Target Lock: 2)
+3% Cover Burst (Target Lock: 4)
 
 Voco:
-29% Monster Strike
-17% Monster Dash
-18% Metal Drive
-21% Metal Grasp
-14% Metal Dash
+25% Monster Drive
+27% Abyssal Shred
+2% Thunderous Shred
+38% Thunderous Strike
+8% Thunderous Drive
 
 
-Ottavia: Demolition Drive (Target Lock: 9)
-Voco: Metal Dash
+Ottavia: Demolition Shooter (Target Lock: 3)
+Voco: Thunderous Strike
 
 Ottavia acquires target lock
-Priorities:  5 | -1
+Priorities:  3 | -7
 Ottavia is active
-Ottavia moves:
+Voco moves:
 
-OV.....
-zzzz.zz
+...V.O.
+...z.zz
 
 Ottavia hits
 Voco has 1 soak
-Voco takes 2 damage (now at 12 life)
-Voco is stunned
-Ottavia moves:
-
-.V..O..
-z.zz.zz
-
-
-Beat 7
--------
-
-Ottavia
--------
-life: 19
-discard 1: Demolition Drive
-discard 2: Anti-Personnel Dash
-special action
-
-Voco
-----
-life: 12
-discard 1: Metal Dash
-discard 2: Thunderous Burst
-special action
-
-
-.V..O..
-z.zz.zz
-
-Ottavia:
-50% Snapback Strike (Target Lock: 4)
-6% Cover Shooter (Target Lock: 3)
-14% Cover Burst (Target Lock: 1)
-28% Cover Burst (Target Lock: 3)
-2% Cover Grasp (Target Lock: 3)
-
-Voco:
-22% Monster Shot
-23% Monster Drive
-14% Monster Grasp
-4% Hellraising Grasp
-37% Abyssal Shot
-
-
-Ottavia: Snapback Strike (Target Lock: 4)
-Voco: Abyssal Shot
-
-Priorities:  3 | 2
-Ottavia is active
-Ottavia hits
-Voco has 2 soak
-Voco takes 2 damage (now at 10 life)
-Ottavia moves:
-
-.V....O
-z.z...z
-
-Voco hits
-Ottavia takes 3 damage (now at 16 life)
-
-.V....O
-z.z.zzz
-
-
-Beat 8
--------
-
-Ottavia
--------
-life: 16
-discard 1: Snapback Strike
-discard 2: Demolition Drive
-special action
-
-Voco
-----
-life: 10
-discard 1: Abyssal Shot
-discard 2: Metal Dash
-special action
-
-
-.V....O
-z.z.zzz
-
-Ottavia:
-20% Anti-Personnel Shooter (Target Lock: 2)
-22% Anti-Personnel Shooter (Target Lock: 4)
-52% Cover Shooter (Target Lock: 3)
-6% Cover Shooter (Target Lock: 4)
-
-Voco:
-24% Monster Drive
-38% Hellraising Shred
-1% Thunderous Strike
-38% Thunderous Drive
-
-
-Ottavia: Anti-Personnel Shooter (Target Lock: 2)
-Voco: Thunderous Drive
-
-Priorities:  1 | 4
-Voco is active
-Voco moves:
-
-...V..O
-zzz.zzz
-
-Voco moves:
-
-....V.O
-zzz.zzz
-
-Voco hits
-Ottavia is stunned
-Ottavia takes 2 damage (now at 14 life)
-Ottavia is stunned
-Ottavia moves:
-
-...OV..
-zzz.zzz
-
-
-Beat 9
--------
-
-Ottavia
--------
-life: 14
-discard 1: Anti-Personnel Shooter
-discard 2: Snapback Strike
-special action
-
-Voco
-----
-life: 10
-discard 1: Thunderous Drive
-discard 2: Abyssal Shot
-special action
-
-
-...OV..
-zzz.zzz
-
-Ottavia:
-38% Demolition Drive (Target Lock: 5)
-25% Demolition Drive (Target Lock: 9)
-11% Demolition Burst (Target Lock: 8)
-8% Cover Grasp (Target Lock: 2)
-17% Cybernetic Shot (Target Lock: 3)
-1% Cybernetic Shot (Target Lock: 8)
-
-Voco:
-26% Monster Strike
-12% Monster Dash
-8% Metal Strike
-18% Metal Burst
-19% Metal Grasp
-17% Metal Dash
-
-
-Ottavia: Demolition Drive (Target Lock: 5)
-Voco: Monster Strike
-
-Priorities:  5 | 2
-Ottavia is active
-Ottavia moves:
-
-....VO.
-zzz.zzz
-
-Ottavia hits
-Voco has 2 soak
-Voco takes 1 damage (now at 9 life)
-Ottavia moves:
-
-.O..V..
-zzz..z.
-
-Voco moves:
-
-.O.V...
-zzz..z.
-
-Voco misses
-
-Beat 10
--------
-
-Ottavia
--------
-life: 14
-discard 1: Demolition Drive
-discard 2: Anti-Personnel Shooter
-special action
-
-Voco
-----
-life: 9
-discard 1: Monster Strike
-discard 2: Thunderous Drive
-special action
-
-
-.O.V...
-zzz..z.
-
-Ottavia:
-21% Snapback Shot (Target Lock: 4)
-0% Snapback Burst (Target Lock: 4)
-6% Snapback Dash (Target Lock: 4)
-56% Snapback Dash (Target Lock: 9)
-8% Cover Burst (Target Lock: 2)
-6% Cover Burst (Target Lock: 4)
-3% Cover Burst (Target Lock: 5)
-
-Voco:
-20% Metal Shred
-27% Metal Shot
-31% Metal Grasp
-11% Metal Dash
-2% Abyssal Shot
-0% Abyssal Grasp
-9% Abyssal Dash
-
-
-Ottavia: Cover Burst (Target Lock: 5)
-Voco: Metal Shred
-
-Priorities:  -2 | 4
-Voco is active
-Ottavia moves:
-
-O..V...
-zzz..z.
-
-Voco moves:
-
-OV.....
-zzz..z.
-
-
-OV.....
-zzzz.z.
-
-Voco hits
-Ottavia takes 1 damage (now at 13 life)
-Ottavia misses
-Ottavia loses 1 life (now at 12)
-
-Beat 11
--------
-
-Ottavia
--------
-life: 12
-discard 1: Cover Burst
-discard 2: Demolition Drive
-special action
-
-Voco
-----
-life: 9
-discard 1: Metal Shred
-discard 2: Monster Strike
-special action
-
-
-OV.....
-.zzz.z.
-
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 2): 0.42
-
-Ottavia:
-29% Cybernetic Shooter (Target Lock: 3)
-33% Cybernetic Shot (Target Lock: 2)
-38% Cybernetic Shot (Target Lock: 7)
-
-Voco:
-42% Hellraising Drive
-28% Hellraising Grasp
-30% Hellraising Dash
-
-
-Ottavia: Cybernetic Shot (Target Lock: 7)
-Voco: Hellraising Drive
-
-Priorities:  2 | 2
-Clash!
-
-Ottavia:
-50% Cybernetic Shooter (Target Lock: 7)
-50% Cybernetic Strike (Target Lock: 7)
-
-Voco:
-50% Hellraising Shot
-50% Hellraising Grasp
-
-
-Ottavia: Cybernetic Strike (Target Lock: 7)
-Voco: Hellraising Grasp
-
-Priorities:  3 | 3
-Clash!
-
-Ottavia:
-100% Cybernetic Shooter (Target Lock: 7)
-
-Voco:
-100% Hellraising Shot
-
-
-Ottavia: Cybernetic Shooter (Target Lock: 7)
-Voco: Hellraising Shot
-
-Priorities:  2 | 0
-Ottavia is active
-Voco moves:
-
-O.V....
-.zzz.z.
-
-Ottavia hits
-Voco has 1 soak
-Voco takes 3 damage (now at 6 life)
-Ottavia moves Voco:
-
-O....V.
-..zz.z.
-
-Voco is stunned
-
-Beat 12
--------
-
-Ottavia
--------
-life: 12
-discard 1: Cybernetic Shooter
-discard 2: Cover Burst
-special action
-
-Voco
-----
-life: 6
-discard 1: Hellraising Shot
-discard 2: Metal Shred
-special action
-
-
-O....V.
-..zz.z.
-
-Ottavia:
-16% Snapback Shot (Target Lock: 4)
-16% Snapback Drive (Target Lock: 5)
-29% Anti-Personnel Shot (Target Lock: 3)
-9% Anti-Personnel Shot (Target Lock: 4)
-14% Anti-Personnel Shot (Target Lock: 5)
-14% Anti-Personnel Drive (Target Lock: 4)
-1% Anti-Personnel Dash (Target Lock: 3)
-
-Voco:
-20% Monster Dash
-18% Abyssal Strike
-18% Abyssal Drive
-14% Abyssal Burst
-20% Abyssal Grasp
-9% Abyssal Dash
-1% Thunderous Drive
-
-
-Ottavia: Anti-Personnel Shot (Target Lock: 4)
-Voco: Abyssal Drive
-
-Ottavia acquires target lock
-Priorities:  1 | -6
-Ottavia is active
-Ottavia hits
-Voco takes 6 damage (now at 0 life)
+Voco takes 3 damage (now at 0 life)
 OTTAVIA WINS!
-total_time: 28
+total_time: 14

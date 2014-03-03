@@ -11,50 +11,54 @@ Beat 1
 
 Kajia
 -----
-life: 20
-discard 1: Stinging Strike
-discard 2: Swarming Burst
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 20
+Discard 1: Stinging Strike
+Discard 2: Swarming Burst
+Special action available
+0 insects on Zaamassal's discard 1
+0 insects on Zaamassal's discard 2
 
 Zaamassal
 ---------
-life: 20
-discard 1: Malicious Grasp
-discard 2: Sinuous Burst
-special action
+Life: 20
+Discard 1: Malicious Grasp
+Discard 2: Sinuous Burst
+Special action available
 Active paradigm: None
 
 
 .K...Z.
 
-Unbeatable strategy for Zaamassal: Sturdy Shot: -1.63
-Unbeatable strategy for Zaamassal: Warped Paradigm Shift: -0.64
+Unbeatable strategy for Zaamassal: Sturdy Shot: -1.26
+Unbeatable strategy for Zaamassal: Warped Paradigm Shift: -1.00
+
 
 Kajia:
-58% Burrowing Dash
-21% Parasitic Dash
-5% Biting Mandibles
-16% Biting Drive
+39% Burrowing Dash
+34% Parasitic Dash
+2% Biting Shot
+25% Biting Drive
 
 Zaamassal:
-67% Sturdy Shot
-8% Sturdy Drive
-22% Warped Paradigm Shift
-3% Warped Strike
+40% Sturdy Shot
+6% Sturdy Drive
+39% Warped Paradigm Shift
+15% Warped Strike
 
 
-Kajia: Burrowing Dash
+Kajia: Biting Drive
 Zaamassal: Sturdy Shot
 
-Priorities:  8 | 2
+Priorities:  3 | 2
 Kajia is active
 Kajia moves:
 
-K....Z.
+...K.Z.
 
-Zaamassal misses
+Kajia hits
+Zaamassal takes 2 damage (now at 18 life)
+Zaamassal hits
+Kajia takes 3 damage (now at 17 life)
 Zaamassal assumes the Paradigm of Resilience
 
 Beat 2
@@ -62,68 +66,62 @@ Beat 2
 
 Kajia
 -----
-life: 20
-discard 1: Burrowing Dash
-discard 2: Stinging Strike
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 17
+Discard 1: Biting Drive
+Discard 2: Stinging Strike
+Special action available
+0 insects on Zaamassal's discard 1
+0 insects on Zaamassal's discard 2
 
 Zaamassal
 ---------
-life: 20
-discard 1: Sturdy Shot
-discard 2: Malicious Grasp
-special action
+Life: 18
+Discard 1: Sturdy Shot
+Discard 2: Malicious Grasp
+Special action available
 Active paradigm: Resilience
 
 
-K....Z.
+...K.Z.
 
-Unbeatable strategy for Zaamassal: Warped Burst: -0.47
+Unbeatable strategy for Zaamassal: Warped Drive: -0.65
+
 
 Kajia:
-76% Swarming Grasp
-19% Parasitic Shot
-5% Biting Drive
+6% Parasitic Mandibles
+3% Parasitic Burst
+91% Parasitic Dash
 
 Zaamassal:
-35% Urgent Paradigm Shift
-7% Warped Strike
-58% Warped Burst
+12% Sinuous Drive
+15% Warped Strike
+74% Warped Drive
 
 
-Kajia: Parasitic Shot
-Zaamassal: Warped Burst
+Kajia: Parasitic Dash
+Zaamassal: Warped Drive
 
-Priorities:  1 | 1
-Clash!
-
-Kajia:
-46% Parasitic Mandibles
-54% Parasitic Drive
-
-Zaamassal:
-46% Warped Paradigm Shift
-54% Warped Strike
-
-
-Kajia: Parasitic Mandibles
-Zaamassal: Warped Paradigm Shift
-
-Priorities:  2 | 3
-Zaamassal is active
-Zaamassal moves:
-
-K.....Z
-
+Priorities:  8 | 4
+Kajia is active
 Kajia moves Zaamassal:
 
-K..Z...
+.Z.K...
 
-Zaamassal hits
-Kajia takes 3 damage (now at 17 life)
-Kajia is stunned
+Kajia places 1 insect token on Zaamassal's attack pair
+(Current insects: 1 / 0 / 0)
+Zaamassal moves:
+
+Z..K...
+
+Kajia moves:
+
+Z.....K
+
+Zaamassal moves:
+
+..Z...K
+
+Zaamassal misses
 Zaamassal assumes the Paradigm of Distortion
 
 Beat 3
@@ -131,605 +129,228 @@ Beat 3
 
 Kajia
 -----
-life: 17
-discard 1: Parasitic Mandibles
-discard 2: Burrowing Dash
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 17
+Discard 1: Parasitic Dash
+Discard 2: Biting Drive
+Special action available
+1 insects on Zaamassal's discard 1
+0 insects on Zaamassal's discard 2
 
 Zaamassal
 ---------
-life: 20
-discard 1: Warped Paradigm Shift
-discard 2: Sturdy Shot
-special action
+Life: 18
+Discard 1: Warped Drive
+Discard 2: Sturdy Shot
+Special action available
 Active paradigm: Distortion
 
 
-K..Z...
+..Z...K
 
-Unbeatable strategy for Zaamassal: Sinuous Strike: -0.29
-Unbeatable strategy for Zaamassal: Urgent Burst: -1.90
+Unbeatable strategy for Zaamassal: Urgent Strike: -0.70
+
 
 Kajia:
-61% Stinging Drive
-27% Biting Drive
-12% Biting Grasp
+7% Burrowing Strike
+1% Burrowing Shot
+1% Burrowing Grasp
+91% Special Pulse
 
 Zaamassal:
-10% Malicious Burst
-31% Sinuous Strike
-59% Urgent Burst
+6% Urgent Paradigm Shift
+38% Urgent Strike
+47% Urgent Burst
+9% Special Pulse
 
 
-Kajia: Biting Drive
-Zaamassal: Urgent Burst
+Kajia: Special Pulse
+Zaamassal: Urgent Strike
 
-Priorities:  3 | 3
-Clash!
+Pulse:
+
+ZK.....
+
+
+Beat 3
+-------
+
+Kajia
+-----
+Life: 17
+Discard 1: Parasitic Dash
+Discard 2: Biting Drive
+0 insects on Zaamassal's discard 1
+1 insects on Zaamassal's discard 2
+
+Zaamassal
+---------
+Life: 18
+Discard 1: Urgent Strike
+Discard 2: Warped Drive
+Special action available
+Active paradigm: Distortion
+
+
+ZK.....
+
+Unbeatable strategy for Zaamassal: Malicious Dash: -0.22
+Unbeatable strategy for Zaamassal: Sinuous Dash: -2.89
+Unbeatable strategy for Zaamassal: Sturdy Dash: -0.42
+
 
 Kajia:
-49% Biting Strike
-51% Biting Grasp
+63% Burrowing Mandibles
+17% Burrowing Burst
+3% Swarming Mandibles
+17% Swarming Strike
 
 Zaamassal:
-100% Urgent Dash
+6% Sinuous Shot
+10% Sinuous Grasp
+83% Sinuous Dash
+1% Sturdy Grasp
 
 
-Kajia: Biting Grasp
-Zaamassal: Urgent Dash
+Kajia: Burrowing Burst
+Zaamassal: Sinuous Dash
 
-Priorities:  4 | 11
+Kajia gets +1 power
+Kajia gets +1 priority
+Priorities:  1 | 10
 Zaamassal is active
+Kajia moves:
+
+Z..K...
+
+Zaamassal assumes the Paradigm of Fluidity
 Zaamassal moves:
 
-K.....Z
+..ZK...
 
+Kajia moves Zaamassal:
+
+...KZ..
+
+Kajia places 1 insect token on Zaamassal's attack pair
+(Current insects: 1 / 0 / 1)
 Kajia misses
+Zaamassal moves:
+
+...K.Z.
+
+Zaamassal moves:
+
+...K..Z
+
+Zaamassal loses 1 life (now at 17)
 
 Beat 4
 -------
 
 Kajia
 -----
-life: 17
-discard 1: Biting Grasp
-discard 2: Parasitic Mandibles
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 17
+Discard 1: Burrowing Burst
+Discard 2: Parasitic Dash
+1 insects on Zaamassal's discard 1
+0 insects on Zaamassal's discard 2
 
 Zaamassal
 ---------
-life: 20
-discard 1: Urgent Dash
-discard 2: Warped Paradigm Shift
-special action
-Active paradigm: Distortion
+Life: 17
+Discard 1: Sinuous Dash
+Discard 2: Urgent Strike
+Special action available
+Active paradigm: Fluidity
 
 
-K.....Z
+...K..Z
 
-Unbeatable strategy for Zaamassal: Malicious Drive: -0.11
-Unbeatable strategy for Zaamassal: Sinuous Strike: -0.09
-Unbeatable strategy for Zaamassal: Sinuous Shot: -0.26
-Unbeatable strategy for Zaamassal: Sinuous Drive: -0.15
-Unbeatable strategy for Zaamassal: Sinuous Grasp: -0.09
-Unbeatable strategy for Zaamassal: Sturdy Strike: -0.15
-Unbeatable strategy for Zaamassal: Sturdy Shot: -0.20
-Unbeatable strategy for Zaamassal: Sturdy Drive: -0.29
-Unbeatable strategy for Zaamassal: Sturdy Burst: -0.15
-Unbeatable strategy for Zaamassal: Sturdy Grasp: -0.15
 
 Kajia:
-55% Burrowing Strike
-1% Burrowing Drive
-44% Stinging Strike
+15% Swarming Drive
+11% Stinging Mandibles
+27% Stinging Drive
+47% Biting Mandibles
 
 Zaamassal:
-14% Sinuous Burst
-38% Sturdy Shot
-49% Sturdy Drive
+16% Malicious Shot
+26% Sturdy Paradigm Shift
+36% Sturdy Grasp
+21% Warped Grasp
 
 
-Kajia: Stinging Strike
-Zaamassal: Sturdy Shot
+Kajia: Stinging Mandibles
+Zaamassal: Sturdy Grasp
 
-Priorities:  4 | 2
-Kajia is active
-Kajia misses
+Priorities:  4 | 5
+Zaamassal is active
+Zaamassal moves:
+
+...K.Z.
+
 Zaamassal misses
+Kajia moves:
+
+....KZ.
+
+Kajia hits
+Kajia places 1 insect token on Zaamassal's attack pair
+(Current insects: 1 / 1 / 0)
+Zaamassal takes 3 damage (now at 14 life)
+Kajia moves:
+
+.....ZK
+
+Zaamassal moves:
+
+....Z.K
+
 
 Beat 5
 -------
 
 Kajia
 -----
-life: 17
-discard 1: Stinging Strike
-discard 2: Biting Grasp
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 17
+Discard 1: Stinging Mandibles
+Discard 2: Burrowing Burst
+1 insects on Zaamassal's discard 1
+1 insects on Zaamassal's discard 2
 
 Zaamassal
 ---------
-life: 20
-discard 1: Sturdy Shot
-discard 2: Urgent Dash
-special action
-Active paradigm: Distortion
-
-
-K.....Z
-
-Unbeatable strategy for Zaamassal: Malicious Burst: -0.02
-Unbeatable strategy for Zaamassal: Warped Burst: -0.02
-
-Kajia:
-9% Burrowing Mandibles
-69% Burrowing Shot
-22% Burrowing Drive
-0% Swarming Mandibles
-1% Parasitic Dash
-
-Zaamassal:
-19% Sinuous Paradigm Shift
-4% Sinuous Strike
-41% Sinuous Drive
-22% Sinuous Burst
-4% Sinuous Grasp
-10% Warped Burst
-
-
-Kajia: Burrowing Shot
-Zaamassal: Sinuous Paradigm Shift
-
-Priorities:  1 | 4
-Zaamassal is active
-Zaamassal misses
-Kajia moves Zaamassal:
-
-K....Z.
-
-Kajia misses
-Zaamassal moves:
-
-K...Z..
-
-
-Beat 6
--------
-
-Kajia
------
-life: 17
-discard 1: Burrowing Shot
-discard 2: Stinging Strike
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
-
-Zaamassal
----------
-life: 20
-discard 1: Sinuous Paradigm Shift
-discard 2: Sturdy Shot
-special action
-Active paradigm: Distortion
-
-
-K...Z..
-
-Kajia:
-39% Parasitic Drive
-33% Parasitic Dash
-15% Biting Mandibles
-13% Biting Drive
-
-Zaamassal:
-8% Malicious Drive
-50% Malicious Dash
-31% Urgent Strike
-12% Warped Burst
-
-
-Kajia: Parasitic Drive
-Zaamassal: Warped Burst
-
-Priorities:  3 | 1
-Kajia is active
-Kajia moves Zaamassal:
-
-KZ.....
-
-Zaamassal moves:
-
-K.Z....
-
-Zaamassal moves:
-
-K...Z..
-
-Kajia moves:
-
-..K.Z..
-
-Kajia misses
-Zaamassal hits
-Kajia takes 3 damage (now at 14 life)
-Kajia is stunned
-
-Beat 7
--------
-
-Kajia
------
-life: 14
-discard 1: Parasitic Drive
-discard 2: Burrowing Shot
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
-
-Zaamassal
----------
-life: 20
-discard 1: Warped Burst
-discard 2: Sinuous Paradigm Shift
-special action
-Active paradigm: Distortion
-
-
-..K.Z..
-
-Kajia:
-21% Swarming Mandibles
-1% Swarming Strike
-78% Swarming Dash
-1% Biting Mandibles
-
-Zaamassal:
-43% Malicious Dash
-8% Urgent Strike
-2% Urgent Grasp
-47% Sturdy Drive
-
-
-Kajia: Swarming Dash
-Zaamassal: Urgent Grasp
-
-Priorities:  8 | 7
-Kajia is active
-Kajia moves:
-
-....ZK.
-
-Zaamassal misses
-Zaamassal assumes the Paradigm of Haste
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 0)
-
-Beat 8
--------
-
-Kajia
------
-life: 14
-discard 1: Swarming Dash
-discard 2: Parasitic Drive
-special action
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
-
-Zaamassal
----------
-life: 20
-discard 1: Urgent Grasp
-discard 2: Warped Burst
-special action
-Active paradigm: Haste
-
-
-....ZK.
-
-Kajia:
-4% Stinging Mandibles
-62% Stinging Strike
-2% Biting Mandibles
-32% Biting Shot
-
-Zaamassal:
-5% Malicious Strike
-20% Sinuous Dash
-41% Sturdy Strike
-34% Sturdy Dash
-
-
-Kajia: Stinging Strike
-Zaamassal: Sturdy Strike
-
-Priorities:  4 | 3
-Kajia is active
-Kajia hits
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 0)
-Zaamassal takes 4 damage (now at 16 life)
-Zaamassal hits
-Kajia takes 4 damage (now at 10 life)
-
-Beat 9
--------
-
-Kajia
------
-life: 10
-discard 1: Stinging Strike
-discard 2: Swarming Dash
-special action
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
-
-Zaamassal
----------
-life: 16
-discard 1: Sturdy Strike
-discard 2: Urgent Grasp
-special action
-Active paradigm: Haste
-
-
-....ZK.
-
-Unbeatable strategy for Kajia: Biting Drive: 2.16
-
-Kajia:
-26% Burrowing Drive
-74% Biting Drive
-
-Zaamassal:
-83% Sinuous Dash
-17% Warped Dash
-
-
-Kajia: Biting Drive
-Zaamassal: Sinuous Dash
-
-Zaamassal gets -2 power
-Priorities:  3 | 10
-Zaamassal is active
-Zaamassal assumes the Paradigm of Fluidity
-Zaamassal moves:
-
-.....KZ
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 1)
-Kajia misses
-Zaamassal moves:
-
-....ZK.
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 2 / 1 / 1)
-Zaamassal moves:
-
-.Z...K.
-
-Zaamassal loses 1 life (now at 15)
-
-Beat 10
--------
-
-Kajia
------
-life: 10
-discard 1: Biting Drive
-discard 2: Stinging Strike
-special action
-2 insects on opponent's discard 1
-1 insects on opponent's discard 2
-
-Zaamassal
----------
-life: 15
-discard 1: Sinuous Dash
-discard 2: Sturdy Strike
-special action
+Life: 14
+Discard 1: Sturdy Grasp
+Discard 2: Sinuous Dash
+Special action available
 Active paradigm: Fluidity
 
 
-.Z...K.
+....Z.K
 
-Unbeatable strategy for Zaamassal: Warped Drive: -0.36
-Unbeatable strategy for Zaamassal: Warped Grasp: -0.10
+Unbeatable strategy for Zaamassal: Warped Strike: -1.15
+
 
 Kajia:
-0% Burrowing Shot
-100% Swarming Dash
-0% Parasitic Grasp
+62% Swarming Dash
+35% Biting Drive
+3% Biting Grasp
 
 Zaamassal:
-31% Malicious Grasp
-32% Urgent Paradigm Shift
-38% Warped Paradigm Shift
+30% Warped Paradigm Shift
+60% Warped Strike
+10% Warped Burst
 
 
 Kajia: Swarming Dash
-Zaamassal: Urgent Paradigm Shift
+Zaamassal: Warped Strike
 
-Priorities:  8 | 5
+Priorities:  8 | 3
 Kajia is active
-Kajia moves:
-
-.ZK....
-
 Zaamassal moves:
 
-Z.K....
-
-Zaamassal misses
-Zaamassal assumes the Paradigm of Pain
-Zaamassal loses 1 life (now at 14)
-
-Beat 11
--------
-
-Kajia
------
-life: 10
-discard 1: Swarming Dash
-discard 2: Biting Drive
-special action
-0 insects on opponent's discard 1
-2 insects on opponent's discard 2
-
-Zaamassal
----------
-life: 14
-discard 1: Urgent Paradigm Shift
-discard 2: Sinuous Dash
-special action
-Active paradigm: Pain
-
-
-Z.K....
-
-Unbeatable strategy for Zaamassal: Sturdy Shot: -1.08
-
-Kajia:
-5% Burrowing Burst
-49% Parasitic Strike
-20% Parasitic Burst
-20% Stinging Mandibles
-5% Stinging Burst
-
-Zaamassal:
-21% Malicious Shot
-15% Sturdy Shot
-57% Sturdy Drive
-4% Warped Drive
-3% Warped Burst
-
-
-Kajia: Parasitic Strike
-Zaamassal: Sturdy Drive
-
-Priorities:  2 | 4
-Zaamassal is active
-Zaamassal moves:
-
-.ZK....
-
-Zaamassal hits
-Kajia takes 3 damage (now at 7 life)
-Kajia loses 2 life (now at 5)
-Zaamassal assumes the Paradigm of Resilience
-Kajia hits
-Zaamassal takes 4 damage (now at 10 life)
-Zaamassal loses 2 life (now at 8)
-
-Beat 12
--------
-
-Kajia
------
-life: 5
-discard 1: Parasitic Strike
-discard 2: Swarming Dash
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
-
-Zaamassal
----------
-life: 8
-discard 1: Sturdy Drive
-discard 2: Urgent Paradigm Shift
-special action
-Active paradigm: Resilience
-
-
-.ZK....
-
-Kajia:
-26% Burrowing Drive
-15% Burrowing Grasp
-10% Stinging Shot
-29% Stinging Burst
-6% Biting Shot
-15% Biting Grasp
-
-Zaamassal:
-11% Malicious Strike
-47% Malicious Shot
-8% Sinuous Strike
-1% Sinuous Shot
-18% Warped Strike
-16% Warped Grasp
-
-
-Kajia: Stinging Burst
-Zaamassal: Malicious Shot
-
-Priorities:  2 | 1
-Kajia is active
-Kajia moves:
-
-.Z..K..
-
-Kajia hits
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 0)
-Zaamassal takes 3 damage (now at 5 life)
-Zaamassal hits
-Kajia takes 4 damage (now at 1 life)
-Kajia is stunned
-
-Beat 13
--------
-
-Kajia
------
-life: 1
-discard 1: Stinging Burst
-discard 2: Parasitic Strike
-special action
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
-
-Zaamassal
----------
-life: 5
-discard 1: Malicious Shot
-discard 2: Sturdy Drive
-special action
-Active paradigm: Resilience
-
-
-.Z..K..
-
-Unbeatable strategy for Kajia: Swarming Dash: 0.26
-
-Kajia:
-17% Burrowing Drive
-83% Swarming Dash
-
-Zaamassal:
-70% Sinuous Dash
-30% Urgent Paradigm Shift
-
-
-Kajia: Swarming Dash
-Zaamassal: Sinuous Dash
-
-Priorities:  8 | 10
-Zaamassal is active
-Zaamassal assumes the Paradigm of Fluidity
-Zaamassal moves:
-
-...ZK..
+...Z..K
 
 Kajia moves:
 
@@ -737,78 +358,615 @@ Kajia moves:
 
 Zaamassal moves:
 
+..K.Z..
+
+Zaamassal misses
+Zaamassal moves:
+
+..KZ...
+
+Zaamassal loses 1 life (now at 13)
+
+Beat 6
+-------
+
+Kajia
+-----
+Life: 17
+Discard 1: Swarming Dash
+Discard 2: Stinging Mandibles
+0 insects on Zaamassal's discard 1
+1 insects on Zaamassal's discard 2
+
+Zaamassal
+---------
+Life: 13
+Discard 1: Warped Strike
+Discard 2: Sturdy Grasp
+Special action available
+Active paradigm: Fluidity
+
+
+..KZ...
+
+
+Kajia:
+5% Burrowing Strike
+9% Burrowing Shot
+18% Burrowing Drive
+19% Biting Strike
+48% Biting Shot
+
+Zaamassal:
+24% Malicious Shot
+10% Malicious Burst
+46% Malicious Dash
+20% Sinuous Drive
+0% Sinuous Burst
+
+
+Kajia: Biting Strike
+Zaamassal: Malicious Dash
+
+Zaamassal gets -1 power
+Priorities:  2 | 8
+Zaamassal is active
+Zaamassal moves:
+
 ..K...Z
 
+Kajia misses
+Zaamassal loses 1 life (now at 12)
+
+Beat 7
+-------
+
+Kajia
+-----
+Life: 17
+Discard 1: Biting Strike
+Discard 2: Swarming Dash
+0 insects on Zaamassal's discard 1
+0 insects on Zaamassal's discard 2
+
+Zaamassal
+---------
+Life: 12
+Discard 1: Malicious Dash
+Discard 2: Warped Strike
+Special action available
+Active paradigm: Fluidity
+
+
+..K...Z
+
+Unbeatable strategy for Zaamassal: Sinuous Paradigm Shift: -0.63
+Unbeatable strategy for Zaamassal: Sinuous Drive: -0.79
+Unbeatable strategy for Zaamassal: Sturdy Paradigm Shift: -0.64
+Unbeatable strategy for Zaamassal: Sturdy Drive: -0.79
+
+
+Kajia:
+15% Burrowing Shot
+80% Burrowing Burst
+4% Burrowing Grasp
+1% Stinging Shot
+
+Zaamassal:
+65% Sinuous Drive
+4% Sinuous Burst
+6% Urgent Paradigm Shift
+25% Urgent Shot
+
+
+Kajia: Burrowing Burst
+Zaamassal: Urgent Shot
+
+Priorities:  0 | 4
+Zaamassal is active
+Kajia moves:
+
+K.....Z
+
+Zaamassal moves:
+
+K....Z.
+
+Zaamassal hits
+Kajia takes 2 damage (now at 15 life)
+Kajia is stunned
+Zaamassal moves:
+
+K.....Z
+
+
+Beat 8
+-------
+
+Kajia
+-----
+Life: 15
+Discard 1: Burrowing Burst
+Discard 2: Biting Strike
+0 insects on Zaamassal's discard 1
+0 insects on Zaamassal's discard 2
+
+Zaamassal
+---------
+Life: 12
+Discard 1: Urgent Shot
+Discard 2: Malicious Dash
+Special action available
+Active paradigm: Fluidity
+
+
+K.....Z
+
+Unbeatable strategy for Zaamassal: Sinuous Paradigm Shift: -0.00
+Unbeatable strategy for Zaamassal: Warped Paradigm Shift: -1.79
+Unbeatable strategy for Zaamassal: Warped Drive: -1.83
+Unbeatable strategy for Zaamassal: Warped Burst: -1.99
+
+
+Kajia:
+75% Swarming Grasp
+25% Parasitic Mandibles
+
+Zaamassal:
+65% Warped Drive
+35% Warped Burst
+
+
+Kajia: Swarming Grasp
+Zaamassal: Warped Drive
+
+Priorities:  4 | 4
+Clash!
+
+
+Kajia: Swarming Shot
+Zaamassal: Warped Paradigm Shift
+
+Priorities:  1 | 3
+Zaamassal is active
+Zaamassal moves:
+
+K....Z.
+
+Zaamassal hits
+Kajia takes 3 damage (now at 12 life)
+Kajia is stunned
+Zaamassal moves:
+
+K.....Z
+
+
+Beat 9
+-------
+
+Kajia
+-----
+Life: 12
+Discard 1: Swarming Shot
+Discard 2: Burrowing Burst
+0 insects on Zaamassal's discard 1
+0 insects on Zaamassal's discard 2
+
+Zaamassal
+---------
+Life: 12
+Discard 1: Warped Paradigm Shift
+Discard 2: Urgent Shot
+Special action available
+Active paradigm: Fluidity
+
+
+K.....Z
+
+
+Kajia:
+1% Stinging Mandibles
+54% Stinging Strike
+21% Stinging Grasp
+20% Stinging Dash
+4% Biting Mandibles
+
+Zaamassal:
+3% Malicious Drive
+4% Malicious Burst
+21% Sinuous Strike
+42% Sinuous Grasp
+29% Sturdy Drive
+
+
+Kajia: Stinging Grasp
+Zaamassal: Sinuous Grasp
+
+Priorities:  6 | 6
+Clash!
+
+
+Kajia: Stinging Dash
+Zaamassal: Sinuous Drive
+
+Priorities:  10 | 5
+Kajia is active
+Kajia moves:
+
+.K....Z
+
+Zaamassal moves:
+
+.K..Z..
+
+Zaamassal moves:
+
+.K.Z...
+
+Zaamassal misses
+Zaamassal moves:
+
+.K...Z.
+
+Zaamassal moves:
+
+.K....Z
+
+
+Beat 10
+-------
+
+Kajia
+-----
+Life: 12
+Discard 1: Stinging Dash
+Discard 2: Swarming Shot
+0 insects on Zaamassal's discard 1
+0 insects on Zaamassal's discard 2
+
+Zaamassal
+---------
+Life: 12
+Discard 1: Sinuous Drive
+Discard 2: Warped Paradigm Shift
+Special action available
+Active paradigm: Fluidity
+
+
+.K....Z
+
+
+Kajia:
+17% Burrowing Grasp
+5% Biting Mandibles
+78% Biting Burst
+
+Zaamassal:
+23% Malicious Shot
+75% Malicious Burst
+2% Malicious Grasp
+
+
+Kajia: Burrowing Grasp
+Zaamassal: Malicious Burst
+
+Priorities:  4 | 0
+Kajia is active
+Kajia misses
+Zaamassal moves:
+
+.K...Z.
+
+Zaamassal misses
+Zaamassal moves:
+
+.K....Z
+
+
+Beat 11
+-------
+
+Kajia
+-----
+Life: 12
+Discard 1: Burrowing Grasp
+Discard 2: Stinging Dash
+0 insects on Zaamassal's discard 1
+0 insects on Zaamassal's discard 2
+
+Zaamassal
+---------
+Life: 12
+Discard 1: Malicious Burst
+Discard 2: Sinuous Drive
+Special action available
+Active paradigm: Fluidity
+
+
+.K....Z
+
+Unbeatable strategy for Zaamassal: Warped Paradigm Shift: -0.17
+
+
+Kajia:
+2% Parasitic Drive
+37% Biting Mandibles
+0% Biting Strike
+61% Biting Drive
+
+Zaamassal:
+30% Sturdy Shot
+29% Warped Paradigm Shift
+12% Warped Strike
+29% Warped Shot
+
+
+Kajia: Biting Mandibles
+Zaamassal: Sturdy Shot
+
+Priorities:  2 | 2
+Clash!
+
+
+Kajia: Biting Shot
+Zaamassal: Sturdy Strike
+
+Priorities:  1 | 3
+Zaamassal is active
+Zaamassal moves:
+
+.K...Z.
+
+Zaamassal misses
+Kajia hits
+Zaamassal takes 2 damage (now at 10 life)
+Zaamassal moves:
+
+.K....Z
+
+
+Beat 12
+-------
+
+Kajia
+-----
+Life: 12
+Discard 1: Biting Shot
+Discard 2: Burrowing Grasp
+0 insects on Zaamassal's discard 1
+0 insects on Zaamassal's discard 2
+
+Zaamassal
+---------
+Life: 10
+Discard 1: Sturdy Strike
+Discard 2: Malicious Burst
+Special action available
+Active paradigm: Fluidity
+
+
+.K....Z
+
+Unbeatable strategy for Kajia: Parasitic Dash: 0.12
+
+
+Kajia:
+2% Swarming Mandibles
+7% Swarming Drive
+5% Swarming Dash
+86% Parasitic Dash
+
+Zaamassal:
+4% Sinuous Paradigm Shift
+51% Sinuous Grasp
+19% Warped Paradigm Shift
+25% Warped Shot
+
+
+Kajia: Parasitic Dash
+Zaamassal: Warped Shot
+
+Priorities:  8 | 2
+Kajia is active
+Kajia moves Zaamassal:
+
+.K.Z...
+
+Zaamassal moves:
+
+.K..Z..
+
+Kajia moves:
+
+....ZK.
+
+Zaamassal moves:
+
+...Z.K.
+
+Zaamassal misses
+Zaamassal moves:
+
+..Z..K.
+
+
+Beat 13
+-------
+
+Kajia
+-----
+Life: 12
+Discard 1: Parasitic Dash
+Discard 2: Biting Shot
+0 insects on Zaamassal's discard 1
+0 insects on Zaamassal's discard 2
+
+Zaamassal
+---------
+Life: 10
+Discard 1: Warped Shot
+Discard 2: Sturdy Strike
+Special action available
+Active paradigm: Fluidity
+
+
+..Z..K.
+
+Unbeatable strategy for Zaamassal: Urgent Paradigm Shift: -1.16
+Unbeatable strategy for Zaamassal: Urgent Burst: -0.46
+
+
+Kajia:
+9% Burrowing Strike
+45% Burrowing Burst
+46% Stinging Drive
+
+Zaamassal:
+7% Malicious Burst
+16% Sinuous Drive
+77% Urgent Paradigm Shift
+
+
+Kajia: Burrowing Burst
+Zaamassal: Urgent Paradigm Shift
+
+Priorities:  0 | 5
+Zaamassal is active
+Kajia moves:
+
+..Z...K
+
+Zaamassal hits
+Kajia takes 2 damage (now at 10 life)
+Kajia is stunned
+Zaamassal assumes the Paradigm of Distortion
 
 Beat 14
 -------
 
 Kajia
 -----
-life: 1
-discard 1: Swarming Dash
-discard 2: Stinging Burst
-special action
-0 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 10
+Discard 1: Burrowing Burst
+Discard 2: Parasitic Dash
+0 insects on Zaamassal's discard 1
+0 insects on Zaamassal's discard 2
 
 Zaamassal
 ---------
-life: 5
-discard 1: Sinuous Dash
-discard 2: Malicious Shot
-special action
-Active paradigm: Fluidity
+Life: 10
+Discard 1: Urgent Paradigm Shift
+Discard 2: Warped Shot
+Special action available
+Active paradigm: Distortion
 
 
-..K...Z
+..Z...K
 
-Unbeatable strategy for Zaamassal: Urgent Paradigm Shift: -6.00
-Unbeatable strategy for Zaamassal: Urgent Strike: -6.00
-Unbeatable strategy for Zaamassal: Urgent Drive: -6.00
-Unbeatable strategy for Zaamassal: Sturdy Paradigm Shift: -6.00
-Unbeatable strategy for Zaamassal: Sturdy Drive: -6.00
-Unbeatable strategy for Zaamassal: Sturdy Burst: -6.00
-Unbeatable strategy for Zaamassal: Warped Strike: -6.00
-Unbeatable strategy for Zaamassal: Warped Drive: -6.00
-Unbeatable strategy for Zaamassal: Warped Grasp: -6.00
+Unbeatable strategy for Zaamassal: Malicious Drive: -0.39
+Unbeatable strategy for Zaamassal: Sturdy Drive: -0.50
+Unbeatable strategy for Zaamassal: Sturdy Burst: -0.33
+
 
 Kajia:
-33% Biting Shot
-24% Biting Drive
-36% Biting Grasp
-7% Special Imago Emergence
+16% Swarming Grasp
+37% Biting Shot
+47% Biting Drive
 
 Zaamassal:
-2% Urgent Strike
-24% Sturdy Paradigm Shift
-36% Sturdy Drive
-33% Sturdy Burst
-2% Warped Strike
-2% Warped Grasp
+13% Malicious Drive
+58% Sturdy Drive
+30% Sturdy Burst
 
 
-Kajia: Biting Drive
+Kajia: Biting Shot
 Zaamassal: Sturdy Burst
 
-Zaamassal gets -1 power
-Priorities:  3 | 1
-Kajia is active
+Priorities:  1 | 1
+Clash!
+
+
+Kajia: Biting Mandibles
+Zaamassal: Sturdy Dash
+
+Priorities:  2 | 9
+Zaamassal is active
+Zaamassal moves:
+
+Z.....K
+
 Kajia moves:
 
-...K..Z
+Z....K.
 
-Kajia hits
-Zaamassal takes 2 damage (now at 3 life)
+Kajia misses
+Kajia moves:
+
+Z...K..
+
+
+Beat 15
+-------
+
+Kajia
+-----
+Life: 10
+Discard 1: Biting Mandibles
+Discard 2: Burrowing Burst
+0 insects on Zaamassal's discard 1
+0 insects on Zaamassal's discard 2
+
+Zaamassal
+---------
+Life: 10
+Discard 1: Sturdy Dash
+Discard 2: Urgent Paradigm Shift
+Special action available
+Active paradigm: Distortion
+
+
+Z...K..
+
+
+Kajia:
+100% Parasitic Dash
+
+Zaamassal:
+6% Malicious Strike
+15% Malicious Shot
+3% Malicious Drive
+5% Malicious Burst
+4% Malicious Grasp
+4% Sinuous Strike
+3% Sinuous Shot
+14% Sinuous Drive
+4% Sinuous Burst
+5% Sinuous Grasp
+11% Warped Strike
+7% Warped Shot
+12% Warped Drive
+3% Warped Burst
+4% Warped Grasp
+
+
+Kajia: Parasitic Dash
+Zaamassal: Malicious Burst
+
+Priorities:  8 | 0
+Kajia is active
 Kajia moves Zaamassal:
 
-...KZ..
+...ZK..
 
 Zaamassal moves:
 
-...K.Z.
+.Z..K..
 
-Zaamassal hits
-Kajia takes 2 damage (now at 0 life)
-ZAAMASSAL WINS!
-total_time: 22
+Kajia moves:
+
+KZ.....
+
+Zaamassal misses
+Game goes to time
+THE GAME IS TIED!
+total_time: 68

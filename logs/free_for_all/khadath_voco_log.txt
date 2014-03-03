@@ -19,7 +19,7 @@ Special action available
 Voco
 ----
 Life: 20
-Discard 1: Thunderous Drive
+Discard 1: Thunderous Shred
 Discard 2: Monster Burst
 Special action available
 
@@ -30,28 +30,21 @@ Special action available
 
 
 Khadath:
-52% Teleport Strike
-32% Teleport Dash
-16% Blight Drive
+31% Teleport Strike
+68% Teleport Dash
+1% Blight Drive
 
 Voco:
-57% Hellraising Shot
-43% Abyssal Strike
-0% Abyssal Grasp
+48% Hellraising Shot
+41% Abyssal Shot
+11% Abyssal Drive
 
 
-Khadath: Teleport Strike
+Khadath: Teleport Dash
 Voco: Hellraising Shot
 
-Priorities:  0 | 0
-Clash!
-
-
-Khadath: Teleport Shot
-Voco: Hellraising Shred
-
-Priorities:  -1 | 2
-Voco is active
+Priorities:  6 | 0
+Khadath is active
 Voco moves:
 
 .K....V
@@ -63,8 +56,15 @@ Voco moves:
 
 ..zzzz.
 
-Voco misses
-Khadath misses
+Khadath moves:
+
+K.....V
+
+..zzzz.
+
+Voco hits
+Khadath takes 2 damage (now at 18 life)
+Khadath is stunned
 Khadath moves:
 
 .....KV
@@ -77,23 +77,23 @@ Khadath moves trap:
 ......t
 ..zzzz.
 
-Khadath loses 1 life (now at 19)
+Khadath loses 1 life (now at 17)
 
 Beat 2
 -------
 
 Khadath
 -------
-Life: 19
-Discard 1: Teleport Shot
+Life: 17
+Discard 1: Teleport Dash
 Discard 2: Evacuation Grasp
 Special action available
 
 Voco
 ----
 Life: 20
-Discard 1: Hellraising Shred
-Discard 2: Thunderous Drive
+Discard 1: Hellraising Shot
+Discard 2: Thunderous Shred
 Special action available
 
 
@@ -103,24 +103,24 @@ Special action available
 
 
 Khadath:
-1% Hunter's Strike
-8% Hunter's Drive
-70% Blight Strike
-21% Special Pulse
+14% Hunter's Snare
+18% Hunter's Drive
+62% Blight Strike
+6% Blight Burst
 
 Voco:
-7% Monster Dash
-23% Metal Strike
-2% Metal Dash
-68% Special Pulse
+8% Monster Strike
+6% Metal Strike
+13% Metal Dash
+73% Special Pulse
 
 
-Khadath: Special Pulse
-Voco: Metal Strike
+Khadath: Hunter's Drive
+Voco: Special Pulse
 
 Pulse:
 
-.....KV
+V.....K
 ......t
 ..zzz..
 
@@ -130,65 +130,61 @@ Beat 2
 
 Khadath
 -------
-Life: 19
-Discard 1: Teleport Shot
-Discard 2: Evacuation Grasp
+Life: 17
+Discard 1: Hunter's Drive
+Discard 2: Teleport Dash
+Special action available
 
 Voco
 ----
 Life: 20
-Discard 1: Metal Strike
-Discard 2: Hellraising Shred
-Special action available
+Discard 1: Hellraising Shot
+Discard 2: Thunderous Shred
 
 
-.....KV
+V.....K
 ......t
 ..zzz..
 
-Unbeatable strategy for Voco: Thunderous Dash: -0.56
-
 
 Khadath:
-4% Hunter's Snare
-25% Hunter's Drive
-5% Blight Strike
-65% Lure Strike
+31% Blight Burst
+19% Lure Strike
+50% Lure Grasp
 
 Voco:
-2% Abyssal Dash
-0% Thunderous Burst
-37% Thunderous Dash
-61% Special Pulse
+56% Monster Strike
+35% Abyssal Drive
+9% Abyssal Burst
+
+
+Khadath: Lure Grasp
+Voco: Abyssal Drive
+
+Priorities:  4 | 4
+Clash!
 
 
 Khadath: Lure Strike
-Voco: Thunderous Dash
+Voco: Abyssal Grasp
 
-Voco gets -3 priority
-Priorities:  2 | 6
+Priorities:  2 | 5
 Voco is active
-Voco moves:
+Voco misses
 
-...V.K.
+V.....K
 ......t
-..zzz.z
-
-Voco moves:
-
-V....K.
-......t
-..zzz.z
+..zzzz.
 
 Khadath hits
 Khadath moves Voco:
 
-....VK.
+.....VK
 ......t
-..zzz.z
+..zzzz.
 
-Voco has 2 soak
-Voco takes 1 damage (now at 19 life)
+Voco has 1 soak
+Voco takes 2 damage (now at 18 life)
 Voco is stunned
 
 Beat 3
@@ -196,183 +192,108 @@ Beat 3
 
 Khadath
 -------
-Life: 19
+Life: 17
 Discard 1: Lure Strike
-Discard 2: Teleport Shot
+Discard 2: Hunter's Drive
+Special action available
 
 Voco
 ----
-Life: 19
-Discard 1: Thunderous Dash
-Discard 2: Metal Strike
-Special action available
+Life: 18
+Discard 1: Abyssal Grasp
+Discard 2: Hellraising Shot
 
 
-....VK.
+.....VK
 ......t
-..zz...
+..zzz..
 
 
 Khadath:
-63% Hunter's Drive
-37% Blight Drive
+1% Teleport Shot
+51% Teleport Dash
+42% Blight Shot
+6% Blight Burst
 
 Voco:
-21% Hellraising Burst
-79% Special Pulse
+19% Monster Shred
+33% Monster Strike
+25% Monster Drive
+23% Metal Burst
 
 
-Khadath: Hunter's Drive
-Voco: Hellraising Burst
+Khadath: Teleport Dash
+Voco: Monster Strike
 
-Priorities:  4 | -1
+Voco gets -1 priority
+Priorities:  6 | 1
 Khadath is active
-Voco moves:
-
-...V.K.
-......t
-..zz...
-
-
-...V.K.
-......t
-..zzz..
-
-Voco moves:
-
-.V...K.
-......t
-..zzz..
-
 Khadath moves:
 
-.V.K...
+...K.V.
 ......t
 ..zzz..
 
-Khadath misses
+Voco moves:
+
+...KV..
+......t
+..zzz..
+
 Voco misses
+Khadath moves:
+
+....VK.
+......t
+..zzz..
+
+Khadath moves trap:
+
+....VK.
+....t..
+..zzz..
+
 
 Beat 4
 -------
 
 Khadath
 -------
-Life: 19
-Discard 1: Hunter's Drive
-Discard 2: Lure Strike
-
-Voco
-----
-Life: 19
-Discard 1: Hellraising Burst
-Discard 2: Thunderous Dash
-Special action available
-
-
-.V.K...
-......t
-..zzz..
-
-Unbeatable strategy for Khadath: Teleport Dash: 1.28
-Unbeatable strategy for Khadath: Blight Dash: 0.43
-
-
-Khadath:
-3% Teleport Shot
-97% Teleport Dash
-
-Voco:
-63% Metal Drive
-37% Abyssal Shot
-
-
-Khadath: Teleport Dash
-Voco: Metal Drive
-
-Priorities:  6 | 4
-Khadath is active
-Khadath moves:
-
-KV.....
-......t
-..zzz..
-
-Voco misses
-Khadath moves:
-
-.V...K.
-......t
-..zzz..
-
-Khadath moves trap:
-
-.V...K.
-.t.....
-..zzz..
-
-
-Beat 5
--------
-
-Khadath
--------
-Life: 19
+Life: 17
 Discard 1: Teleport Dash
-Discard 2: Hunter's Drive
+Discard 2: Lure Strike
+Special action available
 
 Voco
 ----
-Life: 19
-Discard 1: Metal Drive
-Discard 2: Hellraising Burst
-Special action available
+Life: 18
+Discard 1: Monster Strike
+Discard 2: Abyssal Grasp
 
 
-.V...K.
-.t.....
+....VK.
+....t..
 ..zzz..
-
-Unbeatable strategy for Voco: Monster Dash: -1.22
-Unbeatable strategy for Voco: Thunderous Dash: -0.12
 
 
 Khadath:
-19% Evacuation Snare
-17% Evacuation Grasp
-12% Blight Shot
-3% Blight Grasp
-22% Lure Strike
-27% Lure Grasp
+5% Hunter's Drive
+18% Hunter's Grasp
+77% Blight Shot
 
 Voco:
-15% Monster Strike
-3% Monster Shot
-66% Monster Dash
-10% Abyssal Strike
-4% Thunderous Shot
-3% Thunderous Grasp
+66% Metal Dash
+33% Hellraising Burst
+1% Hellraising Dash
 
 
-Khadath: Lure Strike
-Voco: Monster Dash
+Khadath: Blight Shot
+Voco: Metal Dash
 
 Voco gets -3 priority
-Priorities:  2 | 5
+Priorities:  2 | 6
 Voco is active
-Voco moves:
-
-..V..K.
-.t.....
-..zzz..
-
-Voco moves:
-
-...V.K.
-.t.....
-..zzz..
-
-Voco moves:
+Khadath moves trap:
 
 ....VK.
 .t.....
@@ -384,623 +305,176 @@ Voco moves:
 .t.....
 ..zzz..
 
-Voco moves:
+Khadath misses
 
-...V.K.
+Beat 5
+-------
+
+Khadath
+-------
+Life: 17
+Discard 1: Blight Shot
+Discard 2: Teleport Dash
+Special action available
+
+Voco
+----
+Life: 18
+Discard 1: Metal Dash
+Discard 2: Monster Strike
+
+
+.....KV
 .t.....
 ..zzz..
 
-Khadath misses
+Unbeatable strategy for Voco: Thunderous Grasp: -0.68
+
+
+Khadath:
+18% Evacuation Strike
+35% Evacuation Grasp
+47% Lure Strike
+
+Voco:
+28% Hellraising Drive
+17% Thunderous Shot
+55% Thunderous Grasp
+
+
+Khadath: Evacuation Strike
+Voco: Hellraising Drive
+
+Priorities:  3 | 2
+Khadath is active
+Khadath moves trap:
+
+.....KV
+.....t.
+..zzz..
+
+Khadath moves:
+
+....K.V
+.....t.
+..zzz..
+
+
+....K.V
+.....t.
+..zzzz.
+
+Khadath hits
+Voco has 2 soak
+Voco takes 2 damage (now at 16 life)
+Voco is stunned
 
 Beat 6
 -------
 
 Khadath
 -------
-Life: 19
-Discard 1: Lure Strike
-Discard 2: Teleport Dash
+Life: 17
+Discard 1: Evacuation Strike
+Discard 2: Blight Shot
+Special action available
 
 Voco
 ----
-Life: 19
-Discard 1: Monster Dash
-Discard 2: Metal Drive
-Special action available
+Life: 16
+Discard 1: Hellraising Drive
+Discard 2: Metal Dash
 
 
-...V.K.
-.t.....
-..zzz..
+....K.V
+.....t.
+..z.z..
+
+Unbeatable strategy for Khadath: Hunter's Drive: 0.23
+Unbeatable strategy for Khadath: Teleport Snare: 1.28
 
 
 Khadath:
-22% Hunter's Snare
-73% Blight Shot
-4% Blight Drive
+33% Hunter's Drive
+14% Hunter's Burst
+1% Teleport Snare
+22% Teleport Drive
+30% Teleport Burst
 
 Voco:
-7% Hellraising Strike
-43% Hellraising Burst
-50% Special Pulse
+10% Monster Shred
+48% Monster Strike
+6% Monster Shot
+25% Monster Burst
+12% Abyssal Grasp
 
 
-Khadath: Blight Shot
-Voco: Hellraising Burst
+Khadath: Teleport Drive
+Voco: Monster Strike
 
-Priorities:  2 | -1
-Khadath is active
-Khadath moves trap:
+Voco gets -1 priority
+Priorities:  1 | 1
+Clash!
 
-...V.K.
-t......
-..zzz..
 
+Khadath: Teleport Snare
+Voco: Monster Shot
+
+Voco gets -1 priority
+Priorities:  -2 | 0
+Voco is active
 Voco moves:
 
-.V...K.
-t......
-..zzz..
+....KV.
+.....t.
+..z.z..
 
-Voco moves:
-
-V....K.
-t......
-..zzz..
-
-
-V....K.
-t......
-.zzzz..
-
+Voco hits
+Khadath takes 3 damage (now at 14 life)
 Khadath hits
-Voco has 1 soak
-Voco takes 2 damage (now at 17 life)
+Voco takes 4 damage (now at 12 life)
 Voco is stunned
+Khadath moves:
+
+.....VK
+.....t.
+..z.z..
+
 
 Beat 7
 -------
 
 Khadath
 -------
-Life: 19
-Discard 1: Blight Shot
-Discard 2: Lure Strike
-
-Voco
-----
-Life: 17
-Discard 1: Hellraising Burst
-Discard 2: Monster Dash
-Special action available
-
-
-V....K.
-t......
-.zzz...
-
-
-Khadath:
-9% Hunter's Snare
-9% Teleport Snare
-63% Teleport Dash
-18% Evacuation Snare
-
-Voco:
-11% Abyssal Shred
-47% Abyssal Strike
-23% Abyssal Shot
-18% Thunderous Shot
-
-
-Khadath: Teleport Dash
-Voco: Abyssal Shot
-
-Voco gets -3 priority
-Priorities:  6 | -1
-Khadath is active
-Khadath moves:
-
-V.K....
-t......
-.zzz...
-
-Voco misses
-
-V.K....
-t......
-.zzzzzz
-
-Khadath moves:
-
-VK.....
-t......
-.zzzzzz
-
-Khadath moves trap:
-
-VK.....
-.t.....
-.zzzzzz
-
-
-Beat 8
--------
-
-Khadath
--------
-Life: 19
-Discard 1: Teleport Dash
-Discard 2: Blight Shot
-
-Voco
-----
-Life: 17
-Discard 1: Abyssal Shot
-Discard 2: Hellraising Burst
-Special action available
-
-
-VK.....
-.t.....
-.zzzzzz
-
-Unbeatable strategy for Voco: Monster Dash: -0.47
-
-
-Khadath:
-16% Hunter's Drive
-38% Hunter's Grasp
-2% Evacuation Drive
-6% Lure Strike
-1% Lure Drive
-37% Lure Grasp
-
-Voco:
-50% Monster Dash
-3% Metal Drive
-16% Metal Dash
-11% Thunderous Strike
-4% Thunderous Grasp
-15% Thunderous Dash
-
-
-Khadath: Evacuation Drive
-Voco: Thunderous Grasp
-
-Voco gets -1 priority
-Priorities:  4 | 4
-Clash!
-
-
-Khadath: Evacuation Grasp
-Voco: Thunderous Dash
-
-Voco gets -1 priority
-Priorities:  5 | 8
-Voco is active
-Voco moves:
-
-.K.V...
-.t.....
-zzzzzzz
-
-Khadath moves trap:
-
-.K.V...
-.t.....
-zzzzzzz
-
-Khadath moves:
-
-K..V...
-.t.....
-zzzzzzz
-
-Voco moves:
-
-K.....V
-.t.....
-zzzzzzz
-
-Khadath misses
-
-Beat 9
--------
-
-Khadath
--------
-Life: 19
-Discard 1: Evacuation Grasp
-Discard 2: Teleport Dash
-
-Voco
-----
-Life: 17
-Discard 1: Thunderous Dash
-Discard 2: Abyssal Shot
-Special action available
-
-
-K.....V
-.t.....
-zzzzzzz
-
-
-Khadath:
-23% Hunter's Snare
-77% Lure Strike
-
-Voco:
-46% Monster Strike
-54% Special Pulse
-
-
-Khadath: Lure Strike
-Voco: Monster Strike
-
-Priorities:  2 | 2
-Clash!
-
-
-Khadath: Lure Shot
-Voco: Monster Drive
-
-Priorities:  1 | 3
-Voco is active
-Voco moves:
-
-K....V.
-.t.....
-zzzzzzz
-
-Voco moves:
-
-K...V..
-.t.....
-zzzzzzz
-
-Voco moves:
-
-K..V...
-.t.....
-zzzzzzz
-
-Voco moves:
-
-KV.....
-.t.....
-zzzzzzz
-
-Voco hits
-Khadath takes 3 damage (now at 16 life)
-Khadath is stunned
-
-Beat 10
--------
-
-Khadath
--------
-Life: 16
-Discard 1: Lure Shot
-Discard 2: Evacuation Grasp
-
-Voco
-----
-Life: 17
-Discard 1: Monster Drive
-Discard 2: Thunderous Dash
-Special action available
-
-
-KV.....
-.t.....
-zzzzzzz
-
-
-Khadath:
-53% Hunter's Snare
-47% Teleport Strike
-
-Voco:
-9% Hellraising Burst
-91% Special Pulse
-
-
-Khadath: Hunter's Snare
-Voco: Special Pulse
-
-Pulse:
-
-.K....V
-.t.....
-zzzzzzz
-
-
-Beat 10
--------
-
-Khadath
--------
-Life: 16
-Discard 1: Hunter's Snare
-Discard 2: Lure Shot
-
-Voco
-----
-Life: 17
-Discard 1: Monster Drive
-Discard 2: Thunderous Dash
-
-
-.K....V
-.t.....
-zzzzzzz
-
-Unbeatable strategy for Khadath: Teleport Burst: 5.17
-Unbeatable strategy for Khadath: Teleport Dash: 5.19
-Unbeatable strategy for Khadath: Blight Dash: 0.61
-
-
-Khadath:
-0% Teleport Drive
-92% Teleport Dash
-8% Blight Drive
-
-Voco:
-4% Metal Shot
-8% Abyssal Shot
-88% Abyssal Burst
-
-
-Khadath: Teleport Dash
-Voco: Abyssal Burst
-
-Priorities:  6 | 1
-Khadath is active
-Khadath moves:
-
-K.....V
-.t.....
-zzzzzzz
-
-Voco misses
-Khadath moves:
-
-.....KV
-.t.....
-zzzzzzz
-
-Khadath moves trap:
-
-.....KV
-......t
-zzzzzzz
-
-
-Beat 11
--------
-
-Khadath
--------
-Life: 16
-Discard 1: Teleport Dash
-Discard 2: Hunter's Snare
-
-Voco
-----
-Life: 17
-Discard 1: Abyssal Burst
-Discard 2: Monster Drive
-
-
-.....KV
-......t
-zzzzzzz
-
-
-Khadath:
-46% Blight Burst
-14% Blight Grasp
-8% Lure Strike
-12% Lure Burst
-19% Lure Grasp
-
-Voco:
-8% Metal Shred
-30% Metal Shot
-21% Hellraising Shot
-1% Thunderous Grasp
-41% Thunderous Dash
-
-
-Khadath: Blight Burst
-Voco: Metal Shot
-
-Voco gets -3 priority
-Priorities:  1 | -1
-Khadath is active
-Khadath moves trap:
-
-.....KV
-...t...
-zzzzzzz
-
-Khadath moves:
-
-....K.V
-...t...
-zzzzzzz
-
-Khadath hits
-Voco has 2 soak
-Voco takes 1 damage (now at 16 life)
-Voco moves:
-
-...VK..
-...t...
-zzz.z.z
-
-
-...VK..
-...t...
-zzz.zzz
-
-Voco misses
-
-Beat 12
--------
-
-Khadath
--------
-Life: 16
-Discard 1: Blight Burst
-Discard 2: Teleport Dash
-
-Voco
-----
-Life: 16
-Discard 1: Metal Shot
-Discard 2: Abyssal Burst
-
-
-...VK..
-...t...
-zzz.zzz
-
-
-Khadath:
-31% Hunter's Drive
-38% Evacuation Shot
-2% Evacuation Drive
-29% Lure Grasp
-
-Voco:
-26% Monster Strike
-18% Monster Dash
-22% Hellraising Strike
-34% Thunderous Dash
-
-
-Khadath: Lure Grasp
-Voco: Thunderous Dash
-
-Voco gets -3 priority
-Priorities:  4 | 6
-Voco is active
-Voco moves:
-
-....K.V
-...t...
-zzzzzzz
-
-Voco moves:
-
-...VK..
-...t...
-zzzzzzz
-
-Khadath misses
-
-Beat 13
--------
-
-Khadath
--------
-Life: 16
-Discard 1: Lure Grasp
-Discard 2: Blight Burst
-
-Voco
-----
-Life: 16
-Discard 1: Thunderous Dash
-Discard 2: Metal Shot
-
-
-...VK..
-...t...
-zzzzzzz
-
-
-Khadath:
-8% Teleport Strike
-23% Teleport Shot
-59% Teleport Drive
-10% Evacuation Shot
-
-Voco:
-56% Monster Strike
-5% Monster Grasp
-21% Hellraising Burst
-18% Abyssal Shred
-
-
-Khadath: Teleport Drive
-Voco: Monster Strike
-
-Voco gets -3 priority
-Priorities:  1 | -1
-Khadath is active
-Khadath moves:
-
-..KV...
-...t...
-zzzzzzz
-
-Khadath hits
-Voco has 2 soak
-Voco takes 2 damage (now at 14 life)
-Voco moves:
-
-.VK....
-...t...
-z.z.zzz
-
-Voco hits
-Khadath takes 4 damage (now at 12 life)
-Khadath is stunned
-Khadath moves:
-
-.V.K...
-...t...
-z.z.zzz
-
-Khadath moves trap:
-
-.V.K...
-.t.....
-z.z.zzz
-
-
-Beat 14
--------
-
-Khadath
--------
-Life: 12
-Discard 1: Teleport Drive
-Discard 2: Lure Grasp
-
-Voco
-----
 Life: 14
-Discard 1: Monster Strike
-Discard 2: Thunderous Dash
+Discard 1: Teleport Snare
+Discard 2: Evacuation Strike
+Special action available
+
+Voco
+----
+Life: 12
+Discard 1: Monster Shot
+Discard 2: Hellraising Drive
 
 
-.V.K...
-.t.....
-z.z.zzz
+.....VK
+.....t.
+..z.z..
+
+Unbeatable strategy for Khadath: Hunter's Shot: 1.14
+Unbeatable strategy for Khadath: Blight Drive: 0.57
 
 
 Khadath:
-53% Hunter's Shot
-47% Blight Strike
+51% Hunter's Shot
+21% Blight Drive
+28% Blight Burst
 
 Voco:
-75% Metal Burst
-25% Hellraising Shot
+88% Metal Burst
+8% Metal Dash
+4% Abyssal Strike
 
 
 Khadath: Hunter's Shot
@@ -1013,84 +487,204 @@ Priorities:  4 | -2
 Khadath is active
 Voco moves:
 
-V..K...
-.t.....
-z.z.zzz
+...V..K
+.....t.
+..z.z..
 
 
-V..K...
-.t.....
-zzz.zzz
+...V..K
+.....t.
+..z.zz.
 
 Khadath hits
-Voco has 2 soak
-Voco takes 3 damage (now at 11 life)
+Voco has 1 soak
+Voco takes 4 damage (now at 8 life)
 Voco is stunned
 
-Beat 15
+Beat 8
 -------
 
 Khadath
 -------
-Life: 12
+Life: 14
 Discard 1: Hunter's Shot
-Discard 2: Teleport Drive
+Discard 2: Teleport Snare
+Special action available
 
 Voco
 ----
-Life: 11
+Life: 8
 Discard 1: Metal Burst
-Discard 2: Monster Strike
+Discard 2: Monster Shot
 
 
-V..K...
-.t.....
-zz...zz
+...V..K
+.....t.
+..z.z..
 
 
 Khadath:
-6% Evacuation Dash
-5% Blight Snare
-11% Blight Grasp
-5% Blight Dash
-5% Lure Strike
-3% Lure Burst
-57% Lure Grasp
-6% Lure Dash
+2% Blight Strike
+39% Blight Grasp
+59% Lure Strike
 
 Voco:
-29% Hellraising Shot
-14% Abyssal Grasp
-57% Thunderous Grasp
+19% Hellraising Shred
+17% Abyssal Strike
+64% Abyssal Grasp
 
 
-Khadath: Lure Grasp
-Voco: Thunderous Grasp
+Khadath: Blight Grasp
+Voco: Abyssal Grasp
 
-Voco gets -1 priority
-Priorities:  4 | 4
+Priorities:  5 | 5
 Clash!
 
 
-Khadath: Lure Dash
-Voco: Thunderous Drive
+Khadath: Blight Strike
+Voco: Abyssal Shred
+
+Priorities:  3 | 4
+Voco is active
+Khadath moves trap:
+
+...V..K
+....t..
+..z.z..
+
+Voco misses
+Khadath hits
+Voco takes 4 damage (now at 4 life)
+Voco is stunned
+
+Beat 9
+-------
+
+Khadath
+-------
+Life: 14
+Discard 1: Blight Strike
+Discard 2: Hunter's Shot
+Special action available
+
+Voco
+----
+Life: 4
+Discard 1: Abyssal Shred
+Discard 2: Metal Burst
+
+
+...V..K
+....t..
+..z.z..
+
+
+Khadath:
+20% Teleport Snare
+4% Teleport Drive
+6% Teleport Burst
+70% Lure Drive
+
+Voco:
+6% Monster Strike
+14% Monster Grasp
+71% Hellraising Shot
+8% Thunderous Grasp
+
+
+Khadath: Lure Drive
+Voco: Monster Grasp
 
 Voco gets -1 priority
-Priorities:  8 | 3
-Khadath is active
-Khadath moves:
+Priorities:  3 | 3
+Clash!
 
-V.K....
-.t.....
-zz...zz
+
+Khadath: Lure Snare
+Voco: Monster Strike
+
+Voco gets -1 priority
+Priorities:  0 | 1
+Voco is active
+Voco moves:
+
+....V.K
+....t..
+..z.z..
 
 Voco moves:
 
-.VK....
-.t.....
-zz...zz
+.....VK
+....t..
+..z.z..
 
-Voco misses
-Game goes to time
+Voco hits
+Khadath takes 4 damage (now at 10 life)
+Khadath hits
+Voco takes 2 damage (now at 2 life)
+
+Beat 10
+-------
+
+Khadath
+-------
+Life: 10
+Discard 1: Lure Snare
+Discard 2: Blight Strike
+Special action available
+
+Voco
+----
+Life: 2
+Discard 1: Monster Strike
+Discard 2: Abyssal Shred
+
+
+.....VK
+....t..
+..z.z..
+
+
+Khadath:
+4% Hunter's Shot
+27% Hunter's Drive
+43% Teleport Shot
+26% Evacuation Shot
+
+Voco:
+25% Hellraising Shot
+27% Hellraising Burst
+26% Hellraising Grasp
+22% Hellraising Dash
+
+
+Khadath: Teleport Shot
+Voco: Hellraising Grasp
+
+Voco gets -1 priority
+Priorities:  -1 | 2
+Voco is active
+Voco moves:
+
+....V.K
+....t..
+..z.z..
+
+
+....V.K
+....t..
+..z.zz.
+
+Voco hits
+Voco moves Khadath:
+
+....VK.
+....t..
+..z.zz.
+
+Khadath takes 1 damage (now at 9 life)
+Khadath hits
+Voco has 1 soak
+Voco takes 3 damage (now at 0 life)
 KHADATH WINS!
-total_time: 25
+total_time: 12

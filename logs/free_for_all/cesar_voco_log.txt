@@ -11,61 +11,108 @@ Beat 1
 
 Cesar
 -----
-life: 20
-discard 1: Fueled Strike
-discard 2: Unstoppable Grasp
-special action
+Life: 20
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Grasp
+Special action available
 Threat level: 0
 
 Voco
 ----
-life: 20
-discard 1: Thunderous Drive
-discard 2: Monster Burst
-special action
+Life: 20
+Discard 1: Thunderous Shred
+Discard 2: Monster Burst
+Special action available
 
 
 .C...V.
 
 
+
 Cesar:
-45% Bulwark Suppression
-44% Bulwark Shot
-11% Bulwark Drive
+24% Phalanx Shot
+37% Bulwark Suppression
+1% Bulwark Shot
+24% Bulwark Drive
+5% Bulwark Burst
+2% Bulwark Dash
+8% Inevitable Suppression
 
 Voco:
-18% Metal Strike
-55% Hellraising Shred
-27% Abyssal Strike
+11% Metal Strike
+9% Metal Shot
+7% Metal Dash
+6% Hellraising Strike
+1% Hellraising Drive
+5% Abyssal Strike
+61% Special Pulse
 
 
 Cesar: Bulwark Suppression
-Voco: Hellraising Shred
+Voco: Special Pulse
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 2
+Pulse:
+
+C.....V
+
+
+
+Beat 1
+-------
+
+Cesar
+-----
+Life: 20
+Discard 1: Bulwark Suppression
+Discard 2: Fueled Strike
+Special action available
+Threat level: 1
+
+Voco
+----
+Life: 20
+Discard 1: Thunderous Shred
+Discard 2: Monster Burst
+
+
+C.....V
+
+
+Unbeatable strategy for Voco: Hellraising Strike: -0.11
+Unbeatable strategy for Voco: Hellraising Grasp: -0.10
+
+
+Cesar:
+9% Phalanx Burst
+2% Unstoppable Shot
+27% Unstoppable Drive
+62% Special Pulse
+
+Voco:
+5% Hellraising Shot
+59% Abyssal Strike
+21% Abyssal Shot
+16% Abyssal Drive
+
+
+Cesar: Unstoppable Drive
+Voco: Abyssal Strike
+
+Cesar gains a Threat Level (current level: 2)
+Priorities:  2 | 3
 Voco is active
-Voco moves:
-
-.C....V
-
-
-
-.C....V
-..zzzz.
-
 Voco misses
-Cesar misses
+
+C.....V
+.zzz...
+
 Cesar moves:
 
 ..C...V
-..zzzz.
+.zzz...
 
-Cesar moves:
-
-.....CV
-..zzzz.
-
+Cesar misses
 Cesar loses 1 life (now at 19)
 
 Beat 2
@@ -73,164 +120,109 @@ Beat 2
 
 Cesar
 -----
-life: 19
-discard 1: Bulwark Suppression
-discard 2: Fueled Strike
-special action
-Threat level: 1
-
-Voco
-----
-life: 20
-discard 1: Hellraising Shred
-discard 2: Thunderous Drive
-special action
-
-
-.....CV
-..zzz..
-
-Unbeatable strategy for Voco: Monster Dash: -0.86
-Unbeatable strategy for Voco: Metal Dash: -0.72
-Unbeatable strategy for Voco: Abyssal Dash: -2.04
-
-Cesar:
-36% Unstoppable Shot
-37% Unstoppable Drive
-6% Unstoppable Burst
-21% Inevitable Dash
-
-Voco:
-1% Monster Strike
-57% Monster Dash
-35% Metal Dash
-8% Abyssal Dash
-
-
-Cesar: Unstoppable Drive
-Voco: Metal Dash
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 9
-Voco is active
-Voco moves:
-
-...V.C.
-..zzz..
-
-Cesar moves:
-
-..CV...
-..zzz..
-
-
-..CV...
-..zzzzz
-
-Voco moves:
-
-V.C....
-..zzzzz
-
-Cesar moves:
-
-VC.....
-..zzzzz
-
-Cesar misses
-
-Beat 3
--------
-
-Cesar
------
-life: 19
-discard 1: Unstoppable Drive
-discard 2: Bulwark Suppression
-special action
+Life: 19
+Discard 1: Unstoppable Drive
+Discard 2: Bulwark Suppression
+Special action available
 Threat level: 2
 
 Voco
 ----
-life: 20
-discard 1: Metal Dash
-discard 2: Hellraising Shred
-special action
+Life: 20
+Discard 1: Abyssal Strike
+Discard 2: Thunderous Shred
 
 
-VC.....
-..zzzzz
+..C...V
+.z.z...
+
 
 Cesar:
-13% Phalanx Strike
-51% Inevitable Shot
-36% Inevitable Burst
+87% Fueled Grasp
+13% Inevitable Shot
 
 Voco:
-10% Monster Drive
-21% Thunderous Shot
-68% Special Pulse
+61% Metal Dash
+39% Hellraising Burst
 
 
-Cesar: Phalanx Strike
-Voco: Special Pulse
+Cesar: Fueled Grasp
+Voco: Hellraising Burst
 
 Cesar gains a Threat Level (current level: 3)
-Pulse:
+Priorities:  4 | -1
+Cesar is active
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
 
-V.....C
-..zzzzz
+..C...V
+.z.zzz.
 
+Voco hits
+Cesar has 2 soak
+Cesar takes 0 damage (now at 19 life)
 
 Beat 3
 -------
 
 Cesar
 -----
-life: 19
-discard 1: Phalanx Strike
-discard 2: Unstoppable Drive
-special action
-Threat level: 3
+Life: 19
+Discard 1: Fueled Grasp
+Discard 2: Unstoppable Drive
+Special action available
+Threat level: 4
 
 Voco
 ----
-life: 20
-discard 1: Metal Dash
-discard 2: Hellraising Shred
+Life: 20
+Discard 1: Hellraising Burst
+Discard 2: Abyssal Strike
 
 
-V.....C
-..zzzzz
+..C...V
+.z.zzz.
 
-Unbeatable strategy for Cesar: Fueled Dash: 1.47
-Unbeatable strategy for Cesar: Bulwark Burst: 3.35
-Unbeatable strategy for Cesar: Bulwark Dash: 3.10
-Unbeatable strategy for Cesar: Inevitable Dash: 3.10
+Unbeatable strategy for Cesar: Phalanx Shot: 2.39
+Unbeatable strategy for Cesar: Bulwark Shot: 2.76
+Unbeatable strategy for Cesar: Bulwark Burst: 0.32
+
 
 Cesar:
-14% Fueled Suppression
-62% Bulwark Suppression
-24% Inevitable Suppression
+28% Phalanx Strike
+67% Bulwark Shot
+5% Inevitable Suppression
 
 Voco:
-39% Monster Burst
-35% Abyssal Shot
-26% Abyssal Burst
+13% Monster Shot
+67% Metal Shot
+21% Metal Dash
 
 
-Cesar: Bulwark Suppression
-Voco: Abyssal Shot
+Cesar: Bulwark Shot
+Voco: Metal Shot
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
+Cesar gains a Threat Level (current level: 0)
 Priorities:  0 | 2
 Voco is active
-Voco misses
+Voco moves:
+
+..C.V..
+.z.zzz.
+
+
+..C.V..
+.z.zzzz
+
+Voco hits
+Cesar takes 3 damage (now at 16 life)
+Cesar hits
+Voco has 2 soak
+Voco takes 1 damage (now at 19 life)
 Cesar moves:
 
-V..C...
-..zzzzz
+...CV..
+....zzz
 
 
 Beat 4
@@ -238,398 +230,646 @@ Beat 4
 
 Cesar
 -----
-life: 19
-discard 1: Bulwark Suppression
-discard 2: Phalanx Strike
-special action
-Threat level: 4
+Life: 16
+Discard 1: Bulwark Shot
+Discard 2: Fueled Grasp
+Special action available
+Threat level: 0
 
 Voco
 ----
-life: 20
-discard 1: Abyssal Shot
-discard 2: Metal Dash
+Life: 19
+Discard 1: Metal Shot
+Discard 2: Hellraising Burst
 
 
-V..C...
-..zzzzz
+...CV..
+....zzz
 
-Unbeatable strategy for Cesar: Unstoppable Dash: 0.42
+Unbeatable strategy for Voco: Abyssal Dash: -0.59
+
 
 Cesar:
-28% Unstoppable Shot
-8% Unstoppable Drive
-13% Fueled Shot
-11% Inevitable Shot
-39% Inevitable Drive
+35% Unstoppable Drive
+31% Unstoppable Burst
+10% Inevitable Drive
+24% Inevitable Dash
 
 Voco:
-26% Monster Grasp
-15% Hellraising Shred
-15% Hellraising Strike
-37% Thunderous Shred
-7% Thunderous Drive
+7% Monster Drive
+28% Abyssal Strike
+4% Abyssal Grasp
+61% Abyssal Dash
 
 
-Cesar: Unstoppable Shot
-Voco: Monster Grasp
+Cesar: Unstoppable Drive
+Voco: Abyssal Dash
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  0 | 4
+Cesar gains a Threat Level (current level: 1)
+Priorities:  2 | 9
 Voco is active
 Voco moves:
 
-.V.C...
-..zzzzz
+V..C...
+....zzz
 
 Cesar moves:
 
-CV.....
-..zzzzz
+VC.....
+....zzz
 
-Voco hits
-Cesar takes 2 damage (now at 17 life)
-Cesar hits
-Voco takes 3 damage (now at 17 life)
-Voco is stunned
+Cesar misses
 
 Beat 5
 -------
 
 Cesar
 -----
-life: 17
-discard 1: Unstoppable Shot
-discard 2: Bulwark Suppression
-special action
-Threat level: 0
+Life: 16
+Discard 1: Unstoppable Drive
+Discard 2: Bulwark Shot
+Special action available
+Threat level: 1
 
 Voco
 ----
-life: 17
-discard 1: Monster Grasp
-discard 2: Abyssal Shot
+Life: 19
+Discard 1: Abyssal Dash
+Discard 2: Metal Shot
 
 
-CV.....
-..zzzzz
+VC.....
+....zzz
+
 
 Cesar:
-24% Phalanx Strike
-60% Fueled Drive
-9% Fueled Burst
-7% Inevitable Drive
+72% Phalanx Strike
+4% Fueled Suppression
+24% Inevitable Suppression
 
 Voco:
-54% Metal Strike
-2% Metal Dash
-8% Hellraising Burst
-37% Hellraising Dash
+9% Monster Strike
+16% Monster Drive
+75% Thunderous Burst
 
 
 Cesar: Phalanx Strike
-Voco: Metal Strike
+Voco: Thunderous Burst
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  1 | 3
+Cesar gains a Threat Level (current level: 2)
+Priorities:  1 | 1
+Clash!
+
+
+Cesar: Phalanx Suppression
+Voco: Thunderous Shred
+
+Cesar gains a Threat Level (current level: 2)
+Priorities:  0 | 4
 Voco is active
 Voco misses
 Cesar hits
-Voco takes 5 damage (now at 12 life)
+Voco has 1 soak
+Voco takes 3 damage (now at 16 life)
+Voco is stunned
 
 Beat 6
 -------
 
 Cesar
 -----
-life: 17
-discard 1: Phalanx Strike
-discard 2: Unstoppable Shot
-special action
-Threat level: 1
+Life: 16
+Discard 1: Phalanx Suppression
+Discard 2: Unstoppable Drive
+Special action available
+Threat level: 2
 
 Voco
 ----
-life: 12
-discard 1: Metal Strike
-discard 2: Monster Grasp
+Life: 16
+Discard 1: Thunderous Shred
+Discard 2: Abyssal Dash
 
 
-CV.....
-..zzzzz
+VC.....
+....zzz
 
-Unbeatable strategy for Cesar: Fueled Drive: 0.79
 
 Cesar:
-100% Fueled Drive
+42% Fueled Burst
+39% Bulwark Shot
+19% Inevitable Grasp
 
 Voco:
-100% Abyssal Dash
+29% Metal Shot
+37% Metal Drive
+35% Metal Grasp
 
 
-Cesar: Fueled Drive
-Voco: Abyssal Dash
+Cesar: Fueled Burst
+Voco: Metal Grasp
 
-Cesar gains a Threat Level (current level: 2)
-Priorities:  3 | 9
-Voco is active
 Cesar gains a Threat Level (current level: 3)
+Priorities:  0 | 5
+Voco is active
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Cesar moves:
+
+V.C....
+....zzz
+
 Voco moves:
 
-C...V..
-..zzzzz
+..CV...
+....zzz
 
-Cesar moves:
 
-.C..V..
-..zzzzz
+..CV...
+zz..zzz
 
-Cesar moves:
-
-...CV..
-..zzzzz
-
-Cesar hits
-Voco has 2 soak
-Voco takes 5 damage (now at 7 life)
-Voco is stunned
+Voco misses
 
 Beat 7
 -------
 
 Cesar
 -----
-life: 17
-discard 1: Fueled Drive
-discard 2: Phalanx Strike
-special action
-Threat level: 3
+Life: 16
+Discard 1: Fueled Burst
+Discard 2: Phalanx Suppression
+Special action available
+Threat level: 4
 
 Voco
 ----
-life: 7
-discard 1: Abyssal Dash
-discard 2: Metal Strike
+Life: 16
+Discard 1: Metal Grasp
+Discard 2: Thunderous Shred
 
 
-...CV..
-...z.zz
+..CV...
+zz..zzz
 
-Unbeatable strategy for Cesar: Unstoppable Dash: 3.14
+Unbeatable strategy for Voco: Abyssal Dash: -0.62
+
 
 Cesar:
-66% Unstoppable Shot
-34% Unstoppable Grasp
+2% Unstoppable Strike
+7% Unstoppable Drive
+25% Unstoppable Dash
+42% Bulwark Shot
+1% Inevitable Drive
+23% Inevitable Dash
 
 Voco:
-87% Monster Shot
-13% Monster Burst
+3% Monster Shot
+15% Monster Drive
+2% Monster Dash
+8% Hellraising Shot
+19% Hellraising Dash
+54% Abyssal Dash
 
 
-Cesar: Unstoppable Shot
-Voco: Monster Shot
+Cesar: Bulwark Shot
+Voco: Monster Drive
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  0 | 1
+Cesar gains a Threat Level (current level: 0)
+Priorities:  0 | 3
 Voco is active
 Voco moves:
 
-..VC...
-...z.zz
+.VC....
+zz..zzz
 
-Cesar moves:
+Voco moves:
 
-.CV....
-...z.zz
+..CV...
+zz..zzz
 
 Voco hits
-Cesar has 2 soak
-Cesar takes 1 damage (now at 16 life)
+Cesar takes 3 damage (now at 13 life)
+Cesar hits
+Voco has 1 soak
+Voco takes 2 damage (now at 14 life)
+Voco is stunned
 
 Beat 8
 -------
 
 Cesar
 -----
-life: 16
-discard 1: Unstoppable Shot
-discard 2: Fueled Drive
-special action
-Threat level: 4
+Life: 13
+Discard 1: Bulwark Shot
+Discard 2: Fueled Burst
+Special action available
+Threat level: 0
 
 Voco
 ----
-life: 7
-discard 1: Monster Shot
-discard 2: Abyssal Dash
+Life: 14
+Discard 1: Monster Drive
+Discard 2: Metal Grasp
 
 
-.CV....
-...z.zz
+..CV...
+z...zzz
 
-Unbeatable strategy for Voco: Metal Burst: -0.07
-Unbeatable strategy for Voco: Hellraising Burst: -2.30
-Unbeatable strategy for Voco: Thunderous Burst: -1.49
+Unbeatable strategy for Voco: Abyssal Dash: -0.09
+Unbeatable strategy for Voco: Thunderous Dash: -0.87
+
 
 Cesar:
-22% Phalanx Suppression
-13% Phalanx Burst
-41% Bulwark Strike
-24% Bulwark Burst
+26% Unstoppable Strike
+49% Unstoppable Drive
+25% Inevitable Dash
 
 Voco:
-15% Metal Drive
-3% Hellraising Strike
-50% Hellraising Burst
-33% Thunderous Burst
+19% Hellraising Dash
+4% Abyssal Shot
+76% Thunderous Dash
 
 
-Cesar: Bulwark Strike
-Voco: Thunderous Burst
+Cesar: Unstoppable Drive
+Voco: Thunderous Dash
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  1 | 1
-Clash!
-
-Cesar:
-62% Bulwark Suppression
-38% Bulwark Grasp
-
-Voco:
-57% Thunderous Strike
-43% Thunderous Drive
-
-
-Cesar: Bulwark Suppression
-Voco: Thunderous Strike
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  0 | 3
+Cesar gains a Threat Level (current level: 1)
+Priorities:  2 | 9
 Voco is active
-Voco misses
-Cesar hits
-Voco has 1 soak
-Voco takes 1 damage (now at 6 life)
-Cesar moves:
+Voco moves:
 
-C.V....
-...z.zz
+V.C....
+z..zzzz
 
 Cesar moves:
 
-.CV....
-...z.zz
+VC.....
+z..zzzz
 
+Voco moves:
+
+.C..V..
+z..zzzz
+
+Cesar moves:
+
+..C.V..
+z..zzzz
+
+Cesar moves:
+
+...CV..
+z..zzzz
+
+Cesar misses
 
 Beat 9
 -------
 
 Cesar
 -----
-life: 16
-discard 1: Bulwark Suppression
-discard 2: Unstoppable Shot
-special action
-Threat level: 0
+Life: 13
+Discard 1: Unstoppable Drive
+Discard 2: Bulwark Shot
+Special action available
+Threat level: 1
 
 Voco
 ----
-life: 6
-discard 1: Thunderous Strike
-discard 2: Monster Shot
+Life: 14
+Discard 1: Thunderous Dash
+Discard 2: Monster Drive
 
 
-.CV....
-...z.zz
+...CV..
+z..zzzz
 
-Unbeatable strategy for Voco: Hellraising Dash: -0.89
 
 Cesar:
-44% Phalanx Dash
-6% Fueled Strike
-11% Fueled Drive
-38% Inevitable Dash
+19% Phalanx Strike
+2% Phalanx Burst
+52% Fueled Strike
+23% Fueled Grasp
+0% Inevitable Strike
+4% Inevitable Grasp
 
 Voco:
-18% Metal Drive
-37% Metal Dash
-13% Hellraising Burst
-31% Hellraising Dash
+15% Metal Shred
+39% Metal Shot
+0% Metal Grasp
+14% Hellraising Burst
+11% Abyssal Shred
+20% Abyssal Shot
 
 
-Cesar: Phalanx Dash
-Voco: Metal Drive
+Cesar: Phalanx Strike
+Voco: Metal Shot
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  7 | 4
-Cesar is active
-Cesar moves:
-
-C.V....
-...z.zz
-
+Cesar gains a Threat Level (current level: 2)
+Priorities:  1 | 2
+Voco is active
 Voco moves:
 
+.V.C...
+z..zzzz
+
+
+.V.C...
+z.zzzzz
+
+Voco hits
+Cesar takes 3 damage (now at 10 life)
+Cesar moves:
+
 CV.....
-...z.zz
+z.zzzzz
 
-
-CV.....
-..zz.zz
-
-Voco misses
+Cesar hits
+Voco takes 6 damage (now at 8 life)
+Voco is stunned
 
 Beat 10
 -------
 
 Cesar
 -----
-life: 16
-discard 1: Phalanx Dash
-discard 2: Bulwark Suppression
-special action
+Life: 10
+Discard 1: Phalanx Strike
+Discard 2: Unstoppable Drive
+Special action available
+Threat level: 2
+
+Voco
+----
+Life: 8
+Discard 1: Metal Shot
+Discard 2: Thunderous Dash
+
+
+CV.....
+z.zzzzz
+
+
+Cesar:
+40% Fueled Burst
+43% Bulwark Shot
+17% Inevitable Shot
+
+Voco:
+47% Monster Strike
+44% Monster Burst
+9% Hellraising Burst
+
+
+Cesar: Fueled Burst
+Voco: Monster Burst
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  0 | 0
+Clash!
+
+
+Cesar: Fueled Shot
+Voco: Monster Strike
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  1 | 2
+Voco is active
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Voco hits
+Cesar has 2 soak
+Cesar takes 2 damage (now at 8 life)
+
+Beat 11
+-------
+
+Cesar
+-----
+Life: 8
+Discard 1: Fueled Shot
+Discard 2: Phalanx Strike
+Special action available
+Threat level: 4
+
+Voco
+----
+Life: 8
+Discard 1: Monster Strike
+Discard 2: Metal Shot
+
+
+CV.....
+z.zzzzz
+
+
+Cesar:
+48% Unstoppable Drive
+36% Bulwark Drive
+4% Bulwark Grasp
+12% Inevitable Drive
+
+Voco:
+11% Hellraising Shred
+30% Hellraising Drive
+43% Abyssal Shred
+16% Abyssal Dash
+
+
+Cesar: Unstoppable Drive
+Voco: Abyssal Shred
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  2 | 4
+Voco is active
+Voco hits
+Cesar takes 1 damage (now at 7 life)
+Cesar is stunned
+Cesar loses 1 life (now at 6)
+
+Beat 12
+-------
+
+Cesar
+-----
+Life: 6
+Discard 1: Unstoppable Drive
+Discard 2: Fueled Shot
+Special action available
+Threat level: 0
+
+Voco
+----
+Life: 8
+Discard 1: Abyssal Shred
+Discard 2: Monster Strike
+
+
+CV.....
+..zzzzz
+
+Unbeatable strategy for Voco: Metal Dash: -1.80
+Unbeatable strategy for Voco: Hellraising Burst: -2.04
+Unbeatable strategy for Voco: Hellraising Dash: -2.55
+Unbeatable strategy for Voco: Thunderous Burst: -0.76
+Unbeatable strategy for Voco: Thunderous Dash: -1.98
+
+
+Cesar:
+28% Phalanx Suppression
+2% Phalanx Burst
+59% Phalanx Dash
+4% Bulwark Strike
+5% Inevitable Dash
+2% Special Level 4 Protocol
+
+Voco:
+7% Metal Drive
+3% Metal Burst
+29% Metal Dash
+3% Hellraising Shot
+37% Hellraising Burst
+20% Hellraising Dash
+
+
+Cesar: Phalanx Dash
+Voco: Metal Dash
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  7 | 9
+Voco is active
+Voco moves:
+
+C...V..
+..zzzzz
+
+
+C...V..
+.zzzzzz
+
+Cesar moves:
+
+...CV..
+.zzzzzz
+
+Cesar loses 1 life (now at 5)
+
+Beat 13
+-------
+
+Cesar
+-----
+Life: 5
+Discard 1: Phalanx Dash
+Discard 2: Unstoppable Drive
+Special action available
 Threat level: 1
 
 Voco
 ----
-life: 6
-discard 1: Metal Drive
-discard 2: Thunderous Strike
+Life: 8
+Discard 1: Metal Dash
+Discard 2: Abyssal Shred
 
 
-CV.....
-..zz.zz
+...CV..
+.zz.zzz
+
 
 Cesar:
-54% Fueled Shot
-46% Fueled Drive
-0% Fueled Burst
+8% Fueled Strike
+4% Fueled Grasp
+80% Bulwark Shot
+9% Bulwark Burst
+0% Inevitable Strike
 
 Voco:
-54% Monster Shot
-15% Hellraising Burst
-31% Hellraising Dash
+40% Monster Strike
+31% Monster Drive
+10% Hellraising Shot
+11% Thunderous Strike
+9% Thunderous Burst
 
 
-Cesar: Fueled Drive
-Voco: Monster Shot
+Cesar: Bulwark Shot
+Voco: Monster Strike
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  3 | 1
-Cesar is active
-Cesar gains a Threat Level (current level: 3)
-Cesar moves:
+Priorities:  0 | 2
+Voco is active
+Voco moves:
 
-.VC....
-..zz.zz
+..VC...
+.zz.zzz
+
+Voco hits
+Cesar takes 4 damage (now at 1 life)
+Cesar hits
+Voco has 2 soak
+Voco takes 3 damage (now at 5 life)
+
+Beat 14
+-------
+
+Cesar
+-----
+Life: 1
+Discard 1: Bulwark Shot
+Discard 2: Phalanx Dash
+Special action available
+Threat level: 2
+
+Voco
+----
+Life: 5
+Discard 1: Monster Strike
+Discard 2: Metal Dash
+
+
+..VC...
+.z...zz
+
+
+Cesar:
+51% Unstoppable Strike
+49% Unstoppable Drive
+
+Voco:
+5% Hellraising Shred
+6% Hellraising Shot
+8% Hellraising Drive
+4% Hellraising Burst
+6% Hellraising Grasp
+8% Abyssal Shred
+8% Abyssal Shot
+14% Abyssal Drive
+7% Abyssal Burst
+9% Abyssal Grasp
+7% Thunderous Shred
+4% Thunderous Shot
+6% Thunderous Drive
+2% Thunderous Burst
+6% Thunderous Grasp
+
+
+Cesar: Unstoppable Strike
+Voco: Hellraising Shot
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  1 | 0
+Cesar is active
+Voco moves:
+
+.V.C...
+.z...zz
 
 Cesar moves:
 
 CV.....
-..zz.zz
+.z...zz
 
 Cesar hits
-Voco takes 7 damage (now at 0 life)
+Voco has 1 soak
+Voco takes 6 damage (now at 0 life)
 CESAR WINS!
-total_time: 8
+total_time: 16

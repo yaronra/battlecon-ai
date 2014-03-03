@@ -11,33 +11,34 @@ Beat 1
 
 Kajia
 -----
-life: 20
-discard 1: Stinging Strike
-discard 2: Swarming Burst
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 20
+Discard 1: Stinging Strike
+Discard 2: Swarming Burst
+Special action available
+0 insects on Luc's discard 1
+0 insects on Luc's discard 2
 
 Luc
 ---
-life: 20
-discard 1: Eternal Flash
-discard 2: Fusion Strike
-special action
-2 Time tokens
+Life: 20
+Discard 1: Eternal Flash
+Discard 2: Fusion Strike
+Special action available
+2 Time token
 
 
 .K...L.
 
+
 Kajia:
-1% Burrowing Drive
-24% Parasitic Mandibles
-76% Biting Drive
+3% Burrowing Drive
+41% Biting Shot
+55% Biting Drive
 
 Luc:
-44% Memento Shot
-17% Chrono Shot
-39% Chrono Shot (1 token)
+41% Memento Shot
+24% Chrono Shot
+35% Chrono Shot (1 token)
 
 
 Kajia: Biting Drive
@@ -58,7 +59,7 @@ Kajia moves Luc:
 
 ..LK...
 
-Kajia places 1 insect token on the oppoent's attack pair
+Kajia places 1 insect token on Luc's attack pair
 (Current insects: 1 / 0 / 0)
 Luc gains 1 Time token
 
@@ -67,53 +68,65 @@ Beat 2
 
 Kajia
 -----
-life: 17
-discard 1: Biting Drive
-discard 2: Stinging Strike
-special action
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 17
+Discard 1: Biting Drive
+Discard 2: Stinging Strike
+Special action available
+1 insects on Luc's discard 1
+0 insects on Luc's discard 2
 
 Luc
 ---
-life: 18
-discard 1: Chrono Shot
-discard 2: Eternal Flash
-special action
-2 Time tokens
+Life: 18
+Discard 1: Chrono Shot
+Discard 2: Eternal Flash
+Special action available
+2 Time token
 
 
 ..LK...
 
+
 Kajia:
-11% Burrowing Mandibles
-25% Swarming Shot
-47% Swarming Burst
-7% Swarming Dash
+12% Burrowing Mandibles
+5% Burrowing Shot
+1% Burrowing Grasp
+29% Swarming Shot
+45% Swarming Burst
 4% Parasitic Shot
-6% Parasitic Burst
+2% Parasitic Burst
+3% Parasitic Dash
 
 Luc:
-13% Memento Drive
-8% Memento Dash
-3% Fusion Burst
-36% Fusion Burst (1 token)
-36% Fusion Dash
-4% Feinting Drive (1 token)
+2% Memento Drive
+12% Memento Drive (1 token)
+3% Memento Dash
+51% Fusion Burst (1 token)
+10% Feinting Strike (1 token)
+4% Feinting Drive
+9% Feinting Drive (1 token)
+9% Feinting Grasp (1 token)
 
 
 Kajia: Swarming Shot
-Luc: Fusion Dash
+Luc: Fusion Burst (1 token)
 
-Priorities:  1 | 10
+Luc antes a Time token
+Priorities:  1 | 3
 Luc is active
 Luc moves:
 
-...K..L
+L..K...
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 0)
-Kajia misses
+Luc hits
+Kajia takes 2 damage (now at 15 life)
+Luc moves Kajia:
+
+L....K.
+
+Kajia hits
+Luc takes 3 damage (now at 15 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 3
@@ -121,627 +134,594 @@ Beat 3
 
 Kajia
 -----
-life: 17
-discard 1: Swarming Shot
-discard 2: Biting Drive
-special action
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 15
+Discard 1: Swarming Shot
+Discard 2: Biting Drive
+Special action available
+0 insects on Luc's discard 1
+1 insects on Luc's discard 2
 
 Luc
 ---
-life: 18
-discard 1: Fusion Dash
-discard 2: Chrono Shot
-special action
-3 Time tokens
+Life: 15
+Discard 1: Fusion Burst
+Discard 2: Chrono Shot
+Special action available
+2 Time token
 
 
-...K..L
+L....K.
+
 
 Kajia:
-24% Burrowing Mandibles
-30% Burrowing Burst
-1% Parasitic Grasp
-45% Parasitic Dash
+14% Burrowing Mandibles
+32% Burrowing Dash
+13% Parasitic Strike
+4% Parasitic Grasp
+37% Parasitic Dash
 
 Luc:
-33% Eternal Burst
-19% Memento Drive
-1% Memento Drive (1 token)
-46% Memento Grasp
+16% Eternal Flash
+9% Eternal Flash (1 token)
+32% Eternal Drive
+25% Eternal Dash
+18% Memento Strike
 
 
 Kajia: Parasitic Dash
-Luc: Memento Grasp
+Luc: Eternal Drive
 
-Priorities:  8 | 4
+Priorities:  8 | 0
 Kajia is active
 Kajia moves Luc:
 
-..LK...
+...L.K.
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 1)
 Kajia moves:
 
-.KL....
+..KL...
 
+Luc moves:
+
+.LK....
+
+Kajia places 1 insect token on Luc's attack pair
+(Current insects: 1 / 0 / 1)
 Luc misses
 Luc gains 1 Time token
-Luc loses 1 life (now at 17)
+Luc loses 1 life (now at 14)
 
 Beat 4
 -------
 
 Kajia
 -----
-life: 17
-discard 1: Parasitic Dash
-discard 2: Swarming Shot
-special action
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 15
+Discard 1: Parasitic Dash
+Discard 2: Swarming Shot
+Special action available
+1 insects on Luc's discard 1
+0 insects on Luc's discard 2
 
 Luc
 ---
-life: 17
-discard 1: Memento Grasp
-discard 2: Fusion Dash
-special action
-4 Time tokens
+Life: 14
+Discard 1: Eternal Drive
+Discard 2: Fusion Burst
+Special action available
+3 Time token
 
 
-.KL....
+.LK....
+
 
 Kajia:
-21% Stinging Drive
-11% Stinging Burst
-20% Biting Mandibles
-43% Biting Drive
+36% Burrowing Strike
+3% Burrowing Burst
+10% Burrowing Grasp
+4% Stinging Grasp
+26% Biting Mandibles
 5% Biting Burst
+16% Biting Grasp
 
 Luc:
-26% Eternal Burst
-46% Chrono Flash
-11% Chrono Strike (1 token)
-14% Chrono Shot
-3% Chrono Drive (1 token)
+9% Memento Strike
+9% Memento Strike (1 token)
+41% Memento Dash
+1% Feinting Shot (3 tokens)
+2% Feinting Grasp (1 token)
+12% Chrono Shot
+26% Chrono Grasp
 
 
-Kajia: Biting Drive
-Luc: Chrono Flash
+Kajia: Biting Grasp
+Luc: Memento Dash
 
-Luc gets -2 power
-Priorities:  3 | 7
+Luc gets -1 power
+Priorities:  4 | 8
 Luc is active
 Luc moves:
 
-LK.....
+..K..L.
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 1)
-Luc hits
-Kajia takes 0 damage (now at 17 life)
-Kajia is stunned
+Kajia places 1 insect token on Luc's attack pair
+(Current insects: 1 / 1 / 0)
+Kajia misses
 Luc gains 1 Time token
-Luc loses 1 life (now at 16)
 
 Beat 5
 -------
 
 Kajia
 -----
-life: 17
-discard 1: Biting Drive
-discard 2: Parasitic Dash
-special action
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 15
+Discard 1: Biting Grasp
+Discard 2: Parasitic Dash
+Special action available
+1 insects on Luc's discard 1
+1 insects on Luc's discard 2
 
 Luc
 ---
-life: 16
-discard 1: Chrono Flash
-discard 2: Memento Grasp
-special action
-5 Time tokens
+Life: 14
+Discard 1: Memento Dash
+Discard 2: Eternal Drive
+Special action available
+4 Time token
 
 
-LK.....
+..K..L.
+
 
 Kajia:
-2% Burrowing Mandibles
-98% Swarming Mandibles
+0% Burrowing Shot
+43% Burrowing Drive
+57% Swarming Drive
 
 Luc:
-3% Eternal Dash
-1% Eternal Dash (1 token)
-5% Fusion Burst
-39% Fusion Dash
-52% Fusion Dash (1 token)
+17% Chrono Shot (1 token)
+31% Chrono Burst (1 token)
+51% Chrono Grasp
+
+
+Kajia: Swarming Drive
+Luc: Chrono Burst (1 token)
+
+Luc antes a Time token
+Priorities:  3 | 3
+Clash!
 
 
 Kajia: Swarming Mandibles
-Luc: Fusion Dash
+Luc: Chrono Shot (1 token)
 
-Priorities:  2 | 10
+Luc antes a Time token
+Priorities:  2 | 4
 Luc is active
-Luc moves:
-
-.KL....
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 1)
-Kajia moves:
-
-..LK...
-
-Kajia misses
-Kajia moves:
-
-.KL....
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 2 / 1 / 1)
-Luc loses 1 life (now at 15)
+Luc hits
+Kajia takes 3 damage (now at 12 life)
+Kajia is stunned
+Luc gains 1 Time token
+Luc loses 1 life (now at 13)
 
 Beat 6
 -------
 
 Kajia
 -----
-life: 17
-discard 1: Swarming Mandibles
-discard 2: Biting Drive
-special action
-2 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 12
+Discard 1: Swarming Mandibles
+Discard 2: Biting Grasp
+Special action available
+0 insects on Luc's discard 1
+1 insects on Luc's discard 2
 
 Luc
 ---
-life: 15
-discard 1: Fusion Dash
-discard 2: Chrono Flash
-special action
-5 Time tokens
+Life: 13
+Discard 1: Chrono Shot
+Discard 2: Memento Dash
+Special action available
+4 Time token
 
 
-.KL....
+..K..L.
+
 
 Kajia:
-24% Burrowing Strike
-43% Parasitic Strike
-33% Stinging Shot
+2% Burrowing Drive
+6% Burrowing Burst
+22% Burrowing Dash
+56% Parasitic Dash
+8% Stinging Shot
+5% Stinging Drive
 
 Luc:
-28% Eternal Burst
-55% Eternal Burst (5 tokens)
-17% Memento Strike (5 tokens)
+16% Eternal Strike
+15% Eternal Drive
+23% Fusion Strike (3 tokens)
+2% Fusion Drive (1 token)
+22% Fusion Drive (3 tokens)
+21% Feinting Drive (1 token)
 
 
-Kajia: Stinging Shot
-Luc: Eternal Burst
+Kajia: Parasitic Dash
+Luc: Eternal Strike
 
-Priorities:  3 | -3
+Priorities:  8 | -1
 Kajia is active
-Luc moves:
+Kajia moves Luc:
 
-.K.L...
+.LK....
 
-Kajia hits
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 2 / 1)
-Luc takes 3 damage (now at 12 life)
-Luc is stunned
-Luc loses 1 life (now at 11)
+Kajia places 1 insect token on Luc's attack pair
+(Current insects: 1 / 0 / 1)
+Kajia moves:
+
+.L.K...
+
+Luc misses
+Luc gains 1 Time token
+Luc loses 1 life (now at 12)
 
 Beat 7
 -------
 
 Kajia
 -----
-life: 17
-discard 1: Stinging Shot
-discard 2: Swarming Mandibles
-special action
-1 insects on opponent's discard 1
-2 insects on opponent's discard 2
+Life: 12
+Discard 1: Parasitic Dash
+Discard 2: Swarming Mandibles
+Special action available
+1 insects on Luc's discard 1
+0 insects on Luc's discard 2
 
 Luc
 ---
-life: 11
-discard 1: Eternal Burst
-discard 2: Fusion Dash
-special action
-5 Time tokens
+Life: 12
+Discard 1: Eternal Strike
+Discard 2: Chrono Shot
+Special action available
+5 Time token
 
 
-.K.L...
+.L.K...
+
 
 Kajia:
-4% Burrowing Drive
-17% Burrowing Burst
-27% Burrowing Dash
-39% Biting Strike
-14% Biting Burst
+16% Burrowing Drive
+1% Burrowing Burst
+11% Biting Strike
+72% Biting Drive
 
 Luc:
-12% Memento Shot (1 token)
-14% Memento Drive
-49% Chrono Flash
-12% Chrono Flash (1 token)
-2% Chrono Shot
-3% Chrono Shot (1 token)
-9% Chrono Shot (5 tokens)
+2% Memento Drive (1 token)
+6% Memento Drive (5 tokens)
+9% Memento Burst (5 tokens)
+82% Memento Dash
 
 
-Kajia: Burrowing Dash
-Luc: Chrono Flash
+Kajia: Biting Drive
+Luc: Memento Dash
 
-Kajia gets +2 power
-Kajia gets +2 priority
-Priorities:  10 | 7
-Kajia is active
+Luc gets -1 power
+Priorities:  3 | 8
+Luc is active
 Luc moves:
 
-.KL....
+...KL..
 
-Kajia moves Luc:
-
-LK.....
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 2)
+Kajia places 1 insect token on Luc's attack pair
+(Current insects: 1 / 1 / 0)
 Kajia moves:
 
-L.K....
+....LK.
 
-Luc misses
-Luc loses 2 life (now at 9)
+Kajia misses
 
 Beat 8
 -------
 
 Kajia
 -----
-life: 17
-discard 1: Burrowing Dash
-discard 2: Stinging Shot
-special action
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 12
+Discard 1: Biting Drive
+Discard 2: Parasitic Dash
+Special action available
+1 insects on Luc's discard 1
+1 insects on Luc's discard 2
 
 Luc
 ---
-life: 9
-discard 1: Chrono Flash
-discard 2: Eternal Burst
-special action
-5 Time tokens
+Life: 12
+Discard 1: Memento Dash
+Discard 2: Eternal Strike
+Special action available
+5 Time token
 
 
-L.K....
+....LK.
+
+Unbeatable strategy for Luc: Feinting Burst (5 tokens): -2.90
+Unbeatable strategy for Luc: Chrono Burst (5 tokens): -2.49
+
 
 Kajia:
-19% Swarming Strike
-59% Swarming Drive
-3% Parasitic Mandibles
-19% Parasitic Drive
+6% Burrowing Mandibles
+60% Swarming Mandibles
+34% Swarming Shot
 
 Luc:
-2% Memento Strike (1 token)
-5% Memento Drive (1 token)
-22% Memento Dash
-23% Memento Dash (1 token)
-3% Fusion Shot
-22% Fusion Dash
-23% Fusion Dash (1 token)
+4% Fusion Burst (1 token)
+95% Feinting Burst (5 tokens)
+0% Chrono Burst (1 token)
 
 
-Kajia: Swarming Drive
-Luc: Memento Dash
+Kajia: Burrowing Mandibles
+Luc: Feinting Burst (5 tokens)
 
-Priorities:  3 | 8
-Luc is active
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Kajia gets +2 power
+Kajia gets +2 priority
+Priorities:  4 | -1
+Kajia is active
+Luc becomes the active player
 Luc moves:
 
-..KL...
+...L.K.
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 1)
-Kajia moves:
+Luc moves:
 
-...LK..
+.L...K.
 
-Kajia misses
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 2 / 1 / 1)
-Luc loses 1 life (now at 8)
+Luc hits
+Kajia takes 3 damage (now at 9 life)
+Kajia is stunned
+Luc moves:
+
+...L.K.
+
+Luc gains 1 Time token
+Luc loses 1 life (now at 11)
 
 Beat 9
 -------
 
 Kajia
 -----
-life: 17
-discard 1: Swarming Drive
-discard 2: Burrowing Dash
-special action
-2 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 9
+Discard 1: Burrowing Mandibles
+Discard 2: Biting Drive
+Special action available
+0 insects on Luc's discard 1
+1 insects on Luc's discard 2
 
 Luc
 ---
-life: 8
-discard 1: Memento Dash
-discard 2: Chrono Flash
-special action
-5 Time tokens
+Life: 11
+Discard 1: Feinting Burst
+Discard 2: Memento Dash
+Special action available
+1 Time token
 
 
-...LK..
+...L.K.
+
 
 Kajia:
-17% Stinging Shot
-83% Biting Mandibles
+6% Swarming Strike
+76% Swarming Grasp
+2% Stinging Shot
+17% Stinging Burst
 
 Luc:
-74% Eternal Burst
-2% Fusion Strike
-24% Fusion Strike (1 token)
+18% Eternal Shot
+36% Fusion Strike
+36% Fusion Shot
+10% Chrono Strike
 
 
-Kajia: Biting Mandibles
-Luc: Eternal Burst
+Kajia: Swarming Grasp
+Luc: Eternal Shot
 
-Luc gets -2 power
-Priorities:  2 | -3
+Priorities:  4 | -2
 Kajia is active
-Luc moves:
-
-.L..K..
-
-Kajia moves:
-
-.L.K...
-
 Kajia hits
 Kajia moves Luc:
 
-..LK...
+....LK.
 
 Luc spends a Time token
 Luc gains +1 soak (2 total)
 Luc has 2 soak
-Luc takes 0 damage (now at 8 life)
-Kajia moves Luc:
-
-...K.L.
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 2 / 1)
-Luc is stunned
-Kajia moves:
-
-....KL.
-
+Luc takes 0 damage (now at 11 life)
+Luc misses
+Kajia places 1 insect token on Luc's attack pair
+(Current insects: 1 / 0 / 1)
 Luc gains 1 Time token
-Luc loses 1 life (now at 7)
+Luc loses 1 life (now at 10)
 
 Beat 10
 -------
 
 Kajia
 -----
-life: 17
-discard 1: Biting Mandibles
-discard 2: Swarming Drive
-special action
-1 insects on opponent's discard 1
-2 insects on opponent's discard 2
+Life: 9
+Discard 1: Swarming Grasp
+Discard 2: Burrowing Mandibles
+Special action available
+1 insects on Luc's discard 1
+0 insects on Luc's discard 2
 
 Luc
 ---
-life: 7
-discard 1: Eternal Burst
-discard 2: Memento Dash
-special action
-5 Time tokens
+Life: 10
+Discard 1: Eternal Shot
+Discard 2: Feinting Burst
+Special action available
+1 Time token
 
 
-....KL.
+....LK.
+
+Unbeatable strategy for Kajia: Biting Shot: 0.60
+
 
 Kajia:
-5% Burrowing Strike
-16% Burrowing Grasp
-18% Parasitic Strike
-28% Parasitic Burst
-33% Parasitic Dash
+20% Stinging Drive
+11% Stinging Burst
+21% Biting Strike
+48% Biting Drive
 
 Luc:
-34% Fusion Shot (3 tokens)
-19% Fusion Drive (3 tokens)
-11% Fusion Grasp (1 token)
-29% Chrono Shot (5 tokens)
-7% Special Temporal Recursion (1 token)
+14% Memento Drive
+43% Fusion Strike
+15% Chrono Grasp
+28% Chrono Dash
 
 
-Kajia: Parasitic Dash
-Luc: Fusion Shot (3 tokens)
+Kajia: Biting Drive
+Luc: Fusion Strike
 
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  8 | 3
-Kajia is active
-Kajia moves Luc:
-
-.L..K..
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 2)
+Luc gets -1 power
+Priorities:  3 | 4
+Luc is active
+Luc hits
+Kajia takes 2 damage (now at 7 life)
+Kajia loses 2 life (now at 5)
 Kajia moves:
 
-KL.....
+...KL..
 
-Luc misses
+Kajia hits
+Luc takes 2 damage (now at 8 life)
+Kajia moves Luc:
+
+.L.K...
+
+Kajia places 1 insect token on Luc's attack pair
+(Current insects: 1 / 1 / 0)
 Luc gains 1 Time token
-Luc loses 2 life (now at 5)
 
 Beat 11
 -------
 
 Kajia
 -----
-life: 17
-discard 1: Parasitic Dash
-discard 2: Biting Mandibles
-special action
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 5
+Discard 1: Biting Drive
+Discard 2: Swarming Grasp
+Special action available
+1 insects on Luc's discard 1
+1 insects on Luc's discard 2
 
 Luc
 ---
-life: 5
-discard 1: Fusion Shot
-discard 2: Eternal Burst
-special action
-3 Time tokens
+Life: 8
+Discard 1: Fusion Strike
+Discard 2: Eternal Shot
+Special action available
+2 Time token
 
 
-KL.....
+.L.K...
+
 
 Kajia:
-6% Burrowing Strike
-35% Burrowing Shot
-8% Burrowing Drive
-51% Swarming Strike
+27% Burrowing Mandibles
+13% Burrowing Dash
+9% Parasitic Strike
+33% Parasitic Burst
+19% Parasitic Dash
 
 Luc:
-80% Memento Dash
-10% Chrono Flash
-2% Chrono Strike
-8% Chrono Drive
+23% Memento Drive
+21% Memento Burst
+4% Memento Dash
+35% Chrono Drive
+17% Chrono Grasp
 
 
-Kajia: Swarming Strike
-Luc: Memento Dash
+Kajia: Parasitic Strike
+Luc: Chrono Drive
 
-Priorities:  2 | 8
+Priorities:  2 | 5
 Luc is active
+Kajia moves Luc:
+
+...K.L.
+
+Kajia places 1 insect token on Luc's attack pair
+(Current insects: 1 / 1 / 1)
 Luc moves:
 
-K..L...
+...KL..
 
-Kajia misses
+Luc hits
+Kajia takes 3 damage (now at 2 life)
+Kajia hits
+Luc takes 4 damage (now at 4 life)
+Luc is stunned
 Luc gains 1 Time token
-Luc loses 1 life (now at 4)
+Luc loses 1 life (now at 3)
 
 Beat 12
 -------
 
 Kajia
 -----
-life: 17
-discard 1: Swarming Strike
-discard 2: Parasitic Dash
-special action
-0 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 2
+Discard 1: Parasitic Strike
+Discard 2: Biting Drive
+Special action available
+1 insects on Luc's discard 1
+1 insects on Luc's discard 2
 
 Luc
 ---
-life: 4
-discard 1: Memento Dash
-discard 2: Fusion Shot
-special action
-4 Time tokens
+Life: 3
+Discard 1: Chrono Drive
+Discard 2: Fusion Strike
+Special action available
+3 Time token
 
 
-K..L...
+...KL..
 
-Unbeatable strategy for Luc: Feinting Flash (1 token): -1.28
-Unbeatable strategy for Luc: Chrono Flash: -1.32
-Unbeatable strategy for Luc: Chrono Flash (1 token): -0.92
-Unbeatable strategy for Luc: Chrono Flash (3 tokens): -0.52
-Unbeatable strategy for Luc: Chrono Strike: -0.07
 
 Kajia:
-88% Biting Mandibles
-12% Biting Grasp
+1% Burrowing Grasp
+37% Swarming Shot
+10% Swarming Grasp
+45% Stinging Shot
+7% Stinging Grasp
 
 Luc:
-8% Feinting Flash
-92% Chrono Flash
+3% Eternal Burst
+2% Eternal Burst (1 token)
+86% Eternal Dash
+0% Memento Flash (1 token)
+2% Feinting Grasp (1 token)
+7% Special Temporal Recursion (1 token)
 
 
-Kajia: Biting Grasp
-Luc: Feinting Flash
+Kajia: Swarming Shot
+Luc: Eternal Dash
 
-Luc gets -1 power
-Priorities:  4 | 4
-Clash!
-
-Kajia:
-49% Biting Mandibles
-51% Biting Drive
-
-Luc:
-52% Feinting Drive
-48% Feinting Grasp
-
-
-Kajia: Biting Drive
-Luc: Feinting Grasp
-
-Luc gets -1 power
-Priorities:  3 | 3
-Clash!
-
-Kajia:
-100% Biting Mandibles
-
-Luc:
-100% Feinting Drive
-
-
-Kajia: Biting Mandibles
-Luc: Feinting Drive
-
-Luc gets -1 power
-Priorities:  2 | 2
-Clash!
-
-Kajia:
-46% Biting Shot
-54% Biting Burst
-
-Luc:
-100% Feinting Burst
-
-
-Kajia: Biting Burst
-Luc: Feinting Burst
-
-Luc gets -1 power
-Priorities:  0 | -1
-Kajia is active
+Priorities:  1 | 5
+Luc is active
 Luc moves:
 
-K...L..
+...K.L.
 
 Kajia hits
-Luc takes 2 damage (now at 2 life)
-Kajia moves Luc:
-
-K.L....
-
+Luc has 1 soak
+Luc takes 2 damage (now at 1 life)
 Luc is stunned
-Luc moves:
-
-KL.....
-
 Luc gains 1 Time token
 Luc loses 1 life (now at 1)
 
@@ -750,377 +730,250 @@ Beat 13
 
 Kajia
 -----
-life: 17
-discard 1: Biting Burst
-discard 2: Swarming Strike
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 2
+Discard 1: Swarming Shot
+Discard 2: Parasitic Strike
+Special action available
+0 insects on Luc's discard 1
+1 insects on Luc's discard 2
 
 Luc
 ---
-life: 1
-discard 1: Feinting Burst
-discard 2: Memento Dash
-special action
-5 Time tokens
+Life: 1
+Discard 1: Eternal Dash
+Discard 2: Chrono Drive
+Special action available
+4 Time token
 
 
-KL.....
+...K.L.
 
-Unbeatable strategy for Luc: Eternal Strike (5 tokens): -2.07
-Unbeatable strategy for Luc: Eternal Shot: -0.06
-Unbeatable strategy for Luc: Eternal Shot (1 token): -0.06
-Unbeatable strategy for Luc: Eternal Shot (5 tokens): -1.20
-Unbeatable strategy for Luc: Eternal Drive (5 tokens): -1.17
-Unbeatable strategy for Luc: Fusion Strike (5 tokens): -3.07
-Unbeatable strategy for Luc: Chrono Flash: -0.08
-Unbeatable strategy for Luc: Chrono Flash (1 token): -0.13
-Unbeatable strategy for Luc: Chrono Strike (5 tokens): -2.12
-Unbeatable strategy for Luc: Chrono Shot (5 tokens): -1.24
-Unbeatable strategy for Luc: Chrono Drive (5 tokens): -1.20
 
 Kajia:
-11% Parasitic Shot
-14% Parasitic Grasp
-23% Parasitic Dash
-24% Stinging Grasp
-1% Stinging Dash
-28% Special Pulse
+1% Burrowing Drive
+0% Burrowing Grasp
+75% Burrowing Dash
+1% Stinging Mandibles
+1% Stinging Drive
+2% Biting Mandibles
+2% Biting Drive
+19% Biting Grasp
 
 Luc:
-74% Eternal Strike (5 tokens)
-6% Eternal Shot
-6% Fusion Strike (5 tokens)
-11% Chrono Flash (1 token)
-3% Special Temporal Recursion
-0% Special Temporal Recursion (1 token)
+22% Memento Shot (3 tokens)
+34% Fusion Shot (3 tokens)
+44% Special Temporal Recursion
 
 
-Kajia: Parasitic Dash
-Luc: Eternal Shot
+Kajia: Burrowing Dash
+Luc: Memento Shot (3 tokens)
 
-Priorities:  8 | -2
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Kajia gets +1 power
+Kajia gets +1 priority
+Priorities:  9 | 1
 Kajia is active
+Luc moves:
+
+...KL..
+
+Kajia moves Luc:
+
+..LK...
+
+Kajia places 1 insect token on Luc's attack pair
+(Current insects: 1 / 0 / 1)
 Kajia moves:
 
-.L.K...
+.KL....
 
 Luc misses
+Luc gains 1 Time token
+Luc loses 1 life (now at 1)
 
 Beat 14
 -------
 
 Kajia
 -----
-life: 17
-discard 1: Parasitic Dash
-discard 2: Biting Burst
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 2
+Discard 1: Burrowing Dash
+Discard 2: Swarming Shot
+Special action available
+1 insects on Luc's discard 1
+0 insects on Luc's discard 2
 
 Luc
 ---
-life: 1
-discard 1: Eternal Shot
-discard 2: Feinting Burst
-special action
-5 Time tokens
+Life: 1
+Discard 1: Memento Shot
+Discard 2: Eternal Dash
+Special action available
+2 Time token
 
-
-.L.K...
-
-Kajia:
-100% Special Cancel
-
-Luc:
-0% Memento Flash
-0% Memento Flash (1 token)
-0% Memento Flash (3 tokens)
-0% Memento Flash (5 tokens)
-0% Memento Strike
-0% Memento Strike (1 token)
-0% Memento Strike (3 tokens)
-0% Memento Strike (5 tokens)
-0% Memento Drive
-0% Memento Drive (1 token)
-0% Memento Drive (3 tokens)
-0% Memento Drive (5 tokens)
-0% Memento Grasp
-0% Memento Grasp (1 token)
-0% Memento Grasp (3 tokens)
-0% Memento Grasp (5 tokens)
-0% Memento Dash
-0% Memento Dash (1 token)
-0% Memento Dash (3 tokens)
-0% Memento Dash (5 tokens)
-0% Fusion Flash
-0% Fusion Flash (1 token)
-0% Fusion Flash (3 tokens)
-0% Fusion Flash (5 tokens)
-0% Fusion Strike
-0% Fusion Strike (1 token)
-0% Fusion Strike (3 tokens)
-0% Fusion Strike (5 tokens)
-0% Fusion Drive
-0% Fusion Drive (1 token)
-0% Fusion Drive (3 tokens)
-0% Fusion Drive (5 tokens)
-0% Fusion Grasp
-0% Fusion Grasp (1 token)
-0% Fusion Grasp (3 tokens)
-0% Fusion Grasp (5 tokens)
-0% Fusion Dash
-0% Fusion Dash (1 token)
-0% Fusion Dash (3 tokens)
-0% Fusion Dash (5 tokens)
-0% Chrono Flash
-0% Chrono Flash (1 token)
-0% Chrono Flash (3 tokens)
-0% Chrono Flash (5 tokens)
-0% Chrono Strike
-0% Chrono Strike (1 token)
-0% Chrono Strike (3 tokens)
-0% Chrono Strike (5 tokens)
-0% Chrono Drive
-0% Chrono Drive (1 token)
-0% Chrono Drive (3 tokens)
-0% Chrono Drive (5 tokens)
-0% Chrono Grasp
-0% Chrono Grasp (1 token)
-0% Chrono Grasp (3 tokens)
-0% Chrono Grasp (5 tokens)
-0% Chrono Dash
-0% Chrono Dash (1 token)
-0% Chrono Dash (3 tokens)
-0% Chrono Dash (5 tokens)
-0% Special Pulse
-0% Special Pulse (1 token)
-0% Special Pulse (3 tokens)
-0% Special Pulse (5 tokens)
-93% Special Temporal Recursion
-0% Special Temporal Recursion (1 token)
-0% Special Temporal Recursion (3 tokens)
-0% Special Temporal Recursion (5 tokens)
-
-
-Kajia: Special Cancel
-Luc: Special Temporal Recursion
-
-Kajia:
-1% Burrowing Strike
-98% Burrowing Shot
-1% Swarming Strike
-0% Swarming Grasp
-0% Stinging Drive
-
-Luc:
-1% Memento Strike
-96% Memento Drive
-1% Chrono Strike
-1% Chrono Drive
-
-
-Kajia: Burrowing Shot
-Luc: Memento Drive
-
-Priorities:  1 | 3
-Luc is active
-Luc moves:
-
-..LK...
-
-Luc hits
-Kajia takes 3 damage (now at 14 life)
-Kajia is stunned
-Luc spends a Time token
-Luc spends a Time token
-Luc attacks again
-Luc moves:
-
-...KL..
-
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 0)
-Luc hits
-Kajia takes 3 damage (now at 11 life)
-Kajia is stunned
-Luc gains 1 Time token
-
-Beat 15
--------
-
-Kajia
------
-life: 11
-discard 1: Burrowing Shot
-discard 2: Parasitic Dash
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
-
-Luc
----
-life: 1
-discard 1: Memento Drive
-discard 2: Eternal Special Shot Temporal Recursion
-special action
-4 Time tokens
-
-
-...KL..
-
-Kajia:
-100% Biting Mandibles
-
-Luc:
-100% Special Pulse
-
-
-Kajia: Biting Mandibles
-Luc: Special Pulse
-
-Pulse:
-
-.K.L...
-
-
-Beat 15
--------
-
-Kajia
------
-life: 11
-discard 1: Biting Mandibles
-discard 2: Burrowing Shot
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
-
-Luc
----
-life: 1
-discard 1: Memento Drive
-discard 2: Eternal Special Shot Temporal Recursion
-4 Time tokens
-
-
-.K.L...
-
-Kajia:
-7% Swarming Strike
-7% Swarming Drive
-7% Swarming Burst
-7% Swarming Grasp
-7% Swarming Dash
-7% Parasitic Strike
-7% Parasitic Drive
-7% Parasitic Burst
-7% Parasitic Grasp
-7% Parasitic Dash
-7% Stinging Strike
-7% Stinging Drive
-7% Stinging Burst
-7% Stinging Grasp
-7% Stinging Dash
-
-Luc:
-2% Fusion Flash
-2% Fusion Flash (1 token)
-2% Fusion Flash (3 tokens)
-2% Fusion Strike
-2% Fusion Strike (1 token)
-2% Fusion Strike (3 tokens)
-2% Fusion Burst
-2% Fusion Burst (1 token)
-2% Fusion Burst (3 tokens)
-2% Fusion Grasp
-2% Fusion Grasp (1 token)
-2% Fusion Grasp (3 tokens)
-2% Fusion Dash
-2% Fusion Dash (1 token)
-2% Fusion Dash (3 tokens)
-2% Feinting Flash
-2% Feinting Flash (1 token)
-2% Feinting Flash (3 tokens)
-2% Feinting Strike
-2% Feinting Strike (1 token)
-2% Feinting Strike (3 tokens)
-2% Feinting Burst
-2% Feinting Burst (1 token)
-2% Feinting Burst (3 tokens)
-2% Feinting Grasp
-2% Feinting Grasp (1 token)
-2% Feinting Grasp (3 tokens)
-2% Feinting Dash
-2% Feinting Dash (1 token)
-2% Feinting Dash (3 tokens)
-2% Chrono Flash
-2% Chrono Flash (1 token)
-2% Chrono Flash (3 tokens)
-2% Chrono Strike
-2% Chrono Strike (1 token)
-2% Chrono Strike (3 tokens)
-2% Chrono Burst
-2% Chrono Burst (1 token)
-2% Chrono Burst (3 tokens)
-2% Chrono Grasp
-2% Chrono Grasp (1 token)
-2% Chrono Grasp (3 tokens)
-2% Chrono Dash
-2% Chrono Dash (1 token)
-2% Chrono Dash (3 tokens)
-
-
-Kajia: Parasitic Drive
-Luc: Chrono Burst (1 token)
-
-Luc antes a Time token
-Priorities:  3 | 3
-Clash!
-
-Kajia:
-25% Parasitic Strike
-25% Parasitic Burst
-25% Parasitic Grasp
-25% Parasitic Dash
-
-Luc:
-25% Chrono Flash (1 token)
-25% Chrono Strike (1 token)
-25% Chrono Grasp (1 token)
-25% Chrono Dash (1 token)
-
-
-Kajia: Parasitic Dash
-Luc: Chrono Flash (1 token)
-
-Luc antes a Time token
-Priorities:  8 | 8
-Clash!
-
-Kajia:
-33% Parasitic Strike
-33% Parasitic Burst
-33% Parasitic Grasp
-
-Luc:
-33% Chrono Strike (1 token)
-33% Chrono Grasp (1 token)
-33% Chrono Dash (1 token)
-
-
-Kajia: Parasitic Grasp
-Luc: Chrono Grasp (1 token)
-
-Luc antes a Time token
-Priorities:  4 | 7
-Luc is active
-Luc misses
-Kajia hits
-Kajia moves Luc:
 
 .KL....
 
-Luc takes 2 damage (now at 0 life)
-KAJIA WINS!
-total_time: 44
+Unbeatable strategy for Luc: Chrono Drive (1 token): -7.00
+
+
+Kajia:
+2% Stinging Drive
+1% Stinging Burst
+0% Stinging Grasp
+1% Biting Mandibles
+0% Biting Strike
+1% Biting Drive
+2% Biting Burst
+1% Biting Grasp
+91% Special Pulse
+1% Special Wormwood
+
+Luc:
+0% Fusion Drive (1 token)
+33% Feinting Strike
+0% Feinting Drive
+0% Chrono Strike
+66% Chrono Drive (1 token)
+0% Chrono Grasp
+
+
+Kajia: Special Pulse
+Luc: Chrono Drive (1 token)
+
+Luc antes a Time token
+Pulse:
+
+K.....L
+
+
+Beat 14
+-------
+
+Kajia
+-----
+Life: 2
+Discard 1: Burrowing Dash
+Discard 2: Swarming Shot
+0 insects on Luc's discard 1
+1 insects on Luc's discard 2
+
+Luc
+---
+Life: 1
+Discard 1: Chrono Drive
+Discard 2: Memento Shot
+Special action available
+1 Time token
+
+
+K.....L
+
+Unbeatable strategy for Luc: Eternal Burst: -0.45
+Unbeatable strategy for Luc: Eternal Burst (1 token): -0.15
+Unbeatable strategy for Luc: Eternal Dash: -1.33
+Unbeatable strategy for Luc: Fusion Burst: -0.45
+Unbeatable strategy for Luc: Fusion Burst (1 token): -0.15
+Unbeatable strategy for Luc: Feinting Flash: -2.17
+Unbeatable strategy for Luc: Feinting Flash (1 token): -1.87
+Unbeatable strategy for Luc: Feinting Burst: -1.75
+Unbeatable strategy for Luc: Feinting Burst (1 token): -1.45
+
+
+Kajia:
+3% Parasitic Burst
+4% Biting Mandibles
+7% Biting Drive
+86% Biting Burst
+
+Luc:
+5% Eternal Dash
+79% Feinting Flash
+2% Feinting Burst (1 token)
+14% Feinting Grasp
+
+
+Kajia: Biting Burst
+Luc: Feinting Flash
+
+Luc gets -1 power
+Priorities:  0 | 4
+Luc is active
+Luc moves:
+
+K....L.
+
+Luc moves:
+
+K.....L
+
+Luc misses
+Kajia misses
+Luc moves:
+
+K...L..
+
+Luc gains 1 Time token
+Luc loses 1 life (now at 1)
+
+Beat 15
+-------
+
+Kajia
+-----
+Life: 2
+Discard 1: Biting Burst
+Discard 2: Burrowing Dash
+0 insects on Luc's discard 1
+0 insects on Luc's discard 2
+
+Luc
+---
+Life: 1
+Discard 1: Feinting Flash
+Discard 2: Chrono Drive
+Special action available
+2 Time token
+
+
+K...L..
+
+Unbeatable strategy for Luc: Fusion Shot (1 token): -7.00
+
+
+Kajia:
+5% Swarming Mandibles
+4% Swarming Strike
+6% Swarming Shot
+13% Swarming Drive
+10% Swarming Grasp
+1% Parasitic Mandibles
+17% Parasitic Strike
+3% Parasitic Shot
+7% Parasitic Drive
+5% Parasitic Grasp
+5% Stinging Mandibles
+11% Stinging Strike
+10% Stinging Shot
+1% Stinging Drive
+2% Stinging Grasp
+
+Luc:
+100% Special Temporal Recursion
+
+
+Kajia: Parasitic Shot
+Luc: Special Temporal Recursion
+
+Priorities:  1 | 5
+Luc is active
+Kajia moves Luc:
+
+KL.....
+
+Luc hits
+Kajia takes 3 damage (now at 0 life)
+LUC WINS!
+total_time: 42

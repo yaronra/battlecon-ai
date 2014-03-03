@@ -50,7 +50,7 @@ Khadath:
 
 
 Kajia: Special Pulse
-Khadath: Blight Burst
+Khadath: Teleport Strike
 
 Pulse:
 
@@ -72,7 +72,7 @@ Discard 2: Swarming Burst
 Khadath
 -------
 Life: 20
-Discard 1: Blight Burst
+Discard 1: Teleport Strike
 Discard 2: Evacuation Grasp
 Special action available
 
@@ -80,52 +80,56 @@ Special action available
 .kK....
 
 
-Unbeatable strategy for Khadath: Teleport Strike: -0.07
-Unbeatable strategy for Khadath: Teleport Dash: -1.56
-
 
 Kajia:
-27% Burrowing Mandibles
-54% Parasitic Shot
-19% Biting Grasp
+5% Burrowing Mandibles
+25% Burrowing Drive
+70% Biting Mandibles
 
 Khadath:
-14% Teleport Strike
-21% Teleport Drive
-64% Teleport Dash
+47% Blight Shot
+18% Blight Drive
+35% Blight Dash
 
 
-Kajia: Parasitic Shot
-Khadath: Teleport Dash
+Kajia: Biting Mandibles
+Khadath: Blight Drive
 
-Priorities:  1 | 6
+Priorities:  2 | 4
 Khadath is active
-Kajia moves Khadath:
+Khadath moves trap:
 
-..K..k.
+.kK....
+....t..
 
+Khadath moves:
+
+..K.k..
+....t..
 
 Kajia places 1 insect token on Khadath's attack pair
 (Current insects: 1 / 0 / 0)
-Khadath moves:
+Khadath hits
+Kajia takes 3 damage (now at 17 life)
+Kajia moves:
 
-.kK....
+...Kk..
+....t..
 
+Kajia hits
+Kajia moves Khadath:
+
+..kK...
+....t..
 
 Kajia places 1 insect token on Khadath's attack pair
 (Current insects: 2 / 0 / 0)
-Kajia misses
-Khadath moves:
+Khadath takes 2 damage (now at 18 life)
+Khadath is stunned
+Kajia moves:
 
-..K...k
-
-
-Kajia places 1 insect token on Khadath's attack pair
-(Current insects: 3 / 0 / 0)
-Khadath moves trap:
-
-..K...k
-..t....
+.Kk....
+....t..
 
 
 Beat 2
@@ -133,63 +137,66 @@ Beat 2
 
 Kajia
 -----
-Life: 20
-Discard 1: Parasitic Shot
+Life: 17
+Discard 1: Biting Mandibles
 Discard 2: Stinging Strike
-3 insects on Khadath's discard 1
+2 insects on Khadath's discard 1
 0 insects on Khadath's discard 2
 
 Khadath
 -------
-Life: 20
-Discard 1: Teleport Dash
-Discard 2: Blight Burst
+Life: 18
+Discard 1: Blight Drive
+Discard 2: Teleport Strike
 Special action available
 
 
-..K...k
-..t....
+.Kk....
+....t..
 
 
 Kajia:
-52% Burrowing Dash
-8% Swarming Mandibles
-30% Swarming Dash
-9% Biting Drive
-1% Biting Dash
+60% Burrowing Shot
+18% Burrowing Burst
+22% Burrowing Grasp
 
 Khadath:
-14% Hunter's Strike
-45% Hunter's Shot
-2% Hunter's Drive
-2% Evacuation Shot
-37% Evacuation Grasp
+42% Evacuation Shot
+34% Evacuation Burst
+24% Evacuation Grasp
 
 
-Kajia: Swarming Dash
-Khadath: Hunter's Strike
+Kajia: Burrowing Shot
+Khadath: Evacuation Grasp
 
-Khadath gets +2 power
-Khadath gets +2 priority
-Kajia gets -3 priority
-Priorities:  5 | 5
-Clash!
-
-
-Kajia: Swarming Burst
-Khadath: Hunter's Snare
-
-Khadath gets +2 power
-Khadath gets +2 priority
-Kajia gets -3 priority
-Priorities:  -3 | 3
+Kajia gets +1 power
+Kajia gets +1 priority
+Priorities:  2 | 5
 Khadath is active
-Kajia moves:
+Khadath moves trap:
 
-K.....k
+.Kk....
 ..t....
 
-Khadath misses
+Khadath moves:
+
+.K.k...
+..t....
+
+Khadath hits
+Khadath moves Kajia:
+
+..Kk...
+..t....
+
+Kajia takes 2 damage (now at 15 life)
+Kajia moves Khadath:
+
+.kK....
+..t....
+
+Kajia places 1 insect token on Khadath's attack pair
+(Current insects: 1 / 2 / 0)
 Kajia misses
 
 Beat 3
@@ -197,222 +204,273 @@ Beat 3
 
 Kajia
 -----
-Life: 20
-Discard 1: Swarming Burst
-Discard 2: Parasitic Shot
-0 insects on Khadath's discard 1
-3 insects on Khadath's discard 2
+Life: 15
+Discard 1: Burrowing Shot
+Discard 2: Biting Mandibles
+1 insects on Khadath's discard 1
+2 insects on Khadath's discard 2
 
 Khadath
 -------
-Life: 20
-Discard 1: Hunter's Snare
-Discard 2: Teleport Dash
+Life: 18
+Discard 1: Evacuation Grasp
+Discard 2: Blight Drive
 Special action available
 
 
-K.....k
+.kK....
 ..t....
 
 
 Kajia:
-32% Biting Mandibles
-60% Biting Strike
-9% Biting Grasp
+25% Swarming Strike
+24% Swarming Grasp
+52% Parasitic Strike
 
 Khadath:
-5% Blight Burst
-13% Lure Strike
-82% Lure Burst
+14% Teleport Snare
+5% Teleport Shot
+82% Teleport Dash
 
 
-Kajia: Biting Mandibles
-Khadath: Lure Burst
+Kajia: Swarming Grasp
+Khadath: Teleport Dash
 
-Khadath gets -1 power
-Priorities:  2 | 0
-Kajia is active
-Kajia moves:
+Kajia gets -3 priority
+Priorities:  1 | 6
+Khadath is active
+Khadath moves:
 
-.K....k
+..Kk...
 ..t....
 
+Kajia places 1 insect token on Khadath's attack pair
+(Current insects: 1 / 1 / 2)
 Kajia misses
-Kajia moves:
+Khadath moves:
 
 ..K...k
 ..t....
 
-Khadath hits
-Kajia takes 1 damage (now at 19 life)
-Khadath loses 3 life (now at 17)
+Khadath moves trap:
+
+..K...k
+.t.....
+
+Khadath loses 2 life (now at 16)
 
 Beat 4
 -------
 
 Kajia
 -----
-Life: 19
-Discard 1: Biting Mandibles
-Discard 2: Swarming Burst
-0 insects on Khadath's discard 1
-0 insects on Khadath's discard 2
+Life: 15
+Discard 1: Swarming Grasp
+Discard 2: Burrowing Shot
+1 insects on Khadath's discard 1
+1 insects on Khadath's discard 2
 
 Khadath
 -------
-Life: 17
-Discard 1: Lure Burst
-Discard 2: Hunter's Snare
+Life: 16
+Discard 1: Teleport Dash
+Discard 2: Evacuation Grasp
 Special action available
 
 
 ..K...k
-..t....
+.t.....
 
 
 Kajia:
-6% Burrowing Shot
-39% Burrowing Drive
-29% Burrowing Dash
-6% Parasitic Strike
-20% Stinging Dash
+5% Stinging Dash
+13% Biting Mandibles
+9% Biting Strike
+72% Biting Drive
 
 Khadath:
-32% Teleport Strike
-16% Teleport Shot
-31% Blight Shot
-8% Blight Drive
-13% Blight Grasp
+24% Hunter's Snare
+5% Blight Strike
+1% Blight Shot
+70% Blight Burst
 
 
-Kajia: Burrowing Dash
-Khadath: Teleport Shot
+Kajia: Biting Drive
+Khadath: Blight Strike
 
-Kajia gets -3 priority
-Priorities:  5 | -1
-Kajia is active
-Kajia moves Khadath:
-
-..K..k.
-..t....
-
-Kajia moves:
-
-.....kK
-..t....
-
-Khadath misses
-Khadath moves:
-
-....k.K
-..t....
-
+Khadath gets -2 power
+Kajia gets -1 priority
+Priorities:  2 | 3
+Khadath is active
 Khadath moves trap:
 
-....k.K
-......t
+..K...k
+...t...
 
+Khadath misses
+Kajia moves:
+
+...K..k
+...t...
+
+Kajia hits
+Khadath takes 2 damage (now at 14 life)
+Kajia moves Khadath:
+
+...Kk..
+...t...
+
+Khadath loses 1 life (now at 13)
 
 Beat 5
 -------
 
 Kajia
 -----
-Life: 19
-Discard 1: Burrowing Dash
-Discard 2: Biting Mandibles
+Life: 15
+Discard 1: Biting Drive
+Discard 2: Swarming Grasp
 0 insects on Khadath's discard 1
-0 insects on Khadath's discard 2
+1 insects on Khadath's discard 2
 
 Khadath
 -------
-Life: 17
-Discard 1: Teleport Shot
-Discard 2: Lure Burst
+Life: 13
+Discard 1: Blight Strike
+Discard 2: Teleport Dash
 Special action available
 
 
-....k.K
-......t
-
-Unbeatable strategy for Khadath: Hunter's Snare: -0.15
+...Kk..
+...t...
 
 
 Kajia:
-70% Swarming Strike
-18% Stinging Drive
-12% Stinging Grasp
+1% Burrowing Strike
+5% Burrowing Burst
+27% Burrowing Dash
+36% Parasitic Burst
+18% Parasitic Dash
+13% Stinging Dash
 
 Khadath:
-69% Hunter's Snare
-3% Hunter's Drive
-28% Evacuation Snare
+8% Hunter's Shot
+17% Hunter's Drive
+21% Evacuation Shot
+41% Evacuation Grasp
+8% Lure Burst
+4% Lure Grasp
 
 
-Kajia: Swarming Strike
-Khadath: Hunter's Snare
+Kajia: Parasitic Burst
+Khadath: Evacuation Grasp
 
-Khadath gets +2 power
-Khadath gets +2 priority
 Kajia gets -3 priority
-Priorities:  -1 | 3
+Priorities:  -3 | 5
 Khadath is active
-Khadath hits
-Kajia takes 5 damage (now at 14 life)
-Kajia hits
-Khadath takes 4 damage (now at 13 life)
+Khadath moves trap:
+
+...Kk..
+....t..
+
+Khadath moves:
+
+...K.k.
+....t..
+
+Kajia moves Khadath:
+
+.k.K...
+....t..
+
+Kajia places 1 insect token on Khadath's attack pair
+(Current insects: 1 / 0 / 1)
+Kajia moves:
+
+.k..K..
+....t..
+
+Khadath misses
+Kajia misses
+Khadath loses 1 life (now at 12)
 
 Beat 6
 -------
 
 Kajia
 -----
-Life: 14
-Discard 1: Swarming Strike
-Discard 2: Burrowing Dash
-0 insects on Khadath's discard 1
+Life: 15
+Discard 1: Parasitic Burst
+Discard 2: Biting Drive
+1 insects on Khadath's discard 1
 0 insects on Khadath's discard 2
 
 Khadath
 -------
-Life: 13
-Discard 1: Hunter's Snare
-Discard 2: Teleport Shot
+Life: 12
+Discard 1: Evacuation Grasp
+Discard 2: Blight Strike
 Special action available
 
 
-....k.K
-......t
+.k..K..
+....t..
 
 
 Kajia:
-7% Biting Mandibles
-93% Biting Shot
+8% Burrowing Mandibles
+43% Swarming Mandibles
+40% Swarming Dash
+9% Stinging Dash
 
 Khadath:
-64% Blight Strike
-36% Lure Strike
+18% Hunter's Shot
+13% Teleport Shot
+12% Teleport Drive
+57% Teleport Dash
 
 
-Kajia: Biting Shot
-Khadath: Blight Strike
+Kajia: Swarming Mandibles
+Khadath: Teleport Drive
 
 Kajia gets -3 priority
-Priorities:  -2 | 3
+Priorities:  -1 | 1
 Khadath is active
-Khadath moves trap:
+Khadath moves:
 
-....k.K
-.....t.
+...kK..
+....t..
 
-Khadath hits
-Kajia takes 4 damage (now at 10 life)
+Khadath misses
+Kajia moves:
+
+..Kk...
+....t..
+
 Kajia hits
-Khadath takes 2 damage (now at 11 life)
 Kajia moves Khadath:
 
-.....kK
-.....t.
+.kK....
+....t..
+
+Kajia places 1 insect token on Khadath's attack pair
+(Current insects: 1 / 1 / 0)
+Khadath takes 3 damage (now at 9 life)
+Khadath is stunned
+Kajia moves:
+
+Kk.....
+....t..
+
+Khadath moves:
+
+K.....k
+....t..
+
+Khadath moves trap:
+
+K.....k
+t......
 
 
 Beat 7
@@ -420,272 +478,163 @@ Beat 7
 
 Kajia
 -----
-Life: 10
-Discard 1: Biting Shot
-Discard 2: Swarming Strike
-0 insects on Khadath's discard 1
-0 insects on Khadath's discard 2
+Life: 15
+Discard 1: Swarming Mandibles
+Discard 2: Parasitic Burst
+1 insects on Khadath's discard 1
+1 insects on Khadath's discard 2
 
 Khadath
 -------
-Life: 11
-Discard 1: Blight Strike
-Discard 2: Hunter's Snare
+Life: 9
+Discard 1: Teleport Drive
+Discard 2: Evacuation Grasp
 Special action available
 
 
-.....kK
-.....t.
+K.....k
+t......
 
-Unbeatable strategy for Khadath: Evacuation Burst: -3.98
+Unbeatable strategy for Kajia: Biting Shot: 0.50
 
 
 Kajia:
-66% Burrowing Mandibles
-12% Burrowing Dash
-21% Stinging Mandibles
+21% Burrowing Grasp
+0% Stinging Dash
+59% Biting Shot
+19% Biting Dash
 
 Khadath:
-26% Evacuation Shot
-11% Evacuation Drive
-63% Evacuation Burst
+33% Hunter's Snare
+14% Hunter's Strike
+9% Blight Snare
+44% Blight Shot
 
 
-Kajia: Burrowing Mandibles
-Khadath: Evacuation Burst
+Kajia: Biting Dash
+Khadath: Hunter's Snare
 
-Kajia gets -1 priority
-Priorities:  1 | 1
-Clash!
+Khadath gets -2 power
+Khadath gets +2 power
+Khadath gets +2 priority
+Kajia gets -3 priority
+Priorities:  5 | 3
+Kajia is active
+Kajia moves:
 
+...K..k
+t......
 
-Kajia: Burrowing Grasp
-Khadath: Evacuation Dash
-
-Kajia gets -1 priority
-Priorities:  3 | 9
-Khadath is active
-Khadath moves trap:
-
-.....kK
-.....t.
-
-Khadath moves:
-
-....k.K
-.....t.
-
-Khadath moves:
-
-.k....K
-.....t.
-
-Kajia moves Khadath:
-
-..k...K
-.....t.
-
-Kajia misses
+Khadath misses
+Khadath loses 1 life (now at 8)
 
 Beat 8
 -------
 
 Kajia
 -----
-Life: 10
-Discard 1: Burrowing Grasp
-Discard 2: Biting Shot
+Life: 15
+Discard 1: Biting Dash
+Discard 2: Swarming Mandibles
 0 insects on Khadath's discard 1
-0 insects on Khadath's discard 2
+1 insects on Khadath's discard 2
 
 Khadath
 -------
-Life: 11
-Discard 1: Evacuation Dash
-Discard 2: Blight Strike
+Life: 8
+Discard 1: Hunter's Snare
+Discard 2: Teleport Drive
 Special action available
 
 
-..k...K
-.....t.
+...K..k
+t......
 
 
 Kajia:
-2% Swarming Mandibles
-42% Swarming Strike
-10% Swarming Burst
-13% Parasitic Mandibles
-29% Parasitic Dash
-4% Stinging Drive
+11% Burrowing Drive
+12% Burrowing Burst
+41% Parasitic Strike
+15% Parasitic Drive
+21% Stinging Shot
 
 Khadath:
-12% Hunter's Snare
-13% Hunter's Shot
-35% Hunter's Burst
-5% Teleport Shot
-12% Teleport Drive
-23% Teleport Burst
+4% Evacuation Burst
+44% Blight Strike
+25% Blight Shot
+15% Blight Burst
+12% Blight Grasp
 
 
-Kajia: Parasitic Mandibles
-Khadath: Hunter's Burst
+Kajia: Parasitic Strike
+Khadath: Blight Strike
 
-Khadath gets +2 power
-Khadath gets +2 priority
-Kajia gets -1 priority
-Priorities:  1 | 3
+Priorities:  2 | 3
 Khadath is active
-Khadath moves:
+Khadath moves trap:
 
-k.....K
-.....t.
+...K..k
+....t..
 
 Kajia moves Khadath:
 
-...k..K
-.....t.
+..kK...
+....t..
 
+Kajia places 1 insect token on Khadath's attack pair
+(Current insects: 1 / 0 / 1)
 Khadath hits
-Kajia takes 5 damage (now at 5 life)
-Kajia is stunned
+Kajia takes 4 damage (now at 11 life)
+Kajia hits
+Khadath takes 4 damage (now at 4 life)
+Khadath loses 1 life (now at 3)
 
 Beat 9
 -------
 
 Kajia
 -----
-Life: 5
-Discard 1: Parasitic Mandibles
-Discard 2: Burrowing Grasp
-0 insects on Khadath's discard 1
+Life: 11
+Discard 1: Parasitic Strike
+Discard 2: Biting Dash
+1 insects on Khadath's discard 1
 0 insects on Khadath's discard 2
 
 Khadath
 -------
-Life: 11
-Discard 1: Hunter's Burst
-Discard 2: Evacuation Dash
+Life: 3
+Discard 1: Blight Strike
+Discard 2: Hunter's Snare
 Special action available
 
 
-...k..K
-.....t.
+..kK...
+....t..
 
-Unbeatable strategy for Khadath: Teleport Snare: -2.16
-Unbeatable strategy for Khadath: Teleport Grasp: -1.77
-Unbeatable strategy for Khadath: Blight Strike: -0.09
+Unbeatable strategy for Khadath: Teleport Dash: -0.69
 
 
 Kajia:
-62% Stinging Strike
-38% Biting Drive
+15% Burrowing Drive
+40% Burrowing Burst
+13% Swarming Shot
+32% Stinging Shot
 
 Khadath:
-56% Teleport Snare
-44% Teleport Grasp
+84% Teleport Dash
+12% Evacuation Shot
+1% Evacuation Drive
+3% Special Dimensional Exile
 
 
-Kajia: Stinging Strike
-Khadath: Teleport Snare
-
-Kajia gets -1 priority
-Priorities:  3 | -2
-Kajia is active
-Kajia misses
-Khadath hits
-Kajia takes 4 damage (now at 1 life)
-Khadath moves:
-
-k.....K
-.....t.
-
-
-Beat 10
--------
-
-Kajia
------
-Life: 1
-Discard 1: Stinging Strike
-Discard 2: Parasitic Mandibles
-0 insects on Khadath's discard 1
-0 insects on Khadath's discard 2
-
-Khadath
--------
-Life: 11
-Discard 1: Teleport Snare
-Discard 2: Hunter's Burst
-Special action available
-
-
-k.....K
-.....t.
-
-Unbeatable strategy for Khadath: Blight Shot: -6.00
-Unbeatable strategy for Khadath: Lure Strike: -6.00
-Unbeatable strategy for Khadath: Lure Shot: -6.00
-Unbeatable strategy for Khadath: Lure Drive: -6.00
-Unbeatable strategy for Khadath: Lure Grasp: -6.00
-
-
-Kajia:
-6% Burrowing Shot
-8% Burrowing Drive
-7% Burrowing Burst
-7% Burrowing Grasp
-8% Burrowing Dash
-6% Swarming Shot
-8% Swarming Drive
-7% Swarming Burst
-7% Swarming Grasp
-7% Swarming Dash
-3% Biting Shot
-7% Biting Drive
-6% Biting Burst
-7% Biting Grasp
-7% Biting Dash
-
-Khadath:
-25% Lure Strike
-25% Lure Shot
-25% Lure Drive
-25% Lure Grasp
-
-
-Kajia: Burrowing Drive
-Khadath: Lure Strike
+Kajia: Swarming Shot
+Khadath: Special Dimensional Exile
 
 Kajia gets -1 priority
-Priorities:  2 | 2
-Clash!
-
-
-Kajia: Burrowing Grasp
-Khadath: Lure Drive
-
-Kajia gets -1 priority
-Priorities:  3 | 3
-Clash!
-
-
-Kajia: Burrowing Dash
-Khadath: Lure Shot
-
-Kajia gets -1 priority
-Priorities:  7 | 1
-Kajia is active
-Kajia moves:
-
-k....K.
-.....t.
-
-Khadath hits
-Khadath moves Kajia:
-
-kK.....
-.....t.
-
-Kajia takes 2 damage (now at 0 life)
-KHADATH WINS!
-total_time: 14
+Priorities:  0 | 0
+Khadath is active
+Khadath misses
+Kajia hits
+Khadath takes 3 damage (now at 0 life)
+KAJIA WINS!
+total_time: 13

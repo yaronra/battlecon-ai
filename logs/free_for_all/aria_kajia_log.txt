@@ -11,19 +11,19 @@ Beat 1
 
 Aria
 ----
-life: 20
-discard 1: Laser Grasp
-discard 2: Ionic Dash
-special action
+Life: 20
+Discard 1: Laser Grasp
+Discard 2: Ionic Dash
+Special action available
 
 Kajia
 -----
-life: 20
-discard 1: Stinging Strike
-discard 2: Swarming Burst
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 20
+Discard 1: Stinging Strike
+Discard 2: Swarming Burst
+Special action available
+0 insects on Aria's discard 1
+0 insects on Aria's discard 2
 
 
 .A...K.
@@ -31,22 +31,22 @@ special action
 .m.....
 .......
 
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.67
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.77
+
 
 Aria:
-24% Catalyst Reconfiguration
-76% Dimensional Reconfiguration
+23% Catalyst Reconfiguration
+77% Dimensional Reconfiguration
 
 Kajia:
 15% Parasitic Dash
-85% Biting Mandibles
+85% Biting Drive
 
 
-Aria: Catalyst Reconfiguration
-Kajia: Biting Mandibles
+Aria: Dimensional Reconfiguration
+Kajia: Biting Drive
 
-Aria gets +4 priority
-Priorities:  8 | 2
+Priorities:  7 | 3
 Aria is active
 Aria moves:
 
@@ -58,23 +58,25 @@ A....K.
 Aria adds her Dampening droid:
 
 A....K.
-...d...
+..d....
 .m.....
 .......
 
 Aria misses
 Kajia moves:
 
-A...K..
-...d...
+A..K...
+..d....
 .m.....
 .......
 
-Kajia misses
-Kajia moves:
+Kajia hits
+Aria takes 1 damage (now at 19 life)
+Aria is stunned
+Aria moves:
 
-A..K...
-...d...
+.A.K...
+..d....
 .m.....
 .......
 
@@ -84,554 +86,855 @@ Beat 2
 
 Aria
 ----
-life: 20
-discard 1: Catalyst Reconfiguration
-discard 2: Laser Grasp
-special action
+Life: 19
+Discard 1: Dimensional Reconfiguration
+Discard 2: Laser Grasp
+Special action available
 
 Kajia
 -----
-life: 20
-discard 1: Biting Mandibles
-discard 2: Stinging Strike
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 20
+Discard 1: Biting Drive
+Discard 2: Stinging Strike
+Special action available
+0 insects on Aria's discard 1
+0 insects on Aria's discard 2
 
 
-A..K...
-...d...
+.A.K...
+..d....
 .m.....
 .......
 
-Unbeatable strategy for Kajia: Parasitic Dash: -0.85
+Unbeatable strategy for Aria: Photovoltaic Shot: 0.23
+
 
 Aria:
-66% Photovoltaic Strike
-34% Photovoltaic Burst
+100% Photovoltaic Shot
 
 Kajia:
-8% Parasitic Drive
-92% Parasitic Dash
+100% Parasitic Dash
 
 
-Aria: Photovoltaic Strike
-Kajia: Parasitic Drive
+Aria: Photovoltaic Shot
+Kajia: Parasitic Dash
 
-Priorities:  4 | 3
-Aria is active
+Priorities:  3 | 8
+Kajia is active
 Kajia moves Aria:
 
-...KA..
-...d...
+...K.A.
+..d....
 .m.....
 .......
 
-Kajia places 1 insect token on the oppoent's attack pair
+Kajia places 1 insect token on Aria's attack pair
 (Current insects: 1 / 0 / 0)
-Aria hits
-Kajia takes 3 damage (now at 17 life)
-Kajia is stunned
+Kajia moves:
+
+.....AK
+..d....
+.m.....
+.......
+
+Aria misses
 Aria adds her Turret droid:
 
-...KA..
-...d...
+.....AK
+..d....
 .m.....
-....t..
+.....t.
 
-Kajia loses 1 life (now at 16)
+Kajia loses 1 life (now at 19)
 
 Beat 3
 -------
 
 Aria
 ----
-life: 20
-discard 1: Photovoltaic Strike
-discard 2: Catalyst Reconfiguration
-special action
+Life: 19
+Discard 1: Photovoltaic Shot
+Discard 2: Dimensional Reconfiguration
+Special action available
 
 Kajia
 -----
-life: 16
-discard 1: Parasitic Drive
-discard 2: Biting Mandibles
-special action
-1 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 19
+Discard 1: Parasitic Dash
+Discard 2: Biting Drive
+Special action available
+1 insects on Aria's discard 1
+0 insects on Aria's discard 2
 
 
-...KA..
-...d...
+.....AK
+..d....
 .m.....
-....t..
+.....t.
+
 
 Aria:
-20% Ionic Shot
-12% Ionic Burst
-1% Laser Drive
-1% Laser Dash
-66% Dimensional Dash
+53% Ionic Drive
+5% Ionic Grasp
+5% Laser Strike
+28% Laser Burst
+7% Catalyst Burst
+2% Catalyst Dash
 
 Kajia:
-19% Burrowing Burst
-2% Swarming Strike
-19% Swarming Grasp
-10% Swarming Dash
-49% Stinging Shot
+21% Burrowing Mandibles
+9% Burrowing Strike
+21% Swarming Mandibles
+8% Swarming Strike
+15% Stinging Mandibles
+26% Stinging Grasp
 
 
-Aria: Ionic Burst
-Kajia: Stinging Shot
+Aria: Catalyst Burst
+Kajia: Swarming Mandibles
 
-Priorities:  2 | 3
-Kajia is active
-Aria moves Kajia:
+Priorities:  2 | 2
+Clash!
 
-..K.A..
-...d...
-.m.....
-....t..
 
+Aria: Catalyst Dash
+Kajia: Swarming Burst
+
+Priorities:  10 | 0
+Aria is active
 Aria moves:
 
-..K..A.
-...d...
+...A..K
+..d....
 .m.....
-....t..
+.....t.
 
 Kajia hits
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 0)
-Aria takes 2 damage (now at 18 life)
+Aria takes 3 damage (now at 16 life)
 Aria is stunned
+Kajia loses 1 life (now at 18)
 
 Beat 4
 -------
 
 Aria
 ----
-life: 18
-discard 1: Ionic Burst
-discard 2: Photovoltaic Strike
-special action
+Life: 16
+Discard 1: Catalyst Dash
+Discard 2: Photovoltaic Shot
+Special action available
 
 Kajia
 -----
-life: 16
-discard 1: Stinging Shot
-discard 2: Parasitic Drive
-special action
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 18
+Discard 1: Swarming Burst
+Discard 2: Parasitic Dash
+Special action available
+0 insects on Aria's discard 1
+1 insects on Aria's discard 2
 
 
-..K..A.
-...d...
+...A..K
+..d....
 .m.....
-....t..
+.....t.
+
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.43
+Unbeatable strategy for Aria: Dimensional Strike: 1.62
+
 
 Aria:
-50% Catalyst Grasp
-7% Dimensional Drive
-43% Dimensional Grasp
+48% Dimensional Strike
+52% Dimensional Burst
 
 Kajia:
-18% Burrowing Burst
-52% Biting Mandibles
-30% Biting Dash
+30% Biting Mandibles
+70% Biting Strike
 
 
-Aria: Dimensional Grasp
-Kajia: Biting Dash
+Aria: Dimensional Burst
+Kajia: Biting Strike
 
 Aria gets +2 power
-Aria gets -2 power
-Priorities:  9 | 7
+Aria gets -1 power
+Priorities:  5 | 2
 Aria is active
-Aria hits
-Aria moves Kajia:
-
-.K...A.
-...d...
-.m.....
-....t..
-
-Kajia takes 1 damage (now at 15 life)
-Kajia moves:
-
-....KA.
-...d...
-.m.....
-....t..
-
 Aria moves:
 
-A...K..
-...d...
+.A....K
+..d....
 .m.....
-....t..
+.....t.
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 1 / 1)
+Aria hits
+Kajia takes 3 damage (now at 15 life)
+Kajia misses
+Aria moves:
+
+...A..K
+..d....
+.m.....
+.....t.
+
 Kajia loses 1 life (now at 14)
-Aria loses 1 life (now at 17)
+Aria loses 1 life (now at 15)
 
 Beat 5
 -------
 
 Aria
 ----
-life: 17
-discard 1: Dimensional Grasp
-discard 2: Ionic Burst
-special action
+Life: 15
+Discard 1: Dimensional Burst
+Discard 2: Catalyst Dash
+Special action available
 
 Kajia
 -----
-life: 14
-discard 1: Biting Dash
-discard 2: Stinging Shot
-special action
-1 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 14
+Discard 1: Biting Strike
+Discard 2: Swarming Burst
+Special action available
+0 insects on Aria's discard 1
+0 insects on Aria's discard 2
 
 
-A...K..
-...d...
+...A..K
+..d....
 .m.....
-....t..
+.....t.
 
-Unbeatable strategy for Kajia: Burrowing Drive: -1.52
 
 Aria:
-5% Photovoltaic Reconfiguration
-46% Photovoltaic Strike
-1% Photovoltaic Shot
-48% Photovoltaic Drive
+33% Photovoltaic Reconfiguration
+67% Photovoltaic Drive
 
 Kajia:
-27% Burrowing Drive
-25% Burrowing Burst
-9% Swarming Mandibles
-39% Parasitic Strike
+86% Burrowing Dash
+14% Stinging Drive
 
 
-Aria: Photovoltaic Strike
-Kajia: Parasitic Strike
+Aria: Photovoltaic Drive
+Kajia: Burrowing Dash
 
-Priorities:  4 | 2
-Aria is active
+Priorities:  5 | 8
+Kajia is active
 Kajia moves Aria:
 
-...AK..
-...d...
+....A.K
+..d....
 .m.....
-....t..
+.....t.
 
-Aria hits
-Aria removes her Dampening droid:
+Kajia moves:
 
-...AK..
-.......
+...KA..
+..d....
 .m.....
-....t..
+.....t.
 
-Aria gets +1 power
-Aria removes her Magnetron droid:
+Aria moves:
 
-...AK..
-.......
-.......
-....t..
+.A.K...
+..d....
+.m.....
+.....t.
 
-Aria gets +1 power
-Aria removes her Turret droid:
-
-...AK..
-.......
-.......
-.......
-
-Aria gets +1 power
-Kajia takes 6 damage (now at 8 life)
-Kajia is stunned
-Aria adds her Turret droid:
-
-...AK..
-.......
-.......
-...t...
-
-Kajia loses 1 life (now at 7)
-Aria loses 1 life (now at 16)
+Kajia places 1 insect token on Aria's attack pair
+(Current insects: 1 / 0 / 0)
+Aria misses
 
 Beat 6
 -------
 
 Aria
 ----
-life: 16
-discard 1: Photovoltaic Strike
-discard 2: Dimensional Grasp
-special action
+Life: 15
+Discard 1: Photovoltaic Drive
+Discard 2: Dimensional Burst
+Special action available
 
 Kajia
 -----
-life: 7
-discard 1: Parasitic Strike
-discard 2: Biting Dash
-special action
-0 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 14
+Discard 1: Burrowing Dash
+Discard 2: Biting Strike
+Special action available
+1 insects on Aria's discard 1
+0 insects on Aria's discard 2
 
 
-...AK..
-.......
-.......
-...t...
+.A.K...
+..d....
+.m.....
+.....t.
+
 
 Aria:
-3% Ionic Reconfiguration
-38% Ionic Drive
-1% Ionic Burst
-1% Catalyst Reconfiguration
-57% Catalyst Dash
+22% Laser Strike
+27% Laser Shot
+51% Catalyst Grasp
 
 Kajia:
-19% Burrowing Mandibles
-31% Burrowing Drive
-1% Swarming Mandibles
-13% Swarming Burst
-36% Stinging Grasp
+27% Swarming Mandibles
+5% Parasitic Drive
+68% Parasitic Burst
 
 
-Aria: Ionic Drive
-Kajia: Stinging Grasp
+Aria: Catalyst Grasp
+Kajia: Swarming Mandibles
 
-Priorities:  5 | 6
-Kajia is active
-Kajia hits
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 1)
-Kajia moves Aria:
+Aria gets +4 priority
+Priorities:  10 | 2
+Aria is active
+Aria hits
+Aria moves Kajia:
 
-....KA.
-.......
-.......
-...t...
+.A..K..
+..d....
+.m.....
+.....t.
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 2 / 0 / 1)
-Aria takes 2 damage (now at 14 life)
-Aria is stunned
-Kajia loses 1 life (now at 6)
-Aria loses 1 life (now at 13)
+Kajia takes 1 damage (now at 13 life)
+Kajia is stunned
+Kajia loses 1 life (now at 12)
 
 Beat 7
 -------
 
 Aria
 ----
-life: 13
-discard 1: Ionic Drive
-discard 2: Photovoltaic Strike
-special action
+Life: 15
+Discard 1: Catalyst Grasp
+Discard 2: Photovoltaic Drive
+Special action available
 
 Kajia
 -----
-life: 6
-discard 1: Stinging Grasp
-discard 2: Parasitic Strike
-special action
-2 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 12
+Discard 1: Swarming Mandibles
+Discard 2: Burrowing Dash
+Special action available
+0 insects on Aria's discard 1
+1 insects on Aria's discard 2
 
 
-....KA.
-.......
-.......
-...t...
+.A..K..
+..d....
+.m.....
+.....t.
+
+Unbeatable strategy for Kajia: Parasitic Strike: -0.43
+
 
 Aria:
-25% Laser Grasp
-75% Catalyst Reconfiguration
+10% Ionic Reconfiguration
+46% Ionic Strike
+12% Ionic Burst
+3% Laser Shot
+29% Dimensional Reconfiguration
 
 Kajia:
-53% Burrowing Drive
-47% Biting Mandibles
+57% Parasitic Strike
+11% Parasitic Shot
+3% Parasitic Drive
+18% Parasitic Grasp
+10% Stinging Drive
 
 
-Aria: Catalyst Reconfiguration
-Kajia: Biting Mandibles
+Aria: Ionic Strike
+Kajia: Parasitic Strike
 
-Aria gets -1 power
 Priorities:  4 | 2
 Aria is active
-Aria moves:
+Aria moves Kajia:
 
-A...K..
-.......
-.......
-...t...
+.A.K...
+..d....
+.m.....
+.....t.
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 2 / 0)
-Aria adds her Dampening droid:
+Kajia moves Aria:
 
-A...K..
-.d.....
-.......
-...t...
+...K.A.
+..d....
+.m.....
+.....t.
 
-Aria misses
-Kajia moves:
-
-A..K...
-.d.....
-.......
-...t...
-
-Kajia misses
-Kajia moves:
-
-A.K....
-.d.....
-.......
-...t...
-
-Kajia loses 1 life (now at 5)
+Kajia places 1 insect token on Aria's attack pair
+(Current insects: 1 / 0 / 1)
+Aria hits
+Kajia takes 4 damage (now at 8 life)
+Kajia hits
+Aria takes 3 damage (now at 12 life)
+Aria loses 1 life (now at 11)
 
 Beat 8
 -------
 
 Aria
 ----
-life: 13
-discard 1: Catalyst Reconfiguration
-discard 2: Ionic Drive
-special action
+Life: 11
+Discard 1: Ionic Strike
+Discard 2: Catalyst Grasp
+Special action available
 
 Kajia
 -----
-life: 5
-discard 1: Biting Mandibles
-discard 2: Stinging Grasp
-special action
-1 insects on opponent's discard 1
-2 insects on opponent's discard 2
+Life: 8
+Discard 1: Parasitic Strike
+Discard 2: Swarming Mandibles
+Special action available
+1 insects on Aria's discard 1
+0 insects on Aria's discard 2
 
 
-A.K....
-.d.....
-.......
-...t...
+...K.A.
+..d....
+.m.....
+.....t.
+
 
 Aria:
-12% Photovoltaic Strike
-59% Photovoltaic Shot
-29% Photovoltaic Grasp
+11% Photovoltaic Drive
+10% Dimensional Burst
+79% Dimensional Dash
 
 Kajia:
-19% Burrowing Strike
-11% Burrowing Drive
-71% Swarming Drive
+7% Stinging Shot
+67% Biting Shot
+26% Biting Grasp
 
 
-Aria: Photovoltaic Grasp
-Kajia: Burrowing Drive
+Aria: Photovoltaic Drive
+Kajia: Biting Shot
 
-Kajia gets +2 power
-Kajia gets +2 priority
-Priorities:  6 | 5
+Aria gets -1 power
+Priorities:  5 | 1
 Aria is active
+Aria moves:
+
+...KA..
+..d....
+.m.....
+.....t.
+
 Aria hits
-Aria moves Kajia:
+Aria removes her Turret droid:
 
-A..K...
-.d.....
+...KA..
+..d....
+.m.....
 .......
-...t...
 
-Kajia takes 1 damage (now at 4 life)
-Kajia is stunned
-Aria adds her Magnetron droid:
+Aria gets +1 power
+Kajia takes 2 damage (now at 6 life)
+Aria adds her Turret droid:
 
-A..K...
-.d.....
-m......
-...t...
+...KA..
+..d....
+.m.....
+....t..
 
-Kajia loses 1 life (now at 3)
-Aria loses 2 life (now at 11)
+Kajia hits
+Aria takes 1 damage (now at 10 life)
+Kajia moves Aria:
+
+..AK...
+..d....
+.m.....
+....t..
+
+Kajia places 1 insect token on Aria's attack pair
+(Current insects: 1 / 1 / 0)
+Aria is stunned
+Kajia loses 1 life (now at 5)
 
 Beat 9
 -------
 
 Aria
 ----
-life: 11
-discard 1: Photovoltaic Grasp
-discard 2: Catalyst Reconfiguration
-special action
+Life: 10
+Discard 1: Photovoltaic Drive
+Discard 2: Ionic Strike
+Special action available
 
 Kajia
 -----
-life: 3
-discard 1: Burrowing Drive
-discard 2: Biting Mandibles
-special action
-0 insects on opponent's discard 1
-1 insects on opponent's discard 2
+Life: 5
+Discard 1: Biting Shot
+Discard 2: Parasitic Strike
+Special action available
+1 insects on Aria's discard 1
+1 insects on Aria's discard 2
 
 
-A..K...
-.d.....
-m......
-...t...
+..AK...
+..d....
+.m.....
+....t..
+
+Unbeatable strategy for Aria: Dimensional Dash: 0.85
+
 
 Aria:
-13% Ionic Strike
-8% Ionic Burst
-26% Laser Strike
-53% Laser Burst
+4% Laser Grasp
+27% Dimensional Burst
+70% Dimensional Dash
 
 Kajia:
-0% Swarming Shot
-49% Parasitic Shot
-46% Parasitic Dash
-4% Stinging Shot
+25% Burrowing Mandibles
+23% Swarming Drive
+52% Stinging Drive
+
+
+Aria: Dimensional Dash
+Kajia: Stinging Drive
+
+Priorities:  13 | 5
+Aria is active
+Aria moves:
+
+...KA..
+..d....
+.m.....
+....t..
+
+Kajia places 1 insect token on Aria's attack pair
+(Current insects: 1 / 1 / 1)
+Kajia moves:
+
+....A.K
+..d....
+.m.....
+....t..
+
+Kajia misses
+Aria moves:
+
+A.....K
+..d....
+.m.....
+....t..
+
+Aria loses 1 life (now at 9)
+
+Beat 10
+-------
+
+Aria
+----
+Life: 9
+Discard 1: Dimensional Dash
+Discard 2: Photovoltaic Drive
+Special action available
+
+Kajia
+-----
+Life: 5
+Discard 1: Stinging Drive
+Discard 2: Biting Shot
+Special action available
+1 insects on Aria's discard 1
+1 insects on Aria's discard 2
+
+
+A.....K
+..d....
+.m.....
+....t..
+
+Unbeatable strategy for Aria: Ionic Shot: 0.27
+
+
+Aria:
+19% Ionic Shot
+26% Laser Shot
+32% Laser Burst
+7% Catalyst Shot
+16% Catalyst Grasp
+
+Kajia:
+10% Swarming Strike
+20% Swarming Burst
+12% Parasitic Mandibles
+27% Parasitic Strike
+32% Special Imago Emergence
+
+
+Aria: Catalyst Grasp
+Kajia: Special Imago Emergence
+
+Priorities:  6 | 7
+Kajia is active
+Kajia misses
+Aria misses
+Aria loses 1 life (now at 8)
+
+Beat 11
+-------
+
+Aria
+----
+Life: 8
+Discard 1: Catalyst Grasp
+Discard 2: Dimensional Dash
+Special action available
+
+Kajia
+-----
+Life: 5
+Discard 1: Stinging Drive
+Discard 2: Biting Shot
+0 insects on Aria's discard 1
+1 insects on Aria's discard 2
+
+
+A.....K
+..d....
+.m.....
+....t..
+
+
+Aria:
+18% Laser Shot
+82% Laser Burst
+
+Kajia:
+81% Burrowing Strike
+19% Burrowing Burst
 
 
 Aria: Laser Burst
-Kajia: Parasitic Dash
+Kajia: Burrowing Strike
 
-Priorities:  1 | 8
+Kajia gets +1 power
+Kajia gets +1 priority
+Priorities:  1 | 3
 Kajia is active
 Kajia moves Aria:
 
-...KA..
-.d.....
-m......
-...t...
+.A....K
+..d....
+.m.....
+....t..
 
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 1)
-Aria moves:
+Kajia misses
+Aria hits
+Kajia takes 3 damage (now at 2 life)
+Aria loses 1 life (now at 7)
 
-...K..A
-.d.....
-m......
-...t...
+Beat 12
+-------
+
+Aria
+----
+Life: 7
+Discard 1: Laser Burst
+Discard 2: Catalyst Grasp
+Special action available
+
+Kajia
+-----
+Life: 2
+Discard 1: Burrowing Strike
+Discard 2: Stinging Drive
+0 insects on Aria's discard 1
+0 insects on Aria's discard 2
+
+
+.A....K
+..d....
+.m.....
+....t..
+
+Unbeatable strategy for Aria: Photovoltaic Shot: 0.69
+Unbeatable strategy for Aria: Ionic Shot: 0.55
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.09
+
+
+Aria:
+22% Photovoltaic Shot
+5% Dimensional Shot
+73% Dimensional Dash
+
+Kajia:
+5% Parasitic Grasp
+85% Parasitic Dash
+10% Biting Shot
+
+
+Aria: Photovoltaic Shot
+Kajia: Parasitic Dash
+
+Priorities:  3 | 8
+Kajia is active
+Kajia moves Aria:
+
+....A.K
+..d....
+.m.....
+....t..
 
 Kajia moves:
 
-K.....A
-.d.....
-m......
-...t...
+..K.A..
+..d....
+.m.....
+....t..
+
+Aria misses
+
+Beat 13
+-------
+
+Aria
+----
+Life: 7
+Discard 1: Photovoltaic Shot
+Discard 2: Laser Burst
+Special action available
+
+Kajia
+-----
+Life: 2
+Discard 1: Parasitic Dash
+Discard 2: Burrowing Strike
+0 insects on Aria's discard 1
+0 insects on Aria's discard 2
+
+
+..K.A..
+..d....
+.m.....
+....t..
+
+
+Aria:
+51% Ionic Reconfiguration
+49% Ionic Drive
+
+Kajia:
+51% Stinging Burst
+49% Stinging Grasp
+
+
+Aria: Ionic Drive
+Kajia: Stinging Grasp
+
+Priorities:  5 | 5
+Clash!
+
+
+Aria: Ionic Reconfiguration
+Kajia: Stinging Drive
+
+Priorities:  4 | 4
+Clash!
+
+
+Aria: Ionic Dash
+Kajia: Stinging Mandibles
+
+Priorities:  10 | 3
+Aria is active
+Aria moves Kajia:
+
+.K..A..
+..d....
+.m.....
+....t..
+
+Aria moves:
+
+.K....A
+..d....
+.m.....
+....t..
+
+Kajia moves:
+
+..K...A
+..d....
+.m.....
+....t..
+
+Kajia misses
+Kajia moves:
+
+...K..A
+..d....
+.m.....
+....t..
+
+Kajia loses 1 life (now at 1)
+
+Beat 14
+-------
+
+Aria
+----
+Life: 7
+Discard 1: Ionic Dash
+Discard 2: Photovoltaic Shot
+Special action available
+
+Kajia
+-----
+Life: 1
+Discard 1: Stinging Mandibles
+Discard 2: Parasitic Dash
+0 insects on Aria's discard 1
+0 insects on Aria's discard 2
+
+
+...K..A
+..d....
+.m.....
+....t..
+
+Unbeatable strategy for Aria: Laser Grasp: 6.00
+Unbeatable strategy for Aria: Catalyst Drive: 6.00
+
+
+Aria:
+25% Laser Strike
+25% Laser Drive
+25% Laser Grasp
+25% Catalyst Drive
+
+Kajia:
+6% Burrowing Strike
+6% Burrowing Shot
+5% Burrowing Drive
+11% Burrowing Burst
+6% Burrowing Grasp
+5% Swarming Strike
+5% Swarming Shot
+5% Swarming Drive
+10% Swarming Burst
+6% Swarming Grasp
+6% Biting Strike
+6% Biting Shot
+6% Biting Drive
+9% Biting Burst
+6% Biting Grasp
+
+
+Aria: Laser Strike
+Kajia: Swarming Burst
+
+Priorities:  3 | 0
+Aria is active
+Kajia moves:
+
+.K....A
+..d....
+.m.....
+....t..
 
 Aria hits
-Kajia takes 3 damage (now at 0 life)
+Kajia takes 4 damage (now at 0 life)
 ARIA WINS!
-total_time: 15
+total_time: 19

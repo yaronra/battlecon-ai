@@ -11,17 +11,17 @@ Beat 1
 
 Danny
 -----
-life: 20
-discard 1: Fallen Burst
-discard 2: Vicious Shot
-special action
+Life: 20
+Discard 1: Fallen Burst
+Discard 2: Vicious Shot
+Special action available
 
 Voco
 ----
-life: 20
-discard 1: Thunderous Drive
-discard 2: Monster Burst
-special action
+Life: 20
+Discard 1: Thunderous Shred
+Discard 2: Monster Burst
+Special action available
 
 
 .D...V.
@@ -29,21 +29,21 @@ special action
 
 
 Unbeatable strategy for Danny: Monstrous Hellgate: 5.81
-Unbeatable strategy for Danny: Shackled Hellgate: 2.81
+Unbeatable strategy for Danny: Shackled Hellgate: 2.83
+
 
 Danny:
-53% Shackled Hellgate
-14% Shackled Strike
-7% Shackled Grasp
-26% Sinner's Strike
+50% Shackled Hellgate
+26% Shackled Grasp
+24% Sinner's Strike
 
 Voco:
-8% Hellraising Shot
+9% Hellraising Shot
 2% Abyssal Strike
 90% Special Pulse
 
 
-Danny: Sinner's Strike
+Danny: Shackled Hellgate
 Voco: Special Pulse
 
 Pulse:
@@ -58,127 +58,148 @@ Beat 1
 
 Danny
 -----
-life: 20
-discard 1: Sinner's Strike
-discard 2: Fallen Burst
-special action
+Life: 20
+Discard 1: Shackled Hellgate
+Discard 2: Fallen Burst
+Special action available
 
 Voco
 ----
-life: 20
-discard 1: Thunderous Drive
-discard 2: Monster Burst
+Life: 20
+Discard 1: Thunderous Shred
+Discard 2: Monster Burst
 
 
 D.....V
 
 
 
-Unbeatable strategy for Danny: Monstrous Hellgate: 8.08
-Unbeatable strategy for Danny: Shackled Hellgate: 7.78
 
 Danny:
-96% Monstrous Hellgate
-4% Vicious Hellgate
+15% Monstrous Strike
+11% Sinner's Shot
+53% Sinner's Drive
+22% Vicious Dash
 
 Voco:
-100% Metal Dash
+15% Hellraising Shot
+16% Abyssal Strike
+31% Abyssal Shot
+38% Abyssal Drive
 
 
-Danny: Monstrous Hellgate
-Voco: Metal Dash
+Danny: Sinner's Drive
+Voco: Hellraising Shot
 
-Priorities:  -1 | 9
-Voco is active
-Voco moves:
+Priorities:  4 | 0
+Danny is active
 
-D...V..
+D.....V
 
-
-
-
-D...V..
-
-.....zz
-
-Voco moves:
-
-DV.....
-
-.....zz
-
-
-DV.....
-
-..zzzzz
+.zzzzz.
 
 Danny moves:
 
-.V....D
+..D...V
 
-..zzzzz
+.zzzzz.
 
+Danny hits
+Voco has 2 soak
+Voco takes 0 damage (now at 20 life)
 Danny adds monsters to the board:
 
-.V....D
-mmm....
-..zzzzz
+..D...V
+.....m.
+..z.zz.
 
-Danny loses 1 life (now at 19)
+Danny moves his monsters:
+
+..D...V
+......m
+..z.zz.
+
+Voco hits
+Danny takes 2 damage (now at 18 life)
+Danny is stunned
+Danny loses 1 life (now at 17)
 
 Beat 2
 -------
 
 Danny
 -----
-life: 19
-discard 1: Monstrous Hellgate
-discard 2: Sinner's Strike
-special action
+Life: 17
+Discard 1: Sinner's Drive
+Discard 2: Shackled Hellgate
+Special action available
 
 Voco
 ----
-life: 20
-discard 1: Metal Dash
-discard 2: Thunderous Drive
+Life: 20
+Discard 1: Hellraising Shot
+Discard 2: Thunderous Shred
 
 
-.V....D
-mmm....
-..zzzz.
+..D...V
+......m
+....zz.
+
 
 Danny:
-19% Fallen Shot
-43% Fallen Grasp
-38% Vicious Grasp
+13% Monstrous Burst
+7% Fallen Burst
+36% Fallen Grasp
+9% Fallen Dash
+36% Vicious Grasp
 
 Voco:
-30% Hellraising Shot
-11% Abyssal Shot
-59% Abyssal Grasp
+3% Monster Strike
+61% Metal Dash
+11% Abyssal Strike
+11% Abyssal Drive
+14% Abyssal Grasp
 
 
-Danny: Vicious Grasp
-Voco: Abyssal Grasp
+Danny: Fallen Burst
+Voco: Metal Dash
 
-Priorities:  7 | 5
-Danny is active
-Danny hits
-Danny gets +1 power
-Danny moves Voco:
+Priorities:  1 | 9
+Voco is active
+Danny moves:
 
-V.....D
-mmm....
-..zzzz.
+.D....V
+......m
+....zz.
 
-Voco has 1 soak
-Voco takes 1 damage (now at 19 life)
-Voco is stunned
+Voco moves:
+
+.D..V..
+......m
+....zz.
+
+
+.D..V..
+......m
+....zzz
+
+Voco moves:
+
+VD.....
+......m
+....zzz
+
+
+VD.....
+......m
+..zzzzz
+
+Danny misses
 Danny adds monsters to the board:
 
-V.....D
-mmm..m.
-..zzz..
+VD.....
+...m..m
+..zzzzz
 
 
 Beat 3
@@ -186,584 +207,588 @@ Beat 3
 
 Danny
 -----
-life: 19
-discard 1: Vicious Grasp
-discard 2: Monstrous Hellgate
-special action
+Life: 17
+Discard 1: Fallen Burst
+Discard 2: Sinner's Drive
+Special action available
 
 Voco
 ----
-life: 19
-discard 1: Abyssal Grasp
-discard 2: Metal Dash
+Life: 20
+Discard 1: Metal Dash
+Discard 2: Hellraising Shot
 
 
-V.....D
-mmm..m.
-..zzz..
+VD.....
+...m..m
+..zzzzz
+
+Unbeatable strategy for Danny: Monstrous Hellgate: 0.95
+Unbeatable strategy for Danny: Shackled Hellgate: 1.00
+
 
 Danny:
-14% Fallen Strike
-3% Fallen Shot
-43% Shackled Strike
-40% Shackled Shot
+50% Monstrous Hellgate
+10% Monstrous Grasp
+14% Shackled Strike
+27% Vicious Hellgate
 
 Voco:
-7% Hellraising Shot
-57% Hellraising Drive
-7% Thunderous Shot
-29% Thunderous Drive
+51% Monster Strike
+29% Monster Drive
+7% Abyssal Drive
+13% Thunderous Burst
 
 
-Danny: Shackled Strike
-Voco: Hellraising Drive
+Danny: Monstrous Grasp
+Voco: Thunderous Burst
 
-Priorities:  2 | 2
-Clash!
-
-Danny:
-100% Shackled Burst
-
-Voco:
-100% Hellraising Shot
-
-
-Danny: Shackled Burst
-Voco: Hellraising Shot
-
-Priorities:  0 | 0
-Clash!
-
-Danny:
-100% Shackled Shot
-
-Voco:
-100% Hellraising Strike
-
-
-Danny: Shackled Shot
-Voco: Hellraising Strike
-
-Priorities:  1 | 1
-Clash!
-
-Danny:
-100% Shackled Drive
-
-Voco:
-100% Hellraising Shred
-
-
-Danny: Shackled Drive
-Voco: Hellraising Shred
-
-Priorities:  3 | 2
+Priorities:  4 | 1
 Danny is active
+Voco moves:
 
-V.....D
-mmm..m.
-.zzzzz.
+.D.V...
+...m..m
+z.zzzzz
 
-Danny moves:
+Voco moves:
 
-V....D.
-mmm..m.
-.zzzzz.
+.D...V.
+...m..m
+z.zzzzz
 
-Danny hits
-Voco has 1 soak
-Voco takes 2 damage (now at 17 life)
-Voco is stunned
+Danny misses
 Danny adds monsters to the board:
 
-V....D.
-mmmm.m.
-.zzz.z.
+.D...V.
+m..m..m
+z.zzzzz
 
-Danny loses 1 life (now at 18)
+Voco hits
+Danny takes 2 damage (now at 15 life)
+Voco moves Danny:
+
+D....V.
+m..m..m
+z.zzzzz
+
+Voco removes monsters:
+
+D....V.
+...m..m
+z.zzzzz
+
+Danny loses 1 life (now at 14)
 
 Beat 4
 -------
 
 Danny
 -----
-life: 18
-discard 1: Shackled Drive
-discard 2: Vicious Grasp
-special action
+Life: 14
+Discard 1: Monstrous Grasp
+Discard 2: Fallen Burst
+Special action available
 
 Voco
 ----
-life: 17
-discard 1: Hellraising Shred
-discard 2: Abyssal Grasp
+Life: 20
+Discard 1: Thunderous Burst
+Discard 2: Metal Dash
 
 
-V....D.
-mmmm.m.
-.zzz...
+D....V.
+...m..m
+..zzzzz
 
-Unbeatable strategy for Danny: Monstrous Hellgate: 2.52
+Unbeatable strategy for Danny: Shackled Hellgate: 2.13
+
 
 Danny:
-71% Monstrous Hellgate
-1% Monstrous Strike
-8% Fallen Hellgate
-11% Fallen Strike
-10% Sinner's Hellgate
+29% Shackled Hellgate
+61% Sinner's Hellgate
+10% Sinner's Strike
 
 Voco:
-13% Monster Strike
-5% Monster Burst
-15% Metal Strike
-28% Metal Shot
-39% Metal Drive
+16% Monster Shot
+22% Hellraising Shot
+62% Abyssal Strike
 
 
-Danny: Monstrous Hellgate
-Voco: Metal Strike
+Danny: Sinner's Strike
+Voco: Abyssal Strike
 
-Priorities:  -1 | 3
+Priorities:  3 | 3
+Clash!
+
+
+Danny: Sinner's Hellgate
+Voco: Abyssal Shot
+
+Priorities:  0 | 2
 Voco is active
-Voco moves:
+Voco hits
+Danny has 3 soak
+Danny takes 0 damage (now at 14 life)
 
-..V..D.
-mmmm.m.
-.zzz...
+D....V.
+...m..m
+zzzzzzz
 
+Danny moves his monsters:
 
-..V..D.
-mmmm.m.
-zzzz...
-
-Voco misses
-Voco removes monsters:
-
-..V..D.
-.mmm.m.
-zzzz...
+D....V.
+..m..m.
+zzzzzzz
 
 Danny moves:
 
-..V.D..
-.mmm.m.
-zzzz...
+.....VD
+..m..m.
+zzzzzzz
 
 Danny adds monsters to the board:
 
-..V.D..
-mmmmmmm
-zzzz...
+.....VD
+m.mmmm.
+zzzzzzz
 
+Danny loses 1 life (now at 13)
 
 Beat 5
 -------
 
 Danny
 -----
-life: 18
-discard 1: Monstrous Hellgate
-discard 2: Shackled Drive
-special action
+Life: 13
+Discard 1: Sinner's Hellgate
+Discard 2: Monstrous Grasp
+Special action available
 
 Voco
 ----
-life: 17
-discard 1: Metal Strike
-discard 2: Hellraising Shred
+Life: 20
+Discard 1: Abyssal Shot
+Discard 2: Thunderous Burst
 
 
-..V.D..
-mmmmmmm
-zzzz...
+.....VD
+m.mmmm.
+zzzzzz.
+
 
 Danny:
-45% Fallen Strike
-7% Fallen Burst
-2% Fallen Grasp
-5% Vicious Burst
-41% Vicious Grasp
+64% Fallen Strike
+28% Fallen Shot
+2% Fallen Drive
+6% Shackled Strike
 
 Voco:
-4% Monster Burst
-17% Monster Grasp
-43% Abyssal Burst
-10% Abyssal Dash
-26% Thunderous Dash
+15% Monster Shred
+7% Monster Drive
+72% Monster Grasp
+6% Hellraising Dash
 
 
-Danny: Vicious Grasp
+Danny: Fallen Strike
+Voco: Monster Shred
+
+Priorities:  3 | 3
+Clash!
+
+
+Danny: Fallen Drive
 Voco: Monster Grasp
 
-Priorities:  10 | 4
+Priorities:  4 | 4
+Clash!
+
+
+Danny: Fallen Dash
+Voco: Monster Drive
+
+Priorities:  9 | 3
 Danny is active
-Danny hits
-Danny moves Voco:
+Danny moves:
 
-...VD..
-mmmmmmm
-zzzz...
+..D..V.
+m.mmmm.
+zzzzzz.
 
-Danny gets +3 power
-Voco has 1 soak
-Voco takes 3 damage (now at 14 life)
-Voco is stunned
+Voco moves:
+
+..D.V..
+m.mmmm.
+zzzzzz.
+
+Voco moves:
+
+..DV...
+m.mmmm.
+zzzzzz.
+
+Voco moves:
+
+.VD....
+m.mmmm.
+zzzzzz.
+
+Voco moves:
+
+..D.V..
+m.mmmm.
+zzzzzz.
+
+Voco misses
+Voco removes monsters:
+
+..D.V..
+m.m.mm.
+zzzzzz.
+
 
 Beat 6
 -------
 
 Danny
 -----
-life: 18
-discard 1: Vicious Grasp
-discard 2: Monstrous Hellgate
-special action
+Life: 13
+Discard 1: Fallen Dash
+Discard 2: Sinner's Hellgate
+Special action available
 
 Voco
 ----
-life: 14
-discard 1: Monster Grasp
-discard 2: Metal Strike
+Life: 20
+Discard 1: Monster Drive
+Discard 2: Abyssal Shot
 
 
-...VD..
-mmmmmmm
-zzz....
+..D.V..
+m.m.mm.
+zzzzzz.
+
 
 Danny:
-36% Fallen Strike
-45% Shackled Strike
-19% Shackled Shot
+3% Monstrous Shot
+10% Monstrous Burst
+32% Shackled Strike
+7% Shackled Drive
+10% Shackled Grasp
+37% Vicious Drive
 
 Voco:
-39% Abyssal Shot
-5% Abyssal Burst
-55% Abyssal Dash
+25% Metal Shred
+3% Metal Strike
+25% Metal Burst
+4% Metal Grasp
+26% Hellraising Strike
+17% Hellraising Dash
 
 
 Danny: Shackled Strike
-Voco: Abyssal Shot
+Voco: Hellraising Strike
 
-Priorities:  2 | 2
-Clash!
-
-Danny:
-51% Shackled Shot
-49% Shackled Burst
-
-Voco:
-42% Abyssal Drive
-58% Abyssal Burst
-
-
-Danny: Shackled Burst
-Voco: Abyssal Burst
-
-Priorities:  0 | 1
-Voco is active
-Danny moves:
-
-...V.D.
-mmmmmmm
-zzz....
-
-Voco misses
+Priorities:  2 | 1
+Danny is active
 Danny hits
-Voco takes 3 damage (now at 11 life)
-Voco is stunned
+Voco has 2 soak
+Voco takes 2 damage (now at 18 life)
+Danny adds monsters to the board:
+
+..D.V..
+m.mmmm.
+z.z.zz.
+
+Voco hits
+Danny takes 3 damage (now at 10 life)
+Voco removes monsters:
+
+..D.V..
+m..mmm.
+z.z.zz.
+
 
 Beat 7
 -------
 
 Danny
 -----
-life: 18
-discard 1: Shackled Burst
-discard 2: Vicious Grasp
-special action
+Life: 10
+Discard 1: Shackled Strike
+Discard 2: Fallen Dash
+Special action available
 
 Voco
 ----
-life: 11
-discard 1: Abyssal Burst
-discard 2: Monster Grasp
+Life: 18
+Discard 1: Hellraising Strike
+Discard 2: Monster Drive
 
 
-...V.D.
-mmmmmmm
-zzz....
+..D.V..
+m..mmm.
+z.z.zz.
 
-Unbeatable strategy for Voco: Metal Drive: -0.65
 
 Danny:
-73% Monstrous Strike
-27% Fallen Drive
+14% Monstrous Shot
+2% Monstrous Burst
+27% Sinner's Hellgate
+47% Sinner's Drive
+9% Sinner's Burst
 
 Voco:
-40% Metal Drive
-60% Metal Dash
+20% Metal Shred
+40% Metal Dash
+24% Abyssal Shred
+4% Abyssal Shot
+12% Abyssal Burst
 
 
-Danny: Monstrous Strike
-Voco: Metal Dash
+Danny: Monstrous Shot
+Voco: Metal Shred
 
-Priorities:  2 | 9
+Priorities:  1 | 4
 Voco is active
 Voco moves:
 
-.....DV
-mmmmmmm
-zzz....
+.VD....
+m..mmm.
+z.z.zz.
 
 
-.....DV
-mmmmmmm
-zzzzz..
+.VD....
+m..mmm.
+z.zzzz.
 
-Voco moves:
+Voco hits
+Voco gets +3 power
+Danny takes 4 damage (now at 6 life)
+Danny hits
+Voco has 1 soak
+Voco takes 3 damage (now at 15 life)
+Voco is stunned
+Danny adds monsters to the board:
 
-..V..D.
-mmmmmmm
-zzzzz..
+.VD....
+mm.mmm.
+z.z.zz.
 
+Danny adds monsters to the board:
 
-..V..D.
-mmmmmmm
-zzzzz.z
+.VD....
+mmmmmm.
+z.z.zz.
 
-Danny misses
+Danny loses 1 life (now at 5)
 
 Beat 8
 -------
 
 Danny
 -----
-life: 18
-discard 1: Monstrous Strike
-discard 2: Shackled Burst
-special action
+Life: 5
+Discard 1: Monstrous Shot
+Discard 2: Shackled Strike
+Special action available
 
 Voco
 ----
-life: 11
-discard 1: Metal Dash
-discard 2: Abyssal Burst
+Life: 15
+Discard 1: Metal Shred
+Discard 2: Hellraising Strike
 
 
-..V..D.
-mmmmmmm
-zzzzz.z
+.VD....
+mmmmmm.
+z...zz.
+
 
 Danny:
-7% Fallen Shot
 2% Fallen Drive
-91% Fallen Grasp
+81% Sinner's Hellgate
+10% Sinner's Drive
+8% Vicious Drive
 
 Voco:
-6% Monster Drive
-87% Hellraising Shred
-6% Thunderous Grasp
+4% Monster Shot
+24% Thunderous Drive
+27% Thunderous Burst
+44% Thunderous Dash
 
 
-Danny: Fallen Grasp
-Voco: Hellraising Shred
+Danny: Sinner's Hellgate
+Voco: Thunderous Dash
 
-Priorities:  5 | 2
-Danny is active
+Priorities:  0 | 9
+Voco is active
 Voco moves:
 
-.V...D.
+..D.V..
+mmmmmm.
+zz..zz.
+
+Voco moves:
+
+..DV...
+mmmmmm.
+zz..zz.
+
+Danny moves his monsters:
+
+..DV...
+mmmmmm.
+zz..zz.
+
+Danny moves:
+
+...VD..
+mmmmmm.
+zz..zz.
+
+Danny adds monsters to the board:
+
+...VD..
 mmmmmmm
-zzzzz.z
+zz..zz.
 
-Danny hits
-Danny gets +2 power
-Danny moves Voco:
-
-V....D.
-mmmmmmm
-zzzzz.z
-
-Voco has 2 soak
-Voco takes 1 damage (now at 10 life)
-Voco is stunned
+Danny loses 1 life (now at 4)
 
 Beat 9
 -------
 
 Danny
 -----
-life: 18
-discard 1: Fallen Grasp
-discard 2: Monstrous Strike
-special action
+Life: 4
+Discard 1: Sinner's Hellgate
+Discard 2: Monstrous Shot
+Special action available
 
 Voco
 ----
-life: 10
-discard 1: Hellraising Shred
-discard 2: Metal Dash
+Life: 15
+Discard 1: Thunderous Dash
+Discard 2: Metal Shred
 
 
-V....D.
+...VD..
 mmmmmmm
-zzzz...
+zz...z.
 
-Unbeatable strategy for Voco: Abyssal Shot: -0.83
 
 Danny:
-27% Shackled Hellgate
-4% Shackled Burst
-69% Vicious Hellgate
+20% Fallen Strike
+49% Fallen Grasp
+30% Shackled Strike
 
 Voco:
-42% Abyssal Strike
-46% Abyssal Shot
-6% Abyssal Drive
-7% Abyssal Burst
+23% Monster Grasp
+58% Hellraising Burst
+19% Abyssal Shot
 
 
-Danny: Shackled Hellgate
-Voco: Abyssal Drive
+Danny: Fallen Grasp
+Voco: Hellraising Burst
 
-Priorities:  -1 | 4
-Voco is active
-Voco hits
-Danny has 3 soak
-Danny takes 0 damage (now at 18 life)
-Voco removes monsters:
+Priorities:  5 | -1
+Danny is active
+Voco moves:
 
-V....D.
-mmm.mmm
-zzzz...
-
-
-V....D.
-mmm.mmm
-zzzzzz.
-
-Danny moves:
-
-V.....D
-mmm.mmm
-zzzzzz.
-
-Danny adds monsters to the board:
-
-V.....D
+.V..D..
 mmmmmmm
-zzzzzz.
+zz...z.
 
+Voco moves:
+
+V...D..
+mmmmmmm
+zz...z.
+
+
+V...D..
+mmmmmmm
+zzzz.z.
+
+Danny hits
+Danny gets +2 power
+Danny moves Voco:
+
+.V..D..
+mmmmmmm
+zzzz.z.
+
+Voco has 2 soak
+Voco takes 1 damage (now at 14 life)
+Voco is stunned
 
 Beat 10
 -------
 
 Danny
 -----
-life: 18
-discard 1: Shackled Hellgate
-discard 2: Fallen Grasp
-special action
+Life: 4
+Discard 1: Fallen Grasp
+Discard 2: Sinner's Hellgate
+Special action available
 
 Voco
 ----
-life: 10
-discard 1: Abyssal Drive
-discard 2: Hellraising Shred
+Life: 14
+Discard 1: Hellraising Burst
+Discard 2: Thunderous Dash
 
 
-V.....D
+.V..D..
 mmmmmmm
-zzzzzz.
+zzz....
 
-Unbeatable strategy for Voco: Monster Strike: -2.20
+Unbeatable strategy for Voco: Abyssal Strike: -0.36
+
 
 Danny:
-85% Monstrous Strike
-15% Vicious Strike
+4% Monstrous Drive
+68% Monstrous Dash
+11% Shackled Drive
+1% Shackled Dash
+16% Vicious Drive
+0% Vicious Burst
 
 Voco:
-25% Monster Strike
-75% Monster Grasp
+19% Monster Strike
+18% Monster Shot
+4% Metal Drive
+39% Abyssal Strike
+8% Abyssal Shot
+13% Abyssal Grasp
 
 
-Danny: Monstrous Strike
-Voco: Monster Strike
+Danny: Vicious Drive
+Voco: Abyssal Strike
 
-Priorities:  2 | 2
-Clash!
-
-Danny:
-100% Monstrous Drive
-
-Voco:
-100% Monster Grasp
-
-
-Danny: Monstrous Drive
-Voco: Monster Grasp
-
-Priorities:  3 | 4
-Voco is active
-Voco moves:
-
-.V....D
-mmmmmmm
-zzzzzz.
-
-Voco moves:
-
-..V...D
-mmmmmmm
-zzzzzz.
-
-Voco moves:
-
-...V..D
-mmmmmmm
-zzzzzz.
-
-Voco moves:
-
-....V.D
-mmmmmmm
-zzzzzz.
-
-Voco moves:
-
-.....VD
-mmmmmmm
-zzzzzz.
-
-Voco hits
-Voco moves Danny:
-
-....DV.
-mmmmmmm
-zzzzzz.
-
-Danny takes 2 damage (now at 16 life)
-Voco removes monsters:
-
-....DV.
-mmmm.mm
-zzzzzz.
-
+Priorities:  10 | 3
+Danny is active
 Danny moves:
 
-.....VD
-mmmm.mm
-zzzzzz.
+.V.D...
+mmmmmmm
+zzz....
 
 Danny hits
+Danny gets +1 power
 Voco has 1 soak
-Voco takes 3 damage (now at 7 life)
-Voco is stunned
-Danny adds monsters to the board:
+Voco takes 2 damage (now at 12 life)
+Voco misses
+Voco removes monsters:
 
-.....VD
-mmmmmmm
-zzzzz..
+.V.D...
+mmmmmm.
+zz.....
+
+
+.V.D...
+mmmmmm.
+zz..zzz
 
 
 Beat 11
@@ -771,121 +796,257 @@ Beat 11
 
 Danny
 -----
-life: 16
-discard 1: Monstrous Drive
-discard 2: Shackled Hellgate
-special action
+Life: 4
+Discard 1: Vicious Drive
+Discard 2: Fallen Grasp
+Special action available
 
 Voco
 ----
-life: 7
-discard 1: Monster Grasp
-discard 2: Abyssal Drive
+Life: 12
+Discard 1: Abyssal Strike
+Discard 2: Hellraising Burst
 
 
-.....VD
-mmmmmmm
-zzzzz..
+.V.D...
+mmmmmm.
+zz..zzz
 
-Unbeatable strategy for Danny: Fallen Grasp: 0.78
-Unbeatable strategy for Danny: Vicious Strike: 0.94
+Unbeatable strategy for Danny: Shackled Hellgate: 0.21
+
 
 Danny:
-95% Fallen Strike
-5% Vicious Strike
+7% Monstrous Strike
+93% Shackled Hellgate
 
 Voco:
-8% Metal Strike
-92% Hellraising Burst
+31% Metal Shred
+69% Metal Drive
 
 
-Danny: Fallen Strike
-Voco: Hellraising Burst
+Danny: Shackled Hellgate
+Voco: Metal Drive
 
-Priorities:  3 | -1
-Danny is active
-Voco moves:
+Priorities:  -1 | 4
+Voco is active
+Voco hits
+Danny has 3 soak
+Danny takes 0 damage (now at 4 life)
+Voco removes monsters:
 
-....V.D
+.V.D...
+mmm.mm.
+zz..zzz
+
+Danny moves:
+
+.V....D
+mmm.mm.
+zz..zzz
+
+Danny adds monsters to the board:
+
+.V....D
 mmmmmmm
-zzzzz..
+zz..zzz
 
-
-....V.D
-mmmmmmm
-zzzzzz.
-
-Voco moves:
-
-..V...D
-mmmmmmm
-zzzzzz.
-
-Danny hits
-Danny gets +2 power
-Voco has 1 soak
-Voco takes 4 damage (now at 3 life)
-Voco is stunned
+Danny loses 1 life (now at 3)
 
 Beat 12
 -------
 
 Danny
 -----
-life: 16
-discard 1: Fallen Strike
-discard 2: Monstrous Drive
-special action
+Life: 3
+Discard 1: Shackled Hellgate
+Discard 2: Vicious Drive
+Special action available
 
 Voco
 ----
-life: 3
-discard 1: Hellraising Burst
-discard 2: Monster Grasp
+Life: 12
+Discard 1: Metal Drive
+Discard 2: Abyssal Strike
+
+
+.V....D
+mmmmmmm
+zz..zz.
+
+
+Danny:
+8% Monstrous Strike
+29% Fallen Strike
+63% Fallen Grasp
+
+Voco:
+55% Thunderous Shred
+7% Thunderous Shot
+38% Thunderous Grasp
+
+
+Danny: Fallen Grasp
+Voco: Thunderous Grasp
+
+Priorities:  5 | 5
+Clash!
+
+
+Danny: Fallen Strike
+Voco: Thunderous Shred
+
+Priorities:  3 | 4
+Voco is active
+Voco moves:
+
+...V..D
+mmmmmmm
+zz..zz.
+
+Voco misses
+Danny hits
+Danny gets +2 power
+Voco has 1 soak
+Voco takes 4 damage (now at 8 life)
+Voco is stunned
+
+Beat 13
+-------
+
+Danny
+-----
+Life: 3
+Discard 1: Fallen Strike
+Discard 2: Shackled Hellgate
+Special action available
+
+Voco
+----
+Life: 8
+Discard 1: Thunderous Shred
+Discard 2: Metal Drive
+
+
+...V..D
+mmmmmmm
+zz..z..
+
+
+Danny:
+12% Monstrous Burst
+29% Monstrous Grasp
+59% Vicious Grasp
+
+Voco:
+15% Monster Strike
+22% Hellraising Strike
+64% Hellraising Shot
+
+
+Danny: Vicious Grasp
+Voco: Hellraising Shot
+
+Priorities:  9 | 0
+Danny is active
+Voco moves:
+
+..V...D
+mmmmmmm
+zz..z..
 
 
 ..V...D
 mmmmmmm
-zzzzz..
+zz.zzz.
 
-Unbeatable strategy for Danny: Vicious Shot: 2.14
-Unbeatable strategy for Danny: Vicious Burst: 2.14
-Unbeatable strategy for Danny: Vicious Grasp: 8.00
+Danny hits
+Danny moves Voco:
+
+...V..D
+mmmmmmm
+zz.zzz.
+
+Danny gets +3 power
+Voco has 1 soak
+Voco takes 3 damage (now at 5 life)
+Voco is stunned
+
+Beat 14
+-------
+
+Danny
+-----
+Life: 3
+Discard 1: Vicious Grasp
+Discard 2: Fallen Strike
+Special action available
+
+Voco
+----
+Life: 5
+Discard 1: Hellraising Shot
+Discard 2: Thunderous Shred
+
+
+...V..D
+mmmmmmm
+zz.zz..
+
 
 Danny:
-100% Vicious Grasp
+100% Special The Dark Ride
 
 Voco:
-5% Metal Shred
-5% Metal Strike
-6% Metal Shot
+6% Monster Strike
+7% Monster Drive
+4% Monster Burst
+7% Monster Grasp
+7% Monster Dash
+8% Metal Strike
 5% Metal Drive
+7% Metal Burst
+9% Metal Grasp
 7% Metal Dash
-5% Abyssal Shred
-6% Abyssal Strike
-6% Abyssal Shot
-6% Abyssal Drive
-18% Abyssal Dash
-8% Thunderous Shred
-5% Thunderous Strike
-6% Thunderous Shot
-7% Thunderous Drive
-5% Thunderous Dash
+5% Abyssal Strike
+7% Abyssal Drive
+6% Abyssal Burst
+7% Abyssal Grasp
+8% Abyssal Dash
 
 
-Danny: Vicious Grasp
-Voco: Abyssal Drive
+Danny: Special The Dark Ride
+Voco: Metal Strike
 
-Priorities:  10 | 4
+Priorities:  6 | 3
 Danny is active
 Danny hits
-Danny gets +2 power
+Danny moves Voco:
+
+..V...D
+mmm.mmm
+zz.zz..
+
+Voco takes 2 damage (now at 3 life)
+Danny hits
 Danny moves Voco:
 
 .V....D
-mmmmmmm
+mm..mmm
+zz.zz..
+
+
+.V....D
+mm..mmm
 zzzzz..
 
-Voco takes 3 damage (now at 0 life)
+Voco takes 2 damage (now at 1 life)
+Danny hits
+Danny moves Voco:
+
+V.....D
+m...mmm
+zzzzz..
+
+Voco takes 2 damage (now at 0 life)
 DANNY WINS!
-total_time: 23
+total_time: 33
