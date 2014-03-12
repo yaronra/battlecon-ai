@@ -23,17 +23,9 @@
 #         2. Not clear how to evaluate spent ante, which might be
 #            a complete loss, or still useful this beat.
 
-# Cancel vs. Finisher puts virtual finisher base in discard, instead of
-# real base played to invoke the Finisher.  Can be tricky to fix, since
-# real base played isn't determined.
-
-# Cancel vs. Pulse does the same, when Pulse should actually trump Cancel
-# (putting Cancel's special action into discard, as it didn't activate).
-# Need to qualify the Cancel check so that it doesn't activate if
-# opponent Pulsed
-
-# Pulse vs. Finisher doesn't put opponent's special action in discard.
-
+# Cancel vs. Finisher doesn't discard real base played to invoke the 
+# Finisher.  Can be tricky to fix, since real base played isn't 
+# determined.
 
 # when a Cancel ends up killing the opponent, points are still deducted
 # for spending the special action
@@ -808,16 +800,17 @@ class Game:
             # Cancel - return an appropriate cancel indicator
             # (depending on who cancelled).
             # This will be solved retroactively.
-            cancel0 = isinstance (self.player[0].base, Cancel)
-            cancel1 = isinstance (self.player[1].base, Cancel)
-            if cancel0 or cancel1:
+            # Check that there's no Pulse that trumps the Cancel.
+            cancel = [p.base is p.cancel for p in self.player]
+            pulse = [p.base is p.pulse for p in self.player]
+            if any(cancel) and not any(pulse):
                 final_state = self.full_save (None)
-            if cancel0 and cancel1:
-                return self.CANCEL_BOTH_INDICATOR, final_state, self.fork_decisions[:]
-            if cancel0:
-                return self.CANCEL_0_INDICATOR, final_state, self.fork_decisions[:]
-            if cancel1:
-                return self.CANCEL_1_INDICATOR, final_state, self.fork_decisions[:]
+                if all(cancel):
+                    return self.CANCEL_BOTH_INDICATOR, final_state, self.fork_decisions[:]
+                if cancel[0]:
+                    return self.CANCEL_0_INDICATOR, final_state, self.fork_decisions[:]
+                if cancel[1]:
+                    return self.CANCEL_1_INDICATOR, final_state, self.fork_decisions[:]
 
             # save state before pulse phase (stage 0)
             state = self.full_save (0)
@@ -833,10 +826,11 @@ class Game:
                 # Not using execute_move, because Pulse negates any blocking
                 # or reaction effects (including status effects from last beat).
                 if len (pulsing_players) == 1:
+                    pulser = pulsing_players[0]
                     pairs = list(itertools.permutations(xrange(7), 2))
                     prompt = "Choose positions after Pulse:"
                     options = []
-                    if pulsing_players[0].is_user and self.interactive_mode:
+                    if pulser.is_user and self.interactive_mode:
                         current_pair = (self.player[0].position,
                                         self.player[1].position)
                         for pair in pairs:
@@ -846,22 +840,25 @@ class Game:
                         (self.player[0].position,
                          self.player[1].position) = current_pair
                     (self.player[0].position,
-                     self.player[1].position) = pairs [
-                                                 self.make_fork (len(pairs),
-                                                 pulsing_players[0],
-                                                 prompt, options)]
+                     self.player[1].position) = pairs[self.make_fork(
+                                    len(pairs), pulser, prompt, options)]
                     if self.reporting:
                         self.report ('Pulse:')
                         for s in self.get_board():
                             self.report (s)
-                
+                    # If non-pulsing player played a special action, put
+                    # it in discard.
+                    opp = pulser.opponent
+                    if opp.style is opp.special_action:
+                        opp.discard[1].add(opp.special_action)
+                    
                 # With double pulse, put special
                 # action card in discard so that it returns
                 # in 3 beats.
                 if len(pulsing_players) == 2:
                     for p in pulsing_players:
                         p.discard[1].add(p.special_action)
-                        
+                
                 # For any Pulse, skip directly to 
                 # cycle and evaluation phase.
                 if pulsing_players:
@@ -1308,9 +1305,17 @@ class Game:
             for c in cancellers:
                 c.special_action_available = False
             if self.player[0] not in cancellers:
-                self.player[0].discard[1] |= set(s0[:2])
+                if isinstance(s0[1], Finisher):
+                    self.player[0].discard[1].add(self.player[0].special_action)
+                    self.player[0].special_action_available = False
+                else:
+                    self.player[0].discard[1] |= set(s0[:2])
             if self.player[1] not in cancellers:
-                self.player[1].discard[1] |= set(s1[:2])
+                if isinstance(s1[1], Finisher):
+                    self.player[1].discard[1].add(self.player[1].special_action)
+                    self.player[1].special_action_available = False
+                else:
+                    self.player[1].discard[1] |= set(s1[:2])
             self.initial_state = self.initial_save ()
             # Re-simulate available strategies with updated situation.
             post_cancel_results = [[float(self.simulate (t0,t1)[0])
