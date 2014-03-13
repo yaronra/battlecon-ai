@@ -6,8 +6,7 @@ import csv
 import os
 import re
 
-phrases = {  'abarene' : ['Hallicris Snare'],
-             'adjenna' : ['Basilisk Gaze'],
+phrases = {  'adjenna' : ['Basilisk Gaze'],
              'alexian' : ['Empire Divider', 'Hail The King'],
              'arec': ['Uncanny Oblivion'],
              'aria' : ['Laser Lattice'],
@@ -745,31 +744,6 @@ def percentify (fraction):
         return str (int (fraction*100+.5)) + '%'
     else:
         return str(int(fraction*1000+.5)/10.0)+'%'
-
-def abarene_tokens (logdir="free_for_all"):
-    token_dict = {'Dizziness':0,
-                  'Fatigue':0,
-                  'Nausea':0,
-                  'Pain Spike':0}
-    beats = 0
-    for filename in list_files(logdir, 'abarene'):
-        with open (filename) as f:
-            log = [line for line in f]
-        abarene_reporting = False
-        previous_line = ''
-        for line in log:
-            if line.startswith('---'):
-                abarene_reporting = (previous_line == 'Abarene\n')
-            elif abarene_reporting and line.startswith ('pool:'):
-                tokens = line[6:-1].split(', ')
-                for t in tokens:
-                    if t!='':
-                        token_dict[t] += 1
-                beats += 1
-            previous_line = line
-    for token, count in token_dict.items():
-        print token, percentify(count/float(beats))
-    print "total:", sum([token_dict[t] for t in token_dict])/float(beats)
 
 def adjenna_marker_beat (target=1, logdir="free_for_all"):
     # 1-15 is beat in which opponent got to target number of markers
