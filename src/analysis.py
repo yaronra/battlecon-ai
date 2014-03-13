@@ -7,7 +7,7 @@ import os
 import re
 
 phrases = {  'adjenna' : ['Basilisk Gaze'],
-             'alexian' : ['Empire Divider', 'Hail The King'],
+             'alexian' : ['Empire Divider', 'Hail the King'],
              'arec': ['Uncanny Oblivion'],
              'aria' : ['Laser Lattice'],
              'byron' : ['Soul Trap', 'Soul Gate'],
@@ -869,16 +869,8 @@ def alexian_tokens (logdir="free_for_all"):
                 while log[i+j].endswith (" antes a Chivalry token\n"):
                     j += 1
                 current_ante_count = j
-            if line.startswith("Opponent has ") and \
-               line.endswith("Chivalry tokens\n"):
-                current_tokens = int(line[13])
-                if current_ante_count is not None:
-                    antes[current_ante_count] += 1
-                    post_ante[current_tokens - current_ante_count] += 1
-                current_ante_count = 0
-                tokens[current_tokens] += 1
-                beat_sums[current_beat] += 1
-                beat_counts[current_beat] += current_tokens
+            if " has " in line and " Chivalry token" in line:
+                current_tokens = int(line.split()[2])
     antes[current_ante_count] += 1
     post_ante[current_tokens - current_ante_count] += 1
     tokens[current_tokens] += 1

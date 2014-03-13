@@ -11,66 +11,70 @@ Beat 1
 
 Karin
 -----
-life: 20
-discard 1: Full Moon Strike
-discard 2: Coordinated Grasp
-special action
+Life: 20
+Discard 1: Dual Grasp
+Discard 2: Howling Strike
+Special action available
 
 Zaamassal
 ---------
-life: 20
-discard 1: Malicious Grasp
-discard 2: Sinuous Burst
-special action
+Life: 20
+Discard 1: Malicious Grasp
+Discard 2: Sinuous Burst
+Special action available
 Active paradigm: None
 
 
 .K...Z.
-.j.....
+..j....
+
 
 Karin:
-18% Howling Burst
+12% Coordinated Burst
+14% Full Moon Shot
+11% Full Moon Burst
 37% Feral Claw
-28% Feral Shot
-2% Dual Burst
-14% Dual Dash
+25% Feral Shot
 
 Zaamassal:
-16% Urgent Paradigm Shift
-5% Urgent Strike
-13% Urgent Drive
-32% Sturdy Shot
-33% Warped Drive
+34% Urgent Paradigm Shift
+9% Urgent Strike
+17% Urgent Drive
+13% Urgent Dash
+27% Warped Drive
 
 
-Karin: Feral Shot
-Zaamassal: Warped Drive
+Karin: Coordinated Burst
+Zaamassal: Urgent Dash
 
-Priorities:  3 | 4
+Priorities:  1 | 11
 Zaamassal is active
-Zaamassal moves:
-
-.K....Z
-.j.....
-
 Karin moves:
 
-..K...Z
-.j.....
+K....Z.
+..j....
 
 Zaamassal moves:
 
-..K..Z.
-.j.....
+K...Z..
+..j....
 
-Zaamassal hits
-Karin takes 3 damage (now at 17 life)
-Karin is stunned
-Zaamassal assumes the Paradigm of Distortion
-Karin moves:
+Zaamassal assumes the Paradigm of Haste
+Zaamassal moves:
 
-...K.Z.
-.j.....
+K....Z.
+..j....
+
+Karin misses
+Jager moves:
+
+K....Z.
+...j...
+
+Jager moves:
+
+K....Z.
+....j..
 
 
 Beat 2
@@ -78,63 +82,58 @@ Beat 2
 
 Karin
 -----
-life: 17
-discard 1: Feral Shot
-discard 2: Full Moon Strike
-special action
+Life: 20
+Discard 1: Coordinated Burst
+Discard 2: Dual Grasp
+Special action available
 
 Zaamassal
 ---------
-life: 20
-discard 1: Warped Drive
-discard 2: Malicious Grasp
-special action
-Active paradigm: Distortion
+Life: 20
+Discard 1: Urgent Dash
+Discard 2: Malicious Grasp
+Special action available
+Active paradigm: Haste
 
 
-...K.Z.
-.j.....
+K....Z.
+....j..
+
+Unbeatable strategy for Zaamassal: Warped Strike: -0.02
+
 
 Karin:
-13% Coordinated Claw
-87% Dual Dash
+6% Howling Strike
+94% Howling Shot
 
 Zaamassal:
-83% Sinuous Strike
-17% Urgent Paradigm Shift
+73% Sinuous Strike
+27% Warped Strike
 
 
-Karin: Dual Dash
+Karin: Howling Shot
 Zaamassal: Sinuous Strike
 
-Priorities:  9 | 4
-Karin is active
-Jager moves:
-
-...K.Z.
-..j....
-
-Karin moves:
-
-.....ZK
-..j....
-
+Priorities:  3 | 4
+Zaamassal is active
 Zaamassal misses
 Zaamassal assumes the Paradigm of Fluidity
+Karin hits
+Zaamassal takes 3 damage (now at 17 life)
+Zaamassal moves:
+
+K.....Z
+....j..
+
 Jager moves:
 
-.....ZK
-...j...
+K.....Z
+.....j.
 
-Zaamassal moves:
+Jager moves:
 
-....Z.K
-...j...
-
-Zaamassal moves:
-
-Z.....K
-...j...
+K.....Z
+......j
 
 
 Beat 3
@@ -142,51 +141,43 @@ Beat 3
 
 Karin
 -----
-life: 17
-discard 1: Dual Dash
-discard 2: Feral Shot
-special action
+Life: 20
+Discard 1: Howling Shot
+Discard 2: Coordinated Burst
+Special action available
 
 Zaamassal
 ---------
-life: 20
-discard 1: Sinuous Strike
-discard 2: Warped Drive
-special action
+Life: 17
+Discard 1: Sinuous Strike
+Discard 2: Urgent Dash
+Special action available
 Active paradigm: Fluidity
 
 
-Z.....K
-...j...
+K.....Z
+......j
 
-Unbeatable strategy for Karin: Full Moon Grasp: 1.03
+Unbeatable strategy for Zaamassal: Sturdy Grasp: -0.30
+Unbeatable strategy for Zaamassal: Warped Grasp: -0.05
+
 
 Karin:
-9% Howling Burst
-44% Full Moon Strike
-47% Full Moon Grasp
+49% Full Moon Strike
+30% Feral Claw
+2% Feral Strike
+15% Feral Drive
+4% Dual Strike
 
 Zaamassal:
-27% Malicious Paradigm Shift
-15% Urgent Paradigm Shift
-58% Sturdy Shot
+4% Sturdy Paradigm Shift
+8% Sturdy Shot
+5% Sturdy Burst
+80% Sturdy Grasp
+4% Warped Drive
 
 
-Karin: Howling Burst
-Zaamassal: Sturdy Shot
-
-Priorities:  2 | 2
-Clash!
-
-Karin:
-66% Howling Strike
-34% Howling Grasp
-
-Zaamassal:
-100% Sturdy Burst
-
-
-Karin: Howling Strike
+Karin: Full Moon Strike
 Zaamassal: Sturdy Burst
 
 Priorities:  4 | 1
@@ -194,99 +185,75 @@ Karin is active
 Karin misses
 Zaamassal moves:
 
-.Z....K
-...j...
+K....Z.
+......j
 
 Zaamassal misses
-Jager moves:
-
-.Z....K
-..j....
-
-Zaamassal moves:
-
-..Z...K
-..j....
-
 
 Beat 4
 -------
 
 Karin
 -----
-life: 17
-discard 1: Howling Strike
-discard 2: Dual Dash
-special action
+Life: 20
+Discard 1: Full Moon Strike
+Discard 2: Howling Shot
+Special action available
 
 Zaamassal
 ---------
-life: 20
-discard 1: Sturdy Burst
-discard 2: Sinuous Strike
-special action
+Life: 17
+Discard 1: Sturdy Burst
+Discard 2: Sinuous Strike
+Special action available
 Active paradigm: Fluidity
 
 
-..Z...K
-..j....
+K....Z.
+......j
+
+Unbeatable strategy for Zaamassal: Urgent Paradigm Shift: -0.40
+Unbeatable strategy for Zaamassal: Urgent Drive: -0.44
+
 
 Karin:
-27% Coordinated Shot
-14% Full Moon Shot
-15% Full Moon Drive
-19% Feral Shot
-25% Feral Drive
+26% Coordinated Burst
+62% Feral Dash
+11% Dual Claw
 
 Zaamassal:
-29% Urgent Paradigm Shift
-8% Urgent Drive
-6% Warped Paradigm Shift
-1% Warped Drive
-55% Warped Grasp
+69% Urgent Drive
+23% Warped Shot
+8% Warped Drive
 
 
-Karin: Feral Drive
-Zaamassal: Urgent Paradigm Shift
+Karin: Coordinated Burst
+Zaamassal: Urgent Drive
 
-Priorities:  5 | 5
-Clash!
-
-Karin:
-56% Feral Shot
-44% Feral Burst
-
-Zaamassal:
-13% Urgent Drive
-87% Urgent Dash
-
-
-Karin: Feral Shot
-Zaamassal: Urgent Dash
-
-Priorities:  3 | 11
+Priorities:  1 | 6
 Zaamassal is active
-Karin moves:
+Zaamassal moves:
 
-..Z.K..
-..j....
+K...Z..
+......j
 
 Zaamassal moves:
 
-.Z..K..
-..j....
+K..Z...
+......j
 
-Zaamassal assumes the Paradigm of Haste
 Zaamassal moves:
 
-....KZ.
-..j....
+KZ.....
+......j
 
-Karin misses
+Zaamassal hits
+Karin takes 2 damage (now at 18 life)
+Karin is stunned
 Jager moves:
 
-....KZ.
-...j...
+KZ.....
+.....j.
 
 
 Beat 5
@@ -294,61 +261,72 @@ Beat 5
 
 Karin
 -----
-life: 17
-discard 1: Feral Shot
-discard 2: Howling Strike
-special action
+Life: 18
+Discard 1: Coordinated Burst
+Discard 2: Full Moon Strike
+Special action available
 
 Zaamassal
 ---------
-life: 20
-discard 1: Urgent Dash
-discard 2: Sturdy Burst
-special action
-Active paradigm: Haste
+Life: 17
+Discard 1: Urgent Drive
+Discard 2: Sturdy Burst
+Special action available
+Active paradigm: Fluidity
 
 
-....KZ.
-...j...
+KZ.....
+.....j.
 
-Unbeatable strategy for Zaamassal: Malicious Shot: -0.11
-Unbeatable strategy for Zaamassal: Sinuous Grasp: -1.96
+Unbeatable strategy for Zaamassal: Malicious Shot: -0.30
+Unbeatable strategy for Zaamassal: Warped Strike: -0.82
+
 
 Karin:
-100% Coordinated Grasp
+12% Howling Shot
+0% Feral Shot
+28% Feral Dash
+7% Dual Drive
+52% Dual Dash
 
 Zaamassal:
-100% Sinuous Grasp
+2% Sinuous Paradigm Shift
+11% Sinuous Shot
+83% Warped Strike
+0% Warped Shot
+3% Warped Dash
 
 
-Karin: Coordinated Grasp
-Zaamassal: Sinuous Grasp
+Karin: Dual Dash
+Zaamassal: Warped Strike
 
-Priorities:  5 | 6
-Zaamassal is active
-Zaamassal hits
-Zaamassal moves Karin:
-
-...K.Z.
-...j...
-
-Karin takes 2 damage (now at 15 life)
-Karin is stunned
-Zaamassal assumes the Paradigm of Fluidity
+Priorities:  9 | 3
+Karin is active
 Zaamassal moves:
 
-...KZ..
-...j...
-
-Zaamassal moves:
-
-Z..K...
-...j...
+K.Z....
+.....j.
 
 Jager moves:
 
-Z..K...
-..j....
+K.Z....
+...j...
+
+Karin moves:
+
+..Z.K..
+...j...
+
+Zaamassal moves:
+
+...ZK..
+...j...
+
+Zaamassal misses
+Zaamassal moves:
+
+..Z.K..
+...j...
 
 
 Beat 6
@@ -356,109 +334,126 @@ Beat 6
 
 Karin
 -----
-life: 15
-discard 1: Coordinated Grasp
-discard 2: Feral Shot
-special action
+Life: 18
+Discard 1: Dual Dash
+Discard 2: Coordinated Burst
+Special action available
 
 Zaamassal
 ---------
-life: 20
-discard 1: Sinuous Grasp
-discard 2: Urgent Dash
-special action
+Life: 17
+Discard 1: Warped Strike
+Discard 2: Urgent Drive
+Special action available
 Active paradigm: Fluidity
 
 
-Z..K...
-..j....
+..Z.K..
+...j...
+
 
 Karin:
-31% Full Moon Strike
-25% Full Moon Drive
-21% Dual Burst
-23% Dual Dash
+6% Howling Claw
+28% Howling Shot
+10% Full Moon Strike
+45% Full Moon Drive
+11% Feral Shot
 
 Zaamassal:
-27% Malicious Strike
-52% Malicious Shot
-3% Sturdy Shot
-19% Warped Drive
+16% Sinuous Grasp
+3% Sturdy Paradigm Shift
+55% Sturdy Shot
+20% Sturdy Burst
+7% Sturdy Dash
 
 
 Karin: Full Moon Drive
-Zaamassal: Warped Drive
+Zaamassal: Sturdy Shot
 
-Priorities:  5 | 4
+Priorities:  5 | 2
 Karin is active
 Karin moves:
 
-ZK.....
-..j....
+.KZ....
+...j...
 
 Karin hits
-Zaamassal takes 3 damage (now at 17 life)
-Zaamassal is stunned
-Zaamassal assumes the following paradigms:
-Jager moves:
+Zaamassal takes 5 damage (now at 12 life)
+Zaamassal moves:
 
 ZK.....
-.j.....
+...j...
 
+Zaamassal hits
+Karin takes 3 damage (now at 15 life)
+Karin is stunned
+Zaamassal assumes the Paradigm of Resilience
 
 Beat 7
 -------
 
 Karin
 -----
-life: 15
-discard 1: Full Moon Drive
-discard 2: Coordinated Grasp
-special action
+Life: 15
+Discard 1: Full Moon Drive
+Discard 2: Dual Dash
+Special action available
 
 Zaamassal
 ---------
-life: 17
-discard 1: Warped Drive
-discard 2: Sinuous Grasp
-special action
-Active paradigm: None
+Life: 12
+Discard 1: Sturdy Shot
+Discard 2: Warped Strike
+Special action available
+Active paradigm: Resilience
 
 
 ZK.....
-.j.....
+...j...
 
-Unbeatable strategy for Zaamassal: Malicious Dash: -0.18
-Unbeatable strategy for Zaamassal: Urgent Dash: -0.30
-Unbeatable strategy for Zaamassal: Sturdy Dash: -0.18
 
 Karin:
-45% Howling Shot
-49% Feral Strike
-6% Feral Burst
+20% Howling Claw
+52% Howling Burst
+29% Coordinated Strike
 
 Zaamassal:
-4% Malicious Shot
-12% Urgent Strike
-84% Urgent Dash
+2% Malicious Paradigm Shift
+5% Malicious Drive
+93% Sinuous Dash
 
 
-Karin: Howling Shot
-Zaamassal: Urgent Dash
+Karin: Howling Burst
+Zaamassal: Sinuous Dash
 
-Priorities:  3 | 11
+Priorities:  2 | 10
 Zaamassal is active
-Zaamassal assumes the Paradigm of Haste
+Karin moves:
+
+Z..K...
+...j...
+
+Zaamassal assumes the Paradigm of Fluidity
 Zaamassal moves:
 
-.KZ....
-.j.....
+...KZ..
+...j...
 
 Karin misses
+Zaamassal moves:
+
+Z..K...
+...j...
+
 Jager moves:
 
-.KZ....
+Z..K...
 ..j....
+
+Jager moves:
+
+Z..K...
+.j.....
 
 
 Beat 8
@@ -466,62 +461,76 @@ Beat 8
 
 Karin
 -----
-life: 15
-discard 1: Howling Shot
-discard 2: Full Moon Drive
-special action
+Life: 15
+Discard 1: Howling Burst
+Discard 2: Full Moon Drive
+Special action available
 
 Zaamassal
 ---------
-life: 17
-discard 1: Urgent Dash
-discard 2: Warped Drive
-special action
-Active paradigm: Haste
+Life: 12
+Discard 1: Sinuous Dash
+Discard 2: Sturdy Shot
+Special action available
+Active paradigm: Fluidity
 
 
-.KZ....
-..j....
+Z..K...
+.j.....
+
 
 Karin:
-24% Coordinated Claw
-49% Coordinated Strike
-26% Feral Claw
+25% Coordinated Shot
+7% Coordinated Grasp
+41% Feral Claw
+15% Feral Shot
+11% Feral Grasp
 
 Zaamassal:
-6% Sinuous Strike
-49% Sinuous Burst
-45% Sinuous Grasp
+33% Urgent Strike
+6% Urgent Drive
+7% Urgent Grasp
+10% Warped Strike
+44% Warped Grasp
 
 
-Karin: Coordinated Claw
-Zaamassal: Sinuous Grasp
+Karin: Feral Shot
+Zaamassal: Warped Grasp
 
-Priorities:  4 | 6
+Priorities:  3 | 5
 Zaamassal is active
+Karin moves:
+
+Z.K....
+.j.....
+
+Zaamassal moves:
+
+.ZK....
+.j.....
+
 Zaamassal hits
 Zaamassal moves Karin:
 
-K.Z....
-..j....
+KZ.....
+.j.....
 
 Karin takes 2 damage (now at 13 life)
-Karin is stunned
-Zaamassal assumes the Paradigm of Fluidity
-Zaamassal moves:
+Karin hits
+Zaamassal is stunned
+Zaamassal loses all paradigms
+Zaamassal takes 3 damage (now at 9 life)
+Zaamassal is stunned
+Zaamassal loses all paradigms
+Karin moves:
 
-KZ.....
-..j....
-
-Zaamassal moves:
-
-K.....Z
-..j....
+.ZK....
+.j.....
 
 Jager moves:
 
-K.....Z
-...j...
+.ZK....
+j......
 
 
 Beat 9
@@ -529,58 +538,56 @@ Beat 9
 
 Karin
 -----
-life: 13
-discard 1: Coordinated Claw
-discard 2: Howling Shot
-special action
+Life: 13
+Discard 1: Feral Shot
+Discard 2: Howling Burst
+Special action available
 
 Zaamassal
 ---------
-life: 17
-discard 1: Sinuous Grasp
-discard 2: Urgent Dash
-special action
-Active paradigm: Fluidity
+Life: 9
+Discard 1: Warped Grasp
+Discard 2: Sinuous Dash
+Special action available
+Active paradigm: None
 
 
-K.....Z
-...j...
+.ZK....
+j......
+
+Unbeatable strategy for Zaamassal: Sturdy Shot: -0.07
+Unbeatable strategy for Zaamassal: Sturdy Drive: -1.78
+
 
 Karin:
-33% Full Moon Drive
-14% Dual Strike
-53% Dual Grasp
+9% Coordinated Drive
+24% Coordinated Dash
+50% Full Moon Strike
+17% Full Moon Dash
 
 Zaamassal:
-54% Malicious Shot
-41% Warped Paradigm Shift
-5% Warped Drive
+4% Malicious Strike
+13% Urgent Shot
+58% Sturdy Drive
+26% Sturdy Burst
 
 
-Karin: Full Moon Drive
-Zaamassal: Malicious Shot
+Karin: Coordinated Dash
+Zaamassal: Sturdy Drive
 
-Priorities:  5 | 1
+Priorities:  9 | 4
 Karin is active
 Karin moves:
 
-.K....Z
-...j...
+KZ.....
+j......
 
-Karin misses
-Zaamassal moves:
+Zaamassal misses
+Zaamassal assumes the Paradigm of Resilience
+Jager moves:
 
-.K...Z.
-...j...
-
-Zaamassal hits
-Karin has 2 soak
-Karin takes 2 damage (now at 11 life)
-Karin is stunned
-Zaamassal moves:
-
-.K....Z
-...j...
+KZ.....
+.j.....
 
 
 Beat 10
@@ -588,63 +595,63 @@ Beat 10
 
 Karin
 -----
-life: 11
-discard 1: Full Moon Drive
-discard 2: Coordinated Claw
-special action
+Life: 13
+Discard 1: Coordinated Dash
+Discard 2: Feral Shot
+Special action available
 
 Zaamassal
 ---------
-life: 17
-discard 1: Malicious Shot
-discard 2: Sinuous Grasp
-special action
-Active paradigm: Fluidity
+Life: 9
+Discard 1: Sturdy Drive
+Discard 2: Warped Grasp
+Special action available
+Active paradigm: Resilience
 
 
-.K....Z
-...j...
+KZ.....
+.j.....
+
 
 Karin:
-52% Howling Shot
-48% Howling Burst
+28% Howling Claw
+10% Full Moon Claw
+62% Full Moon Drive
 
 Zaamassal:
-74% Urgent Dash
-26% Warped Drive
+14% Sinuous Strike
+55% Sinuous Burst
+31% Sinuous Dash
 
 
-Karin: Howling Shot
-Zaamassal: Urgent Dash
+Karin: Full Moon Drive
+Zaamassal: Sinuous Dash
 
-Priorities:  3 | 11
+Priorities:  5 | 10
 Zaamassal is active
 Zaamassal moves:
 
-.K...Z.
-...j...
-
-Zaamassal moves:
-
-.K..Z..
-...j...
-
-Zaamassal assumes the Paradigm of Haste
-Zaamassal moves:
-
-ZK.....
-...j...
-
-Karin misses
-Jager moves:
-
-ZK.....
-..j....
-
-Jager moves:
-
-ZK.....
+K...Z..
 .j.....
+
+Karin moves:
+
+..K.Z..
+.j.....
+
+Karin hits
+Zaamassal takes 3 damage (now at 6 life)
+Zaamassal is stunned
+Zaamassal loses all paradigms
+Zaamassal moves:
+
+..K...Z
+.j.....
+
+Jager moves:
+
+..K...Z
+..j....
 
 
 Beat 11
@@ -652,111 +659,130 @@ Beat 11
 
 Karin
 -----
-life: 11
-discard 1: Howling Shot
-discard 2: Full Moon Drive
-special action
+Life: 13
+Discard 1: Full Moon Drive
+Discard 2: Coordinated Dash
+Special action available
 
 Zaamassal
 ---------
-life: 17
-discard 1: Urgent Dash
-discard 2: Malicious Shot
-special action
-Active paradigm: Haste
+Life: 6
+Discard 1: Sinuous Dash
+Discard 2: Sturdy Drive
+Special action available
+Active paradigm: None
 
 
-ZK.....
-.j.....
+..K...Z
+..j....
+
 
 Karin:
-68% Coordinated Strike
-32% Feral Claw
+15% Feral Claw
+37% Feral Shot
+8% Dual Shot
+40% Dual Burst
 
 Zaamassal:
-49% Sinuous Strike
-51% Sturdy Strike
+0% Warped Paradigm Shift
+54% Warped Strike
+27% Warped Shot
+19% Warped Grasp
 
 
-Karin: Feral Claw
-Zaamassal: Sturdy Strike
+Karin: Feral Shot
+Zaamassal: Warped Grasp
 
-Priorities:  5 | 3
-Karin is active
+Priorities:  3 | 5
+Zaamassal is active
+Karin moves:
+
+....K.Z
+..j....
+
+Zaamassal hits
+Zaamassal moves Karin:
+
+.....KZ
+..j....
+
+Karin takes 2 damage (now at 11 life)
 Karin hits
+Karin moves:
+
+...K..Z
+..j....
+
+Zaamassal takes 3 damage (now at 3 life)
+Zaamassal is stunned
+Zaamassal loses all paradigms
+Karin moves:
+
+..K...Z
+..j....
+
 Jager moves:
 
-ZK.....
-j......
+..K...Z
+...j...
 
-Zaamassal takes 2 damage (now at 15 life)
-Zaamassal hits
-Karin takes 4 damage (now at 7 life)
-Karin is stunned
 
 Beat 12
 -------
 
 Karin
 -----
-life: 7
-discard 1: Feral Claw
-discard 2: Howling Shot
-special action
+Life: 11
+Discard 1: Feral Shot
+Discard 2: Full Moon Drive
+Special action available
 
 Zaamassal
 ---------
-life: 15
-discard 1: Sturdy Strike
-discard 2: Urgent Dash
-special action
-Active paradigm: Haste
+Life: 3
+Discard 1: Warped Grasp
+Discard 2: Sinuous Dash
+Special action available
+Active paradigm: None
 
 
-ZK.....
-j......
+..K...Z
+...j...
 
-Unbeatable strategy for Karin: Coordinated Strike: 0.21
+Unbeatable strategy for Karin: Coordinated Dash: 0.49
+
 
 Karin:
-79% Coordinated Strike
-21% Dual Strike
+21% Howling Burst
+79% Dual Burst
 
 Zaamassal:
-45% Malicious Shot
-55% Sinuous Drive
+84% Malicious Paradigm Shift
+16% Special Plane Divider
 
 
-Karin: Coordinated Strike
-Zaamassal: Sinuous Drive
+Karin: Dual Burst
+Zaamassal: Malicious Paradigm Shift
 
-Priorities:  3 | 5
+Priorities:  1 | 2
 Zaamassal is active
-Zaamassal moves:
+Karin moves:
 
-.KZ....
-j......
+K.....Z
+...j...
 
-Zaamassal hits
-Karin takes 3 damage (now at 4 life)
-Karin hits
-Zaamassal takes 4 damage (now at 11 life)
-Zaamassal is stunned
-Zaamassal assumes the following paradigms:
-Zaamassal moves:
-
-.K...Z.
-j......
-
+Zaamassal misses
+Zaamassal assumes the Paradigm of Distortion
 Jager moves:
 
-.K...Z.
-.j.....
+K.....Z
+....j..
 
+Karin misses
 Jager moves:
 
-.K...Z.
-..j....
+K.....Z
+.....j.
 
 
 Beat 13
@@ -764,118 +790,138 @@ Beat 13
 
 Karin
 -----
-life: 4
-discard 1: Coordinated Strike
-discard 2: Feral Claw
-special action
+Life: 11
+Discard 1: Dual Burst
+Discard 2: Feral Shot
+Special action available
 
 Zaamassal
 ---------
-life: 11
-discard 1: Sinuous Drive
-discard 2: Sturdy Strike
-special action
-Active paradigm: None
+Life: 3
+Discard 1: Malicious Paradigm Shift
+Discard 2: Warped Grasp
+Special action available
+Active paradigm: Distortion
 
 
-.K...Z.
-..j....
+K.....Z
+.....j.
+
 
 Karin:
-14% Howling Burst
-31% Full Moon Shot
-16% Full Moon Drive
-40% Dual Dash
+29% Howling Claw
+6% Howling Strike
+56% Coordinated Strike
+8% Coordinated Grasp
+2% Full Moon Claw
 
 Zaamassal:
-16% Malicious Shot
-14% Urgent Paradigm Shift
-52% Warped Paradigm Shift
-18% Warped Shot
+3% Sinuous Shot
+7% Sinuous Drive
+12% Sinuous Dash
+10% Urgent Strike
+69% Sturdy Dash
 
 
-Karin: Dual Dash
-Zaamassal: Malicious Shot
+Karin: Coordinated Strike
+Zaamassal: Sturdy Dash
 
-Priorities:  9 | 1
-Karin is active
+Priorities:  3 | 9
+Zaamassal is active
+Karin misses
 Jager moves:
 
-.K...Z.
+K.....Z
 ......j
 
-Karin moves:
-
-K....Z.
-......j
-
-Zaamassal misses
-Zaamassal assumes the Paradigm of Pain
 
 Beat 14
 -------
 
 Karin
 -----
-life: 4
-discard 1: Dual Dash
-discard 2: Coordinated Strike
-special action
+Life: 11
+Discard 1: Coordinated Strike
+Discard 2: Dual Burst
+Special action available
 
 Zaamassal
 ---------
-life: 11
-discard 1: Malicious Shot
-discard 2: Sinuous Drive
-special action
-Active paradigm: Pain
+Life: 3
+Discard 1: Sturdy Dash
+Discard 2: Malicious Paradigm Shift
+Special action available
+Active paradigm: Distortion
 
 
-K....Z.
+K.....Z
 ......j
 
-Karin:
-3% Howling Claw
-10% Howling Shot
-14% Howling Drive
-20% Howling Burst
-20% Full Moon Claw
-34% Full Moon Shot
-
-Zaamassal:
-34% Urgent Dash
-9% Sturdy Paradigm Shift
-0% Sturdy Dash
-2% Warped Grasp
-55% Special Pulse
-
-
-Karin: Full Moon Shot
-Zaamassal: Sturdy Paradigm Shift
-
-Priorities:  3 | 3
-Clash!
 
 Karin:
-9% Full Moon Claw
-8% Full Moon Drive
-44% Full Moon Burst
-38% Full Moon Grasp
+100% Howling Grasp
 
 Zaamassal:
-1% Sturdy Strike
-3% Sturdy Burst
-80% Sturdy Grasp
-17% Sturdy Dash
+100% Special Pulse
 
 
-Karin: Full Moon Burst
-Zaamassal: Sturdy Grasp
+Karin: Howling Grasp
+Zaamassal: Special Pulse
 
-Priorities:  2 | 5
+Pulse:
+
+Z.....K
+......j
+
+
+Beat 14
+-------
+
+Karin
+-----
+Life: 11
+Discard 1: Howling Grasp
+Discard 2: Coordinated Strike
+Special action available
+
+Zaamassal
+---------
+Life: 3
+Discard 1: Sturdy Dash
+Discard 2: Malicious Paradigm Shift
+Active paradigm: Distortion
+
+
+Z.....K
+......j
+
+
+Karin:
+26% Dual Claw
+74% Dual Shot
+
+Zaamassal:
+82% Urgent Shot
+18% Urgent Drive
+
+
+Karin: Dual Shot
+Zaamassal: Urgent Shot
+
+Priorities:  2 | 4
 Zaamassal is active
-Zaamassal misses
-Zaamassal assumes the Paradigm of Resilience
+Zaamassal moves:
+
+.Z....K
+......j
+
+Zaamassal hits
+Karin takes 2 damage (now at 9 life)
+Jager moves:
+
+.Z....K
+..j....
+
 Karin misses
 
 Beat 15
@@ -883,123 +929,83 @@ Beat 15
 
 Karin
 -----
-life: 4
-discard 1: Full Moon Burst
-discard 2: Dual Dash
-special action
+Life: 9
+Discard 1: Dual Shot
+Discard 2: Howling Grasp
+Special action available
 
 Zaamassal
 ---------
-life: 11
-discard 1: Sturdy Grasp
-discard 2: Malicious Shot
-special action
-Active paradigm: Resilience
+Life: 3
+Discard 1: Urgent Shot
+Discard 2: Sturdy Dash
+Active paradigm: Distortion
 
 
-K....Z.
-......j
+.Z....K
+..j....
 
-Unbeatable strategy for Zaamassal: Sinuous Paradigm Shift: -9.00
-Unbeatable strategy for Zaamassal: Sinuous Strike: -9.00
-Unbeatable strategy for Zaamassal: Sinuous Drive: -9.00
-Unbeatable strategy for Zaamassal: Sinuous Burst: -9.00
-Unbeatable strategy for Zaamassal: Sinuous Dash: -9.00
-Unbeatable strategy for Zaamassal: Urgent Paradigm Shift: -9.00
-Unbeatable strategy for Zaamassal: Urgent Strike: -9.00
-Unbeatable strategy for Zaamassal: Urgent Drive: -9.00
-Unbeatable strategy for Zaamassal: Urgent Burst: -9.00
-Unbeatable strategy for Zaamassal: Urgent Dash: -9.00
-Unbeatable strategy for Zaamassal: Warped Paradigm Shift: -9.00
-Unbeatable strategy for Zaamassal: Warped Strike: -9.00
-Unbeatable strategy for Zaamassal: Warped Drive: -9.00
-Unbeatable strategy for Zaamassal: Warped Dash: -9.00
+Unbeatable strategy for Karin: Coordinated Dash: 8.00
+Unbeatable strategy for Karin: Full Moon Dash: 8.00
+Unbeatable strategy for Karin: Feral Dash: 8.00
+
 
 Karin:
-6% Howling Claw
-6% Howling Strike
-6% Howling Shot
-6% Howling Drive
-6% Howling Grasp
-6% Coordinated Claw
-6% Coordinated Strike
-8% Coordinated Shot
-6% Coordinated Drive
-6% Coordinated Grasp
-6% Feral Claw
-6% Feral Strike
-6% Feral Shot
-6% Feral Drive
-6% Feral Grasp
-6% Special Red Moon Rage
-6% Special Lunar Cross
+7% Coordinated Claw
+7% Coordinated Strike
+7% Coordinated Drive
+7% Coordinated Burst
+7% Coordinated Dash
+7% Full Moon Claw
+7% Full Moon Strike
+7% Full Moon Drive
+7% Full Moon Burst
+7% Full Moon Dash
+7% Feral Claw
+7% Feral Strike
+7% Feral Drive
+7% Feral Burst
+7% Feral Dash
 
 Zaamassal:
+7% Malicious Paradigm Shift
+7% Malicious Strike
+7% Malicious Drive
+7% Malicious Burst
+7% Malicious Grasp
 7% Sinuous Paradigm Shift
 7% Sinuous Strike
 7% Sinuous Drive
 7% Sinuous Burst
-7% Sinuous Dash
-7% Urgent Paradigm Shift
-7% Urgent Strike
-7% Urgent Drive
-7% Urgent Burst
-7% Urgent Dash
-7% Warped Paradigm Shift
-7% Warped Strike
-7% Warped Drive
-7% Warped Dash
+7% Sinuous Grasp
+6% Warped Paradigm Shift
+6% Warped Strike
+6% Warped Drive
+7% Warped Burst
+7% Warped Grasp
 
 
-Karin: Feral Claw
-Zaamassal: Sinuous Dash
+Karin: Coordinated Claw
+Zaamassal: Sinuous Drive
 
-Priorities:  5 | 10
+Priorities:  4 | 5
 Zaamassal is active
+Zaamassal is blocked by Jager
+Zaamassal takes 2 damage (now at 1 life)
+Zaamassal is stunned
+Zaamassal loses all paradigms
+Zaamassal misses
 Karin moves:
 
-.K...Z.
-......j
-
-Zaamassal moves:
-
-.KZ....
-......j
-
-Karin moves:
-
-..ZK...
-......j
+.Z..K..
+..j....
 
 Karin hits
 Jager moves:
 
-..ZK...
-.....j.
+.Z..K..
+.j.....
 
-Karin moves:
-
-..Z..K.
-.....j.
-
-Zaamassal takes 2 damage (now at 9 life)
-Zaamassal is stunned
-Zaamassal assumes the following paradigms:
-Zaamassal moves:
-
-Z....K.
-.....j.
-
-Karin moves:
-
-Z...K..
-.....j.
-
-Jager moves:
-
-Z...K..
-....j..
-
-Game goes to time
-ZAAMASSAL WINS!
-total_time: 103
+Zaamassal takes 2 damage (now at 0 life)
+KARIN WINS!
+total_time: 208

@@ -11,114 +11,93 @@ Beat 1
 
 Cesar
 -----
-life: 20
-discard 1: Fueled Strike
-discard 2: Unstoppable Grasp
-special action
+Life: 20
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Grasp
+Special action available
 Threat level: 0
 
 Karin
 -----
-life: 20
-discard 1: Full Moon Strike
-discard 2: Coordinated Grasp
-special action
+Life: 20
+Discard 1: Dual Grasp
+Discard 2: Howling Strike
+Special action available
 
 
 .C...K.
-.....j.
+....j..
 
-Unbeatable strategy for Karin: Dual Burst: -0.27
 
 Cesar:
-79% Phalanx Shot
-5% Bulwark Shot
-16% Bulwark Drive
+60% Phalanx Shot
+34% Bulwark Suppression
+6% Bulwark Drive
 
 Karin:
-12% Feral Claw
-3% Feral Shot
-85% Dual Burst
+19% Coordinated Burst
+79% Full Moon Burst
+2% Feral Shot
 
 
 Cesar: Phalanx Shot
-Karin: Feral Claw
+Karin: Full Moon Burst
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 5
+Priorities:  0 | 2
 Karin is active
-Karin moves:
-
-.C..K..
-.....j.
-
-Karin moves:
-
-.C.K...
-.....j.
-
-Karin hits
-Jager moves:
-
-.C.K...
-....j..
-
-Karin moves:
-
-.C...K.
-....j..
-
-Cesar takes 2 damage (now at 18 life)
-Cesar hits
-Karin takes 4 damage (now at 16 life)
-Karin is stunned
 Karin moves:
 
 .C....K
 ....j..
 
+Karin misses
+Cesar hits
+Karin has 2 soak
+Karin takes 2 damage (now at 18 life)
+Karin is stunned
 
 Beat 2
 -------
 
 Cesar
 -----
-life: 18
-discard 1: Phalanx Shot
-discard 2: Fueled Strike
-special action
+Life: 20
+Discard 1: Phalanx Shot
+Discard 2: Fueled Strike
+Special action available
 Threat level: 1
 
 Karin
 -----
-life: 16
-discard 1: Feral Claw
-discard 2: Full Moon Strike
-special action
+Life: 18
+Discard 1: Full Moon Burst
+Discard 2: Dual Grasp
+Special action available
 
 
 .C....K
 ....j..
 
-Unbeatable strategy for Karin: Howling Shot: -0.13
-Unbeatable strategy for Karin: Howling Burst: -0.13
-Unbeatable strategy for Karin: Coordinated Shot: -0.58
-Unbeatable strategy for Karin: Coordinated Burst: -0.58
-Unbeatable strategy for Karin: Coordinated Grasp: -0.68
-Unbeatable strategy for Karin: Dual Shot: -0.11
 
 Cesar:
-100% Bulwark Suppression
+21% Unstoppable Suppression
+6% Unstoppable Grasp
+73% Bulwark Suppression
+1% Inevitable Drive
 
 Karin:
-100% Coordinated Grasp
+62% Coordinated Strike
+2% Coordinated Shot
+2% Feral Claw
+33% Feral Drive
 
 
 Cesar: Bulwark Suppression
-Karin: Coordinated Grasp
+Karin: Coordinated Strike
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  0 | 5
+Priorities:  0 | 3
 Karin is active
 Karin misses
 Cesar misses
@@ -143,51 +122,63 @@ Beat 3
 
 Cesar
 -----
-life: 18
-discard 1: Bulwark Suppression
-discard 2: Phalanx Shot
-special action
+Life: 20
+Discard 1: Bulwark Suppression
+Discard 2: Phalanx Shot
+Special action available
 Threat level: 2
 
 Karin
 -----
-life: 16
-discard 1: Coordinated Grasp
-discard 2: Feral Claw
-special action
+Life: 18
+Discard 1: Coordinated Strike
+Discard 2: Full Moon Burst
+Special action available
 
 
 ...C..K
 ....j..
 
+
 Cesar:
-71% Fueled Burst
-20% Fueled Grasp
-10% Inevitable Drive
+39% Unstoppable Drive
+55% Fueled Strike
+6% Inevitable Drive
 
 Karin:
-34% Howling Strike
-31% Howling Shot
-32% Howling Burst
-3% Dual Shot
+54% Howling Shot
+28% Howling Grasp
+17% Dual Shot
 
 
-Cesar: Fueled Grasp
-Karin: Howling Shot
+Cesar: Inevitable Drive
+Karin: Howling Grasp
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  4 | 3
-Cesar is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
+Priorities:  4 | 6
+Karin is active
 Karin hits
-Cesar has 2 soak
-Cesar takes 1 damage (now at 17 life)
-Cesar is stunned
+Karin moves Cesar:
+
+..C...K
+....j..
+
+Cesar takes 2 damage (now at 18 life)
+Cesar moves:
+
+....C.K
+....j..
+
+Cesar misses
 Jager moves:
 
-...C..K
+....C.K
 ...j...
+
+Jager moves:
+
+....C.K
+....j..
 
 
 Beat 4
@@ -195,142 +186,126 @@ Beat 4
 
 Cesar
 -----
-life: 17
-discard 1: Fueled Grasp
-discard 2: Bulwark Suppression
-special action
-Threat level: 4
+Life: 18
+Discard 1: Inevitable Drive
+Discard 2: Bulwark Suppression
+Special action available
+Threat level: 3
 
 Karin
 -----
-life: 16
-discard 1: Howling Shot
-discard 2: Coordinated Grasp
-special action
+Life: 18
+Discard 1: Howling Grasp
+Discard 2: Coordinated Strike
+Special action available
 
 
-...C..K
-...j...
+....C.K
+....j..
+
+Unbeatable strategy for Cesar: Phalanx Shot: 0.57
+Unbeatable strategy for Cesar: Phalanx Burst: 0.82
+Unbeatable strategy for Cesar: Phalanx Dash: 0.62
+Unbeatable strategy for Cesar: Unstoppable Shot: 2.68
+Unbeatable strategy for Cesar: Unstoppable Burst: 2.67
+Unbeatable strategy for Cesar: Unstoppable Dash: 2.54
+
 
 Cesar:
-7% Phalanx Dash
-34% Unstoppable Strike
-3% Unstoppable Shot
-16% Unstoppable Drive
-20% Inevitable Drive
-12% Inevitable Burst
-8% Inevitable Dash
+52% Unstoppable Strike
+48% Unstoppable Grasp
 
 Karin:
-12% Full Moon Strike
-14% Full Moon Burst
-31% Feral Claw
-3% Dual Claw
-9% Dual Strike
-31% Dual Drive
+52% Dual Shot
+48% Dual Burst
 
 
-Cesar: Inevitable Burst
-Karin: Dual Drive
+Cesar: Unstoppable Strike
+Karin: Dual Shot
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  1 | 4
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  1 | 2
 Karin is active
-Cesar moves:
+Jager moves:
+
+....C.K
+..j....
+
+Karin moves Cesar:
 
 ..C...K
-...j...
+..j....
 
+Karin hits
+Cesar has 2 soak
+Cesar takes 1 damage (now at 17 life)
 Jager moves:
 
 ..C...K
-.j.....
+...j...
 
-Karin moves:
-
-..C..K.
-.j.....
-
-Karin misses
-Cesar hits
-Karin is stunned
-Karin takes 3 damage (now at 13 life)
-Karin is stunned
 
 Beat 5
 -------
 
 Cesar
 -----
-life: 17
-discard 1: Inevitable Burst
-discard 2: Fueled Grasp
-special action
-Threat level: 0
-Opponent has -3 power this beat
+Life: 17
+Discard 1: Unstoppable Strike
+Discard 2: Inevitable Drive
+Special action available
+Threat level: 4
 
 Karin
 -----
-life: 13
-discard 1: Dual Drive
-discard 2: Howling Shot
-special action
+Life: 18
+Discard 1: Dual Shot
+Discard 2: Howling Grasp
+Special action available
 
 
-..C..K.
-.j.....
+..C...K
+...j...
 
-Unbeatable strategy for Cesar: Phalanx Dash: 0.83
-Unbeatable strategy for Cesar: Unstoppable Suppression: 0.71
-Unbeatable strategy for Cesar: Unstoppable Shot: 1.54
-Unbeatable strategy for Cesar: Unstoppable Dash: 0.33
-Unbeatable strategy for Cesar: Bulwark Dash: 0.71
 
 Cesar:
-71% Unstoppable Suppression
-9% Unstoppable Shot
-15% Unstoppable Drive
-6% Bulwark Shot
+29% Bulwark Suppression
+21% Bulwark Shot
+50% Bulwark Dash
 
 Karin:
-6% Coordinated Strike
-10% Coordinated Burst
-4% Coordinated Dash
-80% Feral Dash
+53% Coordinated Burst
+16% Feral Claw
+31% Feral Burst
 
 
-Cesar: Unstoppable Suppression
-Karin: Coordinated Burst
+Cesar: Bulwark Dash
+Karin: Feral Burst
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 1
-Karin is active
+Cesar gains a Threat Level (current level: 0)
+Priorities:  7 | 2
+Cesar is active
+Karin moves:
+
+..C.K..
+...j...
+
 Karin moves:
 
 ..C...K
-.j.....
+...j...
 
 Cesar moves:
 
-...C..K
-.j.....
+.....CK
+...j...
 
 Karin misses
-Cesar misses
 Jager moves:
 
-...C..K
-..j....
-
-Jager moves:
-
-...C..K
-...j...
-
-Cesar moves:
-
-..C...K
-...j...
+.....CK
+....j..
 
 
 Beat 6
@@ -338,139 +313,120 @@ Beat 6
 
 Cesar
 -----
-life: 17
-discard 1: Unstoppable Suppression
-discard 2: Inevitable Burst
-special action
-Threat level: 1
+Life: 17
+Discard 1: Bulwark Dash
+Discard 2: Unstoppable Strike
+Special action available
+Threat level: 0
 
 Karin
 -----
-life: 13
-discard 1: Coordinated Burst
-discard 2: Dual Drive
-special action
+Life: 18
+Discard 1: Feral Burst
+Discard 2: Dual Shot
+Special action available
 
 
-..C...K
-...j...
+.....CK
+....j..
 
-Unbeatable strategy for Karin: Howling Strike: -0.16
-Unbeatable strategy for Karin: Feral Dash: -0.65
 
 Cesar:
-37% Fueled Shot
-13% Bulwark Shot
-8% Bulwark Grasp
-42% Bulwark Dash
+11% Phalanx Suppression
+0% Phalanx Shot
+70% Inevitable Shot
+19% Inevitable Grasp
 
 Karin:
-0% Howling Claw
-10% Howling Shot
-23% Feral Claw
-66% Feral Dash
+11% Howling Grasp
+52% Coordinated Dash
+7% Full Moon Strike
+30% Full Moon Drive
 
 
-Cesar: Fueled Shot
-Karin: Feral Dash
+Cesar: Inevitable Shot
+Karin: Full Moon Drive
 
-Cesar gains a Threat Level (current level: 2)
-Priorities:  1 | 10
+Cesar gains a Threat Level (current level: 1)
+Priorities:  2 | 5
 Karin is active
 Karin moves:
 
-..C.K..
-...j...
+...K.C.
+....j..
 
-Cesar gains a Threat Level (current level: 3)
-Karin moves:
-
-K.C....
-...j...
-
-Cesar moves:
-
-KC.....
-...j...
-
-Cesar misses
-Jager moves:
-
-KC.....
-..j....
-
+Karin hits
+Cesar takes 3 damage (now at 14 life)
+Cesar hits
+Karin is stunned
+Karin will have -3 priority next beat
+Karin has 2 soak
+Karin takes 2 damage (now at 16 life)
+Karin is stunned
 
 Beat 7
 -------
 
 Cesar
 -----
-life: 17
-discard 1: Fueled Shot
-discard 2: Unstoppable Suppression
-special action
-Threat level: 3
+Life: 14
+Discard 1: Inevitable Shot
+Discard 2: Bulwark Dash
+Special action available
+Opponent has power penalty: -3
+Threat level: 1
 
 Karin
 -----
-life: 13
-discard 1: Feral Dash
-discard 2: Coordinated Burst
-special action
+Life: 16
+Discard 1: Full Moon Drive
+Discard 2: Feral Burst
+Special action available
 
 
-KC.....
-..j....
+...K.C.
+....j..
+
+Unbeatable strategy for Karin: Howling Dash: -0.36
+Unbeatable strategy for Karin: Coordinated Dash: -2.77
+Unbeatable strategy for Karin: Dual Dash: -0.49
+
 
 Cesar:
-1% Phalanx Burst
-1% Bulwark Burst
-39% Inevitable Strike
-58% Inevitable Drive
-1% Inevitable Burst
+100% Unstoppable Suppression
 
 Karin:
-67% Howling Claw
-14% Full Moon Strike
-19% Full Moon Shot
+100% Coordinated Dash
 
 
-Cesar: Inevitable Strike
-Karin: Full Moon Shot
+Cesar: Unstoppable Suppression
+Karin: Coordinated Dash
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  3 | 3
-Clash!
-
-Cesar:
-91% Inevitable Drive
-9% Inevitable Burst
-
-Karin:
-25% Full Moon Strike
-75% Full Moon Drive
-
-
-Cesar: Inevitable Drive
-Karin: Full Moon Drive
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  4 | 5
+Cesar gains a Threat Level (current level: 2)
+Priorities:  0 | 9
 Karin is active
 Karin moves:
 
-.C.K...
-..j....
+K....C.
+....j..
 
-Karin hits
-Cesar has 2 soak
-Cesar takes 1 damage (now at 16 life)
+Cesar is blocked by Jager
+Cesar takes 2 damage (now at 12 life)
+Cesar misses
 Jager moves:
 
-.C.K...
-.j.....
+K....C.
+...j...
+
+Jager moves:
+
+K....C.
+....j..
+
+Cesar moves:
+
+K.....C
+....j..
 
 
 Beat 8
@@ -478,64 +434,64 @@ Beat 8
 
 Cesar
 -----
-life: 16
-discard 1: Inevitable Drive
-discard 2: Fueled Shot
-special action
-Threat level: 4
+Life: 12
+Discard 1: Unstoppable Suppression
+Discard 2: Inevitable Shot
+Special action available
+Threat level: 2
 
 Karin
 -----
-life: 13
-discard 1: Full Moon Drive
-discard 2: Feral Dash
-special action
+Life: 16
+Discard 1: Coordinated Dash
+Discard 2: Full Moon Drive
+Special action available
 
 
-.C.K...
-.j.....
+K.....C
+....j..
+
+Unbeatable strategy for Karin: Howling Strike: -1.69
+Unbeatable strategy for Karin: Howling Burst: -1.87
+Unbeatable strategy for Karin: Howling Grasp: -1.69
+Unbeatable strategy for Karin: Feral Strike: -1.29
+Unbeatable strategy for Karin: Feral Shot: -1.69
+Unbeatable strategy for Karin: Feral Burst: -0.99
+Unbeatable strategy for Karin: Feral Grasp: -1.29
+Unbeatable strategy for Karin: Dual Claw: -0.73
+Unbeatable strategy for Karin: Dual Strike: -2.63
+Unbeatable strategy for Karin: Dual Shot: -2.30
+Unbeatable strategy for Karin: Dual Burst: -2.60
+Unbeatable strategy for Karin: Dual Grasp: -2.78
+
 
 Cesar:
-10% Phalanx Strike
-16% Phalanx Dash
-0% Bulwark Suppression
-19% Bulwark Strike
-55% Bulwark Dash
+14% Fueled Strike
+86% Fueled Grasp
 
 Karin:
-6% Howling Claw
-11% Howling Burst
-25% Dual Claw
-41% Dual Shot
-18% Dual Burst
+6% Dual Claw
+94% Dual Grasp
 
 
-Cesar: Phalanx Dash
-Karin: Howling Claw
+Cesar: Fueled Grasp
+Karin: Dual Grasp
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  7 | 5
-Cesar is active
-Cesar moves:
+Cesar gains a Threat Level (current level: 3)
+Priorities:  4 | 5
+Karin is active
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Jager moves:
 
-...K.C.
-.j.....
-
-Karin moves:
-
-.....CK
-.j.....
+K.....C
+.....j.
 
 Karin misses
 Jager moves:
 
-.....CK
-..j....
-
-Jager moves:
-
-.....CK
-...j...
+K.....C
+......j
 
 
 Beat 9
@@ -543,62 +499,62 @@ Beat 9
 
 Cesar
 -----
-life: 16
-discard 1: Phalanx Dash
-discard 2: Inevitable Drive
-special action
-Threat level: 0
+Life: 12
+Discard 1: Fueled Grasp
+Discard 2: Unstoppable Suppression
+Special action available
+Threat level: 4
 
 Karin
 -----
-life: 13
-discard 1: Howling Claw
-discard 2: Full Moon Drive
-special action
+Life: 16
+Discard 1: Dual Grasp
+Discard 2: Coordinated Dash
+Special action available
 
 
-.....CK
-...j...
+K.....C
+......j
 
-Unbeatable strategy for Karin: Coordinated Strike: -0.14
+Unbeatable strategy for Cesar: Bulwark Dash: 2.68
+
 
 Cesar:
-43% Unstoppable Strike
-30% Bulwark Suppression
-16% Bulwark Burst
-11% Bulwark Grasp
+15% Bulwark Drive
+85% Bulwark Dash
 
 Karin:
-56% Coordinated Strike
-29% Coordinated Dash
-12% Feral Strike
-3% Feral Shot
+33% Howling Claw
+67% Full Moon Drive
 
 
-Cesar: Unstoppable Strike
-Karin: Feral Strike
+Cesar: Bulwark Dash
+Karin: Full Moon Drive
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  1 | 4
-Karin is active
-Karin moves:
+Cesar gains a Threat Level (current level: 0)
+Priorities:  7 | 5
+Cesar is active
+Cesar moves:
 
-....KC.
-...j...
+K..C...
+......j
 
 Cesar moves:
 
-...CK..
-...j...
+KC.....
+......j
+
+Karin moves:
+
+.C.K...
+......j
 
 Karin hits
-Cesar takes 4 damage (now at 12 life)
-Cesar hits
-Karin takes 5 damage (now at 8 life)
+Cesar takes 3 damage (now at 9 life)
 Jager moves:
 
-...CK..
-..j....
+.C.K...
+.....j.
 
 
 Beat 10
@@ -606,49 +562,65 @@ Beat 10
 
 Cesar
 -----
-life: 12
-discard 1: Unstoppable Strike
-discard 2: Phalanx Dash
-special action
-Threat level: 1
+Life: 9
+Discard 1: Bulwark Dash
+Discard 2: Fueled Grasp
+Special action available
+Threat level: 0
 
 Karin
 -----
-life: 8
-discard 1: Feral Strike
-discard 2: Howling Claw
-special action
+Life: 16
+Discard 1: Full Moon Drive
+Discard 2: Dual Grasp
+Special action available
 
 
-...CK..
-..j....
+.C.K...
+.....j.
+
+Unbeatable strategy for Karin: Howling Burst: -0.33
+Unbeatable strategy for Karin: Coordinated Dash: -0.31
+Unbeatable strategy for Karin: Feral Dash: -0.32
+
 
 Cesar:
-40% Fueled Suppression
-52% Inevitable Shot
-7% Inevitable Drive
+15% Phalanx Shot
+9% Unstoppable Suppression
+28% Inevitable Suppression
+27% Inevitable Shot
+5% Inevitable Drive
+16% Inevitable Burst
 
 Karin:
-30% Coordinated Burst
-59% Coordinated Dash
-11% Full Moon Shot
+32% Howling Dash
+10% Coordinated Strike
+3% Feral Claw
+9% Feral Shot
+2% Feral Burst
+44% Feral Dash
 
 
 Cesar: Inevitable Shot
-Karin: Coordinated Dash
+Karin: Howling Dash
 
-Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 9
+Cesar gains a Threat Level (current level: 1)
+Priorities:  2 | 10
 Karin is active
 Karin moves:
 
-K..C...
-..j....
+.C....K
+.....j.
 
 Cesar misses
 Jager moves:
 
-K..C...
+.C....K
+....j..
+
+Jager moves:
+
+.C....K
 ...j...
 
 
@@ -657,104 +629,141 @@ Beat 11
 
 Cesar
 -----
-life: 12
-discard 1: Inevitable Shot
-discard 2: Unstoppable Strike
-special action
-Threat level: 2
+Life: 9
+Discard 1: Inevitable Shot
+Discard 2: Bulwark Dash
+Special action available
+Threat level: 1
 
 Karin
 -----
-life: 8
-discard 1: Coordinated Dash
-discard 2: Feral Strike
-special action
+Life: 16
+Discard 1: Howling Dash
+Discard 2: Full Moon Drive
+Special action available
 
 
-K..C...
+.C....K
 ...j...
+
+Unbeatable strategy for Karin: Coordinated Strike: -0.74
+Unbeatable strategy for Karin: Coordinated Shot: -0.40
+Unbeatable strategy for Karin: Coordinated Burst: -0.70
+Unbeatable strategy for Karin: Coordinated Grasp: -0.89
+Unbeatable strategy for Karin: Dual Strike: -0.84
+
 
 Cesar:
-52% Phalanx Burst
-33% Fueled Suppression
-14% Bulwark Drive
+39% Phalanx Suppression
+55% Unstoppable Suppression
+6% Unstoppable Grasp
 
 Karin:
-38% Howling Shot
-50% Howling Grasp
-13% Dual Burst
+37% Coordinated Claw
+33% Coordinated Grasp
+30% Feral Shot
 
 
-Cesar: Bulwark Drive
-Karin: Dual Burst
+Cesar: Unstoppable Suppression
+Karin: Feral Shot
 
-Cesar gains a Threat Level (current level: 3)
-Priorities:  2 | 1
-Cesar is active
-Cesar moves:
+Cesar gains a Threat Level (current level: 2)
+Priorities:  0 | 3
+Karin is active
+Karin moves:
 
-KC.....
+.C..K..
 ...j...
 
-Cesar hits
-Karin takes 6 damage (now at 2 life)
-Karin is stunned
+Cesar moves:
+
+..C.K..
+...j...
+
+Karin hits
+Cesar takes 3 damage (now at 6 life)
+Cesar is stunned
+Karin moves:
+
+..C..K.
+...j...
+
+Cesar moves:
+
+...C.K.
+...j...
+
+Jager moves:
+
+...C.K.
+..j....
+
+Cesar moves:
+
+.....KC
+..j....
+
 
 Beat 12
 -------
 
 Cesar
 -----
-life: 12
-discard 1: Bulwark Drive
-discard 2: Inevitable Shot
-special action
-Threat level: 3
+Life: 6
+Discard 1: Unstoppable Suppression
+Discard 2: Inevitable Shot
+Special action available
+Threat level: 2
 
 Karin
 -----
-life: 2
-discard 1: Dual Burst
-discard 2: Coordinated Dash
-special action
+Life: 16
+Discard 1: Feral Shot
+Discard 2: Howling Dash
+Special action available
 
 
-KC.....
-...j...
+.....KC
+..j....
 
-Unbeatable strategy for Cesar: Unstoppable Burst: 0.12
+Unbeatable strategy for Karin: Full Moon Burst: -2.20
+
 
 Cesar:
-21% Unstoppable Suppression
-25% Unstoppable Burst
-54% Special Pulse
+97% Fueled Strike
+3% Bulwark Drive
 
 Karin:
-17% Full Moon Strike
-57% Full Moon Shot
-26% Feral Drive
+44% Full Moon Drive
+56% Full Moon Burst
 
 
-Cesar: Unstoppable Suppression
-Karin: Feral Drive
+Cesar: Fueled Strike
+Karin: Full Moon Burst
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  2 | 2
+Clash!
+
+
+Cesar: Fueled Grasp
+Karin: Full Moon Grasp
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  4 | 6
+Karin is active
+Karin moves:
+
+..K...C
+..j....
 
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Priorities:  0 | 5
-Karin is active
-Karin hits
-Cesar has 2 soak
-Cesar takes 1 damage (now at 11 life)
-Cesar is stunned
+Karin misses
 Jager moves:
 
-KC.....
-....j..
-
-Cesar moves:
-
-K...C..
-....j..
+..K...C
+......j
 
 
 Beat 13
@@ -762,60 +771,325 @@ Beat 13
 
 Cesar
 -----
-life: 11
-discard 1: Unstoppable Suppression
-discard 2: Bulwark Drive
-special action
+Life: 6
+Discard 1: Fueled Grasp
+Discard 2: Unstoppable Suppression
+Special action available
 Threat level: 4
 
 Karin
 -----
-life: 2
-discard 1: Feral Drive
-discard 2: Dual Burst
-special action
+Life: 16
+Discard 1: Full Moon Grasp
+Discard 2: Feral Shot
+Special action available
 
 
-K...C..
-....j..
+..K...C
+......j
+
+Unbeatable strategy for Cesar: Bulwark Dash: 2.59
+
 
 Cesar:
-54% Phalanx Strike
-0% Fueled Grasp
-46% Inevitable Shot
+13% Bulwark Strike
+0% Bulwark Drive
+87% Bulwark Dash
 
 Karin:
-31% Howling Claw
-14% Howling Strike
-54% Coordinated Claw
+3% Howling Strike
+18% Coordinated Dash
+78% Special Pulse
+
+
+Cesar: Bulwark Dash
+Karin: Special Pulse
+
+Cesar gains a Threat Level (current level: 0)
+Pulse:
+
+K.....C
+......j
+
+
+Beat 13
+-------
+
+Cesar
+-----
+Life: 6
+Discard 1: Bulwark Dash
+Discard 2: Fueled Grasp
+Special action available
+Threat level: 0
+
+Karin
+-----
+Life: 16
+Discard 1: Full Moon Grasp
+Discard 2: Feral Shot
+
+
+K.....C
+......j
+
+
+Cesar:
+34% Phalanx Strike
+23% Unstoppable Suppression
+43% Special Pulse
+
+Karin:
+59% Howling Strike
+27% Howling Burst
+14% Coordinated Strike
 
 
 Cesar: Phalanx Strike
-Karin: Howling Claw
+Karin: Howling Burst
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  1 | 5
+Cesar gains a Threat Level (current level: 1)
+Priorities:  1 | 2
+Karin is active
+Karin misses
+Cesar misses
+Jager moves:
+
+K.....C
+.....j.
+
+Jager moves:
+
+K.....C
+......j
+
+
+Beat 14
+-------
+
+Cesar
+-----
+Life: 6
+Discard 1: Phalanx Strike
+Discard 2: Bulwark Dash
+Special action available
+Threat level: 1
+
+Karin
+-----
+Life: 16
+Discard 1: Howling Burst
+Discard 2: Full Moon Grasp
+
+
+K.....C
+......j
+
+Unbeatable strategy for Cesar: Fueled Shot: 2.02
+
+
+Cesar:
+32% Unstoppable Suppression
+68% Fueled Shot
+
+Karin:
+72% Feral Shot
+28% Dual Shot
+
+
+Cesar: Unstoppable Suppression
+Karin: Feral Shot
+
+Cesar gains a Threat Level (current level: 2)
+Priorities:  0 | 3
 Karin is active
 Karin moves:
 
-.K..C..
-....j..
+.K....C
+......j
 
-Karin hits
-Karin gets +2 power
-Karin gets +2 power
-Jager moves:
-
-.K..C..
-...j...
-
-Cesar takes 6 damage (now at 5 life)
 Cesar moves:
 
-CK.....
-...j...
+.K..C..
+......j
 
-Cesar hits
-Karin takes 4 damage (now at 0 life)
-CESAR WINS!
-total_time: 43
+Karin misses
+Cesar misses
+Karin moves:
+
+K...C..
+......j
+
+Cesar moves:
+
+K.C....
+......j
+
+Jager moves:
+
+K.C....
+.....j.
+
+Cesar moves:
+
+KC.....
+.....j.
+
+
+Beat 15
+-------
+
+Cesar
+-----
+Life: 6
+Discard 1: Unstoppable Suppression
+Discard 2: Phalanx Strike
+Special action available
+Threat level: 2
+
+Karin
+-----
+Life: 16
+Discard 1: Feral Shot
+Discard 2: Howling Burst
+
+
+KC.....
+.....j.
+
+Unbeatable strategy for Karin: Coordinated Claw: -11.00
+Unbeatable strategy for Karin: Coordinated Strike: -11.00
+Unbeatable strategy for Karin: Coordinated Drive: -11.00
+Unbeatable strategy for Karin: Coordinated Grasp: -11.00
+Unbeatable strategy for Karin: Coordinated Dash: -11.00
+Unbeatable strategy for Karin: Full Moon Claw: -11.00
+Unbeatable strategy for Karin: Full Moon Strike: -11.00
+Unbeatable strategy for Karin: Full Moon Drive: -11.00
+Unbeatable strategy for Karin: Full Moon Grasp: -11.00
+Unbeatable strategy for Karin: Full Moon Dash: -11.00
+Unbeatable strategy for Karin: Dual Claw: -11.00
+Unbeatable strategy for Karin: Dual Strike: -11.00
+Unbeatable strategy for Karin: Dual Drive: -11.00
+Unbeatable strategy for Karin: Dual Grasp: -11.00
+Unbeatable strategy for Karin: Dual Dash: -11.00
+
+
+Cesar:
+95% Special Pulse
+5% Special Level 4 Protocol
+
+Karin:
+40% Coordinated Grasp
+60% Full Moon Grasp
+
+
+Cesar: Special Pulse
+Karin: Coordinated Grasp
+
+Cesar gains a Threat Level (current level: 3)
+Pulse:
+
+C.K....
+.....j.
+
+
+Beat 15
+-------
+
+Cesar
+-----
+Life: 6
+Discard 1: Unstoppable Suppression
+Discard 2: Phalanx Strike
+Threat level: 3
+
+Karin
+-----
+Life: 16
+Discard 1: Coordinated Grasp
+Discard 2: Feral Shot
+
+
+C.K....
+.....j.
+
+Unbeatable strategy for Karin: Howling Claw: -11.00
+Unbeatable strategy for Karin: Howling Strike: -11.00
+Unbeatable strategy for Karin: Howling Drive: -11.00
+Unbeatable strategy for Karin: Howling Burst: -11.00
+Unbeatable strategy for Karin: Howling Dash: -11.00
+Unbeatable strategy for Karin: Full Moon Claw: -11.00
+Unbeatable strategy for Karin: Full Moon Strike: -11.00
+Unbeatable strategy for Karin: Full Moon Drive: -11.00
+Unbeatable strategy for Karin: Full Moon Burst: -11.00
+Unbeatable strategy for Karin: Full Moon Dash: -11.00
+Unbeatable strategy for Karin: Dual Claw: -11.00
+Unbeatable strategy for Karin: Dual Strike: -11.00
+Unbeatable strategy for Karin: Dual Drive: -11.00
+Unbeatable strategy for Karin: Dual Burst: -11.00
+Unbeatable strategy for Karin: Dual Dash: -11.00
+
+
+Cesar:
+7% Fueled Shot
+7% Fueled Drive
+7% Fueled Burst
+7% Fueled Grasp
+7% Fueled Dash
+7% Bulwark Shot
+7% Bulwark Drive
+7% Bulwark Burst
+7% Bulwark Grasp
+7% Bulwark Dash
+7% Inevitable Shot
+7% Inevitable Drive
+7% Inevitable Burst
+7% Inevitable Grasp
+7% Inevitable Dash
+
+Karin:
+7% Howling Claw
+7% Howling Strike
+7% Howling Drive
+7% Howling Burst
+7% Howling Dash
+7% Full Moon Claw
+7% Full Moon Strike
+7% Full Moon Drive
+7% Full Moon Burst
+7% Full Moon Dash
+7% Dual Claw
+7% Dual Strike
+7% Dual Drive
+7% Dual Burst
+7% Dual Dash
+
+
+Cesar: Bulwark Burst
+Karin: Dual Burst
+
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  -1 | 1
+Karin is active
+Karin moves:
+
+C..K...
+.....j.
+
+Jager moves:
+
+C..K...
+.j.....
+
+Karin hits
+Cesar has 2 soak
+Cesar takes 1 damage (now at 5 life)
+Jager moves:
+
+C..K...
+j......
+
+Game goes to time
+KARIN WINS!
+total_time: 68

@@ -11,63 +11,63 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: 
+Discard 2: 
 
 Karin
 -----
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: 
+Discard 2: 
 
 
 .C...K.
-.....j.
+....j..
 
-Unbeatable strategy for Karin: Howling Dash: -0.17
-Unbeatable strategy for Karin: Coordinated Dash: -0.89
+Unbeatable strategy for Karin: Coordinated Dash: -0.32
+
 
 Claus:
-7% Tailwind Tempest
-4% Tailwind Strike
-6% Tailwind Shot
-11% Tailwind Drive
-23% Tailwind Dash
-0% Downdraft Shot
-48% Downdraft Dash
+22% Tailwind Tempest
+6% Tailwind Strike
+7% Tailwind Dash
+13% Downdraft Tempest
+51% Downdraft Dash
 
 Karin:
-6% Coordinated Shot
-8% Coordinated Burst
-48% Coordinated Dash
-11% Full Moon Claw
-7% Full Moon Shot
-7% Full Moon Drive
-13% Feral Dash
+17% Howling Shot
+2% Coordinated Drive
+3% Coordinated Burst
+73% Coordinated Dash
+5% Dual Shot
 
 
-Claus: Downdraft Dash
+Claus: Tailwind Tempest
 Karin: Coordinated Dash
 
-Priorities:  8 | 9
+Priorities:  4 | 9
 Karin is active
-Karin moves:
-
-.C....K
-.....j.
-
 Claus moves:
 
-....C.K
-.....j.
+..C..K.
+....j..
+
+Karin moves:
+
+.KC....
+....j..
+
+Claus misses
+Jager moves:
+
+.KC....
+...j...
 
 Jager moves:
 
-....C.K
-....j..
+.KC....
+..j....
 
 
 Beat 2
@@ -75,56 +75,55 @@ Beat 2
 
 Claus
 -----
-life: 20
-discard 1: Downdraft Dash
-discard 2: 
-special action
+Life: 20
+Discard 1: Tailwind Tempest
+Discard 2: 
 
 Karin
 -----
-life: 20
-discard 1: Coordinated Dash
-discard 2: 
-special action
+Life: 20
+Discard 1: Coordinated Dash
+Discard 2: 
 
 
-....C.K
-....j..
+.KC....
+..j....
+
+Unbeatable strategy for Karin: Howling Shot: -0.14
+
 
 Claus:
-33% Tailwind Strike
-1% Blast Strike
-6% Cyclone Strike
-31% Cyclone Drive
-29% Cyclone Burst
+6% Blast Strike
+7% Blast Burst
+4% Cyclone Shot
+84% Downdraft Dash
 
 Karin:
-10% Howling Shot
+65% Howling Shot
+11% Howling Burst
 23% Howling Grasp
-17% Full Moon Strike
-45% Full Moon Drive
-5% Feral Burst
+0% Dual Shot
 
 
-Claus: Tailwind Strike
-Karin: Full Moon Drive
+Claus: Downdraft Dash
+Karin: Howling Grasp
 
-Priorities:  3 | 5
-Karin is active
+Priorities:  8 | 6
+Claus is active
 Claus moves:
 
-.....CK
+.K..C..
+..j....
+
+Karin misses
+Jager moves:
+
+.K..C..
+...j...
+
+Jager moves:
+
+.K..C..
 ....j..
 
-Karin moves:
-
-...K.C.
-....j..
-
-Karin hits
-Claus takes 3 damage (now at 17 life)
-Claus hits
-Karin has 2 soak
-Karin takes 3 damage (now at 17 life)
-Karin is stunned
-total_time: 23
+total_time: 25

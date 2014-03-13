@@ -11,106 +11,81 @@ Beat 1
 
 Danny
 -----
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: 
+Discard 2: 
 
 Karin
 -----
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: 
+Discard 2: 
 
 
 .D...K.
 
-.....j.
+....j..
 
-Unbeatable strategy for Danny: Monstrous Hellgate: 2.97
-Unbeatable strategy for Danny: Fallen Hellgate: 2.94
-Unbeatable strategy for Danny: Shackled Hellgate: 2.97
-Unbeatable strategy for Danny: Sinner's Hellgate: 2.95
+Unbeatable strategy for Danny: Monstrous Hellgate: 3.29
+Unbeatable strategy for Danny: Fallen Hellgate: 3.32
+Unbeatable strategy for Danny: Shackled Hellgate: 3.29
+Unbeatable strategy for Danny: Sinner's Hellgate: 3.27
+
 
 Danny:
-42% Monstrous Hellgate
-0% Monstrous Strike
-0% Monstrous Grasp
-42% Shackled Hellgate
-0% Shackled Strike
-0% Shackled Grasp
-14% Vicious Hellgate
-0% Vicious Strike
-0% Vicious Grasp
+3% Monstrous Shot
+93% Fallen Hellgate
+4% Sinner's Drive
 
 Karin:
-6% Dual Dash
-94% Special Pulse
-
-
-Danny: Monstrous Hellgate
-Karin: Special Pulse
-
-Pulse:
-
-K....D.
-
-.....j.
-
-
-Beat 1
--------
-
-Danny
------
-life: 20
-discard 1: Monstrous Hellgate
-discard 2: 
-special action
-
-Karin
------
-life: 20
-discard 1: 
-discard 2: 
-
-
-K....D.
-
-.....j.
-
-Danny:
-37% Shackled Dash
-31% Sinner's Drive
-5% Sinner's Dash
-27% Vicious Dash
-
-Karin:
-24% Howling Claw
-74% Howling Shot
+93% Coordinated Claw
 2% Full Moon Claw
+5% Dual Dash
 
 
-Danny: Vicious Dash
-Karin: Howling Shot
+Danny: Fallen Hellgate
+Karin: Coordinated Claw
 
-Priorities:  10 | 3
-Danny is active
-Danny moves:
+Priorities:  0 | 4
+Karin is active
+Karin moves:
 
-K.....D
+.D.K...
 
-.....j.
+....j..
 
 Karin hits
-Danny takes 3 damage (now at 17 life)
-Danny is stunned
 Jager moves:
 
-K.....D
+.D.K...
 
-......j
+...j...
+
+Danny has 3 soak
+Danny takes 0 damage (now at 20 life)
+Danny moves:
+
+..DK...
+
+...j...
+
+Jager moves:
+
+..DK...
+
+..j....
+
+Jager moves:
+
+..DK...
+
+.j.....
+
+Danny adds monsters to the board:
+
+..DK...
+mmm....
+.j.....
 
 
 Beat 2
@@ -118,59 +93,83 @@ Beat 2
 
 Danny
 -----
-life: 17
-discard 1: Vicious Dash
-discard 2: Monstrous Hellgate
-special action
+Life: 20
+Discard 1: Fallen Hellgate
+Discard 2: 
 
 Karin
 -----
-life: 20
-discard 1: Howling Shot
-discard 2: 
+Life: 20
+Discard 1: Coordinated Claw
+Discard 2: 
 
 
-K.....D
+..DK...
+mmm....
+.j.....
 
-......j
-
-Unbeatable strategy for Karin: Feral Claw: -3.93
 
 Danny:
-47% Shackled Strike
-12% Sinner's Drive
-42% Sinner's Grasp
+6% Monstrous Strike
+2% Monstrous Shot
+0% Monstrous Drive
+1% Monstrous Burst
+6% Shackled Burst
+71% Shackled Dash
+15% Vicious Drive
 
 Karin:
-38% Feral Claw
-41% Dual Claw
-22% Dual Burst
+15% Howling Shot
+27% Howling Burst
+1% Howling Grasp
+12% Full Moon Strike
+19% Feral Strike
+6% Feral Shot
+20% Dual Burst
 
 
-Danny: Shackled Strike
-Karin: Dual Burst
+Danny: Shackled Burst
+Karin: Howling Burst
 
-Priorities:  2 | 1
-Danny is active
-Danny misses
+Priorities:  0 | 2
+Karin is active
+Karin moves:
+
+..D.K..
+mmm....
+.j.....
+
+Danny moves:
+
+.D..K..
+mmm....
+.j.....
+
+Karin misses
+Karin removes monsters:
+
+.D..K..
+m.m....
+.j.....
+
+Danny hits
+Karin takes 3 damage (now at 17 life)
 Danny adds monsters to the board:
 
-K.....D
-....m..
-......j
+.D..K..
+m.m.m..
+.j.....
 
 Jager moves:
 
-K.....D
-....m..
-..j....
+.D..K..
+m.m.m..
+j......
 
-Karin moves Danny:
+Jager moves:
 
-K.D....
-....m..
-..j....
+.D..K..
+m.m.m..
+.j.....
 
-Karin hits
-Danny takes 3 damage (now at 14 life)
-total_time: 104
+total_time: 134

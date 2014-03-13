@@ -11,68 +11,76 @@ Beat 1
 
 Karin
 -----
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: 
+Discard 2: 
 
 Ottavia
 -------
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: 
+Discard 2: 
 
 
 .K...O.
-.j.....
+..j....
+
 
 Karin:
-35% Howling Dash
-3% Full Moon Shot
-19% Feral Drive
-3% Feral Dash
-3% Dual Claw
-5% Dual Strike
-33% Dual Dash
+0% Howling Shot
+30% Howling Dash
+16% Full Moon Shot
+18% Full Moon Drive
+6% Feral Drive
+2% Feral Dash
+28% Dual Dash
 
 Ottavia:
-6% Snapback Strike (Target Lock: 9)
-23% Snapback Drive (Target Lock: 5)
-8% Snapback Drive (Target Lock: 9)
-29% Snapback Grasp (Target Lock: 10)
-31% Snapback Dash (Target Lock: 10)
-2% Anti-Personnel Shooter (Target Lock: 9)
-2% Anti-Personnel Shooter (Target Lock: 10)
+6% Snapback Strike (Target Lock: 10)
+23% Snapback Grasp (Target Lock: 9)
+20% Snapback Grasp (Target Lock: 10)
+18% Snapback Dash (Target Lock: 10)
+8% Anti-Personnel Grasp (Target Lock: 5)
+1% Anti-Personnel Grasp (Target Lock: 10)
+24% Cover Shooter (Target Lock: 5)
 
 
-Karin: Howling Dash
-Ottavia: Snapback Grasp (Target Lock: 10)
+Karin: Feral Drive
+Ottavia: Snapback Grasp (Target Lock: 9)
 
-Ottavia acquires target lock
-Priorities:  0 | 5
-Ottavia is active
-Ottavia hits
-Ottavia moves Karin:
+Priorities:  5 | 5
+Clash!
 
-K....O.
-.j.....
 
-Karin takes 2 damage (now at 18 life)
+Karin: Feral Dash
+Ottavia: Snapback Dash (Target Lock: 9)
+
+Priorities:  10 | 9
+Karin is active
+Karin moves:
+
+..K..O.
+..j....
+
+Karin moves:
+
+.....OK
+..j....
+
 Ottavia moves:
 
-K.....O
-.j.....
+...O..K
+..j....
 
-Jager moves:
+Ottavia moves:
 
-K.....O
+O.....K
 ..j....
 
 Jager moves:
 
-K.....O
-...j...
+O.....K
+.j.....
 
 
 Beat 2
@@ -80,47 +88,59 @@ Beat 2
 
 Karin
 -----
-life: 18
-discard 1: Howling Dash
-discard 2: 
-special action
+Life: 20
+Discard 1: Feral Dash
+Discard 2: 
 
 Ottavia
 -------
-life: 20
-discard 1: Snapback Grasp
-discard 2: 
-special action
+Life: 20
+Discard 1: Snapback Dash
+Discard 2: 
 
 
-K.....O
-...j...
+O.....K
+.j.....
 
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 5): -2.16
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 5): -0.86
 
 Karin:
-41% Full Moon Strike
-9% Full Moon Shot
-9% Full Moon Drive
-9% Full Moon Burst
-32% Full Moon Grasp
+12% Howling Claw
+52% Full Moon Strike
+0% Full Moon Shot
+36% Full Moon Grasp
 
 Ottavia:
-3% Anti-Personnel Shooter (Target Lock: 2)
-2% Anti-Personnel Shooter (Target Lock: 3)
-1% Anti-Personnel Shooter (Target Lock: 5)
-94% Cover Shooter (Target Lock: 5)
+60% Demolition Grasp (Target Lock: 6)
+15% Cover Shooter (Target Lock: 4)
+21% Cover Shooter (Target Lock: 6)
+4% Cybernetic Strike (Target Lock: 5)
 
 
-Karin: Full Moon Grasp
-Ottavia: Cover Shooter (Target Lock: 5)
+Karin: Howling Claw
+Ottavia: Demolition Grasp (Target Lock: 6)
 
-Priorities:  6 | -1
-Karin is active
+Priorities:  5 | 6
+Ottavia is active
+Ottavia misses
+Ottavia moves:
+
+....O.K
+.j.....
+
+Karin moves:
+
+....OK.
+.j.....
+
 Karin misses
-Ottavia hits
-Karin has 2 soak
-Karin takes 3 damage (now at 15 life)
-Karin is stunned
-total_time: 72
+Jager moves:
+
+....OK.
+..j....
+
+Jager moves:
+
+....OK.
+...j...
+
+total_time: 74

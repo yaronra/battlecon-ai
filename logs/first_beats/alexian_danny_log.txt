@@ -11,56 +11,51 @@ Beat 1
 
 Alexian
 -------
-life: 20
-discard 1: 
-discard 2: 
-special action
-Opponent has 1 Chivalry tokens
+Life: 20
+Discard 1: 
+Discard 2: 
+Danny has 1 Chivalry token
 
 Danny
 -----
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: 
+Discard 2: 
 
 
 .A...D.
 
 
-Unbeatable strategy for Danny: Monstrous Hellgate: -0.79
-Unbeatable strategy for Danny: Monstrous Hellgate | (1 Chivalry token): -0.19
-Unbeatable strategy for Danny: Fallen Hellgate: -1.16
-Unbeatable strategy for Danny: Fallen Hellgate | (1 Chivalry token): -2.04
-Unbeatable strategy for Danny: Shackled Hellgate: -0.79
-Unbeatable strategy for Danny: Shackled Hellgate | (1 Chivalry token): -0.19
-Unbeatable strategy for Danny: Sinner's Hellgate: -1.11
-Unbeatable strategy for Danny: Sinner's Hellgate | (1 Chivalry token): -1.98
-Unbeatable strategy for Danny: Vicious Hellgate: -2.27
+Unbeatable strategy for Danny: Fallen Hellgate: -0.10
+Unbeatable strategy for Danny: Fallen Hellgate | (1 Chivalry token): -0.34
+Unbeatable strategy for Danny: Sinner's Hellgate: -0.05
+Unbeatable strategy for Danny: Sinner's Hellgate | (1 Chivalry token): -0.34
+Unbeatable strategy for Danny: Vicious Hellgate: -0.88
 Unbeatable strategy for Danny: Vicious Hellgate | (1 Chivalry token): -1.67
 
+
 Alexian:
-43% Gestalt Shot
-4% Gestalt Drive
-5% Stalwart Strike
-8% Stalwart Shot
-32% Stalwart Drive
-8% Stalwart Grasp
+50% Gestalt Shot
+13% Stalwart Strike
+5% Stalwart Shot
+9% Stalwart Drive
+6% Stalwart Burst
+17% Stalwart Grasp
 
 Danny:
-4% Monstrous Hellgate
-1% Shackled Hellgate
-12% Shackled Shot
-19% Shackled Drive | (1 Chivalry token)
+5% Monstrous Hellgate
+10% Shackled Shot
+1% Shackled Shot | (1 Chivalry token)
+40% Shackled Drive | (1 Chivalry token)
 35% Sinner's Hellgate
-30% Vicious Hellgate | (1 Chivalry token)
+10% Sinner's Hellgate | (1 Chivalry token)
 
 
-Alexian: Stalwart Grasp
+Alexian: Gestalt Shot
 Danny: Shackled Drive | (1 Chivalry token)
 
 Danny antes a Chivalry token
-Priorities:  2 | 4
+Priorities:  1 | 4
 Danny is active
 Danny moves:
 
@@ -72,69 +67,78 @@ Alexian takes 4 damage (now at 16 life)
 Danny adds monsters to the board:
 
 .A.D...
-..m....
+.m.....
 
-Alexian misses
-Alexian removes monsters:
-
-.A.D...
-
-
+Alexian hits
+Danny gains 1 Chivalry token
+Danny takes 5 damage (now at 15 life)
+Danny is stunned
 
 Beat 2
 -------
 
 Alexian
 -------
-life: 16
-discard 1: Stalwart Grasp
-discard 2: 
-special action
-Opponent has 0 Chivalry tokens
+Life: 16
+Discard 1: Gestalt Shot
+Discard 2: 
+Danny has 1 Chivalry token
 
 Danny
 -----
-life: 20
-discard 1: Shackled Drive
-discard 2: 
-special action
+Life: 15
+Discard 1: Shackled Drive
+Discard 2: 
 
 
 .A.D...
+.m.....
 
+Unbeatable strategy for Danny: Monstrous Hellgate | (1 Chivalry token): -1.40
 
-Unbeatable strategy for Danny: Monstrous Hellgate: -0.06
-Unbeatable strategy for Danny: Fallen Hellgate: -0.56
-Unbeatable strategy for Danny: Sinner's Hellgate: -0.50
-Unbeatable strategy for Danny: Vicious Hellgate: -0.06
 
 Alexian:
-58% Gestalt Strike
-42% Gestalt Drive
+21% Regal Drive
+9% Stalwart Divider
+17% Stalwart Strike
+22% Stalwart Burst
+32% Steeled Drive
 
 Danny:
-78% Monstrous Hellgate
-22% Monstrous Burst
+34% Monstrous Hellgate
+9% Monstrous Hellgate | (1 Chivalry token)
+11% Fallen Strike | (1 Chivalry token)
+1% Fallen Grasp
+45% Vicious Hellgate
 
 
-Alexian: Gestalt Strike
+Alexian: Regal Drive
 Danny: Monstrous Hellgate
 
-Priorities:  2 | -1
+Priorities:  5 | -1
 Alexian is active
 Alexian moves:
 
 ..AD...
-
+.m.....
 
 Alexian hits
 Danny gains 1 Chivalry token
 Danny has 3 soak
-Danny takes 3 damage (now at 17 life)
-Danny is stunned
-Danny adds monsters to the board:
+Danny takes 1 damage (now at 14 life)
+Alexian removes monsters:
 
 ..AD...
-mmm....
 
-total_time: 35
+
+Danny moves:
+
+..A...D
+
+
+Danny adds monsters to the board:
+
+..A...D
+.mmm...
+
+total_time: 52

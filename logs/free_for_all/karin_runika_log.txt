@@ -11,110 +11,57 @@ Beat 1
 
 Karin
 -----
-life: 20
-discard 1: Full Moon Strike
-discard 2: Coordinated Grasp
-special action
+Life: 20
+Discard 1: Dual Grasp
+Discard 2: Howling Strike
+Special action available
 
 Runika
 ------
-life: 20
-discard 1: Channeled Grasp
-discard 2: Impact Strike
-special action
+Life: 20
+Discard 1: Channeled Grasp
+Discard 2: Impact Strike
+Special action available
 Active artifacts: 
-  Shield Amulet
-  Battlefist
-  Phase Goggles
   Autodeflector
+  Phase Goggles
+  Battlefist
+  Shield Amulet
   Hover Boots
 
 
 .K...R.
-.j.....
+..j....
+
 
 Karin:
-56% Howling Shot
-9% Dual Claw
-35% Dual Dash
+76% Coordinated Burst
+24% Full Moon Claw
 
 Runika:
-76% Maintenance Shot
-5% Maintenance Drive
-19% Overcharged Drive
+70% Overcharged Shot
+30% Overcharged Drive
 
 
-Karin: Dual Dash
-Runika: Maintenance Shot
+Karin: Coordinated Burst
+Runika: Overcharged Shot
 
-Priorities:  9 | 3
-Karin is active
-Jager moves:
-
-.K...R.
-......j
-
+Priorities:  1 | 4
+Runika is active
+Runika overcharges her Battlefist
 Karin moves:
 
 K....R.
-......j
+..j....
 
 Runika hits
-Karin takes 3 damage (now at 17 life)
+Karin takes 6 damage (now at 14 life)
 Karin is stunned
-Runika moves:
+Battlefist is removed from the game
+Jager moves:
 
-K.....R
-......j
-
-
-Beat 2
--------
-
-Karin
------
-life: 17
-discard 1: Dual Dash
-discard 2: Full Moon Strike
-special action
-
-Runika
-------
-life: 20
-discard 1: Maintenance Shot
-discard 2: Channeled Grasp
-special action
-Active artifacts: 
-  Shield Amulet
-  Battlefist
-  Phase Goggles
-  Hover Boots
-  Autodeflector
-
-
-K.....R
-......j
-
-Unbeatable strategy for Karin: Coordinated Shot: 0.13
-
-Karin:
-27% Howling Claw
-55% Howling Shot
-18% Special Pulse
-
-Runika:
-0% Impact Tinker
-1% Impact Dash
-99% Special Pulse
-
-
-Karin: Howling Shot
-Runika: Special Pulse
-
-Pulse:
-
-.....RK
-......j
+K....R.
+...j...
 
 
 Beat 2
@@ -122,75 +69,85 @@ Beat 2
 
 Karin
 -----
-life: 17
-discard 1: Howling Shot
-discard 2: Dual Dash
-special action
+Life: 14
+Discard 1: Coordinated Burst
+Discard 2: Dual Grasp
+Special action available
 
 Runika
 ------
-life: 20
-discard 1: Maintenance Shot
-discard 2: Channeled Grasp
+Life: 20
+Discard 1: Overcharged Shot
+Discard 2: Channeled Grasp
+Special action available
 Active artifacts: 
-  Shield Amulet
-  Battlefist
-  Phase Goggles
-  Hover Boots
   Autodeflector
+  Hover Boots
+  Shield Amulet
+  Phase Goggles
+Removed artifacts: 
+  Battlefist
 
 
-.....RK
-......j
+K....R.
+...j...
 
-Unbeatable strategy for Runika: Overcharged Drive: -1.36
 
 Karin:
-11% Coordinated Strike
-0% Feral Claw
-50% Feral Drive
-39% Feral Grasp
+22% Howling Strike
+44% Howling Shot
+34% Feral Claw
 
 Runika:
-63% Explosive Tinker
-0% Explosive Drive
-37% Overcharged Drive
+75% Explosive Burst
+23% Impact Drive
+2% Impact Dash
 
 
-Karin: Feral Grasp
-Runika: Explosive Tinker
+Karin: Feral Claw
+Runika: Explosive Burst
 
-Priorities:  6 | 5
+Priorities:  5 | 3
 Karin is active
 Karin moves:
 
-....KR.
-......j
+..K..R.
+...j...
 
-Runika moves Karin:
+Runika moves:
 
-.....RK
-......j
+..K...R
+...j...
 
-Karin hits
-Karin moves Runika:
-
-....R.K
-......j
-
-Hover Boots is de-activated
-Runika has 2 soak
-Runika takes 0 damage (now at 20 life)
-Runika hits
-Shield Amulet is de-activated
-Runika gets +2 power
-Karin takes 5 damage (now at 12 life)
-Karin is stunned
-Hover Boots is activated
 Karin moves:
 
-....RK.
-......j
+....K.R
+...j...
+
+Karin hits
+Karin moves:
+
+..K...R
+...j...
+
+Jager moves:
+
+..K...R
+....j..
+
+Phase Goggles is de-activated
+Runika has 2 soak
+Runika takes 0 damage (now at 20 life)
+Runika misses
+Karin moves:
+
+.K....R
+....j..
+
+Jager moves:
+
+.K....R
+.....j.
 
 
 Beat 3
@@ -198,181 +155,196 @@ Beat 3
 
 Karin
 -----
-life: 12
-discard 1: Feral Grasp
-discard 2: Howling Shot
-special action
+Life: 14
+Discard 1: Feral Claw
+Discard 2: Coordinated Burst
+Special action available
 
 Runika
 ------
-life: 20
-discard 1: Explosive Tinker
-discard 2: Maintenance Shot
+Life: 20
+Discard 1: Explosive Burst
+Discard 2: Overcharged Shot
+Special action available
 Active artifacts: 
+  Autodeflector
+  Hover Boots
+  Shield Amulet
+Removed artifacts: 
   Battlefist
-  Phase Goggles
-  Autodeflector
-  Hover Boots
 
 
-....RK.
-......j
+.K....R
+.....j.
 
-Unbeatable strategy for Runika: Overcharged Drive: -0.29
+Unbeatable strategy for Runika: Maintenance Tinker: -1.62
+
 
 Karin:
-9% Coordinated Dash
-3% Full Moon Strike
-78% Full Moon Dash
-9% Dual Dash
+31% Howling Strike
+15% Howling Grasp
+23% Full Moon Strike
+30% Full Moon Shot
 
 Runika:
-15% Channeled Drive
-19% Channeled Burst
-46% Overcharged Drive
-20% Overcharged Grasp
-
-
-Karin: Full Moon Dash
-Runika: Channeled Drive
-
-Priorities:  10 | 7
-Karin is active
-Shield Amulet is activated
-Karin moves:
-
-.K..R..
-......j
-
-Runika moves:
-
-.KR....
-......j
-
-Runika misses
-Jager moves:
-
-.KR....
-.....j.
-
-Battlefist is de-activated
-
-Beat 4
--------
-
-Karin
------
-life: 12
-discard 1: Full Moon Dash
-discard 2: Feral Grasp
-special action
-
-Runika
-------
-life: 20
-discard 1: Channeled Drive
-discard 2: Explosive Tinker
-Active artifacts: 
-  Hover Boots
-  Phase Goggles
-  Autodeflector
-  Shield Amulet
-
-
-.KR....
-.....j.
-
-Unbeatable strategy for Runika: Impact Strike: -1.23
-
-Karin:
-8% Howling Burst
-92% Special Pulse
-
-Runika:
-26% Maintenance Strike
-74% Impact Strike
-
-
-Karin: Special Pulse
-Runika: Impact Strike
-
-Pulse:
-
-K.....R
-.....j.
-
-
-Beat 4
--------
-
-Karin
------
-life: 12
-discard 1: Full Moon Dash
-discard 2: Feral Grasp
-
-Runika
-------
-life: 20
-discard 1: Impact Strike
-discard 2: Channeled Drive
-Active artifacts: 
-  Hover Boots
-  Phase Goggles
-  Autodeflector
-  Shield Amulet
-
-
-K.....R
-.....j.
-
-Unbeatable strategy for Runika: Maintenance Tinker: -1.65
-
-Karin:
-3% Howling Claw
-60% Howling Strike
-37% Howling Shot
-
-Runika:
-31% Maintenance Tinker
-41% Maintenance Dash
-28% Explosive Tinker
+37% Maintenance Tinker
+25% Maintenance Strike
+14% Maintenance Dash
+25% Special Pulse
 
 
 Karin: Howling Strike
-Runika: Maintenance Tinker
+Runika: Maintenance Strike
 
 Priorities:  4 | 4
 Clash!
 
+
+Karin: Howling Grasp
+Runika: Maintenance Tinker
+
+Priorities:  6 | 4
+Karin is active
+Karin hits
+Karin moves Runika:
+
+.K...R.
+.....j.
+
+Shield Amulet is de-activated
+Runika has 4 soak
+Runika takes 0 damage (now at 20 life)
+Runika misses
+Phase Goggles is activated
+Runika moves:
+
+.K....R
+.....j.
+
+Jager moves:
+
+.K....R
+....j..
+
+Jager moves:
+
+.K....R
+.....j.
+
+
+Beat 4
+-------
+
+Karin
+-----
+Life: 14
+Discard 1: Howling Grasp
+Discard 2: Feral Claw
+Special action available
+
+Runika
+------
+Life: 20
+Discard 1: Maintenance Tinker
+Discard 2: Explosive Burst
+Special action available
+Active artifacts: 
+  Autodeflector
+  Hover Boots
+  Phase Goggles
+Removed artifacts: 
+  Battlefist
+
+
+.K....R
+.....j.
+
+Unbeatable strategy for Karin: Coordinated Burst: 1.26
+Unbeatable strategy for Karin: Coordinated Dash: 0.69
+Unbeatable strategy for Karin: Full Moon Burst: 0.22
+
+
 Karin:
-66% Howling Shot
-34% Howling Burst
+6% Coordinated Drive
+37% Coordinated Burst
+27% Full Moon Shot
+12% Full Moon Drive
+18% Full Moon Burst
 
 Runika:
-50% Maintenance Shot
-50% Maintenance Dash
+18% Channeled Shot
+4% Channeled Grasp
+22% Overcharged Shot
+8% Overcharged Drive
+48% Special Pulse
 
 
-Karin: Howling Burst
-Runika: Maintenance Dash
+Karin: Full Moon Burst
+Runika: Overcharged Drive
 
-Priorities:  2 | 10
+Priorities:  2 | 6
 Runika is active
+Runika overcharges her Hover Boots
+Runika becomes the active player
+Karin moves:
+
+K.....R
+.....j.
+
 Runika moves:
 
 K....R.
 .....j.
 
+Runika misses
 Karin misses
-Jager moves:
+Hover Boots is removed from the game
+
+Beat 5
+-------
+
+Karin
+-----
+Life: 14
+Discard 1: Full Moon Burst
+Discard 2: Howling Grasp
+Special action available
+
+Runika
+------
+Life: 20
+Discard 1: Overcharged Drive
+Discard 2: Maintenance Tinker
+Special action available
+Active artifacts: 
+  Autodeflector
+  Phase Goggles
+Removed artifacts: 
+  Battlefist
+  Hover Boots
+
 
 K....R.
-....j..
+.....j.
 
-Jager moves:
 
-K....R.
+Karin:
+18% Coordinated Claw
+74% Coordinated Strike
+8% Special Pulse
+
+Runika:
+8% Channeled Dash
+2% Explosive Shot
+90% Special Pulse
+
+
+Karin: Coordinated Strike
+Runika: Special Pulse
+
+Pulse:
+
+R..K...
 .....j.
 
 
@@ -381,82 +353,74 @@ Beat 5
 
 Karin
 -----
-life: 12
-discard 1: Howling Burst
-discard 2: Full Moon Dash
+Life: 14
+Discard 1: Coordinated Strike
+Discard 2: Full Moon Burst
+Special action available
 
 Runika
 ------
-life: 20
-discard 1: Maintenance Dash
-discard 2: Impact Strike
+Life: 20
+Discard 1: Overcharged Drive
+Discard 2: Maintenance Tinker
 Active artifacts: 
-  Phase Goggles
   Autodeflector
-  Shield Amulet
+  Phase Goggles
+Removed artifacts: 
+  Battlefist
   Hover Boots
 
 
-K....R.
+R..K...
 .....j.
 
-Unbeatable strategy for Runika: Channeled Shot: -1.33
-Unbeatable strategy for Runika: Explosive Drive: -0.48
-Unbeatable strategy for Runika: Overcharged Drive: -1.25
 
 Karin:
-13% Coordinated Claw
-17% Coordinated Strike
-38% Coordinated Grasp
-29% Feral Grasp
-4% Dual Strike
+26% Howling Shot
+9% Howling Dash
+17% Feral Drive
+23% Feral Grasp
+14% Dual Drive
+11% Dual Dash
 
 Runika:
-20% Channeled Shot
-3% Channeled Drive
-42% Explosive Tinker
-1% Explosive Shot
-34% Explosive Drive
+5% Channeled Shot
+3% Channeled Grasp
+2% Channeled Dash
+9% Explosive Grasp
+51% Explosive Dash
+30% Impact Dash
 
 
-Karin: Coordinated Grasp
-Runika: Explosive Tinker
+Karin: Feral Grasp
+Runika: Explosive Dash
 
-Priorities:  5 | 5
-Clash!
-
-Karin:
-58% Coordinated Strike
-42% Coordinated Shot
-
-Runika:
-57% Explosive Drive
-43% Explosive Burst
-
-
-Karin: Coordinated Shot
-Runika: Explosive Drive
-
-Priorities:  2 | 6
+Priorities:  6 | 9
 Runika is active
 Runika moves Karin:
 
-.K...R.
+R.K....
+.....j.
+
+Karin moves:
+
+RK.....
 .....j.
 
 Runika moves:
 
-.K.R...
+.KR....
 .....j.
 
-Runika hits
-Shield Amulet is de-activated
-Runika gets +2 power
-Karin takes 4 damage (now at 8 life)
-Karin is stunned
+Karin misses
+Karin moves:
+
+K.R....
+.....j.
+
 Jager moves:
 
-.K.R...
+K.R....
 ....j..
 
 
@@ -465,196 +429,219 @@ Beat 6
 
 Karin
 -----
-life: 8
-discard 1: Coordinated Shot
-discard 2: Howling Burst
+Life: 14
+Discard 1: Feral Grasp
+Discard 2: Coordinated Strike
+Special action available
 
 Runika
 ------
-life: 20
-discard 1: Explosive Drive
-discard 2: Maintenance Dash
+Life: 20
+Discard 1: Explosive Dash
+Discard 2: Overcharged Drive
 Active artifacts: 
-  Phase Goggles
   Autodeflector
+  Phase Goggles
+Removed artifacts: 
+  Battlefist
   Hover Boots
 
 
-.K.R...
+K.R....
 ....j..
 
-Unbeatable strategy for Runika: Overcharged Tinker: -2.27
-Unbeatable strategy for Runika: Overcharged Strike: -1.28
-Unbeatable strategy for Runika: Overcharged Shot: -0.19
 
 Karin:
-6% Full Moon Strike
-23% Feral Drive
-36% Feral Grasp
-35% Dual Dash
+12% Full Moon Shot
+46% Full Moon Drive
+42% Full Moon Burst
 
 Runika:
-15% Channeled Tinker
-10% Channeled Strike
-9% Channeled Grasp
-66% Overcharged Tinker
+12% Channeled Tinker
+41% Channeled Shot
+46% Maintenance Tinker
 
 
-Karin: Dual Dash
-Runika: Channeled Strike
+Karin: Full Moon Burst
+Runika: Maintenance Tinker
 
-Priorities:  9 | 6
-Karin is active
-Battlefist is activated
-Jager moves:
+Priorities:  2 | 2
+Clash!
 
-.K.R...
-..j....
 
+Karin: Full Moon Shot
+Runika: Maintenance Grasp
+
+Priorities:  3 | 4
+Runika is active
 Karin moves:
 
-K..R...
-..j....
+..R.K..
+....j..
 
-Runika misses
-Jager moves:
+Runika hits
+Runika moves Karin:
 
-K..R...
-...j...
+..RK...
+j......
 
-Battlefist is de-activated
+Karin takes 1 damage (now at 13 life)
+Runika moves:
+
+R..K...
+j......
+
+Karin hits
+Autodeflector is de-activated
+Runika has 2 soak
+Runika takes 1 damage (now at 19 life)
+Runika is stunned
 
 Beat 7
 -------
 
 Karin
 -----
-life: 8
-discard 1: Dual Dash
-discard 2: Coordinated Shot
+Life: 13
+Discard 1: Full Moon Shot
+Discard 2: Feral Grasp
+Special action available
 
 Runika
 ------
-life: 20
-discard 1: Channeled Strike
-discard 2: Explosive Drive
+Life: 19
+Discard 1: Maintenance Grasp
+Discard 2: Explosive Dash
 Active artifacts: 
   Phase Goggles
-  Autodeflector
+Removed artifacts: 
   Hover Boots
+  Battlefist
 
 
-K..R...
-...j...
+R..K...
+j......
+
 
 Karin:
-2% Howling Claw
-21% Howling Strike
-2% Howling Grasp
-51% Full Moon Claw
-9% Full Moon Strike
-16% Feral Grasp
+70% Howling Claw
+30% Howling Drive
 
 Runika:
-32% Maintenance Tinker
-50% Maintenance Dash
-2% Impact Tinker
-1% Impact Grasp
-12% Overcharged Tinker
-3% Overcharged Shot
+49% Channeled Tinker
+51% Channeled Drive
 
 
-Karin: Full Moon Claw
-Runika: Maintenance Dash
+Karin: Howling Drive
+Runika: Channeled Drive
 
-Priorities:  5 | 10
-Runika is active
-Runika moves:
+Priorities:  5 | 5
+Clash!
 
-K...R..
-...j...
 
-Runika moves:
+Karin: Howling Strike
+Runika: Channeled Strike
 
-K.....R
-...j...
+Priorities:  4 | 4
+Clash!
 
+
+Karin: Howling Claw
+Runika: Channeled Tinker
+
+Priorities:  5 | 4
+Karin is active
+Shield Amulet is activated
 Karin moves:
 
-.K....R
-...j...
+R.K....
+j......
 
-Karin misses
+Karin hits
+Karin gets +2 power
+Karin gets +2 power
 Jager moves:
 
-.K....R
-....j..
+R.K....
+.j.....
 
+Phase Goggles is de-activated
+Runika takes 6 damage (now at 13 life)
+Runika misses
+Autodeflector is activated
+Jager moves:
+
+R.K....
+j......
+
+Shield Amulet is de-activated
 
 Beat 8
 -------
 
 Karin
 -----
-life: 8
-discard 1: Full Moon Claw
-discard 2: Dual Dash
+Life: 13
+Discard 1: Howling Claw
+Discard 2: Full Moon Shot
+Special action available
 
 Runika
 ------
-life: 20
-discard 1: Maintenance Dash
-discard 2: Channeled Strike
+Life: 13
+Discard 1: Channeled Tinker
+Discard 2: Maintenance Grasp
 Active artifacts: 
-  Phase Goggles
   Autodeflector
+Removed artifacts: 
   Hover Boots
+  Battlefist
 
 
-.K....R
-....j..
+R.K....
+j......
 
-Unbeatable strategy for Karin: Howling Burst: 0.24
 
 Karin:
-36% Howling Drive
-49% Howling Burst
-13% Coordinated Shot
-1% Coordinated Grasp
+14% Feral Drive
+20% Dual Grasp
+67% Dual Dash
 
 Runika:
-2% Explosive Tinker
-1% Explosive Shot
-20% Explosive Burst
-44% Impact Tinker
-34% Impact Drive
+1% Impact Strike
+33% Impact Drive
+66% Impact Dash
 
 
-Karin: Howling Burst
-Runika: Impact Tinker
+Karin: Feral Drive
+Runika: Impact Drive
 
-Priorities:  2 | 5
-Runika is active
+Priorities:  5 | 4
+Karin is active
 Karin moves:
 
-K.....R
-....j..
+RK.....
+j......
 
-Runika moves:
-
-K....R.
-....j..
-
-Runika misses
-Battlefist is activated
 Karin hits
-Battlefist is de-activated
-Runika has 2 soak
-Runika takes 1 damage (now at 19 life)
+Karin moves:
+
+R..K...
+j......
+
+Runika is stunned
+Autodeflector is de-activated
+Runika takes 3 damage (now at 10 life)
+Runika is stunned
+Karin moves:
+
+R...K..
+j......
+
 Jager moves:
 
-K....R.
-.....j.
+R...K..
+.j.....
 
 
 Beat 9
@@ -662,137 +649,120 @@ Beat 9
 
 Karin
 -----
-life: 8
-discard 1: Howling Burst
-discard 2: Full Moon Claw
+Life: 13
+Discard 1: Feral Drive
+Discard 2: Howling Claw
+Special action available
 
 Runika
 ------
-life: 19
-discard 1: Impact Tinker
-discard 2: Maintenance Dash
-Active artifacts: 
-  Phase Goggles
+Life: 10
+Discard 1: Impact Drive
+Discard 2: Channeled Tinker
+No active artifacts
+Removed artifacts: 
   Hover Boots
-  Autodeflector
+  Battlefist
 
 
-K....R.
-.....j.
+R...K..
+.j.....
 
-Unbeatable strategy for Runika: Channeled Shot: -0.74
-Unbeatable strategy for Runika: Explosive Drive: -0.21
 
 Karin:
-6% Coordinated Strike
-3% Coordinated Grasp
-91% Dual Dash
+72% Coordinated Burst
+0% Coordinated Dash
+2% Full Moon Burst
+26% Dual Dash
 
 Runika:
-31% Channeled Shot
-13% Channeled Drive
-56% Explosive Drive
+26% Maintenance Shot
+44% Maintenance Grasp
+2% Maintenance Dash
+1% Explosive Shot
+27% Overcharged Grasp
 
 
-Karin: Dual Dash
-Runika: Channeled Drive
+Karin: Coordinated Burst
+Runika: Maintenance Grasp
 
-Priorities:  9 | 7
-Karin is active
-Battlefist is activated
-Jager moves:
-
-K....R.
-......j
-
-Karin moves Runika:
-
-K.....R
-......j
-
+Priorities:  1 | 4
+Runika is active
 Karin moves:
 
-.K....R
-......j
-
-Runika moves:
-
-.K..R..
-......j
+R.....K
+.j.....
 
 Runika misses
+Karin misses
 Jager moves:
 
-.K..R..
-.....j.
+R.....K
+j......
 
-Battlefist is de-activated
 
 Beat 10
 -------
 
 Karin
 -----
-life: 8
-discard 1: Dual Dash
-discard 2: Howling Burst
+Life: 13
+Discard 1: Coordinated Burst
+Discard 2: Feral Drive
+Special action available
 
 Runika
 ------
-life: 19
-discard 1: Channeled Drive
-discard 2: Impact Tinker
-Active artifacts: 
-  Phase Goggles
-  Autodeflector
+Life: 10
+Discard 1: Maintenance Grasp
+Discard 2: Impact Drive
+No active artifacts
+Removed artifacts: 
   Hover Boots
+  Battlefist
 
 
-.K..R..
-.....j.
+R.....K
+j......
 
-Unbeatable strategy for Runika: Maintenance Dash: -1.02
-Unbeatable strategy for Runika: Explosive Dash: -1.09
-Unbeatable strategy for Runika: Overcharged Strike: -0.41
 
 Karin:
-66% Coordinated Claw
-10% Coordinated Strike
-22% Feral Strike
-1% Feral Grasp
+6% Howling Claw
+33% Howling Shot
+61% Dual Shot
 
 Runika:
-1% Maintenance Dash
-2% Explosive Shot
-14% Explosive Grasp
-83% Explosive Dash
+33% Channeled Tinker
+27% Channeled Dash
+15% Explosive Tinker
+25% Overcharged Dash
 
 
-Karin: Feral Strike
-Runika: Explosive Dash
+Karin: Howling Shot
+Runika: Channeled Dash
 
-Priorities:  4 | 11
+Priorities:  3 | 10
 Runika is active
-Karin moves:
-
-...KR..
-.....j.
-
+Shield Amulet is activated
 Runika moves:
 
-R..K...
-.....j.
+...R..K
+j......
 
-Karin misses
-Karin moves:
+Karin hits
+Shield Amulet is de-activated
+Runika takes 3 damage (now at 7 life)
+Runika is stunned
+No artifacts to de-activate
+Jager moves:
 
-R...K..
-.....j.
+...R..K
+.j.....
 
 Jager moves:
 
-R...K..
-....j..
+...R..K
+..j....
 
 
 Beat 11
@@ -800,73 +770,84 @@ Beat 11
 
 Karin
 -----
-life: 8
-discard 1: Feral Strike
-discard 2: Dual Dash
+Life: 13
+Discard 1: Howling Shot
+Discard 2: Coordinated Burst
+Special action available
 
 Runika
 ------
-life: 19
-discard 1: Explosive Dash
-discard 2: Channeled Drive
-Active artifacts: 
-  Phase Goggles
-  Autodeflector
+Life: 7
+Discard 1: Channeled Dash
+Discard 2: Maintenance Grasp
+No active artifacts
+Removed artifacts: 
   Hover Boots
+  Battlefist
 
 
-R...K..
-....j..
+...R..K
+..j....
 
-Unbeatable strategy for Karin: Coordinated Burst: 0.99
+Unbeatable strategy for Karin: Full Moon Claw: 0.51
+Unbeatable strategy for Karin: Full Moon Drive: 1.29
+Unbeatable strategy for Karin: Feral Claw: 1.94
+Unbeatable strategy for Karin: Feral Drive: 0.22
+
 
 Karin:
-58% Coordinated Claw
-36% Coordinated Burst
-6% Full Moon Claw
+3% Full Moon Strike
+7% Full Moon Drive
+68% Feral Claw
+15% Feral Strike
+7% Feral Drive
 
 Runika:
-42% Maintenance Tinker
-13% Maintenance Shot
-9% Maintenance Burst
-35% Impact Tinker
+22% Explosive Tinker
+14% Explosive Strike
+21% Explosive Burst
+38% Impact Strike
+5% Overcharged Burst
 
 
-Karin: Coordinated Claw
-Runika: Impact Tinker
+Karin: Feral Claw
+Runika: Explosive Strike
 
-Priorities:  4 | 5
-Runika is active
-Runika moves:
-
-.R..K..
-....j..
-
-Runika misses
-Battlefist is activated
+Priorities:  5 | 3
+Karin is active
 Karin moves:
 
-.R.K...
-....j..
+...RK..
+..j....
+
+Runika moves Karin:
+
+..KR...
+..j....
+
+Karin moves:
+
+...RK..
+..j....
 
 Karin hits
-Jager moves:
+Karin moves:
 
-.R.K...
-...j...
-
-Battlefist is de-activated
-Runika has 2 soak
-Runika takes 0 damage (now at 19 life)
-Jager moves:
-
-.R.K...
+...R..K
 ..j....
 
 Jager moves:
 
-.R.K...
-.j.....
+...R..K
+...j...
+
+No artifacts to de-activate
+Runika takes 2 damage (now at 5 life)
+Runika misses
+Jager moves:
+
+...R..K
+....j..
 
 
 Beat 12
@@ -874,132 +855,135 @@ Beat 12
 
 Karin
 -----
-life: 8
-discard 1: Coordinated Claw
-discard 2: Feral Strike
+Life: 13
+Discard 1: Feral Claw
+Discard 2: Howling Shot
+Special action available
 
 Runika
 ------
-life: 19
-discard 1: Impact Tinker
-discard 2: Explosive Dash
-Active artifacts: 
-  Phase Goggles
+Life: 5
+Discard 1: Explosive Strike
+Discard 2: Channeled Dash
+No active artifacts
+Removed artifacts: 
   Hover Boots
-  Autodeflector
+  Battlefist
 
 
-.R.K...
-.j.....
+...R..K
+....j..
+
+Unbeatable strategy for Runika: Maintenance Tinker: -1.19
+
 
 Karin:
-9% Howling Shot
-38% Howling Burst
-3% Howling Grasp
-50% Dual Dash
+8% Coordinated Burst
+44% Full Moon Drive
+47% Full Moon Burst
 
 Runika:
-19% Channeled Shot
-35% Channeled Drive
-17% Maintenance Drive
-29% Overcharged Drive
+57% Maintenance Tinker
+34% Maintenance Drive
+9% Maintenance Burst
 
 
-Karin: Dual Dash
-Runika: Channeled Drive
+Karin: Full Moon Drive
+Runika: Maintenance Drive
 
-Priorities:  9 | 7
+Priorities:  5 | 3
 Karin is active
-Battlefist is activated
-Jager moves:
+Karin moves:
 
-.R.K...
-j......
-
-Karin moves Runika:
-
-R..K...
-j......
+...RK..
+....j..
 
 Karin moves:
 
-R.....K
-j......
+..KR...
+......j
 
-Runika moves:
-
-..R...K
-j......
-
-Runika misses
+Karin hits
+No artifacts to de-activate
+Runika has 3 soak
+Runika takes 2 damage (now at 3 life)
+Runika is stunned
 Jager moves:
 
-..R...K
-.j.....
+..KR...
+.....j.
 
-Battlefist is de-activated
 
 Beat 13
 -------
 
 Karin
 -----
-life: 8
-discard 1: Dual Dash
-discard 2: Coordinated Claw
+Life: 13
+Discard 1: Full Moon Drive
+Discard 2: Feral Claw
+Special action available
 
 Runika
 ------
-life: 19
-discard 1: Channeled Drive
-discard 2: Impact Tinker
-Active artifacts: 
-  Phase Goggles
-  Autodeflector
+Life: 3
+Discard 1: Maintenance Drive
+Discard 2: Explosive Strike
+No active artifacts
+Removed artifacts: 
   Hover Boots
+  Battlefist
 
 
-..R...K
-.j.....
+..KR...
+.....j.
 
-Unbeatable strategy for Runika: Explosive Dash: -0.94
 
 Karin:
-100% Howling Burst
+25% Howling Burst
+21% Howling Dash
+2% Coordinated Strike
+25% Coordinated Grasp
+18% Coordinated Dash
+3% Dual Strike
+6% Dual Grasp
 
 Runika:
-100% Explosive Dash
+28% Channeled Tinker
+1% Channeled Burst
+36% Channeled Dash
+2% Impact Tinker
+4% Impact Shot
+9% Overcharged Shot
+20% Overcharged Dash
 
 
 Karin: Howling Burst
-Runika: Explosive Dash
+Runika: Channeled Tinker
 
-Priorities:  2 | 11
+Priorities:  2 | 4
 Runika is active
-Runika moves Karin:
-
-..R..K.
-.j.....
-
+Autodeflector is activated
 Karin moves:
 
-..R...K
-.j.....
+K..R...
+.....j.
 
-Runika moves:
-
-.....RK
-.j.....
-
-Karin misses
+Runika misses
+Shield Amulet is activated
+Karin hits
+Shield Amulet is de-activated
+Runika has 2 soak
+Runika takes 1 damage (now at 2 life)
+Autodeflector is de-activated
 Jager moves:
 
-.....RK
-..j....
+K..R...
+....j..
 
 Jager moves:
 
-.....RK
+K..R...
 ...j...
 
 
@@ -1008,177 +992,67 @@ Beat 14
 
 Karin
 -----
-life: 8
-discard 1: Howling Burst
-discard 2: Dual Dash
+Life: 13
+Discard 1: Howling Burst
+Discard 2: Full Moon Drive
+Special action available
 
 Runika
 ------
-life: 19
-discard 1: Explosive Dash
-discard 2: Channeled Drive
-Active artifacts: 
-  Phase Goggles
-  Autodeflector
-  Hover Boots
-
-
-.....RK
-...j...
-
-Unbeatable strategy for Runika: Overcharged Tinker: -1.04
-
-Karin:
-35% Full Moon Claw
-21% Full Moon Drive
-24% Feral Claw
-19% Feral Shot
-
-Runika:
-3% Maintenance Tinker
-12% Maintenance Grasp
-15% Impact Grasp
-70% Overcharged Tinker
-
-
-Karin: Full Moon Claw
-Runika: Overcharged Tinker
-
-Priorities:  5 | 5
-Clash!
-
-Karin:
-24% Full Moon Strike
-76% Full Moon Drive
-
-Runika:
-21% Overcharged Strike
-79% Overcharged Shot
-
-
-Karin: Full Moon Drive
-Runika: Overcharged Shot
-
-Priorities:  5 | 4
-Karin is active
-Karin moves:
-
-...K.R.
-...j...
-
-Runika overcharges her Hover Boots
-Runika becomes the active player
-Runika hits
-Karin takes 3 damage (now at 5 life)
-Karin is stunned
-Hover Boots is removed from the game
-
-Beat 15
--------
-
-Karin
------
-life: 5
-discard 1: Full Moon Drive
-discard 2: Howling Burst
-
-Runika
-------
-life: 19
-discard 1: Overcharged Shot
-discard 2: Explosive Dash
-Active artifacts: 
-  Phase Goggles
-  Autodeflector
+Life: 2
+Discard 1: Channeled Tinker
+Discard 2: Maintenance Drive
+No active artifacts
 Removed artifacts: 
   Hover Boots
+  Battlefist
 
 
-...K.R.
-......j
+K..R...
+...j...
 
-Unbeatable strategy for Runika: Channeled Tinker: -10.00
-Unbeatable strategy for Runika: Channeled Strike: -10.00
-Unbeatable strategy for Runika: Channeled Drive: -10.00
-Unbeatable strategy for Runika: Channeled Burst: -10.00
-Unbeatable strategy for Runika: Channeled Grasp: -10.00
-Unbeatable strategy for Runika: Maintenance Tinker: -10.00
-Unbeatable strategy for Runika: Maintenance Strike: -10.00
-Unbeatable strategy for Runika: Maintenance Drive: -10.00
-Unbeatable strategy for Runika: Maintenance Burst: -10.00
-Unbeatable strategy for Runika: Maintenance Grasp: -10.00
-Unbeatable strategy for Runika: Impact Tinker: -10.00
-Unbeatable strategy for Runika: Impact Strike: -10.00
-Unbeatable strategy for Runika: Impact Drive: -10.00
-Unbeatable strategy for Runika: Impact Burst: -10.00
-Unbeatable strategy for Runika: Impact Grasp: -10.00
+Unbeatable strategy for Runika: Explosive Dash: -0.46
+
 
 Karin:
-7% Coordinated Claw
-7% Coordinated Strike
-7% Coordinated Shot
-7% Coordinated Grasp
-7% Coordinated Dash
-7% Feral Claw
-7% Feral Strike
-7% Feral Shot
-7% Feral Grasp
-7% Feral Dash
-7% Dual Claw
-7% Dual Strike
-7% Dual Shot
-7% Dual Grasp
-7% Dual Dash
+46% Coordinated Claw
+49% Coordinated Dash
+3% Feral Shot
+2% Feral Grasp
 
 Runika:
-7% Channeled Tinker
-7% Channeled Strike
-7% Channeled Drive
-7% Channeled Burst
-7% Channeled Grasp
-7% Maintenance Tinker
-7% Maintenance Strike
-7% Maintenance Drive
-7% Maintenance Burst
-7% Maintenance Grasp
-7% Impact Tinker
-7% Impact Strike
-7% Impact Drive
-7% Impact Burst
-7% Impact Grasp
+5% Explosive Strike
+39% Explosive Shot
+5% Explosive Burst
+50% Explosive Dash
 
 
-Karin: Feral Dash
-Runika: Impact Grasp
+Karin: Coordinated Dash
+Runika: Explosive Dash
 
-Priorities:  10 | 5
-Karin is active
-Karin moves:
+Priorities:  9 | 9
+Clash!
 
-....KR.
-......j
 
-Karin moves:
+Karin: Coordinated Claw
+Runika: Explosive Grasp
 
-.K...R.
-......j
-
-Runika moves:
-
-.K..R..
-......j
-
+Priorities:  4 | 5
+Runika is active
 Runika misses
 Karin moves:
 
-K...R..
-......j
+.K.R...
+...j...
 
+Karin hits
+Karin gets +2 power
 Jager moves:
 
-K...R..
-.....j.
+.K.R...
+..j....
 
-Game goes to time
-RUNIKA WINS!
-total_time: 64
+No artifacts to de-activate
+Runika takes 4 damage (now at 0 life)
+KARIN WINS!
+total_time: 60

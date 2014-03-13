@@ -84,7 +84,7 @@ def main():
     
 def ad_hoc():
 #    duel('gerard', 'kallistar', 1)
-    free_for_all(1, ['kajia'], '', [], True, False)
+    free_for_all(1, ['alexian'], '', [], True, False)
 
 playable = [ 'adjenna',
              'alexian',
@@ -3384,8 +3384,8 @@ class Alexian (Character):
         return Character.all_cards(self) + self.induced_tokens
     
     def choose_initial_discards (self):
-        return (self.regal, self.dash,
-                self.stalwart, self.strike)
+        return (self.regal, self.grasp,
+                self.steeled, self.strike)
 
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -3492,7 +3492,7 @@ class Alexian (Character):
 
     def evaluate (self):
         value = Character.evaluate(self)
-        value -= 0.6 * len(self.induced_pool)
+        value -= 0.4 * len(self.induced_pool)
         return value
 
 
@@ -5863,12 +5863,17 @@ class Karin (Character):
             self.dash.jager_preferred_range = 2
 
     def choose_initial_discards (self):
-        return (self.full_moon, self.strike,
-                self.coordinated, self.grasp)
+        return (self.dual, self.grasp,
+                self.howling, self.strike)
 
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
-        self.jager_position = self.position
+        if self.position == 1:
+            self.jager_position = 2
+        elif self.position == 5:
+            self.jager_position = 4
+        else:
+            raise Exception()
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
@@ -8865,7 +8870,7 @@ class Stalwart (Style):
     def before_trigger(self):
         old_pos = self.me.position
         # advance up to 3, but don't switch sides
-        self.me.advance (range(min(self.game.distance(), 3)))
+        self.me.advance (range(min(self.game.distance(), 4)))
         spaces_advanced = abs(self.me.position-old_pos)
         self.me.add_triggered_power_bonus (spaces_advanced)
     ordered_before_trigger = True

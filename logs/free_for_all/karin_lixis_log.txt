@@ -11,51 +11,55 @@ Beat 1
 
 Karin
 -----
-life: 20
-discard 1: Full Moon Strike
-discard 2: Coordinated Grasp
-special action
+Life: 20
+Discard 1: Dual Grasp
+Discard 2: Howling Strike
+Special action available
 
 Lixis
 -----
-life: 20
-discard 1: Pruning Grasp
-discard 2: Rooted Strike
-special action
+Life: 20
+Discard 1: Pruning Grasp
+Discard 2: Rooted Strike
+Special action available
 
 
 .K...L.
-.j.....
+..j....
+
+Unbeatable strategy for Lixis: Vine Shot: -0.22
+Unbeatable strategy for Lixis: Vine Drive: -0.16
+
 
 Karin:
-97% Feral Dash
-3% Dual Shot
+1% Feral Drive
+99% Feral Dash
 
 Lixis:
-92% Vine Shot
-8% Vine Drive
+26% Naturalizing Shot
+74% Vine Shot
 
 
 Karin: Feral Dash
-Lixis: Vine Shot
+Lixis: Naturalizing Shot
 
-Priorities:  10 | 0
+Priorities:  10 | 3
 Karin is active
 Karin moves:
 
 ..K..L.
-.j.....
+..j....
 
 Karin moves:
 
 .....LK
-.j.....
+..j....
 
 Lixis misses
 Jager moves:
 
 .....LK
-..j....
+...j...
 
 
 Beat 2
@@ -63,156 +67,116 @@ Beat 2
 
 Karin
 -----
-life: 20
-discard 1: Feral Dash
-discard 2: Full Moon Strike
-special action
+Life: 20
+Discard 1: Feral Dash
+Discard 2: Dual Grasp
+Special action available
 
 Lixis
 -----
-life: 20
-discard 1: Vine Shot
-discard 2: Pruning Grasp
-special action
+Life: 20
+Discard 1: Naturalizing Shot
+Discard 2: Pruning Grasp
+Special action available
 
 
 .....LK
-..j....
+...j...
 
-Unbeatable strategy for Lixis: Venomous Strike: -2.84
-Unbeatable strategy for Lixis: Naturalizing Strike: -0.22
 
 Karin:
-100% Special Pulse
+10% Coordinated Strike
+14% Full Moon Strike
+46% Full Moon Drive
+30% Full Moon Burst
 
 Lixis:
-83% Venomous Strike
-17% Rooted Strike
+15% Venomous Strike
+24% Venomous Drive
+34% Vine Strike
+27% Vine Burst
 
 
-Karin: Special Pulse
-Lixis: Rooted Strike
+Karin: Full Moon Drive
+Lixis: Vine Burst
 
-Pulse:
-
-L.....K
-..j....
-
-
-Beat 2
--------
-
-Karin
------
-life: 20
-discard 1: Feral Dash
-discard 2: Full Moon Strike
-
-Lixis
------
-life: 20
-discard 1: Rooted Strike
-discard 2: Vine Shot
-special action
-
-
-L.....K
-..j....
-
-Unbeatable strategy for Karin: Howling Shot: 0.32
-
-Karin:
-42% Howling Claw
-57% Howling Shot
-2% Howling Burst
-
-Lixis:
-28% Pruning Burst
-72% Pruning Grasp
-
-
-Karin: Howling Claw
-Lixis: Pruning Burst
-
-Lixis gets +2 power
-Lixis gets +2 priority
-Priorities:  5 | 1
+Priorities:  5 | -1
 Karin is active
+Lixis moves:
+
+...L..K
+...j...
+
 Karin moves:
 
-L...K..
-..j....
+...LK..
+...j...
 
 Karin hits
-Jager moves:
-
-L...K..
-.j.....
-
-Lixis takes 2 damage (now at 18 life)
-Lixis is stunned
-Jager moves:
-
-L...K..
-j......
-
-Jager moves:
-
-L...K..
-.j.....
-
+Lixis takes 3 damage (now at 17 life)
+Lixis misses
 
 Beat 3
 -------
 
 Karin
 -----
-life: 20
-discard 1: Howling Claw
-discard 2: Feral Dash
+Life: 20
+Discard 1: Full Moon Drive
+Discard 2: Feral Dash
+Special action available
 
 Lixis
 -----
-life: 18
-discard 1: Pruning Burst
-discard 2: Rooted Strike
-special action
+Life: 17
+Discard 1: Vine Burst
+Discard 2: Naturalizing Shot
+Special action available
 
 
-L...K..
-.j.....
+...LK..
+...j...
+
 
 Karin:
-18% Coordinated Shot
-28% Coordinated Burst
-45% Full Moon Shot
-9% Full Moon Burst
+15% Howling Claw
+43% Howling Burst
+24% Howling Grasp
+18% Coordinated Claw
 
 Lixis:
-9% Venomous Drive
-5% Vine Lance
-69% Vine Shot
-16% Vine Drive
+21% Venomous Lance
+8% Venomous Grasp
+26% Venomous Dash
+19% Rooted Strike
+26% Rooted Dash
 
 
-Karin: Coordinated Burst
-Lixis: Vine Drive
+Karin: Howling Claw
+Lixis: Venomous Dash
 
-Priorities:  1 | 2
+Priorities:  5 | 9
 Lixis is active
+Lixis moves:
+
+....K.L
+...j...
+
 Karin moves:
 
-L.....K
-.j.....
+.....KL
+...j...
 
-Lixis is blocked by Jager
-Lixis takes 2 damage (now at 16 life)
-Lixis misses
 Karin misses
 Jager moves:
 
-L.....K
-j......
+.....KL
+....j..
+
+Jager moves:
+
+.....KL
+.....j.
 
 
 Beat 4
@@ -220,85 +184,56 @@ Beat 4
 
 Karin
 -----
-life: 20
-discard 1: Coordinated Burst
-discard 2: Howling Claw
+Life: 20
+Discard 1: Howling Claw
+Discard 2: Full Moon Drive
+Special action available
 
 Lixis
 -----
-life: 16
-discard 1: Vine Drive
-discard 2: Pruning Burst
-special action
+Life: 17
+Discard 1: Venomous Dash
+Discard 2: Vine Burst
+Special action available
 
 
-L.....K
-j......
+.....KL
+.....j.
+
 
 Karin:
-4% Full Moon Strike
-4% Full Moon Grasp
-37% Feral Strike
-24% Feral Shot
-31% Dual Drive
+3% Coordinated Strike
+25% Coordinated Burst
+21% Feral Strike
+51% Feral Burst
 
 Lixis:
-3% Venomous Shot
-1% Rooted Shot
-1% Rooted Dash
-95% Special Pulse
+47% Rooted Shot
+5% Naturalizing Lance
+20% Naturalizing Shot
+28% Naturalizing Drive
 
 
-Karin: Feral Strike
-Lixis: Special Pulse
+Karin: Feral Burst
+Lixis: Rooted Shot
 
-Pulse:
-
-....K.L
-j......
-
-
-Beat 4
--------
-
-Karin
------
-life: 20
-discard 1: Feral Strike
-discard 2: Coordinated Burst
-
-Lixis
------
-life: 16
-discard 1: Vine Drive
-discard 2: Pruning Burst
-
-
-....K.L
-j......
-
-Karin:
-43% Full Moon Shot
-57% Full Moon Grasp
-
-Lixis:
-63% Venomous Strike
-37% Naturalizing Grasp
-
-
-Karin: Full Moon Shot
-Lixis: Naturalizing Grasp
-
-Priorities:  3 | 6
-Lixis is active
+Priorities:  2 | 0
+Karin is active
 Karin moves:
 
-K.....L
-j......
+...K..L
+.....j.
 
+Karin hits
+Karin moves:
+
+.K....L
+.....j.
+
+Lixis has 2 soak
+Lixis takes 1 damage (now at 16 life)
 Lixis misses
-Karin misses
-Jager moves:
+Karin moves:
 
 K.....L
 .....j.
@@ -309,52 +244,40 @@ Beat 5
 
 Karin
 -----
-life: 20
-discard 1: Full Moon Shot
-discard 2: Feral Strike
+Life: 20
+Discard 1: Feral Burst
+Discard 2: Howling Claw
+Special action available
 
 Lixis
 -----
-life: 16
-discard 1: Naturalizing Grasp
-discard 2: Vine Drive
+Life: 16
+Discard 1: Rooted Shot
+Discard 2: Venomous Dash
+Special action available
 
 
 K.....L
 .....j.
 
-Karin:
-2% Howling Claw
-18% Howling Grasp
-51% Coordinated Burst
-21% Coordinated Grasp
-9% Dual Grasp
-
-Lixis:
-1% Venomous Lance
-40% Rooted Lance
-37% Rooted Strike
-7% Pruning Lance
-15% Pruning Strike
-
-
-Karin: Coordinated Burst
-Lixis: Rooted Strike
-
-Priorities:  1 | 1
-Clash!
 
 Karin:
-100% Coordinated Grasp
+15% Coordinated Grasp
+58% Full Moon Grasp
+27% Dual Grasp
 
 Lixis:
-100% Rooted Lance
+24% Pruning Lance
+59% Pruning Strike
+17% Pruning Grasp
 
 
-Karin: Coordinated Grasp
-Lixis: Rooted Lance
+Karin: Full Moon Grasp
+Lixis: Pruning Strike
 
-Priorities:  5 | 3
+Lixis gets +2 power
+Lixis gets +2 priority
+Priorities:  6 | 3
 Karin is active
 Karin misses
 Lixis misses
@@ -369,37 +292,38 @@ Beat 6
 
 Karin
 -----
-life: 20
-discard 1: Coordinated Grasp
-discard 2: Full Moon Shot
+Life: 20
+Discard 1: Full Moon Grasp
+Discard 2: Feral Burst
+Special action available
 
 Lixis
 -----
-life: 16
-discard 1: Rooted Lance
-discard 2: Naturalizing Grasp
+Life: 16
+Discard 1: Pruning Strike
+Discard 2: Rooted Shot
+Special action available
 
 
 K.....L
 ......j
 
-Unbeatable strategy for Lixis: Venomous Dash: -1.18
 
 Karin:
-44% Feral Claw
-34% Dual Burst
-22% Dual Dash
+13% Howling Strike
+61% Howling Shot
+26% Dual Shot
 
 Lixis:
-88% Venomous Dash
-2% Vine Shot
-9% Vine Dash
+59% Venomous Dash
+24% Vine Grasp
+17% Special Pulse
 
 
-Karin: Dual Burst
+Karin: Howling Strike
 Lixis: Venomous Dash
 
-Priorities:  1 | 9
+Priorities:  4 | 9
 Lixis is active
 Lixis moves:
 
@@ -408,18 +332,18 @@ K....L.
 
 Lixis moves:
 
-K...L..
+K.L....
 ......j
-
-Jager moves:
-
-K...L..
-...j...
 
 Karin misses
 Jager moves:
 
-K...L..
+K.L....
+.....j.
+
+Jager moves:
+
+K.L....
 ....j..
 
 
@@ -428,85 +352,56 @@ Beat 7
 
 Karin
 -----
-life: 20
-discard 1: Dual Burst
-discard 2: Coordinated Grasp
+Life: 20
+Discard 1: Howling Strike
+Discard 2: Full Moon Grasp
+Special action available
 
 Lixis
 -----
-life: 16
-discard 1: Venomous Dash
-discard 2: Rooted Lance
+Life: 16
+Discard 1: Venomous Dash
+Discard 2: Pruning Strike
+Special action available
 
 
-K...L..
+K.L....
 ....j..
 
-Unbeatable strategy for Lixis: Naturalizing Drive: -1.09
+Unbeatable strategy for Lixis: Vine Lance: -2.33
+
 
 Karin:
-51% Howling Claw
-49% Howling Strike
+8% Coordinated Drive
+39% Coordinated Dash
+53% Feral Shot
 
 Lixis:
-39% Naturalizing Drive
-61% Vine Burst
+32% Rooted Shot
+20% Rooted Grasp
+47% Vine Lance
 
 
-Karin: Howling Claw
-Lixis: Naturalizing Drive
+Karin: Coordinated Dash
+Lixis: Rooted Grasp
 
-Priorities:  5 | 5
-Clash!
-
-Karin:
-30% Howling Strike
-54% Howling Shot
-15% Howling Drive
-
-Lixis:
-75% Naturalizing Strike
-24% Naturalizing Shot
-1% Naturalizing Burst
-
-
-Karin: Howling Strike
-Lixis: Naturalizing Strike
-
-Priorities:  4 | 4
-Clash!
-
-Karin:
-42% Howling Shot
-58% Howling Drive
-
-Lixis:
-58% Naturalizing Shot
-42% Naturalizing Burst
-
-
-Karin: Howling Shot
-Lixis: Naturalizing Burst
-
-Priorities:  3 | 2
+Priorities:  9 | 3
 Karin is active
-Lixis moves:
+Karin moves:
 
-K....L.
+..L.K..
 ....j..
 
-Karin hits
-Lixis takes 3 damage (now at 13 life)
-Lixis is stunned
+Lixis misses
 Jager moves:
 
-K....L.
+..L.K..
 ...j...
 
 Jager moves:
 
-K....L.
-....j..
+..L.K..
+..j....
 
 
 Beat 8
@@ -514,208 +409,193 @@ Beat 8
 
 Karin
 -----
-life: 20
-discard 1: Howling Shot
-discard 2: Dual Burst
+Life: 20
+Discard 1: Coordinated Dash
+Discard 2: Howling Strike
+Special action available
 
 Lixis
 -----
-life: 13
-discard 1: Naturalizing Burst
-discard 2: Venomous Dash
+Life: 16
+Discard 1: Rooted Grasp
+Discard 2: Venomous Dash
+Special action available
 
 
-K....L.
-....j..
+..L.K..
+..j....
+
+Unbeatable strategy for Lixis: Vine Burst: -3.21
+
 
 Karin:
-4% Coordinated Claw
-12% Coordinated Strike
-28% Full Moon Strike
-5% Full Moon Grasp
-50% Feral Claw
+47% Feral Shot
+40% Feral Drive
+13% Dual Claw
 
 Lixis:
-16% Rooted Strike
-1% Rooted Drive
-10% Rooted Grasp
-16% Vine Shot
-52% Pruning Lance
-5% Pruning Grasp
-
-
-Karin: Feral Claw
-Lixis: Pruning Lance
-
-Lixis gets +2 power
-Lixis gets +2 priority
-Priorities:  5 | 5
-Clash!
-
-Karin:
-26% Feral Strike
-45% Feral Drive
-28% Feral Grasp
-
-Lixis:
-11% Pruning Shot
-89% Pruning Grasp
+7% Vine Lance
+90% Vine Burst
+3% Pruning Lance
 
 
 Karin: Feral Drive
-Lixis: Pruning Grasp
+Lixis: Vine Burst
 
-Lixis gets +2 power
-Lixis gets +2 priority
-Priorities:  5 | 5
-Clash!
-
-Karin:
-42% Feral Strike
-58% Feral Dash
-
-Lixis:
-12% Pruning Shot
-88% Pruning Drive
-
-
-Karin: Feral Dash
-Lixis: Pruning Drive
-
-Lixis gets +2 power
-Lixis gets +2 priority
-Priorities:  10 | 4
+Priorities:  5 | -1
 Karin is active
 Karin moves:
 
-.K...L.
-....j..
-
-Karin moves:
-
-K....L.
-....j..
+.KL....
+..j....
 
 Lixis moves:
 
-K..L...
-....j..
+.K..L..
+..j....
 
-Lixis misses
+Karin moves:
+
+...KL..
+..j....
+
+Karin hits
+Karin moves:
+
+.K..L..
+..j....
+
+Lixis takes 3 damage (now at 13 life)
+Lixis hits
+Lixis moves Karin:
+
+..K.L..
+..j....
+
+Karin discards Claw
+Karin takes 3 damage (now at 17 life)
+Karin is stunned
+Karin moves:
+
+...KL..
+..j....
+
 
 Beat 9
 -------
 
 Karin
 -----
-life: 20
-discard 1: Feral Dash
-discard 2: Howling Shot
+Life: 17
+Discard 1: Feral Drive Claw
+Discard 2: Coordinated Dash
+Special action available
 
 Lixis
 -----
-life: 13
-discard 1: Pruning Drive
-discard 2: Naturalizing Burst
+Life: 13
+Discard 1: Vine Burst
+Discard 2: Rooted Grasp
+Special action available
 
 
-K..L...
-....j..
+...KL..
+..j....
 
-Unbeatable strategy for Lixis: Venomous Lance: -1.00
-Unbeatable strategy for Lixis: Vine Strike: -1.29
 
 Karin:
-44% Full Moon Strike
-35% Full Moon Drive
-21% Full Moon Burst
+21% Full Moon Strike
+15% Full Moon Burst
+44% Full Moon Grasp
+20% Dual Strike
+1% Dual Grasp
 
 Lixis:
-4% Venomous Lance
-4% Vine Lance
-91% Vine Strike
+10% Venomous Strike
+12% Venomous Drive
+63% Venomous Dash
+1% Pruning Strike
+15% Pruning Shot
 
 
-Karin: Full Moon Strike
-Lixis: Vine Strike
+Karin: Full Moon Burst
+Lixis: Pruning Shot
 
-Priorities:  4 | 1
-Karin is active
+Lixis gets +3 power
+Lixis gets +3 priority
+Priorities:  2 | 3
+Lixis is active
 Karin moves:
 
-...LK..
-....j..
+..K.L..
+..j....
 
-Karin hits
-Lixis takes 6 damage (now at 7 life)
+Karin moves:
+
+K...L..
+...j...
+
 Lixis hits
-Lixis moves Karin:
-
-.K.L...
-j......
-
-Karin discards Claw
-Karin takes 4 damage (now at 16 life)
-Jager moves:
-
-.K.L...
-.j.....
-
+Karin discards Strike
+Karin has 2 soak
+Karin takes 3 damage (now at 14 life)
+Karin is stunned
 
 Beat 10
 -------
 
 Karin
 -----
-life: 16
-discard 1: Full Moon Strike Claw
-discard 2: Feral Dash
+Life: 14
+Discard 1: Full Moon Strike Burst
+Discard 2: Feral Drive Claw
+Special action available
 
 Lixis
 -----
-life: 7
-discard 1: Vine Strike
-discard 2: Pruning Drive
+Life: 13
+Discard 1: Pruning Shot
+Discard 2: Vine Burst
+Special action available
 
 
-.K.L...
-.j.....
+K...L..
+...j...
 
-Unbeatable strategy for Lixis: Venomous Lance: -2.09
-Unbeatable strategy for Lixis: Rooted Shot: -2.94
+Unbeatable strategy for Lixis: Rooted Drive: -0.10
+Unbeatable strategy for Lixis: Rooted Dash: -0.55
+
 
 Karin:
-100% Howling Burst
+17% Coordinated Shot
+83% Coordinated Grasp
 
 Lixis:
-100% Rooted Shot
+4% Venomous Dash
+47% Rooted Grasp
+49% Rooted Dash
 
 
-Karin: Howling Burst
-Lixis: Rooted Shot
+Karin: Coordinated Grasp
+Lixis: Rooted Dash
 
-Priorities:  2 | 0
-Karin is active
-Karin moves:
+Priorities:  5 | 7
+Lixis is active
+Lixis moves:
 
-K..L...
-.j.....
-
-Karin hits
-Lixis has 2 soak
-Lixis takes 1 damage (now at 6 life)
-Lixis hits
-Karin discards Grasp
-Karin takes 4 damage (now at 12 life)
-Jager moves:
-
-K..L...
-..j....
-
-Jager moves:
-
-K..L...
+K.....L
 ...j...
+
+Karin misses
+Jager moves:
+
+K.....L
+....j..
+
+Jager moves:
+
+K.....L
+.....j.
 
 
 Beat 11
@@ -723,157 +603,381 @@ Beat 11
 
 Karin
 -----
-life: 12
-discard 1: Howling Burst Grasp
-discard 2: Full Moon Claw Strike
+Life: 14
+Discard 1: Coordinated Grasp
+Discard 2: Full Moon Strike Burst
+Special action available
 
 Lixis
 -----
-life: 6
-discard 1: Rooted Shot
-discard 2: Vine Strike
+Life: 13
+Discard 1: Rooted Dash
+Discard 2: Pruning Shot
+Special action available
 
-
-K..L...
-...j...
-
-Unbeatable strategy for Lixis: Naturalizing Drive: -0.06
-Unbeatable strategy for Lixis: Pruning Drive: -0.44
-
-Karin:
-30% Feral Drive
-36% Feral Dash
-35% Dual Dash
-
-Lixis:
-33% Venomous Lance
-40% Venomous Dash
-27% Pruning Drive
-
-
-Karin: Dual Dash
-Lixis: Venomous Lance
-
-Priorities:  9 | 5
-Karin is active
-Jager moves:
-
-K..L...
-......j
-
-Karin moves Lixis:
 
 K.....L
-......j
+.....j.
 
+
+Karin:
+61% Howling Claw
+9% Howling Shot
+30% Feral Shot
+
+Lixis:
+21% Venomous Strike
+61% Venomous Grasp
+19% Special Pulse
+
+
+Karin: Howling Claw
+Lixis: Venomous Grasp
+
+Priorities:  5 | 5
+Clash!
+
+
+Karin: Howling Drive
+Lixis: Venomous Strike
+
+Priorities:  5 | 3
+Karin is active
 Karin moves:
 
-.K....L
-......j
+..K...L
+.....j.
 
-Lixis moves:
-
-.K...L.
-......j
-
+Karin hits
+Lixis takes 3 damage (now at 10 life)
 Lixis misses
+Jager moves:
+
+..K...L
+......j
+
 
 Beat 12
 -------
 
 Karin
 -----
-life: 12
-discard 1: Dual Dash
-discard 2: Howling Burst Grasp
+Life: 14
+Discard 1: Howling Drive
+Discard 2: Coordinated Grasp
+Special action available
 
 Lixis
 -----
-life: 6
-discard 1: Venomous Lance
-discard 2: Rooted Shot
+Life: 10
+Discard 1: Venomous Strike
+Discard 2: Rooted Dash
+Special action available
 
 
-.K...L.
+..K...L
 ......j
 
-Unbeatable strategy for Lixis: Naturalizing Drive: -0.88
 
 Karin:
-17% Full Moon Claw
-30% Full Moon Strike
-46% Full Moon Drive
-7% Feral Shot
+8% Full Moon Shot
+16% Feral Claw
+18% Feral Shot
+27% Feral Burst
+31% Dual Burst
 
 Lixis:
-17% Naturalizing Strike
-56% Naturalizing Drive
-18% Vine Strike
-9% Vine Burst
+30% Naturalizing Lance
+32% Naturalizing Shot
+12% Naturalizing Drive
+22% Vine Shot
+5% Pruning Drive
 
 
-Karin: Full Moon Drive
-Lixis: Vine Strike
+Karin: Dual Burst
+Lixis: Naturalizing Lance
 
-Priorities:  5 | 1
-Karin is active
+Priorities:  1 | 6
+Lixis is active
 Karin moves:
 
-...K.L.
+K.....L
 ......j
+
+Lixis misses
+Jager moves:
+
+K.....L
+...j...
+
+Karin moves Lixis:
+
+K..L...
+...j...
 
 Karin hits
-Lixis takes 5 damage (now at 1 life)
-Lixis hits
-Lixis moves Karin:
+Lixis takes 3 damage (now at 7 life)
+Lixis is stunned
+Jager moves:
 
-.....LK
-......j
+K..L...
+..j....
 
-Karin discards Claw
-Karin takes 4 damage (now at 8 life)
-Karin is stunned
 
 Beat 13
 -------
 
 Karin
 -----
-life: 8
-discard 1: Full Moon Drive Claw
-discard 2: Dual Dash
+Life: 14
+Discard 1: Dual Burst
+Discard 2: Howling Drive
+Special action available
 
 Lixis
 -----
-life: 1
-discard 1: Vine Strike
-discard 2: Venomous Lance
+Life: 7
+Discard 1: Naturalizing Lance
+Discard 2: Venomous Strike
+Special action available
+
+
+K..L...
+..j....
+
+Unbeatable strategy for Lixis: Vine Burst: -0.87
+
+
+Karin:
+14% Full Moon Claw
+1% Feral Claw
+0% Feral Shot
+84% Feral Dash
+
+Lixis:
+30% Rooted Drive
+19% Rooted Burst
+41% Vine Burst
+10% Pruning Drive
+
+
+Karin: Feral Dash
+Lixis: Rooted Drive
+
+Priorities:  10 | 2
+Karin is active
+Karin moves:
+
+..KL...
+..j....
+
+Karin moves:
+
+...L..K
+..j....
+
+Lixis moves:
+
+.....LK
+..j....
+
+Lixis misses
+Jager moves:
+
+.....LK
+...j...
+
+
+Beat 14
+-------
+
+Karin
+-----
+Life: 14
+Discard 1: Feral Dash
+Discard 2: Dual Burst
+Special action available
+
+Lixis
+-----
+Life: 7
+Discard 1: Rooted Drive
+Discard 2: Naturalizing Lance
+Special action available
 
 
 .....LK
-......j
+...j...
+
 
 Karin:
-9% Howling Strike
-43% Howling Shot
-43% Howling Burst
-4% Feral Strike
+29% Coordinated Strike
+51% Full Moon Strike
+20% Full Moon Drive
+0% Full Moon Grasp
 
 Lixis:
-34% Rooted Drive
-43% Rooted Grasp
-2% Rooted Dash
-19% Pruning Burst
-1% Pruning Dash
+7% Venomous Burst
+25% Venomous Grasp
+63% Vine Strike
+5% Special Virulent Miasma
 
 
-Karin: Howling Strike
-Lixis: Rooted Drive
+Karin: Full Moon Drive
+Lixis: Venomous Grasp
 
-Priorities:  4 | 2
+Priorities:  5 | 5
+Clash!
+
+
+Karin: Full Moon Shot
+Lixis: Venomous Burst
+
+Priorities:  3 | 1
 Karin is active
+Lixis moves:
+
+...L..K
+...j...
+
 Karin hits
-Lixis has 2 soak
-Lixis takes 2 damage (now at 0 life)
+Lixis takes 3 damage (now at 4 life)
+Lixis is stunned
+
+Beat 15
+-------
+
+Karin
+-----
+Life: 14
+Discard 1: Full Moon Shot
+Discard 2: Feral Dash
+Special action available
+
+Lixis
+-----
+Life: 4
+Discard 1: Venomous Burst
+Discard 2: Rooted Drive
+Special action available
+
+
+...L..K
+...j...
+
+
+Karin:
+100% Howling Grasp
+
+Lixis:
+100% Special Pulse
+
+
+Karin: Howling Grasp
+Lixis: Special Pulse
+
+Pulse:
+
+L..K...
+...j...
+
+
+Beat 15
+-------
+
+Karin
+-----
+Life: 14
+Discard 1: Howling Grasp
+Discard 2: Full Moon Shot
+Special action available
+
+Lixis
+-----
+Life: 4
+Discard 1: Venomous Burst
+Discard 2: Rooted Drive
+
+
+L..K...
+...j...
+
+
+Karin:
+7% Coordinated Claw
+7% Coordinated Strike
+7% Coordinated Drive
+7% Coordinated Burst
+7% Coordinated Dash
+7% Feral Claw
+7% Feral Strike
+7% Feral Drive
+7% Feral Burst
+7% Feral Dash
+7% Dual Claw
+7% Dual Strike
+7% Dual Drive
+7% Dual Burst
+7% Dual Dash
+
+Lixis:
+7% Naturalizing Lance
+6% Naturalizing Strike
+4% Naturalizing Shot
+8% Naturalizing Grasp
+6% Naturalizing Dash
+7% Vine Lance
+7% Vine Strike
+6% Vine Shot
+7% Vine Grasp
+7% Vine Dash
+7% Pruning Lance
+7% Pruning Strike
+6% Pruning Shot
+7% Pruning Grasp
+7% Pruning Dash
+
+
+Karin: Coordinated Dash
+Lixis: Pruning Dash
+
+Lixis gets +2 power
+Lixis gets +2 priority
+Priorities:  9 | 9
+Clash!
+
+
+Karin: Coordinated Claw
+Lixis: Pruning Grasp
+
+Lixis gets +2 power
+Lixis gets +2 priority
+Priorities:  4 | 5
+Lixis is active
+Lixis misses
+Karin moves:
+
+LK.....
+...j...
+
+Karin hits
+Jager moves:
+
+LK.....
+..j....
+
+Lixis takes 2 damage (now at 2 life)
+Lixis is stunned
+Jager moves:
+
+LK.....
+.j.....
+
+Jager moves:
+
+LK.....
+j......
+
+Game goes to time
 KARIN WINS!
-total_time: 26
+total_time: 49
