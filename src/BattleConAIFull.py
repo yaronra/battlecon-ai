@@ -4359,8 +4359,8 @@ class Clinhyde (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Frenzy (the_game, self)
         self.styles = [Toxic     (the_game, self),
-                       Shock     (the_game, self),
                        Diffusion (the_game, self),
+                       Shock     (the_game, self),
                        Gravity   (the_game, self),
                        Phase     (the_game, self)  ]
         self.finishers = [VitalSilverInfusion (the_game, self),
@@ -5616,13 +5616,13 @@ class Kajia (Character):
 
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Mandibles (the_game,self)
-        self.styles = [Burrowing (the_game,self),
+        self.styles = [Stinging  (the_game,self),
                        Swarming  (the_game,self),
+                       Burrowing (the_game,self),
                        Parasitic (the_game,self),
-                       Stinging  (the_game,self),
                        Biting    (the_game,self)]
         self.finishers = [Wormwood      (the_game, self),
-                           ImagoEmergence (the_game, self)]
+                          ImagoEmergence (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     def choose_initial_discards (self):
