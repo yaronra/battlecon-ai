@@ -84,7 +84,7 @@ def main():
     
 def ad_hoc():
 #    duel('gerard', 'kallistar', 1)
-    free_for_all(1, ['alexian'], '', [], True, False)
+    free_for_all(1, ['voco'], '', [], True, False)
 
 playable = [ 'adjenna',
              'alexian',
@@ -8255,6 +8255,19 @@ class Voco (Character):
         Character.initial_restore (self, state)
         self.zombies = state.zombies.copy()
 
+    def reset(self):
+        Character.reset(self)
+        self.zombie_soak = 0
+
+    def full_save(self):
+        state = Character.full_save(self)
+        state.zombie_soak = self.zombie_soak
+        return state
+    
+    def full_restore(self, state):
+        Character.full_restore(self, state)
+        self.zombie_soak = state.zombie_soak
+
     board_addendum_lines = 1
     def get_board_addendum (self):
         if not self.zombies:
@@ -8306,15 +8319,15 @@ class Voco (Character):
                & set(xrange(7))
 
     def get_soak (self):
-        return len (self.zombies & self.soak_positions())
+        return self.zombie_soak
     
     def expected_soak(self):
         return Character.expected_soak(self) + len (self.zombies & self.soak_positions()) 
     
-    # eliminates all zombies next to attacker after soaking
-    def soak_trigger (self, damage_soaked):
+    def take_a_hit_trigger(self):
+        Character.take_a_hit_trigger(self)
+        self.zombie_soak += len(self.soak_positions() & self.zombies)
         if self.z_mosh not in self.active_cards:
-            # all zombies are removed, regardless of damage soaked
             self.remove_zombies(self.soak_positions(), 2)
 
     def unique_ability_end_trigger (self):
