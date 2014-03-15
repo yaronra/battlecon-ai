@@ -2119,9 +2119,7 @@ class Character (object):
     def input_strategy (self, limit_antes):
         pair = self.input_pair()
         if limit_antes:
-            possible_antes = list(set(m[0][2] for m in self.mix))
-            assert len(possible_antes) == 1
-            ante = possible_antes[0]
+            ante = self.mix[0][0][2]
         # Otherwise, report ai's ante choice
         # and prompt for human ante choice
         else:
@@ -5204,16 +5202,16 @@ class Gerard (Character):
         for h in hire:
             self.mercs_in_play.append(h)
             self.gold -= (h.hiring_cost - discount)
-            discount = 0
             if self.game.reporting:
-                self.game.report("Gerard hires a %s for %d gold (%d remaining" %
+                self.game.report("Gerard hires a %s for %d gold (%d remaining)" %
                                  (h, h.hiring_cost - discount, self.gold))
+            discount = 0
         activate = self.strat[2][0][1]
         for a in activate:
             self.activated_mercs.append(a)
             self.gold -= a.activation_cost
             if self.game.reporting:
-                self.game.report("Gerard activates his %s for %d gold (%d remaining" %
+                self.game.report("Gerard activates his %s for %d gold (%d remaining)" %
                                  (a, a.activation_cost, self.gold))
         self.set_active_cards()
         
@@ -11085,6 +11083,8 @@ class ChainOfDestruction (Finisher):
         if self.game.distance() >= 4:
             return (2.5 if self.me.life >= 7 else
                     (1.5 if self.me.life >= 4 else 0.5))
+        else:
+            return 0
    
 class Spellbolt (Base):
     minrange = 2
