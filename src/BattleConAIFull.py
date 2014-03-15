@@ -2143,13 +2143,7 @@ class Character (object):
     # (or prompt human player for a strategy)
     def choose_strategy (self, limit_antes=False):
         if self.is_user:
-            strats = [m[0] for m in self.mix]
-            while True:
-                strategy = self.input_strategy(limit_antes)
-                if strategy in strats:
-                    break
-                else:
-                    print "Invalid strategy:"
+            strategy = self.input_strategy(limit_antes)
         else:
             # If there's only one option, return it.
             if len(self.mix) == 1:
@@ -5146,7 +5140,7 @@ class Gerard (Character):
             for n_activations in xrange(len(possible_activations) + 1):
                 combos_n = itertools.combinations(possible_activations, 
                                                   n_activations)
-                playable = [c for c in combos_n if 
+                playable = [list(c) for c in combos_n if 
                             sum([a.activation_cost for a in c]) <= remaining_gold]
                 antes += [(hiring_combo, activation_combo)
                           for activation_combo in playable]
