@@ -156,12 +156,20 @@ def test (first=None, beta_bases=False):
 def play ():
     names = sorted([k.capitalize() for k in playable])
     while True:
-        print "Select your character: [1-%d]\n" %len(names)
-        human = names [menu(names, n_cols=3)]
+        print "Select your character: [1-%d]\n" % (len(names) + 1)
+        ans = menu(names + ['Random'], n_cols=3)
+        if ans == len(names):
+            ans = random.randrange(len(names))
+        human = names[ans]
+        print "You will be playing", human
         ai_names = [n for n in names if n != human]
-        print "Select AI character: [1-%d]\n" %len(ai_names)
-        ai = ai_names[menu(ai_names, n_cols=3)]
-        print "Which set of bases should be used?"
+        print "\nSelect AI character: [1-%d]\n" % (len(ai_names) + 1)
+        ans = menu(ai_names + ['Random'], n_cols=3)
+        if ans == len(ai_names):
+            ans = random.randrange(len(ai_names))
+        ai = ai_names[ans]
+        print "AI will be playing", ai
+        print "\nWhich set of bases should be used?"
         ans = menu(['Standard bases',
                     'Beta bases',
                     'I use standard, AI uses beta',
