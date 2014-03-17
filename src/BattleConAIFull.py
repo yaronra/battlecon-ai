@@ -83,8 +83,8 @@ def main():
         play()
     
 def ad_hoc():
-#    duel('alexian', 'lymn', 20)
-    free_for_all(1, ['abarene'], 'lesandra', [], True, False)
+    duel('demitras', 'gerard', 1)
+    free_for_all(1, ['gerard'], '', ['aria'], True, False)
 
 playable = [ 'abarene',
              'adjenna',
@@ -382,9 +382,9 @@ def ordered (a,b,c):
 # set of all positions between a and b, inclusive
 def pos_range (a, b):
     if b>a:
-        return set(range (a,b+1))
+        return set(xrange(a,b+1))
     else:
-        return set(range (b,a+1))
+        return set(xrange(b,a+1))
     
 
 # GENERAL CLASSES
@@ -1800,9 +1800,9 @@ class Character (object):
         self.pool = []
         
         self.styles_and_bases_set = set(self.styles) | set(self.bases)
-        for i in range(5):
+        for i in xrange(5):
             self.styles[i].order = i
-        for i in range(7):
+        for i in xrange(7):
             self.bases[i].order = i
         # special action card (a style) and bases.
         # (finishers are unique to each character)
@@ -1816,7 +1816,7 @@ class Character (object):
         # discard[0] is for cards played this beat.
         # they will cycle into discard[1] at end of beat.
         # (discard [0] is empty between beats)
-        self.discard = [set() for i in range(3)]
+        self.discard = [set() for i in xrange(3)]
 
         # Create attributes for all card-like objects
         for card in self.all_cards():
@@ -2385,6 +2385,19 @@ class Character (object):
         return all (card.standard_range for card in self.active_cards)
     def special_range_hit (self):
         return any(card.special_range_hit() for card in self.active_cards)
+
+    # Utility function that returns positions that are "in range".
+    def in_standard_range(self):
+        if not self.is_attacking() or not self.standard_range():
+            return set()
+        minr = max(0, self.get_minrange())
+        maxr = self.get_maxrange()
+        pos = self.position
+        opp = self.opponent.position
+        if opp > pos:
+            return set(xrange(pos+minr, min(7, pos+maxr+1)))
+        else:
+            return set(xrange(max(0, pos-maxr), pos-minr+1))
     
     def reduce_soak (self, soak):
         for card in self.active_cards:
@@ -2735,7 +2748,7 @@ class Character (object):
             else: 
                 unobstructed = set(xrange(7)) - blocked
             possible = list (dests & unobstructed)
-            if max_move:
+            if max_move and possible:
                 direction = sum(moves) * (self.opponent.position -
                                           self.position)
                 if direction > 0:
@@ -2994,7 +3007,8 @@ class Card (object):
         return True
     def can_be_hit (self):
         return True
-    standard_range = True #change if attack *only* has special range
+    # change this if attack *only* has special range
+    standard_range = True 
     # conditions under which special range hits
     def special_range_hit (self):
         return False
@@ -4912,23 +4926,16 @@ class Danny (Character):
     # Put one monster in range of the attack.
     # I assume this happens before other "after activating" effects.
     def after_trigger(self):
-        if self.is_attacking() and self.standard_range():
-            pos = self.position
-            maxr = self.get_maxrange()
-            minr = self.get_minrange()
-            attack_range = (set(xrange(pos-maxr, pos-minr+1)) |
-                            set(xrange(pos+minr, pos+maxr+1)))
-            self.add_monsters(n_monsters=1, positions=attack_range)
+        pos_set = self.in_standard_range()
+        if pos_set:
+            self.add_monsters(n_monsters=1, positions=pos_set)
         Character.after_trigger(self)    
 
+    # Remove one monster in opponent's range.
     def after_trigger_for_opponent(self):
-        if self.opponent.is_attacking() and self.opponent.standard_range():
-            pos = self.opponent.position
-            maxr = self.opponent.get_maxrange()
-            minr = self.opponent.get_minrange()
-            attack_range = (set(xrange(pos-maxr, pos-minr+1)) |
-                            set(xrange(pos+minr, pos+maxr+1)))
-            self.remove_monsters(n_monsters=1, positions=attack_range)
+        pos_set = self.opponent.in_standard_range()
+        if pos_set:
+            self.remove_monsters(n_monsters=1, positions=pos_set)
 
     def special_range_hit (self):
         return (self.opponent.position in self.monsters or 
@@ -11500,6 +11507,7 @@ class RedMoonRage (Finisher):
 class LunarCross (Finisher):
     power = 6
     priority = 5
+    standard_range = False
     # Swap places with Jager if possible.
     def before_trigger (self):
         if self.me.jager_position not in \
@@ -11513,8 +11521,6 @@ class LunarCross (Finisher):
                            old_pos):
                     self.me.lunar_swap = True
     ordered_before_trigger = True
-    def standard_range (self):
-        return False
     def special_range_hit (self):
         return self.me.lunar_swap
     def evaluate_setup (self):
@@ -11887,13 +11893,9 @@ class Blight (Style):
     maxrange = 2
     preferred_range = 1
     def start_trigger (self):
-        if self.me.is_attacking and self.me.standard_range():
-            ranges = range (self.me.get_minrange(), 1 + self.me.get_maxrange())
-            positions = [pos for pos in xrange(7)\
-                         if abs (pos - self.me.position) in ranges
-                         and pos != self.opponent.position]
-            if len (positions) > 0:
-                self.me.move_trap (positions)
+        pos_set = self.me.in_standard_range()
+        if pos_set:
+            self.me.move_trap (pos_set)
     ordered_start_trigger = True
 
 class Lure (Style):
@@ -12404,15 +12406,9 @@ class Surreal (Style):
     priority = 1
     preferred_range = 1.5
     def after_trigger (self):
-        if self.me.is_attacking() and self.me.standard_range():
-            minrange = self.me.get_minrange()
-            maxrange = self.me.get_maxrange()
-            pos = self.me.position
-            dests = [d for d in xrange(7) if abs(d-pos) >= minrange and
-                                             abs(d-pos) <= maxrange and
-                                             d != self.me.position]
-            if dests:
-                self.me.move_directly(dests)
+        pos_set = self.me.in_standard_range()
+        if pos_set:
+            self.me.move_directly(sorted(list(pos_set)))
     @property
     def ordered_after_trigger(self):
         return self.me.is_attacking() and self.me.standard_range()
@@ -13085,13 +13081,9 @@ class AntiPersonnel(Style):
     def take_a_hit_trigger(self):
         self.me.stun()
     def end_trigger(self):
-        if self.me.is_attacking() and self.me.standard_range():
-            pos = self.me.position
-            minr = self.me.get_minrange()
-            maxr = self.me.get_maxrange()
-            attack_range = (set(xrange(pos-maxr, pos-minr+1)) |
-                            set(xrange(pos+minr, pos+maxr+1)))
-            self.me.move_directly(sorted(list(attack_range)))
+        pos_set = self.me.in_standard_range()
+        if pos_set:
+            self.me.move_directly(sorted(list(pos_set)))
     ordered_end_trigger = True
     
 class Cybernetic(Style):
@@ -14432,10 +14424,9 @@ class Abyssal (Style):
     maxrange = 4
     preferred_range = 3
     def after_trigger (self):
-        if self.me.is_attacking() and self.me.standard_range():
-            ranges = range (self.me.get_minrange(), 1+self.me.get_maxrange())
-            self.me.add_zombies (set([r for r in xrange(7)
-                                    if abs(r-self.me.position) in ranges]))
+        pos_set = self.me.in_standard_range()
+        if pos_set:
+            self.me.add_zombies(pos_set)
     @property
     def ordered_after_trigger(self):
         return self.me.is_attacking() and self.me.standard_range()
