@@ -83,8 +83,8 @@ def main():
         play()
     
 def ad_hoc():
-    duel('alexian', 'lymn', 20)
-#    free_for_all(1, ['voco'], '', [], True, False)
+#    duel('alexian', 'lymn', 20)
+    free_for_all(1, ['abarene'], 'lesandra', [], True, False)
 
 playable = [ 'abarene',
              'adjenna',
@@ -2348,35 +2348,18 @@ class Character (object):
         other_cards = [c for c in cards if not ordered(c)]
         for card in other_cards:
             trigger(card)(*params)
-        n_ordered = len(ordered_cards)
-        if n_ordered == 1:
-            trigger(ordered_cards[0])(*params)
-        elif n_ordered == 2:
-            prompt = "Choose trigger to execute first:"
-            options = [card.name for card in ordered_cards]
-            first = self.game.make_fork (2, self, prompt, options)
-            abort = trigger(ordered_cards[first])(*params)
-            if not abort:
-                trigger(ordered_cards[1-first])(*params)
-        elif n_ordered == 3:
-            prompt = "Choose order of triggers:"
-            options = []
-            if self.is_user and self.game.interactive_mode:
-                for i in range (6):
-                    options.append (', '.join([ordered_cards[i%3].name,
-                                               ordered_cards[2-i/2].name,
-                                               ordered_cards[1-i%3+i/2].name]))
-            order = self.game.make_fork (6, self, prompt, options)
-            first = order%3             # [012012]
-            second = 2 - order/2        # [221100]
-            third = 3 - first - second  # [100221]
-            abort = trigger(ordered_cards[first])(*params)
-            if not abort:
-                abort = trigger(ordered_cards[second])(*params)
-            if not abort:
-                trigger(ordered_cards[third])(*params)
-        elif n_ordered > 3:
-            raise Exception("Can't handle %d simultaneous ordered triggers" % n_ordered)
+        while(ordered_cards):
+            if len(ordered_cards) > 1:
+                prompt = "Choose trigger to execute next:"
+                options = [card.name for card in ordered_cards]
+                ans = self.game.make_fork (len(ordered_cards), 
+                                            self, prompt, options)
+            else:
+                ans = 0
+            abort = trigger(ordered_cards[ans])(*params)
+            if abort:
+                break
+            ordered_cards.pop(ans)
 
     # special ability calculation
     def is_attacking (self):
@@ -7476,17 +7459,23 @@ class Runika (Character):
 
     def reset (self):
         self.overcharged_artifact = None
+        self.tinkered_artifact = None
+        self.channeled_artifact = None
         Character.reset (self)
 
     def full_save (self):
         state = Character.full_save (self)
         state.overcharged_artifact = self.overcharged_artifact
+        state.tinkered_artifact = self.tinkered_artifact
+        state.channeled_artifact = self.channeled_artifact
         return state
 
     def full_restore (self, state):
         Character.full_restore (self, state)
         self.overcharged_artifact = state.overcharged_artifact
-
+        self.tinkered_artifact = state.tinkered_artifact
+        self.channeled_artifact = state.channeled_artifact
+        
     def set_active_cards (self):
         Character.set_active_cards(self)
         if self.base.name != 'Udstad Beam':
@@ -7531,7 +7520,11 @@ class Runika (Character):
     # given player chooses 1 artifact to deactivate
     def deactivation_fork (self, player, fake=False):
         # overcharged artifacts cannot be deactivated
-        targets = list(self.active_artifacts - set((self.overcharged_artifact,)))
+        targets = self.active_artifacts - set((self.overcharged_artifact,))
+        # tinkered artifacts cannot be deactivated by opponent on hit
+        if player is self.opponent:
+            targets -= set((self.overcharged_artifact,))
+        targets = list(targets)
         if not targets:
             if self.game.reporting:
                 self.game.report ('No artifacts to de-activate')
@@ -7555,12 +7548,13 @@ class Runika (Character):
 
     # opponent deactivates an artifact on first hit of beat
     def take_a_hit_trigger (self):
-        if not self.opponent.did_hit and \
-           not self.base.name == 'Artifice Avarice':
-            # if Tinker played, Runika chooses artifact to deactivate
-            chooser = self if self.unique_base in self.active_cards \
-                      else self.opponent
-            self.deactivation_fork (chooser)
+        if self.opponent.did_hit or \
+           self.base.name == 'Artifice Avarice':
+            return
+        if self.channeled_artifact in self.active_artifacts:
+            self.deactivate_artifact(self.channeled_artifact)
+        else:
+            self.deactivation_fork (self.opponent)
 
     # Overcharged Autodeflector blocks life loss
     def lose_life (self, life):
@@ -9505,9 +9499,9 @@ class Ionic (Style):
         if ordered (self.me.position,
                     self.opponent.position,
                     self.me.magnetron.position):
-            self.me.push((1,))
+            self.me.push([1,0])
         else:
-            self.me.pull((1,))
+            self.me.pull([0,1])
     @property
     def ordered_start_trigger(self):
         return self.me.magnetron.position is not None
@@ -10748,6 +10742,8 @@ class Gilded(Style):
     @property
     def stunguard(self):
         return 2 if self.me.gold > len(self.me.mercs_in_play) else 4
+    def before_trigger(self):
+        self.me.pull([0,1])
 
 class Avaricious(Style):
     preferred_range = 0.5
@@ -10811,6 +10807,11 @@ class Brawler(Mercenary):
     def after_trigger(self):
         if self.game.distance() in [1,2]:
             self.opponent.lose_life(1)
+    # We only want to ask about order if there's movement after 
+    # activation.
+    @property
+    def ordered_after_trigger(self):
+        return self.me.style.ordered_after_trigger or self.me.base.ordered_after_trigger
     def get_value(self):
         pr = self.opponent.preferred_range
         next_beats_value = 0.2 * (6 - self.game.distance())
@@ -10821,6 +10822,11 @@ class Archer(Mercenary):
     def after_trigger(self):
         if self.game.distance() in [3,4]:
             self.opponent.lose_life(1)
+    # We only want to ask about order if there's movement after 
+    # activation.
+    @property
+    def ordered_after_trigger(self):
+        return self.me.style.ordered_after_trigger or self.me.base.ordered_after_trigger
     def get_value(self):
         next_beats_value = 0.5 * (2.5 - abs(3.5 - self.game.distance()))
         return 0.4 * (self.game.expected_beats() -1) + next_beats_value
@@ -10830,6 +10836,11 @@ class Trebuchet(Mercenary):
     def after_trigger(self):
         if self.game.distance() in [5,6]:
             self.opponent.lose_life(1)
+    # We only want to ask about order if there's movement after 
+    # activation.
+    @property
+    def ordered_after_trigger(self):
+        return self.me.style.ordered_after_trigger or self.me.base.ordered_after_trigger
     def get_value(self):
         pr = self.opponent.preferred_range
         next_beats_value = 0.2 * (self.game.distance() - 1)
@@ -12386,6 +12397,7 @@ class Chimeric (Style):
     ordered_before_trigger = True
 
 class Surreal (Style):
+    minrange = 1
     @property
     def maxrange (self):
         return self.me.disparity
@@ -13412,14 +13424,14 @@ class Tinker (Base):
     priority = 3
     stunguard = 3
     def after_trigger (self):
-        self.me.activation_fork()
-    # Deactivation choice handled by Runika().take_a_hit_trigger
+        self.me.tinkered_artifact = self.me.activation_fork()
+    # Blocking deactivation handled by Runika.take_a_hit_trigger()
 
 class Channeled (Style):
     power = 1
     priority = 1
     def start_trigger (self):
-        self.me.activation_fork ()
+        self.me.channeled_artifact = self.me.activation_fork ()
     def end_trigger (self):
         # At end of beat, the only thing that matters is artifact value,
         # so might as well make it a fake fork.
