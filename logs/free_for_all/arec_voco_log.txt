@@ -31,35 +31,27 @@ Special action available
 
 
 Arec:
-23% Perceptional Hex
-15% Perceptional Drive
+22% Perceptional Hex
+17% Perceptional Drive
 22% Returning Drive
-16% Returning Drive (Fear)
+15% Returning Drive (Fear)
 24% Mirrored Shot (Hesitation)
 
 Voco:
 43% Metal Dash
 2% Hellraising Shot
-17% Abyssal Strike
+16% Abyssal Strike
 23% Abyssal Drive
 15% Abyssal Grasp
 
 
-Arec: Mirrored Shot (Hesitation)
+Arec: Perceptional Drive
 Voco: Metal Dash
 
-Arec antes a Hesitation token
-Priorities:  2 | 9
+Priorities:  5 | 9
 Voco is active
-Arec hits
-Voco takes 4 damage (now at 16 life)
-Voco is stunned
-Arec places clone:
-
-.A...V.
-....c..
-
-
+Arec antes a Hesitation token
+Arec misses
 
 Beat 2
 -------
@@ -67,119 +59,58 @@ Beat 2
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Shot
+Discard 1: Perceptional Drive
 Discard 2: Phantom Strike
 Special action available
 pool: Fear, Mercy, Recklessness
 
 Voco
 ----
-Life: 16
+Life: 20
 Discard 1: Metal Dash
 Discard 2: Thunderous Shred
 Special action available
 
 
 .A...V.
-....c..
 
 
-Unbeatable strategy for Arec: Returning Hex (move to clone): 0.22
-Unbeatable strategy for Arec: Returning Hex (Fear; move to clone): 0.02
+
+Unbeatable strategy for Voco: Abyssal Strike: -0.36
 
 
 Arec:
-16% Perceptional Drive
-6% Manipulative Hex
-24% Manipulative Hex (move to clone)
-26% Manipulative Drive (move to clone)
-10% Manipulative Burst (move to clone)
-15% Manipulative Grasp (move to clone)
-3% Manipulative Grasp (Fear; move to clone)
+5% Returning Hex (Fear)
+2% Returning Shot (Fear)
+1% Mirrored Hex
+65% Mirrored Dash
+27% Mirrored Dash (Fear)
 
 Voco:
-31% Monster Strike
-5% Monster Grasp
-6% Hellraising Grasp
-2% Abyssal Strike
-7% Abyssal Drive
-1% Abyssal Grasp
-49% Special Pulse
+24% Hellraising Shot
+21% Abyssal Strike
+18% Abyssal Shot
+18% Abyssal Drive
+19% Abyssal Grasp
 
 
-Arec: Manipulative Drive (move to clone)
-Voco: Special Pulse
+Arec: Mirrored Dash (Fear)
+Voco: Abyssal Grasp
 
+Arec antes a Fear token
+Priorities:  9 | 5
+Arec is active
 Arec moves:
 
 ....AV.
 
 
 
-Pulse:
+Voco misses
 
-A.....V
+....AV.
 
-
-
-
-Beat 2
--------
-
-Arec
-----
-Life: 20
-Discard 1: Manipulative Drive
-Discard 2: Mirrored Shot
-Special action available
-pool: Fear, Mercy, Recklessness
-
-Voco
-----
-Life: 16
-Discard 1: Metal Dash
-Discard 2: Thunderous Shred
-
-
-A.....V
-
-
-
-Unbeatable strategy for Arec: Returning Hex: 1.03
-Unbeatable strategy for Arec: Returning Hex (Fear): 0.68
-Unbeatable strategy for Arec: Returning Hex (Recklessness): 0.58
-
-
-Arec:
-4% Perceptional Strike
-96% Returning Hex
-
-Voco:
-7% Hellraising Shot
-93% Abyssal Drive
-
-
-Arec: Returning Hex
-Voco: Abyssal Drive
-
-Priorities:  4 | 4
-Arec is active
-Arec hits
-Arec recovers a Hesitation token
-Voco takes 3 damage (now at 13 life)
-Voco moves:
-
-A...V..
-
-
-
-Voco hits
-Arec takes 3 damage (now at 17 life)
-Arec is stunned
-
-A...V..
-
-zz.....
+zzz....
 
 
 Beat 3
@@ -187,123 +118,118 @@ Beat 3
 
 Arec
 ----
-Life: 17
-Discard 1: Returning Hex
-Discard 2: Manipulative Drive
+Life: 20
+Discard 1: Mirrored Dash
+Discard 2: Perceptional Drive
 Special action available
-pool: Fear, Mercy, Recklessness, Hesitation
+pool: Mercy, Recklessness
 
 Voco
 ----
-Life: 13
-Discard 1: Abyssal Drive
+Life: 20
+Discard 1: Abyssal Grasp
 Discard 2: Metal Dash
+Special action available
 
 
-A...V..
+....AV.
 
-zz.....
+zzz....
 
 
 Arec:
-7% Perceptional Shot
-19% Mirrored Strike
-8% Mirrored Shot
-41% Mirrored Shot (Fear)
-12% Mirrored Burst
-12% Mirrored Burst (Fear)
+31% Phantom Hex
+22% Phantom Burst
+48% Manipulative Hex
 
 Voco:
-30% Monster Shred
-27% Monster Strike
-3% Monster Shot
-15% Hellraising Shred
-14% Hellraising Burst
-11% Thunderous Shot
+9% Monster Drive
+29% Thunderous Strike
+62% Thunderous Burst
 
 
-Arec: Mirrored Strike
-Voco: Monster Strike
+Arec: Phantom Burst
+Voco: Thunderous Burst
 
-Priorities:  3 | 2
+Priorities:  2 | 1
 Arec is active
-Arec misses
+Arec moves:
+
+..A..V.
+
+zzz....
+
 Voco moves:
 
-A..V...
+..AV...
 
-zz.....
+zzz..z.
 
-Voco misses
-Arec places clone:
+Voco moves:
 
-A..V...
-....c..
-zz.....
+..A..V.
 
-Arec loses 1 life (now at 16)
+zzz..z.
+
+Arec hits
+Voco takes 2 damage (now at 18 life)
+Voco is stunned
+Arec recovers a Hesitation token
 
 Beat 4
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Mirrored Strike
-Discard 2: Returning Hex
+Life: 20
+Discard 1: Phantom Burst
+Discard 2: Mirrored Dash
 Special action available
-pool: Fear, Mercy, Recklessness, Hesitation
+pool: Mercy, Recklessness, Hesitation
 
 Voco
 ----
-Life: 13
-Discard 1: Monster Strike
-Discard 2: Abyssal Drive
+Life: 18
+Discard 1: Thunderous Burst
+Discard 2: Abyssal Grasp
+Special action available
 
 
-A..V...
-....c..
-.z.....
+..A..V.
+
+z.z..z.
+
+Unbeatable strategy for Arec: Perceptional Drive: 1.41
+Unbeatable strategy for Arec: Perceptional Drive (Recklessness): 0.81
 
 
 Arec:
-9% Phantom Shot
-30% Perceptional Drive (move to clone)
-32% Perceptional Burst (move to clone)
-3% Manipulative Shot
-4% Manipulative Shot (Fear; move to clone)
-1% Manipulative Drive
-6% Manipulative Drive (Fear; move to clone)
-12% Manipulative Drive (Hesitation; move to clone)
-1% Manipulative Grasp (Fear; move to clone)
+30% Perceptional Drive
+26% Manipulative Hex
+2% Manipulative Shot
+42% Manipulative Shot (Hesitation)
 
 Voco:
-20% Metal Shred
-28% Metal Shot
-1% Metal Burst
-13% Metal Grasp
-10% Metal Dash
-8% Hellraising Shred
-2% Hellraising Grasp
-2% Hellraising Dash
-15% Thunderous Grasp
+7% Metal Shred
+11% Metal Shot
+5% Metal Drive
+77% Hellraising Shot
 
 
-Arec: Manipulative Drive (Hesitation; move to clone)
-Voco: Metal Shot
+Arec: Perceptional Drive
+Voco: Metal Shred
 
+Priorities:  5 | 4
+Arec is active
 Arec moves:
 
-...VA..
+...A.V.
 
-.z.....
+z.z..z.
 
-Arec antes a Hesitation token
-Priorities:  4 | 2
-Arec is active
 Arec hits
-Arec chooses Voco's base: Burst
-Voco takes 4 damage (now at 9 life)
+Voco has 1 soak
+Voco takes 2 damage (now at 16 life)
 Voco is stunned
 
 Beat 5
@@ -311,55 +237,106 @@ Beat 5
 
 Arec
 ----
-Life: 16
-Discard 1: Manipulative Drive
-Discard 2: Mirrored Strike
+Life: 20
+Discard 1: Perceptional Drive
+Discard 2: Phantom Burst
 Special action available
-pool: Fear, Mercy, Recklessness
-Manipulative forced base: Burst
+pool: Mercy, Recklessness, Hesitation
 
 Voco
 ----
-Life: 9
-Discard 1: Metal Shot
-Discard 2: Monster Strike
+Life: 16
+Discard 1: Metal Shred
+Discard 2: Thunderous Burst
+Special action available
 
 
-...VA..
+...A.V.
 
-.z.....
-
-Unbeatable strategy for Arec: Returning Hex (Fear): 0.14
-Unbeatable strategy for Arec: Returning Shot: 0.05
+z....z.
 
 
 Arec:
-69% Phantom Shot
-3% Phantom Shot (Mercy)
-27% Perceptional Hex (Fear)
-1% Returning Hex (Fear)
+2% Returning Strike
+5% Mirrored Hex (Hesitation)
+29% Mirrored Strike (Hesitation)
+55% Mirrored Grasp
+9% Manipulative Hex (Hesitation)
 
 Voco:
-21% Hellraising Burst
-3% Abyssal Shred
-68% Abyssal Dash
-8% Thunderous Grasp
+2% Monster Strike
+18% Hellraising Strike
+1% Hellraising Grasp
+20% Hellraising Dash
+60% Special Pulse
 
 
-Arec: Perceptional Hex (Fear)
-Voco: Abyssal Dash
+Arec: Mirrored Grasp
+Voco: Special Pulse
 
-Arec antes a Fear token
-Voco loses 2 life (now at 7)
-Priorities:  4 | 9
+Pulse:
+
+V....A.
+
+z....z.
+
+
+Beat 5
+-------
+
+Arec
+----
+Life: 20
+Discard 1: Mirrored Grasp
+Discard 2: Perceptional Drive
+Special action available
+pool: Mercy, Recklessness, Hesitation
+
+Voco
+----
+Life: 16
+Discard 1: Metal Shred
+Discard 2: Thunderous Burst
+
+
+V....A.
+
+z....z.
+
+
+Arec:
+9% Phantom Hex
+53% Phantom Dash
+18% Returning Shot
+20% Manipulative Hex
+
+Voco:
+42% Hellraising Shot
+7% Hellraising Grasp
+23% Abyssal Drive
+28% Abyssal Grasp
+
+
+Arec: Returning Shot
+Voco: Abyssal Drive
+
+Priorities:  3 | 4
 Voco is active
 Voco moves:
 
-....AV.
+..V..A.
 
-.z.....
+z....z.
 
-Arec misses
+Voco hits
+Arec takes 3 damage (now at 17 life)
+Arec is stunned
+
+..V..A.
+
+z....zz
+
+Arec loses 1 life (now at 16)
 
 Beat 6
 -------
@@ -367,146 +344,120 @@ Beat 6
 Arec
 ----
 Life: 16
-Discard 1: Perceptional Hex
-Discard 2: Manipulative Drive
+Discard 1: Returning Shot
+Discard 2: Mirrored Grasp
 Special action available
-pool: Mercy, Recklessness
+pool: Mercy, Recklessness, Hesitation
 
 Voco
 ----
-Life: 7
-Discard 1: Abyssal Dash
-Discard 2: Metal Shot
+Life: 16
+Discard 1: Abyssal Drive
+Discard 2: Metal Shred
 
 
-....AV.
+..V..A.
 
-.z.....
+z.....z
 
 
 Arec:
-53% Phantom Shot
-27% Phantom Burst
-7% Returning Strike (Mercy)
-6% Returning Shot (Mercy)
-7% Mirrored Burst
+58% Phantom Drive
+42% Manipulative Hex
 
 Voco:
-10% Monster Strike
-30% Monster Drive
-18% Thunderous Strike
-36% Thunderous Burst
-6% Thunderous Grasp
+86% Hellraising Shot
+14% Hellraising Grasp
 
 
-Arec: Phantom Burst
-Voco: Monster Drive
+Arec: Manipulative Hex
+Voco: Hellraising Shot
 
-Priorities:  2 | 3
-Voco is active
-Arec moves:
-
-...A.V.
-
-.z.....
-
+Priorities:  3 | 0
+Arec is active
 Voco moves:
 
-...AV..
+.V...A.
 
-.z.....
+z.....z
 
-Voco moves:
 
-..VA...
+.V...A.
 
-.z.....
+z.zzz.z
 
+Arec hits
+Arec chooses Voco's base: Strike
+Arec recovers a Fear token
+Voco has 2 soak
+Voco takes 2 damage (now at 14 life)
 Voco hits
-Arec takes 3 damage (now at 13 life)
+Arec takes 2 damage (now at 14 life)
 Arec is stunned
-Arec recovers a Hesitation token
 
 Beat 7
 -------
 
 Arec
 ----
-Life: 13
-Discard 1: Phantom Burst
-Discard 2: Perceptional Hex
+Life: 14
+Discard 1: Manipulative Hex
+Discard 2: Returning Shot
 Special action available
-pool: Mercy, Recklessness, Hesitation
+pool: Mercy, Recklessness, Hesitation, Fear
+Manipulative forced base: Strike
 
 Voco
 ----
-Life: 7
-Discard 1: Monster Drive
-Discard 2: Abyssal Dash
+Life: 14
+Discard 1: Hellraising Shot
+Discard 2: Abyssal Drive
 
 
-..VA...
+.V...A.
 
-.z.....
-
-Unbeatable strategy for Arec: Returning Drive: 0.66
-Unbeatable strategy for Arec: Returning Drive (Mercy): 0.26
-Unbeatable strategy for Arec: Returning Drive (Recklessness): 0.06
+z.zz...
 
 
 Arec:
-2% Returning Drive
-70% Mirrored Shot
-18% Mirrored Drive
-2% Manipulative Strike (Hesitation)
-8% Manipulative Drive
+5% Phantom Burst (Fear)
+37% Mirrored Drive (Hesitation)
+17% Mirrored Drive (Fear)
+42% Mirrored Burst (Hesitation)
 
 Voco:
-25% Metal Shred
-47% Metal Shot
-10% Metal Grasp
-8% Thunderous Shot
-11% Thunderous Burst
+52% Monster Strike
+11% Metal Strike
+1% Metal Burst
+36% Thunderous Strike
 
 
-Arec: Mirrored Shot
-Voco: Metal Shot
+Arec: Mirrored Burst (Hesitation)
+Voco: Thunderous Strike
 
-Priorities:  2 | 2
-Clash!
+Arec antes a Hesitation token
+Priorities:  1 | 3
+Voco is active
+Voco moves:
 
+...V.A.
 
-Arec: Mirrored Strike
-Voco: Metal Strike
+zzzz...
 
-Priorities:  3 | 3
-Clash!
-
-
-Arec: Mirrored Drive
-Voco: Metal Shred
-
-Priorities:  4 | 4
-Clash!
-
-
-Arec: Mirrored Dash
-Voco: Metal Grasp
-
-Priorities:  9 | 5
-Arec is active
 Arec moves:
 
-A.V....
+...V..A
 
-.z.....
+zzzz...
 
-Voco misses
+Voco hits
+Arec takes 3 damage (now at 11 life)
+Arec is stunned
 Arec places clone:
 
-A.V....
-...c...
-.z.....
+...V..A
+....c..
+zzzz...
 
 
 Beat 8
@@ -514,128 +465,126 @@ Beat 8
 
 Arec
 ----
-Life: 13
-Discard 1: Mirrored Dash
-Discard 2: Phantom Burst
+Life: 11
+Discard 1: Mirrored Burst
+Discard 2: Manipulative Hex
 Special action available
-pool: Mercy, Recklessness, Hesitation
+pool: Mercy, Recklessness, Fear
 
 Voco
 ----
-Life: 7
-Discard 1: Metal Grasp
-Discard 2: Monster Drive
+Life: 14
+Discard 1: Thunderous Strike
+Discard 2: Hellraising Shot
 
 
-A.V....
-...c...
-.z.....
+...V..A
+....c..
+zzzz...
 
-Unbeatable strategy for Arec: Perceptional Drive: 0.26
-Unbeatable strategy for Arec: Perceptional Drive (move to clone): 0.09
-Unbeatable strategy for Arec: Returning Hex (move to clone): 0.16
-Unbeatable strategy for Arec: Returning Hex (Hesitation; move to clone): 1.85
+Unbeatable strategy for Voco: Abyssal Dash: -0.25
 
 
 Arec:
-19% Perceptional Hex (move to clone)
-5% Perceptional Strike (move to clone)
-29% Returning Hex (move to clone)
-32% Returning Hex (Hesitation; move to clone)
-1% Returning Strike (move to clone)
-14% Manipulative Hex
+21% Phantom Drive
+38% Phantom Drive (move to clone)
+41% Perceptional Shot
 
 Voco:
-12% Abyssal Shred
-18% Abyssal Strike
-30% Thunderous Shred
-19% Thunderous Strike
-5% Thunderous Burst
-16% Thunderous Dash
+9% Metal Drive
+33% Metal Dash
+57% Abyssal Dash
 
 
-Arec: Perceptional Hex (move to clone)
-Voco: Abyssal Strike
+Arec: Phantom Drive (move to clone)
+Voco: Abyssal Dash
 
 Arec moves:
 
-..VA...
+...VA..
 
-.z.....
+zzzz...
 
-Priorities:  4 | 3
-Arec is active
-Arec hits
-Arec moves Voco:
+Priorities:  5 | 9
+Voco is active
+Voco moves:
 
-...AV..
+....AV.
 
-.z.....
+zzzz...
 
-Arec recovers a Fear token
-Voco takes 3 damage (now at 4 life)
-Voco misses
+Arec moves:
 
-...AV..
+.....VA
 
-zz.....
+zzzz...
 
+Arec misses
+Arec recovers a Hesitation token
 
 Beat 9
 -------
 
 Arec
 ----
-Life: 13
-Discard 1: Perceptional Hex
-Discard 2: Mirrored Dash
+Life: 11
+Discard 1: Phantom Drive
+Discard 2: Mirrored Burst
 Special action available
-pool: Mercy, Recklessness, Hesitation, Fear
+pool: Mercy, Recklessness, Fear, Hesitation
 
 Voco
 ----
-Life: 4
-Discard 1: Abyssal Strike
-Discard 2: Metal Grasp
+Life: 14
+Discard 1: Abyssal Dash
+Discard 2: Thunderous Strike
 
 
-...AV..
+.....VA
 
-zz.....
+zzzz...
+
+Unbeatable strategy for Arec: Returning Strike (Fear): 1.15
+Unbeatable strategy for Arec: Returning Shot: 0.22
+Unbeatable strategy for Arec: Returning Shot (Fear): 0.14
 
 
 Arec:
-72% Phantom Strike (Hesitation)
-3% Returning Strike (Hesitation)
-24% Returning Strike (Fear)
-1% Manipulative Shot (Hesitation)
+0% Manipulative Hex (Fear)
+88% Manipulative Strike (Fear)
+11% Manipulative Grasp
+1% Manipulative Grasp (Fear)
 
 Voco:
-6% Monster Dash
-61% Hellraising Dash
-21% Thunderous Drive
-12% Thunderous Burst
+89% Monster Drive
+1% Monster Grasp
+4% Metal Shot
+6% Hellraising Grasp
 
 
-Arec: Phantom Strike (Hesitation)
-Voco: Hellraising Dash
+Arec: Manipulative Strike (Fear)
+Voco: Monster Drive
 
-Arec antes a Hesitation token
-Priorities:  4 | 7
-Voco is active
-Voco moves:
-
-...A.V.
-
-zz.....
+Arec antes a Fear token
+Priorities:  3 | 3
+Clash!
 
 
-...A.V.
+Arec: Manipulative Grasp (Fear)
+Voco: Monster Grasp
 
-zz..z..
-
+Arec antes a Fear token
+Priorities:  5 | 4
+Arec is active
 Arec hits
-Voco takes 3 damage (now at 1 life)
+Arec chooses Voco's base: Shred
+Arec moves Voco:
+
+....V.A
+
+zzzz...
+
+Voco takes 3 damage (now at 11 life)
 Voco is stunned
 
 Beat 10
@@ -643,76 +592,497 @@ Beat 10
 
 Arec
 ----
-Life: 13
-Discard 1: Phantom Strike
-Discard 2: Perceptional Hex
+Life: 11
+Discard 1: Manipulative Grasp
+Discard 2: Phantom Drive
 Special action available
-pool: Mercy, Recklessness, Fear
+pool: Mercy, Recklessness, Hesitation
+Manipulative forced base: Shred
 
 Voco
 ----
-Life: 1
-Discard 1: Hellraising Dash
-Discard 2: Abyssal Strike
+Life: 11
+Discard 1: Monster Grasp
+Discard 2: Abyssal Dash
+
+
+....V.A
+
+zzzz...
+
+Unbeatable strategy for Arec: Returning Hex: 0.93
+Unbeatable strategy for Arec: Returning Hex (Recklessness): 0.48
+Unbeatable strategy for Arec: Returning Hex (Hesitation): 0.28
+
+
+Arec:
+47% Mirrored Hex
+53% Mirrored Shot
+
+Voco:
+12% Metal Drive
+88% Hellraising Shred
+
+
+Arec: Mirrored Shot
+Voco: Metal Drive
+
+Voco loses 2 life (now at 9)
+Priorities:  2 | 4
+Voco is active
+Voco moves:
+
+.....VA
+
+zzzz...
+
+
+.....VA
+
+zzzzz..
+
+Voco misses
+Arec misses
+Arec places clone:
+
+.....VA
+c......
+zzzzz..
+
+
+Beat 11
+-------
+
+Arec
+----
+Life: 11
+Discard 1: Mirrored Shot
+Discard 2: Manipulative Grasp
+Special action available
+pool: Mercy, Recklessness, Hesitation
+
+Voco
+----
+Life: 9
+Discard 1: Metal Drive
+Discard 2: Monster Grasp
+
+
+.....VA
+c......
+zzzzz..
+
+Unbeatable strategy for Arec: Phantom Drive: 1.23
+Unbeatable strategy for Arec: Phantom Drive (Mercy): 1.13
+Unbeatable strategy for Arec: Phantom Drive (Recklessness): 0.93
+Unbeatable strategy for Arec: Perceptional Drive: 0.21
+Unbeatable strategy for Arec: Returning Hex: 0.37
+Unbeatable strategy for Arec: Returning Hex (Recklessness): 0.07
+
+
+Arec:
+67% Phantom Drive
+12% Perceptional Hex
+21% Returning Hex
+
+Voco:
+46% Hellraising Burst
+46% Abyssal Shred
+8% Abyssal Shot
+
+
+Arec: Phantom Drive
+Voco: Abyssal Shred
+
+Priorities:  5 | 4
+Arec is active
+Arec moves:
+
+...A.V.
+
+zzzzz..
+
+Arec hits
+Voco takes 2 damage (now at 7 life)
+Voco is stunned
+Arec recovers a Fear token
+Arec loses 1 life (now at 10)
+
+Beat 12
+-------
+
+Arec
+----
+Life: 10
+Discard 1: Phantom Drive
+Discard 2: Mirrored Shot
+Special action available
+pool: Mercy, Recklessness, Hesitation, Fear
+
+Voco
+----
+Life: 7
+Discard 1: Abyssal Shred
+Discard 2: Metal Drive
 
 
 ...A.V.
 
 zz.....
 
-Unbeatable strategy for Arec: Returning Drive: 6.00
-Unbeatable strategy for Arec: Returning Drive (Mercy): 6.00
-Unbeatable strategy for Arec: Returning Drive (Recklessness): 6.00
-Unbeatable strategy for Arec: Returning Drive (Fear): 6.00
-Unbeatable strategy for Arec: Returning Grasp (Fear): 6.00
-
 
 Arec:
-20% Returning Drive
-20% Returning Drive (Mercy)
-20% Returning Drive (Recklessness)
-20% Returning Drive (Fear)
-20% Returning Grasp (Fear)
+56% Perceptional Hex
+30% Perceptional Strike
+14% Manipulative Hex (Hesitation)
 
 Voco:
-4% Monster Shred
-4% Monster Shot
-5% Monster Drive
-6% Monster Burst
-5% Monster Grasp
-4% Metal Shred
-4% Metal Shot
-21% Metal Drive
-5% Metal Burst
-7% Metal Grasp
-6% Thunderous Shred
-5% Thunderous Shot
-6% Thunderous Drive
-11% Thunderous Burst
-7% Thunderous Grasp
+45% Monster Shot
+16% Hellraising Grasp
+39% Thunderous Dash
 
 
-Arec: Returning Drive (Mercy)
-Voco: Thunderous Drive
+Arec: Perceptional Strike
+Voco: Thunderous Dash
 
-Arec antes a Mercy token
-Priorities:  5 | 4
-Arec is active
-Voco is stunned
+Priorities:  4 | 9
+Voco is active
 Voco moves:
 
 ..VA...
 
 zz...z.
 
-Arec moves:
+Arec antes a Hesitation token
+Arec misses
 
-A.V....
+Beat 13
+-------
+
+Arec
+----
+Life: 10
+Discard 1: Perceptional Strike
+Discard 2: Phantom Drive
+Special action available
+pool: Mercy, Recklessness, Fear
+
+Voco
+----
+Life: 7
+Discard 1: Thunderous Dash
+Discard 2: Abyssal Shred
+
+
+..VA...
 
 zz...z.
 
+
+Arec:
+4% Returning Grasp
+34% Mirrored Hex
+31% Mirrored Shot
+3% Manipulative Burst
+29% Manipulative Grasp
+
+Voco:
+18% Monster Strike
+4% Monster Drive
+22% Monster Grasp
+20% Metal Strike
+37% Metal Grasp
+
+
+Arec: Mirrored Shot
+Voco: Monster Strike
+
+Priorities:  2 | 2
+Clash!
+
+
+Arec: Mirrored Dash
+Voco: Monster Grasp
+
+Priorities:  9 | 4
+Arec is active
+Arec moves:
+
+..V...A
+
+zz...z.
+
+Voco moves:
+
+...V..A
+
+zz...z.
+
+Voco misses
+Arec places clone:
+
+...V..A
+..c....
+zz...z.
+
+
+Beat 14
+-------
+
+Arec
+----
+Life: 10
+Discard 1: Mirrored Dash
+Discard 2: Perceptional Strike
+Special action available
+pool: Mercy, Recklessness, Fear
+
+Voco
+----
+Life: 7
+Discard 1: Monster Grasp
+Discard 2: Thunderous Dash
+
+
+...V..A
+..c....
+zz...z.
+
+Unbeatable strategy for Arec: Phantom Drive (move to clone): 0.26
+Unbeatable strategy for Arec: Phantom Drive (Mercy; move to clone): 0.16
+Unbeatable strategy for Arec: Manipulative Grasp (Fear; move to clone): 0.61
+
+
+Arec:
+30% Phantom Hex (move to clone)
+50% Phantom Drive (move to clone)
+3% Manipulative Hex (Fear; move to clone)
+12% Manipulative Drive (Fear; move to clone)
+4% Manipulative Grasp (Fear; move to clone)
+
+Voco:
+30% Metal Shred
+40% Metal Strike
+14% Metal Shot
+12% Metal Drive
+4% Hellraising Burst
+
+
+Arec: Manipulative Grasp (Fear; move to clone)
+Voco: Metal Strike
+
+Arec moves:
+
+..AV...
+
+zz...z.
+
+Arec antes a Fear token
+Priorities:  5 | 3
+Arec is active
 Arec hits
-Voco has 1 soak
-Voco takes 2 damage (now at 0 life)
+Arec chooses Voco's base: Shred
+Arec moves Voco:
+
+..A.V..
+
+zz...z.
+
+
+..A.V..
+
+zz.z.z.
+
+Voco has 2 soak
+Voco takes 1 damage (now at 6 life)
+Arec recovers a Hesitation token
+Voco moves:
+
+.VA....
+
+z....z.
+
+
+.VA....
+
+z..zzz.
+
+Voco misses
+
+Beat 15
+-------
+
+Arec
+----
+Life: 10
+Discard 1: Manipulative Grasp
+Discard 2: Mirrored Dash
+Special action available
+pool: Mercy, Recklessness, Hesitation
+Manipulative forced base: Shred
+
+Voco
+----
+Life: 6
+Discard 1: Metal Strike
+Discard 2: Monster Grasp
+
+
+.VA....
+
+z..zzz.
+
+Unbeatable strategy for Arec: Phantom Shot: 11.00
+Unbeatable strategy for Arec: Phantom Shot (Mercy): 11.00
+Unbeatable strategy for Arec: Phantom Shot (Recklessness): 11.00
+Unbeatable strategy for Arec: Phantom Shot (Hesitation): 11.00
+Unbeatable strategy for Arec: Phantom Drive: 11.00
+Unbeatable strategy for Arec: Phantom Drive (Mercy): 11.00
+Unbeatable strategy for Arec: Phantom Drive (Recklessness): 11.00
+Unbeatable strategy for Arec: Phantom Drive (Hesitation): 11.00
+Unbeatable strategy for Arec: Perceptional Shot: 11.00
+Unbeatable strategy for Arec: Perceptional Shot (Mercy): 11.00
+Unbeatable strategy for Arec: Perceptional Shot (Recklessness): 11.00
+Unbeatable strategy for Arec: Perceptional Shot (Hesitation): 11.00
+Unbeatable strategy for Arec: Perceptional Drive: 11.00
+Unbeatable strategy for Arec: Perceptional Drive (Mercy): 11.00
+Unbeatable strategy for Arec: Perceptional Drive (Recklessness): 11.00
+Unbeatable strategy for Arec: Perceptional Drive (Hesitation): 11.00
+Unbeatable strategy for Arec: Returning Hex: 11.00
+Unbeatable strategy for Arec: Returning Hex (Mercy): 11.00
+Unbeatable strategy for Arec: Returning Hex (Recklessness): 11.00
+Unbeatable strategy for Arec: Returning Hex (Hesitation): 11.00
+Unbeatable strategy for Arec: Returning Strike: 11.00
+Unbeatable strategy for Arec: Returning Strike (Mercy): 11.00
+Unbeatable strategy for Arec: Returning Strike (Recklessness): 11.00
+Unbeatable strategy for Arec: Returning Strike (Hesitation): 11.00
+Unbeatable strategy for Arec: Returning Shot: 11.00
+Unbeatable strategy for Arec: Returning Shot (Mercy): 11.00
+Unbeatable strategy for Arec: Returning Shot (Recklessness): 11.00
+Unbeatable strategy for Arec: Returning Shot (Hesitation): 11.00
+Unbeatable strategy for Arec: Returning Drive: 11.00
+Unbeatable strategy for Arec: Returning Drive (Mercy): 11.00
+Unbeatable strategy for Arec: Returning Drive (Recklessness): 11.00
+Unbeatable strategy for Arec: Returning Drive (Hesitation): 11.00
+Unbeatable strategy for Arec: Returning Burst: 11.00
+Unbeatable strategy for Arec: Returning Burst (Mercy): 11.00
+Unbeatable strategy for Arec: Returning Burst (Recklessness): 11.00
+Unbeatable strategy for Arec: Returning Burst (Hesitation): 11.00
+
+
+Arec:
+2% Phantom Hex
+2% Phantom Hex (Mercy)
+2% Phantom Hex (Recklessness)
+2% Phantom Hex (Hesitation)
+2% Phantom Strike
+2% Phantom Strike (Mercy)
+2% Phantom Strike (Recklessness)
+2% Phantom Strike (Hesitation)
+2% Phantom Shot
+2% Phantom Shot (Mercy)
+2% Phantom Shot (Recklessness)
+2% Phantom Shot (Hesitation)
+2% Phantom Drive
+2% Phantom Drive (Mercy)
+2% Phantom Drive (Recklessness)
+2% Phantom Drive (Hesitation)
+2% Phantom Burst
+2% Phantom Burst (Mercy)
+2% Phantom Burst (Recklessness)
+2% Phantom Burst (Hesitation)
+2% Perceptional Hex
+2% Perceptional Hex (Mercy)
+2% Perceptional Hex (Recklessness)
+2% Perceptional Hex (Hesitation)
+2% Perceptional Strike
+2% Perceptional Strike (Mercy)
+2% Perceptional Strike (Recklessness)
+2% Perceptional Strike (Hesitation)
+2% Perceptional Shot
+2% Perceptional Shot (Mercy)
+2% Perceptional Shot (Recklessness)
+2% Perceptional Shot (Hesitation)
+2% Perceptional Drive
+2% Perceptional Drive (Mercy)
+2% Perceptional Drive (Recklessness)
+2% Perceptional Drive (Hesitation)
+2% Perceptional Burst
+2% Perceptional Burst (Mercy)
+2% Perceptional Burst (Recklessness)
+2% Perceptional Burst (Hesitation)
+2% Returning Hex
+2% Returning Hex (Mercy)
+2% Returning Hex (Recklessness)
+2% Returning Hex (Hesitation)
+2% Returning Strike
+2% Returning Strike (Mercy)
+2% Returning Strike (Recklessness)
+2% Returning Strike (Hesitation)
+2% Returning Shot
+2% Returning Shot (Mercy)
+2% Returning Shot (Recklessness)
+2% Returning Shot (Hesitation)
+2% Returning Drive
+2% Returning Drive (Mercy)
+2% Returning Drive (Recklessness)
+2% Returning Drive (Hesitation)
+2% Returning Burst
+2% Returning Burst (Mercy)
+2% Returning Burst (Recklessness)
+2% Returning Burst (Hesitation)
+
+Voco:
+5% Hellraising Shred
+4% Hellraising Shot
+4% Hellraising Drive
+4% Hellraising Burst
+33% Hellraising Dash
+5% Abyssal Shred
+4% Abyssal Shot
+5% Abyssal Drive
+6% Abyssal Burst
+4% Abyssal Dash
+6% Thunderous Shred
+5% Thunderous Shot
+4% Thunderous Drive
+5% Thunderous Burst
+6% Thunderous Dash
+
+
+Arec: Phantom Hex (Recklessness)
+Voco: Hellraising Dash
+
+Arec antes a Recklessness token
+Voco loses 2 life (now at 4)
+Priorities:  4 | 7
+Voco is active
+Voco moves:
+
+V.A....
+
+z..zzz.
+
+
+V.A....
+
+zz.zzz.
+
+Voco moves:
+
+.VA....
+
+zz.zzz.
+
+Arec hits
+Arec moves Voco:
+
+V.A....
+
+zz.zzz.
+
+Arec recovers a Fear token
+Voco takes 2 damage (now at 2 life)
+Game goes to time
 AREC WINS!
-total_time: 47
+total_time: 124

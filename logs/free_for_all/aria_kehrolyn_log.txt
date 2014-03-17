@@ -11,17 +11,17 @@ Beat 1
 
 Aria
 ----
-life: 20
-discard 1: Laser Grasp
-discard 2: Ionic Dash
-special action
+Life: 20
+Discard 1: Laser Grasp
+Discard 2: Ionic Dash
+Special action available
 
 Kehrolyn
 --------
-life: 20
-discard 1: Mutating Grasp
-discard 2: Bladed Strike
-special action
+Life: 20
+Discard 1: Mutating Grasp
+Discard 2: Bladed Strike
+Special action available
 
 
 .A...K.
@@ -29,18 +29,22 @@ special action
 .m.....
 .......
 
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 3.37
+Unbeatable strategy for Aria: Catalyst Reconfiguration: 2.14
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 3.18
+
 
 Aria:
-94% Dimensional Reconfiguration
-6% Dimensional Shot
+4% Catalyst Reconfiguration
+84% Dimensional Reconfiguration
+12% Dimensional Shot
 
 Kehrolyn:
-2% Whip Drive
+1% Whip Drive
+1% Quicksilver Shot
 98% Special Pulse
 
 
-Aria: Dimensional Shot
+Aria: Dimensional Reconfiguration
 Kehrolyn: Special Pulse
 
 Pulse:
@@ -56,16 +60,16 @@ Beat 1
 
 Aria
 ----
-life: 20
-discard 1: Dimensional Shot
-discard 2: Laser Grasp
-special action
+Life: 20
+Discard 1: Dimensional Reconfiguration
+Discard 2: Laser Grasp
+Special action available
 
 Kehrolyn
 --------
-life: 20
-discard 1: Mutating Grasp
-discard 2: Bladed Strike
+Life: 20
+Discard 1: Mutating Grasp
+Discard 2: Bladed Strike
 
 
 .....KA
@@ -73,9 +77,10 @@ discard 2: Bladed Strike
 .m.....
 .......
 
-Unbeatable strategy for Aria: Photovoltaic Dash: 2.49
-Unbeatable strategy for Aria: Ionic Dash: 0.81
-Unbeatable strategy for Aria: Catalyst Dash: 1.34
+Unbeatable strategy for Aria: Photovoltaic Dash: 4.06
+Unbeatable strategy for Aria: Ionic Dash: 0.79
+Unbeatable strategy for Aria: Catalyst Dash: 1.74
+
 
 Aria:
 2% Photovoltaic Strike
@@ -83,45 +88,44 @@ Aria:
 96% Photovoltaic Dash
 
 Kehrolyn:
-14% Quicksilver Drive
-67% Quicksilver Burst
-18% Exoskeletal Burst
+28% Quicksilver Drive
+29% Quicksilver Burst
+43% Quicksilver Dash
 
 
 Aria: Photovoltaic Dash
-Kehrolyn: Quicksilver Drive
+Kehrolyn: Quicksilver Dash
 
-Priorities:  10 | 8
-Aria is active
-Aria adds her Turret droid:
+Priorities:  10 | 11
+Kehrolyn is active
+Kehrolyn moves:
 
-.....KA
+....K.A
 .......
 .m.....
-......t
+.......
 
 Aria moves:
 
-....AK.
+...AK..
 .......
 .m.....
-......t
-
-Kehrolyn moves:
-
-..K.A..
 .......
-.m.....
-......t
 
-Kehrolyn misses
+Aria adds her Dampening droid:
+
+...AK..
+...d...
+.m.....
+.......
+
 Kehrolyn loses 1 life (now at 19)
 Kehrolyn moves:
 
-...KA..
-.......
+...A.K.
+...d...
 .m.....
-......t
+.......
 
 
 Beat 2
@@ -129,297 +133,37 @@ Beat 2
 
 Aria
 ----
-life: 20
-discard 1: Photovoltaic Dash
-discard 2: Dimensional Shot
-special action
+Life: 20
+Discard 1: Photovoltaic Dash
+Discard 2: Dimensional Reconfiguration
+Special action available
 
 Kehrolyn
 --------
-life: 19
-discard 1: Quicksilver Drive
-discard 2: Mutating Grasp
+Life: 19
+Discard 1: Quicksilver Dash
+Discard 2: Mutating Grasp
 
 
-...KA..
-.......
+...A.K.
+...d...
 .m.....
-......t
+.......
 
-Unbeatable strategy for Kehrolyn: Bladed Shot: -0.38
-Unbeatable strategy for Kehrolyn: Exoskeletal Shot: -0.38
+Unbeatable strategy for Kehrolyn: Whip Drive: -1.68
+
 
 Aria:
-36% Ionic Strike
-52% Ionic Burst
-12% Laser Drive
+9% Ionic Grasp
+12% Laser Burst
+42% Catalyst Burst
+37% Catalyst Grasp
 
 Kehrolyn:
-24% Bladed Overload
-53% Bladed Shot
-2% Whip Shot
-21% Exoskeletal Overload
-
-
-Aria: Ionic Burst
-Kehrolyn: Bladed Shot
-
-Priorities:  2 | 4
-Kehrolyn is active
-Aria moves Kehrolyn:
-
-..K.A..
-.......
-.m.....
-......t
-
-Aria moves:
-
-..K...A
-.......
-.m.....
-......t
-
-Kehrolyn hits
-Aria takes 5 damage (now at 15 life)
-Aria is stunned
-Kehrolyn moves:
-
-...K..A
-.......
-.m.....
-......t
-
-
-Beat 3
--------
-
-Aria
-----
-life: 15
-discard 1: Ionic Burst
-discard 2: Photovoltaic Dash
-special action
-
-Kehrolyn
---------
-life: 19
-discard 1: Bladed Shot
-discard 2: Quicksilver Drive
-
-
-...K..A
-.......
-.m.....
-......t
-
-Unbeatable strategy for Aria: Laser Shot: 0.42
-Unbeatable strategy for Aria: Catalyst Reconfiguration: 3.07
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 2.83
-
-Aria:
-4% Laser Reconfiguration
-13% Laser Shot
-83% Catalyst Reconfiguration
-
-Kehrolyn:
-31% Whip Overload
-32% Whip Dash
-37% Exoskeletal Strike
-
-
-Aria: Laser Shot
-Kehrolyn: Whip Overload
-
-Priorities:  2 | 3
-Kehrolyn is active
-Kehrolyn overloads Exoskeletal
-Kehrolyn misses
-Aria hits
-Kehrolyn has 2 soak
-Kehrolyn takes 1 damage (now at 18 life)
-Kehrolyn loses 3 life (now at 15)
-
-Beat 4
--------
-
-Aria
-----
-life: 15
-discard 1: Laser Shot
-discard 2: Ionic Burst
-special action
-
-Kehrolyn
---------
-life: 15
-discard 1: Whip Overload
-discard 2: Bladed Shot
-
-
-...K..A
-.......
-.m.....
-......t
-
-Aria:
-11% Photovoltaic Drive
-1% Catalyst Reconfiguration
-61% Dimensional Reconfiguration
-27% Dimensional Grasp
-
-Kehrolyn:
-10% Mutating Strike
-15% Quicksilver Drive
-28% Quicksilver Burst
-47% Quicksilver Grasp
-
-
-Aria: Photovoltaic Drive
-Kehrolyn: Mutating Strike
-
-Priorities:  5 | 3
-Aria is active
-Aria moves:
-
-...KA..
-.......
-.m.....
-......t
-
-Aria hits
-Kehrolyn takes 2 damage (now at 13 life)
-Aria adds her Dampening droid:
-
-...KA..
-....d..
-.m.....
-......t
-
-Kehrolyn hits
-Aria is stunned
-Aria is stunned
-Aria takes 3 damage (now at 12 life)
-Aria is stunned
-Kehrolyn loses 1 life (now at 12)
-
-Beat 5
--------
-
-Aria
-----
-life: 12
-discard 1: Photovoltaic Drive
-discard 2: Laser Shot
-special action
-
-Kehrolyn
---------
-life: 12
-discard 1: Mutating Strike
-discard 2: Whip Overload
-
-
-...KA..
-....d..
-.m.....
-......t
-
-Unbeatable strategy for Aria: Ionic Dash: 1.24
-Unbeatable strategy for Aria: Catalyst Dash: 1.45
-
-Aria:
-19% Ionic Strike
-12% Ionic Burst
-13% Catalyst Reconfiguration
-27% Catalyst Burst
-29% Dimensional Dash
-
-Kehrolyn:
-26% Bladed Drive
-28% Quicksilver Shot
-3% Quicksilver Burst
-39% Quicksilver Dash
-4% Exoskeletal Shot
-
-
-Aria: Dimensional Dash
-Kehrolyn: Quicksilver Dash
-
-Priorities:  13 | 13
-Clash!
-
-Aria:
-29% Dimensional Reconfiguration
-71% Dimensional Burst
-
-Kehrolyn:
-71% Quicksilver Shot
-29% Quicksilver Burst
-
-
-Aria: Dimensional Burst
-Kehrolyn: Quicksilver Shot
-
-Priorities:  5 | 6
-Kehrolyn is active
-Aria moves:
-
-...K.A.
-....d..
-.m.....
-......t
-
-Kehrolyn hits
-Aria takes 2 damage (now at 10 life)
-Aria is stunned
-Kehrolyn loses 1 life (now at 11)
-Kehrolyn moves:
-
-....KA.
-....d..
-.m.....
-......t
-
-Aria moves:
-
-A...K..
-....d..
-.m.....
-......t
-
-
-Beat 6
--------
-
-Aria
-----
-life: 10
-discard 1: Dimensional Burst
-discard 2: Photovoltaic Drive
-special action
-
-Kehrolyn
---------
-life: 11
-discard 1: Quicksilver Shot
-discard 2: Mutating Strike
-
-
-A...K..
-....d..
-.m.....
-......t
-
-Unbeatable strategy for Kehrolyn: Whip Drive: -0.07
-
-Aria:
-36% Laser Strike
-64% Catalyst Grasp
-
-Kehrolyn:
-92% Whip Drive
-8% Whip Burst
+9% Whip Overload
+63% Whip Drive
+19% Exoskeletal Overload
+9% Exoskeletal Shot
 
 
 Aria: Catalyst Grasp
@@ -428,98 +172,321 @@ Kehrolyn: Whip Drive
 Priorities:  6 | 6
 Clash!
 
-Aria:
-13% Catalyst Reconfiguration
-87% Catalyst Strike
 
-Kehrolyn:
-85% Whip Overload
-15% Whip Dash
-
-
-Aria: Catalyst Strike
+Aria: Catalyst Burst
 Kehrolyn: Whip Overload
 
-Priorities:  4 | 5
+Priorities:  2 | 5
 Kehrolyn is active
-Kehrolyn overloads Bladed
+Kehrolyn overloads Exoskeletal
+Aria moves:
+
+.A...K.
+...d...
+.m.....
+.......
+
 Kehrolyn misses
+Aria hits
+Kehrolyn has 2 soak
+Kehrolyn takes 0 damage (now at 19 life)
+
+Beat 3
+-------
+
+Aria
+----
+Life: 20
+Discard 1: Catalyst Burst
+Discard 2: Photovoltaic Dash
+Special action available
+
+Kehrolyn
+--------
+Life: 19
+Discard 1: Whip Overload
+Discard 2: Quicksilver Dash
+
+
+.A...K.
+...d...
+.m.....
+.......
+
+
+Aria:
+69% Ionic Reconfiguration
+31% Dimensional Reconfiguration
+
+Kehrolyn:
+81% Bladed Shot
+19% Exoskeletal Drive
+
+
+Aria: Ionic Reconfiguration
+Kehrolyn: Bladed Shot
+
+Priorities:  4 | 2
+Aria is active
+Aria moves Kehrolyn:
+
+.A..K..
+...d...
+.m.....
+.......
+
+Aria moves:
+
+A...K..
+...d...
+.m.....
+.......
+
+Aria adds her Turret droid:
+
+A...K..
+...d...
+.m.....
+.....t.
+
 Aria misses
+Kehrolyn hits
+Kehrolyn moves Aria:
+
+.A..K..
+...d...
+.m.....
+.....t.
+
+Aria takes 4 damage (now at 16 life)
+Aria is stunned
+Kehrolyn loses 1 life (now at 18)
+
+Beat 4
+-------
+
+Aria
+----
+Life: 16
+Discard 1: Ionic Reconfiguration
+Discard 2: Catalyst Burst
+Special action available
+
+Kehrolyn
+--------
+Life: 18
+Discard 1: Bladed Shot
+Discard 2: Whip Overload
+
+
+.A..K..
+...d...
+.m.....
+.....t.
+
+Unbeatable strategy for Kehrolyn: Quicksilver Dash: -1.29
+
+
+Aria:
+99% Dimensional Strike
+1% Dimensional Grasp
+
+Kehrolyn:
+1% Quicksilver Grasp
+99% Quicksilver Dash
+
+
+Aria: Dimensional Strike
+Kehrolyn: Quicksilver Dash
+
+Aria gets +2 power
+Priorities:  7 | 11
+Kehrolyn is active
+Kehrolyn moves:
+
+.AK....
+...d...
+.m.....
+.....t.
+
+Aria misses
+Kehrolyn moves:
+
+.A.K...
+...d...
+.m.....
+.....t.
+
+Aria moves:
+
+A..K...
+...d...
+.m.....
+.....t.
+
+
+Beat 5
+-------
+
+Aria
+----
+Life: 16
+Discard 1: Dimensional Strike
+Discard 2: Ionic Reconfiguration
+Special action available
+
+Kehrolyn
+--------
+Life: 18
+Discard 1: Quicksilver Dash
+Discard 2: Bladed Shot
+
+
+A..K...
+...d...
+.m.....
+.....t.
+
+
+Aria:
+23% Photovoltaic Drive
+77% Photovoltaic Grasp
+
+Kehrolyn:
+71% Mutating Overload
+29% Exoskeletal Drive
+
+
+Aria: Photovoltaic Drive
+Kehrolyn: Exoskeletal Drive
+
+Priorities:  5 | 6
+Kehrolyn is active
+Kehrolyn moves:
+
+AK.....
+...d...
+.m.....
+.....t.
+
+Kehrolyn hits
+Aria takes 3 damage (now at 13 life)
+Aria is stunned
+
+Beat 6
+-------
+
+Aria
+----
+Life: 13
+Discard 1: Photovoltaic Drive
+Discard 2: Dimensional Strike
+Special action available
+
+Kehrolyn
+--------
+Life: 18
+Discard 1: Exoskeletal Drive
+Discard 2: Quicksilver Dash
+
+
+AK.....
+...d...
+.m.....
+.....t.
+
+Unbeatable strategy for Aria: Catalyst Dash: 0.40
+
+
+Aria:
+81% Catalyst Reconfiguration
+19% Catalyst Dash
+
+Kehrolyn:
+81% Bladed Burst
+19% Bladed Grasp
+
+
+Aria: Catalyst Reconfiguration
+Kehrolyn: Bladed Burst
+
+Priorities:  4 | 0
+Aria is active
+Kehrolyn moves:
+
+A..K...
+...d...
+.m.....
+.....t.
+
+Aria moves:
+
+...KA..
+...d...
+.m.....
+.....t.
+
+Aria hits
+Kehrolyn has 2 soak
+Kehrolyn takes 0 damage (now at 18 life)
+Kehrolyn misses
 
 Beat 7
 -------
 
 Aria
 ----
-life: 10
-discard 1: Catalyst Strike
-discard 2: Dimensional Burst
-special action
+Life: 13
+Discard 1: Catalyst Reconfiguration
+Discard 2: Photovoltaic Drive
+Special action available
 
 Kehrolyn
 --------
-life: 11
-discard 1: Whip Overload
-discard 2: Quicksilver Shot
+Life: 18
+Discard 1: Bladed Burst
+Discard 2: Exoskeletal Drive
 
 
-A...K..
-....d..
+...KA..
+...d...
 .m.....
-......t
+.....t.
+
+Unbeatable strategy for Aria: Ionic Dash: 0.74
+Unbeatable strategy for Aria: Dimensional Dash: 0.20
+
 
 Aria:
-81% Photovoltaic Reconfiguration
-8% Photovoltaic Drive
-7% Laser Shot
-4% Laser Drive
+1% Ionic Burst
+94% Ionic Dash
+5% Laser Burst
 
 Kehrolyn:
-9% Mutating Strike
-12% Exoskeletal Strike
-26% Exoskeletal Drive
-53% Exoskeletal Grasp
+38% Whip Overload
+7% Whip Shot
+55% Quicksilver Shot
 
 
-Aria: Photovoltaic Reconfiguration
-Kehrolyn: Exoskeletal Drive
+Aria: Ionic Dash
+Kehrolyn: Quicksilver Shot
 
-Priorities:  4 | 4
-Clash!
+Priorities:  10 | 4
+Aria is active
+Aria moves:
 
-Aria:
-57% Photovoltaic Shot
-43% Photovoltaic Drive
+A..K...
+...d...
+.m.....
+.....t.
 
-Kehrolyn:
-49% Exoskeletal Strike
-51% Exoskeletal Grasp
-
-
-Aria: Photovoltaic Shot
-Kehrolyn: Exoskeletal Grasp
-
-Priorities:  3 | 5
-Kehrolyn is active
 Kehrolyn misses
-Aria hits
-Aria removes her Magnetron droid:
+Kehrolyn moves:
 
-A...K..
-....d..
-.......
-......t
-
-Aria gets +1 power
-Kehrolyn has 2 soak
-Kehrolyn takes 1 damage (now at 10 life)
-Kehrolyn is stunned
-Aria adds her Magnetron droid:
-
-A...K..
-....d..
-m......
-......t
+A.K....
+...d...
+.m.....
+.....t.
 
 
 Beat 8
@@ -527,60 +494,68 @@ Beat 8
 
 Aria
 ----
-life: 10
-discard 1: Photovoltaic Shot
-discard 2: Catalyst Strike
-special action
+Life: 13
+Discard 1: Ionic Dash
+Discard 2: Catalyst Reconfiguration
+Special action available
 
 Kehrolyn
 --------
-life: 10
-discard 1: Exoskeletal Grasp
-discard 2: Whip Overload
+Life: 18
+Discard 1: Quicksilver Shot
+Discard 2: Bladed Burst
 
-
-A...K..
-....d..
-m......
-......t
-
-Unbeatable strategy for Kehrolyn: Mutating Shot: -0.61
-Unbeatable strategy for Kehrolyn: Bladed Shot: -2.97
-Unbeatable strategy for Kehrolyn: Quicksilver Shot: -1.30
-Unbeatable strategy for Kehrolyn: Quicksilver Drive: -0.64
-Unbeatable strategy for Kehrolyn: Quicksilver Dash: -0.05
-
-Aria:
-25% Ionic Burst
-14% Laser Burst
-61% Laser Grasp
-
-Kehrolyn:
-77% Bladed Shot
-6% Bladed Drive
-17% Quicksilver Drive
-
-
-Aria: Laser Grasp
-Kehrolyn: Quicksilver Drive
-
-Priorities:  5 | 6
-Kehrolyn is active
-Kehrolyn moves:
 
 A.K....
-....d..
-m......
-......t
+...d...
+.m.....
+.....t.
 
-Kehrolyn misses
-Aria misses
+Unbeatable strategy for Kehrolyn: Whip Grasp: -1.90
+Unbeatable strategy for Kehrolyn: Exoskeletal Drive: -1.14
+
+
+Aria:
+17% Photovoltaic Strike
+29% Photovoltaic Grasp
+29% Dimensional Strike
+25% Dimensional Burst
+
+Kehrolyn:
+14% Whip Overload
+6% Whip Strike
+66% Whip Grasp
+14% Exoskeletal Drive
+
+
+Aria: Photovoltaic Strike
+Kehrolyn: Whip Strike
+
+Priorities:  4 | 4
+Clash!
+
+
+Aria: Photovoltaic Shot
+Kehrolyn: Whip Grasp
+
+Priorities:  3 | 6
+Kehrolyn is active
+Kehrolyn hits
+Kehrolyn moves Aria:
+
+.AK....
+...d...
+.m.....
+.....t.
+
+Aria is stunned
+Aria takes 1 damage (now at 12 life)
 Kehrolyn moves:
 
-AK.....
-....d..
-m......
-......t
+.A.K...
+...d...
+.m.....
+.....t.
 
 
 Beat 9
@@ -588,132 +563,129 @@ Beat 9
 
 Aria
 ----
-life: 10
-discard 1: Laser Grasp
-discard 2: Photovoltaic Shot
-special action
+Life: 12
+Discard 1: Photovoltaic Shot
+Discard 2: Ionic Dash
+Special action available
 
 Kehrolyn
 --------
-life: 10
-discard 1: Quicksilver Drive
-discard 2: Exoskeletal Grasp
+Life: 18
+Discard 1: Whip Grasp
+Discard 2: Quicksilver Shot
 
 
-AK.....
-....d..
-m......
-......t
+.A.K...
+...d...
+.m.....
+.....t.
 
-Unbeatable strategy for Aria: Catalyst Reconfiguration: 1.33
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.02
-Unbeatable strategy for Aria: Dimensional Dash: 0.77
+Unbeatable strategy for Kehrolyn: Bladed Overload: -0.63
+Unbeatable strategy for Kehrolyn: Exoskeletal Overload: -0.22
+
 
 Aria:
-3% Ionic Drive
-67% Catalyst Reconfiguration
-12% Catalyst Strike
-18% Dimensional Reconfiguration
+10% Catalyst Strike
+62% Catalyst Burst
+28% Dimensional Reconfiguration
 
 Kehrolyn:
-4% Whip Overload
-20% Whip Strike
-1% Whip Shot
-74% Whip Burst
+20% Mutating Overload
+60% Bladed Overload
+20% Exoskeletal Drive
 
 
-Aria: Dimensional Reconfiguration
-Kehrolyn: Whip Strike
+Aria: Catalyst Burst
+Kehrolyn: Bladed Overload
 
-Priorities:  7 | 4
+Aria gets +4 priority
+Priorities:  6 | 3
 Aria is active
 Aria moves:
 
-.K..A..
-....d..
-m......
-......t
+A..K...
+...d...
+.m.....
+.....t.
 
-Aria misses
-Kehrolyn misses
-Aria moves:
+Kehrolyn overloads Mutating
+Aria hits
+Kehrolyn takes 2 damage (now at 16 life)
+Kehrolyn hits
+Kehrolyn moves Aria:
 
-.K....A
-....d..
-m......
-......t
+.A.K...
+...d...
+.m.....
+.....t.
 
-Kehrolyn moves:
+Kehrolyn moves Aria:
 
-..K...A
-....d..
-m......
-......t
+..AK...
+...d...
+.m.....
+.....t.
 
+Aria takes 4 damage (now at 8 life)
+Aria is stunned
+Kehrolyn loses 1 life (now at 15)
 
 Beat 10
 -------
 
 Aria
 ----
-life: 10
-discard 1: Dimensional Reconfiguration
-discard 2: Laser Grasp
-special action
+Life: 8
+Discard 1: Catalyst Burst
+Discard 2: Photovoltaic Shot
+Special action available
 
 Kehrolyn
 --------
-life: 10
-discard 1: Whip Strike
-discard 2: Quicksilver Drive
+Life: 15
+Discard 1: Bladed Overload
+Discard 2: Whip Grasp
 
 
-..K...A
-....d..
-m......
-......t
+..AK...
+...d...
+.m.....
+.....t.
 
-Unbeatable strategy for Kehrolyn: Exoskeletal Shot: -0.40
+Unbeatable strategy for Aria: Ionic Dash: 0.24
+Unbeatable strategy for Aria: Dimensional Dash: 0.39
+
 
 Aria:
-75% Photovoltaic Burst
-25% Catalyst Strike
+2% Ionic Grasp
+33% Ionic Dash
+65% Dimensional Dash
 
 Kehrolyn:
-30% Exoskeletal Shot
-70% Exoskeletal Dash
+59% Quicksilver Strike
+40% Quicksilver Shot
+1% Exoskeletal Strike
 
 
-Aria: Photovoltaic Burst
-Kehrolyn: Exoskeletal Dash
+Aria: Ionic Dash
+Kehrolyn: Quicksilver Strike
 
-Priorities:  2 | 9
-Kehrolyn is active
+Priorities:  10 | 5
+Aria is active
+Aria moves:
+
+A..K...
+...d...
+.m.....
+.....t.
+
+Kehrolyn misses
 Kehrolyn moves:
 
-....K.A
-....d..
-m......
-......t
-
-Aria hits
-Aria removes her Magnetron droid:
-
-....K.A
-....d..
-.......
-......t
-
-Aria gets +1 power
-Kehrolyn has 2 soak
-Kehrolyn takes 1 damage (now at 9 life)
-Kehrolyn is stunned
-Aria adds her Magnetron droid:
-
-....K.A
-....d..
-......m
-......t
+A.K....
+...d...
+.m.....
+.....t.
 
 
 Beat 11
@@ -721,215 +693,211 @@ Beat 11
 
 Aria
 ----
-life: 10
-discard 1: Photovoltaic Burst
-discard 2: Dimensional Reconfiguration
-special action
+Life: 8
+Discard 1: Ionic Dash
+Discard 2: Catalyst Burst
+Special action available
 
 Kehrolyn
 --------
-life: 9
-discard 1: Exoskeletal Dash
-discard 2: Whip Strike
+Life: 15
+Discard 1: Quicksilver Strike
+Discard 2: Bladed Overload
 
 
-....K.A
-....d..
-......m
-......t
+A.K....
+...d...
+.m.....
+.....t.
 
-Unbeatable strategy for Kehrolyn: Mutating Shot: -0.27
-Unbeatable strategy for Kehrolyn: Bladed Shot: -0.74
-Unbeatable strategy for Kehrolyn: Bladed Drive: -1.42
-Unbeatable strategy for Kehrolyn: Quicksilver Shot: -0.73
+Unbeatable strategy for Kehrolyn: Whip Grasp: -0.85
+Unbeatable strategy for Kehrolyn: Exoskeletal Drive: -0.69
+
 
 Aria:
-29% Laser Shot
-19% Laser Drive
-11% Catalyst Dash
-41% Special Pulse
+30% Photovoltaic Strike
+4% Photovoltaic Shot
+39% Photovoltaic Drive
+27% Photovoltaic Grasp
 
 Kehrolyn:
-5% Mutating Overload
-1% Mutating Shot
-28% Bladed Shot
-66% Bladed Drive
+13% Whip Drive
+33% Whip Grasp
+49% Exoskeletal Shot
+5% Exoskeletal Drive
 
 
-Aria: Laser Shot
-Kehrolyn: Bladed Drive
+Aria: Photovoltaic Grasp
+Kehrolyn: Whip Grasp
 
-Priorities:  2 | 4
-Kehrolyn is active
+Priorities:  6 | 6
+Clash!
+
+
+Aria: Photovoltaic Drive
+Kehrolyn: Whip Drive
+
+Priorities:  5 | 5
+Clash!
+
+
+Aria: Photovoltaic Shot
+Kehrolyn: Whip Shot
+
+Priorities:  3 | 3
+Clash!
+
+
+Aria: Photovoltaic Reconfiguration
+Kehrolyn: Whip Burst
+
+Priorities:  4 | 2
+Aria is active
 Kehrolyn moves:
 
-.....KA
-....d..
-......m
-......t
+A...K..
+...d...
+.m.....
+.....t.
 
-Kehrolyn hits
-Aria takes 4 damage (now at 6 life)
-Aria is stunned
-Kehrolyn loses 1 life (now at 8)
+Aria moves:
+
+...AK..
+...d...
+.m.....
+.....t.
+
+Aria misses
+Kehrolyn misses
+Kehrolyn loses 1 life (now at 14)
+Kehrolyn moves:
+
+...A.K.
+...d...
+.m.....
+.....t.
+
 
 Beat 12
 -------
 
 Aria
 ----
-life: 6
-discard 1: Laser Shot
-discard 2: Photovoltaic Burst
-special action
+Life: 8
+Discard 1: Photovoltaic Reconfiguration
+Discard 2: Ionic Dash
+Special action available
 
 Kehrolyn
 --------
-life: 8
-discard 1: Bladed Drive
-discard 2: Exoskeletal Dash
+Life: 14
+Discard 1: Whip Burst
+Discard 2: Quicksilver Strike
 
 
-.....KA
-....d..
-......m
-......t
+...A.K.
+...d...
+.m.....
+.....t.
+
 
 Aria:
-2% Ionic Drive
-8% Catalyst Strike
-21% Catalyst Drive
-69% Dimensional Reconfiguration
+0% Laser Drive
+85% Dimensional Strike
+15% Dimensional Burst
 
 Kehrolyn:
-6% Mutating Burst
-10% Whip Overload
-6% Whip Shot
-78% Quicksilver Burst
+5% Bladed Overload
+67% Bladed Drive
+23% Bladed Grasp
+5% Exoskeletal Overload
 
 
-Aria: Dimensional Reconfiguration
-Kehrolyn: Quicksilver Burst
+Aria: Dimensional Strike
+Kehrolyn: Exoskeletal Overload
 
-Priorities:  7 | 2
+Priorities:  7 | 3
 Aria is active
-Kehrolyn moves:
-
-...K..A
-....d..
-......m
-......t
-
-Aria moves:
-
-..AK...
-....d..
-......m
-......t
-
+Kehrolyn overloads Bladed
 Aria misses
-Kehrolyn misses
+Kehrolyn hits
+Kehrolyn moves Aria:
+
+....AK.
+...d...
+.m.....
+.....t.
+
+Aria takes 5 damage (now at 3 life)
 Aria moves:
 
-...K..A
-....d..
-......m
-......t
+A....K.
+...d...
+.m.....
+.....t.
 
-Kehrolyn moves:
-
-....K.A
-....d..
-......m
-......t
-
+Kehrolyn loses 1 life (now at 13)
 
 Beat 13
 -------
 
 Aria
 ----
-life: 6
-discard 1: Dimensional Reconfiguration
-discard 2: Laser Shot
-special action
+Life: 3
+Discard 1: Dimensional Strike
+Discard 2: Photovoltaic Reconfiguration
+Special action available
 
 Kehrolyn
 --------
-life: 8
-discard 1: Quicksilver Burst
-discard 2: Bladed Drive
+Life: 13
+Discard 1: Exoskeletal Overload
+Discard 2: Whip Burst
 
 
-....K.A
-....d..
-......m
-......t
-
-Aria:
-23% Photovoltaic Strike
-38% Photovoltaic Drive
-39% Catalyst Strike
-
-Kehrolyn:
-1% Mutating Overload
-18% Whip Grasp
-81% Exoskeletal Shot
-
-
-Aria: Photovoltaic Strike
-Kehrolyn: Exoskeletal Shot
-
-Priorities:  4 | 4
-Clash!
-
-Aria:
-64% Photovoltaic Drive
-36% Photovoltaic Burst
-
-Kehrolyn:
-18% Exoskeletal Overload
-82% Exoskeletal Strike
-
-
-Aria: Photovoltaic Drive
-Kehrolyn: Exoskeletal Overload
-
-Priorities:  5 | 5
-Aria is active
-Kehrolyn overloads Whip
-Aria moves:
-
-....KA.
-....d..
-......m
-......t
-
-Aria hits
-Aria removes her Turret droid:
-
-....KA.
-....d..
-......m
-.......
-
-Aria gets +1 power
-Kehrolyn has 2 soak
-Kehrolyn takes 1 damage (now at 7 life)
-Kehrolyn is stunned
-Aria adds her Turret droid:
-
-....KA.
-....d..
-......m
+A....K.
+...d...
+.m.....
 .....t.
 
-Kehrolyn loses 1 life (now at 6)
+Unbeatable strategy for Kehrolyn: Mutating Drive: -0.98
+Unbeatable strategy for Kehrolyn: Mutating Dash: -0.61
+Unbeatable strategy for Kehrolyn: Bladed Drive: -0.40
+Unbeatable strategy for Kehrolyn: Bladed Dash: -0.20
+Unbeatable strategy for Kehrolyn: Quicksilver Drive: -0.40
+Unbeatable strategy for Kehrolyn: Quicksilver Dash: -1.12
+
+
+Aria:
+37% Laser Drive
+63% Laser Burst
+
+Kehrolyn:
+2% Mutating Shot
+98% Quicksilver Dash
+
+
+Aria: Laser Burst
+Kehrolyn: Quicksilver Dash
+
+Priorities:  1 | 11
+Kehrolyn is active
 Kehrolyn moves:
 
-.....AK
-....d..
-......m
+A.K....
+...d...
+.m.....
+.....t.
+
+Aria hits
+Kehrolyn has 2 soak
+Kehrolyn takes 1 damage (now at 12 life)
+Kehrolyn is stunned
+Kehrolyn moves:
+
+AK.....
+...d...
+.m.....
 .....t.
 
 
@@ -938,111 +906,51 @@ Beat 14
 
 Aria
 ----
-life: 6
-discard 1: Photovoltaic Drive
-discard 2: Dimensional Reconfiguration
-special action
+Life: 3
+Discard 1: Laser Burst
+Discard 2: Dimensional Strike
+Special action available
 
 Kehrolyn
 --------
-life: 6
-discard 1: Exoskeletal Overload
-discard 2: Quicksilver Burst
+Life: 12
+Discard 1: Quicksilver Dash
+Discard 2: Exoskeletal Overload
 
 
-.....AK
-....d..
-......m
+AK.....
+...d...
+.m.....
 .....t.
 
+
 Aria:
-16% Ionic Strike
-3% Laser Burst
-81% Catalyst Dash
+7% Photovoltaic Grasp
+93% Catalyst Dash
 
 Kehrolyn:
-21% Bladed Strike
-5% Bladed Dash
-74% Whip Drive
+86% Bladed Drive
+14% Whip Strike
 
 
 Aria: Catalyst Dash
-Kehrolyn: Whip Drive
+Kehrolyn: Whip Strike
 
-Priorities:  10 | 3
+Priorities:  10 | 4
 Aria is active
 Aria moves:
 
-..A...K
-....d..
-......m
+.K..A..
+...d...
+.m.....
 .....t.
 
+Kehrolyn misses
 Kehrolyn moves:
 
-..A.K..
-....d..
-......m
-.....t.
-
-Kehrolyn hits
-Kehrolyn moves Aria:
-
-...AK..
-....d..
-......m
-.....t.
-
-Aria takes 2 damage (now at 4 life)
-Aria is stunned
-Kehrolyn loses 1 life (now at 5)
-
-Beat 15
--------
-
-Aria
-----
-life: 4
-discard 1: Catalyst Dash
-discard 2: Photovoltaic Drive
-special action
-
-Kehrolyn
---------
-life: 5
-discard 1: Whip Drive
-discard 2: Exoskeletal Overload
-
-
-...AK..
-....d..
-......m
-.....t.
-
-Unbeatable strategy for Kehrolyn: Bladed Shot: -9.00
-Unbeatable strategy for Kehrolyn: Bladed Dash: -9.00
-Unbeatable strategy for Kehrolyn: Quicksilver Dash: -9.00
-
-Aria:
-4% Ionic Burst
-1% Dimensional Reconfiguration
-94% Special Pulse
-
-Kehrolyn:
-16% Mutating Strike
-17% Mutating Grasp
-58% Bladed Shot
-9% Quicksilver Shot
-
-
-Aria: Special Pulse
-Kehrolyn: Mutating Grasp
-
-Pulse:
-
-A....K.
-....d..
-......m
+..K.A..
+...d...
+.m.....
 .....t.
 
 
@@ -1051,57 +959,97 @@ Beat 15
 
 Aria
 ----
-life: 4
-discard 1: Catalyst Dash
-discard 2: Photovoltaic Drive
+Life: 3
+Discard 1: Catalyst Dash
+Discard 2: Laser Burst
+Special action available
 
 Kehrolyn
 --------
-life: 5
-discard 1: Mutating Grasp
-discard 2: Whip Drive
+Life: 12
+Discard 1: Whip Strike
+Discard 2: Quicksilver Dash
 
 
-A....K.
-....d..
-......m
+..K.A..
+...d...
+.m.....
 .....t.
 
+Unbeatable strategy for Kehrolyn: Mutating Overload: -8.00
+Unbeatable strategy for Kehrolyn: Mutating Shot: -8.00
+Unbeatable strategy for Kehrolyn: Mutating Drive: -8.00
+Unbeatable strategy for Kehrolyn: Mutating Burst: -8.00
+Unbeatable strategy for Kehrolyn: Mutating Grasp: -8.00
+Unbeatable strategy for Kehrolyn: Bladed Overload: -8.00
+Unbeatable strategy for Kehrolyn: Bladed Shot: -8.00
+Unbeatable strategy for Kehrolyn: Bladed Drive: -8.00
+Unbeatable strategy for Kehrolyn: Bladed Burst: -8.00
+Unbeatable strategy for Kehrolyn: Bladed Grasp: -8.00
+Unbeatable strategy for Kehrolyn: Exoskeletal Overload: -8.00
+Unbeatable strategy for Kehrolyn: Exoskeletal Shot: -8.00
+Unbeatable strategy for Kehrolyn: Exoskeletal Drive: -8.00
+Unbeatable strategy for Kehrolyn: Exoskeletal Burst: -8.00
+Unbeatable strategy for Kehrolyn: Exoskeletal Grasp: -8.00
+
+
 Aria:
+6% Photovoltaic Reconfiguration
+6% Photovoltaic Strike
+6% Photovoltaic Shot
+6% Photovoltaic Drive
+6% Photovoltaic Grasp
 6% Ionic Reconfiguration
-7% Ionic Strike
-9% Ionic Shot
-5% Ionic Burst
+6% Ionic Strike
+6% Ionic Shot
+6% Ionic Drive
 6% Ionic Grasp
-7% Laser Reconfiguration
-6% Laser Strike
-8% Laser Shot
-9% Laser Burst
-6% Laser Grasp
-7% Dimensional Reconfiguration
+6% Dimensional Reconfiguration
 6% Dimensional Strike
 6% Dimensional Shot
-6% Dimensional Burst
+6% Dimensional Drive
 6% Dimensional Grasp
+6% Special Laser Lattice
 
 Kehrolyn:
-100% Exoskeletal Dash
+7% Mutating Overload
+7% Mutating Shot
+7% Mutating Drive
+7% Mutating Burst
+7% Mutating Grasp
+7% Bladed Overload
+7% Bladed Shot
+7% Bladed Drive
+7% Bladed Burst
+7% Bladed Grasp
+7% Exoskeletal Overload
+7% Exoskeletal Shot
+7% Exoskeletal Drive
+7% Exoskeletal Burst
+7% Exoskeletal Grasp
 
 
-Aria: Laser Grasp
-Kehrolyn: Exoskeletal Dash
+Aria: Dimensional Strike
+Kehrolyn: Exoskeletal Burst
 
-Priorities:  5 | 8
-Kehrolyn is active
+Priorities:  7 | 0
+Aria is active
 Kehrolyn moves:
 
-A..K...
-....d..
-......m
+K...A..
+...d...
+.m.....
 .....t.
 
 Aria misses
-Kehrolyn loses 1 life (now at 4)
-Game goes to time
-THE GAME IS TIED!
-total_time: 27
+Kehrolyn hits
+Kehrolyn moves Aria:
+
+K..A...
+...d...
+.m.....
+.....t.
+
+Aria takes 3 damage (now at 0 life)
+KEHROLYN WINS!
+total_time: 53

@@ -37,24 +37,19 @@ Danny:
 12% Sinner's Grasp
 
 Gerard:
-18% Avaricious Shot (Hire Archer)
-82% Avaricious Drive (Hire Brawler)
+16% Avaricious Shot (Hire Archer)
+84% Avaricious Drive (Hire Brawler)
 
 
 Danny: Monstrous Hellgate
-Gerard: Avaricious Drive (Hire Brawler)
+Gerard: Avaricious Shot (Hire Archer)
 
-Gerard hires a Brawler for 3 gold (0 remaining
-Priorities:  -1 | 5
+Gerard hires a Archer for 3 gold (0 remaining)
+Priorities:  -1 | 3
 Gerard is active
 Gerard moves:
 
 .D..G..
-
-
-Gerard moves:
-
-.DG....
 
 
 Gerard hits
@@ -64,13 +59,13 @@ Gerard gains 2 Gold Tokens (has 2)
 Danny loses 1 life (now at 19)
 Danny moves:
 
-..G...D
+D...G..
 
 
 Danny adds monsters to the board:
 
-..G...D
-.mmm...
+D...G..
+...mmm.
 
 Gerard gains 1 Gold Token (has 3)
 
@@ -87,43 +82,72 @@ Special action available
 Gerard
 ------
 Life: 20
-Discard 1: Avaricious Drive
+Discard 1: Avaricious Shot
 Discard 2: Villainous Larceny
 Special action available
 Gold: 3
 Mercenaries in play:
-  Brawler
+  Archer
 
 
-..G...D
-.mmm...
+D...G..
+...mmm.
+
+Unbeatable strategy for Gerard: Gilded Strike: -1.14
+Unbeatable strategy for Gerard: Gilded Strike (Hire Brawler): -0.69
+Unbeatable strategy for Gerard: Gilded Drive (Hire Brawler): -0.52
+Unbeatable strategy for Gerard: Gilded Burst (Hire Brawler): -2.84
+Unbeatable strategy for Gerard: Gilded Burst (Hire Trebuchet): -0.49
+Unbeatable strategy for Gerard: Gilded Grasp (Hire Brawler): -0.61
 
 
 Danny:
-45% Shackled Strike
-3% Shackled Shot
-52% Shackled Grasp
+58% Shackled Strike
+32% Sinner's Strike
+10% Vicious Strike
 
 Gerard:
-85% Gilded Shot (Hire Archer)
-10% Hooked Shot (Hire Archer)
-5% Hooked Grasp (Hire Archer)
+20% Gilded Strike (Hire Brawler)
+76% Gilded Burst (Hire Brawler)
+4% Hooked Drive (Hire Brawler)
 
 
-Danny: Shackled Strike
-Gerard: Hooked Shot (Hire Archer)
+Danny: Sinner's Strike
+Gerard: Gilded Burst (Hire Brawler)
 
-Gerard hires a Archer for 3 gold (0 remaining
-Priorities:  2 | 1
+Gerard hires a Brawler for 3 gold (0 remaining)
+Priorities:  3 | 0
 Danny is active
+Gerard moves:
+
+D....G.
+...mmm.
+
 Danny hits
-Gerard takes 4 damage (now at 16 life)
-Gerard is stunned
+Gerard takes 3 damage (now at 17 life)
 Danny adds monsters to the board:
 
-..G...D
-.mmmm..
+D....G.
+..mmmm.
 
+Danny moves his monsters:
+
+D....G.
+..m.mmm
+
+Gerard moves Danny:
+
+.D...G.
+..m.mmm
+
+Gerard hits
+Danny takes 3 damage (now at 16 life)
+Gerard removes monsters:
+
+.D...G.
+....mmm
+
+Danny loses 1 life (now at 15)
 Gerard gains 1 Gold Token (has 1)
 
 Beat 3
@@ -131,59 +155,73 @@ Beat 3
 
 Danny
 -----
-Life: 19
-Discard 1: Shackled Strike
+Life: 15
+Discard 1: Sinner's Strike
 Discard 2: Monstrous Hellgate
 Special action available
 
 Gerard
 ------
-Life: 16
-Discard 1: Hooked Shot
-Discard 2: Avaricious Drive
+Life: 17
+Discard 1: Gilded Burst
+Discard 2: Avaricious Shot
 Special action available
 Gold: 1
 Mercenaries in play:
-  Brawler
   Archer
+  Brawler
 
 
-..G...D
-.mmmm..
+.D...G.
+....mmm
+
+Unbeatable strategy for Danny: Shackled Burst: 1.01
 
 
 Danny:
-8% Fallen Grasp
-49% Sinner's Drive
-43% Vicious Grasp
+4% Fallen Grasp
+24% Shackled Drive
+42% Shackled Burst
+24% Shackled Grasp
+7% Vicious Drive
 
 Gerard:
-68% Villainous Dash
-12% Gilded Larceny
-20% Gilded Burst
+34% Villainous Larceny
+16% Villainous Strike
+17% Villainous Grasp
+27% Initiation Larceny
+7% Initiation Grasp
 
 
-Danny: Vicious Grasp
-Gerard: Villainous Dash
+Danny: Shackled Drive
+Gerard: Villainous Grasp
 
-Priorities:  8 | 9
+Priorities:  3 | 5
 Gerard is active
-Danny loses 1 life (now at 18)
-Gerard moves:
+Gerard misses
+Gerard removes monsters:
 
-G.....D
-.mmmm..
+.D...G.
+.....mm
 
-Danny misses
+Danny loses 1 life (now at 14)
+Danny moves:
+
+...D.G.
+.....mm
+
+Danny hits
+Gerard takes 3 damage (now at 14 life)
+Gerard is stunned
 Danny adds monsters to the board:
 
-G.....D
-.mmmmm.
+...D.G.
+.m...mm
 
 Gerard moves:
 
-...G..D
-.mmmmm.
+..GD...
+.m...mm
 
 Gerard gains 1 Gold Token (has 2)
 
@@ -192,555 +230,613 @@ Beat 4
 
 Danny
 -----
-Life: 18
-Discard 1: Vicious Grasp
-Discard 2: Shackled Strike
+Life: 14
+Discard 1: Shackled Drive
+Discard 2: Sinner's Strike
 Special action available
 
 Gerard
 ------
-Life: 16
-Discard 1: Villainous Dash
-Discard 2: Hooked Shot
+Life: 14
+Discard 1: Villainous Grasp
+Discard 2: Gilded Burst
 Special action available
 Gold: 2
 Mercenaries in play:
-  Brawler
   Archer
+  Brawler
 
 
-...G..D
-.mmmmm.
-
-Unbeatable strategy for Gerard: Avaricious Larceny: -1.11
-Unbeatable strategy for Gerard: Avaricious Larceny (Hire Mage): -0.31
-Unbeatable strategy for Gerard: Avaricious Larceny (Hire Heavy Knight): -0.31
-Unbeatable strategy for Gerard: Avaricious Larceny (Hire Gunslinger): -0.31
-Unbeatable strategy for Gerard: Initiation Larceny: -0.71
+..GD...
+.m...mm
 
 
 Danny:
-100% Monstrous Hellgate
-0% Fallen Drive
+52% Monstrous Hellgate
+1% Monstrous Shot
+26% Fallen Grasp
+21% Vicious Grasp
 
 Gerard:
-91% Avaricious Larceny
-9% Avaricious Burst
+5% Hooked Strike
+7% Hooked Drive
+48% Initiation Strike
+40% Initiation Drive
 
 
 Danny: Monstrous Hellgate
-Gerard: Avaricious Burst
+Gerard: Initiation Drive
 
-Priorities:  -1 | 2
+Priorities:  -1 | 5
 Gerard is active
 Gerard moves:
 
-....G.D
-.mmmmm.
+...DG..
+.m...mm
 
 Gerard moves:
 
-...G..D
-.mmmmm.
+..GD...
+.m...mm
 
 Gerard hits
+First hireling next beat will cost 2 gold less
 Danny has 3 soak
-Danny takes 0 damage (now at 18 life)
-Gerard gains 2 Gold Tokens (has 4)
+Danny takes 0 damage (now at 14 life)
 Gerard removes monsters:
 
-...G..D
-..mmmm.
+..GD...
+.....mm
 
-Danny loses 1 life (now at 17)
+Danny loses 1 life (now at 13)
 Danny moves:
 
-D..G...
-..mmmm.
+..G...D
+.....mm
 
 Danny adds monsters to the board:
 
-D..G...
-mmmmmmm
+..G...D
+.mmm.mm
 
-Gerard gains 1 Gold Token (has 5)
+Gerard gains 1 Gold Token (has 3)
 
 Beat 5
 -------
 
 Danny
 -----
-Life: 17
+Life: 13
 Discard 1: Monstrous Hellgate
-Discard 2: Vicious Grasp
+Discard 2: Shackled Drive
 Special action available
 
 Gerard
 ------
-Life: 16
-Discard 1: Avaricious Burst
-Discard 2: Villainous Dash
+Life: 14
+Discard 1: Initiation Drive
+Discard 2: Villainous Grasp
 Special action available
-Gold: 5
+First hireling costs 2 gold less
+Gold: 3
 Mercenaries in play:
-  Brawler
   Archer
+  Brawler
 
 
-D..G...
-mmmmmmm
+..G...D
+.mmm.mm
+
+Unbeatable strategy for Gerard: Gilded Burst (Hire Heavy Knight): -0.79
+Unbeatable strategy for Gerard: Gilded Burst (Hire Trebuchet): -1.48
+Unbeatable strategy for Gerard: Gilded Burst (Hire Mage): -0.79
+Unbeatable strategy for Gerard: Gilded Burst (Hire Gunslinger): -0.79
+Unbeatable strategy for Gerard: Gilded Burst (Hire Heavy Knight, Trebuchet): -0.68
+Unbeatable strategy for Gerard: Gilded Burst (Hire Trebuchet, Mage): -0.68
+Unbeatable strategy for Gerard: Gilded Burst (Hire Trebuchet, Gunslinger): -0.68
+Unbeatable strategy for Gerard: Gilded Dash: -0.24
+Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight): -2.00
+Unbeatable strategy for Gerard: Gilded Dash (Hire Trebuchet): -1.76
+Unbeatable strategy for Gerard: Gilded Dash (Hire Mage): -2.00
+Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger): -2.00
+Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight, Trebuchet): -0.96
+Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight, Mage): -1.20
+Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight, Gunslinger): -1.20
+Unbeatable strategy for Gerard: Gilded Dash (Hire Trebuchet, Mage): -0.96
+Unbeatable strategy for Gerard: Gilded Dash (Hire Trebuchet, Gunslinger): -0.96
+Unbeatable strategy for Gerard: Gilded Dash (Hire Mage, Gunslinger): -1.20
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Heavy Knight): -0.25
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage): -0.25
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Gunslinger): -0.25
+Unbeatable strategy for Gerard: Hooked Shot: -3.85
+Unbeatable strategy for Gerard: Hooked Shot (Hire Heavy Knight): -4.65
+Unbeatable strategy for Gerard: Hooked Shot (Hire Heavy Knight; Activate Heavy Knight): -2.22
+Unbeatable strategy for Gerard: Hooked Shot (Hire Trebuchet): -3.68
+Unbeatable strategy for Gerard: Hooked Shot (Hire Mage): -4.65
+Unbeatable strategy for Gerard: Hooked Shot (Hire Mage; Activate Mage): -3.80
+Unbeatable strategy for Gerard: Hooked Shot (Hire Gunslinger): -4.65
+Unbeatable strategy for Gerard: Hooked Shot (Hire Gunslinger; Activate Gunslinger): -2.22
+Unbeatable strategy for Gerard: Hooked Shot (Hire Heavy Knight, Trebuchet): -2.88
+Unbeatable strategy for Gerard: Hooked Shot (Hire Heavy Knight, Mage): -3.82
+Unbeatable strategy for Gerard: Hooked Shot (Hire Heavy Knight, Gunslinger): -3.82
+Unbeatable strategy for Gerard: Hooked Shot (Hire Trebuchet, Mage): -2.88
+Unbeatable strategy for Gerard: Hooked Shot (Hire Trebuchet, Gunslinger): -2.88
+Unbeatable strategy for Gerard: Hooked Shot (Hire Mage, Gunslinger): -3.82
 
 
 Danny:
-13% Fallen Strike
-30% Fallen Drive
-47% Shackled Strike
-10% Shackled Shot
+5% Fallen Grasp
+22% Sinner's Strike
+15% Sinner's Burst
+0% Sinner's Grasp
+58% Special Pulse
 
 Gerard:
-50% Gilded Shot
-25% Initiation Larceny
-15% Initiation Shot
-10% Initiation Drive
+37% Gilded Burst (Hire Trebuchet)
+35% Gilded Dash (Hire Trebuchet)
+7% Avaricious Larceny (Hire Trebuchet)
+9% Avaricious Shot (Hire Trebuchet)
+12% Hooked Shot (Hire Trebuchet)
 
 
-Danny: Fallen Drive
-Gerard: Gilded Shot
+Danny: Special Pulse
+Gerard: Gilded Dash (Hire Trebuchet)
 
-Priorities:  4 | 1
-Danny is active
-Danny moves:
+Gerard hires a Trebuchet for 1 gold (2 remaining)
+Pulse:
 
-..DG...
-mmmmmmm
+D.....G
+.mmm.mm
 
+
+Beat 5
+-------
+
+Danny
+-----
+Life: 13
+Discard 1: Monstrous Hellgate
+Discard 2: Shackled Drive
+
+Gerard
+------
+Life: 14
+Discard 1: Gilded Dash
+Discard 2: Initiation Drive
+Special action available
+Gold: 2
+Mercenaries in play:
+  Archer
+  Brawler
+  Trebuchet
+
+
+D.....G
+.mmm.mm
+
+Unbeatable strategy for Gerard: Villainous Larceny: -0.84
+Unbeatable strategy for Gerard: Villainous Larceny (Hire Gunslinger): -0.04
+Unbeatable strategy for Gerard: Villainous Larceny (Hire Heavy Knight): -0.04
+Unbeatable strategy for Gerard: Villainous Larceny (Hire Mage): -0.04
+Unbeatable strategy for Gerard: Villainous Strike: -0.52
+Unbeatable strategy for Gerard: Villainous Grasp: -0.67
+
+
+Danny:
+5% Fallen Shot
+50% Fallen Burst
+45% Fallen Grasp
+
+Gerard:
+93% Villainous Larceny
+0% Villainous Burst
+7% Avaricious Larceny
+
+
+Danny: Fallen Burst
+Gerard: Villainous Larceny
+
+Priorities:  1 | 3
+Gerard is active
+Gerard moves Danny:
+
+.D....G
+.mmm.mm
+
+Gerard moves:
+
+.D...G.
+.mmm.mm
+
+Gerard misses
+Gerard removes monsters:
+
+.D...G.
+.mmm.m.
+
+Danny loses 1 life (now at 12)
 Danny hits
 Danny gets +2 power
-Gerard has 2 soak
-Gerard takes 2 damage (now at 14 life)
+Gerard takes 4 damage (now at 10 life)
 Gerard is stunned
-Gerard gains 1 Gold Token (has 6)
+Danny adds monsters to the board:
+
+.D...G.
+.mmmmm.
+
+Gerard moves:
+
+.D..G..
+.mmmmm.
+
+Gerard gains 1 Gold Token (has 3)
 
 Beat 6
 -------
 
 Danny
 -----
-Life: 17
-Discard 1: Fallen Drive
+Life: 12
+Discard 1: Fallen Burst
 Discard 2: Monstrous Hellgate
-Special action available
 
 Gerard
 ------
-Life: 14
-Discard 1: Gilded Shot
-Discard 2: Avaricious Burst
+Life: 10
+Discard 1: Villainous Larceny
+Discard 2: Gilded Dash
 Special action available
-Gold: 6
+Gold: 3
 Mercenaries in play:
-  Brawler
   Archer
+  Brawler
+  Trebuchet
 
 
-..DG...
-mmmmmmm
+.D..G..
+.mmmmm.
 
 
 Danny:
-79% Shackled Burst
-21% Vicious Burst
+31% Shackled Strike
+34% Shackled Grasp
+12% Sinner's Dash
+23% Vicious Strike
 
 Gerard:
-43% Hooked Strike
-57% Initiation Drive
+17% Avaricious Shot
+24% Hooked Drive
+44% Hooked Grasp
+16% Initiation Shot
 
 
-Danny: Shackled Burst
-Gerard: Initiation Drive
+Danny: Shackled Grasp
+Gerard: Hooked Grasp
 
-Priorities:  0 | 5
+Priorities:  4 | 4
+Clash!
+
+
+Danny: Shackled Strike
+Gerard: Hooked Drive
+
+Priorities:  2 | 3
 Gerard is active
-Danny moves:
-
-D..G...
-mmmmmmm
-
-Gerard misses
+Gerard hits
+Danny takes 4 damage (now at 8 life)
 Gerard removes monsters:
 
-D..G...
-mm.mmmm
+.D..G..
+..mmmm.
 
-Danny loses 1 life (now at 16)
+Danny loses 1 life (now at 7)
 Danny hits
-Gerard takes 3 damage (now at 11 life)
+Gerard takes 4 damage (now at 6 life)
 Gerard is stunned
 Danny adds monsters to the board:
 
-D..G...
-mmmmmmm
+.D..G..
+m.mmmm.
 
-Gerard gains 1 Gold Token (has 7)
+Gerard gains 1 Gold Token (has 4)
 
 Beat 7
 -------
 
 Danny
 -----
-Life: 16
-Discard 1: Shackled Burst
-Discard 2: Fallen Drive
-Special action available
+Life: 7
+Discard 1: Shackled Strike
+Discard 2: Fallen Burst
 
 Gerard
 ------
-Life: 11
-Discard 1: Initiation Drive
-Discard 2: Gilded Shot
+Life: 6
+Discard 1: Hooked Drive
+Discard 2: Villainous Larceny
 Special action available
-Gold: 7
+Gold: 4
 Mercenaries in play:
-  Brawler
   Archer
+  Brawler
+  Trebuchet
 
 
-D..G...
-mmmmmmm
+.D..G..
+m.mmmm.
 
 
 Danny:
-42% Monstrous Strike
-24% Vicious Strike
-14% Vicious Grasp
-20% Special Pulse
+33% Monstrous Hellgate
+13% Monstrous Drive
+12% Monstrous Grasp
+38% Sinner's Hellgate
+2% Sinner's Drive
+3% Vicious Grasp
 
 Gerard:
-18% Villainous Strike
-56% Villainous Dash
-9% Avaricious Larceny
-17% Hooked Burst (Hire Lackey)
+3% Gilded Strike
+2% Gilded Burst
+22% Gilded Dash
+11% Avaricious Shot
+10% Initiation Burst
+51% Initiation Dash
 
 
-Danny: Monstrous Strike
-Gerard: Avaricious Larceny
+Danny: Vicious Grasp
+Gerard: Initiation Burst
 
-Priorities:  2 | 3
-Gerard is active
+Priorities:  9 | 2
+Danny is active
 Gerard moves:
 
-D.G....
-mmmmmmm
+.D....G
+m.mmmm.
 
-Gerard moves Danny:
-
-.DG....
-mmmmmmm
-
+Danny misses
 Gerard moves:
 
-GD.....
-mmmmmmm
+.D...G.
+m.mmmm.
 
-Gerard hits
-Danny takes 5 damage (now at 11 life)
-Gerard gains 2 Gold Tokens (has 9)
-Gerard gains 1 Gold Token (has 10)
+Gerard misses
 Gerard removes monsters:
 
-GD.....
-m.mmmmm
+.D...G.
+m..mmm.
 
-Danny loses 1 life (now at 10)
-Danny hits
-Gerard takes 5 damage (now at 6 life)
-Gerard is stunned
-Danny adds monsters to the board:
-
-GD.....
-mmmmmmm
-
+Danny loses 1 life (now at 6)
+Gerard gains 1 Gold Token (has 5)
 
 Beat 8
 -------
 
 Danny
 -----
-Life: 10
-Discard 1: Monstrous Strike
-Discard 2: Shackled Burst
-Special action available
+Life: 6
+Discard 1: Vicious Grasp
+Discard 2: Shackled Strike
 
 Gerard
 ------
 Life: 6
-Discard 1: Avaricious Larceny
-Discard 2: Initiation Drive
+Discard 1: Initiation Burst
+Discard 2: Hooked Drive
 Special action available
-Gold: 10
+Gold: 5
 Mercenaries in play:
-  Brawler
   Archer
+  Brawler
+  Trebuchet
 
 
-GD.....
-mmmmmmm
+.D...G.
+m..mmm.
+
+Unbeatable strategy for Gerard: Gilded Dash: -0.49
+Unbeatable strategy for Gerard: Avaricious Dash: -0.49
 
 
 Danny:
-13% Fallen Drive
-18% Vicious Hellgate
-37% Vicious Grasp
-32% Special Pulse
+6% Monstrous Shot
+14% Monstrous Dash
+26% Fallen Shot
+9% Fallen Drive
+4% Fallen Dash
+41% Sinner's Hellgate
 
 Gerard:
-3% Villainous Strike
-16% Villainous Strike (Hire Lackey)
-36% Gilded Strike
-45% Gilded Dash
+10% Villainous Dash
+13% Gilded Larceny
+50% Gilded Dash
+9% Avaricious Shot
+1% Avaricious Shot (Hire Gunslinger)
+1% Avaricious Shot (Hire Heavy Knight)
+1% Avaricious Shot (Hire Mage)
+17% Avaricious Dash
 
 
-Danny: Vicious Grasp
-Gerard: Gilded Strike
+Danny: Monstrous Dash
+Gerard: Gilded Larceny
 
-Priorities:  12 | 2
+Priorities:  8 | 2
 Danny is active
-Danny hits
-Danny moves Gerard:
+Danny moves:
 
-.DG....
-mmmmmmm
+D....G.
+m..mmm.
 
-Danny gets +4 power
-Gerard has 2 soak
-Gerard takes 3 damage (now at 3 life)
-Gerard hits
-Danny takes 4 damage (now at 6 life)
-Danny is stunned
-Gerard removes monsters:
-
-.DG....
-m.mmmmm
-
-Danny loses 1 life (now at 5)
-
-Beat 9
--------
-
-Danny
------
-Life: 5
-Discard 1: Vicious Grasp
-Discard 2: Monstrous Strike
-Special action available
-
-Gerard
-------
-Life: 3
-Discard 1: Gilded Strike
-Discard 2: Avaricious Larceny
-Special action available
-Gold: 10
-Mercenaries in play:
-  Brawler
-  Archer
-
-
-.DG....
-m.mmmmm
-
-Unbeatable strategy for Gerard: Villainous Drive: -1.34
-Unbeatable strategy for Gerard: Villainous Drive (Hire Mage): -1.14
-Unbeatable strategy for Gerard: Villainous Drive (Hire Heavy Knight): -1.14
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger): -1.14
-Unbeatable strategy for Gerard: Villainous Drive (Hire Mage, Heavy Knight): -0.18
-Unbeatable strategy for Gerard: Villainous Drive (Hire Mage, Gunslinger): -0.18
-Unbeatable strategy for Gerard: Villainous Drive (Hire Heavy Knight, Gunslinger): -0.18
-
-
-Danny:
-23% Shackled Hellgate
-11% Shackled Shot
-51% Special Pulse
-15% Special The Dark Ride
-
-Gerard:
-40% Villainous Drive
-31% Villainous Dash
-22% Initiation Grasp (Hire Mage; Activate Mage)
-7% Special Windfall
-
-
-Danny: Special Pulse
-Gerard: Villainous Drive
-
-Pulse:
-
-D.....G
-m.mmmmm
-
-
-Beat 9
--------
-
-Danny
------
-Life: 5
-Discard 1: Vicious Grasp
-Discard 2: Monstrous Strike
-
-Gerard
-------
-Life: 3
-Discard 1: Villainous Drive
-Discard 2: Gilded Strike
-Special action available
-Gold: 10
-Mercenaries in play:
-  Brawler
-  Archer
-
-
-D.....G
-m.mmmmm
-
-
-Danny:
-72% Shackled Hellgate
-28% Shackled Drive
-
-Gerard:
-30% Hooked Burst (Hire Mage; Activate Mage)
-70% Hooked Burst (Hire Lackey)
-
-
-Danny: Shackled Hellgate
-Gerard: Hooked Burst (Hire Lackey)
-
-Gerard hires a Lackey for 7 gold (3 remaining
-Priorities:  -1 | 0
-Gerard is active
-Gerard hits
-Danny has 3 soak
-Danny takes 1 damage (now at 4 life)
 Gerard moves Danny:
 
-.D....G
-m.mmmmm
+.D...G.
+m..mmm.
 
-Danny is stunned
+Gerard moves:
+
+.D..G..
+m..mmm.
+
+Gerard misses
 Gerard removes monsters:
 
-.D....G
-..mmmmm
+.D..G..
+m...mm.
 
-Danny adds monsters to the board:
+Danny loses 1 life (now at 5)
+Gerard gains 1 Gold Token (has 6)
 
-.D....G
-mmmmmmm
-
-Gerard gains 1 Gold Token (has 4)
-
-Beat 10
+Beat 9
 -------
 
 Danny
 -----
-Life: 4
-Discard 1: Shackled Hellgate
+Life: 5
+Discard 1: Monstrous Dash
 Discard 2: Vicious Grasp
 
 Gerard
 ------
-Life: 3
-Discard 1: Hooked Burst
-Discard 2: Villainous Drive
+Life: 6
+Discard 1: Gilded Larceny
+Discard 2: Initiation Burst
 Special action available
-Gold: 4
+Gold: 6
 Mercenaries in play:
-  Brawler
   Archer
-Mercenaries removed from the game:
-  Lackey
+  Brawler
+  Trebuchet
 
 
-.D....G
-mmmmmmm
-
-Unbeatable strategy for Danny: Monstrous Burst: 1.43
+.D..G..
+m...mm.
 
 
 Danny:
-22% Monstrous Strike
-29% Monstrous Shot
-34% Monstrous Drive
-15% Fallen Strike
+18% Fallen Strike
+0% Shackled Strike
+1% Shackled Drive
+2% Shackled Burst
+78% Sinner's Hellgate
 
 Gerard:
-1% Gilded Larceny
-4% Gilded Strike
-1% Avaricious Shot
-94% Special Pulse
+32% Villainous Drive
+16% Villainous Drive (Hire Mage; Activate Mage)
+37% Avaricious Shot
+7% Avaricious Drive
+9% Hooked Drive (Hire Mage; Activate Mage)
 
 
-Danny: Monstrous Shot
-Gerard: Special Pulse
+Danny: Sinner's Hellgate
+Gerard: Avaricious Drive
 
-Pulse:
+Priorities:  0 | 4
+Gerard is active
+Gerard moves:
 
-G..D...
-mmmmmmm
+.D.G...
+m...mm.
 
+Gerard moves:
+
+.DG....
+m...mm.
+
+Gerard hits
+Danny has 3 soak
+Danny takes 1 damage (now at 4 life)
+Gerard gains 2 Gold Tokens (has 8)
+Danny is stunned
+Danny loses 1 life (now at 3)
+Danny adds monsters to the board:
+
+.DG....
+mmmmmm.
+
+Gerard gains 1 Gold Token (has 9)
 
 Beat 10
 -------
 
 Danny
 -----
-Life: 4
-Discard 1: Monstrous Shot
-Discard 2: Shackled Hellgate
+Life: 3
+Discard 1: Sinner's Hellgate
+Discard 2: Monstrous Dash
 
 Gerard
 ------
-Life: 3
-Discard 1: Hooked Burst
-Discard 2: Villainous Drive
-Gold: 4
+Life: 6
+Discard 1: Avaricious Drive
+Discard 2: Gilded Larceny
+Special action available
+Gold: 9
 Mercenaries in play:
-  Brawler
   Archer
-Mercenaries removed from the game:
-  Lackey
+  Brawler
+  Trebuchet
 
 
-G..D...
-mmmmmmm
+.DG....
+mmmmmm.
+
+Unbeatable strategy for Gerard: Villainous Shot (Hire Lackey): -8.00
+Unbeatable strategy for Gerard: Villainous Shot (Hire Gunslinger, Lackey): -8.00
+Unbeatable strategy for Gerard: Villainous Shot (Hire Heavy Knight, Lackey): -8.00
+Unbeatable strategy for Gerard: Villainous Shot (Hire Mage, Lackey): -8.00
+Unbeatable strategy for Gerard: Initiation Shot (Hire Lackey): -8.00
+Unbeatable strategy for Gerard: Initiation Shot (Hire Gunslinger, Lackey): -8.00
+Unbeatable strategy for Gerard: Initiation Shot (Hire Heavy Knight, Lackey): -8.00
+Unbeatable strategy for Gerard: Initiation Shot (Hire Mage, Lackey): -8.00
 
 
 Danny:
-31% Fallen Strike
-36% Fallen Burst
-34% Vicious Strike
+29% Fallen Shot
+30% Shackled Drive
+15% Shackled Burst
+13% Shackled Grasp
+6% Vicious Strike
+7% Vicious Grasp
 
 Gerard:
-4% Gilded Shot
-81% Gilded Dash
-16% Avaricious Shot
+29% Villainous Shot (Hire Lackey)
+1% Initiation Strike (Hire Mage; Activate Mage)
+20% Initiation Strike (Hire Lackey)
+16% Initiation Shot (Hire Mage; Activate Mage)
+30% Initiation Shot (Hire Lackey)
+5% Initiation Grasp (Hire Mage; Activate Mage)
 
 
-Danny: Fallen Strike
-Gerard: Gilded Dash
+Danny: Shackled Grasp
+Gerard: Initiation Shot (Hire Mage; Activate Mage)
 
-Priorities:  3 | 8
+Gerard hires a Mage for 2 gold (7 remaining)
+Gerard activates his Mage for 3 gold (4 remaining)
+Priorities:  4 | 4
+Clash!
+
+
+Danny: Shackled Strike
+Gerard: Initiation Burst (Hire Mage; Activate Mage)
+
+Gerard hires a Mage for 2 gold (7 remaining)
+Gerard activates his Mage for 3 gold (4 remaining)
+Priorities:  2 | 3
 Gerard is active
-Danny loses 1 life (now at 3)
-Gerard moves:
+Gerard misses
+Gerard removes monsters:
 
-...DG..
-mmmmmmm
+.DG....
+.mmmmm.
 
-Danny misses
+Danny loses 1 life (now at 2)
+Danny hits
+Gerard takes 4 damage (now at 2 life)
+Gerard is stunned
+Danny adds monsters to the board:
+
+.DG....
+mmmmmm.
+
 Gerard gains 1 Gold Token (has 5)
 
 Beat 11
@@ -748,261 +844,98 @@ Beat 11
 
 Danny
 -----
-Life: 3
-Discard 1: Fallen Strike
-Discard 2: Monstrous Shot
+Life: 2
+Discard 1: Shackled Strike
+Discard 2: Sinner's Hellgate
 
 Gerard
 ------
-Life: 3
-Discard 1: Gilded Dash
-Discard 2: Hooked Burst
+Life: 2
+Discard 1: Initiation Burst
+Discard 2: Avaricious Drive
+Special action available
 Gold: 5
 Mercenaries in play:
-  Brawler
   Archer
-Mercenaries removed from the game:
-  Lackey
+  Brawler
+  Trebuchet
+  Mage
 
 
-...DG..
-mmmmmmm
+.DG....
+mmmmmm.
 
-Unbeatable strategy for Danny: Vicious Drive: 8.00
-Unbeatable strategy for Danny: Vicious Grasp: 8.00
+Unbeatable strategy for Gerard: Hooked Shot (Activate Mage): -0.26
 
 
 Danny:
-33% Vicious Drive
-33% Vicious Burst
-33% Vicious Grasp
+61% Fallen Shot
+5% Vicious Drive
+34% Vicious Grasp
 
 Gerard:
-1% Villainous Larceny
-1% Villainous Larceny (Hire Heavy Knight)
-1% Villainous Larceny (Hire Heavy Knight; Activate Heavy Knight)
-1% Villainous Larceny (Hire Mage)
-0% Villainous Larceny (Hire Mage; Activate Mage)
-1% Villainous Larceny (Hire Gunslinger)
-1% Villainous Larceny (Hire Gunslinger; Activate Gunslinger)
-1% Villainous Larceny (Hire Trebuchet)
-1% Villainous Larceny (Hire Heavy Knight, Mage)
-1% Villainous Larceny (Hire Heavy Knight, Gunslinger)
-1% Villainous Larceny (Hire Heavy Knight, Trebuchet)
-1% Villainous Larceny (Hire Mage, Gunslinger)
-1% Villainous Larceny (Hire Mage, Trebuchet)
-1% Villainous Larceny (Hire Gunslinger, Trebuchet)
-1% Villainous Strike
-1% Villainous Strike (Hire Heavy Knight)
-1% Villainous Strike (Hire Heavy Knight; Activate Heavy Knight)
-1% Villainous Strike (Hire Mage)
-0% Villainous Strike (Hire Mage; Activate Mage)
-1% Villainous Strike (Hire Gunslinger)
-1% Villainous Strike (Hire Gunslinger; Activate Gunslinger)
-1% Villainous Strike (Hire Trebuchet)
-1% Villainous Strike (Hire Heavy Knight, Mage)
-1% Villainous Strike (Hire Heavy Knight, Gunslinger)
-1% Villainous Strike (Hire Heavy Knight, Trebuchet)
-1% Villainous Strike (Hire Mage, Gunslinger)
-1% Villainous Strike (Hire Mage, Trebuchet)
-1% Villainous Strike (Hire Gunslinger, Trebuchet)
-0% Villainous Shot
-0% Villainous Shot (Hire Heavy Knight)
-0% Villainous Shot (Hire Heavy Knight; Activate Heavy Knight)
-0% Villainous Shot (Hire Mage)
-0% Villainous Shot (Hire Mage; Activate Mage)
-0% Villainous Shot (Hire Gunslinger)
-0% Villainous Shot (Hire Gunslinger; Activate Gunslinger)
-0% Villainous Shot (Hire Trebuchet)
-0% Villainous Shot (Hire Heavy Knight, Mage)
-0% Villainous Shot (Hire Heavy Knight, Gunslinger)
-0% Villainous Shot (Hire Heavy Knight, Trebuchet)
-0% Villainous Shot (Hire Mage, Gunslinger)
-0% Villainous Shot (Hire Mage, Trebuchet)
-0% Villainous Shot (Hire Gunslinger, Trebuchet)
-0% Villainous Drive
-0% Villainous Drive (Hire Heavy Knight)
-1% Villainous Drive (Hire Heavy Knight; Activate Heavy Knight)
-0% Villainous Drive (Hire Mage)
-0% Villainous Drive (Hire Mage; Activate Mage)
-0% Villainous Drive (Hire Gunslinger)
-1% Villainous Drive (Hire Gunslinger; Activate Gunslinger)
-0% Villainous Drive (Hire Trebuchet)
-0% Villainous Drive (Hire Heavy Knight, Mage)
-0% Villainous Drive (Hire Heavy Knight, Gunslinger)
-1% Villainous Drive (Hire Heavy Knight, Trebuchet)
-0% Villainous Drive (Hire Mage, Gunslinger)
-1% Villainous Drive (Hire Mage, Trebuchet)
-1% Villainous Drive (Hire Gunslinger, Trebuchet)
+0% Villainous Larceny
+0% Villainous Larceny (Activate Mage)
+0% Villainous Larceny (Hire Heavy Knight)
+0% Villainous Larceny (Hire Heavy Knight; Activate Mage)
+0% Villainous Larceny (Hire Heavy Knight; Activate Heavy Knight)
+0% Villainous Larceny (Hire Gunslinger)
+0% Villainous Larceny (Hire Gunslinger; Activate Mage)
+0% Villainous Larceny (Hire Gunslinger; Activate Gunslinger)
+0% Villainous Larceny (Hire Heavy Knight, Gunslinger)
+0% Villainous Strike
+0% Villainous Strike (Activate Mage)
+0% Villainous Strike (Hire Heavy Knight)
+0% Villainous Strike (Hire Heavy Knight; Activate Mage)
+0% Villainous Strike (Hire Heavy Knight; Activate Heavy Knight)
+0% Villainous Strike (Hire Gunslinger)
+0% Villainous Strike (Hire Gunslinger; Activate Mage)
+0% Villainous Strike (Hire Gunslinger; Activate Gunslinger)
+0% Villainous Strike (Hire Heavy Knight, Gunslinger)
+0% Villainous Shot (Activate Mage)
+0% Villainous Shot (Hire Heavy Knight; Activate Mage)
+0% Villainous Shot (Hire Gunslinger; Activate Mage)
 0% Villainous Grasp
+0% Villainous Grasp (Activate Mage)
 0% Villainous Grasp (Hire Heavy Knight)
-1% Villainous Grasp (Hire Heavy Knight; Activate Heavy Knight)
-0% Villainous Grasp (Hire Mage)
-0% Villainous Grasp (Hire Mage; Activate Mage)
+0% Villainous Grasp (Hire Heavy Knight; Activate Mage)
+0% Villainous Grasp (Hire Heavy Knight; Activate Heavy Knight)
 0% Villainous Grasp (Hire Gunslinger)
-1% Villainous Grasp (Hire Gunslinger; Activate Gunslinger)
-1% Villainous Grasp (Hire Trebuchet)
-0% Villainous Grasp (Hire Heavy Knight, Mage)
+0% Villainous Grasp (Hire Gunslinger; Activate Mage)
+0% Villainous Grasp (Hire Gunslinger; Activate Gunslinger)
 0% Villainous Grasp (Hire Heavy Knight, Gunslinger)
-1% Villainous Grasp (Hire Heavy Knight, Trebuchet)
-0% Villainous Grasp (Hire Mage, Gunslinger)
-1% Villainous Grasp (Hire Mage, Trebuchet)
-1% Villainous Grasp (Hire Gunslinger, Trebuchet)
-0% Avaricious Larceny
-0% Avaricious Larceny (Hire Heavy Knight)
-0% Avaricious Larceny (Hire Heavy Knight; Activate Heavy Knight)
-0% Avaricious Larceny (Hire Mage)
-0% Avaricious Larceny (Hire Mage; Activate Mage)
-0% Avaricious Larceny (Hire Gunslinger)
-0% Avaricious Larceny (Hire Gunslinger; Activate Gunslinger)
-0% Avaricious Larceny (Hire Trebuchet)
-0% Avaricious Larceny (Hire Heavy Knight, Mage)
-0% Avaricious Larceny (Hire Heavy Knight, Gunslinger)
-0% Avaricious Larceny (Hire Heavy Knight, Trebuchet)
-0% Avaricious Larceny (Hire Mage, Gunslinger)
-0% Avaricious Larceny (Hire Mage, Trebuchet)
-0% Avaricious Larceny (Hire Gunslinger, Trebuchet)
-1% Avaricious Strike
-0% Avaricious Strike (Hire Heavy Knight)
-1% Avaricious Strike (Hire Heavy Knight; Activate Heavy Knight)
-0% Avaricious Strike (Hire Mage)
-0% Avaricious Strike (Hire Mage; Activate Mage)
-0% Avaricious Strike (Hire Gunslinger)
-1% Avaricious Strike (Hire Gunslinger; Activate Gunslinger)
-1% Avaricious Strike (Hire Trebuchet)
-1% Avaricious Strike (Hire Heavy Knight, Mage)
-1% Avaricious Strike (Hire Heavy Knight, Gunslinger)
-1% Avaricious Strike (Hire Heavy Knight, Trebuchet)
-1% Avaricious Strike (Hire Mage, Gunslinger)
-1% Avaricious Strike (Hire Mage, Trebuchet)
-1% Avaricious Strike (Hire Gunslinger, Trebuchet)
-0% Avaricious Shot
-0% Avaricious Shot (Hire Heavy Knight)
-0% Avaricious Shot (Hire Heavy Knight; Activate Heavy Knight)
-0% Avaricious Shot (Hire Mage)
-0% Avaricious Shot (Hire Mage; Activate Mage)
-0% Avaricious Shot (Hire Gunslinger)
-0% Avaricious Shot (Hire Gunslinger; Activate Gunslinger)
-0% Avaricious Shot (Hire Trebuchet)
-0% Avaricious Shot (Hire Heavy Knight, Mage)
-0% Avaricious Shot (Hire Heavy Knight, Gunslinger)
-0% Avaricious Shot (Hire Heavy Knight, Trebuchet)
-0% Avaricious Shot (Hire Mage, Gunslinger)
-0% Avaricious Shot (Hire Mage, Trebuchet)
-0% Avaricious Shot (Hire Gunslinger, Trebuchet)
-0% Avaricious Drive
-0% Avaricious Drive (Hire Heavy Knight)
-0% Avaricious Drive (Hire Heavy Knight; Activate Heavy Knight)
-0% Avaricious Drive (Hire Mage)
-0% Avaricious Drive (Hire Mage; Activate Mage)
-0% Avaricious Drive (Hire Gunslinger)
-0% Avaricious Drive (Hire Gunslinger; Activate Gunslinger)
-0% Avaricious Drive (Hire Trebuchet)
-0% Avaricious Drive (Hire Heavy Knight, Mage)
-0% Avaricious Drive (Hire Heavy Knight, Gunslinger)
-0% Avaricious Drive (Hire Heavy Knight, Trebuchet)
-0% Avaricious Drive (Hire Mage, Gunslinger)
-0% Avaricious Drive (Hire Mage, Trebuchet)
-0% Avaricious Drive (Hire Gunslinger, Trebuchet)
-0% Avaricious Grasp
-0% Avaricious Grasp (Hire Heavy Knight)
-1% Avaricious Grasp (Hire Heavy Knight; Activate Heavy Knight)
-0% Avaricious Grasp (Hire Mage)
-0% Avaricious Grasp (Hire Mage; Activate Mage)
-0% Avaricious Grasp (Hire Gunslinger)
-1% Avaricious Grasp (Hire Gunslinger; Activate Gunslinger)
-1% Avaricious Grasp (Hire Trebuchet)
-0% Avaricious Grasp (Hire Heavy Knight, Mage)
-0% Avaricious Grasp (Hire Heavy Knight, Gunslinger)
-1% Avaricious Grasp (Hire Heavy Knight, Trebuchet)
-0% Avaricious Grasp (Hire Mage, Gunslinger)
-1% Avaricious Grasp (Hire Mage, Trebuchet)
-1% Avaricious Grasp (Hire Gunslinger, Trebuchet)
-0% Initiation Larceny
-0% Initiation Larceny (Hire Heavy Knight)
-0% Initiation Larceny (Hire Heavy Knight; Activate Heavy Knight)
-0% Initiation Larceny (Hire Mage)
-0% Initiation Larceny (Hire Mage; Activate Mage)
-0% Initiation Larceny (Hire Gunslinger)
-0% Initiation Larceny (Hire Gunslinger; Activate Gunslinger)
-0% Initiation Larceny (Hire Trebuchet)
-0% Initiation Larceny (Hire Heavy Knight, Mage)
-0% Initiation Larceny (Hire Heavy Knight, Gunslinger)
-0% Initiation Larceny (Hire Heavy Knight, Trebuchet)
-0% Initiation Larceny (Hire Mage, Gunslinger)
-0% Initiation Larceny (Hire Mage, Trebuchet)
-0% Initiation Larceny (Hire Gunslinger, Trebuchet)
-0% Initiation Strike
-0% Initiation Strike (Hire Heavy Knight)
-0% Initiation Strike (Hire Heavy Knight; Activate Heavy Knight)
-0% Initiation Strike (Hire Mage)
-0% Initiation Strike (Hire Mage; Activate Mage)
-0% Initiation Strike (Hire Gunslinger)
-0% Initiation Strike (Hire Gunslinger; Activate Gunslinger)
-0% Initiation Strike (Hire Trebuchet)
-0% Initiation Strike (Hire Heavy Knight, Mage)
-0% Initiation Strike (Hire Heavy Knight, Gunslinger)
-0% Initiation Strike (Hire Heavy Knight, Trebuchet)
-0% Initiation Strike (Hire Mage, Gunslinger)
-0% Initiation Strike (Hire Mage, Trebuchet)
-0% Initiation Strike (Hire Gunslinger, Trebuchet)
-0% Initiation Shot
-0% Initiation Shot (Hire Heavy Knight)
-0% Initiation Shot (Hire Heavy Knight; Activate Heavy Knight)
-0% Initiation Shot (Hire Mage)
-0% Initiation Shot (Hire Mage; Activate Mage)
-0% Initiation Shot (Hire Gunslinger)
-0% Initiation Shot (Hire Gunslinger; Activate Gunslinger)
-0% Initiation Shot (Hire Trebuchet)
-0% Initiation Shot (Hire Heavy Knight, Mage)
-0% Initiation Shot (Hire Heavy Knight, Gunslinger)
-0% Initiation Shot (Hire Heavy Knight, Trebuchet)
-0% Initiation Shot (Hire Mage, Gunslinger)
-0% Initiation Shot (Hire Mage, Trebuchet)
-0% Initiation Shot (Hire Gunslinger, Trebuchet)
-0% Initiation Drive
-0% Initiation Drive (Hire Heavy Knight)
-0% Initiation Drive (Hire Heavy Knight; Activate Heavy Knight)
-0% Initiation Drive (Hire Mage)
-0% Initiation Drive (Hire Mage; Activate Mage)
-0% Initiation Drive (Hire Gunslinger)
-0% Initiation Drive (Hire Gunslinger; Activate Gunslinger)
-0% Initiation Drive (Hire Trebuchet)
-0% Initiation Drive (Hire Heavy Knight, Mage)
-0% Initiation Drive (Hire Heavy Knight, Gunslinger)
-0% Initiation Drive (Hire Heavy Knight, Trebuchet)
-0% Initiation Drive (Hire Mage, Gunslinger)
-0% Initiation Drive (Hire Mage, Trebuchet)
-0% Initiation Drive (Hire Gunslinger, Trebuchet)
-0% Initiation Grasp
-0% Initiation Grasp (Hire Heavy Knight)
-1% Initiation Grasp (Hire Heavy Knight; Activate Heavy Knight)
-0% Initiation Grasp (Hire Mage)
-0% Initiation Grasp (Hire Mage; Activate Mage)
-0% Initiation Grasp (Hire Gunslinger)
-1% Initiation Grasp (Hire Gunslinger; Activate Gunslinger)
-1% Initiation Grasp (Hire Trebuchet)
-1% Initiation Grasp (Hire Heavy Knight, Mage)
-1% Initiation Grasp (Hire Heavy Knight, Gunslinger)
-1% Initiation Grasp (Hire Heavy Knight, Trebuchet)
-1% Initiation Grasp (Hire Mage, Gunslinger)
-1% Initiation Grasp (Hire Mage, Trebuchet)
-1% Initiation Grasp (Hire Gunslinger, Trebuchet)
+0% Gilded Larceny (Activate Mage)
+0% Gilded Larceny (Hire Heavy Knight; Activate Mage)
+0% Gilded Larceny (Hire Gunslinger; Activate Mage)
+0% Gilded Strike (Activate Mage)
+0% Gilded Strike (Hire Heavy Knight; Activate Mage)
+0% Gilded Strike (Hire Gunslinger; Activate Mage)
+0% Gilded Grasp
+1% Gilded Grasp (Activate Mage)
+0% Gilded Grasp (Hire Heavy Knight)
+0% Gilded Grasp (Hire Heavy Knight; Activate Mage)
+21% Gilded Grasp (Hire Heavy Knight; Activate Heavy Knight)
+0% Gilded Grasp (Hire Gunslinger)
+0% Gilded Grasp (Hire Gunslinger; Activate Mage)
+0% Gilded Grasp (Hire Gunslinger; Activate Gunslinger)
+0% Gilded Grasp (Hire Heavy Knight, Gunslinger)
+61% Hooked Shot (Activate Mage)
+0% Special Windfall
+0% Special Windfall (Hire Heavy Knight)
+0% Special Windfall (Hire Gunslinger)
 
 
-Danny: Vicious Burst
-Gerard: Villainous Grasp (Hire Mage)
+Danny: Fallen Shot
+Gerard: Gilded Grasp
 
-Gerard hires a Mage for 2 gold (3 remaining
-Priorities:  6 | 5
-Danny is active
-Danny moves:
+Priorities:  2 | 4
+Gerard is active
+Gerard hits
+Gerard moves Danny:
 
-.D..G..
-mmmmmmm
+D.G....
+mmmmmm.
 
-Danny hits
-Danny gets +2 power
-Gerard takes 4 damage (now at 0 life)
-DANNY WINS!
-total_time: 457
+Danny takes 2 damage (now at 0 life)
+GERARD WINS!
+total_time: 1456

@@ -15,7 +15,7 @@ Life: 20
 Discard 1: Martial Grasp
 Discard 2: Vengeful Aegis
 Special action available
-2 Vengeance tokens
+2 Vengeance token
 
 Gerard
 ------
@@ -31,15 +31,20 @@ No mercenaries in play
 
 Unbeatable strategy for Gerard: Gilded Shot: -1.17
 Unbeatable strategy for Gerard: Gilded Shot (Hire Brawler): -1.41
-Unbeatable strategy for Gerard: Gilded Shot (Hire Archer): -1.56
+Unbeatable strategy for Gerard: Gilded Shot (Hire Archer): -2.56
 Unbeatable strategy for Gerard: Gilded Shot (Hire Trebuchet): -0.14
-Unbeatable strategy for Gerard: Gilded Drive (Hire Archer): -0.59
+Unbeatable strategy for Gerard: Gilded Drive: -0.57
+Unbeatable strategy for Gerard: Gilded Drive (Hire Brawler): -2.74
+Unbeatable strategy for Gerard: Gilded Drive (Hire Archer): -0.83
 Unbeatable strategy for Gerard: Gilded Burst: -0.39
-Unbeatable strategy for Gerard: Gilded Burst (Hire Brawler): -1.93
+Unbeatable strategy for Gerard: Gilded Burst (Hire Brawler): -2.58
+Unbeatable strategy for Gerard: Gilded Burst (Hire Archer): -0.32
 Unbeatable strategy for Gerard: Gilded Grasp (Hire Archer): -0.21
-Unbeatable strategy for Gerard: Gilded Dash (Hire Archer): -0.44
+Unbeatable strategy for Gerard: Gilded Dash: -0.12
+Unbeatable strategy for Gerard: Gilded Dash (Hire Brawler): -4.19
+Unbeatable strategy for Gerard: Gilded Dash (Hire Archer): -2.88
 Unbeatable strategy for Gerard: Avaricious Burst (Hire Brawler): -0.54
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Brawler): -2.99
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Brawler): -3.08
 Unbeatable strategy for Gerard: Avaricious Dash (Hire Archer): -2.44
 Unbeatable strategy for Gerard: Initiation Drive (Hire Brawler): -1.02
 Unbeatable strategy for Gerard: Initiation Drive (Hire Archer): -0.90
@@ -50,42 +55,55 @@ Unbeatable strategy for Gerard: Initiation Dash (Hire Archer): -2.44
 
 
 Eligor:
-22% Counter Shot (1 token)
-1% Counter Drive
-8% Counter Burst (2 tokens)
-43% Chained Shot (1 token)
-5% Chained Drive
-21% Chained Burst
+0% Counter Shot (1 token)
+17% Counter Burst (2 tokens)
+29% Chained Strike
+7% Chained Shot
+11% Chained Drive
+11% Chained Burst
+25% Chained Dash
 
 Gerard:
-20% Gilded Shot (Hire Archer)
-8% Gilded Burst (Hire Archer)
-5% Avaricious Shot (Hire Archer)
-1% Avaricious Drive (Hire Brawler)
-47% Avaricious Dash (Hire Brawler)
-18% Initiation Drive (Hire Brawler)
-2% Initiation Dash (Hire Brawler)
+7% Gilded Shot (Hire Brawler)
+18% Gilded Shot (Hire Archer)
+1% Gilded Drive (Hire Brawler)
+3% Gilded Burst (Hire Archer)
+61% Gilded Dash (Hire Brawler)
+3% Avaricious Shot (Hire Archer)
+7% Initiation Drive (Hire Brawler)
 
 
-Eligor: Chained Burst
-Gerard: Avaricious Dash (Hire Brawler)
+Eligor: Chained Dash
+Gerard: Gilded Dash (Hire Brawler)
 
-Gerard hires a Brawler for 3 gold (0 remaining
-Priorities:  0 | 10
-Gerard is active
-Gerard moves:
+Gerard hires a Brawler for 3 gold (0 remaining)
+Priorities:  8 | 8
+Clash!
 
-.E..G..
+
+Eligor: Chained Drive
+Gerard: Gilded Shot (Hire Brawler)
+
+Gerard hires a Brawler for 3 gold (0 remaining)
+Priorities:  3 | 1
+Eligor is active
+Eligor spends a Vengeance token
+Eligor spends a Vengeance token
+Eligor moves Gerard:
+
+.E.G...
 
 Eligor moves:
 
-E...G..
+..EG...
 
-Gerard moves:
-
-EG.....
-
-Eligor misses
+Eligor hits
+Gerard takes 3 damage (now at 17 life)
+Gerard hits
+Eligor takes 3 damage (now at 17 life)
+Eligor is stunned
+Eligor gains 3 Vengeance tokens
+Eligor loses 1 life (now at 16)
 Gerard gains 1 Gold Token (has 1)
 
 Beat 2
@@ -93,16 +111,16 @@ Beat 2
 
 Eligor
 ------
-Life: 20
-Discard 1: Chained Burst
+Life: 16
+Discard 1: Chained Drive
 Discard 2: Martial Grasp
 Special action available
-2 Vengeance tokens
+3 Vengeance token
 
 Gerard
 ------
-Life: 20
-Discard 1: Avaricious Dash
+Life: 17
+Discard 1: Gilded Shot
 Discard 2: Villainous Larceny
 Special action available
 Gold: 1
@@ -110,34 +128,46 @@ Mercenaries in play:
   Brawler
 
 
-EG.....
+..EG...
 
 
 Eligor:
-37% Counter Aegis (2 tokens)
-21% Counter Strike (2 tokens)
-0% Counter Drive (2 tokens)
-42% Retribution Aegis (1 token)
+13% Vengeful Aegis (3 tokens)
+34% Counter Shot (1 token)
+12% Counter Burst (2 tokens)
+42% Counter Dash
 
 Gerard:
-33% Hooked Strike
-51% Hooked Drive
-2% Hooked Burst
-14% Initiation Burst
+3% Hooked Drive
+40% Initiation Drive
+57% Initiation Dash
 
 
-Eligor: Retribution Aegis (1 token)
-Gerard: Hooked Strike
+Eligor: Vengeful Aegis (3 tokens)
+Gerard: Initiation Drive
 
 Eligor antes a Vengeance token
-Priorities:  -1 | 2
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  0 | 5
 Gerard is active
 Gerard moves:
 
-E.....G
+.GE....
 
-Gerard misses
-Eligor misses
+Gerard hits
+First hireling next beat will cost 2 gold less
+Eligor has 3 soak
+Eligor takes 0 damage (now at 16 life)
+Eligor loses 1 life (now at 15)
+Eligor moves:
+
+EG.....
+
+Eligor hits
+Eligor gains 2 Vengeance tokens
+Gerard takes 4 damage (now at 13 life)
+Gerard is stunned
 Gerard gains 1 Gold Token (has 2)
 
 Beat 3
@@ -145,710 +175,629 @@ Beat 3
 
 Eligor
 ------
-Life: 20
-Discard 1: Retribution Aegis
-Discard 2: Chained Burst
+Life: 15
+Discard 1: Vengeful Aegis
+Discard 2: Chained Drive
 Special action available
-1 Vengeance tokens
+2 Vengeance token
 
 Gerard
 ------
-Life: 20
-Discard 1: Hooked Strike
-Discard 2: Avaricious Dash
+Life: 13
+Discard 1: Initiation Drive
+Discard 2: Gilded Shot
 Special action available
+First hireling costs 2 gold less
 Gold: 2
 Mercenaries in play:
   Brawler
 
 
-E.....G
+EG.....
 
-Unbeatable strategy for Gerard: Villainous Shot: -0.63
-Unbeatable strategy for Gerard: Villainous Burst: -0.38
-Unbeatable strategy for Gerard: Villainous Grasp: -0.87
-Unbeatable strategy for Gerard: Villainous Grasp (Hire Mage): -0.07
-Unbeatable strategy for Gerard: Villainous Grasp (Hire Heavy Knight): -0.07
-Unbeatable strategy for Gerard: Villainous Grasp (Hire Gunslinger): -0.07
+Unbeatable strategy for Gerard: Avaricious Burst: -0.23
+Unbeatable strategy for Gerard: Hooked Burst (Hire Mage): -0.41
+Unbeatable strategy for Gerard: Hooked Burst (Hire Archer): -3.53
+Unbeatable strategy for Gerard: Hooked Burst (Hire Heavy Knight): -0.41
+Unbeatable strategy for Gerard: Hooked Burst (Hire Trebuchet): -0.52
+Unbeatable strategy for Gerard: Hooked Burst (Hire Gunslinger): -0.41
 
 
 Eligor:
-9% Counter Shot
-85% Counter Grasp
-7% Martial Shot
+6% Counter Burst
+7% Counter Burst (2 tokens)
+53% Counter Dash
+11% Martial Shot (2 tokens)
+22% Retribution Grasp
 
 Gerard:
-8% Villainous Larceny
-9% Villainous Drive
-83% Villainous Grasp
+34% Villainous Larceny (Hire Archer)
+19% Villainous Burst (Hire Archer)
+3% Villainous Dash (Hire Archer)
+4% Avaricious Larceny (Hire Archer)
+39% Hooked Burst (Hire Archer)
 
 
-Eligor: Counter Grasp
-Gerard: Villainous Grasp
+Eligor: Counter Dash
+Gerard: Hooked Burst (Hire Archer)
 
-Priorities:  4 | 5
-Gerard is active
-Gerard is stunned
-Eligor misses
+Gerard hires a Archer for 1 gold (1 remaining)
+Priorities:  8 | 0
+Eligor is active
 Gerard moves:
 
-E..G...
+E.....G
 
-Gerard gains 1 Gold Token (has 3)
+Eligor moves:
+
+...E..G
+
+Gerard misses
+Eligor loses 1 life (now at 14)
+Gerard gains 1 Gold Token (has 2)
 
 Beat 4
 -------
 
 Eligor
 ------
-Life: 20
-Discard 1: Counter Grasp
-Discard 2: Retribution Aegis
+Life: 14
+Discard 1: Counter Dash
+Discard 2: Vengeful Aegis
 Special action available
-1 Vengeance tokens
+2 Vengeance token
 
 Gerard
 ------
-Life: 20
-Discard 1: Villainous Grasp
-Discard 2: Hooked Strike
+Life: 13
+Discard 1: Hooked Burst
+Discard 2: Initiation Drive
 Special action available
-Gold: 3
+Gold: 2
 Mercenaries in play:
   Brawler
+  Archer
 
 
-E..G...
+...E..G
 
-Unbeatable strategy for Gerard: Gilded Shot: -1.38
-Unbeatable strategy for Gerard: Gilded Shot (Hire Archer): -0.75
-Unbeatable strategy for Gerard: Gilded Burst (Hire Archer): -0.20
-Unbeatable strategy for Gerard: Gilded Dash (Hire Archer): -2.65
-Unbeatable strategy for Gerard: Initiation Dash (Hire Archer): -2.65
-Unbeatable strategy for Gerard: Initiation Dash (Hire Trebuchet): -0.27
+Unbeatable strategy for Gerard: Avaricious Dash: -0.95
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Gunslinger): -0.15
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Heavy Knight): -0.15
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage): -0.15
 
 
 Eligor:
-27% Vengeful Drive
-16% Martial Strike
-36% Martial Shot (1 token)
-21% Chained Shot
+0% Martial Strike
+7% Martial Shot (1 token)
+1% Martial Burst
+39% Chained Strike
+13% Chained Burst
+40% Chained Grasp
 
 Gerard:
-2% Gilded Shot (Hire Archer)
+10% Villainous Dash
+1% Gilded Larceny
+1% Gilded Dash
 4% Avaricious Larceny
-4% Initiation Burst (Hire Archer)
-90% Initiation Dash (Hire Archer)
+2% Avaricious Shot
+83% Avaricious Dash
 
 
-Eligor: Chained Shot
-Gerard: Initiation Burst (Hire Archer)
+Eligor: Martial Shot (1 token)
+Gerard: Avaricious Dash
 
-Gerard hires a Archer for 3 gold (0 remaining
-Priorities:  1 | 2
+Eligor antes a Vengeance token
+Priorities:  1 | 10
 Gerard is active
 Gerard moves:
 
-E...G..
+...E.G.
 
 Gerard moves:
 
-E..G...
+.G.E...
 
-Gerard hits
-First hireling next beat will cost 2 gold less
-Eligor takes 3 damage (now at 17 life)
-Eligor is stunned
-Eligor gains 3 Vengeance tokens
-Eligor loses 1 life (now at 16)
-Gerard gains 1 Gold Token (has 1)
+Eligor loses 1 life (now at 13)
+Eligor misses
+Gerard gains 1 Gold Token (has 3)
 
 Beat 5
 -------
 
 Eligor
 ------
-Life: 16
-Discard 1: Chained Shot
-Discard 2: Counter Grasp
+Life: 13
+Discard 1: Martial Shot
+Discard 2: Counter Dash
 Special action available
-4 Vengeance tokens
+1 Vengeance token
 
 Gerard
 ------
-Life: 20
-Discard 1: Initiation Burst
-Discard 2: Villainous Grasp
+Life: 13
+Discard 1: Avaricious Dash
+Discard 2: Hooked Burst
 Special action available
-First hireling costs 2 gold less
-Gold: 1
+Gold: 3
 Mercenaries in play:
   Brawler
   Archer
 
 
-E..G...
-
-Unbeatable strategy for Gerard: Gilded Dash: -0.60
-Unbeatable strategy for Gerard: Gilded Dash (Hire Mage): -1.40
-Unbeatable strategy for Gerard: Gilded Dash (Hire Trebuchet): -2.01
-Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger): -1.40
-Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight): -1.40
-Unbeatable strategy for Gerard: Avaricious Dash: -0.86
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage): -1.66
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Trebuchet): -1.35
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Gunslinger): -1.66
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Heavy Knight): -1.66
-Unbeatable strategy for Gerard: Hooked Strike (Hire Trebuchet): -1.19
-Unbeatable strategy for Gerard: Hooked Drive: -0.32
-Unbeatable strategy for Gerard: Hooked Drive (Hire Mage): -1.12
-Unbeatable strategy for Gerard: Hooked Drive (Hire Trebuchet): -1.79
-Unbeatable strategy for Gerard: Hooked Drive (Hire Gunslinger): -1.12
-Unbeatable strategy for Gerard: Hooked Drive (Hire Heavy Knight): -1.12
-Unbeatable strategy for Gerard: Hooked Dash: -0.39
-Unbeatable strategy for Gerard: Hooked Dash (Hire Mage): -1.19
-Unbeatable strategy for Gerard: Hooked Dash (Hire Trebuchet): -1.37
-Unbeatable strategy for Gerard: Hooked Dash (Hire Gunslinger): -1.19
-Unbeatable strategy for Gerard: Hooked Dash (Hire Heavy Knight): -1.19
+.G.E...
 
 
 Eligor:
-0% Vengeful Strike
-7% Vengeful Drive
-33% Vengeful Dash
-2% Martial Aegis
-9% Martial Aegis (2 tokens)
-12% Martial Dash (1 token)
-17% Retribution Aegis (1 token)
-17% Retribution Strike (1 token)
-3% Retribution Dash (1 token)
+32% Vengeful Aegis (1 token)
+35% Vengeful Strike (1 token)
+33% Vengeful Grasp
 
 Gerard:
-4% Gilded Strike (Hire Mage)
-4% Gilded Strike (Hire Gunslinger)
-4% Gilded Strike (Hire Heavy Knight)
-2% Gilded Dash (Hire Mage)
-23% Gilded Dash (Hire Trebuchet)
-2% Gilded Dash (Hire Gunslinger)
-2% Gilded Dash (Hire Heavy Knight)
-1% Avaricious Larceny (Hire Mage)
-1% Avaricious Larceny (Hire Gunslinger)
-1% Avaricious Larceny (Hire Heavy Knight)
-1% Avaricious Dash (Hire Mage)
-1% Avaricious Dash (Hire Gunslinger)
-1% Avaricious Dash (Hire Heavy Knight)
-17% Hooked Strike (Hire Trebuchet)
-3% Hooked Shot (Hire Trebuchet)
-5% Hooked Drive (Hire Mage)
-5% Hooked Drive (Hire Gunslinger)
-5% Hooked Drive (Hire Heavy Knight)
-18% Hooked Dash (Hire Trebuchet)
+51% Gilded Strike
+35% Gilded Drive
+15% Initiation Larceny
 
 
-Eligor: Retribution Aegis (1 token)
-Gerard: Hooked Drive (Hire Heavy Knight)
+Eligor: Vengeful Aegis (1 token)
+Gerard: Gilded Drive
 
 Eligor antes a Vengeance token
-Gerard hires a Heavy Knight for 2 gold (1 remaining
-Priorities:  -1 | 3
+Priorities:  0 | 3
 Gerard is active
 Gerard moves:
 
-E.....G
+..GE...
 
-Gerard moves:
+Gerard hits
+Eligor has 1 soak
+Eligor takes 2 damage (now at 11 life)
+Eligor gains 2 Vengeance tokens
+Eligor loses 1 life (now at 10)
+Eligor moves:
 
-E....G.
+.EG....
 
-Gerard misses
-Eligor misses
-Gerard gains 1 Gold Token (has 2)
+Eligor hits
+Eligor gains 2 Vengeance tokens
+Gerard has 2 soak
+Gerard takes 2 damage (now at 11 life)
+Gerard is stunned
+Gerard gains 1 Gold Token (has 4)
 
 Beat 6
 -------
 
 Eligor
 ------
-Life: 16
-Discard 1: Retribution Aegis
-Discard 2: Chained Shot
+Life: 10
+Discard 1: Vengeful Aegis
+Discard 2: Martial Shot
 Special action available
-3 Vengeance tokens
+4 Vengeance token
 
 Gerard
 ------
-Life: 20
-Discard 1: Hooked Drive
-Discard 2: Initiation Burst
+Life: 11
+Discard 1: Gilded Drive
+Discard 2: Avaricious Dash
 Special action available
-Gold: 2
+Gold: 4
 Mercenaries in play:
   Brawler
   Archer
-  Heavy Knight
 
 
-E....G.
-
-Unbeatable strategy for Gerard: Villainous Strike: -1.76
-Unbeatable strategy for Gerard: Villainous Strike (Hire Mage): -0.96
-Unbeatable strategy for Gerard: Villainous Strike (Hire Gunslinger): -0.96
-Unbeatable strategy for Gerard: Villainous Shot: -1.70
-Unbeatable strategy for Gerard: Villainous Shot (Hire Mage): -0.90
-Unbeatable strategy for Gerard: Villainous Shot (Hire Gunslinger): -0.90
-Unbeatable strategy for Gerard: Villainous Grasp: -1.80
-Unbeatable strategy for Gerard: Villainous Grasp (Hire Mage): -1.00
-Unbeatable strategy for Gerard: Villainous Grasp (Hire Gunslinger): -1.00
-Unbeatable strategy for Gerard: Villainous Dash: -1.27
-Unbeatable strategy for Gerard: Villainous Dash (Hire Mage): -0.47
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger): -0.47
-Unbeatable strategy for Gerard: Gilded Dash: -0.08
-Unbeatable strategy for Gerard: Avaricious Dash: -1.47
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage): -0.67
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Gunslinger): -0.67
+.EG....
 
 
 Eligor:
-7% Vengeful Drive
-29% Counter Strike
-55% Martial Burst
-9% Martial Burst (2 tokens)
+35% Counter Grasp (2 tokens)
+10% Chained Strike
+36% Chained Drive (2 tokens)
+17% Chained Grasp (2 tokens)
+2% Retribution Drive (1 token)
 
 Gerard:
-41% Villainous Shot
-24% Villainous Grasp
-29% Villainous Dash
-6% Avaricious Shot
+13% Villainous Burst
+10% Hooked Shot
+57% Initiation Larceny
+16% Initiation Strike
+3% Initiation Burst
 
 
-Eligor: Martial Burst
-Gerard: Villainous Dash
+Eligor: Chained Drive (2 tokens)
+Gerard: Initiation Larceny
 
-Priorities:  0 | 9
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  3 | 4
 Gerard is active
+Gerard moves Eligor:
+
+..GE...
+
 Gerard moves:
 
-E.....G
+...EG..
 
-Eligor misses
 Gerard moves:
 
-E..G...
+..GE...
 
-Gerard gains 1 Gold Token (has 3)
+Gerard hits
+First hireling next beat will cost 2 gold less
+Eligor takes 4 damage (now at 6 life)
+Gerard gains 3 Gold Tokens (has 7)
+Eligor gains 3 Vengeance tokens
+Eligor loses 1 life (now at 5)
+Eligor moves:
+
+.EG....
+
+Eligor spends a Vengeance token
+Eligor moves Gerard:
+
+GE.....
+
+Eligor hits
+Gerard takes 3 damage (now at 8 life)
+Gerard is stunned
+Gerard gains 1 Gold Token (has 8)
 
 Beat 7
 -------
 
 Eligor
 ------
-Life: 16
-Discard 1: Martial Burst
-Discard 2: Retribution Aegis
+Life: 5
+Discard 1: Chained Drive
+Discard 2: Vengeful Aegis
 Special action available
-3 Vengeance tokens
+4 Vengeance token
 
 Gerard
 ------
-Life: 20
-Discard 1: Villainous Dash
-Discard 2: Hooked Drive
+Life: 8
+Discard 1: Initiation Larceny
+Discard 2: Gilded Drive
 Special action available
-Gold: 3
+First hireling costs 2 gold less
+Gold: 8
 Mercenaries in play:
   Brawler
   Archer
-  Heavy Knight
 
 
-E..G...
+GE.....
+
+Unbeatable strategy for Gerard: Villainous Dash: -0.86
+Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger): -1.54
+Unbeatable strategy for Gerard: Villainous Dash (Hire Heavy Knight): -1.54
+Unbeatable strategy for Gerard: Villainous Dash (Hire Trebuchet): -0.30
+Unbeatable strategy for Gerard: Villainous Dash (Hire Mage): -1.54
+Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger, Heavy Knight): -0.86
+Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger, Mage): -0.86
+Unbeatable strategy for Gerard: Villainous Dash (Hire Heavy Knight, Mage): -0.86
+Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger, Heavy Knight, Mage): -0.18
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Gunslinger): -0.15
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Heavy Knight): -0.15
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage): -0.15
+Unbeatable strategy for Gerard: Hooked Dash: -0.86
+Unbeatable strategy for Gerard: Hooked Dash (Hire Gunslinger): -1.54
+Unbeatable strategy for Gerard: Hooked Dash (Hire Heavy Knight): -1.54
+Unbeatable strategy for Gerard: Hooked Dash (Hire Trebuchet): -0.35
+Unbeatable strategy for Gerard: Hooked Dash (Hire Mage): -1.54
+Unbeatable strategy for Gerard: Hooked Dash (Hire Gunslinger, Heavy Knight): -0.86
+Unbeatable strategy for Gerard: Hooked Dash (Hire Gunslinger, Mage): -0.86
+Unbeatable strategy for Gerard: Hooked Dash (Hire Heavy Knight, Mage): -0.86
+Unbeatable strategy for Gerard: Hooked Dash (Hire Gunslinger, Heavy Knight, Mage): -0.15
 
 
 Eligor:
-4% Vengeful Shot
-29% Counter Shot (1 token)
-3% Chained Shot (1 token)
-9% Chained Drive
-55% Chained Grasp
+2% Counter Shot
+7% Martial Shot
+13% Martial Burst
+1% Martial Burst (2 tokens)
+10% Retribution Shot (1 token)
+67% Retribution Dash
 
 Gerard:
-26% Gilded Larceny
-5% Gilded Shot
-19% Avaricious Larceny
-0% Initiation Shot
-50% Initiation Burst
+3% Villainous Strike (Hire Gunslinger)
+3% Villainous Strike (Hire Heavy Knight)
+3% Villainous Strike (Hire Mage)
+1% Villainous Shot (Hire Mage; Activate Mage)
+1% Villainous Burst (Hire Gunslinger)
+1% Villainous Burst (Hire Heavy Knight)
+1% Villainous Burst (Hire Mage)
+12% Villainous Dash (Hire Gunslinger)
+12% Villainous Dash (Hire Heavy Knight)
+12% Villainous Dash (Hire Mage)
+0% Avaricious Burst (Hire Mage; Activate Mage)
+17% Avaricious Dash (Hire Gunslinger)
+17% Avaricious Dash (Hire Heavy Knight)
+17% Avaricious Dash (Hire Mage)
 
 
-Eligor: Chained Grasp
-Gerard: Gilded Shot
+Eligor: Retribution Dash
+Gerard: Avaricious Dash (Hire Gunslinger)
 
-Priorities:  4 | 1
-Eligor is active
-Eligor spends a Vengeance token
-Eligor spends a Vengeance token
-Eligor moves Gerard:
+Gerard hires a Gunslinger for 0 gold (8 remaining)
+Priorities:  8 | 9
+Gerard is active
+Gerard moves:
 
-EG.....
+.EG....
 
-Eligor hits
-Eligor moves Gerard:
+Gerard moves:
 
-E.G....
+.E..G..
 
-Gerard takes 2 damage (now at 18 life)
-Gerard hits
-Eligor takes 3 damage (now at 13 life)
-Eligor is stunned
-Eligor gains 3 Vengeance tokens
-Eligor loses 1 life (now at 12)
-Gerard gains 1 Gold Token (has 4)
+Eligor moves:
+
+...EG..
+
+Gerard gains 1 Gold Token (has 9)
 
 Beat 8
 -------
 
 Eligor
 ------
-Life: 12
-Discard 1: Chained Grasp
-Discard 2: Martial Burst
+Life: 5
+Discard 1: Retribution Dash
+Discard 2: Chained Drive
 Special action available
-4 Vengeance tokens
+4 Vengeance token
 
 Gerard
 ------
-Life: 18
-Discard 1: Gilded Shot
-Discard 2: Villainous Dash
+Life: 8
+Discard 1: Avaricious Dash
+Discard 2: Initiation Larceny
 Special action available
-Gold: 4
+Gold: 9
 Mercenaries in play:
   Brawler
   Archer
-  Heavy Knight
+  Gunslinger
 
 
-E.G....
+...EG..
 
 
 Eligor:
-6% Vengeful Aegis (1 token)
-37% Vengeful Shot
-2% Counter Shot (1 token)
-18% Counter Shot (2 tokens)
-37% Retribution Aegis (1 token)
+7% Vengeful Aegis (1 token)
+58% Vengeful Aegis (2 tokens)
+5% Vengeful Shot (1 token)
+5% Vengeful Burst
+13% Vengeful Grasp (2 tokens)
+12% Martial Shot
 
 Gerard:
-2% Avaricious Larceny
-17% Hooked Larceny
-37% Hooked Burst
-12% Initiation Burst
-31% Initiation Grasp
+4% Villainous Strike (Activate Gunslinger)
+14% Villainous Drive (Hire Mage; Activate Gunslinger, Mage)
+1% Villainous Burst (Hire Mage; Activate Mage)
+28% Gilded Grasp
+3% Hooked Strike (Hire Mage; Activate Mage)
+51% Hooked Burst
 
 
-Eligor: Vengeful Shot
-Gerard: Initiation Grasp
+Eligor: Vengeful Aegis (2 tokens)
+Gerard: Hooked Burst
 
-Priorities:  2 | 6
-Gerard is active
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  0 | 0
+Clash!
+
+
+Eligor: Vengeful Shot (2 tokens)
+Gerard: Hooked Strike
+
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  2 | 2
+Clash!
+
+
+Eligor: Vengeful Burst (2 tokens)
+Gerard: Hooked Shot
+
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  1 | 1
+Clash!
+
+
+Eligor: Vengeful Strike (2 tokens)
+Gerard: Hooked Drive
+
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  3 | 3
+Clash!
+
+
+Eligor: Vengeful Grasp (2 tokens)
+Gerard: Hooked Grasp
+
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  5 | 4
+Eligor is active
 Gerard moves:
 
-EG.....
+...E..G
 
-Gerard hits
-First hireling next beat will cost 2 gold less
-Eligor takes 2 damage (now at 10 life)
-Eligor gains 1 Vengeance token
-Eligor loses 1 life (now at 9)
 Eligor moves:
 
-.GE....
+....E.G
 
-Eligor hits
-Gerard takes 4 damage (now at 14 life)
-Gerard is stunned
-Gerard gains 1 Gold Token (has 5)
+Eligor misses
+Gerard misses
+Eligor loses 1 life (now at 4)
+Gerard gains 1 Gold Token (has 10)
 
 Beat 9
 -------
 
 Eligor
 ------
-Life: 9
-Discard 1: Vengeful Shot
-Discard 2: Chained Grasp
+Life: 4
+Discard 1: Vengeful Grasp
+Discard 2: Retribution Dash
 Special action available
-5 Vengeance tokens
+2 Vengeance token
 
 Gerard
 ------
-Life: 14
-Discard 1: Initiation Grasp
-Discard 2: Gilded Shot
+Life: 8
+Discard 1: Hooked Grasp
+Discard 2: Avaricious Dash
 Special action available
-First hireling costs 2 gold less
-Gold: 5
+Gold: 10
 Mercenaries in play:
   Brawler
   Archer
-  Heavy Knight
+  Gunslinger
 
 
-.GE....
-
-Unbeatable strategy for Gerard: Villainous Dash: -1.13
-Unbeatable strategy for Gerard: Villainous Dash (Hire Mage): -1.93
-Unbeatable strategy for Gerard: Villainous Dash (Hire Trebuchet): -1.05
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger): -1.93
-Unbeatable strategy for Gerard: Villainous Dash (Hire Mage, Trebuchet): -0.25
-Unbeatable strategy for Gerard: Villainous Dash (Hire Mage, Gunslinger): -1.13
-Unbeatable strategy for Gerard: Villainous Dash (Hire Trebuchet, Gunslinger): -0.25
-Unbeatable strategy for Gerard: Avaricious Dash: -1.53
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage): -2.33
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Trebuchet): -1.47
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Gunslinger): -2.33
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage, Trebuchet): -0.67
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage, Gunslinger): -1.53
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Trebuchet, Gunslinger): -0.67
-Unbeatable strategy for Gerard: Hooked Dash: -1.25
-Unbeatable strategy for Gerard: Hooked Dash (Hire Mage): -2.05
-Unbeatable strategy for Gerard: Hooked Dash (Hire Trebuchet): -0.71
-Unbeatable strategy for Gerard: Hooked Dash (Hire Gunslinger): -2.05
-Unbeatable strategy for Gerard: Hooked Dash (Hire Mage, Gunslinger): -1.25
+....E.G
 
 
 Eligor:
-15% Counter Aegis (2 tokens)
-54% Counter Strike
-19% Counter Dash
-1% Martial Drive
-10% Retribution Drive (1 token)
+52% Counter Aegis (2 tokens)
+6% Counter Strike
+37% Martial Burst
+4% Special Sweet Revenge (2 tokens)
 
 Gerard:
-1% Villainous Larceny (Hire Gunslinger; Activate Gunslinger)
-4% Villainous Drive (Hire Mage)
-4% Villainous Drive (Hire Gunslinger)
-4% Avaricious Burst (Hire Mage)
-4% Avaricious Burst (Hire Gunslinger)
-41% Avaricious Dash (Hire Mage)
-41% Avaricious Dash (Hire Gunslinger)
-0% Hooked Burst (Hire Mage)
-0% Hooked Burst (Hire Gunslinger)
+9% Villainous Larceny (Hire Mage; Activate Mage)
+31% Villainous Larceny (Hire Mage; Activate Gunslinger, Mage)
+57% Villainous Shot
+3% Initiation Drive (Hire Mage; Activate Mage)
 
 
-Eligor: Counter Strike
-Gerard: Avaricious Dash (Hire Mage)
+Eligor: Counter Aegis (2 tokens)
+Gerard: Villainous Shot
 
-Gerard hires a Mage for 2 gold (5 remaining
-Priorities:  2 | 9
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  -1 | 2
 Gerard is active
-Gerard moves:
-
-..EG...
-
-Eligor loses 1 life (now at 8)
-Gerard moves:
+Gerard hits
+Gerard moves Eligor:
 
 ..E...G
 
+Eligor has 2 soak
+Eligor takes 2 damage (now at 2 life)
+Eligor gains 2 Vengeance tokens
+Eligor loses 1 life (now at 1)
+Eligor moves:
+
+...E..G
+
 Eligor misses
-Gerard gains 1 Gold Token (has 6)
+Gerard moves:
+
+..GE...
+
 
 Beat 10
 -------
 
 Eligor
 ------
+Life: 1
+Discard 1: Counter Aegis
+Discard 2: Vengeful Grasp
+Special action available
+2 Vengeance token
+
+Gerard
+------
 Life: 8
-Discard 1: Counter Strike
-Discard 2: Vengeful Shot
+Discard 1: Villainous Shot
+Discard 2: Hooked Grasp
 Special action available
-5 Vengeance tokens
-
-Gerard
-------
-Life: 14
-Discard 1: Avaricious Dash
-Discard 2: Initiation Grasp
-Special action available
-Gold: 6
+Gold: 10
 Mercenaries in play:
   Brawler
   Archer
-  Heavy Knight
-  Mage
+  Gunslinger
 
 
-..E...G
+..GE...
 
-Unbeatable strategy for Eligor: Chained Aegis (2 tokens): 0.36
-
-
-Eligor:
-33% Martial Drive
-23% Martial Burst
-44% Chained Aegis (2 tokens)
-
-Gerard:
-38% Gilded Drive
-34% Gilded Burst
-28% Hooked Drive
-
-
-Eligor: Chained Aegis (2 tokens)
-Gerard: Gilded Burst
-
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  -1 | 0
-Gerard is active
-Gerard hits
-Eligor has 2 soak
-Eligor takes 1 damage (now at 7 life)
-Eligor gains 1 Vengeance token
-Eligor loses 1 life (now at 6)
-Eligor spends a Vengeance token
-Eligor spends a Vengeance token
-Eligor spends a Vengeance token
-Eligor spends a Vengeance token
-Eligor moves Gerard:
-
-.GE....
-
-Eligor hits
-Gerard has 2 soak
-Gerard takes 1 damage (now at 13 life)
-Gerard is stunned
-Gerard gains 1 Gold Token (has 7)
-
-Beat 11
--------
-
-Eligor
-------
-Life: 6
-Discard 1: Chained Aegis
-Discard 2: Counter Strike
-Special action available
-0 Vengeance tokens
-
-Gerard
-------
-Life: 13
-Discard 1: Gilded Burst
-Discard 2: Avaricious Dash
-Special action available
-Gold: 7
-Mercenaries in play:
-  Brawler
-  Archer
-  Heavy Knight
-  Mage
-
-
-.GE....
+Unbeatable strategy for Gerard: Gilded Strike: -0.56
+Unbeatable strategy for Gerard: Gilded Strike (Hire Mage): -0.56
+Unbeatable strategy for Gerard: Gilded Strike (Hire Heavy Knight): -0.56
+Unbeatable strategy for Gerard: Gilded Strike (Hire Heavy Knight; Activate Heavy Knight): -0.67
+Unbeatable strategy for Gerard: Gilded Strike (Hire Mage, Heavy Knight): -0.24
+Unbeatable strategy for Gerard: Gilded Strike (Hire Mage, Heavy Knight; Activate Heavy Knight): -0.35
+Unbeatable strategy for Gerard: Gilded Strike (Hire Trebuchet, Heavy Knight; Activate Heavy Knight): -0.09
+Unbeatable strategy for Gerard: Gilded Drive: -0.08
+Unbeatable strategy for Gerard: Gilded Drive (Hire Mage): -0.08
+Unbeatable strategy for Gerard: Gilded Drive (Hire Heavy Knight): -0.08
+Unbeatable strategy for Gerard: Gilded Drive (Hire Heavy Knight; Activate Heavy Knight): -6.00
+Unbeatable strategy for Gerard: Gilded Drive (Hire Heavy Knight; Activate Gunslinger, Heavy Knight): -6.00
+Unbeatable strategy for Gerard: Gilded Drive (Hire Mage, Heavy Knight; Activate Heavy Knight): -6.00
+Unbeatable strategy for Gerard: Gilded Drive (Hire Mage, Heavy Knight; Activate Gunslinger, Heavy Knight): -6.00
+Unbeatable strategy for Gerard: Gilded Drive (Hire Mage, Heavy Knight; Activate Mage, Heavy Knight): -6.00
+Unbeatable strategy for Gerard: Gilded Drive (Hire Trebuchet, Heavy Knight; Activate Heavy Knight): -6.00
+Unbeatable strategy for Gerard: Gilded Drive (Hire Mage, Trebuchet, Heavy Knight; Activate Heavy Knight): -6.00
+Unbeatable strategy for Gerard: Avaricious Drive (Hire Heavy Knight; Activate Heavy Knight): -0.03
+Unbeatable strategy for Gerard: Initiation Larceny: -0.02
+Unbeatable strategy for Gerard: Initiation Larceny (Hire Mage): -0.02
+Unbeatable strategy for Gerard: Initiation Larceny (Hire Heavy Knight): -0.02
+Unbeatable strategy for Gerard: Initiation Drive: -0.47
+Unbeatable strategy for Gerard: Initiation Drive (Hire Mage): -0.47
+Unbeatable strategy for Gerard: Initiation Drive (Hire Heavy Knight): -0.47
+Unbeatable strategy for Gerard: Initiation Drive (Hire Heavy Knight; Activate Heavy Knight): -0.43
+Unbeatable strategy for Gerard: Initiation Drive (Hire Mage, Heavy Knight): -0.15
+Unbeatable strategy for Gerard: Initiation Drive (Hire Mage, Heavy Knight; Activate Heavy Knight): -0.11
 
 
 Eligor:
-4% Vengeful Shot
-40% Vengeful Drive
-23% Martial Burst
-34% Martial Grasp
+1% Chained Strike
+34% Chained Drive
+29% Chained Dash
+10% Retribution Dash
+16% Special Pulse
+10% Special Sweet Revenge (1 token)
 
 Gerard:
-0% Villainous Larceny (Activate Mage)
-90% Villainous Drive
-1% Hooked Strike (Activate Mage)
-9% Initiation Drive
+30% Gilded Strike (Activate Gunslinger)
+26% Gilded Drive (Hire Heavy Knight; Activate Gunslinger, Heavy Knight)
+13% Gilded Drive (Hire Mage, Heavy Knight; Activate Mage, Heavy Knight)
+16% Gilded Dash
+12% Initiation Strike (Activate Gunslinger)
+3% Initiation Drive (Hire Heavy Knight; Activate Gunslinger, Heavy Knight)
 
 
-Eligor: Vengeful Drive
-Gerard: Villainous Drive
+Eligor: Chained Dash
+Gerard: Gilded Drive (Hire Heavy Knight; Activate Gunslinger, Heavy Knight)
 
-Priorities:  4 | 4
-Clash!
-
-
-Eligor: Vengeful Burst
-Gerard: Villainous Shot
-
-Priorities:  1 | 2
-Gerard is active
+Gerard hires a Heavy Knight for 2 gold (8 remaining)
+Gerard activates his Gunslinger for 3 gold (5 remaining)
+Gerard activates his Heavy Knight for 3 gold (2 remaining)
+Priorities:  8 | 3
+Eligor is active
 Eligor moves:
 
-.G.E...
+..G.E..
 
-Gerard hits
-Eligor takes 4 damage (now at 2 life)
-Eligor is stunned
-Eligor gains 4 Vengeance tokens
-Eligor loses 1 life (now at 1)
-Gerard moves:
-
-..GE...
-
-Gerard gains 1 Gold Token (has 8)
-
-Beat 12
--------
-
-Eligor
-------
-Life: 1
-Discard 1: Vengeful Burst
-Discard 2: Chained Aegis
-Special action available
-4 Vengeance tokens
-
-Gerard
-------
-Life: 13
-Discard 1: Villainous Shot
-Discard 2: Gilded Burst
-Special action available
-Gold: 8
-Mercenaries in play:
-  Brawler
-  Archer
-  Heavy Knight
-  Mage
-
-
-..GE...
-
-Unbeatable strategy for Gerard: Initiation Larceny: -0.69
-Unbeatable strategy for Gerard: Initiation Larceny (Activate Heavy Knight): -0.10
-Unbeatable strategy for Gerard: Initiation Larceny (Hire Gunslinger): -0.37
-
-
-Eligor:
-32% Counter Drive
-6% Counter Grasp
-10% Counter Dash
-47% Retribution Dash
-6% Special Sweet Revenge (1 token)
-
-Gerard:
-21% Hooked Grasp
-28% Initiation Larceny
-13% Initiation Strike (Activate Heavy Knight)
-32% Initiation Drive (Hire Gunslinger; Activate Heavy Knight, Gunslinger)
-6% Initiation Grasp
-
-
-Eligor: Counter Drive
-Gerard: Hooked Grasp
-
-Priorities:  3 | 4
-Gerard is active
-Gerard moves:
-
-G..E...
-
-Gerard hits
 Gerard moves Eligor:
 
-G.E....
+..GE...
 
+Gerard moves:
+
+...EG..
+
+Gerard hits
 Eligor takes 3 damage (now at 0 life)
 GERARD WINS!
-total_time: 363
+total_time: 1280

@@ -11,162 +11,179 @@ Beat 1
 
 Eligor
 ------
-life: 20
-discard 1: Martial Grasp
-discard 2: Vengeful Aegis
-special action
-2 Vengeance tokens
+Life: 20
+Discard 1: Martial Grasp
+Discard 2: Vengeful Aegis
+Special action available
+2 Vengeance token
 
 Runika
 ------
-life: 20
-discard 1: Channeled Grasp
-discard 2: Impact Strike
-special action
+Life: 20
+Discard 1: Channeled Grasp
+Discard 2: Impact Strike
+Special action available
 Active artifacts: 
   Shield Amulet
-  Hover Boots
-  Phase Goggles
   Autodeflector
+  Phase Goggles
+  Hover Boots
   Battlefist
 
 
 .E...R.
 
+
 Eligor:
-14% Counter Shot (2 tokens)
-76% Counter Burst
-10% Retribution Strike (1 token)
+15% Counter Shot (2 tokens)
+18% Counter Drive (2 tokens)
+45% Counter Burst
+5% Chained Shot
+17% Retribution Strike (1 token)
 
 Runika:
-61% Maintenance Tinker
-13% Overcharged Shot
-26% Overcharged Drive
+43% Maintenance Tinker
+0% Maintenance Drive
+9% Explosive Dash
+15% Overcharged Shot
+33% Overcharged Drive
 
 
-Eligor: Counter Burst
-Runika: Maintenance Tinker
+Eligor: Counter Drive (2 tokens)
+Runika: Overcharged Drive
 
-Priorities:  0 | 4
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  3 | 6
 Runika is active
+Runika overcharges her Battlefist
+Runika is stunned
 Eligor moves:
 
-E....R.
+..E..R.
 
-Runika misses
-Runika moves:
-
-E.....R
-
-No artifacts to activate
 Eligor misses
+Battlefist is removed from the game
 
 Beat 2
 -------
 
 Eligor
 ------
-life: 20
-discard 1: Counter Burst
-discard 2: Martial Grasp
-special action
-2 Vengeance tokens
+Life: 20
+Discard 1: Counter Drive
+Discard 2: Martial Grasp
+Special action available
+0 Vengeance token
 
 Runika
 ------
-life: 20
-discard 1: Maintenance Tinker
-discard 2: Channeled Grasp
-special action
+Life: 20
+Discard 1: Overcharged Drive
+Discard 2: Channeled Grasp
+Special action available
 Active artifacts: 
-  Shield Amulet
-  Phase Goggles
   Autodeflector
+  Phase Goggles
   Hover Boots
+  Shield Amulet
+Removed artifacts: 
   Battlefist
 
 
-E.....R
+..E..R.
 
-Unbeatable strategy for Eligor: Chained Strike: 0.07
+Unbeatable strategy for Runika: Explosive Dash: -0.29
+Unbeatable strategy for Runika: Impact Dash: -0.09
+
 
 Eligor:
-11% Vengeful Aegis
-7% Vengeful Strike
-6% Vengeful Drive
-63% Chained Strike
-12% Chained Shot
+6% Vengeful Dash
+6% Chained Dash
+88% Retribution Shot
 
 Runika:
-41% Explosive Strike
-29% Explosive Shot
-4% Impact Shot
-25% Overcharged Shot
+7% Explosive Strike
+93% Explosive Dash
 
 
-Eligor: Chained Strike
-Runika: Overcharged Shot
+Eligor: Retribution Shot
+Runika: Explosive Dash
 
-Priorities:  2 | 4
+Priorities:  1 | 11
 Runika is active
-Runika overcharges her Phase Goggles
-Runika hits
-Eligor takes 4 damage (now at 16 life)
-Eligor is stunned
-Eligor gains 3 Vengeance tokens
-Phase Goggles is removed from the game
+Runika moves Eligor:
+
+...E.R.
+
+Runika moves:
+
+..RE...
+
+Eligor misses
 
 Beat 3
 -------
 
 Eligor
 ------
-life: 16
-discard 1: Chained Strike
-discard 2: Counter Burst
-special action
-5 Vengeance tokens
+Life: 20
+Discard 1: Retribution Shot
+Discard 2: Counter Drive
+Special action available
+0 Vengeance token
 
 Runika
 ------
-life: 20
-discard 1: Overcharged Shot
-discard 2: Maintenance Tinker
-special action
+Life: 20
+Discard 1: Explosive Dash
+Discard 2: Overcharged Drive
+Special action available
 Active artifacts: 
-  Shield Amulet
-  Battlefist
-  Hover Boots
   Autodeflector
-Removed artifacts: 
   Phase Goggles
+  Hover Boots
+  Shield Amulet
+Removed artifacts: 
+  Battlefist
 
 
-E.....R
+..RE...
 
-Unbeatable strategy for Eligor: Vengeful Shot: 0.47
-Unbeatable strategy for Eligor: Vengeful Shot (1 token): 0.17
-Unbeatable strategy for Eligor: Martial Shot: 0.57
-Unbeatable strategy for Eligor: Martial Shot (1 token): 0.27
 
 Eligor:
-32% Vengeful Aegis
-41% Vengeful Shot
-27% Martial Shot
+23% Vengeful Strike
+44% Vengeful Burst
+4% Martial Grasp
+29% Chained Strike
 
 Runika:
-64% Explosive Strike
-18% Explosive Grasp
-19% Impact Dash
+24% Channeled Burst
+45% Maintenance Burst
+5% Impact Strike
+26% Impact Grasp
 
 
-Eligor: Martial Shot
-Runika: Explosive Grasp
+Eligor: Vengeful Burst
+Runika: Impact Grasp
 
 Priorities:  1 | 7
 Runika is active
-Runika misses
-Eligor gets +2 power
+Eligor moves:
+
+..R.E..
+
+Runika moves:
+
+...RE..
+
+Runika hits
+Eligor takes 1 damage (now at 19 life)
+Eligor gains 1 Vengeance token
+Eligor moves:
+
+..ER...
+
 Eligor misses
 
 Beat 4
@@ -174,60 +191,65 @@ Beat 4
 
 Eligor
 ------
-life: 16
-discard 1: Martial Shot
-discard 2: Chained Strike
-special action
-5 Vengeance tokens
+Life: 19
+Discard 1: Vengeful Burst
+Discard 2: Retribution Shot
+Special action available
+1 Vengeance token
 
 Runika
 ------
-life: 20
-discard 1: Explosive Grasp
-discard 2: Overcharged Shot
-special action
+Life: 20
+Discard 1: Impact Grasp
+Discard 2: Explosive Dash
+Special action available
 Active artifacts: 
-  Shield Amulet
   Autodeflector
-  Hover Boots
-  Battlefist
-Removed artifacts: 
   Phase Goggles
+  Hover Boots
+  Shield Amulet
+Removed artifacts: 
+  Battlefist
 
 
-E.....R
+..ER...
 
-Unbeatable strategy for Runika: Maintenance Tinker: -0.89
-Unbeatable strategy for Runika: Maintenance Strike: -0.41
-Unbeatable strategy for Runika: Maintenance Drive: -0.08
-Unbeatable strategy for Runika: Maintenance Dash: -0.94
-Unbeatable strategy for Runika: Impact Tinker: -0.54
-Unbeatable strategy for Runika: Impact Strike: -0.15
-Unbeatable strategy for Runika: Impact Drive: -0.75
-Unbeatable strategy for Runika: Impact Dash: -0.70
 
 Eligor:
-31% Vengeful Drive
-39% Counter Aegis
-30% Counter Drive
+18% Counter Strike
+28% Martial Aegis (1 token)
+4% Martial Strike
+9% Martial Drive
+1% Martial Drive (1 token)
+40% Chained Aegis (1 token)
 
 Runika:
-39% Maintenance Tinker
-41% Impact Drive
-20% Impact Dash
+3% Channeled Strike
+1% Channeled Shot
+3% Maintenance Tinker
+13% Maintenance Burst
+80% Overcharged Shot
 
 
-Eligor: Counter Drive
-Runika: Maintenance Tinker
+Eligor: Martial Aegis (1 token)
+Runika: Maintenance Burst
 
-Priorities:  3 | 4
+Eligor antes a Vengeance token
+Priorities:  -1 | 2
 Runika is active
-Runika misses
-No artifacts to activate
-Eligor moves:
+Runika moves:
 
-.E....R
+..E.R..
 
+Runika hits
+Eligor has 1 soak
+Eligor takes 1 damage (now at 18 life)
+Eligor gains 1 Vengeance token
+Runika moves:
+
+..E...R
+
+Eligor gets +2 power
 Eligor misses
 
 Beat 5
@@ -235,120 +257,117 @@ Beat 5
 
 Eligor
 ------
-life: 16
-discard 1: Counter Drive
-discard 2: Martial Shot
-special action
-5 Vengeance tokens
+Life: 18
+Discard 1: Martial Aegis
+Discard 2: Vengeful Burst
+Special action available
+1 Vengeance token
 
 Runika
 ------
-life: 20
-discard 1: Maintenance Tinker
-discard 2: Explosive Grasp
-special action
+Life: 20
+Discard 1: Maintenance Burst
+Discard 2: Impact Grasp
+Special action available
 Active artifacts: 
-  Shield Amulet
-  Battlefist
-  Hover Boots
   Autodeflector
-Removed artifacts: 
   Phase Goggles
+  Hover Boots
+  Shield Amulet
+Removed artifacts: 
+  Battlefist
 
 
-.E....R
+..E...R
 
-Unbeatable strategy for Eligor: Vengeful Burst: 0.60
-Unbeatable strategy for Eligor: Vengeful Burst (1 token): 0.30
-Unbeatable strategy for Eligor: Chained Aegis (1 token): 0.14
-Unbeatable strategy for Eligor: Chained Aegis (2 tokens): 0.71
-Unbeatable strategy for Eligor: Chained Strike: 1.14
-Unbeatable strategy for Eligor: Chained Strike (1 token): 1.14
-Unbeatable strategy for Eligor: Chained Strike (2 tokens): 0.71
-Unbeatable strategy for Eligor: Chained Burst: 2.54
-Unbeatable strategy for Eligor: Chained Burst (1 token): 2.24
-Unbeatable strategy for Eligor: Chained Burst (2 tokens): 1.94
-Unbeatable strategy for Eligor: Chained Burst (3 tokens): 0.58
+Unbeatable strategy for Eligor: Retribution Shot: 0.39
+Unbeatable strategy for Eligor: Retribution Shot (1 token): 0.19
+
 
 Eligor:
-33% Vengeful Grasp
-49% Chained Burst
-18% Chained Grasp
+45% Counter Dash
+55% Retribution Shot
 
 Runika:
-2% Impact Shot
-86% Overcharged Strike
-11% Overcharged Drive
+60% Explosive Dash
+40% Overcharged Drive
 
 
-Eligor: Chained Burst
+Eligor: Retribution Shot
 Runika: Overcharged Drive
 
-Priorities:  0 | 6
+Priorities:  1 | 6
 Runika is active
-Runika overcharges her Battlefist
-Eligor moves:
-
-E.....R
-
+Runika overcharges her Phase Goggles
 Runika moves:
 
-E...R..
+..E.R..
 
-Runika misses
-Eligor misses
-Battlefist is removed from the game
+Runika hits
+Eligor has 2 soak
+Eligor gains 2 Vengeance tokens
+Eligor takes 1 damage (now at 17 life)
+Eligor is stunned
+Eligor gains 1 Vengeance token
+Phase Goggles is removed from the game
 
 Beat 6
 -------
 
 Eligor
 ------
-life: 16
-discard 1: Chained Burst
-discard 2: Counter Drive
-special action
-5 Vengeance tokens
+Life: 17
+Discard 1: Retribution Shot
+Discard 2: Martial Aegis
+Special action available
+4 Vengeance token
 
 Runika
 ------
-life: 20
-discard 1: Overcharged Drive
-discard 2: Maintenance Tinker
-special action
+Life: 20
+Discard 1: Overcharged Drive
+Discard 2: Maintenance Burst
+Special action available
 Active artifacts: 
-  Shield Amulet
   Autodeflector
+  Shield Amulet
   Hover Boots
 Removed artifacts: 
   Phase Goggles
   Battlefist
 
 
-E...R..
+..E.R..
 
-Unbeatable strategy for Eligor: Vengeful Shot: 0.13
+Unbeatable strategy for Eligor: Chained Strike: 0.28
+Unbeatable strategy for Eligor: Chained Strike (1 token): 0.08
+
 
 Eligor:
-8% Vengeful Aegis
-75% Vengeful Shot
-15% Vengeful Grasp
-2% Martial Shot
+100% Chained Strike
 
 Runika:
-32% Explosive Burst
-63% Explosive Dash
-5% Impact Burst
+100% Explosive Dash
 
 
-Eligor: Vengeful Shot
+Eligor: Chained Strike
 Runika: Explosive Dash
 
 Priorities:  2 | 11
 Runika is active
+Runika moves Eligor:
+
+...ER..
+
 Runika moves:
 
-E.....R
+..RE...
+
+Eligor spends a Vengeance token
+Eligor spends a Vengeance token
+Eligor moves Runika:
+
+...E.R.
 
 Eligor misses
 
@@ -357,167 +376,238 @@ Beat 7
 
 Eligor
 ------
-life: 16
-discard 1: Vengeful Shot
-discard 2: Chained Burst
-special action
-5 Vengeance tokens
+Life: 17
+Discard 1: Chained Strike
+Discard 2: Retribution Shot
+Special action available
+2 Vengeance token
 
 Runika
 ------
-life: 20
-discard 1: Explosive Dash
-discard 2: Overcharged Drive
-special action
+Life: 20
+Discard 1: Explosive Dash
+Discard 2: Overcharged Drive
+Special action available
 Active artifacts: 
-  Shield Amulet
   Autodeflector
+  Shield Amulet
   Hover Boots
 Removed artifacts: 
   Phase Goggles
   Battlefist
 
 
-E.....R
+...E.R.
 
-Unbeatable strategy for Eligor: Counter Aegis: 0.68
-Unbeatable strategy for Eligor: Counter Aegis (1 token): 0.38
-Unbeatable strategy for Eligor: Counter Aegis (2 tokens): 0.08
-Unbeatable strategy for Eligor: Martial Aegis: 0.34
-Unbeatable strategy for Eligor: Martial Aegis (1 token): 0.04
+Unbeatable strategy for Eligor: Vengeful Burst (1 token): 3.68
+Unbeatable strategy for Eligor: Vengeful Burst (2 tokens): 3.48
+Unbeatable strategy for Eligor: Martial Burst (2 tokens): 4.63
+
 
 Eligor:
-49% Counter Aegis
-1% Counter Strike
-50% Counter Grasp
+27% Vengeful Burst
+71% Vengeful Burst (1 token)
+2% Martial Burst
 
 Runika:
-50% Maintenance Tinker
-50% Maintenance Strike
+3% Channeled Shot
+97% Special Pulse
 
 
-Eligor: Counter Aegis
-Runika: Maintenance Strike
+Eligor: Vengeful Burst (1 token)
+Runika: Special Pulse
 
-Priorities:  -1 | 4
+Eligor antes a Vengeance token
+Pulse:
+
+.ER....
+
+
+Beat 7
+-------
+
+Eligor
+------
+Life: 17
+Discard 1: Vengeful Burst
+Discard 2: Chained Strike
+Special action available
+1 Vengeance token
+
+Runika
+------
+Life: 20
+Discard 1: Explosive Dash
+Discard 2: Overcharged Drive
+Active artifacts: 
+  Autodeflector
+  Shield Amulet
+  Hover Boots
+Removed artifacts: 
+  Phase Goggles
+  Battlefist
+
+
+.ER....
+
+Unbeatable strategy for Eligor: Retribution Aegis (1 token): 2.64
+Unbeatable strategy for Eligor: Retribution Shot: 0.23
+Unbeatable strategy for Eligor: Retribution Shot (1 token): 4.28
+
+
+Eligor:
+23% Martial Shot (1 token)
+31% Retribution Aegis (1 token)
+45% Retribution Shot (1 token)
+
+Runika:
+15% Channeled Strike
+56% Maintenance Strike
+29% Maintenance Grasp
+
+
+Eligor: Martial Shot (1 token)
+Runika: Maintenance Grasp
+
+Eligor antes a Vengeance token
+Priorities:  1 | 6
 Runika is active
-Runika misses
-Eligor misses
+Runika hits
+Runika moves Eligor:
+
+..RE...
+
+Eligor takes 1 damage (now at 16 life)
+Eligor gains 1 Vengeance token
+Runika moves:
+
+R..E...
+
+Eligor gets +2 power
+Eligor hits
+Autodeflector is de-activated
+Runika has 1 soak
+Runika takes 5 damage (now at 15 life)
+Runika is stunned
 
 Beat 8
 -------
 
 Eligor
 ------
-life: 16
-discard 1: Counter Aegis
-discard 2: Vengeful Shot
-special action
-5 Vengeance tokens
+Life: 16
+Discard 1: Martial Shot
+Discard 2: Vengeful Burst
+Special action available
+1 Vengeance token
 
 Runika
 ------
-life: 20
-discard 1: Maintenance Strike
-discard 2: Explosive Dash
-special action
+Life: 15
+Discard 1: Maintenance Grasp
+Discard 2: Explosive Dash
 Active artifacts: 
   Shield Amulet
-  Autodeflector
   Hover Boots
 Removed artifacts: 
-  Phase Goggles
   Battlefist
+  Phase Goggles
 
 
-E.....R
+R..E...
 
-Unbeatable strategy for Eligor: Chained Burst: 0.28
 
 Eligor:
-100% Chained Burst
+12% Counter Drive
+30% Chained Strike
+6% Chained Drive
+25% Retribution Strike
+27% Retribution Drive (1 token)
 
 Runika:
-100% Impact Tinker
+30% Channeled Strike
+13% Channeled Drive
+10% Channeled Burst
+15% Impact Tinker
+32% Impact Burst
 
 
-Eligor: Chained Burst
-Runika: Impact Tinker
+Eligor: Retribution Strike
+Runika: Impact Burst
 
-Priorities:  0 | 5
+Priorities:  2 | 3
 Runika is active
 Runika moves:
 
-E....R.
+.R.E...
 
-Runika misses
-No artifacts to activate
-Eligor spends a Vengeance token
-Eligor spends a Vengeance token
-Eligor moves Runika:
+Runika hits
+Runika moves Eligor:
 
-E..R...
+.R..E..
+
+Eligor has 2 soak
+Eligor gains 2 Vengeance tokens
+Eligor takes 0 damage (now at 16 life)
+Eligor moves:
+
+.RE....
 
 Eligor hits
-Shield Amulet is de-activated
-Runika has 2 soak
-Runika takes 1 damage (now at 19 life)
+Hover Boots is de-activated
+Runika takes 4 damage (now at 11 life)
+Runika is stunned
 
 Beat 9
 -------
 
 Eligor
 ------
-life: 16
-discard 1: Chained Burst
-discard 2: Counter Aegis
-special action
-3 Vengeance tokens
+Life: 16
+Discard 1: Retribution Strike
+Discard 2: Martial Shot
+Special action available
+3 Vengeance token
 
 Runika
 ------
-life: 19
-discard 1: Impact Tinker
-discard 2: Maintenance Strike
-special action
+Life: 11
+Discard 1: Impact Burst
+Discard 2: Maintenance Grasp
 Active artifacts: 
-  Hover Boots
-  Autodeflector
+  Shield Amulet
 Removed artifacts: 
-  Phase Goggles
   Battlefist
+  Phase Goggles
 
 
-E..R...
+.RE....
+
 
 Eligor:
-47% Vengeful Drive
-14% Vengeful Drive (1 token)
-10% Martial Strike
-21% Martial Shot (1 token)
-9% Retribution Strike
+54% Vengeful Grasp
+9% Counter Drive
+37% Counter Dash
 
 Runika:
-4% Channeled Shot
-1% Channeled Drive
-50% Channeled Dash
-4% Explosive Burst
-42% Explosive Dash
+4% Channeled Tinker
+5% Channeled Drive
+91% Channeled Dash
 
 
-Eligor: Vengeful Drive
+Eligor: Vengeful Grasp
 Runika: Channeled Dash
 
-Priorities:  4 | 12
+Priorities:  5 | 10
 Runika is active
-Shield Amulet is activated
+Autodeflector is activated
 Runika moves:
 
-E...R..
+..ER...
 
 Eligor moves:
 
-.E..R..
+...RE..
 
 Eligor misses
 Shield Amulet is de-activated
@@ -527,167 +617,180 @@ Beat 10
 
 Eligor
 ------
-life: 16
-discard 1: Vengeful Drive
-discard 2: Chained Burst
-special action
-3 Vengeance tokens
+Life: 16
+Discard 1: Vengeful Grasp
+Discard 2: Retribution Strike
+Special action available
+3 Vengeance token
 
 Runika
 ------
-life: 19
-discard 1: Channeled Dash
-discard 2: Impact Tinker
-special action
+Life: 11
+Discard 1: Channeled Dash
+Discard 2: Impact Burst
 Active artifacts: 
-  Hover Boots
   Autodeflector
 Removed artifacts: 
   Phase Goggles
   Battlefist
 
 
-.E..R..
+...RE..
 
-Unbeatable strategy for Eligor: Martial Shot (1 token): 3.88
-Unbeatable strategy for Eligor: Martial Shot (2 tokens): 3.58
-Unbeatable strategy for Eligor: Martial Shot (3 tokens): 3.28
 
 Eligor:
-11% Martial Shot
-89% Martial Shot (1 token)
+40% Martial Shot (1 token)
+45% Martial Shot (2 tokens)
+15% Martial Burst (1 token)
 
 Runika:
-20% Maintenance Strike
-74% Maintenance Grasp
-6% Overcharged Drive
+47% Maintenance Shot
+7% Explosive Strike
+46% Overcharged Drive
 
 
-Eligor: Martial Shot (1 token)
-Runika: Maintenance Grasp
+Eligor: Martial Shot (2 tokens)
+Runika: Overcharged Drive
 
 Eligor antes a Vengeance token
-Priorities:  1 | 6
+Eligor antes a Vengeance token
+Priorities:  1 | 4
 Runika is active
-Runika misses
+Runika overcharges her Autodeflector
 Runika moves:
 
-.E....R
+....ER.
 
+Runika hits
+Eligor takes 3 damage (now at 13 life)
+Eligor gains 3 Vengeance tokens
+Eligor gets +2 power
 Eligor hits
-Autodeflector is de-activated
-Runika has 2 soak
-Runika takes 2 damage (now at 17 life)
+No artifacts to de-activate
+Runika has 4 soak
+Runika takes 2 damage (now at 9 life)
 Runika is stunned
+Autodeflector is removed from the game
 
 Beat 11
 -------
 
 Eligor
 ------
-life: 16
-discard 1: Martial Shot
-discard 2: Vengeful Drive
-special action
-2 Vengeance tokens
+Life: 13
+Discard 1: Martial Shot
+Discard 2: Vengeful Grasp
+Special action available
+4 Vengeance token
 
 Runika
 ------
-life: 17
-discard 1: Maintenance Grasp
-discard 2: Channeled Dash
-special action
-Active artifacts: 
-  Hover Boots
+Life: 9
+Discard 1: Overcharged Drive
+Discard 2: Channeled Dash
+No active artifacts
 Removed artifacts: 
+  Autodeflector
   Phase Goggles
   Battlefist
 
 
-.E....R
+....ER.
 
-Unbeatable strategy for Runika: Explosive Tinker: -2.67
-Unbeatable strategy for Runika: Impact Tinker: -0.59
 
 Eligor:
-17% Counter Aegis
-17% Counter Strike
-65% Counter Grasp
+29% Counter Burst (1 token)
+31% Chained Strike
+20% Retribution Aegis (1 token)
+6% Retribution Strike
+13% Retribution Drive
 
 Runika:
-100% Explosive Tinker
+11% Maintenance Tinker
+32% Maintenance Strike
+18% Maintenance Shot
+39% Maintenance Burst
+1% Explosive Strike
 
 
-Eligor: Counter Strike
-Runika: Explosive Tinker
+Eligor: Retribution Drive
+Runika: Maintenance Burst
 
-Priorities:  2 | 5
-Runika is active
-Runika moves Eligor:
+Priorities:  3 | 0
+Eligor is active
+Runika moves:
 
-..E...R
+....E.R
 
-Runika misses
-Autodeflector is activated
-Eligor misses
+Eligor moves:
+
+.....ER
+
+Eligor hits
+No artifacts to de-activate
+Runika has 2 soak
+Runika takes 1 damage (now at 8 life)
+Runika is stunned
 
 Beat 12
 -------
 
 Eligor
 ------
-life: 16
-discard 1: Counter Strike
-discard 2: Martial Shot
-special action
-2 Vengeance tokens
+Life: 13
+Discard 1: Retribution Drive
+Discard 2: Martial Shot
+Special action available
+4 Vengeance token
 
 Runika
 ------
-life: 17
-discard 1: Explosive Tinker
-discard 2: Maintenance Grasp
-special action
-Active artifacts: 
-  Hover Boots
-  Autodeflector
+Life: 8
+Discard 1: Maintenance Burst
+Discard 2: Overcharged Drive
+No active artifacts
 Removed artifacts: 
+  Autodeflector
   Phase Goggles
   Battlefist
 
 
-..E...R
+.....ER
 
-Unbeatable strategy for Eligor: Vengeful Burst: 0.66
-Unbeatable strategy for Eligor: Vengeful Burst (1 token): 0.36
-Unbeatable strategy for Eligor: Vengeful Burst (2 tokens): 0.06
-Unbeatable strategy for Eligor: Chained Burst: 2.19
-Unbeatable strategy for Eligor: Chained Burst (1 token): 0.51
-Unbeatable strategy for Eligor: Chained Burst (2 tokens): 0.06
+Unbeatable strategy for Eligor: Vengeful Aegis (1 token): 0.20
+Unbeatable strategy for Eligor: Vengeful Aegis (2 tokens): 0.00
+Unbeatable strategy for Eligor: Counter Burst (2 tokens): 0.27
+Unbeatable strategy for Eligor: Counter Burst (3 tokens): 0.07
+Unbeatable strategy for Eligor: Chained Aegis (2 tokens): 0.18
+
 
 Eligor:
-100% Chained Burst
+38% Vengeful Aegis (1 token)
+32% Vengeful Strike
+9% Vengeful Grasp
+17% Vengeful Dash (2 tokens)
+4% Counter Strike
 
 Runika:
-100% Impact Dash
+1% Channeled Tinker
+6% Channeled Strike
+5% Channeled Shot
+60% Channeled Dash
+29% Impact Dash
 
 
-Eligor: Chained Burst
+Eligor: Counter Strike
 Runika: Impact Dash
 
-Priorities:  0 | 11
+Priorities:  2 | 9
 Runika is active
-Eligor moves:
+Runika moves:
 
-E.....R
+....RE.
 
 Runika moves:
 
-E....R.
-
-Runika moves:
-
-E.....R
+.....ER
 
 Eligor misses
 
@@ -696,314 +799,246 @@ Beat 13
 
 Eligor
 ------
-life: 16
-discard 1: Chained Burst
-discard 2: Counter Strike
-special action
-2 Vengeance tokens
+Life: 13
+Discard 1: Counter Strike
+Discard 2: Retribution Drive
+Special action available
+4 Vengeance token
 
 Runika
 ------
-life: 17
-discard 1: Impact Dash
-discard 2: Explosive Tinker
-special action
-Active artifacts: 
-  Hover Boots
-  Autodeflector
+Life: 8
+Discard 1: Impact Dash
+Discard 2: Maintenance Burst
+No active artifacts
 Removed artifacts: 
+  Autodeflector
   Phase Goggles
   Battlefist
 
 
-E.....R
+.....ER
 
-Unbeatable strategy for Runika: Channeled Strike: -0.50
-Unbeatable strategy for Runika: Channeled Grasp: -0.50
-Unbeatable strategy for Runika: Maintenance Strike: -0.50
-Unbeatable strategy for Runika: Maintenance Drive: -0.14
-Unbeatable strategy for Runika: Maintenance Grasp: -0.50
+Unbeatable strategy for Eligor: Vengeful Aegis (1 token): 1.59
+Unbeatable strategy for Eligor: Vengeful Aegis (2 tokens): 1.53
+Unbeatable strategy for Eligor: Vengeful Aegis (3 tokens): 1.33
+Unbeatable strategy for Eligor: Vengeful Aegis (4 tokens): 1.13
+Unbeatable strategy for Eligor: Martial Aegis (2 tokens): 1.69
+Unbeatable strategy for Eligor: Martial Aegis (3 tokens): 1.49
+Unbeatable strategy for Eligor: Martial Aegis (4 tokens): 1.29
+Unbeatable strategy for Eligor: Martial Shot (2 tokens): 3.38
+Unbeatable strategy for Eligor: Martial Shot (3 tokens): 2.41
+Unbeatable strategy for Eligor: Martial Shot (4 tokens): 1.41
+Unbeatable strategy for Eligor: Chained Aegis (2 tokens): 0.17
+
 
 Eligor:
-26% Vengeful Aegis
-19% Vengeful Grasp
-26% Martial Aegis
-5% Martial Shot
-24% Martial Grasp
+46% Martial Shot (1 token)
+43% Martial Shot (2 tokens)
+11% Martial Grasp (2 tokens)
 
 Runika:
-30% Channeled Strike
-22% Channeled Drive
-10% Channeled Grasp
-7% Maintenance Strike
-30% Maintenance Grasp
+2% Channeled Strike
+36% Channeled Drive
+62% Explosive Drive
 
 
-Eligor: Martial Grasp
-Runika: Maintenance Grasp
+Eligor: Martial Shot (1 token)
+Runika: Channeled Drive
 
-Priorities:  4 | 6
+Eligor antes a Vengeance token
+Priorities:  1 | 5
 Runika is active
+Hover Boots is activated
+Runika moves:
+
+...R.E.
+
 Runika misses
-Eligor misses
+Eligor hits
+Hover Boots is de-activated
+Runika takes 4 damage (now at 4 life)
+Runika is stunned
+No artifacts to de-activate
 
 Beat 14
 -------
 
 Eligor
 ------
-life: 16
-discard 1: Martial Grasp
-discard 2: Chained Burst
-special action
-2 Vengeance tokens
+Life: 13
+Discard 1: Martial Shot
+Discard 2: Counter Strike
+Special action available
+3 Vengeance token
 
 Runika
 ------
-life: 17
-discard 1: Maintenance Grasp
-discard 2: Impact Dash
-special action
-Active artifacts: 
-  Hover Boots
-  Autodeflector
+Life: 4
+Discard 1: Channeled Drive
+Discard 2: Impact Dash
+No active artifacts
 Removed artifacts: 
+  Autodeflector
   Phase Goggles
   Battlefist
 
 
-E.....R
+...R.E.
 
-Unbeatable strategy for Runika: Channeled Tinker: -0.69
-Unbeatable strategy for Runika: Channeled Strike: -0.24
-Unbeatable strategy for Runika: Channeled Drive: -0.41
-Unbeatable strategy for Runika: Explosive Tinker: -2.57
-Unbeatable strategy for Runika: Explosive Strike: -0.15
-Unbeatable strategy for Runika: Explosive Drive: -0.07
 
 Eligor:
-58% Vengeful Aegis
-42% Vengeful Strike
+26% Vengeful Drive
+58% Chained Burst
+16% Retribution Drive
 
 Runika:
-100% Explosive Tinker
+51% Maintenance Tinker
+19% Maintenance Shot
+29% Maintenance Burst
 
 
-Eligor: Vengeful Strike
-Runika: Explosive Tinker
+Eligor: Chained Burst
+Runika: Maintenance Tinker
 
-Priorities:  3 | 5
+Priorities:  0 | 2
 Runika is active
+Eligor moves:
+
+...R..E
+
 Runika misses
 Shield Amulet is activated
-Eligor misses
-
-Beat 15
--------
-
-Eligor
-------
-life: 16
-discard 1: Vengeful Strike
-discard 2: Martial Grasp
-special action
-2 Vengeance tokens
-
-Runika
-------
-life: 17
-discard 1: Explosive Tinker
-discard 2: Maintenance Grasp
-special action
-Active artifacts: 
-  Hover Boots
-  Autodeflector
-  Shield Amulet
-Removed artifacts: 
-  Phase Goggles
-  Battlefist
-
-
-E.....R
-
-Unbeatable strategy for Runika: Overcharged Strike: -21.00
-Unbeatable strategy for Runika: Overcharged Shot: -21.00
-Unbeatable strategy for Runika: Overcharged Drive: -21.00
-Unbeatable strategy for Runika: Overcharged Burst: -21.00
-Unbeatable strategy for Runika: Overcharged Dash: -21.00
-
-Eligor:
-100% Special Pulse
-
-Runika:
-19% Channeled Strike
-81% Overcharged Strike
-
-
-Eligor: Special Pulse
-Runika: Overcharged Strike
-
-Pulse:
-
-E.....R
-
-
-Beat 15
--------
-
-Eligor
-------
-life: 16
-discard 1: Vengeful Strike
-discard 2: Martial Grasp
-2 Vengeance tokens
-
-Runika
-------
-life: 17
-discard 1: Overcharged Strike
-discard 2: Explosive Tinker
-special action
-Active artifacts: 
-  Hover Boots
-  Autodeflector
-  Shield Amulet
-Removed artifacts: 
-  Phase Goggles
-  Battlefist
-
-
-E.....R
-
-Unbeatable strategy for Eligor: Chained Shot: 22.00
-
-Eligor:
-56% Chained Shot
-44% Retribution Aegis
-
-Runika:
-0% Channeled Shot
-0% Channeled Drive
-0% Channeled Burst
-0% Channeled Grasp
-0% Channeled Dash
-0% Maintenance Shot
-0% Maintenance Drive
-0% Maintenance Burst
-0% Maintenance Grasp
-0% Maintenance Dash
-0% Impact Shot
-0% Impact Drive
-0% Impact Burst
-0% Impact Grasp
-0% Impact Dash
-100% Special Pulse
-
-
-Eligor: Chained Shot
-Runika: Special Pulse
-
-Pulse:
-
-ER.....
-
-
-Beat 15
--------
-
-Eligor
-------
-life: 16
-discard 1: Chained Shot
-discard 2: Vengeful Strike
-2 Vengeance tokens
-
-Runika
-------
-life: 17
-discard 1: Overcharged Strike
-discard 2: Explosive Tinker
-Active artifacts: 
-  Hover Boots
-  Autodeflector
-  Shield Amulet
-Removed artifacts: 
-  Phase Goggles
-  Battlefist
-
-
-ER.....
-
-Unbeatable strategy for Runika: Maintenance Dash: -21.00
-
-Eligor:
-9% Counter Aegis
-0% Counter Aegis (1 token)
-0% Counter Aegis (2 tokens)
-0% Counter Drive
-0% Counter Drive (1 token)
-0% Counter Drive (2 tokens)
-0% Counter Burst
-0% Counter Burst (1 token)
-0% Counter Burst (2 tokens)
-0% Counter Grasp
-0% Counter Grasp (1 token)
-0% Counter Grasp (2 tokens)
-9% Counter Dash
-9% Counter Dash (1 token)
-9% Counter Dash (2 tokens)
-9% Martial Aegis
-0% Martial Aegis (1 token)
-0% Martial Aegis (2 tokens)
-0% Martial Drive
-0% Martial Drive (1 token)
-0% Martial Drive (2 tokens)
-1% Martial Burst
-0% Martial Burst (1 token)
-0% Martial Burst (2 tokens)
-9% Martial Grasp
-0% Martial Grasp (1 token)
-0% Martial Grasp (2 tokens)
-9% Martial Dash
-9% Martial Dash (1 token)
-1% Martial Dash (2 tokens)
-0% Retribution Aegis
-0% Retribution Aegis (1 token)
-0% Retribution Aegis (2 tokens)
-0% Retribution Drive
-0% Retribution Drive (1 token)
-0% Retribution Drive (2 tokens)
-0% Retribution Burst
-0% Retribution Burst (1 token)
-0% Retribution Burst (2 tokens)
-0% Retribution Grasp
-0% Retribution Grasp (1 token)
-0% Retribution Grasp (2 tokens)
-9% Retribution Dash
-9% Retribution Dash (1 token)
-9% Retribution Dash (2 tokens)
-
-Runika:
-100% Maintenance Dash
-
-
-Eligor: Retribution Dash
-Runika: Maintenance Dash
-
-Priorities:  8 | 10
-Runika is active
 Runika moves:
 
-E.R....
+.R....E
+
+Eligor spends a Vengeance token
+Eligor spends a Vengeance token
+Eligor moves Runika:
+
+...R..E
+
+Eligor hits
+Shield Amulet is de-activated
+Runika has 2 soak
+Runika takes 1 damage (now at 3 life)
+
+Beat 15
+-------
+
+Eligor
+------
+Life: 13
+Discard 1: Chained Burst
+Discard 2: Martial Shot
+Special action available
+1 Vengeance token
+
+Runika
+------
+Life: 3
+Discard 1: Maintenance Tinker
+Discard 2: Channeled Drive
+No active artifacts
+Removed artifacts: 
+  Autodeflector
+  Phase Goggles
+  Battlefist
+
+
+...R..E
+
+Unbeatable strategy for Eligor: Vengeful Aegis: 8.00
+Unbeatable strategy for Eligor: Vengeful Aegis (1 token): 8.00
+Unbeatable strategy for Eligor: Vengeful Drive: 8.00
+Unbeatable strategy for Eligor: Vengeful Drive (1 token): 8.00
+Unbeatable strategy for Eligor: Counter Aegis: 8.00
+Unbeatable strategy for Eligor: Counter Aegis (1 token): 8.00
+Unbeatable strategy for Eligor: Counter Grasp: 8.00
+Unbeatable strategy for Eligor: Counter Grasp (1 token): 8.00
+Unbeatable strategy for Eligor: Counter Dash: 8.00
+Unbeatable strategy for Eligor: Counter Dash (1 token): 8.00
+Unbeatable strategy for Eligor: Retribution Aegis: 8.00
+Unbeatable strategy for Eligor: Retribution Aegis (1 token): 8.00
+Unbeatable strategy for Eligor: Retribution Grasp: 8.00
+Unbeatable strategy for Eligor: Retribution Grasp (1 token): 8.00
+Unbeatable strategy for Eligor: Retribution Dash: 8.00
+Unbeatable strategy for Eligor: Retribution Dash (1 token): 8.00
+
+
+Eligor:
+3% Vengeful Aegis
+3% Vengeful Aegis (1 token)
+3% Vengeful Strike
+3% Vengeful Strike (1 token)
+3% Vengeful Drive
+3% Vengeful Drive (1 token)
+3% Vengeful Grasp
+3% Vengeful Grasp (1 token)
+3% Vengeful Dash
+3% Vengeful Dash (1 token)
+3% Counter Aegis
+3% Counter Aegis (1 token)
+3% Counter Strike
+3% Counter Strike (1 token)
+3% Counter Drive
+3% Counter Drive (1 token)
+3% Counter Grasp
+3% Counter Grasp (1 token)
+3% Counter Dash
+3% Counter Dash (1 token)
+3% Retribution Aegis
+3% Retribution Aegis (1 token)
+3% Retribution Strike
+3% Retribution Strike (1 token)
+3% Retribution Drive
+3% Retribution Drive (1 token)
+3% Retribution Grasp
+3% Retribution Grasp (1 token)
+3% Retribution Dash
+3% Retribution Dash (1 token)
+
+Runika:
+7% Explosive Strike
+6% Explosive Shot
+7% Explosive Burst
+7% Explosive Grasp
+6% Explosive Dash
+7% Impact Strike
+6% Impact Shot
+7% Impact Burst
+7% Impact Grasp
+6% Impact Dash
+7% Overcharged Strike
+7% Overcharged Shot
+7% Overcharged Burst
+7% Overcharged Grasp
+7% Overcharged Dash
+
+
+Eligor: Counter Drive
+Runika: Explosive Burst
+
+Priorities:  3 | 1
+Eligor is active
+Runika moves Eligor:
+
+...R.E.
 
 Runika moves:
 
-ER.....
+.R...E.
 
 Eligor moves:
 
-.RE....
+.R.E...
 
+Eligor misses
+Runika hits
+Eligor takes 2 damage (now at 11 life)
+Eligor is stunned
+Eligor gains 2 Vengeance tokens
 Game goes to time
-RUNIKA WINS!
-total_time: 37
+ELIGOR WINS!
+total_time: 51

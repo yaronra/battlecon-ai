@@ -11,91 +11,146 @@ Beat 1
 
 Lixis
 -----
-life: 20
-discard 1: Pruning Grasp
-discard 2: Rooted Strike
-special action
+Life: 20
+Discard 1: Pruning Grasp
+Discard 2: Rooted Strike
+Special action available
 
 Lymn
 ----
-life: 20
-discard 1: Maddening Burst
-discard 2: Chimeric Dash
-special action
+Life: 20
+Discard 1: Maddening Burst
+Discard 2: Chimeric Dash
+Special action available
 
 
 .L...l.
 
+
 Lixis:
-20% Venomous Drive
-38% Venomous Dash
-22% Vine Shot
-14% Vine Drive
-5% Vine Burst
+16% Venomous Drive
+9% Naturalizing Drive
+16% Vine Lance
+21% Vine Shot
+4% Vine Burst
+34% Vine Dash
 
 Lymn:
-62% Surreal Drive
-24% Reverie Strike
-7% Reverie Grasp
-3% Fathomless Visions
-4% Fathomless Shot
+3% Surreal Visions
+53% Surreal Drive
+16% Reverie Strike
+9% Reverie Drive
+4% Reverie Grasp
+16% Fathomless Shot
 
 
-Lixis: Vine Shot
+Lixis: Vine Dash
 Lymn: Surreal Drive
 
-Priorities:  0 | 5
-Lymn is active
-Disparity is 5
+Priorities:  7 | 5
+Lixis is active
+Disparity is 2
+Lixis moves:
+
+...L.l.
+
 Lymn moves:
 
-.L.l...
+..lL...
 
-Lymn hits
-Lixis takes 3 damage (now at 17 life)
+Lymn misses
 Lymn moves:
 
-.L....l
+...L.l.
 
-Lixis hits
-Lixis moves Lymn:
-
-.L..l..
-
-Lymn discards Strike
-Lymn takes 3 damage (now at 17 life)
-Lymn is stunned
 
 Beat 2
 -------
 
 Lixis
 -----
-life: 17
-discard 1: Vine Shot
-discard 2: Pruning Grasp
-special action
+Life: 20
+Discard 1: Vine Dash
+Discard 2: Pruning Grasp
+Special action available
 
 Lymn
 ----
-life: 17
-discard 1: Surreal Drive Strike
-discard 2: Maddening Burst
-special action
+Life: 20
+Discard 1: Surreal Drive
+Discard 2: Maddening Burst
+Special action available
 
 
-.L..l..
+...L.l.
+
 
 Lixis:
-43% Venomous Drive
-0% Naturalizing Lance
-57% Naturalizing Drive
+20% Venomous Lance
+9% Venomous Drive
+14% Rooted Lance
+11% Rooted Drive
+20% Naturalizing Lance
+26% Naturalizing Drive
 
 Lymn:
-31% Chimeric Visions
-61% Chimeric Dash
-6% Reverie Grasp
-2% Fathomless Dash
+25% Chimeric Visions
+0% Chimeric Strike
+2% Reverie Strike
+13% Reverie Grasp
+55% Fathomless Strike
+4% Fathomless Dash
+
+
+Lixis: Rooted Lance
+Lymn: Fathomless Strike
+
+Priorities:  3 | 1
+Lixis is active
+Disparity is 2
+Lixis hits
+Lymn discards Shot
+Lymn takes 4 damage (now at 16 life)
+Lymn hits
+Lixis has 2 soak
+Lixis takes 1 damage (now at 19 life)
+Lixis is stunned
+
+Beat 3
+-------
+
+Lixis
+-----
+Life: 19
+Discard 1: Rooted Lance
+Discard 2: Vine Dash
+Special action available
+
+Lymn
+----
+Life: 16
+Discard 1: Fathomless Strike Shot
+Discard 2: Surreal Drive
+Special action available
+
+
+...L.l.
+
+
+Lixis:
+24% Venomous Strike
+13% Venomous Drive
+6% Venomous Burst
+43% Naturalizing Drive
+15% Naturalizing Grasp
+
+Lymn:
+1% Maddening Grasp
+5% Maddening Dash
+16% Chimeric Visions
+25% Chimeric Grasp
+45% Chimeric Dash
+8% Reverie Grasp
 
 
 Lixis: Naturalizing Drive
@@ -106,45 +161,374 @@ Lymn is active
 Disparity is 6
 Lymn moves:
 
-.L.l...
+...Ll..
 
 Lymn moves:
 
-.L....l
+..lL...
 
 Lixis moves:
 
-...L..l
+.Ll....
 
 Lixis misses
 
-Beat 3
+Beat 4
 -------
 
 Lixis
 -----
-life: 17
-discard 1: Naturalizing Drive
-discard 2: Vine Shot
-special action
+Life: 19
+Discard 1: Naturalizing Drive
+Discard 2: Rooted Lance
+Special action available
 
 Lymn
 ----
-life: 17
-discard 1: Chimeric Dash
-discard 2: Surreal Drive Strike
-special action
+Life: 16
+Discard 1: Chimeric Dash
+Discard 2: Fathomless Strike Shot
+Special action available
 
 
-...L..l
+.Ll....
+
 
 Lixis:
-69% Venomous Lance
-31% Venomous Burst
+29% Vine Grasp
+22% Pruning Strike
+41% Pruning Shot
+7% Pruning Grasp
 
 Lymn:
-66% Maddening Shot
-34% Maddening Grasp
+28% Maddening Visions
+17% Maddening Burst
+2% Maddening Grasp
+52% Special Pulse
+
+
+Lixis: Pruning Shot
+Lymn: Maddening Visions
+
+Lixis gets +3 power
+Lixis gets +3 priority
+Priorities:  3 | 3
+Clash!
+
+
+Lixis: Pruning Dash
+Lymn: Maddening Burst
+
+Lixis gets +3 power
+Lixis gets +3 priority
+Priorities:  10 | 1
+Lixis is active
+Disparity is 9
+Lymn moves:
+
+.L.l...
+
+Lixis moves:
+
+..Ll...
+
+Lymn misses
+
+Beat 5
+-------
+
+Lixis
+-----
+Life: 19
+Discard 1: Pruning Dash
+Discard 2: Naturalizing Drive
+Special action available
+
+Lymn
+----
+Life: 16
+Discard 1: Maddening Burst
+Discard 2: Chimeric Dash
+Special action available
+
+
+..Ll...
+
+
+Lixis:
+9% Venomous Strike
+3% Venomous Shot
+4% Venomous Grasp
+63% Rooted Lance
+5% Rooted Shot
+16% Rooted Burst
+
+Lymn:
+11% Surreal Visions
+45% Surreal Shot
+6% Surreal Drive
+1% Reverie Visions
+10% Reverie Drive
+27% Fathomless Shot
+
+
+Lixis: Rooted Lance
+Lymn: Surreal Visions
+
+Priorities:  3 | 4
+Lymn is active
+Disparity is 1
+Lymn misses
+Lixis hits
+Lymn discards Shot
+Lymn takes 4 damage (now at 12 life)
+Lymn is stunned
+
+Beat 6
+-------
+
+Lixis
+-----
+Life: 19
+Discard 1: Rooted Lance
+Discard 2: Pruning Dash
+Special action available
+
+Lymn
+----
+Life: 12
+Discard 1: Surreal Visions Shot
+Discard 2: Maddening Burst
+Special action available
+
+
+..Ll...
+
+
+Lixis:
+34% Venomous Strike
+3% Naturalizing Strike
+62% Naturalizing Drive
+
+Lymn:
+8% Chimeric Drive
+91% Chimeric Dash
+1% Reverie Drive
+
+
+Lixis: Naturalizing Drive
+Lymn: Chimeric Dash
+
+Priorities:  5 | 11
+Lymn is active
+Disparity is 6
+Lymn moves:
+
+.lL....
+
+Lymn moves:
+
+..Ll...
+
+Lixis moves:
+
+...lL..
+
+Lixis misses
+
+Beat 7
+-------
+
+Lixis
+-----
+Life: 19
+Discard 1: Naturalizing Drive
+Discard 2: Rooted Lance
+Special action available
+
+Lymn
+----
+Life: 12
+Discard 1: Chimeric Dash
+Discard 2: Surreal Shot Visions
+Special action available
+
+
+...lL..
+
+
+Lixis:
+18% Venomous Burst
+8% Vine Burst
+37% Pruning Strike
+29% Pruning Shot
+7% Pruning Dash
+
+Lymn:
+8% Maddening Drive
+48% Maddening Burst
+38% Reverie Drive
+2% Reverie Burst
+4% Fathomless Burst
+
+
+Lixis: Pruning Strike
+Lymn: Maddening Burst
+
+Lixis gets +3 power
+Lixis gets +3 priority
+Priorities:  4 | 1
+Lixis is active
+Disparity is 3
+Lymn moves:
+
+.l..L..
+
+Lixis misses
+Lymn hits
+Lixis takes 3 damage (now at 16 life)
+
+Beat 8
+-------
+
+Lixis
+-----
+Life: 16
+Discard 1: Pruning Strike
+Discard 2: Naturalizing Drive
+Special action available
+
+Lymn
+----
+Life: 12
+Discard 1: Maddening Burst
+Discard 2: Chimeric Dash
+Special action available
+
+
+.l..L..
+
+
+Lixis:
+55% Venomous Lance
+17% Rooted Shot
+29% Vine Lance
+
+Lymn:
+65% Surreal Drive
+19% Reverie Strike
+16% Reverie Drive
+
+
+Lixis: Vine Lance
+Lymn: Reverie Drive
+
+Priorities:  3 | 3
+Lymn is active
+Disparity is 0
+Lymn moves:
+
+..l.L..
+
+Lymn hits
+Lixis takes 6 damage (now at 10 life)
+Lixis is stunned
+
+Beat 9
+-------
+
+Lixis
+-----
+Life: 10
+Discard 1: Vine Lance
+Discard 2: Pruning Strike
+Special action available
+
+Lymn
+----
+Life: 12
+Discard 1: Reverie Drive
+Discard 2: Maddening Burst
+Special action available
+
+
+..l.L..
+
+
+Lixis:
+20% Venomous Drive
+10% Venomous Grasp
+2% Rooted Shot
+8% Rooted Burst
+2% Rooted Dash
+16% Naturalizing Shot
+42% Naturalizing Dash
+
+Lymn:
+6% Chimeric Strike
+13% Chimeric Grasp
+63% Chimeric Dash
+8% Surreal Strike
+3% Surreal Grasp
+7% Fathomless Visions
+0% Fathomless Dash
+
+
+Lixis: Naturalizing Dash
+Lymn: Chimeric Dash
+
+Priorities:  10 | 11
+Lymn is active
+Disparity is 1
+Lymn moves:
+
+...lL..
+
+Lymn moves:
+
+....Ll.
+
+Lixis moves:
+
+...L.l.
+
+
+Beat 10
+-------
+
+Lixis
+-----
+Life: 10
+Discard 1: Naturalizing Dash
+Discard 2: Vine Lance
+Special action available
+
+Lymn
+----
+Life: 12
+Discard 1: Chimeric Dash
+Discard 2: Reverie Drive
+Special action available
+
+
+...L.l.
+
+
+Lixis:
+17% Venomous Burst
+26% Venomous Grasp
+29% Rooted Shot
+3% Rooted Drive
+17% Rooted Burst
+8% Pruning Drive
+
+Lymn:
+2% Maddening Visions
+40% Maddening Burst
+29% Maddening Grasp
+5% Surreal Visions
+19% Surreal Strike
+5% Surreal Grasp
 
 
 Lixis: Venomous Burst
@@ -155,56 +539,58 @@ Lymn is active
 Disparity is 4
 Lixis moves:
 
-..L...l
+..L..l.
 
 Lymn misses
 Lixis moves:
 
-...L..l
+...L.l.
 
 Lixis hits
+Lymn will have -2 priority next beat
 Lymn discards Shot
 Lymn has 2 soak
-Lymn takes 2 damage (now at 15 life)
+Lymn takes 2 damage (now at 10 life)
 Lymn is stunned
 
-Beat 4
+Beat 11
 -------
 
 Lixis
 -----
-life: 17
-discard 1: Venomous Burst
-discard 2: Naturalizing Drive
-special action
-Opponent at -2 priority from last beat
+Life: 10
+Discard 1: Venomous Burst
+Discard 2: Naturalizing Dash
+Special action available
+Opponent has priority penalty: -2
 
 Lymn
 ----
-life: 15
-discard 1: Maddening Grasp Shot
-discard 2: Chimeric Dash
-special action
+Life: 10
+Discard 1: Maddening Grasp Shot
+Discard 2: Chimeric Dash
+Special action available
 
 
-...L..l
+...L.l.
 
-Unbeatable strategy for Lixis: Vine Strike: 0.75
+Unbeatable strategy for Lixis: Vine Strike: 2.81
+
 
 Lixis:
-43% Vine Lance
-35% Vine Strike
-2% Vine Grasp
-19% Pruning Grasp
+38% Rooted Drive
+16% Rooted Grasp
+29% Vine Strike
+16% Pruning Drive
 
 Lymn:
-1% Surreal Drive
-9% Reverie Drive
-5% Fathomless Visions
-86% Special Pulse
+6% Surreal Visions
+2% Surreal Strike
+4% Fathomless Burst
+88% Special Pulse
 
 
-Lixis: Vine Lance
+Lixis: Vine Strike
 Lymn: Special Pulse
 
 Pulse:
@@ -212,310 +598,273 @@ Pulse:
 L.....l
 
 
-Beat 4
+Beat 11
 -------
 
 Lixis
 -----
-life: 17
-discard 1: Vine Lance
-discard 2: Venomous Burst
-special action
+Life: 10
+Discard 1: Vine Strike
+Discard 2: Venomous Burst
+Special action available
 
 Lymn
 ----
-life: 15
-discard 1: Maddening Grasp Shot
-discard 2: Chimeric Dash
+Life: 10
+Discard 1: Maddening Grasp Shot
+Discard 2: Chimeric Dash
 
 
 L.....l
 
+
 Lixis:
-7% Rooted Shot
-43% Rooted Drive
-23% Rooted Grasp
-27% Naturalizing Dash
+10% Rooted Shot
+51% Rooted Grasp
+35% Naturalizing Dash
+4% Pruning Grasp
 
 Lymn:
 4% Surreal Visions
-16% Surreal Drive
-40% Reverie Drive
-41% Fathomless Visions
+23% Reverie Drive
+72% Fathomless Burst
 
 
-Lixis: Rooted Drive
-Lymn: Fathomless Visions
+Lixis: Naturalizing Dash
+Lymn: Reverie Drive
 
-Priorities:  2 | 1
+Priorities:  10 | 3
 Lixis is active
-Disparity is 1
-Lixis moves:
-
-..L...l
-
-Lixis misses
-Lymn moves:
-
-..L..l.
-
-Lymn misses
-Lymn moves:
-
-..L...l
-
-
-Beat 5
--------
-
-Lixis
------
-life: 17
-discard 1: Rooted Drive
-discard 2: Vine Lance
-special action
-
-Lymn
-----
-life: 15
-discard 1: Fathomless Visions
-discard 2: Maddening Grasp Shot
-
-
-..L...l
-
-Unbeatable strategy for Lymn: Surreal Drive: -2.13
-
-Lixis:
-29% Venomous Grasp
-15% Pruning Shot
-56% Pruning Dash
-
-Lymn:
-30% Surreal Strike
-29% Surreal Drive
-42% Reverie Drive
-
-
-Lixis: Pruning Dash
-Lymn: Surreal Drive
-
-Lixis gets +3 power
-Lixis gets +3 priority
-Priorities:  10 | 5
-Lixis is active
-Disparity is 5
+Disparity is 7
+Lymn loses 2 life (now at 8)
+Lymn is stunned
 Lixis moves:
 
 ...L..l
 
-Lymn moves:
 
-...Ll..
-
-Lymn hits
-Lixis takes 3 damage (now at 14 life)
-Lixis is stunned
-Lymn moves:
-
-l..L...
-
-
-Beat 6
+Beat 12
 -------
 
 Lixis
 -----
-life: 14
-discard 1: Pruning Dash
-discard 2: Rooted Drive
-special action
+Life: 10
+Discard 1: Naturalizing Dash
+Discard 2: Vine Strike
+Special action available
 
 Lymn
 ----
-life: 15
-discard 1: Surreal Drive
-discard 2: Fathomless Visions
+Life: 8
+Discard 1: Reverie Drive
+Discard 2: Maddening Grasp Shot
 
+
+...L..l
+
+
+Lixis:
+48% Venomous Lance
+34% Venomous Drive
+18% Pruning Shot
+
+Lymn:
+32% Chimeric Visions
+34% Fathomless Strike
+34% Fathomless Dash
+
+
+Lixis: Venomous Lance
+Lymn: Chimeric Visions
+
+Priorities:  5 | 5
+Clash!
+
+
+Lixis: Venomous Shot
+Lymn: Chimeric Dash
+
+Priorities:  2 | 11
+Lymn is active
+Disparity is 9
+Lymn moves:
+
+...L.l.
+
+Lymn moves:
+
+..lL...
+
+Lixis misses
+
+Beat 13
+-------
+
+Lixis
+-----
+Life: 10
+Discard 1: Venomous Shot
+Discard 2: Naturalizing Dash
+Special action available
+
+Lymn
+----
+Life: 8
+Discard 1: Chimeric Dash
+Discard 2: Reverie Drive
+
+
+..lL...
+
+
+Lixis:
+2% Vine Strike
+37% Vine Drive
+26% Vine Grasp
+7% Pruning Drive
+7% Pruning Burst
+20% Pruning Grasp
+
+Lymn:
+20% Maddening Strike
+14% Maddening Shot
+12% Maddening Burst
+35% Maddening Grasp
+5% Surreal Visions
+14% Surreal Burst
+
+
+Lixis: Pruning Drive
+Lymn: Surreal Burst
+
+Lixis gets +2 power
+Lixis gets +2 priority
+Priorities:  4 | 2
+Lixis is active
+Disparity is 2
+Lymn moves:
 
 l..L...
 
+Lixis moves:
+
+lL.....
+
+Lixis hits
+Lymn discards Shot
+Lymn takes 4 damage (now at 4 life)
+Lymn is stunned
+
+Beat 14
+-------
+
+Lixis
+-----
+Life: 10
+Discard 1: Pruning Drive
+Discard 2: Venomous Shot
+Special action available
+
+Lymn
+----
+Life: 4
+Discard 1: Surreal Burst Shot
+Discard 2: Chimeric Dash
+
+
+lL.....
+
+Unbeatable strategy for Lixis: Naturalizing Grasp: 0.40
+
+
 Lixis:
-45% Venomous Lance
-32% Vine Lance
-24% Vine Shot
+30% Rooted Strike
+3% Naturalizing Strike
+56% Naturalizing Grasp
+11% Vine Strike
 
 Lymn:
-80% Maddening Shot
-9% Reverie Strike
-12% Reverie Grasp
+31% Maddening Visions
+60% Maddening Strike
+7% Maddening Drive
+2% Fathomless Drive
 
 
-Lixis: Vine Shot
-Lymn: Maddening Shot
+Lixis: Naturalizing Grasp
+Lymn: Maddening Strike
 
-Priorities:  0 | 2
-Lymn is active
-Disparity is 2
-Lymn hits
-Lixis takes 2 damage (now at 12 life)
+Priorities:  6 | 3
+Lixis is active
+Disparity is 3
 Lixis hits
 Lixis moves Lymn:
 
-..lL...
+.Ll....
 
-Lymn discards Burst
-Lymn takes 2 damage (now at 13 life)
-
-Beat 7
--------
-
-Lixis
------
-life: 12
-discard 1: Vine Shot
-discard 2: Pruning Dash
-special action
-
-Lymn
-----
-life: 13
-discard 1: Maddening Shot Burst
-discard 2: Surreal Drive
-
-
-..lL...
-
-Lixis:
-9% Venomous Lance
-49% Venomous Drive
-36% Venomous Burst
-6% Naturalizing Strike
-
-Lymn:
-29% Chimeric Visions
-43% Chimeric Grasp
-14% Chimeric Dash
-0% Reverie Visions
-14% Fathomless Dash
-
-
-Lixis: Venomous Drive
-Lymn: Chimeric Visions
-
-Priorities:  4 | 5
-Lymn is active
-Disparity is 1
-Lymn moves:
-
-...Ll..
-
-Lymn moves:
-
-..lL...
-
+Lymn discards Visions
+Lymn has 2 soak
+Lymn takes 1 damage (now at 3 life)
 Lymn hits
-Lixis takes 0 damage (now at 12 life)
-Lymn moves:
+Lixis takes 3 damage (now at 7 life)
+Lixis is stunned
 
-l..L...
-
-Lixis moves:
-
-l.L....
-
-Lixis moves:
-
-lL.....
-
-Lixis hits
-Lymn discards Strike
-Lymn takes 4 damage (now at 9 life)
-Lymn is stunned
-
-Beat 8
+Beat 15
 -------
 
 Lixis
 -----
-life: 12
-discard 1: Venomous Drive
-discard 2: Vine Shot
-special action
-Opponent at -2 priority from last beat
+Life: 7
+Discard 1: Naturalizing Grasp
+Discard 2: Pruning Drive
+Special action available
 
 Lymn
 ----
-life: 9
-discard 1: Chimeric Strike Visions
-discard 2: Maddening Shot Burst
+Life: 3
+Discard 1: Maddening Strike Visions
+Discard 2: Surreal Burst Shot
 
 
-lL.....
+.Ll....
+
+Unbeatable strategy for Lixis: Venomous Dash: 8.00
+Unbeatable strategy for Lixis: Rooted Strike: 8.00
+
 
 Lixis:
-59% Rooted Lance
-41% Pruning Strike
+14% Venomous Strike
+14% Venomous Dash
+14% Rooted Lance
+14% Rooted Strike
+14% Rooted Dash
+14% Vine Dash
+14% Special Virulent Miasma
 
 Lymn:
-44% Surreal Drive
-56% Surreal Dash
+6% Chimeric Drive
+10% Chimeric Grasp
+12% Chimeric Dash
+11% Reverie Drive
+11% Reverie Grasp
+11% Reverie Dash
+14% Fathomless Drive
+12% Fathomless Grasp
+12% Fathomless Dash
 
 
-Lixis: Pruning Strike
-Lymn: Surreal Drive
+Lixis: Rooted Strike
+Lymn: Reverie Drive
 
-Lixis gets +4 power
-Lixis gets +4 priority
-Priorities:  5 | 3
-Lixis is active
-Disparity is 2
-Lixis hits
-Lymn discards Grasp
-Lymn takes 7 damage (now at 2 life)
-Lymn is stunned
-
-Beat 9
--------
-
-Lixis
------
-life: 12
-discard 1: Pruning Strike
-discard 2: Venomous Drive
-special action
-
-Lymn
-----
-life: 2
-discard 1: Surreal Drive Grasp
-discard 2: Chimeric Strike Visions
-
-
-lL.....
-
-Unbeatable strategy for Lixis: Rooted Lance: 2.04
-
-Lixis:
-92% Rooted Lance
-8% Rooted Shot
-
-Lymn:
-41% Maddening Shot
-59% Maddening Dash
-
-
-Lixis: Rooted Shot
-Lymn: Maddening Shot
-
-Priorities:  0 | 2
+Priorities:  1 | 3
 Lymn is active
 Disparity is 2
-Lymn hits
-Lixis has 2 soak
-Lixis takes 0 damage (now at 12 life)
+Lymn moves:
+
+lL.....
+
+Lymn misses
 Lixis hits
 Lymn discards Dash
-Lymn takes 2 damage (now at 0 life)
+Lymn takes 5 damage (now at 0 life)
 LIXIS WINS!
-total_time: 9
+total_time: 32

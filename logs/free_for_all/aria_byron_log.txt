@@ -11,17 +11,17 @@ Beat 1
 
 Aria
 ----
-life: 20
-discard 1: Laser Grasp
-discard 2: Ionic Dash
-special action
+Life: 20
+Discard 1: Laser Grasp
+Discard 2: Ionic Dash
+Special action available
 
 Byron
 -----
-life: 15
-discard 1: Soulless Strike
-discard 2: Heartless Shot
-special action
+Life: 15
+Discard 1: Soulless Strike
+Discard 2: Heartless Shot
+Special action available
 5 Mask emblems
 
 
@@ -30,48 +30,95 @@ special action
 .m.....
 .......
 
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.65
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.95
+
 
 Aria:
-9% Photovoltaic Drive
-76% Catalyst Reconfiguration
-1% Catalyst Burst
-14% Dimensional Reconfiguration
+16% Photovoltaic Drive
+54% Catalyst Reconfiguration
+30% Dimensional Reconfiguration
 
 Byron:
-1% Deathless Burst
-4% Faceless Drive
-28% Breathless Smoke
-66% Breathless Grasp
+0% Deathless Smoke
+40% Deathless Burst
+60% Breathless Grasp
 
 
-Aria: Photovoltaic Drive
-Byron: Deathless Burst
+Aria: Catalyst Reconfiguration
+Byron: Breathless Grasp
 
-Priorities:  5 | 0
+Aria gets +4 priority
+Priorities:  8 | 5
 Aria is active
 Byron moves:
 
-.A....B
+BA.....
 .......
 .m.....
 .......
 
 Aria moves:
 
-...A..B
+B..A...
 .......
 .m.....
 .......
 
-Aria hits
-Byron takes 1 damage (now at 14 life)
-Byron is stunned
-Byron loses a Mask Emblem: now at 4
 Aria adds her Dampening droid:
 
-...A..B
-...d...
+B..A...
+....d..
+.m.....
+.......
+
+Aria misses
+Byron misses
+
+Beat 2
+-------
+
+Aria
+----
+Life: 20
+Discard 1: Catalyst Reconfiguration
+Discard 2: Laser Grasp
+Special action available
+
+Byron
+-----
+Life: 15
+Discard 1: Breathless Grasp
+Discard 2: Soulless Strike
+Special action available
+5 Mask emblems
+
+
+B..A...
+....d..
+.m.....
+.......
+
+Unbeatable strategy for Aria: Photovoltaic Drive: 0.82
+
+
+Aria:
+41% Photovoltaic Strike
+32% Photovoltaic Drive
+27% Photovoltaic Burst
+
+Byron:
+13% Deathless Dash
+7% Heartless Drive
+80% Special Pulse
+
+
+Aria: Photovoltaic Drive
+Byron: Special Pulse
+
+Pulse:
+
+A.....B
+....d..
 .m.....
 .......
 
@@ -81,550 +128,602 @@ Beat 2
 
 Aria
 ----
-life: 20
-discard 1: Photovoltaic Drive
-discard 2: Laser Grasp
-special action
+Life: 20
+Discard 1: Photovoltaic Drive
+Discard 2: Catalyst Reconfiguration
+Special action available
 
 Byron
 -----
-life: 12
-discard 1: Deathless Burst
-discard 2: Soulless Strike
-special action
-4 Mask emblems
+Life: 15
+Discard 1: Breathless Grasp
+Discard 2: Soulless Strike
+5 Mask emblems
 
 
-...A..B
-...d...
+A.....B
+....d..
 .m.....
 .......
 
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 2.41
-Unbeatable strategy for Aria: Dimensional Strike: 0.32
-Unbeatable strategy for Aria: Dimensional Dash: 0.20
+Unbeatable strategy for Aria: Dimensional Shot: 1.64
+
 
 Aria:
-7% Catalyst Strike
-8% Catalyst Burst
-77% Dimensional Reconfiguration
-7% Dimensional Burst
+6% Ionic Shot
+14% Laser Shot
+81% Dimensional Shot
 
 Byron:
-43% Heartless Shot
-3% Heartless Grasp
-20% Breathless Smoke
-34% Breathless Drive
+65% Deathless Shot
+21% Deathless Drive
+14% Deathless Burst
 
 
-Aria: Dimensional Reconfiguration
-Byron: Heartless Shot
+Aria: Laser Shot
+Byron: Deathless Shot
 
-Aria gets +2 power
-Priorities:  7 | 3
+Priorities:  2 | 1
 Aria is active
-Aria moves:
-
-.....AB
-...d...
-.m.....
-.......
-
-Aria adds her Turret droid:
-
-.....AB
-...d...
-.m.....
-...t...
-
-Aria misses
-Byron misses
-Aria moves:
-
-..A...B
-...d...
-.m.....
-...t...
-
+Aria hits
+Byron takes 1 damage (now at 14 life)
+Byron loses a Mask Emblem: now at 4
+Byron hits
+Aria takes 5 damage (now at 15 life)
+Aria is stunned
 
 Beat 3
 -------
 
 Aria
 ----
-life: 20
-discard 1: Dimensional Reconfiguration
-discard 2: Photovoltaic Drive
-special action
+Life: 15
+Discard 1: Laser Shot
+Discard 2: Photovoltaic Drive
+Special action available
 
 Byron
 -----
-life: 12
-discard 1: Heartless Shot
-discard 2: Deathless Burst
-special action
+Life: 12
+Discard 1: Deathless Shot
+Discard 2: Breathless Grasp
 4 Mask emblems
 
 
-..A...B
-...d...
+A.....B
+....d..
 .m.....
-...t...
+.......
+
 
 Aria:
-8% Ionic Dash
-14% Laser Shot
-78% Catalyst Burst
+13% Ionic Strike
+60% Ionic Grasp
+17% Catalyst Reconfiguration
+10% Dimensional Reconfiguration
 
 Byron:
-1% Faceless Smoke
-35% Breathless Drive
-64% Breathless Dash
+18% Heartless Smoke
+46% Heartless Strike
+33% Faceless Smoke
+3% Faceless Burst
 
 
-Aria: Catalyst Burst
-Byron: Breathless Dash
+Aria: Ionic Grasp
+Byron: Heartless Strike
 
-Priorities:  2 | 9
-Byron is active
-Byron moves:
+Priorities:  6 | 4
+Aria is active
+Aria moves Byron:
 
-B.A....
-...d...
+A....B.
+....d..
 .m.....
-...t...
-
-Aria moves:
-
-B..A...
-...d...
-.m.....
-...t...
-
-Byron moves:
-
-...AB..
-...d...
-.m.....
-...t...
+.......
 
 Aria misses
-Byron loses 1 life (now at 11)
+Byron misses
 
 Beat 4
 -------
 
 Aria
 ----
-life: 20
-discard 1: Catalyst Burst
-discard 2: Dimensional Reconfiguration
-special action
+Life: 15
+Discard 1: Ionic Grasp
+Discard 2: Laser Shot
+Special action available
 
 Byron
 -----
-life: 11
-discard 1: Breathless Dash
-discard 2: Heartless Shot
-special action
+Life: 12
+Discard 1: Heartless Strike
+Discard 2: Deathless Shot
 4 Mask emblems
 
 
-...AB..
-...d...
+A....B.
+....d..
 .m.....
-...t...
+.......
+
 
 Aria:
-15% Photovoltaic Strike
-1% Photovoltaic Shot
-21% Photovoltaic Drive
-56% Ionic Dash
-7% Laser Shot
+18% Photovoltaic Drive
+82% Dimensional Reconfiguration
 
 Byron:
-55% Soulless Drive
-1% Soulless Burst
-0% Deathless Drive
-37% Deathless Burst
-7% Faceless Drive
+28% Faceless Drive
+72% Faceless Burst
 
 
-Aria: Ionic Dash
-Byron: Soulless Drive
+Aria: Dimensional Reconfiguration
+Byron: Faceless Burst
 
-Aria loses 2 life (now at 18)
-Byron gets +2 power
-Priorities:  10 | 0
+Priorities:  7 | 1
 Aria is active
-Aria moves Byron:
+Byron moves:
 
-..BA...
-...d...
+A.....B
+....d..
 .m.....
-...t...
+.......
 
 Aria moves:
 
-.AB....
-...d...
+.A....B
+....d..
 .m.....
-...t...
+.......
+
+Aria adds her Turret droid:
+
+.A....B
+....d..
+.m.....
+.....t.
+
+Aria misses
+Byron misses
+Aria moves:
+
+....A.B
+....d..
+.m.....
+.....t.
+
+Byron loses 1 life (now at 11)
+
+Beat 5
+-------
+
+Aria
+----
+Life: 15
+Discard 1: Dimensional Reconfiguration
+Discard 2: Ionic Grasp
+Special action available
+
+Byron
+-----
+Life: 11
+Discard 1: Faceless Burst
+Discard 2: Heartless Strike
+4 Mask emblems
+
+
+....A.B
+....d..
+.m.....
+.....t.
+
+Unbeatable strategy for Byron: Breathless Dash: -0.23
+
+
+Aria:
+12% Photovoltaic Shot
+8% Photovoltaic Drive
+18% Catalyst Shot
+31% Catalyst Drive
+32% Catalyst Burst
+
+Byron:
+0% Deathless Smoke
+9% Deathless Grasp
+12% Breathless Shot
+1% Breathless Grasp
+79% Breathless Dash
+
+
+Aria: Catalyst Drive
+Byron: Breathless Dash
+
+Priorities:  5 | 9
+Byron is active
+Byron moves:
+
+..B.A..
+....d..
+.m.....
+.....t.
 
 Byron moves:
 
-BA.....
-...d...
+....A.B
+....d..
 .m.....
-...t...
+.....t.
 
-Byron misses
-Byron loses a Mask Emblem: now at 3
+Aria moves:
 
-Beat 5
--------
-
-Aria
-----
-life: 18
-discard 1: Ionic Dash
-discard 2: Catalyst Burst
-special action
-
-Byron
------
-life: 9
-discard 1: Soulless Drive
-discard 2: Breathless Dash
-special action
-3 Mask emblems
-
-
-BA.....
-...d...
+.....AB
+....d..
 .m.....
-...t...
+.....t.
 
-Unbeatable strategy for Aria: Photovoltaic Grasp: 2.20
-
-Aria:
-13% Laser Shot
-74% Laser Drive
-13% Dimensional Reconfiguration
-
-Byron:
-13% Faceless Strike
-7% Faceless Grasp
-80% Special Pulse
-
-
-Aria: Laser Shot
-Byron: Special Pulse
-
-Pulse:
-
-.....BA
-...d...
-.m.....
-...t...
-
-
-Beat 5
--------
-
-Aria
-----
-life: 18
-discard 1: Laser Shot
-discard 2: Ionic Dash
-special action
-
-Byron
------
-life: 9
-discard 1: Soulless Drive
-discard 2: Breathless Dash
-3 Mask emblems
-
-
-.....BA
-...d...
-.m.....
-...t...
-
-Aria:
-32% Photovoltaic Strike
-28% Photovoltaic Grasp
-40% Dimensional Reconfiguration
-
-Byron:
-3% Deathless Smoke
-79% Faceless Strike
-19% Faceless Grasp
-
-
-Aria: Photovoltaic Strike
-Byron: Faceless Strike
-
-Priorities:  4 | 3
-Aria is active
-Aria hits
-Aria removes her Dampening droid:
-
-.....BA
-.......
-.m.....
-...t...
-
-Aria gets +1 power
-Aria removes her Magnetron droid:
-
-.....BA
-.......
-.......
-...t...
-
-Aria gets +1 power
-Aria removes her Turret droid:
-
-.....BA
-.......
-.......
-.......
-
-Aria gets +1 power
-Byron takes 6 damage (now at 3 life)
-Byron is stunned
-Byron loses a Mask Emblem: now at 2
-Aria adds her Turret droid:
-
-.....BA
-.......
-.......
-......t
-
-Byron loses 1 life (now at 2)
+Aria misses
+Byron loses 1 life (now at 10)
 
 Beat 6
 -------
 
 Aria
 ----
-life: 18
-discard 1: Photovoltaic Strike
-discard 2: Laser Shot
-special action
+Life: 15
+Discard 1: Catalyst Drive
+Discard 2: Dimensional Reconfiguration
+Special action available
 
 Byron
 -----
-life: 5
-discard 1: Faceless Strike
-discard 2: Soulless Drive
-2 Mask emblems
+Life: 11
+Discard 1: Breathless Dash
+Discard 2: Faceless Burst
+4 Mask emblems
 
 
-.....BA
-.......
-.......
-......t
+.....AB
+....d..
+.m.....
+.....t.
 
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.49
 
 Aria:
-22% Ionic Drive
-21% Catalyst Reconfiguration
-58% Dimensional Reconfiguration
+38% Ionic Grasp
+62% Ionic Dash
 
 Byron:
-14% Deathless Smoke
-21% Heartless Smoke
-64% Breathless Burst
+56% Soulless Drive
+44% Deathless Drive
 
 
-Aria: Ionic Drive
-Byron: Breathless Burst
+Aria: Ionic Dash
+Byron: Soulless Drive
 
-Priorities:  5 | 1
+Aria loses 2 life (now at 13)
+Byron gets +2 power
+Priorities:  10 | 0
 Aria is active
-Byron moves:
-
-....B.A
-.......
-.......
-......t
-
 Aria moves:
 
-...AB..
-.......
-.......
-......t
+..A...B
+....d..
+.m.....
+.....t.
 
-Aria hits
-Byron takes 3 damage (now at 2 life)
-Byron is stunned
-Byron loses a Mask Emblem: now at 1
+Byron moves:
+
+..A.B..
+....d..
+.m.....
+.....t.
+
+Byron misses
+Byron loses 1 life (now at 10)
+Byron loses a Mask Emblem: now at 3
 
 Beat 7
 -------
 
 Aria
 ----
-life: 18
-discard 1: Ionic Drive
-discard 2: Photovoltaic Strike
-special action
+Life: 13
+Discard 1: Ionic Dash
+Discard 2: Catalyst Drive
+Special action available
 
 Byron
 -----
-life: 3
-discard 1: Breathless Burst
-discard 2: Faceless Strike
-1 Mask emblems
+Life: 8
+Discard 1: Soulless Drive
+Discard 2: Breathless Dash
+3 Mask emblems
 
 
-...AB..
-.......
-.......
-......t
+..A.B..
+....d..
+.m.....
+.....t.
 
-Unbeatable strategy for Aria: Laser Dash: 1.19
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.68
-Unbeatable strategy for Aria: Dimensional Dash: 1.53
 
 Aria:
-36% Catalyst Reconfiguration
-64% Dimensional Reconfiguration
+6% Photovoltaic Shot
+11% Photovoltaic Burst
+23% Laser Strike
+28% Laser Grasp
+32% Dimensional Reconfiguration
 
 Byron:
-44% Soulless Shot
-56% Heartless Smoke
+2% Deathless Strike
+51% Deathless Burst
+15% Heartless Shot
+20% Heartless Grasp
+11% Faceless Grasp
 
 
-Aria: Catalyst Reconfiguration
-Byron: Soulless Shot
+Aria: Dimensional Reconfiguration
+Byron: Heartless Grasp
 
-Aria loses 2 life (now at 16)
-Byron gets +2 power
-Priorities:  4 | -2
+Priorities:  7 | 6
 Aria is active
 Aria moves:
 
-.A..B..
-.......
-.......
-......t
+A...B..
+....d..
+.m.....
+.....t.
 
-Aria adds her Dampening droid:
-
-.A..B..
-...d...
-.......
-......t
-
-Aria misses
+Aria hits
+Byron takes 1 damage (now at 7 life)
+Byron loses a Mask Emblem: now at 2
 Byron misses
-Byron loses a Mask Emblem: now at 0
+Aria moves:
+
+....BA.
+....d..
+.m.....
+.....t.
+
+Byron loses 1 life (now at 6)
 
 Beat 8
 -------
 
 Aria
 ----
-life: 16
-discard 1: Catalyst Reconfiguration
-discard 2: Ionic Drive
-special action
+Life: 13
+Discard 1: Dimensional Reconfiguration
+Discard 2: Ionic Dash
+Special action available
 
 Byron
 -----
-life: 1
-discard 1: Soulless Shot
-discard 2: Breathless Burst
-0 Mask emblems
+Life: 5
+Discard 1: Heartless Grasp
+Discard 2: Soulless Drive
+2 Mask emblems
 
 
-.A..B..
-...d...
-.......
-......t
+....BA.
+....d..
+.m.....
+.....t.
+
+Unbeatable strategy for Byron: Breathless Dash: -0.31
+
 
 Aria:
-69% Photovoltaic Dash
-3% Laser Burst
-3% Dimensional Burst
-26% Dimensional Grasp
+12% Photovoltaic Strike
+25% Photovoltaic Shot
+64% Catalyst Shot
 
 Byron:
-33% Deathless Drive
-1% Deathless Dash
-6% Heartless Drive
-61% Heartless Dash
+7% Deathless Smoke
+2% Breathless Strike
+90% Breathless Dash
 
 
-Aria: Dimensional Grasp
-Byron: Heartless Dash
+Aria: Catalyst Shot
+Byron: Breathless Dash
 
-Aria gets +2 power
-Priorities:  9 | 10
+Priorities:  3 | 9
 Byron is active
 Byron moves:
 
-BA.....
-...d...
-.......
-......t
+.....AB
+....d..
+.m.....
+.....t.
+
+Byron moves:
+
+....BA.
+....d..
+.m.....
+.....t.
 
 Aria misses
-Aria moves:
-
-B.A....
-...d...
-.......
-......t
-
+Byron loses 1 life (now at 4)
 
 Beat 9
 -------
 
 Aria
 ----
-life: 16
-discard 1: Dimensional Grasp
-discard 2: Catalyst Reconfiguration
-special action
+Life: 13
+Discard 1: Catalyst Shot
+Discard 2: Dimensional Reconfiguration
+Special action available
 
 Byron
 -----
-life: 1
-discard 1: Heartless Dash
-discard 2: Soulless Shot
+Life: 5
+Discard 1: Breathless Dash
+Discard 2: Heartless Grasp
+2 Mask emblems
+
+
+....BA.
+....d..
+.m.....
+.....t.
+
+
+Aria:
+4% Photovoltaic Burst
+23% Ionic Drive
+32% Ionic Dash
+41% Laser Dash
+
+Byron:
+77% Soulless Drive
+19% Deathless Burst
+2% Faceless Drive
+2% Faceless Burst
+
+
+Aria: Ionic Drive
+Byron: Deathless Burst
+
+Priorities:  5 | 0
+Aria is active
+Aria moves Byron:
+
+...B.A.
+....d..
+.m.....
+.....t.
+
+Byron moves:
+
+.B...A.
+....d..
+.m.....
+.....t.
+
+Aria moves:
+
+.B.A...
+....d..
+.m.....
+.....t.
+
+Aria hits
+Byron takes 1 damage (now at 4 life)
+Byron is stunned
+Byron loses a Mask Emblem: now at 1
+
+Beat 10
+-------
+
+Aria
+----
+Life: 13
+Discard 1: Ionic Drive
+Discard 2: Catalyst Shot
+Special action available
+
+Byron
+-----
+Life: 3
+Discard 1: Deathless Burst
+Discard 2: Breathless Dash
+1 Mask emblems
+
+
+.B.A...
+....d..
+.m.....
+.....t.
+
+
+Aria:
+1% Photovoltaic Reconfiguration
+24% Photovoltaic Grasp
+0% Dimensional Reconfiguration
+75% Dimensional Dash
+
+Byron:
+32% Soulless Smoke
+49% Soulless Shot
+15% Heartless Drive
+4% Heartless Grasp
+
+
+Aria: Dimensional Dash
+Byron: Soulless Shot
+
+Priorities:  13 | -3
+Aria is active
+Aria moves:
+
+.B....A
+....d..
+.m.....
+.....t.
+
+Byron misses
+Aria moves:
+
+AB.....
+....d..
+.m.....
+.....t.
+
+Byron loses a Mask Emblem: now at 0
+
+Beat 11
+-------
+
+Aria
+----
+Life: 13
+Discard 1: Dimensional Dash
+Discard 2: Ionic Drive
+Special action available
+
+Byron
+-----
+Life: 1
+Discard 1: Soulless Shot
+Discard 2: Deathless Burst
 0 Mask emblems
 
 
-B.A....
-...d...
-.......
-......t
+AB.....
+....d..
+.m.....
+.....t.
+
 
 Aria:
-57% Photovoltaic Drive
-19% Ionic Burst
-24% Laser Shot
+1% Photovoltaic Reconfiguration
+3% Photovoltaic Shot
+17% Photovoltaic Grasp
+11% Laser Shot
+68% Laser Grasp
 
 Byron:
-13% Deathless Grasp
-34% Faceless Grasp
-53% Breathless Grasp
+68% Heartless Grasp
+0% Faceless Drive
+14% Faceless Grasp
+12% Faceless Dash
+5% Breathless Dash
 
 
-Aria: Laser Shot
-Byron: Breathless Grasp
+Aria: Laser Grasp
+Byron: Faceless Grasp
 
-Priorities:  2 | 5
-Byron is active
-Byron misses
+Priorities:  5 | 4
+Aria is active
 Aria hits
-Byron takes 3 damage (now at 0 life)
+Aria moves Byron:
+
+A.B....
+....d..
+.m.....
+.....t.
+
+Byron takes 2 damage (now at 0 life)
 ARIA WINS!
-total_time: 15
+total_time: 19

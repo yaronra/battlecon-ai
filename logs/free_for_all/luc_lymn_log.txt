@@ -11,53 +11,74 @@ Beat 1
 
 Luc
 ---
-life: 20
-discard 1: Eternal Flash
-discard 2: Fusion Strike
-special action
-2 Time tokens
+Life: 20
+Discard 1: Eternal Flash
+Discard 2: Fusion Strike
+Special action available
+2 Time token
 
 Lymn
 ----
-life: 20
-discard 1: Maddening Burst
-discard 2: Chimeric Dash
-special action
+Life: 20
+Discard 1: Maddening Burst
+Discard 2: Chimeric Dash
+Special action available
 
 
 .L...l.
 
+
 Luc:
-2% Memento Drive
-3% Chrono Shot
-67% Chrono Drive
-28% Chrono Drive (1 token)
+15% Memento Shot
+21% Chrono Shot
+54% Chrono Drive
+10% Chrono Drive (1 token)
 
 Lymn:
-35% Surreal Strike
-25% Surreal Drive
-34% Surreal Grasp
-6% Fathomless Shot
+31% Surreal Drive
+9% Reverie Grasp
+18% Fathomless Strike
+42% Fathomless Shot
+
+
+Luc: Chrono Drive
+Lymn: Surreal Drive
+
+Priorities:  5 | 5
+Clash!
 
 
 Luc: Chrono Shot
-Lymn: Surreal Strike
+Lymn: Surreal Shot
 
-Priorities:  3 | 4
-Lymn is active
-Disparity is 1
+Priorities:  3 | 3
+Clash!
+
+
+Luc: Chrono Dash
+Lymn: Surreal Visions
+
+Priorities:  10 | 4
+Luc is active
 Luc spends a Time token
 Luc moves:
 
 ..L..l.
 
+Disparity is 6
+Luc moves:
+
+.....lL
+
+Lymn moves:
+
+l.....L
+
 Lymn misses
 Lymn moves:
 
-..L...l
+..l...L
 
-Luc hits
-Lymn takes 3 damage (now at 17 life)
 Luc gains 1 Time token
 
 Beat 2
@@ -65,49 +86,60 @@ Beat 2
 
 Luc
 ---
-life: 20
-discard 1: Chrono Shot
-discard 2: Eternal Flash
-special action
-2 Time tokens
+Life: 20
+Discard 1: Chrono Dash
+Discard 2: Eternal Flash
+Special action available
+2 Time token
 
 Lymn
 ----
-life: 17
-discard 1: Surreal Strike
-discard 2: Maddening Burst
-special action
+Life: 20
+Discard 1: Surreal Visions
+Discard 2: Maddening Burst
+Special action available
 
 
-..L...l
+..l...L
+
 
 Luc:
-48% Feinting Drive
-1% Feinting Burst
-51% Feinting Dash
+12% Memento Strike
+21% Memento Drive
+7% Fusion Shot (1 token)
+33% Fusion Drive
+4% Fusion Grasp (1 token)
+23% Feinting Burst
 
 Lymn:
-14% Chimeric Drive
-49% Reverie Drive
-37% Fathomless Visions
+45% Chimeric Drive
+8% Reverie Strike
+1% Reverie Shot
+8% Reverie Drive
+27% Reverie Grasp
+11% Fathomless Shot
 
 
-Luc: Feinting Drive
-Lymn: Reverie Drive
+Luc: Feinting Burst
+Lymn: Chimeric Drive
 
-Priorities:  2 | 3
+Priorities:  -1 | 6
 Lymn is active
-Disparity is 1
+Disparity is 7
 Lymn moves:
 
-..L.l..
+...l..L
+
+Lymn moves:
+
+.....lL
 
 Lymn hits
-Luc takes 6 damage (now at 14 life)
+Luc takes 8 damage (now at 12 life)
 Luc is stunned
 Luc moves:
 
-...Ll..
+....Ll.
 
 Luc gains 1 Time token
 
@@ -116,61 +148,54 @@ Beat 3
 
 Luc
 ---
-life: 14
-discard 1: Feinting Drive
-discard 2: Chrono Shot
-special action
-3 Time tokens
+Life: 12
+Discard 1: Feinting Burst
+Discard 2: Chrono Dash
+Special action available
+3 Time token
 
 Lymn
 ----
-life: 17
-discard 1: Reverie Drive
-discard 2: Surreal Strike
-special action
+Life: 20
+Discard 1: Chimeric Drive
+Discard 2: Surreal Visions
+Special action available
 
 
-...Ll..
+....Ll.
+
 
 Luc:
-12% Eternal Flash
-12% Eternal Grasp
-63% Eternal Dash
-12% Memento Flash
+6% Eternal Flash
+12% Eternal Flash (1 token)
+13% Memento Drive
+26% Memento Drive (1 token)
+20% Fusion Drive
+23% Fusion Grasp
 
 Lymn:
-44% Maddening Visions
-10% Chimeric Grasp
-5% Fathomless Visions
-40% Fathomless Burst
+4% Maddening Strike
+1% Maddening Shot
+8% Maddening Burst
+30% Maddening Grasp
+48% Maddening Dash
+9% Fathomless Shot
 
 
-Luc: Eternal Flash
-Lymn: Chimeric Grasp
+Luc: Eternal Flash (1 token)
+Lymn: Fathomless Shot
 
-Priorities:  2 | 7
-Lymn is active
-Disparity is 5
+Luc antes a Time token
+Priorities:  3 | 0
+Luc is active
 Luc moves:
 
-....lL.
+.....lL
 
-Lymn moves:
-
-.....Ll
-
-Lymn hits
-Lymn moves Luc:
-
-....L.l
-
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +3 soak (4 total)
-Luc has 4 soak
-Luc takes 0 damage (now at 14 life)
-Luc misses
+Disparity is 3
+Luc hits
+Lymn takes 1 damage (now at 19 life)
+Lymn is stunned
 Luc gains 1 Time token
 
 Beat 4
@@ -178,60 +203,61 @@ Beat 4
 
 Luc
 ---
-life: 14
-discard 1: Eternal Flash
-discard 2: Feinting Drive
-special action
-1 Time tokens
+Life: 12
+Discard 1: Eternal Flash
+Discard 2: Feinting Burst
+Special action available
+3 Time token
 
 Lymn
 ----
-life: 17
-discard 1: Chimeric Grasp
-discard 2: Reverie Drive
-special action
+Life: 19
+Discard 1: Fathomless Shot
+Discard 2: Chimeric Drive
+Special action available
 
 
-....L.l
+.....lL
+
 
 Luc:
-35% Chrono Strike
-22% Chrono Burst
-10% Chrono Burst (1 token)
-34% Chrono Grasp
+16% Memento Shot
+6% Memento Drive
+41% Fusion Shot
+2% Fusion Shot (3 tokens)
+26% Fusion Drive
+9% Chrono Drive (1 token)
 
 Lymn:
-50% Surreal Visions
-34% Surreal Strike
-0% Surreal Shot
-16% Fathomless Shot
+15% Maddening Strike
+31% Maddening Grasp
+42% Maddening Dash
+2% Surreal Visions
+8% Surreal Burst
+2% Reverie Strike
 
 
-Luc: Chrono Burst (1 token)
-Lymn: Surreal Visions
+Luc: Memento Shot
+Lymn: Maddening Dash
 
-Luc antes a Time token
-Priorities:  3 | 4
+Priorities:  1 | 9
 Lymn is active
-Disparity is 1
-Luc moves:
-
-..L...l
-
+Disparity is 8
 Lymn moves:
 
-..L..l.
+..l...L
 
-Lymn misses
-Lymn moves:
-
-..L.l..
-
-Lymn moves:
-
-..L...l
-
-Luc misses
+Luc hits
+Lymn has 5 soak
+Lymn takes 3 damage (now at 16 life)
+Lymn is stunned
+Luc spends a Time token
+Luc spends a Time token
+Luc attacks again
+Luc hits
+Lymn has 5 soak
+Lymn takes 3 damage (now at 13 life)
+Lymn is stunned
 Luc gains 1 Time token
 
 Beat 5
@@ -239,52 +265,57 @@ Beat 5
 
 Luc
 ---
-life: 14
-discard 1: Chrono Burst
-discard 2: Eternal Flash
-special action
-1 Time tokens
+Life: 12
+Discard 1: Memento Shot
+Discard 2: Eternal Flash
+Special action available
+2 Time token
 
 Lymn
 ----
-life: 17
-discard 1: Surreal Visions
-discard 2: Chimeric Grasp
-special action
+Life: 13
+Discard 1: Maddening Dash
+Discard 2: Fathomless Shot
+Special action available
 
 
-..L...l
+..l...L
+
 
 Luc:
-16% Fusion Shot (1 token)
-43% Feinting Drive (1 token)
-42% Feinting Dash
+39% Feinting Grasp
+1% Chrono Strike (1 token)
+21% Chrono Drive (1 token)
+39% Chrono Dash
 
 Lymn:
-32% Reverie Strike
-27% Reverie Drive
-41% Fathomless Burst
+20% Chimeric Visions
+31% Chimeric Drive
+44% Surreal Burst
+6% Reverie Burst
 
 
-Luc: Feinting Drive (1 token)
-Lymn: Reverie Strike
+Luc: Chrono Dash
+Lymn: Reverie Burst
 
-Luc antes a Time token
-Priorities:  3 | 2
+Priorities:  10 | 0
 Luc is active
-Disparity is 1
+Luc spends a Time token
+Luc spends a Time token
 Luc moves:
 
-....L.l
+..l.L..
 
-Luc hits
-Lymn takes 3 damage (now at 14 life)
-Lymn hits
-Luc takes 7 damage (now at 7 life)
-Luc is stunned
+Disparity is 10
+Lymn loses 2 life (now at 11)
+Lymn is stunned
+Lymn moves:
+
+l...L..
+
 Luc moves:
 
-.....Ll
+lL.....
 
 Luc gains 1 Time token
 
@@ -293,50 +324,48 @@ Beat 6
 
 Luc
 ---
-life: 7
-discard 1: Feinting Drive
-discard 2: Chrono Burst
-special action
-1 Time tokens
+Life: 12
+Discard 1: Chrono Dash
+Discard 2: Memento Shot
+Special action available
+1 Time token
 
 Lymn
 ----
-life: 14
-discard 1: Reverie Strike
-discard 2: Surreal Visions
-special action
+Life: 11
+Discard 1: Reverie Burst
+Discard 2: Maddening Dash
+Special action available
 
 
-.....Ll
+lL.....
+
 
 Luc:
-56% Eternal Dash
-16% Memento Flash
-28% Fusion Strike
+57% Fusion Strike (1 token)
+7% Fusion Drive (1 token)
+24% Fusion Burst (1 token)
+12% Fusion Grasp (1 token)
 
 Lymn:
-72% Chimeric Grasp
-28% Fathomless Shot
-0% Fathomless Burst
+9% Chimeric Visions
+49% Chimeric Drive
+27% Chimeric Grasp
+15% Fathomless Shot
 
 
-Luc: Memento Flash
-Lymn: Chimeric Grasp
+Luc: Fusion Strike (1 token)
+Lymn: Fathomless Shot
 
-Priorities:  5 | 7
-Lymn is active
-Disparity is 2
-Lymn moves:
-
-....lL.
-
+Luc antes a Time token
+Priorities:  5 | 0
+Luc is active
+Disparity is 5
+Luc hits
+Lymn takes 3 damage (now at 8 life)
+Lymn loses 2 life (now at 6)
 Lymn hits
-Lymn moves Luc:
-
-....l.L
-
-Luc takes 2 damage (now at 5 life)
-Luc is stunned
+Luc takes 4 damage (now at 8 life)
 Luc gains 1 Time token
 
 Beat 7
@@ -344,54 +373,52 @@ Beat 7
 
 Luc
 ---
-life: 5
-discard 1: Memento Flash
-discard 2: Feinting Drive
-special action
-2 Time tokens
+Life: 8
+Discard 1: Fusion Strike
+Discard 2: Chrono Dash
+Special action available
+1 Time token
 
 Lymn
 ----
-life: 14
-discard 1: Chimeric Grasp
-discard 2: Reverie Strike
-special action
+Life: 6
+Discard 1: Fathomless Shot
+Discard 2: Reverie Burst
+Special action available
 
 
-....l.L
+lL.....
+
+Unbeatable strategy for Lymn: Chimeric Drive: -1.48
+
 
 Luc:
-43% Eternal Dash
-30% Chrono Shot
-10% Chrono Grasp
-16% Special Temporal Recursion
+87% Memento Flash (1 token)
+13% Memento Burst (1 token)
 
 Lymn:
-38% Maddening Dash
-36% Surreal Drive
-23% Surreal Burst
-3% Fathomless Shot
+52% Chimeric Drive
+48% Chimeric Grasp
 
 
-Luc: Chrono Shot
-Lymn: Maddening Dash
+Luc: Memento Flash (1 token)
+Lymn: Chimeric Grasp
 
-Priorities:  3 | 9
+Luc antes a Time token
+Priorities:  6 | 7
 Lymn is active
-Disparity is 6
-Luc spends a Time token
-Luc moves:
-
-....lL.
-
+Disparity is 1
 Lymn moves:
 
-.l...L.
+.Ll....
 
-Luc hits
-Lymn has 5 soak
-Lymn takes 1 damage (now at 13 life)
-Lymn is stunned
+Lymn hits
+Lymn moves Luc:
+
+L.l....
+
+Luc takes 1 damage (now at 7 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 8
@@ -399,54 +426,56 @@ Beat 8
 
 Luc
 ---
-life: 5
-discard 1: Chrono Shot
-discard 2: Memento Flash
-special action
-2 Time tokens
+Life: 7
+Discard 1: Memento Flash
+Discard 2: Fusion Strike
+Special action available
+1 Time token
 
 Lymn
 ----
-life: 13
-discard 1: Maddening Dash
-discard 2: Chimeric Grasp
-special action
+Life: 6
+Discard 1: Chimeric Grasp
+Discard 2: Fathomless Shot
+Special action available
 
 
-.l...L.
+L.l....
+
+Unbeatable strategy for Luc: Eternal Dash (1 token): 0.27
+Unbeatable strategy for Luc: Feinting Dash: 1.02
+Unbeatable strategy for Luc: Feinting Dash (1 token): 0.72
+Unbeatable strategy for Luc: Chrono Dash (1 token): 0.16
+
 
 Luc:
-41% Eternal Drive
-3% Eternal Burst
-41% Eternal Dash
-10% Feinting Drive (1 token)
-5% Feinting Dash
+12% Eternal Dash
+1% Feinting Shot (1 token)
+15% Feinting Drive
+22% Feinting Dash
+38% Chrono Drive
+12% Chrono Dash
 
 Lymn:
-9% Surreal Strike
-40% Surreal Drive
-21% Reverie Visions
-11% Reverie Burst
-19% Fathomless Burst
+26% Maddening Strike
+18% Maddening Drive
+28% Maddening Dash
+8% Surreal Drive
+10% Surreal Dash
+11% Special Megrim
 
 
-Luc: Eternal Drive
-Lymn: Surreal Strike
+Luc: Eternal Dash
+Lymn: Special Megrim
 
-Priorities:  0 | 4
-Lymn is active
-Disparity is 4
-Lymn hits
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +2 soak (3 total)
-Luc has 3 soak
-Luc takes 1 damage (now at 4 life)
-Luc is stunned
-Lymn moves:
+Priorities:  5 | 0
+Luc is active
+Disparity is 5
+Luc moves:
 
-l....L.
+..lL...
 
+Luc loses 5 life (now at 2)
 Luc gains 1 Time token
 
 Beat 9
@@ -454,120 +483,49 @@ Beat 9
 
 Luc
 ---
-life: 4
-discard 1: Eternal Drive
-discard 2: Chrono Shot
-special action
-1 Time tokens
+Life: 2
+Discard 1: Eternal Dash
+Discard 2: Memento Flash
+Special action available
+2 Time token
 
 Lymn
 ----
-life: 13
-discard 1: Surreal Strike
-discard 2: Maddening Dash
-special action
+Life: 6
+Discard 1: Chimeric Grasp
+Discard 2: Fathomless Shot
 
 
-l....L.
+..lL...
+
 
 Luc:
-1% Fusion Grasp
-3% Feinting Dash
-96% Special Pulse
+31% Fusion Strike (1 token)
+36% Fusion Drive
+7% Feinting Drive
+1% Chrono Shot
+18% Chrono Drive
+7% Special Temporal Recursion
 
 Lymn:
-10% Reverie Shot
-35% Reverie Drive
-7% Reverie Burst
-48% Fathomless Burst
+14% Maddening Strike
+0% Maddening Drive
+6% Maddening Burst
+5% Surreal Drive
+66% Surreal Dash
+10% Reverie Strike
 
 
-Luc: Special Pulse
-Lymn: Reverie Drive
+Luc: Fusion Strike (1 token)
+Lymn: Surreal Dash
 
-Pulse:
-
-lL.....
-
-
-Beat 9
--------
-
-Luc
----
-life: 4
-discard 1: Eternal Drive
-discard 2: Chrono Shot
-1 Time tokens
-
-Lymn
-----
-life: 13
-discard 1: Reverie Drive
-discard 2: Surreal Strike
-special action
-
-
-lL.....
-
-Luc:
-61% Memento Flash
-24% Memento Flash (1 token)
-15% Fusion Burst
-
-Lymn:
-62% Chimeric Visions
-23% Chimeric Grasp
-15% Fathomless Shot
-
-
-Luc: Memento Flash
-Lymn: Chimeric Visions
-
-Priorities:  5 | 5
-Clash!
-
-Luc:
-17% Memento Burst
-83% Memento Grasp
-
-Lymn:
-35% Chimeric Shot
-65% Chimeric Grasp
-
-
-Luc: Memento Grasp
-Lymn: Chimeric Shot
-
-Priorities:  4 | 4
-Clash!
-
-Luc:
-1% Memento Strike
-99% Memento Burst
-
-Lymn:
-14% Chimeric Burst
-86% Chimeric Dash
-
-
-Luc: Memento Burst
-Lymn: Chimeric Dash
-
-Priorities:  0 | 11
+Luc antes a Time token
+Priorities:  5 | 10
 Lymn is active
-Disparity is 11
-Luc moves:
+Disparity is 5
+Lymn moves:
 
 l..L...
-
-Lymn moves:
-
-.l.L...
-
-Lymn moves:
-
-...L.l.
 
 Luc misses
 Luc gains 1 Time token
@@ -577,56 +535,53 @@ Beat 10
 
 Luc
 ---
-life: 4
-discard 1: Memento Burst
-discard 2: Eternal Drive
-2 Time tokens
+Life: 2
+Discard 1: Fusion Strike
+Discard 2: Eternal Dash
+Special action available
+2 Time token
 
 Lymn
 ----
-life: 13
-discard 1: Chimeric Dash
-discard 2: Reverie Drive
-special action
+Life: 6
+Discard 1: Surreal Dash
+Discard 2: Chimeric Grasp
 
 
-...L.l.
+l..L...
+
 
 Luc:
-26% Feinting Flash
-4% Feinting Strike
-17% Feinting Shot
-47% Feinting Dash
-0% Chrono Shot
-5% Chrono Shot (1 token)
+3% Feinting Drive
+5% Chrono Flash
+36% Chrono Shot
+2% Chrono Drive
+46% Chrono Burst
+8% Special Temporal Recursion
 
 Lymn:
-8% Surreal Visions
-31% Surreal Strike
-3% Fathomless Visions
-15% Fathomless Strike
-14% Fathomless Shot
-29% Fathomless Burst
+49% Maddening Visions
+3% Maddening Strike
+24% Maddening Shot
+12% Maddening Drive
+8% Fathomless Shot
+4% Fathomless Drive
 
 
-Luc: Chrono Shot (1 token)
-Lymn: Fathomless Burst
+Luc: Chrono Shot
+Lymn: Maddening Drive
 
-Luc antes a Time token
-Priorities:  4 | -1
-Luc is active
-Luc spends a Time token
-Luc moves:
-
-....Ll.
-
-Disparity is 5
+Priorities:  3 | 4
+Lymn is active
+Disparity is 1
 Lymn moves:
 
-....L.l
+.l.L...
 
+Lymn hits
+Luc takes 1 damage (now at 1 life)
 Luc hits
-Lymn takes 3 damage (now at 10 life)
+Lymn takes 1 damage (now at 5 life)
 Lymn is stunned
 Luc gains 1 Time token
 
@@ -635,324 +590,61 @@ Beat 11
 
 Luc
 ---
-life: 4
-discard 1: Chrono Shot
-discard 2: Memento Burst
-1 Time tokens
+Life: 1
+Discard 1: Chrono Shot
+Discard 2: Fusion Strike
+Special action available
+3 Time token
 
 Lymn
 ----
-life: 10
-discard 1: Fathomless Burst
-discard 2: Chimeric Dash
-special action
+Life: 5
+Discard 1: Maddening Drive
+Discard 2: Surreal Dash
 
 
-....L.l
+.l.L...
 
-Unbeatable strategy for Luc: Fusion Flash: 0.56
-Unbeatable strategy for Luc: Fusion Flash (1 token): 0.16
 
 Luc:
-100% Fusion Flash
+29% Memento Burst
+21% Memento Burst (1 token)
+25% Special Temporal Recursion
+25% Special Temporal Recursion (1 token)
 
 Lymn:
-100% Surreal Shot
+17% Chimeric Visions
+15% Chimeric Shot
+50% Chimeric Grasp
+4% Reverie Visions
+3% Reverie Strike
+4% Reverie Shot
+4% Reverie Burst
+4% Reverie Grasp
 
 
-Luc: Fusion Flash
-Lymn: Surreal Shot
-
-Priorities:  7 | 3
-Luc is active
-Luc moves:
-
-.....Ll
-
-Disparity is 4
-Luc hits
-Lymn takes 0 damage (now at 10 life)
-Lymn is stunned
-Luc gains 1 Time token
-
-Beat 12
--------
-
-Luc
----
-life: 4
-discard 1: Fusion Flash
-discard 2: Chrono Shot
-2 Time tokens
-
-Lymn
-----
-life: 10
-discard 1: Surreal Shot
-discard 2: Fathomless Burst
-special action
-
-
-.....Ll
-
-Unbeatable strategy for Lymn: Chimeric Visions: -0.53
-
-Luc:
-42% Eternal Dash (1 token)
-7% Memento Strike (1 token)
-3% Memento Grasp
-31% Memento Grasp (1 token)
-17% Memento Dash
-
-Lymn:
-8% Maddening Visions
-16% Chimeric Visions
-23% Chimeric Strike
-53% Chimeric Drive
-0% Reverie Visions
-
-
-Luc: Eternal Dash (1 token)
-Lymn: Chimeric Drive
-
-Luc antes a Time token
-Priorities:  6 | 6
-Clash!
-
-Luc:
-5% Eternal Burst (1 token)
-95% Eternal Grasp (1 token)
-
-Lymn:
-45% Chimeric Visions
-55% Chimeric Grasp
-
-
-Luc: Eternal Grasp (1 token)
+Luc: Memento Burst
 Lymn: Chimeric Grasp
 
-Luc antes a Time token
-Priorities:  2 | 7
+Priorities:  0 | 7
 Lymn is active
-Disparity is 5
-Lymn moves:
-
-....lL.
-
-Lymn hits
-Lymn moves Luc:
-
-....l.L
-
-Luc spends a Time token
-Luc gains +1 soak (2 total)
-Luc has 2 soak
-Luc takes 2 damage (now at 2 life)
-Luc is stunned
-Luc gains 1 Time token
-
-Beat 13
--------
-
-Luc
----
-life: 2
-discard 1: Eternal Grasp
-discard 2: Fusion Flash
-1 Time tokens
-
-Lymn
-----
-life: 10
-discard 1: Chimeric Grasp
-discard 2: Surreal Shot
-special action
-
-
-....l.L
-
-Luc:
-32% Feinting Shot (1 token)
-1% Feinting Drive
-6% Feinting Drive (1 token)
-48% Feinting Dash
-12% Chrono Shot
-2% Chrono Drive
-
-Lymn:
-5% Maddening Visions
-11% Maddening Strike
-5% Maddening Drive
-40% Fathomless Strike
-5% Fathomless Drive
-34% Fathomless Burst
-
-
-Luc: Feinting Dash
-Lymn: Fathomless Strike
-
-Priorities:  7 | 1
-Luc is active
-Disparity is 6
+Disparity is 7
 Luc moves:
 
-..L.l..
+.l..L..
+
+Lymn moves:
+
+..l.L..
 
 Lymn misses
-Luc moves:
-
-...Ll..
-
-Luc gains 1 Time token
-
-Beat 14
--------
-
-Luc
----
-life: 2
-discard 1: Feinting Dash
-discard 2: Eternal Grasp
-2 Time tokens
-
-Lymn
-----
-life: 10
-discard 1: Fathomless Strike
-discard 2: Chimeric Grasp
-special action
-
-
-...Ll..
-
-Luc:
-37% Memento Flash (1 token)
-32% Memento Drive
-1% Fusion Shot
-30% Chrono Drive (1 token)
-
-Lymn:
-33% Maddening Shot
-30% Maddening Burst
-13% Surreal Shot
-24% Surreal Drive
-
-
-Luc: Memento Drive
-Lymn: Maddening Burst
-
-Priorities:  3 | 1
-Luc is active
-Disparity is 2
-Lymn moves:
-
-...L.l.
-
-Luc moves:
-
-.....lL
-
 Luc hits
-Lymn takes 2 damage (now at 8 life)
+Lymn takes 3 damage (now at 2 life)
 Lymn is stunned
 Luc spends a Time token
 Luc spends a Time token
 Luc attacks again
-Luc moves:
-
-....Ll.
-
 Luc hits
-Lymn takes 2 damage (now at 6 life)
-Lymn is stunned
-Luc gains 1 Time token
-
-Beat 15
--------
-
-Luc
----
-life: 2
-discard 1: Memento Drive
-discard 2: Feinting Dash
-1 Time tokens
-
-Lymn
-----
-life: 6
-discard 1: Maddening Burst
-discard 2: Fathomless Strike
-special action
-
-
-....Ll.
-
-Unbeatable strategy for Lymn: Chimeric Visions: -7.00
-Unbeatable strategy for Lymn: Chimeric Drive: -7.00
-Unbeatable strategy for Lymn: Chimeric Grasp: -7.00
-Unbeatable strategy for Lymn: Chimeric Dash: -7.00
-Unbeatable strategy for Lymn: Surreal Drive: -7.00
-Unbeatable strategy for Lymn: Surreal Grasp: -7.00
-Unbeatable strategy for Lymn: Surreal Dash: -7.00
-
-Luc:
-4% Eternal Flash
-5% Eternal Flash (1 token)
-2% Eternal Strike
-4% Eternal Strike (1 token)
-2% Eternal Shot
-3% Eternal Shot (1 token)
-2% Eternal Burst
-2% Eternal Burst (1 token)
-3% Eternal Grasp
-4% Eternal Grasp (1 token)
-5% Fusion Flash
-5% Fusion Flash (1 token)
-2% Fusion Strike
-4% Fusion Strike (1 token)
-2% Fusion Shot
-3% Fusion Shot (1 token)
-3% Fusion Burst
-3% Fusion Burst (1 token)
-2% Fusion Grasp
-2% Fusion Grasp (1 token)
-6% Chrono Flash
-5% Chrono Flash (1 token)
-3% Chrono Strike
-3% Chrono Strike (1 token)
-4% Chrono Shot
-4% Chrono Shot (1 token)
-4% Chrono Burst
-4% Chrono Burst (1 token)
-4% Chrono Grasp
-3% Chrono Grasp (1 token)
-
-Lymn:
-14% Chimeric Visions
-14% Chimeric Drive
-14% Chimeric Grasp
-14% Chimeric Dash
-14% Surreal Drive
-14% Surreal Grasp
-14% Surreal Dash
-
-
-Luc: Eternal Strike
-Lymn: Chimeric Drive
-
-Priorities:  -1 | 6
-Lymn is active
-Disparity is 7
-Lymn moves:
-
-...lL..
-
-Lymn moves:
-
-....Ll.
-
-Lymn hits
-Luc has 1 soak
-Luc takes 7 damage (now at 0 life)
-LYMN WINS!
-total_time: 31
+Lymn takes 3 damage (now at 0 life)
+LUC WINS!
+total_time: 40

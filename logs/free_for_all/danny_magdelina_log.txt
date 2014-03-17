@@ -11,17 +11,17 @@ Beat 1
 
 Danny
 -----
-life: 20
-discard 1: Fallen Burst
-discard 2: Vicious Shot
-special action
+Life: 20
+Discard 1: Fallen Burst
+Discard 2: Vicious Shot
+Special action available
 
 Magdelina
 ---------
-life: 20
-discard 1: Spiritual Drive
-discard 2: Sanctimonious Grasp
-special action
+Life: 20
+Discard 1: Spiritual Drive
+Discard 2: Sanctimonious Grasp
+Special action available
 Level: 0
 Trance: 0
 
@@ -29,38 +29,39 @@ Trance: 0
 .D...M.
 
 
-Unbeatable strategy for Danny: Monstrous Hellgate: 1.90
-Unbeatable strategy for Danny: Shackled Hellgate: 1.59
+Unbeatable strategy for Danny: Monstrous Hellgate: 1.84
+Unbeatable strategy for Danny: Shackled Hellgate: 1.54
+
 
 Danny:
-95% Monstrous Hellgate
-5% Monstrous Dash
+91% Monstrous Hellgate
+9% Monstrous Dash
 
 Magdelina:
-85% Priestess Dash
-15% Excelsius Strike
+79% Priestess Dash
+21% Excelsius Strike
 
 
 Danny: Monstrous Hellgate
-Magdelina: Excelsius Strike
+Magdelina: Priestess Dash
 
-Priorities:  -1 | 2
+Priorities:  -1 | 8
 Magdelina is active
+Magdelina gains 1 life (now at 20)
 Magdelina moves:
 
-.D..M..
+.D.M...
 
 
-Magdelina misses
 Danny moves:
 
-D...M..
+D..M...
 
 
 Danny adds monsters to the board:
 
-D...M..
-...mmm.
+D..M...
+..mmm..
 
 Magdelina gains a Trance counter: has 1
 Magdelina discards all Trance counters
@@ -71,73 +72,99 @@ Beat 2
 
 Danny
 -----
-life: 20
-discard 1: Monstrous Hellgate
-discard 2: Fallen Burst
-special action
+Life: 20
+Discard 1: Monstrous Hellgate
+Discard 2: Fallen Burst
+Special action available
 
 Magdelina
 ---------
-life: 20
-discard 1: Excelsius Strike
-discard 2: Spiritual Drive
-special action
+Life: 20
+Discard 1: Priestess Dash
+Discard 2: Spiritual Drive
+Special action available
 Level: 1
 Trance: 0
 
 
-D...M..
-...mmm.
+D..M...
+..mmm..
 
-Unbeatable strategy for Magdelina: Safety Blessing: -0.80
-Unbeatable strategy for Magdelina: Safety Shot: -1.02
-Unbeatable strategy for Magdelina: Safety Grasp: -1.01
-Unbeatable strategy for Magdelina: Priestess Blessing: -0.36
+Unbeatable strategy for Magdelina: Safety Blessing: -0.66
+Unbeatable strategy for Magdelina: Safety Strike: -0.69
+Unbeatable strategy for Magdelina: Safety Shot: -0.22
+Unbeatable strategy for Magdelina: Safety Grasp: -0.81
+Unbeatable strategy for Magdelina: Sanctimonious Blessing: -0.98
+Unbeatable strategy for Magdelina: Sanctimonious Strike: -0.25
+Unbeatable strategy for Magdelina: Excelsius Blessing: -1.08
+Unbeatable strategy for Magdelina: Excelsius Strike: -0.57
+Unbeatable strategy for Magdelina: Excelsius Grasp: -0.45
+
 
 Danny:
-83% Shackled Strike
-17% Vicious Strike
+44% Shackled Strike
+50% Shackled Grasp
+6% Vicious Strike
 
 Magdelina:
-84% Safety Shot
-16% Safety Grasp
+63% Safety Shot
+7% Sanctimonious Blessing
+29% Excelsius Blessing
 
 
 Danny: Shackled Strike
 Magdelina: Safety Shot
 
-Magdelina gets a +1 bonus to power, priority and stungard
+Magdelina gets a +1 bonus to power, priority and stunguard
 Priorities:  2 | 2
 Clash!
 
-Danny:
-75% Shackled Shot
-25% Shackled Grasp
 
-Magdelina:
-28% Safety Burst
-72% Safety Grasp
+Danny: Shackled Drive
+Magdelina: Safety Strike
+
+Magdelina gets a +1 bonus to power, priority and stunguard
+Priorities:  3 | 3
+Clash!
 
 
 Danny: Shackled Shot
+Magdelina: Safety Burst
+
+Magdelina gets a +1 bonus to power, priority and stunguard
+Priorities:  1 | 1
+Clash!
+
+
+Danny: Shackled Grasp
 Magdelina: Safety Grasp
 
-Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  1 | 5
+Magdelina gets a +1 bonus to power, priority and stunguard
+Priorities:  4 | 5
 Magdelina is active
 Magdelina misses
 Magdelina removes monsters:
 
-D...M..
-....mm.
+D..M...
+...mm..
 
 Danny hits
-Magdelina takes 3 damage (now at 17 life)
+Danny moves Magdelina:
+
+D...M..
+...mm..
+
+Magdelina takes 2 damage (now at 18 life)
 Magdelina is stunned
 Danny adds monsters to the board:
 
 D...M..
-...mmm.
+.m.mm..
+
+Magdelina moves:
+
+D.....M
+.m.mm..
 
 Magdelina gains a Trance counter: has 1
 
@@ -146,393 +173,426 @@ Beat 3
 
 Danny
 -----
-life: 20
-discard 1: Shackled Shot
-discard 2: Monstrous Hellgate
-special action
+Life: 20
+Discard 1: Shackled Grasp
+Discard 2: Monstrous Hellgate
+Special action available
 
 Magdelina
 ---------
-life: 17
-discard 1: Safety Grasp
-discard 2: Excelsius Strike
-special action
+Life: 18
+Discard 1: Safety Grasp
+Discard 2: Priestess Dash
+Special action available
 Level: 1
 Trance: 1
 
 
-D...M..
-...mmm.
+D.....M
+.m.mm..
 
-Unbeatable strategy for Magdelina: Priestess Dash: -0.94
+Unbeatable strategy for Magdelina: Excelsius Shot: -1.45
+Unbeatable strategy for Magdelina: Excelsius Drive: -0.15
+
 
 Danny:
-14% Fallen Grasp
-55% Sinner's Strike
-29% Sinner's Grasp
-2% Vicious Grasp
+46% Sinner's Strike
+52% Sinner's Shot
+2% Sinner's Burst
 
 Magdelina:
-16% Priestess Blessing
-61% Priestess Dash
-10% Spiritual Shot
-13% Spiritual Drive
+14% Spiritual Shot
+6% Excelsius Shot
+80% Excelsius Drive
 
 
-Danny: Sinner's Strike
-Magdelina: Spiritual Drive
+Danny: Sinner's Shot
+Magdelina: Excelsius Drive
 
-Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  3 | 5
+Magdelina gets a +1 bonus to power, priority and stunguard
+Priorities:  2 | 4
 Magdelina is active
 Magdelina moves:
 
-D.M....
-...mmm.
+D....M.
+.m.mm..
 
-Magdelina hits
-Danny takes 5 damage (now at 15 life)
+Magdelina moves:
+
+D..M...
+.m.mm..
+
+Magdelina misses
 Magdelina removes monsters:
 
-D.M....
-....mm.
+D..M...
+...mm..
 
 Danny hits
-Magdelina takes 3 damage (now at 14 life)
+Magdelina takes 2 damage (now at 16 life)
 Magdelina is stunned
 Danny adds monsters to the board:
 
-D.M....
-..m.mm.
+D..M...
+..mmm..
 
 Danny moves his monsters:
 
-D.M....
+D..M...
 ..mmm..
 
-Magdelina gains a Trance counter: has 1
+Magdelina gains a Trance counter: has 2
+Magdelina discards all Trance counters
+Magdelina gains a Level: has 2
 
 Beat 4
 -------
 
 Danny
 -----
-life: 15
-discard 1: Sinner's Strike
-discard 2: Shackled Shot
-special action
+Life: 20
+Discard 1: Sinner's Shot
+Discard 2: Shackled Grasp
+Special action available
 
 Magdelina
 ---------
-life: 14
-discard 1: Spiritual Drive
-discard 2: Safety Grasp
-special action
-Level: 1
-Trance: 1
+Life: 16
+Discard 1: Excelsius Drive
+Discard 2: Safety Grasp
+Special action available
+Level: 2
+Trance: 0
 
 
-D.M....
+D..M...
 ..mmm..
+
+Unbeatable strategy for Magdelina: Priestess Burst: -0.17
+
 
 Danny:
-69% Monstrous Hellgate
-9% Monstrous Grasp
-23% Fallen Drive
+21% Monstrous Strike
+35% Fallen Hellgate
+45% Fallen Strike
 
 Magdelina:
-40% Priestess Blessing
-20% Priestess Burst
-39% Priestess Dash
+9% Priestess Burst
+56% Sanctimonious Blessing
+35% Sanctimonious Burst
 
 
-Danny: Fallen Drive
-Magdelina: Priestess Blessing
+Danny: Monstrous Strike
+Magdelina: Priestess Burst
 
-Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  4 | 3
-Danny is active
+Magdelina gets a +2 bonus to power, priority and stunguard
+Priorities:  2 | 2
+Clash!
+
+
+Danny: Monstrous Hellgate
+Magdelina: Priestess Shot
+
+Magdelina gets a +2 bonus to power, priority and stunguard
+Priorities:  -1 | 3
+Magdelina is active
+Magdelina hits
+Danny gets -2 power
+Danny has 3 soak
+Danny takes 1 damage (now at 19 life)
+Magdelina removes monsters:
+
+D..M...
+...mm..
+
+Magdelina gains 1 life (now at 17)
 Danny moves:
 
-.DM....
-..mmm..
+...M..D
+...mm..
 
-Danny hits
-Danny gets +2 power
-Magdelina takes 4 damage (now at 10 life)
-Magdelina is stunned
 Danny adds monsters to the board:
 
-.DM....
-m.mmm..
+...M..D
+.mmmmm.
 
-Magdelina gains a Trance counter: has 2
-Magdelina discards all Trance counters
-Magdelina gains a Level: has 2
+Magdelina gains a Trance counter: has 1
 
 Beat 5
 -------
 
 Danny
 -----
-life: 15
-discard 1: Fallen Drive
-discard 2: Sinner's Strike
-special action
+Life: 19
+Discard 1: Monstrous Hellgate
+Discard 2: Sinner's Shot
+Special action available
 
 Magdelina
 ---------
-life: 10
-discard 1: Priestess Blessing
-discard 2: Spiritual Drive
-special action
+Life: 17
+Discard 1: Priestess Shot
+Discard 2: Excelsius Drive
+Special action available
 Level: 2
-Trance: 0
+Trance: 1
 
 
-.DM....
-m.mmm..
+...M..D
+.mmmmm.
 
-Unbeatable strategy for Magdelina: Excelsius Strike: -0.73
-Unbeatable strategy for Magdelina: Excelsius Shot: -0.46
 
 Danny:
-91% Monstrous Hellgate
-9% Monstrous Grasp
+26% Fallen Grasp
+30% Shackled Strike
+0% Shackled Grasp
+10% Vicious Strike
+35% Vicious Grasp
 
 Magdelina:
-91% Excelsius Strike
-9% Excelsius Shot
+24% Safety Burst
+44% Safety Dash
+24% Spiritual Strike
+5% Spiritual Grasp
+4% Sanctimonious Blessing
 
 
-Danny: Monstrous Hellgate
-Magdelina: Excelsius Strike
+Danny: Vicious Grasp
+Magdelina: Safety Dash
 
-Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  -1 | 4
+Magdelina gets a +2 bonus to power, priority and stunguard
+Priorities:  8 | 10
 Magdelina is active
 Magdelina moves:
 
-.D.M...
-m.mmm..
+M.....D
+.mmmmm.
 
-Magdelina hits
-Magdelina moves Danny:
-
-D..M...
-m.mmm..
-
-Danny has 3 soak
-Danny takes 2 damage (now at 13 life)
-Magdelina removes monsters:
-
-D..M...
-m..mm..
-
-Danny moves:
-
-..DM...
-m..mm..
-
-Danny adds monsters to the board:
-
-..DM...
-mmmmmm.
-
-Magdelina gains a Trance counter: has 1
+Danny misses
+Magdelina gains a Trance counter: has 2
 
 Beat 6
 -------
 
 Danny
 -----
-life: 13
-discard 1: Monstrous Hellgate
-discard 2: Fallen Drive
-special action
+Life: 19
+Discard 1: Vicious Grasp
+Discard 2: Monstrous Hellgate
+Special action available
 
 Magdelina
 ---------
-life: 10
-discard 1: Excelsius Strike
-discard 2: Priestess Blessing
-special action
+Life: 17
+Discard 1: Safety Dash
+Discard 2: Priestess Shot
+Special action available
 Level: 2
-Trance: 1
+Trance: 2
 
 
-..DM...
-mmmmmm.
-
-Unbeatable strategy for Magdelina: Safety Shot: -3.50
-Unbeatable strategy for Magdelina: Safety Drive: -0.70
-Unbeatable strategy for Magdelina: Safety Burst: -1.16
-Unbeatable strategy for Magdelina: Safety Grasp: -0.76
-Unbeatable strategy for Magdelina: Spiritual Shot: -0.30
-Unbeatable strategy for Magdelina: Spiritual Drive: -1.95
-Unbeatable strategy for Magdelina: Spiritual Burst: -0.28
-Unbeatable strategy for Magdelina: Spiritual Grasp: -1.58
-Unbeatable strategy for Magdelina: Sanctimonious Shot: -2.13
-Unbeatable strategy for Magdelina: Sanctimonious Drive: -0.07
-Unbeatable strategy for Magdelina: Sanctimonious Burst: -1.25
-Unbeatable strategy for Magdelina: Sanctimonious Grasp: -1.98
-
-Danny:
-12% Shackled Burst
-0% Sinner's Burst
-87% Special Pulse
-
-Magdelina:
-41% Safety Shot
-1% Safety Burst
-58% Safety Grasp
-
-
-Danny: Shackled Burst
-Magdelina: Safety Shot
-
-Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  0 | 3
-Magdelina is active
-Danny moves:
-
-D..M...
-mmmmmm.
-
-Magdelina hits
-Danny takes 3 damage (now at 10 life)
-Danny is stunned
-Magdelina removes monsters:
-
-D..M...
+M.....D
 .mmmmm.
 
-Magdelina gains a Trance counter: has 2
+
+Danny:
+54% Sinner's Strike
+46% Sinner's Burst
+
+Magdelina:
+87% Excelsius Drive
+13% Excelsius Burst
+
+
+Danny: Sinner's Burst
+Magdelina: Excelsius Drive
+
+Magdelina gets a +2 bonus to power, priority and stunguard
+Priorities:  1 | 5
+Magdelina is active
+Magdelina moves:
+
+.M....D
+.mmmmm.
+
+Magdelina moves:
+
+...M..D
+.mmmmm.
+
+Magdelina misses
+Magdelina removes monsters:
+
+...M..D
+.mmm.m.
+
+Danny hits
+Magdelina takes 2 damage (now at 15 life)
+Danny adds monsters to the board:
+
+...M..D
+mmmm.m.
+
+Danny moves his monsters:
+
+...M..D
+mmmmm..
+
+Magdelina gains a Trance counter: has 3
+Magdelina discards all Trance counters
+Magdelina gains a Level: has 3
 
 Beat 7
 -------
 
 Danny
 -----
-life: 10
-discard 1: Shackled Burst
-discard 2: Monstrous Hellgate
-special action
+Life: 19
+Discard 1: Sinner's Burst
+Discard 2: Vicious Grasp
+Special action available
 
 Magdelina
 ---------
-life: 10
-discard 1: Safety Shot
-discard 2: Excelsius Strike
-special action
-Level: 2
-Trance: 2
+Life: 15
+Discard 1: Excelsius Drive
+Discard 2: Safety Dash
+Special action available
+Level: 3
+Trance: 0
 
 
-D..M...
-.mmmmm.
+...M..D
+mmmmm..
+
+Unbeatable strategy for Magdelina: Priestess Shot: -0.33
+
 
 Danny:
-56% Sinner's Strike
-1% Sinner's Grasp
-32% Vicious Strike
-12% Vicious Grasp
+75% Monstrous Strike
+1% Fallen Strike
+24% Fallen Drive
 
 Magdelina:
-38% Priestess Drive
-12% Priestess Grasp
-47% Priestess Dash
-3% Spiritual Grasp
+57% Priestess Shot
+18% Sanctimonious Burst
+24% Sanctimonious Grasp
 
 
-Danny: Sinner's Strike
-Magdelina: Priestess Dash
+Danny: Monstrous Strike
+Magdelina: Sanctimonious Grasp
 
-Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  3 | 10
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  2 | 6
 Magdelina is active
-Magdelina gains 1 life (now at 11)
-Magdelina moves:
+Magdelina hits
+Magdelina moves Danny:
 
-D.M....
-.mmmmm.
+...M.D.
+mmmmm..
+
+Danny takes 4 damage (now at 15 life)
+Magdelina removes monsters:
+
+...M.D.
+mmmm...
 
 Danny hits
-Magdelina takes 3 damage (now at 8 life)
+Magdelina takes 5 damage (now at 10 life)
 Magdelina is stunned
-Danny moves his monsters:
+Danny adds monsters to the board:
 
-D.M....
-mmm.mm.
+...M.D.
+mmmmm..
 
-Magdelina gains a Trance counter: has 3
-Magdelina discards all Trance counters
-Magdelina gains a Level: has 3
+Danny adds monsters to the board:
+
+...M.D.
+mmmmm.m
+
+Magdelina gains a Trance counter: has 1
 
 Beat 8
 -------
 
 Danny
 -----
-life: 10
-discard 1: Sinner's Strike
-discard 2: Shackled Burst
-special action
+Life: 15
+Discard 1: Monstrous Strike
+Discard 2: Sinner's Burst
+Special action available
 
 Magdelina
 ---------
-life: 8
-discard 1: Priestess Dash
-discard 2: Safety Shot
-special action
+Life: 10
+Discard 1: Sanctimonious Grasp
+Discard 2: Excelsius Drive
+Special action available
 Level: 3
-Trance: 0
+Trance: 1
 
 
-D.M....
-mmm.mm.
+...M.D.
+mmmmm.m
 
-Unbeatable strategy for Magdelina: Excelsius Blessing: -0.83
-Unbeatable strategy for Magdelina: Excelsius Drive: -0.19
-Unbeatable strategy for Magdelina: Excelsius Burst: -0.69
+Unbeatable strategy for Magdelina: Safety Blessing: -0.17
+Unbeatable strategy for Magdelina: Safety Shot: -0.87
+Unbeatable strategy for Magdelina: Priestess Blessing: -0.04
+Unbeatable strategy for Magdelina: Priestess Strike: -0.19
+
 
 Danny:
-86% Monstrous Hellgate
-14% Monstrous Drive
+16% Fallen Drive
+4% Fallen Grasp
+80% Special Pulse
 
 Magdelina:
-98% Excelsius Blessing
-2% Excelsius Drive
+33% Priestess Blessing
+20% Priestess Strike
+48% Spiritual Strike
 
 
-Danny: Monstrous Hellgate
-Magdelina: Excelsius Blessing
+Danny: Fallen Grasp
+Magdelina: Priestess Blessing
 
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  -1 | 5
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  5 | 5
+Clash!
+
+
+Danny: Fallen Drive
+Magdelina: Priestess Shot
+
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  4 | 4
+Clash!
+
+
+Danny: Fallen Hellgate
+Magdelina: Priestess Burst
+
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  0 | 3
 Magdelina is active
 Magdelina moves:
 
-D..M...
-mmm.mm.
+..M..D.
+mmmmm.m
 
 Magdelina hits
-Magdelina gains 3 life (now at 11)
-Danny gains 3 life (now at 13)
-Magdelina gains a Trance counter: has 1
+Danny gets -2 power
+Danny has 3 soak
+Danny takes 2 damage (now at 13 life)
+Danny is stunned
 Magdelina removes monsters:
 
-D..M...
-.mm.mm.
+..M..D.
+mmmm..m
 
-Danny moves:
-
-..DM...
-.mm.mm.
-
+Magdelina gains 1 life (now at 11)
 Danny adds monsters to the board:
 
-..DM...
+..M..D.
 mmmmmmm
 
 Magdelina gains a Trance counter: has 2
@@ -542,109 +602,70 @@ Beat 9
 
 Danny
 -----
-life: 13
-discard 1: Monstrous Hellgate
-discard 2: Sinner's Strike
-special action
+Life: 13
+Discard 1: Fallen Hellgate
+Discard 2: Monstrous Strike
+Special action available
 
 Magdelina
 ---------
-life: 11
-discard 1: Excelsius Blessing
-discard 2: Priestess Dash
-special action
+Life: 11
+Discard 1: Priestess Burst
+Discard 2: Sanctimonious Grasp
+Special action available
 Level: 3
 Trance: 2
 
 
-..DM...
+..M..D.
 mmmmmmm
 
-Unbeatable strategy for Magdelina: Safety Strike: -0.11
-Unbeatable strategy for Magdelina: Safety Shot: -0.27
-Unbeatable strategy for Magdelina: Safety Drive: -0.05
-Unbeatable strategy for Magdelina: Safety Grasp: -0.11
-Unbeatable strategy for Magdelina: Spiritual Strike: -0.10
-Unbeatable strategy for Magdelina: Spiritual Drive: -1.33
-Unbeatable strategy for Magdelina: Spiritual Grasp: -1.30
-Unbeatable strategy for Magdelina: Sanctimonious Drive: -1.15
-Unbeatable strategy for Magdelina: Sanctimonious Grasp: -1.19
+Unbeatable strategy for Magdelina: Safety Shot: -2.85
+Unbeatable strategy for Magdelina: Excelsius Shot: -2.46
+
 
 Danny:
-4% Fallen Grasp
-44% Fallen Dash
-6% Shackled Burst
-47% Special Pulse
+20% Shackled Burst
+44% Shackled Grasp
+36% Vicious Burst
 
 Magdelina:
-47% Safety Shot
-10% Safety Drive
-42% Safety Grasp
-0% Spiritual Grasp
+58% Safety Shot
+2% Spiritual Shot
+40% Spiritual Drive
 
 
-Danny: Special Pulse
+Danny: Shackled Grasp
 Magdelina: Safety Shot
 
-Magdelina gets a +3 bonus to power, priority and stungard
-Pulse:
-
-D.....M
-mmmmmmm
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  4 | 4
+Clash!
 
 
-Beat 9
--------
+Danny: Shackled Burst
+Magdelina: Safety Strike
 
-Danny
------
-life: 13
-discard 1: Monstrous Hellgate
-discard 2: Sinner's Strike
-
-Magdelina
----------
-life: 11
-discard 1: Safety Shot
-discard 2: Excelsius Blessing
-special action
-Level: 3
-Trance: 2
-
-
-D.....M
-mmmmmmm
-
-Unbeatable strategy for Magdelina: Priestess Strike: -0.21
-Unbeatable strategy for Magdelina: Priestess Drive: -0.21
-Unbeatable strategy for Magdelina: Priestess Grasp: -0.21
-
-Danny:
-24% Fallen Shot
-20% Fallen Drive
-2% Fallen Grasp
-53% Shackled Shot
-
-Magdelina:
-29% Priestess Drive
-21% Priestess Grasp
-6% Sanctimonious Drive
-44% Sanctimonious Burst
-
-
-Danny: Shackled Shot
-Magdelina: Sanctimonious Burst
-
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  1 | 2
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  0 | 5
 Magdelina is active
-Magdelina hits
-Danny takes 5 damage (now at 8 life)
-Danny is stunned
+Danny moves:
+
+..M...D
+mmmmmmm
+
+Magdelina misses
 Magdelina removes monsters:
 
-D.....M
-.mmmmmm
+..M...D
+mmm.mmm
+
+Danny hits
+Magdelina takes 3 damage (now at 8 life)
+Danny adds monsters to the board:
+
+..M...D
+mmmmmmm
 
 Magdelina gains a Trance counter: has 3
 
@@ -653,65 +674,61 @@ Beat 10
 
 Danny
 -----
-life: 8
-discard 1: Shackled Shot
-discard 2: Monstrous Hellgate
+Life: 13
+Discard 1: Shackled Burst
+Discard 2: Fallen Hellgate
+Special action available
 
 Magdelina
 ---------
-life: 11
-discard 1: Sanctimonious Burst
-discard 2: Safety Shot
-special action
+Life: 8
+Discard 1: Safety Strike
+Discard 2: Priestess Burst
+Special action available
 Level: 3
 Trance: 3
 
 
-D.....M
-.mmmmmm
+..M...D
+mmmmmmm
 
-Unbeatable strategy for Magdelina: Priestess Drive: -1.91
-Unbeatable strategy for Magdelina: Priestess Dash: -1.87
-Unbeatable strategy for Magdelina: Spiritual Dash: -1.23
-Unbeatable strategy for Magdelina: Excelsius Drive: -1.77
-Unbeatable strategy for Magdelina: Excelsius Dash: -2.29
+Unbeatable strategy for Magdelina: Excelsius Shot: -0.40
+
 
 Danny:
-25% Fallen Strike
-57% Fallen Grasp
-18% Vicious Strike
+60% Monstrous Strike
+40% Vicious Strike
 
 Magdelina:
-18% Priestess Drive
-4% Priestess Grasp
-78% Excelsius Dash
+37% Spiritual Drive
+63% Excelsius Shot
 
 
-Danny: Fallen Grasp
-Magdelina: Excelsius Dash
+Danny: Monstrous Strike
+Magdelina: Excelsius Shot
 
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  5 | 11
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  2 | 4
 Magdelina is active
 Magdelina moves:
 
-D....M.
-.mmmmmm
+...M..D
+mmmmmmm
 
-Magdelina moves:
+Magdelina hits
+Danny takes 5 damage (now at 8 life)
+Magdelina removes monsters:
 
-D.M....
-.mmmmmm
+...M..D
+mmmm.mm
 
 Danny hits
-Danny gets +2 power
-Danny moves Magdelina:
+Magdelina takes 5 damage (now at 3 life)
+Danny adds monsters to the board:
 
-D..M...
-.mmmmmm
+...M..D
+mmmmmmm
 
-Magdelina takes 3 damage (now at 8 life)
-Magdelina is stunned
 Magdelina gains a Trance counter: has 4
 Magdelina discards all Trance counters
 Magdelina gains a Level: has 4
@@ -721,60 +738,59 @@ Beat 11
 
 Danny
 -----
-life: 8
-discard 1: Fallen Grasp
-discard 2: Shackled Shot
+Life: 8
+Discard 1: Monstrous Strike
+Discard 2: Shackled Burst
+Special action available
 
 Magdelina
 ---------
-life: 8
-discard 1: Excelsius Dash
-discard 2: Sanctimonious Burst
-special action
+Life: 3
+Discard 1: Excelsius Shot
+Discard 2: Safety Strike
+Special action available
 Level: 4
 Trance: 0
 
 
-D..M...
-.mmmmmm
+...M..D
+mmmmmmm
 
-Unbeatable strategy for Magdelina: Safety Shot: -2.51
-Unbeatable strategy for Magdelina: Safety Drive: -1.13
-Unbeatable strategy for Magdelina: Priestess Shot: -2.88
-Unbeatable strategy for Magdelina: Priestess Drive: -4.64
+Unbeatable strategy for Danny: Vicious Grasp: 1.10
+
 
 Danny:
-56% Monstrous Dash
-44% Vicious Drive
+35% Fallen Shot
+0% Vicious Drive
+64% Vicious Grasp
 
 Magdelina:
-43% Priestess Shot
-57% Priestess Drive
+14% Priestess Drive
+9% Priestess Dash
+77% Special Pulse
 
 
-Danny: Monstrous Dash
+Danny: Fallen Shot
 Magdelina: Priestess Drive
 
-Magdelina gets a +4 bonus to power, priority and stungard
-Priorities:  8 | 7
-Danny is active
-Danny moves:
-
-...MD..
-.mmmmmm
-
+Magdelina gets a +4 bonus to power, priority and stunguard
+Priorities:  2 | 7
+Magdelina is active
 Magdelina moves:
 
-....D.M
-.mmmmmm
+.....MD
+mmmmmmm
 
-Magdelina misses
+Magdelina hits
+Danny gets -2 power
+Danny takes 6 damage (now at 2 life)
+Danny is stunned
 Magdelina removes monsters:
 
-....D.M
-.mmmm.m
+.....MD
+mmmmmm.
 
-Magdelina gains 1 life (now at 9)
+Magdelina gains 1 life (now at 4)
 Magdelina gains a Trance counter: has 1
 
 Beat 12
@@ -782,53 +798,57 @@ Beat 12
 
 Danny
 -----
-life: 8
-discard 1: Monstrous Dash
-discard 2: Fallen Grasp
+Life: 2
+Discard 1: Fallen Shot
+Discard 2: Monstrous Strike
+Special action available
 
 Magdelina
 ---------
-life: 9
-discard 1: Priestess Drive
-discard 2: Excelsius Dash
-special action
+Life: 4
+Discard 1: Priestess Drive
+Discard 2: Excelsius Shot
+Special action available
 Level: 4
 Trance: 1
 
 
-....D.M
-.mmmm.m
+.....MD
+mmmmmm.
 
-Unbeatable strategy for Magdelina: Safety Shot: -0.26
-Unbeatable strategy for Magdelina: Sanctimonious Strike: -1.76
+Unbeatable strategy for Magdelina: Safety Strike: -2.09
+Unbeatable strategy for Magdelina: Safety Grasp: -0.04
+Unbeatable strategy for Magdelina: Spiritual Grasp: -0.33
+
 
 Danny:
-100% Shackled Hellgate
+6% Sinner's Hellgate
+91% Sinner's Dash
+3% Special The Dark Ride
 
 Magdelina:
-100% Sanctimonious Strike
+1% Safety Blessing
+69% Safety Grasp
+30% Spiritual Strike
 
 
-Danny: Shackled Hellgate
-Magdelina: Sanctimonious Strike
+Danny: Sinner's Dash
+Magdelina: Safety Grasp
 
-Magdelina gets a +4 bonus to power, priority and stungard
-Priorities:  -1 | 5
-Magdelina is active
-Magdelina hits
-Danny has 3 soak
-Danny takes 4 damage (now at 4 life)
-Danny is stunned
-Magdelina removes monsters:
+Magdelina gets a +4 bonus to power, priority and stunguard
+Priorities:  9 | 8
+Danny is active
+Danny moves his monsters:
 
-....D.M
-..mmm.m
+.....MD
+mmmm.mm
 
-Danny adds monsters to the board:
+Danny moves:
 
-....D.M
-mmmmmmm
+....DM.
+mmmm.mm
 
+Magdelina misses
 Magdelina gains a Trance counter: has 2
 
 Beat 13
@@ -836,57 +856,107 @@ Beat 13
 
 Danny
 -----
-life: 4
-discard 1: Shackled Hellgate
-discard 2: Monstrous Dash
+Life: 2
+Discard 1: Sinner's Dash
+Discard 2: Fallen Shot
+Special action available
 
 Magdelina
 ---------
-life: 9
-discard 1: Sanctimonious Strike
-discard 2: Priestess Drive
-special action
+Life: 4
+Discard 1: Safety Grasp
+Discard 2: Priestess Drive
+Special action available
 Level: 4
 Trance: 2
 
 
-....D.M
-mmmmmmm
+....DM.
+mmmm.mm
 
-Unbeatable strategy for Magdelina: Safety Shot: -9.00
-Unbeatable strategy for Magdelina: Excelsius Shot: -9.00
 
 Danny:
-32% Fallen Burst
-68% Fallen Grasp
+45% Shackled Hellgate
+5% Shackled Strike
+50% Vicious Drive
 
 Magdelina:
-68% Excelsius Shot
-32% Excelsius Grasp
+2% Spiritual Strike
+1% Spiritual Shot
+28% Spiritual Burst
+3% Sanctimonious Strike
+3% Sanctimonious Shot
+3% Excelsius Strike
+3% Excelsius Shot
+46% Excelsius Dash
+8% Special Solar Soul
+3% Special Apotheosis
 
 
-Danny: Fallen Burst
-Magdelina: Excelsius Shot
+Danny: Shackled Hellgate
+Magdelina: Excelsius Dash
 
-Magdelina gets a +4 bonus to power, priority and stungard
-Priorities:  1 | 5
+Magdelina gets a +4 bonus to power, priority and stunguard
+Priorities:  -1 | 12
 Magdelina is active
 Danny moves:
 
-..D...M
-mmmmmmm
+D....M.
+mmmm.mm
 
-Magdelina moves:
-
-..D..M.
-mmmmmmm
-
-Magdelina hits
-Magdelina moves Danny:
+Danny adds monsters to the board:
 
 D....M.
 mmmmmmm
 
-Danny takes 6 damage (now at 0 life)
-MAGDELINA WINS!
-total_time: 19
+Magdelina gains a Trance counter: has 3
+
+Beat 14
+-------
+
+Danny
+-----
+Life: 2
+Discard 1: Shackled Hellgate
+Discard 2: Sinner's Dash
+Special action available
+
+Magdelina
+---------
+Life: 4
+Discard 1: Excelsius Dash
+Discard 2: Safety Grasp
+Special action available
+Level: 4
+Trance: 3
+
+
+D....M.
+mmmmmmm
+
+
+Danny:
+47% Fallen Drive
+47% Vicious Strike
+6% Special The Dark Ride
+
+Magdelina:
+2% Spiritual Drive
+8% Sanctimonious Strike
+2% Sanctimonious Shot
+11% Sanctimonious Drive
+21% Sanctimonious Burst
+56% Special Pulse
+
+
+Danny: Vicious Strike
+Magdelina: Sanctimonious Drive
+
+Magdelina gets a +4 bonus to power, priority and stunguard
+Priorities:  9 | 6
+Danny is active
+Danny hits
+Danny gets +1 power
+Magdelina takes 4 damage (now at 0 life)
+DANNY WINS!
+total_time: 21

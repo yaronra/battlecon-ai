@@ -11,25 +11,26 @@ Beat 1
 
 Danny
 -----
-life: 20
-discard 1: Fallen Burst
-discard 2: Vicious Shot
-special action
+Life: 20
+Discard 1: Fallen Burst
+Discard 2: Vicious Shot
+Special action available
 
 Ottavia
 -------
-life: 20
-discard 1: Cybernetic Strike
-discard 2: Demolition Shot
-special action
+Life: 20
+Discard 1: Cybernetic Strike
+Discard 2: Demolition Shot
+Special action available
 
 
 .D...O.
 
 
+
 Danny:
-31% Monstrous Hellgate
-19% Shackled Hellgate
+32% Monstrous Hellgate
+18% Shackled Hellgate
 41% Sinner's Hellgate
 3% Sinner's Strike
 3% Sinner's Drive
@@ -37,10 +38,10 @@ Danny:
 
 Ottavia:
 17% Anti-Personnel Shooter (Target Lock: 3)
-15% Anti-Personnel Shooter (Target Lock: 4)
+14% Anti-Personnel Shooter (Target Lock: 4)
 12% Anti-Personnel Shooter (Target Lock: 5)
 5% Anti-Personnel Burst (Target Lock: 5)
-6% Cover Shooter (Target Lock: 0)
+5% Cover Shooter (Target Lock: 0)
 6% Special Pulse (Target Lock: -1)
 6% Special Pulse (Target Lock: 0)
 6% Special Pulse (Target Lock: 2)
@@ -52,7 +53,7 @@ Ottavia:
 
 
 Danny: Monstrous Hellgate
-Ottavia: Anti-Personnel Shooter (Target Lock: 4)
+Ottavia: Anti-Personnel Shooter (Target Lock: 3)
 
 Priorities:  -1 | 1
 Ottavia is active
@@ -76,89 +77,52 @@ Beat 2
 
 Danny
 -----
-life: 16
-discard 1: Monstrous Hellgate
-discard 2: Fallen Burst
-special action
+Life: 16
+Discard 1: Monstrous Hellgate
+Discard 2: Fallen Burst
+Special action available
 
 Ottavia
 -------
-life: 20
-discard 1: Anti-Personnel Shooter
-discard 2: Cybernetic Strike
-special action
+Life: 20
+Discard 1: Anti-Personnel Shooter
+Discard 2: Cybernetic Strike
+Special action available
 
 
 OD.....
 m.mm...
 
-Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: 6): -0.06
+Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: 6): -1.14
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 2): -0.03
+
 
 Danny:
-56% Shackled Strike
-17% Shackled Drive
-0% Sinner's Strike
-13% Sinner's Grasp
-8% Vicious Strike
-6% Vicious Grasp
+50% Shackled Strike
+20% Shackled Drive
+20% Sinner's Grasp
+10% Vicious Strike
 
 Ottavia:
-32% Demolition Shot (Target Lock: 3)
-10% Demolition Burst (Target Lock: 5)
-12% Demolition Burst (Target Lock: 6)
-0% Demolition Burst (Target Lock: 8)
-35% Cover Drive (Target Lock: 2)
-11% Cover Drive (Target Lock: 5)
-
-
-Danny: Shackled Strike
-Ottavia: Demolition Burst (Target Lock: 6)
-
-Priorities:  2 | 2
-Clash!
-
-Danny:
-78% Shackled Drive
-22% Shackled Dash
-
-Ottavia:
-22% Demolition Shot (Target Lock: 6)
-78% Demolition Drive (Target Lock: 6)
+26% Demolition Shot (Target Lock: 3)
+12% Demolition Shot (Target Lock: 5)
+14% Demolition Shot (Target Lock: 6)
+47% Cover Drive (Target Lock: 2)
 
 
 Danny: Shackled Drive
-Ottavia: Demolition Shot (Target Lock: 6)
+Ottavia: Demolition Shot (Target Lock: 3)
 
-Priorities:  3 | 3
-Clash!
-
-Danny:
-100% Shackled Dash
-
-Ottavia:
-100% Demolition Drive (Target Lock: 6)
-
-
-Danny: Shackled Dash
-Ottavia: Demolition Drive (Target Lock: 6)
-
-Priorities:  8 | 5
-Danny is active
-Danny moves:
-
-O..D...
-m.mm...
-
-Ottavia moves:
-
-.O.D...
-m.mm...
-
-Ottavia misses
+Ottavia acquires target lock
+Priorities:  -7 | 3
+Ottavia is active
+Ottavia hits
+Danny takes 3 damage (now at 13 life)
+Danny is stunned
 Ottavia removes monsters:
 
-.O.D...
-..mm...
+OD.....
+m.m....
 
 
 Beat 3
@@ -166,75 +130,67 @@ Beat 3
 
 Danny
 -----
-life: 16
-discard 1: Shackled Dash
-discard 2: Monstrous Hellgate
-special action
+Life: 13
+Discard 1: Shackled Drive
+Discard 2: Monstrous Hellgate
+Special action available
 
 Ottavia
 -------
-life: 20
-discard 1: Demolition Drive
-discard 2: Anti-Personnel Shooter
-special action
+Life: 20
+Discard 1: Demolition Shot
+Discard 2: Anti-Personnel Shooter
+Special action available
 
 
-.O.D...
-..mm...
+OD.....
+m.m....
+
 
 Danny:
-36% Sinner's Strike
-19% Sinner's Drive
-22% Sinner's Grasp
-22% Vicious Drive
+4% Fallen Strike
+0% Fallen Burst
+12% Fallen Grasp
+22% Sinner's Dash
+15% Vicious Shot
+22% Vicious Grasp
+24% Vicious Dash
 
 Ottavia:
-28% Snapback Grasp (Target Lock: 7)
-19% Cover Strike (Target Lock: 7)
-16% Cover Burst (Target Lock: 4)
-36% Cover Burst (Target Lock: 5)
+5% Snapback Strike (Target Lock: 5)
+42% Snapback Drive (Target Lock: 5)
+1% Snapback Drive (Target Lock: 7)
+18% Cover Drive (Target Lock: 7)
+6% Cover Drive (Target Lock: 9)
+14% Cybernetic Strike (Target Lock: 5)
+14% Cybernetic Strike (Target Lock: 11)
 
 
-Danny: Sinner's Grasp
-Ottavia: Snapback Grasp (Target Lock: 7)
+Danny: Vicious Dash
+Ottavia: Snapback Drive (Target Lock: 5)
 
-Priorities:  5 | 5
-Clash!
+Priorities:  11 | 4
+Danny is active
+Danny moves:
 
-Danny:
-69% Sinner's Strike
-31% Sinner's Drive
-
-Ottavia:
-21% Snapback Strike (Target Lock: 7)
-79% Snapback Dash (Target Lock: 7)
-
-
-Danny: Sinner's Strike
-Ottavia: Snapback Dash (Target Lock: 7)
-
-Priorities:  3 | 9
-Ottavia is active
-Ottavia moves:
-
-...DO..
-..mm...
+O.D....
+m.m....
 
 Ottavia moves:
 
-...D..O
-..mm...
+..DO...
+m.m....
 
-Danny misses
-Danny adds monsters to the board:
+Ottavia misses
+Ottavia removes monsters:
 
-...D..O
-..mm.m.
+..DO...
+..m....
 
-Danny moves his monsters:
+Ottavia moves:
 
-...D..O
-.m..m.m
+..D.O..
+..m....
 
 
 Beat 4
@@ -242,124 +198,131 @@ Beat 4
 
 Danny
 -----
-life: 16
-discard 1: Sinner's Strike
-discard 2: Shackled Dash
-special action
+Life: 13
+Discard 1: Vicious Dash
+Discard 2: Shackled Drive
+Special action available
 
 Ottavia
 -------
-life: 20
-discard 1: Snapback Dash
-discard 2: Demolition Drive
-special action
+Life: 20
+Discard 1: Snapback Drive
+Discard 2: Demolition Shot
+Special action available
 
 
-...D..O
-.m..m.m
+..D.O..
+..m....
+
 
 Danny:
-2% Fallen Shot
-13% Fallen Drive
-14% Fallen Burst
-10% Fallen Grasp
-40% Vicious Hellgate
-16% Vicious Drive
-5% Vicious Grasp
+14% Monstrous Hellgate
+62% Sinner's Hellgate
+22% Sinner's Burst
+3% Sinner's Grasp
 
 Ottavia:
-3% Anti-Personnel Shooter (Target Lock: 1)
-11% Anti-Personnel Shooter (Target Lock: 3)
-21% Anti-Personnel Shooter (Target Lock: 4)
-5% Anti-Personnel Shooter (Target Lock: 5)
-23% Anti-Personnel Grasp (Target Lock: 5)
-11% Anti-Personnel Grasp (Target Lock: 7)
-26% Cover Shooter (Target Lock: 1)
+60% Cover Shooter (Target Lock: 0)
+5% Cover Strike (Target Lock: 1)
+30% Cover Strike (Target Lock: 5)
+4% Cybernetic Shooter (Target Lock: 5)
 
 
-Danny: Vicious Hellgate
-Ottavia: Anti-Personnel Shooter (Target Lock: 3)
+Danny: Sinner's Hellgate
+Ottavia: Cover Strike (Target Lock: 5)
 
-Ottavia acquires target lock
-Priorities:  -7 | 1
-Ottavia is active
-Ottavia hits
-Danny has 3 soak
-Danny takes 4 damage (now at 12 life)
-Danny is stunned
-Ottavia removes monsters:
+Priorities:  0 | 0
+Clash!
 
-...D..O
-....m.m
 
-Ottavia moves:
+Danny: Sinner's Strike
+Ottavia: Cover Shooter (Target Lock: 5)
 
-O..D...
-....m.m
-
+Priorities:  3 | -1
+Danny is active
+Danny hits
+Ottavia has 1 soak
+Ottavia takes 2 damage (now at 18 life)
 Danny adds monsters to the board:
 
-O..D...
-mmm.m.m
+..D.O..
+..m.m..
 
+Danny moves his monsters:
+
+..D.O..
+...mm..
+
+Ottavia hits
+Danny takes 5 damage (now at 8 life)
+Danny is stunned
 
 Beat 5
 -------
 
 Danny
 -----
-life: 12
-discard 1: Vicious Hellgate
-discard 2: Sinner's Strike
-special action
+Life: 8
+Discard 1: Sinner's Strike
+Discard 2: Vicious Dash
+Special action available
 
 Ottavia
 -------
-life: 20
-discard 1: Anti-Personnel Shooter
-discard 2: Snapback Dash
-special action
+Life: 18
+Discard 1: Cover Shooter
+Discard 2: Snapback Drive
+Special action available
 
 
-O..D...
-mmm.m.m
+..D.O..
+...mm..
+
 
 Danny:
-11% Monstrous Burst
-5% Fallen Shot
-13% Fallen Drive
-13% Fallen Burst
-10% Fallen Grasp
-14% Shackled Drive
-30% Shackled Burst
-4% Shackled Dash
+8% Monstrous Shot
+59% Fallen Hellgate
+11% Fallen Shot
+11% Fallen Drive
+9% Shackled Drive
+2% Shackled Burst
 
 Ottavia:
-10% Demolition Drive (Target Lock: 5)
-11% Cover Strike (Target Lock: 3)
-5% Cover Shot (Target Lock: 0)
-37% Cover Shot (Target Lock: 1)
-13% Cover Drive (Target Lock: 4)
-0% Cover Burst (Target Lock: 0)
-0% Cover Burst (Target Lock: 1)
-6% Cybernetic Drive (Target Lock: 4)
-18% Cybernetic Drive (Target Lock: 5)
+5% Demolition Shot (Target Lock: 4)
+22% Anti-Personnel Burst (Target Lock: 0)
+32% Anti-Personnel Burst (Target Lock: 1)
+9% Anti-Personnel Burst (Target Lock: 2)
+24% Anti-Personnel Burst (Target Lock: 3)
+9% Anti-Personnel Burst (Target Lock: 4)
 
 
-Danny: Fallen Shot
-Ottavia: Cover Shot (Target Lock: 1)
+Danny: Fallen Hellgate
+Ottavia: Anti-Personnel Burst (Target Lock: 1)
 
-Priorities:  2 | -1
-Danny is active
-Danny hits
-Danny gets +2 power
-Ottavia has 1 soak
-Ottavia takes 3 damage (now at 17 life)
-Ottavia is stunned
+Priorities:  0 | 0
+Clash!
+
+
+Danny: Fallen Drive
+Ottavia: Anti-Personnel Dash (Target Lock: 1)
+
+Priorities:  4 | 8
+Ottavia is active
+Ottavia moves:
+
+.OD....
+...mm..
+
+Danny moves:
+
+DO.....
+...mm..
+
+Danny misses
 Danny adds monsters to the board:
 
-O..D...
-mmm.mmm
+DO.....
+..mmm..
 
 
 Beat 6
@@ -367,58 +330,73 @@ Beat 6
 
 Danny
 -----
-life: 12
-discard 1: Fallen Shot
-discard 2: Vicious Hellgate
-special action
+Life: 8
+Discard 1: Fallen Drive
+Discard 2: Sinner's Strike
+Special action available
 
 Ottavia
 -------
-life: 17
-discard 1: Cover Shot
-discard 2: Anti-Personnel Shooter
-special action
+Life: 18
+Discard 1: Anti-Personnel Dash
+Discard 2: Cover Shooter
+Special action available
 
 
-O..D...
-mmm.mmm
+DO.....
+..mmm..
+
+Unbeatable strategy for Danny: Monstrous Hellgate: 2.45
+Unbeatable strategy for Danny: Shackled Hellgate: 2.32
+
 
 Danny:
-46% Monstrous Strike
-28% Shackled Strike
-7% Shackled Drive
-6% Shackled Dash
-6% Sinner's Drive
-7% Sinner's Dash
+90% Monstrous Hellgate
+7% Monstrous Shot
+3% Monstrous Grasp
 
 Ottavia:
-29% Snapback Strike (Target Lock: 3)
-1% Snapback Strike (Target Lock: 4)
-14% Snapback Strike (Target Lock: 8)
-9% Snapback Strike (Target Lock: 9)
-37% Cybernetic Drive (Target Lock: 4)
-10% Cybernetic Burst (Target Lock: 2)
+24% Snapback Burst (Target Lock: 1)
+4% Snapback Grasp (Target Lock: -1)
+4% Snapback Grasp (Target Lock: 0)
+4% Snapback Grasp (Target Lock: 1)
+4% Snapback Grasp (Target Lock: 2)
+4% Snapback Grasp (Target Lock: 3)
+4% Snapback Grasp (Target Lock: 4)
+15% Snapback Grasp (Target Lock: 6)
+4% Snapback Grasp (Target Lock: 8)
+4% Snapback Grasp (Target Lock: 10)
+1% Cybernetic Grasp (Target Lock: -1)
+1% Cybernetic Grasp (Target Lock: 0)
+1% Cybernetic Grasp (Target Lock: 1)
+1% Cybernetic Grasp (Target Lock: 2)
+1% Cybernetic Grasp (Target Lock: 3)
+1% Cybernetic Grasp (Target Lock: 4)
+20% Cybernetic Grasp (Target Lock: 6)
+1% Cybernetic Grasp (Target Lock: 8)
+1% Cybernetic Grasp (Target Lock: 10)
 
 
-Danny: Shackled Strike
-Ottavia: Cybernetic Drive (Target Lock: 4)
+Danny: Monstrous Hellgate
+Ottavia: Snapback Burst (Target Lock: 1)
 
-Priorities:  2 | 4
+Priorities:  -1 | 1
 Ottavia is active
+Ottavia moves:
+
+D.O....
+..mmm..
+
 Ottavia misses
-Ottavia removes monsters:
+Ottavia moves:
 
-O..D...
-m.m.mmm
+D..O...
+..mmm..
 
-Danny hits
-Ottavia has 2 soak
-Ottavia takes 2 damage (now at 15 life)
-Ottavia is stunned
 Danny adds monsters to the board:
 
-O..D...
-mmm.mmm
+D..O...
+mmmmmm.
 
 
 Beat 7
@@ -426,63 +404,71 @@ Beat 7
 
 Danny
 -----
-life: 12
-discard 1: Shackled Strike
-discard 2: Fallen Shot
-special action
+Life: 8
+Discard 1: Monstrous Hellgate
+Discard 2: Fallen Drive
+Special action available
 
 Ottavia
 -------
-life: 15
-discard 1: Cybernetic Drive
-discard 2: Cover Shot
-special action
+Life: 18
+Discard 1: Snapback Burst
+Discard 2: Anti-Personnel Dash
+Special action available
 
 
-O..D...
-mmm.mmm
+D..O...
+mmmmmm.
+
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 7): -0.91
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 0): -0.91
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 1): -0.91
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 2): -0.91
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 3): -0.91
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 4): -0.91
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 5): -0.91
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 6): -0.91
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 7): -0.91
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 8): -0.91
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 9): -1.31
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 13): -0.91
+
 
 Danny:
-5% Monstrous Drive
-4% Monstrous Grasp
-11% Sinner's Drive
-3% Sinner's Grasp
-35% Vicious Hellgate
-13% Vicious Drive
-15% Vicious Burst
-14% Vicious Grasp
+4% Shackled Grasp
+9% Shackled Dash
+9% Sinner's Dash
+5% Vicious Strike
+1% Vicious Shot
+17% Vicious Burst
+54% Vicious Dash
 
 Ottavia:
-18% Snapback Strike (Target Lock: 4)
-13% Snapback Strike (Target Lock: 7)
-6% Anti-Personnel Shooter (Target Lock: 4)
-22% Anti-Personnel Shooter (Target Lock: 6)
-9% Anti-Personnel Shooter (Target Lock: 7)
-7% Anti-Personnel Grasp (Target Lock: 4)
-24% Anti-Personnel Grasp (Target Lock: 10)
-1% Anti-Personnel Grasp (Target Lock: 11)
+1% Cover Shooter (Target Lock: 5)
+40% Cover Shooter (Target Lock: 7)
+9% Cover Shooter (Target Lock: 8)
+8% Cover Strike (Target Lock: 8)
+24% Cover Strike (Target Lock: 9)
+3% Cybernetic Drive (Target Lock: 5)
+16% Cybernetic Drive (Target Lock: 13)
 
 
-Danny: Vicious Hellgate
-Ottavia: Snapback Strike (Target Lock: 4)
+Danny: Vicious Burst
+Ottavia: Cover Shooter (Target Lock: 8)
 
-Priorities:  6 | 3
+Priorities:  5 | -1
 Danny is active
-Danny moves:
-
-O.....D
-mmm.mmm
-
-Ottavia misses
+Danny hits
+Danny gets +2 power
+Ottavia has 1 soak
+Ottavia takes 3 damage (now at 15 life)
+Ottavia hits
+Danny takes 5 damage (now at 3 life)
+Danny is stunned
 Ottavia removes monsters:
 
-O.....D
-mm..mmm
-
-Danny adds monsters to the board:
-
-O.....D
-mmmmmmm
+D..O...
+.mmmmm.
 
 
 Beat 8
@@ -490,701 +476,55 @@ Beat 8
 
 Danny
 -----
-life: 12
-discard 1: Vicious Hellgate
-discard 2: Shackled Strike
-special action
+Life: 3
+Discard 1: Vicious Burst
+Discard 2: Monstrous Hellgate
+Special action available
 
 Ottavia
 -------
-life: 15
-discard 1: Snapback Strike
-discard 2: Cybernetic Drive
-special action
+Life: 15
+Discard 1: Cover Shooter
+Discard 2: Snapback Burst
+Special action available
 
 
-O.....D
-mmmmmmm
+D..O...
+.mmmmm.
 
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 0): -0.77
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 1): -0.77
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 2): -0.77
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 3): -0.77
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 4): -0.77
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 5): -0.77
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 8): -0.77
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 9): -0.77
+Unbeatable strategy for Ottavia: Anti-Personnel Grasp (Target Lock: 5): -2.56
+
 
 Danny:
-12% Monstrous Drive
-19% Fallen Shot
-22% Fallen Drive
-1% Fallen Burst
-23% Fallen Grasp
-24% Sinner's Burst
+11% Fallen Drive
+16% Fallen Grasp
+3% Shackled Drive
+11% Shackled Grasp
+28% Shackled Dash
+17% Sinner's Dash
+14% Special The Dark Ride
 
 Ottavia:
-6% Demolition Grasp (Target Lock: 0)
-6% Demolition Grasp (Target Lock: 1)
-6% Demolition Grasp (Target Lock: 2)
-6% Demolition Grasp (Target Lock: 3)
-6% Demolition Grasp (Target Lock: 4)
-6% Demolition Grasp (Target Lock: 5)
-6% Demolition Grasp (Target Lock: 8)
-6% Demolition Grasp (Target Lock: 9)
-8% Anti-Personnel Shooter (Target Lock: 1)
-11% Anti-Personnel Shooter (Target Lock: 2)
-9% Anti-Personnel Shooter (Target Lock: 4)
-3% Anti-Personnel Shooter (Target Lock: 5)
-21% Cover Shot (Target Lock: 2)
+10% Demolition Shot (Target Lock: 5)
+12% Demolition Shot (Target Lock: 8)
+3% Demolition Drive (Target Lock: 5)
+15% Demolition Drive (Target Lock: 6)
+7% Demolition Drive (Target Lock: 9)
+23% Anti-Personnel Grasp (Target Lock: 4)
+30% Anti-Personnel Grasp (Target Lock: 5)
 
 
 Danny: Fallen Drive
-Ottavia: Demolition Grasp (Target Lock: 0)
+Ottavia: Demolition Drive (Target Lock: 5)
 
-Priorities:  4 | 6
-Ottavia is active
-Ottavia misses
-Ottavia removes monsters:
-
-O.....D
-m.mmmmm
-
-Ottavia moves:
-
-.O....D
-m.mmmmm
-
-Danny moves:
-
-.O..D..
-m.mmmmm
-
-Danny misses
-
-Beat 9
--------
-
-Danny
------
-life: 12
-discard 1: Fallen Drive
-discard 2: Vicious Hellgate
-special action
-
-Ottavia
--------
-life: 15
-discard 1: Demolition Grasp
-discard 2: Snapback Strike
-special action
-
-
-.O..D..
-m.mmmmm
-
-Danny:
-15% Monstrous Shot
-6% Monstrous Dash
-6% Shackled Dash
-20% Sinner's Strike
-4% Sinner's Shot
-3% Sinner's Burst
-14% Sinner's Grasp
-32% Sinner's Dash
-
-Ottavia:
-9% Anti-Personnel Shooter (Target Lock: 3)
-13% Cover Shooter (Target Lock: 1)
-33% Cover Shot (Target Lock: 8)
-5% Cover Shot (Target Lock: 9)
-22% Cover Drive (Target Lock: 9)
-2% Cover Burst (Target Lock: 1)
-4% Cover Burst (Target Lock: 8)
-13% Cybernetic Shot (Target Lock: 9)
-
-
-Danny: Sinner's Dash
-Ottavia: Cover Shot (Target Lock: 8)
-
-Priorities:  9 | -1
-Danny is active
-Danny moves his monsters:
-
-.O..D..
-mm.mmmm
-
-Danny moves:
-
-.OD....
-mm.mmmm
-
-Ottavia misses
-Ottavia removes monsters:
-
-.OD....
-mm.mm.m
-
-
-Beat 10
--------
-
-Danny
------
-life: 12
-discard 1: Sinner's Dash
-discard 2: Fallen Drive
-special action
-
-Ottavia
--------
-life: 15
-discard 1: Cover Shot
-discard 2: Demolition Grasp
-special action
-
-
-.OD....
-mm.mm.m
-
-Danny:
-72% Monstrous Hellgate
-14% Vicious Hellgate
-3% Vicious Strike
-3% Vicious Shot
-4% Vicious Burst
-4% Vicious Grasp
-
-Ottavia:
-15% Cybernetic Shooter (Target Lock: 4)
-19% Cybernetic Shooter (Target Lock: 5)
-10% Cybernetic Shooter (Target Lock: 6)
-11% Cybernetic Shooter (Target Lock: 7)
-17% Cybernetic Shooter (Target Lock: 9)
-28% Cybernetic Strike (Target Lock: 4)
-
-
-Danny: Vicious Grasp
-Ottavia: Cybernetic Strike (Target Lock: 4)
-
-Priorities:  9 | 3
-Danny is active
-Danny hits
-Danny gets +1 power
-Danny moves Ottavia:
-
-O.D....
-mm.mm.m
-
-Ottavia takes 2 damage (now at 13 life)
-Ottavia misses
-Ottavia removes monsters:
-
-O.D....
-m..mm.m
-
-
-Beat 11
--------
-
-Danny
------
-life: 12
-discard 1: Vicious Grasp
-discard 2: Sinner's Dash
-special action
-
-Ottavia
--------
-life: 13
-discard 1: Cybernetic Strike
-discard 2: Cover Shot
-special action
-
-
-O.D....
-m..mm.m
-
-Unbeatable strategy for Danny: Monstrous Hellgate: 0.13
-Unbeatable strategy for Danny: Shackled Hellgate: 0.03
-
-Danny:
-96% Monstrous Hellgate
-2% Monstrous Strike
-1% Monstrous Drive
-1% Fallen Drive
-
-Ottavia:
-13% Snapback Shooter (Target Lock: 2)
-44% Snapback Shooter (Target Lock: 3)
-37% Snapback Shooter (Target Lock: 4)
-7% Demolition Shooter (Target Lock: 4)
-
-
-Danny: Monstrous Hellgate
-Ottavia: Snapback Shooter (Target Lock: 4)
-
-Priorities:  -1 | 2
-Ottavia is active
-Ottavia hits
-Danny has 3 soak
-Danny takes 1 damage (now at 11 life)
-Danny is stunned
-Ottavia removes monsters:
-
-O.D....
-m...m.m
-
-Danny adds monsters to the board:
-
-O.D....
-mmmmm.m
-
-
-Beat 12
--------
-
-Danny
------
-life: 11
-discard 1: Monstrous Hellgate
-discard 2: Vicious Grasp
-special action
-
-Ottavia
--------
-life: 13
-discard 1: Snapback Shooter
-discard 2: Cybernetic Strike
-special action
-
-
-O.D....
-mmmmm.m
-
-Danny:
-9% Fallen Strike
-2% Fallen Shot
-16% Fallen Drive
-5% Fallen Burst
-40% Shackled Strike
-11% Shackled Drive
-17% Shackled Dash
-
-Ottavia:
-42% Demolition Shot (Target Lock: 4)
-11% Demolition Burst (Target Lock: 3)
-31% Cover Shot (Target Lock: 3)
-7% Cover Shot (Target Lock: 4)
-6% Cover Drive (Target Lock: 3)
-2% Cover Drive (Target Lock: 8)
-1% Cover Grasp (Target Lock: 2)
-
-
-Danny: Shackled Strike
-Ottavia: Demolition Shot (Target Lock: 4)
-
-Priorities:  2 | 3
-Ottavia is active
-Ottavia hits
-Danny takes 3 damage (now at 8 life)
-Ottavia removes monsters:
-
-O.D....
-m.mmm.m
-
-Danny hits
-Ottavia takes 4 damage (now at 9 life)
-Ottavia is stunned
-Danny adds monsters to the board:
-
-O.D....
-mmmmm.m
-
-
-Beat 13
--------
-
-Danny
------
-life: 8
-discard 1: Shackled Strike
-discard 2: Monstrous Hellgate
-special action
-
-Ottavia
--------
-life: 9
-discard 1: Demolition Shot
-discard 2: Snapback Shooter
-special action
-
-
-O.D....
-mmmmm.m
-
-Danny:
-7% Fallen Shot
-25% Fallen Drive
-14% Fallen Burst
-28% Fallen Grasp
-23% Vicious Drive
-3% Vicious Grasp
-
-Ottavia:
-3% Anti-Personnel Strike (Target Lock: 10)
-4% Cover Strike (Target Lock: 5)
-8% Cover Drive (Target Lock: 1)
-17% Cover Drive (Target Lock: 4)
-31% Cover Grasp (Target Lock: 4)
-37% Cybernetic Drive (Target Lock: 5)
-
-
-Danny: Fallen Grasp
-Ottavia: Cover Drive (Target Lock: 4)
-
-Priorities:  5 | 1
-Danny is active
-Danny hits
-Danny gets +2 power
-Danny moves Ottavia:
-
-.OD....
-mmmmm.m
-
-Ottavia has 1 soak
-Ottavia takes 2 damage (now at 7 life)
-Ottavia is stunned
-
-Beat 14
--------
-
-Danny
------
-life: 8
-discard 1: Fallen Grasp
-discard 2: Shackled Strike
-special action
-
-Ottavia
--------
-life: 7
-discard 1: Cover Drive
-discard 2: Demolition Shot
-special action
-
-
-.OD....
-mmmmm.m
-
-Danny:
-55% Monstrous Hellgate
-12% Monstrous Drive
-6% Monstrous Burst
-12% Sinner's Shot
-6% Sinner's Drive
-2% Vicious Hellgate
-6% Vicious Drive
-
-Ottavia:
-3% Snapback Burst (Target Lock: 2)
-35% Snapback Burst (Target Lock: 4)
-22% Snapback Burst (Target Lock: 5)
-18% Anti-Personnel Dash (Target Lock: 9)
-17% Cybernetic Shooter (Target Lock: 3)
-5% Cybernetic Strike (Target Lock: 3)
-0% Cybernetic Grasp (Target Lock: 9)
-
-
-Danny: Monstrous Hellgate
-Ottavia: Snapback Burst (Target Lock: 4)
-
-Priorities:  -1 | 1
+Priorities:  4 | 5
 Ottavia is active
 Ottavia moves:
 
-O.D....
-mmmmm.m
+DO.....
+.mmmmm.
 
-Ottavia misses
-Ottavia removes monsters:
-
-O.D....
-mmm.m.m
-
-Danny adds monsters to the board:
-
-O.D....
-mmmmmmm
-
-
-Beat 15
--------
-
-Danny
------
-life: 8
-discard 1: Monstrous Hellgate
-discard 2: Fallen Grasp
-special action
-
-Ottavia
--------
-life: 7
-discard 1: Snapback Burst
-discard 2: Cover Drive
-special action
-
-
-O.D....
-mmmmmmm
-
-Danny:
-8% Shackled Strike
-4% Shackled Drive
-15% Shackled Dash
-15% Sinner's Strike
-22% Sinner's Drive
-12% Sinner's Dash
-19% Vicious Strike
-5% Vicious Dash
-
-Ottavia:
-1% Demolition Shooter (Target Lock: 4)
-3% Demolition Shooter (Target Lock: 9)
-3% Demolition Shot (Target Lock: 8)
-1% Demolition Shot (Target Lock: 9)
-2% Cybernetic Shot (Target Lock: 3)
-1% Cybernetic Shot (Target Lock: 8)
-1% Cybernetic Shot (Target Lock: 10)
-9% Special Pulse (Target Lock: 0)
-9% Special Pulse (Target Lock: 1)
-9% Special Pulse (Target Lock: 2)
-9% Special Pulse (Target Lock: 3)
-9% Special Pulse (Target Lock: 4)
-9% Special Pulse (Target Lock: 8)
-9% Special Pulse (Target Lock: 9)
-9% Special Pulse (Target Lock: 10)
-9% Special Pulse (Target Lock: 11)
-9% Special Pulse (Target Lock: 16)
-
-
-Danny: Sinner's Drive
-Ottavia: Special Pulse (Target Lock: 1)
-
-Pulse:
-
-O..D...
-mmmmmmm
-
-
-Beat 15
--------
-
-Danny
------
-life: 8
-discard 1: Sinner's Drive
-discard 2: Monstrous Hellgate
-special action
-
-Ottavia
--------
-life: 7
-discard 1: Snapback Burst
-discard 2: Cover Drive
-
-
-O..D...
-mmmmmmm
-
-Danny:
-100% Vicious Dash
-
-Ottavia:
-0% Demolition Shooter (Target Lock: 0)
-0% Demolition Shooter (Target Lock: 1)
-0% Demolition Shooter (Target Lock: 2)
-0% Demolition Shooter (Target Lock: 3)
-0% Demolition Shooter (Target Lock: 4)
-0% Demolition Shooter (Target Lock: 5)
-0% Demolition Shooter (Target Lock: 8)
-0% Demolition Shooter (Target Lock: 9)
-0% Demolition Shooter (Target Lock: 10)
-0% Demolition Shooter (Target Lock: 12)
-0% Demolition Shooter (Target Lock: 16)
-1% Demolition Strike (Target Lock: 0)
-1% Demolition Strike (Target Lock: 1)
-1% Demolition Strike (Target Lock: 2)
-1% Demolition Strike (Target Lock: 3)
-1% Demolition Strike (Target Lock: 4)
-1% Demolition Strike (Target Lock: 5)
-1% Demolition Strike (Target Lock: 8)
-1% Demolition Strike (Target Lock: 9)
-1% Demolition Strike (Target Lock: 10)
-1% Demolition Strike (Target Lock: 12)
-1% Demolition Strike (Target Lock: 16)
-0% Demolition Shot (Target Lock: 0)
-0% Demolition Shot (Target Lock: 1)
-0% Demolition Shot (Target Lock: 2)
-0% Demolition Shot (Target Lock: 3)
-0% Demolition Shot (Target Lock: 4)
-0% Demolition Shot (Target Lock: 5)
-0% Demolition Shot (Target Lock: 8)
-0% Demolition Shot (Target Lock: 9)
-0% Demolition Shot (Target Lock: 10)
-0% Demolition Shot (Target Lock: 12)
-0% Demolition Shot (Target Lock: 16)
-1% Demolition Grasp (Target Lock: 0)
-1% Demolition Grasp (Target Lock: 1)
-1% Demolition Grasp (Target Lock: 2)
-1% Demolition Grasp (Target Lock: 3)
-1% Demolition Grasp (Target Lock: 4)
-1% Demolition Grasp (Target Lock: 5)
-1% Demolition Grasp (Target Lock: 8)
-1% Demolition Grasp (Target Lock: 9)
-1% Demolition Grasp (Target Lock: 10)
-1% Demolition Grasp (Target Lock: 12)
-1% Demolition Grasp (Target Lock: 16)
-1% Demolition Dash (Target Lock: 0)
-1% Demolition Dash (Target Lock: 1)
-1% Demolition Dash (Target Lock: 2)
-1% Demolition Dash (Target Lock: 3)
-1% Demolition Dash (Target Lock: 4)
-1% Demolition Dash (Target Lock: 5)
-1% Demolition Dash (Target Lock: 8)
-1% Demolition Dash (Target Lock: 9)
-1% Demolition Dash (Target Lock: 10)
-1% Demolition Dash (Target Lock: 12)
-1% Demolition Dash (Target Lock: 16)
-1% Anti-Personnel Shooter (Target Lock: 0)
-1% Anti-Personnel Shooter (Target Lock: 1)
-0% Anti-Personnel Shooter (Target Lock: 2)
-1% Anti-Personnel Shooter (Target Lock: 3)
-0% Anti-Personnel Shooter (Target Lock: 4)
-1% Anti-Personnel Shooter (Target Lock: 5)
-1% Anti-Personnel Shooter (Target Lock: 8)
-0% Anti-Personnel Shooter (Target Lock: 9)
-1% Anti-Personnel Shooter (Target Lock: 10)
-1% Anti-Personnel Shooter (Target Lock: 12)
-1% Anti-Personnel Shooter (Target Lock: 16)
-1% Anti-Personnel Strike (Target Lock: 0)
-1% Anti-Personnel Strike (Target Lock: 1)
-0% Anti-Personnel Strike (Target Lock: 2)
-1% Anti-Personnel Strike (Target Lock: 3)
-0% Anti-Personnel Strike (Target Lock: 4)
-0% Anti-Personnel Strike (Target Lock: 5)
-0% Anti-Personnel Strike (Target Lock: 8)
-0% Anti-Personnel Strike (Target Lock: 9)
-1% Anti-Personnel Strike (Target Lock: 10)
-1% Anti-Personnel Strike (Target Lock: 12)
-1% Anti-Personnel Strike (Target Lock: 16)
-1% Anti-Personnel Shot (Target Lock: 0)
-1% Anti-Personnel Shot (Target Lock: 1)
-0% Anti-Personnel Shot (Target Lock: 2)
-1% Anti-Personnel Shot (Target Lock: 3)
-0% Anti-Personnel Shot (Target Lock: 4)
-1% Anti-Personnel Shot (Target Lock: 5)
-1% Anti-Personnel Shot (Target Lock: 8)
-0% Anti-Personnel Shot (Target Lock: 9)
-1% Anti-Personnel Shot (Target Lock: 10)
-1% Anti-Personnel Shot (Target Lock: 12)
-1% Anti-Personnel Shot (Target Lock: 16)
-0% Anti-Personnel Grasp (Target Lock: 0)
-0% Anti-Personnel Grasp (Target Lock: 1)
-0% Anti-Personnel Grasp (Target Lock: 2)
-0% Anti-Personnel Grasp (Target Lock: 3)
-0% Anti-Personnel Grasp (Target Lock: 4)
-0% Anti-Personnel Grasp (Target Lock: 5)
-0% Anti-Personnel Grasp (Target Lock: 8)
-0% Anti-Personnel Grasp (Target Lock: 9)
-0% Anti-Personnel Grasp (Target Lock: 10)
-0% Anti-Personnel Grasp (Target Lock: 12)
-0% Anti-Personnel Grasp (Target Lock: 16)
-1% Anti-Personnel Dash (Target Lock: 0)
-1% Anti-Personnel Dash (Target Lock: 1)
-1% Anti-Personnel Dash (Target Lock: 2)
-1% Anti-Personnel Dash (Target Lock: 3)
-1% Anti-Personnel Dash (Target Lock: 4)
-1% Anti-Personnel Dash (Target Lock: 5)
-1% Anti-Personnel Dash (Target Lock: 8)
-1% Anti-Personnel Dash (Target Lock: 9)
-1% Anti-Personnel Dash (Target Lock: 10)
-1% Anti-Personnel Dash (Target Lock: 12)
-1% Anti-Personnel Dash (Target Lock: 16)
-1% Cybernetic Shooter (Target Lock: 0)
-1% Cybernetic Shooter (Target Lock: 1)
-0% Cybernetic Shooter (Target Lock: 2)
-1% Cybernetic Shooter (Target Lock: 3)
-1% Cybernetic Shooter (Target Lock: 4)
-1% Cybernetic Shooter (Target Lock: 5)
-1% Cybernetic Shooter (Target Lock: 8)
-0% Cybernetic Shooter (Target Lock: 9)
-1% Cybernetic Shooter (Target Lock: 10)
-1% Cybernetic Shooter (Target Lock: 12)
-1% Cybernetic Shooter (Target Lock: 16)
-1% Cybernetic Strike (Target Lock: 0)
-1% Cybernetic Strike (Target Lock: 1)
-1% Cybernetic Strike (Target Lock: 2)
-1% Cybernetic Strike (Target Lock: 3)
-1% Cybernetic Strike (Target Lock: 4)
-1% Cybernetic Strike (Target Lock: 5)
-1% Cybernetic Strike (Target Lock: 8)
-1% Cybernetic Strike (Target Lock: 9)
-1% Cybernetic Strike (Target Lock: 10)
-1% Cybernetic Strike (Target Lock: 12)
-1% Cybernetic Strike (Target Lock: 16)
-0% Cybernetic Shot (Target Lock: 0)
-0% Cybernetic Shot (Target Lock: 1)
-0% Cybernetic Shot (Target Lock: 2)
-0% Cybernetic Shot (Target Lock: 3)
-0% Cybernetic Shot (Target Lock: 4)
-0% Cybernetic Shot (Target Lock: 5)
-0% Cybernetic Shot (Target Lock: 8)
-0% Cybernetic Shot (Target Lock: 9)
-0% Cybernetic Shot (Target Lock: 10)
-0% Cybernetic Shot (Target Lock: 12)
-0% Cybernetic Shot (Target Lock: 16)
-1% Cybernetic Grasp (Target Lock: 0)
-1% Cybernetic Grasp (Target Lock: 1)
-1% Cybernetic Grasp (Target Lock: 2)
-1% Cybernetic Grasp (Target Lock: 3)
-1% Cybernetic Grasp (Target Lock: 4)
-1% Cybernetic Grasp (Target Lock: 5)
-1% Cybernetic Grasp (Target Lock: 8)
-1% Cybernetic Grasp (Target Lock: 9)
-1% Cybernetic Grasp (Target Lock: 10)
-1% Cybernetic Grasp (Target Lock: 12)
-1% Cybernetic Grasp (Target Lock: 16)
-1% Cybernetic Dash (Target Lock: 0)
-1% Cybernetic Dash (Target Lock: 1)
-1% Cybernetic Dash (Target Lock: 2)
-1% Cybernetic Dash (Target Lock: 3)
-1% Cybernetic Dash (Target Lock: 4)
-1% Cybernetic Dash (Target Lock: 5)
-1% Cybernetic Dash (Target Lock: 8)
-1% Cybernetic Dash (Target Lock: 9)
-1% Cybernetic Dash (Target Lock: 10)
-1% Cybernetic Dash (Target Lock: 12)
-1% Cybernetic Dash (Target Lock: 16)
-
-
-Danny: Vicious Dash
-Ottavia: Cybernetic Shooter (Target Lock: 9)
-
-Priorities:  16 | 2
-Danny is active
-Danny moves:
-
-O....D.
-mmmmmmm
-
-Ottavia misses
-Ottavia removes monsters:
-
-O....D.
-m.mmmmm
-
-Game goes to time
-DANNY WINS!
-total_time: 65
+Ottavia hits
+Danny takes 3 damage (now at 0 life)
+OTTAVIA WINS!
+total_time: 49

@@ -11,51 +11,51 @@ Beat 1
 
 Lymn
 ----
-life: 20
-discard 1: Maddening Burst
-discard 2: Chimeric Dash
-special action
+Life: 20
+Discard 1: Maddening Burst
+Discard 2: Chimeric Dash
+Special action available
 
 Marmelee
 --------
-life: 20
-discard 1: Petrifying Burst
-discard 2: Barrier Grasp
-special action
+Life: 20
+Discard 1: Petrifying Burst
+Discard 2: Barrier Grasp
+Special action available
 2 Concentration counters
 
 
 .L...M.
 
+
 Lymn:
-36% Surreal Visions
-1% Surreal Drive
-18% Reverie Drive
-19% Reverie Grasp
-25% Fathomless Shot
+31% Reverie Drive
+28% Reverie Grasp
+41% Fathomless Shot
 
 Marmelee:
-7% Magnificent Meditation
 38% Magnificent Drive
-2% Sorceress Meditation
-42% Nullifying Meditation
-10% Nullifying Shot
+62% Nullifying Meditation
+0% Nullifying Dash
 
 
-Lymn: Reverie Grasp
-Marmelee: Nullifying Shot
+Lymn: Fathomless Shot
+Marmelee: Magnificent Drive
 
-Priorities:  4 | 3
-Lymn is active
-Disparity is 1
+Priorities:  0 | 4
+Marmelee is active
+Disparity is 4
 Marmelee moves:
 
-.L....M
+.L.M...
 
-Lymn misses
 Marmelee hits
-Lymn takes 3 damage (now at 17 life)
-Lymn is stunned
+Marmelee discards 2 Concentration Counters
+Marmelee gets +2 power
+Lymn takes 4 damage (now at 16 life)
+Lymn hits
+Marmelee takes 4 damage (now at 16 life)
+Marmelee is stunned
 Marmelee gains 1 Concentration Counter
 
 Beat 2
@@ -63,57 +63,59 @@ Beat 2
 
 Lymn
 ----
-life: 17
-discard 1: Reverie Grasp
-discard 2: Maddening Burst
-special action
+Life: 16
+Discard 1: Fathomless Shot
+Discard 2: Maddening Burst
+Special action available
 
 Marmelee
 --------
-life: 20
-discard 1: Nullifying Shot
-discard 2: Petrifying Burst
-special action
-3 Concentration counters
+Life: 16
+Discard 1: Magnificent Drive
+Discard 2: Petrifying Burst
+Special action available
+1 Concentration counters
 
 
-.L....M
+.L.M...
 
-Unbeatable strategy for Marmelee: Magnificent Drive: -1.41
 
 Lymn:
-14% Surreal Visions
-28% Surreal Strike
-42% Surreal Drive
-16% Fathomless Shot
+19% Chimeric Visions
+13% Chimeric Drive
+19% Surreal Visions
+5% Surreal Strike
+42% Surreal Grasp
+2% Reverie Strike
 
 Marmelee:
-56% Magnificent Drive
-2% Sorceress Meditation
-33% Barrier Meditation
-10% Barrier Grasp
+28% Sorceress Dash
+9% Barrier Meditation
+3% Barrier Grasp
+28% Barrier Dash
+31% Nullifying Meditation
+1% Nullifying Dash
 
 
-Lymn: Surreal Drive
-Marmelee: Magnificent Drive
+Lymn: Surreal Visions
+Marmelee: Barrier Dash
 
-Priorities:  5 | 4
-Lymn is active
-Disparity is 1
+Priorities:  4 | 9
+Marmelee is active
+Disparity is 5
+Marmelee moves:
+
+ML.....
+
 Lymn moves:
 
-..L...M
+M.....L
 
 Lymn misses
 Lymn moves:
 
-L.....M
+M...L..
 
-Marmelee moves:
-
-L...M..
-
-Marmelee misses
 Marmelee gains 1 Concentration Counter
 
 Beat 3
@@ -121,52 +123,99 @@ Beat 3
 
 Lymn
 ----
-life: 17
-discard 1: Surreal Drive
-discard 2: Reverie Grasp
-special action
+Life: 16
+Discard 1: Surreal Visions
+Discard 2: Fathomless Shot
+Special action available
 
 Marmelee
 --------
-life: 20
-discard 1: Magnificent Drive
-discard 2: Nullifying Shot
-special action
-4 Concentration counters
+Life: 16
+Discard 1: Barrier Dash
+Discard 2: Magnificent Drive
+Special action available
+2 Concentration counters
 
 
-L...M..
+M...L..
+
+Unbeatable strategy for Lymn: Reverie Strike: 1.83
+Unbeatable strategy for Lymn: Reverie Drive: 2.60
+
 
 Lymn:
-40% Chimeric Visions
-60% Fathomless Burst
+76% Reverie Drive
+24% Reverie Burst
 
 Marmelee:
-55% Sorceress Strike
-45% Barrier Burst
+2% Nullifying Grasp
+98% Special Pulse
 
 
-Lymn: Chimeric Visions
-Marmelee: Barrier Burst
+Lymn: Reverie Drive
+Marmelee: Special Pulse
+
+Pulse:
+
+LM.....
+
+Marmelee gains 1 Concentration Counter
+
+Beat 3
+-------
+
+Lymn
+----
+Life: 16
+Discard 1: Reverie Drive
+Discard 2: Surreal Visions
+Special action available
+
+Marmelee
+--------
+Life: 16
+Discard 1: Barrier Dash
+Discard 2: Magnificent Drive
+3 Concentration counters
+
+
+LM.....
+
+
+Lymn:
+23% Maddening Shot
+47% Maddening Grasp
+9% Chimeric Strike
+14% Chimeric Shot
+7% Fathomless Strike
+
+Marmelee:
+8% Petrifying Strike
+4% Petrifying Shot
+26% Petrifying Burst
+56% Nullifying Meditation
+6% Nullifying Burst
+
+
+Lymn: Maddening Shot
+Marmelee: Petrifying Strike
+
+Priorities:  2 | 2
+Clash!
+
+
+Lymn: Maddening Grasp
+Marmelee: Petrifying Shot
 
 Priorities:  5 | 1
 Lymn is active
 Disparity is 4
-Marmelee discards 4 Concentration Counters
-Marmelee moves:
-
-L.....M
-
-Lymn moves:
-
-.L....M
-
-Lymn misses
-Lymn moves:
-
-L.....M
-
-Marmelee misses
+Marmelee discards 3 Concentration Counters
+Marmelee becomes the active player
+Marmelee hits
+Lymn has 2 soak
+Lymn takes 2 damage (now at 14 life)
+Lymn is stunned
 Marmelee gains 1 Concentration Counter
 
 Beat 4
@@ -174,48 +223,60 @@ Beat 4
 
 Lymn
 ----
-life: 17
-discard 1: Chimeric Visions
-discard 2: Surreal Drive
-special action
+Life: 14
+Discard 1: Maddening Grasp
+Discard 2: Reverie Drive
+Special action available
 
 Marmelee
 --------
-life: 20
-discard 1: Barrier Burst
-discard 2: Magnificent Drive
-special action
+Life: 16
+Discard 1: Petrifying Shot
+Discard 2: Barrier Dash
 1 Concentration counters
 
 
-L.....M
+LM.....
 
-Unbeatable strategy for Marmelee: Nullifying Grasp: -1.00
 
 Lymn:
-16% Maddening Strike
-14% Maddening Shot
-20% Maddening Grasp
-12% Reverie Shot
-10% Reverie Burst
-14% Fathomless Strike
-14% Fathomless Grasp
+39% Chimeric Strike
+11% Chimeric Shot
+35% Chimeric Dash
+15% Surreal Shot
 
 Marmelee:
-37% Petrifying Meditation
-8% Nullifying Meditation
-55% Nullifying Grasp
+49% Sorceress Strike
+3% Sorceress Burst
+7% Nullifying Meditation
+41% Nullifying Grasp
 
 
-Lymn: Maddening Strike
-Marmelee: Petrifying Meditation
+Lymn: Chimeric Shot
+Marmelee: Nullifying Grasp
 
-Priorities:  3 | 2
-Lymn is active
-Disparity is 1
-Lymn misses
-Marmelee misses
-Marmelee gains 1 Concentration Counter
+Priorities:  4 | 6
+Marmelee is active
+Marmelee moves:
+
+L.M....
+
+Disparity is 2
+Marmelee hits
+Marmelee discards 1 Concentration Counter
+Lymn gets -1 power
+Marmelee moves Lymn:
+
+.LM....
+
+Lymn takes 2 damage (now at 12 life)
+Lymn moves:
+
+..ML...
+
+Lymn hits
+Marmelee takes 2 damage (now at 14 life)
+Marmelee is stunned
 Marmelee gains 1 Concentration Counter
 
 Beat 5
@@ -223,54 +284,57 @@ Beat 5
 
 Lymn
 ----
-life: 17
-discard 1: Maddening Strike
-discard 2: Chimeric Visions
-special action
+Life: 12
+Discard 1: Chimeric Shot
+Discard 2: Maddening Grasp
+Special action available
 
 Marmelee
 --------
-life: 20
-discard 1: Petrifying Meditation
-discard 2: Barrier Burst
-special action
-3 Concentration counters
+Life: 14
+Discard 1: Nullifying Grasp
+Discard 2: Petrifying Shot
+1 Concentration counters
 
 
-L.....M
+..ML...
+
 
 Lymn:
-26% Surreal Shot
-33% Reverie Drive
-41% Fathomless Shot
+20% Surreal Visions
+42% Surreal Drive
+19% Reverie Drive
+2% Fathomless Visions
+17% Fathomless Burst
 
 Marmelee:
-11% Magnificent Shot
-75% Magnificent Drive
-14% Magnificent Grasp
+30% Sorceress Strike
+18% Sorceress Burst
+18% Sorceress Dash
+16% Barrier Drive
+17% Barrier Dash
 
 
-Lymn: Reverie Drive
-Marmelee: Magnificent Drive
+Lymn: Surreal Drive
+Marmelee: Sorceress Burst
 
-Priorities:  3 | 4
-Marmelee is active
-Disparity is 1
+Priorities:  5 | 0
+Lymn is active
+Disparity is 5
 Marmelee moves:
 
-L...M..
-
-Marmelee misses
-Marmelee discards 2 Concentration Counters
-Marmelee moves:
-
-L.M....
+.M.L...
 
 Lymn moves:
 
-.LM....
+LM.....
 
 Lymn misses
+Lymn moves:
+
+.ML....
+
+Marmelee misses
 Marmelee gains 1 Concentration Counter
 
 Beat 6
@@ -278,50 +342,56 @@ Beat 6
 
 Lymn
 ----
-life: 17
-discard 1: Reverie Drive
-discard 2: Maddening Strike
-special action
+Life: 12
+Discard 1: Surreal Drive
+Discard 2: Chimeric Shot
+Special action available
 
 Marmelee
 --------
-life: 20
-discard 1: Magnificent Drive
-discard 2: Petrifying Meditation
-special action
+Life: 14
+Discard 1: Sorceress Burst
+Discard 2: Nullifying Grasp
 2 Concentration counters
 
 
-.LM....
+.ML....
+
 
 Lymn:
-7% Chimeric Grasp
-6% Surreal Shot
-75% Surreal Grasp
-6% Fathomless Shot
-6% Fathomless Burst
+39% Maddening Grasp
+18% Fathomless Strike
+12% Fathomless Burst
+31% Fathomless Grasp
 
 Marmelee:
-19% Sorceress Strike
-1% Sorceress Shot
-41% Barrier Strike
-11% Barrier Dash
-28% Nullifying Grasp
+8% Petrifying Drive
+29% Magnificent Meditation
+8% Magnificent Drive
+55% Barrier Meditation
 
 
-Lymn: Fathomless Shot
-Marmelee: Barrier Dash
+Lymn: Fathomless Grasp
+Marmelee: Barrier Meditation
 
-Priorities:  0 | 9
+Priorities:  3 | 3
+Clash!
+
+
+Lymn: Fathomless Strike
+Marmelee: Barrier Drive
+
+Priorities:  1 | 4
 Marmelee is active
-Disparity is 9
-Lymn becomes the active player
-Lymn moves:
+Disparity is 3
+Marmelee moves:
 
-..M...L
+..LM...
 
+Marmelee hits
+Lymn takes 2 damage (now at 10 life)
 Lymn hits
-Marmelee takes 6 damage (now at 14 life)
+Marmelee takes 5 damage (now at 9 life)
 Marmelee is stunned
 Marmelee gains 1 Concentration Counter
 
@@ -330,65 +400,52 @@ Beat 7
 
 Lymn
 ----
-life: 17
-discard 1: Fathomless Shot
-discard 2: Reverie Drive
-special action
+Life: 10
+Discard 1: Fathomless Strike
+Discard 2: Surreal Drive
+Special action available
 
 Marmelee
 --------
-life: 14
-discard 1: Barrier Dash
-discard 2: Magnificent Drive
-special action
+Life: 9
+Discard 1: Barrier Drive
+Discard 2: Sorceress Burst
 1 Concentration counters
 
 
-..M...L
+..LM...
 
-Unbeatable strategy for Marmelee: Petrifying Meditation: -0.44
-Unbeatable strategy for Marmelee: Sorceress Meditation: -0.06
-Unbeatable strategy for Marmelee: Nullifying Meditation: -0.30
-Unbeatable strategy for Marmelee: Nullifying Shot: -2.68
-Unbeatable strategy for Marmelee: Nullifying Burst: -0.45
 
 Lymn:
-85% Maddening Strike
-9% Chimeric Visions
-7% Chimeric Burst
+21% Maddening Visions
+22% Maddening Burst
+37% Chimeric Visions
+11% Chimeric Grasp
+9% Reverie Grasp
 
 Marmelee:
-15% Petrifying Meditation
-22% Nullifying Meditation
-62% Nullifying Shot
+44% Petrifying Dash
+15% Magnificent Meditation
+6% Magnificent Grasp
+33% Nullifying Meditation
+1% Nullifying Grasp
 
 
-Lymn: Maddening Strike
-Marmelee: Nullifying Shot
+Lymn: Maddening Visions
+Marmelee: Petrifying Dash
 
-Priorities:  3 | 3
-Clash!
-
-Lymn:
-100% Maddening Grasp
-
-Marmelee:
-100% Nullifying Meditation
-
-
-Lymn: Maddening Grasp
-Marmelee: Nullifying Meditation
-
-Priorities:  5 | 4
-Lymn is active
-Disparity is 1
+Priorities:  3 | 8
+Marmelee is active
+Disparity is 5
 Marmelee moves:
 
-.M....L
+M.L....
+
+Lymn moves:
+
+M.....L
 
 Lymn misses
-Marmelee misses
-Marmelee gains 1 Concentration Counter
 Marmelee gains 1 Concentration Counter
 
 Beat 8
@@ -396,54 +453,50 @@ Beat 8
 
 Lymn
 ----
-life: 17
-discard 1: Maddening Grasp
-discard 2: Fathomless Shot
-special action
+Life: 10
+Discard 1: Maddening Visions
+Discard 2: Fathomless Strike
+Special action available
 
 Marmelee
 --------
-life: 14
-discard 1: Nullifying Meditation
-discard 2: Barrier Dash
-special action
-3 Concentration counters
+Life: 9
+Discard 1: Petrifying Dash
+Discard 2: Barrier Drive
+2 Concentration counters
 
 
-.M....L
+M.....L
 
-Unbeatable strategy for Marmelee: Magnificent Drive: -2.86
+Unbeatable strategy for Marmelee: Magnificent Grasp: -0.05
+
 
 Lymn:
-21% Surreal Visions
-53% Surreal Strike
-26% Reverie Drive
+45% Surreal Shot
+55% Reverie Drive
 
 Marmelee:
-56% Magnificent Drive
-29% Magnificent Grasp
-15% Sorceress Drive
+82% Magnificent Grasp
+18% Nullifying Meditation
 
 
-Lymn: Surreal Strike
-Marmelee: Sorceress Drive
+Lymn: Reverie Drive
+Marmelee: Magnificent Grasp
 
-Priorities:  4 | 3
-Lymn is active
-Disparity is 1
-Lymn misses
-Lymn moves:
-
-.M...L.
-
-Marmelee discards 1 Concentration Counter
-Marmelee gains +0~2 range
+Priorities:  3 | 5
+Marmelee is active
+Disparity is 2
+Marmelee misses
+Marmelee discards 2 Concentration Counters
 Marmelee moves:
 
-...M.L.
+....M.L
 
-Marmelee hits
-Lymn takes 3 damage (now at 14 life)
+Lymn moves:
+
+...LM..
+
+Lymn misses
 Marmelee gains 1 Concentration Counter
 
 Beat 9
@@ -451,78 +504,49 @@ Beat 9
 
 Lymn
 ----
-life: 14
-discard 1: Surreal Strike
-discard 2: Maddening Grasp
-special action
+Life: 10
+Discard 1: Reverie Drive
+Discard 2: Maddening Visions
+Special action available
 
 Marmelee
 --------
-life: 14
-discard 1: Sorceress Drive
-discard 2: Nullifying Meditation
-special action
-3 Concentration counters
+Life: 9
+Discard 1: Magnificent Grasp
+Discard 2: Petrifying Dash
+1 Concentration counters
 
 
-...M.L.
+...LM..
 
-Unbeatable strategy for Marmelee: Petrifying Shot: -1.32
 
 Lymn:
-16% Chimeric Visions
-22% Chimeric Drive
-34% Chimeric Burst
-4% Reverie Burst
-25% Fathomless Visions
+26% Chimeric Shot
+6% Chimeric Burst
+68% Chimeric Grasp
 
 Marmelee:
-45% Petrifying Shot
-10% Petrifying Burst
-10% Magnificent Strike
-11% Magnificent Grasp
-24% Barrier Strike
+76% Sorceress Strike
+3% Sorceress Burst
+21% Barrier Burst
 
 
-Lymn: Fathomless Visions
-Marmelee: Petrifying Shot
+Lymn: Chimeric Shot
+Marmelee: Barrier Burst
 
-Priorities:  1 | 1
-Clash!
+Priorities:  4 | 1
+Lymn is active
+Disparity is 3
+Marmelee moves:
 
-Lymn:
-67% Fathomless Shot
-33% Fathomless Drive
+...L.M.
 
-Marmelee:
-53% Petrifying Strike
-47% Petrifying Burst
+Lymn moves:
 
+....LM.
 
-Lymn: Fathomless Drive
-Marmelee: Petrifying Strike
-
-Priorities:  2 | 2
-Clash!
-
-Lymn:
-97% Fathomless Shot
-3% Fathomless Burst
-
-Marmelee:
-3% Petrifying Burst
-97% Petrifying Grasp
-
-
-Lymn: Fathomless Shot
-Marmelee: Petrifying Grasp
-
-Priorities:  0 | 4
-Marmelee is active
-Disparity is 4
-Marmelee misses
 Lymn hits
-Marmelee takes 4 damage (now at 10 life)
+Marmelee takes 3 damage (now at 6 life)
 Marmelee is stunned
 Marmelee gains 1 Concentration Counter
 
@@ -531,39 +555,257 @@ Beat 10
 
 Lymn
 ----
-life: 14
-discard 1: Fathomless Shot
-discard 2: Surreal Strike
-special action
+Life: 10
+Discard 1: Chimeric Shot
+Discard 2: Reverie Drive
+Special action available
 
 Marmelee
 --------
-life: 10
-discard 1: Petrifying Grasp
-discard 2: Sorceress Drive
-special action
+Life: 6
+Discard 1: Barrier Burst
+Discard 2: Magnificent Grasp
 1 Concentration counters
 
 
-...M.L.
+....LM.
 
-Unbeatable strategy for Marmelee: Barrier Dash: -0.18
 
 Lymn:
-15% Maddening Visions
-39% Chimeric Visions
-46% Chimeric Drive
+10% Maddening Burst
+44% Maddening Grasp
+23% Surreal Visions
+5% Surreal Strike
+6% Fathomless Strike
+12% Fathomless Burst
 
 Marmelee:
-11% Barrier Strike
-68% Barrier Dash
-21% Nullifying Meditation
+2% Petrifying Drive
+1% Petrifying Dash
+13% Sorceress Strike
+55% Nullifying Meditation
+21% Nullifying Shot
+8% Nullifying Drive
 
 
-Lymn: Chimeric Visions
-Marmelee: Barrier Dash
+Lymn: Maddening Grasp
+Marmelee: Nullifying Shot
 
-Priorities:  5 | 9
+Priorities:  5 | 3
+Lymn is active
+Disparity is 2
+Marmelee moves:
+
+....L.M
+
+Lymn hits
+Lymn moves Marmelee:
+
+....LM.
+
+Marmelee takes 2 damage (now at 4 life)
+Marmelee misses
+Marmelee gains 1 Concentration Counter
+
+Beat 11
+-------
+
+Lymn
+----
+Life: 10
+Discard 1: Maddening Grasp
+Discard 2: Chimeric Shot
+Special action available
+
+Marmelee
+--------
+Life: 4
+Discard 1: Nullifying Shot
+Discard 2: Barrier Burst
+2 Concentration counters
+
+
+....LM.
+
+Unbeatable strategy for Marmelee: Sorceress Strike: -0.56
+
+
+Lymn:
+55% Surreal Visions
+29% Surreal Burst
+8% Surreal Dash
+8% Fathomless Strike
+
+Marmelee:
+17% Magnificent Meditation
+28% Magnificent Drive
+42% Sorceress Strike
+13% Sorceress Dash
+
+
+Lymn: Fathomless Strike
+Marmelee: Sorceress Dash
+
+Priorities:  1 | 8
+Marmelee is active
+Disparity is 7
+Marmelee moves:
+
+...ML..
+
+Lymn misses
+Marmelee gains 1 Concentration Counter
+
+Beat 12
+-------
+
+Lymn
+----
+Life: 10
+Discard 1: Fathomless Strike
+Discard 2: Maddening Grasp
+Special action available
+
+Marmelee
+--------
+Life: 4
+Discard 1: Sorceress Dash
+Discard 2: Nullifying Shot
+3 Concentration counters
+
+
+...ML..
+
+Unbeatable strategy for Marmelee: Petrifying Drive: -1.05
+
+
+Lymn:
+11% Chimeric Burst
+25% Surreal Drive
+60% Reverie Drive
+4% Reverie Burst
+
+Marmelee:
+27% Petrifying Strike
+66% Petrifying Drive
+7% Petrifying Burst
+1% Petrifying Grasp
+
+
+Lymn: Reverie Drive
+Marmelee: Petrifying Drive
+
+Priorities:  3 | 3
+Lymn is active
+Disparity is 0
+Marmelee discards 3 Concentration Counters
+Marmelee becomes the active player
+Marmelee moves:
+
+....LM.
+
+Marmelee hits
+Lymn takes 4 damage (now at 6 life)
+Lymn is stunned
+Marmelee gains 1 Concentration Counter
+
+Beat 13
+-------
+
+Lymn
+----
+Life: 6
+Discard 1: Reverie Drive
+Discard 2: Fathomless Strike
+Special action available
+
+Marmelee
+--------
+Life: 4
+Discard 1: Petrifying Drive
+Discard 2: Sorceress Dash
+1 Concentration counters
+
+
+....LM.
+
+
+Lymn:
+50% Chimeric Shot
+15% Chimeric Burst
+22% Chimeric Grasp
+14% Surreal Burst
+
+Marmelee:
+13% Magnificent Meditation
+15% Magnificent Grasp
+44% Nullifying Meditation
+29% Nullifying Strike
+
+
+Lymn: Chimeric Grasp
+Marmelee: Nullifying Meditation
+
+Priorities:  7 | 4
+Lymn is active
+Disparity is 3
+Marmelee discards 1 Concentration Counter
+Marmelee gains Soak 1
+Marmelee moves:
+
+....L.M
+
+Lymn moves:
+
+.....LM
+
+Lymn hits
+Lymn moves Marmelee:
+
+....ML.
+
+Marmelee has 1 soak
+Marmelee takes 1 damage (now at 3 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
+
+Beat 14
+-------
+
+Lymn
+----
+Life: 6
+Discard 1: Chimeric Grasp
+Discard 2: Reverie Drive
+Special action available
+
+Marmelee
+--------
+Life: 3
+Discard 1: Nullifying Meditation
+Discard 2: Petrifying Drive
+2 Concentration counters
+
+
+....ML.
+
+
+Lymn:
+35% Surreal Visions
+45% Fathomless Strike
+20% Fathomless Shot
+
+Marmelee:
+83% Magnificent Shot
+2% Sorceress Shot
+15% Sorceress Dash
+
+
+Lymn: Surreal Visions
+Marmelee: Sorceress Dash
+
+Priorities:  4 | 8
 Marmelee is active
 Disparity is 4
 Marmelee moves:
@@ -577,226 +819,7 @@ Lymn moves:
 Lymn misses
 Lymn moves:
 
-L.....M
-
-Marmelee gains 1 Concentration Counter
-
-Beat 11
--------
-
-Lymn
-----
-life: 14
-discard 1: Chimeric Visions
-discard 2: Fathomless Shot
-special action
-
-Marmelee
---------
-life: 10
-discard 1: Barrier Dash
-discard 2: Petrifying Grasp
-special action
-2 Concentration counters
-
-
-L.....M
-
-Unbeatable strategy for Lymn: Reverie Drive: 0.10
-
-Lymn:
-47% Surreal Burst
-53% Reverie Drive
-
-Marmelee:
-85% Magnificent Drive
-15% Nullifying Meditation
-
-
-Lymn: Surreal Burst
-Marmelee: Magnificent Drive
-
-Priorities:  2 | 4
-Marmelee is active
-Disparity is 2
-Marmelee moves:
-
-L...M..
-
-Marmelee misses
-Marmelee discards 2 Concentration Counters
-Marmelee moves:
-
-L.....M
-
-Lymn misses
-Lymn moves:
-
-..L...M
-
-Marmelee gains 1 Concentration Counter
-
-Beat 12
--------
-
-Lymn
-----
-life: 14
-discard 1: Surreal Burst
-discard 2: Chimeric Visions
-special action
-
-Marmelee
---------
-life: 10
-discard 1: Magnificent Drive
-discard 2: Barrier Dash
-special action
-1 Concentration counters
-
-
-..L...M
-
-Unbeatable strategy for Lymn: Reverie Strike: 2.77
-Unbeatable strategy for Lymn: Reverie Drive: 2.98
-Unbeatable strategy for Lymn: Reverie Grasp: 0.58
-
-Lymn:
-69% Reverie Strike
-31% Reverie Drive
-
-Marmelee:
-77% Petrifying Meditation
-23% Nullifying Shot
-
-
-Lymn: Reverie Strike
-Marmelee: Nullifying Shot
-
-Priorities:  2 | 3
-Marmelee is active
-Disparity is 1
-Marmelee hits
-Marmelee discards 1 Concentration Counter
-Lymn gets -1 power
-Lymn takes 3 damage (now at 11 life)
-Lymn hits
-Marmelee takes 6 damage (now at 4 life)
-Marmelee is stunned
-Marmelee gains 1 Concentration Counter
-
-Beat 13
--------
-
-Lymn
-----
-life: 11
-discard 1: Reverie Strike
-discard 2: Surreal Burst
-special action
-
-Marmelee
---------
-life: 4
-discard 1: Nullifying Shot
-discard 2: Magnificent Drive
-special action
-1 Concentration counters
-
-
-..L...M
-
-Lymn:
-38% Chimeric Drive
-27% Fathomless Shot
-34% Fathomless Grasp
-
-Marmelee:
-24% Petrifying Meditation
-61% Barrier Meditation
-15% Barrier Strike
-
-
-Lymn: Fathomless Grasp
-Marmelee: Barrier Strike
-
-Priorities:  3 | 3
-Clash!
-
-Lymn:
-68% Fathomless Shot
-32% Fathomless Drive
-
-Marmelee:
-33% Barrier Meditation
-67% Barrier Burst
-
-
-Lymn: Fathomless Drive
-Marmelee: Barrier Burst
-
-Priorities:  2 | 1
-Lymn is active
-Disparity is 1
-Lymn moves:
-
-....L.M
-
-Lymn hits
-Marmelee takes 2 damage (now at 2 life)
-Marmelee is stunned
-Marmelee gains 1 Concentration Counter
-
-Beat 14
--------
-
-Lymn
-----
-life: 11
-discard 1: Fathomless Drive
-discard 2: Reverie Strike
-special action
-
-Marmelee
---------
-life: 2
-discard 1: Barrier Burst
-discard 2: Nullifying Shot
-special action
-1 Concentration counters
-
-
-....L.M
-
-Unbeatable strategy for Marmelee: Petrifying Dash: -0.38
-
-Lymn:
-73% Surreal Burst
-27% Surreal Grasp
-
-Marmelee:
-98% Petrifying Dash
-2% Magnificent Drive
-
-
-Lymn: Surreal Burst
-Marmelee: Petrifying Dash
-
-Priorities:  2 | 8
-Marmelee is active
-Disparity is 6
-Lymn moves:
-
 ...L..M
-
-Marmelee moves:
-
-..ML...
-
-Lymn misses
-Lymn moves:
-
-..M...L
 
 Marmelee gains 1 Concentration Counter
 
@@ -805,82 +828,52 @@ Beat 15
 
 Lymn
 ----
-life: 11
-discard 1: Surreal Burst
-discard 2: Fathomless Drive
-special action
+Life: 6
+Discard 1: Surreal Visions
+Discard 2: Chimeric Grasp
+Special action available
 
 Marmelee
 --------
-life: 2
-discard 1: Petrifying Dash
-discard 2: Barrier Burst
-special action
-2 Concentration counters
+Life: 3
+Discard 1: Sorceress Dash
+Discard 2: Nullifying Meditation
+3 Concentration counters
 
 
-..M...L
+...L..M
 
-Unbeatable strategy for Lymn: Maddening Dash: 7.00
-Unbeatable strategy for Lymn: Chimeric Grasp: 7.00
-Unbeatable strategy for Lymn: Chimeric Dash: 7.00
-Unbeatable strategy for Lymn: Reverie Visions: 7.00
-Unbeatable strategy for Lymn: Reverie Strike: 7.00
-Unbeatable strategy for Lymn: Reverie Shot: 7.00
-Unbeatable strategy for Lymn: Reverie Grasp: 7.00
-Unbeatable strategy for Lymn: Reverie Dash: 7.00
 
 Lymn:
-7% Maddening Visions
-7% Maddening Strike
-7% Maddening Shot
-7% Maddening Grasp
-7% Maddening Dash
-7% Chimeric Visions
-7% Chimeric Strike
-7% Chimeric Shot
-7% Chimeric Grasp
-7% Chimeric Dash
-7% Reverie Visions
-7% Reverie Strike
-7% Reverie Shot
-7% Reverie Grasp
-7% Reverie Dash
+100% Special Conceit
 
 Marmelee:
-6% Magnificent Meditation
-6% Magnificent Strike
+8% Petrifying Strike
+5% Petrifying Shot
+4% Petrifying Drive
+6% Petrifying Burst
+9% Petrifying Grasp
+4% Magnificent Strike
 6% Magnificent Shot
 6% Magnificent Drive
-6% Magnificent Grasp
-6% Sorceress Meditation
-6% Sorceress Strike
-6% Sorceress Shot
-6% Sorceress Drive
-6% Sorceress Grasp
-6% Nullifying Meditation
-6% Nullifying Strike
-6% Nullifying Shot
-6% Nullifying Drive
-6% Nullifying Grasp
-7% Special Astral Cannon
-7% Special Astral Trance
+7% Magnificent Burst
+7% Magnificent Grasp
+8% Barrier Strike
+8% Barrier Shot
+6% Barrier Drive
+8% Barrier Burst
+8% Barrier Grasp
 
 
-Lymn: Chimeric Shot
-Marmelee: Special Astral Trance
+Lymn: Special Conceit
+Marmelee: Barrier Grasp
 
-Priorities:  4 | 0
+Priorities:  7 | 5
 Lymn is active
-Disparity is 4
-Lymn moves:
-
-..M..L.
-
-Lymn hits
-Marmelee has 5 soak
-Marmelee takes 0 damage (now at 2 life)
-Marmelee gains 3 Concentration Counters
+Disparity is 2
+Marmelee misses
+Marmelee loses 2 life (now at 1)
+Marmelee gains 1 Concentration Counter
 Game goes to time
 LYMN WINS!
-total_time: 26
+total_time: 31

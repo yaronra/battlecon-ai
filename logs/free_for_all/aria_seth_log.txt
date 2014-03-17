@@ -11,17 +11,17 @@ Beat 1
 
 Aria
 ----
-life: 20
-discard 1: Laser Grasp
-discard 2: Ionic Dash
-special action
+Life: 20
+Discard 1: Laser Grasp
+Discard 2: Ionic Dash
+Special action available
 
 Seth
 ----
-life: 20
-discard 1: Fool's Grasp
-discard 2: Wyrding Strike
-special action
+Life: 20
+Discard 1: Fool's Grasp
+Discard 2: Wyrding Strike
+Special action available
 
 
 .A...S.
@@ -29,432 +29,873 @@ special action
 .m.....
 .......
 
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.66
+Unbeatable strategy for Aria: Catalyst Reconfiguration: 0.11
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.86
+
 
 Aria:
-11% Photovoltaic Shot
-2% Photovoltaic Drive
-18% Photovoltaic Burst
-68% Dimensional Reconfiguration
+6% Photovoltaic Shot
+5% Photovoltaic Drive
+7% Photovoltaic Burst
+34% Catalyst Reconfiguration
+23% Catalyst Drive
+26% Dimensional Reconfiguration
 
 Seth:
-63% Mimic's Omen (Reconfiguration)
-14% Compelling Shot (Burst)
-4% Compelling Drive (Shot)
-19% Compelling Drive (Drive)
+45% Mimic's Omen (Reconfiguration)
+1% Compelling Omen (Reconfiguration)
+16% Compelling Shot (Reconfiguration)
+0% Compelling Shot (Shot)
+13% Compelling Shot (Burst)
+25% Compelling Drive (Drive)
 
 
-Aria: Dimensional Reconfiguration
+Aria: Catalyst Drive
 Seth: Mimic's Omen (Reconfiguration)
 
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  7 | 3
+Aria gets +4 priority
+Priorities:  9 | 1
 Aria is active
-Aria is stunned
-Seth misses
 Aria moves:
 
-A....S.
+...A.S.
 .......
 .m.....
 .......
 
+Aria hits
+Seth takes 2 damage (now at 18 life)
+Seth is stunned
 
 Beat 2
 -------
 
 Aria
 ----
-life: 20
-discard 1: Dimensional Reconfiguration
-discard 2: Laser Grasp
-special action
+Life: 20
+Discard 1: Catalyst Drive
+Discard 2: Laser Grasp
+Special action available
 
 Seth
 ----
-life: 20
-discard 1: Mimic's Omen
-discard 2: Fool's Grasp
-special action
+Life: 18
+Discard 1: Mimic's Omen
+Discard 2: Fool's Grasp
+Special action available
 
 
-A....S.
+...A..S
 .......
 .m.....
 .......
 
-Unbeatable strategy for Seth: Vanishing Shot (Strike): -2.19
-Unbeatable strategy for Seth: Vanishing Shot (Shot): -2.01
-Unbeatable strategy for Seth: Vanishing Shot (Drive): -2.01
-Unbeatable strategy for Seth: Vanishing Shot (Burst): -2.01
-Unbeatable strategy for Seth: Vanishing Shot (Dash): -2.01
 
 Aria:
-33% Photovoltaic Strike
-22% Photovoltaic Shot
-33% Photovoltaic Drive
-11% Photovoltaic Burst
+26% Photovoltaic Strike
+29% Photovoltaic Burst
+12% Photovoltaic Dash
+11% Dimensional Reconfiguration
+8% Dimensional Strike
+14% Dimensional Shot
 
 Seth:
-27% Vanishing Shot (Strike)
-4% Vanishing Shot (Shot)
-18% Vanishing Shot (Drive)
-51% Vanishing Shot (Burst)
+13% Vanishing Shot (Burst)
+17% Wyrding Drive (Strike)
+11% Wyrding Drive (Shot)
+23% Wyrding Dash (Reconfiguration)
+7% Wyrding Dash (Dash)
+29% Compelling Drive (Strike)
 
 
-Aria: Photovoltaic Drive
-Seth: Vanishing Shot (Burst)
+Aria: Photovoltaic Strike
+Seth: Compelling Drive (Strike)
 
-Priorities:  5 | 2
-Aria is active
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  4 | 6
+Seth is active
 Seth moves:
 
-A.....S
+...AS..
 .......
 .m.....
 .......
 
-Aria moves:
+Seth moves Aria:
 
-.A....S
+....SA.
 .......
-.m.....
-.......
-
-Aria misses
-Aria adds her Dampening droid:
-
-.A....S
-.d.....
 .m.....
 .......
 
 Seth hits
-Aria takes 3 damage (now at 17 life)
-Aria is stunned
+Aria takes 5 damage (now at 15 life)
+Seth moves Aria:
+
+....S.A
+.......
+.m.....
+.......
+
+Aria hits
+Seth takes 3 damage (now at 15 life)
+Seth is stunned
+Aria adds her Dampening droid:
+
+....S.A
+......d
+.m.....
+.......
+
 
 Beat 3
 -------
 
 Aria
 ----
-life: 17
-discard 1: Photovoltaic Drive
-discard 2: Dimensional Reconfiguration
-special action
+Life: 15
+Discard 1: Photovoltaic Strike
+Discard 2: Catalyst Drive
+Special action available
 
 Seth
 ----
-life: 20
-discard 1: Vanishing Shot
-discard 2: Mimic's Omen
-special action
+Life: 15
+Discard 1: Compelling Drive
+Discard 2: Mimic's Omen
+Special action available
 
 
-.A....S
-.d.....
+....S.A
+......d
 .m.....
 .......
+
 
 Aria:
-77% Laser Burst
-23% Catalyst Shot
+3% Ionic Reconfiguration
+4% Ionic Shot
+3% Ionic Burst
+13% Ionic Grasp
+6% Dimensional Reconfiguration
+71% Dimensional Dash
 
 Seth:
-8% Compelling Strike (Strike)
-8% Compelling Strike (Shot)
-9% Compelling Strike (Burst)
-9% Compelling Strike (Grasp)
-9% Compelling Strike (Dash)
-7% Compelling Grasp (Shot)
-10% Compelling Dash (Strike)
-10% Compelling Dash (Shot)
-10% Compelling Dash (Burst)
-10% Compelling Dash (Grasp)
-10% Compelling Dash (Dash)
+4% Vanishing Shot (Grasp)
+13% Vanishing Grasp (Reconfiguration)
+21% Wyrding Shot (Reconfiguration)
+40% Wyrding Shot (Shot)
+5% Wyrding Burst (Dash)
+17% Wyrding Grasp (Reconfiguration)
 
 
-Aria: Catalyst Shot
-Seth: Compelling Dash (Strike)
+Aria: Dimensional Dash
+Seth: Wyrding Shot (Shot)
 
-Aria gets +4 priority
-Priorities:  7 | 9
-Seth is active
-Seth moves Aria:
+Priorities:  13 | 3
+Aria is active
+Aria moves:
 
-..A...S
-.d.....
+..A.S..
+......d
 .m.....
 .......
 
-Seth moves Aria:
+Seth misses
+Aria moves:
 
-...A..S
-.d.....
+A...S..
+......d
 .m.....
 .......
 
-Seth moves:
-
-...AS..
-.d.....
-.m.....
-.......
-
-Aria misses
 
 Beat 4
 -------
 
 Aria
 ----
-life: 17
-discard 1: Catalyst Shot
-discard 2: Photovoltaic Drive
-special action
+Life: 15
+Discard 1: Dimensional Dash
+Discard 2: Photovoltaic Strike
+Special action available
 
 Seth
 ----
-life: 20
-discard 1: Compelling Dash
-discard 2: Vanishing Shot
-special action
+Life: 15
+Discard 1: Wyrding Shot
+Discard 2: Compelling Drive
+Special action available
 
 
-...AS..
-.d.....
+A...S..
+......d
 .m.....
 .......
+
 
 Aria:
-17% Ionic Strike
-2% Ionic Burst
-14% Ionic Grasp
-20% Ionic Dash
-21% Dimensional Reconfiguration
-8% Dimensional Burst
-18% Dimensional Dash
+32% Laser Reconfiguration
+34% Laser Shot
+2% Laser Drive
+31% Laser Burst
 
 Seth:
-12% Mimic's Omen (Reconfiguration)
-9% Mimic's Omen (Dash)
-16% Mimic's Drive (Strike)
-16% Mimic's Drive (Grasp)
-4% Mimic's Burst (Strike)
-3% Mimic's Burst (Burst)
-40% Wyrding Burst (Reconfiguration)
+19% Fool's Omen (Reconfiguration)
+29% Mimic's Omen (Reconfiguration)
+23% Mimic's Omen (Shot)
+6% Vanishing Dash (Reconfiguration)
+6% Vanishing Dash (Shot)
+6% Vanishing Dash (Drive)
+6% Vanishing Dash (Burst)
+6% Vanishing Dash (Grasp)
 
 
-Aria: Dimensional Reconfiguration
-Seth: Wyrding Burst (Reconfiguration)
+Aria: Laser Burst
+Seth: Vanishing Dash (Shot)
 
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  7 | 4
-Aria is active
-Seth selects Omen as his new base
-Aria is stunned
-Seth hits
-Aria takes 5 damage (now at 12 life)
-Aria is stunned
-Aria moves:
+Priorities:  1 | 9
+Seth is active
+Seth moves:
 
-....S.A
-.d.....
+AS.....
+......d
 .m.....
 .......
 
+Aria misses
 
 Beat 5
 -------
 
 Aria
 ----
-life: 12
-discard 1: Dimensional Reconfiguration
-discard 2: Catalyst Shot
-special action
+Life: 15
+Discard 1: Laser Burst
+Discard 2: Dimensional Dash
+Special action available
 
 Seth
 ----
-life: 20
-discard 1: Wyrding Burst Omen
-discard 2: Compelling Dash
-special action
+Life: 15
+Discard 1: Vanishing Dash
+Discard 2: Wyrding Shot
+Special action available
 
 
-....S.A
-.d.....
+AS.....
+......d
 .m.....
 .......
 
+
 Aria:
-35% Photovoltaic Strike
-25% Photovoltaic Drive
-40% Photovoltaic Grasp
+11% Photovoltaic Reconfiguration
+20% Photovoltaic Strike
+23% Photovoltaic Shot
+28% Photovoltaic Drive
+18% Photovoltaic Grasp
 
 Seth:
-23% Mimic's Shot (Strike)
-33% Mimic's Drive (Grasp)
-44% Vanishing Strike (Drive)
+30% Mimic's Strike (Reconfiguration)
+15% Mimic's Grasp (Drive)
+19% Compelling Strike (Reconfiguration)
+25% Compelling Strike (Strike)
+11% Compelling Strike (Shot)
 
 
-Aria: Photovoltaic Strike
-Seth: Vanishing Strike (Drive)
+Aria: Photovoltaic Shot
+Seth: Compelling Strike (Reconfiguration)
 
-Priorities:  4 | 3
+Priorities:  3 | 2
 Aria is active
 Aria hits
-Aria removes her Magnetron droid:
+Seth takes 2 damage (now at 13 life)
+Aria adds her Turret droid:
 
-....S.A
-.d.....
-.......
-.......
+AS.....
+......d
+.m.....
+t......
 
-Aria gets +1 power
-Seth takes 4 damage (now at 16 life)
-Aria adds her Magnetron droid:
+Seth moves Aria:
 
-....S.A
-.d.....
-......m
-.......
+.SA....
+......d
+.m.....
+t......
 
 Seth hits
-Aria takes 4 damage (now at 8 life)
+Aria takes 4 damage (now at 11 life)
+Aria is stunned
+Seth moves Aria:
+
+AS.....
+......d
+.m.....
+t......
+
+Seth loses 1 life (now at 12)
 
 Beat 6
 -------
 
 Aria
 ----
-life: 8
-discard 1: Photovoltaic Strike
-discard 2: Dimensional Reconfiguration
-special action
+Life: 11
+Discard 1: Photovoltaic Shot
+Discard 2: Laser Burst
+Special action available
 
 Seth
 ----
-life: 16
-discard 1: Vanishing Strike
-discard 2: Wyrding Omen Burst
-special action
+Life: 12
+Discard 1: Compelling Strike
+Discard 2: Vanishing Dash
+Special action available
 
 
-....S.A
-.d.....
-......m
-.......
+AS.....
+......d
+.m.....
+t......
 
-Unbeatable strategy for Seth: Compelling Dash (Grasp): -0.27
 
 Aria:
-3% Ionic Shot
-20% Ionic Drive
-10% Ionic Burst
-8% Laser Drive
-23% Catalyst Shot
-35% Catalyst Grasp
+15% Ionic Strike
+23% Ionic Drive
+8% Catalyst Reconfiguration
+22% Catalyst Strike
+10% Catalyst Drive
+22% Dimensional Reconfiguration
 
 Seth:
-17% Mimic's Shot (Shot)
-11% Mimic's Shot (Drive)
-7% Mimic's Shot (Burst)
-28% Mimic's Shot (Grasp)
-33% Compelling Drive (Drive)
-3% Compelling Grasp (Shot)
+29% Fool's Burst (Strike)
+24% Mimic's Omen (Reconfiguration)
+1% Mimic's Drive (Strike)
+7% Mimic's Drive (Drive)
+27% Mimic's Burst (Drive)
+11% Wyrding Drive (Drive)
 
 
-Aria: Catalyst Grasp
-Seth: Mimic's Shot (Shot)
+Aria: Catalyst Strike
+Seth: Mimic's Omen (Reconfiguration)
 
-Aria gets +4 priority
-Priorities:  10 | 2
+Priorities:  4 | 0
 Aria is active
-Aria hits
-Aria moves Seth:
-
-...S..A
-.d.....
-......m
-.......
-
-Seth takes 1 damage (now at 15 life)
+Aria misses
 Seth hits
-Aria takes 4 damage (now at 4 life)
-Aria is stunned
+Aria takes 4 damage (now at 7 life)
+Seth loses 1 life (now at 11)
 
 Beat 7
 -------
 
 Aria
 ----
-life: 4
-discard 1: Catalyst Grasp
-discard 2: Photovoltaic Strike
-special action
+Life: 7
+Discard 1: Catalyst Strike
+Discard 2: Photovoltaic Shot
+Special action available
 
 Seth
 ----
-life: 15
-discard 1: Mimic's Shot
-discard 2: Vanishing Strike
-special action
+Life: 11
+Discard 1: Mimic's Omen
+Discard 2: Compelling Strike
+Special action available
 
 
-...S..A
-.d.....
-......m
-.......
+AS.....
+......d
+.m.....
+t......
+
 
 Aria:
-12% Ionic Drive
-10% Laser Drive
-18% Dimensional Reconfiguration
-19% Dimensional Shot
-8% Dimensional Burst
-33% Dimensional Dash
+35% Ionic Reconfiguration
+22% Ionic Drive
+4% Laser Burst
+15% Laser Grasp
+23% Laser Dash
+1% Dimensional Reconfiguration
 
 Seth:
-15% Wyrding Omen (Dash)
-8% Wyrding Drive (Shot)
-3% Wyrding Grasp (Drive)
-28% Wyrding Dash (Reconfiguration)
-23% Compelling Drive (Shot)
-23% Compelling Drive (Drive)
+21% Vanishing Burst (Burst)
+12% Vanishing Burst (Grasp)
+30% Wyrding Drive (Drive)
+17% Wyrding Burst (Reconfiguration)
+4% Wyrding Grasp (Reconfiguration)
+17% Wyrding Dash (Drive)
 
 
 Aria: Ionic Drive
-Seth: Compelling Drive (Drive)
+Seth: Vanishing Burst (Burst)
+
+Priorities:  5 | 0
+Aria is active
+Seth moves:
+
+A..S...
+......d
+.m.....
+t......
+
+Aria moves:
+
+.A.S...
+......d
+.m.....
+t......
+
+Aria hits
+Seth takes 3 damage (now at 8 life)
+Seth is stunned
+
+Beat 8
+-------
+
+Aria
+----
+Life: 7
+Discard 1: Ionic Drive
+Discard 2: Catalyst Strike
+Special action available
+
+Seth
+----
+Life: 8
+Discard 1: Vanishing Burst
+Discard 2: Mimic's Omen
+Special action available
+
+
+.A.S...
+......d
+.m.....
+t......
+
+
+Aria:
+0% Photovoltaic Grasp
+2% Laser Burst
+7% Laser Dash
+91% Dimensional Dash
+
+Seth:
+4% Wyrding Strike (Burst)
+15% Compelling Strike (Reconfiguration)
+9% Compelling Strike (Shot)
+9% Compelling Strike (Burst)
+9% Compelling Strike (Grasp)
+9% Compelling Strike (Dash)
+23% Compelling Drive (Burst)
+22% Compelling Drive (Grasp)
+
+
+Aria: Dimensional Dash
+Seth: Compelling Strike (Dash)
 
 Seth gets +2 power
 Seth gets +2 priority
-Priorities:  5 | 6
-Seth is active
-Aria moves Seth:
+Priorities:  13 | 5
+Aria is active
+Aria moves:
 
-....S.A
-.d.....
-......m
-.......
+A..S...
+......d
+.m.....
+t......
 
 Seth moves Aria:
 
-....SA.
-.d.....
-......m
-.......
+.A.S...
+......d
+.m.....
+t......
+
+Seth misses
+Seth moves Aria:
+
+A..S...
+......d
+.m.....
+t......
+
+Aria moves:
+
+.A.S...
+......d
+.m.....
+t......
+
+
+Beat 9
+-------
+
+Aria
+----
+Life: 7
+Discard 1: Dimensional Dash
+Discard 2: Ionic Drive
+Special action available
+
+Seth
+----
+Life: 8
+Discard 1: Compelling Strike
+Discard 2: Vanishing Burst
+Special action available
+
+
+.A.S...
+......d
+.m.....
+t......
+
+
+Aria:
+5% Photovoltaic Strike
+6% Photovoltaic Shot
+0% Photovoltaic Burst
+8% Photovoltaic Grasp
+23% Laser Burst
+47% Catalyst Strike
+11% Catalyst Grasp
+
+Seth:
+10% Mimic's Shot (Strike)
+6% Mimic's Shot (Shot)
+8% Mimic's Shot (Burst)
+27% Mimic's Drive (Grasp)
+28% Wyrding Omen (Strike)
+5% Wyrding Drive (Grasp)
+16% Wyrding Dash (Strike)
+
+
+Aria: Catalyst Strike
+Seth: Wyrding Drive (Grasp)
+
+Aria gets +4 priority
+Priorities:  8 | 5
+Aria is active
+Aria hits
+Seth takes 3 damage (now at 5 life)
+Seth is stunned
+
+Beat 10
+-------
+
+Aria
+----
+Life: 7
+Discard 1: Catalyst Strike
+Discard 2: Dimensional Dash
+Special action available
+
+Seth
+----
+Life: 5
+Discard 1: Wyrding Drive
+Discard 2: Compelling Strike
+Special action available
+
+
+.A.S...
+......d
+.m.....
+t......
+
+
+Aria:
+12% Photovoltaic Shot
+30% Photovoltaic Drive
+21% Photovoltaic Grasp
+5% Ionic Shot
+32% Ionic Burst
+
+Seth:
+30% Vanishing Omen (Drive)
+4% Vanishing Burst (Shot)
+28% Vanishing Burst (Burst)
+33% Vanishing Grasp (Shot)
+6% Vanishing Grasp (Grasp)
+
+
+Aria: Photovoltaic Drive
+Seth: Vanishing Omen (Drive)
+
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  5 | 3
+Aria is active
+Aria is stunned
+Seth hits
+Aria takes 5 damage (now at 2 life)
+Aria is stunned
+
+Beat 11
+-------
+
+Aria
+----
+Life: 2
+Discard 1: Photovoltaic Drive
+Discard 2: Catalyst Strike
+Special action available
+
+Seth
+----
+Life: 5
+Discard 1: Vanishing Omen
+Discard 2: Wyrding Drive
+Special action available
+
+
+.A.S...
+......d
+.m.....
+t......
+
+Unbeatable strategy for Seth: Mimic's Shot (Shot): -7.00
+
+
+Aria:
+1% Ionic Burst
+3% Laser Shot
+5% Laser Burst
+92% Special Pulse
+
+Seth:
+8% Fool's Grasp (Reconfiguration)
+7% Fool's Grasp (Shot)
+8% Fool's Grasp (Grasp)
+8% Fool's Grasp (Dash)
+13% Mimic's Shot (Shot)
+25% Mimic's Burst (Burst)
+10% Compelling Grasp (Reconfiguration)
+3% Compelling Grasp (Shot)
+3% Compelling Grasp (Burst)
+12% Compelling Grasp (Grasp)
+3% Compelling Grasp (Dash)
+
+
+Aria: Special Pulse
+Seth: Mimic's Burst (Burst)
+
+Pulse:
+
+S.....A
+......d
+.m.....
+t......
+
+
+Beat 11
+-------
+
+Aria
+----
+Life: 2
+Discard 1: Photovoltaic Drive
+Discard 2: Catalyst Strike
+
+Seth
+----
+Life: 5
+Discard 1: Mimic's Burst
+Discard 2: Vanishing Omen
+Special action available
+
+
+S.....A
+......d
+.m.....
+t......
+
+Unbeatable strategy for Seth: Compelling Dash (Reconfiguration): -0.05
+Unbeatable strategy for Seth: Compelling Dash (Shot): -0.05
+Unbeatable strategy for Seth: Compelling Dash (Burst): -0.05
+Unbeatable strategy for Seth: Compelling Dash (Grasp): -0.05
+Unbeatable strategy for Seth: Compelling Dash (Dash): -0.05
+
+
+Aria:
+3% Ionic Shot
+80% Laser Shot
+16% Laser Grasp
+
+Seth:
+7% Compelling Strike (Reconfiguration)
+8% Compelling Strike (Burst)
+7% Compelling Strike (Grasp)
+7% Compelling Strike (Dash)
+5% Compelling Drive (Grasp)
+13% Compelling Dash (Reconfiguration)
+13% Compelling Dash (Shot)
+13% Compelling Dash (Burst)
+13% Compelling Dash (Grasp)
+14% Compelling Dash (Dash)
+
+
+Aria: Laser Shot
+Seth: Compelling Strike (Grasp)
+
+Priorities:  2 | 2
+Clash!
+
+
+Aria: Laser Burst
+Seth: Compelling Dash (Incorrect Guess)
+
+Priorities:  1 | 8
+Seth is active
+Seth moves Aria:
+
+S....A.
+......d
+.m.....
+t......
+
+Seth moves Aria:
+
+S...A..
+......d
+.m.....
+t......
 
 Seth moves:
 
-.....AS
-.d.....
-......m
-.......
+...SA..
+......d
+.m.....
+t......
 
+Aria hits
+Seth takes 3 damage (now at 2 life)
+Seth is stunned
+Seth loses 3 life (now at 1)
+
+Beat 12
+-------
+
+Aria
+----
+Life: 2
+Discard 1: Laser Burst
+Discard 2: Photovoltaic Drive
+
+Seth
+----
+Life: 1
+Discard 1: Compelling Dash
+Discard 2: Mimic's Burst
+Special action available
+
+
+...SA..
+......d
+.m.....
+t......
+
+
+Aria:
+5% Ionic Strike
+7% Ionic Shot
+31% Ionic Grasp
+18% Ionic Dash
+39% Dimensional Dash
+
+Seth:
+18% Vanishing Omen (Dash)
+16% Wyrding Omen (Dash)
+54% Wyrding Drive (Grasp)
+3% Wyrding Drive (Dash)
+9% Wyrding Grasp (Dash)
+
+
+Aria: Dimensional Dash
+Seth: Wyrding Drive (Grasp)
+
+Priorities:  13 | 5
+Aria is active
+Aria moves:
+
+..AS...
+......d
+.m.....
+t......
+
+Seth moves:
+
+.SA....
+......d
+.m.....
+t......
+
+Seth misses
+Aria moves:
+
+.S....A
+......d
+.m.....
+t......
+
+Seth loses 1 life (now at 1)
+
+Beat 13
+-------
+
+Aria
+----
+Life: 2
+Discard 1: Dimensional Dash
+Discard 2: Laser Burst
+
+Seth
+----
+Life: 1
+Discard 1: Wyrding Drive
+Discard 2: Compelling Dash
+Special action available
+
+
+.S....A
+......d
+.m.....
+t......
+
+
+Aria:
+11% Photovoltaic Reconfiguration
+14% Ionic Reconfiguration
+64% Ionic Strike
+11% Catalyst Reconfiguration
+
+Seth:
+7% Vanishing Shot (Reconfiguration)
+7% Vanishing Shot (Strike)
+7% Vanishing Shot (Shot)
+7% Vanishing Shot (Drive)
+7% Vanishing Shot (Grasp)
+64% Vanishing Grasp (Strike)
+
+
+Aria: Catalyst Reconfiguration
+Seth: Vanishing Grasp (Strike)
+
+Priorities:  4 | 4
+Clash!
+
+
+Aria: Catalyst Strike
+Seth: Vanishing Shot (Incorrect Guess)
+
+Priorities:  4 | 1
+Aria is active
+Aria misses
 Seth hits
-Aria takes 5 damage (now at 0 life)
+Aria takes 3 damage (now at 0 life)
 SETH WINS!
-total_time: 26
+total_time: 81

@@ -11,17 +11,17 @@ Beat 1
 
 Aria
 ----
-life: 20
-discard 1: Laser Grasp
-discard 2: Ionic Dash
-special action
+Life: 20
+Discard 1: Laser Grasp
+Discard 2: Ionic Dash
+Special action available
 
 Marmelee
 --------
-life: 20
-discard 1: Petrifying Burst
-discard 2: Barrier Grasp
-special action
+Life: 20
+Discard 1: Petrifying Burst
+Discard 2: Barrier Grasp
+Special action available
 2 Concentration counters
 
 
@@ -30,55 +30,112 @@ special action
 .m.....
 .......
 
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.95
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 1.30
+
 
 Aria:
-76% Photovoltaic Reconfiguration
-2% Photovoltaic Shot
-22% Photovoltaic Drive
+59% Photovoltaic Reconfiguration
+20% Photovoltaic Drive
+1% Catalyst Burst
+19% Dimensional Reconfiguration
 
 Marmelee:
-78% Magnificent Meditation
-5% Magnificent Drive
-17% Sorceress Drive
+26% Sorceress Meditation
+12% Sorceress Drive
+0% Nullifying Meditation
+61% Special Pulse
 
 
-Aria: Photovoltaic Reconfiguration
-Marmelee: Magnificent Meditation
+Aria: Dimensional Reconfiguration
+Marmelee: Special Pulse
 
-Priorities:  4 | 3
+Pulse:
+
+.....MA
+.......
+.m.....
+.......
+
+Marmelee gains 1 Concentration Counter
+
+Beat 1
+-------
+
+Aria
+----
+Life: 20
+Discard 1: Dimensional Reconfiguration
+Discard 2: Laser Grasp
+Special action available
+
+Marmelee
+--------
+Life: 20
+Discard 1: Petrifying Burst
+Discard 2: Barrier Grasp
+3 Concentration counters
+
+
+.....MA
+.......
+.m.....
+.......
+
+
+Aria:
+2% Photovoltaic Strike
+60% Photovoltaic Drive
+30% Photovoltaic Burst
+8% Photovoltaic Dash
+
+Marmelee:
+70% Sorceress Strike
+23% Nullifying Meditation
+1% Nullifying Strike
+6% Nullifying Drive
+
+
+Aria: Photovoltaic Drive
+Marmelee: Nullifying Meditation
+
+Priorities:  5 | 4
 Aria is active
-Aria moves:
-
-A....M.
-.......
-.m.....
-.......
-
-Aria adds her Dampening droid:
-
-A....M.
-...d...
-.m.....
-.......
-
-Aria misses
-Aria adds her Turret droid:
-
-A....M.
-...d...
-.m.....
-t......
-
-Marmelee misses
 Marmelee discards 2 Concentration Counters
+Marmelee gains Soak 2
 Marmelee moves:
 
-A.M....
-...d...
+....M.A
+.......
 .m.....
-t......
+.......
 
+Aria moves:
+
+...AM..
+.......
+.m.....
+.......
+
+Aria hits
+Aria removes her Magnetron droid:
+
+...AM..
+.......
+.......
+.......
+
+Aria gets +1 power
+Marmelee has 2 soak
+Marmelee takes 1 damage (now at 19 life)
+Marmelee is stunned
+Aria adds her Turret droid:
+
+...AM..
+.......
+.......
+...t...
+
+Marmelee loses 1 life (now at 18)
 Marmelee gains 1 Concentration Counter
 Marmelee gains 1 Concentration Counter
 
@@ -87,61 +144,63 @@ Beat 2
 
 Aria
 ----
-life: 20
-discard 1: Photovoltaic Reconfiguration
-discard 2: Laser Grasp
-special action
+Life: 20
+Discard 1: Photovoltaic Drive
+Discard 2: Dimensional Reconfiguration
+Special action available
 
 Marmelee
 --------
-life: 20
-discard 1: Magnificent Meditation
-discard 2: Petrifying Burst
-special action
+Life: 18
+Discard 1: Nullifying Meditation
+Discard 2: Petrifying Burst
 2 Concentration counters
 
 
-A.M....
-...d...
-.m.....
-t......
+...AM..
+.......
+.......
+...t...
+
+Unbeatable strategy for Marmelee: Magnificent Dash: -1.60
+Unbeatable strategy for Marmelee: Sorceress Strike: -0.94
+Unbeatable strategy for Marmelee: Sorceress Dash: -1.38
+Unbeatable strategy for Marmelee: Barrier Dash: -1.58
+
 
 Aria:
-19% Ionic Shot
-15% Ionic Drive
-1% Ionic Burst
-46% Ionic Dash
-20% Catalyst Strike
+4% Ionic Strike
+16% Laser Shot
+23% Laser Burst
+57% Laser Dash
 
 Marmelee:
-31% Sorceress Strike
-39% Barrier Strike
-7% Barrier Dash
-5% Nullifying Strike
-18% Nullifying Dash
+12% Sorceress Strike
+2% Sorceress Drive
+84% Sorceress Dash
+2% Barrier Shot
 
 
-Aria: Ionic Dash
-Marmelee: Sorceress Strike
+Aria: Laser Dash
+Marmelee: Sorceress Dash
 
-Priorities:  10 | 1
+Priorities:  9 | 8
 Aria is active
-Aria moves Marmelee:
-
-AM.....
-...d...
-.m.....
-t......
-
 Aria moves:
 
-.M..A..
-...d...
-.m.....
-t......
+.A..M..
+.......
+.......
+...t...
 
-Marmelee misses
-Marmelee loses 1 life (now at 19)
+Marmelee moves:
+
+.AM....
+.......
+.......
+...t...
+
+Marmelee loses 1 life (now at 17)
 Marmelee gains 1 Concentration Counter
 
 Beat 3
@@ -149,108 +208,54 @@ Beat 3
 
 Aria
 ----
-life: 20
-discard 1: Ionic Dash
-discard 2: Photovoltaic Reconfiguration
-special action
+Life: 20
+Discard 1: Laser Dash
+Discard 2: Photovoltaic Drive
+Special action available
 
 Marmelee
 --------
-life: 19
-discard 1: Sorceress Strike
-discard 2: Magnificent Meditation
-special action
+Life: 17
+Discard 1: Sorceress Dash
+Discard 2: Nullifying Meditation
 3 Concentration counters
 
 
-.M..A..
-...d...
-.m.....
-t......
+.AM....
+.......
+.......
+...t...
+
 
 Aria:
-40% Laser Burst
-19% Dimensional Burst
-40% Dimensional Grasp
+14% Ionic Strike
+68% Dimensional Reconfiguration
+18% Dimensional Burst
 
 Marmelee:
-1% Petrifying Drive
-9% Petrifying Dash
-90% Special Pulse
-
-
-Aria: Laser Burst
-Marmelee: Special Pulse
-
-Pulse:
-
-....AM.
-...d...
-.m.....
-t......
-
-
-Beat 3
--------
-
-Aria
-----
-life: 20
-discard 1: Laser Burst
-discard 2: Ionic Dash
-special action
-
-Marmelee
---------
-life: 19
-discard 1: Sorceress Strike
-discard 2: Magnificent Meditation
-3 Concentration counters
-
-
-....AM.
-...d...
-.m.....
-t......
-
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.81
-
-Aria:
-11% Photovoltaic Strike
-1% Photovoltaic Shot
-85% Dimensional Reconfiguration
-2% Dimensional Drive
-
-Marmelee:
-15% Petrifying Burst
-4% Petrifying Grasp
-9% Barrier Shot
-72% Nullifying Dash
+63% Petrifying Strike
+29% Petrifying Drive
+8% Petrifying Burst
 
 
 Aria: Dimensional Reconfiguration
-Marmelee: Barrier Shot
+Marmelee: Petrifying Strike
 
 Priorities:  7 | 2
 Aria is active
-Aria moves:
-
-.A...M.
-...d...
-.m.....
-t......
-
-Aria misses
+Marmelee discards 3 Concentration Counters
+Marmelee becomes the active player
 Marmelee hits
-Aria takes 2 damage (now at 18 life)
+Aria takes 5 damage (now at 15 life)
 Aria is stunned
 Aria moves:
 
-A....M.
-...d...
-.m.....
-t......
+..M...A
+.......
+.......
+...t...
 
+Marmelee loses 1 life (now at 16)
 Marmelee gains 1 Concentration Counter
 
 Beat 4
@@ -258,51 +263,56 @@ Beat 4
 
 Aria
 ----
-life: 18
-discard 1: Dimensional Reconfiguration
-discard 2: Laser Burst
-special action
+Life: 15
+Discard 1: Dimensional Reconfiguration
+Discard 2: Laser Dash
+Special action available
 
 Marmelee
 --------
-life: 19
-discard 1: Barrier Shot
-discard 2: Sorceress Strike
-4 Concentration counters
+Life: 16
+Discard 1: Petrifying Strike
+Discard 2: Sorceress Dash
+1 Concentration counters
 
 
-A....M.
-...d...
-.m.....
-t......
+..M...A
+.......
+.......
+...t...
+
 
 Aria:
-17% Photovoltaic Strike
-30% Photovoltaic Shot
-53% Photovoltaic Drive
+51% Photovoltaic Shot
+49% Photovoltaic Drive
 
 Marmelee:
-72% Magnificent Meditation
-20% Nullifying Meditation
-8% Nullifying Grasp
+43% Magnificent Drive
+57% Magnificent Burst
 
 
-Aria: Photovoltaic Strike
-Marmelee: Magnificent Meditation
+Aria: Photovoltaic Shot
+Marmelee: Magnificent Burst
 
-Priorities:  4 | 3
+Priorities:  3 | 1
 Aria is active
-Aria misses
-Marmelee misses
-Marmelee discards 2 Concentration Counters
 Marmelee moves:
 
-A.M....
-...d...
-.m.....
-t......
+M.....A
+.......
+.......
+...t...
 
-Marmelee gains 1 Concentration Counter
+Aria hits
+Marmelee takes 2 damage (now at 14 life)
+Marmelee is stunned
+Aria adds her Magnetron droid:
+
+M.....A
+.......
+......m
+...t...
+
 Marmelee gains 1 Concentration Counter
 
 Beat 5
@@ -310,87 +320,51 @@ Beat 5
 
 Aria
 ----
-life: 18
-discard 1: Photovoltaic Strike
-discard 2: Dimensional Reconfiguration
-special action
+Life: 15
+Discard 1: Photovoltaic Shot
+Discard 2: Dimensional Reconfiguration
+Special action available
 
 Marmelee
 --------
-life: 19
-discard 1: Magnificent Meditation
-discard 2: Barrier Shot
-4 Concentration counters
+Life: 14
+Discard 1: Magnificent Burst
+Discard 2: Petrifying Strike
+1 Concentration counters
 
 
-A.M....
-...d...
-.m.....
-t......
+M.....A
+.......
+......m
+...t...
 
-Unbeatable strategy for Marmelee: Petrifying Drive: -1.12
 
 Aria:
-18% Ionic Drive
-64% Laser Shot
-18% Laser Burst
+3% Ionic Burst
+21% Laser Strike
+75% Laser Burst
 
 Marmelee:
-32% Petrifying Drive
-56% Sorceress Strike
-12% Nullifying Drive
-
-
-Aria: Laser Shot
-Marmelee: Petrifying Drive
-
-Priorities:  2 | 2
-Clash!
-
-Aria:
-73% Laser Burst
-27% Laser Grasp
-
-Marmelee:
-47% Petrifying Strike
-53% Petrifying Burst
+7% Sorceress Shot
+35% Barrier Drive
+58% Barrier Dash
 
 
 Aria: Laser Burst
-Marmelee: Petrifying Strike
+Marmelee: Barrier Drive
 
-Priorities:  1 | 1
-Clash!
-
-Aria:
-44% Laser Drive
-56% Laser Grasp
-
-Marmelee:
-18% Petrifying Burst
-82% Petrifying Dash
-
-
-Aria: Laser Drive
-Marmelee: Petrifying Dash
-
-Priorities:  4 | 7
+Priorities:  1 | 4
 Marmelee is active
 Marmelee moves:
 
-A....M.
-...d...
-.m.....
-t......
+..M...A
+.......
+......m
+...t...
 
-Aria moves:
-
-.A...M.
-...d...
-.m.....
-t......
-
+Marmelee misses
 Aria misses
+Marmelee loses 1 life (now at 13)
 Marmelee gains 1 Concentration Counter
 
 Beat 6
@@ -398,230 +372,254 @@ Beat 6
 
 Aria
 ----
-life: 18
-discard 1: Laser Drive
-discard 2: Photovoltaic Strike
-special action
+Life: 15
+Discard 1: Laser Burst
+Discard 2: Photovoltaic Shot
+Special action available
 
 Marmelee
 --------
-life: 19
-discard 1: Petrifying Dash
-discard 2: Magnificent Meditation
-5 Concentration counters
+Life: 13
+Discard 1: Barrier Drive
+Discard 2: Magnificent Burst
+2 Concentration counters
 
 
-.A...M.
-...d...
-.m.....
-t......
+..M...A
+.......
+......m
+...t...
 
-Unbeatable strategy for Marmelee: Nullifying Shot: -0.08
 
 Aria:
-14% Ionic Shot
-57% Catalyst Shot
-29% Dimensional Burst
+12% Ionic Reconfiguration
+17% Ionic Drive
+72% Dimensional Reconfiguration
 
 Marmelee:
-25% Sorceress Strike
-20% Nullifying Strike
-55% Nullifying Shot
+32% Petrifying Shot
+26% Sorceress Strike
+43% Nullifying Meditation
 
 
-Aria: Catalyst Shot
-Marmelee: Nullifying Shot
+Aria: Dimensional Reconfiguration
+Marmelee: Petrifying Shot
 
-Aria gets +4 priority
-Priorities:  7 | 3
+Priorities:  7 | 1
 Aria is active
-Marmelee moves:
+Aria moves:
 
-.A....M
+A.M....
+.......
+......m
+...t...
+
+Aria adds her Dampening droid:
+
+A.M....
 ...d...
-.m.....
-t......
+......m
+...t...
 
-Aria hits
-Marmelee takes 2 damage (now at 17 life)
-Marmelee misses
+Aria misses
+Marmelee hits
+Aria takes 3 damage (now at 12 life)
+Aria is stunned
+Aria moves:
+
+..M...A
+...d...
+......m
+...t...
+
+Marmelee loses 1 life (now at 12)
+Marmelee gains 1 Concentration Counter
 
 Beat 7
 -------
 
 Aria
 ----
-life: 18
-discard 1: Catalyst Shot
-discard 2: Laser Drive
-special action
+Life: 12
+Discard 1: Dimensional Reconfiguration
+Discard 2: Laser Burst
+Special action available
 
 Marmelee
 --------
-life: 17
-discard 1: Nullifying Shot
-discard 2: Petrifying Dash
-5 Concentration counters
+Life: 12
+Discard 1: Petrifying Shot
+Discard 2: Barrier Drive
+3 Concentration counters
 
 
-.A....M
+..M...A
 ...d...
-.m.....
-t......
+......m
+...t...
 
-Unbeatable strategy for Marmelee: Sorceress Meditation: -0.16
-Unbeatable strategy for Marmelee: Sorceress Strike: -0.16
-Unbeatable strategy for Marmelee: Sorceress Grasp: -0.17
+Unbeatable strategy for Marmelee: Magnificent Strike: -0.24
+
 
 Aria:
-18% Photovoltaic Reconfiguration
-3% Photovoltaic Burst
-80% Dimensional Reconfiguration
+25% Photovoltaic Shot
+26% Photovoltaic Drive
+25% Ionic Drive
+23% Catalyst Shot
+1% Catalyst Drive
 
 Marmelee:
-15% Sorceress Drive
-17% Sorceress Burst
-68% Sorceress Grasp
+59% Magnificent Strike
+18% Sorceress Burst
+6% Sorceress Dash
+11% Nullifying Meditation
+7% Nullifying Strike
 
 
-Aria: Dimensional Reconfiguration
-Marmelee: Sorceress Grasp
+Aria: Photovoltaic Shot
+Marmelee: Magnificent Strike
 
-Priorities:  7 | 4
+Priorities:  3 | 3
+Clash!
+
+
+Aria: Photovoltaic Strike
+Marmelee: Magnificent Burst
+
+Priorities:  4 | 1
 Aria is active
-Aria moves:
+Marmelee moves:
 
-A.....M
+.M....A
 ...d...
-.m.....
-t......
+......m
+...t...
 
 Aria misses
-Marmelee misses
-Aria moves:
+Marmelee hits
+Marmelee discards 1 Concentration Counter
+Marmelee gets +1 power
+Aria takes 3 damage (now at 9 life)
+Marmelee discards 2 Concentration Counters
+Marmelee moves:
 
-.....AM
+.....MA
 ...d...
-.m.....
-t......
+......m
+...t...
 
+Marmelee gains 1 Concentration Counter
 
 Beat 8
 -------
 
 Aria
 ----
-life: 18
-discard 1: Dimensional Reconfiguration
-discard 2: Catalyst Shot
-special action
+Life: 9
+Discard 1: Photovoltaic Strike
+Discard 2: Dimensional Reconfiguration
+Special action available
 
 Marmelee
 --------
-life: 17
-discard 1: Sorceress Grasp
-discard 2: Nullifying Shot
-5 Concentration counters
+Life: 12
+Discard 1: Magnificent Burst
+Discard 2: Petrifying Shot
+1 Concentration counters
 
 
-.....AM
+.....MA
 ...d...
-.m.....
-t......
+......m
+...t...
+
+Unbeatable strategy for Aria: Ionic Grasp: 0.92
+
 
 Aria:
-41% Photovoltaic Strike
-35% Ionic Strike
-8% Laser Strike
-17% Laser Burst
+3% Ionic Burst
+97% Ionic Grasp
 
 Marmelee:
-48% Petrifying Strike
-18% Petrifying Drive
-4% Magnificent Dash
-30% Barrier Drive
+8% Sorceress Strike
+92% Barrier Strike
 
 
-Aria: Photovoltaic Strike
-Marmelee: Barrier Drive
+Aria: Ionic Grasp
+Marmelee: Barrier Strike
 
-Priorities:  4 | 4
-Clash!
+Priorities:  6 | 2
+Aria is active
+Aria hits
+Aria moves Marmelee:
 
-Aria:
-18% Photovoltaic Burst
-82% Photovoltaic Grasp
-
-Marmelee:
-2% Barrier Strike
-98% Barrier Dash
-
-
-Aria: Photovoltaic Grasp
-Marmelee: Barrier Dash
-
-Priorities:  6 | 9
-Marmelee is active
-Marmelee moves:
-
-....MA.
+....M.A
 ...d...
-.m.....
-t......
+......m
+...t...
 
-Aria misses
+Marmelee takes 2 damage (now at 10 life)
+Marmelee hits
+Aria takes 2 damage (now at 7 life)
+Aria is stunned
+Marmelee loses 1 life (now at 9)
+Marmelee gains 1 Concentration Counter
 
 Beat 9
 -------
 
 Aria
 ----
-life: 18
-discard 1: Photovoltaic Grasp
-discard 2: Dimensional Reconfiguration
-special action
+Life: 7
+Discard 1: Ionic Grasp
+Discard 2: Photovoltaic Strike
+Special action available
 
 Marmelee
 --------
-life: 17
-discard 1: Barrier Dash
-discard 2: Sorceress Grasp
-5 Concentration counters
+Life: 9
+Discard 1: Barrier Strike
+Discard 2: Magnificent Burst
+2 Concentration counters
 
 
-....MA.
+....M.A
 ...d...
-.m.....
-t......
+......m
+...t...
 
-Unbeatable strategy for Marmelee: Petrifying Drive: -1.86
 
 Aria:
-40% Ionic Strike
-60% Ionic Shot
+33% Laser Shot
+45% Laser Drive
+22% Catalyst Shot
 
 Marmelee:
-55% Petrifying Shot
-45% Petrifying Drive
+24% Petrifying Drive
+66% Petrifying Dash
+10% Nullifying Drive
 
 
-Aria: Ionic Shot
-Marmelee: Petrifying Shot
+Aria: Laser Drive
+Marmelee: Petrifying Dash
 
-Priorities:  3 | 1
-Aria is active
-Aria moves Marmelee:
+Priorities:  4 | 8
+Marmelee is active
+Marmelee moves:
 
-...M.A.
+.M....A
 ...d...
-.m.....
-t......
+......m
+...t...
 
-Marmelee discards 3 Concentration Counters
-Marmelee becomes the active player
-Marmelee hits
-Aria takes 3 damage (now at 15 life)
-Aria is stunned
+Aria moves:
+
+.M..A..
+...d...
+......m
+...t...
+
+Aria misses
 Marmelee gains 1 Concentration Counter
 
 Beat 10
@@ -629,51 +627,68 @@ Beat 10
 
 Aria
 ----
-life: 15
-discard 1: Ionic Shot
-discard 2: Photovoltaic Grasp
-special action
+Life: 7
+Discard 1: Laser Drive
+Discard 2: Ionic Grasp
+Special action available
 
 Marmelee
 --------
-life: 17
-discard 1: Petrifying Shot
-discard 2: Barrier Dash
+Life: 9
+Discard 1: Petrifying Dash
+Discard 2: Barrier Strike
 3 Concentration counters
 
 
-...M.A.
+.M..A..
 ...d...
-.m.....
-t......
+......m
+...t...
+
 
 Aria:
-21% Laser Strike
-14% Laser Drive
-43% Laser Dash
-21% Dimensional Reconfiguration
+43% Dimensional Shot
+57% Dimensional Burst
 
 Marmelee:
-24% Magnificent Meditation
-61% Magnificent Grasp
-8% Nullifying Meditation
-6% Nullifying Drive
+96% Nullifying Meditation
+4% Nullifying Drive
 
 
-Aria: Laser Dash
-Marmelee: Magnificent Grasp
+Aria: Dimensional Burst
+Marmelee: Nullifying Meditation
 
-Priorities:  9 | 5
+Aria gets +2 power
+Priorities:  5 | 4
 Aria is active
 Aria moves:
 
-..AM...
+.M...A.
 ...d...
-.m.....
-t......
+......m
+...t...
 
-Marmelee misses
-Marmelee loses 3 life (now at 14)
+Marmelee discards 3 Concentration Counters
+Marmelee gains Soak 3
+Marmelee moves:
+
+M....A.
+...d...
+......m
+...t...
+
+Aria hits
+Marmelee has 3 soak
+Marmelee takes 1 damage (now at 8 life)
+Marmelee is stunned
+Aria moves:
+
+M.....A
+...d...
+......m
+...t...
+
+Marmelee gains 1 Concentration Counter
 Marmelee gains 1 Concentration Counter
 
 Beat 11
@@ -681,70 +696,45 @@ Beat 11
 
 Aria
 ----
-life: 15
-discard 1: Laser Dash
-discard 2: Ionic Shot
-special action
+Life: 7
+Discard 1: Dimensional Burst
+Discard 2: Laser Drive
+Special action available
 
 Marmelee
 --------
-life: 14
-discard 1: Magnificent Grasp
-discard 2: Petrifying Shot
-4 Concentration counters
+Life: 8
+Discard 1: Nullifying Meditation
+Discard 2: Petrifying Dash
+2 Concentration counters
 
 
-..AM...
+M.....A
 ...d...
-.m.....
-t......
+......m
+...t...
+
+Unbeatable strategy for Marmelee: Magnificent Strike: -0.57
+Unbeatable strategy for Marmelee: Sorceress Drive: -0.67
+Unbeatable strategy for Marmelee: Barrier Strike: -1.47
+
 
 Aria:
-33% Photovoltaic Reconfiguration
-17% Photovoltaic Strike
-10% Photovoltaic Drive
-2% Photovoltaic Burst
-37% Dimensional Reconfiguration
+85% Photovoltaic Grasp
+15% Ionic Shot
 
 Marmelee:
-11% Sorceress Strike
-44% Sorceress Dash
-17% Barrier Drive
-25% Nullifying Meditation
-3% Nullifying Burst
+3% Sorceress Shot
+97% Barrier Strike
 
 
-Aria: Dimensional Reconfiguration
-Marmelee: Barrier Drive
+Aria: Photovoltaic Grasp
+Marmelee: Barrier Strike
 
-Priorities:  7 | 4
+Priorities:  6 | 3
 Aria is active
-Aria moves:
-
-A..M...
-...d...
-.m.....
-t......
-
-Aria hits
-Marmelee takes 1 damage (now at 13 life)
-Marmelee moves:
-
-A.M....
-...d...
-.m.....
-t......
-
-Marmelee hits
-Aria takes 1 damage (now at 14 life)
-Aria is stunned
-Aria moves:
-
-..M...A
-...d...
-.m.....
-t......
-
+Aria misses
+Marmelee misses
 Marmelee gains 1 Concentration Counter
 
 Beat 12
@@ -752,150 +742,128 @@ Beat 12
 
 Aria
 ----
-life: 14
-discard 1: Dimensional Reconfiguration
-discard 2: Laser Dash
-special action
+Life: 7
+Discard 1: Photovoltaic Grasp
+Discard 2: Dimensional Burst
+Special action available
 
 Marmelee
 --------
-life: 13
-discard 1: Barrier Drive
-discard 2: Magnificent Grasp
-5 Concentration counters
+Life: 8
+Discard 1: Barrier Strike
+Discard 2: Nullifying Meditation
+3 Concentration counters
 
 
-..M...A
+M.....A
 ...d...
-.m.....
-t......
+......m
+...t...
+
+Unbeatable strategy for Aria: Catalyst Shot: 0.06
+
 
 Aria:
-25% Photovoltaic Shot
-27% Photovoltaic Drive
-19% Photovoltaic Burst
-29% Ionic Shot
+40% Ionic Shot
+3% Laser Reconfiguration
+47% Laser Shot
+10% Catalyst Shot
 
 Marmelee:
-13% Petrifying Shot
-11% Petrifying Dash
-3% Sorceress Burst
-73% Nullifying Meditation
+49% Magnificent Shot
+17% Magnificent Grasp
+0% Magnificent Dash
+33% Sorceress Drive
 
 
-Aria: Photovoltaic Shot
-Marmelee: Nullifying Meditation
+Aria: Laser Shot
+Marmelee: Sorceress Drive
 
-Priorities:  3 | 3
-Clash!
-
-Aria:
-9% Photovoltaic Strike
-10% Photovoltaic Drive
-72% Photovoltaic Burst
-9% Photovoltaic Grasp
-
-Marmelee:
-5% Nullifying Shot
-67% Nullifying Burst
-28% Nullifying Dash
-
-
-Aria: Photovoltaic Grasp
-Marmelee: Nullifying Burst
-
-Priorities:  6 | 1
-Aria is active
+Priorities:  2 | 3
+Marmelee is active
 Marmelee moves:
 
 .M....A
 ...d...
-.m.....
-t......
+......m
+...t...
 
-Marmelee moves:
-
-M.....A
-...d...
-.m.....
-t......
-
-Aria misses
 Marmelee misses
-Marmelee loses 1 life (now at 12)
+Aria hits
+Marmelee takes 3 damage (now at 5 life)
+Marmelee is stunned
+Marmelee gains 1 Concentration Counter
 
 Beat 13
 -------
 
 Aria
 ----
-life: 14
-discard 1: Photovoltaic Grasp
-discard 2: Dimensional Reconfiguration
-special action
+Life: 7
+Discard 1: Laser Shot
+Discard 2: Photovoltaic Grasp
+Special action available
 
 Marmelee
 --------
-life: 12
-discard 1: Nullifying Burst
-discard 2: Barrier Drive
-5 Concentration counters
+Life: 5
+Discard 1: Sorceress Drive
+Discard 2: Barrier Strike
+1 Concentration counters
 
+
+.M....A
+...d...
+......m
+...t...
+
+Unbeatable strategy for Marmelee: Petrifying Burst: -1.51
+Unbeatable strategy for Marmelee: Magnificent Burst: -0.18
+Unbeatable strategy for Marmelee: Nullifying Meditation: -2.95
+Unbeatable strategy for Marmelee: Nullifying Shot: -0.57
+Unbeatable strategy for Marmelee: Nullifying Burst: -0.87
+Unbeatable strategy for Marmelee: Nullifying Grasp: -1.33
+
+
+Aria:
+49% Ionic Reconfiguration
+49% Ionic Strike
+2% Ionic Burst
+
+Marmelee:
+10% Petrifying Shot
+64% Nullifying Meditation
+26% Nullifying Shot
+
+
+Aria: Ionic Reconfiguration
+Marmelee: Nullifying Meditation
+
+Priorities:  4 | 4
+Clash!
+
+
+Aria: Ionic Strike
+Marmelee: Nullifying Grasp
+
+Priorities:  4 | 6
+Marmelee is active
+Marmelee moves:
 
 M.....A
 ...d...
-.m.....
-t......
+......m
+...t...
 
-Unbeatable strategy for Marmelee: Magnificent Strike: -0.31
+Aria moves Marmelee:
 
-Aria:
-34% Laser Strike
-66% Laser Shot
-
-Marmelee:
-34% Magnificent Meditation
-66% Magnificent Strike
-
-
-Aria: Laser Shot
-Marmelee: Magnificent Strike
-
-Priorities:  2 | 2
-Clash!
-
-Aria:
-60% Laser Strike
-40% Laser Burst
-
-Marmelee:
-16% Magnificent Meditation
-84% Magnificent Dash
-
-
-Aria: Laser Burst
-Marmelee: Magnificent Dash
-
-Priorities:  1 | 8
-Marmelee is active
-Marmelee discards 2 Concentration Counters
-Marmelee moves:
-
-..M...A
+.M....A
 ...d...
-.m.....
-t......
+......m
+...t...
 
-Marmelee moves:
-
-.....MA
-...d...
-.m.....
-t......
-
-Aria hits
-Marmelee takes 3 damage (now at 9 life)
-Marmelee is stunned
+Marmelee misses
+Aria misses
 Marmelee gains 1 Concentration Counter
 
 Beat 14
@@ -903,64 +871,58 @@ Beat 14
 
 Aria
 ----
-life: 14
-discard 1: Laser Burst
-discard 2: Photovoltaic Grasp
-special action
+Life: 7
+Discard 1: Ionic Strike
+Discard 2: Laser Shot
+Special action available
 
 Marmelee
 --------
-life: 9
-discard 1: Magnificent Dash
-discard 2: Nullifying Burst
-1 Concentration counters
+Life: 5
+Discard 1: Nullifying Grasp
+Discard 2: Sorceress Drive
+2 Concentration counters
 
 
-.....MA
+.M....A
 ...d...
-.m.....
-t......
+......m
+...t...
 
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.65
-Unbeatable strategy for Aria: Dimensional Dash: 0.74
+Unbeatable strategy for Marmelee: Petrifying Meditation: -0.63
+Unbeatable strategy for Marmelee: Petrifying Burst: -1.75
+Unbeatable strategy for Marmelee: Magnificent Meditation: -0.25
+Unbeatable strategy for Marmelee: Magnificent Burst: -1.08
+Unbeatable strategy for Marmelee: Magnificent Dash: -0.47
+Unbeatable strategy for Marmelee: Barrier Burst: -1.69
+Unbeatable strategy for Marmelee: Barrier Dash: -1.41
+
 
 Aria:
-12% Ionic Reconfiguration
-52% Ionic Strike
-3% Ionic Shot
-4% Catalyst Drive
-28% Dimensional Reconfiguration
+3% Photovoltaic Drive
+85% Photovoltaic Burst
+11% Photovoltaic Grasp
 
 Marmelee:
-7% Petrifying Grasp
-33% Sorceress Meditation
-5% Sorceress Grasp
-14% Barrier Strike
-41% Barrier Drive
+72% Petrifying Burst
+24% Magnificent Meditation
+4% Barrier Shot
 
 
-Aria: Ionic Reconfiguration
-Marmelee: Sorceress Meditation
+Aria: Photovoltaic Burst
+Marmelee: Petrifying Burst
 
-Priorities:  4 | 2
+Priorities:  2 | 0
 Aria is active
-Aria moves Marmelee:
+Marmelee moves:
 
-....M.A
+M.....A
 ...d...
-.m.....
-t......
-
-Aria moves:
-
-A...M..
-...d...
-.m.....
-t......
+......m
+...t...
 
 Aria misses
 Marmelee misses
-Marmelee gains 1 Concentration Counter
 Marmelee gains 1 Concentration Counter
 
 Beat 15
@@ -968,96 +930,77 @@ Beat 15
 
 Aria
 ----
-life: 14
-discard 1: Ionic Reconfiguration
-discard 2: Laser Burst
-special action
+Life: 7
+Discard 1: Photovoltaic Burst
+Discard 2: Ionic Strike
+Special action available
 
 Marmelee
 --------
-life: 9
-discard 1: Sorceress Meditation
-discard 2: Magnificent Dash
+Life: 5
+Discard 1: Petrifying Burst
+Discard 2: Nullifying Grasp
 3 Concentration counters
 
 
-A...M..
+M.....A
 ...d...
-.m.....
-t......
+......m
+...t...
 
-Unbeatable strategy for Aria: Photovoltaic Dash: 14.00
-Unbeatable strategy for Aria: Catalyst Dash: 14.00
-Unbeatable strategy for Aria: Dimensional Strike: 14.00
-Unbeatable strategy for Aria: Dimensional Drive: 14.00
-Unbeatable strategy for Aria: Dimensional Grasp: 14.00
-Unbeatable strategy for Aria: Dimensional Dash: 14.00
+Unbeatable strategy for Aria: Catalyst Shot: 10.00
+Unbeatable strategy for Aria: Catalyst Grasp: 10.00
+Unbeatable strategy for Aria: Catalyst Dash: 10.00
+
 
 Aria:
-9% Photovoltaic Strike
-11% Photovoltaic Shot
-7% Photovoltaic Drive
-5% Photovoltaic Grasp
-4% Photovoltaic Dash
-7% Catalyst Strike
-12% Catalyst Shot
-8% Catalyst Drive
-5% Catalyst Grasp
-5% Catalyst Dash
-5% Dimensional Strike
-5% Dimensional Shot
-5% Dimensional Drive
-5% Dimensional Grasp
-5% Dimensional Dash
+14% Laser Reconfiguration
+14% Laser Shot
+14% Catalyst Reconfiguration
+14% Catalyst Shot
+14% Catalyst Drive
+14% Catalyst Grasp
+14% Catalyst Dash
 
 Marmelee:
-7% Petrifying Strike
-7% Petrifying Shot
-7% Petrifying Drive
-7% Petrifying Burst
-7% Petrifying Grasp
-6% Barrier Strike
-7% Barrier Shot
-7% Barrier Drive
-7% Barrier Burst
-6% Barrier Grasp
-6% Nullifying Strike
-7% Nullifying Shot
-7% Nullifying Drive
-7% Nullifying Burst
-6% Nullifying Grasp
+8% Magnificent Meditation
+11% Magnificent Strike
+8% Magnificent Shot
+5% Magnificent Drive
+7% Magnificent Dash
+3% Sorceress Meditation
+4% Sorceress Strike
+5% Sorceress Shot
+8% Sorceress Drive
+7% Sorceress Dash
+7% Barrier Meditation
+7% Barrier Strike
+2% Barrier Shot
+8% Barrier Drive
+8% Barrier Dash
 
 
-Aria: Dimensional Dash
-Marmelee: Nullifying Shot
+Aria: Laser Reconfiguration
+Marmelee: Barrier Dash
 
-Priorities:  13 | 3
-Aria is active
+Priorities:  3 | 9
+Marmelee is active
 Marmelee moves:
 
-A....M.
+.M....A
 ...d...
-.m.....
-t......
+......m
+...t...
 
 Aria moves:
 
-.A...M.
+AM.....
 ...d...
-.m.....
-t......
+......m
+...t...
 
-Marmelee hits
-Aria takes 3 damage (now at 11 life)
-Aria is stunned
-Aria moves:
-
-A....M.
-...d...
-.m.....
-t......
-
+Aria misses
 Marmelee gains 1 Concentration Counter
 Game goes to time
 ARIA WINS!
-total_time: 36
+total_time: 49

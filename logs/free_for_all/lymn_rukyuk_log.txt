@@ -11,112 +11,127 @@ Beat 1
 
 Lymn
 ----
-life: 20
-discard 1: Maddening Burst
-discard 2: Chimeric Dash
-special action
+Life: 20
+Discard 1: Maddening Burst
+Discard 2: Chimeric Dash
+Special action available
 
 Rukyuk
 ------
-life: 20
-discard 1: Crossfire Reload
-discard 2: Trick Shot
-special action
+Life: 20
+Discard 1: Crossfire Reload
+Discard 2: Trick Shot
+Special action available
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
 .L...R.
 
+Unbeatable strategy for Rukyuk: Gunner Strike (Swift): -0.12
 Unbeatable strategy for Rukyuk: Gunner Grasp (Explosive): -2.44
-Unbeatable strategy for Rukyuk: Gunner Grasp (Flash): -0.74
+Unbeatable strategy for Rukyuk: Gunner Grasp (Flash): -0.81
+
 
 Lymn:
 18% Surreal Drive
-45% Surreal Grasp
-29% Fathomless Visions
-8% Fathomless Shot
+46% Surreal Grasp
+26% Fathomless Visions
+10% Fathomless Shot
 
 Rukyuk:
-17% Sniper Strike (Explosive)
-37% Sniper Drive (Longshot)
-20% Sniper Grasp (Explosive)
-26% Gunner Grasp (Explosive)
+11% Sniper Strike (Explosive)
+40% Sniper Drive (Longshot)
+22% Sniper Grasp (Explosive)
+27% Gunner Grasp (Explosive)
 
 
-Lymn: Fathomless Shot
+Lymn: Surreal Grasp
 Rukyuk: Sniper Drive (Longshot)
 
 Rukyuk antes a Longshot token
-Priorities:  0 | 6
+Priorities:  6 | 6
+Clash!
+
+
+Lymn: Surreal Drive
+Rukyuk: Sniper Grasp (Longshot)
+
+Rukyuk antes a Longshot token
+Priorities:  5 | 7
 Rukyuk is active
-Disparity is 6
-Rukyuk moves:
-
-.L..R..
-
+Disparity is 2
 Rukyuk hits
-Lymn takes 4 damage (now at 16 life)
+Rukyuk moves Lymn:
+
+L....R.
+
+Lymn takes 3 damage (now at 17 life)
+Lymn is stunned
 Rukyuk moves:
 
-.L....R
+L.....R
 
-Lymn hits
-Rukyuk takes 6 damage (now at 14 life)
-Rukyuk is stunned
 
 Beat 2
 -------
 
 Lymn
 ----
-life: 16
-discard 1: Fathomless Shot
-discard 2: Maddening Burst
-special action
+Life: 17
+Discard 1: Surreal Drive
+Discard 2: Maddening Burst
+Special action available
 
 Rukyuk
 ------
-life: 14
-discard 1: Sniper Drive
-discard 2: Crossfire Reload
-special action
+Life: 20
+Discard 1: Sniper Grasp
+Discard 2: Crossfire Reload
+Special action available
 pool: AP, Explosive, Flash, Impact, Swift
 
 
-.L....R
+L.....R
+
+Unbeatable strategy for Rukyuk: Gunner Strike (Explosive): -2.55
+Unbeatable strategy for Rukyuk: Gunner Strike (Flash): -0.92
+Unbeatable strategy for Rukyuk: Gunner Shot (Explosive): -1.43
+
 
 Lymn:
-47% Chimeric Dash
-15% Surreal Strike
-36% Surreal Drive
-1% Reverie Drive
+21% Chimeric Visions
+5% Chimeric Dash
+74% Special Pulse
 
 Rukyuk:
-35% Point Blank Shot (AP)
-18% Point Blank Shot (Swift)
-13% Gunner Strike (Swift)
-33% Gunner Grasp (Swift)
+18% Gunner Strike (Explosive)
+75% Gunner Shot (Explosive)
+7% Gunner Drive (Explosive)
 
 
 Lymn: Chimeric Dash
-Rukyuk: Gunner Grasp (Swift)
+Rukyuk: Gunner Strike (Explosive)
 
-Rukyuk antes a Swift token
-Priorities:  11 | 7
+Rukyuk antes an Explosive token
+Priorities:  11 | 3
 Lymn is active
-Disparity is 4
+Disparity is 8
 Lymn moves:
 
-..L...R
+.L....R
 
 Lymn moves:
 
-.....LR
+....L.R
 
-Rukyuk misses
+Rukyuk spends an AP token
+Rukyuk gains -1/+1 range
+Rukyuk hits
+Lymn takes 6 damage (now at 11 life)
+Lymn is stunned
 Rukyuk moves:
 
-...R.L.
+...RL..
 
 
 Beat 3
@@ -124,53 +139,107 @@ Beat 3
 
 Lymn
 ----
-life: 16
-discard 1: Chimeric Dash
-discard 2: Fathomless Shot
-special action
+Life: 11
+Discard 1: Chimeric Dash
+Discard 2: Surreal Drive
+Special action available
 
 Rukyuk
 ------
-life: 14
-discard 1: Gunner Grasp
-discard 2: Sniper Drive
-special action
-pool: AP, Explosive, Flash, Impact
+Life: 20
+Discard 1: Gunner Strike
+Discard 2: Sniper Grasp
+Special action available
+pool: Flash, Impact, Swift
 
 
-...R.L.
+...RL..
+
+Unbeatable strategy for Rukyuk: Crossfire Reload: -0.75
+Unbeatable strategy for Rukyuk: Crossfire Reload (Flash): -0.75
+Unbeatable strategy for Rukyuk: Crossfire Reload (Impact): -0.75
+
 
 Lymn:
-78% Surreal Strike
-18% Surreal Burst
-4% Reverie Strike
+19% Maddening Visions
+58% Maddening Grasp
+22% Reverie Visions
+2% Reverie Grasp
 
 Rukyuk:
-16% Point Blank Shot (Explosive)
-26% Crossfire Dash
-17% Trick Reload
-11% Trick Reload (AP)
-9% Trick Reload (Explosive)
-11% Trick Reload (Flash)
-10% Trick Reload (Impact)
+33% Point Blank Drive (Impact)
+19% Point Blank Burst (Swift)
+1% Crossfire Reload
+1% Crossfire Reload (Flash)
+1% Crossfire Reload (Impact)
+46% Crossfire Reload (Swift)
 
 
-Lymn: Surreal Strike
-Rukyuk: Trick Reload (Impact)
+Lymn: Maddening Grasp
+Rukyuk: Point Blank Burst (Swift)
 
-Rukyuk antes an Impact token
-Priorities:  4 | 1
+Rukyuk antes a Swift token
+Priorities:  5 | 3
 Lymn is active
-Disparity is 3
-Lymn hits
-Rukyuk takes 4 damage (now at 10 life)
-Lymn moves:
-
-..LR...
-
+Disparity is 2
 Rukyuk moves:
 
-..L...R
+.R..L..
+
+Lymn misses
+Rukyuk hits
+Lymn takes 2 damage (now at 9 life)
+Rukyuk moves Lymn:
+
+.R....L
+
+Lymn is stunned
+
+Beat 4
+-------
+
+Lymn
+----
+Life: 9
+Discard 1: Maddening Grasp
+Discard 2: Chimeric Dash
+Special action available
+
+Rukyuk
+------
+Life: 20
+Discard 1: Point Blank Burst
+Discard 2: Gunner Strike
+Special action available
+pool: Flash, Impact
+
+
+.R....L
+
+Unbeatable strategy for Rukyuk: Sniper Drive (Flash): -3.27
+Unbeatable strategy for Rukyuk: Sniper Drive (Impact): -1.80
+
+
+Lymn:
+6% Surreal Drive
+6% Fathomless Visions
+19% Fathomless Strike
+69% Special Pulse
+
+Rukyuk:
+2% Sniper Reload
+23% Sniper Shot
+2% Sniper Shot (Flash)
+73% Sniper Drive (Flash)
+
+
+Lymn: Special Pulse
+Rukyuk: Sniper Drive (Flash)
+
+Rukyuk antes a Flash token
+Pulse:
+
+RL.....
 
 
 Beat 4
@@ -178,244 +247,55 @@ Beat 4
 
 Lymn
 ----
-life: 16
-discard 1: Surreal Strike
-discard 2: Chimeric Dash
-special action
+Life: 9
+Discard 1: Maddening Grasp
+Discard 2: Chimeric Dash
 
 Rukyuk
 ------
-life: 10
-discard 1: Trick Reload
-discard 2: Gunner Grasp
-special action
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+Life: 20
+Discard 1: Sniper Drive
+Discard 2: Point Blank Burst
+Special action available
+pool: Impact
 
 
-..L...R
+RL.....
 
-Unbeatable strategy for Rukyuk: Sniper Strike (Explosive): -1.21
+Unbeatable strategy for Rukyuk: Gunner Reload: -0.13
+Unbeatable strategy for Rukyuk: Gunner Reload (Impact): -0.13
+Unbeatable strategy for Rukyuk: Crossfire Reload: -5.02
+Unbeatable strategy for Rukyuk: Crossfire Reload (Impact): -5.02
+Unbeatable strategy for Rukyuk: Trick Reload: -2.00
+Unbeatable strategy for Rukyuk: Trick Reload (Impact): -2.00
+Unbeatable strategy for Rukyuk: Trick Dash: -0.53
+
 
 Lymn:
-18% Maddening Shot
-44% Maddening Drive
-30% Maddening Grasp
-1% Reverie Drive
-7% Reverie Grasp
+61% Surreal Burst
+39% Reverie Visions
 
 Rukyuk:
-39% Sniper Strike (Explosive)
-8% Sniper Drive (Longshot)
-27% Point Blank Shot (Explosive)
-19% Point Blank Drive (Explosive)
-7% Crossfire Strike (Impact)
+45% Gunner Reload
+8% Gunner Reload (Impact)
+47% Crossfire Reload
 
 
-Lymn: Maddening Shot
-Rukyuk: Point Blank Shot (Explosive)
+Lymn: Surreal Burst
+Rukyuk: Gunner Reload (Impact)
 
-Rukyuk antes an Explosive token
-Priorities:  2 | 2
-Clash!
-
-Lymn:
-1% Maddening Visions
-99% Maddening Drive
-
-Rukyuk:
-99% Point Blank Strike (Explosive)
-1% Point Blank Drive (Explosive)
-
-
-Lymn: Maddening Drive
-Rukyuk: Point Blank Strike (Explosive)
-
-Rukyuk antes an Explosive token
-Priorities:  4 | 3
-Lymn is active
-Disparity is 1
+Rukyuk antes an Impact token
+Priorities:  2 | 4
+Rukyuk is active
+Disparity is 2
 Lymn moves:
-
-...L..R
-
-Lymn misses
-Rukyuk misses
-
-Beat 5
--------
-
-Lymn
-----
-life: 16
-discard 1: Maddening Drive
-discard 2: Surreal Strike
-special action
-
-Rukyuk
-------
-life: 10
-discard 1: Point Blank Strike
-discard 2: Trick Reload
-special action
-pool: AP, Flash, Impact, Longshot, Swift
-
-
-...L..R
-
-Lymn:
-4% Chimeric Visions
-24% Reverie Grasp
-5% Fathomless Visions
-11% Fathomless Shot
-8% Fathomless Burst
-48% Fathomless Dash
-
-Rukyuk:
-12% Sniper Grasp (Longshot)
-31% Gunner Drive (Longshot)
-20% Gunner Drive (Swift)
-23% Gunner Grasp (Flash)
-5% Gunner Grasp (Impact)
-10% Crossfire Burst (Longshot)
-
-
-Lymn: Fathomless Dash
-Rukyuk: Gunner Drive (Swift)
-
-Rukyuk antes a Swift token
-Priorities:  7 | 6
-Lymn is active
-Disparity is 1
-Lymn moves:
-
-....L.R
-
-Rukyuk moves:
-
-...RL..
-
-Rukyuk misses
-Rukyuk moves:
-
-.R..L..
-
-
-Beat 6
--------
-
-Lymn
-----
-life: 16
-discard 1: Fathomless Dash
-discard 2: Maddening Drive
-special action
-
-Rukyuk
-------
-life: 10
-discard 1: Gunner Drive
-discard 2: Point Blank Strike
-special action
-pool: AP, Flash, Impact, Longshot
-
-
-.R..L..
-
-Unbeatable strategy for Rukyuk: Sniper Grasp (Longshot): -1.50
-
-Lymn:
-36% Chimeric Grasp
-8% Surreal Visions
-56% Surreal Strike
-
-Rukyuk:
-4% Sniper Reload
-4% Sniper Reload (AP)
-4% Sniper Reload (Flash)
-4% Sniper Reload (Impact)
-24% Sniper Reload (Longshot)
-7% Sniper Shot (Longshot)
-53% Sniper Grasp (Longshot)
-
-
-Lymn: Chimeric Grasp
-Rukyuk: Sniper Reload (Longshot)
-
-Rukyuk antes a Longshot token
-Priorities:  7 | 6
-Lymn is active
-Disparity is 1
-Lymn moves:
-
-.R.L...
-
-Lymn misses
-Rukyuk moves:
 
 R..L...
 
 Rukyuk moves:
 
-...L..R
+.R.L...
 
-
-Beat 7
--------
-
-Lymn
-----
-life: 16
-discard 1: Chimeric Grasp
-discard 2: Fathomless Dash
-special action
-
-Rukyuk
-------
-life: 10
-discard 1: Sniper Reload
-discard 2: Gunner Drive
-special action
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
-
-
-...L..R
-
-Lymn:
-26% Maddening Drive
-19% Surreal Strike
-35% Surreal Drive
-20% Surreal Burst
-
-Rukyuk:
-2% Point Blank Shot (Explosive)
-21% Point Blank Shot (Longshot)
-35% Point Blank Shot (Swift)
-43% Crossfire Grasp (Swift)
-
-
-Lymn: Surreal Strike
-Rukyuk: Point Blank Shot (Swift)
-
-Rukyuk antes a Swift token
-Priorities:  4 | 4
-Clash!
-
-Lymn:
-56% Surreal Shot
-44% Surreal Burst
-
-Rukyuk:
-44% Point Blank Burst (Swift)
-56% Point Blank Dash (Swift)
-
-
-Lymn: Surreal Shot
-Rukyuk: Point Blank Dash (Swift)
-
-Rukyuk antes a Swift token
-Priorities:  3 | 11
-Rukyuk is active
-Disparity is 8
 Rukyuk moves:
 
 ..RL...
@@ -423,64 +303,217 @@ Rukyuk moves:
 Lymn misses
 Lymn moves:
 
+L.R....
+
+
+Beat 5
+-------
+
+Lymn
+----
+Life: 9
+Discard 1: Surreal Burst
+Discard 2: Maddening Grasp
+
+Rukyuk
+------
+Life: 20
+Discard 1: Gunner Reload
+Discard 2: Sniper Drive
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
+
+
+L.R....
+
+
+Lymn:
+21% Chimeric Visions
+13% Chimeric Strike
+11% Chimeric Drive
+2% Chimeric Dash
+14% Fathomless Visions
+39% Fathomless Dash
+
+Rukyuk:
+26% Point Blank Strike (Explosive)
+1% Point Blank Shot (Explosive)
+21% Point Blank Shot (Swift)
+20% Crossfire Grasp
+25% Crossfire Dash
+6% Crossfire Dash (Longshot)
+
+
+Lymn: Chimeric Strike
+Rukyuk: Crossfire Grasp
+
+Priorities:  5 | 3
+Lymn is active
+Disparity is 2
+Lymn moves:
+
 .LR....
 
+Lymn hits
+Rukyuk has 2 soak
+Rukyuk takes 2 damage (now at 18 life)
+Rukyuk is stunned
+
+Beat 6
+-------
+
+Lymn
+----
+Life: 9
+Discard 1: Chimeric Strike
+Discard 2: Surreal Burst
+
+Rukyuk
+------
+Life: 18
+Discard 1: Crossfire Grasp
+Discard 2: Gunner Reload
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
+
+
+.LR....
+
+
+Lymn:
+15% Maddening Drive
+55% Maddening Dash
+5% Reverie Visions
+4% Reverie Drive
+20% Fathomless Shot
+1% Fathomless Grasp
+
+Rukyuk:
+12% Sniper Shot
+35% Sniper Burst
+13% Sniper Dash
+0% Point Blank Strike (Explosive)
+22% Point Blank Shot (Explosive)
+17% Point Blank Drive (Explosive)
+
+
+Lymn: Maddening Dash
+Rukyuk: Point Blank Shot (Explosive)
+
+Rukyuk antes an Explosive token
+Priorities:  9 | 2
+Lymn is active
+Disparity is 7
+Lymn moves:
+
+..RL...
+
+Rukyuk misses
+
+Beat 7
+-------
+
+Lymn
+----
+Life: 9
+Discard 1: Maddening Dash
+Discard 2: Chimeric Strike
+
+Rukyuk
+------
+Life: 18
+Discard 1: Point Blank Shot
+Discard 2: Crossfire Grasp
+Special action available
+pool: AP, Flash, Impact, Longshot, Swift
+
+
+..RL...
+
+
+Lymn:
+34% Surreal Visions
+28% Surreal Drive
+2% Reverie Drive
+36% Fathomless Shot
+
+Rukyuk:
+26% Gunner Strike (Longshot)
+19% Gunner Drive (Flash)
+34% Gunner Drive (Swift)
+20% Gunner Burst (Impact)
+
+
+Lymn: Surreal Drive
+Rukyuk: Gunner Drive (Flash)
+
+Rukyuk antes a Flash token
+Priorities:  5 | 4
+Lymn is active
+Disparity is 1
+Lymn moves:
+
+L.R....
+
+Lymn hits
+Rukyuk takes 3 damage (now at 15 life)
+Rukyuk is stunned
 
 Beat 8
 -------
 
 Lymn
 ----
-life: 16
-discard 1: Surreal Shot
-discard 2: Chimeric Grasp
-special action
+Life: 9
+Discard 1: Surreal Drive
+Discard 2: Maddening Dash
 
 Rukyuk
 ------
-life: 10
-discard 1: Point Blank Dash
-discard 2: Sniper Reload
-special action
-pool: AP, Explosive, Flash, Impact, Longshot
+Life: 15
+Discard 1: Gunner Drive
+Discard 2: Point Blank Shot
+Special action available
+pool: AP, Impact, Longshot, Swift
 
 
-.LR....
+L.R....
+
 
 Lymn:
-10% Maddening Strike
-12% Maddening Drive
-25% Reverie Drive
-30% Fathomless Visions
-23% Fathomless Strike
+14% Chimeric Visions
+24% Chimeric Strike
+4% Chimeric Burst
+23% Reverie Grasp
+34% Fathomless Visions
 
 Rukyuk:
-21% Gunner Strike (Longshot)
-47% Gunner Drive (Longshot)
-5% Gunner Burst (Longshot)
-27% Gunner Grasp (Longshot)
-0% Trick Burst (Explosive)
+29% Sniper Reload (Swift)
+3% Crossfire Reload
+3% Crossfire Reload (AP)
+3% Crossfire Reload (Impact)
+3% Crossfire Reload (Longshot)
+24% Crossfire Reload (Swift)
+1% Crossfire Burst (Longshot)
+36% Trick Reload (Swift)
 
 
-Lymn: Fathomless Visions
-Rukyuk: Gunner Drive (Longshot)
+Lymn: Reverie Grasp
+Rukyuk: Trick Reload (Swift)
 
-Rukyuk antes a Longshot token
-Priorities:  1 | 4
-Rukyuk is active
-Disparity is 3
-Rukyuk spends an AP token
-Rukyuk gains -1/+1 range
+Rukyuk antes a Swift token
+Priorities:  4 | 3
+Lymn is active
+Disparity is 1
+Lymn hits
+Lymn moves Rukyuk:
+
+LR.....
+
+Rukyuk takes 5 damage (now at 10 life)
 Rukyuk moves:
 
-RL.....
-
-Rukyuk hits
-Lymn takes 3 damage (now at 13 life)
-Lymn is stunned
-Rukyuk moves:
-
-.L.R...
+L.....R
 
 
 Beat 9
@@ -488,204 +521,177 @@ Beat 9
 
 Lymn
 ----
-life: 13
-discard 1: Fathomless Visions
-discard 2: Surreal Shot
-special action
+Life: 9
+Discard 1: Reverie Grasp
+Discard 2: Surreal Drive
 
 Rukyuk
 ------
-life: 10
-discard 1: Gunner Drive
-discard 2: Point Blank Dash
-special action
-pool: Explosive, Flash, Impact
+Life: 10
+Discard 1: Trick Reload
+Discard 2: Gunner Drive
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-.L.R...
+L.....R
 
-Unbeatable strategy for Rukyuk: Sniper Reload: -3.08
-Unbeatable strategy for Rukyuk: Sniper Reload (Explosive): -3.08
-Unbeatable strategy for Rukyuk: Sniper Reload (Flash): -3.08
-Unbeatable strategy for Rukyuk: Sniper Reload (Impact): -3.08
-Unbeatable strategy for Rukyuk: Sniper Grasp: -1.21
-Unbeatable strategy for Rukyuk: Sniper Grasp (Explosive): -0.31
-Unbeatable strategy for Rukyuk: Sniper Grasp (Flash): -0.61
-Unbeatable strategy for Rukyuk: Sniper Grasp (Impact): -0.51
 
 Lymn:
-100% Chimeric Drive
+37% Maddening Shot
+16% Chimeric Visions
+47% Chimeric Dash
 
 Rukyuk:
-100% Sniper Reload
+12% Sniper Grasp (AP)
+54% Point Blank Shot (Longshot)
+34% Point Blank Burst (Swift)
 
 
-Lymn: Chimeric Drive
-Rukyuk: Sniper Reload
+Lymn: Maddening Shot
+Rukyuk: Point Blank Shot (Longshot)
 
-Priorities:  6 | 6
+Rukyuk antes a Longshot token
+Priorities:  2 | 2
 Clash!
 
-Lymn:
-78% Chimeric Strike
-22% Chimeric Grasp
 
-Rukyuk:
-100% Sniper Burst
+Lymn: Maddening Burst
+Rukyuk: Point Blank Strike (Longshot)
 
-
-Lymn: Chimeric Strike
-Rukyuk: Sniper Burst
-
-Priorities:  5 | 3
-Lymn is active
+Rukyuk antes a Longshot token
+Priorities:  1 | 3
+Rukyuk is active
 Disparity is 2
-Rukyuk moves:
-
-.L..R..
-
-Lymn moves:
-
-..L.R..
-
-Lymn misses
 Rukyuk misses
-Rukyuk moves:
-
-.RL....
-
+Lymn misses
 
 Beat 10
 -------
 
 Lymn
 ----
-life: 13
-discard 1: Chimeric Strike
-discard 2: Fathomless Visions
-special action
+Life: 9
+Discard 1: Maddening Burst
+Discard 2: Reverie Grasp
 
 Rukyuk
 ------
-life: 10
-discard 1: Sniper Burst
-discard 2: Gunner Drive
-special action
-pool: Explosive, Flash, Impact
+Life: 10
+Discard 1: Point Blank Strike
+Discard 2: Trick Reload
+Special action available
+pool: AP, Explosive, Flash, Impact, Swift
 
 
-.RL....
+L.....R
 
-Unbeatable strategy for Rukyuk: Crossfire Reload: -0.62
-Unbeatable strategy for Rukyuk: Crossfire Reload (Explosive): -0.62
-Unbeatable strategy for Rukyuk: Crossfire Reload (Flash): -0.62
-Unbeatable strategy for Rukyuk: Crossfire Reload (Impact): -0.62
-Unbeatable strategy for Rukyuk: Trick Reload: -0.29
-Unbeatable strategy for Rukyuk: Trick Reload (Explosive): -0.29
-Unbeatable strategy for Rukyuk: Trick Reload (Flash): -0.29
-Unbeatable strategy for Rukyuk: Trick Reload (Impact): -0.29
 
 Lymn:
-39% Maddening Burst
-14% Surreal Shot
-45% Surreal Burst
-2% Surreal Grasp
+16% Chimeric Drive
+43% Chimeric Dash
+24% Surreal Drive
+17% Surreal Dash
 
 Rukyuk:
-5% Point Blank Reload
-6% Point Blank Reload (Explosive)
-6% Point Blank Reload (Flash)
-5% Point Blank Reload (Impact)
-9% Point Blank Shot (Explosive)
-26% Crossfire Reload
-42% Trick Reload
+35% Sniper Drive (Explosive)
+0% Sniper Drive (Swift)
+13% Sniper Dash (Explosive)
+52% Gunner Grasp (Explosive)
 
 
-Lymn: Maddening Burst
-Rukyuk: Trick Reload
+Lymn: Chimeric Dash
+Rukyuk: Gunner Grasp (Explosive)
 
-Priorities:  1 | 1
-Clash!
+Rukyuk antes an Explosive token
+Priorities:  11 | 5
+Lymn is active
+Disparity is 6
+Lymn moves:
 
-Lymn:
-100% Maddening Drive
-
-Rukyuk:
-100% Trick Dash
-
-
-Lymn: Maddening Drive
-Rukyuk: Trick Dash
-
-Priorities:  4 | 6
-Rukyuk is active
-Disparity is 2
-Rukyuk moves:
-
-..LR...
+.L....R
 
 Lymn moves:
 
-...RL..
+....L.R
 
-Lymn misses
+Rukyuk spends an AP token
+Rukyuk gains -1/+1 range
+Rukyuk hits
+Rukyuk moves Lymn:
+
+.....LR
+
+Lymn takes 4 damage (now at 5 life)
+Lymn is stunned
+Rukyuk moves:
+
+...R.L.
+
 
 Beat 11
 -------
 
 Lymn
 ----
-life: 13
-discard 1: Maddening Drive
-discard 2: Chimeric Strike
-special action
+Life: 5
+Discard 1: Chimeric Dash
+Discard 2: Maddening Burst
 
 Rukyuk
 ------
-life: 10
-discard 1: Trick Dash
-discard 2: Sniper Burst
-special action
-pool: Explosive, Flash, Impact
+Life: 10
+Discard 1: Gunner Grasp
+Discard 2: Point Blank Strike
+Special action available
+pool: Flash, Impact, Swift
 
 
-...RL..
+...R.L.
 
-Unbeatable strategy for Rukyuk: Crossfire Reload: -0.19
-Unbeatable strategy for Rukyuk: Crossfire Reload (Explosive): -0.19
-Unbeatable strategy for Rukyuk: Crossfire Reload (Flash): -0.19
-Unbeatable strategy for Rukyuk: Crossfire Reload (Impact): -0.19
 
 Lymn:
-44% Surreal Burst
-48% Surreal Grasp
-9% Fathomless Dash
+22% Surreal Strike
+30% Surreal Shot
+8% Reverie Visions
+9% Reverie Strike
+31% Fathomless Visions
 
 Rukyuk:
-38% Point Blank Drive (Explosive)
-12% Gunner Strike (Explosive)
-49% Crossfire Reload
+3% Sniper Reload
+3% Sniper Reload (Flash)
+3% Sniper Reload (Impact)
+7% Sniper Reload (Swift)
+14% Crossfire Reload
+12% Crossfire Reload (Flash)
+12% Crossfire Reload (Impact)
+33% Trick Reload (Impact)
+13% Trick Reload (Swift)
 
 
-Lymn: Surreal Grasp
-Rukyuk: Point Blank Drive (Explosive)
+Lymn: Fathomless Visions
+Rukyuk: Trick Reload (Impact)
 
-Rukyuk antes an Explosive token
-Priorities:  6 | 4
+Rukyuk antes an Impact token
+Priorities:  1 | 1
+Clash!
+
+
+Lymn: Fathomless Shot
+Rukyuk: Trick Burst (Impact)
+
+Rukyuk antes an Impact token
+Priorities:  0 | -2
 Lymn is active
 Disparity is 2
+Rukyuk moves:
+
+.R...L.
+
 Lymn hits
-Lymn moves Rukyuk:
-
-....LR.
-
 Rukyuk takes 2 damage (now at 8 life)
-Lymn moves:
-
-.....RL
-
 Rukyuk hits
-Lymn takes 5 damage (now at 8 life)
+Lymn takes 3 damage (now at 2 life)
 Lymn is stunned
 
 Beat 12
@@ -693,64 +699,61 @@ Beat 12
 
 Lymn
 ----
-life: 8
-discard 1: Surreal Grasp
-discard 2: Maddening Drive
-special action
+Life: 2
+Discard 1: Fathomless Shot
+Discard 2: Chimeric Dash
 
 Rukyuk
 ------
-life: 8
-discard 1: Point Blank Drive
-discard 2: Trick Dash
-special action
-pool: Flash, Impact
+Life: 8
+Discard 1: Trick Burst
+Discard 2: Gunner Grasp
+Special action available
+pool: Flash, Swift
 
 
-.....RL
+.R...L.
 
-Unbeatable strategy for Rukyuk: Sniper Burst: -0.55
-Unbeatable strategy for Rukyuk: Gunner Reload: -0.68
-Unbeatable strategy for Rukyuk: Gunner Reload (Flash): -0.68
-Unbeatable strategy for Rukyuk: Gunner Reload (Impact): -0.68
-Unbeatable strategy for Rukyuk: Crossfire Reload: -3.03
-Unbeatable strategy for Rukyuk: Crossfire Reload (Flash): -3.03
-Unbeatable strategy for Rukyuk: Crossfire Reload (Impact): -3.03
+Unbeatable strategy for Rukyuk: Sniper Strike (Swift): -0.04
+
 
 Lymn:
-6% Chimeric Visions
-52% Chimeric Strike
-42% Fathomless Visions
+6% Maddening Drive
+51% Maddening Burst
+4% Maddening Grasp
+39% Surreal Drive
 
 Rukyuk:
-10% Sniper Reload
-8% Sniper Reload (Flash)
-8% Sniper Reload (Impact)
-1% Gunner Burst
-36% Crossfire Reload
-19% Crossfire Reload (Flash)
-18% Crossfire Reload (Impact)
+29% Sniper Strike (Flash)
+32% Sniper Strike (Swift)
+15% Point Blank Shot (Flash)
+24% Crossfire Reload (Swift)
 
 
-Lymn: Fathomless Visions
-Rukyuk: Crossfire Reload (Impact)
+Lymn: Surreal Drive
+Rukyuk: Sniper Strike (Flash)
 
-Rukyuk antes an Impact token
-Priorities:  1 | 2
-Rukyuk is active
-Disparity is 1
-Rukyuk moves:
+Rukyuk antes a Flash token
+Priorities:  5 | 5
+Clash!
 
-R.....L
 
-Lymn moves:
+Lymn: Surreal Grasp
+Rukyuk: Sniper Shot (Flash)
 
-R....L.
-
+Rukyuk antes a Flash token
+Priorities:  6 | 4
+Lymn is active
+Disparity is 2
 Lymn misses
 Lymn moves:
 
-R..L...
+.RL....
+
+Rukyuk misses
+Rukyuk moves:
+
+R.L....
 
 
 Beat 13
@@ -758,55 +761,53 @@ Beat 13
 
 Lymn
 ----
-life: 8
-discard 1: Fathomless Visions
-discard 2: Surreal Grasp
-special action
+Life: 2
+Discard 1: Surreal Grasp
+Discard 2: Fathomless Shot
 
 Rukyuk
 ------
-life: 8
-discard 1: Crossfire Reload
-discard 2: Point Blank Drive
-special action
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+Life: 8
+Discard 1: Sniper Shot
+Discard 2: Trick Burst
+Special action available
+pool: Swift
 
 
-R..L...
+R.L....
+
+Unbeatable strategy for Rukyuk: Crossfire Reload (Swift): -0.82
+
 
 Lymn:
-35% Maddening Shot
-18% Maddening Dash
-44% Chimeric Drive
-2% Reverie Drive
+19% Maddening Drive
+32% Maddening Burst
+12% Chimeric Drive
+12% Reverie Visions
+24% Reverie Strike
 
 Rukyuk:
-17% Sniper Grasp (Longshot)
-34% Sniper Dash
-30% Gunner Strike (Longshot)
-20% Gunner Grasp (AP)
+7% Point Blank Reload (Swift)
+18% Point Blank Drive (Swift)
+1% Gunner Reload (Swift)
+35% Crossfire Reload
+39% Crossfire Reload (Swift)
 
 
-Lymn: Maddening Shot
-Rukyuk: Sniper Grasp (Longshot)
+Lymn: Chimeric Drive
+Rukyuk: Crossfire Reload (Swift)
 
-Rukyuk antes a Longshot token
-Priorities:  2 | 7
-Rukyuk is active
-Disparity is 5
-Rukyuk hits
-Rukyuk moves Lymn:
+Rukyuk antes a Swift token
+Priorities:  6 | 4
+Lymn is active
+Disparity is 2
+Lymn moves:
 
-R...L..
-
-Lymn has 5 soak
-Lymn takes 0 damage (now at 8 life)
-Rukyuk moves:
-
-.R..L..
+RL.....
 
 Lymn hits
-Rukyuk takes 5 damage (now at 3 life)
+Rukyuk has 2 soak
+Rukyuk takes 1 damage (now at 7 life)
 Rukyuk is stunned
 
 Beat 14
@@ -814,118 +815,62 @@ Beat 14
 
 Lymn
 ----
-life: 8
-discard 1: Maddening Shot
-discard 2: Fathomless Visions
-special action
+Life: 2
+Discard 1: Chimeric Drive
+Discard 2: Surreal Grasp
 
 Rukyuk
 ------
-life: 3
-discard 1: Sniper Grasp
-discard 2: Crossfire Reload
-special action
-pool: AP, Explosive, Flash, Impact, Swift
+Life: 7
+Discard 1: Crossfire Reload
+Discard 2: Sniper Shot
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-.R..L..
+RL.....
+
+Unbeatable strategy for Rukyuk: Point Blank Drive (AP): -1.83
+Unbeatable strategy for Rukyuk: Point Blank Drive (Explosive): -7.00
+Unbeatable strategy for Rukyuk: Point Blank Drive (Flash): -1.42
+Unbeatable strategy for Rukyuk: Point Blank Drive (Impact): -1.63
+Unbeatable strategy for Rukyuk: Point Blank Drive (Longshot): -0.95
+Unbeatable strategy for Rukyuk: Gunner Drive (Longshot): -0.98
+
 
 Lymn:
-0% Chimeric Drive
-10% Surreal Burst
-25% Surreal Grasp
-63% Surreal Dash
-2% Reverie Dash
+10% Maddening Visions
+8% Maddening Strike
+11% Maddening Shot
+15% Maddening Burst
+12% Maddening Dash
+3% Reverie Visions
+3% Reverie Strike
+11% Reverie Shot
+2% Reverie Burst
+4% Reverie Dash
+4% Fathomless Visions
+3% Fathomless Strike
+3% Fathomless Shot
+5% Fathomless Burst
+6% Fathomless Dash
 
 Rukyuk:
-1% Gunner Drive (AP)
-4% Gunner Drive (Swift)
-87% Gunner Dash
-1% Special Fully Automatic (AP)
-7% Special Fully Automatic (Swift)
+100% Point Blank Drive (Explosive)
 
 
-Lymn: Surreal Dash
-Rukyuk: Gunner Dash
+Lymn: Fathomless Strike
+Rukyuk: Point Blank Drive (Explosive)
 
-Priorities:  10 | 9
-Lymn is active
-Disparity is 1
-Lymn moves:
-
-.R.L...
-
-Rukyuk moves:
-
-..RL...
-
-Rukyuk moves:
-
-R..L...
-
-
-Beat 15
--------
-
-Lymn
-----
-life: 8
-discard 1: Surreal Dash
-discard 2: Maddening Shot
-special action
-
-Rukyuk
-------
-life: 3
-discard 1: Gunner Dash
-discard 2: Sniper Grasp
-special action
-pool: AP, Explosive, Flash, Impact, Swift
-
-
-R..L...
-
-Lymn:
-6% Chimeric Visions
-0% Chimeric Strike
-6% Chimeric Drive
-6% Chimeric Grasp
-1% Reverie Visions
-1% Reverie Strike
-1% Reverie Drive
-0% Reverie Burst
-1% Reverie Grasp
-1% Fathomless Visions
-0% Fathomless Drive
-3% Fathomless Burst
-73% Special Pulse
-
-Rukyuk:
-12% Crossfire Shot
-38% Crossfire Shot (Explosive)
-12% Crossfire Burst
-38% Special Fully Automatic (Swift)
-
-
-Lymn: Chimeric Grasp
-Rukyuk: Special Fully Automatic (Swift)
-
-Rukyuk antes a Swift token
-Priorities:  7 | 8
+Rukyuk antes an Explosive token
+Priorities:  1 | 4
 Rukyuk is active
-Disparity is 1
+Disparity is 3
+Rukyuk moves:
+
+.LR....
+
 Rukyuk hits
-Rukyuk spends an AP token
-Rukyuk spends a Flash token
-Rukyuk attacks 2 more times
-Lymn takes 2 damage (now at 6 life)
-Lymn is stunned
-Rukyuk hits
-Lymn takes 2 damage (now at 4 life)
-Lymn is stunned
-Rukyuk hits
-Lymn takes 2 damage (now at 2 life)
-Lymn is stunned
-Game goes to time
+Lymn takes 5 damage (now at 0 life)
 RUKYUK WINS!
-total_time: 142
+total_time: 215

@@ -11,39 +11,40 @@ Beat 1
 
 Cesar
 -----
-life: 20
-discard 1: Fueled Strike
-discard 2: Unstoppable Grasp
-special action
+Life: 20
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Grasp
+Special action available
 Threat level: 0
 
 Runika
 ------
-life: 20
-discard 1: Channeled Grasp
-discard 2: Impact Strike
-special action
+Life: 20
+Discard 1: Channeled Grasp
+Discard 2: Impact Strike
+Special action available
 Active artifacts: 
-  Battlefist
-  Shield Amulet
-  Autodeflector
   Phase Goggles
   Hover Boots
+  Autodeflector
+  Shield Amulet
+  Battlefist
 
 
 .C...R.
 
-Unbeatable strategy for Runika: Overcharged Drive: -1.15
+Unbeatable strategy for Runika: Overcharged Drive: -1.20
+
 
 Cesar:
-1% Bulwark Suppression
-2% Bulwark Shot
-97% Bulwark Dash
+0% Phalanx Shot
+10% Bulwark Shot
+90% Bulwark Dash
 
 Runika:
-24% Maintenance Tinker
-20% Overcharged Shot
-55% Overcharged Drive
+28% Maintenance Tinker
+5% Maintenance Shot
+67% Overcharged Drive
 
 
 Cesar: Bulwark Dash
@@ -75,22 +76,22 @@ Beat 2
 
 Cesar
 -----
-life: 16
-discard 1: Bulwark Dash
-discard 2: Fueled Strike
-special action
+Life: 16
+Discard 1: Bulwark Dash
+Discard 2: Fueled Strike
+Special action available
 Threat level: 1
 
 Runika
 ------
-life: 20
-discard 1: Overcharged Drive
-discard 2: Channeled Grasp
-special action
+Life: 20
+Discard 1: Overcharged Drive
+Discard 2: Channeled Grasp
+Special action available
 Active artifacts: 
+  Phase Goggles
   Battlefist
   Shield Amulet
-  Phase Goggles
   Autodeflector
 Removed artifacts: 
   Hover Boots
@@ -98,15 +99,20 @@ Removed artifacts:
 
 ..CR...
 
+
 Cesar:
-51% Unstoppable Suppression
-6% Inevitable Suppression
-43% Inevitable Drive
+42% Unstoppable Suppression
+8% Unstoppable Shot
+17% Unstoppable Grasp
+8% Inevitable Shot
+25% Inevitable Grasp
 
 Runika:
 2% Maintenance Tinker
-84% Maintenance Dash
-13% Impact Tinker
+6% Maintenance Strike
+4% Maintenance Burst
+83% Maintenance Dash
+6% Explosive Strike
 
 
 Cesar: Unstoppable Suppression
@@ -142,22 +148,22 @@ Beat 3
 
 Cesar
 -----
-life: 16
-discard 1: Unstoppable Suppression
-discard 2: Bulwark Dash
-special action
+Life: 16
+Discard 1: Unstoppable Suppression
+Discard 2: Bulwark Dash
+Special action available
 Threat level: 2
 
 Runika
 ------
-life: 20
-discard 1: Maintenance Dash
-discard 2: Overcharged Drive
-special action
+Life: 20
+Discard 1: Maintenance Dash
+Discard 2: Overcharged Drive
+Special action available
 Active artifacts: 
+  Phase Goggles
   Battlefist
   Shield Amulet
-  Phase Goggles
   Autodeflector
 Removed artifacts: 
   Hover Boots
@@ -165,720 +171,623 @@ Removed artifacts:
 
 .C....R
 
-Unbeatable strategy for Cesar: Phalanx Shot: 0.81
+Unbeatable strategy for Cesar: Phalanx Shot: 1.09
+
 
 Cesar:
-91% Phalanx Shot
-6% Phalanx Grasp
-3% Fueled Drive
+10% Phalanx Strike
+51% Phalanx Shot
+39% Fueled Burst
 
 Runika:
-40% Explosive Tinker
-3% Explosive Shot
-3% Explosive Burst
-54% Special Pulse
+5% Explosive Tinker
+43% Explosive Burst
+52% Special Pulse
 
 
-Cesar: Phalanx Shot
-Runika: Explosive Tinker
+Cesar: Fueled Burst
+Runika: Special Pulse
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  0 | 3
-Runika is active
-Runika misses
-No artifacts to activate
-Cesar hits
-Battlefist is de-activated
-Runika has 2 soak
-Runika takes 4 damage (now at 16 life)
+Pulse:
+
+.C....R
+
+
+Beat 3
+-------
+
+Cesar
+-----
+Life: 16
+Discard 1: Fueled Burst
+Discard 2: Unstoppable Suppression
+Special action available
+Threat level: 3
+
+Runika
+------
+Life: 20
+Discard 1: Maintenance Dash
+Discard 2: Overcharged Drive
+Active artifacts: 
+  Phase Goggles
+  Battlefist
+  Shield Amulet
+  Autodeflector
+Removed artifacts: 
+  Hover Boots
+
+
+.C....R
+
+Unbeatable strategy for Cesar: Phalanx Shot: 0.35
+Unbeatable strategy for Cesar: Phalanx Dash: 1.28
+Unbeatable strategy for Cesar: Bulwark Shot: 0.35
+Unbeatable strategy for Cesar: Bulwark Dash: 1.28
+Unbeatable strategy for Cesar: Inevitable Dash: 1.28
+
+
+Cesar:
+71% Bulwark Grasp
+29% Inevitable Grasp
+
+Runika:
+13% Explosive Strike
+87% Explosive Shot
+
+
+Cesar: Inevitable Grasp
+Runika: Explosive Shot
+
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  5 | 2
+Cesar is active
+Runika moves Cesar:
+
+..C...R
+
+Runika hits
+Shield Amulet is de-activated
+Runika gets +2 power
+Cesar has 2 soak
+Cesar takes 3 damage (now at 13 life)
 
 Beat 4
 -------
 
 Cesar
 -----
-life: 16
-discard 1: Phalanx Shot
-discard 2: Unstoppable Suppression
-special action
-Threat level: 3
+Life: 13
+Discard 1: Inevitable Grasp
+Discard 2: Fueled Burst
+Special action available
+Threat level: 4
 
 Runika
 ------
-life: 16
-discard 1: Explosive Tinker
-discard 2: Maintenance Dash
-special action
+Life: 20
+Discard 1: Explosive Shot
+Discard 2: Maintenance Dash
 Active artifacts: 
-  Shield Amulet
-  Autodeflector
   Phase Goggles
+  Battlefist
+  Autodeflector
 Removed artifacts: 
   Hover Boots
 
 
-.C....R
+..C...R
 
-Unbeatable strategy for Cesar: Fueled Burst: 1.52
-Unbeatable strategy for Cesar: Bulwark Burst: 1.30
 
 Cesar:
-100% Bulwark Grasp
+15% Bulwark Shot
+85% Bulwark Dash
 
 Runika:
-26% Channeled Strike
-50% Channeled Shot
-25% Channeled Grasp
+79% Channeled Drive
+21% Impact Tinker
 
 
-Cesar: Bulwark Grasp
-Runika: Channeled Strike
+Cesar: Bulwark Dash
+Runika: Impact Tinker
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  3 | 4
-Runika is active
-Battlefist is activated
+Cesar gains a Threat Level (current level: 0)
+Priorities:  7 | 3
+Cesar is active
+Cesar moves:
+
+.C....R
+
+Cesar moves:
+
+C.....R
+
+Runika moves:
+
+C....R.
+
 Runika misses
-Battlefist is de-activated
+Shield Amulet is activated
 
 Beat 5
 -------
 
 Cesar
 -----
-life: 16
-discard 1: Bulwark Grasp
-discard 2: Phalanx Shot
-special action
-Threat level: 4
+Life: 13
+Discard 1: Bulwark Dash
+Discard 2: Inevitable Grasp
+Special action available
+Threat level: 0
 
 Runika
 ------
-life: 16
-discard 1: Channeled Strike
-discard 2: Explosive Tinker
-special action
+Life: 20
+Discard 1: Impact Tinker
+Discard 2: Explosive Shot
 Active artifacts: 
+  Phase Goggles
+  Battlefist
   Shield Amulet
   Autodeflector
-  Phase Goggles
 Removed artifacts: 
   Hover Boots
 
 
-.C....R
+C....R.
 
-Unbeatable strategy for Cesar: Unstoppable Burst: 0.11
-Unbeatable strategy for Cesar: Unstoppable Dash: 0.21
 
 Cesar:
-24% Unstoppable Strike
-17% Fueled Strike
-13% Fueled Drive
-46% Inevitable Suppression
+68% Phalanx Suppression
+21% Fueled Shot
+11% Fueled Burst
 
 Runika:
-47% Maintenance Drive
-33% Impact Shot
-14% Impact Drive
-6% Impact Burst
+2% Maintenance Strike
+46% Maintenance Burst
+52% Overcharged Drive
 
 
-Cesar: Inevitable Suppression
-Runika: Impact Shot
+Cesar: Phalanx Suppression
+Runika: Overcharged Drive
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  2 | 2
-Clash!
-
-Cesar:
-82% Inevitable Burst
-18% Inevitable Dash
-
-Runika:
-24% Impact Drive
-76% Impact Burst
-
-
-Cesar: Inevitable Burst
-Runika: Impact Burst
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  1 | 1
-Clash!
-
-Cesar:
-89% Inevitable Drive
-11% Inevitable Dash
-
-Runika:
-15% Impact Drive
-85% Impact Grasp
-
-
-Cesar: Inevitable Drive
-Runika: Impact Grasp
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  4 | 5
+Cesar gains a Threat Level (current level: 1)
+Priorities:  0 | 4
 Runika is active
+Runika overcharges her Battlefist
 Runika moves:
 
-.C...R.
+C..R...
 
 Runika misses
+Cesar misses
+Battlefist is removed from the game
 Cesar moves:
 
-...C.R.
+..CR...
 
-Cesar misses
 
 Beat 6
 -------
 
 Cesar
 -----
-life: 16
-discard 1: Inevitable Drive
-discard 2: Bulwark Grasp
-special action
-Threat level: 0
+Life: 13
+Discard 1: Phalanx Suppression
+Discard 2: Bulwark Dash
+Special action available
+Threat level: 1
 
 Runika
 ------
-life: 16
-discard 1: Impact Grasp
-discard 2: Channeled Strike
-special action
+Life: 20
+Discard 1: Overcharged Drive
+Discard 2: Impact Tinker
 Active artifacts: 
-  Shield Amulet
-  Autodeflector
   Phase Goggles
+  Autodeflector
+  Shield Amulet
 Removed artifacts: 
   Hover Boots
+  Battlefist
 
 
-...C.R.
+..CR...
+
+Unbeatable strategy for Runika: Maintenance Dash: -0.50
+Unbeatable strategy for Runika: Explosive Dash: -0.56
+
 
 Cesar:
-24% Phalanx Strike
-4% Unstoppable Suppression
-2% Unstoppable Shot
-9% Unstoppable Burst
-30% Unstoppable Dash
-14% Fueled Strike
-17% Fueled Burst
+25% Unstoppable Shot
+27% Unstoppable Grasp
+49% Inevitable Grasp
 
 Runika:
-30% Maintenance Tinker
-1% Maintenance Dash
-0% Explosive Shot
-2% Explosive Burst
-17% Explosive Dash
-8% Overcharged Tinker
-42% Overcharged Drive
+0% Channeled Grasp
+0% Maintenance Burst
+100% Explosive Dash
 
 
-Cesar: Phalanx Strike
-Runika: Overcharged Tinker
+Cesar: Inevitable Grasp
+Runika: Explosive Dash
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  1 | 3
+Cesar gains a Threat Level (current level: 2)
+Priorities:  5 | 9
 Runika is active
-Runika overcharges her Phase Goggles
-Runika hits
-Cesar takes 3 damage (now at 13 life)
-Cesar is stunned
-Battlefist is activated
-Phase Goggles is removed from the game
+Runika moves:
+
+..C.R..
+
+Cesar misses
 
 Beat 7
 -------
 
 Cesar
 -----
-life: 13
-discard 1: Phalanx Strike
-discard 2: Inevitable Drive
-special action
-Threat level: 1
+Life: 13
+Discard 1: Inevitable Grasp
+Discard 2: Phalanx Suppression
+Special action available
+Threat level: 2
 
 Runika
 ------
-life: 16
-discard 1: Overcharged Tinker
-discard 2: Impact Grasp
-special action
+Life: 20
+Discard 1: Explosive Dash
+Discard 2: Overcharged Drive
 Active artifacts: 
-  Shield Amulet
-  Autodeflector
-  Battlefist
-Removed artifacts: 
   Phase Goggles
+  Autodeflector
+  Shield Amulet
+Removed artifacts: 
   Hover Boots
+  Battlefist
 
 
-...C.R.
+..C.R..
+
+Unbeatable strategy for Cesar: Unstoppable Burst: 2.25
+
 
 Cesar:
-18% Unstoppable Shot
-41% Fueled Suppression
-6% Fueled Shot
-9% Fueled Grasp
-26% Bulwark Shot
+53% Unstoppable Shot
+15% Unstoppable Drive
+28% Unstoppable Burst
+3% Bulwark Burst
 
 Runika:
-3% Channeled Shot
-65% Maintenance Shot
-10% Maintenance Burst
-5% Explosive Burst
-18% Explosive Dash
+11% Maintenance Strike
+12% Maintenance Shot
+18% Maintenance Burst
+59% Impact Strike
 
 
-Cesar: Fueled Suppression
-Runika: Maintenance Shot
+Cesar: Unstoppable Shot
+Runika: Impact Strike
 
-Cesar gains a Threat Level (current level: 2)
-Priorities:  1 | 1
-Clash!
-
-Cesar:
-57% Fueled Grasp
-43% Fueled Dash
-
-Runika:
-43% Maintenance Drive
-57% Maintenance Dash
-
-
-Cesar: Fueled Grasp
-Runika: Maintenance Drive
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  4 | 3
-Cesar is active
 Cesar gains a Threat Level (current level: 3)
+Priorities:  0 | 3
+Runika is active
+Runika moves:
+
+..CR...
+
 Cesar moves:
 
-....CR.
+...R.C.
 
+Runika hits
+Cesar takes 3 damage (now at 10 life)
 Cesar hits
-Cesar moves Runika:
-
-...RC..
-
 Autodeflector is de-activated
-Runika has 1 soak
-Runika takes 5 damage (now at 11 life)
-Runika is stunned
+Runika takes 6 damage (now at 14 life)
 
 Beat 8
 -------
 
 Cesar
 -----
-life: 13
-discard 1: Fueled Grasp
-discard 2: Phalanx Strike
-special action
+Life: 10
+Discard 1: Unstoppable Shot
+Discard 2: Inevitable Grasp
+Special action available
 Threat level: 3
 
 Runika
 ------
-life: 11
-discard 1: Maintenance Drive
-discard 2: Overcharged Tinker
-special action
+Life: 14
+Discard 1: Impact Strike
+Discard 2: Explosive Dash
 Active artifacts: 
+  Phase Goggles
   Shield Amulet
-  Battlefist
 Removed artifacts: 
   Hover Boots
-  Phase Goggles
+  Battlefist
 
 
-...RC..
+...R.C.
 
-Unbeatable strategy for Cesar: Unstoppable Burst: 0.09
-Unbeatable strategy for Cesar: Bulwark Burst: 0.15
+Unbeatable strategy for Cesar: Bulwark Burst: 1.12
+Unbeatable strategy for Cesar: Bulwark Dash: 0.08
+
 
 Cesar:
-32% Unstoppable Burst
-33% Bulwark Burst
-34% Inevitable Burst
+8% Phalanx Drive
+51% Bulwark Suppression
+42% Bulwark Burst
 
 Runika:
-100% Channeled Shot
+26% Channeled Shot
+58% Channeled Drive
+16% Maintenance Tinker
 
 
-Cesar: Unstoppable Burst
+Cesar: Bulwark Suppression
 Runika: Channeled Shot
 
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Priorities:  -1 | 3
+Priorities:  0 | 3
 Runika is active
 Autodeflector is activated
-Cesar moves:
-
-...R.C.
-
 Runika hits
 Cesar has 2 soak
-Cesar takes 3 damage (now at 10 life)
-Cesar is stunned
-Battlefist is de-activated
+Cesar takes 2 damage (now at 8 life)
+Shield Amulet is de-activated
+Cesar moves:
+
+...R..C
+
 
 Beat 9
 -------
 
 Cesar
 -----
-life: 10
-discard 1: Unstoppable Burst
-discard 2: Fueled Grasp
-special action
+Life: 8
+Discard 1: Bulwark Suppression
+Discard 2: Unstoppable Shot
+Special action available
 Threat level: 4
 
 Runika
 ------
-life: 11
-discard 1: Channeled Shot
-discard 2: Maintenance Drive
-special action
+Life: 14
+Discard 1: Channeled Shot
+Discard 2: Impact Strike
 Active artifacts: 
-  Shield Amulet
+  Phase Goggles
   Autodeflector
 Removed artifacts: 
-  Phase Goggles
   Hover Boots
+  Battlefist
 
 
-...R.C.
+...R..C
 
-Unbeatable strategy for Cesar: Inevitable Shot: 0.65
 
 Cesar:
-2% Bulwark Shot
-22% Inevitable Shot
-41% Inevitable Drive
-35% Inevitable Dash
+26% Phalanx Strike
+3% Phalanx Drive
+23% Phalanx Grasp
+1% Phalanx Dash
+17% Fueled Drive
+30% Inevitable Drive
 
 Runika:
-23% Explosive Tinker
-9% Explosive Burst
-61% Explosive Dash
-7% Impact Tinker
+5% Maintenance Tinker
+3% Maintenance Burst
+1% Explosive Drive
+5% Explosive Burst
+68% Explosive Dash
+18% Overcharged Drive
 
 
-Cesar: Inevitable Dash
-Runika: Explosive Dash
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  9 | 9
-Clash!
-
-Cesar:
-47% Inevitable Strike
-53% Inevitable Shot
-1% Inevitable Drive
-
-Runika:
-64% Explosive Tinker
-26% Explosive Burst
-10% Explosive Grasp
-
-
-Cesar: Inevitable Strike
-Runika: Explosive Tinker
+Cesar: Phalanx Strike
+Runika: Explosive Drive
 
 Cesar gains a Threat Level (current level: 0)
-Priorities:  3 | 3
-Clash!
-
-Cesar:
-80% Inevitable Shot
-20% Inevitable Drive
-
-Runika:
-84% Explosive Strike
-16% Explosive Burst
-
-
-Cesar: Inevitable Shot
-Runika: Explosive Strike
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  2 | 3
+Priorities:  1 | 4
 Runika is active
 Runika moves Cesar:
 
-...RC..
+...R.C.
+
+Runika moves:
+
+....RC.
 
 Runika hits
-Shield Amulet is de-activated
-Runika gets +2 power
-Cesar takes 5 damage (now at 5 life)
+Cesar takes 2 damage (now at 6 life)
+Cesar moves:
+
+...CR..
+
 Cesar hits
-Runika is stunned
 Autodeflector is de-activated
-Runika takes 3 damage (now at 8 life)
+Runika takes 4 damage (now at 10 life)
+Runika is stunned
 
 Beat 10
 -------
 
 Cesar
 -----
-life: 5
-discard 1: Inevitable Shot
-discard 2: Unstoppable Burst
-special action
+Life: 6
+Discard 1: Phalanx Strike
+Discard 2: Bulwark Suppression
+Special action available
 Threat level: 0
-Opponent has -3 power this beat
 
 Runika
 ------
-life: 8
-discard 1: Explosive Strike
-discard 2: Channeled Shot
-special action
-No active artifacts
-Removed artifacts: 
+Life: 10
+Discard 1: Explosive Drive
+Discard 2: Channeled Shot
+Active artifacts: 
   Phase Goggles
+Removed artifacts: 
   Hover Boots
+  Battlefist
 
 
-...RC..
+...CR..
 
-Unbeatable strategy for Runika: Maintenance Tinker: -3.06
-Unbeatable strategy for Runika: Maintenance Drive: -0.66
-Unbeatable strategy for Runika: Maintenance Burst: -0.71
-Unbeatable strategy for Runika: Maintenance Grasp: -0.91
-Unbeatable strategy for Runika: Maintenance Dash: -0.49
-Unbeatable strategy for Runika: Overcharged Dash: -0.15
 
 Cesar:
-13% Phalanx Suppression
-6% Fueled Strike
-19% Bulwark Strike
-62% Bulwark Drive
+35% Unstoppable Drive
+36% Unstoppable Grasp
+8% Inevitable Drive
+21% Special Level 4 Protocol
 
 Runika:
-36% Maintenance Tinker
-39% Maintenance Drive
-3% Maintenance Burst
-22% Maintenance Grasp
+8% Maintenance Tinker
+5% Maintenance Burst
+87% Maintenance Dash
+0% Impact Tinker
 
 
-Cesar: Phalanx Suppression
-Runika: Maintenance Drive
+Cesar: Inevitable Drive
+Runika: Maintenance Dash
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 3
+Priorities:  4 | 8
 Runika is active
-Runika hits
-Cesar takes 0 damage (now at 5 life)
 Runika moves:
 
-.R..C..
+...C.R.
 
-Cesar misses
+Runika moves:
+
+..RC...
+
 Cesar moves:
 
-.RC....
+.CR....
 
+Cesar misses
 
 Beat 11
 -------
 
 Cesar
 -----
-life: 5
-discard 1: Phalanx Suppression
-discard 2: Inevitable Shot
-special action
+Life: 6
+Discard 1: Inevitable Drive
+Discard 2: Phalanx Strike
+Special action available
 Threat level: 1
 
 Runika
 ------
-life: 8
-discard 1: Maintenance Drive
-discard 2: Explosive Strike
-special action
-No active artifacts
-Removed artifacts: 
+Life: 10
+Discard 1: Maintenance Dash
+Discard 2: Explosive Drive
+Active artifacts: 
   Phase Goggles
-  Hover Boots
-
-
-.RC....
-
-Unbeatable strategy for Runika: Channeled Tinker: -1.19
-Unbeatable strategy for Runika: Channeled Dash: -1.04
-Unbeatable strategy for Runika: Overcharged Dash: -1.04
-
-Cesar:
-5% Unstoppable Strike
-3% Fueled Strike
-23% Fueled Burst
-55% Fueled Grasp
-14% Special Level 4 Protocol
-
-Runika:
-9% Channeled Tinker
-14% Channeled Shot
-63% Channeled Burst
-3% Impact Burst
-10% Impact Dash
-
-
-Cesar: Fueled Grasp
-Runika: Channeled Burst
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  4 | 2
-Cesar is active
-Cesar gains a Threat Level (current level: 3)
-Runika moves:
-
-R.C....
-
-Battlefist is activated
-Cesar moves:
-
-RC.....
-
-Cesar hits
-Cesar moves Runika:
-
-.CR....
-
-Battlefist is de-activated
-Runika takes 6 damage (now at 2 life)
-Runika is stunned
-No artifacts to de-activate
-
-Beat 12
--------
-
-Cesar
------
-life: 5
-discard 1: Fueled Grasp
-discard 2: Phalanx Suppression
-special action
-Threat level: 3
-
-Runika
-------
-life: 2
-discard 1: Channeled Burst
-discard 2: Maintenance Drive
-special action
-No active artifacts
 Removed artifacts: 
-  Phase Goggles
   Hover Boots
+  Battlefist
 
 
 .CR....
 
-Unbeatable strategy for Cesar: Unstoppable Strike: 2.05
-Unbeatable strategy for Cesar: Unstoppable Shot: 2.17
-Unbeatable strategy for Cesar: Unstoppable Burst: 1.89
-Unbeatable strategy for Cesar: Unstoppable Dash: 1.63
-Unbeatable strategy for Cesar: Bulwark Strike: 2.05
-Unbeatable strategy for Cesar: Bulwark Shot: 2.17
-Unbeatable strategy for Cesar: Bulwark Burst: 1.89
-Unbeatable strategy for Cesar: Bulwark Dash: 1.63
-Unbeatable strategy for Cesar: Inevitable Drive: 1.72
-Unbeatable strategy for Cesar: Inevitable Burst: 1.89
+Unbeatable strategy for Runika: Channeled Tinker: -2.34
+
 
 Cesar:
-8% Unstoppable Burst
-1% Bulwark Burst
-5% Inevitable Strike
-1% Inevitable Burst
-86% Special Level 4 Protocol
+27% Fueled Shot
+37% Fueled Grasp
+11% Bulwark Shot
+26% Special Level 4 Protocol
 
 Runika:
-44% Overcharged Tinker
-50% Special Pulse
-6% Special Artifice Avarice
+23% Channeled Tinker
+50% Channeled Strike
+10% Channeled Burst
+17% Impact Burst
 
 
 Cesar: Special Level 4 Protocol
-Runika: Special Pulse
+Runika: Channeled Strike
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Pulse:
-
-CR.....
-
+Cesar gains a Threat Level (current level: 2)
+Priorities:  11 | 4
+Cesar is active
+Shield Amulet is activated
+Cesar hits
+Shield Amulet is de-activated
+Runika takes 9 damage (now at 1 life)
+Runika is stunned
+Phase Goggles is de-activated
 
 Beat 12
 -------
 
 Cesar
 -----
-life: 5
-discard 1: Fueled Grasp
-discard 2: Phalanx Suppression
-Threat level: 4
+Life: 6
+Discard 1: Inevitable Drive
+Discard 2: Phalanx Strike
+Threat level: 2
 
 Runika
 ------
-life: 2
-discard 1: Channeled Burst
-discard 2: Maintenance Drive
+Life: 1
+Discard 1: Channeled Strike
+Discard 2: Maintenance Dash
 No active artifacts
 Removed artifacts: 
-  Phase Goggles
   Hover Boots
+  Battlefist
 
 
-CR.....
+.CR....
 
-Unbeatable strategy for Cesar: Unstoppable Strike: 1.46
-Unbeatable strategy for Cesar: Bulwark Strike: 1.46
-Unbeatable strategy for Cesar: Bulwark Shot: 7.00
-Unbeatable strategy for Cesar: Inevitable Drive: 1.39
+Unbeatable strategy for Cesar: Unstoppable Suppression: 6.00
+Unbeatable strategy for Cesar: Unstoppable Shot: 6.00
+Unbeatable strategy for Cesar: Bulwark Shot: 6.00
+
 
 Cesar:
-100% Bulwark Shot
+25% Unstoppable Suppression
+25% Unstoppable Shot
+25% Unstoppable Grasp
+25% Bulwark Shot
 
 Runika:
-6% Explosive Tinker
-7% Explosive Strike
+8% Explosive Tinker
 6% Explosive Shot
-5% Explosive Grasp
-13% Explosive Dash
-3% Impact Tinker
-6% Impact Strike
-8% Impact Shot
-6% Impact Grasp
-10% Impact Dash
-1% Overcharged Tinker
-5% Overcharged Strike
-8% Overcharged Shot
-6% Overcharged Grasp
-11% Overcharged Dash
+11% Explosive Drive
+6% Explosive Burst
+7% Explosive Grasp
+5% Impact Tinker
+6% Impact Shot
+7% Impact Drive
+9% Impact Burst
+5% Impact Grasp
+2% Overcharged Tinker
+9% Overcharged Shot
+5% Overcharged Drive
+7% Overcharged Burst
+7% Overcharged Grasp
 
 
-Cesar: Bulwark Shot
-Runika: Impact Dash
+Cesar: Unstoppable Shot
+Runika: Explosive Grasp
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  0 | 9
+Cesar gains a Threat Level (current level: 3)
+Priorities:  0 | 5
 Runika is active
-Runika moves:
-
-C.R....
-
+Runika hits
+Cesar takes 1 damage (now at 5 life)
 Cesar hits
 No artifacts to de-activate
-Runika takes 3 damage (now at 0 life)
+Runika takes 6 damage (now at 0 life)
 CESAR WINS!
-total_time: 16
+total_time: 34

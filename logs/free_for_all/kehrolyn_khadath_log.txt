@@ -33,19 +33,22 @@ Unbeatable strategy for Khadath: Teleport Drive: -0.28
 Unbeatable strategy for Khadath: Teleport Burst: -0.58
 Unbeatable strategy for Khadath: Teleport Dash: -0.44
 Unbeatable strategy for Khadath: Blight Drive: -0.22
+Unbeatable strategy for Khadath: Blight Burst: -0.28
 
 
 Kehrolyn:
 3% Whip Shot
 2% Whip Drive
-4% Exoskeletal Overload
-91% Special Pulse
+0% Exoskeletal Burst
+5% Exoskeletal Dash
+90% Special Pulse
 
 Khadath:
-42% Teleport Shot
-25% Blight Drive
-29% Blight Burst
-4% Lure Strike
+31% Teleport Shot
+3% Blight Shot
+27% Blight Drive
+33% Blight Burst
+7% Lure Strike
 
 
 Kehrolyn: Special Pulse
@@ -97,32 +100,35 @@ Khadath:
 
 
 Kehrolyn: Quicksilver Overload
-Khadath: Teleport Dash
+Khadath: Teleport Shot
 
-Priorities:  5 | 6
-Khadath is active
+Priorities:  5 | -1
+Kehrolyn is active
 Kehrolyn overloads Whip
+Kehrolyn hits
+Khadath is stunned
+Khadath takes 3 damage (now at 17 life)
+Khadath is stunned
+Kehrolyn loses 1 life (now at 19)
+Kehrolyn moves:
+
+k.K....
+
+
+Kehrolyn moves:
+
+k..K...
+
+
 Khadath moves:
 
-.Kk....
-
-
-Kehrolyn misses
-Khadath moves:
-
-.K....k
+..kK...
 
 
 Khadath moves trap:
 
-.K....k
-..t....
-
-Kehrolyn loses 1 life (now at 19)
-Kehrolyn moves:
-
-K.....k
-..t....
+..kK...
+...t...
 
 
 Beat 2
@@ -136,45 +142,56 @@ Discard 2: Mutating Grasp
 
 Khadath
 -------
-Life: 20
-Discard 1: Teleport Dash
+Life: 17
+Discard 1: Teleport Shot
 Discard 2: Blight Drive
 Special action available
 
 
-K.....k
-..t....
-
-Unbeatable strategy for Khadath: Hunter's Snare: -1.58
-Unbeatable strategy for Khadath: Hunter's Strike: -1.03
-Unbeatable strategy for Khadath: Hunter's Shot: -0.91
-Unbeatable strategy for Khadath: Hunter's Burst: -1.21
-Unbeatable strategy for Khadath: Hunter's Grasp: -0.98
-Unbeatable strategy for Khadath: Evacuation Snare: -1.29
-Unbeatable strategy for Khadath: Evacuation Shot: -0.26
-Unbeatable strategy for Khadath: Evacuation Burst: -0.37
-Unbeatable strategy for Khadath: Lure Strike: -1.05
-Unbeatable strategy for Khadath: Lure Grasp: -0.20
+..kK...
+...t...
 
 
 Kehrolyn:
-25% Whip Strike
-53% Exoskeletal Strike
-23% Exoskeletal Drive
+8% Whip Burst
+63% Whip Dash
+1% Exoskeletal Shot
+10% Exoskeletal Drive
+18% Exoskeletal Burst
 
 Khadath:
-58% Hunter's Snare
-25% Evacuation Snare
-17% Lure Strike
+11% Hunter's Snare
+11% Hunter's Burst
+15% Hunter's Dash
+33% Evacuation Burst
+30% Lure Strike
 
 
-Kehrolyn: Exoskeletal Strike
-Khadath: Hunter's Snare
+Kehrolyn: Exoskeletal Burst
+Khadath: Hunter's Burst
 
-Priorities:  5 | 1
-Kehrolyn is active
-Kehrolyn misses
+Khadath gets +2 power
+Khadath gets +2 priority
+Kehrolyn gets -3 priority
+Priorities:  0 | 3
+Khadath is active
+Khadath moves:
+
+k..K...
+...t...
+
+Kehrolyn moves:
+
+k....K.
+...t...
+
 Khadath misses
+Kehrolyn misses
+Kehrolyn moves:
+
+k.....K
+...t...
+
 
 Beat 3
 -------
@@ -182,48 +199,45 @@ Beat 3
 Kehrolyn
 --------
 Life: 19
-Discard 1: Exoskeletal Strike
+Discard 1: Exoskeletal Burst
 Discard 2: Quicksilver Overload
 
 Khadath
 -------
-Life: 20
-Discard 1: Hunter's Snare
-Discard 2: Teleport Dash
+Life: 17
+Discard 1: Hunter's Burst
+Discard 2: Teleport Shot
 Special action available
 
 
-K.....k
-..t....
+k.....K
+...t...
 
-Unbeatable strategy for Khadath: Blight Shot: -0.02
+Unbeatable strategy for Khadath: Evacuation Snare: -1.46
+Unbeatable strategy for Khadath: Evacuation Strike: -0.15
+Unbeatable strategy for Khadath: Evacuation Grasp: -0.10
+Unbeatable strategy for Khadath: Blight Snare: -0.64
+Unbeatable strategy for Khadath: Blight Strike: -0.52
+Unbeatable strategy for Khadath: Blight Grasp: -0.82
+Unbeatable strategy for Khadath: Lure Strike: -0.50
 
 
 Kehrolyn:
-49% Whip Shot
-7% Whip Drive
-11% Whip Burst
-32% Whip Grasp
+37% Whip Strike
+63% Whip Grasp
 
 Khadath:
-5% Evacuation Grasp
-24% Blight Shot
-4% Blight Burst
-67% Blight Grasp
+81% Evacuation Snare
+19% Evacuation Grasp
 
 
-Kehrolyn: Whip Burst
-Khadath: Blight Grasp
+Kehrolyn: Whip Grasp
+Khadath: Evacuation Snare
 
-Priorities:  1 | 5
-Khadath is active
-Khadath moves trap:
-
-K.....k
-...t...
-
-Khadath misses
+Priorities:  5 | 1
+Kehrolyn is active
 Kehrolyn misses
+Khadath misses
 
 Beat 4
 -------
@@ -231,57 +245,59 @@ Beat 4
 Kehrolyn
 --------
 Life: 19
-Discard 1: Whip Burst
-Discard 2: Exoskeletal Strike
+Discard 1: Whip Grasp
+Discard 2: Exoskeletal Burst
 
 Khadath
 -------
-Life: 20
-Discard 1: Blight Grasp
-Discard 2: Hunter's Snare
+Life: 17
+Discard 1: Evacuation Snare
+Discard 2: Hunter's Burst
 Special action available
 
 
-K.....k
+k.....K
 ...t...
 
-Unbeatable strategy for Khadath: Teleport Strike: -0.45
-Unbeatable strategy for Khadath: Teleport Shot: -1.85
-Unbeatable strategy for Khadath: Teleport Drive: -0.46
-Unbeatable strategy for Khadath: Teleport Burst: -0.76
-Unbeatable strategy for Khadath: Teleport Dash: -0.19
-Unbeatable strategy for Khadath: Lure Strike: -2.37
+Unbeatable strategy for Khadath: Teleport Shot: -0.59
+Unbeatable strategy for Khadath: Blight Shot: -2.97
+Unbeatable strategy for Khadath: Lure Strike: -1.89
 
 
 Kehrolyn:
-8% Bladed Shot
-24% Quicksilver Drive
-68% Quicksilver Grasp
+2% Mutating Shot
+50% Bladed Shot
+19% Quicksilver Drive
+29% Quicksilver Dash
 
 Khadath:
-8% Teleport Drive
-8% Teleport Dash
-84% Lure Strike
+16% Teleport Drive
+9% Teleport Dash
+68% Lure Strike
+7% Lure Shot
 
 
-Kehrolyn: Quicksilver Grasp
-Khadath: Lure Strike
+Kehrolyn: Bladed Shot
+Khadath: Teleport Drive
 
-Priorities:  7 | 2
+Priorities:  2 | 1
 Kehrolyn is active
 Kehrolyn misses
-Khadath hits
-Khadath moves Kehrolyn:
+Khadath moves:
 
-...K..k
+.k....K
 ...t...
 
-Kehrolyn takes 3 damage (now at 16 life)
-Kehrolyn is stunned
-Kehrolyn moves:
+Khadath misses
+Khadath moves:
 
-....K.k
+k.....K
 ...t...
+
+Khadath moves trap:
+
+k.....K
+......t
 
 
 Beat 5
@@ -289,54 +305,57 @@ Beat 5
 
 Kehrolyn
 --------
-Life: 16
-Discard 1: Quicksilver Grasp
-Discard 2: Whip Burst
+Life: 19
+Discard 1: Bladed Shot
+Discard 2: Whip Grasp
 
 Khadath
 -------
-Life: 20
-Discard 1: Lure Strike
-Discard 2: Blight Grasp
+Life: 17
+Discard 1: Teleport Drive
+Discard 2: Evacuation Snare
 Special action available
 
 
-....K.k
-...t...
+k.....K
+......t
+
+Unbeatable strategy for Kehrolyn: Quicksilver Overload: 0.46
+Unbeatable strategy for Kehrolyn: Exoskeletal Overload: 0.46
 
 
 Kehrolyn:
-40% Exoskeletal Strike
-51% Exoskeletal Shot
-9% Exoskeletal Drive
+13% Quicksilver Overload
+63% Quicksilver Strike
+13% Exoskeletal Overload
+10% Exoskeletal Strike
 
 Khadath:
-6% Hunter's Shot
-57% Hunter's Drive
-36% Teleport Drive
+70% Blight Shot
+4% Lure Shot
+26% Lure Burst
 
 
-Kehrolyn: Exoskeletal Drive
-Khadath: Hunter's Drive
+Kehrolyn: Exoskeletal Overload
+Khadath: Blight Shot
 
-Khadath gets +2 power
-Khadath gets +2 priority
-Kehrolyn gets -1 priority
-Priorities:  5 | 6
+Kehrolyn gets -3 priority
+Priorities:  0 | 2
 Khadath is active
-Khadath moves:
+Khadath moves trap:
 
-...kK..
-...t...
+k.....K
+......t
 
+Kehrolyn overloads Quicksilver
 Khadath hits
 Kehrolyn has 2 soak
-Kehrolyn takes 3 damage (now at 13 life)
-Kehrolyn is stunned
+Kehrolyn takes 1 damage (now at 18 life)
+Kehrolyn misses
 Kehrolyn moves:
 
-...k.K.
-...t...
+k....K.
+......t
 
 
 Beat 6
@@ -344,65 +363,56 @@ Beat 6
 
 Kehrolyn
 --------
-Life: 13
-Discard 1: Exoskeletal Drive
-Discard 2: Quicksilver Grasp
+Life: 18
+Discard 1: Exoskeletal Overload
+Discard 2: Bladed Shot
 
 Khadath
 -------
-Life: 20
-Discard 1: Hunter's Drive
-Discard 2: Lure Strike
+Life: 17
+Discard 1: Blight Shot
+Discard 2: Teleport Drive
 Special action available
 
 
-...k.K.
-...t...
+k....K.
+......t
 
-Unbeatable strategy for Khadath: Teleport Burst: -2.22
-Unbeatable strategy for Khadath: Teleport Dash: -2.50
-Unbeatable strategy for Khadath: Evacuation Shot: -1.08
+Unbeatable strategy for Kehrolyn: Quicksilver Grasp: 0.27
+Unbeatable strategy for Kehrolyn: Quicksilver Dash: 3.72
 
 
 Kehrolyn:
-56% Mutating Dash
-13% Whip Overload
-31% Whip Dash
+19% Whip Dash
+42% Quicksilver Drive
+7% Quicksilver Grasp
+32% Quicksilver Dash
 
 Khadath:
-36% Teleport Burst
-15% Teleport Grasp
-49% Teleport Dash
+5% Hunter's Snare
+41% Hunter's Burst
+5% Evacuation Burst
+49% Lure Strike
 
 
-Kehrolyn: Mutating Dash
-Khadath: Teleport Burst
+Kehrolyn: Quicksilver Dash
+Khadath: Hunter's Burst
 
-Priorities:  9 | -2
+Khadath gets +2 power
+Khadath gets +2 priority
+Kehrolyn gets -1 priority
+Priorities:  10 | 3
 Kehrolyn is active
-Khadath moves:
-
-.k...K.
-...t...
-
 Kehrolyn moves:
 
-.k.K...
-...t...
+k...K..
+......t
 
-Khadath hits
-Kehrolyn has 4 soak
-Kehrolyn takes 0 damage (now at 13 life)
-Kehrolyn loses 1 life (now at 12)
-Khadath moves:
+Khadath misses
+Kehrolyn moves:
 
 k..K...
-...t...
-
-Khadath moves trap:
-
-k..K...
-..t....
+......t
 
 
 Beat 7
@@ -410,172 +420,162 @@ Beat 7
 
 Kehrolyn
 --------
-Life: 12
-Discard 1: Mutating Dash
-Discard 2: Exoskeletal Drive
+Life: 18
+Discard 1: Quicksilver Dash
+Discard 2: Exoskeletal Overload
 
 Khadath
 -------
-Life: 20
-Discard 1: Teleport Burst
-Discard 2: Hunter's Drive
+Life: 17
+Discard 1: Hunter's Burst
+Discard 2: Blight Shot
 Special action available
 
 
 k..K...
-..t....
+......t
 
 
 Kehrolyn:
-17% Bladed Shot
-52% Whip Strike
-12% Whip Burst
-6% Quicksilver Shot
-12% Quicksilver Burst
+38% Bladed Shot
+13% Bladed Drive
+49% Whip Burst
 
 Khadath:
-17% Blight Snare
-25% Blight Strike
-32% Lure Strike
-10% Lure Shot
-16% Lure Dash
+40% Teleport Strike
+50% Teleport Dash
+10% Lure Grasp
 
 
-Kehrolyn: Whip Strike
-Khadath: Blight Snare
+Kehrolyn: Bladed Drive
+Khadath: Teleport Strike
 
-Kehrolyn gets -1 priority
-Priorities:  2 | 1
+Priorities:  6 | 0
 Kehrolyn is active
-Kehrolyn hits
-Kehrolyn moves Khadath:
+Kehrolyn moves:
 
-.k.K...
-..t....
+k.K....
+......t
 
-Kehrolyn moves Khadath:
+Kehrolyn misses
+Khadath misses
+Kehrolyn moves:
 
-..kK...
-..t....
+k..K...
+......t
 
-Khadath takes 4 damage (now at 16 life)
-Khadath hits
-Kehrolyn takes 3 damage (now at 9 life)
-Kehrolyn loses 1 life (now at 8)
+Khadath moves:
+
+...K..k
+......t
+
+Khadath moves trap:
+
+...K..k
+...t...
+
 
 Beat 8
 -------
 
 Kehrolyn
 --------
-Life: 8
-Discard 1: Whip Strike
-Discard 2: Mutating Dash
+Life: 18
+Discard 1: Bladed Drive
+Discard 2: Quicksilver Dash
 
 Khadath
 -------
-Life: 16
-Discard 1: Blight Snare
-Discard 2: Teleport Burst
+Life: 17
+Discard 1: Teleport Strike
+Discard 2: Hunter's Burst
 Special action available
 
 
-..kK...
-..t....
-
-Unbeatable strategy for Khadath: Hunter's Drive: -2.24
+...K..k
+...t...
 
 
 Kehrolyn:
-65% Quicksilver Grasp
-35% Exoskeletal Burst
+52% Whip Burst
+48% Exoskeletal Shot
 
 Khadath:
-76% Hunter's Drive
-24% Hunter's Grasp
+78% Evacuation Snare
+22% Blight Shot
 
 
-Kehrolyn: Quicksilver Grasp
-Khadath: Hunter's Grasp
+Kehrolyn: Whip Burst
+Khadath: Evacuation Snare
 
-Khadath gets +2 power
-Khadath gets +2 priority
-Kehrolyn gets -1 priority
-Priorities:  6 | 7
+Kehrolyn gets -3 priority
+Priorities:  -2 | 1
 Khadath is active
-Khadath hits
-Khadath moves Kehrolyn:
-
-.Kk....
-..t....
-
-Kehrolyn takes 4 damage (now at 4 life)
-Kehrolyn is stunned
 Kehrolyn moves:
 
-..kK...
-..t....
+.K....k
+...t...
 
+Khadath misses
+Kehrolyn misses
 
 Beat 9
 -------
 
 Kehrolyn
 --------
-Life: 4
-Discard 1: Quicksilver Grasp
-Discard 2: Whip Strike
+Life: 18
+Discard 1: Whip Burst
+Discard 2: Bladed Drive
 
 Khadath
 -------
-Life: 16
-Discard 1: Hunter's Grasp
-Discard 2: Blight Snare
+Life: 17
+Discard 1: Evacuation Snare
+Discard 2: Teleport Strike
 Special action available
 
 
-..kK...
-..t....
-
-Unbeatable strategy for Khadath: Teleport Burst: -2.40
+.K....k
+...t...
 
 
 Kehrolyn:
-2% Mutating Burst
-33% Bladed Dash
-65% Exoskeletal Dash
+51% Quicksilver Shot
+49% Exoskeletal Shot
 
 Khadath:
-14% Teleport Shot
-86% Teleport Burst
+58% Hunter's Shot
+42% Blight Drive
 
 
-Kehrolyn: Bladed Dash
-Khadath: Teleport Shot
+Kehrolyn: Quicksilver Shot
+Khadath: Blight Drive
 
-Kehrolyn gets -1 priority
-Priorities:  10 | -1
+Priorities:  4 | 4
+Clash!
+
+
+Kehrolyn: Quicksilver Overload
+Khadath: Blight Shot
+
+Priorities:  5 | 2
 Kehrolyn is active
-Kehrolyn moves:
-
-.Kk....
-..t....
-
-Khadath misses
-Kehrolyn moves:
-
-..kK...
-..t....
-
-Khadath moves:
-
-.k.K...
-..t....
-
+Kehrolyn overloads Exoskeletal
 Khadath moves trap:
 
-.k.K...
-...t...
+.K....k
+.t.....
+
+Kehrolyn misses
+Khadath hits
+Kehrolyn has 2 soak
+Kehrolyn takes 1 damage (now at 17 life)
+Kehrolyn is stunned
+Kehrolyn moves:
+
+..K...k
+.t.....
 
 
 Beat 10
@@ -583,114 +583,120 @@ Beat 10
 
 Kehrolyn
 --------
-Life: 4
-Discard 1: Bladed Dash
-Discard 2: Quicksilver Grasp
+Life: 17
+Discard 1: Quicksilver Overload
+Discard 2: Whip Burst
 
 Khadath
 -------
-Life: 16
-Discard 1: Teleport Shot
-Discard 2: Hunter's Grasp
+Life: 17
+Discard 1: Blight Shot
+Discard 2: Evacuation Snare
 Special action available
 
 
-.k.K...
-...t...
+..K...k
+.t.....
 
 
 Kehrolyn:
-9% Whip Drive
-29% Exoskeletal Shot
-36% Exoskeletal Drive
-26% Exoskeletal Burst
+13% Bladed Shot
+87% Exoskeletal Shot
 
 Khadath:
-9% Evacuation Snare
-11% Blight Strike
-18% Blight Burst
-62% Blight Dash
+50% Teleport Strike
+50% Lure Drive
 
 
 Kehrolyn: Exoskeletal Shot
-Khadath: Blight Burst
+Khadath: Lure Drive
 
-Kehrolyn gets -3 priority
-Priorities:  -1 | 1
-Khadath is active
-Khadath moves trap:
+Kehrolyn gets -1 priority
+Priorities:  3 | 3
+Clash!
 
-.k.K...
-....t..
 
-Khadath moves:
+Kehrolyn: Exoskeletal Drive
+Khadath: Lure Strike
 
-k..K...
-....t..
+Kehrolyn gets -1 priority
+Priorities:  5 | 2
+Kehrolyn is active
+Kehrolyn moves:
 
+....K.k
+.t.....
+
+Kehrolyn misses
 Khadath hits
 Kehrolyn has 2 soak
-Kehrolyn takes 1 damage (now at 3 life)
-Kehrolyn hits
-Khadath takes 5 damage (now at 11 life)
-Khadath is stunned
+Kehrolyn takes 1 damage (now at 16 life)
+Kehrolyn is stunned
+Kehrolyn moves:
+
+.....Kk
+.t.....
+
 
 Beat 11
 -------
 
 Kehrolyn
 --------
-Life: 3
-Discard 1: Exoskeletal Shot
-Discard 2: Bladed Dash
+Life: 16
+Discard 1: Exoskeletal Drive
+Discard 2: Quicksilver Overload
 
 Khadath
 -------
-Life: 11
-Discard 1: Blight Burst
-Discard 2: Teleport Shot
+Life: 17
+Discard 1: Lure Strike
+Discard 2: Blight Shot
 Special action available
 
 
-k..K...
-....t..
+.....Kk
+.t.....
 
-Unbeatable strategy for Kehrolyn: Mutating Overload: 0.79
-Unbeatable strategy for Kehrolyn: Quicksilver Overload: 0.27
+Unbeatable strategy for Khadath: Hunter's Dash: -1.06
+Unbeatable strategy for Khadath: Teleport Dash: -4.31
+Unbeatable strategy for Khadath: Evacuation Dash: -0.31
 
 
 Kehrolyn:
-97% Mutating Overload
-3% Quicksilver Drive
+91% Bladed Burst
+9% Whip Strike
 
 Khadath:
-64% Hunter's Snare
-36% Hunter's Drive
+5% Teleport Drive
+95% Teleport Dash
 
 
-Kehrolyn: Mutating Overload
-Khadath: Hunter's Drive
+Kehrolyn: Bladed Burst
+Khadath: Teleport Dash
 
-Khadath gets +2 power
-Khadath gets +2 priority
-Kehrolyn gets -1 priority
-Priorities:  2 | 6
+Priorities:  1 | 6
 Khadath is active
-Kehrolyn overloads Quicksilver
+Kehrolyn moves:
+
+...K..k
+.t.....
+
 Khadath moves:
 
 ..kK...
-....t..
+.t.....
 
-Khadath hits
-Kehrolyn has 4 soak
-Kehrolyn takes 1 damage (now at 2 life)
-Kehrolyn is stunned
-Kehrolyn loses 1 life (now at 1)
-Kehrolyn moves:
+Kehrolyn misses
+Khadath moves:
 
-.Kk....
-....t..
+...Kk..
+.t.....
+
+Khadath moves trap:
+
+...Kk..
+...t...
 
 
 Beat 12
@@ -698,82 +704,68 @@ Beat 12
 
 Kehrolyn
 --------
-Life: 1
-Discard 1: Mutating Overload
-Discard 2: Exoskeletal Shot
+Life: 16
+Discard 1: Bladed Burst
+Discard 2: Exoskeletal Drive
 
 Khadath
 -------
-Life: 11
-Discard 1: Hunter's Drive
-Discard 2: Blight Burst
+Life: 17
+Discard 1: Teleport Dash
+Discard 2: Lure Strike
 Special action available
 
 
-.Kk....
-....t..
+...Kk..
+...t...
 
-Unbeatable strategy for Khadath: Teleport Dash: -0.16
-Unbeatable strategy for Khadath: Evacuation Dash: -0.45
+Unbeatable strategy for Kehrolyn: Quicksilver Dash: 0.74
 
 
 Kehrolyn:
-4% Bladed Burst
-33% Whip Grasp
-11% Quicksilver Drive
-16% Quicksilver Burst
-18% Quicksilver Grasp
-16% Quicksilver Dash
+16% Mutating Shot
+3% Whip Shot
+10% Quicksilver Shot
+70% Quicksilver Dash
 
 Khadath:
-4% Teleport Shot
-60% Teleport Dash
-6% Evacuation Strike
-0% Evacuation Shot
-17% Evacuation Grasp
-12% Lure Strike
+3% Hunter's Snare
+4% Evacuation Shot
+62% Evacuation Burst
+31% Evacuation Grasp
 
 
-Kehrolyn: Quicksilver Drive
-Khadath: Teleport Dash
+Kehrolyn: Quicksilver Dash
+Khadath: Evacuation Burst
 
-Priorities:  6 | 6
-Clash!
-
-
-Kehrolyn: Quicksilver Burst
-Khadath: Teleport Strike
-
-Priorities:  3 | 0
+Kehrolyn gets -3 priority
+Priorities:  8 | 1
 Kehrolyn is active
-Kehrolyn moves:
+Khadath moves trap:
 
-K.k....
-....t..
-
-Kehrolyn hits
-Khadath takes 3 damage (now at 8 life)
-Khadath misses
-Kehrolyn loses 1 life (now at 1)
-Kehrolyn moves:
-
-.Kk....
-....t..
-
-Kehrolyn moves:
-
-..kK...
+...Kk..
 ....t..
 
 Khadath moves:
 
-k..K...
+...K.k.
 ....t..
 
-Khadath moves trap:
+Khadath moves:
 
-k..K...
-...t...
+...K..k
+....t..
+
+Kehrolyn moves:
+
+.K....k
+....t..
+
+Khadath misses
+Kehrolyn moves:
+
+..K...k
+....t..
 
 
 Beat 13
@@ -781,163 +773,138 @@ Beat 13
 
 Kehrolyn
 --------
-Life: 1
-Discard 1: Quicksilver Burst
-Discard 2: Mutating Overload
+Life: 16
+Discard 1: Quicksilver Dash
+Discard 2: Bladed Burst
 
 Khadath
 -------
-Life: 8
-Discard 1: Teleport Strike
-Discard 2: Hunter's Drive
+Life: 17
+Discard 1: Evacuation Burst
+Discard 2: Teleport Dash
 Special action available
 
 
-k..K...
+..K...k
+....t..
+
+Unbeatable strategy for Khadath: Blight Drive: -0.36
+
+
+Kehrolyn:
+22% Mutating Shot
+78% Whip Overload
+
+Khadath:
+9% Blight Shot
+91% Blight Drive
+
+
+Kehrolyn: Mutating Shot
+Khadath: Blight Drive
+
+Priorities:  4 | 4
+Clash!
+
+
+Kehrolyn: Mutating Strike
+Khadath: Blight Grasp
+
+Priorities:  5 | 5
+Clash!
+
+
+Kehrolyn: Mutating Overload
+Khadath: Blight Strike
+
+Priorities:  5 | 3
+Kehrolyn is active
+Kehrolyn overloads Whip
+Khadath moves trap:
+
+..K...k
+...t...
+
+Kehrolyn misses
+Khadath misses
+Kehrolyn loses 1 life (now at 15)
+Kehrolyn moves:
+
+.K....k
+...t...
+
+Kehrolyn moves:
+
+K.....k
 ...t...
 
 
-Kehrolyn:
-30% Whip Drive
-2% Whip Dash
-33% Exoskeletal Strike
-22% Exoskeletal Shot
-14% Exoskeletal Dash
-
-Khadath:
-14% Blight Snare
-25% Blight Shot
-9% Blight Burst
-51% Blight Grasp
-1% Lure Grasp
-
-
-Kehrolyn: Whip Drive
-Khadath: Blight Shot
-
-Kehrolyn gets -3 priority
-Priorities:  3 | 2
-Kehrolyn is active
-Khadath moves trap:
-
-k..K...
-.t.....
-
-Kehrolyn moves:
-
-k.K....
-.t.....
-
-Kehrolyn hits
-Kehrolyn moves Khadath:
-
-.kK....
-.t.....
-
-Khadath takes 3 damage (now at 5 life)
-Khadath is stunned
-Kehrolyn moves:
-
-.k.K...
-.t.....
-
-
 Beat 14
 -------
 
 Kehrolyn
 --------
-Life: 1
-Discard 1: Whip Drive
-Discard 2: Quicksilver Burst
+Life: 15
+Discard 1: Mutating Overload
+Discard 2: Quicksilver Dash
 
 Khadath
 -------
-Life: 5
-Discard 1: Blight Shot
-Discard 2: Teleport Strike
+Life: 17
+Discard 1: Blight Strike
+Discard 2: Evacuation Burst
 Special action available
 
 
-.k.K...
-.t.....
+K.....k
+...t...
+
+Unbeatable strategy for Khadath: Hunter's Shot: -0.48
+Unbeatable strategy for Khadath: Teleport Snare: -0.21
+Unbeatable strategy for Khadath: Teleport Shot: -3.04
+Unbeatable strategy for Khadath: Teleport Drive: -3.17
+Unbeatable strategy for Khadath: Teleport Grasp: -2.91
+Unbeatable strategy for Khadath: Teleport Dash: -2.57
 
 
 Kehrolyn:
-27% Mutating Overload
-70% Mutating Grasp
-3% Bladed Grasp
+22% Whip Drive
+53% Exoskeletal Drive
+25% Exoskeletal Burst
 
 Khadath:
-23% Hunter's Drive
-16% Hunter's Grasp
-61% Special Pulse
+32% Teleport Shot
+61% Teleport Drive
+7% Teleport Grasp
 
 
-Kehrolyn: Mutating Grasp
-Khadath: Special Pulse
+Kehrolyn: Exoskeletal Drive
+Khadath: Teleport Drive
 
-Pulse:
-
-.K....k
-.t.....
-
-
-Beat 14
--------
-
-Kehrolyn
---------
-Life: 1
-Discard 1: Mutating Grasp
-Discard 2: Whip Drive
-
-Khadath
--------
-Life: 5
-Discard 1: Blight Shot
-Discard 2: Teleport Strike
-
-
-.K....k
-.t.....
-
-
-Kehrolyn:
-35% Quicksilver Overload
-32% Quicksilver Dash
-1% Exoskeletal Shot
-32% Exoskeletal Dash
-
-Khadath:
-27% Hunter's Snare
-32% Hunter's Drive
-6% Evacuation Snare
-34% Lure Drive
-
-
-Kehrolyn: Quicksilver Dash
-Khadath: Evacuation Snare
-
-Kehrolyn gets -3 priority
-Priorities:  8 | 1
+Priorities:  4 | 1
 Kehrolyn is active
 Kehrolyn moves:
 
-...K..k
-.t.....
+..K...k
+...t...
+
+Kehrolyn misses
+Khadath moves:
+
+..K.k..
+...t...
 
 Khadath misses
-Kehrolyn loses 1 life (now at 1)
-Kehrolyn moves:
+Kehrolyn loses 1 life (now at 14)
+Khadath moves:
 
-....K.k
-.t.....
+..K...k
+...t...
 
-Kehrolyn moves:
+Khadath moves trap:
 
-.....Kk
-.t.....
+..K...k
+..t....
 
 
 Beat 15
@@ -945,63 +912,62 @@ Beat 15
 
 Kehrolyn
 --------
-Life: 1
-Discard 1: Quicksilver Dash
-Discard 2: Mutating Grasp
+Life: 14
+Discard 1: Exoskeletal Drive
+Discard 2: Mutating Overload
 
 Khadath
 -------
-Life: 5
-Discard 1: Evacuation Snare
-Discard 2: Blight Shot
+Life: 17
+Discard 1: Teleport Drive
+Discard 2: Blight Strike
+Special action available
 
 
-.....Kk
-.t.....
+..K...k
+..t....
 
-Unbeatable strategy for Khadath: Hunter's Dash: -6.00
-Unbeatable strategy for Khadath: Teleport Dash: -6.00
-Unbeatable strategy for Khadath: Lure Dash: -6.00
+Unbeatable strategy for Khadath: Hunter's Snare: -19.00
+Unbeatable strategy for Khadath: Hunter's Shot: -19.00
+Unbeatable strategy for Khadath: Evacuation Snare: -19.00
 
 
 Kehrolyn:
-0% Bladed Overload
-0% Bladed Strike
-1% Bladed Shot
-0% Bladed Drive
-1% Bladed Burst
-0% Whip Overload
-1% Whip Strike
-22% Whip Shot
-3% Whip Drive
-22% Whip Burst
-0% Exoskeletal Overload
-2% Exoskeletal Strike
-22% Exoskeletal Shot
-3% Exoskeletal Drive
-22% Exoskeletal Burst
+4% Bladed Strike
+5% Bladed Shot
+7% Bladed Burst
+8% Bladed Grasp
+7% Bladed Dash
+6% Whip Strike
+5% Whip Shot
+6% Whip Burst
+8% Whip Grasp
+8% Whip Dash
+8% Quicksilver Strike
+5% Quicksilver Shot
+7% Quicksilver Burst
+8% Quicksilver Grasp
+7% Quicksilver Dash
 
 Khadath:
-50% Hunter's Dash
-50% Lure Dash
+34% Hunter's Snare
+34% Hunter's Shot
+33% Evacuation Snare
 
 
-Kehrolyn: Whip Shot
-Khadath: Lure Dash
+Kehrolyn: Quicksilver Burst
+Khadath: Evacuation Snare
 
-Priorities:  4 | 8
+Kehrolyn gets -3 priority
+Priorities:  0 | 1
 Khadath is active
-Khadath moves:
-
-..k..K.
-.t.....
-
-Kehrolyn misses
 Kehrolyn moves:
 
-..k.K..
-.t.....
+K.....k
+..t....
 
+Khadath misses
+Kehrolyn misses
 Game goes to time
 KHADATH WINS!
-total_time: 61
+total_time: 51

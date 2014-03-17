@@ -11,17 +11,17 @@ Beat 1
 
 Aria
 ----
-life: 20
-discard 1: Laser Grasp
-discard 2: Ionic Dash
-special action
+Life: 20
+Discard 1: Laser Grasp
+Discard 2: Ionic Dash
+Special action available
 
 Lymn
 ----
-life: 20
-discard 1: Maddening Burst
-discard 2: Chimeric Dash
-special action
+Life: 20
+Discard 1: Maddening Burst
+Discard 2: Chimeric Dash
+Special action available
 
 
 .A...L.
@@ -29,44 +29,44 @@ special action
 .m.....
 .......
 
+
 Aria:
-73% Photovoltaic Drive
-18% Photovoltaic Burst
-9% Dimensional Reconfiguration
+41% Photovoltaic Drive
+27% Photovoltaic Burst
+31% Dimensional Reconfiguration
 
 Lymn:
-48% Surreal Drive
-6% Reverie Strike
-46% Fathomless Shot
+7% Surreal Visions
+39% Surreal Drive
+54% Fathomless Shot
 
 
-Aria: Photovoltaic Burst
+Aria: Dimensional Reconfiguration
 Lymn: Surreal Drive
 
-Priorities:  2 | 5
-Lymn is active
-Disparity is 3
+Priorities:  7 | 5
+Aria is active
+Disparity is 2
+Aria moves:
+
+.....LA
+.......
+.m.....
+.......
+
+Aria adds her Dampening droid:
+
+.....LA
+....d..
+.m.....
+.......
+
+Aria misses
+Lymn misses
 Aria moves:
 
 A....L.
-.......
-.m.....
-.......
-
-Lymn moves:
-
-A..L...
-.......
-.m.....
-.......
-
-Lymn hits
-Aria takes 3 damage (now at 17 life)
-Aria is stunned
-Lymn moves:
-
-A.L....
-.......
+....d..
 .m.....
 .......
 
@@ -76,761 +76,696 @@ Beat 2
 
 Aria
 ----
-life: 17
-discard 1: Photovoltaic Burst
-discard 2: Laser Grasp
-special action
+Life: 20
+Discard 1: Dimensional Reconfiguration
+Discard 2: Laser Grasp
+Special action available
 
 Lymn
 ----
-life: 20
-discard 1: Surreal Drive
-discard 2: Maddening Burst
-special action
+Life: 20
+Discard 1: Surreal Drive
+Discard 2: Maddening Burst
+Special action available
 
 
-A.L....
-.......
+A....L.
+....d..
 .m.....
 .......
 
-Aria:
-31% Ionic Reconfiguration
-46% Ionic Strike
-21% Ionic Shot
-1% Dimensional Reconfiguration
-
-Lymn:
-32% Chimeric Visions
-20% Chimeric Strike
-26% Chimeric Grasp
-21% Fathomless Shot
-
-
-Aria: Ionic Strike
-Lymn: Chimeric Strike
-
-Priorities:  4 | 4
-Clash!
 
 Aria:
-65% Ionic Shot
-35% Ionic Drive
+78% Photovoltaic Shot
+17% Photovoltaic Drive
+5% Photovoltaic Burst
 
 Lymn:
-43% Chimeric Shot
-57% Chimeric Grasp
+25% Chimeric Visions
+13% Chimeric Shot
+62% Fathomless Shot
 
 
-Aria: Ionic Shot
-Lymn: Chimeric Shot
+Aria: Photovoltaic Shot
+Lymn: Fathomless Shot
 
-Priorities:  3 | 3
-Clash!
-
-Aria:
-23% Ionic Drive
-77% Ionic Dash
-
-Lymn:
-11% Chimeric Visions
-89% Chimeric Grasp
-
-
-Aria: Ionic Dash
-Lymn: Chimeric Grasp
-
-Priorities:  10 | 6
+Priorities:  3 | 0
 Aria is active
-Aria moves Lymn:
+Disparity is 3
+Aria hits
+Aria removes her Magnetron droid:
 
-AL.....
+A....L.
+....d..
 .......
-.m.....
-.......
-
-Disparity is 4
-Aria moves:
-
-.L..A..
-.......
-.m.....
 .......
 
-Lymn moves:
+Aria gets +1 power
+Lymn takes 3 damage (now at 17 life)
+Aria adds her Magnetron droid:
 
-..L.A..
-.......
-.m.....
+A....L.
+....d..
+m......
 .......
 
-Lymn misses
+Lymn hits
+Aria takes 3 damage (now at 17 life)
+Aria is stunned
 
 Beat 3
 -------
 
 Aria
 ----
-life: 17
-discard 1: Ionic Dash
-discard 2: Photovoltaic Burst
-special action
+Life: 17
+Discard 1: Photovoltaic Shot
+Discard 2: Dimensional Reconfiguration
+Special action available
 
 Lymn
 ----
-life: 20
-discard 1: Chimeric Grasp
-discard 2: Surreal Drive
-special action
+Life: 17
+Discard 1: Fathomless Shot
+Discard 2: Surreal Drive
+Special action available
 
 
-..L.A..
+A....L.
+....d..
+m......
 .......
-.m.....
-.......
+
+Unbeatable strategy for Lymn: Maddening Burst: -0.72
+Unbeatable strategy for Lymn: Maddening Dash: -0.95
+Unbeatable strategy for Lymn: Chimeric Dash: -0.59
+
 
 Aria:
-24% Laser Strike
-24% Laser Shot
-9% Laser Drive
-44% Catalyst Reconfiguration
+31% Ionic Drive
+33% Ionic Grasp
+7% Laser Burst
+29% Laser Grasp
 
 Lymn:
-3% Reverie Strike
-45% Fathomless Visions
-40% Fathomless Shot
-12% Fathomless Burst
+10% Maddening Visions
+12% Maddening Burst
+68% Maddening Dash
+11% Chimeric Visions
 
 
-Aria: Laser Shot
-Lymn: Fathomless Visions
+Aria: Ionic Grasp
+Lymn: Maddening Dash
 
-Priorities:  2 | 0
-Aria is active
-Disparity is 2
-Aria hits
-Lymn takes 3 damage (now at 17 life)
-Lymn is stunned
+Priorities:  6 | 9
+Lymn is active
+Disparity is 3
+Lymn moves:
+
+A.....L
+....d..
+m......
+.......
+
+Aria misses
 
 Beat 4
 -------
 
 Aria
 ----
-life: 17
-discard 1: Laser Shot
-discard 2: Ionic Dash
-special action
+Life: 17
+Discard 1: Ionic Grasp
+Discard 2: Photovoltaic Shot
+Special action available
 
 Lymn
 ----
-life: 17
-discard 1: Fathomless Visions
-discard 2: Chimeric Grasp
-special action
+Life: 17
+Discard 1: Maddening Dash
+Discard 2: Fathomless Shot
+Special action available
 
 
-..L.A..
+A.....L
+....d..
+m......
 .......
-.m.....
-.......
 
-Unbeatable strategy for Aria: Photovoltaic Drive: 0.31
 
 Aria:
-61% Photovoltaic Reconfiguration
-21% Photovoltaic Strike
-16% Photovoltaic Drive
-2% Photovoltaic Burst
+35% Laser Reconfiguration
+33% Catalyst Reconfiguration
+33% Dimensional Reconfiguration
 
 Lymn:
-31% Surreal Strike
-55% Surreal Shot
-1% Surreal Drive
-12% Surreal Burst
+25% Chimeric Visions
+45% Surreal Visions
+30% Reverie Drive
 
 
-Aria: Photovoltaic Drive
-Lymn: Surreal Shot
+Aria: Laser Reconfiguration
+Lymn: Reverie Drive
 
-Priorities:  5 | 2
-Aria is active
-Disparity is 3
-Aria moves:
+Priorities:  3 | 3
+Lymn is active
+Disparity is 0
+Lymn moves:
 
-..LA...
-.......
-.m.....
-.......
-
-Aria hits
-Aria removes her Magnetron droid:
-
-..LA...
-.......
-.......
+A...L..
+....d..
+m......
 .......
 
-Aria gets +1 power
-Lymn takes 3 damage (now at 14 life)
-Lymn is stunned
-Aria adds her Turret droid:
-
-..LA...
-.......
-.......
-...t...
-
-Lymn loses 1 life (now at 13)
+Lymn hits
+Aria takes 5 damage (now at 12 life)
+Aria is stunned
 
 Beat 5
 -------
 
 Aria
 ----
-life: 17
-discard 1: Photovoltaic Drive
-discard 2: Laser Shot
-special action
+Life: 12
+Discard 1: Laser Reconfiguration
+Discard 2: Ionic Grasp
+Special action available
 
 Lymn
 ----
-life: 13
-discard 1: Surreal Shot
-discard 2: Fathomless Visions
-special action
+Life: 17
+Discard 1: Reverie Drive
+Discard 2: Maddening Dash
+Special action available
 
 
-..LA...
+A...L..
+....d..
+m......
 .......
-.......
-...t...
+
 
 Aria:
-16% Ionic Strike
-12% Ionic Burst
-72% Dimensional Reconfiguration
+48% Photovoltaic Shot
+45% Photovoltaic Drive
+8% Photovoltaic Burst
 
 Lymn:
-38% Maddening Drive
-14% Maddening Burst
-48% Chimeric Grasp
+37% Surreal Shot
+18% Surreal Burst
+45% Fathomless Shot
 
 
-Aria: Dimensional Reconfiguration
-Lymn: Chimeric Grasp
+Aria: Photovoltaic Drive
+Lymn: Fathomless Shot
 
-Priorities:  7 | 7
-Clash!
-
-Aria:
-100% Dimensional Dash
-
-Lymn:
-100% Chimeric Drive
-
-
-Aria: Dimensional Dash
-Lymn: Chimeric Drive
-
-Priorities:  13 | 6
+Priorities:  5 | 0
 Aria is active
-Disparity is 7
+Disparity is 5
 Aria moves:
 
-.AL....
+.A..L..
+....d..
+m......
 .......
-.......
-...t...
 
-Lymn moves:
+Aria hits
+Aria removes her Magnetron droid:
 
-LA.....
+.A..L..
+....d..
 .......
 .......
-...t...
 
-Lymn moves:
+Aria gets +1 power
+Lymn takes 3 damage (now at 14 life)
+Aria adds her Magnetron droid:
 
-.AL....
+.A..L..
+....d..
+.m.....
 .......
-.......
-...t...
 
-Lymn misses
-Aria moves:
-
-..LA...
-.......
-.......
-...t...
-
-Lymn loses 1 life (now at 12)
+Lymn hits
+Aria takes 3 damage (now at 9 life)
+Aria is stunned
 
 Beat 6
 -------
 
 Aria
 ----
-life: 17
-discard 1: Dimensional Dash
-discard 2: Photovoltaic Drive
-special action
+Life: 9
+Discard 1: Photovoltaic Drive
+Discard 2: Laser Reconfiguration
+Special action available
 
 Lymn
 ----
-life: 12
-discard 1: Chimeric Drive
-discard 2: Surreal Shot
-special action
+Life: 14
+Discard 1: Fathomless Shot
+Discard 2: Reverie Drive
+Special action available
 
 
-..LA...
+.A..L..
+....d..
+.m.....
 .......
-.......
-...t...
+
+Unbeatable strategy for Lymn: Surreal Dash: -0.06
+
 
 Aria:
-49% Ionic Shot
-8% Ionic Grasp
-2% Laser Burst
-41% Catalyst Reconfiguration
+63% Ionic Shot
+8% Ionic Dash
+7% Catalyst Grasp
+22% Dimensional Shot
 
 Lymn:
-22% Maddening Visions
-14% Maddening Burst
-60% Maddening Grasp
-2% Maddening Dash
-2% Fathomless Dash
+1% Maddening Visions
+29% Maddening Dash
+13% Chimeric Dash
+57% Surreal Dash
 
 
-Aria: Ionic Shot
-Lymn: Maddening Grasp
+Aria: Catalyst Grasp
+Lymn: Surreal Dash
 
-Priorities:  3 | 5
-Lymn is active
-Disparity is 2
-Lymn hits
-Lymn moves Aria:
+Aria gets +4 priority
+Priorities:  10 | 10
+Clash!
 
-..L.A..
+
+Aria: Catalyst Shot
+Lymn: Surreal Burst
+
+Aria gets +4 priority
+Priorities:  7 | 2
+Aria is active
+Disparity is 5
+Lymn moves:
+
+.A....L
+....d..
+.m.....
 .......
-.......
-...t...
 
-Aria takes 2 damage (now at 15 life)
 Aria hits
-Lymn takes 2 damage (now at 10 life)
+Lymn takes 2 damage (now at 12 life)
 Lymn is stunned
-Lymn loses 1 life (now at 9)
 
 Beat 7
 -------
 
 Aria
 ----
-life: 15
-discard 1: Ionic Shot
-discard 2: Dimensional Dash
-special action
+Life: 9
+Discard 1: Catalyst Shot
+Discard 2: Photovoltaic Drive
+Special action available
 
 Lymn
 ----
-life: 9
-discard 1: Maddening Grasp
-discard 2: Chimeric Drive
-special action
+Life: 12
+Discard 1: Surreal Burst
+Discard 2: Fathomless Shot
+Special action available
 
 
-..L.A..
+.A....L
+....d..
+.m.....
 .......
-.......
-...t...
+
 
 Aria:
-67% Photovoltaic Reconfiguration
-1% Photovoltaic Strike
-32% Photovoltaic Drive
+48% Ionic Reconfiguration
+52% Dimensional Reconfiguration
 
 Lymn:
-37% Surreal Strike
-32% Reverie Visions
-30% Fathomless Burst
+71% Maddening Visions
+29% Maddening Drive
 
 
-Aria: Photovoltaic Reconfiguration
-Lymn: Fathomless Burst
+Aria: Dimensional Reconfiguration
+Lymn: Maddening Drive
 
-Priorities:  4 | -1
+Priorities:  7 | 4
 Aria is active
-Disparity is 5
-Lymn moves:
-
-.L..A..
-.......
-.......
-...t...
-
+Disparity is 3
 Aria moves:
 
-AL.....
+A.....L
+....d..
+.m.....
 .......
-.......
-...t...
 
-Aria adds her Dampening droid:
+Aria adds her Turret droid:
 
-AL.....
-..d....
-.......
-...t...
+A.....L
+....d..
+.m.....
+.....t.
 
 Aria misses
-Aria adds her Magnetron droid:
+Lymn moves:
 
-AL.....
-..d....
-m......
-...t...
+A...L..
+....d..
+.m.....
+.....t.
 
 Lymn misses
+Aria moves:
+
+...AL..
+....d..
+.m.....
+.....t.
+
+Lymn loses 1 life (now at 11)
 
 Beat 8
 -------
 
 Aria
 ----
-life: 15
-discard 1: Photovoltaic Reconfiguration
-discard 2: Ionic Shot
-special action
+Life: 9
+Discard 1: Dimensional Reconfiguration
+Discard 2: Catalyst Shot
+Special action available
 
 Lymn
 ----
-life: 9
-discard 1: Fathomless Burst
-discard 2: Maddening Grasp
-special action
+Life: 11
+Discard 1: Maddening Drive
+Discard 2: Surreal Burst
+Special action available
 
 
-AL.....
-..d....
-m......
-...t...
+...AL..
+....d..
+.m.....
+.....t.
+
 
 Aria:
-72% Laser Strike
-28% Laser Drive
+25% Photovoltaic Strike
+55% Ionic Drive
+10% Ionic Burst
+10% Ionic Grasp
 
 Lymn:
-42% Chimeric Shot
-58% Chimeric Drive
+7% Chimeric Visions
+25% Chimeric Grasp
+21% Chimeric Dash
+47% Fathomless Dash
 
 
-Aria: Laser Strike
-Lymn: Chimeric Shot
+Aria: Ionic Drive
+Lymn: Fathomless Dash
 
-Priorities:  3 | 3
-Clash!
+Priorities:  5 | 7
+Lymn is active
+Disparity is 2
+Aria moves Lymn:
 
-Aria:
-98% Laser Grasp
-2% Laser Dash
+..LA...
+....d..
+.m.....
+.....t.
 
-Lymn:
-41% Chimeric Strike
-59% Chimeric Drive
+Lymn moves:
 
+...AL..
+....d..
+.m.....
+.....t.
 
-Aria: Laser Grasp
-Lymn: Chimeric Drive
-
-Priorities:  5 | 5
-Clash!
-
-Aria:
-53% Laser Drive
-47% Laser Dash
-
-Lymn:
-47% Chimeric Visions
-53% Chimeric Strike
-
-
-Aria: Laser Dash
-Lymn: Chimeric Visions
-
-Priorities:  9 | 4
-Aria is active
-Disparity is 5
 Aria moves:
 
-.LA....
-..d....
-m......
-...t...
+....LA.
+....d..
+.m.....
+.....t.
 
-Lymn moves:
-
-..AL...
-..d....
-m......
-...t...
-
-Lymn misses
-Lymn moves:
-
-..A..L.
-..d....
-m......
-...t...
-
+Aria misses
+Lymn loses 1 life (now at 10)
 
 Beat 9
 -------
 
 Aria
 ----
-life: 15
-discard 1: Laser Dash
-discard 2: Photovoltaic Reconfiguration
-special action
+Life: 9
+Discard 1: Ionic Drive
+Discard 2: Dimensional Reconfiguration
+Special action available
 
 Lymn
 ----
-life: 9
-discard 1: Chimeric Visions
-discard 2: Fathomless Burst
-special action
+Life: 10
+Discard 1: Fathomless Dash
+Discard 2: Maddening Drive
+Special action available
 
 
-..A..L.
-..d....
-m......
-...t...
+....LA.
+....d..
+.m.....
+.....t.
+
 
 Aria:
-7% Dimensional Strike
-80% Dimensional Burst
-13% Dimensional Grasp
+37% Photovoltaic Strike
+10% Photovoltaic Grasp
+52% Laser Strike
 
 Lymn:
-7% Maddening Dash
-19% Surreal Drive
-75% Surreal Dash
+18% Chimeric Strike
+51% Chimeric Shot
+31% Chimeric Grasp
 
 
-Aria: Dimensional Burst
-Lymn: Surreal Dash
+Aria: Photovoltaic Strike
+Lymn: Chimeric Shot
 
-Aria gets +2 power
-Priorities:  5 | 10
-Lymn is active
-Disparity is 5
+Priorities:  4 | 4
+Clash!
+
+
+Aria: Photovoltaic Dash
+Lymn: Chimeric Grasp
+
+Priorities:  10 | 7
+Aria is active
+Disparity is 3
 Aria moves:
 
-.A...L.
-..d....
-m......
-...t...
+....L.A
+....d..
+.m.....
+.....t.
 
 Lymn moves:
 
-.AL....
-..d....
-m......
-...t...
+.....LA
+....d..
+.m.....
+.....t.
 
-Aria misses
-Aria moves:
+Lymn hits
+Lymn moves Aria:
 
-A.L....
-..d....
-m......
-...t...
+....AL.
+....d..
+.m.....
+.....t.
 
-Lymn loses 1 life (now at 8)
+Aria takes 1 damage (now at 8 life)
+Aria is stunned
+Lymn loses 1 life (now at 9)
 
 Beat 10
 -------
 
 Aria
 ----
-life: 15
-discard 1: Dimensional Burst
-discard 2: Laser Dash
-special action
+Life: 8
+Discard 1: Photovoltaic Dash
+Discard 2: Ionic Drive
+Special action available
 
 Lymn
 ----
-life: 8
-discard 1: Surreal Dash
-discard 2: Chimeric Visions
-special action
+Life: 9
+Discard 1: Chimeric Grasp
+Discard 2: Fathomless Dash
+Special action available
 
 
-A.L....
-..d....
-m......
-...t...
+....AL.
+....d..
+.m.....
+.....t.
+
 
 Aria:
-39% Photovoltaic Shot
-40% Photovoltaic Drive
-1% Photovoltaic Grasp
-20% Ionic Shot
+32% Laser Strike
+23% Laser Grasp
+22% Catalyst Reconfiguration
+1% Catalyst Strike
+22% Dimensional Reconfiguration
 
 Lymn:
-21% Reverie Grasp
-38% Fathomless Strike
-22% Fathomless Shot
-19% Fathomless Burst
+22% Maddening Shot
+39% Maddening Drive
+15% Surreal Visions
+21% Surreal Drive
+2% Reverie Drive
 
 
-Aria: Ionic Shot
-Lymn: Fathomless Strike
+Aria: Laser Strike
+Lymn: Maddening Drive
 
-Priorities:  3 | 1
-Aria is active
-Aria moves Lymn:
+Priorities:  3 | 4
+Lymn is active
+Disparity is 1
+Lymn moves:
 
-AL.....
-..d....
-m......
-...t...
+...LA..
+....d..
+.m.....
+.....t.
 
-Disparity is 3
-Aria hits
-Lymn takes 3 damage (now at 5 life)
 Lymn hits
-Aria takes 4 damage (now at 11 life)
-Aria is stunned
+Aria takes 0 damage (now at 8 life)
+Aria hits
+Lymn takes 1 damage (now at 8 life)
+Lymn is stunned
 
 Beat 11
 -------
 
 Aria
 ----
-life: 11
-discard 1: Ionic Shot
-discard 2: Dimensional Burst
-special action
+Life: 8
+Discard 1: Laser Strike
+Discard 2: Photovoltaic Dash
+Special action available
 
 Lymn
 ----
-life: 5
-discard 1: Fathomless Strike
-discard 2: Surreal Dash
-special action
+Life: 8
+Discard 1: Maddening Drive
+Discard 2: Chimeric Grasp
+Special action available
 
 
-AL.....
-..d....
-m......
-...t...
+...LA..
+....d..
+.m.....
+.....t.
+
 
 Aria:
-21% Photovoltaic Strike
-11% Photovoltaic Drive
-64% Laser Reconfiguration
-4% Laser Drive
+28% Ionic Shot
+1% Ionic Grasp
+51% Catalyst Reconfiguration
+19% Catalyst Burst
 
 Lymn:
-4% Maddening Shot
-2% Chimeric Drive
-10% Reverie Visions
-85% Special Megrim
+13% Surreal Visions
+75% Surreal Dash
+8% Reverie Visions
+4% Fathomless Visions
 
 
-Aria: Laser Reconfiguration
-Lymn: Special Megrim
+Aria: Catalyst Reconfiguration
+Lymn: Surreal Dash
 
-Priorities:  3 | -1
-Aria is active
-Disparity is 4
+Priorities:  4 | 10
+Lymn is active
+Disparity is 6
+Lymn moves:
+
+..L.A..
+....d..
+.m.....
+.....t.
+
 Aria moves:
 
-.L..A..
-..d....
-m......
-...t...
+..L..A.
+....d..
+.m.....
+.....t.
 
 Aria misses
-Aria loses 4 life (now at 7)
 
 Beat 12
 -------
 
 Aria
 ----
-life: 7
-discard 1: Laser Reconfiguration
-discard 2: Ionic Shot
-special action
+Life: 8
+Discard 1: Catalyst Reconfiguration
+Discard 2: Laser Strike
+Special action available
 
 Lymn
 ----
-life: 5
-discard 1: Fathomless Strike
-discard 2: Surreal Dash
+Life: 8
+Discard 1: Surreal Dash
+Discard 2: Maddening Drive
+Special action available
 
 
-.L..A..
-..d....
-m......
-...t...
+..L..A.
+....d..
+.m.....
+.....t.
+
 
 Aria:
-24% Photovoltaic Strike
-30% Photovoltaic Drive
-45% Photovoltaic Burst
-2% Dimensional Burst
+42% Photovoltaic Shot
+29% Photovoltaic Drive
+2% Dimensional Shot
+28% Dimensional Burst
 
 Lymn:
-37% Maddening Visions
-40% Maddening Burst
-10% Chimeric Visions
-13% Reverie Drive
+5% Reverie Strike
+16% Reverie Grasp
+66% Fathomless Shot
+14% Fathomless Burst
 
 
-Aria: Photovoltaic Drive
-Lymn: Maddening Burst
+Aria: Dimensional Burst
+Lymn: Fathomless Shot
 
-Priorities:  5 | 0
+Aria gets +2 power
+Priorities:  5 | -1
 Aria is active
-Disparity is 5
-Lymn moves:
-
-L...A..
-..d....
-m......
-...t...
-
 Aria moves:
 
-L..A...
-..d....
-m......
-...t...
+..L...A
+....d..
+.m.....
+.....t.
 
+Disparity is 6
 Aria hits
-Aria removes her Turret droid:
+Lymn takes 4 damage (now at 4 life)
+Lymn hits
+Aria takes 6 damage (now at 2 life)
+Aria is stunned
+Aria moves:
 
-L..A...
-..d....
-m......
-.......
-
-Aria gets +1 power
-Lymn has 5 soak
-Lymn takes 1 damage (now at 4 life)
-Lymn is stunned
-Aria adds her Turret droid:
-
-L..A...
-..d....
-m......
-...t...
+.AL....
+....d..
+.m.....
+.....t.
 
 
 Beat 13
@@ -838,180 +773,183 @@ Beat 13
 
 Aria
 ----
-life: 7
-discard 1: Photovoltaic Drive
-discard 2: Laser Reconfiguration
-special action
+Life: 2
+Discard 1: Dimensional Burst
+Discard 2: Catalyst Reconfiguration
+Special action available
 
 Lymn
 ----
-life: 4
-discard 1: Maddening Burst
-discard 2: Fathomless Strike
+Life: 4
+Discard 1: Fathomless Shot
+Discard 2: Surreal Dash
+Special action available
 
 
-L..A...
-..d....
-m......
-...t...
+.AL....
+....d..
+.m.....
+.....t.
+
 
 Aria:
-64% Catalyst Burst
-1% Dimensional Shot
-34% Dimensional Burst
+99% Photovoltaic Grasp
+1% Laser Dash
 
 Lymn:
-16% Chimeric Drive
-82% Chimeric Dash
-2% Reverie Drive
+39% Chimeric Grasp
+61% Special Megrim
 
 
-Aria: Catalyst Burst
-Lymn: Chimeric Drive
+Aria: Photovoltaic Grasp
+Lymn: Special Megrim
 
-Priorities:  2 | 5
-Lymn is active
-Disparity is 3
-Aria moves:
-
-L....A.
-..d....
-m......
-...t...
-
-Lymn moves:
-
-.L...A.
-..d....
-m......
-...t...
-
-Lymn moves:
-
-...L.A.
-..d....
-m......
-...t...
-
-Lymn misses
+Priorities:  6 | -1
+Aria is active
+Disparity is 7
 Aria misses
-Lymn loses 1 life (now at 3)
+Aria loses 7 life (now at 1)
 
 Beat 14
 -------
 
 Aria
 ----
-life: 7
-discard 1: Catalyst Burst
-discard 2: Photovoltaic Drive
-special action
+Life: 1
+Discard 1: Photovoltaic Grasp
+Discard 2: Dimensional Burst
+Special action available
 
 Lymn
 ----
-life: 3
-discard 1: Chimeric Drive
-discard 2: Maddening Burst
+Life: 4
+Discard 1: Fathomless Shot
+Discard 2: Surreal Dash
 
 
-...L.A.
-..d....
-m......
-...t...
+.AL....
+....d..
+.m.....
+.....t.
+
 
 Aria:
-46% Laser Strike
-54% Laser Shot
-1% Laser Grasp
+5% Ionic Reconfiguration
+3% Ionic Strike
+3% Laser Strike
+3% Laser Shot
+32% Laser Dash
+10% Catalyst Drive
+45% Catalyst Dash
 
 Lymn:
-94% Surreal Dash
-6% Reverie Strike
+13% Maddening Visions
+13% Maddening Strike
+54% Maddening Burst
+3% Maddening Grasp
+9% Chimeric Visions
+1% Chimeric Strike
+7% Chimeric Drive
 
 
-Aria: Laser Strike
-Lymn: Surreal Dash
+Aria: Catalyst Dash
+Lymn: Chimeric Drive
 
-Priorities:  3 | 10
-Lymn is active
-Disparity is 7
+Aria gets +4 priority
+Priorities:  14 | 5
+Aria is active
+Disparity is 9
+Aria moves:
+
+..L..A.
+....d..
+.m.....
+.....t.
+
+Lymn moves:
+
+...L.A.
+....d..
+.m.....
+.....t.
+
 Lymn moves:
 
 .....AL
-..d....
-m......
-...t...
+....d..
+.m.....
+.....t.
 
-Aria misses
-Lymn loses 3 life (now at 1)
+Lymn misses
+Lymn loses 1 life (now at 3)
 
 Beat 15
 -------
 
 Aria
 ----
-life: 7
-discard 1: Laser Strike
-discard 2: Catalyst Burst
-special action
+Life: 1
+Discard 1: Catalyst Dash
+Discard 2: Photovoltaic Grasp
+Special action available
 
 Lymn
 ----
-life: 1
-discard 1: Surreal Dash
-discard 2: Chimeric Drive
+Life: 3
+Discard 1: Chimeric Drive
+Discard 2: Fathomless Shot
 
 
 .....AL
-..d....
-m......
-...t...
+....d..
+.m.....
+.....t.
 
-Unbeatable strategy for Aria: Photovoltaic Grasp: 6.00
-Unbeatable strategy for Aria: Ionic Reconfiguration: 6.00
-Unbeatable strategy for Aria: Ionic Grasp: 6.00
 
 Aria:
-14% Photovoltaic Shot
-14% Photovoltaic Drive
-14% Photovoltaic Grasp
-14% Ionic Reconfiguration
-14% Ionic Shot
-14% Ionic Drive
-14% Ionic Grasp
+14% Ionic Strike
+29% Ionic Drive
+7% Laser Drive
+50% Laser Burst
 
 Lymn:
-4% Maddening Visions
-7% Maddening Strike
-4% Maddening Shot
-4% Maddening Burst
-3% Maddening Grasp
-9% Reverie Visions
-7% Reverie Strike
-12% Reverie Shot
-7% Reverie Burst
-7% Reverie Grasp
-5% Fathomless Visions
-3% Fathomless Strike
-6% Fathomless Shot
-7% Fathomless Burst
-14% Fathomless Grasp
+30% Maddening Visions
+20% Maddening Burst
+24% Maddening Dash
+26% Surreal Dash
 
 
-Aria: Ionic Shot
-Lymn: Fathomless Visions
+Aria: Ionic Drive
+Lymn: Maddening Burst
 
-Priorities:  3 | 1
+Priorities:  5 | 1
 Aria is active
 Aria moves Lymn:
 
 ....LA.
-..d....
-m......
-...t...
+....d..
+.m.....
+.....t.
 
-Disparity is 2
+Disparity is 4
+Lymn moves:
+
+..L..A.
+....d..
+.m.....
+.....t.
+
+Aria moves:
+
+..LA...
+....d..
+.m.....
+.....t.
+
 Aria hits
-Lymn takes 3 damage (now at 0 life)
-ARIA WINS!
-total_time: 44
+Lymn has 2 soak
+Lymn takes 2 damage (now at 1 life)
+Lymn is stunned
+Game goes to time
+THE GAME IS TIED!
+total_time: 28

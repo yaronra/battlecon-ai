@@ -11,324 +11,361 @@ Beat 1
 
 Runika
 ------
-life: 20
-discard 1: Channeled Grasp
-discard 2: Impact Strike
-special action
+Life: 20
+Discard 1: Channeled Grasp
+Discard 2: Impact Strike
+Special action available
 Active artifacts: 
-  Hover Boots
-  Autodeflector
-  Shield Amulet
   Phase Goggles
+  Shield Amulet
+  Autodeflector
+  Hover Boots
   Battlefist
 
 Zaamassal
 ---------
-life: 20
-discard 1: Malicious Grasp
-discard 2: Sinuous Burst
-special action
+Life: 20
+Discard 1: Malicious Grasp
+Discard 2: Sinuous Burst
+Special action available
 Active paradigm: None
 
 
 .R...Z.
 
+
 Runika:
-38% Maintenance Shot
-24% Maintenance Drive
-10% Overcharged Shot
-28% Overcharged Drive
+34% Maintenance Shot
+27% Maintenance Drive
+20% Overcharged Shot
+19% Overcharged Drive
 
 Zaamassal:
 20% Urgent Paradigm Shift
-21% Sturdy Paradigm Shift
-50% Sturdy Shot
-9% Warped Strike
+28% Sturdy Paradigm Shift
+45% Sturdy Shot
+7% Warped Paradigm Shift
 
 
-Runika: Maintenance Shot
-Zaamassal: Sturdy Shot
+Runika: Overcharged Drive
+Zaamassal: Sturdy Paradigm Shift
 
-Priorities:  3 | 2
+Priorities:  6 | 3
 Runika is active
-Runika hits
-Zaamassal takes 3 damage (now at 17 life)
+Runika overcharges her Autodeflector
 Runika moves:
 
-R....Z.
+...R.Z.
 
-Zaamassal misses
-Zaamassal assumes the Paradigm of Resilience
+Runika hits
+Zaamassal takes 4 damage (now at 16 life)
+Zaamassal hits
+Phase Goggles is de-activated
+Runika has 4 soak
+Runika takes 0 damage (now at 20 life)
+Zaamassal assumes the Paradigm of Fluidity
+Autodeflector is removed from the game
+Zaamassal moves:
+
+...R..Z
+
 
 Beat 2
 -------
 
 Runika
 ------
-life: 20
-discard 1: Maintenance Shot
-discard 2: Channeled Grasp
-special action
+Life: 20
+Discard 1: Overcharged Drive
+Discard 2: Channeled Grasp
+Special action available
 Active artifacts: 
   Battlefist
-  Autodeflector
-  Shield Amulet
-  Phase Goggles
   Hover Boots
+  Shield Amulet
+Removed artifacts: 
+  Autodeflector
 
 Zaamassal
 ---------
-life: 17
-discard 1: Sturdy Shot
-discard 2: Malicious Grasp
-special action
-Active paradigm: Resilience
+Life: 16
+Discard 1: Sturdy Paradigm Shift
+Discard 2: Malicious Grasp
+Special action available
+Active paradigm: Fluidity
 
 
-R....Z.
+...R..Z
 
-Unbeatable strategy for Zaamassal: Sinuous Burst: -0.32
-Unbeatable strategy for Zaamassal: Warped Paradigm Shift: -0.91
-Unbeatable strategy for Zaamassal: Warped Strike: -0.45
-Unbeatable strategy for Zaamassal: Warped Drive: -0.49
-Unbeatable strategy for Zaamassal: Warped Burst: -0.91
+Unbeatable strategy for Zaamassal: Urgent Strike: -0.47
+Unbeatable strategy for Zaamassal: Urgent Shot: -0.35
+
 
 Runika:
-100% Explosive Tinker
+69% Maintenance Tinker
+31% Maintenance Shot
+0% Explosive Dash
 
 Zaamassal:
-24% Sinuous Paradigm Shift
-25% Warped Paradigm Shift
-51% Warped Burst
+48% Urgent Strike
+27% Urgent Shot
+25% Urgent Burst
 
 
-Runika: Explosive Tinker
-Zaamassal: Warped Paradigm Shift
+Runika: Maintenance Tinker
+Zaamassal: Urgent Strike
 
-Priorities:  5 | 3
-Runika is active
+Priorities:  4 | 5
+Zaamassal is active
 Zaamassal moves:
 
-R.....Z
+...R.Z.
 
+Zaamassal hits
+Hover Boots is de-activated
+Runika has 2 soak
+Runika takes 1 damage (now at 19 life)
 Runika misses
-No artifacts to activate
-Zaamassal misses
-Zaamassal assumes the Paradigm of Distortion
+Phase Goggles is activated
+Runika moves:
+
+..R..Z.
+
+Zaamassal moves:
+
+..R...Z
+
 
 Beat 3
 -------
 
 Runika
 ------
-life: 20
-discard 1: Explosive Tinker
-discard 2: Maintenance Shot
-special action
+Life: 19
+Discard 1: Maintenance Tinker
+Discard 2: Overcharged Drive
+Special action available
 Active artifacts: 
-  Battlefist
-  Autodeflector
-  Shield Amulet
   Phase Goggles
-  Hover Boots
+  Battlefist
+  Shield Amulet
+Removed artifacts: 
+  Autodeflector
 
 Zaamassal
 ---------
-life: 17
-discard 1: Warped Paradigm Shift
-discard 2: Sturdy Shot
-special action
-Active paradigm: Distortion
+Life: 16
+Discard 1: Urgent Strike
+Discard 2: Sturdy Paradigm Shift
+Special action available
+Active paradigm: Fluidity
 
+
+..R...Z
+
+
+Runika:
+20% Channeled Shot
+58% Channeled Burst
+3% Explosive Dash
+18% Impact Shot
+1% Impact Burst
+
+Zaamassal:
+20% Malicious Drive
+6% Sinuous Shot
+6% Warped Drive
+15% Warped Burst
+53% Warped Grasp
+
+
+Runika: Channeled Burst
+Zaamassal: Sinuous Shot
+
+Priorities:  2 | 3
+Zaamassal is active
+Hover Boots is activated
+Runika moves:
 
 R.....Z
 
-Unbeatable strategy for Zaamassal: Malicious Drive: -0.17
-Unbeatable strategy for Zaamassal: Urgent Burst: -0.67
+Zaamassal moves:
 
-Runika:
-100% Impact Burst
+R....Z.
 
-Zaamassal:
-100% Urgent Burst
+Zaamassal misses
+Runika misses
+Zaamassal moves:
 
+R.....Z
 
-Runika: Impact Burst
-Zaamassal: Urgent Burst
-
-Priorities:  3 | 3
-Clash!
-
-Runika:
-91% Impact Strike
-9% Impact Grasp
-
-Zaamassal:
-91% Urgent Strike
-9% Urgent Drive
-
-
-Runika: Impact Strike
-Zaamassal: Urgent Strike
-
-Priorities:  5 | 5
-Clash!
-
-Runika:
-100% Impact Drive
-
-Zaamassal:
-100% Urgent Drive
-
-
-Runika: Impact Drive
-Zaamassal: Urgent Drive
-
-Priorities:  6 | 6
-Clash!
-
-Runika:
-100% Impact Grasp
-
-Zaamassal:
-100% Urgent Grasp
-
-
-Runika: Impact Grasp
-Zaamassal: Urgent Grasp
-
-Priorities:  7 | 7
-Clash!
-
-Runika:
-100% Impact Dash
-
-Zaamassal:
-100% Urgent Dash
-
-
-Runika: Impact Dash
-Zaamassal: Urgent Dash
-
-Priorities:  11 | 11
-Clash!
-
-
-out of bases - cycling
+Battlefist is de-activated
 
 Beat 4
 -------
 
 Runika
 ------
-life: 20
-discard 1: Impact Dash
-discard 2: Explosive Tinker
-special action
+Life: 19
+Discard 1: Channeled Burst
+Discard 2: Maintenance Tinker
+Special action available
 Active artifacts: 
-  Battlefist
-  Autodeflector
-  Shield Amulet
   Phase Goggles
+  Shield Amulet
   Hover Boots
+Removed artifacts: 
+  Autodeflector
 
 Zaamassal
 ---------
-life: 17
-discard 1: Urgent Dash
-discard 2: Warped Paradigm Shift
-special action
-Active paradigm: Distortion
+Life: 16
+Discard 1: Sinuous Shot
+Discard 2: Urgent Strike
+Special action available
+Active paradigm: Fluidity
 
 
 R.....Z
 
-Unbeatable strategy for Zaamassal: Malicious Grasp: -0.08
-Unbeatable strategy for Zaamassal: Sinuous Drive: -0.08
-Unbeatable strategy for Zaamassal: Sturdy Drive: -0.08
+Unbeatable strategy for Zaamassal: Malicious Grasp: -0.22
+Unbeatable strategy for Zaamassal: Sturdy Drive: -0.32
+Unbeatable strategy for Zaamassal: Sturdy Grasp: -0.04
+Unbeatable strategy for Zaamassal: Warped Drive: -4.59
+
 
 Runika:
-42% Maintenance Strike
-58% Maintenance Grasp
+7% Explosive Grasp
+93% Special Pulse
 
 Zaamassal:
-8% Malicious Strike
-8% Malicious Shot
-8% Malicious Burst
-13% Malicious Grasp
-12% Sinuous Drive
-10% Sturdy Strike
-10% Sturdy Shot
-12% Sturdy Drive
-10% Sturdy Burst
-10% Sturdy Grasp
+72% Warped Drive
+28% Warped Grasp
 
 
-Runika: Maintenance Grasp
-Zaamassal: Sinuous Drive
+Runika: Special Pulse
+Zaamassal: Warped Drive
 
-Priorities:  6 | 5
+Pulse:
+
+R....Z.
+
+
+Beat 4
+-------
+
+Runika
+------
+Life: 19
+Discard 1: Channeled Burst
+Discard 2: Maintenance Tinker
+Active artifacts: 
+  Phase Goggles
+  Shield Amulet
+  Hover Boots
+Removed artifacts: 
+  Autodeflector
+
+Zaamassal
+---------
+Life: 16
+Discard 1: Warped Drive
+Discard 2: Sinuous Shot
+Special action available
+Active paradigm: Fluidity
+
+
+R....Z.
+
+Unbeatable strategy for Zaamassal: Malicious Burst: -0.32
+Unbeatable strategy for Zaamassal: Sturdy Paradigm Shift: -1.62
+Unbeatable strategy for Zaamassal: Sturdy Strike: -1.43
+Unbeatable strategy for Zaamassal: Sturdy Burst: -1.81
+Unbeatable strategy for Zaamassal: Sturdy Grasp: -1.38
+Unbeatable strategy for Zaamassal: Sturdy Dash: -0.53
+
+
+Runika:
+8% Explosive Shot
+7% Explosive Drive
+33% Explosive Grasp
+0% Impact Drive
+52% Overcharged Shot
+
+Zaamassal:
+39% Malicious Grasp
+21% Urgent Burst
+36% Sturdy Paradigm Shift
+2% Sturdy Burst
+2% Sturdy Grasp
+
+
+Runika: Overcharged Shot
+Zaamassal: Sturdy Paradigm Shift
+
+Priorities:  4 | 3
 Runika is active
-Runika misses
-Zaamassal moves:
-
-R...Z..
-
-Zaamassal misses
+Runika overcharges her Shield Amulet
+Runika hits
+Zaamassal takes 3 damage (now at 13 life)
 Zaamassal moves:
 
 R.....Z
 
+Zaamassal misses
+Zaamassal assumes the Paradigm of Distortion
+Shield Amulet is removed from the game
 
 Beat 5
 -------
 
 Runika
 ------
-life: 20
-discard 1: Maintenance Grasp
-discard 2: Impact Dash
-special action
+Life: 19
+Discard 1: Overcharged Shot
+Discard 2: Channeled Burst
 Active artifacts: 
-  Battlefist
-  Autodeflector
-  Shield Amulet
   Phase Goggles
   Hover Boots
+Removed artifacts: 
+  Shield Amulet
+  Autodeflector
 
 Zaamassal
 ---------
-life: 17
-discard 1: Sinuous Drive
-discard 2: Urgent Dash
-special action
+Life: 13
+Discard 1: Sturdy Paradigm Shift
+Discard 2: Warped Drive
+Special action available
 Active paradigm: Distortion
 
 
 R.....Z
 
+
 Runika:
-45% Explosive Tinker
-14% Explosive Shot
-41% Overcharged Shot
+52% Maintenance Tinker
+48% Maintenance Strike
 
 Zaamassal:
-75% Malicious Grasp
-17% Warped Shot
-8% Warped Grasp
+36% Malicious Burst
+52% Urgent Shot
+12% Urgent Burst
 
 
-Runika: Explosive Tinker
-Zaamassal: Malicious Grasp
+Runika: Maintenance Tinker
+Zaamassal: Urgent Shot
 
-Priorities:  5 | 4
+Priorities:  4 | 4
+Clash!
+
+
+Runika: Maintenance Grasp
+Zaamassal: Urgent Burst
+
+Priorities:  6 | 3
 Runika is active
-Runika moves Zaamassal:
-
-R....Z.
-
 Runika misses
-No artifacts to activate
 Zaamassal misses
 
 Beat 6
@@ -336,636 +373,563 @@ Beat 6
 
 Runika
 ------
-life: 20
-discard 1: Explosive Tinker
-discard 2: Maintenance Grasp
-special action
+Life: 19
+Discard 1: Maintenance Grasp
+Discard 2: Overcharged Shot
 Active artifacts: 
-  Battlefist
-  Autodeflector
-  Shield Amulet
   Phase Goggles
   Hover Boots
+Removed artifacts: 
+  Shield Amulet
+  Autodeflector
 
 Zaamassal
 ---------
-life: 17
-discard 1: Malicious Grasp
-discard 2: Sinuous Drive
-special action
+Life: 13
+Discard 1: Urgent Burst
+Discard 2: Sturdy Paradigm Shift
+Special action available
 Active paradigm: Distortion
 
 
-R....Z.
+R.....Z
 
-Unbeatable strategy for Zaamassal: Sturdy Burst: -0.07
+Unbeatable strategy for Zaamassal: Warped Shot: -1.20
+
 
 Runika:
-27% Impact Drive
-73% Overcharged Shot
+100% Impact Dash
 
 Zaamassal:
-22% Urgent Shot
-78% Sturdy Burst
+100% Warped Shot
 
 
-Runika: Overcharged Shot
-Zaamassal: Sturdy Burst
+Runika: Impact Dash
+Zaamassal: Warped Shot
 
-Priorities:  4 | 1
+Priorities:  11 | 2
 Runika is active
-Runika overcharges her Phase Goggles
-Zaamassal moves:
-
-R.....Z
-
-Runika hits
-Zaamassal takes 4 damage (now at 13 life)
-Zaamassal misses
-Phase Goggles is removed from the game
-
-Beat 7
--------
-
-Runika
-------
-life: 20
-discard 1: Overcharged Shot
-discard 2: Explosive Tinker
-special action
-Active artifacts: 
-  Hover Boots
-  Autodeflector
-  Shield Amulet
-  Battlefist
-Removed artifacts: 
-  Phase Goggles
-
-Zaamassal
----------
-life: 13
-discard 1: Sturdy Burst
-discard 2: Malicious Grasp
-special action
-Active paradigm: Distortion
-
-
-R.....Z
-
-Unbeatable strategy for Zaamassal: Sinuous Drive: -0.08
-Unbeatable strategy for Zaamassal: Urgent Paradigm Shift: -0.08
-Unbeatable strategy for Zaamassal: Urgent Strike: -0.08
-Unbeatable strategy for Zaamassal: Urgent Shot: -2.81
-Unbeatable strategy for Zaamassal: Warped Paradigm Shift: -0.08
-Unbeatable strategy for Zaamassal: Warped Strike: -0.08
-Unbeatable strategy for Zaamassal: Warped Shot: -2.64
-
-Runika:
-100% Special Pulse
-
-Zaamassal:
-9% Sinuous Paradigm Shift
-9% Sinuous Strike
-8% Sinuous Shot
-7% Sinuous Drive
-8% Urgent Paradigm Shift
-8% Urgent Strike
-9% Urgent Shot
-9% Urgent Drive
-7% Warped Paradigm Shift
-8% Warped Strike
-11% Warped Shot
-7% Warped Drive
-
-
-Runika: Special Pulse
-Zaamassal: Urgent Drive
-
-Pulse:
-
-ZR.....
-
-
-Beat 7
--------
-
-Runika
-------
-life: 20
-discard 1: Overcharged Shot
-discard 2: Explosive Tinker
-Active artifacts: 
-  Hover Boots
-  Autodeflector
-  Shield Amulet
-  Battlefist
-Removed artifacts: 
-  Phase Goggles
-
-Zaamassal
----------
-life: 13
-discard 1: Urgent Drive
-discard 2: Sturdy Burst
-special action
-Active paradigm: Distortion
-
-
-ZR.....
-
-Unbeatable strategy for Zaamassal: Malicious Dash: -2.52
-Unbeatable strategy for Zaamassal: Sinuous Strike: -0.10
-Unbeatable strategy for Zaamassal: Sinuous Dash: -4.07
-
-Runika:
-22% Channeled Strike
-14% Channeled Burst
-1% Maintenance Drive
-42% Maintenance Dash
-1% Impact Strike
-1% Impact Burst
-20% Impact Grasp
-
-Zaamassal:
-2% Malicious Strike
-0% Malicious Shot
-6% Sinuous Strike
-3% Sinuous Shot
-20% Sinuous Grasp
-41% Sinuous Dash
-28% Warped Strike
-
-
-Runika: Channeled Burst
-Zaamassal: Sinuous Dash
-
-Priorities:  4 | 10
-Zaamassal is active
 Runika moves:
 
-Z..R...
+.R....Z
 
-No artifacts to activate
+Runika moves:
+
+....R.Z
+
+Zaamassal hits
+Phase Goggles is de-activated
+Runika takes 3 damage (now at 16 life)
+Runika is stunned
+
+Beat 7
+-------
+
+Runika
+------
+Life: 16
+Discard 1: Impact Dash
+Discard 2: Maintenance Grasp
+Active artifacts: 
+  Hover Boots
+Removed artifacts: 
+  Autodeflector
+  Shield Amulet
+
+Zaamassal
+---------
+Life: 13
+Discard 1: Warped Shot
+Discard 2: Urgent Burst
+Special action available
+Active paradigm: Distortion
+
+
+....R.Z
+
+Unbeatable strategy for Zaamassal: Sturdy Drive: -0.89
+
+
+Runika:
+51% Channeled Tinker
+5% Channeled Shot
+16% Channeled Drive
+29% Channeled Burst
+
+Zaamassal:
+21% Sinuous Grasp
+25% Sinuous Dash
+5% Sturdy Paradigm Shift
+49% Sturdy Drive
+
+
+Runika: Channeled Drive
+Zaamassal: Sturdy Drive
+
+Priorities:  7 | 4
+Runika is active
+Battlefist is activated
+Runika moves:
+
+.....RZ
+
+Runika hits
+Zaamassal takes 5 damage (now at 8 life)
 Zaamassal moves:
 
-..ZR...
+....ZR.
 
-Runika misses
-Zaamassal moves:
-
-Z..R...
-
+Zaamassal hits
 Battlefist is de-activated
+Runika takes 3 damage (now at 13 life)
+Runika is stunned
+Zaamassal assumes the Paradigm of Resilience
+Hover Boots is de-activated
 
 Beat 8
 -------
 
 Runika
 ------
-life: 20
-discard 1: Channeled Burst
-discard 2: Overcharged Shot
-Active artifacts: 
-  Hover Boots
-  Shield Amulet
-  Autodeflector
+Life: 13
+Discard 1: Channeled Drive
+Discard 2: Impact Dash
+No active artifacts
 Removed artifacts: 
-  Phase Goggles
+  Autodeflector
+  Shield Amulet
 
 Zaamassal
 ---------
-life: 13
-discard 1: Sinuous Dash
-discard 2: Urgent Drive
-special action
-Active paradigm: Distortion
+Life: 8
+Discard 1: Sturdy Drive
+Discard 2: Warped Shot
+Special action available
+Active paradigm: Resilience
 
 
-Z..R...
+....ZR.
+
 
 Runika:
-66% Maintenance Tinker
-24% Maintenance Drive
-10% Explosive Drive
+45% Maintenance Tinker
+39% Maintenance Strike
+12% Maintenance Burst
+1% Explosive Tinker
+3% Explosive Strike
 
 Zaamassal:
-29% Malicious Shot
-51% Sturdy Grasp
-20% Warped Grasp
+23% Malicious Strike
+42% Malicious Burst
+11% Sinuous Strike
+19% Sinuous Burst
+5% Sinuous Grasp
 
 
-Runika: Maintenance Tinker
-Zaamassal: Sturdy Grasp
+Runika: Maintenance Strike
+Zaamassal: Malicious Burst
 
-Priorities:  4 | 5
-Zaamassal is active
-Zaamassal hits
-Zaamassal moves Runika:
+Priorities:  2 | 0
+Runika is active
+Zaamassal moves:
 
-Z...R..
+...Z.R.
 
-Hover Boots is de-activated
-Runika has 4 soak
-Runika takes 0 damage (now at 20 life)
 Runika misses
 Runika moves:
 
-Z....R.
+...Z..R
 
-Hover Boots is activated
+Zaamassal hits
+No artifacts to de-activate
+Runika has 3 soak
+Runika takes 1 damage (now at 12 life)
 
 Beat 9
 -------
 
 Runika
 ------
-life: 20
-discard 1: Maintenance Tinker
-discard 2: Channeled Burst
-Active artifacts: 
+Life: 12
+Discard 1: Maintenance Strike
+Discard 2: Channeled Drive
+No active artifacts
+Removed artifacts: 
   Autodeflector
   Shield Amulet
-  Hover Boots
-Removed artifacts: 
-  Phase Goggles
 
 Zaamassal
 ---------
-life: 13
-discard 1: Sturdy Grasp
-discard 2: Sinuous Dash
-special action
-Active paradigm: Distortion
+Life: 8
+Discard 1: Malicious Burst
+Discard 2: Sturdy Drive
+Special action available
+Active paradigm: Resilience
 
 
-Z....R.
+...Z..R
 
-Unbeatable strategy for Zaamassal: Malicious Shot: -0.37
-Unbeatable strategy for Zaamassal: Malicious Drive: -0.95
-Unbeatable strategy for Zaamassal: Urgent Strike: -0.45
-Unbeatable strategy for Zaamassal: Urgent Shot: -3.58
-Unbeatable strategy for Zaamassal: Urgent Drive: -0.41
-Unbeatable strategy for Zaamassal: Warped Strike: -0.37
-Unbeatable strategy for Zaamassal: Warped Shot: -1.99
-Unbeatable strategy for Zaamassal: Warped Drive: -0.95
+Unbeatable strategy for Zaamassal: Sinuous Paradigm Shift: -1.78
+Unbeatable strategy for Zaamassal: Sinuous Shot: -1.78
+Unbeatable strategy for Zaamassal: Urgent Strike: -0.09
+Unbeatable strategy for Zaamassal: Warped Paradigm Shift: -0.86
+Unbeatable strategy for Zaamassal: Warped Strike: -0.35
+Unbeatable strategy for Zaamassal: Warped Shot: -0.51
+
 
 Runika:
-9% Explosive Shot
-21% Impact Shot
-23% Impact Drive
-47% Impact Dash
+1% Explosive Tinker
+82% Explosive Dash
+16% Impact Tinker
 
 Zaamassal:
-2% Malicious Shot
-1% Malicious Drive
-74% Urgent Shot
-23% Warped Shot
+67% Sinuous Paradigm Shift
+18% Sinuous Shot
+15% Warped Dash
 
 
-Runika: Impact Drive
-Zaamassal: Urgent Shot
+Runika: Explosive Dash
+Zaamassal: Sinuous Shot
 
-Priorities:  6 | 4
+Priorities:  9 | 3
 Runika is active
+Runika moves Zaamassal:
+
+....Z.R
+
 Runika moves:
 
-Z...R..
+...RZ..
 
-Runika moves:
-
-Z.R....
-
-Runika misses
+Zaamassal misses
+Zaamassal assumes the Paradigm of Fluidity
 Zaamassal moves:
 
-.ZR....
+Z..R...
 
-Zaamassal hits
-Autodeflector is de-activated
-Runika takes 2 damage (now at 18 life)
-Zaamassal assumes the Paradigm of Haste
 
 Beat 10
 -------
 
 Runika
 ------
-life: 18
-discard 1: Impact Drive
-discard 2: Maintenance Tinker
-Active artifacts: 
-  Hover Boots
-  Shield Amulet
+Life: 12
+Discard 1: Explosive Dash
+Discard 2: Maintenance Strike
+No active artifacts
 Removed artifacts: 
-  Phase Goggles
+  Autodeflector
+  Shield Amulet
 
 Zaamassal
 ---------
-life: 13
-discard 1: Urgent Shot
-discard 2: Sturdy Grasp
-special action
-Active paradigm: Haste
+Life: 8
+Discard 1: Sinuous Shot
+Discard 2: Malicious Burst
+Special action available
+Active paradigm: Fluidity
 
 
-.ZR....
+Z..R...
 
-Unbeatable strategy for Zaamassal: Warped Strike: -0.04
+Unbeatable strategy for Zaamassal: Urgent Strike: -0.16
+Unbeatable strategy for Zaamassal: Warped Strike: -0.52
+
 
 Runika:
-11% Channeled Strike
-76% Channeled Shot
-12% Channeled Grasp
+19% Channeled Shot
+20% Channeled Drive
+17% Impact Tinker
+44% Impact Burst
 
 Zaamassal:
-12% Malicious Strike
-34% Sinuous Strike
-54% Warped Strike
+13% Urgent Paradigm Shift
+0% Warped Paradigm Shift
+66% Warped Strike
+20% Warped Grasp
 
 
-Runika: Channeled Shot
-Zaamassal: Malicious Strike
+Runika: Impact Burst
+Zaamassal: Urgent Paradigm Shift
 
-Priorities:  5 | 2
-Runika is active
-Battlefist is activated
-Runika hits
-Zaamassal takes 5 damage (now at 8 life)
+Priorities:  1 | 5
+Zaamassal is active
+Runika moves:
+
+Z...R..
+
 Zaamassal hits
-Hover Boots is de-activated
-Runika takes 5 damage (now at 13 life)
-Battlefist is de-activated
+No artifacts to de-activate
+Runika takes 2 damage (now at 10 life)
+Runika is stunned
+Zaamassal assumes the Paradigm of Distortion
 
 Beat 11
 -------
 
 Runika
 ------
-life: 13
-discard 1: Channeled Shot
-discard 2: Impact Drive
-Active artifacts: 
-  Shield Amulet
+Life: 10
+Discard 1: Impact Burst
+Discard 2: Explosive Dash
+No active artifacts
 Removed artifacts: 
-  Phase Goggles
+  Autodeflector
+  Shield Amulet
 
 Zaamassal
 ---------
-life: 8
-discard 1: Malicious Strike
-discard 2: Urgent Shot
-special action
-Active paradigm: Haste
+Life: 8
+Discard 1: Urgent Paradigm Shift
+Discard 2: Sinuous Shot
+Special action available
+Active paradigm: Distortion
 
-
-.ZR....
-
-Unbeatable strategy for Zaamassal: Sinuous Burst: -0.14
-Unbeatable strategy for Zaamassal: Sinuous Grasp: -0.50
-Unbeatable strategy for Zaamassal: Sturdy Grasp: -0.17
-Unbeatable strategy for Zaamassal: Warped Grasp: -0.59
-
-Runika:
-72% Maintenance Tinker
-18% Explosive Tinker
-9% Overcharged Tinker
-
-Zaamassal:
-1% Sinuous Burst
-26% Sinuous Grasp
-74% Warped Grasp
-
-
-Runika: Maintenance Tinker
-Zaamassal: Warped Grasp
-
-Priorities:  2 | 5
-Zaamassal is active
-Zaamassal moves:
-
-Z.R....
-
-Zaamassal hits
-Zaamassal moves Runika:
-
-Z..R...
-
-Shield Amulet is de-activated
-Runika has 4 soak
-Runika takes 0 damage (now at 13 life)
-Zaamassal assumes the Paradigm of Distortion
-Runika misses
-Runika moves:
 
 Z...R..
 
-Autodeflector is activated
+
+Runika:
+18% Channeled Tinker
+26% Channeled Drive
+43% Maintenance Tinker
+7% Overcharged Tinker
+5% Overcharged Drive
+
+Zaamassal:
+41% Malicious Strike
+12% Sturdy Drive
+6% Sturdy Burst
+16% Warped Burst
+26% Warped Grasp
+
+
+Runika: Maintenance Tinker
+Zaamassal: Malicious Strike
+
+Priorities:  2 | 2
+Clash!
+
+
+Runika: Maintenance Grasp
+Zaamassal: Malicious Burst
+
+Priorities:  4 | 0
+Runika is active
+Runika misses
+Runika moves:
+
+Z....R.
+
+Zaamassal misses
 
 Beat 12
 -------
 
 Runika
 ------
-life: 13
-discard 1: Maintenance Tinker
-discard 2: Channeled Shot
-Active artifacts: 
-  Autodeflector
+Life: 10
+Discard 1: Maintenance Grasp
+Discard 2: Impact Burst
+No active artifacts
 Removed artifacts: 
-  Phase Goggles
+  Autodeflector
+  Shield Amulet
 
 Zaamassal
 ---------
-life: 8
-discard 1: Warped Grasp
-discard 2: Malicious Strike
-special action
+Life: 8
+Discard 1: Malicious Burst
+Discard 2: Urgent Paradigm Shift
+Special action available
 Active paradigm: Distortion
 
 
-Z...R..
+Z....R.
+
 
 Runika:
-11% Explosive Drive
-55% Explosive Dash
-29% Impact Burst
-2% Impact Grasp
-3% Overcharged Drive
+2% Channeled Shot
+12% Channeled Drive
+27% Channeled Dash
+23% Overcharged Tinker
+36% Overcharged Dash
 
 Zaamassal:
-18% Sinuous Drive
-14% Urgent Shot
-16% Urgent Drive
-8% Sturdy Shot
-43% Sturdy Dash
+14% Sinuous Shot
+35% Sinuous Drive
+29% Sturdy Drive
+22% Warped Shot
 
 
-Runika: Explosive Dash
-Zaamassal: Urgent Drive
+Runika: Overcharged Dash
+Zaamassal: Sinuous Shot
 
-Priorities:  9 | 6
+Priorities:  9 | 3
 Runika is active
-Runika moves Zaamassal:
-
-.Z..R..
-
+No active artifacts to overcharge
 Runika moves:
 
-RZ.....
+Z.....R
 
 Zaamassal misses
-Zaamassal assumes the Paradigm of Haste
+Zaamassal assumes the Paradigm of Fluidity
+Zaamassal moves:
+
+.Z....R
+
 
 Beat 13
 -------
 
 Runika
 ------
-life: 13
-discard 1: Explosive Dash
-discard 2: Maintenance Tinker
-Active artifacts: 
-  Autodeflector
+Life: 10
+Discard 1: Overcharged Dash
+Discard 2: Maintenance Grasp
+No active artifacts
 Removed artifacts: 
-  Phase Goggles
+  Autodeflector
+  Shield Amulet
 
 Zaamassal
 ---------
-life: 8
-discard 1: Urgent Drive
-discard 2: Warped Grasp
-special action
-Active paradigm: Haste
+Life: 8
+Discard 1: Sinuous Shot
+Discard 2: Malicious Burst
+Special action available
+Active paradigm: Fluidity
 
 
-RZ.....
+.Z....R
 
-Unbeatable strategy for Zaamassal: Sturdy Strike: -0.75
-Unbeatable strategy for Zaamassal: Sturdy Shot: -0.91
+Unbeatable strategy for Zaamassal: Warped Paradigm Shift: -1.91
+
 
 Runika:
-29% Channeled Drive
-20% Channeled Grasp
-45% Overcharged Strike
-6% Overcharged Shot
+25% Channeled Tinker
+22% Channeled Shot
+52% Explosive Tinker
 
 Zaamassal:
-34% Sinuous Strike
-15% Sinuous Burst
-13% Sinuous Dash
-37% Sturdy Strike
+45% Warped Paradigm Shift
+20% Warped Strike
+35% Warped Drive
 
 
-Runika: Overcharged Strike
-Zaamassal: Sinuous Dash
+Runika: Explosive Tinker
+Zaamassal: Warped Paradigm Shift
 
-Priorities:  3 | 10
+Priorities:  3 | 3
+Clash!
+
+
+Runika: Explosive Drive
+Zaamassal: Warped Drive
+
+Priorities:  4 | 4
+Clash!
+
+
+Runika: Explosive Burst
+Zaamassal: Warped Grasp
+
+Priorities:  1 | 5
 Zaamassal is active
-Runika overcharges her Autodeflector
-Zaamassal assumes the Paradigm of Fluidity
 Zaamassal moves:
 
-R.Z....
+Z.....R
 
+Zaamassal misses
+Zaamassal assumes the Paradigm of Distortion
 Runika misses
-Zaamassal moves:
-
-RZ.....
-
-Zaamassal moves:
-
-R.....Z
-
-Autodeflector is removed from the game
 
 Beat 14
 -------
 
 Runika
 ------
-life: 13
-discard 1: Overcharged Strike
-discard 2: Explosive Dash
+Life: 10
+Discard 1: Explosive Burst
+Discard 2: Overcharged Dash
 No active artifacts
 Removed artifacts: 
   Autodeflector
-  Phase Goggles
+  Shield Amulet
 
 Zaamassal
 ---------
-life: 8
-discard 1: Sinuous Dash
-discard 2: Urgent Drive
-special action
-Active paradigm: Fluidity
+Life: 8
+Discard 1: Warped Grasp
+Discard 2: Sinuous Shot
+Special action available
+Active paradigm: Distortion
 
 
-R.....Z
+Z.....R
+
 
 Runika:
-1% Channeled Tinker
-12% Maintenance Tinker
-86% Maintenance Grasp
+37% Channeled Tinker
+32% Maintenance Tinker
+31% Impact Tinker
 
 Zaamassal:
-48% Malicious Strike
-6% Malicious Grasp
-46% Warped Shot
+29% Malicious Paradigm Shift
+40% Urgent Burst
+31% Sturdy Drive
 
 
-Runika: Maintenance Grasp
-Zaamassal: Malicious Strike
+Runika: Maintenance Tinker
+Zaamassal: Sturdy Drive
 
-Priorities:  4 | 2
-Runika is active
-Runika misses
-Zaamassal moves:
-
-R....Z.
-
+Priorities:  2 | 4
+Zaamassal is active
 Zaamassal misses
+Runika misses
+Phase Goggles is activated
 
 Beat 15
 -------
 
 Runika
 ------
-life: 13
-discard 1: Maintenance Grasp
-discard 2: Overcharged Strike
-No active artifacts
-Removed artifacts: 
-  Autodeflector
+Life: 10
+Discard 1: Maintenance Tinker
+Discard 2: Explosive Burst
+Active artifacts: 
   Phase Goggles
+Removed artifacts: 
+  Shield Amulet
+  Autodeflector
 
 Zaamassal
 ---------
-life: 8
-discard 1: Malicious Strike
-discard 2: Sinuous Dash
-special action
-Active paradigm: Fluidity
+Life: 8
+Discard 1: Sturdy Drive
+Discard 2: Warped Grasp
+Special action available
+Active paradigm: Distortion
 
 
-R....Z.
+Z.....R
 
-Unbeatable strategy for Runika: Channeled Dash: 13.00
-Unbeatable strategy for Runika: Explosive Dash: 13.00
-Unbeatable strategy for Runika: Impact Dash: 13.00
 
 Runika:
-100% Channeled Tinker
+45% Channeled Strike
+55% Channeled Grasp
 
 Zaamassal:
-100% Special Pulse
+1% Urgent Shot
+99% Special Pulse
 
 
-Runika: Channeled Tinker
+Runika: Channeled Grasp
 Zaamassal: Special Pulse
 
 Pulse:
 
-R....Z.
+R...Z..
 
 
 Beat 15
@@ -973,79 +937,70 @@ Beat 15
 
 Runika
 ------
-life: 13
-discard 1: Channeled Tinker
-discard 2: Maintenance Grasp
-No active artifacts
-Removed artifacts: 
-  Autodeflector
+Life: 10
+Discard 1: Channeled Grasp
+Discard 2: Maintenance Tinker
+Active artifacts: 
   Phase Goggles
+Removed artifacts: 
+  Shield Amulet
+  Autodeflector
 
 Zaamassal
 ---------
-life: 8
-discard 1: Malicious Strike
-discard 2: Sinuous Dash
-Active paradigm: Fluidity
+Life: 8
+Discard 1: Sturdy Drive
+Discard 2: Warped Grasp
+Active paradigm: Distortion
 
-
-R....Z.
-
-Unbeatable strategy for Runika: Explosive Dash: 13.00
-Unbeatable strategy for Runika: Impact Dash: 13.00
-Unbeatable strategy for Runika: Overcharged Dash: 13.00
-
-Runika:
-7% Explosive Strike
-7% Explosive Shot
-7% Explosive Drive
-7% Explosive Burst
-7% Explosive Dash
-7% Impact Strike
-7% Impact Shot
-7% Impact Drive
-7% Impact Burst
-7% Impact Dash
-7% Overcharged Strike
-7% Overcharged Shot
-7% Overcharged Drive
-7% Overcharged Burst
-7% Overcharged Dash
-
-Zaamassal:
-7% Urgent Paradigm Shift
-7% Urgent Shot
-7% Urgent Drive
-7% Urgent Burst
-7% Urgent Grasp
-7% Sturdy Paradigm Shift
-7% Sturdy Shot
-7% Sturdy Drive
-7% Sturdy Burst
-7% Sturdy Grasp
-7% Warped Paradigm Shift
-7% Warped Shot
-7% Warped Drive
-7% Warped Burst
-7% Warped Grasp
-
-
-Runika: Overcharged Burst
-Zaamassal: Sturdy Grasp
-
-Priorities:  1 | 5
-Zaamassal is active
-No active artifacts to overcharge
-Zaamassal moves:
 
 R...Z..
 
-Zaamassal misses
-Runika misses
+Unbeatable strategy for Runika: Impact Dash: 13.00
+
+
+Runika:
+100% Impact Dash
+
+Zaamassal:
+1% Malicious Paradigm Shift
+1% Malicious Strike
+0% Malicious Shot
+3% Malicious Burst
+15% Malicious Dash
+15% Sinuous Paradigm Shift
+15% Sinuous Strike
+1% Sinuous Shot
+15% Sinuous Burst
+15% Sinuous Dash
+0% Urgent Paradigm Shift
+0% Urgent Strike
+1% Urgent Shot
+1% Urgent Burst
+15% Urgent Dash
+
+
+Runika: Impact Dash
+Zaamassal: Urgent Dash
+
+Priorities:  9 | 11
+Zaamassal is active
 Zaamassal moves:
 
 R..Z...
 
+Zaamassal moves:
+
+RZ.....
+
+Runika moves:
+
+.ZR....
+
+Runika moves:
+
+RZ.....
+
 Game goes to time
 RUNIKA WINS!
-total_time: 49
+total_time: 115

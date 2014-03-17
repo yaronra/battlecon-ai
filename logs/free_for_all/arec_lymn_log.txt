@@ -30,37 +30,44 @@ Special action available
 
 
 Arec:
-23% Perceptional Hex
-30% Perceptional Drive
-14% Returning Hex (Hesitation)
-13% Returning Hex (Recklessness)
-20% Returning Drive (Recklessness)
+14% Perceptional Hex
+42% Perceptional Drive
+1% Returning Hex
+8% Returning Hex (Hesitation)
+29% Returning Drive (Recklessness)
+5% Mirrored Shot (Hesitation)
 
 Lymn:
-0% Surreal Strike
-14% Surreal Drive
-41% Surreal Grasp
-16% Reverie Grasp
-29% Fathomless Shot
+28% Surreal Strike
+16% Surreal Drive
+32% Surreal Grasp
+2% Reverie Strike
+6% Reverie Grasp
+17% Fathomless Shot
 
 
-Arec: Returning Hex (Recklessness)
-Lymn: Fathomless Shot
+Arec: Mirrored Shot (Hesitation)
+Lymn: Surreal Grasp
 
-Arec antes a Recklessness token
-Priorities:  4 | 0
-Arec is active
+Arec antes a Hesitation token
+Priorities:  2 | 6
+Lymn is active
 Disparity is 4
-Arec hits
-Arec moves Lymn:
-
-.A..L..
-
-
-Lymn takes 3 damage (now at 17 life)
 Lymn hits
+Lymn moves Arec:
+
+A....L.
+
+
 Arec takes 2 damage (now at 18 life)
-Arec is stunned
+Arec hits
+Lymn takes 4 damage (now at 16 life)
+Lymn is stunned
+Arec places clone:
+
+A....L.
+....c..
+
 
 Beat 2
 -------
@@ -68,61 +75,61 @@ Beat 2
 Arec
 ----
 Life: 18
-Discard 1: Returning Hex
+Discard 1: Mirrored Shot
 Discard 2: Phantom Strike
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Mercy, Recklessness
 
 Lymn
 ----
-Life: 17
-Discard 1: Fathomless Shot
+Life: 16
+Discard 1: Surreal Grasp
 Discard 2: Maddening Burst
 Special action available
 
 
-.A..L..
-
+A....L.
+....c..
 
 
 Arec:
-99% Perceptional Drive
-1% Mirrored Grasp
+18% Returning Hex
+16% Returning Drive
+6% Returning Drive (move to clone)
+14% Returning Grasp (Recklessness; move to clone)
+11% Manipulative Hex
+6% Manipulative Burst (Recklessness; move to clone)
+29% Manipulative Grasp (move to clone)
 
 Lymn:
-59% Surreal Strike
-41% Surreal Drive
+0% Chimeric Visions
+21% Chimeric Strike
+2% Chimeric Shot
+22% Chimeric Drive
+35% Reverie Drive
+1% Fathomless Strike
+19% Fathomless Shot
 
 
-Arec: Perceptional Drive
-Lymn: Surreal Drive
+Arec: Returning Drive (move to clone)
+Lymn: Reverie Drive
 
-Priorities:  5 | 5
-Clash!
+Arec moves:
 
-
-Arec: Perceptional Grasp
-Lymn: Surreal Grasp
-
-Priorities:  6 | 6
-Clash!
+....AL.
 
 
-Arec: Perceptional Shot
-Lymn: Surreal Visions
+Priorities:  5 | 3
+Arec is active
+Lymn is stunned
+Disparity is 2
+Arec moves:
 
-Priorities:  3 | 4
-Lymn is active
-Disparity is 1
-Arec antes a Hesitation token
-Lymn misses
+.....LA
+
+
 Arec hits
-Arec moves Lymn:
-
-.A.L...
-
-
-Lymn takes 3 damage (now at 14 life)
+Lymn takes 3 damage (now at 13 life)
 Lymn is stunned
 
 Beat 3
@@ -131,60 +138,59 @@ Beat 3
 Arec
 ----
 Life: 18
-Discard 1: Perceptional Shot
-Discard 2: Returning Hex
+Discard 1: Returning Drive
+Discard 2: Mirrored Shot
 Special action available
-pool: Fear, Mercy
+pool: Fear, Mercy, Recklessness
 
 Lymn
 ----
-Life: 14
-Discard 1: Surreal Visions
-Discard 2: Fathomless Shot
+Life: 13
+Discard 1: Reverie Drive
+Discard 2: Surreal Grasp
 Special action available
 
 
-.A.L...
+.....LA
 
-
-Unbeatable strategy for Arec: Phantom Dash: 0.57
-Unbeatable strategy for Arec: Phantom Dash (Mercy): 0.17
 
 
 Arec:
-2% Phantom Grasp
-93% Phantom Dash
-5% Manipulative Strike
+4% Phantom Hex
+24% Phantom Strike
+4% Perceptional Hex
+24% Perceptional Dash
+10% Manipulative Strike (Fear)
+28% Manipulative Strike (Recklessness)
+7% Manipulative Grasp
 
 Lymn:
-5% Maddening Burst
-26% Maddening Grasp
-69% Chimeric Drive
+14% Maddening Visions
+7% Maddening Strike
+6% Maddening Shot
+11% Maddening Dash
+21% Chimeric Visions
+28% Chimeric Strike
+12% Fathomless Strike
 
 
-Arec: Phantom Dash
-Lymn: Chimeric Drive
+Arec: Perceptional Dash
+Lymn: Chimeric Strike
 
-Priorities:  10 | 6
+Priorities:  10 | 5
 Arec is active
-Disparity is 4
+Disparity is 5
 Arec moves:
 
-...LA..
+..A..L.
 
 
 Lymn moves:
 
-....AL.
-
-
-Lymn moves:
-
-...LA..
+..A.L..
 
 
 Lymn misses
-Arec recovers a Hesitation token
 
 Beat 4
 -------
@@ -192,64 +198,49 @@ Beat 4
 Arec
 ----
 Life: 18
-Discard 1: Phantom Dash
-Discard 2: Perceptional Shot
+Discard 1: Perceptional Dash
+Discard 2: Returning Drive
 Special action available
-pool: Fear, Mercy, Hesitation
+pool: Fear, Mercy, Recklessness
 
 Lymn
 ----
-Life: 14
-Discard 1: Chimeric Drive
-Discard 2: Surreal Visions
+Life: 13
+Discard 1: Chimeric Strike
+Discard 2: Reverie Drive
 Special action available
 
 
-...LA..
+..A.L..
 
 
 
 Arec:
-13% Returning Strike (Fear)
-13% Mirrored Hex (Hesitation)
-10% Mirrored Drive
-49% Mirrored Burst
-7% Manipulative Strike (Fear)
-10% Manipulative Burst (Hesitation)
+22% Phantom Hex
+56% Mirrored Hex
+8% Mirrored Shot
+14% Mirrored Grasp (Fear)
 
 Lymn:
-21% Maddening Shot
-11% Maddening Burst
-38% Maddening Grasp
-2% Reverie Strike
-12% Fathomless Strike
-16% Fathomless Dash
+19% Maddening Visions
+13% Surreal Shot
+10% Fathomless Burst
+58% Fathomless Dash
 
 
-Arec: Mirrored Burst
-Lymn: Fathomless Strike
-
-Priorities:  1 | 1
-Clash!
-
-
-Arec: Mirrored Hex
+Arec: Mirrored Grasp (Fear)
 Lymn: Fathomless Dash
 
-Priorities:  3 | 7
+Arec antes a Fear token
+Priorities:  5 | 7
 Lymn is active
-Disparity is 4
+Disparity is 2
 Lymn moves:
 
-....AL.
+..A...L
 
 
 Arec misses
-Arec places clone:
-
-....AL.
-c......
-
 
 Beat 5
 -------
@@ -257,55 +248,49 @@ Beat 5
 Arec
 ----
 Life: 18
-Discard 1: Mirrored Hex
-Discard 2: Phantom Dash
+Discard 1: Mirrored Grasp
+Discard 2: Perceptional Dash
 Special action available
-pool: Fear, Mercy, Hesitation
+pool: Mercy, Recklessness
 
 Lymn
 ----
-Life: 14
+Life: 13
 Discard 1: Fathomless Dash
-Discard 2: Chimeric Drive
+Discard 2: Chimeric Strike
 Special action available
 
 
-....AL.
-c......
+..A...L
+
 
 
 Arec:
-16% Perceptional Shot (move to clone)
-42% Returning Strike (Mercy)
-19% Returning Shot (Mercy)
-17% Returning Shot (Fear; move to clone)
-4% Returning Grasp
-1% Manipulative Burst
+40% Phantom Drive
+3% Returning Shot
+44% Returning Drive
+13% Manipulative Hex
 
 Lymn:
-1% Maddening Visions
-9% Maddening Strike
-21% Maddening Shot
-41% Maddening Grasp
-1% Surreal Strike
-27% Surreal Grasp
+20% Maddening Shot
+34% Maddening Grasp
+28% Surreal Shot
+18% Surreal Drive
 
 
-Arec: Returning Grasp
-Lymn: Surreal Grasp
+Arec: Returning Drive
+Lymn: Maddening Grasp
 
-Priorities:  6 | 6
+Priorities:  5 | 5
 Arec is active
-Lymn is stunned
 Disparity is 0
-Arec hits
-Arec moves Lymn:
+Arec moves:
 
-....A.L
+...A..L
 
 
-Lymn takes 2 damage (now at 12 life)
-Lymn is stunned
+Arec misses
+Lymn misses
 
 Beat 6
 -------
@@ -313,66 +298,60 @@ Beat 6
 Arec
 ----
 Life: 18
-Discard 1: Returning Grasp
-Discard 2: Mirrored Hex
+Discard 1: Returning Drive
+Discard 2: Mirrored Grasp
 Special action available
-pool: Fear, Mercy, Hesitation
+pool: Mercy, Recklessness
 
 Lymn
 ----
-Life: 12
-Discard 1: Surreal Grasp
+Life: 13
+Discard 1: Maddening Grasp
 Discard 2: Fathomless Dash
 Special action available
 
 
-....A.L
+...A..L
 
 
 
 Arec:
-2% Phantom Shot (Hesitation)
-58% Perceptional Strike
-11% Perceptional Shot
-9% Perceptional Drive (Hesitation)
-20% Manipulative Burst (Hesitation)
+50% Phantom Strike
+4% Phantom Shot (Mercy)
+6% Phantom Burst
+9% Phantom Dash
+30% Perceptional Hex
+0% Manipulative Shot (Recklessness)
 
 Lymn:
-57% Maddening Strike
-26% Maddening Drive
-3% Maddening Burst
-9% Chimeric Shot
-5% Reverie Strike
+18% Chimeric Shot
+16% Chimeric Drive
+32% Surreal Visions
+11% Surreal Strike
+7% Surreal Drive
+17% Reverie Strike
 
 
-Arec: Perceptional Shot
-Lymn: Maddening Strike
+Arec: Perceptional Hex
+Lymn: Reverie Strike
 
-Priorities:  3 | 3
-Clash!
-
-
-Arec: Perceptional Burst
-Lymn: Maddening Drive
-
-Priorities:  2 | 4
-Lymn is active
+Priorities:  4 | 2
+Arec is active
 Disparity is 2
-Arec antes a Hesitation token
-Arec moves:
-
-...A..L
-
-
-Lymn misses
 Arec hits
 Arec moves Lymn:
 
 ...A.L.
 
 
-Lymn takes 2 damage (now at 10 life)
-Lymn is stunned
+Arec moves Lymn:
+
+...AL..
+
+
+Arec recovers a Hesitation token
+Lymn takes 3 damage (now at 10 life)
+Lymn misses
 
 Beat 7
 -------
@@ -380,592 +359,213 @@ Beat 7
 Arec
 ----
 Life: 18
-Discard 1: Perceptional Burst
-Discard 2: Returning Grasp
+Discard 1: Perceptional Hex
+Discard 2: Returning Drive
 Special action available
-pool: Fear, Mercy
+pool: Mercy, Recklessness, Hesitation
 
 Lymn
 ----
 Life: 10
-Discard 1: Maddening Drive
-Discard 2: Surreal Grasp
+Discard 1: Reverie Strike
+Discard 2: Maddening Grasp
 Special action available
 
 
-...A.L.
+...AL..
 
 
 
 Arec:
-22% Phantom Strike
-12% Phantom Drive
-9% Mirrored Shot
-58% Mirrored Dash (Fear)
+28% Phantom Strike
+43% Phantom Strike (Recklessness)
+19% Manipulative Strike (Hesitation)
+9% Manipulative Shot (Recklessness)
 
 Lymn:
-58% Chimeric Strike
-4% Reverie Strike
-8% Fathomless Visions
-31% Fathomless Strike
+18% Chimeric Shot
+44% Chimeric Drive
+12% Surreal Drive
+26% Surreal Burst
 
 
-Arec: Mirrored Dash (Fear)
-Lymn: Fathomless Visions
+Arec: Phantom Strike (Recklessness)
+Lymn: Chimeric Drive
 
-Arec antes a Fear token
-Priorities:  9 | 1
-Arec is active
-Disparity is 8
-Arec moves:
+Arec antes a Recklessness token
+Priorities:  4 | 6
+Lymn is active
+Disparity is 2
+Lymn moves:
 
-.....LA
+..LA...
 
 
 Lymn moves:
 
-L.....A
+...AL..
 
 
-Lymn misses
+Lymn hits
+Arec takes 2 damage (now at 16 life)
+Arec hits
+Lymn takes 3 damage (now at 7 life)
+Lymn is stunned
+Arec recovers a Fear token
 
 Beat 8
 -------
 
 Arec
 ----
-Life: 18
-Discard 1: Mirrored Dash
-Discard 2: Perceptional Burst
+Life: 16
+Discard 1: Phantom Strike
+Discard 2: Perceptional Hex
 Special action available
-pool: Mercy
+pool: Mercy, Hesitation, Fear
 
 Lymn
 ----
-Life: 10
-Discard 1: Fathomless Visions
-Discard 2: Maddening Drive
+Life: 7
+Discard 1: Chimeric Drive
+Discard 2: Reverie Strike
 Special action available
 
 
-L.....A
+...AL..
 
 
 
 Arec:
-4% Phantom Shot
-32% Phantom Grasp
-63% Returning Hex
-1% Manipulative Hex
+52% Returning Shot (Fear)
+29% Mirrored Burst (Hesitation)
+1% Manipulative Shot (Hesitation)
+3% Manipulative Burst (Hesitation)
+1% Manipulative Grasp (Hesitation)
+14% Manipulative Grasp (Fear)
 
 Lymn:
-35% Surreal Shot
-30% Reverie Shot
-34% Reverie Burst
-1% Reverie Grasp
+21% Maddening Shot
+26% Maddening Grasp
+33% Maddening Dash
+6% Surreal Visions
+14% Surreal Burst
+0% Fathomless Shot
 
 
-Arec: Phantom Grasp
-Lymn: Surreal Shot
+Arec: Returning Shot (Fear)
+Lymn: Maddening Shot
 
-Priorities:  6 | 3
+Arec antes a Fear token
+Priorities:  3 | 2
 Arec is active
-Disparity is 3
-Arec misses
-Lymn hits
-Arec takes 3 damage (now at 15 life)
-Arec is stunned
-Lymn moves:
-
-.....LA
-
-
-Arec recovers a Hesitation token
+Disparity is 1
+Arec hits
+Lymn takes 3 damage (now at 4 life)
+Lymn is stunned
 
 Beat 9
 -------
 
 Arec
 ----
-Life: 15
-Discard 1: Phantom Grasp
-Discard 2: Mirrored Dash
+Life: 16
+Discard 1: Returning Shot
+Discard 2: Phantom Strike
 Special action available
 pool: Mercy, Hesitation
 
 Lymn
 ----
-Life: 10
-Discard 1: Surreal Shot
-Discard 2: Fathomless Visions
+Life: 4
+Discard 1: Maddening Shot
+Discard 2: Chimeric Drive
 Special action available
 
 
-.....LA
+...AL..
 
 
 
 Arec:
-27% Perceptional Hex
-14% Returning Strike
-26% Returning Drive
-33% Manipulative Strike
+44% Perceptional Drive
+25% Mirrored Hex
+8% Mirrored Hex (Hesitation)
+2% Mirrored Burst
+21% Manipulative Burst (Hesitation)
 
 Lymn:
-20% Maddening Strike
-35% Maddening Burst
-6% Chimeric Strike
-40% Chimeric Grasp
+8% Surreal Dash
+15% Fathomless Strike
+2% Fathomless Burst
+31% Special Megrim
+45% Special Conceit
 
 
-Arec: Perceptional Hex
-Lymn: Chimeric Grasp
+Arec: Mirrored Hex
+Lymn: Special Conceit
 
-Priorities:  4 | 7
+Priorities:  3 | 7
 Lymn is active
-Disparity is 3
-Lymn hits
-Lymn moves Arec:
+Disparity is 4
+Arec misses
+Arec loses 4 life (now at 12)
+Arec places clone:
 
-....AL.
+...AL..
+c......
 
-
-Arec takes 2 damage (now at 13 life)
-Arec is stunned
 
 Beat 10
 -------
 
 Arec
 ----
-Life: 13
-Discard 1: Perceptional Hex
-Discard 2: Phantom Grasp
+Life: 12
+Discard 1: Mirrored Hex
+Discard 2: Returning Shot
 Special action available
 pool: Mercy, Hesitation
 
 Lymn
 ----
-Life: 10
-Discard 1: Chimeric Grasp
-Discard 2: Surreal Shot
-Special action available
+Life: 4
+Discard 1: Maddening Shot
+Discard 2: Chimeric Drive
 
 
-....AL.
-
-
-Unbeatable strategy for Arec: Returning Strike: 0.12
+...AL..
+c......
 
 
 Arec:
-13% Mirrored Dash
-31% Manipulative Shot
-19% Manipulative Shot (Hesitation)
-20% Manipulative Drive
-16% Manipulative Drive (Hesitation)
+3% Phantom Strike (Hesitation)
+9% Perceptional Strike
+38% Manipulative Strike (Hesitation)
+50% Manipulative Drive
 1% Manipulative Burst (Hesitation)
 
 Lymn:
-23% Maddening Visions
-61% Maddening Drive
-11% Maddening Burst
-1% Maddening Dash
-4% Reverie Drive
-1% Fathomless Strike
+5% Surreal Strike
+56% Surreal Dash
+11% Reverie Burst
+26% Fathomless Burst
+2% Fathomless Grasp
 
 
-Arec: Manipulative Shot
-Lymn: Maddening Visions
+Arec: Perceptional Strike
+Lymn: Fathomless Burst
 
-Priorities:  2 | 3
-Lymn is active
-Disparity is 1
-Lymn moves:
-
-....A.L
-
-
-Lymn hits
-Lymn moves Arec:
-
-..A...L
-
-
-Arec takes 1 damage (now at 12 life)
-Arec hits
-Arec chooses Lymn's base: Burst
-Lymn takes 1 damage (now at 9 life)
-Arec recovers a Recklessness token
-Lymn is stunned
-
-Beat 11
--------
-
-Arec
-----
-Life: 12
-Discard 1: Manipulative Shot
-Discard 2: Perceptional Hex
-Special action available
-pool: Mercy, Hesitation, Recklessness
-Manipulative forced base: Burst
-
-Lymn
-----
-Life: 9
-Discard 1: Maddening Visions
-Discard 2: Chimeric Grasp
-Special action available
-
-
-..A...L
-
-
-Unbeatable strategy for Arec: Returning Drive (Recklessness): 0.51
-
-
-Arec:
-9% Returning Strike (Hesitation)
-18% Returning Drive
-40% Mirrored Drive
-32% Mirrored Burst (Hesitation)
-
-Lymn:
-36% Surreal Strike
-33% Surreal Drive
-17% Fathomless Strike
-14% Fathomless Burst
-
-
-Arec: Returning Strike (Hesitation)
-Lymn: Surreal Drive
-
-Arec antes a Hesitation token
-Lymn loses 2 life (now at 7)
-Priorities:  4 | 5
-Lymn is active
-Disparity is 1
-Lymn misses
-Arec misses
-
-Beat 12
--------
-
-Arec
-----
-Life: 12
-Discard 1: Returning Strike
-Discard 2: Manipulative Shot
-Special action available
-pool: Mercy, Recklessness
-
-Lymn
-----
-Life: 7
-Discard 1: Surreal Drive
-Discard 2: Maddening Visions
-Special action available
-
-
-..A...L
-
-
-Unbeatable strategy for Arec: Perceptional Burst: 0.61
-Unbeatable strategy for Arec: Perceptional Burst (Mercy): 0.21
-Unbeatable strategy for Arec: Perceptional Burst (Recklessness): 0.01
-
-
-Arec:
-59% Phantom Burst
-18% Phantom Dash
-23% Mirrored Drive
-
-Lymn:
-86% Chimeric Dash
-8% Reverie Shot
-6% Fathomless Shot
-
-
-Arec: Phantom Dash
-Lymn: Chimeric Dash
-
-Priorities:  10 | 11
-Lymn is active
-Disparity is 1
-Lymn moves:
-
-..A..L.
-
-
-Lymn moves:
-
-..AL...
-
-
-Arec moves:
-
-.A.L...
-
-
-Arec recovers a Hesitation token
-
-Beat 13
--------
-
-Arec
-----
-Life: 12
-Discard 1: Phantom Dash
-Discard 2: Returning Strike
-Special action available
-pool: Mercy, Recklessness, Hesitation
-
-Lymn
-----
-Life: 7
-Discard 1: Chimeric Dash
-Discard 2: Surreal Drive
-Special action available
-
-
-.A.L...
-
-
-
-Arec:
-8% Mirrored Hex
-64% Mirrored Hex (Hesitation)
-6% Mirrored Shot
-22% Mirrored Grasp (Mercy)
-
-Lymn:
-22% Maddening Visions
-36% Maddening Strike
-34% Maddening Shot
-8% Maddening Burst
-
-
-Arec: Mirrored Grasp (Mercy)
-Lymn: Maddening Shot
-
+Priorities:  4 | -1
+Arec is active
 Arec antes a Mercy token
-Priorities:  5 | 2
-Arec is active
-Disparity is 3
-Arec hits
-Lymn has 2 soak
-Lymn takes 1 damage (now at 6 life)
-Lymn misses
-Arec places clone:
-
-.A.L...
-..c....
-
-
-Beat 14
--------
-
-Arec
-----
-Life: 12
-Discard 1: Mirrored Grasp
-Discard 2: Phantom Dash
-Special action available
-pool: Recklessness, Hesitation
-
-Lymn
-----
-Life: 6
-Discard 1: Maddening Shot
-Discard 2: Chimeric Dash
-Special action available
-
-
-.A.L...
-..c....
-
-
-Arec:
-50% Returning Strike (Hesitation; move to clone)
-21% Returning Shot (move to clone)
-28% Returning Drive (move to clone)
-
-Lymn:
-30% Surreal Drive
-14% Surreal Burst
-56% Surreal Grasp
-
-
-Arec: Returning Strike (Hesitation; move to clone)
-Lymn: Surreal Drive
-
-Arec moves:
-
-..AL...
-
-
-Arec antes a Hesitation token
-Priorities:  4 | 5
-Lymn is active
-Disparity is 1
-Lymn hits
-Arec takes 3 damage (now at 9 life)
-Arec hits
-Lymn takes 4 damage (now at 2 life)
-Lymn is stunned
-
-Beat 15
--------
-
-Arec
-----
-Life: 9
-Discard 1: Returning Strike
-Discard 2: Mirrored Grasp
-Special action available
-pool: Recklessness
-
-Lymn
-----
-Life: 2
-Discard 1: Surreal Drive
-Discard 2: Maddening Shot
-Special action available
-
-
-..AL...
-
-
-Unbeatable strategy for Arec: Phantom Hex: 7.00
-Unbeatable strategy for Arec: Phantom Hex (Recklessness): 7.00
-Unbeatable strategy for Arec: Phantom Dash (Recklessness): 7.00
-Unbeatable strategy for Arec: Perceptional Hex: 7.00
-Unbeatable strategy for Arec: Perceptional Hex (Recklessness): 7.00
-Unbeatable strategy for Arec: Perceptional Dash: 7.00
-Unbeatable strategy for Arec: Perceptional Dash (Recklessness): 7.00
-Unbeatable strategy for Arec: Manipulative Shot: 7.00
-Unbeatable strategy for Arec: Manipulative Shot (Recklessness): 7.00
-Unbeatable strategy for Arec: Manipulative Drive: 7.00
-Unbeatable strategy for Arec: Manipulative Drive (Recklessness): 7.00
-Unbeatable strategy for Arec: Manipulative Dash (Recklessness): 7.00
-
-
-Arec:
-90% Perceptional Hex
-10% Perceptional Dash
-
-Lymn:
-99% Special Pulse
-1% Special Megrim
-
-
-Arec: Perceptional Hex
-Lymn: Special Pulse
-
-Pulse:
-
-.AL....
-
-
-
-Beat 15
--------
-
-Arec
-----
-Life: 9
-Discard 1: Perceptional Hex
-Discard 2: Returning Strike
-Special action available
-pool: Recklessness
-
-Lymn
-----
-Life: 2
-Discard 1: Surreal Drive
-Discard 2: Maddening Shot
-
-
-.AL....
-
-
-Unbeatable strategy for Arec: Phantom Grasp: 7.00
-Unbeatable strategy for Arec: Phantom Grasp (Recklessness): 7.00
-Unbeatable strategy for Arec: Phantom Dash (Recklessness): 7.00
-Unbeatable strategy for Arec: Mirrored Shot: 7.00
-Unbeatable strategy for Arec: Mirrored Shot (Recklessness): 7.00
-Unbeatable strategy for Arec: Mirrored Drive: 7.00
-Unbeatable strategy for Arec: Mirrored Drive (Recklessness): 7.00
-Unbeatable strategy for Arec: Mirrored Dash (Recklessness): 7.00
-Unbeatable strategy for Arec: Manipulative Shot: 7.00
-Unbeatable strategy for Arec: Manipulative Shot (Recklessness): 7.00
-Unbeatable strategy for Arec: Manipulative Drive: 7.00
-Unbeatable strategy for Arec: Manipulative Drive (Recklessness): 7.00
-Unbeatable strategy for Arec: Manipulative Dash (Recklessness): 7.00
-
-
-Arec:
-5% Phantom Shot
-5% Phantom Shot (Recklessness)
-5% Phantom Drive
-5% Phantom Drive (Recklessness)
-5% Phantom Grasp
-5% Phantom Grasp (Recklessness)
-5% Phantom Dash (Recklessness)
-5% Mirrored Shot
-5% Mirrored Shot (Recklessness)
-5% Mirrored Drive
-5% Mirrored Drive (Recklessness)
-5% Mirrored Burst (Recklessness)
-5% Mirrored Grasp
-5% Mirrored Grasp (Recklessness)
-5% Mirrored Dash (Recklessness)
-5% Manipulative Shot
-5% Manipulative Shot (Recklessness)
-5% Manipulative Drive
-5% Manipulative Drive (Recklessness)
-5% Manipulative Grasp
-5% Manipulative Grasp (Recklessness)
-5% Manipulative Dash (Recklessness)
-
-Lymn:
-4% Chimeric Visions
-4% Chimeric Strike
-4% Chimeric Burst
-9% Chimeric Grasp
-7% Chimeric Dash
-7% Reverie Visions
-13% Reverie Strike
-7% Reverie Burst
-7% Reverie Grasp
-7% Reverie Dash
-6% Fathomless Visions
-6% Fathomless Strike
-7% Fathomless Burst
-6% Fathomless Grasp
-7% Fathomless Dash
-
-
-Arec: Mirrored Grasp
-Lymn: Reverie Burst
-
-Priorities:  5 | 0
-Arec is active
 Disparity is 5
-Lymn loses 2 life (now at 1)
-Lymn is stunned
 Lymn moves:
 
-.A.L...
+...A.L.
 
 
 Arec hits
-Arec moves Lymn:
-
-.AL....
-
-
-Lymn takes 3 damage (now at 0 life)
+Lymn takes 4 damage (now at 0 life)
 AREC WINS!
-total_time: 60
+total_time: 51

@@ -11,17 +11,17 @@ Beat 1
 
 Aria
 ----
-life: 20
-discard 1: Laser Grasp
-discard 2: Ionic Dash
-special action
+Life: 20
+Discard 1: Laser Grasp
+Discard 2: Ionic Dash
+Special action available
 
 Danny
 -----
-life: 20
-discard 1: Fallen Burst
-discard 2: Vicious Shot
-special action
+Life: 20
+Discard 1: Fallen Burst
+Discard 2: Vicious Shot
+Special action available
 
 
 .A...D.
@@ -30,28 +30,81 @@ special action
 .......
 
 
-Unbeatable strategy for Danny: Monstrous Hellgate: -3.24
-Unbeatable strategy for Danny: Shackled Hellgate: -2.84
-Unbeatable strategy for Danny: Sinner's Hellgate: -3.17
+Unbeatable strategy for Danny: Monstrous Hellgate: -2.84
+Unbeatable strategy for Danny: Shackled Hellgate: -2.44
+Unbeatable strategy for Danny: Sinner's Hellgate: -2.77
+
 
 Aria:
-17% Dimensional Reconfiguration
-83% Special Pulse
+28% Photovoltaic Reconfiguration
+20% Dimensional Reconfiguration
+52% Special Pulse
 
 Danny:
-94% Shackled Hellgate
-0% Shackled Strike
-6% Shackled Grasp
+1% Monstrous Hellgate
+89% Shackled Hellgate
+10% Shackled Grasp
+
+
+Aria: Special Pulse
+Danny: Shackled Hellgate
+
+Pulse:
+
+D.....A
+.......
+.m.....
+.......
+
+
+
+Beat 1
+-------
+
+Aria
+----
+Life: 20
+Discard 1: Laser Grasp
+Discard 2: Ionic Dash
+
+Danny
+-----
+Life: 20
+Discard 1: Shackled Hellgate
+Discard 2: Fallen Burst
+Special action available
+
+
+D.....A
+.......
+.m.....
+.......
+
+
+Unbeatable strategy for Danny: Sinner's Drive: -1.54
+Unbeatable strategy for Danny: Vicious Strike: -0.25
+Unbeatable strategy for Danny: Vicious Drive: -0.13
+
+
+Aria:
+20% Photovoltaic Reconfiguration
+8% Photovoltaic Shot
+72% Dimensional Reconfiguration
+
+Danny:
+1% Monstrous Dash
+48% Sinner's Drive
+50% Vicious Drive
 
 
 Aria: Dimensional Reconfiguration
-Danny: Shackled Hellgate
+Danny: Vicious Drive
 
-Priorities:  7 | -1
+Priorities:  7 | 4
 Aria is active
 Aria moves:
 
-A....D.
+D...A..
 .......
 .m.....
 .......
@@ -59,8 +112,8 @@ A....D.
 
 Aria adds her Dampening droid:
 
-A....D.
-....d..
+D...A..
+...d...
 .m.....
 .......
 
@@ -68,27 +121,28 @@ A....D.
 Aria misses
 Danny moves:
 
-AD.....
-....d..
+.D..A..
+...d...
 .m.....
 .......
 
+
+Danny misses
+Danny adds monsters to the board:
+
+.D..A..
+...d...
+.m.....
+.......
+..m....
 
 Aria moves:
 
-.D...A.
-....d..
+.D....A
+...d...
 .m.....
 .......
-
-
-Danny adds monsters to the board:
-
-.D...A.
-....d..
-.m.....
-.......
-...mmm.
+..m....
 
 
 Beat 2
@@ -96,88 +150,85 @@ Beat 2
 
 Aria
 ----
-life: 20
-discard 1: Dimensional Reconfiguration
-discard 2: Laser Grasp
-special action
+Life: 20
+Discard 1: Dimensional Reconfiguration
+Discard 2: Laser Grasp
 
 Danny
 -----
-life: 20
-discard 1: Shackled Hellgate
-discard 2: Fallen Burst
-special action
+Life: 20
+Discard 1: Vicious Drive
+Discard 2: Shackled Hellgate
+Special action available
 
-
-.D...A.
-....d..
-.m.....
-.......
-...mmm.
-
-Aria:
-4% Photovoltaic Shot
-29% Photovoltaic Drive
-32% Photovoltaic Burst
-2% Catalyst Drive
-34% Catalyst Burst
-
-Danny:
-33% Monstrous Strike
-5% Monstrous Drive
-37% Sinner's Drive
-6% Sinner's Dash
-19% Vicious Grasp
-
-
-Aria: Photovoltaic Burst
-Danny: Monstrous Strike
-
-Priorities:  2 | 1
-Aria is active
-Aria moves:
 
 .D....A
-....d..
+...d...
 .m.....
 .......
-...mmm.
+..m....
+
+
+Aria:
+55% Photovoltaic Shot
+9% Photovoltaic Drive
+36% Photovoltaic Burst
+
+Danny:
+45% Sinner's Strike
+7% Sinner's Burst
+48% Sinner's Grasp
+
+
+Aria: Photovoltaic Shot
+Danny: Sinner's Grasp
+
+Priorities:  3 | 4
+Danny is active
+Danny misses
+Danny adds monsters to the board:
+
+.D....A
+...d...
+.m.....
+.......
+..m..m.
+
+Danny moves his monsters:
+
+.D....A
+...d...
+.m.....
+.......
+.m....m
 
 Aria hits
 Aria removes her Magnetron droid:
 
 .D....A
-....d..
+...d...
 .......
 .......
-...mmm.
+.m....m
 
 Aria gets +1 power
 Danny takes 3 damage (now at 17 life)
+Danny is stunned
 Aria removes monsters:
 
 .D....A
-....d..
+...d...
 .......
 .......
-....mm.
+......m
 
 Aria adds her Magnetron droid:
 
 .D....A
-....d..
+...d...
 ......m
 .......
-....mm.
-
-Danny misses
-Danny adds monsters to the board:
-
-.D....A
-....d..
 ......m
-.......
-m...mm.
 
 
 Beat 3
@@ -185,67 +236,66 @@ Beat 3
 
 Aria
 ----
-life: 20
-discard 1: Photovoltaic Burst
-discard 2: Dimensional Reconfiguration
-special action
+Life: 20
+Discard 1: Photovoltaic Shot
+Discard 2: Dimensional Reconfiguration
 
 Danny
 -----
-life: 17
-discard 1: Monstrous Strike
-discard 2: Shackled Hellgate
-special action
+Life: 17
+Discard 1: Sinner's Grasp
+Discard 2: Vicious Drive
+Special action available
 
 
 .D....A
-....d..
+...d...
 ......m
 .......
-m...mm.
+......m
+
+Unbeatable strategy for Danny: Monstrous Hellgate: -3.71
+Unbeatable strategy for Danny: Fallen Hellgate: -3.60
+Unbeatable strategy for Danny: Fallen Burst: -0.07
+Unbeatable strategy for Danny: Shackled Hellgate: -3.41
+
 
 Aria:
-23% Ionic Shot
-25% Ionic Drive
-52% Laser Shot
+100% Catalyst Dash
 
 Danny:
-58% Sinner's Shot
-41% Sinner's Burst
-0% Sinner's Grasp
+100% Monstrous Hellgate
 
 
-Aria: Ionic Drive
-Danny: Sinner's Shot
+Aria: Catalyst Dash
+Danny: Monstrous Hellgate
 
-Priorities:  5 | 2
+Aria gets +4 priority
+Priorities:  14 | -1
 Aria is active
-Aria moves Danny:
-
-..D...A
-....d..
-......m
-.......
-m...mm.
-
 Aria moves:
 
-..D.A..
-....d..
+.D.A...
+...d...
 ......m
 .......
-m...mm.
+......m
 
-Aria hits
-Danny takes 3 damage (now at 14 life)
-Danny is stunned
-Aria removes monsters:
+Danny moves:
 
-..D.A..
-....d..
+..DA...
+...d...
 ......m
 .......
-m...m..
+......m
+
+Danny adds monsters to the board:
+
+..DA...
+...d...
+......m
+.......
+.m.mm.m
 
 
 Beat 4
@@ -253,282 +303,240 @@ Beat 4
 
 Aria
 ----
-life: 20
-discard 1: Ionic Drive
-discard 2: Photovoltaic Burst
-special action
+Life: 20
+Discard 1: Catalyst Dash
+Discard 2: Photovoltaic Shot
 
 Danny
 -----
-life: 14
-discard 1: Sinner's Shot
-discard 2: Monstrous Strike
-special action
+Life: 17
+Discard 1: Monstrous Hellgate
+Discard 2: Sinner's Grasp
+Special action available
 
 
-..D.A..
-....d..
+..DA...
+...d...
 ......m
 .......
-m...m..
+.m.mm.m
+
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.33
+
 
 Aria:
-2% Laser Shot
-3% Dimensional Reconfiguration
-17% Dimensional Shot
-78% Special Pulse
+53% Ionic Strike
+15% Ionic Drive
+27% Ionic Burst
+5% Dimensional Reconfiguration
 
 Danny:
-47% Fallen Hellgate
-11% Vicious Hellgate
-0% Vicious Drive
-41% Vicious Grasp
+0% Fallen Burst
+42% Shackled Burst
+7% Vicious Shot
+51% Vicious Drive
 
 
-Aria: Special Pulse
-Danny: Fallen Hellgate
+Aria: Ionic Strike
+Danny: Vicious Drive
 
-Pulse:
-
-...D..A
-....d..
-......m
-.......
-m...m..
-
-
-Beat 4
--------
-
-Aria
-----
-life: 20
-discard 1: Ionic Drive
-discard 2: Photovoltaic Burst
-
-Danny
------
-life: 14
-discard 1: Fallen Hellgate
-discard 2: Sinner's Shot
-special action
-
-
-...D..A
-....d..
-......m
-.......
-m...m..
-
-Aria:
-12% Laser Shot
-37% Catalyst Strike
-23% Dimensional Reconfiguration
-29% Dimensional Shot
-
-Danny:
-5% Monstrous Drive
-40% Vicious Drive
-38% Vicious Burst
-17% Vicious Dash
-
-
-Aria: Dimensional Reconfiguration
-Danny: Vicious Dash
-
-Aria gets +2 power
-Priorities:  7 | 12
+Priorities:  4 | 6
 Danny is active
 Danny moves:
 
-.....DA
-....d..
+...A.D.
+...d...
 ......m
 .......
-m...m..
+.m.mm.m
 
-Aria moves:
+Danny hits
+Danny gets +1 power
+Aria takes 3 damage (now at 17 life)
+Aria hits
+Danny takes 4 damage (now at 13 life)
+Danny is stunned
+Aria removes monsters:
 
-A....D.
-....d..
+...A.D.
+...d...
 ......m
 .......
-m...m..
+.m.m..m
 
-Aria adds her Turret droid:
-
-A....D.
-....d..
-......m
-....t..
-m...m..
-
-Aria misses
-Aria moves:
-
-.A...D.
-....d..
-......m
-....t..
-m...m..
-
-Danny loses 1 life (now at 13)
 
 Beat 5
 -------
 
 Aria
 ----
-life: 20
-discard 1: Dimensional Reconfiguration
-discard 2: Ionic Drive
+Life: 17
+Discard 1: Ionic Strike
+Discard 2: Catalyst Dash
 
 Danny
 -----
-life: 13
-discard 1: Vicious Dash
-discard 2: Fallen Hellgate
-special action
+Life: 13
+Discard 1: Vicious Drive
+Discard 2: Monstrous Hellgate
+Special action available
 
 
-.A...D.
-....d..
+...A.D.
+...d...
 ......m
-....t..
-m...m..
+.......
+.m.m..m
+
+Unbeatable strategy for Aria: Photovoltaic Drive: 0.27
+
 
 Aria:
-32% Laser Strike
-54% Laser Shot
-4% Laser Grasp
-10% Catalyst Shot
+48% Photovoltaic Reconfiguration
+38% Photovoltaic Drive
+14% Photovoltaic Burst
 
 Danny:
-37% Monstrous Shot
-26% Sinner's Strike
-20% Sinner's Drive
-17% Sinner's Burst
+48% Shackled Strike
+19% Shackled Shot
+33% Sinner's Grasp
 
 
-Aria: Laser Strike
-Danny: Sinner's Strike
+Aria: Photovoltaic Reconfiguration
+Danny: Sinner's Grasp
 
-Priorities:  3 | 2
-Aria is active
-Aria hits
-Danny takes 4 damage (now at 9 life)
-Aria removes monsters:
+Priorities:  4 | 4
+Clash!
 
-.A...D.
-....d..
-......m
-....t..
-....m..
 
-Danny hits
-Aria takes 2 damage (now at 18 life)
-Danny adds monsters to the board:
+Aria: Photovoltaic Burst
+Danny: Sinner's Dash
+
+Priorities:  2 | 8
+Danny is active
+Aria moves:
 
 .A...D.
-....d..
+...d...
 ......m
-....t..
-.m..m..
+.......
+.m.m..m
 
 Danny moves his monsters:
 
 .A...D.
-....d..
+...d...
 ......m
-....t..
-.m.m...
+.......
+m..m.m.
 
-Danny loses 1 life (now at 8)
+Danny moves:
+
+.AD....
+...d...
+......m
+.......
+m..m.m.
+
+Aria misses
+Aria removes monsters:
+
+.AD....
+...d...
+......m
+.......
+m..m...
+
+Aria adds her Turret droid:
+
+.AD....
+...d...
+......m
+.t.....
+m..m...
+
+Danny loses 1 life (now at 12)
 
 Beat 6
 -------
 
 Aria
 ----
-life: 18
-discard 1: Laser Strike
-discard 2: Dimensional Reconfiguration
+Life: 17
+Discard 1: Photovoltaic Burst
+Discard 2: Ionic Strike
 
 Danny
 -----
-life: 8
-discard 1: Sinner's Strike
-discard 2: Vicious Dash
-special action
+Life: 12
+Discard 1: Sinner's Dash
+Discard 2: Vicious Drive
+Special action available
 
 
-.A...D.
-....d..
+.AD....
+...d...
 ......m
-....t..
-.m.m...
+.t.....
+m..m...
 
-Unbeatable strategy for Danny: Monstrous Hellgate: -4.15
-Unbeatable strategy for Danny: Fallen Hellgate: -2.16
-Unbeatable strategy for Danny: Shackled Hellgate: -2.38
+Unbeatable strategy for Danny: Monstrous Hellgate: -1.24
+Unbeatable strategy for Danny: Fallen Hellgate: -1.01
+Unbeatable strategy for Danny: Shackled Hellgate: -1.12
+
 
 Aria:
-96% Photovoltaic Shot
-4% Photovoltaic Burst
+19% Laser Drive
+64% Laser Grasp
+12% Catalyst Drive
+5% Dimensional Reconfiguration
 
 Danny:
-96% Monstrous Hellgate
-4% Monstrous Grasp
+56% Monstrous Hellgate
+9% Monstrous Burst
+3% Fallen Grasp
+32% Shackled Hellgate
 
 
-Aria: Photovoltaic Shot
-Danny: Monstrous Hellgate
+Aria: Laser Grasp
+Danny: Shackled Hellgate
 
-Priorities:  3 | -2
+Priorities:  5 | -1
 Aria is active
 Aria hits
-Aria removes her Magnetron droid:
+Aria moves Danny:
 
-.A...D.
-....d..
-.......
-....t..
-.m.m...
+DA.....
+...d...
+......m
+.t.....
+m..m...
 
-Aria gets +1 power
 Danny has 3 soak
-Danny takes 0 damage (now at 8 life)
+Danny takes 0 damage (now at 12 life)
 Aria removes monsters:
 
-.A...D.
-....d..
-.......
-....t..
-.m.....
-
-Aria adds her Magnetron droid:
-
-.A...D.
-....d..
-.m.....
-....t..
-.m.....
+DA.....
+...d...
+......m
+.t.....
+...m...
 
 Danny moves:
 
-.AD....
-....d..
-.m.....
-....t..
-.m.....
+.A.D...
+...d...
+......m
+.t.....
+...m...
 
 Danny adds monsters to the board:
 
-.AD....
-....d..
-.m.....
-....t..
-mm.mm..
+.A.D...
+...d...
+......m
+.t.....
+mmmm...
 
 
 Beat 7
@@ -536,70 +544,69 @@ Beat 7
 
 Aria
 ----
-life: 18
-discard 1: Photovoltaic Shot
-discard 2: Laser Strike
+Life: 17
+Discard 1: Laser Grasp
+Discard 2: Photovoltaic Burst
 
 Danny
 -----
-life: 8
-discard 1: Monstrous Hellgate
-discard 2: Sinner's Strike
-special action
+Life: 12
+Discard 1: Shackled Hellgate
+Discard 2: Sinner's Dash
+Special action available
 
 
-.AD....
-....d..
-.m.....
-....t..
-mm.mm..
+.A.D...
+...d...
+......m
+.t.....
+mmmm...
+
 
 Aria:
-16% Ionic Drive
-10% Ionic Burst
-17% Ionic Grasp
-57% Catalyst Reconfiguration
-0% Catalyst Drive
+8% Ionic Shot
+31% Ionic Drive
+7% Catalyst Strike
+6% Dimensional Reconfiguration
+48% Dimensional Dash
 
 Danny:
-5% Fallen Dash
-36% Shackled Drive
-12% Vicious Shot
-32% Vicious Drive
-15% Vicious Grasp
+17% Monstrous Strike
+44% Monstrous Shot
+33% Fallen Grasp
+4% Vicious Strike
+2% Vicious Grasp
 
 
-Aria: Ionic Grasp
-Danny: Shackled Drive
+Aria: Dimensional Dash
+Danny: Monstrous Strike
 
-Priorities:  6 | 2
+Priorities:  13 | 2
 Aria is active
-Aria moves Danny:
+Aria moves:
 
-DA.....
-....d..
-.m.....
-....t..
-mm.mm..
+...DA..
+...d...
+......m
+.t.....
+mmmm...
 
-Aria hits
-Aria moves Danny:
+Danny misses
+Danny adds monsters to the board:
 
-.AD....
-....d..
-.m.....
-....t..
-mm.mm..
+...DA..
+...d...
+......m
+.t.....
+mmmmm..
 
-Danny takes 2 damage (now at 6 life)
-Danny is stunned
-Aria removes monsters:
+Aria moves:
 
-.AD....
-....d..
-.m.....
-....t..
-mm..m..
+...D..A
+...d...
+......m
+.t.....
+mmmmm..
 
 
 Beat 8
@@ -607,79 +614,109 @@ Beat 8
 
 Aria
 ----
-life: 18
-discard 1: Ionic Grasp
-discard 2: Photovoltaic Shot
+Life: 17
+Discard 1: Dimensional Dash
+Discard 2: Laser Grasp
 
 Danny
 -----
-life: 6
-discard 1: Shackled Drive
-discard 2: Monstrous Hellgate
-special action
+Life: 12
+Discard 1: Monstrous Strike
+Discard 2: Shackled Hellgate
+Special action available
 
 
-.AD....
-....d..
-.m.....
-....t..
-mm..m..
+...D..A
+...d...
+......m
+.t.....
+mmmmm..
 
-Unbeatable strategy for Aria: Laser Dash: 0.08
+Unbeatable strategy for Aria: Photovoltaic Shot: 2.33
+Unbeatable strategy for Aria: Ionic Shot: 0.83
+
 
 Aria:
-15% Laser Drive
-43% Catalyst Reconfiguration
-5% Catalyst Drive
-19% Dimensional Reconfiguration
-17% Dimensional Drive
+63% Ionic Strike
+22% Ionic Shot
+15% Ionic Burst
 
 Danny:
-10% Fallen Strike
-4% Fallen Shot
-45% Sinner's Strike
-40% Sinner's Grasp
-1% Vicious Grasp
+3% Fallen Drive
+8% Sinner's Burst
+90% Special Pulse
 
 
-Aria: Dimensional Reconfiguration
-Danny: Sinner's Strike
+Aria: Ionic Strike
+Danny: Special Pulse
 
-Priorities:  7 | 2
-Aria is active
-Aria moves:
+Pulse:
 
-..DA...
-....d..
-.m.....
-....t..
-mm..m..
+A.....D
+...d...
+......m
+.t.....
+mmmmm..
 
-Aria misses
+
+Beat 8
+-------
+
+Aria
+----
+Life: 17
+Discard 1: Ionic Strike
+Discard 2: Dimensional Dash
+
+Danny
+-----
+Life: 12
+Discard 1: Monstrous Strike
+Discard 2: Shackled Hellgate
+
+
+A.....D
+...d...
+......m
+.t.....
+mmmmm..
+
+
+Aria:
+1% Laser Drive
+19% Catalyst Reconfiguration
+80% Catalyst Shot
+
+Danny:
+16% Fallen Shot
+81% Fallen Grasp
+4% Sinner's Drive
+
+
+Aria: Catalyst Shot
+Danny: Fallen Grasp
+
+Priorities:  3 | 4
+Danny is active
 Danny misses
 Danny adds monsters to the board:
 
-..DA...
-....d..
-.m.....
-....t..
-mm..mm.
+A.....D
+...d...
+......m
+.t.....
+mmmmmm.
 
-Danny moves his monsters:
+Aria hits
+Danny takes 2 damage (now at 10 life)
+Danny is stunned
+Aria removes monsters:
 
-..DA...
-....d..
-.m.....
-....t..
-mm...mm
-
-Aria moves:
-
-..D.A..
-....d..
-.m.....
-....t..
-mm...mm
+A.....D
+...d...
+......m
+.t.....
+mmm.mm.
 
 
 Beat 9
@@ -687,63 +724,69 @@ Beat 9
 
 Aria
 ----
-life: 18
-discard 1: Dimensional Reconfiguration
-discard 2: Ionic Grasp
+Life: 17
+Discard 1: Catalyst Shot
+Discard 2: Ionic Strike
 
 Danny
 -----
-life: 6
-discard 1: Sinner's Strike
-discard 2: Shackled Drive
-special action
+Life: 10
+Discard 1: Fallen Grasp
+Discard 2: Monstrous Strike
 
 
-..D.A..
-....d..
-.m.....
-....t..
-mm...mm
+A.....D
+...d...
+......m
+.t.....
+mmm.mm.
 
-Unbeatable strategy for Danny: Monstrous Hellgate: -3.21
-Unbeatable strategy for Danny: Fallen Hellgate: -1.77
-Unbeatable strategy for Danny: Vicious Hellgate: -1.08
 
 Aria:
-3% Photovoltaic Strike
-6% Photovoltaic Drive
-91% Laser Strike
+9% Photovoltaic Reconfiguration
+7% Laser Reconfiguration
+21% Dimensional Reconfiguration
+63% Dimensional Burst
 
 Danny:
-93% Monstrous Hellgate
-0% Monstrous Grasp
-7% Fallen Grasp
+9% Shackled Hellgate
+19% Shackled Shot
+15% Shackled Burst
+57% Vicious Shot
 
 
-Aria: Laser Strike
-Danny: Fallen Grasp
+Aria: Dimensional Burst
+Danny: Shackled Shot
 
-Priorities:  3 | 4
-Danny is active
+Priorities:  5 | 0
+Aria is active
+Aria misses
+Aria removes monsters:
+
+A.....D
+...d...
+......m
+.t.....
+mmm..m.
+
 Danny hits
-Danny moves Aria:
-
-..D..A.
-....d..
-.m.....
-....t..
-mm...mm
-
-Danny gets +2 power
-Aria takes 3 damage (now at 15 life)
+Aria takes 3 damage (now at 14 life)
 Aria is stunned
 Danny adds monsters to the board:
 
-..D..A.
-....d..
-.m.....
-....t..
-mm..mmm
+A.....D
+...d...
+......m
+.t.....
+mmm.mm.
+
+Aria moves:
+
+...A..D
+...d...
+......m
+.t.....
+mmm.mm.
 
 
 Beat 10
@@ -751,61 +794,75 @@ Beat 10
 
 Aria
 ----
-life: 15
-discard 1: Laser Strike
-discard 2: Dimensional Reconfiguration
+Life: 14
+Discard 1: Dimensional Burst
+Discard 2: Catalyst Shot
 
 Danny
 -----
-life: 6
-discard 1: Fallen Grasp
-discard 2: Sinner's Strike
-special action
+Life: 10
+Discard 1: Shackled Shot
+Discard 2: Fallen Grasp
 
 
-..D..A.
-....d..
-.m.....
-....t..
-mm..mmm
+...A..D
+...d...
+......m
+.t.....
+mmm.mm.
 
-Unbeatable strategy for Danny: Monstrous Hellgate: -3.36
-Unbeatable strategy for Danny: Shackled Hellgate: -2.88
-Unbeatable strategy for Danny: Vicious Hellgate: -1.62
+Unbeatable strategy for Danny: Monstrous Hellgate: -0.56
+Unbeatable strategy for Danny: Sinner's Hellgate: -0.62
+
 
 Aria:
-5% Photovoltaic Shot
-65% Photovoltaic Drive
-30% Catalyst Drive
+100% Photovoltaic Strike
 
 Danny:
-76% Monstrous Hellgate
-14% Shackled Hellgate
-10% Shackled Burst
+100% Sinner's Hellgate
 
 
-Aria: Catalyst Drive
-Danny: Shackled Burst
+Aria: Photovoltaic Strike
+Danny: Sinner's Hellgate
 
-Priorities:  5 | -1
+Priorities:  4 | -1
 Aria is active
-Danny moves:
+Aria hits
+Aria removes her Turret droid:
 
-D....A.
-....d..
-.m.....
-....t..
-mm..mmm
+...A..D
+...d...
+......m
+.......
+mmm.mm.
 
-Aria misses
-Danny misses
+Aria gets +1 power
+Danny has 3 soak
+Danny takes 1 damage (now at 9 life)
+Danny is stunned
+Aria removes monsters:
+
+...A..D
+...d...
+......m
+.......
+mmm..m.
+
+Aria adds her Turret droid:
+
+...A..D
+...d...
+......m
+...t...
+mmm..m.
+
 Danny adds monsters to the board:
 
-D....A.
-....d..
-.m.....
-....t..
-mm.mmmm
+...A..D
+...d...
+......m
+...t...
+mmmmmmm
 
 
 Beat 11
@@ -813,139 +870,127 @@ Beat 11
 
 Aria
 ----
-life: 15
-discard 1: Catalyst Drive
-discard 2: Laser Strike
+Life: 14
+Discard 1: Photovoltaic Strike
+Discard 2: Dimensional Burst
 
 Danny
 -----
-life: 6
-discard 1: Shackled Burst
-discard 2: Fallen Grasp
-special action
+Life: 9
+Discard 1: Sinner's Hellgate
+Discard 2: Shackled Shot
 
 
-D....A.
-....d..
-.m.....
-....t..
-mm.mmmm
-
-Unbeatable strategy for Danny: Vicious Shot: -0.84
-Unbeatable strategy for Danny: Vicious Drive: -0.05
-
-Aria:
-10% Photovoltaic Shot
-17% Ionic Reconfiguration
-15% Dimensional Reconfiguration
-57% Dimensional Shot
-
-Danny:
-21% Monstrous Strike
-36% Monstrous Shot
-17% Vicious Shot
-26% Vicious Drive
-
-
-Aria: Ionic Reconfiguration
-Danny: Vicious Shot
-
-Priorities:  4 | 6
-Danny is active
-Aria moves Danny:
-
-.D...A.
-....d..
-.m.....
-....t..
-mm.mmmm
-
-Danny hits
-Danny gets +1 power
-Aria takes 3 damage (now at 12 life)
-Aria is stunned
-Danny adds monsters to the board:
-
-.D...A.
-....d..
-.m.....
-....t..
+...A..D
+...d...
+......m
+...t...
 mmmmmmm
 
+
+Aria:
+5% Ionic Drive
+10% Laser Shot
+12% Laser Drive
+73% Catalyst Dash
+
+Danny:
+23% Monstrous Strike
+18% Fallen Strike
+39% Fallen Grasp
+19% Vicious Drive
+
+
+Aria: Catalyst Dash
+Danny: Fallen Grasp
+
+Priorities:  10 | 4
+Aria is active
+Aria moves:
+
+..A...D
+...d...
+......m
+...t...
+mmmmmmm
+
+Danny misses
 
 Beat 12
 -------
 
 Aria
 ----
-life: 12
-discard 1: Ionic Reconfiguration
-discard 2: Catalyst Drive
+Life: 14
+Discard 1: Catalyst Dash
+Discard 2: Photovoltaic Strike
 
 Danny
 -----
-life: 6
-discard 1: Vicious Shot
-discard 2: Shackled Burst
-special action
+Life: 9
+Discard 1: Fallen Grasp
+Discard 2: Sinner's Hellgate
 
 
-.D...A.
-....d..
-.m.....
-....t..
+..A...D
+...d...
+......m
+...t...
 mmmmmmm
 
-Unbeatable strategy for Danny: Fallen Drive: -0.04
+Unbeatable strategy for Danny: Vicious Strike: -0.36
+Unbeatable strategy for Danny: Vicious Drive: -0.04
+
 
 Aria:
-7% Photovoltaic Shot
-26% Laser Strike
-12% Laser Shot
-33% Dimensional Shot
-22% Dimensional Burst
+25% Laser Shot
+11% Laser Burst
+20% Dimensional Reconfiguration
+34% Dimensional Drive
+10% Dimensional Burst
 
 Danny:
-30% Monstrous Strike
-16% Monstrous Drive
-5% Fallen Strike
-49% Fallen Drive
-0% Special The Dark Ride
+5% Monstrous Strike
+3% Monstrous Drive
+1% Shackled Strike
+64% Vicious Strike
+27% Vicious Drive
 
 
-Aria: Laser Strike
-Danny: Fallen Drive
+Aria: Dimensional Drive
+Danny: Vicious Strike
 
-Priorities:  3 | 3
-Clash!
-
-Aria:
-100% Laser Dash
-
-Danny:
-100% Fallen Hellgate
-
-
-Aria: Laser Dash
-Danny: Fallen Hellgate
-
-Priorities:  9 | -1
+Priorities:  8 | 7
 Aria is active
 Aria moves:
 
-.DA....
-....d..
-.m.....
-....t..
+...A..D
+...d...
+......m
+...t...
 mmmmmmm
 
-Danny moves:
+Aria hits
+Danny takes 2 damage (now at 7 life)
+Aria removes monsters:
 
-D.A....
-....d..
-.m.....
-....t..
-mmmmmmm
+...A..D
+...d...
+......m
+...t...
+mmmmmm.
+
+Danny hits
+Danny gets +3 power
+Aria takes 6 damage (now at 8 life)
+Aria is stunned
+Aria moves:
+
+.....AD
+...d...
+......m
+...t...
+mmmmmm.
 
 
 Beat 13
@@ -953,269 +998,201 @@ Beat 13
 
 Aria
 ----
-life: 12
-discard 1: Laser Dash
-discard 2: Ionic Reconfiguration
+Life: 8
+Discard 1: Dimensional Drive
+Discard 2: Catalyst Dash
 
 Danny
 -----
-life: 6
-discard 1: Fallen Hellgate
-discard 2: Vicious Shot
-special action
+Life: 7
+Discard 1: Vicious Strike
+Discard 2: Fallen Grasp
 
 
-D.A....
-....d..
-.m.....
-....t..
-mmmmmmm
+.....AD
+...d...
+......m
+...t...
+mmmmmm.
+
+Unbeatable strategy for Aria: Photovoltaic Strike: 0.08
+
 
 Aria:
-40% Photovoltaic Strike
-22% Photovoltaic Drive
-31% Dimensional Shot
-7% Dimensional Grasp
+100% Photovoltaic Strike
 
 Danny:
-13% Monstrous Strike
-62% Monstrous Dash
-20% Sinner's Grasp
-5% Sinner's Dash
+100% Monstrous Hellgate
 
 
 Aria: Photovoltaic Strike
-Danny: Monstrous Dash
+Danny: Monstrous Hellgate
 
-Priorities:  4 | 7
-Danny is active
-Danny moves:
+Priorities:  4 | -2
+Aria is active
+Aria hits
+Aria removes her Dampening droid:
 
-..AD...
-....d..
-.m.....
-....t..
+.....AD
+.......
+......m
+...t...
+mmmmmm.
+
+Aria gets +1 power
+Aria removes her Magnetron droid:
+
+.....AD
+.......
+.......
+...t...
+mmmmmm.
+
+Aria gets +1 power
+Aria removes her Turret droid:
+
+.....AD
+.......
+.......
+.......
+mmmmmm.
+
+Aria gets +1 power
+Danny has 3 soak
+Danny takes 3 damage (now at 4 life)
+Danny is stunned
+Aria adds her Turret droid:
+
+.....AD
+.......
+.......
+.....t.
+mmmmmm.
+
+Danny loses 1 life (now at 3)
+Danny adds monsters to the board:
+
+.....AD
+.......
+.......
+.....t.
 mmmmmmm
 
-Aria misses
-Aria removes monsters:
-
-..AD...
-....d..
-.m.....
-....t..
-.mmmmmm
-
-Danny loses 1 life (now at 5)
 
 Beat 14
 -------
 
 Aria
 ----
-life: 12
-discard 1: Photovoltaic Strike
-discard 2: Laser Dash
+Life: 8
+Discard 1: Photovoltaic Strike
+Discard 2: Dimensional Drive
 
 Danny
 -----
-life: 5
-discard 1: Monstrous Dash
-discard 2: Fallen Hellgate
-special action
+Life: 3
+Discard 1: Monstrous Hellgate
+Discard 2: Vicious Strike
 
 
-..AD...
-....d..
-.m.....
-....t..
-.mmmmmm
+.....AD
+.......
+.......
+.....t.
+mmmmmmm
+
+Unbeatable strategy for Danny: Fallen Drive: -0.67
+Unbeatable strategy for Danny: Fallen Grasp: -0.54
+Unbeatable strategy for Danny: Shackled Drive: -0.04
+
 
 Aria:
-20% Ionic Drive
-3% Ionic Burst
-2% Catalyst Drive
-16% Dimensional Drive
-59% Dimensional Grasp
+30% Ionic Reconfiguration
+12% Ionic Shot
+58% Ionic Grasp
 
 Danny:
-25% Shackled Drive
-36% Sinner's Drive
-22% Vicious Strike
-8% Vicious Shot
-9% Vicious Drive
+32% Fallen Shot
+56% Fallen Drive
+12% Fallen Grasp
 
 
-Aria: Dimensional Grasp
-Danny: Shackled Drive
+Aria: Ionic Grasp
+Danny: Fallen Shot
 
-Priorities:  9 | 3
+Priorities:  6 | 2
 Aria is active
-Aria misses
+Aria hits
+Aria moves Danny:
+
+....DA.
+.......
+.......
+.....t.
+mmmmmmm
+
+Danny takes 2 damage (now at 1 life)
 Aria removes monsters:
 
-..AD...
-....d..
-.m.....
-....t..
-.mmmm.m
-
-Danny moves:
-
-.DA....
-....d..
-.m.....
-....t..
-.mmmm.m
+....DA.
+.......
+.......
+.....t.
+mmmm.mm
 
 Danny hits
-Aria takes 3 damage (now at 9 life)
+Danny gets +2 power
+Aria takes 4 damage (now at 4 life)
 Aria is stunned
-Danny adds monsters to the board:
-
-.DA....
-....d..
-.m.....
-....t..
-mmmmm.m
-
-Aria moves:
-
-.D...A.
-....d..
-.m.....
-....t..
-mmmmm.m
-
+Danny loses 1 life (now at 1)
 
 Beat 15
 -------
 
 Aria
 ----
-life: 9
-discard 1: Dimensional Grasp
-discard 2: Photovoltaic Strike
+Life: 4
+Discard 1: Ionic Grasp
+Discard 2: Photovoltaic Strike
 
 Danny
 -----
-life: 5
-discard 1: Shackled Drive
-discard 2: Monstrous Dash
-special action
+Life: 1
+Discard 1: Fallen Shot
+Discard 2: Monstrous Hellgate
 
 
-.D...A.
-....d..
-.m.....
-....t..
-mmmmm.m
+....DA.
+.......
+.......
+.....t.
+mmmm.mm
 
-Unbeatable strategy for Aria: Ionic Shot: 10.00
-Unbeatable strategy for Aria: Catalyst Shot: 10.00
 
 Aria:
-85% Laser Reconfiguration
-15% Laser Drive
+4% Laser Reconfiguration
+5% Laser Dash
+5% Catalyst Reconfiguration
+58% Catalyst Burst
+7% Catalyst Dash
+3% Dimensional Reconfiguration
+6% Dimensional Drive
+11% Dimensional Dash
 
 Danny:
-2% Fallen Burst
-98% Special Pulse
+12% Shackled Strike
+35% Shackled Drive
+22% Shackled Burst
+30% Vicious Strike
 
 
-Aria: Laser Reconfiguration
-Danny: Special Pulse
+Aria: Catalyst Reconfiguration
+Danny: Vicious Strike
 
-Pulse:
-
-A.....D
-....d..
-.m.....
-....t..
-mmmmm.m
-
-
-Beat 15
--------
-
-Aria
-----
-life: 9
-discard 1: Laser Reconfiguration
-discard 2: Dimensional Grasp
-
-Danny
------
-life: 5
-discard 1: Shackled Drive
-discard 2: Monstrous Dash
-
-
-A.....D
-....d..
-.m.....
-....t..
-mmmmm.m
-
-Unbeatable strategy for Aria: Catalyst Strike: 10.00
-Unbeatable strategy for Aria: Catalyst Dash: 10.00
-
-Aria:
-19% Catalyst Strike
-20% Catalyst Shot
-21% Catalyst Drive
-20% Catalyst Burst
-19% Catalyst Dash
-
-Danny:
-10% Fallen Hellgate
-0% Fallen Strike
-1% Fallen Shot
-1% Fallen Burst
-1% Fallen Grasp
-10% Sinner's Hellgate
-9% Sinner's Strike
-9% Sinner's Shot
-10% Sinner's Burst
-9% Sinner's Grasp
-10% Vicious Hellgate
-2% Vicious Strike
-10% Vicious Shot
-10% Vicious Burst
-10% Vicious Grasp
-
-
-Aria: Catalyst Strike
-Danny: Sinner's Shot
-
-Priorities:  4 | 2
-Aria is active
-Aria misses
-Aria removes monsters:
-
-A.....D
-....d..
-.m.....
-....t..
-mm.mm.m
-
-Danny misses
-Danny adds monsters to the board:
-
-A.....D
-....d..
-.m.....
-....t..
-mmmmm.m
-
-Danny moves his monsters:
-
-A.....D
-....d..
-.m.....
-....t..
-mmmmmm.
-
-Game goes to time
-ARIA WINS!
-total_time: 93
+Priorities:  4 | 8
+Danny is active
+Danny hits
+Danny gets +1 power
+Aria takes 4 damage (now at 0 life)
+DANNY WINS!
+total_time: 116

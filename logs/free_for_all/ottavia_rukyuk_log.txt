@@ -11,65 +11,75 @@ Beat 1
 
 Ottavia
 -------
-life: 20
-discard 1: Cybernetic Strike
-discard 2: Demolition Shot
-special action
+Life: 20
+Discard 1: Cybernetic Strike
+Discard 2: Demolition Shot
+Special action available
 
 Rukyuk
 ------
-life: 20
-discard 1: Crossfire Reload
-discard 2: Trick Shot
-special action
+Life: 20
+Discard 1: Crossfire Reload
+Discard 2: Trick Shot
+Special action available
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
 .O...R.
 
+
 Ottavia:
-10% Snapback Grasp (Target Lock: 6)
-14% Snapback Dash (Target Lock: 9)
-1% Anti-Personnel Drive (Target Lock: 6)
-6% Anti-Personnel Grasp (Target Lock: 5)
-5% Anti-Personnel Grasp (Target Lock: 6)
-7% Anti-Personnel Grasp (Target Lock: 7)
-5% Anti-Personnel Grasp (Target Lock: 9)
-3% Anti-Personnel Dash (Target Lock: 8)
+6% Snapback Grasp (Target Lock: 6)
+2% Snapback Grasp (Target Lock: 7)
+15% Snapback Dash (Target Lock: 9)
+1% Anti-Personnel Shooter (Target Lock: 3)
+3% Anti-Personnel Drive (Target Lock: 6)
+7% Anti-Personnel Grasp (Target Lock: 5)
+6% Anti-Personnel Grasp (Target Lock: 6)
+5% Anti-Personnel Grasp (Target Lock: 7)
+4% Anti-Personnel Grasp (Target Lock: 9)
 24% Anti-Personnel Dash (Target Lock: 9)
-1% Cover Shooter (Target Lock: 3)
-0% Cover Shooter (Target Lock: 6)
-24% Cover Dash (Target Lock: 7)
+26% Cover Dash (Target Lock: 7)
 
 Rukyuk:
-5% Sniper Strike (AP)
-1% Sniper Drive (AP)
-14% Sniper Drive (Longshot)
+11% Sniper Strike (AP)
+0% Sniper Drive (AP)
+15% Sniper Drive (Longshot)
 15% Sniper Drive (Swift)
-5% Sniper Burst (Explosive)
-0% Sniper Burst (Swift)
+1% Sniper Burst (Explosive)
+2% Sniper Burst (Swift)
 13% Sniper Grasp (Explosive)
 16% Sniper Grasp (Swift)
-6% Gunner Strike (Explosive)
-6% Gunner Strike (Longshot)
-12% Gunner Drive (Longshot)
-7% Gunner Grasp (Explosive)
+10% Gunner Strike (Explosive)
+4% Gunner Strike (Longshot)
+13% Gunner Drive (Longshot)
 
 
-Ottavia: Cover Dash (Target Lock: 7)
-Rukyuk: Gunner Grasp (Explosive)
+Ottavia: Anti-Personnel Dash (Target Lock: 9)
+Rukyuk: Sniper Drive (Swift)
 
-Rukyuk antes an Explosive token
-Priorities:  6 | 5
-Ottavia is active
-Ottavia moves:
+Rukyuk antes a Swift token
+Priorities:  8 | 8
+Clash!
 
-...O.R.
 
-Rukyuk misses
+Ottavia: Anti-Personnel Shooter (Target Lock: 9)
+Rukyuk: Sniper Strike (Swift)
+
+Rukyuk antes a Swift token
+Priorities:  1 | 7
+Rukyuk is active
+Rukyuk hits
+Ottavia is stunned
+Ottavia takes 5 damage (now at 15 life)
+Ottavia is stunned
 Rukyuk moves:
 
-..RO...
+.OR....
+
+Ottavia moves:
+
+..R.O..
 
 
 Beat 2
@@ -77,99 +87,142 @@ Beat 2
 
 Ottavia
 -------
-life: 20
-discard 1: Cover Dash
-discard 2: Cybernetic Strike
-special action
+Life: 15
+Discard 1: Anti-Personnel Shooter
+Discard 2: Cybernetic Strike
+Special action available
 
 Rukyuk
 ------
-life: 20
-discard 1: Gunner Grasp
-discard 2: Crossfire Reload
-special action
-pool: AP, Flash, Impact, Longshot, Swift
+Life: 20
+Discard 1: Sniper Strike
+Discard 2: Crossfire Reload
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot
 
+
+..R.O..
+
+
+Ottavia:
+21% Snapback Shot (Target Lock: 5)
+25% Snapback Dash (Target Lock: 5)
+9% Demolition Shot (Target Lock: 4)
+3% Demolition Shot (Target Lock: 5)
+2% Demolition Drive (Target Lock: 5)
+24% Demolition Drive (Target Lock: 9)
+1% Demolition Burst (Target Lock: 4)
+1% Demolition Burst (Target Lock: 5)
+11% Cover Shot (Target Lock: 2)
+0% Cover Grasp (Target Lock: 2)
+3% Cover Dash (Target Lock: 1)
+
+Rukyuk:
+33% Point Blank Shot (Explosive)
+4% Point Blank Drive (Explosive)
+1% Point Blank Drive (Impact)
+3% Point Blank Burst (Longshot)
+5% Gunner Drive
+7% Gunner Drive (Longshot)
+10% Gunner Burst
+11% Gunner Burst (Flash)
+13% Gunner Grasp (Flash)
+2% Gunner Dash
+11% Trick Dash
+
+
+Ottavia: Demolition Drive (Target Lock: 9)
+Rukyuk: Gunner Drive (Longshot)
+
+Rukyuk antes a Longshot token
+Priorities:  5 | 4
+Ottavia is active
+Ottavia moves:
+
+.OR....
+
+Ottavia hits
+Rukyuk takes 3 damage (now at 17 life)
+Rukyuk is stunned
+Ottavia moves:
 
 ..RO...
 
-Ottavia:
-17% Demolition Shooter (Target Lock: 4)
-4% Demolition Shooter (Target Lock: 5)
-43% Demolition Drive (Target Lock: 6)
-10% Demolition Drive (Target Lock: 11)
-25% Demolition Burst (Target Lock: 11)
-
-Rukyuk:
-16% Sniper Strike
-33% Sniper Dash
-17% Point Blank Strike (Swift)
-20% Point Blank Shot (Swift)
-13% Point Blank Drive (Swift)
-
-
-Ottavia: Demolition Shooter (Target Lock: 5)
-Rukyuk: Sniper Strike
-
-Ottavia acquires target lock
-Priorities:  3 | -5
-Ottavia is active
-Ottavia hits
-Rukyuk takes 4 damage (now at 16 life)
-Rukyuk is stunned
 
 Beat 3
 -------
 
 Ottavia
 -------
-life: 20
-discard 1: Demolition Shooter
-discard 2: Cover Dash
-special action
+Life: 15
+Discard 1: Demolition Drive
+Discard 2: Anti-Personnel Shooter
+Special action available
 
 Rukyuk
 ------
-life: 16
-discard 1: Sniper Strike
-discard 2: Gunner Grasp
-special action
-pool: AP, Flash, Impact, Longshot, Swift
+Life: 17
+Discard 1: Gunner Drive
+Discard 2: Sniper Strike
+Special action available
+pool: AP, Explosive, Flash, Impact
 
 
 ..RO...
 
+Unbeatable strategy for Rukyuk: Crossfire Reload: -0.47
+Unbeatable strategy for Rukyuk: Crossfire Reload (AP): -0.47
+Unbeatable strategy for Rukyuk: Crossfire Reload (Explosive): -0.47
+Unbeatable strategy for Rukyuk: Crossfire Reload (Flash): -0.47
+Unbeatable strategy for Rukyuk: Crossfire Reload (Impact): -0.47
+
+
 Ottavia:
-13% Snapback Drive (Target Lock: 4)
-14% Snapback Drive (Target Lock: 6)
+0% Cover Burst (Target Lock: 2)
+13% Cover Grasp (Target Lock: -1)
+7% Cover Grasp (Target Lock: 4)
+0% Cover Grasp (Target Lock: 5)
+20% Cover Grasp (Target Lock: 7)
 18% Cybernetic Strike (Target Lock: 4)
-17% Cybernetic Strike (Target Lock: 7)
-12% Cybernetic Shot (Target Lock: 7)
-25% Cybernetic Drive (Target Lock: 6)
-1% Cybernetic Drive (Target Lock: 7)
+14% Cybernetic Strike (Target Lock: 5)
+4% Cybernetic Strike (Target Lock: 7)
+23% Cybernetic Shot (Target Lock: 5)
 
 Rukyuk:
-9% Point Blank Drive (AP)
-7% Point Blank Drive (Swift)
-38% Crossfire Reload
-1% Crossfire Reload (Swift)
-2% Crossfire Shot (Longshot)
-15% Crossfire Burst
-28% Crossfire Dash
+1% Point Blank Reload
+1% Point Blank Reload (AP)
+1% Point Blank Reload (Explosive)
+1% Point Blank Reload (Flash)
+1% Point Blank Reload (Impact)
+11% Point Blank Shot (AP)
+1% Point Blank Shot (Explosive)
+3% Point Blank Grasp (Explosive)
+14% Crossfire Reload
+46% Crossfire Reload (AP)
+2% Crossfire Grasp
+9% Crossfire Dash
+2% Trick Reload
+2% Trick Reload (AP)
+2% Trick Reload (Explosive)
+2% Trick Reload (Flash)
+2% Trick Reload (Impact)
 
 
-Ottavia: Cybernetic Drive (Target Lock: 6)
+Ottavia: Cybernetic Shot (Target Lock: 5)
+Rukyuk: Crossfire Reload
+
+Priorities:  2 | 2
+Clash!
+
+
+Ottavia: Cybernetic Strike (Target Lock: 5)
 Rukyuk: Crossfire Dash
 
-Priorities:  4 | 7
+Priorities:  3 | 7
 Rukyuk is active
 Rukyuk moves:
 
 ...OR..
-
-Ottavia moves:
-
-....RO.
 
 Ottavia misses
 
@@ -178,85 +231,61 @@ Beat 4
 
 Ottavia
 -------
-life: 20
-discard 1: Cybernetic Drive
-discard 2: Demolition Shooter
-special action
+Life: 15
+Discard 1: Cybernetic Strike
+Discard 2: Demolition Drive
+Special action available
 
 Rukyuk
 ------
-life: 16
-discard 1: Crossfire Dash
-discard 2: Sniper Strike
-special action
-pool: AP, Flash, Impact, Longshot, Swift
+Life: 17
+Discard 1: Crossfire Dash
+Discard 2: Gunner Drive
+Special action available
+pool: AP, Explosive, Flash, Impact
 
 
-....RO.
+...OR..
+
 
 Ottavia:
-5% Anti-Personnel Grasp (Target Lock: -2)
-5% Anti-Personnel Grasp (Target Lock: -1)
-5% Anti-Personnel Grasp (Target Lock: 0)
-5% Anti-Personnel Grasp (Target Lock: 3)
-5% Anti-Personnel Grasp (Target Lock: 5)
-5% Anti-Personnel Grasp (Target Lock: 6)
-5% Anti-Personnel Grasp (Target Lock: 7)
-2% Cover Shot (Target Lock: -2)
+23% Snapback Burst (Target Lock: 6)
+4% Cover Shooter (Target Lock: 2)
 9% Cover Shot (Target Lock: -1)
-2% Cover Shot (Target Lock: 0)
-11% Cover Shot (Target Lock: 1)
 25% Cover Shot (Target Lock: 2)
-1% Cover Shot (Target Lock: 3)
-2% Cover Shot (Target Lock: 5)
-2% Cover Shot (Target Lock: 7)
-15% Cover Dash (Target Lock: 3)
+19% Cover Burst (Target Lock: 6)
+17% Cover Grasp (Target Lock: 2)
+2% Cover Dash (Target Lock: 4)
 
 Rukyuk:
-6% Point Blank Drive (Swift)
-73% Gunner Reload
-21% Gunner Reload (Swift)
+31% Sniper Reload
+7% Point Blank Reload
+7% Point Blank Reload (AP)
+5% Point Blank Reload (Explosive)
+7% Point Blank Reload (Flash)
+6% Point Blank Reload (Impact)
+9% Point Blank Shot (Explosive)
+2% Point Blank Burst (Flash)
+12% Trick Reload
+15% Trick Shot (Explosive)
 
 
-Ottavia: Anti-Personnel Grasp (Target Lock: -1)
-Rukyuk: Gunner Reload
+Ottavia: Snapback Burst (Target Lock: 6)
+Rukyuk: Sniper Reload
 
-Priorities:  4 | 4
-Clash!
-
-Ottavia:
-8% Anti-Personnel Strike (Target Lock: -1)
-0% Anti-Personnel Shot (Target Lock: -1)
-91% Anti-Personnel Burst (Target Lock: -1)
-
-Rukyuk:
-38% Gunner Shot
-41% Gunner Drive
-20% Gunner Burst
-
-
-Ottavia: Anti-Personnel Burst (Target Lock: -1)
-Rukyuk: Gunner Drive
-
-Priorities:  0 | 4
-Rukyuk is active
+Ottavia acquires target lock
+Priorities:  1 | -4
+Ottavia is active
 Ottavia moves:
 
-....R.O
+.O..R..
 
-Rukyuk moves:
-
-.....RO
-
-Rukyuk misses
-Rukyuk moves:
-
-....R.O
-
-Ottavia misses
+Ottavia hits
+Rukyuk takes 3 damage (now at 14 life)
+Rukyuk is stunned
 Ottavia moves:
 
-..O.R..
+O...R..
 
 
 Beat 5
@@ -264,71 +293,63 @@ Beat 5
 
 Ottavia
 -------
-life: 20
-discard 1: Anti-Personnel Burst
-discard 2: Cybernetic Drive
-special action
+Life: 15
+Discard 1: Snapback Burst
+Discard 2: Cybernetic Strike
+Special action available
 
 Rukyuk
 ------
-life: 16
-discard 1: Gunner Drive
-discard 2: Crossfire Dash
-special action
-pool: AP, Flash, Impact, Longshot, Swift
+Life: 14
+Discard 1: Sniper Reload
+Discard 2: Crossfire Dash
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-..O.R..
+O...R..
+
 
 Ottavia:
-21% Demolition Shooter (Target Lock: 4)
-14% Demolition Shooter (Target Lock: 5)
-3% Demolition Shooter (Target Lock: 7)
-9% Demolition Shot (Target Lock: 3)
-10% Demolition Shot (Target Lock: 5)
-14% Cover Shooter (Target Lock: 3)
-11% Cover Shooter (Target Lock: 5)
-4% Cover Shooter (Target Lock: 8)
-8% Cover Dash (Target Lock: 3)
-6% Cover Dash (Target Lock: 7)
+2% Anti-Personnel Drive (Target Lock: 3)
+13% Anti-Personnel Drive (Target Lock: 4)
+3% Anti-Personnel Drive (Target Lock: 5)
+1% Anti-Personnel Drive (Target Lock: 7)
+9% Anti-Personnel Grasp (Target Lock: 5)
+0% Anti-Personnel Grasp (Target Lock: 6)
+2% Anti-Personnel Grasp (Target Lock: 7)
+8% Cover Shooter (Target Lock: 3)
+2% Cover Shot (Target Lock: 5)
+60% Cover Dash (Target Lock: 7)
 
 Rukyuk:
-7% Sniper Reload
-7% Sniper Reload (Longshot)
-21% Sniper Reload (Swift)
-1% Point Blank Strike (Flash)
-9% Point Blank Strike (Swift)
-16% Point Blank Shot (Swift)
-17% Point Blank Burst (Swift)
-4% Point Blank Grasp (Flash)
-17% Point Blank Grasp (Swift)
-0% Trick Reload
-0% Trick Reload (AP)
-0% Trick Reload (Flash)
-0% Trick Reload (Impact)
-0% Trick Reload (Longshot)
+12% Gunner Strike (Explosive)
+1% Gunner Strike (Flash)
+0% Gunner Strike (Swift)
+19% Gunner Drive (AP)
+19% Gunner Drive (Swift)
+2% Gunner Burst (Flash)
+8% Gunner Burst (Swift)
+3% Gunner Grasp (Explosive)
+16% Gunner Grasp (Flash)
+20% Gunner Grasp (Swift)
 
 
-Ottavia: Demolition Shooter (Target Lock: 5)
-Rukyuk: Sniper Reload (Swift)
+Ottavia: Cover Dash (Target Lock: 7)
+Rukyuk: Gunner Grasp (Swift)
 
 Rukyuk antes a Swift token
-Priorities:  3 | 8
-Rukyuk is active
-Rukyuk moves:
-
-R.O....
-
-Rukyuk moves:
-
-..O...R
-
-Ottavia hits
-Rukyuk takes 4 damage (now at 12 life)
-Rukyuk is stunned
+Ottavia acquires target lock
+Priorities:  6 | -3
+Ottavia is active
 Ottavia moves:
 
-.....OR
+...OR..
+
+Rukyuk misses
+Rukyuk moves:
+
+...O..R
 
 
 Beat 6
@@ -336,243 +357,260 @@ Beat 6
 
 Ottavia
 -------
-life: 20
-discard 1: Demolition Shooter
-discard 2: Anti-Personnel Burst
-special action
+Life: 15
+Discard 1: Cover Dash
+Discard 2: Snapback Burst
+Special action available
 
 Rukyuk
 ------
-life: 12
-discard 1: Sniper Reload
-discard 2: Gunner Drive
-special action
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+Life: 14
+Discard 1: Gunner Grasp
+Discard 2: Sniper Reload
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot
 
 
-.....OR
+...O..R
+
+Unbeatable strategy for Ottavia: Anti-Personnel Grasp (Target Lock: 4): 0.32
+Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 4): 0.99
+
 
 Ottavia:
-6% Cover Drive (Target Lock: 2)
-11% Cover Drive (Target Lock: 4)
-24% Cybernetic Strike (Target Lock: 7)
-43% Cybernetic Drive (Target Lock: 5)
-8% Cybernetic Drive (Target Lock: 6)
-7% Cybernetic Drive (Target Lock: 7)
+5% Demolition Shooter (Target Lock: 4)
+10% Demolition Shot (Target Lock: 4)
+13% Demolition Drive (Target Lock: 7)
+16% Demolition Drive (Target Lock: 9)
+8% Anti-Personnel Shooter (Target Lock: 7)
+8% Anti-Personnel Strike (Target Lock: 7)
+8% Anti-Personnel Drive (Target Lock: 9)
+20% Anti-Personnel Grasp (Target Lock: 6)
+12% Anti-Personnel Grasp (Target Lock: 7)
 
 Rukyuk:
-6% Point Blank Strike (Swift)
-8% Point Blank Shot (AP)
-12% Point Blank Shot (Swift)
-25% Crossfire Shot
-32% Crossfire Dash
-17% Trick Dash
+3% Point Blank Strike (Explosive)
+9% Point Blank Strike (Longshot)
+9% Point Blank Drive (Longshot)
+13% Point Blank Dash
+6% Crossfire Strike (Longshot)
+29% Crossfire Dash
+8% Trick Drive (Longshot)
+23% Trick Dash
 
 
-Ottavia: Cover Drive (Target Lock: 4)
-Rukyuk: Crossfire Shot
+Ottavia: Anti-Personnel Grasp (Target Lock: 7)
+Rukyuk: Point Blank Strike (Longshot)
 
-Priorities:  1 | 0
+Rukyuk antes a Longshot token
+Priorities:  4 | 3
 Ottavia is active
-Ottavia misses
-Rukyuk misses
+Ottavia hits
+Ottavia moves Rukyuk:
+
+...O.R.
+
+Rukyuk takes 5 damage (now at 9 life)
+Rukyuk hits
+Ottavia is stunned
+Ottavia takes 4 damage (now at 11 life)
+Rukyuk moves Ottavia:
+
+..O..R.
+
+Ottavia is stunned
+Ottavia moves:
+
+.....RO
+
 
 Beat 7
 -------
 
 Ottavia
 -------
-life: 20
-discard 1: Cover Drive
-discard 2: Demolition Shooter
-special action
+Life: 11
+Discard 1: Anti-Personnel Grasp
+Discard 2: Cover Dash
+Special action available
 
 Rukyuk
 ------
-life: 12
-discard 1: Crossfire Shot
-discard 2: Sniper Reload
-special action
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+Life: 9
+Discard 1: Point Blank Strike
+Discard 2: Gunner Grasp
+Special action available
+pool: AP, Explosive, Flash, Impact
 
 
-.....OR
+.....RO
+
+Unbeatable strategy for Rukyuk: Crossfire Reload: -0.74
+Unbeatable strategy for Rukyuk: Crossfire Reload (AP): -0.74
+Unbeatable strategy for Rukyuk: Crossfire Reload (Explosive): -0.74
+Unbeatable strategy for Rukyuk: Crossfire Reload (Flash): -0.74
+Unbeatable strategy for Rukyuk: Crossfire Reload (Impact): -0.74
+Unbeatable strategy for Rukyuk: Trick Reload: -0.53
+Unbeatable strategy for Rukyuk: Trick Reload (AP): -0.53
+Unbeatable strategy for Rukyuk: Trick Reload (Explosive): -0.53
+Unbeatable strategy for Rukyuk: Trick Reload (Flash): -0.53
+Unbeatable strategy for Rukyuk: Trick Reload (Impact): -0.53
+
 
 Ottavia:
-34% Snapback Dash (Target Lock: 9)
-21% Cybernetic Strike (Target Lock: 4)
-14% Cybernetic Strike (Target Lock: 5)
-6% Cybernetic Strike (Target Lock: 6)
-2% Cybernetic Shot (Target Lock: 6)
-9% Cybernetic Burst (Target Lock: 3)
-13% Cybernetic Grasp (Target Lock: 6)
-1% Cybernetic Grasp (Target Lock: 9)
+9% Snapback Shooter (Target Lock: 7)
+5% Demolition Shooter (Target Lock: 3)
+75% Demolition Shooter (Target Lock: 6)
+6% Demolition Shooter (Target Lock: 11)
+5% Cybernetic Burst (Target Lock: 3)
 
 Rukyuk:
-9% Point Blank Drive (Explosive)
-16% Point Blank Drive (Swift)
-4% Point Blank Grasp (Explosive)
-9% Point Blank Grasp (Longshot)
-11% Point Blank Grasp (Swift)
-24% Gunner Strike (Longshot)
-3% Gunner Drive (Longshot)
-25% Gunner Dash
+1% Sniper Reload
+1% Sniper Reload (AP)
+1% Sniper Reload (Explosive)
+1% Sniper Reload (Flash)
+1% Sniper Reload (Impact)
+5% Sniper Burst
+8% Sniper Dash
+32% Crossfire Reload
+52% Trick Reload
 
 
-Ottavia: Snapback Dash (Target Lock: 9)
-Rukyuk: Point Blank Drive (Swift)
+Ottavia: Demolition Shooter (Target Lock: 6)
+Rukyuk: Crossfire Reload
 
-Rukyuk antes a Swift token
-Priorities:  9 | 6
+Priorities:  3 | 2
 Ottavia is active
+Ottavia hits
+Rukyuk has 2 soak
+Rukyuk takes 2 damage (now at 7 life)
+Rukyuk is stunned
 Ottavia moves:
 
-....O.R
+....OR.
 
-Ottavia moves:
-
-...O..R
-
-Rukyuk misses
 
 Beat 8
 -------
 
 Ottavia
 -------
-life: 20
-discard 1: Snapback Dash
-discard 2: Cover Drive
-special action
+Life: 11
+Discard 1: Demolition Shooter
+Discard 2: Anti-Personnel Grasp
+Special action available
 
 Rukyuk
 ------
-life: 12
-discard 1: Point Blank Drive
-discard 2: Crossfire Shot
-special action
-pool: AP, Explosive, Flash, Impact, Longshot
+Life: 7
+Discard 1: Crossfire Reload
+Discard 2: Point Blank Strike
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-...O..R
+....OR.
+
 
 Ottavia:
-12% Demolition Shooter (Target Lock: 3)
-46% Demolition Shooter (Target Lock: 5)
-20% Demolition Shooter (Target Lock: 7)
-1% Anti-Personnel Grasp (Target Lock: 11)
-18% Cybernetic Shooter (Target Lock: 7)
-3% Cybernetic Shooter (Target Lock: 11)
+56% Snapback Dash (Target Lock: 9)
+1% Cover Burst (Target Lock: 4)
+13% Cover Burst (Target Lock: 6)
+6% Cybernetic Shot (Target Lock: 4)
+2% Cybernetic Shot (Target Lock: 9)
+5% Cybernetic Shot (Target Lock: 11)
+17% Cybernetic Drive (Target Lock: 11)
 
 Rukyuk:
-16% Sniper Strike (Longshot)
-14% Sniper Burst (Longshot)
-21% Sniper Grasp (Longshot)
-36% Sniper Dash
-7% Gunner Strike (Explosive)
-6% Gunner Strike (Impact)
+15% Sniper Drive
+31% Sniper Dash
+3% Gunner Shot
+16% Gunner Drive (Longshot)
+7% Gunner Drive (Swift)
+2% Gunner Grasp (Longshot)
+27% Gunner Dash
 
 
-Ottavia: Demolition Shooter (Target Lock: 7)
+Ottavia: Snapback Dash (Target Lock: 9)
 Rukyuk: Sniper Dash
 
-Priorities:  3 | 11
+Priorities:  9 | 11
 Rukyuk is active
 Rukyuk moves:
 
-..RO...
+.R..O..
 
 Rukyuk moves:
 
-...OR..
+..R.O..
 
-Ottavia misses
+Ottavia moves:
+
+..R..O.
+
+Ottavia moves:
+
+..RO...
+
 
 Beat 9
 -------
 
 Ottavia
 -------
-life: 20
-discard 1: Demolition Shooter
-discard 2: Snapback Dash
-special action
+Life: 11
+Discard 1: Snapback Dash
+Discard 2: Demolition Shooter
+Special action available
 
 Rukyuk
 ------
-life: 12
-discard 1: Sniper Dash
-discard 2: Point Blank Drive
-special action
-pool: AP, Explosive, Flash, Impact, Longshot
+Life: 7
+Discard 1: Sniper Dash
+Discard 2: Crossfire Reload
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-...OR..
+..RO...
 
-Unbeatable strategy for Rukyuk: Crossfire Reload: -0.25
-Unbeatable strategy for Rukyuk: Crossfire Reload (AP): -0.25
-Unbeatable strategy for Rukyuk: Crossfire Reload (Explosive): -0.25
-Unbeatable strategy for Rukyuk: Crossfire Reload (Flash): -0.25
-Unbeatable strategy for Rukyuk: Crossfire Reload (Impact): -0.25
-Unbeatable strategy for Rukyuk: Crossfire Reload (Longshot): -0.25
 
 Ottavia:
-8% Cover Burst (Target Lock: 2)
-13% Cover Grasp (Target Lock: 3)
-1% Cybernetic Strike (Target Lock: 4)
-9% Cybernetic Strike (Target Lock: 5)
-52% Cybernetic Shot (Target Lock: 3)
-12% Cybernetic Shot (Target Lock: 4)
-5% Cybernetic Drive (Target Lock: 4)
+0% Cover Shot (Target Lock: 2)
+24% Cover Drive (Target Lock: 4)
+28% Cover Burst (Target Lock: 2)
+6% Cybernetic Strike (Target Lock: 4)
+0% Cybernetic Shot (Target Lock: 4)
+4% Cybernetic Drive (Target Lock: 4)
+17% Cybernetic Drive (Target Lock: 5)
+21% Cybernetic Drive (Target Lock: 6)
+0% Cybernetic Drive (Target Lock: 7)
 
 Rukyuk:
-0% Gunner Reload
-0% Gunner Reload (AP)
-0% Gunner Reload (Explosive)
-0% Gunner Reload (Flash)
-0% Gunner Reload (Impact)
-0% Gunner Reload (Longshot)
-2% Gunner Strike (Longshot)
-8% Gunner Shot (Longshot)
-43% Crossfire Reload
-14% Crossfire Shot
-25% Crossfire Burst
-7% Crossfire Burst (AP)
+8% Point Blank Strike (Swift)
+18% Point Blank Shot (Explosive)
+18% Point Blank Drive (Explosive)
+14% Point Blank Drive (Swift)
+1% Point Blank Burst (Explosive)
+1% Point Blank Grasp (Flash)
+14% Point Blank Grasp (Swift)
+21% Gunner Strike (Longshot)
+5% Gunner Grasp (Longshot)
 
 
-Ottavia: Cybernetic Shot (Target Lock: 3)
-Rukyuk: Crossfire Reload
+Ottavia: Cover Burst (Target Lock: 2)
+Rukyuk: Point Blank Grasp (Swift)
 
-Priorities:  2 | 2
-Clash!
-
-Ottavia:
-100% Cybernetic Drive (Target Lock: 3)
-
-Rukyuk:
-100% Crossfire Burst
-
-
-Ottavia: Cybernetic Drive (Target Lock: 3)
-Rukyuk: Crossfire Burst
-
-Priorities:  4 | -1
-Ottavia is active
-Rukyuk moves:
-
-...O..R
-
+Rukyuk antes a Swift token
+Priorities:  -2 | 7
+Rukyuk is active
 Ottavia moves:
-
-.....OR
-
-Ottavia hits
-Rukyuk has 2 soak
-Rukyuk takes 1 damage (now at 11 life)
-Ottavia moves Rukyuk:
 
 ..R..O.
 
+Rukyuk misses
+Ottavia hits
+Rukyuk takes 4 damage (now at 3 life)
 Rukyuk is stunned
 
 Beat 10
@@ -580,130 +618,142 @@ Beat 10
 
 Ottavia
 -------
-life: 20
-discard 1: Cybernetic Drive
-discard 2: Demolition Shooter
-special action
+Life: 11
+Discard 1: Cover Burst
+Discard 2: Snapback Dash
+Special action available
 
 Rukyuk
 ------
-life: 11
-discard 1: Crossfire Burst
-discard 2: Sniper Dash
-special action
+Life: 3
+Discard 1: Point Blank Grasp
+Discard 2: Sniper Dash
+Special action available
 pool: AP, Explosive, Flash, Impact, Longshot
 
 
 ..R..O.
 
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: -2): 1.65
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: -1): 1.65
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 0): 1.65
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 1): 1.65
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 2): 1.65
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 3): 1.65
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 4): 1.65
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 6): 1.65
+
+
 Ottavia:
-2% Snapback Dash (Target Lock: -1)
-2% Snapback Dash (Target Lock: 0)
-2% Snapback Dash (Target Lock: 1)
-2% Snapback Dash (Target Lock: 2)
-2% Snapback Dash (Target Lock: 3)
-2% Snapback Dash (Target Lock: 4)
-2% Snapback Dash (Target Lock: 5)
-13% Anti-Personnel Strike (Target Lock: 3)
-33% Anti-Personnel Grasp (Target Lock: 4)
-38% Anti-Personnel Grasp (Target Lock: 5)
+40% Demolition Shooter (Target Lock: 4)
+3% Demolition Drive (Target Lock: 6)
+4% Anti-Personnel Shooter (Target Lock: 2)
+28% Anti-Personnel Drive (Target Lock: 4)
+5% Anti-Personnel Drive (Target Lock: 6)
+6% Anti-Personnel Grasp (Target Lock: 4)
+14% Anti-Personnel Grasp (Target Lock: 6)
 
 Rukyuk:
-23% Gunner Reload (AP)
-37% Gunner Strike (Explosive)
-17% Gunner Drive (Explosive)
-23% Gunner Grasp (Explosive)
+8% Gunner Strike (Explosive)
+3% Gunner Drive (Longshot)
+21% Gunner Burst (Explosive)
+5% Crossfire Reload
+6% Crossfire Reload (AP)
+7% Crossfire Reload (Explosive)
+6% Crossfire Reload (Flash)
+7% Crossfire Reload (Impact)
+4% Crossfire Reload (Longshot)
+13% Crossfire Burst (Explosive)
+14% Special Pulse
+6% Special Fully Automatic (AP)
 
 
-Ottavia: Anti-Personnel Strike (Target Lock: 3)
-Rukyuk: Gunner Grasp (Explosive)
+Ottavia: Demolition Shooter (Target Lock: 4)
+Rukyuk: Special Fully Automatic (AP)
 
-Rukyuk antes an Explosive token
-Priorities:  2 | 5
+Rukyuk antes an AP token
+Priorities:  3 | 6
 Rukyuk is active
 Rukyuk hits
-Rukyuk moves Ottavia:
-
-..R.O..
-
+Rukyuk spends a Flash token
+Rukyuk spends an Impact token
+Rukyuk spends an Explosive token
+Rukyuk spends a Longshot token
+Rukyuk attacks 4 more times
+Ottavia takes 2 damage (now at 9 life)
 Ottavia is stunned
-Ottavia takes 4 damage (now at 16 life)
-Rukyuk moves:
-
-....OR.
-
-Ottavia moves:
-
-.O...R.
-
+Rukyuk hits
+Ottavia takes 2 damage (now at 7 life)
+Ottavia is stunned
+Rukyuk hits
+Ottavia takes 2 damage (now at 5 life)
+Ottavia is stunned
+Rukyuk hits
+Ottavia takes 2 damage (now at 3 life)
+Ottavia is stunned
+Rukyuk hits
+Ottavia takes 2 damage (now at 1 life)
+Ottavia is stunned
 
 Beat 11
 -------
 
 Ottavia
 -------
-life: 16
-discard 1: Anti-Personnel Strike
-discard 2: Cybernetic Drive
-special action
+Life: 1
+Discard 1: Demolition Shooter
+Discard 2: Cover Burst
+Special action available
 
 Rukyuk
 ------
-life: 11
-discard 1: Gunner Grasp
-discard 2: Crossfire Burst
-special action
-pool: AP, Flash, Impact, Longshot
+Life: 3
+Discard 1: Point Blank Grasp
+Discard 2: Sniper Dash
+pool: 
 
 
-.O...R.
+..R..O.
+
+Unbeatable strategy for Ottavia: Anti-Personnel Grasp (Target Lock: 4): 1.89
+
 
 Ottavia:
-0% Snapback Grasp (Target Lock: 6)
-3% Snapback Dash (Target Lock: -1)
-3% Snapback Dash (Target Lock: 0)
-3% Snapback Dash (Target Lock: 1)
-3% Snapback Dash (Target Lock: 2)
-3% Snapback Dash (Target Lock: 3)
-3% Snapback Dash (Target Lock: 4)
-3% Snapback Dash (Target Lock: 5)
-3% Snapback Dash (Target Lock: 6)
-3% Snapback Dash (Target Lock: 9)
-3% Snapback Dash (Target Lock: 11)
-4% Demolition Shooter (Target Lock: 4)
-9% Demolition Shooter (Target Lock: 5)
-3% Demolition Shooter (Target Lock: 6)
-5% Demolition Shot (Target Lock: 4)
-12% Demolition Shot (Target Lock: 6)
-41% Demolition Grasp (Target Lock: 4)
+0% Snapback Shot (Target Lock: -2)
+0% Snapback Shot (Target Lock: -1)
+0% Snapback Shot (Target Lock: 0)
+0% Snapback Shot (Target Lock: 1)
+0% Snapback Shot (Target Lock: 3)
+0% Snapback Shot (Target Lock: 4)
+4% Anti-Personnel Shot (Target Lock: 1)
+28% Anti-Personnel Shot (Target Lock: 4)
+4% Anti-Personnel Grasp (Target Lock: -2)
+4% Anti-Personnel Grasp (Target Lock: -1)
+4% Anti-Personnel Grasp (Target Lock: 0)
+4% Anti-Personnel Grasp (Target Lock: 1)
+4% Anti-Personnel Grasp (Target Lock: 2)
+4% Anti-Personnel Grasp (Target Lock: 3)
+44% Anti-Personnel Grasp (Target Lock: 4)
 
 Rukyuk:
-23% Sniper Reload (AP)
-18% Sniper Strike (AP)
-20% Sniper Shot (AP)
-13% Sniper Drive (Longshot)
-5% Point Blank Shot (AP)
-1% Point Blank Drive (Longshot)
-4% Trick Reload
-4% Trick Reload (AP)
-4% Trick Reload (Flash)
-4% Trick Reload (Impact)
-4% Trick Reload (Longshot)
+42% Gunner Burst
+33% Crossfire Reload
+25% Crossfire Burst
 
 
-Ottavia: Snapback Dash (Target Lock: 9)
-Rukyuk: Sniper Reload (AP)
+Ottavia: Anti-Personnel Shot (Target Lock: 4)
+Rukyuk: Crossfire Reload
 
-Rukyuk antes an AP token
-Priorities:  9 | 6
-Ottavia is active
+Priorities:  1 | 2
+Rukyuk is active
+Rukyuk moves:
+
+....RO.
+
+Ottavia misses
 Ottavia moves:
 
-O....R.
-
-Ottavia moves:
-
-...O.R.
+..O.R..
 
 
 Beat 12
@@ -711,114 +761,133 @@ Beat 12
 
 Ottavia
 -------
-life: 16
-discard 1: Snapback Dash
-discard 2: Anti-Personnel Strike
-special action
+Life: 1
+Discard 1: Anti-Personnel Shot
+Discard 2: Demolition Shooter
+Special action available
 
 Rukyuk
 ------
-life: 11
-discard 1: Sniper Reload
-discard 2: Gunner Grasp
-special action
+Life: 3
+Discard 1: Crossfire Reload
+Discard 2: Point Blank Grasp
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-...O.R.
+..O.R..
+
 
 Ottavia:
-11% Demolition Shooter (Target Lock: 4)
-12% Demolition Shooter (Target Lock: 5)
-0% Demolition Shooter (Target Lock: 7)
-28% Demolition Drive (Target Lock: 6)
-17% Demolition Burst (Target Lock: 4)
-7% Demolition Burst (Target Lock: 6)
-6% Cover Shooter (Target Lock: 2)
-19% Cover Shooter (Target Lock: 7)
-1% Cover Grasp (Target Lock: 4)
+14% Snapback Strike (Target Lock: 4)
+6% Snapback Strike (Target Lock: 11)
+5% Snapback Burst (Target Lock: 4)
+0% Snapback Burst (Target Lock: 5)
+13% Snapback Grasp (Target Lock: 11)
+20% Snapback Dash (Target Lock: 3)
+6% Cover Drive (Target Lock: 3)
+24% Cybernetic Drive (Target Lock: 5)
+12% Cybernetic Drive (Target Lock: 6)
+0% Cybernetic Drive (Target Lock: 11)
 
 Rukyuk:
-10% Point Blank Strike (Swift)
-13% Point Blank Shot (Explosive)
-4% Point Blank Shot (Swift)
-6% Point Blank Drive (Explosive)
-11% Point Blank Drive (Swift)
-1% Crossfire Strike (Swift)
-8% Crossfire Burst
-41% Crossfire Dash
-6% Trick Drive (Longshot)
+20% Sniper Drive
+4% Sniper Drive (Swift)
+18% Sniper Burst
+1% Sniper Burst (Swift)
+20% Sniper Dash
+13% Gunner Strike (Swift)
+6% Gunner Shot (Swift)
+8% Gunner Drive (Longshot)
+4% Gunner Burst (Longshot)
+5% Gunner Dash
 
 
-Ottavia: Cover Shooter (Target Lock: 7)
-Rukyuk: Crossfire Dash
+Ottavia: Cybernetic Drive (Target Lock: 6)
+Rukyuk: Gunner Drive (Longshot)
 
-Ottavia acquires target lock
-Priorities:  -1 | -3
+Rukyuk antes a Longshot token
+Priorities:  4 | 4
+Clash!
+
+
+Ottavia: Cybernetic Dash (Target Lock: 6)
+Rukyuk: Gunner Shot (Longshot)
+
+Rukyuk antes a Longshot token
+Priorities:  9 | 2
 Ottavia is active
-Ottavia hits
-Rukyuk has 2 soak
-Rukyuk takes 3 damage (now at 8 life)
-Rukyuk is stunned
+Ottavia moves:
+
+....RO.
+
+Rukyuk misses
+Rukyuk moves:
+
+..R..O.
+
 
 Beat 13
 -------
 
 Ottavia
 -------
-life: 16
-discard 1: Cover Shooter
-discard 2: Snapback Dash
-special action
+Life: 1
+Discard 1: Cybernetic Dash
+Discard 2: Anti-Personnel Shot
+Special action available
 
 Rukyuk
 ------
-life: 8
-discard 1: Crossfire Dash
-discard 2: Sniper Reload
-special action
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+Life: 3
+Discard 1: Gunner Shot
+Discard 2: Crossfire Reload
+pool: AP, Explosive, Flash, Impact, Swift
 
 
-...O.R.
+..R..O.
+
 
 Ottavia:
-17% Demolition Shot (Target Lock: 5)
-20% Demolition Drive (Target Lock: 5)
-8% Demolition Drive (Target Lock: 6)
-17% Demolition Drive (Target Lock: 7)
-13% Anti-Personnel Burst (Target Lock: 2)
-0% Cybernetic Drive (Target Lock: 5)
-24% Cybernetic Drive (Target Lock: 6)
+18% Snapback Drive (Target Lock: 5)
+7% Snapback Drive (Target Lock: 7)
+8% Demolition Shooter (Target Lock: 6)
+46% Demolition Drive (Target Lock: 6)
+5% Demolition Drive (Target Lock: 7)
+15% Demolition Drive (Target Lock: 11)
+0% Demolition Drive (Target Lock: 13)
 
 Rukyuk:
-22% Point Blank Shot (Explosive)
-22% Point Blank Shot (Swift)
-2% Point Blank Drive (Explosive)
-8% Point Blank Drive (Swift)
-16% Gunner Strike (Longshot)
-19% Gunner Grasp (Explosive)
-11% Gunner Grasp (Swift)
+14% Sniper Strike (AP)
+2% Sniper Burst
+5% Sniper Burst (Swift)
+22% Sniper Grasp
+21% Sniper Dash
+24% Sniper Dash (Swift)
+12% Point Blank Drive (Swift)
 
 
-Ottavia: Cybernetic Drive (Target Lock: 6)
-Rukyuk: Gunner Grasp (Explosive)
+Ottavia: Snapback Drive (Target Lock: 7)
+Rukyuk: Sniper Dash (Swift)
 
-Rukyuk antes an Explosive token
-Priorities:  4 | 5
+Rukyuk antes a Swift token
+Priorities:  4 | 13
 Rukyuk is active
-Rukyuk spends an AP token
-Rukyuk gains -1/+1 range
-Rukyuk hits
-Rukyuk moves Ottavia:
-
-..O..R.
-
-Ottavia takes 4 damage (now at 12 life)
-Ottavia is stunned
 Rukyuk moves:
 
-..O...R
+R....O.
+
+Rukyuk moves:
+
+...R.O.
+
+Ottavia moves:
+
+..OR...
+
+Ottavia misses
+Ottavia moves:
+
+O..R...
 
 
 Beat 14
@@ -826,314 +895,65 @@ Beat 14
 
 Ottavia
 -------
-life: 12
-discard 1: Cybernetic Drive
-discard 2: Cover Shooter
-special action
+Life: 1
+Discard 1: Snapback Drive
+Discard 2: Cybernetic Dash
+Special action available
 
 Rukyuk
 ------
-life: 8
-discard 1: Gunner Grasp
-discard 2: Crossfire Dash
-special action
-pool: Flash, Impact, Longshot, Swift
+Life: 3
+Discard 1: Sniper Dash
+Discard 2: Gunner Shot
+pool: AP, Explosive, Flash, Impact
 
 
-..O...R
+O..R...
+
 
 Ottavia:
-6% Snapback Dash (Target Lock: -2)
-6% Snapback Dash (Target Lock: -1)
-6% Snapback Dash (Target Lock: 0)
-6% Snapback Dash (Target Lock: 1)
-6% Snapback Dash (Target Lock: 2)
-6% Snapback Dash (Target Lock: 3)
-6% Snapback Dash (Target Lock: 4)
-6% Snapback Dash (Target Lock: 5)
-6% Snapback Dash (Target Lock: 6)
-6% Snapback Dash (Target Lock: 7)
-6% Snapback Dash (Target Lock: 8)
-1% Demolition Shot (Target Lock: 4)
-7% Demolition Shot (Target Lock: 5)
-1% Anti-Personnel Strike (Target Lock: 4)
-5% Anti-Personnel Strike (Target Lock: 6)
-10% Anti-Personnel Strike (Target Lock: 8)
-9% Anti-Personnel Grasp (Target Lock: 6)
+15% Demolition Shooter (Target Lock: 3)
+13% Demolition Shooter (Target Lock: 4)
+3% Anti-Personnel Shooter (Target Lock: 2)
+9% Anti-Personnel Shooter (Target Lock: 3)
+11% Anti-Personnel Shooter (Target Lock: 4)
+3% Anti-Personnel Shot (Target Lock: 2)
+9% Anti-Personnel Shot (Target Lock: 3)
+11% Anti-Personnel Shot (Target Lock: 4)
+26% Anti-Personnel Grasp (Target Lock: 4)
 
 Rukyuk:
-4% Sniper Reload
-9% Sniper Reload (Flash)
-8% Sniper Reload (Impact)
-7% Sniper Reload (Longshot)
-28% Sniper Reload (Swift)
-16% Sniper Strike (Flash)
-5% Sniper Strike (Swift)
-17% Sniper Shot (Flash)
-5% Point Blank Shot (Longshot)
-0% Trick Shot (Impact)
-
-
-Ottavia: Snapback Dash (Target Lock: -2)
-Rukyuk: Sniper Shot (Flash)
-
-Rukyuk antes a Flash token
-Priorities:  9 | 4
-Ottavia is active
-Ottavia moves:
-
-.O....R
-
-Ottavia moves:
-
-....O.R
-
-Rukyuk misses
-
-Beat 15
--------
-
-Ottavia
--------
-life: 12
-discard 1: Snapback Dash
-discard 2: Cybernetic Drive
-special action
-
-Rukyuk
-------
-life: 8
-discard 1: Sniper Shot
-discard 2: Gunner Grasp
-special action
-pool: Impact, Longshot, Swift
-
-
-....O.R
-
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 0): 13.00
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: -1): 13.00
-Unbeatable strategy for Ottavia: Cover Grasp (Target Lock: 2): 13.00
-
-Ottavia:
-2% Demolition Shooter (Target Lock: -2)
-2% Demolition Shooter (Target Lock: -1)
-2% Demolition Shooter (Target Lock: 0)
-2% Demolition Shooter (Target Lock: 1)
-2% Demolition Shooter (Target Lock: 2)
-2% Demolition Shooter (Target Lock: 3)
-2% Demolition Shooter (Target Lock: 4)
-22% Demolition Shooter (Target Lock: 5)
-2% Demolition Shooter (Target Lock: 6)
-2% Demolition Shooter (Target Lock: 7)
-2% Demolition Shooter (Target Lock: 8)
-2% Demolition Shooter (Target Lock: 9)
-2% Demolition Shooter (Target Lock: 11)
-2% Demolition Shot (Target Lock: -2)
-2% Demolition Shot (Target Lock: -1)
-2% Demolition Shot (Target Lock: 0)
-2% Demolition Shot (Target Lock: 1)
-2% Demolition Shot (Target Lock: 2)
-2% Demolition Shot (Target Lock: 3)
-2% Demolition Shot (Target Lock: 4)
-22% Demolition Shot (Target Lock: 5)
-2% Demolition Shot (Target Lock: 6)
-2% Demolition Shot (Target Lock: 7)
-2% Demolition Shot (Target Lock: 8)
-2% Demolition Shot (Target Lock: 9)
-2% Demolition Shot (Target Lock: 11)
-
-Rukyuk:
-100% Special Pulse
-
-
-Ottavia: Demolition Shot (Target Lock: 0)
-Rukyuk: Special Pulse
-
-Pulse:
-
-OR.....
-
-
-Beat 15
--------
-
-Ottavia
--------
-life: 12
-discard 1: Demolition Shot
-discard 2: Snapback Dash
-special action
-
-Rukyuk
-------
-life: 8
-discard 1: Sniper Shot
-discard 2: Gunner Grasp
-pool: Impact, Longshot, Swift
-
-
-OR.....
-
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: -1): 13.00
-Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 0): 13.00
-Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 1): 13.00
-Unbeatable strategy for Ottavia: Cover Grasp (Target Lock: 2): 13.00
-Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 3): 13.00
-Unbeatable strategy for Ottavia: Cybernetic Grasp (Target Lock: 5): 13.00
-
-Ottavia:
-1% Cover Shooter (Target Lock: -2)
-1% Cover Shooter (Target Lock: -1)
-1% Cover Shooter (Target Lock: 0)
-1% Cover Shooter (Target Lock: 1)
-1% Cover Shooter (Target Lock: 2)
-1% Cover Shooter (Target Lock: 3)
-1% Cover Shooter (Target Lock: 4)
-1% Cover Shooter (Target Lock: 5)
-1% Cover Shooter (Target Lock: 6)
-1% Cover Shooter (Target Lock: 7)
-1% Cover Shooter (Target Lock: 8)
-1% Cover Shooter (Target Lock: 9)
-1% Cover Shooter (Target Lock: 11)
-1% Cover Strike (Target Lock: -2)
-1% Cover Strike (Target Lock: -1)
-1% Cover Strike (Target Lock: 0)
-1% Cover Strike (Target Lock: 1)
-1% Cover Strike (Target Lock: 2)
-1% Cover Strike (Target Lock: 3)
-1% Cover Strike (Target Lock: 4)
-1% Cover Strike (Target Lock: 5)
-1% Cover Strike (Target Lock: 6)
-1% Cover Strike (Target Lock: 7)
-1% Cover Strike (Target Lock: 8)
-1% Cover Strike (Target Lock: 9)
-1% Cover Strike (Target Lock: 11)
-1% Cover Drive (Target Lock: -2)
-1% Cover Drive (Target Lock: -1)
-1% Cover Drive (Target Lock: 0)
-1% Cover Drive (Target Lock: 1)
-1% Cover Drive (Target Lock: 2)
-1% Cover Drive (Target Lock: 3)
-1% Cover Drive (Target Lock: 4)
-1% Cover Drive (Target Lock: 5)
-1% Cover Drive (Target Lock: 6)
-1% Cover Drive (Target Lock: 7)
-1% Cover Drive (Target Lock: 8)
-1% Cover Drive (Target Lock: 9)
-1% Cover Drive (Target Lock: 11)
-1% Cover Burst (Target Lock: -1)
-1% Cover Grasp (Target Lock: -2)
-1% Cover Grasp (Target Lock: -1)
-1% Cover Grasp (Target Lock: 0)
-1% Cover Grasp (Target Lock: 1)
-1% Cover Grasp (Target Lock: 2)
-1% Cover Grasp (Target Lock: 3)
-1% Cover Grasp (Target Lock: 4)
-1% Cover Grasp (Target Lock: 5)
-1% Cover Grasp (Target Lock: 6)
-1% Cover Grasp (Target Lock: 7)
-1% Cover Grasp (Target Lock: 8)
-1% Cover Grasp (Target Lock: 9)
-1% Cover Grasp (Target Lock: 11)
-1% Cybernetic Strike (Target Lock: -2)
-1% Cybernetic Strike (Target Lock: -1)
-1% Cybernetic Strike (Target Lock: 0)
-1% Cybernetic Strike (Target Lock: 1)
-1% Cybernetic Strike (Target Lock: 2)
-1% Cybernetic Strike (Target Lock: 3)
-1% Cybernetic Strike (Target Lock: 4)
-1% Cybernetic Strike (Target Lock: 5)
-1% Cybernetic Strike (Target Lock: 6)
-1% Cybernetic Strike (Target Lock: 7)
-1% Cybernetic Strike (Target Lock: 8)
-1% Cybernetic Strike (Target Lock: 9)
-1% Cybernetic Strike (Target Lock: 11)
-1% Cybernetic Drive (Target Lock: 5)
-1% Cybernetic Grasp (Target Lock: -2)
-1% Cybernetic Grasp (Target Lock: -1)
-1% Cybernetic Grasp (Target Lock: 0)
-1% Cybernetic Grasp (Target Lock: 1)
-1% Cybernetic Grasp (Target Lock: 2)
-1% Cybernetic Grasp (Target Lock: 3)
-1% Cybernetic Grasp (Target Lock: 4)
-1% Cybernetic Grasp (Target Lock: 5)
-1% Cybernetic Grasp (Target Lock: 6)
-1% Cybernetic Grasp (Target Lock: 7)
-1% Cybernetic Grasp (Target Lock: 8)
-1% Cybernetic Grasp (Target Lock: 9)
-1% Cybernetic Grasp (Target Lock: 11)
-
-Rukyuk:
-1% Point Blank Reload
-1% Point Blank Reload (Impact)
-1% Point Blank Reload (Longshot)
-0% Point Blank Reload (Swift)
-1% Point Blank Strike
-5% Point Blank Strike (Impact)
-5% Point Blank Strike (Longshot)
-15% Point Blank Strike (Swift)
-1% Point Blank Drive
+1% Point Blank Drive (AP)
+1% Point Blank Drive (Explosive)
+1% Point Blank Drive (Flash)
 1% Point Blank Drive (Impact)
-1% Point Blank Drive (Longshot)
-1% Point Blank Drive (Swift)
-0% Point Blank Burst
-1% Point Blank Burst (Impact)
-1% Point Blank Burst (Longshot)
-27% Point Blank Burst (Swift)
-1% Point Blank Dash
-1% Point Blank Dash (Impact)
-0% Point Blank Dash (Longshot)
-1% Point Blank Dash (Swift)
-0% Crossfire Reload
-1% Crossfire Reload (Impact)
-1% Crossfire Reload (Longshot)
-1% Crossfire Reload (Swift)
-0% Crossfire Strike
-1% Crossfire Strike (Impact)
-1% Crossfire Strike (Longshot)
-1% Crossfire Strike (Swift)
-0% Crossfire Drive
-1% Crossfire Drive (Impact)
-1% Crossfire Drive (Longshot)
-1% Crossfire Drive (Swift)
-0% Crossfire Burst
-1% Crossfire Burst (Impact)
-7% Crossfire Burst (Longshot)
-1% Crossfire Burst (Swift)
-1% Crossfire Dash
-1% Crossfire Dash (Impact)
-1% Crossfire Dash (Longshot)
-1% Crossfire Dash (Swift)
-1% Trick Reload
-1% Trick Reload (Impact)
-1% Trick Reload (Longshot)
-1% Trick Reload (Swift)
-1% Trick Strike
-1% Trick Strike (Impact)
-0% Trick Strike (Longshot)
-1% Trick Strike (Swift)
-1% Trick Drive
-1% Trick Drive (Impact)
-1% Trick Drive (Longshot)
-1% Trick Drive (Swift)
-1% Trick Burst
-1% Trick Burst (Impact)
-1% Trick Burst (Longshot)
-1% Trick Burst (Swift)
-1% Trick Dash
-1% Trick Dash (Impact)
-1% Trick Dash (Longshot)
-1% Trick Dash (Swift)
+20% Point Blank Burst (AP)
+3% Crossfire Reload
+3% Crossfire Reload (AP)
+3% Crossfire Reload (Explosive)
+3% Crossfire Reload (Flash)
+3% Crossfire Reload (Impact)
+32% Crossfire Burst (AP)
+20% Crossfire Grasp (AP)
+3% Trick Grasp (AP)
+3% Trick Grasp (Explosive)
+3% Trick Grasp (Flash)
+3% Trick Grasp (Impact)
 
 
-Ottavia: Cover Shooter (Target Lock: 3)
-Rukyuk: Crossfire Drive
+Ottavia: Anti-Personnel Grasp (Target Lock: 4)
+Rukyuk: Crossfire Burst (AP)
 
-Priorities:  -1 | 2
-Rukyuk is active
-Rukyuk misses
+Rukyuk antes an AP token
+Priorities:  4 | -1
+Ottavia is active
+Rukyuk moves:
+
+O....R.
+
 Ottavia misses
-Game goes to time
-OTTAVIA WINS!
-total_time: 312
+Rukyuk hits
+Ottavia is stunned
+Ottavia takes 3 damage (now at 0 life)
+RUKYUK WINS!
+total_time: 334

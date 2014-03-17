@@ -11,23 +11,24 @@ Beat 1
 
 Byron
 -----
-life: 15
-discard 1: Soulless Strike
-discard 2: Heartless Shot
-special action
+Life: 15
+Discard 1: Soulless Strike
+Discard 2: Heartless Shot
+Special action available
 5 Mask emblems
 
 Ottavia
 -------
-life: 20
-discard 1: Cybernetic Strike
-discard 2: Demolition Shot
-special action
+Life: 20
+Discard 1: Cybernetic Strike
+Discard 2: Demolition Shot
+Special action available
 
 
 .B...O.
 
 Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 5): -0.05
+
 
 Byron:
 3% Deathless Drive
@@ -41,26 +42,26 @@ Ottavia:
 9% Snapback Burst (Target Lock: 5)
 1% Snapback Grasp (Target Lock: 8)
 33% Snapback Grasp (Target Lock: 9)
-22% Cover Drive (Target Lock: 8)
+23% Cover Drive (Target Lock: 8)
 
 
-Byron: Deathless Dash
-Ottavia: Snapback Drive (Target Lock: 5)
+Byron: Breathless Dash
+Ottavia: Snapback Grasp (Target Lock: 9)
 
-Priorities:  8 | 4
-Byron is active
-Byron moves:
+Ottavia acquires target lock
+Priorities:  -1 | 5
+Ottavia is active
+Ottavia hits
+Ottavia moves Byron:
 
-...B.O.
+B....O.
 
+Byron takes 2 damage (now at 13 life)
+Byron is stunned
+Byron loses a Mask Emblem: now at 4
 Ottavia moves:
 
-..OB...
-
-Ottavia misses
-Ottavia moves:
-
-.O.B...
+B.....O
 
 
 Beat 2
@@ -68,57 +69,123 @@ Beat 2
 
 Byron
 -----
-life: 15
-discard 1: Deathless Dash
-discard 2: Soulless Strike
-special action
-5 Mask emblems
+Life: 12
+Discard 1: Breathless Dash
+Discard 2: Soulless Strike
+Special action available
+4 Mask emblems
 
 Ottavia
 -------
-life: 20
-discard 1: Snapback Drive
-discard 2: Cybernetic Strike
-special action
+Life: 20
+Discard 1: Snapback Grasp
+Discard 2: Cybernetic Strike
+Special action available
 
 
-.O.B...
+B.....O
+
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 3): -4.29
+Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 3): -4.29
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 3): -0.92
+Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 3): -0.56
+
 
 Byron:
-13% Heartless Shot
-13% Heartless Drive
-25% Heartless Grasp
-11% Faceless Smoke
-16% Faceless Drive
-14% Faceless Grasp
-8% Breathless Drive
+9% Deathless Shot
+3% Deathless Drive
+6% Deathless Burst
+82% Special Pulse
 
 Ottavia:
-19% Demolition Shooter (Target Lock: 4)
-0% Demolition Shooter (Target Lock: 6)
-19% Demolition Shot (Target Lock: 4)
-0% Demolition Shot (Target Lock: 6)
-5% Demolition Burst (Target Lock: 4)
-2% Cover Shooter (Target Lock: 5)
-11% Cover Shooter (Target Lock: 6)
-2% Cover Shot (Target Lock: 5)
-14% Cover Shot (Target Lock: 6)
-11% Cover Burst (Target Lock: 3)
-17% Cover Burst (Target Lock: 6)
+14% Demolition Burst (Target Lock: 3)
+70% Anti-Personnel Shooter (Target Lock: 3)
+5% Cover Shot (Target Lock: 1)
+11% Cover Shot (Target Lock: 3)
 
 
-Byron: Faceless Drive
-Ottavia: Cover Shooter (Target Lock: 6)
+Byron: Special Pulse
+Ottavia: Anti-Personnel Shooter (Target Lock: 3)
 
-Priorities:  4 | -1
+Pulse:
+
+B.....O
+
+
+Beat 2
+-------
+
+Byron
+-----
+Life: 12
+Discard 1: Breathless Dash
+Discard 2: Soulless Strike
+4 Mask emblems
+
+Ottavia
+-------
+Life: 20
+Discard 1: Anti-Personnel Shooter
+Discard 2: Snapback Grasp
+Special action available
+
+
+B.....O
+
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 3): -0.20
+Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 3): -1.18
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 0): -1.61
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 1): -1.61
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 2): -1.61
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 3): -1.61
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 4): -1.61
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 5): -1.61
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 6): -1.61
+Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 0): -0.34
+Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 1): -0.34
+Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 2): -0.34
+Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 4): -0.34
+Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 5): -0.34
+Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 6): -0.34
+
+
+Byron:
+6% Deathless Shot
+30% Deathless Drive
+55% Deathless Burst
+8% Heartless Burst
+2% Faceless Burst
+
+Ottavia:
+2% Cover Strike (Target Lock: 3)
+5% Cover Shot (Target Lock: 0)
+3% Cover Shot (Target Lock: 3)
+6% Cover Drive (Target Lock: 3)
+9% Cover Dash (Target Lock: 0)
+9% Cover Dash (Target Lock: 1)
+9% Cover Dash (Target Lock: 2)
+25% Cover Dash (Target Lock: 3)
+9% Cover Dash (Target Lock: 4)
+9% Cover Dash (Target Lock: 5)
+12% Cover Dash (Target Lock: 6)
+
+
+Byron: Deathless Drive
+Ottavia: Cover Shot (Target Lock: 0)
+
+Priorities:  3 | -1
 Byron is active
 Byron moves:
 
-BO.....
+..B...O
 
 Byron hits
 Ottavia has 1 soak
-Ottavia takes 3 damage (now at 17 life)
+Ottavia takes 4 damage (now at 16 life)
+Byron moves Ottavia:
+
+.OB....
+
 Ottavia misses
 
 Beat 3
@@ -126,407 +193,417 @@ Beat 3
 
 Byron
 -----
-life: 15
-discard 1: Faceless Drive
-discard 2: Deathless Dash
-special action
-5 Mask emblems
+Life: 12
+Discard 1: Deathless Drive
+Discard 2: Breathless Dash
+4 Mask emblems
 
 Ottavia
 -------
-life: 17
-discard 1: Cover Shooter
-discard 2: Snapback Drive
-special action
+Life: 16
+Discard 1: Cover Shot
+Discard 2: Anti-Personnel Shooter
+Special action available
 
 
-BO.....
+.OB....
 
-Unbeatable strategy for Byron: Soulless Smoke: 0.02
-Unbeatable strategy for Byron: Soulless Shot: 0.63
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -3): -1.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -2): -1.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -1): -1.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 1): -1.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 2): -1.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): -1.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 4): -1.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 5): -1.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 6): -1.32
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: -3): -1.01
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: -2): -1.01
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: -1): -1.01
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 1): -1.01
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 2): -1.01
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 3): -1.01
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 4): -1.01
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 5): -1.01
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 6): -1.01
+
 
 Byron:
-77% Soulless Shot
-2% Heartless Smoke
-6% Breathless Strike
-3% Breathless Shot
-7% Breathless Burst
-7% Breathless Grasp
+28% Soulless Smoke
+8% Soulless Shot
+38% Heartless Strike
+4% Heartless Shot
+15% Heartless Burst
+6% Faceless Grasp
 
 Ottavia:
-2% Cybernetic Strike (Target Lock: 4)
-33% Cybernetic Strike (Target Lock: 5)
-14% Cybernetic Shot (Target Lock: 4)
-13% Cybernetic Burst (Target Lock: 3)
-1% Cybernetic Grasp (Target Lock: -3)
-1% Cybernetic Grasp (Target Lock: -2)
-1% Cybernetic Grasp (Target Lock: -1)
-1% Cybernetic Grasp (Target Lock: 1)
-1% Cybernetic Grasp (Target Lock: 4)
-1% Cybernetic Grasp (Target Lock: 6)
-3% Cybernetic Dash (Target Lock: -3)
-3% Cybernetic Dash (Target Lock: -2)
-3% Cybernetic Dash (Target Lock: -1)
-3% Cybernetic Dash (Target Lock: 1)
-3% Cybernetic Dash (Target Lock: 2)
-3% Cybernetic Dash (Target Lock: 3)
-3% Cybernetic Dash (Target Lock: 4)
-3% Cybernetic Dash (Target Lock: 5)
-3% Cybernetic Dash (Target Lock: 6)
+3% Snapback Drive (Target Lock: 4)
+9% Snapback Dash (Target Lock: -3)
+9% Snapback Dash (Target Lock: -2)
+9% Snapback Dash (Target Lock: -1)
+9% Snapback Dash (Target Lock: 1)
+9% Snapback Dash (Target Lock: 2)
+9% Snapback Dash (Target Lock: 3)
+9% Snapback Dash (Target Lock: 4)
+9% Snapback Dash (Target Lock: 5)
+9% Snapback Dash (Target Lock: 6)
+0% Demolition Strike (Target Lock: 5)
+7% Demolition Drive (Target Lock: 5)
+4% Cybernetic Drive (Target Lock: 4)
+5% Cybernetic Grasp (Target Lock: 5)
 
 
-Byron: Breathless Shot
-Ottavia: Cybernetic Shot (Target Lock: 4)
+Byron: Heartless Strike
+Ottavia: Snapback Dash (Target Lock: -3)
 
-Priorities:  2 | 2
-Clash!
-
-Byron:
-91% Breathless Smoke
-9% Breathless Grasp
-
-Ottavia:
-9% Cybernetic Strike (Target Lock: 4)
-91% Cybernetic Dash (Target Lock: 4)
-
-
-Byron: Breathless Smoke
-Ottavia: Cybernetic Dash (Target Lock: 4)
-
-Priorities:  3 | 9
+Priorities:  4 | 9
 Ottavia is active
-Byron moves:
+Ottavia moves:
 
-.O.B...
+O.B....
 
 Ottavia moves:
 
-O..B...
+..B.O..
 
-Byron hits
-Byron moves Ottavia:
-
-.O.B...
-
-Ottavia has 2 soak
-Ottavia takes 0 damage (now at 17 life)
+Byron misses
 
 Beat 4
 -------
 
 Byron
 -----
-life: 15
-discard 1: Breathless Smoke
-discard 2: Faceless Drive
-special action
-5 Mask emblems
+Life: 12
+Discard 1: Heartless Strike
+Discard 2: Deathless Drive
+4 Mask emblems
 
 Ottavia
 -------
-life: 17
-discard 1: Cybernetic Dash
-discard 2: Cover Shooter
-special action
+Life: 16
+Discard 1: Snapback Dash
+Discard 2: Cover Shot
+Special action available
 
 
-.O.B...
+..B.O..
+
 
 Byron:
-85% Soulless Shot
-12% Deathless Strike
-0% Deathless Grasp
-1% Heartless Strike
-3% Heartless Shot
+12% Soulless Shot
+21% Faceless Grasp
+16% Breathless Smoke
+23% Breathless Burst
+27% Breathless Dash
 
 Ottavia:
-4% Snapback Shot (Target Lock: 3)
-0% Snapback Grasp (Target Lock: -3)
-0% Snapback Grasp (Target Lock: -2)
-0% Snapback Grasp (Target Lock: -1)
-0% Snapback Grasp (Target Lock: 0)
-0% Snapback Grasp (Target Lock: 1)
-0% Snapback Grasp (Target Lock: 2)
-0% Snapback Grasp (Target Lock: 3)
-0% Snapback Grasp (Target Lock: 4)
-0% Snapback Grasp (Target Lock: 5)
-37% Snapback Grasp (Target Lock: 6)
-0% Snapback Grasp (Target Lock: 8)
-0% Snapback Grasp (Target Lock: 10)
-4% Demolition Shot (Target Lock: 3)
-0% Demolition Drive (Target Lock: -3)
-0% Demolition Drive (Target Lock: -2)
-0% Demolition Drive (Target Lock: -1)
-0% Demolition Drive (Target Lock: 0)
-0% Demolition Drive (Target Lock: 1)
-0% Demolition Drive (Target Lock: 2)
-0% Demolition Drive (Target Lock: 3)
-0% Demolition Drive (Target Lock: 4)
-0% Demolition Drive (Target Lock: 5)
-5% Demolition Drive (Target Lock: 6)
-0% Demolition Drive (Target Lock: 8)
-0% Demolition Drive (Target Lock: 10)
-46% Demolition Burst (Target Lock: 8)
+45% Demolition Shooter (Target Lock: 5)
+3% Anti-Personnel Burst (Target Lock: 9)
+7% Cybernetic Shooter (Target Lock: 5)
+2% Cybernetic Drive (Target Lock: 5)
+44% Cybernetic Drive (Target Lock: 9)
 
 
-Byron: Soulless Shot
-Ottavia: Snapback Grasp (Target Lock: 6)
+Byron: Breathless Smoke
+Ottavia: Cybernetic Drive (Target Lock: 9)
 
-Priorities:  -2 | 5
+Priorities:  3 | 4
 Ottavia is active
-Ottavia hits
-Ottavia moves Byron:
+Byron moves:
 
-.O..B..
+....O.B
 
-Byron takes 2 damage (now at 13 life)
-Byron loses a Mask Emblem: now at 4
 Ottavia moves:
 
-O...B..
+.....OB
 
-Byron hits
-Ottavia takes 4 damage (now at 13 life)
-Ottavia is stunned
+Ottavia hits
+Byron takes 3 damage (now at 9 life)
+Ottavia moves Byron:
+
+..B..O.
+
+Byron is stunned
+Byron loses a Mask Emblem: now at 3
 
 Beat 5
 -------
 
 Byron
 -----
-life: 12
-discard 1: Soulless Shot
-discard 2: Breathless Smoke
-special action
-4 Mask emblems
+Life: 9
+Discard 1: Breathless Smoke
+Discard 2: Heartless Strike
+3 Mask emblems
 
 Ottavia
 -------
-life: 13
-discard 1: Snapback Grasp
-discard 2: Cybernetic Dash
-special action
+Life: 16
+Discard 1: Cybernetic Drive
+Discard 2: Snapback Dash
+Special action available
 
 
-O...B..
+..B..O.
+
 
 Byron:
-7% Deathless Strike
-35% Deathless Drive
-7% Deathless Burst
-27% Heartless Drive
-23% Faceless Drive
+4% Soulless Shot
+1% Soulless Drive
+4% Deathless Shot
+12% Deathless Drive
+19% Deathless Burst
+13% Deathless Grasp
+20% Deathless Dash
+5% Faceless Shot
+22% Faceless Dash
 
 Ottavia:
-5% Demolition Shooter (Target Lock: 4)
-17% Demolition Shooter (Target Lock: 5)
-5% Demolition Shot (Target Lock: 4)
-17% Demolition Shot (Target Lock: 5)
-10% Anti-Personnel Drive (Target Lock: 3)
-9% Anti-Personnel Drive (Target Lock: 4)
-36% Cover Shot (Target Lock: 4)
+37% Demolition Shooter (Target Lock: 4)
+3% Anti-Personnel Shooter (Target Lock: 3)
+4% Anti-Personnel Shooter (Target Lock: 4)
+1% Anti-Personnel Shooter (Target Lock: 8)
+3% Anti-Personnel Shooter (Target Lock: 9)
+3% Anti-Personnel Shot (Target Lock: 3)
+4% Anti-Personnel Shot (Target Lock: 4)
+1% Anti-Personnel Shot (Target Lock: 8)
+3% Anti-Personnel Shot (Target Lock: 9)
+21% Anti-Personnel Burst (Target Lock: 3)
+2% Anti-Personnel Burst (Target Lock: 4)
+6% Anti-Personnel Grasp (Target Lock: 9)
+10% Cover Grasp (Target Lock: 8)
 
 
-Byron: Heartless Drive
-Ottavia: Cover Shot (Target Lock: 4)
+Byron: Deathless Grasp
+Ottavia: Cover Grasp (Target Lock: 8)
 
-Priorities:  5 | -1
+Priorities:  4 | 2
 Byron is active
-Byron moves:
-
-O..B...
-
 Byron hits
-Ottavia loses 1 life (now at 12)
-Ottavia takes 4 damage (now at 8 life)
-Ottavia hits
-Byron has 4 soak
-Byron takes 0 damage (now at 12 life)
-Byron loses a Mask Emblem: now at 3
+Byron moves Ottavia:
+
+..B...O
+
+Ottavia has 1 soak
+Ottavia takes 3 damage (now at 13 life)
+Byron moves Ottavia:
+
+.OB....
+
+Ottavia misses
 
 Beat 6
 -------
 
 Byron
 -----
-life: 9
-discard 1: Heartless Drive
-discard 2: Soulless Shot
-special action
+Life: 9
+Discard 1: Deathless Grasp
+Discard 2: Breathless Smoke
 3 Mask emblems
 
 Ottavia
 -------
-life: 8
-discard 1: Cover Shot
-discard 2: Snapback Grasp
-special action
+Life: 13
+Discard 1: Cover Grasp
+Discard 2: Cybernetic Drive
+Special action available
 
 
-O..B...
+.OB....
 
-Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 4): -0.09
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -3): -3.26
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -2): -3.26
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -1): -3.26
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 0): -3.26
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 1): -3.26
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 2): -3.26
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): -3.26
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 4): -3.26
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 5): -3.26
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 9): -3.26
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 10): -3.26
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: -3): -0.68
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: -2): -0.68
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: -1): -0.68
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 0): -0.68
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 1): -0.68
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 2): -0.68
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 3): -0.68
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 4): -0.68
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 5): -0.68
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 9): -0.68
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 10): -0.68
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: -3): -2.09
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: -2): -2.09
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: -1): -2.09
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 0): -2.09
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 1): -2.09
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 2): -2.09
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 3): -2.09
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 4): -2.09
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 5): -2.09
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 9): -2.09
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 10): -2.09
+
 
 Byron:
-15% Deathless Smoke
-6% Deathless Strike
-3% Deathless Burst
-6% Deathless Grasp
-13% Deathless Dash
-44% Faceless Burst
-13% Breathless Dash
+19% Soulless Shot
+43% Heartless Drive
+19% Heartless Dash
+18% Faceless Drive
+1% Faceless Dash
 
 Ottavia:
-6% Demolition Shooter (Target Lock: 4)
-19% Demolition Drive (Target Lock: 8)
-27% Demolition Drive (Target Lock: 9)
-10% Anti-Personnel Shooter (Target Lock: 1)
-6% Anti-Personnel Shooter (Target Lock: 2)
-25% Anti-Personnel Drive (Target Lock: 4)
-7% Cybernetic Burst (Target Lock: 2)
+81% Snapback Dash (Target Lock: 9)
+2% Snapback Dash (Target Lock: 10)
+3% Demolition Shooter (Target Lock: 4)
+5% Demolition Strike (Target Lock: 5)
+7% Demolition Strike (Target Lock: 10)
+3% Demolition Shot (Target Lock: 4)
 
 
-Byron: Faceless Burst
-Ottavia: Anti-Personnel Shooter (Target Lock: 1)
+Byron: Heartless Drive
+Ottavia: Snapback Dash (Target Lock: 9)
 
-Ottavia acquires target lock
-Priorities:  -9 | 1
+Priorities:  5 | 9
 Ottavia is active
-Byron moves:
-
-O....B.
-
-Ottavia hits
-Byron takes 7 damage (now at 2 life)
-Byron is stunned
-Byron loses a Mask Emblem: now at 2
 Ottavia moves:
 
-...O.B.
+O.B....
 
+Ottavia moves:
+
+..B.O..
+
+Byron misses
 
 Beat 7
 -------
 
 Byron
 -----
-life: 6
-discard 1: Faceless Burst
-discard 2: Heartless Drive
-special action
-2 Mask emblems
+Life: 9
+Discard 1: Heartless Drive
+Discard 2: Deathless Grasp
+3 Mask emblems
 
 Ottavia
 -------
-life: 8
-discard 1: Anti-Personnel Shooter
-discard 2: Cover Shot
-special action
+Life: 13
+Discard 1: Snapback Dash
+Discard 2: Cover Grasp
+Special action available
 
 
-...O.B.
+..B.O..
 
-Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 9): -0.37
 
 Byron:
-11% Soulless Shot
-12% Deathless Shot
-18% Deathless Grasp
-20% Deathless Dash
-19% Breathless Grasp
-21% Breathless Dash
+90% Soulless Shot
+2% Faceless Strike
+1% Faceless Shot
+0% Faceless Burst
+1% Breathless Smoke
+4% Breathless Shot
+2% Breathless Dash
 
 Ottavia:
-11% Snapback Grasp (Target Lock: 5)
-20% Snapback Grasp (Target Lock: 9)
-20% Demolition Drive (Target Lock: 8)
-4% Cybernetic Drive (Target Lock: 4)
-17% Cybernetic Drive (Target Lock: 8)
-27% Cybernetic Drive (Target Lock: 9)
+29% Cybernetic Shooter (Target Lock: 3)
+19% Cybernetic Shooter (Target Lock: 9)
+7% Cybernetic Shot (Target Lock: 2)
+0% Cybernetic Shot (Target Lock: 9)
+41% Cybernetic Drive (Target Lock: 9)
+3% Cybernetic Burst (Target Lock: 3)
+1% Cybernetic Burst (Target Lock: 9)
 
 
-Byron: Deathless Grasp
-Ottavia: Demolition Drive (Target Lock: 8)
+Byron: Soulless Shot
+Ottavia: Cybernetic Drive (Target Lock: 9)
 
-Priorities:  4 | 5
+Priorities:  -2 | 4
 Ottavia is active
 Ottavia moves:
 
-.....BO
+.OB....
 
 Ottavia hits
-Byron takes 1 damage (now at 5 life)
-Byron is stunned
-Byron loses a Mask Emblem: now at 1
-Ottavia moves:
+Byron has 2 soak
+Byron takes 1 damage (now at 8 life)
+Ottavia moves Byron:
 
-...O.B.
+BO.....
 
+Byron loses a Mask Emblem: now at 2
+Byron hits
+Ottavia has 2 soak
+Ottavia takes 2 damage (now at 11 life)
+Ottavia is stunned
 
 Beat 8
 -------
 
 Byron
 -----
-life: 3
-discard 1: Deathless Grasp
-discard 2: Faceless Burst
-special action
-1 Mask emblems
+Life: 6
+Discard 1: Soulless Shot
+Discard 2: Heartless Drive
+2 Mask emblems
 
 Ottavia
 -------
-life: 8
-discard 1: Demolition Drive
-discard 2: Anti-Personnel Shooter
-special action
+Life: 11
+Discard 1: Cybernetic Drive
+Discard 2: Snapback Dash
+Special action available
 
 
-...O.B.
+BO.....
+
+Unbeatable strategy for Byron: Breathless Grasp: 0.15
+
 
 Byron:
-36% Soulless Smoke
-10% Soulless Shot
-7% Heartless Smoke
-10% Heartless Shot
-9% Heartless Drive
-11% Heartless Dash
-1% Breathless Smoke
-6% Breathless Shot
-0% Breathless Drive
-11% Breathless Dash
+79% Breathless Smoke
+21% Breathless Strike
 
 Ottavia:
-11% Snapback Strike (Target Lock: 3)
-9% Snapback Strike (Target Lock: 4)
-24% Cover Shot (Target Lock: 4)
-5% Cover Burst (Target Lock: 5)
-15% Cover Grasp (Target Lock: 10)
-1% Cover Dash (Target Lock: -2)
-1% Cover Dash (Target Lock: -1)
-1% Cover Dash (Target Lock: 0)
-1% Cover Dash (Target Lock: 2)
-1% Cover Dash (Target Lock: 3)
-1% Cover Dash (Target Lock: 4)
-1% Cover Dash (Target Lock: 5)
-6% Cybernetic Shot (Target Lock: 3)
-11% Cybernetic Shot (Target Lock: 9)
-1% Cybernetic Shot (Target Lock: 10)
-11% Cybernetic Dash (Target Lock: 2)
+50% Demolition Shooter (Target Lock: 5)
+50% Demolition Shot (Target Lock: 5)
 
 
-Byron: Heartless Drive
-Ottavia: Cybernetic Dash (Target Lock: 2)
+Byron: Breathless Smoke
+Ottavia: Demolition Shooter (Target Lock: 5)
 
-Priorities:  5 | 9
+Priorities:  3 | 3
+Clash!
+
+
+Byron: Breathless Strike
+Ottavia: Demolition Shot (Target Lock: 5)
+
+Priorities:  3 | 3
+Clash!
+
+
+Byron: Breathless Grasp
+Ottavia: Demolition Burst (Target Lock: 5)
+
+Ottavia acquires target lock
+Priorities:  -5 | 2
 Ottavia is active
 Ottavia moves:
 
-..O..B.
+B.O....
 
 Byron moves:
 
-..OB...
+..O...B
+
+Ottavia misses
+Ottavia moves:
+
+...O..B
 
 Byron misses
 
@@ -535,53 +612,448 @@ Beat 9
 
 Byron
 -----
-life: 3
-discard 1: Heartless Drive
-discard 2: Deathless Grasp
-special action
+Life: 6
+Discard 1: Breathless Grasp
+Discard 2: Soulless Shot
+2 Mask emblems
+
+Ottavia
+-------
+Life: 11
+Discard 1: Demolition Burst
+Discard 2: Cybernetic Drive
+Special action available
+
+
+...O..B
+
+Unbeatable strategy for Ottavia: Snapback Strike (Target Lock: 4): -1.15
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 0): -0.41
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 1): -0.41
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 2): -0.41
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): -0.41
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 4): -0.41
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 5): -0.41
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 8): -0.41
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 9): -0.41
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 10): -0.41
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 0): -1.07
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 1): -1.07
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 2): -1.07
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 3): -1.07
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 4): -1.07
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 5): -1.07
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 8): -1.07
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 9): -1.07
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 10): -1.07
+
+
+Byron:
+15% Deathless Strike
+18% Deathless Dash
+19% Heartless Drive
+19% Heartless Dash
+10% Faceless Drive
+20% Faceless Dash
+
+Ottavia:
+19% Snapback Strike (Target Lock: 4)
+29% Snapback Strike (Target Lock: 5)
+3% Snapback Strike (Target Lock: 8)
+13% Snapback Grasp (Target Lock: 8)
+18% Snapback Grasp (Target Lock: 9)
+17% Snapback Grasp (Target Lock: 10)
+
+
+Byron: Deathless Dash
+Ottavia: Snapback Strike (Target Lock: 8)
+
+Ottavia acquires target lock
+Priorities:  -2 | 3
+Ottavia is active
+Ottavia hits
+Byron takes 1 damage (now at 5 life)
+Byron is stunned
+Byron loses a Mask Emblem: now at 1
+Ottavia moves:
+
+.O....B
+
+
+Beat 10
+-------
+
+Byron
+-----
+Life: 3
+Discard 1: Deathless Dash
+Discard 2: Breathless Grasp
 1 Mask emblems
 
 Ottavia
 -------
-life: 8
-discard 1: Cybernetic Dash
-discard 2: Demolition Drive
-special action
+Life: 11
+Discard 1: Snapback Strike
+Discard 2: Demolition Burst
+Special action available
 
 
-..OB...
+.O....B
 
-Unbeatable strategy for Ottavia: Cover Burst (Target Lock: -1): -0.03
 
 Byron:
-28% Soulless Smoke
-4% Soulless Burst
-16% Faceless Shot
-3% Faceless Burst
-17% Breathless Smoke
-32% Breathless Dash
+24% Soulless Shot
+19% Heartless Smoke
+18% Heartless Drive
+20% Faceless Smoke
+19% Faceless Shot
 
 Ottavia:
-12% Snapback Burst (Target Lock: 9)
-15% Cover Shooter (Target Lock: 2)
-15% Cover Shot (Target Lock: 2)
-17% Cover Burst (Target Lock: -1)
-9% Cover Burst (Target Lock: 2)
-18% Cover Burst (Target Lock: 3)
-15% Cover Grasp (Target Lock: 3)
+24% Anti-Personnel Shooter (Target Lock: 3)
+29% Anti-Personnel Drive (Target Lock: 5)
+16% Cover Shooter (Target Lock: 2)
+14% Cover Shooter (Target Lock: 3)
+17% Cover Shooter (Target Lock: 5)
+
+
+Byron: Faceless Shot
+Ottavia: Cover Shooter (Target Lock: 3)
+
+Priorities:  2 | -1
+Byron is active
+Byron hits
+Ottavia has 1 soak
+Ottavia takes 3 damage (now at 8 life)
+Ottavia misses
+
+Beat 11
+-------
+
+Byron
+-----
+Life: 3
+Discard 1: Faceless Shot
+Discard 2: Deathless Dash
+1 Mask emblems
+
+Ottavia
+-------
+Life: 8
+Discard 1: Cover Shooter
+Discard 2: Snapback Strike
+Special action available
+
+
+.O....B
+
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: -3): -0.49
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: -1): -0.49
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 0): -0.49
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 1): -0.49
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 2): -0.49
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 3): -0.49
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 4): -0.49
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 5): -0.49
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 6): -0.49
+
+
+Byron:
+2% Heartless Drive
+2% Heartless Burst
+34% Breathless Smoke
+27% Breathless Drive
+34% Breathless Burst
+
+Ottavia:
+8% Demolition Shot (Target Lock: 4)
+5% Anti-Personnel Burst (Target Lock: 1)
+5% Anti-Personnel Burst (Target Lock: 3)
+10% Anti-Personnel Burst (Target Lock: 4)
+72% Cybernetic Drive (Target Lock: 5)
 
 
 Byron: Breathless Smoke
-Ottavia: Cover Burst (Target Lock: 3)
+Ottavia: Cybernetic Drive (Target Lock: 5)
 
-Ottavia acquires target lock
-Priorities:  -7 | -2
+Priorities:  3 | 4
 Ottavia is active
 Ottavia moves:
 
-O..B...
+...O..B
 
+Ottavia misses
+Byron hits
+Byron moves Ottavia:
+
+....O.B
+
+Ottavia has 2 soak
+Ottavia takes 0 damage (now at 8 life)
+
+Beat 12
+-------
+
+Byron
+-----
+Life: 3
+Discard 1: Breathless Smoke
+Discard 2: Faceless Shot
+1 Mask emblems
+
+Ottavia
+-------
+Life: 8
+Discard 1: Cybernetic Drive
+Discard 2: Cover Shooter
+Special action available
+
+
+....O.B
+
+
+Byron:
+34% Deathless Strike
+15% Deathless Drive
+12% Deathless Burst
+15% Deathless Grasp
+12% Heartless Drive
+10% Heartless Grasp
+
+Ottavia:
+13% Snapback Shot (Target Lock: 4)
+9% Snapback Burst (Target Lock: 2)
+10% Snapback Grasp (Target Lock: 6)
+1% Snapback Dash (Target Lock: -3)
+1% Snapback Dash (Target Lock: -1)
+1% Snapback Dash (Target Lock: 0)
+1% Snapback Dash (Target Lock: 1)
+1% Snapback Dash (Target Lock: 2)
+1% Snapback Dash (Target Lock: 3)
+1% Snapback Dash (Target Lock: 4)
+1% Snapback Dash (Target Lock: 5)
+1% Snapback Dash (Target Lock: 6)
+1% Snapback Dash (Target Lock: 8)
+53% Snapback Dash (Target Lock: 10)
+2% Demolition Shot (Target Lock: 4)
+2% Demolition Shot (Target Lock: 6)
+
+
+Byron: Heartless Grasp
+Ottavia: Snapback Shot (Target Lock: 4)
+
+Priorities:  6 | 2
+Byron is active
+Byron hits
+Byron moves Ottavia:
+
+.....OB
+
+Ottavia takes 3 damage (now at 5 life)
+Ottavia is stunned
+
+Beat 13
+-------
+
+Byron
+-----
+Life: 3
+Discard 1: Heartless Grasp
+Discard 2: Breathless Smoke
+1 Mask emblems
+
+Ottavia
+-------
+Life: 5
+Discard 1: Snapback Shot
+Discard 2: Cybernetic Drive
+Special action available
+
+
+.....OB
+
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: -3): -1.84
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: -2): -1.84
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: -1): -1.84
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 0): -1.84
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 1): -1.84
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 2): -1.84
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 3): -1.84
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 4): -1.84
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 5): -1.84
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 8): -1.24
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 9): -1.84
+
+
+Byron:
+20% Soulless Shot
+10% Deathless Strike
+3% Deathless Shot
+67% Deathless Burst
+
+Ottavia:
+0% Demolition Grasp (Target Lock: -3)
+0% Demolition Grasp (Target Lock: -2)
+0% Demolition Grasp (Target Lock: -1)
+0% Demolition Grasp (Target Lock: 0)
+0% Demolition Grasp (Target Lock: 1)
+0% Demolition Grasp (Target Lock: 2)
+0% Demolition Grasp (Target Lock: 3)
+0% Demolition Grasp (Target Lock: 4)
+0% Demolition Grasp (Target Lock: 5)
+0% Demolition Grasp (Target Lock: 8)
+0% Demolition Grasp (Target Lock: 9)
+3% Cover Burst (Target Lock: 0)
+0% Cover Burst (Target Lock: 2)
+9% Cover Dash (Target Lock: -3)
+9% Cover Dash (Target Lock: -2)
+9% Cover Dash (Target Lock: -1)
+9% Cover Dash (Target Lock: 0)
+9% Cover Dash (Target Lock: 1)
+9% Cover Dash (Target Lock: 2)
+9% Cover Dash (Target Lock: 3)
+9% Cover Dash (Target Lock: 4)
+9% Cover Dash (Target Lock: 5)
+7% Cover Dash (Target Lock: 8)
+8% Cover Dash (Target Lock: 9)
+
+
+Byron: Deathless Shot
+Ottavia: Cover Dash (Target Lock: 0)
+
+Priorities:  1 | 6
+Ottavia is active
+Ottavia moves:
+
+....O.B
+
+Byron misses
+
+Beat 14
+-------
+
+Byron
+-----
+Life: 3
+Discard 1: Deathless Shot
+Discard 2: Heartless Grasp
+1 Mask emblems
+
+Ottavia
+-------
+Life: 5
+Discard 1: Cover Dash
+Discard 2: Snapback Shot
+Special action available
+
+
+....O.B
+
+
+Byron:
+32% Soulless Smoke
+25% Soulless Drive
+11% Faceless Drive
+15% Breathless Smoke
+18% Breathless Dash
+
+Ottavia:
+11% Demolition Burst (Target Lock: 4)
+30% Cybernetic Shooter (Target Lock: 3)
+26% Cybernetic Shooter (Target Lock: 9)
+22% Cybernetic Drive (Target Lock: 4)
+12% Cybernetic Burst (Target Lock: 4)
+
+
+Byron: Soulless Drive
+Ottavia: Cybernetic Shooter (Target Lock: 3)
+
+Priorities:  0 | 2
+Ottavia is active
 Ottavia hits
-Byron takes 4 damage (now at 0 life)
+Byron has 4 soak
+Byron takes 0 damage (now at 3 life)
+Ottavia moves Byron:
+
+....OB.
+
+Byron loses a Mask Emblem: now at 0
+Byron moves:
+
+...BO..
+
+Byron hits
+Ottavia has 2 soak
+Ottavia takes 2 damage (now at 3 life)
+Ottavia is stunned
+
+Beat 15
+-------
+
+Byron
+-----
+Life: 1
+Discard 1: Soulless Drive
+Discard 2: Deathless Shot
+0 Mask emblems
+
+Ottavia
+-------
+Life: 3
+Discard 1: Cybernetic Shooter
+Discard 2: Cover Dash
+Special action available
+
+
+...BO..
+
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 5): -6.00
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 1): -6.00
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 2): -6.00
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 3): -6.00
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 4): -6.00
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 5): -6.00
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 6): -6.00
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 9): -6.00
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 10): -6.00
+
+
+Byron:
+10% Heartless Smoke
+9% Heartless Strike
+3% Heartless Burst
+4% Heartless Grasp
+3% Heartless Dash
+3% Faceless Smoke
+2% Faceless Strike
+3% Faceless Burst
+18% Faceless Grasp
+3% Faceless Dash
+24% Breathless Smoke
+3% Breathless Strike
+3% Breathless Burst
+11% Breathless Grasp
+3% Breathless Dash
+
+Ottavia:
+50% Demolition Drive (Target Lock: 3)
+50% Demolition Drive (Target Lock: 5)
+
+
+Byron: Heartless Strike
+Ottavia: Demolition Drive (Target Lock: 5)
+
+Priorities:  4 | 5
+Ottavia is active
+Ottavia moves:
+
+.O.B...
+
+Ottavia misses
+Ottavia moves:
+
+..OB...
+
+Byron misses
+Game goes to time
 OTTAVIA WINS!
-total_time: 23
+total_time: 43

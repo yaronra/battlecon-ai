@@ -28,45 +28,48 @@ Special action available
 
 .G...L.
 
+Unbeatable strategy for Gerard: Gilded Dash (Hire Archer): 2.38
+Unbeatable strategy for Gerard: Gilded Dash (Hire Brawler): 3.62
 Unbeatable strategy for Gerard: Avaricious Dash (Hire Archer): 1.94
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Brawler): 3.08
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Brawler): 3.62
 
 
 Gerard:
-3% Avaricious Shot (Hire Brawler)
-2% Avaricious Drive
-7% Avaricious Drive (Hire Brawler)
-51% Avaricious Dash (Hire Brawler)
-1% Initiation Shot (Hire Brawler)
-36% Initiation Dash (Hire Brawler)
+1% Gilded Drive (Hire Brawler)
+14% Gilded Burst (Hire Brawler)
+69% Gilded Dash (Hire Brawler)
+9% Avaricious Drive (Hire Brawler)
+7% Initiation Shot (Hire Brawler)
 
 Lixis:
-3% Venomous Lance
-2% Venomous Drive
-10% Venomous Burst
-31% Vine Shot
-54% Vine Drive
+8% Venomous Lance
+18% Venomous Shot
+8% Venomous Drive
+15% Venomous Burst
+50% Vine Shot
 
 
-Gerard: Avaricious Dash (Hire Brawler)
-Lixis: Venomous Burst
+Gerard: Gilded Burst (Hire Brawler)
+Lixis: Venomous Shot
 
-Gerard hires a Brawler for 3 gold (0 remaining
-Priorities:  10 | 1
-Gerard is active
+Gerard hires a Brawler for 3 gold (0 remaining)
+Priorities:  0 | 2
+Lixis is active
 Gerard moves:
 
-..G..L.
+G....L.
 
 Lixis moves:
 
-..G...L
+G...L..
 
-Gerard moves:
-
-G.....L
-
-Lixis misses
+Lixis hits
+Gerard will have -2 priority next beat
+Gerard discards Grasp
+Gerard takes 4 damage (now at 16 life)
+Gerard hits
+Lixis takes 3 damage (now at 17 life)
+Lixis is stunned
 Gerard gains 1 Gold Token (has 1)
 
 Beat 2
@@ -74,8 +77,8 @@ Beat 2
 
 Gerard
 ------
-Life: 20
-Discard 1: Avaricious Dash
+Life: 16
+Discard 1: Gilded Burst Grasp
 Discard 2: Villainous Larceny
 Special action available
 Gold: 1
@@ -84,39 +87,48 @@ Mercenaries in play:
 
 Lixis
 -----
-Life: 20
-Discard 1: Venomous Burst
+Life: 17
+Discard 1: Venomous Shot
 Discard 2: Pruning Grasp
 Special action available
+Opponent has priority penalty: -2
 
 
-G.....L
+G...L..
+
+Unbeatable strategy for Lixis: Vine Lance: -4.55
 
 
 Gerard:
-3% Gilded Grasp
-67% Hooked Drive
-27% Hooked Burst
-4% Initiation Grasp
+18% Avaricious Dash
+6% Hooked Drive
+59% Initiation Drive
+18% Initiation Dash
 
 Lixis:
-53% Rooted Lance
-39% Rooted Strike
-8% Vine Shot
+18% Naturalizing Drive
+50% Vine Lance
+32% Vine Burst
 
 
-Gerard: Hooked Drive
-Lixis: Rooted Strike
+Gerard: Avaricious Dash
+Lixis: Vine Burst
 
-Priorities:  3 | 1
+Priorities:  8 | -1
 Gerard is active
 Gerard moves:
 
-..G...L
+.G..L..
 
-Gerard hits
-Lixis has 2 soak
-Lixis takes 2 damage (now at 18 life)
+Lixis moves:
+
+.G...L.
+
+Gerard moves:
+
+....GL.
+
+Lixis loses 1 life (now at 16)
 Lixis misses
 Gerard gains 1 Gold Token (has 2)
 
@@ -125,9 +137,9 @@ Beat 3
 
 Gerard
 ------
-Life: 20
-Discard 1: Hooked Drive
-Discard 2: Avaricious Dash
+Life: 16
+Discard 1: Avaricious Dash
+Discard 2: Gilded Burst Grasp
 Special action available
 Gold: 2
 Mercenaries in play:
@@ -135,41 +147,45 @@ Mercenaries in play:
 
 Lixis
 -----
-Life: 18
-Discard 1: Rooted Strike
-Discard 2: Venomous Burst
+Life: 16
+Discard 1: Vine Burst
+Discard 2: Venomous Shot
 Special action available
 
 
-..G...L
+....GL.
 
 
 Gerard:
-21% Gilded Shot
-64% Gilded Burst
-14% Initiation Shot
-2% Initiation Burst
+31% Hooked Shot
+50% Hooked Drive
+19% Initiation Drive
 
 Lixis:
-44% Vine Lance
-26% Vine Shot
-20% Pruning Shot
-10% Pruning Grasp
+45% Rooted Strike
+35% Rooted Grasp
+20% Pruning Drive
 
 
-Gerard: Gilded Burst
-Lixis: Pruning Shot
+Gerard: Initiation Drive
+Lixis: Rooted Grasp
 
-Lixis gets +2 power
-Lixis gets +2 priority
-Priorities:  0 | 2
-Lixis is active
+Priorities:  5 | 3
+Gerard is active
 Gerard moves:
 
-G.....L
+.....LG
 
-Lixis misses
-Gerard misses
+Gerard moves:
+
+....GL.
+
+Gerard hits
+First hireling next beat will cost 2 gold less
+Lixis has 2 soak
+Lixis takes 1 damage (now at 15 life)
+Lixis is stunned
+Lixis loses 1 life (now at 14)
 Gerard gains 1 Gold Token (has 3)
 
 Beat 4
@@ -177,209 +193,79 @@ Beat 4
 
 Gerard
 ------
-Life: 20
-Discard 1: Gilded Burst
-Discard 2: Hooked Drive
+Life: 16
+Discard 1: Initiation Drive
+Discard 2: Avaricious Dash
 Special action available
+First hireling costs 2 gold less
 Gold: 3
 Mercenaries in play:
   Brawler
 
 Lixis
 -----
-Life: 18
-Discard 1: Pruning Shot
-Discard 2: Rooted Strike
+Life: 14
+Discard 1: Rooted Grasp
+Discard 2: Vine Burst
 Special action available
 
 
-G.....L
-
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Archer): 4.00
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Heavy Knight): 1.14
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Gunslinger): 1.14
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage): 1.14
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Trebuchet): 2.40
+....GL.
 
 
 Gerard:
-16% Villainous Larceny (Hire Archer)
-64% Villainous Grasp (Hire Archer)
-6% Initiation Larceny (Hire Archer)
-14% Initiation Grasp (Hire Archer)
+10% Villainous Larceny (Hire Archer)
+2% Villainous Strike (Hire Archer)
+30% Villainous Grasp (Hire Archer)
+8% Gilded Larceny (Hire Archer)
+28% Hooked Larceny (Hire Archer)
+1% Hooked Strike (Hire Archer)
+20% Hooked Shot (Hire Archer)
 
 Lixis:
-21% Venomous Lance
-16% Venomous Drive
-56% Venomous Grasp
-7% Vine Drive
+30% Venomous Lance
+8% Venomous Strike
+15% Venomous Shot
+19% Venomous Drive
+10% Venomous Dash
+1% Naturalizing Shot
+17% Naturalizing Drive
 
 
-Gerard: Villainous Grasp (Hire Archer)
-Lixis: Venomous Grasp
+Gerard: Gilded Larceny (Hire Archer)
+Lixis: Venomous Dash
 
-Gerard hires a Archer for 3 gold (0 remaining
-Priorities:  5 | 5
-Clash!
-
-
-Gerard: Villainous Strike (Hire Archer)
-Lixis: Venomous Lance
-
-Gerard hires a Archer for 3 gold (0 remaining
-Priorities:  3 | 5
+Gerard hires a Archer for 1 gold (2 remaining)
+Priorities:  2 | 9
 Lixis is active
-Lixis misses
-Gerard misses
+Lixis moves:
+
+...LG..
+
+Lixis moves:
+
+....GL.
+
+Gerard moves Lixis:
+
+...LG..
+
 Gerard moves:
 
-..G...L
+..GL...
 
-Gerard gains 1 Gold Token (has 1)
+Gerard misses
+Lixis loses 1 life (now at 13)
+Gerard gains 1 Gold Token (has 3)
 
 Beat 5
 -------
 
 Gerard
 ------
-Life: 20
-Discard 1: Villainous Strike
-Discard 2: Gilded Burst
-Special action available
-Gold: 1
-Mercenaries in play:
-  Brawler
-  Archer
-
-Lixis
------
-Life: 18
-Discard 1: Venomous Lance
-Discard 2: Pruning Shot
-Special action available
-
-
-..G...L
-
-Unbeatable strategy for Gerard: Avaricious Dash: 1.16
-
-
-Gerard:
-0% Avaricious Shot
-31% Avaricious Drive
-14% Hooked Shot
-37% Hooked Drive
-14% Initiation Shot
-4% Initiation Drive
-
-Lixis:
-23% Rooted Strike
-39% Rooted Grasp
-4% Naturalizing Drive
-0% Vine Strike
-6% Vine Drive
-28% Vine Grasp
-
-
-Gerard: Hooked Drive
-Lixis: Vine Grasp
-
-Priorities:  3 | 3
-Clash!
-
-
-Gerard: Hooked Shot
-Lixis: Vine Strike
-
-Priorities:  1 | 1
-Clash!
-
-
-Gerard: Hooked Grasp
-Lixis: Vine Burst
-
-Priorities:  4 | -1
-Gerard is active
-Gerard moves:
-
-G.....L
-
-Gerard misses
-Lixis misses
-Gerard gains 1 Gold Token (has 2)
-
-Beat 6
--------
-
-Gerard
-------
-Life: 20
-Discard 1: Hooked Grasp
-Discard 2: Villainous Strike
-Special action available
-Gold: 2
-Mercenaries in play:
-  Brawler
-  Archer
-
-Lixis
------
-Life: 18
-Discard 1: Vine Burst
-Discard 2: Venomous Lance
-Special action available
-
-
-G.....L
-
-Unbeatable strategy for Gerard: Avaricious Dash: 0.01
-
-
-Gerard:
-6% Gilded Larceny
-32% Gilded Drive
-4% Avaricious Larceny
-5% Avaricious Dash
-14% Initiation Larceny
-6% Initiation Shot
-29% Initiation Drive
-5% Initiation Dash
-
-Lixis:
-16% Rooted Strike
-3% Rooted Drive
-6% Rooted Grasp
-15% Naturalizing Shot
-56% Pruning Strike
-4% Pruning Shot
-1% Pruning Grasp
-
-
-Gerard: Initiation Drive
-Lixis: Naturalizing Shot
-
-Priorities:  5 | 3
-Gerard is active
-Gerard moves:
-
-..G...L
-
-Gerard misses
-Lixis loses 1 life (now at 17)
-Lixis hits
-Gerard discards Larceny
-Gerard takes 2 damage (now at 18 life)
-Gerard is stunned
-Gerard gains 1 Gold Token (has 3)
-
-Beat 7
--------
-
-Gerard
-------
-Life: 18
-Discard 1: Initiation Drive Larceny
-Discard 2: Hooked Grasp
+Life: 16
+Discard 1: Gilded Larceny
+Discard 2: Initiation Drive
 Special action available
 Gold: 3
 Mercenaries in play:
@@ -388,39 +274,184 @@ Mercenaries in play:
 
 Lixis
 -----
-Life: 17
-Discard 1: Naturalizing Shot
-Discard 2: Vine Burst
+Life: 13
+Discard 1: Venomous Dash
+Discard 2: Rooted Grasp
 Special action available
 
 
-..G...L
-
-Unbeatable strategy for Lixis: Venomous Dash: -0.19
+..GL...
 
 
 Gerard:
-13% Villainous Shot
-9% Villainous Dash
-77% Gilded Burst
+11% Villainous Grasp
+47% Villainous Dash
+4% Avaricious Strike
+20% Avaricious Shot
+0% Avaricious Burst (Hire Mage)
+0% Avaricious Burst (Hire Gunslinger)
+0% Avaricious Burst (Hire Heavy Knight)
+17% Avaricious Grasp
 
 Lixis:
-26% Venomous Drive
-44% Venomous Grasp
-30% Rooted Grasp
+8% Naturalizing Strike
+22% Vine Lance
+3% Vine Strike
+25% Vine Drive
+18% Pruning Strike
+23% Pruning Burst
 
 
-Gerard: Gilded Burst
-Lixis: Venomous Grasp
+Gerard: Avaricious Grasp
+Lixis: Pruning Burst
 
-Priorities:  0 | 5
-Lixis is active
+Lixis gets +2 power
+Lixis gets +2 priority
+Priorities:  5 | 1
+Gerard is active
 Gerard moves:
 
-G.....L
+...LG..
+
+Lixis moves:
+
+..L.G..
+
+Gerard misses
+Lixis loses 1 life (now at 12)
+Lixis hits
+Gerard discards Shot
+Gerard takes 4 damage (now at 12 life)
+Gerard is stunned
+Gerard gains 1 Gold Token (has 4)
+
+Beat 6
+-------
+
+Gerard
+------
+Life: 12
+Discard 1: Avaricious Grasp Shot
+Discard 2: Gilded Larceny
+Special action available
+Gold: 4
+Mercenaries in play:
+  Brawler
+  Archer
+
+Lixis
+-----
+Life: 12
+Discard 1: Pruning Burst
+Discard 2: Venomous Dash
+Special action available
+
+
+..L.G..
+
+Unbeatable strategy for Lixis: Vine Lance: -4.52
+
+
+Gerard:
+40% Villainous Strike
+53% Villainous Dash
+7% Initiation Strike
+
+Lixis:
+39% Rooted Drive
+59% Vine Lance
+2% Vine Strike
+
+
+Gerard: Villainous Dash
+Lixis: Rooted Drive
+
+Priorities:  9 | 2
+Gerard is active
+Lixis loses 1 life (now at 11)
+Gerard moves:
+
+..L...G
+
+Lixis loses 1 life (now at 10)
+Lixis moves:
+
+...L..G
 
 Lixis misses
-Gerard misses
+Gerard moves:
+
+..GL...
+
+Gerard gains 1 Gold Token (has 5)
+
+Beat 7
+-------
+
+Gerard
+------
+Life: 12
+Discard 1: Villainous Dash
+Discard 2: Avaricious Grasp Shot
+Special action available
+Gold: 5
+Mercenaries in play:
+  Brawler
+  Archer
+
+Lixis
+-----
+Life: 10
+Discard 1: Rooted Drive
+Discard 2: Pruning Burst
+Special action available
+
+
+..GL...
+
+
+Gerard:
+29% Gilded Larceny
+10% Gilded Burst
+0% Initiation Larceny
+2% Initiation Larceny (Hire Gunslinger; Activate Gunslinger)
+44% Initiation Drive (Hire Gunslinger; Activate Gunslinger)
+14% Initiation Burst
+
+Lixis:
+14% Venomous Lance
+13% Venomous Strike
+9% Venomous Shot
+32% Venomous Grasp
+0% Naturalizing Grasp
+31% Vine Strike
+
+
+Gerard: Initiation Larceny (Hire Gunslinger; Activate Gunslinger)
+Lixis: Vine Strike
+
+Gerard hires a Gunslinger for 2 gold (3 remaining)
+Gerard activates his Gunslinger for 3 gold (0 remaining)
+Priorities:  4 | 1
+Gerard is active
+Gerard moves Lixis:
+
+.LG....
+
+Gerard moves:
+
+GL.....
+
+Gerard moves:
+
+.LG....
+
+Gerard hits
+First hireling next beat will cost 2 gold less
+Lixis takes 4 damage (now at 6 life)
+Gerard gains 3 Gold Tokens (has 3)
+Lixis is stunned
+Lixis loses 1 life (now at 5)
 Gerard gains 1 Gold Token (has 4)
 
 Beat 8
@@ -428,222 +459,247 @@ Beat 8
 
 Gerard
 ------
-Life: 18
-Discard 1: Gilded Burst
-Discard 2: Initiation Drive Larceny
+Life: 12
+Discard 1: Initiation Larceny
+Discard 2: Villainous Dash
 Special action available
+First hireling costs 2 gold less
 Gold: 4
 Mercenaries in play:
   Brawler
   Archer
+  Gunslinger
 
 Lixis
 -----
-Life: 17
-Discard 1: Venomous Grasp
-Discard 2: Naturalizing Shot
+Life: 5
+Discard 1: Vine Strike
+Discard 2: Rooted Drive
 Special action available
 
 
-G.....L
+.LG....
 
 
 Gerard:
-15% Villainous Strike
-68% Villainous Grasp (Hire Trebuchet)
-10% Villainous Dash
-7% Hooked Shot
+46% Hooked Drive (Hire Mage)
+42% Hooked Drive (Hire Heavy Knight)
+6% Hooked Burst (Hire Mage)
+6% Hooked Burst (Hire Heavy Knight)
 
 Lixis:
-38% Rooted Drive
-22% Rooted Burst
-17% Pruning Lance
-23% Pruning Drive
+4% Venomous Shot
+96% Pruning Dash
 
 
-Gerard: Villainous Grasp (Hire Trebuchet)
-Lixis: Rooted Burst
+Gerard: Hooked Drive (Hire Mage)
+Lixis: Pruning Dash
 
-Gerard hires a Trebuchet for 3 gold (1 remaining
-Priorities:  5 | -1
-Gerard is active
-Gerard misses
-Lixis loses 1 life (now at 16)
-Lixis misses
+Gerard hires a Mage for 0 gold (4 remaining)
+Lixis gets +2 power
+Lixis gets +2 priority
+Priorities:  3 | 9
+Lixis is active
 Gerard moves:
 
-..G...L
+.L....G
 
-Gerard gains 1 Gold Token (has 2)
+Lixis moves:
+
+...L..G
+
+Gerard moves:
+
+...LG..
+
+Gerard misses
+Lixis loses 1 life (now at 4)
+Gerard gains 1 Gold Token (has 5)
 
 Beat 9
 -------
 
 Gerard
 ------
-Life: 18
-Discard 1: Villainous Grasp
-Discard 2: Gilded Burst
+Life: 12
+Discard 1: Hooked Drive
+Discard 2: Initiation Larceny
 Special action available
-Gold: 2
+Gold: 5
 Mercenaries in play:
   Brawler
   Archer
-  Trebuchet
+  Gunslinger
+  Mage
 
 Lixis
 -----
-Life: 16
-Discard 1: Rooted Burst
-Discard 2: Venomous Grasp
+Life: 4
+Discard 1: Pruning Dash
+Discard 2: Vine Strike
 Special action available
 
 
-..G...L
-
-Unbeatable strategy for Lixis: Vine Shot: -0.81
+...LG..
 
 
 Gerard:
-82% Hooked Shot
-18% Initiation Shot
+3% Villainous Strike (Activate Mage)
+10% Villainous Dash
+2% Gilded Strike
+0% Gilded Shot (Activate Mage)
+84% Gilded Dash
 
 Lixis:
-13% Vine Strike
-87% Vine Shot
+5% Venomous Lance
+10% Venomous Drive
+33% Rooted Drive
+50% Rooted Burst
+2% Naturalizing Drive
 
 
-Gerard: Hooked Shot
-Lixis: Vine Shot
+Gerard: Gilded Dash
+Lixis: Rooted Drive
 
-Priorities:  1 | 0
+Priorities:  8 | 2
 Gerard is active
 Gerard moves:
 
-G.....L
+..GL...
 
-Gerard hits
-Lixis takes 4 damage (now at 12 life)
-Lixis loses 1 life (now at 11)
-Lixis hits
-Lixis moves Gerard:
-
-.G....L
-
-Gerard discards Strike
-Gerard takes 3 damage (now at 15 life)
-Gerard is stunned
-Gerard gains 1 Gold Token (has 3)
+Lixis loses 1 life (now at 3)
+Lixis misses
+Gerard gains 1 Gold Token (has 6)
 
 Beat 10
 -------
 
 Gerard
 ------
-Life: 15
-Discard 1: Hooked Strike Shot
-Discard 2: Villainous Grasp
+Life: 12
+Discard 1: Gilded Dash
+Discard 2: Hooked Drive
 Special action available
-Gold: 3
+Gold: 6
 Mercenaries in play:
   Brawler
   Archer
-  Trebuchet
+  Gunslinger
+  Mage
 
 Lixis
 -----
-Life: 11
-Discard 1: Vine Shot
-Discard 2: Rooted Burst
+Life: 3
+Discard 1: Rooted Drive
+Discard 2: Pruning Dash
 Special action available
 
 
-.G....L
-
-Unbeatable strategy for Lixis: Venomous Strike: -0.13
-Unbeatable strategy for Lixis: Venomous Grasp: -0.03
+..GL...
 
 
 Gerard:
-88% Gilded Dash
-2% Avaricious Burst
-2% Initiation Burst
-7% Initiation Dash
+4% Villainous Shot
+1% Avaricious Larceny
+1% Initiation Larceny
+46% Initiation Strike
+1% Initiation Shot
+48% Initiation Burst
 
 Lixis:
-58% Venomous Strike
-42% Venomous Drive
+1% Venomous Lance
+42% Venomous Burst
+6% Naturalizing Burst
+52% Special Virulent Miasma
 
 
-Gerard: Gilded Dash
-Lixis: Venomous Strike
+Gerard: Villainous Shot
+Lixis: Special Virulent Miasma
 
-Priorities:  8 | 3
-Gerard is active
-Lixis loses 1 life (now at 10)
+Priorities:  2 | 5
+Lixis is active
+Lixis hits
+Gerard discards Burst
+Gerard takes 4 damage (now at 8 life)
+Gerard is stunned
 Gerard moves:
 
-..G...L
+...L..G
 
-Lixis misses
-Gerard gains 1 Gold Token (has 4)
+Gerard gains 1 Gold Token (has 7)
 
 Beat 11
 -------
 
 Gerard
 ------
-Life: 15
-Discard 1: Gilded Dash
-Discard 2: Hooked Strike Shot
+Life: 8
+Discard 1: Villainous Shot Burst
+Discard 2: Gilded Dash
 Special action available
-Gold: 4
+Gold: 7
 Mercenaries in play:
   Brawler
   Archer
-  Trebuchet
+  Gunslinger
+  Mage
 
 Lixis
 -----
-Life: 10
-Discard 1: Venomous Strike
-Discard 2: Vine Shot
-Special action available
+Life: 3
+Discard 1: Rooted Drive
+Discard 2: Pruning Dash
+Virulent Miasma is active
 
 
-..G...L
+...L..G
 
-Unbeatable strategy for Gerard: Villainous Burst: 0.65
-Unbeatable strategy for Gerard: Avaricious Burst: 0.62
+Unbeatable strategy for Lixis: Venomous Lance: -9.22
 
 
 Gerard:
-17% Villainous Grasp
-4% Initiation Larceny
-78% Initiation Drive
-1% Initiation Grasp
+10% Hooked Drive (Hire Lackey)
+70% Hooked Grasp (Activate Mage)
+19% Initiation Larceny (Hire Lackey)
 
 Lixis:
-4% Naturalizing Drive
-7% Naturalizing Burst
-77% Pruning Lance
-12% Pruning Drive
+89% Venomous Lance
+7% Venomous Grasp
+4% Vine Burst
 
 
-Gerard: Initiation Drive
-Lixis: Pruning Lance
+Gerard: Hooked Grasp (Activate Mage)
+Lixis: Venomous Lance
 
-Lixis gets +3 power
-Lixis gets +3 priority
-Priorities:  5 | 6
+Gerard activates his Mage for 3 gold (4 remaining)
+Gerard loses 3 life (now at 5)
+Priorities:  5 | 5
+Clash!
+
+
+Gerard: Hooked Larceny (Activate Mage)
+Lixis: Venomous Strike
+
+Gerard activates his Mage for 3 gold (4 remaining)
+Gerard loses 3 life (now at 5)
+Priorities:  3 | 3
+Clash!
+
+
+Gerard: Hooked Strike (Activate Mage)
+Lixis: Venomous Grasp
+
+Gerard activates his Mage for 3 gold (4 remaining)
+Gerard loses 3 life (now at 5)
+Priorities:  3 | 5
 Lixis is active
+Lixis moves:
+
+....L.G
+
 Lixis misses
-Gerard moves:
-
-...G..L
-
 Gerard misses
-Lixis loses 1 life (now at 9)
+Lixis loses 1 life (now at 2)
 Gerard gains 1 Gold Token (has 5)
 
 Beat 12
@@ -651,625 +707,71 @@ Beat 12
 
 Gerard
 ------
-Life: 15
-Discard 1: Initiation Drive
-Discard 2: Gilded Dash
+Life: 5
+Discard 1: Hooked Strike
+Discard 2: Villainous Shot Burst
 Special action available
 Gold: 5
 Mercenaries in play:
   Brawler
   Archer
-  Trebuchet
+  Gunslinger
+  Mage
 
 Lixis
 -----
-Life: 9
-Discard 1: Pruning Lance
-Discard 2: Venomous Strike
-Special action available
+Life: 2
+Discard 1: Venomous Grasp
+Discard 2: Rooted Drive
+Virulent Miasma is active
 
 
-...G..L
+....L.G
+
+Unbeatable strategy for Lixis: Pruning Lance: -4.07
 
 
 Gerard:
-30% Villainous Burst
-70% Hooked Burst
+21% Gilded Drive (Activate Mage)
+21% Gilded Drive (Hire Heavy Knight; Activate Mage)
+58% Initiation Grasp
 
 Lixis:
-76% Rooted Shot
-24% Vine Shot
+6% Naturalizing Burst
+26% Vine Lance
+7% Vine Burst
+58% Pruning Lance
+3% Pruning Burst
 
 
-Gerard: Hooked Burst
-Lixis: Rooted Shot
+Gerard: Initiation Grasp
+Lixis: Pruning Lance
 
-Priorities:  0 | 0
+Gerard loses 3 life (now at 2)
+Lixis gets +3 power
+Lixis gets +3 priority
+Priorities:  6 | 6
 Clash!
 
 
-Gerard: Hooked Grasp
-Lixis: Rooted Grasp
+Gerard: Initiation Drive
+Lixis: Pruning Strike
 
-Priorities:  4 | 3
+Gerard loses 3 life (now at 2)
+Lixis gets +3 power
+Lixis gets +3 priority
+Priorities:  5 | 4
 Gerard is active
 Gerard moves:
 
-G.....L
+....LG.
 
-Gerard misses
-Lixis loses 1 life (now at 8)
-Lixis misses
-Gerard gains 1 Gold Token (has 6)
+Gerard moves:
 
-Beat 13
--------
+...GL..
 
-Gerard
-------
-Life: 15
-Discard 1: Hooked Grasp
-Discard 2: Initiation Drive
-Special action available
-Gold: 6
-Mercenaries in play:
-  Brawler
-  Archer
-  Trebuchet
-
-Lixis
------
-Life: 8
-Discard 1: Rooted Grasp
-Discard 2: Pruning Lance
-Special action available
-
-
-G.....L
-
-Unbeatable strategy for Lixis: Vine Shot: -0.37
-
-
-Gerard:
-10% Villainous Shot
-90% Gilded Burst
-
-Lixis:
-73% Venomous Strike
-27% Vine Shot
-
-
-Gerard: Gilded Burst
-Lixis: Venomous Strike
-
-Priorities:  0 | 3
-Lixis is active
-Lixis misses
-Gerard misses
-Lixis loses 1 life (now at 7)
-Gerard gains 1 Gold Token (has 7)
-
-Beat 14
--------
-
-Gerard
-------
-Life: 15
-Discard 1: Gilded Burst
-Discard 2: Hooked Grasp
-Special action available
-Gold: 7
-Mercenaries in play:
-  Brawler
-  Archer
-  Trebuchet
-
-Lixis
------
-Life: 7
-Discard 1: Venomous Strike
-Discard 2: Rooted Grasp
-Special action available
-
-
-G.....L
-
-Unbeatable strategy for Lixis: Vine Shot: -2.21
-
-
-Gerard:
-100% Initiation Strike
-
-Lixis:
-100% Vine Shot
-
-
-Gerard: Initiation Strike
-Lixis: Vine Shot
-
-Priorities:  4 | 0
-Gerard is active
-Gerard misses
-Lixis loses 1 life (now at 6)
-Lixis hits
-Lixis moves Gerard:
-
-.G....L
-
-Gerard discards Larceny
-Gerard takes 3 damage (now at 12 life)
-Gerard gains 1 Gold Token (has 8)
-
-Beat 15
--------
-
-Gerard
-------
-Life: 12
-Discard 1: Initiation Strike Larceny
-Discard 2: Gilded Burst
-Special action available
-Gold: 8
-Mercenaries in play:
-  Brawler
-  Archer
-  Trebuchet
-
-Lixis
------
-Life: 6
-Discard 1: Vine Shot
-Discard 2: Venomous Strike
-Special action available
-
-
-.G....L
-
-Unbeatable strategy for Gerard: Villainous Drive: 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Lackey): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger, Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger, Heavy Knight; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger, Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger, Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger, Mage; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Heavy Knight, Mage; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger, Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Dash: 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Lackey): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger, Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger, Heavy Knight; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger, Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger, Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger, Mage; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Heavy Knight, Mage; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger, Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Avaricious Drive: 11.00
-Unbeatable strategy for Gerard: Avaricious Drive (Hire Gunslinger): 11.00
-Unbeatable strategy for Gerard: Avaricious Drive (Hire Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Avaricious Drive (Hire Mage): 11.00
-Unbeatable strategy for Gerard: Avaricious Dash: 11.00
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Gunslinger): 11.00
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage): 11.00
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Gunslinger, Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Heavy Knight, Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Shot: 11.00
-Unbeatable strategy for Gerard: Hooked Shot (Hire Gunslinger): 11.00
-Unbeatable strategy for Gerard: Hooked Shot (Hire Gunslinger; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Hooked Shot (Hire Lackey): 11.00
-Unbeatable strategy for Gerard: Hooked Shot (Hire Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Hooked Shot (Hire Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Hooked Shot (Hire Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Shot (Hire Gunslinger, Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Hooked Shot (Hire Gunslinger, Heavy Knight; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Hooked Shot (Hire Gunslinger, Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Hooked Shot (Hire Gunslinger, Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Shot (Hire Gunslinger, Mage; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Hooked Shot (Hire Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Shot (Hire Heavy Knight, Mage; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Hooked Shot (Hire Gunslinger, Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Drive (Hire Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Drive (Hire Gunslinger, Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Drive (Hire Heavy Knight, Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Grasp: 11.00
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Gunslinger): 11.00
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Gunslinger; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Lackey): 11.00
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Gunslinger, Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Gunslinger, Heavy Knight; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Gunslinger, Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Gunslinger, Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Gunslinger, Mage; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Heavy Knight, Mage; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Gunslinger, Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Dash: 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Gunslinger): 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Gunslinger; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Lackey): 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Gunslinger, Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Gunslinger, Heavy Knight; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Gunslinger, Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Gunslinger, Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Gunslinger, Mage; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Gunslinger, Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Heavy Knight, Mage; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Heavy Knight, Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Hooked Dash (Hire Gunslinger, Heavy Knight, Mage): 11.00
-
-
-Gerard:
-100% Hooked Shot
-
-Lixis:
-100% Special Pulse
-
-
-Gerard: Hooked Shot
-Lixis: Special Pulse
-
-Pulse:
-
-.GL....
-
-
-Beat 15
--------
-
-Gerard
-------
-Life: 12
-Discard 1: Hooked Shot
-Discard 2: Initiation Strike Larceny
-Special action available
-Gold: 8
-Mercenaries in play:
-  Brawler
-  Archer
-  Trebuchet
-
-Lixis
------
-Life: 6
-Discard 1: Vine Shot
-Discard 2: Venomous Strike
-
-
-.GL....
-
-Unbeatable strategy for Gerard: Villainous Drive: 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Lackey): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger, Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger, Heavy Knight; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger, Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger, Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger, Mage; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Heavy Knight, Mage; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger, Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Burst: 11.00
-Unbeatable strategy for Gerard: Villainous Burst (Hire Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Burst (Hire Gunslinger; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Burst (Hire Lackey): 11.00
-Unbeatable strategy for Gerard: Villainous Burst (Hire Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Burst (Hire Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Burst (Hire Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Burst (Hire Gunslinger, Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Burst (Hire Gunslinger, Heavy Knight; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Burst (Hire Gunslinger, Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Burst (Hire Gunslinger, Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Burst (Hire Gunslinger, Mage; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Burst (Hire Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Burst (Hire Heavy Knight, Mage; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Burst (Hire Gunslinger, Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Dash: 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Lackey): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger, Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger, Heavy Knight; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger, Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger, Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger, Mage; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Heavy Knight, Mage; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger, Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Drive (Hire Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Drive (Hire Gunslinger, Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Drive (Hire Heavy Knight, Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Burst: 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Gunslinger): 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Gunslinger; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Lackey): 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Gunslinger, Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Gunslinger, Heavy Knight; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Gunslinger, Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Gunslinger, Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Gunslinger, Mage; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Gunslinger, Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Heavy Knight, Mage; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Heavy Knight, Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Burst (Hire Gunslinger, Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Grasp: 11.00
-Unbeatable strategy for Gerard: Gilded Grasp (Hire Gunslinger): 11.00
-Unbeatable strategy for Gerard: Gilded Grasp (Hire Gunslinger; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Gilded Grasp (Hire Lackey): 11.00
-Unbeatable strategy for Gerard: Gilded Grasp (Hire Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Gilded Grasp (Hire Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Gilded Grasp (Hire Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Grasp (Hire Gunslinger, Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Gilded Grasp (Hire Gunslinger, Heavy Knight; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Gilded Grasp (Hire Gunslinger, Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Gilded Grasp (Hire Gunslinger, Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Grasp (Hire Gunslinger, Mage; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Gilded Grasp (Hire Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Grasp (Hire Heavy Knight, Mage; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Gilded Grasp (Hire Gunslinger, Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Dash: 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger): 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Lackey): 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger, Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger, Heavy Knight; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger, Heavy Knight; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger, Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger, Mage; Activate Gunslinger): 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger, Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight, Mage; Activate Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight, Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger, Heavy Knight, Mage): 11.00
-Unbeatable strategy for Gerard: Avaricious Drive: 11.00
-Unbeatable strategy for Gerard: Avaricious Drive (Hire Gunslinger): 11.00
-Unbeatable strategy for Gerard: Avaricious Drive (Hire Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Avaricious Drive (Hire Mage): 11.00
-Unbeatable strategy for Gerard: Avaricious Burst: 11.00
-Unbeatable strategy for Gerard: Avaricious Burst (Hire Gunslinger): 11.00
-Unbeatable strategy for Gerard: Avaricious Burst (Hire Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Avaricious Burst (Hire Mage): 11.00
-Unbeatable strategy for Gerard: Avaricious Dash: 11.00
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Gunslinger): 11.00
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Heavy Knight): 11.00
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage): 11.00
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Gunslinger, Mage; Activate Mage): 11.00
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Heavy Knight, Mage; Activate Mage): 11.00
-
-
-Gerard:
-1% Villainous Drive
-1% Villainous Drive (Hire Gunslinger)
-1% Villainous Drive (Hire Gunslinger; Activate Gunslinger)
-1% Villainous Drive (Hire Lackey)
-1% Villainous Drive (Hire Heavy Knight)
-1% Villainous Drive (Hire Heavy Knight; Activate Heavy Knight)
-1% Villainous Drive (Hire Mage)
-1% Villainous Drive (Hire Gunslinger, Heavy Knight)
-1% Villainous Drive (Hire Gunslinger, Heavy Knight; Activate Gunslinger)
-1% Villainous Drive (Hire Gunslinger, Heavy Knight; Activate Heavy Knight)
-1% Villainous Drive (Hire Gunslinger, Mage)
-1% Villainous Drive (Hire Gunslinger, Mage; Activate Gunslinger)
-1% Villainous Drive (Hire Heavy Knight, Mage)
-1% Villainous Drive (Hire Heavy Knight, Mage; Activate Heavy Knight)
-1% Villainous Drive (Hire Gunslinger, Heavy Knight, Mage)
-1% Villainous Burst
-1% Villainous Burst (Hire Gunslinger)
-1% Villainous Burst (Hire Gunslinger; Activate Gunslinger)
-1% Villainous Burst (Hire Lackey)
-1% Villainous Burst (Hire Heavy Knight)
-1% Villainous Burst (Hire Heavy Knight; Activate Heavy Knight)
-1% Villainous Burst (Hire Mage)
-1% Villainous Burst (Hire Gunslinger, Heavy Knight)
-1% Villainous Burst (Hire Gunslinger, Heavy Knight; Activate Gunslinger)
-1% Villainous Burst (Hire Gunslinger, Heavy Knight; Activate Heavy Knight)
-1% Villainous Burst (Hire Gunslinger, Mage)
-1% Villainous Burst (Hire Gunslinger, Mage; Activate Gunslinger)
-1% Villainous Burst (Hire Heavy Knight, Mage)
-1% Villainous Burst (Hire Heavy Knight, Mage; Activate Heavy Knight)
-1% Villainous Burst (Hire Gunslinger, Heavy Knight, Mage)
-1% Villainous Grasp
-1% Villainous Grasp (Hire Gunslinger)
-1% Villainous Grasp (Hire Gunslinger; Activate Gunslinger)
-1% Villainous Grasp (Hire Lackey)
-1% Villainous Grasp (Hire Heavy Knight)
-1% Villainous Grasp (Hire Heavy Knight; Activate Heavy Knight)
-1% Villainous Grasp (Hire Mage)
-1% Villainous Grasp (Hire Gunslinger, Heavy Knight)
-1% Villainous Grasp (Hire Gunslinger, Heavy Knight; Activate Gunslinger)
-1% Villainous Grasp (Hire Gunslinger, Heavy Knight; Activate Heavy Knight)
-1% Villainous Grasp (Hire Gunslinger, Mage)
-1% Villainous Grasp (Hire Gunslinger, Mage; Activate Gunslinger)
-1% Villainous Grasp (Hire Heavy Knight, Mage)
-1% Villainous Grasp (Hire Heavy Knight, Mage; Activate Heavy Knight)
-1% Villainous Grasp (Hire Gunslinger, Heavy Knight, Mage)
-1% Villainous Dash
-1% Villainous Dash (Hire Gunslinger)
-1% Villainous Dash (Hire Gunslinger; Activate Gunslinger)
-1% Villainous Dash (Hire Lackey)
-1% Villainous Dash (Hire Heavy Knight)
-1% Villainous Dash (Hire Heavy Knight; Activate Heavy Knight)
-1% Villainous Dash (Hire Mage)
-1% Villainous Dash (Hire Gunslinger, Heavy Knight)
-1% Villainous Dash (Hire Gunslinger, Heavy Knight; Activate Gunslinger)
-1% Villainous Dash (Hire Gunslinger, Heavy Knight; Activate Heavy Knight)
-1% Villainous Dash (Hire Gunslinger, Mage)
-1% Villainous Dash (Hire Gunslinger, Mage; Activate Gunslinger)
-1% Villainous Dash (Hire Heavy Knight, Mage)
-1% Villainous Dash (Hire Heavy Knight, Mage; Activate Heavy Knight)
-1% Villainous Dash (Hire Gunslinger, Heavy Knight, Mage)
-1% Gilded Drive
-1% Gilded Drive (Hire Gunslinger)
-1% Gilded Drive (Hire Gunslinger; Activate Gunslinger)
-1% Gilded Drive (Hire Lackey)
-1% Gilded Drive (Hire Heavy Knight)
-1% Gilded Drive (Hire Heavy Knight; Activate Heavy Knight)
-1% Gilded Drive (Hire Mage)
-1% Gilded Drive (Hire Mage; Activate Mage)
-1% Gilded Drive (Hire Gunslinger, Heavy Knight)
-1% Gilded Drive (Hire Gunslinger, Heavy Knight; Activate Gunslinger)
-1% Gilded Drive (Hire Gunslinger, Heavy Knight; Activate Heavy Knight)
-1% Gilded Drive (Hire Gunslinger, Mage)
-1% Gilded Drive (Hire Gunslinger, Mage; Activate Gunslinger)
-1% Gilded Drive (Hire Gunslinger, Mage; Activate Mage)
-1% Gilded Drive (Hire Heavy Knight, Mage)
-1% Gilded Drive (Hire Heavy Knight, Mage; Activate Heavy Knight)
-1% Gilded Drive (Hire Heavy Knight, Mage; Activate Mage)
-1% Gilded Drive (Hire Gunslinger, Heavy Knight, Mage)
-1% Gilded Burst
-1% Gilded Burst (Hire Gunslinger)
-1% Gilded Burst (Hire Gunslinger; Activate Gunslinger)
-1% Gilded Burst (Hire Lackey)
-1% Gilded Burst (Hire Heavy Knight)
-1% Gilded Burst (Hire Heavy Knight; Activate Heavy Knight)
-1% Gilded Burst (Hire Mage)
-1% Gilded Burst (Hire Mage; Activate Mage)
-1% Gilded Burst (Hire Gunslinger, Heavy Knight)
-1% Gilded Burst (Hire Gunslinger, Heavy Knight; Activate Gunslinger)
-1% Gilded Burst (Hire Gunslinger, Heavy Knight; Activate Heavy Knight)
-1% Gilded Burst (Hire Gunslinger, Mage)
-1% Gilded Burst (Hire Gunslinger, Mage; Activate Gunslinger)
-1% Gilded Burst (Hire Gunslinger, Mage; Activate Mage)
-1% Gilded Burst (Hire Heavy Knight, Mage)
-1% Gilded Burst (Hire Heavy Knight, Mage; Activate Heavy Knight)
-1% Gilded Burst (Hire Heavy Knight, Mage; Activate Mage)
-1% Gilded Burst (Hire Gunslinger, Heavy Knight, Mage)
-1% Gilded Grasp
-1% Gilded Grasp (Hire Gunslinger)
-1% Gilded Grasp (Hire Gunslinger; Activate Gunslinger)
-1% Gilded Grasp (Hire Lackey)
-1% Gilded Grasp (Hire Heavy Knight)
-1% Gilded Grasp (Hire Heavy Knight; Activate Heavy Knight)
-1% Gilded Grasp (Hire Mage)
-1% Gilded Grasp (Hire Mage; Activate Mage)
-1% Gilded Grasp (Hire Gunslinger, Heavy Knight)
-1% Gilded Grasp (Hire Gunslinger, Heavy Knight; Activate Gunslinger)
-1% Gilded Grasp (Hire Gunslinger, Heavy Knight; Activate Heavy Knight)
-1% Gilded Grasp (Hire Gunslinger, Mage)
-1% Gilded Grasp (Hire Gunslinger, Mage; Activate Gunslinger)
-1% Gilded Grasp (Hire Gunslinger, Mage; Activate Mage)
-1% Gilded Grasp (Hire Heavy Knight, Mage)
-1% Gilded Grasp (Hire Heavy Knight, Mage; Activate Heavy Knight)
-1% Gilded Grasp (Hire Heavy Knight, Mage; Activate Mage)
-1% Gilded Grasp (Hire Gunslinger, Heavy Knight, Mage)
-1% Gilded Dash
-1% Gilded Dash (Hire Gunslinger)
-1% Gilded Dash (Hire Gunslinger; Activate Gunslinger)
-1% Gilded Dash (Hire Lackey)
-1% Gilded Dash (Hire Heavy Knight)
-1% Gilded Dash (Hire Heavy Knight; Activate Heavy Knight)
-1% Gilded Dash (Hire Mage)
-1% Gilded Dash (Hire Mage; Activate Mage)
-1% Gilded Dash (Hire Gunslinger, Heavy Knight)
-1% Gilded Dash (Hire Gunslinger, Heavy Knight; Activate Gunslinger)
-1% Gilded Dash (Hire Gunslinger, Heavy Knight; Activate Heavy Knight)
-1% Gilded Dash (Hire Gunslinger, Mage)
-1% Gilded Dash (Hire Gunslinger, Mage; Activate Gunslinger)
-1% Gilded Dash (Hire Gunslinger, Mage; Activate Mage)
-1% Gilded Dash (Hire Heavy Knight, Mage)
-1% Gilded Dash (Hire Heavy Knight, Mage; Activate Heavy Knight)
-1% Gilded Dash (Hire Heavy Knight, Mage; Activate Mage)
-1% Gilded Dash (Hire Gunslinger, Heavy Knight, Mage)
-1% Avaricious Drive
-1% Avaricious Drive (Hire Gunslinger)
-1% Avaricious Drive (Hire Heavy Knight)
-1% Avaricious Drive (Hire Mage)
-1% Avaricious Drive (Hire Mage; Activate Mage)
-1% Avaricious Drive (Hire Gunslinger, Mage; Activate Mage)
-1% Avaricious Drive (Hire Heavy Knight, Mage; Activate Mage)
-1% Avaricious Burst
-1% Avaricious Burst (Hire Gunslinger)
-1% Avaricious Burst (Hire Heavy Knight)
-1% Avaricious Burst (Hire Mage)
-1% Avaricious Burst (Hire Mage; Activate Mage)
-1% Avaricious Burst (Hire Gunslinger, Mage; Activate Mage)
-1% Avaricious Burst (Hire Heavy Knight, Mage; Activate Mage)
-1% Avaricious Grasp
-1% Avaricious Grasp (Hire Gunslinger)
-1% Avaricious Grasp (Hire Heavy Knight)
-1% Avaricious Grasp (Hire Mage)
-1% Avaricious Grasp (Hire Mage; Activate Mage)
-1% Avaricious Grasp (Hire Gunslinger, Mage; Activate Mage)
-1% Avaricious Grasp (Hire Heavy Knight, Mage; Activate Mage)
-1% Avaricious Dash
-1% Avaricious Dash (Hire Gunslinger)
-1% Avaricious Dash (Hire Heavy Knight)
-1% Avaricious Dash (Hire Mage)
-1% Avaricious Dash (Hire Mage; Activate Mage)
-1% Avaricious Dash (Hire Gunslinger, Mage; Activate Mage)
-1% Avaricious Dash (Hire Heavy Knight, Mage; Activate Mage)
-
-Lixis:
-2% Rooted Lance
-2% Rooted Drive
-4% Rooted Burst
-2% Rooted Grasp
-3% Rooted Dash
-3% Naturalizing Lance
-3% Naturalizing Drive
-4% Naturalizing Burst
-2% Naturalizing Grasp
-3% Naturalizing Dash
-7% Pruning Lance
-11% Pruning Drive
-25% Pruning Burst
-7% Pruning Grasp
-22% Pruning Dash
-
-
-Gerard: Villainous Grasp (Hire Heavy Knight)
-Lixis: Pruning Dash
-
-Gerard hires a Heavy Knight for 2 gold (6 remaining
-Lixis gets +3 power
-Lixis gets +3 priority
-Priorities:  5 | 10
-Lixis is active
-Lixis moves:
-
-LG.....
-
-Gerard misses
-Lixis loses 1 life (now at 5)
-Gerard gains 2 Gold Tokens (has 8)
-Gerard gains 1 Gold Token (has 9)
-Game goes to time
+Gerard hits
+First hireling next beat will cost 2 gold less
+Lixis takes 3 damage (now at 0 life)
 GERARD WINS!
-total_time: 112
+total_time: 247

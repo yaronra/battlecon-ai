@@ -11,46 +11,44 @@ Beat 1
 
 Kallistar
 ---------
-life: 20
-discard 1: Flare Strike
-discard 2: Caustic Drive
-special action
+Life: 20
+Discard 1: Flare Strike
+Discard 2: Caustic Drive
+Special action available
 Human Form
 
 Runika
 ------
-life: 20
-discard 1: Channeled Grasp
-discard 2: Impact Strike
-special action
+Life: 20
+Discard 1: Channeled Grasp
+Discard 2: Impact Strike
+Special action available
 Active artifacts: 
-  Battlefist
   Phase Goggles
   Shield Amulet
-  Autodeflector
   Hover Boots
+  Autodeflector
+  Battlefist
 
 
 .K...R.
 
+
 Kallistar:
-43% Ignition Burst
-25% Blazing Spellbolt
-32% Blazing Grasp
+87% Ignition Burst
+13% Blazing Spellbolt
 
 Runika:
-5% Explosive Drive
-61% Overcharged Shot
-35% Overcharged Drive
+69% Overcharged Shot
+31% Overcharged Drive
 
 
-Kallistar: Blazing Grasp
+Kallistar: Ignition Burst
 Runika: Overcharged Shot
 
-Priorities:  6 | 4
-Kallistar is active
+Priorities:  0 | 4
+Runika is active
 Runika overcharges her Battlefist
-Kallistar misses
 Kallistar moves:
 
 K....R.
@@ -65,102 +63,113 @@ Beat 2
 
 Kallistar
 ---------
-life: 14
-discard 1: Blazing Grasp
-discard 2: Flare Strike
-special action
-Human Form
+Life: 14
+Discard 1: Ignition Burst
+Discard 2: Flare Strike
+Special action available
+Elemental Form
 
 Runika
 ------
-life: 20
-discard 1: Overcharged Shot
-discard 2: Channeled Grasp
-special action
+Life: 20
+Discard 1: Overcharged Shot
+Discard 2: Channeled Grasp
+Special action available
 Active artifacts: 
   Shield Amulet
-  Phase Goggles
-  Autodeflector
   Hover Boots
+  Autodeflector
+  Phase Goggles
 Removed artifacts: 
   Battlefist
 
 
 K....R.
 
+Unbeatable strategy for Runika: Explosive Dash: -0.18
+Unbeatable strategy for Runika: Impact Dash: -0.17
+
+
 Kallistar:
-47% Caustic Shot
-12% Ignition Spellbolt
-29% Ignition Shot
-13% Ignition Burst
+45% Volcanic Grasp
+18% Volcanic Dash
+38% Blazing Shot
 
 Runika:
-60% Explosive Tinker
-13% Explosive Drive
-20% Explosive Dash
-7% Impact Dash
+31% Maintenance Dash
+21% Explosive Drive
+48% Explosive Dash
 
 
-Kallistar: Caustic Shot
-Runika: Explosive Dash
+Kallistar: Volcanic Grasp
+Runika: Explosive Drive
 
-Priorities:  1 | 11
-Runika is active
+Kallistar loses 1 life (now at 13)
+Priorities:  7 | 6
+Kallistar is active
 Runika moves Kallistar:
 
 .K...R.
 
-Runika moves:
+Kallistar hits
+Runika will have -2 priority next beat
+Kallistar moves Runika:
 
 .K....R
 
-Kallistar misses
+Autodeflector is de-activated
+Runika takes 4 damage (now at 16 life)
+Runika is stunned
 
 Beat 3
 -------
 
 Kallistar
 ---------
-life: 14
-discard 1: Caustic Shot
-discard 2: Blazing Grasp
-special action
-Human Form
+Life: 13
+Discard 1: Volcanic Grasp
+Discard 2: Ignition Burst
+Special action available
+Opponent has priority penalty: -2
+Elemental Form
 
 Runika
 ------
-life: 20
-discard 1: Explosive Dash
-discard 2: Overcharged Shot
-special action
+Life: 16
+Discard 1: Explosive Drive
+Discard 2: Overcharged Shot
+Special action available
 Active artifacts: 
   Shield Amulet
-  Phase Goggles
-  Autodeflector
   Hover Boots
+  Phase Goggles
 Removed artifacts: 
   Battlefist
 
 
 .K....R
 
-Unbeatable strategy for Kallistar: Ignition Burst: 0.16
 
 Kallistar:
-17% Volcanic Strike
-3% Volcanic Drive
-81% Ignition Burst
+7% Flare Spellbolt
+0% Flare Shot
+29% Caustic Spellbolt
+13% Blazing Spellbolt
+51% Blazing Shot
 
 Runika:
-21% Maintenance Tinker
-41% Impact Drive
-38% Impact Burst
+6% Channeled Tinker
+34% Maintenance Tinker
+29% Maintenance Grasp
+26% Impact Grasp
+6% Impact Dash
 
 
-Kallistar: Volcanic Strike
-Runika: Impact Drive
+Kallistar: Caustic Spellbolt
+Runika: Impact Dash
 
-Priorities:  3 | 6
+Kallistar loses 1 life (now at 12)
+Priorities:  4 | 9
 Runika is active
 Runika moves:
 
@@ -168,41 +177,27 @@ Runika moves:
 
 Runika moves:
 
-.K.R...
+.KR....
 
-Runika hits
-Runika moves Kallistar:
-
-K..R...
-
-Kallistar has 1 soak
-Kallistar takes 1 damage (now at 13 life)
-Kallistar hits
-Autodeflector is de-activated
-Runika takes 4 damage (now at 16 life)
-Runika is stunned
-Kallistar moves:
-
-...R..K
-
+Kallistar misses
 
 Beat 4
 -------
 
 Kallistar
 ---------
-life: 13
-discard 1: Volcanic Strike
-discard 2: Caustic Shot
-special action
-Human Form
+Life: 12
+Discard 1: Caustic Spellbolt
+Discard 2: Volcanic Grasp
+Special action available
+Elemental Form
 
 Runika
 ------
-life: 16
-discard 1: Impact Drive
-discard 2: Explosive Dash
-special action
+Life: 16
+Discard 1: Impact Dash
+Discard 2: Explosive Drive
+Special action available
 Active artifacts: 
   Shield Amulet
   Hover Boots
@@ -211,247 +206,362 @@ Removed artifacts:
   Battlefist
 
 
-...R..K
+.KR....
+
+Unbeatable strategy for Runika: Overcharged Grasp: -0.28
+
 
 Kallistar:
-18% Flare Spellbolt
-5% Ignition Spellbolt
-4% Ignition Grasp
-21% Blazing Spellbolt
-53% Blazing Drive
+7% Flare Strike
+50% Blazing Strike
+42% Blazing Drive
 
 Runika:
-15% Channeled Burst
-42% Maintenance Tinker
-15% Maintenance Grasp
-27% Overcharged Tinker
-1% Overcharged Shot
+34% Channeled Tinker
+2% Channeled Grasp
+64% Overcharged Burst
 
 
-Kallistar: Ignition Grasp
-Runika: Maintenance Grasp
+Kallistar: Blazing Strike
+Runika: Overcharged Burst
 
-Priorities:  4 | 6
-Runika is active
-Runika misses
+Kallistar loses 1 life (now at 11)
+Priorities:  6 | 3
+Kallistar is active
+Runika overcharges her Shield Amulet
 Runika moves:
 
-..R...K
+.K..R..
 
 Kallistar misses
+Runika hits
+Kallistar takes 3 damage (now at 8 life)
+Shield Amulet is removed from the game
 
 Beat 5
 -------
 
 Kallistar
 ---------
-life: 13
-discard 1: Ignition Grasp
-discard 2: Volcanic Strike
-special action
+Life: 8
+Discard 1: Blazing Strike
+Discard 2: Caustic Spellbolt
+Special action available
 Elemental Form
 
 Runika
 ------
-life: 16
-discard 1: Maintenance Grasp
-discard 2: Impact Drive
-special action
+Life: 16
+Discard 1: Overcharged Burst
+Discard 2: Impact Dash
+Special action available
 Active artifacts: 
-  Shield Amulet
   Hover Boots
   Phase Goggles
 Removed artifacts: 
+  Shield Amulet
   Battlefist
 
 
-..R...K
+.K..R..
 
-Unbeatable strategy for Runika: Explosive Dash: -2.76
-Unbeatable strategy for Runika: Overcharged Shot: -0.87
+Unbeatable strategy for Runika: Channeled Drive: -3.16
+Unbeatable strategy for Runika: Explosive Drive: -2.91
+
 
 Kallistar:
-28% Flare Dash
-2% Caustic Shot
-22% Blazing Spellbolt
-26% Blazing Shot
-22% Blazing Drive
+11% Flare Grasp
+8% Volcanic Drive
+7% Volcanic Grasp
+74% Volcanic Dash
 
 Runika:
-7% Channeled Shot
-3% Channeled Burst
-22% Channeled Dash
-10% Explosive Tinker
-58% Explosive Dash
+6% Channeled Shot
+50% Channeled Drive
+2% Explosive Tinker
+41% Explosive Drive
 
 
-Kallistar: Blazing Drive
-Runika: Channeled Dash
+Kallistar: Volcanic Dash
+Runika: Explosive Drive
 
-Kallistar loses 1 life (now at 12)
-Priorities:  7 | 12
-Runika is active
-Autodeflector is activated
-Runika moves:
-
-.R....K
-
+Kallistar loses 1 life (now at 7)
+Priorities:  11 | 6
+Kallistar is active
 Kallistar moves:
 
-.R...K.
+....RK.
 
-Kallistar misses
-Shield Amulet is de-activated
+Runika moves:
+
+.....KR
+
+Runika misses
 
 Beat 6
 -------
 
 Kallistar
 ---------
-life: 12
-discard 1: Blazing Drive
-discard 2: Ignition Grasp
-special action
+Life: 7
+Discard 1: Volcanic Dash
+Discard 2: Blazing Strike
+Special action available
 Elemental Form
 
 Runika
 ------
-life: 16
-discard 1: Channeled Dash
-discard 2: Maintenance Grasp
-special action
+Life: 16
+Discard 1: Explosive Drive
+Discard 2: Overcharged Burst
+Special action available
 Active artifacts: 
-  Autodeflector
-  Phase Goggles
   Hover Boots
+  Phase Goggles
 Removed artifacts: 
+  Shield Amulet
   Battlefist
 
 
-.R...K.
+.....KR
 
-Unbeatable strategy for Runika: Explosive Drive: -0.77
-Unbeatable strategy for Runika: Overcharged Drive: -1.88
+Unbeatable strategy for Runika: Channeled Dash: -0.53
+Unbeatable strategy for Runika: Maintenance Dash: -0.23
+
 
 Kallistar:
-31% Caustic Shot
-69% Caustic Burst
+14% Caustic Shot
+44% Caustic Drive
+26% Caustic Burst
+16% Caustic Grasp
 
 Runika:
-64% Explosive Drive
-36% Impact Drive
+3% Channeled Strike
+5% Channeled Shot
+87% Channeled Dash
+4% Impact Grasp
 
 
-Kallistar: Caustic Shot
-Runika: Explosive Drive
+Kallistar: Caustic Drive
+Runika: Channeled Dash
 
-Kallistar loses 1 life (now at 11)
-Priorities:  3 | 6
+Kallistar loses 1 life (now at 6)
+Priorities:  5 | 12
 Runika is active
-Runika moves Kallistar:
-
-.R..K..
-
+Autodeflector is activated
 Runika moves:
 
-...RK..
+...R.K.
 
-Runika hits
+Kallistar moves:
+
+..KR...
+
+Kallistar misses
 Hover Boots is de-activated
-Runika gets +2 power
-Kallistar takes 4 damage (now at 7 life)
-Kallistar is stunned
 
 Beat 7
 -------
 
 Kallistar
 ---------
-life: 7
-discard 1: Caustic Shot
-discard 2: Blazing Drive
-special action
+Life: 6
+Discard 1: Caustic Drive
+Discard 2: Volcanic Dash
+Special action available
 Elemental Form
 
 Runika
 ------
-life: 16
-discard 1: Explosive Drive
-discard 2: Channeled Dash
-special action
+Life: 16
+Discard 1: Channeled Dash
+Discard 2: Explosive Drive
+Special action available
 Active artifacts: 
-  Autodeflector
   Phase Goggles
+  Autodeflector
 Removed artifacts: 
+  Shield Amulet
   Battlefist
 
 
-...RK..
+..KR...
+
 
 Kallistar:
-28% Flare Burst
-38% Flare Grasp
-33% Volcanic Burst
+17% Flare Strike
+6% Blazing Strike
+48% Blazing Shot
+30% Blazing Burst
 
 Runika:
-48% Maintenance Tinker
-30% Maintenance Burst
-22% Impact Grasp
+4% Maintenance Tinker
+4% Overcharged Tinker
+9% Overcharged Grasp
+84% Special Pulse
+
+
+Kallistar: Blazing Shot
+Runika: Special Pulse
+
+Kallistar loses 1 life (now at 5)
+Pulse:
+
+KR.....
+
+
+Beat 7
+-------
+
+Kallistar
+---------
+Life: 5
+Discard 1: Blazing Shot
+Discard 2: Caustic Drive
+Special action available
+Elemental Form
+
+Runika
+------
+Life: 16
+Discard 1: Channeled Dash
+Discard 2: Explosive Drive
+Active artifacts: 
+  Phase Goggles
+  Autodeflector
+Removed artifacts: 
+  Shield Amulet
+  Battlefist
+
+
+KR.....
+
+
+Kallistar:
+12% Flare Strike
+30% Flare Burst
+47% Flare Grasp
+10% Ignition Burst
+
+Runika:
+44% Maintenance Strike
+4% Maintenance Shot
+45% Maintenance Burst
+7% Overcharged Strike
 
 
 Kallistar: Flare Grasp
-Runika: Impact Grasp
+Runika: Maintenance Burst
 
-Kallistar loses 1 life (now at 6)
-Priorities:  7 | 5
+Kallistar loses 1 life (now at 4)
+Priorities:  7 | 0
 Kallistar is active
-Kallistar hits
-Kallistar moves Runika:
+Runika moves:
 
-..R.K..
+K.R....
 
-Autodeflector is de-activated
-Runika takes 7 damage (now at 9 life)
-Runika is stunned
+Kallistar misses
+Runika hits
+Kallistar takes 2 damage (now at 2 life)
+Kallistar is stunned
+Runika moves:
+
+K..R...
+
 
 Beat 8
 -------
 
 Kallistar
 ---------
-life: 6
-discard 1: Flare Grasp
-discard 2: Caustic Shot
-special action
+Life: 2
+Discard 1: Flare Grasp
+Discard 2: Blazing Shot
+Special action available
 Human Form
 
 Runika
 ------
-life: 9
-discard 1: Impact Grasp
-discard 2: Explosive Drive
-special action
+Life: 16
+Discard 1: Maintenance Burst
+Discard 2: Channeled Dash
 Active artifacts: 
   Phase Goggles
+  Autodeflector
 Removed artifacts: 
+  Shield Amulet
   Battlefist
 
 
-..R.K..
+K..R...
 
-Unbeatable strategy for Kallistar: Blazing Drive: 0.28
 
 Kallistar:
-32% Ignition Dash
-36% Blazing Spellbolt
-21% Blazing Strike
-11% Blazing Dash
+14% Caustic Drive
+34% Caustic Burst
+52% Volcanic Dash
 
 Runika:
-34% Channeled Tinker
-2% Channeled Shot
-48% Channeled Dash
-16% Maintenance Dash
+24% Explosive Tinker
+60% Explosive Drive
+16% Impact Drive
+
+
+Kallistar: Caustic Drive
+Runika: Explosive Drive
+
+Priorities:  3 | 4
+Runika is active
+Runika moves Kallistar:
+
+.K.R...
+
+Runika moves:
+
+RK.....
+
+Runika hits
+Phase Goggles is de-activated
+Runika gets +2 power
+Kallistar has 3 soak
+Kallistar takes 1 damage (now at 1 life)
+Kallistar is stunned
+
+Beat 9
+-------
+
+Kallistar
+---------
+Life: 1
+Discard 1: Caustic Drive
+Discard 2: Flare Grasp
+Special action available
+Human Form
+
+Runika
+------
+Life: 16
+Discard 1: Explosive Drive
+Discard 2: Maintenance Burst
+Active artifacts: 
+  Autodeflector
+Removed artifacts: 
+  Shield Amulet
+  Battlefist
+
+
+RK.....
+
+
+Kallistar:
+36% Ignition Dash
+12% Blazing Shot
+52% Blazing Dash
+
+Runika:
+15% Channeled Tinker
+25% Channeled Shot
+60% Channeled Dash
 
 
 Kallistar: Blazing Dash
@@ -460,15 +570,12 @@ Runika: Channeled Dash
 Priorities:  10 | 10
 Clash!
 
-Kallistar:
-64% Blazing Spellbolt
-15% Blazing Drive
-21% Blazing Burst
 
-Runika:
-24% Channeled Tinker
-44% Channeled Strike
-32% Channeled Shot
+Kallistar: Blazing Shot
+Runika: Channeled Shot
+
+Priorities:  3 | 3
+Clash!
 
 
 Kallistar: Blazing Burst
@@ -476,467 +583,316 @@ Runika: Channeled Tinker
 
 Priorities:  2 | 4
 Runika is active
-Shield Amulet is activated
+Hover Boots is activated
 Kallistar moves:
 
-..R..K.
+R..K...
 
 Runika misses
-Autodeflector is activated
+Phase Goggles is activated
 Kallistar hits
-Shield Amulet is de-activated
+Hover Boots is de-activated
 Runika has 2 soak
-Runika takes 1 damage (now at 8 life)
+Runika takes 1 damage (now at 15 life)
 Kallistar moves:
 
-..R...K
+R....K.
 
 Phase Goggles is de-activated
-
-Beat 9
--------
-
-Kallistar
----------
-life: 6
-discard 1: Blazing Burst
-discard 2: Flare Grasp
-special action
-Human Form
-
-Runika
-------
-life: 8
-discard 1: Channeled Tinker
-discard 2: Impact Grasp
-special action
-Active artifacts: 
-  Autodeflector
-Removed artifacts: 
-  Battlefist
-
-
-..R...K
-
-Unbeatable strategy for Runika: Explosive Drive: -1.60
-Unbeatable strategy for Runika: Explosive Dash: -0.78
-
-Kallistar:
-11% Volcanic Strike
-56% Volcanic Drive
-33% Ignition Spellbolt
-
-Runika:
-12% Explosive Shot
-41% Explosive Drive
-46% Explosive Dash
-
-
-Kallistar: Volcanic Drive
-Runika: Explosive Shot
-
-Priorities:  4 | 2
-Kallistar is active
-Runika moves Kallistar:
-
-..R..K.
-
-Kallistar moves:
-
-..RK...
-
-Kallistar misses
-Runika hits
-Autodeflector is de-activated
-Runika gets +2 power
-Kallistar has 1 soak
-Kallistar takes 3 damage (now at 3 life)
-Kallistar is stunned
-Kallistar moves:
-
-..R...K
-
 
 Beat 10
 -------
 
 Kallistar
 ---------
-life: 3
-discard 1: Volcanic Drive
-discard 2: Blazing Burst
-special action
+Life: 1
+Discard 1: Blazing Burst
+Discard 2: Caustic Drive
+Special action available
 Human Form
 
 Runika
 ------
-life: 8
-discard 1: Explosive Shot
-discard 2: Channeled Tinker
-special action
-No active artifacts
+Life: 15
+Discard 1: Channeled Tinker
+Discard 2: Explosive Drive
+Active artifacts: 
+  Autodeflector
 Removed artifacts: 
+  Shield Amulet
   Battlefist
 
 
-..R...K
+R....K.
+
 
 Kallistar:
-57% Ignition Strike
-2% Ignition Shot
-42% Ignition Grasp
+22% Volcanic Dash
+9% Ignition Spellbolt
+6% Ignition Shot
+63% Ignition Dash
 
 Runika:
-95% Maintenance Drive
-3% Impact Strike
-3% Impact Grasp
+9% Maintenance Strike
+33% Maintenance Grasp
+8% Impact Shot
+49% Impact Dash
 
 
-Kallistar: Ignition Strike
-Runika: Maintenance Drive
+Kallistar: Ignition Dash
+Runika: Maintenance Strike
 
-Priorities:  2 | 3
-Runika is active
-Runika moves:
+Priorities:  8 | 2
+Kallistar is active
+Kallistar moves:
 
-....R.K
+R.....K
 
 Runika misses
-Runika moves:
-
-...R..K
-
-Kallistar misses
 
 Beat 11
 -------
 
 Kallistar
 ---------
-life: 3
-discard 1: Ignition Strike
-discard 2: Volcanic Drive
-special action
+Life: 1
+Discard 1: Ignition Dash
+Discard 2: Blazing Burst
+Special action available
 Elemental Form
 
 Runika
 ------
-life: 8
-discard 1: Maintenance Drive
-discard 2: Explosive Shot
-special action
+Life: 15
+Discard 1: Maintenance Strike
+Discard 2: Channeled Tinker
+Active artifacts: 
+  Autodeflector
+Removed artifacts: 
+  Shield Amulet
+  Battlefist
+
+
+R.....K
+
+
+Kallistar:
+16% Flare Spellbolt
+32% Caustic Spellbolt
+37% Caustic Shot
+16% Volcanic Drive
+
+Runika:
+23% Explosive Drive
+6% Explosive Grasp
+11% Explosive Dash
+61% Overcharged Dash
+
+
+Kallistar: Caustic Spellbolt
+Runika: Overcharged Dash
+
+Kallistar loses 1 life (now at 1)
+Priorities:  4 | 9
+Runika is active
+Runika overcharges her Autodeflector
+Runika moves:
+
+...R..K
+
+Kallistar hits
+Runika is stunned
+No artifacts to de-activate
+Runika has 4 soak
+Runika takes 1 damage (now at 14 life)
+Runika is stunned
+Autodeflector is removed from the game
+
+Beat 12
+-------
+
+Kallistar
+---------
+Life: 1
+Discard 1: Caustic Spellbolt
+Discard 2: Ignition Dash
+Special action available
+Elemental Form
+
+Runika
+------
+Life: 14
+Discard 1: Overcharged Dash
+Discard 2: Maintenance Strike
 No active artifacts
 Removed artifacts: 
+  Shield Amulet
+  Autodeflector
   Battlefist
 
 
 ...R..K
 
+
 Kallistar:
-9% Flare Shot
-91% Caustic Shot
+27% Flare Drive
+7% Volcanic Strike
+16% Volcanic Grasp
+43% Blazing Shot
+6% Blazing Drive
+0% Blazing Burst
 
 Runika:
-96% Impact Dash
-4% Overcharged Strike
+14% Channeled Drive
+19% Channeled Burst
+24% Explosive Drive
+8% Explosive Burst
+7% Explosive Grasp
+29% Impact Grasp
 
 
-Kallistar: Caustic Shot
-Runika: Impact Dash
+Kallistar: Blazing Shot
+Runika: Channeled Burst
 
-Kallistar loses 1 life (now at 2)
-Priorities:  3 | 9
-Runika is active
+Kallistar loses 1 life (now at 1)
+Priorities:  5 | 2
+Kallistar is active
+Hover Boots is activated
 Runika moves:
 
-....R.K
-
-Runika moves:
-
-.....RK
+..R...K
 
 Kallistar hits
+Hover Boots is de-activated
+Runika takes 5 damage (now at 9 life)
 Runika is stunned
 No artifacts to de-activate
-Runika takes 6 damage (now at 2 life)
-Runika is stunned
-
-Beat 12
--------
-
-Kallistar
----------
-life: 2
-discard 1: Caustic Shot
-discard 2: Ignition Strike
-special action
-Elemental Form
-
-Runika
-------
-life: 2
-discard 1: Impact Dash
-discard 2: Maintenance Drive
-special action
-No active artifacts
-Removed artifacts: 
-  Battlefist
-
-
-.....RK
-
-Unbeatable strategy for Kallistar: Blazing Drive: 7.00
-
-Kallistar:
-2% Flare Drive
-1% Flare Grasp
-32% Blazing Drive
-1% Blazing Grasp
-63% Special Pulse
-1% Special Supernova
-
-Runika:
-16% Channeled Tinker
-50% Overcharged Tinker
-34% Special Artifice Avarice
-
-
-Kallistar: Special Pulse
-Runika: Overcharged Tinker
-
-Kallistar loses 1 life (now at 1)
-Pulse:
-
-K.....R
-
-
-Beat 12
--------
-
-Kallistar
----------
-life: 1
-discard 1: Caustic Shot
-discard 2: Ignition Strike
-Elemental Form
-
-Runika
-------
-life: 2
-discard 1: Overcharged Tinker
-discard 2: Impact Dash
-special action
-No active artifacts
-Removed artifacts: 
-  Battlefist
-
-
-K.....R
-
-Kallistar:
-46% Flare Spellbolt
-54% Volcanic Burst
-
-Runika:
-46% Explosive Grasp
-54% Special Artifice Avarice
-
-
-Kallistar: Volcanic Burst
-Runika: Special Artifice Avarice
-
-Kallistar loses 1 life (now at 1)
-Priorities:  3 | 3
-Runika is active
-Shield Amulet is activated
-Hover Boots is activated
-Phase Goggles is activated
-Autodeflector is activated
-Runika overcharges her Autodeflector
-Runika misses
-Kallistar hits
-Runika has 4 soak
-Runika takes 1 damage (now at 1 life)
 
 Beat 13
 -------
 
 Kallistar
 ---------
-life: 1
-discard 1: Volcanic Burst
-discard 2: Caustic Shot
+Life: 1
+Discard 1: Blazing Shot
+Discard 2: Caustic Spellbolt
+Special action available
 Elemental Form
-Opponent at -2 priority from last beat
 
 Runika
 ------
-life: 1
-discard 1: Overcharged Tinker
-discard 2: Impact Dash
-Active artifacts: 
-  Shield Amulet
-  Phase Goggles
-  Autodeflector
-  Hover Boots
+Life: 9
+Discard 1: Channeled Burst
+Discard 2: Overcharged Dash
+No active artifacts
 Removed artifacts: 
+  Shield Amulet
+  Autodeflector
   Battlefist
 
 
-K.....R
+..R...K
+
 
 Kallistar:
-22% Flare Spellbolt
-22% Ignition Spellbolt
-55% Blazing Spellbolt
+98% Volcanic Strike
+2% Volcanic Burst
 
 Runika:
-55% Channeled Grasp
-22% Explosive Drive
-22% Explosive Grasp
+25% Maintenance Tinker
+75% Explosive Grasp
 
 
-Kallistar: Blazing Spellbolt
-Runika: Channeled Grasp
+Kallistar: Volcanic Strike
+Runika: Explosive Grasp
 
 Kallistar loses 1 life (now at 1)
-Priorities:  6 | 6
+Priorities:  5 | 5
 Clash!
 
-Kallistar:
-50% Blazing Strike
-50% Blazing Grasp
 
-Runika:
-100% Channeled Strike
-
-
-Kallistar: Blazing Strike
-Runika: Channeled Strike
+Kallistar: Volcanic Grasp
+Runika: Explosive Tinker
 
 Kallistar loses 1 life (now at 1)
-Priorities:  6 | 4
+Priorities:  7 | 3
 Kallistar is active
-No artifacts to activate
-Kallistar misses
-Runika misses
-Shield Amulet is de-activated
+Runika moves Kallistar:
+
+..R..K.
+
+Kallistar hits
+Runika will have -2 priority next beat
+Kallistar moves Runika:
+
+...R.K.
+
+No artifacts to de-activate
+Runika takes 4 damage (now at 5 life)
+Runika is stunned
 
 Beat 14
 -------
 
 Kallistar
 ---------
-life: 1
-discard 1: Blazing Strike
-discard 2: Volcanic Burst
+Life: 1
+Discard 1: Volcanic Grasp
+Discard 2: Blazing Shot
+Special action available
+Opponent has priority penalty: -2
 Elemental Form
 
 Runika
 ------
-life: 1
-discard 1: Channeled Strike
-discard 2: Overcharged Tinker
-Active artifacts: 
-  Autodeflector
-  Phase Goggles
-  Hover Boots
+Life: 5
+Discard 1: Explosive Tinker
+Discard 2: Channeled Burst
+No active artifacts
 Removed artifacts: 
+  Shield Amulet
+  Autodeflector
   Battlefist
 
 
-K.....R
+...R.K.
+
+Unbeatable strategy for Kallistar: Caustic Spellbolt: 0.19
+Unbeatable strategy for Kallistar: Caustic Drive: 0.43
+Unbeatable strategy for Kallistar: Ignition Spellbolt: 0.19
+Unbeatable strategy for Kallistar: Ignition Drive: 0.43
+
 
 Kallistar:
-44% Flare Spellbolt
-28% Caustic Spellbolt
-28% Ignition Spellbolt
+100% Special Supernova
 
 Runika:
-44% Maintenance Drive
-56% Explosive Shot
+6% Maintenance Strike
+6% Maintenance Shot
+6% Maintenance Drive
+7% Maintenance Grasp
+9% Maintenance Dash
+4% Impact Strike
+6% Impact Shot
+6% Impact Drive
+4% Impact Grasp
+13% Impact Dash
+5% Overcharged Strike
+5% Overcharged Shot
+5% Overcharged Drive
+6% Overcharged Grasp
+12% Overcharged Dash
 
 
-Kallistar: Caustic Spellbolt
-Runika: Explosive Shot
-
-Kallistar loses 1 life (now at 1)
-Priorities:  4 | 4
-Clash!
-
-Kallistar:
-51% Caustic Shot
-49% Caustic Grasp
-
-Runika:
-64% Explosive Burst
-36% Explosive Dash
-
-
-Kallistar: Caustic Shot
-Runika: Explosive Dash
+Kallistar: Special Supernova
+Runika: Overcharged Grasp
 
 Kallistar loses 1 life (now at 1)
-Priorities:  3 | 11
-Runika is active
-Runika moves:
-
-K....R.
-
-Kallistar misses
-
-Beat 15
--------
-
-Kallistar
----------
-life: 1
-discard 1: Caustic Shot
-discard 2: Blazing Strike
-Elemental Form
-
-Runika
-------
-life: 1
-discard 1: Explosive Dash
-discard 2: Channeled Strike
-Active artifacts: 
-  Phase Goggles
-  Hover Boots
-  Autodeflector
-Removed artifacts: 
-  Battlefist
-
-
-K....R.
-
-Unbeatable strategy for Runika: Overcharged Shot: -6.00
-
-Kallistar:
-22% Volcanic Grasp
-50% Ignition Spellbolt
-28% Ignition Grasp
-
-Runika:
-9% Maintenance Tinker
-50% Overcharged Shot
-41% Overcharged Drive
-
-
-Kallistar: Ignition Spellbolt
-Runika: Overcharged Drive
-
-Kallistar loses 1 life (now at 1)
-Kallistar loses 3 life (now at 1)
-Kallistar gets +3 power
-Priorities:  4 | 6
-Runika is active
-Runika overcharges her Phase Goggles
-Runika moves:
-
-K..R...
-
-Runika hits
-Kallistar takes 3 damage (now at 0 life)
-RUNIKA WINS!
-total_time: 13
+Priorities:  7 | 3
+Kallistar is active
+No active artifacts to overcharge
+Kallistar hits
+No artifacts to de-activate
+Runika takes 10 damage (now at 0 life)
+KALLISTAR WINS!
+total_time: 24

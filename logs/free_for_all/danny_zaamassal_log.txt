@@ -11,17 +11,17 @@ Beat 1
 
 Danny
 -----
-life: 20
-discard 1: Fallen Burst
-discard 2: Vicious Shot
-special action
+Life: 20
+Discard 1: Fallen Burst
+Discard 2: Vicious Shot
+Special action available
 
 Zaamassal
 ---------
-life: 20
-discard 1: Malicious Grasp
-discard 2: Sinuous Burst
-special action
+Life: 20
+Discard 1: Malicious Grasp
+Discard 2: Sinuous Burst
+Special action available
 Active paradigm: None
 
 
@@ -29,41 +29,44 @@ Active paradigm: None
 
 
 Unbeatable strategy for Danny: Monstrous Hellgate: 4.40
-Unbeatable strategy for Danny: Shackled Hellgate: 4.02
+Unbeatable strategy for Danny: Shackled Hellgate: 4.09
 Unbeatable strategy for Danny: Sinner's Hellgate: 4.33
 
+
 Danny:
-73% Monstrous Hellgate
-23% Shackled Hellgate
+37% Monstrous Hellgate
+59% Shackled Hellgate
 4% Sinner's Grasp
 
 Zaamassal:
-25% Urgent Paradigm Shift
-22% Sturdy Paradigm Shift
-53% Special Pulse
+40% Urgent Paradigm Shift
+8% Urgent Drive
+52% Special Pulse
 
 
 Danny: Shackled Hellgate
-Zaamassal: Sturdy Paradigm Shift
+Zaamassal: Urgent Drive
 
-Priorities:  -1 | 3
+Priorities:  -1 | 6
 Zaamassal is active
-Zaamassal misses
-Zaamassal assumes the Paradigm of Fluidity
-Danny moves:
+Zaamassal moves:
 
-D....Z.
+.D..Z..
 
 
 Zaamassal moves:
 
-D...Z..
+.DZ....
 
 
+Zaamassal hits
+Danny has 3 soak
+Danny takes 0 damage (now at 20 life)
+Zaamassal assumes the Paradigm of Haste
 Danny adds monsters to the board:
 
-D...Z..
-...mmm.
+.DZ....
+mmm....
 
 
 Beat 2
@@ -71,117 +74,194 @@ Beat 2
 
 Danny
 -----
-life: 20
-discard 1: Shackled Hellgate
-discard 2: Fallen Burst
-special action
+Life: 20
+Discard 1: Shackled Hellgate
+Discard 2: Fallen Burst
+Special action available
 
 Zaamassal
 ---------
-life: 20
-discard 1: Sturdy Paradigm Shift
-discard 2: Malicious Grasp
-special action
-Active paradigm: Fluidity
+Life: 20
+Discard 1: Urgent Drive
+Discard 2: Malicious Grasp
+Special action available
+Active paradigm: Haste
 
 
-D...Z..
-...mmm.
+.DZ....
+mmm....
+
+Unbeatable strategy for Zaamassal: Sinuous Dash: -0.28
+
 
 Danny:
-58% Monstrous Shot
-25% Sinner's Strike
-13% Sinner's Drive
-4% Vicious Grasp
+5% Monstrous Shot
+0% Sinner's Grasp
+95% Special Pulse
 
 Zaamassal:
-51% Sinuous Burst
-30% Urgent Strike
-12% Warped Strike
-7% Warped Shot
+73% Sinuous Strike
+26% Sturdy Strike
+2% Special Pulse
 
 
-Danny: Sinner's Drive
-Zaamassal: Urgent Strike
+Danny: Special Pulse
+Zaamassal: Sinuous Strike
 
-Priorities:  4 | 5
-Zaamassal is active
-Zaamassal moves:
+Pulse:
 
-D..Z...
-...mmm.
+Z.....D
+mmm....
 
-Zaamassal moves:
 
-D.Z....
-...mmm.
+Beat 2
+-------
+
+Danny
+-----
+Life: 20
+Discard 1: Shackled Hellgate
+Discard 2: Fallen Burst
+
+Zaamassal
+---------
+Life: 20
+Discard 1: Sinuous Strike
+Discard 2: Urgent Drive
+Special action available
+Active paradigm: Haste
+
+
+Z.....D
+mmm....
+
+
+Danny:
+9% Monstrous Shot
+48% Monstrous Drive
+43% Sinner's Strike
+
+Zaamassal:
+6% Sturdy Paradigm Shift
+3% Warped Dash
+90% Special Pulse
+
+
+Danny: Monstrous Drive
+Zaamassal: Special Pulse
+
+Pulse:
+
+.....DZ
+mmm....
+
+
+Beat 2
+-------
+
+Danny
+-----
+Life: 20
+Discard 1: Monstrous Drive
+Discard 2: Shackled Hellgate
+
+Zaamassal
+---------
+Life: 20
+Discard 1: Sinuous Strike
+Discard 2: Urgent Drive
+Active paradigm: Haste
+
+
+.....DZ
+mmm....
+
+Unbeatable strategy for Zaamassal: Sturdy Shot: -0.45
+
+
+Danny:
+76% Fallen Strike
+24% Vicious Grasp
+
+Zaamassal:
+53% Malicious Shot
+47% Sturdy Shot
+
+
+Danny: Fallen Strike
+Zaamassal: Sturdy Shot
+
+Priorities:  3 | 2
+Danny is active
+Danny hits
+Zaamassal takes 3 damage (now at 17 life)
+Danny adds monsters to the board:
+
+.....DZ
+mmm...m
 
 Zaamassal hits
 Danny takes 3 damage (now at 17 life)
-Danny is stunned
 Zaamassal removes monsters:
 
-D.Z....
-...m.m.
+.....DZ
+mm....m
 
+Zaamassal assumes the Paradigm of Resilience
 
 Beat 3
 -------
 
 Danny
 -----
-life: 17
-discard 1: Sinner's Drive
-discard 2: Shackled Hellgate
-special action
+Life: 17
+Discard 1: Fallen Strike
+Discard 2: Monstrous Drive
 
 Zaamassal
 ---------
-life: 20
-discard 1: Urgent Strike
-discard 2: Sturdy Paradigm Shift
-special action
-Active paradigm: Fluidity
+Life: 17
+Discard 1: Sturdy Shot
+Discard 2: Sinuous Strike
+Active paradigm: Resilience
 
 
-D.Z....
-...m.m.
+.....DZ
+mm....m
+
+Unbeatable strategy for Danny: Shackled Hellgate: 2.98
+
 
 Danny:
-46% Monstrous Shot
-26% Fallen Grasp
-28% Vicious Shot
+53% Shackled Hellgate
+15% Sinner's Hellgate
+32% Vicious Grasp
 
 Zaamassal:
-39% Malicious Shot
-37% Sinuous Drive
-25% Warped Burst
+24% Urgent Paradigm Shift
+23% Urgent Dash
+53% Warped Paradigm Shift
 
 
-Danny: Vicious Shot
-Zaamassal: Warped Burst
+Danny: Vicious Grasp
+Zaamassal: Warped Paradigm Shift
 
-Priorities:  3 | 1
+Priorities:  8 | 3
 Danny is active
-Zaamassal moves:
-
-D..Z...
-...m.m.
-
-Zaamassal moves:
-
-D...Z..
-...m.m.
-
 Danny hits
-Danny gets +1 power
-Zaamassal takes 3 damage (now at 17 life)
+Danny moves Zaamassal:
+
+....ZD.
+mm....m
+
+Danny gets +2 power
+Zaamassal takes 3 damage (now at 14 life)
 Zaamassal is stunned
-Zaamassal assumes the following paradigms:
+Zaamassal loses all paradigms
 Danny adds monsters to the board:
 
-D...Z..
-...mmm.
+....ZD.
+mm..m.m
 
 
 Beat 4
@@ -189,73 +269,65 @@ Beat 4
 
 Danny
 -----
-life: 17
-discard 1: Vicious Shot
-discard 2: Sinner's Drive
-special action
+Life: 17
+Discard 1: Vicious Grasp
+Discard 2: Fallen Strike
 
 Zaamassal
 ---------
-life: 17
-discard 1: Warped Burst
-discard 2: Urgent Strike
-special action
+Life: 14
+Discard 1: Warped Paradigm Shift
+Discard 2: Sturdy Shot
 Active paradigm: None
 
 
-D...Z..
-...mmm.
+....ZD.
+mm..m.m
+
+Unbeatable strategy for Danny: Monstrous Hellgate: 0.86
+
 
 Danny:
-41% Monstrous Hellgate
-1% Monstrous Grasp
-25% Fallen Strike
-22% Fallen Grasp
-11% Shackled Strike
+71% Monstrous Hellgate
+29% Sinner's Hellgate
 
 Zaamassal:
-0% Sinuous Paradigm Shift
-38% Sinuous Shot
-19% Sinuous Drive
-11% Sinuous Dash
-32% Sturdy Shot
+68% Sinuous Strike
+32% Sinuous Burst
 
 
-Danny: Fallen Grasp
-Zaamassal: Sinuous Drive
+Danny: Monstrous Hellgate
+Zaamassal: Sinuous Burst
 
-Priorities:  5 | 5
-Clash!
-
-Danny:
-64% Fallen Hellgate
-36% Fallen Strike
-
-Zaamassal:
-14% Sinuous Paradigm Shift
-86% Sinuous Shot
-
-
-Danny: Fallen Hellgate
-Zaamassal: Sinuous Paradigm Shift
-
-Priorities:  0 | 4
+Priorities:  -1 | 2
 Zaamassal is active
-Zaamassal misses
+Zaamassal moves:
+
+...Z.D.
+mm..m.m
+
+Zaamassal hits
+Danny has 3 soak
+Danny takes 0 damage (now at 17 life)
+Zaamassal removes monsters:
+
+...Z.D.
+mm..m..
+
 Zaamassal assumes the Paradigm of Fluidity
 Danny moves:
 
-.D..Z..
-...mmm.
+..DZ...
+mm..m..
 
 Zaamassal moves:
 
-ZD.....
-...mmm.
+Z.D....
+mm..m..
 
 Danny adds monsters to the board:
 
-ZD.....
+Z.D....
 mmmmmm.
 
 
@@ -264,63 +336,51 @@ Beat 5
 
 Danny
 -----
-life: 17
-discard 1: Fallen Hellgate
-discard 2: Vicious Shot
-special action
+Life: 17
+Discard 1: Monstrous Hellgate
+Discard 2: Vicious Grasp
 
 Zaamassal
 ---------
-life: 17
-discard 1: Sinuous Paradigm Shift
-discard 2: Warped Burst
-special action
+Life: 14
+Discard 1: Sinuous Burst
+Discard 2: Warped Paradigm Shift
 Active paradigm: Fluidity
 
 
-ZD.....
+Z.D....
 mmmmmm.
+
 
 Danny:
-32% Monstrous Strike
-21% Monstrous Burst
-34% Shackled Strike
-13% Shackled Burst
+47% Fallen Strike
+49% Shackled Strike
+4% Shackled Burst
 
 Zaamassal:
-45% Malicious Strike
-1% Malicious Shot
-42% Sturdy Shot
-12% Sturdy Drive
+62% Urgent Strike
+8% Sturdy Strike
+30% Sturdy Shot
 
 
-Danny: Monstrous Burst
-Zaamassal: Malicious Strike
+Danny: Shackled Strike
+Zaamassal: Urgent Strike
 
-Priorities:  0 | 2
+Priorities:  2 | 5
 Zaamassal is active
-Danny moves:
-
-Z..D...
-mmmmmm.
-
-Zaamassal misses
+Zaamassal hits
+Danny takes 3 damage (now at 14 life)
 Zaamassal removes monsters:
 
-Z..D...
+Z.D....
 m.mmmm.
 
 Danny hits
-Zaamassal takes 4 damage (now at 13 life)
+Zaamassal takes 4 damage (now at 10 life)
 Danny adds monsters to the board:
 
-Z..D...
+Z.D....
 mmmmmm.
-
-Danny adds monsters to the board:
-
-Z..D...
-mmmmmmm
 
 
 Beat 6
@@ -328,54 +388,86 @@ Beat 6
 
 Danny
 -----
-life: 17
-discard 1: Monstrous Burst
-discard 2: Fallen Hellgate
-special action
+Life: 14
+Discard 1: Shackled Strike
+Discard 2: Monstrous Hellgate
 
 Zaamassal
 ---------
-life: 13
-discard 1: Malicious Strike
-discard 2: Sinuous Paradigm Shift
-special action
+Life: 10
+Discard 1: Urgent Strike
+Discard 2: Sinuous Burst
 Active paradigm: Fluidity
 
 
-Z..D...
-mmmmmmm
+Z.D....
+mmmmmm.
+
+Unbeatable strategy for Zaamassal: Sturdy Shot: -0.74
+Unbeatable strategy for Zaamassal: Sturdy Drive: -1.40
+
 
 Danny:
-48% Shackled Strike
-47% Shackled Dash
-5% Vicious Strike
+0% Fallen Shot
+0% Fallen Drive
+1% Fallen Burst
+82% Fallen Grasp
+17% Vicious Burst
 
 Zaamassal:
-41% Sturdy Drive
-3% Sturdy Burst
-56% Warped Grasp
+3% Sturdy Paradigm Shift
+28% Sturdy Shot
+38% Sturdy Drive
+27% Sturdy Grasp
+5% Warped Grasp
 
 
-Danny: Shackled Dash
+Danny: Fallen Grasp
+Zaamassal: Sturdy Grasp
+
+Priorities:  5 | 5
+Clash!
+
+
+Danny: Fallen Drive
 Zaamassal: Sturdy Drive
 
-Priorities:  8 | 4
+Priorities:  4 | 4
+Clash!
+
+
+Danny: Fallen Shot
+Zaamassal: Sturdy Shot
+
+Priorities:  2 | 2
+Clash!
+
+
+Danny: Fallen Dash
+Zaamassal: Sturdy Paradigm Shift
+
+Priorities:  9 | 3
 Danny is active
 Danny moves:
 
-Z.D....
-mmmmmmm
+ZD.....
+mmmmmm.
+
+Zaamassal moves:
+
+.DZ....
+mmmmmm.
 
 Zaamassal misses
 Zaamassal removes monsters:
 
-Z.D....
-m.mmmmm
+.DZ....
+.mmmmm.
 
 Zaamassal moves:
 
-.ZD....
-m.mmmmm
+.D.Z...
+.mmmmm.
 
 
 Beat 7
@@ -383,56 +475,61 @@ Beat 7
 
 Danny
 -----
-life: 17
-discard 1: Shackled Dash
-discard 2: Monstrous Burst
-special action
+Life: 14
+Discard 1: Fallen Dash
+Discard 2: Shackled Strike
 
 Zaamassal
 ---------
-life: 13
-discard 1: Sturdy Drive
-discard 2: Malicious Strike
-special action
+Life: 10
+Discard 1: Sturdy Paradigm Shift
+Discard 2: Urgent Strike
 Active paradigm: Fluidity
 
 
-.ZD....
-m.mmmmm
+.D.Z...
+.mmmmm.
 
-Unbeatable strategy for Danny: Fallen Hellgate: 1.19
-Unbeatable strategy for Danny: Sinner's Hellgate: 1.29
+Unbeatable strategy for Danny: Monstrous Hellgate: 1.82
+
 
 Danny:
-45% Fallen Strike
-4% Fallen Grasp
-12% Vicious Strike
-39% Vicious Grasp
+86% Monstrous Hellgate
+14% Monstrous Shot
+1% Vicious Burst
 
 Zaamassal:
-2% Urgent Burst
-11% Warped Shot
-29% Warped Grasp
-58% Warped Dash
+51% Malicious Shot
+47% Malicious Drive
+2% Warped Shot
 
 
-Danny: Vicious Strike
-Zaamassal: Warped Grasp
+Danny: Monstrous Hellgate
+Zaamassal: Malicious Shot
 
-Priorities:  9 | 5
-Danny is active
+Priorities:  -1 | 1
+Zaamassal is active
+Zaamassal hits
+Danny has 3 soak
+Danny takes 1 damage (now at 13 life)
+Zaamassal removes monsters:
+
+.D.Z...
+..mmmm.
+
+Danny moves:
+
+..DZ...
+..mmmm.
+
 Zaamassal moves:
 
-Z.D....
-m.mmmmm
+..D.Z..
+..mmmm.
 
-Danny hits
-Zaamassal takes 3 damage (now at 10 life)
-Zaamassal is stunned
-Zaamassal assumes the following paradigms:
 Danny adds monsters to the board:
 
-Z.D....
+..D.Z..
 mmmmmmm
 
 
@@ -441,116 +538,66 @@ Beat 8
 
 Danny
 -----
-life: 17
-discard 1: Vicious Strike
-discard 2: Shackled Dash
-special action
+Life: 13
+Discard 1: Monstrous Hellgate
+Discard 2: Fallen Dash
 
 Zaamassal
 ---------
-life: 10
-discard 1: Warped Grasp
-discard 2: Sturdy Drive
-special action
-Active paradigm: None
+Life: 10
+Discard 1: Malicious Shot
+Discard 2: Sturdy Paradigm Shift
+Active paradigm: Fluidity
 
 
-Z.D....
+..D.Z..
 mmmmmmm
 
-Unbeatable strategy for Zaamassal: Urgent Paradigm Shift: -0.57
 
 Danny:
-1% Monstrous Burst
-26% Fallen Grasp
-8% Sinner's Burst
-65% Special Pulse
+59% Shackled Burst
+5% Sinner's Burst
+36% Vicious Burst
 
 Zaamassal:
-0% Sinuous Strike
-22% Sinuous Shot
-16% Urgent Paradigm Shift
-62% Urgent Strike
+5% Urgent Strike
+93% Warped Strike
+2% Warped Burst
 
 
-Danny: Special Pulse
-Zaamassal: Urgent Strike
+Danny: Vicious Burst
+Zaamassal: Warped Strike
 
-Pulse:
-
-D.....Z
-mmmmmmm
-
-
-Beat 8
--------
-
-Danny
------
-life: 17
-discard 1: Vicious Strike
-discard 2: Shackled Dash
-
-Zaamassal
----------
-life: 10
-discard 1: Urgent Strike
-discard 2: Warped Grasp
-special action
-Active paradigm: None
-
-
-D.....Z
-mmmmmmm
-
-Unbeatable strategy for Zaamassal: Malicious Drive: -0.14
-Unbeatable strategy for Zaamassal: Malicious Dash: -2.00
-Unbeatable strategy for Zaamassal: Sinuous Paradigm Shift: -2.85
-Unbeatable strategy for Zaamassal: Sinuous Shot: -3.63
-Unbeatable strategy for Zaamassal: Sinuous Drive: -2.71
-Unbeatable strategy for Zaamassal: Sinuous Burst: -2.73
-Unbeatable strategy for Zaamassal: Sinuous Dash: -2.21
-Unbeatable strategy for Zaamassal: Sturdy Paradigm Shift: -1.71
-Unbeatable strategy for Zaamassal: Sturdy Drive: -2.47
-Unbeatable strategy for Zaamassal: Sturdy Dash: -2.83
-
-Danny:
-12% Fallen Shot
-59% Fallen Drive
-14% Fallen Burst
-5% Sinner's Shot
-10% Sinner's Burst
-
-Zaamassal:
-76% Sinuous Shot
-1% Sturdy Paradigm Shift
-23% Sturdy Dash
-
-
-Danny: Fallen Drive
-Zaamassal: Sturdy Paradigm Shift
-
-Priorities:  4 | 3
+Priorities:  6 | 3
 Danny is active
 Danny moves:
 
-.D....Z
+D...Z..
+mmmmmmm
+
+Zaamassal moves:
+
+D....Z.
 mmmmmmm
 
 Danny hits
-Danny gets +2 power
-Zaamassal takes 4 damage (now at 6 life)
+Danny gets +1 power
+Zaamassal takes 3 damage (now at 7 life)
+Zaamassal moves:
+
+D...Z..
+mmmmmmm
+
 Zaamassal misses
 Zaamassal removes monsters:
 
-.D....Z
-mmm.mmm
+D...Z..
+m.mmmmm
 
-Zaamassal assumes the Paradigm of Fluidity
 Zaamassal moves:
 
-.D...Z.
-mmm.mmm
+D..Z...
+m.mmmmm
 
 
 Beat 9
@@ -558,124 +605,140 @@ Beat 9
 
 Danny
 -----
-life: 17
-discard 1: Fallen Drive
-discard 2: Vicious Strike
+Life: 13
+Discard 1: Vicious Burst
+Discard 2: Monstrous Hellgate
 
 Zaamassal
 ---------
-life: 6
-discard 1: Sturdy Paradigm Shift
-discard 2: Urgent Strike
-special action
+Life: 7
+Discard 1: Warped Strike
+Discard 2: Malicious Shot
 Active paradigm: Fluidity
 
 
-.D...Z.
-mmm.mmm
+D..Z...
+m.mmmmm
 
-Unbeatable strategy for Danny: Monstrous Hellgate: 0.18
-Unbeatable strategy for Danny: Shackled Hellgate: 0.30
+Unbeatable strategy for Zaamassal: Sturdy Paradigm Shift: -0.74
+
 
 Danny:
-21% Monstrous Grasp
-20% Shackled Hellgate
-18% Shackled Burst
-41% Shackled Grasp
+11% Fallen Grasp
+62% Shackled Strike
+27% Shackled Drive
 
 Zaamassal:
-37% Malicious Shot
-0% Sinuous Drive
-48% Warped Shot
-15% Warped Grasp
+26% Sinuous Paradigm Shift
+51% Sturdy Paradigm Shift
+23% Sturdy Burst
 
 
-Danny: Shackled Burst
-Zaamassal: Warped Shot
+Danny: Shackled Strike
+Zaamassal: Sinuous Paradigm Shift
 
-Priorities:  0 | 2
+Priorities:  2 | 4
 Zaamassal is active
-Danny moves:
-
-D....Z.
-mmm.mmm
-
 Zaamassal hits
-Danny takes 3 damage (now at 14 life)
-Danny is stunned
+Danny takes 3 damage (now at 10 life)
 Zaamassal removes monsters:
 
-D....Z.
-.mm.mmm
+D..Z...
+..mmmmm
 
-Zaamassal assumes the Paradigm of Distortion
+Zaamassal assumes the Paradigm of Pain
+Danny hits
+Zaamassal takes 4 damage (now at 3 life)
+Zaamassal is stunned
+Zaamassal loses all paradigms
+Danny adds monsters to the board:
+
+D..Z...
+.mmmmmm
+
 
 Beat 10
 -------
 
 Danny
 -----
-life: 14
-discard 1: Shackled Burst
-discard 2: Fallen Drive
+Life: 10
+Discard 1: Shackled Strike
+Discard 2: Vicious Burst
 
 Zaamassal
 ---------
-life: 6
-discard 1: Warped Shot
-discard 2: Sturdy Paradigm Shift
-special action
-Active paradigm: Distortion
+Life: 3
+Discard 1: Sinuous Paradigm Shift
+Discard 2: Warped Strike
+Active paradigm: None
 
 
-D....Z.
-.mm.mmm
+D..Z...
+.mmmmmm
 
-Unbeatable strategy for Zaamassal: Sinuous Dash: -0.78
-Unbeatable strategy for Zaamassal: Urgent Dash: -0.58
 
 Danny:
-15% Monstrous Shot
-55% Sinner's Hellgate
-10% Sinner's Grasp
-21% Vicious Shot
+37% Monstrous Shot
+1% Monstrous Drive
+39% Monstrous Grasp
+11% Fallen Shot
+12% Fallen Grasp
 
 Zaamassal:
-4% Sinuous Strike
-26% Sinuous Drive
-68% Sinuous Dash
-2% Urgent Drive
+37% Malicious Shot
+1% Malicious Drive
+39% Malicious Grasp
+12% Urgent Drive
+11% Sturdy Drive
 
 
-Danny: Sinner's Hellgate
-Zaamassal: Sinuous Dash
+Danny: Monstrous Grasp
+Zaamassal: Malicious Grasp
 
-Priorities:  0 | 10
+Priorities:  4 | 4
+Clash!
+
+
+Danny: Monstrous Shot
+Zaamassal: Malicious Shot
+
+Priorities:  1 | 1
+Clash!
+
+
+Danny: Monstrous Drive
+Zaamassal: Malicious Drive
+
+Priorities:  3 | 3
+Clash!
+
+
+Danny: Monstrous Hellgate
+Zaamassal: Malicious Burst
+
+Priorities:  -1 | 0
 Zaamassal is active
-Zaamassal assumes the Paradigm of Fluidity
 Zaamassal moves:
 
-D.Z....
-.mm.mmm
+D...Z..
+.mmmmmm
 
-Danny moves his monsters:
+Zaamassal misses
+Zaamassal removes monsters:
 
-D.Z....
-mm.m.mm
+D...Z..
+..mmmmm
 
+Zaamassal assumes the Paradigm of Pain
 Danny moves:
 
-.DZ....
-mm.m.mm
-
-Zaamassal moves:
-
-.D.Z...
-mm.m.mm
+.D..Z..
+..mmmmm
 
 Danny adds monsters to the board:
 
-.D.Z...
+.D..Z..
 mmmmmmm
 
 
@@ -684,55 +747,60 @@ Beat 11
 
 Danny
 -----
-life: 14
-discard 1: Sinner's Hellgate
-discard 2: Shackled Burst
+Life: 10
+Discard 1: Monstrous Hellgate
+Discard 2: Shackled Strike
 
 Zaamassal
 ---------
-life: 6
-discard 1: Sinuous Dash
-discard 2: Warped Shot
-special action
-Active paradigm: Fluidity
+Life: 3
+Discard 1: Malicious Burst
+Discard 2: Sinuous Paradigm Shift
+Active paradigm: Pain
 
 
-.D.Z...
+.D..Z..
 mmmmmmm
 
+
 Danny:
-88% Monstrous Strike
-5% Monstrous Dash
-6% Vicious Strike
+37% Fallen Shot
+1% Fallen Burst
+7% Vicious Drive
+55% Vicious Burst
 
 Zaamassal:
-13% Sturdy Strike
-73% Sturdy Burst
-15% Special Open the Gate
+41% Urgent Drive
+52% Urgent Dash
+6% Sturdy Dash
+1% Warped Drive
 
 
-Danny: Monstrous Strike
-Zaamassal: Sturdy Burst
+Danny: Vicious Burst
+Zaamassal: Urgent Drive
 
-Priorities:  2 | 1
+Priorities:  6 | 6
+Clash!
+
+
+Danny: Vicious Dash
+Zaamassal: Urgent Dash
+
+Priorities:  14 | 11
 Danny is active
-Danny hits
-Zaamassal takes 5 damage (now at 1 life)
-Zaamassal hits
-Danny takes 3 damage (now at 11 life)
-Zaamassal removes monsters:
+Danny moves:
 
-.D.Z...
-.mmmmmm
-
-Danny adds monsters to the board:
-
-.D.Z...
+...DZ..
 mmmmmmm
 
 Zaamassal moves:
 
-.D..Z..
+..ZD...
+mmmmmmm
+
+Zaamassal moves:
+
+Z..D...
 mmmmmmm
 
 
@@ -741,61 +809,44 @@ Beat 12
 
 Danny
 -----
-life: 11
-discard 1: Monstrous Strike
-discard 2: Sinner's Hellgate
+Life: 10
+Discard 1: Vicious Dash
+Discard 2: Monstrous Hellgate
 
 Zaamassal
 ---------
-life: 1
-discard 1: Sturdy Burst
-discard 2: Sinuous Dash
-special action
-Active paradigm: Fluidity
+Life: 3
+Discard 1: Urgent Dash
+Discard 2: Malicious Burst
+Active paradigm: Pain
 
 
-.D..Z..
+Z..D...
 mmmmmmm
 
-Unbeatable strategy for Danny: Vicious Drive: 6.00
-Unbeatable strategy for Danny: Vicious Grasp: 6.00
 
 Danny:
-50% Vicious Drive
-50% Vicious Grasp
+70% Fallen Grasp
+30% Shackled Burst
 
 Zaamassal:
-6% Malicious Paradigm Shift
-7% Malicious Strike
-6% Malicious Shot
-6% Malicious Drive
-8% Malicious Grasp
-5% Urgent Paradigm Shift
-2% Urgent Strike
-4% Urgent Shot
-5% Urgent Drive
-9% Urgent Grasp
-4% Warped Paradigm Shift
-6% Warped Strike
-3% Warped Shot
-2% Warped Drive
-6% Warped Grasp
-12% Special Open the Gate
-10% Special Plane Divider
+18% Warped Paradigm Shift
+12% Warped Shot
+70% Warped Grasp
 
 
-Danny: Vicious Grasp
-Zaamassal: Urgent Drive
+Danny: Fallen Grasp
+Zaamassal: Warped Paradigm Shift
 
-Priorities:  10 | 6
+Priorities:  5 | 3
 Danny is active
 Danny hits
 Danny gets +2 power
 Danny moves Zaamassal:
 
-.D.Z...
+.Z.D...
 mmmmmmm
 
 Zaamassal takes 3 damage (now at 0 life)
 DANNY WINS!
-total_time: 208
+total_time: 139

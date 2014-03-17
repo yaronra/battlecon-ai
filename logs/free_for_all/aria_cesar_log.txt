@@ -11,17 +11,17 @@ Beat 1
 
 Aria
 ----
-life: 20
-discard 1: Laser Grasp
-discard 2: Ionic Dash
-special action
+Life: 20
+Discard 1: Laser Grasp
+Discard 2: Ionic Dash
+Special action available
 
 Cesar
 -----
-life: 20
-discard 1: Fueled Strike
-discard 2: Unstoppable Grasp
-special action
+Life: 20
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Grasp
+Special action available
 Threat level: 0
 
 
@@ -30,22 +30,26 @@ Threat level: 0
 .m.....
 .......
 
-Unbeatable strategy for Aria: Catalyst Reconfiguration: 0.19
+Unbeatable strategy for Aria: Catalyst Reconfiguration: 0.24
+
 
 Aria:
-56% Photovoltaic Reconfiguration
-44% Dimensional Reconfiguration
+68% Photovoltaic Reconfiguration
+17% Catalyst Reconfiguration
+15% Dimensional Reconfiguration
 
 Cesar:
-83% Bulwark Suppression
-17% Inevitable Drive
+80% Bulwark Suppression
+1% Bulwark Drive
+19% Inevitable Drive
 
 
-Aria: Dimensional Reconfiguration
-Cesar: Bulwark Suppression
+Aria: Catalyst Reconfiguration
+Cesar: Inevitable Drive
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  7 | 0
+Aria gets +4 priority
+Priorities:  8 | 4
 Aria is active
 Aria moves:
 
@@ -62,651 +66,647 @@ A....C.
 ...t...
 
 Aria misses
-Cesar misses
-Aria moves:
-
-.A...C.
-.......
-.m.....
-...t...
-
 Cesar moves:
 
-.AC....
+A..C...
 .......
 .m.....
 ...t...
 
+Cesar misses
+Cesar loses 1 life (now at 19)
 
 Beat 2
 -------
 
 Aria
 ----
-life: 20
-discard 1: Dimensional Reconfiguration
-discard 2: Laser Grasp
-special action
+Life: 20
+Discard 1: Catalyst Reconfiguration
+Discard 2: Laser Grasp
+Special action available
 
 Cesar
 -----
-life: 20
-discard 1: Bulwark Suppression
-discard 2: Fueled Strike
-special action
+Life: 19
+Discard 1: Inevitable Drive
+Discard 2: Fueled Strike
+Special action available
 Threat level: 1
 
 
-.AC....
+A..C...
 .......
 .m.....
 ...t...
 
-Unbeatable strategy for Aria: Photovoltaic Drive: 0.36
-Unbeatable strategy for Aria: Photovoltaic Dash: 1.87
-Unbeatable strategy for Aria: Catalyst Dash: 0.97
 
 Aria:
-10% Photovoltaic Strike
-14% Photovoltaic Shot
-66% Photovoltaic Dash
-10% Ionic Strike
+27% Photovoltaic Drive
+42% Photovoltaic Dash
+17% Dimensional Strike
+13% Dimensional Shot
 
 Cesar:
-15% Phalanx Dash
-15% Unstoppable Burst
-59% Inevitable Drive
-12% Inevitable Burst
+12% Phalanx Burst
+5% Unstoppable Shot
+75% Bulwark Shot
+8% Bulwark Burst
 
 
-Aria: Photovoltaic Strike
-Cesar: Inevitable Drive
+Aria: Photovoltaic Dash
+Cesar: Bulwark Shot
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  4 | 3
+Priorities:  10 | 0
 Aria is active
-Aria hits
-Cesar takes 3 damage (now at 17 life)
+Aria moves:
+
+...CA..
+.......
+.m.....
+...t...
+
 Aria adds her Dampening droid:
 
-.AC....
-.d.....
+...CA..
+....d..
 .m.....
 ...t...
 
+Cesar misses
 Cesar moves:
 
-CA.....
-.d.....
+....A.C
+....d..
 .m.....
 ...t...
 
-Cesar hits
-Aria is stunned
-Aria takes 4 damage (now at 16 life)
 
 Beat 3
 -------
 
 Aria
 ----
-life: 16
-discard 1: Photovoltaic Strike
-discard 2: Dimensional Reconfiguration
-special action
+Life: 20
+Discard 1: Photovoltaic Dash
+Discard 2: Catalyst Reconfiguration
+Special action available
 
 Cesar
 -----
-life: 17
-discard 1: Inevitable Drive
-discard 2: Bulwark Suppression
-special action
+Life: 19
+Discard 1: Bulwark Shot
+Discard 2: Inevitable Drive
+Special action available
 Threat level: 2
-Opponent has -3 power this beat
 
 
-CA.....
-.d.....
+....A.C
+....d..
 .m.....
 ...t...
 
-Unbeatable strategy for Cesar: Unstoppable Shot: -0.18
+Unbeatable strategy for Aria: Dimensional Burst: 0.79
+
 
 Aria:
-66% Ionic Dash
-20% Laser Shot
-1% Laser Dash
-14% Special Pulse
+63% Laser Shot
+37% Dimensional Burst
 
 Cesar:
-0% Unstoppable Strike
-45% Unstoppable Shot
-21% Unstoppable Burst
-33% Fueled Burst
+11% Phalanx Strike
+89% Fueled Suppression
 
 
-Aria: Ionic Dash
-Cesar: Unstoppable Shot
+Aria: Laser Shot
+Cesar: Fueled Suppression
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  10 | -1
+Priorities:  2 | 1
 Aria is active
-Aria moves Cesar:
-
-.AC....
-.d.....
-.m.....
-...t...
-
-Aria moves:
-
-..C..A.
-.d.....
-.m.....
-...t...
-
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Aria hits
+Cesar has 2 soak
+Cesar takes 1 damage (now at 18 life)
+Cesar is stunned
+Cesar loses 3 life (now at 15)
 Cesar moves:
 
-....CA.
-.d.....
+....AC.
+....d..
 .m.....
 ...t...
 
-Cesar misses
-Cesar loses 1 life (now at 16)
 
 Beat 4
 -------
 
 Aria
 ----
-life: 16
-discard 1: Ionic Dash
-discard 2: Photovoltaic Strike
-special action
+Life: 20
+Discard 1: Laser Shot
+Discard 2: Photovoltaic Dash
+Special action available
 
 Cesar
 -----
-life: 16
-discard 1: Unstoppable Shot
-discard 2: Inevitable Drive
-special action
-Threat level: 3
+Life: 15
+Discard 1: Fueled Suppression
+Discard 2: Bulwark Shot
+Special action available
+Threat level: 4
 
 
-....CA.
-.d.....
+....AC.
+....d..
 .m.....
 ...t...
 
-Unbeatable strategy for Cesar: Phalanx Suppression: -1.11
-Unbeatable strategy for Cesar: Fueled Suppression: -0.14
-Unbeatable strategy for Cesar: Bulwark Suppression: -1.48
 
 Aria:
-100% Dimensional Grasp
+34% Ionic Reconfiguration
+1% Ionic Burst
+33% Dimensional Reconfiguration
+32% Dimensional Burst
 
 Cesar:
-100% Bulwark Suppression
+11% Unstoppable Strike
+36% Unstoppable Dash
+26% Inevitable Drive
+27% Inevitable Grasp
 
 
-Aria: Dimensional Grasp
-Cesar: Bulwark Suppression
+Aria: Ionic Reconfiguration
+Cesar: Unstoppable Dash
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  9 | 0
-Aria is active
-Aria misses
-Aria moves:
+Cesar gains a Threat Level (current level: 0)
+Priorities:  4 | 7
+Cesar is active
+Aria moves Cesar:
 
-A...C..
-.d.....
+...CA..
+....d..
 .m.....
 ...t...
 
-Cesar loses 1 life (now at 15)
 Cesar moves:
 
-AC.....
-.d.....
+....AC.
+....d..
 .m.....
 ...t...
 
+Aria moves:
+
+A....C.
+....d..
+.m.....
+...t...
+
+Cesar moves:
+
+A..C...
+....d..
+.m.....
+...t...
+
+Aria misses
+Cesar loses 1 life (now at 14)
 
 Beat 5
 -------
 
 Aria
 ----
-life: 16
-discard 1: Dimensional Grasp
-discard 2: Ionic Dash
-special action
+Life: 20
+Discard 1: Ionic Reconfiguration
+Discard 2: Laser Shot
+Special action available
 
 Cesar
 -----
-life: 15
-discard 1: Bulwark Suppression
-discard 2: Unstoppable Shot
-special action
-Threat level: 4
+Life: 14
+Discard 1: Unstoppable Dash
+Discard 2: Fueled Suppression
+Special action available
+Threat level: 0
 
 
-AC.....
-.d.....
+A..C...
+....d..
 .m.....
 ...t...
+
 
 Aria:
-66% Photovoltaic Reconfiguration
-2% Photovoltaic Strike
-30% Photovoltaic Drive
-3% Laser Reconfiguration
+74% Dimensional Strike
+26% Dimensional Burst
 
 Cesar:
-30% Phalanx Strike
-15% Phalanx Burst
-13% Fueled Burst
-42% Inevitable Strike
+43% Bulwark Shot
+57% Bulwark Burst
 
 
-Aria: Photovoltaic Drive
-Cesar: Phalanx Strike
+Aria: Dimensional Strike
+Cesar: Bulwark Shot
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  5 | 0
+Cesar gains a Threat Level (current level: 1)
+Aria gets +2 power
+Priorities:  7 | 0
 Aria is active
-Aria moves:
+Aria hits
+Cesar takes 5 damage (now at 9 life)
+Cesar hits
+Aria takes 3 damage (now at 17 life)
+Cesar moves:
 
-.CA....
-.d.....
+A.....C
+....d..
 .m.....
 ...t...
 
-Aria hits
-Aria removes her Magnetron droid:
+Aria moves:
 
-.CA....
-.d.....
-.......
+.A....C
+....d..
+.m.....
 ...t...
 
-Aria gets +1 power
-Cesar takes 3 damage (now at 12 life)
-Aria adds her Magnetron droid:
-
-.CA....
-.d.....
-..m....
-...t...
-
-Cesar moves:
-
-..A.C..
-.d.....
-..m....
-...t...
-
-Cesar hits
-Aria takes 4 damage (now at 12 life)
-Aria is stunned
-Cesar loses 1 life (now at 11)
 
 Beat 6
 -------
 
 Aria
 ----
-life: 12
-discard 1: Photovoltaic Drive
-discard 2: Dimensional Grasp
-special action
+Life: 17
+Discard 1: Dimensional Strike
+Discard 2: Ionic Reconfiguration
+Special action available
 
 Cesar
 -----
-life: 11
-discard 1: Phalanx Strike
-discard 2: Bulwark Suppression
-special action
-Threat level: 0
+Life: 9
+Discard 1: Bulwark Shot
+Discard 2: Unstoppable Dash
+Special action available
+Threat level: 1
 
 
-..A.C..
-.d.....
-..m....
+.A....C
+....d..
+.m.....
 ...t...
+
+Unbeatable strategy for Aria: Photovoltaic Dash: 0.16
+Unbeatable strategy for Aria: Laser Dash: 1.57
+
 
 Aria:
-8% Ionic Reconfiguration
-24% Ionic Strike
-26% Laser Reconfiguration
-9% Laser Burst
-33% Catalyst Burst
+57% Photovoltaic Burst
+32% Laser Shot
+11% Laser Burst
 
 Cesar:
-42% Unstoppable Drive
-1% Fueled Drive
-9% Fueled Burst
-29% Inevitable Drive
-19% Inevitable Burst
+86% Fueled Suppression
+5% Fueled Strike
+9% Fueled Drive
 
 
-Aria: Catalyst Burst
-Cesar: Inevitable Burst
+Aria: Laser Shot
+Cesar: Fueled Suppression
 
-Cesar gains a Threat Level (current level: 1)
-Aria gets +4 priority
-Priorities:  6 | 1
+Cesar gains a Threat Level (current level: 2)
+Priorities:  2 | 1
 Aria is active
-Aria moves:
-
-.A..C..
-.d.....
-..m....
-...t...
-
+Cesar gains a Threat Level (current level: 3)
+Aria hits
+Cesar takes 3 damage (now at 6 life)
 Cesar moves:
 
 .A...C.
-.d.....
-..m....
+....d..
+.m.....
 ...t...
 
-Aria hits
-Cesar takes 2 damage (now at 9 life)
 Cesar misses
+Cesar moves:
+
+.AC....
+....d..
+.m.....
+...t...
+
 
 Beat 7
 -------
 
 Aria
 ----
-life: 12
-discard 1: Catalyst Burst
-discard 2: Photovoltaic Drive
-special action
+Life: 17
+Discard 1: Laser Shot
+Discard 2: Dimensional Strike
+Special action available
 
 Cesar
 -----
-life: 9
-discard 1: Inevitable Burst
-discard 2: Phalanx Strike
-special action
-Threat level: 1
+Life: 6
+Discard 1: Fueled Suppression
+Discard 2: Bulwark Shot
+Special action available
+Threat level: 3
 
 
-.A...C.
-.d.....
-..m....
+.AC....
+....d..
+.m.....
 ...t...
+
 
 Aria:
-36% Ionic Shot
-32% Laser Reconfiguration
-7% Laser Shot
-25% Dimensional Dash
+62% Ionic Reconfiguration
+2% Ionic Burst
+7% Catalyst Burst
+29% Catalyst Dash
 
 Cesar:
-34% Unstoppable Shot
-25% Fueled Drive
-36% Bulwark Suppression
-4% Bulwark Shot
+60% Unstoppable Strike
+5% Unstoppable Burst
+7% Unstoppable Grasp
+28% Special Level 4 Protocol
 
 
-Aria: Ionic Shot
-Cesar: Bulwark Suppression
+Aria: Catalyst Burst
+Cesar: Unstoppable Strike
 
-Cesar gains a Threat Level (current level: 2)
-Priorities:  3 | 0
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Aria gets +4 priority
+Priorities:  6 | 0
 Aria is active
-Aria misses
-Cesar misses
-Cesar moves:
+Aria moves:
 
-.A....C
-.d.....
-..m....
+A.C....
+....d..
+.m.....
 ...t...
 
+Cesar moves:
+
+AC.....
+....d..
+.m.....
+...t...
+
+Aria misses
 
 Beat 8
 -------
 
 Aria
 ----
-life: 12
-discard 1: Ionic Shot
-discard 2: Catalyst Burst
-special action
+Life: 17
+Discard 1: Catalyst Burst
+Discard 2: Laser Shot
+Special action available
 
 Cesar
 -----
-life: 9
-discard 1: Bulwark Suppression
-discard 2: Inevitable Burst
-special action
-Threat level: 2
+Life: 6
+Discard 1: Unstoppable Strike
+Discard 2: Fueled Suppression
+Special action available
+Threat level: 4
 
 
-.A....C
-.d.....
-..m....
+AC.....
+....d..
+.m.....
 ...t...
 
-Unbeatable strategy for Aria: Photovoltaic Drive: 0.15
-Unbeatable strategy for Aria: Laser Grasp: 2.61
-Unbeatable strategy for Aria: Dimensional Grasp: 0.46
-Unbeatable strategy for Aria: Dimensional Dash: 0.25
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.39
+
 
 Aria:
-38% Laser Reconfiguration
-30% Laser Strike
-32% Laser Grasp
+32% Photovoltaic Strike
+24% Photovoltaic Grasp
+44% Dimensional Dash
 
 Cesar:
-20% Unstoppable Shot
-53% Fueled Strike
-27% Fueled Grasp
+31% Bulwark Shot
+43% Bulwark Dash
+26% Special Level 4 Protocol
 
 
-Aria: Laser Reconfiguration
-Cesar: Fueled Strike
+Aria: Dimensional Dash
+Cesar: Special Level 4 Protocol
 
-Cesar gains a Threat Level (current level: 3)
-Priorities:  3 | 2
+Cesar gains a Threat Level (current level: 0)
+Priorities:  13 | 10
 Aria is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
 Aria moves:
 
-A.....C
-.d.....
-..m....
+.CA....
+....d..
+.m.....
 ...t...
 
-Aria misses
-Cesar loses 3 life (now at 6)
+Cesar misses
+Aria moves:
+
+.C....A
+....d..
+.m.....
+...t...
+
 
 Beat 9
 -------
 
 Aria
 ----
-life: 12
-discard 1: Laser Reconfiguration
-discard 2: Ionic Shot
-special action
+Life: 17
+Discard 1: Dimensional Dash
+Discard 2: Catalyst Burst
+Special action available
 
 Cesar
 -----
-life: 6
-discard 1: Fueled Strike
-discard 2: Bulwark Suppression
-special action
-Threat level: 4
+Life: 6
+Discard 1: Unstoppable Strike
+Discard 2: Fueled Suppression
+Threat level: 0
 
 
-A.....C
-.d.....
-..m....
+.C....A
+....d..
+.m.....
 ...t...
 
-Unbeatable strategy for Aria: Photovoltaic Grasp: 0.70
 
 Aria:
-42% Photovoltaic Strike
-37% Photovoltaic Grasp
-21% Catalyst Burst
-1% Dimensional Drive
+58% Photovoltaic Shot
+5% Ionic Shot
+23% Laser Reconfiguration
+14% Laser Shot
 
 Cesar:
-28% Phalanx Grasp
-7% Unstoppable Drive
-4% Inevitable Grasp
-61% Special Pulse
+12% Phalanx Shot
+10% Bulwark Shot
+41% Bulwark Grasp
+37% Inevitable Drive
 
 
-Aria: Catalyst Burst
-Cesar: Phalanx Grasp
+Aria: Laser Reconfiguration
+Cesar: Bulwark Grasp
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  2 | 3
-Cesar is active
+Cesar gains a Threat Level (current level: 1)
+Priorities:  3 | 2
+Aria is active
+Aria moves:
+
+.C...A.
+....d..
+.m.....
+...t...
+
+Aria hits
+Cesar takes 2 damage (now at 4 life)
 Cesar misses
-Aria misses
 
 Beat 10
 -------
 
 Aria
 ----
-life: 12
-discard 1: Catalyst Burst
-discard 2: Laser Reconfiguration
-special action
+Life: 17
+Discard 1: Laser Reconfiguration
+Discard 2: Dimensional Dash
+Special action available
 
 Cesar
 -----
-life: 6
-discard 1: Phalanx Grasp
-discard 2: Fueled Strike
-special action
-Threat level: 0
+Life: 4
+Discard 1: Bulwark Grasp
+Discard 2: Unstoppable Strike
+Threat level: 1
 
 
-A.....C
-.d.....
-..m....
+.C...A.
+....d..
+.m.....
 ...t...
 
-Unbeatable strategy for Cesar: Bulwark Suppression: -0.89
-Unbeatable strategy for Cesar: Inevitable Suppression: -0.43
+Unbeatable strategy for Aria: Photovoltaic Drive: 1.27
+
 
 Aria:
-29% Photovoltaic Strike
-32% Photovoltaic Shot
-38% Photovoltaic Grasp
+0% Photovoltaic Shot
+13% Photovoltaic Drive
+18% Photovoltaic Burst
+7% Catalyst Drive
+62% Catalyst Burst
 
 Cesar:
-80% Bulwark Suppression
-20% Bulwark Drive
+4% Phalanx Drive
+5% Fueled Drive
+85% Fueled Dash
+3% Inevitable Suppression
+2% Inevitable Burst
 
 
-Aria: Photovoltaic Strike
-Cesar: Bulwark Suppression
+Aria: Catalyst Burst
+Cesar: Fueled Dash
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  4 | 0
-Aria is active
+Cesar gains a Threat Level (current level: 2)
+Priorities:  2 | 7
+Cesar is active
+Cesar gains a Threat Level (current level: 3)
+Aria moves:
+
+.C....A
+....d..
+.m.....
+...t...
+
+Cesar moves:
+
+..C...A
+....d..
+.m.....
+...t...
+
+Cesar moves:
+
+.....CA
+....d..
+.m.....
+...t...
+
 Aria misses
-Cesar misses
-Cesar moves:
-
-A..C...
-.d.....
-..m....
-...t...
-
-Cesar loses 1 life (now at 5)
-Cesar moves:
-
-AC.....
-.d.....
-..m....
-...t...
-
 
 Beat 11
 -------
 
 Aria
 ----
-life: 12
-discard 1: Photovoltaic Strike
-discard 2: Catalyst Burst
-special action
+Life: 17
+Discard 1: Catalyst Burst
+Discard 2: Laser Reconfiguration
+Special action available
 
 Cesar
 -----
-life: 5
-discard 1: Bulwark Suppression
-discard 2: Phalanx Grasp
-special action
-Threat level: 1
+Life: 4
+Discard 1: Fueled Dash
+Discard 2: Bulwark Grasp
+Threat level: 3
 
 
-AC.....
-.d.....
-..m....
+.....CA
+....d..
+.m.....
 ...t...
 
-Unbeatable strategy for Aria: Dimensional Dash: 1.63
+Unbeatable strategy for Cesar: Unstoppable Suppression: -0.64
+
 
 Aria:
-51% Ionic Shot
-7% Laser Reconfiguration
-42% Dimensional Dash
+53% Ionic Strike
+47% Ionic Shot
 
 Cesar:
-52% Unstoppable Shot
-9% Fueled Drive
-39% Inevitable Shot
+13% Phalanx Suppression
+59% Unstoppable Suppression
+13% Inevitable Suppression
+14% Inevitable Drive
 
 
-Aria: Dimensional Dash
-Cesar: Unstoppable Shot
+Aria: Ionic Strike
+Cesar: Phalanx Suppression
 
-Cesar gains a Threat Level (current level: 2)
-Priorities:  13 | -1
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  4 | 0
 Aria is active
-Aria moves:
+Aria moves Cesar:
 
-.C..A..
-.d.....
-..m....
+....C.A
+....d..
+.m.....
 ...t...
 
+Aria hits
+Cesar has 2 soak
+Cesar takes 2 damage (now at 2 life)
+Cesar is stunned
+Cesar loses 1 life (now at 1)
 Cesar moves:
 
-...CA..
-.d.....
-..m....
-...t...
-
-Cesar misses
-Aria moves:
-
-..AC...
-.d.....
-..m....
-...t...
-
-Cesar moves:
-
-.CA....
-.d.....
-..m....
+.....CA
+....d..
+.m.....
 ...t...
 
 
@@ -715,300 +715,119 @@ Beat 12
 
 Aria
 ----
-life: 12
-discard 1: Dimensional Dash
-discard 2: Photovoltaic Strike
-special action
+Life: 17
+Discard 1: Ionic Strike
+Discard 2: Catalyst Burst
+Special action available
 
 Cesar
 -----
-life: 5
-discard 1: Unstoppable Shot
-discard 2: Bulwark Suppression
-special action
-Threat level: 2
+Life: 1
+Discard 1: Phalanx Suppression
+Discard 2: Fueled Dash
+Threat level: 4
 
 
-.CA....
-.d.....
-..m....
+.....CA
+....d..
+.m.....
 ...t...
 
-Aria:
-9% Ionic Shot
-1% Ionic Burst
-38% Laser Reconfiguration
-32% Laser Burst
-20% Catalyst Reconfiguration
+Unbeatable strategy for Aria: Photovoltaic Grasp: 0.29
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 1.61
 
-Cesar:
-15% Phalanx Drive
-22% Fueled Strike
-45% Fueled Grasp
-17% Inevitable Drive
-2% Inevitable Grasp
-
-
-Aria: Ionic Shot
-Cesar: Fueled Grasp
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  3 | 3
-Clash!
 
 Aria:
-24% Ionic Reconfiguration
-76% Ionic Burst
+11% Photovoltaic Shot
+76% Photovoltaic Drive
+13% Dimensional Reconfiguration
 
 Cesar:
-24% Fueled Drive
-76% Fueled Burst
+15% Unstoppable Strike
+84% Bulwark Shot
+1% Inevitable Grasp
 
 
-Aria: Ionic Burst
-Cesar: Fueled Burst
+Aria: Photovoltaic Drive
+Cesar: Unstoppable Strike
 
-Cesar gains a Threat Level (current level: 3)
-Priorities:  2 | -1
+Cesar gains a Threat Level (current level: 0)
+Priorities:  5 | 1
 Aria is active
 Aria moves:
 
-.C..A..
-.d.....
-..m....
+....AC.
+....d..
+.m.....
 ...t...
 
-Aria moves Cesar:
-
-..C.A..
-.d.....
-..m....
-...t...
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
 Cesar moves:
 
-.C..A..
-.d.....
-..m....
+...CA..
+....d..
+.m.....
 ...t...
 
 Aria hits
-Cesar has 2 soak
-Cesar takes 1 damage (now at 4 life)
-Cesar is stunned
+Cesar takes 2 damage (now at 0 life)
+Cesar hits
+Aria takes 3 damage (now at 14 life)
+Aria is stunned
+Cesar loses 1 life (now at 1)
 
 Beat 13
 -------
 
 Aria
 ----
-life: 12
-discard 1: Ionic Burst
-discard 2: Dimensional Dash
-special action
+Life: 14
+Discard 1: Photovoltaic Drive
+Discard 2: Ionic Strike
+Special action available
 
 Cesar
 -----
-life: 4
-discard 1: Fueled Burst
-discard 2: Unstoppable Shot
-special action
-Threat level: 4
-
-
-.C..A..
-.d.....
-..m....
-...t...
-
-Aria:
-43% Photovoltaic Reconfiguration
-6% Photovoltaic Drive
-42% Laser Reconfiguration
-9% Laser Strike
-
-Cesar:
-9% Phalanx Dash
-34% Bulwark Suppression
-9% Bulwark Dash
-13% Inevitable Grasp
-10% Inevitable Dash
-26% Special Pulse
-
-
-Aria: Photovoltaic Reconfiguration
-Cesar: Bulwark Suppression
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  4 | -1
-Aria is active
-Aria moves:
-
-AC.....
-.d.....
-..m....
-...t...
-
-Aria hits
-Aria removes her Dampening droid:
-
-AC.....
-.......
-..m....
-...t...
-
-Aria gets +1 power
-Aria removes her Magnetron droid:
-
-AC.....
-.......
-.......
-...t...
-
-Aria gets +1 power
-Aria removes her Turret droid:
-
-AC.....
-.......
-.......
-.......
-
-Aria gets +1 power
-Cesar takes 4 damage (now at 0 life)
-Cesar is stunned
-Aria adds her Magnetron droid:
-
-AC.....
-.......
-m......
-.......
-
-
-Beat 14
--------
-
-Aria
-----
-life: 12
-discard 1: Photovoltaic Reconfiguration
-discard 2: Ionic Burst
-special action
-
-Cesar
------
-life: 1
-discard 1: Bulwark Suppression
-discard 2: Fueled Burst
-special action
+Life: 1
+Discard 1: Unstoppable Strike
+Discard 2: Phalanx Suppression
 Threat level: 0
 Defeat immunity used-up
 
 
-AC.....
-.......
-m......
-.......
+...CA..
+....d..
+.m.....
+...t...
 
-Unbeatable strategy for Aria: Laser Grasp: 1.77
-Unbeatable strategy for Aria: Dimensional Dash: 1.07
+Unbeatable strategy for Aria: Catalyst Dash: 0.28
+Unbeatable strategy for Aria: Dimensional Dash: 1.25
+
 
 Aria:
-9% Laser Shot
-19% Laser Drive
-17% Laser Grasp
-11% Catalyst Drive
-44% Dimensional Dash
+27% Laser Burst
+63% Dimensional Reconfiguration
+10% Dimensional Burst
 
 Cesar:
-18% Unstoppable Shot
-6% Unstoppable Dash
-20% Inevitable Grasp
-38% Inevitable Dash
-18% Special Level 4 Protocol
+55% Bulwark Dash
+20% Inevitable Drive
+25% Inevitable Burst
 
 
-Aria: Catalyst Drive
-Cesar: Special Level 4 Protocol
+Aria: Dimensional Reconfiguration
+Cesar: Inevitable Drive
 
 Cesar gains a Threat Level (current level: 1)
-Aria gets +4 priority
-Priorities:  9 | 10
-Cesar is active
-Cesar hits
-Aria takes 8 damage (now at 4 life)
-Aria is stunned
-
-Beat 15
--------
-
-Aria
-----
-life: 4
-discard 1: Catalyst Drive
-discard 2: Photovoltaic Reconfiguration
-special action
-
-Cesar
------
-life: 1
-discard 1: Bulwark Suppression
-discard 2: Fueled Burst
-Threat level: 1
-Defeat immunity used-up
-
-
-AC.....
-.......
-m......
-.......
-
-Unbeatable strategy for Aria: Ionic Dash: 6.00
-Unbeatable strategy for Aria: Laser Grasp: 6.00
-Unbeatable strategy for Aria: Laser Dash: 6.00
-Unbeatable strategy for Aria: Dimensional Dash: 6.00
-
-Aria:
-17% Ionic Strike
-15% Ionic Grasp
-17% Ionic Dash
-17% Laser Grasp
-17% Laser Dash
-17% Dimensional Dash
-
-Cesar:
-4% Phalanx Strike
-4% Phalanx Shot
-4% Phalanx Drive
-4% Phalanx Grasp
-16% Phalanx Dash
-3% Unstoppable Strike
-3% Unstoppable Shot
-4% Unstoppable Drive
-4% Unstoppable Grasp
-17% Unstoppable Dash
-4% Inevitable Strike
-4% Inevitable Shot
-4% Inevitable Drive
-9% Inevitable Grasp
-16% Inevitable Dash
-
-
-Aria: Laser Dash
-Cesar: Inevitable Strike
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  9 | 2
+Priorities:  7 | 4
 Aria is active
 Aria moves:
 
-.CA....
-.......
-m......
-.......
+A..C...
+....d..
+.m.....
+...t...
 
-Cesar misses
-Game goes to time
+Aria hits
+Cesar takes 1 damage (now at 0 life)
 ARIA WINS!
-total_time: 21
+total_time: 28

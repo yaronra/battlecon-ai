@@ -11,56 +11,64 @@ Beat 1
 
 Danny
 -----
-life: 20
-discard 1: Fallen Burst
-discard 2: Vicious Shot
-special action
+Life: 20
+Discard 1: Fallen Burst
+Discard 2: Vicious Shot
+Special action available
 
 Rukyuk
 ------
-life: 20
-discard 1: Crossfire Reload
-discard 2: Trick Shot
-special action
+Life: 20
+Discard 1: Crossfire Reload
+Discard 2: Trick Shot
+Special action available
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
 .D...R.
 
 
-Unbeatable strategy for Danny: Monstrous Hellgate: 1.04
-Unbeatable strategy for Danny: Shackled Hellgate: 0.74
-Unbeatable strategy for Danny: Sinner's Hellgate: 0.97
+Unbeatable strategy for Danny: Monstrous Hellgate: 0.74
+Unbeatable strategy for Danny: Shackled Hellgate: 0.44
+Unbeatable strategy for Danny: Sinner's Hellgate: 0.67
+
 
 Danny:
-43% Monstrous Hellgate
+28% Monstrous Hellgate
 43% Shackled Dash
-14% Sinner's Grasp
+11% Sinner's Grasp
+18% Sinner's Dash
 
 Rukyuk:
-86% Sniper Strike (AP)
-10% Sniper Grasp (AP)
-3% Sniper Grasp (Swift)
+84% Sniper Strike (AP)
+11% Sniper Grasp (AP)
+4% Sniper Grasp (Swift)
+2% Point Blank Burst (AP)
 
 
 Danny: Monstrous Hellgate
-Rukyuk: Sniper Strike (AP)
+Rukyuk: Sniper Grasp (AP)
 
 Rukyuk antes an AP token
-Priorities:  -1 | 5
+Priorities:  -1 | 7
 Rukyuk is active
 Rukyuk hits
-Danny takes 5 damage (now at 15 life)
+Rukyuk moves Danny:
+
+..D..R.
+
+
+Danny takes 3 damage (now at 17 life)
 Danny is stunned
 Rukyuk moves:
 
-.D..R..
+..D...R
 
 
 Danny adds monsters to the board:
 
-.D..R..
-...mmm.
+..D...R
+....mmm
 
 
 Beat 2
@@ -68,66 +76,55 @@ Beat 2
 
 Danny
 -----
-life: 15
-discard 1: Monstrous Hellgate
-discard 2: Fallen Burst
-special action
+Life: 17
+Discard 1: Monstrous Hellgate
+Discard 2: Fallen Burst
+Special action available
 
 Rukyuk
 ------
-life: 20
-discard 1: Sniper Strike
-discard 2: Crossfire Reload
-special action
+Life: 20
+Discard 1: Sniper Grasp
+Discard 2: Crossfire Reload
+Special action available
 pool: Explosive, Flash, Impact, Longshot, Swift
 
 
-.D..R..
-...mmm.
+..D...R
+....mmm
+
 
 Danny:
-10% Shackled Strike
-6% Shackled Drive
-0% Shackled Grasp
-68% Shackled Dash
-15% Vicious Drive
-0% Vicious Grasp
+15% Shackled Strike
+30% Shackled Drive
+38% Shackled Dash
+17% Vicious Strike
 
 Rukyuk:
-5% Point Blank Shot (Explosive)
-7% Point Blank Shot (Swift)
-15% Gunner Drive (Flash)
-8% Gunner Drive (Swift)
-49% Trick Shot (Longshot)
-16% Trick Burst (Explosive)
+37% Point Blank Shot (Longshot)
+32% Gunner Strike (Explosive)
+6% Gunner Drive (Longshot)
+25% Trick Shot (Explosive)
 
 
-Danny: Vicious Drive
-Rukyuk: Trick Shot (Longshot)
+Danny: Shackled Dash
+Rukyuk: Gunner Strike (Explosive)
 
-Rukyuk antes a Longshot token
-Priorities:  6 | -1
+Rukyuk antes an Explosive token
+Priorities:  8 | 3
 Danny is active
 Danny moves:
 
-...DR..
-...mmm.
+.....DR
+....mmm
 
-Danny hits
-Danny gets +1 power
-Rukyuk takes 3 damage (now at 17 life)
-Danny adds monsters to the board:
-
-...DR..
-..mmmm.
-
-Rukyuk hits
-Danny takes 3 damage (now at 12 life)
-Danny is stunned
+Rukyuk spends a Flash token
+Rukyuk gains -1/+1 range
+Rukyuk misses
 Rukyuk removes monsters:
 
-...DR..
-..m.mm.
+.....DR
+.....mm
 
 
 Beat 3
@@ -135,106 +132,123 @@ Beat 3
 
 Danny
 -----
-life: 12
-discard 1: Vicious Drive
-discard 2: Monstrous Hellgate
-special action
+Life: 17
+Discard 1: Shackled Dash
+Discard 2: Monstrous Hellgate
+Special action available
 
 Rukyuk
 ------
-life: 17
-discard 1: Trick Shot
-discard 2: Sniper Strike
-special action
-pool: Explosive, Flash, Impact, Swift
+Life: 20
+Discard 1: Gunner Strike
+Discard 2: Sniper Grasp
+Special action available
+pool: Impact, Longshot, Swift
 
-
-...DR..
-..m.mm.
-
-Danny:
-6% Fallen Burst
-17% Fallen Grasp
-5% Shackled Shot
-3% Shackled Grasp
-37% Sinner's Strike
-31% Sinner's Dash
-
-Rukyuk:
-10% Point Blank Drive (Flash)
-15% Point Blank Drive (Swift)
-14% Point Blank Grasp (Flash)
-39% Gunner Reload (Swift)
-0% Gunner Burst (Swift)
-22% Crossfire Reload (Swift)
-
-
-Danny: Sinner's Dash
-Rukyuk: Point Blank Drive (Swift)
-
-Rukyuk antes a Swift token
-Priorities:  9 | 6
-Danny is active
-Danny moves his monsters:
-
-...DR..
-.m.m..m
-
-Danny moves:
-
-....RD.
-.m.m..m
-
-Rukyuk moves:
 
 .....DR
-.m.m..m
+.....mm
 
-Rukyuk misses
+Unbeatable strategy for Rukyuk: Point Blank Drive (Swift): -0.84
+Unbeatable strategy for Rukyuk: Trick Reload: -0.52
+Unbeatable strategy for Rukyuk: Trick Reload (Impact): -0.52
+Unbeatable strategy for Rukyuk: Trick Reload (Longshot): -0.52
+Unbeatable strategy for Rukyuk: Trick Reload (Swift): -0.45
+
+
+Danny:
+11% Fallen Drive
+17% Fallen Burst
+52% Sinner's Strike
+6% Vicious Burst
+15% Vicious Grasp
+
+Rukyuk:
+18% Point Blank Reload (Swift)
+6% Point Blank Shot (Impact)
+39% Point Blank Drive (Swift)
+16% Crossfire Reload (Swift)
+21% Trick Reload (Longshot)
+
+
+Danny: Sinner's Strike
+Rukyuk: Point Blank Shot (Impact)
+
+Rukyuk antes an Impact token
+Priorities:  3 | 2
+Danny is active
+Danny hits
+Rukyuk takes 3 damage (now at 17 life)
+Danny moves his monsters:
+
+.....DR
+....m.m
+
+Rukyuk hits
+Rukyuk moves Danny:
+
+...D..R
+....m.m
+
+Danny takes 3 damage (now at 14 life)
+Rukyuk moves Danny:
+
+.D....R
+....m.m
+
+Rukyuk removes monsters:
+
+.D....R
+......m
+
 
 Beat 4
 -------
 
 Danny
 -----
-life: 12
-discard 1: Sinner's Dash
-discard 2: Vicious Drive
-special action
+Life: 14
+Discard 1: Sinner's Strike
+Discard 2: Shackled Dash
+Special action available
 
 Rukyuk
 ------
-life: 17
-discard 1: Point Blank Drive
-discard 2: Trick Shot
-special action
-pool: Explosive, Flash, Impact
+Life: 17
+Discard 1: Point Blank Shot
+Discard 2: Gunner Strike
+Special action available
+pool: Longshot, Swift
 
 
-.....DR
-.m.m..m
+.D....R
+......m
 
-Unbeatable strategy for Rukyuk: Sniper Reload: -0.74
-Unbeatable strategy for Rukyuk: Sniper Reload (Explosive): -0.74
-Unbeatable strategy for Rukyuk: Sniper Reload (Flash): -0.74
-Unbeatable strategy for Rukyuk: Sniper Reload (Impact): -0.74
 
 Danny:
-77% Shackled Hellgate
-23% Special Pulse
+16% Monstrous Shot
+2% Monstrous Grasp
+50% Vicious Hellgate
+26% Vicious Drive
+1% Vicious Burst
+5% Vicious Grasp
 
 Rukyuk:
-33% Sniper Reload
-67% Special Pulse
+6% Sniper Reload (Swift)
+1% Sniper Drive (Longshot)
+2% Sniper Drive (Swift)
+7% Crossfire Reload (Longshot)
+5% Crossfire Burst (Swift)
+79% Special Pulse
 
 
-Danny: Shackled Hellgate
+Danny: Vicious Hellgate
 Rukyuk: Special Pulse
 
 Pulse:
 
 R.....D
-.m.m..m
+......m
 
 
 Beat 4
@@ -242,52 +256,41 @@ Beat 4
 
 Danny
 -----
-life: 12
-discard 1: Shackled Hellgate
-discard 2: Sinner's Dash
-special action
+Life: 14
+Discard 1: Vicious Hellgate
+Discard 2: Sinner's Strike
+Special action available
 
 Rukyuk
 ------
-life: 17
-discard 1: Point Blank Drive
-discard 2: Trick Shot
-pool: Explosive, Flash, Impact
+Life: 17
+Discard 1: Point Blank Shot
+Discard 2: Gunner Strike
+pool: Longshot, Swift
 
 
 R.....D
-.m.m..m
+......m
 
-Unbeatable strategy for Rukyuk: Sniper Strike (Explosive): -2.63
-Unbeatable strategy for Rukyuk: Sniper Strike (Flash): -0.57
-Unbeatable strategy for Rukyuk: Sniper Strike (Impact): -0.47
-Unbeatable strategy for Rukyuk: Sniper Grasp (Explosive): -1.07
-Unbeatable strategy for Rukyuk: Gunner Strike (Explosive): -0.33
-Unbeatable strategy for Rukyuk: Crossfire Burst (Explosive): -3.12
-Unbeatable strategy for Rukyuk: Crossfire Burst (Flash): -0.96
-Unbeatable strategy for Rukyuk: Crossfire Burst (Impact): -1.85
 
 Danny:
-3% Monstrous Shot
-5% Vicious Shot
-6% Vicious Drive
-86% Special Pulse
+16% Shackled Drive
+26% Shackled Dash
+57% Special Pulse
 
 Rukyuk:
-24% Sniper Reload
-27% Sniper Strike (Explosive)
-34% Sniper Burst
-14% Sniper Burst (Flash)
+92% Sniper Reload
+3% Sniper Drive (Swift)
+5% Sniper Burst
 
 
 Danny: Special Pulse
-Rukyuk: Sniper Burst (Flash)
+Rukyuk: Sniper Reload
 
-Rukyuk antes a Flash token
 Pulse:
 
-.RD....
-.m.m..m
+.....DR
+......m
 
 
 Beat 4
@@ -295,59 +298,76 @@ Beat 4
 
 Danny
 -----
-life: 12
-discard 1: Shackled Hellgate
-discard 2: Sinner's Dash
+Life: 14
+Discard 1: Vicious Hellgate
+Discard 2: Sinner's Strike
 
 Rukyuk
 ------
-life: 17
-discard 1: Sniper Burst
-discard 2: Point Blank Drive
-pool: Explosive, Impact
+Life: 17
+Discard 1: Sniper Reload
+Discard 2: Point Blank Shot
+pool: Longshot, Swift
 
 
-.RD....
-.m.m..m
+.....DR
+......m
 
-Unbeatable strategy for Rukyuk: Gunner Dash: -0.36
+Unbeatable strategy for Rukyuk: Gunner Dash: -0.99
+
 
 Danny:
-41% Monstrous Shot
-29% Fallen Shot
-30% Fallen Drive
+30% Monstrous Shot
+17% Monstrous Grasp
+4% Fallen Drive
+7% Fallen Grasp
+22% Fallen Dash
+20% Shackled Burst
 
 Rukyuk:
-81% Gunner Dash
-19% Crossfire Reload
-1% Trick Reload
+19% Gunner Drive (Longshot)
+20% Gunner Drive (Swift)
+38% Gunner Dash
+2% Crossfire Strike (Longshot)
+17% Crossfire Drive (Longshot)
+4% Crossfire Dash
 
 
-Danny: Fallen Drive
-Rukyuk: Gunner Dash
+Danny: Monstrous Shot
+Rukyuk: Gunner Drive (Longshot)
 
-Priorities:  4 | 9
+Rukyuk antes a Longshot token
+Priorities:  1 | 4
 Rukyuk is active
 Rukyuk moves:
 
-..D.R..
-.m.m..m
+...R.D.
+......m
+
+Rukyuk hits
+Danny takes 3 damage (now at 11 life)
+Rukyuk removes monsters:
+
+...R.D.
+
 
 Rukyuk moves:
 
-..D...R
-.m.m..m
+..R..D.
 
-Danny moves:
 
-....D.R
-.m.m..m
-
-Danny misses
+Danny hits
+Rukyuk takes 4 damage (now at 13 life)
+Rukyuk is stunned
 Danny adds monsters to the board:
 
-....D.R
-.m.m.mm
+..R..D.
+.m.....
+
+Danny adds monsters to the board:
+
+..R..D.
+.mm....
 
 
 Beat 5
@@ -355,156 +375,119 @@ Beat 5
 
 Danny
 -----
-life: 12
-discard 1: Fallen Drive
-discard 2: Shackled Hellgate
+Life: 11
+Discard 1: Monstrous Shot
+Discard 2: Vicious Hellgate
 
 Rukyuk
 ------
-life: 17
-discard 1: Gunner Dash
-discard 2: Sniper Burst
-pool: Explosive, Impact
+Life: 13
+Discard 1: Gunner Drive
+Discard 2: Sniper Reload
+pool: Swift
 
 
-....D.R
-.m.m.mm
+..R..D.
+.mm....
 
-Unbeatable strategy for Rukyuk: Point Blank Shot (Explosive): -1.57
 
 Danny:
-34% Monstrous Strike
-8% Monstrous Burst
-42% Monstrous Grasp
-16% Sinner's Strike
+35% Shackled Strike
+9% Shackled Drive
+8% Sinner's Drive
+28% Sinner's Grasp
+21% Sinner's Dash
 
 Rukyuk:
-25% Point Blank Reload (Explosive)
-12% Point Blank Strike (Explosive)
-60% Point Blank Shot (Explosive)
-3% Point Blank Grasp (Explosive)
+7% Point Blank Shot (Swift)
+29% Crossfire Strike (Swift)
+5% Crossfire Shot
+46% Crossfire Burst
+13% Crossfire Grasp (Swift)
 
 
-Danny: Monstrous Strike
-Rukyuk: Point Blank Shot (Explosive)
+Danny: Sinner's Grasp
+Rukyuk: Crossfire Strike (Swift)
 
-Rukyuk antes an Explosive token
-Priorities:  2 | 2
-Clash!
-
-Danny:
-27% Monstrous Burst
-40% Monstrous Grasp
-33% Monstrous Dash
-
-Rukyuk:
-0% Point Blank Reload (Explosive)
-57% Point Blank Drive (Explosive)
-43% Point Blank Grasp (Explosive)
-
-
-Danny: Monstrous Grasp
-Rukyuk: Point Blank Drive (Explosive)
-
-Rukyuk antes an Explosive token
-Priorities:  4 | 4
-Clash!
-
-Danny:
-100% Monstrous Burst
-
-Rukyuk:
-100% Point Blank Reload (Explosive)
-
-
-Danny: Monstrous Burst
-Rukyuk: Point Blank Reload (Explosive)
-
-Rukyuk antes an Explosive token
-Priorities:  0 | 4
-Rukyuk is active
-Danny moves:
-
-..D...R
-.m.m.mm
-
-Rukyuk moves:
-
-..D..R.
-.m.m.mm
-
+Rukyuk antes a Swift token
+Priorities:  5 | 3
+Danny is active
 Danny hits
-Rukyuk takes 4 damage (now at 13 life)
-Rukyuk is stunned
+Danny moves Rukyuk:
+
+...R.D.
+.mm....
+
+Rukyuk has 2 soak
+Rukyuk takes 0 damage (now at 13 life)
 Danny adds monsters to the board:
 
-..D..R.
-mm.m.mm
+...R.D.
+.mmm...
 
-Danny adds monsters to the board:
+Danny moves his monsters:
 
-..D..R.
-mm.mmmm
+...R.D.
+..mmm..
 
+Rukyuk misses
 
 Beat 6
 -------
 
 Danny
 -----
-life: 12
-discard 1: Monstrous Burst
-discard 2: Fallen Drive
+Life: 11
+Discard 1: Sinner's Grasp
+Discard 2: Monstrous Shot
 
 Rukyuk
 ------
-life: 13
-discard 1: Point Blank Reload
-discard 2: Gunner Dash
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+Life: 13
+Discard 1: Crossfire Strike
+Discard 2: Gunner Drive
+pool: 
 
 
-..D..R.
-mm.mmmm
+...R.D.
+..mmm..
+
+Unbeatable strategy for Rukyuk: Sniper Reload: -1.98
+Unbeatable strategy for Rukyuk: Trick Reload: -1.74
+
 
 Danny:
-2% Shackled Shot
-22% Sinner's Hellgate
-56% Vicious Hellgate
-20% Vicious Grasp
+7% Fallen Hellgate
+9% Fallen Burst
+67% Shackled Hellgate
+18% Vicious Drive
 
 Rukyuk:
-11% Sniper Strike (Longshot)
-67% Sniper Shot
-7% Crossfire Strike (AP)
-16% Crossfire Strike (Longshot)
+33% Sniper Reload
+10% Point Blank Reload
+55% Trick Reload
+2% Trick Shot
 
 
-Danny: Vicious Hellgate
-Rukyuk: Sniper Shot
+Danny: Shackled Hellgate
+Rukyuk: Trick Reload
 
-Priorities:  5 | 4
-Danny is active
-Danny moves:
-
-....DR.
-mm.mmmm
-
-Rukyuk misses
-Rukyuk removes monsters:
-
-....DR.
-.m.mmmm
-
+Priorities:  -1 | 1
+Rukyuk is active
 Rukyuk moves:
 
-.R..D..
-.m.mmmm
+.....DR
+..mmm..
+
+Danny moves:
+
+....D.R
+..mmm..
 
 Danny adds monsters to the board:
 
-.R..D..
-mmmmmmm
+....D.R
+m.mmmmm
 
 
 Beat 7
@@ -512,54 +495,56 @@ Beat 7
 
 Danny
 -----
-life: 12
-discard 1: Vicious Hellgate
-discard 2: Monstrous Burst
+Life: 11
+Discard 1: Shackled Hellgate
+Discard 2: Sinner's Grasp
 
 Rukyuk
 ------
-life: 13
-discard 1: Sniper Shot
-discard 2: Point Blank Reload
+Life: 13
+Discard 1: Trick Reload
+Discard 2: Crossfire Strike
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-.R..D..
-mmmmmmm
+....D.R
+m.mmmmm
 
-Unbeatable strategy for Rukyuk: Gunner Strike (Swift): -0.17
-Unbeatable strategy for Rukyuk: Gunner Grasp (Explosive): -0.37
-Unbeatable strategy for Rukyuk: Gunner Grasp (Flash): -0.67
+Unbeatable strategy for Rukyuk: Sniper Dash: -0.09
+
 
 Danny:
-5% Fallen Strike
-11% Fallen Grasp
-74% Shackled Dash
-10% Sinner's Dash
+21% Monstrous Strike
+1% Monstrous Shot
+31% Fallen Drive
+47% Vicious Strike
 
 Rukyuk:
-32% Gunner Drive (Swift)
-45% Gunner Grasp (Flash)
-22% Crossfire Burst (AP)
-1% Trick Burst (Explosive)
+45% Sniper Dash
+2% Point Blank Shot (Explosive)
+32% Point Blank Shot (Swift)
+21% Point Blank Grasp (Flash)
 
 
-Danny: Shackled Dash
-Rukyuk: Gunner Drive (Swift)
+Danny: Vicious Strike
+Rukyuk: Point Blank Shot (Swift)
 
 Rukyuk antes a Swift token
-Priorities:  8 | 6
+Priorities:  9 | 4
 Danny is active
-Danny moves:
+Danny hits
+Rukyuk takes 3 damage (now at 10 life)
+Rukyuk hits
+Danny takes 3 damage (now at 8 life)
+Rukyuk moves Danny:
 
-.RD....
-mmmmmmm
+..D...R
+m.mmmmm
 
-Rukyuk misses
 Rukyuk removes monsters:
 
-.RD....
-mmmm.mm
+..D...R
+m..mmmm
 
 
 Beat 8
@@ -567,140 +552,129 @@ Beat 8
 
 Danny
 -----
-life: 12
-discard 1: Shackled Dash
-discard 2: Vicious Hellgate
+Life: 8
+Discard 1: Vicious Strike
+Discard 2: Shackled Hellgate
 
 Rukyuk
 ------
-life: 13
-discard 1: Gunner Drive
-discard 2: Sniper Shot
+Life: 10
+Discard 1: Point Blank Shot
+Discard 2: Trick Reload
 pool: AP, Explosive, Flash, Impact, Longshot
 
 
-.RD....
-mmmm.mm
+..D...R
+m..mmmm
+
+Unbeatable strategy for Rukyuk: Sniper Drive (Longshot): -0.22
+
 
 Danny:
-6% Monstrous Shot
-23% Monstrous Drive
-25% Monstrous Burst
-3% Fallen Strike
-1% Fallen Burst
-42% Fallen Grasp
+17% Monstrous Shot
+12% Monstrous Dash
+17% Fallen Grasp
+54% Sinner's Dash
 
 Rukyuk:
-3% Point Blank Grasp (Explosive)
-5% Point Blank Grasp (Flash)
-6% Crossfire Strike (Longshot)
-0% Crossfire Grasp (Longshot)
-66% Crossfire Dash
-19% Trick Strike (Longshot)
+28% Sniper Drive (Longshot)
+27% Sniper Grasp (Explosive)
+43% Gunner Drive (Longshot)
+1% Gunner Dash (Explosive)
 
 
-Danny: Monstrous Burst
-Rukyuk: Crossfire Dash
+Danny: Sinner's Dash
+Rukyuk: Sniper Grasp (Explosive)
 
-Priorities:  0 | 7
-Rukyuk is active
+Rukyuk antes an Explosive token
+Priorities:  9 | 7
+Danny is active
+Danny moves his monsters:
+
+..D...R
+m.m.mmm
+
 Danny moves:
 
-.R..D..
-mmmm.mm
+...D..R
+m.m.mmm
+
+Rukyuk misses
+Rukyuk removes monsters:
+
+...D..R
+..m.mmm
 
 Rukyuk moves:
 
-....DR.
-mmmm.mm
+...D.R.
+..m.mmm
 
-Danny misses
 
 Beat 9
 -------
 
 Danny
 -----
-life: 12
-discard 1: Monstrous Burst
-discard 2: Shackled Dash
+Life: 8
+Discard 1: Sinner's Dash
+Discard 2: Vicious Strike
 
 Rukyuk
 ------
-life: 13
-discard 1: Crossfire Dash
-discard 2: Gunner Drive
-pool: AP, Explosive, Flash, Impact, Longshot
+Life: 10
+Discard 1: Sniper Grasp
+Discard 2: Point Blank Shot
+pool: AP, Flash, Impact, Longshot
 
 
-....DR.
-mmmm.mm
+...D.R.
+..m.mmm
+
 
 Danny:
-10% Fallen Hellgate
-20% Fallen Strike
-21% Fallen Drive
-48% Vicious Drive
+14% Monstrous Shot
+13% Monstrous Drive
+22% Monstrous Grasp
+23% Fallen Drive
+27% Shackled Hellgate
+0% Shackled Shot
 
 Rukyuk:
-15% Point Blank Strike (Explosive)
-7% Point Blank Grasp (Explosive)
-4% Point Blank Grasp (Flash)
-74% Trick Strike (Longshot)
+22% Gunner Strike (AP)
+0% Gunner Drive (AP)
+30% Gunner Dash
+3% Crossfire Reload
+3% Crossfire Reload (AP)
+3% Crossfire Reload (Flash)
+3% Crossfire Reload (Impact)
+3% Crossfire Reload (Longshot)
+32% Trick Reload (AP)
+3% Trick Reload (Longshot)
 
 
-Danny: Fallen Strike
-Rukyuk: Point Blank Strike (Explosive)
+Danny: Monstrous Grasp
+Rukyuk: Trick Reload (AP)
 
-Rukyuk antes an Explosive token
-Priorities:  3 | 3
-Clash!
+Rukyuk antes an AP token
+Priorities:  4 | 1
+Danny is active
+Danny hits
+Danny moves Rukyuk:
 
-Danny:
-100% Fallen Grasp
+...DR..
+..m.mmm
 
-Rukyuk:
-100% Point Blank Grasp (Explosive)
-
-
-Danny: Fallen Grasp
-Rukyuk: Point Blank Grasp (Explosive)
-
-Rukyuk antes an Explosive token
-Priorities:  5 | 5
-Clash!
-
-Danny:
-62% Fallen Hellgate
-8% Fallen Shot
-30% Fallen Drive
-
-Rukyuk:
-67% Point Blank Reload (Explosive)
-25% Point Blank Shot (Explosive)
-8% Point Blank Burst (Explosive)
-
-
-Danny: Fallen Hellgate
-Rukyuk: Point Blank Reload (Explosive)
-
-Rukyuk antes an Explosive token
-Priorities:  0 | 4
-Rukyuk is active
+Rukyuk takes 3 damage (now at 7 life)
 Rukyuk moves:
 
-.R..D..
-mmmm.mm
-
-Danny moves:
-
-.RD....
-mmmm.mm
+R..D...
+..m.mmm
 
 Danny adds monsters to the board:
 
-.RD....
-mmmmmmm
+R..D...
+m.m.mmm
 
 
 Beat 10
@@ -708,44 +682,68 @@ Beat 10
 
 Danny
 -----
-life: 12
-discard 1: Fallen Hellgate
-discard 2: Monstrous Burst
+Life: 8
+Discard 1: Monstrous Grasp
+Discard 2: Sinner's Dash
 
 Rukyuk
 ------
-life: 13
-discard 1: Point Blank Reload
-discard 2: Crossfire Dash
+Life: 7
+Discard 1: Trick Reload
+Discard 2: Sniper Grasp
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-.RD....
-mmmmmmm
+R..D...
+m.m.mmm
+
 
 Danny:
-50% Shackled Strike
-50% Vicious Drive
+14% Fallen Drive
+8% Shackled Hellgate
+68% Vicious Hellgate
+7% Vicious Strike
+2% Vicious Drive
 
 Rukyuk:
-53% Sniper Burst
-47% Trick Strike (Longshot)
+13% Point Blank Strike (Swift)
+3% Point Blank Shot (AP)
+19% Point Blank Drive (AP)
+38% Gunner Strike (Swift)
+27% Gunner Drive (AP)
 
 
-Danny: Shackled Strike
-Rukyuk: Trick Strike (Longshot)
+Danny: Vicious Hellgate
+Rukyuk: Gunner Strike (Swift)
 
-Rukyuk antes a Longshot token
-Priorities:  2 | 0
+Rukyuk antes a Swift token
+Priorities:  5 | 5
+Clash!
+
+
+Danny: Vicious Drive
+Rukyuk: Gunner Shot (Swift)
+
+Rukyuk antes a Swift token
+Priorities:  9 | 4
 Danny is active
+Danny moves:
+
+RD.....
+m.m.mmm
+
 Danny hits
-Rukyuk takes 4 damage (now at 9 life)
-Rukyuk hits
-Danny takes 4 damage (now at 8 life)
+Rukyuk takes 2 damage (now at 5 life)
+Rukyuk misses
 Rukyuk removes monsters:
 
-.RD....
-.mmmmmm
+RD.....
+m.m.mm.
+
+Rukyuk moves:
+
+.D.R...
+m.m.mm.
 
 
 Beat 11
@@ -753,138 +751,122 @@ Beat 11
 
 Danny
 -----
-life: 8
-discard 1: Shackled Strike
-discard 2: Fallen Hellgate
+Life: 8
+Discard 1: Vicious Drive
+Discard 2: Monstrous Grasp
 
 Rukyuk
 ------
-life: 9
-discard 1: Trick Strike
-discard 2: Point Blank Reload
-pool: AP, Explosive, Flash, Impact, Swift
+Life: 5
+Discard 1: Gunner Shot
+Discard 2: Trick Reload
+pool: AP, Explosive, Flash, Impact, Longshot
 
 
-.RD....
-.mmmmmm
+.D.R...
+m.m.mm.
 
-Unbeatable strategy for Rukyuk: Sniper Dash: -2.17
-Unbeatable strategy for Rukyuk: Sniper Dash (AP): -1.67
-Unbeatable strategy for Rukyuk: Sniper Dash (Explosive): -1.27
-Unbeatable strategy for Rukyuk: Sniper Dash (Flash): -1.57
-Unbeatable strategy for Rukyuk: Sniper Dash (Impact): -1.47
-Unbeatable strategy for Rukyuk: Sniper Dash (Swift): -1.07
-Unbeatable strategy for Rukyuk: Gunner Dash (Swift): -0.55
 
 Danny:
-11% Monstrous Shot
-16% Monstrous Drive
-16% Monstrous Burst
-1% Sinner's Burst
-18% Sinner's Grasp
-0% Vicious Drive
-37% Vicious Grasp
+4% Fallen Strike
+3% Shackled Strike
+10% Shackled Shot
+3% Shackled Burst
+20% Sinner's Hellgate
+4% Sinner's Strike
+8% Sinner's Burst
+49% Sinner's Dash
 
 Rukyuk:
-6% Sniper Burst
-44% Sniper Dash
-29% Sniper Dash (Swift)
-3% Gunner Drive (Explosive)
-6% Gunner Drive (Swift)
-9% Gunner Burst (Explosive)
-4% Crossfire Burst
+17% Sniper Strike
+12% Sniper Strike (Longshot)
+30% Sniper Drive
+18% Point Blank Strike (AP)
+6% Point Blank Drive (AP)
+2% Point Blank Burst (Longshot)
+13% Crossfire Strike (Longshot)
+1% Crossfire Grasp (Longshot)
 
 
-Danny: Vicious Grasp
-Rukyuk: Sniper Dash (Swift)
+Danny: Sinner's Dash
+Rukyuk: Point Blank Strike (AP)
 
-Rukyuk antes a Swift token
-Priorities:  11 | 13
-Rukyuk is active
-Rukyuk moves:
+Rukyuk antes an AP token
+Priorities:  9 | 3
+Danny is active
+Danny moves his monsters:
 
-..DR...
-.mmmmmm
+.D.R...
+.mmm..m
 
-Rukyuk moves:
+Danny moves:
 
-..D...R
-.mmmmmm
+...RD..
+.mmm..m
 
-Danny misses
+Rukyuk misses
 
 Beat 12
 -------
 
 Danny
 -----
-life: 8
-discard 1: Vicious Grasp
-discard 2: Shackled Strike
+Life: 8
+Discard 1: Sinner's Dash
+Discard 2: Vicious Drive
 
 Rukyuk
 ------
-life: 9
-discard 1: Sniper Dash
-discard 2: Trick Strike
-pool: AP, Explosive, Flash, Impact
+Life: 5
+Discard 1: Point Blank Strike
+Discard 2: Gunner Shot
+pool: Explosive, Flash, Impact, Longshot
 
 
-..D...R
-.mmmmmm
+...RD..
+.mmm..m
 
-Unbeatable strategy for Rukyuk: Gunner Drive (Explosive): -0.57
+Unbeatable strategy for Danny: Fallen Hellgate: 0.20
+
 
 Danny:
-24% Monstrous Hellgate
-9% Monstrous Shot
-20% Fallen Drive
-13% Sinner's Drive
-35% Sinner's Dash
+90% Monstrous Hellgate
+10% Fallen Hellgate
 
 Rukyuk:
-36% Gunner Reload (AP)
-22% Gunner Drive (AP)
-32% Gunner Drive (Explosive)
-9% Gunner Grasp (Explosive)
-0% Crossfire Reload
-0% Crossfire Reload (AP)
-0% Crossfire Reload (Explosive)
-0% Crossfire Reload (Flash)
-0% Crossfire Reload (Impact)
+19% Sniper Reload
+19% Sniper Reload (Explosive)
+19% Sniper Reload (Flash)
+19% Sniper Reload (Impact)
+19% Sniper Reload (Longshot)
+6% Crossfire Burst
 
 
-Danny: Sinner's Dash
-Rukyuk: Gunner Drive (Explosive)
+Danny: Monstrous Hellgate
+Rukyuk: Sniper Reload (Flash)
 
-Rukyuk antes an Explosive token
-Priorities:  9 | 4
-Danny is active
-Danny moves his monsters:
+Rukyuk antes a Flash token
+Priorities:  -1 | 6
+Rukyuk is active
+Rukyuk moves:
 
-..D...R
-mmm.mmm
+R...D..
+.mmm..m
+
+Rukyuk moves:
+
+....DR.
+.mmm..m
 
 Danny moves:
 
-....D.R
-mmm.mmm
+.....RD
+.mmm..m
 
-Rukyuk moves:
+Danny adds monsters to the board:
 
-...RD..
-mmm.mmm
-
-Rukyuk misses
-Rukyuk removes monsters:
-
-...RD..
-.mm.mmm
-
-Rukyuk moves:
-
-.R..D..
-.mm.mmm
+.....RD
+mmmmmmm
 
 
 Beat 13
@@ -892,116 +874,128 @@ Beat 13
 
 Danny
 -----
-life: 8
-discard 1: Sinner's Dash
-discard 2: Vicious Grasp
+Life: 8
+Discard 1: Monstrous Hellgate
+Discard 2: Sinner's Dash
 
 Rukyuk
 ------
-life: 9
-discard 1: Gunner Drive
-discard 2: Sniper Dash
-pool: AP, Flash, Impact
+Life: 5
+Discard 1: Sniper Reload
+Discard 2: Point Blank Strike
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-.R..D..
-.mm.mmm
+.....RD
+mmmmmmm
+
 
 Danny:
-4% Monstrous Drive
-53% Fallen Drive
-43% Shackled Drive
+72% Fallen Drive
+28% Vicious Grasp
 
 Rukyuk:
-39% Point Blank Reload (AP)
-11% Crossfire Reload
-32% Crossfire Reload (AP)
-7% Crossfire Reload (Flash)
-7% Crossfire Reload (Impact)
-4% Crossfire Grasp (AP)
+1% Gunner Grasp (Longshot)
+99% Crossfire Dash
 
 
-Danny: Shackled Drive
-Rukyuk: Crossfire Reload (Flash)
+Danny: Vicious Grasp
+Rukyuk: Crossfire Dash
 
-Rukyuk antes a Flash token
-Priorities:  3 | 2
+Priorities:  7 | 7
+Clash!
+
+
+Danny: Vicious Drive
+Rukyuk: Crossfire Burst
+
+Priorities:  6 | -1
 Danny is active
+Rukyuk moves:
+
+...R..D
+mmmmmmm
+
 Danny moves:
 
-.RD....
-.mm.mmm
+...RD..
+mmmmmmm
 
 Danny hits
+Danny gets +3 power
 Rukyuk has 2 soak
-Rukyuk takes 1 damage (now at 8 life)
+Rukyuk takes 3 damage (now at 2 life)
 Rukyuk is stunned
-Danny adds monsters to the board:
-
-.RD....
-mmm.mmm
-
 
 Beat 14
 -------
 
 Danny
 -----
-life: 8
-discard 1: Shackled Drive
-discard 2: Sinner's Dash
+Life: 8
+Discard 1: Vicious Drive
+Discard 2: Monstrous Hellgate
 
 Rukyuk
 ------
-life: 8
-discard 1: Crossfire Reload
-discard 2: Gunner Drive
+Life: 2
+Discard 1: Crossfire Burst
+Discard 2: Sniper Reload
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-.RD....
-mmm.mmm
+...RD..
+mmmmmmm
+
 
 Danny:
-24% Monstrous Hellgate
-2% Monstrous Strike
-6% Monstrous Burst
-20% Fallen Hellgate
-6% Fallen Strike
-43% Fallen Grasp
+13% Fallen Strike
+25% Fallen Grasp
+24% Shackled Strike
+32% Shackled Burst
+1% Shackled Grasp
+5% Sinner's Burst
 
 Rukyuk:
-70% Sniper Dash
-13% Point Blank Strike (AP)
-1% Point Blank Shot (AP)
-2% Point Blank Burst (AP)
-3% Point Blank Grasp (AP)
-11% Point Blank Grasp (Swift)
+50% Point Blank Grasp (Flash)
+12% Gunner Strike (Explosive)
+9% Gunner Shot (Longshot)
+4% Gunner Drive (Swift)
+18% Gunner Grasp (Explosive)
+7% Gunner Grasp (Longshot)
 
 
 Danny: Fallen Grasp
-Rukyuk: Point Blank Grasp (Swift)
+Rukyuk: Point Blank Grasp (Flash)
 
-Rukyuk antes a Swift token
-Priorities:  5 | 7
+Rukyuk antes a Flash token
+Priorities:  5 | 5
+Clash!
+
+
+Danny: Fallen Burst
+Rukyuk: Point Blank Drive (Flash)
+
+Rukyuk antes a Flash token
+Priorities:  1 | 4
 Rukyuk is active
+Danny moves:
+
+...R..D
+mmmmmmm
+
+Rukyuk moves:
+
+....R.D
+mmmmmmm
+
 Rukyuk hits
-Rukyuk moves Danny:
-
-.R..D..
-mmm.mmm
-
-Rukyuk moves Danny:
-
-.R...D.
-mmm.mmm
-
-Danny takes 2 damage (now at 6 life)
+Danny takes 3 damage (now at 5 life)
 Danny is stunned
 Rukyuk removes monsters:
 
-.R...D.
-.mm.mmm
+....R.D
+mmmmmm.
 
 
 Beat 15
@@ -1009,112 +1003,140 @@ Beat 15
 
 Danny
 -----
-life: 6
-discard 1: Fallen Grasp
-discard 2: Shackled Drive
+Life: 5
+Discard 1: Fallen Burst
+Discard 2: Vicious Drive
 
 Rukyuk
 ------
-life: 8
-discard 1: Point Blank Grasp
-discard 2: Crossfire Reload
-pool: AP, Explosive, Flash, Impact, Longshot
+Life: 2
+Discard 1: Point Blank Drive
+Discard 2: Crossfire Burst
+pool: AP, Explosive, Impact, Longshot, Swift
 
 
-.R...D.
-.mm.mmm
+....R.D
+mmmmmm.
 
-Unbeatable strategy for Rukyuk: Sniper Strike (AP): -11.00
-Unbeatable strategy for Rukyuk: Sniper Strike (Explosive): -11.00
-Unbeatable strategy for Rukyuk: Sniper Strike (Flash): -11.00
-Unbeatable strategy for Rukyuk: Sniper Strike (Impact): -11.00
-Unbeatable strategy for Rukyuk: Sniper Strike (Longshot): -11.00
-Unbeatable strategy for Rukyuk: Sniper Burst (AP): -11.00
-Unbeatable strategy for Rukyuk: Sniper Burst (Explosive): -11.00
-Unbeatable strategy for Rukyuk: Sniper Burst (Flash): -11.00
-Unbeatable strategy for Rukyuk: Sniper Burst (Impact): -11.00
-Unbeatable strategy for Rukyuk: Sniper Burst (Longshot): -11.00
-Unbeatable strategy for Rukyuk: Gunner Strike (AP): -11.00
-Unbeatable strategy for Rukyuk: Gunner Strike (Explosive): -11.00
-Unbeatable strategy for Rukyuk: Gunner Strike (Flash): -11.00
-Unbeatable strategy for Rukyuk: Gunner Strike (Impact): -11.00
-Unbeatable strategy for Rukyuk: Gunner Strike (Longshot): -11.00
-Unbeatable strategy for Rukyuk: Trick Shot (Explosive): -11.00
-Unbeatable strategy for Rukyuk: Trick Drive (Explosive): -11.00
-Unbeatable strategy for Rukyuk: Trick Burst (Longshot): -11.00
 
 Danny:
-22% Monstrous Hellgate
-0% Monstrous Strike
-0% Monstrous Shot
-0% Monstrous Burst
-24% Monstrous Dash
-1% Sinner's Hellgate
-0% Sinner's Strike
-0% Sinner's Shot
-1% Sinner's Burst
-3% Sinner's Dash
-24% Vicious Hellgate
-0% Vicious Strike
-0% Vicious Shot
-0% Vicious Burst
-24% Vicious Dash
+34% Monstrous Dash
+34% Shackled Dash
+33% Sinner's Dash
 
 Rukyuk:
-6% Sniper Strike (AP)
-6% Sniper Strike (Explosive)
-6% Sniper Strike (Flash)
-6% Sniper Strike (Impact)
-6% Sniper Strike (Longshot)
-6% Sniper Burst (AP)
-6% Sniper Burst (Explosive)
-6% Sniper Burst (Flash)
-6% Sniper Burst (Impact)
-6% Sniper Burst (Longshot)
-6% Gunner Strike (AP)
-6% Gunner Strike (Explosive)
-6% Gunner Strike (Flash)
-6% Gunner Strike (Impact)
-6% Gunner Strike (Longshot)
-6% Trick Shot (Explosive)
-6% Trick Drive (Explosive)
-6% Trick Burst (Longshot)
+1% Sniper Reload
+1% Sniper Reload (AP)
+1% Sniper Reload (Explosive)
+1% Sniper Reload (Impact)
+1% Sniper Reload (Longshot)
+0% Sniper Reload (Swift)
+1% Sniper Strike
+1% Sniper Strike (AP)
+1% Sniper Strike (Explosive)
+1% Sniper Strike (Impact)
+1% Sniper Strike (Longshot)
+1% Sniper Strike (Swift)
+1% Sniper Shot
+1% Sniper Shot (AP)
+1% Sniper Shot (Explosive)
+1% Sniper Shot (Impact)
+1% Sniper Shot (Longshot)
+1% Sniper Shot (Swift)
+1% Sniper Grasp
+1% Sniper Grasp (AP)
+1% Sniper Grasp (Explosive)
+1% Sniper Grasp (Impact)
+1% Sniper Grasp (Longshot)
+1% Sniper Grasp (Swift)
+1% Sniper Dash
+1% Sniper Dash (AP)
+1% Sniper Dash (Explosive)
+1% Sniper Dash (Impact)
+1% Sniper Dash (Longshot)
+1% Sniper Dash (Swift)
+1% Gunner Reload
+1% Gunner Reload (AP)
+1% Gunner Reload (Explosive)
+1% Gunner Reload (Impact)
+1% Gunner Reload (Longshot)
+1% Gunner Reload (Swift)
+1% Gunner Strike
+0% Gunner Strike (AP)
+0% Gunner Strike (Explosive)
+0% Gunner Strike (Impact)
+0% Gunner Strike (Longshot)
+0% Gunner Strike (Swift)
+1% Gunner Shot
+0% Gunner Shot (AP)
+0% Gunner Shot (Explosive)
+0% Gunner Shot (Impact)
+0% Gunner Shot (Longshot)
+0% Gunner Shot (Swift)
+1% Gunner Grasp
+1% Gunner Grasp (AP)
+0% Gunner Grasp (Explosive)
+1% Gunner Grasp (Impact)
+1% Gunner Grasp (Longshot)
+1% Gunner Grasp (Swift)
+1% Gunner Dash
+1% Gunner Dash (AP)
+3% Gunner Dash (Explosive)
+1% Gunner Dash (Impact)
+1% Gunner Dash (Longshot)
+1% Gunner Dash (Swift)
+1% Trick Reload
+1% Trick Reload (AP)
+1% Trick Reload (Explosive)
+1% Trick Reload (Impact)
+1% Trick Reload (Longshot)
+1% Trick Reload (Swift)
+1% Trick Strike
+0% Trick Strike (AP)
+0% Trick Strike (Explosive)
+1% Trick Strike (Impact)
+1% Trick Strike (Longshot)
+0% Trick Strike (Swift)
+1% Trick Shot
+1% Trick Shot (AP)
+1% Trick Shot (Explosive)
+1% Trick Shot (Impact)
+1% Trick Shot (Longshot)
+1% Trick Shot (Swift)
+1% Trick Grasp
+1% Trick Grasp (AP)
+0% Trick Grasp (Explosive)
+1% Trick Grasp (Impact)
+1% Trick Grasp (Longshot)
+1% Trick Grasp (Swift)
+1% Trick Dash
+1% Trick Dash (AP)
+1% Trick Dash (Explosive)
+1% Trick Dash (Impact)
+1% Trick Dash (Longshot)
+0% Trick Dash (Swift)
 
 
-Danny: Monstrous Hellgate
-Rukyuk: Sniper Burst (Impact)
+Danny: Sinner's Dash
+Rukyuk: Trick Reload
 
-Rukyuk antes an Impact token
-Priorities:  -1 | 3
-Rukyuk is active
-Rukyuk moves:
+Priorities:  9 | 1
+Danny is active
+Danny moves his monsters:
 
-R....D.
-.mm.mmm
-
-Rukyuk hits
-Danny has 3 soak
-Danny takes 1 damage (now at 5 life)
-Rukyuk removes monsters:
-
-R....D.
-.mm.m.m
-
-Rukyuk moves:
-
-.R...D.
-.mm.m.m
+....R.D
+mmmmmm.
 
 Danny moves:
 
-DR.....
-.mm.m.m
+..D.R..
+mmmmmm.
 
-Danny adds monsters to the board:
+Rukyuk moves:
 
-DR.....
-mmmmmmm
+R.D....
+mmmmmm.
 
 Game goes to time
-RUKYUK WINS!
-total_time: 341
+DANNY WINS!
+total_time: 313

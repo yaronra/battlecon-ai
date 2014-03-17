@@ -11,80 +11,67 @@ Beat 1
 
 Cesar
 -----
-life: 20
-discard 1: Fueled Strike
-discard 2: Unstoppable Grasp
-special action
+Life: 20
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Grasp
+Special action available
 Threat level: 0
 
 Danny
 -----
-life: 20
-discard 1: Fallen Burst
-discard 2: Vicious Shot
-special action
+Life: 20
+Discard 1: Fallen Burst
+Discard 2: Vicious Shot
+Special action available
 
 
 .C...D.
 
 
-Unbeatable strategy for Danny: Monstrous Hellgate: -4.84
-Unbeatable strategy for Danny: Shackled Hellgate: -2.93
-Unbeatable strategy for Danny: Sinner's Hellgate: -3.35
+Unbeatable strategy for Danny: Monstrous Hellgate: -5.06
+Unbeatable strategy for Danny: Shackled Hellgate: -2.58
+Unbeatable strategy for Danny: Sinner's Hellgate: -3.00
+
 
 Cesar:
-38% Phalanx Suppression
-18% Bulwark Shot
+45% Bulwark Suppression
+11% Bulwark Shot
 44% Bulwark Burst
 
 Danny:
-34% Monstrous Hellgate
-26% Shackled Drive
-40% Sinner's Hellgate
+51% Monstrous Hellgate
+41% Sinner's Hellgate
+7% Sinner's Drive
 
 
-Cesar: Phalanx Suppression
-Danny: Sinner's Hellgate
+Cesar: Bulwark Burst
+Danny: Monstrous Hellgate
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 0
+Priorities:  -1 | -1
 Clash!
 
-Cesar:
-100% Phalanx Shot
 
-Danny:
-100% Sinner's Strike
-
-
-Cesar: Phalanx Shot
-Danny: Sinner's Strike
+Cesar: Bulwark Drive
+Danny: Monstrous Dash
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 3
+Priorities:  2 | 8
 Danny is active
-Danny hits
-Cesar takes 3 damage (now at 17 life)
-Danny adds monsters to the board:
+Danny moves:
 
-.C...D.
-...m...
+.C....D
 
-Danny moves his monsters:
-
-.C...D.
-....m..
 
 Cesar moves:
 
-...C.D.
-....m..
+..C...D
 
-Cesar hits
-Danny takes 4 damage (now at 16 life)
-Cesar removes monsters:
 
-...C.D.
+Cesar misses
+Cesar moves:
+
+.....CD
 
 
 
@@ -93,58 +80,57 @@ Beat 2
 
 Cesar
 -----
-life: 17
-discard 1: Phalanx Shot
-discard 2: Fueled Strike
-special action
+Life: 20
+Discard 1: Bulwark Drive
+Discard 2: Fueled Strike
+Special action available
 Threat level: 1
 
 Danny
 -----
-life: 16
-discard 1: Sinner's Strike
-discard 2: Fallen Burst
-special action
+Life: 20
+Discard 1: Monstrous Dash
+Discard 2: Fallen Burst
+Special action available
 
 
-...C.D.
+.....CD
 
 
-Unbeatable strategy for Danny: Monstrous Hellgate: -1.84
-Unbeatable strategy for Danny: Shackled Hellgate: -1.69
-Unbeatable strategy for Danny: Vicious Hellgate: -1.84
+Unbeatable strategy for Danny: Shackled Hellgate: -2.54
+Unbeatable strategy for Danny: Sinner's Hellgate: -3.08
+Unbeatable strategy for Danny: Vicious Hellgate: -2.64
+
 
 Cesar:
-22% Bulwark Burst
-58% Inevitable Drive
-20% Inevitable Burst
+1% Phalanx Burst
+12% Unstoppable Shot
+75% Inevitable Shot
+11% Inevitable Burst
 
 Danny:
-66% Shackled Hellgate
-22% Shackled Grasp
-12% Vicious Hellgate
+67% Shackled Hellgate
+3% Shackled Strike
+20% Sinner's Hellgate
+9% Vicious Hellgate
 
 
-Cesar: Inevitable Drive
-Danny: Shackled Hellgate
+Cesar: Inevitable Shot
+Danny: Sinner's Hellgate
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  4 | -1
+Priorities:  2 | 0
 Cesar is active
-Cesar moves:
-
-....CD.
-
-
 Cesar hits
 Danny is stunned
+Danny will have -3 priority next beat
 Danny has 3 soak
-Danny takes 2 damage (now at 14 life)
+Danny takes 2 damage (now at 18 life)
 Danny is stunned
 Danny adds monsters to the board:
 
-....CD.
-mm..m..
+.....CD
+...mmm.
 
 
 Beat 3
@@ -152,40 +138,42 @@ Beat 3
 
 Cesar
 -----
-life: 17
-discard 1: Inevitable Drive
-discard 2: Phalanx Shot
-special action
+Life: 20
+Discard 1: Inevitable Shot
+Discard 2: Bulwark Drive
+Special action available
+Opponent has power penalty: -3
 Threat level: 2
-Opponent has -3 power this beat
 
 Danny
 -----
-life: 14
-discard 1: Shackled Hellgate
-discard 2: Sinner's Strike
-special action
+Life: 18
+Discard 1: Sinner's Hellgate
+Discard 2: Monstrous Dash
+Special action available
 
 
-....CD.
-mm..m..
+.....CD
+...mmm.
+
 
 Cesar:
-75% Unstoppable Suppression
-25% Bulwark Suppression
+65% Unstoppable Suppression
+35% Unstoppable Grasp
 
 Danny:
-100% Special Pulse
+6% Shackled Burst
+94% Special Pulse
 
 
-Cesar: Unstoppable Suppression
+Cesar: Unstoppable Grasp
 Danny: Special Pulse
 
 Cesar gains a Threat Level (current level: 3)
 Pulse:
 
-C.....D
-mm..m..
+D....C.
+...mmm.
 
 
 Beat 3
@@ -193,104 +181,52 @@ Beat 3
 
 Cesar
 -----
-life: 17
-discard 1: Unstoppable Suppression
-discard 2: Inevitable Drive
-special action
+Life: 20
+Discard 1: Unstoppable Grasp
+Discard 2: Inevitable Shot
+Special action available
 Threat level: 3
 
 Danny
 -----
-life: 14
-discard 1: Shackled Hellgate
-discard 2: Sinner's Strike
+Life: 18
+Discard 1: Sinner's Hellgate
+Discard 2: Monstrous Dash
 
 
-C.....D
-mm..m..
+D....C.
+...mmm.
 
-Unbeatable strategy for Danny: Monstrous Shot: -0.23
-Unbeatable strategy for Danny: Monstrous Burst: -0.23
+Unbeatable strategy for Cesar: Phalanx Burst: 2.51
+Unbeatable strategy for Cesar: Bulwark Burst: 4.79
+
 
 Cesar:
-100% Special Pulse
+31% Bulwark Suppression
+69% Bulwark Burst
 
 Danny:
-51% Monstrous Burst
-49% Vicious Burst
+69% Shackled Burst
+31% Shackled Grasp
 
 
-Cesar: Special Pulse
-Danny: Vicious Burst
+Cesar: Bulwark Burst
+Danny: Shackled Grasp
 
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Pulse:
-
-.D....C
-mm..m..
-
-
-Beat 3
--------
-
-Cesar
------
-life: 17
-discard 1: Unstoppable Suppression
-discard 2: Inevitable Drive
-Threat level: 4
-
-Danny
------
-life: 14
-discard 1: Vicious Burst
-discard 2: Shackled Hellgate
-
-
-.D....C
-mm..m..
-
-Cesar:
-40% Phalanx Shot
-60% Fueled Shot
-
-Danny:
-42% Monstrous Shot
-58% Sinner's Shot
-
-
-Cesar: Fueled Shot
-Danny: Sinner's Shot
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  1 | 2
+Priorities:  -1 | 4
 Danny is active
-Cesar gains a Threat Level (current level: 1)
-Danny hits
-Cesar takes 2 damage (now at 15 life)
-Danny adds monsters to the board:
-
-.D....C
-mm.mm..
-
-Danny moves his monsters:
-
-.D....C
-m.m.mm.
-
 Cesar moves:
 
-.D..C..
-m.m.mm.
+D.....C
+...mmm.
 
-Cesar hits
-Danny takes 5 damage (now at 9 life)
-Danny is stunned
-Cesar removes monsters:
+Danny misses
+Danny adds monsters to the board:
 
-.D..C..
-..m.mm.
+D.....C
+.m.mmm.
 
 
 Beat 4
@@ -298,63 +234,57 @@ Beat 4
 
 Cesar
 -----
-life: 15
-discard 1: Fueled Shot
-discard 2: Unstoppable Suppression
-Threat level: 1
+Life: 20
+Discard 1: Bulwark Burst
+Discard 2: Unstoppable Grasp
+Special action available
+Threat level: 4
 
 Danny
 -----
-life: 9
-discard 1: Sinner's Shot
-discard 2: Vicious Burst
+Life: 18
+Discard 1: Shackled Grasp
+Discard 2: Sinner's Hellgate
 
 
-.D..C..
-..m.mm.
+D.....C
+.m.mmm.
 
-Unbeatable strategy for Danny: Fallen Grasp: -0.51
 
 Cesar:
-19% Phalanx Drive
-67% Bulwark Burst
-1% Inevitable Drive
-13% Inevitable Burst
+48% Fueled Suppression
+52% Fueled Shot
 
 Danny:
-10% Fallen Hellgate
-15% Fallen Strike
-23% Fallen Grasp
-53% Shackled Hellgate
+44% Fallen Burst
+56% Vicious Burst
 
 
-Cesar: Bulwark Burst
-Danny: Fallen Strike
+Cesar: Fueled Shot
+Danny: Vicious Burst
 
-Cesar gains a Threat Level (current level: 2)
-Priorities:  -1 | 3
+Cesar gains a Threat Level (current level: 0)
+Priorities:  1 | 6
 Danny is active
-Cesar moves:
-
-.D....C
-..m.mm.
-
+Cesar gains a Threat Level (current level: 1)
 Danny misses
 Danny adds monsters to the board:
 
-.D....C
-..mmmm.
-
-Cesar misses
-Cesar removes monsters:
-
-.D....C
-..m.mm.
+D.....C
+.mmmmm.
 
 Cesar moves:
 
-.D.C...
-..m.mm.
+D...C..
+.mmmmm.
+
+Cesar hits
+Danny takes 5 damage (now at 13 life)
+Danny is stunned
+Cesar removes monsters:
+
+D...C..
+..mmmm.
 
 
 Beat 5
@@ -362,58 +292,62 @@ Beat 5
 
 Cesar
 -----
-life: 15
-discard 1: Bulwark Burst
-discard 2: Fueled Shot
-Threat level: 2
+Life: 20
+Discard 1: Fueled Shot
+Discard 2: Bulwark Burst
+Special action available
+Threat level: 1
 
 Danny
 -----
-life: 9
-discard 1: Fallen Strike
-discard 2: Sinner's Shot
+Life: 13
+Discard 1: Vicious Burst
+Discard 2: Shackled Grasp
 
 
-.D.C...
-..m.mm.
+D...C..
+..mmmm.
 
-Unbeatable strategy for Danny: Shackled Burst: -2.62
-Unbeatable strategy for Danny: Shackled Grasp: -4.22
-Unbeatable strategy for Danny: Shackled Dash: -1.15
 
 Cesar:
-5% Phalanx Strike
-47% Unstoppable Drive
-48% Inevitable Suppression
+5% Phalanx Suppression
+8% Phalanx Strike
+62% Unstoppable Suppression
+22% Unstoppable Strike
+3% Unstoppable Grasp
 
 Danny:
-17% Shackled Hellgate
-9% Shackled Burst
-74% Shackled Grasp
+12% Monstrous Strike
+42% Monstrous Drive
+36% Fallen Strike
+11% Fallen Shot
 
 
-Cesar: Inevitable Suppression
-Danny: Shackled Burst
+Cesar: Unstoppable Strike
+Danny: Monstrous Drive
 
-Cesar gains a Threat Level (current level: 3)
-Priorities:  2 | 0
-Cesar is active
+Cesar gains a Threat Level (current level: 2)
+Priorities:  1 | 3
+Danny is active
 Danny moves:
 
-D..C...
-..m.mm.
+.D..C..
+..mmmm.
 
-Cesar misses
-Cesar removes monsters:
+Cesar moves:
 
-D..C...
-....mm.
+.DC....
+..mmmm.
 
-Danny misses
+Danny hits
+Cesar takes 4 damage (now at 16 life)
+Cesar hits
+Danny takes 6 damage (now at 7 life)
+Danny is stunned
 Danny adds monsters to the board:
 
-D..C...
-...mmm.
+.DC....
+m.mmmm.
 
 
 Beat 6
@@ -421,80 +355,73 @@ Beat 6
 
 Cesar
 -----
-life: 15
-discard 1: Inevitable Suppression
-discard 2: Bulwark Burst
-Threat level: 3
+Life: 16
+Discard 1: Unstoppable Strike
+Discard 2: Fueled Shot
+Special action available
+Threat level: 2
 
 Danny
 -----
-life: 9
-discard 1: Shackled Burst
-discard 2: Fallen Strike
+Life: 7
+Discard 1: Monstrous Drive
+Discard 2: Vicious Burst
 
 
-D..C...
-...mmm.
+.DC....
+m.mmmm.
+
+Unbeatable strategy for Danny: Fallen Hellgate: -0.50
+Unbeatable strategy for Danny: Sinner's Hellgate: -0.57
+
 
 Cesar:
-44% Unstoppable Strike
-56% Unstoppable Grasp
+29% Phalanx Suppression
+43% Phalanx Drive
+19% Inevitable Drive
+10% Inevitable Burst
 
 Danny:
-56% Monstrous Shot
-44% Monstrous Drive
+3% Shackled Hellgate
+10% Shackled Dash
+76% Sinner's Hellgate
+10% Sinner's Dash
 
 
-Cesar: Unstoppable Grasp
-Danny: Monstrous Drive
+Cesar: Phalanx Suppression
+Danny: Sinner's Hellgate
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  3 | 3
+Cesar gains a Threat Level (current level: 3)
+Priorities:  0 | 0
 Clash!
 
-Cesar:
-100% Unstoppable Strike
 
-Danny:
-100% Monstrous Shot
+Cesar: Phalanx Drive
+Danny: Sinner's Dash
 
-
-Cesar: Unstoppable Strike
-Danny: Monstrous Shot
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  1 | 1
-Clash!
-
-Cesar:
-100% Unstoppable Drive
-
-Danny:
-100% Monstrous Grasp
-
-
-Cesar: Unstoppable Drive
-Danny: Monstrous Grasp
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  2 | 4
+Cesar gains a Threat Level (current level: 3)
+Priorities:  2 | 9
 Danny is active
-Danny hits
-Cesar has 2 soak
-Cesar takes 1 damage (now at 14 life)
-Cesar is stunned
-Danny adds monsters to the board:
+Danny moves his monsters:
 
-D..C...
-.m.mmm.
-
-Danny adds monsters to the board:
-
-D..C...
+.DC....
 .mmmmm.
+
+Danny moves:
+
+..CD...
+.mmmmm.
+
+Cesar moves:
+
+...DC..
+.mmmmm.
+
+Cesar misses
+Cesar removes monsters:
+
+...DC..
+.mm.mm.
 
 
 Beat 7
@@ -502,180 +429,171 @@ Beat 7
 
 Cesar
 -----
-life: 14
-discard 1: Unstoppable Drive
-discard 2: Inevitable Suppression
-Threat level: 4
+Life: 16
+Discard 1: Phalanx Drive
+Discard 2: Unstoppable Strike
+Special action available
+Threat level: 3
 
 Danny
 -----
-life: 9
-discard 1: Monstrous Grasp
-discard 2: Shackled Burst
+Life: 7
+Discard 1: Sinner's Dash
+Discard 2: Monstrous Drive
 
 
-D..C...
-.mmmmm.
+...DC..
+.mm.mm.
 
-Unbeatable strategy for Danny: Fallen Drive: -0.70
 
 Cesar:
-15% Fueled Strike
-5% Fueled Grasp
-80% Bulwark Dash
+4% Fueled Burst
+89% Bulwark Suppression
+5% Bulwark Shot
+2% Bulwark Burst
 
 Danny:
-20% Fallen Strike
-36% Fallen Drive
-45% Sinner's Hellgate
+31% Fallen Hellgate
+37% Fallen Strike
+14% Fallen Shot
+18% Shackled Hellgate
 
 
-Cesar: Fueled Grasp
-Danny: Fallen Drive
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  4 | 4
-Clash!
-
-Cesar:
-100% Fueled Dash
-
-Danny:
-100% Fallen Strike
-
-
-Cesar: Fueled Dash
+Cesar: Bulwark Suppression
 Danny: Fallen Strike
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  8 | 3
-Cesar is active
-Cesar gains a Threat Level (current level: 1)
-Cesar moves:
-
-D.C....
-.mmmmm.
-
-Cesar moves:
-
-DC.....
-.mmmmm.
-
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  0 | 3
+Danny is active
 Danny hits
 Danny gets +2 power
-Cesar takes 5 damage (now at 9 life)
+Cesar has 2 soak
+Cesar takes 3 damage (now at 13 life)
 Cesar is stunned
+Cesar moves:
+
+..CD...
+.mm.mm.
+
 
 Beat 8
 -------
 
 Cesar
 -----
-life: 9
-discard 1: Fueled Dash
-discard 2: Unstoppable Drive
-Threat level: 1
+Life: 13
+Discard 1: Bulwark Suppression
+Discard 2: Phalanx Drive
+Special action available
+Threat level: 4
 
 Danny
 -----
-life: 9
-discard 1: Fallen Strike
-discard 2: Monstrous Grasp
+Life: 7
+Discard 1: Fallen Strike
+Discard 2: Sinner's Dash
 
 
-DC.....
-.mmmmm.
+..CD...
+.mm.mm.
+
 
 Cesar:
-9% Phalanx Strike
-18% Bulwark Strike
-25% Inevitable Suppression
-31% Inevitable Shot
-17% Inevitable Grasp
+48% Fueled Strike
+30% Fueled Shot
+5% Fueled Grasp
+10% Inevitable Strike
+7% Inevitable Shot
 
 Danny:
-24% Shackled Hellgate
-40% Sinner's Dash
-5% Vicious Hellgate
-18% Vicious Shot
-13% Vicious Drive
+33% Monstrous Hellgate
+3% Monstrous Drive
+15% Shackled Drive
+39% Vicious Hellgate
+10% Vicious Drive
 
 
-Cesar: Inevitable Shot
-Danny: Sinner's Dash
+Cesar: Fueled Shot
+Danny: Vicious Drive
 
-Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 9
+Cesar gains a Threat Level (current level: 0)
+Priorities:  1 | 7
 Danny is active
-Danny moves his monsters:
-
-DC.....
-mmm.mm.
-
+Cesar gains a Threat Level (current level: 1)
 Danny moves:
 
-.C..D..
-mmm.mm.
+D.C....
+.mm.mm.
 
-Cesar misses
-Cesar removes monsters:
-
-.C..D..
-mmm..m.
-
+Danny hits
+Danny gets +2 power
+Cesar takes 4 damage (now at 9 life)
+Cesar is stunned
 
 Beat 9
 -------
 
 Cesar
 -----
-life: 9
-discard 1: Inevitable Shot
-discard 2: Fueled Dash
-Threat level: 2
+Life: 9
+Discard 1: Fueled Shot
+Discard 2: Bulwark Suppression
+Special action available
+Threat level: 1
 
 Danny
 -----
-life: 9
-discard 1: Sinner's Dash
-discard 2: Fallen Strike
+Life: 7
+Discard 1: Vicious Drive
+Discard 2: Fallen Strike
 
 
-.C..D..
-mmm..m.
+D.C....
+.mm.mm.
 
-Unbeatable strategy for Danny: Shackled Hellgate: -4.88
-Unbeatable strategy for Danny: Shackled Burst: -3.23
 
 Cesar:
-68% Bulwark Suppression
-32% Bulwark Burst
+22% Phalanx Strike
+22% Phalanx Drive
+19% Phalanx Burst
+12% Inevitable Drive
+24% Inevitable Burst
 
 Danny:
-67% Shackled Hellgate
-33% Shackled Burst
+28% Monstrous Hellgate
+15% Monstrous Shot
+12% Shackled Hellgate
+18% Shackled Shot
+27% Shackled Grasp
 
 
-Cesar: Bulwark Suppression
+Cesar: Phalanx Strike
+Danny: Shackled Shot
+
+Cesar gains a Threat Level (current level: 2)
+Priorities:  1 | 1
+Clash!
+
+
+Cesar: Phalanx Drive
 Danny: Shackled Hellgate
 
-Cesar gains a Threat Level (current level: 3)
-Priorities:  0 | -1
+Cesar gains a Threat Level (current level: 2)
+Priorities:  2 | -1
 Cesar is active
-Cesar misses
+Cesar hits
+Danny has 3 soak
+Danny takes 2 damage (now at 5 life)
+Danny is stunned
 Cesar removes monsters:
 
-.C..D..
-.mm..m.
-
-Danny moves:
-
-.C....D
-.mm..m.
+D.C....
+..m.mm.
 
 Danny adds monsters to the board:
 
-.C....D
+D.C....
 mmmmmm.
 
 
@@ -684,46 +602,65 @@ Beat 10
 
 Cesar
 -----
-life: 9
-discard 1: Bulwark Suppression
-discard 2: Inevitable Shot
-Threat level: 3
+Life: 9
+Discard 1: Phalanx Drive
+Discard 2: Fueled Shot
+Special action available
+Threat level: 2
 
 Danny
 -----
-life: 9
-discard 1: Shackled Hellgate
-discard 2: Sinner's Dash
+Life: 5
+Discard 1: Shackled Hellgate
+Discard 2: Vicious Drive
 
 
-.C....D
+D.C....
 mmmmmm.
 
+
 Cesar:
-71% Unstoppable Drive
-29% Unstoppable Grasp
+31% Unstoppable Suppression
+48% Unstoppable Burst
+11% Bulwark Suppression
+10% Bulwark Burst
 
 Danny:
-34% Monstrous Strike
-37% Monstrous Shot
-29% Monstrous Burst
+42% Monstrous Strike
+58% Sinner's Dash
 
 
-Cesar: Unstoppable Drive
-Danny: Monstrous Burst
+Cesar: Unstoppable Burst
+Danny: Sinner's Dash
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  2 | 0
-Cesar is active
-Danny hits
-Cesar has 2 soak
-Cesar takes 2 damage (now at 7 life)
-Cesar is stunned
-Danny adds monsters to the board:
+Cesar gains a Threat Level (current level: 3)
+Priorities:  -1 | 9
+Danny is active
+Cesar moves:
 
-.C....D
-mmmmmmm
+D..C...
+mmmmmm.
+
+Danny moves his monsters:
+
+D..C...
+mmmmmm.
+
+Danny moves:
+
+.D.C...
+mmmmmm.
+
+Cesar moves:
+
+.DC....
+mmmmmm.
+
+Cesar misses
+Cesar removes monsters:
+
+.DC....
+.mmmmm.
 
 
 Beat 11
@@ -731,126 +668,113 @@ Beat 11
 
 Cesar
 -----
-life: 7
-discard 1: Unstoppable Drive
-discard 2: Bulwark Suppression
-Threat level: 4
+Life: 9
+Discard 1: Unstoppable Burst
+Discard 2: Phalanx Drive
+Special action available
+Threat level: 3
 
 Danny
 -----
-life: 9
-discard 1: Monstrous Burst
-discard 2: Shackled Hellgate
+Life: 5
+Discard 1: Sinner's Dash
+Discard 2: Shackled Hellgate
 
 
-.C....D
-mmmmmmm
+.DC....
+.mmmmm.
 
-Unbeatable strategy for Danny: Fallen Strike: -0.92
-Unbeatable strategy for Danny: Fallen Shot: -0.34
-Unbeatable strategy for Danny: Fallen Drive: -0.29
-Unbeatable strategy for Danny: Fallen Grasp: -0.57
 
 Cesar:
-13% Fueled Dash
-8% Inevitable Strike
-9% Inevitable Grasp
-69% Inevitable Dash
+46% Bulwark Suppression
+54% Bulwark Shot
 
 Danny:
-45% Fallen Strike
-29% Fallen Grasp
-13% Fallen Dash
-12% Vicious Strike
+27% Monstrous Strike
+73% Monstrous Burst
 
 
-Cesar: Inevitable Strike
-Danny: Fallen Strike
+Cesar: Bulwark Shot
+Danny: Monstrous Burst
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  3 | 3
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  0 | 0
 Clash!
 
-Cesar:
-1% Inevitable Shot
-27% Inevitable Grasp
-71% Inevitable Dash
 
-Danny:
-39% Fallen Shot
-45% Fallen Grasp
-16% Fallen Dash
+Cesar: Bulwark Strike
+Danny: Monstrous Strike
 
-
-Cesar: Inevitable Dash
-Danny: Fallen Grasp
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  9 | 5
-Cesar is active
-Cesar moves:
-
-....C.D
-mmmmmmm
-
-Danny hits
-Danny gets +2 power
-Danny moves Cesar:
-
-...C..D
-mmmmmmm
-
-Cesar takes 3 damage (now at 4 life)
+Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
+Priorities:  1 | 2
+Danny is active
+Danny hits
+Cesar has 2 soak
+Cesar takes 3 damage (now at 6 life)
+Danny adds monsters to the board:
+
+.DC....
+mmmmmm.
+
 
 Beat 12
 -------
 
 Cesar
 -----
-life: 4
-discard 1: Inevitable Dash
-discard 2: Unstoppable Drive
-Threat level: 0
+Life: 6
+Discard 1: Bulwark Strike
+Discard 2: Unstoppable Burst
+Special action available
+Threat level: 4
 
 Danny
 -----
-life: 9
-discard 1: Fallen Grasp
-discard 2: Monstrous Burst
+Life: 5
+Discard 1: Monstrous Strike
+Discard 2: Sinner's Dash
 
 
-...C..D
-mmmmmmm
+.DC....
+mmmmmm.
+
 
 Cesar:
-49% Fueled Strike
-19% Bulwark Suppression
-13% Bulwark Shot
-19% Bulwark Burst
+50% Inevitable Shot
+35% Inevitable Drive
+15% Special Level 4 Protocol
 
 Danny:
-49% Shackled Strike
-20% Shackled Shot
-7% Shackled Drive
-25% Vicious Drive
+15% Fallen Drive
+18% Fallen Grasp
+67% Vicious Burst
 
 
-Cesar: Bulwark Burst
-Danny: Shackled Shot
+Cesar: Inevitable Shot
+Danny: Vicious Burst
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  -1 | 1
+Cesar gains a Threat Level (current level: 0)
+Priorities:  2 | 4
 Danny is active
+Danny moves:
+
+D.C....
+mmmmmm.
+
 Danny hits
-Cesar takes 3 damage (now at 1 life)
+Danny gets +3 power
+Cesar takes 5 damage (now at 1 life)
 Cesar hits
-Danny takes 4 damage (now at 5 life)
+Danny is stunned
+Danny will have -3 priority next beat
+Danny takes 3 damage (now at 2 life)
 Danny is stunned
 Cesar removes monsters:
 
-...C..D
-.mmmmmm
+D.C....
+.mmmmm.
 
 
 Beat 13
@@ -858,209 +782,114 @@ Beat 13
 
 Cesar
 -----
-life: 1
-discard 1: Bulwark Burst
-discard 2: Inevitable Dash
-Threat level: 1
+Life: 1
+Discard 1: Inevitable Shot
+Discard 2: Bulwark Strike
+Special action available
+Opponent has power penalty: -3
+Threat level: 0
 
 Danny
 -----
-life: 5
-discard 1: Shackled Shot
-discard 2: Fallen Grasp
+Life: 2
+Discard 1: Vicious Burst
+Discard 2: Monstrous Strike
 
 
-...C..D
-.mmmmmm
+D.C....
+.mmmmm.
+
 
 Cesar:
-1% Unstoppable Suppression
-7% Unstoppable Shot
-1% Unstoppable Drive
-46% Fueled Suppression
-45% Fueled Strike
+28% Unstoppable Suppression
+49% Unstoppable Burst
+23% Fueled Burst
 
 Danny:
-4% Monstrous Hellgate
-6% Monstrous Strike
-48% Sinner's Hellgate
-1% Sinner's Burst
-41% Sinner's Dash
+9% Fallen Shot
+32% Fallen Drive
+59% Shackled Hellgate
 
 
-Cesar: Fueled Strike
-Danny: Sinner's Dash
+Cesar: Fueled Burst
+Danny: Fallen Drive
 
-Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 9
+Cesar gains a Threat Level (current level: 1)
+Priorities:  0 | 4
 Danny is active
-Cesar gains a Threat Level (current level: 3)
-Danny moves his monsters:
+Cesar gains a Threat Level (current level: 2)
+Cesar moves:
 
-...C..D
-mmm.mmm
+D..C...
+.mmmmm.
 
 Danny moves:
 
-..DC...
-mmm.mmm
+.D.C...
+.mmmmm.
 
-Cesar moves:
-
-.CD....
-mmm.mmm
-
-Cesar misses
-Cesar removes monsters:
-
-.CD....
-.mm.mmm
-
+Danny hits
+Danny gets +2 power
+Cesar takes 1 damage (now at 0 life)
+Cesar is stunned
 
 Beat 14
 -------
 
 Cesar
 -----
-life: 1
-discard 1: Fueled Strike
-discard 2: Bulwark Burst
-Threat level: 3
-
-Danny
------
-life: 5
-discard 1: Sinner's Dash
-discard 2: Shackled Shot
-
-
-.CD....
-.mm.mmm
-
-Unbeatable strategy for Danny: Monstrous Strike: -2.40
-Unbeatable strategy for Danny: Monstrous Drive: -1.74
-Unbeatable strategy for Danny: Monstrous Burst: -2.59
-Unbeatable strategy for Danny: Monstrous Grasp: -2.40
-Unbeatable strategy for Danny: Fallen Strike: -1.53
-Unbeatable strategy for Danny: Vicious Strike: -0.84
-
-Cesar:
-25% Unstoppable Suppression
-75% Unstoppable Shot
-
-Danny:
-15% Monstrous Strike
-75% Monstrous Burst
-10% Monstrous Grasp
-
-
-Cesar: Unstoppable Shot
-Danny: Monstrous Strike
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  0 | 2
-Danny is active
-Danny hits
-Cesar has 2 soak
-Cesar takes 3 damage (now at 0 life)
-Cesar is stunned
-Danny adds monsters to the board:
-
-.CD....
-.mmmmmm
-
-Danny adds monsters to the board:
-
-.CD....
-mmmmmmm
-
-
-Beat 15
--------
-
-Cesar
------
-life: 1
-discard 1: Unstoppable Shot
-discard 2: Fueled Strike
-Threat level: 4
+Life: 1
+Discard 1: Fueled Burst
+Discard 2: Inevitable Shot
+Special action available
+Threat level: 2
 Defeat immunity used-up
 
 Danny
 -----
-life: 5
-discard 1: Monstrous Strike
-discard 2: Sinner's Dash
+Life: 2
+Discard 1: Fallen Drive
+Discard 2: Vicious Burst
 
 
-.CD....
-mmmmmmm
+.D.C...
+.mmmmm.
 
-Unbeatable strategy for Danny: Fallen Hellgate: -6.00
-Unbeatable strategy for Danny: Fallen Shot: -6.00
-Unbeatable strategy for Danny: Fallen Drive: -6.00
-Unbeatable strategy for Danny: Fallen Burst: -6.00
-Unbeatable strategy for Danny: Fallen Grasp: -6.00
-Unbeatable strategy for Danny: Shackled Hellgate: -6.00
-Unbeatable strategy for Danny: Shackled Shot: -6.00
-Unbeatable strategy for Danny: Shackled Drive: -6.00
-Unbeatable strategy for Danny: Shackled Burst: -6.00
+Unbeatable strategy for Danny: Monstrous Grasp: -1.68
 Unbeatable strategy for Danny: Shackled Grasp: -6.00
-Unbeatable strategy for Danny: Vicious Hellgate: -6.00
-Unbeatable strategy for Danny: Vicious Shot: -6.00
-Unbeatable strategy for Danny: Vicious Drive: -6.00
-Unbeatable strategy for Danny: Vicious Burst: -6.00
-Unbeatable strategy for Danny: Vicious Grasp: -6.00
+Unbeatable strategy for Danny: Shackled Dash: -1.33
+Unbeatable strategy for Danny: Sinner's Strike: -1.30
+Unbeatable strategy for Danny: Sinner's Grasp: -1.45
+
 
 Cesar:
-7% Phalanx Suppression
-7% Phalanx Drive
-7% Phalanx Burst
+6% Phalanx Suppression
+5% Phalanx Strike
+5% Phalanx Drive
 7% Phalanx Grasp
-7% Phalanx Dash
-7% Bulwark Suppression
-7% Bulwark Drive
-7% Bulwark Burst
-7% Bulwark Grasp
-7% Bulwark Dash
-7% Inevitable Suppression
-7% Inevitable Drive
-7% Inevitable Burst
-7% Inevitable Grasp
-7% Inevitable Dash
+10% Phalanx Dash
+6% Unstoppable Suppression
+6% Unstoppable Strike
+4% Unstoppable Drive
+6% Unstoppable Grasp
+9% Unstoppable Dash
+8% Bulwark Suppression
+8% Bulwark Strike
+5% Bulwark Drive
+6% Bulwark Grasp
+9% Bulwark Dash
 
 Danny:
-7% Fallen Hellgate
-7% Fallen Shot
-7% Fallen Drive
-7% Fallen Burst
-7% Fallen Grasp
-7% Shackled Hellgate
-7% Shackled Shot
-7% Shackled Drive
-7% Shackled Burst
-7% Shackled Grasp
-7% Vicious Hellgate
-7% Vicious Shot
-7% Vicious Drive
-7% Vicious Burst
-7% Vicious Grasp
+100% Shackled Grasp
 
 
-Cesar: Bulwark Grasp
-Danny: Vicious Burst
+Cesar: Unstoppable Dash
+Danny: Shackled Grasp
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  3 | 7
-Danny is active
-Danny moves:
-
-.C.D...
-mmmmmmm
-
+Cesar gains a Threat Level (current level: 3)
+Priorities:  7 | 4
+Cesar is active
 Danny hits
-Danny gets +1 power
-Cesar takes 3 damage (now at 0 life)
+Cesar takes 2 damage (now at 0 life)
 DANNY WINS!
-total_time: 42
+total_time: 37

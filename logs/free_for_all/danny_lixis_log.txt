@@ -11,33 +11,32 @@ Beat 1
 
 Danny
 -----
-life: 20
-discard 1: Fallen Burst
-discard 2: Vicious Shot
-special action
+Life: 20
+Discard 1: Fallen Burst
+Discard 2: Vicious Shot
+Special action available
 
 Lixis
 -----
-life: 20
-discard 1: Pruning Grasp
-discard 2: Rooted Strike
-special action
+Life: 20
+Discard 1: Pruning Grasp
+Discard 2: Rooted Strike
+Special action available
 
 
 .D...L.
 
 
+
 Danny:
-51% Monstrous Hellgate
+50% Monstrous Hellgate
 4% Monstrous Strike
-45% Sinner's Hellgate
-0% Sinner's Strike
+46% Sinner's Hellgate
 
 Lixis:
-59% Venomous Shot
-21% Venomous Drive
-11% Vine Shot
-10% Vine Burst
+33% Venomous Shot
+61% Venomous Drive
+6% Vine Burst
 
 
 Danny: Monstrous Hellgate
@@ -56,6 +55,7 @@ Lixis moves:
 
 
 Lixis hits
+Danny will have -2 priority next beat
 Danny discards Strike
 Danny has 3 soak
 Danny takes 1 damage (now at 19 life)
@@ -75,34 +75,35 @@ Beat 2
 
 Danny
 -----
-life: 19
-discard 1: Monstrous Hellgate Strike
-discard 2: Fallen Burst
-special action
+Life: 19
+Discard 1: Monstrous Hellgate Strike
+Discard 2: Fallen Burst
+Special action available
 
 Lixis
 -----
-life: 20
-discard 1: Venomous Drive
-discard 2: Pruning Grasp
-special action
-Opponent at -2 priority from last beat
+Life: 20
+Discard 1: Venomous Drive
+Discard 2: Pruning Grasp
+Special action available
+Opponent has priority penalty: -2
 
 
 ..L...D
 .mmm...
 
-Unbeatable strategy for Lixis: Rooted Shot: -5.28
-Unbeatable strategy for Lixis: Naturalizing Shot: -0.55
-Unbeatable strategy for Lixis: Vine Shot: -3.27
+Unbeatable strategy for Lixis: Rooted Shot: -5.42
+Unbeatable strategy for Lixis: Naturalizing Shot: -0.59
+Unbeatable strategy for Lixis: Vine Shot: -3.42
+
 
 Danny:
-11% Sinner's Shot
-89% Special Pulse
+12% Sinner's Shot
+88% Special Pulse
 
 Lixis:
-5% Rooted Strike
-95% Rooted Shot
+17% Rooted Strike
+83% Rooted Shot
 
 
 Danny: Special Pulse
@@ -119,112 +120,156 @@ Beat 2
 
 Danny
 -----
-life: 19
-discard 1: Monstrous Hellgate Strike
-discard 2: Fallen Burst
+Life: 19
+Discard 1: Monstrous Hellgate Strike
+Discard 2: Fallen Burst
 
 Lixis
 -----
-life: 20
-discard 1: Rooted Shot
-discard 2: Venomous Drive
-special action
+Life: 20
+Discard 1: Rooted Shot
+Discard 2: Venomous Drive
+Special action available
 
 
 .L....D
 .mmm...
 
-Unbeatable strategy for Danny: Sinner's Grasp: 1.35
-Unbeatable strategy for Danny: Vicious Shot: 1.02
+Unbeatable strategy for Danny: Sinner's Grasp: 0.43
+Unbeatable strategy for Danny: Vicious Shot: 0.38
+
 
 Danny:
-34% Shackled Grasp
-66% Sinner's Grasp
+29% Shackled Shot
+61% Shackled Grasp
+9% Sinner's Grasp
 
 Lixis:
-54% Pruning Dash
-46% Special Pulse
+2% Pruning Burst
+37% Pruning Dash
+60% Special Pulse
 
 
-Danny: Sinner's Grasp
-Lixis: Pruning Dash
+Danny: Shackled Shot
+Lixis: Special Pulse
+
+Pulse:
+
+....LD.
+.mmm...
+
+
+Beat 2
+-------
+
+Danny
+-----
+Life: 19
+Discard 1: Shackled Shot
+Discard 2: Monstrous Strike Hellgate
+
+Lixis
+-----
+Life: 20
+Discard 1: Rooted Shot
+Discard 2: Venomous Drive
+
+
+....LD.
+.mmm...
+
+
+Danny:
+8% Fallen Grasp
+32% Sinner's Dash
+12% Vicious Drive
+48% Vicious Grasp
+
+Lixis:
+16% Naturalizing Lance
+3% Naturalizing Strike
+66% Naturalizing Grasp
+16% Pruning Lance
+
+
+Danny: Sinner's Dash
+Lixis: Pruning Lance
 
 Lixis gets +3 power
 Lixis gets +3 priority
-Priorities:  5 | 10
-Lixis is active
-Lixis moves:
-
-....L.D
-.mmm...
-
-Danny hits
-Danny moves Lixis:
-
-...L..D
-.mmm...
-
-Lixis takes 1 damage (now at 19 life)
-Lixis is stunned
-Danny adds monsters to the board:
-
-...L..D
-.mmmm..
-
+Priorities:  9 | 6
+Danny is active
 Danny moves his monsters:
 
-...L..D
-.mmmm..
+....LD.
+..mmm..
 
+Danny moves:
+
+....L.D
+..mmm..
+
+Lixis hits
+Danny discards Burst
+Danny takes 5 damage (now at 14 life)
+Danny is stunned
 
 Beat 3
 -------
 
 Danny
 -----
-life: 19
-discard 1: Sinner's Grasp
-discard 2: Monstrous Hellgate Strike
+Life: 14
+Discard 1: Sinner's Dash Burst
+Discard 2: Shackled Shot
 
 Lixis
 -----
-life: 19
-discard 1: Pruning Dash
-discard 2: Rooted Shot
-special action
+Life: 20
+Discard 1: Pruning Lance
+Discard 2: Rooted Shot
 
 
-...L..D
-.mmmm..
+....L.D
+..mmm..
 
-Unbeatable strategy for Lixis: Naturalizing Lance: -1.99
 
 Danny:
-18% Fallen Shot
-39% Shackled Shot
-25% Vicious Shot
-18% Vicious Drive
+63% Monstrous Hellgate
+12% Monstrous Strike
+2% Fallen Strike
+23% Fallen Grasp
 
 Lixis:
-13% Venomous Lance
-54% Naturalizing Lance
-13% Vine Lance
-20% Vine Strike
+44% Venomous Grasp
+13% Naturalizing Grasp
+28% Vine Strike
+15% Vine Burst
 
 
-Danny: Vicious Shot
-Lixis: Vine Lance
+Danny: Monstrous Hellgate
+Lixis: Naturalizing Grasp
 
-Priorities:  4 | 3
-Danny is active
-Danny hits
-Danny gets +2 power
-Lixis takes 4 damage (now at 15 life)
-Lixis is stunned
+Priorities:  -1 | 6
+Lixis is active
+Lixis hits
+Lixis moves Danny:
+
+....LD.
+..mmm..
+
+Danny discards Strike
+Danny has 3 soak
+Danny takes 0 damage (now at 14 life)
+Danny moves:
+
+D...L..
+..mmm..
+
 Danny adds monsters to the board:
 
-...L..D
-.mmmmm.
+D...L..
+m.mmmmm
 
 
 Beat 4
@@ -232,55 +277,54 @@ Beat 4
 
 Danny
 -----
-life: 19
-discard 1: Vicious Shot
-discard 2: Sinner's Grasp
+Life: 14
+Discard 1: Monstrous Hellgate Strike
+Discard 2: Sinner's Dash Burst
 
 Lixis
 -----
-life: 15
-discard 1: Vine Lance
-discard 2: Pruning Dash
-special action
+Life: 20
+Discard 1: Naturalizing Grasp
+Discard 2: Pruning Lance
 
 
-...L..D
-.mmmmm.
+D...L..
+m.mmmmm
+
 
 Danny:
-0% Monstrous Strike
-29% Fallen Strike
-8% Fallen Drive
-63% Shackled Hellgate
-0% Shackled Burst
+1% Fallen Shot
+96% Fallen Drive
+3% Vicious Shot
 
 Lixis:
-17% Venomous Shot
-23% Venomous Drive
-36% Rooted Shot
-1% Naturalizing Shot
-23% Naturalizing Drive
+20% Rooted Strike
+16% Rooted Shot
+64% Rooted Dash
 
 
 Danny: Fallen Drive
-Lixis: Rooted Shot
+Lixis: Rooted Dash
 
-Priorities:  4 | 0
-Danny is active
+Priorities:  4 | 7
+Lixis is active
+Lixis moves:
+
+DL.....
+m.mmmmm
+
 Danny moves:
 
-...LD..
-.mmmmm.
+.LD....
+m.mmmmm
 
 Danny hits
-Danny gets +2 power
 Lixis has 2 soak
-Lixis takes 2 damage (now at 13 life)
-Lixis is stunned
+Lixis takes 0 damage (now at 20 life)
 Danny adds monsters to the board:
 
-...LD..
-.mmmmmm
+.LD....
+mmmmmmm
 
 
 Beat 5
@@ -288,51 +332,55 @@ Beat 5
 
 Danny
 -----
-life: 19
-discard 1: Fallen Drive
-discard 2: Vicious Shot
+Life: 14
+Discard 1: Fallen Drive
+Discard 2: Monstrous Strike Hellgate
 
 Lixis
 -----
-life: 13
-discard 1: Rooted Shot
-discard 2: Vine Lance
-special action
+Life: 20
+Discard 1: Rooted Dash
+Discard 2: Naturalizing Grasp
 
 
-...LD..
-.mmmmmm
+.LD....
+mmmmmmm
+
+Unbeatable strategy for Lixis: Vine Strike: -0.92
+Unbeatable strategy for Lixis: Vine Shot: -2.85
+
 
 Danny:
-42% Monstrous Strike
-43% Shackled Burst
-6% Shackled Grasp
-8% Sinner's Strike
+5% Shackled Burst
+2% Shackled Grasp
+52% Shackled Dash
+40% Vicious Grasp
 
 Lixis:
-29% Venomous Strike
-22% Venomous Drive
-32% Venomous Burst
-17% Venomous Grasp
+15% Venomous Strike
+20% Vine Lance
+1% Vine Strike
+63% Vine Shot
 
 
-Danny: Monstrous Strike
-Lixis: Venomous Burst
+Danny: Shackled Dash
+Lixis: Vine Lance
 
-Priorities:  2 | 1
+Priorities:  8 | 3
 Danny is active
-Lixis moves:
+Danny moves:
 
-..L.D..
-.mmmmmm
-
-Danny hits
-Lixis takes 5 damage (now at 8 life)
-Lixis is stunned
-Danny adds monsters to the board:
-
-..L.D..
+.L.D...
 mmmmmmm
+
+Lixis hits
+Danny discards Shot
+Danny takes 3 damage (now at 11 life)
+Danny is stunned
+Lixis removes monsters:
+
+.L.D...
+mmm.mmm
 
 
 Beat 6
@@ -340,176 +388,151 @@ Beat 6
 
 Danny
 -----
-life: 19
-discard 1: Monstrous Strike
-discard 2: Fallen Drive
+Life: 11
+Discard 1: Shackled Dash Shot
+Discard 2: Fallen Drive
 
 Lixis
 -----
-life: 8
-discard 1: Venomous Burst
-discard 2: Rooted Shot
-special action
+Life: 20
+Discard 1: Vine Lance
+Discard 2: Rooted Dash
 
 
-..L.D..
-mmmmmmm
+.L.D...
+mmm.mmm
+
 
 Danny:
-26% Shackled Burst
-35% Sinner's Grasp
-38% Vicious Burst
+20% Monstrous Hellgate
+12% Monstrous Grasp
+30% Vicious Hellgate
+1% Vicious Strike
+37% Vicious Grasp
 
 Lixis:
-46% Naturalizing Drive
-45% Vine Lance
-9% Vine Strike
+3% Venomous Strike
+21% Venomous Shot
+22% Naturalizing Shot
+38% Naturalizing Drive
+16% Pruning Drive
 
 
-Danny: Sinner's Grasp
-Lixis: Vine Lance
+Danny: Vicious Grasp
+Lixis: Naturalizing Drive
 
-Priorities:  5 | 3
+Priorities:  6 | 5
 Danny is active
 Danny hits
+Danny gets +1 power
 Danny moves Lixis:
 
-...LD..
-mmmmmmm
+L..D...
+mmm.mmm
 
-Lixis takes 1 damage (now at 7 life)
-Danny moves his monsters:
-
-...LD..
-mmmmmmm
-
-Lixis misses
-Lixis removes monsters:
-
-...LD..
-.mmmmmm
-
+Lixis takes 1 damage (now at 19 life)
+Lixis is stunned
 
 Beat 7
 -------
 
 Danny
 -----
-life: 19
-discard 1: Sinner's Grasp
-discard 2: Monstrous Strike
+Life: 11
+Discard 1: Vicious Grasp
+Discard 2: Shackled Dash Shot
 
 Lixis
 -----
-life: 7
-discard 1: Vine Lance
-discard 2: Venomous Burst
-special action
+Life: 19
+Discard 1: Naturalizing Drive
+Discard 2: Vine Lance
 
 
-...LD..
-.mmmmmm
+L..D...
+mmm.mmm
+
 
 Danny:
-0% Fallen Drive
-29% Fallen Dash
-4% Shackled Burst
-58% Shackled Dash
-0% Vicious Shot
-7% Vicious Drive
-1% Vicious Burst
+68% Monstrous Hellgate
+3% Monstrous Burst
+29% Fallen Strike
 
 Lixis:
-20% Naturalizing Strike
-32% Naturalizing Shot
-5% Naturalizing Drive
-3% Pruning Strike
-11% Pruning Shot
-5% Pruning Drive
-25% Pruning Grasp
+27% Venomous Shot
+8% Venomous Burst
+65% Pruning Dash
 
 
-Danny: Shackled Dash
-Lixis: Pruning Grasp
+Danny: Fallen Strike
+Lixis: Venomous Burst
 
-Lixis gets +2 power
-Lixis gets +2 priority
-Priorities:  8 | 5
+Priorities:  3 | 1
 Danny is active
-Danny moves:
-
-D..L...
-.mmmmmm
-
-Lixis misses
-Lixis removes monsters:
-
-D..L...
-.m.mmmm
-
+Danny hits
+Danny gets +2 power
+Lixis takes 5 damage (now at 14 life)
+Lixis is stunned
 
 Beat 8
 -------
 
 Danny
 -----
-life: 19
-discard 1: Shackled Dash
-discard 2: Sinner's Grasp
+Life: 11
+Discard 1: Fallen Strike
+Discard 2: Vicious Grasp
 
 Lixis
 -----
-life: 7
-discard 1: Pruning Grasp
-discard 2: Vine Lance
-special action
+Life: 14
+Discard 1: Venomous Burst
+Discard 2: Naturalizing Drive
 
 
-D..L...
-.m.mmmm
+L..D...
+mmm.mmm
+
+Unbeatable strategy for Danny: Monstrous Hellgate: 2.35
+
 
 Danny:
-58% Monstrous Hellgate
-3% Fallen Hellgate
-3% Fallen Strike
-26% Vicious Strike
-11% Vicious Drive
+43% Monstrous Hellgate
+16% Monstrous Burst
+40% Shackled Burst
 
 Lixis:
-13% Venomous Shot
-10% Rooted Shot
-44% Naturalizing Shot
-26% Naturalizing Drive
-7% Special Virulent Miasma
+49% Rooted Shot
+36% Rooted Grasp
+15% Rooted Dash
 
 
-Danny: Monstrous Hellgate
-Lixis: Naturalizing Drive
+Danny: Shackled Burst
+Lixis: Rooted Shot
 
-Priorities:  -1 | 5
+Priorities:  0 | 0
+Clash!
+
+
+Danny: Shackled Hellgate
+Lixis: Rooted Grasp
+
+Priorities:  -1 | 3
 Lixis is active
-Lixis moves:
-
-D.L....
-.m.mmmm
-
-Lixis hits
-Danny discards Drive
-Danny has 3 soak
-Danny takes 0 damage (now at 19 life)
+Lixis misses
 Lixis removes monsters:
 
-D.L....
-...mmmm
+L..D...
+.mm.mmm
 
 Danny moves:
 
-..L...D
-...mmmm
+L.....D
+.mm.mmm
 
 Danny adds monsters to the board:
 
-..L...D
+L.....D
 mmmmmmm
 
 
@@ -518,43 +541,46 @@ Beat 9
 
 Danny
 -----
-life: 19
-discard 1: Monstrous Hellgate Drive
-discard 2: Shackled Dash
+Life: 11
+Discard 1: Shackled Hellgate
+Discard 2: Fallen Strike
 
 Lixis
 -----
-life: 7
-discard 1: Naturalizing Drive
-discard 2: Pruning Grasp
-special action
+Life: 14
+Discard 1: Rooted Grasp
+Discard 2: Venomous Burst
 
 
-..L...D
+L.....D
 mmmmmmm
 
+Unbeatable strategy for Lixis: Vine Shot: -3.96
+
+
 Danny:
-50% Fallen Strike
-1% Fallen Shot
-1% Fallen Burst
-10% Fallen Grasp
-38% Vicious Strike
+2% Monstrous Drive
+98% Monstrous Burst
 
 Lixis:
-8% Venomous Strike
-11% Rooted Lance
-60% Rooted Dash
-21% Vine Shot
+1% Vine Shot
+99% Pruning Dash
 
 
-Danny: Fallen Strike
-Lixis: Vine Shot
+Danny: Monstrous Burst
+Lixis: Pruning Dash
 
-Priorities:  3 | 0
-Danny is active
+Lixis gets +2 power
+Lixis gets +2 priority
+Priorities:  0 | 9
+Lixis is active
+Lixis moves:
+
+...L..D
+mmmmmmm
+
 Danny hits
-Danny gets +2 power
-Lixis takes 5 damage (now at 2 life)
+Lixis takes 4 damage (now at 10 life)
 Lixis is stunned
 
 Beat 10
@@ -562,94 +588,233 @@ Beat 10
 
 Danny
 -----
-life: 19
-discard 1: Fallen Strike
-discard 2: Monstrous Hellgate Drive
+Life: 11
+Discard 1: Monstrous Burst
+Discard 2: Shackled Hellgate
 
 Lixis
 -----
-life: 2
-discard 1: Vine Shot
-discard 2: Naturalizing Drive
-special action
+Life: 10
+Discard 1: Pruning Dash
+Discard 2: Rooted Grasp
 
 
-..L...D
+...L..D
 mmmmmmm
+
+Unbeatable strategy for Lixis: Naturalizing Lance: -0.95
+
 
 Danny:
-9% Shackled Shot
-9% Shackled Burst
-82% Vicious Shot
+48% Fallen Strike
+24% Vicious Strike
+28% Vicious Grasp
 
 Lixis:
-43% Rooted Dash
-57% Special Pulse
+67% Naturalizing Lance
+14% Naturalizing Shot
+19% Naturalizing Drive
 
 
-Danny: Shackled Burst
-Lixis: Special Pulse
+Danny: Vicious Strike
+Lixis: Naturalizing Lance
 
-Pulse:
+Priorities:  4 | 6
+Lixis is active
+Lixis hits
+Danny discards Drive
+Danny takes 2 damage (now at 9 life)
+Lixis removes monsters:
 
-DL.....
+...L..D
+mmmmm.m
+
+Danny hits
+Danny gets +3 power
+Lixis takes 3 damage (now at 7 life)
+Lixis is stunned
+Danny adds monsters to the board:
+
+...L..D
 mmmmmmm
 
 
-Beat 10
+Beat 11
 -------
 
 Danny
 -----
-life: 19
-discard 1: Shackled Burst
-discard 2: Fallen Strike
+Life: 9
+Discard 1: Vicious Strike Drive
+Discard 2: Monstrous Burst
 
 Lixis
 -----
-life: 2
-discard 1: Vine Shot
-discard 2: Naturalizing Drive
+Life: 7
+Discard 1: Naturalizing Lance
+Discard 2: Pruning Dash
 
 
-DL.....
+...L..D
 mmmmmmm
+
 
 Danny:
-100% Vicious Grasp
+28% Fallen Shot
+45% Fallen Grasp
+20% Shackled Shot
+7% Shackled Grasp
 
 Lixis:
-10% Venomous Lance
-4% Venomous Strike
-8% Venomous Burst
-7% Venomous Grasp
-8% Venomous Dash
-3% Rooted Lance
-5% Rooted Strike
-4% Rooted Burst
-7% Rooted Grasp
-7% Rooted Dash
-10% Pruning Lance
-6% Pruning Strike
-7% Pruning Burst
-7% Pruning Grasp
-6% Pruning Dash
+20% Venomous Shot
+18% Venomous Drive
+53% Venomous Grasp
+8% Rooted Shot
 
 
-Danny: Vicious Grasp
-Lixis: Pruning Strike
+Danny: Fallen Shot
+Lixis: Venomous Shot
 
-Lixis gets +2 power
-Lixis gets +2 priority
-Priorities:  7 | 3
-Danny is active
-Danny hits
-Danny gets +5 power
-Danny moves Lixis:
+Priorities:  2 | 2
+Clash!
 
-D.L....
+
+Danny: Fallen Hellgate
+Lixis: Venomous Drive
+
+Priorities:  0 | 4
+Lixis is active
+Lixis moves:
+
+.....LD
 mmmmmmm
 
-Lixis takes 6 damage (now at 0 life)
-DANNY WINS!
-total_time: 34
+Lixis hits
+Danny will have -2 priority next beat
+Danny discards Shot
+Danny has 3 soak
+Danny takes 1 damage (now at 8 life)
+Danny is stunned
+Lixis removes monsters:
+
+.....LD
+mmmmmm.
+
+Danny adds monsters to the board:
+
+.....LD
+mmmmmmm
+
+
+Beat 12
+-------
+
+Danny
+-----
+Life: 8
+Discard 1: Fallen Shot Hellgate
+Discard 2: Vicious Strike Drive
+
+Lixis
+-----
+Life: 7
+Discard 1: Venomous Drive
+Discard 2: Naturalizing Lance
+Opponent has priority penalty: -2
+
+
+.....LD
+mmmmmmm
+
+Unbeatable strategy for Lixis: Pruning Grasp: -5.94
+
+
+Danny:
+60% Monstrous Burst
+13% Monstrous Grasp
+26% Monstrous Dash
+
+Lixis:
+4% Pruning Strike
+96% Pruning Grasp
+
+
+Danny: Monstrous Burst
+Lixis: Pruning Grasp
+
+Lixis gets +4 power
+Lixis gets +4 priority
+Priorities:  -2 | 7
+Lixis is active
+Lixis hits
+Lixis moves Danny:
+
+....DL.
+mmmmmmm
+
+Danny discards Grasp
+Danny takes 5 damage (now at 3 life)
+Danny is stunned
+Lixis removes monsters:
+
+....DL.
+mmmm.mm
+
+
+Beat 13
+-------
+
+Danny
+-----
+Life: 3
+Discard 1: Monstrous Grasp Burst
+Discard 2: Fallen Shot Hellgate
+
+Lixis
+-----
+Life: 7
+Discard 1: Pruning Grasp
+Discard 2: Venomous Drive
+
+
+....DL.
+mmmm.mm
+
+Unbeatable strategy for Lixis: Rooted Strike: -1.09
+Unbeatable strategy for Lixis: Naturalizing Strike: -0.37
+Unbeatable strategy for Lixis: Vine Strike: -0.37
+
+
+Danny:
+2% Shackled Strike
+59% Sinner's Dash
+37% Vicious Strike
+2% Vicious Drive
+
+Lixis:
+56% Rooted Strike
+4% Rooted Shot
+40% Vine Lance
+0% Vine Burst
+
+
+Danny: Sinner's Dash
+Lixis: Vine Lance
+
+Priorities:  9 | 3
+Danny is active
+Danny moves his monsters:
+
+....DL.
+mmmmmm.
+
+Danny moves:
+
+.D...L.
+mmmmmm.
+
+Lixis hits
+Danny discards Strike
+Danny takes 3 damage (now at 0 life)
+LIXIS WINS!
+total_time: 40

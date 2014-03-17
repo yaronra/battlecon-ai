@@ -11,17 +11,17 @@ Beat 1
 
 Aria
 ----
-life: 20
-discard 1: Laser Grasp
-discard 2: Ionic Dash
-special action
+Life: 20
+Discard 1: Laser Grasp
+Discard 2: Ionic Dash
+Special action available
 
 Hikaru
 ------
-life: 20
-discard 1: Focused Palm Strike
-discard 2: Trance Strike
-special action
+Life: 20
+Discard 1: Focused Palm Strike
+Discard 2: Trance Strike
+Special action available
 pool: Earth, Fire, Water, Wind
 
 
@@ -30,33 +30,31 @@ pool: Earth, Fire, Water, Wind
 .m.....
 .......
 
+
 Aria:
-0% Photovoltaic Reconfiguration
-1% Photovoltaic Strike
 2% Photovoltaic Shot
-8% Photovoltaic Drive
-8% Photovoltaic Burst
-46% Catalyst Reconfiguration
-9% Catalyst Strike
-25% Dimensional Reconfiguration
+9% Photovoltaic Drive
+6% Photovoltaic Burst
+50% Catalyst Reconfiguration
+7% Catalyst Strike
+26% Dimensional Reconfiguration
 
 Hikaru:
-4% Advancing Shot
-8% Advancing Shot (Earth)
-15% Advancing Shot (Fire)
-1% Advancing Drive (Water)
+18% Advancing Shot (Earth)
+10% Advancing Shot (Fire)
+11% Advancing Drive (Water)
 12% Advancing Drive (Wind)
-45% Sweeping Grasp
-2% Geomantic Shot (Fire)
-12% Geomantic Drive
+6% Sweeping Drive (Water)
+43% Sweeping Grasp
 
 
-Aria: Photovoltaic Burst
-Hikaru: Advancing Shot (Fire)
+Aria: Catalyst Reconfiguration
+Hikaru: Advancing Shot (Earth)
 
-Hikaru antes a Fire token
-Priorities:  2 | 3
-Hikaru is active
+Hikaru antes an Earth token
+Aria gets +4 priority
+Priorities:  8 | 3
+Aria is active
 Hikaru moves:
 
 .A..H..
@@ -71,49 +69,64 @@ A...H..
 .m.....
 .......
 
-Hikaru hits
-Aria takes 7 damage (now at 13 life)
-Aria is stunned
+Aria adds her Dampening droid:
+
+A...H..
+...d...
+.m.....
+.......
+
+Aria misses
+Hikaru misses
 
 Beat 2
 -------
 
 Aria
 ----
-life: 13
-discard 1: Photovoltaic Burst
-discard 2: Laser Grasp
-special action
+Life: 20
+Discard 1: Catalyst Reconfiguration
+Discard 2: Laser Grasp
+Special action available
 
 Hikaru
 ------
-life: 20
-discard 1: Advancing Shot
-discard 2: Focused Palm Strike
-special action
-pool: Earth, Water, Wind
+Life: 20
+Discard 1: Advancing Shot
+Discard 2: Focused Palm Strike
+Special action available
+pool: Fire, Water, Wind
 
 
 A...H..
-.......
+...d...
 .m.....
 .......
 
+
 Aria:
-3% Catalyst Reconfiguration
-34% Catalyst Strike
-63% Dimensional Reconfiguration
+77% Photovoltaic Strike
+11% Photovoltaic Shot
+5% Photovoltaic Drive
+7% Photovoltaic Burst
 
 Hikaru:
+3% Trance Strike
+4% Trance Strike (Fire)
+4% Trance Strike (Water)
+3% Trance Strike (Wind)
 5% Trance Drive
-6% Trance Drive (Earth)
-6% Trance Drive (Water)
-6% Trance Drive (Wind)
-32% Geomantic Drive (Wind)
-46% Geomantic Grasp (Wind)
+5% Trance Drive (Fire)
+5% Trance Drive (Water)
+5% Trance Drive (Wind)
+22% Trance Grasp
+10% Trance Grasp (Fire)
+9% Trance Grasp (Water)
+10% Trance Grasp (Wind)
+17% Geomantic Drive (Wind)
 
 
-Aria: Catalyst Strike
+Aria: Photovoltaic Strike
 Hikaru: Geomantic Drive (Wind)
 
 Hikaru antes a Wind token
@@ -123,148 +136,146 @@ Hikaru antes a Water token
 Hikaru moves:
 
 A.H....
-.......
+...d...
 .m.....
 .......
 
 Hikaru hits
-Aria takes 4 damage (now at 9 life)
+Aria takes 3 damage (now at 17 life)
 Aria hits
 Hikaru takes 3 damage (now at 17 life)
 Hikaru is stunned
+Aria adds her Turret droid:
+
+A.H....
+...d...
+.m.....
+t......
+
 
 Beat 3
 -------
 
 Aria
 ----
-life: 9
-discard 1: Catalyst Strike
-discard 2: Photovoltaic Burst
-special action
+Life: 17
+Discard 1: Photovoltaic Strike
+Discard 2: Catalyst Reconfiguration
+Special action available
 
 Hikaru
 ------
-life: 17
-discard 1: Geomantic Drive
-discard 2: Advancing Shot
-special action
-pool: Earth
+Life: 17
+Discard 1: Geomantic Drive
+Discard 2: Advancing Shot
+Special action available
+pool: Fire
 
 
 A.H....
-.......
+...d...
 .m.....
-.......
+t......
+
 
 Aria:
 19% Laser Shot
-40% Dimensional Reconfiguration
-11% Dimensional Drive
-29% Dimensional Dash
+2% Laser Drive
+12% Laser Grasp
+14% Dimensional Drive
+53% Dimensional Dash
 
 Hikaru:
-5% Trance Strike
-6% Trance Strike (Earth)
-33% Sweeping Palm Strike
-48% Sweeping Palm Strike (Earth)
-8% Sweeping Grasp
+8% Trance Strike
+8% Trance Strike (Fire)
+18% Trance Burst
+21% Trance Burst (Fire)
+6% Trance Grasp
+6% Trance Grasp (Fire)
+24% Sweeping Palm Strike (Fire)
+10% Sweeping Burst (Fire)
 
 
-Aria: Laser Shot
-Hikaru: Sweeping Palm Strike (Earth)
+Aria: Dimensional Drive
+Hikaru: Sweeping Palm Strike (Fire)
 
-Hikaru antes an Earth token
-Priorities:  2 | 7
-Hikaru is active
+Hikaru antes a Fire token
+Priorities:  8 | 7
+Aria is active
 Hikaru moves:
 
 AH.....
-.......
+...d...
 .m.....
-.......
+t......
 
-Hikaru hits
-Aria takes 1 damage (now at 8 life)
-Hikaru recovers a Fire token
-Aria hits
-Hikaru has 3 soak
-Hikaru takes 2 damage (now at 15 life)
-Hikaru is stunned
+Aria moves:
+
+.H.A...
+...d...
+.m.....
+t......
+
+Aria misses
+Hikaru misses
+Aria moves:
+
+.H....A
+...d...
+.m.....
+t......
+
+Hikaru loses 1 life (now at 16)
 
 Beat 4
 -------
 
 Aria
 ----
-life: 8
-discard 1: Laser Shot
-discard 2: Catalyst Strike
-special action
+Life: 17
+Discard 1: Dimensional Drive
+Discard 2: Photovoltaic Strike
+Special action available
 
 Hikaru
 ------
-life: 15
-discard 1: Sweeping Palm Strike
-discard 2: Geomantic Drive
-special action
-pool: Fire
+Life: 16
+Discard 1: Sweeping Palm Strike
+Discard 2: Geomantic Drive
+Special action available
+pool: 
 
 
-AH.....
-.......
+.H....A
+...d...
 .m.....
-.......
+t......
 
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 2.88
 
 Aria:
-30% Photovoltaic Reconfiguration
-70% Dimensional Reconfiguration
+60% Ionic Burst
+40% Laser Grasp
 
 Hikaru:
-43% Trance Burst
-52% Trance Burst (Fire)
-5% Focused Grasp
+70% Trance Dash
+30% Advancing Dash
 
 
-Aria: Photovoltaic Reconfiguration
-Hikaru: Trance Burst (Fire)
+Aria: Ionic Burst
+Hikaru: Trance Dash
 
-Hikaru antes a Fire token
-Priorities:  4 | 0
-Aria is active
+Priorities:  2 | 8
+Hikaru is active
 Hikaru moves:
 
-A..H...
-.......
+....H.A
+...d...
 .m.....
-.......
+t......
 
-Aria moves:
-
-...HA..
-.......
-.m.....
-.......
-
-Aria adds her Dampening droid:
-
-...HA..
-..d....
-.m.....
-.......
-
-Aria misses
-Aria adds her Turret droid:
-
-...HA..
-..d....
-.m.....
-....t..
-
-Hikaru misses
-Hikaru loses 1 life (now at 14)
+Aria hits
+Hikaru takes 3 damage (now at 13 life)
+Hikaru is stunned
 Hikaru recovers an Earth token
 
 Beat 5
@@ -272,590 +283,580 @@ Beat 5
 
 Aria
 ----
-life: 8
-discard 1: Photovoltaic Reconfiguration
-discard 2: Laser Shot
-special action
+Life: 17
+Discard 1: Ionic Burst
+Discard 2: Dimensional Drive
+Special action available
 
 Hikaru
 ------
-life: 14
-discard 1: Trance Burst
-discard 2: Sweeping Palm Strike
-special action
-pool: Fire, Earth
+Life: 13
+Discard 1: Trance Dash
+Discard 2: Sweeping Palm Strike
+Special action available
+pool: Earth
 
 
-...HA..
-..d....
+....H.A
+...d...
 .m.....
-....t..
+t......
 
-Unbeatable strategy for Aria: Dimensional Dash: 2.99
 
 Aria:
-2% Catalyst Burst
-2% Dimensional Burst
-96% Dimensional Dash
+27% Photovoltaic Strike
+7% Photovoltaic Grasp
+4% Laser Grasp
+63% Laser Dash
 
 Hikaru:
-23% Focused Dash
-6% Geomantic Drive
-50% Geomantic Grasp
-22% Geomantic Dash
+2% Focused Drive (Earth)
+23% Advancing Drive (Earth)
+47% Geomantic Shot
+28% Geomantic Drive
 
 
-Aria: Dimensional Dash
-Hikaru: Geomantic Grasp
+Aria: Photovoltaic Strike
+Hikaru: Geomantic Shot
 
-Priorities:  13 | 5
+Priorities:  4 | 2
 Aria is active
-Aria moves:
+Hikaru antes an Earth token
+Aria hits
+Aria removes her Dampening droid:
 
-A..H...
-..d....
+....H.A
+.......
 .m.....
-....t..
+t......
 
-Hikaru misses
-Aria moves:
+Aria gets +1 power
+Aria removes her Magnetron droid:
 
-.A.H...
-..d....
-.m.....
-....t..
+....H.A
+.......
+.......
+t......
 
-Hikaru loses 1 life (now at 13)
+Aria gets +1 power
+Aria removes her Turret droid:
+
+....H.A
+.......
+.......
+.......
+
+Aria gets +1 power
+Hikaru has 3 soak
+Hikaru takes 3 damage (now at 10 life)
+Hikaru is stunned
+Aria adds her Magnetron droid:
+
+....H.A
+.......
+......m
+.......
+
 
 Beat 6
 -------
 
 Aria
 ----
-life: 8
-discard 1: Dimensional Dash
-discard 2: Photovoltaic Reconfiguration
-special action
+Life: 17
+Discard 1: Photovoltaic Strike
+Discard 2: Ionic Burst
+Special action available
 
 Hikaru
 ------
-life: 13
-discard 1: Geomantic Grasp
-discard 2: Trance Burst
-special action
-pool: Fire, Earth
+Life: 10
+Discard 1: Geomantic Shot
+Discard 2: Trance Dash
+Special action available
+pool: 
 
 
-.A.H...
-..d....
-.m.....
-....t..
+....H.A
+.......
+......m
+.......
 
-Unbeatable strategy for Hikaru: Advancing Shot (Earth): -0.58
 
 Aria:
-12% Ionic Strike
-14% Ionic Drive
-41% Laser Burst
-12% Laser Grasp
-5% Catalyst Strike
-12% Catalyst Drive
-3% Catalyst Burst
+60% Catalyst Reconfiguration
+40% Dimensional Reconfiguration
 
 Hikaru:
-10% Focused Shot (Fire)
-4% Focused Drive (Fire)
-14% Advancing Palm Strike (Fire)
-23% Advancing Shot (Fire)
-31% Advancing Shot (Earth)
-12% Advancing Drive (Fire)
-6% Sweeping Drive (Fire)
+61% Sweeping Palm Strike
+39% Sweeping Grasp
 
 
-Aria: Ionic Drive
-Hikaru: Advancing Shot (Fire)
+Aria: Dimensional Reconfiguration
+Hikaru: Sweeping Grasp
 
-Hikaru antes a Fire token
-Priorities:  5 | 3
-Aria is active
-Aria moves Hikaru:
+Priorities:  7 | 8
+Hikaru is active
+Hikaru misses
+Aria moves:
 
-.AH....
-..d....
-.m.....
-....t..
+.A..H..
+.......
+......m
+.......
 
-Hikaru moves:
+Aria adds her Turret droid:
 
-HA.....
-..d....
-.m.....
-....t..
+.A..H..
+.......
+......m
+...t...
 
-Hikaru gets +1 power
-Aria hits
-Hikaru takes 3 damage (now at 10 life)
-Hikaru is stunned
+Aria misses
+Aria moves:
+
+A...H..
+.......
+......m
+...t...
+
+Hikaru loses 1 life (now at 9)
 
 Beat 7
 -------
 
 Aria
 ----
-life: 8
-discard 1: Ionic Drive
-discard 2: Dimensional Dash
-special action
+Life: 17
+Discard 1: Dimensional Reconfiguration
+Discard 2: Photovoltaic Strike
+Special action available
 
 Hikaru
 ------
-life: 10
-discard 1: Advancing Shot
-discard 2: Geomantic Grasp
-special action
-pool: Earth
+Life: 9
+Discard 1: Sweeping Grasp
+Discard 2: Geomantic Shot
+Special action available
+pool: 
 
 
-HA.....
-..d....
-.m.....
-....t..
+A...H..
+.......
+......m
+...t...
+
 
 Aria:
-35% Photovoltaic Reconfiguration
-41% Catalyst Reconfiguration
-24% Catalyst Burst
+17% Ionic Shot
+29% Ionic Drive
+9% Ionic Dash
+32% Laser Grasp
+14% Laser Dash
 
 Hikaru:
-52% Trance Dash
-25% Trance Dash (Earth)
-9% Focused Palm Strike
-15% Sweeping Strike
+6% Trance Palm Strike
+1% Trance Burst
+41% Trance Dash
+13% Focused Drive
+39% Advancing Dash
 
 
-Aria: Photovoltaic Reconfiguration
-Hikaru: Trance Dash
+Aria: Laser Grasp
+Hikaru: Focused Drive
 
-Priorities:  4 | 8
+Priorities:  5 | 5
+Clash!
+
+
+Aria: Laser Drive
+Hikaru: Focused Dash
+
+Priorities:  4 | 10
 Hikaru is active
 Hikaru moves:
 
-.AH....
-..d....
-.m.....
-....t..
+AH.....
+.......
+......m
+...t...
 
 Aria moves:
 
-..H...A
-..d....
-.m.....
-....t..
+.HA....
+.......
+......m
+...t...
 
-Aria misses
-Hikaru recovers a Fire token
+Aria hits
+Hikaru takes 3 damage (now at 6 life)
+Hikaru is stunned
 
 Beat 8
 -------
 
 Aria
 ----
-life: 8
-discard 1: Photovoltaic Reconfiguration
-discard 2: Ionic Drive
-special action
+Life: 17
+Discard 1: Laser Drive
+Discard 2: Dimensional Reconfiguration
+Special action available
 
 Hikaru
 ------
-life: 10
-discard 1: Trance Dash
-discard 2: Advancing Shot
-special action
-pool: Earth, Fire
+Life: 6
+Discard 1: Focused Dash
+Discard 2: Sweeping Grasp
+Special action available
+pool: 
 
 
-..H...A
-..d....
-.m.....
-....t..
+.HA....
+.......
+......m
+...t...
+
+Unbeatable strategy for Aria: Photovoltaic Dash: 0.95
+
 
 Aria:
-14% Laser Strike
-6% Laser Shot
-4% Laser Grasp
-9% Catalyst Strike
-14% Catalyst Shot
-12% Catalyst Grasp
-42% Dimensional Burst
+10% Photovoltaic Strike
+49% Photovoltaic Grasp
+36% Photovoltaic Dash
+5% Ionic Burst
 
 Hikaru:
-14% Focused Strike (Earth)
-2% Focused Drive (Earth)
-35% Focused Grasp (Earth)
-3% Sweeping Drive
-25% Sweeping Drive (Earth)
-3% Geomantic Strike
-18% Geomantic Drive
+26% Trance Strike
+33% Trance Drive
+23% Advancing Drive
+18% Geomantic Shot
 
 
-Aria: Laser Strike
-Hikaru: Sweeping Drive (Earth)
+Aria: Ionic Burst
+Hikaru: Advancing Drive
 
-Hikaru antes an Earth token
-Priorities:  3 | 6
+Priorities:  2 | 5
 Hikaru is active
 Hikaru moves:
 
-....H.A
-..d....
-.m.....
-....t..
+..AH...
+.......
+......m
+...t...
+
+Hikaru gets +1 power
+Aria moves Hikaru:
+
+..A.H..
+.......
+......m
+...t...
+
+Aria moves:
+
+A...H..
+.......
+......m
+...t...
+
+Hikaru moves:
+
+A.H....
+.......
+......m
+...t...
 
 Hikaru misses
-Aria misses
-Hikaru loses 1 life (now at 9)
+Aria hits
+Hikaru takes 3 damage (now at 3 life)
+Hikaru is stunned
+Hikaru loses 1 life (now at 2)
 
 Beat 9
 -------
 
 Aria
 ----
-life: 8
-discard 1: Laser Strike
-discard 2: Photovoltaic Reconfiguration
-special action
+Life: 17
+Discard 1: Ionic Burst
+Discard 2: Laser Drive
+Special action available
 
 Hikaru
 ------
-life: 9
-discard 1: Sweeping Drive
-discard 2: Trance Dash
-special action
-pool: Fire
+Life: 2
+Discard 1: Advancing Drive
+Discard 2: Focused Dash
+Special action available
+pool: 
 
 
-....H.A
-..d....
-.m.....
-....t..
+A.H....
+.......
+......m
+...t...
 
-Unbeatable strategy for Aria: Catalyst Dash: 0.10
-Unbeatable strategy for Aria: Dimensional Dash: 2.14
+Unbeatable strategy for Aria: Photovoltaic Dash: 0.80
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 1.46
+Unbeatable strategy for Aria: Dimensional Strike: 0.19
+Unbeatable strategy for Aria: Dimensional Grasp: 0.14
+Unbeatable strategy for Aria: Dimensional Dash: 2.64
+
 
 Aria:
-32% Ionic Shot
-3% Ionic Burst
-65% Dimensional Dash
+47% Photovoltaic Strike
+18% Photovoltaic Shot
+35% Dimensional Reconfiguration
 
 Hikaru:
-31% Focused Shot
-17% Focused Burst
-51% Geomantic Strike
+47% Trance Burst
+35% Sweeping Palm Strike
+18% Geomantic Palm Strike
 
 
-Aria: Ionic Shot
-Hikaru: Focused Shot
+Aria: Dimensional Reconfiguration
+Hikaru: Sweeping Palm Strike
 
-Priorities:  3 | 3
-Clash!
-
-Aria:
-37% Ionic Drive
-1% Ionic Burst
-62% Ionic Grasp
-
-Hikaru:
-3% Focused Palm Strike
-92% Focused Burst
-5% Focused Grasp
-
-
-Aria: Ionic Drive
-Hikaru: Focused Burst
-
-Priorities:  5 | 2
-Aria is active
-Aria moves Hikaru:
-
-...H..A
-..d....
-.m.....
-....t..
-
+Priorities:  7 | 8
+Hikaru is active
 Hikaru moves:
 
-..H...A
-..d....
-.m.....
-....t..
+AH.....
+.......
+......m
+...t...
 
+Hikaru hits
+Aria takes 1 damage (now at 16 life)
+Hikaru recovers an Earth token
+Aria is stunned
 Aria moves:
 
-..H.A..
-..d....
-.m.....
-....t..
+.H....A
+.......
+......m
+...t...
 
-Aria hits
-Hikaru takes 3 damage (now at 6 life)
-Hikaru is stunned
 
 Beat 10
 -------
 
 Aria
 ----
-life: 8
-discard 1: Ionic Drive
-discard 2: Laser Strike
-special action
+Life: 16
+Discard 1: Dimensional Reconfiguration
+Discard 2: Ionic Burst
+Special action available
 
 Hikaru
 ------
-life: 6
-discard 1: Focused Burst
-discard 2: Sweeping Drive
-special action
-pool: Fire
+Life: 2
+Discard 1: Sweeping Palm Strike
+Discard 2: Advancing Drive
+Special action available
+pool: Earth
 
 
-..H.A..
-..d....
-.m.....
-....t..
+.H....A
+.......
+......m
+...t...
 
-Unbeatable strategy for Aria: Dimensional Dash: 1.27
 
 Aria:
-7% Photovoltaic Reconfiguration
-8% Photovoltaic Burst
-4% Photovoltaic Grasp
-31% Dimensional Burst
-51% Dimensional Dash
+31% Photovoltaic Strike
+27% Photovoltaic Shot
+42% Laser Shot
 
 Hikaru:
-5% Trance Strike
-5% Trance Strike (Fire)
-15% Trance Shot
-14% Trance Shot (Fire)
-9% Trance Grasp
-9% Trance Grasp (Fire)
-17% Trance Dash
-17% Trance Dash (Fire)
-10% Advancing Shot (Fire)
+70% Geomantic Strike
+7% Geomantic Grasp
+22% Geomantic Dash
 
 
-Aria: Dimensional Burst
-Hikaru: Trance Grasp
+Aria: Laser Shot
+Hikaru: Geomantic Strike
 
-Priorities:  5 | 4
-Aria is active
-Aria moves:
-
-..H...A
-..d....
-.m.....
-....t..
-
-Aria hits
-Hikaru takes 2 damage (now at 4 life)
+Priorities:  2 | 3
+Hikaru is active
+Hikaru antes an Earth token
 Hikaru misses
-Aria moves:
-
-..H..A.
-..d....
-.m.....
-....t..
-
-Hikaru recovers an Earth token
+Aria misses
 
 Beat 11
 -------
 
 Aria
 ----
-life: 8
-discard 1: Dimensional Burst
-discard 2: Ionic Drive
-special action
+Life: 16
+Discard 1: Laser Shot
+Discard 2: Dimensional Reconfiguration
+Special action available
 
 Hikaru
 ------
-life: 4
-discard 1: Trance Grasp
-discard 2: Focused Burst
-special action
-pool: Fire, Earth
+Life: 2
+Discard 1: Geomantic Strike
+Discard 2: Sweeping Palm Strike
+Special action available
+pool: 
 
 
-..H..A.
-..d....
-.m.....
-....t..
+.H....A
+.......
+......m
+...t...
 
-Unbeatable strategy for Hikaru: Advancing Drive (Earth): -0.89
 
 Aria:
-20% Photovoltaic Reconfiguration
-5% Photovoltaic Strike
-9% Photovoltaic Grasp
-11% Laser Reconfiguration
-0% Laser Strike
-23% Laser Dash
-5% Catalyst Grasp
-27% Catalyst Dash
+26% Photovoltaic Strike
+25% Photovoltaic Drive
+45% Photovoltaic Grasp
+4% Catalyst Drive
 
 Hikaru:
-5% Advancing Palm Strike (Fire)
-9% Advancing Drive
-1% Advancing Drive (Earth)
-6% Advancing Dash (Fire)
-11% Sweeping Drive
-46% Sweeping Dash
-1% Geomantic Shot
-21% Geomantic Shot (Fire)
+4% Trance Shot
+67% Trance Burst
+15% Trance Grasp
+13% Advancing Shot
+1% Advancing Drive
 
 
-Aria: Catalyst Dash
-Hikaru: Sweeping Dash
+Aria: Photovoltaic Grasp
+Hikaru: Advancing Shot
 
-Priorities:  10 | 11
-Hikaru is active
+Priorities:  6 | 3
+Aria is active
 Hikaru moves:
 
-.....AH
-..d....
-.m.....
-....t..
+..H...A
+.......
+......m
+...t...
 
-Aria moves:
+Aria misses
+Aria adds her Dampening droid:
 
-....A.H
-..d....
-.m.....
-....t..
+..H...A
+......d
+......m
+...t...
 
+Hikaru hits
+Aria takes 4 damage (now at 12 life)
+Aria is stunned
+Hikaru loses 1 life (now at 1)
 
 Beat 12
 -------
 
 Aria
 ----
-life: 8
-discard 1: Catalyst Dash
-discard 2: Dimensional Burst
-special action
+Life: 12
+Discard 1: Photovoltaic Grasp
+Discard 2: Laser Shot
+Special action available
 
 Hikaru
 ------
-life: 4
-discard 1: Sweeping Dash
-discard 2: Trance Grasp
-special action
-pool: Fire, Earth
+Life: 1
+Discard 1: Advancing Shot
+Discard 2: Geomantic Strike
+Special action available
+pool: 
 
 
-....A.H
-..d....
-.m.....
-....t..
+..H...A
+......d
+......m
+...t...
 
-Unbeatable strategy for Hikaru: Focused Palm Strike (Earth): -0.31
-Unbeatable strategy for Hikaru: Focused Drive (Earth): -0.39
+Unbeatable strategy for Hikaru: Trance Dash: -0.14
+Unbeatable strategy for Hikaru: Sweeping Dash: -0.01
+
 
 Aria:
-18% Photovoltaic Strike
-19% Photovoltaic Drive
-14% Photovoltaic Grasp
-22% Ionic Reconfiguration
-10% Ionic Strike
-13% Ionic Grasp
-3% Laser Reconfiguration
+0% Ionic Reconfiguration
+49% Ionic Strike
+3% Catalyst Drive
+27% Dimensional Reconfiguration
+21% Dimensional Drive
 
 Hikaru:
-4% Focused Palm Strike (Earth)
-25% Focused Strike (Earth)
-49% Focused Drive (Earth)
-9% Geomantic Palm Strike
-6% Geomantic Strike (Earth)
-5% Geomantic Drive (Earth)
-0% Special Wrath of Elements
-0% Special Wrath of Elements (Fire)
-0% Special Wrath of Elements (Earth)
+4% Trance Drive
+43% Trance Dash
+21% Sweeping Burst
+7% Sweeping Grasp
+26% Sweeping Dash
 
 
-Aria: Ionic Reconfiguration
-Hikaru: Focused Drive (Earth)
+Aria: Ionic Strike
+Hikaru: Sweeping Dash
 
-Hikaru antes an Earth token
-Priorities:  4 | 5
+Priorities:  4 | 12
 Hikaru is active
 Aria moves Hikaru:
 
-....AH.
-..d....
-.m.....
-....t..
+...H..A
+......d
+......m
+...t...
 
 Hikaru moves:
 
-...HA..
-..d....
-.m.....
-....t..
+..H...A
+......d
+......m
+...t...
 
-Hikaru hits
-Hikaru recovers a Water token
-Aria takes 2 damage (now at 6 life)
-Aria is stunned
-Hikaru loses 1 life (now at 3)
+Aria misses
+Hikaru loses 1 life (now at 1)
 
 Beat 13
 -------
 
 Aria
 ----
-life: 6
-discard 1: Ionic Reconfiguration
-discard 2: Catalyst Dash
-special action
+Life: 12
+Discard 1: Ionic Strike
+Discard 2: Photovoltaic Grasp
+Special action available
 
 Hikaru
 ------
-life: 3
-discard 1: Focused Drive
-discard 2: Sweeping Dash
-special action
-pool: Fire, Water
+Life: 1
+Discard 1: Sweeping Dash
+Discard 2: Advancing Shot
+Special action available
+pool: 
 
 
-...HA..
-..d....
-.m.....
-....t..
+..H...A
+......d
+......m
+...t...
+
+Unbeatable strategy for Aria: Catalyst Shot: 6.00
+
 
 Aria:
-16% Photovoltaic Burst
-30% Photovoltaic Grasp
-1% Dimensional Drive
-54% Special Pulse
+27% Catalyst Shot
+73% Catalyst Burst
 
 Hikaru:
-33% Advancing Palm Strike (Fire)
-43% Advancing Burst (Fire)
-5% Advancing Grasp (Fire)
-20% Special Wrath of Elements
+4% Trance Burst
+96% Special Pulse
 
 
-Aria: Special Pulse
-Hikaru: Special Wrath of Elements
+Aria: Catalyst Burst
+Hikaru: Special Pulse
 
 Pulse:
 
-.H....A
-..d....
-.m.....
-....t..
+AH.....
+......d
+......m
+...t...
 
 
 Beat 13
@@ -863,90 +864,56 @@ Beat 13
 
 Aria
 ----
-life: 6
-discard 1: Ionic Reconfiguration
-discard 2: Catalyst Dash
+Life: 12
+Discard 1: Catalyst Burst
+Discard 2: Ionic Strike
+Special action available
 
 Hikaru
 ------
-life: 3
-discard 1: Focused Drive
-discard 2: Sweeping Dash
-pool: Fire, Water
+Life: 1
+Discard 1: Sweeping Dash
+Discard 2: Advancing Shot
+pool: 
 
 
-.H....A
-..d....
-.m.....
-....t..
+AH.....
+......d
+......m
+...t...
+
+Unbeatable strategy for Aria: Laser Dash: 0.04
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.86
+Unbeatable strategy for Aria: Dimensional Dash: 0.01
+
 
 Aria:
-33% Laser Strike
-33% Laser Shot
-33% Laser Drive
+0% Photovoltaic Shot
+65% Photovoltaic Grasp
+35% Laser Shot
 
 Hikaru:
-2% Trance Palm Strike
-2% Trance Palm Strike (Fire)
-2% Trance Palm Strike (Water)
-2% Trance Strike
-2% Trance Strike (Fire)
-2% Trance Strike (Water)
-2% Trance Shot
-2% Trance Shot (Fire)
-2% Trance Shot (Water)
-2% Trance Burst
-2% Trance Burst (Fire)
-2% Trance Burst (Water)
-2% Trance Grasp
-2% Trance Grasp (Fire)
-2% Trance Grasp (Water)
-3% Advancing Palm Strike
-3% Advancing Palm Strike (Fire)
-4% Advancing Palm Strike (Water)
-2% Advancing Strike
-3% Advancing Strike (Fire)
-3% Advancing Strike (Water)
-2% Advancing Shot
-1% Advancing Shot (Fire)
-2% Advancing Shot (Water)
-2% Advancing Burst
-2% Advancing Burst (Fire)
-2% Advancing Burst (Water)
-2% Advancing Grasp
-3% Advancing Grasp (Fire)
-3% Advancing Grasp (Water)
-2% Geomantic Palm Strike
-2% Geomantic Palm Strike (Fire)
-2% Geomantic Palm Strike (Water)
-2% Geomantic Strike
-3% Geomantic Strike (Fire)
-3% Geomantic Strike (Water)
-3% Geomantic Shot
-1% Geomantic Shot (Fire)
-1% Geomantic Shot (Water)
-2% Geomantic Burst
-2% Geomantic Burst (Fire)
-2% Geomantic Burst (Water)
-3% Geomantic Grasp
-3% Geomantic Grasp (Fire)
-3% Geomantic Grasp (Water)
+1% Trance Strike
+34% Focused Strike
+65% Focused Grasp
 
 
-Aria: Laser Drive
-Hikaru: Geomantic Strike
+Aria: Laser Shot
+Hikaru: Focused Grasp
 
-Priorities:  4 | 2
-Aria is active
-Hikaru antes a Fire token
-Aria moves:
+Priorities:  2 | 6
+Hikaru is active
+Hikaru hits
+Hikaru recovers an Earth token
+Hikaru moves Aria:
 
-.H..A..
-..d....
-.m.....
-....t..
+.HA....
+......d
+......m
+...t...
 
+Aria takes 2 damage (now at 10 life)
 Aria hits
 Hikaru takes 3 damage (now at 0 life)
 ARIA WINS!
-total_time: 60
+total_time: 50

@@ -83,8 +83,8 @@ def main():
         play()
     
 def ad_hoc():
-    duel('demitras', 'gerard', 1)
-    free_for_all(1, ['gerard'], '', ['aria'], True, False)
+    duel('gerard','tatsumi', 1)
+#    free_for_all(1, ['gerard'], 'vod', [], True, False)
 
 playable = [ 'abarene',
              'adjenna',

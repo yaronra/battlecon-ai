@@ -11,17 +11,17 @@ Beat 1
 
 Aria
 ----
-life: 20
-discard 1: Laser Grasp
-discard 2: Ionic Dash
-special action
+Life: 20
+Discard 1: Laser Grasp
+Discard 2: Ionic Dash
+Special action available
 
 Zaamassal
 ---------
-life: 20
-discard 1: Malicious Grasp
-discard 2: Sinuous Burst
-special action
+Life: 20
+Discard 1: Malicious Grasp
+Discard 2: Sinuous Burst
+Special action available
 Active paradigm: None
 
 
@@ -30,369 +30,328 @@ Active paradigm: None
 .m.....
 .......
 
-Unbeatable strategy for Aria: Catalyst Reconfiguration: 0.40
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.25
+Unbeatable strategy for Aria: Catalyst Reconfiguration: 0.75
+Unbeatable strategy for Aria: Dimensional Reconfiguration: 0.65
+
 
 Aria:
-15% Photovoltaic Drive
-80% Catalyst Reconfiguration
-5% Catalyst Burst
+33% Catalyst Reconfiguration
+10% Catalyst Burst
+57% Dimensional Reconfiguration
 
 Zaamassal:
 47% Urgent Paradigm Shift
-1% Urgent Drive
-52% Urgent Dash
+51% Urgent Dash
+1% Warped Shot
 
 
 Aria: Catalyst Reconfiguration
-Zaamassal: Urgent Paradigm Shift
+Zaamassal: Urgent Dash
 
 Aria gets +4 priority
-Priorities:  8 | 5
-Aria is active
-Aria moves:
+Priorities:  8 | 11
+Zaamassal is active
+Zaamassal moves:
 
-A....Z.
+.A..Z..
+.......
+.m.....
+.......
+
+Zaamassal assumes the Paradigm of Haste
+Zaamassal moves:
+
+ZA.....
 .......
 .m.....
 .......
 
 Aria adds her Dampening droid:
 
-A....Z.
-...d...
+ZA.....
+....d..
 .m.....
 .......
 
 Aria misses
-Zaamassal moves:
-
-A...Z..
-...d...
-.m.....
-.......
-
-Zaamassal misses
-Zaamassal assumes the Paradigm of Distortion
 
 Beat 2
 -------
 
 Aria
 ----
-life: 20
-discard 1: Catalyst Reconfiguration
-discard 2: Laser Grasp
-special action
+Life: 20
+Discard 1: Catalyst Reconfiguration
+Discard 2: Laser Grasp
+Special action available
 
 Zaamassal
 ---------
-life: 20
-discard 1: Urgent Paradigm Shift
-discard 2: Malicious Grasp
-special action
-Active paradigm: Distortion
+Life: 20
+Discard 1: Urgent Dash
+Discard 2: Malicious Grasp
+Special action available
+Active paradigm: Haste
 
 
-A...Z..
-...d...
+ZA.....
+....d..
 .m.....
 .......
 
-Aria:
-42% Photovoltaic Shot
-35% Photovoltaic Drive
-23% Photovoltaic Burst
+Unbeatable strategy for Zaamassal: Sinuous Strike: -0.26
 
-Zaamassal:
-15% Sturdy Shot
-82% Sturdy Burst
-3% Warped Strike
-
-
-Aria: Photovoltaic Burst
-Zaamassal: Sturdy Shot
-
-Priorities:  2 | 2
-Clash!
 
 Aria:
-38% Photovoltaic Strike
-61% Photovoltaic Shot
-0% Photovoltaic Drive
+100% Photovoltaic Strike
 
 Zaamassal:
-19% Sturdy Strike
-2% Sturdy Drive
-80% Sturdy Burst
+100% Sinuous Strike
 
 
 Aria: Photovoltaic Strike
-Zaamassal: Sturdy Burst
+Zaamassal: Sinuous Strike
 
-Priorities:  4 | 1
+Priorities:  4 | 3
 Aria is active
-Zaamassal moves:
-
-A....Z.
-...d...
-.m.....
-.......
-
-Aria misses
+Aria hits
+Zaamassal takes 3 damage (now at 17 life)
 Aria adds her Turret droid:
 
-A....Z.
-...d...
+ZA.....
+....d..
 .m.....
-t......
+.t.....
 
-Zaamassal misses
+Zaamassal hits
+Aria takes 4 damage (now at 16 life)
+Zaamassal assumes the Paradigm of Fluidity
+Zaamassal loses 1 life (now at 16)
+Zaamassal moves:
+
+.A...Z.
+....d..
+.m.....
+.t.....
+
+Zaamassal moves:
+
+.A....Z
+....d..
+.m.....
+.t.....
+
 
 Beat 3
 -------
 
 Aria
 ----
-life: 20
-discard 1: Photovoltaic Strike
-discard 2: Catalyst Reconfiguration
-special action
+Life: 16
+Discard 1: Photovoltaic Strike
+Discard 2: Catalyst Reconfiguration
+Special action available
 
 Zaamassal
 ---------
-life: 20
-discard 1: Sturdy Burst
-discard 2: Urgent Paradigm Shift
-special action
-Active paradigm: Distortion
+Life: 16
+Discard 1: Sinuous Strike
+Discard 2: Urgent Dash
+Special action available
+Active paradigm: Fluidity
 
 
-A....Z.
-...d...
+.A....Z
+....d..
 .m.....
-t......
+.t.....
+
 
 Aria:
-32% Ionic Drive
-60% Laser Shot
-9% Laser Grasp
+11% Ionic Shot
+3% Laser Shot
+66% Laser Burst
+20% Dimensional Shot
 
 Zaamassal:
-57% Malicious Strike
-34% Sinuous Drive
-9% Warped Shot
+63% Warped Paradigm Shift
+7% Warped Shot
+24% Warped Drive
+5% Warped Burst
 
 
-Aria: Laser Shot
-Zaamassal: Malicious Strike
+Aria: Dimensional Shot
+Zaamassal: Warped Drive
 
-Priorities:  2 | 2
-Clash!
-
-Aria:
-56% Laser Burst
-44% Laser Grasp
-
-Zaamassal:
-44% Malicious Shot
-56% Malicious Drive
-
-
-Aria: Laser Burst
-Zaamassal: Malicious Shot
-
-Priorities:  1 | 1
-Clash!
-
-Aria:
-100% Laser Grasp
-
-Zaamassal:
-100% Malicious Drive
-
-
-Aria: Laser Grasp
-Zaamassal: Malicious Drive
-
-Priorities:  5 | 3
+Priorities:  6 | 4
 Aria is active
-Aria misses
+Aria hits
+Zaamassal takes 2 damage (now at 14 life)
 Zaamassal moves:
 
-A...Z..
-...d...
+.A..Z..
+....d..
 .m.....
-t......
+.t.....
 
-Zaamassal misses
+Zaamassal hits
+Aria takes 2 damage (now at 14 life)
+Aria moves:
+
+...AZ..
+....d..
+.m.....
+.t.....
+
 
 Beat 4
 -------
 
 Aria
 ----
-life: 20
-discard 1: Laser Grasp
-discard 2: Photovoltaic Strike
-special action
+Life: 14
+Discard 1: Dimensional Shot
+Discard 2: Photovoltaic Strike
+Special action available
 
 Zaamassal
 ---------
-life: 20
-discard 1: Malicious Drive
-discard 2: Sturdy Burst
-special action
-Active paradigm: Distortion
+Life: 14
+Discard 1: Warped Drive
+Discard 2: Sinuous Strike
+Special action available
+Active paradigm: Fluidity
 
 
-A...Z..
-...d...
+...AZ..
+....d..
 .m.....
-t......
+.t.....
+
+Unbeatable strategy for Zaamassal: Malicious Shot: -0.09
+Unbeatable strategy for Zaamassal: Urgent Grasp: -0.15
+
 
 Aria:
-6% Ionic Shot
-25% Ionic Drive
-9% Catalyst Reconfiguration
-1% Catalyst Drive
-4% Dimensional Reconfiguration
-54% Dimensional Drive
+13% Ionic Drive
+2% Ionic Burst
+15% Laser Burst
+1% Catalyst Reconfiguration
+69% Catalyst Dash
 
 Zaamassal:
-15% Sinuous Shot
-14% Sinuous Grasp
-28% Sinuous Dash
-8% Urgent Paradigm Shift
-29% Urgent Dash
-5% Warped Grasp
+4% Urgent Paradigm Shift
+66% Urgent Grasp
+17% Sturdy Paradigm Shift
+0% Sturdy Shot
+13% Sturdy Burst
 
 
-Aria: Dimensional Drive
-Zaamassal: Sinuous Dash
+Aria: Catalyst Dash
+Zaamassal: Urgent Grasp
 
-Priorities:  8 | 10
-Zaamassal is active
-Zaamassal assumes the Paradigm of Fluidity
-Zaamassal moves:
-
-A..Z...
-...d...
-.m.....
-t......
-
+Priorities:  10 | 7
+Aria is active
 Aria moves:
 
-..AZ...
-...d...
+....ZA.
+....d..
 .m.....
-t......
-
-Aria misses
-Zaamassal moves:
-
-.ZA....
-...d...
-.m.....
-t......
+.t.....
 
 Zaamassal moves:
 
-..AZ...
-...d...
+...Z.A.
+....d..
 .m.....
-t......
+.t.....
 
-Aria moves:
-
-.A.Z...
-...d...
-.m.....
-t......
-
+Zaamassal misses
 
 Beat 5
 -------
 
 Aria
 ----
-life: 20
-discard 1: Dimensional Drive
-discard 2: Laser Grasp
-special action
+Life: 14
+Discard 1: Catalyst Dash
+Discard 2: Dimensional Shot
+Special action available
 
 Zaamassal
 ---------
-life: 20
-discard 1: Sinuous Dash
-discard 2: Malicious Drive
-special action
+Life: 14
+Discard 1: Urgent Grasp
+Discard 2: Warped Drive
+Special action available
 Active paradigm: Fluidity
 
 
-.A.Z...
-...d...
+...Z.A.
+....d..
 .m.....
-t......
+.t.....
+
 
 Aria:
-32% Photovoltaic Strike
-20% Photovoltaic Shot
-22% Photovoltaic Burst
-26% Catalyst Shot
+6% Photovoltaic Strike
+23% Photovoltaic Drive
+29% Photovoltaic Burst
+13% Laser Reconfiguration
+17% Laser Drive
+6% Laser Burst
+6% Laser Grasp
 
 Zaamassal:
-39% Urgent Strike
-6% Urgent Burst
-55% Sturdy Burst
-0% Warped Burst
+21% Malicious Strike
+0% Sinuous Paradigm Shift
+5% Sinuous Burst
+24% Sinuous Dash
+10% Sturdy Paradigm Shift
+9% Sturdy Shot
+31% Sturdy Dash
 
 
-Aria: Photovoltaic Shot
-Zaamassal: Sturdy Burst
+Aria: Laser Reconfiguration
+Zaamassal: Sinuous Dash
 
-Priorities:  3 | 1
-Aria is active
-Aria hits
-Aria removes her Magnetron droid:
+Priorities:  3 | 10
+Zaamassal is active
+Zaamassal moves:
 
-.A.Z...
-...d...
-.......
-t......
-
-Aria gets +1 power
-Aria removes her Turret droid:
-
-.A.Z...
-...d...
-.......
-.......
-
-Aria gets +1 power
-Zaamassal takes 4 damage (now at 16 life)
-Aria adds her Magnetron droid:
-
-.A.Z...
-...d...
+..Z..A.
+....d..
 .m.....
-.......
+.t.....
 
 Zaamassal moves:
 
-.A..Z..
-...d...
+...Z.A.
+....d..
 .m.....
-.......
+.t.....
 
-Zaamassal hits
-Aria takes 2 damage (now at 18 life)
+Aria moves:
+
+..AZ...
+....d..
+.m.....
+.t.....
+
+Aria misses
 Zaamassal moves:
 
-.A...Z.
-...d...
+..A..Z.
+....d..
 .m.....
-.......
+.t.....
+
+Zaamassal moves:
+
+..A...Z
+....d..
+.m.....
+.t.....
 
 
 Beat 6
@@ -400,430 +359,408 @@ Beat 6
 
 Aria
 ----
-life: 18
-discard 1: Photovoltaic Shot
-discard 2: Dimensional Drive
-special action
+Life: 14
+Discard 1: Laser Reconfiguration
+Discard 2: Catalyst Dash
+Special action available
 
 Zaamassal
 ---------
-life: 16
-discard 1: Sturdy Burst
-discard 2: Sinuous Dash
-special action
+Life: 14
+Discard 1: Sinuous Dash
+Discard 2: Urgent Grasp
+Special action available
 Active paradigm: Fluidity
 
 
-.A...Z.
-...d...
+..A...Z
+....d..
 .m.....
-.......
+.t.....
 
-Unbeatable strategy for Aria: Catalyst Reconfiguration: 0.08
+Unbeatable strategy for Aria: Photovoltaic Drive: 0.03
+Unbeatable strategy for Aria: Dimensional Burst: 0.21
+
 
 Aria:
-89% Catalyst Reconfiguration
-11% Catalyst Burst
+16% Photovoltaic Shot
+80% Photovoltaic Drive
+4% Photovoltaic Burst
 
 Zaamassal:
-70% Urgent Drive
-30% Warped Drive
+96% Sturdy Shot
+1% Sturdy Burst
+3% Warped Strike
 
 
-Aria: Catalyst Reconfiguration
-Zaamassal: Warped Drive
+Aria: Photovoltaic Burst
+Zaamassal: Sturdy Shot
 
-Aria gets +4 priority
-Priorities:  8 | 4
+Priorities:  2 | 2
+Clash!
+
+
+Aria: Photovoltaic Drive
+Zaamassal: Sturdy Burst
+
+Priorities:  5 | 1
 Aria is active
-Zaamassal moves:
-
-.A....Z
-...d...
-.m.....
-.......
-
 Aria moves:
 
-A.....Z
-...d...
+...A..Z
+....d..
 .m.....
+.t.....
+
+Aria hits
+Aria removes her Magnetron droid:
+
+...A..Z
+....d..
 .......
+.t.....
 
-Aria adds her Turret droid:
+Aria gets +1 power
+Zaamassal takes 3 damage (now at 11 life)
+Aria adds her Magnetron droid:
 
-A.....Z
-...d...
-.m.....
-....t..
+...A..Z
+....d..
+...m...
+.t.....
 
-Aria misses
-Zaamassal moves:
-
-A....Z.
-...d...
-.m.....
-....t..
-
-Zaamassal moves:
-
-A.....Z
-...d...
-.m.....
-....t..
-
-Zaamassal misses
-Zaamassal assumes the Paradigm of Distortion
+Zaamassal hits
+Aria takes 3 damage (now at 11 life)
+Aria is stunned
 
 Beat 7
 -------
 
 Aria
 ----
-life: 18
-discard 1: Catalyst Reconfiguration
-discard 2: Photovoltaic Shot
-special action
+Life: 11
+Discard 1: Photovoltaic Drive
+Discard 2: Laser Reconfiguration
+Special action available
 
 Zaamassal
 ---------
-life: 16
-discard 1: Warped Drive
-discard 2: Sturdy Burst
-special action
-Active paradigm: Distortion
+Life: 11
+Discard 1: Sturdy Burst
+Discard 2: Sinuous Dash
+Special action available
+Active paradigm: Fluidity
 
 
-A.....Z
-...d...
-.m.....
-....t..
+...A..Z
+....d..
+...m...
+.t.....
 
-Unbeatable strategy for Aria: Dimensional Grasp: 0.09
+Unbeatable strategy for Aria: Catalyst Strike: 0.35
+
 
 Aria:
-52% Ionic Strike
-23% Laser Drive
-25% Laser Burst
+76% Catalyst Strike
+8% Dimensional Strike
+16% Dimensional Burst
 
 Zaamassal:
-52% Malicious Shot
-18% Sinuous Grasp
-30% Urgent Shot
+31% Malicious Shot
+13% Urgent Strike
+56% Warped Strike
 
 
-Aria: Ionic Strike
-Zaamassal: Urgent Shot
+Aria: Dimensional Burst
+Zaamassal: Warped Strike
 
-Priorities:  4 | 4
-Clash!
+Aria gets +2 power
+Priorities:  5 | 3
+Aria is active
+Aria moves:
 
-Aria:
-100% Ionic Grasp
+.A....Z
+....d..
+...m...
+.t.....
 
-Zaamassal:
-100% Urgent Dash
+Aria hits
+Zaamassal takes 4 damage (now at 7 life)
+Zaamassal moves:
 
+.A...Z.
+....d..
+...m...
+.t.....
 
-Aria: Ionic Grasp
-Zaamassal: Urgent Dash
-
-Priorities:  6 | 11
-Zaamassal is active
-Aria moves Zaamassal:
+Zaamassal misses
+Aria moves:
 
 A....Z.
-...d...
-.m.....
-....t..
-
-Zaamassal moves:
-
-A...Z..
-...d...
-.m.....
-....t..
+....d..
+...m...
+.t.....
 
 Zaamassal moves:
 
 A.....Z
-...d...
-.m.....
-....t..
+....d..
+...m...
+.t.....
 
-Aria misses
 
 Beat 8
 -------
 
 Aria
 ----
-life: 18
-discard 1: Ionic Grasp
-discard 2: Catalyst Reconfiguration
-special action
+Life: 11
+Discard 1: Dimensional Burst
+Discard 2: Photovoltaic Drive
+Special action available
 
 Zaamassal
 ---------
-life: 16
-discard 1: Urgent Dash
-discard 2: Warped Drive
-special action
-Active paradigm: Distortion
+Life: 7
+Discard 1: Warped Strike
+Discard 2: Sturdy Burst
+Special action available
+Active paradigm: Fluidity
 
 
 A.....Z
-...d...
-.m.....
-....t..
+....d..
+...m...
+.t.....
+
 
 Aria:
-16% Photovoltaic Shot
-37% Laser Shot
-10% Laser Drive
-37% Laser Burst
+17% Ionic Shot
+39% Laser Strike
+44% Laser Shot
 
 Zaamassal:
-67% Sinuous Strike
-11% Sinuous Shot
-11% Sturdy Shot
-11% Sturdy Burst
+34% Malicious Paradigm Shift
+22% Sinuous Grasp
+45% Special Plane Divider
 
 
-Aria: Laser Shot
-Zaamassal: Sinuous Strike
+Aria: Ionic Shot
+Zaamassal: Malicious Paradigm Shift
 
-Priorities:  2 | 4
-Zaamassal is active
-Zaamassal misses
-Zaamassal assumes the Paradigm of Fluidity
-Aria hits
-Zaamassal takes 3 damage (now at 13 life)
-Zaamassal moves:
+Priorities:  3 | 2
+Aria is active
+Aria moves Zaamassal:
 
 A....Z.
-...d...
-.m.....
-....t..
+....d..
+...m...
+.t.....
 
-Zaamassal moves:
-
-A.Z....
-...d...
-.m.....
-....t..
-
+Aria hits
+Zaamassal takes 3 damage (now at 4 life)
+Zaamassal is stunned
+Zaamassal loses all paradigms
 
 Beat 9
 -------
 
 Aria
 ----
-life: 18
-discard 1: Laser Shot
-discard 2: Ionic Grasp
-special action
+Life: 11
+Discard 1: Ionic Shot
+Discard 2: Dimensional Burst
+Special action available
 
 Zaamassal
 ---------
-life: 13
-discard 1: Sinuous Strike
-discard 2: Urgent Dash
-special action
-Active paradigm: Fluidity
+Life: 4
+Discard 1: Malicious Paradigm Shift
+Discard 2: Warped Strike
+Special action available
+Active paradigm: None
 
 
-A.Z....
-...d...
-.m.....
-....t..
+A....Z.
+....d..
+...m...
+.t.....
 
-Unbeatable strategy for Aria: Photovoltaic Drive: 0.74
+Unbeatable strategy for Zaamassal: Sinuous Burst: -3.43
+Unbeatable strategy for Zaamassal: Sinuous Dash: -2.07
+
 
 Aria:
-39% Photovoltaic Strike
-53% Photovoltaic Drive
-8% Photovoltaic Burst
+3% Photovoltaic Drive
+97% Catalyst Strike
 
 Zaamassal:
-80% Sturdy Shot
-3% Sturdy Drive
-17% Sturdy Burst
+9% Sinuous Shot
+91% Sinuous Burst
 
 
-Aria: Photovoltaic Burst
-Zaamassal: Sturdy Shot
+Aria: Catalyst Strike
+Zaamassal: Sinuous Burst
 
-Priorities:  2 | 1
+Priorities:  4 | 2
 Aria is active
-Aria hits
-Aria removes her Turret droid:
+Zaamassal moves:
 
-A.Z....
-...d...
-.m.....
-.......
+A.....Z
+....d..
+...m...
+.t.....
 
-Aria gets +1 power
-Zaamassal takes 3 damage (now at 10 life)
-Aria adds her Turret droid:
+Aria misses
+Zaamassal misses
+Zaamassal assumes the Paradigm of Fluidity
+Zaamassal moves:
 
-A.Z....
-...d...
-.m.....
-t......
+AZ.....
+....d..
+...m...
+.t.....
 
-Zaamassal hits
-Aria takes 2 damage (now at 16 life)
-Aria is stunned
-Zaamassal assumes the Paradigm of Resilience
 
 Beat 10
 -------
 
 Aria
 ----
-life: 16
-discard 1: Photovoltaic Burst
-discard 2: Laser Shot
-special action
+Life: 11
+Discard 1: Catalyst Strike
+Discard 2: Ionic Shot
+Special action available
 
 Zaamassal
 ---------
-life: 10
-discard 1: Sturdy Shot
-discard 2: Sinuous Strike
-special action
-Active paradigm: Resilience
+Life: 4
+Discard 1: Sinuous Burst
+Discard 2: Malicious Paradigm Shift
+Special action available
+Active paradigm: Fluidity
 
 
-A.Z....
-...d...
-.m.....
-t......
+AZ.....
+....d..
+...m...
+.t.....
+
 
 Aria:
-23% Ionic Strike
-33% Ionic Drive
-7% Catalyst Drive
-13% Catalyst Grasp
-16% Dimensional Reconfiguration
-7% Dimensional Grasp
+13% Photovoltaic Grasp
+0% Laser Burst
+55% Dimensional Reconfiguration
+32% Dimensional Dash
 
 Zaamassal:
-4% Malicious Burst
-16% Urgent Drive
-22% Urgent Burst
-20% Urgent Grasp
-0% Warped Burst
-39% Warped Dash
+65% Urgent Drive
+18% Urgent Grasp
+2% Warped Drive
+15% Warped Dash
 
 
-Aria: Catalyst Drive
-Zaamassal: Urgent Burst
+Aria: Dimensional Dash
+Zaamassal: Urgent Drive
 
-Priorities:  5 | 2
+Priorities:  13 | 6
 Aria is active
-Zaamassal moves:
-
-A..Z...
-...d...
-.m.....
-t......
-
 Aria moves:
 
-.A.Z...
-...d...
-.m.....
-t......
+.ZA....
+....d..
+...m...
+.t.....
 
-Aria hits
-Zaamassal takes 2 damage (now at 8 life)
-Zaamassal is stunned
-Zaamassal assumes the following paradigms:
+Zaamassal moves:
+
+..A.Z..
+....d..
+...m...
+.t.....
+
+Zaamassal moves:
+
+..A..Z.
+....d..
+...m...
+.t.....
+
+Zaamassal misses
+Aria moves:
+
+.....ZA
+....d..
+...m...
+.t.....
+
 
 Beat 11
 -------
 
 Aria
 ----
-life: 16
-discard 1: Catalyst Drive
-discard 2: Photovoltaic Burst
-special action
+Life: 11
+Discard 1: Dimensional Dash
+Discard 2: Catalyst Strike
+Special action available
 
 Zaamassal
 ---------
-life: 8
-discard 1: Urgent Burst
-discard 2: Sturdy Shot
-special action
-Active paradigm: None
+Life: 4
+Discard 1: Urgent Drive
+Discard 2: Sinuous Burst
+Special action available
+Active paradigm: Fluidity
 
 
-.A.Z...
-...d...
-.m.....
-t......
+.....ZA
+....d..
+...m...
+.t.....
 
-Unbeatable strategy for Zaamassal: Malicious Dash: -0.20
-Unbeatable strategy for Zaamassal: Sinuous Strike: -1.16
-Unbeatable strategy for Zaamassal: Sinuous Dash: -1.31
+Unbeatable strategy for Aria: Photovoltaic Grasp: 1.24
+
 
 Aria:
-14% Ionic Reconfiguration
-25% Ionic Strike
-22% Ionic Grasp
-4% Laser Strike
-0% Laser Grasp
-32% Laser Dash
-3% Special Pulse
+26% Photovoltaic Shot
+31% Photovoltaic Drive
+30% Laser Burst
+13% Special Pulse
 
 Zaamassal:
-6% Malicious Drive
-2% Malicious Dash
-11% Sinuous Paradigm Shift
-29% Sinuous Strike
-4% Sinuous Drive
-44% Sinuous Dash
-3% Warped Strike
+2% Warped Strike
+2% Warped Grasp
+25% Warped Dash
+71% Special Open the Gate
 
 
-Aria: Ionic Reconfiguration
-Zaamassal: Sinuous Dash
+Aria: Photovoltaic Shot
+Zaamassal: Special Open the Gate
 
-Priorities:  4 | 10
+Priorities:  3 | 7
 Zaamassal is active
-Aria moves Zaamassal:
-
-.AZ....
-...d...
-.m.....
-t......
-
-Zaamassal assumes the Paradigm of Fluidity
 Zaamassal moves:
 
-ZA.....
-...d...
-.m.....
-t......
+....Z.A
+....d..
+...m...
+.t.....
 
-Aria moves:
-
-Z.A....
-...d...
-.m.....
-t......
-
-Aria misses
+Zaamassal hits
+Aria is stunned
+Zaamassal assumes the following paradigms:
+   Pain
+   Fluidity
+   Resilience
+Aria takes 2 damage (now at 9 life)
+Aria loses 2 life (now at 7)
 Zaamassal moves:
 
-..A...Z
-...d...
-.m.....
-t......
+.....ZA
+....d..
+...m...
+.t.....
 
 
 Beat 12
@@ -831,148 +768,136 @@ Beat 12
 
 Aria
 ----
-life: 16
-discard 1: Ionic Reconfiguration
-discard 2: Catalyst Drive
-special action
+Life: 7
+Discard 1: Photovoltaic Shot
+Discard 2: Dimensional Dash
+Special action available
 
 Zaamassal
 ---------
-life: 8
-discard 1: Sinuous Dash
-discard 2: Urgent Burst
-special action
-Active paradigm: Fluidity
+Life: 4
+Discard 1: Urgent Drive
+Discard 2: Sinuous Burst
+Active paradigm: Resilience, Pain, Fluidity
 
 
-..A...Z
-...d...
-.m.....
-t......
+.....ZA
+....d..
+...m...
+.t.....
 
-Unbeatable strategy for Zaamassal: Warped Paradigm Shift: -1.59
-Unbeatable strategy for Zaamassal: Warped Drive: -1.50
 
 Aria:
-2% Laser Burst
-37% Dimensional Shot
-61% Dimensional Burst
+39% Ionic Strike
+39% Laser Strike
+22% Laser Burst
 
 Zaamassal:
-66% Warped Paradigm Shift
-4% Warped Shot
-23% Warped Drive
-6% Warped Grasp
+4% Malicious Grasp
+14% Sturdy Paradigm Shift
+82% Sturdy Dash
 
 
-Aria: Dimensional Burst
-Zaamassal: Warped Grasp
+Aria: Laser Strike
+Zaamassal: Sturdy Dash
 
-Priorities:  5 | 5
-Clash!
-
-Aria:
-62% Dimensional Shot
-38% Dimensional Dash
-
-Zaamassal:
-30% Warped Strike
-70% Warped Shot
-
-
-Aria: Dimensional Shot
-Zaamassal: Warped Strike
-
-Priorities:  6 | 3
-Aria is active
-Aria hits
-Zaamassal takes 2 damage (now at 6 life)
+Priorities:  3 | 9
+Zaamassal is active
 Zaamassal moves:
 
-..A..Z.
-...d...
-.m.....
-t......
-
-Zaamassal hits
-Aria takes 4 damage (now at 12 life)
-Aria is stunned
-Aria moves:
-
-A....Z.
-...d...
-.m.....
-t......
+....Z.A
+....d..
+...m...
+.t.....
 
 Zaamassal moves:
 
-A.....Z
-...d...
-.m.....
-t......
+.Z....A
+....d..
+...m...
+.t.....
 
+Aria misses
+Zaamassal moves:
+
+..Z...A
+....d..
+...m...
+.t.....
+
+Zaamassal loses 1 life (now at 3)
 
 Beat 13
 -------
 
 Aria
 ----
-life: 12
-discard 1: Dimensional Shot
-discard 2: Ionic Reconfiguration
-special action
+Life: 7
+Discard 1: Laser Strike
+Discard 2: Photovoltaic Shot
+Special action available
 
 Zaamassal
 ---------
-life: 6
-discard 1: Warped Strike
-discard 2: Sinuous Dash
-special action
-Active paradigm: Fluidity
+Life: 3
+Discard 1: Sturdy Dash
+Discard 2: Urgent Drive
+Active paradigm: Resilience, Pain, Fluidity
 
 
-A.....Z
-...d...
-.m.....
-t......
+..Z...A
+....d..
+...m...
+.t.....
 
-Unbeatable strategy for Zaamassal: Urgent Shot: -1.76
-Unbeatable strategy for Zaamassal: Urgent Drive: -0.58
-Unbeatable strategy for Zaamassal: Urgent Burst: -1.49
 
 Aria:
-12% Laser Strike
-26% Laser Drive
-63% Laser Grasp
+9% Ionic Drive
+91% Catalyst Burst
 
 Zaamassal:
-74% Urgent Shot
-5% Urgent Drive
-20% Urgent Burst
+40% Sinuous Shot
+60% Sinuous Burst
 
 
-Aria: Laser Grasp
-Zaamassal: Urgent Shot
+Aria: Ionic Drive
+Zaamassal: Sinuous Burst
 
-Priorities:  5 | 4
+Priorities:  5 | 1
 Aria is active
+Zaamassal moves:
+
+.Z....A
+....d..
+...m...
+.t.....
+
+Aria moves:
+
+.Z..A..
+....d..
+...m...
+.t.....
+
 Aria misses
-Zaamassal moves:
-
-A....Z.
-...d...
-.m.....
-t......
-
 Zaamassal hits
-Aria takes 2 damage (now at 10 life)
+Aria takes 3 damage (now at 4 life)
+Aria loses 2 life (now at 2)
 Aria is stunned
+Zaamassal loses 1 life (now at 2)
 Zaamassal moves:
 
-A...Z..
-...d...
-.m.....
-t......
+....AZ.
+....d..
+...m...
+.t.....
+
+Zaamassal moves:
+
+....A.Z
+....d..
+...m...
+.t.....
 
 
 Beat 14
@@ -980,220 +905,106 @@ Beat 14
 
 Aria
 ----
-life: 10
-discard 1: Laser Grasp
-discard 2: Dimensional Shot
-special action
+Life: 2
+Discard 1: Ionic Drive
+Discard 2: Laser Strike
+Special action available
 
 Zaamassal
 ---------
-life: 6
-discard 1: Urgent Shot
-discard 2: Warped Strike
-special action
-Active paradigm: Fluidity
+Life: 2
+Discard 1: Sinuous Burst
+Discard 2: Sturdy Dash
+Active paradigm: Resilience, Pain, Fluidity
 
 
-A...Z..
-...d...
-.m.....
-t......
+....A.Z
+....d..
+...m...
+.t.....
 
-Unbeatable strategy for Zaamassal: Malicious Burst: -0.11
-Unbeatable strategy for Zaamassal: Sinuous Drive: -1.85
-Unbeatable strategy for Zaamassal: Sinuous Burst: -1.01
-Unbeatable strategy for Zaamassal: Sinuous Dash: -0.33
-Unbeatable strategy for Zaamassal: Sturdy Drive: -0.40
-Unbeatable strategy for Zaamassal: Sturdy Burst: -0.37
+Unbeatable strategy for Zaamassal: Urgent Drive: -7.00
+
 
 Aria:
-8% Photovoltaic Strike
-13% Photovoltaic Drive
-65% Catalyst Drive
-14% Catalyst Burst
+13% Photovoltaic Grasp
+0% Catalyst Grasp
+17% Dimensional Shot
+70% Special Pulse
 
 Zaamassal:
-12% Malicious Drive
-33% Sinuous Drive
-11% Sturdy Drive
-44% Sturdy Grasp
+14% Malicious Grasp
+59% Urgent Drive
+24% Urgent Grasp
+3% Warped Grasp
 
 
-Aria: Photovoltaic Strike
-Zaamassal: Sinuous Drive
-
-Priorities:  4 | 5
-Zaamassal is active
-Zaamassal moves:
-
-A..Z...
-...d...
-.m.....
-t......
-
-Zaamassal moves:
-
-A...Z..
-...d...
-.m.....
-t......
-
-Zaamassal misses
-Aria misses
-Zaamassal moves:
-
-A..Z...
-...d...
-.m.....
-t......
-
-Zaamassal moves:
-
-A.Z....
-...d...
-.m.....
-t......
-
-
-Beat 15
--------
-
-Aria
-----
-life: 10
-discard 1: Photovoltaic Strike
-discard 2: Laser Grasp
-special action
-
-Zaamassal
----------
-life: 6
-discard 1: Sinuous Drive
-discard 2: Urgent Shot
-special action
-Active paradigm: Fluidity
-
-
-A.Z....
-...d...
-.m.....
-t......
-
-Unbeatable strategy for Aria: Ionic Drive: 11.00
-Unbeatable strategy for Aria: Ionic Dash: 11.00
-Unbeatable strategy for Aria: Catalyst Dash: 11.00
-Unbeatable strategy for Aria: Dimensional Dash: 11.00
-
-Aria:
-19% Catalyst Reconfiguration
-81% Catalyst Dash
-
-Zaamassal:
-97% Special Pulse
-3% Special Plane Divider
-
-
-Aria: Catalyst Dash
-Zaamassal: Special Pulse
+Aria: Special Pulse
+Zaamassal: Urgent Drive
 
 Pulse:
 
-.....ZA
-...d...
-.m.....
-t......
+.Z....A
+....d..
+...m...
+.t.....
 
 
-Beat 15
+Beat 14
 -------
 
 Aria
 ----
-life: 10
-discard 1: Catalyst Dash
-discard 2: Photovoltaic Strike
-special action
+Life: 2
+Discard 1: Ionic Drive
+Discard 2: Laser Strike
 
 Zaamassal
 ---------
-life: 6
-discard 1: Sinuous Drive
-discard 2: Urgent Shot
-Active paradigm: Fluidity
+Life: 2
+Discard 1: Urgent Drive
+Discard 2: Sinuous Burst
+Active paradigm: Resilience, Pain, Fluidity
 
 
-.....ZA
-...d...
-.m.....
-t......
+.Z....A
+....d..
+...m...
+.t.....
 
-Unbeatable strategy for Aria: Ionic Grasp: 11.00
-Unbeatable strategy for Aria: Dimensional Reconfiguration: 11.00
 
 Aria:
-13% Ionic Reconfiguration
-17% Ionic Shot
-11% Ionic Drive
-10% Ionic Grasp
-14% Laser Reconfiguration
-13% Laser Drive
-13% Laser Grasp
-10% Dimensional Reconfiguration
+31% Photovoltaic Shot
+46% Dimensional Shot
+22% Dimensional Grasp
 
 Zaamassal:
-8% Malicious Paradigm Shift
-4% Malicious Strike
-8% Malicious Burst
-6% Malicious Grasp
-9% Malicious Dash
-5% Sturdy Paradigm Shift
-7% Sturdy Strike
-9% Sturdy Burst
-7% Sturdy Grasp
-8% Sturdy Dash
-0% Warped Paradigm Shift
-4% Warped Strike
-8% Warped Burst
-7% Warped Grasp
-8% Warped Dash
+16% Malicious Dash
+28% Warped Paradigm Shift
+55% Warped Dash
 
 
-Aria: Ionic Grasp
-Zaamassal: Sturdy Grasp
+Aria: Dimensional Grasp
+Zaamassal: Warped Paradigm Shift
 
-Priorities:  6 | 5
+Priorities:  9 | 3
 Aria is active
-Aria moves Zaamassal:
-
-....Z.A
-...d...
-.m.....
-t......
-
-Aria hits
-Aria moves Zaamassal:
-
-...Z..A
-...d...
-.m.....
-t......
-
-Zaamassal takes 2 damage (now at 4 life)
 Zaamassal moves:
 
-..Z...A
-...d...
-.m.....
-t......
+Z.....A
+....d..
+...m...
+.t.....
 
-Zaamassal misses
+Aria misses
 Zaamassal moves:
 
 .Z....A
-...d...
-.m.....
-t......
+....d..
+...m...
+.t.....
 
-Game goes to time
-ARIA WINS!
-total_time: 97
+Zaamassal hits
+Aria takes 3 damage (now at 0 life)
+ZAAMASSAL WINS!
+total_time: 165

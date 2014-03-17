@@ -11,31 +11,31 @@ Beat 1
 
 Danny
 -----
-life: 20
-discard 1: Fallen Burst
-discard 2: Vicious Shot
-special action
+Life: 20
+Discard 1: Fallen Burst
+Discard 2: Vicious Shot
+Special action available
 
 Runika
 ------
-life: 20
-discard 1: Channeled Grasp
-discard 2: Impact Strike
-special action
+Life: 20
+Discard 1: Channeled Grasp
+Discard 2: Impact Strike
+Special action available
 Active artifacts: 
-  Shield Amulet
-  Battlefist
   Phase Goggles
   Autodeflector
+  Shield Amulet
   Hover Boots
+  Battlefist
 
 
 .D...R.
 
 
-Unbeatable strategy for Danny: Monstrous Hellgate: 0.40
-Unbeatable strategy for Danny: Shackled Hellgate: 0.02
-Unbeatable strategy for Danny: Sinner's Hellgate: 0.32
+Unbeatable strategy for Danny: Monstrous Hellgate: 0.10
+Unbeatable strategy for Danny: Sinner's Hellgate: 0.02
+
 
 Danny:
 100% Monstrous Hellgate
@@ -70,22 +70,22 @@ Beat 2
 
 Danny
 -----
-life: 14
-discard 1: Monstrous Hellgate
-discard 2: Fallen Burst
-special action
+Life: 14
+Discard 1: Monstrous Hellgate
+Discard 2: Fallen Burst
+Special action available
 
 Runika
 ------
-life: 20
-discard 1: Overcharged Drive
-discard 2: Channeled Grasp
-special action
+Life: 20
+Discard 1: Overcharged Drive
+Discard 2: Channeled Grasp
+Special action available
 Active artifacts: 
-  Shield Amulet
-  Hover Boots
-  Autodeflector
   Phase Goggles
+  Autodeflector
+  Hover Boots
+  Shield Amulet
 Removed artifacts: 
   Battlefist
 
@@ -93,17 +93,16 @@ Removed artifacts:
 .D.R...
 m.m.m..
 
-Unbeatable strategy for Runika: Explosive Tinker: -1.31
 
 Danny:
-14% Shackled Strike
-9% Sinner's Grasp
-78% Vicious Drive
+23% Shackled Strike
+30% Sinner's Grasp
+47% Vicious Drive
 
 Runika:
-2% Maintenance Burst
-95% Explosive Tinker
-2% Explosive Burst
+76% Explosive Tinker
+2% Impact Tinker
+22% Impact Burst
 
 
 Danny: Vicious Drive
@@ -118,16 +117,15 @@ m.m.m..
 
 Danny hits
 Danny gets +2 power
-Shield Amulet is de-activated
-Runika has 2 soak
-Runika takes 2 damage (now at 18 life)
+Autodeflector is de-activated
+Runika takes 4 damage (now at 16 life)
 Danny adds monsters to the board:
 
 ...RD..
 m.mmm..
 
 Runika hits
-Phase Goggles is de-activated
+Shield Amulet is de-activated
 Runika gets +2 power
 Danny takes 4 damage (now at 10 life)
 Danny is stunned
@@ -136,24 +134,24 @@ Runika removes monsters:
 ...RD..
 m.mm...
 
-Phase Goggles is activated
+Autodeflector is activated
 
 Beat 3
 -------
 
 Danny
 -----
-life: 10
-discard 1: Vicious Drive
-discard 2: Monstrous Hellgate
-special action
+Life: 10
+Discard 1: Vicious Drive
+Discard 2: Monstrous Hellgate
+Special action available
 
 Runika
 ------
-life: 18
-discard 1: Explosive Tinker
-discard 2: Overcharged Drive
-special action
+Life: 16
+Discard 1: Explosive Tinker
+Discard 2: Overcharged Drive
+Special action available
 Active artifacts: 
   Phase Goggles
   Hover Boots
@@ -165,33 +163,37 @@ Removed artifacts:
 ...RD..
 m.mm...
 
+
 Danny:
-1% Fallen Strike
-10% Fallen Burst
-23% Shackled Shot
-66% Sinner's Strike
+10% Fallen Strike
+0% Fallen Burst
+18% Sinner's Strike
+71% Sinner's Dash
 
 Runika:
-20% Channeled Strike
-15% Channeled Shot
-11% Maintenance Strike
-54% Impact Grasp
+32% Channeled Strike
+44% Channeled Shot
+8% Channeled Burst
+16% Impact Grasp
 
 
-Danny: Shackled Shot
-Runika: Channeled Shot
+Danny: Sinner's Dash
+Runika: Channeled Strike
 
-Priorities:  1 | 5
-Runika is active
+Priorities:  9 | 6
+Danny is active
 Shield Amulet is activated
-Runika hits
-Danny takes 4 damage (now at 6 life)
-Danny is stunned
-Runika removes monsters:
+Danny moves his monsters:
 
 ...RD..
-..mm...
+.mmm...
 
+Danny moves:
+
+...R..D
+.mmm...
+
+Runika misses
 Shield Amulet is de-activated
 
 Beat 4
@@ -199,17 +201,17 @@ Beat 4
 
 Danny
 -----
-life: 6
-discard 1: Shackled Shot
-discard 2: Vicious Drive
-special action
+Life: 10
+Discard 1: Sinner's Dash
+Discard 2: Vicious Drive
+Special action available
 
 Runika
 ------
-life: 18
-discard 1: Channeled Shot
-discard 2: Explosive Tinker
-special action
+Life: 16
+Discard 1: Channeled Strike
+Discard 2: Explosive Tinker
+Special action available
 Active artifacts: 
   Phase Goggles
   Hover Boots
@@ -218,59 +220,52 @@ Removed artifacts:
   Battlefist
 
 
-...RD..
-..mm...
+...R..D
+.mmm...
 
-Unbeatable strategy for Danny: Monstrous Hellgate: 2.98
-Unbeatable strategy for Danny: Fallen Hellgate: 2.60
-Unbeatable strategy for Danny: Sinner's Hellgate: 2.82
+Unbeatable strategy for Danny: Monstrous Hellgate: 3.08
+Unbeatable strategy for Danny: Fallen Hellgate: 2.78
+Unbeatable strategy for Danny: Shackled Hellgate: 2.61
+
 
 Danny:
-93% Monstrous Hellgate
-7% Monstrous Burst
+12% Monstrous Shot
+12% Fallen Strike
+12% Fallen Grasp
+65% Shackled Hellgate
 
 Runika:
-70% Impact Drive
-30% Overcharged Strike
+16% Maintenance Shot
+51% Maintenance Drive
+21% Maintenance Burst
+11% Impact Grasp
 
 
-Danny: Monstrous Hellgate
-Runika: Impact Drive
+Danny: Fallen Grasp
+Runika: Maintenance Burst
 
-Priorities:  -1 | 6
-Runika is active
+Priorities:  5 | 2
+Danny is active
 Runika moves:
 
-....DR.
-..mm...
+.R....D
+.mmm...
 
-Runika moves:
+Danny hits
+Danny gets +2 power
+Danny moves Runika:
 
-..R.D..
-..mm...
+R.....D
+.mmm...
 
-Runika hits
-Runika moves Danny:
-
-..R...D
-..mm...
-
-Danny has 3 soak
-Danny takes 0 damage (now at 6 life)
-Runika removes monsters:
-
-..R...D
-..m....
-
-Danny moves:
-
-..R..D.
-..m....
-
+Autodeflector is de-activated
+Runika has 2 soak
+Runika takes 1 damage (now at 15 life)
+Runika is stunned
 Danny adds monsters to the board:
 
-..R..D.
-..mmmm.
+R.....D
+.mmmm..
 
 
 Beat 5
@@ -278,219 +273,277 @@ Beat 5
 
 Danny
 -----
-life: 6
-discard 1: Monstrous Hellgate
-discard 2: Shackled Shot
-special action
+Life: 10
+Discard 1: Fallen Grasp
+Discard 2: Sinner's Dash
+Special action available
 
 Runika
 ------
-life: 18
-discard 1: Impact Drive
-discard 2: Channeled Shot
-special action
+Life: 15
+Discard 1: Maintenance Burst
+Discard 2: Channeled Strike
+Special action available
 Active artifacts: 
   Phase Goggles
   Hover Boots
-  Autodeflector
 Removed artifacts: 
   Battlefist
 
 
-..R..D.
-..mmmm.
+R.....D
+.mmmm..
 
-Unbeatable strategy for Runika: Overcharged Burst: -1.77
+Unbeatable strategy for Danny: Shackled Hellgate: 0.21
+
 
 Danny:
-10% Fallen Burst
-42% Sinner's Strike
-36% Sinner's Burst
-13% Sinner's Grasp
+100% Shackled Hellgate
 
 Runika:
-7% Maintenance Tinker
-20% Explosive Tinker
-30% Overcharged Tinker
-44% Overcharged Burst
+80% Explosive Tinker
+20% Impact Tinker
 
 
-Danny: Sinner's Burst
-Runika: Overcharged Burst
+Danny: Shackled Hellgate
+Runika: Impact Tinker
 
-Priorities:  1 | 3
+Priorities:  -1 | 5
 Runika is active
-Runika overcharges her Phase Goggles
-Runika moves:
-
-.R...D.
-..mmmm.
-
-Danny moves:
-
-.R....D
-..mmmm.
-
-Runika hits
-Danny takes 3 damage (now at 3 life)
-Danny is stunned
+Runika misses
 Runika removes monsters:
 
-.R....D
-..mm.m.
+R.....D
+..mmm..
 
-Phase Goggles is removed from the game
+Autodeflector is activated
+Danny moves:
+
+R....D.
+..mmm..
+
+Danny adds monsters to the board:
+
+R....D.
+mmmmmm.
+
 
 Beat 6
 -------
 
 Danny
 -----
-life: 3
-discard 1: Sinner's Burst
-discard 2: Monstrous Hellgate
-special action
+Life: 10
+Discard 1: Shackled Hellgate
+Discard 2: Fallen Grasp
+Special action available
 
 Runika
 ------
-life: 18
-discard 1: Overcharged Burst
-discard 2: Impact Drive
-special action
+Life: 15
+Discard 1: Impact Tinker
+Discard 2: Maintenance Burst
+Special action available
 Active artifacts: 
+  Phase Goggles
   Hover Boots
   Autodeflector
 Removed artifacts: 
-  Phase Goggles
   Battlefist
 
 
-.R....D
-..mm.m.
+R....D.
+mmmmmm.
 
-Unbeatable strategy for Runika: Maintenance Tinker: -3.16
-Unbeatable strategy for Runika: Maintenance Strike: -0.72
-Unbeatable strategy for Runika: Maintenance Grasp: -0.72
-Unbeatable strategy for Runika: Explosive Shot: -8.00
+Unbeatable strategy for Danny: Monstrous Burst: 3.50
+Unbeatable strategy for Danny: Sinner's Burst: 0.74
+
 
 Danny:
-19% Fallen Grasp
-17% Shackled Strike
-64% Shackled Grasp
+41% Monstrous Shot
+4% Monstrous Burst
+55% Sinner's Burst
 
 Runika:
-70% Maintenance Strike
-10% Explosive Tinker
-19% Explosive Shot
+7% Channeled Dash
+4% Overcharged Drive
+89% Special Pulse
 
 
-Danny: Shackled Grasp
-Runika: Maintenance Strike
+Danny: Sinner's Burst
+Runika: Special Pulse
 
-Priorities:  4 | 4
-Clash!
+Pulse:
+
+....D.R
+mmmmmm.
+
+
+Beat 6
+-------
+
+Danny
+-----
+Life: 10
+Discard 1: Sinner's Burst
+Discard 2: Shackled Hellgate
+Special action available
+
+Runika
+------
+Life: 15
+Discard 1: Impact Tinker
+Discard 2: Maintenance Burst
+Active artifacts: 
+  Phase Goggles
+  Hover Boots
+  Autodeflector
+Removed artifacts: 
+  Battlefist
+
+
+....D.R
+mmmmmm.
+
+Unbeatable strategy for Runika: Channeled Strike: -0.74
+Unbeatable strategy for Runika: Overcharged Strike: -2.56
+Unbeatable strategy for Runika: Overcharged Shot: -1.26
+
 
 Danny:
-100% Shackled Strike
+1% Monstrous Shot
+99% Special Pulse
 
 Runika:
-100% Maintenance Tinker
+37% Channeled Strike
+63% Channeled Grasp
 
 
-Danny: Shackled Strike
-Runika: Maintenance Tinker
+Danny: Special Pulse
+Runika: Channeled Strike
+
+Pulse:
+
+R.....D
+mmmmmm.
+
+
+Beat 6
+-------
+
+Danny
+-----
+Life: 10
+Discard 1: Sinner's Burst
+Discard 2: Shackled Hellgate
+
+Runika
+------
+Life: 15
+Discard 1: Channeled Strike
+Discard 2: Impact Tinker
+Active artifacts: 
+  Phase Goggles
+  Hover Boots
+  Autodeflector
+Removed artifacts: 
+  Battlefist
+
+
+R.....D
+mmmmmm.
+
+Unbeatable strategy for Danny: Vicious Strike: 1.53
+
+
+Danny:
+40% Monstrous Strike
+4% Monstrous Grasp
+57% Vicious Strike
+
+Runika:
+77% Maintenance Dash
+15% Overcharged Shot
+8% Overcharged Drive
+
+
+Danny: Monstrous Strike
+Runika: Overcharged Shot
 
 Priorities:  2 | 4
 Runika is active
-Runika misses
+Runika overcharges her Phase Goggles
+Runika hits
+Danny takes 3 damage (now at 7 life)
+Danny is stunned
 Runika removes monsters:
 
-.R....D
-...m.m.
-
-Shield Amulet is activated
-Runika moves:
-
 R.....D
-...m.m.
+mmm.mm.
 
-Danny misses
-Danny adds monsters to the board:
-
-R.....D
-...mmm.
-
+Phase Goggles is removed from the game
 
 Beat 7
 -------
 
 Danny
 -----
-life: 3
-discard 1: Shackled Strike
-discard 2: Sinner's Burst
-special action
+Life: 7
+Discard 1: Monstrous Strike
+Discard 2: Sinner's Burst
 
 Runika
 ------
-life: 18
-discard 1: Maintenance Tinker
-discard 2: Overcharged Burst
-special action
+Life: 15
+Discard 1: Overcharged Shot
+Discard 2: Channeled Strike
 Active artifacts: 
-  Shield Amulet
-  Hover Boots
   Autodeflector
+  Hover Boots
 Removed artifacts: 
-  Battlefist
   Phase Goggles
+  Battlefist
 
 
 R.....D
-...mmm.
+mmm.mm.
 
-Unbeatable strategy for Danny: Monstrous Hellgate: 3.37
-Unbeatable strategy for Danny: Monstrous Shot: 1.35
-Unbeatable strategy for Danny: Monstrous Drive: 0.41
-Unbeatable strategy for Danny: Fallen Hellgate: 3.06
-Unbeatable strategy for Danny: Fallen Shot: 1.08
-Unbeatable strategy for Danny: Vicious Grasp: 0.44
+Unbeatable strategy for Danny: Shackled Shot: 0.65
+
 
 Danny:
-81% Monstrous Hellgate
-4% Monstrous Shot
-15% Fallen Shot
+49% Fallen Shot
+51% Shackled Shot
 
 Runika:
-39% Explosive Drive
-20% Impact Drive
-41% Impact Dash
+11% Maintenance Burst
+89% Explosive Tinker
 
 
-Danny: Monstrous Hellgate
-Runika: Impact Dash
+Danny: Shackled Shot
+Runika: Explosive Tinker
 
-Priorities:  -1 | 11
+Priorities:  1 | 5
 Runika is active
-Runika moves:
+Runika moves Danny:
 
-.R....D
-...mmm.
+R....D.
+mmm.mm.
 
-Runika moves:
+Runika misses
+Runika removes monsters:
 
-...R..D
-...mmm.
+R....D.
+m.m.mm.
 
-Danny moves:
-
-D..R...
-...mmm.
-
+Shield Amulet is activated
+Danny hits
+Autodeflector is de-activated
+Runika takes 3 damage (now at 12 life)
 Danny adds monsters to the board:
 
-D..R...
-mmmmmm.
+R....D.
+mmm.mm.
 
 
 Beat 8
@@ -498,217 +551,397 @@ Beat 8
 
 Danny
 -----
-life: 3
-discard 1: Monstrous Hellgate
-discard 2: Shackled Strike
-special action
+Life: 7
+Discard 1: Shackled Shot
+Discard 2: Monstrous Strike
 
 Runika
 ------
-life: 18
-discard 1: Impact Dash
-discard 2: Maintenance Tinker
-special action
+Life: 12
+Discard 1: Explosive Tinker
+Discard 2: Overcharged Shot
 Active artifacts: 
-  Shield Amulet
   Hover Boots
-  Autodeflector
+  Shield Amulet
 Removed artifacts: 
   Battlefist
   Phase Goggles
 
 
-D..R...
-mmmmmm.
+R....D.
+mmm.mm.
 
-Unbeatable strategy for Runika: Overcharged Shot: -8.00
-Unbeatable strategy for Runika: Overcharged Drive: -8.00
+Unbeatable strategy for Danny: Fallen Burst: 0.86
+Unbeatable strategy for Danny: Sinner's Burst: 1.00
+
 
 Danny:
-1% Sinner's Shot
-3% Sinner's Burst
-96% Special Pulse
+4% Fallen Grasp
+53% Sinner's Burst
+43% Vicious Burst
 
 Runika:
-2% Channeled Drive
-14% Overcharged Strike
-51% Overcharged Drive
-34% Overcharged Grasp
+8% Maintenance Grasp
+26% Maintenance Dash
+66% Impact Drive
 
 
-Danny: Special Pulse
-Runika: Overcharged Drive
+Danny: Vicious Burst
+Runika: Impact Drive
 
-Pulse:
-
-R.....D
-mmmmmm.
+Priorities:  6 | 6
+Clash!
 
 
-Beat 8
--------
-
-Danny
------
-life: 3
-discard 1: Monstrous Hellgate
-discard 2: Shackled Strike
-
-Runika
-------
-life: 18
-discard 1: Overcharged Drive
-discard 2: Impact Dash
-special action
-Active artifacts: 
-  Shield Amulet
-  Hover Boots
-  Autodeflector
-Removed artifacts: 
-  Battlefist
-  Phase Goggles
-
-
-R.....D
-mmmmmm.
-
-Unbeatable strategy for Danny: Sinner's Burst: 0.22
-
-Danny:
-54% Fallen Shot
-46% Fallen Burst
-
-Runika:
-100% Special Pulse
-
-
-Danny: Fallen Shot
-Runika: Special Pulse
-
-Pulse:
-
-DR.....
-mmmmmm.
-
-
-Beat 8
--------
-
-Danny
------
-life: 3
-discard 1: Fallen Shot
-discard 2: Monstrous Hellgate
-
-Runika
-------
-life: 18
-discard 1: Overcharged Drive
-discard 2: Impact Dash
-Active artifacts: 
-  Shield Amulet
-  Hover Boots
-  Autodeflector
-Removed artifacts: 
-  Battlefist
-  Phase Goggles
-
-
-DR.....
-mmmmmm.
-
-Unbeatable strategy for Runika: Explosive Tinker: -0.76
-Unbeatable strategy for Runika: Explosive Shot: -1.28
-Unbeatable strategy for Runika: Explosive Grasp: -0.60
-
-Danny:
-7% Shackled Grasp
-20% Shackled Dash
-73% Sinner's Dash
-
-Runika:
-0% Channeled Grasp
-7% Explosive Tinker
-93% Explosive Shot
-
-
-Danny: Sinner's Dash
-Runika: Explosive Tinker
+Danny: Vicious Drive
+Runika: Impact Strike
 
 Priorities:  9 | 5
 Danny is active
-Danny moves his monsters:
-
-DR.....
-mmmmmm.
-
 Danny moves:
 
-.RD....
+R...D..
+mmm.mm.
+
+Danny hits
+Hover Boots is de-activated
+Runika takes 2 damage (now at 10 life)
+Danny adds monsters to the board:
+
+R...D..
+mmmmmm.
+
+Runika moves:
+
+.R..D..
 mmmmmm.
 
 Runika misses
 Runika removes monsters:
 
-.RD....
+.R..D..
 mm.mmm.
 
-No artifacts to activate
 
 Beat 9
 -------
 
 Danny
 -----
-life: 3
-discard 1: Sinner's Dash
-discard 2: Fallen Shot
+Life: 7
+Discard 1: Vicious Drive
+Discard 2: Shackled Shot
 
 Runika
 ------
-life: 18
-discard 1: Explosive Tinker
-discard 2: Overcharged Drive
+Life: 10
+Discard 1: Impact Strike
+Discard 2: Explosive Tinker
 Active artifacts: 
   Shield Amulet
-  Hover Boots
-  Autodeflector
 Removed artifacts: 
   Battlefist
   Phase Goggles
 
 
-.RD....
+.R..D..
 mm.mmm.
 
-Unbeatable strategy for Danny: Monstrous Hellgate: 1.73
-Unbeatable strategy for Danny: Shackled Hellgate: 0.12
 
 Danny:
-58% Monstrous Hellgate
-13% Monstrous Burst
-24% Shackled Hellgate
-5% Vicious Drive
+57% Monstrous Burst
+43% Sinner's Burst
 
 Runika:
-22% Channeled Shot
-47% Maintenance Grasp
-13% Maintenance Dash
-18% Impact Strike
+81% Maintenance Drive
+19% Maintenance Dash
 
 
-Danny: Monstrous Burst
-Runika: Channeled Shot
+Danny: Sinner's Burst
+Runika: Maintenance Drive
 
-Priorities:  0 | 5
+Priorities:  1 | 3
 Runika is active
-No artifacts to activate
 Danny moves:
 
-.R.D...
+.R....D
 mm.mmm.
 
-Runika hits
-Danny takes 4 damage (now at 0 life)
-RUNIKA WINS!
-total_time: 85
+Runika moves:
+
+...R..D
+mm.mmm.
+
+Runika misses
+Runika removes monsters:
+
+...R..D
+mm.m.m.
+
+Runika moves:
+
+..R...D
+mm.m.m.
+
+Danny hits
+Shield Amulet is de-activated
+Runika has 3 soak
+Runika takes 0 damage (now at 10 life)
+Danny adds monsters to the board:
+
+..R...D
+mmmm.m.
+
+Danny moves his monsters:
+
+..R...D
+mmmmm..
+
+
+Beat 10
+-------
+
+Danny
+-----
+Life: 7
+Discard 1: Sinner's Burst
+Discard 2: Vicious Drive
+
+Runika
+------
+Life: 10
+Discard 1: Maintenance Drive
+Discard 2: Impact Strike
+No active artifacts
+Removed artifacts: 
+  Phase Goggles
+  Battlefist
+
+
+..R...D
+mmmmm..
+
+
+Danny:
+32% Monstrous Grasp
+5% Fallen Grasp
+63% Shackled Strike
+
+Runika:
+23% Explosive Tinker
+39% Explosive Shot
+38% Explosive Dash
+
+
+Danny: Shackled Strike
+Runika: Explosive Dash
+
+Priorities:  2 | 9
+Runika is active
+Runika moves Danny:
+
+..R..D.
+mmmmm..
+
+Danny hits
+No artifacts to de-activate
+Runika takes 4 damage (now at 6 life)
+Runika is stunned
+
+Beat 11
+-------
+
+Danny
+-----
+Life: 7
+Discard 1: Shackled Strike
+Discard 2: Sinner's Burst
+
+Runika
+------
+Life: 6
+Discard 1: Explosive Dash
+Discard 2: Maintenance Drive
+No active artifacts
+Removed artifacts: 
+  Phase Goggles
+  Battlefist
+
+
+..R..D.
+mmmmm..
+
+Unbeatable strategy for Danny: Vicious Grasp: 1.01
+
+
+Danny:
+20% Monstrous Shot
+56% Fallen Grasp
+24% Vicious Grasp
+
+Runika:
+26% Channeled Tinker
+51% Impact Grasp
+23% Overcharged Tinker
+
+
+Danny: Vicious Grasp
+Runika: Channeled Tinker
+
+Priorities:  8 | 4
+Danny is active
+Autodeflector is activated
+Danny hits
+Danny gets +2 power
+Danny moves Runika:
+
+.R...D.
+mmmmm..
+
+Autodeflector is de-activated
+Runika takes 3 damage (now at 3 life)
+Runika misses
+Runika removes monsters:
+
+.R...D.
+mm.mm..
+
+Autodeflector is activated
+Autodeflector is de-activated
+
+Beat 12
+-------
+
+Danny
+-----
+Life: 7
+Discard 1: Vicious Grasp
+Discard 2: Shackled Strike
+
+Runika
+------
+Life: 3
+Discard 1: Channeled Tinker
+Discard 2: Explosive Dash
+No active artifacts
+Removed artifacts: 
+  Phase Goggles
+  Battlefist
+
+
+.R...D.
+mm.mm..
+
+
+Danny:
+59% Monstrous Hellgate
+41% Monstrous Drive
+
+Runika:
+36% Maintenance Shot
+64% Maintenance Drive
+
+
+Danny: Monstrous Hellgate
+Runika: Maintenance Drive
+
+Priorities:  -1 | 3
+Runika is active
+Runika moves:
+
+...R.D.
+mm.mm..
+
+Runika misses
+Runika removes monsters:
+
+...R.D.
+mm.m...
+
+Runika moves:
+
+..R..D.
+mm.m...
+
+Danny moves:
+
+..R...D
+mm.m...
+
+Danny adds monsters to the board:
+
+..R...D
+mmmmmm.
+
+
+Beat 13
+-------
+
+Danny
+-----
+Life: 7
+Discard 1: Monstrous Hellgate
+Discard 2: Vicious Grasp
+
+Runika
+------
+Life: 3
+Discard 1: Maintenance Drive
+Discard 2: Channeled Tinker
+No active artifacts
+Removed artifacts: 
+  Phase Goggles
+  Battlefist
+
+
+..R...D
+mmmmmm.
+
+Unbeatable strategy for Danny: Fallen Drive: 0.07
+
+
+Danny:
+52% Shackled Strike
+48% Shackled Drive
+
+Runika:
+6% Explosive Strike
+4% Explosive Shot
+6% Explosive Burst
+7% Explosive Grasp
+16% Explosive Dash
+4% Impact Strike
+7% Impact Shot
+5% Impact Burst
+5% Impact Grasp
+7% Impact Dash
+6% Overcharged Strike
+9% Overcharged Shot
+6% Overcharged Burst
+6% Overcharged Grasp
+7% Overcharged Dash
+
+
+Danny: Shackled Strike
+Runika: Impact Shot
+
+Priorities:  2 | 2
+Clash!
+
+
+Danny: Shackled Shot
+Runika: Impact Strike
+
+Priorities:  1 | 3
+Runika is active
+Runika misses
+Runika removes monsters:
+
+..R...D
+mmm.mm.
+
+Danny hits
+No artifacts to de-activate
+Runika takes 3 damage (now at 0 life)
+DANNY WINS!
+total_time: 72
