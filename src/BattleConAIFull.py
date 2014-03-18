@@ -83,8 +83,8 @@ def main():
         play()
     
 def ad_hoc():
-    duel('gerard','tatsumi', 1)
-#    free_for_all(1, ['gerard'], 'vod', [], True, False)
+#    duel('gerard','tatsumi', 1)
+    free_for_all(1, ['rexan'], '', [], True, False)
 
 playable = [ 'abarene',
              'adjenna',
@@ -7275,6 +7275,9 @@ class Rexan (Character):
         if new_pool > 3:
             self.opponent.lose_life (2 * (new_pool - 3))
         
+    def get_damage_cap (self):
+        return 2 if self.malediction_damage_limit else 1000
+    
     # returning tokens on cycle, so that it happens on a Pulse, too
     def cycle (self):
         if not (self.did_hit or self.opponent.did_hit):
