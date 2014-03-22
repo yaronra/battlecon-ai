@@ -88,8 +88,8 @@ def main():
         play()
     
 def ad_hoc():
-    duel('borneo','juto', 1)
-#    free_for_all(1, ['rexan'], '', [], True, False)
+#    duel('juto', 'karin', 1)
+    free_for_all(1, ['borneo'], '', [], True, False)
 
 playable = [ 'abarene',
              'adjenna',
@@ -1826,6 +1826,7 @@ class Character (object):
         self.special_action = SpecialAction (the_game,self)
         self.pulse = Pulse (the_game,self)
         self.cancel = Cancel (the_game,self)
+        # This randomly assigns bases for Juto and Borneo.
         self.pulse_generators = set ([self.bases[4], self.bases[6]])
         self.cancel_generators = set ([self.bases[2], self.bases[5]])
         self.finisher_generators = set ([self.bases[0], self.bases[1],
@@ -4121,8 +4122,8 @@ class Borneo(Character):
         self.unstunners = set([self.hex, self.clumsy])
 
     def choose_initial_discards (self):
-        return (self.weaksauce, self.clumsy,
-                self.claw, self.divider)
+        return (self.slippery, self.petulant,
+                self.smoke, self.knuckle)
 
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -5935,8 +5936,8 @@ class Juto(Character):
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
 
     def choose_initial_discards (self):
-        return (self.fluffy, self.snuggly,
-                self.flash, self.lance)
+        return (self.snuggly, self.cuddly,
+                self.flash, self.whirlpool)
 
     def reset (self):
         self.staff_hit = False
@@ -9887,6 +9888,7 @@ class MamaMazzaroth(Finisher):
         # Assuming it's 3 beats including current one.
         self.game.current_beat = 13
         self.me.mazzaroth_active = True
+        self.me.evaluation_bonus += 6
     def after_trigger(self):
         self.me.move([1,2,3])
     ordered_after_trigger = True
@@ -9945,8 +9947,11 @@ class Knuckle(Base):
 class MasterPlan(Base):
     standard_range = False
     power = 4
+    prefered_range = 3.5
     def special_range_hit(self):
         return self.opponent.moved or self.opponent.was_moved
+    def has_stun_immunity(self):
+        return True
     
 class SceneShiftBorneo(Base):
     name_override = 'Scene Shift'
