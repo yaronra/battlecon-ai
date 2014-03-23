@@ -14723,6 +14723,7 @@ class WaveStyle (Style):
     def ordered_after_trigger(self):
         return self.me.juto_position is not None
 
+
 #Vanaah
 
 class DeathWalks (Finisher):
