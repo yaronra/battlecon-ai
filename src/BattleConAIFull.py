@@ -8614,13 +8614,14 @@ class Vanaah (Character):
 
     # token will cycle with cards from 0 to 1 to 2, but needs some help...
     def cycle (self):
-        # ... coming back from discard 2
+        # ... coming back from discard 2...
         if self.divine_rush in self.discard[2] and \
            not isinstance (self.style, SpecialAction):
             self.pool = [self.divine_rush]
-        # ... and moving from 0 to 1 with finisher (which doesn't cycle)
-        if self.finishers[0] in self.discard[0] and  \
-           self.divine_rush in self.discard[0]:
+        # ... and moving from 0 to 1 with finisher/pulse 
+        # (which don't cycle).
+        if (self.style is self.special_action and
+            self.divine_rush in self.discard[0]):
             self.discard[1].add(self.divine_rush)
         Character.cycle (self)
 
