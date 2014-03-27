@@ -47,6 +47,9 @@
 # clash.  Examples: Eligor's Aegis, Aria's Ionic.  This can't be helped
 # without a major refactoring.
 
+# "Deal damage" effects are considered attacks, so dodge effects can
+# cause them to miss.
+
 # TO CHECK OPENING DISCARDS
 # free_for_all (1, <name>, skip=['kehrolyn'], first_beats=True)
 
@@ -6130,8 +6133,6 @@ class Kajia(Character):
         self.infested_piles_on_reveal = state.infested_piles_on_reveal
 
     def give_insects (self, n, pile=0):
-        # can't give more insects than total of 7
-        n = min (n, 7 - sum(self.insects))
         if n > 0:
             self.insects[pile] += n
             if self.game.reporting:
@@ -6181,19 +6182,6 @@ class Kajia(Character):
             self.insects[2] = self.insects[1]
             self.insects[1] = self.insects[0]
             self.insects[0] = 0
-
-    def remove_insects (self):
-        insects_removed = 0
-        prompt = "Choose number of insects to remove from discard %d"
-        for i in (1,2):
-            remove = self.game.make_fork (1 + self.insects[i], self,
-                                          prompt % i)
-            self.insects[i] -= remove
-            insects_removed += remove
-            if remove and self.game.reporting:
-                self.game.report("Kajia removes %d insects from discard %d" %
-                                 (remove, i))
-        return insects_removed
 
     def unique_ability_end_trigger (self):
         if self.imago_emergence_active:
