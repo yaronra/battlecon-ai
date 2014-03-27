@@ -11,53 +11,59 @@ Beat 1
 
 Cesar
 -----
-life: 20
-discard 1: Fueled Strike
-discard 2: Unstoppable Grasp
-special action
+Life: 20
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Grasp
+Special action available
 Threat level: 0
 
 Rukyuk
 ------
-life: 20
-discard 1: Crossfire Reload
-discard 2: Trick Shot
-special action
+Life: 20
+Discard 1: Crossfire Reload
+Discard 2: Trick Shot
+Special action available
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
 .C...R.
 
+
 Cesar:
-30% Bulwark Suppression
-61% Bulwark Dash
-8% Inevitable Drive
+28% Bulwark Suppression
+57% Bulwark Dash
+9% Inevitable Drive
+6% Inevitable Dash
 
 Rukyuk:
-25% Sniper Strike (AP)
-5% Sniper Drive
-69% Gunner Drive (Explosive)
+12% Sniper Strike (AP)
+46% Sniper Drive
+42% Gunner Drive (Explosive)
 
 
-Cesar: Bulwark Suppression
+Cesar: Bulwark Dash
 Rukyuk: Gunner Drive (Explosive)
 
 Cesar gains a Threat Level (current level: 1)
 Rukyuk antes an Explosive token
-Priorities:  0 | 4
-Rukyuk is active
-Rukyuk spends an AP token
-Rukyuk gains -1/+1 range
+Priorities:  7 | 4
+Cesar is active
+Cesar moves:
+
+C....R.
+
+Cesar moves:
+
+...C.R.
+
 Rukyuk moves:
 
-.C.R...
+..RC...
 
-Rukyuk hits
-Cesar takes 5 damage (now at 15 life)
-Cesar is stunned
+Rukyuk misses
 Rukyuk moves:
 
-.CR....
+R..C...
 
 
 Beat 2
@@ -65,105 +71,159 @@ Beat 2
 
 Cesar
 -----
-life: 15
-discard 1: Bulwark Suppression
-discard 2: Fueled Strike
-special action
+Life: 20
+Discard 1: Bulwark Dash
+Discard 2: Fueled Strike
+Special action available
 Threat level: 1
 
 Rukyuk
 ------
-life: 20
-discard 1: Gunner Drive
-discard 2: Crossfire Reload
-special action
-pool: Flash, Impact, Longshot, Swift
+Life: 20
+Discard 1: Gunner Drive
+Discard 2: Crossfire Reload
+Special action available
+pool: AP, Flash, Impact, Longshot, Swift
 
 
-.CR....
+R..C...
 
-Unbeatable strategy for Rukyuk: Sniper Dash: -2.43
-Unbeatable strategy for Rukyuk: Sniper Dash (Flash): -1.83
-Unbeatable strategy for Rukyuk: Sniper Dash (Impact): -1.73
-Unbeatable strategy for Rukyuk: Sniper Dash (Longshot): -1.43
-Unbeatable strategy for Rukyuk: Sniper Dash (Swift): -1.33
-Unbeatable strategy for Rukyuk: Point Blank Grasp (Flash): -0.14
 
 Cesar:
-84% Unstoppable Shot
-16% Inevitable Drive
+38% Phalanx Suppression
+25% Unstoppable Suppression
+14% Unstoppable Shot
+18% Unstoppable Drive
+6% Inevitable Drive
 
 Rukyuk:
-96% Sniper Dash
-4% Point Blank Strike (Flash)
+4% Sniper Strike (Longshot)
+32% Sniper Dash
+6% Point Blank Shot (Flash)
+20% Point Blank Shot (Swift)
+37% Special Pulse
 
 
-Cesar: Unstoppable Shot
-Rukyuk: Sniper Dash
+Cesar: Unstoppable Suppression
+Rukyuk: Special Pulse
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  0 | 11
-Rukyuk is active
-Rukyuk moves:
+Rukyuk Pulses:
 
-RC.....
+C.....R
 
-Rukyuk moves:
 
-.C..R..
-
-Cesar moves:
-
-...CR..
-
-Cesar misses
-
-Beat 3
+Beat 2
 -------
 
 Cesar
 -----
-life: 15
-discard 1: Unstoppable Shot
-discard 2: Bulwark Suppression
-special action
+Life: 20
+Discard 1: Unstoppable Suppression
+Discard 2: Bulwark Dash
+Special action available
 Threat level: 2
 
 Rukyuk
 ------
-life: 20
-discard 1: Sniper Dash
-discard 2: Gunner Drive
-special action
+Life: 20
+Discard 1: Gunner Drive
+Discard 2: Crossfire Reload
+pool: AP, Flash, Impact, Longshot, Swift
+
+
+C.....R
+
+Unbeatable strategy for Rukyuk: Trick Shot (AP): -1.22
+
+
+Cesar:
+12% Phalanx Burst
+88% Fueled Grasp
+
+Rukyuk:
+40% Sniper Strike (AP)
+60% Trick Shot (AP)
+
+
+Cesar: Phalanx Burst
+Rukyuk: Sniper Strike (AP)
+
+Cesar gains a Threat Level (current level: 3)
+Rukyuk antes an AP token
+Priorities:  -1 | 5
+Rukyuk is active
+Rukyuk hits
+Cesar takes 5 damage (now at 15 life)
+Rukyuk moves:
+
+C..R...
+
+Cesar moves:
+
+.C.R...
+
+Cesar hits
+Rukyuk takes 6 damage (now at 14 life)
+Rukyuk is stunned
+
+Beat 3
+-------
+
+Cesar
+-----
+Life: 15
+Discard 1: Phalanx Burst
+Discard 2: Unstoppable Suppression
+Special action available
+Threat level: 3
+
+Rukyuk
+------
+Life: 14
+Discard 1: Sniper Strike
+Discard 2: Gunner Drive
 pool: Flash, Impact, Longshot, Swift
 
 
-...CR..
+.C.R...
+
+Unbeatable strategy for Rukyuk: Point Blank Reload: -0.93
+Unbeatable strategy for Rukyuk: Point Blank Reload (Flash): -0.93
+Unbeatable strategy for Rukyuk: Point Blank Reload (Impact): -0.93
+Unbeatable strategy for Rukyuk: Point Blank Reload (Longshot): -0.93
+Unbeatable strategy for Rukyuk: Point Blank Reload (Swift): -0.93
+Unbeatable strategy for Rukyuk: Crossfire Reload: -0.53
+Unbeatable strategy for Rukyuk: Crossfire Reload (Flash): -0.53
+Unbeatable strategy for Rukyuk: Crossfire Reload (Impact): -0.53
+Unbeatable strategy for Rukyuk: Crossfire Reload (Longshot): -0.53
+Unbeatable strategy for Rukyuk: Crossfire Reload (Swift): -0.53
+Unbeatable strategy for Rukyuk: Trick Reload: -0.76
+Unbeatable strategy for Rukyuk: Trick Reload (Flash): -0.76
+Unbeatable strategy for Rukyuk: Trick Reload (Impact): -0.76
+Unbeatable strategy for Rukyuk: Trick Reload (Longshot): -0.76
+Unbeatable strategy for Rukyuk: Trick Reload (Swift): -0.76
+
 
 Cesar:
-10% Phalanx Strike
-23% Phalanx Drive
-34% Inevitable Drive
-3% Inevitable Burst
-23% Inevitable Grasp
-8% Inevitable Dash
+4% Bulwark Strike
+16% Bulwark Drive
+79% Special Pulse
 
 Rukyuk:
-3% Point Blank Reload (Longshot)
-6% Point Blank Grasp (Longshot)
-16% Point Blank Grasp (Swift)
-1% Crossfire Reload (Longshot)
-0% Trick Reload (Longshot)
-75% Special Pulse
+41% Crossfire Reload
+25% Crossfire Dash
+34% Trick Reload
 
 
-Cesar: Inevitable Drive
-Rukyuk: Special Pulse
+Cesar: Special Pulse
+Rukyuk: Crossfire Reload
 
-Cesar gains a Threat Level (current level: 3)
-Pulse:
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Cesar Pulses:
 
-C.....R
+CR.....
 
 
 Beat 3
@@ -171,114 +231,104 @@ Beat 3
 
 Cesar
 -----
-life: 15
-discard 1: Inevitable Drive
-discard 2: Unstoppable Shot
-special action
-Threat level: 3
+Life: 15
+Discard 1: Phalanx Burst
+Discard 2: Unstoppable Suppression
+Threat level: 4
 
 Rukyuk
 ------
-life: 20
-discard 1: Sniper Dash
-discard 2: Gunner Drive
+Life: 14
+Discard 1: Crossfire Reload
+Discard 2: Sniper Strike
 pool: Flash, Impact, Longshot, Swift
 
 
-C.....R
+CR.....
+
 
 Cesar:
-23% Fueled Suppression
-77% Bulwark Suppression
+13% Fueled Drive
+2% Bulwark Shot
+60% Bulwark Drive
+13% Inevitable Drive
+0% Inevitable Grasp
+13% Inevitable Dash
 
 Rukyuk:
-65% Crossfire Shot (Flash)
-35% Trick Reload (Flash)
+23% Point Blank Drive (Flash)
+0% Point Blank Grasp (Flash)
+24% Gunner Shot
+14% Gunner Drive (Longshot)
+7% Gunner Burst (Swift)
+32% Gunner Dash
 
 
-Cesar: Fueled Suppression
-Rukyuk: Trick Reload (Flash)
+Cesar: Inevitable Dash
+Rukyuk: Gunner Dash
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Rukyuk antes a Flash token
-Priorities:  1 | 1
+Cesar gains a Threat Level (current level: 0)
+Priorities:  9 | 9
 Clash!
 
-Cesar:
-49% Fueled Strike
-51% Fueled Grasp
 
-Rukyuk:
-100% Trick Shot (Flash)
+Cesar: Inevitable Shot
+Rukyuk: Gunner Drive
 
-
-Cesar: Fueled Grasp
-Rukyuk: Trick Shot (Flash)
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Rukyuk antes a Flash token
-Priorities:  4 | -1
-Cesar is active
 Cesar gains a Threat Level (current level: 0)
-Rukyuk hits
-Cesar takes 3 damage (now at 12 life)
-Cesar is stunned
+Priorities:  2 | 4
+Rukyuk is active
+Rukyuk misses
+Rukyuk moves:
+
+C..R...
+
+Cesar hits
+Rukyuk is stunned
+Rukyuk will have -3 priority next beat
+Rukyuk takes 3 damage (now at 11 life)
+Rukyuk is stunned
 
 Beat 4
 -------
 
 Cesar
 -----
-life: 12
-discard 1: Fueled Grasp
-discard 2: Inevitable Drive
-special action
+Life: 15
+Discard 1: Inevitable Shot
+Discard 2: Phalanx Burst
+Opponent has power penalty: -3
 Threat level: 0
 
 Rukyuk
 ------
-life: 20
-discard 1: Trick Shot
-discard 2: Sniper Dash
-pool: Impact, Longshot, Swift
+Life: 11
+Discard 1: Gunner Drive
+Discard 2: Crossfire Reload
+pool: Flash, Impact, Longshot, Swift
 
 
-C.....R
+C..R...
 
-Unbeatable strategy for Cesar: Phalanx Suppression: 1.06
-Unbeatable strategy for Cesar: Unstoppable Suppression: 2.81
-Unbeatable strategy for Cesar: Bulwark Suppression: 3.38
 
 Cesar:
-53% Unstoppable Suppression
-2% Unstoppable Shot
-45% Bulwark Suppression
+16% Unstoppable Drive
+51% Bulwark Suppression
+33% Bulwark Drive
 
 Rukyuk:
-9% Gunner Reload
-9% Gunner Reload (Impact)
-8% Gunner Reload (Longshot)
-8% Gunner Reload (Swift)
-16% Crossfire Reload
-15% Crossfire Reload (Impact)
-15% Crossfire Reload (Longshot)
-14% Crossfire Reload (Swift)
-6% Crossfire Burst
+18% Sniper Strike (Longshot)
+73% Sniper Shot
+8% Sniper Burst (Flash)
 
 
 Cesar: Bulwark Suppression
-Rukyuk: Gunner Reload (Swift)
+Rukyuk: Sniper Shot
 
 Cesar gains a Threat Level (current level: 1)
-Rukyuk antes a Swift token
-Priorities:  0 | 6
+Priorities:  0 | 4
 Rukyuk is active
-Rukyuk moves:
-
-C...R..
-
+Rukyuk misses
 Rukyuk moves:
 
 C.R....
@@ -286,7 +336,7 @@ C.R....
 Cesar misses
 Cesar moves:
 
-.CR....
+..RC...
 
 
 Beat 5
@@ -294,113 +344,115 @@ Beat 5
 
 Cesar
 -----
-life: 12
-discard 1: Bulwark Suppression
-discard 2: Fueled Grasp
-special action
+Life: 15
+Discard 1: Bulwark Suppression
+Discard 2: Inevitable Shot
 Threat level: 1
 
 Rukyuk
 ------
-life: 20
-discard 1: Gunner Reload
-discard 2: Trick Shot
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+Life: 11
+Discard 1: Sniper Shot
+Discard 2: Gunner Drive
+pool: Flash, Impact, Longshot, Swift
 
 
-.CR....
+..RC...
 
-Unbeatable strategy for Rukyuk: Sniper Dash: -2.57
-Unbeatable strategy for Rukyuk: Sniper Dash (AP): -2.07
-Unbeatable strategy for Rukyuk: Sniper Dash (Explosive): -1.67
-Unbeatable strategy for Rukyuk: Sniper Dash (Flash): -1.97
-Unbeatable strategy for Rukyuk: Sniper Dash (Impact): -1.87
-Unbeatable strategy for Rukyuk: Sniper Dash (Longshot): -1.57
-Unbeatable strategy for Rukyuk: Sniper Dash (Swift): -1.47
-Unbeatable strategy for Rukyuk: Point Blank Drive (Flash): -0.52
-Unbeatable strategy for Rukyuk: Point Blank Grasp (Flash): -0.12
-Unbeatable strategy for Rukyuk: Crossfire Dash: -0.14
+Unbeatable strategy for Rukyuk: Crossfire Dash: -0.22
+
 
 Cesar:
-13% Phalanx Dash
-5% Unstoppable Strike
-71% Unstoppable Shot
-10% Inevitable Drive
+42% Unstoppable Strike
+20% Unstoppable Burst
+34% Unstoppable Grasp
+3% Unstoppable Dash
 
 Rukyuk:
-82% Sniper Dash
-3% Point Blank Strike (Explosive)
-2% Point Blank Drive (Explosive)
-12% Point Blank Drive (Flash)
+12% Point Blank Strike (Flash)
+6% Point Blank Grasp (Flash)
+31% Crossfire Reload (Swift)
+50% Crossfire Dash
 
 
-Cesar: Unstoppable Shot
-Rukyuk: Point Blank Drive (Flash)
+Cesar: Unstoppable Strike
+Rukyuk: Crossfire Dash
 
 Cesar gains a Threat Level (current level: 2)
-Rukyuk antes a Flash token
-Priorities:  0 | 4
+Priorities:  1 | 7
 Rukyuk is active
 Rukyuk moves:
 
+R..C...
+
+Cesar moves:
+
 RC.....
 
-Rukyuk hits
-Cesar takes 3 damage (now at 9 life)
-Cesar is stunned
+Cesar misses
 
 Beat 6
 -------
 
 Cesar
 -----
-life: 9
-discard 1: Unstoppable Shot
-discard 2: Bulwark Suppression
-special action
+Life: 15
+Discard 1: Unstoppable Strike
+Discard 2: Bulwark Suppression
 Threat level: 2
 
 Rukyuk
 ------
-life: 20
-discard 1: Point Blank Drive
-discard 2: Gunner Reload
-pool: AP, Explosive, Impact, Longshot, Swift
+Life: 11
+Discard 1: Crossfire Dash
+Discard 2: Sniper Shot
+pool: Flash, Impact, Longshot, Swift
 
 
 RC.....
 
-Unbeatable strategy for Rukyuk: Sniper Dash: -2.12
-Unbeatable strategy for Rukyuk: Sniper Dash (AP): -1.62
-Unbeatable strategy for Rukyuk: Sniper Dash (Explosive): -1.22
-Unbeatable strategy for Rukyuk: Sniper Dash (Impact): -1.42
-Unbeatable strategy for Rukyuk: Sniper Dash (Longshot): -1.12
-Unbeatable strategy for Rukyuk: Sniper Dash (Swift): -1.02
+Unbeatable strategy for Rukyuk: Point Blank Reload (Swift): -0.77
+Unbeatable strategy for Rukyuk: Gunner Reload (Swift): -1.37
+Unbeatable strategy for Rukyuk: Trick Reload: -0.02
+Unbeatable strategy for Rukyuk: Trick Reload (Flash): -0.02
+Unbeatable strategy for Rukyuk: Trick Reload (Impact): -0.02
+Unbeatable strategy for Rukyuk: Trick Reload (Longshot): -0.02
+Unbeatable strategy for Rukyuk: Trick Reload (Swift): -0.02
+
 
 Cesar:
-71% Fueled Burst
-29% Fueled Grasp
+20% Phalanx Shot
+80% Fueled Burst
 
 Rukyuk:
-81% Sniper Dash
-19% Trick Grasp (Impact)
+5% Point Blank Burst (Impact)
+6% Gunner Reload
+5% Gunner Reload (Flash)
+5% Gunner Reload (Impact)
+5% Gunner Reload (Longshot)
+75% Gunner Reload (Swift)
 
 
-Cesar: Fueled Grasp
-Rukyuk: Sniper Dash
+Cesar: Fueled Burst
+Rukyuk: Gunner Reload (Impact)
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  4 | 11
+Rukyuk antes an Impact token
+Priorities:  0 | 4
 Rukyuk is active
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
+Cesar moves:
+
+R..C...
+
 Rukyuk moves:
 
-.C.R...
+.R.C...
 
 Rukyuk moves:
 
-.C....R
+R..C...
 
 
 Beat 7
@@ -408,378 +460,499 @@ Beat 7
 
 Cesar
 -----
-life: 9
-discard 1: Fueled Grasp
-discard 2: Unstoppable Shot
-special action
+Life: 15
+Discard 1: Fueled Burst
+Discard 2: Unstoppable Strike
 Threat level: 4
 
 Rukyuk
 ------
-life: 20
-discard 1: Sniper Dash
-discard 2: Point Blank Drive
-pool: AP, Explosive, Impact, Longshot, Swift
+Life: 11
+Discard 1: Gunner Reload
+Discard 2: Crossfire Dash
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-.C....R
+R..C...
+
 
 Cesar:
-72% Bulwark Suppression
-16% Bulwark Drive
-12% Inevitable Suppression
+43% Phalanx Suppression
+23% Bulwark Shot
+2% Bulwark Dash
+31% Inevitable Drive
+1% Inevitable Dash
 
 Rukyuk:
-11% Gunner Strike (AP)
-27% Crossfire Reload (Longshot)
-62% Trick Strike (Longshot)
+38% Sniper Strike (Longshot)
+28% Point Blank Drive (Explosive)
+19% Trick Drive (Explosive)
+16% Trick Drive (Flash)
 
 
-Cesar: Bulwark Suppression
-Rukyuk: Trick Strike (Longshot)
+Cesar: Phalanx Suppression
+Rukyuk: Sniper Strike (Longshot)
 
 Cesar gains a Threat Level (current level: 0)
 Rukyuk antes a Longshot token
-Priorities:  0 | 0
-Clash!
+Priorities:  0 | 5
+Rukyuk is active
+Rukyuk misses
+Rukyuk moves:
 
-Cesar:
-47% Bulwark Strike
-35% Bulwark Drive
-18% Bulwark Burst
+..RC...
 
-Rukyuk:
-48% Trick Reload (Longshot)
-37% Trick Shot (Longshot)
-15% Trick Burst (Longshot)
-
-
-Cesar: Bulwark Strike
-Rukyuk: Trick Reload (Longshot)
-
-Cesar gains a Threat Level (current level: 0)
-Rukyuk antes a Longshot token
-Priorities:  1 | 1
-Clash!
-
-Cesar:
-29% Bulwark Drive
-26% Bulwark Burst
-45% Bulwark Dash
-
-Rukyuk:
-58% Trick Shot (Longshot)
-8% Trick Burst (Longshot)
-34% Trick Grasp (Longshot)
-
-
-Cesar: Bulwark Drive
-Rukyuk: Trick Shot (Longshot)
-
-Cesar gains a Threat Level (current level: 0)
-Rukyuk antes a Longshot token
-Priorities:  2 | -1
-Cesar is active
+Cesar hits
+Rukyuk takes 2 damage (now at 9 life)
 Cesar moves:
 
-..C...R
+.CR....
 
-Cesar misses
-Cesar moves:
-
-.....CR
-
-Rukyuk hits
-Cesar takes 3 damage (now at 6 life)
 
 Beat 8
 -------
 
 Cesar
 -----
-life: 6
-discard 1: Bulwark Drive
-discard 2: Fueled Grasp
-special action
+Life: 15
+Discard 1: Phalanx Suppression
+Discard 2: Fueled Burst
 Threat level: 0
 
 Rukyuk
 ------
-life: 20
-discard 1: Trick Shot
-discard 2: Sniper Dash
-pool: AP, Explosive, Impact, Swift
+Life: 9
+Discard 1: Sniper Strike
+Discard 2: Gunner Reload
+pool: AP, Explosive, Flash, Impact, Swift
 
 
-.....CR
+.CR....
 
-Unbeatable strategy for Rukyuk: Point Blank Reload: -0.76
-Unbeatable strategy for Rukyuk: Point Blank Reload (AP): -0.76
-Unbeatable strategy for Rukyuk: Point Blank Reload (Explosive): -0.76
-Unbeatable strategy for Rukyuk: Point Blank Reload (Impact): -0.76
-Unbeatable strategy for Rukyuk: Point Blank Reload (Swift): -0.76
-Unbeatable strategy for Rukyuk: Crossfire Reload (Swift): -2.09
 
 Cesar:
-100% Special Level 4 Protocol
+10% Unstoppable Shot
+36% Unstoppable Dash
+27% Bulwark Shot
+16% Bulwark Drive
+12% Inevitable Grasp
 
 Rukyuk:
-11% Crossfire Reload
-9% Crossfire Reload (AP)
-8% Crossfire Reload (Explosive)
-9% Crossfire Reload (Impact)
-63% Crossfire Reload (Swift)
+2% Point Blank Shot (Flash)
+22% Point Blank Drive (Flash)
+0% Point Blank Burst (Flash)
+18% Point Blank Grasp (Flash)
+59% Trick Dash
 
 
-Cesar: Special Level 4 Protocol
-Rukyuk: Crossfire Reload (Swift)
+Cesar: Unstoppable Dash
+Rukyuk: Point Blank Grasp (Flash)
 
 Cesar gains a Threat Level (current level: 1)
-Rukyuk antes a Swift token
-Priorities:  11 | 4
+Rukyuk antes a Flash token
+Priorities:  7 | 5
 Cesar is active
-Cesar hits
-Rukyuk has 2 soak
-Rukyuk takes 6 damage (now at 14 life)
-Rukyuk is stunned
+Cesar moves:
+
+..RC...
+
+Rukyuk misses
 
 Beat 9
 -------
 
 Cesar
 -----
-life: 6
-discard 1: Bulwark Drive
-discard 2: Fueled Grasp
+Life: 15
+Discard 1: Unstoppable Dash
+Discard 2: Phalanx Suppression
 Threat level: 1
 
 Rukyuk
 ------
-life: 14
-discard 1: Crossfire Reload
-discard 2: Trick Shot
-pool: AP, Explosive, Flash, Impact, Longshot, Swift
+Life: 9
+Discard 1: Point Blank Grasp
+Discard 2: Sniper Strike
+pool: AP, Explosive, Impact, Swift
 
 
-.....CR
+..RC...
 
-Unbeatable strategy for Rukyuk: Point Blank Drive (Flash): -3.51
 
 Cesar:
-34% Phalanx Suppression
-28% Unstoppable Strike
-38% Unstoppable Burst
+100% Bulwark Shot
 
 Rukyuk:
-4% Point Blank Strike (Explosive)
-5% Point Blank Drive (Explosive)
-91% Point Blank Drive (Flash)
+100% Gunner Dash
 
 
-Cesar: Unstoppable Burst
-Rukyuk: Point Blank Drive (Flash)
+Cesar: Bulwark Shot
+Rukyuk: Gunner Dash
 
 Cesar gains a Threat Level (current level: 2)
-Rukyuk antes a Flash token
-Priorities:  -1 | 4
+Priorities:  0 | 9
 Rukyuk is active
-Cesar moves:
+Rukyuk moves:
 
-...C..R
+R..C...
 
 Rukyuk moves:
 
 ...CR..
 
-Cesar moves:
-
-....RC.
-
-Rukyuk hits
-Cesar takes 3 damage (now at 3 life)
-Cesar is stunned
+Cesar misses
 
 Beat 10
 -------
 
 Cesar
 -----
-life: 3
-discard 1: Unstoppable Burst
-discard 2: Bulwark Drive
+Life: 15
+Discard 1: Bulwark Shot
+Discard 2: Unstoppable Dash
 Threat level: 2
 
 Rukyuk
 ------
-life: 14
-discard 1: Point Blank Drive
-discard 2: Crossfire Reload
-pool: AP, Explosive, Impact, Longshot, Swift
+Life: 9
+Discard 1: Gunner Dash
+Discard 2: Point Blank Grasp
+pool: AP, Explosive, Impact, Swift
 
 
-....RC.
+...CR..
 
-Unbeatable strategy for Rukyuk: Sniper Burst: -0.63
-Unbeatable strategy for Rukyuk: Sniper Burst (AP): -0.13
-Unbeatable strategy for Rukyuk: Sniper Dash: -0.02
+Unbeatable strategy for Rukyuk: Crossfire Reload (Swift): -0.92
+
 
 Cesar:
-63% Fueled Suppression
-37% Fueled Shot
-
-Rukyuk:
-47% Sniper Burst
-53% Gunner Burst
-
-
-Cesar: Fueled Shot
-Rukyuk: Gunner Burst
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  1 | 1
-Clash!
-
-Cesar:
-100% Fueled Suppression
-
-Rukyuk:
-100% Gunner Dash
-
-
-Cesar: Fueled Suppression
-Rukyuk: Gunner Dash
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  1 | 9
-Rukyuk is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Rukyuk moves:
-
-..R..C.
-
-Rukyuk moves:
-
-R....C.
-
-Cesar moves:
-
-R.C....
-
-
-Beat 11
--------
-
-Cesar
------
-life: 3
-discard 1: Fueled Suppression
-discard 2: Unstoppable Burst
-Threat level: 4
-
-Rukyuk
-------
-life: 14
-discard 1: Gunner Dash
-discard 2: Point Blank Drive
-pool: AP, Explosive, Impact, Longshot, Swift
-
-
-R.C....
-
-Unbeatable strategy for Rukyuk: Trick Strike (Longshot): -0.18
-Unbeatable strategy for Rukyuk: Trick Shot (Longshot): -0.71
-
-Cesar:
-18% Bulwark Shot
-82% Inevitable Drive
+15% Phalanx Strike
+32% Phalanx Drive
+4% Fueled Suppression
+3% Inevitable Suppression
+30% Inevitable Drive
+16% Inevitable Grasp
 
 Rukyuk:
 5% Sniper Reload
 5% Sniper Reload (AP)
 5% Sniper Reload (Explosive)
 5% Sniper Reload (Impact)
-5% Sniper Reload (Longshot)
-4% Sniper Reload (Swift)
-72% Trick Shot (Longshot)
+5% Sniper Reload (Swift)
+15% Sniper Shot
+2% Crossfire Reload
+9% Crossfire Reload (Swift)
+35% Trick Reload
+14% Trick Reload (Impact)
 
 
-Cesar: Bulwark Shot
-Rukyuk: Trick Shot (Longshot)
+Cesar: Fueled Suppression
+Rukyuk: Trick Reload
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  1 | 1
+Clash!
+
+
+Cesar: Fueled Grasp
+Rukyuk: Trick Burst
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  4 | -2
+Cesar is active
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Rukyuk moves:
+
+...C..R
+
+Rukyuk misses
+
+Beat 11
+-------
+
+Cesar
+-----
+Life: 15
+Discard 1: Fueled Grasp
+Discard 2: Bulwark Shot
+Threat level: 4
+
+Rukyuk
+------
+Life: 9
+Discard 1: Trick Burst
+Discard 2: Gunner Dash
+pool: AP, Explosive, Impact, Swift
+
+
+...C..R
+
+
+Cesar:
+9% Phalanx Suppression
+22% Phalanx Strike
+27% Unstoppable Drive
+25% Unstoppable Dash
+17% Inevitable Drive
+
+Rukyuk:
+9% Sniper Reload
+9% Sniper Reload (AP)
+9% Sniper Reload (Explosive)
+9% Sniper Reload (Impact)
+38% Point Blank Drive (Explosive)
+4% Crossfire Shot (Impact)
+5% Crossfire Grasp (Impact)
+19% Crossfire Grasp (Swift)
+
+
+Cesar: Unstoppable Dash
+Rukyuk: Crossfire Grasp (Swift)
 
 Cesar gains a Threat Level (current level: 0)
-Rukyuk antes a Longshot token
-Priorities:  0 | -1
+Rukyuk antes a Swift token
+Priorities:  7 | 5
 Cesar is active
-Cesar hits
-Rukyuk takes 3 damage (now at 11 life)
 Cesar moves:
 
-RC.....
+.....CR
 
-Rukyuk hits
-Cesar takes 3 damage (now at 0 life)
+Rukyuk misses
 
 Beat 12
 -------
 
 Cesar
 -----
-life: 1
-discard 1: Bulwark Shot
-discard 2: Fueled Suppression
+Life: 15
+Discard 1: Unstoppable Dash
+Discard 2: Fueled Grasp
 Threat level: 0
-Defeat immunity used-up
 
 Rukyuk
 ------
-life: 11
-discard 1: Trick Shot
-discard 2: Gunner Dash
-pool: AP, Explosive, Impact, Swift
+Life: 9
+Discard 1: Crossfire Grasp
+Discard 2: Trick Burst
+pool: AP, Explosive, Impact
+
+
+.....CR
+
+Unbeatable strategy for Rukyuk: Sniper Reload: -4.27
+Unbeatable strategy for Rukyuk: Sniper Reload (AP): -4.27
+Unbeatable strategy for Rukyuk: Sniper Reload (Explosive): -4.27
+Unbeatable strategy for Rukyuk: Sniper Reload (Impact): -4.27
+Unbeatable strategy for Rukyuk: Point Blank Reload: -2.14
+Unbeatable strategy for Rukyuk: Point Blank Reload (AP): -2.14
+Unbeatable strategy for Rukyuk: Point Blank Reload (Explosive): -2.14
+Unbeatable strategy for Rukyuk: Point Blank Reload (Impact): -2.14
+Unbeatable strategy for Rukyuk: Gunner Reload: -3.75
+Unbeatable strategy for Rukyuk: Gunner Reload (AP): -3.75
+Unbeatable strategy for Rukyuk: Gunner Reload (Explosive): -3.75
+Unbeatable strategy for Rukyuk: Gunner Reload (Impact): -3.75
+
+
+Cesar:
+17% Phalanx Burst
+31% Bulwark Shot
+52% Bulwark Drive
+
+Rukyuk:
+24% Sniper Reload
+24% Sniper Reload (AP)
+24% Sniper Reload (Explosive)
+24% Sniper Reload (Impact)
+1% Point Blank Drive (Explosive)
+4% Gunner Drive (Explosive)
+
+
+Cesar: Bulwark Drive
+Rukyuk: Sniper Reload (Explosive)
+
+Cesar gains a Threat Level (current level: 1)
+Rukyuk antes an Explosive token
+Priorities:  2 | 6
+Rukyuk is active
+Rukyuk moves:
+
+..R..C.
+
+Rukyuk moves:
+
+.R...C.
+
+Cesar moves:
+
+.R.C...
+
+Cesar misses
+Cesar moves:
+
+.RC....
+
+
+Beat 13
+-------
+
+Cesar
+-----
+Life: 15
+Discard 1: Bulwark Drive
+Discard 2: Unstoppable Dash
+Threat level: 1
+
+Rukyuk
+------
+Life: 9
+Discard 1: Sniper Reload
+Discard 2: Crossfire Grasp
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
+
+
+.RC....
+
+
+Cesar:
+24% Phalanx Suppression
+10% Phalanx Grasp
+32% Inevitable Shot
+34% Inevitable Grasp
+
+Rukyuk:
+3% Point Blank Strike (Impact)
+35% Point Blank Drive (Flash)
+33% Point Blank Burst (Explosive)
+29% Gunner Dash
+
+
+Cesar: Inevitable Grasp
+Rukyuk: Point Blank Burst (Explosive)
+
+Cesar gains a Threat Level (current level: 2)
+Rukyuk antes an Explosive token
+Priorities:  5 | 1
+Cesar is active
+Rukyuk moves:
+
+R.C....
+
+Cesar misses
+Rukyuk hits
+Cesar takes 5 damage (now at 10 life)
+Rukyuk moves Cesar:
+
+R...C..
+
+
+Beat 14
+-------
+
+Cesar
+-----
+Life: 10
+Discard 1: Inevitable Grasp
+Discard 2: Bulwark Drive
+Threat level: 2
+
+Rukyuk
+------
+Life: 9
+Discard 1: Point Blank Burst
+Discard 2: Sniper Reload
+pool: AP, Flash, Impact, Longshot, Swift
+
+
+R...C..
+
+
+Cesar:
+25% Phalanx Suppression
+20% Phalanx Dash
+33% Unstoppable Suppression
+15% Fueled Suppression
+8% Fueled Shot
+
+Rukyuk:
+9% Gunner Drive (Impact)
+4% Gunner Drive (Longshot)
+35% Crossfire Strike
+21% Crossfire Strike (AP)
+30% Crossfire Shot (AP)
+
+
+Cesar: Unstoppable Suppression
+Rukyuk: Crossfire Strike (AP)
+
+Cesar gains a Threat Level (current level: 3)
+Rukyuk antes an AP token
+Priorities:  0 | 1
+Rukyuk is active
+Rukyuk misses
+Cesar misses
+Cesar moves:
+
+RC.....
+
+
+Beat 15
+-------
+
+Cesar
+-----
+Life: 10
+Discard 1: Unstoppable Suppression
+Discard 2: Inevitable Grasp
+Threat level: 3
+
+Rukyuk
+------
+Life: 9
+Discard 1: Crossfire Strike
+Discard 2: Point Blank Burst
+pool: Flash, Impact, Longshot, Swift
 
 
 RC.....
 
-Unbeatable strategy for Rukyuk: Point Blank Drive (Swift): -6.00
 
 Cesar:
-1% Phalanx Strike
-2% Phalanx Drive
-5% Phalanx Burst
-4% Phalanx Grasp
-6% Phalanx Dash
-3% Unstoppable Strike
-12% Unstoppable Drive
-9% Unstoppable Burst
-5% Unstoppable Grasp
-10% Unstoppable Dash
-3% Inevitable Strike
-4% Inevitable Drive
-12% Inevitable Burst
-12% Inevitable Grasp
-14% Inevitable Dash
+10% Phalanx Strike
+6% Phalanx Shot
+7% Phalanx Drive
+19% Phalanx Burst
+8% Phalanx Dash
+10% Bulwark Strike
+6% Bulwark Shot
+7% Bulwark Drive
+19% Bulwark Burst
+8% Bulwark Dash
 
 Rukyuk:
-100% Point Blank Drive (Swift)
+50% Gunner Shot (Longshot)
+50% Gunner Drive (Longshot)
 
 
-Cesar: Inevitable Grasp
-Rukyuk: Point Blank Drive (Swift)
+Cesar: Bulwark Burst
+Rukyuk: Gunner Shot (Longshot)
 
-Cesar gains a Threat Level (current level: 1)
-Rukyuk antes a Swift token
-Priorities:  5 | 6
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Rukyuk antes a Longshot token
+Priorities:  -1 | 2
 Rukyuk is active
-Rukyuk moves:
+Cesar moves:
 
-.CR....
+R.C....
 
 Rukyuk hits
-Rukyuk moves Cesar:
+Cesar has 2 soak
+Cesar takes 1 damage (now at 9 life)
+Rukyuk moves:
 
-C.R....
+.RC....
 
-Cesar takes 3 damage (now at 0 life)
-RUKYUK WINS!
-total_time: 78
+Game goes to time
+THE GAME IS TIED!
+total_time: 130

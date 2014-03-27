@@ -11,24 +11,25 @@ Beat 1
 
 Cesar
 -----
-life: 20
-discard 1: Fueled Strike
-discard 2: Unstoppable Grasp
-special action
+Life: 20
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Grasp
+Special action available
 Threat level: 0
 
 Marmelee
 --------
-life: 20
-discard 1: Petrifying Burst
-discard 2: Barrier Grasp
-special action
+Life: 20
+Discard 1: Petrifying Burst
+Discard 2: Barrier Grasp
+Special action available
 2 Concentration counters
 
 
 .C...M.
 
-Unbeatable strategy for Cesar: Phalanx Shot: 0.40
+Unbeatable strategy for Marmelee: Nullifying Meditation: -0.79
+
 
 Cesar:
 100% Phalanx Shot
@@ -62,30 +63,37 @@ Beat 2
 
 Cesar
 -----
-life: 20
-discard 1: Phalanx Shot
-discard 2: Fueled Strike
-special action
+Life: 20
+Discard 1: Phalanx Shot
+Discard 2: Fueled Strike
+Special action available
 Threat level: 1
 
 Marmelee
 --------
-life: 18
-discard 1: Nullifying Meditation
-discard 2: Petrifying Burst
-special action
+Life: 18
+Discard 1: Nullifying Meditation
+Discard 2: Petrifying Burst
+Special action available
 2 Concentration counters
 
 
 .C....M
 
+Unbeatable strategy for Cesar: Bulwark Suppression: 0.72
+
+
 Cesar:
 1% Unstoppable Drive
-99% Bulwark Suppression
+91% Bulwark Suppression
+6% Bulwark Drive
+2% Bulwark Dash
 
 Marmelee:
-95% Magnificent Shot
-5% Magnificent Drive
+83% Magnificent Shot
+3% Sorceress Shot
+11% Barrier Shot
+4% Barrier Drive
 
 
 Cesar: Bulwark Suppression
@@ -111,56 +119,52 @@ Beat 3
 
 Cesar
 -----
-life: 20
-discard 1: Bulwark Suppression
-discard 2: Phalanx Shot
-special action
+Life: 20
+Discard 1: Bulwark Suppression
+Discard 2: Phalanx Shot
+Special action available
 Threat level: 2
 
 Marmelee
 --------
-life: 18
-discard 1: Magnificent Shot
-discard 2: Nullifying Meditation
-special action
+Life: 18
+Discard 1: Magnificent Shot
+Discard 2: Nullifying Meditation
+Special action available
 3 Concentration counters
 
 
 .....CM
 
+Unbeatable strategy for Marmelee: Sorceress Dash: -0.13
+
+
 Cesar:
-24% Unstoppable Strike
-34% Fueled Drive
-42% Fueled Burst
-0% Inevitable Drive
+18% Unstoppable Strike
+46% Fueled Drive
+36% Fueled Burst
 
 Marmelee:
 26% Petrifying Strike
-41% Petrifying Drive
-32% Sorceress Dash
-1% Barrier Burst
+26% Petrifying Drive
+48% Sorceress Dash
 
 
-Cesar: Fueled Burst
-Marmelee: Petrifying Drive
+Cesar: Unstoppable Strike
+Marmelee: Sorceress Dash
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  0 | 3
+Priorities:  1 | 8
 Marmelee is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Cesar moves:
-
-...C..M
-
 Marmelee moves:
 
-...CM..
+..M..C.
 
-Marmelee hits
-Cesar has 2 soak
-Cesar takes 2 damage (now at 18 life)
-Cesar is stunned
+Cesar moves:
+
+..M.C..
+
+Cesar misses
 Marmelee gains 1 Concentration Counter
 
 Beat 4
@@ -168,49 +172,55 @@ Beat 4
 
 Cesar
 -----
-life: 18
-discard 1: Fueled Burst
-discard 2: Bulwark Suppression
-special action
-Threat level: 4
+Life: 20
+Discard 1: Unstoppable Strike
+Discard 2: Bulwark Suppression
+Special action available
+Threat level: 3
 
 Marmelee
 --------
-life: 18
-discard 1: Petrifying Drive
-discard 2: Magnificent Shot
-special action
+Life: 18
+Discard 1: Sorceress Dash
+Discard 2: Magnificent Shot
+Special action available
 4 Concentration counters
 
 
-...CM..
+..M.C..
+
+Unbeatable strategy for Cesar: Phalanx Burst: 1.19
+
 
 Cesar:
-81% Unstoppable Strike
-11% Unstoppable Drive
-8% Inevitable Drive
+5% Phalanx Shot
+20% Phalanx Grasp
+28% Fueled Burst
+7% Inevitable Shot
+40% Inevitable Burst
 
 Marmelee:
-4% Sorceress Strike
-94% Sorceress Dash
-3% Barrier Strike
+4% Petrifying Drive
+12% Petrifying Burst
+30% Barrier Drive
+53% Barrier Burst
+0% Nullifying Burst
 
 
-Cesar: Unstoppable Strike
-Marmelee: Sorceress Dash
+Cesar: Phalanx Grasp
+Marmelee: Barrier Drive
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  1 | 8
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  3 | 4
 Marmelee is active
 Marmelee moves:
 
-M..C...
+...MC..
 
-Cesar moves:
-
-MC.....
-
-Cesar misses
+Marmelee hits
+Cesar has 2 soak
+Cesar takes 0 damage (now at 20 life)
 Marmelee gains 1 Concentration Counter
 
 Beat 5
@@ -218,220 +228,171 @@ Beat 5
 
 Cesar
 -----
-life: 18
-discard 1: Unstoppable Strike
-discard 2: Fueled Burst
-special action
+Life: 20
+Discard 1: Phalanx Grasp
+Discard 2: Unstoppable Strike
+Special action available
+Threat level: 4
+
+Marmelee
+--------
+Life: 18
+Discard 1: Barrier Drive
+Discard 2: Sorceress Dash
+Special action available
+5 Concentration counters
+
+
+...MC..
+
+
+Cesar:
+5% Bulwark Burst
+72% Inevitable Shot
+23% Inevitable Burst
+
+Marmelee:
+7% Petrifying Meditation
+20% Petrifying Shot
+73% Petrifying Burst
+
+
+Cesar: Inevitable Burst
+Marmelee: Petrifying Burst
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  1 | 0
+Cesar is active
+Cesar moves:
+
+...M..C
+
+Marmelee moves:
+
+.M....C
+
+Cesar misses
+Marmelee misses
+
+Beat 6
+-------
+
+Cesar
+-----
+Life: 20
+Discard 1: Inevitable Burst
+Discard 2: Phalanx Grasp
+Special action available
 Threat level: 0
 
 Marmelee
 --------
-life: 18
-discard 1: Sorceress Dash
-discard 2: Petrifying Drive
-special action
+Life: 18
+Discard 1: Petrifying Burst
+Discard 2: Barrier Drive
+Special action available
 5 Concentration counters
 
 
-MC.....
+.M....C
 
-Unbeatable strategy for Marmelee: Barrier Strike: -0.15
 
 Cesar:
-50% Phalanx Shot
-50% Phalanx Grasp
+47% Unstoppable Suppression
+6% Unstoppable Shot
+22% Fueled Shot
+24% Bulwark Suppression
 
 Marmelee:
-50% Barrier Meditation
-50% Barrier Strike
+7% Sorceress Meditation
+13% Sorceress Shot
+80% Nullifying Meditation
 
 
-Cesar: Phalanx Shot
-Marmelee: Barrier Meditation
+Cesar: Unstoppable Suppression
+Marmelee: Nullifying Meditation
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 3
+Priorities:  0 | 4
 Marmelee is active
-Marmelee discards 4 Concentration Counters
-Marmelee gains Soak 4
-Marmelee hits
-Cesar takes 1 damage (now at 17 life)
-Cesar hits
-Marmelee has 4 soak
-Marmelee takes 0 damage (now at 18 life)
-Marmelee gains 1 Concentration Counter
-Marmelee gains 1 Concentration Counter
+Marmelee moves:
 
-Beat 6
--------
-
-Cesar
------
-life: 17
-discard 1: Phalanx Shot
-discard 2: Unstoppable Strike
-special action
-Threat level: 1
-
-Marmelee
---------
-life: 18
-discard 1: Barrier Meditation
-discard 2: Sorceress Dash
-special action
-3 Concentration counters
-
-
-MC.....
-
-Cesar:
-27% Fueled Suppression
-30% Fueled Drive
-5% Bulwark Suppression
-38% Inevitable Grasp
-
-Marmelee:
-2% Petrifying Drive
-6% Magnificent Strike
-10% Magnificent Grasp
-82% Special Pulse
-
-
-Cesar: Fueled Drive
-Marmelee: Special Pulse
-
-Cesar gains a Threat Level (current level: 2)
-Pulse:
-
-C.....M
-
-
-Beat 6
--------
-
-Cesar
------
-life: 17
-discard 1: Fueled Drive
-discard 2: Phalanx Shot
-special action
-Threat level: 2
-
-Marmelee
---------
-life: 18
-discard 1: Barrier Meditation
-discard 2: Sorceress Dash
-3 Concentration counters
-
-
-C.....M
-
-Cesar:
-71% Bulwark Suppression
-29% Bulwark Dash
-
-Marmelee:
-30% Petrifying Shot
-70% Petrifying Burst
-
-
-Cesar: Bulwark Suppression
-Marmelee: Petrifying Burst
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  0 | 0
-Clash!
-
-Cesar:
-86% Bulwark Strike
-14% Bulwark Dash
-
-Marmelee:
-34% Petrifying Strike
-33% Petrifying Shot
-34% Petrifying Grasp
-
-
-Cesar: Bulwark Dash
-Marmelee: Petrifying Shot
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  7 | 1
-Cesar is active
-Cesar moves:
-
-..C...M
+M.....C
 
 Cesar moves:
 
-.....CM
+M...C..
 
-Marmelee hits
-Cesar takes 4 damage (now at 13 life)
-Marmelee gains 1 Concentration Counter
+Marmelee misses
+Cesar misses
+Cesar moves:
+
+M.....C
+
 
 Beat 7
 -------
 
 Cesar
 -----
-life: 13
-discard 1: Bulwark Dash
-discard 2: Fueled Drive
-special action
-Threat level: 3
+Life: 20
+Discard 1: Unstoppable Suppression
+Discard 2: Inevitable Burst
+Special action available
+Threat level: 1
 
 Marmelee
 --------
-life: 18
-discard 1: Petrifying Shot
-discard 2: Barrier Meditation
-4 Concentration counters
+Life: 18
+Discard 1: Nullifying Meditation
+Discard 2: Petrifying Burst
+Special action available
+5 Concentration counters
 
 
-.....CM
+M.....C
 
-Unbeatable strategy for Cesar: Phalanx Burst: 0.42
-Unbeatable strategy for Cesar: Unstoppable Burst: 0.59
+Unbeatable strategy for Marmelee: Magnificent Shot: -2.24
+Unbeatable strategy for Marmelee: Sorceress Shot: -2.55
+Unbeatable strategy for Marmelee: Barrier Strike: -0.95
+Unbeatable strategy for Marmelee: Barrier Shot: -0.18
+Unbeatable strategy for Marmelee: Barrier Grasp: -0.91
+
 
 Cesar:
-60% Phalanx Burst
-10% Inevitable Strike
-30% Inevitable Shot
+9% Fueled Strike
+91% Bulwark Strike
 
 Marmelee:
-39% Sorceress Strike
-59% Sorceress Drive
-1% Nullifying Strike
-1% Nullifying Grasp
+37% Magnificent Shot
+63% Sorceress Shot
 
 
-Cesar: Inevitable Shot
-Marmelee: Sorceress Strike
+Cesar: Bulwark Strike
+Marmelee: Sorceress Shot
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  2 | 2
+Cesar gains a Threat Level (current level: 2)
+Priorities:  1 | 1
 Clash!
 
-Cesar:
-16% Inevitable Suppression
-84% Inevitable Strike
 
-Marmelee:
-32% Sorceress Drive
-68% Sorceress Burst
+Cesar: Bulwark Shot
+Marmelee: Sorceress Drive
 
+Cesar gains a Threat Level (current level: 2)
+Priorities:  0 | 3
+Marmelee is active
+Marmelee moves:
 
-Cesar: Inevitable Strike
-Marmelee: Sorceress Burst
+.M....C
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  3 | 0
-Cesar is active
 Marmelee misses
+Cesar misses
+Marmelee discards 1 Concentration Counter
+Marmelee moves:
+
+..M...C
+
 Marmelee gains 1 Concentration Counter
 
 Beat 8
@@ -439,270 +400,251 @@ Beat 8
 
 Cesar
 -----
-life: 13
-discard 1: Inevitable Strike
-discard 2: Bulwark Dash
-special action
-Threat level: 4
+Life: 20
+Discard 1: Bulwark Shot
+Discard 2: Unstoppable Suppression
+Special action available
+Threat level: 2
 
 Marmelee
 --------
-life: 18
-discard 1: Sorceress Burst
-discard 2: Petrifying Shot
+Life: 18
+Discard 1: Sorceress Drive
+Discard 2: Nullifying Meditation
+Special action available
 5 Concentration counters
 
 
-.....CM
+..M...C
+
 
 Cesar:
-26% Phalanx Shot
-27% Phalanx Burst
-13% Unstoppable Suppression
-7% Unstoppable Shot
-28% Fueled Grasp
+16% Phalanx Drive
+84% Fueled Grasp
 
 Marmelee:
-4% Magnificent Meditation
-1% Magnificent Drive
-61% Magnificent Dash
-17% Barrier Strike
-17% Barrier Drive
+46% Petrifying Shot
+54% Petrifying Burst
 
 
-Cesar: Unstoppable Suppression
-Marmelee: Barrier Strike
+Cesar: Fueled Grasp
+Marmelee: Petrifying Shot
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  0 | 3
-Marmelee is active
-Marmelee hits
-Cesar takes 3 damage (now at 10 life)
+Cesar gains a Threat Level (current level: 3)
+Priorities:  4 | 1
+Cesar is active
+Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Cesar moves:
-
-..C...M
-
+Marmelee hits
+Cesar has 2 soak
+Cesar takes 2 damage (now at 18 life)
+Cesar is stunned
 
 Beat 9
 -------
 
 Cesar
 -----
-life: 10
-discard 1: Unstoppable Suppression
-discard 2: Inevitable Strike
-special action
-Threat level: 0
+Life: 18
+Discard 1: Fueled Grasp
+Discard 2: Bulwark Shot
+Special action available
+Threat level: 4
 
 Marmelee
 --------
-life: 18
-discard 1: Barrier Strike
-discard 2: Sorceress Burst
+Life: 18
+Discard 1: Petrifying Shot
+Discard 2: Sorceress Drive
+Special action available
 5 Concentration counters
 
 
-..C...M
+..M...C
+
+Unbeatable strategy for Cesar: Phalanx Suppression: 0.15
+Unbeatable strategy for Cesar: Unstoppable Suppression: 0.83
+
 
 Cesar:
-1% Fueled Shot
-18% Fueled Drive
-7% Fueled Burst
-74% Bulwark Burst
+9% Phalanx Drive
+87% Unstoppable Suppression
+1% Unstoppable Drive
+3% Inevitable Suppression
 
 Marmelee:
-20% Petrifying Shot
-39% Magnificent Meditation
-24% Magnificent Shot
-17% Magnificent Drive
+75% Barrier Meditation
+20% Barrier Burst
+5% Nullifying Grasp
 
 
-Cesar: Bulwark Burst
-Marmelee: Magnificent Meditation
+Cesar: Unstoppable Suppression
+Marmelee: Barrier Meditation
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  -1 | 3
+Cesar gains a Threat Level (current level: 0)
+Priorities:  0 | 3
 Marmelee is active
-Cesar moves:
-
-C.....M
-
 Marmelee misses
-Marmelee discards 2 Concentration Counters
-Marmelee moves:
-
-CM.....
-
 Cesar misses
-Cesar moves:
-
-.M..C..
-
-Marmelee gains 1 Concentration Counter
-Marmelee gains 1 Concentration Counter
 
 Beat 10
 -------
 
 Cesar
 -----
-life: 10
-discard 1: Bulwark Burst
-discard 2: Unstoppable Suppression
-special action
-Threat level: 1
+Life: 18
+Discard 1: Unstoppable Suppression
+Discard 2: Fueled Grasp
+Special action available
+Threat level: 0
 
 Marmelee
 --------
-life: 18
-discard 1: Magnificent Meditation
-discard 2: Barrier Strike
+Life: 18
+Discard 1: Barrier Meditation
+Discard 2: Petrifying Shot
+Special action available
 5 Concentration counters
 
 
-.M..C..
+..M...C
 
-Unbeatable strategy for Marmelee: Petrifying Dash: -0.53
-Unbeatable strategy for Marmelee: Sorceress Dash: -1.05
+Unbeatable strategy for Marmelee: Magnificent Drive: -1.42
+Unbeatable strategy for Marmelee: Magnificent Burst: -0.73
+Unbeatable strategy for Marmelee: Sorceress Burst: -1.16
+Unbeatable strategy for Marmelee: Sorceress Dash: -0.27
+Unbeatable strategy for Marmelee: Nullifying Dash: -0.03
+
 
 Cesar:
-10% Phalanx Strike
-3% Phalanx Shot
-29% Fueled Shot
-29% Fueled Drive
-29% Fueled Dash
+11% Bulwark Shot
+89% Bulwark Dash
 
 Marmelee:
-6% Petrifying Shot
-13% Petrifying Drive
-23% Petrifying Dash
-17% Sorceress Dash
-42% Nullifying Shot
+27% Magnificent Drive
+73% Sorceress Burst
 
 
-Cesar: Phalanx Strike
-Marmelee: Sorceress Dash
+Cesar: Bulwark Dash
+Marmelee: Sorceress Burst
 
-Cesar gains a Threat Level (current level: 2)
-Priorities:  1 | 8
-Marmelee is active
+Cesar gains a Threat Level (current level: 1)
+Priorities:  7 | 0
+Cesar is active
 Marmelee moves:
 
-M...C..
+.M....C
 
-Cesar misses
+Cesar moves:
+
+.M.C...
+
+Cesar moves:
+
+.MC....
+
+Marmelee misses
 
 Beat 11
 -------
 
 Cesar
 -----
-life: 10
-discard 1: Phalanx Strike
-discard 2: Bulwark Burst
-special action
-Threat level: 2
+Life: 18
+Discard 1: Bulwark Dash
+Discard 2: Unstoppable Suppression
+Special action available
+Threat level: 1
 
 Marmelee
 --------
-life: 18
-discard 1: Sorceress Dash
-discard 2: Magnificent Meditation
+Life: 18
+Discard 1: Sorceress Burst
+Discard 2: Barrier Meditation
+Special action available
 5 Concentration counters
 
 
-M...C..
-
-Cesar:
-4% Unstoppable Shot
-56% Fueled Suppression
-41% Fueled Shot
-
-Marmelee:
-18% Petrifying Shot
-42% Barrier Burst
-21% Nullifying Shot
-19% Nullifying Burst
-
-
-Cesar: Fueled Shot
-Marmelee: Petrifying Shot
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  1 | 1
-Clash!
-
-Cesar:
-86% Fueled Suppression
-14% Fueled Drive
-
-Marmelee:
-86% Petrifying Drive
-14% Petrifying Burst
-
-
-Cesar: Fueled Suppression
-Marmelee: Petrifying Drive
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  1 | 3
-Marmelee is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Marmelee moves:
-
-.M..C..
-
-Marmelee misses
-Cesar moves:
-
 .MC....
 
+
+Cesar:
+94% Inevitable Drive
+6% Inevitable Burst
+0% Inevitable Grasp
+
+Marmelee:
+31% Petrifying Strike
+67% Petrifying Drive
+2% Magnificent Drive
+
+
+Cesar: Inevitable Drive
+Marmelee: Petrifying Strike
+
+Cesar gains a Threat Level (current level: 2)
+Priorities:  4 | 2
+Cesar is active
+Marmelee discards 3 Concentration Counters
+Marmelee becomes the active player
+Marmelee hits
+Marmelee discards 2 Concentration Counters
+Cesar is stunned
+Cesar takes 5 damage (now at 13 life)
+Marmelee gains 1 Concentration Counter
 
 Beat 12
 -------
 
 Cesar
 -----
-life: 10
-discard 1: Fueled Suppression
-discard 2: Phalanx Strike
-special action
-Threat level: 4
+Life: 13
+Discard 1: Inevitable Drive
+Discard 2: Bulwark Dash
+Special action available
+Threat level: 2
 
 Marmelee
 --------
-life: 18
-discard 1: Petrifying Drive
-discard 2: Sorceress Dash
-5 Concentration counters
+Life: 18
+Discard 1: Petrifying Strike
+Discard 2: Sorceress Burst
+Special action available
+1 Concentration counters
 
 
 .MC....
 
+
 Cesar:
-69% Inevitable Shot
-15% Inevitable Drive
-16% Inevitable Burst
+19% Phalanx Suppression
+35% Unstoppable Suppression
+46% Unstoppable Strike
 
 Marmelee:
-63% Barrier Meditation
-29% Barrier Shot
-9% Barrier Burst
+53% Barrier Meditation
+19% Nullifying Dash
+28% Special Pulse
 
 
-Cesar: Inevitable Shot
-Marmelee: Barrier Meditation
+Cesar: Unstoppable Suppression
+Marmelee: Nullifying Dash
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  2 | 3
+Cesar gains a Threat Level (current level: 3)
+Priorities:  0 | 10
 Marmelee is active
-Marmelee discards 4 Concentration Counters
-Marmelee hits
-Cesar takes 1 damage (now at 9 life)
-Cesar misses
-Marmelee gains 1 Concentration Counter
+Marmelee moves:
+
+M.C....
+
+Cesar moves:
+
+MC.....
+
+Cesar hits
+Marmelee takes 5 damage (now at 13 life)
+Marmelee is stunned
+Marmelee loses all Concentration counters
 Marmelee gains 1 Concentration Counter
 
 Beat 13
@@ -710,60 +652,56 @@ Beat 13
 
 Cesar
 -----
-life: 9
-discard 1: Inevitable Shot
-discard 2: Fueled Suppression
-special action
-Threat level: 0
+Life: 13
+Discard 1: Unstoppable Suppression
+Discard 2: Inevitable Drive
+Special action available
+Threat level: 3
 
 Marmelee
 --------
-life: 18
-discard 1: Barrier Meditation
-discard 2: Petrifying Drive
-3 Concentration counters
+Life: 13
+Discard 1: Nullifying Dash
+Discard 2: Petrifying Strike
+Special action available
+1 Concentration counters
 
 
-.MC....
+MC.....
 
-Unbeatable strategy for Marmelee: Magnificent Dash: -0.76
-Unbeatable strategy for Marmelee: Sorceress Dash: -0.64
-Unbeatable strategy for Marmelee: Nullifying Dash: -0.53
+Unbeatable strategy for Cesar: Phalanx Burst: 0.93
+Unbeatable strategy for Cesar: Phalanx Dash: 0.90
+Unbeatable strategy for Cesar: Bulwark Burst: 0.89
+Unbeatable strategy for Cesar: Bulwark Dash: 0.39
+
 
 Cesar:
-44% Phalanx Drive
-2% Phalanx Burst
-16% Unstoppable Strike
-14% Unstoppable Grasp
-24% Bulwark Burst
+100% Phalanx Grasp
 
 Marmelee:
-2% Magnificent Shot
-29% Magnificent Dash
-66% Sorceress Dash
-3% Nullifying Strike
-0% Nullifying Shot
+100% Sorceress Drive
 
 
-Cesar: Bulwark Burst
-Marmelee: Sorceress Dash
+Cesar: Phalanx Grasp
+Marmelee: Sorceress Drive
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  -1 | 8
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  3 | 3
+Clash!
+
+
+Cesar: Phalanx Strike
+Marmelee: Sorceress Meditation
+
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  1 | 2
 Marmelee is active
-Cesar moves:
-
-.M.C...
-
-Marmelee moves:
-
-..MC...
-
-Cesar misses
-Cesar moves:
-
-.CM....
-
+Marmelee hits
+Cesar has 2 soak
+Cesar takes 0 damage (now at 13 life)
+Marmelee gains 1 Concentration Counter
 Marmelee gains 1 Concentration Counter
 
 Beat 14
@@ -771,173 +709,110 @@ Beat 14
 
 Cesar
 -----
-life: 9
-discard 1: Bulwark Burst
-discard 2: Inevitable Shot
-special action
-Threat level: 1
-
-Marmelee
---------
-life: 18
-discard 1: Sorceress Dash
-discard 2: Barrier Meditation
-4 Concentration counters
-
-
-.CM....
-
-Cesar:
-8% Unstoppable Strike
-12% Unstoppable Drive
-36% Fueled Drive
-43% Fueled Grasp
-
-Marmelee:
-22% Petrifying Drive
-31% Magnificent Strike
-30% Magnificent Grasp
-17% Nullifying Strike
-
-
-Cesar: Fueled Grasp
-Marmelee: Magnificent Strike
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  4 | 3
-Cesar is active
-Cesar gains a Threat Level (current level: 3)
-Cesar moves:
-
-..MC...
-
-Cesar hits
-Cesar moves Marmelee:
-
-...CM..
-
-Marmelee takes 6 damage (now at 12 life)
-Marmelee is stunned
-Marmelee gains 1 Concentration Counter
-
-Beat 15
--------
-
-Cesar
------
-life: 9
-discard 1: Fueled Grasp
-discard 2: Bulwark Burst
-special action
-Threat level: 3
-
-Marmelee
---------
-life: 12
-discard 1: Magnificent Strike
-discard 2: Sorceress Dash
-1 Concentration counters
-
-
-...CM..
-
-Unbeatable strategy for Marmelee: Petrifying Meditation: -14.00
-Unbeatable strategy for Marmelee: Petrifying Shot: -14.00
-Unbeatable strategy for Marmelee: Petrifying Drive: -14.00
-Unbeatable strategy for Marmelee: Petrifying Burst: -14.00
-Unbeatable strategy for Marmelee: Petrifying Grasp: -14.00
-Unbeatable strategy for Marmelee: Barrier Meditation: -14.00
-Unbeatable strategy for Marmelee: Barrier Shot: -14.00
-Unbeatable strategy for Marmelee: Barrier Drive: -14.00
-Unbeatable strategy for Marmelee: Barrier Burst: -14.00
-Unbeatable strategy for Marmelee: Barrier Grasp: -14.00
-Unbeatable strategy for Marmelee: Nullifying Meditation: -14.00
-Unbeatable strategy for Marmelee: Nullifying Shot: -14.00
-Unbeatable strategy for Marmelee: Nullifying Drive: -14.00
-Unbeatable strategy for Marmelee: Nullifying Burst: -14.00
-Unbeatable strategy for Marmelee: Nullifying Grasp: -14.00
-
-Cesar:
-100% Special Pulse
-
-Marmelee:
-50% Petrifying Shot
-50% Petrifying Burst
-
-
-Cesar: Special Pulse
-Marmelee: Petrifying Shot
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Pulse:
-
-MC.....
-
-
-Beat 15
--------
-
-Cesar
------
-life: 9
-discard 1: Fueled Grasp
-discard 2: Bulwark Burst
+Life: 13
+Discard 1: Phalanx Strike
+Discard 2: Unstoppable Suppression
+Special action available
 Threat level: 4
 
 Marmelee
 --------
-life: 12
-discard 1: Petrifying Shot
-discard 2: Magnificent Strike
+Life: 13
+Discard 1: Sorceress Meditation
+Discard 2: Nullifying Dash
+Special action available
+3 Concentration counters
+
+
+MC.....
+
+Unbeatable strategy for Marmelee: Petrifying Drive: -1.94
+
+
+Cesar:
+36% Bulwark Grasp
+60% Inevitable Drive
+4% Inevitable Grasp
+
+Marmelee:
+19% Petrifying Shot
+79% Petrifying Drive
+2% Magnificent Drive
+
+
+Cesar: Bulwark Grasp
+Marmelee: Petrifying Drive
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  3 | 3
+Clash!
+
+
+Cesar: Bulwark Drive
+Marmelee: Petrifying Shot
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  2 | 1
+Cesar is active
+Marmelee discards 3 Concentration Counters
+Marmelee becomes the active player
+Marmelee hits
+Cesar takes 4 damage (now at 9 life)
+Cesar is stunned
+Marmelee gains 1 Concentration Counter
+
+Beat 15
+-------
+
+Cesar
+-----
+Life: 9
+Discard 1: Bulwark Drive
+Discard 2: Phalanx Strike
+Special action available
+Threat level: 0
+
+Marmelee
+--------
+Life: 13
+Discard 1: Petrifying Shot
+Discard 2: Sorceress Meditation
+Special action available
 1 Concentration counters
 
 
 MC.....
 
-Unbeatable strategy for Marmelee: Sorceress Grasp: -14.00
-Unbeatable strategy for Marmelee: Sorceress Dash: -14.00
-Unbeatable strategy for Marmelee: Barrier Meditation: -14.00
 Unbeatable strategy for Marmelee: Barrier Drive: -14.00
-Unbeatable strategy for Marmelee: Barrier Dash: -14.00
-Unbeatable strategy for Marmelee: Nullifying Dash: -14.00
+
 
 Cesar:
-16% Phalanx Suppression
-0% Phalanx Strike
-0% Phalanx Shot
-0% Phalanx Drive
-16% Phalanx Dash
-16% Unstoppable Suppression
-0% Unstoppable Strike
-1% Unstoppable Shot
-1% Unstoppable Drive
-16% Unstoppable Dash
-16% Inevitable Suppression
-1% Inevitable Strike
-0% Inevitable Shot
-1% Inevitable Drive
-15% Inevitable Dash
+2% Unstoppable Shot
+2% Fueled Grasp
+96% Special Pulse
 
 Marmelee:
-17% Sorceress Grasp
-17% Sorceress Dash
-17% Barrier Meditation
-17% Barrier Drive
-17% Barrier Dash
-17% Nullifying Dash
+32% Magnificent Burst
+50% Barrier Drive
+18% Nullifying Drive
 
 
-Cesar: Phalanx Suppression
-Marmelee: Barrier Drive
+Cesar: Fueled Grasp
+Marmelee: Magnificent Burst
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  0 | 4
-Marmelee is active
-Marmelee hits
-Cesar takes 2 damage (now at 7 life)
-Cesar is stunned
+Cesar gains a Threat Level (current level: 1)
+Priorities:  4 | 1
+Cesar is active
+Cesar gains a Threat Level (current level: 2)
+Cesar hits
+Cesar moves Marmelee:
+
+.CM....
+
+Marmelee takes 4 damage (now at 9 life)
+Marmelee is stunned
+Marmelee loses all Concentration counters
 Marmelee gains 1 Concentration Counter
 Game goes to time
-MARMELEE WINS!
-total_time: 28
+THE GAME IS TIED!
+total_time: 32

@@ -90,8 +90,8 @@ def main():
     
 def ad_hoc():
 #    duel('seth', 'kallistar', 10)
-    free_for_all(1, ['cesar'], '', [''], True, False)
-    free_for_all(1, ['seth'], '', ['cesar'], True, False)
+    free_for_all(1, ['seth'], 'gerard', [], True, False)
+    free_for_all(1, ['cesar'], '', ['seth'], True, False)
     free_for_all(1, ['ottavia'], '', ['cesar','seth'], True, False)
 #    free_for_all(1, ['juto'], '', ['kehrolyn'], True, True)
 
@@ -4620,7 +4620,7 @@ class Cesar (Character):
 
     def get_soak(self):
         soak = Character.get_soak(self)
-        if self.threat_level == 4:
+        if self.threat_level_at_ante == 4:
             soak += 2
         return soak
 
@@ -4628,8 +4628,6 @@ class Cesar (Character):
         ret = Character.expected_soak(self)
         if self.threat_level == 3:
             ret += 2
-        if self.threat_level == 2 and self.fueled  not in self.discard[1]|self.discard[2]:
-            ret += 0.7
         return ret
 
     # Copying all this to implement Cesar's death immunity.

@@ -11,50 +11,51 @@ Beat 1
 
 Cesar
 -----
-life: 20
-discard 1: Fueled Strike
-discard 2: Unstoppable Grasp
-special action
+Life: 20
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Grasp
+Special action available
 Threat level: 0
 
 Kehrolyn
 --------
-life: 20
-discard 1: Mutating Grasp
-discard 2: Bladed Strike
-special action
+Life: 20
+Discard 1: Mutating Grasp
+Discard 2: Bladed Strike
+Special action available
 
 
 .C...K.
 
-Unbeatable strategy for Cesar: Bulwark Dash: 0.43
 
 Cesar:
-11% Phalanx Shot
-24% Bulwark Suppression
-15% Bulwark Shot
+15% Phalanx Shot
+10% Bulwark Suppression
+16% Bulwark Shot
 21% Bulwark Drive
-29% Bulwark Burst
+38% Bulwark Burst
 
 Kehrolyn:
-18% Whip Drive
-22% Whip Burst
-31% Quicksilver Shot
-10% Exoskeletal Overload
-18% Exoskeletal Shot
+9% Whip Shot
+27% Whip Drive
+31% Whip Burst
+17% Quicksilver Shot
+16% Exoskeletal Overload
 
 
-Cesar: Bulwark Shot
+Cesar: Bulwark Drive
 Kehrolyn: Exoskeletal Overload
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 3
+Priorities:  2 | 3
 Kehrolyn is active
 Kehrolyn overloads Quicksilver
 Kehrolyn misses
-Cesar hits
-Kehrolyn has 4 soak
-Kehrolyn takes 0 damage (now at 20 life)
+Cesar moves:
+
+..C..K.
+
+Cesar misses
 Cesar moves:
 
 ....CK.
@@ -62,7 +63,7 @@ Cesar moves:
 Kehrolyn loses 1 life (now at 19)
 Kehrolyn moves:
 
-....C.K
+...KC..
 
 
 Beat 2
@@ -70,61 +71,49 @@ Beat 2
 
 Cesar
 -----
-life: 20
-discard 1: Bulwark Shot
-discard 2: Fueled Strike
-special action
+Life: 20
+Discard 1: Bulwark Drive
+Discard 2: Fueled Strike
+Special action available
 Threat level: 1
 
 Kehrolyn
 --------
-life: 19
-discard 1: Exoskeletal Overload
-discard 2: Mutating Grasp
-special action
+Life: 19
+Discard 1: Exoskeletal Overload
+Discard 2: Mutating Grasp
+Special action available
 
 
-....C.K
+...KC..
 
-Unbeatable strategy for Kehrolyn: Whip Drive: -1.48
-Unbeatable strategy for Kehrolyn: Quicksilver Shot: -0.55
+Unbeatable strategy for Kehrolyn: Quicksilver Drive: -0.27
+
 
 Cesar:
-44% Phalanx Burst
-56% Inevitable Drive
+0% Phalanx Burst
+82% Phalanx Dash
+11% Inevitable Shot
+0% Inevitable Burst
+7% Inevitable Grasp
 
 Kehrolyn:
-6% Bladed Shot
-94% Whip Drive
+18% Bladed Shot
+13% Whip Strike
+7% Quicksilver Strike
+32% Quicksilver Drive
+29% Quicksilver Burst
 
 
-Cesar: Inevitable Drive
-Kehrolyn: Whip Drive
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  4 | 4
-Clash!
-
-Cesar:
-3% Inevitable Suppression
-40% Inevitable Burst
-57% Inevitable Dash
-
-Kehrolyn:
-11% Whip Shot
-69% Whip Burst
-20% Whip Dash
-
-
-Cesar: Inevitable Dash
-Kehrolyn: Whip Burst
+Cesar: Phalanx Dash
+Kehrolyn: Bladed Shot
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  9 | 1
+Priorities:  7 | 2
 Cesar is active
 Cesar moves:
 
-.....CK
+..CK...
 
 Kehrolyn misses
 
@@ -133,275 +122,274 @@ Beat 3
 
 Cesar
 -----
-life: 20
-discard 1: Inevitable Dash
-discard 2: Bulwark Shot
-special action
+Life: 20
+Discard 1: Phalanx Dash
+Discard 2: Bulwark Drive
+Special action available
 Threat level: 2
 
 Kehrolyn
 --------
-life: 19
-discard 1: Whip Burst
-discard 2: Exoskeletal Overload
-special action
+Life: 19
+Discard 1: Bladed Shot
+Discard 2: Exoskeletal Overload
+Special action available
 
 
-.....CK
+..CK...
 
-Unbeatable strategy for Kehrolyn: Bladed Drive: -0.08
+Unbeatable strategy for Kehrolyn: Quicksilver Drive: -0.12
+
 
 Cesar:
-47% Phalanx Strike
-2% Phalanx Grasp
-37% Fueled Burst
+12% Unstoppable Strike
+28% Fueled Burst
 13% Fueled Grasp
+38% Inevitable Shot
+10% Inevitable Grasp
 
 Kehrolyn:
-11% Bladed Strike
-32% Bladed Shot
-50% Bladed Drive
-7% Quicksilver Dash
+8% Mutating Strike
+29% Mutating Drive
+1% Quicksilver Strike
+39% Quicksilver Drive
+23% Quicksilver Grasp
 
 
-Cesar: Phalanx Strike
-Kehrolyn: Bladed Drive
+Cesar: Inevitable Shot
+Kehrolyn: Quicksilver Drive
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  1 | 4
+Priorities:  2 | 6
 Kehrolyn is active
 Kehrolyn moves:
 
-...K.C.
+.KC....
 
 Kehrolyn hits
-Kehrolyn moves Cesar:
-
-...KC..
-
 Cesar takes 5 damage (now at 15 life)
-Cesar moves:
-
-.C.K...
-
 Cesar hits
-Kehrolyn takes 7 damage (now at 12 life)
 Kehrolyn is stunned
+Kehrolyn will have -3 priority next beat
+Kehrolyn takes 6 damage (now at 13 life)
+Kehrolyn is stunned
+Kehrolyn moves:
+
+..CK...
+
 
 Beat 4
 -------
 
 Cesar
 -----
-life: 15
-discard 1: Phalanx Strike
-discard 2: Inevitable Dash
-special action
+Life: 15
+Discard 1: Inevitable Shot
+Discard 2: Phalanx Dash
+Special action available
+Opponent has power penalty: -3
 Threat level: 3
 
 Kehrolyn
 --------
-life: 12
-discard 1: Bladed Drive
-discard 2: Whip Burst
-special action
+Life: 13
+Discard 1: Quicksilver Drive
+Discard 2: Bladed Shot
+Special action available
 
 
-.C.K...
+..CK...
+
+Unbeatable strategy for Cesar: Unstoppable Suppression: 3.80
+Unbeatable strategy for Cesar: Unstoppable Strike: 3.30
+Unbeatable strategy for Cesar: Unstoppable Drive: 3.49
+Unbeatable strategy for Cesar: Unstoppable Burst: 3.53
+Unbeatable strategy for Cesar: Fueled Suppression: 3.10
+Unbeatable strategy for Cesar: Fueled Strike: 3.16
+Unbeatable strategy for Cesar: Fueled Burst: 3.52
+Unbeatable strategy for Cesar: Fueled Grasp: 3.11
+Unbeatable strategy for Cesar: Bulwark Suppression: 3.80
+Unbeatable strategy for Cesar: Bulwark Strike: 3.52
+Unbeatable strategy for Cesar: Bulwark Drive: 3.33
+Unbeatable strategy for Cesar: Bulwark Burst: 3.51
+
 
 Cesar:
-65% Unstoppable Drive
-35% Fueled Grasp
+6% Fueled Suppression
+50% Bulwark Suppression
+44% Bulwark Drive
 
 Kehrolyn:
-30% Mutating Shot
-70% Quicksilver Shot
+19% Whip Strike
+15% Whip Burst
+66% Whip Grasp
 
 
-Cesar: Unstoppable Drive
-Kehrolyn: Quicksilver Shot
+Cesar: Bulwark Drive
+Kehrolyn: Whip Grasp
 
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Priorities:  2 | 4
+Priorities:  2 | 7
 Kehrolyn is active
 Kehrolyn hits
-Cesar has 2 soak
-Cesar takes 3 damage (now at 12 life)
 Cesar is stunned
-Kehrolyn moves:
-
-.CK....
-
-Cesar moves:
-
-..K.C..
-
+Cesar has 2 soak
+Cesar takes 0 damage (now at 15 life)
 
 Beat 5
 -------
 
 Cesar
 -----
-life: 12
-discard 1: Unstoppable Drive
-discard 2: Phalanx Strike
-special action
+Life: 15
+Discard 1: Bulwark Drive
+Discard 2: Inevitable Shot
+Special action available
 Threat level: 4
 
 Kehrolyn
 --------
-life: 12
-discard 1: Quicksilver Shot
-discard 2: Bladed Drive
-special action
+Life: 13
+Discard 1: Whip Grasp
+Discard 2: Quicksilver Drive
+Special action available
 
 
-..K.C..
+..CK...
 
-Unbeatable strategy for Cesar: Bulwark Burst: 0.41
-Unbeatable strategy for Cesar: Inevitable Burst: 0.31
+Unbeatable strategy for Kehrolyn: Bladed Overload: -0.11
+Unbeatable strategy for Kehrolyn: Bladed Shot: -0.23
+Unbeatable strategy for Kehrolyn: Exoskeletal Overload: -0.11
+Unbeatable strategy for Kehrolyn: Exoskeletal Shot: -0.23
+
 
 Cesar:
-44% Inevitable Suppression
-56% Inevitable Burst
+100% Phalanx Dash
 
 Kehrolyn:
-14% Whip Strike
-86% Whip Dash
+17% Bladed Shot
+83% Exoskeletal Shot
 
 
-Cesar: Inevitable Suppression
-Kehrolyn: Whip Dash
+Cesar: Phalanx Dash
+Kehrolyn: Exoskeletal Shot
 
 Cesar gains a Threat Level (current level: 0)
-Priorities:  2 | 11
-Kehrolyn is active
-Kehrolyn moves:
-
-.K..C..
-
-Cesar misses
-Kehrolyn moves:
-
-..K.C..
-
+Priorities:  7 | 2
+Cesar is active
 Cesar moves:
 
-..K...C
+...KC..
 
+Kehrolyn misses
 
 Beat 6
 -------
 
 Cesar
 -----
-life: 12
-discard 1: Inevitable Suppression
-discard 2: Unstoppable Drive
-special action
+Life: 15
+Discard 1: Phalanx Dash
+Discard 2: Bulwark Drive
+Special action available
 Threat level: 0
 
 Kehrolyn
 --------
-life: 12
-discard 1: Whip Dash
-discard 2: Quicksilver Shot
-special action
+Life: 13
+Discard 1: Exoskeletal Shot
+Discard 2: Whip Grasp
+Special action available
 
 
-..K...C
+...KC..
 
-Unbeatable strategy for Kehrolyn: Mutating Drive: -1.62
-Unbeatable strategy for Kehrolyn: Mutating Burst: -1.65
-Unbeatable strategy for Kehrolyn: Bladed Drive: -1.55
-Unbeatable strategy for Kehrolyn: Exoskeletal Drive: -2.06
+Unbeatable strategy for Kehrolyn: Quicksilver Drive: -0.13
+
 
 Cesar:
-9% Phalanx Shot
-9% Fueled Grasp
-82% Bulwark Shot
+1% Unstoppable Strike
+42% Fueled Strike
+7% Fueled Grasp
+14% Inevitable Strike
+6% Inevitable Burst
+29% Inevitable Grasp
 
 Kehrolyn:
-52% Mutating Burst
-15% Bladed Drive
-33% Exoskeletal Drive
+12% Mutating Overload
+25% Bladed Drive
+12% Bladed Burst
+14% Quicksilver Overload
+5% Quicksilver Drive
+32% Quicksilver Burst
 
 
-Cesar: Bulwark Shot
-Kehrolyn: Exoskeletal Drive
+Cesar: Inevitable Grasp
+Kehrolyn: Bladed Drive
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 4
-Kehrolyn is active
-Kehrolyn moves:
-
-....K.C
-
-Kehrolyn hits
-Cesar takes 3 damage (now at 9 life)
+Priorities:  5 | 4
+Cesar is active
 Cesar hits
-Kehrolyn has 2 soak
-Kehrolyn takes 2 damage (now at 10 life)
 Kehrolyn is stunned
-Cesar moves:
-
-..C.K..
-
+Kehrolyn will have -3 priority next beat
+Kehrolyn has 2 soak
+Kehrolyn takes 1 damage (now at 12 life)
 
 Beat 7
 -------
 
 Cesar
 -----
-life: 9
-discard 1: Bulwark Shot
-discard 2: Inevitable Suppression
-special action
+Life: 15
+Discard 1: Inevitable Grasp
+Discard 2: Phalanx Dash
+Special action available
+Opponent has power penalty: -3
 Threat level: 1
 
 Kehrolyn
 --------
-life: 10
-discard 1: Exoskeletal Drive
-discard 2: Whip Dash
-special action
+Life: 12
+Discard 1: Bladed Drive
+Discard 2: Exoskeletal Shot
+Special action available
 
 
-..C.K..
+...KC..
 
-Unbeatable strategy for Kehrolyn: Mutating Shot: -0.74
-Unbeatable strategy for Kehrolyn: Quicksilver Shot: -1.25
-Unbeatable strategy for Kehrolyn: Quicksilver Burst: -0.90
 
 Cesar:
-63% Phalanx Strike
-37% Fueled Drive
+35% Unstoppable Suppression
+7% Bulwark Suppression
+57% Bulwark Burst
 
 Kehrolyn:
-66% Quicksilver Shot
-34% Quicksilver Burst
+5% Mutating Strike
+5% Whip Overload
+5% Whip Strike
+85% Quicksilver Dash
 
 
-Cesar: Phalanx Strike
-Kehrolyn: Quicksilver Shot
+Cesar: Bulwark Burst
+Kehrolyn: Quicksilver Dash
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  1 | 4
+Priorities:  -1 | 11
 Kehrolyn is active
-Kehrolyn hits
-Cesar takes 3 damage (now at 6 life)
 Cesar moves:
 
-...CK..
+...K..C
 
-Cesar hits
-Kehrolyn has 2 soak
-Kehrolyn takes 4 damage (now at 6 life)
-Kehrolyn is stunned
 Kehrolyn moves:
 
-...C.K.
+..K...C
+
+Cesar misses
+Kehrolyn moves:
+
+...K..C
 
 
 Beat 8
@@ -409,106 +397,46 @@ Beat 8
 
 Cesar
 -----
-life: 6
-discard 1: Phalanx Strike
-discard 2: Bulwark Shot
-special action
+Life: 15
+Discard 1: Bulwark Burst
+Discard 2: Inevitable Grasp
+Special action available
 Threat level: 2
 
 Kehrolyn
 --------
-life: 6
-discard 1: Quicksilver Shot
-discard 2: Exoskeletal Drive
-special action
+Life: 12
+Discard 1: Quicksilver Dash
+Discard 2: Bladed Drive
+Special action available
 
 
-...C.K.
+...K..C
 
-Unbeatable strategy for Cesar: Unstoppable Drive: 11.00
-Unbeatable strategy for Cesar: Fueled Burst: 0.57
+Unbeatable strategy for Cesar: Fueled Suppression: 0.96
+
 
 Cesar:
-23% Unstoppable Drive
-38% Fueled Suppression
-39% Inevitable Drive
+7% Phalanx Drive
+93% Fueled Suppression
 
 Kehrolyn:
-15% Whip Dash
-72% Special Pulse
-13% Special Hydra Fork
+32% Whip Shot
+68% Exoskeletal Grasp
 
 
-Cesar: Inevitable Drive
-Kehrolyn: Special Pulse
+Cesar: Fueled Suppression
+Kehrolyn: Whip Shot
 
 Cesar gains a Threat Level (current level: 3)
-Pulse:
-
-.C....K
-
-
-Beat 8
--------
-
-Cesar
------
-life: 6
-discard 1: Inevitable Drive
-discard 2: Phalanx Strike
-special action
-Threat level: 3
-
-Kehrolyn
---------
-life: 6
-discard 1: Quicksilver Shot
-discard 2: Exoskeletal Drive
-
-
-.C....K
-
-Unbeatable strategy for Cesar: Unstoppable Suppression: 5.74
-Unbeatable strategy for Cesar: Unstoppable Shot: 4.59
-Unbeatable strategy for Cesar: Unstoppable Burst: 4.90
-Unbeatable strategy for Cesar: Fueled Suppression: 4.96
-Unbeatable strategy for Cesar: Fueled Shot: 2.92
-Unbeatable strategy for Cesar: Fueled Burst: 2.99
-Unbeatable strategy for Cesar: Fueled Grasp: 3.55
-Unbeatable strategy for Cesar: Fueled Dash: 2.63
-Unbeatable strategy for Cesar: Bulwark Suppression: 5.71
-Unbeatable strategy for Cesar: Bulwark Shot: 4.59
-Unbeatable strategy for Cesar: Bulwark Burst: 5.14
-
-Cesar:
-73% Unstoppable Suppression
-27% Unstoppable Shot
-
-Kehrolyn:
-0% Whip Overload
-0% Whip Strike
-0% Whip Grasp
-100% Whip Dash
-
-
-Cesar: Unstoppable Suppression
-Kehrolyn: Whip Dash
-
+Priorities:  1 | 4
+Kehrolyn is active
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Priorities:  0 | 11
-Kehrolyn is active
+Kehrolyn misses
 Kehrolyn moves:
 
-.C.K...
-
-Cesar moves:
-
-..CK...
-
-Cesar moves:
-
-C..K...
+....K.C
 
 
 Beat 9
@@ -516,36 +444,38 @@ Beat 9
 
 Cesar
 -----
-life: 6
-discard 1: Unstoppable Suppression
-discard 2: Inevitable Drive
-special action
+Life: 15
+Discard 1: Fueled Suppression
+Discard 2: Bulwark Burst
+Special action available
 Threat level: 4
 
 Kehrolyn
 --------
-life: 6
-discard 1: Whip Dash
-discard 2: Quicksilver Shot
+Life: 12
+Discard 1: Whip Shot
+Discard 2: Quicksilver Dash
+Special action available
 
 
-C..K...
+....K.C
 
-Unbeatable strategy for Kehrolyn: Bladed Drive: -0.46
-Unbeatable strategy for Kehrolyn: Bladed Burst: -0.14
-Unbeatable strategy for Kehrolyn: Exoskeletal Drive: -0.46
-Unbeatable strategy for Kehrolyn: Exoskeletal Burst: -0.14
+Unbeatable strategy for Kehrolyn: Bladed Drive: -0.67
+Unbeatable strategy for Kehrolyn: Bladed Grasp: -0.48
+Unbeatable strategy for Kehrolyn: Exoskeletal Drive: -0.67
+Unbeatable strategy for Kehrolyn: Exoskeletal Grasp: -0.48
+
 
 Cesar:
-1% Fueled Grasp
-99% Bulwark Dash
+96% Phalanx Dash
+4% Inevitable Drive
 
 Kehrolyn:
 99% Bladed Drive
-1% Bladed Burst
+1% Bladed Grasp
 
 
-Cesar: Bulwark Dash
+Cesar: Phalanx Dash
 Kehrolyn: Bladed Drive
 
 Cesar gains a Threat Level (current level: 0)
@@ -553,15 +483,11 @@ Priorities:  7 | 4
 Cesar is active
 Cesar moves:
 
-.C.K...
-
-Cesar moves:
-
-...K.C.
+..C.K..
 
 Kehrolyn moves:
 
-....KC.
+..CK...
 
 Kehrolyn misses
 
@@ -570,114 +496,333 @@ Beat 10
 
 Cesar
 -----
-life: 6
-discard 1: Bulwark Dash
-discard 2: Unstoppable Suppression
-special action
+Life: 15
+Discard 1: Phalanx Dash
+Discard 2: Fueled Suppression
+Special action available
 Threat level: 0
 
 Kehrolyn
 --------
-life: 6
-discard 1: Bladed Drive
-discard 2: Whip Dash
+Life: 12
+Discard 1: Bladed Drive
+Discard 2: Whip Shot
+Special action available
 
 
-....KC.
+..CK...
+
+Unbeatable strategy for Cesar: Bulwark Burst: 0.23
+
 
 Cesar:
-40% Fueled Strike
-18% Inevitable Drive
-16% Inevitable Burst
-26% Special Level 4 Protocol
+18% Unstoppable Drive
+4% Unstoppable Burst
+78% Bulwark Burst
 
 Kehrolyn:
-6% Mutating Strike
-14% Mutating Shot
-25% Quicksilver Overload
-56% Exoskeletal Burst
+7% Quicksilver Overload
+89% Quicksilver Dash
+4% Exoskeletal Burst
 
 
-Cesar: Inevitable Burst
-Kehrolyn: Quicksilver Overload
+Cesar: Bulwark Burst
+Kehrolyn: Quicksilver Dash
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  1 | 5
+Priorities:  -1 | 11
 Kehrolyn is active
-Kehrolyn overloads Exoskeletal
 Cesar moves:
 
-....K.C
+.C.K...
 
-Kehrolyn misses
-Cesar hits
-Kehrolyn is stunned
-Kehrolyn has 2 soak
-Kehrolyn takes 2 damage (now at 4 life)
 Kehrolyn moves:
 
-...K..C
+.CK....
 
+Cesar misses
 
 Beat 11
 -------
 
 Cesar
 -----
-life: 6
-discard 1: Inevitable Burst
-discard 2: Bulwark Dash
-special action
+Life: 15
+Discard 1: Bulwark Burst
+Discard 2: Phalanx Dash
+Special action available
 Threat level: 1
-Opponent has -3 power this beat
 
 Kehrolyn
 --------
-life: 4
-discard 1: Quicksilver Overload
-discard 2: Bladed Drive
+Life: 12
+Discard 1: Quicksilver Dash
+Discard 2: Bladed Drive
+Special action available
 
 
-...K..C
+.CK....
 
-Unbeatable strategy for Cesar: Unstoppable Shot: 1.38
-Unbeatable strategy for Cesar: Fueled Shot: 9.00
+Unbeatable strategy for Kehrolyn: Whip Strike: -0.58
+Unbeatable strategy for Kehrolyn: Exoskeletal Strike: -0.84
+
 
 Cesar:
-100% Fueled Shot
+86% Unstoppable Strike
+14% Inevitable Strike
 
 Kehrolyn:
-6% Mutating Strike
-6% Mutating Shot
-6% Mutating Burst
-6% Mutating Grasp
-8% Mutating Dash
-5% Whip Strike
-6% Whip Shot
-5% Whip Burst
-5% Whip Grasp
-7% Whip Dash
-7% Exoskeletal Strike
-7% Exoskeletal Shot
-7% Exoskeletal Burst
-7% Exoskeletal Grasp
-9% Exoskeletal Dash
+23% Mutating Overload
+77% Exoskeletal Strike
 
 
-Cesar: Fueled Shot
-Kehrolyn: Mutating Shot
+Cesar: Unstoppable Strike
+Kehrolyn: Mutating Overload
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  1 | 6
+Priorities:  1 | 5
 Kehrolyn is active
-Cesar gains a Threat Level (current level: 3)
+Kehrolyn overloads Exoskeletal
 Kehrolyn hits
-Cesar takes 0 damage (now at 6 life)
+Cesar takes 3 damage (now at 12 life)
+Cesar hits
+Kehrolyn has 2 soak
+Kehrolyn takes 4 damage (now at 8 life)
+Kehrolyn is stunned
+Kehrolyn loses 1 life (now at 7)
+
+Beat 12
+-------
+
+Cesar
+-----
+Life: 12
+Discard 1: Unstoppable Strike
+Discard 2: Bulwark Burst
+Special action available
+Threat level: 2
+
+Kehrolyn
+--------
+Life: 7
+Discard 1: Mutating Overload
+Discard 2: Quicksilver Dash
+Special action available
+
+
+.CK....
+
+Unbeatable strategy for Kehrolyn: Bladed Grasp: -0.20
+
+
+Cesar:
+15% Fueled Shot
+78% Inevitable Drive
+8% Inevitable Grasp
+
+Kehrolyn:
+6% Bladed Drive
+80% Bladed Grasp
+14% Exoskeletal Drive
+
+
+Cesar: Inevitable Drive
+Kehrolyn: Bladed Drive
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  4 | 4
+Clash!
+
+
+Cesar: Inevitable Shot
+Kehrolyn: Bladed Grasp
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  2 | 5
+Kehrolyn is active
+Kehrolyn hits
+Kehrolyn moves Cesar:
+
+C.K....
+
+Cesar takes 6 damage (now at 6 life)
+Cesar hits
+Kehrolyn is stunned
+Kehrolyn will have -3 priority next beat
+Kehrolyn takes 6 damage (now at 1 life)
+Kehrolyn is stunned
+Kehrolyn loses 1 life (now at 1)
+
+Beat 13
+-------
+
+Cesar
+-----
+Life: 6
+Discard 1: Inevitable Shot
+Discard 2: Unstoppable Strike
+Special action available
+Opponent has power penalty: -3
+Threat level: 3
+
+Kehrolyn
+--------
+Life: 1
+Discard 1: Bladed Grasp
+Discard 2: Mutating Overload
+Special action available
+
+
+C.K....
+
+Unbeatable strategy for Cesar: Phalanx Suppression: 4.07
+Unbeatable strategy for Cesar: Phalanx Burst: 3.11
+Unbeatable strategy for Cesar: Phalanx Dash: 2.43
+Unbeatable strategy for Cesar: Fueled Burst: 1.58
+Unbeatable strategy for Cesar: Fueled Dash: 0.92
+Unbeatable strategy for Cesar: Bulwark Suppression: 3.60
+Unbeatable strategy for Cesar: Bulwark Burst: 3.41
+Unbeatable strategy for Cesar: Bulwark Dash: 2.48
+
+
+Cesar:
+100% Phalanx Suppression
+
+Kehrolyn:
+100% Special Hydra Fork
+
+
+Cesar: Phalanx Suppression
+Kehrolyn: Special Hydra Fork
+
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  0 | 0
+Kehrolyn is active
+Kehrolyn hits
+Cesar has 2 soak
+Cesar takes 3 damage (now at 3 life)
+Cesar is stunned
+Kehrolyn gains 5 life (now at 6)
 Cesar moves:
 
-...KC..
+..KC...
 
+
+Beat 14
+-------
+
+Cesar
+-----
+Life: 3
+Discard 1: Phalanx Suppression
+Discard 2: Inevitable Shot
+Special action available
+Threat level: 4
+
+Kehrolyn
+--------
+Life: 6
+Discard 1: Bladed Grasp
+Discard 2: Mutating Overload
+
+
+..KC...
+
+Unbeatable strategy for Kehrolyn: Whip Shot: -0.15
+Unbeatable strategy for Kehrolyn: Quicksilver Shot: -0.59
+Unbeatable strategy for Kehrolyn: Quicksilver Drive: -0.25
+Unbeatable strategy for Kehrolyn: Exoskeletal Shot: -0.29
+
+
+Cesar:
+55% Unstoppable Dash
+44% Bulwark Dash
+2% Special Level 4 Protocol
+
+Kehrolyn:
+16% Quicksilver Shot
+27% Quicksilver Burst
+57% Exoskeletal Shot
+
+
+Cesar: Unstoppable Dash
+Kehrolyn: Quicksilver Burst
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  7 | 3
+Cesar is active
+Kehrolyn moves:
+
+K..C...
+
+Cesar moves:
+
+K.C....
+
+Cesar moves:
+
+KC.....
+
+Kehrolyn misses
+
+Beat 15
+-------
+
+Cesar
+-----
+Life: 3
+Discard 1: Unstoppable Dash
+Discard 2: Phalanx Suppression
+Special action available
+Threat level: 0
+
+Kehrolyn
+--------
+Life: 6
+Discard 1: Quicksilver Burst
+Discard 2: Bladed Grasp
+
+
+KC.....
+
+Unbeatable strategy for Kehrolyn: Mutating Dash: -8.00
+Unbeatable strategy for Kehrolyn: Whip Drive: -8.00
+Unbeatable strategy for Kehrolyn: Whip Dash: -8.00
+Unbeatable strategy for Kehrolyn: Exoskeletal Shot: -8.00
+Unbeatable strategy for Kehrolyn: Exoskeletal Drive: -8.00
+Unbeatable strategy for Kehrolyn: Exoskeletal Dash: -8.00
+
+
+Cesar:
+100% Special Level 4 Protocol
+
+Kehrolyn:
+6% Mutating Overload
+9% Mutating Strike
+9% Mutating Shot
+8% Mutating Drive
+6% Mutating Dash
+6% Whip Overload
+7% Whip Strike
+6% Whip Shot
+6% Whip Drive
+6% Whip Dash
+6% Exoskeletal Overload
+6% Exoskeletal Strike
+7% Exoskeletal Shot
+6% Exoskeletal Drive
+6% Exoskeletal Dash
+
+
+Cesar: Special Level 4 Protocol
+Kehrolyn: Exoskeletal Strike
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  11 | 5
+Cesar is active
 Cesar hits
-Kehrolyn takes 7 damage (now at 0 life)
+Kehrolyn has 2 soak
+Kehrolyn takes 6 damage (now at 0 life)
 CESAR WINS!
-total_time: 11
+total_time: 19

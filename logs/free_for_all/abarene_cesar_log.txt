@@ -30,37 +30,51 @@ Threat level: 0
 
 
 Abarene:
-30% Crippling Thorns
-14% Crippling Thorns (Fatigue)
-26% Crippling Drive
-3% Crippling Drive (Fatigue)
-3% Crippling Burst
-24% Pestilent Burst
+36% Crippling Thorns
+20% Crippling Thorns (Fatigue)
+32% Crippling Drive
+7% Crippling Burst
+5% Pestilent Burst
 
 Cesar:
-2% Phalanx Shot
-16% Phalanx Drive
-57% Bulwark Shot
-8% Bulwark Burst
-15% Bulwark Dash
-1% Inevitable Shot
+9% Phalanx Drive
+59% Bulwark Shot
+0% Bulwark Burst
+26% Bulwark Dash
+6% Inevitable Shot
 
 
-Abarene: Pestilent Burst
+Abarene: Crippling Thorns
 Cesar: Bulwark Shot
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  0 | 0
+Clash!
+
+
+Abarene: Crippling Drive
+Cesar: Bulwark Suppression
 
 Cesar gains a Threat Level (current level: 1)
 Priorities:  2 | 0
 Abarene is active
 Abarene moves:
 
-A....C.
+..A..C.
 
-Abarene misses
-Cesar misses
+Abarene moves:
+
+....AC.
+
+Abarene hits
+Abarene recovers a Nausea token
+Cesar takes 4 damage (now at 16 life)
+Cesar hits
+Abarene takes 3 damage (now at 17 life)
+Abarene is stunned
 Cesar moves:
 
-A.C....
+.C..A..
 
 
 Beat 2
@@ -68,216 +82,212 @@ Beat 2
 
 Abarene
 -------
-Life: 20
-Discard 1: Pestilent Burst
+Life: 17
+Discard 1: Crippling Drive
 Discard 2: Lethal Strike
 Special action available
-pool: Fatigue
+pool: Fatigue, Nausea
 
 Cesar
 -----
-Life: 20
-Discard 1: Bulwark Shot
+Life: 16
+Discard 1: Bulwark Suppression
 Discard 2: Fueled Strike
 Special action available
 Threat level: 1
 
 
-A.C....
+.C..A..
+
+Unbeatable strategy for Abarene: Intoxicating Dash: 1.12
+Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue): 1.12
+Unbeatable strategy for Abarene: Intoxicating Dash (Nausea): 0.96
+Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Nausea): 0.72
+Unbeatable strategy for Abarene: Barbed Dash: 0.89
+Unbeatable strategy for Abarene: Barbed Dash (Fatigue): 0.21
+Unbeatable strategy for Abarene: Pestilent Dash: 0.69
+Unbeatable strategy for Abarene: Pestilent Dash (Fatigue): 0.02
 
 
 Abarene:
-12% Intoxicating Thorns (Fatigue)
-28% Intoxicating Shot (Fatigue)
-8% Crippling Thorns (Fatigue)
-52% Crippling Drive (Fatigue)
+14% Intoxicating Shot
+25% Intoxicating Shot (Fatigue)
+21% Intoxicating Shot (Nausea)
+40% Intoxicating Burst (Nausea)
 
 Cesar:
-44% Inevitable Suppression
-23% Inevitable Drive
-26% Inevitable Burst
-7% Inevitable Grasp
+79% Unstoppable Shot
+21% Inevitable Shot
 
 
-Abarene: Crippling Drive (Fatigue)
-Cesar: Inevitable Burst
+Abarene: Intoxicating Shot
+Cesar: Unstoppable Shot
 
-Abarene antes a Fatigue token
 Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | -1
+Priorities:  3 | 0
 Abarene is active
-Abarene moves:
-
-.AC....
-
-Abarene moves:
-
-..CA...
-
 Abarene hits
-Abarene recovers a Nausea token
-Cesar takes 4 damage (now at 16 life)
-Cesar misses
+Abarene recovers a Dizziness token
+Cesar takes 4 damage (now at 12 life)
+Cesar hits
+Abarene takes 5 damage (now at 12 life)
+Abarene is stunned
+Abarene recovers a Pain Spike token
 
 Beat 3
 -------
 
 Abarene
 -------
-Life: 20
-Discard 1: Crippling Drive
-Discard 2: Pestilent Burst
+Life: 12
+Discard 1: Intoxicating Shot
+Discard 2: Crippling Drive
 Special action available
-pool: Nausea
+pool: Dizziness, Fatigue, Nausea, Pain Spike
 
 Cesar
 -----
-Life: 16
-Discard 1: Inevitable Burst
-Discard 2: Bulwark Shot
+Life: 12
+Discard 1: Unstoppable Shot
+Discard 2: Bulwark Suppression
 Special action available
 Threat level: 2
 
 
-..CA...
+.C..A..
 
-Unbeatable strategy for Abarene: Intoxicating Grasp: 0.01
-Unbeatable strategy for Abarene: Intoxicating Grasp (Nausea): 0.01
+Unbeatable strategy for Abarene: Pestilent Dash (Pain Spike): 0.29
 
 
 Abarene:
-18% Lethal Thorns
-1% Lethal Strike
-20% Intoxicating Thorns (Nausea)
-28% Intoxicating Strike
-33% Intoxicating Strike (Nausea)
+37% Lethal Thorns (Dizziness, Nausea, Pain Spike)
+37% Lethal Thorns (Fatigue, Nausea, Pain Spike)
+26% Lethal Strike (Pain Spike)
 
 Cesar:
-45% Phalanx Strike
-6% Phalanx Grasp
-16% Fueled Strike
-33% Fueled Drive
+24% Fueled Strike
+50% Fueled Burst
+26% Fueled Grasp
 
 
-Abarene: Intoxicating Strike
-Cesar: Phalanx Strike
+Abarene: Lethal Thorns (Dizziness, Nausea, Pain Spike)
+Cesar: Fueled Burst
 
+Abarene antes a Dizziness token
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Cesar loses 3 life (now at 9)
 Cesar gains a Threat Level (current level: 3)
-Priorities:  4 | 1
+Priorities:  2 | 0
 Abarene is active
-Abarene hits
-Abarene recovers a Dizziness token
-Cesar takes 5 damage (now at 11 life)
-Cesar hits
-Abarene takes 7 damage (now at 13 life)
-Abarene is stunned
-Abarene recovers a Fatigue token
-
-Beat 4
--------
-
-Abarene
--------
-Life: 13
-Discard 1: Intoxicating Strike
-Discard 2: Crippling Drive
-Special action available
-pool: Dizziness, Fatigue, Nausea
-
-Cesar
------
-Life: 11
-Discard 1: Phalanx Strike
-Discard 2: Inevitable Burst
-Special action available
-Threat level: 3
-
-
-..CA...
-
-
-Abarene:
-98% Lethal Shot
-2% Barbed Shot
-
-Cesar:
-8% Unstoppable Drive
-92% Special Pulse
-
-
-Abarene: Lethal Shot
-Cesar: Special Pulse
-
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Pulse:
+Cesar moves:
 
-CA.....
+C...A..
 
+Abarene hits
+Abarene recovers a Nausea token
+Abarene recovers a Pain Spike token
+Cesar has 2 soak
+Cesar takes 2 damage (now at 7 life)
+Cesar is stunned
 
 Beat 4
 -------
 
 Abarene
 -------
-Life: 13
-Discard 1: Lethal Shot
-Discard 2: Intoxicating Strike
+Life: 12
+Discard 1: Lethal Thorns
+Discard 2: Intoxicating Shot
 Special action available
-pool: Dizziness, Fatigue, Nausea
+pool: Fatigue, Nausea, Pain Spike
 
 Cesar
 -----
-Life: 11
-Discard 1: Phalanx Strike
-Discard 2: Inevitable Burst
+Life: 7
+Discard 1: Fueled Burst
+Discard 2: Unstoppable Shot
+Special action available
 Threat level: 4
 
 
-CA.....
+C...A..
+
+Unbeatable strategy for Abarene: Barbed Grasp (Nausea, Pain Spike): 0.79
+Unbeatable strategy for Abarene: Barbed Grasp (Fatigue, Nausea, Pain Spike): 0.04
+Unbeatable strategy for Abarene: Barbed Dash (Pain Spike): 0.83
+Unbeatable strategy for Abarene: Barbed Dash (Fatigue, Pain Spike): 0.23
+Unbeatable strategy for Abarene: Barbed Dash (Nausea, Pain Spike): 0.73
 
 
 Abarene:
-15% Barbed Burst
-14% Barbed Burst (Dizziness)
-14% Barbed Dash (Nausea)
-3% Crippling Thorns (Fatigue)
-22% Crippling Thorns (Nausea)
-1% Crippling Thorns (Fatigue, Nausea)
-26% Crippling Drive
-5% Crippling Drive (Fatigue)
+12% Barbed Drive (Nausea, Pain Spike)
+7% Crippling Strike (Pain Spike)
+0% Crippling Drive (Fatigue, Pain Spike)
+23% Crippling Drive (Fatigue, Nausea, Pain Spike)
+58% Crippling Dash (Nausea, Pain Spike)
 
 Cesar:
-14% Unstoppable Dash
-8% Fueled Shot
-0% Fueled Drive
-4% Fueled Grasp
-24% Bulwark Shot
-12% Bulwark Drive
-3% Bulwark Grasp
-35% Bulwark Dash
+9% Bulwark Suppression
+5% Bulwark Strike
+24% Bulwark Drive
+57% Bulwark Dash
+5% Inevitable Drive
 
 
-Abarene: Barbed Burst (Dizziness)
-Cesar: Bulwark Shot
+Abarene: Crippling Dash (Nausea, Pain Spike)
+Cesar: Bulwark Dash
 
-Abarene antes a Dizziness token
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Cesar loses 3 life (now at 4)
 Cesar gains a Threat Level (current level: 0)
-Priorities:  2 | 0
+Priorities:  7 | 7
+Clash!
+
+
+Abarene: Crippling Strike (Nausea, Pain Spike)
+Cesar: Bulwark Strike
+
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Cesar loses 3 life (now at 4)
+Cesar gains a Threat Level (current level: 0)
+Priorities:  1 | 1
+Clash!
+
+
+Abarene: Crippling Drive (Nausea, Pain Spike)
+Cesar: Bulwark Drive
+
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Cesar loses 3 life (now at 4)
+Cesar gains a Threat Level (current level: 0)
+Priorities:  2 | 2
+Clash!
+
+
+Abarene: Crippling Grasp (Nausea, Pain Spike)
+Cesar: Bulwark Suppression
+
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Cesar loses 3 life (now at 4)
+Cesar gains a Threat Level (current level: 0)
+Priorities:  3 | 0
 Abarene is active
 Abarene moves:
 
-C..A...
+C.A....
 
-Abarene hits
-Abarene recovers a Dizziness token
-Cesar takes 2 damage (now at 9 life)
-Cesar hits
-Abarene takes 1 damage (now at 12 life)
-Abarene is stunned
+Abarene misses
+Cesar misses
 Cesar moves:
 
-.C.A...
+.CA....
 
 
 Beat 5
@@ -286,72 +296,58 @@ Beat 5
 Abarene
 -------
 Life: 12
-Discard 1: Barbed Burst
-Discard 2: Lethal Shot
+Discard 1: Crippling Grasp
+Discard 2: Lethal Thorns
 Special action available
-pool: Dizziness, Fatigue, Nausea
+pool: Fatigue
 
 Cesar
 -----
-Life: 9
-Discard 1: Bulwark Shot
-Discard 2: Phalanx Strike
+Life: 4
+Discard 1: Bulwark Suppression
+Discard 2: Fueled Burst
+Special action available
 Threat level: 0
 
 
-.C.A...
+.CA....
 
-Unbeatable strategy for Abarene: Intoxicating Dash: 0.35
-Unbeatable strategy for Abarene: Intoxicating Dash (Dizziness): 0.35
-Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue): 0.35
-Unbeatable strategy for Abarene: Intoxicating Dash (Nausea): 0.90
-Unbeatable strategy for Abarene: Intoxicating Dash (Dizziness, Nausea): 0.62
-Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Nausea): 0.62
+Unbeatable strategy for Abarene: Intoxicating Strike (Fatigue): 0.47
 
 
 Abarene:
-7% Intoxicating Thorns (Nausea)
-22% Intoxicating Thorns (Dizziness, Nausea)
-25% Intoxicating Thorns (Fatigue, Nausea)
-30% Intoxicating Drive (Fatigue, Nausea)
-1% Intoxicating Grasp (Fatigue, Nausea)
-15% Crippling Dash (Fatigue, Nausea)
+8% Intoxicating Strike (Fatigue)
+38% Intoxicating Shot (Fatigue)
+15% Intoxicating Drive (Fatigue)
+1% Intoxicating Burst (Fatigue)
+37% Barbed Burst
 
 Cesar:
-10% Unstoppable Suppression
-18% Unstoppable Dash
-12% Fueled Dash
-1% Inevitable Burst
-59% Inevitable Dash
+27% Phalanx Strike
+3% Phalanx Dash
+4% Inevitable Drive
+61% Inevitable Dash
+6% Special Level 4 Protocol
 
 
-Abarene: Intoxicating Drive (Fatigue, Nausea)
-Cesar: Unstoppable Dash
-
-Abarene antes a Fatigue token
-Abarene antes a Nausea token
-Cesar gains a Threat Level (current level: 1)
-Priorities:  5 | 5
-Clash!
-
-
-Abarene: Intoxicating Thorns (Fatigue, Nausea)
-Cesar: Unstoppable Suppression
+Abarene: Intoxicating Drive (Fatigue)
+Cesar: Inevitable Dash
 
 Abarene antes a Fatigue token
-Abarene antes a Nausea token
 Cesar gains a Threat Level (current level: 1)
-Priorities:  3 | -2
-Abarene is active
+Priorities:  5 | 7
+Cesar is active
 Abarene recovers a Fatigue token
-Abarene hits
-Abarene recovers a Pain Spike token
-Cesar takes 4 damage (now at 5 life)
-Cesar is stunned
 Cesar moves:
 
-C..A...
+..A.C..
 
+Abarene moves:
+
+...AC..
+
+Abarene misses
+Abarene recovers a Nausea token
 
 Beat 6
 -------
@@ -359,204 +355,191 @@ Beat 6
 Abarene
 -------
 Life: 12
-Discard 1: Intoxicating Thorns
-Discard 2: Barbed Burst
+Discard 1: Intoxicating Drive
+Discard 2: Crippling Grasp
 Special action available
-pool: Dizziness, Fatigue, Pain Spike
+pool: Fatigue, Nausea
 
 Cesar
 -----
-Life: 5
-Discard 1: Unstoppable Suppression
-Discard 2: Bulwark Shot
+Life: 4
+Discard 1: Inevitable Dash
+Discard 2: Bulwark Suppression
+Special action available
 Threat level: 1
 
 
-C..A...
+...AC..
 
-Unbeatable strategy for Abarene: Lethal Drive (Fatigue): 0.84
-Unbeatable strategy for Abarene: Lethal Drive (Dizziness, Fatigue): 0.14
-Unbeatable strategy for Abarene: Lethal Drive (Fatigue, Pain Spike): 3.39
-Unbeatable strategy for Abarene: Lethal Drive (Dizziness, Fatigue, Pain Spike): 3.13
-Unbeatable strategy for Abarene: Lethal Dash (Fatigue): 0.84
-Unbeatable strategy for Abarene: Lethal Dash (Dizziness, Fatigue): 0.14
-Unbeatable strategy for Abarene: Lethal Dash (Fatigue, Pain Spike): 2.34
-Unbeatable strategy for Abarene: Lethal Dash (Dizziness, Fatigue, Pain Spike): 1.64
-Unbeatable strategy for Abarene: Pestilent Dash: 1.49
-Unbeatable strategy for Abarene: Pestilent Dash (Dizziness): 0.74
-Unbeatable strategy for Abarene: Pestilent Dash (Fatigue): 0.84
-Unbeatable strategy for Abarene: Pestilent Dash (Pain Spike): 2.94
-Unbeatable strategy for Abarene: Pestilent Dash (Dizziness, Fatigue): 0.09
-Unbeatable strategy for Abarene: Pestilent Dash (Dizziness, Pain Spike): 2.19
-Unbeatable strategy for Abarene: Pestilent Dash (Fatigue, Pain Spike): 2.29
-Unbeatable strategy for Abarene: Pestilent Dash (Dizziness, Fatigue, Pain Spike): 1.54
+Unbeatable strategy for Abarene: Lethal Strike (Fatigue): 1.39
+Unbeatable strategy for Abarene: Barbed Dash: 0.16
+Unbeatable strategy for Abarene: Barbed Dash (Nausea): 0.36
+Unbeatable strategy for Abarene: Pestilent Dash: 0.06
 
 
 Abarene:
-7% Lethal Drive (Pain Spike)
-7% Crippling Shot (Pain Spike)
-11% Crippling Dash (Pain Spike)
-32% Pestilent Drive (Pain Spike)
-25% Pestilent Drive (Dizziness, Pain Spike)
-18% Pestilent Drive (Dizziness, Fatigue, Pain Spike)
+19% Lethal Thorns
+32% Lethal Thorns (Nausea)
+22% Lethal Strike
+7% Lethal Strike (Fatigue)
+7% Lethal Shot
+8% Lethal Burst
+5% Lethal Burst (Nausea)
 
 Cesar:
-27% Phalanx Strike
-45% Phalanx Dash
-7% Fueled Strike
-11% Fueled Drive
-3% Inevitable Drive
-6% Inevitable Dash
+40% Phalanx Strike
+1% Phalanx Drive
+2% Phalanx Burst
+6% Unstoppable Shot
+23% Unstoppable Burst
+22% Unstoppable Grasp
+5% Special Level 4 Protocol
 
 
-Abarene: Pestilent Drive (Dizziness, Pain Spike)
-Cesar: Phalanx Strike
+Abarene: Lethal Thorns (Nausea)
+Cesar: Unstoppable Burst
 
-Abarene antes a Dizziness token
-Abarene antes a Pain Spike token
-Cesar loses 3 life (now at 2)
+Abarene antes a Nausea token
 Cesar gains a Threat Level (current level: 2)
-Priorities:  5 | 1
+Priorities:  2 | -1
 Abarene is active
-Abarene moves:
-
-CA.....
-
-Abarene hits
-Abarene recovers a Nausea token
-Cesar takes 2 damage (now at 0 life)
 Cesar moves:
 
-.A.C...
+...A..C
 
-Cesar hits
-Abarene takes 4 damage (now at 8 life)
-Abarene is stunned
+Abarene moves:
+
+A.....C
+
+Cesar moves:
+
+A....C.
+
+Abarene misses
+Cesar misses
 
 Beat 7
 -------
 
 Abarene
 -------
-Life: 8
-Discard 1: Pestilent Drive
-Discard 2: Intoxicating Thorns
+Life: 12
+Discard 1: Lethal Thorns
+Discard 2: Intoxicating Drive
 Special action available
-pool: Fatigue, Nausea
+pool: Fatigue
 
 Cesar
 -----
-Life: 1
-Discard 1: Phalanx Strike
-Discard 2: Unstoppable Suppression
+Life: 4
+Discard 1: Unstoppable Burst
+Discard 2: Inevitable Dash
+Special action available
 Threat level: 2
-Defeat immunity used-up
 
 
-.A.C...
+A....C.
+
+Unbeatable strategy for Cesar: Fueled Suppression: -1.92
 
 
 Abarene:
-3% Lethal Burst
-8% Lethal Grasp (Fatigue)
-4% Crippling Shot
-3% Crippling Shot (Nausea)
-57% Crippling Grasp (Nausea)
-14% Crippling Dash (Nausea)
-11% Crippling Dash (Fatigue, Nausea)
+38% Crippling Strike
+25% Crippling Shot
+7% Crippling Burst (Fatigue)
+30% Pestilent Grasp
 
 Cesar:
-1% Fueled Burst
-10% Fueled Grasp
-1% Bulwark Grasp
-33% Bulwark Dash
-0% Inevitable Shot
-2% Inevitable Drive
-53% Inevitable Dash
+13% Phalanx Shot
+61% Fueled Suppression
+11% Fueled Shot
+15% Bulwark Shot
 
 
-Abarene: Crippling Dash (Fatigue, Nausea)
-Cesar: Bulwark Dash
+Abarene: Crippling Strike
+Cesar: Fueled Suppression
 
-Abarene antes a Fatigue token
-Abarene antes a Nausea token
 Cesar gains a Threat Level (current level: 3)
-Priorities:  7 | 5
-Abarene is active
+Priorities:  1 | 1
+Clash!
+
+
+Abarene: Crippling Shot
+Cesar: Fueled Strike
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  0 | 2
+Cesar is active
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
 Abarene moves:
 
-..AC...
+..A..C.
 
-Abarene moves:
-
-...CA..
-
-Cesar moves:
-
-....AC.
-
-Cesar moves:
-
-..C.A..
-
+Abarene hits
+Abarene recovers a Nausea token
+Cesar has 2 soak
+Cesar takes 2 damage (now at 2 life)
 
 Beat 8
 -------
 
 Abarene
 -------
-Life: 8
-Discard 1: Crippling Dash
-Discard 2: Pestilent Drive
+Life: 12
+Discard 1: Crippling Shot
+Discard 2: Lethal Thorns
 Special action available
-pool: 
+pool: Fatigue, Nausea
 
 Cesar
 -----
-Life: 1
-Discard 1: Bulwark Dash
-Discard 2: Phalanx Strike
-Threat level: 3
-Defeat immunity used-up
+Life: 2
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Burst
+Special action available
+Threat level: 4
 
 
-..C.A..
+..A..C.
+
+Unbeatable strategy for Cesar: Bulwark Dash: -0.31
 
 
 Abarene:
-48% Intoxicating Thorns
-49% Intoxicating Shot
-2% Barbed Strike
+11% Barbed Drive
+8% Barbed Drive (Nausea)
+81% Pestilent Burst
 
 Cesar:
-0% Unstoppable Suppression
-23% Unstoppable Burst
-49% Unstoppable Grasp
-0% Inevitable Suppression
-28% Inevitable Burst
+5% Bulwark Suppression
+6% Bulwark Drive
+85% Bulwark Dash
+3% Inevitable Dash
 
 
-Abarene: Intoxicating Shot
-Cesar: Unstoppable Grasp
+Abarene: Pestilent Burst
+Cesar: Bulwark Dash
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  3 | 3
-Clash!
+Cesar gains a Threat Level (current level: 0)
+Priorities:  2 | 7
+Cesar is active
+Abarene moves:
 
+A....C.
 
-Abarene: Intoxicating Grasp
-Cesar: Unstoppable Suppression
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  6 | 0
-Abarene is active
-Abarene misses
-Abarene recovers a Nausea token
 Cesar moves:
 
-C...A..
+A..C...
+
+Cesar moves:
+
+A.....C
+
+Abarene misses
+Abarene moves:
+
+...A..C
 
 
 Beat 9
@@ -564,53 +547,60 @@ Beat 9
 
 Abarene
 -------
-Life: 8
-Discard 1: Intoxicating Grasp
-Discard 2: Crippling Dash
+Life: 12
+Discard 1: Pestilent Burst
+Discard 2: Crippling Shot
 Special action available
-pool: Nausea
+pool: Fatigue, Nausea
 
 Cesar
 -----
-Life: 1
-Discard 1: Unstoppable Suppression
-Discard 2: Bulwark Dash
-Threat level: 4
-Defeat immunity used-up
+Life: 2
+Discard 1: Bulwark Dash
+Discard 2: Fueled Strike
+Special action available
+Threat level: 0
 
 
-C...A..
+...A..C
+
+Unbeatable strategy for Abarene: Intoxicating Drive (Fatigue): 0.49
 
 
 Abarene:
-24% Lethal Shot (Nausea)
-30% Pestilent Shot (Nausea)
-46% Pestilent Drive (Nausea)
+6% Lethal Drive (Nausea)
+13% Lethal Grasp
+2% Intoxicating Thorns (Fatigue, Nausea)
+21% Intoxicating Drive (Nausea)
+57% Barbed Thorns (Nausea)
 
 Cesar:
-30% Inevitable Strike
-24% Inevitable Shot
-46% Inevitable Grasp
+61% Phalanx Shot
+13% Inevitable Suppression
+22% Inevitable Shot
+0% Inevitable Drive
+5% Inevitable Burst
 
 
-Abarene: Pestilent Drive (Nausea)
-Cesar: Inevitable Grasp
-
-Abarene antes a Nausea token
-Cesar gains a Threat Level (current level: 0)
-Priorities:  5 | 5
-Clash!
-
-
-Abarene: Pestilent Thorns (Nausea)
-Cesar: Inevitable Shot
+Abarene: Intoxicating Drive (Nausea)
+Cesar: Phalanx Shot
 
 Abarene antes a Nausea token
-Cesar gains a Threat Level (current level: 0)
-Priorities:  3 | 2
+Cesar gains a Threat Level (current level: 1)
+Priorities:  5 | 0
 Abarene is active
-Abarene misses
-Cesar misses
+Abarene recovers a Nausea token
+Abarene moves:
+
+.....AC
+
+Abarene hits
+Abarene recovers a Dizziness token
+Cesar takes 4 damage (now at 0 life)
+Cesar hits
+Abarene takes 4 damage (now at 8 life)
+Abarene is stunned
+Abarene recovers a Pain Spike token
 
 Beat 10
 -------
@@ -618,270 +608,130 @@ Beat 10
 Abarene
 -------
 Life: 8
-Discard 1: Pestilent Thorns
-Discard 2: Intoxicating Grasp
+Discard 1: Intoxicating Drive
+Discard 2: Pestilent Burst
 Special action available
-pool: 
+pool: Dizziness, Fatigue, Nausea, Pain Spike
 
 Cesar
 -----
 Life: 1
-Discard 1: Inevitable Shot
-Discard 2: Unstoppable Suppression
-Threat level: 0
-Defeat immunity used-up
-
-
-C...A..
-
-Unbeatable strategy for Abarene: Lethal Dash: 0.72
-Unbeatable strategy for Abarene: Barbed Drive: 2.06
-Unbeatable strategy for Abarene: Barbed Dash: 0.43
-
-
-Abarene:
-16% Lethal Strike
-4% Barbed Shot
-46% Barbed Drive
-34% Crippling Dash
-
-Cesar:
-58% Fueled Dash
-19% Bulwark Drive
-3% Bulwark Grasp
-21% Bulwark Dash
-
-
-Abarene: Barbed Drive
-Cesar: Fueled Dash
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  5 | 8
-Cesar is active
-Cesar gains a Threat Level (current level: 2)
-Cesar moves:
-
-.C..A..
-
-Cesar moves:
-
-....AC.
-
-Cesar loses 2 life (now at 1)
-Cesar loses 2 life (now at 1)
-Abarene moves:
-
-.....CA
-
-Abarene misses
-
-Beat 11
--------
-
-Abarene
--------
-Life: 8
-Discard 1: Barbed Drive
-Discard 2: Pestilent Thorns
+Discard 1: Phalanx Shot
+Discard 2: Bulwark Dash
 Special action available
-pool: 
-
-Cesar
------
-Life: 1
-Discard 1: Fueled Dash
-Discard 2: Inevitable Shot
-Threat level: 2
+Threat level: 1
 Defeat immunity used-up
 
 
-.....CA
+.....AC
 
-Unbeatable strategy for Abarene: Lethal Dash: 1.68
-
-
-Abarene:
-26% Intoxicating Strike
-51% Intoxicating Shot
-23% Crippling Strike
-
-Cesar:
-7% Phalanx Drive
-8% Unstoppable Drive
-8% Bulwark Drive
-26% Bulwark Burst
-51% Bulwark Grasp
-
-
-Abarene: Crippling Strike
-Cesar: Bulwark Drive
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  1 | 2
-Cesar is active
-Cesar hits
-Abarene takes 6 damage (now at 2 life)
-Abarene is stunned
-
-Beat 12
--------
-
-Abarene
--------
-Life: 2
-Discard 1: Crippling Strike
-Discard 2: Barbed Drive
-Special action available
-pool: 
-
-Cesar
------
-Life: 1
-Discard 1: Bulwark Drive
-Discard 2: Fueled Dash
-Threat level: 3
-Defeat immunity used-up
-
-
-.....CA
+Unbeatable strategy for Abarene: Lethal Grasp (Fatigue): 6.00
+Unbeatable strategy for Abarene: Lethal Grasp (Dizziness, Fatigue): 6.00
+Unbeatable strategy for Abarene: Lethal Grasp (Fatigue, Nausea): 6.00
+Unbeatable strategy for Abarene: Lethal Grasp (Fatigue, Pain Spike): 6.00
+Unbeatable strategy for Abarene: Lethal Grasp (Dizziness, Fatigue, Nausea): 6.00
+Unbeatable strategy for Abarene: Lethal Grasp (Dizziness, Fatigue, Pain Spike): 6.00
+Unbeatable strategy for Abarene: Lethal Grasp (Fatigue, Nausea, Pain Spike): 6.00
+Unbeatable strategy for Abarene: Lethal Grasp (Dizziness, Fatigue, Nausea, Pain Spike): 6.00
+Unbeatable strategy for Abarene: Lethal Dash (Nausea): 0.74
+Unbeatable strategy for Abarene: Lethal Dash (Dizziness, Nausea): 0.03
+Unbeatable strategy for Abarene: Lethal Dash (Fatigue, Nausea): 0.13
+Unbeatable strategy for Abarene: Lethal Dash (Nausea, Pain Spike): 0.63
+Unbeatable strategy for Abarene: Lethal Dash (Fatigue, Nausea, Pain Spike): 0.02
+Unbeatable strategy for Abarene: Barbed Dash (Dizziness, Nausea): 0.54
+Unbeatable strategy for Abarene: Barbed Dash (Dizziness, Nausea, Pain Spike): 0.28
+Unbeatable strategy for Abarene: Crippling Dash (Dizziness, Nausea): 0.14
 
 
 Abarene:
-34% Intoxicating Thorns
-66% Intoxicating Shot
+4% Lethal Thorns (Nausea)
+2% Lethal Thorns (Dizziness, Nausea)
+2% Lethal Thorns (Fatigue, Nausea)
+3% Lethal Thorns (Nausea, Pain Spike)
+2% Lethal Thorns (Dizziness, Fatigue, Nausea)
+2% Lethal Thorns (Dizziness, Nausea, Pain Spike)
+2% Lethal Thorns (Fatigue, Nausea, Pain Spike)
+2% Lethal Thorns (Dizziness, Fatigue, Nausea, Pain Spike)
+1% Lethal Strike (Fatigue)
+1% Lethal Strike (Dizziness, Fatigue)
+2% Lethal Strike (Fatigue, Nausea)
+1% Lethal Strike (Fatigue, Pain Spike)
+2% Lethal Strike (Dizziness, Fatigue, Nausea)
+1% Lethal Strike (Dizziness, Fatigue, Pain Spike)
+2% Lethal Strike (Fatigue, Nausea, Pain Spike)
+2% Lethal Strike (Dizziness, Fatigue, Nausea, Pain Spike)
+2% Lethal Shot (Nausea)
+2% Lethal Shot (Dizziness, Nausea)
+2% Lethal Shot (Fatigue, Nausea)
+2% Lethal Shot (Nausea, Pain Spike)
+2% Lethal Shot (Dizziness, Fatigue, Nausea)
+2% Lethal Shot (Dizziness, Nausea, Pain Spike)
+2% Lethal Shot (Fatigue, Nausea, Pain Spike)
+2% Lethal Shot (Dizziness, Fatigue, Nausea, Pain Spike)
+1% Lethal Grasp (Fatigue)
+3% Lethal Grasp (Nausea)
+1% Lethal Grasp (Dizziness, Fatigue)
+2% Lethal Grasp (Dizziness, Nausea)
+2% Lethal Grasp (Fatigue, Nausea)
+1% Lethal Grasp (Fatigue, Pain Spike)
+3% Lethal Grasp (Nausea, Pain Spike)
+2% Lethal Grasp (Dizziness, Fatigue, Nausea)
+1% Lethal Grasp (Dizziness, Fatigue, Pain Spike)
+2% Lethal Grasp (Dizziness, Nausea, Pain Spike)
+2% Lethal Grasp (Fatigue, Nausea, Pain Spike)
+2% Lethal Grasp (Dizziness, Fatigue, Nausea, Pain Spike)
+2% Crippling Thorns (Fatigue, Nausea)
+2% Crippling Thorns (Dizziness, Fatigue, Nausea)
+2% Crippling Thorns (Fatigue, Nausea, Pain Spike)
+2% Crippling Thorns (Dizziness, Fatigue, Nausea, Pain Spike)
+2% Crippling Strike (Fatigue, Nausea)
+2% Crippling Strike (Dizziness, Fatigue, Nausea)
+2% Crippling Strike (Fatigue, Nausea, Pain Spike)
+2% Crippling Strike (Dizziness, Fatigue, Nausea, Pain Spike)
+2% Crippling Shot (Fatigue, Nausea)
+2% Crippling Shot (Dizziness, Fatigue, Nausea)
+2% Crippling Shot (Fatigue, Nausea, Pain Spike)
+2% Crippling Shot (Dizziness, Fatigue, Nausea, Pain Spike)
+2% Crippling Grasp (Nausea)
+2% Crippling Grasp (Dizziness, Nausea)
+2% Crippling Grasp (Fatigue, Nausea)
+2% Crippling Grasp (Nausea, Pain Spike)
+2% Crippling Grasp (Dizziness, Fatigue, Nausea)
+2% Crippling Grasp (Dizziness, Nausea, Pain Spike)
+2% Crippling Grasp (Fatigue, Nausea, Pain Spike)
+2% Crippling Grasp (Dizziness, Fatigue, Nausea, Pain Spike)
 
 Cesar:
-11% Phalanx Burst
-11% Unstoppable Burst
-66% Unstoppable Grasp
-12% Inevitable Burst
+4% Unstoppable Suppression
+3% Unstoppable Strike
+13% Unstoppable Drive
+3% Unstoppable Burst
+3% Unstoppable Grasp
+3% Fueled Suppression
+3% Inevitable Suppression
+3% Inevitable Strike
+13% Inevitable Drive
+16% Inevitable Burst
+36% Inevitable Grasp
 
 
-Abarene: Intoxicating Shot
-Cesar: Unstoppable Grasp
+Abarene: Lethal Grasp (Dizziness, Fatigue, Nausea, Pain Spike)
+Cesar: Inevitable Grasp
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  3 | 3
-Clash!
-
-
-Abarene: Intoxicating Burst
-Cesar: Unstoppable Suppression
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  2 | 0
-Abarene is active
-Abarene misses
-Abarene recovers a Nausea token
-Cesar moves:
-
-..C...A
-
-
-Beat 13
--------
-
-Abarene
--------
-Life: 2
-Discard 1: Intoxicating Burst
-Discard 2: Crippling Strike
-Special action available
-pool: Nausea
-
-Cesar
------
-Life: 1
-Discard 1: Unstoppable Suppression
-Discard 2: Bulwark Drive
-Threat level: 4
-Defeat immunity used-up
-
-
-..C...A
-
-Unbeatable strategy for Cesar: Inevitable Burst: -0.16
-
-
-Abarene:
-2% Lethal Thorns (Nausea)
-16% Barbed Grasp
-70% Pestilent Drive
-5% Pestilent Grasp
-7% Special Hallicris Snare
-
-Cesar:
-7% Phalanx Burst
-56% Phalanx Dash
-0% Fueled Burst
-29% Inevitable Burst
-8% Inevitable Grasp
-
-
-Abarene: Lethal Thorns (Nausea)
-Cesar: Inevitable Burst
-
+Abarene antes a Dizziness token
+Abarene antes a Fatigue token
 Abarene antes a Nausea token
-Cesar gains a Threat Level (current level: 0)
-Priorities:  2 | 1
+Abarene antes a Pain Spike token
+Cesar loses 3 life (now at 1)
+Cesar gains a Threat Level (current level: 2)
+Priorities:  5 | 3
 Abarene is active
-Cesar moves:
+Abarene hits
+Abarene recovers a Dizziness token
+Abarene moves Cesar:
 
-C.....A
+....CA.
 
-Abarene misses
-Cesar misses
-
-Beat 14
--------
-
-Abarene
--------
-Life: 2
-Discard 1: Lethal Thorns
-Discard 2: Intoxicating Burst
-Special action available
-pool: 
-
-Cesar
------
-Life: 1
-Discard 1: Inevitable Burst
-Discard 2: Unstoppable Suppression
-Threat level: 0
-Defeat immunity used-up
-
-
-C.....A
-
-Unbeatable strategy for Cesar: Fueled Shot: -7.00
-
-
-Abarene:
-25% Crippling Strike
-31% Crippling Shot
-44% Special Hallicris Snare
-
-Cesar:
-21% Phalanx Shot
-27% Fueled Shot
-52% Bulwark Dash
-
-
-Abarene: Crippling Strike
-Cesar: Phalanx Shot
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  1 | 0
-Abarene is active
-Abarene moves:
-
-C...A..
-
-Abarene misses
-Cesar hits
-Abarene takes 4 damage (now at 0 life)
-CESAR WINS!
-total_time: 74
+Cesar takes 1 damage (now at 0 life)
+ABARENE WINS!
+total_time: 93

@@ -11,55 +11,58 @@ Beat 1
 
 Cesar
 -----
-life: 20
-discard 1: Fueled Strike
-discard 2: Unstoppable Grasp
-special action
+Life: 20
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Grasp
+Special action available
 Threat level: 0
 
 Tatsumi
 -------
-life: 20
-discard 1: Fearless Burst
-discard 2: Riptide Strike
-special action
+Life: 20
+Discard 1: Fearless Burst
+Discard 2: Riptide Strike
+Special action available
 Juto's life: 4
 
 
 .C...T.
 .....j.
 
+
 Cesar:
-45% Bulwark Suppression
-55% Bulwark Dash
+42% Bulwark Suppression
+58% Bulwark Dash
 
 Tatsumi:
-62% Siren Drive
-38% Empathic Whirlpool
+8% Siren Whirlpool
+51% Siren Drive
+41% Empathic Whirlpool
 
 
 Cesar: Bulwark Suppression
-Tatsumi: Empathic Whirlpool
+Tatsumi: Siren Drive
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 2
+Priorities:  0 | 5
 Tatsumi is active
-Tatsumi misses
+Tatsumi moves:
+
+.C.T...
+.....j.
+
+Tatsumi hits
+Cesar is stunned
+Cesar takes 3 damage (now at 17 life)
 Juto moves
 
-.C...T.
-......j
-
-Cesar misses
-Cesar moves:
-
-..C..T.
-......j
+.C.T...
+.....j.
 
 Cesar moves:
 
-.....TC
-......j
+...TC..
+.....j.
 
 
 Beat 2
@@ -67,49 +70,67 @@ Beat 2
 
 Cesar
 -----
-life: 20
-discard 1: Bulwark Suppression
-discard 2: Fueled Strike
-special action
+Life: 17
+Discard 1: Bulwark Suppression
+Discard 2: Fueled Strike
+Special action available
 Threat level: 1
 
 Tatsumi
 -------
-life: 20
-discard 1: Empathic Whirlpool
-discard 2: Fearless Burst
-special action
+Life: 20
+Discard 1: Siren Drive
+Discard 2: Fearless Burst
+Special action available
 Juto's life: 4
 
+
+...TC..
+.....j.
+
+Unbeatable strategy for Tatsumi: Riptide Dash: -1.32
+Unbeatable strategy for Tatsumi: Empathic Dash: -0.24
+Unbeatable strategy for Tatsumi: Wave Dash: -1.46
+
+
+Cesar:
+22% Phalanx Shot
+37% Unstoppable Grasp
+30% Unstoppable Dash
+11% Inevitable Drive
+
+Tatsumi:
+15% Empathic Whirlpool
+1% Empathic Grasp
+8% Wave Whirlpool
+76% Wave Dash
+
+
+Cesar: Unstoppable Dash
+Tatsumi: Wave Dash
+
+Cesar gains a Threat Level (current level: 2)
+Priorities:  7 | 10
+Tatsumi is active
+Juto moves
+
+...TC..
+......j
+
+Tatsumi moves:
+
+....CT.
+......j
+
+Cesar moves:
 
 .....TC
 ......j
 
-Unbeatable strategy for Tatsumi: Siren Strike: -0.36
+Cesar moves:
 
-Cesar:
-81% Unstoppable Shot
-19% Inevitable Grasp
-
-Tatsumi:
-63% Siren Strike
-37% Riptide Strike
-
-
-Cesar: Unstoppable Shot
-Tatsumi: Siren Strike
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  0 | 5
-Tatsumi is active
-Tatsumi hits
-Cesar takes 3 damage (now at 17 life)
-Cesar hits
-Tatsumi takes 5 damage (now at 15 life)
-Juto moves
-
-.....TC
-....j..
+..C..T.
+......j
 
 
 Beat 3
@@ -117,333 +138,296 @@ Beat 3
 
 Cesar
 -----
-life: 17
-discard 1: Unstoppable Shot
-discard 2: Bulwark Suppression
-special action
+Life: 17
+Discard 1: Unstoppable Dash
+Discard 2: Bulwark Suppression
+Special action available
 Threat level: 2
 
 Tatsumi
 -------
-life: 15
-discard 1: Siren Strike
-discard 2: Empathic Whirlpool
-special action
+Life: 20
+Discard 1: Wave Dash
+Discard 2: Siren Drive
+Special action available
 Juto's life: 4
 
 
-.....TC
-....j..
+..C..T.
+......j
+
+Unbeatable strategy for Tatsumi: Fearless Whirlpool: -0.04
+Unbeatable strategy for Tatsumi: Empathic Strike: -0.60
+Unbeatable strategy for Tatsumi: Empathic Burst: -0.05
+
 
 Cesar:
-19% Inevitable Strike
-73% Inevitable Drive
-8% Inevitable Grasp
+53% Fueled Strike
+34% Fueled Burst
+13% Inevitable Drive
 
 Tatsumi:
-25% Riptide Dash
-75% Special Pulse
+22% Riptide Whirlpool
+45% Empathic Strike
+32% Empathic Burst
 
 
-Cesar: Inevitable Drive
-Tatsumi: Special Pulse
+Cesar: Fueled Strike
+Tatsumi: Empathic Burst
 
 Cesar gains a Threat Level (current level: 3)
-Pulse:
-
-T.....C
-....j..
-
-
-Beat 3
--------
-
-Cesar
------
-life: 17
-discard 1: Inevitable Drive
-discard 2: Unstoppable Shot
-special action
-Threat level: 3
-
-Tatsumi
--------
-life: 15
-discard 1: Siren Strike
-discard 2: Empathic Whirlpool
-Juto's life: 4
-
-
-T.....C
-....j..
-
-Unbeatable strategy for Cesar: Phalanx Burst: 3.11
-Unbeatable strategy for Cesar: Phalanx Dash: 2.88
-Unbeatable strategy for Cesar: Bulwark Burst: 5.51
-Unbeatable strategy for Cesar: Bulwark Dash: 5.22
-
-Cesar:
-39% Fueled Suppression
-61% Bulwark Suppression
-
-Tatsumi:
-11% Fearless Shot
-33% Fearless Burst
-56% Riptide Burst
-
-
-Cesar: Fueled Suppression
-Tatsumi: Riptide Burst
-
+Priorities:  2 | 0
+Cesar is active
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Priorities:  1 | 0
-Cesar is active
-Cesar gains a Threat Level (current level: 0)
-Tatsumi misses
-Cesar moves:
+Tatsumi moves:
 
-T..C...
-....j..
+..C...T
+......j
 
 Juto moves
 
-T..C...
-.j.....
+..C...T
+.....j.
 
+Tatsumi misses
 
 Beat 4
 -------
 
 Cesar
 -----
-life: 17
-discard 1: Fueled Suppression
-discard 2: Inevitable Drive
-special action
-Threat level: 0
+Life: 17
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Dash
+Special action available
+Threat level: 4
 
 Tatsumi
 -------
-life: 15
-discard 1: Riptide Burst
-discard 2: Siren Strike
+Life: 20
+Discard 1: Empathic Burst
+Discard 2: Wave Dash
+Special action available
 Juto's life: 4
 
 
-T..C...
-.j.....
+..C...T
+.....j.
 
-Unbeatable strategy for Tatsumi: Empathic Whirlpool: -0.98
+Unbeatable strategy for Tatsumi: Riptide Drive: -0.60
+
 
 Cesar:
-3% Phalanx Strike
-9% Phalanx Shot
-12% Phalanx Dash
-26% Unstoppable Dash
-3% Bulwark Burst
-48% Bulwark Dash
+38% Phalanx Suppression
+5% Bulwark Burst
+57% Bulwark Grasp
 
 Tatsumi:
-18% Fearless Whirlpool
-4% Fearless Shot
-36% Empathic Whirlpool
-33% Empathic Shot
-9% Empathic Drive
+46% Siren Drive
+25% Riptide Shot
+29% Riptide Drive
 
 
-Cesar: Bulwark Dash
-Tatsumi: Fearless Shot
+Cesar: Bulwark Grasp
+Tatsumi: Siren Drive
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  7 | 3
-Cesar is active
-Cesar moves:
+Cesar gains a Threat Level (current level: 0)
+Priorities:  3 | 5
+Tatsumi is active
+Tatsumi moves:
 
-T.....C
-.j.....
+..C.T..
+.....j.
 
-Tatsumi misses
+Tatsumi hits
+Cesar is stunned
+Cesar takes 3 damage (now at 14 life)
+Juto moves
+
+..C.T..
+.....j.
+
 
 Beat 5
 -------
 
 Cesar
 -----
-life: 17
-discard 1: Bulwark Dash
-discard 2: Fueled Suppression
-special action
-Threat level: 1
+Life: 14
+Discard 1: Bulwark Grasp
+Discard 2: Fueled Strike
+Special action available
+Threat level: 0
 
 Tatsumi
 -------
-life: 15
-discard 1: Fearless Shot
-discard 2: Riptide Burst
+Life: 20
+Discard 1: Siren Drive
+Discard 2: Empathic Burst
+Special action available
 Juto's life: 4
 
 
-T.....C
-.j.....
+..C.T..
+.....j.
 
-Unbeatable strategy for Tatsumi: Siren Whirlpool: -0.90
-Unbeatable strategy for Tatsumi: Siren Strike: -1.13
-Unbeatable strategy for Tatsumi: Siren Grasp: -1.13
-Unbeatable strategy for Tatsumi: Empathic Whirlpool: -1.54
-Unbeatable strategy for Tatsumi: Empathic Strike: -1.13
-Unbeatable strategy for Tatsumi: Empathic Grasp: -1.13
+Unbeatable strategy for Tatsumi: Fearless Whirlpool: -2.26
+Unbeatable strategy for Tatsumi: Riptide Dash: -0.21
+Unbeatable strategy for Tatsumi: Wave Dash: -0.23
+
 
 Cesar:
-3% Unstoppable Strike
-5% Unstoppable Drive
-16% Unstoppable Grasp
-76% Inevitable Shot
+49% Unstoppable Dash
+13% Inevitable Shot
+38% Inevitable Drive
 
 Tatsumi:
-35% Siren Whirlpool
-17% Empathic Whirlpool
-48% Empathic Strike
-0% Wave Whirlpool
+36% Fearless Whirlpool
+27% Fearless Strike
+37% Riptide Grasp
 
 
-Cesar: Inevitable Shot
-Tatsumi: Empathic Whirlpool
+Cesar: Unstoppable Dash
+Tatsumi: Fearless Strike
 
-Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 2
-Clash!
+Cesar gains a Threat Level (current level: 1)
+Priorities:  7 | 4
+Cesar is active
+Cesar moves:
 
-Cesar:
-100% Inevitable Strike
+....T.C
+.....j.
 
-Tatsumi:
-39% Empathic Strike
-22% Empathic Drive
-40% Empathic Grasp
-
-
-Cesar: Inevitable Strike
-Tatsumi: Empathic Grasp
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  3 | 4
-Tatsumi is active
 Tatsumi misses
-Cesar misses
 
 Beat 6
 -------
 
 Cesar
 -----
-life: 17
-discard 1: Inevitable Strike
-discard 2: Bulwark Dash
-special action
-Threat level: 2
+Life: 14
+Discard 1: Unstoppable Dash
+Discard 2: Bulwark Grasp
+Special action available
+Threat level: 1
 
 Tatsumi
 -------
-life: 15
-discard 1: Empathic Grasp
-discard 2: Fearless Shot
+Life: 20
+Discard 1: Fearless Strike
+Discard 2: Siren Drive
+Special action available
 Juto's life: 4
 
 
-T.....C
-.j.....
+....T.C
+.....j.
+
+Unbeatable strategy for Tatsumi: Empathic Dash: -0.90
+
 
 Cesar:
-71% Fueled Suppression
-28% Fueled Shot
-1% Fueled Grasp
+10% Phalanx Drive
+42% Fueled Shot
+48% Fueled Drive
 
 Tatsumi:
-25% Siren Strike
-9% Siren Burst
-65% Wave Burst
+1% Riptide Dash
+23% Empathic Burst
+76% Empathic Dash
 
 
-Cesar: Fueled Suppression
-Tatsumi: Siren Burst
+Cesar: Fueled Shot
+Tatsumi: Empathic Dash
 
-Cesar gains a Threat Level (current level: 3)
-Priorities:  1 | 2
+Cesar gains a Threat Level (current level: 2)
+Priorities:  1 | 8
 Tatsumi is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Tatsumi misses
+Tatsumi moves:
+
+.....TC
+.....j.
+
 Juto moves
 
-T.....C
-.j.....
+.....TC
+....j..
+
+Cesar gains a Threat Level (current level: 3)
+Tatsumi moves:
+
+....T.C
+....j..
 
 Cesar moves:
 
-T..C...
-.j.....
+...CT..
+....j..
 
+Cesar hits
+Tatsumi has 3 soak
+Tatsumi takes 3 damage (now at 17 life)
+Tatsumi is stunned
+Cesar loses 3 life (now at 11)
 
 Beat 7
 -------
 
 Cesar
 -----
-life: 17
-discard 1: Fueled Suppression
-discard 2: Inevitable Strike
-special action
-Threat level: 4
+Life: 11
+Discard 1: Fueled Shot
+Discard 2: Unstoppable Dash
+Special action available
+Threat level: 3
 
 Tatsumi
 -------
-life: 15
-discard 1: Siren Burst
-discard 2: Empathic Grasp
-Juto's life: 4
+Life: 17
+Discard 1: Empathic Dash
+Discard 2: Fearless Strike
+Special action available
+Juto's life: 1
 
 
-T..C...
-.j.....
+...CT..
+....j..
 
-Unbeatable strategy for Tatsumi: Riptide Drive: -0.24
 
 Cesar:
-12% Unstoppable Drive
-21% Bulwark Shot
-16% Bulwark Burst
-51% Bulwark Grasp
+91% Phalanx Suppression
+9% Phalanx Drive
 
 Tatsumi:
-10% Fearless Drive
-45% Riptide Whirlpool
-13% Riptide Shot
-32% Riptide Drive
+91% Riptide Whirlpool
+9% Riptide Burst
 
 
-Cesar: Bulwark Grasp
+Cesar: Phalanx Suppression
 Tatsumi: Riptide Whirlpool
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  3 | 2
-Cesar is active
-Cesar misses
-Cesar moves:
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  0 | 2
+Tatsumi is active
+Tatsumi moves Cesar:
 
-T....C.
-.j.....
+....TC.
+....j..
 
-Tatsumi misses
+Tatsumi hits
+Cesar has 2 soak
+Cesar takes 1 damage (now at 10 life)
 Juto moves
 
-T....C.
-...j...
+....TC.
+......j
 
 Juto moves
 
-T....C.
-...j...
+....TC.
+......j
 
 
 Beat 8
@@ -451,47 +435,58 @@ Beat 8
 
 Cesar
 -----
-life: 17
-discard 1: Bulwark Grasp
-discard 2: Fueled Suppression
-special action
-Threat level: 0
+Life: 10
+Discard 1: Phalanx Suppression
+Discard 2: Fueled Shot
+Special action available
+Threat level: 4
 
 Tatsumi
 -------
-life: 15
-discard 1: Riptide Whirlpool
-discard 2: Siren Burst
-Juto's life: 4
+Life: 17
+Discard 1: Riptide Whirlpool
+Discard 2: Empathic Dash
+Special action available
+Juto's life: 1
 
 
-T....C.
-...j...
+....TC.
+......j
+
 
 Cesar:
-20% Phalanx Strike
-14% Phalanx Shot
-17% Unstoppable Strike
-27% Unstoppable Dash
-23% Inevitable Dash
+35% Unstoppable Strike
+12% Unstoppable Dash
+29% Bulwark Dash
+24% Inevitable Grasp
 
 Tatsumi:
-7% Fearless Shot
-19% Empathic Strike
-67% Empathic Shot
-7% Wave Strike
+2% Siren Drive
+17% Siren Grasp
+71% Fearless Drive
+10% Fearless Grasp
 
 
-Cesar: Inevitable Dash
-Tatsumi: Empathic Shot
+Cesar: Bulwark Dash
+Tatsumi: Fearless Drive
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  9 | 1
+Cesar gains a Threat Level (current level: 0)
+Priorities:  7 | 6
 Cesar is active
 Cesar moves:
 
-T.....C
-...j...
+.C..T..
+......j
+
+Cesar moves:
+
+....TC.
+......j
+
+Tatsumi moves:
+
+.....CT
+......j
 
 Tatsumi misses
 
@@ -500,105 +495,133 @@ Beat 9
 
 Cesar
 -----
-life: 17
-discard 1: Inevitable Dash
-discard 2: Bulwark Grasp
-special action
-Threat level: 1
+Life: 10
+Discard 1: Bulwark Dash
+Discard 2: Phalanx Suppression
+Special action available
+Threat level: 0
 
 Tatsumi
 -------
-life: 15
-discard 1: Empathic Shot
-discard 2: Riptide Whirlpool
-Juto's life: 4
+Life: 17
+Discard 1: Fearless Drive
+Discard 2: Riptide Whirlpool
+Special action available
+Juto's life: 1
 
 
-T.....C
-...j...
+.....CT
+......j
+
+Unbeatable strategy for Tatsumi: Wave Dash: -0.30
+
 
 Cesar:
-61% Unstoppable Suppression
-1% Fueled Strike
-39% Fueled Shot
+40% Unstoppable Drive
+12% Unstoppable Burst
+42% Inevitable Drive
+6% Inevitable Grasp
 
 Tatsumi:
-10% Siren Strike
-40% Siren Burst
-10% Siren Grasp
-41% Fearless Burst
+2% Siren Strike
+6% Empathic Shot
+21% Empathic Grasp
+71% Wave Dash
 
 
-Cesar: Unstoppable Suppression
-Tatsumi: Siren Burst
+Cesar: Unstoppable Drive
+Tatsumi: Wave Dash
 
-Cesar gains a Threat Level (current level: 2)
-Priorities:  0 | 2
+Cesar gains a Threat Level (current level: 1)
+Priorities:  2 | 9
 Tatsumi is active
-Tatsumi misses
-Cesar misses
 Juto moves
 
-T.....C
-..j....
+.....CT
+....j..
+
+Tatsumi moves:
+
+..T..C.
+....j..
 
 Cesar moves:
 
-T..C...
-..j....
+..T.C..
+....j..
 
+Cesar moves:
+
+..TC...
+....j..
+
+Cesar misses
 
 Beat 10
 -------
 
 Cesar
 -----
-life: 17
-discard 1: Unstoppable Suppression
-discard 2: Inevitable Dash
-special action
-Threat level: 2
+Life: 10
+Discard 1: Unstoppable Drive
+Discard 2: Bulwark Dash
+Special action available
+Threat level: 1
 
 Tatsumi
 -------
-life: 15
-discard 1: Siren Burst
-discard 2: Empathic Shot
-Juto's life: 4
+Life: 17
+Discard 1: Wave Dash
+Discard 2: Fearless Drive
+Special action available
+Juto's life: 1
 
 
-T..C...
-..j....
+..TC...
+....j..
+
+Unbeatable strategy for Tatsumi: Siren Whirlpool: -3.22
+
 
 Cesar:
-32% Phalanx Shot
-35% Fueled Strike
-27% Fueled Grasp
-6% Bulwark Drive
+44% Phalanx Suppression
+5% Inevitable Strike
+51% Inevitable Burst
 
 Tatsumi:
-9% Fearless Strike
-42% Riptide Whirlpool
-25% Wave Strike
-24% Wave Grasp
+78% Siren Whirlpool
+4% Riptide Whirlpool
+18% Empathic Whirlpool
 
 
-Cesar: Fueled Strike
-Tatsumi: Wave Strike
+Cesar: Inevitable Burst
+Tatsumi: Siren Whirlpool
 
-Cesar gains a Threat Level (current level: 3)
-Priorities:  2 | 3
+Cesar gains a Threat Level (current level: 2)
+Priorities:  1 | 5
 Tatsumi is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Tatsumi hits
 Tatsumi moves Cesar:
+
+..T.C..
+....j..
+
+Cesar moves:
+
+..T..C.
+....j..
+
+Tatsumi misses
+Tatsumi moves:
+
+T....C.
+....j..
+
+Juto moves
 
 T....C.
 ..j....
 
-Cesar has 2 soak
-Cesar takes 1 damage (now at 16 life)
+Cesar misses
 Juto moves
 
 T....C.
@@ -610,56 +633,50 @@ Beat 11
 
 Cesar
 -----
-life: 16
-discard 1: Fueled Strike
-discard 2: Unstoppable Suppression
-special action
-Threat level: 4
+Life: 10
+Discard 1: Inevitable Burst
+Discard 2: Unstoppable Drive
+Special action available
+Threat level: 2
 
 Tatsumi
 -------
-life: 15
-discard 1: Wave Strike
-discard 2: Siren Burst
-Juto's life: 4
+Life: 17
+Discard 1: Siren Whirlpool
+Discard 2: Wave Dash
+Special action available
+Juto's life: 1
 
 
 T....C.
 ...j...
 
+
 Cesar:
-12% Phalanx Shot
-24% Bulwark Shot
-64% Bulwark Drive
+16% Phalanx Shot
+46% Fueled Suppression
+39% Fueled Shot
 
 Tatsumi:
-45% Riptide Shot
-24% Empathic Whirlpool
-31% Empathic Drive
+29% Riptide Burst
+21% Empathic Strike
+50% Empathic Shot
 
 
-Cesar: Bulwark Drive
-Tatsumi: Riptide Shot
+Cesar: Fueled Shot
+Tatsumi: Riptide Burst
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  2 | 1
+Cesar gains a Threat Level (current level: 3)
+Priorities:  1 | 0
 Cesar is active
-Cesar moves:
-
-T..C...
-...j...
-
-Cesar misses
-Cesar moves:
-
-TC.....
-...j...
-
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
 Tatsumi hits
-Cesar takes 3 damage (now at 13 life)
+Cesar has 2 soak
+Cesar takes 1 damage (now at 9 life)
 Juto moves
 
-TC.....
+T....C.
 ...j...
 
 
@@ -668,126 +685,113 @@ Beat 12
 
 Cesar
 -----
-life: 13
-discard 1: Bulwark Drive
-discard 2: Fueled Strike
-special action
-Threat level: 0
+Life: 9
+Discard 1: Fueled Shot
+Discard 2: Inevitable Burst
+Special action available
+Threat level: 4
 
 Tatsumi
 -------
-life: 15
-discard 1: Riptide Shot
-discard 2: Wave Strike
-Juto's life: 4
+Life: 17
+Discard 1: Riptide Burst
+Discard 2: Siren Whirlpool
+Special action available
+Juto's life: 1
 
 
-TC.....
+T....C.
 ...j...
 
-Unbeatable strategy for Tatsumi: Siren Whirlpool: -0.76
-Unbeatable strategy for Tatsumi: Siren Drive: -1.86
-Unbeatable strategy for Tatsumi: Fearless Whirlpool: -0.09
-Unbeatable strategy for Tatsumi: Empathic Whirlpool: -1.71
+Unbeatable strategy for Cesar: Bulwark Dash: 0.82
+
 
 Cesar:
-24% Unstoppable Shot
-30% Inevitable Shot
-46% Inevitable Dash
+2% Unstoppable Suppression
+48% Bulwark Strike
+40% Bulwark Grasp
+10% Bulwark Dash
 
 Tatsumi:
-38% Siren Drive
-19% Fearless Whirlpool
-44% Empathic Whirlpool
+1% Fearless Shot
+9% Empathic Strike
+64% Empathic Shot
+26% Wave Strike
 
 
-Cesar: Unstoppable Shot
-Tatsumi: Siren Drive
+Cesar: Bulwark Grasp
+Tatsumi: Empathic Shot
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 6
-Tatsumi is active
-Tatsumi moves:
-
-.C.T...
-...j...
-
+Cesar gains a Threat Level (current level: 0)
+Priorities:  3 | 1
+Cesar is active
+Cesar misses
 Cesar moves:
 
-..CT...
+T.....C
 ...j...
 
-Tatsumi hits
-Cesar takes 2 damage (now at 11 life)
-Cesar hits
-Tatsumi has 3 soak
-Tatsumi takes 1 damage (now at 14 life)
-Tatsumi is stunned
-Juto moves
-
-..CT...
-....j..
-
+Tatsumi misses
 
 Beat 13
 -------
 
 Cesar
 -----
-life: 11
-discard 1: Unstoppable Shot
-discard 2: Bulwark Drive
-special action
-Threat level: 1
+Life: 9
+Discard 1: Bulwark Grasp
+Discard 2: Fueled Shot
+Special action available
+Threat level: 0
 
 Tatsumi
 -------
-life: 14
-discard 1: Siren Drive
-discard 2: Riptide Shot
+Life: 17
+Discard 1: Empathic Shot
+Discard 2: Riptide Burst
+Special action available
 Juto's life: 1
 
 
-..CT...
-....j..
+T.....C
+...j...
+
 
 Cesar:
-69% Phalanx Dash
-4% Fueled Grasp
-27% Inevitable Grasp
+2% Phalanx Strike
+40% Unstoppable Suppression
+18% Inevitable Suppression
+40% Inevitable Drive
 
 Tatsumi:
-39% Fearless Whirlpool
-21% Fearless Burst
-40% Empathic Burst
+21% Siren Grasp
+56% Fearless Whirlpool
+22% Wave Strike
 
 
-Cesar: Phalanx Dash
+Cesar: Inevitable Suppression
 Tatsumi: Fearless Whirlpool
 
-Cesar gains a Threat Level (current level: 2)
-Priorities:  7 | 4
-Cesar is active
+Cesar gains a Threat Level (current level: 1)
+Priorities:  2 | 4
+Tatsumi is active
 Tatsumi moves Cesar:
 
-...TC..
-....j..
+T....C.
+...j...
 
-Cesar moves:
-
-..CT...
-....j..
-
-Tatsumi misses
-Tatsumi moves:
-
-..C..T.
-....j..
-
+Tatsumi hits
+Cesar takes 3 damage (now at 6 life)
 Juto moves
 
-..C..T.
-...j...
+T....C.
+.j.....
+
+Cesar misses
+Cesar moves:
+
+T.C....
+.j.....
 
 
 Beat 14
@@ -795,78 +799,54 @@ Beat 14
 
 Cesar
 -----
-life: 11
-discard 1: Phalanx Dash
-discard 2: Unstoppable Shot
-special action
-Threat level: 2
+Life: 6
+Discard 1: Inevitable Suppression
+Discard 2: Bulwark Grasp
+Special action available
+Threat level: 1
 
 Tatsumi
 -------
-life: 14
-discard 1: Fearless Whirlpool
-discard 2: Siren Drive
+Life: 17
+Discard 1: Fearless Whirlpool
+Discard 2: Empathic Shot
+Special action available
 Juto's life: 1
 
 
-..C..T.
-...j...
+T.C....
+.j.....
+
 
 Cesar:
-35% Fueled Suppression
-52% Fueled Grasp
-13% Bulwark Drive
-0% Inevitable Drive
+6% Phalanx Strike
+30% Phalanx Drive
+64% Unstoppable Shot
 
 Tatsumi:
-2% Empathic Strike
-17% Empathic Shot
-7% Empathic Burst
-74% Wave Burst
+66% Siren Drive
+5% Riptide Strike
+29% Riptide Burst
 
 
-Cesar: Fueled Suppression
-Tatsumi: Wave Burst
+Cesar: Phalanx Drive
+Tatsumi: Siren Drive
 
-Cesar gains a Threat Level (current level: 3)
-Priorities:  1 | 1
-Clash!
-
-Cesar:
-10% Fueled Strike
-77% Fueled Drive
-13% Fueled Grasp
-
-Tatsumi:
-23% Wave Strike
-77% Wave Grasp
-
-
-Cesar: Fueled Drive
-Tatsumi: Wave Grasp
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  3 | 5
+Cesar gains a Threat Level (current level: 2)
+Priorities:  2 | 5
 Tatsumi is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
+Tatsumi moves:
+
+.TC....
+.j.....
+
 Tatsumi hits
-Tatsumi moves Cesar:
-
-C....T.
-...j...
-
-Tatsumi moves Cesar:
-
-.C...T.
-...j...
-
-Cesar has 2 soak
-Cesar takes 0 damage (now at 11 life)
+Cesar is stunned
+Cesar takes 2 damage (now at 4 life)
 Juto moves
 
-.C...T.
-..j....
+.TC....
+j......
 
 
 Beat 15
@@ -874,53 +854,56 @@ Beat 15
 
 Cesar
 -----
-life: 11
-discard 1: Fueled Drive
-discard 2: Phalanx Dash
-special action
-Threat level: 4
+Life: 4
+Discard 1: Phalanx Drive
+Discard 2: Inevitable Suppression
+Special action available
+Threat level: 2
 
 Tatsumi
 -------
-life: 14
-discard 1: Wave Grasp
-discard 2: Fearless Whirlpool
+Life: 17
+Discard 1: Siren Drive
+Discard 2: Fearless Whirlpool
+Special action available
 Juto's life: 1
 
 
-.C...T.
-..j....
+.TC....
+j......
 
-Unbeatable strategy for Tatsumi: Siren Strike: -16.00
-Unbeatable strategy for Tatsumi: Siren Shot: -16.00
-Unbeatable strategy for Tatsumi: Siren Drive: -16.00
-Unbeatable strategy for Tatsumi: Siren Dash: -16.00
-Unbeatable strategy for Tatsumi: Riptide Strike: -16.00
-Unbeatable strategy for Tatsumi: Riptide Shot: -16.00
-Unbeatable strategy for Tatsumi: Riptide Drive: -16.00
-Unbeatable strategy for Tatsumi: Riptide Burst: -16.00
-Unbeatable strategy for Tatsumi: Riptide Dash: -16.00
-Unbeatable strategy for Tatsumi: Empathic Strike: -16.00
-Unbeatable strategy for Tatsumi: Empathic Shot: -16.00
-Unbeatable strategy for Tatsumi: Empathic Drive: -16.00
-Unbeatable strategy for Tatsumi: Empathic Burst: -16.00
-Unbeatable strategy for Tatsumi: Empathic Dash: -16.00
+Unbeatable strategy for Tatsumi: Riptide Strike: -9.00
+Unbeatable strategy for Tatsumi: Riptide Shot: -9.00
+Unbeatable strategy for Tatsumi: Riptide Burst: -9.00
+Unbeatable strategy for Tatsumi: Riptide Grasp: -9.00
+Unbeatable strategy for Tatsumi: Riptide Dash: -9.00
+Unbeatable strategy for Tatsumi: Empathic Strike: -9.00
+Unbeatable strategy for Tatsumi: Empathic Shot: -9.00
+Unbeatable strategy for Tatsumi: Empathic Burst: -9.00
+Unbeatable strategy for Tatsumi: Empathic Grasp: -9.00
+Unbeatable strategy for Tatsumi: Empathic Dash: -9.00
+Unbeatable strategy for Tatsumi: Wave Strike: -9.00
+Unbeatable strategy for Tatsumi: Wave Shot: -9.00
+Unbeatable strategy for Tatsumi: Wave Burst: -9.00
+Unbeatable strategy for Tatsumi: Wave Grasp: -9.00
+Unbeatable strategy for Tatsumi: Wave Dash: -9.00
+
 
 Cesar:
 100% Special Pulse
 
 Tatsumi:
-100% Riptide Shot
+100% Wave Strike
 
 
 Cesar: Special Pulse
-Tatsumi: Riptide Shot
+Tatsumi: Wave Strike
 
-Cesar gains a Threat Level (current level: 0)
-Pulse:
+Cesar gains a Threat Level (current level: 3)
+Cesar Pulses:
 
-.TC....
-..j....
+.....CT
+j......
 
 
 Beat 15
@@ -928,70 +911,83 @@ Beat 15
 
 Cesar
 -----
-life: 11
-discard 1: Fueled Drive
-discard 2: Phalanx Dash
-Threat level: 0
+Life: 4
+Discard 1: Phalanx Drive
+Discard 2: Inevitable Suppression
+Threat level: 3
 
 Tatsumi
 -------
-life: 14
-discard 1: Riptide Shot
-discard 2: Wave Grasp
+Life: 17
+Discard 1: Wave Strike
+Discard 2: Siren Drive
+Special action available
 Juto's life: 1
 
 
-.TC....
-..j....
+.....CT
+j......
 
-Unbeatable strategy for Tatsumi: Siren Whirlpool: -16.00
-Unbeatable strategy for Tatsumi: Siren Drive: -16.00
-Unbeatable strategy for Tatsumi: Fearless Whirlpool: -16.00
-Unbeatable strategy for Tatsumi: Fearless Drive: -16.00
+Unbeatable strategy for Tatsumi: Fearless Whirlpool: -9.00
+Unbeatable strategy for Tatsumi: Fearless Shot: -9.00
+Unbeatable strategy for Tatsumi: Fearless Burst: -9.00
+Unbeatable strategy for Tatsumi: Fearless Grasp: -9.00
+Unbeatable strategy for Tatsumi: Fearless Dash: -9.00
+Unbeatable strategy for Tatsumi: Riptide Whirlpool: -9.00
+Unbeatable strategy for Tatsumi: Riptide Shot: -9.00
+Unbeatable strategy for Tatsumi: Riptide Burst: -9.00
+Unbeatable strategy for Tatsumi: Riptide Grasp: -9.00
+Unbeatable strategy for Tatsumi: Riptide Dash: -9.00
+Unbeatable strategy for Tatsumi: Empathic Whirlpool: -9.00
+Unbeatable strategy for Tatsumi: Empathic Shot: -9.00
+Unbeatable strategy for Tatsumi: Empathic Burst: -9.00
+Unbeatable strategy for Tatsumi: Empathic Grasp: -9.00
+Unbeatable strategy for Tatsumi: Empathic Dash: -9.00
+
 
 Cesar:
-2% Unstoppable Suppression
-1% Unstoppable Strike
-0% Unstoppable Shot
-0% Unstoppable Burst
-15% Unstoppable Grasp
-15% Bulwark Suppression
-15% Bulwark Strike
-1% Bulwark Shot
-1% Bulwark Burst
-15% Bulwark Grasp
-15% Inevitable Suppression
-15% Inevitable Strike
-1% Inevitable Shot
-1% Inevitable Burst
-2% Inevitable Grasp
+6% Unstoppable Strike
+6% Unstoppable Shot
+6% Unstoppable Burst
+7% Unstoppable Grasp
+7% Unstoppable Dash
+7% Fueled Strike
+8% Fueled Shot
+7% Fueled Burst
+7% Fueled Grasp
+7% Fueled Dash
+6% Bulwark Strike
+6% Bulwark Shot
+6% Bulwark Burst
+7% Bulwark Grasp
+7% Bulwark Dash
 
 Tatsumi:
-25% Siren Whirlpool
-25% Siren Drive
-25% Fearless Whirlpool
-25% Fearless Drive
+7% Fearless Whirlpool
+7% Fearless Shot
+7% Fearless Burst
+7% Fearless Grasp
+7% Fearless Dash
+7% Riptide Whirlpool
+7% Riptide Shot
+7% Riptide Burst
+7% Riptide Grasp
+7% Riptide Dash
+7% Empathic Whirlpool
+7% Empathic Shot
+7% Empathic Burst
+7% Empathic Grasp
+7% Empathic Dash
 
 
-Cesar: Bulwark Suppression
-Tatsumi: Siren Drive
+Cesar: Bulwark Grasp
+Tatsumi: Empathic Burst
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 6
-Tatsumi is active
-Tatsumi hits
+Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Cesar takes 2 damage (now at 9 life)
-Juto moves
-
-.TC....
-j......
-
-Cesar moves:
-
-CT.....
-j......
-
+Priorities:  3 | 1
+Cesar is active
+Tatsumi misses
 Game goes to time
 TATSUMI WINS!
-total_time: 32
+total_time: 46

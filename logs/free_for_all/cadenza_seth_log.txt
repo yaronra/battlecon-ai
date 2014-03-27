@@ -11,106 +11,107 @@ Beat 1
 
 Cadenza
 -------
-life: 20
-discard 1: Hydraulic Burst
-discard 2: Mechanical Press
-special action
-3 Iron Body tokens
+Life: 20
+Discard 1: Hydraulic Burst
+Discard 2: Mechanical Press
+Special action available
+3 Iron Body token
 
 Seth
 ----
-life: 20
-discard 1: Fool's Grasp
-discard 2: Wyrding Strike
-special action
+Life: 20
+Discard 1: Fool's Grasp
+Discard 2: Wyrding Strike
+Special action available
 
 
 .C...S.
 
+
 Cadenza:
-16% Battery Strike
-6% Battery Grasp
+11% Battery Strike
+8% Battery Grasp
 28% Battery Dash
-42% Clockwork Shot
-8% Grapnel Drive
+41% Clockwork Shot
+11% Grapnel Drive
 
 Seth:
-32% Mimic's Shot (Shot)
-21% Vanishing Shot (Shot)
-11% Vanishing Drive (Strike)
-31% Vanishing Drive (Drive)
-5% Vanishing Drive (Grasp)
+27% Mimic's Shot (Shot)
+27% Vanishing Shot (Shot)
+1% Vanishing Shot (Drive)
+43% Vanishing Drive (Drive)
+1% Vanishing Drive (Grasp)
 
 
-Cadenza: Battery Dash
+Cadenza: Battery Grasp
 Seth: Vanishing Shot (Shot)
 
-Priorities:  8 | 2
+Priorities:  4 | 2
 Cadenza is active
-Cadenza moves:
-
-....CS.
-
-Seth misses
+Cadenza misses
+Seth hits
+Cadenza takes 3 damage (now at 17 life)
+Cadenza is stunned
+Cadenza will have 4 priority next beat
 
 Beat 2
 -------
 
 Cadenza
 -------
-life: 20
-discard 1: Battery Dash
-discard 2: Hydraulic Burst
-special action
-3 Iron Body tokens
-+4 priority from last beat
+Life: 17
+Discard 1: Battery Grasp
+Discard 2: Hydraulic Burst
+Special action available
+Priority bonus: 4
+3 Iron Body token
 
 Seth
 ----
-life: 20
-discard 1: Vanishing Shot
-discard 2: Fool's Grasp
-special action
+Life: 20
+Discard 1: Vanishing Shot
+Discard 2: Fool's Grasp
+Special action available
 
 
-....CS.
+.C...S.
+
 
 Cadenza:
-3% Clockwork Press
-5% Clockwork Shot
-8% Clockwork Drive
-10% Grapnel Strike
-4% Grapnel Grasp
-17% Mechanical Press
-6% Mechanical Strike
-18% Mechanical Shot
-17% Mechanical Drive
-12% Mechanical Grasp
+56% Grapnel Drive
+13% Mechanical Shot
+31% Mechanical Drive
 
 Seth:
-0% Mimic's Dash (Press)
-0% Mimic's Dash (Strike)
-0% Mimic's Dash (Shot)
-0% Mimic's Dash (Drive)
-5% Wyrding Burst (Shot)
-4% Wyrding Burst (Drive)
-21% Wyrding Dash (Press)
-12% Wyrding Dash (Strike)
-22% Wyrding Dash (Shot)
-24% Wyrding Dash (Drive)
-10% Wyrding Dash (Grasp)
-1% Compelling Strike (Shot)
-0% Compelling Strike (Drive)
+3% Wyrding Omen (Drive)
+7% Compelling Burst (Drive)
+19% Compelling Dash (Press)
+19% Compelling Dash (Strike)
+19% Compelling Dash (Shot)
+19% Compelling Dash (Drive)
+14% Compelling Dash (Dash)
 
 
-Cadenza: Mechanical Press
-Seth: Wyrding Dash (Grasp)
+Cadenza: Mechanical Drive
+Seth: Compelling Dash (Press)
 
-Priorities:  2 | 10
+Priorities:  6 | 9
 Seth is active
+Seth moves Cadenza:
+
+..C..S.
+
 Seth moves:
 
-..S.C..
+.SC....
+
+Seth moves Cadenza:
+
+CS.....
+
+Cadenza moves:
+
+.S.C...
 
 Cadenza misses
 
@@ -119,238 +120,232 @@ Beat 3
 
 Cadenza
 -------
-life: 20
-discard 1: Mechanical Press
-discard 2: Battery Dash
-special action
-3 Iron Body tokens
+Life: 17
+Discard 1: Mechanical Drive
+Discard 2: Battery Grasp
+Special action available
+3 Iron Body token
 
 Seth
 ----
-life: 20
-discard 1: Wyrding Dash
-discard 2: Vanishing Shot
-special action
+Life: 20
+Discard 1: Compelling Dash
+Discard 2: Vanishing Shot
+Special action available
 
 
-..S.C..
+.S.C...
+
 
 Cadenza:
-9% Clockwork Strike
-21% Clockwork Shot
-18% Clockwork Drive
-45% Clockwork Burst
-3% Hydraulic Strike
-1% Hydraulic Burst
-3% Hydraulic Grasp
-2% Grapnel Burst
+10% Clockwork Press
+16% Clockwork Strike
+31% Clockwork Shot
+33% Hydraulic Press
+3% Hydraulic Burst
+7% Grapnel Strike
 
 Seth:
-1% Fool's Omen (Shot)
-1% Fool's Strike (Strike)
-18% Fool's Strike (Grasp)
-11% Mimic's Drive (Shot)
-4% Mimic's Drive (Burst)
-9% Compelling Omen (Shot)
-50% Compelling Strike (Shot)
-6% Compelling Burst (Drive)
+26% Fool's Strike (Dash)
+21% Fool's Burst (Press)
+30% Mimic's Drive (Shot)
+0% Mimic's Burst (Shot)
+4% Wyrding Omen (Press)
+19% Wyrding Omen (Shot)
 
 
-Cadenza: Clockwork Strike
-Seth: Compelling Strike (Shot)
+Cadenza: Clockwork Shot
+Seth: Fool's Burst (Press)
 
-Priorities:  0 | 3
-Seth is active
-Seth moves Cadenza:
+Priorities:  -1 | -3
+Cadenza is active
+Seth moves:
 
-..SC...
+S..C...
 
-Seth hits
-Cadenza has 3 soak
-Cadenza takes 1 damage (now at 19 life)
-Seth moves Cadenza:
-
-..S.C..
-
-Cadenza misses
+Cadenza hits
+Seth takes 6 damage (now at 14 life)
+Seth is stunned
 
 Beat 4
 -------
 
 Cadenza
 -------
-life: 19
-discard 1: Clockwork Strike
-discard 2: Mechanical Press
-special action
-3 Iron Body tokens
+Life: 17
+Discard 1: Clockwork Shot
+Discard 2: Mechanical Drive
+Special action available
+3 Iron Body token
 
 Seth
 ----
-life: 20
-discard 1: Compelling Strike
-discard 2: Wyrding Dash
-special action
+Life: 14
+Discard 1: Fool's Burst
+Discard 2: Compelling Dash
+Special action available
 
 
-..S.C..
+S..C...
 
-Unbeatable strategy for Seth: Mimic's Shot (Drive): -0.82
-Unbeatable strategy for Seth: Mimic's Drive (Shot): -1.08
-Unbeatable strategy for Seth: Mimic's Drive (Drive): -1.23
-Unbeatable strategy for Seth: Mimic's Drive (Burst): -1.08
-Unbeatable strategy for Seth: Mimic's Drive (Grasp): -1.08
-Unbeatable strategy for Seth: Mimic's Drive (Dash): -1.08
 
 Cadenza:
-27% Hydraulic Shot
-21% Hydraulic Drive
-6% Hydraulic Grasp
-45% Hydraulic Dash
+62% Hydraulic Press
+11% Hydraulic Strike
+12% Hydraulic Burst
+12% Grapnel Strike
+3% Grapnel Grasp
 
 Seth:
-37% Mimic's Shot (Drive)
-28% Mimic's Drive (Shot)
-29% Mimic's Drive (Grasp)
-6% Vanishing Omen (Dash)
+12% Mimic's Shot (Strike)
+2% Mimic's Drive (Strike)
+17% Mimic's Drive (Burst)
+19% Mimic's Drive (Grasp)
+50% Wyrding Omen (Press)
 
 
-Cadenza: Hydraulic Drive
-Seth: Mimic's Drive (Shot)
+Cadenza: Hydraulic Press
+Seth: Wyrding Omen (Press)
 
-Priorities:  3 | 4
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  -1 | 4
 Seth is active
+Seth selects Drive as his new base
+Cadenza is stunned
 Seth moves:
 
-...SC..
+..SC...
 
 Seth hits
 Cadenza has 1 soak
-Cadenza takes 3 damage (now at 16 life)
-Cadenza spends an Iron Body token
-Cadenza gains infinite stunguard
-Cadenza moves:
-
-...S...
-
-Cadenza moves:
-
-.CS....
-
-Cadenza hits
-Seth takes 5 damage (now at 15 life)
-Seth is stunned
+Cadenza takes 4 damage (now at 13 life)
 
 Beat 5
 -------
 
 Cadenza
 -------
-life: 16
-discard 1: Hydraulic Drive
-discard 2: Clockwork Strike
-special action
-2 Iron Body tokens
+Life: 13
+Discard 1: Hydraulic Press
+Discard 2: Clockwork Shot
+Special action available
+3 Iron Body token
 
 Seth
 ----
-life: 15
-discard 1: Mimic's Drive
-discard 2: Compelling Strike
-special action
+Life: 14
+Discard 1: Wyrding Omen Drive
+Discard 2: Fool's Burst
+Special action available
 
 
-SC.....
+..SC...
+
+Unbeatable strategy for Seth: Mimic's Grasp (Strike): -0.29
+Unbeatable strategy for Seth: Mimic's Grasp (Drive): -0.29
+Unbeatable strategy for Seth: Mimic's Grasp (Burst): -0.29
+Unbeatable strategy for Seth: Mimic's Grasp (Grasp): -0.29
+Unbeatable strategy for Seth: Mimic's Grasp (Dash): -0.29
+
 
 Cadenza:
-40% Battery Press
-5% Battery Press (Iron Body)
-9% Battery Shot
-20% Battery Burst
-26% Battery Grasp
+1% Battery Drive
+98% Battery Dash
+1% Mechanical Strike
+1% Mechanical Grasp
 
 Seth:
-1% Fool's Omen (Press)
-0% Fool's Shot (Burst)
-38% Wyrding Shot (Press)
-39% Wyrding Shot (Grasp)
-21% Wyrding Dash (Press)
+29% Mimic's Shot (Drive)
+24% Mimic's Shot (Grasp)
+23% Mimic's Grasp (Strike)
+8% Mimic's Grasp (Drive)
+16% Mimic's Grasp (Grasp)
 
 
-Cadenza: Battery Grasp
-Seth: Wyrding Shot (Grasp)
+Cadenza: Battery Dash
+Seth: Mimic's Shot (Grasp)
 
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  4 | 5
-Seth is active
-Seth hits
-Cadenza takes 5 damage (now at 11 life)
-Cadenza spends an Iron Body token
-Cadenza gains infinite stunguard
-Cadenza hits
-Cadenza moves Seth:
+Priorities:  8 | 2
+Cadenza is active
+Cadenza moves:
 
-.CS....
+..S...C
 
-Seth takes 3 damage (now at 12 life)
-Seth is stunned
+Seth misses
+Cadenza will have 4 priority next beat
 
 Beat 6
 -------
 
 Cadenza
 -------
-life: 11
-discard 1: Battery Grasp
-discard 2: Hydraulic Drive
-special action
-1 Iron Body tokens
-+4 priority from last beat
+Life: 13
+Discard 1: Battery Dash
+Discard 2: Hydraulic Press
+Special action available
+Priority bonus: 4
+3 Iron Body token
 
 Seth
 ----
-life: 12
-discard 1: Wyrding Shot
-discard 2: Mimic's Drive
-special action
+Life: 14
+Discard 1: Mimic's Shot
+Discard 2: Wyrding Omen Drive
+Special action available
 
 
-.CS....
+.....SC
+
 
 Cadenza:
-6% Clockwork Press
-4% Clockwork Strike
-9% Clockwork Shot
-4% Clockwork Burst
-13% Mechanical Shot
-11% Mechanical Burst
-52% Mechanical Dash
+13% Clockwork Strike
+13% Clockwork Shot
+7% Clockwork Burst
+9% Clockwork Grasp
+58% Mechanical Drive
 
 Seth:
-4% Vanishing Omen (Dash)
-6% Vanishing Strike (Shot)
-30% Vanishing Burst (Shot)
-11% Vanishing Dash (Press)
-11% Vanishing Dash (Strike)
-11% Vanishing Dash (Shot)
-11% Vanishing Dash (Burst)
-2% Compelling Strike (Shot)
-9% Compelling Strike (Burst)
-6% Compelling Grasp (Shot)
+57% Vanishing Burst (Shot)
+5% Vanishing Grasp (Drive)
+7% Compelling Strike (Drive)
+14% Compelling Grasp (Drive)
+3% Compelling Dash (Strike)
+3% Compelling Dash (Shot)
+3% Compelling Dash (Drive)
+3% Compelling Dash (Burst)
+4% Compelling Dash (Grasp)
 
 
-Cadenza: Mechanical Shot
-Seth: Vanishing Omen (Dash)
+Cadenza: Mechanical Drive
+Seth: Compelling Grasp (Drive)
 
-Priorities:  4 | 1
-Cadenza is active
-Seth moves:
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  6 | 7
+Seth is active
+Seth moves Cadenza:
 
-.C.S...
+....CS.
+
+Seth hits
+Seth moves Cadenza:
+
+...C.S.
+
+Cadenza takes 4 damage (now at 9 life)
+Cadenza spends an Iron Body token
+Cadenza gains infinite stunguard
+Seth moves Cadenza:
+
+..C..S.
+
+Cadenza moves:
+
+....CS.
 
 Cadenza hits
-Seth takes 5 damage (now at 7 life)
+Seth takes 5 damage (now at 9 life)
 Seth is stunned
 
 Beat 7
@@ -358,176 +353,201 @@ Beat 7
 
 Cadenza
 -------
-life: 11
-discard 1: Mechanical Shot
-discard 2: Battery Grasp
-special action
-1 Iron Body tokens
+Life: 9
+Discard 1: Mechanical Drive
+Discard 2: Battery Dash
+Special action available
+2 Iron Body token
 
 Seth
 ----
-life: 7
-discard 1: Vanishing Omen
-discard 2: Wyrding Shot
-special action
+Life: 9
+Discard 1: Compelling Grasp
+Discard 2: Mimic's Shot
+Special action available
 
 
-.C.S...
+....CS.
+
 
 Cadenza:
-29% Clockwork Press
-25% Clockwork Drive
-35% Clockwork Burst
-10% Grapnel Strike
+18% Clockwork Shot
+34% Hydraulic Press
+0% Hydraulic Strike
+10% Hydraulic Shot
+6% Hydraulic Burst
+6% Hydraulic Grasp
+9% Grapnel Strike
+8% Grapnel Burst
+8% Grapnel Grasp
 
 Seth:
-33% Mimic's Burst (Strike)
-17% Mimic's Burst (Drive)
-35% Compelling Drive (Drive)
-15% Compelling Burst (Burst)
+4% Fool's Strike (Shot)
+3% Wyrding Omen (Press)
+1% Wyrding Omen (Shot)
+2% Wyrding Strike (Shot)
+3% Wyrding Drive (Shot)
+17% Wyrding Dash (Press)
+17% Wyrding Dash (Strike)
+33% Wyrding Dash (Burst)
+19% Wyrding Dash (Grasp)
 
 
-Cadenza: Clockwork Drive
-Seth: Mimic's Burst (Strike)
+Cadenza: Grapnel Burst
+Seth: Wyrding Dash (Burst)
 
-Priorities:  1 | 1
-Clash!
-
-Cadenza:
-100% Clockwork Press
-
-Seth:
-100% Mimic's Dash (Incorrect Guess)
-
-
-Cadenza: Clockwork Press
-Seth: Mimic's Dash (Incorrect Guess)
-
-Priorities:  -3 | 9
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  1 | 12
 Seth is active
+Seth selects Drive as his new base
+Cadenza moves:
+
+..C..S.
+
 Seth moves:
 
-SC.....
+..CS...
 
-Cadenza misses
+Seth hits
+Cadenza takes 5 damage (now at 4 life)
+Cadenza is stunned
 
 Beat 8
 -------
 
 Cadenza
 -------
-life: 11
-discard 1: Clockwork Press
-discard 2: Mechanical Shot
-special action
-1 Iron Body tokens
+Life: 4
+Discard 1: Grapnel Burst
+Discard 2: Mechanical Drive
+Special action available
+2 Iron Body token
 
 Seth
 ----
-life: 7
-discard 1: Mimic's Dash
-discard 2: Vanishing Omen
-special action
+Life: 9
+Discard 1: Wyrding Dash Drive
+Discard 2: Compelling Grasp
+Special action available
 
 
-SC.....
+..CS...
+
 
 Cadenza:
-21% Battery Drive
-6% Battery Burst
-13% Battery Grasp
-29% Battery Dash
-26% Hydraulic Strike
-5% Grapnel Burst
+13% Battery Dash
+25% Clockwork Press
+23% Clockwork Strike
+25% Clockwork Shot
+13% Hydraulic Grasp
+0% Special Rocket Press
 
 Seth:
-10% Fool's Shot (Strike)
-23% Fool's Drive (Strike)
-5% Fool's Drive (Drive)
-28% Fool's Drive (Burst)
-10% Compelling Drive (Grasp)
-25% Compelling Drive (Dash)
+12% Fool's Omen (Dash)
+17% Fool's Strike (Grasp)
+19% Mimic's Strike (Press)
+16% Mimic's Strike (Strike)
+20% Mimic's Strike (Shot)
+16% Vanishing Burst (Grasp)
 
 
 Cadenza: Battery Dash
-Seth: Fool's Drive (Strike)
+Seth: Vanishing Burst (Grasp)
 
-Priorities:  8 | 0
+Priorities:  8 | 1
 Cadenza is active
-Cadenza moves:
-
-S...C..
-
 Seth moves:
 
-..S.C..
+..C.S..
+
+Cadenza moves:
+
+....S.C
 
 Seth misses
+Cadenza will have 4 priority next beat
 
 Beat 9
 -------
 
 Cadenza
 -------
-life: 11
-discard 1: Battery Dash
-discard 2: Clockwork Press
-special action
-1 Iron Body tokens
-+4 priority from last beat
+Life: 4
+Discard 1: Battery Dash
+Discard 2: Grapnel Burst
+Special action available
+Priority bonus: 4
+2 Iron Body token
 
 Seth
 ----
-life: 7
-discard 1: Fool's Drive
-discard 2: Mimic's Dash
-special action
+Life: 9
+Discard 1: Vanishing Burst
+Discard 2: Wyrding Drive Dash
+Special action available
 
 
-..S.C..
+....S.C
+
 
 Cadenza:
-1% Hydraulic Strike
-6% Hydraulic Shot
-27% Hydraulic Drive
-6% Hydraulic Burst
-30% Mechanical Shot
-13% Mechanical Drive
-18% Mechanical Burst
+34% Clockwork Press
+1% Clockwork Shot
+37% Clockwork Shot (Iron Body)
+11% Clockwork Drive
+3% Hydraulic Press
+6% Hydraulic Strike
+2% Hydraulic Drive
+6% Hydraulic Grasp
 
 Seth:
-15% Vanishing Omen (Shot)
-11% Vanishing Omen (Drive)
-16% Vanishing Strike (Shot)
-9% Vanishing Burst (Shot)
-4% Wyrding Burst (Shot)
-0% Compelling Strike (Shot)
-46% Compelling Grasp (Drive)
+13% Fool's Strike (Strike)
+21% Fool's Strike (Grasp)
+1% Compelling Omen (Press)
+35% Compelling Omen (Shot)
+2% Compelling Strike (Press)
+11% Compelling Strike (Shot)
+13% Compelling Strike (Drive)
+4% Compelling Grasp (Shot)
 
 
-Cadenza: Hydraulic Drive
-Seth: Vanishing Burst (Shot)
+Cadenza: Clockwork Press
+Seth: Compelling Omen (Shot)
 
-Priorities:  7 | 1
-Cadenza is active
-Seth moves:
+Priorities:  1 | 1
+Clash!
 
-.S..C..
 
-Seth moves:
+Cadenza: Clockwork Drive
+Seth: Compelling Grasp (Shot)
 
-S...C..
+Priorities:  5 | 5
+Clash!
 
-Cadenza moves:
 
-S..C...
+Cadenza: Clockwork Shot
+Seth: Compelling Strike (Shot)
 
-Cadenza moves:
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  3 | 5
+Seth is active
+Seth moves Cadenza:
 
-SC.....
+....SC.
+
+Seth hits
+Cadenza has 3 soak
+Cadenza takes 3 damage (now at 1 life)
+Cadenza spends an Iron Body token
+Cadenza gains infinite stunguard
+Seth moves Cadenza:
+
+...CS..
 
 Cadenza hits
-Seth takes 5 damage (now at 2 life)
+Seth takes 6 damage (now at 3 life)
 Seth is stunned
 
 Beat 10
@@ -535,57 +555,132 @@ Beat 10
 
 Cadenza
 -------
-life: 11
-discard 1: Hydraulic Drive
-discard 2: Battery Dash
-special action
-1 Iron Body tokens
+Life: 1
+Discard 1: Clockwork Shot
+Discard 2: Battery Dash
+Special action available
+1 Iron Body token
 
 Seth
 ----
-life: 2
-discard 1: Vanishing Burst
-discard 2: Fool's Drive
-special action
+Life: 3
+Discard 1: Compelling Strike
+Discard 2: Vanishing Burst
+Special action available
 
 
-SC.....
+...CS..
+
+Unbeatable strategy for Seth: Mimic's Drive (Press): -6.00
+Unbeatable strategy for Seth: Mimic's Drive (Strike): -6.00
+Unbeatable strategy for Seth: Mimic's Drive (Drive): -6.00
+Unbeatable strategy for Seth: Mimic's Drive (Burst): -6.00
+Unbeatable strategy for Seth: Mimic's Drive (Grasp): -6.00
+Unbeatable strategy for Seth: Mimic's Grasp (Press): -6.00
+Unbeatable strategy for Seth: Mimic's Grasp (Strike): -6.00
+Unbeatable strategy for Seth: Mimic's Grasp (Drive): -6.00
+Unbeatable strategy for Seth: Mimic's Grasp (Burst): -6.00
+Unbeatable strategy for Seth: Mimic's Grasp (Grasp): -6.00
+Unbeatable strategy for Seth: Wyrding Shot (Grasp): -6.00
+Unbeatable strategy for Seth: Wyrding Drive (Press): -6.00
+Unbeatable strategy for Seth: Wyrding Drive (Strike): -6.00
+Unbeatable strategy for Seth: Wyrding Drive (Drive): -6.00
+Unbeatable strategy for Seth: Wyrding Drive (Burst): -6.00
+Unbeatable strategy for Seth: Wyrding Drive (Grasp): -6.00
+Unbeatable strategy for Seth: Wyrding Grasp (Burst): -6.00
+
 
 Cadenza:
-1% Clockwork Press
-15% Clockwork Shot
-21% Grapnel Burst
-17% Mechanical Press
-13% Mechanical Strike
-18% Mechanical Shot
-16% Mechanical Grasp
+1% Hydraulic Burst
+1% Hydraulic Burst (Iron Body)
+0% Grapnel Drive
+1% Grapnel Drive (Iron Body)
+1% Mechanical Burst
+1% Mechanical Burst (Iron Body)
+91% Special Pulse
+5% Special Feedback Field
 
 Seth:
-5% Mimic's Omen (Shot)
-5% Mimic's Dash (Press)
-5% Mimic's Dash (Strike)
-5% Mimic's Dash (Shot)
-5% Mimic's Dash (Burst)
-5% Mimic's Dash (Grasp)
-2% Wyrding Grasp (Shot)
-26% Wyrding Dash (Press)
-32% Wyrding Dash (Shot)
+10% Fool's Grasp (Press)
+4% Fool's Grasp (Strike)
+2% Fool's Grasp (Drive)
+5% Fool's Grasp (Burst)
+4% Fool's Grasp (Grasp)
+6% Mimic's Drive (Press)
+6% Mimic's Drive (Strike)
+6% Mimic's Drive (Drive)
+6% Mimic's Drive (Burst)
+6% Mimic's Drive (Grasp)
+1% Mimic's Grasp (Press)
+1% Mimic's Grasp (Strike)
+1% Mimic's Grasp (Drive)
+1% Mimic's Grasp (Burst)
+1% Mimic's Grasp (Grasp)
+10% Wyrding Drive (Press)
+6% Wyrding Drive (Strike)
+10% Wyrding Drive (Drive)
+6% Wyrding Drive (Burst)
+6% Wyrding Drive (Grasp)
+1% Wyrding Grasp (Burst)
+
+
+Cadenza: Special Pulse
+Seth: Fool's Grasp (Burst)
+
+Cadenza Pulses:
+
+C.....S
+
+
+Beat 10
+-------
+
+Cadenza
+-------
+Life: 1
+Discard 1: Clockwork Shot
+Discard 2: Battery Dash
+1 Iron Body token
+
+Seth
+----
+Life: 3
+Discard 1: Fool's Grasp
+Discard 2: Compelling Strike
+Special action available
+
+
+C.....S
+
+Unbeatable strategy for Cadenza: Mechanical Press: 0.22
+Unbeatable strategy for Cadenza: Mechanical Burst: 0.40
+
+
+Cadenza:
+0% Grapnel Strike
+7% Grapnel Drive
+7% Grapnel Burst
+9% Grapnel Grasp
+77% Mechanical Burst
+
+Seth:
+7% Mimic's Omen (Drive)
+4% Mimic's Omen (Burst)
+21% Vanishing Omen (Burst)
+9% Wyrding Omen (Drive)
+5% Wyrding Omen (Burst)
+51% Wyrding Dash (Strike)
 4% Wyrding Dash (Grasp)
-9% Compelling Shot (Grasp)
 
 
-Cadenza: Grapnel Burst
+Cadenza: Mechanical Burst
 Seth: Wyrding Dash (Grasp)
 
-Priorities:  1 | 10
+Priorities:  -1 | 10
 Seth is active
-Cadenza moves:
-
-S.C....
-
 Seth moves:
 
-..C.S..
+C...S..
 
 Cadenza misses
 
@@ -594,50 +689,135 @@ Beat 11
 
 Cadenza
 -------
-life: 11
-discard 1: Grapnel Burst
-discard 2: Hydraulic Drive
-special action
-1 Iron Body tokens
+Life: 1
+Discard 1: Mechanical Burst
+Discard 2: Clockwork Shot
+1 Iron Body token
 
 Seth
 ----
-life: 2
-discard 1: Wyrding Dash
-discard 2: Vanishing Burst
-special action
+Life: 3
+Discard 1: Wyrding Dash
+Discard 2: Fool's Grasp
+Special action available
 
 
-..C.S..
+C...S..
+
+Unbeatable strategy for Seth: Vanishing Shot (Drive): -2.07
+Unbeatable strategy for Seth: Vanishing Drive (Press): -0.96
+Unbeatable strategy for Seth: Vanishing Drive (Strike): -0.96
+Unbeatable strategy for Seth: Vanishing Drive (Drive): -0.96
+Unbeatable strategy for Seth: Vanishing Drive (Grasp): -0.96
+Unbeatable strategy for Seth: Vanishing Drive (Dash): -0.96
+Unbeatable strategy for Seth: Compelling Drive (Grasp): -1.94
+
 
 Cadenza:
-26% Battery Shot
-15% Battery Shot (Iron Body)
-29% Clockwork Shot (Iron Body)
-30% Mechanical Shot (Iron Body)
+4% Battery Strike
+63% Hydraulic Dash
+2% Grapnel Strike
+2% Grapnel Strike (Iron Body)
+6% Grapnel Drive
+24% Grapnel Grasp
 
 Seth:
-7% Fool's Strike (Press)
-7% Fool's Strike (Strike)
-7% Fool's Strike (Grasp)
-7% Fool's Strike (Dash)
-8% Fool's Drive (Press)
-8% Fool's Drive (Strike)
-6% Fool's Drive (Grasp)
-8% Fool's Drive (Dash)
-12% Compelling Omen (Press)
-9% Compelling Omen (Strike)
-8% Compelling Omen (Shot)
-5% Compelling Omen (Grasp)
-7% Compelling Omen (Dash)
+14% Mimic's Shot (Strike)
+20% Mimic's Shot (Drive)
+17% Vanishing Shot (Drive)
+5% Vanishing Drive (Press)
+6% Vanishing Drive (Strike)
+5% Vanishing Drive (Drive)
+7% Vanishing Drive (Grasp)
+5% Vanishing Drive (Dash)
+21% Compelling Drive (Grasp)
 
 
-Cadenza: Battery Shot
-Seth: Fool's Drive (Grasp)
+Cadenza: Hydraulic Dash
+Seth: Vanishing Drive (Drive)
 
-Priorities:  1 | 0
+Priorities:  8 | 4
 Cadenza is active
-Cadenza hits
-Seth takes 4 damage (now at 0 life)
-CADENZA WINS!
-total_time: 34
+Cadenza moves:
+
+.C..S..
+
+Cadenza moves:
+
+....SC.
+
+Seth moves:
+
+.....CS
+
+Seth misses
+
+Beat 12
+-------
+
+Cadenza
+-------
+Life: 1
+Discard 1: Hydraulic Dash
+Discard 2: Mechanical Burst
+1 Iron Body token
+
+Seth
+----
+Life: 3
+Discard 1: Vanishing Drive
+Discard 2: Wyrding Dash
+Special action available
+
+
+.....CS
+
+Unbeatable strategy for Seth: Mimic's Strike (Grasp): -6.00
+
+
+Cadenza:
+2% Battery Press
+2% Battery Press (Iron Body)
+3% Battery Strike
+1% Battery Strike (Iron Body)
+4% Battery Shot
+4% Battery Shot (Iron Body)
+3% Battery Drive
+1% Battery Drive (Iron Body)
+5% Battery Grasp
+10% Battery Grasp (Iron Body)
+6% Clockwork Press
+2% Clockwork Press (Iron Body)
+4% Clockwork Strike
+6% Clockwork Strike (Iron Body)
+4% Clockwork Shot
+4% Clockwork Shot (Iron Body)
+5% Clockwork Drive
+3% Clockwork Drive (Iron Body)
+4% Clockwork Grasp
+5% Clockwork Grasp (Iron Body)
+2% Grapnel Press
+2% Grapnel Press (Iron Body)
+5% Grapnel Strike
+3% Grapnel Strike (Iron Body)
+2% Grapnel Shot
+2% Grapnel Shot (Iron Body)
+2% Grapnel Drive
+2% Grapnel Drive (Iron Body)
+2% Grapnel Grasp
+2% Grapnel Grasp (Iron Body)
+
+Seth:
+100% Mimic's Strike (Grasp)
+
+
+Cadenza: Grapnel Shot (Iron Body)
+Seth: Mimic's Strike (Grasp)
+
+Cadenza antes an Iron Body token
+Priorities:  2 | 3
+Seth is active
+Seth hits
+Cadenza takes 5 damage (now at 0 life)
+SETH WINS!
+total_time: 37

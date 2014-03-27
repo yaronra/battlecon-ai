@@ -11,58 +11,49 @@ Beat 1
 
 Cesar
 -----
-life: 20
-discard 1: Fueled Strike
-discard 2: Unstoppable Grasp
-special action
+Life: 20
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Grasp
+Special action available
 Threat level: 0
 
 Magdelina
 ---------
-life: 20
-discard 1: Spiritual Drive
-discard 2: Sanctimonious Grasp
-special action
+Life: 20
+Discard 1: Spiritual Drive
+Discard 2: Sanctimonious Grasp
+Special action available
 Level: 0
 Trance: 0
 
 
 .C...M.
 
-Unbeatable strategy for Magdelina: Safety Blessing: -0.77
-Unbeatable strategy for Magdelina: Safety Strike: -0.82
-Unbeatable strategy for Magdelina: Safety Burst: -3.08
-Unbeatable strategy for Magdelina: Safety Dash: -1.16
-Unbeatable strategy for Magdelina: Priestess Burst: -3.08
-Unbeatable strategy for Magdelina: Priestess Dash: -1.16
-Unbeatable strategy for Magdelina: Excelsius Blessing: -1.25
-Unbeatable strategy for Magdelina: Excelsius Strike: -1.43
-Unbeatable strategy for Magdelina: Excelsius Burst: -3.27
-Unbeatable strategy for Magdelina: Excelsius Dash: -2.68
+Unbeatable strategy for Magdelina: Safety Blessing: -0.32
+Unbeatable strategy for Magdelina: Safety Strike: -0.37
+Unbeatable strategy for Magdelina: Safety Burst: -3.23
+Unbeatable strategy for Magdelina: Safety Dash: -1.68
+Unbeatable strategy for Magdelina: Priestess Burst: -3.23
+Unbeatable strategy for Magdelina: Priestess Dash: -1.68
+Unbeatable strategy for Magdelina: Excelsius Blessing: -1.87
+Unbeatable strategy for Magdelina: Excelsius Strike: -2.05
+Unbeatable strategy for Magdelina: Excelsius Burst: -2.35
+Unbeatable strategy for Magdelina: Excelsius Dash: -2.90
+
 
 Cesar:
-66% Phalanx Suppression
-30% Phalanx Shot
-4% Phalanx Drive
+30% Phalanx Suppression
+35% Phalanx Shot
+5% Bulwark Shot
+24% Inevitable Suppression
+6% Special Pulse
 
 Magdelina:
-21% Priestess Shot
-18% Excelsius Strike
-62% Excelsius Burst
-
-
-Cesar: Phalanx Suppression
-Magdelina: Excelsius Burst
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 0
-Clash!
-
-Cesar:
-100% Phalanx Shot
-
-Magdelina:
-100% Excelsius Dash
+1% Safety Strike
+28% Safety Burst
+11% Excelsius Strike
+17% Excelsius Burst
+42% Excelsius Dash
 
 
 Cesar: Phalanx Shot
@@ -89,47 +80,59 @@ Beat 2
 
 Cesar
 -----
-life: 20
-discard 1: Phalanx Shot
-discard 2: Fueled Strike
-special action
+Life: 20
+Discard 1: Phalanx Shot
+Discard 2: Fueled Strike
+Special action available
 Threat level: 1
 
 Magdelina
 ---------
-life: 20
-discard 1: Excelsius Dash
-discard 2: Spiritual Drive
-special action
+Life: 20
+Discard 1: Excelsius Dash
+Discard 2: Spiritual Drive
+Special action available
 Level: 1
 Trance: 0
 
 
 MC.....
 
-Unbeatable strategy for Magdelina: Safety Blessing: -0.80
-Unbeatable strategy for Magdelina: Safety Shot: -0.94
+Unbeatable strategy for Magdelina: Safety Blessing: -0.65
+Unbeatable strategy for Magdelina: Safety Strike: -0.30
+Unbeatable strategy for Magdelina: Safety Shot: -1.21
+Unbeatable strategy for Magdelina: Safety Burst: -0.64
+Unbeatable strategy for Magdelina: Safety Grasp: -0.25
+Unbeatable strategy for Magdelina: Sanctimonious Grasp: -0.15
+
 
 Cesar:
-7% Unstoppable Drive
-69% Inevitable Drive
-23% Inevitable Burst
+8% Unstoppable Drive
+3% Bulwark Burst
+35% Inevitable Burst
+53% Inevitable Grasp
 
 Magdelina:
-80% Safety Blessing
-9% Safety Strike
-11% Safety Grasp
+67% Safety Blessing
+14% Safety Strike
+17% Safety Burst
+2% Priestess Shot
 
 
-Cesar: Inevitable Drive
+Cesar: Inevitable Grasp
 Magdelina: Safety Blessing
 
 Cesar gains a Threat Level (current level: 2)
-Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  4 | 3
+Magdelina gets a +1 bonus to power, priority and stunguard
+Priorities:  5 | 3
 Cesar is active
 Cesar hits
 Magdelina is stunned
+Magdelina will have -3 priority next beat
+Cesar moves Magdelina:
+
+.CM....
+
 Magdelina takes 4 damage (now at 16 life)
 Magdelina moves:
 
@@ -142,65 +145,60 @@ Beat 3
 
 Cesar
 -----
-life: 20
-discard 1: Inevitable Drive
-discard 2: Phalanx Shot
-special action
+Life: 20
+Discard 1: Inevitable Grasp
+Discard 2: Phalanx Shot
+Special action available
+Opponent has power penalty: -3
 Threat level: 2
-Opponent has -3 power this beat
 
 Magdelina
 ---------
-life: 16
-discard 1: Safety Blessing
-discard 2: Excelsius Dash
-special action
+Life: 16
+Discard 1: Safety Blessing
+Discard 2: Excelsius Dash
+Special action available
 Level: 1
 Trance: 1
 
 
 .C..M..
 
-Unbeatable strategy for Magdelina: Priestess Burst: -2.82
+Unbeatable strategy for Magdelina: Priestess Shot: -0.80
+
 
 Cesar:
-100% Fueled Suppression
+10% Unstoppable Drive
+90% Fueled Suppression
 
 Magdelina:
-100% Priestess Burst
+54% Priestess Shot
+46% Priestess Burst
 
 
-Cesar: Fueled Suppression
-Magdelina: Priestess Burst
-
-Cesar gains a Threat Level (current level: 3)
-Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  1 | 1
-Clash!
-
-Cesar:
-27% Fueled Strike
-73% Fueled Grasp
-
-Magdelina:
-90% Priestess Shot
-10% Priestess Drive
-
-
-Cesar: Fueled Grasp
+Cesar: Unstoppable Drive
 Magdelina: Priestess Shot
 
 Cesar gains a Threat Level (current level: 3)
-Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  4 | 2
-Cesar is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Magdelina hits
-Cesar gets -2 power
-Cesar has 2 soak
-Cesar takes 0 damage (now at 20 life)
+Magdelina gets a +1 bonus to power, priority and stunguard
+Priorities:  2 | 2
+Clash!
+
+
+Cesar: Unstoppable Suppression
+Magdelina: Priestess Grasp
+
+Cesar gains a Threat Level (current level: 3)
+Magdelina gets a +1 bonus to power, priority and stunguard
+Priorities:  0 | 5
+Magdelina is active
+Magdelina misses
 Magdelina gains 1 life (now at 17)
+Cesar misses
+Cesar moves:
+
+..C.M..
+
 Magdelina gains a Trance counter: has 2
 Magdelina discards all Trance counters
 Magdelina gains a Level: has 2
@@ -210,65 +208,53 @@ Beat 4
 
 Cesar
 -----
-life: 20
-discard 1: Fueled Grasp
-discard 2: Inevitable Drive
-special action
-Threat level: 4
+Life: 20
+Discard 1: Unstoppable Suppression
+Discard 2: Inevitable Grasp
+Special action available
+Threat level: 3
 
 Magdelina
 ---------
-life: 17
-discard 1: Priestess Shot
-discard 2: Safety Blessing
-special action
+Life: 17
+Discard 1: Priestess Grasp
+Discard 2: Safety Blessing
+Special action available
 Level: 2
 Trance: 0
 
 
-.C..M..
+..C.M..
 
-Unbeatable strategy for Magdelina: Spiritual Dash: -0.33
-Unbeatable strategy for Magdelina: Sanctimonious Burst: -0.70
-Unbeatable strategy for Magdelina: Sanctimonious Dash: -0.17
-Unbeatable strategy for Magdelina: Excelsius Strike: -0.27
-Unbeatable strategy for Magdelina: Excelsius Dash: -0.27
 
 Cesar:
-2% Phalanx Suppression
-6% Phalanx Strike
-3% Unstoppable Suppression
-4% Unstoppable Strike
-82% Unstoppable Dash
-2% Bulwark Suppression
+7% Phalanx Strike
+3% Phalanx Drive
+63% Phalanx Burst
+28% Bulwark Burst
 
 Magdelina:
-14% Sanctimonious Strike
-57% Sanctimonious Burst
-9% Excelsius Strike
-20% Excelsius Drive
+67% Sanctimonious Drive
+4% Sanctimonious Burst
+27% Excelsius Drive
+2% Excelsius Burst
 
 
-Cesar: Unstoppable Dash
-Magdelina: Sanctimonious Burst
+Cesar: Phalanx Strike
+Magdelina: Sanctimonious Drive
 
-Cesar gains a Threat Level (current level: 0)
-Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  7 | 1
-Cesar is active
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Magdelina gets a +2 bonus to power, priority and stunguard
+Priorities:  1 | 4
+Magdelina is active
 Magdelina moves:
 
-.C...M.
+..CM...
 
-Cesar moves:
-
-..C..M.
-
-Cesar moves:
-
-....CM.
-
-Magdelina misses
+Magdelina hits
+Cesar has 2 soak
+Cesar takes 2 damage (now at 18 life)
 Magdelina gains a Trance counter: has 1
 
 Beat 5
@@ -276,59 +262,61 @@ Beat 5
 
 Cesar
 -----
-life: 20
-discard 1: Unstoppable Dash
-discard 2: Fueled Grasp
-special action
-Threat level: 0
+Life: 18
+Discard 1: Phalanx Strike
+Discard 2: Unstoppable Suppression
+Special action available
+Threat level: 4
 
 Magdelina
 ---------
-life: 17
-discard 1: Sanctimonious Burst
-discard 2: Priestess Shot
-special action
+Life: 17
+Discard 1: Sanctimonious Drive
+Discard 2: Priestess Grasp
+Special action available
 Level: 2
 Trance: 1
 
 
-....CM.
+..CM...
 
-Unbeatable strategy for Magdelina: Excelsius Blessing: -1.42
+Unbeatable strategy for Magdelina: Safety Dash: -0.52
+Unbeatable strategy for Magdelina: Excelsius Dash: -0.88
+
 
 Cesar:
-3% Bulwark Suppression
-42% Bulwark Shot
-5% Bulwark Burst
-49% Inevitable Shot
+29% Bulwark Shot
+23% Bulwark Burst
+28% Inevitable Drive
+20% Inevitable Grasp
 
 Magdelina:
-2% Safety Blessing
-47% Safety Dash
-47% Excelsius Blessing
-4% Excelsius Grasp
+16% Safety Blessing
+4% Excelsius Strike
+5% Excelsius Burst
+74% Excelsius Dash
 
 
 Cesar: Bulwark Burst
-Magdelina: Safety Dash
+Magdelina: Excelsius Dash
 
-Cesar gains a Threat Level (current level: 1)
-Magdelina gets a +2 bonus to power, priority and stungard
+Cesar gains a Threat Level (current level: 0)
+Magdelina gets a +2 bonus to power, priority and stunguard
 Priorities:  -1 | 10
 Magdelina is active
 Cesar moves:
 
-...C.M.
+.C.M...
 
 Magdelina moves:
 
-..MC...
+.CM....
+
+Magdelina moves:
+
+MC.....
 
 Cesar misses
-Cesar moves:
-
-..M...C
-
 Magdelina gains a Trance counter: has 2
 
 Beat 6
@@ -336,60 +324,54 @@ Beat 6
 
 Cesar
 -----
-life: 20
-discard 1: Bulwark Burst
-discard 2: Unstoppable Dash
-special action
-Threat level: 1
+Life: 18
+Discard 1: Bulwark Burst
+Discard 2: Phalanx Strike
+Special action available
+Threat level: 0
 
 Magdelina
 ---------
-life: 17
-discard 1: Safety Dash
-discard 2: Sanctimonious Burst
-special action
+Life: 17
+Discard 1: Excelsius Dash
+Discard 2: Sanctimonious Drive
+Special action available
 Level: 2
 Trance: 2
 
 
-..M...C
+MC.....
 
-Unbeatable strategy for Magdelina: Priestess Shot: -1.32
-Unbeatable strategy for Magdelina: Spiritual Blessing: -1.37
-Unbeatable strategy for Magdelina: Excelsius Blessing: -0.30
+Unbeatable strategy for Magdelina: Priestess Grasp: -0.25
+
 
 Cesar:
-87% Fueled Drive
-13% Inevitable Drive
+1% Inevitable Shot
+87% Inevitable Drive
+12% Inevitable Grasp
 
 Magdelina:
-67% Spiritual Blessing
-33% Excelsius Shot
+10% Priestess Blessing
+34% Priestess Strike
+56% Priestess Grasp
 
 
-Cesar: Fueled Drive
-Magdelina: Spiritual Blessing
+Cesar: Inevitable Grasp
+Magdelina: Priestess Grasp
 
-Cesar gains a Threat Level (current level: 2)
-Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  3 | 4
+Cesar gains a Threat Level (current level: 1)
+Magdelina gets a +2 bonus to power, priority and stunguard
+Priorities:  5 | 6
 Magdelina is active
-Cesar gains a Threat Level (current level: 3)
 Magdelina hits
-Magdelina gains 3 life (now at 20)
-Cesar gains 3 life (now at 20)
-Magdelina gains a Trance counter: has 2
-Cesar moves:
+Cesar gets -2 power
+Magdelina moves Cesar:
 
-..M.C..
+M.C....
 
-Cesar moves:
-
-.CM....
-
-Cesar hits
-Magdelina takes 7 damage (now at 13 life)
-Magdelina is stunned
+Cesar takes 3 damage (now at 15 life)
+Magdelina gains 1 life (now at 18)
+Cesar misses
 Magdelina gains a Trance counter: has 3
 Magdelina discards all Trance counters
 Magdelina gains a Level: has 3
@@ -399,67 +381,56 @@ Beat 7
 
 Cesar
 -----
-life: 20
-discard 1: Fueled Drive
-discard 2: Bulwark Burst
-special action
-Threat level: 3
+Life: 15
+Discard 1: Inevitable Grasp
+Discard 2: Bulwark Burst
+Special action available
+Threat level: 1
 
 Magdelina
 ---------
-life: 13
-discard 1: Spiritual Blessing
-discard 2: Safety Dash
-special action
+Life: 18
+Discard 1: Priestess Grasp
+Discard 2: Excelsius Dash
+Special action available
 Level: 3
 Trance: 0
 
 
-.CM....
+M.C....
 
-Unbeatable strategy for Magdelina: Priestess Strike: -0.27
-Unbeatable strategy for Magdelina: Priestess Shot: -0.03
+Unbeatable strategy for Magdelina: Safety Shot: -0.98
+Unbeatable strategy for Magdelina: Safety Drive: -1.18
+Unbeatable strategy for Magdelina: Safety Burst: -0.98
+
 
 Cesar:
-51% Unstoppable Shot
-49% Inevitable Grasp
+55% Phalanx Strike
+3% Unstoppable Strike
+42% Unstoppable Shot
 
 Magdelina:
-96% Priestess Strike
-4% Priestess Burst
+80% Safety Drive
+5% Sanctimonious Drive
+15% Sanctimonious Burst
 
 
-Cesar: Inevitable Grasp
-Magdelina: Priestess Strike
+Cesar: Phalanx Strike
+Magdelina: Sanctimonious Burst
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  5 | 5
-Clash!
-
-Cesar:
-97% Inevitable Strike
-3% Inevitable Shot
-
-Magdelina:
-97% Priestess Shot
-3% Priestess Burst
-
-
-Cesar: Inevitable Strike
-Magdelina: Priestess Shot
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  3 | 4
+Cesar gains a Threat Level (current level: 2)
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  1 | 2
 Magdelina is active
 Magdelina hits
-Cesar gets -2 power
-Cesar has 2 soak
-Cesar takes 3 damage (now at 17 life)
-Magdelina gains 1 life (now at 14)
+Cesar takes 5 damage (now at 10 life)
+Cesar moves:
+
+MC.....
+
+Cesar hits
+Magdelina takes 6 damage (now at 12 life)
+Magdelina is stunned
 Magdelina gains a Trance counter: has 1
 
 Beat 8
@@ -467,50 +438,58 @@ Beat 8
 
 Cesar
 -----
-life: 17
-discard 1: Inevitable Strike
-discard 2: Fueled Drive
-special action
-Threat level: 4
+Life: 10
+Discard 1: Phalanx Strike
+Discard 2: Inevitable Grasp
+Special action available
+Threat level: 2
 
 Magdelina
 ---------
-life: 14
-discard 1: Priestess Shot
-discard 2: Spiritual Blessing
-special action
+Life: 12
+Discard 1: Sanctimonious Burst
+Discard 2: Priestess Grasp
+Special action available
 Level: 3
 Trance: 1
 
 
-.CM....
+MC.....
 
-Unbeatable strategy for Magdelina: Sanctimonious Strike: -0.47
-Unbeatable strategy for Magdelina: Excelsius Strike: -1.06
-Unbeatable strategy for Magdelina: Excelsius Drive: -0.12
+Unbeatable strategy for Magdelina: Safety Shot: -0.51
+Unbeatable strategy for Magdelina: Safety Drive: -0.25
+Unbeatable strategy for Magdelina: Spiritual Strike: -0.01
+Unbeatable strategy for Magdelina: Excelsius Strike: -0.25
+Unbeatable strategy for Magdelina: Excelsius Drive: -0.11
+
 
 Cesar:
-62% Phalanx Dash
-38% Bulwark Shot
+42% Unstoppable Drive
+31% Fueled Drive
+27% Bulwark Suppression
 
 Magdelina:
-61% Excelsius Strike
-39% Excelsius Grasp
+60% Safety Drive
+12% Excelsius Strike
+28% Excelsius Drive
 
 
-Cesar: Bulwark Shot
-Magdelina: Excelsius Strike
+Cesar: Fueled Drive
+Magdelina: Safety Drive
 
-Cesar gains a Threat Level (current level: 0)
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  0 | 5
+Cesar gains a Threat Level (current level: 3)
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  3 | 6
 Magdelina is active
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
 Magdelina moves:
 
-.C.M...
+.CM....
 
 Magdelina hits
-Cesar takes 6 damage (now at 11 life)
+Cesar has 2 soak
+Cesar takes 2 damage (now at 8 life)
 Cesar is stunned
 Magdelina gains a Trance counter: has 2
 
@@ -519,58 +498,65 @@ Beat 9
 
 Cesar
 -----
-life: 11
-discard 1: Bulwark Shot
-discard 2: Inevitable Strike
-special action
-Threat level: 0
+Life: 8
+Discard 1: Fueled Drive
+Discard 2: Phalanx Strike
+Special action available
+Threat level: 4
 
 Magdelina
 ---------
-life: 14
-discard 1: Excelsius Strike
-discard 2: Priestess Shot
-special action
+Life: 12
+Discard 1: Safety Drive
+Discard 2: Sanctimonious Burst
+Special action available
 Level: 3
 Trance: 2
 
 
-.C.M...
+.CM....
 
-Unbeatable strategy for Magdelina: Safety Drive: -1.55
-Unbeatable strategy for Magdelina: Safety Burst: -1.46
-Unbeatable strategy for Magdelina: Safety Dash: -0.84
-Unbeatable strategy for Magdelina: Spiritual Drive: -1.19
-Unbeatable strategy for Magdelina: Spiritual Grasp: -1.03
-Unbeatable strategy for Magdelina: Spiritual Dash: -0.47
-Unbeatable strategy for Magdelina: Sanctimonious Drive: -1.81
-Unbeatable strategy for Magdelina: Sanctimonious Grasp: -1.72
+Unbeatable strategy for Magdelina: Excelsius Strike: -1.66
+Unbeatable strategy for Magdelina: Excelsius Dash: -0.57
+
 
 Cesar:
-91% Phalanx Dash
-9% Unstoppable Drive
+11% Unstoppable Burst
+6% Bulwark Shot
+5% Bulwark Burst
+18% Inevitable Grasp
+61% Inevitable Dash
 
 Magdelina:
-23% Safety Grasp
-77% Sanctimonious Drive
+5% Priestess Blessing
+25% Priestess Shot
+27% Priestess Grasp
+24% Excelsius Strike
+19% Excelsius Grasp
 
 
-Cesar: Phalanx Dash
-Magdelina: Sanctimonious Drive
+Cesar: Unstoppable Burst
+Magdelina: Excelsius Grasp
 
-Cesar gains a Threat Level (current level: 1)
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  7 | 5
-Cesar is active
+Cesar gains a Threat Level (current level: 0)
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  -1 | 7
+Magdelina is active
 Cesar moves:
 
-...M.C.
+C.M....
 
 Magdelina moves:
 
-....MC.
+C..M...
 
-Magdelina misses
+Cesar moves:
+
+..CM...
+
+Magdelina hits
+Cesar takes 4 damage (now at 4 life)
+Cesar is stunned
 Magdelina gains a Trance counter: has 3
 
 Beat 10
@@ -578,51 +564,61 @@ Beat 10
 
 Cesar
 -----
-life: 11
-discard 1: Phalanx Dash
-discard 2: Bulwark Shot
-special action
-Threat level: 1
+Life: 4
+Discard 1: Unstoppable Burst
+Discard 2: Fueled Drive
+Special action available
+Threat level: 0
 
 Magdelina
 ---------
-life: 14
-discard 1: Sanctimonious Drive
-discard 2: Excelsius Strike
-special action
+Life: 12
+Discard 1: Excelsius Grasp
+Discard 2: Safety Drive
+Special action available
 Level: 3
 Trance: 3
 
 
-....MC.
+..CM...
+
+Unbeatable strategy for Magdelina: Priestess Strike: -2.18
+Unbeatable strategy for Magdelina: Priestess Burst: -1.99
+Unbeatable strategy for Magdelina: Priestess Dash: -1.36
+Unbeatable strategy for Magdelina: Spiritual Burst: -1.16
+Unbeatable strategy for Magdelina: Spiritual Dash: -0.56
+Unbeatable strategy for Magdelina: Sanctimonious Burst: -0.98
+Unbeatable strategy for Magdelina: Sanctimonious Dash: -0.39
+
 
 Cesar:
-52% Unstoppable Strike
-36% Unstoppable Burst
-7% Inevitable Suppression
-6% Inevitable Grasp
+96% Phalanx Dash
+4% Inevitable Grasp
+0% Special Level 4 Protocol
 
 Magdelina:
-37% Safety Shot
-3% Priestess Shot
-5% Priestess Burst
-55% Priestess Dash
+32% Priestess Blessing
+44% Priestess Shot
+23% Priestess Burst
 
 
-Cesar: Unstoppable Burst
-Magdelina: Safety Shot
+Cesar: Phalanx Dash
+Magdelina: Priestess Burst
 
-Cesar gains a Threat Level (current level: 2)
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  -1 | 4
-Magdelina is active
+Cesar gains a Threat Level (current level: 1)
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  7 | 3
+Cesar is active
+Magdelina moves:
+
+..C.M..
+
 Cesar moves:
 
-....M.C
+...CM..
 
-Magdelina hits
-Cesar takes 4 damage (now at 7 life)
-Cesar is stunned
+Magdelina misses
+Magdelina gains 1 life (now at 13)
 Magdelina gains a Trance counter: has 4
 Magdelina discards all Trance counters
 Magdelina gains a Level: has 4
@@ -632,56 +628,62 @@ Beat 11
 
 Cesar
 -----
-life: 7
-discard 1: Unstoppable Burst
-discard 2: Phalanx Dash
-special action
-Threat level: 2
+Life: 4
+Discard 1: Phalanx Dash
+Discard 2: Unstoppable Burst
+Special action available
+Threat level: 1
 
 Magdelina
 ---------
-life: 14
-discard 1: Safety Shot
-discard 2: Sanctimonious Drive
-special action
+Life: 13
+Discard 1: Priestess Burst
+Discard 2: Excelsius Grasp
+Special action available
 Level: 4
 Trance: 0
 
 
-....M.C
+...CM..
 
-Unbeatable strategy for Magdelina: Priestess Blessing: -0.89
-Unbeatable strategy for Magdelina: Priestess Dash: -0.34
-Unbeatable strategy for Magdelina: Spiritual Dash: -0.11
-Unbeatable strategy for Magdelina: Excelsius Strike: -0.85
-Unbeatable strategy for Magdelina: Excelsius Burst: -0.45
+Unbeatable strategy for Magdelina: Safety Strike: -6.49
+Unbeatable strategy for Magdelina: Safety Shot: -3.91
+Unbeatable strategy for Magdelina: Safety Drive: -3.79
+Unbeatable strategy for Magdelina: Sanctimonious Strike: -1.83
+Unbeatable strategy for Magdelina: Sanctimonious Drive: -2.89
+
 
 Cesar:
-71% Fueled Suppression
-29% Inevitable Drive
+0% Inevitable Suppression
+55% Inevitable Strike
+45% Inevitable Shot
 
 Magdelina:
-80% Priestess Blessing
-20% Priestess Dash
+59% Safety Strike
+37% Safety Drive
+4% Sanctimonious Drive
 
 
-Cesar: Fueled Suppression
-Magdelina: Priestess Dash
+Cesar: Inevitable Shot
+Magdelina: Safety Drive
 
-Cesar gains a Threat Level (current level: 3)
-Magdelina gets a +4 bonus to power, priority and stungard
-Priorities:  1 | 12
+Cesar gains a Threat Level (current level: 2)
+Magdelina gets a +4 bonus to power, priority and stunguard
+Priorities:  2 | 7
 Magdelina is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Magdelina gains 1 life (now at 15)
 Magdelina moves:
 
-.M....C
+..MC...
 
-Cesar moves:
+Magdelina hits
+Cesar takes 5 damage (now at 0 life)
+Cesar hits
+Magdelina is stunned
+Magdelina will have -3 priority next beat
+Magdelina takes 4 damage (now at 9 life)
+Magdelina moves:
 
-.M.C...
+M..C...
 
 Magdelina gains a Trance counter: has 1
 
@@ -690,304 +692,117 @@ Beat 12
 
 Cesar
 -----
-life: 7
-discard 1: Fueled Suppression
-discard 2: Unstoppable Burst
-special action
-Threat level: 4
+Life: 1
+Discard 1: Inevitable Shot
+Discard 2: Phalanx Dash
+Special action available
+Opponent has power penalty: -3
+Threat level: 2
+Defeat immunity used-up
 
 Magdelina
 ---------
-life: 15
-discard 1: Priestess Dash
-discard 2: Safety Shot
-special action
+Life: 9
+Discard 1: Safety Drive
+Discard 2: Priestess Burst
+Special action available
 Level: 4
 Trance: 1
 
 
-.M.C...
+M..C...
 
-Unbeatable strategy for Magdelina: Excelsius Strike: -0.94
+Unbeatable strategy for Magdelina: Excelsius Shot: -6.00
+
 
 Cesar:
-1% Phalanx Strike
-99% Inevitable Dash
+3% Fueled Suppression
+3% Fueled Drive
+94% Special Pulse
 
 Magdelina:
-48% Excelsius Blessing
-52% Excelsius Drive
-
-
-Cesar: Inevitable Dash
-Magdelina: Excelsius Drive
-
-Cesar gains a Threat Level (current level: 0)
-Magdelina gets a +4 bonus to power, priority and stungard
-Priorities:  9 | 7
-Cesar is active
-Cesar moves:
-
-CM.....
-
-Magdelina moves:
-
-C.M....
-
-Magdelina misses
-Magdelina gains a Trance counter: has 2
-
-Beat 13
--------
-
-Cesar
------
-life: 7
-discard 1: Inevitable Dash
-discard 2: Fueled Suppression
-special action
-Threat level: 0
-
-Magdelina
----------
-life: 15
-discard 1: Excelsius Drive
-discard 2: Priestess Dash
-special action
-Level: 4
-Trance: 2
-
-
-C.M....
-
-Unbeatable strategy for Magdelina: Safety Shot: -0.03
-Unbeatable strategy for Magdelina: Safety Burst: -0.27
-Unbeatable strategy for Magdelina: Sanctimonious Strike: -1.92
-
-Cesar:
-94% Phalanx Strike
-6% Bulwark Shot
-
-Magdelina:
-74% Safety Burst
-26% Sanctimonious Strike
-
-
-Cesar: Phalanx Strike
-Magdelina: Safety Burst
-
-Cesar gains a Threat Level (current level: 1)
-Magdelina gets a +4 bonus to power, priority and stungard
-Priorities:  1 | 4
-Magdelina is active
-Magdelina moves:
-
-C...M..
-
-Magdelina misses
-Cesar misses
-Magdelina gains a Trance counter: has 3
-
-Beat 14
--------
-
-Cesar
------
-life: 7
-discard 1: Phalanx Strike
-discard 2: Inevitable Dash
-special action
-Threat level: 1
-
-Magdelina
----------
-life: 15
-discard 1: Safety Burst
-discard 2: Excelsius Drive
-special action
-Level: 4
-Trance: 3
-
-
-C...M..
-
-Unbeatable strategy for Cesar: Unstoppable Suppression: 0.43
-Unbeatable strategy for Cesar: Bulwark Suppression: 0.43
-
-Cesar:
-42% Unstoppable Suppression
-42% Bulwark Suppression
-16% Bulwark Shot
-
-Magdelina:
-83% Priestess Shot
-17% Priestess Dash
-
-
-Cesar: Bulwark Suppression
-Magdelina: Priestess Shot
-
-Cesar gains a Threat Level (current level: 2)
-Magdelina gets a +4 bonus to power, priority and stungard
-Priorities:  0 | 5
-Magdelina is active
-Magdelina misses
-Magdelina gains 1 life (now at 16)
-Cesar misses
-Cesar moves:
-
-...CM..
-
-Magdelina gains a Trance counter: has 4
-
-Beat 15
--------
-
-Cesar
------
-life: 7
-discard 1: Bulwark Suppression
-discard 2: Phalanx Strike
-special action
-Threat level: 2
-
-Magdelina
----------
-life: 16
-discard 1: Priestess Shot
-discard 2: Safety Burst
-special action
-Level: 4
-Trance: 4
-
-
-...CM..
-
-Unbeatable strategy for Magdelina: Spiritual Blessing: -12.00
-Unbeatable strategy for Magdelina: Spiritual Strike: -12.00
-Unbeatable strategy for Magdelina: Spiritual Drive: -12.00
-Unbeatable strategy for Magdelina: Spiritual Grasp: -12.00
-Unbeatable strategy for Magdelina: Spiritual Dash: -12.00
-Unbeatable strategy for Magdelina: Sanctimonious Blessing: -12.00
-Unbeatable strategy for Magdelina: Sanctimonious Strike: -12.00
-Unbeatable strategy for Magdelina: Sanctimonious Drive: -12.00
-Unbeatable strategy for Magdelina: Sanctimonious Grasp: -12.00
-Unbeatable strategy for Magdelina: Sanctimonious Dash: -12.00
-Unbeatable strategy for Magdelina: Excelsius Blessing: -12.00
-Unbeatable strategy for Magdelina: Excelsius Strike: -12.00
-Unbeatable strategy for Magdelina: Excelsius Drive: -12.00
-Unbeatable strategy for Magdelina: Excelsius Grasp: -12.00
-Unbeatable strategy for Magdelina: Excelsius Dash: -12.00
-
-Cesar:
-97% Special Pulse
-3% Special Level 4 Protocol
-
-Magdelina:
-11% Spiritual Drive
-89% Excelsius Dash
+0% Spiritual Strike
+12% Spiritual Shot
+88% Excelsius Shot
 
 
 Cesar: Special Pulse
-Magdelina: Excelsius Dash
+Magdelina: Excelsius Shot
 
 Cesar gains a Threat Level (current level: 3)
-Magdelina gets a +4 bonus to power, priority and stungard
-Pulse:
+Magdelina gets a +4 bonus to power, priority and stunguard
+Cesar Pulses:
 
 MC.....
 
 
-Beat 15
+Beat 12
 -------
 
 Cesar
 -----
-life: 7
-discard 1: Bulwark Suppression
-discard 2: Phalanx Strike
+Life: 1
+Discard 1: Inevitable Shot
+Discard 2: Phalanx Dash
 Threat level: 3
+Defeat immunity used-up
 
 Magdelina
 ---------
-life: 16
-discard 1: Excelsius Dash
-discard 2: Priestess Shot
-special action
+Life: 9
+Discard 1: Excelsius Shot
+Discard 2: Safety Drive
+Special action available
 Level: 4
-Trance: 4
+Trance: 1
 
 
 MC.....
 
-Unbeatable strategy for Magdelina: Safety Blessing: -12.00
-Unbeatable strategy for Magdelina: Safety Strike: -12.00
-Unbeatable strategy for Magdelina: Safety Drive: -12.00
-Unbeatable strategy for Magdelina: Safety Burst: -12.00
-Unbeatable strategy for Magdelina: Safety Grasp: -12.00
-Unbeatable strategy for Magdelina: Spiritual Blessing: -12.00
-Unbeatable strategy for Magdelina: Spiritual Strike: -12.00
-Unbeatable strategy for Magdelina: Spiritual Drive: -12.00
-Unbeatable strategy for Magdelina: Spiritual Burst: -12.00
-Unbeatable strategy for Magdelina: Spiritual Grasp: -12.00
-Unbeatable strategy for Magdelina: Sanctimonious Blessing: -12.00
-Unbeatable strategy for Magdelina: Sanctimonious Strike: -12.00
-Unbeatable strategy for Magdelina: Sanctimonious Drive: -12.00
-Unbeatable strategy for Magdelina: Sanctimonious Burst: -12.00
-Unbeatable strategy for Magdelina: Sanctimonious Grasp: -12.00
+Unbeatable strategy for Magdelina: Spiritual Strike: -6.00
+Unbeatable strategy for Magdelina: Spiritual Grasp: -6.00
+Unbeatable strategy for Magdelina: Sanctimonious Strike: -6.00
+Unbeatable strategy for Magdelina: Sanctimonious Grasp: -6.00
+
 
 Cesar:
-6% Unstoppable Shot
+6% Unstoppable Suppression
+6% Unstoppable Strike
 6% Unstoppable Drive
-6% Unstoppable Burst
+8% Unstoppable Burst
 6% Unstoppable Grasp
-7% Unstoppable Dash
-7% Fueled Shot
+7% Fueled Suppression
+6% Fueled Strike
 7% Fueled Drive
-7% Fueled Burst
-7% Fueled Grasp
-8% Fueled Dash
-6% Inevitable Shot
-7% Inevitable Drive
-6% Inevitable Burst
-7% Inevitable Grasp
-6% Inevitable Dash
+10% Fueled Burst
+6% Fueled Grasp
+6% Bulwark Suppression
+7% Bulwark Strike
+5% Bulwark Drive
+8% Bulwark Burst
+5% Bulwark Grasp
 
 Magdelina:
-7% Safety Blessing
-7% Safety Strike
-7% Safety Drive
-7% Safety Burst
-7% Safety Grasp
-7% Spiritual Blessing
-7% Spiritual Strike
-7% Spiritual Drive
-7% Spiritual Burst
-7% Spiritual Grasp
-7% Sanctimonious Blessing
-7% Sanctimonious Strike
-7% Sanctimonious Drive
-7% Sanctimonious Burst
-7% Sanctimonious Grasp
+25% Spiritual Strike
+25% Spiritual Grasp
+25% Sanctimonious Strike
+25% Sanctimonious Grasp
 
 
-Cesar: Fueled Drive
-Magdelina: Spiritual Drive
+Cesar: Unstoppable Burst
+Magdelina: Sanctimonious Strike
 
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Magdelina gets a +4 bonus to power, priority and stungard
-Priorities:  3 | 5
+Magdelina gets a +4 bonus to power, priority and stunguard
+Priorities:  -1 | 5
 Magdelina is active
-Cesar gains a Threat Level (current level: 0)
-Magdelina moves:
+Cesar moves:
 
-.CM....
+M.C....
 
 Magdelina hits
-Cesar takes 5 damage (now at 2 life)
-Cesar is stunned
-Magdelina gains a Trance counter: has 4
-Game goes to time
+Cesar has 2 soak
+Cesar takes 5 damage (now at 0 life)
 MAGDELINA WINS!
-total_time: 10
+total_time: 9
