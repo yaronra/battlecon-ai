@@ -40,6 +40,11 @@
 # blocks and movement reactions be called by both players, and make
 # condition for who initiated the movement when it's necessary.
 
+# Discard piles should be ordered.  For example, Kehrolyn's current form
+# is the top (=latest) style that isn't a special action.
+
+
+
 # TO CHECK OPENING DISCARDS
 # free_for_all (1, <name>, skip=['kehrolyn'], first_beats=True)
 
@@ -6469,8 +6474,12 @@ class Kehrolyn (Character):
     def set_active_cards (self):
         Character.set_active_cards (self)
         # find current form
+        # TODO: If there are multiple styles in discard 1 (like after
+        # a cancel), the latest one should be used.
+        # However, discard is currently implemented as a set, so there's
+        # no order to it, and we'll get a random (but consistent) card.
         for card in self.discard[1]:
-            if isinstance (card, Style):
+            if isinstance (card, Style) and card is not self.special_action:
                 self.current_form = card
                 break
         else:
