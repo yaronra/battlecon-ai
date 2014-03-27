@@ -54,6 +54,8 @@ import random
 import re
 import solve
 import time
+from BattleConAIFull import SpecialAction
+from cvxopt.coneprog import options
 
 debug_log = []
 
@@ -88,8 +90,9 @@ def main():
         play()
     
 def ad_hoc():
-#    duel('juto', 'karin', 1)
-    free_for_all(1, ['borneo'], '', [], True, False)
+#    duel('seth', 'kallistar', 10)
+    free_for_all(10, ['juto'], 'seth', [''], True, False)
+#    free_for_all(1, ['juto'], '', ['kehrolyn'], True, True)
 
 playable = [ 'abarene',
              'adjenna',
@@ -817,9 +820,9 @@ class Game:
             # Finishers devolve into Cancels above 7 life
             # or if failing to meet their specific conditions
             for p in self.player:
-                if isinstance (p.base, Finisher):
-                    if p.base.devolves_into_cancel():
-                        p.base = p.cancel
+                if (isinstance (p.base, Finisher) and
+                    p.base.devolves_into_cancel()):
+                    p.base = p.cancel
 
             # Cancel - return an appropriate cancel indicator
             # (depending on who cancelled).
@@ -827,6 +830,10 @@ class Game:
             # Check that there's no Pulse that trumps the Cancel.
             cancel = [p.base is p.cancel for p in self.player]
             pulse = [p.base is p.pulse for p in self.player]
+            # A double Pulse devolves to a double Cancel.
+            if all(pulse):
+                final_state = self.full_save (None)
+                return self.CANCEL_BOTH_INDICATOR, final_state, self.fork_decisions[:]
             if any(cancel) and not any(pulse):
                 final_state = self.full_save (None)
                 if all(cancel):
@@ -845,12 +852,35 @@ class Game:
             # Stage 0 includes: pulse check, reveal trigger, clash check.
             if state.stage <=0:
                 pulsing_players = [p for p in self.player
-                                   if isinstance (p.base, Pulse)]
+                                   if p.base is p.pulse]
                 # With one pulse - fork to decide new player positions.
                 # Not using execute_move, because Pulse negates any blocking
                 # or reaction effects (including status effects from last beat).
                 if len (pulsing_players) == 1:
                     pulser = pulsing_players[0]
+                    opp = pulser.opponent
+                    # If opponent used Cancel/Finisher, we have them
+                    # retroactively choose which base activated it.
+                    # and put the base and the special action in
+                    # discard 0, so that they'll cycle.
+                    if opp.style is opp.special_action:
+                        if opp.base is opp.cancel:
+                            options = opp.cancel_generators
+                            if any(f.devolves_into_cancel() 
+                                   for f in opp.finishers):
+                                options |= opp.finisher_generators
+                        else:
+                            options = opp.finisher_generators
+                        options &= set(opp.bases)
+                        options -= (opp.discard[1] | opp.discard[2])
+                        options = list(options)
+                        prompt = "Which base did you use to play your special action?"
+                        ans = self.make_fork(len(options), opp, prompt,
+                                             [o.name for o in options])
+                        opp.discard[0].add(options[ans])
+                        opp.discard[0].add(opp.special_action)
+
+                    # Perform the Pulse.
                     pairs = list(itertools.permutations(xrange(7), 2))
                     prompt = "Choose positions after Pulse:"
                     options = []
@@ -867,27 +897,13 @@ class Game:
                      self.player[1].position) = pairs[self.make_fork(
                                     len(pairs), pulser, prompt, options)]
                     if self.reporting:
-                        self.report ('Pulse:')
+                        self.report ('%s Pulses:' % pulser)
                         for s in self.get_board():
                             self.report (s)
-                    # If non-pulsing player played a special action, put
-                    # it in discard.
-                    opp = pulser.opponent
-                    if opp.style is opp.special_action:
-                        opp.discard[1].add(opp.special_action)
-                    
-                # With double pulse, put special
-                # action card in discard so that it returns
-                # in 3 beats.
-                if len(pulsing_players) == 2:
-                    for p in pulsing_players:
-                        p.discard[1].add(p.special_action)
-                
-                # For any Pulse, skip directly to 
-                # cycle and evaluation phase.
-                if pulsing_players:
-                    self.stop_the_clock = True
-                    return self.cycle_and_evaluate()
+                    # Skip directly to cycle and evaluation phase.
+                    if pulsing_players:
+                        self.stop_the_clock = True
+                        return self.cycle_and_evaluate()
 
                 for p in self.player:
                     p.reveal_trigger()
@@ -1036,10 +1052,6 @@ class Game:
     def cycle_and_evaluate (self):
         for p in self.player:
             p.cycle ()
-            # Pulsers lose their special action
-            # (a cancel doesn't get here, a finisher lost it in reveal)
-            if isinstance (p.style, SpecialAction):
-                p.special_action_available = False
         
         # If 15 beats have been played, raise WinException 
         if self.current_beat == 15 and not self.stop_the_clock:
@@ -1321,28 +1333,37 @@ class Game:
                     s[1] != s1[1] and
                     not isinstance (s[0], SpecialAction)]
             # Before re-simulating, we need to update the game state
-            # (record the lost special action/s and any discarded attack pair).
+            # (record the lost special action/s and any discarded 
+            # attack pairs).
             self.initial_restore (self.initial_state)
-            if value == self.CANCEL_0_INDICATOR:
-                cancellers = [self.player[0]]
-            elif value == self.CANCEL_1_INDICATOR:
-                cancellers = [self.player[1]]
+            # Anyone who used a special action (for cancel or finisher)
+            # loses the action:
+            if isinstance(s0[0], SpecialAction):
+                self.player[0].special_action_available = False
+            if isinstance(s1[0], SpecialAction):
+                self.player[1].special_action_available = False
+            # In a double cancel, both players put special action
+            # in discard.
+            if value == self.CANCEL_BOTH_INDICATOR:
+                for p in self.player:
+                    p.discard[1].add(p.special_action)
+            # In a single cancel, opponent puts pair in discard.
             else:
-                cancellers = self.player[:]
-            for c in cancellers:
-                c.special_action_available = False
-            if self.player[0] not in cancellers:
-                if isinstance(s0[1], Finisher):
-                    self.player[0].discard[1].add(self.player[0].special_action)
-                    self.player[0].special_action_available = False
+                s01 = (s0,s1)
+                opponent = (self.player[0] if self.CANCEL_1_INDICATOR
+                            else self.player[1])
+                opp_strat = s01[opponent.my_number]
+                # Discard style, which may be special action.
+                opponent.discard[1].add(opp_strat[0])
+                # Discard base.  If using a finisher, decide which
+                # base it was.
+                if isinstance(s[0], SpecialAction):
+                    self.dump(report)
+                    base = opponent.choose_finisher_base_retroactively()
                 else:
-                    self.player[0].discard[1] |= set(s0[:2])
-            if self.player[1] not in cancellers:
-                if isinstance(s1[1], Finisher):
-                    self.player[1].discard[1].add(self.player[1].special_action)
-                    self.player[1].special_action_available = False
-                else:
-                    self.player[1].discard[1] |= set(s1[:2])
+                    base = opp_strat[1]
+                opponent.discard[1].add(base)
+            
             self.initial_state = self.initial_save ()
             # Re-simulate available strategies with updated situation.
             post_cancel_results = [[float(self.simulate (t0,t1)[0])
@@ -1470,11 +1491,31 @@ class Game:
                         # make sub matrix of those results
                         p0 = self.player[0]
                         p1 = self.player[1]
-                        subresults = [[pre_clash_results
+                        try:
+                            subresults = [[pre_clash_results
                                        [p0.clash_strat_index(ii,jj,i,j)]
                                        [p1.clash_strat_index(jj,ii,j,i)]
                                        for jj in g1]
                                       for ii in g0]
+                        except Exception as e:
+                            print "Failure"
+                            print "n m i j"
+                            print n, m, i, j
+                            print ss0[i]
+                            print ss1[j]
+                            print g0
+                            print g1
+                            print "p0 clash indices"
+                            for ii in g0:
+                                for jj in g1:
+                                    print p0.clash_strat_index(ii,jj,i,j),
+                                print
+                            print "p1 clash indices"
+                            for ii in g0:
+                                for jj in g1:
+                                    print p1.clash_strat_index(jj,ii,j,i),
+                                print
+                            raise e
                         # and solve it
                         results[i][j] = self.sub_solve(subresults)
 
@@ -2081,12 +2122,13 @@ class Character (object):
         bases = sorted (set(self.bases) - unavailable_cards,
                         key = attrgetter('order'))
         pairs = [(s,b) for s in styles for b in bases]
+        bases = set(bases)
         if self.special_action_available:
-            if self.pulse_generators - unavailable_cards:
+            if self.pulse_generators & bases:
                 pairs.append ((self.special_action, self.pulse))
-            if self.cancel_generators - unavailable_cards:
+            if self.cancel_generators & bases:
                 pairs.append ((self.special_action, self.cancel))
-            if self.finisher_generators - unavailable_cards:
+            if self.finisher_generators & bases:
                 for finisher in self.finishers:
                     pairs.append ((self.special_action, finisher))
         return pairs
@@ -2505,16 +2547,21 @@ class Character (object):
 
     # cycle discard piles
     def cycle (self):
-        # unless you played your special action
-        if not isinstance (self.style, SpecialAction):
+        if self.style is self.special_action:
+            self.special_action_available = False
+        # Cycling happens if you didn't play a special action, or if
+        # your non-pulse special action was trumped by a pulse.
+        if (self.style is not self.special_action or 
+            (self.opponent.base is self.opponent.pulse and
+             self.base is not self.pulse)):
             # if the special action cycles back, restore it.
             if self.special_action in self.discard[2]:
                 self.special_action_available = True
             # Actual cycling.
-            self.discard [2] = self.discard [1].copy()
-            self.discard [1] = self.discard [0].copy()
+            self.discard[2] = self.discard[1].copy()
+            self.discard[1] = self.discard[0].copy()
         # but remove cards from the virtual discard[0] in any case
-        self.discard [0] = set()
+        self.discard[0] = set()
 
     def become_active_player(self):
         self.game.active = self
@@ -2559,8 +2606,9 @@ class Character (object):
                               %(final_damage, self.life))
         if self.life <= 0:
             raise WinException (self.opponent.my_number)
-        self.opponent.damage_trigger (final_damage)
-        self.take_damage_trigger (final_damage)
+        if final_damage:
+            self.opponent.damage_trigger (final_damage)
+            self.take_damage_trigger (final_damage)
         # damage_taken updated after triggers, so that triggers can
         # check if this is first damage this beat
         self.damage_taken += final_damage
@@ -2896,14 +2944,20 @@ class Character (object):
         card_bonus = (0 if self.game.first_beats else
                       sum(card.evaluation_bonus() for card in hand))
         discard_penalty = (0 if self.game.first_beats else
-            sum (card.discard_penalty() for card in self.discard[1]) \
-          + sum (card.discard_penalty() for card in self.discard[2]) / 2.0)
-        special_action_bonus = \
-                    ((self.special_action.value +
-                      (max([finisher.evaluate_setup()
-                            for finisher in self.finishers])
-                       if (self.life <= 7) else 0)) \
-                    if self.special_action_available else 0)
+          - sum(card.get_discard_penalty() for card in self.discard[1])
+          - sum(card.get_discard_penalty() for card in self.discard[2]) / 2.0)
+        if self.special_action_available:
+            special_action_bonus = (self.special_action.value +
+                                    (max([finisher.evaluate_setup()
+                                          for finisher in self.finishers])
+                                     if (self.life <= 7) else 0))
+        else:
+            if self.special_action in self.discard[1]:
+                special_action_bonus = self.special_action.value - 2
+            elif self.special_action in self.discard[2]:
+                special_action_bonus = self.special_action.value - 1
+            else:
+                special_action_bonus = 0
         status_effect_bonus = sum([status.value for status in 
                                    self.pending_status_effects])
 
@@ -2947,6 +3001,28 @@ class Character (object):
     def pre_attack_decision_report(self, decision):
         return []
 
+    # When you play a finisher against a cancel, you discard the base
+    # you used.  Figure out which base to discard.
+    def choose_finisher_base_retroactively(self):
+        options = list((self.finisher_generators & set(self.bases)) -
+                       (self.discard[1] | self.discard[2]))
+        assert options
+        if len(options) == 1:
+            return options[0]
+        if self.is_user:
+            print "Which base did you use to play your finisher?"
+            ans = menu([o.name for o in options])
+            return options[ans]
+        else:
+            # Since ante is already set, it might mess up evaluations.
+            # (not to mention, it's not fair to evaluate at this point). 
+            # So AI just uses a set order.
+            if self.strike in options:
+                return self.strike
+            if self.drive in options:
+                return self.drive
+            return options[0] # unique base
+            
     # How many spaces can I retreat?
     def retreat_range(self):
         me = self.position
@@ -2973,7 +3049,6 @@ class Card (object):
     @property
     def mean_priority(self):
         return self.priority
-
 
     def __init__(self, the_game, my_player):
         self.game = the_game
@@ -3088,13 +3163,18 @@ class Card (object):
     # hand at end of beat
     def evaluation_bonus (self):
         return 0
-    # bonus (usually negative) for this card being in discard 1
-    # (halved in discard 2)
-    def discard_penalty (self):
-        return 0
+    # How bad is it to have this card in discard 1, beyond the average
+    # card?
+    # Badness is halved in discard 2.
+    discard_penalty = 0
+    # This is only for special cards that may end up in the discard.
+    # Styles and Bases override this.
+    def get_discard_penalty (self):
+        return self.discard_penalty
     
 class Style (Card):
-    pass
+    def get_discard_penalty (self):
+        return self.discard_penalty + 1.5
 
 class Base (Card):
     is_attack = True  #change for bases that don't attack
@@ -3105,6 +3185,8 @@ class Base (Card):
     @property
     def alpha_name(self):
         return self.name
+    def get_discard_penalty (self):
+        return self.discard_penalty + 0.9
 
 # Placeholders used before the reveal step, so that no card abilities
 # are activated, and also when an ability removes cards mid beat.
@@ -4485,8 +4567,22 @@ class Cesar (Character):
         self.threat_level = state.threat_level
         self.defeat_immunity = state.defeat_immunity
 
+    def reset(self):
+        Character.reset(self)
+        self.threat_level_at_ante = 0
+        
+    def full_save(self):
+        state = Character.full_save(self)
+        state.threat_level_at_ante = self.threat_level_at_ante
+        return state
+
+    def full_restore(self, state):
+        Character.full_restore(self, state)
+        self.threat_level_at_ante = state.threat_level_at_ante
+
     def ante_trigger (self):
         self.gain_threat_level()
+        self.threat_level_at_ante = self.threat_level
 
     def gain_threat_level (self):
         self.threat_level += 1
@@ -4499,26 +4595,27 @@ class Cesar (Character):
             self.stun()
 
     def get_power_bonus(self):
-        return (self.threat_level if self.threat_level < 4 else 0)
+        return (self.threat_level_at_ante 
+                if self.threat_level_at_ante < 4 else 0)
 
     def get_stunguard(self):
         stunguard = Character.get_stunguard(self)
-        if self.threat_level <= 2:
-            stunguard += self.threat_level
+        if self.threat_level_at_ante <= 2:
+            stunguard += self.threat_level_at_ante
         return stunguard
 
     def expected_stunguard(self):
         ret = Character.expected_stunguard(self)
         expected_level = (self.threat_level + 1) % 5
-        stunguard_per_level = [ret, ret+1, ret +2, 0, 0, 0]
-        if self.fueled  in self.discard[1]|self.discard[2]:
-            return stunguard_per_level[expected_level]
-        else:
-            return (2 * stunguard_per_level[expected_level] +
-                    stunguard_per_level[expected_level + 1]) / 3
+        stunguard_per_level = [ret, ret+1, ret+2, 0, 0]
+        return stunguard_per_level[expected_level]
 
     def has_stun_immunity(self):
-        return self.threat_level == 3 or Character.has_stun_immunity(self)
+        # You have stun immunity if you got to 3 at ante, but didn't
+        # play Fueled.
+        return ((self.threat_level_at_ante == 3 and
+                 self.threat_level == 3)
+                or Character.has_stun_immunity(self))
 
     def get_soak(self):
         soak = Character.get_soak(self)
@@ -6695,8 +6792,6 @@ class Lixis (Character):
         self.opponent.discard[0] |= set ([discard])
         if self.game.reporting:
             self.game.report (self.opponent.name + " discards " + discard.name)
-        # +2 evaluation for making an opponent's base unavailable for 2 beats
-        self.evaluation_bonus += 2
 
     def give_priority_penalty (self):
         penalty = Character.give_priority_penalty(self)
@@ -7075,8 +7170,8 @@ class Marmelee (Character):
     def stun (self, damage=None):
         Character.stun (self, damage)
         if self.is_stunned():
-            if self.game.reporting and self.pool:
-                self.game.report ("Marmelee loses all counters")
+            if self.game.reporting and self.concentration:
+                self.game.report ("Marmelee loses all Concentration counters")
             self.concentration = 0
 
     def evaluate (self):
@@ -7885,6 +7980,10 @@ class Seth (Character):
 
     # Check whether Seth's guess was correct.
     # Handles both boolean guess results and actual base guesses.
+    # TODO: actually, power and priority can change if the base changes
+    # during the beat.  I don't think anyone other than Seth can
+    # actually change their base after the clash.  In any case, fixing
+    # this would require giving up the "boolean guess" trick.
     def reveal_trigger (self):
         self.correct_guess = (self.strat[2][0] in [True, self.opponent.base])
         if self.correct_guess:
@@ -7979,78 +8078,6 @@ class Seth (Character):
 
         self.game.results = full_results
         self.strats = full_strats
-
-    # When Seth clashes, the correctness of his guess is still determined by
-    # the opponent's original base choice.
-    # We simulate this by having him change his guess, to keep it correct (or
-    # incorrect, as the case may be)
-
-    # This fixes the index of each of his post-clash strategies,
-    # taking into account opponent's new base (so that guess correctness is
-    # preserved, and we get the result we need from the simulation results
-    # table.
-    def clash_strat_index (self, my_new_i, opp_new_i, my_orig_i, opp_orig_i):
-        # If the guess is already in boolean form, this is a second clash,
-        # and everything is set correctly.
-        if isinstance(self.strats[my_new_i][2][0], bool):
-            return my_new_i
-        
-        my_strats = self.strats
-        opp_strats = self.opponent.strats
-        my_orig_strat = my_strats[my_orig_i]
-        opp_orig_strat = opp_strats[opp_orig_i]
-        my_new_strat = my_strats[my_new_i]
-        opp_new_strat = opp_strats[opp_new_i]
-        is_correct = (my_orig_strat[2][0] == opp_orig_strat[1])
-        if is_correct:
-            # Original guess was correct.  Change guess to keep it correct
-            # vs. new base chosen.
-            correct_new_strat = (my_new_strat[0],
-                                 my_new_strat[1],
-                                 (opp_new_strat[1], my_new_strat[2][1], None))
-            try:
-                return my_strats.index(correct_new_strat)
-            except Exception as e:
-                print "Error"
-                print correct_new_strat
-                print "is not in list:"
-                for s in my_strats:
-                    print s
-                raise e
-        else:
-            # Original guess is incorrect.
-            # It's still incorrect, so no problem:
-            if my_orig_strat[2][0] != opp_new_strat[1]:
-                return my_new_i
-            # The opponent switched his base into my guess,
-            # so I change my guess to his original choice, to keep it wrong.
-            else:
-                incorrect_new_strat = (my_new_strat[0],
-                                       my_new_strat[1],
-                                       (opp_orig_strat[1], my_new_strat[2][1], None))
-                try:
-                    return my_strats.index(incorrect_new_strat)
-                except Exception as e:
-                    print "Error"
-                    print incorrect_new_strat
-                    print "is not in list:"
-                    for s in my_strats:
-                        print s
-                    raise e
-                
-    # This actually fixes the strategies themselves, by turning the ante into
-    # the boolean version, based on original guess correctness.
-    def fix_strategies_post_clash (self, strats, opp_orig):
-        # if ante is already boolean, this is not the first clash,
-        # and there's no need to touch anything
-        if isinstance(strats[0][2][0], bool):
-            return strats
-        # Otherwise, check original opponent strategy to see if guess was
-        # originally correct, and write that into strategies.
-        is_correct = (strats[0][2][0] == opp_orig[1])
-        new_strats = [(s[0], s[1], (is_correct, s[2][1], None))
-                      for s in strats]
-        return new_strats
 
 
 class Shekhtur (Character):
@@ -8966,8 +8993,7 @@ class Dash (Base):
             self.me.triggered_dodge = True
     ordered_after_trigger = True
     # Dash is usually a strong out, that's worth keeping in hand
-    def discard_penalty(self):
-        return -0.5
+    discard_penalty = 0.5
     def evaluation_bonus(self):
         if self.opponent.position in [0,6]:
             return -0.3
@@ -9077,10 +9103,8 @@ class SpecialAction (Style):
     order = 10 # presented after regular styles in lists
     # value of keeping this in hand
     value = 5.0
-    # this is only relevant for finishers -
-    # pulses and cancels never get to the reveal phase
-    def reveal_trigger (self):
-        self.special_action_available = False
+    def get_discard_penalty(self):
+        return 0
 
 # Cancel, Pulse and Finisher inherit from this
 class SpecialBase (Base):
@@ -9492,6 +9516,7 @@ class Chivalry (Token):
 class UncannyOblivion(Finisher):
     minrange = 2
     maxrange = 2
+    power = 2
     priority = 8
     def hit_trigger(self):
         # TODO: actually, against an opposing finisher, remove
@@ -10186,8 +10211,7 @@ class Clockwork (Style):
     priority = -3
     soak = 3
     # Clockwork is probably the strongest style.
-    def discard_penalty(self):
-        return -0.5
+    discard_penalty = 0.5
 
 class Hydraulic (Style):
     power = 2
@@ -10206,8 +10230,7 @@ class Grapnel (Style):
         self.me.pull ((0,1,2,3))
     ordered_hit_trigger = True
     # discard bonus to encourage use of weak style
-    def discard_penalty (self):
-        return 0.5
+    discard_penalty = -0.5
 
 class Mechanical (Style):
     power = 2
@@ -10216,8 +10239,7 @@ class Mechanical (Style):
         self.me.advance ((0,1,2,3))
     ordered_end_trigger = True
     # discard bonus to encourage use of weak style
-    def discard_penalty (self):
-        return 0.5
+    discard_penalty = -0.5
 
 # only ante effect.  spending effect handled by character
 class IronBody (Token):
@@ -10294,16 +10316,13 @@ class Fueled (Style):
     power = 1
     priority = -1
     preferred_range = 1
-    def start_trigger (self):
+    def start_trigger(self):
+        # Losing immunity handled by Cesar.has_stun_immunity().
+        # Stunning handled by Cesar.gain_threat_level().
         self.me.gain_threat_level()
-    def before_trigger (self):
-        self.me.advance ((1,2))
+    def before_trigger(self):
+        self.me.advance([1,2])
     ordered_before_trigger = True
-    # You want to use it to skip low levels
-    # (or 4, which is like skipping 0, but loses you the soak)
-    def evaluation_bonus (self):
-        return 0.25 * (1 - self.me.threat_level if self.me.threat_level < 4
-                       else 0)
 
 class Bulwark (Style):
     priority = -2
@@ -11331,8 +11350,7 @@ class Knives (Base):
     preferred_range = 1.75
     mean_priority = 5.5
     # blocking your own stun handled by Heketch.damage_trigger()
-    def discard_penalty (self):
-        return -0.5
+    discard_penalty = 0.5
 
 class Merciless (Style):
     maxrange = 1
@@ -11600,9 +11618,7 @@ class Sweeping (Style):
     power = -1
     priority = 3
     # Increasing incoming damage handled by Hikaru.take_damage()
-    # positive penalty to encourage use
-    def discard_penalty (self):
-        return 0.5
+    discard_penalty = -0.5
 
 class Geomantic (Style):
     power = 1
@@ -11992,8 +12008,9 @@ class Ignition (Style):
     def end_trigger (self):
         self.me.is_elemental = True
     # if Kallistar is human and Ignition is in discard, that delays ignition
+    @property
     def discard_penalty (self):
-        return 0 if self.me.is_elemental else -2 * self.me.elemental_value()
+        return 0 if self.me.is_elemental else 2 * self.me.elemental_value()
         
 class Blazing (Style):
     priority = 1
@@ -12269,8 +12286,7 @@ class Mutating (Style):
     @property
     def soak(self):
         return 2 if self.me.exoskeletal in self.me.discard[1] else 0
-    def discard_penalty (self):
-        return 0.5
+    discard_penalty = -0.5
     # Duplication handled on character level.
 
 class Bladed (Style):
@@ -13488,8 +13504,6 @@ class Unstable (Style):
         if self.game.reporting:
             for base in chosen_combo:
                 self.game.report (self.opponent.name + " discards " + base.name)
-        # +4 evaluation for making two bases unavailable for 2 beats
-        self.me.evaluation_bonus += 4
         
     effects_names = {choose_regain : "Oriana regains 5 MP",
                      choose_move : "Oriana moves you to any space and stuns you",
@@ -13583,7 +13597,7 @@ class Demolition(Style):
     priority = 1
     def hit_trigger(self):
         if self.opponent.get_priority() <= 1:
-            self.opponent.stun
+            self.opponent.stun()
     def after_trigger(self):
         self.me.advance(range(5))
     ordered_after_trigger = True
@@ -14723,7 +14737,6 @@ class WaveStyle (Style):
     @property
     def ordered_after_trigger(self):
         return self.me.juto_position is not None
-
 
 #Vanaah
 
