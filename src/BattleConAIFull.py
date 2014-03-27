@@ -54,7 +54,6 @@ import random
 import re
 import solve
 import time
-from BattleConAIFull import SpecialAction
 from cvxopt.coneprog import options
 
 debug_log = []
@@ -91,7 +90,9 @@ def main():
     
 def ad_hoc():
 #    duel('seth', 'kallistar', 10)
-    free_for_all(10, ['juto'], 'seth', [''], True, False)
+    free_for_all(1, ['cesar'], '', [''], True, False)
+    free_for_all(1, ['seth'], '', ['cesar'], True, False)
+    free_for_all(1, ['ottavia'], '', ['cesar','seth'], True, False)
 #    free_for_all(1, ['juto'], '', ['kehrolyn'], True, True)
 
 playable = [ 'abarene',
