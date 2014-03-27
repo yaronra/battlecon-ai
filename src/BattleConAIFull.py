@@ -43,7 +43,9 @@
 # Discard piles should be ordered.  For example, Kehrolyn's current form
 # is the top (=latest) style that isn't a special action.
 
-
+# Reveal effects happen only once, so they shouldn't happen again after a
+# clash.  Examples: Eligor's Aegis, Aria's Ionic.  This can't be helped
+# without a major refactoring.
 
 # TO CHECK OPENING DISCARDS
 # free_for_all (1, <name>, skip=['kehrolyn'], first_beats=True)
@@ -7846,7 +7848,7 @@ class Runika (Character):
             self.active_cards += list(self.active_artifacts)
             
     def activate_artifact (self, artifact):
-        if artifact in self.deactivated_artifacts:
+        if artifact not in self.active_artifacts:
             self.active_artifacts.add(artifact)
             self.deactivated_artifacts.remove(artifact)
             self.set_active_cards ()
@@ -13920,7 +13922,8 @@ class ArtificeAvarice (Finisher):
     power = 3
     priority = 3
     def start_trigger (self):
-        for artifact in self.me.deactivated_artifacts.copy():
+        # Should this activate overcharged artifacts?
+        for artifact in self.me.artifacts:
             self.me.activate_artifact(artifact)
         active = list(self.me.active_artifacts)
         prompt = 'Choose artifact to overcharge:'
