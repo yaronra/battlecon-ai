@@ -100,8 +100,7 @@ def main():
     
 def ad_hoc():
 #    duel('seth', 'kallistar', 10)
-    free_for_all(1, ['seth'], 'gerard', [], True, False)
-    free_for_all(1, ['cesar'], '', ['seth'], True, False)
+    free_for_all(1, ['cesar'], 'eligor', ['seth'], True, False)
     free_for_all(1, ['ottavia'], '', ['cesar','seth'], True, False)
 #    free_for_all(1, ['juto'], '', ['kehrolyn'], True, True)
 
@@ -7838,7 +7837,7 @@ class Runika (Character):
     def activate_artifact (self, artifact):
         if artifact not in self.active_artifacts:
             self.active_artifacts.add(artifact)
-            self.deactivated_artifacts.remove(artifact)
+            self.deactivated_artifacts.discard(artifact)
             self.set_active_cards ()
             if self.game.reporting:
                 self.game.report (artifact.name + " is activated")
