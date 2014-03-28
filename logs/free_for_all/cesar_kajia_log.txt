@@ -48,7 +48,7 @@ Kajia:
 
 
 Cesar: Bulwark Shot
-Kajia: Parasitic Dash
+Kajia: Biting Dash
 
 Cesar gains a Threat Level (current level: 1)
 Priorities:  0 | 8
@@ -77,7 +77,7 @@ Threat level: 1
 Kajia
 -----
 Life: 20
-Discard 1: Parasitic Dash
+Discard 1: Biting Dash
 Discard 2: Stinging Strike
 Special action available
 0 insects on Cesar's discard 1
@@ -88,106 +88,127 @@ Special action available
 
 
 Cesar:
-45% Phalanx Drive
-29% Phalanx Burst
-27% Inevitable Drive
+30% Phalanx Drive
+40% Phalanx Burst
+30% Inevitable Drive
 
 Kajia:
-2% Swarming Drive
-55% Swarming Grasp
-44% Biting Drive
+54% Swarming Mandibles
+42% Swarming Grasp
+4% Burrowing Drive
 
 
-Cesar: Phalanx Drive
-Kajia: Biting Drive
+Cesar: Inevitable Drive
+Kajia: Swarming Mandibles
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 3
-Kajia is active
-Kajia moves:
-
-...KC..
-
-Kajia hits
-Cesar takes 2 damage (now at 18 life)
-Kajia moves Cesar:
-
-..CK...
-
-Kajia places 1 insect token on Cesar's attack pair
-(Current insects: 1 / 0 / 0)
+Priorities:  4 | 2
+Cesar is active
 Cesar moves:
 
-...K.C.
+.....CK
 
-Kajia places 1 insect token on Cesar's attack pair
-(Current insects: 2 / 0 / 0)
 Cesar hits
+Kajia is stunned
+Kajia will have -3 priority next beat
 Kajia takes 5 damage (now at 15 life)
 Kajia is stunned
+Kajia places 1 insect token on Cesar's attack pair
+(Current insects: 1 / 0 / 0)
 
 Beat 3
 -------
 
 Cesar
 -----
-Life: 18
-Discard 1: Phalanx Drive
+Life: 20
+Discard 1: Inevitable Drive
 Discard 2: Bulwark Shot
 Special action available
+Opponent has power penalty: -3
 Threat level: 2
 
 Kajia
 -----
 Life: 15
-Discard 1: Biting Drive
-Discard 2: Parasitic Dash
+Discard 1: Swarming Mandibles
+Discard 2: Biting Dash
 Special action available
-2 insects on Cesar's discard 1
+1 insects on Cesar's discard 1
 0 insects on Cesar's discard 2
 
 
-...K.C.
-
-Unbeatable strategy for Kajia: Stinging Mandibles: -0.65
-Unbeatable strategy for Kajia: Stinging Shot: -0.26
-Unbeatable strategy for Kajia: Swarming Mandibles: -1.31
-Unbeatable strategy for Kajia: Swarming Shot: -0.80
-Unbeatable strategy for Kajia: Burrowing Mandibles: -2.54
-Unbeatable strategy for Kajia: Burrowing Shot: -0.51
-Unbeatable strategy for Kajia: Burrowing Burst: -1.82
+.....CK
 
 
 Cesar:
-22% Unstoppable Burst
-21% Unstoppable Grasp
-56% Fueled Burst
-1% Inevitable Strike
+71% Phalanx Suppression
+19% Phalanx Strike
+4% Unstoppable Strike
+6% Unstoppable Burst
 
 Kajia:
-40% Stinging Mandibles
-25% Stinging Shot
-11% Swarming Mandibles
-24% Burrowing Mandibles
+1% Stinging Strike
+4% Stinging Drive
+1% Burrowing Drive
+94% Special Pulse
 
 
-Cesar: Fueled Burst
-Kajia: Stinging Shot
+Cesar: Phalanx Suppression
+Kajia: Special Pulse
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  0 | 3
-Kajia is active
+Kajia Pulses:
+
+CK.....
+
+
+Beat 3
+-------
+
+Cesar
+-----
+Life: 20
+Discard 1: Phalanx Suppression
+Discard 2: Inevitable Drive
+Special action available
+Threat level: 3
+
+Kajia
+-----
+Life: 15
+Discard 1: Swarming Mandibles
+Discard 2: Biting Dash
+0 insects on Cesar's discard 1
+1 insects on Cesar's discard 2
+
+
+CK.....
+
+Unbeatable strategy for Cesar: Unstoppable Burst: 1.00
+Unbeatable strategy for Cesar: Unstoppable Dash: 0.11
+
+
+Cesar:
+92% Unstoppable Burst
+8% Fueled Grasp
+
+Kajia:
+63% Stinging Strike
+37% Burrowing Strike
+
+
+Cesar: Unstoppable Burst
+Kajia: Stinging Strike
+
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Cesar moves:
-
-...K..C
-
+Priorities:  -1 | 4
+Kajia is active
 Kajia hits
-Kajia places 1 insect token on Cesar's attack pair
-(Current insects: 1 / 2 / 0)
-Cesar takes 3 damage (now at 15 life)
+Cesar takes 4 damage (now at 16 life)
 Cesar is stunned
+Cesar loses 1 life (now at 15)
 
 Beat 4
 -------
@@ -195,116 +216,138 @@ Beat 4
 Cesar
 -----
 Life: 15
-Discard 1: Fueled Burst
-Discard 2: Phalanx Drive
+Discard 1: Unstoppable Burst
+Discard 2: Phalanx Suppression
 Special action available
 Threat level: 4
 
 Kajia
 -----
 Life: 15
-Discard 1: Stinging Shot
-Discard 2: Biting Drive
-Special action available
-1 insects on Cesar's discard 1
-2 insects on Cesar's discard 2
+Discard 1: Stinging Strike
+Discard 2: Swarming Mandibles
+0 insects on Cesar's discard 1
+0 insects on Cesar's discard 2
 
 
-...K..C
-
-Unbeatable strategy for Kajia: Swarming Mandibles: -0.44
+CK.....
 
 
 Cesar:
-80% Bulwark Dash
-12% Inevitable Suppression
-8% Inevitable Shot
+49% Bulwark Strike
+12% Bulwark Shot
+20% Bulwark Drive
+16% Bulwark Grasp
+3% Inevitable Drive
 
 Kajia:
-82% Swarming Mandibles
-7% Burrowing Mandibles
-11% Parasitic Grasp
+57% Burrowing Drive
+3% Burrowing Burst
+11% Burrowing Dash
+14% Parasitic Shot
+16% Parasitic Burst
 
 
-Cesar: Bulwark Dash
-Kajia: Swarming Mandibles
+Cesar: Bulwark Shot
+Kajia: Parasitic Shot
 
 Cesar gains a Threat Level (current level: 0)
-Priorities:  7 | 2
-Cesar is active
-Cesar moves:
-
-...KC..
-
-Cesar moves:
-
-.C.K...
-
-Kajia places 1 insect token on Cesar's attack pair
-(Current insects: 1 / 1 / 2)
-Kajia moves:
-
-.CK....
-
-Kajia misses
-Kajia moves:
-
-KC.....
-
-Kajia places 1 insect token on Cesar's attack pair
-(Current insects: 2 / 1 / 2)
-Cesar loses 2 life (now at 13)
+Priorities:  0 | 1
+Kajia is active
+Kajia hits
+Cesar takes 3 damage (now at 12 life)
+Cesar hits
+Kajia takes 3 damage (now at 12 life)
+Kajia is stunned
 
 Beat 5
 -------
 
 Cesar
 -----
-Life: 13
-Discard 1: Bulwark Dash
-Discard 2: Fueled Burst
+Life: 12
+Discard 1: Bulwark Shot
+Discard 2: Unstoppable Burst
 Special action available
 Threat level: 0
 
 Kajia
 -----
-Life: 15
-Discard 1: Swarming Mandibles
-Discard 2: Stinging Shot
-Special action available
-2 insects on Cesar's discard 1
-1 insects on Cesar's discard 2
+Life: 12
+Discard 1: Parasitic Shot
+Discard 2: Stinging Strike
+0 insects on Cesar's discard 1
+0 insects on Cesar's discard 2
 
 
-KC.....
+CK.....
 
-Unbeatable strategy for Kajia: Burrowing Drive: -0.33
+Unbeatable strategy for Kajia: Burrowing Dash: -0.57
 
 
 Cesar:
-47% Phalanx Strike
-14% Inevitable Suppression
-39% Inevitable Grasp
+28% Phalanx Suppression
+0% Phalanx Drive
+16% Fueled Dash
+26% Inevitable Drive
+30% Inevitable Grasp
 
 Kajia:
-47% Burrowing Drive
-3% Burrowing Grasp
-49% Biting Dash
+7% Swarming Mandibles
+17% Swarming Burst
+4% Burrowing Burst
+21% Burrowing Grasp
+51% Burrowing Dash
 
 
-Cesar: Phalanx Strike
-Kajia: Biting Dash
+Cesar: Fueled Dash
+Kajia: Burrowing Dash
 
 Cesar gains a Threat Level (current level: 1)
-Cesar gets -2 power
-Priorities:  1 | 8
-Kajia is active
+Priorities:  8 | 8
+Clash!
+
+
+Cesar: Fueled Grasp
+Kajia: Burrowing Grasp
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  4 | 4
+Clash!
+
+
+Cesar: Fueled Strike
+Kajia: Burrowing Mandibles
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  2 | 2
+Clash!
+
+
+Cesar: Fueled Drive
+Kajia: Burrowing Burst
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  3 | 0
+Cesar is active
+Cesar gains a Threat Level (current level: 2)
 Kajia moves:
 
-.C..K..
+C.K....
 
-Cesar misses
-Cesar loses 1 life (now at 12)
+Cesar moves:
+
+.CK....
+
+Cesar moves:
+
+..KC...
+
+Kajia places 1 insect token on Cesar's attack pair
+(Current insects: 1 / 0 / 0)
+Cesar hits
+Kajia takes 5 damage (now at 7 life)
+Kajia is stunned
 
 Beat 6
 -------
@@ -312,118 +355,121 @@ Beat 6
 Cesar
 -----
 Life: 12
-Discard 1: Phalanx Strike
-Discard 2: Bulwark Dash
+Discard 1: Fueled Drive
+Discard 2: Bulwark Shot
 Special action available
-Threat level: 1
+Threat level: 2
 
 Kajia
 -----
-Life: 15
-Discard 1: Biting Dash
-Discard 2: Swarming Mandibles
-Special action available
-0 insects on Cesar's discard 1
-2 insects on Cesar's discard 2
+Life: 7
+Discard 1: Burrowing Burst
+Discard 2: Parasitic Shot
+1 insects on Cesar's discard 1
+0 insects on Cesar's discard 2
 
 
-.C..K..
+..KC...
+
+Unbeatable strategy for Kajia: Stinging Dash: -0.41
+Unbeatable strategy for Kajia: Swarming Mandibles: -2.19
+Unbeatable strategy for Kajia: Swarming Dash: -1.40
+Unbeatable strategy for Kajia: Biting Dash: -0.75
 
 
 Cesar:
-34% Unstoppable Shot
-2% Unstoppable Drive
-3% Fueled Drive
-15% Inevitable Suppression
-47% Inevitable Shot
+77% Phalanx Suppression
+5% Phalanx Strike
+13% Unstoppable Burst
+5% Inevitable Grasp
 
 Kajia:
-16% Burrowing Shot
-39% Burrowing Drive
-44% Burrowing Burst
-0% Parasitic Burst
-0% Parasitic Grasp
+50% Swarming Mandibles
+10% Swarming Drive
+23% Biting Strike
+17% Biting Drive
 
 
-Cesar: Unstoppable Shot
-Kajia: Burrowing Burst
+Cesar: Phalanx Suppression
+Kajia: Biting Drive
 
-Cesar gains a Threat Level (current level: 2)
-Kajia gets +1 power
-Kajia gets +1 priority
-Priorities:  0 | 1
+Cesar gains a Threat Level (current level: 3)
+Cesar gets -1 power
+Priorities:  0 | 3
 Kajia is active
-Kajia moves:
-
-.C....K
-
-Cesar moves:
-
-..C...K
-
+Kajia hits
+Cesar takes 2 damage (now at 10 life)
 Kajia moves Cesar:
 
-...C..K
+C.K....
 
-Kajia hits
-Cesar takes 4 damage (now at 8 life)
+Kajia places 1 insect token on Cesar's attack pair
+(Current insects: 1 / 1 / 0)
 Cesar hits
-Kajia takes 5 damage (now at 10 life)
+Kajia takes 4 damage (now at 3 life)
 Kajia is stunned
-Cesar loses 2 life (now at 6)
+Cesar moves:
+
+.CK....
+
 
 Beat 7
 -------
 
 Cesar
 -----
-Life: 6
-Discard 1: Unstoppable Shot
-Discard 2: Phalanx Strike
+Life: 10
+Discard 1: Phalanx Suppression
+Discard 2: Fueled Drive
 Special action available
-Threat level: 2
+Threat level: 3
 
 Kajia
 -----
-Life: 10
-Discard 1: Burrowing Burst
-Discard 2: Biting Dash
-Special action available
-0 insects on Cesar's discard 1
-0 insects on Cesar's discard 2
+Life: 3
+Discard 1: Biting Drive
+Discard 2: Burrowing Burst
+1 insects on Cesar's discard 1
+1 insects on Cesar's discard 2
 
 
-...C..K
+.CK....
+
+Unbeatable strategy for Cesar: Unstoppable Shot: 0.99
+Unbeatable strategy for Cesar: Unstoppable Dash: 0.33
 
 
 Cesar:
-41% Fueled Suppression
-18% Bulwark Drive
-13% Bulwark Burst
-16% Inevitable Drive
-11% Inevitable Burst
+82% Unstoppable Shot
+18% Bulwark Burst
 
 Kajia:
-46% Stinging Mandibles
-1% Stinging Drive
-15% Swarming Strike
-22% Swarming Shot
-16% Swarming Grasp
+83% Stinging Mandibles
+17% Parasitic Mandibles
 
 
-Cesar: Fueled Suppression
-Kajia: Swarming Grasp
+Cesar: Bulwark Burst
+Kajia: Stinging Mandibles
 
-Cesar gains a Threat Level (current level: 3)
-Priorities:  1 | 4
-Kajia is active
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Kajia misses
+Priorities:  -1 | 4
+Kajia is active
 Cesar moves:
 
-.....CK
+C.K....
 
+Kajia moves:
+
+CK.....
+
+Kajia hits
+Kajia places 1 insect token on Cesar's attack pair
+(Current insects: 1 / 1 / 1)
+Cesar takes 3 damage (now at 7 life)
+Cesar is stunned
+Cesar is stunned
+Cesar loses 1 life (now at 6)
 
 Beat 8
 -------
@@ -431,216 +477,186 @@ Beat 8
 Cesar
 -----
 Life: 6
-Discard 1: Fueled Suppression
-Discard 2: Unstoppable Shot
+Discard 1: Bulwark Burst
+Discard 2: Phalanx Suppression
 Special action available
 Threat level: 4
 
 Kajia
 -----
-Life: 10
-Discard 1: Swarming Grasp
-Discard 2: Burrowing Burst
-Special action available
-0 insects on Cesar's discard 1
-0 insects on Cesar's discard 2
+Life: 3
+Discard 1: Stinging Mandibles
+Discard 2: Biting Drive
+1 insects on Cesar's discard 1
+1 insects on Cesar's discard 2
 
 
-.....CK
+CK.....
 
-Unbeatable strategy for Kajia: Stinging Drive: -0.91
+Unbeatable strategy for Kajia: Swarming Strike: -1.25
+Unbeatable strategy for Kajia: Swarming Shot: -1.31
+Unbeatable strategy for Kajia: Swarming Burst: -0.51
+Unbeatable strategy for Kajia: Swarming Grasp: -1.20
 
 
 Cesar:
-2% Inevitable Strike
-10% Inevitable Drive
-88% Special Level 4 Protocol
+5% Unstoppable Drive
+18% Unstoppable Dash
+3% Inevitable Strike
+1% Inevitable Shot
+2% Inevitable Drive
+72% Inevitable Dash
 
 Kajia:
-42% Parasitic Mandibles
-10% Parasitic Drive
-49% Parasitic Dash
+71% Swarming Shot
+11% Burrowing Strike
+3% Burrowing Grasp
+5% Burrowing Dash
+6% Parasitic Shot
+4% Parasitic Burst
 
 
-Cesar: Special Level 4 Protocol
-Kajia: Parasitic Mandibles
+Cesar: Unstoppable Dash
+Kajia: Swarming Shot
 
 Cesar gains a Threat Level (current level: 0)
-Priorities:  11 | 2
+Priorities:  7 | 1
 Cesar is active
-Cesar hits
-Kajia takes 7 damage (now at 3 life)
-Kajia is stunned
+Cesar moves:
+
+.K.C...
+
+Kajia places 1 insect token on Cesar's attack pair
+(Current insects: 1 / 1 / 1)
+Kajia misses
+Cesar loses 1 life (now at 5)
 
 Beat 9
 -------
 
 Cesar
 -----
-Life: 6
-Discard 1: Fueled Suppression
-Discard 2: Unstoppable Shot
+Life: 5
+Discard 1: Unstoppable Dash
+Discard 2: Bulwark Burst
+Special action available
 Threat level: 0
 
 Kajia
 -----
 Life: 3
-Discard 1: Parasitic Mandibles
-Discard 2: Swarming Grasp
-Special action available
-0 insects on Cesar's discard 1
-0 insects on Cesar's discard 2
+Discard 1: Swarming Shot
+Discard 2: Stinging Mandibles
+1 insects on Cesar's discard 1
+1 insects on Cesar's discard 2
 
 
-.....CK
-
-Unbeatable strategy for Kajia: Burrowing Dash: -0.19
+.K.C...
 
 
 Cesar:
-33% Phalanx Strike
-67% Bulwark Burst
+2% Phalanx Suppression
+31% Phalanx Strike
+8% Fueled Suppression
+3% Fueled Strike
+31% Inevitable Suppression
+24% Inevitable Shot
 
 Kajia:
-5% Stinging Drive
-95% Burrowing Dash
+2% Burrowing Drive
+0% Burrowing Burst
+27% Burrowing Dash
+15% Biting Drive
+20% Biting Burst
+37% Biting Dash
 
 
-Cesar: Phalanx Strike
-Kajia: Burrowing Dash
+Cesar: Inevitable Shot
+Kajia: Biting Burst
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  1 | 8
-Kajia is active
+Cesar gets -2 power
+Priorities:  2 | 0
+Cesar is active
 Kajia moves:
 
-..K..C.
+K..C...
 
-Cesar misses
+Cesar hits
+Kajia is stunned
+Kajia will have -3 priority next beat
+Kajia takes 2 damage (now at 1 life)
+Cesar loses 1 life (now at 4)
 
 Beat 10
 -------
 
 Cesar
 -----
-Life: 6
-Discard 1: Phalanx Strike
-Discard 2: Fueled Suppression
+Life: 4
+Discard 1: Inevitable Shot
+Discard 2: Unstoppable Dash
+Special action available
+Opponent has power penalty: -3
 Threat level: 1
 
 Kajia
 -----
-Life: 3
-Discard 1: Burrowing Dash
-Discard 2: Parasitic Mandibles
-Special action available
+Life: 1
+Discard 1: Biting Burst
+Discard 2: Swarming Shot
 0 insects on Cesar's discard 1
-0 insects on Cesar's discard 2
+1 insects on Cesar's discard 2
 
-
-..K..C.
-
-
-Cesar:
-6% Unstoppable Shot
-42% Unstoppable Drive
-39% Bulwark Shot
-14% Bulwark Drive
-
-Kajia:
-1% Swarming Strike
-41% Swarming Drive
-52% Swarming Burst
-6% Special Imago Emergence
-
-
-Cesar: Bulwark Drive
-Kajia: Swarming Burst
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 0
-Cesar is active
-Kajia moves:
-
-K....C.
-
-Cesar moves:
 
 K..C...
 
-Cesar misses
-Cesar moves:
-
-KC.....
-
-Kajia misses
-Kajia places 1 insect token on Cesar's attack pair
-(Current insects: 1 / 0 / 0)
-
-Beat 11
--------
-
-Cesar
------
-Life: 6
-Discard 1: Bulwark Drive
-Discard 2: Phalanx Strike
-Threat level: 2
-
-Kajia
------
-Life: 3
-Discard 1: Swarming Burst
-Discard 2: Burrowing Dash
-Special action available
-1 insects on Cesar's discard 1
-0 insects on Cesar's discard 2
-
-
-KC.....
-
-Unbeatable strategy for Cesar: Unstoppable Suppression: 8.00
-Unbeatable strategy for Cesar: Unstoppable Shot: 8.00
+Unbeatable strategy for Cesar: Phalanx Suppression: 0.02
+Unbeatable strategy for Cesar: Phalanx Burst: 1.05
+Unbeatable strategy for Cesar: Fueled Suppression: 6.00
+Unbeatable strategy for Cesar: Bulwark Suppression: 0.37
+Unbeatable strategy for Cesar: Bulwark Strike: 0.07
 
 
 Cesar:
-24% Unstoppable Suppression
-24% Unstoppable Shot
-27% Unstoppable Grasp
-24% Inevitable Shot
+100% Fueled Suppression
 
 Kajia:
-3% Stinging Mandibles
-4% Stinging Strike
-5% Stinging Shot
-3% Stinging Drive
-7% Stinging Grasp
-2% Parasitic Mandibles
-5% Parasitic Strike
-3% Parasitic Shot
-3% Parasitic Drive
-5% Parasitic Grasp
-4% Biting Mandibles
-6% Biting Strike
-3% Biting Shot
-6% Biting Drive
-6% Biting Grasp
-14% Special Wormwood
-23% Special Imago Emergence
+6% Stinging Mandibles
+6% Stinging Strike
+6% Stinging Drive
+6% Stinging Grasp
+6% Stinging Dash
+6% Burrowing Mandibles
+7% Burrowing Strike
+6% Burrowing Drive
+6% Burrowing Grasp
+14% Burrowing Dash
+5% Parasitic Mandibles
+7% Parasitic Strike
+5% Parasitic Drive
+6% Parasitic Grasp
+8% Parasitic Dash
 
 
-Cesar: Unstoppable Grasp
-Kajia: Special Imago Emergence
+Cesar: Fueled Suppression
+Kajia: Parasitic Dash
 
-Cesar gains a Threat Level (current level: 3)
-Priorities:  3 | 7
+Cesar gains a Threat Level (current level: 2)
+Priorities:  1 | 8
 Kajia is active
-Kajia misses
+Cesar gains a Threat Level (current level: 3)
+Kajia moves:
+
+.K.C...
+
+Cesar moves:
+
+CK.....
+
+Kajia places 1 insect token on Cesar's attack pair
+(Current insects: 1 / 0 / 1)
 Cesar hits
-Cesar moves Kajia:
-
-.CK....
-
 Kajia takes 5 damage (now at 0 life)
 CESAR WINS!
-total_time: 8
+total_time: 7

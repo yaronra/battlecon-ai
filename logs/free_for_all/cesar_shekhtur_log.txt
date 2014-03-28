@@ -41,23 +41,26 @@ Shekhtur:
 9% Spiral Burst
 
 
-Cesar: Bulwark Suppression
+Cesar: Phalanx Shot
 Shekhtur: Unleashed Shot
 
 Cesar gains a Threat Level (current level: 1)
 Priorities:  0 | 2
 Shekhtur is active
-Shekhtur misses
+Shekhtur hits
+Cesar takes 2 damage (now at 18 life)
+Shekhtur gains 2 Malice tokens
 Shekhtur moves:
 
 .C....S
 
-Cesar misses
 Cesar moves:
 
-C.....S
+...C..S
 
-Shekhtur gains 2 Malice tokens
+Cesar hits
+Shekhtur takes 4 damage (now at 16 life)
+Shekhtur is stunned
 Shekhtur will have 1 power next beat
 
 Beat 2
@@ -65,60 +68,81 @@ Beat 2
 
 Cesar
 -----
-Life: 20
-Discard 1: Bulwark Suppression
+Life: 18
+Discard 1: Phalanx Shot
 Discard 2: Fueled Strike
 Special action available
 Threat level: 1
 
 Shekhtur
 --------
-Life: 20
+Life: 16
 Discard 1: Unleashed Shot
 Discard 2: Combination Brand
 Special action available
 Power bonus: 1
 5 Malice token
+Shekhtur hit her opponent last beat
 
 
-C.....S
-
-Unbeatable strategy for Shekhtur: Reaver Strike: -0.62
-Unbeatable strategy for Shekhtur: Reaver Strike (1 token): -0.32
-Unbeatable strategy for Shekhtur: Reaver Strike (2 tokens): -0.02
-Unbeatable strategy for Shekhtur: Reaver Burst: -0.34
-Unbeatable strategy for Shekhtur: Reaver Grasp: -0.77
-Unbeatable strategy for Shekhtur: Reaver Grasp (1 token): -0.47
-Unbeatable strategy for Shekhtur: Reaver Grasp (2 tokens): -0.17
-Unbeatable strategy for Shekhtur: Spiral Burst: -0.57
+...C..S
 
 
 Cesar:
-45% Phalanx Shot
-21% Phalanx Burst
-10% Unstoppable Burst
-11% Inevitable Shot
-14% Inevitable Burst
+15% Bulwark Suppression
+62% Bulwark Drive
+21% Bulwark Burst
+3% Inevitable Drive
 
 Shekhtur:
-40% Reaver Grasp
-15% Spiral Strike
-1% Spiral Drive
-22% Spiral Burst
-23% Spiral Dash
+13% Reaver Drive
+10% Jugular Burst (2 tokens)
+10% Jugular Burst (3 tokens)
+9% Jugular Burst (4 tokens)
+19% Jugular Burst (5 tokens)
+40% Spiral Strike
+0% Spiral Drive (1 token)
 
 
-Cesar: Phalanx Burst
-Shekhtur: Reaver Grasp
+Cesar: Bulwark Drive
+Shekhtur: Spiral Strike
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  -1 | 5
+Priorities:  2 | 2
+Clash!
+
+
+Cesar: Bulwark Suppression
+Shekhtur: Spiral Burst
+
+Cesar gains a Threat Level (current level: 2)
+Priorities:  0 | 0
+Clash!
+
+
+Cesar: Bulwark Grasp
+Shekhtur: Spiral Drive
+
+Cesar gains a Threat Level (current level: 2)
+Priorities:  3 | 3
+Clash!
+
+
+Cesar: Bulwark Burst
+Shekhtur: Spiral Grasp
+
+Cesar gains a Threat Level (current level: 2)
+Priorities:  -1 | 4
 Shekhtur is active
+Cesar moves:
+
+.C....S
+
 Shekhtur misses
 Cesar misses
-Shekhtur moves:
+Cesar moves:
 
-C...S..
+....C.S
 
 
 Beat 3
@@ -126,275 +150,8 @@ Beat 3
 
 Cesar
 -----
-Life: 20
-Discard 1: Phalanx Burst
-Discard 2: Bulwark Suppression
-Special action available
-Threat level: 2
-
-Shekhtur
---------
-Life: 20
-Discard 1: Reaver Grasp
-Discard 2: Unleashed Shot
-Special action available
-5 Malice token
-
-
-C...S..
-
-Unbeatable strategy for Shekhtur: Combination Dash: -1.02
-Unbeatable strategy for Shekhtur: Combination Dash (1 token): -0.72
-Unbeatable strategy for Shekhtur: Combination Dash (2 tokens): -0.42
-Unbeatable strategy for Shekhtur: Combination Dash (3 tokens): -0.12
-
-
-Cesar:
-9% Unstoppable Shot
-24% Fueled Strike
-67% Fueled Grasp
-
-Shekhtur:
-8% Combination Drive
-18% Combination Burst
-74% Combination Dash
-
-
-Cesar: Fueled Strike
-Shekhtur: Combination Dash
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  2 | 9
-Shekhtur is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Shekhtur moves:
-
-C.....S
-
-
-Beat 4
--------
-
-Cesar
------
-Life: 20
-Discard 1: Fueled Strike
-Discard 2: Phalanx Burst
-Special action available
-Threat level: 4
-
-Shekhtur
---------
-Life: 20
-Discard 1: Combination Dash
-Discard 2: Reaver Grasp
-Special action available
-5 Malice token
-
-
-C.....S
-
-
-Cesar:
-20% Unstoppable Suppression
-12% Unstoppable Grasp
-28% Bulwark Suppression
-8% Bulwark Drive
-19% Inevitable Suppression
-12% Inevitable Shot
-
-Shekhtur:
-1% Unleashed Strike (1 token)
-1% Unleashed Strike (2 tokens)
-42% Spiral Strike
-4% Spiral Shot
-0% Spiral Drive
-1% Spiral Drive (1 token)
-50% Spiral Burst
-
-
-Cesar: Bulwark Drive
-Shekhtur: Spiral Strike
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  2 | 2
-Clash!
-
-
-Cesar: Bulwark Shot
-Shekhtur: Spiral Burst
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  0 | 0
-Clash!
-
-
-Cesar: Bulwark Suppression
-Shekhtur: Spiral Brand
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  0 | 1
-Shekhtur is active
-Shekhtur moves:
-
-C..S...
-
-Shekhtur gets -3 power
-Shekhtur misses
-Cesar misses
-
-Beat 5
--------
-
-Cesar
------
-Life: 20
-Discard 1: Bulwark Suppression
-Discard 2: Fueled Strike
-Special action available
-Threat level: 0
-
-Shekhtur
---------
-Life: 20
-Discard 1: Spiral Brand
-Discard 2: Combination Dash
-Special action available
-5 Malice token
-
-
-C..S...
-
-Unbeatable strategy for Shekhtur: Reaver Drive: -0.15
-Unbeatable strategy for Shekhtur: Reaver Drive (1 token): -0.05
-Unbeatable strategy for Shekhtur: Reaver Drive (2 tokens): -0.05
-Unbeatable strategy for Shekhtur: Reaver Drive (3 tokens): -0.05
-Unbeatable strategy for Shekhtur: Reaver Burst (1 token): -0.04
-
-
-Cesar:
-96% Phalanx Shot
-3% Inevitable Shot
-1% Inevitable Drive
-
-Shekhtur:
-12% Unleashed Burst (2 tokens)
-9% Reaver Shot
-15% Jugular Drive
-14% Jugular Drive (1 token)
-13% Jugular Drive (2 tokens)
-12% Jugular Drive (3 tokens)
-13% Jugular Drive (4 tokens)
-13% Jugular Drive (5 tokens)
-
-
-Cesar: Phalanx Shot
-Shekhtur: Jugular Drive (5 tokens)
-
-Cesar gains a Threat Level (current level: 1)
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Priorities:  0 | 11
-Shekhtur is active
-Shekhtur moves:
-
-CS.....
-
-Shekhtur hits
-Shekhtur moves Cesar:
-
-.SC....
-
-Cesar takes 4 damage (now at 16 life)
-Shekhtur gains 4 Malice tokens
-Cesar hits
-Shekhtur takes 4 damage (now at 16 life)
-Shekhtur is stunned
-Shekhtur discards a Malice token
-
-Beat 6
--------
-
-Cesar
------
-Life: 16
-Discard 1: Phalanx Shot
-Discard 2: Bulwark Suppression
-Special action available
-Threat level: 1
-
-Shekhtur
---------
-Life: 16
-Discard 1: Jugular Drive
-Discard 2: Spiral Brand
-Special action available
-3 Malice token
-Shekhtur hit her opponent last beat
-
-
-.SC....
-
-Unbeatable strategy for Shekhtur: Unleashed Dash: -1.27
-Unbeatable strategy for Shekhtur: Unleashed Dash (1 token): -0.97
-Unbeatable strategy for Shekhtur: Unleashed Dash (2 tokens): -0.67
-Unbeatable strategy for Shekhtur: Unleashed Dash (3 tokens): -0.37
-Unbeatable strategy for Shekhtur: Reaver Dash: -0.37
-Unbeatable strategy for Shekhtur: Reaver Dash (1 token): -0.07
-
-
-Cesar:
-83% Unstoppable Strike
-7% Unstoppable Drive
-3% Unstoppable Burst
-0% Inevitable Drive
-6% Inevitable Dash
-
-Shekhtur:
-3% Unleashed Burst
-11% Unleashed Dash
-83% Unleashed Dash (1 token)
-2% Combination Strike
-2% Combination Strike (2 tokens)
-
-
-Cesar: Unstoppable Strike
-Shekhtur: Unleashed Dash
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  1 | 9
-Shekhtur is active
-Shekhtur moves:
-
-S.C....
-
-Cesar moves:
-
-SC.....
-
-Shekhtur moves:
-
-.C..S..
-
-Cesar moves:
-
-...CS..
-
-Cesar misses
-Shekhtur gains 2 Malice tokens
-Shekhtur will have 1 power next beat
-
-Beat 7
--------
-
-Cesar
------
-Life: 16
-Discard 1: Unstoppable Strike
+Life: 18
+Discard 1: Bulwark Burst
 Discard 2: Phalanx Shot
 Special action available
 Threat level: 2
@@ -402,64 +159,385 @@ Threat level: 2
 Shekhtur
 --------
 Life: 16
-Discard 1: Unleashed Dash
-Discard 2: Jugular Drive
+Discard 1: Spiral Grasp
+Discard 2: Unleashed Shot
 Special action available
-Power bonus: 1
 5 Malice token
 
 
-...CS..
+....C.S
 
-Unbeatable strategy for Shekhtur: Reaver Brand (3 tokens): -2.42
-Unbeatable strategy for Shekhtur: Reaver Brand (4 tokens): -1.78
-Unbeatable strategy for Shekhtur: Reaver Brand (5 tokens): -1.48
-Unbeatable strategy for Shekhtur: Reaver Shot (3 tokens): -0.08
-Unbeatable strategy for Shekhtur: Reaver Shot (4 tokens): -0.08
-Unbeatable strategy for Shekhtur: Reaver Burst (3 tokens): -0.40
-Unbeatable strategy for Shekhtur: Reaver Burst (4 tokens): -0.10
-Unbeatable strategy for Shekhtur: Spiral Brand (4 tokens): -1.02
-Unbeatable strategy for Shekhtur: Spiral Strike (3 tokens): -0.25
+Unbeatable strategy for Shekhtur: Combination Brand (2 tokens): -2.39
+Unbeatable strategy for Shekhtur: Combination Brand (3 tokens): -2.09
+Unbeatable strategy for Shekhtur: Combination Brand (4 tokens): -1.79
+Unbeatable strategy for Shekhtur: Combination Brand (5 tokens): -1.49
+Unbeatable strategy for Shekhtur: Combination Burst (3 tokens): -1.62
+Unbeatable strategy for Shekhtur: Combination Burst (4 tokens): -0.72
+Unbeatable strategy for Shekhtur: Combination Burst (5 tokens): -0.72
+Unbeatable strategy for Shekhtur: Reaver Brand (2 tokens): -2.40
+Unbeatable strategy for Shekhtur: Reaver Brand (3 tokens): -2.10
+Unbeatable strategy for Shekhtur: Reaver Brand (4 tokens): -1.80
+Unbeatable strategy for Shekhtur: Reaver Brand (5 tokens): -1.04
+Unbeatable strategy for Shekhtur: Reaver Strike (1 token): -1.16
+Unbeatable strategy for Shekhtur: Reaver Strike (2 tokens): -1.16
+Unbeatable strategy for Shekhtur: Reaver Strike (3 tokens): -1.16
+Unbeatable strategy for Shekhtur: Reaver Strike (4 tokens): -1.16
+Unbeatable strategy for Shekhtur: Reaver Strike (5 tokens): -0.86
+Unbeatable strategy for Shekhtur: Jugular Brand: -1.99
+Unbeatable strategy for Shekhtur: Jugular Brand (1 token): -1.99
+Unbeatable strategy for Shekhtur: Jugular Brand (2 tokens): -1.99
+Unbeatable strategy for Shekhtur: Jugular Brand (3 tokens): -1.99
+Unbeatable strategy for Shekhtur: Jugular Brand (4 tokens): -1.99
+Unbeatable strategy for Shekhtur: Jugular Brand (5 tokens): -3.49
+Unbeatable strategy for Shekhtur: Jugular Burst (1 token): -0.82
 
 
 Cesar:
-18% Fueled Suppression
-28% Fueled Burst
-15% Bulwark Dash
-13% Inevitable Drive
-21% Inevitable Grasp
-5% Inevitable Dash
+43% Unstoppable Drive
+10% Inevitable Drive
+47% Inevitable Dash
 
 Shekhtur:
-0% Combination Grasp (3 tokens)
-6% Combination Grasp (5 tokens)
-59% Reaver Brand (3 tokens)
-28% Reaver Brand (4 tokens)
-4% Reaver Burst
-3% Spiral Burst
+13% Reaver Brand (3 tokens)
+17% Jugular Brand (1 token)
+14% Jugular Brand (2 tokens)
+13% Jugular Brand (3 tokens)
+18% Jugular Brand (4 tokens)
+14% Jugular Drive (4 tokens)
+12% Jugular Drive (5 tokens)
 
 
-Cesar: Bulwark Dash
-Shekhtur: Reaver Brand (3 tokens)
+Cesar: Inevitable Drive
+Shekhtur: Jugular Drive (4 tokens)
 
 Cesar gains a Threat Level (current level: 3)
 Shekhtur antes a Malice token
 Shekhtur antes a Malice token
 Shekhtur antes a Malice token
-Priorities:  7 | 5
+Shekhtur antes a Malice token
+Priorities:  4 | 10
+Shekhtur is active
+Shekhtur moves:
+
+...SC..
+
+Shekhtur hits
+Shekhtur moves Cesar:
+
+..CS...
+
+Cesar takes 4 damage (now at 14 life)
+Shekhtur gains 4 Malice tokens
+Cesar moves:
+
+...SC..
+
+Cesar hits
+Shekhtur is stunned
+Shekhtur will have -3 priority next beat
+Shekhtur takes 6 damage (now at 10 life)
+Shekhtur is stunned
+Shekhtur discards a Malice token
+Shekhtur discards a Malice token
+
+Beat 4
+-------
+
+Cesar
+-----
+Life: 14
+Discard 1: Inevitable Drive
+Discard 2: Bulwark Burst
+Special action available
+Opponent has power penalty: -3
+Threat level: 3
+
+Shekhtur
+--------
+Life: 10
+Discard 1: Jugular Drive
+Discard 2: Spiral Grasp
+Special action available
+3 Malice token
+Shekhtur hit her opponent last beat
+
+
+...SC..
+
+Unbeatable strategy for Cesar: Unstoppable Suppression: 2.79
+Unbeatable strategy for Cesar: Unstoppable Shot: 1.69
+Unbeatable strategy for Cesar: Unstoppable Dash: 1.01
+
+
+Cesar:
+91% Unstoppable Suppression
+9% Fueled Strike
+
+Shekhtur:
+60% Unleashed Brand
+40% Combination Brand
+
+
+Cesar: Unstoppable Suppression
+Shekhtur: Unleashed Brand
+
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  0 | 2
+Shekhtur is active
+Shekhtur hits
+Cesar has 2 soak
+Cesar takes 0 damage (now at 14 life)
+Shekhtur spends a Malice token
+Shekhtur spends a Malice token
+Cesar loses 1 life (now at 13)
+Shekhtur gains 1 life (now at 11)
+Shekhtur moves:
+
+..S.C..
+
+Cesar moves:
+
+..SC...
+
+Shekhtur gains 2 Malice tokens
+Shekhtur will have 1 power next beat
+Cesar moves:
+
+..S...C
+
+
+Beat 5
+-------
+
+Cesar
+-----
+Life: 13
+Discard 1: Unstoppable Suppression
+Discard 2: Inevitable Drive
+Special action available
+Threat level: 4
+
+Shekhtur
+--------
+Life: 11
+Discard 1: Unleashed Brand
+Discard 2: Jugular Drive
+Special action available
+Power bonus: 1
+3 Malice token
+Shekhtur hit her opponent last beat
+
+
+..S...C
+
+Unbeatable strategy for Shekhtur: Reaver Shot: -1.85
+Unbeatable strategy for Shekhtur: Reaver Shot (1 token): -1.55
+Unbeatable strategy for Shekhtur: Reaver Shot (2 tokens): -1.25
+Unbeatable strategy for Shekhtur: Reaver Shot (3 tokens): -0.95
+Unbeatable strategy for Shekhtur: Spiral Shot: -1.27
+Unbeatable strategy for Shekhtur: Spiral Shot (1 token): -1.27
+Unbeatable strategy for Shekhtur: Spiral Shot (2 tokens): -1.27
+Unbeatable strategy for Shekhtur: Spiral Shot (3 tokens): -0.97
+
+
+Cesar:
+1% Fueled Shot
+27% Bulwark Shot
+73% Bulwark Dash
+
+Shekhtur:
+31% Reaver Shot
+40% Spiral Shot
+29% Spiral Burst
+
+
+Cesar: Bulwark Shot
+Shekhtur: Reaver Shot
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  0 | 2
+Shekhtur is active
+Shekhtur hits
+Cesar takes 4 damage (now at 9 life)
+Shekhtur gains 2 Malice tokens
+Cesar hits
+Shekhtur takes 3 damage (now at 8 life)
+Shekhtur is stunned
+Shekhtur moves:
+
+....S.C
+
+
+Beat 6
+-------
+
+Cesar
+-----
+Life: 9
+Discard 1: Bulwark Shot
+Discard 2: Unstoppable Suppression
+Special action available
+Threat level: 0
+
+Shekhtur
+--------
+Life: 8
+Discard 1: Reaver Shot
+Discard 2: Unleashed Brand
+Special action available
+5 Malice token
+Shekhtur hit her opponent last beat
+
+
+....S.C
+
+Unbeatable strategy for Shekhtur: Combination Drive: -0.20
+Unbeatable strategy for Shekhtur: Combination Drive (5 tokens): -0.37
+
+
+Cesar:
+20% Phalanx Strike
+15% Phalanx Drive
+6% Phalanx Dash
+1% Fueled Grasp
+15% Inevitable Strike
+43% Inevitable Dash
+
+Shekhtur:
+45% Combination Drive
+1% Combination Drive (1 token)
+1% Combination Drive (4 tokens)
+4% Jugular Drive (4 tokens)
+4% Jugular Drive (5 tokens)
+3% Jugular Burst (5 tokens)
+42% Spiral Burst
+
+
+Cesar: Inevitable Strike
+Shekhtur: Spiral Burst
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  3 | 0
 Cesar is active
-Cesar moves:
+Shekhtur moves:
 
-.C..S..
+...S..C
 
-Cesar moves:
+Cesar misses
+Shekhtur hits
+Cesar takes 3 damage (now at 6 life)
 
-....SC.
+Beat 7
+-------
 
+Cesar
+-----
+Life: 6
+Discard 1: Inevitable Strike
+Discard 2: Bulwark Shot
+Special action available
+Threat level: 1
+
+Shekhtur
+--------
+Life: 8
+Discard 1: Spiral Burst
+Discard 2: Reaver Shot
+Special action available
+5 Malice token
+Shekhtur hit her opponent last beat
+
+
+...S..C
+
+Unbeatable strategy for Shekhtur: Unleashed Brand (2 tokens): -0.47
+Unbeatable strategy for Shekhtur: Unleashed Brand (3 tokens): -0.17
+Unbeatable strategy for Shekhtur: Unleashed Dash: -0.12
+Unbeatable strategy for Shekhtur: Unleashed Dash (1 token): -0.12
+Unbeatable strategy for Shekhtur: Unleashed Dash (2 tokens): -0.12
+Unbeatable strategy for Shekhtur: Combination Drive: -1.63
+Unbeatable strategy for Shekhtur: Combination Drive (1 token): -1.33
+Unbeatable strategy for Shekhtur: Combination Drive (2 tokens): -1.03
+Unbeatable strategy for Shekhtur: Combination Drive (3 tokens): -2.79
+Unbeatable strategy for Shekhtur: Combination Drive (4 tokens): -5.82
+Unbeatable strategy for Shekhtur: Combination Drive (5 tokens): -5.82
+Unbeatable strategy for Shekhtur: Combination Dash: -0.64
+Unbeatable strategy for Shekhtur: Combination Dash (1 token): -0.34
+Unbeatable strategy for Shekhtur: Combination Dash (2 tokens): -0.04
+Unbeatable strategy for Shekhtur: Jugular Drive: -1.23
+Unbeatable strategy for Shekhtur: Jugular Drive (1 token): -3.49
+Unbeatable strategy for Shekhtur: Jugular Drive (2 tokens): -4.04
+Unbeatable strategy for Shekhtur: Jugular Drive (3 tokens): -4.04
+Unbeatable strategy for Shekhtur: Jugular Drive (4 tokens): -4.04
+Unbeatable strategy for Shekhtur: Jugular Drive (5 tokens): -4.04
+
+
+Cesar:
+5% Unstoppable Drive
+19% Unstoppable Dash
+2% Fueled Dash
+74% Special Pulse
+
+Shekhtur:
+25% Combination Drive
+44% Combination Drive (4 tokens)
+25% Combination Drive (5 tokens)
+6% Combination Grasp (2 tokens)
+
+
+Cesar: Special Pulse
+Shekhtur: Combination Drive
+
+Cesar gains a Threat Level (current level: 2)
+Cesar Pulses:
+
+C....S.
+
+
+Beat 7
+-------
+
+Cesar
+-----
+Life: 6
+Discard 1: Inevitable Strike
+Discard 2: Bulwark Shot
+Threat level: 2
+
+Shekhtur
+--------
+Life: 8
+Discard 1: Combination Drive
+Discard 2: Spiral Burst
+Special action available
+5 Malice token
+
+
+C....S.
+
+Unbeatable strategy for Cesar: Fueled Suppression: 0.45
+
+
+Cesar:
+100% Fueled Suppression
+
+Shekhtur:
+100% Reaver Grasp
+
+
+Cesar: Fueled Suppression
+Shekhtur: Reaver Grasp
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  1 | 5
+Shekhtur is active
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
 Shekhtur misses
 Shekhtur moves:
 
-.....CS
+C..S...
 
 
 Beat 8
@@ -467,221 +545,253 @@ Beat 8
 
 Cesar
 -----
-Life: 16
-Discard 1: Bulwark Dash
-Discard 2: Unstoppable Strike
-Special action available
-Threat level: 3
+Life: 6
+Discard 1: Fueled Suppression
+Discard 2: Inevitable Strike
+Threat level: 4
 
 Shekhtur
 --------
-Life: 16
-Discard 1: Reaver Brand
-Discard 2: Unleashed Dash
+Life: 8
+Discard 1: Reaver Grasp
+Discard 2: Combination Drive
 Special action available
-2 Malice token
+5 Malice token
 
 
-.....CS
+C..S...
+
+Unbeatable strategy for Shekhtur: Unleashed Brand (5 tokens): -0.19
+Unbeatable strategy for Shekhtur: Jugular Shot (3 tokens): -0.03
+Unbeatable strategy for Shekhtur: Jugular Shot (4 tokens): -0.03
+Unbeatable strategy for Shekhtur: Jugular Shot (5 tokens): -0.03
+Unbeatable strategy for Shekhtur: Spiral Brand (1 token): -0.04
 
 
 Cesar:
-25% Phalanx Burst
-40% Inevitable Suppression
-26% Inevitable Drive
-8% Inevitable Grasp
+44% Bulwark Shot
+56% Bulwark Dash
 
 Shekhtur:
-6% Combination Strike
-28% Combination Drive
-23% Combination Drive (1 token)
-43% Combination Drive (2 tokens)
+13% Unleashed Brand
+12% Unleashed Brand (1 token)
+18% Unleashed Brand (2 tokens)
+29% Jugular Shot (4 tokens)
+29% Jugular Shot (5 tokens)
 
 
-Cesar: Inevitable Suppression
-Shekhtur: Combination Drive (2 tokens)
+Cesar: Bulwark Dash
+Shekhtur: Unleashed Brand (1 token)
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
+Cesar gains a Threat Level (current level: 0)
 Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Priorities:  2 | 6
-Shekhtur is active
-Shekhtur hits
-Cesar has 2 soak
-Cesar takes 3 damage (now at 13 life)
-Shekhtur gains 3 Malice tokens
+Priorities:  7 | 3
+Cesar is active
 Cesar moves:
 
-..C...S
+..CS...
 
+Cesar moves:
+
+...S..C
+
+Shekhtur misses
+Shekhtur moves:
+
+..S...C
+
+Shekhtur gains 1 Malice token
+Shekhtur will have 1 power next beat
 
 Beat 9
 -------
 
 Cesar
 -----
-Life: 13
-Discard 1: Inevitable Suppression
-Discard 2: Bulwark Dash
-Special action available
-Threat level: 4
+Life: 6
+Discard 1: Bulwark Dash
+Discard 2: Fueled Suppression
+Threat level: 0
 
 Shekhtur
 --------
-Life: 16
-Discard 1: Combination Drive
-Discard 2: Reaver Brand
+Life: 8
+Discard 1: Unleashed Brand
+Discard 2: Reaver Grasp
 Special action available
-3 Malice token
-Shekhtur hit her opponent last beat
+Power bonus: 1
+5 Malice token
 
 
-..C...S
+..S...C
+
+Unbeatable strategy for Shekhtur: Jugular Shot: -0.50
+Unbeatable strategy for Shekhtur: Jugular Shot (1 token): -0.50
+Unbeatable strategy for Shekhtur: Jugular Shot (2 tokens): -0.50
+Unbeatable strategy for Shekhtur: Jugular Shot (3 tokens): -0.50
+Unbeatable strategy for Shekhtur: Jugular Shot (4 tokens): -0.50
+Unbeatable strategy for Shekhtur: Jugular Shot (5 tokens): -0.50
+Unbeatable strategy for Shekhtur: Spiral Shot (1 token): -0.11
+Unbeatable strategy for Shekhtur: Spiral Burst: -0.62
 
 
 Cesar:
-17% Phalanx Strike
-33% Phalanx Burst
-14% Unstoppable Burst
-8% Fueled Shot
-7% Fueled Drive
-20% Fueled Burst
+36% Phalanx Strike
+2% Phalanx Burst
+11% Unstoppable Strike
+20% Unstoppable Drive
+31% Inevitable Shot
 
 Shekhtur:
-4% Unleashed Strike
-13% Unleashed Shot
-8% Unleashed Shot (2 tokens)
-3% Jugular Shot
-3% Jugular Shot (1 token)
-3% Jugular Shot (2 tokens)
-3% Jugular Shot (3 tokens)
-21% Spiral Burst
-41% Spiral Dash
+1% Combination Shot
+1% Combination Drive
+0% Combination Burst
+5% Jugular Shot
+4% Jugular Shot (1 token)
+5% Jugular Shot (2 tokens)
+5% Jugular Shot (3 tokens)
+5% Jugular Shot (4 tokens)
+5% Jugular Shot (5 tokens)
+70% Spiral Burst
 
 
-Cesar: Phalanx Burst
-Shekhtur: Spiral Burst
+Cesar: Inevitable Shot
+Shekhtur: Jugular Shot
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  -1 | 0
+Cesar gains a Threat Level (current level: 1)
+Priorities:  2 | 4
 Shekhtur is active
-Cesar moves:
+Shekhtur hits
+Shekhtur moves Cesar:
 
-C.....S
+..S..C.
 
-Shekhtur misses
-Cesar misses
+Cesar takes 5 damage (now at 1 life)
+Cesar hits
+Shekhtur is stunned
+Shekhtur will have -3 priority next beat
+Shekhtur takes 4 damage (now at 4 life)
+Shekhtur is stunned
+Shekhtur discards a Malice token
+Shekhtur discards a Malice token
 
 Beat 10
 -------
 
 Cesar
 -----
-Life: 13
-Discard 1: Phalanx Burst
-Discard 2: Inevitable Suppression
-Special action available
-Threat level: 0
+Life: 1
+Discard 1: Inevitable Shot
+Discard 2: Bulwark Dash
+Opponent has power penalty: -3
+Threat level: 1
 
 Shekhtur
 --------
-Life: 16
-Discard 1: Spiral Burst
-Discard 2: Combination Drive
+Life: 4
+Discard 1: Jugular Shot
+Discard 2: Unleashed Brand
 Special action available
 3 Malice token
+Shekhtur hit her opponent last beat
 
 
-C.....S
-
-Unbeatable strategy for Cesar: Fueled Shot: 0.88
+..S..C.
 
 
 Cesar:
-99% Fueled Shot
-1% Fueled Drive
+63% Unstoppable Suppression
+37% Unstoppable Drive
 
 Shekhtur:
-99% Unleashed Strike
-1% Unleashed Grasp
+83% Combination Dash
+17% Spiral Strike
 
 
-Cesar: Fueled Shot
-Shekhtur: Unleashed Strike
+Cesar: Unstoppable Drive
+Shekhtur: Combination Dash
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  1 | 3
-Shekhtur is active
 Cesar gains a Threat Level (current level: 2)
-Shekhtur misses
-Cesar moves:
+Priorities:  2 | 9
+Shekhtur is active
+Shekhtur moves:
 
-..C...S
+.....CS
 
-Cesar hits
-Shekhtur takes 5 damage (now at 11 life)
-Shekhtur gains 2 Malice tokens
-Shekhtur will have 1 power next beat
+Cesar misses
 
 Beat 11
 -------
 
 Cesar
 -----
-Life: 13
-Discard 1: Fueled Shot
-Discard 2: Phalanx Burst
-Special action available
+Life: 1
+Discard 1: Unstoppable Drive
+Discard 2: Inevitable Shot
 Threat level: 2
 
 Shekhtur
 --------
-Life: 11
-Discard 1: Unleashed Strike
-Discard 2: Spiral Burst
+Life: 4
+Discard 1: Combination Dash
+Discard 2: Jugular Shot
 Special action available
-Power bonus: 1
-5 Malice token
+3 Malice token
 
 
-..C...S
+.....CS
 
-Unbeatable strategy for Shekhtur: Combination Brand: -0.22
-Unbeatable strategy for Shekhtur: Combination Shot: -0.36
-Unbeatable strategy for Shekhtur: Reaver Brand: -0.27
-Unbeatable strategy for Shekhtur: Reaver Shot: -0.08
-Unbeatable strategy for Shekhtur: Reaver Grasp: -0.24
+Unbeatable strategy for Shekhtur: Spiral Brand (2 tokens): -3.08
 
 
 Cesar:
-82% Unstoppable Suppression
-2% Bulwark Suppression
-12% Bulwark Strike
-4% Bulwark Drive
+33% Phalanx Strike
+22% Phalanx Grasp
+34% Bulwark Suppression
+11% Bulwark Grasp
 
 Shekhtur:
-92% Combination Shot
-2% Reaver Shot
-1% Jugular Shot
-1% Jugular Shot (1 token)
-1% Jugular Shot (2 tokens)
-1% Jugular Shot (3 tokens)
-1% Jugular Shot (4 tokens)
-1% Jugular Shot (5 tokens)
+34% Reaver Brand (2 tokens)
+33% Spiral Brand (1 token)
+3% Spiral Brand (3 tokens)
+30% Spiral Grasp
 
 
-Cesar: Unstoppable Suppression
-Shekhtur: Combination Shot
+Cesar: Phalanx Grasp
+Shekhtur: Reaver Brand (2 tokens)
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  0 | 2
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Priorities:  3 | 4
 Shekhtur is active
-Shekhtur misses
-Cesar misses
+Shekhtur hits
+Cesar takes 3 damage (now at 0 life)
+Shekhtur gains 3 Malice tokens
+Shekhtur moves Cesar:
+
+..C...S
+
+Shekhtur spends a Malice token
+Shekhtur spends a Malice token
+Shekhtur spends a Malice token
+Shekhtur spends a Malice token
+Cesar loses 2 life (now at 1)
+Shekhtur gains 2 life (now at 6)
 Cesar moves:
 
-C.....S
+.....CS
+
+Cesar hits
+Cesar moves Shekhtur:
+
+....SC.
+
+Shekhtur takes 5 damage (now at 1 life)
+Shekhtur is stunned
+Shekhtur moves:
+
+.....CS
 
 
 Beat 12
@@ -689,253 +799,65 @@ Beat 12
 
 Cesar
 -----
-Life: 13
-Discard 1: Unstoppable Suppression
-Discard 2: Fueled Shot
-Special action available
+Life: 1
+Discard 1: Phalanx Grasp
+Discard 2: Unstoppable Drive
 Threat level: 3
+Defeat immunity used-up
 
 Shekhtur
 --------
-Life: 11
-Discard 1: Combination Shot
-Discard 2: Unleashed Strike
+Life: 1
+Discard 1: Reaver Brand
+Discard 2: Combination Dash
 Special action available
-5 Malice token
+0 Malice token
+Shekhtur hit her opponent last beat
 
 
-C.....S
+.....CS
 
-Unbeatable strategy for Cesar: Phalanx Burst: 3.32
-Unbeatable strategy for Cesar: Bulwark Burst: 3.16
+Unbeatable strategy for Shekhtur: Jugular Shot: -6.00
+Unbeatable strategy for Shekhtur: Jugular Drive: -6.00
+Unbeatable strategy for Shekhtur: Spiral Shot: -6.00
+Unbeatable strategy for Shekhtur: Spiral Drive: -6.00
 
 
 Cesar:
-79% Phalanx Burst
-17% Bulwark Burst
-3% Inevitable Burst
+6% Fueled Suppression
+6% Fueled Strike
+6% Fueled Shot
+8% Fueled Burst
+6% Fueled Dash
+5% Bulwark Suppression
+5% Bulwark Strike
+5% Bulwark Shot
+6% Bulwark Burst
+6% Bulwark Dash
+6% Inevitable Suppression
+9% Inevitable Strike
+6% Inevitable Shot
+15% Inevitable Burst
+6% Inevitable Dash
 
 Shekhtur:
-52% Spiral Drive
-48% Spiral Grasp
+50% Jugular Shot
+50% Jugular Drive
 
 
-Cesar: Phalanx Burst
-Shekhtur: Spiral Drive
+Cesar: Inevitable Strike
+Shekhtur: Jugular Shot
 
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Priorities:  -1 | 3
+Priorities:  3 | 4
 Shekhtur is active
-Shekhtur moves:
-
-C..S...
-
-Shekhtur gets -3 power
-Shekhtur moves:
-
-CS.....
-
 Shekhtur hits
+Shekhtur moves Cesar:
+
+....C.S
+
 Cesar has 2 soak
-Cesar takes 0 damage (now at 13 life)
-
-Beat 13
--------
-
-Cesar
------
-Life: 13
-Discard 1: Phalanx Burst
-Discard 2: Unstoppable Suppression
-Special action available
-Threat level: 4
-
-Shekhtur
---------
-Life: 11
-Discard 1: Spiral Drive
-Discard 2: Combination Shot
-Special action available
-5 Malice token
-Shekhtur hit her opponent last beat
-
-
-CS.....
-
-Unbeatable strategy for Shekhtur: Jugular Brand (5 tokens): -1.44
-
-
-Cesar:
-9% Fueled Strike
-8% Inevitable Strike
-53% Inevitable Shot
-30% Inevitable Dash
-
-Shekhtur:
-13% Unleashed Brand (2 tokens)
-41% Unleashed Burst (3 tokens)
-19% Jugular Brand (5 tokens)
-27% Jugular Strike (5 tokens)
-
-
-Cesar: Inevitable Shot
-Shekhtur: Unleashed Burst (3 tokens)
-
-Cesar gains a Threat Level (current level: 0)
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Priorities:  2 | 4
-Shekhtur is active
-Shekhtur moves:
-
-C..S...
-
-Shekhtur hits
-Cesar takes 2 damage (now at 11 life)
-Shekhtur gains 2 Malice tokens
-Shekhtur moves:
-
-C....S.
-
-Cesar misses
-Shekhtur gains 1 Malice token
-Shekhtur will have 1 power next beat
-
-Beat 14
--------
-
-Cesar
------
-Life: 11
-Discard 1: Inevitable Shot
-Discard 2: Phalanx Burst
-Special action available
-Threat level: 0
-
-Shekhtur
---------
-Life: 11
-Discard 1: Unleashed Burst
-Discard 2: Spiral Drive
-Special action available
-Power bonus: 1
-5 Malice token
-Shekhtur hit her opponent last beat
-
-
-C....S.
-
-Unbeatable strategy for Shekhtur: Combination Strike: -0.23
-Unbeatable strategy for Shekhtur: Combination Dash: -0.08
-
-
-Cesar:
-47% Unstoppable Suppression
-3% Fueled Drive
-50% Bulwark Suppression
-
-Shekhtur:
-67% Combination Strike
-28% Combination Grasp
-6% Combination Dash
-
-
-Cesar: Unstoppable Suppression
-Shekhtur: Combination Strike
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 3
-Shekhtur is active
-Shekhtur misses
-Cesar misses
-
-Beat 15
--------
-
-Cesar
------
-Life: 11
-Discard 1: Unstoppable Suppression
-Discard 2: Inevitable Shot
-Special action available
-Threat level: 1
-
-Shekhtur
---------
-Life: 11
-Discard 1: Combination Strike
-Discard 2: Unleashed Burst
-Special action available
-5 Malice token
-
-
-C....S.
-
-
-Cesar:
-26% Phalanx Strike
-18% Phalanx Drive
-2% Phalanx Burst
-2% Phalanx Grasp
-33% Fueled Drive
-1% Bulwark Grasp
-18% Bulwark Dash
-
-Shekhtur:
-3% Reaver Brand (1 token)
-4% Reaver Dash
-4% Reaver Dash (1 token)
-4% Reaver Dash (2 tokens)
-4% Reaver Dash (3 tokens)
-4% Reaver Dash (4 tokens)
-4% Reaver Dash (5 tokens)
-4% Jugular Dash
-4% Jugular Dash (1 token)
-4% Jugular Dash (2 tokens)
-4% Jugular Dash (3 tokens)
-4% Jugular Dash (4 tokens)
-4% Jugular Dash (5 tokens)
-9% Spiral Brand (2 tokens)
-12% Spiral Shot (2 tokens)
-8% Spiral Dash
-4% Spiral Dash (1 token)
-4% Spiral Dash (2 tokens)
-4% Spiral Dash (3 tokens)
-4% Spiral Dash (4 tokens)
-4% Spiral Dash (5 tokens)
-
-
-Cesar: Fueled Drive
-Shekhtur: Reaver Dash (5 tokens)
-
-Cesar gains a Threat Level (current level: 2)
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Priorities:  3 | 14
-Shekhtur is active
-Cesar gains a Threat Level (current level: 3)
-Shekhtur moves:
-
-C.....S
-
-Cesar moves:
-
-.C....S
-
-Cesar moves:
-
-..C...S
-
-Cesar misses
-Shekhtur moves:
-
-..C.S..
-
-Game goes to time
-THE GAME IS TIED!
-total_time: 83
+Cesar takes 2 damage (now at 0 life)
+SHEKHTUR WINS!
+total_time: 70

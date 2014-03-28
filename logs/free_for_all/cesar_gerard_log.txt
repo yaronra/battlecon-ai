@@ -30,29 +30,29 @@ No mercenaries in play
 .C...G.
 
 Unbeatable strategy for Gerard: Gilded Drive: -0.75
-Unbeatable strategy for Gerard: Gilded Drive (Hire Archer): -0.34
 Unbeatable strategy for Gerard: Gilded Drive (Hire Brawler): -2.30
+Unbeatable strategy for Gerard: Gilded Drive (Hire Archer): -0.34
 Unbeatable strategy for Gerard: Gilded Burst: -0.15
-Unbeatable strategy for Gerard: Gilded Burst (Hire Archer): -2.15
 Unbeatable strategy for Gerard: Gilded Burst (Hire Brawler): -3.60
-Unbeatable strategy for Gerard: Gilded Dash (Hire Archer): -1.89
+Unbeatable strategy for Gerard: Gilded Burst (Hire Archer): -2.15
 Unbeatable strategy for Gerard: Gilded Dash (Hire Brawler): -2.66
+Unbeatable strategy for Gerard: Gilded Dash (Hire Archer): -1.89
 Unbeatable strategy for Gerard: Avaricious Burst: -0.15
-Unbeatable strategy for Gerard: Avaricious Burst (Hire Archer): -1.86
 Unbeatable strategy for Gerard: Avaricious Burst (Hire Brawler): -2.77
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Archer): -2.09
+Unbeatable strategy for Gerard: Avaricious Burst (Hire Archer): -1.86
 Unbeatable strategy for Gerard: Avaricious Dash (Hire Brawler): -3.39
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Archer): -2.09
 Unbeatable strategy for Gerard: Initiation Shot: -0.25
-Unbeatable strategy for Gerard: Initiation Shot (Hire Archer): -2.43
 Unbeatable strategy for Gerard: Initiation Shot (Hire Brawler): -2.65
-Unbeatable strategy for Gerard: Initiation Drive (Hire Archer): -0.66
+Unbeatable strategy for Gerard: Initiation Shot (Hire Archer): -2.43
 Unbeatable strategy for Gerard: Initiation Drive (Hire Brawler): -0.05
+Unbeatable strategy for Gerard: Initiation Drive (Hire Archer): -0.66
 Unbeatable strategy for Gerard: Initiation Burst: -0.32
-Unbeatable strategy for Gerard: Initiation Burst (Hire Archer): -1.86
-Unbeatable strategy for Gerard: Initiation Burst (Hire Brawler): -2.77
 Unbeatable strategy for Gerard: Initiation Burst (Hire Trebuchet): -0.24
-Unbeatable strategy for Gerard: Initiation Dash (Hire Archer): -2.09
+Unbeatable strategy for Gerard: Initiation Burst (Hire Brawler): -2.77
+Unbeatable strategy for Gerard: Initiation Burst (Hire Archer): -1.86
 Unbeatable strategy for Gerard: Initiation Dash (Hire Brawler): -3.39
+Unbeatable strategy for Gerard: Initiation Dash (Hire Archer): -2.09
 
 
 Cesar:
@@ -66,33 +66,25 @@ Gerard:
 11% Avaricious Drive (Hire Brawler)
 
 
-Cesar: Bulwark Shot
-Gerard: Gilded Burst (Hire Brawler)
+Cesar: Bulwark Suppression
+Gerard: Gilded Drive (Hire Brawler)
 
 Cesar gains a Threat Level (current level: 1)
 Gerard hires a Brawler for 3 gold (0 remaining)
-Priorities:  0 | 0
-Clash!
+Priorities:  0 | 3
+Gerard is active
+Gerard moves:
 
-
-Cesar: Bulwark Drive
-Gerard: Gilded Shot (Hire Brawler)
-
-Cesar gains a Threat Level (current level: 1)
-Gerard hires a Brawler for 3 gold (0 remaining)
-Priorities:  2 | 1
-Cesar is active
-Cesar moves:
-
-..C..G.
-
-Cesar misses
-Cesar moves:
-
-C....G.
+.C.G...
 
 Gerard hits
 Cesar takes 3 damage (now at 17 life)
+Cesar loses 1 life (now at 16)
+Cesar misses
+Cesar moves:
+
+C..G...
+
 Gerard gains 1 Gold Token (has 1)
 
 Beat 2
@@ -100,8 +92,8 @@ Beat 2
 
 Cesar
 -----
-Life: 17
-Discard 1: Bulwark Drive
+Life: 16
+Discard 1: Bulwark Suppression
 Discard 2: Fueled Strike
 Special action available
 Threat level: 1
@@ -109,7 +101,7 @@ Threat level: 1
 Gerard
 ------
 Life: 20
-Discard 1: Gilded Shot
+Discard 1: Gilded Drive
 Discard 2: Villainous Larceny
 Special action available
 Gold: 1
@@ -117,53 +109,53 @@ Mercenaries in play:
   Brawler
 
 
-C....G.
+C..G...
 
-Unbeatable strategy for Gerard: Avaricious Dash: -1.41
-Unbeatable strategy for Gerard: Initiation Dash: -1.41
+Unbeatable strategy for Gerard: Hooked Burst: -2.37
+Unbeatable strategy for Gerard: Initiation Dash: -1.46
 
 
 Cesar:
-84% Unstoppable Suppression
-7% Unstoppable Shot
-10% Inevitable Shot
+81% Unstoppable Shot
+17% Unstoppable Drive
+2% Inevitable Shot
 
 Gerard:
-10% Avaricious Drive
-29% Avaricious Dash
-18% Hooked Burst
-14% Initiation Drive
-29% Initiation Dash
+0% Avaricious Strike
+24% Hooked Burst
+0% Initiation Strike
+75% Initiation Dash
 
 
-Cesar: Unstoppable Suppression
-Gerard: Avaricious Dash
+Cesar: Unstoppable Shot
+Gerard: Hooked Burst
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  0 | 10
+Priorities:  0 | 0
+Clash!
+
+
+Cesar: Unstoppable Burst
+Gerard: Hooked Shot
+
+Cesar gains a Threat Level (current level: 2)
+Priorities:  -1 | 1
 Gerard is active
 Gerard moves:
 
-C...G..
+C.....G
 
 Cesar moves:
 
-.C..G..
-
-Gerard moves:
-
-.CG....
+.C....G
 
 Cesar moves:
 
-..GC...
+C.....G
 
-Cesar loses 1 life (now at 16)
-Cesar misses
-Cesar moves:
-
-..G...C
-
+Gerard hits
+Cesar takes 4 damage (now at 12 life)
+Cesar is stunned
 Gerard gains 1 Gold Token (has 2)
 
 Beat 3
@@ -171,938 +163,506 @@ Beat 3
 
 Cesar
 -----
-Life: 16
-Discard 1: Unstoppable Suppression
-Discard 2: Bulwark Drive
+Life: 12
+Discard 1: Unstoppable Burst
+Discard 2: Bulwark Suppression
 Special action available
 Threat level: 2
 
 Gerard
 ------
 Life: 20
-Discard 1: Avaricious Dash
-Discard 2: Gilded Shot
+Discard 1: Hooked Shot
+Discard 2: Gilded Drive
 Special action available
 Gold: 2
 Mercenaries in play:
   Brawler
 
 
-..G...C
+C.....G
 
-Unbeatable strategy for Gerard: Villainous Strike: -0.13
-Unbeatable strategy for Gerard: Villainous Drive: -0.84
-Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger): -0.04
-Unbeatable strategy for Gerard: Villainous Drive (Hire Heavy Knight): -0.04
-Unbeatable strategy for Gerard: Villainous Drive (Hire Mage): -0.04
-Unbeatable strategy for Gerard: Villainous Burst: -0.79
-Unbeatable strategy for Gerard: Villainous Grasp: -0.28
-Unbeatable strategy for Gerard: Hooked Drive: -2.53
-Unbeatable strategy for Gerard: Hooked Drive (Hire Gunslinger): -1.73
-Unbeatable strategy for Gerard: Hooked Drive (Hire Heavy Knight): -1.73
-Unbeatable strategy for Gerard: Hooked Drive (Hire Mage): -1.73
-Unbeatable strategy for Gerard: Hooked Burst: -1.43
-Unbeatable strategy for Gerard: Hooked Burst (Hire Gunslinger): -0.63
-Unbeatable strategy for Gerard: Hooked Burst (Hire Heavy Knight): -0.63
-Unbeatable strategy for Gerard: Hooked Burst (Hire Mage): -0.63
-Unbeatable strategy for Gerard: Initiation Drive: -2.87
-Unbeatable strategy for Gerard: Initiation Drive (Hire Gunslinger): -2.07
-Unbeatable strategy for Gerard: Initiation Drive (Hire Heavy Knight): -2.07
-Unbeatable strategy for Gerard: Initiation Drive (Hire Mage): -2.07
-Unbeatable strategy for Gerard: Initiation Burst: -0.17
+Unbeatable strategy for Gerard: Villainous Strike: -2.40
+Unbeatable strategy for Gerard: Villainous Strike (Hire Mage): -1.60
+Unbeatable strategy for Gerard: Villainous Strike (Hire Gunslinger): -1.60
+Unbeatable strategy for Gerard: Villainous Strike (Hire Heavy Knight): -1.60
+Unbeatable strategy for Gerard: Villainous Burst: -2.04
+Unbeatable strategy for Gerard: Villainous Burst (Hire Mage): -1.24
+Unbeatable strategy for Gerard: Villainous Burst (Hire Gunslinger): -1.24
+Unbeatable strategy for Gerard: Villainous Burst (Hire Heavy Knight): -1.24
+Unbeatable strategy for Gerard: Villainous Grasp: -2.55
+Unbeatable strategy for Gerard: Villainous Grasp (Hire Mage): -1.75
+Unbeatable strategy for Gerard: Villainous Grasp (Hire Gunslinger): -1.75
+Unbeatable strategy for Gerard: Villainous Grasp (Hire Heavy Knight): -1.75
+Unbeatable strategy for Gerard: Villainous Dash: -1.46
+Unbeatable strategy for Gerard: Villainous Dash (Hire Mage): -0.66
+Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger): -0.66
+Unbeatable strategy for Gerard: Villainous Dash (Hire Heavy Knight): -0.66
+Unbeatable strategy for Gerard: Avaricious Strike: -0.24
+Unbeatable strategy for Gerard: Avaricious Burst: -0.76
+Unbeatable strategy for Gerard: Avaricious Grasp: -0.39
+Unbeatable strategy for Gerard: Avaricious Dash: -2.34
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage): -1.54
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Gunslinger): -1.54
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Heavy Knight): -1.54
+Unbeatable strategy for Gerard: Initiation Strike: -1.22
+Unbeatable strategy for Gerard: Initiation Strike (Hire Mage): -0.42
+Unbeatable strategy for Gerard: Initiation Strike (Hire Gunslinger): -0.42
+Unbeatable strategy for Gerard: Initiation Strike (Hire Heavy Knight): -0.42
+Unbeatable strategy for Gerard: Initiation Burst: -0.76
+Unbeatable strategy for Gerard: Initiation Grasp: -1.22
+Unbeatable strategy for Gerard: Initiation Grasp (Hire Mage): -0.42
+Unbeatable strategy for Gerard: Initiation Grasp (Hire Gunslinger): -0.42
+Unbeatable strategy for Gerard: Initiation Grasp (Hire Heavy Knight): -0.42
+Unbeatable strategy for Gerard: Initiation Dash: -2.34
+Unbeatable strategy for Gerard: Initiation Dash (Hire Mage): -1.54
+Unbeatable strategy for Gerard: Initiation Dash (Hire Gunslinger): -1.54
+Unbeatable strategy for Gerard: Initiation Dash (Hire Heavy Knight): -1.54
 
 
 Cesar:
-22% Phalanx Shot
-32% Phalanx Burst
-44% Fueled Burst
-3% Inevitable Grasp
+16% Phalanx Shot
+84% Fueled Strike
+0% Fueled Grasp
 
 Gerard:
-1% Hooked Drive
-1% Initiation Larceny
-73% Initiation Drive
-26% Initiation Burst
+30% Villainous Grasp
+68% Villainous Dash
+3% Initiation Burst
 
 
-Cesar: Fueled Burst
-Gerard: Initiation Drive
+Cesar: Fueled Strike
+Gerard: Villainous Dash
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  0 | 5
+Priorities:  2 | 9
 Gerard is active
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
 Gerard moves:
 
-...G..C
+C..G...
 
 Gerard moves:
 
-.....GC
+CG.....
 
-Gerard hits
-First hireling next beat will cost 2 gold less
-Cesar has 2 soak
-Cesar takes 1 damage (now at 15 life)
-Cesar is stunned
-Cesar loses 1 life (now at 14)
-Gerard gains 1 Gold Token (has 3)
+Gerard gains 2 Gold Tokens (has 4)
+Gerard gains 1 Gold Token (has 5)
 
 Beat 4
 -------
 
 Cesar
 -----
-Life: 14
-Discard 1: Fueled Burst
-Discard 2: Unstoppable Suppression
+Life: 12
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Burst
 Special action available
 Threat level: 4
 
 Gerard
 ------
 Life: 20
-Discard 1: Initiation Drive
-Discard 2: Avaricious Dash
+Discard 1: Villainous Dash
+Discard 2: Hooked Shot
 Special action available
-First hireling costs 2 gold less
-Gold: 3
+Gold: 5
 Mercenaries in play:
   Brawler
 
 
-.....GC
+CG.....
 
-Unbeatable strategy for Gerard: Villainous Grasp (Hire Archer): -0.22
-Unbeatable strategy for Gerard: Hooked Larceny (Hire Archer): -1.03
-Unbeatable strategy for Gerard: Hooked Larceny (Hire Archer, Gunslinger): -0.23
-Unbeatable strategy for Gerard: Hooked Larceny (Hire Archer, Heavy Knight): -0.23
-Unbeatable strategy for Gerard: Hooked Larceny (Hire Archer, Mage): -0.23
-Unbeatable strategy for Gerard: Hooked Strike (Hire Archer): -0.92
-Unbeatable strategy for Gerard: Hooked Strike (Hire Trebuchet): -0.82
-Unbeatable strategy for Gerard: Hooked Strike (Hire Archer, Gunslinger): -0.12
-Unbeatable strategy for Gerard: Hooked Strike (Hire Archer, Heavy Knight): -0.12
-Unbeatable strategy for Gerard: Hooked Strike (Hire Archer, Mage): -0.12
-Unbeatable strategy for Gerard: Hooked Strike (Hire Gunslinger, Trebuchet): -0.02
-Unbeatable strategy for Gerard: Hooked Strike (Hire Trebuchet, Heavy Knight): -0.02
-Unbeatable strategy for Gerard: Hooked Strike (Hire Trebuchet, Mage): -0.02
-Unbeatable strategy for Gerard: Hooked Shot: -0.52
-Unbeatable strategy for Gerard: Hooked Shot (Hire Archer): -2.21
-Unbeatable strategy for Gerard: Hooked Shot (Hire Gunslinger): -1.32
-Unbeatable strategy for Gerard: Hooked Shot (Hire Trebuchet): -0.87
-Unbeatable strategy for Gerard: Hooked Shot (Hire Heavy Knight): -1.32
-Unbeatable strategy for Gerard: Hooked Shot (Hire Mage): -1.32
-Unbeatable strategy for Gerard: Hooked Shot (Hire Archer, Gunslinger): -1.41
-Unbeatable strategy for Gerard: Hooked Shot (Hire Archer, Heavy Knight): -1.41
-Unbeatable strategy for Gerard: Hooked Shot (Hire Archer, Mage): -1.41
-Unbeatable strategy for Gerard: Hooked Shot (Hire Gunslinger, Trebuchet): -0.07
-Unbeatable strategy for Gerard: Hooked Shot (Hire Gunslinger, Heavy Knight): -0.52
-Unbeatable strategy for Gerard: Hooked Shot (Hire Gunslinger, Mage): -0.52
-Unbeatable strategy for Gerard: Hooked Shot (Hire Trebuchet, Heavy Knight): -0.07
-Unbeatable strategy for Gerard: Hooked Shot (Hire Trebuchet, Mage): -0.07
-Unbeatable strategy for Gerard: Hooked Shot (Hire Heavy Knight, Mage): -0.52
-Unbeatable strategy for Gerard: Hooked Burst: -0.34
-Unbeatable strategy for Gerard: Hooked Burst (Hire Archer): -2.51
-Unbeatable strategy for Gerard: Hooked Burst (Hire Gunslinger): -1.14
-Unbeatable strategy for Gerard: Hooked Burst (Hire Trebuchet): -1.15
-Unbeatable strategy for Gerard: Hooked Burst (Hire Heavy Knight): -1.14
-Unbeatable strategy for Gerard: Hooked Burst (Hire Mage): -1.14
-Unbeatable strategy for Gerard: Hooked Burst (Hire Archer, Gunslinger): -1.71
-Unbeatable strategy for Gerard: Hooked Burst (Hire Archer, Heavy Knight): -1.71
-Unbeatable strategy for Gerard: Hooked Burst (Hire Archer, Mage): -1.71
-Unbeatable strategy for Gerard: Hooked Burst (Hire Gunslinger, Trebuchet): -0.35
-Unbeatable strategy for Gerard: Hooked Burst (Hire Gunslinger, Heavy Knight): -0.34
-Unbeatable strategy for Gerard: Hooked Burst (Hire Gunslinger, Mage): -0.34
-Unbeatable strategy for Gerard: Hooked Burst (Hire Trebuchet, Heavy Knight): -0.35
-Unbeatable strategy for Gerard: Hooked Burst (Hire Trebuchet, Mage): -0.35
-Unbeatable strategy for Gerard: Hooked Burst (Hire Heavy Knight, Mage): -0.34
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Archer): -1.07
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Trebuchet): -0.76
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Archer, Gunslinger): -0.27
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Archer, Heavy Knight): -0.27
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Archer, Mage): -0.27
+Unbeatable strategy for Gerard: Avaricious Grasp: -0.48
+Unbeatable strategy for Gerard: Initiation Drive: -0.33
 
 
 Cesar:
-35% Bulwark Strike
-23% Bulwark Shot
-5% Bulwark Drive
-21% Bulwark Grasp
-16% Bulwark Dash
+14% Bulwark Shot
+29% Bulwark Dash
+28% Inevitable Shot
+25% Inevitable Drive
+4% Inevitable Grasp
 
 Gerard:
-4% Villainous Strike (Hire Gunslinger; Activate Gunslinger)
-14% Villainous Grasp (Hire Gunslinger; Activate Gunslinger)
-18% Gilded Burst (Hire Archer)
-41% Hooked Shot (Hire Archer)
-22% Hooked Burst (Hire Archer)
+8% Avaricious Drive (Hire Gunslinger; Activate Gunslinger)
+36% Avaricious Grasp
+1% Initiation Larceny
+6% Initiation Strike
+50% Initiation Drive
 
 
-Cesar: Bulwark Dash
-Gerard: Villainous Grasp (Hire Gunslinger; Activate Gunslinger)
+Cesar: Bulwark Shot
+Gerard: Avaricious Grasp
 
 Cesar gains a Threat Level (current level: 0)
-Gerard hires a Gunslinger for 0 gold (3 remaining)
-Gerard activates his Gunslinger for 3 gold (0 remaining)
-Priorities:  7 | 5
-Cesar is active
+Priorities:  0 | 5
+Gerard is active
+Gerard hits
+Cesar takes 3 damage (now at 9 life)
+Gerard gains 2 Gold Tokens (has 7)
+Cesar loses 1 life (now at 8)
+Cesar hits
+Gerard takes 3 damage (now at 17 life)
+Gerard is stunned
 Cesar moves:
 
-..C..G.
+.GC....
 
-Cesar moves:
-
-C....G.
-
-Gerard misses
-Gerard moves:
-
-C...G..
-
-Gerard gains 1 Gold Token (has 1)
+Gerard gains 1 Gold Token (has 8)
 
 Beat 5
 -------
 
 Cesar
 -----
-Life: 14
-Discard 1: Bulwark Dash
-Discard 2: Fueled Burst
+Life: 8
+Discard 1: Bulwark Shot
+Discard 2: Fueled Strike
 Special action available
 Threat level: 0
 
 Gerard
 ------
-Life: 20
-Discard 1: Villainous Grasp
-Discard 2: Initiation Drive
+Life: 17
+Discard 1: Avaricious Grasp
+Discard 2: Villainous Dash
 Special action available
-Gold: 1
+Gold: 8
 Mercenaries in play:
   Brawler
-  Gunslinger
 
 
-C...G..
-
-Unbeatable strategy for Gerard: Gilded Burst: -0.06
-Unbeatable strategy for Gerard: Gilded Dash: -0.17
+.GC....
 
 
 Cesar:
-24% Phalanx Suppression
-25% Phalanx Shot
-27% Unstoppable Suppression
-13% Unstoppable Shot
-11% Inevitable Suppression
+23% Unstoppable Burst
+61% Inevitable Drive
+16% Inevitable Grasp
 
 Gerard:
-9% Gilded Larceny
-49% Gilded Burst
-5% Gilded Dash
-15% Avaricious Shot
-22% Hooked Strike
+26% Gilded Drive
+37% Gilded Burst
+36% Initiation Larceny (Hire Mage; Activate Mage)
 
 
-Cesar: Unstoppable Suppression
-Gerard: Hooked Strike
+Cesar: Inevitable Drive
+Gerard: Initiation Larceny (Hire Mage; Activate Mage)
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 2
+Gerard hires a Mage for 2 gold (6 remaining)
+Gerard activates his Mage for 3 gold (3 remaining)
+Priorities:  4 | 5
 Gerard is active
-Gerard moves:
+Gerard moves Cesar:
 
-C.....G
+CG.....
 
-Cesar moves:
-
-.C....G
-
-Gerard misses
-Cesar misses
-Cesar moves:
-
-C.....G
-
-Gerard gains 1 Gold Token (has 2)
+Gerard hits
+First hireling next beat will cost 2 gold less
+Cesar takes 5 damage (now at 3 life)
+Gerard gains 3 Gold Tokens (has 6)
+Cesar is stunned
+Cesar loses 1 life (now at 2)
+Gerard gains 1 Gold Token (has 7)
 
 Beat 6
 -------
 
 Cesar
 -----
-Life: 14
-Discard 1: Unstoppable Suppression
-Discard 2: Bulwark Dash
+Life: 2
+Discard 1: Inevitable Drive
+Discard 2: Bulwark Shot
 Special action available
 Threat level: 1
 
 Gerard
 ------
-Life: 20
-Discard 1: Hooked Strike
-Discard 2: Villainous Grasp
+Life: 17
+Discard 1: Initiation Larceny
+Discard 2: Avaricious Grasp
 Special action available
-Gold: 2
+First hireling costs 2 gold less
+Gold: 7
 Mercenaries in play:
   Brawler
-  Gunslinger
+  Mage
 
 
-C.....G
+CG.....
 
-Unbeatable strategy for Gerard: Gilded Shot: -2.78
-Unbeatable strategy for Gerard: Gilded Shot (Hire Mage): -1.98
-Unbeatable strategy for Gerard: Gilded Shot (Hire Heavy Knight): -1.98
-Unbeatable strategy for Gerard: Avaricious Dash: -0.19
-Unbeatable strategy for Gerard: Initiation Dash: -0.19
+Unbeatable strategy for Gerard: Villainous Drive (Hire Gunslinger): -0.24
+Unbeatable strategy for Gerard: Villainous Drive (Hire Heavy Knight): -0.24
+Unbeatable strategy for Gerard: Gilded Strike: -0.72
+Unbeatable strategy for Gerard: Gilded Strike (Hire Trebuchet): -0.36
+Unbeatable strategy for Gerard: Gilded Strike (Hire Gunslinger): -1.04
+Unbeatable strategy for Gerard: Gilded Strike (Hire Gunslinger; Activate Mage): -0.08
+Unbeatable strategy for Gerard: Gilded Strike (Hire Gunslinger; Activate Gunslinger): -0.72
+Unbeatable strategy for Gerard: Gilded Strike (Hire Archer): -0.24
+Unbeatable strategy for Gerard: Gilded Strike (Hire Heavy Knight): -1.04
+Unbeatable strategy for Gerard: Gilded Strike (Hire Heavy Knight; Activate Mage): -0.08
+Unbeatable strategy for Gerard: Gilded Strike (Hire Heavy Knight; Activate Heavy Knight): -1.25
+Unbeatable strategy for Gerard: Gilded Strike (Hire Gunslinger, Heavy Knight): -0.72
+Unbeatable strategy for Gerard: Gilded Strike (Hire Gunslinger, Heavy Knight; Activate Gunslinger): -0.40
+Unbeatable strategy for Gerard: Gilded Drive: -0.47
+Unbeatable strategy for Gerard: Gilded Drive (Activate Mage): -0.70
+Unbeatable strategy for Gerard: Gilded Drive (Hire Trebuchet): -0.14
+Unbeatable strategy for Gerard: Gilded Drive (Hire Gunslinger): -0.91
+Unbeatable strategy for Gerard: Gilded Drive (Hire Gunslinger; Activate Mage): -1.02
+Unbeatable strategy for Gerard: Gilded Drive (Hire Gunslinger; Activate Mage, Gunslinger): -0.28
+Unbeatable strategy for Gerard: Gilded Drive (Hire Lackey): -0.28
+Unbeatable strategy for Gerard: Gilded Drive (Hire Archer): -0.19
+Unbeatable strategy for Gerard: Gilded Drive (Hire Heavy Knight): -0.91
+Unbeatable strategy for Gerard: Gilded Drive (Hire Heavy Knight; Activate Mage): -1.02
+Unbeatable strategy for Gerard: Gilded Drive (Hire Gunslinger, Heavy Knight): -0.47
+Unbeatable strategy for Gerard: Gilded Dash: -0.55
+Unbeatable strategy for Gerard: Gilded Dash (Hire Trebuchet): -0.16
+Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger): -0.87
+Unbeatable strategy for Gerard: Gilded Dash (Hire Archer): -0.07
+Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight): -0.87
+Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight; Activate Heavy Knight): -0.06
+Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger, Heavy Knight): -0.55
+Unbeatable strategy for Gerard: Hooked Strike: -0.27
+Unbeatable strategy for Gerard: Hooked Strike (Hire Trebuchet): -0.30
+Unbeatable strategy for Gerard: Hooked Strike (Hire Gunslinger): -0.71
+Unbeatable strategy for Gerard: Hooked Strike (Hire Heavy Knight): -0.71
+Unbeatable strategy for Gerard: Hooked Strike (Hire Gunslinger, Heavy Knight): -0.27
+Unbeatable strategy for Gerard: Hooked Shot (Hire Gunslinger): -0.02
+Unbeatable strategy for Gerard: Hooked Shot (Hire Heavy Knight): -0.02
+Unbeatable strategy for Gerard: Hooked Burst: -1.20
+Unbeatable strategy for Gerard: Hooked Burst (Hire Trebuchet): -0.81
+Unbeatable strategy for Gerard: Hooked Burst (Hire Gunslinger): -1.52
+Unbeatable strategy for Gerard: Hooked Burst (Hire Gunslinger; Activate Gunslinger): -0.56
+Unbeatable strategy for Gerard: Hooked Burst (Hire Archer): -0.72
+Unbeatable strategy for Gerard: Hooked Burst (Hire Heavy Knight): -1.52
+Unbeatable strategy for Gerard: Hooked Burst (Hire Heavy Knight; Activate Heavy Knight): -0.56
+Unbeatable strategy for Gerard: Hooked Burst (Hire Trebuchet, Gunslinger): -0.49
+Unbeatable strategy for Gerard: Hooked Burst (Hire Trebuchet, Heavy Knight): -0.49
+Unbeatable strategy for Gerard: Hooked Burst (Hire Gunslinger, Archer): -0.40
+Unbeatable strategy for Gerard: Hooked Burst (Hire Gunslinger, Heavy Knight): -1.20
+Unbeatable strategy for Gerard: Hooked Burst (Hire Gunslinger, Heavy Knight; Activate Gunslinger): -0.24
+Unbeatable strategy for Gerard: Hooked Burst (Hire Gunslinger, Heavy Knight; Activate Heavy Knight): -0.24
+Unbeatable strategy for Gerard: Hooked Burst (Hire Archer, Heavy Knight): -0.40
+Unbeatable strategy for Gerard: Hooked Burst (Hire Trebuchet, Gunslinger, Heavy Knight): -0.17
+Unbeatable strategy for Gerard: Hooked Burst (Hire Gunslinger, Archer, Heavy Knight): -0.08
 
 
 Cesar:
-32% Phalanx Strike
-1% Phalanx Burst
-66% Inevitable Burst
+7% Phalanx Suppression
+9% Phalanx Dash
+40% Unstoppable Suppression
+9% Unstoppable Strike
+3% Fueled Suppression
+32% Special Level 4 Protocol
 
 Gerard:
-82% Gilded Shot
-11% Gilded Burst
-7% Initiation Larceny
+1% Gilded Strike (Hire Gunslinger)
+1% Gilded Strike (Hire Heavy Knight)
+21% Gilded Strike (Hire Heavy Knight; Activate Heavy Knight)
+16% Gilded Shot (Hire Heavy Knight; Activate Heavy Knight)
+0% Gilded Drive (Hire Gunslinger)
+0% Gilded Drive (Hire Heavy Knight)
+16% Gilded Burst (Hire Heavy Knight; Activate Heavy Knight)
+22% Hooked Burst (Hire Gunslinger)
+22% Hooked Burst (Hire Heavy Knight)
 
 
-Cesar: Inevitable Burst
-Gerard: Gilded Shot
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  1 | 1
-Clash!
-
-
-Cesar: Inevitable Strike
-Gerard: Gilded Dash
+Cesar: Special Level 4 Protocol
+Gerard: Gilded Shot (Hire Heavy Knight; Activate Heavy Knight)
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  3 | 8
-Gerard is active
-Gerard moves Cesar:
-
-.C....G
-
-Gerard moves:
-
-.C.G...
-
-Cesar loses 1 life (now at 13)
-Cesar misses
-Gerard gains 1 Gold Token (has 3)
+Gerard hires a Heavy Knight for 0 gold (7 remaining)
+Gerard activates his Heavy Knight for 3 gold (4 remaining)
+Priorities:  11 | 1
+Cesar is active
+Cesar hits
+Gerard has 2 soak
+Gerard takes 7 damage (now at 10 life)
+Gerard is stunned
+Gerard gains 1 Gold Token (has 5)
 
 Beat 7
 -------
 
 Cesar
 -----
-Life: 13
-Discard 1: Inevitable Strike
-Discard 2: Unstoppable Suppression
-Special action available
+Life: 2
+Discard 1: Inevitable Drive
+Discard 2: Bulwark Shot
 Threat level: 2
 
 Gerard
 ------
-Life: 20
-Discard 1: Gilded Dash
-Discard 2: Hooked Strike
+Life: 10
+Discard 1: Gilded Shot
+Discard 2: Initiation Larceny
 Special action available
-Gold: 3
+Gold: 5
 Mercenaries in play:
   Brawler
-  Gunslinger
+  Mage
+  Heavy Knight
 
 
-.C.G...
+CG.....
 
-Unbeatable strategy for Gerard: Villainous Drive: -0.81
-Unbeatable strategy for Gerard: Villainous Drive (Hire Mage): -0.01
-Unbeatable strategy for Gerard: Villainous Drive (Hire Heavy Knight): -0.01
-Unbeatable strategy for Gerard: Avaricious Larceny: -3.04
-Unbeatable strategy for Gerard: Avaricious Larceny (Activate Gunslinger): -0.64
-Unbeatable strategy for Gerard: Avaricious Larceny (Hire Mage): -2.24
-Unbeatable strategy for Gerard: Avaricious Larceny (Hire Archer): -3.08
-Unbeatable strategy for Gerard: Avaricious Larceny (Hire Trebuchet): -1.47
-Unbeatable strategy for Gerard: Avaricious Larceny (Hire Heavy Knight): -2.24
-Unbeatable strategy for Gerard: Avaricious Shot (Hire Mage): -0.08
-Unbeatable strategy for Gerard: Avaricious Shot (Hire Archer): -0.86
-Unbeatable strategy for Gerard: Avaricious Shot (Hire Heavy Knight): -0.08
-Unbeatable strategy for Gerard: Avaricious Drive: -1.50
-Unbeatable strategy for Gerard: Avaricious Drive (Hire Archer): -0.16
-Unbeatable strategy for Gerard: Avaricious Burst (Hire Archer): -0.86
-Unbeatable strategy for Gerard: Initiation Larceny: -3.04
-Unbeatable strategy for Gerard: Initiation Larceny (Activate Gunslinger): -0.64
-Unbeatable strategy for Gerard: Initiation Larceny (Hire Mage): -2.24
-Unbeatable strategy for Gerard: Initiation Larceny (Hire Archer): -2.68
-Unbeatable strategy for Gerard: Initiation Larceny (Hire Trebuchet): -1.84
-Unbeatable strategy for Gerard: Initiation Larceny (Hire Heavy Knight): -2.24
-Unbeatable strategy for Gerard: Initiation Shot: -0.63
-Unbeatable strategy for Gerard: Initiation Shot (Hire Archer): -0.82
-Unbeatable strategy for Gerard: Initiation Drive: -0.61
-Unbeatable strategy for Gerard: Initiation Drive (Hire Archer): -0.42
-Unbeatable strategy for Gerard: Initiation Burst: -0.77
-Unbeatable strategy for Gerard: Initiation Burst (Hire Archer): -0.46
+Unbeatable strategy for Gerard: Villainous Strike: -0.05
+Unbeatable strategy for Gerard: Villainous Strike (Activate Heavy Knight): -0.02
+Unbeatable strategy for Gerard: Villainous Drive: -0.17
+Unbeatable strategy for Gerard: Villainous Drive (Activate Heavy Knight): -0.02
+Unbeatable strategy for Gerard: Villainous Grasp: -0.65
+Unbeatable strategy for Gerard: Villainous Grasp (Hire Archer): -0.01
+Unbeatable strategy for Gerard: Avaricious Strike: -0.60
+Unbeatable strategy for Gerard: Avaricious Drive: -0.62
+Unbeatable strategy for Gerard: Avaricious Grasp: -0.55
 
 
 Cesar:
-4% Phalanx Grasp
-67% Bulwark Shot
-29% Bulwark Burst
+43% Phalanx Strike
+14% Unstoppable Suppression
+34% Fueled Suppression
+9% Fueled Burst
 
 Gerard:
-40% Avaricious Larceny
-9% Avaricious Drive
-52% Initiation Larceny
+14% Villainous Strike (Activate Heavy Knight)
+29% Villainous Drive (Activate Heavy Knight)
+9% Villainous Burst
+26% Villainous Grasp
+22% Hooked Burst
 
 
-Cesar: Bulwark Shot
-Gerard: Initiation Larceny
+Cesar: Phalanx Strike
+Gerard: Villainous Drive (Activate Heavy Knight)
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  0 | 4
+Gerard activates his Heavy Knight for 3 gold (2 remaining)
+Priorities:  1 | 4
 Gerard is active
-Gerard moves:
-
-.CG....
-
-Gerard moves:
-
-GC.....
-
 Gerard hits
-First hireling next beat will cost 2 gold less
-Cesar takes 4 damage (now at 9 life)
-Gerard gains 3 Gold Tokens (has 6)
-Cesar loses 1 life (now at 8)
+Cesar takes 4 damage (now at 0 life)
+Cesar loses 1 life (now at 1)
 Cesar hits
-Gerard takes 6 damage (now at 14 life)
+Gerard takes 7 damage (now at 3 life)
 Gerard is stunned
-Cesar moves:
-
-G.C....
-
-Gerard gains 1 Gold Token (has 7)
+Gerard gains 2 Gold Tokens (has 4)
+Gerard gains 1 Gold Token (has 5)
 
 Beat 8
 -------
 
 Cesar
 -----
-Life: 8
-Discard 1: Bulwark Shot
-Discard 2: Inevitable Strike
-Special action available
+Life: 1
+Discard 1: Phalanx Strike
+Discard 2: Inevitable Drive
 Threat level: 3
+Defeat immunity used-up
 
 Gerard
 ------
-Life: 14
-Discard 1: Initiation Larceny
-Discard 2: Gilded Dash
-Special action available
-First hireling costs 2 gold less
-Gold: 7
-Mercenaries in play:
-  Brawler
-  Gunslinger
-
-
-G.C....
-
-
-Cesar:
-6% Unstoppable Suppression
-36% Unstoppable Burst
-49% Fueled Suppression
-6% Fueled Drive
-3% Fueled Burst
-
-Gerard:
-4% Villainous Burst (Hire Mage)
-4% Villainous Burst (Hire Heavy Knight)
-20% Avaricious Shot (Hire Mage)
-20% Avaricious Shot (Hire Heavy Knight)
-17% Avaricious Drive (Hire Mage)
-17% Avaricious Drive (Hire Heavy Knight)
-1% Avaricious Burst (Hire Mage)
-1% Avaricious Burst (Hire Heavy Knight)
-8% Avaricious Grasp (Hire Mage)
-8% Avaricious Grasp (Hire Heavy Knight)
-
-
-Cesar: Fueled Burst
-Gerard: Avaricious Drive (Hire Mage)
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Gerard hires a Mage for 0 gold (7 remaining)
-Priorities:  0 | 4
-Gerard is active
-Gerard moves:
-
-.GC....
-
-Cesar gains a Threat Level (current level: 0)
-Cesar moves:
-
-.G.C...
-
-Gerard moves:
-
-..GC...
-
-Gerard hits
-Cesar takes 4 damage (now at 4 life)
-Gerard gains 2 Gold Tokens (has 9)
-Cesar is stunned
-Cesar loses 1 life (now at 3)
-Gerard gains 1 Gold Token (has 10)
-
-Beat 9
--------
-
-Cesar
------
 Life: 3
-Discard 1: Fueled Burst
-Discard 2: Bulwark Shot
-Special action available
-Threat level: 0
-
-Gerard
-------
-Life: 14
-Discard 1: Avaricious Drive
-Discard 2: Initiation Larceny
-Special action available
-Gold: 10
-Mercenaries in play:
-  Brawler
-  Gunslinger
-  Mage
-
-
-..GC...
-
-
-Cesar:
-10% Phalanx Dash
-15% Unstoppable Strike
-36% Unstoppable Dash
-23% Inevitable Drive
-16% Inevitable Grasp
-1% Special Level 4 Protocol
-
-Gerard:
-15% Villainous Burst
-3% Villainous Burst (Hire Heavy Knight)
-31% Villainous Grasp (Activate Gunslinger)
-16% Villainous Grasp (Activate Mage)
-3% Villainous Grasp (Activate Gunslinger, Mage)
-29% Gilded Shot (Hire Heavy Knight; Activate Heavy Knight)
-3% Gilded Burst (Hire Heavy Knight; Activate Heavy Knight)
-
-
-Cesar: Inevitable Grasp
-Gerard: Gilded Shot (Hire Heavy Knight; Activate Heavy Knight)
-
-Cesar gains a Threat Level (current level: 1)
-Gerard hires a Heavy Knight for 2 gold (8 remaining)
-Gerard activates his Heavy Knight for 3 gold (5 remaining)
-Priorities:  5 | 1
-Cesar is active
-Cesar hits
-Gerard is stunned
-Gerard will have -3 priority next beat
-Cesar moves Gerard:
-
-...CG..
-
-Gerard has 2 soak
-Gerard takes 1 damage (now at 13 life)
-Gerard gains 1 Gold Token (has 6)
-
-Beat 10
--------
-
-Cesar
------
-Life: 3
-Discard 1: Inevitable Grasp
-Discard 2: Fueled Burst
-Special action available
-Opponent has power penalty: -3
-Threat level: 1
-
-Gerard
-------
-Life: 13
-Discard 1: Gilded Shot
-Discard 2: Avaricious Drive
-Special action available
-Gold: 6
-Mercenaries in play:
-  Brawler
-  Gunslinger
-  Mage
-  Heavy Knight
-
-
-...CG..
-
-Unbeatable strategy for Gerard: Villainous Dash: -0.50
-
-
-Cesar:
-10% Unstoppable Suppression
-41% Unstoppable Shot
-28% Unstoppable Dash
-0% Bulwark Suppression
-21% Special Level 4 Protocol
-
-Gerard:
-9% Villainous Larceny (Activate Gunslinger, Mage)
-17% Villainous Strike (Activate Gunslinger, Mage)
-49% Villainous Dash
-2% Hooked Dash (Activate Heavy Knight)
-22% Initiation Burst
-
-
-Cesar: Unstoppable Dash
-Gerard: Villainous Strike (Activate Gunslinger, Mage)
-
-Cesar gains a Threat Level (current level: 2)
-Gerard activates his Gunslinger for 3 gold (3 remaining)
-Gerard activates his Mage for 3 gold (0 remaining)
-Priorities:  7 | 4
-Cesar is active
-Cesar moves:
-
-....GC.
-
-Gerard misses
-Cesar loses 1 life (now at 2)
-Gerard moves:
-
-.....CG
-
-Gerard gains 1 Gold Token (has 1)
-
-Beat 11
--------
-
-Cesar
------
-Life: 2
-Discard 1: Unstoppable Dash
-Discard 2: Inevitable Grasp
-Special action available
-Threat level: 2
-
-Gerard
-------
-Life: 13
-Discard 1: Villainous Strike
+Discard 1: Villainous Drive
 Discard 2: Gilded Shot
 Special action available
-Gold: 1
+Gold: 5
 Mercenaries in play:
   Brawler
-  Gunslinger
   Mage
   Heavy Knight
 
 
-.....CG
+CG.....
+
+Unbeatable strategy for Gerard: Avaricious Strike: -6.00
+Unbeatable strategy for Gerard: Avaricious Strike (Activate Mage): -6.00
+Unbeatable strategy for Gerard: Avaricious Strike (Activate Heavy Knight): -6.00
+Unbeatable strategy for Gerard: Avaricious Strike (Hire Trebuchet): -6.00
+Unbeatable strategy for Gerard: Avaricious Strike (Hire Gunslinger): -6.00
+Unbeatable strategy for Gerard: Avaricious Strike (Hire Gunslinger; Activate Mage): -6.00
+Unbeatable strategy for Gerard: Avaricious Strike (Hire Gunslinger; Activate Heavy Knight): -6.00
+Unbeatable strategy for Gerard: Avaricious Strike (Hire Gunslinger; Activate Gunslinger): -6.00
+Unbeatable strategy for Gerard: Avaricious Strike (Hire Archer): -6.00
+Unbeatable strategy for Gerard: Avaricious Strike (Hire Trebuchet, Gunslinger): -6.00
+Unbeatable strategy for Gerard: Avaricious Strike (Hire Gunslinger, Archer): -6.00
+Unbeatable strategy for Gerard: Avaricious Grasp: -6.00
+Unbeatable strategy for Gerard: Avaricious Grasp (Activate Mage): -6.00
+Unbeatable strategy for Gerard: Avaricious Grasp (Hire Gunslinger; Activate Mage): -6.00
+Unbeatable strategy for Gerard: Initiation Strike: -6.00
+Unbeatable strategy for Gerard: Initiation Strike (Activate Mage): -6.00
+Unbeatable strategy for Gerard: Initiation Strike (Activate Heavy Knight): -6.00
+Unbeatable strategy for Gerard: Initiation Strike (Hire Trebuchet): -6.00
+Unbeatable strategy for Gerard: Initiation Strike (Hire Gunslinger): -6.00
+Unbeatable strategy for Gerard: Initiation Strike (Hire Gunslinger; Activate Mage): -6.00
+Unbeatable strategy for Gerard: Initiation Strike (Hire Gunslinger; Activate Heavy Knight): -6.00
+Unbeatable strategy for Gerard: Initiation Strike (Hire Gunslinger; Activate Gunslinger): -6.00
+Unbeatable strategy for Gerard: Initiation Strike (Hire Archer): -6.00
+Unbeatable strategy for Gerard: Initiation Strike (Hire Trebuchet, Gunslinger): -6.00
+Unbeatable strategy for Gerard: Initiation Strike (Hire Gunslinger, Archer): -6.00
+Unbeatable strategy for Gerard: Initiation Grasp (Activate Mage): -6.00
+Unbeatable strategy for Gerard: Initiation Grasp (Hire Gunslinger; Activate Mage): -6.00
 
 
 Cesar:
-8% Phalanx Strike
-89% Fueled Suppression
-3% Fueled Shot
-0% Special Level 4 Protocol
+17% Unstoppable Suppression
+19% Unstoppable Shot
+1% Unstoppable Burst
+5% Unstoppable Grasp
+12% Unstoppable Dash
+3% Fueled Suppression
+1% Fueled Shot
+3% Fueled Burst
+3% Fueled Grasp
+3% Fueled Dash
+8% Bulwark Suppression
+8% Bulwark Shot
+5% Bulwark Burst
+5% Bulwark Grasp
+7% Bulwark Dash
 
 Gerard:
-37% Avaricious Drive
-1% Avaricious Burst
-28% Hooked Burst
-34% Initiation Drive
+4% Avaricious Strike
+4% Avaricious Strike (Activate Mage)
+4% Avaricious Strike (Activate Heavy Knight)
+4% Avaricious Strike (Hire Trebuchet)
+4% Avaricious Strike (Hire Gunslinger)
+4% Avaricious Strike (Hire Gunslinger; Activate Mage)
+4% Avaricious Strike (Hire Gunslinger; Activate Heavy Knight)
+4% Avaricious Strike (Hire Gunslinger; Activate Gunslinger)
+4% Avaricious Strike (Hire Archer)
+4% Avaricious Strike (Hire Trebuchet, Gunslinger)
+4% Avaricious Strike (Hire Gunslinger, Archer)
+4% Avaricious Grasp
+4% Avaricious Grasp (Activate Mage)
+4% Avaricious Grasp (Hire Gunslinger; Activate Mage)
+4% Initiation Strike
+4% Initiation Strike (Activate Mage)
+4% Initiation Strike (Activate Heavy Knight)
+4% Initiation Strike (Hire Trebuchet)
+4% Initiation Strike (Hire Gunslinger)
+4% Initiation Strike (Hire Gunslinger; Activate Mage)
+4% Initiation Strike (Hire Gunslinger; Activate Heavy Knight)
+4% Initiation Strike (Hire Gunslinger; Activate Gunslinger)
+4% Initiation Strike (Hire Archer)
+4% Initiation Strike (Hire Trebuchet, Gunslinger)
+4% Initiation Strike (Hire Gunslinger, Archer)
+4% Initiation Grasp (Activate Mage)
+4% Initiation Grasp (Hire Gunslinger; Activate Mage)
 
 
-Cesar: Fueled Suppression
-Gerard: Hooked Burst
+Cesar: Bulwark Suppression
+Gerard: Initiation Strike (Hire Archer)
 
-Cesar gains a Threat Level (current level: 3)
-Priorities:  1 | 0
-Cesar is active
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Gerard misses
-Cesar loses 1 life (now at 1)
-Gerard gains 1 Gold Token (has 2)
-
-Beat 12
--------
-
-Cesar
------
-Life: 1
-Discard 1: Fueled Suppression
-Discard 2: Unstoppable Dash
-Special action available
-Threat level: 4
-
-Gerard
-------
-Life: 13
-Discard 1: Hooked Burst
-Discard 2: Villainous Strike
-Special action available
-Gold: 2
-Mercenaries in play:
-  Brawler
-  Gunslinger
-  Mage
-  Heavy Knight
-
-
-.....CG
-
-Unbeatable strategy for Gerard: Avaricious Drive: -1.21
-Unbeatable strategy for Gerard: Initiation Drive: -1.05
-
-
-Cesar:
-1% Inevitable Drive
-99% Special Level 4 Protocol
-
-Gerard:
-42% Avaricious Shot
-58% Avaricious Drive
-
-
-Cesar: Special Level 4 Protocol
-Gerard: Avaricious Shot
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  11 | 3
-Cesar is active
-Gerard moves:
-
-....GC.
-
-Cesar hits
-Gerard takes 7 damage (now at 6 life)
-Gerard is stunned
-Gerard gains 1 Gold Token (has 3)
-
-Beat 13
--------
-
-Cesar
------
-Life: 1
-Discard 1: Fueled Suppression
-Discard 2: Unstoppable Dash
-Threat level: 0
-
-Gerard
-------
-Life: 6
-Discard 1: Avaricious Shot
-Discard 2: Hooked Burst
-Special action available
-Gold: 3
-Mercenaries in play:
-  Brawler
-  Gunslinger
-  Mage
-  Heavy Knight
-
-
-....GC.
-
-Unbeatable strategy for Gerard: Initiation Drive: -0.19
-Unbeatable strategy for Gerard: Initiation Drive (Activate Gunslinger): -4.52
-Unbeatable strategy for Gerard: Initiation Grasp: -0.28
-Unbeatable strategy for Gerard: Initiation Grasp (Activate Gunslinger): -4.21
-
-
-Cesar:
-7% Phalanx Strike
-4% Phalanx Shot
-64% Phalanx Burst
-18% Bulwark Burst
-8% Inevitable Grasp
-
-Gerard:
-0% Villainous Larceny
-4% Villainous Drive
-5% Initiation Larceny
-89% Initiation Drive (Activate Gunslinger)
-2% Initiation Grasp
-
-
-Cesar: Bulwark Burst
-Gerard: Initiation Drive (Activate Gunslinger)
-
-Cesar gains a Threat Level (current level: 1)
-Gerard activates his Gunslinger for 3 gold (0 remaining)
-Priorities:  -1 | 5
+Gerard hires a Archer for 3 gold (2 remaining)
+Priorities:  0 | 4
 Gerard is active
-Cesar moves:
-
-....G.C
-
-Gerard moves:
-
-.....GC
-
 Gerard hits
 First hireling next beat will cost 2 gold less
-Cesar takes 3 damage (now at 0 life)
-Cesar is stunned
-Cesar loses 1 life (now at 1)
-Gerard gains 1 Gold Token (has 1)
-
-Beat 14
--------
-
-Cesar
------
-Life: 1
-Discard 1: Bulwark Burst
-Discard 2: Fueled Suppression
-Threat level: 1
-Defeat immunity used-up
-
-Gerard
-------
-Life: 6
-Discard 1: Initiation Drive
-Discard 2: Avaricious Shot
-Special action available
-First hireling costs 2 gold less
-Gold: 1
-Mercenaries in play:
-  Brawler
-  Gunslinger
-  Mage
-  Heavy Knight
-
-
-.....GC
-
-Unbeatable strategy for Gerard: Villainous Grasp: -1.33
-Unbeatable strategy for Gerard: Villainous Grasp (Hire Archer): -1.07
-Unbeatable strategy for Gerard: Villainous Grasp (Hire Trebuchet): -0.94
-Unbeatable strategy for Gerard: Hooked Burst: -1.22
-Unbeatable strategy for Gerard: Hooked Burst (Hire Archer): -1.24
-Unbeatable strategy for Gerard: Hooked Burst (Hire Trebuchet): -1.02
-Unbeatable strategy for Gerard: Hooked Grasp (Hire Trebuchet): -0.06
-
-
-Cesar:
-0% Unstoppable Strike
-2% Unstoppable Drive
-96% Unstoppable Dash
-1% Inevitable Drive
-
-Gerard:
-1% Gilded Larceny (Hire Archer)
-26% Gilded Burst
-33% Gilded Grasp
-40% Hooked Burst (Hire Archer)
-
-
-Cesar: Unstoppable Dash
-Gerard: Gilded Grasp
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  7 | 4
-Cesar is active
-Cesar moves:
-
-...C.G.
-
-Gerard moves Cesar:
-
-....CG.
-
-Gerard misses
-Cesar loses 1 life (now at 1)
-Gerard gains 1 Gold Token (has 2)
-
-Beat 15
--------
-
-Cesar
------
-Life: 1
-Discard 1: Unstoppable Dash
-Discard 2: Bulwark Burst
-Threat level: 2
-Defeat immunity used-up
-
-Gerard
-------
-Life: 6
-Discard 1: Gilded Grasp
-Discard 2: Initiation Drive
-Special action available
-Gold: 2
-Mercenaries in play:
-  Brawler
-  Gunslinger
-  Mage
-  Heavy Knight
-
-
-....CG.
-
-
-Cesar:
-14% Phalanx Suppression
-4% Phalanx Strike
-4% Phalanx Shot
-4% Phalanx Drive
-5% Phalanx Grasp
-6% Fueled Suppression
-7% Fueled Strike
-6% Fueled Shot
-6% Fueled Drive
-7% Fueled Grasp
-7% Inevitable Suppression
-6% Inevitable Strike
-5% Inevitable Shot
-5% Inevitable Drive
-16% Inevitable Grasp
-
-Gerard:
-100% Special Windfall
-
-
-Cesar: Inevitable Strike
-Gerard: Special Windfall
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  3 | 5
-Gerard is active
-Gerard moves:
-
-..G.C..
-
-Gerard misses
-Cesar loses 1 life (now at 1)
-Cesar misses
-Gerard gains 1 Gold Token (has 3)
-Game goes to time
+Cesar has 2 soak
+Cesar takes 2 damage (now at 0 life)
 GERARD WINS!
-total_time: 254
+total_time: 175

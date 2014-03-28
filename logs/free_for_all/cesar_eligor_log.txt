@@ -43,24 +43,31 @@ Eligor:
 
 
 Cesar: Bulwark Suppression
-Eligor: Counter Drive
+Eligor: Counter Burst
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 3
+Priorities:  0 | 0
+Clash!
+
+
+Cesar: Bulwark Burst
+Eligor: Counter Dash
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  -1 | 8
 Eligor is active
+Cesar moves:
+
+C....E.
+
 Eligor moves:
 
-.C.E...
+C.....E
 
-Eligor misses
 Cesar misses
 Cesar moves:
 
-C..E...
-
-Cesar moves:
-
-..CE...
+...C..E
 
 
 Beat 2
@@ -69,7 +76,7 @@ Beat 2
 Cesar
 -----
 Life: 20
-Discard 1: Bulwark Suppression
+Discard 1: Bulwark Burst
 Discard 2: Fueled Strike
 Special action available
 Threat level: 1
@@ -77,46 +84,43 @@ Threat level: 1
 Eligor
 ------
 Life: 20
-Discard 1: Counter Drive
+Discard 1: Counter Dash
 Discard 2: Martial Grasp
 Special action available
 2 Vengeance token
 
 
-..CE...
-
-Unbeatable strategy for Eligor: Chained Dash: -0.72
-Unbeatable strategy for Eligor: Chained Dash (1 token): -0.52
-Unbeatable strategy for Eligor: Chained Dash (2 tokens): -0.32
-Unbeatable strategy for Eligor: Retribution Dash: -0.72
-Unbeatable strategy for Eligor: Retribution Dash (1 token): -0.52
-Unbeatable strategy for Eligor: Retribution Dash (2 tokens): -0.32
+...C..E
 
 
 Cesar:
-8% Phalanx Shot
-11% Phalanx Burst
-67% Inevitable Shot
-14% Inevitable Grasp
+58% Inevitable Shot
+42% Inevitable Drive
 
 Eligor:
-2% Chained Strike
-6% Chained Dash
-9% Retribution Strike
-83% Retribution Dash
+59% Vengeful Drive (2 tokens)
+41% Retribution Aegis (2 tokens)
 
 
-Cesar: Phalanx Shot
-Eligor: Retribution Dash
+Cesar: Inevitable Drive
+Eligor: Retribution Aegis (2 tokens)
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  0 | 8
-Eligor is active
-Eligor moves:
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  4 | -1
+Cesar is active
+Cesar moves:
 
-E.C....
+.....CE
 
-Cesar misses
+Cesar hits
+Eligor is stunned
+Eligor will have -3 priority next beat
+Eligor has 4 soak
+Eligor gains 2 Vengeance tokens
+Eligor takes 1 damage (now at 19 life)
+Eligor gains 1 Vengeance token
 
 Beat 3
 -------
@@ -124,575 +128,42 @@ Beat 3
 Cesar
 -----
 Life: 20
-Discard 1: Phalanx Shot
-Discard 2: Bulwark Suppression
-Special action available
-Threat level: 2
-
-Eligor
-------
-Life: 20
-Discard 1: Retribution Dash
-Discard 2: Counter Drive
-Special action available
-2 Vengeance token
-
-
-E.C....
-
-
-Cesar:
-1% Unstoppable Drive
-19% Fueled Strike
-35% Inevitable Drive
-46% Inevitable Burst
-
-Eligor:
-16% Martial Shot
-49% Martial Grasp
-28% Chained Strike
-8% Chained Grasp
-
-
-Cesar: Fueled Strike
-Eligor: Martial Grasp
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  2 | 4
-Eligor is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Eligor hits
-Eligor moves Cesar:
-
-E..C...
-
-Cesar has 2 soak
-Cesar takes 1 damage (now at 19 life)
-
-Beat 4
--------
-
-Cesar
------
-Life: 19
-Discard 1: Fueled Strike
-Discard 2: Phalanx Shot
-Special action available
-Threat level: 4
-
-Eligor
-------
-Life: 20
-Discard 1: Martial Grasp
-Discard 2: Retribution Dash
-Special action available
-2 Vengeance token
-
-
-E..C...
-
-
-Cesar:
-37% Unstoppable Burst
-2% Bulwark Burst
-23% Bulwark Grasp
-37% Inevitable Drive
-1% Inevitable Burst
-
-Eligor:
-35% Vengeful Shot
-6% Vengeful Drive
-51% Counter Drive
-6% Chained Shot
-1% Chained Burst
-
-
-Cesar: Inevitable Drive
-Eligor: Chained Shot
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  4 | 1
-Cesar is active
-Cesar moves:
-
-EC.....
-
-Cesar hits
-Eligor is stunned
-Eligor will have -3 priority next beat
-Eligor takes 3 damage (now at 17 life)
-Eligor is stunned
-Eligor gains 3 Vengeance tokens
-
-Beat 5
--------
-
-Cesar
------
-Life: 19
 Discard 1: Inevitable Drive
-Discard 2: Fueled Strike
+Discard 2: Bulwark Burst
 Special action available
 Opponent has power penalty: -3
-Threat level: 0
+Threat level: 2
 
 Eligor
 ------
-Life: 17
-Discard 1: Chained Shot
-Discard 2: Martial Grasp
-Special action available
-5 Vengeance token
-
-
-EC.....
-
-Unbeatable strategy for Eligor: Retribution Aegis (2 tokens): -0.30
-Unbeatable strategy for Eligor: Retribution Aegis (3 tokens): -0.10
-
-
-Cesar:
-0% Phalanx Shot
-7% Phalanx Grasp
-79% Bulwark Suppression
-14% Bulwark Burst
-
-Eligor:
-9% Counter Aegis (3 tokens)
-22% Counter Burst
-24% Retribution Aegis (1 token)
-45% Retribution Aegis (2 tokens)
-
-
-Cesar: Phalanx Grasp
-Eligor: Retribution Aegis (2 tokens)
-
-Cesar gains a Threat Level (current level: 1)
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  3 | -1
-Cesar is active
-Cesar hits
-Cesar moves Eligor:
-
-.CE....
-
-Eligor has 4 soak
-Eligor gains 2 Vengeance tokens
-Eligor takes 0 damage (now at 17 life)
-Eligor hits
-Cesar takes 0 damage (now at 19 life)
-
-Beat 6
--------
-
-Cesar
------
 Life: 19
-Discard 1: Phalanx Grasp
-Discard 2: Inevitable Drive
-Special action available
-Threat level: 1
-
-Eligor
-------
-Life: 17
 Discard 1: Retribution Aegis
-Discard 2: Chained Shot
+Discard 2: Counter Dash
 Special action available
-5 Vengeance token
+3 Vengeance token
 
 
-.CE....
-
-Unbeatable strategy for Eligor: Vengeful Dash: -0.24
-Unbeatable strategy for Eligor: Vengeful Dash (1 token): -0.04
-Unbeatable strategy for Eligor: Martial Strike: -1.37
-Unbeatable strategy for Eligor: Martial Drive: -0.70
+.....CE
 
 
 Cesar:
-70% Unstoppable Dash
-30% Bulwark Dash
+5% Phalanx Suppression
+19% Phalanx Strike
+77% Unstoppable Shot
 
 Eligor:
-100% Martial Strike
-
-
-Cesar: Unstoppable Dash
-Eligor: Martial Strike
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  7 | 2
-Cesar is active
-Cesar moves:
-
-..EC...
-
-Eligor gets +2 power
-Eligor misses
-
-Beat 7
--------
-
-Cesar
------
-Life: 19
-Discard 1: Unstoppable Dash
-Discard 2: Phalanx Grasp
-Special action available
-Threat level: 2
-
-Eligor
-------
-Life: 17
-Discard 1: Martial Strike
-Discard 2: Retribution Aegis
-Special action available
-5 Vengeance token
-
-
-..EC...
-
-
-Cesar:
-44% Fueled Shot
-18% Fueled Burst
-20% Bulwark Shot
-11% Inevitable Shot
-7% Inevitable Drive
-
-Eligor:
-9% Vengeful Shot
-9% Vengeful Shot (1 token)
-8% Vengeful Shot (2 tokens)
-62% Vengeful Drive
-1% Counter Burst
-9% Counter Burst (5 tokens)
-2% Chained Dash
-
-
-Cesar: Inevitable Drive
-Eligor: Vengeful Drive
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  4 | 4
-Clash!
-
-
-Cesar: Inevitable Suppression
-Eligor: Vengeful Dash
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  2 | 9
-Eligor is active
-Eligor moves:
-
-.E.C...
-
-Cesar misses
-Cesar moves:
-
-.E....C
-
-
-Beat 8
--------
-
-Cesar
------
-Life: 19
-Discard 1: Inevitable Suppression
-Discard 2: Unstoppable Dash
-Special action available
-Threat level: 3
-
-Eligor
-------
-Life: 17
-Discard 1: Vengeful Dash
-Discard 2: Martial Strike
-Special action available
-5 Vengeance token
-
-
-.E....C
-
-Unbeatable strategy for Cesar: Phalanx Drive: 1.92
-Unbeatable strategy for Cesar: Bulwark Drive: 3.12
-
-
-Cesar:
-100% Bulwark Grasp
-
-Eligor:
-100% Counter Drive
-
-
-Cesar: Bulwark Grasp
-Eligor: Counter Drive
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  3 | 3
-Clash!
-
-
-Cesar: Bulwark Strike
-Eligor: Counter Burst
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  1 | 0
-Cesar is active
-Eligor moves:
-
-E.....C
-
-Eligor misses
-
-Beat 9
--------
-
-Cesar
------
-Life: 19
-Discard 1: Bulwark Strike
-Discard 2: Inevitable Suppression
-Special action available
-Threat level: 4
-
-Eligor
-------
-Life: 17
-Discard 1: Counter Burst
-Discard 2: Vengeful Dash
-Special action available
-5 Vengeance token
-
-
-E.....C
-
-Unbeatable strategy for Eligor: Martial Aegis (2 tokens): -0.06
-Unbeatable strategy for Eligor: Chained Aegis (2 tokens): -0.09
-Unbeatable strategy for Eligor: Chained Strike: -2.54
-Unbeatable strategy for Eligor: Chained Shot: -2.01
-Unbeatable strategy for Eligor: Chained Shot (1 token): -1.81
-Unbeatable strategy for Eligor: Chained Shot (2 tokens): -1.61
-Unbeatable strategy for Eligor: Chained Shot (3 tokens): -1.41
-
-
-Cesar:
-69% Phalanx Shot
-31% Phalanx Grasp
-
-Eligor:
-96% Chained Strike
-4% Chained Shot
-
-
-Cesar: Phalanx Grasp
-Eligor: Chained Strike
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  3 | 2
-Cesar is active
-Cesar misses
-Eligor spends a Vengeance token
-Eligor spends a Vengeance token
-Eligor spends a Vengeance token
-Eligor spends a Vengeance token
-Eligor spends a Vengeance token
-Eligor moves Cesar:
-
-EC.....
-
-Eligor hits
-Cesar takes 4 damage (now at 15 life)
-Cesar is stunned
-
-Beat 10
--------
-
-Cesar
------
-Life: 15
-Discard 1: Phalanx Grasp
-Discard 2: Bulwark Strike
-Special action available
-Threat level: 0
-
-Eligor
-------
-Life: 17
-Discard 1: Chained Strike
-Discard 2: Counter Burst
-Special action available
-0 Vengeance token
-
-
-EC.....
-
-Unbeatable strategy for Eligor: Vengeful Drive: -0.19
-
-
-Cesar:
-35% Inevitable Shot
-45% Inevitable Drive
-20% Inevitable Burst
-
-Eligor:
-11% Vengeful Drive
-25% Retribution Drive
-64% Retribution Grasp
-
-
-Cesar: Inevitable Drive
-Eligor: Retribution Grasp
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  4 | 4
-Clash!
-
-
-Cesar: Inevitable Shot
-Eligor: Retribution Drive
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  2 | 3
-Eligor is active
-Eligor moves:
-
-.CE....
-
-Eligor hits
-Cesar takes 3 damage (now at 12 life)
-Cesar hits
-Eligor is stunned
-Eligor will have -3 priority next beat
-Eligor has 2 soak
-Eligor gains 2 Vengeance tokens
-Eligor takes 2 damage (now at 15 life)
-Eligor is stunned
-Eligor gains 2 Vengeance tokens
-
-Beat 11
--------
-
-Cesar
------
-Life: 12
-Discard 1: Inevitable Shot
-Discard 2: Phalanx Grasp
-Special action available
-Opponent has power penalty: -3
-Threat level: 1
-
-Eligor
-------
-Life: 15
-Discard 1: Retribution Drive
-Discard 2: Chained Strike
-Special action available
-4 Vengeance token
-
-
-.CE....
-
-Unbeatable strategy for Eligor: Vengeful Dash: -0.22
-Unbeatable strategy for Eligor: Vengeful Dash (1 token): -0.02
-Unbeatable strategy for Eligor: Counter Aegis (4 tokens): -0.08
-
-
-Cesar:
-45% Unstoppable Suppression
-55% Bulwark Drive
-
-Eligor:
-87% Vengeful Dash
-13% Martial Aegis (3 tokens)
-
-
-Cesar: Bulwark Drive
-Eligor: Vengeful Dash
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 9
-Eligor is active
-Eligor moves:
-
-EC.....
-
-Eligor moves:
-
-.C.E...
-
-Cesar moves:
-
-..CE...
-
-Cesar misses
-Cesar moves:
-
-.C.E...
-
-
-Beat 12
--------
-
-Cesar
------
-Life: 12
-Discard 1: Bulwark Drive
-Discard 2: Inevitable Shot
-Special action available
-Threat level: 2
-
-Eligor
-------
-Life: 15
-Discard 1: Vengeful Dash
-Discard 2: Retribution Drive
-Special action available
-4 Vengeance token
-
-
-.C.E...
-
-Unbeatable strategy for Eligor: Counter Shot (2 tokens): -0.34
-Unbeatable strategy for Eligor: Counter Shot (3 tokens): -0.14
-Unbeatable strategy for Eligor: Martial Shot (2 tokens): -0.36
-Unbeatable strategy for Eligor: Martial Shot (3 tokens): -0.16
-Unbeatable strategy for Eligor: Chained Strike: -0.14
-
-
-Cesar:
-18% Phalanx Burst
-4% Phalanx Grasp
-47% Fueled Suppression
-9% Fueled Strike
-0% Fueled Burst
-21% Fueled Grasp
-
-Eligor:
-11% Martial Aegis
-13% Martial Strike
-38% Martial Shot
-24% Martial Shot (2 tokens)
-5% Martial Burst
-10% Chained Burst
-
-
-Cesar: Phalanx Burst
-Eligor: Martial Aegis
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  -1 | -1
-Clash!
-
-
-Cesar: Phalanx Suppression
+8% Martial Strike
+7% Martial Strike (1 token)
+6% Martial Strike (2 tokens)
+6% Martial Strike (3 tokens)
+16% Martial Burst
+11% Martial Burst (1 token)
+8% Martial Burst (2 tokens)
+7% Martial Burst (3 tokens)
+30% Chained Drive
+
+
+Cesar: Unstoppable Shot
 Eligor: Martial Burst
 
 Cesar gains a Threat Level (current level: 3)
@@ -700,332 +171,949 @@ Priorities:  0 | 0
 Clash!
 
 
-Cesar: Phalanx Grasp
-Eligor: Martial Strike
+Cesar: Unstoppable Suppression
+Eligor: Martial Shot
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  3 | 2
-Cesar is active
+Priorities:  0 | 1
+Eligor is active
+Eligor hits
+Cesar takes 1 damage (now at 19 life)
 Cesar hits
-Cesar moves Eligor:
+Eligor takes 5 damage (now at 14 life)
+Eligor is stunned
+Eligor gains 2 Vengeance tokens
+Cesar moves:
 
-.C..E..
+..C...E
 
-Eligor takes 5 damage (now at 10 life)
-Eligor gains 1 Vengeance token
-Eligor gets +2 power
-Eligor gets +2 power
+
+Beat 4
+-------
+
+Cesar
+-----
+Life: 19
+Discard 1: Unstoppable Suppression
+Discard 2: Inevitable Drive
+Special action available
+Threat level: 3
+
+Eligor
+------
+Life: 14
+Discard 1: Martial Shot
+Discard 2: Retribution Aegis
+Special action available
+5 Vengeance token
+
+
+..C...E
+
+Unbeatable strategy for Cesar: Phalanx Burst: 1.87
+Unbeatable strategy for Cesar: Phalanx Dash: 0.70
+Unbeatable strategy for Cesar: Bulwark Burst: 3.33
+Unbeatable strategy for Cesar: Bulwark Dash: 0.20
+
+
+Cesar:
+89% Bulwark Burst
+11% Bulwark Grasp
+
+Eligor:
+4% Vengeful Drive
+96% Counter Grasp
+
+
+Cesar: Bulwark Burst
+Eligor: Counter Grasp
+
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  -1 | 4
+Eligor is active
+Cesar moves:
+
+C.....E
+
 Eligor misses
+
+Beat 5
+-------
+
+Cesar
+-----
+Life: 19
+Discard 1: Bulwark Burst
+Discard 2: Unstoppable Suppression
+Special action available
+Threat level: 4
+
+Eligor
+------
+Life: 14
+Discard 1: Counter Grasp
+Discard 2: Martial Shot
+Special action available
+5 Vengeance token
+
+
+C.....E
+
+Unbeatable strategy for Eligor: Chained Strike: -2.12
+
+
+Cesar:
+2% Phalanx Shot
+35% Fueled Strike
+63% Fueled Shot
+
+Eligor:
+46% Chained Strike
+20% Chained Drive
+34% Chained Burst (2 tokens)
+
+
+Cesar: Fueled Strike
+Eligor: Chained Drive
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  2 | 3
+Eligor is active
+Cesar gains a Threat Level (current level: 1)
+Eligor moves:
+
+C....E.
+
+Eligor misses
+Cesar moves:
+
+..C..E.
+
+Cesar misses
+
+Beat 6
+-------
+
+Cesar
+-----
+Life: 19
+Discard 1: Fueled Strike
+Discard 2: Bulwark Burst
+Special action available
+Threat level: 1
+
+Eligor
+------
+Life: 14
+Discard 1: Chained Drive
+Discard 2: Counter Grasp
+Special action available
+5 Vengeance token
+
+
+..C..E.
+
+
+Cesar:
+7% Phalanx Suppression
+6% Phalanx Shot
+2% Unstoppable Shot
+7% Unstoppable Drive
+55% Inevitable Suppression
+10% Inevitable Shot
+1% Inevitable Drive
+11% Inevitable Dash
+
+Eligor:
+1% Vengeful Strike
+2% Vengeful Shot (5 tokens)
+22% Vengeful Dash
+22% Martial Aegis (2 tokens)
+12% Martial Strike (5 tokens)
+11% Martial Shot
+11% Martial Shot (5 tokens)
+19% Martial Burst (5 tokens)
+
+
+Cesar: Unstoppable Drive
+Eligor: Martial Aegis (2 tokens)
+
+Cesar gains a Threat Level (current level: 2)
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  2 | -1
+Cesar is active
+Cesar moves:
+
+...C.E.
+
+Cesar misses
+Eligor hits
+Cesar takes 4 damage (now at 15 life)
+Cesar is stunned
+
+Beat 7
+-------
+
+Cesar
+-----
+Life: 15
+Discard 1: Unstoppable Drive
+Discard 2: Fueled Strike
+Special action available
+Threat level: 2
+
+Eligor
+------
+Life: 14
+Discard 1: Martial Aegis
+Discard 2: Chained Drive
+Special action available
+3 Vengeance token
+
+
+...C.E.
+
+Unbeatable strategy for Eligor: Vengeful Shot: -0.43
+Unbeatable strategy for Eligor: Vengeful Shot (1 token): -0.43
+Unbeatable strategy for Eligor: Vengeful Shot (2 tokens): -0.43
+Unbeatable strategy for Eligor: Vengeful Shot (3 tokens): -0.43
+Unbeatable strategy for Eligor: Vengeful Dash: -1.88
+Unbeatable strategy for Eligor: Vengeful Dash (1 token): -1.68
+Unbeatable strategy for Eligor: Vengeful Dash (2 tokens): -1.48
+Unbeatable strategy for Eligor: Vengeful Dash (3 tokens): -1.28
+Unbeatable strategy for Eligor: Counter Dash: -1.62
+Unbeatable strategy for Eligor: Counter Dash (1 token): -1.42
+Unbeatable strategy for Eligor: Counter Dash (2 tokens): -1.22
+Unbeatable strategy for Eligor: Counter Dash (3 tokens): -1.02
+Unbeatable strategy for Eligor: Retribution Dash: -1.47
+Unbeatable strategy for Eligor: Retribution Dash (1 token): -1.27
+Unbeatable strategy for Eligor: Retribution Dash (2 tokens): -1.07
+Unbeatable strategy for Eligor: Retribution Dash (3 tokens): -0.87
+
+
+Cesar:
+6% Phalanx Burst
+6% Bulwark Suppression
+82% Bulwark Shot
+5% Inevitable Suppression
+
+Eligor:
+42% Vengeful Dash
+2% Counter Burst
+13% Retribution Burst
+43% Retribution Dash
+
+
+Cesar: Phalanx Burst
+Eligor: Vengeful Dash
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  -1 | 9
+Eligor is active
+Cesar moves:
+
+..C..E.
+
+Eligor moves:
+
+..C.E..
+
+Eligor moves:
+
+E.C....
+
+Cesar misses
+
+Beat 8
+-------
+
+Cesar
+-----
+Life: 15
+Discard 1: Phalanx Burst
+Discard 2: Unstoppable Drive
+Special action available
+Threat level: 3
+
+Eligor
+------
+Life: 14
+Discard 1: Vengeful Dash
+Discard 2: Martial Aegis
+Special action available
+3 Vengeance token
+
+
+E.C....
+
+Unbeatable strategy for Cesar: Fueled Dash: 1.14
+Unbeatable strategy for Cesar: Bulwark Dash: 0.95
+Unbeatable strategy for Cesar: Inevitable Grasp: 1.31
+Unbeatable strategy for Cesar: Inevitable Dash: 0.95
+
+
+Cesar:
+35% Bulwark Strike
+48% Bulwark Shot
+17% Bulwark Grasp
+
+Eligor:
+36% Counter Shot
+40% Counter Drive
+24% Counter Burst
+
+
+Cesar: Bulwark Strike
+Eligor: Counter Drive
+
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  1 | 3
+Eligor is active
+Eligor moves:
+
+..CE...
+
+Eligor hits
+Cesar has 2 soak
+Cesar takes 2 damage (now at 13 life)
+
+Beat 9
+-------
+
+Cesar
+-----
+Life: 13
+Discard 1: Bulwark Strike
+Discard 2: Phalanx Burst
+Special action available
+Threat level: 4
+
+Eligor
+------
+Life: 14
+Discard 1: Counter Drive
+Discard 2: Vengeful Dash
+Special action available
+3 Vengeance token
+
+
+..CE...
+
+
+Cesar:
+72% Inevitable Drive
+28% Inevitable Grasp
+
+Eligor:
+9% Retribution Burst
+91% Retribution Grasp
+
+
+Cesar: Inevitable Drive
+Eligor: Retribution Grasp
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  4 | 4
+Clash!
+
+
+Cesar: Inevitable Suppression
+Eligor: Retribution Burst
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  2 | 0
+Cesar is active
+Eligor moves:
+
+..C.E..
+
+Cesar misses
+Eligor hits
+Cesar takes 3 damage (now at 10 life)
+Cesar moves:
+
+C...E..
+
+
+Beat 10
+-------
+
+Cesar
+-----
+Life: 10
+Discard 1: Inevitable Suppression
+Discard 2: Bulwark Strike
+Special action available
+Threat level: 0
+
+Eligor
+------
+Life: 14
+Discard 1: Retribution Burst
+Discard 2: Counter Drive
+Special action available
+3 Vengeance token
+
+
+C...E..
+
+Unbeatable strategy for Eligor: Vengeful Shot: -0.85
+Unbeatable strategy for Eligor: Vengeful Shot (1 token): -0.85
+Unbeatable strategy for Eligor: Vengeful Shot (2 tokens): -0.85
+Unbeatable strategy for Eligor: Vengeful Shot (3 tokens): -0.85
+Unbeatable strategy for Eligor: Martial Shot (2 tokens): -0.85
+Unbeatable strategy for Eligor: Martial Shot (3 tokens): -0.65
+Unbeatable strategy for Eligor: Chained Aegis (2 tokens): -0.69
+Unbeatable strategy for Eligor: Chained Strike: -0.49
+Unbeatable strategy for Eligor: Chained Dash: -1.23
+Unbeatable strategy for Eligor: Chained Dash (1 token): -1.03
+Unbeatable strategy for Eligor: Chained Dash (2 tokens): -0.83
+
+
+Cesar:
+88% Phalanx Shot
+2% Phalanx Drive
+10% Phalanx Grasp
+
+Eligor:
+1% Vengeful Shot
+1% Martial Shot (1 token)
+98% Chained Dash
+
+
+Cesar: Phalanx Shot
+Eligor: Chained Dash
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  0 | 8
+Eligor is active
+Eligor moves:
+
+C.....E
+
+Cesar misses
+
+Beat 11
+-------
+
+Cesar
+-----
+Life: 10
+Discard 1: Phalanx Shot
+Discard 2: Inevitable Suppression
+Special action available
+Threat level: 1
+
+Eligor
+------
+Life: 14
+Discard 1: Chained Dash
+Discard 2: Retribution Burst
+Special action available
+3 Vengeance token
+
+
+C.....E
+
+Unbeatable strategy for Eligor: Counter Aegis: -0.64
+Unbeatable strategy for Eligor: Counter Aegis (1 token): -0.44
+Unbeatable strategy for Eligor: Counter Aegis (2 tokens): -0.24
+Unbeatable strategy for Eligor: Counter Aegis (3 tokens): -0.04
+Unbeatable strategy for Eligor: Counter Strike: -0.84
+Unbeatable strategy for Eligor: Counter Strike (1 token): -0.64
+Unbeatable strategy for Eligor: Counter Strike (2 tokens): -0.44
+Unbeatable strategy for Eligor: Counter Strike (3 tokens): -0.24
+Unbeatable strategy for Eligor: Counter Shot: -2.49
+Unbeatable strategy for Eligor: Counter Shot (1 token): -2.29
+Unbeatable strategy for Eligor: Counter Shot (2 tokens): -2.09
+Unbeatable strategy for Eligor: Counter Shot (3 tokens): -1.89
+Unbeatable strategy for Eligor: Martial Aegis: -1.31
+Unbeatable strategy for Eligor: Martial Aegis (1 token): -1.11
+Unbeatable strategy for Eligor: Martial Aegis (2 tokens): -0.91
+Unbeatable strategy for Eligor: Martial Aegis (3 tokens): -0.71
+Unbeatable strategy for Eligor: Martial Strike: -2.01
+Unbeatable strategy for Eligor: Martial Strike (1 token): -1.81
+Unbeatable strategy for Eligor: Martial Strike (2 tokens): -1.61
+Unbeatable strategy for Eligor: Martial Strike (3 tokens): -1.41
+Unbeatable strategy for Eligor: Martial Shot: -2.44
+Unbeatable strategy for Eligor: Martial Shot (1 token): -2.24
+Unbeatable strategy for Eligor: Martial Shot (2 tokens): -2.04
+Unbeatable strategy for Eligor: Martial Shot (3 tokens): -1.84
+Unbeatable strategy for Eligor: Martial Grasp: -0.06
+
+
+Cesar:
+10% Bulwark Strike
+80% Bulwark Burst
+10% Bulwark Dash
+
+Eligor:
+36% Counter Strike
+49% Counter Shot
+15% Martial Shot
+
+
+Cesar: Bulwark Burst
+Eligor: Counter Shot
+
+Cesar gains a Threat Level (current level: 2)
+Priorities:  -1 | 1
+Eligor is active
+Eligor misses
+Cesar misses
+Cesar moves:
+
+...C..E
+
+
+Beat 12
+-------
+
+Cesar
+-----
+Life: 10
+Discard 1: Bulwark Burst
+Discard 2: Phalanx Shot
+Special action available
+Threat level: 2
+
+Eligor
+------
+Life: 14
+Discard 1: Counter Shot
+Discard 2: Chained Dash
+Special action available
+3 Vengeance token
+
+
+...C..E
+
+
+Cesar:
+25% Unstoppable Drive
+13% Fueled Suppression
+41% Fueled Grasp
+22% Inevitable Drive
+
+Eligor:
+45% Vengeful Drive
+12% Martial Aegis (2 tokens)
+7% Martial Drive
+36% Retribution Burst
+
+
+Cesar: Fueled Grasp
+Eligor: Martial Drive
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  4 | 3
+Cesar is active
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Eligor moves:
+
+...C.E.
+
+Eligor hits
+Cesar takes 4 damage (now at 6 life)
+Cesar is stunned
 
 Beat 13
 -------
 
 Cesar
 -----
-Life: 12
-Discard 1: Phalanx Grasp
-Discard 2: Bulwark Drive
+Life: 6
+Discard 1: Fueled Grasp
+Discard 2: Bulwark Burst
 Special action available
-Threat level: 3
+Threat level: 4
 
 Eligor
 ------
-Life: 10
-Discard 1: Martial Strike
-Discard 2: Vengeful Dash
+Life: 14
+Discard 1: Martial Drive
+Discard 2: Counter Shot
 Special action available
-5 Vengeance token
+3 Vengeance token
 
 
-.C..E..
-
-Unbeatable strategy for Cesar: Unstoppable Dash: 0.78
-Unbeatable strategy for Cesar: Inevitable Suppression: 2.83
-Unbeatable strategy for Cesar: Inevitable Shot: 1.31
-Unbeatable strategy for Cesar: Inevitable Dash: 0.78
+...C.E.
 
 
 Cesar:
-48% Inevitable Suppression
-21% Inevitable Strike
-31% Inevitable Burst
+27% Unstoppable Shot
+30% Inevitable Shot
+43% Inevitable Drive
 
 Eligor:
-49% Counter Drive
-33% Counter Burst
-17% Chained Shot
+30% Chained Grasp
+28% Chained Dash
+41% Retribution Aegis (1 token)
 
 
-Cesar: Inevitable Burst
-Eligor: Counter Burst
+Cesar: Inevitable Shot
+Eligor: Retribution Aegis (1 token)
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  1 | 0
+Cesar gains a Threat Level (current level: 0)
+Eligor antes a Vengeance token
+Priorities:  2 | -1
 Cesar is active
-Cesar moves:
-
-C...E..
-
-Cesar is stunned
-Eligor moves:
-
-C.....E
-
-Eligor misses
+Cesar hits
+Eligor is stunned
+Eligor will have -3 priority next beat
+Eligor has 3 soak
+Eligor gains 2 Vengeance tokens
+Eligor takes 0 damage (now at 14 life)
 
 Beat 14
 -------
 
 Cesar
 -----
-Life: 12
-Discard 1: Inevitable Burst
-Discard 2: Phalanx Grasp
+Life: 6
+Discard 1: Inevitable Shot
+Discard 2: Fueled Grasp
 Special action available
-Threat level: 4
-
-Eligor
-------
-Life: 10
-Discard 1: Counter Burst
-Discard 2: Martial Strike
-Special action available
-5 Vengeance token
-
-
-C.....E
-
-Unbeatable strategy for Cesar: Bulwark Dash: 1.55
-
-
-Cesar:
-4% Fueled Shot
-42% Bulwark Suppression
-53% Bulwark Drive
-
-Eligor:
-31% Chained Aegis
-16% Chained Shot
-53% Chained Grasp
-
-
-Cesar: Bulwark Suppression
-Eligor: Chained Aegis
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  0 | -1
-Cesar is active
-Cesar misses
-Eligor misses
-
-Beat 15
--------
-
-Cesar
------
-Life: 12
-Discard 1: Bulwark Suppression
-Discard 2: Inevitable Burst
-Special action available
+Opponent has power penalty: -3
 Threat level: 0
 
 Eligor
 ------
-Life: 10
-Discard 1: Chained Aegis
-Discard 2: Counter Burst
+Life: 14
+Discard 1: Retribution Aegis
+Discard 2: Martial Drive
 Special action available
-5 Vengeance token
+4 Vengeance token
 
 
-C.....E
-
-Unbeatable strategy for Cesar: Phalanx Shot: 15.00
+...C.E.
 
 
 Cesar:
-29% Phalanx Grasp
-35% Unstoppable Strike
-35% Unstoppable Drive
+76% Unstoppable Drive
+7% Bulwark Strike
+17% Bulwark Burst
 
 Eligor:
-0% Vengeful Shot
-0% Vengeful Shot (1 token)
-0% Vengeful Shot (2 tokens)
-0% Vengeful Shot (3 tokens)
-0% Vengeful Shot (4 tokens)
-0% Vengeful Shot (5 tokens)
-0% Vengeful Drive
-0% Vengeful Drive (1 token)
-0% Vengeful Drive (2 tokens)
-0% Vengeful Drive (3 tokens)
-0% Vengeful Drive (4 tokens)
-0% Vengeful Drive (5 tokens)
-0% Martial Shot
-0% Martial Shot (1 token)
-0% Martial Shot (2 tokens)
-0% Martial Shot (3 tokens)
-0% Martial Shot (4 tokens)
-0% Martial Shot (5 tokens)
-96% Special Pulse
+16% Vengeful Shot
+9% Chained Strike
+75% Chained Dash
 
 
-Cesar: Phalanx Grasp
-Eligor: Special Pulse
+Cesar: Unstoppable Drive
+Eligor: Chained Dash
 
 Cesar gains a Threat Level (current level: 1)
-Eligor Pulses:
+Priorities:  2 | 8
+Eligor is active
+Eligor spends a Vengeance token
+Eligor moves Cesar:
 
-.C....E
+....CE.
 
+Eligor moves:
+
+.E..C..
+
+Cesar moves:
+
+.E.C...
+
+Cesar moves:
+
+.EC....
+
+Cesar misses
 
 Beat 15
 -------
 
 Cesar
 -----
-Life: 12
-Discard 1: Phalanx Grasp
-Discard 2: Bulwark Suppression
+Life: 6
+Discard 1: Unstoppable Drive
+Discard 2: Inevitable Shot
 Special action available
 Threat level: 1
 
 Eligor
 ------
-Life: 10
-Discard 1: Chained Aegis
-Discard 2: Counter Burst
-5 Vengeance token
+Life: 14
+Discard 1: Chained Dash
+Discard 2: Retribution Aegis
+Special action available
+3 Vengeance token
 
 
-.C....E
+.EC....
 
-Unbeatable strategy for Cesar: Fueled Burst: 15.00
+Unbeatable strategy for Eligor: Vengeful Strike: -11.00
+Unbeatable strategy for Eligor: Vengeful Strike (1 token): -11.00
+Unbeatable strategy for Eligor: Vengeful Strike (2 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Strike (3 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Shot: -11.00
+Unbeatable strategy for Eligor: Vengeful Shot (1 token): -11.00
+Unbeatable strategy for Eligor: Vengeful Shot (2 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Shot (3 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Drive: -11.00
+Unbeatable strategy for Eligor: Vengeful Drive (1 token): -11.00
+Unbeatable strategy for Eligor: Vengeful Drive (2 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Drive (3 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Burst: -11.00
+Unbeatable strategy for Eligor: Vengeful Burst (1 token): -11.00
+Unbeatable strategy for Eligor: Vengeful Burst (2 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Burst (3 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Grasp: -11.00
+Unbeatable strategy for Eligor: Vengeful Grasp (1 token): -11.00
+Unbeatable strategy for Eligor: Vengeful Grasp (2 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Grasp (3 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Strike: -11.00
+Unbeatable strategy for Eligor: Counter Strike (1 token): -11.00
+Unbeatable strategy for Eligor: Counter Strike (2 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Strike (3 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Shot: -11.00
+Unbeatable strategy for Eligor: Counter Shot (1 token): -11.00
+Unbeatable strategy for Eligor: Counter Shot (2 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Shot (3 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Drive: -11.00
+Unbeatable strategy for Eligor: Counter Drive (1 token): -11.00
+Unbeatable strategy for Eligor: Counter Drive (2 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Drive (3 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Burst: -11.00
+Unbeatable strategy for Eligor: Counter Burst (1 token): -11.00
+Unbeatable strategy for Eligor: Counter Burst (2 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Burst (3 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Grasp: -11.00
+Unbeatable strategy for Eligor: Counter Grasp (1 token): -11.00
+Unbeatable strategy for Eligor: Counter Grasp (2 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Grasp (3 tokens): -11.00
+Unbeatable strategy for Eligor: Martial Strike: -11.00
+Unbeatable strategy for Eligor: Martial Strike (1 token): -11.00
+Unbeatable strategy for Eligor: Martial Strike (2 tokens): -11.00
+Unbeatable strategy for Eligor: Martial Strike (3 tokens): -11.00
+Unbeatable strategy for Eligor: Martial Shot: -11.00
+Unbeatable strategy for Eligor: Martial Shot (1 token): -11.00
+Unbeatable strategy for Eligor: Martial Shot (2 tokens): -11.00
+Unbeatable strategy for Eligor: Martial Shot (3 tokens): -11.00
+Unbeatable strategy for Eligor: Martial Drive: -11.00
+Unbeatable strategy for Eligor: Martial Drive (1 token): -11.00
+Unbeatable strategy for Eligor: Martial Drive (2 tokens): -11.00
+Unbeatable strategy for Eligor: Martial Drive (3 tokens): -11.00
+Unbeatable strategy for Eligor: Martial Burst: -11.00
+Unbeatable strategy for Eligor: Martial Burst (1 token): -11.00
+Unbeatable strategy for Eligor: Martial Burst (2 tokens): -11.00
+Unbeatable strategy for Eligor: Martial Burst (3 tokens): -11.00
+Unbeatable strategy for Eligor: Martial Grasp: -11.00
+Unbeatable strategy for Eligor: Martial Grasp (1 token): -11.00
+Unbeatable strategy for Eligor: Martial Grasp (2 tokens): -11.00
+Unbeatable strategy for Eligor: Martial Grasp (3 tokens): -11.00
 
 
 Cesar:
-21% Fueled Shot
-21% Fueled Burst
-18% Fueled Dash
-21% Inevitable Burst
-19% Inevitable Dash
+100% Special Pulse
+0% Special Level 4 Protocol
 
 Eligor:
-1% Vengeful Strike
-1% Vengeful Strike (1 token)
-1% Vengeful Strike (2 tokens)
-1% Vengeful Strike (3 tokens)
-1% Vengeful Strike (4 tokens)
-1% Vengeful Strike (5 tokens)
-0% Vengeful Shot
-1% Vengeful Shot (1 token)
-1% Vengeful Shot (2 tokens)
-1% Vengeful Shot (3 tokens)
-1% Vengeful Shot (4 tokens)
-1% Vengeful Shot (5 tokens)
-1% Vengeful Drive
-1% Vengeful Drive (1 token)
-1% Vengeful Drive (2 tokens)
-1% Vengeful Drive (3 tokens)
-1% Vengeful Drive (4 tokens)
-1% Vengeful Drive (5 tokens)
-1% Vengeful Grasp
-1% Vengeful Grasp (1 token)
-1% Vengeful Grasp (2 tokens)
-1% Vengeful Grasp (3 tokens)
-1% Vengeful Grasp (4 tokens)
-1% Vengeful Grasp (5 tokens)
-2% Vengeful Dash
-2% Vengeful Dash (1 token)
-2% Vengeful Dash (2 tokens)
-2% Vengeful Dash (3 tokens)
-2% Vengeful Dash (4 tokens)
-2% Vengeful Dash (5 tokens)
-1% Martial Strike
-1% Martial Strike (1 token)
-1% Martial Strike (2 tokens)
-1% Martial Strike (3 tokens)
-1% Martial Strike (4 tokens)
-1% Martial Strike (5 tokens)
-0% Martial Shot
-0% Martial Shot (1 token)
-0% Martial Shot (2 tokens)
-0% Martial Shot (3 tokens)
-0% Martial Shot (4 tokens)
-0% Martial Shot (5 tokens)
-1% Martial Drive
-1% Martial Drive (1 token)
-1% Martial Drive (2 tokens)
-1% Martial Drive (3 tokens)
-1% Martial Drive (4 tokens)
-1% Martial Drive (5 tokens)
-1% Martial Grasp
-1% Martial Grasp (1 token)
-1% Martial Grasp (2 tokens)
-1% Martial Grasp (3 tokens)
-1% Martial Grasp (4 tokens)
-1% Martial Grasp (5 tokens)
-1% Martial Dash
-1% Martial Dash (1 token)
-2% Martial Dash (2 tokens)
-2% Martial Dash (3 tokens)
-2% Martial Dash (4 tokens)
-2% Martial Dash (5 tokens)
-1% Retribution Strike
-1% Retribution Strike (1 token)
-1% Retribution Strike (2 tokens)
-1% Retribution Strike (3 tokens)
-1% Retribution Strike (4 tokens)
-1% Retribution Strike (5 tokens)
-0% Retribution Shot
-0% Retribution Shot (1 token)
-0% Retribution Shot (2 tokens)
-0% Retribution Shot (3 tokens)
-0% Retribution Shot (4 tokens)
-0% Retribution Shot (5 tokens)
-1% Retribution Drive
-1% Retribution Drive (1 token)
-1% Retribution Drive (2 tokens)
-1% Retribution Drive (3 tokens)
-1% Retribution Drive (4 tokens)
-1% Retribution Drive (5 tokens)
-1% Retribution Grasp
-1% Retribution Grasp (1 token)
-1% Retribution Grasp (2 tokens)
-1% Retribution Grasp (3 tokens)
-1% Retribution Grasp (4 tokens)
-1% Retribution Grasp (5 tokens)
-1% Retribution Dash
-1% Retribution Dash (1 token)
-1% Retribution Dash (2 tokens)
-1% Retribution Dash (3 tokens)
-1% Retribution Dash (4 tokens)
-1% Retribution Dash (5 tokens)
+6% Vengeful Shot
+44% Vengeful Burst
+6% Martial Shot
+44% Martial Burst
 
 
-Cesar: Inevitable Burst
-Eligor: Martial Shot (3 tokens)
+Cesar: Special Pulse
+Eligor: Martial Burst
 
 Cesar gains a Threat Level (current level: 2)
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  1 | 1
-Clash!
+Cesar Pulses:
+
+.EC....
 
 
-Cesar: Inevitable Strike
-Eligor: Martial Grasp (3 tokens)
+Beat 15
+-------
 
-Cesar gains a Threat Level (current level: 2)
+Cesar
+-----
+Life: 6
+Discard 1: Unstoppable Drive
+Discard 2: Inevitable Shot
+Threat level: 2
+
+Eligor
+------
+Life: 14
+Discard 1: Martial Burst
+Discard 2: Chained Dash
+Special action available
+3 Vengeance token
+
+
+.EC....
+
+Unbeatable strategy for Eligor: Vengeful Aegis: -11.00
+Unbeatable strategy for Eligor: Vengeful Aegis (1 token): -11.00
+Unbeatable strategy for Eligor: Vengeful Aegis (2 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Aegis (3 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Strike: -11.00
+Unbeatable strategy for Eligor: Vengeful Strike (1 token): -11.00
+Unbeatable strategy for Eligor: Vengeful Strike (2 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Strike (3 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Shot: -11.00
+Unbeatable strategy for Eligor: Vengeful Shot (1 token): -11.00
+Unbeatable strategy for Eligor: Vengeful Shot (2 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Shot (3 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Drive: -11.00
+Unbeatable strategy for Eligor: Vengeful Drive (1 token): -11.00
+Unbeatable strategy for Eligor: Vengeful Drive (2 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Drive (3 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Grasp: -11.00
+Unbeatable strategy for Eligor: Vengeful Grasp (1 token): -11.00
+Unbeatable strategy for Eligor: Vengeful Grasp (2 tokens): -11.00
+Unbeatable strategy for Eligor: Vengeful Grasp (3 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Aegis: -11.00
+Unbeatable strategy for Eligor: Counter Aegis (1 token): -11.00
+Unbeatable strategy for Eligor: Counter Aegis (2 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Aegis (3 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Strike: -11.00
+Unbeatable strategy for Eligor: Counter Strike (1 token): -11.00
+Unbeatable strategy for Eligor: Counter Strike (2 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Strike (3 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Shot: -11.00
+Unbeatable strategy for Eligor: Counter Shot (1 token): -11.00
+Unbeatable strategy for Eligor: Counter Shot (2 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Shot (3 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Drive: -11.00
+Unbeatable strategy for Eligor: Counter Drive (1 token): -11.00
+Unbeatable strategy for Eligor: Counter Drive (2 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Drive (3 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Grasp: -11.00
+Unbeatable strategy for Eligor: Counter Grasp (1 token): -11.00
+Unbeatable strategy for Eligor: Counter Grasp (2 tokens): -11.00
+Unbeatable strategy for Eligor: Counter Grasp (3 tokens): -11.00
+Unbeatable strategy for Eligor: Retribution Aegis: -11.00
+Unbeatable strategy for Eligor: Retribution Aegis (1 token): -11.00
+Unbeatable strategy for Eligor: Retribution Aegis (2 tokens): -11.00
+Unbeatable strategy for Eligor: Retribution Aegis (3 tokens): -11.00
+Unbeatable strategy for Eligor: Retribution Strike: -11.00
+Unbeatable strategy for Eligor: Retribution Strike (1 token): -11.00
+Unbeatable strategy for Eligor: Retribution Strike (2 tokens): -11.00
+Unbeatable strategy for Eligor: Retribution Strike (3 tokens): -11.00
+Unbeatable strategy for Eligor: Retribution Shot: -11.00
+Unbeatable strategy for Eligor: Retribution Shot (1 token): -11.00
+Unbeatable strategy for Eligor: Retribution Shot (2 tokens): -11.00
+Unbeatable strategy for Eligor: Retribution Shot (3 tokens): -11.00
+Unbeatable strategy for Eligor: Retribution Drive: -11.00
+Unbeatable strategy for Eligor: Retribution Drive (1 token): -11.00
+Unbeatable strategy for Eligor: Retribution Drive (2 tokens): -11.00
+Unbeatable strategy for Eligor: Retribution Drive (3 tokens): -11.00
+Unbeatable strategy for Eligor: Retribution Grasp: -11.00
+Unbeatable strategy for Eligor: Retribution Grasp (1 token): -11.00
+Unbeatable strategy for Eligor: Retribution Grasp (2 tokens): -11.00
+Unbeatable strategy for Eligor: Retribution Grasp (3 tokens): -11.00
+
+
+Cesar:
+7% Phalanx Suppression
+7% Phalanx Strike
+7% Phalanx Burst
+7% Phalanx Grasp
+7% Phalanx Dash
+7% Fueled Suppression
+7% Fueled Strike
+7% Fueled Burst
+7% Fueled Grasp
+7% Fueled Dash
+7% Bulwark Suppression
+7% Bulwark Strike
+7% Bulwark Burst
+7% Bulwark Grasp
+7% Bulwark Dash
+
+Eligor:
+2% Vengeful Aegis
+2% Vengeful Aegis (1 token)
+2% Vengeful Aegis (2 tokens)
+2% Vengeful Aegis (3 tokens)
+2% Vengeful Strike
+2% Vengeful Strike (1 token)
+2% Vengeful Strike (2 tokens)
+2% Vengeful Strike (3 tokens)
+2% Vengeful Shot
+2% Vengeful Shot (1 token)
+2% Vengeful Shot (2 tokens)
+2% Vengeful Shot (3 tokens)
+2% Vengeful Drive
+2% Vengeful Drive (1 token)
+2% Vengeful Drive (2 tokens)
+2% Vengeful Drive (3 tokens)
+2% Vengeful Grasp
+2% Vengeful Grasp (1 token)
+2% Vengeful Grasp (2 tokens)
+2% Vengeful Grasp (3 tokens)
+2% Counter Aegis
+2% Counter Aegis (1 token)
+2% Counter Aegis (2 tokens)
+2% Counter Aegis (3 tokens)
+2% Counter Strike
+2% Counter Strike (1 token)
+2% Counter Strike (2 tokens)
+2% Counter Strike (3 tokens)
+2% Counter Shot
+2% Counter Shot (1 token)
+2% Counter Shot (2 tokens)
+2% Counter Shot (3 tokens)
+2% Counter Drive
+2% Counter Drive (1 token)
+2% Counter Drive (2 tokens)
+2% Counter Drive (3 tokens)
+2% Counter Grasp
+2% Counter Grasp (1 token)
+2% Counter Grasp (2 tokens)
+2% Counter Grasp (3 tokens)
+2% Retribution Aegis
+2% Retribution Aegis (1 token)
+2% Retribution Aegis (2 tokens)
+2% Retribution Aegis (3 tokens)
+2% Retribution Strike
+2% Retribution Strike (1 token)
+2% Retribution Strike (2 tokens)
+2% Retribution Strike (3 tokens)
+2% Retribution Shot
+2% Retribution Shot (1 token)
+2% Retribution Shot (2 tokens)
+2% Retribution Shot (3 tokens)
+2% Retribution Drive
+2% Retribution Drive (1 token)
+2% Retribution Drive (2 tokens)
+2% Retribution Drive (3 tokens)
+2% Retribution Grasp
+2% Retribution Grasp (1 token)
+2% Retribution Grasp (2 tokens)
+2% Retribution Grasp (3 tokens)
+
+
+Cesar: Bulwark Strike
+Eligor: Vengeful Aegis (2 tokens)
+
+Cesar gains a Threat Level (current level: 3)
 Eligor antes a Vengeance token
 Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  3 | 4
-Eligor is active
-Eligor misses
-Cesar misses
+Priorities:  1 | 0
+Cesar is active
+Cesar hits
+Eligor has 2 soak
+Eligor takes 5 damage (now at 9 life)
+Eligor gains 4 Vengeance tokens
+Cesar moves:
+
+CE.....
+
+Eligor hits
+Cesar takes 5 damage (now at 1 life)
 Game goes to time
-CESAR WINS!
-total_time: 64
+ELIGOR WINS!
+total_time: 50

@@ -47,11 +47,11 @@ Mikhail:
 
 
 Cesar: Bulwark Dash
-Mikhail: Immutable Drive (Seal)
+Mikhail: Immutable Scroll (Seal)
 
 Cesar gains a Threat Level (current level: 1)
 Mikhail antes a Seal token
-Priorities:  7 | 1
+Priorities:  7 | -1
 Cesar is active
 Cesar moves:
 
@@ -62,6 +62,7 @@ Cesar moves:
 .....MC
 
 Mikhail misses
+Mikhail gains 1 Seal token
 
 Beat 2
 -------
@@ -77,40 +78,46 @@ Threat level: 1
 Mikhail
 -------
 Life: 20
-Discard 1: Immutable Drive
+Discard 1: Immutable Scroll
 Discard 2: Hallowed Grasp
 Special action available
-2 Seal token
+3 Seal token
 
 
 .....MC
 
 
 Cesar:
-24% Phalanx Drive
-20% Inevitable Shot
-56% Inevitable Drive
+16% Phalanx Drive
+21% Unstoppable Shot
+4% Inevitable Shot
+19% Inevitable Drive
+41% Inevitable Grasp
 
 Mikhail:
-31% Sacred Strike
-47% Sacred Dash
-22% Sacred Dash (Seal)
+15% Transcendent Burst (Seal)
+7% Transcendent Dash
+50% Sacred Drive (Seal)
+10% Sacred Burst (Seal)
+18% Sacred Dash (Seal)
 
 
-Cesar: Inevitable Drive
-Mikhail: Sacred Strike
+Cesar: Inevitable Grasp
+Mikhail: Sacred Drive (Seal)
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  4 | 3
+Mikhail antes a Seal token
+Priorities:  5 | 4
 Cesar is active
-Cesar moves:
-
-....CM.
-
 Cesar hits
 Mikhail is stunned
 Mikhail will have -3 priority next beat
-Mikhail takes 5 damage (now at 15 life)
+Cesar moves Mikhail:
+
+....M.C
+
+Mikhail takes 4 damage (now at 16 life)
+Mikhail is stunned
 Mikhail gains 1 Seal token
 
 Beat 3
@@ -119,7 +126,7 @@ Beat 3
 Cesar
 -----
 Life: 20
-Discard 1: Inevitable Drive
+Discard 1: Inevitable Grasp
 Discard 2: Bulwark Dash
 Special action available
 Opponent has power penalty: -3
@@ -127,28 +134,253 @@ Threat level: 2
 
 Mikhail
 -------
-Life: 15
-Discard 1: Sacred Strike
-Discard 2: Immutable Drive
+Life: 16
+Discard 1: Sacred Drive
+Discard 2: Immutable Scroll
 Special action available
 3 Seal token
 
 
-....CM.
+....M.C
 
 
 Cesar:
-3% Unstoppable Suppression
-13% Unstoppable Grasp
-84% Fueled Suppression
+33% Phalanx Strike
+17% Phalanx Drive
+50% Unstoppable Burst
 
 Mikhail:
-24% Hallowed Shot (Seal)
-2% Apocalyptic Dash
-74% Special Pulse
+1% Transcendent Dash
+87% Hallowed Strike (Seal)
+1% Hallowed Dash
+10% Apocalyptic Burst (Seal)
 
 
-Cesar: Unstoppable Suppression
+Cesar: Unstoppable Burst
+Mikhail: Hallowed Strike (Seal)
+
+Cesar gains a Threat Level (current level: 3)
+Mikhail antes a Seal token
+Priorities:  -1 | 4
+Mikhail is active
+Mikhail moves Cesar:
+
+....MC.
+
+Cesar moves:
+
+....M.C
+
+Mikhail hits
+Cesar takes 4 damage (now at 16 life)
+Cesar hits
+Mikhail takes 6 damage (now at 10 life)
+Mikhail is stunned
+Mikhail gains 1 Seal token
+
+Beat 4
+-------
+
+Cesar
+-----
+Life: 16
+Discard 1: Unstoppable Burst
+Discard 2: Inevitable Grasp
+Special action available
+Threat level: 3
+
+Mikhail
+-------
+Life: 10
+Discard 1: Hallowed Strike
+Discard 2: Sacred Drive
+Special action available
+3 Seal token
+
+
+....M.C
+
+
+Cesar:
+50% Fueled Suppression
+8% Fueled Shot
+42% Fueled Drive
+
+Mikhail:
+90% Immutable Shot (Seal)
+0% Immutable Burst
+10% Apocalyptic Burst (Seal)
+
+
+Cesar: Fueled Suppression
+Mikhail: Immutable Shot (Seal)
+
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Mikhail antes a Seal token
+Priorities:  1 | -1
+Cesar is active
+Cesar gains a Threat Level (current level: 0)
+Mikhail hits
+Cesar has 2 soak
+Cesar takes 3 damage (now at 13 life)
+Cesar is stunned
+
+Beat 5
+-------
+
+Cesar
+-----
+Life: 13
+Discard 1: Fueled Suppression
+Discard 2: Unstoppable Burst
+Special action available
+Threat level: 0
+
+Mikhail
+-------
+Life: 10
+Discard 1: Immutable Shot
+Discard 2: Hallowed Strike
+Special action available
+2 Seal token
+
+
+....M.C
+
+Unbeatable strategy for Mikhail: Sacred Dash: -0.25
+
+
+Cesar:
+20% Phalanx Strike
+2% Phalanx Shot
+1% Phalanx Drive
+15% Bulwark Shot
+60% Bulwark Drive
+3% Inevitable Shot
+
+Mikhail:
+12% Transcendent Scroll (Seal)
+9% Apocalyptic Burst (Seal)
+15% Sacred Scroll
+18% Sacred Drive
+10% Sacred Drive (Seal)
+22% Sacred Burst
+14% Sacred Burst (Seal)
+
+
+Cesar: Phalanx Strike
+Mikhail: Apocalyptic Burst (Seal)
+
+Cesar gains a Threat Level (current level: 1)
+Mikhail antes a Seal token
+Priorities:  1 | -2
+Cesar is active
+Mikhail moves:
+
+..M...C
+
+Cesar misses
+Mikhail hits
+Cesar takes 6 damage (now at 7 life)
+
+Beat 6
+-------
+
+Cesar
+-----
+Life: 7
+Discard 1: Phalanx Strike
+Discard 2: Fueled Suppression
+Special action available
+Threat level: 1
+
+Mikhail
+-------
+Life: 10
+Discard 1: Apocalyptic Burst
+Discard 2: Immutable Shot
+Special action available
+1 Seal token
+
+
+..M...C
+
+
+Cesar:
+14% Unstoppable Shot
+17% Bulwark Shot
+29% Bulwark Drive
+41% Bulwark Dash
+
+Mikhail:
+6% Hallowed Scroll (Seal)
+8% Hallowed Drive (Seal)
+24% Sacred Scroll
+62% Sacred Dash
+
+
+Cesar: Bulwark Shot
+Mikhail: Sacred Scroll
+
+Cesar gains a Threat Level (current level: 2)
+Priorities:  0 | 2
+Mikhail is active
+Mikhail misses
+Cesar hits
+Mikhail has 1 soak
+Mikhail takes 4 damage (now at 6 life)
+Mikhail is stunned
+Cesar moves:
+
+..MC...
+
+Mikhail gains 1 Seal token
+
+Beat 7
+-------
+
+Cesar
+-----
+Life: 7
+Discard 1: Bulwark Shot
+Discard 2: Phalanx Strike
+Special action available
+Threat level: 2
+
+Mikhail
+-------
+Life: 6
+Discard 1: Sacred Scroll
+Discard 2: Apocalyptic Burst
+Special action available
+2 Seal token
+
+
+..MC...
+
+
+Cesar:
+26% Unstoppable Suppression
+17% Unstoppable Drive
+18% Fueled Suppression
+2% Inevitable Suppression
+21% Inevitable Grasp
+2% Inevitable Dash
+15% Special Level 4 Protocol
+
+Mikhail:
+1% Immutable Strike (Seal)
+1% Immutable Shot (Seal)
+1% Immutable Grasp (Seal)
+2% Transcendent Dash
+1% Hallowed Strike (Seal)
+1% Hallowed Grasp (Seal)
+2% Hallowed Dash
+92% Special Pulse
+
+
+Cesar: Fueled Suppression
 Mikhail: Special Pulse
 
 Cesar gains a Threat Level (current level: 3)
@@ -157,753 +389,268 @@ Mikhail Pulses:
 .C....M
 
 
-Beat 3
--------
-
-Cesar
------
-Life: 20
-Discard 1: Unstoppable Suppression
-Discard 2: Inevitable Drive
-Special action available
-Threat level: 3
-
-Mikhail
--------
-Life: 15
-Discard 1: Sacred Strike
-Discard 2: Immutable Drive
-3 Seal token
-
-
-.C....M
-
-Unbeatable strategy for Cesar: Bulwark Dash: 0.81
-
-
-Cesar:
-33% Bulwark Burst
-67% Bulwark Grasp
-
-Mikhail:
-67% Apocalyptic Shot (Seal)
-33% Apocalyptic Burst (Seal)
-
-
-Cesar: Bulwark Burst
-Mikhail: Apocalyptic Shot (Seal)
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Mikhail antes a Seal token
-Priorities:  -1 | -1
-Clash!
-
-
-Cesar: Bulwark Grasp
-Mikhail: Apocalyptic Burst (Seal)
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Mikhail antes a Seal token
-Priorities:  3 | -2
-Cesar is active
-Mikhail hits
-Cesar has 2 soak
-Cesar takes 4 damage (now at 16 life)
-Cesar is stunned
-
-Beat 4
--------
-
-Cesar
------
-Life: 16
-Discard 1: Bulwark Grasp
-Discard 2: Unstoppable Suppression
-Special action available
-Threat level: 4
-
-Mikhail
--------
-Life: 15
-Discard 1: Apocalyptic Burst
-Discard 2: Sacred Strike
-2 Seal token
-
-
-.C....M
-
-Unbeatable strategy for Mikhail: Transcendent Shot (Seal): -0.32
-
-
-Cesar:
-13% Fueled Strike
-40% Inevitable Burst
-47% Inevitable Dash
-
-Mikhail:
-36% Immutable Scroll
-43% Transcendent Scroll (Seal)
-21% Transcendent Shot (Seal)
-
-
-Cesar: Inevitable Dash
-Mikhail: Immutable Scroll
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  9 | 2
-Cesar is active
-Cesar moves:
-
-C.....M
-
-Mikhail misses
-Mikhail gains 1 Seal token
-
-Beat 5
--------
-
-Cesar
------
-Life: 16
-Discard 1: Inevitable Dash
-Discard 2: Bulwark Grasp
-Special action available
-Threat level: 0
-
-Mikhail
--------
-Life: 15
-Discard 1: Immutable Scroll
-Discard 2: Apocalyptic Burst
-3 Seal token
-
-
-C.....M
-
-
-Cesar:
-36% Phalanx Suppression
-37% Unstoppable Suppression
-17% Fueled Shot
-9% Fueled Drive
-
-Mikhail:
-14% Transcendent Shot
-21% Transcendent Grasp
-14% Hallowed Shot
-23% Hallowed Shot (Seal)
-6% Hallowed Drive (Seal)
-21% Hallowed Grasp
-
-
-Cesar: Unstoppable Suppression
-Mikhail: Transcendent Shot
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 2
-Mikhail is active
-Mikhail misses
-Cesar misses
-
-Beat 6
--------
-
-Cesar
------
-Life: 16
-Discard 1: Unstoppable Suppression
-Discard 2: Inevitable Dash
-Special action available
-Threat level: 1
-
-Mikhail
--------
-Life: 15
-Discard 1: Transcendent Shot
-Discard 2: Immutable Scroll
-3 Seal token
-
-
-C.....M
-
-Unbeatable strategy for Mikhail: Hallowed Burst: -0.45
-Unbeatable strategy for Mikhail: Apocalyptic Drive (Seal): -0.62
-Unbeatable strategy for Mikhail: Apocalyptic Burst (Seal): -0.41
-Unbeatable strategy for Mikhail: Sacred Burst: -0.14
-
-
-Cesar:
-7% Fueled Shot
-1% Fueled Drive
-39% Bulwark Drive
-54% Bulwark Grasp
-
-Mikhail:
-12% Hallowed Strike
-44% Hallowed Drive
-24% Hallowed Burst
-20% Apocalyptic Burst (Seal)
-
-
-Cesar: Bulwark Drive
-Mikhail: Hallowed Burst
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 1
-Cesar is active
-Cesar moves:
-
-.C....M
-
-Cesar misses
-Cesar moves:
-
-C.....M
-
-Mikhail misses
-
 Beat 7
 -------
 
 Cesar
 -----
-Life: 16
-Discard 1: Bulwark Drive
-Discard 2: Unstoppable Suppression
+Life: 7
+Discard 1: Fueled Suppression
+Discard 2: Bulwark Shot
 Special action available
-Threat level: 2
+Threat level: 3
 
 Mikhail
 -------
-Life: 15
-Discard 1: Hallowed Burst
-Discard 2: Transcendent Shot
-3 Seal token
+Life: 6
+Discard 1: Sacred Scroll
+Discard 2: Apocalyptic Burst
+2 Seal token
 
 
-C.....M
+.C....M
 
-Unbeatable strategy for Mikhail: Immutable Scroll: -0.15
-Unbeatable strategy for Mikhail: Immutable Scroll (Seal): -0.15
-Unbeatable strategy for Mikhail: Immutable Strike: -0.36
-Unbeatable strategy for Mikhail: Immutable Grasp: -0.51
-Unbeatable strategy for Mikhail: Apocalyptic Scroll (Seal): -1.21
-Unbeatable strategy for Mikhail: Apocalyptic Drive (Seal): -1.11
-Unbeatable strategy for Mikhail: Sacred Grasp: -0.01
+Unbeatable strategy for Cesar: Unstoppable Dash: 0.88
 
 
 Cesar:
-55% Fueled Shot
-45% Fueled Grasp
+10% Unstoppable Burst
+10% Inevitable Strike
+44% Inevitable Burst
+35% Inevitable Grasp
 
 Mikhail:
-55% Apocalyptic Scroll (Seal)
-45% Apocalyptic Drive (Seal)
+48% Immutable Strike
+9% Immutable Shot (Seal)
+2% Immutable Drive (Seal)
+41% Immutable Grasp
 
 
-Cesar: Fueled Shot
-Mikhail: Apocalyptic Drive (Seal)
+Cesar: Inevitable Grasp
+Mikhail: Immutable Drive (Seal)
 
-Cesar gains a Threat Level (current level: 3)
-Mikhail antes a Seal token
-Priorities:  1 | 1
-Clash!
-
-
-Cesar: Fueled Grasp
-Mikhail: Apocalyptic Scroll (Seal)
-
-Cesar gains a Threat Level (current level: 3)
-Mikhail antes a Seal token
-Priorities:  4 | -1
-Cesar is active
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Mikhail hits
-Cesar has 2 soak
-Cesar takes 3 damage (now at 13 life)
-Cesar is stunned
+Mikhail antes a Seal token
+Priorities:  5 | 1
+Cesar is active
+Mikhail moves:
+
+.C..M..
+
+Mikhail misses
 
 Beat 8
 -------
 
 Cesar
 -----
-Life: 13
-Discard 1: Fueled Grasp
-Discard 2: Bulwark Drive
-Special action available
-Threat level: 4
-
-Mikhail
--------
-Life: 15
-Discard 1: Apocalyptic Scroll
-Discard 2: Hallowed Burst
-2 Seal token
-
-
-C.....M
-
-
-Cesar:
-79% Unstoppable Suppression
-21% Inevitable Suppression
-
-Mikhail:
-100% Immutable Grasp
-
-
-Cesar: Unstoppable Suppression
-Mikhail: Immutable Grasp
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  0 | 5
-Mikhail is active
-Mikhail misses
-Cesar misses
-
-Beat 9
--------
-
-Cesar
------
-Life: 13
-Discard 1: Unstoppable Suppression
-Discard 2: Fueled Grasp
-Special action available
-Threat level: 0
-
-Mikhail
--------
-Life: 15
-Discard 1: Immutable Grasp
-Discard 2: Apocalyptic Scroll
-2 Seal token
-
-
-C.....M
-
-Unbeatable strategy for Mikhail: Transcendent Shot: -0.30
-Unbeatable strategy for Mikhail: Transcendent Burst: -0.32
-Unbeatable strategy for Mikhail: Hallowed Shot: -0.30
-Unbeatable strategy for Mikhail: Hallowed Burst: -0.32
-Unbeatable strategy for Mikhail: Sacred Strike: -0.12
-Unbeatable strategy for Mikhail: Sacred Burst: -0.27
-
-
-Cesar:
-37% Bulwark Strike
-38% Bulwark Drive
-25% Inevitable Strike
-
-Mikhail:
-1% Transcendent Shot (Seal)
-28% Transcendent Burst
-28% Hallowed Burst
-43% Sacred Burst
-
-
-Cesar: Inevitable Strike
-Mikhail: Hallowed Burst
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  3 | 1
-Cesar is active
-Cesar misses
-Mikhail misses
-
-Beat 10
--------
-
-Cesar
------
-Life: 13
-Discard 1: Inevitable Strike
-Discard 2: Unstoppable Suppression
-Special action available
-Threat level: 1
-
-Mikhail
--------
-Life: 15
-Discard 1: Hallowed Burst
-Discard 2: Immutable Grasp
-2 Seal token
-
-
-C.....M
-
-Unbeatable strategy for Mikhail: Transcendent Scroll: -0.93
-Unbeatable strategy for Mikhail: Transcendent Scroll (Seal): -1.06
-Unbeatable strategy for Mikhail: Transcendent Strike: -0.02
-Unbeatable strategy for Mikhail: Apocalyptic Scroll: -0.57
-Unbeatable strategy for Mikhail: Sacred Scroll: -0.51
-Unbeatable strategy for Mikhail: Sacred Scroll (Seal): -0.74
-
-
-Cesar:
-4% Phalanx Burst
-53% Bulwark Drive
-10% Bulwark Burst
-33% Bulwark Grasp
-
-Mikhail:
-9% Transcendent Scroll
-33% Transcendent Shot
-51% Transcendent Shot (Seal)
-7% Apocalyptic Shot (Seal)
-
-
-Cesar: Bulwark Drive
-Mikhail: Transcendent Shot (Seal)
-
-Cesar gains a Threat Level (current level: 2)
-Mikhail antes a Seal token
-Priorities:  2 | 1
-Cesar is active
-Cesar moves:
-
-.C....M
-
-Cesar misses
-Cesar moves:
-
-....C.M
-
-Mikhail hits
-Cesar takes 2 damage (now at 11 life)
-
-Beat 11
--------
-
-Cesar
------
-Life: 11
-Discard 1: Bulwark Drive
-Discard 2: Inevitable Strike
-Special action available
-Threat level: 2
-
-Mikhail
--------
-Life: 15
-Discard 1: Transcendent Shot
-Discard 2: Hallowed Burst
-1 Seal token
-
-
-....C.M
-
-
-Cesar:
-17% Phalanx Burst
-9% Phalanx Grasp
-12% Fueled Shot
-62% Fueled Grasp
-
-Mikhail:
-5% Immutable Scroll (Seal)
-45% Sacred Scroll (Seal)
-49% Sacred Drive
-2% Sacred Drive (Seal)
-
-
-Cesar: Fueled Grasp
-Mikhail: Sacred Scroll (Seal)
-
-Cesar gains a Threat Level (current level: 3)
-Mikhail antes a Seal token
-Priorities:  4 | 2
-Cesar is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Mikhail hits
-Cesar has 2 soak
-Cesar takes 1 damage (now at 10 life)
-Cesar is stunned
-Mikhail gains 1 Seal token
-
-Beat 12
--------
-
-Cesar
------
-Life: 10
-Discard 1: Fueled Grasp
-Discard 2: Bulwark Drive
-Special action available
-Threat level: 4
-
-Mikhail
--------
-Life: 15
-Discard 1: Sacred Scroll
-Discard 2: Transcendent Shot
-1 Seal token
-
-
-....C.M
-
-Unbeatable strategy for Mikhail: Hallowed Drive (Seal): -0.63
-
-
-Cesar:
-32% Phalanx Strike
-45% Unstoppable Burst
-23% Special Pulse
-
-Mikhail:
-17% Hallowed Strike (Seal)
-80% Hallowed Drive (Seal)
-3% Apocalyptic Drive
-
-
-Cesar: Special Pulse
-Mikhail: Hallowed Drive (Seal)
-
-Cesar gains a Threat Level (current level: 0)
-Mikhail antes a Seal token
-Cesar Pulses:
-
-MC.....
-
-
-Beat 12
--------
-
-Cesar
------
-Life: 10
-Discard 1: Fueled Grasp
-Discard 2: Bulwark Drive
-Threat level: 0
-
-Mikhail
--------
-Life: 15
-Discard 1: Hallowed Drive
-Discard 2: Sacred Scroll
-0 Seal token
-
-
-MC.....
-
-
-Cesar:
-25% Inevitable Suppression
-23% Inevitable Strike
-51% Inevitable Burst
-
-Mikhail:
-34% Apocalyptic Shot
-21% Apocalyptic Grasp
-45% Apocalyptic Dash
-
-
-Cesar: Inevitable Burst
-Mikhail: Apocalyptic Shot
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  1 | 2
-Mikhail is active
-Cesar moves:
-
-M.C....
-
-Mikhail hits
-Cesar takes 3 damage (now at 7 life)
-Cesar hits
-Mikhail is stunned
-Mikhail will have -3 priority next beat
-Mikhail takes 4 damage (now at 11 life)
-Mikhail is stunned
-Mikhail gains 1 Seal token
-
-Beat 13
--------
-
-Cesar
------
 Life: 7
-Discard 1: Inevitable Burst
-Discard 2: Fueled Grasp
-Opponent has power penalty: -3
-Threat level: 1
-
-Mikhail
--------
-Life: 11
-Discard 1: Apocalyptic Shot
-Discard 2: Hallowed Drive
-1 Seal token
-
-
-M.C....
-
-
-Cesar:
-22% Phalanx Strike
-6% Phalanx Shot
-18% Unstoppable Shot
-54% Unstoppable Drive
-
-Mikhail:
-20% Immutable Strike (Seal)
-20% Sacred Strike (Seal)
-41% Sacred Burst
-19% Sacred Dash
-
-
-Cesar: Unstoppable Drive
-Mikhail: Sacred Burst
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 1
-Cesar is active
-Cesar moves:
-
-MC.....
-
-Cesar hits
-Mikhail takes 5 damage (now at 6 life)
-Mikhail is stunned
-Mikhail gains 1 Seal token
-
-Beat 14
--------
-
-Cesar
------
-Life: 7
-Discard 1: Unstoppable Drive
-Discard 2: Inevitable Burst
-Threat level: 2
-
-Mikhail
--------
-Life: 6
-Discard 1: Sacred Burst
-Discard 2: Apocalyptic Shot
-2 Seal token
-
-
-MC.....
-
-
-Cesar:
-1% Phalanx Grasp
-56% Fueled Grasp
-10% Bulwark Strike
-20% Bulwark Shot
-12% Bulwark Grasp
-
-Mikhail:
-17% Immutable Scroll (Seal)
-12% Immutable Strike (Seal)
-56% Immutable Drive (Seal)
-5% Hallowed Scroll (Seal)
-11% Hallowed Drive (Seal)
-
-
-Cesar: Fueled Grasp
-Mikhail: Immutable Drive (Seal)
-
-Cesar gains a Threat Level (current level: 3)
-Mikhail antes a Seal token
-Priorities:  4 | 1
-Cesar is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Mikhail moves:
-
-.C.M...
-
-Mikhail hits
-Cesar has 2 soak
-Cesar takes 3 damage (now at 4 life)
-Cesar is stunned
-
-Beat 15
--------
-
-Cesar
------
-Life: 4
-Discard 1: Fueled Grasp
-Discard 2: Unstoppable Drive
+Discard 1: Inevitable Grasp
+Discard 2: Fueled Suppression
+Special action available
 Threat level: 4
 
 Mikhail
 -------
 Life: 6
 Discard 1: Immutable Drive
-Discard 2: Sacred Burst
+Discard 2: Sacred Scroll
 1 Seal token
 
 
-.C.M...
+.C..M..
 
-Unbeatable strategy for Mikhail: Transcendent Strike (Seal): -9.00
-Unbeatable strategy for Mikhail: Transcendent Shot: -9.00
-Unbeatable strategy for Mikhail: Transcendent Dash: -9.00
-Unbeatable strategy for Mikhail: Transcendent Dash (Seal): -9.00
-Unbeatable strategy for Mikhail: Hallowed Scroll (Seal): -9.00
-Unbeatable strategy for Mikhail: Hallowed Shot: -9.00
-Unbeatable strategy for Mikhail: Hallowed Shot (Seal): -9.00
-Unbeatable strategy for Mikhail: Hallowed Dash: -9.00
-Unbeatable strategy for Mikhail: Hallowed Dash (Seal): -9.00
-Unbeatable strategy for Mikhail: Apocalyptic Scroll (Seal): -9.00
-Unbeatable strategy for Mikhail: Apocalyptic Shot: -9.00
-Unbeatable strategy for Mikhail: Apocalyptic Dash: -9.00
-Unbeatable strategy for Mikhail: Apocalyptic Dash (Seal): -9.00
+Unbeatable strategy for Cesar: Unstoppable Dash: 1.07
+Unbeatable strategy for Cesar: Bulwark Dash: 1.37
 
 
 Cesar:
-0% Phalanx Suppression
-1% Phalanx Strike
-0% Phalanx Shot
-0% Phalanx Burst
-22% Phalanx Dash
-22% Bulwark Suppression
-22% Bulwark Strike
-0% Bulwark Shot
-0% Bulwark Burst
-22% Bulwark Dash
-4% Inevitable Suppression
-4% Inevitable Strike
-1% Inevitable Shot
-0% Inevitable Burst
-2% Inevitable Dash
+19% Phalanx Strike
+2% Phalanx Dash
+25% Bulwark Drive
+54% Bulwark Dash
 
 Mikhail:
-14% Transcendent Strike (Seal)
-14% Transcendent Dash (Seal)
-14% Hallowed Scroll (Seal)
-14% Hallowed Shot (Seal)
-14% Hallowed Dash (Seal)
-14% Apocalyptic Scroll (Seal)
-14% Apocalyptic Dash (Seal)
+11% Hallowed Shot (Seal)
+11% Apocalyptic Strike
+70% Apocalyptic Shot
+8% Apocalyptic Burst
 
 
-Cesar: Bulwark Shot
-Mikhail: Transcendent Strike (Seal)
+Cesar: Bulwark Dash
+Mikhail: Apocalyptic Shot
 
 Cesar gains a Threat Level (current level: 0)
-Mikhail antes a Seal token
-Priorities:  0 | 2
-Mikhail is active
-Mikhail hits
-Cesar takes 3 damage (now at 1 life)
-Cesar hits
-Mikhail takes 3 damage (now at 3 life)
+Priorities:  7 | 2
+Cesar is active
 Cesar moves:
 
-C..M...
+....MC.
 
-Mikhail gains 1 Seal token
-Game goes to time
-MIKHAIL WINS!
-total_time: 16
+Cesar moves:
+
+...CM..
+
+Mikhail misses
+
+Beat 9
+-------
+
+Cesar
+-----
+Life: 7
+Discard 1: Bulwark Dash
+Discard 2: Inevitable Grasp
+Special action available
+Threat level: 0
+
+Mikhail
+-------
+Life: 6
+Discard 1: Apocalyptic Shot
+Discard 2: Immutable Drive
+1 Seal token
+
+
+...CM..
+
+Unbeatable strategy for Mikhail: Hallowed Scroll (Seal): -0.69
+Unbeatable strategy for Mikhail: Hallowed Strike (Seal): -5.63
+
+
+Cesar:
+56% Unstoppable Shot
+4% Fueled Strike
+39% Special Level 4 Protocol
+
+Mikhail:
+34% Hallowed Strike (Seal)
+22% Hallowed Burst (Seal)
+44% Sacred Burst
+
+
+Cesar: Special Level 4 Protocol
+Mikhail: Hallowed Burst (Seal)
+
+Cesar gains a Threat Level (current level: 1)
+Mikhail antes a Seal token
+Priorities:  11 | 2
+Cesar is active
+Mikhail moves Cesar:
+
+....MC.
+
+Mikhail moves:
+
+..M..C.
+
+Cesar misses
+Mikhail hits
+Cesar has 4 soak
+Cesar takes 2 damage (now at 5 life)
+Cesar is stunned
+
+Beat 10
+-------
+
+Cesar
+-----
+Life: 5
+Discard 1: Bulwark Dash
+Discard 2: Inevitable Grasp
+Threat level: 1
+
+Mikhail
+-------
+Life: 6
+Discard 1: Hallowed Burst
+Discard 2: Apocalyptic Shot
+0 Seal token
+
+
+..M..C.
+
+
+Cesar:
+17% Unstoppable Shot
+63% Unstoppable Drive
+20% Fueled Shot
+
+Mikhail:
+26% Transcendent Scroll
+8% Sacred Drive
+65% Sacred Dash
+
+
+Cesar: Unstoppable Drive
+Mikhail: Sacred Dash
+
+Cesar gains a Threat Level (current level: 2)
+Priorities:  2 | 9
+Mikhail is active
+Mikhail moves:
+
+.....CM
+
+Cesar misses
+
+Beat 11
+-------
+
+Cesar
+-----
+Life: 5
+Discard 1: Unstoppable Drive
+Discard 2: Bulwark Dash
+Threat level: 2
+
+Mikhail
+-------
+Life: 6
+Discard 1: Sacred Dash
+Discard 2: Hallowed Burst
+0 Seal token
+
+
+.....CM
+
+Unbeatable strategy for Cesar: Phalanx Strike: 11.00
+
+
+Cesar:
+100% Phalanx Strike
+
+Mikhail:
+10% Immutable Scroll
+6% Immutable Strike
+6% Immutable Shot
+6% Immutable Drive
+5% Immutable Grasp
+9% Transcendent Scroll
+6% Transcendent Strike
+6% Transcendent Shot
+6% Transcendent Drive
+6% Transcendent Grasp
+9% Apocalyptic Scroll
+7% Apocalyptic Strike
+5% Apocalyptic Shot
+5% Apocalyptic Drive
+8% Apocalyptic Grasp
+
+
+Cesar: Phalanx Strike
+Mikhail: Apocalyptic Drive
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  1 | 4
+Mikhail is active
+Mikhail moves:
+
+...M.C.
+
+Mikhail misses
+Cesar hits
+Mikhail takes 7 damage (now at 0 life)
+CESAR WINS!
+total_time: 14

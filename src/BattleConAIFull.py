@@ -100,7 +100,7 @@ def main():
     
 def ad_hoc():
 #    duel('seth', 'kallistar', 10)
-    free_for_all(1, ['cesar'], 'eligor', ['seth'], True, False)
+    free_for_all(1, ['cesar'], 'runika', ['seth'], True, False)
     free_for_all(1, ['ottavia'], '', ['cesar','seth'], True, False)
 #    free_for_all(1, ['juto'], '', ['kehrolyn'], True, True)
 
@@ -312,9 +312,10 @@ def play_beat (filename='starting states/start.txt'):
     game.print_solution()
     return game
 
-def play_start_beat (name0, name1, beta_bases0=False, beta_bases1=False):
+def play_start_beat (name0, name1, beta_bases0=False, beta_bases1=False,
+                     default_discards=True):
     game = Game.from_start(name0, name1, beta_bases0, beta_bases1,
-                           default_discards=True)
+                           default_discards=default_discards)
     print "Simulating..."
     game.simulate_beat()
     print "Solving..."
@@ -11851,7 +11852,7 @@ class Parasitic (Style):
     def get_preferred_range (self):
         return 0.5 * (self.me.total_insects())
     def start_trigger (self):
-        self.me.pull ([3])
+        self.me.pull([3])
     ordered_start_trigger = True
     def evaluation_bonus (self):
         value = 0.25 * (self.me.total_insects() - 2)
@@ -14072,7 +14073,9 @@ class ShieldAmulet (Artifact):
     def has_stun_immunity (self):
         return self is self.me.overcharged_artifact
     def blocks_pullpush (self):
-        return set(xrange(7)) if self.me.overcharged_artifact else set()
+        return (set(xrange(7)) 
+                if self is self.me.overcharged_artifact 
+                else set())
 
 class Battlefist (Artifact):
     value = 0.6

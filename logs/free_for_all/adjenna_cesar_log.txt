@@ -43,70 +43,82 @@ Cesar:
 47% Bulwark Drive
 
 
-Adjenna: Irresistible Gaze
-Cesar: Bulwark Drive
+Adjenna: Arresting Gaze
+Cesar: Phalanx Burst
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  4 | 2
+Priorities:  3 | -1
 Adjenna is active
+Cesar moves:
+
+.A....C
+
+Adjenna moves:
+
+...A..C
+
 Adjenna hits
 Cesar receives a Petrification Marker
-Cesar takes 1 damage (now at 19 life)
-Cesar is stunned
+Cesar takes 0 damage (now at 20 life)
+Cesar hits
+Adjenna has 1 soak
+Cesar moves Adjenna:
+
+..A...C
+
+Adjenna takes 3 damage (now at 17 life)
+Adjenna is stunned
 
 Beat 2
 -------
 
 Adjenna
 -------
-Life: 20
-Discard 1: Irresistible Gaze
+Life: 17
+Discard 1: Arresting Gaze
 Discard 2: Beckoning Burst
 Special action available
 1 Petrification markers on Cesar
 
 Cesar
 -----
-Life: 19
-Discard 1: Bulwark Drive
+Life: 20
+Discard 1: Phalanx Burst
 Discard 2: Fueled Strike
 Special action available
 Threat level: 1
 
 
-.A...C.
+..A...C
 
-Unbeatable strategy for Adjenna: Alluring Dash: 0.76
+Unbeatable strategy for Adjenna: Alluring Dash: 1.54
 
 
 Adjenna:
-83% Alluring Dash
-3% Arresting Strike
-14% Pacifying Dash
+1% Alluring Drive
+99% Alluring Dash
 
 Cesar:
-21% Phalanx Suppression
-2% Phalanx Burst
-77% Unstoppable Suppression
+57% Unstoppable Suppression
+39% Bulwark Suppression
+5% Bulwark Shot
 
 
-Adjenna: Arresting Strike
-Cesar: Unstoppable Suppression
+Adjenna: Alluring Dash
+Cesar: Bulwark Suppression
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 0
+Priorities:  8 | 0
 Adjenna is active
 Adjenna moves:
 
-...A.C.
+...A..C
 
+Cesar misses
 Cesar moves:
 
 ..CA...
 
-Adjenna hits
-Cesar takes 3 damage (now at 16 life)
-Cesar is stunned
 Cesar moves:
 
 C..A...
@@ -117,99 +129,105 @@ Beat 3
 
 Adjenna
 -------
-Life: 20
-Discard 1: Arresting Strike
-Discard 2: Irresistible Gaze
+Life: 17
+Discard 1: Alluring Dash
+Discard 2: Arresting Gaze
 Special action available
 1 Petrification markers on Cesar
 
 Cesar
 -----
-Life: 16
-Discard 1: Unstoppable Suppression
-Discard 2: Bulwark Drive
+Life: 20
+Discard 1: Bulwark Suppression
+Discard 2: Phalanx Burst
 Special action available
 Threat level: 2
 
 
 C..A...
 
+Unbeatable strategy for Cesar: Unstoppable Shot: -1.67
+
 
 Adjenna:
-36% Alluring Drive
-13% Alluring Burst
-51% Alluring Dash
+5% Irresistible Strike
+9% Beckoning Strike
+29% Beckoning Shot
+58% Beckoning Burst
 
 Cesar:
-2% Phalanx Burst
-4% Fueled Shot
-94% Special Pulse
+40% Unstoppable Shot
+52% Unstoppable Drive
+8% Inevitable Shot
 
 
-Adjenna: Alluring Burst
-Cesar: Special Pulse
+Adjenna: Beckoning Strike
+Cesar: Unstoppable Drive
 
 Cesar gains a Threat Level (current level: 3)
-Cesar Pulses:
+Priorities:  2 | 2
+Clash!
 
-A.....C
 
+Adjenna: Beckoning Burst
+Cesar: Unstoppable Strike
 
-Beat 3
+Cesar gains a Threat Level (current level: 3)
+Priorities:  0 | 1
+Cesar is active
+Adjenna moves:
+
+C...A..
+
+Cesar moves:
+
+.C..A..
+
+Cesar misses
+Adjenna misses
+
+Beat 4
 -------
 
 Adjenna
 -------
-Life: 20
-Discard 1: Alluring Burst
-Discard 2: Arresting Strike
+Life: 17
+Discard 1: Beckoning Burst
+Discard 2: Alluring Dash
 Special action available
 1 Petrification markers on Cesar
 
 Cesar
 -----
-Life: 16
-Discard 1: Unstoppable Suppression
-Discard 2: Bulwark Drive
+Life: 20
+Discard 1: Unstoppable Strike
+Discard 2: Bulwark Suppression
+Special action available
 Threat level: 3
 
 
-A.....C
+.C..A..
 
 
 Adjenna:
-40% Pacifying Dash
-60% Beckoning Gaze
+13% Arresting Drive
+44% Arresting Grasp
+14% Pacifying Drive
+29% Pacifying Grasp
 
 Cesar:
-41% Phalanx Grasp
-59% Inevitable Dash
+2% Fueled Burst
+98% Special Pulse
 
 
-Adjenna: Pacifying Dash
-Cesar: Inevitable Dash
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  9 | 9
-Clash!
-
-
-Adjenna: Pacifying Drive
-Cesar: Inevitable Burst
+Adjenna: Pacifying Grasp
+Cesar: Special Pulse
 
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Priorities:  4 | 1
-Adjenna is active
-Adjenna moves:
+Cesar Pulses:
 
-..A...C
-
-Adjenna misses
-Adjenna moves:
-
-....A.C
+A.....C
 
 
 Beat 4
@@ -217,98 +235,146 @@ Beat 4
 
 Adjenna
 -------
-Life: 20
-Discard 1: Pacifying Drive
-Discard 2: Alluring Burst
+Life: 17
+Discard 1: Pacifying Grasp
+Discard 2: Beckoning Burst
 Special action available
 1 Petrification markers on Cesar
 
 Cesar
 -----
-Life: 16
-Discard 1: Inevitable Burst
-Discard 2: Unstoppable Suppression
+Life: 20
+Discard 1: Unstoppable Strike
+Discard 2: Bulwark Suppression
 Threat level: 4
 
 
-....A.C
-
-Unbeatable strategy for Cesar: Bulwark Dash: -0.17
+A.....C
 
 
 Adjenna:
-60% Arresting Strike
-21% Arresting Shot
-19% Irresistible Gaze
+45% Arresting Gaze
+18% Arresting Strike
+4% Arresting Shot
+32% Arresting Drive
 
 Cesar:
-3% Fueled Strike
-13% Bulwark Drive
-85% Bulwark Dash
+7% Phalanx Shot
+50% Phalanx Grasp
+18% Fueled Shot
+25% Inevitable Shot
 
 
-Adjenna: Arresting Strike
-Cesar: Bulwark Dash
+Adjenna: Arresting Shot
+Cesar: Inevitable Shot
 
 Cesar gains a Threat Level (current level: 0)
-Priorities:  2 | 7
+Priorities:  1 | 2
 Cesar is active
-Cesar moves:
-
-..C.A..
-
-Cesar moves:
-
-C...A..
-
+Cesar misses
 Adjenna moves:
 
-C..A...
+..A...C
 
-Adjenna misses
+Adjenna hits
+Cesar takes 2 damage (now at 18 life)
 
 Beat 5
 -------
 
 Adjenna
 -------
-Life: 20
-Discard 1: Arresting Strike
-Discard 2: Pacifying Drive
+Life: 17
+Discard 1: Arresting Shot
+Discard 2: Pacifying Grasp
 Special action available
 1 Petrification markers on Cesar
 
 Cesar
 -----
-Life: 16
-Discard 1: Bulwark Dash
-Discard 2: Inevitable Burst
+Life: 18
+Discard 1: Inevitable Shot
+Discard 2: Unstoppable Strike
 Threat level: 0
+
+
+..A...C
+
+
+Adjenna:
+2% Alluring Gaze
+49% Alluring Burst
+34% Alluring Dash
+16% Irresistible Gaze
+
+Cesar:
+74% Bulwark Suppression
+14% Bulwark Burst
+10% Bulwark Grasp
+3% Bulwark Dash
+
+
+Adjenna: Alluring Dash
+Cesar: Bulwark Suppression
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  8 | 0
+Adjenna is active
+Adjenna moves:
+
+...A..C
+
+Cesar misses
+Cesar moves:
+
+..CA...
+
+Cesar moves:
+
+C..A...
+
+
+Beat 6
+-------
+
+Adjenna
+-------
+Life: 17
+Discard 1: Alluring Dash
+Discard 2: Arresting Shot
+Special action available
+1 Petrification markers on Cesar
+
+Cesar
+-----
+Life: 18
+Discard 1: Bulwark Suppression
+Discard 2: Inevitable Shot
+Threat level: 1
 
 
 C..A...
 
 
 Adjenna:
-5% Alluring Gaze
-22% Alluring Shot
-38% Alluring Burst
-36% Alluring Dash
+8% Pacifying Strike
+37% Irresistible Gaze
+28% Irresistible Drive
+27% Irresistible Burst
 
 Cesar:
-46% Unstoppable Suppression
-10% Unstoppable Shot
-20% Fueled Suppression
-24% Fueled Shot
+15% Phalanx Drive
+5% Phalanx Burst
+40% Unstoppable Strike
+40% Unstoppable Drive
 
 
-Adjenna: Alluring Burst
-Cesar: Fueled Shot
+Adjenna: Irresistible Burst
+Cesar: Phalanx Drive
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 1
-Cesar is active
 Cesar gains a Threat Level (current level: 2)
+Priorities:  1 | 2
+Cesar is active
 Adjenna moves:
 
 C....A.
@@ -317,629 +383,462 @@ Cesar moves:
 
 .C...A.
 
-Cesar hits
-Adjenna takes 5 damage (now at 15 life)
-Adjenna is stunned
-
-Beat 6
--------
-
-Adjenna
--------
-Life: 15
-Discard 1: Alluring Burst
-Discard 2: Arresting Strike
-Special action available
-1 Petrification markers on Cesar
-
-Cesar
------
-Life: 16
-Discard 1: Fueled Shot
-Discard 2: Bulwark Dash
-Threat level: 2
-
-
-.C...A.
-
-Unbeatable strategy for Adjenna: Pacifying Dash: 1.73
-Unbeatable strategy for Adjenna: Irresistible Dash: 0.46
-Unbeatable strategy for Adjenna: Beckoning Dash: 0.46
-
-
-Adjenna:
-50% Pacifying Gaze
-26% Pacifying Shot
-24% Pacifying Dash
-
-Cesar:
-80% Phalanx Suppression
-20% Unstoppable Suppression
-1% Unstoppable Drive
-
-
-Adjenna: Pacifying Gaze
-Cesar: Phalanx Suppression
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  4 | 0
-Adjenna is active
-Adjenna misses
-Adjenna moves:
-
-.C..A..
-
 Cesar misses
+Adjenna misses
 
 Beat 7
 -------
 
 Adjenna
 -------
-Life: 15
-Discard 1: Pacifying Gaze
-Discard 2: Alluring Burst
+Life: 17
+Discard 1: Irresistible Burst
+Discard 2: Alluring Dash
 Special action available
 1 Petrification markers on Cesar
 
 Cesar
 -----
-Life: 16
-Discard 1: Phalanx Suppression
-Discard 2: Fueled Shot
-Threat level: 3
+Life: 18
+Discard 1: Phalanx Drive
+Discard 2: Bulwark Suppression
+Threat level: 2
 
 
-.C..A..
-
-Unbeatable strategy for Adjenna: Arresting Dash: 1.76
-Unbeatable strategy for Adjenna: Beckoning Dash: 1.60
+.C...A.
 
 
 Adjenna:
-61% Arresting Drive
-20% Arresting Dash
-5% Irresistible Dash
-14% Beckoning Dash
+18% Arresting Drive
+15% Pacifying Shot
+68% Pacifying Drive
 
 Cesar:
-32% Bulwark Burst
-39% Bulwark Grasp
-29% Inevitable Burst
+21% Unstoppable Strike
+66% Unstoppable Shot
+13% Fueled Grasp
 
 
-Adjenna: Arresting Drive
-Cesar: Inevitable Burst
+Adjenna: Pacifying Drive
+Cesar: Unstoppable Strike
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  3 | 1
+Cesar gains a Threat Level (current level: 3)
+Priorities:  4 | 1
 Adjenna is active
+Adjenna moves:
+
+.C.A...
+
 Cesar moves:
 
-C...A..
+..CA...
 
-Adjenna moves:
-
-C.A....
-
-Adjenna moves:
-
-CA.....
-
+Cesar loses 1 life (now at 17)
 Adjenna hits
-Cesar has 2 soak
-Cesar takes 0 damage (now at 16 life)
-Cesar receives a Petrification Marker
+Cesar takes 2 damage (now at 15 life)
+Adjenna moves:
+
+A.C....
+
+Cesar moves:
+
+AC.....
+
+Cesar loses 1 life (now at 14)
+Cesar hits
+Adjenna takes 7 damage (now at 10 life)
+Adjenna is stunned
 
 Beat 8
 -------
 
 Adjenna
 -------
-Life: 15
-Discard 1: Arresting Drive
-Discard 2: Pacifying Gaze
+Life: 10
+Discard 1: Pacifying Drive
+Discard 2: Irresistible Burst
 Special action available
-2 Petrification markers on Cesar
+1 Petrification markers on Cesar
 
 Cesar
 -----
-Life: 16
-Discard 1: Inevitable Burst
-Discard 2: Phalanx Suppression
-Threat level: 4
+Life: 14
+Discard 1: Unstoppable Strike
+Discard 2: Phalanx Drive
+Threat level: 3
 
 
-CA.....
+AC.....
 
-Unbeatable strategy for Cesar: Unstoppable Dash: -0.84
-Unbeatable strategy for Cesar: Fueled Dash: -0.67
-Unbeatable strategy for Cesar: Bulwark Grasp: -0.03
-Unbeatable strategy for Cesar: Bulwark Dash: -1.27
+Unbeatable strategy for Cesar: Fueled Suppression: -4.47
+Unbeatable strategy for Cesar: Fueled Shot: -0.56
+Unbeatable strategy for Cesar: Fueled Burst: -0.61
+Unbeatable strategy for Cesar: Fueled Grasp: -0.48
+Unbeatable strategy for Cesar: Fueled Dash: -0.09
+Unbeatable strategy for Cesar: Bulwark Suppression: -4.55
+Unbeatable strategy for Cesar: Bulwark Shot: -0.11
+Unbeatable strategy for Cesar: Bulwark Burst: -0.11
+Unbeatable strategy for Cesar: Inevitable Suppression: -5.55
+Unbeatable strategy for Cesar: Inevitable Shot: -0.64
+Unbeatable strategy for Cesar: Inevitable Burst: -0.11
 
 
 Adjenna:
-10% Alluring Strike
-90% Alluring Burst
+79% Alluring Strike
+21% Alluring Shot
 
 Cesar:
-40% Bulwark Shot
-60% Bulwark Dash
+82% Bulwark Suppression
+18% Inevitable Shot
 
 
-Adjenna: Alluring Burst
-Cesar: Bulwark Dash
+Adjenna: Alluring Strike
+Cesar: Bulwark Suppression
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  0 | 7
-Cesar is active
-Adjenna moves:
-
-C..A...
-
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  2 | 0
+Adjenna is active
+Adjenna hits
+Adjenna gets +1 power
+Cesar has 2 soak
+Cesar takes 2 damage (now at 12 life)
 Cesar moves:
 
-..CA...
+A...C..
 
-Cesar moves:
-
-...A..C
-
-Adjenna misses
 
 Beat 9
 -------
 
 Adjenna
 -------
-Life: 15
-Discard 1: Alluring Burst
-Discard 2: Arresting Drive
+Life: 10
+Discard 1: Alluring Strike
+Discard 2: Pacifying Drive
 Special action available
-2 Petrification markers on Cesar
+1 Petrification markers on Cesar
 
 Cesar
 -----
-Life: 16
-Discard 1: Bulwark Dash
-Discard 2: Inevitable Burst
-Threat level: 0
+Life: 12
+Discard 1: Bulwark Suppression
+Discard 2: Unstoppable Strike
+Threat level: 4
 
 
-...A..C
+A...C..
 
 
 Adjenna:
-13% Pacifying Strike
-51% Pacifying Dash
-20% Irresistible Gaze
-16% Beckoning Shot
+45% Arresting Gaze
+6% Arresting Shot
+50% Arresting Dash
 
 Cesar:
-83% Phalanx Suppression
-9% Fueled Suppression
-4% Fueled Shot
-4% Fueled Grasp
+22% Phalanx Burst
+62% Fueled Dash
+16% Inevitable Shot
 
 
-Adjenna: Pacifying Dash
-Cesar: Phalanx Suppression
+Adjenna: Arresting Dash
+Cesar: Fueled Dash
 
+Cesar gains a Threat Level (current level: 0)
+Priorities:  8 | 8
+Clash!
+
+
+Adjenna: Arresting Burst
+Cesar: Fueled Drive
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  0 | 3
+Cesar is active
 Cesar gains a Threat Level (current level: 1)
-Priorities:  9 | 0
-Adjenna is active
-Adjenna moves:
+Cesar moves:
 
-.A....C
+A.C....
 
-Adjenna moves:
+Cesar moves:
 
-...A..C
+AC.....
 
-Cesar misses
+Cesar hits
+Adjenna has 1 soak
+Adjenna takes 3 damage (now at 7 life)
+Adjenna is stunned
 
 Beat 10
 -------
 
 Adjenna
 -------
-Life: 15
-Discard 1: Pacifying Dash
-Discard 2: Alluring Burst
+Life: 7
+Discard 1: Arresting Burst
+Discard 2: Alluring Strike
 Special action available
-2 Petrification markers on Cesar
+1 Petrification markers on Cesar
 
 Cesar
 -----
-Life: 16
-Discard 1: Phalanx Suppression
-Discard 2: Bulwark Dash
+Life: 12
+Discard 1: Fueled Drive
+Discard 2: Bulwark Suppression
 Threat level: 1
 
 
-...A..C
-
-Unbeatable strategy for Cesar: Inevitable Drive: -3.20
+AC.....
 
 
 Adjenna:
-81% Irresistible Gaze
-5% Irresistible Shot
-14% Irresistible Drive
+21% Pacifying Drive
+34% Pacifying Dash
+45% Beckoning Dash
 
 Cesar:
-42% Unstoppable Strike
-32% Unstoppable Shot
-25% Fueled Grasp
+46% Unstoppable Strike
+7% Inevitable Grasp
+47% Inevitable Dash
 
 
-Adjenna: Irresistible Gaze
-Cesar: Fueled Grasp
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  4 | 4
-Clash!
-
-
-Adjenna: Irresistible Drive
-Cesar: Fueled Shot
+Adjenna: Beckoning Dash
+Cesar: Unstoppable Strike
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  4 | 1
+Priorities:  8 | 1
 Adjenna is active
-Cesar gains a Threat Level (current level: 3)
 Adjenna moves:
 
-....A.C
+.C..A..
 
-Adjenna misses
 Cesar moves:
 
-...CA..
+..C.A..
 
-Cesar hits
-Adjenna takes 6 damage (now at 9 life)
-Adjenna is stunned
+Cesar misses
 
 Beat 11
 -------
 
 Adjenna
 -------
-Life: 9
-Discard 1: Irresistible Drive
-Discard 2: Pacifying Dash
+Life: 7
+Discard 1: Beckoning Dash
+Discard 2: Arresting Burst
 Special action available
-2 Petrification markers on Cesar
+1 Petrification markers on Cesar
 
 Cesar
 -----
-Life: 16
-Discard 1: Fueled Shot
-Discard 2: Phalanx Suppression
-Threat level: 3
+Life: 12
+Discard 1: Unstoppable Strike
+Discard 2: Fueled Drive
+Threat level: 2
 
 
-...CA..
+..C.A..
 
 
 Adjenna:
-85% Arresting Strike
-15% Arresting Grasp
+77% Pacifying Drive
+23% Special Basilisk Gaze
 
 Cesar:
-49% Unstoppable Drive
-51% Unstoppable Burst
+64% Bulwark Burst
+36% Inevitable Shot
 
 
-Adjenna: Arresting Strike
-Cesar: Unstoppable Drive
+Adjenna: Pacifying Drive
+Cesar: Bulwark Burst
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  2 | 2
-Clash!
-
-
-Adjenna: Arresting Grasp
-Cesar: Unstoppable Burst
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
+Cesar gains a Threat Level (current level: 3)
 Priorities:  4 | -1
 Adjenna is active
 Cesar moves:
 
-..C.A..
+C...A..
 
+Cesar loses 1 life (now at 11)
 Adjenna moves:
 
-.AC....
+C.A....
 
-Cesar moves:
+Adjenna misses
+Adjenna moves:
 
 CA.....
 
-Adjenna hits
-Cesar has 2 soak
-Cesar takes 0 damage (now at 16 life)
-Cesar receives a Petrification Marker
+Cesar misses
+Cesar moves:
+
+.A..C..
+
+Cesar loses 1 life (now at 10)
 
 Beat 12
 -------
 
 Adjenna
 -------
-Life: 9
-Discard 1: Arresting Grasp
-Discard 2: Irresistible Drive
+Life: 7
+Discard 1: Pacifying Drive
+Discard 2: Beckoning Dash
 Special action available
-3 Petrification markers on Cesar
+1 Petrification markers on Cesar
 
 Cesar
 -----
-Life: 16
-Discard 1: Unstoppable Burst
-Discard 2: Fueled Shot
-Threat level: 4
+Life: 10
+Discard 1: Bulwark Burst
+Discard 2: Unstoppable Strike
+Threat level: 3
 
 
-CA.....
+.A..C..
 
-Unbeatable strategy for Cesar: Phalanx Suppression: -1.06
-Unbeatable strategy for Cesar: Bulwark Suppression: -1.24
-Unbeatable strategy for Cesar: Bulwark Strike: -1.19
-Unbeatable strategy for Cesar: Bulwark Drive: -1.12
-Unbeatable strategy for Cesar: Inevitable Suppression: -0.94
+Unbeatable strategy for Cesar: Phalanx Suppression: -2.89
+Unbeatable strategy for Cesar: Phalanx Drive: -0.49
+Unbeatable strategy for Cesar: Fueled Suppression: -3.27
+Unbeatable strategy for Cesar: Inevitable Suppression: -4.02
+Unbeatable strategy for Cesar: Inevitable Shot: -0.31
 
 
 Adjenna:
-0% Alluring Gaze
-12% Alluring Strike
-85% Alluring Burst
-2% Alluring Dash
+49% Arresting Strike
+32% Arresting Shot
+19% Arresting Burst
 
 Cesar:
-9% Phalanx Strike
-14% Bulwark Suppression
-57% Bulwark Strike
-20% Bulwark Drive
+66% Phalanx Suppression
+27% Fueled Suppression
+7% Inevitable Suppression
 
 
-Adjenna: Alluring Burst
-Cesar: Bulwark Strike
+Adjenna: Arresting Strike
+Cesar: Fueled Suppression
 
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  2 | 1
+Adjenna is active
 Cesar gains a Threat Level (current level: 0)
-Priorities:  0 | 1
-Cesar is active
 Adjenna moves:
 
-C.A....
+...AC..
 
-Cesar misses
 Adjenna hits
-Adjenna gets +3 power
-Cesar takes 5 damage (now at 11 life)
+Cesar has 2 soak
+Cesar takes 1 damage (now at 9 life)
+Cesar is stunned
+Cesar moves:
+
+C..A...
+
 
 Beat 13
 -------
 
 Adjenna
 -------
-Life: 9
-Discard 1: Alluring Burst
-Discard 2: Arresting Grasp
+Life: 7
+Discard 1: Arresting Strike
+Discard 2: Pacifying Drive
 Special action available
-3 Petrification markers on Cesar
+1 Petrification markers on Cesar
 
 Cesar
 -----
-Life: 11
-Discard 1: Bulwark Strike
-Discard 2: Unstoppable Burst
+Life: 9
+Discard 1: Fueled Suppression
+Discard 2: Bulwark Burst
 Threat level: 0
 
 
-C.A....
+C..A...
 
 
 Adjenna:
-48% Pacifying Drive
-52% Irresistible Gaze
+6% Alluring Shot
+34% Alluring Dash
+60% Irresistible Gaze
 
 Cesar:
-37% Inevitable Shot
-63% Inevitable Drive
+50% Unstoppable Shot
+29% Unstoppable Dash
+20% Inevitable Drive
 
 
-Adjenna: Pacifying Drive
-Cesar: Inevitable Shot
+Adjenna: Irresistible Gaze
+Cesar: Unstoppable Dash
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  4 | 2
-Adjenna is active
-Adjenna moves:
+Priorities:  4 | 7
+Cesar is active
+Cesar moves:
 
-CA.....
+.C.A...
 
 Adjenna hits
-Cesar takes 2 damage (now at 9 life)
-Adjenna moves:
-
-C.A....
-
-Cesar hits
-Adjenna is stunned
-Adjenna will have -3 priority next beat
-Adjenna takes 4 damage (now at 5 life)
-Adjenna is stunned
+Cesar takes 1 damage (now at 8 life)
+Cesar is stunned
 
 Beat 14
 -------
 
 Adjenna
 -------
-Life: 5
-Discard 1: Pacifying Drive
-Discard 2: Alluring Burst
+Life: 7
+Discard 1: Irresistible Gaze
+Discard 2: Arresting Strike
 Special action available
-3 Petrification markers on Cesar
+1 Petrification markers on Cesar
 
 Cesar
 -----
-Life: 9
-Discard 1: Inevitable Shot
-Discard 2: Bulwark Strike
-Opponent has power penalty: -3
+Life: 8
+Discard 1: Unstoppable Dash
+Discard 2: Fueled Suppression
 Threat level: 1
 
 
-C.A....
+.C.A...
+
+Unbeatable strategy for Adjenna: Pacifying Dash: 0.61
 
 
 Adjenna:
-11% Arresting Strike
-34% Arresting Shot
-27% Arresting Dash
-12% Irresistible Shot
-13% Beckoning Gaze
-0% Beckoning Shot
-2% Special Basilisk Gaze
+100% Special Basilisk Gaze
 
 Cesar:
-4% Phalanx Drive
-64% Unstoppable Suppression
-1% Unstoppable Drive
-6% Unstoppable Burst
-7% Unstoppable Grasp
-6% Fueled Suppression
-12% Fueled Drive
+7% Phalanx Strike
+6% Phalanx Shot
+5% Phalanx Drive
+9% Phalanx Burst
+7% Phalanx Grasp
+5% Bulwark Strike
+5% Bulwark Shot
+7% Bulwark Drive
+7% Bulwark Burst
+8% Bulwark Grasp
+8% Inevitable Strike
+5% Inevitable Shot
+8% Inevitable Drive
+11% Inevitable Burst
+4% Inevitable Grasp
 
 
-Adjenna: Beckoning Gaze
-Cesar: Unstoppable Suppression
+Adjenna: Special Basilisk Gaze
+Cesar: Phalanx Burst
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  3 | 0
-Adjenna is active
-Adjenna misses
-Cesar misses
-Cesar moves:
-
-..A.C..
-
-
-Beat 15
--------
-
-Adjenna
--------
-Life: 5
-Discard 1: Beckoning Gaze
-Discard 2: Pacifying Drive
-Special action available
-3 Petrification markers on Cesar
-
-Cesar
------
-Life: 9
-Discard 1: Unstoppable Suppression
-Discard 2: Inevitable Shot
-Threat level: 2
-
-
-..A.C..
-
-Unbeatable strategy for Cesar: Phalanx Burst: -10.00
-Unbeatable strategy for Cesar: Phalanx Dash: -10.00
-Unbeatable strategy for Cesar: Fueled Strike: -10.00
-Unbeatable strategy for Cesar: Fueled Drive: -10.00
-Unbeatable strategy for Cesar: Fueled Burst: -10.00
-Unbeatable strategy for Cesar: Fueled Grasp: -10.00
-Unbeatable strategy for Cesar: Fueled Dash: -10.00
-Unbeatable strategy for Cesar: Bulwark Strike: -10.00
-Unbeatable strategy for Cesar: Bulwark Burst: -10.00
-Unbeatable strategy for Cesar: Bulwark Dash: -10.00
-
-
-Adjenna:
-0% Alluring Shot
-100% Special Pulse
-0% Special Basilisk Gaze
-
-Cesar:
-29% Phalanx Drive
-71% Phalanx Burst
-
-
-Adjenna: Special Pulse
-Cesar: Phalanx Drive
-
-Cesar gains a Threat Level (current level: 3)
-Adjenna Pulses:
-
-.CA....
-
-
-Beat 15
--------
-
-Adjenna
--------
-Life: 5
-Discard 1: Beckoning Gaze
-Discard 2: Pacifying Drive
-3 Petrification markers on Cesar
-
-Cesar
------
-Life: 9
-Discard 1: Phalanx Drive
-Discard 2: Unstoppable Suppression
-Threat level: 3
-
-
-.CA....
-
-Unbeatable strategy for Cesar: Bulwark Burst: -10.00
-Unbeatable strategy for Cesar: Inevitable Shot: -10.00
-Unbeatable strategy for Cesar: Inevitable Burst: -10.00
-
-
-Adjenna:
-1% Alluring Strike
-1% Alluring Shot
-0% Alluring Burst
-0% Alluring Grasp
-1% Alluring Dash
-10% Arresting Strike
-10% Arresting Shot
-10% Arresting Burst
-10% Arresting Grasp
-10% Arresting Dash
-1% Irresistible Strike
-14% Irresistible Shot
-14% Irresistible Burst
-10% Irresistible Grasp
-10% Irresistible Dash
-
-Cesar:
-100% Bulwark Burst
-
-
-Adjenna: Irresistible Grasp
-Cesar: Bulwark Burst
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  5 | -1
+Cesar gets -1 priority
+Priorities:  3 | -2
 Adjenna is active
 Cesar moves:
 
-C.A....
+C..A...
 
-Adjenna misses
-Game goes to time
-CESAR WINS!
-total_time: 14
+Adjenna hits
+ADJENNA WINS!
+total_time: 13

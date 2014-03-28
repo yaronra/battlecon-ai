@@ -46,30 +46,28 @@ Cesar:
 4% Inevitable Dash
 
 
-Arec: Mirrored Drive
-Cesar: Phalanx Shot
+Arec: Mirrored Burst (Hesitation)
+Cesar: Bulwark Suppression
 
+Arec antes a Hesitation token
 Cesar gains a Threat Level (current level: 1)
-Priorities:  4 | 0
+Priorities:  1 | 0
 Arec is active
 Arec moves:
 
-...A.C.
+A....C.
 
 
-Arec hits
-Cesar takes 4 damage (now at 16 life)
-Cesar moves:
-
-..CA...
-
-
-Cesar hits
-Arec takes 4 damage (now at 16 life)
-Arec is stunned
+Arec misses
+Cesar misses
 Arec places clone:
 
-..CA...
+A....C.
+......c
+
+Cesar moves:
+
+A..C...
 ......c
 
 
@@ -78,495 +76,540 @@ Beat 2
 
 Arec
 ----
-Life: 16
-Discard 1: Mirrored Drive
+Life: 20
+Discard 1: Mirrored Burst
 Discard 2: Phantom Strike
 Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
+pool: Fear, Mercy, Recklessness
 
 Cesar
 -----
-Life: 16
-Discard 1: Phalanx Shot
+Life: 20
+Discard 1: Bulwark Suppression
 Discard 2: Fueled Strike
 Special action available
 Threat level: 1
 
 
-..CA...
+A..C...
 ......c
+
+Unbeatable strategy for Arec: Returning Hex (Recklessness): 0.51
+Unbeatable strategy for Arec: Returning Hex (Recklessness; move to clone): 0.51
 
 
 Arec:
-17% Perceptional Shot (move to clone)
-18% Perceptional Burst (move to clone)
-22% Returning Burst (Fear; move to clone)
-1% Manipulative Hex (Recklessness)
-32% Manipulative Shot (Recklessness)
-11% Manipulative Burst (Hesitation)
+22% Returning Hex (Recklessness)
+22% Returning Hex (Recklessness; move to clone)
+18% Returning Shot (Recklessness)
+18% Returning Shot (Recklessness; move to clone)
+6% Manipulative Drive (Fear)
+4% Manipulative Drive (Recklessness)
+6% Manipulative Drive (Fear; move to clone)
+4% Manipulative Drive (Recklessness; move to clone)
 
 Cesar:
-17% Unstoppable Suppression
-11% Unstoppable Drive
-1% Unstoppable Dash
-54% Bulwark Suppression
-4% Inevitable Suppression
-12% Inevitable Drive
+15% Phalanx Drive
+14% Phalanx Burst
+53% Unstoppable Shot
+18% Inevitable Drive
 
 
-Arec: Returning Burst (Fear; move to clone)
-Cesar: Inevitable Suppression
-
-Arec moves:
-
-..C...A
-
+Arec: Manipulative Drive (Fear)
+Cesar: Unstoppable Shot
 
 Arec antes a Fear token
 Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 2
+Priorities:  4 | 0
 Arec is active
-Arec misses
-Cesar misses
+Arec moves:
+
+.A.C...
+
+
+Cesar moves:
+
+.AC....
+
+
+Arec hits
+Cesar takes 4 damage (now at 16 life)
+Cesar hits
+Arec takes 5 damage (now at 15 life)
+Arec is stunned
 
 Beat 3
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Returning Burst
-Discard 2: Mirrored Drive
+Life: 15
+Discard 1: Manipulative Drive
+Discard 2: Mirrored Burst
 Special action available
-pool: Hesitation, Mercy, Recklessness
+pool: Mercy, Recklessness
 
 Cesar
 -----
 Life: 16
-Discard 1: Inevitable Suppression
-Discard 2: Phalanx Shot
+Discard 1: Unstoppable Shot
+Discard 2: Bulwark Suppression
 Special action available
 Threat level: 2
 
 
-..C...A
+.AC....
 
 
 
 Arec:
-35% Phantom Hex
-27% Manipulative Hex
-38% Manipulative Shot
+35% Phantom Dash
+1% Perceptional Hex
+53% Returning Hex (Recklessness)
+11% Returning Grasp
 
 Cesar:
-43% Fueled Drive
-39% Fueled Burst
-18% Fueled Grasp
+14% Phalanx Drive
+46% Fueled Strike
+13% Fueled Grasp
+27% Inevitable Grasp
 
 
-Arec: Manipulative Shot
-Cesar: Fueled Burst
+Arec: Phantom Dash
+Cesar: Inevitable Grasp
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  2 | 0
+Priorities:  10 | 5
 Arec is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Cesar moves:
+Arec moves:
 
-C.....A
+..C..A.
 
 
-Arec misses
+Cesar misses
+Arec recovers a Hesitation token
 
 Beat 4
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Manipulative Shot
-Discard 2: Returning Burst
+Life: 15
+Discard 1: Phantom Dash
+Discard 2: Manipulative Drive
 Special action available
-pool: Hesitation, Mercy, Recklessness
+pool: Mercy, Recklessness, Hesitation
 
 Cesar
 -----
 Life: 16
-Discard 1: Fueled Burst
-Discard 2: Inevitable Suppression
+Discard 1: Inevitable Grasp
+Discard 2: Unstoppable Shot
 Special action available
-Threat level: 4
+Threat level: 3
 
 
-C.....A
+..C..A.
 
 
-Unbeatable strategy for Arec: Phantom Hex (Hesitation): 0.92
-Unbeatable strategy for Arec: Perceptional Hex: 1.85
-Unbeatable strategy for Arec: Perceptional Hex (Hesitation): 1.05
-Unbeatable strategy for Arec: Perceptional Hex (Mercy): 1.25
-Unbeatable strategy for Arec: Perceptional Hex (Recklessness): 1.25
+Unbeatable strategy for Cesar: Phalanx Suppression: -3.26
+Unbeatable strategy for Cesar: Fueled Suppression: -3.96
+Unbeatable strategy for Cesar: Fueled Strike: -0.15
+Unbeatable strategy for Cesar: Fueled Drive: -0.89
+Unbeatable strategy for Cesar: Fueled Burst: -0.72
+Unbeatable strategy for Cesar: Bulwark Suppression: -3.59
+Unbeatable strategy for Cesar: Bulwark Strike: -0.18
+Unbeatable strategy for Cesar: Bulwark Drive: -0.02
+Unbeatable strategy for Cesar: Bulwark Burst: -0.76
 
 
 Arec:
-93% Perceptional Hex
-7% Mirrored Drive
+2% Mirrored Shot
+98% Mirrored Burst
 
 Cesar:
-61% Unstoppable Grasp
-39% Bulwark Drive
+98% Bulwark Suppression
+2% Bulwark Strike
 
 
-Arec: Perceptional Hex
-Cesar: Unstoppable Grasp
+Arec: Mirrored Burst
+Cesar: Bulwark Suppression
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  4 | 3
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  1 | 0
 Arec is active
-Arec hits
-Cesar takes 3 damage (now at 13 life)
-Cesar misses
+Arec moves:
+
+..C...A
+
+
+Arec misses
+Arec places clone:
+
+..C...A
+.c.....
+
 
 Beat 5
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Perceptional Hex
-Discard 2: Manipulative Shot
+Life: 15
+Discard 1: Mirrored Burst
+Discard 2: Phantom Dash
 Special action available
-pool: Hesitation, Mercy, Recklessness
+pool: Mercy, Recklessness, Hesitation
 
 Cesar
 -----
-Life: 13
-Discard 1: Unstoppable Grasp
-Discard 2: Fueled Burst
+Life: 16
+Discard 1: Bulwark Suppression
+Discard 2: Inevitable Grasp
 Special action available
-Threat level: 0
+Threat level: 4
 
+
+..C...A
+.c.....
+
+Unbeatable strategy for Arec: Perceptional Hex: 0.02
+
+
+Arec:
+33% Perceptional Shot
+21% Returning Shot (move to clone)
+7% Manipulative Hex
+26% Manipulative Hex (Hesitation)
+14% Manipulative Shot (Hesitation)
+
+Cesar:
+12% Phalanx Shot
+13% Unstoppable Strike
+12% Unstoppable Shot
+46% Unstoppable Burst
+16% Fueled Drive
+
+
+Arec: Perceptional Shot
+Cesar: Unstoppable Burst
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  3 | -1
+Arec is active
+Cesar moves:
 
 C.....A
 
 
-
-Arec:
-65% Mirrored Strike
-35% Mirrored Drive
-
-Cesar:
-8% Phalanx Shot
-92% Bulwark Suppression
-
-
-Arec: Mirrored Drive
-Cesar: Phalanx Shot
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  4 | 0
-Arec is active
-Arec moves:
-
-C...A..
-
-
-Arec misses
-Cesar hits
-Arec takes 4 damage (now at 12 life)
-Arec is stunned
-Arec places clone:
-
-C...A..
-......c
-
+Arec hits
+Cesar takes 3 damage (now at 13 life)
+Cesar is stunned
 
 Beat 6
 -------
 
 Arec
 ----
-Life: 12
-Discard 1: Mirrored Drive
-Discard 2: Perceptional Hex
+Life: 15
+Discard 1: Perceptional Shot
+Discard 2: Mirrored Burst
 Special action available
-pool: Hesitation, Mercy, Recklessness
+pool: Mercy, Recklessness, Hesitation
 
 Cesar
 -----
 Life: 13
-Discard 1: Phalanx Shot
-Discard 2: Unstoppable Grasp
+Discard 1: Unstoppable Burst
+Discard 2: Bulwark Suppression
 Special action available
-Threat level: 1
+Threat level: 0
 
-
-C...A..
-......c
-
-Unbeatable strategy for Arec: Phantom Grasp (Hesitation; move to clone): 0.44
-Unbeatable strategy for Arec: Returning Strike (Hesitation; move to clone): 0.11
-Unbeatable strategy for Arec: Returning Shot: 0.01
-Unbeatable strategy for Arec: Returning Shot (Hesitation; move to clone): 0.09
-Unbeatable strategy for Arec: Returning Burst (Hesitation): 0.39
-Unbeatable strategy for Arec: Returning Burst (Hesitation; move to clone): 0.39
-Unbeatable strategy for Arec: Returning Grasp (Hesitation; move to clone): 0.06
-Unbeatable strategy for Arec: Manipulative Grasp (Hesitation; move to clone): 0.00
-
-
-Arec:
-6% Phantom Shot (Hesitation; move to clone)
-94% Phantom Burst (Hesitation; move to clone)
-
-Cesar:
-93% Bulwark Suppression
-7% Bulwark Drive
-
-
-Arec: Phantom Burst (Hesitation; move to clone)
-Cesar: Bulwark Suppression
-
-Arec moves:
 
 C.....A
 
 
-Arec antes a Hesitation token
-Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 0
-Arec is active
-Arec misses
+Unbeatable strategy for Arec: Phantom Grasp (Hesitation): 1.12
+Unbeatable strategy for Arec: Phantom Dash (Hesitation): 0.37
+Unbeatable strategy for Arec: Returning Hex (Recklessness): 0.29
+Unbeatable strategy for Arec: Returning Hex (Hesitation): 4.20
+Unbeatable strategy for Arec: Returning Strike (Hesitation): 0.84
+Unbeatable strategy for Arec: Returning Drive (Hesitation): 0.46
+Unbeatable strategy for Arec: Returning Grasp (Hesitation): 1.14
+Unbeatable strategy for Arec: Returning Dash (Hesitation): 0.26
+
+
+Arec:
+17% Returning Hex
+74% Returning Hex (Hesitation)
+6% Manipulative Hex
+3% Manipulative Strike
+
+Cesar:
+8% Phalanx Drive
+43% Inevitable Strike
+44% Inevitable Grasp
+5% Special Pulse
+
+
+Arec: Returning Hex
+Cesar: Inevitable Grasp
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  4 | 5
+Cesar is active
 Cesar misses
+Arec hits
+Arec moves Cesar:
+
+.C....A
+
+
 Arec recovers a Fear token
-Cesar moves:
-
-...C..A
-
-
+Cesar takes 3 damage (now at 10 life)
 
 Beat 7
 -------
 
 Arec
 ----
-Life: 12
-Discard 1: Phantom Burst
-Discard 2: Mirrored Drive
+Life: 15
+Discard 1: Returning Hex
+Discard 2: Perceptional Shot
 Special action available
-pool: Mercy, Recklessness, Fear
+pool: Mercy, Recklessness, Hesitation, Fear
 
 Cesar
 -----
-Life: 13
-Discard 1: Bulwark Suppression
-Discard 2: Phalanx Shot
+Life: 10
+Discard 1: Inevitable Grasp
+Discard 2: Unstoppable Burst
 Special action available
-Threat level: 2
+Threat level: 1
 
 
-...C..A
+.C....A
 
+
+Unbeatable strategy for Arec: Mirrored Drive: 0.52
+Unbeatable strategy for Arec: Mirrored Drive (Mercy): 0.42
+Unbeatable strategy for Arec: Mirrored Drive (Recklessness): 0.87
 
 
 Arec:
-11% Perceptional Hex
-49% Perceptional Strike
-2% Returning Hex (Fear)
-38% Manipulative Shot
+61% Mirrored Drive
+10% Mirrored Drive (Recklessness)
+23% Mirrored Burst
+5% Mirrored Burst (Recklessness)
 
 Cesar:
-10% Fueled Strike
-57% Fueled Drive
-24% Fueled Grasp
-10% Inevitable Drive
+33% Phalanx Suppression
+15% Phalanx Shot
+52% Bulwark Suppression
 
 
-Arec: Manipulative Shot
-Cesar: Fueled Drive
+Arec: Mirrored Drive (Recklessness)
+Cesar: Bulwark Suppression
 
-Cesar gains a Threat Level (current level: 3)
-Priorities:  2 | 3
-Cesar is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Arec hits
-Arec chooses Cesar's base: Grasp
-Cesar has 2 soak
-Cesar takes 2 damage (now at 11 life)
-Arec recovers a Hesitation token
-Cesar is stunned
+Arec antes a Recklessness token
+Cesar gains a Threat Level (current level: 2)
+Priorities:  4 | 0
+Arec is active
+Arec moves:
+
+.C..A..
+
+
+Arec misses
+Cesar misses
+Cesar moves:
+
+C...A..
+
+
+Arec places clone:
+
+C...A..
+.c.....
+
+Cesar moves:
+
+..C.A..
+.c.....
+
 
 Beat 8
 -------
 
 Arec
 ----
-Life: 12
-Discard 1: Manipulative Shot
-Discard 2: Phantom Burst
+Life: 15
+Discard 1: Mirrored Drive
+Discard 2: Returning Hex
 Special action available
-pool: Mercy, Recklessness, Fear, Hesitation
-Manipulative forced base: Grasp
+pool: Mercy, Hesitation, Fear
 
 Cesar
 -----
-Life: 11
-Discard 1: Fueled Drive
-Discard 2: Bulwark Suppression
+Life: 10
+Discard 1: Bulwark Suppression
+Discard 2: Inevitable Grasp
 Special action available
-Threat level: 4
+Threat level: 2
 
 
-...C..A
+..C.A..
+.c.....
 
-
-Unbeatable strategy for Arec: Perceptional Hex: 0.76
-Unbeatable strategy for Arec: Perceptional Hex (Mercy): 0.50
-Unbeatable strategy for Arec: Perceptional Hex (Recklessness): 0.16
-Unbeatable strategy for Arec: Perceptional Strike: 1.83
-Unbeatable strategy for Arec: Perceptional Strike (Mercy): 1.83
-Unbeatable strategy for Arec: Perceptional Strike (Recklessness): 1.23
-Unbeatable strategy for Arec: Perceptional Strike (Hesitation): 1.03
-Unbeatable strategy for Arec: Returning Hex (Hesitation): 0.22
+Unbeatable strategy for Arec: Phantom Dash (Fear): 0.61
+Unbeatable strategy for Arec: Phantom Dash (Fear; move to clone): 0.58
+Unbeatable strategy for Arec: Perceptional Dash: 0.92
+Unbeatable strategy for Arec: Perceptional Dash (Mercy): 0.52
+Unbeatable strategy for Arec: Perceptional Dash (Fear): 0.92
+Unbeatable strategy for Arec: Perceptional Dash (move to clone): 1.02
+Unbeatable strategy for Arec: Perceptional Dash (Mercy; move to clone): 0.62
+Unbeatable strategy for Arec: Perceptional Dash (Fear; move to clone): 0.86
+Unbeatable strategy for Arec: Manipulative Dash (Fear): 0.45
+Unbeatable strategy for Arec: Manipulative Dash (Fear; move to clone): 0.45
 
 
 Arec:
-45% Perceptional Strike
-8% Mirrored Hex
-4% Mirrored Hex (Hesitation)
-43% Mirrored Strike (Mercy)
+10% Perceptional Strike (Hesitation)
+68% Perceptional Dash
+22% Perceptional Dash (move to clone)
 
 Cesar:
-12% Phalanx Burst
-0% Phalanx Grasp
-68% Unstoppable Grasp
-19% Inevitable Shot
+34% Phalanx Shot
+30% Unstoppable Shot
+36% Fueled Drive
 
 
-Arec: Mirrored Strike (Mercy)
-Cesar: Unstoppable Grasp
+Arec: Perceptional Dash (move to clone)
+Cesar: Fueled Drive
 
-Arec antes a Mercy token
-Cesar gains a Threat Level (current level: 0)
-Priorities:  3 | 3
-Clash!
+Arec moves:
+
+.AC....
 
 
-Arec: Mirrored Grasp (Mercy)
-Cesar: Unstoppable Burst
-
-Arec antes a Mercy token
-Cesar gains a Threat Level (current level: 0)
-Cesar loses 2 life (now at 9)
-Priorities:  5 | -1
+Cesar gains a Threat Level (current level: 3)
+Priorities:  10 | 3
 Arec is active
+Arec antes a Fear token
+Arec moves:
+
+..CA...
+
+
 Cesar moves:
 
-..C...A
+...AC..
 
 
-Arec misses
+Cesar moves:
+
+..CA...
+
+
 Cesar misses
-Arec places clone:
-
-..C...A
-c......
-
 
 Beat 9
 -------
 
 Arec
 ----
-Life: 12
-Discard 1: Mirrored Grasp
-Discard 2: Manipulative Shot
+Life: 15
+Discard 1: Perceptional Dash
+Discard 2: Mirrored Drive
 Special action available
-pool: Recklessness, Fear, Hesitation
+pool: Mercy, Hesitation
 
 Cesar
 -----
-Life: 9
-Discard 1: Unstoppable Burst
-Discard 2: Fueled Drive
+Life: 10
+Discard 1: Fueled Drive
+Discard 2: Bulwark Suppression
 Special action available
-Threat level: 0
+Threat level: 3
 
 
-..C...A
-c......
+..CA...
 
-Unbeatable strategy for Cesar: Bulwark Shot: -1.24
+
+Unbeatable strategy for Cesar: Unstoppable Strike: -1.87
+Unbeatable strategy for Cesar: Unstoppable Shot: -2.08
+Unbeatable strategy for Cesar: Unstoppable Burst: -0.05
+Unbeatable strategy for Cesar: Unstoppable Grasp: -1.82
+Unbeatable strategy for Cesar: Unstoppable Dash: -1.41
+Unbeatable strategy for Cesar: Inevitable Strike: -0.01
 
 
 Arec:
-12% Perceptional Strike (Hesitation; move to clone)
-88% Perceptional Burst (Recklessness)
+100% Phantom Hex
 
 Cesar:
-16% Bulwark Suppression
-84% Bulwark Shot
+100% Unstoppable Shot
 
 
-Arec: Perceptional Burst (Recklessness)
-Cesar: Bulwark Shot
+Arec: Phantom Hex
+Cesar: Unstoppable Shot
 
-Arec antes a Recklessness token
-Cesar gains a Threat Level (current level: 1)
-Priorities:  2 | 0
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  4 | 0
 Arec is active
-Arec antes a Hesitation token
 Arec hits
-Cesar takes 3 damage (now at 6 life)
-Cesar hits
-Arec takes 3 damage (now at 9 life)
-Arec is stunned
+Cesar takes 2 damage (now at 8 life)
+Arec recovers a Recklessness token
 
 Beat 10
 -------
 
 Arec
 ----
-Life: 9
-Discard 1: Perceptional Burst
-Discard 2: Mirrored Grasp
+Life: 15
+Discard 1: Phantom Hex
+Discard 2: Perceptional Dash
 Special action available
-pool: Fear
+pool: Mercy, Hesitation, Recklessness
 
 Cesar
 -----
-Life: 6
-Discard 1: Bulwark Shot
-Discard 2: Unstoppable Burst
+Life: 8
+Discard 1: Unstoppable Shot
+Discard 2: Fueled Drive
 Special action available
-Threat level: 1
+Threat level: 4
 
 
-..C...A
+..CA...
 
+
+Unbeatable strategy for Arec: Returning Burst (Hesitation): 1.14
 
 
 Arec:
-7% Phantom Hex
-34% Returning Drive
-13% Manipulative Hex (Fear)
-23% Manipulative Strike (Fear)
-23% Manipulative Shot (Fear)
+49% Returning Burst (Hesitation)
+5% Manipulative Strike
+10% Manipulative Shot
+5% Manipulative Drive
+31% Manipulative Burst (Hesitation)
 
 Cesar:
-59% Phalanx Suppression
-15% Phalanx Strike
-22% Phalanx Drive
-3% Fueled Strike
-2% Fueled Drive
+29% Phalanx Suppression
+7% Phalanx Burst
+45% Bulwark Strike
+6% Bulwark Burst
+12% Inevitable Suppression
 
 
-Arec: Returning Drive
-Cesar: Phalanx Drive
+Arec: Returning Burst (Hesitation)
+Cesar: Bulwark Burst
 
-Cesar gains a Threat Level (current level: 2)
-Priorities:  5 | 2
+Arec antes a Hesitation token
+Cesar gains a Threat Level (current level: 0)
+Priorities:  2 | -1
 Arec is active
 Cesar is stunned
 Arec moves:
@@ -574,263 +617,246 @@ Arec moves:
 ..C..A.
 
 
+Cesar moves:
+
+C....A.
+
+
 Arec hits
-Cesar takes 3 damage (now at 3 life)
+Cesar takes 3 damage (now at 5 life)
 
 Beat 11
 -------
 
 Arec
 ----
-Life: 9
-Discard 1: Returning Drive
-Discard 2: Perceptional Burst
+Life: 15
+Discard 1: Returning Burst
+Discard 2: Phantom Hex
 Special action available
-pool: Fear
+pool: Mercy, Recklessness
 
 Cesar
 -----
-Life: 3
-Discard 1: Phalanx Drive
-Discard 2: Bulwark Shot
+Life: 5
+Discard 1: Bulwark Burst
+Discard 2: Unstoppable Shot
 Special action available
-Threat level: 2
+Threat level: 0
 
 
-..C..A.
+C....A.
 
 
 
 Arec:
-24% Mirrored Hex
-76% Mirrored Dash (Fear)
+41% Mirrored Strike
+42% Mirrored Shot
+16% Mirrored Drive
 
 Cesar:
-69% Fueled Suppression
-31% Fueled Burst
+93% Phalanx Suppression
+1% Fueled Drive
+6% Inevitable Suppression
 
 
-Arec: Mirrored Dash (Fear)
-Cesar: Fueled Burst
+Arec: Mirrored Shot
+Cesar: Phalanx Suppression
 
-Arec antes a Fear token
-Cesar gains a Threat Level (current level: 3)
-Priorities:  9 | 0
+Cesar gains a Threat Level (current level: 1)
+Priorities:  2 | 0
 Arec is active
-Arec moves:
+Arec misses
+Cesar misses
+Arec places clone:
 
-..CA...
-
+C....A.
+......c
 
 Cesar moves:
 
-...AC..
+...C.A.
+......c
 
-
-Cesar misses
 
 Beat 12
 -------
 
 Arec
 ----
-Life: 9
-Discard 1: Mirrored Dash
-Discard 2: Returning Drive
+Life: 15
+Discard 1: Mirrored Shot
+Discard 2: Returning Burst
 Special action available
-pool: 
+pool: Mercy, Recklessness
 
 Cesar
 -----
-Life: 3
-Discard 1: Fueled Burst
-Discard 2: Phalanx Drive
+Life: 5
+Discard 1: Phalanx Suppression
+Discard 2: Bulwark Burst
 Special action available
-Threat level: 3
+Threat level: 1
 
 
-...AC..
-
-
-Unbeatable strategy for Arec: Phantom Strike: 4.58
+...C.A.
+......c
 
 
 Arec:
-55% Phantom Strike
-45% Phantom Burst
+4% Phantom Hex (Recklessness; move to clone)
+48% Phantom Strike (Recklessness; move to clone)
+37% Perceptional Strike (Recklessness; move to clone)
+11% Perceptional Grasp (move to clone)
 
 Cesar:
-61% Unstoppable Shot
-39% Special Level 4 Protocol
+13% Unstoppable Dash
+1% Fueled Strike
+46% Inevitable Shot
+40% Inevitable Drive
 
 
-Arec: Phantom Burst
-Cesar: Unstoppable Shot
+Arec: Phantom Strike (Recklessness; move to clone)
+Cesar: Inevitable Drive
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  2 | 0
-Arec is active
 Arec moves:
 
-.A..C..
+...C..A
 
 
-Cesar moves:
+Arec antes a Recklessness token
+Cesar gains a Threat Level (current level: 2)
+Priorities:  4 | 4
+Clash!
 
-.AC....
+
+Arec: Phantom Hex (Recklessness; move to clone)
+Cesar: Inevitable Shot
+
+Arec moves:
+
+...C..A
 
 
-Arec misses
+Arec antes a Recklessness token
+Cesar gains a Threat Level (current level: 2)
+Priorities:  4 | 2
+Arec is active
+Arec hits
+Arec moves Cesar:
+
+..C...A
+
+
 Arec recovers a Hesitation token
+Cesar takes 2 damage (now at 3 life)
+Cesar hits
+Arec is stunned
+Arec will have -3 priority next beat
+Arec takes 3 damage (now at 12 life)
+Arec is stunned
+Arec recovers a Fear token
 
 Beat 13
 -------
 
 Arec
 ----
-Life: 9
-Discard 1: Phantom Burst
-Discard 2: Mirrored Dash
+Life: 12
+Discard 1: Phantom Hex
+Discard 2: Mirrored Shot
 Special action available
-pool: Hesitation
+pool: Mercy, Hesitation, Fear
 
 Cesar
 -----
 Life: 3
-Discard 1: Unstoppable Shot
-Discard 2: Fueled Burst
+Discard 1: Inevitable Shot
+Discard 2: Phalanx Suppression
 Special action available
-Threat level: 4
+Opponent has power penalty: -3
+Threat level: 2
 
 
-.AC....
+..C...A
 
 
-Unbeatable strategy for Arec: Returning Drive (Hesitation): 0.59
+Unbeatable strategy for Arec: Perceptional Dash (Hesitation): 0.10
 
 
 Arec:
-66% Perceptional Hex
-34% Perceptional Drive
+13% Perceptional Grasp (Hesitation)
+83% Perceptional Dash (Hesitation)
+3% Manipulative Burst (Fear)
 
 Cesar:
-2% Inevitable Grasp
-98% Special Level 4 Protocol
+17% Fueled Drive
+61% Fueled Grasp
+22% Fueled Dash
 
 
-Arec: Perceptional Drive
-Cesar: Special Level 4 Protocol
+Arec: Perceptional Dash (Hesitation)
+Cesar: Fueled Grasp
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  5 | 11
-Cesar is active
-Cesar hits
-Arec takes 7 damage (now at 2 life)
-Arec is stunned
+Arec antes a Hesitation token
+Cesar gains a Threat Level (current level: 3)
+Priorities:  10 | 4
+Arec is active
+Arec antes a Fear token
+Cesar misses
 
 Beat 14
 -------
 
 Arec
 ----
-Life: 2
-Discard 1: Perceptional Drive
-Discard 2: Phantom Burst
+Life: 12
+Discard 1: Perceptional Dash
+Discard 2: Phantom Hex
 Special action available
-pool: Hesitation
+pool: Mercy
 
 Cesar
 -----
 Life: 3
-Discard 1: Unstoppable Shot
-Discard 2: Fueled Burst
-Threat level: 0
-
-
-.AC....
-
-
-
-Arec:
-11% Returning Strike (Hesitation)
-10% Returning Grasp (Hesitation)
-28% Returning Dash
-37% Mirrored Dash
-9% Manipulative Strike
-1% Manipulative Strike (Hesitation)
-3% Manipulative Grasp (Hesitation)
-
-Cesar:
-20% Phalanx Suppression
-6% Bulwark Suppression
-7% Bulwark Strike
-17% Bulwark Grasp
-3% Inevitable Drive
-26% Inevitable Grasp
-22% Inevitable Dash
-
-
-Arec: Returning Dash
-Cesar: Bulwark Strike
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  10 | 1
-Arec is active
-Arec moves:
-
-..CA...
-
-
-Cesar misses
-
-Beat 15
--------
-
-Arec
-----
-Life: 2
-Discard 1: Returning Dash
-Discard 2: Perceptional Drive
+Discard 1: Fueled Grasp
+Discard 2: Inevitable Shot
 Special action available
-pool: Hesitation
-
-Cesar
------
-Life: 3
-Discard 1: Bulwark Strike
-Discard 2: Unstoppable Shot
-Threat level: 1
+Threat level: 3
 
 
-..CA...
+..C...A
 
+
+Unbeatable strategy for Cesar: Phalanx Suppression: -1.82
+Unbeatable strategy for Cesar: Phalanx Drive: -0.24
+Unbeatable strategy for Cesar: Unstoppable Suppression: -3.38
+Unbeatable strategy for Cesar: Unstoppable Strike: -1.28
+Unbeatable strategy for Cesar: Unstoppable Drive: -1.07
+Unbeatable strategy for Cesar: Unstoppable Burst: -1.16
+Unbeatable strategy for Cesar: Unstoppable Dash: -0.87
+Unbeatable strategy for Cesar: Bulwark Suppression: -1.99
+Unbeatable strategy for Cesar: Bulwark Strike: -0.61
+Unbeatable strategy for Cesar: Bulwark Drive: -1.07
+Unbeatable strategy for Cesar: Bulwark Burst: -1.27
+Unbeatable strategy for Cesar: Bulwark Dash: -0.21
 
 
 Arec:
-20% Phantom Burst (Hesitation)
-40% Mirrored Hex (Hesitation)
-20% Mirrored Burst (Hesitation)
-20% Manipulative Burst (Hesitation)
+53% Mirrored Drive
+47% Manipulative Drive
 
 Cesar:
-10% Phalanx Suppression
-20% Phalanx Burst
-7% Phalanx Grasp
-10% Fueled Drive
-7% Fueled Grasp
-10% Inevitable Suppression
-10% Inevitable Drive
-20% Inevitable Burst
-6% Inevitable Grasp
+13% Phalanx Suppression
+87% Unstoppable Suppression
 
 
-Arec: Phantom Burst (Hesitation)
-Cesar: Phalanx Burst
+Arec: Manipulative Drive
+Cesar: Unstoppable Suppression
 
-Arec antes a Hesitation token
-Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | -1
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  4 | 0
 Arec is active
 Arec moves:
 
@@ -839,12 +865,131 @@ Arec moves:
 
 Cesar moves:
 
-C...A..
+...CA..
 
 
 Arec hits
+Cesar has 2 soak
 Cesar takes 2 damage (now at 1 life)
+Cesar is stunned
+
+Beat 15
+-------
+
+Arec
+----
+Life: 12
+Discard 1: Manipulative Drive
+Discard 2: Perceptional Dash
+Special action available
+pool: Mercy
+
+Cesar
+-----
+Life: 1
+Discard 1: Unstoppable Suppression
+Discard 2: Fueled Grasp
+Special action available
+Threat level: 4
+
+
+...CA..
+
+
+Unbeatable strategy for Arec: Phantom Grasp: 6.00
+Unbeatable strategy for Arec: Phantom Grasp (Mercy): 6.00
+Unbeatable strategy for Arec: Returning Hex: 6.00
+Unbeatable strategy for Arec: Returning Hex (Mercy): 6.00
+Unbeatable strategy for Arec: Returning Strike: 6.00
+Unbeatable strategy for Arec: Returning Strike (Mercy): 6.00
+Unbeatable strategy for Arec: Returning Shot: 6.00
+Unbeatable strategy for Arec: Returning Shot (Mercy): 6.00
+Unbeatable strategy for Arec: Returning Burst: 6.00
+Unbeatable strategy for Arec: Returning Burst (Mercy): 6.00
+Unbeatable strategy for Arec: Returning Grasp: 6.00
+Unbeatable strategy for Arec: Returning Grasp (Mercy): 6.00
+Unbeatable strategy for Arec: Mirrored Grasp: 6.00
+Unbeatable strategy for Arec: Mirrored Grasp (Mercy): 6.00
+
+
+Arec:
+1% Phantom Hex
+0% Phantom Hex (Mercy)
+0% Phantom Strike
+0% Phantom Strike (Mercy)
+1% Phantom Shot
+0% Phantom Shot (Mercy)
+1% Phantom Burst
+0% Phantom Burst (Mercy)
+0% Phantom Grasp
+0% Phantom Grasp (Mercy)
+1% Returning Hex
+0% Returning Hex (Mercy)
+0% Returning Strike
+0% Returning Strike (Mercy)
+1% Returning Shot
+0% Returning Shot (Mercy)
+1% Returning Burst
+0% Returning Burst (Mercy)
+0% Returning Grasp
+0% Returning Grasp (Mercy)
+80% Mirrored Hex
+1% Mirrored Hex (Mercy)
+1% Mirrored Strike
+0% Mirrored Strike (Mercy)
+3% Mirrored Shot
+1% Mirrored Shot (Mercy)
+3% Mirrored Burst
+0% Mirrored Burst (Mercy)
+1% Mirrored Grasp
+0% Mirrored Grasp (Mercy)
+
+Cesar:
+6% Phalanx Strike
+7% Phalanx Shot
+7% Phalanx Drive
+7% Phalanx Burst
+7% Phalanx Dash
+6% Bulwark Strike
+6% Bulwark Shot
+6% Bulwark Drive
+6% Bulwark Burst
+6% Bulwark Dash
+6% Inevitable Strike
+6% Inevitable Shot
+6% Inevitable Drive
+6% Inevitable Burst
+6% Inevitable Dash
+6% Special Level 4 Protocol
+
+
+Arec: Mirrored Hex
+Cesar: Phalanx Burst
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  3 | -1
+Arec is active
+Cesar moves:
+
+.C..A..
+
+
+Arec hits
+Arec moves Cesar:
+
+C...A..
+
+
+Arec recovers a Hesitation token
+Cesar takes 4 damage (now at 0 life)
 Cesar hits
-Arec takes 5 damage (now at 0 life)
-CESAR WINS!
-total_time: 68
+Arec takes 3 damage (now at 9 life)
+Arec is stunned
+Arec places clone:
+
+C...A..
+.c.....
+
+Game goes to time
+AREC WINS!
+total_time: 66

@@ -43,7 +43,7 @@ Cesar:
 
 
 Cadenza: Battery Dash
-Cesar: Bulwark Shot
+Cesar: Phalanx Shot
 
 Cesar gains a Threat Level (current level: 1)
 Priorities:  8 | 0
@@ -52,11 +52,9 @@ Cadenza moves:
 
 C....c.
 
-Cesar misses
-Cesar moves:
-
-C.c....
-
+Cesar hits
+Cadenza takes 4 damage (now at 16 life)
+Cadenza is stunned
 Cadenza will have 4 priority next beat
 
 Beat 2
@@ -64,7 +62,7 @@ Beat 2
 
 Cadenza
 -------
-Life: 20
+Life: 16
 Discard 1: Battery Dash
 Discard 2: Hydraulic Burst
 Special action available
@@ -74,53 +72,55 @@ Priority bonus: 4
 Cesar
 -----
 Life: 20
-Discard 1: Bulwark Shot
+Discard 1: Phalanx Shot
 Discard 2: Fueled Strike
 Special action available
 Threat level: 1
 
 
-C.c....
+C....c.
+
+Unbeatable strategy for Cesar: Unstoppable Suppression: -1.04
+Unbeatable strategy for Cesar: Bulwark Suppression: -1.12
+Unbeatable strategy for Cesar: Inevitable Suppression: -1.04
 
 
 Cadenza:
-38% Clockwork Shot
-54% Clockwork Drive
-7% Mechanical Grasp
+81% Grapnel Press
+16% Grapnel Drive
+3% Mechanical Shot
 
 Cesar:
-52% Unstoppable Dash
-29% Inevitable Drive
-19% Inevitable Burst
+9% Unstoppable Suppression
+1% Unstoppable Dash
+76% Bulwark Suppression
+14% Inevitable Dash
 
 
-Cadenza: Clockwork Drive
-Cesar: Unstoppable Dash
+Cadenza: Grapnel Press
+Cesar: Bulwark Suppression
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  5 | 7
-Cesar is active
-Cesar moves:
-
-C....c.
-
-Cadenza moves:
-
-..C..c.
-
-Cesar moves:
-
-..C.c..
-
+Priorities:  4 | 0
+Cadenza is active
 Cadenza misses
+Cesar misses
+Cesar moves:
+
+C.c....
+
+Cesar moves:
+
+Cc.....
+
 
 Beat 3
 -------
 
 Cadenza
 -------
-Life: 20
-Discard 1: Clockwork Drive
+Life: 16
+Discard 1: Grapnel Press
 Discard 2: Battery Dash
 Special action available
 3 Iron Body token
@@ -128,64 +128,289 @@ Special action available
 Cesar
 -----
 Life: 20
-Discard 1: Unstoppable Dash
-Discard 2: Bulwark Shot
+Discard 1: Bulwark Suppression
+Discard 2: Phalanx Shot
 Special action available
 Threat level: 2
 
 
-..C.c..
+Cc.....
 
 
 Cadenza:
-15% Hydraulic Press
-12% Hydraulic Strike
-7% Hydraulic Shot
-4% Mechanical Press
-24% Mechanical Shot
-38% Mechanical Burst
+65% Clockwork Shot (Iron Body)
+17% Clockwork Drive (Iron Body)
+1% Hydraulic Drive
+10% Hydraulic Drive (Iron Body)
+8% Hydraulic Grasp
 
 Cesar:
-22% Phalanx Drive
-17% Phalanx Burst
-36% Fueled Suppression
-12% Fueled Burst
-9% Inevitable Drive
-5% Inevitable Burst
+18% Unstoppable Strike
+6% Fueled Burst
+37% Inevitable Strike
+14% Inevitable Drive
+25% Inevitable Burst
 
 
-Cadenza: Mechanical Burst
-Cesar: Inevitable Burst
+Cadenza: Clockwork Shot (Iron Body)
+Cesar: Unstoppable Strike
 
+Cadenza antes an Iron Body token
 Cesar gains a Threat Level (current level: 3)
 Priorities:  -1 | 1
 Cesar is active
-Cesar moves:
-
-..C...c
-
-Cadenza moves:
-
-C.....c
-
-Cesar misses
-Cadenza misses
+Cesar hits
+Cadenza has 3 soak
+Cadenza takes 4 damage (now at 12 life)
+Cadenza hits
+Cesar takes 6 damage (now at 14 life)
 
 Beat 4
 -------
 
 Cadenza
 -------
-Life: 20
-Discard 1: Mechanical Burst
-Discard 2: Clockwork Drive
+Life: 12
+Discard 1: Clockwork Shot
+Discard 2: Grapnel Press
 Special action available
-3 Iron Body token
+2 Iron Body token
 
 Cesar
 -----
-Life: 20
-Discard 1: Inevitable Burst
+Life: 14
+Discard 1: Unstoppable Strike
+Discard 2: Bulwark Suppression
+Special action available
+Threat level: 3
+
+
+Cc.....
+
+Unbeatable strategy for Cesar: Phalanx Burst: -0.27
+Unbeatable strategy for Cesar: Fueled Shot: -1.31
+Unbeatable strategy for Cesar: Fueled Burst: -0.68
+Unbeatable strategy for Cesar: Inevitable Burst: -0.53
+
+
+Cadenza:
+19% Hydraulic Strike
+3% Mechanical Strike
+78% Mechanical Drive
+
+Cesar:
+6% Phalanx Drive
+88% Fueled Shot
+6% Fueled Burst
+
+
+Cadenza: Hydraulic Strike
+Cesar: Fueled Shot
+
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  2 | 1
+Cadenza is active
+Cesar gains a Threat Level (current level: 0)
+Cadenza moves:
+
+.cC....
+
+Cadenza hits
+Cesar has 2 soak
+Cesar takes 4 damage (now at 10 life)
+Cesar is stunned
+
+Beat 5
+-------
+
+Cadenza
+-------
+Life: 12
+Discard 1: Hydraulic Strike
+Discard 2: Clockwork Shot
+Special action available
+2 Iron Body token
+
+Cesar
+-----
+Life: 10
+Discard 1: Fueled Shot
+Discard 2: Unstoppable Strike
+Special action available
+Threat level: 0
+
+
+.cC....
+
+Unbeatable strategy for Cadenza: Battery Dash: 0.35
+
+
+Cadenza:
+46% Battery Dash
+42% Grapnel Dash
+8% Mechanical Drive
+4% Mechanical Dash
+
+Cesar:
+94% Bulwark Drive
+4% Inevitable Drive
+2% Inevitable Dash
+
+
+Cadenza: Mechanical Drive
+Cesar: Bulwark Drive
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  2 | 2
+Clash!
+
+
+Cadenza: Mechanical Dash
+Cesar: Bulwark Dash
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  7 | 7
+Clash!
+
+
+Cadenza: Mechanical Press
+Cesar: Bulwark Burst
+
+Cesar gains a Threat Level (current level: 1)
+Priorities:  -2 | -1
+Cesar is active
+Cesar moves:
+
+c.C....
+
+Cesar hits
+Cadenza takes 4 damage (now at 8 life)
+Cesar moves:
+
+.cC....
+
+Cadenza hits
+Cesar takes 7 damage (now at 3 life)
+Cesar is stunned
+
+Beat 6
+-------
+
+Cadenza
+-------
+Life: 8
+Discard 1: Mechanical Press
+Discard 2: Hydraulic Strike
+Special action available
+2 Iron Body token
+
+Cesar
+-----
+Life: 3
+Discard 1: Bulwark Burst
+Discard 2: Fueled Shot
+Special action available
+Threat level: 1
+
+
+.cC....
+
+Unbeatable strategy for Cadenza: Battery Dash: 1.28
+Unbeatable strategy for Cadenza: Clockwork Dash: 0.05
+
+
+Cadenza:
+11% Battery Grasp
+6% Clockwork Shot (Iron Body)
+15% Clockwork Burst
+69% Clockwork Dash
+0% Grapnel Burst
+
+Cesar:
+4% Unstoppable Strike
+7% Unstoppable Drive
+34% Unstoppable Dash
+38% Inevitable Drive
+18% Special Level 4 Protocol
+
+
+Cadenza: Clockwork Dash
+Cesar: Unstoppable Dash
+
+Cesar gains a Threat Level (current level: 2)
+Priorities:  6 | 7
+Cesar is active
+Cesar moves:
+
+..Cc...
+
+Cadenza moves:
+
+...cC..
+
+Cesar moves:
+
+....Cc.
+
+
+Beat 7
+-------
+
+Cadenza
+-------
+Life: 8
+Discard 1: Clockwork Dash
+Discard 2: Mechanical Press
+Special action available
+2 Iron Body token
+
+Cesar
+-----
+Life: 3
+Discard 1: Unstoppable Dash
+Discard 2: Bulwark Burst
+Special action available
+Threat level: 2
+
+
+....Cc.
+
+
+Cadenza:
+24% Battery Burst
+19% Battery Grasp (Iron Body)
+57% Special Pulse
+
+Cesar:
+18% Phalanx Drive
+54% Inevitable Drive
+27% Special Level 4 Protocol
+
+
+Cadenza: Special Pulse
+Cesar: Inevitable Drive
+
+Cesar gains a Threat Level (current level: 3)
+Cadenza Pulses:
+
+C.....c
+
+
+Beat 7
+-------
+
+Cadenza
+-------
+Life: 8
+Discard 1: Clockwork Dash
+Discard 2: Mechanical Press
+2 Iron Body token
+
+Cesar
+-----
+Life: 3
+Discard 1: Inevitable Drive
 Discard 2: Unstoppable Dash
 Special action available
 Threat level: 3
@@ -193,227 +418,46 @@ Threat level: 3
 
 C.....c
 
-Unbeatable strategy for Cesar: Phalanx Suppression: -2.66
-Unbeatable strategy for Cesar: Phalanx Strike: -0.93
-Unbeatable strategy for Cesar: Phalanx Shot: -0.19
-Unbeatable strategy for Cesar: Phalanx Drive: -0.44
-Unbeatable strategy for Cesar: Phalanx Grasp: -1.08
-Unbeatable strategy for Cesar: Fueled Suppression: -3.07
-Unbeatable strategy for Cesar: Fueled Strike: -1.94
-Unbeatable strategy for Cesar: Fueled Shot: -0.66
-Unbeatable strategy for Cesar: Fueled Drive: -0.71
-Unbeatable strategy for Cesar: Fueled Grasp: -0.95
-Unbeatable strategy for Cesar: Bulwark Suppression: -2.96
-Unbeatable strategy for Cesar: Bulwark Strike: -2.38
-Unbeatable strategy for Cesar: Bulwark Shot: -1.76
-Unbeatable strategy for Cesar: Bulwark Drive: -1.97
-Unbeatable strategy for Cesar: Bulwark Grasp: -2.53
+Unbeatable strategy for Cesar: Phalanx Suppression: -3.52
+Unbeatable strategy for Cesar: Phalanx Strike: -0.90
+Unbeatable strategy for Cesar: Phalanx Shot: -0.18
+Unbeatable strategy for Cesar: Phalanx Burst: -0.48
+Unbeatable strategy for Cesar: Phalanx Grasp: -1.05
+Unbeatable strategy for Cesar: Fueled Suppression: -3.66
+Unbeatable strategy for Cesar: Fueled Strike: -1.89
+Unbeatable strategy for Cesar: Fueled Shot: -1.23
+Unbeatable strategy for Cesar: Fueled Burst: -1.53
+Unbeatable strategy for Cesar: Fueled Grasp: -2.19
+Unbeatable strategy for Cesar: Bulwark Suppression: -3.81
+Unbeatable strategy for Cesar: Bulwark Strike: -2.32
+Unbeatable strategy for Cesar: Bulwark Shot: -1.71
+Unbeatable strategy for Cesar: Bulwark Burst: -2.01
+Unbeatable strategy for Cesar: Bulwark Grasp: -2.47
 
 
 Cadenza:
-8% Battery Shot
-92% Battery Grasp
+41% Battery Shot
+52% Battery Burst
+7% Battery Grasp
 
 Cesar:
-35% Fueled Suppression
-65% Bulwark Suppression
+14% Fueled Suppression
+50% Bulwark Suppression
+36% Bulwark Shot
 
 
-Cadenza: Battery Grasp
+Cadenza: Battery Shot
 Cesar: Bulwark Suppression
 
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Priorities:  4 | 0
+Priorities:  1 | 0
 Cadenza is active
 Cadenza misses
 Cadenza will have 4 priority next beat
 Cesar moves:
 
 C..c...
-
-
-Beat 5
--------
-
-Cadenza
--------
-Life: 20
-Discard 1: Battery Grasp
-Discard 2: Mechanical Burst
-Special action available
-Priority bonus: 4
-3 Iron Body token
-
-Cesar
------
-Life: 20
-Discard 1: Bulwark Suppression
-Discard 2: Inevitable Burst
-Special action available
-Threat level: 4
-
-
-C..c...
-
-
-Cadenza:
-72% Clockwork Shot
-28% Hydraulic Drive
-
-Cesar:
-95% Phalanx Dash
-5% Unstoppable Grasp
-
-
-Cadenza: Clockwork Shot
-Cesar: Unstoppable Grasp
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  3 | 3
-Clash!
-
-
-Cadenza: Clockwork Press
-Cesar: Unstoppable Dash
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  1 | 7
-Cesar is active
-Cesar moves:
-
-C...c..
-
-Cadenza misses
-
-Beat 6
--------
-
-Cadenza
--------
-Life: 20
-Discard 1: Clockwork Press
-Discard 2: Battery Grasp
-Special action available
-3 Iron Body token
-
-Cesar
------
-Life: 20
-Discard 1: Unstoppable Dash
-Discard 2: Bulwark Suppression
-Special action available
-Threat level: 0
-
-
-C...c..
-
-
-Cadenza:
-29% Hydraulic Drive
-11% Hydraulic Burst
-10% Grapnel Strike
-5% Grapnel Shot
-22% Grapnel Drive
-23% Mechanical Drive
-
-Cesar:
-22% Phalanx Strike
-12% Phalanx Shot
-2% Phalanx Burst
-5% Fueled Strike
-5% Fueled Drive
-18% Fueled Burst
-36% Inevitable Shot
-
-
-Cadenza: Hydraulic Drive
-Cesar: Fueled Burst
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  3 | 0
-Cadenza is active
-Cesar gains a Threat Level (current level: 2)
-Cesar moves:
-
-C.....c
-
-Cadenza moves:
-
-.C....c
-
-Cadenza moves:
-
-..C...c
-
-Cadenza misses
-Cesar moves:
-
-..C.c..
-
-Cesar hits
-Cadenza has 1 soak
-Cadenza takes 4 damage (now at 16 life)
-Cadenza is stunned
-
-Beat 7
--------
-
-Cadenza
--------
-Life: 16
-Discard 1: Hydraulic Drive
-Discard 2: Clockwork Press
-Special action available
-3 Iron Body token
-
-Cesar
------
-Life: 20
-Discard 1: Fueled Burst
-Discard 2: Unstoppable Dash
-Special action available
-Threat level: 2
-
-
-..C.c..
-
-Unbeatable strategy for Cadenza: Battery Dash: 2.06
-Unbeatable strategy for Cadenza: Grapnel Dash: 0.86
-Unbeatable strategy for Cadenza: Mechanical Dash: 2.08
-
-
-Cadenza:
-9% Battery Burst
-57% Battery Dash
-2% Mechanical Shot
-33% Mechanical Dash
-
-Cesar:
-13% Phalanx Drive
-78% Bulwark Shot
-8% Bulwark Drive
-1% Inevitable Shot
-
-
-Cadenza: Mechanical Dash
-Cesar: Phalanx Drive
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  7 | 2
-Cadenza is active
-Cadenza moves:
-
-....c.C
-
-Cesar moves:
-
-.....cC
-
-Cesar misses
-Cadenza moves:
-
-..C..c.
 
 
 Beat 8
@@ -421,605 +465,165 @@ Beat 8
 
 Cadenza
 -------
-Life: 16
-Discard 1: Mechanical Dash
-Discard 2: Hydraulic Drive
-Special action available
-3 Iron Body token
+Life: 8
+Discard 1: Battery Shot
+Discard 2: Clockwork Dash
+Priority bonus: 4
+2 Iron Body token
 
 Cesar
 -----
-Life: 20
-Discard 1: Phalanx Drive
-Discard 2: Fueled Burst
+Life: 3
+Discard 1: Bulwark Suppression
+Discard 2: Inevitable Drive
 Special action available
-Threat level: 3
+Threat level: 4
 
 
-..C..c.
-
-Unbeatable strategy for Cesar: Unstoppable Suppression: -4.43
-Unbeatable strategy for Cesar: Unstoppable Strike: -0.57
-Unbeatable strategy for Cesar: Unstoppable Shot: -0.35
-Unbeatable strategy for Cesar: Unstoppable Grasp: -0.52
-Unbeatable strategy for Cesar: Bulwark Suppression: -4.43
-Unbeatable strategy for Cesar: Bulwark Strike: -0.57
-Unbeatable strategy for Cesar: Bulwark Shot: -0.35
-Unbeatable strategy for Cesar: Bulwark Grasp: -0.52
-Unbeatable strategy for Cesar: Inevitable Suppression: -3.83
-Unbeatable strategy for Cesar: Inevitable Strike: -0.57
-Unbeatable strategy for Cesar: Inevitable Shot: -0.35
-Unbeatable strategy for Cesar: Inevitable Grasp: -0.52
+C..c...
 
 
 Cadenza:
-43% Battery Strike
-19% Battery Shot
-13% Battery Burst
-26% Clockwork Strike
+3% Hydraulic Grasp
+5% Grapnel Strike
+17% Grapnel Burst
+24% Grapnel Grasp
+32% Mechanical Drive
+19% Mechanical Burst
 
 Cesar:
-25% Unstoppable Suppression
-9% Unstoppable Strike
-27% Unstoppable Shot
-23% Bulwark Suppression
-17% Inevitable Suppression
+33% Phalanx Strike
+12% Phalanx Dash
+2% Unstoppable Burst
+45% Unstoppable Dash
+1% Fueled Strike
+8% Fueled Burst
 
 
-Cadenza: Battery Strike
-Cesar: Bulwark Suppression
+Cadenza: Grapnel Grasp
+Cesar: Phalanx Strike
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  2 | 0
+Cesar gains a Threat Level (current level: 0)
+Priorities:  9 | 1
 Cadenza is active
-Cadenza misses
-Cadenza will have 4 priority next beat
+Cadenza hits
+Cadenza moves Cesar:
+
+C...c..
+
+Cesar takes 2 damage (now at 1 life)
 Cesar moves:
 
-..Cc...
+C.c....
 
+Cesar hits
+Cadenza takes 4 damage (now at 4 life)
+Cadenza is stunned
 
 Beat 9
 -------
 
 Cadenza
 -------
-Life: 16
-Discard 1: Battery Strike
-Discard 2: Mechanical Dash
-Special action available
-Priority bonus: 4
-3 Iron Body token
+Life: 4
+Discard 1: Grapnel Grasp
+Discard 2: Battery Shot
+2 Iron Body token
 
 Cesar
 -----
-Life: 20
-Discard 1: Bulwark Suppression
-Discard 2: Phalanx Drive
+Life: 1
+Discard 1: Phalanx Strike
+Discard 2: Bulwark Suppression
 Special action available
-Threat level: 4
+Threat level: 0
 
 
-..Cc...
+C.c....
+
+Unbeatable strategy for Cesar: Inevitable Drive: -0.36
 
 
 Cadenza:
-16% Clockwork Shot
-20% Hydraulic Shot
-30% Hydraulic Drive
-4% Grapnel Press
-0% Grapnel Shot
-6% Grapnel Drive
-25% Grapnel Burst
+13% Clockwork Press
+8% Clockwork Press (Iron Body)
+41% Clockwork Drive (Iron Body)
+37% Hydraulic Dash
 
 Cesar:
-11% Unstoppable Shot
-0% Fueled Strike
-2% Fueled Dash
-2% Inevitable Strike
-3% Inevitable Grasp
-81% Inevitable Dash
+5% Unstoppable Drive
+42% Unstoppable Dash
+50% Inevitable Drive
+3% Inevitable Burst
 
 
-Cadenza: Hydraulic Shot
-Cesar: Inevitable Dash
+Cadenza: Clockwork Drive (Iron Body)
+Cesar: Inevitable Drive
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  5 | 9
+Cadenza antes an Iron Body token
+Cesar gains a Threat Level (current level: 1)
+Priorities:  1 | 4
 Cesar is active
 Cesar moves:
 
-.cC....
-
-Cadenza moves:
-
 Cc.....
 
-Cadenza misses
+Cesar hits
+Cadenza will have -3 priority next beat
+Cadenza has 3 soak
+Cadenza takes 1 damage (now at 3 life)
+Cadenza moves:
+
+.cC....
+
+Cadenza hits
+Cesar takes 6 damage (now at 0 life)
+Cesar is stunned
 
 Beat 10
 -------
 
 Cadenza
 -------
-Life: 16
-Discard 1: Hydraulic Shot
-Discard 2: Battery Strike
-Special action available
-3 Iron Body token
+Life: 3
+Discard 1: Clockwork Drive
+Discard 2: Grapnel Grasp
+1 Iron Body token
 
 Cesar
 -----
-Life: 20
-Discard 1: Inevitable Dash
-Discard 2: Bulwark Suppression
+Life: 1
+Discard 1: Inevitable Drive
+Discard 2: Phalanx Strike
 Special action available
-Threat level: 0
-
-
-Cc.....
-
-Unbeatable strategy for Cadenza: Grapnel Dash: 0.17
-Unbeatable strategy for Cadenza: Mechanical Dash: 0.23
-
-
-Cadenza:
-31% Clockwork Press
-23% Clockwork Drive
-19% Mechanical Press
-27% Mechanical Drive
-
-Cesar:
-5% Phalanx Strike
-62% Unstoppable Strike
-6% Unstoppable Drive
-27% Unstoppable Burst
-
-
-Cadenza: Clockwork Press
-Cesar: Unstoppable Strike
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  -3 | 1
-Cesar is active
-Cesar hits
-Cadenza has 3 soak
-Cadenza takes 2 damage (now at 14 life)
-Cadenza hits
-Cesar takes 6 damage (now at 14 life)
-
-Beat 11
--------
-
-Cadenza
--------
-Life: 14
-Discard 1: Clockwork Press
-Discard 2: Hydraulic Shot
-Special action available
-3 Iron Body token
-
-Cesar
------
-Life: 14
-Discard 1: Unstoppable Strike
-Discard 2: Inevitable Dash
-Special action available
+Opponent has power penalty: -3
 Threat level: 1
+Defeat immunity used-up
 
-
-Cc.....
-
-
-Cadenza:
-45% Battery Drive
-17% Battery Grasp
-32% Battery Dash
-6% Mechanical Drive
-
-Cesar:
-22% Bulwark Suppression
-3% Bulwark Shot
-12% Bulwark Drive
-64% Bulwark Grasp
-
-
-Cadenza: Battery Grasp
-Cesar: Bulwark Grasp
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  4 | 3
-Cadenza is active
-Cadenza hits
-Cesar takes 3 damage (now at 11 life)
-Cesar hits
-Cesar moves Cadenza:
 
 .cC....
 
-Cadenza takes 4 damage (now at 10 life)
-Cadenza is stunned
-Cesar moves:
-
-..Cc...
-
-Cadenza will have 4 priority next beat
-
-Beat 12
--------
-
-Cadenza
--------
-Life: 10
-Discard 1: Battery Grasp
-Discard 2: Clockwork Press
-Special action available
-Priority bonus: 4
-3 Iron Body token
-
-Cesar
------
-Life: 11
-Discard 1: Bulwark Grasp
-Discard 2: Unstoppable Strike
-Special action available
-Threat level: 2
-
-
-..Cc...
-
-Unbeatable strategy for Cadenza: Hydraulic Shot: 0.70
-Unbeatable strategy for Cadenza: Mechanical Drive: 0.31
-
 
 Cadenza:
-59% Mechanical Shot
-41% Mechanical Burst
+34% Battery Burst
+16% Battery Dash
+36% Hydraulic Dash
+14% Mechanical Dash
 
 Cesar:
-28% Phalanx Shot
-72% Fueled Burst
+58% Unstoppable Grasp
+10% Fueled Burst
+3% Fueled Dash
+29% Special Level 4 Protocol
 
 
-Cadenza: Mechanical Shot
-Cesar: Fueled Burst
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  4 | 0
-Cadenza is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Cesar moves:
-
-..C.c..
-
-Cadenza hits
-Cesar has 2 soak
-Cesar takes 3 damage (now at 8 life)
-Cesar is stunned
-
-Beat 13
--------
-
-Cadenza
--------
-Life: 10
-Discard 1: Mechanical Shot
-Discard 2: Battery Grasp
-Special action available
-3 Iron Body token
-
-Cesar
------
-Life: 8
-Discard 1: Fueled Burst
-Discard 2: Bulwark Grasp
-Special action available
-Threat level: 4
-
-
-..C.c..
-
-
-Cadenza:
-12% Clockwork Press
-19% Clockwork Burst
-14% Clockwork Dash
-30% Hydraulic Drive
-25% Grapnel Burst
-
-Cesar:
-40% Phalanx Dash
-27% Unstoppable Suppression
-1% Unstoppable Dash
-30% Inevitable Shot
-2% Inevitable Drive
-
-
-Cadenza: Hydraulic Drive
-Cesar: Inevitable Shot
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  3 | 2
-Cadenza is active
-Cadenza moves:
-
-....cC.
-
-Cadenza moves:
-
-...Cc..
-
-Cadenza hits
-Cesar takes 5 damage (now at 3 life)
-Cesar hits
-Cadenza is stunned
-Cadenza will have -3 priority next beat
-Cadenza has 1 soak
-Cadenza takes 2 damage (now at 8 life)
-Cadenza is stunned
-
-Beat 14
--------
-
-Cadenza
--------
-Life: 8
-Discard 1: Hydraulic Drive
-Discard 2: Mechanical Shot
-Special action available
-3 Iron Body token
-
-Cesar
------
-Life: 3
-Discard 1: Inevitable Shot
-Discard 2: Fueled Burst
-Special action available
-Opponent has power penalty: -3
-Threat level: 0
-
-
-...Cc..
-
-Unbeatable strategy for Cadenza: Battery Dash: 0.44
-
-
-Cadenza:
-0% Battery Press
-2% Battery Burst
-10% Battery Dash
-42% Clockwork Press
-28% Clockwork Strike
-3% Clockwork Grasp
-15% Clockwork Dash
-
-Cesar:
-30% Phalanx Dash
-21% Unstoppable Drive
-2% Unstoppable Dash
-13% Bulwark Suppression
-6% Bulwark Drive
-22% Bulwark Grasp
-5% Special Level 4 Protocol
-
-
-Cadenza: Clockwork Strike
-Cesar: Phalanx Dash
-
-Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 7
-Cesar is active
-Cesar moves:
-
-..cC...
-
-Cadenza misses
-
-Beat 15
--------
-
-Cadenza
--------
-Life: 8
-Discard 1: Clockwork Strike
-Discard 2: Hydraulic Drive
-Special action available
-3 Iron Body token
-
-Cesar
------
-Life: 3
-Discard 1: Phalanx Dash
-Discard 2: Inevitable Shot
-Special action available
-Threat level: 1
-
-
-..cC...
-
-Unbeatable strategy for Cadenza: Battery Dash: 8.00
-Unbeatable strategy for Cadenza: Battery Dash (Iron Body): 8.00
-Unbeatable strategy for Cadenza: Grapnel Dash: 8.00
-Unbeatable strategy for Cadenza: Grapnel Dash (Iron Body): 8.00
-Unbeatable strategy for Cadenza: Mechanical Dash: 8.00
-Unbeatable strategy for Cadenza: Mechanical Dash (Iron Body): 8.00
-
-
-Cadenza:
-0% Battery Burst
-0% Battery Burst (Iron Body)
-1% Battery Dash
-0% Battery Dash (Iron Body)
-0% Grapnel Shot
-0% Grapnel Shot (Iron Body)
-3% Grapnel Burst
-1% Grapnel Burst (Iron Body)
-0% Grapnel Dash
-0% Grapnel Dash (Iron Body)
-0% Mechanical Burst
-0% Mechanical Burst (Iron Body)
-1% Mechanical Dash
-0% Mechanical Dash (Iron Body)
-92% Special Pulse
-
-Cesar:
-13% Unstoppable Suppression
-37% Fueled Strike
-13% Bulwark Suppression
-37% Special Level 4 Protocol
-
-
-Cadenza: Special Pulse
-Cesar: Fueled Strike
+Cadenza: Mechanical Dash
+Cesar: Special Level 4 Protocol
 
 Cesar gains a Threat Level (current level: 2)
-Cadenza Pulses:
-
-C....c.
-
-
-Beat 15
--------
-
-Cadenza
--------
-Life: 8
-Discard 1: Clockwork Strike
-Discard 2: Hydraulic Drive
-3 Iron Body token
-
-Cesar
------
-Life: 3
-Discard 1: Fueled Strike
-Discard 2: Phalanx Dash
-Special action available
-Threat level: 2
-
-
-C....c.
-
-Unbeatable strategy for Cadenza: Mechanical Press: 8.00
-Unbeatable strategy for Cadenza: Mechanical Press (Iron Body): 8.00
-
-
-Cadenza:
-100% Grapnel Burst
-
-Cesar:
-100% Special Pulse
-
-
-Cadenza: Grapnel Burst
-Cesar: Special Pulse
-
-Cesar gains a Threat Level (current level: 3)
-Cesar Pulses:
-
-.Cc....
-
-
-Beat 15
--------
-
-Cadenza
--------
-Life: 8
-Discard 1: Grapnel Burst
-Discard 2: Clockwork Strike
-3 Iron Body token
-
-Cesar
------
-Life: 3
-Discard 1: Fueled Strike
-Discard 2: Phalanx Dash
-Threat level: 3
-
-
-.Cc....
-
-Unbeatable strategy for Cadenza: Battery Dash: 8.00
-Unbeatable strategy for Cadenza: Battery Dash (Iron Body): 8.00
-Unbeatable strategy for Cadenza: Hydraulic Dash: 8.00
-Unbeatable strategy for Cadenza: Hydraulic Dash (Iron Body): 8.00
-Unbeatable strategy for Cadenza: Mechanical Press: 8.00
-Unbeatable strategy for Cadenza: Mechanical Press (Iron Body): 8.00
-Unbeatable strategy for Cadenza: Mechanical Dash: 8.00
-Unbeatable strategy for Cadenza: Mechanical Dash (Iron Body): 8.00
-
-
-Cadenza:
-3% Battery Press
-3% Battery Press (Iron Body)
-3% Battery Shot
-3% Battery Shot (Iron Body)
-3% Battery Drive
-3% Battery Drive (Iron Body)
-3% Battery Grasp
-3% Battery Grasp (Iron Body)
-3% Battery Dash
-3% Battery Dash (Iron Body)
-3% Hydraulic Press
-3% Hydraulic Press (Iron Body)
-3% Hydraulic Shot
-3% Hydraulic Shot (Iron Body)
-3% Hydraulic Drive
-3% Hydraulic Drive (Iron Body)
-3% Hydraulic Grasp
-3% Hydraulic Grasp (Iron Body)
-3% Hydraulic Dash
-3% Hydraulic Dash (Iron Body)
-3% Mechanical Press
-3% Mechanical Press (Iron Body)
-3% Mechanical Shot
-3% Mechanical Shot (Iron Body)
-3% Mechanical Drive
-3% Mechanical Drive (Iron Body)
-3% Mechanical Grasp
-3% Mechanical Grasp (Iron Body)
-3% Mechanical Dash
-3% Mechanical Dash (Iron Body)
-
-Cesar:
-7% Unstoppable Suppression
-7% Unstoppable Shot
-7% Unstoppable Drive
-7% Unstoppable Burst
-7% Unstoppable Grasp
-7% Bulwark Suppression
-7% Bulwark Shot
-7% Bulwark Drive
-7% Bulwark Burst
-7% Bulwark Grasp
-7% Inevitable Suppression
-7% Inevitable Shot
-7% Inevitable Drive
-7% Inevitable Burst
-7% Inevitable Grasp
-
-
-Cadenza: Hydraulic Press
-Cesar: Unstoppable Grasp
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  -1 | 3
+Priorities:  7 | 11
 Cesar is active
-Cadenza moves:
-
-..cC...
-
-Cesar moves:
-
-...Cc..
-
-Cadenza hits
-Cesar has 2 soak
-Cesar takes 1 damage (now at 2 life)
-Cesar is stunned
-Game goes to time
-CADENZA WINS!
-total_time: 24
+Cesar hits
+Cadenza takes 9 damage (now at 0 life)
+CESAR WINS!
+total_time: 16

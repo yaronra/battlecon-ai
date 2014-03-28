@@ -11,45 +11,46 @@ Beat 1
 
 Kallistar
 ---------
-life: 20
-discard 1: Flare Strike
-discard 2: Caustic Drive
-special action
+Life: 20
+Discard 1: Flare Strike
+Discard 2: Caustic Drive
+Special action available
 Human Form
 
 Seth
 ----
-life: 20
-discard 1: Fool's Grasp
-discard 2: Wyrding Strike
-special action
+Life: 20
+Discard 1: Fool's Grasp
+Discard 2: Wyrding Strike
+Special action available
 
 
 .K...S.
 
+
 Kallistar:
-18% Volcanic Grasp
-15% Ignition Shot
-18% Ignition Burst
-2% Ignition Dash
-22% Blazing Spellbolt
-7% Blazing Shot
-17% Blazing Burst
+1% Volcanic Burst
+20% Volcanic Grasp
+21% Ignition Shot
+14% Ignition Burst
+24% Blazing Spellbolt
+20% Blazing Burst
 
 Seth:
-6% Mimic's Shot (Spellbolt)
-5% Mimic's Shot (Burst)
-21% Vanishing Shot (Burst)
-11% Vanishing Drive (Spellbolt)
+3% Mimic's Shot (Spellbolt)
+11% Mimic's Shot (Burst)
+15% Vanishing Drive (Spellbolt)
 0% Vanishing Drive (Shot)
-26% Compelling Drive (Shot)
-32% Compelling Drive (Grasp)
+33% Compelling Drive (Shot)
+39% Compelling Drive (Grasp)
 
 
 Kallistar: Ignition Shot
-Seth: Compelling Drive (Grasp)
+Seth: Compelling Drive (Shot)
 
-Priorities:  1 | 4
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  1 | 6
 Seth is active
 Seth moves Kallistar:
 
@@ -61,59 +62,58 @@ Seth moves:
 
 Seth hits
 Kallistar has 1 soak
-Kallistar takes 2 damage (now at 18 life)
+Kallistar takes 4 damage (now at 16 life)
+Kallistar is stunned
 Seth moves Kallistar:
 
 ...SK..
 
-Kallistar hits
-Seth takes 4 damage (now at 16 life)
-Seth is stunned
 
 Beat 2
 -------
 
 Kallistar
 ---------
-life: 18
-discard 1: Ignition Shot
-discard 2: Flare Strike
-special action
+Life: 16
+Discard 1: Ignition Shot
+Discard 2: Flare Strike
+Special action available
 Elemental Form
 
 Seth
 ----
-life: 16
-discard 1: Compelling Drive
-discard 2: Fool's Grasp
-special action
+Life: 20
+Discard 1: Compelling Drive
+Discard 2: Fool's Grasp
+Special action available
 
 
 ...SK..
 
+
 Kallistar:
-5% Caustic Drive
+9% Caustic Drive
 12% Caustic Grasp
-2% Caustic Dash
-12% Volcanic Burst
+3% Caustic Dash
+6% Volcanic Burst
 26% Volcanic Dash
-25% Blazing Drive
-18% Blazing Grasp
+24% Blazing Drive
+21% Blazing Grasp
 
 Seth:
 28% Mimic's Omen (Drive)
-22% Mimic's Omen (Grasp)
-0% Mimic's Burst (Grasp)
+25% Mimic's Omen (Grasp)
+1% Mimic's Burst (Grasp)
 1% Vanishing Omen (Drive)
-7% Wyrding Burst (Drive)
-14% Wyrding Dash (Grasp)
-27% Wyrding Dash (Dash)
+12% Wyrding Burst (Drive)
+8% Wyrding Dash (Grasp)
+24% Wyrding Dash (Dash)
 
 
 Kallistar: Blazing Grasp
 Seth: Mimic's Omen (Drive)
 
-Kallistar loses 1 life (now at 17)
+Kallistar loses 1 life (now at 15)
 Priorities:  8 | 1
 Kallistar is active
 Kallistar hits
@@ -121,7 +121,7 @@ Kallistar moves Seth:
 
 ..S.K..
 
-Seth takes 4 damage (now at 12 life)
+Seth takes 4 damage (now at 16 life)
 Seth is stunned
 
 Beat 3
@@ -129,140 +129,141 @@ Beat 3
 
 Kallistar
 ---------
-life: 17
-discard 1: Blazing Grasp
-discard 2: Ignition Shot
-special action
+Life: 15
+Discard 1: Blazing Grasp
+Discard 2: Ignition Shot
+Special action available
 Elemental Form
 
 Seth
 ----
-life: 12
-discard 1: Mimic's Omen
-discard 2: Compelling Drive
-special action
+Life: 16
+Discard 1: Mimic's Omen
+Discard 2: Compelling Drive
+Special action available
 
 
 ..S.K..
 
-Unbeatable strategy for Seth: Fool's Dash (Spellbolt): -0.12
-Unbeatable strategy for Seth: Fool's Dash (Strike): -0.32
-Unbeatable strategy for Seth: Fool's Dash (Drive): -0.32
-Unbeatable strategy for Seth: Fool's Dash (Burst): -0.32
-Unbeatable strategy for Seth: Fool's Dash (Dash): -0.32
-Unbeatable strategy for Seth: Vanishing Dash (Spellbolt): -0.63
-Unbeatable strategy for Seth: Vanishing Dash (Strike): -0.63
-Unbeatable strategy for Seth: Vanishing Dash (Drive): -0.63
-Unbeatable strategy for Seth: Vanishing Dash (Burst): -0.63
-Unbeatable strategy for Seth: Vanishing Dash (Dash): -0.60
-Unbeatable strategy for Seth: Wyrding Dash (Spellbolt): -0.28
-Unbeatable strategy for Seth: Wyrding Dash (Strike): -0.28
-Unbeatable strategy for Seth: Wyrding Dash (Drive): -0.28
-Unbeatable strategy for Seth: Wyrding Dash (Burst): -0.36
-Unbeatable strategy for Seth: Wyrding Dash (Dash): -0.28
+Unbeatable strategy for Seth: Fool's Dash (Spellbolt): -0.01
+Unbeatable strategy for Seth: Fool's Dash (Strike): -0.25
+Unbeatable strategy for Seth: Fool's Dash (Drive): -0.37
+Unbeatable strategy for Seth: Fool's Dash (Burst): -0.25
+Unbeatable strategy for Seth: Fool's Dash (Dash): -0.25
+Unbeatable strategy for Seth: Vanishing Dash (Spellbolt): -0.56
+Unbeatable strategy for Seth: Vanishing Dash (Strike): -0.56
+Unbeatable strategy for Seth: Vanishing Dash (Drive): -0.56
+Unbeatable strategy for Seth: Vanishing Dash (Burst): -0.56
+Unbeatable strategy for Seth: Vanishing Dash (Dash): -0.56
+Unbeatable strategy for Seth: Wyrding Dash (Spellbolt): -0.59
+Unbeatable strategy for Seth: Wyrding Dash (Strike): -0.70
+Unbeatable strategy for Seth: Wyrding Dash (Drive): -0.59
+Unbeatable strategy for Seth: Wyrding Dash (Burst): -0.59
+Unbeatable strategy for Seth: Wyrding Dash (Dash): -0.59
+
 
 Kallistar:
-11% Flare Spellbolt
-5% Caustic Spellbolt
-17% Caustic Drive
-27% Caustic Burst
-15% Caustic Dash
-24% Volcanic Burst
+3% Flare Spellbolt
+14% Caustic Spellbolt
+18% Caustic Drive
+24% Caustic Burst
+11% Caustic Dash
+0% Volcanic Strike
+29% Volcanic Burst
 
 Seth:
-36% Vanishing Grasp (Drive)
-14% Wyrding Shot (Spellbolt)
-3% Wyrding Shot (Drive)
-16% Wyrding Shot (Burst)
-7% Wyrding Dash (Burst)
-24% Wyrding Dash (Dash)
+6% Vanishing Shot (Spellbolt)
+8% Vanishing Grasp (Drive)
+9% Wyrding Shot (Spellbolt)
+6% Wyrding Shot (Drive)
+2% Wyrding Shot (Burst)
+29% Wyrding Dash (Burst)
+40% Wyrding Dash (Dash)
 
 
-Kallistar: Flare Spellbolt
-Seth: Vanishing Grasp (Drive)
+Kallistar: Caustic Drive
+Seth: Wyrding Shot (Spellbolt)
 
-Kallistar loses 1 life (now at 16)
-Priorities:  5 | 5
-Clash!
-
-Kallistar:
-11% Flare Drive
-89% Flare Burst
-
-Seth:
-2% Vanishing Shot (Incorrect Guess)
-98% Vanishing Dash (Incorrect Guess)
-
-
-Kallistar: Flare Burst
-Seth: Vanishing Dash (Incorrect Guess)
-
-Kallistar loses 1 life (now at 16)
-Priorities:  3 | 9
-Seth is active
+Kallistar loses 1 life (now at 14)
+Priorities:  5 | 3
+Kallistar is active
 Kallistar moves:
 
-..S..K.
+..SK...
 
-Seth moves:
-
-....SK.
-
-Kallistar misses
+Kallistar hits
+Seth is stunned
+Seth takes 6 damage (now at 10 life)
+Seth is stunned
 
 Beat 4
 -------
 
 Kallistar
 ---------
-life: 16
-discard 1: Flare Burst
-discard 2: Blazing Grasp
-special action
-Human Form
+Life: 14
+Discard 1: Caustic Drive
+Discard 2: Blazing Grasp
+Special action available
+Elemental Form
 
 Seth
 ----
-life: 12
-discard 1: Vanishing Dash
-discard 2: Mimic's Omen
-special action
+Life: 10
+Discard 1: Wyrding Shot
+Discard 2: Mimic's Omen
+Special action available
 
 
-....SK.
+..SK...
 
-Unbeatable strategy for Kallistar: Volcanic Dash: 0.74
+Unbeatable strategy for Seth: Vanishing Drive (Spellbolt): -0.59
+Unbeatable strategy for Seth: Vanishing Drive (Strike): -0.59
+Unbeatable strategy for Seth: Vanishing Drive (Shot): -0.59
+Unbeatable strategy for Seth: Vanishing Drive (Burst): -0.59
+Unbeatable strategy for Seth: Vanishing Drive (Dash): -0.59
+Unbeatable strategy for Seth: Compelling Drive (Strike): -1.05
+Unbeatable strategy for Seth: Compelling Grasp (Shot): -0.54
+Unbeatable strategy for Seth: Compelling Dash (Spellbolt): -0.09
+Unbeatable strategy for Seth: Compelling Dash (Strike): -0.09
+Unbeatable strategy for Seth: Compelling Dash (Shot): -0.09
+Unbeatable strategy for Seth: Compelling Dash (Burst): -0.09
+Unbeatable strategy for Seth: Compelling Dash (Dash): -0.09
+
 
 Kallistar:
-1% Caustic Spellbolt
-4% Caustic Strike
-2% Caustic Shot
-1% Caustic Drive
-89% Volcanic Dash
-2% Ignition Dash
+100% Volcanic Dash
 
 Seth:
-22% Wyrding Strike (Strike)
-15% Wyrding Strike (Shot)
-23% Wyrding Grasp (Shot)
-14% Wyrding Grasp (Dash)
-4% Compelling Burst (Spellbolt)
-22% Compelling Burst (Drive)
+7% Compelling Drive (Spellbolt)
+65% Compelling Drive (Strike)
+14% Compelling Drive (Shot)
+7% Compelling Drive (Burst)
+7% Compelling Drive (Dash)
 
 
 Kallistar: Volcanic Dash
-Seth: Wyrding Strike (Strike)
+Seth: Compelling Drive (Strike)
 
-Priorities:  9 | 4
+Kallistar loses 1 life (now at 13)
+Priorities:  11 | 4
 Kallistar is active
 Kallistar moves:
 
-.K..S..
+K.S....
+
+Seth moves:
+
+KS.....
+
+Seth moves Kallistar:
+
+.SK....
 
 Seth misses
-Kallistar moves:
+Seth moves Kallistar:
 
-K...S..
+KS.....
 
 
 Beat 5
@@ -270,193 +271,167 @@ Beat 5
 
 Kallistar
 ---------
-life: 16
-discard 1: Volcanic Dash
-discard 2: Flare Burst
-special action
-Human Form
+Life: 13
+Discard 1: Volcanic Dash
+Discard 2: Caustic Drive
+Special action available
+Elemental Form
 
 Seth
 ----
-life: 12
-discard 1: Wyrding Strike
-discard 2: Vanishing Dash
-special action
+Life: 10
+Discard 1: Compelling Drive
+Discard 2: Wyrding Shot
+Special action available
 
+
+KS.....
+
+Unbeatable strategy for Seth: Vanishing Burst (Spellbolt): -2.04
+Unbeatable strategy for Seth: Vanishing Burst (Strike): -2.04
+Unbeatable strategy for Seth: Vanishing Burst (Shot): -1.84
+Unbeatable strategy for Seth: Vanishing Burst (Burst): -1.54
+Unbeatable strategy for Seth: Vanishing Burst (Grasp): -2.04
+
+
+Kallistar:
+16% Blazing Strike
+15% Blazing Shot
+54% Blazing Burst
+16% Blazing Grasp
+
+Seth:
+6% Mimic's Strike (Shot)
+6% Mimic's Strike (Burst)
+50% Vanishing Burst (Strike)
+38% Vanishing Burst (Grasp)
+
+
+Kallistar: Blazing Burst
+Seth: Vanishing Burst (Grasp)
+
+Kallistar loses 1 life (now at 12)
+Priorities:  4 | 1
+Kallistar is active
+Seth moves:
+
+K.S....
+
+Seth moves:
 
 K...S..
 
-Kallistar:
-36% Caustic Shot
-33% Ignition Spellbolt
-31% Ignition Strike
-
-Seth:
-30% Mimic's Shot (Strike)
-48% Mimic's Shot (Shot)
-22% Compelling Drive (Spellbolt)
-
-
-Kallistar: Ignition Spellbolt
-Seth: Mimic's Shot (Strike)
-
-Priorities:  2 | 2
-Clash!
-
-Kallistar:
-41% Ignition Strike
-19% Ignition Shot
-41% Ignition Grasp
-
-Seth:
-100% Mimic's Omen (Incorrect Guess)
-
-
-Kallistar: Ignition Grasp
-Seth: Mimic's Omen (Incorrect Guess)
-
-Priorities:  4 | 1
-Kallistar is active
 Kallistar misses
-Seth misses
+Seth hits
+Kallistar takes 3 damage (now at 9 life)
+Kallistar is stunned
 
 Beat 6
 -------
 
 Kallistar
 ---------
-life: 16
-discard 1: Ignition Grasp
-discard 2: Volcanic Dash
-special action
+Life: 9
+Discard 1: Blazing Burst
+Discard 2: Volcanic Dash
+Special action available
 Elemental Form
 
 Seth
 ----
-life: 12
-discard 1: Mimic's Omen
-discard 2: Wyrding Strike
-special action
+Life: 10
+Discard 1: Vanishing Burst
+Discard 2: Compelling Drive
+Special action available
 
 
 K...S..
 
-Unbeatable strategy for Seth: Vanishing Shot (Spellbolt): -2.36
-Unbeatable strategy for Seth: Vanishing Shot (Strike): -2.43
-Unbeatable strategy for Seth: Vanishing Shot (Shot): -2.36
-Unbeatable strategy for Seth: Vanishing Shot (Drive): -2.36
-Unbeatable strategy for Seth: Vanishing Shot (Burst): -2.36
-Unbeatable strategy for Seth: Vanishing Drive (Spellbolt): -4.18
-Unbeatable strategy for Seth: Vanishing Drive (Strike): -0.52
-Unbeatable strategy for Seth: Vanishing Drive (Shot): -4.05
-Unbeatable strategy for Seth: Vanishing Drive (Drive): -4.05
-Unbeatable strategy for Seth: Vanishing Drive (Burst): -4.05
-Unbeatable strategy for Seth: Compelling Dash (Spellbolt): -0.94
-Unbeatable strategy for Seth: Compelling Dash (Strike): -0.94
-Unbeatable strategy for Seth: Compelling Dash (Shot): -0.94
-Unbeatable strategy for Seth: Compelling Dash (Drive): -0.94
-Unbeatable strategy for Seth: Compelling Dash (Burst): -0.94
 
 Kallistar:
-29% Caustic Spellbolt
-29% Caustic Strike
-5% Blazing Strike
-3% Blazing Shot
-34% Blazing Burst
+2% Flare Spellbolt
+21% Flare Shot
+27% Caustic Spellbolt
+3% Caustic Shot
+28% Caustic Drive
+19% Caustic Grasp
 
 Seth:
-26% Vanishing Shot (Strike)
-34% Vanishing Shot (Burst)
-24% Vanishing Drive (Spellbolt)
-16% Vanishing Drive (Strike)
-1% Compelling Drive (Burst)
+5% Mimic's Shot (Shot)
+4% Wyrding Strike (Spellbolt)
+9% Wyrding Strike (Shot)
+14% Wyrding Shot (Spellbolt)
+10% Wyrding Shot (Shot)
+58% Wyrding Dash (Shot)
 
 
-Kallistar: Blazing Burst
-Seth: Vanishing Shot (Burst)
+Kallistar: Caustic Drive
+Seth: Wyrding Dash (Shot)
 
-Kallistar loses 1 life (now at 15)
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  4 | 4
+Kallistar loses 1 life (now at 8)
+Priorities:  5 | 10
 Seth is active
-Seth hits
-Kallistar takes 5 damage (now at 10 life)
-Kallistar is stunned
+Seth moves:
+
+K....S.
+
+Kallistar moves:
+
+.K...S.
+
+Kallistar misses
 
 Beat 7
 -------
 
 Kallistar
 ---------
-life: 10
-discard 1: Blazing Burst
-discard 2: Ignition Grasp
-special action
+Life: 8
+Discard 1: Caustic Drive
+Discard 2: Blazing Burst
+Special action available
 Elemental Form
 
 Seth
 ----
-life: 12
-discard 1: Vanishing Shot
-discard 2: Mimic's Omen
-special action
+Life: 10
+Discard 1: Wyrding Dash
+Discard 2: Vanishing Burst
+Special action available
 
 
-K...S..
+.K...S.
 
-Unbeatable strategy for Seth: Compelling Dash (Spellbolt): -1.84
-Unbeatable strategy for Seth: Compelling Dash (Strike): -1.84
-Unbeatable strategy for Seth: Compelling Dash (Shot): -1.84
-Unbeatable strategy for Seth: Compelling Dash (Drive): -1.84
-Unbeatable strategy for Seth: Compelling Dash (Dash): -1.84
 
 Kallistar:
-57% Volcanic Spellbolt
-34% Volcanic Strike
-8% Volcanic Drive
+3% Flare Shot
+28% Volcanic Spellbolt
+22% Volcanic Strike
+1% Volcanic Shot
+46% Volcanic Grasp
 
 Seth:
-2% Compelling Drive (Spellbolt)
-13% Compelling Grasp (Drive)
-17% Compelling Dash (Spellbolt)
-17% Compelling Dash (Strike)
-17% Compelling Dash (Shot)
-17% Compelling Dash (Drive)
-15% Compelling Dash (Dash)
+5% Compelling Omen (Grasp)
+18% Compelling Strike (Strike)
+27% Compelling Drive (Spellbolt)
+17% Compelling Drive (Strike)
+34% Compelling Grasp (Grasp)
 
 
-Kallistar: Volcanic Strike
-Seth: Compelling Grasp (Drive)
+Kallistar: Volcanic Shot
+Seth: Compelling Grasp (Grasp)
 
-Kallistar loses 1 life (now at 9)
-Priorities:  5 | 5
-Clash!
-
-Kallistar:
-100% Volcanic Spellbolt
-
-Seth:
-100% Compelling Dash (Incorrect Guess)
-
-
-Kallistar: Volcanic Spellbolt
-Seth: Compelling Dash (Incorrect Guess)
-
-Kallistar loses 1 life (now at 9)
-Priorities:  5 | 9
+Kallistar loses 1 life (now at 7)
+Priorities:  4 | 5
 Seth is active
 Seth moves Kallistar:
 
-.K..S..
+..K..S.
 
+Seth misses
 Seth moves Kallistar:
 
-K...S..
-
-Seth moves:
-
-KS.....
+...K.S.
 
 Kallistar misses
 
@@ -465,58 +440,50 @@ Beat 8
 
 Kallistar
 ---------
-life: 9
-discard 1: Volcanic Spellbolt
-discard 2: Blazing Burst
-special action
+Life: 7
+Discard 1: Volcanic Shot
+Discard 2: Caustic Drive
+Special action available
 Elemental Form
 
 Seth
 ----
-life: 12
-discard 1: Compelling Dash
-discard 2: Vanishing Shot
-special action
+Life: 10
+Discard 1: Compelling Grasp
+Discard 2: Wyrding Dash
+Special action available
 
 
-KS.....
+...K.S.
 
-Unbeatable strategy for Seth: Fool's Omen (Shot): -0.92
+Unbeatable strategy for Seth: Vanishing Omen (Spellbolt): -0.42
+Unbeatable strategy for Seth: Vanishing Drive (Spellbolt): -2.21
+
 
 Kallistar:
-23% Flare Shot
-4% Caustic Strike
-4% Caustic Shot
-41% Caustic Drive
-29% Caustic Grasp
+13% Blazing Spellbolt
+17% Blazing Strike
+24% Blazing Burst
+46% Blazing Dash
 
 Seth:
-55% Fool's Omen (Shot)
-13% Mimic's Drive (Drive)
-5% Mimic's Burst (Shot)
-21% Mimic's Burst (Drive)
-6% Mimic's Grasp (Grasp)
+12% Mimic's Drive (Burst)
+15% Vanishing Omen (Dash)
+67% Vanishing Drive (Spellbolt)
+6% Vanishing Drive (Burst)
 
 
-Kallistar: Caustic Drive
-Seth: Mimic's Burst (Drive)
+Kallistar: Blazing Dash
+Seth: Vanishing Omen (Dash)
 
-Kallistar loses 1 life (now at 8)
+Kallistar loses 1 life (now at 6)
 Seth gets +2 power
 Seth gets +2 priority
-Priorities:  5 | 3
+Priorities:  12 | 3
 Kallistar is active
-Seth moves:
-
-K..S...
-
-Kallistar moves:
-
-.K.S...
-
-Kallistar misses
+Kallistar is stunned
 Seth hits
-Kallistar takes 6 damage (now at 2 life)
+Kallistar takes 5 damage (now at 1 life)
 Kallistar is stunned
 
 Beat 9
@@ -524,58 +491,116 @@ Beat 9
 
 Kallistar
 ---------
-life: 2
-discard 1: Caustic Drive
-discard 2: Volcanic Spellbolt
-special action
+Life: 1
+Discard 1: Blazing Dash
+Discard 2: Volcanic Shot
+Special action available
 Elemental Form
 
 Seth
 ----
-life: 12
-discard 1: Mimic's Burst
-discard 2: Compelling Dash
-special action
+Life: 10
+Discard 1: Vanishing Omen
+Discard 2: Compelling Grasp
+Special action available
 
 
-.K..S..
+...K.S.
 
-Unbeatable strategy for Seth: Vanishing Shot (Strike): -2.62
-Unbeatable strategy for Seth: Vanishing Shot (Shot): -2.62
-Unbeatable strategy for Seth: Vanishing Shot (Burst): -2.62
-Unbeatable strategy for Seth: Vanishing Shot (Grasp): -2.62
-Unbeatable strategy for Seth: Vanishing Shot (Dash): -2.62
-Unbeatable strategy for Seth: Vanishing Drive (Strike): -2.44
-Unbeatable strategy for Seth: Vanishing Drive (Shot): -2.44
-Unbeatable strategy for Seth: Vanishing Drive (Burst): -2.44
-Unbeatable strategy for Seth: Vanishing Drive (Grasp): -2.44
-Unbeatable strategy for Seth: Vanishing Drive (Dash): -2.44
-Unbeatable strategy for Seth: Wyrding Drive (Burst): -1.63
 
 Kallistar:
-23% Ignition Shot
-77% Blazing Dash
+22% Flare Drive
+10% Caustic Strike
+25% Ignition Spellbolt
+10% Ignition Strike
+10% Ignition Drive
+19% Ignition Burst
+4% Special Supernova
 
 Seth:
-7% Vanishing Shot (Strike)
-7% Vanishing Shot (Shot)
-48% Vanishing Shot (Burst)
-7% Vanishing Shot (Grasp)
-7% Vanishing Shot (Dash)
-23% Wyrding Omen (Dash)
+4% Fool's Shot (Spellbolt)
+4% Fool's Shot (Strike)
+4% Fool's Shot (Drive)
+4% Fool's Shot (Burst)
+4% Fool's Shot (Grasp)
+1% Mimic's Drive (Drive)
+1% Wyrding Drive (Drive)
+15% Wyrding Drive (Burst)
+50% Wyrding Dash (Spellbolt)
+14% Wyrding Dash (Drive)
 
 
-Kallistar: Blazing Dash
-Seth: Wyrding Omen (Dash)
+Kallistar: Ignition Strike
+Seth: Wyrding Dash (Spellbolt)
 
 Kallistar loses 1 life (now at 1)
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  12 | 4
+Kallistar loses 3 life (now at 1)
+Kallistar gets +3 power
+Priorities:  4 | 10
+Seth is active
+Seth moves:
+
+..SK...
+
+Kallistar misses
+
+Beat 10
+-------
+
+Kallistar
+---------
+Life: 1
+Discard 1: Ignition Strike
+Discard 2: Blazing Dash
+Special action available
+Elemental Form
+
+Seth
+----
+Life: 10
+Discard 1: Wyrding Dash
+Discard 2: Vanishing Omen
+Special action available
+
+
+..SK...
+
+
+Kallistar:
+0% Flare Spellbolt
+0% Flare Drive
+62% Caustic Spellbolt
+38% Special Supernova
+
+Seth:
+4% Fool's Burst (Spellbolt)
+4% Fool's Burst (Shot)
+4% Fool's Burst (Drive)
+4% Fool's Burst (Burst)
+4% Fool's Burst (Grasp)
+5% Mimic's Burst (Spellbolt)
+11% Mimic's Burst (Shot)
+5% Mimic's Burst (Drive)
+16% Mimic's Burst (Burst)
+5% Mimic's Burst (Grasp)
+6% Compelling Strike (Drive)
+2% Compelling Shot (Shot)
+19% Compelling Grasp (Spellbolt)
+12% Compelling Grasp (Drive)
+
+
+Kallistar: Special Supernova
+Seth: Mimic's Burst (Burst)
+
+Kallistar loses 1 life (now at 1)
+Priorities:  7 | 1
 Kallistar is active
-Seth selects Shot as his new base
-Kallistar is stunned
+Seth moves:
+
+S..K...
+
+Kallistar misses
 Seth hits
-Kallistar takes 5 damage (now at 0 life)
+Kallistar takes 4 damage (now at 0 life)
 SETH WINS!
-total_time: 12
+total_time: 15

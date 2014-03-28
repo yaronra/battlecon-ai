@@ -42,10 +42,10 @@ Lixis:
 
 
 Cesar: Bulwark Dash
-Lixis: Venomous Shot
+Lixis: Venomous Drive
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  7 | 2
+Priorities:  7 | 4
 Cesar is active
 Cesar moves:
 
@@ -71,7 +71,7 @@ Threat level: 1
 Lixis
 -----
 Life: 20
-Discard 1: Venomous Shot
+Discard 1: Venomous Drive
 Discard 2: Pruning Grasp
 Special action available
 
@@ -80,31 +80,30 @@ Special action available
 
 
 Cesar:
-24% Inevitable Shot
+27% Inevitable Shot
 45% Inevitable Drive
-31% Inevitable Grasp
+28% Inevitable Grasp
 
 Lixis:
-5% Rooted Dash
-93% Naturalizing Drive
-2% Naturalizing Burst
+29% Rooted Dash
+58% Naturalizing Strike
+13% Naturalizing Burst
 
 
-Cesar: Inevitable Drive
-Lixis: Rooted Dash
+Cesar: Inevitable Grasp
+Lixis: Naturalizing Strike
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  4 | 7
-Lixis is active
-Lixis moves:
+Priorities:  5 | 4
+Cesar is active
+Cesar hits
+Lixis is stunned
+Lixis will have -3 priority next beat
+Cesar moves Lixis:
 
-..L...C
+....L.C
 
-Cesar moves:
-
-..L.C..
-
-Cesar misses
+Lixis takes 2 damage (now at 18 life)
 
 Beat 3
 -------
@@ -112,43 +111,156 @@ Beat 3
 Cesar
 -----
 Life: 20
-Discard 1: Inevitable Drive
+Discard 1: Inevitable Grasp
 Discard 2: Bulwark Dash
 Special action available
+Opponent has power penalty: -3
 Threat level: 2
 
 Lixis
 -----
-Life: 20
-Discard 1: Rooted Dash
-Discard 2: Venomous Shot
+Life: 18
+Discard 1: Naturalizing Strike
+Discard 2: Venomous Drive
 Special action available
 
 
-..L.C..
-
-Unbeatable strategy for Lixis: Pruning Burst: -0.13
+....L.C
 
 
 Cesar:
-13% Phalanx Strike
-7% Phalanx Burst
-21% Unstoppable Shot
-59% Fueled Burst
+20% Phalanx Strike
+19% Phalanx Drive
+46% Unstoppable Shot
+16% Unstoppable Burst
 
 Lixis:
-17% Naturalizing Strike
-6% Naturalizing Drive
-69% Vine Lance
-8% Vine Burst
+47% Rooted Lance
+23% Rooted Shot
+9% Rooted Burst
+21% Rooted Dash
 
 
-Cesar: Phalanx Burst
-Lixis: Vine Lance
+Cesar: Unstoppable Shot
+Lixis: Rooted Dash
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  -1 | 3
+Priorities:  0 | 7
 Lixis is active
+Lixis moves:
+
+.L....C
+
+Cesar moves:
+
+.L..C..
+
+Cesar hits
+Lixis has 2 soak
+Lixis takes 4 damage (now at 14 life)
+Lixis is stunned
+
+Beat 4
+-------
+
+Cesar
+-----
+Life: 20
+Discard 1: Unstoppable Shot
+Discard 2: Inevitable Grasp
+Special action available
+Threat level: 3
+
+Lixis
+-----
+Life: 14
+Discard 1: Rooted Dash
+Discard 2: Naturalizing Strike
+Special action available
+
+
+.L..C..
+
+
+Cesar:
+17% Fueled Strike
+36% Bulwark Drive
+48% Bulwark Burst
+
+Lixis:
+52% Venomous Shot
+15% Venomous Drive
+33% Venomous Burst
+
+
+Cesar: Bulwark Burst
+Lixis: Venomous Shot
+
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  -1 | 2
+Lixis is active
+Cesar moves:
+
+.L....C
+
+Lixis moves:
+
+..L...C
+
+Lixis hits
+Cesar will have -2 priority next beat
+Cesar discards Suppression
+Cesar has 2 soak
+Cesar takes 2 damage (now at 18 life)
+
+Beat 5
+-------
+
+Cesar
+-----
+Life: 18
+Discard 1: Bulwark Burst Suppression
+Discard 2: Unstoppable Shot
+Special action available
+Threat level: 4
+
+Lixis
+-----
+Life: 14
+Discard 1: Venomous Shot
+Discard 2: Rooted Dash
+Special action available
+Opponent has priority penalty: -2
+
+
+..L...C
+
+Unbeatable strategy for Lixis: Vine Lance: -0.55
+Unbeatable strategy for Lixis: Vine Drive: -0.55
+Unbeatable strategy for Lixis: Vine Burst: -0.90
+
+
+Cesar:
+52% Phalanx Strike
+48% Fueled Dash
+
+Lixis:
+44% Vine Lance
+56% Vine Burst
+
+
+Cesar: Fueled Dash
+Lixis: Vine Lance
+
+Cesar gains a Threat Level (current level: 0)
+Priorities:  6 | 3
+Cesar is active
+Cesar gains a Threat Level (current level: 1)
+Cesar moves:
+
+..L.C..
+
 Cesar moves:
 
 ..L...C
@@ -158,118 +270,9 @@ Lixis moves Cesar:
 
 ..L.C..
 
-Cesar discards Strike
-Cesar takes 3 damage (now at 17 life)
-Cesar hits
-Lixis takes 6 damage (now at 14 life)
-Lixis is stunned
-
-Beat 4
--------
-
-Cesar
------
-Life: 17
-Discard 1: Phalanx Burst Strike
-Discard 2: Inevitable Drive
-Special action available
-Threat level: 3
-
-Lixis
------
-Life: 14
-Discard 1: Vine Lance
-Discard 2: Rooted Dash
-Special action available
-
-
-..L.C..
-
-Unbeatable strategy for Cesar: Unstoppable Suppression: 0.94
-
-
-Cesar:
-94% Unstoppable Suppression
-6% Unstoppable Grasp
-
-Lixis:
-85% Venomous Shot
-15% Pruning Shot
-
-
-Cesar: Unstoppable Suppression
-Lixis: Venomous Shot
-
-Cesar gains a Threat Level (current level: 4)
+Cesar discards Drive
+Cesar takes 3 damage (now at 15 life)
 Cesar is stunned
-Priorities:  0 | 2
-Lixis is active
-Lixis moves:
-
-...LC..
-
-Cesar moves:
-
-.C.L...
-
-Lixis hits
-Cesar discards Grasp
-Cesar has 2 soak
-Cesar takes 2 damage (now at 15 life)
-Cesar is stunned
-Cesar moves:
-
-C..L...
-
-
-Beat 5
--------
-
-Cesar
------
-Life: 15
-Discard 1: Unstoppable Grasp Suppression
-Discard 2: Phalanx Burst Strike
-Special action available
-Threat level: 4
-
-Lixis
------
-Life: 14
-Discard 1: Venomous Shot
-Discard 2: Vine Lance
-Special action available
-
-
-C..L...
-
-Unbeatable strategy for Lixis: Pruning Drive: -0.23
-
-
-Cesar:
-3% Fueled Drive
-76% Fueled Dash
-5% Bulwark Dash
-16% Inevitable Dash
-
-Lixis:
-65% Rooted Drive
-3% Rooted Burst
-28% Pruning Drive
-3% Pruning Grasp
-
-
-Cesar: Inevitable Dash
-Lixis: Rooted Drive
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  9 | 2
-Cesar is active
-Cesar moves:
-
-...LC..
-
-Lixis misses
 
 Beat 6
 -------
@@ -277,431 +280,391 @@ Beat 6
 Cesar
 -----
 Life: 15
-Discard 1: Inevitable Dash
-Discard 2: Unstoppable Grasp Suppression
+Discard 1: Fueled Dash Drive
+Discard 2: Bulwark Burst Suppression
 Special action available
-Threat level: 0
+Threat level: 1
 
 Lixis
 -----
 Life: 14
-Discard 1: Rooted Drive
+Discard 1: Vine Lance
 Discard 2: Venomous Shot
 Special action available
 
 
-...LC..
+..L.C..
+
+Unbeatable strategy for Lixis: Pruning Burst: -0.43
 
 
 Cesar:
-37% Phalanx Strike
-17% Fueled Strike
-0% Bulwark Shot
-9% Bulwark Drive
-37% Bulwark Burst
+50% Phalanx Strike
+7% Phalanx Grasp
+16% Unstoppable Shot
+26% Inevitable Shot
 
 Lixis:
-47% Vine Strike
-11% Vine Burst
-7% Pruning Strike
-14% Pruning Burst
-22% Pruning Dash
+48% Rooted Drive
+26% Rooted Burst
+23% Pruning Drive
+4% Pruning Burst
 
 
-Cesar: Phalanx Strike
-Lixis: Vine Strike
+Cesar: Inevitable Shot
+Lixis: Rooted Drive
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  1 | 1
+Cesar gains a Threat Level (current level: 2)
+Priorities:  2 | 2
 Clash!
 
 
-Cesar: Phalanx Shot
-Lixis: Vine Dash
+Cesar: Inevitable Grasp
+Lixis: Rooted Burst
 
-Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 7
-Lixis is active
+Cesar gains a Threat Level (current level: 2)
+Priorities:  5 | -1
+Cesar is active
 Lixis moves:
 
-....CL.
+.L..C..
 
 Cesar misses
+Lixis hits
+Cesar discards Strike
+Cesar takes 4 damage (now at 11 life)
 
 Beat 7
 -------
 
 Cesar
 -----
-Life: 15
-Discard 1: Phalanx Shot
-Discard 2: Inevitable Dash
+Life: 11
+Discard 1: Inevitable Grasp Strike
+Discard 2: Fueled Dash Drive
 Special action available
-Threat level: 1
+Threat level: 2
 
 Lixis
 -----
 Life: 14
-Discard 1: Vine Dash
-Discard 2: Rooted Drive
+Discard 1: Rooted Burst
+Discard 2: Vine Lance
 Special action available
 
 
-....CL.
-
-Unbeatable strategy for Lixis: Naturalizing Shot: -0.36
+.L..C..
 
 
 Cesar:
-33% Unstoppable Strike
-4% Unstoppable Grasp
-15% Fueled Grasp
-16% Bulwark Strike
-29% Bulwark Burst
-4% Bulwark Grasp
+36% Phalanx Shot
+14% Phalanx Burst
+38% Bulwark Shot
+12% Bulwark Burst
 
 Lixis:
-2% Venomous Strike
-20% Venomous Shot
-25% Naturalizing Strike
-43% Naturalizing Shot
-2% Naturalizing Burst
-8% Pruning Burst
+0% Venomous Shot
+69% Venomous Dash
+4% Naturalizing Shot
+26% Naturalizing Drive
 
 
-Cesar: Unstoppable Strike
-Lixis: Naturalizing Strike
+Cesar: Bulwark Shot
+Lixis: Venomous Dash
 
-Cesar gains a Threat Level (current level: 2)
-Priorities:  1 | 4
+Cesar gains a Threat Level (current level: 3)
+Priorities:  0 | 9
 Lixis is active
-Lixis hits
-Cesar discards Drive
-Cesar takes 3 damage (now at 12 life)
-Cesar hits
-Lixis takes 4 damage (now at 10 life)
+Lixis moves:
+
+..L.C..
+
+Lixis moves:
+
+....C.L
+
+Cesar misses
 
 Beat 8
 -------
 
 Cesar
 -----
-Life: 12
-Discard 1: Unstoppable Drive Strike
-Discard 2: Phalanx Shot
+Life: 11
+Discard 1: Bulwark Shot
+Discard 2: Inevitable Strike Grasp
 Special action available
-Threat level: 2
+Threat level: 3
 
 Lixis
 -----
-Life: 10
-Discard 1: Naturalizing Strike
-Discard 2: Vine Dash
+Life: 14
+Discard 1: Venomous Dash
+Discard 2: Rooted Burst
 Special action available
-
-
-....CL.
-
-Unbeatable strategy for Lixis: Venomous Burst: -1.54
-Unbeatable strategy for Lixis: Rooted Burst: -0.56
-Unbeatable strategy for Lixis: Pruning Drive: -2.01
-Unbeatable strategy for Lixis: Pruning Burst: -0.28
-
-
-Cesar:
-48% Fueled Suppression
-52% Fueled Grasp
-
-Lixis:
-77% Venomous Burst
-23% Pruning Drive
-
-
-Cesar: Fueled Grasp
-Lixis: Venomous Burst
-
-Cesar gains a Threat Level (current level: 3)
-Priorities:  4 | 1
-Cesar is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Lixis moves:
-
-....C.L
-
-Lixis hits
-Cesar will have -2 priority next beat
-Cesar discards Dash
-Cesar has 2 soak
-Cesar takes 2 damage (now at 10 life)
-Cesar is stunned
-
-Beat 9
--------
-
-Cesar
------
-Life: 10
-Discard 1: Fueled Grasp Dash
-Discard 2: Unstoppable Strike Drive
-Special action available
-Threat level: 4
-
-Lixis
------
-Life: 10
-Discard 1: Venomous Burst
-Discard 2: Naturalizing Strike
-Special action available
-Opponent has priority penalty: -2
 
 
 ....C.L
 
-Unbeatable strategy for Lixis: Rooted Shot: -1.72
-Unbeatable strategy for Lixis: Pruning Shot: -4.40
+Unbeatable strategy for Cesar: Phalanx Dash: 0.01
+Unbeatable strategy for Cesar: Fueled Dash: 0.13
 
 
 Cesar:
-10% Phalanx Suppression
-5% Bulwark Burst
-85% Special Pulse
+5% Unstoppable Burst
+56% Fueled Drive
+39% Fueled Burst
 
 Lixis:
-15% Rooted Lance
-3% Rooted Shot
-82% Pruning Shot
+55% Pruning Lance
+45% Pruning Shot
+0% Pruning Drive
 
 
-Cesar: Special Pulse
+Cesar: Fueled Drive
 Lixis: Pruning Shot
 
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Lixis gets +3 power
+Lixis gets +3 priority
+Priorities:  3 | 3
+Clash!
+
+
+Cesar: Fueled Burst
+Lixis: Pruning Lance
+
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Lixis gets +3 power
+Lixis gets +3 priority
+Priorities:  0 | 6
+Lixis is active
 Cesar gains a Threat Level (current level: 0)
-Cesar Pulses:
+Cesar moves:
 
-C.....L
+...C..L
 
+Lixis misses
 
 Beat 9
 -------
 
 Cesar
 -----
-Life: 10
-Discard 1: Fueled Grasp Dash
-Discard 2: Unstoppable Strike Drive
+Life: 11
+Discard 1: Fueled Burst
+Discard 2: Bulwark Shot
+Special action available
 Threat level: 0
 
 Lixis
 -----
-Life: 10
-Discard 1: Pruning Shot
-Discard 2: Venomous Burst
+Life: 14
+Discard 1: Pruning Lance
+Discard 2: Venomous Dash
 Special action available
 
 
-C.....L
-
-Unbeatable strategy for Cesar: Bulwark Suppression: 0.09
+...C..L
 
 
 Cesar:
-75% Bulwark Suppression
-25% Bulwark Burst
+4% Phalanx Strike
+38% Phalanx Drive
+57% Inevitable Drive
 
 Lixis:
-38% Rooted Drive
-62% Rooted Dash
+13% Rooted Drive
+17% Naturalizing Strike
+70% Naturalizing Drive
 
 
-Cesar: Bulwark Suppression
-Lixis: Rooted Dash
+Cesar: Phalanx Drive
+Lixis: Naturalizing Drive
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  0 | 7
+Priorities:  2 | 5
 Lixis is active
 Lixis moves:
 
-C..L...
+...CL..
 
-Cesar misses
+Lixis hits
+Cesar discards Strike
+Cesar takes 2 damage (now at 9 life)
+Cesar moves:
+
+....L.C
+
+Cesar hits
+Lixis takes 3 damage (now at 11 life)
+Lixis is stunned
 
 Beat 10
 -------
 
 Cesar
 -----
-Life: 10
-Discard 1: Bulwark Suppression
-Discard 2: Fueled Grasp Dash
+Life: 9
+Discard 1: Phalanx Drive Strike
+Discard 2: Fueled Burst
+Special action available
 Threat level: 1
 
 Lixis
 -----
-Life: 10
-Discard 1: Rooted Dash
-Discard 2: Pruning Shot
+Life: 11
+Discard 1: Naturalizing Drive
+Discard 2: Pruning Lance
 Special action available
 
 
-C..L...
+....L.C
 
-Unbeatable strategy for Lixis: Venomous Lance: -1.63
-Unbeatable strategy for Lixis: Venomous Drive: -1.13
-Unbeatable strategy for Lixis: Naturalizing Lance: -0.78
-Unbeatable strategy for Lixis: Naturalizing Drive: -0.93
-Unbeatable strategy for Lixis: Naturalizing Burst: -0.02
-Unbeatable strategy for Lixis: Vine Lance: -0.20
+Unbeatable strategy for Lixis: Venomous Shot: -1.66
 
 
 Cesar:
-51% Phalanx Strike
-30% Unstoppable Shot
-19% Inevitable Shot
+17% Unstoppable Shot
+52% Bulwark Dash
+1% Inevitable Shot
+30% Inevitable Dash
 
 Lixis:
-91% Venomous Lance
-5% Venomous Burst
-5% Vine Burst
+66% Venomous Shot
+16% Rooted Shot
+6% Rooted Burst
+12% Vine Dash
 
 
-Cesar: Inevitable Shot
-Lixis: Venomous Lance
+Cesar: Bulwark Dash
+Lixis: Venomous Shot
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 5
-Lixis is active
+Priorities:  7 | 2
+Cesar is active
+Cesar moves:
+
+....LC.
+
+Cesar moves:
+
+..C.L..
+
 Lixis moves:
 
-C.L....
+..CL...
 
-Lixis hits
-Cesar will have -2 priority next beat
-Cesar discards Burst
-Cesar takes 4 damage (now at 6 life)
-Cesar hits
-Lixis is stunned
-Lixis will have -3 priority next beat
-Lixis takes 5 damage (now at 5 life)
-Lixis is stunned
+Lixis misses
 
 Beat 11
 -------
 
 Cesar
 -----
-Life: 6
-Discard 1: Inevitable Shot Burst
-Discard 2: Bulwark Suppression
-Opponent has power penalty: -3
+Life: 9
+Discard 1: Bulwark Dash
+Discard 2: Phalanx Strike Drive
+Special action available
 Threat level: 2
 
 Lixis
 -----
-Life: 5
-Discard 1: Venomous Lance
-Discard 2: Rooted Dash
+Life: 11
+Discard 1: Venomous Shot
+Discard 2: Naturalizing Drive
 Special action available
-Opponent has priority penalty: -2
 
 
-C.L....
+..CL...
 
 
 Cesar:
-4% Phalanx Strike
-4% Phalanx Drive
-90% Fueled Grasp
-1% Fueled Dash
+5% Unstoppable Grasp
+44% Fueled Burst
+48% Inevitable Shot
+3% Inevitable Burst
 
 Lixis:
-22% Naturalizing Burst
-68% Naturalizing Grasp
-4% Vine Shot
-7% Vine Burst
+39% Rooted Lance
+40% Rooted Burst
+16% Vine Grasp
+5% Pruning Strike
 
 
-Cesar: Fueled Grasp
-Lixis: Naturalizing Grasp
+Cesar: Fueled Burst
+Lixis: Vine Grasp
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  2 | 6
+Priorities:  0 | 3
 Lixis is active
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
+Cesar moves:
+
+C..L...
+
 Lixis hits
 Lixis moves Cesar:
 
-.CL....
+.C.L...
 
-Cesar discards Drive
-Cesar has 2 soak
-Cesar takes 0 damage (now at 6 life)
+Cesar discards Shot
+Cesar takes 2 damage (now at 7 life)
+Cesar is stunned
 
 Beat 12
 -------
 
 Cesar
 -----
-Life: 6
-Discard 1: Fueled Grasp Drive
-Discard 2: Inevitable Shot Burst
+Life: 7
+Discard 1: Fueled Burst Shot
+Discard 2: Bulwark Dash
+Special action available
 Threat level: 4
 
 Lixis
 -----
-Life: 5
-Discard 1: Naturalizing Grasp
-Discard 2: Venomous Lance
+Life: 11
+Discard 1: Vine Grasp
+Discard 2: Venomous Shot
 Special action available
 
 
-.CL....
+.C.L...
+
+Unbeatable strategy for Lixis: Rooted Lance: -2.24
+Unbeatable strategy for Lixis: Pruning Lance: -2.44
 
 
 Cesar:
-37% Phalanx Dash
-7% Unstoppable Strike
-33% Bulwark Strike
-24% Bulwark Dash
+75% Phalanx Strike
+19% Unstoppable Drive
+5% Inevitable Drive
 
 Lixis:
-57% Rooted Dash
-25% Pruning Strike
-9% Pruning Shot
-9% Pruning Burst
+18% Rooted Strike
+18% Rooted Burst
+64% Pruning Lance
 
 
-Cesar: Bulwark Dash
-Lixis: Rooted Dash
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  7 | 7
-Clash!
-
-
-Cesar: Bulwark Strike
-Lixis: Rooted Strike
+Cesar: Phalanx Strike
+Lixis: Pruning Lance
 
 Cesar gains a Threat Level (current level: 0)
-Priorities:  1 | 1
-Clash!
-
-
-Cesar: Bulwark Suppression
-Lixis: Rooted Drive
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  0 | 2
+Lixis gets +3 power
+Lixis gets +3 priority
+Priorities:  1 | 6
 Lixis is active
 Lixis hits
-Cesar discards Strike
-Cesar takes 4 damage (now at 2 life)
-Cesar is stunned
-Cesar moves:
-
-..L..C.
-
+Cesar discards Grasp
+Cesar takes 5 damage (now at 2 life)
+Cesar hits
+Lixis takes 4 damage (now at 7 life)
+Lixis is stunned
 
 Beat 13
 -------
@@ -709,179 +672,164 @@ Beat 13
 Cesar
 -----
 Life: 2
-Discard 1: Bulwark Suppression Strike
-Discard 2: Fueled Grasp Drive
+Discard 1: Phalanx Strike Grasp
+Discard 2: Fueled Burst Shot
+Special action available
 Threat level: 0
 
 Lixis
 -----
-Life: 5
-Discard 1: Rooted Drive
-Discard 2: Naturalizing Grasp
+Life: 7
+Discard 1: Pruning Lance
+Discard 2: Vine Grasp
 Special action available
 
 
-..L..C.
-
-Unbeatable strategy for Lixis: Venomous Shot: -0.14
-Unbeatable strategy for Lixis: Vine Lance: -2.27
-Unbeatable strategy for Lixis: Pruning Shot: -0.14
+.C.L...
 
 
 Cesar:
-29% Phalanx Shot
-3% Phalanx Dash
-1% Unstoppable Dash
-67% Inevitable Shot
+23% Bulwark Drive
+44% Bulwark Dash
+8% Inevitable Drive
+25% Inevitable Dash
 
 Lixis:
-12% Venomous Lance
-39% Vine Lance
-16% Vine Burst
-33% Pruning Shot
+4% Venomous Strike
+8% Venomous Dash
+35% Rooted Dash
+53% Naturalizing Drive
 
 
-Cesar: Inevitable Shot
-Lixis: Vine Lance
+Cesar: Bulwark Drive
+Lixis: Rooted Dash
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  2 | 3
+Priorities:  2 | 7
 Lixis is active
-Lixis hits
-Lixis moves Cesar:
+Lixis moves:
 
-..LC...
+.C...L.
 
-Cesar discards Burst
-Cesar takes 3 damage (now at 0 life)
-Cesar hits
-Lixis is stunned
-Lixis will have -3 priority next beat
-Lixis takes 4 damage (now at 1 life)
-Lixis is stunned
+Cesar moves:
+
+..C..L.
+
+Cesar misses
+Cesar moves:
+
+....CL.
+
 
 Beat 14
 -------
 
 Cesar
 -----
-Life: 1
-Discard 1: Inevitable Shot Burst
-Discard 2: Bulwark Suppression Strike
-Opponent has power penalty: -3
+Life: 2
+Discard 1: Bulwark Drive
+Discard 2: Phalanx Grasp Strike
+Special action available
 Threat level: 1
-Defeat immunity used-up
 
 Lixis
 -----
-Life: 1
-Discard 1: Vine Lance
-Discard 2: Rooted Drive
+Life: 7
+Discard 1: Rooted Dash
+Discard 2: Pruning Lance
 Special action available
 
 
-..LC...
+....CL.
 
-Unbeatable strategy for Lixis: Pruning Grasp: -1.29
+Unbeatable strategy for Lixis: Venomous Shot: -2.48
+Unbeatable strategy for Lixis: Naturalizing Shot: -2.57
+Unbeatable strategy for Lixis: Naturalizing Drive: -2.52
+Unbeatable strategy for Lixis: Vine Drive: -2.60
+Unbeatable strategy for Lixis: Vine Grasp: -1.59
 
 
 Cesar:
-2% Phalanx Dash
-2% Unstoppable Dash
-2% Fueled Grasp
-94% Fueled Dash
+67% Unstoppable Shot
+33% Special Level 4 Protocol
 
 Lixis:
-21% Venomous Shot
-5% Naturalizing Strike
-36% Pruning Shot
-38% Pruning Grasp
+32% Venomous Strike
+68% Naturalizing Burst
 
 
-Cesar: Fueled Dash
-Lixis: Venomous Shot
+Cesar: Unstoppable Shot
+Lixis: Naturalizing Burst
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  8 | 2
-Cesar is active
-Cesar gains a Threat Level (current level: 3)
+Priorities:  0 | 2
+Lixis is active
+Lixis moves:
+
+....C.L
+
 Cesar moves:
 
-C.L....
-
-Cesar moves:
-
-..LC...
+.....CL
 
 Lixis misses
+Cesar hits
+Lixis takes 3 damage (now at 4 life)
+Lixis is stunned
 
 Beat 15
 -------
 
 Cesar
 -----
-Life: 1
-Discard 1: Fueled Dash
-Discard 2: Inevitable Shot Burst
-Threat level: 3
-Defeat immunity used-up
+Life: 2
+Discard 1: Unstoppable Shot
+Discard 2: Bulwark Drive
+Special action available
+Threat level: 2
 
 Lixis
 -----
-Life: 1
-Discard 1: Venomous Shot
-Discard 2: Vine Lance
+Life: 4
+Discard 1: Naturalizing Burst
+Discard 2: Rooted Dash
 Special action available
 
 
-..LC...
-
-Unbeatable strategy for Lixis: Rooted Strike: -6.00
-Unbeatable strategy for Lixis: Rooted Drive: -6.00
-Unbeatable strategy for Lixis: Rooted Burst: -6.00
-Unbeatable strategy for Lixis: Rooted Grasp: -6.00
-Unbeatable strategy for Lixis: Naturalizing Strike: -6.00
-Unbeatable strategy for Lixis: Pruning Strike: -6.00
-Unbeatable strategy for Lixis: Pruning Drive: -6.00
-Unbeatable strategy for Lixis: Pruning Grasp: -6.00
+.....CL
 
 
 Cesar:
-8% Phalanx Suppression
-8% Phalanx Strike
-7% Phalanx Drive
-8% Phalanx Grasp
-10% Unstoppable Suppression
-10% Unstoppable Strike
-8% Unstoppable Drive
-10% Unstoppable Grasp
-8% Bulwark Suppression
-8% Bulwark Strike
-8% Bulwark Drive
-8% Bulwark Grasp
+100% Special Level 4 Protocol
 
 Lixis:
-11% Rooted Strike
-11% Rooted Drive
-11% Rooted Burst
-10% Rooted Grasp
-11% Naturalizing Strike
-11% Pruning Strike
-11% Pruning Drive
-11% Pruning Grasp
-11% Special Virulent Miasma
+5% Venomous Lance
+4% Venomous Strike
+4% Venomous Shot
+6% Venomous Drive
+9% Venomous Grasp
+10% Vine Lance
+12% Vine Strike
+11% Vine Shot
+3% Vine Drive
+8% Vine Grasp
+5% Pruning Lance
+3% Pruning Strike
+3% Pruning Shot
+6% Pruning Drive
+8% Pruning Grasp
+4% Special Virulent Miasma
 
 
-Cesar: Bulwark Grasp
-Lixis: Rooted Drive
+Cesar: Special Level 4 Protocol
+Lixis: Pruning Lance
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  3 | 2
+Cesar gains a Threat Level (current level: 3)
+Lixis gets +2 power
+Lixis gets +2 priority
+Priorities:  11 | 5
 Cesar is active
-Lixis hits
-Cesar discards Drive
-Cesar has 2 soak
-Cesar takes 2 damage (now at 0 life)
-LIXIS WINS!
-total_time: 13
+Cesar hits
+Lixis takes 10 damage (now at 0 life)
+CESAR WINS!
+total_time: 15
