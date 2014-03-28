@@ -11,89 +11,60 @@ Beat 1
 
 Cadenza
 -------
-life: 20
-discard 1: 
-discard 2: 
-special action
-3 Iron Body tokens
+Life: 20
+Discard 1: Hydraulic Burst
+Discard 2: Mechanical Press
+Special action available
+3 Iron Body token
 
 Ottavia
 -------
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: Cybernetic Strike
+Discard 2: Demolition Shot
+Special action available
 
 
 .C...O.
 
+
 Cadenza:
-3% Battery Strike
-5% Battery Drive
-14% Battery Dash
-2% Clockwork Drive
-30% Clockwork Dash
-1% Hydraulic Drive
-2% Grapnel Shot
+25% Battery Dash
+17% Clockwork Dash
+15% Grapnel Shot
 9% Grapnel Drive
-10% Grapnel Grasp
-10% Grapnel Dash
-15% Mechanical Dash
+17% Grapnel Grasp
+16% Grapnel Dash
 
 Ottavia:
-27% Snapback Grasp (Target Lock: 7)
-3% Snapback Grasp (Target Lock: 9)
-1% Demolition Shooter (Target Lock: 4)
-2% Demolition Shooter (Target Lock: 5)
-4% Anti-Personnel Shooter (Target Lock: 6)
-6% Anti-Personnel Drive (Target Lock: 8)
-1% Anti-Personnel Grasp (Target Lock: 5)
-23% Anti-Personnel Dash (Target Lock: 3)
-22% Cover Dash (Target Lock: -1)
-9% Cybernetic Shooter (Target Lock: 5)
-2% Cybernetic Shot (Target Lock: 4)
+24% Snapback Grasp (Target Lock: 5)
+18% Snapback Grasp (Target Lock: 9)
+9% Anti-Personnel Drive (Target Lock: 5)
+17% Anti-Personnel Drive (Target Lock: 8)
+17% Anti-Personnel Dash (Target Lock: 3)
+14% Cover Dash (Target Lock: 1)
 
 
-Cadenza: Battery Dash
-Ottavia: Anti-Personnel Dash (Target Lock: 3)
+Cadenza: Grapnel Grasp
+Ottavia: Anti-Personnel Drive (Target Lock: 8)
 
-Priorities:  8 | 8
-Clash!
-
-Cadenza:
-50% Battery Shot
-50% Battery Drive
-
-Ottavia:
-50% Anti-Personnel Shooter (Target Lock: 3)
-50% Anti-Personnel Shot (Target Lock: 3)
-
-
-Cadenza: Battery Shot
-Ottavia: Anti-Personnel Shot (Target Lock: 3)
-
-Priorities:  1 | 1
-Clash!
-
-Cadenza:
-100% Battery Drive
-
-Ottavia:
-100% Anti-Personnel Shooter (Target Lock: 3)
-
-
-Cadenza: Battery Drive
-Ottavia: Anti-Personnel Shooter (Target Lock: 3)
-
-Ottavia acquires target lock
-Priorities:  -7 | 1
-Ottavia is active
-Ottavia hits
-Cadenza takes 7 damage (now at 13 life)
-Cadenza is stunned
-Ottavia moves:
+Priorities:  5 | 3
+Cadenza is active
+Cadenza hits
+Cadenza moves Ottavia:
 
 .CO....
+
+Cadenza moves Ottavia:
+
+.C.O...
+
+Ottavia is stunned
+Ottavia takes 2 damage (now at 18 life)
+Ottavia is stunned
+Ottavia moves:
+
+OC.....
 
 
 Beat 2
@@ -101,78 +72,772 @@ Beat 2
 
 Cadenza
 -------
-life: 13
-discard 1: Battery Drive
-discard 2: 
-special action
-3 Iron Body tokens
-+4 priority from last beat
+Life: 20
+Discard 1: Grapnel Grasp
+Discard 2: Hydraulic Burst
+Special action available
+3 Iron Body token
 
 Ottavia
 -------
-life: 20
-discard 1: Anti-Personnel Shooter
-discard 2: 
-special action
+Life: 18
+Discard 1: Anti-Personnel Drive
+Discard 2: Cybernetic Strike
+Special action available
 
 
-.CO....
+OC.....
 
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 1): -0.08
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 2): -0.08
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): -0.08
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 4): -0.08
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 5): -0.08
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 6): -0.08
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 7): -0.08
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 8): -0.08
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 9): -0.08
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 10): -0.08
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 11): -0.08
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 12): -0.08
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 13): -0.08
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -3): -0.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -2): -0.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -1): -0.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 0): -0.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 1): -0.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 2): -0.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): -0.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 6): -0.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 7): -0.32
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 8): -0.32
+Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: -3): -0.39
+Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: -2): -0.39
+Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: -1): -0.39
+Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 0): -0.39
+Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 1): -0.39
+Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 2): -0.39
+Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 3): -0.39
+Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 6): -0.39
+Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 7): -0.39
+Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 8): -0.39
+
 
 Cadenza:
-1% Clockwork Shot
-8% Hydraulic Strike
-44% Hydraulic Shot
-11% Hydraulic Grasp
-11% Grapnel Strike
-24% Mechanical Shot
+14% Battery Strike
+43% Clockwork Shot (Iron Body)
+43% Mechanical Strike
 
 Ottavia:
+5% Snapback Dash (Target Lock: -3)
+5% Snapback Dash (Target Lock: -2)
+5% Snapback Dash (Target Lock: -1)
+5% Snapback Dash (Target Lock: 0)
+5% Snapback Dash (Target Lock: 1)
+5% Snapback Dash (Target Lock: 2)
+5% Snapback Dash (Target Lock: 3)
+5% Snapback Dash (Target Lock: 6)
+5% Snapback Dash (Target Lock: 7)
+5% Snapback Dash (Target Lock: 8)
+2% Demolition Shooter (Target Lock: -3)
+2% Demolition Shooter (Target Lock: -2)
+2% Demolition Shooter (Target Lock: -1)
+2% Demolition Shooter (Target Lock: 0)
+2% Demolition Shooter (Target Lock: 1)
+2% Demolition Shooter (Target Lock: 2)
+34% Demolition Shooter (Target Lock: 3)
+2% Demolition Shooter (Target Lock: 6)
+2% Demolition Shooter (Target Lock: 7)
+3% Demolition Shooter (Target Lock: 8)
+0% Demolition Dash (Target Lock: -3)
+0% Demolition Dash (Target Lock: -2)
+0% Demolition Dash (Target Lock: -1)
+0% Demolition Dash (Target Lock: 0)
+0% Demolition Dash (Target Lock: 1)
+0% Demolition Dash (Target Lock: 2)
+0% Demolition Dash (Target Lock: 3)
+0% Demolition Dash (Target Lock: 6)
+0% Demolition Dash (Target Lock: 7)
+0% Demolition Dash (Target Lock: 8)
+
+
+Cadenza: Clockwork Shot (Iron Body)
+Ottavia: Demolition Shooter (Target Lock: -1)
+
+Cadenza antes an Iron Body token
+Ottavia acquires target lock
+Priorities:  -11 | 3
+Ottavia is active
+Ottavia hits
+Cadenza has 3 soak
+Cadenza takes 1 damage (now at 19 life)
+Ottavia moves:
+
+.C...O.
+
+Cadenza hits
+Ottavia takes 6 damage (now at 12 life)
+Ottavia is stunned
+
+Beat 3
+-------
+
+Cadenza
+-------
+Life: 19
+Discard 1: Clockwork Shot
+Discard 2: Grapnel Grasp
+Special action available
+2 Iron Body token
+
+Ottavia
+-------
+Life: 12
+Discard 1: Demolition Shooter
+Discard 2: Anti-Personnel Drive
+Special action available
+
+
+.C...O.
+
+
+Cadenza:
+9% Battery Drive
+45% Battery Dash
+46% Mechanical Dash
+
+Ottavia:
+32% Snapback Strike (Target Lock: 7)
+52% Snapback Strike (Target Lock: 8)
+16% Snapback Burst (Target Lock: 7)
+
+
+Cadenza: Mechanical Dash
+Ottavia: Snapback Strike (Target Lock: 8)
+
+Priorities:  7 | 3
+Cadenza is active
+Cadenza moves:
+
+....CO.
+
+Ottavia misses
+Ottavia moves:
+
+....C.O
+
+Cadenza moves:
+
+.....CO
+
+
+Beat 4
+-------
+
+Cadenza
+-------
+Life: 19
+Discard 1: Mechanical Dash
+Discard 2: Clockwork Shot
+Special action available
+2 Iron Body token
+
+Ottavia
+-------
+Life: 12
+Discard 1: Snapback Strike
+Discard 2: Demolition Shooter
+Special action available
+
+
+.....CO
+
+
+Cadenza:
+17% Battery Burst
+17% Battery Grasp
+43% Hydraulic Press
+9% Hydraulic Strike
+14% Hydraulic Drive
+
+Ottavia:
+7% Cover Drive (Target Lock: 4)
+26% Cybernetic Shot (Target Lock: 3)
+2% Cybernetic Shot (Target Lock: 4)
+39% Cybernetic Drive (Target Lock: 4)
+4% Cybernetic Grasp (Target Lock: -1)
+4% Cybernetic Grasp (Target Lock: 0)
+4% Cybernetic Grasp (Target Lock: 1)
+4% Cybernetic Grasp (Target Lock: 2)
+4% Cybernetic Grasp (Target Lock: 3)
+4% Cybernetic Grasp (Target Lock: 4)
+4% Cybernetic Grasp (Target Lock: 5)
+
+
+Cadenza: Battery Burst
+Ottavia: Cybernetic Drive (Target Lock: 4)
+
+Priorities:  0 | 4
+Ottavia is active
+Cadenza moves:
+
+....C.O
+
+Ottavia moves:
+
+....CO.
+
+Ottavia hits
+Cadenza takes 3 damage (now at 16 life)
+Ottavia moves Cadenza:
+
+.C...O.
+
+Cadenza is stunned
+Cadenza will have 4 priority next beat
+
+Beat 5
+-------
+
+Cadenza
+-------
+Life: 16
+Discard 1: Battery Burst
+Discard 2: Mechanical Dash
+Special action available
+Priority bonus: 4
+2 Iron Body token
+
+Ottavia
+-------
+Life: 12
+Discard 1: Cybernetic Drive
+Discard 2: Snapback Strike
+Special action available
+
+
+.C...O.
+
+
+Cadenza:
+18% Hydraulic Shot
+18% Hydraulic Drive
+5% Grapnel Strike
+14% Grapnel Shot
+22% Grapnel Drive
+24% Grapnel Grasp
+
+Ottavia:
+6% Demolition Dash (Target Lock: 1)
+6% Demolition Dash (Target Lock: 3)
+6% Demolition Dash (Target Lock: 4)
+6% Demolition Dash (Target Lock: 5)
+6% Demolition Dash (Target Lock: 6)
+6% Demolition Dash (Target Lock: 7)
+6% Demolition Dash (Target Lock: 8)
+6% Demolition Dash (Target Lock: 9)
+4% Anti-Personnel Burst (Target Lock: 9)
+13% Cover Shot (Target Lock: 7)
+24% Cover Shot (Target Lock: 8)
+1% Cover Burst (Target Lock: 5)
+6% Cover Burst (Target Lock: 6)
+
+
+Cadenza: Grapnel Shot
+Ottavia: Cover Burst (Target Lock: 5)
+
+Priorities:  6 | -2
+Cadenza is active
+Ottavia moves:
+
+.C....O
+
+Cadenza hits
+Cadenza moves Ottavia:
+
+.C.O...
+
+Ottavia has 1 soak
+Ottavia takes 2 damage (now at 10 life)
+Ottavia misses
+
+Beat 6
+-------
+
+Cadenza
+-------
+Life: 16
+Discard 1: Grapnel Shot
+Discard 2: Battery Burst
+Special action available
+2 Iron Body token
+
+Ottavia
+-------
+Life: 10
+Discard 1: Cover Burst
+Discard 2: Cybernetic Drive
+Special action available
+
+
+.C.O...
+
+Unbeatable strategy for Ottavia: Snapback Grasp (Target Lock: 7): -1.73
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -3): -1.53
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -2): -1.53
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -1): -1.53
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 0): -1.53
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 1): -1.53
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 2): -1.53
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): -1.53
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 4): -1.53
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 6): -1.53
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 7): -1.53
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 8): -1.53
+
+
+Cadenza:
+36% Clockwork Grasp
+23% Clockwork Dash
+9% Hydraulic Grasp
+12% Hydraulic Dash
+13% Mechanical Grasp
+6% Mechanical Dash
+
+Ottavia:
+7% Snapback Strike (Target Lock: 4)
+6% Snapback Strike (Target Lock: 7)
+2% Snapback Grasp (Target Lock: 6)
+31% Snapback Grasp (Target Lock: 7)
+12% Snapback Grasp (Target Lock: 8)
+4% Snapback Dash (Target Lock: -3)
+4% Snapback Dash (Target Lock: -2)
+4% Snapback Dash (Target Lock: -1)
+4% Snapback Dash (Target Lock: 0)
 4% Snapback Dash (Target Lock: 1)
 4% Snapback Dash (Target Lock: 2)
 4% Snapback Dash (Target Lock: 3)
 4% Snapback Dash (Target Lock: 4)
-4% Snapback Dash (Target Lock: 5)
 4% Snapback Dash (Target Lock: 6)
 4% Snapback Dash (Target Lock: 7)
 4% Snapback Dash (Target Lock: 8)
-4% Snapback Dash (Target Lock: 9)
-4% Snapback Dash (Target Lock: 10)
-21% Snapback Dash (Target Lock: 11)
-28% Snapback Dash (Target Lock: 12)
-5% Snapback Dash (Target Lock: 13)
-1% Demolition Drive (Target Lock: 6)
-0% Demolition Drive (Target Lock: 8)
-0% Cover Burst (Target Lock: 5)
-1% Cover Dash (Target Lock: 6)
-3% Cybernetic Strike (Target Lock: 5)
 
 
-Cadenza: Mechanical Shot
-Ottavia: Snapback Dash (Target Lock: 12)
+Cadenza: Clockwork Grasp
+Ottavia: Snapback Grasp (Target Lock: 8)
 
-Priorities:  4 | 9
+Priorities:  2 | 5
+Ottavia is active
+Ottavia hits
+Ottavia moves Cadenza:
+
+C..O...
+
+Cadenza has 3 soak
+Cadenza takes 0 damage (now at 16 life)
+Ottavia moves:
+
+C....O.
+
+Cadenza misses
+
+Beat 7
+-------
+
+Cadenza
+-------
+Life: 16
+Discard 1: Clockwork Grasp
+Discard 2: Grapnel Shot
+Special action available
+2 Iron Body token
+
+Ottavia
+-------
+Life: 10
+Discard 1: Snapback Grasp
+Discard 2: Cover Burst
+Special action available
+
+
+C....O.
+
+
+Cadenza:
+41% Battery Dash
+8% Hydraulic Drive
+4% Hydraulic Dash
+47% Mechanical Dash
+
+Ottavia:
+41% Anti-Personnel Shooter (Target Lock: 7)
+1% Anti-Personnel Shooter (Target Lock: 8)
+46% Anti-Personnel Drive (Target Lock: 8)
+2% Cybernetic Shooter (Target Lock: -2)
+2% Cybernetic Shooter (Target Lock: -1)
+2% Cybernetic Shooter (Target Lock: 0)
+2% Cybernetic Shooter (Target Lock: 1)
+2% Cybernetic Shooter (Target Lock: 2)
+
+
+Cadenza: Mechanical Dash
+Ottavia: Anti-Personnel Shooter (Target Lock: 8)
+
+Priorities:  7 | 1
+Cadenza is active
+Cadenza moves:
+
+...C.O.
+
+Ottavia misses
+Cadenza moves:
+
+....CO.
+
+Ottavia moves:
+
+..O.C..
+
+
+Beat 8
+-------
+
+Cadenza
+-------
+Life: 16
+Discard 1: Mechanical Dash
+Discard 2: Clockwork Grasp
+Special action available
+2 Iron Body token
+
+Ottavia
+-------
+Life: 10
+Discard 1: Anti-Personnel Shooter
+Discard 2: Snapback Grasp
+Special action available
+
+
+..O.C..
+
+
+Cadenza:
+13% Battery Strike
+10% Battery Drive
+19% Battery Burst
+10% Hydraulic Strike
+10% Hydraulic Shot
+14% Hydraulic Shot (Iron Body)
+20% Hydraulic Drive
+4% Grapnel Shot
+
+Ottavia:
+17% Demolition Shot (Target Lock: 2)
+2% Demolition Shot (Target Lock: 3)
+29% Demolition Drive (Target Lock: 3)
+0% Cover Strike (Target Lock: 3)
+7% Cover Drive (Target Lock: 3)
+9% Cover Burst (Target Lock: 1)
+8% Cover Burst (Target Lock: 3)
+26% Cybernetic Shot (Target Lock: 3)
+
+
+Cadenza: Battery Strike
+Ottavia: Cover Burst (Target Lock: 3)
+
+Priorities:  2 | -2
+Cadenza is active
+Ottavia moves:
+
+.O..C..
+
+Cadenza misses
+Ottavia hits
+Cadenza takes 4 damage (now at 12 life)
+Cadenza will have 4 priority next beat
+
+Beat 9
+-------
+
+Cadenza
+-------
+Life: 12
+Discard 1: Battery Strike
+Discard 2: Mechanical Dash
+Special action available
+Priority bonus: 4
+2 Iron Body token
+
+Ottavia
+-------
+Life: 10
+Discard 1: Cover Burst
+Discard 2: Anti-Personnel Shooter
+Special action available
+
+
+.O..C..
+
+
+Cadenza:
+21% Hydraulic Drive
+5% Grapnel Shot
+13% Grapnel Drive
+36% Grapnel Burst
+25% Grapnel Grasp
+
+Ottavia:
+2% Snapback Drive (Target Lock: 5)
+32% Snapback Dash (Target Lock: 9)
+10% Demolition Drive (Target Lock: 7)
+3% Demolition Drive (Target Lock: 9)
+6% Demolition Dash (Target Lock: 1)
+6% Demolition Dash (Target Lock: 2)
+6% Demolition Dash (Target Lock: 3)
+6% Demolition Dash (Target Lock: 4)
+6% Demolition Dash (Target Lock: 5)
+6% Demolition Dash (Target Lock: 6)
+6% Demolition Dash (Target Lock: 7)
+6% Demolition Dash (Target Lock: 8)
+6% Demolition Dash (Target Lock: 9)
+
+
+Cadenza: Hydraulic Drive
+Ottavia: Snapback Dash (Target Lock: 9)
+
+Priorities:  7 | 9
 Ottavia is active
 Ottavia moves:
 
-.C.O...
+....CO.
 
 Ottavia moves:
 
-OC.....
+....C.O
 
 Cadenza misses
-total_time: 115
+
+Beat 10
+-------
+
+Cadenza
+-------
+Life: 12
+Discard 1: Hydraulic Drive
+Discard 2: Battery Strike
+Special action available
+2 Iron Body token
+
+Ottavia
+-------
+Life: 10
+Discard 1: Snapback Dash
+Discard 2: Cover Burst
+Special action available
+
+
+....C.O
+
+Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 7): -1.63
+
+
+Cadenza:
+23% Clockwork Shot (Iron Body)
+31% Clockwork Grasp
+46% Mechanical Dash
+
+Ottavia:
+49% Demolition Shooter (Target Lock: 7)
+48% Cybernetic Shooter (Target Lock: 2)
+3% Cybernetic Shooter (Target Lock: 7)
+
+
+Cadenza: Clockwork Shot (Iron Body)
+Ottavia: Demolition Shooter (Target Lock: 7)
+
+Cadenza antes an Iron Body token
+Priorities:  -1 | 3
+Ottavia is active
+Ottavia hits
+Cadenza has 3 soak
+Cadenza takes 1 damage (now at 11 life)
+Ottavia moves:
+
+.O..C..
+
+Cadenza hits
+Ottavia takes 6 damage (now at 4 life)
+Ottavia is stunned
+
+Beat 11
+-------
+
+Cadenza
+-------
+Life: 11
+Discard 1: Clockwork Shot
+Discard 2: Hydraulic Drive
+Special action available
+1 Iron Body token
+
+Ottavia
+-------
+Life: 4
+Discard 1: Demolition Shooter
+Discard 2: Snapback Dash
+Special action available
+
+
+.O..C..
+
+
+Cadenza:
+1% Battery Burst
+16% Battery Dash
+10% Grapnel Strike
+20% Grapnel Burst
+11% Grapnel Grasp
+16% Grapnel Dash
+5% Mechanical Burst
+22% Mechanical Dash
+
+Ottavia:
+17% Anti-Personnel Shot (Target Lock: 5)
+12% Anti-Personnel Burst (Target Lock: 1)
+5% Anti-Personnel Grasp (Target Lock: 5)
+5% Anti-Personnel Grasp (Target Lock: 7)
+12% Anti-Personnel Grasp (Target Lock: 8)
+20% Cover Grasp (Target Lock: 3)
+21% Cybernetic Drive (Target Lock: 5)
+7% Cybernetic Drive (Target Lock: 9)
+
+
+Cadenza: Battery Dash
+Ottavia: Cover Grasp (Target Lock: 3)
+
+Priorities:  8 | 2
+Cadenza is active
+Cadenza moves:
+
+.OC....
+
+Ottavia misses
+Cadenza will have 4 priority next beat
+
+Beat 12
+-------
+
+Cadenza
+-------
+Life: 11
+Discard 1: Battery Dash
+Discard 2: Clockwork Shot
+Special action available
+Priority bonus: 4
+1 Iron Body token
+
+Ottavia
+-------
+Life: 4
+Discard 1: Cover Grasp
+Discard 2: Demolition Shooter
+Special action available
+
+
+.OC....
+
+
+Cadenza:
+2% Hydraulic Grasp
+9% Grapnel Drive
+35% Mechanical Press
+23% Mechanical Strike
+30% Mechanical Drive
+
+Ottavia:
+1% Snapback Drive (Target Lock: 6)
+5% Snapback Dash (Target Lock: 2)
+5% Snapback Dash (Target Lock: 3)
+6% Snapback Dash (Target Lock: 4)
+5% Snapback Dash (Target Lock: 5)
+5% Snapback Dash (Target Lock: 6)
+5% Snapback Dash (Target Lock: 7)
+5% Snapback Dash (Target Lock: 8)
+6% Snapback Dash (Target Lock: 9)
+3% Anti-Personnel Dash (Target Lock: 5)
+52% Anti-Personnel Dash (Target Lock: 8)
+1% Cybernetic Burst (Target Lock: 6)
+
+
+Cadenza: Mechanical Press
+Ottavia: Snapback Dash (Target Lock: 7)
+
+Priorities:  2 | 9
+Ottavia is active
+Ottavia moves:
+
+O.C....
+
+Ottavia moves:
+
+..CO...
+
+Cadenza misses
+
+Beat 13
+-------
+
+Cadenza
+-------
+Life: 11
+Discard 1: Mechanical Press
+Discard 2: Battery Dash
+Special action available
+1 Iron Body token
+
+Ottavia
+-------
+Life: 4
+Discard 1: Snapback Dash
+Discard 2: Cover Grasp
+Special action available
+
+
+..CO...
+
+Unbeatable strategy for Cadenza: Clockwork Shot (Iron Body): 9.00
+
+
+Cadenza:
+42% Clockwork Shot (Iron Body)
+43% Clockwork Burst
+11% Hydraulic Drive
+2% Hydraulic Grasp
+2% Hydraulic Grasp (Iron Body)
+
+Ottavia:
+16% Demolition Shooter (Target Lock: 4)
+0% Anti-Personnel Burst (Target Lock: -2)
+0% Anti-Personnel Burst (Target Lock: -1)
+0% Anti-Personnel Burst (Target Lock: 0)
+0% Anti-Personnel Burst (Target Lock: 1)
+0% Anti-Personnel Burst (Target Lock: 2)
+0% Anti-Personnel Burst (Target Lock: 3)
+0% Anti-Personnel Burst (Target Lock: 4)
+0% Anti-Personnel Burst (Target Lock: 5)
+2% Cybernetic Shooter (Target Lock: 3)
+2% Cybernetic Burst (Target Lock: 3)
+10% Special Pulse (Target Lock: -2)
+10% Special Pulse (Target Lock: -1)
+10% Special Pulse (Target Lock: 0)
+10% Special Pulse (Target Lock: 1)
+10% Special Pulse (Target Lock: 2)
+10% Special Pulse (Target Lock: 3)
+10% Special Pulse (Target Lock: 4)
+10% Special Pulse (Target Lock: 5)
+
+
+Cadenza: Clockwork Shot (Iron Body)
+Ottavia: Demolition Shooter (Target Lock: 4)
+
+Cadenza antes an Iron Body token
+Priorities:  -1 | 3
+Ottavia is active
+Ottavia hits
+Cadenza has 3 soak
+Cadenza takes 1 damage (now at 10 life)
+Ottavia moves:
+
+O.C....
+
+Cadenza hits
+Ottavia takes 6 damage (now at 0 life)
+CADENZA WINS!
+total_time: 67

@@ -11,65 +11,65 @@ Beat 1
 
 Kajia
 -----
-life: 20
-discard 1: 
-discard 2: 
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 20
+Discard 1: Stinging Strike
+Discard 2: Swarming Burst
+Special action available
+0 insects on Ottavia's discard 1
+0 insects on Ottavia's discard 2
 
 Ottavia
 -------
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: Cybernetic Strike
+Discard 2: Demolition Shot
+Special action available
 
 
 .K...O.
 
+
 Kajia:
-8% Burrowing Dash
-1% Parasitic Mandibles
-1% Parasitic Strike
-13% Parasitic Drive
-6% Parasitic Burst
-22% Parasitic Grasp
-21% Parasitic Dash
-9% Stinging Dash
-8% Biting Mandibles
-4% Biting Drive
-6% Biting Burst
-1% Biting Dash
+21% Burrowing Shot
+22% Parasitic Mandibles
+22% Parasitic Shot
+22% Parasitic Drive
+13% Parasitic Grasp
 
 Ottavia:
-1% Snapback Burst (Target Lock: 3)
-5% Snapback Grasp (Target Lock: 8)
-16% Snapback Grasp (Target Lock: 10)
-5% Snapback Dash (Target Lock: 10)
-6% Demolition Shooter (Target Lock: 4)
-9% Demolition Shooter (Target Lock: 8)
-18% Demolition Shot (Target Lock: 8)
-9% Demolition Burst (Target Lock: 3)
-0% Cover Burst (Target Lock: 2)
-10% Cover Burst (Target Lock: 3)
-3% Cybernetic Shot (Target Lock: 8)
-17% Cybernetic Grasp (Target Lock: 8)
+13% Snapback Shooter (Target Lock: 3)
+2% Snapback Grasp (Target Lock: 1)
+2% Snapback Grasp (Target Lock: 2)
+2% Snapback Grasp (Target Lock: 3)
+2% Snapback Grasp (Target Lock: 4)
+12% Snapback Grasp (Target Lock: 8)
+11% Snapback Dash (Target Lock: 1)
+11% Snapback Dash (Target Lock: 2)
+11% Snapback Dash (Target Lock: 3)
+11% Snapback Dash (Target Lock: 4)
+11% Snapback Dash (Target Lock: 8)
+12% Cover Burst (Target Lock: 2)
+1% Cover Burst (Target Lock: 3)
 
 
-Kajia: Parasitic Grasp
-Ottavia: Snapback Grasp (Target Lock: 10)
+Kajia: Burrowing Shot
+Ottavia: Snapback Grasp (Target Lock: 8)
 
-Priorities:  4 | 5
+Priorities:  1 | 5
 Ottavia is active
-Kajia moves Ottavia:
+Ottavia hits
+Ottavia moves Kajia:
 
-.KO....
+K....O.
 
-Ottavia misses
+Kajia takes 2 damage (now at 18 life)
 Ottavia moves:
 
-.K..O..
+K.....O
+
+Kajia moves Ottavia:
+
+K....O.
 
 Kajia misses
 
@@ -78,51 +78,694 @@ Beat 2
 
 Kajia
 -----
-life: 20
-discard 1: Parasitic Grasp
-discard 2: 
-special action
-0 insects on opponent's discard 1
-0 insects on opponent's discard 2
+Life: 18
+Discard 1: Burrowing Shot
+Discard 2: Stinging Strike
+Special action available
+0 insects on Ottavia's discard 1
+0 insects on Ottavia's discard 2
 
 Ottavia
 -------
-life: 20
-discard 1: Snapback Grasp
-discard 2: 
-special action
+Life: 20
+Discard 1: Snapback Grasp
+Discard 2: Cybernetic Strike
+Special action available
 
 
-.K..O..
+K....O.
+
 
 Kajia:
-9% Burrowing Dash
-22% Swarming Dash
-14% Stinging Drive
-40% Stinging Dash
-8% Biting Mandibles
-8% Biting Drive
+27% Swarming Mandibles
+23% Parasitic Mandibles
+14% Parasitic Drive
+18% Parasitic Dash
+18% Biting Drive
 
 Ottavia:
-18% Demolition Shooter (Target Lock: 10)
-2% Anti-Personnel Shooter (Target Lock: 10)
-22% Cover Shooter (Target Lock: 8)
-22% Cover Burst (Target Lock: 2)
-35% Cover Burst (Target Lock: 3)
-0% Cybernetic Burst (Target Lock: 2)
-0% Cybernetic Burst (Target Lock: 3)
+56% Demolition Burst (Target Lock: 8)
+9% Cover Shooter (Target Lock: 2)
+3% Cover Burst (Target Lock: 2)
+28% Cover Burst (Target Lock: 3)
+4% Cover Burst (Target Lock: 8)
+
+
+Kajia: Swarming Mandibles
+Ottavia: Cover Burst (Target Lock: 3)
+
+Priorities:  2 | -2
+Kajia is active
+Ottavia moves:
+
+K.....O
+
+Kajia moves:
+
+.K....O
+
+Kajia misses
+Kajia moves:
+
+..K...O
+
+Ottavia hits
+Kajia takes 4 damage (now at 14 life)
+Kajia is stunned
+
+Beat 3
+-------
+
+Kajia
+-----
+Life: 14
+Discard 1: Swarming Mandibles
+Discard 2: Burrowing Shot
+Special action available
+0 insects on Ottavia's discard 1
+0 insects on Ottavia's discard 2
+
+Ottavia
+-------
+Life: 20
+Discard 1: Cover Burst
+Discard 2: Snapback Grasp
+Special action available
+
+
+..K...O
+
+
+Kajia:
+12% Parasitic Drive
+34% Parasitic Grasp
+33% Parasitic Dash
+1% Biting Strike
+13% Biting Drive
+7% Biting Dash
+
+Ottavia:
+12% Demolition Strike (Target Lock: 8)
+17% Cybernetic Strike (Target Lock: 4)
+2% Cybernetic Strike (Target Lock: 8)
+32% Cybernetic Shot (Target Lock: 3)
+14% Cybernetic Shot (Target Lock: 8)
+23% Cybernetic Drive (Target Lock: 8)
+
+
+Kajia: Parasitic Grasp
+Ottavia: Cybernetic Shot (Target Lock: 3)
+
+Priorities:  4 | 2
+Kajia is active
+Kajia moves Ottavia:
+
+..KO...
+
+Kajia hits
+Kajia moves Ottavia:
+
+.OK....
+
+Kajia places 1 insect token on Ottavia's attack pair
+(Current insects: 1 / 0 / 0)
+Ottavia takes 2 damage (now at 18 life)
+Ottavia hits
+Kajia takes 3 damage (now at 11 life)
+Ottavia moves Kajia:
+
+.O...K.
+
+Kajia is stunned
+
+Beat 4
+-------
+
+Kajia
+-----
+Life: 11
+Discard 1: Parasitic Grasp
+Discard 2: Swarming Mandibles
+Special action available
+1 insects on Ottavia's discard 1
+0 insects on Ottavia's discard 2
+
+Ottavia
+-------
+Life: 18
+Discard 1: Cybernetic Shot
+Discard 2: Cover Burst
+Special action available
+
+
+.O...K.
+
+
+Kajia:
+31% Stinging Dash
+8% Burrowing Drive
+15% Burrowing Dash
+1% Biting Shot
+8% Biting Burst
+35% Biting Dash
+
+Ottavia:
+4% Snapback Shooter (Target Lock: 8)
+32% Snapback Drive (Target Lock: 9)
+23% Snapback Grasp (Target Lock: 8)
+21% Snapback Grasp (Target Lock: 10)
+10% Demolition Shooter (Target Lock: 9)
+11% Demolition Shooter (Target Lock: 10)
+
+
+Kajia: Burrowing Drive
+Ottavia: Snapback Drive (Target Lock: 9)
+
+Kajia gets +1 power
+Kajia gets +1 priority
+Priorities:  4 | 4
+Clash!
+
+
+Kajia: Burrowing Shot
+Ottavia: Snapback Shooter (Target Lock: 9)
+
+Kajia gets +1 power
+Kajia gets +1 priority
+Priorities:  2 | 2
+Clash!
+
+
+Kajia: Burrowing Strike
+Ottavia: Snapback Strike (Target Lock: 9)
+
+Kajia gets +1 power
+Kajia gets +1 priority
+Priorities:  3 | 3
+Clash!
+
+
+Kajia: Burrowing Burst
+Ottavia: Snapback Grasp (Target Lock: 9)
+
+Kajia gets +1 power
+Kajia gets +1 priority
+Priorities:  1 | 5
+Ottavia is active
+Ottavia hits
+Ottavia moves Kajia:
+
+.O....K
+
+Kajia takes 2 damage (now at 9 life)
+Kajia is stunned
+Ottavia moves:
+
+O.....K
+
+
+Beat 5
+-------
+
+Kajia
+-----
+Life: 9
+Discard 1: Burrowing Burst
+Discard 2: Parasitic Grasp
+Special action available
+0 insects on Ottavia's discard 1
+1 insects on Ottavia's discard 2
+
+Ottavia
+-------
+Life: 18
+Discard 1: Snapback Grasp
+Discard 2: Cybernetic Shot
+Special action available
+
+
+O.....K
+
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 1): -3.34
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 2): -3.34
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 3): -3.34
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 4): -3.34
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 5): -3.34
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 8): -4.21
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 10): -3.34
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 1): -2.69
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 2): -1.90
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 3): -1.90
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 4): -1.90
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 5): -1.90
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 8): -1.90
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 10): -1.90
+
+
+Kajia:
+100% Special Pulse
+
+Ottavia:
+63% Anti-Personnel Shooter (Target Lock: 1)
+4% Anti-Personnel Shooter (Target Lock: 2)
+4% Anti-Personnel Shooter (Target Lock: 3)
+4% Anti-Personnel Shooter (Target Lock: 4)
+4% Anti-Personnel Shooter (Target Lock: 5)
+18% Anti-Personnel Shooter (Target Lock: 8)
+4% Anti-Personnel Shooter (Target Lock: 10)
+
+
+Kajia: Special Pulse
+Ottavia: Anti-Personnel Shooter (Target Lock: 1)
+
+Kajia Pulses:
+
+OK.....
+
+Ottavia loses 1 life (now at 17)
+
+Beat 5
+-------
+
+Kajia
+-----
+Life: 9
+Discard 1: Burrowing Burst
+Discard 2: Parasitic Grasp
+0 insects on Ottavia's discard 1
+0 insects on Ottavia's discard 2
+
+Ottavia
+-------
+Life: 17
+Discard 1: Anti-Personnel Shooter
+Discard 2: Snapback Grasp
+Special action available
+
+
+OK.....
+
+Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 5): -0.31
+
+
+Kajia:
+23% Stinging Mandibles
+14% Stinging Shot
+20% Stinging Drive
+16% Stinging Dash
+25% Swarming Dash
+2% Biting Mandibles
+
+Ottavia:
+12% Demolition Strike (Target Lock: 4)
+37% Demolition Strike (Target Lock: 5)
+28% Demolition Drive (Target Lock: 4)
+1% Cybernetic Strike (Target Lock: 4)
+6% Cybernetic Strike (Target Lock: 8)
+16% Cybernetic Shot (Target Lock: 4)
+
+
+Kajia: Stinging Mandibles
+Ottavia: Demolition Strike (Target Lock: 4)
+
+Ottavia acquires target lock
+Priorities:  -6 | 4
+Ottavia is active
+Ottavia hits
+Kajia is stunned
+Kajia takes 4 damage (now at 5 life)
+Kajia is stunned
+Ottavia moves:
+
+.K...O.
+
+Kajia places 1 insect token on Ottavia's attack pair
+(Current insects: 1 / 0 / 0)
+
+Beat 6
+-------
+
+Kajia
+-----
+Life: 5
+Discard 1: Stinging Mandibles
+Discard 2: Burrowing Burst
+1 insects on Ottavia's discard 1
+0 insects on Ottavia's discard 2
+
+Ottavia
+-------
+Life: 17
+Discard 1: Demolition Strike
+Discard 2: Anti-Personnel Shooter
+Special action available
+
+
+.K...O.
+
+
+Kajia:
+29% Swarming Dash
+5% Parasitic Strike
+33% Parasitic Shot
+29% Parasitic Drive
+3% Biting Strike
+
+Ottavia:
+8% Snapback Burst (Target Lock: 3)
+41% Snapback Grasp (Target Lock: 8)
+19% Cybernetic Shot (Target Lock: 3)
+12% Cybernetic Shot (Target Lock: 8)
+20% Cybernetic Drive (Target Lock: 8)
 
 
 Kajia: Swarming Dash
-Ottavia: Demolition Shooter (Target Lock: 10)
+Ottavia: Cybernetic Drive (Target Lock: 8)
 
-Priorities:  8 | 3
-Kajia is active
+Ottavia acquires target lock
+Priorities:  -2 | 4
+Ottavia is active
+Ottavia moves:
+
+.K.O...
+
+Ottavia misses
 Kajia moves:
+
+..KO...
+
+Kajia places 1 insect token on Ottavia's attack pair
+(Current insects: 1 / 1 / 0)
+
+Beat 7
+-------
+
+Kajia
+-----
+Life: 5
+Discard 1: Swarming Dash
+Discard 2: Stinging Mandibles
+1 insects on Ottavia's discard 1
+1 insects on Ottavia's discard 2
+
+Ottavia
+-------
+Life: 17
+Discard 1: Cybernetic Drive
+Discard 2: Demolition Strike
+Special action available
+
+
+..KO...
+
+
+Kajia:
+36% Burrowing Shot
+37% Burrowing Drive
+13% Parasitic Drive
+13% Biting Drive
+
+Ottavia:
+3% Snapback Dash (Target Lock: 0)
+3% Snapback Dash (Target Lock: 1)
+3% Snapback Dash (Target Lock: 2)
+3% Snapback Dash (Target Lock: 3)
+3% Snapback Dash (Target Lock: 4)
+3% Snapback Dash (Target Lock: 5)
+3% Snapback Dash (Target Lock: 6)
+6% Cover Burst (Target Lock: 3)
+11% Cover Burst (Target Lock: 5)
+2% Cover Dash (Target Lock: 0)
+2% Cover Dash (Target Lock: 1)
+2% Cover Dash (Target Lock: 2)
+2% Cover Dash (Target Lock: 3)
+2% Cover Dash (Target Lock: 4)
+3% Cover Dash (Target Lock: 5)
+48% Cover Dash (Target Lock: 6)
+
+
+Kajia: Burrowing Drive
+Ottavia: Snapback Dash (Target Lock: 3)
+
+Kajia gets +2 power
+Kajia gets +2 priority
+Priorities:  5 | 9
+Ottavia is active
+Ottavia moves:
+
+..K.O..
+
+Ottavia moves:
+
+..K...O
+
+Kajia moves Ottavia:
+
+..K..O.
+
+Kajia misses
+Ottavia loses 1 life (now at 16)
+
+Beat 8
+-------
+
+Kajia
+-----
+Life: 5
+Discard 1: Burrowing Drive
+Discard 2: Swarming Dash
+0 insects on Ottavia's discard 1
+1 insects on Ottavia's discard 2
+
+Ottavia
+-------
+Life: 16
+Discard 1: Snapback Dash
+Discard 2: Cybernetic Drive
+Special action available
+
+
+..K..O.
+
+Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 4): -0.18
+
+
+Kajia:
+39% Parasitic Mandibles
+17% Parasitic Grasp
+44% Biting Burst
+
+Ottavia:
+83% Demolition Shooter (Target Lock: 4)
+1% Anti-Personnel Shot (Target Lock: 0)
+1% Anti-Personnel Shot (Target Lock: 1)
+2% Anti-Personnel Shot (Target Lock: 2)
+7% Anti-Personnel Shot (Target Lock: 3)
+2% Anti-Personnel Shot (Target Lock: 4)
+1% Anti-Personnel Shot (Target Lock: 6)
+2% Anti-Personnel Burst (Target Lock: 0)
+
+
+Kajia: Biting Burst
+Ottavia: Demolition Shooter (Target Lock: 4)
+
+Ottavia gets -1 power
+Priorities:  0 | 3
+Ottavia is active
+Kajia moves:
+
+K....O.
+
+Ottavia misses
+Ottavia moves:
+
+KO.....
+
+Kajia misses
+Ottavia loses 1 life (now at 15)
+
+Beat 9
+-------
+
+Kajia
+-----
+Life: 5
+Discard 1: Biting Burst
+Discard 2: Burrowing Drive
+0 insects on Ottavia's discard 1
+0 insects on Ottavia's discard 2
+
+Ottavia
+-------
+Life: 15
+Discard 1: Demolition Shooter
+Discard 2: Snapback Dash
+Special action available
+
+
+KO.....
+
+
+Kajia:
+8% Stinging Mandibles
+20% Stinging Grasp
+36% Stinging Dash
+9% Swarming Mandibles
+27% Swarming Dash
+
+Ottavia:
+19% Cover Burst (Target Lock: 2)
+18% Cover Burst (Target Lock: 4)
+14% Cybernetic Burst (Target Lock: 8)
+29% Cybernetic Grasp (Target Lock: 8)
+20% Cybernetic Grasp (Target Lock: 10)
+
+
+Kajia: Stinging Dash
+Ottavia: Cybernetic Grasp (Target Lock: 10)
+
+Ottavia acquires target lock
+Priorities:  0 | 5
+Ottavia is active
+Ottavia hits
+Ottavia moves Kajia:
+
+.OK....
+
+Kajia takes 2 damage (now at 3 life)
+Ottavia moves Kajia:
+
+.O...K.
+
+Kajia is stunned
+
+Beat 10
+-------
+
+Kajia
+-----
+Life: 3
+Discard 1: Stinging Dash
+Discard 2: Biting Burst
+0 insects on Ottavia's discard 1
+0 insects on Ottavia's discard 2
+
+Ottavia
+-------
+Life: 15
+Discard 1: Cybernetic Grasp
+Discard 2: Demolition Shooter
+Special action available
+
+
+.O...K.
+
+
+Kajia:
+8% Burrowing Shot
+49% Parasitic Mandibles
+15% Parasitic Shot
+22% Parasitic Drive
+7% Parasitic Grasp
+
+Ottavia:
+12% Snapback Strike (Target Lock: 4)
+8% Snapback Shot (Target Lock: 3)
+5% Snapback Burst (Target Lock: 2)
+18% Snapback Dash (Target Lock: 1)
+18% Snapback Dash (Target Lock: 2)
+18% Snapback Dash (Target Lock: 3)
+18% Snapback Dash (Target Lock: 4)
+1% Cover Burst (Target Lock: 2)
+
+
+Kajia: Parasitic Mandibles
+Ottavia: Snapback Dash (Target Lock: 1)
+
+Priorities:  2 | 9
+Ottavia is active
+Kajia moves Ottavia:
 
 ....OK.
 
-Ottavia misses
-Kajia places 1 insect token on the oppoent's attack pair
-(Current insects: 1 / 0 / 0)
-total_time: 60
+Ottavia moves:
+
+..O..K.
+
+Ottavia moves:
+
+O....K.
+
+Kajia misses
+
+Beat 11
+-------
+
+Kajia
+-----
+Life: 3
+Discard 1: Parasitic Mandibles
+Discard 2: Stinging Dash
+0 insects on Ottavia's discard 1
+0 insects on Ottavia's discard 2
+
+Ottavia
+-------
+Life: 15
+Discard 1: Snapback Dash
+Discard 2: Cybernetic Grasp
+Special action available
+
+
+O....K.
+
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 3): -8.00
+Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 3): -8.00
+Unbeatable strategy for Ottavia: Anti-Personnel Drive (Target Lock: 0): -8.00
+Unbeatable strategy for Ottavia: Anti-Personnel Drive (Target Lock: 1): -8.00
+Unbeatable strategy for Ottavia: Anti-Personnel Drive (Target Lock: 2): -8.00
+Unbeatable strategy for Ottavia: Anti-Personnel Drive (Target Lock: 3): -8.00
+Unbeatable strategy for Ottavia: Anti-Personnel Drive (Target Lock: 4): -8.00
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 3): -8.00
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 3): -8.00
+
+
+Kajia:
+3% Swarming Strike
+5% Swarming Shot
+4% Swarming Drive
+5% Swarming Burst
+3% Swarming Grasp
+2% Burrowing Strike
+3% Burrowing Shot
+6% Burrowing Drive
+8% Burrowing Burst
+6% Burrowing Grasp
+6% Biting Strike
+4% Biting Shot
+32% Biting Drive
+8% Biting Burst
+4% Biting Grasp
+
+Ottavia:
+11% Anti-Personnel Shooter (Target Lock: 3)
+11% Anti-Personnel Shot (Target Lock: 3)
+11% Anti-Personnel Drive (Target Lock: 0)
+11% Anti-Personnel Drive (Target Lock: 1)
+11% Anti-Personnel Drive (Target Lock: 2)
+11% Anti-Personnel Drive (Target Lock: 3)
+11% Anti-Personnel Drive (Target Lock: 4)
+11% Cover Shooter (Target Lock: 3)
+11% Cover Shot (Target Lock: 3)
+
+
+Kajia: Swarming Grasp
+Ottavia: Anti-Personnel Shot (Target Lock: 3)
+
+Priorities:  4 | 1
+Kajia is active
+Kajia misses
+Ottavia hits
+Kajia takes 6 damage (now at 0 life)
+OTTAVIA WINS!
+total_time: 25

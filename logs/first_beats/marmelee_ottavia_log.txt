@@ -11,51 +11,60 @@ Beat 1
 
 Marmelee
 --------
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: Petrifying Burst
+Discard 2: Barrier Grasp
+Special action available
 2 Concentration counters
 
 Ottavia
 -------
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: Cybernetic Strike
+Discard 2: Demolition Shot
+Special action available
 
 
 .M...O.
 
+
 Marmelee:
-25% Petrifying Dash
-9% Magnificent Meditation
-15% Magnificent Drive
-31% Magnificent Grasp
-21% Barrier Dash
-0% Nullifying Dash
+25% Magnificent Meditation
+3% Magnificent Drive
+16% Magnificent Dash
+28% Sorceress Meditation
+18% Sorceress Dash
+11% Nullifying Dash
 
 Ottavia:
-15% Snapback Drive (Target Lock: 5)
-19% Snapback Drive (Target Lock: 8)
-46% Snapback Grasp (Target Lock: 9)
-15% Anti-Personnel Shooter (Target Lock: 8)
-1% Cybernetic Shooter (Target Lock: 4)
-4% Cybernetic Shooter (Target Lock: 8)
+11% Snapback Shooter (Target Lock: 8)
+17% Snapback Drive (Target Lock: 8)
+27% Snapback Drive (Target Lock: 9)
+20% Snapback Grasp (Target Lock: 8)
+20% Snapback Grasp (Target Lock: 9)
+5% Cover Burst (Target Lock: 3)
 
 
-Marmelee: Magnificent Grasp
-Ottavia: Cybernetic Shooter (Target Lock: 4)
+Marmelee: Sorceress Meditation
+Ottavia: Snapback Grasp (Target Lock: 8)
 
-Priorities:  5 | 2
-Marmelee is active
-Marmelee misses
+Priorities:  2 | 5
+Ottavia is active
 Marmelee discards 2 Concentration Counters
-Marmelee moves:
+Marmelee gains Soak 2
+Ottavia hits
+Ottavia moves Marmelee:
 
 M....O.
 
-Ottavia misses
+Marmelee has 2 soak
+Marmelee takes 0 damage (now at 20 life)
+Ottavia moves:
+
+M.....O
+
+Marmelee misses
+Marmelee gains 1 Concentration Counter
 Marmelee gains 1 Concentration Counter
 
 Beat 2
@@ -63,73 +72,675 @@ Beat 2
 
 Marmelee
 --------
-life: 20
-discard 1: Magnificent Grasp
-discard 2: 
-special action
+Life: 20
+Discard 1: Sorceress Meditation
+Discard 2: Petrifying Burst
+Special action available
+2 Concentration counters
+
+Ottavia
+-------
+Life: 20
+Discard 1: Snapback Grasp
+Discard 2: Cybernetic Strike
+Special action available
+
+
+M.....O
+
+
+Marmelee:
+19% Magnificent Strike
+13% Magnificent Shot
+24% Magnificent Drive
+22% Magnificent Grasp
+22% Magnificent Dash
+
+Ottavia:
+21% Anti-Personnel Shooter (Target Lock: 4)
+21% Anti-Personnel Shooter (Target Lock: 5)
+5% Anti-Personnel Shooter (Target Lock: 9)
+33% Anti-Personnel Drive (Target Lock: 3)
+20% Anti-Personnel Drive (Target Lock: 9)
+
+
+Marmelee: Magnificent Strike
+Ottavia: Anti-Personnel Shooter (Target Lock: 5)
+
+Priorities:  3 | 1
+Marmelee is active
+Marmelee misses
+Marmelee discards 2 Concentration Counters
+Marmelee moves:
+
+....M.O
+
+Ottavia misses
+Ottavia moves:
+
+O...M..
+
+Marmelee gains 1 Concentration Counter
+
+Beat 3
+-------
+
+Marmelee
+--------
+Life: 20
+Discard 1: Magnificent Strike
+Discard 2: Sorceress Meditation
+Special action available
 1 Concentration counters
 
 Ottavia
 -------
-life: 20
-discard 1: Cybernetic Shooter
-discard 2: 
-special action
+Life: 20
+Discard 1: Anti-Personnel Shooter
+Discard 2: Snapback Grasp
+Special action available
 
 
-M....O.
+O...M..
 
-Unbeatable strategy for Ottavia: Snapback Shot (Target Lock: 3): -1.06
-Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: 0): -0.72
-Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: 1): -0.72
-Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: 2): -0.72
-Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: 3): -0.72
-Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: 4): -0.72
-Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: 5): -0.72
-Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: 8): -0.72
-Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: 9): -0.72
-Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: 10): -0.72
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 0): -1.32
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 1): -1.32
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 2): -1.32
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 3): -1.46
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 4): -1.32
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 5): -1.32
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 8): -1.32
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 9): -1.32
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 10): -1.32
 
 Marmelee:
-39% Petrifying Meditation
-13% Petrifying Dash
-2% Sorceress Shot
-5% Sorceress Drive
-18% Barrier Meditation
-5% Barrier Dash
-17% Nullifying Dash
+2% Petrifying Drive
+18% Petrifying Dash
+13% Barrier Drive
+33% Barrier Dash
+34% Nullifying Shot
 
 Ottavia:
-7% Anti-Personnel Shot (Target Lock: 10)
-2% Anti-Personnel Drive (Target Lock: 3)
-10% Anti-Personnel Drive (Target Lock: 9)
-4% Anti-Personnel Drive (Target Lock: 10)
-9% Anti-Personnel Burst (Target Lock: 8)
-46% Cover Shot (Target Lock: 3)
-22% Cover Shot (Target Lock: 8)
+26% Demolition Shot (Target Lock: 9)
+9% Cover Shot (Target Lock: 3)
+41% Cover Shot (Target Lock: 8)
+16% Cover Drive (Target Lock: 9)
+9% Cybernetic Shot (Target Lock: 9)
+
+
+Marmelee: Nullifying Shot
+Ottavia: Cover Shot (Target Lock: 3)
+
+Ottavia acquires target lock
+Priorities:  -7 | -1
+Ottavia is active
+Marmelee moves:
+
+O....M.
+
+Ottavia hits
+Marmelee takes 4 damage (now at 16 life)
+Marmelee is stunned
+Marmelee loses all Concentration counters
+Marmelee gains 1 Concentration Counter
+
+Beat 4
+-------
+
+Marmelee
+--------
+Life: 16
+Discard 1: Nullifying Shot
+Discard 2: Magnificent Strike
+Special action available
+1 Concentration counters
+
+Ottavia
+-------
+Life: 20
+Discard 1: Cover Shot
+Discard 2: Anti-Personnel Shooter
+Special action available
+
+
+O....M.
+
+
+Marmelee:
+92% Petrifying Meditation
+3% Petrifying Dash
+2% Sorceress Drive
+3% Barrier Dash
+
+Ottavia:
+4% Snapback Drive (Target Lock: 8)
+44% Snapback Drive (Target Lock: 9)
+10% Snapback Burst (Target Lock: 3)
+43% Snapback Burst (Target Lock: 8)
+
+
+Marmelee: Barrier Dash
+Ottavia: Snapback Burst (Target Lock: 8)
+
+Priorities:  9 | 1
+Marmelee is active
+Marmelee moves:
+
+O.M....
+
+Ottavia misses
+Marmelee gains 1 Concentration Counter
+
+Beat 5
+-------
+
+Marmelee
+--------
+Life: 16
+Discard 1: Barrier Dash
+Discard 2: Nullifying Shot
+Special action available
+2 Concentration counters
+
+Ottavia
+-------
+Life: 20
+Discard 1: Snapback Burst
+Discard 2: Cover Shot
+Special action available
+
+
+O.M....
+
+
+Marmelee:
+58% Petrifying Meditation
+13% Petrifying Burst
+16% Magnificent Meditation
+6% Magnificent Grasp
+7% Sorceress Grasp
+
+Ottavia:
+33% Demolition Shooter (Target Lock: 3)
+7% Demolition Shooter (Target Lock: 4)
+8% Demolition Shooter (Target Lock: 5)
+51% Demolition Drive (Target Lock: 5)
+1% Cybernetic Shooter (Target Lock: 2)
 
 
 Marmelee: Petrifying Meditation
-Ottavia: Cover Shot (Target Lock: 3)
+Ottavia: Demolition Drive (Target Lock: 5)
 
-Priorities:  2 | -1
+Priorities:  2 | 5
+Ottavia is active
+Marmelee discards 2 Concentration Counters
+Marmelee gains Soak 2
+Ottavia moves:
+
+.OM....
+
+Ottavia hits
+Marmelee has 2 soak
+Marmelee takes 1 damage (now at 15 life)
+Marmelee is stunned
+Ottavia moves:
+
+..M...O
+
+Marmelee gains 1 Concentration Counter
+Marmelee gains 1 Concentration Counter
+
+Beat 6
+-------
+
+Marmelee
+--------
+Life: 15
+Discard 1: Petrifying Meditation
+Discard 2: Barrier Dash
+Special action available
+2 Concentration counters
+
+Ottavia
+-------
+Life: 20
+Discard 1: Demolition Drive
+Discard 2: Snapback Burst
+Special action available
+
+
+..M...O
+
+
+Marmelee:
+9% Magnificent Strike
+19% Magnificent Shot
+14% Magnificent Drive
+19% Magnificent Burst
+23% Magnificent Grasp
+0% Sorceress Drive
+16% Nullifying Shot
+
+Ottavia:
+3% Anti-Personnel Shooter (Target Lock: 3)
+8% Anti-Personnel Grasp (Target Lock: 5)
+29% Cover Shooter (Target Lock: 1)
+25% Cover Shooter (Target Lock: 2)
+3% Cover Shooter (Target Lock: 5)
+0% Cybernetic Shooter (Target Lock: 2)
+32% Cybernetic Shooter (Target Lock: 4)
+
+
+Marmelee: Magnificent Drive
+Ottavia: Cover Shooter (Target Lock: 2)
+
+Priorities:  4 | -1
 Marmelee is active
+Marmelee moves:
+
+...M..O
+
+Marmelee hits
+Ottavia has 1 soak
+Ottavia takes 1 damage (now at 19 life)
+Marmelee discards 2 Concentration Counters
+Marmelee moves:
+
+.....MO
+
+Ottavia misses
+Marmelee gains 1 Concentration Counter
+
+Beat 7
+-------
+
+Marmelee
+--------
+Life: 15
+Discard 1: Magnificent Drive
+Discard 2: Petrifying Meditation
+Special action available
+1 Concentration counters
+
+Ottavia
+-------
+Life: 19
+Discard 1: Cover Shooter
+Discard 2: Demolition Drive
+Special action available
+
+
+.....MO
+
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 0): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 1): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 2): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 4): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 5): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 6): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 8): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 9): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 10): -1.37
+
+
+Marmelee:
+40% Barrier Strike
+4% Barrier Dash
+36% Nullifying Strike
+9% Nullifying Grasp
+11% Nullifying Dash
+
+Ottavia:
+54% Snapback Dash (Target Lock: 9)
+35% Snapback Dash (Target Lock: 10)
+5% Cybernetic Shot (Target Lock: 3)
+5% Cybernetic Shot (Target Lock: 4)
+1% Cybernetic Grasp (Target Lock: 9)
+
+
+Marmelee: Nullifying Strike
+Ottavia: Snapback Dash (Target Lock: 10)
+
+Priorities:  4 | 9
+Ottavia is active
+Ottavia moves:
+
+..O..M.
+
+Ottavia moves:
+
+O....M.
+
+Marmelee misses
+Marmelee gains 1 Concentration Counter
+
+Beat 8
+-------
+
+Marmelee
+--------
+Life: 15
+Discard 1: Nullifying Strike
+Discard 2: Magnificent Drive
+Special action available
+2 Concentration counters
+
+Ottavia
+-------
+Life: 19
+Discard 1: Snapback Dash
+Discard 2: Cover Shooter
+Special action available
+
+
+O....M.
+
+
+Marmelee:
+26% Sorceress Dash
+42% Barrier Meditation
+22% Barrier Shot
+10% Barrier Dash
+
+Ottavia:
+10% Anti-Personnel Shot (Target Lock: 2)
+39% Anti-Personnel Shot (Target Lock: 8)
+5% Anti-Personnel Drive (Target Lock: 8)
+46% Anti-Personnel Drive (Target Lock: 9)
+
+
+Marmelee: Sorceress Dash
+Ottavia: Anti-Personnel Shot (Target Lock: 8)
+
+Ottavia acquires target lock
+Priorities:  -2 | 1
+Ottavia is active
+Ottavia hits
+Marmelee takes 6 damage (now at 9 life)
+Marmelee is stunned
+Marmelee loses all Concentration counters
+Ottavia moves:
+
+....OM.
+
+Marmelee gains 1 Concentration Counter
+
+Beat 9
+-------
+
+Marmelee
+--------
+Life: 9
+Discard 1: Sorceress Dash
+Discard 2: Nullifying Strike
+Special action available
+1 Concentration counters
+
+Ottavia
+-------
+Life: 19
+Discard 1: Anti-Personnel Shot
+Discard 2: Snapback Dash
+Special action available
+
+
+....OM.
+
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 0): -0.76
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 1): -0.76
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 2): -0.76
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 3): -0.76
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 4): -0.76
+Unbeatable strategy for Ottavia: Demolition Drive (Target Lock: 5): -0.76
+Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 5): -0.49
+
+
+Marmelee:
+49% Petrifying Meditation
+6% Petrifying Drive
+4% Petrifying Burst
+4% Magnificent Meditation
+23% Barrier Meditation
+8% Barrier Drive
+6% Barrier Grasp
+
+Ottavia:
+20% Demolition Shooter (Target Lock: 4)
+28% Demolition Drive (Target Lock: 5)
+10% Demolition Burst (Target Lock: 4)
+19% Cover Burst (Target Lock: 3)
+2% Cover Burst (Target Lock: 4)
+10% Cybernetic Strike (Target Lock: 4)
+11% Cybernetic Strike (Target Lock: 5)
+
+
+Marmelee: Petrifying Meditation
+Ottavia: Demolition Shooter (Target Lock: 4)
+
+Priorities:  2 | 3
+Ottavia is active
 Marmelee discards 1 Concentration Counter
 Marmelee gains Soak 1
-Marmelee misses
 Ottavia hits
 Marmelee has 1 soak
-Marmelee takes 3 damage (now at 17 life)
+Marmelee takes 3 damage (now at 6 life)
 Marmelee is stunned
 Marmelee gains 1 Concentration Counter
 Marmelee gains 1 Concentration Counter
-total_time: 76
+
+Beat 10
+-------
+
+Marmelee
+--------
+Life: 6
+Discard 1: Petrifying Meditation
+Discard 2: Sorceress Dash
+Special action available
+2 Concentration counters
+
+Ottavia
+-------
+Life: 19
+Discard 1: Demolition Shooter
+Discard 2: Anti-Personnel Shot
+Special action available
+
+
+....OM.
+
+
+Marmelee:
+29% Magnificent Strike
+21% Magnificent Grasp
+18% Barrier Drive
+6% Barrier Grasp
+9% Nullifying Strike
+1% Nullifying Burst
+17% Nullifying Grasp
+
+Ottavia:
+20% Snapback Burst (Target Lock: 3)
+12% Cover Burst (Target Lock: 4)
+15% Cover Burst (Target Lock: 5)
+33% Cybernetic Drive (Target Lock: 4)
+3% Cybernetic Drive (Target Lock: 5)
+11% Cybernetic Drive (Target Lock: 6)
+7% Cybernetic Grasp (Target Lock: 5)
+
+
+Marmelee: Magnificent Grasp
+Ottavia: Cybernetic Drive (Target Lock: 4)
+
+Priorities:  5 | 4
+Marmelee is active
+Marmelee misses
+Marmelee discards 2 Concentration Counters
+Marmelee moves:
+
+M...O..
+
+Ottavia moves:
+
+M..O...
+
+Ottavia misses
+Marmelee gains 1 Concentration Counter
+
+Beat 11
+-------
+
+Marmelee
+--------
+Life: 6
+Discard 1: Magnificent Grasp
+Discard 2: Petrifying Meditation
+Special action available
+1 Concentration counters
+
+Ottavia
+-------
+Life: 19
+Discard 1: Cybernetic Drive
+Discard 2: Demolition Shooter
+Special action available
+
+
+M..O...
+
+
+Marmelee:
+6% Sorceress Drive
+23% Sorceress Dash
+4% Barrier Shot
+10% Barrier Drive
+22% Barrier Dash
+9% Nullifying Shot
+6% Nullifying Drive
+20% Nullifying Dash
+
+Ottavia:
+14% Snapback Strike (Target Lock: 8)
+23% Snapback Strike (Target Lock: 10)
+21% Snapback Burst (Target Lock: 3)
+19% Snapback Burst (Target Lock: 9)
+7% Snapback Grasp (Target Lock: 10)
+7% Anti-Personnel Burst (Target Lock: 8)
+4% Anti-Personnel Burst (Target Lock: 9)
+5% Anti-Personnel Grasp (Target Lock: 9)
+
+
+Marmelee: Nullifying Drive
+Ottavia: Snapback Burst (Target Lock: 9)
+
+Priorities:  5 | 1
+Marmelee is active
+Ottavia moves:
+
+M....O.
+
+Marmelee moves:
+
+..M..O.
+
+Marmelee misses
+Ottavia hits
+Marmelee takes 3 damage (now at 3 life)
+Marmelee is stunned
+Marmelee loses all Concentration counters
+Ottavia moves:
+
+..M...O
+
+Marmelee gains 1 Concentration Counter
+
+Beat 12
+-------
+
+Marmelee
+--------
+Life: 3
+Discard 1: Nullifying Drive
+Discard 2: Magnificent Grasp
+Special action available
+1 Concentration counters
+
+Ottavia
+-------
+Life: 19
+Discard 1: Snapback Burst
+Discard 2: Cybernetic Drive
+Special action available
+
+
+..M...O
+
+
+Marmelee:
+2% Petrifying Dash
+2% Barrier Shot
+0% Barrier Burst
+2% Barrier Dash
+93% Special Pulse
+
+Ottavia:
+7% Anti-Personnel Shooter (Target Lock: 2)
+11% Anti-Personnel Shooter (Target Lock: 8)
+11% Anti-Personnel Shooter (Target Lock: 9)
+18% Anti-Personnel Strike (Target Lock: 9)
+9% Anti-Personnel Shot (Target Lock: 2)
+13% Anti-Personnel Shot (Target Lock: 8)
+13% Anti-Personnel Shot (Target Lock: 9)
+9% Cover Shooter (Target Lock: 8)
+9% Cover Shot (Target Lock: 8)
+
+
+Marmelee: Special Pulse
+Ottavia: Anti-Personnel Shot (Target Lock: 2)
+
+Marmelee Pulses:
+
+.OM....
+
+Marmelee gains 1 Concentration Counter
+
+Beat 12
+-------
+
+Marmelee
+--------
+Life: 3
+Discard 1: Nullifying Drive
+Discard 2: Magnificent Grasp
+2 Concentration counters
+
+Ottavia
+-------
+Life: 19
+Discard 1: Anti-Personnel Shot
+Discard 2: Snapback Burst
+Special action available
+
+
+.OM....
+
+
+Marmelee:
+6% Petrifying Meditation
+45% Sorceress Dash
+1% Barrier Meditation
+3% Barrier Strike
+44% Barrier Dash
+
+Ottavia:
+37% Demolition Shooter (Target Lock: 9)
+31% Demolition Strike (Target Lock: 8)
+11% Demolition Strike (Target Lock: 9)
+18% Cybernetic Shooter (Target Lock: 8)
+3% Cybernetic Drive (Target Lock: 9)
+
+
+Marmelee: Barrier Dash
+Ottavia: Demolition Shooter (Target Lock: 9)
+
+Ottavia acquires target lock
+Priorities:  -1 | 3
+Ottavia is active
+Ottavia hits
+Marmelee is stunned
+Marmelee loses all Concentration counters
+Marmelee takes 4 damage (now at 0 life)
+OTTAVIA WINS!
+total_time: 41

@@ -40,16 +40,6 @@
 # blocks and movement reactions be called by both players, and make
 # condition for who initiated the movement when it's necessary.
 
-# Discard piles should be ordered.  For example, Kehrolyn's current form
-# is the top (=latest) style that isn't a special action.
-
-# Reveal effects happen only once, so they shouldn't happen again after a
-# clash.  Examples: Eligor's Aegis, Aria's Ionic.  This can't be helped
-# without a major refactoring.
-
-# "Deal damage" effects are considered attacks, so dodge effects can
-# cause them to miss.
-
 # TO CHECK OPENING DISCARDS
 # free_for_all (1, <name>, skip=['kehrolyn'], first_beats=True)
 
@@ -99,10 +89,9 @@ def main():
         play()
     
 def ad_hoc():
-#    duel('seth', 'kallistar', 10)
-    free_for_all(1, ['cesar'], 'runika', ['seth'], True, False)
-    free_for_all(1, ['ottavia'], '', ['cesar','seth'], True, False)
-#    free_for_all(1, ['juto'], '', ['kehrolyn'], True, True)
+#    duel('seth', 'voco', 10)
+    free_for_all(10, ['voco'], 'seth', [''], True, False)
+#    free_for_all(1, ['voco'], '', ['kehrolyn'], True, True)
 
 playable = [ 'abarene',
              'adjenna',
@@ -312,10 +301,9 @@ def play_beat (filename='starting states/start.txt'):
     game.print_solution()
     return game
 
-def play_start_beat (name0, name1, beta_bases0=False, beta_bases1=False,
-                     default_discards=True):
+def play_start_beat (name0, name1, beta_bases0=False, beta_bases1=False):
     game = Game.from_start(name0, name1, beta_bases0, beta_bases1,
-                           default_discards=default_discards)
+                           default_discards=True)
     print "Simulating..."
     game.simulate_beat()
     print "Solving..."
@@ -662,11 +650,13 @@ class Game:
     def initial_save (self):
         state = GameState()
         state.player_states = [p.initial_save() for p in self.player]
+        state.current_beat = self.current_beat
         return state
 
     def initial_restore (self, state):
         for i in range(2):
             self.player[i].initial_restore (state.player_states[i])
+        self.current_beat = state.current_beat
 
     # makes full snapshot, mid beat
     def full_save (self, stage):
@@ -675,9 +665,10 @@ class Game:
         state.reports = [s for s in self.reports]
         state.decision_counter = self.decision_counter
         state.winner = self.winner
-        state.stage = stage
         state.active = self.active
         state.stop_the_clock = self.stop_the_clock
+        state.current_beat = self.current_beat
+        state.stage = stage
         return state
 
     def full_restore (self, state):
@@ -688,6 +679,7 @@ class Game:
         self.winner = state.winner
         self.active = state.active
         self.stop_the_clock = state.stop_the_clock
+        self.current_beat = state.current_beat
 
     # resets game state to start of beat position (post strategy selection)
     def reset (self):
@@ -2484,15 +2476,15 @@ class Character (object):
         return stunguard
     
     # return blocked destinations, that cannot be moved into or through
-    def blocks_movement (self, direct):
+    def blocks_opponent_movement (self, initiator, direct):
         blocked = set()
         for card in self.active_cards:
-            blocked |= card.blocks_movement (direct)
+            blocked |= card.blocks_opponent_movement (initiator, direct)
         return blocked
-    def blocks_pullpush (self):
+    def blocks_own_movement (self, initiator):
         blocked = set()
         for card in self.active_cards:
-            blocked |= card.blocks_pullpush()
+            blocked |= card.blocks_own_movement(initiator)
         return blocked
 
     # performance hacks:
@@ -2512,9 +2504,9 @@ class Character (object):
     # cannot refer to self.active_cards, because it is used in making it
     def blocks_tokens (self):
         return False
-    # react to opponent's execute_move()
+    # react to own or opponent's execute_move()
     # invoked also for failed movement
-    def movement_reaction (self, mover, old_position, direct):
+    def movement_reaction (self, initiator, mover, old_position, direct):
         pass
     def mimics_movement (self):
         return False
@@ -2782,7 +2774,7 @@ class Character (object):
     # for direct moves, which should give the entire 1 to 6 (or -1 to
     # -6) range as their moves.
     def execute_move (self, mover, moves, direct=False, max_move=False):
-        self.forced_block = False
+        mover.forced_block = False
         mover_pos = mover.position
         
         self.inner_execute_move (mover, moves, direct, max_move)
@@ -2800,9 +2792,10 @@ class Character (object):
                     self.game.report (self.name + " moves " + mover.name + ":")
                 for s in self.game.get_board():
                     self.game.report (s)
-        # reaction not dependent on actual movement, some cards react to
-        # failed movement.
-        self.opponent.movement_reaction (mover, mover_pos, direct)
+        # reactions not dependent on actual movement, some cards react 
+        # to failed movement.
+        self.movement_reaction (self, mover, mover_pos, direct)
+        self.opponent.movement_reaction (self, mover, mover_pos, direct)
 
     # Does heavy lifting of movement.
     def inner_execute_move (self, mover, moves, direct, max_move):
@@ -2815,32 +2808,29 @@ class Character (object):
         else:
             # convert relative moves to destinations
             dests = self.get_destinations(mover, moves)
-        # obtain set of spaces blocked by opponent
-        blocked = self.get_blocked_spaces(mover, direct)
-        # record this for later inspection
-        self.blocked = blocked
+        mover.dests = dests
+        # obtain set of spaces blocked by opponent, and record
+        # them for inspection by method that invoked the move.
+        mover.mover_block = mover.blocks_own_movement(self)
+        mover.mover_block.discard(mover_pos)
+        mover.opponent_block = mover.opponent.blocks_opponent_movement(
+                                                        self, direct)
+        mover.opponent_block.discard(mover_pos)
+        blocked = mover.mover_block | mover.opponent_block
         # compute possible destinations after blocking
-        if len (blocked) == 0:
-            possible = list (dests)
+        if not blocked:
+            possible = list(dests)
         else:
-            # can't block null movement
-            blocked.discard(mover_pos)
-            # for normal movement, a position is 'unobstructed' if there are
-            # no blocked positions between it and the mover
-            if not direct:
-                unobstructed = set(pos for pos in xrange(7) \
-                        if len(pos_range(pos,mover_pos) & blocked) == 0)
-            # for direct movement, only directly blocked spaces are obstructed.
-            else: 
-                unobstructed = set(xrange(7)) - blocked
+            unobstructed = self.get_unobstructed_positions(
+                                        mover_pos, blocked, direct)
             possible = list (dests & unobstructed)
-            if max_move and possible:
-                direction = sum(moves) * (self.opponent.position -
-                                          self.position)
-                if direction > 0:
-                    possible = [max(possible)]
-                else:
-                    possible = [min(possible)]
+        if max_move and possible:
+            direction = sum(moves) * (self.opponent.position -
+                                      self.position)
+            if direction > 0:
+                possible = [max(possible)]
+            else:
+                possible = [min(possible)]
         if possible:
             mover_name = ("" if mover == self else mover.name+" ")
             prompt = "Choose position to move " + mover_name + "to:"
@@ -2853,19 +2843,18 @@ class Character (object):
                 mover.position = mover_pos
             ans = self.game.make_fork (len(possible), self, prompt, options)
             mover.position = possible[ans]
-        # no possible moves
-        else:
-            # if I had possible destinations, but all were blocked,
-            # then I was forced into attempting the block
-            if dests:
-                self.forced_block = True
 
-    def get_blocked_spaces(self, mover, direct):
-        if mover == self:
-            return self.opponent.blocks_movement(direct)
-        else:
-            return self.opponent.blocks_pullpush()
-            
+
+    def get_unobstructed_positions(self, mover_pos, blocked, direct):
+        if direct:
+            # for direct movement, only directly blocked spaces are obstructed.
+            return set(xrange(7)) - blocked
+        else: 
+            # for normal movement, a position is 'unobstructed' if there
+            # are no blocked positions between it and the mover
+            return set(pos for pos in xrange(7)
+                       if len(pos_range(pos,mover_pos) & blocked) == 0)
+    
     # given player moving/being moved, and set of relative moves,
     # return possible destinations, taking into account board size
     # and jumping over opponent
@@ -2874,17 +2863,16 @@ class Character (object):
         otherpos = mover.opponent.position
         direction = (otherpos - mypos) / abs (otherpos - mypos)
         destinations = []
-        mimic = self.opponent.mimics_movement()
         for m in moves:
             dest = mypos + m * direction
             # forward movement takes into account running into opponent
             if m > 0:
-                # if moving yourself against a mimic, stop one short
-                if mover == self and mimic:
+                # If mover's opponent mimics movement, stop one short
+                if mover.opponent.mimics_movement():
                     if direction == 1 and dest == 6:
-                        break
+                        continue
                     if direction == -1 and dest == 0:
-                        break
+                        continue
                 # but normally, jump over opponent
                 else:
                     if direction*dest >= direction*otherpos: 
@@ -3147,13 +3135,13 @@ class Card (object):
     # non-direct moves will automatically be prevented from passing through
     # blocked spaces to the spaces beyond
     # (so "direct" is provided for special cases only)
-    def blocks_movement (self, direct):
+    def blocks_opponent_movement (self, initiator, direct):
         return set()
-    def blocks_pullpush (self):
+    def blocks_own_movement (self, initiator):
         return set()
     
     # note that this is invoked for failed movement as well
-    def movement_reaction(self, mover, old_position, direct):
+    def movement_reaction(self, initiator, mover, old_position, direct):
         pass
     def mimics_movement (self):
         return False
@@ -3375,7 +3363,7 @@ class OpponentImmobilizedStatusEffect(StatusEffect):
     situation_report_line = "Opponent is immobilized"
     activation_line = "Opponent will be immobilized next beat"
     value = 3.5
-    def blocks_movement(self, direct):
+    def blocks_opponent_movement(self, initiator, direct):
         return set(xrange(7))
         
 class OpponentEliminatedStatusEffect(StatusEffect):
@@ -3511,34 +3499,9 @@ class Abarene(Character):
         Character.hit_trigger(self)
 
     # overrides default method, which I set to pass for performance
-    def movement_reaction (self, mover, old_position, direct):
+    def movement_reaction (self, initiator, mover, old_position, direct):
         for card in self.active_cards:
-            card.movement_reaction (mover, old_position, direct)
-
-    # Barbed hurts opponent when Abarene moves her.
-    def execute_move (self, mover, moves, direct=False, max_move=False):
-        old_pos = self.opponent.position
-        Character.execute_move(self, mover, moves, direct, max_move)
-        if self.barbed in self.active_cards:
-            self.barbed_life_loss(mover, old_pos, direct)
-
-    def barbed_life_loss(self, mover, old_pos, direct):
-        if mover is self:
-            return
-        opp = self.opponent.position
-        if opp == old_pos:
-            return
-        if direct:
-            if self.game.distance() == 1:
-                self.opponent.lose_life(2)
-        else:
-            passed = pos_range(opp, old_pos)
-            passed.remove(old_pos)
-            me = self.position
-            if me + 1 in passed:
-                self.opponent.lose_life(2)
-            if me - 1 in passed:
-                self.opponent.lose_life(2)
+            card.movement_reaction (initiator, mover, old_position, direct)
 
     def give_priority_penalty(self):
         return (-2 * self.flytrap_discard + 
@@ -3607,17 +3570,9 @@ class Adjenna (Character):
             self.opponent.push ([soaked_damage])
 
     # overrides default method, which I set to pass for performance
-    def movement_reaction (self, mover, old_position, direct):
+    def movement_reaction (self, initiator, mover, old_position, direct):
         for card in self.active_cards:
-            card.movement_reaction (mover, old_position, direct)
-
-    # Pacifying hurts opponent when Adjenna moves her.
-    def execute_move (self, mover, moves, direct=False, max_move=False):
-        pos = self.opponent.position
-        Character.execute_move(self, mover, moves, direct, max_move)
-        if (mover is self.opponent and mover.position != pos and
-            self.pacifying in self.active_cards):
-            self.opponent.lose_life(2) 
+            card.movement_reaction (initiator, mover, old_position, direct)
 
     # Adjenna wants to be as close to opponent as possible
     # regardless of her cards?
@@ -3698,19 +3653,16 @@ class Alexian (Character):
     
     def reset (self):
         self.damage_soaked = 0
-        self.switched_sides = False
         Character.reset (self)
 
     def full_save (self):
         state = Character.full_save (self)
         state.damage_soaked = self.damage_soaked
-        state.switched_sides = self.switched_sides
         return state
 
     def full_restore (self, state):
         Character.full_restore (self, state)
         self.damage_soaked = state.damage_soaked
-        self.switched_sides = state.switched_sides
         
     def get_induced_antes (self):
         return range (len(self.induced_pool) + 1)
@@ -3756,24 +3708,6 @@ class Alexian (Character):
     # record damage soaked (for Steeled and Empire Divider)
     def soak_trigger (self, soaked_damage):
         self.damage_soaked += soaked_damage
-
-    # Record switching sides, for Divider
-    # This tracks switching under Alexian's initiative
-    def execute_move (self, mover, moves, direct=False, max_move=False):
-        old_direction = self.position - self.opponent.position
-        Character.execute_move (self, mover, moves, direct, max_move)
-        new_direction = self.position - self.opponent.position
-        if old_direction * new_direction < 0:
-            self.switched_sides = True
-    # And this tracks switching under opponent's initiative
-    def movement_reaction (self, mover, old_position, direct):
-        if mover is self:
-            old_direction = old_position - self.opponent.position
-        else:
-            old_direction = self.position - old_position
-        new_direction = self.position - self.opponent.position
-        if old_direction * new_direction < 0:
-            self.switched_sides = True
 
     def evaluate (self):
         value = Character.evaluate(self)
@@ -4672,9 +4606,9 @@ class Cesar (Character):
         self.damage_taken += final_damage
 
     # overrides default method, which I set to pass for performance
-    def movement_reaction (self, mover, old_position, direct):
+    def movement_reaction (self, initiator, mover, old_position, direct):
         for card in self.active_cards:
-            card.movement_reaction (mover, old_position, direct)
+            card.movement_reaction (initiator, mover, old_position, direct)
 
     def blocks_hit_triggers (self):
         return self.unstoppable in self.active_cards
@@ -4717,18 +4651,22 @@ class Claus (Character):
         # Moving opponent (Grasp) happens normally.
         if mover is self.opponent:
             return Character.inner_execute_move(self, mover, moves, direct, max_move)
-        # From now on, assume that mover is self, and that movement
-        # is not direct (since Claus has no direct moves). 
+        # From now on, assume:
+        # 1. mover is self.
+        # 2. movement is not direct (since Claus has no direct moves).
+        # 3. there are no mover blocks (claus never blocks own moves).
         initial_pos = self.position
         dests = self.get_destinations(self, moves)
-        blocked = self.opponent.blocks_movement(direct=False)
-        self.blocked = blocked
-        if len (blocked) == 0:
+        blocked = self.opponent.blocks_opponent_movement(self, direct)
+        blocked.discard(initial_pos)
+        self.dests = dests
+        self.mover_block = set()
+        self.opponent_block = blocked
+        if not blocked:
             possible = list (dests)
         else:
-            blocked.discard(initial_pos)
-            unobstructed = set([d for d in dests \
-                    if not (pos_range(initial_pos, d) & blocked)])
+            unobstructed = self.get_unobstructed_positions(
+                                        initial_pos, blocked, direct) 
             possible = list (dests & unobstructed)
         if possible:
             prompt = "Choose position to move to:"
@@ -4758,11 +4696,6 @@ class Claus (Character):
             self.push([push_distance])
             self.deal_damage(abs(self.opponent.position - 
                                  opp_initial_pos))
-            
-        # No possible moves: if I had possible destinations, but all 
-        # were blocked, then I was forced into attempting the block.
-        if dests:
-            self.forced_block = True
             
 
 class Clinhyde (Character):
@@ -5055,13 +4988,10 @@ class Clive (Character):
         if self.game.reporting:
             self.game.report ("Clive discards %s" % module.name)
 
-    # record switching sides, for Leaping
-    def execute_move (self, mover, moves, direct=False, max_move=False):
-        old_pos = self.position
-        Character.execute_move (self, mover, moves, direct, max_move)
-        if mover == self and \
-           ordered (old_pos, self.opponent.position, self.position):
-            self.switched_sides = True
+    # overrides default method, which I set to pass for performance
+    def movement_reaction (self, initiator, mover, old_position, direct):
+        for card in self.active_cards:
+            card.movement_reaction (initiator, mover, old_position, direct)
         
     def blocks_hit_triggers (self):
         return self.core_shielding in self.active_cards
@@ -5655,13 +5585,7 @@ class Gerard (Character):
             self.mercs_in_play.remove(self.lackey)
             self.removed_mercs.append(self.lackey)
 
-    # Keep track of switching sides
-    def execute_move(self, mover, moves, direct=False, max_move=False):
-        old_pos = mover.position
-        Character.execute_move(self, mover, moves, direct, max_move)
-        if ordered(old_pos, mover.opponent.position, mover.position):
-            self.switched_sides = True
-    def movement_reaction(self, mover, old_position, direct):
+    def movement_reaction(self, initiator, mover, old_position, direct):
         if ordered(old_position, mover.opponent.position, mover.position):
             self.switched_sides = True
 
@@ -5778,26 +5702,14 @@ class Heketch (Character):
         if not isinstance (self.base, Knives) or self.game.distance() > 1:
             self.opponent.stun (damage)
 
-    def blocks_movement (self, direct):
+    def blocks_opponent_movement (self, initiator, direct):
         return (set(xrange(7)) if self.merciless_immobilized
-                else Character.blocks_movement(self, direct))
+                else Character.blocks_opponent_movement(self, initiator, direct))
 
     # overrides default method, which I set to pass for performance
-    def movement_reaction (self, mover, old_position, direct):
+    def movement_reaction (self, initiator, mover, old_position, direct):
         for card in self.active_cards:
-            card.movement_reaction (mover, old_position, direct)
-
-    # Apply Merciless when I move opponent.
-    def execute_move (self, mover, moves, direct=False, max_move=False):
-        old_dir = self.opponent.position - self.position
-        Character.execute_move (self, mover, moves, direct, max_move)
-        if mover == self.opponent and self.merciless in self.active_cards:
-            new_dir = self.opponent.position - self.position
-            if new_dir * old_dir < 0:
-                self.opponent.lose_life (2)
-                self.merciless_immobilized = True
-                if self.game.reporting:
-                    self.game.report (self.opponent.name + " cannot move again this beat")
+            card.movement_reaction (initiator, mover, old_position, direct)
 
     # retrieve token at end of beat
     def unique_ability_end_trigger (self):
@@ -6150,24 +6062,11 @@ class Kajia(Character):
     def total_insects (self):
         return self.insects[1] + self.insects[2]
 
-    # Give counter when Kajia initiates switch
-    def execute_move (self, mover, moves, direct=False, max_move=False):
-        old_dir = self.opponent.position - self.position
-        Character.execute_move (self, mover, moves, direct, max_move)
-        if mover == self.opponent:
-            new_dir = self.opponent.position - self.position
-            if new_dir * old_dir < 0:
-                self.give_insects(1)
-
-    # Give counter when opponent initiates switch
-    def movement_reaction (self, mover, old_position, direct):
-        old_dir = (old_position - self.position
-                   if mover == self.opponent
-                   else self.opponent.position - old_position)
-        if mover == self.opponent:
-            new_dir = self.opponent.position - self.position
-            if new_dir * old_dir < 0:
-                self.give_insects(1)
+    # Give counter when opponent moves and switches sides.
+    def movement_reaction (self, initiator, mover, old_position, direct):
+        if (mover is self.opponent and
+            ordered(self.opponent.position, self.position, old_position)):
+            self.give_insects(1)
 
     # Cycle insects with opponents cards
     def cycle (self):
@@ -6379,9 +6278,9 @@ class Karin (Character):
         return abs (self.opponent.position - attack_source)
 
     # overrides default method, which I set to pass for performance
-    def movement_reaction (self, mover, old_position, direct):
+    def movement_reaction (self, initiator, mover, old_position, direct):
         for card in self.active_cards:
-            card.movement_reaction (mover, old_position, direct)
+            card.movement_reaction (initiator, mover, old_position, direct)
 
     # different preferred range for karin and jager, based on the styles
     # that let each of them attack
@@ -6532,10 +6431,12 @@ class Khadath (Character):
         Character.initial_restore (self, state)
         self.trap_position = state.trap_position
 
-    # non-direct moves can't enter trap and come out on other side
-    def blocks_movement (self, direct):
-        if direct == True or self.trap_position == self.position \
-                          or self.trap_position == None:
+    # Non-direct moves can't enter trap and come out on other side.
+    # This doesn't affect me when I'm pulling with Lure.
+    def blocks_opponent_movement (self, initiator, direct):
+        if (direct or initiator is self or 
+            self.trap_position == self.position or
+            self.trap_position is None):
             return set()
         return set ([pos for pos in xrange(7) \
                      if ordered (self.opponent.position,
@@ -6728,9 +6629,9 @@ class Lesandra(Character):
             self.add_triggered_power_bonus(-damage)
 
     # overrides default method, which I set to pass for performance
-    def movement_reaction (self, mover, old_position, direct):
+    def movement_reaction (self, initiator, mover, old_position, direct):
         for card in self.active_cards:
-            card.movement_reaction (mover, old_position, direct)
+            card.movement_reaction (initiator, mover, old_position, direct)
     
     def evaluate(self):
         ret = Character.evaluate(self)
@@ -8014,9 +7915,9 @@ class Seth (Character):
             Character.start_trigger(self)
 
     # overrides default method, which I set to pass for performance
-    def movement_reaction (self, mover, old_position, direct):
+    def movement_reaction (self, initiator, mover, old_position, direct):
         for card in self.active_cards:
-            card.movement_reaction (mover, old_position, direct)
+            card.movement_reaction (initiator, mover, old_position, direct)
 
     # overrides default method, which I set to pass for performance
     def mimics_movement (self):
@@ -8299,30 +8200,9 @@ class Tanis(Character):
     def get_superposition_priority(self):
         return self.game.CHOOSE_POSITION_BEFORE_ATTACK_PAIRS
 
-    # Prevent movement into Loki when Valiant.
-    def get_blocked_spaces(self, mover, direct):
-        blocked = Character.get_blocked_spaces(self, mover, direct)
-        if (self.valiant in self.active_cards and 
-            self.loki.position != mover.opponent.position):
-            blocked.add(self.loki.position)
-        return blocked
-            
     # Record switching sides, for SceneShift
-    # This tracks switching under Tanis' initiative
-    def execute_move (self, mover, moves, direct=False, max_move=False):
-        old_direction = self.position - self.opponent.position
-        Character.execute_move (self, mover, moves, direct, max_move)
-        new_direction = self.position - self.opponent.position
-        if old_direction * new_direction < 0:
-            self.switched_sides = True
-    # And this tracks switching under opponent's initiative
-    def movement_reaction (self, mover, old_position, direct):
-        if mover is self:
-            old_direction = old_position - self.opponent.position
-        else:
-            old_direction = self.position - old_position
-        new_direction = self.position - self.opponent.position
-        if old_direction * new_direction < 0:
+    def movement_reaction (self, initiator, mover, old_position, direct):
+        if ordered(mover.position, mover.opponent.position, old_position):
             self.switched_sides = True
 
     def blocks_priority_bonuses (self):
@@ -8549,6 +8429,7 @@ class Tatsumi (Character):
             juto_value += 1
         return Character.evaluate (self) + juto_value
 
+
 class Vanaah (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Scythe  (the_game, self)
@@ -8767,21 +8648,10 @@ class Voco (Character):
                 self.opponent.lose_life (1)
                 self.remove_zombies(set([opp]), 1)
 
-    # Metal style leaves zombies behind on my move
-    def execute_move (self, mover, moves, direct=False, max_move=False):
-        old_pos = self.position
-        Character.execute_move (self, mover, moves, direct, max_move)
-        if mover==self and isinstance (self.style, Metal):
-            # Voco has no direct moves, so assume he passed through all
-            # spaces between old position and current position
-            # (except the opponent's)
-            self.add_zombies (pos_range(old_pos,self.position) \
-                                - set((self.position, self.opponent.position)))
-
     # overrides default method, which I set to pass for performance
-    def movement_reaction (self, mover, old_position, direct):
+    def movement_reaction (self, initiator, mover, old_position, direct):
         for card in self.active_cards:
-            card.movement_reaction (mover, old_position, direct)
+            card.movement_reaction (initiator, mover, old_position, direct)
 
     # zombies in the soak range or on opponent are .5
     # zombies anywhere else are .25
@@ -9209,8 +9079,24 @@ class Barbed(Style):
     power = -1
     priority = 1
     preferred_range = 1
-    def movement_reaction (self, mover, old_pos, direct):
-        self.me.barbed_life_loss(mover, old_pos, direct)
+    def movement_reaction (self, initiator, mover, old_pos, direct):
+        if mover is self.me:
+            return
+        opp = self.opponent.position
+        if opp == old_pos:
+            return
+        if direct:
+            if self.game.distance() == 1:
+                self.opponent.lose_life(2)
+        else:
+            passed = pos_range(opp, old_pos)
+            passed.remove(old_pos)
+            me = self.me.position
+            if me + 1 in passed:
+                self.opponent.lose_life(2)
+            if me - 1 in passed:
+                self.opponent.lose_life(2)
+
     def hit_trigger(self):
         self.me.pull([1])    
     ordered_hit_trigger = True
@@ -9223,8 +9109,8 @@ class Crippling(Style):
     priority = -2
     preferred_range = 1
     # Block retreats.
-    def blocks_movement (self, direct):
-        if direct:
+    def blocks_opponent_movement (self, initiator, direct):
+        if direct or initiator is self.me:
             return set([])
         opp = self.opponent.position
         if opp < self.me.position:
@@ -9357,8 +9243,8 @@ class Pacifying (Style):
     def after_trigger (self):
         self.me.move ((1,2))
     ordered_after_trigger = True
-    def movement_reaction (self, mover, old_pos, direct):
-        if mover is self.opponent and mover.position!=old_pos:
+    def movement_reaction (self, initiator, mover, old_pos, direct):
+        if mover is self.opponent and mover.position != old_pos:
             self.opponent.lose_life (self.me.petrification)
 
 class Irresistible (Style):
@@ -9437,8 +9323,8 @@ class Gestalt (Style):
     priority = -1
     stunguard = 3
     preferred_range = 0.5
-    def blocks_pullpush (self):
-        return set(xrange(7))
+    def blocks_own_movement (self, initiator):
+        return set() if initiator is self.me else set(xrange(7))
     def start_trigger (self):
         self.me.advance ([0,1])
     ordered_start_trigger = True
@@ -9449,10 +9335,8 @@ class Regal (Style):
     stunguard = 3
     mean_priority = 1.5 # cancels tokens
     # Opponents at range 1 can't retreat
-    def blocks_movement (self, direct):
-        if direct:
-            return set()
-        if self.game.distance() > 1:
+    def blocks_opponent_movement (self, initiator, direct):
+        if direct or initiator is self.me or self.game.distance() > 1:
             return set()
         if self.me.position < self.opponent.position:
             return set(xrange(self.opponent.position + 1, 7))
@@ -10025,8 +9909,8 @@ class Pathetic(Style):
 class Petulant(Style):
     priority = -2
     stunguard = 3
-    def blocks_pullpush(self):
-        return set(xrange(7))
+    def blocks_own_movement(self, initiator):
+        return set() if initiator is self.me else set(xrange(7))
     
 class Slippery(Style):
     power = -1
@@ -10275,13 +10159,11 @@ class Suppression (Base):
     priority = 2
     preferred_range = 1
     # Opponents cannot move past you.
-    def blocks_movement(self, direct):
+    def blocks_opponent_movement(self, initiator, direct):
         if direct:
             return set()
-        if self.opponent.position > self.me.position:
-            return set(xrange(self.me.position))
         else:
-            return set(xrange(self.me.position+1,7))
+            return set([self.me.position])
     def can_be_hit (self):
         return self.opponent.attack_range() < 3
     def end_trigger (self):
@@ -10304,10 +10186,11 @@ class Phalanx (Style):
 
 class Unstoppable (Style):
     priority = -2
-    # for now, I assume this requires the opponent to actually move
-    def movement_reaction (self, mover, old_pos, direct):
-        if mover == self.opponent and self.opponent.position != old_pos:
-            self.me.advance ((1,2))
+    # I assume this requires a move to actually happen.
+    # (FAQ disagrees).
+    def movement_reaction (self, initiator, mover, old_pos, direct):
+        if initiator is self.opponent and mover.position != old_pos:
+            self.me.advance((1,2))
     # blocking hit/damage triggers handled by Cesar
 
 class Fueled (Style):
@@ -10325,8 +10208,8 @@ class Fueled (Style):
 class Bulwark (Style):
     priority = -2
     stunguard = 3
-    def blocks_pullpush (self):
-        return set(xrange(7))
+    def blocks_own_movement (self, initiator):
+        return set() if initiator is self.me else set(xrange(7))
     def after_trigger (self):
         self.me.move ([0,1,2,3])
     ordered_after_trigger = True
@@ -10532,14 +10415,16 @@ class Gravity (Style):
     def hit_trigger (self):
         self.me.move_opponent_to_unoccupied()
     ordered_hit_trigger = True
-    def blocks_pullpush (self):
+    def blocks_own_movement (self, initiator):
+        # blocking self initiated movement handled by Clinhyde.execute_move()
+        if initiator is self.me:
+            return set()
         if self.game.make_fork(2, self.me,
             "Block %s's attempt to move you?" % self.opponent,
             ["No", "Yes"]):
             return set(xrange(7)) #block
         else:
             return set() #don't block
-    # ignoring own movement handled by self.execute_move
 
 class Phase (Style):
     maxrange = 2
@@ -10686,8 +10571,12 @@ class Leaping (Style):
         if spaces_advanced == 3:
             self.me.add_triggered_power_bonus (2)
     ordered_before_trigger = True
-    # Clive.execute_move() keeps track of switching sides
-
+    def movement_reaction(self, initiator, mover, old_position, direct):
+        if mover is self.me and ordered(mover.position, 
+                                        mover.opponent.position, 
+                                        old_position):
+            self.me.switched_sides = True
+        
 class Module (Card):
     pass
 
@@ -10796,7 +10685,7 @@ class Fallen(Style):
 class Shackled(Style):
     maxrange = 1
     priority = -1
-    def blocks_movement(self, direct):
+    def blocks_opponent_movement(self, initiator, direct):
         return self.me.monsters
     def evaluation_bonus(self):
         adjacent = self.me.get_destinations(self.opponent, [-1,1])
@@ -11040,8 +10929,8 @@ class Vengeful (Style):
         self.me.advance([1])
     def hit_trigger (self):
         self.me.recover_tokens(2)
-    def blocks_pullpush (self):
-        return set(xrange(7))
+    def blocks_own_movement (self, initiator):
+        return set() if initiator is self.me else set(xrange(7))
 
 class CounterStyle (Style):
     name_override = 'Counter'
@@ -11304,7 +11193,7 @@ class Gunslinger(Mercenary):
 class HeavyKnight(Mercenary):
     hiring_cost = 2
     activation_cost = 3
-    def blocks_movement(self, direct):
+    def blocks_opponent_movement(self, initiator, direct):
         return set() if direct else set([self.me.position])
     def get_value(self):
         return self.me.gold_value
@@ -11354,10 +11243,9 @@ class Merciless (Style):
     maxrange = 1
     power = -1
     preferred_range = 0.5
-    def movement_reaction (self, mover, old_pos, direct):
-        if mover == self.opponent and not direct and \
-           (mover.position - self.me.position) * \
-           (old_pos - self.me.position) < 0:
+    def movement_reaction (self, initiator, mover, old_pos, direct):
+        if (mover == self.opponent and not direct and
+            ordered(mover.position, self.me.position, old_pos)):
             self.opponent.lose_life (2)
             self.me.merciless_immobilized = True
             if self.game.reporting:
@@ -11697,8 +11585,8 @@ class Staff(Base):
         self.me.push([1])
         self.me.staff_hit = True
     ordered_hit_trigger = True
-    def blocks_movement(self, direct):
-        if direct or not self.me.staff_hit:
+    def blocks_opponent_movement(self, initiator, direct):
+        if direct or initiator is self.me or not self.me.staff_hit:
             return set()
         me = self.me.position
         opp = self.opponent.position
@@ -11852,7 +11740,7 @@ class Parasitic (Style):
     def get_preferred_range (self):
         return 0.5 * (self.me.total_insects())
     def start_trigger (self):
-        self.me.pull([3])
+        self.me.pull ([3])
     ordered_start_trigger = True
     def evaluation_bonus (self):
         value = 0.25 * (self.me.total_insects() - 2)
@@ -12105,19 +11993,36 @@ class Coordinated (Style):
     jager_attack = False
     # block opponent from moving into Jager's space
     # if Jager is on Karin, don't block it, so that opponent can jump over Karin
-    def blocks_movement (self, direct):
+    def blocks_opponent_movement (self, initiator, direct):
         if self.me.position == self.me.jager_position:
             return set()
         else:
             return set([self.me.jager_position])
     # deals damage if opponent attempted to enter Jager's position
-    def movement_reaction (self, mover, old_position, direct):
-        if mover == self.opponent:
-            if self.opponent.forced_block:
-                if self.game.reporting:
-                    self.game.report("%s is blocked by Jager"
-                                     % self.opponent.name)
-                self.me.deal_damage (2)
+    def movement_reaction (self, initiator, mover, old_position, direct):
+        # For an opponent to run afoul of Jager, the following must be
+        # true:
+        # Opponent was supposed to move.
+        if mover is self.me:
+            return
+        # She didn't.
+        if mover.position != old_position:
+            return
+        # It wasn't by choice.
+        if old_position in mover.dests:
+            return
+        # Moving to Jager was a possible choice.
+        if self.me.jager_position not in mover.dests:
+            return
+        # Moving to Jager wasn't obstructed by opponent's ability.
+        unobstructed = self.me.get_unobstructed_positions(
+                               old_position, mover.mover_block, direct)
+        if self.me.jager_position not in unobstructed:
+            return
+        if self.game.reporting:
+            self.game.report("%s is blocked by Jager"
+                             % self.opponent.name)
+        self.me.deal_damage(2)
     def end_trigger (self):
         self.me.move_jager ((-1,0,1))
     def evaluation_bonus (self):
@@ -12321,8 +12226,8 @@ class Exoskeletal (Style):
     def soak(self):
         return 4 if self.me.mutating in self.me.discard[1] else 2
     # may block pull/push  - fork to decide whether to block
-    def blocks_pullpush (self):
-        if self.game.make_fork(2, self.me,
+    def blocks_own_movement (self, initiator):
+        if initiator is self.opponent and self.game.make_fork(2, self.me,
             "Block %s's attempt to move you?" % self.opponent,
             ["No", "Yes"]):
             return set(xrange(7)) #block
@@ -12519,8 +12424,9 @@ class Binding(Style):
     priority = -2
     preferred_range = 1
     stunguard = 2
-    def movement_reaction(self, mover, old_position, direct):
-        if mover.position != old_position:
+    def movement_reaction(self, initiator, mover, old_position, direct):
+        # Requires actual movement (FAQ disagrees).
+        if initiator is self.opponent and mover.position != old_position:
             self.opponent.lose_life(1)
             self.opponent.add_triggered_power_bonus(-1)
 
@@ -12659,7 +12565,7 @@ class Lance (Base):
     priority = 5
     preferred_range = 2
     # block movement into spaces adjacent to me
-    def blocks_movement (self, direct):
+    def blocks_opponent_movement (self, initiator, direct):
         pos = self.me.position
         return set ([pos+1, pos-1]) & set(xrange(7))
 
@@ -12679,15 +12585,15 @@ class Rooted (Style):
     soak = 2
     # preferred_range is 0, reducing minrange isn't usually effective
     # may block pull/push  - fork to decide whether to block
-    def blocks_pullpush (self):
-        if self.game.make_fork(2, self.me,
+    def blocks_own_movement (self, initiator):
+        # optional negation of own movement implemented by always adding 0
+        # to Lixis' move options (handled by Lixis.execute_move())
+        if initiator is self.opponent and self.game.make_fork(2, self.me,
             "Block %s's attempt to move you?" % self.opponent,
             ["No", "Yes"]):
             return set(xrange(7)) #block
         else:
             return set() #don't block
-    # optional negation of own movement implemented by always adding 0
-    # to Lixis' move options (handled by Lixis.execute_move())
 
 class Naturalizing (Style):
     maxrange = 1
@@ -12804,11 +12710,18 @@ class Fusion (Style):
     power = -1
     priority = 1
     def damage_trigger (self, damage):
-        blow_out = self.me.get_destinations (self.opponent, (-damage,)) == set()
-        self.me.push ([damage])
-        # if moving opponent back is illegal and opponent doesn't block
-        # (assumes  either blocks all pushes or none)
-        if blow_out and self.me.blocked == set():
+        # Check if destination for full push is beyond board.
+        blow_out = (self.me.get_destinations(self.opponent, (-damage,))
+                    == set())
+        opp = self.opponent.position
+        push_positions = (pos_range(0, opp-1)
+                          if opp < self.me.position
+                          else pos_range(opp+1, 6))
+        self.me.execute_move(self.opponent, range(-damage, 0),
+                             max_move=True)
+        # if destination beyond board, and opponent didn't block any
+        # spaces behind her, life loss occurs.
+        if blow_out and not (self.opponent.mover_block & push_positions):
             self.opponent.lose_life(2)
     ordered_damage_trigger = True
 
@@ -13469,7 +13382,7 @@ class Unstable (Style):
             effects = self.effects_names.keys()
             combos = list(itertools.combinations (effects, n_effects))
             options = []
-            if self.me.is_user and self.game.interactive_mode:
+            if self.opponent.is_user and self.game.interactive_mode:
                 options = [', '.join([self.effects_names[e] for e in combo])
                            for combo in combos]
             result = self.game.make_fork (len(combos), self.opponent,
@@ -13582,7 +13495,7 @@ class Snapback(Style):
     minrange = 1
     maxrange = 3
     preferred_range = 2
-    def blocks_movement(self, direct):
+    def blocks_opponent_movement(self, initiator, direct):
         if self.opponent.get_priority() < self.me.get_priority():
             return set(xrange(7))
         else:
@@ -13910,7 +13823,6 @@ class ArtificeAvarice (Finisher):
     power = 3
     priority = 3
     def start_trigger (self):
-        # Should this activate overcharged artifacts?
         for artifact in self.me.artifacts:
             self.me.activate_artifact(artifact)
         active = list(self.me.active_artifacts)
@@ -14072,9 +13984,10 @@ class ShieldAmulet (Artifact):
         return 3
     def has_stun_immunity (self):
         return self is self.me.overcharged_artifact
-    def blocks_pullpush (self):
+    def blocks_own_movement (self, initiator):
         return (set(xrange(7)) 
-                if self is self.me.overcharged_artifact 
+                if self is self.me.overcharged_artifact and
+                    initiator is self.opponent 
                 else set())
 
 class Battlefist (Artifact):
@@ -14143,8 +14056,8 @@ class Mimics (Style):
     def mimics_movement (self):
         return True
     # move the same as opponent
-    def movement_reaction (self, mover, old_position, direct):
-        if mover == self.opponent and not direct:
+    def movement_reaction (self, initiator, mover, old_position, direct):
+        if mover is self.opponent and not direct:
             self.me.position += (self.opponent.position - old_position)
             if self.me.position > 6:
                 self.me.position = 6
@@ -14393,19 +14306,16 @@ class Valiant(Style):
             return 3
         else:
             return 0
-    def blocks_movement(self, direct):
+    def blocks_own_movement(self, initiator):
+        return self.blocked_set()
+    def blocks_opponent_movement(self, initiator, direct):
+        return self.blocked_set()
+    def blocked_set(self):
         loki = self.me.loki.position
         if loki is None:
             return set()
         else:
             return set([loki])
-    def blocks_pullpush(self):
-        loki = self.me.loki.position
-        if loki is None:
-            return set()
-        else:
-            return set([loki])
-    # Blocking my own movement handled by Tanis.get_blocked_spaces()
     def evaluation_bonus(self):
         me = self.me.position
         opp = self.opponent.position
@@ -14797,13 +14707,15 @@ class Judgment (Style):
     power = 1
     priority = -1
     preferred_range = 1
-    def blocks_movement (self, direct):
+    def blocks_opponent_movement (self, initiator, direct):
         # Can't retreat or move past me.
         if direct:
             return set()
+        if initiator is self.me:
+            return set([self.me.position])
         direction = (self.me.position - self.opponent.position)
         direction /= abs(direction)
-        return set([self.me.position + direction,
+        return set([self.me.position,
                     self.opponent.position - direction])
 
 class Glorious (Style):
@@ -14939,9 +14851,8 @@ class Metal (Style):
     def before_trigger (self):
         self.me.advance ([2])
     ordered_before_trigger = True
-    # zombie placement when Voco is moved by opponent
-    def movement_reaction (self, mover, old_position, direct):
-        if mover==self.me and self.me.position != old_position:
+    def movement_reaction (self, initiator, mover, old_position, direct):
+        if mover is self.me and self.me.position != old_position:
             if direct:
                 self.me.add_zombies (set([old_position]))
             else:
@@ -14949,7 +14860,6 @@ class Metal (Style):
                                                  old_position)
                                       - set([self.me.position,
                                              self.opponent.position])))
-    # zombie placement on self-powered moves handled by Voco.execute_move
 
 class Hellraising (Style):
     minrange = 1
@@ -15092,16 +15002,15 @@ class Urgent (ZStyle):
 class Sturdy (ZStyle):
     def has_stun_immunity (self):
         return True
-    # may block pull/push  - fork to decide whether to block
-    def blocks_pullpush (self):
-        if self.game.make_fork(2, self.me,
+    def blocks_own_movement (self, initiator):
+        # optional negation of own movement implemented by always adding 0
+        # to own move options (handled by Zaamassal.execute_move())
+        if initiator is self.opponent and self.game.make_fork(2, self.me,
             "Block %s's attempt to move you?" % self.opponent,
             ["No", "Yes"]):
             return set(xrange(7)) #block
         else:
             return set() #don't block
-    # optional negation of own movement implemented by always adding 0
-    # to own move options (handled by Zaamassal.execute_move())
 
 class Warped (ZStyle):
     maxrange = 2
@@ -15142,7 +15051,7 @@ class Haste (Paradigm):
     shorthand = 'h'
     clash_priority = 0.1
     # Opponents adjacent to me can't move.
-    def blocks_movement (self, direct):
+    def blocks_opponent_movement (self, initiator, direct):
         # if opponent adjacent to me, block everything
         if self.game.distance() == 1:
             return set(xrange(7))
@@ -15151,10 +15060,7 @@ class Haste (Paradigm):
             return set()
         # if move is indirect, block switching sides
         # (once they go next to me, they can't continute moving).
-        if self.me.position > self.opponent.position:
-            return set ([self.me.position + 1])
-        else:
-            return set ([self.me.position - 1])
+        return set([self.me.position])
     # winning clashes is 0.5 priority, or 0.25 value
     def evaluate (self):
         return 1.0 if self.game.distance() == 1 else 0.25

@@ -11,55 +11,56 @@ Beat 1
 
 Khadath
 -------
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: Evacuation Grasp
+Discard 2: Hunter's Snare
+Special action available
 
 Ottavia
 -------
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: Cybernetic Strike
+Discard 2: Demolition Shot
+Special action available
 
 
 .K...O.
 
 
+
 Khadath:
-5% Teleport Drive
 27% Teleport Dash
-11% Blight Drive
-24% Blight Dash
-2% Lure Strike
-9% Lure Grasp
-21% Lure Dash
+14% Blight Drive
+7% Blight Burst
+19% Blight Dash
+9% Lure Strike
+2% Lure Drive
+22% Lure Dash
 
 Ottavia:
-10% Snapback Drive (Target Lock: 8)
-30% Snapback Drive (Target Lock: 9)
-1% Demolition Shooter (Target Lock: 4)
-8% Anti-Personnel Shooter (Target Lock: 4)
-18% Anti-Personnel Drive (Target Lock: 6)
-1% Cover Shooter (Target Lock: 8)
-32% Cover Dash (Target Lock: -1)
+5% Snapback Drive (Target Lock: 6)
+4% Snapback Drive (Target Lock: 8)
+2% Snapback Drive (Target Lock: 9)
+39% Anti-Personnel Shooter (Target Lock: 6)
+33% Anti-Personnel Drive (Target Lock: 4)
+2% Anti-Personnel Drive (Target Lock: 6)
+14% Anti-Personnel Grasp (Target Lock: 6)
 
 
 Khadath: Blight Drive
-Ottavia: Anti-Personnel Drive (Target Lock: 6)
+Ottavia: Anti-Personnel Shooter (Target Lock: 6)
 
-Priorities:  4 | 3
+Priorities:  4 | 1
 Khadath is active
 Khadath moves trap:
 
 .K...O.
-t......
+..t....
 
 Khadath moves:
 
-..K..O.
-t......
+...K.O.
+..t....
 
 Khadath hits
 Ottavia is stunned
@@ -67,8 +68,8 @@ Ottavia takes 3 damage (now at 17 life)
 Ottavia is stunned
 Ottavia moves:
 
-.OK....
-t......
+O..K...
+..t....
 
 
 Beat 2
@@ -76,78 +77,1206 @@ Beat 2
 
 Khadath
 -------
-life: 20
-discard 1: Blight Drive
-discard 2: 
-special action
+Life: 20
+Discard 1: Blight Drive
+Discard 2: Evacuation Grasp
+Special action available
 
 Ottavia
 -------
-life: 17
-discard 1: Anti-Personnel Drive
-discard 2: 
-special action
+Life: 17
+Discard 1: Anti-Personnel Shooter
+Discard 2: Cybernetic Strike
+Special action available
 
+
+O..K...
+..t....
+
+
+Khadath:
+64% Teleport Shot
+36% Teleport Burst
+
+Ottavia:
+1% Demolition Drive (Target Lock: -2)
+1% Demolition Drive (Target Lock: -1)
+1% Demolition Drive (Target Lock: 0)
+1% Demolition Drive (Target Lock: 1)
+1% Demolition Drive (Target Lock: 2)
+1% Demolition Drive (Target Lock: 3)
+46% Demolition Drive (Target Lock: 6)
+1% Demolition Drive (Target Lock: 8)
+1% Demolition Drive (Target Lock: 9)
+1% Cover Drive (Target Lock: -2)
+1% Cover Drive (Target Lock: -1)
+1% Cover Drive (Target Lock: 0)
+1% Cover Drive (Target Lock: 1)
+31% Cover Drive (Target Lock: 2)
+1% Cover Drive (Target Lock: 3)
+3% Cover Drive (Target Lock: 6)
+6% Cover Drive (Target Lock: 8)
+2% Cover Drive (Target Lock: 9)
+
+
+Khadath: Teleport Shot
+Ottavia: Demolition Drive (Target Lock: 6)
+
+Priorities:  -1 | 5
+Ottavia is active
+Ottavia moves:
+
+..OK...
+..t....
+
+Ottavia hits
+Khadath is stunned
+Khadath takes 3 damage (now at 17 life)
+Khadath is stunned
+Khadath moves:
+
+..O.K..
+..t....
+
+Khadath moves trap:
+
+..O.K..
+.t.....
+
+
+Beat 3
+-------
+
+Khadath
+-------
+Life: 17
+Discard 1: Teleport Shot
+Discard 2: Blight Drive
+Special action available
+
+Ottavia
+-------
+Life: 17
+Discard 1: Demolition Drive
+Discard 2: Anti-Personnel Shooter
+Special action available
+
+
+..O.K..
+.t.....
+
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 0): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 1): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 2): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 4): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 5): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 7): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 8): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 9): -0.72
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 11): -0.72
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 0): -0.59
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 1): -0.59
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 2): -0.59
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 3): -0.59
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 4): -0.59
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 5): -0.59
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 7): -0.59
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 8): -0.59
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 9): -0.59
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 11): -0.59
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 0): -0.09
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 1): -0.09
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 2): -0.09
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 3): -0.09
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 4): -0.09
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 5): -0.09
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 7): -0.09
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 8): -0.09
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 9): -0.09
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 11): -0.09
+
+
+Khadath:
+21% Hunter's Snare
+8% Hunter's Dash
+10% Lure Snare
+19% Lure Strike
+28% Lure Grasp
+14% Lure Dash
+
+Ottavia:
+35% Snapback Dash (Target Lock: 8)
+9% Cover Strike (Target Lock: 2)
+3% Cover Strike (Target Lock: 4)
+0% Cover Shot (Target Lock: 3)
+15% Cover Grasp (Target Lock: 3)
+5% Cover Dash (Target Lock: 0)
+5% Cover Dash (Target Lock: 1)
+5% Cover Dash (Target Lock: 2)
+5% Cover Dash (Target Lock: 3)
+5% Cover Dash (Target Lock: 4)
+5% Cover Dash (Target Lock: 5)
+5% Cover Dash (Target Lock: 7)
+5% Cover Dash (Target Lock: 9)
+
+
+Khadath: Hunter's Snare
+Ottavia: Snapback Dash (Target Lock: 8)
+
+Khadath gets +2 power
+Khadath gets +2 priority
+Ottavia gets -1 priority
+Priorities:  3 | 8
+Ottavia is active
+Ottavia moves:
+
+....KO.
+.t.....
+
+Ottavia moves:
+
+....K.O
+.t.....
+
+Khadath misses
+
+Beat 4
+-------
+
+Khadath
+-------
+Life: 17
+Discard 1: Hunter's Snare
+Discard 2: Teleport Shot
+Special action available
+
+Ottavia
+-------
+Life: 17
+Discard 1: Snapback Dash
+Discard 2: Demolition Drive
+Special action available
+
+
+....K.O
+.t.....
+
+
+Khadath:
+25% Blight Strike
+22% Blight Drive
+27% Blight Grasp
+21% Lure Strike
+5% Lure Drive
+
+Ottavia:
+20% Cover Shooter (Target Lock: 2)
+33% Cover Shooter (Target Lock: 4)
+22% Cover Shooter (Target Lock: 5)
+8% Cybernetic Shot (Target Lock: 3)
+17% Cybernetic Shot (Target Lock: 4)
+
+
+Khadath: Blight Strike
+Ottavia: Cover Shooter (Target Lock: 5)
+
+Priorities:  3 | -1
+Khadath is active
+Khadath moves trap:
+
+....K.O
+......t
+
+Khadath hits
+Ottavia has 1 soak
+Ottavia takes 3 damage (now at 14 life)
+Ottavia hits
+Khadath takes 5 damage (now at 12 life)
+Khadath is stunned
+
+Beat 5
+-------
+
+Khadath
+-------
+Life: 12
+Discard 1: Blight Strike
+Discard 2: Hunter's Snare
+Special action available
+
+Ottavia
+-------
+Life: 14
+Discard 1: Cover Shooter
+Discard 2: Snapback Dash
+Special action available
+
+
+....K.O
+......t
+
+
+Khadath:
+3% Teleport Shot
+15% Teleport Drive
+5% Teleport Burst
+7% Teleport Grasp
+33% Teleport Dash
+15% Evacuation Shot
+13% Evacuation Drive
+0% Lure Drive
+8% Lure Grasp
+
+Ottavia:
+39% Demolition Shot (Target Lock: 1)
+1% Demolition Shot (Target Lock: 6)
+0% Demolition Drive (Target Lock: 4)
+33% Demolition Drive (Target Lock: 6)
+6% Demolition Burst (Target Lock: 4)
+2% Anti-Personnel Strike (Target Lock: 2)
+2% Anti-Personnel Shot (Target Lock: 2)
+10% Anti-Personnel Shot (Target Lock: 4)
+7% Anti-Personnel Grasp (Target Lock: 2)
+
+
+Khadath: Teleport Burst
+Ottavia: Anti-Personnel Shot (Target Lock: 4)
+
+Ottavia gets -3 priority
+Priorities:  -2 | -2
+Clash!
+
+
+Khadath: Teleport Drive
+Ottavia: Anti-Personnel Strike (Target Lock: 4)
+
+Ottavia gets -3 priority
+Priorities:  1 | -1
+Khadath is active
+Khadath moves:
+
+.....KO
+......t
+
+Khadath hits
+Ottavia is stunned
+Ottavia takes 4 damage (now at 10 life)
+Khadath moves:
+
+..K...O
+......t
+
+Khadath moves trap:
+
+..K...O
+...t...
+
+Ottavia moves:
+
+..KO...
+...t...
+
+
+Beat 6
+-------
+
+Khadath
+-------
+Life: 12
+Discard 1: Teleport Drive
+Discard 2: Blight Strike
+Special action available
+
+Ottavia
+-------
+Life: 10
+Discard 1: Anti-Personnel Strike
+Discard 2: Cover Shooter
+Special action available
+
+
+..KO...
+...t...
+
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 7): -1.81
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 0): -1.82
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 1): -1.82
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 2): -1.82
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 3): -1.82
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 4): -1.82
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 5): -1.82
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 7): -1.82
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 8): -1.82
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 9): -1.82
+Unbeatable strategy for Ottavia: Demolition Dash (Target Lock: 11): -1.82
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 7): -1.82
+
+
+Khadath:
+30% Hunter's Snare
+20% Hunter's Shot
+5% Hunter's Grasp
+11% Evacuation Shot
+15% Lure Shot
+19% Lure Burst
+
+Ottavia:
+2% Snapback Burst (Target Lock: 0)
+80% Snapback Dash (Target Lock: 7)
+1% Demolition Drive (Target Lock: 3)
+7% Demolition Grasp (Target Lock: 4)
+3% Cybernetic Burst (Target Lock: 1)
+7% Cybernetic Burst (Target Lock: 4)
+
+
+Khadath: Hunter's Snare
+Ottavia: Snapback Burst (Target Lock: 0)
+
+Khadath gets +2 power
+Khadath gets +2 priority
+Ottavia gets -3 priority
+Priorities:  3 | -2
+Khadath is active
+Ottavia moves:
+
+..K..O.
+...t...
+
+Khadath misses
+Ottavia hits
+Khadath takes 3 damage (now at 9 life)
+Ottavia moves:
+
+..K...O
+...t...
+
+
+Beat 7
+-------
+
+Khadath
+-------
+Life: 9
+Discard 1: Hunter's Snare
+Discard 2: Teleport Drive
+Special action available
+
+Ottavia
+-------
+Life: 10
+Discard 1: Snapback Burst
+Discard 2: Anti-Personnel Strike
+Special action available
+
+
+..K...O
+...t...
+
+
+Khadath:
+41% Blight Burst
+16% Lure Strike
+8% Lure Shot
+19% Lure Burst
+17% Lure Grasp
+
+Ottavia:
+23% Cover Shooter (Target Lock: 0)
+2% Cover Shooter (Target Lock: 1)
+26% Cover Shooter (Target Lock: 2)
+16% Cover Drive (Target Lock: 2)
+32% Cybernetic Shooter (Target Lock: 4)
+
+
+Khadath: Blight Burst
+Ottavia: Cover Drive (Target Lock: 2)
+
+Priorities:  1 | 1
+Clash!
+
+
+Khadath: Blight Dash
+Ottavia: Cover Shooter (Target Lock: 2)
+
+Priorities:  9 | -1
+Khadath is active
+Khadath moves:
+
+.....KO
+...t...
+
+Ottavia misses
+
+Beat 8
+-------
+
+Khadath
+-------
+Life: 9
+Discard 1: Blight Dash
+Discard 2: Hunter's Snare
+Special action available
+
+Ottavia
+-------
+Life: 10
+Discard 1: Cover Shooter
+Discard 2: Snapback Burst
+Special action available
+
+
+.....KO
+...t...
+
+Unbeatable strategy for Khadath: Teleport Burst: 1.01
+
+
+Khadath:
+100% Teleport Burst
+
+Ottavia:
+2% Demolition Shot (Target Lock: -2)
+2% Demolition Shot (Target Lock: -1)
+2% Demolition Shot (Target Lock: 0)
+2% Demolition Shot (Target Lock: 1)
+2% Demolition Shot (Target Lock: 2)
+2% Demolition Shot (Target Lock: 3)
+78% Demolition Shot (Target Lock: 4)
+11% Demolition Shot (Target Lock: 5)
+
+
+Khadath: Teleport Burst
+Ottavia: Demolition Shot (Target Lock: 4)
+
+Priorities:  -2 | 3
+Ottavia is active
+Khadath moves:
+
+...K..O
+...t...
+
+Ottavia hits
+Khadath is stunned
+Khadath takes 3 damage (now at 6 life)
+Khadath is stunned
+Ottavia moves:
+
+..OK...
+...t...
+
+Khadath moves:
+
+.KO....
+...t...
+
+Khadath moves trap:
+
+.KO....
+..t....
+
+
+Beat 9
+-------
+
+Khadath
+-------
+Life: 6
+Discard 1: Teleport Burst
+Discard 2: Blight Dash
+Special action available
+
+Ottavia
+-------
+Life: 10
+Discard 1: Demolition Shot
+Discard 2: Cover Shooter
+Special action available
+
+
+.KO....
+..t....
+
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 7): -1.75
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 7): -1.95
+
+
+Khadath:
+17% Hunter's Drive
+26% Hunter's Grasp
+16% Evacuation Shot
+13% Lure Strike
+12% Lure Shot
+11% Lure Drive
+5% Lure Grasp
+
+Ottavia:
+3% Snapback Strike (Target Lock: 7)
+2% Snapback Burst (Target Lock: 1)
+7% Snapback Burst (Target Lock: 2)
+6% Snapback Burst (Target Lock: 6)
+34% Snapback Dash (Target Lock: 4)
+49% Snapback Dash (Target Lock: 7)
+0% Cybernetic Burst (Target Lock: 2)
+
+
+Khadath: Lure Drive
+Ottavia: Snapback Burst (Target Lock: 2)
+
+Ottavia gets -3 priority
+Priorities:  3 | -2
+Khadath is active
+Ottavia moves:
+
+.K.O...
+..t....
+
+Khadath moves:
+
+..KO...
+..t....
+
+Khadath hits
+Ottavia takes 2 damage (now at 8 life)
+Ottavia is stunned
+
+Beat 10
+-------
+
+Khadath
+-------
+Life: 6
+Discard 1: Lure Drive
+Discard 2: Teleport Burst
+Special action available
+
+Ottavia
+-------
+Life: 8
+Discard 1: Snapback Burst
+Discard 2: Demolition Shot
+Special action available
+
+
+..KO...
+..t....
+
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 0): -1.24
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 1): -1.24
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 2): -1.24
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 3): -1.24
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 4): -1.24
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 5): -1.24
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 7): -1.24
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 9): -1.24
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 11): -1.24
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 7): -2.63
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 0): -2.07
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 1): -2.07
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 2): -2.07
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 3): -2.07
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 4): -2.07
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 5): -2.07
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 7): -2.07
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 9): -2.07
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 11): -1.97
+
+
+Khadath:
+3% Hunter's Strike
+19% Hunter's Shot
+14% Hunter's Grasp
+43% Hunter's Dash
+12% Evacuation Shot
+10% Blight Grasp
+
+Ottavia:
+51% Anti-Personnel Dash (Target Lock: 7)
+6% Cover Dash (Target Lock: 5)
+2% Cover Dash (Target Lock: 7)
+1% Cover Dash (Target Lock: 9)
+4% Cybernetic Strike (Target Lock: 11)
+4% Cybernetic Dash (Target Lock: 0)
+4% Cybernetic Dash (Target Lock: 1)
+4% Cybernetic Dash (Target Lock: 2)
+4% Cybernetic Dash (Target Lock: 3)
+4% Cybernetic Dash (Target Lock: 4)
+4% Cybernetic Dash (Target Lock: 5)
+4% Cybernetic Dash (Target Lock: 7)
+4% Cybernetic Dash (Target Lock: 9)
+
+
+Khadath: Hunter's Grasp
+Ottavia: Anti-Personnel Dash (Target Lock: 7)
+
+Khadath gets +2 power
+Khadath gets +2 priority
+Ottavia gets -1 priority
+Ottavia acquires target lock
+Priorities:  -3 | 7
+Ottavia is active
+Ottavia moves:
+
+..K...O
+..t....
+
+Khadath misses
+
+Beat 11
+-------
+
+Khadath
+-------
+Life: 6
+Discard 1: Hunter's Grasp
+Discard 2: Lure Drive
+Special action available
+
+Ottavia
+-------
+Life: 8
+Discard 1: Anti-Personnel Dash
+Discard 2: Snapback Burst
+Special action available
+
+
+..K...O
+..t....
+
+Unbeatable strategy for Khadath: Teleport Burst: 3.48
+
+
+Khadath:
+0% Teleport Shot
+97% Teleport Burst
+2% Blight Burst
+
+Ottavia:
+4% Demolition Shooter (Target Lock: -2)
+4% Demolition Shooter (Target Lock: -1)
+4% Demolition Shooter (Target Lock: 0)
+4% Demolition Shooter (Target Lock: 1)
+4% Demolition Shooter (Target Lock: 2)
+14% Demolition Shooter (Target Lock: 3)
+4% Demolition Shooter (Target Lock: 6)
+4% Demolition Shooter (Target Lock: 9)
+6% Demolition Drive (Target Lock: -2)
+6% Demolition Drive (Target Lock: -1)
+6% Demolition Drive (Target Lock: 0)
+6% Demolition Drive (Target Lock: 1)
+6% Demolition Drive (Target Lock: 2)
+6% Demolition Drive (Target Lock: 3)
+6% Demolition Drive (Target Lock: 6)
+6% Demolition Drive (Target Lock: 9)
+12% Cover Drive (Target Lock: 2)
+
+
+Khadath: Teleport Burst
+Ottavia: Demolition Shooter (Target Lock: 9)
+
+Priorities:  -2 | 3
+Ottavia is active
+Khadath moves:
+
+K.....O
+..t....
+
+Ottavia misses
+Ottavia moves:
+
+K...O..
+..t....
+
+Khadath misses
+Khadath moves:
+
+.K..O..
+..t....
+
+Khadath moves trap:
+
+.K..O..
+....t..
+
+
+Beat 12
+-------
+
+Khadath
+-------
+Life: 6
+Discard 1: Teleport Burst
+Discard 2: Hunter's Grasp
+Special action available
+
+Ottavia
+-------
+Life: 8
+Discard 1: Demolition Shooter
+Discard 2: Anti-Personnel Dash
+Special action available
+
+
+.K..O..
+....t..
+
+Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 4): -0.61
+
+
+Khadath:
+44% Blight Shot
+2% Blight Drive
+11% Lure Strike
+24% Lure Shot
+19% Lure Drive
+
+Ottavia:
+5% Snapback Grasp (Target Lock: 3)
+33% Cover Drive (Target Lock: 2)
+21% Cover Burst (Target Lock: 1)
+14% Cover Burst (Target Lock: 2)
+26% Cover Burst (Target Lock: 3)
+
+
+Khadath: Blight Shot
+Ottavia: Cover Drive (Target Lock: 2)
+
+Ottavia gets -3 priority
+Ottavia acquires target lock
+Priorities:  -8 | -2
+Ottavia is active
+Khadath moves trap:
+
+.K..O..
+...t...
+
+Ottavia moves:
+
+.K.O...
+...t...
+
+Ottavia hits
+Khadath takes 4 damage (now at 2 life)
+Khadath is stunned
+
+Beat 13
+-------
+
+Khadath
+-------
+Life: 2
+Discard 1: Blight Shot
+Discard 2: Teleport Burst
+Special action available
+
+Ottavia
+-------
+Life: 8
+Discard 1: Cover Drive
+Discard 2: Demolition Shooter
+Special action available
+
+
+.K.O...
+...t...
+
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 0): -3.25
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 1): -3.25
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 2): -3.25
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): -3.25
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 4): -3.25
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 5): -3.25
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 6): -3.25
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 7): -3.25
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 8): -3.25
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 9): -3.25
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 11): -3.25
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 6): -3.31
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 0): -2.43
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 1): -2.43
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 2): -2.43
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 3): -2.43
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 4): -2.43
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 5): -2.43
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 6): -2.43
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 7): -2.43
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 8): -2.43
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 9): -2.43
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 11): -2.43
+
+
+Khadath:
+24% Hunter's Snare
+6% Hunter's Drive
+2% Evacuation Snare
+26% Lure Strike
+8% Lure Drive
+34% Lure Grasp
+
+Ottavia:
+3% Snapback Strike (Target Lock: 2)
+78% Snapback Dash (Target Lock: 11)
+4% Anti-Personnel Burst (Target Lock: 2)
+1% Anti-Personnel Burst (Target Lock: 4)
+7% Cybernetic Shot (Target Lock: 2)
+6% Cybernetic Shot (Target Lock: 3)
+
+
+Khadath: Lure Drive
+Ottavia: Snapback Dash (Target Lock: 11)
+
+Ottavia gets -3 priority
+Priorities:  3 | 6
+Ottavia is active
+Ottavia moves:
+
+OK.....
+...t...
+
+Khadath misses
+
+Beat 14
+-------
+
+Khadath
+-------
+Life: 2
+Discard 1: Lure Drive
+Discard 2: Blight Shot
+Special action available
+
+Ottavia
+-------
+Life: 8
+Discard 1: Snapback Dash
+Discard 2: Cover Drive
+Special action available
+
+
+OK.....
+...t...
+
+
+Khadath:
+23% Teleport Dash
+24% Evacuation Strike
+22% Evacuation Grasp
+32% Evacuation Dash
+
+Ottavia:
+10% Demolition Shooter (Target Lock: 5)
+29% Demolition Shot (Target Lock: 3)
+10% Demolition Shot (Target Lock: 5)
+38% Demolition Shot (Target Lock: 6)
+13% Demolition Shot (Target Lock: 9)
+
+
+Khadath: Evacuation Grasp
+Ottavia: Demolition Shot (Target Lock: 6)
+
+Priorities:  5 | 3
+Khadath is active
+Khadath moves trap:
+
+OK.....
+.t.....
+
+Khadath moves:
+
+O.K....
+.t.....
+
+Khadath hits
+Khadath moves Ottavia:
+
+.OK....
+.t.....
+
+Ottavia takes 2 damage (now at 6 life)
+Ottavia misses
+Ottavia moves:
+
+..K...O
+.t.....
+
+
+Beat 15
+-------
+
+Khadath
+-------
+Life: 2
+Discard 1: Evacuation Grasp
+Discard 2: Lure Drive
+Special action available
+
+Ottavia
+-------
+Life: 6
+Discard 1: Demolition Shot
+Discard 2: Snapback Dash
+Special action available
+
+
+..K...O
+.t.....
+
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 9): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Strike (Target Lock: 9): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Drive (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Drive (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Drive (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Drive (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Drive (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Drive (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Drive (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Drive (Target Lock: 9): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 9): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Grasp (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Grasp (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Grasp (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Grasp (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Grasp (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Grasp (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Grasp (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Anti-Personnel Grasp (Target Lock: 9): -7.00
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 9): -7.00
+Unbeatable strategy for Ottavia: Cover Strike (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Cover Strike (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Cover Strike (Target Lock: 9): -7.00
+Unbeatable strategy for Ottavia: Cover Drive (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Cover Drive (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 9): -7.00
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 9): -7.00
+Unbeatable strategy for Ottavia: Cover Grasp (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Cover Grasp (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Cover Grasp (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Cover Grasp (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Cover Grasp (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Cover Grasp (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Cover Grasp (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Cover Grasp (Target Lock: 9): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 9): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Strike (Target Lock: 9): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Drive (Target Lock: 9): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Burst (Target Lock: 9): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Grasp (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Grasp (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Grasp (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Grasp (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Grasp (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Grasp (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Grasp (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Grasp (Target Lock: 9): -7.00
+
+
+Khadath:
+100% Special Pulse
+
+Ottavia:
+12% Anti-Personnel Shooter (Target Lock: -2)
+12% Anti-Personnel Shooter (Target Lock: -1)
+12% Anti-Personnel Shooter (Target Lock: 0)
+12% Anti-Personnel Shooter (Target Lock: 1)
+13% Anti-Personnel Shooter (Target Lock: 2)
+13% Anti-Personnel Shooter (Target Lock: 3)
+13% Anti-Personnel Shooter (Target Lock: 6)
+13% Anti-Personnel Shooter (Target Lock: 9)
+
+
+Khadath: Special Pulse
+Ottavia: Anti-Personnel Shooter (Target Lock: 3)
+
+Khadath Pulses:
+
+.OK....
+.t.....
+
+
+Beat 15
+-------
+
+Khadath
+-------
+Life: 2
+Discard 1: Evacuation Grasp
+Discard 2: Lure Drive
+
+Ottavia
+-------
+Life: 6
+Discard 1: Anti-Personnel Shooter
+Discard 2: Demolition Shot
+Special action available
+
+
+.OK....
+.t.....
+
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 4): -7.00
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 5): -7.00
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 9): -7.00
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 11): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: -2): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: -1): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 0): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 1): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 2): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 3): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 4): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 5): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 6): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 9): -7.00
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 11): -7.00
+
+
+Khadath:
+5% Hunter's Snare
+15% Hunter's Strike
+13% Hunter's Shot
+11% Hunter's Burst
+5% Hunter's Dash
+5% Teleport Snare
+7% Teleport Strike
+1% Teleport Shot
+1% Teleport Burst
+5% Teleport Dash
+3% Blight Snare
+11% Blight Strike
+6% Blight Shot
+7% Blight Burst
+5% Blight Dash
+
+Ottavia:
+5% Snapback Dash (Target Lock: -2)
+5% Snapback Dash (Target Lock: -1)
+5% Snapback Dash (Target Lock: 0)
+5% Snapback Dash (Target Lock: 1)
+5% Snapback Dash (Target Lock: 2)
+5% Snapback Dash (Target Lock: 3)
+5% Snapback Dash (Target Lock: 4)
+5% Snapback Dash (Target Lock: 5)
+5% Snapback Dash (Target Lock: 6)
+5% Snapback Dash (Target Lock: 9)
+5% Snapback Dash (Target Lock: 11)
+5% Cybernetic Dash (Target Lock: -2)
+5% Cybernetic Dash (Target Lock: -1)
+5% Cybernetic Dash (Target Lock: 0)
+5% Cybernetic Dash (Target Lock: 1)
+5% Cybernetic Dash (Target Lock: 2)
+5% Cybernetic Dash (Target Lock: 3)
+5% Cybernetic Dash (Target Lock: 4)
+5% Cybernetic Dash (Target Lock: 5)
+5% Cybernetic Dash (Target Lock: 6)
+5% Cybernetic Dash (Target Lock: 9)
+5% Cybernetic Dash (Target Lock: 11)
+
+
+Khadath: Blight Burst
+Ottavia: Cybernetic Dash (Target Lock: 2)
+
+Ottavia gets -3 priority
+Priorities:  1 | 6
+Ottavia is active
+Khadath moves trap:
 
 .OK....
 t......
 
-Khadath:
-21% Teleport Burst
-18% Teleport Dash
-10% Evacuation Strike
-5% Evacuation Grasp
-18% Evacuation Dash
-13% Lure Strike
-7% Lure Grasp
-7% Lure Dash
-
-Ottavia:
-47% Snapback Dash (Target Lock: 8)
-0% Demolition Shooter (Target Lock: 2)
-9% Demolition Shooter (Target Lock: 3)
-3% Demolition Shooter (Target Lock: 6)
-23% Demolition Shot (Target Lock: 6)
-8% Demolition Burst (Target Lock: 9)
-9% Cybernetic Burst (Target Lock: 2)
-2% Cybernetic Burst (Target Lock: 9)
-
-
-Khadath: Lure Strike
-Ottavia: Demolition Shot (Target Lock: 6)
-
-Ottavia gets -1 priority
-Priorities:  2 | 2
-Clash!
-
-Khadath:
-3% Lure Burst
-23% Lure Grasp
-74% Lure Dash
-
-Ottavia:
-42% Demolition Burst (Target Lock: 6)
-16% Demolition Grasp (Target Lock: 6)
-43% Demolition Dash (Target Lock: 6)
-
-
-Khadath: Lure Grasp
-Ottavia: Demolition Grasp (Target Lock: 6)
-
-Ottavia gets -1 priority
-Priorities:  4 | 5
-Ottavia is active
-Ottavia hits
-Ottavia moves Khadath:
+Khadath moves:
 
 .O.K...
 t......
 
-Khadath takes 2 damage (now at 18 life)
-Khadath is stunned
 Ottavia moves:
 
-...K..O
+O..K...
 t......
 
-total_time: 101
+Khadath hits
+Ottavia has 2 soak
+Ottavia takes 1 damage (now at 5 life)
+Ottavia is stunned
+Game goes to time
+OTTAVIA WINS!
+total_time: 47
