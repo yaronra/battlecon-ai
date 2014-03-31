@@ -7202,7 +7202,7 @@ class Oriana (Character):
     def situation_report (self):
         report = Character.situation_report (self)
         report.append ("%d Magic Point token%s" % (len(self.pool),
-                       '' if len(self.pool)==1 else ''))
+                       '' if len(self.pool)==1 else 's'))
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -7516,9 +7516,6 @@ class Rexan (Character):
         if new_pool > 3:
             self.opponent.lose_life (2 * (new_pool - 3))
         
-    def get_damage_cap (self):
-        return 2 if self.malediction_damage_limit else 1000
-    
     # returning tokens on cycle, so that it happens on a Pulse, too
     def cycle (self):
         if not (self.did_hit or self.opponent.did_hit):
@@ -13586,10 +13583,12 @@ class Malediction (Base):
     def end_trigger (self):
         max_pull = len(self.me.induced_pool)
         if max_pull:
-            self.me.pull (range(max_pull+1))
+            self.me.pull(range(max_pull+1))
     @property
     def ordered_end_trigger(self):
         return self.me.induced_pool
+    def get_damage_cap (self):
+        return 2 if self.me.malediction_damage_limit else 1000
 
 class Unyielding (Style):
     maxrange = 1
