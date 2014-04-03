@@ -35,10 +35,15 @@
 # Active ante triggers (Heketch's move) are reported twice when
 # there's a Cancel
 
-# "Can't move"/"when moves" etc. include being moved.  This isn't
-# implemented consistently.  Probably make sense to have movement
-# blocks and movement reactions be called by both players, and make
-# condition for who initiated the movement when it's necessary.
+# Discard piles should be ordered.  For example, Kehrolyn's current form
+# is the top (=latest) style that isn't a special action.
+
+# Reveal effects happen only once, so they shouldn't happen again after a
+# clash.  Examples: Eligor's Aegis, Aria's Ionic.  This can't be helped
+# without a major refactoring.
+
+# "Deal damage" effects are considered attacks, so dodge effects can
+# cause them to miss.
 
 # TO CHECK OPENING DISCARDS
 # free_for_all (1, <name>, skip=['kehrolyn'], first_beats=True)
@@ -516,6 +521,8 @@ class Game:
             self.player[i].opponent = self.player[1-i]
             for card in self.player[i].all_cards():
                 card.opponent = self.player[1-i]
+        for p in self.player:
+            p.set_mean_priority_effects()        
         self.debugging = False
         self.reporting = False
 
@@ -2965,13 +2972,27 @@ class Character (object):
                 + discard_penalty + special_action_bonus 
                 + status_effect_bonus)
 
+    # How many spaces can I retreat?
+    def retreat_range(self):
+        me = self.position
+        opp = self.opponent.position
+        return 6-me if me > opp else me
+                                  
+    # Mean priority over all styles/bases/effects.
     mean_priority_bonus = 0
     def set_mean_priority(self):
         self.mean_priority = (self.mean_priority_bonus + 
             sum (s.mean_priority for s in self.styles) / float(len(self.styles)) +
             sum (b.mean_priority for b in self.bases) / float(len(self.bases)))
 
-    # traits that are useful for AI opponents to know about
+    def set_mean_priority_effects(self):
+        # Priority advange is 0 when I'm low, 0.5 when equal,
+        # 1 when I'm high.
+        e = math.exp(self.mean_priority - self.opponent.mean_priority)
+        self.priority_advantage = (e-1) / (e+1)
+        # Priority nearness is 0 when I'm low or high, 1 when equal.
+        e2 = math.sqrt(e)
+        self.priority_nearness = 2 * e2 / (e + 1)
 
     # Some characters (like Seth) need to fix the result table
     # and strategy lists after simulating all strategies.
@@ -2987,10 +3008,6 @@ class Character (object):
         # Most characters just use the strategy they switched to after the clash.
         return my_new_i
 
-    # Does this character auto-win on a timeout?
-    def wins_on_timeout(self):
-        return False
-
     # This fixes the strategies themselves.
     def fix_strategies_post_clash (self, strats, opp_orig):
         return strats
@@ -2999,6 +3016,10 @@ class Character (object):
         pass
     def pre_attack_decision_report(self, decision):
         return []
+
+    # Does this character auto-win on a timeout?
+    def wins_on_timeout(self):
+        return False
 
     # When you play a finisher against a cancel, you discard the base
     # you used.  Figure out which base to discard.
@@ -3022,12 +3043,6 @@ class Character (object):
                 return self.drive
             return options[0] # unique base
             
-    # How many spaces can I retreat?
-    def retreat_range(self):
-        me = self.position
-        opp = self.opponent.position
-        return 6-me if me > opp else me
-                                  
 # One card, style or base
 class Card (object):
     minrange = 0
@@ -3491,7 +3506,7 @@ class Abarene(Character):
             self.pool += [recovered]
             self.pool = sorted(self.pool, key=attrgetter('name'))
             if self.game.reporting:
-                self.game.report ("Abarene recovers " + recovered.aname + " token")
+                self.game.report ("Abarene recovers her " + recovered.name + " token")
 
     def hit_trigger(self):
         self.recover_tokens(self.opponent, from_discard=True,
@@ -3508,7 +3523,7 @@ class Abarene(Character):
                 Character.give_priority_penalty(self))
 
     def evaluate(self):
-        return Character.evaluate(self) + sum([token.get_value()
+        return Character.evaluate(self) + sum([token.value
                                                for token in self.pool])
 
 class Adjenna (Character):
@@ -3852,7 +3867,7 @@ class Arec (Character):
             recovered = recoverable [choice]
             self.pool += [recovered]
             if self.game.reporting:
-                self.game.report ("%s recovers %s token" % (self, recovered.aname))
+                self.game.report ("%s recovers his %s token" % (self, recovered.name))
 
     # Tokens block opponent's triggers.
     def blocks_start_triggers(self):
@@ -5340,8 +5355,8 @@ class Eligor (Character):
             self.recover_tokens (min(soaked_damage, 2))
         
     def get_minimum_life (self):
-        return 1 if self.base.name == 'Sweet Revenge' \
-               else Character.get_minimum_life(self)
+        return (1 if self.sweet_revenge in self.active_cards
+                else Character.get_minimum_life(self))
 
     def evaluate (self):
         return Character.evaluate (self) + 0.2 * len(self.pool)
@@ -5906,7 +5921,7 @@ class Hikaru (Character):
             recovered = recoverable [choice]
             self.pool += [recovered]
             if self.game.reporting:
-                self.game.report ("Hikaru recovers " + recovered.aname + " token")
+                self.game.report ("Hikaru recovers his " + recovered.name + " token")
 
     # Sweeping adds 2 to damage taken
     def take_damage (self, damage):
@@ -6372,7 +6387,7 @@ class Kehrolyn (Character):
                 self.current_form = card
                 break
         else:
-            self.current_from = self.null_style
+            self.current_form = self.null_style
         self.active_cards.append (self.current_form)
         if self.overloaded_style:
             self.active_cards.append(self.overloaded_style)
@@ -7528,6 +7543,7 @@ class Rexan (Character):
         value += 1.0 * len(self.induced_pool)
         return value
 
+
 class Rukyuk (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
         self.unique_base = Reload  (the_game, self)
@@ -7548,14 +7564,14 @@ class Rukyuk (Character):
 
     mean_priority_bonus = 0.4 # Swift
 
-    def set_starting_setup (self, default_discards, use_special_actions):
-        Character.set_starting_setup (self, default_discards, use_special_actions)
-        self.pool = [t for t in self.tokens]
-
     def choose_initial_discards (self):
         # AI says: Crossfire Reload, Trick Shot
         return (self.crossfire, self.unique_base,
                 self.trick, self.shot)
+
+    def set_starting_setup (self, default_discards, use_special_actions):
+        Character.set_starting_setup (self, default_discards, use_special_actions)
+        self.pool = [t for t in self.tokens]
 
     def situation_report (self):
         report = Character.situation_report (self)
@@ -9138,15 +9154,13 @@ class Pestilent(Style):
 class Dizziness(Token):
     def give_power_penalty(self):
         return -2
-    def get_value(self):
-        return 0.7
+    value = 0.7
     starting_value = 0.7
 
 class Fatigue(Token):
     def give_priority_penalty(self):
         return -2
-    def get_value(self):
-        return 0.6
+    value = 0.6
     starting_value = 0.6
 
 class Nausea(Token):
@@ -9154,7 +9168,8 @@ class Nausea(Token):
         return -1
     def give_maxrange_penalty(self):
         return -1
-    def get_value(self):
+    @property
+    def value(self):
         # Value depends on opponent's preferred_range:
         # -1 range is great against melee characters, but not very useful
         # against rangers (might even help them reduce minimum range).
@@ -9167,7 +9182,8 @@ class Nausea(Token):
     
 class PainSpike(Token):
     # life loss handled by Abarene.ante_trigger()
-    def get_value(self):
+    @property
+    def value(self):
         return max(0.5 * min(3, self.opponent.life - 1), 0.1)
     starting_value = 1.5
     
@@ -12156,7 +12172,6 @@ class Overload (Base):
         available_styles = sorted (list(available_styles), \
                                    key=attrgetter('order'))
         # choose one, and add it to active styles
-        # if the choice is Mutating, re-add the current form instead.
         prompt = "Select a style to overload:"
         options = [s.name for s in available_styles]
         choice = self.game.make_fork (len(available_styles), self.me, prompt,
@@ -12166,10 +12181,11 @@ class Overload (Base):
             self.game.report ("Kehrolyn overloads %s" % self.me.overloaded_style)
         self.me.set_active_cards()
         # In case Mutating was overloaded.
-        self.me.overloaded_style.start_trigger()
+        self.me.overloaded_style.reveal_trigger()
 
 class Mutating (Style):
-    def start_trigger (self):
+    # There's errata to have this work on reveal rather start of beat.
+    def reveal_trigger (self):
         if self == self.me.current_form:
             self.me.mutated_style = self.me.style
         if self in (self.me.style, self.me.overloaded_style):
@@ -13583,7 +13599,7 @@ class Malediction (Base):
     def end_trigger (self):
         max_pull = len(self.me.induced_pool)
         if max_pull:
-            self.me.pull(range(max_pull+1))
+            self.me.pull (range(max_pull+1))
     @property
     def ordered_end_trigger(self):
         return self.me.induced_pool
@@ -13678,7 +13694,7 @@ class FullyAutomatic (Finisher):
             extra_attacks = self.game.make_fork (len(self.me.pool) + 1, \
                                                  self.me, \
                             "Number of tokens to spend for extra attacks?")
-            for i in range (extra_attacks):
+            for i in xrange(extra_attacks):
                 self.me.spend_token()
             self.me.max_attacks += extra_attacks
             if self.game.reporting and extra_attacks > 0:
@@ -13779,7 +13795,7 @@ class APShell (Token):
     name_override = 'AP'
     @property
     def value(self):
-        return 0.1 * self.opponent.expected_soak()
+        return 0.2 * self.opponent.expected_soak()
     def reduce_soak (self, soak):
         return 0
 
@@ -13792,7 +13808,7 @@ class FlashShell (Token):
     name_override = 'Flash'
     @property
     def value(self):
-        return 0.03 * self.opponent.expected_stunguard()
+        return 0.06 * self.opponent.expected_stunguard()
     def reduce_stunguard (self, stunguard):
         return 0
 

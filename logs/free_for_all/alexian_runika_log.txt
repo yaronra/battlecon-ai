@@ -25,9 +25,9 @@ Discard 2: Impact Strike
 Special action available
 Active artifacts: 
   Shield Amulet
+  Autodeflector
   Battlefist
   Phase Goggles
-  Autodeflector
   Hover Boots
 
 
@@ -44,19 +44,29 @@ Runika:
 
 
 Alexian: Stalwart Divider
-Runika: Maintenance Shot | (1 Chivalry token)
+Runika: Overcharged Drive | (1 Chivalry token)
 
 Runika antes a Chivalry token
-Priorities:  -1 | 4
+Priorities:  -1 | 7
 Runika is active
-Runika hits
-Alexian has 2 soak
-Alexian takes 2 damage (now at 18 life)
+Runika overcharges her Battlefist
 Runika moves:
 
-.A....R
+.A.R...
 
-Alexian misses
+Runika hits
+Alexian takes 7 damage (now at 13 life)
+Alexian moves:
+
+..AR...
+
+Alexian gets +1 power
+Alexian hits
+Runika gains 1 Chivalry token
+Autodeflector is de-activated
+Runika takes 6 damage (now at 14 life)
+Runika is stunned
+Battlefist is removed from the game
 Runika gains 1 Chivalry token
 
 Beat 2
@@ -64,121 +74,122 @@ Beat 2
 
 Alexian
 -------
-Life: 18
+Life: 13
 Discard 1: Stalwart Divider
 Discard 2: Regal Grasp
 Special action available
-Runika has 1 Chivalry token
+Runika has 2 Chivalry tokens
 
 Runika
 ------
-Life: 20
-Discard 1: Maintenance Shot
+Life: 14
+Discard 1: Overcharged Drive
 Discard 2: Channeled Grasp
 Special action available
 Active artifacts: 
-  Shield Amulet
-  Battlefist
-  Phase Goggles
-  Autodeflector
   Hover Boots
+  Shield Amulet
+  Phase Goggles
+Removed artifacts: 
+  Battlefist
 
 
-.A....R
-
-Unbeatable strategy for Alexian: Mighty Burst: 0.07
+..AR...
 
 
 Alexian:
-8% Gestalt Shot
-92% Mighty Burst
+38% Gestalt Shot
+16% Gestalt Burst
+38% Gestalt Dash
+4% Mighty Burst
+4% Steeled Burst
 
 Runika:
-8% Impact Drive
-92% Impact Dash
+53% Maintenance Tinker | (2 Chivalry tokens)
+8% Explosive Tinker | (2 Chivalry tokens)
+10% Explosive Shot | (2 Chivalry tokens)
+26% Explosive Burst | (2 Chivalry tokens)
+2% Impact Tinker | (2 Chivalry tokens)
 
 
-Alexian: Mighty Burst
-Runika: Impact Dash
+Alexian: Gestalt Burst
+Runika: Explosive Tinker | (2 Chivalry tokens)
 
-Priorities:  2 | 11
+Runika antes a Chivalry token
+Runika antes a Chivalry token
+Priorities:  0 | 7
 Runika is active
 Alexian moves:
 
-A.....R
+A..R...
 
-Runika moves:
-
-A....R.
-
-Runika moves:
-
-A...R..
-
-Alexian misses
+Runika misses
+Autodeflector is activated
+Alexian hits
+Runika gains 1 Chivalry token
+Autodeflector is de-activated
+Runika takes 5 damage (now at 9 life)
 
 Beat 3
 -------
 
 Alexian
 -------
-Life: 18
-Discard 1: Mighty Burst
+Life: 13
+Discard 1: Gestalt Burst
 Discard 2: Stalwart Divider
 Special action available
 Runika has 1 Chivalry token
 
 Runika
 ------
-Life: 20
-Discard 1: Impact Dash
-Discard 2: Maintenance Shot
+Life: 9
+Discard 1: Explosive Tinker
+Discard 2: Overcharged Drive
 Special action available
 Active artifacts: 
-  Shield Amulet
-  Battlefist
-  Phase Goggles
-  Autodeflector
   Hover Boots
+  Shield Amulet
+  Phase Goggles
+Removed artifacts: 
+  Battlefist
 
 
-A...R..
-
-Unbeatable strategy for Runika: Overcharged Drive: -3.75
-Unbeatable strategy for Runika: Overcharged Drive | (1 Chivalry token): -4.45
+A..R...
 
 
 Alexian:
-7% Gestalt Shot
-10% Gestalt Dash
-38% Regal Shot
-45% Regal Grasp
+60% Regal Shot
+19% Steeled Strike
+22% Steeled Shot
 
 Runika:
-42% Channeled Drive
-3% Channeled Drive | (1 Chivalry token)
-14% Explosive Burst
-42% Overcharged Drive
+47% Channeled Dash
+26% Impact Strike | (1 Chivalry token)
+27% Impact Burst
 
 
-Alexian: Regal Shot
-Runika: Channeled Drive
+Alexian: Steeled Shot
+Runika: Impact Burst
 
-Priorities:  3 | 7
+Priorities:  1 | 3
 Runika is active
-No artifacts to activate
 Runika moves:
 
-A.R....
+A...R..
+
+Runika moves:
+
+A..R...
 
 Runika hits
-Alexian takes 5 damage (now at 13 life)
+Alexian has 2 soak
+Alexian takes 0 damage (now at 13 life)
 Alexian hits
 Runika gains 1 Chivalry token
-Autodeflector is de-activated
-Runika takes 4 damage (now at 16 life)
+Phase Goggles is de-activated
+Runika takes 5 damage (now at 4 life)
 Runika is stunned
-Battlefist is de-activated
 
 Beat 4
 -------
@@ -186,50 +197,52 @@ Beat 4
 Alexian
 -------
 Life: 13
-Discard 1: Regal Shot
-Discard 2: Mighty Burst
+Discard 1: Steeled Shot
+Discard 2: Gestalt Burst
 Special action available
 Runika has 2 Chivalry tokens
 
 Runika
 ------
-Life: 16
-Discard 1: Channeled Drive
-Discard 2: Impact Dash
+Life: 4
+Discard 1: Impact Burst
+Discard 2: Explosive Tinker
 Special action available
 Active artifacts: 
-  Phase Goggles
-  Shield Amulet
   Hover Boots
+  Shield Amulet
+Removed artifacts: 
+  Battlefist
 
 
-A.R....
+A..R...
 
 
 Alexian:
-41% Stalwart Divider
-21% Stalwart Drive
-38% Steeled Divider
+11% Regal Dash
+73% Stalwart Divider
+17% Stalwart Drive
 
 Runika:
-23% Maintenance Tinker
-68% Maintenance Burst | (2 Chivalry tokens)
-10% Explosive Tinker | (2 Chivalry tokens)
+67% Maintenance Dash
+21% Special Artifice Avarice | (1 Chivalry token)
+12% Special Udstad Beam | (2 Chivalry tokens)
 
 
-Alexian: Steeled Divider
-Runika: Maintenance Tinker
+Alexian: Stalwart Divider
+Runika: Special Udstad Beam | (2 Chivalry tokens)
 
-Priorities:  1 | 4
+Runika antes a Chivalry token
+Runika antes a Chivalry token
+Priorities:  -1 | 5
 Runika is active
-Runika hits
-Alexian has 3 soak
-Alexian takes 0 damage (now at 13 life)
-Autodeflector is activated
 Runika moves:
 
-A...R..
+A....R.
 
+Runika hits
+Alexian has 2 soak
+Alexian takes 7 damage (now at 6 life)
 Alexian misses
 Runika gains 1 Chivalry token
 
@@ -238,438 +251,128 @@ Beat 5
 
 Alexian
 -------
-Life: 13
-Discard 1: Steeled Divider
-Discard 2: Regal Shot
+Life: 6
+Discard 1: Stalwart Divider
+Discard 2: Steeled Shot
 Special action available
-Runika has 3 Chivalry tokens
+Runika has 1 Chivalry token
 
 Runika
 ------
-Life: 16
-Discard 1: Maintenance Tinker
-Discard 2: Channeled Drive
-Special action available
+Life: 4
+Discard 1: Impact Burst
+Discard 2: Explosive Tinker
 Active artifacts: 
-  Phase Goggles
-  Autodeflector
-  Shield Amulet
   Hover Boots
+  Shield Amulet
+Removed artifacts: 
+  Battlefist
 
 
-A...R..
+A....R.
 
-Unbeatable strategy for Runika: Overcharged Shot | (2 Chivalry tokens): -0.62
-Unbeatable strategy for Runika: Overcharged Shot | (3 Chivalry tokens): -1.32
-Unbeatable strategy for Runika: Overcharged Burst | (3 Chivalry tokens): -0.45
+Unbeatable strategy for Runika: Channeled Shot: -1.25
+Unbeatable strategy for Runika: Channeled Shot | (1 Chivalry token): -1.35
 
 
 Alexian:
-18% Stalwart Strike
-7% Stalwart Drive
-74% Mighty Burst
+6% Regal Drive
+73% Regal Burst
+21% Special Hail the King
 
 Runika:
-0% Explosive Shot | (3 Chivalry tokens)
-13% Impact Burst | (3 Chivalry tokens)
-87% Overcharged Shot | (3 Chivalry tokens)
+20% Channeled Shot
+51% Channeled Drive
+29% Maintenance Drive
 
 
-Alexian: Mighty Burst
-Runika: Overcharged Shot | (3 Chivalry tokens)
+Alexian: Special Hail the King
+Runika: Channeled Drive
 
-Runika antes a Chivalry token
-Runika antes a Chivalry token
-Runika antes a Chivalry token
-Priorities:  2 | 7
+Priorities:  0 | 7
 Runika is active
-Runika overcharges her Shield Amulet
-Runika hits
-Alexian has 1 soak
-Alexian takes 5 damage (now at 8 life)
-Alexian is stunned
-Shield Amulet is removed from the game
+Autodeflector is activated
+Runika moves:
+
+A..R...
+
+Runika misses
+Alexian moves:
+
+...RA..
+
+Alexian gets +3 power
+Alexian hits
+Runika gains 1 Chivalry token
+Autodeflector is de-activated
+Runika takes 3 damage (now at 1 life)
+Shield Amulet is de-activated
 
 Beat 6
 -------
 
 Alexian
 -------
-Life: 8
-Discard 1: Mighty Burst
-Discard 2: Steeled Divider
-Special action available
-Runika has 0 Chivalry tokens
-
-Runika
-------
-Life: 16
-Discard 1: Overcharged Shot
-Discard 2: Maintenance Tinker
-Special action available
-Active artifacts: 
-  Phase Goggles
-  Autodeflector
-  Hover Boots
-Removed artifacts: 
-  Shield Amulet
-
-
-A...R..
-
-Unbeatable strategy for Alexian: Gestalt Shot: 0.13
-Unbeatable strategy for Alexian: Stalwart Shot: 0.09
-
-
-Alexian:
-64% Gestalt Shot
-36% Stalwart Strike
-
-Runika:
-65% Channeled Drive
-35% Explosive Dash
-
-
-Alexian: Gestalt Shot
-Runika: Explosive Dash
-
-Priorities:  1 | 11
-Runika is active
-Runika moves:
-
-A.....R
-
-Alexian misses
-
-Beat 7
--------
-
-Alexian
--------
-Life: 8
-Discard 1: Gestalt Shot
-Discard 2: Mighty Burst
-Special action available
-Runika has 0 Chivalry tokens
-
-Runika
-------
-Life: 16
-Discard 1: Explosive Dash
-Discard 2: Overcharged Shot
-Special action available
-Active artifacts: 
-  Phase Goggles
-  Autodeflector
-  Hover Boots
-Removed artifacts: 
-  Shield Amulet
-
-
-A.....R
-
-Unbeatable strategy for Alexian: Stalwart Drive: 6.02
-
-
-Alexian:
-5% Stalwart Strike
-66% Stalwart Drive
-29% Steeled Grasp
-
-Runika:
-4% Maintenance Tinker
-0% Maintenance Strike
-96% Special Pulse
-
-
-Alexian: Steeled Grasp
-Runika: Special Pulse
-
-Pulse:
-
-A.R....
-
-
-Beat 7
--------
-
-Alexian
--------
-Life: 8
-Discard 1: Steeled Grasp
-Discard 2: Gestalt Shot
-Special action available
-Runika has 0 Chivalry tokens
-
-Runika
-------
-Life: 16
-Discard 1: Explosive Dash
-Discard 2: Overcharged Shot
-Active artifacts: 
-  Phase Goggles
-  Autodeflector
-  Hover Boots
-Removed artifacts: 
-  Shield Amulet
-
-
-A.R....
-
-Unbeatable strategy for Alexian: Stalwart Divider: 0.82
-Unbeatable strategy for Alexian: Stalwart Strike: 0.14
-
-
-Alexian:
-85% Stalwart Divider
-15% Stalwart Drive
-
-Runika:
-42% Channeled Strike
-58% Maintenance Burst
-
-
-Alexian: Stalwart Divider
-Runika: Channeled Strike
-
-Priorities:  -1 | 6
-Runika is active
-Battlefist is activated
-Runika hits
-Alexian has 2 soak
-Alexian takes 4 damage (now at 4 life)
-Alexian moves:
-
-.AR....
-
-Alexian gets +1 power
-Alexian hits
-Runika gains 1 Chivalry token
-Battlefist is de-activated
-Runika has 2 soak
-Runika takes 4 damage (now at 12 life)
-Hover Boots is de-activated
-Runika gains 1 Chivalry token
-
-Beat 8
--------
-
-Alexian
--------
-Life: 4
+Life: 6
 Discard 1: Stalwart Divider
-Discard 2: Steeled Grasp
-Special action available
+Discard 2: Steeled Shot
 Runika has 2 Chivalry tokens
 
 Runika
 ------
-Life: 12
-Discard 1: Channeled Strike
-Discard 2: Explosive Dash
-Active artifacts: 
-  Phase Goggles
-  Autodeflector
-Removed artifacts: 
-  Shield Amulet
-
-
-.AR....
-
-Unbeatable strategy for Runika: Maintenance Tinker: -0.92
-Unbeatable strategy for Runika: Maintenance Tinker | (1 Chivalry token): -1.10
-Unbeatable strategy for Runika: Maintenance Tinker | (2 Chivalry tokens): -0.70
-
-
-Alexian:
-3% Gestalt Drive
-27% Regal Strike
-21% Regal Shot
-40% Regal Burst
-5% Mighty Burst
-5% Special Empire Divider
-
-Runika:
-57% Maintenance Tinker
-5% Maintenance Grasp | (1 Chivalry token)
-4% Impact Tinker | (2 Chivalry tokens)
-32% Overcharged Tinker
-1% Overcharged Tinker | (1 Chivalry token)
-0% Overcharged Tinker | (2 Chivalry tokens)
-
-
-Alexian: Gestalt Drive
-Runika: Maintenance Tinker
-
-Priorities:  3 | 2
-Alexian is active
-Alexian moves:
-
-..RA...
-
-Alexian hits
-Runika gains 1 Chivalry token
-Autodeflector is de-activated
-Runika has 3 soak
-Runika takes 2 damage (now at 10 life)
-Runika hits
-Alexian takes 2 damage (now at 2 life)
-Autodeflector is activated
-Runika moves:
-
-R..A...
-
-
-Beat 9
--------
-
-Alexian
--------
-Life: 2
-Discard 1: Gestalt Drive
-Discard 2: Stalwart Divider
-Special action available
-Runika has 3 Chivalry tokens
-
-Runika
-------
-Life: 10
-Discard 1: Maintenance Tinker
-Discard 2: Channeled Strike
-Active artifacts: 
-  Phase Goggles
-  Autodeflector
-Removed artifacts: 
-  Shield Amulet
-
-
-R..A...
-
-
-Alexian:
-25% Regal Shot
-25% Regal Dash
-20% Steeled Dash
-30% Special Hail the King
-
-Runika:
-32% Explosive Shot | (3 Chivalry tokens)
-55% Explosive Drive | (3 Chivalry tokens)
-3% Explosive Grasp | (3 Chivalry tokens)
-10% Overcharged Shot
-
-
-Alexian: Special Hail the King
-Runika: Explosive Shot | (3 Chivalry tokens)
-
-Runika antes a Chivalry token
-Runika antes a Chivalry token
-Runika antes a Chivalry token
-Priorities:  0 | 5
-Runika is active
-Runika hits
-Phase Goggles is de-activated
-Runika gets +2 power
-Alexian has 6 soak
-Alexian takes 1 damage (now at 1 life)
-Alexian is stunned
-
-Beat 10
--------
-
-Alexian
--------
 Life: 1
-Discard 1: Gestalt Drive
-Discard 2: Stalwart Divider
-Runika has 0 Chivalry tokens
-
-Runika
-------
-Life: 10
-Discard 1: Explosive Shot
-Discard 2: Maintenance Tinker
+Discard 1: Channeled Drive
+Discard 2: Impact Burst
 Active artifacts: 
-  Autodeflector
+  Hover Boots
 Removed artifacts: 
-  Shield Amulet
-
-
-R..A...
-
-
-Alexian:
-25% Regal Dash
-4% Mighty Shot
-17% Mighty Burst
-55% Steeled Burst
-
-Runika:
-3% Channeled Strike
-8% Channeled Drive
-2% Channeled Burst
-88% Impact Dash
-
-
-Alexian: Mighty Burst
-Runika: Impact Dash
-
-Priorities:  2 | 9
-Runika is active
-Alexian moves:
-
-R...A..
-
-Runika moves:
-
-.R..A..
-
-Runika moves:
-
-...RA..
-
-Alexian misses
-
-Beat 11
--------
-
-Alexian
--------
-Life: 1
-Discard 1: Mighty Burst
-Discard 2: Gestalt Drive
-Runika has 0 Chivalry tokens
-
-Runika
-------
-Life: 10
-Discard 1: Impact Dash
-Discard 2: Explosive Shot
-Active artifacts: 
-  Autodeflector
-Removed artifacts: 
-  Shield Amulet
+  Battlefist
 
 
 ...RA..
 
+Unbeatable strategy for Runika: Maintenance Tinker | (2 Chivalry tokens): -0.18
+Unbeatable strategy for Runika: Maintenance Dash: -0.21
+
 
 Alexian:
-16% Regal Strike
-21% Regal Grasp
-58% Regal Dash
-5% Stalwart Divider
+10% Gestalt Burst
+60% Regal Strike
+9% Regal Grasp
+3% Regal Dash
+19% Mighty Burst
 
 Runika:
-42% Channeled Tinker
-10% Channeled Grasp
-22% Maintenance Tinker
-26% Maintenance Drive
+9% Maintenance Tinker | (2 Chivalry tokens)
+0% Maintenance Grasp
+53% Maintenance Dash
+2% Explosive Shot | (2 Chivalry tokens)
+35% Explosive Dash
+
+
+Alexian: Regal Strike
+Runika: Maintenance Tinker | (2 Chivalry tokens)
+
+Runika antes a Chivalry token
+Runika antes a Chivalry token
+Priorities:  4 | 4
+Clash!
+
+
+Alexian: Regal Dash
+Runika: Maintenance Dash | (2 Chivalry tokens)
+
+Runika antes a Chivalry token
+Runika antes a Chivalry token
+Priorities:  10 | 10
+Clash!
 
 
 Alexian: Regal Grasp
-Runika: Maintenance Drive
+Runika: Maintenance Shot | (2 Chivalry tokens)
 
+Runika antes a Chivalry token
+Runika antes a Chivalry token
 Priorities:  6 | 3
 Alexian is active
 Alexian hits
@@ -678,14 +381,251 @@ Alexian moves Runika:
 
 ..R.A..
 
-Autodeflector is de-activated
+Hover Boots is de-activated
 Runika has 4 soak
-Runika takes 0 damage (now at 10 life)
+Runika takes 0 damage (now at 1 life)
+Runika hits
+Alexian takes 2 damage (now at 4 life)
 Runika moves:
 
-...RA..
+.R..A..
+
+
+Beat 7
+-------
+
+Alexian
+-------
+Life: 4
+Discard 1: Regal Grasp
+Discard 2: Stalwart Divider
+Runika has 1 Chivalry token
+
+Runika
+------
+Life: 1
+Discard 1: Maintenance Shot
+Discard 2: Channeled Drive
+No active artifacts
+Removed artifacts: 
+  Battlefist
+
+
+.R..A..
+
+
+Alexian:
+3% Gestalt Burst
+67% Gestalt Dash
+25% Steeled Shot
+5% Steeled Burst
+
+Runika:
+7% Explosive Dash
+12% Impact Tinker
+56% Impact Dash
+25% Overcharged Dash
+
+
+Alexian: Gestalt Dash
+Runika: Impact Tinker
+
+Priorities:  8 | 3
+Alexian is active
+Alexian moves:
+
+.R.A...
+
+Alexian moves:
+
+.R....A
+
+Runika moves:
+
+..R...A
+
+Runika misses
+Phase Goggles is activated
+
+Beat 8
+-------
+
+Alexian
+-------
+Life: 4
+Discard 1: Gestalt Dash
+Discard 2: Regal Grasp
+Runika has 1 Chivalry token
+
+Runika
+------
+Life: 1
+Discard 1: Impact Tinker
+Discard 2: Maintenance Shot
+Active artifacts: 
+  Phase Goggles
+Removed artifacts: 
+  Battlefist
+
+
+..R...A
+
+
+Alexian:
+59% Stalwart Divider
+0% Stalwart Shot
+3% Stalwart Drive
+10% Stalwart Burst
+18% Mighty Shot
+10% Steeled Burst
+
+Runika:
+1% Channeled Drive | (1 Chivalry token)
+3% Channeled Burst | (1 Chivalry token)
+1% Explosive Drive | (1 Chivalry token)
+1% Explosive Burst
+4% Explosive Burst | (1 Chivalry token)
+87% Explosive Dash
+4% Overcharged Burst | (1 Chivalry token)
+
+
+Alexian: Stalwart Divider
+Runika: Explosive Dash
+
+Priorities:  -1 | 9
+Runika is active
+Runika moves Alexian:
+
+..R..A.
+
+Runika moves:
+
+R....A.
+
+Alexian moves:
+
+R...A..
+
+Alexian gets +1 power
+Alexian misses
+Runika gains 1 Chivalry token
+
+Beat 9
+-------
+
+Alexian
+-------
+Life: 4
+Discard 1: Stalwart Divider
+Discard 2: Gestalt Dash
+Runika has 2 Chivalry tokens
+
+Runika
+------
+Life: 1
+Discard 1: Explosive Dash
+Discard 2: Impact Tinker
+Active artifacts: 
+  Phase Goggles
+Removed artifacts: 
+  Battlefist
+
+
+R...A..
+
+
+Alexian:
+3% Regal Drive
+36% Mighty Burst
+3% Mighty Grasp
+8% Steeled Shot
+51% Steeled Burst
+
+Runika:
+4% Channeled Drive
+38% Channeled Drive | (1 Chivalry token)
+12% Channeled Burst
+43% Maintenance Strike
+3% Overcharged Shot | (2 Chivalry tokens)
+
+
+Alexian: Mighty Burst
+Runika: Channeled Drive | (1 Chivalry token)
+
+Runika antes a Chivalry token
+Priorities:  2 | 6
+Runika is active
+Hover Boots is activated
+Alexian moves:
+
+R....A.
+
+Runika moves:
+
+.R...A.
+
+Runika misses
+Alexian misses
+Hover Boots is de-activated
+
+Beat 10
+-------
+
+Alexian
+-------
+Life: 4
+Discard 1: Mighty Burst
+Discard 2: Stalwart Divider
+Runika has 1 Chivalry token
+
+Runika
+------
+Life: 1
+Discard 1: Channeled Drive
+Discard 2: Explosive Dash
+Active artifacts: 
+  Phase Goggles
+Removed artifacts: 
+  Battlefist
+
+
+.R...A.
+
+
+Alexian:
+19% Gestalt Shot
+7% Gestalt Drive
+2% Regal Shot
+63% Regal Dash
+9% Steeled Shot
+
+Runika:
+4% Maintenance Tinker | (1 Chivalry token)
+9% Maintenance Shot
+26% Impact Tinker
+54% Impact Burst
+6% Overcharged Shot | (1 Chivalry token)
+
+
+Alexian: Gestalt Shot
+Runika: Impact Tinker
+
+Priorities:  1 | 3
+Runika is active
+Alexian moves:
+
+.R..A..
+
+Runika moves:
+
+..R.A..
 
 Runika hits
-Alexian takes 2 damage (now at 0 life)
-RUNIKA WINS!
-total_time: 70
+Alexian takes 2 damage (now at 2 life)
+Autodeflector is activated
+Alexian hits
+Runika gains 1 Chivalry token
+Autodeflector is de-activated
+Runika takes 5 damage (now at 0 life)
+ALEXIAN WINS!
+total_time: 26

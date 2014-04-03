@@ -25,28 +25,27 @@ Discard 1: Channeled Grasp
 Discard 2: Impact Strike
 Special action available
 Active artifacts: 
+  Autodeflector
   Phase Goggles
   Battlefist
   Shield Amulet
-  Autodeflector
   Hover Boots
 
 
 .M...R.
 
-Unbeatable strategy for Magdelina: Safety Shot: 1.03
-Unbeatable strategy for Magdelina: Safety Burst: 1.55
-Unbeatable strategy for Magdelina: Safety Dash: 1.28
-Unbeatable strategy for Magdelina: Priestess Shot: 0.00
-Unbeatable strategy for Magdelina: Priestess Burst: 1.55
-Unbeatable strategy for Magdelina: Priestess Dash: 0.83
-Unbeatable strategy for Magdelina: Excelsius Burst: 0.73
-Unbeatable strategy for Magdelina: Excelsius Dash: 1.77
+Unbeatable strategy for Magdelina: Safety Shot: 0.60
+Unbeatable strategy for Magdelina: Safety Burst: 1.12
+Unbeatable strategy for Magdelina: Safety Dash: 0.85
+Unbeatable strategy for Magdelina: Priestess Burst: 1.12
+Unbeatable strategy for Magdelina: Priestess Dash: 0.41
+Unbeatable strategy for Magdelina: Excelsius Burst: 0.31
+Unbeatable strategy for Magdelina: Excelsius Dash: 1.35
 
 
 Magdelina:
-38% Safety Burst
-6% Priestess Burst
+36% Safety Burst
+8% Priestess Burst
 56% Excelsius Dash
 
 Runika:
@@ -54,7 +53,7 @@ Runika:
 52% Overcharged Drive
 
 
-Magdelina: Priestess Burst
+Magdelina: Safety Burst
 Runika: Overcharged Drive
 
 Priorities:  0 | 6
@@ -82,7 +81,7 @@ Beat 2
 Magdelina
 ---------
 Life: 16
-Discard 1: Priestess Burst
+Discard 1: Safety Burst
 Discard 2: Spiritual Drive
 Special action available
 Level: 1
@@ -95,8 +94,8 @@ Discard 1: Overcharged Drive
 Discard 2: Channeled Grasp
 Special action available
 Active artifacts: 
-  Battlefist
   Autodeflector
+  Battlefist
   Shield Amulet
   Hover Boots
 Removed artifacts: 
@@ -105,27 +104,35 @@ Removed artifacts:
 
 M..R...
 
-Unbeatable strategy for Magdelina: Safety Dash: 1.36
-Unbeatable strategy for Magdelina: Sanctimonious Dash: 2.16
+Unbeatable strategy for Magdelina: Priestess Dash: 2.36
+Unbeatable strategy for Magdelina: Sanctimonious Dash: 1.79
 Unbeatable strategy for Magdelina: Excelsius Dash: 1.91
 
 
 Magdelina:
-16% Sanctimonious Grasp
-34% Excelsius Strike
-49% Excelsius Dash
+21% Sanctimonious Grasp
+42% Excelsius Strike
+37% Excelsius Dash
 
 Runika:
-13% Maintenance Shot
-28% Maintenance Burst
-58% Explosive Shot
+23% Maintenance Burst
+66% Explosive Shot
+12% Explosive Burst
 
 
-Magdelina: Excelsius Strike
-Runika: Maintenance Burst
+Magdelina: Sanctimonious Grasp
+Runika: Explosive Shot
 
 Magdelina gets a +1 bonus to power, priority and stunguard
-Priorities:  3 | 2
+Priorities:  4 | 4
+Clash!
+
+
+Magdelina: Sanctimonious Dash
+Runika: Explosive Burst
+
+Magdelina gets a +1 bonus to power, priority and stunguard
+Priorities:  8 | 3
 Magdelina is active
 Runika moves:
 
@@ -133,15 +140,9 @@ M...R..
 
 Magdelina moves:
 
-.M..R..
+...MR..
 
-Magdelina misses
-Runika hits
-Magdelina takes 3 damage (now at 13 life)
-Runika moves:
-
-.M....R
-
+Runika misses
 Magdelina gains a Trance counter: has 1
 
 Beat 3
@@ -149,9 +150,9 @@ Beat 3
 
 Magdelina
 ---------
-Life: 13
-Discard 1: Excelsius Strike
-Discard 2: Priestess Burst
+Life: 16
+Discard 1: Sanctimonious Dash
+Discard 2: Safety Burst
 Special action available
 Level: 1
 Trance: 1
@@ -159,48 +160,50 @@ Trance: 1
 Runika
 ------
 Life: 20
-Discard 1: Maintenance Burst
+Discard 1: Explosive Burst
 Discard 2: Overcharged Drive
 Special action available
 Active artifacts: 
+  Autodeflector
   Battlefist
   Shield Amulet
   Hover Boots
-  Autodeflector
 Removed artifacts: 
   Phase Goggles
 
 
-.M....R
-
-Unbeatable strategy for Magdelina: Safety Blessing: 1.52
-Unbeatable strategy for Magdelina: Safety Shot: 1.23
-Unbeatable strategy for Magdelina: Safety Dash: 2.00
-Unbeatable strategy for Magdelina: Spiritual Shot: 0.22
+...MR..
 
 
 Magdelina:
-73% Safety Dash
-1% Spiritual Drive
-26% Sanctimonious Shot
+21% Spiritual Blessing
+1% Spiritual Grasp
+77% Excelsius Strike
 
 Runika:
-39% Explosive Tinker
-31% Explosive Shot
-30% Impact Dash
+48% Channeled Strike
+5% Maintenance Strike
+11% Impact Strike
+35% Impact Grasp
 
 
-Magdelina: Safety Dash
-Runika: Explosive Shot
+Magdelina: Excelsius Strike
+Runika: Channeled Strike
 
 Magdelina gets a +1 bonus to power, priority and stunguard
-Priorities:  9 | 4
-Magdelina is active
+Priorities:  3 | 6
+Runika is active
+No artifacts to activate
+Runika hits
+Magdelina takes 6 damage (now at 10 life)
 Magdelina moves:
 
-M.....R
+..M.R..
 
-Runika misses
+Magdelina hits
+Autodeflector is de-activated
+Runika takes 4 damage (now at 16 life)
+Battlefist is de-activated
 Magdelina gains a Trance counter: has 2
 Magdelina discards all Trance counters
 Magdelina gains a Level: has 2
@@ -210,127 +213,62 @@ Beat 4
 
 Magdelina
 ---------
-Life: 13
-Discard 1: Safety Dash
-Discard 2: Excelsius Strike
+Life: 10
+Discard 1: Excelsius Strike
+Discard 2: Sanctimonious Dash
 Special action available
 Level: 2
 Trance: 0
 
 Runika
 ------
-Life: 20
-Discard 1: Explosive Shot
-Discard 2: Maintenance Burst
+Life: 16
+Discard 1: Channeled Strike
+Discard 2: Explosive Burst
 Special action available
 Active artifacts: 
-  Battlefist
-  Hover Boots
-  Autodeflector
   Shield Amulet
+  Hover Boots
 Removed artifacts: 
   Phase Goggles
 
 
-M.....R
+..M.R..
 
-Unbeatable strategy for Magdelina: Priestess Blessing: 1.69
-Unbeatable strategy for Magdelina: Priestess Shot: 2.87
-Unbeatable strategy for Magdelina: Priestess Burst: 2.85
-Unbeatable strategy for Magdelina: Spiritual Blessing: 0.06
-Unbeatable strategy for Magdelina: Spiritual Shot: 0.10
-Unbeatable strategy for Magdelina: Spiritual Burst: 0.40
-Unbeatable strategy for Magdelina: Sanctimonious Blessing: 0.52
-Unbeatable strategy for Magdelina: Sanctimonious Shot: 4.41
-Unbeatable strategy for Magdelina: Sanctimonious Drive: 0.93
-Unbeatable strategy for Magdelina: Sanctimonious Burst: 1.34
+Unbeatable strategy for Magdelina: Safety Burst: 1.14
+Unbeatable strategy for Magdelina: Priestess Burst: 2.14
+Unbeatable strategy for Magdelina: Spiritual Burst: 0.46
 
 
 Magdelina:
-55% Spiritual Shot
-45% Sanctimonious Shot
+0% Priestess Blessing
+70% Priestess Shot
+10% Priestess Drive
+20% Priestess Burst
 
 Runika:
-14% Impact Dash
-86% Special Pulse
+11% Maintenance Shot
+15% Impact Tinker
+43% Impact Dash
+32% Special Pulse
 
 
-Magdelina: Spiritual Shot
-Runika: Special Pulse
-
-Magdelina gets a +2 bonus to power, priority and stunguard
-Pulse:
-
-.MR....
-
-
-Beat 4
--------
-
-Magdelina
----------
-Life: 13
-Discard 1: Spiritual Shot
-Discard 2: Safety Dash
-Special action available
-Level: 2
-Trance: 0
-
-Runika
-------
-Life: 20
-Discard 1: Explosive Shot
-Discard 2: Maintenance Burst
-Active artifacts: 
-  Battlefist
-  Hover Boots
-  Autodeflector
-  Shield Amulet
-Removed artifacts: 
-  Phase Goggles
-
-
-.MR....
-
-Unbeatable strategy for Magdelina: Sanctimonious Strike: 0.88
-Unbeatable strategy for Magdelina: Excelsius Strike: 1.29
-
-
-Magdelina:
-11% Priestess Strike
-6% Priestess Grasp
-10% Sanctimonious Blessing
-46% Excelsius Strike
-21% Excelsius Drive
-6% Excelsius Burst
-
-Runika:
-2% Channeled Strike
-1% Channeled Drive
-5% Impact Strike
-35% Impact Grasp
-23% Overcharged Strike
-33% Overcharged Drive
-
-
-Magdelina: Excelsius Strike
-Runika: Overcharged Strike
+Magdelina: Priestess Shot
+Runika: Impact Dash
 
 Magdelina gets a +2 bonus to power, priority and stunguard
-Priorities:  4 | 5
+Priorities:  3 | 11
 Runika is active
-Runika overcharges her Autodeflector
-Runika hits
-Magdelina takes 5 damage (now at 8 life)
-Magdelina moves:
+Runika moves:
 
-M.R....
+..MR...
 
-Magdelina hits
-Hover Boots is de-activated
-Runika has 4 soak
-Runika takes 1 damage (now at 19 life)
-Autodeflector is removed from the game
+Runika moves:
+
+.RM....
+
+Magdelina misses
+Magdelina gains 1 life (now at 11)
 Magdelina gains a Trance counter: has 1
 
 Beat 5
@@ -338,56 +276,59 @@ Beat 5
 
 Magdelina
 ---------
-Life: 8
-Discard 1: Excelsius Strike
-Discard 2: Spiritual Shot
+Life: 11
+Discard 1: Priestess Shot
+Discard 2: Excelsius Strike
 Special action available
 Level: 2
 Trance: 1
 
 Runika
 ------
-Life: 19
-Discard 1: Overcharged Strike
-Discard 2: Explosive Shot
+Life: 16
+Discard 1: Impact Dash
+Discard 2: Channeled Strike
+Special action available
 Active artifacts: 
-  Battlefist
   Shield Amulet
+  Hover Boots
 Removed artifacts: 
   Phase Goggles
-  Autodeflector
 
 
-M.R....
+.RM....
 
 
 Magdelina:
-17% Priestess Drive
-20% Sanctimonious Blessing
-20% Sanctimonious Drive
-43% Sanctimonious Grasp
+41% Safety Blessing
+16% Sanctimonious Blessing
+6% Sanctimonious Drive
+37% Sanctimonious Grasp
 
 Runika:
-12% Channeled Drive
-19% Channeled Burst
-65% Maintenance Dash
-4% Impact Burst
+46% Maintenance Tinker
+19% Maintenance Grasp
+24% Explosive Tinker
+11% Explosive Burst
 
 
-Magdelina: Sanctimonious Grasp
-Runika: Channeled Burst
+Magdelina: Safety Blessing
+Runika: Maintenance Grasp
 
 Magdelina gets a +2 bonus to power, priority and stunguard
-Priorities:  5 | 2
-Magdelina is active
-Hover Boots is activated
+Priorities:  4 | 6
+Runika is active
+Runika hits
+Runika moves Magdelina:
+
+MR.....
+
+Magdelina takes 1 damage (now at 10 life)
 Runika moves:
 
-M...R..
+M..R...
 
 Magdelina misses
-Runika misses
-Battlefist is de-activated
 Magdelina gains a Trance counter: has 2
 
 Beat 6
@@ -395,132 +336,81 @@ Beat 6
 
 Magdelina
 ---------
-Life: 8
-Discard 1: Sanctimonious Grasp
-Discard 2: Excelsius Strike
+Life: 10
+Discard 1: Safety Blessing
+Discard 2: Priestess Shot
 Special action available
 Level: 2
 Trance: 2
 
 Runika
 ------
-Life: 19
-Discard 1: Channeled Burst
-Discard 2: Overcharged Strike
+Life: 16
+Discard 1: Maintenance Grasp
+Discard 2: Impact Dash
+Special action available
 Active artifacts: 
   Shield Amulet
   Hover Boots
 Removed artifacts: 
   Phase Goggles
-  Autodeflector
 
 
-M...R..
+M..R...
 
 
 Magdelina:
-63% Priestess Blessing
-3% Priestess Shot
-27% Spiritual Blessing
-8% Spiritual Shot
+17% Spiritual Burst
+21% Sanctimonious Strike
+62% Excelsius Strike
 
 Runika:
-34% Maintenance Tinker
-14% Maintenance Grasp
-20% Explosive Tinker
-32% Explosive Dash
+62% Channeled Drive
+29% Channeled Burst
+9% Explosive Burst
 
 
-Magdelina: Spiritual Blessing
-Runika: Explosive Dash
+Magdelina: Excelsius Strike
+Runika: Channeled Burst
 
 Magdelina gets a +2 bonus to power, priority and stunguard
-Priorities:  4 | 11
-Runika is active
-Runika moves Magdelina:
+Priorities:  4 | 4
+Clash!
 
-.M..R..
+
+Magdelina: Excelsius Dash
+Runika: Channeled Drive
+
+Magdelina gets a +2 bonus to power, priority and stunguard
+Priorities:  10 | 7
+Magdelina is active
+Autodeflector is activated
+Magdelina moves:
+
+.M.R...
+
+Magdelina moves:
+
+...RM..
 
 Runika moves:
 
-RM.....
+....MR.
 
-Magdelina misses
-Magdelina gains a Trance counter: has 2
+Runika misses
+Shield Amulet is de-activated
+Magdelina gains a Trance counter: has 3
+Magdelina discards all Trance counters
+Magdelina gains a Level: has 3
 
 Beat 7
 -------
 
 Magdelina
 ---------
-Life: 8
-Discard 1: Spiritual Blessing
-Discard 2: Sanctimonious Grasp
-Special action available
-Level: 2
-Trance: 2
-
-Runika
-------
-Life: 19
-Discard 1: Explosive Dash
-Discard 2: Channeled Burst
-Active artifacts: 
-  Shield Amulet
-  Hover Boots
-Removed artifacts: 
-  Phase Goggles
-  Autodeflector
-
-
-RM.....
-
-Unbeatable strategy for Magdelina: Safety Burst: 3.26
-Unbeatable strategy for Magdelina: Safety Dash: 0.72
-Unbeatable strategy for Magdelina: Priestess Burst: 1.96
-Unbeatable strategy for Magdelina: Priestess Dash: 0.79
-Unbeatable strategy for Magdelina: Excelsius Burst: 2.24
-Unbeatable strategy for Magdelina: Excelsius Dash: 0.48
-
-
-Magdelina:
-23% Priestess Shot
-46% Priestess Burst
-32% Excelsius Strike
-
-Runika:
-52% Maintenance Tinker
-28% Impact Tinker
-21% Overcharged Shot
-
-
-Magdelina: Priestess Shot
-Runika: Maintenance Tinker
-
-Magdelina gets a +2 bonus to power, priority and stunguard
-Priorities:  3 | 4
-Runika is active
-Runika hits
-Magdelina takes 2 damage (now at 6 life)
-Battlefist is activated
-Magdelina hits
-Runika gets -2 power
-Hover Boots is de-activated
-Runika has 1 soak
-Runika takes 3 damage (now at 16 life)
-Magdelina gains 1 life (now at 7)
-Magdelina gains a Trance counter: has 3
-Magdelina discards all Trance counters
-Magdelina gains a Level: has 3
-
-Beat 8
--------
-
-Magdelina
----------
-Life: 7
-Discard 1: Priestess Shot
-Discard 2: Spiritual Blessing
+Life: 10
+Discard 1: Excelsius Dash
+Discard 2: Safety Blessing
 Special action available
 Level: 3
 Trance: 0
@@ -528,445 +418,621 @@ Trance: 0
 Runika
 ------
 Life: 16
-Discard 1: Maintenance Tinker
-Discard 2: Explosive Dash
+Discard 1: Channeled Drive
+Discard 2: Maintenance Grasp
+Special action available
 Active artifacts: 
-  Battlefist
-  Shield Amulet
+  Autodeflector
+  Hover Boots
 Removed artifacts: 
   Phase Goggles
-  Autodeflector
 
 
-RM.....
+....MR.
+
+Unbeatable strategy for Magdelina: Priestess Drive: 1.97
+Unbeatable strategy for Magdelina: Priestess Grasp: 1.17
+Unbeatable strategy for Magdelina: Sanctimonious Grasp: 1.84
 
 
 Magdelina:
-45% Excelsius Strike
-40% Excelsius Drive
-15% Excelsius Burst
+98% Priestess Shot
+2% Priestess Drive
 
 Runika:
-31% Channeled Shot
-16% Channeled Drive
-54% Channeled Grasp
+2% Explosive Shot
+98% Explosive Dash
 
 
-Magdelina: Excelsius Drive
-Runika: Channeled Grasp
-
-Magdelina gets a +3 bonus to power, priority and stunguard
-Priorities:  6 | 6
-Clash!
-
-
-Magdelina: Excelsius Strike
-Runika: Channeled Drive
+Magdelina: Priestess Shot
+Runika: Explosive Dash
 
 Magdelina gets a +3 bonus to power, priority and stunguard
-Priorities:  5 | 5
-Clash!
+Priorities:  4 | 11
+Runika is active
+Runika moves:
 
+...RM..
 
-Magdelina: Excelsius Burst
-Runika: Channeled Burst
-
-Magdelina gets a +3 bonus to power, priority and stunguard
-Priorities:  3 | 2
-Magdelina is active
-Magdelina moves:
-
-R..M...
-
-Hover Boots is activated
-Magdelina moves:
-
-R.M....
-
-Magdelina hits
-Hover Boots is de-activated
-Runika takes 5 damage (now at 11 life)
-Runika is stunned
-Battlefist is de-activated
+Magdelina misses
+Magdelina gains 1 life (now at 11)
 Magdelina gains a Trance counter: has 1
+
+Beat 8
+-------
+
+Magdelina
+---------
+Life: 11
+Discard 1: Priestess Shot
+Discard 2: Excelsius Dash
+Special action available
+Level: 3
+Trance: 1
+
+Runika
+------
+Life: 16
+Discard 1: Explosive Dash
+Discard 2: Channeled Drive
+Special action available
+Active artifacts: 
+  Autodeflector
+  Hover Boots
+Removed artifacts: 
+  Phase Goggles
+
+
+...RM..
+
+
+Magdelina:
+33% Sanctimonious Strike
+67% Sanctimonious Burst
+
+Runika:
+67% Maintenance Tinker
+33% Impact Tinker
+
+
+Magdelina: Sanctimonious Strike
+Runika: Maintenance Tinker
+
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  4 | 4
+Clash!
+
+
+Magdelina: Sanctimonious Blessing
+Runika: Maintenance Shot
+
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  4 | 3
+Magdelina is active
+Magdelina hits
+Magdelina gains 3 life (now at 14)
+Runika gains 3 life (now at 19)
+Magdelina gains a Trance counter: has 2
+Autodeflector is de-activated
+Runika hits
+Magdelina takes 2 damage (now at 12 life)
+Runika moves:
+
+..R.M..
+
+Magdelina gains a Trance counter: has 3
 
 Beat 9
 -------
 
 Magdelina
 ---------
-Life: 7
-Discard 1: Excelsius Burst
+Life: 12
+Discard 1: Sanctimonious Blessing
 Discard 2: Priestess Shot
 Special action available
 Level: 3
-Trance: 1
+Trance: 3
 
 Runika
 ------
-Life: 11
-Discard 1: Channeled Burst
-Discard 2: Maintenance Tinker
+Life: 19
+Discard 1: Maintenance Shot
+Discard 2: Explosive Dash
+Special action available
 Active artifacts: 
-  Shield Amulet
+  Hover Boots
 Removed artifacts: 
   Phase Goggles
-  Autodeflector
 
 
-R.M....
-
-Unbeatable strategy for Magdelina: Safety Drive: 1.84
-Unbeatable strategy for Magdelina: Safety Dash: 0.39
-Unbeatable strategy for Magdelina: Spiritual Grasp: 0.85
-Unbeatable strategy for Magdelina: Sanctimonious Grasp: 0.91
+..R.M..
 
 
 Magdelina:
-29% Safety Drive
-71% Sanctimonious Drive
+31% Spiritual Burst
+19% Excelsius Drive
+50% Excelsius Grasp
 
 Runika:
-37% Explosive Dash
-5% Impact Grasp
-58% Impact Dash
+13% Channeled Drive
+47% Channeled Burst
+40% Impact Drive
 
 
-Magdelina: Sanctimonious Drive
-Runika: Explosive Dash
+Magdelina: Excelsius Grasp
+Runika: Channeled Burst
 
 Magdelina gets a +3 bonus to power, priority and stunguard
-Priorities:  5 | 9
-Runika is active
-Runika moves Magdelina:
-
-RM.....
-
+Priorities:  7 | 4
+Magdelina is active
+Autodeflector is activated
 Runika moves:
 
-.M.R...
+R...M..
 
 Magdelina moves:
 
-..MR...
+R....M.
 
 Magdelina misses
-Magdelina gains a Trance counter: has 2
+Runika misses
+Hover Boots is de-activated
+Magdelina gains a Trance counter: has 4
+Magdelina discards all Trance counters
+Magdelina gains a Level: has 4
 
 Beat 10
 -------
 
 Magdelina
 ---------
-Life: 7
-Discard 1: Sanctimonious Drive
-Discard 2: Excelsius Burst
-Special action available
-Level: 3
-Trance: 2
-
-Runika
-------
-Life: 11
-Discard 1: Explosive Dash
-Discard 2: Channeled Burst
-Active artifacts: 
-  Shield Amulet
-Removed artifacts: 
-  Phase Goggles
-  Autodeflector
-
-
-..MR...
-
-Unbeatable strategy for Magdelina: Priestess Grasp: 0.77
-
-
-Magdelina:
-92% Priestess Blessing
-8% Priestess Strike
-
-Runika:
-89% Maintenance Tinker
-11% Overcharged Tinker
-
-
-Magdelina: Priestess Blessing
-Runika: Maintenance Tinker
-
-Magdelina gets a +3 bonus to power, priority and stunguard
-Priorities:  5 | 2
-Magdelina is active
-Magdelina hits
-Runika gets -2 power
-Magdelina gains 3 life (now at 10)
-Runika gains 3 life (now at 14)
-Magdelina gains a Trance counter: has 3
-Shield Amulet is de-activated
-Magdelina gains 1 life (now at 11)
-Runika hits
-Magdelina takes 0 damage (now at 11 life)
-Hover Boots is activated
-Runika moves:
-
-..M.R..
-
-Magdelina gains a Trance counter: has 4
-Magdelina discards all Trance counters
-Magdelina gains a Level: has 4
-
-Beat 11
--------
-
-Magdelina
----------
-Life: 11
-Discard 1: Priestess Blessing
-Discard 2: Sanctimonious Drive
+Life: 12
+Discard 1: Excelsius Grasp
+Discard 2: Sanctimonious Blessing
 Special action available
 Level: 4
 Trance: 0
 
 Runika
 ------
-Life: 14
-Discard 1: Maintenance Tinker
-Discard 2: Explosive Dash
+Life: 19
+Discard 1: Channeled Burst
+Discard 2: Maintenance Shot
+Special action available
 Active artifacts: 
-  Hover Boots
+  Autodeflector
 Removed artifacts: 
   Phase Goggles
-  Autodeflector
 
 
-..M.R..
+R....M.
 
-Unbeatable strategy for Magdelina: Spiritual Dash: 0.39
+Unbeatable strategy for Magdelina: Priestess Strike: 0.50
+Unbeatable strategy for Magdelina: Priestess Dash: 0.92
+Unbeatable strategy for Magdelina: Spiritual Burst: 0.84
+Unbeatable strategy for Magdelina: Spiritual Dash: 0.13
 
 
 Magdelina:
-15% Safety Shot
-2% Safety Burst
-37% Excelsius Shot
-46% Excelsius Grasp
+3% Priestess Burst
+4% Priestess Dash
+66% Spiritual Shot
+28% Spiritual Burst
 
 Runika:
-44% Channeled Drive
-34% Channeled Burst
-3% Impact Strike
-18% Overcharged Burst
+15% Explosive Strike
+57% Impact Tinker
+2% Impact Strike
+27% Impact Drive
 
 
-Magdelina: Excelsius Shot
-Runika: Overcharged Burst
+Magdelina: Spiritual Burst
+Runika: Impact Drive
 
 Magdelina gets a +4 bonus to power, priority and stunguard
-Priorities:  5 | 3
-Magdelina is active
-Runika overcharges her Hover Boots
-Runika becomes the active player
-Runika moves:
-
-..M..R.
-
-Runika hits
-Magdelina takes 3 damage (now at 8 life)
+Priorities:  2 | 4
+Runika is active
 Magdelina moves:
 
-.M...R.
+R.....M
 
-Magdelina hits
-No artifacts to de-activate
-Runika takes 6 damage (now at 8 life)
-Runika is stunned
-Hover Boots is removed from the game
+Runika moves:
+
+.R....M
+
+Runika moves:
+
+...R..M
+
+Runika misses
+Magdelina misses
 Magdelina gains a Trance counter: has 1
+
+Beat 11
+-------
+
+Magdelina
+---------
+Life: 12
+Discard 1: Spiritual Burst
+Discard 2: Excelsius Grasp
+Special action available
+Level: 4
+Trance: 1
+
+Runika
+------
+Life: 19
+Discard 1: Impact Drive
+Discard 2: Channeled Burst
+Special action available
+Active artifacts: 
+  Autodeflector
+Removed artifacts: 
+  Phase Goggles
+
+
+...R..M
+
+
+Magdelina:
+98% Priestess Shot
+2% Priestess Drive
+
+Runika:
+2% Explosive Grasp
+98% Explosive Dash
+
+
+Magdelina: Priestess Shot
+Runika: Explosive Dash
+
+Magdelina gets a +4 bonus to power, priority and stunguard
+Priorities:  5 | 9
+Runika is active
+Runika moves Magdelina:
+
+...R.M.
+
+Runika moves:
+
+.....MR
+
+Magdelina misses
+Magdelina gains 1 life (now at 13)
+Magdelina gains a Trance counter: has 2
 
 Beat 12
 -------
 
 Magdelina
 ---------
-Life: 8
-Discard 1: Excelsius Shot
-Discard 2: Priestess Blessing
-Special action available
-Level: 4
-Trance: 1
-
-Runika
-------
-Life: 8
-Discard 1: Overcharged Burst
-Discard 2: Maintenance Tinker
-No active artifacts
-Removed artifacts: 
-  Phase Goggles
-  Autodeflector
-  Hover Boots
-
-
-.M...R.
-
-
-Magdelina:
-89% Spiritual Burst
-11% Sanctimonious Burst
-
-Runika:
-11% Impact Shot
-89% Impact Dash
-
-
-Magdelina: Spiritual Burst
-Runika: Impact Shot
-
-Magdelina gets a +4 bonus to power, priority and stunguard
-Priorities:  2 | 2
-Clash!
-
-
-Magdelina: Spiritual Grasp
-Runika: Impact Dash
-
-Magdelina gets a +4 bonus to power, priority and stunguard
-Priorities:  6 | 9
-Runika is active
-Runika moves:
-
-.M..R..
-
-Runika moves:
-
-RM.....
-
-Magdelina misses
-Magdelina gains a Trance counter: has 1
-
-Beat 13
--------
-
-Magdelina
----------
-Life: 8
-Discard 1: Spiritual Grasp
-Discard 2: Excelsius Shot
-Special action available
-Level: 4
-Trance: 1
-
-Runika
-------
-Life: 8
-Discard 1: Impact Dash
-Discard 2: Overcharged Burst
-No active artifacts
-Removed artifacts: 
-  Phase Goggles
-  Autodeflector
-  Hover Boots
-
-
-RM.....
-
-Unbeatable strategy for Magdelina: Priestess Drive: 2.28
-
-
-Magdelina:
-81% Priestess Strike
-19% Priestess Burst
-
-Runika:
-16% Channeled Drive
-84% Maintenance Strike
-
-
-Magdelina: Priestess Strike
-Runika: Maintenance Strike
-
-Magdelina gets a +4 bonus to power, priority and stunguard
-Priorities:  6 | 2
-Magdelina is active
-Magdelina hits
-Runika gets -2 power
-No artifacts to de-activate
-Runika has 2 soak
-Runika takes 5 damage (now at 3 life)
-Magdelina gains 1 life (now at 9)
-Runika hits
-Magdelina takes 1 damage (now at 8 life)
-Magdelina gains a Trance counter: has 2
-
-Beat 14
--------
-
-Magdelina
----------
-Life: 8
-Discard 1: Priestess Strike
-Discard 2: Spiritual Grasp
+Life: 13
+Discard 1: Priestess Shot
+Discard 2: Spiritual Burst
 Special action available
 Level: 4
 Trance: 2
 
 Runika
 ------
-Life: 3
-Discard 1: Maintenance Strike
-Discard 2: Impact Dash
-No active artifacts
+Life: 19
+Discard 1: Explosive Dash
+Discard 2: Impact Drive
+Special action available
+Active artifacts: 
+  Autodeflector
 Removed artifacts: 
   Phase Goggles
-  Autodeflector
-  Hover Boots
 
 
-RM.....
+.....MR
 
-Unbeatable strategy for Magdelina: Safety Drive: 8.00
-Unbeatable strategy for Magdelina: Excelsius Drive: 8.00
+Unbeatable strategy for Magdelina: Excelsius Drive: 1.47
+Unbeatable strategy for Magdelina: Excelsius Grasp: 1.06
 
 
 Magdelina:
-25% Safety Shot
-25% Safety Drive
-25% Excelsius Shot
-25% Excelsius Drive
+19% Safety Blessing
+60% Excelsius Blessing
+20% Excelsius Strike
 
 Runika:
-9% Channeled Tinker
-6% Channeled Shot
-13% Channeled Drive
-6% Channeled Burst
-8% Channeled Grasp
-5% Explosive Tinker
-6% Explosive Shot
-6% Explosive Drive
-6% Explosive Burst
-7% Explosive Grasp
-5% Overcharged Tinker
-5% Overcharged Shot
-6% Overcharged Drive
-6% Overcharged Burst
-7% Overcharged Grasp
+11% Channeled Shot
+19% Channeled Burst
+69% Maintenance Tinker
 
 
-Magdelina: Excelsius Drive
-Runika: Explosive Burst
+Magdelina: Excelsius Blessing
+Runika: Maintenance Tinker
 
 Magdelina gets a +4 bonus to power, priority and stunguard
+Priorities:  6 | 2
+Magdelina is active
+Magdelina moves:
+
+....M.R
+
+Magdelina hits
+Magdelina gains 3 life (now at 16)
+Runika gains 3 life (now at 20)
+Magdelina gains a Trance counter: has 3
+Autodeflector is de-activated
+Runika misses
+Autodeflector is activated
+Magdelina gains a Trance counter: has 4
+
+Beat 13
+-------
+
+Magdelina
+---------
+Life: 16
+Discard 1: Excelsius Blessing
+Discard 2: Priestess Shot
+Special action available
+Level: 4
+Trance: 4
+
+Runika
+------
+Life: 20
+Discard 1: Maintenance Tinker
+Discard 2: Explosive Dash
+Special action available
+Active artifacts: 
+  Autodeflector
+Removed artifacts: 
+  Phase Goggles
+
+
+....M.R
+
+Unbeatable strategy for Magdelina: Safety Drive: 0.26
+
+
+Magdelina:
+14% Safety Drive
+63% Safety Burst
+23% Sanctimonious Strike
+
+Runika:
+44% Channeled Drive
+20% Impact Drive
+36% Overcharged Shot
+
+
+Magdelina: Safety Drive
+Runika: Channeled Drive
+
+Magdelina gets a +4 bonus to power, priority and stunguard
+Priorities:  7 | 5
+Magdelina is active
+Shield Amulet is activated
+Magdelina moves:
+
+.....MR
+
+Magdelina hits
+Shield Amulet is de-activated
+Runika has 2 soak
+Runika takes 3 damage (now at 17 life)
+Runika is stunned
+Autodeflector is de-activated
+Magdelina gains a Trance counter: has 5
+Magdelina discards all Trance counters
+Magdelina gains a Level: has 5
+
+Beat 14
+-------
+
+Magdelina
+---------
+Life: 16
+Discard 1: Safety Drive
+Discard 2: Excelsius Blessing
+Special action available
+Level: 5
+Trance: 0
+
+Runika
+------
+Life: 17
+Discard 1: Channeled Drive
+Discard 2: Maintenance Tinker
+Special action available
+No active artifacts
+Removed artifacts: 
+  Phase Goggles
+
+
+.....MR
+
+Unbeatable strategy for Magdelina: Priestess Strike: 0.48
+Unbeatable strategy for Magdelina: Priestess Shot: 0.85
+
+
+Magdelina:
+18% Priestess Shot
+9% Priestess Burst
+73% Priestess Grasp
+
+Runika:
+56% Explosive Shot
+16% Explosive Grasp
+28% Explosive Dash
+
+
+Magdelina: Priestess Grasp
+Runika: Explosive Dash
+
+Magdelina gets a +5 bonus to power, priority and stunguard
+Priorities:  9 | 9
+Clash!
+
+
+Magdelina: Priestess Strike
+Runika: Explosive Grasp
+
+Magdelina gets a +5 bonus to power, priority and stunguard
+Priorities:  7 | 5
+Magdelina is active
+Magdelina hits
+Runika gets -2 power
+No artifacts to de-activate
+Runika takes 8 damage (now at 9 life)
+Runika is stunned
+Magdelina gains 1 life (now at 17)
+Magdelina gains a Trance counter: has 1
+
+Beat 15
+-------
+
+Magdelina
+---------
+Life: 17
+Discard 1: Priestess Strike
+Discard 2: Safety Drive
+Special action available
+Level: 5
+Trance: 1
+
+Runika
+------
+Life: 9
+Discard 1: Explosive Grasp
+Discard 2: Channeled Drive
+Special action available
+No active artifacts
+Removed artifacts: 
+  Phase Goggles
+
+
+.....MR
+
+Unbeatable strategy for Magdelina: Spiritual Blessing: 14.00
+Unbeatable strategy for Magdelina: Spiritual Grasp: 14.00
+Unbeatable strategy for Magdelina: Spiritual Dash: 14.00
+Unbeatable strategy for Magdelina: Sanctimonious Blessing: 14.00
+Unbeatable strategy for Magdelina: Sanctimonious Shot: 14.00
+Unbeatable strategy for Magdelina: Sanctimonious Burst: 14.00
+Unbeatable strategy for Magdelina: Sanctimonious Dash: 14.00
+Unbeatable strategy for Magdelina: Excelsius Blessing: 14.00
+Unbeatable strategy for Magdelina: Excelsius Shot: 14.00
+Unbeatable strategy for Magdelina: Excelsius Burst: 14.00
+Unbeatable strategy for Magdelina: Excelsius Dash: 14.00
+
+
+Magdelina:
+100% Spiritual Shot
+
+Runika:
+100% Special Pulse
+
+
+Magdelina: Spiritual Shot
+Runika: Special Pulse
+
+Magdelina gets a +5 bonus to power, priority and stunguard
+Runika Pulses:
+
+MR.....
+
+
+Beat 15
+-------
+
+Magdelina
+---------
+Life: 17
+Discard 1: Spiritual Shot
+Discard 2: Priestess Strike
+Special action available
+Level: 5
+Trance: 1
+
+Runika
+------
+Life: 9
+Discard 1: Explosive Grasp
+Discard 2: Channeled Drive
+No active artifacts
+Removed artifacts: 
+  Phase Goggles
+
+
+MR.....
+
+Unbeatable strategy for Magdelina: Safety Blessing: 14.00
+Unbeatable strategy for Magdelina: Safety Burst: 14.00
+Unbeatable strategy for Magdelina: Safety Dash: 14.00
+Unbeatable strategy for Magdelina: Sanctimonious Blessing: 14.00
+Unbeatable strategy for Magdelina: Sanctimonious Drive: 14.00
+Unbeatable strategy for Magdelina: Sanctimonious Burst: 14.00
+Unbeatable strategy for Magdelina: Sanctimonious Dash: 14.00
+Unbeatable strategy for Magdelina: Excelsius Blessing: 14.00
+Unbeatable strategy for Magdelina: Excelsius Burst: 14.00
+Unbeatable strategy for Magdelina: Excelsius Dash: 14.00
+
+
+Magdelina:
+7% Safety Blessing
+7% Safety Drive
+7% Safety Burst
+7% Safety Grasp
+7% Safety Dash
+7% Sanctimonious Blessing
+7% Sanctimonious Drive
+7% Sanctimonious Burst
+7% Sanctimonious Grasp
+7% Sanctimonious Dash
+7% Excelsius Blessing
+7% Excelsius Drive
+7% Excelsius Burst
+7% Excelsius Grasp
+7% Excelsius Dash
+
+Runika:
+6% Maintenance Tinker
+6% Maintenance Strike
+7% Maintenance Shot
+7% Maintenance Burst
+6% Maintenance Dash
+6% Impact Tinker
+7% Impact Strike
+8% Impact Shot
+7% Impact Burst
+7% Impact Dash
+6% Overcharged Tinker
+6% Overcharged Strike
+7% Overcharged Shot
+7% Overcharged Burst
+6% Overcharged Dash
+
+
+Magdelina: Excelsius Blessing
+Runika: Maintenance Shot
+
+Magdelina gets a +5 bonus to power, priority and stunguard
 Priorities:  7 | 1
 Magdelina is active
 Magdelina moves:
 
-R.M....
-
-Magdelina moves:
-
-RM.....
+.RM....
 
 Magdelina hits
+Magdelina gains 3 life (now at 20)
+Runika gains 3 life (now at 12)
+Magdelina gains a Trance counter: has 2
+Magdelina moves Runika:
+
+R.M....
+
 No artifacts to de-activate
-Runika takes 6 damage (now at 0 life)
+Runika hits
+Magdelina takes 2 damage (now at 18 life)
+Magdelina gains a Trance counter: has 3
+Game goes to time
 MAGDELINA WINS!
-total_time: 15
+total_time: 16

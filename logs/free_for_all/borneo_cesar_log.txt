@@ -41,24 +41,21 @@ Cesar:
 
 
 Borneo: Clumsy Scene Shift
-Cesar: Bulwark Dash
+Cesar: Phalanx Suppression
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  4 | 7
-Cesar is active
-Cesar moves:
-
-.BC....
-
-Cesar moves:
-
-CB.....
-
+Priorities:  4 | 0
+Borneo is active
 Borneo moves:
 
-C..B...
+B....C.
 
 Borneo misses
+Cesar misses
+Cesar moves:
+
+B.C....
+
 
 Beat 2
 -------
@@ -73,22 +70,20 @@ Special action available
 Cesar
 -----
 Life: 20
-Discard 1: Bulwark Dash
+Discard 1: Phalanx Suppression
 Discard 2: Fueled Strike
 Special action available
 Threat level: 1
 
 
-C..B...
+B.C....
 
 
 Borneo:
-66% Pathetic Claw
-34% Pathetic Knuckle
+100% Pathetic Claw
 
 Cesar:
-35% Unstoppable Suppression
-65% Inevitable Drive
+100% Inevitable Drive
 
 
 Borneo: Pathetic Claw
@@ -99,26 +94,19 @@ Priorities:  4 | 4
 Clash!
 
 
-Borneo: Pathetic Divider
+Borneo: Pathetic Smoke
 Cesar: Inevitable Shot
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 2
-Clash!
-
-
-Borneo: Pathetic Knuckle
-Cesar: Inevitable Suppression
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  5 | 2
+Priorities:  3 | 2
 Borneo is active
-Borneo misses
-Cesar misses
-Cesar moves:
+Borneo hits
+Borneo moves Cesar:
 
-..CB...
+BC.....
 
+Cesar takes 1 damage (now at 19 life)
+Cesar is stunned
 
 Beat 3
 -------
@@ -126,688 +114,675 @@ Beat 3
 Borneo
 ------
 Life: 20
-Discard 1: Pathetic Knuckle
+Discard 1: Pathetic Smoke
 Discard 2: Clumsy Scene Shift
 Special action available
 
 Cesar
 -----
-Life: 20
-Discard 1: Inevitable Suppression
-Discard 2: Bulwark Dash
+Life: 19
+Discard 1: Inevitable Shot
+Discard 2: Phalanx Suppression
 Special action available
 Threat level: 2
 
 
-..CB...
-
-Unbeatable strategy for Cesar: Phalanx Shot: -0.36
+BC.....
 
 
 Borneo:
-21% Petulant Divider
-40% Slippery Divider
-17% Slippery Hex
-22% Slippery Master Plan
+8% Petulant Claw
+48% Petulant Divider
+33% Slippery Divider
+12% Slippery Hex
 
 Cesar:
-13% Phalanx Strike
-33% Phalanx Shot
-12% Unstoppable Shot
-41% Unstoppable Drive
+29% Unstoppable Strike
+36% Unstoppable Drive
+20% Bulwark Strike
+15% Bulwark Grasp
 
 
-Borneo: Slippery Hex
-Cesar: Unstoppable Drive
+Borneo: Slippery Divider
+Cesar: Bulwark Strike
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  3 | 2
+Priorities:  2 | 1
 Borneo is active
 Borneo moves:
 
-B.C....
+.C.B...
 
-Cesar moves:
-
-BC.....
-
-Borneo hits
-Cesar takes 2 damage (now at 18 life)
-Cesar hits
-Borneo takes 6 damage (now at 14 life)
-Borneo is stunned
+Borneo misses
+Cesar misses
+Opponent will have +1 power and +1 priority next beat
 
 Beat 4
 -------
 
 Borneo
 ------
-Life: 14
-Discard 1: Slippery Hex
-Discard 2: Pathetic Knuckle
+Life: 20
+Discard 1: Slippery Divider
+Discard 2: Pathetic Smoke
 Special action available
+Opponent has +1 power and +1 priority
 
 Cesar
 -----
-Life: 18
-Discard 1: Unstoppable Drive
-Discard 2: Inevitable Suppression
+Life: 19
+Discard 1: Bulwark Strike
+Discard 2: Inevitable Shot
 Special action available
 Threat level: 3
 
 
-BC.....
+.C.B...
 
-Unbeatable strategy for Cesar: Phalanx Strike: -2.03
-Unbeatable strategy for Cesar: Phalanx Shot: -1.49
-Unbeatable strategy for Cesar: Phalanx Burst: -1.50
-Unbeatable strategy for Cesar: Phalanx Grasp: -1.98
-Unbeatable strategy for Cesar: Phalanx Dash: -1.29
-Unbeatable strategy for Cesar: Fueled Strike: -2.46
-Unbeatable strategy for Cesar: Fueled Shot: -2.30
-Unbeatable strategy for Cesar: Fueled Burst: -2.48
-Unbeatable strategy for Cesar: Fueled Grasp: -2.63
-Unbeatable strategy for Cesar: Fueled Dash: -1.76
-Unbeatable strategy for Cesar: Bulwark Strike: -1.95
-Unbeatable strategy for Cesar: Bulwark Shot: -2.21
-Unbeatable strategy for Cesar: Bulwark Burst: -1.43
-Unbeatable strategy for Cesar: Bulwark Grasp: -2.04
-Unbeatable strategy for Cesar: Bulwark Dash: -1.67
+Unbeatable strategy for Cesar: Phalanx Suppression: -0.86
+Unbeatable strategy for Cesar: Phalanx Burst: -1.16
+Unbeatable strategy for Cesar: Unstoppable Suppression: -0.72
+Unbeatable strategy for Cesar: Unstoppable Drive: -0.77
+Unbeatable strategy for Cesar: Unstoppable Burst: -1.34
+Unbeatable strategy for Cesar: Unstoppable Grasp: -0.64
+Unbeatable strategy for Cesar: Unstoppable Dash: -0.17
+Unbeatable strategy for Cesar: Fueled Suppression: -0.87
+Unbeatable strategy for Cesar: Fueled Drive: -0.01
+Unbeatable strategy for Cesar: Fueled Burst: -0.59
+Unbeatable strategy for Cesar: Fueled Grasp: -1.57
 
 
 Borneo:
-59% Clumsy Claw
-41% Clumsy Scene Shift
+93% Clumsy Hex
+7% Clumsy Knuckle
 
 Cesar:
-39% Fueled Shot
-61% Fueled Grasp
+41% Phalanx Drive
+59% Fueled Burst
 
 
-Borneo: Clumsy Scene Shift
-Cesar: Fueled Grasp
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  4 | 4
-Clash!
-
-
-Borneo: Clumsy Claw
-Cesar: Fueled Shot
+Borneo: Clumsy Hex
+Cesar: Fueled Burst
 
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Priorities:  4 | 1
+Priorities:  3 | 1
 Borneo is active
 Cesar gains a Threat Level (current level: 0)
-Borneo moves:
+Cesar moves:
 
-.CB....
+C..B...
 
 Borneo hits
 Cesar has 2 soak
-Cesar takes 2 damage (now at 16 life)
+Cesar takes 2 damage (now at 17 life)
 
 Beat 5
 -------
 
 Borneo
 ------
-Life: 14
-Discard 1: Clumsy Claw
-Discard 2: Slippery Hex
+Life: 20
+Discard 1: Clumsy Hex
+Discard 2: Slippery Divider
 Special action available
 
 Cesar
 -----
-Life: 16
-Discard 1: Fueled Shot
-Discard 2: Unstoppable Drive
+Life: 17
+Discard 1: Fueled Burst
+Discard 2: Bulwark Strike
 Special action available
 Threat level: 0
 
 
-.CB....
+C..B...
 
 
 Borneo:
-10% Weaksauce Knuckle
-24% Weaksauce Scene Shift
-65% Pathetic Knuckle
-1% Pathetic Scene Shift
+14% Weaksauce Scene Shift
+60% Pathetic Claw
+26% Pathetic Knuckle
 
 Cesar:
-7% Bulwark Strike
-33% Bulwark Grasp
-30% Bulwark Dash
-12% Inevitable Grasp
-18% Inevitable Dash
+34% Unstoppable Suppression
+17% Unstoppable Dash
+49% Inevitable Drive
 
 
-Borneo: Pathetic Knuckle
-Cesar: Bulwark Dash
+Borneo: Weaksauce Scene Shift
+Cesar: Unstoppable Suppression
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  5 | 7
-Cesar is active
+Priorities:  5 | 0
+Borneo is active
+Borneo moves:
+
+C...B..
+
 Cesar moves:
 
-C.B....
-
-Cesar moves:
-
-..BC...
+.C..B..
 
 Borneo misses
+Borneo moves:
+
+.C....B
+
+Cesar moves:
+
+..C...B
+
+Cesar misses
+Cesar moves:
+
+C.....B
+
 
 Beat 6
 -------
 
 Borneo
 ------
-Life: 14
-Discard 1: Pathetic Knuckle
-Discard 2: Clumsy Claw
+Life: 20
+Discard 1: Weaksauce Scene Shift
+Discard 2: Clumsy Hex
 Special action available
 
 Cesar
 -----
-Life: 16
-Discard 1: Bulwark Dash
-Discard 2: Fueled Shot
+Life: 17
+Discard 1: Unstoppable Suppression
+Discard 2: Fueled Burst
 Special action available
 Threat level: 1
 
 
-..BC...
+C.....B
+
+Unbeatable strategy for Borneo: Petulant Master Plan: 1.77
 
 
 Borneo:
-3% Weaksauce Divider
-11% Weaksauce Hex
-40% Petulant Divider
-39% Slippery Divider
-3% Slippery Hex
-5% Slippery Scene Shift
+66% Pathetic Claw
+29% Petulant Master Plan
+6% Slippery Claw
 
 Cesar:
-14% Phalanx Suppression
-9% Phalanx Drive
-14% Unstoppable Strike
-41% Unstoppable Drive
-14% Inevitable Suppression
-8% Inevitable Strike
+75% Bulwark Grasp
+8% Inevitable Shot
+17% Inevitable Drive
 
 
-Borneo: Petulant Divider
-Cesar: Unstoppable Drive
+Borneo: Petulant Master Plan
+Cesar: Bulwark Grasp
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  0 | 2
+Priorities:  -2 | 3
 Cesar is active
-Cesar moves:
-
-C.B....
-
 Cesar misses
 Borneo misses
-Opponent will have +1 power and +1 priority next beat
 
 Beat 7
 -------
 
 Borneo
 ------
-Life: 14
-Discard 1: Petulant Divider
-Discard 2: Pathetic Knuckle
+Life: 20
+Discard 1: Petulant Master Plan
+Discard 2: Weaksauce Scene Shift
 Special action available
-Opponent has +1 power and +1 priority
 
 Cesar
 -----
-Life: 16
-Discard 1: Unstoppable Drive
-Discard 2: Bulwark Dash
+Life: 17
+Discard 1: Bulwark Grasp
+Discard 2: Unstoppable Suppression
 Special action available
 Threat level: 2
 
 
-C.B....
+C.....B
 
 
 Borneo:
-11% Weaksauce Hex
-36% Weaksauce Scene Shift
-17% Clumsy Claw
-35% Clumsy Hex
+54% Clumsy Hex
+46% Clumsy Smoke
 
 Cesar:
-22% Phalanx Strike
-4% Phalanx Shot
-8% Phalanx Grasp
-66% Fueled Suppression
+46% Fueled Strike
+54% Fueled Drive
 
 
-Borneo: Weaksauce Hex
-Cesar: Phalanx Strike
+Borneo: Clumsy Smoke
+Cesar: Fueled Drive
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  4 | 2
+Priorities:  3 | 3
+Clash!
+
+
+Borneo: Clumsy Hex
+Cesar: Fueled Strike
+
+Cesar gains a Threat Level (current level: 3)
+Priorities:  3 | 2
 Borneo is active
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
 Borneo hits
 Borneo moves Cesar:
 
-.CB....
+.C....B
 
-Cesar takes 1 damage (now at 15 life)
-Borneo moves:
-
-.C..B..
-
-Cesar misses
+Cesar takes 4 damage (now at 13 life)
 
 Beat 8
 -------
 
 Borneo
 ------
-Life: 14
-Discard 1: Weaksauce Hex
-Discard 2: Petulant Divider
+Life: 20
+Discard 1: Clumsy Hex
+Discard 2: Petulant Master Plan
 Special action available
 
 Cesar
 -----
-Life: 15
-Discard 1: Phalanx Strike
-Discard 2: Unstoppable Drive
+Life: 13
+Discard 1: Fueled Strike
+Discard 2: Bulwark Grasp
 Special action available
-Threat level: 3
+Threat level: 4
 
 
-.C..B..
-
-Unbeatable strategy for Cesar: Fueled Suppression: -3.23
-Unbeatable strategy for Cesar: Fueled Shot: -2.37
-Unbeatable strategy for Cesar: Fueled Burst: -2.63
-Unbeatable strategy for Cesar: Fueled Grasp: -2.75
-Unbeatable strategy for Cesar: Fueled Dash: -1.92
-Unbeatable strategy for Cesar: Bulwark Suppression: -2.82
-Unbeatable strategy for Cesar: Bulwark Shot: -2.59
-Unbeatable strategy for Cesar: Bulwark Burst: -1.08
-Unbeatable strategy for Cesar: Bulwark Grasp: -2.90
-Unbeatable strategy for Cesar: Bulwark Dash: -2.12
-Unbeatable strategy for Cesar: Inevitable Suppression: -2.82
-Unbeatable strategy for Cesar: Inevitable Shot: -2.59
-Unbeatable strategy for Cesar: Inevitable Burst: -1.08
-Unbeatable strategy for Cesar: Inevitable Grasp: -2.93
-Unbeatable strategy for Cesar: Inevitable Dash: -2.12
+.C....B
 
 
 Borneo:
-50% Clumsy Claw
-50% Clumsy Scene Shift
+26% Weaksauce Knuckle
+21% Pathetic Claw
+18% Pathetic Scene Shift
+35% Slippery Claw
 
 Cesar:
-50% Fueled Suppression
-50% Fueled Grasp
+16% Phalanx Shot
+41% Inevitable Suppression
+29% Inevitable Drive
+14% Inevitable Burst
 
 
-Borneo: Clumsy Claw
-Cesar: Fueled Suppression
+Borneo: Slippery Claw
+Cesar: Inevitable Burst
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
+Cesar gains a Threat Level (current level: 0)
 Priorities:  4 | 1
 Borneo is active
-Cesar gains a Threat Level (current level: 0)
-Borneo moves:
-
-.CB....
-
-Borneo hits
-Cesar has 2 soak
-Cesar takes 2 damage (now at 13 life)
 Cesar moves:
 
-..BC...
+C.....B
 
+Borneo moves:
+
+C....B.
+
+Borneo moves:
+
+C...B..
+
+Borneo misses
+Cesar misses
 
 Beat 9
 -------
 
 Borneo
 ------
-Life: 14
-Discard 1: Clumsy Claw
-Discard 2: Weaksauce Hex
+Life: 20
+Discard 1: Slippery Claw
+Discard 2: Clumsy Hex
 Special action available
 
 Cesar
 -----
 Life: 13
-Discard 1: Fueled Suppression
-Discard 2: Phalanx Strike
+Discard 1: Inevitable Burst
+Discard 2: Fueled Strike
 Special action available
 Threat level: 0
 
 
-..BC...
+C...B..
+
+Unbeatable strategy for Borneo: Pathetic Scene Shift: 0.14
 
 
 Borneo:
-80% Pathetic Knuckle
-4% Pathetic Scene Shift
-15% Slippery Knuckle
+20% Weaksauce Master Plan
+50% Pathetic Scene Shift
+30% Petulant Scene Shift
 
 Cesar:
-89% Bulwark Dash
-3% Inevitable Shot
-8% Inevitable Grasp
+10% Unstoppable Shot
+71% Bulwark Suppression
+18% Bulwark Shot
 
 
-Borneo: Pathetic Knuckle
-Cesar: Bulwark Dash
+Borneo: Pathetic Scene Shift
+Cesar: Bulwark Shot
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  5 | 7
-Cesar is active
-Cesar moves:
+Priorities:  4 | 0
+Borneo is active
+Borneo moves:
 
-..B...C
+C....B.
 
 Borneo misses
+Cesar misses
 
 Beat 10
 -------
 
 Borneo
 ------
-Life: 14
-Discard 1: Pathetic Knuckle
-Discard 2: Clumsy Claw
+Life: 20
+Discard 1: Pathetic Scene Shift
+Discard 2: Slippery Claw
 Special action available
 
 Cesar
 -----
 Life: 13
-Discard 1: Bulwark Dash
-Discard 2: Fueled Suppression
+Discard 1: Bulwark Shot
+Discard 2: Inevitable Burst
 Special action available
 Threat level: 1
 
 
-..B...C
+C....B.
+
+Unbeatable strategy for Borneo: Weaksauce Knuckle: 2.11
+Unbeatable strategy for Borneo: Petulant Master Plan: 1.11
 
 
 Borneo:
-38% Weaksauce Hex
-42% Petulant Divider
-3% Petulant Scene Shift
-17% Slippery Divider
+22% Weaksauce Hex
+3% Clumsy Hex
+50% Clumsy Master Plan
+14% Clumsy Smoke
+11% Petulant Hex
 
 Cesar:
-11% Phalanx Drive
-17% Phalanx Burst
-50% Unstoppable Shot
-22% Inevitable Shot
+2% Phalanx Strike
+23% Unstoppable Suppression
+12% Unstoppable Strike
+55% Unstoppable Grasp
+8% Fueled Drive
 
 
-Borneo: Weaksauce Hex
-Cesar: Unstoppable Shot
+Borneo: Clumsy Smoke
+Cesar: Unstoppable Suppression
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  4 | 0
+Priorities:  3 | 0
 Borneo is active
-Borneo hits
-Cesar takes 1 damage (now at 12 life)
-Borneo moves:
-
-B.....C
-
-Cesar moves:
-
-B...C..
-
-Cesar hits
-Borneo takes 5 damage (now at 9 life)
-Borneo is stunned
+Borneo misses
+Cesar misses
 
 Beat 11
 -------
 
 Borneo
 ------
-Life: 9
-Discard 1: Weaksauce Hex
-Discard 2: Pathetic Knuckle
+Life: 20
+Discard 1: Clumsy Smoke
+Discard 2: Pathetic Scene Shift
 Special action available
 
 Cesar
 -----
-Life: 12
-Discard 1: Unstoppable Shot
-Discard 2: Bulwark Dash
+Life: 13
+Discard 1: Unstoppable Suppression
+Discard 2: Bulwark Shot
 Special action available
 Threat level: 2
 
 
-B...C..
+C....B.
 
 
 Borneo:
-6% Clumsy Claw
-64% Petulant Claw
-28% Petulant Master Plan
-2% Petulant Smoke
+2% Petulant Claw
+98% Petulant Hex
 
 Cesar:
-54% Fueled Suppression
-0% Fueled Strike
-29% Fueled Burst
-16% Fueled Grasp
+98% Fueled Strike
+2% Fueled Grasp
 
 
-Borneo: Petulant Claw
-Cesar: Fueled Suppression
+Borneo: Petulant Hex
+Cesar: Fueled Strike
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  2 | 1
-Borneo is active
+Priorities:  1 | 2
+Cesar is active
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Borneo moves:
-
-..B.C..
-
 Borneo hits
-Cesar takes 3 damage (now at 9 life)
-Cesar is stunned
-Cesar moves:
+Borneo moves Cesar:
 
-..B...C
+.C...B.
 
+Cesar takes 3 damage (now at 10 life)
 
 Beat 12
 -------
 
 Borneo
 ------
-Life: 9
-Discard 1: Petulant Claw
-Discard 2: Weaksauce Hex
+Life: 20
+Discard 1: Petulant Hex
+Discard 2: Clumsy Smoke
 Special action available
 
 Cesar
 -----
-Life: 9
-Discard 1: Fueled Suppression
-Discard 2: Unstoppable Shot
+Life: 10
+Discard 1: Fueled Strike
+Discard 2: Unstoppable Suppression
 Special action available
 Threat level: 4
 
 
-..B...C
+.C...B.
 
 
 Borneo:
-16% Clumsy Smoke
-20% Pathetic Scene Shift
-65% Slippery Scene Shift
+22% Weaksauce Knuckle
+28% Weaksauce Master Plan
+21% Pathetic Claw
+29% Pathetic Scene Shift
 
 Cesar:
-7% Bulwark Burst
-93% Bulwark Grasp
+3% Bulwark Shot
+71% Bulwark Dash
+1% Inevitable Shot
+25% Inevitable Burst
 
 
-Borneo: Clumsy Smoke
-Cesar: Bulwark Grasp
-
-Cesar gains a Threat Level (current level: 0)
-Priorities:  3 | 3
-Clash!
-
-
-Borneo: Clumsy Master Plan
-Cesar: Bulwark Burst
+Borneo: Pathetic Scene Shift
+Cesar: Bulwark Dash
 
 Cesar gains a Threat Level (current level: 0)
-Priorities:  0 | -1
-Borneo is active
+Priorities:  4 | 7
+Cesar is active
+Cesar moves:
+
+C....B.
+
+Borneo moves:
+
+C..B...
+
 Borneo misses
-Cesar misses
 
 Beat 13
 -------
 
 Borneo
 ------
-Life: 9
-Discard 1: Clumsy Master Plan
-Discard 2: Petulant Claw
+Life: 20
+Discard 1: Pathetic Scene Shift
+Discard 2: Petulant Hex
 Special action available
 
 Cesar
 -----
-Life: 9
-Discard 1: Bulwark Burst
-Discard 2: Fueled Suppression
+Life: 10
+Discard 1: Bulwark Dash
+Discard 2: Fueled Strike
 Special action available
 Threat level: 0
 
 
-..B...C
+C..B...
+
+Unbeatable strategy for Cesar: Phalanx Shot: -1.40
+Unbeatable strategy for Cesar: Unstoppable Shot: -0.81
+Unbeatable strategy for Cesar: Inevitable Drive: -0.17
 
 
 Borneo:
-16% Weaksauce Hex
-84% Pathetic Smoke
+28% Weaksauce Divider
+5% Clumsy Claw
+21% Clumsy Divider
+14% Clumsy Master Plan
+32% Slippery Divider
 
 Cesar:
-35% Unstoppable Shot
-65% Unstoppable Grasp
+53% Phalanx Shot
+10% Unstoppable Shot
+18% Unstoppable Drive
+3% Inevitable Suppression
+16% Inevitable Shot
 
 
-Borneo: Pathetic Smoke
+Borneo: Slippery Divider
 Cesar: Unstoppable Shot
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  3 | 0
+Priorities:  2 | 0
 Borneo is active
+Borneo moves:
+
+C.B....
+
+Cesar moves:
+
+..BC...
+
 Borneo hits
-Cesar takes 1 damage (now at 8 life)
-Cesar is stunned
+Cesar takes 3 damage (now at 7 life)
+Cesar hits
+Borneo has 2 soak
+Borneo takes 2 damage (now at 18 life)
+Opponent will have +1 power and +1 priority next beat
 
 Beat 14
 -------
 
 Borneo
 ------
-Life: 9
-Discard 1: Pathetic Smoke
-Discard 2: Clumsy Master Plan
+Life: 18
+Discard 1: Slippery Divider
+Discard 2: Pathetic Scene Shift
 Special action available
+Opponent has +1 power and +1 priority
 
 Cesar
 -----
-Life: 8
+Life: 7
 Discard 1: Unstoppable Shot
-Discard 2: Bulwark Burst
+Discard 2: Bulwark Dash
 Special action available
 Threat level: 1
 
 
-..B...C
+..BC...
 
-Unbeatable strategy for Borneo: Weaksauce Knuckle: 0.73
+Unbeatable strategy for Cesar: Inevitable Drive: -1.02
+Unbeatable strategy for Cesar: Inevitable Grasp: -2.66
 
 
 Borneo:
-74% Weaksauce Knuckle
-15% Petulant Claw
-10% Petulant Scene Shift
-1% Slippery Hex
+5% Weaksauce Claw
+6% Weaksauce Knuckle
+15% Weaksauce Master Plan
+74% Special Pulse
 
 Cesar:
-58% Phalanx Suppression
-10% Fueled Drive
-28% Inevitable Suppression
-5% Inevitable Grasp
+3% Fueled Suppression
+14% Fueled Strike
+39% Inevitable Drive
+45% Inevitable Grasp
 
 
-Borneo: Weaksauce Knuckle
-Cesar: Inevitable Suppression
+Borneo: Special Pulse
+Cesar: Inevitable Grasp
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  6 | 2
-Borneo is active
-Borneo misses
-Borneo moves:
+Borneo Pulses:
 
-B.....C
+C..B...
 
-Cesar misses
 
-Beat 15
+Beat 14
 -------
 
 Borneo
 ------
-Life: 9
-Discard 1: Weaksauce Knuckle
-Discard 2: Pathetic Smoke
-Special action available
+Life: 18
+Discard 1: Slippery Divider
+Discard 2: Pathetic Scene Shift
 
 Cesar
 -----
-Life: 8
-Discard 1: Inevitable Suppression
+Life: 7
+Discard 1: Inevitable Grasp
 Discard 2: Unstoppable Shot
 Special action available
 Threat level: 2
 
 
-B.....C
-
-Unbeatable strategy for Borneo: Petulant Master Plan: 13.00
+C..B...
 
 
 Borneo:
-100% Petulant Claw
+16% Weaksauce Master Plan
+59% Clumsy Claw
+24% Clumsy Hex
+1% Petulant Smoke
 
 Cesar:
-100% Special Pulse
+26% Phalanx Strike
+5% Phalanx Drive
+1% Phalanx Burst
+68% Fueled Suppression
 
 
-Borneo: Petulant Claw
-Cesar: Special Pulse
+Borneo: Clumsy Hex
+Cesar: Fueled Suppression
 
 Cesar gains a Threat Level (current level: 3)
-Cesar Pulses:
+Priorities:  3 | 1
+Borneo is active
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Borneo misses
+Cesar moves:
 
-.BC....
+..CB...
 
 
 Beat 15
@@ -815,76 +790,131 @@ Beat 15
 
 Borneo
 ------
-Life: 9
-Discard 1: Petulant Claw
-Discard 2: Weaksauce Knuckle
-Special action available
+Life: 18
+Discard 1: Clumsy Hex
+Discard 2: Slippery Divider
 
 Cesar
 -----
-Life: 8
-Discard 1: Inevitable Suppression
-Discard 2: Unstoppable Shot
-Threat level: 3
+Life: 7
+Discard 1: Fueled Suppression
+Discard 2: Inevitable Grasp
+Special action available
+Threat level: 4
 
 
-.BC....
+..CB...
+
+Unbeatable strategy for Borneo: Weaksauce Claw: 12.00
+Unbeatable strategy for Borneo: Weaksauce Knuckle: 12.00
+Unbeatable strategy for Borneo: Weaksauce Scene Shift: 12.00
+Unbeatable strategy for Borneo: Weaksauce Smoke: 12.00
+Unbeatable strategy for Borneo: Pathetic Claw: 12.00
+Unbeatable strategy for Borneo: Pathetic Knuckle: 12.00
+Unbeatable strategy for Borneo: Pathetic Scene Shift: 12.00
+Unbeatable strategy for Borneo: Pathetic Smoke: 12.00
+Unbeatable strategy for Borneo: Petulant Knuckle: 12.00
+Unbeatable strategy for Borneo: Petulant Master Plan: 12.00
 
 
 Borneo:
-7% Clumsy Divider
-7% Clumsy Hex
-7% Clumsy Master Plan
-7% Clumsy Scene Shift
-7% Clumsy Smoke
+100% Weaksauce Master Plan
+
+Cesar:
+100% Special Pulse
+
+
+Borneo: Weaksauce Master Plan
+Cesar: Special Pulse
+
+Cesar gains a Threat Level (current level: 0)
+Cesar Pulses:
+
+.B....C
+
+
+Beat 15
+-------
+
+Borneo
+------
+Life: 18
+Discard 1: Weaksauce Master Plan
+Discard 2: Clumsy Hex
+
+Cesar
+-----
+Life: 7
+Discard 1: Fueled Suppression
+Discard 2: Inevitable Grasp
+Threat level: 0
+
+
+.B....C
+
+Unbeatable strategy for Borneo: Pathetic Claw: 12.00
+Unbeatable strategy for Borneo: Pathetic Knuckle: 12.00
+Unbeatable strategy for Borneo: Pathetic Scene Shift: 12.00
+Unbeatable strategy for Borneo: Pathetic Smoke: 12.00
+Unbeatable strategy for Borneo: Petulant Knuckle: 12.00
+Unbeatable strategy for Borneo: Slippery Claw: 12.00
+Unbeatable strategy for Borneo: Slippery Knuckle: 12.00
+Unbeatable strategy for Borneo: Slippery Scene Shift: 12.00
+Unbeatable strategy for Borneo: Slippery Smoke: 12.00
+
+
+Borneo:
+7% Pathetic Claw
 7% Pathetic Divider
-7% Pathetic Hex
-7% Pathetic Master Plan
+7% Pathetic Knuckle
 7% Pathetic Scene Shift
 7% Pathetic Smoke
+7% Petulant Claw
+7% Petulant Divider
+7% Petulant Knuckle
+7% Petulant Scene Shift
+7% Petulant Smoke
+7% Slippery Claw
 7% Slippery Divider
-7% Slippery Hex
-7% Slippery Master Plan
+7% Slippery Knuckle
 7% Slippery Scene Shift
 7% Slippery Smoke
 
 Cesar:
-8% Phalanx Strike
-6% Phalanx Drive
-9% Phalanx Burst
-5% Phalanx Grasp
-9% Phalanx Dash
-6% Fueled Strike
-4% Fueled Drive
-6% Fueled Burst
-6% Fueled Grasp
-8% Fueled Dash
+7% Phalanx Strike
+7% Phalanx Shot
+7% Phalanx Drive
+7% Phalanx Burst
+7% Phalanx Dash
+7% Unstoppable Strike
+7% Unstoppable Shot
+7% Unstoppable Drive
+7% Unstoppable Burst
+7% Unstoppable Dash
 7% Bulwark Strike
-6% Bulwark Drive
-8% Bulwark Burst
-5% Bulwark Grasp
-8% Bulwark Dash
+7% Bulwark Shot
+7% Bulwark Drive
+7% Bulwark Burst
+7% Bulwark Dash
 
 
-Borneo: Slippery Scene Shift
-Cesar: Fueled Burst
+Borneo: Pathetic Scene Shift
+Cesar: Unstoppable Dash
 
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Priorities:  4 | 0
-Borneo is active
-Cesar gains a Threat Level (current level: 0)
+Cesar gains a Threat Level (current level: 1)
+Priorities:  4 | 7
+Cesar is active
 Cesar moves:
 
 .B.C...
 
 Borneo moves:
 
-..BC...
-
-Borneo moves:
-
 B..C...
+
+Cesar moves:
+
+BC.....
 
 Borneo misses
 Game goes to time

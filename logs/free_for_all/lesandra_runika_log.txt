@@ -24,10 +24,10 @@ Discard 1: Channeled Grasp
 Discard 2: Impact Strike
 Special action available
 Active artifacts: 
+  Autodeflector
+  Shield Amulet
   Hover Boots
   Phase Goggles
-  Shield Amulet
-  Autodeflector
   Battlefist
 
 
@@ -35,35 +35,41 @@ Active artifacts:
 
 
 Lesandra:
-74% Binding Burst
-26% Window Strike
+66% Binding Burst
+34% Window Strike
 
 Runika:
-56% Overcharged Shot
-44% Overcharged Drive
+72% Overcharged Shot
+28% Overcharged Drive
 
 
 Lesandra: Window Strike
-Runika: Overcharged Drive
+Runika: Overcharged Shot
 
-Priorities:  4 | 6
-Runika is active
-Runika overcharges her Battlefist
-Runika moves:
+Priorities:  4 | 4
+Lesandra is active
+Runika overcharges her Autodeflector
+Lesandra hits
+Lesandra banishes her Borneo
+Lesandra moves Runika:
 
-.L.R...
+.L..R..
 
+Battlefist is de-activated
+Runika has 4 soak
+Runika takes 0 damage (now at 20 life)
 Runika hits
-Lesandra takes 6 damage (now at 14 life)
-Lesandra is stunned
-Battlefist is removed from the game
+Lesandra takes 3 damage (now at 17 life)
+Lesandra summons her Borneo
+Lesandra loses 1 life (now at 16)
+Autodeflector is removed from the game
 
 Beat 2
 -------
 
 Lesandra
 --------
-Life: 14
+Life: 16
 Discard 1: Window Strike
 Discard 2: Guardian Summons
 Special action available
@@ -72,56 +78,57 @@ Familiar: Borneo
 Runika
 ------
 Life: 20
-Discard 1: Overcharged Drive
+Discard 1: Overcharged Shot
 Discard 2: Channeled Grasp
 Special action available
 Active artifacts: 
-  Hover Boots
   Phase Goggles
-  Autodeflector
+  Hover Boots
   Shield Amulet
 Removed artifacts: 
-  Battlefist
+  Autodeflector
 
 
-.L.R...
+.L..R..
+
+Unbeatable strategy for Lesandra: Binding Shot: 0.48
+Unbeatable strategy for Lesandra: Binding Shot (Borneo): 0.13
 
 
 Lesandra:
-39% Binding Shot
-32% Binding Burst
-29% Binding Dash
+26% Binding Shot
+11% Binding Burst
+63% Binding Dash
 
 Runika:
-10% Explosive Strike
-17% Explosive Shot
-73% Explosive Dash
+11% Explosive Tinker
+2% Explosive Drive
+87% Explosive Dash
 
 
-Lesandra: Binding Burst
+Lesandra: Binding Dash
 Runika: Explosive Dash
 
-Priorities:  -1 | 11
+Priorities:  7 | 11
 Runika is active
+Runika moves:
+
+.L.R...
+
+Runika loses 1 life (now at 19)
+Runika gets -1 power
 Lesandra moves:
 
 L..R...
 
-Runika moves:
-
-LR.....
-
-Runika loses 1 life (now at 19)
-Runika gets -1 power
-Lesandra misses
 
 Beat 3
 -------
 
 Lesandra
 --------
-Life: 14
-Discard 1: Binding Burst
+Life: 16
+Discard 1: Binding Dash
 Discard 2: Window Strike
 Special action available
 Familiar: Borneo
@@ -130,223 +137,281 @@ Runika
 ------
 Life: 19
 Discard 1: Explosive Dash
-Discard 2: Overcharged Drive
+Discard 2: Overcharged Shot
 Special action available
 Active artifacts: 
-  Hover Boots
   Phase Goggles
-  Autodeflector
+  Hover Boots
   Shield Amulet
 Removed artifacts: 
-  Battlefist
+  Autodeflector
 
 
-LR.....
+L..R...
+
+Unbeatable strategy for Runika: Channeled Drive: -0.51
 
 
 Lesandra:
-21% Guardian Summons
-25% Guardian Shot
-44% Guardian Dash
-10% Guardian Dash (Borneo)
+31% Invocation Burst
+69% Guardian Summons
 
 Runika:
-51% Channeled Strike
-26% Maintenance Strike
-4% Impact Strike
-19% Impact Grasp
+23% Channeled Strike
+77% Channeled Drive
 
 
-Lesandra: Guardian Dash
-Runika: Impact Grasp
+Lesandra: Guardian Summons
+Runika: Channeled Drive
 
-Priorities:  8 | 7
-Lesandra is active
-Lesandra moves:
+Priorities:  1 | 7
+Runika is active
+Battlefist is activated
+Lesandra moves Runika:
 
-.R..L..
+LR.....
 
-Runika moves:
-
-..R.L..
-
-Runika misses
+Runika hits
+Lesandra takes 5 damage (now at 11 life)
+Lesandra hits
+Battlefist is de-activated
+Runika takes 3 damage (now at 16 life)
+Phase Goggles is de-activated
+Lesandra summons her Raven Knight
 
 Beat 4
 -------
 
 Lesandra
 --------
-Life: 14
-Discard 1: Guardian Dash
-Discard 2: Binding Burst
+Life: 11
+Discard 1: Guardian Summons
+Discard 2: Binding Dash
 Special action available
-Familiar: Borneo
+Familiar: Raven Knight
 
 Runika
 ------
-Life: 19
-Discard 1: Impact Grasp
+Life: 16
+Discard 1: Channeled Drive
 Discard 2: Explosive Dash
 Special action available
 Active artifacts: 
-  Hover Boots
-  Phase Goggles
-  Autodeflector
   Shield Amulet
+  Hover Boots
 Removed artifacts: 
-  Battlefist
+  Autodeflector
 
 
-..R.L..
+LR.....
 
 
 Lesandra:
-71% Invocation Summons
-13% Invocation Strike
-16% Window Strike
+32% Invocation Strike
+7% Invocation Drive (Raven Knight)
+29% Pactbreaker Strike (Raven Knight)
+32% Window Strike
 
 Runika:
-2% Channeled Strike
-14% Channeled Drive
-84% Overcharged Strike
+41% Maintenance Strike
+25% Maintenance Burst
+8% Impact Strike
+26% Overcharged Tinker
 
 
-Lesandra: Invocation Summons
-Runika: Overcharged Strike
+Lesandra: Pactbreaker Strike (Raven Knight)
+Runika: Maintenance Burst
 
-Priorities:  0 | 5
-Runika is active
-Runika overcharges her Phase Goggles
+Priorities:  8 | 2
+Lesandra is active
+Runika moves:
+
+L..R...
+
+Lesandra misses
 Runika hits
-Lesandra banishes her Borneo for Soak 2
-Lesandra has 2 soak
-Lesandra takes 2 damage (now at 12 life)
-Lesandra is stunned
-Lesandra gets -2 power
-Phase Goggles is removed from the game
+Lesandra takes 2 damage (now at 9 life)
+Runika moves:
+
+L....R.
+
 Lesandra summons her Borneo
-Lesandra loses 1 life (now at 11)
+Lesandra loses 1 life (now at 8)
 
 Beat 5
 -------
 
 Lesandra
 --------
-Life: 11
-Discard 1: Invocation Summons
-Discard 2: Guardian Dash
+Life: 8
+Discard 1: Pactbreaker Strike
+Discard 2: Guardian Summons
 Special action available
 Familiar: Borneo
 
 Runika
 ------
-Life: 19
-Discard 1: Overcharged Strike
-Discard 2: Impact Grasp
+Life: 16
+Discard 1: Maintenance Burst
+Discard 2: Channeled Drive
 Special action available
 Active artifacts: 
-  Autodeflector
   Shield Amulet
   Hover Boots
 Removed artifacts: 
-  Phase Goggles
-  Battlefist
+  Autodeflector
 
 
-..R.L..
+L....R.
 
-Unbeatable strategy for Lesandra: Binding Strike: 0.19
-Unbeatable strategy for Lesandra: Binding Strike (Borneo): 1.19
-Unbeatable strategy for Lesandra: Binding Shot: 1.93
-Unbeatable strategy for Lesandra: Binding Shot (Borneo): 1.58
-Unbeatable strategy for Lesandra: Binding Burst (Borneo): 0.77
-Unbeatable strategy for Lesandra: Window Strike: 0.29
+Unbeatable strategy for Lesandra: Binding Shot: 2.86
+Unbeatable strategy for Lesandra: Binding Shot (Borneo): 3.16
+Unbeatable strategy for Lesandra: Window Drive: 0.26
 
 
 Lesandra:
-100% Binding Shot
+43% Invocation Shot
+57% Binding Shot
 
 Runika:
-100% Explosive Dash
+3% Impact Dash
+97% Special Pulse
 
 
 Lesandra: Binding Shot
-Runika: Explosive Dash
+Runika: Special Pulse
 
-Priorities:  0 | 11
-Runika is active
-Runika moves:
+Runika Pulses:
 
-....LR.
+RL.....
 
-Runika loses 1 life (now at 18)
-Runika gets -1 power
-Lesandra misses
+
+Beat 5
+-------
+
+Lesandra
+--------
+Life: 8
+Discard 1: Binding Shot
+Discard 2: Pactbreaker Strike
+Special action available
+Familiar: Borneo
+
+Runika
+------
+Life: 16
+Discard 1: Maintenance Burst
+Discard 2: Channeled Drive
+Active artifacts: 
+  Shield Amulet
+  Hover Boots
+Removed artifacts: 
+  Autodeflector
+
+
+RL.....
+
+Unbeatable strategy for Lesandra: Guardian Summons: 1.34
+Unbeatable strategy for Lesandra: Guardian Burst: 1.24
+Unbeatable strategy for Lesandra: Guardian Burst (Borneo): 1.51
+Unbeatable strategy for Lesandra: Window Burst: 0.26
+
+
+Lesandra:
+7% Guardian Summons
+1% Guardian Summons (Borneo)
+31% Guardian Burst (Borneo)
+56% Guardian Dash (Borneo)
+5% Window Drive (Borneo)
+
+Runika:
+2% Explosive Tinker
+12% Explosive Shot
+8% Impact Tinker
+70% Impact Dash
+8% Overcharged Shot
+
+
+Lesandra: Guardian Dash (Borneo)
+Runika: Explosive Shot
+
+Priorities:  8 | 4
+Lesandra is active
+Lesandra moves:
+
+R...L..
+
+Runika hits
+Shield Amulet is de-activated
+Runika gets +2 power
+Lesandra takes 4 damage (now at 4 life)
+Lesandra is stunned
+Lesandra summons her Wyvern
 
 Beat 6
 -------
 
 Lesandra
 --------
-Life: 11
-Discard 1: Binding Shot
-Discard 2: Invocation Summons
+Life: 4
+Discard 1: Guardian Dash
+Discard 2: Binding Shot
 Special action available
-Familiar: Borneo
+Familiar: Wyvern
 
 Runika
 ------
-Life: 18
-Discard 1: Explosive Dash
-Discard 2: Overcharged Strike
-Special action available
+Life: 16
+Discard 1: Explosive Shot
+Discard 2: Maintenance Burst
 Active artifacts: 
   Hover Boots
-  Autodeflector
-  Shield Amulet
 Removed artifacts: 
-  Phase Goggles
-  Battlefist
+  Autodeflector
 
 
-....LR.
+R...L..
 
-Unbeatable strategy for Lesandra: Window Strike: 3.28
+Unbeatable strategy for Lesandra: Invocation Burst (Wyvern): 4.11
+Unbeatable strategy for Lesandra: Pactbreaker Burst (Wyvern): 2.20
+Unbeatable strategy for Lesandra: Window Burst: 2.54
+Unbeatable strategy for Lesandra: Window Burst (Wyvern): 0.52
 
 
 Lesandra:
-38% Guardian Burst
-62% Window Strike
+2% Invocation Strike
+29% Invocation Burst
+57% Invocation Burst (Wyvern)
+13% Special Mazzaroth (Wyvern)
 
 Runika:
-14% Channeled Drive
-86% Maintenance Drive
+76% Channeled Tinker
+16% Channeled Drive
+6% Impact Drive
+2% Impact Dash
 
 
-Lesandra: Guardian Burst
-Runika: Maintenance Drive
+Lesandra: Invocation Burst (Wyvern)
+Runika: Channeled Tinker
 
-Priorities:  0 | 5
+Priorities:  -1 | 6
 Runika is active
+Battlefist is activated
 Lesandra moves:
 
-...L.R.
+R....L.
 
-Runika moves:
+Runika misses
+Phase Goggles is activated
+Lesandra moves:
 
-..RL...
-
-Runika hits
-Lesandra takes 2 damage (now at 9 life)
-Runika moves:
-
-.R.L...
+R.....L
 
 Lesandra hits
-Autodeflector is de-activated
-Runika has 1 soak
-Runika takes 3 damage (now at 15 life)
+Battlefist is de-activated
+Runika takes 5 damage (now at 11 life)
+Runika is stunned
+Hover Boots is de-activated
 Lesandra summons her Raven Knight
 
 Beat 7
@@ -354,154 +419,101 @@ Beat 7
 
 Lesandra
 --------
-Life: 9
-Discard 1: Guardian Burst
-Discard 2: Binding Shot
+Life: 4
+Discard 1: Invocation Burst
+Discard 2: Guardian Dash
 Special action available
 Familiar: Raven Knight
 
 Runika
 ------
-Life: 15
-Discard 1: Maintenance Drive
-Discard 2: Explosive Dash
-Special action available
+Life: 11
+Discard 1: Channeled Tinker
+Discard 2: Explosive Shot
 Active artifacts: 
-  Shield Amulet
-  Hover Boots
-Removed artifacts: 
-  Battlefist
   Phase Goggles
+Removed artifacts: 
+  Autodeflector
 
 
-.R.L...
+R.....L
+
+Unbeatable strategy for Lesandra: Pactbreaker Grasp: 0.03
 
 
 Lesandra:
-33% Invocation Strike
-31% Invocation Dash
-7% Pactbreaker Strike (Raven Knight)
-20% Pactbreaker Drive (Raven Knight)
-9% Window Strike
+2% Binding Shot
+98% Special Mazzaroth
 
 Runika:
-31% Channeled Shot
-10% Channeled Burst
-6% Impact Tinker
-39% Impact Grasp
-14% Overcharged Burst
+48% Maintenance Grasp
+52% Impact Dash
 
 
-Lesandra: Pactbreaker Strike (Raven Knight)
-Runika: Impact Grasp
+Lesandra: Special Mazzaroth
+Runika: Maintenance Grasp
 
-Priorities:  8 | 7
-Lesandra is active
-Lesandra hits
-Hover Boots is de-activated
-Runika takes 5 damage (now at 10 life)
-Runika is stunned
-Lesandra summons her Rune Knight
+Priorities:  1 | 4
+Runika is active
+Lesandra loses 3 life (now at 1)
+Runika misses
+Opponent will be eliminated at end of next beat
+Runika loses 1 life (now at 10)
 
 Beat 8
 -------
 
 Lesandra
 --------
-Life: 9
-Discard 1: Pactbreaker Strike
-Discard 2: Guardian Burst
-Special action available
-Familiar: Rune Knight
+Life: 1
+Discard 1: Invocation Burst
+Discard 2: Guardian Dash
+Opponent will be eliminated at end of beat
+Familiar: Raven Knight
 
 Runika
 ------
 Life: 10
-Discard 1: Impact Grasp
-Discard 2: Maintenance Drive
-Special action available
+Discard 1: Maintenance Grasp
+Discard 2: Channeled Tinker
 Active artifacts: 
-  Shield Amulet
-Removed artifacts: 
-  Battlefist
   Phase Goggles
+Removed artifacts: 
+  Autodeflector
 
 
-.R.L...
+R.....L
+
+Unbeatable strategy for Lesandra: Window Drive: 15.00
 
 
 Lesandra:
-14% Invocation Grasp
-35% Binding Shot
-14% Binding Grasp
-26% Binding Dash
-9% Window Grasp
+45% Window Shot
+55% Window Drive
 
 Runika:
-32% Channeled Tinker
-15% Channeled Shot
-34% Channeled Dash
-17% Explosive Tinker
-1% Explosive Shot
+5% Explosive Strike
+4% Explosive Shot
+4% Explosive Drive
+4% Explosive Burst
+17% Explosive Dash
+5% Impact Strike
+5% Impact Shot
+5% Impact Drive
+4% Impact Burst
+14% Impact Dash
+5% Overcharged Strike
+4% Overcharged Shot
+4% Overcharged Drive
+6% Overcharged Burst
+14% Overcharged Dash
 
 
-Lesandra: Binding Grasp
-Runika: Channeled Shot
+Lesandra: Window Shot
+Runika: Explosive Strike
 
 Priorities:  3 | 3
 Clash!
-
-
-Lesandra: Binding Shot
-Runika: Channeled Tinker
-
-Priorities:  0 | 4
-Runika is active
-Hover Boots is activated
-Runika misses
-Autodeflector is activated
-Lesandra hits
-Hover Boots is de-activated
-Runika has 2 soak
-Runika takes 1 damage (now at 9 life)
-Shield Amulet is de-activated
-
-Beat 9
--------
-
-Lesandra
---------
-Life: 9
-Discard 1: Binding Shot
-Discard 2: Pactbreaker Strike
-Special action available
-Familiar: Rune Knight
-
-Runika
-------
-Life: 9
-Discard 1: Channeled Tinker
-Discard 2: Impact Grasp
-Special action available
-Active artifacts: 
-  Autodeflector
-Removed artifacts: 
-  Battlefist
-  Phase Goggles
-
-
-.R.L...
-
-
-Lesandra:
-38% Invocation Summons
-17% Invocation Burst
-45% Window Drive
-
-Runika:
-3% Explosive Strike
-10% Explosive Drive
-87% Explosive Dash
 
 
 Lesandra: Window Drive
@@ -509,359 +521,27 @@ Runika: Explosive Dash
 
 Priorities:  5 | 9
 Runika is active
+Runika moves Lesandra:
+
+R....L.
+
 Runika moves:
 
-...LR..
+.R...L.
 
 Lesandra moves:
 
-....R.L
+.R.L...
 
-Lesandra misses
-
-Beat 10
--------
-
-Lesandra
---------
-Life: 9
-Discard 1: Window Drive
-Discard 2: Binding Shot
-Special action available
-Familiar: Rune Knight
-
-Runika
-------
-Life: 9
-Discard 1: Explosive Dash
-Discard 2: Channeled Tinker
-Special action available
-Active artifacts: 
-  Autodeflector
-Removed artifacts: 
-  Battlefist
-  Phase Goggles
-
-
-....R.L
-
-
-Lesandra:
-25% Invocation Grasp
-29% Pactbreaker Grasp (Rune Knight)
-11% Guardian Strike (Rune Knight)
-36% Guardian Grasp
-
-Runika:
-63% Impact Strike
-6% Impact Drive
-25% Impact Burst
-6% Impact Grasp
-
-
-Lesandra: Guardian Grasp
-Runika: Impact Strike
-
-Priorities:  4 | 3
-Lesandra is active
 Lesandra hits
+Lesandra banishes her Raven Knight
 Lesandra moves Runika:
 
-...R..L
+..RL...
 
-Autodeflector is de-activated
-Runika takes 3 damage (now at 6 life)
-Runika moves:
-
-....R.L
-
-Runika misses
-
-Beat 11
--------
-
-Lesandra
---------
-Life: 9
-Discard 1: Guardian Grasp
-Discard 2: Window Drive
-Special action available
-Familiar: Rune Knight
-
-Runika
-------
-Life: 6
-Discard 1: Impact Strike
-Discard 2: Explosive Dash
-Special action available
-No active artifacts
-Removed artifacts: 
-  Battlefist
-  Phase Goggles
-
-
-....R.L
-
-
-Lesandra:
-8% Invocation Shot
-16% Pactbreaker Strike (Rune Knight)
-62% Binding Strike
-8% Binding Strike (Rune Knight)
-2% Binding Shot
-5% Special Pulse
-
-Runika:
-5% Channeled Tinker
-4% Channeled Shot
-15% Channeled Drive
-38% Maintenance Drive
-9% Overcharged Burst
-27% Special Artifice Avarice
-
-
-Lesandra: Binding Strike
-Runika: Maintenance Drive
-
-Priorities:  1 | 3
-Runika is active
-Runika moves:
-
-.....RL
-
-Runika loses 1 life (now at 5)
-Runika gets -1 power
-Runika hits
-Lesandra takes 1 damage (now at 8 life)
-Runika moves:
-
-....R.L
-
-Runika loses 1 life (now at 4)
-Runika gets -1 power
-Lesandra hits
-No artifacts to de-activate
-Runika has 3 soak
-Runika takes 1 damage (now at 3 life)
+Phase Goggles is de-activated
+Runika takes 3 damage (now at 7 life)
 Runika is stunned
-
-Beat 12
--------
-
-Lesandra
---------
-Life: 8
-Discard 1: Binding Strike
-Discard 2: Guardian Grasp
-Special action available
-Familiar: Rune Knight
-
-Runika
-------
-Life: 3
-Discard 1: Maintenance Drive
-Discard 2: Impact Strike
-Special action available
-No active artifacts
-Removed artifacts: 
-  Battlefist
-  Phase Goggles
-
-
-....R.L
-
-
-Lesandra:
-8% Window Shot
-16% Window Drive
-76% Special Pulse
-
-Runika:
-10% Channeled Tinker
-9% Explosive Grasp
-81% Explosive Dash
-
-
-Lesandra: Special Pulse
-Runika: Explosive Dash
-
-Pulse:
-
-L.....R
-
-
-Beat 12
--------
-
-Lesandra
---------
-Life: 8
-Discard 1: Binding Strike
-Discard 2: Guardian Grasp
-Familiar: Rune Knight
-
-Runika
-------
-Life: 3
-Discard 1: Explosive Dash
-Discard 2: Maintenance Drive
-Special action available
-No active artifacts
-Removed artifacts: 
-  Battlefist
-  Phase Goggles
-
-
-L.....R
-
-Unbeatable strategy for Lesandra: Invocation Shot: 8.00
-Unbeatable strategy for Lesandra: Invocation Shot (Rune Knight): 8.00
-Unbeatable strategy for Lesandra: Invocation Burst: 8.00
-Unbeatable strategy for Lesandra: Invocation Burst (Rune Knight): 8.00
-
-
-Lesandra:
-100% Invocation Burst
-
-Runika:
-100% Special Artifice Avarice
-
-
-Lesandra: Invocation Burst
-Runika: Special Artifice Avarice
-
-Priorities:  -1 | 3
-Runika is active
-Hover Boots is activated
-Shield Amulet is activated
-Autodeflector is activated
-Runika overcharges her Autodeflector
-Runika misses
-Lesandra hits
-Runika has 4 soak
-Runika takes 1 damage (now at 2 life)
-
-Beat 13
--------
-
-Lesandra
---------
-Life: 8
-Discard 1: Invocation Burst
-Discard 2: Binding Strike
-Familiar: Rune Knight
-
-Runika
-------
-Life: 2
-Discard 1: Explosive Dash
-Discard 2: Maintenance Drive
-Active artifacts: 
-  Shield Amulet
-  Autodeflector
-  Hover Boots
-Removed artifacts: 
-  Phase Goggles
-  Battlefist
-
-
-L.....R
-
-
-Lesandra:
-27% Pactbreaker Drive
-14% Pactbreaker Grasp
-27% Guardian Grasp
-32% Window Drive
-
-Runika:
-0% Impact Grasp
-78% Overcharged Tinker
-5% Overcharged Strike
-17% Overcharged Shot
-
-
-Lesandra: Guardian Grasp
-Runika: Overcharged Tinker
-
-Priorities:  4 | 5
-Runika is active
-Runika overcharges her Shield Amulet
-Runika misses
-No artifacts to activate
-Lesandra misses
-Shield Amulet is removed from the game
-
-Beat 14
--------
-
-Lesandra
---------
-Life: 8
-Discard 1: Guardian Grasp
-Discard 2: Invocation Burst
-Familiar: Rune Knight
-
-Runika
-------
-Life: 2
-Discard 1: Overcharged Tinker
-Discard 2: Explosive Dash
-Active artifacts: 
-  Autodeflector
-  Hover Boots
-Removed artifacts: 
-  Shield Amulet
-  Battlefist
-  Phase Goggles
-
-
-L.....R
-
-Unbeatable strategy for Lesandra: Binding Summons: 7.00
-Unbeatable strategy for Lesandra: Binding Summons (Rune Knight): 7.00
-Unbeatable strategy for Lesandra: Binding Strike: 0.05
-Unbeatable strategy for Lesandra: Binding Shot: 7.00
-Unbeatable strategy for Lesandra: Binding Shot (Rune Knight): 7.00
-
-
-Lesandra:
-25% Binding Summons
-25% Binding Summons (Rune Knight)
-25% Binding Shot
-25% Binding Shot (Rune Knight)
-
-Runika:
-4% Channeled Strike
-10% Channeled Shot
-8% Channeled Drive
-9% Channeled Burst
-8% Channeled Grasp
-3% Maintenance Strike
-12% Maintenance Shot
-13% Maintenance Drive
-6% Maintenance Burst
-5% Maintenance Grasp
-4% Impact Strike
-6% Impact Shot
-4% Impact Drive
-3% Impact Burst
-6% Impact Grasp
-
-
-Lesandra: Binding Summons
-Runika: Impact Strike
-
-Priorities:  0 | 5
-Runika is active
-Lesandra moves Runika:
-
-LR.....
-
-Runika hits
-Lesandra takes 3 damage (now at 5 life)
-Lesandra hits
-Autodeflector is de-activated
-Runika takes 2 damage (now at 0 life)
+Lesandra summons her Borneo
 LESANDRA WINS!
-total_time: 73
+total_time: 49

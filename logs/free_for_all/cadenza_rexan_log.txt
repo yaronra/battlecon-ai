@@ -80,31 +80,34 @@ Cadenza has 1 Curse token
 
 
 Cadenza:
-5% Battery Press | (1 Curse token)
-1% Battery Strike | (1 Curse token)
-49% Battery Dash
-31% Battery Dash | (1 Curse token)
+3% Battery Strike
+16% Battery Dash
+59% Battery Dash | (1 Curse token)
+9% Clockwork Press | (1 Curse token)
 13% Clockwork Shot | (1 Curse token)
 
 Rexan:
-65% Unyielding Dash
-10% Overlord's Shot
-13% Overlord's Drive
-12% Overlord's Burst
+1% Unyielding Dash
+67% Devastating Strike
+1% Overlord's Shot
+31% Overlord's Drive
 
 
-Cadenza: Clockwork Shot | (1 Curse token)
-Rexan: Unyielding Dash
+Cadenza: Battery Dash
+Rexan: Devastating Strike
 
-Cadenza antes a Curse token
-Priorities:  -2 | 9
-Rexan is active
+Priorities:  8 | 2
+Cadenza is active
 Rexan moves:
 
-.C....R
+.CR....
 
-Cadenza misses
-Cadenza gains 1 Curse token
+Cadenza moves:
+
+..RC...
+
+Rexan misses
+Cadenza will have 4 priority next beat
 
 Beat 3
 -------
@@ -112,69 +115,54 @@ Beat 3
 Cadenza
 -------
 Life: 20
-Discard 1: Clockwork Shot
+Discard 1: Battery Dash
 Discard 2: Grapnel Grasp
 Special action available
+Priority bonus: 4
 3 Iron Body token
 
 Rexan
 -----
 Life: 18
-Discard 1: Unyielding Dash
+Discard 1: Devastating Strike
 Discard 2: Vainglorious Malediction
 Special action available
 Cadenza has 1 Curse token
 
 
-.C....R
+..RC...
 
-Unbeatable strategy for Cadenza: Battery Dash | (1 Curse token): 0.71
-Unbeatable strategy for Cadenza: Hydraulic Press | (1 Curse token): 0.06
-Unbeatable strategy for Cadenza: Mechanical Dash | (1 Curse token): 0.29
+Unbeatable strategy for Cadenza: Hydraulic Drive | (1 Curse token): 0.33
 
 
 Cadenza:
-34% Battery Press | (1 Curse token)
-22% Battery Drive | (1 Curse token)
-2% Battery Burst | (1 Curse token)
-42% Battery Dash | (1 Curse token)
+9% Hydraulic Drive | (1 Curse token)
+91% Mechanical Drive | (1 Curse token)
 
 Rexan:
-2% Devastating Drive
-59% Overlord's Shot
-32% Overlord's Drive
-7% Overlord's Burst
+88% Unyielding Dash
+12% Overlord's Grasp
 
 
-Cadenza: Battery Drive | (1 Curse token)
-Rexan: Overlord's Shot
+Cadenza: Mechanical Drive | (1 Curse token)
+Rexan: Unyielding Dash
 
 Cadenza antes a Curse token
-Priorities:  2 | 2
-Clash!
-
-
-Cadenza: Battery Strike | (1 Curse token)
-Rexan: Overlord's Burst
-
-Cadenza antes a Curse token
-Priorities:  1 | 1
-Clash!
-
-
-Cadenza: Battery Press | (1 Curse token)
-Rexan: Overlord's Drive
-
-Cadenza antes a Curse token
-Priorities:  -2 | 4
+Priorities:  5 | 9
 Rexan is active
 Rexan moves:
 
-.C..R..
+...CR..
 
-Rexan misses
+Cadenza moves:
+
+....RC.
+
 Cadenza misses
-Cadenza will have 4 priority next beat
+Cadenza moves:
+
+..C.R..
+
 Cadenza gains 1 Curse token
 
 Beat 4
@@ -183,58 +171,54 @@ Beat 4
 Cadenza
 -------
 Life: 20
-Discard 1: Battery Press
-Discard 2: Clockwork Shot
+Discard 1: Mechanical Drive
+Discard 2: Battery Dash
 Special action available
-Priority bonus: 4
 3 Iron Body token
 
 Rexan
 -----
 Life: 18
-Discard 1: Overlord's Drive
-Discard 2: Unyielding Dash
+Discard 1: Unyielding Dash
+Discard 2: Devastating Strike
 Special action available
 Cadenza has 1 Curse token
 
 
-.C..R..
+..C.R..
+
+Unbeatable strategy for Cadenza: Clockwork Shot | (1 Curse token): 0.11
 
 
 Cadenza:
-12% Hydraulic Grasp | (1 Curse token)
-30% Grapnel Strike | (1 Curse token)
-2% Grapnel Drive | (1 Curse token)
-5% Mechanical Strike | (1 Curse token)
-30% Mechanical Drive | (1 Curse token)
-21% Mechanical Burst | (1 Curse token)
+100% Clockwork Shot | (1 Curse token)
 
 Rexan:
-25% Devastating Malediction
-17% Devastating Strike
-4% Devastating Burst
-3% Vainglorious Strike
-10% Vainglorious Shot
-41% Vainglorious Burst
+100% Overlord's Malediction
 
 
-Cadenza: Grapnel Strike | (1 Curse token)
-Rexan: Vainglorious Burst
+Cadenza: Clockwork Shot | (1 Curse token)
+Rexan: Overlord's Malediction
 
 Cadenza antes a Curse token
-Priorities:  6 | 1
-Cadenza is active
-Rexan moves:
+Priorities:  -2 | 4
+Rexan is active
+Rexan moves Cadenza:
 
-.C...R.
+...CR..
 
+Rexan gets -1 power
+Rexan hits
+Cadenza gains 1 Curse token
+Cadenza has 3 soak
+Cadenza takes 0 damage (now at 20 life)
 Cadenza hits
-Cadenza moves Rexan:
-
-.C.R...
-
-Rexan takes 3 damage (now at 15 life)
+Rexan takes 2 damage (now at 16 life)
 Rexan is stunned
+Rexan moves Cadenza:
+
+....RC.
+
 
 Beat 5
 -------
@@ -242,50 +226,65 @@ Beat 5
 Cadenza
 -------
 Life: 20
-Discard 1: Grapnel Strike
-Discard 2: Battery Press
+Discard 1: Clockwork Shot
+Discard 2: Mechanical Drive
 Special action available
 3 Iron Body token
 
 Rexan
 -----
-Life: 15
-Discard 1: Vainglorious Burst
-Discard 2: Overlord's Drive
+Life: 16
+Discard 1: Overlord's Malediction
+Discard 2: Unyielding Dash
 Special action available
-Cadenza has 0 Curse token
+Cadenza has 1 Curse token
 
 
-.C.R...
+....RC.
 
-Unbeatable strategy for Rexan: Unyielding Malediction: -0.02
+Unbeatable strategy for Cadenza: Battery Dash: 0.65
+Unbeatable strategy for Cadenza: Battery Dash | (1 Curse token): 0.65
+Unbeatable strategy for Cadenza: Hydraulic Press | (1 Curse token): 0.36
+Unbeatable strategy for Cadenza: Grapnel Dash: 0.59
+Unbeatable strategy for Cadenza: Grapnel Dash | (1 Curse token): 0.59
 
 
 Cadenza:
-3% Hydraulic Grasp
-1% Mechanical Shot
-96% Mechanical Dash
+7% Battery Press | (1 Curse token)
+8% Battery Grasp
+15% Battery Dash
+15% Battery Dash | (1 Curse token)
+56% Hydraulic Press | (1 Curse token)
 
 Rexan:
-51% Unyielding Malediction
-2% Enervating Malediction
-47% Enervating Dash
+19% Devastating Strike
+5% Devastating Burst
+11% Vainglorious Strike
+64% Vainglorious Drive
 
 
-Cadenza: Mechanical Dash
-Rexan: Unyielding Malediction
+Cadenza: Battery Grasp
+Rexan: Vainglorious Drive
 
-Priorities:  7 | 4
+Priorities:  4 | 4
+Clash!
+
+
+Cadenza: Battery Dash
+Rexan: Vainglorious Burst
+
+Priorities:  8 | 1
 Cadenza is active
+Rexan moves:
+
+..R..C.
+
 Cadenza moves:
 
-...RC..
+.CR....
 
 Rexan misses
-Cadenza moves:
-
-..CR...
-
+Cadenza will have 4 priority next beat
 
 Beat 6
 -------
@@ -293,44 +292,54 @@ Beat 6
 Cadenza
 -------
 Life: 20
-Discard 1: Mechanical Dash
-Discard 2: Grapnel Strike
+Discard 1: Battery Dash
+Discard 2: Clockwork Shot
 Special action available
+Priority bonus: 4
 3 Iron Body token
 
 Rexan
 -----
-Life: 15
-Discard 1: Unyielding Malediction
-Discard 2: Vainglorious Burst
+Life: 16
+Discard 1: Vainglorious Burst
+Discard 2: Overlord's Malediction
 Special action available
-Cadenza has 0 Curse token
+Cadenza has 1 Curse token
 
 
-..CR...
+.CR....
+
+Unbeatable strategy for Cadenza: Hydraulic Drive | (1 Curse token): 1.36
+Unbeatable strategy for Cadenza: Mechanical Grasp | (1 Curse token): 1.64
 
 
 Cadenza:
-81% Battery Press
-13% Clockwork Shot
-6% Clockwork Burst
+7% Hydraulic Grasp | (1 Curse token)
+3% Grapnel Drive
+11% Grapnel Drive | (1 Curse token)
+41% Mechanical Drive | (1 Curse token)
+38% Mechanical Burst | (1 Curse token)
 
 Rexan:
-34% Enervating Shot
-4% Enervating Drive
-62% Overlord's Dash
+1% Unyielding Grasp
+77% Unyielding Dash
+4% Devastating Shot
+4% Devastating Dash
+15% Enervating Dash
 
 
-Cadenza: Clockwork Shot
-Rexan: Overlord's Dash
+Cadenza: Hydraulic Grasp | (1 Curse token)
+Rexan: Unyielding Dash
 
-Priorities:  -1 | 9
+Cadenza antes a Curse token
+Priorities:  7 | 9
 Rexan is active
 Rexan moves:
 
-.RC....
+RC.....
 
 Cadenza misses
+Cadenza gains 1 Curse token
 
 Beat 7
 -------
@@ -338,59 +347,44 @@ Beat 7
 Cadenza
 -------
 Life: 20
-Discard 1: Clockwork Shot
-Discard 2: Mechanical Dash
+Discard 1: Hydraulic Grasp
+Discard 2: Battery Dash
 Special action available
 3 Iron Body token
 
 Rexan
 -----
-Life: 15
-Discard 1: Overlord's Dash
-Discard 2: Unyielding Malediction
+Life: 16
+Discard 1: Unyielding Dash
+Discard 2: Vainglorious Burst
 Special action available
-Cadenza has 0 Curse token
+Cadenza has 1 Curse token
 
 
-.RC....
+RC.....
 
 
 Cadenza:
-4% Battery Burst
-80% Hydraulic Press
-8% Hydraulic Strike
-8% Hydraulic Grasp
+45% Clockwork Press | (1 Curse token)
+55% Clockwork Shot | (1 Curse token)
 
 Rexan:
-14% Vainglorious Strike
-13% Vainglorious Shot
-52% Vainglorious Drive
-21% Vainglorious Grasp
+92% Devastating Malediction
+8% Devastating Strike
 
 
-Cadenza: Hydraulic Press
-Rexan: Vainglorious Drive
+Cadenza: Clockwork Shot | (1 Curse token)
+Rexan: Devastating Malediction
 
-Priorities:  -1 | 4
+Cadenza antes a Curse token
+Priorities:  -2 | 3
 Rexan is active
-Rexan moves:
-
-..C.R..
-
-Rexan moves Cadenza:
-
-...CR..
-
 Rexan hits
-Cadenza has 1 soak
-Cadenza takes 3 damage (now at 17 life)
-Cadenza moves:
-
-....RC.
-
-Cadenza hits
 Cadenza gains 1 Curse token
-Rexan takes 4 damage (now at 11 life)
+Cadenza has 3 soak
+Cadenza takes 1 damage (now at 19 life)
+Cadenza hits
+Rexan takes 2 damage (now at 14 life)
 Rexan is stunned
 
 Beat 8
@@ -398,56 +392,53 @@ Beat 8
 
 Cadenza
 -------
-Life: 17
-Discard 1: Hydraulic Press
-Discard 2: Clockwork Shot
+Life: 19
+Discard 1: Clockwork Shot
+Discard 2: Hydraulic Grasp
 Special action available
 3 Iron Body token
 
 Rexan
 -----
-Life: 11
-Discard 1: Vainglorious Drive
-Discard 2: Overlord's Dash
+Life: 14
+Discard 1: Devastating Malediction
+Discard 2: Unyielding Dash
 Special action available
 Cadenza has 1 Curse token
 
 
-....RC.
+RC.....
 
-Unbeatable strategy for Cadenza: Battery Dash: 0.88
-Unbeatable strategy for Cadenza: Battery Dash | (1 Curse token): 0.74
-Unbeatable strategy for Cadenza: Grapnel Dash: 0.24
-Unbeatable strategy for Cadenza: Grapnel Dash | (1 Curse token): 0.49
-Unbeatable strategy for Cadenza: Mechanical Dash: 0.18
-Unbeatable strategy for Cadenza: Mechanical Dash | (1 Curse token): 0.19
+Unbeatable strategy for Cadenza: Battery Press | (1 Curse token): 0.78
+Unbeatable strategy for Cadenza: Mechanical Press | (1 Curse token): 0.95
 
 
 Cadenza:
-3% Battery Strike | (1 Curse token)
-1% Battery Grasp
-61% Battery Dash
-35% Battery Dash | (1 Curse token)
+42% Battery Press | (1 Curse token)
+58% Mechanical Press | (1 Curse token)
 
 Rexan:
-63% Unyielding Malediction
-14% Unyielding Burst
-19% Devastating Malediction
-4% Enervating Malediction
+47% Vainglorious Drive
+53% Overlord's Drive
 
 
-Cadenza: Battery Dash | (1 Curse token)
-Rexan: Unyielding Malediction
+Cadenza: Mechanical Press | (1 Curse token)
+Rexan: Overlord's Drive
 
 Cadenza antes a Curse token
-Priorities:  7 | 4
-Cadenza is active
-Cadenza moves:
+Priorities:  -3 | 4
+Rexan is active
+Rexan moves:
 
-.C..R..
+.CR....
 
+Rexan moves Cadenza:
+
+..R..C.
+
+Rexan gets -3 power
 Rexan misses
-Cadenza will have 4 priority next beat
+Cadenza misses
 Cadenza gains 1 Curse token
 
 Beat 9
@@ -455,61 +446,50 @@ Beat 9
 
 Cadenza
 -------
-Life: 17
-Discard 1: Battery Dash
-Discard 2: Hydraulic Press
+Life: 19
+Discard 1: Mechanical Press
+Discard 2: Clockwork Shot
 Special action available
-Priority bonus: 4
 3 Iron Body token
 
 Rexan
 -----
-Life: 11
-Discard 1: Unyielding Malediction
-Discard 2: Vainglorious Drive
+Life: 14
+Discard 1: Overlord's Drive
+Discard 2: Devastating Malediction
 Special action available
 Cadenza has 1 Curse token
 
 
-.C..R..
+..R..C.
 
 
 Cadenza:
-18% Clockwork Shot | (1 Curse token)
-16% Clockwork Drive
-24% Grapnel Drive | (1 Curse token)
-4% Grapnel Burst | (1 Curse token)
-17% Mechanical Shot | (1 Curse token)
-21% Mechanical Burst | (1 Curse token)
+6% Battery Drive
+26% Battery Drive | (1 Curse token)
+6% Battery Dash
+6% Grapnel Strike
+56% Grapnel Strike | (1 Curse token)
 
 Rexan:
-11% Devastating Strike
-6% Devastating Shot
-16% Overlord's Strike
-1% Overlord's Shot
-19% Overlord's Burst
-47% Overlord's Dash
+16% Unyielding Strike
+13% Unyielding Shot
+56% Unyielding Dash
+6% Enervating Shot
+9% Vainglorious Shot
 
 
-Cadenza: Mechanical Burst | (1 Curse token)
-Rexan: Overlord's Dash
+Cadenza: Grapnel Strike | (1 Curse token)
+Rexan: Unyielding Dash
 
 Cadenza antes a Curse token
 Priorities:  2 | 9
 Rexan is active
-Cadenza moves:
-
-C...R..
-
 Rexan moves:
 
-CR.....
+....RC.
 
 Cadenza misses
-Cadenza moves:
-
-.R..C..
-
 Cadenza gains 1 Curse token
 
 Beat 10
@@ -517,475 +497,406 @@ Beat 10
 
 Cadenza
 -------
-Life: 17
-Discard 1: Mechanical Burst
-Discard 2: Battery Dash
+Life: 19
+Discard 1: Grapnel Strike
+Discard 2: Mechanical Press
 Special action available
 3 Iron Body token
 
 Rexan
 -----
-Life: 11
-Discard 1: Overlord's Dash
-Discard 2: Unyielding Malediction
+Life: 14
+Discard 1: Unyielding Dash
+Discard 2: Overlord's Drive
 Special action available
 Cadenza has 1 Curse token
 
 
-.R..C..
+....RC.
+
+Unbeatable strategy for Cadenza: Battery Dash: 0.08
+Unbeatable strategy for Cadenza: Battery Dash | (1 Curse token): 0.29
 
 
 Cadenza:
-53% Clockwork Press | (1 Curse token)
-45% Clockwork Shot | (1 Curse token)
-1% Hydraulic Press | (1 Curse token)
+3% Battery Grasp
+75% Battery Dash | (1 Curse token)
+18% Clockwork Shot | (1 Curse token)
+2% Clockwork Burst | (1 Curse token)
+2% Clockwork Grasp | (1 Curse token)
 
 Rexan:
-33% Devastating Strike
-8% Devastating Burst
-58% Vainglorious Drive
+1% Devastating Malediction
+28% Devastating Strike
+5% Enervating Malediction
+50% Vainglorious Malediction
+17% Vainglorious Strike
 
 
-Cadenza: Clockwork Shot | (1 Curse token)
-Rexan: Devastating Strike
+Cadenza: Battery Dash | (1 Curse token)
+Rexan: Vainglorious Malediction
 
 Cadenza antes a Curse token
-Priorities:  -2 | 2
-Rexan is active
-Rexan moves:
+Priorities:  7 | 4
+Cadenza is active
+Cadenza moves:
 
-...RC..
+..C.R..
 
-Rexan hits
-Cadenza has 3 soak
-Cadenza takes 3 damage (now at 14 life)
-Cadenza spends an Iron Body token
-Cadenza gains infinite stunguard
-Cadenza hits
-Rexan takes 5 damage (now at 6 life)
+Rexan misses
+Cadenza will have 4 priority next beat
+Cadenza gains 1 Curse token
 
 Beat 11
 -------
 
 Cadenza
 -------
-Life: 14
-Discard 1: Clockwork Shot
-Discard 2: Mechanical Burst
+Life: 19
+Discard 1: Battery Dash
+Discard 2: Grapnel Strike
 Special action available
-2 Iron Body token
+Priority bonus: 4
+3 Iron Body token
 
 Rexan
 -----
-Life: 6
-Discard 1: Devastating Strike
-Discard 2: Overlord's Dash
+Life: 14
+Discard 1: Vainglorious Malediction
+Discard 2: Unyielding Dash
 Special action available
-Cadenza has 0 Curse token
+Cadenza has 1 Curse token
 
 
-...RC..
-
-Unbeatable strategy for Cadenza: Battery Dash: 0.77
-Unbeatable strategy for Cadenza: Grapnel Dash: 0.39
+..C.R..
 
 
 Cadenza:
-6% Battery Grasp
-67% Battery Dash
-27% Grapnel Dash
+41% Clockwork Shot | (1 Curse token)
+19% Clockwork Drive | (1 Curse token)
+9% Hydraulic Press | (1 Curse token)
+15% Hydraulic Grasp | (1 Curse token)
+13% Mechanical Shot | (1 Curse token)
+2% Mechanical Burst | (1 Curse token)
 
 Rexan:
-0% Enervating Malediction
-13% Vainglorious Malediction
-86% Vainglorious Drive
+34% Devastating Strike
+4% Devastating Grasp
+9% Enervating Drive
+12% Overlord's Strike
+29% Overlord's Shot
+12% Overlord's Burst
 
 
-Cadenza: Battery Dash
-Rexan: Vainglorious Malediction
+Cadenza: Mechanical Shot | (1 Curse token)
+Rexan: Enervating Drive
 
-Priorities:  8 | 4
+Cadenza antes a Curse token
+Priorities:  3 | 2
 Cadenza is active
-Cadenza moves:
-
-..CR...
-
-Rexan misses
-Cadenza will have 4 priority next beat
+Cadenza hits
+Rexan takes 4 damage (now at 10 life)
+Rexan is stunned
 
 Beat 12
 -------
 
 Cadenza
 -------
-Life: 14
-Discard 1: Battery Dash
-Discard 2: Clockwork Shot
+Life: 19
+Discard 1: Mechanical Shot
+Discard 2: Battery Dash
 Special action available
-Priority bonus: 4
-2 Iron Body token
+3 Iron Body token
 
 Rexan
 -----
-Life: 6
-Discard 1: Vainglorious Malediction
-Discard 2: Devastating Strike
+Life: 10
+Discard 1: Enervating Drive
+Discard 2: Vainglorious Malediction
 Special action available
 Cadenza has 0 Curse token
 
 
-..CR...
-
-Unbeatable strategy for Cadenza: Mechanical Drive: 0.26
+..C.R..
 
 
 Cadenza:
-52% Mechanical Strike
-48% Mechanical Drive
+37% Clockwork Press
+36% Hydraulic Drive
+19% Hydraulic Burst
+2% Hydraulic Grasp
+6% Grapnel Burst
 
 Rexan:
-88% Enervating Shot
-12% Overlord's Burst
+60% Unyielding Dash
+14% Devastating Shot
+3% Devastating Burst
+22% Devastating Grasp
+2% Overlord's Strike
 
 
-Cadenza: Mechanical Strike
-Rexan: Enervating Shot
+Cadenza: Clockwork Press
+Rexan: Unyielding Dash
 
-Priorities:  5 | 0
-Cadenza is active
-Cadenza hits
-Cadenza gains 1 Curse token
-Rexan takes 5 damage (now at 1 life)
-Rexan hits
-Rexan gets +1 power
-Cadenza takes 4 damage (now at 10 life)
-Cadenza moves:
+Priorities:  -3 | 9
+Rexan is active
+Rexan moves:
 
-...R..C
+.RC....
 
+Cadenza misses
 
 Beat 13
 -------
 
 Cadenza
 -------
-Life: 10
-Discard 1: Mechanical Strike
-Discard 2: Battery Dash
+Life: 19
+Discard 1: Clockwork Press
+Discard 2: Mechanical Shot
 Special action available
-2 Iron Body token
+3 Iron Body token
 
 Rexan
 -----
-Life: 1
-Discard 1: Enervating Shot
-Discard 2: Vainglorious Malediction
+Life: 10
+Discard 1: Unyielding Dash
+Discard 2: Enervating Drive
 Special action available
-Cadenza has 1 Curse token
+Cadenza has 0 Curse token
 
 
-...R..C
+.RC....
 
-Unbeatable strategy for Cadenza: Clockwork Shot: 0.91
-Unbeatable strategy for Cadenza: Clockwork Shot | (1 Curse token): 0.91
-Unbeatable strategy for Cadenza: Hydraulic Press | (1 Curse token): 0.42
+Unbeatable strategy for Rexan: Vainglorious Malediction: -0.32
+Unbeatable strategy for Rexan: Overlord's Malediction: -0.68
+Unbeatable strategy for Rexan: Overlord's Strike: -0.48
 
 
 Cadenza:
-53% Clockwork Shot
-47% Clockwork Shot | (1 Curse token)
+15% Hydraulic Grasp
+85% Grapnel Dash
 
 Rexan:
-100% Unyielding Dash
+93% Overlord's Malediction
+7% Overlord's Grasp
 
 
-Cadenza: Clockwork Shot
-Rexan: Unyielding Dash
+Cadenza: Grapnel Dash
+Rexan: Overlord's Malediction
 
-Priorities:  -1 | 9
-Rexan is active
-Rexan moves:
+Priorities:  9 | 4
+Cadenza is active
+Cadenza moves:
 
-R.....C
+CR.....
 
-Cadenza misses
+Rexan misses
 
 Beat 14
 -------
 
 Cadenza
 -------
-Life: 10
-Discard 1: Clockwork Shot
-Discard 2: Mechanical Strike
+Life: 19
+Discard 1: Grapnel Dash
+Discard 2: Clockwork Press
 Special action available
-2 Iron Body token
+3 Iron Body token
 
 Rexan
 -----
-Life: 1
-Discard 1: Unyielding Dash
-Discard 2: Enervating Shot
+Life: 10
+Discard 1: Overlord's Malediction
+Discard 2: Unyielding Dash
 Special action available
-Cadenza has 1 Curse token
+Cadenza has 0 Curse token
 
 
-R.....C
-
-Unbeatable strategy for Rexan: Overlord's Drive: -0.05
+CR.....
 
 
 Cadenza:
-68% Battery Press | (1 Curse token)
-17% Battery Drive | (1 Curse token)
-15% Grapnel Press
+31% Battery Drive
+49% Hydraulic Strike
+20% Hydraulic Grasp
 
 Rexan:
-0% Devastating Burst
-20% Overlord's Malediction
-80% Overlord's Drive
+16% Devastating Burst
+51% Vainglorious Strike
+32% Vainglorious Drive
 
 
-Cadenza: Battery Press | (1 Curse token)
-Rexan: Overlord's Drive
+Cadenza: Hydraulic Grasp
+Rexan: Vainglorious Drive
 
-Cadenza antes a Curse token
-Priorities:  -2 | 4
-Rexan is active
-Rexan moves Cadenza:
+Priorities:  4 | 4
+Clash!
 
-R....C.
 
-Rexan gets -1 power
+Cadenza: Hydraulic Drive
+Rexan: Vainglorious Strike
+
+Priorities:  3 | 3
+Clash!
+
+
+Cadenza: Hydraulic Strike
+Rexan: Vainglorious Burst
+
+Priorities:  2 | 1
+Cadenza is active
 Rexan moves:
 
-..R..C.
+C..R...
 
-Rexan misses
+Cadenza moves:
+
+.C.R...
+
 Cadenza misses
-Cadenza will have 4 priority next beat
-Cadenza gains 1 Curse token
+Rexan hits
+Cadenza has 1 soak
+Cadenza takes 3 damage (now at 16 life)
 
 Beat 15
 -------
 
 Cadenza
 -------
-Life: 10
-Discard 1: Battery Press
-Discard 2: Clockwork Shot
+Life: 16
+Discard 1: Hydraulic Strike
+Discard 2: Grapnel Dash
 Special action available
-Priority bonus: 4
-2 Iron Body token
+3 Iron Body token
 
 Rexan
 -----
-Life: 1
-Discard 1: Overlord's Drive
-Discard 2: Unyielding Dash
+Life: 10
+Discard 1: Vainglorious Burst
+Discard 2: Overlord's Malediction
 Special action available
-Cadenza has 1 Curse token
+Cadenza has 0 Curse token
 
 
-..R..C.
+.C.R...
 
-Unbeatable strategy for Cadenza: Hydraulic Strike: 6.00
-Unbeatable strategy for Cadenza: Hydraulic Strike (Iron Body): 6.00
-Unbeatable strategy for Cadenza: Hydraulic Drive: 6.00
-Unbeatable strategy for Cadenza: Hydraulic Drive | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Hydraulic Drive (Iron Body): 6.00
-Unbeatable strategy for Cadenza: Hydraulic Drive (Iron Body) | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Hydraulic Grasp: 6.00
-Unbeatable strategy for Cadenza: Hydraulic Grasp | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Hydraulic Grasp (Iron Body): 6.00
-Unbeatable strategy for Cadenza: Hydraulic Grasp (Iron Body) | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Hydraulic Dash: 6.00
-Unbeatable strategy for Cadenza: Hydraulic Dash | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Hydraulic Dash (Iron Body): 6.00
-Unbeatable strategy for Cadenza: Hydraulic Dash (Iron Body) | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Grapnel Strike: 6.00
-Unbeatable strategy for Cadenza: Grapnel Strike | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Grapnel Strike (Iron Body): 6.00
-Unbeatable strategy for Cadenza: Grapnel Strike (Iron Body) | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Grapnel Drive: 6.00
-Unbeatable strategy for Cadenza: Grapnel Drive | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Grapnel Drive (Iron Body): 6.00
-Unbeatable strategy for Cadenza: Grapnel Drive (Iron Body) | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Grapnel Grasp: 6.00
-Unbeatable strategy for Cadenza: Grapnel Grasp | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Grapnel Grasp (Iron Body): 6.00
-Unbeatable strategy for Cadenza: Grapnel Grasp (Iron Body) | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Grapnel Dash: 6.00
-Unbeatable strategy for Cadenza: Grapnel Dash | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Grapnel Dash (Iron Body): 6.00
-Unbeatable strategy for Cadenza: Grapnel Dash (Iron Body) | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Mechanical Drive: 6.00
-Unbeatable strategy for Cadenza: Mechanical Drive (Iron Body): 6.00
-Unbeatable strategy for Cadenza: Mechanical Grasp: 6.00
-Unbeatable strategy for Cadenza: Mechanical Grasp | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Mechanical Grasp (Iron Body): 6.00
-Unbeatable strategy for Cadenza: Mechanical Grasp (Iron Body) | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Mechanical Dash: 6.00
-Unbeatable strategy for Cadenza: Mechanical Dash | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Mechanical Dash (Iron Body): 6.00
-Unbeatable strategy for Cadenza: Mechanical Dash (Iron Body) | (1 Curse token): 6.00
+Unbeatable strategy for Cadenza: Battery Press: 15.00
+Unbeatable strategy for Cadenza: Battery Press (Iron Body): 15.00
+Unbeatable strategy for Cadenza: Clockwork Press: 15.00
+Unbeatable strategy for Cadenza: Clockwork Press (Iron Body): 15.00
+Unbeatable strategy for Cadenza: Clockwork Shot: 15.00
+Unbeatable strategy for Cadenza: Clockwork Shot (Iron Body): 15.00
+Unbeatable strategy for Cadenza: Clockwork Burst: 15.00
+Unbeatable strategy for Cadenza: Clockwork Burst (Iron Body): 15.00
+Unbeatable strategy for Cadenza: Mechanical Press: 15.00
+Unbeatable strategy for Cadenza: Mechanical Press (Iron Body): 15.00
+Unbeatable strategy for Cadenza: Mechanical Burst: 15.00
+Unbeatable strategy for Cadenza: Mechanical Burst (Iron Body): 15.00
 
 
 Cadenza:
-50% Grapnel Strike
-50% Grapnel Strike | (1 Curse token)
+100% Mechanical Shot
 
 Rexan:
 100% Special Pulse
 
 
-Cadenza: Grapnel Strike | (1 Curse token)
+Cadenza: Mechanical Shot
 Rexan: Special Pulse
 
-Cadenza antes a Curse token
-Pulse:
+Rexan Pulses:
 
-.C....R
+RC.....
 
-Cadenza gains 1 Curse token
 
 Beat 15
 -------
 
 Cadenza
 -------
-Life: 10
-Discard 1: Grapnel Strike
-Discard 2: Battery Press
+Life: 16
+Discard 1: Mechanical Shot
+Discard 2: Hydraulic Strike
 Special action available
-2 Iron Body token
+3 Iron Body token
 
 Rexan
 -----
-Life: 1
-Discard 1: Overlord's Drive
-Discard 2: Unyielding Dash
-Cadenza has 1 Curse token
+Life: 10
+Discard 1: Vainglorious Burst
+Discard 2: Overlord's Malediction
+Cadenza has 0 Curse token
 
 
-.C....R
+RC.....
 
-Unbeatable strategy for Cadenza: Clockwork Shot | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Clockwork Shot (Iron Body) | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Clockwork Burst: 6.00
-Unbeatable strategy for Cadenza: Clockwork Burst | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Clockwork Burst (Iron Body): 6.00
-Unbeatable strategy for Cadenza: Clockwork Burst (Iron Body) | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Clockwork Dash: 6.00
-Unbeatable strategy for Cadenza: Clockwork Dash (Iron Body): 6.00
-Unbeatable strategy for Cadenza: Hydraulic Dash: 6.00
-Unbeatable strategy for Cadenza: Hydraulic Dash | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Hydraulic Dash (Iron Body): 6.00
-Unbeatable strategy for Cadenza: Hydraulic Dash (Iron Body) | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Mechanical Burst | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Mechanical Burst (Iron Body) | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Mechanical Dash: 6.00
-Unbeatable strategy for Cadenza: Mechanical Dash | (1 Curse token): 6.00
-Unbeatable strategy for Cadenza: Mechanical Dash (Iron Body): 6.00
-Unbeatable strategy for Cadenza: Mechanical Dash (Iron Body) | (1 Curse token): 6.00
+Unbeatable strategy for Cadenza: Battery Press: 15.00
+Unbeatable strategy for Cadenza: Battery Press (Iron Body): 15.00
+Unbeatable strategy for Cadenza: Clockwork Press: 15.00
+Unbeatable strategy for Cadenza: Clockwork Press (Iron Body): 15.00
+Unbeatable strategy for Cadenza: Clockwork Burst: 15.00
+Unbeatable strategy for Cadenza: Clockwork Burst (Iron Body): 15.00
+Unbeatable strategy for Cadenza: Clockwork Dash: 15.00
+Unbeatable strategy for Cadenza: Clockwork Dash (Iron Body): 15.00
 
 
 Cadenza:
-2% Clockwork Shot
-2% Clockwork Shot | (1 Curse token)
-2% Clockwork Shot (Iron Body)
-2% Clockwork Shot (Iron Body) | (1 Curse token)
-2% Clockwork Drive
-2% Clockwork Drive | (1 Curse token)
-2% Clockwork Drive (Iron Body)
-2% Clockwork Drive (Iron Body) | (1 Curse token)
-2% Clockwork Burst
-2% Clockwork Burst | (1 Curse token)
-2% Clockwork Burst (Iron Body)
-2% Clockwork Burst (Iron Body) | (1 Curse token)
-2% Clockwork Grasp
-2% Clockwork Grasp | (1 Curse token)
-2% Clockwork Grasp (Iron Body)
-2% Clockwork Grasp (Iron Body) | (1 Curse token)
-2% Clockwork Dash
-2% Clockwork Dash | (1 Curse token)
-2% Clockwork Dash (Iron Body)
-2% Clockwork Dash (Iron Body) | (1 Curse token)
-2% Hydraulic Shot
-2% Hydraulic Shot | (1 Curse token)
-2% Hydraulic Shot (Iron Body)
-2% Hydraulic Shot (Iron Body) | (1 Curse token)
-2% Hydraulic Drive
-2% Hydraulic Drive | (1 Curse token)
-2% Hydraulic Drive (Iron Body)
-2% Hydraulic Drive (Iron Body) | (1 Curse token)
-2% Hydraulic Burst
-2% Hydraulic Burst | (1 Curse token)
-2% Hydraulic Burst (Iron Body)
-2% Hydraulic Burst (Iron Body) | (1 Curse token)
-2% Hydraulic Grasp
-2% Hydraulic Grasp | (1 Curse token)
-2% Hydraulic Grasp (Iron Body)
-2% Hydraulic Grasp (Iron Body) | (1 Curse token)
-2% Hydraulic Dash
-2% Hydraulic Dash | (1 Curse token)
-2% Hydraulic Dash (Iron Body)
-2% Hydraulic Dash (Iron Body) | (1 Curse token)
-2% Mechanical Shot
-2% Mechanical Shot | (1 Curse token)
-2% Mechanical Shot (Iron Body)
-2% Mechanical Shot (Iron Body) | (1 Curse token)
-2% Mechanical Drive
-2% Mechanical Drive | (1 Curse token)
-2% Mechanical Drive (Iron Body)
-2% Mechanical Drive (Iron Body) | (1 Curse token)
-2% Mechanical Burst
-2% Mechanical Burst | (1 Curse token)
-2% Mechanical Burst (Iron Body)
-2% Mechanical Burst (Iron Body) | (1 Curse token)
-2% Mechanical Grasp
-2% Mechanical Grasp | (1 Curse token)
-2% Mechanical Grasp (Iron Body)
-2% Mechanical Grasp (Iron Body) | (1 Curse token)
-2% Mechanical Dash
-2% Mechanical Dash | (1 Curse token)
-2% Mechanical Dash (Iron Body)
-2% Mechanical Dash (Iron Body) | (1 Curse token)
+4% Battery Press
+4% Battery Press (Iron Body)
+4% Battery Drive
+4% Battery Drive (Iron Body)
+4% Battery Burst
+4% Battery Burst (Iron Body)
+4% Battery Grasp
+4% Battery Grasp (Iron Body)
+4% Battery Dash
+4% Battery Dash (Iron Body)
+4% Clockwork Press
+4% Clockwork Press (Iron Body)
+4% Clockwork Drive
+4% Clockwork Drive (Iron Body)
+4% Clockwork Burst
+4% Clockwork Burst (Iron Body)
+4% Clockwork Grasp
+4% Clockwork Grasp (Iron Body)
+4% Clockwork Dash
+4% Clockwork Dash (Iron Body)
+4% Grapnel Burst
+4% Grapnel Burst (Iron Body)
+4% Grapnel Dash
+4% Grapnel Dash (Iron Body)
 
 Rexan:
-7% Devastating Malediction
-7% Devastating Strike
-8% Devastating Shot
-7% Devastating Burst
+6% Unyielding Strike
+6% Unyielding Shot
+6% Unyielding Drive
+6% Unyielding Grasp
+6% Unyielding Dash
+15% Devastating Strike
+7% Devastating Shot
+6% Devastating Drive
 6% Devastating Grasp
-0% Enervating Malediction
-8% Enervating Strike
-5% Enervating Shot
-8% Enervating Burst
-7% Enervating Grasp
-6% Vainglorious Malediction
-8% Vainglorious Strike
-8% Vainglorious Shot
-8% Vainglorious Burst
-7% Vainglorious Grasp
+6% Devastating Dash
+6% Enervating Strike
+6% Enervating Shot
+6% Enervating Drive
+6% Enervating Grasp
+6% Enervating Dash
 
 
-Cadenza: Hydraulic Dash | (1 Curse token)
-Rexan: Enervating Shot
+Cadenza: Clockwork Grasp (Iron Body)
+Rexan: Devastating Dash
 
-Cadenza antes a Curse token
-Priorities:  7 | 0
-Cadenza is active
-Cadenza moves:
+Cadenza antes an Iron Body token
+Priorities:  2 | 8
+Rexan is active
+Rexan moves:
 
-..C...R
+.CR....
 
-Cadenza moves:
-
-C.....R
-
-Rexan misses
-Cadenza gains 1 Curse token
+Cadenza misses
 Game goes to time
 CADENZA WINS!
-total_time: 34
+total_time: 36

@@ -23,10 +23,10 @@ Discard 1: Channeled Grasp
 Discard 2: Impact Strike
 Special action available
 Active artifacts: 
-  Hover Boots
-  Phase Goggles
   Autodeflector
   Shield Amulet
+  Phase Goggles
+  Hover Boots
   Battlefist
 
 
@@ -34,57 +34,55 @@ Active artifacts:
 
 
 Ottavia:
-30% Snapback Drive (Target Lock: 11)
-40% Snapback Burst (Target Lock: 6)
-5% Snapback Grasp (Target Lock: 6)
-3% Snapback Grasp (Target Lock: 11)
+29% Snapback Drive (Target Lock: 11)
+38% Snapback Burst (Target Lock: 6)
+7% Snapback Grasp (Target Lock: 6)
+4% Snapback Grasp (Target Lock: 11)
 21% Cover Burst (Target Lock: 4)
 
 Runika:
-3% Maintenance Shot
-6% Maintenance Drive
-39% Explosive Dash
-25% Overcharged Shot
-27% Overcharged Drive
+7% Maintenance Shot
+10% Maintenance Drive
+36% Explosive Dash
+23% Overcharged Shot
+24% Overcharged Drive
 
 
-Ottavia: Snapback Burst (Target Lock: 6)
-Runika: Overcharged Shot
+Ottavia: Snapback Grasp (Target Lock: 6)
+Runika: Maintenance Shot
 
-Priorities:  1 | 4
-Runika is active
-Runika overcharges her Battlefist
+Priorities:  5 | 3
+Ottavia is active
+Ottavia hits
+Phase Goggles is de-activated
+Runika has 3 soak
+Runika takes 0 damage (now at 20 life)
 Ottavia moves:
 
 O....R.
 
-Runika hits
-Ottavia takes 6 damage (now at 14 life)
-Ottavia is stunned
-Battlefist is removed from the game
+Runika misses
 
 Beat 2
 -------
 
 Ottavia
 -------
-Life: 14
-Discard 1: Snapback Burst
+Life: 20
+Discard 1: Snapback Grasp
 Discard 2: Cybernetic Strike
 Special action available
 
 Runika
 ------
 Life: 20
-Discard 1: Overcharged Shot
+Discard 1: Maintenance Shot
 Discard 2: Channeled Grasp
 Special action available
 Active artifacts: 
-  Hover Boots
-  Phase Goggles
   Autodeflector
   Shield Amulet
-Removed artifacts: 
+  Hover Boots
   Battlefist
 
 
@@ -92,104 +90,75 @@ O....R.
 
 
 Ottavia:
-57% Anti-Personnel Shooter (Target Lock: 6)
-43% Anti-Personnel Drive (Target Lock: 11)
+34% Anti-Personnel Shooter (Target Lock: 6)
+6% Anti-Personnel Shot (Target Lock: 11)
+49% Anti-Personnel Drive (Target Lock: 11)
+11% Cover Shooter (Target Lock: 6)
 
 Runika:
-39% Explosive Drive
-61% Explosive Dash
+5% Explosive Drive
+8% Explosive Dash
+15% Overcharged Dash
+73% Special Pulse
 
 
 Ottavia: Anti-Personnel Drive (Target Lock: 11)
-Runika: Explosive Dash
+Runika: Special Pulse
 
-Ottavia acquires target lock
-Priorities:  3 | 1
-Ottavia is active
-Runika moves Ottavia:
+Runika Pulses:
 
-.O...R.
-
-Ottavia moves:
-
-..O..R.
-
-Ottavia hits
-Autodeflector is de-activated
-Runika takes 6 damage (now at 14 life)
-Runika is stunned
-Ottavia moves:
-
-.....RO
+OR.....
 
 
-Beat 3
+Beat 2
 -------
 
 Ottavia
 -------
-Life: 14
+Life: 20
 Discard 1: Anti-Personnel Drive
-Discard 2: Snapback Burst
+Discard 2: Snapback Grasp
 Special action available
 
 Runika
 ------
-Life: 14
-Discard 1: Explosive Dash
-Discard 2: Overcharged Shot
-Special action available
+Life: 20
+Discard 1: Maintenance Shot
+Discard 2: Channeled Grasp
 Active artifacts: 
-  Hover Boots
-  Phase Goggles
+  Autodeflector
   Shield Amulet
-Removed artifacts: 
+  Hover Boots
   Battlefist
 
 
-.....RO
+OR.....
 
 
 Ottavia:
-15% Demolition Strike (Target Lock: 5)
-27% Demolition Strike (Target Lock: 6)
-17% Demolition Strike (Target Lock: 7)
-11% Demolition Strike (Target Lock: 8)
-21% Cover Shooter (Target Lock: 3)
-4% Cover Shooter (Target Lock: 4)
-6% Cybernetic Shot (Target Lock: 4)
+56% Demolition Strike (Target Lock: 5)
+35% Demolition Strike (Target Lock: 6)
+9% Cybernetic Shooter (Target Lock: 3)
 
 Runika:
-18% Channeled Strike
-25% Channeled Burst
-17% Channeled Grasp
-12% Maintenance Drive
-11% Maintenance Burst
-9% Impact Burst
-8% Impact Grasp
+40% Explosive Burst
+31% Overcharged Tinker
+29% Overcharged Drive
 
 
-Ottavia: Demolition Strike (Target Lock: 7)
-Runika: Maintenance Burst
+Ottavia: Demolition Strike (Target Lock: 6)
+Runika: Overcharged Tinker
 
-Priorities:  4 | 2
-Ottavia is active
-Runika moves:
+Priorities:  4 | 5
+Runika is active
+Runika overcharges her Battlefist
+Runika hits
+Ottavia takes 6 damage (now at 14 life)
+Ottavia is stunned
+Phase Goggles is activated
+Battlefist is removed from the game
 
-...R..O
-
-Ottavia misses
-Ottavia moves:
-
-..OR...
-
-Runika misses
-Runika moves:
-
-..O.R..
-
-
-Beat 4
+Beat 3
 -------
 
 Ottavia
@@ -201,642 +170,650 @@ Special action available
 
 Runika
 ------
-Life: 14
-Discard 1: Maintenance Burst
-Discard 2: Explosive Dash
-Special action available
+Life: 20
+Discard 1: Overcharged Tinker
+Discard 2: Maintenance Shot
 Active artifacts: 
+  Autodeflector
+  Shield Amulet
   Hover Boots
   Phase Goggles
-  Shield Amulet
 Removed artifacts: 
   Battlefist
 
 
-..O.R..
+OR.....
+
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): 1.33
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 4): 1.33
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 5): 1.33
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 6): 1.33
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 7): 1.33
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 8): 1.33
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 11): 2.91
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 12): 1.33
 
 
 Ottavia:
-27% Snapback Burst (Target Lock: 6)
-6% Cover Shooter (Target Lock: 4)
-14% Cover Shooter (Target Lock: 7)
-7% Cover Burst (Target Lock: 6)
-45% Cover Burst (Target Lock: 7)
+3% Snapback Dash (Target Lock: 3)
+3% Snapback Dash (Target Lock: 4)
+3% Snapback Dash (Target Lock: 5)
+3% Snapback Dash (Target Lock: 6)
+3% Snapback Dash (Target Lock: 7)
+3% Snapback Dash (Target Lock: 8)
+78% Snapback Dash (Target Lock: 11)
+3% Snapback Dash (Target Lock: 12)
+0% Cybernetic Shot (Target Lock: 5)
+1% Cybernetic Grasp (Target Lock: 7)
 
 Runika:
-17% Channeled Shot
-17% Channeled Drive
-17% Impact Drive
-27% Overcharged Shot
-22% Overcharged Drive
+46% Explosive Strike
+43% Explosive Grasp
+11% Impact Grasp
 
 
-Ottavia: Snapback Burst (Target Lock: 6)
-Runika: Channeled Shot
+Ottavia: Snapback Dash (Target Lock: 11)
+Runika: Explosive Grasp
 
-Priorities:  1 | 5
-Runika is active
-Autodeflector is activated
+Priorities:  9 | 7
+Ottavia is active
 Ottavia moves:
 
-O...R..
+.R..O..
 
-Runika hits
-Ottavia takes 4 damage (now at 10 life)
-Ottavia is stunned
-Shield Amulet is de-activated
+Ottavia moves:
+
+.R....O
+
+Runika misses
+
+Beat 4
+-------
+
+Ottavia
+-------
+Life: 14
+Discard 1: Snapback Dash
+Discard 2: Demolition Strike
+Special action available
+
+Runika
+------
+Life: 20
+Discard 1: Explosive Grasp
+Discard 2: Overcharged Tinker
+Active artifacts: 
+  Autodeflector
+  Shield Amulet
+  Hover Boots
+  Phase Goggles
+Removed artifacts: 
+  Battlefist
+
+
+.R....O
+
+
+Ottavia:
+7% Anti-Personnel Shooter (Target Lock: 6)
+27% Anti-Personnel Drive (Target Lock: 11)
+34% Cover Shooter (Target Lock: 6)
+21% Cover Drive (Target Lock: 11)
+11% Cybernetic Shot (Target Lock: 5)
+
+Runika:
+7% Channeled Shot
+19% Maintenance Dash
+6% Impact Shot
+20% Impact Drive
+49% Impact Dash
+
+
+Ottavia: Cover Shooter (Target Lock: 6)
+Runika: Maintenance Dash
+
+Priorities:  -1 | 10
+Runika is active
+Runika moves:
+
+R.....O
+
+Runika moves:
+
+...R..O
+
+Ottavia hits
+Autodeflector is de-activated
+Runika has 1 soak
+Runika takes 4 damage (now at 16 life)
+Runika is stunned
 
 Beat 5
 -------
 
 Ottavia
 -------
-Life: 10
-Discard 1: Snapback Burst
-Discard 2: Demolition Strike
+Life: 14
+Discard 1: Cover Shooter
+Discard 2: Snapback Dash
 Special action available
 
 Runika
 ------
-Life: 14
-Discard 1: Channeled Shot
-Discard 2: Maintenance Burst
-Special action available
+Life: 16
+Discard 1: Maintenance Dash
+Discard 2: Explosive Grasp
 Active artifacts: 
-  Hover Boots
-  Autodeflector
+  Shield Amulet
   Phase Goggles
+  Hover Boots
 Removed artifacts: 
   Battlefist
 
 
-O...R..
+...R..O
 
 
 Ottavia:
-19% Anti-Personnel Shot (Target Lock: 6)
-41% Cover Shooter (Target Lock: 6)
-40% Cybernetic Shooter (Target Lock: 11)
+32% Anti-Personnel Shot (Target Lock: 5)
+14% Anti-Personnel Shot (Target Lock: 7)
+1% Anti-Personnel Burst (Target Lock: 3)
+33% Anti-Personnel Burst (Target Lock: 4)
+20% Cybernetic Shot (Target Lock: 7)
 
 Runika:
-39% Explosive Drive
-53% Explosive Dash
-8% Overcharged Drive
+14% Channeled Shot
+14% Channeled Drive
+12% Channeled Burst
+14% Impact Burst
+46% Overcharged Drive
 
 
-Ottavia: Cybernetic Shooter (Target Lock: 11)
-Runika: Explosive Drive
+Ottavia: Anti-Personnel Burst (Target Lock: 4)
+Runika: Impact Burst
 
-Priorities:  2 | 6
+Priorities:  0 | 3
 Runika is active
-Runika moves Ottavia:
+Runika moves:
 
-.O..R..
+.R....O
 
 Runika moves:
 
-.OR....
+..R...O
 
 Runika hits
-Ottavia takes 2 damage (now at 8 life)
 Ottavia is stunned
+Ottavia takes 2 damage (now at 12 life)
+Ottavia is stunned
+Ottavia moves:
+
+O.R....
+
 
 Beat 6
 -------
 
 Ottavia
 -------
-Life: 8
-Discard 1: Cybernetic Shooter
-Discard 2: Snapback Burst
+Life: 12
+Discard 1: Anti-Personnel Burst
+Discard 2: Cover Shooter
 Special action available
 
 Runika
 ------
-Life: 14
-Discard 1: Explosive Drive
-Discard 2: Channeled Shot
-Special action available
+Life: 16
+Discard 1: Impact Burst
+Discard 2: Maintenance Dash
 Active artifacts: 
-  Hover Boots
-  Autodeflector
+  Shield Amulet
   Phase Goggles
+  Hover Boots
 Removed artifacts: 
   Battlefist
 
 
-.OR....
+O.R....
 
 
 Ottavia:
-34% Demolition Strike (Target Lock: 5)
-4% Demolition Strike (Target Lock: 10)
-9% Demolition Shot (Target Lock: 7)
-6% Demolition Shot (Target Lock: 10)
-8% Cover Shot (Target Lock: 3)
-8% Cover Drive (Target Lock: 4)
-6% Cover Drive (Target Lock: 10)
-25% Cover Dash (Target Lock: 6)
+13% Snapback Strike (Target Lock: 5)
+30% Demolition Strike (Target Lock: 5)
+7% Demolition Shot (Target Lock: 5)
+29% Demolition Drive (Target Lock: 6)
+13% Demolition Drive (Target Lock: 7)
+7% Demolition Drive (Target Lock: 8)
 
 Runika:
-15% Maintenance Strike
-6% Maintenance Grasp
-23% Maintenance Dash
-4% Impact Burst
-17% Impact Grasp
-19% Overcharged Tinker
-3% Overcharged Burst
-13% Overcharged Grasp
+14% Channeled Strike
+13% Channeled Drive
+14% Channeled Grasp
+31% Explosive Tinker
+23% Overcharged Tinker
+5% Overcharged Strike
 
 
-Ottavia: Cover Dash (Target Lock: 6)
-Runika: Overcharged Grasp
+Ottavia: Demolition Drive (Target Lock: 8)
+Runika: Channeled Drive
 
-Priorities:  6 | 7
+Priorities:  5 | 7
 Runika is active
-Runika overcharges her Phase Goggles
+Autodeflector is activated
+Runika moves:
+
+OR.....
+
 Runika hits
-Runika moves Ottavia:
-
-..RO...
-
-Ottavia has 1 soak
-Ottavia takes 1 damage (now at 7 life)
+Ottavia takes 4 damage (now at 8 life)
 Ottavia is stunned
-Phase Goggles is removed from the game
+Shield Amulet is de-activated
 
 Beat 7
 -------
 
 Ottavia
 -------
-Life: 7
-Discard 1: Cover Dash
-Discard 2: Cybernetic Shooter
+Life: 8
+Discard 1: Demolition Drive
+Discard 2: Anti-Personnel Burst
 Special action available
 
 Runika
 ------
-Life: 14
-Discard 1: Overcharged Grasp
-Discard 2: Explosive Drive
-Special action available
+Life: 16
+Discard 1: Channeled Drive
+Discard 2: Impact Burst
 Active artifacts: 
-  Hover Boots
   Autodeflector
-Removed artifacts: 
   Phase Goggles
+  Hover Boots
+Removed artifacts: 
   Battlefist
 
 
-..RO...
-
-Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: 5): 0.24
+OR.....
 
 
 Ottavia:
-57% Snapback Burst (Target Lock: 5)
-6% Snapback Burst (Target Lock: 10)
-23% Demolition Drive (Target Lock: 5)
-7% Demolition Drive (Target Lock: 6)
-6% Demolition Drive (Target Lock: 12)
+11% Cover Shooter (Target Lock: 5)
+12% Cover Dash (Target Lock: 3)
+11% Cover Dash (Target Lock: 4)
+12% Cover Dash (Target Lock: 5)
+12% Cover Dash (Target Lock: 6)
+12% Cover Dash (Target Lock: 7)
+11% Cover Dash (Target Lock: 10)
+10% Cover Dash (Target Lock: 11)
+9% Cybernetic Strike (Target Lock: 5)
 
 Runika:
-13% Channeled Strike
-27% Channeled Shot
-26% Channeled Dash
-6% Maintenance Shot
-28% Maintenance Dash
+24% Maintenance Tinker
+5% Explosive Tinker
+71% Overcharged Tinker
 
 
-Ottavia: Snapback Burst (Target Lock: 5)
-Runika: Channeled Strike
+Ottavia: Cover Shooter (Target Lock: 5)
+Runika: Overcharged Tinker
 
-Priorities:  1 | 6
-Runika is active
+Ottavia acquires target lock
+Priorities:  -1 | -5
+Ottavia is active
+Runika overcharges her Hover Boots
+Runika becomes the active player
+Runika hits
+Ottavia has 1 soak
+Ottavia takes 2 damage (now at 6 life)
 Shield Amulet is activated
-Ottavia moves:
-
-..R..O.
-
-Runika misses
-Ottavia hits
-Shield Amulet is de-activated
-Runika has 2 soak
-Runika takes 1 damage (now at 13 life)
-Ottavia moves:
-
-..R...O
-
-Hover Boots is de-activated
+Ottavia misses
+Hover Boots is removed from the game
 
 Beat 8
 -------
 
 Ottavia
 -------
-Life: 7
-Discard 1: Snapback Burst
-Discard 2: Cover Dash
+Life: 6
+Discard 1: Cover Shooter
+Discard 2: Demolition Drive
 Special action available
 
 Runika
 ------
-Life: 13
-Discard 1: Channeled Strike
-Discard 2: Overcharged Grasp
-Special action available
+Life: 16
+Discard 1: Overcharged Tinker
+Discard 2: Channeled Drive
 Active artifacts: 
   Autodeflector
-Removed artifacts: 
   Phase Goggles
+  Shield Amulet
+Removed artifacts: 
   Battlefist
-
-
-..R...O
-
-
-Ottavia:
-46% Demolition Shooter (Target Lock: 4)
-2% Demolition Shooter (Target Lock: 9)
-10% Anti-Personnel Shooter (Target Lock: 8)
-40% Anti-Personnel Shooter (Target Lock: 9)
-0% Anti-Personnel Drive (Target Lock: 8)
-2% Anti-Personnel Grasp (Target Lock: 8)
-
-Runika:
-36% Maintenance Dash
-6% Explosive Tinker
-7% Explosive Shot
-12% Explosive Drive
-23% Explosive Burst
-15% Explosive Dash
-
-
-Ottavia: Anti-Personnel Shooter (Target Lock: 9)
-Runika: Explosive Burst
-
-Priorities:  1 | 1
-Clash!
-
-
-Ottavia: Anti-Personnel Grasp (Target Lock: 9)
-Runika: Explosive Drive
-
-Priorities:  4 | 4
-Clash!
-
-
-Ottavia: Anti-Personnel Strike (Target Lock: 9)
-Runika: Explosive Tinker
-
-Priorities:  2 | 3
-Runika is active
-Runika moves Ottavia:
-
-..R..O.
-
-Runika misses
-Hover Boots is activated
-Ottavia hits
-Autodeflector is de-activated
-Runika takes 7 damage (now at 6 life)
-Runika is stunned
-Ottavia moves:
-
-.OR....
-
-
-Beat 9
--------
-
-Ottavia
--------
-Life: 7
-Discard 1: Anti-Personnel Strike
-Discard 2: Snapback Burst
-Special action available
-
-Runika
-------
-Life: 6
-Discard 1: Explosive Tinker
-Discard 2: Channeled Strike
-Special action available
-Active artifacts: 
   Hover Boots
-Removed artifacts: 
-  Phase Goggles
-  Battlefist
 
-
-.OR....
-
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 5): 0.23
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 5): 0.23
-
-
-Ottavia:
-3% Demolition Grasp (Target Lock: 7)
-8% Cover Shooter (Target Lock: 5)
-13% Cover Drive (Target Lock: 5)
-9% Special Pulse (Target Lock: 2)
-9% Special Pulse (Target Lock: 3)
-9% Special Pulse (Target Lock: 4)
-9% Special Pulse (Target Lock: 5)
-9% Special Pulse (Target Lock: 6)
-9% Special Pulse (Target Lock: 7)
-9% Special Pulse (Target Lock: 10)
-9% Special Pulse (Target Lock: 11)
-
-Runika:
-29% Maintenance Grasp
-30% Impact Grasp
-1% Overcharged Grasp
-41% Special Artifice Avarice
-
-
-Ottavia: Special Pulse (Target Lock: 11)
-Runika: Special Artifice Avarice
-
-Ottavia Pulses:
-
-O....R.
-
-
-Beat 9
--------
-
-Ottavia
--------
-Life: 7
-Discard 1: Anti-Personnel Strike
-Discard 2: Snapback Burst
-
-Runika
-------
-Life: 6
-Discard 1: Special Drive
-Discard 2: Explosive Tinker
-Active artifacts: 
-  Hover Boots
-Removed artifacts: 
-  Phase Goggles
-  Battlefist
-
-
-O....R.
-
-Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: 3): 0.05
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 2): 0.05
-
-
-Ottavia:
-2% Cover Shooter (Target Lock: 2)
-2% Cover Shooter (Target Lock: 3)
-14% Cover Shooter (Target Lock: 4)
-2% Cover Shooter (Target Lock: 5)
-24% Cover Shooter (Target Lock: 6)
-2% Cover Shooter (Target Lock: 7)
-2% Cover Shooter (Target Lock: 8)
-2% Cover Shooter (Target Lock: 10)
-2% Cover Shooter (Target Lock: 11)
-2% Cover Shooter (Target Lock: 12)
-48% Cover Drive (Target Lock: 11)
-
-Runika:
-73% Maintenance Dash
-27% Impact Dash
-
-
-Ottavia: Cover Shooter (Target Lock: 6)
-Runika: Impact Dash
-
-Priorities:  -1 | 11
-Runika is active
-Runika moves:
-
-O...R..
-
-Runika moves:
 
 OR.....
 
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 9): 0.63
+Unbeatable strategy for Ottavia: Anti-Personnel Dash (Target Lock: 8): 0.21
+
+
+Ottavia:
+14% Cybernetic Strike (Target Lock: 9)
+6% Cybernetic Shot (Target Lock: 3)
+32% Cybernetic Shot (Target Lock: 5)
+3% Cybernetic Grasp (Target Lock: 5)
+23% Cybernetic Grasp (Target Lock: 8)
+22% Cybernetic Grasp (Target Lock: 9)
+
+Runika:
+30% Maintenance Dash
+16% Explosive Strike
+7% Explosive Burst
+19% Explosive Grasp
+26% Explosive Dash
+3% Impact Grasp
+
+
+Ottavia: Cybernetic Shot (Target Lock: 3)
+Runika: Maintenance Dash
+
+Priorities:  2 | 8
+Runika is active
+Runika moves:
+
+O..R...
+
+Runika moves:
+
+O.....R
+
 Ottavia misses
+
+Beat 9
+-------
+
+Ottavia
+-------
+Life: 6
+Discard 1: Cybernetic Shot
+Discard 2: Cover Shooter
+Special action available
+
+Runika
+------
+Life: 16
+Discard 1: Maintenance Dash
+Discard 2: Overcharged Tinker
+Active artifacts: 
+  Autodeflector
+  Phase Goggles
+  Shield Amulet
+Removed artifacts: 
+  Battlefist
+  Hover Boots
+
+
+O.....R
+
+Unbeatable strategy for Ottavia: Snapback Strike (Target Lock: 3): 0.39
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 4): 5.52
+Unbeatable strategy for Ottavia: Snapback Grasp (Target Lock: 5): 0.75
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 1): 0.07
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 2): 0.07
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): 0.07
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 4): 0.07
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 5): 0.07
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 6): 0.07
+
+
+Ottavia:
+76% Snapback Drive (Target Lock: 4)
+8% Snapback Burst (Target Lock: 2)
+10% Snapback Burst (Target Lock: 4)
+5% Anti-Personnel Drive (Target Lock: 3)
+1% Special Extreme Prejudice (Target Lock: 5)
+
+Runika:
+2% Explosive Burst
+8% Impact Strike
+2% Impact Shot
+4% Impact Drive
+84% Impact Grasp
+
+
+Ottavia: Snapback Burst (Target Lock: 4)
+Runika: Impact Drive
+
+Ottavia acquires target lock
+Priorities:  1 | -6
+Ottavia is active
+Ottavia hits
+Autodeflector is de-activated
+Runika takes 3 damage (now at 13 life)
+Runika misses
 
 Beat 10
 -------
 
 Ottavia
 -------
-Life: 7
-Discard 1: Cover Shooter
-Discard 2: Anti-Personnel Strike
+Life: 6
+Discard 1: Snapback Burst
+Discard 2: Cybernetic Shot
+Special action available
 
 Runika
 ------
-Life: 6
-Discard 1: Impact Dash
-Discard 2: Special Drive
+Life: 13
+Discard 1: Impact Drive
+Discard 2: Maintenance Dash
 Active artifacts: 
-  Hover Boots
-Removed artifacts: 
+  Shield Amulet
   Phase Goggles
+Removed artifacts: 
   Battlefist
+  Hover Boots
 
 
-OR.....
+O.....R
 
-Unbeatable strategy for Runika: Overcharged Tinker: -3.53
-Unbeatable strategy for Runika: Overcharged Strike: -3.21
-Unbeatable strategy for Runika: Overcharged Shot: -2.28
+Unbeatable strategy for Ottavia: Anti-Personnel Drive (Target Lock: 3): 3.68
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 1): 0.54
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 2): 2.47
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 3): 0.54
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 4): 0.54
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 5): 0.54
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 6): 0.54
 
 
 Ottavia:
-33% Snapback Drive (Target Lock: 6)
-8% Snapback Drive (Target Lock: 8)
-2% Snapback Grasp (Target Lock: 6)
-47% Snapback Grasp (Target Lock: 7)
-1% Snapback Dash (Target Lock: 2)
-1% Snapback Dash (Target Lock: 3)
-1% Snapback Dash (Target Lock: 4)
-1% Snapback Dash (Target Lock: 5)
-1% Snapback Dash (Target Lock: 6)
-1% Snapback Dash (Target Lock: 7)
-1% Snapback Dash (Target Lock: 8)
-1% Cybernetic Grasp (Target Lock: 6)
+15% Anti-Personnel Shooter (Target Lock: 2)
+25% Cover Shooter (Target Lock: 2)
+59% Cover Shooter (Target Lock: 3)
 
 Runika:
-6% Channeled Tinker
-3% Channeled Shot
-7% Channeled Grasp
-3% Explosive Grasp
-73% Overcharged Tinker
-7% Overcharged Strike
+74% Explosive Tinker
+5% Explosive Burst
+20% Overcharged Shot
 
 
-Ottavia: Snapback Dash (Target Lock: 7)
-Runika: Overcharged Tinker
+Ottavia: Cover Shooter (Target Lock: 2)
+Runika: Explosive Burst
 
-Priorities:  9 | 5
-Ottavia is active
-Runika overcharges her Hover Boots
-Runika becomes the active player
-Runika hits
-Ottavia takes 3 damage (now at 4 life)
-Ottavia is stunned
-Autodeflector is activated
-Hover Boots is removed from the game
+Priorities:  -1 | 1
+Runika is active
+Runika moves Ottavia:
+
+.O....R
+
+Runika misses
+Ottavia hits
+Phase Goggles is de-activated
+Runika takes 5 damage (now at 8 life)
+Runika is stunned
 
 Beat 11
 -------
 
 Ottavia
 -------
-Life: 4
-Discard 1: Snapback Dash
-Discard 2: Cover Shooter
+Life: 6
+Discard 1: Cover Shooter
+Discard 2: Snapback Burst
+Special action available
 
 Runika
 ------
-Life: 6
-Discard 1: Overcharged Tinker
-Discard 2: Impact Dash
-Special action available
+Life: 8
+Discard 1: Explosive Burst
+Discard 2: Impact Drive
 Active artifacts: 
-  Autodeflector
+  Shield Amulet
 Removed artifacts: 
-  Hover Boots
   Battlefist
-  Phase Goggles
+  Hover Boots
 
 
-OR.....
+.O....R
 
 
 Ottavia:
-1% Demolition Strike (Target Lock: 0)
-1% Demolition Strike (Target Lock: 1)
-1% Demolition Strike (Target Lock: 2)
-1% Demolition Strike (Target Lock: 3)
-1% Demolition Strike (Target Lock: 4)
-1% Demolition Strike (Target Lock: 5)
-1% Demolition Strike (Target Lock: 6)
-1% Demolition Shot (Target Lock: 0)
-1% Demolition Shot (Target Lock: 1)
-1% Demolition Shot (Target Lock: 2)
-1% Demolition Shot (Target Lock: 3)
-1% Demolition Shot (Target Lock: 4)
-1% Demolition Shot (Target Lock: 5)
-1% Demolition Shot (Target Lock: 6)
-1% Demolition Drive (Target Lock: 0)
-1% Demolition Drive (Target Lock: 1)
-1% Demolition Drive (Target Lock: 2)
-1% Demolition Drive (Target Lock: 3)
-1% Demolition Drive (Target Lock: 4)
-1% Demolition Drive (Target Lock: 5)
-1% Demolition Drive (Target Lock: 6)
-1% Demolition Burst (Target Lock: 0)
-1% Demolition Burst (Target Lock: 1)
-1% Demolition Burst (Target Lock: 2)
-1% Demolition Burst (Target Lock: 3)
-1% Demolition Burst (Target Lock: 4)
-1% Demolition Burst (Target Lock: 5)
-1% Demolition Burst (Target Lock: 6)
-1% Demolition Grasp (Target Lock: 0)
-1% Demolition Grasp (Target Lock: 1)
-1% Demolition Grasp (Target Lock: 2)
-1% Demolition Grasp (Target Lock: 3)
-1% Demolition Grasp (Target Lock: 4)
-1% Demolition Grasp (Target Lock: 5)
-1% Demolition Grasp (Target Lock: 6)
-1% Anti-Personnel Strike (Target Lock: 0)
-1% Anti-Personnel Strike (Target Lock: 1)
-1% Anti-Personnel Strike (Target Lock: 2)
-1% Anti-Personnel Strike (Target Lock: 3)
-1% Anti-Personnel Strike (Target Lock: 4)
-1% Anti-Personnel Strike (Target Lock: 5)
-1% Anti-Personnel Strike (Target Lock: 6)
-1% Anti-Personnel Shot (Target Lock: 0)
-1% Anti-Personnel Shot (Target Lock: 1)
-1% Anti-Personnel Shot (Target Lock: 2)
-1% Anti-Personnel Shot (Target Lock: 3)
-1% Anti-Personnel Shot (Target Lock: 4)
-1% Anti-Personnel Shot (Target Lock: 5)
-1% Anti-Personnel Shot (Target Lock: 6)
-1% Anti-Personnel Drive (Target Lock: 0)
-1% Anti-Personnel Drive (Target Lock: 1)
-1% Anti-Personnel Drive (Target Lock: 2)
-1% Anti-Personnel Drive (Target Lock: 3)
-1% Anti-Personnel Drive (Target Lock: 4)
-1% Anti-Personnel Drive (Target Lock: 5)
-1% Anti-Personnel Drive (Target Lock: 6)
-1% Anti-Personnel Burst (Target Lock: 0)
-1% Anti-Personnel Burst (Target Lock: 1)
-1% Anti-Personnel Burst (Target Lock: 2)
-1% Anti-Personnel Burst (Target Lock: 3)
-1% Anti-Personnel Burst (Target Lock: 4)
-1% Anti-Personnel Burst (Target Lock: 5)
-1% Anti-Personnel Burst (Target Lock: 6)
-1% Anti-Personnel Grasp (Target Lock: 0)
-1% Anti-Personnel Grasp (Target Lock: 1)
-1% Anti-Personnel Grasp (Target Lock: 2)
-1% Anti-Personnel Grasp (Target Lock: 3)
-1% Anti-Personnel Grasp (Target Lock: 4)
-1% Anti-Personnel Grasp (Target Lock: 5)
-1% Anti-Personnel Grasp (Target Lock: 6)
-1% Cybernetic Strike (Target Lock: 0)
-1% Cybernetic Strike (Target Lock: 1)
-1% Cybernetic Strike (Target Lock: 2)
-1% Cybernetic Strike (Target Lock: 3)
-1% Cybernetic Strike (Target Lock: 4)
-1% Cybernetic Strike (Target Lock: 5)
-1% Cybernetic Strike (Target Lock: 6)
-1% Cybernetic Shot (Target Lock: 0)
-1% Cybernetic Shot (Target Lock: 1)
-1% Cybernetic Shot (Target Lock: 2)
-1% Cybernetic Shot (Target Lock: 3)
-1% Cybernetic Shot (Target Lock: 4)
-1% Cybernetic Shot (Target Lock: 5)
-1% Cybernetic Shot (Target Lock: 6)
-1% Cybernetic Drive (Target Lock: 0)
-1% Cybernetic Drive (Target Lock: 1)
-1% Cybernetic Drive (Target Lock: 2)
-1% Cybernetic Drive (Target Lock: 3)
-1% Cybernetic Drive (Target Lock: 4)
-1% Cybernetic Drive (Target Lock: 5)
-1% Cybernetic Drive (Target Lock: 6)
-1% Cybernetic Burst (Target Lock: 0)
-1% Cybernetic Burst (Target Lock: 1)
-1% Cybernetic Burst (Target Lock: 2)
-1% Cybernetic Burst (Target Lock: 3)
-1% Cybernetic Burst (Target Lock: 4)
-1% Cybernetic Burst (Target Lock: 5)
-1% Cybernetic Burst (Target Lock: 6)
-1% Cybernetic Grasp (Target Lock: 0)
-1% Cybernetic Grasp (Target Lock: 1)
-1% Cybernetic Grasp (Target Lock: 2)
-1% Cybernetic Grasp (Target Lock: 3)
-1% Cybernetic Grasp (Target Lock: 4)
-1% Cybernetic Grasp (Target Lock: 5)
-1% Cybernetic Grasp (Target Lock: 6)
+25% Anti-Personnel Shot (Target Lock: 3)
+14% Anti-Personnel Shot (Target Lock: 8)
+31% Anti-Personnel Drive (Target Lock: 8)
+30% Anti-Personnel Drive (Target Lock: 10)
 
 Runika:
-100% Special Artifice Avarice
+10% Channeled Shot
+13% Channeled Dash
+48% Maintenance Tinker
+29% Maintenance Dash
 
 
-Ottavia: Cybernetic Strike (Target Lock: 4)
-Runika: Special Artifice Avarice
+Ottavia: Anti-Personnel Shot (Target Lock: 8)
+Runika: Maintenance Tinker
 
-Priorities:  3 | 3
+Priorities:  1 | 2
 Runika is active
-Battlefist is activated
-Hover Boots is activated
-Shield Amulet is activated
-Phase Goggles is activated
-Runika overcharges her Hover Boots
-Runika becomes the active player
-Runika hits
-Ottavia takes 4 damage (now at 0 life)
-RUNIKA WINS!
-total_time: 46
+Runika misses
+Autodeflector is activated
+Ottavia hits
+Autodeflector is de-activated
+Runika has 2 soak
+Runika takes 4 damage (now at 4 life)
+Ottavia moves:
+
+....O.R
+
+
+Beat 12
+-------
+
+Ottavia
+-------
+Life: 6
+Discard 1: Anti-Personnel Shot
+Discard 2: Cover Shooter
+Special action available
+
+Runika
+------
+Life: 4
+Discard 1: Maintenance Tinker
+Discard 2: Explosive Burst
+Active artifacts: 
+  Shield Amulet
+Removed artifacts: 
+  Battlefist
+  Hover Boots
+
+
+....O.R
+
+
+Ottavia:
+28% Snapback Strike (Target Lock: 5)
+6% Snapback Strike (Target Lock: 9)
+12% Snapback Strike (Target Lock: 10)
+35% Snapback Burst (Target Lock: 3)
+20% Snapback Burst (Target Lock: 5)
+
+Runika:
+16% Channeled Shot
+17% Channeled Drive
+15% Channeled Grasp
+24% Channeled Dash
+28% Impact Dash
+
+
+Ottavia: Snapback Strike (Target Lock: 5)
+Runika: Impact Dash
+
+Priorities:  3 | 9
+Runika is active
+Runika moves:
+
+....OR.
+
+Runika moves:
+
+...RO..
+
+Ottavia misses
+Ottavia moves:
+
+...R..O
+
+
+Beat 13
+-------
+
+Ottavia
+-------
+Life: 6
+Discard 1: Snapback Strike
+Discard 2: Anti-Personnel Shot
+Special action available
+
+Runika
+------
+Life: 4
+Discard 1: Impact Dash
+Discard 2: Maintenance Tinker
+Active artifacts: 
+  Shield Amulet
+Removed artifacts: 
+  Battlefist
+  Hover Boots
+
+
+...R..O
+
+
+Ottavia:
+27% Demolition Drive (Target Lock: 3)
+1% Demolition Drive (Target Lock: 5)
+33% Cover Shooter (Target Lock: 4)
+14% Cover Shooter (Target Lock: 5)
+24% Cover Drive (Target Lock: 5)
+
+Runika:
+39% Channeled Drive
+16% Explosive Drive
+2% Explosive Burst
+8% Explosive Grasp
+36% Overcharged Drive
+
+
+Ottavia: Cover Shooter (Target Lock: 4)
+Runika: Overcharged Drive
+
+Ottavia acquires target lock
+Priorities:  -1 | -6
+Ottavia is active
+Runika overcharges her Shield Amulet
+Ottavia hits
+No artifacts to de-activate
+Runika takes 5 damage (now at 0 life)
+OTTAVIA WINS!
+total_time: 50

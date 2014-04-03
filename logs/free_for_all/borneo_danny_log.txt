@@ -12,7 +12,7 @@ Beat 1
 Borneo
 ------
 Life: 20
-Discard 1: Slippery Petulant
+Discard 1: Petulant Slippery
 Discard 2: Smoke Knuckle
 Special action available
 
@@ -70,7 +70,7 @@ Borneo
 ------
 Life: 20
 Discard 1: Weaksauce Scene Shift
-Discard 2: Slippery Petulant
+Discard 2: Petulant Slippery
 Special action available
 
 Danny
@@ -95,26 +95,33 @@ Danny:
 
 
 Borneo: Pathetic Claw
-Danny: Vicious Strike
+Danny: Sinner's Dash
 
-Priorities:  4 | 6
+Priorities:  4 | 9
 Danny is active
-Danny hits
-Danny gets +1 power
-Borneo takes 4 damage (now at 16 life)
-Borneo is stunned
-Danny adds monsters to the board:
+Danny moves his monsters:
 
 ..DB...
-mm.mm..
+mm..m..
 
+Danny moves:
+
+...B..D
+mm..m..
+
+Borneo moves:
+
+.....BD
+mm..m..
+
+Borneo misses
 
 Beat 3
 -------
 
 Borneo
 ------
-Life: 16
+Life: 20
 Discard 1: Pathetic Claw
 Discard 2: Weaksauce Scene Shift
 Special action available
@@ -122,140 +129,102 @@ Special action available
 Danny
 -----
 Life: 20
-Discard 1: Vicious Strike
+Discard 1: Sinner's Dash
 Discard 2: Monstrous Hellgate
 Special action available
 
 
-..DB...
-mm.mm..
+.....BD
+mm..m..
+
+Unbeatable strategy for Danny: Shackled Strike: -0.12
+Unbeatable strategy for Danny: Vicious Strike: -0.49
 
 
 Borneo:
-43% Clumsy Divider
-1% Clumsy Master Plan
-11% Slippery Divider
-37% Slippery Hex
-9% Slippery Smoke
+45% Clumsy Divider
+55% Petulant Divider
 
 Danny:
-16% Fallen Shot
-36% Fallen Drive
-7% Fallen Burst
-35% Shackled Burst
-6% Sinner's Shot
+84% Vicious Strike
+16% Vicious Burst
 
 
 Borneo: Clumsy Divider
-Danny: Fallen Shot
+Danny: Vicious Strike
 
-Priorities:  2 | 2
-Clash!
-
-
-Borneo: Clumsy Knuckle
-Danny: Fallen Grasp
-
-Priorities:  5 | 5
-Clash!
-
-
-Borneo: Clumsy Smoke
-Danny: Fallen Burst
-
-Priorities:  3 | 1
-Borneo is active
-Danny moves:
-
-D..B...
-mm.mm..
-
-Borneo hits
-Borneo moves Danny:
-
-.D.B...
-mm.mm..
-
-Danny takes 3 damage (now at 17 life)
-Borneo removes monsters:
-
-.D.B...
-m..mm..
-
+Priorities:  2 | 4
+Danny is active
 Danny hits
-Danny gets +2 power
-Borneo takes 4 damage (now at 12 life)
-Borneo is stunned
+Danny gets +3 power
+Borneo has 2 soak
+Borneo takes 4 damage (now at 16 life)
 Danny adds monsters to the board:
 
-.D.B...
-m..mmm.
+.....BD
+mm..mm.
 
+Borneo hits
+Danny takes 5 damage (now at 15 life)
+Opponent will have +1 power and +1 priority next beat
 
 Beat 4
 -------
 
 Borneo
 ------
-Life: 12
-Discard 1: Clumsy Smoke
+Life: 16
+Discard 1: Clumsy Divider
 Discard 2: Pathetic Claw
 Special action available
+Opponent has +1 power and +1 priority
 
 Danny
 -----
-Life: 17
-Discard 1: Fallen Burst
-Discard 2: Vicious Strike
+Life: 15
+Discard 1: Vicious Strike
+Discard 2: Sinner's Dash
 Special action available
 
 
-.D.B...
-m..mmm.
+.....BD
+mm..mm.
 
-Unbeatable strategy for Danny: Monstrous Shot: -0.04
-Unbeatable strategy for Danny: Monstrous Grasp: -0.09
+Unbeatable strategy for Danny: Monstrous Shot: -2.73
+Unbeatable strategy for Danny: Monstrous Drive: -0.75
+Unbeatable strategy for Danny: Monstrous Burst: -1.22
+Unbeatable strategy for Danny: Monstrous Grasp: -0.46
+Unbeatable strategy for Danny: Fallen Shot: -2.06
+Unbeatable strategy for Danny: Fallen Drive: -1.62
+Unbeatable strategy for Danny: Fallen Grasp: -2.61
+Unbeatable strategy for Danny: Shackled Shot: -1.93
 
 
 Borneo:
-18% Weaksauce Hex
-0% Petulant Divider
-31% Petulant Hex
-14% Slippery Divider
-10% Slippery Hex
-27% Slippery Scene Shift
+18% Weaksauce Knuckle
+44% Slippery Hex
+37% Slippery Knuckle
 
 Danny:
-9% Monstrous Shot
-32% Monstrous Drive
-16% Monstrous Grasp
-22% Shackled Hellgate
-9% Shackled Shot
-12% Sinner's Hellgate
+53% Monstrous Shot
+26% Monstrous Drive
+21% Fallen Drive
 
 
-Borneo: Petulant Hex
+Borneo: Slippery Hex
 Danny: Monstrous Shot
 
-Priorities:  1 | 1
-Clash!
-
-
-Borneo: Petulant Scene Shift
-Danny: Monstrous Hellgate
-
-Priorities:  2 | -1
+Priorities:  3 | 2
 Borneo is active
-Borneo misses
-Danny moves:
-
-D..B...
-m..mmm.
-
+Borneo hits
+Danny takes 2 damage (now at 13 life)
+Danny hits
+Borneo takes 5 damage (now at 11 life)
+Borneo is stunned
 Danny adds monsters to the board:
 
-D..B...
-mmmmmmm
+.....BD
+mm.mmm.
 
 
 Beat 5
@@ -263,189 +232,159 @@ Beat 5
 
 Borneo
 ------
-Life: 12
-Discard 1: Petulant Scene Shift
-Discard 2: Clumsy Smoke
+Life: 11
+Discard 1: Slippery Hex
+Discard 2: Clumsy Divider
 Special action available
 
 Danny
 -----
-Life: 17
-Discard 1: Monstrous Hellgate
-Discard 2: Fallen Burst
+Life: 13
+Discard 1: Monstrous Shot
+Discard 2: Vicious Strike
 Special action available
 
 
-D..B...
-mmmmmmm
+.....BD
+mm.mmm.
+
+Unbeatable strategy for Danny: Fallen Hellgate: -1.03
+Unbeatable strategy for Danny: Fallen Grasp: -1.92
+Unbeatable strategy for Danny: Shackled Hellgate: -0.66
+Unbeatable strategy for Danny: Sinner's Hellgate: -1.15
 
 
 Borneo:
-39% Pathetic Divider
-61% Slippery Divider
+31% Weaksauce Knuckle
+37% Pathetic Knuckle
+32% Petulant Knuckle
 
 Danny:
-34% Shackled Strike
-66% Vicious Grasp
+83% Fallen Grasp
+12% Shackled Hellgate
+4% Shackled Drive
 
 
-Borneo: Slippery Divider
-Danny: Vicious Grasp
+Borneo: Petulant Knuckle
+Danny: Fallen Grasp
 
-Priorities:  2 | 9
+Priorities:  3 | 5
 Danny is active
 Danny hits
-Danny gets +3 power
-Danny moves Borneo:
-
-D...B..
-mmmmmmm
-
-Borneo has 2 soak
-Borneo takes 2 damage (now at 10 life)
-Borneo moves:
-
-D.B....
-mmmmmmm
-
-Borneo misses
-Borneo removes monsters:
-
-D.B....
-m.mmmmm
-
-Opponent will have +1 power and +1 priority next beat
+Danny gets +2 power
+Borneo takes 3 damage (now at 8 life)
+Borneo is stunned
 
 Beat 6
 -------
 
 Borneo
 ------
-Life: 10
-Discard 1: Slippery Divider
-Discard 2: Petulant Scene Shift
+Life: 8
+Discard 1: Petulant Knuckle
+Discard 2: Slippery Hex
 Special action available
-Opponent has +1 power and +1 priority
 
 Danny
 -----
-Life: 17
-Discard 1: Vicious Grasp
-Discard 2: Monstrous Hellgate
+Life: 13
+Discard 1: Fallen Grasp
+Discard 2: Monstrous Shot
 Special action available
 
 
-D.B....
-m.mmmmm
+.....BD
+mm.mmm.
+
+Unbeatable strategy for Danny: Shackled Hellgate: -2.02
+Unbeatable strategy for Danny: Sinner's Hellgate: -2.23
+Unbeatable strategy for Danny: Vicious Hellgate: -0.36
 
 
 Borneo:
-9% Clumsy Master Plan
-91% Pathetic Knuckle
+15% Clumsy Claw
+79% Clumsy Divider
+6% Clumsy Master Plan
 
 Danny:
-45% Sinner's Drive
-55% Sinner's Dash
+56% Shackled Hellgate
+16% Shackled Strike
+27% Sinner's Hellgate
 
 
-Borneo: Pathetic Knuckle
-Danny: Sinner's Dash
+Borneo: Clumsy Claw
+Danny: Shackled Strike
 
-Priorities:  5 | 10
-Danny is active
-Danny moves his monsters:
-
-D.B....
-mmm.mmm
-
-Danny moves:
-
-..BD...
-mmm.mmm
-
-Borneo misses
-Borneo removes monsters:
-
-..BD...
-mmm.m.m
-
+Priorities:  4 | 2
+Borneo is active
+Borneo hits
+Danny takes 4 damage (now at 9 life)
+Danny hits
+Borneo takes 4 damage (now at 4 life)
+Borneo is stunned
 
 Beat 7
 -------
 
 Borneo
 ------
-Life: 10
-Discard 1: Pathetic Knuckle
-Discard 2: Slippery Divider
+Life: 4
+Discard 1: Clumsy Claw
+Discard 2: Petulant Knuckle
 Special action available
 
 Danny
 -----
-Life: 17
-Discard 1: Sinner's Dash
-Discard 2: Vicious Grasp
+Life: 9
+Discard 1: Shackled Strike
+Discard 2: Fallen Grasp
 Special action available
 
 
-..BD...
-mmm.m.m
+.....BD
+mm.mmm.
+
+Unbeatable strategy for Danny: Vicious Shot: -0.17
 
 
 Borneo:
-20% Weaksauce Claw
-18% Weaksauce Hex
-12% Clumsy Claw
-30% Clumsy Hex
-21% Clumsy Scene Shift
+5% Weaksauce Divider
+21% Weaksauce Hex
+17% Weaksauce Master Plan
+47% Pathetic Smoke
+11% Special Mama Mazzaroth
 
 Danny:
-44% Monstrous Hellgate
-8% Monstrous Shot
-8% Monstrous Drive
-35% Fallen Drive
-4% Shackled Drive
+63% Monstrous Hellgate
+24% Monstrous Shot
+0% Monstrous Drive
+8% Monstrous Burst
+4% Vicious Shot
 
 
-Borneo: Weaksauce Claw
-Danny: Monstrous Drive
+Borneo: Weaksauce Divider
+Danny: Monstrous Hellgate
 
-Priorities:  5 | 3
+Priorities:  3 | -1
 Borneo is active
-Borneo moves:
-
-...DB..
-mmm.m.m
-
 Borneo hits
-Danny takes 1 damage (now at 16 life)
-Borneo removes monsters:
-
-...DB..
-mm..m.m
-
+Danny has 3 soak
+Danny takes 0 damage (now at 9 life)
 Borneo moves:
 
-...D..B
-mm..m.m
+...B..D
+mm.mmm.
 
 Danny moves:
 
-....D.B
-mm..m.m
+D..B...
+mm.mmm.
 
-Danny hits
-Borneo takes 4 damage (now at 6 life)
-Borneo is stunned
+Opponent will have +1 power and +1 priority next beat
 Danny adds monsters to the board:
 
-....D.B
-mm..mmm
-
-Danny adds monsters to the board:
-
-....D.B
-mm.mmmm
+D..B...
+mmmmmmm
 
 
 Beat 8
@@ -453,190 +392,82 @@ Beat 8
 
 Borneo
 ------
-Life: 6
-Discard 1: Weaksauce Claw
-Discard 2: Pathetic Knuckle
-Special action available
-
-Danny
------
-Life: 16
-Discard 1: Monstrous Drive
-Discard 2: Sinner's Dash
-Special action available
-
-
-....D.B
-mm.mmmm
-
-
-Borneo:
-24% Clumsy Divider
-50% Clumsy Hex
-27% Special Mama Mazzaroth
-
-Danny:
-40% Fallen Grasp
-37% Shackled Hellgate
-23% Vicious Hellgate
-
-
-Borneo: Clumsy Hex
-Danny: Fallen Grasp
-
-Priorities:  3 | 5
-Danny is active
-Danny hits
-Danny gets +2 power
-Danny moves Borneo:
-
-....DB.
-mm.mmmm
-
-Borneo takes 3 damage (now at 3 life)
-Borneo is stunned
-
-Beat 14
--------
-
-Borneo
-------
-Life: 3
-Discard 1: Clumsy Hex
-Discard 2: Weaksauce Claw
-Special action available
-
-Danny
------
-Life: 16
-Discard 1: Fallen Grasp
-Discard 2: Monstrous Drive
-Special action available
-
-
-....DB.
-mm.mmmm
-
-
-Borneo:
-17% Pathetic Divider
-26% Pathetic Knuckle
-33% Petulant Divider
-25% Slippery Divider
-
-Danny:
-43% Shackled Hellgate
-14% Shackled Burst
-20% Vicious Hellgate
-24% Vicious Burst
-
-
-Borneo: Petulant Divider
-Danny: Shackled Hellgate
-
-Priorities:  0 | -1
-Borneo is active
-Borneo hits
-Danny has 3 soak
-Danny takes 1 damage (now at 15 life)
-Danny is stunned
-Borneo removes monsters:
-
-....DB.
-mm.m.mm
-
-Opponent will have +1 power and +1 priority next beat
-Danny adds monsters to the board:
-
-....DB.
-mmmmmmm
-
-
-Beat 14
--------
-
-Borneo
-------
-Life: 3
-Discard 1: Petulant Divider
-Discard 2: Clumsy Hex
+Life: 4
+Discard 1: Weaksauce Divider
+Discard 2: Clumsy Claw
 Special action available
 Opponent has +1 power and +1 priority
 
 Danny
 -----
-Life: 15
-Discard 1: Shackled Hellgate
-Discard 2: Fallen Grasp
+Life: 9
+Discard 1: Monstrous Hellgate
+Discard 2: Shackled Strike
 Special action available
 
 
-....DB.
+D..B...
 mmmmmmm
 
-Unbeatable strategy for Danny: Sinner's Drive: -8.00
-Unbeatable strategy for Danny: Vicious Strike: -8.00
-Unbeatable strategy for Danny: Vicious Shot: -8.00
-Unbeatable strategy for Danny: Vicious Drive: -8.00
-Unbeatable strategy for Danny: Vicious Burst: -8.00
+Unbeatable strategy for Danny: Fallen Drive: -9.00
+Unbeatable strategy for Danny: Fallen Grasp: -9.00
+Unbeatable strategy for Danny: Sinner's Drive: -0.22
+Unbeatable strategy for Danny: Vicious Shot: -9.00
+Unbeatable strategy for Danny: Vicious Drive: -9.00
+Unbeatable strategy for Danny: Vicious Burst: -9.00
+Unbeatable strategy for Danny: Vicious Grasp: -9.00
 
 
 Borneo:
-1% Pathetic Claw
-10% Pathetic Knuckle
-89% Special Pulse
+2% Petulant Hex
+98% Special Pulse
 
 Danny:
-37% Monstrous Shot
-4% Sinner's Drive
-59% Vicious Shot
+51% Fallen Grasp
+49% Sinner's Grasp
 
 
 Borneo: Special Pulse
-Danny: Vicious Shot
+Danny: Sinner's Grasp
 
-Pulse:
+Borneo Pulses:
 
-.D.B...
+B.D....
 mmmmmmm
 
 
-Beat 13
+Beat 8
 -------
 
 Borneo
 ------
-Life: 3
-Discard 1: Petulant Divider
-Discard 2: Clumsy Hex
+Life: 4
+Discard 1: Weaksauce Divider
+Discard 2: Clumsy Claw
 
 Danny
 -----
-Life: 15
-Discard 1: Vicious Shot
-Discard 2: Shackled Hellgate
+Life: 9
+Discard 1: Sinner's Grasp
+Discard 2: Monstrous Hellgate
 Special action available
 
 
-.D.B...
+B.D....
 mmmmmmm
 
-Unbeatable strategy for Danny: Fallen Grasp: -8.00
-Unbeatable strategy for Danny: Sinner's Grasp: -1.08
+Unbeatable strategy for Danny: Vicious Strike: -0.44
 
 
 Borneo:
-100% Pathetic Knuckle
+32% Pathetic Knuckle
+39% Pathetic Scene Shift
+29% Pathetic Smoke
 
 Danny:
-100% Fallen Grasp
-
-
-Borneo: Pathetic Knuckle
-Danny: Fallen Grasp
-
-Priorities:  5 | 5
-Clash!
+40% Fallen Drive
+35% Fallen Burst
+25% Shackled Strike
 
 
 Borneo: Pathetic Scene Shift
@@ -646,91 +477,89 @@ Priorities:  4 | 4
 Clash!
 
 
-Borneo: Pathetic Claw
+Borneo: Pathetic Hex
 Danny: Fallen Dash
 
-Priorities:  4 | 9
+Priorities:  3 | 9
 Danny is active
 Danny moves:
 
-...BD..
+B....D.
 mmmmmmm
 
-Borneo moves:
+Borneo hits
+Borneo moves Danny:
 
-....D.B
+B...D..
 mmmmmmm
 
-Borneo misses
-Borneo removes monsters:
+Danny takes 2 damage (now at 7 life)
 
-....D.B
-mm.mmmm
-
-
-Beat 14
+Beat 9
 -------
 
 Borneo
 ------
-Life: 3
-Discard 1: Pathetic Claw
-Discard 2: Petulant Divider
+Life: 4
+Discard 1: Pathetic Hex
+Discard 2: Weaksauce Divider
 
 Danny
 -----
-Life: 15
+Life: 7
 Discard 1: Fallen Dash
-Discard 2: Vicious Shot
+Discard 2: Sinner's Grasp
 Special action available
 
 
-....D.B
-mm.mmmm
+B...D..
+mmmmmmm
 
-Unbeatable strategy for Danny: Monstrous Drive: -8.00
-Unbeatable strategy for Danny: Monstrous Burst: -8.00
-Unbeatable strategy for Danny: Monstrous Grasp: -0.22
-Unbeatable strategy for Danny: Shackled Strike: -8.00
-Unbeatable strategy for Danny: Shackled Drive: -8.00
-Unbeatable strategy for Danny: Sinner's Strike: -8.00
-Unbeatable strategy for Danny: Sinner's Grasp: -1.94
+Unbeatable strategy for Danny: Monstrous Strike: -9.00
+Unbeatable strategy for Danny: Monstrous Shot: -9.00
+Unbeatable strategy for Danny: Monstrous Drive: -9.00
+Unbeatable strategy for Danny: Monstrous Burst: -9.00
+Unbeatable strategy for Danny: Shackled Hellgate: -2.26
+Unbeatable strategy for Danny: Shackled Strike: -9.00
+Unbeatable strategy for Danny: Shackled Burst: -1.40
 
 
 Borneo:
-6% Weaksauce Hex
-6% Weaksauce Knuckle
-8% Weaksauce Master Plan
-7% Weaksauce Scene Shift
-6% Weaksauce Smoke
-6% Clumsy Hex
-4% Clumsy Knuckle
-5% Clumsy Master Plan
-6% Clumsy Scene Shift
-6% Clumsy Smoke
-8% Slippery Hex
-8% Slippery Knuckle
-9% Slippery Master Plan
-6% Slippery Scene Shift
-9% Slippery Smoke
+7% Clumsy Claw
+8% Clumsy Knuckle
+6% Clumsy Master Plan
+8% Clumsy Scene Shift
+8% Clumsy Smoke
+6% Petulant Claw
+6% Petulant Knuckle
+7% Petulant Master Plan
+7% Petulant Scene Shift
+5% Petulant Smoke
+7% Slippery Claw
+7% Slippery Knuckle
+4% Slippery Master Plan
+7% Slippery Scene Shift
+7% Slippery Smoke
 
 Danny:
-50% Shackled Strike
-50% Shackled Drive
+25% Monstrous Strike
+25% Monstrous Shot
+25% Monstrous Drive
+25% Monstrous Burst
 
 
-Borneo: Clumsy Scene Shift
-Danny: Shackled Drive
+Borneo: Clumsy Knuckle
+Danny: Monstrous Shot
 
-Priorities:  4 | 3
+Priorities:  5 | 1
 Borneo is active
 Borneo misses
-Danny moves:
+Borneo removes monsters:
 
-.....DB
-mm.mmmm
+B...D..
+m.mmmmm
 
 Danny hits
-Borneo takes 3 damage (now at 0 life)
+Borneo takes 4 damage (now at 0 life)
 DANNY WINS!
-total_time: 25
+total_time: 18

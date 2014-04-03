@@ -13,7 +13,7 @@ Borneo
 ------
 Life: 20
 Discard 1: Slippery Petulant
-Discard 2: Smoke Knuckle
+Discard 2: Knuckle Smoke
 Special action available
 
 Demitras
@@ -79,9 +79,9 @@ Special action available
 
 .B.D...
 
-Unbeatable strategy for Demitras: Darkside Shot: -3.19
-Unbeatable strategy for Demitras: Darkside Shot (1 token): -1.34
-Unbeatable strategy for Demitras: Darkside Burst: -3.22
+Unbeatable strategy for Demitras: Darkside Shot: -2.89
+Unbeatable strategy for Demitras: Darkside Shot (1 token): -1.04
+Unbeatable strategy for Demitras: Darkside Burst: -2.92
 
 
 Borneo:
@@ -92,22 +92,26 @@ Borneo:
 Demitras:
 35% Darkside Shot
 60% Darkside Burst
-3% Illusory Burst
+2% Illusory Burst
 1% Illusory Burst (1 token)
 1% Illusory Burst (2 tokens)
 1% Illusory Burst (3 tokens)
 
 
 Borneo: Clumsy Divider
-Demitras: Darkside Shot
+Demitras: Darkside Burst
 
-Priorities:  2 | 6
+Priorities:  2 | 5
 Demitras is active
+Demitras moves:
+
+.B..D..
+
 Demitras hits
 Demitras gains 1 Crescendo token
 Demitras moves:
 
-.B..D..
+.B....D
 
 Borneo has 2 soak
 Borneo takes 0 damage (now at 18 life)
@@ -128,39 +132,32 @@ Opponent has +1 power and +1 priority
 Demitras
 --------
 Life: 20
-Discard 1: Darkside Shot
+Discard 1: Darkside Burst
 Discard 2: Vapid Drive
 Special action available
 4 Crescendo token
 
 
-.B..D..
+.B....D
 
-Unbeatable strategy for Demitras: Jousting Strike: -0.13
+Unbeatable strategy for Demitras: Jousting Strike: -0.42
 
 
 Borneo:
-6% Pathetic Master Plan
-14% Petulant Hex
-62% Petulant Master Plan
-2% Petulant Scene Shift
-16% Slippery Master Plan
+11% Petulant Hex
+83% Petulant Master Plan
+6% Petulant Scene Shift
 
 Demitras:
-24% Illusory Dash
-10% Illusory Dash (1 token)
-7% Illusory Dash (2 tokens)
-5% Illusory Dash (3 tokens)
-4% Illusory Dash (4 tokens)
-32% Jousting Strike
+50% Jousting Strike
 4% Jousting Strike (1 token)
-15% Jousting Dash
+45% Jousting Dash
 
 
-Borneo: Petulant Master Plan
+Borneo: Petulant Hex
 Demitras: Jousting Strike
 
-Priorities:  -2 | 9
+Priorities:  1 | 9
 Demitras is active
 Demitras moves:
 
@@ -174,8 +171,12 @@ DB.....
 
 Borneo takes 3 damage (now at 15 life)
 Borneo hits
+Borneo moves Demitras:
+
+.BD....
+
 Demitras discards a Crescendo token
-Demitras takes 4 damage (now at 16 life)
+Demitras takes 3 damage (now at 17 life)
 
 Beat 4
 -------
@@ -183,59 +184,268 @@ Beat 4
 Borneo
 ------
 Life: 15
-Discard 1: Petulant Master Plan
+Discard 1: Petulant Hex
 Discard 2: Clumsy Divider
 Special action available
 
 Demitras
 --------
-Life: 16
+Life: 17
 Discard 1: Jousting Strike
-Discard 2: Darkside Shot
+Discard 2: Darkside Burst
 Special action available
 4 Crescendo token
 
 
-DB.....
+.BD....
 
-Unbeatable strategy for Demitras: Bloodletting Deathblow: -0.74
-Unbeatable strategy for Demitras: Bloodletting Deathblow (1 token): -1.74
-Unbeatable strategy for Demitras: Bloodletting Deathblow (2 tokens): -2.74
-Unbeatable strategy for Demitras: Bloodletting Deathblow (3 tokens): -2.99
-Unbeatable strategy for Demitras: Bloodletting Deathblow (4 tokens): -2.44
-Unbeatable strategy for Demitras: Bloodletting Drive: -2.81
-Unbeatable strategy for Demitras: Bloodletting Drive (1 token): -3.56
-Unbeatable strategy for Demitras: Bloodletting Drive (2 tokens): -3.81
-Unbeatable strategy for Demitras: Bloodletting Drive (3 tokens): -3.26
-Unbeatable strategy for Demitras: Bloodletting Drive (4 tokens): -1.71
-Unbeatable strategy for Demitras: Bloodletting Grasp (1 token): -1.50
-Unbeatable strategy for Demitras: Bloodletting Grasp (2 tokens): -1.75
-Unbeatable strategy for Demitras: Bloodletting Grasp (3 tokens): -1.20
-Unbeatable strategy for Demitras: Vapid Deathblow: -2.30
-Unbeatable strategy for Demitras: Vapid Deathblow (1 token): -2.30
-Unbeatable strategy for Demitras: Vapid Deathblow (2 tokens): -1.95
-Unbeatable strategy for Demitras: Vapid Deathblow (3 tokens): -1.10
-Unbeatable strategy for Demitras: Vapid Drive: -4.06
-Unbeatable strategy for Demitras: Vapid Drive (1 token): -3.71
-Unbeatable strategy for Demitras: Vapid Drive (2 tokens): -2.86
-Unbeatable strategy for Demitras: Vapid Grasp: -1.94
-Unbeatable strategy for Demitras: Vapid Grasp (1 token): -1.59
-Unbeatable strategy for Demitras: Vapid Grasp (2 tokens): -0.74
-Unbeatable strategy for Demitras: Illusory Deathblow: -2.59
-Unbeatable strategy for Demitras: Illusory Deathblow (1 token): -2.59
-Unbeatable strategy for Demitras: Illusory Deathblow (2 tokens): -2.59
-Unbeatable strategy for Demitras: Illusory Deathblow (3 tokens): -2.59
-Unbeatable strategy for Demitras: Illusory Deathblow (4 tokens): -2.59
-Unbeatable strategy for Demitras: Illusory Drive: -4.41
-Unbeatable strategy for Demitras: Illusory Drive (1 token): -4.41
-Unbeatable strategy for Demitras: Illusory Drive (2 tokens): -4.41
-Unbeatable strategy for Demitras: Illusory Drive (3 tokens): -4.41
-Unbeatable strategy for Demitras: Illusory Drive (4 tokens): -4.41
-Unbeatable strategy for Demitras: Illusory Grasp: -2.35
-Unbeatable strategy for Demitras: Illusory Grasp (1 token): -2.35
-Unbeatable strategy for Demitras: Illusory Grasp (2 tokens): -2.35
-Unbeatable strategy for Demitras: Illusory Grasp (3 tokens): -2.35
-Unbeatable strategy for Demitras: Illusory Grasp (4 tokens): -2.35
+Unbeatable strategy for Demitras: Bloodletting Deathblow: -1.53
+Unbeatable strategy for Demitras: Bloodletting Deathblow (1 token): -2.53
+Unbeatable strategy for Demitras: Bloodletting Deathblow (2 tokens): -3.28
+Unbeatable strategy for Demitras: Bloodletting Deathblow (3 tokens): -3.53
+Unbeatable strategy for Demitras: Bloodletting Deathblow (4 tokens): -1.98
+Unbeatable strategy for Demitras: Bloodletting Shot: -2.45
+Unbeatable strategy for Demitras: Bloodletting Shot (1 token): -3.20
+Unbeatable strategy for Demitras: Bloodletting Shot (2 tokens): -3.45
+Unbeatable strategy for Demitras: Bloodletting Shot (3 tokens): -2.90
+Unbeatable strategy for Demitras: Bloodletting Shot (4 tokens): -0.23
+Unbeatable strategy for Demitras: Bloodletting Grasp (1 token): -2.42
+Unbeatable strategy for Demitras: Bloodletting Grasp (2 tokens): -2.67
+Unbeatable strategy for Demitras: Bloodletting Grasp (3 tokens): -2.12
+Unbeatable strategy for Demitras: Vapid Deathblow: -2.72
+Unbeatable strategy for Demitras: Vapid Deathblow (1 token): -2.72
+Unbeatable strategy for Demitras: Vapid Deathblow (2 tokens): -2.37
+Unbeatable strategy for Demitras: Vapid Deathblow (3 tokens): -1.52
+Unbeatable strategy for Demitras: Vapid Shot: -3.59
+Unbeatable strategy for Demitras: Vapid Shot (1 token): -0.17
+Unbeatable strategy for Demitras: Vapid Grasp: -2.84
+Unbeatable strategy for Demitras: Vapid Grasp (1 token): -2.49
+Unbeatable strategy for Demitras: Vapid Grasp (2 tokens): -1.64
+Unbeatable strategy for Demitras: Illusory Deathblow: -3.13
+Unbeatable strategy for Demitras: Illusory Deathblow (1 token): -3.13
+Unbeatable strategy for Demitras: Illusory Deathblow (2 tokens): -3.13
+Unbeatable strategy for Demitras: Illusory Deathblow (3 tokens): -3.13
+Unbeatable strategy for Demitras: Illusory Deathblow (4 tokens): -3.13
+Unbeatable strategy for Demitras: Illusory Shot: -4.05
+Unbeatable strategy for Demitras: Illusory Shot (1 token): -4.05
+Unbeatable strategy for Demitras: Illusory Shot (2 tokens): -4.05
+Unbeatable strategy for Demitras: Illusory Shot (3 tokens): -4.05
+Unbeatable strategy for Demitras: Illusory Shot (4 tokens): -4.05
+Unbeatable strategy for Demitras: Illusory Grasp: -3.27
+Unbeatable strategy for Demitras: Illusory Grasp (1 token): -3.27
+Unbeatable strategy for Demitras: Illusory Grasp (2 tokens): -3.27
+Unbeatable strategy for Demitras: Illusory Grasp (3 tokens): -3.27
+Unbeatable strategy for Demitras: Illusory Grasp (4 tokens): -3.27
+
+
+Borneo:
+52% Weaksauce Master Plan
+48% Special Pulse
+
+Demitras:
+60% Illusory Deathblow
+40% Illusory Shot
+
+
+Borneo: Weaksauce Master Plan
+Demitras: Illusory Deathblow
+
+Priorities:  1 | 13
+Demitras is active
+Demitras hits
+Demitras gains 1 Crescendo token
+Demitras spends a Crescendo token
+Borneo takes 1 damage (now at 14 life)
+Demitras gains 1 Crescendo token
+Borneo misses
+Borneo moves:
+
+B.D....
+
+
+Beat 5
+-------
+
+Borneo
+------
+Life: 14
+Discard 1: Weaksauce Master Plan
+Discard 2: Petulant Hex
+Special action available
+
+Demitras
+--------
+Life: 17
+Discard 1: Illusory Deathblow
+Discard 2: Jousting Strike
+Special action available
+5 Crescendo token
+
+
+B.D....
+
+Unbeatable strategy for Demitras: Darkside Shot: -0.24
+Unbeatable strategy for Demitras: Darkside Shot (1 token): -1.24
+Unbeatable strategy for Demitras: Darkside Shot (2 tokens): -0.89
+Unbeatable strategy for Demitras: Darkside Shot (3 tokens): -0.04
+Unbeatable strategy for Demitras: Darkside Drive: -0.39
+Unbeatable strategy for Demitras: Darkside Drive (1 token): -1.39
+Unbeatable strategy for Demitras: Darkside Drive (2 tokens): -1.04
+Unbeatable strategy for Demitras: Darkside Drive (3 tokens): -0.19
+Unbeatable strategy for Demitras: Darkside Burst: -0.23
+Unbeatable strategy for Demitras: Darkside Burst (1 token): -1.23
+Unbeatable strategy for Demitras: Darkside Burst (2 tokens): -0.88
+Unbeatable strategy for Demitras: Vapid Burst (1 token): -1.93
+Unbeatable strategy for Demitras: Vapid Burst (2 tokens): -1.58
+
+
+Borneo:
+21% Clumsy Divider
+7% Clumsy Knuckle
+66% Pathetic Divider
+5% Special Pulse
+
+Demitras:
+52% Darkside Drive (1 token)
+10% Darkside Burst (1 token)
+24% Vapid Burst (1 token)
+14% Vapid Burst (2 tokens)
+
+
+Borneo: Clumsy Knuckle
+Demitras: Darkside Drive (1 token)
+
+Demitras antes a Crescendo token
+Priorities:  5 | 9
+Demitras is active
+Demitras moves:
+
+BD.....
+
+Demitras hits
+Demitras gains 1 Crescendo token
+Borneo takes 3 damage (now at 11 life)
+Borneo is stunned
+
+Beat 6
+-------
+
+Borneo
+------
+Life: 11
+Discard 1: Clumsy Knuckle
+Discard 2: Weaksauce Master Plan
+Special action available
+
+Demitras
+--------
+Life: 17
+Discard 1: Darkside Drive
+Discard 2: Illusory Deathblow
+Special action available
+5 Crescendo token
+
+
+BD.....
+
+Unbeatable strategy for Demitras: Bloodletting Strike (5 tokens): -16.00
+Unbeatable strategy for Demitras: Bloodletting Shot (5 tokens): -16.00
+Unbeatable strategy for Demitras: Bloodletting Burst (5 tokens): -16.00
+
+
+Borneo:
+21% Pathetic Divider
+20% Petulant Divider
+9% Petulant Hex
+49% Special Pulse
+
+Demitras:
+51% Bloodletting Strike (1 token)
+6% Bloodletting Strike (5 tokens)
+2% Bloodletting Burst (1 token)
+41% Vapid Dash
+
+
+Borneo: Petulant Divider
+Demitras: Bloodletting Strike (1 token)
+
+Demitras antes a Crescendo token
+Priorities:  0 | 10
+Demitras is active
+Demitras hits
+Demitras gains 1 Crescendo token
+Demitras gains 1 life (now at 18)
+Borneo takes 4 damage (now at 7 life)
+Borneo hits
+Demitras discards a Crescendo token
+Demitras takes 4 damage (now at 14 life)
+Opponent will have +1 power and +1 priority next beat
+
+Beat 7
+-------
+
+Borneo
+------
+Life: 7
+Discard 1: Petulant Divider
+Discard 2: Clumsy Knuckle
+Special action available
+Opponent has +1 power and +1 priority
+
+Demitras
+--------
+Life: 14
+Discard 1: Bloodletting Strike
+Discard 2: Darkside Drive
+Special action available
+4 Crescendo token
+
+
+BD.....
+
+Unbeatable strategy for Demitras: Vapid Deathblow: -12.00
+Unbeatable strategy for Demitras: Vapid Deathblow (1 token): -12.00
+Unbeatable strategy for Demitras: Vapid Deathblow (2 tokens): -12.00
+Unbeatable strategy for Demitras: Vapid Deathblow (3 tokens): -12.00
+Unbeatable strategy for Demitras: Vapid Deathblow (4 tokens): -12.00
+Unbeatable strategy for Demitras: Vapid Shot: -4.95
+Unbeatable strategy for Demitras: Vapid Shot (1 token): -4.70
+Unbeatable strategy for Demitras: Vapid Shot (2 tokens): -12.00
+Unbeatable strategy for Demitras: Vapid Shot (3 tokens): -12.00
+Unbeatable strategy for Demitras: Vapid Grasp: -3.57
+Unbeatable strategy for Demitras: Vapid Grasp (1 token): -3.32
+Unbeatable strategy for Demitras: Vapid Grasp (2 tokens): -2.57
+Unbeatable strategy for Demitras: Vapid Grasp (3 tokens): -12.00
+Unbeatable strategy for Demitras: Vapid Grasp (4 tokens): -12.00
+Unbeatable strategy for Demitras: Illusory Deathblow: -12.00
+Unbeatable strategy for Demitras: Illusory Deathblow (1 token): -12.00
+Unbeatable strategy for Demitras: Illusory Deathblow (2 tokens): -12.00
+Unbeatable strategy for Demitras: Illusory Deathblow (3 tokens): -12.00
+Unbeatable strategy for Demitras: Illusory Deathblow (4 tokens): -12.00
+Unbeatable strategy for Demitras: Illusory Shot: -5.23
+Unbeatable strategy for Demitras: Illusory Shot (1 token): -5.23
+Unbeatable strategy for Demitras: Illusory Shot (2 tokens): -5.23
+Unbeatable strategy for Demitras: Illusory Shot (3 tokens): -5.23
+Unbeatable strategy for Demitras: Illusory Shot (4 tokens): -5.23
+Unbeatable strategy for Demitras: Illusory Grasp: -3.82
+Unbeatable strategy for Demitras: Illusory Grasp (1 token): -3.82
+Unbeatable strategy for Demitras: Illusory Grasp (2 tokens): -3.82
+Unbeatable strategy for Demitras: Illusory Grasp (3 tokens): -3.82
+Unbeatable strategy for Demitras: Illusory Grasp (4 tokens): -3.82
+Unbeatable strategy for Demitras: Jousting Deathblow: -12.00
+Unbeatable strategy for Demitras: Jousting Deathblow (1 token): -12.00
+Unbeatable strategy for Demitras: Jousting Deathblow (2 tokens): -12.00
+Unbeatable strategy for Demitras: Jousting Deathblow (3 tokens): -12.00
+Unbeatable strategy for Demitras: Jousting Deathblow (4 tokens): -12.00
+Unbeatable strategy for Demitras: Jousting Shot: -3.91
+Unbeatable strategy for Demitras: Jousting Shot (1 token): -3.66
+Unbeatable strategy for Demitras: Jousting Shot (2 tokens): -2.91
+Unbeatable strategy for Demitras: Jousting Shot (3 tokens): -12.00
+Unbeatable strategy for Demitras: Jousting Grasp: -2.45
+Unbeatable strategy for Demitras: Jousting Grasp (1 token): -2.20
+Unbeatable strategy for Demitras: Jousting Grasp (2 tokens): -1.45
+Unbeatable strategy for Demitras: Jousting Grasp (3 tokens): -12.00
+Unbeatable strategy for Demitras: Jousting Grasp (4 tokens): -12.00
 
 
 Borneo:
@@ -248,367 +458,76 @@ Demitras:
 Borneo: Special Pulse
 Demitras: Illusory Deathblow
 
-Pulse:
+Borneo Pulses:
 
 B....D.
 
-
-Beat 4
--------
-
-Borneo
-------
-Life: 15
-Discard 1: Petulant Master Plan
-Discard 2: Clumsy Divider
-
-Demitras
---------
-Life: 16
-Discard 1: Illusory Deathblow
-Discard 2: Jousting Strike
-Special action available
-4 Crescendo token
-
-
-B....D.
-
-Unbeatable strategy for Demitras: Vapid Shot: -4.89
-Unbeatable strategy for Demitras: Vapid Shot (1 token): -4.18
-Unbeatable strategy for Demitras: Vapid Shot (2 tokens): -0.55
-
-
-Borneo:
-53% Weaksauce Knuckle
-38% Weaksauce Scene Shift
-2% Weaksauce Smoke
-6% Slippery Claw
-
-Demitras:
-10% Darkside Dash
-40% Vapid Shot
-29% Vapid Shot (1 token)
-21% Vapid Shot (2 tokens)
-
-
-Borneo: Weaksauce Knuckle
-Demitras: Vapid Shot
-
-Priorities:  6 | 6
-Clash!
-
-
-Borneo: Weaksauce Hex
-Demitras: Vapid Drive
-
-Priorities:  4 | 8
-Demitras is active
-Demitras moves:
-
-B..D...
-
-Demitras misses
-Borneo hits
-Borneo moves Demitras:
-
-B...D..
-
-Demitras discards a Crescendo token
-Demitras takes 1 damage (now at 15 life)
-
-Beat 5
--------
-
-Borneo
-------
-Life: 15
-Discard 1: Weaksauce Hex
-Discard 2: Petulant Master Plan
-
-Demitras
---------
-Life: 15
-Discard 1: Vapid Drive
-Discard 2: Illusory Deathblow
-Special action available
-3 Crescendo token
-
-
-B...D..
-
-Unbeatable strategy for Demitras: Darkside Shot: -2.82
-Unbeatable strategy for Demitras: Darkside Shot (1 token): -0.97
-Unbeatable strategy for Demitras: Bloodletting Shot: -3.12
-Unbeatable strategy for Demitras: Bloodletting Shot (1 token): -3.37
-Unbeatable strategy for Demitras: Bloodletting Shot (2 tokens): -2.82
-Unbeatable strategy for Demitras: Bloodletting Shot (3 tokens): -1.59
-Unbeatable strategy for Demitras: Jousting Grasp (1 token): -0.08
-
-
-Borneo:
-19% Clumsy Divider
-81% Clumsy Knuckle
-
-Demitras:
-94% Bloodletting Shot (1 token)
-6% Jousting Strike
-
-
-Borneo: Clumsy Knuckle
-Demitras: Bloodletting Shot (1 token)
-
-Demitras antes a Crescendo token
-Priorities:  5 | 7
-Demitras is active
-Demitras hits
-Demitras gains 1 Crescendo token
-Demitras gains 1 life (now at 16)
-Borneo takes 3 damage (now at 12 life)
-Borneo is stunned
-
-Beat 6
--------
-
-Borneo
-------
-Life: 12
-Discard 1: Clumsy Knuckle
-Discard 2: Weaksauce Hex
-
-Demitras
---------
-Life: 16
-Discard 1: Bloodletting Shot
-Discard 2: Vapid Drive
-Special action available
-3 Crescendo token
-
-
-B...D..
-
-Unbeatable strategy for Demitras: Jousting Deathblow: -0.47
-
-
-Borneo:
-4% Petulant Claw
-96% Petulant Master Plan
-
-Demitras:
-4% Illusory Deathblow
-4% Illusory Deathblow (1 token)
-4% Illusory Deathblow (2 tokens)
-4% Illusory Deathblow (3 tokens)
-84% Jousting Deathblow
-
-
-Borneo: Petulant Master Plan
-Demitras: Jousting Deathblow
-
-Priorities:  -2 | 12
-Demitras is active
-Demitras moves:
-
-BD.....
-
-Demitras hits
-Demitras gains 1 Crescendo token
-Borneo takes 0 damage (now at 12 life)
-Demitras gains 1 Crescendo token
-Borneo hits
-Demitras discards a Crescendo token
-Demitras takes 4 damage (now at 12 life)
-Demitras is stunned
 
 Beat 7
 -------
 
 Borneo
 ------
-Life: 12
-Discard 1: Petulant Master Plan
+Life: 7
+Discard 1: Petulant Divider
 Discard 2: Clumsy Knuckle
 
 Demitras
 --------
-Life: 12
-Discard 1: Jousting Deathblow
-Discard 2: Bloodletting Shot
+Life: 14
+Discard 1: Illusory Deathblow
+Discard 2: Bloodletting Strike
 Special action available
 4 Crescendo token
 
 
-BD.....
+B....D.
 
-Unbeatable strategy for Demitras: Darkside Strike: -1.21
-Unbeatable strategy for Demitras: Darkside Strike (1 token): -0.86
-Unbeatable strategy for Demitras: Darkside Strike (2 tokens): -0.01
-Unbeatable strategy for Demitras: Darkside Drive: -0.96
-Unbeatable strategy for Demitras: Darkside Burst: -0.79
-
-
-Borneo:
-97% Pathetic Divider
-3% Slippery Hex
-
-Demitras:
-61% Darkside Strike
-39% Darkside Grasp
-
-
-Borneo: Pathetic Divider
-Demitras: Darkside Grasp
-
-Priorities:  2 | 10
-Demitras is active
-Demitras hits
-Demitras gains 1 Crescendo token
-Demitras moves:
-
-B.....D
-
-Demitras moves Borneo:
-
-.B....D
-
-Borneo has 2 soak
-Borneo takes 0 damage (now at 12 life)
-Borneo misses
-Opponent will have +1 power and +1 priority next beat
-
-Beat 8
--------
-
-Borneo
-------
-Life: 12
-Discard 1: Pathetic Divider
-Discard 2: Petulant Master Plan
-Opponent has +1 power and +1 priority
-
-Demitras
---------
-Life: 12
-Discard 1: Darkside Grasp
-Discard 2: Jousting Deathblow
-Special action available
-5 Crescendo token
-
-
-.B....D
-
-Unbeatable strategy for Demitras: Vapid Shot: -3.50
-Unbeatable strategy for Demitras: Vapid Shot (1 token): -5.50
-Unbeatable strategy for Demitras: Vapid Shot (2 tokens): -5.21
-
-
-Borneo:
-99% Weaksauce Knuckle
-1% Weaksauce Scene Shift
-
-Demitras:
-99% Vapid Shot (1 token)
-1% Vapid Burst (1 token)
-
-
-Borneo: Weaksauce Knuckle
-Demitras: Vapid Shot (1 token)
-
-Demitras antes a Crescendo token
-Priorities:  6 | 7
-Demitras is active
-Demitras hits
-Demitras gains 1 Crescendo token
-Borneo takes 5 damage (now at 7 life)
-Borneo is stunned
-
-Beat 9
--------
-
-Borneo
-------
-Life: 7
-Discard 1: Weaksauce Knuckle
-Discard 2: Pathetic Divider
-
-Demitras
---------
-Life: 12
-Discard 1: Vapid Shot
-Discard 2: Darkside Grasp
-Special action available
-5 Crescendo token
-
-
-.B....D
-
-Unbeatable strategy for Demitras: Jousting Deathblow: -12.00
-Unbeatable strategy for Demitras: Jousting Deathblow (1 token): -12.00
-Unbeatable strategy for Demitras: Jousting Deathblow (2 tokens): -12.00
-Unbeatable strategy for Demitras: Jousting Deathblow (3 tokens): -12.00
-Unbeatable strategy for Demitras: Jousting Deathblow (4 tokens): -12.00
-Unbeatable strategy for Demitras: Jousting Deathblow (5 tokens): -12.00
-Unbeatable strategy for Demitras: Jousting Strike (3 tokens): -12.00
-Unbeatable strategy for Demitras: Jousting Strike (4 tokens): -12.00
-Unbeatable strategy for Demitras: Jousting Strike (5 tokens): -12.00
+Unbeatable strategy for Demitras: Vapid Shot: -3.07
+Unbeatable strategy for Demitras: Vapid Shot (1 token): -2.72
 Unbeatable strategy for Demitras: Jousting Drive (3 tokens): -12.00
 Unbeatable strategy for Demitras: Jousting Drive (4 tokens): -12.00
-Unbeatable strategy for Demitras: Jousting Drive (5 tokens): -12.00
-Unbeatable strategy for Demitras: Jousting Burst (3 tokens): -12.00
+Unbeatable strategy for Demitras: Jousting Grasp (4 tokens): -12.00
 
 
 Borneo:
-2% Clumsy Claw
-5% Clumsy Hex
-7% Clumsy Master Plan
-12% Clumsy Scene Shift
-6% Clumsy Smoke
-10% Petulant Claw
-5% Petulant Hex
-5% Petulant Master Plan
-1% Petulant Scene Shift
-11% Petulant Smoke
-7% Slippery Claw
-6% Slippery Hex
-8% Slippery Master Plan
-6% Slippery Scene Shift
-8% Slippery Smoke
+3% Weaksauce Claw
+6% Weaksauce Hex
+7% Weaksauce Master Plan
+16% Weaksauce Scene Shift
+7% Weaksauce Smoke
+6% Pathetic Claw
+5% Pathetic Hex
+7% Pathetic Master Plan
+8% Pathetic Scene Shift
+6% Pathetic Smoke
+5% Slippery Claw
+4% Slippery Hex
+9% Slippery Master Plan
+4% Slippery Scene Shift
+6% Slippery Smoke
 
 Demitras:
-8% Jousting Deathblow
-8% Jousting Deathblow (1 token)
-8% Jousting Deathblow (2 tokens)
-8% Jousting Deathblow (3 tokens)
-8% Jousting Deathblow (4 tokens)
-8% Jousting Deathblow (5 tokens)
-8% Jousting Strike (3 tokens)
-8% Jousting Strike (4 tokens)
-8% Jousting Strike (5 tokens)
-8% Jousting Drive (3 tokens)
-8% Jousting Drive (4 tokens)
-8% Jousting Drive (5 tokens)
-8% Jousting Burst (3 tokens)
+33% Jousting Drive (3 tokens)
+33% Jousting Drive (4 tokens)
+33% Jousting Grasp (4 tokens)
 
 
-Borneo: Clumsy Hex
-Demitras: Jousting Deathblow (4 tokens)
+Borneo: Slippery Master Plan
+Demitras: Jousting Drive (4 tokens)
 
 Demitras antes a Crescendo token
 Demitras antes a Crescendo token
 Demitras antes a Crescendo token
 Demitras antes a Crescendo token
-Priorities:  3 | 10
+Priorities:  0 | 5
 Demitras is active
 Demitras moves:
 
-.BD....
+BD.....
 
 Demitras hits
 Demitras gains 1 Crescendo token
-Demitras spends a Crescendo token
-Demitras moves:
-
-DB.....
-
-Borneo takes 8 damage (now at 0 life)
+Borneo takes 9 damage (now at 0 life)
 DEMITRAS WINS!
-total_time: 31
+total_time: 23

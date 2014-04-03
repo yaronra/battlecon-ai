@@ -13,7 +13,7 @@ Borneo
 ------
 Life: 20
 Discard 1: Slippery Petulant
-Discard 2: Knuckle Smoke
+Discard 2: Smoke Knuckle
 Special action available
 
 Cadenza
@@ -41,18 +41,21 @@ Cadenza:
 38% Grapnel Grasp
 
 
-Borneo: Clumsy Master Plan
-Cadenza: Battery Drive
+Borneo: Weaksauce Claw
+Cadenza: Battery Shot
 
-Priorities:  0 | 3
-Cadenza is active
-Cadenza moves:
+Priorities:  5 | 1
+Borneo is active
+Borneo moves:
 
-.B..C..
+..B..C.
+
+Borneo misses
+Borneo moves:
+
+B....C.
 
 Cadenza misses
-Borneo hits
-Cadenza takes 5 damage (now at 15 life)
 Cadenza will have 4 priority next beat
 
 Beat 2
@@ -61,36 +64,33 @@ Beat 2
 Borneo
 ------
 Life: 20
-Discard 1: Clumsy Master Plan
+Discard 1: Weaksauce Claw
 Discard 2: Slippery Petulant
 Special action available
 
 Cadenza
 -------
-Life: 15
-Discard 1: Battery Drive
+Life: 20
+Discard 1: Battery Shot
 Discard 2: Hydraulic Burst
 Special action available
 Priority bonus: 4
 3 Iron Body token
 
 
-.B..C..
+B....C.
 
-Unbeatable strategy for Cadenza: Grapnel Strike: -0.97
-Unbeatable strategy for Cadenza: Grapnel Shot: -0.10
-Unbeatable strategy for Cadenza: Grapnel Grasp: -0.34
+Unbeatable strategy for Cadenza: Grapnel Press: -0.51
+Unbeatable strategy for Cadenza: Grapnel Strike: -2.64
+Unbeatable strategy for Cadenza: Grapnel Strike (Iron Body): -0.14
+Unbeatable strategy for Cadenza: Grapnel Grasp: -0.59
 
 
 Borneo:
-28% Weaksauce Divider
-55% Pathetic Divider
-16% Pathetic Knuckle
+100% Pathetic Divider
 
 Cadenza:
-23% Clockwork Shot
-46% Grapnel Strike
-32% Mechanical Shot
+100% Grapnel Strike
 
 
 Borneo: Pathetic Divider
@@ -101,13 +101,11 @@ Cadenza is active
 Cadenza hits
 Cadenza moves Borneo:
 
-....CB.
+.B...C.
 
 Borneo has 2 soak
 Borneo takes 2 damage (now at 18 life)
-Borneo hits
-Cadenza takes 3 damage (now at 12 life)
-Cadenza is stunned
+Borneo misses
 Opponent will have +1 power and +1 priority next beat
 
 Beat 3
@@ -117,97 +115,55 @@ Borneo
 ------
 Life: 18
 Discard 1: Pathetic Divider
-Discard 2: Clumsy Master Plan
+Discard 2: Weaksauce Claw
 Special action available
 Opponent has +1 power and +1 priority
 
 Cadenza
 -------
-Life: 12
+Life: 20
 Discard 1: Grapnel Strike
-Discard 2: Battery Drive
+Discard 2: Battery Shot
 Special action available
 3 Iron Body token
 
 
-....CB.
+.B...C.
 
-Unbeatable strategy for Cadenza: Clockwork Shot: -3.37
-Unbeatable strategy for Cadenza: Clockwork Shot (Iron Body): -0.87
-Unbeatable strategy for Cadenza: Hydraulic Shot: -3.44
-Unbeatable strategy for Cadenza: Hydraulic Shot (Iron Body): -0.94
-Unbeatable strategy for Cadenza: Mechanical Shot: -0.31
-Unbeatable strategy for Cadenza: Mechanical Shot (Iron Body): -0.31
+Unbeatable strategy for Cadenza: Hydraulic Drive: -3.38
+Unbeatable strategy for Cadenza: Hydraulic Drive (Iron Body): -0.88
 
 
 Borneo:
-13% Weaksauce Claw
-6% Weaksauce Knuckle
-15% Petulant Scene Shift
-66% Special Pulse
+9% Clumsy Hex
+4% Clumsy Master Plan
+87% Slippery Scene Shift
 
 Cadenza:
-7% Clockwork Shot
-20% Hydraulic Grasp
-45% Mechanical Shot
-28% Mechanical Grasp
+33% Hydraulic Drive
+34% Mechanical Press
+33% Mechanical Drive
 
 
-Borneo: Special Pulse
-Cadenza: Mechanical Shot
+Borneo: Slippery Scene Shift
+Cadenza: Mechanical Press
 
-Pulse:
-
-B....C.
-
-
-Beat 3
--------
-
-Borneo
-------
-Life: 18
-Discard 1: Pathetic Divider
-Discard 2: Clumsy Master Plan
-
-Cadenza
--------
-Life: 12
-Discard 1: Mechanical Shot
-Discard 2: Grapnel Strike
-Special action available
-3 Iron Body token
-
-
-B....C.
-
-Unbeatable strategy for Cadenza: Clockwork Press: -0.30
-Unbeatable strategy for Cadenza: Clockwork Drive: -0.50
-Unbeatable strategy for Cadenza: Clockwork Burst: -0.30
-Unbeatable strategy for Cadenza: Clockwork Grasp: -0.43
-Unbeatable strategy for Cadenza: Clockwork Dash: -0.10
-
-
-Borneo:
-37% Weaksauce Knuckle
-38% Petulant Hex
-3% Slippery Hex
-21% Slippery Scene Shift
-
-Cadenza:
-13% Battery Burst
-20% Clockwork Drive
-24% Clockwork Burst
-43% Clockwork Grasp
-
-
-Borneo: Weaksauce Knuckle
-Cadenza: Clockwork Grasp
-
-Priorities:  6 | 2
+Priorities:  4 | -1
 Borneo is active
+Borneo moves:
+
+..B..C.
+
+Borneo moves:
+
+B....C.
+
 Borneo misses
 Cadenza misses
+Cadenza moves:
+
+B.C....
+
 
 Beat 4
 -------
@@ -215,14 +171,393 @@ Beat 4
 Borneo
 ------
 Life: 18
-Discard 1: Weaksauce Knuckle
+Discard 1: Slippery Scene Shift
 Discard 2: Pathetic Divider
+Special action available
 
 Cadenza
 -------
-Life: 12
-Discard 1: Clockwork Grasp
-Discard 2: Mechanical Shot
+Life: 20
+Discard 1: Mechanical Press
+Discard 2: Grapnel Strike
+Special action available
+3 Iron Body token
+
+
+B.C....
+
+Unbeatable strategy for Cadenza: Clockwork Shot: -1.95
+Unbeatable strategy for Cadenza: Hydraulic Shot: -0.36
+
+
+Borneo:
+40% Clumsy Hex
+60% Clumsy Knuckle
+
+Cadenza:
+82% Clockwork Shot
+18% Clockwork Burst
+
+
+Borneo: Clumsy Hex
+Cadenza: Clockwork Burst
+
+Priorities:  3 | -2
+Borneo is active
+Cadenza moves:
+
+B..C...
+
+Borneo hits
+Borneo moves Cadenza:
+
+B...C..
+
+Cadenza has 3 soak
+Cadenza takes 1 damage (now at 19 life)
+Cadenza misses
+
+Beat 5
+-------
+
+Borneo
+------
+Life: 18
+Discard 1: Clumsy Hex
+Discard 2: Slippery Scene Shift
+Special action available
+
+Cadenza
+-------
+Life: 19
+Discard 1: Clockwork Burst
+Discard 2: Mechanical Press
+Special action available
+3 Iron Body token
+
+
+B...C..
+
+
+Borneo:
+4% Weaksauce Divider
+48% Pathetic Claw
+9% Pathetic Divider
+38% Petulant Claw
+1% Petulant Master Plan
+
+Cadenza:
+9% Battery Dash
+5% Hydraulic Drive
+23% Grapnel Strike
+22% Grapnel Drive
+42% Grapnel Grasp
+
+
+Borneo: Pathetic Claw
+Cadenza: Grapnel Strike
+
+Priorities:  4 | 3
+Borneo is active
+Borneo moves:
+
+..B.C..
+
+Borneo hits
+Cadenza takes 2 damage (now at 17 life)
+Cadenza is stunned
+
+Beat 6
+-------
+
+Borneo
+------
+Life: 18
+Discard 1: Pathetic Claw
+Discard 2: Clumsy Hex
+Special action available
+
+Cadenza
+-------
+Life: 17
+Discard 1: Grapnel Strike
+Discard 2: Clockwork Burst
+Special action available
+3 Iron Body token
+
+
+..B.C..
+
+Unbeatable strategy for Cadenza: Battery Dash: -0.58
+Unbeatable strategy for Cadenza: Hydraulic Shot: -1.28
+Unbeatable strategy for Cadenza: Mechanical Dash: -0.25
+
+
+Borneo:
+23% Weaksauce Master Plan
+18% Weaksauce Smoke
+38% Petulant Divider
+19% Slippery Divider
+1% Slippery Scene Shift
+
+Cadenza:
+12% Battery Shot
+36% Hydraulic Shot
+14% Hydraulic Drive
+17% Mechanical Press
+21% Mechanical Drive
+
+
+Borneo: Weaksauce Master Plan
+Cadenza: Hydraulic Shot
+
+Priorities:  1 | 1
+Clash!
+
+
+Borneo: Weaksauce Smoke
+Cadenza: Hydraulic Grasp
+
+Priorities:  4 | 4
+Clash!
+
+
+Borneo: Weaksauce Divider
+Cadenza: Hydraulic Press
+
+Priorities:  3 | -1
+Borneo is active
+Borneo misses
+Borneo moves:
+
+B...C..
+
+Cadenza moves:
+
+B..C...
+
+Cadenza misses
+Opponent will have +1 power and +1 priority next beat
+
+Beat 7
+-------
+
+Borneo
+------
+Life: 18
+Discard 1: Weaksauce Divider
+Discard 2: Pathetic Claw
+Special action available
+Opponent has +1 power and +1 priority
+
+Cadenza
+-------
+Life: 17
+Discard 1: Hydraulic Press
+Discard 2: Grapnel Strike
+Special action available
+3 Iron Body token
+
+
+B..C...
+
+Unbeatable strategy for Cadenza: Battery Shot: -1.00
+Unbeatable strategy for Cadenza: Battery Drive: -1.63
+Unbeatable strategy for Cadenza: Clockwork Shot: -5.50
+Unbeatable strategy for Cadenza: Clockwork Shot (Iron Body): -3.00
+Unbeatable strategy for Cadenza: Mechanical Shot: -1.36
+Unbeatable strategy for Cadenza: Mechanical Shot (Iron Body): -0.00
+Unbeatable strategy for Cadenza: Mechanical Drive: -1.93
+
+
+Borneo:
+34% Clumsy Hex
+32% Clumsy Master Plan
+20% Clumsy Scene Shift
+14% Petulant Smoke
+
+Cadenza:
+14% Battery Shot
+8% Battery Drive
+36% Clockwork Shot
+42% Mechanical Shot
+
+
+Borneo: Petulant Smoke
+Cadenza: Battery Shot
+
+Priorities:  1 | 2
+Cadenza is active
+Cadenza hits
+Borneo takes 5 damage (now at 13 life)
+Borneo is stunned
+Cadenza will have 4 priority next beat
+
+Beat 8
+-------
+
+Borneo
+------
+Life: 13
+Discard 1: Petulant Smoke
+Discard 2: Weaksauce Divider
+Special action available
+
+Cadenza
+-------
+Life: 17
+Discard 1: Battery Shot
+Discard 2: Hydraulic Press
+Special action available
+Priority bonus: 4
+3 Iron Body token
+
+
+B..C...
+
+Unbeatable strategy for Cadenza: Clockwork Drive: -3.88
+Unbeatable strategy for Cadenza: Clockwork Drive (Iron Body): -1.38
+Unbeatable strategy for Cadenza: Grapnel Strike: -5.17
+Unbeatable strategy for Cadenza: Grapnel Strike (Iron Body): -2.67
+Unbeatable strategy for Cadenza: Grapnel Grasp: -3.12
+Unbeatable strategy for Cadenza: Grapnel Grasp (Iron Body): -0.62
+Unbeatable strategy for Cadenza: Mechanical Drive: -0.88
+
+
+Borneo:
+4% Clumsy Hex
+22% Clumsy Master Plan
+75% Special Pulse
+
+Cadenza:
+70% Grapnel Strike
+18% Mechanical Drive
+12% Mechanical Grasp
+
+
+Borneo: Special Pulse
+Cadenza: Grapnel Strike
+
+Borneo Pulses:
+
+B....C.
+
+
+Beat 8
+-------
+
+Borneo
+------
+Life: 13
+Discard 1: Petulant Smoke
+Discard 2: Weaksauce Divider
+
+Cadenza
+-------
+Life: 17
+Discard 1: Grapnel Strike
+Discard 2: Battery Shot
+Special action available
+3 Iron Body token
+
+
+B....C.
+
+Unbeatable strategy for Cadenza: Clockwork Grasp: -0.05
+
+
+Borneo:
+53% Clumsy Hex
+6% Clumsy Master Plan
+41% Pathetic Claw
+
+Cadenza:
+16% Clockwork Grasp
+35% Hydraulic Drive
+49% Mechanical Grasp
+
+
+Borneo: Pathetic Claw
+Cadenza: Mechanical Grasp
+
+Priorities:  4 | 3
+Borneo is active
+Borneo moves:
+
+..B..C.
+
+Borneo hits
+Cadenza takes 2 damage (now at 15 life)
+Cadenza is stunned
+Cadenza moves:
+
+..B.C..
+
+
+Beat 9
+-------
+
+Borneo
+------
+Life: 13
+Discard 1: Pathetic Claw
+Discard 2: Petulant Smoke
+
+Cadenza
+-------
+Life: 15
+Discard 1: Mechanical Grasp
+Discard 2: Grapnel Strike
+Special action available
+3 Iron Body token
+
+
+..B.C..
+
+
+Borneo:
+93% Weaksauce Hex
+0% Clumsy Divider
+7% Clumsy Scene Shift
+
+Cadenza:
+8% Clockwork Shot
+64% Hydraulic Shot
+28% Hydraulic Burst
+
+
+Borneo: Weaksauce Hex
+Cadenza: Hydraulic Shot
+
+Priorities:  4 | 1
+Borneo is active
+Borneo hits
+Borneo moves Cadenza:
+
+..B..C.
+
+Cadenza has 1 soak
+Cadenza takes 0 damage (now at 15 life)
+Borneo moves:
+
+B....C.
+
+Cadenza misses
+
+Beat 10
+-------
+
+Borneo
+------
+Life: 13
+Discard 1: Weaksauce Hex
+Discard 2: Pathetic Claw
+
+Cadenza
+-------
+Life: 15
+Discard 1: Hydraulic Shot
+Discard 2: Mechanical Grasp
 Special action available
 3 Iron Body token
 
@@ -231,450 +566,310 @@ B....C.
 
 
 Borneo:
-2% Clumsy Claw
-18% Clumsy Hex
-12% Petulant Hex
-6% Petulant Master Plan
-23% Slippery Claw
-39% Slippery Scene Shift
+24% Clumsy Scene Shift
+15% Clumsy Smoke
+58% Petulant Master Plan
+2% Slippery Scene Shift
 
 Cadenza:
-29% Battery Press
-1% Hydraulic Press
-13% Hydraulic Drive
-25% Grapnel Strike
-22% Grapnel Drive
-10% Grapnel Burst
-
-
-Borneo: Clumsy Hex
-Cadenza: Grapnel Drive
-
-Priorities:  3 | 4
-Cadenza is active
-Cadenza moves:
-
-B..C...
-
-Cadenza hits
-Cadenza moves Borneo:
-
-..BC...
-
-Borneo takes 3 damage (now at 15 life)
-Borneo is stunned
-
-Beat 5
--------
-
-Borneo
-------
-Life: 15
-Discard 1: Clumsy Hex
-Discard 2: Weaksauce Knuckle
-
-Cadenza
--------
-Life: 12
-Discard 1: Grapnel Drive
-Discard 2: Clockwork Grasp
-Special action available
-3 Iron Body token
-
-
-..BC...
-
-
-Borneo:
-4% Pathetic Divider
-51% Pathetic Scene Shift
-18% Petulant Divider
-27% Petulant Scene Shift
-
-Cadenza:
-18% Battery Strike
-56% Battery Dash
-0% Hydraulic Press
-26% Hydraulic Shot (Iron Body)
-
-
-Borneo: Pathetic Scene Shift
-Cadenza: Hydraulic Shot (Iron Body)
-
-Cadenza antes an Iron Body token
-Priorities:  4 | 1
-Borneo is active
-Borneo moves:
-
-...C..B
-
-Borneo hits
-Cadenza has 1 soak
-Cadenza takes 1 damage (now at 11 life)
-Cadenza moves:
-
-....C.B
-
-Cadenza hits
-Borneo takes 5 damage (now at 10 life)
-Borneo is stunned
-
-Beat 6
--------
-
-Borneo
-------
-Life: 10
-Discard 1: Pathetic Scene Shift
-Discard 2: Clumsy Hex
-
-Cadenza
--------
-Life: 11
-Discard 1: Hydraulic Shot
-Discard 2: Grapnel Drive
-Special action available
-2 Iron Body token
-
-
-....C.B
-
-
-Borneo:
-57% Weaksauce Claw
-43% Petulant Smoke
-0% Slippery Claw
-
-Cadenza:
-40% Battery Press
-23% Battery Dash
-36% Mechanical Strike
-
-
-Borneo: Petulant Smoke
-Cadenza: Mechanical Strike
-
-Priorities:  1 | 1
-Clash!
-
-
-Borneo: Petulant Master Plan
-Cadenza: Mechanical Press
-
-Priorities:  -2 | -2
-Clash!
-
-
-Borneo: Petulant Claw
-Cadenza: Mechanical Dash
-
-Priorities:  2 | 7
-Cadenza is active
-Cadenza moves:
-
-.C....B
-
-Borneo moves:
-
-.C..B..
-
-Borneo misses
-Cadenza moves:
-
-..C.B..
-
-
-Beat 7
--------
-
-Borneo
-------
-Life: 10
-Discard 1: Petulant Claw
-Discard 2: Pathetic Scene Shift
-
-Cadenza
--------
-Life: 11
-Discard 1: Mechanical Dash
-Discard 2: Hydraulic Shot
-Special action available
-2 Iron Body token
-
-
-..C.B..
-
-
-Borneo:
-82% Clumsy Hex
-3% Slippery Hex
-14% Slippery Smoke
-
-Cadenza:
-24% Battery Drive
-2% Clockwork Drive
-74% Clockwork Burst
-
-
-Borneo: Clumsy Hex
-Cadenza: Battery Drive
-
-Priorities:  3 | 3
-Clash!
+22% Battery Press
+25% Battery Strike
+27% Grapnel Strike
+26% Grapnel Drive
 
 
 Borneo: Clumsy Smoke
-Cadenza: Battery Burst
+Cadenza: Battery Press
 
-Priorities:  3 | 0
+Priorities:  3 | -1
 Borneo is active
-Cadenza moves:
-
-C...B..
-
 Borneo hits
-Cadenza takes 3 damage (now at 8 life)
+Cadenza takes 3 damage (now at 12 life)
 Cadenza misses
 Cadenza will have 4 priority next beat
-
-Beat 8
--------
-
-Borneo
-------
-Life: 10
-Discard 1: Clumsy Smoke
-Discard 2: Petulant Claw
-
-Cadenza
--------
-Life: 8
-Discard 1: Battery Burst
-Discard 2: Mechanical Dash
-Special action available
-Priority bonus: 4
-2 Iron Body token
-
-
-C...B..
-
-Unbeatable strategy for Cadenza: Hydraulic Drive: -0.17
-Unbeatable strategy for Cadenza: Grapnel Strike: -2.26
-Unbeatable strategy for Cadenza: Grapnel Shot: -0.87
-Unbeatable strategy for Cadenza: Grapnel Drive: -0.06
-Unbeatable strategy for Cadenza: Grapnel Grasp: -0.21
-
-
-Borneo:
-84% Weaksauce Divider
-16% Slippery Divider
-
-Cadenza:
-4% Hydraulic Press
-96% Grapnel Strike
-
-
-Borneo: Slippery Divider
-Cadenza: Grapnel Strike
-
-Priorities:  2 | 7
-Cadenza is active
-Cadenza hits
-Borneo has 2 soak
-Borneo takes 2 damage (now at 8 life)
-Borneo moves:
-
-C..B...
-
-Borneo misses
-Opponent will have +1 power and +1 priority next beat
-
-Beat 9
--------
-
-Borneo
-------
-Life: 8
-Discard 1: Slippery Divider
-Discard 2: Clumsy Smoke
-Opponent has +1 power and +1 priority
-
-Cadenza
--------
-Life: 8
-Discard 1: Grapnel Strike
-Discard 2: Battery Burst
-Special action available
-2 Iron Body token
-
-
-C..B...
-
-Unbeatable strategy for Cadenza: Mechanical Drive: -0.04
-
-
-Borneo:
-37% Weaksauce Scene Shift
-14% Pathetic Claw
-44% Pathetic Scene Shift
-4% Petulant Knuckle
-
-Cadenza:
-1% Clockwork Drive
-2% Hydraulic Grasp
-3% Mechanical Shot
-95% Mechanical Drive
-
-
-Borneo: Weaksauce Scene Shift
-Cadenza: Mechanical Drive
-
-Priorities:  5 | 3
-Borneo is active
-Borneo moves:
-
-C...B..
-
-Borneo misses
-Borneo moves:
-
-C.....B
-
-Cadenza moves:
-
-..C...B
-
-Cadenza misses
-Cadenza moves:
-
-.....CB
-
-
-Beat 10
--------
-
-Borneo
-------
-Life: 8
-Discard 1: Weaksauce Scene Shift
-Discard 2: Slippery Divider
-
-Cadenza
--------
-Life: 8
-Discard 1: Mechanical Drive
-Discard 2: Grapnel Strike
-Special action available
-2 Iron Body token
-
-
-.....CB
-
-Unbeatable strategy for Cadenza: Hydraulic Grasp (Iron Body): -0.19
-
-
-Borneo:
-19% Clumsy Claw
-33% Clumsy Knuckle
-4% Pathetic Claw
-38% Pathetic Knuckle
-6% Petulant Claw
-
-Cadenza:
-13% Battery Press
-2% Battery Burst
-14% Battery Grasp
-8% Clockwork Shot
-64% Hydraulic Grasp (Iron Body)
-
-
-Borneo: Pathetic Knuckle
-Cadenza: Hydraulic Grasp (Iron Body)
-
-Cadenza antes an Iron Body token
-Priorities:  5 | 4
-Borneo is active
-Borneo hits
-Borneo moves:
-
-....BC.
-
-Cadenza takes 1 damage (now at 7 life)
-Cadenza moves:
-
-...CB..
-
-Cadenza hits
-Cadenza moves Borneo:
-
-...C.B.
-
-Borneo takes 4 damage (now at 4 life)
-Borneo is stunned
 
 Beat 11
 -------
 
 Borneo
 ------
-Life: 4
+Life: 13
+Discard 1: Clumsy Smoke
+Discard 2: Weaksauce Hex
+
+Cadenza
+-------
+Life: 12
+Discard 1: Battery Press
+Discard 2: Hydraulic Shot
+Special action available
+Priority bonus: 4
+3 Iron Body token
+
+
+B....C.
+
+Unbeatable strategy for Cadenza: Grapnel Strike: -1.81
+
+
+Borneo:
+96% Petulant Divider
+4% Petulant Master Plan
+
+Cadenza:
+82% Grapnel Strike
+18% Mechanical Burst
+
+
+Borneo: Petulant Divider
+Cadenza: Mechanical Burst
+
+Priorities:  0 | 3
+Cadenza is active
+Cadenza moves:
+
+B.....C
+
+Cadenza misses
+Borneo misses
+Opponent will have +1 power and +1 priority next beat
+
+Beat 12
+-------
+
+Borneo
+------
+Life: 13
+Discard 1: Petulant Divider
+Discard 2: Clumsy Smoke
+Opponent has +1 power and +1 priority
+
+Cadenza
+-------
+Life: 12
+Discard 1: Mechanical Burst
+Discard 2: Battery Press
+Special action available
+3 Iron Body token
+
+
+B.....C
+
+Unbeatable strategy for Cadenza: Grapnel Drive: -0.75
+
+
+Borneo:
+86% Weaksauce Scene Shift
+14% Pathetic Knuckle
+
+Cadenza:
+47% Grapnel Shot
+53% Grapnel Drive
+
+
+Borneo: Weaksauce Scene Shift
+Cadenza: Grapnel Shot
+
+Priorities:  5 | 3
+Borneo is active
+Borneo moves:
+
+....B.C
+
+Borneo misses
+Cadenza misses
+
+Beat 13
+-------
+
+Borneo
+------
+Life: 13
+Discard 1: Weaksauce Scene Shift
+Discard 2: Petulant Divider
+
+Cadenza
+-------
+Life: 12
+Discard 1: Grapnel Shot
+Discard 2: Mechanical Burst
+Special action available
+3 Iron Body token
+
+
+....B.C
+
+Unbeatable strategy for Cadenza: Battery Dash: -0.26
+
+
+Borneo:
+14% Clumsy Knuckle
+19% Pathetic Claw
+44% Pathetic Hex
+20% Pathetic Knuckle
+3% Slippery Claw
+
+Cadenza:
+84% Battery Dash
+3% Clockwork Press
+3% Hydraulic Press
+9% Hydraulic Drive (Iron Body)
+2% Hydraulic Grasp
+
+
+Borneo: Pathetic Knuckle
+Cadenza: Battery Dash
+
+Priorities:  5 | 8
+Cadenza is active
+Cadenza moves:
+
+...CB..
+
+Borneo misses
+Cadenza will have 4 priority next beat
+
+Beat 14
+-------
+
+Borneo
+------
+Life: 13
 Discard 1: Pathetic Knuckle
 Discard 2: Weaksauce Scene Shift
 
 Cadenza
 -------
-Life: 7
-Discard 1: Hydraulic Grasp
-Discard 2: Mechanical Drive
+Life: 12
+Discard 1: Battery Dash
+Discard 2: Grapnel Shot
 Special action available
-1 Iron Body token
+Priority bonus: 4
+3 Iron Body token
 
 
-...C.B.
+...CB..
 
-Unbeatable strategy for Cadenza: Clockwork Shot: -9.00
-Unbeatable strategy for Cadenza: Clockwork Shot (Iron Body): -9.00
+Unbeatable strategy for Cadenza: Clockwork Strike: -1.91
+Unbeatable strategy for Cadenza: Clockwork Drive: -0.82
+Unbeatable strategy for Cadenza: Clockwork Grasp: -0.32
+Unbeatable strategy for Cadenza: Mechanical Strike: -0.11
+Unbeatable strategy for Cadenza: Mechanical Drive: -0.19
 
 
 Borneo:
-4% Clumsy Claw
-11% Clumsy Divider
-10% Clumsy Hex
-1% Clumsy Master Plan
-6% Clumsy Smoke
-6% Petulant Claw
-5% Petulant Divider
-12% Petulant Hex
-6% Petulant Master Plan
-11% Petulant Smoke
-6% Slippery Claw
-9% Slippery Divider
-4% Slippery Hex
-5% Slippery Master Plan
-5% Slippery Smoke
+33% Clumsy Claw
+40% Clumsy Divider
+27% Petulant Divider
 
 Cadenza:
-50% Clockwork Shot
-50% Clockwork Shot (Iron Body)
+82% Clockwork Strike
+11% Mechanical Press
+7% Mechanical Strike
 
 
-Borneo: Slippery Smoke
-Cadenza: Clockwork Shot
+Borneo: Petulant Divider
+Cadenza: Clockwork Strike
 
-Priorities:  3 | -1
-Borneo is active
-Borneo moves:
-
-..BC...
-
-Borneo hits
-Borneo moves Cadenza:
-
-.CB....
-
-Cadenza has 3 soak
-Cadenza takes 0 damage (now at 7 life)
+Priorities:  0 | 4
+Cadenza is active
 Cadenza hits
-Borneo takes 6 damage (now at 0 life)
+Borneo has 2 soak
+Borneo takes 5 damage (now at 8 life)
+Borneo hits
+Cadenza has 3 soak
+Cadenza takes 1 damage (now at 11 life)
+Opponent will have +1 power and +1 priority next beat
+
+Beat 15
+-------
+
+Borneo
+------
+Life: 8
+Discard 1: Petulant Divider
+Discard 2: Pathetic Knuckle
+Opponent has +1 power and +1 priority
+
+Cadenza
+-------
+Life: 11
+Discard 1: Clockwork Strike
+Discard 2: Battery Dash
+Special action available
+3 Iron Body token
+
+
+...CB..
+
+Unbeatable strategy for Cadenza: Hydraulic Press: -13.00
+Unbeatable strategy for Cadenza: Hydraulic Press (Iron Body): -13.00
+Unbeatable strategy for Cadenza: Hydraulic Shot: -13.00
+Unbeatable strategy for Cadenza: Hydraulic Shot (Iron Body): -13.00
+Unbeatable strategy for Cadenza: Hydraulic Drive: -13.00
+Unbeatable strategy for Cadenza: Hydraulic Drive (Iron Body): -13.00
+Unbeatable strategy for Cadenza: Hydraulic Grasp: -13.00
+Unbeatable strategy for Cadenza: Hydraulic Grasp (Iron Body): -13.00
+Unbeatable strategy for Cadenza: Mechanical Shot: -13.00
+Unbeatable strategy for Cadenza: Mechanical Shot (Iron Body): -13.00
+Unbeatable strategy for Cadenza: Mechanical Drive: -13.00
+Unbeatable strategy for Cadenza: Mechanical Drive (Iron Body): -13.00
+Unbeatable strategy for Cadenza: Mechanical Grasp: -13.00
+Unbeatable strategy for Cadenza: Mechanical Grasp (Iron Body): -13.00
+
+
+Borneo:
+8% Weaksauce Claw
+9% Weaksauce Hex
+7% Weaksauce Master Plan
+7% Weaksauce Scene Shift
+9% Weaksauce Smoke
+3% Clumsy Claw
+3% Clumsy Hex
+4% Clumsy Master Plan
+7% Clumsy Scene Shift
+3% Clumsy Smoke
+9% Slippery Claw
+8% Slippery Hex
+6% Slippery Master Plan
+9% Slippery Scene Shift
+8% Slippery Smoke
+
+Cadenza:
+7% Hydraulic Press
+7% Hydraulic Press (Iron Body)
+7% Hydraulic Shot
+7% Hydraulic Shot (Iron Body)
+7% Hydraulic Drive
+7% Hydraulic Drive (Iron Body)
+7% Hydraulic Grasp
+7% Hydraulic Grasp (Iron Body)
+7% Mechanical Shot
+7% Mechanical Shot (Iron Body)
+7% Mechanical Drive
+7% Mechanical Drive (Iron Body)
+7% Mechanical Grasp
+7% Mechanical Grasp (Iron Body)
+
+
+Borneo: Clumsy Master Plan
+Cadenza: Mechanical Drive (Iron Body)
+
+Cadenza antes an Iron Body token
+Priorities:  0 | 3
+Cadenza is active
+Cadenza moves:
+
+....BC.
+
+Cadenza hits
+Borneo takes 6 damage (now at 2 life)
+Borneo hits
+Cadenza takes 5 damage (now at 6 life)
+Cadenza moves:
+
+.C..B..
+
+Game goes to time
 CADENZA WINS!
-total_time: 19
+total_time: 23

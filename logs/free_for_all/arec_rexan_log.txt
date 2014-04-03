@@ -43,14 +43,26 @@ Rexan:
 4% Overlord's Drive
 
 
-Arec: Perceptional Shot
-Rexan: Vainglorious Malediction
+Arec: Perceptional Hex
+Rexan: Unyielding Shot
 
-Priorities:  3 | 4
-Rexan is active
-Arec antes a Mercy token
+Priorities:  4 | 2
+Arec is active
+Arec hits
+Arec moves Rexan:
+
+.A..R..
+
+
+Arec moves Rexan:
+
+.A.R...
+
+
+Arec gains 1 Curse token
+Rexan takes 3 damage (now at 17 life)
 Rexan hits
-Arec takes 3 damage (now at 17 life)
+Arec takes 2 damage (now at 18 life)
 Arec is stunned
 
 Beat 2
@@ -58,65 +70,59 @@ Beat 2
 
 Arec
 ----
-Life: 17
-Discard 1: Perceptional Shot
+Life: 18
+Discard 1: Perceptional Hex
 Discard 2: Phantom Strike
 Special action available
-pool: Fear, Hesitation, Recklessness
+pool: Fear, Hesitation, Mercy, Recklessness
 
 Rexan
 -----
-Life: 20
-Discard 1: Vainglorious Malediction
+Life: 17
+Discard 1: Unyielding Shot
 Discard 2: Enervating Grasp
 Special action available
-Arec has 0 Curse token
+Arec has 1 Curse token
 
 
-.A...R.
+.A.R...
 
 
 
 Arec:
-4% Returning Hex (Hesitation)
-6% Returning Drive
-16% Mirrored Hex (Hesitation)
-50% Mirrored Drive
-24% Mirrored Burst (Hesitation)
+0% Returning Drive | (1 Curse token)
+13% Returning Drive (Hesitation) | (1 Curse token)
+14% Returning Grasp (Fear) | (1 Curse token)
+14% Mirrored Shot (Hesitation) | (1 Curse token)
+40% Mirrored Grasp (Fear) | (1 Curse token)
+9% Manipulative Burst (Hesitation) | (1 Curse token)
+9% Manipulative Grasp (Hesitation) | (1 Curse token)
 
 Rexan:
-17% Devastating Shot
-10% Devastating Drive
-8% Devastating Burst
-35% Overlord's Strike
-30% Overlord's Drive
+21% Devastating Malediction
+9% Devastating Strike
+15% Devastating Burst
+10% Vainglorious Malediction
+11% Vainglorious Drive
+10% Overlord's Malediction
+24% Overlord's Strike
 
 
-Arec: Mirrored Hex (Hesitation)
-Rexan: Overlord's Strike
-
-Arec antes a Hesitation token
-Priorities:  3 | 3
-Clash!
-
-
-Arec: Mirrored Grasp (Hesitation)
-Rexan: Overlord's Burst
+Arec: Mirrored Shot (Hesitation) | (1 Curse token)
+Rexan: Vainglorious Drive
 
 Arec antes a Hesitation token
-Priorities:  5 | 1
-Arec is active
-Rexan moves:
-
-.A....R
-
-
-Arec misses
+Arec antes a Curse token
+Priorities:  1 | 4
+Rexan is active
 Rexan misses
+Arec hits
+Rexan takes 3 damage (now at 14 life)
+Rexan is stunned
 Arec places clone:
 
-.A....R
-c......
+.A.R...
+..c....
 
 
 Beat 3
@@ -124,202 +130,180 @@ Beat 3
 
 Arec
 ----
-Life: 17
-Discard 1: Mirrored Grasp
-Discard 2: Perceptional Shot
+Life: 18
+Discard 1: Mirrored Shot
+Discard 2: Perceptional Hex
 Special action available
-pool: Fear, Recklessness
+pool: Fear, Mercy, Recklessness
 
 Rexan
 -----
-Life: 20
-Discard 1: Overlord's Burst
-Discard 2: Vainglorious Malediction
+Life: 14
+Discard 1: Vainglorious Drive
+Discard 2: Unyielding Shot
 Special action available
 Arec has 0 Curse token
 
 
-.A....R
-c......
-
-Unbeatable strategy for Arec: Returning Hex (Fear): 0.58
-Unbeatable strategy for Arec: Returning Hex (Fear; move to clone): 1.17
+.A.R...
+..c....
 
 
 Arec:
-5% Manipulative Hex (move to clone)
-46% Manipulative Hex (Fear; move to clone)
-5% Manipulative Strike (move to clone)
-43% Manipulative Strike (Fear; move to clone)
+54% Phantom Dash (move to clone)
+21% Returning Strike (Mercy)
+5% Returning Drive (move to clone)
+11% Returning Drive (Mercy; move to clone)
+9% Manipulative Strike (Fear; move to clone)
 
 Rexan:
-8% Devastating Drive
-3% Devastating Grasp
-45% Enervating Grasp
-44% Enervating Dash
+11% Devastating Burst
+13% Enervating Malediction
+34% Overlord's Strike
+9% Overlord's Burst
+33% Overlord's Grasp
 
 
-Arec: Manipulative Hex (Fear; move to clone)
-Rexan: Enervating Grasp
-
-Arec moves:
-
-A.....R
-
-
-Arec antes a Fear token
-Priorities:  3 | 3
-Clash!
-
-
-Arec: Manipulative Burst (Fear; move to clone)
-Rexan: Enervating Strike
+Arec: Phantom Dash (move to clone)
+Rexan: Enervating Malediction
 
 Arec moves:
 
-A.....R
+..AR...
 
 
-Arec antes a Fear token
-Priorities:  1 | 1
-Clash!
-
-
-Arec: Manipulative Drive (Fear; move to clone)
-Rexan: Enervating Dash
-
+Priorities:  10 | 2
+Arec is active
 Arec moves:
 
-A.....R
+...R..A
 
 
-Arec antes a Fear token
-Priorities:  4 | 7
-Rexan is active
-Rexan moves:
-
-A...R..
-
-
-Arec moves:
-
-.A..R..
-
-
-Arec misses
+Rexan misses
+Arec recovers a Hesitation token
 
 Beat 4
 -------
 
 Arec
 ----
-Life: 17
-Discard 1: Manipulative Drive
-Discard 2: Mirrored Grasp
+Life: 18
+Discard 1: Phantom Dash
+Discard 2: Mirrored Shot
 Special action available
-pool: Recklessness
+pool: Fear, Mercy, Recklessness, Hesitation
 
 Rexan
 -----
-Life: 20
-Discard 1: Enervating Dash
-Discard 2: Overlord's Burst
+Life: 14
+Discard 1: Enervating Malediction
+Discard 2: Vainglorious Drive
 Special action available
 Arec has 0 Curse token
 
 
-.A..R..
+...R..A
 
-
-Unbeatable strategy for Rexan: Vainglorious Malediction: -1.83
-Unbeatable strategy for Rexan: Vainglorious Drive: -1.39
 
 
 Arec:
-38% Phantom Strike
-32% Phantom Dash
-30% Perceptional Hex
+12% Perceptional Hex
+64% Perceptional Strike
+4% Returning Drive
+18% Manipulative Hex (Fear)
+2% Manipulative Hex (Hesitation)
 
 Rexan:
-20% Devastating Strike
-50% Devastating Drive
-30% Vainglorious Malediction
+10% Devastating Shot
+13% Devastating Grasp
+44% Devastating Dash
+7% Overlord's Strike
+26% Overlord's Grasp
 
 
-Arec: Phantom Dash
-Rexan: Devastating Drive
+Arec: Perceptional Strike
+Rexan: Overlord's Grasp
 
-Priorities:  10 | 3
-Arec is active
-Rexan moves:
-
-.AR....
-
-
-Arec moves:
-
-..RA...
-
-
-Rexan moves:
-
-...AR..
-
-
+Priorities:  4 | 5
+Rexan is active
+Arec antes a Hesitation token
 Rexan misses
-Arec recovers a Hesitation token
+Arec hits
+Arec moves Rexan:
+
+....R.A
+
+
+Arec gains 1 Curse token
+Rexan takes 4 damage (now at 10 life)
+Rexan is stunned
 
 Beat 5
 -------
 
 Arec
 ----
-Life: 17
-Discard 1: Phantom Dash
-Discard 2: Manipulative Drive
+Life: 18
+Discard 1: Perceptional Strike
+Discard 2: Phantom Dash
 Special action available
-pool: Recklessness, Hesitation
+pool: Fear, Mercy, Recklessness
 
 Rexan
 -----
-Life: 20
-Discard 1: Devastating Drive
-Discard 2: Enervating Dash
+Life: 10
+Discard 1: Overlord's Grasp
+Discard 2: Enervating Malediction
 Special action available
-Arec has 0 Curse token
+Arec has 1 Curse token
 
 
-...AR..
+....R.A
 
 
 
 Arec:
-21% Perceptional Strike
-18% Mirrored Hex
-61% Mirrored Burst (Hesitation)
+12% Returning Grasp | (1 Curse token)
+22% Mirrored Hex
+4% Mirrored Drive
+23% Mirrored Grasp
+39% Mirrored Grasp (Fear)
 
 Rexan:
-57% Vainglorious Malediction
-18% Vainglorious Shot
-25% Vainglorious Burst
+1% Devastating Shot
+17% Devastating Drive
+24% Vainglorious Shot
+9% Vainglorious Drive
+48% Vainglorious Dash
 
 
-Arec: Mirrored Burst (Hesitation)
-Rexan: Vainglorious Shot
+Arec: Mirrored Hex
+Rexan: Devastating Drive
 
-Arec antes a Hesitation token
-Priorities:  1 | 2
-Rexan is active
-Arec moves:
-
-..A.R..
+Priorities:  3 | 3
+Clash!
 
 
-Rexan misses
+Arec: Mirrored Grasp
+Rexan: Devastating Burst
+
+Priorities:  5 | 0
+Arec is active
+Rexan moves:
+
+..R...A
+
+
+Rexan moves:
+
+.....RA
+
+
 Arec misses
+Rexan misses
 Arec places clone:
 
-..A.R..
+.....RA
 c......
 
 
@@ -328,54 +312,58 @@ Beat 6
 
 Arec
 ----
-Life: 17
-Discard 1: Mirrored Burst
-Discard 2: Phantom Dash
+Life: 18
+Discard 1: Mirrored Grasp
+Discard 2: Perceptional Strike
 Special action available
-pool: Recklessness
+pool: Fear, Mercy, Recklessness
 
 Rexan
 -----
-Life: 20
-Discard 1: Vainglorious Shot
-Discard 2: Devastating Drive
+Life: 10
+Discard 1: Devastating Burst
+Discard 2: Overlord's Grasp
 Special action available
-Arec has 0 Curse token
+Arec has 1 Curse token
 
 
-..A.R..
+.....RA
 c......
 
 
 Arec:
-12% Perceptional Hex (move to clone)
-48% Perceptional Strike (move to clone)
-40% Manipulative Shot (move to clone)
+1% Phantom Drive (Mercy; move to clone)
+8% Phantom Drive (Mercy; move to clone) | (1 Curse token)
+40% Returning Hex (move to clone) | (1 Curse token)
+5% Returning Drive | (1 Curse token)
+47% Returning Drive (Mercy) | (1 Curse token)
 
 Rexan:
-42% Enervating Malediction
-42% Overlord's Malediction
-16% Overlord's Burst
+31% Unyielding Strike
+14% Enervating Malediction
+29% Vainglorious Malediction
+8% Vainglorious Strike
+19% Vainglorious Shot
 
 
-Arec: Perceptional Strike (move to clone)
-Rexan: Enervating Malediction
+Arec: Returning Hex (move to clone) | (1 Curse token)
+Rexan: Vainglorious Malediction
 
 Arec moves:
 
-A...R..
+A....R.
 
 
-Priorities:  4 | 2
-Arec is active
-Arec antes a Recklessness token
-Arec misses
+Arec antes a Curse token
+Priorities:  3 | 4
+Rexan is active
 Rexan hits
 Arec gains 1 Curse token
-Arec takes 2 damage (now at 15 life)
+Arec takes 3 damage (now at 15 life)
+Arec is stunned
 Rexan moves Arec:
 
-.A..R..
+.A...R.
 
 
 
@@ -385,62 +373,82 @@ Beat 7
 Arec
 ----
 Life: 15
-Discard 1: Perceptional Strike
-Discard 2: Mirrored Burst
+Discard 1: Returning Hex
+Discard 2: Mirrored Grasp
 Special action available
-pool: 
+pool: Fear, Mercy, Recklessness
 
 Rexan
 -----
-Life: 20
-Discard 1: Enervating Malediction
-Discard 2: Vainglorious Shot
+Life: 10
+Discard 1: Vainglorious Malediction
+Discard 2: Devastating Burst
 Special action available
 Arec has 1 Curse token
 
 
-.A..R..
+.A...R.
 
+
+Unbeatable strategy for Rexan: Overlord's Drive: -0.58
 
 
 Arec:
-3% Phantom Hex | (1 Curse token)
-40% Phantom Dash | (1 Curse token)
-27% Returning Hex | (1 Curse token)
-30% Returning Drive | (1 Curse token)
+6% Phantom Strike | (1 Curse token)
+33% Phantom Shot | (1 Curse token)
+58% Phantom Drive | (1 Curse token)
+3% Perceptional Drive
 
 Rexan:
-40% Overlord's Strike
-18% Overlord's Drive
-35% Overlord's Grasp
-7% Overlord's Dash
+14% Unyielding Strike
+34% Overlord's Strike
+30% Overlord's Shot
+22% Overlord's Drive
 
 
-Arec: Phantom Dash | (1 Curse token)
-Rexan: Overlord's Grasp
+Arec: Phantom Shot | (1 Curse token)
+Rexan: Overlord's Shot
 
 Arec antes a Curse token
-Priorities:  9 | 5
-Arec is active
+Priorities:  2 | 2
+Clash!
+
+
+Arec: Phantom Drive | (1 Curse token)
+Rexan: Overlord's Drive
+
+Arec antes a Curse token
+Priorities:  4 | 4
+Clash!
+
+
+Arec: Phantom Strike | (1 Curse token)
+Rexan: Overlord's Strike
+
+Arec antes a Curse token
+Priorities:  3 | 3
+Clash!
+
+
+Arec: Phantom Burst | (1 Curse token)
+Rexan: Overlord's Dash
+
+Arec antes a Curse token
+Priorities:  1 | 9
+Rexan is active
 Arec moves:
 
-A...R..
+A....R.
 
 
-Rexan moves Arec:
+Rexan moves:
 
-...AR..
-
-
-Rexan gets -3 power
-Rexan hits
-Rexan moves Arec:
-
-....RA.
+A.....R
 
 
-Arec takes 0 damage (now at 15 life)
+Arec misses
 Arec recovers a Hesitation token
+Arec gains 1 Curse token
 
 Beat 8
 -------
@@ -448,63 +456,56 @@ Beat 8
 Arec
 ----
 Life: 15
-Discard 1: Phantom Dash
-Discard 2: Perceptional Strike
+Discard 1: Phantom Burst
+Discard 2: Returning Hex
 Special action available
-pool: Hesitation
+pool: Fear, Mercy, Recklessness, Hesitation
 
 Rexan
 -----
-Life: 20
-Discard 1: Overlord's Grasp
-Discard 2: Enervating Malediction
+Life: 10
+Discard 1: Overlord's Dash
+Discard 2: Vainglorious Malediction
 Special action available
-Arec has 0 Curse token
+Arec has 1 Curse token
 
 
-....RA.
+A.....R
 
 
 
 Arec:
-16% Returning Hex (Hesitation)
-9% Returning Drive
-22% Mirrored Hex
-27% Mirrored Drive
-11% Manipulative Burst (Hesitation)
-15% Manipulative Grasp (Hesitation)
+2% Perceptional Shot | (1 Curse token)
+6% Mirrored Shot
+40% Mirrored Shot (Fear)
+13% Mirrored Shot (Fear) | (1 Curse token)
+14% Manipulative Grasp
+25% Manipulative Grasp (Fear)
 
 Rexan:
-6% Unyielding Strike
-40% Unyielding Drive
-2% Devastating Burst
-21% Vainglorious Strike
-7% Vainglorious Drive
-24% Vainglorious Burst
+24% Unyielding Strike
+1% Unyielding Shot
+12% Devastating Strike
+8% Devastating Burst
+40% Enervating Strike
+15% Enervating Drive
 
 
-Arec: Mirrored Drive
-Rexan: Vainglorious Burst
+Arec: Mirrored Shot (Fear) | (1 Curse token)
+Rexan: Enervating Drive
 
-Priorities:  4 | 1
-Arec is active
+Arec antes a Fear token
+Arec antes a Curse token
+Priorities:  1 | 2
+Rexan is active
 Rexan moves:
 
-...R.A.
+A...R..
 
 
-Arec moves:
-
-..AR...
-
-
-Arec misses
 Rexan misses
-Arec places clone:
-
-..AR...
-c......
-
+Arec hits
+Rexan takes 3 damage (now at 7 life)
 
 Beat 9
 -------
@@ -512,55 +513,58 @@ Beat 9
 Arec
 ----
 Life: 15
-Discard 1: Mirrored Drive
-Discard 2: Phantom Dash
+Discard 1: Mirrored Shot
+Discard 2: Phantom Burst
 Special action available
-pool: Hesitation
+pool: Mercy, Recklessness, Hesitation
 
 Rexan
 -----
-Life: 20
-Discard 1: Vainglorious Burst
-Discard 2: Overlord's Grasp
+Life: 7
+Discard 1: Enervating Drive
+Discard 2: Overlord's Dash
 Special action available
 Arec has 0 Curse token
 
 
-..AR...
-c......
+A...R..
+
 
 
 Arec:
-22% Returning Shot (move to clone)
-3% Manipulative Hex (move to clone)
-31% Manipulative Strike
-4% Manipulative Strike (Hesitation)
-20% Manipulative Shot (move to clone)
-19% Manipulative Grasp
+11% Perceptional Hex
+12% Perceptional Strike
+57% Perceptional Drive
+4% Returning Drive
+16% Manipulative Hex
 
 Rexan:
-24% Unyielding Malediction
-7% Unyielding Drive
-10% Devastating Malediction
-1% Devastating Strike
-13% Enervating Malediction
-45% Enervating Shot
+4% Devastating Malediction
+36% Vainglorious Malediction
+9% Vainglorious Strike
+24% Vainglorious Burst
+27% Vainglorious Grasp
 
 
-Arec: Returning Shot (move to clone)
-Rexan: Enervating Shot
+Arec: Perceptional Drive
+Rexan: Vainglorious Malediction
 
+Priorities:  5 | 4
+Arec is active
 Arec moves:
 
-A..R...
+..A.R..
 
 
-Priorities:  3 | 0
-Arec is active
-Rexan is stunned
 Arec hits
 Arec gains 1 Curse token
-Rexan takes 2 damage (now at 18 life)
+Rexan takes 3 damage (now at 4 life)
+Rexan is stunned
+Rexan moves Arec:
+
+...AR..
+
+
 
 Beat 10
 -------
@@ -568,462 +572,305 @@ Beat 10
 Arec
 ----
 Life: 15
-Discard 1: Returning Shot
-Discard 2: Mirrored Drive
+Discard 1: Perceptional Drive
+Discard 2: Mirrored Shot
 Special action available
-pool: Hesitation
+pool: Mercy, Recklessness, Hesitation
 
 Rexan
 -----
-Life: 18
-Discard 1: Enervating Shot
-Discard 2: Vainglorious Burst
+Life: 4
+Discard 1: Vainglorious Malediction
+Discard 2: Enervating Drive
 Special action available
 Arec has 1 Curse token
 
 
-A..R...
+...AR..
 
 
 
 Arec:
-5% Phantom Strike
-14% Phantom Strike | (1 Curse token)
-11% Phantom Grasp
-5% Phantom Grasp (Hesitation)
-34% Phantom Dash | (1 Curse token)
-1% Perceptional Hex
-4% Perceptional Hex | (1 Curse token)
-12% Perceptional Grasp | (1 Curse token)
-6% Manipulative Hex (Hesitation)
-8% Manipulative Grasp (Hesitation)
+38% Returning Strike
+38% Manipulative Hex
+9% Manipulative Hex (Hesitation)
+15% Manipulative Burst (Hesitation)
 
 Rexan:
-23% Unyielding Malediction
-3% Unyielding Strike
-13% Devastating Malediction
-6% Devastating Strike
-3% Devastating Drive
-15% Devastating Grasp
-9% Overlord's Malediction
-23% Overlord's Strike
-2% Overlord's Drive
-5% Overlord's Grasp
+1% Unyielding Dash
+48% Devastating Burst
+37% Overlord's Strike
+14% Overlord's Shot
 
 
-Arec: Phantom Strike
+Arec: Manipulative Hex
 Rexan: Overlord's Strike
 
 Arec gets -1 priority
-Priorities:  3 | 3
-Clash!
-
-
-Arec: Phantom Grasp
-Rexan: Overlord's Dash
-
-Arec gets -1 priority
-Priorities:  5 | 9
+Priorities:  2 | 3
 Rexan is active
-Rexan moves:
-
-AR.....
-
-
-Arec hits
-Arec moves Rexan:
-
-A.R....
-
-
-Arec gains 1 Curse token
-Rexan takes 1 damage (now at 17 life)
-Rexan is stunned
-Arec recovers a Recklessness token
+Rexan hits
+Arec takes 5 damage (now at 10 life)
+Arec is stunned
 
 Beat 11
 -------
 
 Arec
 ----
-Life: 15
-Discard 1: Phantom Grasp
-Discard 2: Returning Shot
+Life: 10
+Discard 1: Manipulative Hex
+Discard 2: Perceptional Drive
 Special action available
-pool: Hesitation, Recklessness
+pool: Mercy, Recklessness, Hesitation
 
 Rexan
 -----
-Life: 17
-Discard 1: Overlord's Dash
-Discard 2: Enervating Shot
+Life: 4
+Discard 1: Overlord's Strike
+Discard 2: Vainglorious Malediction
 Special action available
-Arec has 2 Curse token
+Arec has 1 Curse token
 
 
-A.R....
+...AR..
 
+
+Unbeatable strategy for Arec: Phantom Dash: 0.15
 
 
 Arec:
-41% Perceptional Drive
-19% Perceptional Drive | (1 Curse token)
-7% Mirrored Hex | (2 Curse tokens)
-8% Mirrored Strike | (2 Curse tokens)
-15% Mirrored Strike (Hesitation) | (2 Curse tokens)
-9% Mirrored Drive
+2% Returning Strike (Mercy)
+53% Returning Shot | (1 Curse token)
+23% Mirrored Burst (Hesitation)
+22% Mirrored Burst (Hesitation) | (1 Curse token)
 
 Rexan:
-20% Unyielding Strike
-28% Devastating Malediction
-8% Devastating Burst
-30% Devastating Grasp
-4% Vainglorious Drive
-9% Vainglorious Grasp
+26% Devastating Shot
+17% Devastating Drive
+33% Devastating Burst
+25% Enervating Drive
 
 
-Arec: Perceptional Drive
-Rexan: Devastating Burst
+Arec: Mirrored Burst (Hesitation) | (1 Curse token)
+Rexan: Devastating Shot
 
-Priorities:  5 | 0
-Arec is active
-Rexan moves:
-
-AR.....
-
-
-Rexan moves:
-
-A.R....
-
-
+Arec antes a Hesitation token
+Arec antes a Curse token
+Priorities:  0 | 1
+Rexan is active
 Arec moves:
 
-..RA...
+..A.R..
 
 
-Arec misses
 Rexan misses
+Arec misses
+Arec places clone:
+
+..A.R..
+c......
+
+Arec gains 1 Curse token
 
 Beat 12
 -------
 
 Arec
 ----
-Life: 15
-Discard 1: Perceptional Drive
-Discard 2: Phantom Grasp
+Life: 10
+Discard 1: Mirrored Burst
+Discard 2: Manipulative Hex
 Special action available
-pool: Hesitation, Recklessness
+pool: Mercy, Recklessness
 
 Rexan
 -----
-Life: 17
-Discard 1: Devastating Burst
-Discard 2: Overlord's Dash
+Life: 4
+Discard 1: Devastating Shot
+Discard 2: Overlord's Strike
 Special action available
-Arec has 2 Curse token
+Arec has 1 Curse token
 
 
-..RA...
-
-
-Unbeatable strategy for Arec: Mirrored Burst (Hesitation) | (2 Curse tokens): 0.06
+..A.R..
+c......
 
 
 Arec:
-40% Mirrored Burst (Hesitation)
-14% Mirrored Burst (Hesitation) | (1 Curse token)
-46% Mirrored Burst (Hesitation) | (2 Curse tokens)
+39% Phantom Shot (move to clone) | (1 Curse token)
+16% Phantom Shot (Mercy; move to clone) | (1 Curse token)
+9% Returning Strike (Mercy)
+3% Returning Drive | (1 Curse token)
+2% Returning Drive (move to clone) | (1 Curse token)
+30% Returning Drive (Mercy; move to clone) | (1 Curse token)
 
 Rexan:
-100% Vainglorious Malediction
+13% Enervating Malediction
+13% Enervating Drive
+9% Vainglorious Malediction
+17% Vainglorious Drive
+23% Vainglorious Burst
+26% Vainglorious Dash
 
 
-Arec: Mirrored Burst (Hesitation)
-Rexan: Vainglorious Malediction
+Arec: Phantom Shot (Mercy; move to clone) | (1 Curse token)
+Rexan: Vainglorious Drive
 
-Arec antes a Hesitation token
-Priorities:  1 | 4
-Rexan is active
 Arec moves:
 
-..R.A..
+A...R..
 
 
-Rexan misses
-Arec misses
+Arec antes a Mercy token
+Arec antes a Curse token
+Priorities:  2 | 4
+Rexan is active
 Rexan moves Arec:
 
+.A..R..
+
+
+Rexan moves:
+
 .AR....
 
 
-Arec places clone:
-
-.AR....
-......c
-
+Rexan hits
+Arec takes 4 damage (now at 6 life)
+Arec is stunned
+Arec recovers a Hesitation token
 
 Beat 13
 -------
 
 Arec
 ----
-Life: 15
-Discard 1: Mirrored Burst
-Discard 2: Perceptional Drive
-Special action available
-pool: Recklessness
-
-Rexan
------
-Life: 17
-Discard 1: Vainglorious Malediction
-Discard 2: Devastating Burst
-Special action available
-Arec has 2 Curse token
-
-
-.AR....
-......c
-
-
-Arec:
-0% Phantom Strike (move to clone) | (2 Curse tokens)
-80% Phantom Grasp (move to clone) | (2 Curse tokens)
-16% Returning Strike | (1 Curse token)
-3% Returning Shot (move to clone) | (2 Curse tokens)
-
-Rexan:
-25% Unyielding Drive
-2% Overlord's Strike
-22% Overlord's Shot
-51% Overlord's Drive
-
-
-Arec: Phantom Grasp (move to clone) | (2 Curse tokens)
-Rexan: Overlord's Drive
-
-Arec moves:
-
-..R...A
-
-
-Arec antes a Curse token
-Arec antes a Curse token
-Priorities:  4 | 4
-Clash!
-
-
-Arec: Phantom Hex (move to clone) | (2 Curse tokens)
-Rexan: Overlord's Shot
-
-Arec moves:
-
-..R...A
-
-
-Arec antes a Curse token
-Arec antes a Curse token
-Priorities:  2 | 2
-Clash!
-
-
-Arec: Phantom Strike (move to clone) | (2 Curse tokens)
-Rexan: Overlord's Strike
-
-Arec moves:
-
-..R...A
-
-
-Arec antes a Curse token
-Arec antes a Curse token
-Priorities:  2 | 3
-Rexan is active
-Rexan moves Arec:
-
-..RA...
-
-
-Rexan gets -3 power
-Rexan hits
-Arec takes 2 damage (now at 13 life)
-Arec hits
-Rexan takes 1 damage (now at 16 life)
-Arec recovers a Hesitation token
-
-Beat 14
--------
-
-Arec
-----
-Life: 13
-Discard 1: Phantom Strike
+Life: 6
+Discard 1: Phantom Shot
 Discard 2: Mirrored Burst
 Special action available
 pool: Recklessness, Hesitation
 
 Rexan
 -----
-Life: 16
-Discard 1: Overlord's Strike
-Discard 2: Vainglorious Malediction
+Life: 4
+Discard 1: Vainglorious Drive
+Discard 2: Devastating Shot
 Special action available
 Arec has 0 Curse token
 
 
+.AR....
+
+
+
+Arec:
+0% Returning Strike (Recklessness)
+13% Returning Strike (Hesitation)
+66% Returning Dash
+6% Manipulative Strike
+14% Manipulative Drive
+
+Rexan:
+26% Enervating Malediction
+34% Enervating Burst
+25% Overlord's Malediction
+9% Overlord's Burst
+7% Overlord's Grasp
+
+
+Arec: Manipulative Drive
+Rexan: Enervating Malediction
+
+Priorities:  4 | 2
+Arec is active
+Arec moves:
+
 ..RA...
 
 
-
-Arec:
-7% Perceptional Hex
-81% Perceptional Dash
-1% Manipulative Shot
-7% Manipulative Grasp (Recklessness)
-4% Manipulative Grasp (Hesitation)
-
-Rexan:
-25% Unyielding Drive
-1% Unyielding Grasp
-7% Devastating Burst
-53% Enervating Shot
-14% Enervating Drive
-
-
-Arec: Manipulative Grasp (Hesitation)
-Rexan: Unyielding Drive
-
-Arec antes a Hesitation token
-Priorities:  5 | 4
-Arec is active
 Arec hits
-Arec chooses Rexan's base: Shot
-Arec moves Rexan:
-
-.R.A...
-
-
+Arec chooses Rexan's base: Burst
 Arec gains 1 Curse token
-Rexan takes 3 damage (now at 13 life)
+Rexan takes 3 damage (now at 1 life)
 Arec recovers a Fear token
-Rexan is stunned
-
-Beat 15
--------
-
-Arec
-----
-Life: 13
-Discard 1: Manipulative Grasp
-Discard 2: Phantom Strike
-Special action available
-pool: Recklessness, Fear
-Manipulative forced base: Shot
-
-Rexan
------
-Life: 13
-Discard 1: Unyielding Drive
-Discard 2: Overlord's Strike
-Special action available
-Arec has 1 Curse token
-
-
-.R.A...
-
-
-
-Arec:
-8% Perceptional Hex
-33% Mirrored Hex | (1 Curse token)
-3% Mirrored Burst
-5% Mirrored Burst | (1 Curse token)
-18% Mirrored Dash
-32% Mirrored Dash | (1 Curse token)
-
-Rexan:
-1% Vainglorious Malediction
-0% Vainglorious Shot
-1% Vainglorious Grasp
-97% Special Pulse
-
-
-Arec: Perceptional Hex
-Rexan: Special Pulse
-
-Pulse:
+Rexan hits
+Arec gains 1 Curse token
+Rexan gets +2 power
+Arec takes 4 damage (now at 2 life)
+Arec is stunned
+Rexan moves Arec:
 
 .AR....
 
 
 
-Beat 15
+Beat 14
 -------
 
 Arec
 ----
-Life: 13
-Discard 1: Perceptional Hex
-Discard 2: Manipulative Grasp
+Life: 2
+Discard 1: Manipulative Drive
+Discard 2: Phantom Shot
 Special action available
-pool: Recklessness, Fear
-Manipulative forced base: Shot
+pool: Recklessness, Hesitation, Fear
+Manipulative forced base: Burst
 
 Rexan
 -----
-Life: 13
-Discard 1: Unyielding Drive
-Discard 2: Overlord's Strike
-Arec has 1 Curse token
+Life: 1
+Discard 1: Enervating Malediction
+Discard 2: Vainglorious Drive
+Special action available
+Arec has 2 Curse token
 
 
 .AR....
 
 
+Unbeatable strategy for Arec: Mirrored Dash | (2 Curse tokens): 1.65
+Unbeatable strategy for Arec: Mirrored Dash (Recklessness) | (2 Curse tokens): 1.05
+
 
 Arec:
-5% Phantom Dash
-2% Phantom Dash | (1 Curse token)
-5% Phantom Dash (Recklessness)
-2% Phantom Dash (Recklessness) | (1 Curse token)
-5% Phantom Dash (Fear)
-2% Phantom Dash (Fear) | (1 Curse token)
-4% Returning Shot
-4% Returning Shot (Recklessness)
-5% Returning Dash
-5% Returning Dash | (1 Curse token)
-5% Returning Dash (Recklessness)
-5% Returning Dash (Recklessness) | (1 Curse token)
-5% Returning Dash (Fear)
-5% Returning Dash (Fear) | (1 Curse token)
-5% Mirrored Drive
-4% Mirrored Drive | (1 Curse token)
-5% Mirrored Drive (Recklessness)
-4% Mirrored Drive (Recklessness) | (1 Curse token)
-5% Mirrored Drive (Fear)
-4% Mirrored Drive (Fear) | (1 Curse token)
-2% Mirrored Dash
-3% Mirrored Dash | (1 Curse token)
-2% Mirrored Dash (Recklessness)
-3% Mirrored Dash (Recklessness) | (1 Curse token)
-2% Mirrored Dash (Fear)
-2% Mirrored Dash (Fear) | (1 Curse token)
+0% Perceptional Hex
+0% Perceptional Hex (Recklessness)
+0% Perceptional Hex (Hesitation)
+0% Perceptional Hex (Fear)
+0% Returning Hex
+0% Returning Hex | (1 Curse token)
+0% Returning Hex (Recklessness)
+0% Returning Hex (Recklessness) | (1 Curse token)
+0% Returning Hex (Hesitation)
+0% Returning Hex (Hesitation) | (1 Curse token)
+0% Returning Hex (Fear)
+0% Returning Hex (Fear) | (1 Curse token)
+0% Returning Strike (Fear)
+0% Returning Strike (Fear) | (1 Curse token)
+0% Returning Burst (Hesitation)
+0% Returning Burst (Hesitation) | (1 Curse token)
+0% Returning Burst (Hesitation) | (2 Curse tokens)
+0% Returning Grasp (Fear)
+0% Returning Grasp (Fear) | (1 Curse token)
+13% Mirrored Dash
+7% Mirrored Dash | (1 Curse token)
+79% Mirrored Dash | (2 Curse tokens)
 
 Rexan:
-6% Devastating Shot
-42% Enervating Shot
-19% Vainglorious Shot
-33% Vainglorious Grasp
+33% Unyielding Strike
+34% Unyielding Burst
+33% Overlord's Grasp
 
 
-Arec: Mirrored Dash | (1 Curse token)
-Rexan: Vainglorious Grasp
+Arec: Mirrored Dash | (2 Curse tokens)
+Rexan: Overlord's Grasp
 
 Arec antes a Curse token
-Rexan loses 2 life (now at 11)
-Priorities:  8 | 5
+Arec antes a Curse token
+Rexan loses 2 life (now at 1)
+Priorities:  7 | 5
 Arec is active
 Arec moves:
 
@@ -1032,16 +879,197 @@ Arec moves:
 
 Rexan moves Arec:
 
-.AR....
+A.R....
 
 
+Rexan gets -2 power
 Rexan misses
 Arec places clone:
 
-.AR....
-c......
+A.R....
+....c..
 
-Arec gains 1 Curse token
-Game goes to time
+Arec gains 2 Curse tokens
+
+Beat 15
+-------
+
+Arec
+----
+Life: 2
+Discard 1: Mirrored Dash
+Discard 2: Manipulative Drive
+Special action available
+pool: Recklessness, Hesitation, Fear
+
+Rexan
+-----
+Life: 1
+Discard 1: Overlord's Grasp
+Discard 2: Enervating Malediction
+Special action available
+Arec has 2 Curse token
+
+
+A.R....
+....c..
+
+Unbeatable strategy for Arec: Phantom Grasp (Fear): 6.00
+Unbeatable strategy for Arec: Phantom Grasp (Fear; move to clone): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp: 6.00
+Unbeatable strategy for Arec: Perceptional Grasp | (1 Curse token): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Recklessness): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Recklessness) | (1 Curse token): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Hesitation): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Hesitation) | (1 Curse token): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Fear): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Fear) | (1 Curse token): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (move to clone): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (move to clone) | (1 Curse token): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Recklessness; move to clone): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Recklessness; move to clone) | (1 Curse token): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Hesitation; move to clone): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Hesitation; move to clone) | (1 Curse token): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Fear; move to clone): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Fear; move to clone) | (1 Curse token): 6.00
+Unbeatable strategy for Arec: Returning Hex: 6.00
+Unbeatable strategy for Arec: Returning Hex (Recklessness): 6.00
+Unbeatable strategy for Arec: Returning Hex (Hesitation): 6.00
+Unbeatable strategy for Arec: Returning Hex (Fear): 6.00
+Unbeatable strategy for Arec: Returning Hex (move to clone): 6.00
+Unbeatable strategy for Arec: Returning Hex (Recklessness; move to clone): 6.00
+Unbeatable strategy for Arec: Returning Hex (Hesitation; move to clone): 6.00
+Unbeatable strategy for Arec: Returning Hex (Fear; move to clone): 6.00
+Unbeatable strategy for Arec: Returning Strike (Fear): 6.00
+Unbeatable strategy for Arec: Returning Strike (Fear; move to clone): 6.00
+Unbeatable strategy for Arec: Returning Grasp (Fear): 6.00
+Unbeatable strategy for Arec: Returning Grasp (Fear) | (1 Curse token): 6.00
+Unbeatable strategy for Arec: Returning Grasp (Fear; move to clone): 6.00
+Unbeatable strategy for Arec: Returning Grasp (Fear; move to clone) | (1 Curse token): 6.00
+
+
+Arec:
+46% Perceptional Hex
+1% Perceptional Hex | (1 Curse token)
+3% Perceptional Hex | (2 Curse tokens)
+46% Perceptional Hex (move to clone)
+1% Perceptional Hex (move to clone) | (1 Curse token)
+3% Perceptional Hex (move to clone) | (2 Curse tokens)
+
+Rexan:
+100% Special Pulse
+
+
+Arec: Perceptional Hex
+Rexan: Special Pulse
+
+Rexan Pulses:
+
+AR.....
+
+
+
+Beat 15
+-------
+
+Arec
+----
+Life: 2
+Discard 1: Perceptional Hex
+Discard 2: Mirrored Dash
+Special action available
+pool: Recklessness, Hesitation, Fear
+
+Rexan
+-----
+Life: 1
+Discard 1: Overlord's Grasp
+Discard 2: Enervating Malediction
+Arec has 2 Curse token
+
+
+AR.....
+
+
+Unbeatable strategy for Arec: Phantom Drive: 6.00
+Unbeatable strategy for Arec: Phantom Drive (Recklessness): 6.00
+Unbeatable strategy for Arec: Phantom Drive (Fear): 6.00
+Unbeatable strategy for Arec: Phantom Grasp: 6.00
+Unbeatable strategy for Arec: Phantom Grasp (Recklessness): 6.00
+Unbeatable strategy for Arec: Phantom Grasp (Hesitation): 6.00
+Unbeatable strategy for Arec: Phantom Grasp (Fear): 6.00
+Unbeatable strategy for Arec: Returning Strike (Fear): 6.00
+Unbeatable strategy for Arec: Returning Drive: 6.00
+Unbeatable strategy for Arec: Returning Drive | (1 Curse token): 6.00
+Unbeatable strategy for Arec: Returning Drive | (2 Curse tokens): 6.00
+Unbeatable strategy for Arec: Returning Drive (Recklessness): 6.00
+Unbeatable strategy for Arec: Returning Drive (Recklessness) | (1 Curse token): 6.00
+Unbeatable strategy for Arec: Returning Drive (Recklessness) | (2 Curse tokens): 6.00
+Unbeatable strategy for Arec: Returning Drive (Fear): 6.00
+Unbeatable strategy for Arec: Returning Drive (Fear) | (1 Curse token): 6.00
+Unbeatable strategy for Arec: Returning Grasp (Fear): 6.00
+Unbeatable strategy for Arec: Returning Grasp (Fear) | (1 Curse token): 6.00
+Unbeatable strategy for Arec: Manipulative Grasp (Fear): 6.00
+
+
+Arec:
+4% Phantom Strike
+4% Phantom Strike (Recklessness)
+4% Phantom Strike (Hesitation)
+4% Phantom Strike (Fear)
+4% Phantom Drive
+4% Phantom Drive (Recklessness)
+4% Phantom Drive (Fear)
+4% Phantom Grasp
+4% Phantom Grasp (Recklessness)
+4% Phantom Grasp (Hesitation)
+4% Phantom Grasp (Fear)
+4% Returning Strike (Fear)
+4% Returning Drive
+4% Returning Drive | (1 Curse token)
+4% Returning Drive | (2 Curse tokens)
+4% Returning Drive (Recklessness)
+4% Returning Drive (Recklessness) | (1 Curse token)
+4% Returning Drive (Recklessness) | (2 Curse tokens)
+4% Returning Drive (Fear)
+4% Returning Drive (Fear) | (1 Curse token)
+4% Returning Grasp (Fear)
+4% Returning Grasp (Fear) | (1 Curse token)
+4% Manipulative Drive (Fear)
+4% Manipulative Grasp (Fear)
+4% Manipulative Grasp (Fear) | (1 Curse token)
+
+Rexan:
+1% Unyielding Strike
+2% Unyielding Shot
+8% Unyielding Drive
+8% Unyielding Burst
+5% Unyielding Dash
+0% Devastating Strike
+1% Devastating Shot
+2% Devastating Drive
+13% Devastating Burst
+6% Devastating Dash
+5% Vainglorious Strike
+4% Vainglorious Shot
+32% Vainglorious Drive
+7% Vainglorious Burst
+6% Vainglorious Dash
+
+
+Arec: Returning Grasp (Fear) | (1 Curse token)
+Rexan: Unyielding Drive
+
+Arec antes a Fear token
+Arec antes a Curse token
+Priorities:  5 | 4
+Arec is active
+Arec hits
+Arec moves Rexan:
+
+A.R....
+
+
+Rexan takes 1 damage (now at 0 life)
 AREC WINS!
-total_time: 66
+total_time: 124

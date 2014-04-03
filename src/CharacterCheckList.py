@@ -22,6 +22,9 @@
     def set_preferred_range (self): # if character can get non-style/base range
     def evaluate (self):
 
+    mean_priority_bonus
+    expected_stunguard/soak
+
     # special evaluations for cards (situation dependent, none )
    
     
