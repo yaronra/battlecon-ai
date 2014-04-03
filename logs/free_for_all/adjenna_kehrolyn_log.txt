@@ -11,64 +11,59 @@ Beat 1
 
 Adjenna
 -------
-life: 20
-discard 1: Beckoning Burst
-discard 2: Alluring Grasp
-special action
+Life: 20
+Discard 1: Beckoning Burst
+Discard 2: Alluring Grasp
+Special action available
 0 Petrification markers on Kehrolyn
 
 Kehrolyn
 --------
-life: 20
-discard 1: Mutating Grasp
-discard 2: Bladed Strike
-special action
+Life: 20
+Discard 1: Mutating Grasp
+Discard 2: Bladed Strike
+Special action available
 
 
 .A...K.
 
+
 Adjenna:
-8% Arresting Gaze
-1% Arresting Drive
-11% Arresting Dash
-6% Pacifying Dash
-35% Irresistible Gaze
+13% Arresting Gaze
+10% Arresting Dash
+8% Pacifying Dash
+30% Irresistible Gaze
 39% Irresistible Drive
 
 Kehrolyn:
-5% Whip Overload
-2% Whip Drive
-35% Quicksilver Shot
-27% Quicksilver Burst
-32% Quicksilver Dash
+0% Whip Overload
+0% Whip Drive
+49% Quicksilver Shot
+50% Quicksilver Burst
 
 
-Adjenna: Pacifying Dash
-Kehrolyn: Quicksilver Burst
+Adjenna: Irresistible Drive
+Kehrolyn: Quicksilver Shot
 
-Priorities:  9 | 5
-Adjenna is active
-Kehrolyn moves:
-
-.A....K
-
+Priorities:  4 | 6
+Kehrolyn is active
+Kehrolyn hits
+Adjenna takes 3 damage (now at 17 life)
 Adjenna moves:
 
-..A...K
+..A..K.
 
-Adjenna moves:
+Adjenna moves Kehrolyn:
 
-.....AK
+.KA....
 
-Kehrolyn misses
-Kehrolyn loses 1 life (now at 19)
+Adjenna hits
+Kehrolyn takes 3 damage (now at 17 life)
+Kehrolyn is stunned
+Kehrolyn loses 1 life (now at 16)
 Kehrolyn moves:
 
-....KA.
-
-Kehrolyn moves:
-
-...K.A.
+K.A....
 
 
 Beat 2
@@ -76,58 +71,50 @@ Beat 2
 
 Adjenna
 -------
-life: 20
-discard 1: Pacifying Dash
-discard 2: Beckoning Burst
-special action
+Life: 17
+Discard 1: Irresistible Drive
+Discard 2: Beckoning Burst
+Special action available
 0 Petrification markers on Kehrolyn
 
 Kehrolyn
 --------
-life: 19
-discard 1: Quicksilver Burst
-discard 2: Mutating Grasp
-special action
+Life: 16
+Discard 1: Quicksilver Shot
+Discard 2: Mutating Grasp
+Special action available
 
 
-...K.A.
+K.A....
 
-Unbeatable strategy for Kehrolyn: Bladed Overload: -0.50
-Unbeatable strategy for Kehrolyn: Whip Overload: -0.51
-Unbeatable strategy for Kehrolyn: Exoskeletal Overload: -0.50
-Unbeatable strategy for Kehrolyn: Exoskeletal Shot: -1.27
 
 Adjenna:
-17% Alluring Strike
-74% Arresting Strike
-3% Irresistible Strike
-7% Irresistible Shot
+23% Alluring Gaze
+26% Alluring Strike
+52% Alluring Dash
 
 Kehrolyn:
-1% Bladed Shot
-49% Whip Overload
-1% Whip Drive
-50% Exoskeletal Shot
+10% Bladed Overload
+37% Bladed Burst
+53% Whip Drive
 
 
-Adjenna: Irresistible Shot
-Kehrolyn: Whip Overload
+Adjenna: Alluring Gaze
+Kehrolyn: Bladed Overload
 
-Priorities:  2 | 5
+Priorities:  3 | 5
 Kehrolyn is active
-Kehrolyn overloads Bladed
+Kehrolyn overloads Whip
 Kehrolyn hits
 Kehrolyn moves Adjenna:
 
-...KA..
+KA.....
 
-Adjenna takes 5 damage (now at 15 life)
-Adjenna hits
-Kehrolyn takes 3 damage (now at 16 life)
-Kehrolyn is stunned
+Adjenna takes 5 damage (now at 12 life)
+Adjenna is stunned
 Kehrolyn moves:
 
-..K.A..
+.AK....
 
 
 Beat 3
@@ -135,96 +122,108 @@ Beat 3
 
 Adjenna
 -------
-life: 15
-discard 1: Irresistible Shot
-discard 2: Pacifying Dash
-special action
+Life: 12
+Discard 1: Alluring Gaze
+Discard 2: Irresistible Drive
+Special action available
 0 Petrification markers on Kehrolyn
 
 Kehrolyn
 --------
-life: 16
-discard 1: Whip Overload
-discard 2: Quicksilver Burst
-special action
+Life: 16
+Discard 1: Bladed Overload
+Discard 2: Quicksilver Shot
+Special action available
 
 
-..K.A..
+.AK....
+
+Unbeatable strategy for Adjenna: Arresting Dash: 0.29
+Unbeatable strategy for Adjenna: Beckoning Dash: 0.29
+
 
 Adjenna:
-50% Alluring Drive
-50% Arresting Burst
+9% Arresting Strike
+9% Arresting Grasp
+15% Pacifying Grasp
+68% Beckoning Dash
 
 Kehrolyn:
-45% Bladed Grasp
-55% Exoskeletal Shot
+1% Mutating Drive
+7% Whip Grasp
+1% Exoskeletal Drive
+92% Exoskeletal Dash
 
 
-Adjenna: Arresting Burst
-Kehrolyn: Exoskeletal Shot
+Adjenna: Beckoning Dash
+Kehrolyn: Exoskeletal Dash
 
-Priorities:  0 | 2
+Priorities:  8 | 9
 Kehrolyn is active
+Kehrolyn moves:
+
+KA.....
+
 Adjenna moves:
 
-..K..A.
+K.A....
 
-Kehrolyn hits
-Kehrolyn moves Adjenna:
-
-..K.A..
-
-Adjenna takes 3 damage (now at 12 life)
-Adjenna is stunned
 
 Beat 4
 -------
 
 Adjenna
 -------
-life: 12
-discard 1: Arresting Burst
-discard 2: Irresistible Shot
-special action
+Life: 12
+Discard 1: Beckoning Dash
+Discard 2: Alluring Gaze
+Special action available
 0 Petrification markers on Kehrolyn
 
 Kehrolyn
 --------
-life: 16
-discard 1: Exoskeletal Shot
-discard 2: Whip Overload
-special action
+Life: 16
+Discard 1: Exoskeletal Dash
+Discard 2: Bladed Overload
+Special action available
 
 
-..K.A..
+K.A....
+
+Unbeatable strategy for Kehrolyn: Whip Drive: -0.71
+Unbeatable strategy for Kehrolyn: Quicksilver Drive: -0.62
+
 
 Adjenna:
-12% Alluring Gaze
-26% Alluring Drive
-45% Alluring Dash
-17% Pacifying Gaze
+41% Arresting Strike
+11% Irresistible Strike
+48% Irresistible Burst
 
 Kehrolyn:
-6% Bladed Burst
-9% Quicksilver Drive
-28% Quicksilver Burst
-56% Quicksilver Dash
+24% Whip Shot
+27% Quicksilver Shot
+49% Quicksilver Drive
 
 
-Adjenna: Alluring Dash
-Kehrolyn: Quicksilver Burst
+Adjenna: Arresting Strike
+Kehrolyn: Quicksilver Drive
 
-Priorities:  8 | 3
-Adjenna is active
+Priorities:  2 | 6
+Kehrolyn is active
 Kehrolyn moves:
 
-.K..A..
+.KA....
 
+Kehrolyn hits
+Adjenna takes 3 damage (now at 9 life)
 Adjenna moves:
 
 AK.....
 
-Kehrolyn misses
+Adjenna hits
+Kehrolyn has 2 soak
+Kehrolyn takes 1 damage (now at 15 life)
+Kehrolyn is stunned
 Kehrolyn moves:
 
 A.K....
@@ -235,61 +234,92 @@ Beat 5
 
 Adjenna
 -------
-life: 12
-discard 1: Alluring Dash
-discard 2: Arresting Burst
-special action
+Life: 9
+Discard 1: Arresting Strike
+Discard 2: Beckoning Dash
+Special action available
 0 Petrification markers on Kehrolyn
 
 Kehrolyn
 --------
-life: 16
-discard 1: Quicksilver Burst
-discard 2: Exoskeletal Shot
-special action
+Life: 15
+Discard 1: Quicksilver Drive
+Discard 2: Exoskeletal Dash
+Special action available
 
 
 A.K....
 
-Unbeatable strategy for Kehrolyn: Whip Drive: -2.99
-Unbeatable strategy for Kehrolyn: Whip Grasp: -1.99
+Unbeatable strategy for Kehrolyn: Whip Grasp: -0.32
+
 
 Adjenna:
-5% Pacifying Gaze
-10% Pacifying Strike
-5% Pacifying Shot
-5% Pacifying Drive
-5% Pacifying Grasp
-5% Irresistible Gaze
-17% Irresistible Strike
-10% Irresistible Shot
-5% Irresistible Drive
-5% Irresistible Grasp
-6% Beckoning Gaze
-6% Beckoning Strike
-6% Beckoning Shot
-5% Beckoning Drive
-6% Beckoning Grasp
+4% Pacifying Shot
+4% Pacifying Burst
+13% Irresistible Gaze
+71% Irresistible Shot
+6% Irresistible Drive
+3% Irresistible Burst
 
 Kehrolyn:
-100% Whip Drive
+100% Whip Grasp
 
 
-Adjenna: Beckoning Drive
-Kehrolyn: Whip Drive
+Adjenna: Irresistible Gaze
+Kehrolyn: Whip Grasp
 
-Priorities:  3 | 6
+Priorities:  4 | 7
 Kehrolyn is active
-Kehrolyn moves:
-
-AK.....
-
 Kehrolyn hits
-Adjenna is stunned
-Adjenna takes 3 damage (now at 9 life)
-Kehrolyn moves:
+Kehrolyn moves Adjenna:
 
-A.K....
+.AK....
+
+Adjenna is stunned
+Adjenna takes 2 damage (now at 7 life)
+
+Beat 6
+-------
+
+Adjenna
+-------
+Life: 7
+Discard 1: Irresistible Gaze
+Discard 2: Arresting Strike
+Special action available
+0 Petrification markers on Kehrolyn
+
+Kehrolyn
+--------
+Life: 15
+Discard 1: Whip Grasp
+Discard 2: Quicksilver Drive
+Special action available
+
+
+.AK....
+
+Unbeatable strategy for Adjenna: Alluring Dash: 1.47
+Unbeatable strategy for Adjenna: Beckoning Dash: 1.11
+
+
+Adjenna:
+76% Alluring Drive
+6% Alluring Burst
+18% Alluring Grasp
+
+Kehrolyn:
+3% Exoskeletal Strike
+3% Exoskeletal Burst
+95% Special Pulse
+
+
+Adjenna: Alluring Drive
+Kehrolyn: Special Pulse
+
+Kehrolyn Pulses:
+
+A.....K
 
 
 Beat 6
@@ -297,109 +327,108 @@ Beat 6
 
 Adjenna
 -------
-life: 9
-discard 1: Beckoning Drive
-discard 2: Alluring Dash
-special action
+Life: 7
+Discard 1: Alluring Drive
+Discard 2: Irresistible Gaze
+Special action available
 0 Petrification markers on Kehrolyn
 
 Kehrolyn
 --------
-life: 16
-discard 1: Whip Drive
-discard 2: Quicksilver Burst
-special action
+Life: 15
+Discard 1: Whip Grasp
+Discard 2: Quicksilver Drive
 
 
-A.K....
+A.....K
 
-Unbeatable strategy for Kehrolyn: Mutating Grasp: -0.34
-Unbeatable strategy for Kehrolyn: Bladed Overload: -1.34
-Unbeatable strategy for Kehrolyn: Bladed Grasp: -2.84
-Unbeatable strategy for Kehrolyn: Exoskeletal Overload: -0.84
-Unbeatable strategy for Kehrolyn: Exoskeletal Grasp: -0.84
+Unbeatable strategy for Adjenna: Arresting Dash: 1.02
+Unbeatable strategy for Adjenna: Beckoning Burst: 0.74
+
 
 Adjenna:
-20% Pacifying Gaze
-43% Irresistible Gaze
-37% Irresistible Grasp
+50% Arresting Strike
+10% Arresting Shot
+13% Arresting Dash
+27% Pacifying Dash
 
 Kehrolyn:
-30% Bladed Overload
-62% Bladed Grasp
+15% Mutating Shot
+51% Bladed Overload
+27% Bladed Shot
 7% Exoskeletal Overload
 
 
-Adjenna: Pacifying Gaze
-Kehrolyn: Exoskeletal Overload
+Adjenna: Arresting Strike
+Kehrolyn: Bladed Shot
 
-Priorities:  4 | 3
+Priorities:  2 | 2
+Clash!
+
+
+Adjenna: Arresting Dash
+Kehrolyn: Bladed Overload
+
+Priorities:  8 | 3
 Adjenna is active
-Kehrolyn overloads Bladed
-Adjenna hits
-Kehrolyn receives a Petrification Marker
-Kehrolyn has 2 soak
-Kehrolyn takes 0 damage (now at 16 life)
+Kehrolyn overloads Mutating
 Adjenna moves:
 
-.AK....
+.A....K
 
-Kehrolyn hits
-Adjenna is stunned
-Adjenna takes 5 damage (now at 4 life)
-Adjenna is stunned
+Adjenna moves:
+
+..A...K
+
+Kehrolyn misses
+Kehrolyn loses 1 life (now at 14)
 
 Beat 7
 -------
 
 Adjenna
 -------
-life: 4
-discard 1: Pacifying Gaze
-discard 2: Beckoning Drive
-special action
-1 Petrification markers on Kehrolyn
+Life: 7
+Discard 1: Arresting Dash
+Discard 2: Alluring Drive
+Special action available
+0 Petrification markers on Kehrolyn
 
 Kehrolyn
 --------
-life: 16
-discard 1: Exoskeletal Overload
-discard 2: Whip Drive
-special action
+Life: 14
+Discard 1: Bladed Overload
+Discard 2: Whip Grasp
 
 
-.AK....
+..A...K
 
-Unbeatable strategy for Adjenna: Alluring Dash: 0.09
 
 Adjenna:
-10% Alluring Strike
-87% Alluring Dash
-2% Special Basilisk Gaze
+34% Pacifying Gaze
+13% Pacifying Shot
+53% Pacifying Burst
 
 Kehrolyn:
-31% Quicksilver Burst
-65% Quicksilver Grasp
-3% Quicksilver Dash
+16% Quicksilver Shot
+30% Quicksilver Burst
+54% Exoskeletal Shot
 
 
-Adjenna: Alluring Dash
-Kehrolyn: Quicksilver Burst
+Adjenna: Pacifying Burst
+Kehrolyn: Exoskeletal Shot
 
-Priorities:  8 | 3
-Adjenna is active
-Kehrolyn moves:
-
-.A.K...
-
+Priorities:  1 | 2
+Kehrolyn is active
 Adjenna moves:
 
-..AK...
+.A....K
 
 Kehrolyn misses
-Kehrolyn moves:
+Adjenna misses
+Adjenna moves:
 
-..A.K..
+...A..K
 
 
 Beat 8
@@ -407,162 +436,216 @@ Beat 8
 
 Adjenna
 -------
-life: 4
-discard 1: Alluring Dash
-discard 2: Pacifying Gaze
-special action
-1 Petrification markers on Kehrolyn
+Life: 7
+Discard 1: Pacifying Burst
+Discard 2: Arresting Dash
+Special action available
+0 Petrification markers on Kehrolyn
 
 Kehrolyn
 --------
-life: 16
-discard 1: Quicksilver Burst
-discard 2: Exoskeletal Overload
-special action
+Life: 14
+Discard 1: Exoskeletal Shot
+Discard 2: Bladed Overload
 
 
-..A.K..
+...A..K
 
-Unbeatable strategy for Kehrolyn: Bladed Shot: -9.00
 
 Adjenna:
-9% Arresting Burst
-4% Arresting Grasp
-13% Irresistible Drive
-56% Irresistible Burst
-17% Special Basilisk Gaze
+10% Alluring Gaze
+6% Alluring Drive
+58% Alluring Grasp
+22% Irresistible Drive
+3% Special Basilisk Gaze
 
 Kehrolyn:
-27% Mutating Shot
-21% Bladed Shot
-16% Bladed Drive
-13% Whip Strike
-23% Whip Dash
+8% Whip Strike
+24% Whip Drive
+1% Whip Burst
+43% Quicksilver Drive
+24% Quicksilver Burst
 
 
-Adjenna: Irresistible Burst
-Kehrolyn: Mutating Shot
+Adjenna: Alluring Grasp
+Kehrolyn: Whip Drive
 
-Priorities:  1 | 6
+Priorities:  4 | 4
+Clash!
+
+
+Adjenna: Alluring Drive
+Kehrolyn: Whip Strike
+
+Priorities:  3 | 3
+Clash!
+
+
+Adjenna: Alluring Gaze
+Kehrolyn: Whip Grasp
+
+Priorities:  3 | 5
 Kehrolyn is active
-Adjenna moves:
-
-A...K..
-
-Kehrolyn hits
-Adjenna takes 3 damage (now at 1 life)
-Adjenna moves Kehrolyn:
-
-A.K....
-
+Kehrolyn misses
 Adjenna hits
-Kehrolyn takes 3 damage (now at 13 life)
-Kehrolyn is stunned
-Kehrolyn loses 1 life (now at 12)
-Kehrolyn moves:
-
-A..K...
-
-Kehrolyn moves:
-
-A...K..
-
+Kehrolyn receives a Petrification Marker
+Kehrolyn has 2 soak
+Kehrolyn takes 0 damage (now at 14 life)
 
 Beat 9
 -------
 
 Adjenna
 -------
-life: 1
-discard 1: Irresistible Burst
-discard 2: Alluring Dash
-special action
+Life: 7
+Discard 1: Alluring Gaze
+Discard 2: Pacifying Burst
+Special action available
 1 Petrification markers on Kehrolyn
 
 Kehrolyn
 --------
-life: 12
-discard 1: Mutating Shot
-discard 2: Quicksilver Burst
-special action
+Life: 14
+Discard 1: Whip Grasp
+Discard 2: Exoskeletal Shot
 
 
-A...K..
+...A..K
 
-Unbeatable strategy for Kehrolyn: Whip Drive: -6.00
+Unbeatable strategy for Kehrolyn: Mutating Drive: -0.50
+Unbeatable strategy for Kehrolyn: Bladed Drive: -1.81
+Unbeatable strategy for Kehrolyn: Quicksilver Drive: -2.13
+
 
 Adjenna:
-4% Arresting Shot
-4% Pacifying Shot
-85% Pacifying Drive
-6% Beckoning Gaze
+30% Arresting Strike
+24% Arresting Shot
+31% Arresting Drive
+15% Arresting Grasp
 
 Kehrolyn:
-75% Whip Overload
-1% Whip Strike
-25% Whip Drive
+1% Bladed Drive
+99% Quicksilver Drive
 
 
-Adjenna: Pacifying Shot
-Kehrolyn: Whip Overload
+Adjenna: Arresting Drive
+Kehrolyn: Quicksilver Drive
 
-Priorities:  2 | 3
+Priorities:  3 | 6
 Kehrolyn is active
-Kehrolyn overloads Exoskeletal
-Kehrolyn misses
-Adjenna hits
-Kehrolyn has 2 soak
-Kehrolyn takes 0 damage (now at 12 life)
-Adjenna moves:
+Kehrolyn moves:
+
+...AK..
+
+Kehrolyn hits
+Adjenna is stunned
+Adjenna has 1 soak
+Kehrolyn moves Adjenna:
 
 ..A.K..
 
-Kehrolyn loses 1 life (now at 11)
+Adjenna takes 2 damage (now at 5 life)
+Adjenna is stunned
+Kehrolyn moves:
+
+..AK...
+
 
 Beat 10
 -------
 
 Adjenna
 -------
-life: 1
-discard 1: Pacifying Shot
-discard 2: Irresistible Burst
-special action
+Life: 5
+Discard 1: Arresting Drive
+Discard 2: Alluring Gaze
+Special action available
 1 Petrification markers on Kehrolyn
 
 Kehrolyn
 --------
-life: 11
-discard 1: Whip Overload
-discard 2: Mutating Shot
-special action
+Life: 14
+Discard 1: Quicksilver Drive
+Discard 2: Whip Grasp
 
 
-..A.K..
+..AK...
 
-Unbeatable strategy for Adjenna: Alluring Dash: 0.25
+Unbeatable strategy for Adjenna: Pacifying Dash: 0.94
+
 
 Adjenna:
-100% Alluring Dash
+1% Pacifying Burst
+99% Pacifying Dash
 
 Kehrolyn:
-49% Quicksilver Strike
-51% Quicksilver Grasp
+3% Bladed Shot
+97% Exoskeletal Strike
 
 
-Adjenna: Alluring Dash
-Kehrolyn: Quicksilver Grasp
+Adjenna: Pacifying Dash
+Kehrolyn: Exoskeletal Strike
 
-Priorities:  8 | 7
+Priorities:  9 | 5
 Adjenna is active
 Adjenna moves:
 
-...AK..
+A..K...
+
+Adjenna moves:
+
+...KA..
 
 Kehrolyn misses
 Kehrolyn moves:
 
-...A.K.
+..K.A..
+
+Kehrolyn loses 1 life (now at 13)
+
+Beat 11
+-------
+
+Adjenna
+-------
+Life: 5
+Discard 1: Pacifying Dash
+Discard 2: Arresting Drive
+Special action available
+1 Petrification markers on Kehrolyn
+
+Kehrolyn
+--------
+Life: 13
+Discard 1: Exoskeletal Strike
+Discard 2: Quicksilver Drive
+
+
+..K.A..
+
+Unbeatable strategy for Kehrolyn: Bladed Shot: -10.00
+Unbeatable strategy for Kehrolyn: Bladed Burst: -2.40
+Unbeatable strategy for Kehrolyn: Whip Shot: -0.20
+Unbeatable strategy for Kehrolyn: Whip Burst: -0.80
+
+
+Adjenna:
+5% Alluring Strike
+6% Alluring Burst
+89% Special Pulse
+
+Kehrolyn:
+20% Mutating Burst
+39% Bladed Shot
+41% Bladed Burst
+
+
+Adjenna: Special Pulse
+Kehrolyn: Bladed Burst
+
+Adjenna Pulses:
+
+AK.....
 
 
 Beat 11
@@ -570,279 +653,304 @@ Beat 11
 
 Adjenna
 -------
-life: 1
-discard 1: Alluring Dash
-discard 2: Pacifying Shot
-special action
+Life: 5
+Discard 1: Pacifying Dash
+Discard 2: Arresting Drive
 1 Petrification markers on Kehrolyn
 
 Kehrolyn
 --------
-life: 11
-discard 1: Quicksilver Grasp
-discard 2: Whip Overload
-special action
+Life: 13
+Discard 1: Bladed Burst
+Discard 2: Exoskeletal Strike
 
 
-...A.K.
+AK.....
 
-Unbeatable strategy for Kehrolyn: Mutating Shot: -6.00
-Unbeatable strategy for Kehrolyn: Bladed Shot: -6.00
-Unbeatable strategy for Kehrolyn: Exoskeletal Shot: -6.00
+Unbeatable strategy for Adjenna: Alluring Shot: 1.41
+
 
 Adjenna:
-33% Arresting Burst
-7% Arresting Grasp
-7% Special Basilisk Gaze
-52% Special Fossilize
+6% Alluring Gaze
+94% Alluring Shot
 
 Kehrolyn:
-58% Mutating Shot
-10% Bladed Shot
-11% Bladed Drive
-21% Exoskeletal Dash
+100% Whip Dash
 
 
-Adjenna: Special Fossilize
-Kehrolyn: Mutating Shot
+Adjenna: Alluring Shot
+Kehrolyn: Whip Dash
 
-Priorities:  0 | 6
+Priorities:  1 | 9
 Kehrolyn is active
-Kehrolyn hits
-Kehrolyn receives a Petrification Marker
-Adjenna has 3 soak
-Adjenna takes 0 damage (now at 1 life)
-Adjenna hits
-Adjenna gets +4 power
-Kehrolyn takes 4 damage (now at 7 life)
-Kehrolyn is stunned
-Kehrolyn loses 1 life (now at 6)
 Kehrolyn moves:
 
-...A..K
+A...K..
 
+Adjenna hits
+Adjenna gets +1 power
+Kehrolyn takes 3 damage (now at 10 life)
+Kehrolyn is stunned
 
 Beat 12
 -------
 
 Adjenna
 -------
-life: 1
-discard 1: Alluring Dash
-discard 2: Pacifying Shot
-2 Petrification markers on Kehrolyn
+Life: 5
+Discard 1: Alluring Shot
+Discard 2: Pacifying Dash
+1 Petrification markers on Kehrolyn
 
 Kehrolyn
 --------
-life: 6
-discard 1: Mutating Shot
-discard 2: Quicksilver Grasp
-special action
+Life: 10
+Discard 1: Whip Dash
+Discard 2: Bladed Burst
 
 
-...A..K
+A...K..
 
-Unbeatable strategy for Kehrolyn: Whip Drive: -6.00
+Unbeatable strategy for Kehrolyn: Mutating Drive: -0.42
+
 
 Adjenna:
-37% Arresting Burst
-54% Irresistible Gaze
-9% Irresistible Drive
+5% Arresting Gaze
+14% Arresting Strike
+31% Irresistible Gaze
+50% Irresistible Drive
 
 Kehrolyn:
-11% Whip Overload
-60% Whip Drive
-29% Special Hydra Fork
+0% Mutating Strike
+33% Quicksilver Shot
+54% Exoskeletal Shot
+13% Exoskeletal Drive
 
 
-Adjenna: Irresistible Gaze
-Kehrolyn: Whip Drive
+Adjenna: Irresistible Drive
+Kehrolyn: Quicksilver Shot
 
 Priorities:  4 | 4
 Clash!
 
-Adjenna:
-14% Irresistible Drive
-86% Irresistible Burst
 
-Kehrolyn:
-50% Whip Strike
-50% Whip Burst
+Adjenna: Irresistible Strike
+Kehrolyn: Quicksilver Drive
 
+Priorities:  3 | 6
+Kehrolyn is active
+Kehrolyn moves:
 
-Adjenna: Irresistible Drive
-Kehrolyn: Whip Burst
+A..K...
 
-Priorities:  4 | 1
-Adjenna is active
-Adjenna moves:
+Kehrolyn misses
+Adjenna misses
+Kehrolyn moves:
 
-.....AK
+A...K..
 
-Adjenna hits
-Kehrolyn takes 3 damage (now at 3 life)
-Kehrolyn is stunned
-Kehrolyn loses 1 life (now at 2)
-Kehrolyn receives a Petrification Marker
 
 Beat 13
 -------
 
 Adjenna
 -------
-life: 1
-discard 1: Irresistible Drive
-discard 2: Alluring Dash
-3 Petrification markers on Kehrolyn
+Life: 5
+Discard 1: Irresistible Strike
+Discard 2: Alluring Shot
+1 Petrification markers on Kehrolyn
 
 Kehrolyn
 --------
-life: 2
-discard 1: Whip Burst
-discard 2: Mutating Shot
-special action
+Life: 10
+Discard 1: Quicksilver Drive
+Discard 2: Whip Dash
 
 
-.....AK
+A...K..
 
-Unbeatable strategy for Kehrolyn: Bladed Drive: -6.00
-Unbeatable strategy for Kehrolyn: Quicksilver Drive: -0.25
 
 Adjenna:
-4% Arresting Strike
-4% Arresting Shot
-21% Arresting Burst
-46% Arresting Grasp
-25% Pacifying Burst
+80% Arresting Dash
+4% Pacifying Gaze
+16% Pacifying Dash
 
 Kehrolyn:
-5% Bladed Overload
-23% Bladed Drive
-8% Quicksilver Overload
-38% Quicksilver Drive
-5% Exoskeletal Overload
-6% Exoskeletal Strike
-16% Special Hydra Fork
+7% Mutating Strike
+53% Mutating Shot
+34% Mutating Grasp
+6% Bladed Shot
 
 
-Adjenna: Arresting Burst
-Kehrolyn: Bladed Overload
+Adjenna: Arresting Dash
+Kehrolyn: Mutating Shot
 
-Priorities:  0 | 3
-Kehrolyn is active
-Kehrolyn overloads Exoskeletal
+Priorities:  8 | 6
+Adjenna is active
 Adjenna moves:
 
-...A..K
+..A.K..
+
+Adjenna moves:
+
+....K.A
 
 Kehrolyn misses
-Adjenna moves:
+Kehrolyn loses 1 life (now at 9)
+Kehrolyn moves:
 
-.....AK
+...K..A
 
-Adjenna misses
-Kehrolyn receives a Petrification Marker
+Kehrolyn moves:
+
+..K...A
+
 
 Beat 14
 -------
 
 Adjenna
 -------
-life: 1
-discard 1: Arresting Burst
-discard 2: Irresistible Drive
-4 Petrification markers on Kehrolyn
+Life: 5
+Discard 1: Arresting Dash
+Discard 2: Irresistible Strike
+1 Petrification markers on Kehrolyn
 
 Kehrolyn
 --------
-life: 2
-discard 1: Bladed Overload
-discard 2: Whip Burst
-special action
+Life: 9
+Discard 1: Mutating Shot
+Discard 2: Quicksilver Drive
 
 
-.....AK
+..K...A
+
+Unbeatable strategy for Adjenna: Pacifying Shot: 0.15
+Unbeatable strategy for Adjenna: Pacifying Drive: 1.05
+Unbeatable strategy for Adjenna: Beckoning Grasp: 1.03
+
 
 Adjenna:
-44% Alluring Shot
-18% Pacifying Gaze
-7% Pacifying Strike
-11% Pacifying Shot
-20% Pacifying Grasp
+1% Alluring Gaze
+17% Alluring Shot
+7% Pacifying Gaze
+7% Pacifying Shot
+68% Beckoning Gaze
 
 Kehrolyn:
-5% Quicksilver Drive
-2% Quicksilver Grasp
-93% Quicksilver Dash
+12% Whip Overload
+2% Whip Strike
+8% Whip Burst
+1% Whip Dash
+76% Exoskeletal Strike
 
 
-Adjenna: Pacifying Shot
-Kehrolyn: Quicksilver Dash
+Adjenna: Beckoning Gaze
+Kehrolyn: Exoskeletal Strike
 
-Priorities:  2 | 11
+Priorities:  3 | 3
+Clash!
+
+
+Adjenna: Beckoning Drive
+Kehrolyn: Exoskeletal Grasp
+
+Priorities:  3 | 5
 Kehrolyn is active
-Kehrolyn moves:
-
-..K..A.
-
-Kehrolyn loses 4 life (now at 1)
-Adjenna misses
+Kehrolyn misses
 Adjenna moves:
 
-..KA...
+..K.A..
 
-Kehrolyn moves:
-
-.K.A...
-
-Kehrolyn loses 4 life (now at 1)
+Adjenna misses
+Kehrolyn loses 1 life (now at 8)
 
 Beat 15
 -------
 
 Adjenna
 -------
-life: 1
-discard 1: Pacifying Shot
-discard 2: Arresting Burst
-4 Petrification markers on Kehrolyn
+Life: 5
+Discard 1: Beckoning Drive
+Discard 2: Arresting Dash
+1 Petrification markers on Kehrolyn
 
 Kehrolyn
 --------
-life: 1
-discard 1: Quicksilver Dash
-discard 2: Bladed Overload
-special action
+Life: 8
+Discard 1: Exoskeletal Grasp
+Discard 2: Mutating Shot
 
 
-.K.A...
+..K.A..
+
+Unbeatable strategy for Kehrolyn: Bladed Overload: -10.00
+Unbeatable strategy for Kehrolyn: Bladed Strike: -10.00
+Unbeatable strategy for Kehrolyn: Bladed Drive: -10.00
+Unbeatable strategy for Kehrolyn: Bladed Burst: -10.00
+Unbeatable strategy for Kehrolyn: Bladed Dash: -10.00
+Unbeatable strategy for Kehrolyn: Whip Overload: -10.00
+Unbeatable strategy for Kehrolyn: Whip Strike: -10.00
+Unbeatable strategy for Kehrolyn: Whip Drive: -10.00
+Unbeatable strategy for Kehrolyn: Whip Burst: -10.00
+Unbeatable strategy for Kehrolyn: Whip Dash: -10.00
+Unbeatable strategy for Kehrolyn: Quicksilver Overload: -10.00
+Unbeatable strategy for Kehrolyn: Quicksilver Strike: -10.00
+Unbeatable strategy for Kehrolyn: Quicksilver Drive: -10.00
+Unbeatable strategy for Kehrolyn: Quicksilver Burst: -10.00
+Unbeatable strategy for Kehrolyn: Quicksilver Dash: -10.00
+
 
 Adjenna:
-6% Alluring Gaze
-14% Alluring Drive
-12% Alluring Dash
-6% Irresistible Gaze
-8% Irresistible Drive
-39% Irresistible Dash
-16% Beckoning Dash
+7% Alluring Gaze
+7% Alluring Strike
+7% Alluring Shot
+7% Alluring Burst
+7% Alluring Grasp
+7% Pacifying Gaze
+7% Pacifying Strike
+7% Pacifying Shot
+7% Pacifying Burst
+7% Pacifying Grasp
+7% Irresistible Gaze
+7% Irresistible Strike
+7% Irresistible Shot
+7% Irresistible Burst
+7% Irresistible Grasp
 
 Kehrolyn:
-19% Mutating Shot
-15% Mutating Burst
-14% Whip Strike
-19% Whip Grasp
-33% Special Hydra Fork
+7% Bladed Overload
+7% Bladed Strike
+7% Bladed Drive
+7% Bladed Burst
+7% Bladed Dash
+7% Whip Overload
+7% Whip Strike
+7% Whip Drive
+7% Whip Burst
+7% Whip Dash
+7% Quicksilver Overload
+7% Quicksilver Strike
+7% Quicksilver Drive
+7% Quicksilver Burst
+7% Quicksilver Dash
 
 
-Adjenna: Alluring Drive
-Kehrolyn: Mutating Burst
+Adjenna: Irresistible Gaze
+Kehrolyn: Bladed Overload
 
-Priorities:  3 | 5
-Kehrolyn is active
-Kehrolyn moves:
-
-K..A...
-
+Priorities:  4 | 3
+Adjenna is active
+Kehrolyn overloads Whip
+Adjenna hits
+Kehrolyn receives a Petrification Marker
+Kehrolyn has 2 soak
+Kehrolyn takes 0 damage (now at 8 life)
 Kehrolyn hits
-Adjenna takes 3 damage (now at 0 life)
+Kehrolyn moves Adjenna:
+
+..KA...
+
+Adjenna takes 5 damage (now at 0 life)
 KEHROLYN WINS!
+total_time: 18

@@ -28,33 +28,30 @@ Special action available
 
 
 Kehrolyn:
-7% Whip Shot
-3% Whip Drive
-11% Quicksilver Overload
-4% Quicksilver Shot
-10% Quicksilver Drive
-9% Quicksilver Dash
-29% Exoskeletal Overload
-27% Exoskeletal Dash
+12% Whip Shot
+5% Whip Drive
+0% Whip Burst
+11% Quicksilver Shot
+15% Quicksilver Drive
+16% Quicksilver Dash
+40% Exoskeletal Dash
 
 Ottavia:
-16% Snapback Drive (Target Lock: 6)
-10% Snapback Drive (Target Lock: 9)
-19% Snapback Drive (Target Lock: 11)
-10% Snapback Grasp (Target Lock: 9)
-8% Snapback Dash (Target Lock: 3)
-35% Snapback Dash (Target Lock: 11)
-3% Anti-Personnel Shooter (Target Lock: 2)
-1% Anti-Personnel Shooter (Target Lock: 4)
+2% Snapback Drive (Target Lock: 8)
+14% Snapback Drive (Target Lock: 9)
+14% Snapback Drive (Target Lock: 13)
+9% Snapback Burst (Target Lock: 9)
+40% Snapback Dash (Target Lock: 13)
+9% Cover Burst (Target Lock: 2)
+13% Cover Burst (Target Lock: 4)
 
 
-Kehrolyn: Exoskeletal Overload
-Ottavia: Snapback Dash (Target Lock: 3)
+Kehrolyn: Quicksilver Dash
+Ottavia: Snapback Dash (Target Lock: 13)
 
 Ottavia acquires target lock
-Priorities:  -7 | 9
+Priorities:  3 | 9
 Ottavia is active
-Kehrolyn overloads Whip
 Ottavia moves:
 
 .K..O..
@@ -63,7 +60,6 @@ Ottavia moves:
 
 .K....O
 
-Kehrolyn misses
 Kehrolyn loses 1 life (now at 19)
 
 Beat 2
@@ -72,7 +68,7 @@ Beat 2
 Kehrolyn
 --------
 Life: 19
-Discard 1: Exoskeletal Overload
+Discard 1: Quicksilver Dash
 Discard 2: Mutating Grasp
 Special action available
 
@@ -86,36 +82,96 @@ Special action available
 
 .K....O
 
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 2): -0.75
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 4): -2.65
+Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 4): -1.65
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 3): -0.52
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 4): -0.52
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 5): -0.52
+Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 6): -1.08
+Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 6): -0.08
 
 
 Kehrolyn:
-3% Whip Shot
-44% Whip Dash
-53% Quicksilver Dash
+2% Whip Shot
+5% Exoskeletal Drive
+93% Special Pulse
 
 Ottavia:
-6% Anti-Personnel Shooter (Target Lock: 9)
-17% Anti-Personnel Shot (Target Lock: 11)
-77% Cover Shooter (Target Lock: 2)
+70% Anti-Personnel Shooter (Target Lock: 4)
+5% Anti-Personnel Burst (Target Lock: 4)
+25% Anti-Personnel Burst (Target Lock: 6)
 
 
-Kehrolyn: Quicksilver Dash
-Ottavia: Cover Shooter (Target Lock: 2)
+Kehrolyn: Special Pulse
+Ottavia: Anti-Personnel Shooter (Target Lock: 4)
 
-Priorities:  11 | -1
-Kehrolyn is active
-Kehrolyn moves:
+Kehrolyn Pulses:
 
-....K.O
+OK.....
 
+
+Beat 2
+-------
+
+Kehrolyn
+--------
+Life: 19
+Discard 1: Quicksilver Dash
+Discard 2: Mutating Grasp
+
+Ottavia
+-------
+Life: 20
+Discard 1: Anti-Personnel Shooter
+Discard 2: Snapback Dash
+Special action available
+
+
+OK.....
+
+Unbeatable strategy for Ottavia: Demolition Grasp (Target Lock: 4): -0.46
+
+
+Kehrolyn:
+27% Bladed Overload
+10% Bladed Shot
+28% Whip Drive
+36% Exoskeletal Shot
+
+Ottavia:
+54% Demolition Strike (Target Lock: 5)
+29% Demolition Strike (Target Lock: 6)
+16% Demolition Drive (Target Lock: 6)
+1% Cover Drive (Target Lock: 6)
+
+
+Kehrolyn: Exoskeletal Shot
+Ottavia: Demolition Strike (Target Lock: 6)
+
+Priorities:  4 | 4
+Clash!
+
+
+Kehrolyn: Exoskeletal Strike
+Ottavia: Demolition Grasp (Target Lock: 6)
+
+Priorities:  5 | 6
+Ottavia is active
 Ottavia hits
+Ottavia moves Kehrolyn:
+
+O.K....
+
 Kehrolyn has 2 soak
-Kehrolyn takes 3 damage (now at 16 life)
-Kehrolyn is stunned
+Kehrolyn takes 0 damage (now at 19 life)
+Ottavia moves:
+
+..K..O.
+
+Kehrolyn misses
 Kehrolyn moves:
 
-.....KO
+...K.O.
 
 
 Beat 3
@@ -123,300 +179,529 @@ Beat 3
 
 Kehrolyn
 --------
-Life: 16
-Discard 1: Quicksilver Dash
-Discard 2: Exoskeletal Overload
-Special action available
+Life: 19
+Discard 1: Exoskeletal Strike
+Discard 2: Quicksilver Dash
 
 Ottavia
 -------
 Life: 20
-Discard 1: Cover Shooter
-Discard 2: Snapback Dash
+Discard 1: Demolition Grasp
+Discard 2: Anti-Personnel Shooter
 Special action available
 
 
-.....KO
+...K.O.
 
 
 Kehrolyn:
-18% Bladed Strike
-23% Bladed Shot
-16% Bladed Drive
-25% Bladed Burst
-14% Bladed Grasp
-4% Whip Drive
+35% Bladed Drive
+3% Whip Overload
+38% Whip Shot
+24% Whip Grasp
 
 Ottavia:
-17% Demolition Strike (Target Lock: 4)
-10% Demolition Strike (Target Lock: 5)
-2% Demolition Drive (Target Lock: 4)
-11% Demolition Drive (Target Lock: 6)
-46% Demolition Grasp (Target Lock: 7)
-14% Cybernetic Grasp (Target Lock: 6)
+1% Snapback Shot (Target Lock: 4)
+18% Snapback Dash (Target Lock: 1)
+18% Snapback Dash (Target Lock: 2)
+18% Snapback Dash (Target Lock: 3)
+18% Snapback Dash (Target Lock: 4)
+18% Snapback Dash (Target Lock: 5)
+5% Cover Burst (Target Lock: 2)
+6% Cover Burst (Target Lock: 4)
 
 
-Kehrolyn: Bladed Shot
-Ottavia: Demolition Strike (Target Lock: 4)
+Kehrolyn: Whip Grasp
+Ottavia: Snapback Dash (Target Lock: 5)
 
 Ottavia acquires target lock
-Priorities:  -6 | 4
+Priorities:  -5 | 9
 Ottavia is active
-Ottavia hits
-Kehrolyn is stunned
-Kehrolyn takes 4 damage (now at 12 life)
 Ottavia moves:
 
-.O...K.
+.O.K...
 
-Kehrolyn moves:
+Ottavia moves:
 
-.O..K..
+O..K...
 
+Kehrolyn misses
 
 Beat 4
 -------
 
 Kehrolyn
 --------
-Life: 12
-Discard 1: Bladed Shot
-Discard 2: Quicksilver Dash
-Special action available
+Life: 19
+Discard 1: Whip Grasp
+Discard 2: Exoskeletal Strike
 
 Ottavia
 -------
 Life: 20
-Discard 1: Demolition Strike
-Discard 2: Cover Shooter
+Discard 1: Snapback Dash
+Discard 2: Demolition Grasp
 Special action available
 
 
-.O..K..
-
-Unbeatable strategy for Ottavia: Snapback Shot (Target Lock: 4): -1.40
-Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 1): -1.44
-Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 3): -1.44
-Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 4): -1.44
-Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 5): -1.44
-Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: 4): -1.70
-Unbeatable strategy for Ottavia: Snapback Grasp (Target Lock: 1): -0.44
-Unbeatable strategy for Ottavia: Snapback Grasp (Target Lock: 3): -0.44
-Unbeatable strategy for Ottavia: Snapback Grasp (Target Lock: 4): -0.44
-Unbeatable strategy for Ottavia: Snapback Grasp (Target Lock: 5): -0.44
-Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 4): -2.33
-Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 4): -2.28
+O..K...
 
 
 Kehrolyn:
-71% Mutating Overload
-29% Exoskeletal Burst
+15% Mutating Overload
+15% Bladed Drive
+17% Bladed Burst
+26% Quicksilver Overload
+21% Quicksilver Drive
+7% Quicksilver Burst
 
 Ottavia:
-34% Anti-Personnel Shot (Target Lock: 4)
-3% Anti-Personnel Burst (Target Lock: 1)
-3% Anti-Personnel Burst (Target Lock: 3)
-55% Anti-Personnel Burst (Target Lock: 4)
-3% Anti-Personnel Burst (Target Lock: 5)
+12% Anti-Personnel Strike (Target Lock: 5)
+34% Cover Strike (Target Lock: 4)
+7% Cover Drive (Target Lock: 1)
+3% Cover Drive (Target Lock: 4)
+5% Cybernetic Drive (Target Lock: 5)
+38% Cybernetic Drive (Target Lock: 6)
 
 
-Kehrolyn: Exoskeletal Burst
-Ottavia: Anti-Personnel Burst (Target Lock: 4)
+Kehrolyn: Quicksilver Drive
+Ottavia: Cover Strike (Target Lock: 4)
 
-Priorities:  1 | 0
+Priorities:  6 | 0
 Kehrolyn is active
 Kehrolyn moves:
 
-.O....K
+OK.....
 
-Ottavia moves:
-
-O.....K
-
-Kehrolyn misses
-Ottavia hits
-Kehrolyn has 2 soak
-Kehrolyn takes 4 damage (now at 8 life)
-Kehrolyn is stunned
-Ottavia moves:
-
-....O.K
-
+Kehrolyn hits
+Ottavia is stunned
+Ottavia has 1 soak
+Ottavia takes 2 damage (now at 18 life)
 
 Beat 5
 -------
 
 Kehrolyn
 --------
-Life: 8
-Discard 1: Exoskeletal Burst
-Discard 2: Bladed Shot
-Special action available
+Life: 19
+Discard 1: Quicksilver Drive
+Discard 2: Whip Grasp
 
 Ottavia
 -------
-Life: 20
-Discard 1: Anti-Personnel Burst
-Discard 2: Demolition Strike
+Life: 18
+Discard 1: Cover Strike
+Discard 2: Snapback Dash
 Special action available
 
 
-....O.K
-
-Unbeatable strategy for Ottavia: Snapback Grasp (Target Lock: 6): -0.31
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): -1.04
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 4): -1.04
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 5): -1.04
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 6): -1.04
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 7): -1.04
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 9): -1.04
-Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 11): -1.04
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 3): -0.26
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 4): -0.26
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 5): -0.26
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 6): -0.26
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 7): -0.26
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 9): -0.26
-Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 11): -0.26
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 3): -0.10
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 4): -0.10
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 5): -0.10
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 6): -0.10
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 7): -0.10
-Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 9): -0.10
+OK.....
 
 
 Kehrolyn:
-82% Whip Overload
-18% Whip Grasp
+26% Mutating Overload
+8% Bladed Overload
+8% Exoskeletal Overload
+15% Exoskeletal Strike
+44% Exoskeletal Shot
 
 Ottavia:
-1% Snapback Dash (Target Lock: 3)
-1% Snapback Dash (Target Lock: 4)
-1% Snapback Dash (Target Lock: 5)
-0% Snapback Dash (Target Lock: 6)
-0% Snapback Dash (Target Lock: 7)
-62% Snapback Dash (Target Lock: 9)
-6% Snapback Dash (Target Lock: 11)
-0% Cybernetic Dash (Target Lock: 3)
-0% Cybernetic Dash (Target Lock: 4)
-0% Cybernetic Dash (Target Lock: 5)
-0% Cybernetic Dash (Target Lock: 6)
-0% Cybernetic Dash (Target Lock: 7)
-27% Cybernetic Dash (Target Lock: 9)
-0% Cybernetic Dash (Target Lock: 11)
+23% Demolition Shooter (Target Lock: 4)
+1% Demolition Drive (Target Lock: 4)
+9% Demolition Drive (Target Lock: 7)
+67% Demolition Grasp (Target Lock: 7)
 
 
-Kehrolyn: Whip Overload
-Ottavia: Snapback Dash (Target Lock: 9)
+Kehrolyn: Exoskeletal Shot
+Ottavia: Demolition Shooter (Target Lock: 4)
 
-Priorities:  3 | 9
+Ottavia acquires target lock
+Priorities:  -6 | 3
 Ottavia is active
-Kehrolyn overloads Quicksilver
+Ottavia hits
+Kehrolyn is stunned
+Kehrolyn has 2 soak
+Kehrolyn takes 2 damage (now at 17 life)
+Kehrolyn is stunned
 Ottavia moves:
 
-..O...K
+.K...O.
 
-Ottavia moves:
+Kehrolyn moves:
 
-O.....K
+..K..O.
 
-Kehrolyn misses
 
 Beat 6
 -------
 
 Kehrolyn
 --------
-Life: 8
-Discard 1: Whip Overload
-Discard 2: Exoskeletal Burst
-Special action available
+Life: 17
+Discard 1: Exoskeletal Shot
+Discard 2: Quicksilver Drive
 
 Ottavia
 -------
-Life: 20
-Discard 1: Snapback Dash
-Discard 2: Anti-Personnel Burst
+Life: 18
+Discard 1: Demolition Shooter
+Discard 2: Cover Strike
 Special action available
 
 
-O.....K
+..K..O.
 
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 2): -3.52
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 3): -3.52
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 4): -3.52
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 5): -3.52
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 6): -3.52
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 7): -3.52
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 9): -3.52
-Unbeatable strategy for Ottavia: Cover Shooter (Target Lock: 11): -3.52
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 2): -2.52
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 3): -2.52
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 4): -2.52
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 5): -2.52
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 6): -2.52
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 7): -2.52
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 9): -2.52
-Unbeatable strategy for Ottavia: Cover Shot (Target Lock: 11): -2.52
-Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 2): -0.17
-Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 3): -0.17
-Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 5): -0.17
-Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 7): -0.17
-Unbeatable strategy for Ottavia: Cover Drive (Target Lock: 11): -0.17
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 2): -0.54
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 3): -0.90
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 4): -0.90
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 5): -0.90
-Unbeatable strategy for Ottavia: Cybernetic Shooter (Target Lock: 7): -0.90
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 2): -0.54
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 3): -0.90
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 4): -0.90
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 5): -0.90
-Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 7): -0.90
+Unbeatable strategy for Ottavia: Snapback Shot (Target Lock: 9): -1.22
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 1): -0.26
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 3): -0.26
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 5): -0.26
+Unbeatable strategy for Ottavia: Snapback Drive (Target Lock: 9): -1.27
+Unbeatable strategy for Ottavia: Snapback Burst (Target Lock: 9): -1.52
+Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 9): -1.71
+Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 1): -0.56
+Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 3): -0.56
+Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 5): -0.56
+Unbeatable strategy for Ottavia: Anti-Personnel Burst (Target Lock: 9): -1.28
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 1): -0.12
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 3): -0.12
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 5): -0.12
 
 
 Kehrolyn:
-2% Mutating Shot
-14% Bladed Dash
-2% Quicksilver Drive
-82% Quicksilver Dash
+29% Mutating Burst
+57% Mutating Grasp
+14% Mutating Dash
 
 Ottavia:
-14% Cover Shooter (Target Lock: 2)
-19% Cover Shooter (Target Lock: 6)
-28% Cover Shooter (Target Lock: 9)
-39% Cover Drive (Target Lock: 11)
+44% Anti-Personnel Shot (Target Lock: 9)
+45% Anti-Personnel Burst (Target Lock: 9)
+11% Cybernetic Burst (Target Lock: 1)
 
 
-Kehrolyn: Bladed Dash
-Ottavia: Cover Shooter (Target Lock: 6)
+Kehrolyn: Mutating Dash
+Ottavia: Anti-Personnel Shot (Target Lock: 9)
 
-Priorities:  9 | -1
-Kehrolyn is active
-Kehrolyn moves:
-
-O..K...
-
+Ottavia acquires target lock
+Priorities:  -1 | 1
+Ottavia is active
 Ottavia hits
-Kehrolyn takes 5 damage (now at 3 life)
+Kehrolyn has 4 soak
+Kehrolyn takes 2 damage (now at 15 life)
 Kehrolyn is stunned
+Ottavia moves:
+
+O.K....
+
+Kehrolyn loses 1 life (now at 14)
 
 Beat 7
 -------
 
 Kehrolyn
 --------
-Life: 3
-Discard 1: Bladed Dash
-Discard 2: Whip Overload
-Special action available
+Life: 14
+Discard 1: Mutating Dash
+Discard 2: Exoskeletal Shot
 
 Ottavia
 -------
-Life: 20
-Discard 1: Cover Shooter
+Life: 18
+Discard 1: Anti-Personnel Shot
+Discard 2: Demolition Shooter
+Special action available
+
+
+O.K....
+
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 1): -0.98
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): -0.98
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 4): -0.98
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 5): -0.98
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 7): -0.98
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 8): -0.98
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 9): -0.98
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 1): -0.09
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 3): -0.09
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 4): -0.09
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 5): -0.09
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 7): -0.09
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 8): -0.09
+Unbeatable strategy for Ottavia: Cybernetic Dash (Target Lock: 9): -0.09
+
+
+Kehrolyn:
+5% Whip Overload
+6% Whip Strike
+10% Whip Drive
+33% Whip Grasp
+34% Quicksilver Overload
+12% Quicksilver Drive
+
+Ottavia:
+1% Snapback Strike (Target Lock: 7)
+1% Snapback Grasp (Target Lock: 7)
+0% Snapback Dash (Target Lock: 1)
+0% Snapback Dash (Target Lock: 3)
+0% Snapback Dash (Target Lock: 4)
+0% Snapback Dash (Target Lock: 5)
+1% Snapback Dash (Target Lock: 7)
+0% Snapback Dash (Target Lock: 8)
+88% Snapback Dash (Target Lock: 9)
+1% Cover Strike (Target Lock: 7)
+5% Cybernetic Drive (Target Lock: 5)
+1% Cybernetic Drive (Target Lock: 7)
+
+
+Kehrolyn: Whip Grasp
+Ottavia: Snapback Dash (Target Lock: 9)
+
+Priorities:  5 | 9
+Ottavia is active
+Ottavia moves:
+
+..K.O..
+
+Kehrolyn misses
+Kehrolyn loses 1 life (now at 13)
+
+Beat 8
+-------
+
+Kehrolyn
+--------
+Life: 13
+Discard 1: Whip Grasp
+Discard 2: Mutating Dash
+
+Ottavia
+-------
+Life: 18
+Discard 1: Snapback Dash
+Discard 2: Anti-Personnel Shot
+Special action available
+
+
+..K.O..
+
+
+Kehrolyn:
+6% Bladed Shot
+10% Quicksilver Strike
+22% Quicksilver Drive
+36% Exoskeletal Shot
+27% Exoskeletal Drive
+
+Ottavia:
+19% Demolition Drive (Target Lock: 2)
+42% Demolition Drive (Target Lock: 6)
+20% Cover Burst (Target Lock: 2)
+5% Cover Burst (Target Lock: 4)
+14% Cover Burst (Target Lock: 6)
+
+
+Kehrolyn: Exoskeletal Shot
+Ottavia: Cover Burst (Target Lock: 2)
+
+Ottavia acquires target lock
+Priorities:  -8 | -2
+Ottavia is active
+Ottavia moves:
+
+..K...O
+
+Ottavia hits
+Kehrolyn has 2 soak
+Kehrolyn takes 2 damage (now at 11 life)
+Kehrolyn misses
+
+Beat 9
+-------
+
+Kehrolyn
+--------
+Life: 11
+Discard 1: Exoskeletal Shot
+Discard 2: Whip Grasp
+
+Ottavia
+-------
+Life: 18
+Discard 1: Cover Burst
 Discard 2: Snapback Dash
+Special action available
+
+
+..K...O
+
+Unbeatable strategy for Ottavia: Demolition Shooter (Target Lock: 4): -0.18
+Unbeatable strategy for Ottavia: Anti-Personnel Shooter (Target Lock: 6): -0.03
+Unbeatable strategy for Ottavia: Anti-Personnel Shot (Target Lock: 6): -0.03
+
+
+Kehrolyn:
+24% Mutating Drive
+24% Mutating Dash
+12% Quicksilver Drive
+39% Quicksilver Dash
+
+Ottavia:
+41% Demolition Shooter (Target Lock: 11)
+27% Anti-Personnel Shooter (Target Lock: 4)
+23% Anti-Personnel Shooter (Target Lock: 6)
+9% Anti-Personnel Shooter (Target Lock: 9)
+
+
+Kehrolyn: Quicksilver Drive
+Ottavia: Anti-Personnel Shooter (Target Lock: 6)
+
+Ottavia acquires target lock
+Priorities:  -4 | 1
+Ottavia is active
+Ottavia hits
+Kehrolyn has 2 soak
+Kehrolyn takes 5 damage (now at 6 life)
+Kehrolyn is stunned
+Ottavia moves:
+
+O.K....
+
+Kehrolyn moves:
+
+OK.....
+
+
+Beat 10
+-------
+
+Kehrolyn
+--------
+Life: 6
+Discard 1: Quicksilver Drive
+Discard 2: Exoskeletal Shot
+
+Ottavia
+-------
+Life: 18
+Discard 1: Anti-Personnel Shooter
+Discard 2: Cover Burst
+Special action available
+
+
+OK.....
+
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 11): -0.28
+
+
+Kehrolyn:
+5% Mutating Overload
+23% Mutating Grasp
+26% Whip Strike
+5% Whip Burst
+28% Whip Grasp
+12% Whip Dash
+
+Ottavia:
+35% Snapback Dash (Target Lock: 9)
+19% Demolition Strike (Target Lock: 5)
+11% Demolition Strike (Target Lock: 7)
+2% Demolition Shot (Target Lock: 7)
+25% Demolition Drive (Target Lock: 7)
+9% Cybernetic Shot (Target Lock: 5)
+
+
+Kehrolyn: Whip Grasp
+Ottavia: Demolition Drive (Target Lock: 7)
+
+Ottavia acquires target lock
+Priorities:  -3 | 5
+Ottavia is active
+Ottavia moves:
+
+.KO....
+
+Ottavia hits
+Kehrolyn is stunned
+Kehrolyn takes 3 damage (now at 3 life)
+Kehrolyn is stunned
+Kehrolyn moves:
+
+..OK...
+
+
+Beat 11
+-------
+
+Kehrolyn
+--------
+Life: 3
+Discard 1: Whip Grasp
+Discard 2: Quicksilver Drive
+
+Ottavia
+-------
+Life: 18
+Discard 1: Demolition Drive
+Discard 2: Anti-Personnel Shooter
+Special action available
+
+
+..OK...
+
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 1): -0.22
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 2): -0.22
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 3): -0.22
+Unbeatable strategy for Ottavia: Snapback Dash (Target Lock: 9): -0.22
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 1): -0.19
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 2): -0.19
+Unbeatable strategy for Ottavia: Cover Dash (Target Lock: 3): -0.19
+
+
+Kehrolyn:
+56% Bladed Overload
+25% Bladed Shot
+0% Exoskeletal Strike
+18% Exoskeletal Shot
+
+Ottavia:
+1% Snapback Dash (Target Lock: 1)
+1% Snapback Dash (Target Lock: 2)
+1% Snapback Dash (Target Lock: 3)
+91% Snapback Dash (Target Lock: 9)
+0% Cover Burst (Target Lock: 2)
+5% Cover Burst (Target Lock: 3)
+1% Cybernetic Strike (Target Lock: 9)
+
+
+Kehrolyn: Bladed Overload
+Ottavia: Snapback Dash (Target Lock: 9)
+
+Priorities:  3 | 9
+Ottavia is active
+Kehrolyn overloads Exoskeletal
+Ottavia moves:
+
+.O.K...
+
+Ottavia moves:
+
+O..K...
+
+Kehrolyn misses
+
+Beat 12
+-------
+
+Kehrolyn
+--------
+Life: 3
+Discard 1: Bladed Overload
+Discard 2: Whip Grasp
+
+Ottavia
+-------
+Life: 18
+Discard 1: Snapback Dash
+Discard 2: Demolition Drive
 Special action available
 
 
@@ -424,31 +709,108 @@ O..K...
 
 
 Kehrolyn:
-16% Mutating Shot
-13% Mutating Drive
-21% Quicksilver Drive
-42% Quicksilver Burst
+3% Mutating Drive
+10% Quicksilver Shot
+14% Quicksilver Drive
+30% Quicksilver Dash
 7% Exoskeletal Drive
+10% Exoskeletal Burst
+26% Exoskeletal Dash
 
 Ottavia:
-1% Demolition Drive (Target Lock: 6)
-10% Anti-Personnel Shot (Target Lock: 2)
-31% Anti-Personnel Shot (Target Lock: 4)
-2% Anti-Personnel Shot (Target Lock: 6)
-56% Anti-Personnel Grasp (Target Lock: 6)
+10% Anti-Personnel Shooter (Target Lock: 4)
+5% Anti-Personnel Shooter (Target Lock: 9)
+10% Anti-Personnel Shot (Target Lock: 4)
+5% Anti-Personnel Shot (Target Lock: 9)
+44% Anti-Personnel Grasp (Target Lock: 6)
+17% Anti-Personnel Grasp (Target Lock: 11)
+2% Cover Shooter (Target Lock: 4)
+2% Cover Strike (Target Lock: 9)
+4% Cover Shot (Target Lock: 6)
 
 
 Kehrolyn: Quicksilver Drive
-Ottavia: Anti-Personnel Grasp (Target Lock: 6)
+Ottavia: Anti-Personnel Grasp (Target Lock: 11)
 
-Ottavia acquires target lock
-Priorities:  -4 | 4
-Ottavia is active
-Ottavia hits
-Ottavia moves Kehrolyn:
+Priorities:  6 | 4
+Kehrolyn is active
+Kehrolyn moves:
+
+OK.....
+
+Kehrolyn hits
+Ottavia is stunned
+Ottavia takes 5 damage (now at 13 life)
+Ottavia is stunned
+Kehrolyn moves:
 
 O.K....
 
-Kehrolyn takes 5 damage (now at 0 life)
+Ottavia moves:
+
+..K.O..
+
+
+Beat 13
+-------
+
+Kehrolyn
+--------
+Life: 3
+Discard 1: Quicksilver Drive
+Discard 2: Bladed Overload
+
+Ottavia
+-------
+Life: 13
+Discard 1: Anti-Personnel Grasp
+Discard 2: Snapback Dash
+Special action available
+
+
+..K.O..
+
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 3): -0.11
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 4): -0.11
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 5): -0.11
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 6): -0.11
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 7): -0.11
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 9): -0.11
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 11): -0.11
+Unbeatable strategy for Ottavia: Cover Burst (Target Lock: 13): -0.11
+
+
+Kehrolyn:
+37% Mutating Dash
+9% Whip Strike
+10% Whip Grasp
+17% Exoskeletal Shot
+26% Exoskeletal Dash
+
+Ottavia:
+24% Demolition Drive (Target Lock: 13)
+4% Cover Shooter (Target Lock: 5)
+33% Cover Shooter (Target Lock: 7)
+30% Cover Drive (Target Lock: 11)
+9% Cover Burst (Target Lock: 4)
+
+
+Kehrolyn: Exoskeletal Dash
+Ottavia: Cover Drive (Target Lock: 11)
+
+Ottavia acquires target lock
+Priorities:  1 | 1
+Clash!
+
+
+Kehrolyn: Exoskeletal Grasp
+Ottavia: Cover Shooter (Target Lock: 11)
+
+Priorities:  7 | -1
+Kehrolyn is active
+Kehrolyn misses
+Ottavia hits
+Kehrolyn has 2 soak
+Kehrolyn takes 3 damage (now at 0 life)
 OTTAVIA WINS!
-total_time: 17
+total_time: 36

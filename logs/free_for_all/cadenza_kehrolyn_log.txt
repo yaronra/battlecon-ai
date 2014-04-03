@@ -11,107 +11,104 @@ Beat 1
 
 Cadenza
 -------
-life: 20
-discard 1: Hydraulic Burst
-discard 2: Mechanical Press
-special action
-3 Iron Body tokens
+Life: 20
+Discard 1: Hydraulic Burst
+Discard 2: Mechanical Press
+Special action available
+3 Iron Body token
 
 Kehrolyn
 --------
-life: 20
-discard 1: Mutating Grasp
-discard 2: Bladed Strike
-special action
+Life: 20
+Discard 1: Mutating Grasp
+Discard 2: Bladed Strike
+Special action available
 
 
 .C...K.
 
+
 Cadenza:
-61% Battery Grasp
-26% Clockwork Shot
-14% Clockwork Shot (Iron Body)
+11% Battery Grasp
+50% Clockwork Shot
+5% Grapnel Drive
+33% Grapnel Grasp
 
 Kehrolyn:
-42% Whip Drive
-27% Quicksilver Dash
-32% Exoskeletal Shot
+41% Whip Drive
+24% Quicksilver Burst
+33% Exoskeletal Shot
+2% Exoskeletal Burst
 
 
 Cadenza: Battery Grasp
-Kehrolyn: Quicksilver Dash
+Kehrolyn: Exoskeletal Shot
 
-Priorities:  4 | 13
-Kehrolyn is active
-Kehrolyn moves:
-
-.C.K...
-
+Priorities:  4 | 2
+Cadenza is active
 Cadenza misses
+Kehrolyn hits
+Cadenza takes 3 damage (now at 17 life)
+Cadenza is stunned
+Cadenza will have 4 priority next beat
 Kehrolyn loses 1 life (now at 19)
-Kehrolyn moves:
-
-.CK....
-
 
 Beat 2
 -------
 
 Cadenza
 -------
-life: 20
-discard 1: Battery Grasp
-discard 2: Hydraulic Burst
-special action
-3 Iron Body tokens
-+4 priority from last beat
+Life: 17
+Discard 1: Battery Grasp
+Discard 2: Hydraulic Burst
+Special action available
+Priority bonus: 4
+3 Iron Body token
 
 Kehrolyn
 --------
-life: 19
-discard 1: Quicksilver Dash
-discard 2: Mutating Grasp
-special action
+Life: 19
+Discard 1: Exoskeletal Shot
+Discard 2: Mutating Grasp
+Special action available
 
 
-.CK....
+.C...K.
 
-Unbeatable strategy for Cadenza: Grapnel Dash: 0.67
 
 Cadenza:
-22% Clockwork Strike
-16% Clockwork Strike (Iron Body)
-10% Clockwork Shot (Iron Body)
-52% Mechanical Drive
+19% Clockwork Shot
+26% Grapnel Strike
+55% Mechanical Shot
 
 Kehrolyn:
-10% Bladed Overload
-17% Bladed Strike
-29% Whip Drive
-27% Exoskeletal Strike
-17% Exoskeletal Burst
+34% Whip Drive
+16% Whip Burst
+50% Whip Dash
+
+
+Cadenza: Mechanical Shot
+Kehrolyn: Whip Drive
+
+Priorities:  4 | 4
+Clash!
 
 
 Cadenza: Mechanical Drive
-Kehrolyn: Exoskeletal Burst
+Kehrolyn: Whip Overload
 
 Priorities:  6 | 3
 Cadenza is active
-Kehrolyn moves:
-
-.C..K..
-
+Kehrolyn overloads Quicksilver
 Cadenza moves:
 
-...CK..
+..C..K.
 
-Cadenza hits
-Kehrolyn has 2 soak
-Kehrolyn takes 3 damage (now at 16 life)
-Kehrolyn is stunned
+Cadenza misses
+Kehrolyn misses
 Kehrolyn moves:
 
-..KC...
+..C.K..
 
 
 Beat 3
@@ -119,241 +116,261 @@ Beat 3
 
 Cadenza
 -------
-life: 20
-discard 1: Mechanical Drive
-discard 2: Battery Grasp
-special action
-3 Iron Body tokens
+Life: 17
+Discard 1: Mechanical Drive
+Discard 2: Battery Grasp
+Special action available
+3 Iron Body token
 
 Kehrolyn
 --------
-life: 16
-discard 1: Exoskeletal Burst
-discard 2: Quicksilver Dash
-special action
+Life: 19
+Discard 1: Whip Overload
+Discard 2: Exoskeletal Shot
+Special action available
 
 
-..KC...
+..C.K..
 
-Unbeatable strategy for Cadenza: Grapnel Dash: 0.48
 
 Cadenza:
-1% Clockwork Shot
-99% Grapnel Dash
+11% Clockwork Strike (Iron Body)
+5% Clockwork Shot (Iron Body)
+65% Hydraulic Dash
+9% Grapnel Shot
+10% Grapnel Dash
 
 Kehrolyn:
-34% Bladed Overload
-66% Bladed Drive
+7% Bladed Drive
+18% Bladed Dash
+35% Quicksilver Drive
+2% Quicksilver Grasp
+37% Quicksilver Dash
 
 
-Cadenza: Grapnel Dash
-Kehrolyn: Bladed Drive
+Cadenza: Grapnel Shot
+Kehrolyn: Quicksilver Dash
 
-Priorities:  9 | 4
-Cadenza is active
-Cadenza moves:
-
-..K...C
-
+Priorities:  2 | 11
+Kehrolyn is active
 Kehrolyn moves:
 
-....K.C
+K.C....
 
-Kehrolyn misses
+Cadenza misses
 
 Beat 4
 -------
 
 Cadenza
 -------
-life: 20
-discard 1: Grapnel Dash
-discard 2: Mechanical Drive
-special action
-3 Iron Body tokens
+Life: 17
+Discard 1: Grapnel Shot
+Discard 2: Mechanical Drive
+Special action available
+3 Iron Body token
 
 Kehrolyn
 --------
-life: 16
-discard 1: Bladed Drive
-discard 2: Exoskeletal Burst
-special action
+Life: 19
+Discard 1: Quicksilver Dash
+Discard 2: Whip Overload
+Special action available
 
 
-....K.C
+K.C....
+
+Unbeatable strategy for Cadenza: Battery Press: 0.21
+Unbeatable strategy for Cadenza: Clockwork Press: 0.51
+Unbeatable strategy for Cadenza: Hydraulic Strike: 0.78
+
 
 Cadenza:
-14% Battery Press
-79% Battery Press (Iron Body)
-7% Hydraulic Shot
+49% Clockwork Press
+44% Clockwork Burst
+4% Hydraulic Burst
+2% Hydraulic Grasp
 
 Kehrolyn:
-20% Mutating Overload
-34% Whip Grasp
-46% Quicksilver Dash
+12% Bladed Shot
+26% Bladed Burst
+10% Exoskeletal Drive
+51% Exoskeletal Burst
 
 
-Cadenza: Hydraulic Shot
-Kehrolyn: Whip Grasp
+Cadenza: Clockwork Press
+Kehrolyn: Exoskeletal Burst
 
-Priorities:  1 | 5
+Priorities:  -3 | 3
 Kehrolyn is active
 Kehrolyn hits
-Kehrolyn moves Cadenza:
-
-....KC.
-
-Cadenza is stunned
-Cadenza has 1 soak
-Cadenza takes 3 damage (now at 17 life)
-Cadenza is stunned
+Cadenza has 3 soak
+Cadenza takes 0 damage (now at 17 life)
+Cadenza hits
+Kehrolyn has 2 soak
+Kehrolyn takes 2 damage (now at 17 life)
+Kehrolyn is stunned
 
 Beat 5
 -------
 
 Cadenza
 -------
-life: 17
-discard 1: Hydraulic Shot
-discard 2: Grapnel Dash
-special action
-3 Iron Body tokens
+Life: 17
+Discard 1: Clockwork Press
+Discard 2: Grapnel Shot
+Special action available
+3 Iron Body token
 
 Kehrolyn
 --------
-life: 16
-discard 1: Whip Grasp
-discard 2: Bladed Drive
-special action
+Life: 17
+Discard 1: Exoskeletal Burst
+Discard 2: Quicksilver Dash
+Special action available
 
 
-....KC.
+K.C....
+
 
 Cadenza:
-51% Battery Drive
-7% Clockwork Strike (Iron Body)
-42% Clockwork Drive (Iron Body)
+18% Battery Strike
+63% Battery Dash
+18% Hydraulic Drive
 
 Kehrolyn:
-9% Quicksilver Burst
-22% Quicksilver Dash
-70% Exoskeletal Strike
+28% Bladed Drive
+56% Whip Shot
+16% Whip Drive
 
 
-Cadenza: Clockwork Drive (Iron Body)
-Kehrolyn: Exoskeletal Strike
+Cadenza: Battery Dash
+Kehrolyn: Whip Shot
 
-Cadenza antes an Iron Body token
-Priorities:  1 | 3
-Kehrolyn is active
-Kehrolyn hits
-Cadenza has 3 soak
-Cadenza takes 1 damage (now at 16 life)
+Priorities:  8 | 2
+Cadenza is active
 Cadenza moves:
 
-...CK..
+K....C.
 
-Cadenza hits
-Kehrolyn has 2 soak
-Kehrolyn takes 4 damage (now at 12 life)
+Kehrolyn hits
+Kehrolyn moves Cadenza:
+
+K...C..
+
+Cadenza takes 3 damage (now at 14 life)
+Cadenza is stunned
+Cadenza will have 4 priority next beat
 
 Beat 6
 -------
 
 Cadenza
 -------
-life: 16
-discard 1: Clockwork Drive
-discard 2: Hydraulic Shot
-special action
-2 Iron Body tokens
+Life: 14
+Discard 1: Battery Dash
+Discard 2: Clockwork Press
+Special action available
+Priority bonus: 4
+3 Iron Body token
 
 Kehrolyn
 --------
-life: 12
-discard 1: Exoskeletal Strike
-discard 2: Whip Grasp
-special action
+Life: 17
+Discard 1: Whip Shot
+Discard 2: Exoskeletal Burst
+Special action available
 
 
-...CK..
+K...C..
 
-Unbeatable strategy for Cadenza: Battery Dash: 1.17
-Unbeatable strategy for Cadenza: Mechanical Dash: 0.29
 
 Cadenza:
-8% Battery Press
-66% Battery Dash
-24% Mechanical Press
-1% Mechanical Strike
+27% Hydraulic Shot
+31% Grapnel Strike
+8% Grapnel Drive
+4% Grapnel Burst
+17% Mechanical Shot
+13% Mechanical Drive
 
 Kehrolyn:
-7% Bladed Drive
-3% Bladed Burst
-88% Quicksilver Shot
-3% Quicksilver Burst
+1% Mutating Strike
+2% Bladed Drive
+11% Quicksilver Strike
+44% Quicksilver Drive
+29% Quicksilver Grasp
+14% Quicksilver Dash
 
 
-Cadenza: Battery Dash
-Kehrolyn: Quicksilver Shot
+Cadenza: Mechanical Drive
+Kehrolyn: Quicksilver Grasp
 
-Priorities:  8 | 4
-Cadenza is active
+Priorities:  6 | 7
+Kehrolyn is active
+Kehrolyn misses
 Cadenza moves:
 
-....KC.
+K..C...
 
-Kehrolyn misses
+Cadenza misses
+Kehrolyn moves:
+
+.K.C...
+
 
 Beat 7
 -------
 
 Cadenza
 -------
-life: 16
-discard 1: Battery Dash
-discard 2: Clockwork Drive
-special action
-2 Iron Body tokens
-+4 priority from last beat
+Life: 14
+Discard 1: Mechanical Drive
+Discard 2: Battery Dash
+Special action available
+3 Iron Body token
 
 Kehrolyn
 --------
-life: 12
-discard 1: Quicksilver Shot
-discard 2: Exoskeletal Strike
-special action
+Life: 17
+Discard 1: Quicksilver Grasp
+Discard 2: Whip Shot
+Special action available
 
 
-....KC.
+.K.C...
+
+Unbeatable strategy for Cadenza: Grapnel Burst: 0.03
+
 
 Cadenza:
-21% Hydraulic Press
-42% Hydraulic Shot
-37% Hydraulic Grasp
+7% Clockwork Strike
+6% Clockwork Shot
+87% Grapnel Burst
 
 Kehrolyn:
-47% Mutating Overload
-34% Mutating Burst
-19% Bladed Burst
+0% Bladed Overload
+11% Bladed Drive
+34% Bladed Dash
+0% Exoskeletal Overload
+0% Exoskeletal Strike
+20% Exoskeletal Drive
+34% Exoskeletal Dash
 
 
-Cadenza: Hydraulic Shot
-Kehrolyn: Bladed Burst
+Cadenza: Grapnel Burst
+Kehrolyn: Exoskeletal Dash
 
-Priorities:  5 | 3
-Cadenza is active
-Kehrolyn moves:
-
-..K..C.
-
+Priorities:  1 | 11
+Kehrolyn is active
 Cadenza moves:
+
+.K..C..
+
+Kehrolyn moves:
 
 ..K.C..
 
-Cadenza hits
-Kehrolyn takes 5 damage (now at 7 life)
-Kehrolyn is stunned
+Cadenza misses
 Kehrolyn moves:
 
 ...KC..
@@ -364,136 +381,98 @@ Beat 8
 
 Cadenza
 -------
-life: 16
-discard 1: Hydraulic Shot
-discard 2: Battery Dash
-special action
-2 Iron Body tokens
+Life: 14
+Discard 1: Grapnel Burst
+Discard 2: Mechanical Drive
+Special action available
+3 Iron Body token
 
 Kehrolyn
 --------
-life: 7
-discard 1: Bladed Burst
-discard 2: Quicksilver Shot
-special action
+Life: 17
+Discard 1: Exoskeletal Dash
+Discard 2: Quicksilver Grasp
+Special action available
 
 
 ...KC..
 
+Unbeatable strategy for Kehrolyn: Whip Overload: -0.05
+
+
 Cadenza:
-51% Clockwork Press
-34% Clockwork Burst
-15% Mechanical Press (Iron Body)
+100% Battery Dash
 
 Kehrolyn:
-32% Whip Overload
-7% Whip Drive
-60% Exoskeletal Drive
+83% Whip Overload
+17% Whip Strike
 
 
-Cadenza: Clockwork Press
-Kehrolyn: Exoskeletal Drive
+Cadenza: Battery Dash
+Kehrolyn: Whip Overload
 
-Priorities:  -3 | 4
-Kehrolyn is active
-Kehrolyn moves:
+Priorities:  8 | 3
+Cadenza is active
+Kehrolyn overloads Bladed
+Cadenza moves:
 
-....CK.
+..CK...
 
-Kehrolyn hits
-Cadenza has 3 soak
-Cadenza takes 2 damage (now at 14 life)
-Cadenza hits
-Kehrolyn has 2 soak
-Kehrolyn takes 4 damage (now at 3 life)
-Kehrolyn is stunned
+Kehrolyn misses
+Cadenza will have 4 priority next beat
 
 Beat 9
 -------
 
 Cadenza
 -------
-life: 14
-discard 1: Clockwork Press
-discard 2: Hydraulic Shot
-special action
-2 Iron Body tokens
+Life: 14
+Discard 1: Battery Dash
+Discard 2: Grapnel Burst
+Special action available
+Priority bonus: 4
+3 Iron Body token
 
 Kehrolyn
 --------
-life: 3
-discard 1: Exoskeletal Drive
-discard 2: Bladed Burst
-special action
+Life: 17
+Discard 1: Whip Overload
+Discard 2: Exoskeletal Dash
+Special action available
 
 
-....CK.
+..CK...
 
-Unbeatable strategy for Cadenza: Battery Dash: 0.95
 
 Cadenza:
-15% Battery Strike
-77% Battery Dash
-9% Mechanical Burst
+71% Clockwork Shot (Iron Body)
+16% Clockwork Drive
+4% Hydraulic Press
+8% Hydraulic Strike
 
 Kehrolyn:
-57% Mutating Shot
-24% Whip Overload
-19% Whip Shot
+45% Bladed Strike
+29% Quicksilver Strike
+16% Quicksilver Burst
+10% Quicksilver Grasp
 
 
-Cadenza: Battery Dash
-Kehrolyn: Whip Shot
+Cadenza: Hydraulic Press
+Kehrolyn: Quicksilver Grasp
 
-Priorities:  8 | 2
-Cadenza is active
-Cadenza moves:
+Priorities:  3 | 7
+Kehrolyn is active
+Kehrolyn hits
+Cadenza is stunned
+Kehrolyn moves Cadenza:
 
-.....KC
+.C.K...
 
-Kehrolyn misses
+Cadenza has 1 soak
+Cadenza takes 1 damage (now at 13 life)
+Kehrolyn moves:
 
-Beat 10
--------
-
-Cadenza
--------
-life: 14
-discard 1: Battery Dash
-discard 2: Clockwork Press
-special action
-2 Iron Body tokens
-+4 priority from last beat
-
-Kehrolyn
---------
-life: 3
-discard 1: Whip Shot
-discard 2: Exoskeletal Drive
-special action
-
-
-.....KC
-
-Unbeatable strategy for Cadenza: Mechanical Shot (Iron Body): 8.00
-
-Cadenza:
-49% Hydraulic Drive
-19% Hydraulic Grasp
-32% Mechanical Shot (Iron Body)
-
-Kehrolyn:
-10% Bladed Burst
-29% Quicksilver Grasp
-61% Special Pulse
-
-
-Cadenza: Hydraulic Drive
-Kehrolyn: Special Pulse
-
-Pulse:
-
-CK.....
+.CK....
 
 
 Beat 10
@@ -501,57 +480,437 @@ Beat 10
 
 Cadenza
 -------
-life: 14
-discard 1: Hydraulic Drive
-discard 2: Battery Dash
-special action
-2 Iron Body tokens
+Life: 13
+Discard 1: Hydraulic Press
+Discard 2: Battery Dash
+Special action available
+3 Iron Body token
 
 Kehrolyn
 --------
-life: 3
-discard 1: Whip Shot
-discard 2: Exoskeletal Drive
+Life: 17
+Discard 1: Quicksilver Grasp
+Discard 2: Whip Overload
+Special action available
 
 
-CK.....
+.CK....
 
-Unbeatable strategy for Cadenza: Clockwork Shot (Iron Body): 8.00
-Unbeatable strategy for Cadenza: Mechanical Shot (Iron Body): 8.00
+Unbeatable strategy for Cadenza: Clockwork Shot: 0.49
+Unbeatable strategy for Cadenza: Clockwork Drive: 0.40
+
 
 Cadenza:
-50% Clockwork Shot (Iron Body)
-50% Mechanical Shot (Iron Body)
+46% Clockwork Shot
+12% Mechanical Strike
+28% Mechanical Shot
+14% Mechanical Burst
 
 Kehrolyn:
-6% Mutating Overload
-6% Mutating Strike
-6% Mutating Burst
-7% Mutating Grasp
-12% Mutating Dash
-5% Bladed Overload
-6% Bladed Strike
-5% Bladed Burst
-5% Bladed Grasp
-11% Bladed Dash
-5% Quicksilver Overload
-5% Quicksilver Strike
-6% Quicksilver Burst
-3% Quicksilver Grasp
-12% Quicksilver Dash
+3% Bladed Strike
+13% Bladed Drive
+8% Bladed Burst
+38% Bladed Dash
+38% Exoskeletal Dash
 
 
-Cadenza: Clockwork Shot (Iron Body)
-Kehrolyn: Mutating Dash
+Cadenza: Clockwork Shot
+Kehrolyn: Bladed Burst
 
-Cadenza antes an Iron Body token
-Priorities:  -1 | 9
+Priorities:  -1 | 3
 Kehrolyn is active
 Kehrolyn moves:
 
-C.K....
+.C.K...
+
+Kehrolyn hits
+Cadenza has 3 soak
+Cadenza takes 2 damage (now at 11 life)
+Cadenza hits
+Kehrolyn takes 6 damage (now at 11 life)
+Kehrolyn is stunned
+Kehrolyn moves:
+
+.CK....
+
+
+Beat 11
+-------
+
+Cadenza
+-------
+Life: 11
+Discard 1: Clockwork Shot
+Discard 2: Hydraulic Press
+Special action available
+3 Iron Body token
+
+Kehrolyn
+--------
+Life: 11
+Discard 1: Bladed Burst
+Discard 2: Quicksilver Grasp
+Special action available
+
+
+.CK....
+
+Unbeatable strategy for Cadenza: Battery Dash: 0.95
+Unbeatable strategy for Cadenza: Mechanical Dash: 0.71
+
+
+Cadenza:
+11% Battery Grasp
+89% Battery Dash
+
+Kehrolyn:
+14% Whip Overload
+86% Exoskeletal Drive
+
+
+Cadenza: Battery Dash
+Kehrolyn: Exoskeletal Drive
+
+Priorities:  8 | 4
+Cadenza is active
+Cadenza moves:
+
+..KC...
+
+Kehrolyn moves:
+
+...CK..
+
+Kehrolyn misses
+Cadenza will have 4 priority next beat
+
+Beat 12
+-------
+
+Cadenza
+-------
+Life: 11
+Discard 1: Battery Dash
+Discard 2: Clockwork Shot
+Special action available
+Priority bonus: 4
+3 Iron Body token
+
+Kehrolyn
+--------
+Life: 11
+Discard 1: Exoskeletal Drive
+Discard 2: Bladed Burst
+Special action available
+
+
+...CK..
+
+
+Cadenza:
+33% Mechanical Press
+49% Mechanical Strike
+18% Mechanical Burst
+
+Kehrolyn:
+60% Mutating Shot
+36% Whip Strike
+4% Quicksilver Grasp
+
+
+Cadenza: Mechanical Press
+Kehrolyn: Mutating Shot
+
+Priorities:  2 | 2
+Clash!
+
+
+Cadenza: Mechanical Burst
+Kehrolyn: Mutating Dash
+
+Priorities:  3 | 9
+Kehrolyn is active
+Cadenza moves:
+
+.C..K..
+
+Kehrolyn moves:
+
+KC.....
+
+Cadenza misses
+Kehrolyn loses 1 life (now at 10)
+
+Beat 13
+-------
+
+Cadenza
+-------
+Life: 11
+Discard 1: Mechanical Burst
+Discard 2: Battery Dash
+Special action available
+3 Iron Body token
+
+Kehrolyn
+--------
+Life: 10
+Discard 1: Mutating Dash
+Discard 2: Exoskeletal Drive
+Special action available
+
+
+KC.....
+
+Unbeatable strategy for Cadenza: Clockwork Press (Iron Body): 0.21
+
+
+Cadenza:
+89% Clockwork Press (Iron Body)
+5% Clockwork Strike (Iron Body)
+4% Clockwork Shot (Iron Body)
+3% Hydraulic Drive
+
+Kehrolyn:
+25% Bladed Overload
+3% Bladed Burst
+60% Quicksilver Overload
+1% Quicksilver Burst
+11% Quicksilver Grasp
+
+
+Cadenza: Clockwork Press (Iron Body)
+Kehrolyn: Quicksilver Overload
+
+Cadenza antes an Iron Body token
+Priorities:  -3 | 7
+Kehrolyn is active
+Kehrolyn overloads Bladed
+Kehrolyn hits
+Cadenza has 3 soak
+Cadenza takes 2 damage (now at 9 life)
+Cadenza hits
+Kehrolyn takes 6 damage (now at 4 life)
+Kehrolyn is stunned
+Kehrolyn loses 1 life (now at 3)
+Kehrolyn moves:
+
+.CK....
+
+
+Beat 14
+-------
+
+Cadenza
+-------
+Life: 9
+Discard 1: Clockwork Press
+Discard 2: Mechanical Burst
+Special action available
+2 Iron Body token
+
+Kehrolyn
+--------
+Life: 3
+Discard 1: Quicksilver Overload
+Discard 2: Mutating Dash
+Special action available
+
+
+.CK....
+
+Unbeatable strategy for Cadenza: Battery Dash: 0.91
+Unbeatable strategy for Cadenza: Hydraulic Shot (Iron Body): 8.00
+Unbeatable strategy for Cadenza: Grapnel Dash: 0.93
+
+
+Cadenza:
+1% Hydraulic Shot
+5% Hydraulic Shot (Iron Body)
+50% Hydraulic Drive (Iron Body)
+0% Hydraulic Grasp
+0% Grapnel Drive
+44% Grapnel Dash
+
+Kehrolyn:
+1% Bladed Shot
+7% Bladed Drive
+18% Whip Shot
+3% Exoskeletal Shot
+1% Exoskeletal Drive
+69% Special Pulse
+1% Special Hydra Fork
+
+
+Cadenza: Grapnel Dash
+Kehrolyn: Whip Shot
+
+Priorities:  9 | 4
+Cadenza is active
+Cadenza moves:
+
+..KC...
+
+Kehrolyn misses
+
+Beat 15
+-------
+
+Cadenza
+-------
+Life: 9
+Discard 1: Grapnel Dash
+Discard 2: Clockwork Press
+Special action available
+2 Iron Body token
+
+Kehrolyn
+--------
+Life: 3
+Discard 1: Whip Shot
+Discard 2: Quicksilver Overload
+Special action available
+
+
+..KC...
+
+Unbeatable strategy for Cadenza: Battery Strike (Iron Body): 8.00
+Unbeatable strategy for Cadenza: Battery Burst: 8.00
+Unbeatable strategy for Cadenza: Battery Burst (Iron Body): 8.00
+Unbeatable strategy for Cadenza: Hydraulic Strike: 8.00
+Unbeatable strategy for Cadenza: Hydraulic Strike (Iron Body): 8.00
+Unbeatable strategy for Cadenza: Hydraulic Burst: 8.00
+Unbeatable strategy for Cadenza: Hydraulic Burst (Iron Body): 8.00
+Unbeatable strategy for Cadenza: Mechanical Shot (Iron Body): 8.00
+Unbeatable strategy for Cadenza: Mechanical Drive (Iron Body): 8.00
+Unbeatable strategy for Cadenza: Mechanical Burst: 8.00
+Unbeatable strategy for Cadenza: Mechanical Burst (Iron Body): 8.00
+
+
+Cadenza:
+21% Mechanical Strike
+79% Mechanical Grasp
+
+Kehrolyn:
+1% Bladed Strike
+99% Special Pulse
+
+
+Cadenza: Mechanical Strike
+Kehrolyn: Special Pulse
+
+Kehrolyn Pulses:
+
+.C..K..
+
+
+Beat 15
+-------
+
+Cadenza
+-------
+Life: 9
+Discard 1: Mechanical Strike
+Discard 2: Grapnel Dash
+Special action available
+2 Iron Body token
+
+Kehrolyn
+--------
+Life: 3
+Discard 1: Whip Shot
+Discard 2: Quicksilver Overload
+
+
+.C..K..
+
+Unbeatable strategy for Cadenza: Battery Press: 8.00
+Unbeatable strategy for Cadenza: Battery Press (Iron Body): 8.00
+Unbeatable strategy for Cadenza: Battery Burst: 8.00
+Unbeatable strategy for Cadenza: Battery Burst (Iron Body): 8.00
+Unbeatable strategy for Cadenza: Clockwork Press: 8.00
+Unbeatable strategy for Cadenza: Clockwork Press (Iron Body): 8.00
+Unbeatable strategy for Cadenza: Clockwork Shot: 8.00
+Unbeatable strategy for Cadenza: Clockwork Shot (Iron Body): 8.00
+Unbeatable strategy for Cadenza: Clockwork Burst: 8.00
+Unbeatable strategy for Cadenza: Clockwork Burst (Iron Body): 8.00
+Unbeatable strategy for Cadenza: Clockwork Grasp: 8.00
+Unbeatable strategy for Cadenza: Clockwork Grasp (Iron Body): 8.00
+Unbeatable strategy for Cadenza: Hydraulic Press: 8.00
+Unbeatable strategy for Cadenza: Hydraulic Press (Iron Body): 8.00
+Unbeatable strategy for Cadenza: Hydraulic Burst: 8.00
+Unbeatable strategy for Cadenza: Hydraulic Burst (Iron Body): 8.00
+
+
+Cadenza:
+3% Battery Press
+3% Battery Press (Iron Body)
+3% Battery Shot
+3% Battery Shot (Iron Body)
+3% Battery Drive
+3% Battery Drive (Iron Body)
+3% Battery Burst
+3% Battery Burst (Iron Body)
+3% Battery Grasp
+3% Battery Grasp (Iron Body)
+3% Clockwork Press
+3% Clockwork Press (Iron Body)
+3% Clockwork Shot
+3% Clockwork Shot (Iron Body)
+3% Clockwork Drive
+3% Clockwork Drive (Iron Body)
+3% Clockwork Burst
+3% Clockwork Burst (Iron Body)
+3% Clockwork Grasp
+3% Clockwork Grasp (Iron Body)
+3% Hydraulic Press
+3% Hydraulic Press (Iron Body)
+3% Hydraulic Shot
+3% Hydraulic Shot (Iron Body)
+3% Hydraulic Drive
+3% Hydraulic Drive (Iron Body)
+3% Hydraulic Burst
+3% Hydraulic Burst (Iron Body)
+3% Hydraulic Grasp
+3% Hydraulic Grasp (Iron Body)
+
+Kehrolyn:
+8% Mutating Strike
+8% Mutating Drive
+8% Mutating Burst
+8% Mutating Grasp
+7% Mutating Dash
+8% Bladed Strike
+5% Bladed Drive
+6% Bladed Burst
+8% Bladed Grasp
+4% Bladed Dash
+8% Exoskeletal Strike
+5% Exoskeletal Drive
+6% Exoskeletal Burst
+8% Exoskeletal Grasp
+4% Exoskeletal Dash
+
+
+Cadenza: Hydraulic Press (Iron Body)
+Kehrolyn: Exoskeletal Drive
+
+Cadenza antes an Iron Body token
+Priorities:  -1 | 4
+Kehrolyn is active
+Kehrolyn moves:
+
+.CK....
+
+Kehrolyn hits
+Cadenza has 1 soak
+Cadenza takes 2 damage (now at 7 life)
+Cadenza moves:
+
+..KC...
 
 Cadenza hits
-Kehrolyn takes 6 damage (now at 0 life)
+Kehrolyn has 2 soak
+Kehrolyn takes 3 damage (now at 0 life)
 CADENZA WINS!
-total_time: 11
+total_time: 29

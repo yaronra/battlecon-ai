@@ -11,189 +11,676 @@ Beat 1
 
 Byron
 -----
-life: 15
-discard 1: Soulless Strike
-discard 2: Heartless Shot
-special action
+Life: 15
+Discard 1: Soulless Strike
+Discard 2: Heartless Shot
+Special action available
 5 Mask emblems
 
 Kehrolyn
 --------
-life: 20
-discard 1: Mutating Grasp
-discard 2: Bladed Strike
-special action
+Life: 20
+Discard 1: Mutating Grasp
+Discard 2: Bladed Strike
+Special action available
 
 
 .B...K.
 
+
 Byron:
-6% Faceless Smoke
-20% Faceless Drive
-2% Faceless Burst
-37% Breathless Burst
-35% Breathless Grasp
+7% Deathless Burst
+23% Faceless Burst
+19% Breathless Burst
+45% Breathless Grasp
+7% Breathless Dash
 
 Kehrolyn:
-9% Whip Shot
-21% Whip Drive
-20% Quicksilver Shot
-1% Quicksilver Drive
-50% Quicksilver Dash
+12% Whip Drive
+9% Quicksilver Shot
+4% Quicksilver Drive
+33% Quicksilver Dash
+41% Exoskeletal Dash
 
 
 Byron: Breathless Grasp
-Kehrolyn: Whip Drive
+Kehrolyn: Exoskeletal Dash
 
-Priorities:  5 | 4
-Byron is active
-Byron hits
-Byron moves Kehrolyn:
+Priorities:  5 | 9
+Kehrolyn is active
+Byron moves:
 
-.B....K
+.....KB
 
-Kehrolyn takes 2 damage (now at 18 life)
-Kehrolyn is stunned
-Kehrolyn loses 1 life (now at 17)
+Kehrolyn moves:
+
+....K.B
+
+Byron misses
+Kehrolyn loses 1 life (now at 19)
 
 Beat 2
 -------
 
 Byron
 -----
-life: 15
-discard 1: Breathless Grasp
-discard 2: Soulless Strike
-special action
+Life: 15
+Discard 1: Breathless Grasp
+Discard 2: Soulless Strike
+Special action available
 5 Mask emblems
 
 Kehrolyn
 --------
-life: 17
-discard 1: Whip Drive
-discard 2: Mutating Grasp
-special action
+Life: 19
+Discard 1: Exoskeletal Dash
+Discard 2: Mutating Grasp
+Special action available
 
 
-.B....K
+....K.B
 
-Unbeatable strategy for Byron: Deathless Burst: 1.70
+Unbeatable strategy for Kehrolyn: Quicksilver Overload: -0.05
+
 
 Byron:
-100% Deathless Burst
+100% Deathless Dash
+0% Faceless Drive
 
 Kehrolyn:
-100% Exoskeletal Dash
+64% Whip Overload
+36% Quicksilver Overload
 
 
-Byron: Deathless Burst
-Kehrolyn: Exoskeletal Dash
+Byron: Deathless Dash
+Kehrolyn: Whip Overload
 
-Priorities:  0 | 9
-Kehrolyn is active
+Priorities:  8 | 3
+Byron is active
+Kehrolyn overloads Quicksilver
 Byron moves:
 
-B.....K
+...BK..
 
+Kehrolyn misses
 Kehrolyn moves:
 
-B..K...
+...B.K.
 
-Byron hits
-Kehrolyn has 2 soak
-Kehrolyn takes 3 damage (now at 14 life)
-Kehrolyn is stunned
 
 Beat 3
 -------
 
 Byron
 -----
-life: 15
-discard 1: Deathless Burst
-discard 2: Breathless Grasp
-special action
+Life: 15
+Discard 1: Deathless Dash
+Discard 2: Breathless Grasp
+Special action available
 5 Mask emblems
 
 Kehrolyn
 --------
-life: 14
-discard 1: Exoskeletal Dash
-discard 2: Whip Drive
-special action
+Life: 19
+Discard 1: Whip Overload
+Discard 2: Exoskeletal Dash
+Special action available
 
 
-B..K...
+...B.K.
 
-Unbeatable strategy for Kehrolyn: Quicksilver Shot: -2.01
+Unbeatable strategy for Kehrolyn: Mutating Drive: -0.14
+Unbeatable strategy for Kehrolyn: Bladed Drive: -0.64
+Unbeatable strategy for Kehrolyn: Quicksilver Drive: -0.64
+
 
 Byron:
-41% Heartless Smoke
-26% Heartless Strike
-14% Heartless Shot
-18% Heartless Drive
+15% Soulless Shot
+85% Soulless Drive
 
 Kehrolyn:
-5% Mutating Burst
-15% Bladed Shot
-22% Quicksilver Shot
-58% Quicksilver Burst
+14% Bladed Drive
+73% Quicksilver Drive
+13% Quicksilver Burst
 
 
-Byron: Heartless Smoke
-Kehrolyn: Quicksilver Burst
+Byron: Soulless Drive
+Kehrolyn: Quicksilver Drive
 
-Priorities:  4 | 3
-Byron is active
+Priorities:  0 | 6
+Kehrolyn is active
 Kehrolyn moves:
 
-B...K..
+..KB...
+
+Kehrolyn hits
+Byron takes 3 damage (now at 12 life)
+Byron loses a Mask Emblem: now at 4
+Byron moves:
+
+.BK....
 
 Byron hits
-Kehrolyn has 2 soak
-Kehrolyn takes 1 damage (now at 13 life)
+Kehrolyn takes 4 damage (now at 15 life)
 Kehrolyn is stunned
-Kehrolyn moves:
-
-B..K...
-
 
 Beat 4
 -------
 
 Byron
 -----
-life: 15
-discard 1: Heartless Smoke
-discard 2: Deathless Burst
-special action
-5 Mask emblems
+Life: 12
+Discard 1: Soulless Drive
+Discard 2: Deathless Dash
+Special action available
+4 Mask emblems
 
 Kehrolyn
 --------
-life: 13
-discard 1: Quicksilver Burst
-discard 2: Exoskeletal Dash
-special action
+Life: 15
+Discard 1: Quicksilver Drive
+Discard 2: Whip Overload
+Special action available
 
+
+.BK....
+
+
+Byron:
+2% Breathless Smoke
+38% Breathless Strike
+11% Breathless Grasp
+49% Special Pulse
+
+Kehrolyn:
+5% Mutating Shot
+36% Mutating Burst
+45% Exoskeletal Shot
+14% Exoskeletal Burst
+
+
+Byron: Breathless Strike
+Kehrolyn: Mutating Burst
+
+Priorities:  3 | 5
+Kehrolyn is active
+Kehrolyn moves:
+
+.B..K..
+
+Byron moves:
+
+....KB.
+
+Kehrolyn misses
+Byron misses
+Kehrolyn loses 1 life (now at 14)
+Kehrolyn moves:
+
+.....BK
+
+
+Beat 5
+-------
+
+Byron
+-----
+Life: 12
+Discard 1: Breathless Strike
+Discard 2: Soulless Drive
+Special action available
+4 Mask emblems
+
+Kehrolyn
+--------
+Life: 14
+Discard 1: Mutating Burst
+Discard 2: Quicksilver Drive
+Special action available
+
+
+.....BK
+
+
+Byron:
+9% Heartless Dash
+73% Faceless Grasp
+18% Faceless Dash
+
+Kehrolyn:
+71% Whip Grasp
+6% Whip Dash
+23% Exoskeletal Shot
+
+
+Byron: Faceless Grasp
+Kehrolyn: Exoskeletal Shot
+
+Priorities:  5 | 2
+Byron is active
+Byron hits
+Kehrolyn has 4 soak
+Kehrolyn takes 0 damage (now at 14 life)
+Kehrolyn misses
+Kehrolyn loses 1 life (now at 13)
+
+Beat 6
+-------
+
+Byron
+-----
+Life: 12
+Discard 1: Faceless Grasp
+Discard 2: Breathless Strike
+Special action available
+4 Mask emblems
+
+Kehrolyn
+--------
+Life: 13
+Discard 1: Exoskeletal Shot
+Discard 2: Mutating Burst
+Special action available
+
+
+.....BK
+
+Unbeatable strategy for Kehrolyn: Bladed Drive: -1.13
+Unbeatable strategy for Kehrolyn: Whip Drive: -1.03
+Unbeatable strategy for Kehrolyn: Quicksilver Drive: -1.13
+Unbeatable strategy for Kehrolyn: Quicksilver Dash: -0.17
+
+
+Byron:
+16% Soulless Smoke
+16% Soulless Shot
+17% Deathless Dash
+16% Heartless Smoke
+35% Special Pulse
+
+Kehrolyn:
+35% Whip Drive
+18% Whip Grasp
+34% Whip Dash
+13% Quicksilver Drive
+
+
+Byron: Heartless Smoke
+Kehrolyn: Whip Dash
+
+Priorities:  4 | 9
+Kehrolyn is active
+Kehrolyn moves:
+
+...K.B.
+
+Byron misses
+
+Beat 7
+-------
+
+Byron
+-----
+Life: 12
+Discard 1: Heartless Smoke
+Discard 2: Faceless Grasp
+Special action available
+4 Mask emblems
+
+Kehrolyn
+--------
+Life: 13
+Discard 1: Whip Dash
+Discard 2: Exoskeletal Shot
+Special action available
+
+
+...K.B.
+
+Unbeatable strategy for Byron: Breathless Dash: 0.01
+
+
+Byron:
+1% Soulless Strike
+99% Breathless Dash
+
+Kehrolyn:
+20% Bladed Overload
+62% Quicksilver Overload
+10% Quicksilver Strike
+8% Quicksilver Grasp
+
+
+Byron: Breathless Dash
+Kehrolyn: Bladed Overload
+
+Priorities:  9 | 3
+Byron is active
+Byron moves:
 
 B..K...
 
-Unbeatable strategy for Kehrolyn: Mutating Shot: -0.95
-Unbeatable strategy for Kehrolyn: Mutating Drive: -0.88
-Unbeatable strategy for Kehrolyn: Bladed Shot: -0.46
-Unbeatable strategy for Kehrolyn: Bladed Drive: -0.80
-Unbeatable strategy for Kehrolyn: Whip Drive: -1.45
+Kehrolyn overloads Quicksilver
+Byron moves:
+
+...KB..
+
+Kehrolyn misses
+Kehrolyn moves:
+
+..K.B..
+
+
+Beat 8
+-------
+
+Byron
+-----
+Life: 12
+Discard 1: Breathless Dash
+Discard 2: Heartless Smoke
+Special action available
+4 Mask emblems
+
+Kehrolyn
+--------
+Life: 13
+Discard 1: Bladed Overload
+Discard 2: Whip Dash
+Special action available
+
+
+..K.B..
+
 
 Byron:
-5% Soulless Strike
-72% Soulless Shot
-22% Breathless Dash
+32% Faceless Strike
+30% Faceless Drive
+37% Faceless Burst
 
 Kehrolyn:
-8% Mutating Grasp
-3% Whip Shot
-90% Whip Drive
+44% Quicksilver Shot
+34% Quicksilver Drive
+23% Exoskeletal Burst
+
+
+Byron: Faceless Drive
+Kehrolyn: Quicksilver Shot
+
+Priorities:  4 | 4
+Clash!
+
+
+Byron: Faceless Burst
+Kehrolyn: Quicksilver Burst
+
+Priorities:  1 | 3
+Kehrolyn is active
+Kehrolyn moves:
+
+K...B..
+
+Byron moves:
+
+K.....B
+
+Kehrolyn misses
+Byron misses
+Kehrolyn moves:
+
+.K....B
+
+
+Beat 9
+-------
+
+Byron
+-----
+Life: 12
+Discard 1: Faceless Burst
+Discard 2: Breathless Dash
+Special action available
+4 Mask emblems
+
+Kehrolyn
+--------
+Life: 13
+Discard 1: Quicksilver Burst
+Discard 2: Bladed Overload
+Special action available
+
+
+.K....B
+
+Unbeatable strategy for Byron: Deathless Shot: 0.00
+
+
+Byron:
+21% Deathless Strike
+53% Deathless Shot
+26% Deathless Grasp
+
+Kehrolyn:
+37% Whip Shot
+39% Exoskeletal Drive
+24% Exoskeletal Grasp
+
+
+Byron: Deathless Grasp
+Kehrolyn: Exoskeletal Drive
+
+Priorities:  4 | 6
+Kehrolyn is active
+Kehrolyn moves:
+
+...K..B
+
+Kehrolyn misses
+Byron hits
+Kehrolyn has 2 soak
+Kehrolyn takes 2 damage (now at 11 life)
+Kehrolyn is stunned
+Kehrolyn moves:
+
+....K.B
+
+
+Beat 10
+-------
+
+Byron
+-----
+Life: 12
+Discard 1: Deathless Grasp
+Discard 2: Faceless Burst
+Special action available
+4 Mask emblems
+
+Kehrolyn
+--------
+Life: 11
+Discard 1: Exoskeletal Drive
+Discard 2: Quicksilver Burst
+Special action available
+
+
+....K.B
+
+
+Byron:
+1% Heartless Strike
+65% Breathless Shot
+34% Breathless Dash
+
+Kehrolyn:
+22% Bladed Shot
+31% Whip Shot
+47% Whip Dash
+
+
+Byron: Breathless Shot
+Kehrolyn: Whip Shot
+
+Priorities:  2 | 2
+Clash!
+
+
+Byron: Breathless Dash
+Kehrolyn: Whip Dash
+
+Priorities:  9 | 9
+Clash!
+
+
+Byron: Breathless Smoke
+Kehrolyn: Whip Overload
+
+Priorities:  3 | 3
+Byron is active
+Byron moves:
+
+B...K..
+
+Kehrolyn overloads Bladed
+Byron hits
+Kehrolyn has 2 soak
+Kehrolyn takes 0 damage (now at 11 life)
+Kehrolyn misses
+
+Beat 11
+-------
+
+Byron
+-----
+Life: 12
+Discard 1: Breathless Smoke
+Discard 2: Deathless Grasp
+Special action available
+4 Mask emblems
+
+Kehrolyn
+--------
+Life: 11
+Discard 1: Whip Overload
+Discard 2: Exoskeletal Drive
+Special action available
+
+
+B...K..
+
+
+Byron:
+38% Heartless Shot
+56% Heartless Drive
+6% Faceless Drive
+
+Kehrolyn:
+40% Mutating Burst
+8% Bladed Shot
+52% Quicksilver Shot
+
+
+Byron: Heartless Shot
+Kehrolyn: Bladed Shot
+
+Priorities:  3 | 2
+Byron is active
+Byron hits
+Kehrolyn takes 4 damage (now at 7 life)
+Kehrolyn hits
+Kehrolyn moves Byron:
+
+.B..K..
+
+Byron has 4 soak
+Byron takes 1 damage (now at 11 life)
+Byron loses a Mask Emblem: now at 3
+
+Beat 12
+-------
+
+Byron
+-----
+Life: 9
+Discard 1: Heartless Shot
+Discard 2: Breathless Smoke
+Special action available
+3 Mask emblems
+
+Kehrolyn
+--------
+Life: 7
+Discard 1: Bladed Shot
+Discard 2: Whip Overload
+Special action available
+
+
+.B..K..
+
+Unbeatable strategy for Byron: Deathless Burst: 0.10
+
+
+Byron:
+92% Deathless Burst
+2% Faceless Drive
+7% Faceless Burst
+
+Kehrolyn:
+6% Quicksilver Drive
+88% Quicksilver Dash
+6% Exoskeletal Drive
+
+
+Byron: Deathless Burst
+Kehrolyn: Quicksilver Dash
+
+Priorities:  0 | 11
+Kehrolyn is active
+Byron moves:
+
+B...K..
+
+Kehrolyn moves:
+
+BK.....
+
+Byron misses
+Kehrolyn moves:
+
+B.K....
+
+
+Beat 13
+-------
+
+Byron
+-----
+Life: 9
+Discard 1: Deathless Burst
+Discard 2: Heartless Shot
+Special action available
+3 Mask emblems
+
+Kehrolyn
+--------
+Life: 7
+Discard 1: Quicksilver Dash
+Discard 2: Bladed Shot
+Special action available
+
+
+B.K....
+
+
+Byron:
+1% Soulless Strike
+18% Breathless Strike
+82% Breathless Dash
+
+Kehrolyn:
+12% Mutating Drive
+51% Whip Overload
+36% Whip Drive
 
 
 Byron: Breathless Dash
@@ -203,469 +690,20 @@ Priorities:  9 | 6
 Byron is active
 Byron moves:
 
-...KB..
+..KB...
 
-Kehrolyn moves:
-
-....BK.
-
-Kehrolyn misses
-Kehrolyn moves:
-
-....B.K
-
-
-Beat 5
--------
-
-Byron
------
-life: 15
-discard 1: Breathless Dash
-discard 2: Heartless Smoke
-special action
-5 Mask emblems
-
-Kehrolyn
---------
-life: 13
-discard 1: Whip Drive
-discard 2: Quicksilver Burst
-special action
-
-
-....B.K
-
-Byron:
-19% Faceless Drive
-19% Faceless Burst
-62% Faceless Grasp
-
-Kehrolyn:
-30% Bladed Dash
-21% Exoskeletal Shot
-20% Exoskeletal Grasp
-30% Exoskeletal Dash
-
-
-Byron: Faceless Grasp
-Kehrolyn: Exoskeletal Shot
-
-Priorities:  5 | 2
-Byron is active
-Byron hits
-Kehrolyn has 2 soak
-Kehrolyn takes 1 damage (now at 12 life)
-Kehrolyn misses
-
-Beat 6
--------
-
-Byron
------
-life: 15
-discard 1: Faceless Grasp
-discard 2: Breathless Dash
-special action
-5 Mask emblems
-Byron has +1 priority this beat
-
-Kehrolyn
---------
-life: 12
-discard 1: Exoskeletal Shot
-discard 2: Whip Drive
-special action
-
-
-....B.K
-
-Byron:
-25% Deathless Smoke
-33% Deathless Shot
-22% Deathless Drive
-15% Deathless Burst
-5% Heartless Burst
-
-Kehrolyn:
-4% Mutating Overload
-3% Mutating Strike
-1% Mutating Burst
-3% Quicksilver Burst
-90% Quicksilver Dash
-
-
-Byron: Deathless Burst
-Kehrolyn: Quicksilver Dash
-
-Priorities:  1 | 11
-Kehrolyn is active
 Byron moves:
-
-..B...K
-
-Kehrolyn moves:
-
-..BK...
-
-Byron misses
-Kehrolyn moves:
-
-..B.K..
-
-
-Beat 7
--------
-
-Byron
------
-life: 15
-discard 1: Deathless Burst
-discard 2: Faceless Grasp
-special action
-5 Mask emblems
-
-Kehrolyn
---------
-life: 12
-discard 1: Quicksilver Dash
-discard 2: Exoskeletal Shot
-special action
-
-
-..B.K..
-
-Unbeatable strategy for Byron: Heartless Dash: 0.60
-
-Byron:
-100% Heartless Dash
-
-Kehrolyn:
-76% Mutating Overload
-5% Mutating Strike
-19% Mutating Grasp
-
-
-Byron: Heartless Dash
-Kehrolyn: Mutating Grasp
-
-Priorities:  10 | 9
-Byron is active
-Byron moves:
-
-B...K..
-
-Kehrolyn misses
-Kehrolyn loses 1 life (now at 11)
-Kehrolyn moves:
-
-B..K...
-
-Kehrolyn moves:
-
-B.K....
-
-
-Beat 8
--------
-
-Byron
------
-life: 15
-discard 1: Heartless Dash
-discard 2: Deathless Burst
-special action
-5 Mask emblems
-
-Kehrolyn
---------
-life: 11
-discard 1: Mutating Grasp
-discard 2: Quicksilver Dash
-special action
-
-
-B.K....
-
-Byron:
-15% Faceless Drive
-30% Faceless Grasp
-49% Breathless Shot
-7% Breathless Grasp
-
-Kehrolyn:
-20% Whip Drive
-38% Exoskeletal Shot
-32% Exoskeletal Drive
-10% Exoskeletal Burst
-
-
-Byron: Breathless Shot
-Kehrolyn: Exoskeletal Drive
-
-Priorities:  2 | 4
-Kehrolyn is active
-Byron moves:
-
-..K...B
-
-Kehrolyn moves:
-
-....K.B
-
-Kehrolyn misses
-Byron misses
-Kehrolyn loses 1 life (now at 10)
-
-Beat 9
--------
-
-Byron
------
-life: 15
-discard 1: Breathless Shot
-discard 2: Heartless Dash
-special action
-5 Mask emblems
-
-Kehrolyn
---------
-life: 10
-discard 1: Exoskeletal Drive
-discard 2: Mutating Grasp
-special action
-
-
-....K.B
-
-Byron:
-41% Faceless Drive
-59% Faceless Grasp
-
-Kehrolyn:
-60% Quicksilver Overload
-40% Quicksilver Burst
-
-
-Byron: Faceless Drive
-Kehrolyn: Quicksilver Overload
-
-Priorities:  4 | 5
-Kehrolyn is active
-Kehrolyn overloads Whip
-Kehrolyn hits
-Kehrolyn moves Byron:
-
-....KB.
-
-Byron takes 3 damage (now at 12 life)
-Byron is stunned
-Byron loses a Mask Emblem: now at 4
-Kehrolyn moves:
-
-...K.B.
-
-
-Beat 10
--------
-
-Byron
------
-life: 12
-discard 1: Faceless Drive
-discard 2: Breathless Shot
-special action
-4 Mask emblems
-
-Kehrolyn
---------
-life: 10
-discard 1: Quicksilver Overload
-discard 2: Exoskeletal Drive
-special action
-
-
-...K.B.
-
-Byron:
-0% Deathless Grasp
-100% Deathless Dash
-0% Heartless Grasp
-
-Kehrolyn:
-67% Whip Shot
-14% Whip Burst
-19% Whip Grasp
-
-
-Byron: Deathless Dash
-Kehrolyn: Whip Shot
-
-Priorities:  8 | 4
-Byron is active
-Byron moves:
-
-.B.K...
-
-Kehrolyn misses
-
-Beat 11
--------
-
-Byron
------
-life: 12
-discard 1: Deathless Dash
-discard 2: Faceless Drive
-special action
-4 Mask emblems
-
-Kehrolyn
---------
-life: 10
-discard 1: Whip Shot
-discard 2: Quicksilver Overload
-special action
-
-
-.B.K...
-
-Byron:
-6% Heartless Smoke
-16% Heartless Strike
-17% Heartless Shot
-15% Heartless Burst
-46% Heartless Grasp
-
-Kehrolyn:
-37% Mutating Strike
-13% Mutating Grasp
-19% Exoskeletal Strike
-19% Exoskeletal Drive
-11% Exoskeletal Burst
-
-
-Byron: Heartless Shot
-Kehrolyn: Exoskeletal Drive
-
-Priorities:  3 | 4
-Kehrolyn is active
-Kehrolyn moves:
-
-KB.....
-
-Kehrolyn hits
-Byron is stunned
-Byron takes 3 damage (now at 9 life)
-Byron is stunned
-Byron loses a Mask Emblem: now at 3
-
-Beat 12
--------
-
-Byron
------
-life: 9
-discard 1: Heartless Shot
-discard 2: Deathless Dash
-special action
-3 Mask emblems
-
-Kehrolyn
---------
-life: 10
-discard 1: Exoskeletal Drive
-discard 2: Whip Shot
-special action
-
-
-KB.....
-
-Byron:
-28% Soulless Burst
-13% Faceless Strike
-22% Breathless Drive
-36% Breathless Burst
-
-Kehrolyn:
-10% Quicksilver Overload
-16% Quicksilver Burst
-20% Quicksilver Grasp
-54% Quicksilver Dash
-
-
-Byron: Breathless Drive
-Kehrolyn: Quicksilver Grasp
-
-Priorities:  4 | 7
-Kehrolyn is active
-Kehrolyn hits
-Kehrolyn moves Byron:
-
-K.B....
-
-Byron takes 2 damage (now at 7 life)
-Byron is stunned
-Byron loses a Mask Emblem: now at 2
-
-Beat 13
--------
-
-Byron
------
-life: 6
-discard 1: Breathless Drive
-discard 2: Heartless Shot
-special action
-2 Mask emblems
-
-Kehrolyn
---------
-life: 10
-discard 1: Quicksilver Grasp
-discard 2: Exoskeletal Drive
-special action
-
-
-K.B....
-
-Byron:
-2% Deathless Grasp
-25% Deathless Dash
-71% Faceless Strike
-2% Special Soul Trap
-
-Kehrolyn:
-31% Mutating Overload
-15% Whip Shot
-36% Whip Burst
-18% Whip Dash
-
-
-Byron: Faceless Strike
-Kehrolyn: Mutating Overload
-
-Priorities:  3 | 7
-Kehrolyn is active
-Kehrolyn overloads Whip
-Kehrolyn hits
-Kehrolyn moves Byron:
-
-KB.....
-
-Byron takes 3 damage (now at 3 life)
-Byron loses a Mask Emblem: now at 1
-Byron hits
-Kehrolyn takes 5 damage (now at 5 life)
-Kehrolyn is stunned
-Kehrolyn loses 1 life (now at 4)
-Kehrolyn moves:
 
 .BK....
 
 Kehrolyn moves:
 
-.B.K...
+KB.....
+
+Kehrolyn misses
+Kehrolyn moves:
+
+.BK....
 
 
 Beat 14
@@ -673,110 +711,179 @@ Beat 14
 
 Byron
 -----
-life: 3
-discard 1: Faceless Strike
-discard 2: Breathless Drive
-special action
-1 Mask emblems
+Life: 9
+Discard 1: Breathless Dash
+Discard 2: Deathless Burst
+Special action available
+3 Mask emblems
 
 Kehrolyn
 --------
-life: 4
-discard 1: Mutating Overload
-discard 2: Quicksilver Grasp
-special action
+Life: 7
+Discard 1: Whip Drive
+Discard 2: Quicksilver Dash
+Special action available
 
 
-.B.K...
+.BK....
 
-Unbeatable strategy for Byron: Deathless Dash: 1.11
-Unbeatable strategy for Byron: Heartless Dash: 0.84
+Unbeatable strategy for Byron: Soulless Smoke: 0.26
+Unbeatable strategy for Byron: Soulless Shot: 0.84
+Unbeatable strategy for Byron: Soulless Drive: 1.02
+
 
 Byron:
-10% Deathless Grasp
-90% Deathless Dash
+4% Soulless Strike
+88% Soulless Shot
+8% Faceless Grasp
 
 Kehrolyn:
-13% Exoskeletal Shot
-87% Exoskeletal Drive
+24% Mutating Overload
+2% Exoskeletal Burst
+74% Exoskeletal Grasp
 
 
-Byron: Deathless Dash
-Kehrolyn: Exoskeletal Drive
+Byron: Soulless Shot
+Kehrolyn: Exoskeletal Grasp
 
-Priorities:  8 | 4
-Byron is active
-Byron moves:
+Kehrolyn loses 2 life (now at 5)
+Byron gets +2 power
+Priorities:  -2 | 5
+Kehrolyn is active
+Kehrolyn hits
+Kehrolyn moves Byron:
 
-...K.B.
+B.K....
 
-Kehrolyn moves:
+Kehrolyn moves Byron:
 
-.....BK
+.BK....
 
-Kehrolyn misses
-Kehrolyn loses 1 life (now at 3)
+Byron has 2 soak
+Byron takes 0 damage (now at 9 life)
+Byron hits
+Kehrolyn has 2 soak
+Kehrolyn takes 4 damage (now at 1 life)
+Kehrolyn is stunned
+Byron loses a Mask Emblem: now at 2
 
 Beat 15
 -------
 
 Byron
 -----
-life: 3
-discard 1: Deathless Dash
-discard 2: Faceless Strike
-special action
-1 Mask emblems
+Life: 6
+Discard 1: Soulless Shot
+Discard 2: Breathless Dash
+Special action available
+2 Mask emblems
 
 Kehrolyn
 --------
-life: 3
-discard 1: Exoskeletal Drive
-discard 2: Mutating Overload
-special action
+Life: 1
+Discard 1: Exoskeletal Grasp
+Discard 2: Whip Drive
+Special action available
 
 
-.....BK
+.BK....
+
+Unbeatable strategy for Byron: Deathless Burst: 6.00
+
 
 Byron:
-5% Soulless Smoke
-5% Soulless Shot
-5% Soulless Drive
-5% Soulless Burst
-29% Soulless Grasp
-3% Heartless Smoke
-3% Heartless Shot
-3% Heartless Drive
-13% Heartless Burst
-3% Heartless Grasp
-3% Breathless Smoke
-3% Breathless Shot
-3% Breathless Drive
-3% Breathless Burst
-3% Breathless Grasp
-6% Special Soul Trap
-7% Special Soul Gate
+100% Deathless Smoke
 
 Kehrolyn:
-24% Bladed Dash
-51% Whip Dash
-24% Quicksilver Dash
+100% Special Pulse
 
 
-Byron: Breathless Burst
-Kehrolyn: Bladed Dash
+Byron: Deathless Smoke
+Kehrolyn: Special Pulse
 
-Priorities:  1 | 9
-Kehrolyn is active
-Byron moves:
-
-...B..K
-
-Kehrolyn moves:
+Kehrolyn Pulses:
 
 ..KB...
 
-Byron misses
+
+Beat 15
+-------
+
+Byron
+-----
+Life: 6
+Discard 1: Deathless Smoke
+Discard 2: Soulless Shot
+Special action available
+2 Mask emblems
+
+Kehrolyn
+--------
+Life: 1
+Discard 1: Exoskeletal Grasp
+Discard 2: Whip Drive
+
+
+..KB...
+
+Unbeatable strategy for Byron: Heartless Dash: 6.00
+
+
+Byron:
+7% Heartless Drive
+7% Heartless Burst
+7% Heartless Dash
+7% Faceless Strike
+7% Faceless Drive
+7% Faceless Burst
+7% Faceless Grasp
+7% Faceless Dash
+7% Breathless Strike
+7% Breathless Drive
+7% Breathless Burst
+7% Breathless Grasp
+7% Breathless Dash
+7% Special Soul Gate
+
+Kehrolyn:
+6% Mutating Overload
+5% Mutating Strike
+7% Mutating Shot
+6% Mutating Burst
+6% Mutating Dash
+7% Bladed Overload
+7% Bladed Strike
+8% Bladed Shot
+7% Bladed Burst
+7% Bladed Dash
+7% Quicksilver Overload
+6% Quicksilver Strike
+7% Quicksilver Shot
+6% Quicksilver Burst
+8% Quicksilver Dash
+
+
+Byron: Breathless Dash
+Kehrolyn: Quicksilver Dash
+
+Priorities:  9 | 11
+Kehrolyn is active
+Byron moves:
+
+B.K....
+
+Kehrolyn moves:
+
+BK.....
+
+Byron moves:
+
+.KB....
+
+Kehrolyn moves:
+
+K.B....
+
 Game goes to time
-THE GAME IS TIED!
-total_time: 9
+BYRON WINS!
+total_time: 19

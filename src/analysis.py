@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+from collections import Counter
 from numpy import array
 from operator import itemgetter
 import csv
@@ -77,374 +78,6 @@ def all_victories(logdir='free_for_all', devastation_only=False):
     name_power = sorted(name_power, key=itemgetter(1))
     for np in name_power:
         print "%s: %s" %(np[0], percentify(np[1]))
-
-def check_redundancies():
-    for name0 in all_names:
-        for name1 in all_names:
-            if name0 < name1:
-                file01 = 'logs/main/'+name0+'_'+name1+'_log.txt'
-                file10 = 'logs/main/'+name1+'_'+name0+'_log.txt'
-                exist01 = os.path.isfile (file01)
-                exist10 = os.path.isfile (file10)
-                if exist01 and exist10:
-                    print name0, name1
-                if not exist01 and not exist10:
-                    print "missing:", name0, name1
-
-def analyze (name, logdir="free_for_all"):
-    victories (name,logdir)
-    print "Average game length: %.1f"% one_beat(name, logdir)
-    strategies(name, logdir)
-    hitting (name, logdir)
-
-def strategies (name, logdir="free_for_all", beat=None,
-                        condition='',reverse_condition=False):
-    pair_dict = parse (name, logdir, beat, condition, reverse_condition)
-    if name == 'seth':
-        pair_dict = seth_consolidation (pair_dict)
-    inner_strategies(pair_dict)
-    
-def inner_strategies(pair_dict):
-    count, styles, bases = pair_count (pair_dict, True) 
-    style_count = count.sum(axis=1)
-    base_count = count.sum(axis=0)
-    total = count.sum()
-    print "total beats:", total
-    print '--------------'
-    sc = [(styles[i],style_count[i]) for i in range(len(styles))]
-    sc = sorted (sc, key=itemgetter(1), reverse=True)
-    for s in sc:
-        print percentify(s[1]/float(total)), s[0]
-    print '--------------'
-    bc = [(bases[i],base_count[i]) for i in range(len(bases))]
-    bc = sorted (bc, key=itemgetter(1), reverse=True)
-    for b in bc:
-        print percentify(b[1]/float(total)), b[0]
-    print '--------------'
-    count, styles, antes = style_ante_count (pair_dict, True)
-    if len (antes) > 1:
-        ante_count = count.sum(axis=0)
-        ac = [(antes[i],ante_count[i]) for i in range(len(antes))]
-        ac = sorted (ac, key=itemgetter(1), reverse=True)
-        for a in ac:
-            print percentify(a[1]/float(total)), a[0]
-        print '--------------'
-    for func in [pair_count, base_ante_count, style_ante_count]:
-        count, first, second = func (pair_dict, False)
-        if len (second) > 1:
-            first_count = count.sum(axis=1)
-            second_count = count.sum(axis=0)
-            total = count.sum()
-            for x in range(len(first)):
-                for y in range(len(second)):
-                    cxy = count[x][y]
-                    print first[x], second[y], \
-                          percentify(cxy/float(first_count[x])), \
-                          percentify(cxy/float(second_count[y])),
-                    ratio = float(cxy * total) / (first_count[x]*second_count[y])
-                    if ratio > 1.5:
-                        print "STRONG - %.2f" %ratio
-                    elif ratio < 0.5:
-                        print "WEAK - %.2f" %ratio
-                    else:
-                        print                                     
-            print '-----------'
-
-class HitRecord (object):
-    def __init__(self, name):
-        self.name = name
-        self.beats = 0
-        self.hits = 0
-        self.misses = 0
-        self.stunned = 0
-        self.damage = 0
-        self.opp_hits = 0
-        self.opp_misses = 0
-        self.opp_stunned = 0
-        self.opp_damage = 0
-
-def hitting (name, logdir="free_for_all", printing=True):
-    replacement = {p : p.replace(' ','') for p in phrases[name]} 
-    record = {}
-    cap_name = name.capitalize()
-    style = None
-    for filename in list_files(logdir, name):
-        with open (filename) as f:
-            log = [line for line in f]
-        for line in log:
-            if line.startswith('Beat '):
-                style = None
-            if style is None and line.startswith (name.capitalize()+": "):
-                for p in replacement:
-                    line = line.replace(p,replacement[p])
-                style = line.split(' ')[1]
-                if style not in record.keys():
-                    record[style] = HitRecord(style)
-                record[style].beats += 1
-            if line.endswith(" is active\n"):
-                me_active = line.startswith(cap_name)
-            if line.endswith(" is stunned\n"):
-                me_stunned = line.startswith(cap_name)
-                if me_active and not me_stunned:
-                    record[style].opp_stunned += 1
-                if not me_active and me_stunned:
-                    record[style].stunned += 1
-            if line.endswith(" misses\n"):
-                if line.startswith(cap_name):
-                    record[style].misses += 1
-                else:
-                    record[style].opp_misses += 1
-            if line.endswith(" hits\n"):
-                if line.startswith(cap_name):
-                    record[style].hits += 1
-                else:
-                    record[style].opp_hits += 1
-            if " damage (now at " in line:
-                if line.startswith(cap_name):
-                    record[style].opp_damage += int(line.split(' ')[2])
-                else:
-                    record[style].damage += int(line.split(' ')[2])
-    total = HitRecord("All")
-    for key in total.__dict__.keys():
-        if key != 'name':
-            total.__dict__[key] = sum([rec.__dict__[key] for rec in record.itervalues()])
-    all_recs = record.values() + [total]
-    print "stunned/missed/hit/dam per hit/dam per beat"
-    for rec in all_recs:
-        if rec.name != 'Special':
-            # a stunned beat is not necessarily an attack beat,
-            # but dashes don't usually get stunned
-            attack_beats = float(rec.stunned + rec.misses + rec.hits)
-            opp_attack_beats = float(rec.opp_stunned + rec.opp_misses + rec.opp_hits)
-            print "%.2f %s %s %s %s %.1f %.1f | %s %s %s %.1f %.1f" % \
-                  (rec.damage/attack_beats/(rec.opp_damage/opp_attack_beats),
-                   rec.name + (' ' * (12-len(rec.name))),
-                   percentify(rec.stunned/attack_beats),
-                   percentify(rec.misses/attack_beats),
-                   percentify(rec.hits/attack_beats),
-                   rec.damage/float(rec.hits),
-                   rec.damage/attack_beats,
-                   percentify(rec.opp_stunned/opp_attack_beats),
-                   percentify(rec.opp_misses/opp_attack_beats),
-                   percentify(rec.opp_hits/opp_attack_beats),
-                   rec.opp_damage/float(rec.opp_hits),
-                   rec.opp_damage/opp_attack_beats)
-
-class HitWinCorrelationRecord (object):
-    def __init__ (self):
-        self.win_hits = [0] * 6
-        self.tie_hits = [0] * 6
-        self.lose_hits = [0] * 6
-        
-def style_win_correlation (name, logdir="free_for_all"):
-    replacement = {p : p.replace(' ','') for p in phrases[name]} 
-    record = {}
-    cap_name = name.capitalize()
-    upper_name = name.upper()
-    style = None
-    style_hits = {}
-    for filename in list_files(logdir, name):
-        with open (filename) as f:
-            log = [line for line in f]
-        for line in log:
-            if line.startswith('GAME '):
-                style_hits = {}
-            if line.startswith('Beat '):
-                style = None
-            if style is None and line.startswith (name.capitalize()+": "):
-                for p in replacement:
-                    line = line.replace(p,replacement[p])
-                style = line.split(' ')[1]
-                if style not in style_hits.iterkeys():
-                    style_hits[style] = 0
-            if line.endswith(" hits\n") and line.startswith(cap_name):
-                style_hits[style] += 1
-            win = line.endswith ('WINS\n')
-            tie = line.endswith ('TIED!\n')
-            if  win or tie:
-                styles = style_hits.keys()
-                for style in styles:
-                    if style not in record.iterkeys():
-                        record[style] = HitWinCorrelationRecord()
-                if win:
-                    if upper_name in line:
-                        for style in styles:
-                            record[style].win_hits[style_hits[style]] += 1
-                    else:
-                        for style in styles:
-                            record[style].lose_hits[style_hits[style]] += 1
-                else:
-                    for style in styles:
-                        record[style].tie_hits[style_hits[style]] += 1
-    for style in record.iterkeys():
-        print style
-        rec = record[style]
-        for hits in range(6):
-            win = rec.win_hits[hits]
-            lose = rec.lose_hits[hits]
-            tie = rec.tie_hits[hits]
-            total = float (win+lose+tie)
-            if total > 20:
-                print "%d: %s / %s (%d)" % (hits,
-                                            percentify (win/total),
-                                            percentify (lose/total),
-                                            total)
-##                print "%d: %d / %d (%d)" % (hits,
-##                                            win,
-##                                            lose,
-##                                            tie)
-
-def specials (name, logdir="free_for_all"):
-    stats = {'all': [0]*16,
-             'pulse': [0]*16,
-             'cancel': [0]*16,
-             'finisher': [0]*16}
-    # count first turns to figure out number of games
-    d = parse(name, logdir, 1)
-    games = sum ([d[k] for k in d.keys()])
-    for beat in range (1,16):
-        d = parse (name, logdir, beat)
-        for key in d.keys():
-            if key[0] == 'Special':
-                stats['all'][beat] += d[key]
-                if key[1] == 'Pulse':
-                    stats['pulse'][beat] += d[key]
-                elif key[1] == 'Cancel':
-                    stats['cancel'][beat] += d[key]
-                else:
-                    stats['finisher'][beat] += d[key]
-    for stat in sorted(stats.keys()):
-        s = stats[stat]
-        total = 0
-        print stat.upper(), percentify(sum(s)/float(games)) 
-        for beat in range(1,16):
-            total += s[beat]
-            print "%d: %s - %s" %(beat, percentify(s[beat]/float(games)),
-                                  percentify(total/float(games)))
-        
-def anomalies():
-    for name in all_names:
-        count, styles, bases = pair_count (parse (name), False)
-        style_count = count.sum(axis=1)
-        base_count = count.sum(axis=0)
-        total = float(count.sum())
-        print '----------'
-        print name.capitalize()
-        print '----------'
-        for s in range(len(style_count)):
-            fraction = style_count[s] / total
-            if fraction >= .25 or fraction <= .12:
-                print percentify(fraction), styles[s]
-        for b in range(len(base_count)):
-            fraction = base_count[b] / total
-            if fraction >= .25 or fraction <= .08:
-                print percentify(fraction), bases[b]
-        for s in range(len(style_count)):
-            for b in range(len(base_count)):
-                sb = count[s][b]
-                fraction = sb / float(style_count[s])
-                if fraction >= 0.35 or fraction <= 0.035:
-                    print "%s attached to %s %d of %d times (%s)" \
-                          %(bases[b], styles[s], sb, style_count[s],
-                            percentify (sb/float(style_count[s])))
-                fraction = sb / float(base_count[b])
-                if fraction >= 0.5 or fraction <= 0.05:
-                    print "%s attached to %s %d of %d times (%s)" \
-                          %(styles[s], bases[b], sb, base_count[b],
-                            percentify (sb/float(base_count[b])))
-        
-def total_bases(specials=True, player_num=None, beta_bases=False, logdir="free_for_all"):
-    if beta_bases:
-        base_dict = {"Counter" : 0,
-                     "Wave" : 0,
-                     "Force" : 0,
-                     "Spike" : 0,
-                     "Throw" : 0,
-                     "Parry" : 0,
-                     "Pulse" : 0,
-                     "Cancel" : 0}
-    else:
-        base_dict = {"Strike" : 0,
-                     "Shot" : 0,
-                     "Drive" : 0,
-                     "Burst" : 0,
-                     "Grasp" : 0,
-                     "Dash" : 0,
-                     "Pulse" : 0,
-                     "Cancel" : 0}
-    total_total = 0
-    for name in all_names:
-        count, unused_styles, bases = pair_count (
-                parse (name, logdir, player_num=player_num), specials)
-        base_count = count.sum(axis=0)
-        total = (count.sum())
-        for b in range(len(bases)):
-            if bases[b] in base_dict.keys():
-                base_dict[bases[b]] += base_count[b]
-        total_total += total
-    sub_total = sum ([base_dict[k] for k in base_dict])
-    base_dict['Unique'] = total_total - sub_total
-    bases_counts = sorted(base_dict.items(), key=itemgetter(1),
-                          reverse=True)
-    for b in bases_counts:
-        print percentify(b[1]/float(total_total)), b[0]
-
-def one_beat (name, logdir="free_for_all"):
-    return pair_count(parse(name,logdir),True)[0].sum() / \
-           (1.0 * (len(list_files(logdir, name))))
-    
-def beats (logdir="free_for_all"):
-    res = []
-    for name in all_names:
-        res.append ((name, one_beat(name, logdir),
-                     victories(name,logdir,return_timeouts=True,silent=True)))
-    res = sorted(res,key=itemgetter(2))
-    print "mean game length: %.1f" %(sum([r[1] for r in res])/len(res))
-    print "mean timeout percent: %s" %percentify((sum([r[2] for r in res])/len(res))) 
-    for r in res:
-        print "%s   %.1f   %s" %(r[0], r[1], percentify(r[2]))
-
-def pair_count (strat_dict, specials):
-    styles = sorted(list(set([p[0] for p in strat_dict.keys()
-                       if p[0]!= 'Special' or specials])))
-    bases = sorted(list(set([p[1] for p in strat_dict.keys()
-                      if p[0]!= 'Special' or specials])))
-    antes = sorted(list(set([p[2] for p in strat_dict.keys()
-                      if p[0]!= 'Special' or specials])))
-    count = array([[sum([strat_dict[(s,b,a)] if (s,b,a) in strat_dict.keys()
-                                             else 0
-                         for a in antes])
-                    for b in bases]
-                   for s in styles])
-    return count, styles, bases
-
-def style_ante_count (strat_dict, specials=False):
-    styles = sorted(list(set([p[0] for p in strat_dict.keys()
-                       if p[0]!= 'Special' or specials])))
-    bases = sorted(list(set([p[1] for p in strat_dict.keys()
-                      if p[0]!= 'Special' or specials])))
-    antes = sorted(list(set([p[2] for p in strat_dict.keys()
-                      if p[0]!= 'Special' or specials])))
-    count = array([[sum([strat_dict[(s,b,a)] if (s,b,a) in strat_dict.keys()
-                                             else 0
-                         for b in bases])
-                    for a in antes]
-                   for s in styles])
-    return count, styles, antes
-
-def base_ante_count (strat_dict, specials=False):
-    styles = sorted(list(set([p[0] for p in strat_dict.keys()
-                       if p[0]!= 'Special' or specials])))
-    bases = sorted(list(set([p[1] for p in strat_dict.keys()
-                      if p[0]!= 'Special' or specials])))
-    antes = sorted(list(set([p[2] for p in strat_dict.keys()
-                      if p[0]!= 'Special' or specials])))
-    count = array([[sum([strat_dict[(s,b,a)] if (s,b,a) in strat_dict.keys()
-                                             else 0
-                         for s in styles])
-                    for a in antes]
-                   for b in bases])
-    return count, bases, antes
 
 def victories (name, logdir="free_for_all", return_timeouts=False, silent=False,
                per_name=False):
@@ -573,6 +206,504 @@ def victory_csv (logdir="free_for_all"):
         for (i,name) in enumerate(names):
             writer.writerow([name]+wins[i])
 
+def check_redundancies():
+    for name0 in all_names:
+        for name1 in all_names:
+            if name0 < name1:
+                file01 = 'logs/main/'+name0+'_'+name1+'_log.txt'
+                file10 = 'logs/main/'+name1+'_'+name0+'_log.txt'
+                exist01 = os.path.isfile (file01)
+                exist10 = os.path.isfile (file10)
+                if exist01 and exist10:
+                    print name0, name1
+                if not exist01 and not exist10:
+                    print "missing:", name0, name1
+
+def analyze (name, logdir="free_for_all"):
+    victories (name,logdir)
+    print "Average game length: %.1f"% game_length(name, logdir)
+    strategies(name, logdir)
+    hitting (name, logdir)
+
+class BeatData(object):
+    """ Holds the following data:
+    player: name of analyzed player
+    opponent: name of opponent
+    player_num: number of analyzed player (0 or 1)
+    number: beat number
+    style: the style chosen by analyzed player
+    base: the base chosen by analyzed player
+    ante: the ante chosen by analyzed player (without induced ante)
+    induced_ante: the induced ante chosen by analyzed player
+    opp_style: the style chosen by opponent
+    opp_base: the base chosen by opponent
+    opp_induced_ante: the induced ante chosen by opponent
+    text: list of text lines for the beat.
+    """
+    def __init__(self, name, opp_name, player_num, lines, replacement):
+        self.player = name
+        self.opponent = opp_name
+        self.player_num = player_num
+        self.number = int(lines[0].split(' ')[1])
+        self.lines = lines
+        styles = [None, None]
+        bases = [None, None]
+        antes = [None, None]
+        induced_antes = [None, None]
+        line_starts = ["%s: " % n.capitalize()
+                       for n in (name, opp_name)]
+        for line in lines:
+            for i in (0,1):
+                if (styles[i] is None and
+                    line.startswith(line_starts[i])):
+                    line = line[:-1] # snip new line
+                    induced_split = line.split(' | ')
+                    if len(induced_split) > 1:
+                        induced_antes[i] = induced_split[1]
+                    line = induced_split[0]
+                    for p in replacement:
+                        line = line.replace(p, replacement[p])
+                    split = line.split(' ')
+                    styles[i] = split[1]
+                    bases[i] = split[2]
+                    antes[i] = ' '.join(split[3:])
+            if all(styles):
+                break
+        self.style, self.opp_style = tuple(styles)
+        self.base, self.opp_base = tuple(bases)
+        self.ante, self.opp_ante = tuple(antes)
+        self.induced_ante, self.opp_induced_ante = tuple(induced_antes)
+            
+    def lines_starting_with(self, start):
+        return [line for line in self.lines
+                if line.startswith(start)]
+
+    def lines_ending_with(self, end):
+        end += '\n'
+        return [line for line in self.lines
+                if line.endswith(end)]
+
+    def lines_containing(self, text):
+        return [line for line in self.lines
+                if text in line]
+                     
+def parse_beats(name, logdir='free_for_all'):
+    replacement = {phrase : phrase.replace(' ','') 
+                   for char_name in phrases
+                   for phrase in phrases[char_name]}
+    beats = [] 
+    for filename in list_files(logdir, name):
+        names = filename.split('/')[-1].split('_')
+        number = 0 if names[0] == name else 1
+        opp_name = names[1-number]
+        with open (filename) as f:
+            log = [line for line in f]
+        starts = [i for i, line in enumerate(log)
+                  if line.startswith("Beat")]
+        starts.append(len(log))
+        file_beats = [BeatData(name, opp_name, number, 
+                               log[starts[i]:starts[i+1]], replacement)
+                               for i in xrange(len(starts) - 1)]
+        beats += file_beats
+    return beats
+
+def check_victories(beats):
+    # For each beat, indicate who won the game.
+    # Only works if list includes all beats of each game, in order.
+    # Also assumes all beats are of same player.
+    upper = beats[0].name.upper()
+    for i in xrange(len(beats) - 1, -1 ,-1):
+        beat = beats[i]
+        if i == len(beats) - 1 or beat.number > beats[i+1].number:
+            beat.final = True
+            # last beat of game
+            lines = beat.lines_ending_with('WINS!')
+            if lines:
+                if lines[0].startswith(upper):
+                    beat.game_points = 1
+                else:
+                    beat.game_points = 0
+            else:
+                beat.game_points = 0.5
+        else:
+            beat.final = False
+            beat.game_points = beats[i+1].game_points
+
+def strategies (name, logdir="free_for_all", beat=None,
+                        condition='',reverse_condition=False):
+    beats = parse_beats(name, logdir)
+    if beat is not None:
+        beats = [b for b in beats if b.number == beat]
+    if condition:
+        beats = [b for b in beats 
+                 if bool(b.lines_starting_with(condition)) != reverse_condition]
+    if name == 'adjenna':
+        post_processing_adjenna(beats)
+    if name == 'byron':
+        post_processing_byron(beats)
+    if name == 'cesar':
+        post_processing_cesar(beats)
+    if name == 'kallistar':
+        post_processing_kallistar(beats)
+    if name == 'lymn':
+        post_processing_lymn(beats)
+    if name == 'seth':
+        post_processing_seth(beats)
+    if name == 'tanis':
+        post_processing_tanis(beats)
+    strategy_dict = Counter([(b.style, b.base, b.ante) for b in beats])
+    count, styles, bases = pair_count (strategy_dict, True) 
+    total = count.sum()
+    print "total beats:", total
+    print '--------------'
+    style_count = count.sum(axis=1)
+    dash_index = bases.index('Dash')
+    no_dash_style_count = style_count - count[:,dash_index]
+    no_dash_total = float(no_dash_style_count.sum())
+    sc = [(styles[i],style_count[i], no_dash_style_count[i]) for i in range(len(styles))]
+    sc = sorted (sc, key=itemgetter(1), reverse=True)
+    for s in sc:
+        print "%s %s (%s)" % (percentify(s[1]/float(total)), s[0],
+                              percentify(s[2]/no_dash_total))
+    print '--------------'
+    base_count = count.sum(axis=0)
+    bc = [(bases[i],base_count[i]) for i in range(len(bases))]
+    bc = sorted (bc, key=itemgetter(1), reverse=True)
+    for b in bc:
+        print percentify(b[1]/float(total)), b[0]
+    print '--------------'
+    count, styles, antes = style_ante_count (strategy_dict, True)
+    if len (antes) > 1:
+        ante_count = count.sum(axis=0)
+        ac = [(antes[i],ante_count[i]) for i in range(len(antes))]
+        ac = sorted (ac, key=itemgetter(1), reverse=True)
+        for a in ac:
+            print percentify(a[1]/float(total)), a[0]
+        print '--------------'
+    for func in [pair_count, base_ante_count, style_ante_count]:
+        count, first, second = func (strategy_dict, False)
+        if len (second) > 1:
+            first_count = count.sum(axis=1)
+            second_count = count.sum(axis=0)
+            total = count.sum()
+            for x in range(len(first)):
+                for y in range(len(second)):
+                    cxy = count[x][y]
+                    print first[x], second[y], \
+                          percentify(cxy/float(first_count[x])), \
+                          percentify(cxy/float(second_count[y])),
+                    ratio = float(cxy * total) / (first_count[x]*second_count[y])
+                    if ratio > 1.5:
+                        print "STRONG - %.2f" %ratio
+                    elif ratio < 0.5:
+                        print "WEAK - %.2f" %ratio
+                    else:
+                        print                                     
+            print '-----------'
+
+class HitRecord (object):
+    def __init__(self, name):
+        self.name = name
+        self.beats = 0
+        self.hits = 0
+        self.misses = 0
+        self.stunned = 0
+        self.damage = 0
+        self.opp_hits = 0
+        self.opp_misses = 0
+        self.opp_stunned = 0
+        self.opp_damage = 0
+
+def hitting (name, logdir="free_for_all", printing=True):
+    record = {}
+    cap_name = name.capitalize()
+    beats = parse_beats(name, logdir)
+    for beat in beats:
+        style = beat.style
+        if style == 'Special' or beat.opp_base == 'Pulse':
+            continue
+        if style not in record.keys():
+            record[style] = HitRecord(style)
+        record[style].beats += 1
+        lines = beat.lines_ending_with(" is active")
+        if not lines:
+            continue
+        me_active = lines[0].startswith(cap_name)
+        lines = beat.lines_ending_with(" is stunned")
+        my_stuns = [line.startswith(cap_name) for line in lines]
+        me_stunned = any(my_stuns)
+        opp_stunned = not all(my_stuns)
+        if me_active and opp_stunned:
+            record[style].opp_stunned += 1
+        if not me_active and me_stunned:
+            record[style].stunned += 1
+        lines = beat.lines_ending_with(" misses")
+        for line in lines:
+            if line.startswith(cap_name):
+                record[style].misses += 1
+            else:
+                record[style].opp_misses += 1
+        lines = beat.lines_ending_with(" hits")
+        for line in lines:
+            if line.startswith(cap_name):
+                record[style].hits += 1
+            else:
+                record[style].opp_hits += 1
+        lines = beat.lines_containing(" damage (now at ")
+        for line in lines:
+            if line.startswith(cap_name):
+                record[style].opp_damage += int(line.split(' ')[2])
+            else:
+                record[style].damage += int(line.split(' ')[2])
+    total = HitRecord("All")
+    for key in total.__dict__.keys():
+        if key != 'name':
+            total.__dict__[key] = sum([rec.__dict__[key] for rec in record.itervalues()])
+    all_recs = record.values() + [total]
+    print "stunned/missed/hit/dam per hit/dam per beat"
+    for rec in all_recs:
+        if rec.name != 'Special':
+            # a stunned beat is not necessarily an attack beat,
+            # but dashes don't usually get stunned
+            attack_beats = float(rec.stunned + rec.misses + rec.hits)
+            opp_attack_beats = float(rec.opp_stunned + rec.opp_misses + rec.opp_hits)
+            print "%.2f %s %s %s %s %.1f %.1f | %s %s %s %.1f %.1f" % \
+                  (rec.damage/attack_beats/(rec.opp_damage/opp_attack_beats),
+                   rec.name + (' ' * (12-len(rec.name))),
+                   percentify(rec.stunned/attack_beats),
+                   percentify(rec.misses/attack_beats),
+                   percentify(rec.hits/attack_beats),
+                   rec.damage/float(rec.hits),
+                   rec.damage/attack_beats,
+                   percentify(rec.opp_stunned/opp_attack_beats),
+                   percentify(rec.opp_misses/opp_attack_beats),
+                   percentify(rec.opp_hits/opp_attack_beats),
+                   rec.opp_damage/float(rec.opp_hits),
+                   rec.opp_damage/opp_attack_beats)
+
+class HitWinCorrelationRecord (object):
+    def __init__ (self):
+        self.win_hits = [0] * 6
+        self.tie_hits = [0] * 6
+        self.lose_hits = [0] * 6
+        
+def style_win_correlation (name, logdir="free_for_all"):
+    replacement = {p : p.replace(' ','') for p in phrases[name]} 
+    record = {}
+    cap_name = name.capitalize()
+    upper_name = name.upper()
+    style = None
+    style_hits = {}
+    for filename in list_files(logdir, name):
+        with open (filename) as f:
+            log = [line for line in f]
+        for line in log:
+            if line.startswith('GAME '):
+                style_hits = {}
+            if line.startswith('Beat '):
+                style = None
+            if style is None and line.startswith (name.capitalize()+": "):
+                for p in replacement:
+                    line = line.replace(p,replacement[p])
+                style = line.split(' ')[1]
+                if style not in style_hits.iterkeys():
+                    style_hits[style] = 0
+            if line.endswith(" hits\n") and line.startswith(cap_name):
+                style_hits[style] += 1
+            win = line.endswith ('WINS\n')
+            tie = line.endswith ('TIED!\n')
+            if  win or tie:
+                styles = style_hits.keys()
+                for style in styles:
+                    if style not in record.iterkeys():
+                        record[style] = HitWinCorrelationRecord()
+                if win:
+                    if upper_name in line:
+                        for style in styles:
+                            record[style].win_hits[style_hits[style]] += 1
+                    else:
+                        for style in styles:
+                            record[style].lose_hits[style_hits[style]] += 1
+                else:
+                    for style in styles:
+                        record[style].tie_hits[style_hits[style]] += 1
+    for style in record.iterkeys():
+        print style
+        rec = record[style]
+        for hits in range(6):
+            win = rec.win_hits[hits]
+            lose = rec.lose_hits[hits]
+            tie = rec.tie_hits[hits]
+            total = float (win+lose+tie)
+            if total > 20:
+                print "%d: %s / %s (%d)" % (hits,
+                                            percentify (win/total),
+                                            percentify (lose/total),
+                                            total)
+##                print "%d: %d / %d (%d)" % (hits,
+##                                            win,
+##                                            lose,
+##                                            tie)
+
+def specials (name, logdir="free_for_all"):
+    stats = {'all': [0]*16,
+             'pulse': [0]*16,
+             'cancel': [0]*16,
+             'finisher': [0]*16}
+    beats = parse_beats(name, logdir)
+    games = len([beats[i].number == 1 and beats[i+1].number != 1
+                 for i in xrange(len(beats))])
+    for beat in beats:
+        if beat.style == 'Special':
+            stats['all'][beat.number] += 1
+            if beat.base == 'Pulse':
+                stats['pulse'][beat.number] += 1
+            elif beats.base == 'Cancel':
+                stats['cancel'][beat.number] += 1
+            else:
+                stats['finisher'][beat.number] += 1
+    for stat in sorted(stats.keys()):
+        s = stats[stat]
+        total = 0
+        print stat.upper(), percentify(sum(s)/float(games)) 
+        for beat in range(1,16):
+            total += s[beat]
+            print "%d: %s - %s" %(beat, percentify(s[beat]/float(games)),
+                                  percentify(total/float(games)))
+        
+def anomalies(logdir='free_for_all'):
+    for name in all_names:
+        strategy_dict = Counter([(b.style, b.base, b.ante) 
+                                 for b in parse_beats(name, logdir)])
+        count, styles, bases = pair_count (strategy_dict, False) 
+        style_count = count.sum(axis=1)
+        base_count = count.sum(axis=0)
+        total = float(count.sum())
+        print '----------'
+        print name.capitalize()
+        print '----------'
+        for s in range(len(style_count)):
+            fraction = style_count[s] / total
+            if fraction >= .25 or fraction <= .12:
+                print percentify(fraction), styles[s]
+        for b in range(len(base_count)):
+            fraction = base_count[b] / total
+            if fraction >= .25 or fraction <= .08:
+                print percentify(fraction), bases[b]
+        for s in range(len(style_count)):
+            for b in range(len(base_count)):
+                sb = count[s][b]
+                fraction = sb / float(style_count[s])
+                if fraction >= 0.35 or fraction <= 0.035:
+                    print "%s attached to %s %d of %d times (%s)" \
+                          %(bases[b], styles[s], sb, style_count[s],
+                            percentify (sb/float(style_count[s])))
+                fraction = sb / float(base_count[b])
+                if fraction >= 0.5 or fraction <= 0.05:
+                    print "%s attached to %s %d of %d times (%s)" \
+                          %(styles[s], bases[b], sb, base_count[b],
+                            percentify (sb/float(base_count[b])))
+        
+def total_bases(specials=True, player_num=None, beta_bases=False, 
+                logdir="free_for_all"):
+    if beta_bases:
+        base_dict = {"Counter" : 0,
+                     "Wave" : 0,
+                     "Force" : 0,
+                     "Spike" : 0,
+                     "Throw" : 0,
+                     "Parry" : 0,
+                     "Pulse" : 0,
+                     "Cancel" : 0}
+    else:
+        base_dict = {"Strike" : 0,
+                     "Shot" : 0,
+                     "Drive" : 0,
+                     "Burst" : 0,
+                     "Grasp" : 0,
+                     "Dash" : 0,
+                     "Pulse" : 0,
+                     "Cancel" : 0}
+    total_total = 0
+    for name in all_names:
+        beats = parse_beats(name, logdir)
+        if player_num is not None:
+            beats = [b for b in beats if b.player_num==player_num]
+        strategy_dict = Counter([(b.style, b.base, b.ante) 
+                                 for b in parse_beats(name, logdir)])
+        count, unused_styles, bases = pair_count (strategy_dict, specials)
+        base_count = count.sum(axis=0)
+        total = (count.sum())
+        for b in range(len(bases)):
+            if bases[b] in base_dict.keys():
+                base_dict[bases[b]] += base_count[b]
+        total_total += total
+    sub_total = sum ([base_dict[k] for k in base_dict])
+    base_dict['Unique'] = total_total - sub_total
+    bases_counts = sorted(base_dict.items(), key=itemgetter(1),
+                          reverse=True)
+    for b in bases_counts:
+        print percentify(b[1]/float(total_total)), b[0]
+
+def game_length (name, logdir="free_for_all"):
+    beats = parse_beats(name, logdir)
+    games = len([beats[i].number == 1 and beats[i+1].number != 1
+                 for i in xrange(len(beats))])
+    return len(beats) / float(games)
+    
+def all_game_lengths(logdir="free_for_all"):
+    res = []
+    for name in all_names:
+        res.append ((name, game_length(name, logdir),
+                     victories(name,logdir,return_timeouts=True,silent=True)))
+    res = sorted(res,key=itemgetter(2))
+    print "mean game length: %.1f" %(sum([r[1] for r in res])/len(res))
+    print "mean timeout percent: %s" %percentify((sum([r[2] for r in res])/len(res))) 
+    for r in res:
+        print "%s   %.1f   %s" %(r[0], r[1], percentify(r[2]))
+
+def pair_count (strat_dict, specials):
+    styles = sorted(list(set([p[0] for p in strat_dict.keys()
+                       if p[0]!= 'Special' or specials])))
+    bases = sorted(list(set([p[1] for p in strat_dict.keys()
+                      if p[0]!= 'Special' or specials])))
+    antes = sorted(list(set([p[2] for p in strat_dict.keys()
+                      if p[0]!= 'Special' or specials])))
+    count = array([[sum([strat_dict[(s,b,a)] if (s,b,a) in strat_dict.keys()
+                                             else 0
+                         for a in antes])
+                    for b in bases]
+                   for s in styles])
+    return count, styles, bases
+
+def style_ante_count (strat_dict, specials=False):
+    styles = sorted(list(set([p[0] for p in strat_dict.keys()
+                       if p[0]!= 'Special' or specials])))
+    bases = sorted(list(set([p[1] for p in strat_dict.keys()
+                      if p[0]!= 'Special' or specials])))
+    antes = sorted(list(set([p[2] for p in strat_dict.keys()
+                      if p[0]!= 'Special' or specials])))
+    count = array([[sum([strat_dict[(s,b,a)] if (s,b,a) in strat_dict.keys()
+                                             else 0
+                         for b in bases])
+                    for a in antes]
+                   for s in styles])
+    return count, styles, antes
+
+def base_ante_count (strat_dict, specials=False):
+    styles = sorted(list(set([p[0] for p in strat_dict.keys()
+                       if p[0]!= 'Special' or specials])))
+    bases = sorted(list(set([p[1] for p in strat_dict.keys()
+                      if p[0]!= 'Special' or specials])))
+    antes = sorted(list(set([p[2] for p in strat_dict.keys()
+                      if p[0]!= 'Special' or specials])))
+    count = array([[sum([strat_dict[(s,b,a)] if (s,b,a) in strat_dict.keys()
+                                             else 0
+                         for s in styles])
+                    for a in antes]
+                   for b in bases])
+    return count, bases, antes
+
 def first_beats_percents (name, logdir="first_beats"):
     solution_percents (name, logdir, 1)
     print '----------'
@@ -691,45 +822,6 @@ def unbeatable_strategies (name, thresh=5, life_thresh=8,
     winfile.close()
     print "total:", total
 
-
-def parse (name, logdir="free_for_all", beat=None, condition='',
-           reverse_condition=False, player_num=None):
-    if isinstance (beat, int):
-        beat = [beat]
-    replacement = {p : p.replace(' ','') for p in phrases[name]} 
-    strat_dict = {}
-    for filename in list_files(logdir, name, player_num):
-        with open (filename) as f:
-            log = [line for line in f]
-        i=0
-        while True:
-            # forward to start of beat
-            while i < len (log) and not log[i].startswith("Beat"):
-                i += 1
-            if i == len (log):
-                break
-            condition_active = reverse_condition
-            current_beat = int(log[i].split(' ')[1])
-            # advance to first pair used, looking for condition along way
-            while not log[i].startswith(name.capitalize() + ": "):
-                if condition in log[i]:
-                    condition_active = not reverse_condition
-                i += 1
-            # look at pair
-            if (beat==None or current_beat in beat) and condition_active:
-                line = log[i][:-1] # snip newline
-                # remove antes of opponent's token (rexan/alexian)
-                line = line.split(' | ')[0]
-                for p in replacement:
-                    line = line.replace(p,replacement[p])
-                split = line.split(' ')
-                strat = (split[1],split[2],' '.join(split[3:]))
-                if strat in strat_dict.keys():
-                    strat_dict[strat] +=1
-                else:
-                    strat_dict[strat] = 1
-    return strat_dict
-
 def text (text, name=None, logdir="free_for_all", show=False):
     total = 0
     for filename in list_files(logdir, name):
@@ -774,40 +866,26 @@ def abarene_tokens (logdir="free_for_all"):
     print "total:", sum([token_dict[t] for t in token_dict])/float(beats)
 
 def adjenna_marker_beat (target=1, logdir="free_for_all"):
+    beats = parse_beats('adjenna', logdir)
+    check_victories(beats)
+    final_beats = [b for b in beats if b.final]
+    victories = sum([beat.points for beat in final_beats])
+    petrifications = len([beat for beat in final_beats 
+                          if beat.lines_ending_with(
+                                    'has 6 Petrificatoin Markers')])
+    for beat in beats:
+        lines = beat.lines_containing('Petrification markers on')
+        beat.markers = int(lines[0][0])
+    victories_with_target = sum([beat.points for beat in final_beats
+                                 if beat.markers >= target])
     # 1-15 is beat in which opponent got to target number of markers
     # 0 means never
     gain_beat = [0 for _ in range (16)]
-    victories = 0
-    petrifications = 0
-    victories_with_target = 0
-    for filename in list_files(logdir, 'adjenna'):
-        with open (filename) as f:
-            log = [line for line in f]
-        markers = None # indication that first game wasn't started
-        for line in log:
-            if line.startswith('ADJENNA WINS'):
-                victories += 1
-                if markers >= target:
-                    victories_with_target +=1
-            if line.endswith ('has 6 Petrification Markers\n'):
-                petrifications += 1
-            # mew game
-            if line.startswith('GAME ') and \
-               not line.endswith('TIED!\n'):
-                if markers is None:
-                    markers = 0
-                elif markers < target:
-                    gain_beat[0] += 1
-                markers = 0
-            elif line.startswith('Beat '):
-                beat = int(line.split(' ')[1])
-            else:
-                if line.endswith('receives a Petrification Marker\n'):
-                    markers += 1
-                    if markers == target:
-                        gain_beat [beat] += 1
-        if markers < target:
-            gain_beat[0] += 1
+    for i in xrange(1, len(beats)):
+        if beats[i].markers >= target and beats[i-1].markers < target:
+            gain_beat[beats[i].number] += 1
+        if beats[i].final and beats[i].maker < target:
+            gain_beat[0] += 1 
     print "total games:", sum(gain_beat)
     print "victories:", victories
     print "petrifications:", petrifications
@@ -821,29 +899,14 @@ def adjenna_marker_beat (target=1, logdir="free_for_all"):
 def adjenna_marker_and_wins (target_beat, logdir="free_for_all"):
     games_with_x_markers = [0,0,0,0,0,0,0]
     victories_with_x_markers = [0,0,0,0,0,0,0]
-    for filename in list_files(logdir, 'adjenna'):
-        with open (filename) as f:
-            log = [line for line in f]
-        # number of markers at target beat
-        markers = None # indication that first game wasn't started
-        for line in log:
-            # new game
-            if line.startswith('GAME ') and \
-               not line.endswith('TIED!\n'):
-                if markers is None:
-                    markers = 0
-                markers = 0
-                beat = 0
-            elif line.startswith('Beat '):
-                beat = int(line.split(' ')[1])
-            elif beat <= target_beat:
-                if line.endswith('receives a Petrification Marker\n'):
-                    markers += 1
-            if line.startswith('ADJENNA WINS'):
-                victories_with_x_markers[markers] += 1
-                games_with_x_markers[markers] += 1
-            elif line.find('WINS') > -1 or line.find('TIED') > -1:
-                games_with_x_markers[markers] += 1
+    beats = parse_beats['adjenna', logdir]
+    for i in xrange(len(beats)):
+        if (beats[i].beat_number == target_beat and
+            beats[i-1].beat_number < target_beat): 
+            lines = beats[i].lines_containing('Petrification markers on')
+            markers = int(lines[0][0])
+            games_with_x_markers[markers] += 1
+            victories_with_x_markers[markers] += beats[i].points
     total = sum (games_with_x_markers)
     print "total games:", total
     print "or more:"
@@ -857,53 +920,24 @@ def adjenna_marker_and_wins (target_beat, logdir="free_for_all"):
               percentify (float(sum(victories_with_x_markers[:i+1])) /\
                           (0.000001+sum(games_with_x_markers[:i+1])))
 
-def adjenna_by_markers (logdir='free_for_all'):
-    for markers in range (6):
-        print '#############################'
-        print markers, "MARKERS"
-        print '---------'
-        strategies ('adjenna', logdir,
-                            condition='%d Petrification markers on'%markers)
-        print '#############################'
-        
 def alexian_tokens (logdir="free_for_all"):
-    tokens = [0,0,0,0]
-    antes = [0,0,0,0]
-    post_ante = [0,0,0,0]
-    beat_sums = [0]*16
-    beat_counts = [0]*16
-    current_tokens = None
-    current_ante_count = 0
-    current_beat = None
-    filenames = list_files(logdir, 'alexian')
-    for filename in filenames:
-        with open (filename) as f:
-            log = [line for line in f]
-        for i,line in enumerate(log):
-            if line.startswith ("Beat "):
-                if current_tokens is not None:
-                    antes[current_ante_count] += 1
-                    post_ante[current_tokens - current_ante_count] += 1
-                    current_ante_count = 0
-                    tokens[current_tokens] += 1
-                    beat_sums[current_beat] += 1
-                    beat_counts[current_beat] += current_tokens
-                current_beat = int(line[5:-1])
-            # look for consecutive ante lines
-            # (a second batch can be a repeat due to cancel)
-            if current_ante_count == 0 and \
-               line.endswith (" antes a Chivalry token\n"):
-                j = 1
-                while log[i+j].endswith (" antes a Chivalry token\n"):
-                    j += 1
-                current_ante_count = j
+    beats = parse_beats('alexian', logdir)
+    for beat in beats:
+        if beat.opp_induced_ante:
+            beat.opp_induced_ante = int(beat.opp_induced_ante[1])
+        else:
+            beat.opp_induced_ante = 0
+        for line in beat.lines:
             if " has " in line and " Chivalry token" in line:
-                current_tokens = int(line.split()[2])
-    antes[current_ante_count] += 1
-    post_ante[current_tokens - current_ante_count] += 1
-    tokens[current_tokens] += 1
-    beat_sums[current_beat] += 1
-    beat_counts[current_beat] += current_tokens
+                beat.tokens = int(line.split()[2])
+                break
+    tokens = Counter([beat.tokens for beat in beats])
+    antes = Counter([beat.opp_induced_ante for beat in beats])
+    post_ante = Counter([beat.tokens - beat.opp_induced_ante for beat in beats])
+    beat_sums = Counter([beat.number for beat in beats])
+    beat_counts = [sum([beat.tokens for beat in beats
+                        if beats.number == i])
+                   for i in xrange(16)]
     print "Chivalry tokens at start of beat:"
     for i, count in enumerate(tokens):
         print i, percentify(count/float(sum(tokens)))
@@ -922,8 +956,8 @@ def alexian_tokens (logdir="free_for_all"):
     print "Chivalry token accumulation by beat"
     for i in range(1,16):
         print "%d: %.1f" %(i, beat_counts[i]/float(beat_sums[i]))
-
     print
+
     parse_base_vs_induced_ante('alexian', logdir)
 
 def arec_tokens (logdir="free_for_all"):
@@ -1001,77 +1035,6 @@ def aria_droids (logdir="free_for_all"):
         print percentify(turret[i]/n_beats),
     print
 
-def byron_by_emblems (logdir='free_for_all'):
-    for emblems in range (6):
-        print '#############################'
-        print emblems, "Mask Emblems"
-        print '---------'
-        strategies ('byron', logdir,
-                            condition='%d Mask emblems'%emblems)
-        print '#############################'
-        
-def cesar_cycle (logdir='free_for_all'):
-    for threat_level in range (5):
-        print '#############################'
-        print "THREAT LEVEL", threat_level
-        print '---------'
-        before_ante = (threat_level - 1)%5
-        strategies ('cesar', logdir,
-                            condition='Threat level: %d'%before_ante)
-        print '#############################'
-        print "This refers to threat level AFTER ANTE."
-    
-    styles = ["Unstoppable", "Bulwark", "Phalanx", "Inevitable", "Fueled",
-              "Special"]
-    bases = ['Burst','Dash','Drive','Grasp','Shot','Strike', 'Suppression',
-             'Pulse','Cancel', 'Level4Protocol']
-
-    style_dict = {style: [0]*5 for style in styles}
-    base_dict = {base: [0]*5 for base in bases}
-    replacement = {p : p.replace(' ','') for p in phrases['cesar']} 
-    for filename in list_files(logdir, 'cesar'):
-        with open (filename) as f:
-            log = [line for line in f]
-        i=0
-        while True:
-            # forward to start of beat, threat level
-            while i < len (log) and not log[i].startswith("Threat level: "):
-                i += 1
-            if i == len (log):
-                break
-            threat_level = int(log[i].split(' ')[2])
-            after_ante = (threat_level + 1)%5
-            # advance to first pair used
-            while not log[i].startswith("Cesar: "):
-                i += 1
-            line = log[i][:-1] # snip newline
-            # look at pair
-            for p in replacement:
-                line = line.replace(p,replacement[p])
-            split = line.split(' ')
-            style, base = split[1], split[2]
-            style_dict[style][after_ante] += 1
-            base_dict[base][after_ante] += 1
-    threat_sums = [float(sum([style_dict[style][i] for style in styles]))
-                   for i in xrange(5)]
-    threat_sums2 = [float(sum([base_dict[base][i] for base in bases]))
-                    for i in xrange(5)]
-    assert threat_sums == threat_sums2
-    for style in style_dict:
-        print percentify(sum(style_dict[style])/sum(threat_sums)), style,
-        for i in xrange(5):
-            print percentify(style_dict[style][i]/threat_sums[i]),
-        print
-    print
-    for base in base_dict:
-        print percentify(sum(base_dict[base])/sum(threat_sums)), base,
-        for i in xrange(5):
-            print percentify(base_dict[base][i]/threat_sums[i]),
-        print
-    print
-    
-        
-    
 def clinhyde_stims (logdir="free_for_all"):
     stims = {}
     n_stims = [0,0,0,0]
@@ -1094,8 +1057,7 @@ def clinhyde_stims (logdir="free_for_all"):
         print i, percentify(n/total)
     for p in stims.keys():
         print p, percentify (stims[p]/total)
-                
-
+     
 def eligor_tokens (logdir="free_for_all"):
     tokens = [0,0,0,0,0,0]
     for filename in list_files(logdir, 'eligor'):
@@ -1188,15 +1150,6 @@ def kajia_insects(logdir='free_for_all'):
         if insect_count[2][i]:
             print "%d: %s" % (i, percentify(insect_count[2][i]/beats))
 
-def kallistar_elemental(logdir="free_for_all"):
-    print "ELEMENTAL"
-    print "---------"
-    strategies ('kallistar', logdir, condition="Elemental Form")
-    print "###########################################"
-    print "HUMAN"
-    print "-----"
-    strategies ('kallistar', logdir, condition="Human Form")
-
 def karin_jager (logdir="free_for_all"):
     karin_dists = [0,0,0,0,0,0,0]
     opp_dists = [0,0,0,0,0,0,0]
@@ -1251,44 +1204,6 @@ def luc_tokens (logdir="free_for_all"):
     for i, count in enumerate(tokens):
         print i, percentify(count/float(sum(tokens)))
     print "total:", sum(tokens)
-
-def lymn_disparity (logdir='free_for_all'):
-    cards = ["Surreal", "Reverie", "Megrim", "Conceit", "Chimeric",
-              "Maddening", "Fathomless", "Visions"]
-    disparities = {card: [0]*20 for card in cards}
-    replacement = {p : p.replace(' ','') for p in phrases['lymn']} 
-    for filename in list_files(logdir, 'lymn'):
-        with open (filename) as f:
-            log = [line for line in f]
-        i=0
-        while True:
-            # forward to start of beat
-            while i < len (log) and not log[i].startswith("Beat "):
-                i += 1
-            if i == len (log):
-                break
-            # advance to first pair used
-            while not log[i].startswith("Lymn: "):
-                i += 1
-            line = log[i][:-1] # snip newline
-            # look at pair
-            for p in replacement:
-                line = line.replace(p,replacement[p])
-            split = line.split(' ')
-            style, base = split[1], split[2]
-            # advance to disparity
-            while not log[i].startswith("Disparity is "):
-                i += 1
-            disparity = int(log[i][13:-1])
-            for card in (style,base):
-                if card in cards:
-                    disparities[card][disparity] += 1
-    for card in sorted(cards):
-        total = float(sum(disparities[card]))
-        print card
-        for i in range(20):
-            if disparities[card][i]:
-                print i, percentify (disparities[card][i]/total)
 
 def marmelee_counters (logdir="free_for_all"):
     counters = [0,0,0,0,0,0]
@@ -1352,11 +1267,9 @@ def marmelee_spending (logdir="free_for_all"):
               percentify(style_spend_dict[key]/float(total))
 
 def mikhail_pairs_with_tokens (logdir="free_for_all"):
-    d = parse('mikhail', logdir)
-    keys = d.keys()
-    for k in keys:
-        if k[2]=='':
-            del d[k]
+    beats = parse_beats('mikhail', logdir)
+    beats = [b for b in beats if b.ante]
+    d = Counter([(b.style, b.base, b.ante) for b in beats])
     count, first, second = pair_count (d, False)
     if len (second) > 1:
         first_count = count.sum(axis=1)
@@ -1376,7 +1289,6 @@ def mikhail_pairs_with_tokens (logdir="free_for_all"):
                 else:
                     print                                     
           
-
 def mikhail_tokens (logdir="free_for_all"):
     beat_tokens = [[0] * 4 for i in range(16)]
     antes = [[0] * 2 for i in range(16)]
@@ -1406,7 +1318,8 @@ def mikhail_tokens (logdir="free_for_all"):
                 percentify(antes[b][1]/float(sum(antes[b]))))
 
 def oriana_meteor (logdir="free_for_all"):
-    d = parse('oriana', logdir)
+    beats = parse_beats('oriana', logdir)
+    d = Counter([(b.style, b.base, b.ante) for b in beats])
     styles = sorted(list(set([k[0] for k in d])))
     bases = sorted(list(set([k[1] for k in d])))
     tokens = sorted(list(set([k[2] for k in d])))
@@ -1440,44 +1353,23 @@ def oriana_tokens (logdir="free_for_all"):
     print "total:", sum(tokens)
 
 def rexan_tokens (logdir="free_for_all"):
-    tokens = [0,0,0,0]
-    antes = [0,0,0,0]
-    post_ante = [0,0,0,0]
-    beat_sums = [0]*16
-    beat_counts = [0]*16
-    filenames = list_files(logdir, 'rexan')
-    current_tokens = None
-    current_ante_count = 0
-    current_beat = None
-    for filename in filenames:
-        with open (filename) as f:
-            log = [line for line in f]
-        for i,line in enumerate(log):
-            if line.startswith ("Beat "):
-                if current_tokens is not None:
-                    antes[current_ante_count] += 1
-                    post_ante[current_tokens - current_ante_count] += 1
-                    current_ante_count = 0
-                    tokens[current_tokens] += 1
-                    beat_sums[current_beat] += 1
-                    beat_counts[current_beat] += current_tokens
-                current_beat = int(line[5:-1])
-            # look for consecutive ante lines
-            # (a second batch can be a repeat due to cancel)
-            if current_ante_count == 0 and \
-               line.endswith (" antes a Curse token\n"):
-                j = 1
-                while log[i+j].endswith (" antes a Curse token\n"):
-                    j += 1
-                current_ante_count = j
-            if line.startswith("Opponent has ") and \
-               line.endswith("Curse tokens\n"):
-                current_tokens = int(line[13])
-    antes[current_ante_count] += 1
-    post_ante[current_tokens - current_ante_count] += 1
-    tokens[current_tokens] += 1
-    beat_sums[current_beat] += 1
-    beat_counts[current_beat] += current_tokens
+    beats = parse_beats('alexian', logdir)
+    for beat in beats:
+        if beat.opp_induced_ante:
+            beat.opp_induced_ante = int(beat.opp_induced_ante[1])
+        else:
+            beat.opp_induced_ante = 0
+        for line in beat.lines:
+            if " has " in line and " Curse token" in line:
+                beat.tokens = int(line.split()[2])
+                break
+    tokens = Counter([beat.tokens for beat in beats])
+    antes = Counter([beat.opp_induced_ante for beat in beats])
+    post_ante = Counter([beat.tokens - beat.opp_induced_ante for beat in beats])
+    beat_sums = Counter([beat.number for beat in beats])
+    beat_counts = [sum([beat.tokens for beat in beats
+                        if beats.number == i])
+                   for i in xrange(16)]
     print "Curse tokens at start of beat:"
     for i, count in enumerate(tokens):
         print i, percentify(count/float(sum(tokens)))
@@ -1492,11 +1384,6 @@ def rexan_tokens (logdir="free_for_all"):
     for i, count in enumerate(post_ante):
         print i, percentify(count/float(sum(antes)))
     print "total:", sum(post_ante)
-
-    gains = text ('gains 1 Curse token', 'rexan', logdir)
-    games = len (filenames)
-    print "%d gains in %d games - %f per game." %(gains, games,
-                                                  float(gains)/games)
 
     print "Curse token accumulation by beat"
     for i in range(1,16):
@@ -1575,19 +1462,6 @@ def runika_artifacts (logdir="free_for_all"):
                            - sum(activations.itervalues()))
     
 
-def seth_consolidation (pair_dict):
-    standard_antes = ['(Strike)','(Shot)','(Dash)',
-                      '(Burst)','(Drive)','(Grasp)','']
-                      
-    new_dict = {}
-    for strat, count in pair_dict.iteritems():
-        if strat[2] in standard_antes:
-            new_dict[strat] = count
-        else:
-            new_strat = (strat[0], strat[1], '(Unique)')
-            new_dict[new_strat] = new_dict.get(new_strat,0) + count
-    return new_dict
-    
 def shekhtur_tokens (logdir="free_for_all"):
     tokens = [0,0,0,0,0,0]
     for filename in list_files(logdir, 'shekhtur'):
@@ -1600,15 +1474,6 @@ def shekhtur_tokens (logdir="free_for_all"):
         print i, percentify(count/float(sum(tokens)))
     print "total:", sum(tokens)
 
-def tanis_possession(logdir="free_for_all"):
-    puppets = ('Eris', 'Loki', 'Mephisto')
-    full_dict = {}
-    for puppet in puppets:
-        pair_dict = parse('tanis', logdir, condition="Tanis possesses %s" % puppet)
-        for key, value in pair_dict.iteritems():
-            full_dict[(key[0], key[1], puppet)] = value
-    inner_strategies(full_dict)
-        
 def voco_zombies (logdir="free_for_all"):
     zombies = [0,0,0,0,0,0,0,0]
     zom_pos = [0,0,0,0,0,0,0]
@@ -1653,60 +1518,24 @@ def voco_zombies (logdir="free_for_all"):
 
 def zaamassal_paradigms (logdir="free_for_all"):
     for paradigm in ['Pain','Fluidity','Haste','Resilience','Distortion']:
-        print paradigm
+        print paradigm, 
         print text("Zaamassal assumes the Paradigm of %s"%paradigm, 'zaamassal',
              logdir)
 
 def parse_base_vs_induced_ante (name, logdir="free_for_all"):
-    replacement = {p : p.replace(' ','') for opp_name in phrases.keys()
-                                         for p in phrases[opp_name]} 
-    strat_dict = {}
-    for filename in list_files(logdir, name):
-        names = filename.split('/')[-1].split('_')
-        opp_name = names[0] if names[0] != name else names[1]
-        with open (filename) as f:
-            log = [line for line in f]
-        i=0
-        while True:
-            # forward to start of beat
-            while i < len (log) and not log[i].startswith("Beat"):
-                i += 1
-            if i == len (log):
-                break
-            # look for first pair used
-            while not log[i].startswith(opp_name.capitalize() + ": "):
-                i += 1
-            line = log[i][:-1] # snip newline
-            if ' | ' in line:
-                induced_ante = line.split(' | ')[1]
-            else:
-                induced_ante = ''
-            for p in replacement:
-                line = line.replace(p,replacement[p])
-            split = line.split(' ')
-            strat = (split[1], split[2], induced_ante)
-            if strat in strat_dict.keys():
-                strat_dict[strat] +=1
-            else:
-                strat_dict[strat] = 1
-
+    beats = parse_beats(name, logdir)
     bases = ['Burst','Dash','Drive','Grasp','Shot','Strike','Cancel','Pulse']
     all_bases = bases + ['Finisher','Unique']
-    antes = sorted(list(set([p[2] for p in strat_dict.keys()])))
-    new_dict = {}
-    for (s,b,a) in strat_dict.keys():
-        if b in bases:
-            new_dict[(b,a)] = new_dict.get((b,a),0) + strat_dict[(s,b,a)]
-        else:
-            if s == 'Special':
-                new_dict[('Finisher',a)] = \
-                        new_dict.get(('Finisher',a),0) + strat_dict[(s,b,a)]
+    for beat in beats:
+        if beat.opp_base not in bases:
+            if beat.opp_style == 'Special':
+                beat.opp_base = 'Finisher'
             else:
-                new_dict[('Unique',a)] = \
-                        new_dict.get(('Unique',a),0) + strat_dict[(s,b,a)]
-
-    count = array([[new_dict[(b,a)] if (b,a) in new_dict.keys()
-                                             else 0
+                beat.opp_base = 'Unique'
+    strategy_dict = Counter([(beat.opp_base, beat.opp_induced_ante)
+                             for beat in beats])
+    antes = sorted(list(set([s[1] for s in strategy_dict])))
+    count = array([[strategy_dict.get((b,a), 0)
                     for a in antes]
                    for b in all_bases])
 
@@ -1739,3 +1568,45 @@ def parse_base_vs_induced_ante (name, logdir="free_for_all"):
                         print "WEAK - %.2f" %ratio
                     else:
                         print                                     
+
+def post_processing_adjenna(beats):
+    for beat in beats:
+        lines = beat.lines_containing(' Petrification markers on ')
+        beat.ante = "(Petrification %d)" % int(lines[0][0])
+        
+def post_processing_byron(beats):
+    for beat in beats:
+        lines = beat.lines.ending_with(' Mask emblems')
+        beat.ante = '(%d masks)' % lines[0][0]
+
+def post_processing_cesar(beats):
+    print "Threat level is expected level after ante.\n"
+    for beat in beats:
+        lines = beat.lines_starting_with('Threat level: ')
+        beat.ante = int(lines[0].split(' ')[2])
+    
+def post_processing_kallistar(beats):
+    for beat in beats:
+        if beat.lines_containing('Elemental Form'):
+            beat.ante = 'Elemental'
+        else:
+            beat.ante = 'Human'
+
+def post_processing_lymn(beats):
+    for beat in beats:
+        lines = beat.lines_starting_with('Disparity is ')
+        beat.ante = '(disparity: %d)' % lines[0].split(' ')[2]
+
+def post_processing_seth(beats):
+    standard_antes = ['(Strike)','(Shot)','(Dash)',
+                      '(Burst)','(Drive)','(Grasp)','']
+    for beat in beats:
+        if beat.ante not in standard_antes:
+            beat.ante = '(Unique)'
+    
+def post_processing_tanis(beats):
+    # Set beat antes to the puppet possessed.
+    for beat in beats:
+        line = beat.lines_starting_with("Tanis possesses ")[0]
+        beat.ante = line.split(' ')[2]
+

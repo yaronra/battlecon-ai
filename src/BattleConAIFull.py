@@ -95,7 +95,7 @@ def main():
     
 def ad_hoc():
 #    duel('seth', 'voco', 10)
-    free_for_all(10, ['voco'], 'seth', [''], True, False)
+    free_for_all(1, ['kehrolyn'], '', [''], True, False)
 #    free_for_all(1, ['voco'], '', ['kehrolyn'], True, True)
 
 playable = [ 'abarene',

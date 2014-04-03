@@ -30,32 +30,42 @@ Special action available
 
 
 Arec:
-15% Perceptional Burst
-18% Returning Burst (Hesitation)
-27% Mirrored Hex (Fear)
-18% Mirrored Drive
-5% Mirrored Drive (Fear)
-16% Mirrored Burst
+19% Perceptional Burst
+41% Mirrored Drive
+40% Mirrored Burst
 
 Kehrolyn:
-2% Whip Shot
-0% Quicksilver Shot
-62% Exoskeletal Overload
-6% Exoskeletal Shot
-17% Exoskeletal Drive
-13% Exoskeletal Dash
+4% Whip Drive
+95% Exoskeletal Overload
+1% Exoskeletal Dash
 
 
-Arec: Mirrored Hex (Fear)
+Arec: Mirrored Drive
 Kehrolyn: Exoskeletal Overload
 
-Arec antes a Fear token
-Priorities:  3 | 3
+Priorities:  4 | 3
 Arec is active
+Kehrolyn overloads Quicksilver
+Arec moves:
+
+..A..K.
+
+
 Arec hits
-Kehrolyn has 2 soak
-Kehrolyn takes 2 damage (now at 18 life)
+Kehrolyn has 4 soak
+Kehrolyn takes 0 damage (now at 20 life)
 Kehrolyn misses
+Arec places clone:
+
+..A..K.
+c......
+
+Kehrolyn loses 1 life (now at 19)
+Kehrolyn moves:
+
+..A.K..
+c......
+
 
 Beat 2
 -------
@@ -63,60 +73,60 @@ Beat 2
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Hex
+Discard 1: Mirrored Drive
 Discard 2: Phantom Strike
 Special action available
-pool: Hesitation, Mercy, Recklessness
+pool: Fear, Hesitation, Mercy, Recklessness
 
 Kehrolyn
 --------
-Life: 18
+Life: 19
 Discard 1: Exoskeletal Overload
 Discard 2: Mutating Grasp
 Special action available
 
 
-.A...K.
+..A.K..
+c......
 
+Unbeatable strategy for Arec: Returning Shot (Hesitation; move to clone): 0.07
 
 
 Arec:
-71% Perceptional Burst
-20% Returning Shot
-9% Returning Burst
+13% Perceptional Hex (move to clone)
+77% Returning Shot (Hesitation; move to clone)
+4% Returning Shot (Mercy; move to clone)
+3% Manipulative Hex (move to clone)
+4% Manipulative Hex (Hesitation; move to clone)
 
 Kehrolyn:
-34% Whip Shot
-15% Whip Drive
-51% Whip Burst
+1% Whip Strike
+5% Whip Shot
+8% Whip Drive
+49% Whip Burst
+37% Quicksilver Shot
 
 
-Arec: Perceptional Burst
-Kehrolyn: Whip Shot
-
-Priorities:  2 | 2
-Clash!
-
-
-Arec: Perceptional Drive
-Kehrolyn: Whip Burst
-
-Priorities:  5 | 1
-Arec is active
-Kehrolyn moves:
-
-.A....K
-
+Arec: Returning Shot (Hesitation; move to clone)
+Kehrolyn: Quicksilver Shot
 
 Arec moves:
 
-...A..K
+A...K..
 
 
+Arec antes a Hesitation token
+Priorities:  3 | 4
+Kehrolyn is active
+Kehrolyn is stunned
 Arec hits
 Kehrolyn has 2 soak
-Kehrolyn takes 1 damage (now at 17 life)
-Kehrolyn is stunned
+Kehrolyn takes 1 damage (now at 18 life)
+Kehrolyn moves:
+
+A..K...
+
+
 
 Beat 3
 -------
@@ -124,66 +134,58 @@ Beat 3
 Arec
 ----
 Life: 20
-Discard 1: Perceptional Drive
-Discard 2: Mirrored Hex
+Discard 1: Returning Shot
+Discard 2: Mirrored Drive
 Special action available
-pool: Hesitation, Mercy, Recklessness
+pool: Fear, Mercy, Recklessness
 
 Kehrolyn
 --------
-Life: 17
-Discard 1: Whip Burst
+Life: 18
+Discard 1: Quicksilver Shot
 Discard 2: Exoskeletal Overload
 Special action available
 
 
-...A..K
+A..K...
 
-
-Unbeatable strategy for Arec: Phantom Dash (Mercy): 0.54
-Unbeatable strategy for Arec: Returning Dash (Mercy): 0.12
 
 
 Arec:
-14% Phantom Strike (Hesitation)
-2% Phantom Burst (Hesitation)
-7% Returning Shot (Hesitation)
-25% Returning Burst (Hesitation)
-18% Returning Dash
-34% Manipulative Dash
+4% Phantom Hex (Recklessness)
+42% Phantom Strike (Recklessness)
+32% Perceptional Hex (Recklessness)
+17% Perceptional Strike (Recklessness)
+5% Perceptional Grasp
 
 Kehrolyn:
-2% Mutating Shot
-17% Mutating Drive
-1% Mutating Dash
-22% Bladed Drive
-28% Quicksilver Shot
-30% Quicksilver Drive
+7% Mutating Drive
+16% Bladed Drive
+30% Whip Drive
+3% Whip Burst
+45% Whip Dash
 
 
-Arec: Phantom Strike (Hesitation)
-Kehrolyn: Quicksilver Shot
+Arec: Perceptional Hex (Recklessness)
+Kehrolyn: Whip Drive
 
-Arec antes a Hesitation token
+Arec antes a Recklessness token
 Priorities:  4 | 4
 Clash!
 
 
-Arec: Phantom Burst (Hesitation)
-Kehrolyn: Quicksilver Strike
+Arec: Perceptional Burst (Recklessness)
+Kehrolyn: Whip Dash
 
-Arec antes a Hesitation token
-Priorities:  2 | 5
+Arec antes a Recklessness token
+Priorities:  2 | 9
 Kehrolyn is active
-Arec moves:
+Kehrolyn moves:
 
-.A....K
+AK.....
 
 
-Kehrolyn misses
-Arec hits
-Kehrolyn takes 2 damage (now at 15 life)
-Arec recovers a Fear token
+Arec misses
 
 Beat 4
 -------
@@ -191,74 +193,56 @@ Beat 4
 Arec
 ----
 Life: 20
-Discard 1: Phantom Burst
-Discard 2: Perceptional Drive
+Discard 1: Perceptional Burst
+Discard 2: Returning Shot
 Special action available
-pool: Mercy, Recklessness, Fear
+pool: Fear, Mercy
 
 Kehrolyn
 --------
-Life: 15
-Discard 1: Quicksilver Strike
-Discard 2: Whip Burst
+Life: 18
+Discard 1: Whip Dash
+Discard 2: Quicksilver Shot
 Special action available
 
 
-.A....K
+AK.....
 
 
-Unbeatable strategy for Arec: Returning Hex: 0.39
-Unbeatable strategy for Arec: Returning Hex (Fear): 0.64
-Unbeatable strategy for Arec: Mirrored Hex: 2.70
-Unbeatable strategy for Arec: Mirrored Hex (Mercy): 1.65
-Unbeatable strategy for Arec: Mirrored Hex (Recklessness): 2.25
-Unbeatable strategy for Arec: Mirrored Hex (Fear): 1.75
-Unbeatable strategy for Arec: Mirrored Strike: 0.62
-Unbeatable strategy for Arec: Mirrored Strike (Mercy): 0.22
-Unbeatable strategy for Arec: Mirrored Strike (Recklessness): 0.02
-Unbeatable strategy for Arec: Mirrored Shot: 1.22
-Unbeatable strategy for Arec: Mirrored Shot (Mercy): 0.82
-Unbeatable strategy for Arec: Mirrored Grasp: 0.57
-Unbeatable strategy for Arec: Mirrored Grasp (Mercy): 0.17
-Unbeatable strategy for Arec: Manipulative Hex: 2.32
-Unbeatable strategy for Arec: Manipulative Hex (Mercy): 0.11
-Unbeatable strategy for Arec: Manipulative Hex (Recklessness): 1.72
-Unbeatable strategy for Arec: Manipulative Hex (Fear): 2.62
+Unbeatable strategy for Arec: Mirrored Dash: 0.87
+Unbeatable strategy for Arec: Mirrored Dash (Mercy): 0.47
 
 
 Arec:
-31% Mirrored Hex
-24% Manipulative Hex
-33% Manipulative Hex (Fear)
-12% Manipulative Shot
+2% Phantom Drive
+7% Mirrored Strike
+0% Mirrored Drive
+83% Mirrored Dash
+8% Manipulative Grasp (Fear)
 
 Kehrolyn:
-53% Exoskeletal Drive
-3% Exoskeletal Grasp
-34% Exoskeletal Dash
-10% Special Pulse
+8% Bladed Strike
+10% Bladed Drive
+24% Bladed Grasp
+21% Exoskeletal Drive
+37% Exoskeletal Burst
 
 
-Arec: Manipulative Hex
-Kehrolyn: Exoskeletal Drive
+Arec: Mirrored Dash
+Kehrolyn: Bladed Grasp
 
-Priorities:  3 | 6
-Kehrolyn is active
-Kehrolyn moves:
+Priorities:  9 | 5
+Arec is active
+Arec moves:
 
-.A..K..
+.KA....
 
 
 Kehrolyn misses
-Arec hits
-Arec chooses Kehrolyn's base: Overload
-Arec recovers a Hesitation token
-Kehrolyn has 2 soak
-Kehrolyn takes 2 damage (now at 13 life)
-Kehrolyn moves:
+Arec places clone:
 
-.A.K...
-
+.KA....
+......c
 
 
 Beat 5
@@ -267,49 +251,60 @@ Beat 5
 Arec
 ----
 Life: 20
-Discard 1: Manipulative Hex
-Discard 2: Phantom Burst
+Discard 1: Mirrored Dash
+Discard 2: Perceptional Burst
 Special action available
-pool: Mercy, Recklessness, Fear, Hesitation
-Manipulative forced base: Overload
+pool: Fear, Mercy
 
 Kehrolyn
 --------
-Life: 13
-Discard 1: Exoskeletal Drive
-Discard 2: Quicksilver Strike
+Life: 18
+Discard 1: Bladed Grasp
+Discard 2: Whip Dash
 Special action available
 
 
-.A.K...
+.KA....
+......c
 
+Unbeatable strategy for Arec: Returning Hex (move to clone): 0.58
+Unbeatable strategy for Arec: Returning Hex (Fear; move to clone): 0.08
 
 
 Arec:
-75% Mirrored Strike
-25% Mirrored Strike (Fear)
+52% Phantom Hex (move to clone)
+32% Phantom Strike (move to clone)
+16% Manipulative Hex (move to clone)
 
 Kehrolyn:
-93% Mutating Overload
-7% Whip Burst
+0% Quicksilver Overload
+1% Exoskeletal Overload
+37% Exoskeletal Strike
+61% Exoskeletal Drive
 
 
-Arec: Mirrored Strike
-Kehrolyn: Mutating Overload
+Arec: Manipulative Hex (move to clone)
+Kehrolyn: Exoskeletal Drive
 
-Priorities:  3 | 3
-Arec is active
-Kehrolyn overloads Bladed
-Arec hits
-Kehrolyn has 4 soak
-Kehrolyn takes 1 damage (now at 12 life)
+Arec moves:
+
+.K....A
+
+
+Priorities:  3 | 4
+Kehrolyn is active
+Kehrolyn moves:
+
+...K..A
+
+
 Kehrolyn misses
-Arec places clone:
-
-.A.K...
-c......
-
-Kehrolyn loses 1 life (now at 11)
+Arec hits
+Arec chooses Kehrolyn's base: Strike
+Arec recovers his Hesitation token
+Kehrolyn has 2 soak
+Kehrolyn takes 2 damage (now at 16 life)
+Arec recovers his Recklessness token
 
 Beat 6
 -------
@@ -317,414 +312,716 @@ Beat 6
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Strike
-Discard 2: Manipulative Hex
+Discard 1: Manipulative Hex
+Discard 2: Mirrored Dash
 Special action available
-pool: Mercy, Recklessness, Fear, Hesitation
+pool: Fear, Mercy, Hesitation, Recklessness
+Manipulative forced base: Strike
 
 Kehrolyn
 --------
-Life: 11
-Discard 1: Mutating Overload
-Discard 2: Exoskeletal Drive
+Life: 16
+Discard 1: Exoskeletal Drive
+Discard 2: Bladed Grasp
 Special action available
 
 
-.A.K...
-c......
+...K..A
+
 
 
 Arec:
-7% Perceptional Drive (Hesitation; move to clone)
-42% Perceptional Grasp (move to clone)
-51% Returning Shot (Mercy; move to clone)
+39% Phantom Strike
+42% Phantom Strike (Fear)
+2% Perceptional Strike
+16% Returning Shot
 
 Kehrolyn:
-24% Bladed Shot
-41% Whip Strike
-36% Quicksilver Shot
+1% Mutating Strike
+30% Whip Strike
+9% Whip Burst
+60% Quicksilver Shot
 
 
-Arec: Returning Shot (Mercy; move to clone)
-Kehrolyn: Whip Strike
+Arec: Phantom Strike (Fear)
+Kehrolyn: Quicksilver Shot
 
-Arec moves:
+Arec antes a Fear token
+Kehrolyn loses 2 life (now at 14)
+Priorities:  4 | 4
+Clash!
 
-A..K...
 
+Arec: Phantom Burst (Fear)
+Kehrolyn: Quicksilver Strike
 
-Arec antes a Mercy token
-Priorities:  3 | 3
-Arec is active
+Arec antes a Fear token
+Priorities:  2 | 5
+Kehrolyn is active
+Kehrolyn misses
 Arec hits
-Kehrolyn takes 3 damage (now at 8 life)
-Kehrolyn hits
-Arec takes 4 damage (now at 16 life)
-Arec is stunned
-Kehrolyn loses 1 life (now at 7)
+Kehrolyn takes 2 damage (now at 14 life)
 
 Beat 7
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Returning Shot
-Discard 2: Mirrored Strike
+Life: 20
+Discard 1: Phantom Burst
+Discard 2: Manipulative Hex
 Special action available
-pool: Recklessness, Fear, Hesitation
+pool: Mercy, Hesitation, Recklessness
 
 Kehrolyn
 --------
-Life: 7
-Discard 1: Whip Strike
-Discard 2: Mutating Overload
+Life: 14
+Discard 1: Quicksilver Strike
+Discard 2: Exoskeletal Drive
 Special action available
 
 
-A..K...
+...K..A
 
+
+Unbeatable strategy for Arec: Returning Shot: 1.06
+Unbeatable strategy for Arec: Returning Shot (Mercy): 0.66
+Unbeatable strategy for Arec: Returning Shot (Hesitation): 1.47
+Unbeatable strategy for Arec: Returning Shot (Recklessness): 0.46
 
 
 Arec:
-32% Phantom Hex (Fear)
-14% Phantom Burst (Fear)
-23% Perceptional Hex
-31% Perceptional Burst
+28% Returning Shot
+42% Returning Shot (Hesitation)
+21% Mirrored Strike (Hesitation)
+9% Mirrored Strike (Recklessness)
 
 Kehrolyn:
-8% Bladed Shot
-25% Quicksilver Shot
-61% Exoskeletal Shot
-6% Exoskeletal Drive
+15% Mutating Shot
+37% Bladed Shot
+8% Whip Burst
+39% Whip Dash
 
 
-Arec: Phantom Hex (Fear)
-Kehrolyn: Exoskeletal Shot
+Arec: Returning Shot (Hesitation)
+Kehrolyn: Whip Dash
 
-Arec antes a Fear token
-Priorities:  4 | 2
-Arec is active
+Arec antes a Hesitation token
+Priorities:  3 | 11
+Kehrolyn is active
 Arec hits
-Arec recovers a Mercy token
-Kehrolyn takes 2 damage (now at 5 life)
-Kehrolyn hits
-Kehrolyn moves Arec:
-
-.A.K...
-
-
-Arec takes 3 damage (now at 13 life)
-Arec is stunned
+Kehrolyn takes 3 damage (now at 11 life)
+Kehrolyn is stunned
 
 Beat 8
 -------
 
 Arec
 ----
-Life: 13
-Discard 1: Phantom Hex
+Life: 20
+Discard 1: Returning Shot
+Discard 2: Phantom Burst
+Special action available
+pool: Mercy, Recklessness
+
+Kehrolyn
+--------
+Life: 11
+Discard 1: Whip Dash
+Discard 2: Quicksilver Strike
+Special action available
+
+
+...K..A
+
+
+
+Arec:
+16% Perceptional Drive
+2% Perceptional Grasp
+19% Mirrored Strike (Mercy)
+34% Mirrored Drive
+29% Mirrored Grasp
+
+Kehrolyn:
+59% Mutating Grasp
+9% Bladed Burst
+1% Exoskeletal Shot
+8% Exoskeletal Drive
+23% Exoskeletal Burst
+
+
+Arec: Mirrored Grasp
+Kehrolyn: Exoskeletal Burst
+
+Priorities:  5 | 1
+Arec is active
+Kehrolyn moves:
+
+..K...A
+
+
+Arec misses
+Kehrolyn hits
+Kehrolyn moves Arec:
+
+..K..A.
+
+
+Arec takes 3 damage (now at 17 life)
+Arec is stunned
+Arec places clone:
+
+..K..A.
+......c
+
+
+Beat 9
+-------
+
+Arec
+----
+Life: 17
+Discard 1: Mirrored Grasp
 Discard 2: Returning Shot
 Special action available
-pool: Recklessness, Hesitation, Mercy
+pool: Mercy, Recklessness
 
 Kehrolyn
 --------
-Life: 5
-Discard 1: Exoskeletal Shot
-Discard 2: Whip Strike
+Life: 11
+Discard 1: Exoskeletal Burst
+Discard 2: Whip Dash
 Special action available
 
 
-.A.K...
+..K..A.
+......c
 
-
-Unbeatable strategy for Arec: Perceptional Burst: 0.15
+Unbeatable strategy for Kehrolyn: Bladed Shot: -0.87
+Unbeatable strategy for Kehrolyn: Quicksilver Shot: -2.09
 
 
 Arec:
-37% Perceptional Burst
-1% Mirrored Strike
-18% Mirrored Strike (Hesitation)
-44% Manipulative Burst (Hesitation)
+59% Phantom Hex (move to clone)
+41% Phantom Burst
 
 Kehrolyn:
-54% Mutating Overload
-18% Mutating Drive
-14% Mutating Grasp
-14% Bladed Burst
+51% Bladed Shot
+49% Quicksilver Shot
 
 
-Arec: Manipulative Burst (Hesitation)
-Kehrolyn: Mutating Overload
+Arec: Phantom Hex (move to clone)
+Kehrolyn: Bladed Shot
 
-Arec antes a Hesitation token
-Priorities:  1 | 3
-Kehrolyn is active
-Kehrolyn overloads Quicksilver
 Arec moves:
 
-A..K...
+..K...A
 
 
-Kehrolyn misses
-Arec hits
-Arec chooses Kehrolyn's base: Grasp
-Kehrolyn has 4 soak
-Kehrolyn takes 0 damage (now at 5 life)
-Arec recovers a Fear token
-Kehrolyn loses 1 life (now at 4)
-Kehrolyn moves:
-
-A.K....
-
-
-
-Beat 9
--------
-
-Arec
-----
-Life: 13
-Discard 1: Manipulative Burst
-Discard 2: Phantom Hex
-Special action available
-pool: Recklessness, Mercy, Fear
-Manipulative forced base: Grasp
-
-Kehrolyn
---------
-Life: 4
-Discard 1: Mutating Overload
-Discard 2: Exoskeletal Shot
-Special action available
-
-
-A.K....
-
-
-Unbeatable strategy for Arec: Returning Grasp (Fear): 0.42
-
-
-Arec:
-36% Returning Strike (Mercy)
-16% Returning Shot
-14% Returning Drive
-9% Mirrored Shot
-4% Mirrored Shot (Fear)
-21% Mirrored Drive
-
-Kehrolyn:
-5% Bladed Grasp
-9% Whip Grasp
-15% Quicksilver Drive
-8% Quicksilver Burst
-14% Quicksilver Dash
-49% Special Pulse
-
-
-Arec: Returning Strike (Mercy)
-Kehrolyn: Special Pulse
-
-Arec antes a Mercy token
-Pulse:
-
-.AK....
-
-
-
-Beat 9
--------
-
-Arec
-----
-Life: 13
-Discard 1: Returning Strike
-Discard 2: Manipulative Burst
-Special action available
-pool: Recklessness, Fear
-Manipulative forced base: Grasp
-
-Kehrolyn
---------
-Life: 4
-Discard 1: Mutating Overload
-Discard 2: Exoskeletal Shot
-
-
-.AK....
-
-
-Unbeatable strategy for Arec: Phantom Dash: 1.48
-Unbeatable strategy for Arec: Phantom Dash (Recklessness): 0.88
-Unbeatable strategy for Arec: Phantom Dash (Fear): 0.44
-Unbeatable strategy for Arec: Perceptional Dash: 0.82
-Unbeatable strategy for Arec: Perceptional Dash (Recklessness): 0.22
-Unbeatable strategy for Arec: Perceptional Dash (Fear): 0.48
-
-
-Arec:
-9% Phantom Shot
-42% Phantom Dash
-49% Mirrored Dash
-
-Kehrolyn:
-5% Bladed Grasp
-8% Bladed Dash
-87% Quicksilver Grasp
-
-
-Arec: Phantom Dash
-Kehrolyn: Quicksilver Grasp
-
-Priorities:  10 | 7
+Priorities:  4 | 2
 Arec is active
-Arec moves:
-
-..KA...
-
-
-Kehrolyn misses
-Arec recovers a Hesitation token
-Kehrolyn loses 1 life (now at 3)
-Kehrolyn moves:
-
-.K.A...
-
-
-Kehrolyn moves:
-
-..KA...
-
-
+Arec hits
+Arec recovers his Hesitation token
+Kehrolyn takes 2 damage (now at 9 life)
+Kehrolyn hits
+Arec takes 5 damage (now at 12 life)
+Arec is stunned
+Arec recovers his Fear token
 
 Beat 10
 -------
 
 Arec
 ----
-Life: 13
-Discard 1: Phantom Dash
-Discard 2: Returning Strike
+Life: 12
+Discard 1: Phantom Hex
+Discard 2: Mirrored Grasp
 Special action available
-pool: Recklessness, Fear, Hesitation
+pool: Mercy, Recklessness, Hesitation, Fear
 
 Kehrolyn
 --------
-Life: 3
-Discard 1: Quicksilver Grasp
-Discard 2: Mutating Overload
+Life: 9
+Discard 1: Bladed Shot
+Discard 2: Exoskeletal Burst
+Special action available
 
 
-..KA...
+..K...A
 
+
+Unbeatable strategy for Arec: Perceptional Burst: 0.41
+Unbeatable strategy for Arec: Perceptional Burst (Mercy): 0.01
+Unbeatable strategy for Arec: Perceptional Burst (Hesitation): 0.65
+Unbeatable strategy for Arec: Returning Burst (Hesitation): 0.19
+Unbeatable strategy for Arec: Manipulative Shot (Hesitation): 1.84
 
 
 Arec:
-25% Perceptional Burst (Recklessness)
-39% Mirrored Drive (Recklessness)
-35% Mirrored Burst (Hesitation)
+22% Perceptional Shot
+10% Manipulative Shot
+68% Manipulative Shot (Hesitation)
 
 Kehrolyn:
-12% Whip Burst
-28% Exoskeletal Shot
-60% Exoskeletal Drive
+20% Quicksilver Drive
+14% Quicksilver Dash
+66% Special Pulse
 
 
-Arec: Mirrored Burst (Hesitation)
-Kehrolyn: Exoskeletal Drive
+Arec: Perceptional Shot
+Kehrolyn: Quicksilver Drive
 
-Arec antes a Hesitation token
-Priorities:  1 | 6
+Priorities:  3 | 6
 Kehrolyn is active
-Arec moves:
+Arec antes a Fear token
+Kehrolyn moves:
 
-..K..A.
+...K..A
 
 
 Kehrolyn misses
 Arec hits
-Kehrolyn has 2 soak
-Kehrolyn takes 2 damage (now at 1 life)
+Arec moves Kehrolyn:
+
+....K.A
+
+
+Kehrolyn takes 3 damage (now at 6 life)
 Kehrolyn is stunned
-Arec places clone:
-
-..K..A.
-c......
-
 
 Beat 11
 -------
 
 Arec
 ----
-Life: 13
-Discard 1: Mirrored Burst
-Discard 2: Phantom Dash
+Life: 12
+Discard 1: Perceptional Shot
+Discard 2: Phantom Hex
 Special action available
-pool: Recklessness, Fear
+pool: Mercy, Recklessness, Hesitation
 
 Kehrolyn
 --------
-Life: 1
-Discard 1: Exoskeletal Drive
-Discard 2: Quicksilver Grasp
+Life: 6
+Discard 1: Quicksilver Drive
+Discard 2: Bladed Shot
+Special action available
+
+
+....K.A
+
+
+
+Arec:
+54% Mirrored Strike
+23% Mirrored Strike (Hesitation)
+3% Mirrored Drive
+20% Mirrored Drive (Recklessness)
+
+Kehrolyn:
+16% Mutating Burst
+12% Whip Overload
+56% Exoskeletal Burst
+16% Exoskeletal Dash
+
+
+Arec: Mirrored Drive (Recklessness)
+Kehrolyn: Exoskeletal Burst
+
+Arec antes a Recklessness token
+Priorities:  4 | 1
+Arec is active
+Kehrolyn moves:
+
+...K..A
+
+
+Arec moves:
+
+...K.A.
+
+
+Arec hits
+Kehrolyn has 2 soak
+Kehrolyn takes 2 damage (now at 4 life)
+Kehrolyn is stunned
+Arec places clone:
+
+...K.A.
+c......
+
+Kehrolyn moves:
+
+..K..A.
+c......
+
+
+Beat 12
+-------
+
+Arec
+----
+Life: 12
+Discard 1: Mirrored Drive
+Discard 2: Perceptional Shot
+Special action available
+pool: Mercy, Hesitation
+
+Kehrolyn
+--------
+Life: 4
+Discard 1: Exoskeletal Burst
+Discard 2: Quicksilver Drive
+Special action available
 
 
 ..K..A.
 c......
 
-Unbeatable strategy for Arec: Perceptional Hex (move to clone): 0.53
-Unbeatable strategy for Arec: Perceptional Hex (Fear; move to clone): 6.00
-Unbeatable strategy for Arec: Returning Hex (Fear; move to clone): 6.00
-Unbeatable strategy for Arec: Returning Strike (Fear; move to clone): 0.29
-Unbeatable strategy for Arec: Returning Shot (Fear; move to clone): 6.00
-Unbeatable strategy for Arec: Returning Drive (Fear; move to clone): 1.05
-Unbeatable strategy for Arec: Manipulative Drive (Fear; move to clone): 0.03
+Unbeatable strategy for Kehrolyn: Bladed Shot: -0.04
 
 
 Arec:
-33% Perceptional Hex (Fear; move to clone)
-33% Returning Hex (Fear; move to clone)
-33% Returning Shot (Fear; move to clone)
+5% Phantom Strike
+95% Phantom Burst (Hesitation)
 
 Kehrolyn:
-4% Mutating Overload
-6% Mutating Strike
-5% Mutating Shot
-2% Mutating Burst
-36% Mutating Dash
-4% Bladed Overload
-4% Bladed Strike
-3% Bladed Shot
-1% Bladed Burst
-7% Bladed Dash
-5% Whip Overload
-5% Whip Strike
-5% Whip Shot
-3% Whip Burst
-10% Whip Dash
+85% Mutating Shot
+15% Bladed Shot
 
 
-Arec: Returning Hex (Fear; move to clone)
-Kehrolyn: Mutating Dash
+Arec: Phantom Burst (Hesitation)
+Kehrolyn: Mutating Shot
 
-Arec moves:
+Arec antes a Hesitation token
+Priorities:  2 | 2
+Clash!
 
-A.K....
+
+Arec: Phantom Hex (Hesitation)
+Kehrolyn: Mutating Strike
+
+Arec antes a Hesitation token
+Priorities:  4 | 3
+Arec is active
+Arec hits
+Arec recovers his Recklessness token
+Kehrolyn takes 2 damage (now at 2 life)
+Kehrolyn misses
+Arec recovers his Fear token
+Kehrolyn loses 1 life (now at 1)
+
+Beat 13
+-------
+
+Arec
+----
+Life: 12
+Discard 1: Phantom Hex
+Discard 2: Mirrored Drive
+Special action available
+pool: Mercy, Recklessness, Fear
+
+Kehrolyn
+--------
+Life: 1
+Discard 1: Mutating Strike
+Discard 2: Exoskeletal Burst
+Special action available
 
 
-Arec antes a Fear token
-Priorities:  4 | 9
+..K..A.
+
+
+Unbeatable strategy for Kehrolyn: Quicksilver Dash: -0.12
+
+
+Arec:
+17% Perceptional Strike
+19% Perceptional Grasp
+28% Returning Burst
+36% Returning Dash
+
+Kehrolyn:
+6% Whip Drive
+5% Quicksilver Shot
+6% Quicksilver Drive
+84% Quicksilver Dash
+
+
+Arec: Perceptional Strike
+Kehrolyn: Quicksilver Dash
+
+Priorities:  4 | 13
 Kehrolyn is active
 Kehrolyn moves:
+
+....KA.
+
+
+Arec misses
+Kehrolyn loses 1 life (now at 1)
+Kehrolyn moves:
+
+...K.A.
+
+
+Kehrolyn moves:
+
+....KA.
+
+
+
+Beat 14
+-------
+
+Arec
+----
+Life: 12
+Discard 1: Perceptional Strike
+Discard 2: Phantom Hex
+Special action available
+pool: Mercy, Recklessness, Fear
+
+Kehrolyn
+--------
+Life: 1
+Discard 1: Quicksilver Dash
+Discard 2: Mutating Strike
+Special action available
+
+
+....KA.
+
+
+Unbeatable strategy for Arec: Returning Drive (Recklessness): 6.00
+Unbeatable strategy for Arec: Mirrored Dash: 0.22
+
+
+Arec:
+4% Returning Drive
+83% Returning Drive (Recklessness)
+1% Returning Burst
+11% Mirrored Burst
+1% Mirrored Grasp
+
+Kehrolyn:
+4% Bladed Drive
+6% Bladed Burst
+3% Bladed Grasp
+2% Whip Grasp
+84% Special Pulse
+
+
+Arec: Returning Drive (Recklessness)
+Kehrolyn: Special Pulse
+
+Arec antes a Recklessness token
+Kehrolyn Pulses:
 
 AK.....
 
 
-Arec hits
-Arec recovers a Hesitation token
-Kehrolyn has 2 soak
-Kehrolyn takes 1 damage (now at 0 life)
+
+Beat 14
+-------
+
+Arec
+----
+Life: 12
+Discard 1: Returning Drive
+Discard 2: Perceptional Strike
+Special action available
+pool: Mercy, Fear
+
+Kehrolyn
+--------
+Life: 1
+Discard 1: Quicksilver Dash
+Discard 2: Mutating Strike
+
+
+AK.....
+
+
+Unbeatable strategy for Arec: Phantom Dash: 0.85
+Unbeatable strategy for Arec: Phantom Dash (Mercy): 0.45
+Unbeatable strategy for Arec: Mirrored Dash: 1.09
+Unbeatable strategy for Arec: Mirrored Dash (Mercy): 0.69
+
+
+Arec:
+15% Phantom Grasp
+4% Phantom Dash
+82% Mirrored Dash
+
+Kehrolyn:
+7% Bladed Grasp
+84% Whip Drive
+10% Whip Grasp
+
+
+Arec: Phantom Grasp
+Kehrolyn: Whip Drive
+
+Priorities:  6 | 6
+Clash!
+
+
+Arec: Phantom Dash
+Kehrolyn: Whip Overload
+
+Priorities:  10 | 5
+Arec is active
+Kehrolyn overloads Bladed
+Arec moves:
+
+.K..A..
+
+
+Kehrolyn misses
+Arec recovers his Hesitation token
+Kehrolyn moves:
+
+..K.A..
+
+
+
+Beat 15
+-------
+
+Arec
+----
+Life: 12
+Discard 1: Phantom Dash
+Discard 2: Returning Drive
+Special action available
+pool: Mercy, Fear, Hesitation
+
+Kehrolyn
+--------
+Life: 1
+Discard 1: Whip Overload
+Discard 2: Quicksilver Dash
+
+
+..K.A..
+
+
+Unbeatable strategy for Arec: Perceptional Grasp: 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Mercy): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Fear): 6.00
+Unbeatable strategy for Arec: Perceptional Grasp (Hesitation): 6.00
+
+
+Arec:
+2% Perceptional Hex
+2% Perceptional Hex (Mercy)
+2% Perceptional Hex (Fear)
+2% Perceptional Hex (Hesitation)
+2% Perceptional Strike
+2% Perceptional Strike (Mercy)
+2% Perceptional Strike (Fear)
+2% Perceptional Strike (Hesitation)
+2% Perceptional Shot
+2% Perceptional Shot (Mercy)
+2% Perceptional Shot (Fear)
+2% Perceptional Shot (Hesitation)
+2% Perceptional Burst
+2% Perceptional Burst (Mercy)
+2% Perceptional Burst (Fear)
+2% Perceptional Burst (Hesitation)
+2% Perceptional Grasp
+2% Perceptional Grasp (Mercy)
+2% Perceptional Grasp (Fear)
+2% Perceptional Grasp (Hesitation)
+2% Mirrored Hex
+2% Mirrored Hex (Mercy)
+2% Mirrored Hex (Fear)
+2% Mirrored Hex (Hesitation)
+2% Mirrored Strike
+2% Mirrored Strike (Mercy)
+2% Mirrored Strike (Fear)
+2% Mirrored Strike (Hesitation)
+2% Mirrored Shot
+2% Mirrored Shot (Mercy)
+2% Mirrored Shot (Fear)
+2% Mirrored Shot (Hesitation)
+2% Mirrored Burst
+2% Mirrored Burst (Mercy)
+2% Mirrored Burst (Fear)
+2% Mirrored Burst (Hesitation)
+2% Mirrored Grasp
+2% Mirrored Grasp (Mercy)
+2% Mirrored Grasp (Fear)
+2% Mirrored Grasp (Hesitation)
+2% Manipulative Hex
+2% Manipulative Hex (Mercy)
+2% Manipulative Hex (Fear)
+2% Manipulative Hex (Hesitation)
+2% Manipulative Strike
+2% Manipulative Strike (Mercy)
+2% Manipulative Strike (Fear)
+2% Manipulative Strike (Hesitation)
+2% Manipulative Shot
+2% Manipulative Shot (Mercy)
+2% Manipulative Shot (Fear)
+2% Manipulative Shot (Hesitation)
+2% Manipulative Burst
+2% Manipulative Burst (Mercy)
+2% Manipulative Burst (Fear)
+2% Manipulative Burst (Hesitation)
+2% Manipulative Grasp
+2% Manipulative Grasp (Mercy)
+2% Manipulative Grasp (Fear)
+2% Manipulative Grasp (Hesitation)
+
+Kehrolyn:
+9% Mutating Strike
+5% Mutating Shot
+6% Mutating Drive
+6% Mutating Burst
+11% Mutating Grasp
+5% Bladed Strike
+10% Bladed Shot
+4% Bladed Drive
+4% Bladed Burst
+7% Bladed Grasp
+5% Exoskeletal Strike
+10% Exoskeletal Shot
+4% Exoskeletal Drive
+4% Exoskeletal Burst
+7% Exoskeletal Grasp
+
+
+Arec: Mirrored Hex
+Kehrolyn: Mutating Strike
+
+Priorities:  3 | 3
+Clash!
+
+
+Arec: Mirrored Strike
+Kehrolyn: Mutating Drive
+
+Priorities:  3 | 4
+Kehrolyn is active
+Kehrolyn moves:
+
+...KA..
+
+
+Kehrolyn hits
+Arec is stunned
+Arec is stunned
+Arec takes 3 damage (now at 9 life)
+Kehrolyn loses 1 life (now at 1)
+Arec places clone:
+
+...KA..
+c......
+
+Game goes to time
 AREC WINS!
-total_time: 88
+total_time: 116
