@@ -1194,16 +1194,25 @@ def karin_jager (logdir="free_for_all"):
         print "%d: %s" %(i, percentify(d/total))
 
 def luc_tokens (logdir="free_for_all"):
-    tokens = [0,0,0,0,0,0]
-    for filename in list_files(logdir, 'luc'):
-        with open (filename) as f:
-            log = [line for line in f]
-        for line in log:
-            if line[2:] == "Time tokens\n":
-                tokens[int(line[0])] += 1
-    for i, count in enumerate(tokens):
-        print i, percentify(count/float(sum(tokens)))
-    print "total:", sum(tokens)
+    beat_counts = [0] * 16
+    beat_tokens = [0] * 16
+    beats = parse_beats('luc', logdir)
+    for beat in beats:
+        beat_counts[beat.number] += 1
+        for line in beat.lines:
+            if (line[1:] == " Time token\n" or 
+                line[1:] == " Time tokens\n"):
+                beat.tokens = int(line[0])
+                beat_tokens[beat.number] += beat.tokens
+                break
+    tokens = Counter([beat.tokens for beat in beats])
+    total = len(beats)
+    for t in sorted(tokens.keys()):
+        print t, percentify(tokens[t]/float(total))
+    print "total:", total
+    print
+    for b in xrange(1,16):
+        print "%d: %.1f" % (b, beat_tokens[b]/float(beat_counts[b]))
 
 def marmelee_counters (logdir="free_for_all"):
     counters = [0,0,0,0,0,0]

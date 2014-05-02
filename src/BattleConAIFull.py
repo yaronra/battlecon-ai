@@ -4407,7 +4407,7 @@ class Cadenza (Character):
     def situation_report (self):
         report = Character.situation_report (self)
         report.append ("%d Iron Body token%s" %(len(self.pool),
-                       '' if len(self.pool)==1 else ''))
+                       '' if len(self.pool)==1 else 's'))
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -5214,7 +5214,7 @@ class Demitras (Character):
     def situation_report (self):
         report = Character.situation_report (self)
         report.append ("%d Crescendo token%s" %(len(self.pool),
-                       '' if len(self.pool)==1 else ''))
+                       '' if len(self.pool)==1 else 's'))
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -5314,7 +5314,7 @@ class Eligor (Character):
     def situation_report (self):
         report = Character.situation_report (self)
         report.append ("%d Vengeance token%s" %(len(self.pool),
-                       '' if len(self.pool)==1 else ''))
+                       '' if len(self.pool)==1 else 's'))
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -6782,7 +6782,7 @@ class Luc (Character):
     def situation_report (self):
         report = Character.situation_report (self)
         report.append ("%d Time token%s" % (len(self.pool),
-                       '' if len(self.pool)==1 else ''))
+                       '' if len(self.pool)==1 else 's'))
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -6844,8 +6844,9 @@ class Luc (Character):
     def unique_ability_end_trigger (self):
         self.recover_tokens (1)
 
+    # Changed on 1/5/14.  Previous logs use 0.3 per token.
     def evaluate (self):
-        return Character.evaluate (self) + 0.3 * len(self.pool)
+        return Character.evaluate (self) + 0.2 * len(self.pool)
 
 class Lymn (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
@@ -7121,7 +7122,7 @@ class Mikhail (Character):
     def situation_report (self):
         report = Character.situation_report (self)
         report.append ("%d Seal token%s" % (len(self.pool),
-                       '' if len(self.pool)==1 else ''))
+                       '' if len(self.pool)==1 else 's'))
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -7457,7 +7458,7 @@ class Rexan (Character):
         report = Character.situation_report (self)
         report.append ("%s has %d Curse token%s" %
                        (self.opponent, len(self.induced_pool),
-                       '' if len(self.induced_pool)==1 else ''))
+                       '' if len(self.induced_pool)==1 else 's'))
         return report
 
     def read_my_state (self, lines, board, addendum):
@@ -8022,7 +8023,7 @@ class Shekhtur (Character):
     def situation_report (self):
         report = Character.situation_report (self)
         report.append ("%d Malice token%s" % (len(self.pool),
-                       '' if len(self.pool)==1 else ''))
+                       '' if len(self.pool)==1 else 's'))
         if self.coffin_nails_hit:
             report.append ("%s has no soak or stunguard (Coffin Nails)" % self.opponent)
         if self.did_hit_last_beat:
@@ -12347,6 +12348,7 @@ class Blight (Style):
     preferred_range = 1
     def start_trigger (self):
         pos_set = self.me.in_standard_range()
+        pos_set.discard(self.opponent.position)
         if pos_set:
             self.me.move_trap (pos_set)
     ordered_start_trigger = True
