@@ -75,10 +75,6 @@ def main():
                       action="store_true", dest="beta",
                       default=False,
                       help="use beta bases in test")
-    parser.add_option("-a", "--ad_hoc",
-                      action="store_true", dest="ad_hoc",
-                      default=False,
-                      help="run ad_hoc")
     parser.add_option("-f", "--from_file",
                       dest="from_file",
                       default='',
@@ -86,18 +82,11 @@ def main():
     options, unused_args = parser.parse_args()
     if options.test:
         test(None, options.beta)
-    elif options.ad_hoc:
-        ad_hoc()
     elif options.from_file:
         play_beat(options.from_file)
     else:
         play()
     
-def ad_hoc():
-#    duel('seth', 'voco', 10)
-    free_for_all(1, ['kehrolyn'], '', [''], True, False)
-#    free_for_all(1, ['voco'], '', ['kehrolyn'], True, True)
-
 playable = [ 'abarene',
              'adjenna',
              'alexian',
