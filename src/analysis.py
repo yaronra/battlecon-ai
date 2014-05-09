@@ -468,7 +468,7 @@ def hitting (name, logdir="free_for_all", printing=True):
             attack_beats = float(rec.stunned + rec.misses + rec.hits)
             opp_attack_beats = float(rec.opp_stunned + rec.opp_misses + rec.opp_hits)
             print "%.2f %s %s %s %s %.1f %.1f | %s %s %s %.1f %.1f" % \
-                  (rec.damage/attack_beats/(rec.opp_damage/opp_attack_beats),
+                  (rec.damage/attack_beats/((rec.opp_damage+0.00001)/opp_attack_beats),
                    rec.name + (' ' * (12-len(rec.name))),
                    percentify(rec.stunned/attack_beats),
                    percentify(rec.misses/attack_beats),
@@ -649,6 +649,7 @@ def game_length (name, logdir="free_for_all"):
     beats = parse_beats(name, logdir)
     games = len([beats[i].number == 1 and beats[i+1].number != 1
                  for i in xrange(len(beats))])
+    print beats, games
     return len(beats) / float(games)
     
 def all_game_lengths(logdir="free_for_all"):
