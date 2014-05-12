@@ -1356,7 +1356,7 @@ class Game:
                 opponent.discard[1].add(opp_strat[0])
                 # Discard base.  If using a finisher, decide which
                 # base it was.
-                if isinstance(s[0], SpecialAction):
+                if isinstance(opp_strat[0], SpecialAction):
                     self.dump(report)
                     base = opponent.choose_finisher_base_retroactively()
                 else:
@@ -1620,21 +1620,24 @@ class Game:
 
     # game value if one player uses given strategy, and other player uses
     # calculated mix
+    # Assumes no pre-attack decisions (so no Tanis)
     def vs_mix (self, name):
         name = name.lower()
-        ii = [i for i in range(len(self.player[0].mix))
-              if self.player[0].get_strategy_name(self.player[0].mix[i][0]).lower() == name]
-        jj = [j for j in range(len(self.player[1].mix))
-              if self.player[1].get_strategy_name(self.player[1].mix[j][0]).lower() == name]
+        mix0 = self.player[0].mix[0][0]
+        mix1 = self.player[1].mix[0][0]
+        ii = [i for i in range(len(mix0))
+              if self.player[0].get_strategy_name(mix0[i][0]).lower() == name]
+        jj = [j for j in range(len(mix1))
+              if self.player[1].get_strategy_name(mix1[j][0]).lower() == name]
         for i in ii:
             value = 0
-            for j in range(len(self.player[1].mix)):
-                value += self.results[i][j] * self.player[1].mix[j][1]
+            for j in range(len(mix1)):
+                value += self.results[0][0][i][j] * mix1[j][1]
             print value
         for j in jj:
             value = 0
-            for i in range(len(self.player[0].mix)):
-                value += self.results[i][j] * self.player[0].mix[i][1]
+            for i in range(len(mix0)):
+                value += self.results[0][0][i][j] * mix0[i][1]
             print value
 
     # for each strategy (of each player), print worst possible case
@@ -1932,7 +1935,8 @@ class Character (object):
         # Figure out where standard portion of report ends,
         # and any character specific data starts.
         next_line_index = 3
-        if find_start(lines, 'Special action available'):
+        if (find_start(lines, 'Special action available') or 
+            find_start(lines, 'special action')):
             self.special_action_available = True
             next_line_index += 1
         else:
@@ -7212,7 +7216,7 @@ class Oriana (Character):
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
-        self.pool = [self.mp] * int(lines[0][0])
+        self.pool = [self.mp] * int(lines[0].split()[0])
 
     def get_antes (self):
         return range (len(self.pool) + 1)

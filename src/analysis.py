@@ -647,9 +647,10 @@ def total_bases(specials=True, player_num=None, beta_bases=False,
 
 def game_length (name, logdir="free_for_all"):
     beats = parse_beats(name, logdir)
-    games = len([beats[i].number == 1 and beats[i+1].number != 1
-                 for i in xrange(len(beats))])
-    print beats, games
+    beats = [beats[i] for i in xrange(len(beats))
+             if i==0 or beats[i-1].number != beats[i].number]
+    games = len([i for i in xrange(len(beats))
+                 if beats[i].number == 1])
     return len(beats) / float(games)
     
 def all_game_lengths(logdir="free_for_all"):
@@ -1358,18 +1359,28 @@ def oriana_meteor (logdir="free_for_all"):
                 print t, percentify(tmp/total)
         
 def oriana_tokens (logdir="free_for_all"):
-    tokens = [0,0,0,0,0,0,0,0,0,0,0]
-    for filename in list_files(logdir, 'oriana'):
-        with open (filename) as f:
-            log = [line for line in f]
-        for line in log:
-            if line[2:] == "Magic Point tokens\n":
-                tokens[int(line[0])] += 1
-            if line[3:] == "Magic Point tokens\n":
-                tokens[int(line[0:2])] += 1
-    for i, count in enumerate(tokens):
-        print i, percentify(count/float(sum(tokens)))
-    print "total:", sum(tokens)
+    beat_counts = [0] * 16
+    beat_tokens = [0] * 16
+    beats = parse_beats('oriana', logdir)
+    for beat in beats:
+        beat_counts[beat.number] += 1
+        for line in beat.lines:
+            if (line[1:] == " Magic Point token\n" or 
+                line[1:] == " Magic Point tokens\n" or
+                line[2:] == " Magic Point token\n" or
+                line[2:] == " Magic Point tokens\n"):
+                beat.tokens = int(line[0])
+                beat_tokens[beat.number] += beat.tokens
+                break
+    tokens = Counter([beat.tokens for beat in beats])
+    total = len(beats)
+    for t in sorted(tokens.keys()):
+        print t, percentify(tokens[t]/float(total))
+    print "total:", total
+    print
+    for b in xrange(1,16):
+        print "%d: %.1f" % (b, beat_tokens[b]/float(beat_counts[b]))
+
 
 def rexan_tokens (logdir="free_for_all"):
     beats = parse_beats('alexian', logdir)
