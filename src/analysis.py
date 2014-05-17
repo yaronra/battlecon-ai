@@ -347,6 +347,8 @@ def strategies (name, logdir="free_for_all", beat=None,
         post_processing_kallistar(beats)
     if name == 'lymn':
         post_processing_lymn(beats)
+    if name == 'magdelina':
+        post_processing_magdelina(beats)
     if name == 'seth':
         post_processing_seth(beats)
     if name == 'tanis':
@@ -1625,7 +1627,12 @@ def post_processing_kallistar(beats):
 def post_processing_lymn(beats):
     for beat in beats:
         lines = beat.lines_starting_with('Disparity is ')
-        beat.ante = '(disparity: %d)' % lines[0].split(' ')[2]
+        beat.ante = '(disparity: %s)' % lines[0][13]
+
+def post_processing_magdelina(beats):
+    for beat in beats:
+        lines = beat.lines_starting_with('Level: ')
+        beat.ante = '(level %s)' % lines[0][7]
 
 def post_processing_seth(beats):
     standard_antes = ['(Strike)','(Shot)','(Dash)',
