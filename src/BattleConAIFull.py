@@ -2825,8 +2825,8 @@ class Character (object):
                                         mover_pos, blocked, direct)
             possible = list (dests & unobstructed)
         if max_move and possible:
-            direction = sum(moves) * (self.opponent.position -
-                                      self.position)
+            direction = sum(moves) * (mover.opponent.position -
+                                      mover.position)
             if direction > 0:
                 possible = [max(possible)]
             else:
@@ -12724,7 +12724,7 @@ class Fusion (Style):
         opp = self.opponent.position
         push_positions = (pos_range(0, opp-1)
                           if opp < self.me.position
-                          else pos_range(opp+1, 6))
+                          else pos_range(opp+1, 7))
         self.me.execute_move(self.opponent, range(-damage, 0),
                              max_move=True)
         # if destination beyond board, and opponent didn't block any
