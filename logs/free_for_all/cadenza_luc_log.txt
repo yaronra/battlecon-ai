@@ -11,51 +11,58 @@ Beat 1
 
 Cadenza
 -------
-life: 20
-discard 1: Hydraulic Burst
-discard 2: Mechanical Press
-special action
+Life: 20
+Discard 1: Hydraulic Burst
+Discard 2: Mechanical Press
+Special action available
 3 Iron Body tokens
 
 Luc
 ---
-life: 20
-discard 1: Eternal Flash
-discard 2: Fusion Strike
-special action
+Life: 20
+Discard 1: Eternal Flash
+Discard 2: Fusion Strike
+Special action available
 2 Time tokens
 
 
 .C...L.
 
+
 Cadenza:
-11% Battery Strike
-40% Battery Shot
-20% Battery Dash
-23% Clockwork Shot
-7% Grapnel Drive
+27% Battery Shot
+12% Battery Dash
+33% Clockwork Shot
+19% Grapnel Strike
+1% Grapnel Drive
+9% Grapnel Grasp
 
 Luc:
-10% Memento Drive
-1% Feinting Drive (1 token)
-12% Feinting Burst
-8% Chrono Drive
-69% Chrono Dash
+38% Memento Dash
+18% Feinting Shot
+6% Feinting Grasp
+9% Chrono Drive
+6% Chrono Drive (1 token)
+22% Chrono Dash
 
 
-Cadenza: Battery Dash
-Luc: Chrono Dash
+Cadenza: Clockwork Shot
+Luc: Memento Dash
 
-Priorities:  8 | 10
+Priorities:  -1 | 8
 Luc is active
+Luc spends a Time token
+Luc spends a Time token
+Luc attacks again
 Luc moves:
 
 .CL....
 
-Cadenza moves:
+Luc moves:
 
-..L..C.
+LC.....
 
+Cadenza misses
 Luc gains 1 Time token
 
 Beat 2
@@ -63,59 +70,59 @@ Beat 2
 
 Cadenza
 -------
-life: 20
-discard 1: Battery Dash
-discard 2: Hydraulic Burst
-special action
+Life: 20
+Discard 1: Clockwork Shot
+Discard 2: Hydraulic Burst
+Special action available
 3 Iron Body tokens
-+4 priority from last beat
 
 Luc
 ---
-life: 20
-discard 1: Chrono Dash
-discard 2: Eternal Flash
-special action
-3 Time tokens
+Life: 20
+Discard 1: Memento Dash
+Discard 2: Eternal Flash
+Special action available
+1 Time token
 
 
-..L..C.
+LC.....
+
 
 Cadenza:
-40% Clockwork Shot
-21% Grapnel Strike
-12% Grapnel Drive
-28% Mechanical Shot
+11% Battery Grasp
+54% Battery Dash
+33% Mechanical Press
+1% Mechanical Drive
 
 Luc:
-8% Fusion Strike (3 tokens)
-7% Fusion Burst (3 tokens)
-31% Feinting Burst
-54% Feinting Burst (3 tokens)
+39% Fusion Strike
+14% Fusion Shot (1 token)
+24% Fusion Drive
+23% Feinting Shot
 
 
-Cadenza: Grapnel Strike
-Luc: Feinting Burst (3 tokens)
+Cadenza: Battery Grasp
+Luc: Fusion Strike
 
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  7 | -1
+Priorities:  4 | 4
+Clash!
+
+
+Cadenza: Battery Dash
+Luc: Fusion Drive
+
+Priorities:  8 | 5
 Cadenza is active
+Cadenza moves:
+
+L...C..
+
 Luc moves:
 
-.L...C.
+..L.C..
 
-Luc moves:
-
-...L.C.
-
-Cadenza misses
 Luc misses
-Luc moves:
-
-....LC.
-
+Cadenza will have 4 priority next beat
 Luc gains 1 Time token
 
 Beat 3
@@ -123,205 +130,46 @@ Beat 3
 
 Cadenza
 -------
-life: 20
-discard 1: Grapnel Strike
-discard 2: Battery Dash
-special action
+Life: 20
+Discard 1: Battery Dash
+Discard 2: Clockwork Shot
+Special action available
+Priority bonus: 4
 3 Iron Body tokens
 
 Luc
 ---
-life: 20
-discard 1: Feinting Burst
-discard 2: Chrono Dash
-special action
-1 Time tokens
-
-
-....LC.
-
-Cadenza:
-36% Clockwork Shot
-27% Clockwork Burst
-18% Clockwork Grasp
-1% Hydraulic Drive
-17% Hydraulic Burst
-
-Luc:
-15% Eternal Flash
-6% Eternal Flash (1 token)
-7% Eternal Strike
-52% Eternal Drive
-15% Memento Flash
-6% Fusion Flash
-
-
-Cadenza: Clockwork Burst
-Luc: Eternal Drive
-
-Priorities:  -2 | 0
-Luc is active
-Cadenza moves:
-
-....L.C
-
-Luc moves:
-
-.....LC
-
-Luc hits
-Cadenza has 3 soak
-Cadenza takes 0 damage (now at 20 life)
-Cadenza misses
-Luc gains 1 Time token
-
-Beat 4
--------
-
-Cadenza
--------
-life: 20
-discard 1: Clockwork Burst
-discard 2: Grapnel Strike
-special action
-3 Iron Body tokens
-
-Luc
----
-life: 20
-discard 1: Eternal Drive
-discard 2: Feinting Burst
-special action
+Life: 20
+Discard 1: Fusion Drive
+Discard 2: Memento Dash
+Special action available
 2 Time tokens
 
 
-.....LC
+..L.C..
+
 
 Cadenza:
-21% Battery Dash
-51% Mechanical Press
-28% Mechanical Shot (Iron Body)
+29% Hydraulic Strike
+24% Hydraulic Drive
+23% Hydraulic Burst
+25% Mechanical Burst
 
 Luc:
-49% Memento Flash
-24% Memento Dash
-27% Fusion Strike
+62% Eternal Shot
+29% Eternal Burst
+3% Feinting Shot
+6% Chrono Burst (1 token)
 
 
-Cadenza: Mechanical Press
-Luc: Memento Flash
+Cadenza: Hydraulic Strike
+Luc: Eternal Shot
 
-Priorities:  -2 | 5
-Luc is active
-Luc hits
-Cadenza takes 1 damage (now at 19 life)
-Cadenza is stunned
-Luc spends a Time token
-Luc spends a Time token
-Luc attacks again
-Luc hits
-Cadenza takes 1 damage (now at 18 life)
-Cadenza is stunned
-Cadenza moves:
-
-..C..L.
-
-Luc gains 1 Time token
-
-Beat 5
--------
-
-Cadenza
--------
-life: 18
-discard 1: Mechanical Press
-discard 2: Clockwork Burst
-special action
-3 Iron Body tokens
-
-Luc
----
-life: 20
-discard 1: Memento Flash
-discard 2: Eternal Drive
-special action
-1 Time tokens
-
-
-..C..L.
-
-Unbeatable strategy for Luc: Feinting Dash: -0.04
-
-Cadenza:
-36% Battery Shot
-30% Battery Drive
-3% Battery Dash
-31% Grapnel Strike
-
-Luc:
-64% Feinting Dash
-18% Chrono Shot
-4% Chrono Shot (1 token)
-14% Chrono Dash
-
-
-Cadenza: Grapnel Strike
-Luc: Feinting Dash
-
-Priorities:  3 | 7
-Luc is active
-Luc moves:
-
-.LC....
-
-Cadenza misses
-Luc moves:
-
-..CL...
-
-Luc gains 1 Time token
-
-Beat 6
--------
-
-Cadenza
--------
-life: 18
-discard 1: Grapnel Strike
-discard 2: Mechanical Press
-special action
-3 Iron Body tokens
-
-Luc
----
-life: 20
-discard 1: Feinting Dash
-discard 2: Memento Flash
-special action
-2 Time tokens
-
-
-..CL...
-
-Cadenza:
-23% Clockwork Shot
-55% Clockwork Drive
-22% Clockwork Burst
-
-Luc:
-52% Eternal Strike
-26% Eternal Drive
-22% Eternal Grasp
-
-
-Cadenza: Clockwork Drive
-Luc: Eternal Strike
-
-Priorities:  1 | -1
+Priorities:  6 | -2
 Cadenza is active
 Cadenza moves:
 
-...LC..
+..LC...
 
 Cadenza hits
 Luc spends a Time token
@@ -329,9 +177,214 @@ Luc spends a Time token
 Luc gains +2 soak (3 total)
 Luc has 3 soak
 Luc takes 3 damage (now at 17 life)
+Luc is stunned
+Luc gains 1 Time token
+
+Beat 4
+-------
+
+Cadenza
+-------
+Life: 20
+Discard 1: Hydraulic Strike
+Discard 2: Battery Dash
+Special action available
+3 Iron Body tokens
+
+Luc
+---
+Life: 17
+Discard 1: Eternal Shot
+Discard 2: Fusion Drive
+Special action available
+1 Time token
+
+
+..LC...
+
+
+Cadenza:
+10% Clockwork Shot
+5% Grapnel Burst
+66% Mechanical Drive
+19% Mechanical Burst
+
+Luc:
+4% Chrono Strike
+7% Chrono Burst
+16% Chrono Burst (1 token)
+74% Chrono Dash
+
+
+Cadenza: Mechanical Drive
+Luc: Chrono Dash
+
+Priorities:  2 | 10
+Luc is active
+Luc moves:
+
+...C..L
+
+Cadenza moves:
+
+....C.L
+
+Cadenza misses
+Luc gains 1 Time token
+
+Beat 5
+-------
+
+Cadenza
+-------
+Life: 20
+Discard 1: Mechanical Drive
+Discard 2: Hydraulic Strike
+Special action available
+3 Iron Body tokens
+
+Luc
+---
+Life: 17
+Discard 1: Chrono Dash
+Discard 2: Eternal Shot
+Special action available
+2 Time tokens
+
+
+....C.L
+
+
+Cadenza:
+8% Battery Burst
+86% Clockwork Shot
+6% Grapnel Burst
+
+Luc:
+6% Memento Drive
+21% Feinting Strike
+73% Special Pulse
+
+
+Cadenza: Clockwork Shot
+Luc: Special Pulse
+
+Luc Pulses:
+
+CL.....
+
+
+Beat 5
+-------
+
+Cadenza
+-------
+Life: 20
+Discard 1: Clockwork Shot
+Discard 2: Mechanical Drive
+Special action available
+3 Iron Body tokens
+
+Luc
+---
+Life: 17
+Discard 1: Chrono Dash
+Discard 2: Eternal Shot
+2 Time tokens
+
+
+CL.....
+
+Unbeatable strategy for Cadenza: Grapnel Dash: 0.72
+
+
+Cadenza:
+43% Battery Dash
+11% Hydraulic Press
+5% Hydraulic Strike
+3% Grapnel Grasp
+38% Grapnel Dash
+
+Luc:
+4% Memento Drive
+14% Memento Burst
+6% Fusion Flash (1 token)
+39% Fusion Drive
+36% Feinting Burst (1 token)
+
+
+Cadenza: Grapnel Dash
+Luc: Fusion Drive
+
+Priorities:  9 | 5
+Cadenza is active
+Cadenza moves:
+
+.LC....
+
+Luc moves:
+
+..CL...
+
+Luc misses
+Luc gains 1 Time token
+
+Beat 6
+-------
+
+Cadenza
+-------
+Life: 20
+Discard 1: Grapnel Dash
+Discard 2: Clockwork Shot
+Special action available
+3 Iron Body tokens
+
+Luc
+---
+Life: 17
+Discard 1: Fusion Drive
+Discard 2: Chrono Dash
+3 Time tokens
+
+
+..CL...
+
+
+Cadenza:
+33% Hydraulic Drive
+48% Mechanical Press
+19% Mechanical Drive
+
+Luc:
+6% Eternal Strike
+72% Eternal Shot
+21% Eternal Burst
+
+
+Cadenza: Hydraulic Drive
+Luc: Eternal Shot
+
+Priorities:  3 | -2
+Cadenza is active
+Cadenza moves:
+
+...LC..
+
+Cadenza moves:
+
+..CL...
+
+Cadenza hits
+Luc spends a Time token
+Luc spends a Time token
+Luc spends a Time token
+Luc gains +3 soak (4 total)
+Luc has 4 soak
+Luc takes 1 damage (now at 16 life)
 Luc hits
-Cadenza has 3 soak
-Cadenza takes 1 damage (now at 17 life)
+Cadenza has 1 soak
+Cadenza takes 2 damage (now at 18 life)
 Cadenza is stunned
 Luc gains 1 Time token
 
@@ -340,59 +393,53 @@ Beat 7
 
 Cadenza
 -------
-life: 17
-discard 1: Clockwork Drive
-discard 2: Grapnel Strike
-special action
+Life: 18
+Discard 1: Hydraulic Drive
+Discard 2: Grapnel Dash
+Special action available
 3 Iron Body tokens
 
 Luc
 ---
-life: 17
-discard 1: Eternal Strike
-discard 2: Feinting Dash
-special action
-1 Time tokens
+Life: 16
+Discard 1: Eternal Shot
+Discard 2: Fusion Drive
+1 Time token
 
 
-...LC..
+..CL...
+
 
 Cadenza:
-13% Battery Press
-10% Hydraulic Press
-51% Hydraulic Shot
-26% Mechanical Burst
+33% Battery Shot
+11% Clockwork Shot
+56% Mechanical Burst
 
 Luc:
-17% Memento Shot
-7% Fusion Drive
-36% Chrono Flash
-39% Chrono Drive
+11% Feinting Burst
+59% Feinting Dash
+30% Chrono Burst
 
 
-Cadenza: Hydraulic Shot
-Luc: Fusion Drive
+Cadenza: Battery Shot
+Luc: Feinting Dash
 
-Priorities:  1 | 5
+Priorities:  1 | 7
 Luc is active
 Luc moves:
 
-....CL.
+..C.L..
 
-Luc hits
-Cadenza has 1 soak
-Cadenza takes 1 damage (now at 16 life)
-Luc moves Cadenza:
+Luc moves:
 
-...C.L.
+L.C....
 
-Cadenza moves:
+Cadenza misses
+Luc moves:
 
-....CL.
+..CL...
 
-Cadenza hits
-Luc takes 5 damage (now at 12 life)
-Luc is stunned
+Cadenza will have 4 priority next beat
 Luc gains 1 Time token
 
 Beat 8
@@ -400,56 +447,62 @@ Beat 8
 
 Cadenza
 -------
-life: 16
-discard 1: Hydraulic Shot
-discard 2: Clockwork Drive
-special action
+Life: 18
+Discard 1: Battery Shot
+Discard 2: Hydraulic Drive
+Special action available
+Priority bonus: 4
 3 Iron Body tokens
 
 Luc
 ---
-life: 12
-discard 1: Fusion Drive
-discard 2: Eternal Strike
-special action
+Life: 16
+Discard 1: Feinting Dash
+Discard 2: Eternal Shot
 2 Time tokens
 
 
-....CL.
+..CL...
+
+Unbeatable strategy for Cadenza: Grapnel Dash: 0.01
+
 
 Cadenza:
-37% Battery Press
-10% Battery Strike
-19% Battery Burst
-26% Battery Dash
-8% Mechanical Dash
+50% Clockwork Press
+27% Clockwork Burst
+4% Grapnel Burst
+19% Mechanical Burst
 
 Luc:
-6% Memento Flash
-7% Memento Shot
-2% Memento Burst
-68% Memento Dash
-17% Feinting Dash
+43% Memento Burst
+0% Fusion Burst (1 token)
+15% Chrono Drive
+41% Chrono Burst (1 token)
 
 
-Cadenza: Battery Strike
-Luc: Memento Flash
+Cadenza: Mechanical Burst
+Luc: Chrono Burst (1 token)
 
-Priorities:  2 | 5
-Luc is active
+Luc antes a Time token
+Priorities:  3 | 3
+Clash!
+
+
+Cadenza: Mechanical Dash
+Luc: Chrono Flash (1 token)
+
+Luc antes a Time token
+Priorities:  11 | 8
+Cadenza is active
 Luc moves:
 
-...LC..
+.LC....
 
-Luc hits
-Cadenza takes 1 damage (now at 15 life)
-Cadenza is stunned
-Luc spends a Time token
-Luc spends a Time token
-Luc attacks again
-Luc hits
-Cadenza takes 1 damage (now at 14 life)
-Cadenza is stunned
+Cadenza moves:
+
+.L...C.
+
+Luc misses
 Luc gains 1 Time token
 
 Beat 9
@@ -457,56 +510,60 @@ Beat 9
 
 Cadenza
 -------
-life: 14
-discard 1: Battery Strike
-discard 2: Hydraulic Shot
-special action
+Life: 18
+Discard 1: Mechanical Dash
+Discard 2: Battery Shot
+Special action available
 3 Iron Body tokens
-+4 priority from last beat
 
 Luc
 ---
-life: 12
-discard 1: Memento Flash
-discard 2: Fusion Drive
-special action
-1 Time tokens
+Life: 16
+Discard 1: Chrono Flash
+Discard 2: Feinting Dash
+2 Time tokens
 
 
-...LC..
+.L...C.
 
-Unbeatable strategy for Cadenza: Grapnel Dash: 0.10
 
 Cadenza:
-5% Clockwork Dash
-29% Grapnel Burst
-26% Mechanical Drive
-32% Mechanical Burst
-9% Mechanical Grasp
+0% Clockwork Drive
+10% Hydraulic Drive
+14% Grapnel Strike
+38% Grapnel Burst
+38% Grapnel Grasp
 
 Luc:
-5% Feinting Burst
-27% Feinting Dash
-36% Feinting Dash (1 token)
-4% Chrono Burst
-29% Chrono Dash
+38% Eternal Shot
+5% Eternal Burst
+47% Eternal Grasp
+8% Memento Drive
+3% Fusion Drive (1 token)
 
 
-Cadenza: Mechanical Grasp
-Luc: Feinting Dash (1 token)
+Cadenza: Grapnel Burst
+Luc: Eternal Grasp
 
-Luc antes a Time token
-Priorities:  7 | 8
-Luc is active
-Luc moves:
+Priorities:  1 | 1
+Clash!
 
-..L.C..
 
-Cadenza misses
-Luc moves:
+Cadenza: Grapnel Grasp
+Luc: Eternal Shot
 
-....CL.
+Priorities:  5 | -2
+Cadenza is active
+Cadenza hits
+Cadenza moves Luc:
 
+L....C.
+
+Luc spends a Time token
+Luc gains +1 soak (2 total)
+Luc has 2 soak
+Luc takes 0 damage (now at 16 life)
+Luc misses
 Luc gains 1 Time token
 
 Beat 10
@@ -514,89 +571,48 @@ Beat 10
 
 Cadenza
 -------
-life: 14
-discard 1: Mechanical Grasp
-discard 2: Battery Strike
-special action
+Life: 18
+Discard 1: Grapnel Grasp
+Discard 2: Mechanical Dash
+Special action available
 3 Iron Body tokens
 
 Luc
 ---
-life: 12
-discard 1: Feinting Dash
-discard 2: Memento Flash
-special action
-1 Time tokens
+Life: 16
+Discard 1: Eternal Shot
+Discard 2: Chrono Flash
+2 Time tokens
 
 
-....CL.
+L....C.
+
 
 Cadenza:
-81% Clockwork Shot
-19% Clockwork Burst
+88% Battery Burst
+12% Hydraulic Shot
 
 Luc:
-64% Eternal Strike
-36% Eternal Drive
+34% Memento Burst
+66% Feinting Strike
 
 
-Cadenza: Clockwork Shot
-Luc: Eternal Strike
+Cadenza: Battery Burst
+Luc: Feinting Strike
 
-Priorities:  -1 | -1
-Clash!
-
-Cadenza:
-70% Clockwork Drive
-30% Clockwork Burst
-
-Luc:
-49% Eternal Drive
-51% Eternal Grasp
-
-
-Cadenza: Clockwork Drive
-Luc: Eternal Grasp
-
-Priorities:  1 | 1
-Clash!
-
-Cadenza:
-75% Clockwork Press
-25% Clockwork Burst
-
-Luc:
-70% Eternal Drive
-30% Eternal Burst
-
-
-Cadenza: Clockwork Press
-Luc: Eternal Burst
-
-Priorities:  -3 | -3
-Clash!
-
-Cadenza:
-100% Clockwork Dash
-
-Luc:
-100% Eternal Drive
-
-
-Cadenza: Clockwork Dash
-Luc: Eternal Drive
-
-Priorities:  6 | 0
-Cadenza is active
+Priorities:  0 | 1
+Luc is active
 Cadenza moves:
 
-.C...L.
-
-Luc moves:
-
-.C.L...
+L.....C
 
 Luc misses
+Cadenza misses
+Luc moves:
+
+..L...C
+
+Cadenza will have 4 priority next beat
 Luc gains 1 Time token
 
 Beat 11
@@ -604,59 +620,47 @@ Beat 11
 
 Cadenza
 -------
-life: 14
-discard 1: Clockwork Dash
-discard 2: Mechanical Grasp
-special action
+Life: 18
+Discard 1: Battery Burst
+Discard 2: Grapnel Grasp
+Special action available
+Priority bonus: 4
 3 Iron Body tokens
 
 Luc
 ---
-life: 12
-discard 1: Eternal Drive
-discard 2: Feinting Dash
-special action
-2 Time tokens
+Life: 16
+Discard 1: Feinting Strike
+Discard 2: Eternal Shot
+3 Time tokens
 
 
-.C.L...
+..L...C
+
 
 Cadenza:
-10% Battery Drive
-25% Battery Burst
-1% Hydraulic Press
-12% Hydraulic Strike
-26% Hydraulic Shot
-11% Hydraulic Drive
-15% Hydraulic Drive (Iron Body)
+31% Clockwork Shot
+3% Mechanical Press
+66% Mechanical Shot
 
 Luc:
-24% Memento Shot
-9% Memento Burst
-6% Fusion Shot (1 token)
-27% Chrono Flash
-4% Chrono Strike
-19% Chrono Shot
-11% Chrono Burst (1 token)
+23% Memento Grasp (3 tokens)
+59% Fusion Burst (1 token)
+18% Chrono Burst (1 token)
 
 
-Cadenza: Hydraulic Drive (Iron Body)
-Luc: Memento Shot
+Cadenza: Mechanical Shot
+Luc: Fusion Burst (1 token)
 
-Cadenza antes an Iron Body token
-Priorities:  3 | 1
+Luc antes a Time token
+Priorities:  4 | 3
 Cadenza is active
-Cadenza moves:
+Luc moves:
 
-..CL...
+L.....C
 
-Cadenza moves:
-
-...LC..
-
-Cadenza hits
-Luc takes 5 damage (now at 7 life)
-Luc is stunned
+Cadenza misses
+Luc misses
 Luc gains 1 Time token
 
 Beat 12
@@ -664,50 +668,76 @@ Beat 12
 
 Cadenza
 -------
-life: 14
-discard 1: Hydraulic Drive
-discard 2: Clockwork Dash
-special action
-2 Iron Body tokens
+Life: 18
+Discard 1: Mechanical Shot
+Discard 2: Battery Burst
+Special action available
+3 Iron Body tokens
 
 Luc
 ---
-life: 7
-discard 1: Memento Shot
-discard 2: Eternal Drive
-special action
+Life: 16
+Discard 1: Fusion Burst
+Discard 2: Feinting Strike
 3 Time tokens
 
 
-...LC..
+L.....C
+
+Unbeatable strategy for Luc: Eternal Flash: -0.45
+Unbeatable strategy for Luc: Eternal Flash (1 token): -0.33
+Unbeatable strategy for Luc: Eternal Shot: -0.31
+Unbeatable strategy for Luc: Eternal Shot (1 token): -0.11
+Unbeatable strategy for Luc: Eternal Shot (3 tokens): -0.47
+Unbeatable strategy for Luc: Eternal Drive: -1.13
+Unbeatable strategy for Luc: Eternal Drive (1 token): -0.93
+Unbeatable strategy for Luc: Eternal Grasp: -1.11
+Unbeatable strategy for Luc: Eternal Grasp (1 token): -0.91
+Unbeatable strategy for Luc: Eternal Dash: -0.49
+Unbeatable strategy for Luc: Eternal Dash (3 tokens): -0.26
+Unbeatable strategy for Luc: Memento Drive (1 token): -0.85
+Unbeatable strategy for Luc: Memento Grasp: -0.65
+Unbeatable strategy for Luc: Memento Grasp (3 tokens): -0.05
+Unbeatable strategy for Luc: Memento Dash: -0.86
+Unbeatable strategy for Luc: Memento Dash (1 token): -0.66
+Unbeatable strategy for Luc: Memento Dash (3 tokens): -0.26
+Unbeatable strategy for Luc: Chrono Flash: -0.73
+Unbeatable strategy for Luc: Chrono Drive: -1.53
+Unbeatable strategy for Luc: Chrono Drive (1 token): -0.83
+Unbeatable strategy for Luc: Chrono Drive (3 tokens): -0.83
+Unbeatable strategy for Luc: Chrono Grasp: -0.50
+Unbeatable strategy for Luc: Chrono Dash: -0.90
+Unbeatable strategy for Luc: Chrono Dash (1 token): -0.70
+Unbeatable strategy for Luc: Chrono Dash (3 tokens): -0.30
+
 
 Cadenza:
-11% Battery Press
-12% Battery Shot
-78% Mechanical Burst
+79% Clockwork Press
+13% Hydraulic Drive
+1% Grapnel Press
+7% Grapnel Grasp
 
 Luc:
-30% Feinting Burst (1 token)
-47% Chrono Burst
-23% Special Temporal Recursion
+1% Eternal Drive (3 tokens)
+13% Eternal Dash
+30% Chrono Drive
+56% Chrono Grasp
 
 
-Cadenza: Battery Shot
-Luc: Chrono Burst
+Cadenza: Clockwork Press
+Luc: Chrono Grasp
 
-Priorities:  1 | 2
+Priorities:  -3 | 6
 Luc is active
+Luc spends a Time token
+Luc spends a Time token
+Luc spends a Time token
 Luc moves:
 
-..L.C..
+...L..C
 
-Luc hits
-Cadenza takes 3 damage (now at 11 life)
-Cadenza spends an Iron Body token
-Cadenza gains infinite stunguard
-Cadenza hits
-Luc takes 4 damage (now at 3 life)
-Luc is stunned
+Luc misses
+Cadenza misses
 Luc gains 1 Time token
 
 Beat 13
@@ -715,55 +745,61 @@ Beat 13
 
 Cadenza
 -------
-life: 11
-discard 1: Battery Shot
-discard 2: Hydraulic Drive
-special action
-1 Iron Body tokens
-+4 priority from last beat
+Life: 18
+Discard 1: Clockwork Press
+Discard 2: Mechanical Shot
+Special action available
+3 Iron Body tokens
 
 Luc
 ---
-life: 3
-discard 1: Chrono Burst
-discard 2: Memento Shot
-special action
-4 Time tokens
+Life: 16
+Discard 1: Chrono Grasp
+Discard 2: Fusion Burst
+1 Time token
 
 
-..L.C..
+...L..C
+
 
 Cadenza:
-9% Clockwork Press
-22% Clockwork Burst
-70% Mechanical Burst
+19% Battery Drive
+12% Battery Burst
+2% Hydraulic Strike
+40% Hydraulic Drive
+28% Grapnel Grasp
 
 Luc:
-34% Eternal Drive
-30% Eternal Dash
-12% Fusion Drive (3 tokens)
-7% Fusion Dash
-18% Feinting Dash
+13% Eternal Flash (1 token)
+24% Eternal Shot
+21% Memento Drive
+6% Feinting Drive (1 token)
+36% Feinting Dash
 
 
-Cadenza: Clockwork Burst
-Luc: Eternal Drive
+Cadenza: Battery Drive
+Luc: Feinting Dash
 
-Priorities:  2 | 0
-Cadenza is active
+Priorities:  3 | 7
+Luc is active
+Luc moves:
+
+..L...C
+
+Luc moves:
+
+.L....C
+
 Cadenza moves:
 
-..L..C.
+.L...C.
 
-Cadenza hits
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +4 soak (5 total)
-Luc has 5 soak
-Luc takes 1 damage (now at 2 life)
-Luc is stunned
+Cadenza misses
+Luc moves:
+
+...L.C.
+
+Cadenza will have 4 priority next beat
 Luc gains 1 Time token
 
 Beat 14
@@ -771,202 +807,159 @@ Beat 14
 
 Cadenza
 -------
-life: 11
-discard 1: Clockwork Burst
-discard 2: Battery Shot
-special action
-1 Iron Body tokens
+Life: 18
+Discard 1: Battery Drive
+Discard 2: Clockwork Press
+Special action available
+Priority bonus: 4
+3 Iron Body tokens
 
 Luc
 ---
-life: 2
-discard 1: Eternal Drive
-discard 2: Chrono Burst
-special action
-1 Time tokens
+Life: 16
+Discard 1: Feinting Dash
+Discard 2: Chrono Grasp
+2 Time tokens
+
+
+...L.C.
+
+Unbeatable strategy for Cadenza: Grapnel Dash: 0.01
+
+
+Cadenza:
+46% Hydraulic Strike
+54% Mechanical Shot
+
+Luc:
+63% Eternal Shot
+37% Eternal Burst
+
+
+Cadenza: Mechanical Shot
+Luc: Eternal Burst
+
+Priorities:  4 | -3
+Cadenza is active
+Luc moves:
+
+..L..C.
+
+Cadenza hits
+Luc spends a Time token
+Luc spends a Time token
+Luc gains +2 soak (3 total)
+Luc has 3 soak
+Luc takes 2 damage (now at 14 life)
+Luc is stunned
+Luc gains 1 Time token
+
+Beat 15
+-------
+
+Cadenza
+-------
+Life: 18
+Discard 1: Mechanical Shot
+Discard 2: Battery Drive
+Special action available
+3 Iron Body tokens
+
+Luc
+---
+Life: 14
+Discard 1: Eternal Burst
+Discard 2: Feinting Dash
+1 Time token
 
 
 ..L..C.
 
-Unbeatable strategy for Luc: Feinting Dash: -0.02
+Unbeatable strategy for Cadenza: Clockwork Press: 19.00
+Unbeatable strategy for Cadenza: Clockwork Press (Iron Body): 19.00
+Unbeatable strategy for Cadenza: Clockwork Strike: 19.00
+Unbeatable strategy for Cadenza: Clockwork Strike (Iron Body): 19.00
+Unbeatable strategy for Cadenza: Clockwork Burst: 19.00
+Unbeatable strategy for Cadenza: Clockwork Burst (Iron Body): 19.00
+Unbeatable strategy for Cadenza: Hydraulic Press: 19.00
+Unbeatable strategy for Cadenza: Hydraulic Press (Iron Body): 19.00
+Unbeatable strategy for Cadenza: Hydraulic Burst: 19.00
+Unbeatable strategy for Cadenza: Hydraulic Burst (Iron Body): 19.00
+Unbeatable strategy for Cadenza: Grapnel Dash: 19.00
+Unbeatable strategy for Cadenza: Grapnel Dash (Iron Body): 19.00
+
 
 Cadenza:
-63% Grapnel Drive
-32% Grapnel Grasp
-5% Mechanical Drive (Iron Body)
+4% Clockwork Press
+4% Clockwork Press (Iron Body)
+4% Clockwork Strike
+4% Clockwork Strike (Iron Body)
+4% Clockwork Burst
+4% Clockwork Burst (Iron Body)
+4% Clockwork Grasp
+4% Clockwork Grasp (Iron Body)
+4% Clockwork Dash
+4% Clockwork Dash (Iron Body)
+4% Hydraulic Press
+4% Hydraulic Press (Iron Body)
+4% Hydraulic Strike
+4% Hydraulic Strike (Iron Body)
+4% Hydraulic Burst
+4% Hydraulic Burst (Iron Body)
+4% Hydraulic Grasp
+4% Hydraulic Grasp (Iron Body)
+4% Hydraulic Dash
+4% Hydraulic Dash (Iron Body)
+4% Grapnel Burst
+4% Grapnel Burst (Iron Body)
+4% Grapnel Dash
+4% Grapnel Dash (Iron Body)
 
 Luc:
-4% Memento Dash
-68% Fusion Dash
-11% Feinting Flash
-17% Feinting Flash (1 token)
-
-
-Cadenza: Grapnel Drive
-Luc: Fusion Dash
-
-Priorities:  4 | 10
-Luc is active
-Luc moves:
-
-...L.C.
-
-Cadenza moves:
-
-..CL...
-
-Cadenza misses
-Luc gains 1 Time token
-
-Beat 15
--------
-
-Cadenza
--------
-life: 11
-discard 1: Grapnel Drive
-discard 2: Clockwork Burst
-special action
-1 Iron Body tokens
-
-Luc
----
-life: 2
-discard 1: Fusion Dash
-discard 2: Eternal Drive
-special action
-2 Time tokens
-
-
-..CL...
-
-Unbeatable strategy for Cadenza: Mechanical Press: 7.00
-Unbeatable strategy for Cadenza: Mechanical Press (Iron Body): 7.00
-
-Cadenza:
-50% Mechanical Strike
-50% Mechanical Grasp
-
-Luc:
-100% Special Pulse
-
-
-Cadenza: Mechanical Grasp
-Luc: Special Pulse
-
-Pulse:
-
-.C....L
-
-
-Beat 15
--------
-
-Cadenza
--------
-life: 11
-discard 1: Mechanical Grasp
-discard 2: Grapnel Drive
-special action
-1 Iron Body tokens
-
-Luc
----
-life: 2
-discard 1: Fusion Dash
-discard 2: Eternal Drive
-2 Time tokens
-
-
-.C....L
-
-Unbeatable strategy for Cadenza: Clockwork Press: 7.00
-Unbeatable strategy for Cadenza: Clockwork Press (Iron Body): 7.00
-Unbeatable strategy for Cadenza: Clockwork Burst: 7.00
-Unbeatable strategy for Cadenza: Clockwork Burst (Iron Body): 7.00
-
-Cadenza:
-3% Battery Press
-3% Battery Press (Iron Body)
-3% Battery Strike
-3% Battery Strike (Iron Body)
-3% Battery Shot
-3% Battery Shot (Iron Body)
-3% Battery Burst
-3% Battery Burst (Iron Body)
-3% Battery Dash
-3% Battery Dash (Iron Body)
-3% Clockwork Press
-3% Clockwork Press (Iron Body)
-3% Clockwork Strike
-3% Clockwork Strike (Iron Body)
-3% Clockwork Shot
-3% Clockwork Shot (Iron Body)
-3% Clockwork Burst
-3% Clockwork Burst (Iron Body)
-3% Clockwork Dash
-3% Clockwork Dash (Iron Body)
-3% Hydraulic Press
-3% Hydraulic Press (Iron Body)
-3% Hydraulic Strike
-3% Hydraulic Strike (Iron Body)
-3% Hydraulic Shot
-3% Hydraulic Shot (Iron Body)
-3% Hydraulic Burst
-3% Hydraulic Burst (Iron Body)
-3% Hydraulic Dash
-3% Hydraulic Dash (Iron Body)
-
-Luc:
-4% Memento Flash
+3% Memento Flash
 3% Memento Flash (1 token)
-4% Memento Strike
-4% Memento Strike (1 token)
+3% Memento Strike
+3% Memento Strike (1 token)
 3% Memento Shot
-2% Memento Shot (1 token)
-3% Memento Burst
-3% Memento Burst (1 token)
-5% Memento Grasp
-4% Memento Grasp (1 token)
-4% Feinting Flash
-4% Feinting Flash (1 token)
-4% Feinting Strike
-3% Feinting Strike (1 token)
-3% Feinting Shot
-2% Feinting Shot (1 token)
-3% Feinting Burst
-2% Feinting Burst (1 token)
-5% Feinting Grasp
-4% Feinting Grasp (1 token)
-4% Chrono Flash
+3% Memento Shot (1 token)
+3% Memento Drive
+3% Memento Drive (1 token)
+3% Memento Grasp
+3% Memento Grasp (1 token)
+3% Fusion Flash
+3% Fusion Flash (1 token)
+3% Fusion Strike
+3% Fusion Strike (1 token)
+3% Fusion Shot
+3% Fusion Shot (1 token)
+4% Fusion Drive
+8% Fusion Drive (1 token)
+3% Fusion Grasp
+3% Fusion Grasp (1 token)
+3% Chrono Flash
 3% Chrono Flash (1 token)
-4% Chrono Strike
-4% Chrono Strike (1 token)
+3% Chrono Strike
+3% Chrono Strike (1 token)
 3% Chrono Shot
-1% Chrono Shot (1 token)
-3% Chrono Burst
-2% Chrono Burst (1 token)
-4% Chrono Grasp
-4% Chrono Grasp (1 token)
+3% Chrono Shot (1 token)
+3% Chrono Drive
+3% Chrono Drive (1 token)
+3% Chrono Grasp
+3% Chrono Grasp (1 token)
 
 
-Cadenza: Hydraulic Strike (Iron Body)
-Luc: Feinting Strike
+Cadenza: Hydraulic Grasp
+Luc: Memento Strike
 
-Cadenza antes an Iron Body token
-Priorities:  2 | 1
+Priorities:  4 | 2
 Cadenza is active
 Cadenza moves:
 
-..C...L
+..L.C..
 
 Cadenza misses
 Luc misses
-Luc moves:
-
-..C.L..
-
 Luc gains 1 Time token
 Game goes to time
 CADENZA WINS!
-total_time: 40
+total_time: 52

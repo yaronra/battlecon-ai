@@ -29,40 +29,46 @@ Special action available
 
 
 Cesar:
-7% Bulwark Suppression
-9% Bulwark Shot
-2% Bulwark Drive
-4% Bulwark Burst
-76% Bulwark Dash
-2% Inevitable Burst
+27% Bulwark Suppression
+32% Bulwark Shot
+9% Bulwark Drive
+26% Bulwark Dash
+6% Inevitable Dash
 
 Seth:
-16% Mimic's Omen (Dash)
-1% Mimic's Shot (Shot)
-10% Vanishing Omen (Dash)
-30% Vanishing Shot (Shot)
-23% Vanishing Drive (Shot)
-20% Vanishing Drive (Drive)
+5% Mimic's Shot (Shot)
+23% Mimic's Shot (Drive)
+35% Vanishing Shot (Shot)
+38% Vanishing Drive (Suppression)
 
 
-Cesar: Bulwark Dash
-Seth: Mimic's Omen (Dash)
+Cesar: Bulwark Shot
+Seth: Vanishing Shot (Shot)
 
 Cesar gains a Threat Level (current level: 1)
 Seth gets +2 power
 Seth gets +2 priority
-Priorities:  7 | 3
-Cesar is active
-Cesar is stunned
-Seth misses
+Priorities:  0 | 4
+Seth is active
+Seth moves:
+
+.C....S
+
+Seth hits
+Cesar takes 5 damage (now at 15 life)
+Cesar misses
+Cesar moves:
+
+....C.S
+
 
 Beat 2
 -------
 
 Cesar
 -----
-Life: 20
-Discard 1: Bulwark Dash
+Life: 15
+Discard 1: Bulwark Shot
 Discard 2: Fueled Strike
 Special action available
 Threat level: 1
@@ -70,66 +76,50 @@ Threat level: 1
 Seth
 ----
 Life: 20
-Discard 1: Mimic's Omen
+Discard 1: Vanishing Shot
 Discard 2: Fool's Grasp
 Special action available
 
 
-.C...S.
+....C.S
+
+Unbeatable strategy for Seth: Mimic's Drive (Suppression): -5.76
+Unbeatable strategy for Seth: Mimic's Drive (Drive): -1.36
+Unbeatable strategy for Seth: Mimic's Drive (Burst): -1.36
+Unbeatable strategy for Seth: Mimic's Drive (Grasp): -1.36
+Unbeatable strategy for Seth: Mimic's Drive (Dash): -1.36
+Unbeatable strategy for Seth: Wyrding Dash (Suppression): -0.55
+Unbeatable strategy for Seth: Compelling Strike (Drive): -1.96
+Unbeatable strategy for Seth: Compelling Drive (Drive): -0.68
 
 
 Cesar:
-10% Phalanx Suppression
-29% Phalanx Shot
-13% Phalanx Drive
-25% Unstoppable Suppression
-3% Unstoppable Drive
-21% Inevitable Shot
+23% Phalanx Grasp
+35% Inevitable Suppression
+43% Inevitable Drive
 
 Seth:
-6% Vanishing Strike (Suppression)
-6% Vanishing Strike (Shot)
-6% Vanishing Strike (Drive)
-6% Vanishing Strike (Burst)
-6% Vanishing Strike (Grasp)
-17% Vanishing Shot (Shot)
-2% Vanishing Burst (Suppression)
-10% Vanishing Burst (Shot)
-1% Vanishing Burst (Burst)
-2% Vanishing Burst (Grasp)
-9% Compelling Drive (Suppression)
-25% Compelling Drive (Shot)
-6% Compelling Drive (Drive)
+48% Mimic's Drive (Suppression)
+37% Mimic's Drive (Drive)
+15% Compelling Strike (Drive)
 
 
-Cesar: Phalanx Shot
-Seth: Compelling Drive (Shot)
+Cesar: Inevitable Suppression
+Seth: Mimic's Drive (Drive)
 
 Cesar gains a Threat Level (current level: 2)
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  0 | 6
+Priorities:  2 | 4
 Seth is active
-Seth moves Cesar:
-
-..C..S.
-
 Seth moves:
 
-..CS...
+....CS.
 
 Seth hits
-Cesar takes 5 damage (now at 15 life)
-Seth moves Cesar:
-
-.C.S...
-
-Cesar moves:
-
-..CS...
-
+Cesar takes 4 damage (now at 11 life)
 Cesar hits
-Seth takes 5 damage (now at 15 life)
+Seth is stunned
+Seth will have -3 priority next beat
+Seth takes 4 damage (now at 16 life)
 Seth is stunned
 
 Beat 3
@@ -137,952 +127,523 @@ Beat 3
 
 Cesar
 -----
-Life: 15
-Discard 1: Phalanx Shot
-Discard 2: Bulwark Dash
+Life: 11
+Discard 1: Inevitable Suppression
+Discard 2: Bulwark Shot
 Special action available
+Opponent has power penalty: -3
 Threat level: 2
 
 Seth
 ----
-Life: 15
-Discard 1: Compelling Drive
-Discard 2: Mimic's Omen
+Life: 16
+Discard 1: Mimic's Drive
+Discard 2: Vanishing Shot
 Special action available
 
 
-..CS...
+....CS.
 
 
 Cesar:
-13% Unstoppable Drive
-9% Unstoppable Burst
-15% Fueled Suppression
-10% Fueled Strike
-13% Fueled Drive
-17% Fueled Burst
-15% Fueled Grasp
-7% Inevitable Drive
-1% Inevitable Burst
+4% Phalanx Drive
+4% Unstoppable Strike
+9% Unstoppable Drive
+14% Fueled Strike
+4% Fueled Drive
+44% Fueled Burst
+20% Fueled Grasp
 
 Seth:
-28% Fool's Strike (Suppression)
-1% Fool's Strike (Grasp)
-8% Vanishing Shot (Burst)
-25% Vanishing Burst (Burst)
-4% Wyrding Strike (Grasp)
-13% Wyrding Burst (Strike)
-2% Wyrding Burst (Drive)
-8% Wyrding Burst (Grasp)
-12% Wyrding Dash (Suppression)
+0% Fool's Strike (Grasp)
+15% Wyrding Omen (Strike)
+1% Wyrding Omen (Grasp)
+23% Compelling Strike (Drive)
+13% Compelling Strike (Grasp)
+26% Compelling Burst (Burst)
+4% Compelling Dash (Strike)
+4% Compelling Dash (Drive)
+4% Compelling Dash (Burst)
+4% Compelling Dash (Grasp)
+4% Compelling Dash (Dash)
 
 
-Cesar: Fueled Drive
-Seth: Wyrding Burst (Strike)
+Cesar: Unstoppable Drive
+Seth: Compelling Burst (Burst)
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  3 | 2
+Priorities:  2 | 1
 Cesar is active
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
 Seth moves:
 
-..C..S.
+....C.S
 
-Seth hits
-Cesar has 2 soak
-Cesar takes 1 damage (now at 14 life)
-Cesar is stunned
+Cesar moves:
+
+.....CS
+
+Cesar hits
+Seth takes 6 damage (now at 10 life)
+Seth is stunned
 
 Beat 4
 -------
 
 Cesar
 -----
-Life: 14
-Discard 1: Fueled Drive
-Discard 2: Phalanx Shot
+Life: 11
+Discard 1: Unstoppable Drive
+Discard 2: Inevitable Suppression
 Special action available
-Threat level: 4
+Threat level: 3
 
 Seth
 ----
-Life: 15
-Discard 1: Wyrding Burst
-Discard 2: Compelling Drive
+Life: 10
+Discard 1: Compelling Burst
+Discard 2: Mimic's Drive
 Special action available
 
 
-..C..S.
+.....CS
 
-Unbeatable strategy for Cesar: Unstoppable Suppression: 1.75
-Unbeatable strategy for Cesar: Bulwark Suppression: 1.75
-Unbeatable strategy for Cesar: Bulwark Dash: 0.23
+Unbeatable strategy for Cesar: Phalanx Shot: 1.56
+Unbeatable strategy for Cesar: Phalanx Dash: 1.35
+Unbeatable strategy for Cesar: Fueled Burst: 1.18
+Unbeatable strategy for Cesar: Fueled Dash: 1.52
+Unbeatable strategy for Cesar: Bulwark Shot: 1.37
+Unbeatable strategy for Cesar: Bulwark Dash: 1.12
 
 
 Cesar:
-93% Bulwark Suppression
-1% Bulwark Burst
-5% Bulwark Dash
+6% Phalanx Grasp
+28% Fueled Strike
+27% Fueled Shot
+28% Fueled Burst
+12% Fueled Grasp
 
 Seth:
-66% Mimic's Omen (Suppression)
-1% Mimic's Omen (Dash)
-33% Mimic's Shot (Burst)
+2% Wyrding Strike (Strike)
+16% Wyrding Strike (Shot)
+32% Wyrding Strike (Grasp)
+1% Wyrding Shot (Strike)
+48% Wyrding Shot (Burst)
 
 
-Cesar: Bulwark Suppression
-Seth: Mimic's Shot (Burst)
+Cesar: Fueled Grasp
+Seth: Wyrding Shot (Burst)
 
+Cesar gains a Threat Level (current level: 4)
+Cesar is stunned
+Priorities:  4 | 3
+Cesar is active
 Cesar gains a Threat Level (current level: 0)
-Priorities:  0 | 2
-Seth is active
-Seth misses
-Cesar misses
-Cesar moves:
-
-C....S.
-
-Cesar moves:
-
-...S...
-
+Seth hits
+Cesar has 2 soak
+Cesar takes 1 damage (now at 10 life)
+Cesar is stunned
 
 Beat 5
 -------
 
 Cesar
 -----
-Life: 14
-Discard 1: Bulwark Suppression
-Discard 2: Fueled Drive
+Life: 10
+Discard 1: Fueled Grasp
+Discard 2: Unstoppable Drive
 Special action available
 Threat level: 0
 
 Seth
 ----
-Life: 15
-Discard 1: Mimic's Shot
-Discard 2: Wyrding Burst
+Life: 10
+Discard 1: Wyrding Shot
+Discard 2: Compelling Burst
 Special action available
 
 
-...C..S
-
-Unbeatable strategy for Seth: Compelling Omen (Shot): -0.02
-Unbeatable strategy for Seth: Compelling Drive (Shot): -1.21
-Unbeatable strategy for Seth: Compelling Dash (Strike): -0.79
-Unbeatable strategy for Seth: Compelling Dash (Shot): -0.79
-Unbeatable strategy for Seth: Compelling Dash (Burst): -0.79
-Unbeatable strategy for Seth: Compelling Dash (Grasp): -0.79
-Unbeatable strategy for Seth: Compelling Dash (Dash): -0.79
+.....CS
 
 
 Cesar:
-73% Phalanx Strike
-27% Phalanx Burst
+51% Phalanx Strike
+20% Inevitable Suppression
+13% Inevitable Strike
+17% Inevitable Shot
 
 Seth:
-3% Fool's Drive (Shot)
-0% Fool's Drive (Burst)
-0% Fool's Drive (Grasp)
-0% Fool's Drive (Dash)
-2% Compelling Drive (Strike)
-87% Compelling Drive (Shot)
-2% Compelling Drive (Burst)
-2% Compelling Drive (Grasp)
-2% Compelling Drive (Dash)
+33% Mimic's Omen (Strike)
+5% Mimic's Omen (Shot)
+11% Mimic's Strike (Strike)
+51% Mimic's Strike (Shot)
 
 
 Cesar: Phalanx Strike
-Seth: Compelling Drive (Shot)
+Seth: Mimic's Strike (Shot)
 
 Cesar gains a Threat Level (current level: 1)
-Priorities:  1 | 4
+Priorities:  1 | 3
 Seth is active
-Seth moves Cesar:
-
-..C...S
-
-Seth moves:
-
-..C.S..
-
-Seth misses
-Seth moves Cesar:
-
-.C..S..
-
-Cesar misses
+Seth hits
+Cesar takes 5 damage (now at 5 life)
+Cesar hits
+Seth takes 5 damage (now at 5 life)
 
 Beat 6
 -------
 
 Cesar
 -----
-Life: 14
+Life: 5
 Discard 1: Phalanx Strike
-Discard 2: Bulwark Suppression
+Discard 2: Fueled Grasp
 Special action available
 Threat level: 1
 
 Seth
 ----
-Life: 15
-Discard 1: Compelling Drive
-Discard 2: Mimic's Shot
+Life: 5
+Discard 1: Mimic's Strike
+Discard 2: Wyrding Shot
 Special action available
 
 
-.C..S..
+.....CS
 
-Unbeatable strategy for Seth: Vanishing Dash (Shot): -0.10
-Unbeatable strategy for Seth: Vanishing Dash (Drive): -0.10
-Unbeatable strategy for Seth: Vanishing Dash (Burst): -0.10
-Unbeatable strategy for Seth: Vanishing Dash (Grasp): -0.10
-Unbeatable strategy for Seth: Vanishing Dash (Dash): -0.10
+Unbeatable strategy for Seth: Fool's Dash (Suppression): -1.06
+Unbeatable strategy for Seth: Fool's Dash (Shot): -1.06
+Unbeatable strategy for Seth: Fool's Dash (Drive): -1.06
+Unbeatable strategy for Seth: Fool's Dash (Burst): -1.06
+Unbeatable strategy for Seth: Fool's Dash (Dash): -1.06
 
 
 Cesar:
-7% Unstoppable Shot
-2% Unstoppable Drive
-67% Unstoppable Burst
-11% Unstoppable Dash
-3% Fueled Drive
-11% Inevitable Dash
+6% Unstoppable Burst
+24% Bulwark Suppression
+37% Bulwark Shot
+23% Bulwark Drive
+9% Bulwark Burst
 
 Seth:
-19% Vanishing Burst (Shot)
-36% Vanishing Burst (Drive)
-8% Wyrding Omen (Shot)
-22% Wyrding Omen (Dash)
-7% Wyrding Burst (Shot)
-8% Wyrding Grasp (Shot)
+0% Fool's Omen (Shot)
+2% Fool's Drive (Suppression)
+1% Fool's Drive (Burst)
+20% Fool's Dash (Suppression)
+20% Fool's Dash (Shot)
+20% Fool's Dash (Drive)
+20% Fool's Dash (Burst)
+18% Fool's Dash (Dash)
+1% Compelling Omen (Shot)
 
 
-Cesar: Unstoppable Dash
-Seth: Vanishing Burst (Drive)
+Cesar: Bulwark Shot
+Seth: Fool's Dash (Burst)
 
 Cesar gains a Threat Level (current level: 2)
-Priorities:  7 | 1
-Cesar is active
+Priorities:  0 | 5
+Seth is active
 Seth moves:
 
-.C...S.
+..S..C.
 
+Cesar misses
 Cesar moves:
 
-..C..S.
+..SC...
 
-Cesar moves:
-
-C....S.
-
-Seth misses
 
 Beat 7
 -------
 
 Cesar
 -----
-Life: 14
-Discard 1: Unstoppable Dash
+Life: 5
+Discard 1: Bulwark Shot
 Discard 2: Phalanx Strike
 Special action available
 Threat level: 2
 
 Seth
 ----
-Life: 15
-Discard 1: Vanishing Burst
-Discard 2: Compelling Drive
+Life: 5
+Discard 1: Fool's Dash
+Discard 2: Mimic's Strike
 Special action available
 
 
-C....S.
+..SC...
 
-Unbeatable strategy for Cesar: Fueled Burst: 1.24
+Unbeatable strategy for Cesar: Unstoppable Suppression: 10.00
 
 
 Cesar:
-50% Fueled Suppression
-50% Fueled Grasp
+84% Unstoppable Suppression
+16% Inevitable Suppression
 
 Seth:
-49% Mimic's Omen (Shot)
-4% Mimic's Omen (Drive)
-4% Mimic's Omen (Burst)
-4% Mimic's Omen (Grasp)
-4% Mimic's Dash (Suppression)
-4% Mimic's Dash (Shot)
-4% Mimic's Dash (Drive)
-4% Mimic's Dash (Burst)
-4% Mimic's Dash (Grasp)
-4% Wyrding Dash (Suppression)
-4% Wyrding Dash (Shot)
-4% Wyrding Dash (Drive)
-4% Wyrding Dash (Burst)
-4% Wyrding Dash (Grasp)
+20% Special Pulse (Suppression)
+20% Special Pulse (Drive)
+20% Special Pulse (Burst)
+20% Special Pulse (Grasp)
+20% Special Pulse (Dash)
 
 
-Cesar: Fueled Suppression
-Seth: Mimic's Omen (Shot)
+Cesar: Unstoppable Suppression
+Seth: Special Pulse (Burst)
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  1 | 1
-Clash!
+Seth Pulses:
+
+C..S...
 
 
-Cesar: Fueled Grasp
-Seth: Mimic's Grasp (Shot)
+Beat 7
+-------
 
-Cesar gains a Threat Level (current level: 3)
-Priorities:  4 | 5
-Seth is active
+Cesar
+-----
+Life: 5
+Discard 1: Unstoppable Suppression
+Discard 2: Bulwark Shot
+Special action available
+Threat level: 3
+
+Seth
+----
+Life: 5
+Discard 1: Fool's Dash
+Discard 2: Mimic's Strike
+
+
+C..S...
+
+Unbeatable strategy for Cesar: Phalanx Burst: 0.77
+Unbeatable strategy for Cesar: Fueled Burst: 1.15
+Unbeatable strategy for Cesar: Fueled Dash: 0.23
+
+
+Cesar:
+22% Fueled Strike
+24% Fueled Drive
+30% Fueled Burst
+18% Fueled Grasp
+5% Inevitable Strike
+2% Inevitable Drive
+
+Seth:
+2% Vanishing Drive (Strike)
+25% Vanishing Drive (Grasp)
+23% Wyrding Shot (Drive)
+24% Wyrding Shot (Burst)
+16% Compelling Drive (Strike)
+9% Compelling Drive (Burst)
+
+
+Cesar: Fueled Burst
+Seth: Wyrding Shot (Drive)
+
 Cesar gains a Threat Level (current level: 4)
 Cesar is stunned
-Seth misses
+Priorities:  0 | 3
+Seth is active
+Cesar gains a Threat Level (current level: 0)
+Seth hits
+Cesar has 2 soak
+Cesar takes 1 damage (now at 4 life)
+Cesar is stunned
 
 Beat 8
 -------
 
 Cesar
 -----
-Life: 14
-Discard 1: Fueled Grasp
-Discard 2: Unstoppable Dash
+Life: 4
+Discard 1: Fueled Burst
+Discard 2: Unstoppable Suppression
 Special action available
-Threat level: 4
+Threat level: 0
 
 Seth
 ----
-Life: 15
-Discard 1: Mimic's Grasp
-Discard 2: Vanishing Burst
-Special action available
+Life: 5
+Discard 1: Wyrding Shot
+Discard 2: Fool's Dash
 
 
-C....S.
+C..S...
+
+Unbeatable strategy for Seth: Mimic's Omen (Shot): -0.29
+Unbeatable strategy for Seth: Vanishing Omen (Drive): -0.08
+Unbeatable strategy for Seth: Vanishing Burst (Grasp): -0.05
 
 
 Cesar:
-36% Bulwark Suppression
-23% Bulwark Shot
-42% Bulwark Burst
+19% Phalanx Strike
+12% Bulwark Drive
+13% Bulwark Grasp
+27% Bulwark Dash
+16% Inevitable Strike
+13% Inevitable Shot
 
 Seth:
-37% Fool's Drive (Suppression)
-40% Wyrding Omen (Shot)
-23% Wyrding Omen (Burst)
+55% Mimic's Omen (Shot)
+22% Mimic's Drive (Drive)
+1% Vanishing Drive (Drive)
+14% Vanishing Burst (Strike)
+3% Vanishing Burst (Drive)
+5% Vanishing Burst (Grasp)
 
 
-Cesar: Bulwark Burst
-Seth: Wyrding Omen (Shot)
+Cesar: Bulwark Drive
+Seth: Mimic's Omen (Shot)
 
-Cesar gains a Threat Level (current level: 0)
-Priorities:  -1 | 2
-Seth is active
-Seth misses
+Cesar gains a Threat Level (current level: 1)
+Priorities:  2 | 1
+Cesar is active
+Cesar moves:
+
+.C.S...
+
+Seth mimics Cesar's movement:
+
+.C..S..
+
 Cesar misses
 Cesar moves:
 
-...C.S.
+....S..
 
+Seth mimics Cesar's movement:
+
+....C.S
+
+Seth misses
 
 Beat 9
 -------
 
 Cesar
 -----
-Life: 14
-Discard 1: Bulwark Burst
-Discard 2: Fueled Grasp
+Life: 4
+Discard 1: Bulwark Drive
+Discard 2: Fueled Burst
 Special action available
-Threat level: 0
+Threat level: 1
 
 Seth
 ----
-Life: 15
-Discard 1: Wyrding Omen
-Discard 2: Mimic's Grasp
-Special action available
+Life: 5
+Discard 1: Mimic's Omen
+Discard 2: Wyrding Shot
 
 
-...C.S.
-
-Unbeatable strategy for Seth: Compelling Drive (Shot): -1.27
-Unbeatable strategy for Seth: Compelling Dash (Suppression): -0.32
-Unbeatable strategy for Seth: Compelling Dash (Strike): -0.32
-Unbeatable strategy for Seth: Compelling Dash (Shot): -0.32
-Unbeatable strategy for Seth: Compelling Dash (Drive): -0.32
-Unbeatable strategy for Seth: Compelling Dash (Dash): -0.32
+....C.S
 
 
 Cesar:
-24% Phalanx Strike
-63% Inevitable Shot
-3% Inevitable Drive
-10% Inevitable Dash
+12% Phalanx Suppression
+33% Unstoppable Suppression
+6% Inevitable Suppression
+49% Inevitable Shot
 
 Seth:
-12% Vanishing Burst (Shot)
-16% Compelling Shot (Drive)
-71% Compelling Drive (Shot)
-1% Compelling Burst (Shot)
+0% Fool's Dash (Suppression)
+0% Fool's Dash (Strike)
+0% Fool's Dash (Shot)
+0% Fool's Dash (Grasp)
+0% Fool's Dash (Dash)
+2% Vanishing Strike (Suppression)
+2% Vanishing Strike (Strike)
+7% Vanishing Strike (Shot)
+2% Vanishing Strike (Grasp)
+2% Vanishing Strike (Dash)
+1% Vanishing Dash (Suppression)
+1% Vanishing Dash (Strike)
+1% Vanishing Dash (Shot)
+1% Vanishing Dash (Grasp)
+36% Vanishing Dash (Dash)
+1% Compelling Dash (Suppression)
+1% Compelling Dash (Strike)
+1% Compelling Dash (Shot)
+1% Compelling Dash (Grasp)
+39% Compelling Dash (Dash)
 
 
 Cesar: Inevitable Shot
-Seth: Vanishing Burst (Shot)
+Seth: Vanishing Dash (Dash)
 
-Cesar gains a Threat Level (current level: 1)
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  2 | 3
+Cesar gains a Threat Level (current level: 2)
+Priorities:  2 | 9
 Seth is active
 Seth moves:
 
-...C..S
+..S.C..
 
-Seth hits
-Cesar takes 5 damage (now at 9 life)
-Cesar hits
-Seth is stunned
-Seth will have -3 priority next beat
-Seth takes 4 damage (now at 11 life)
-Seth is stunned
+Cesar misses
 
 Beat 10
 -------
 
 Cesar
 -----
-Life: 9
+Life: 4
 Discard 1: Inevitable Shot
-Discard 2: Bulwark Burst
-Special action available
-Opponent has power penalty: -3
-Threat level: 1
-
-Seth
-----
-Life: 11
-Discard 1: Vanishing Burst
-Discard 2: Wyrding Omen
-Special action available
-
-
-...C..S
-
-
-Cesar:
-33% Phalanx Suppression
-9% Phalanx Strike
-5% Phalanx Drive
-41% Unstoppable Suppression
-5% Unstoppable Strike
-5% Unstoppable Drive
-2% Fueled Drive
-
-Seth:
-3% Fool's Drive (Suppression)
-2% Mimic's Strike (Suppression)
-4% Mimic's Shot (Drive)
-22% Mimic's Drive (Suppression)
-5% Compelling Strike (Suppression)
-4% Compelling Strike (Strike)
-30% Compelling Strike (Grasp)
-4% Compelling Strike (Dash)
-16% Compelling Shot (Suppression)
-2% Compelling Grasp (Suppression)
-2% Compelling Grasp (Strike)
-2% Compelling Grasp (Drive)
-2% Compelling Grasp (Grasp)
-2% Compelling Grasp (Dash)
-
-
-Cesar: Unstoppable Suppression
-Seth: Compelling Strike (Grasp)
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  0 | 3
-Seth is active
-Seth moves Cesar:
-
-..C...S
-
-Seth misses
-Seth moves Cesar:
-
-.C....S
-
-Cesar misses
-Cesar moves:
-
-C.....S
-
-
-Beat 11
--------
-
-Cesar
------
-Life: 9
-Discard 1: Unstoppable Suppression
-Discard 2: Inevitable Shot
+Discard 2: Bulwark Drive
 Special action available
 Threat level: 2
 
 Seth
 ----
-Life: 11
-Discard 1: Compelling Strike
-Discard 2: Vanishing Burst
-Special action available
-
-
-C.....S
-
-Unbeatable strategy for Seth: Mimic's Dash (Strike): -0.14
-Unbeatable strategy for Seth: Mimic's Dash (Drive): -0.14
-Unbeatable strategy for Seth: Mimic's Dash (Burst): -0.14
-Unbeatable strategy for Seth: Mimic's Dash (Grasp): -0.14
-Unbeatable strategy for Seth: Mimic's Dash (Dash): -0.14
-Unbeatable strategy for Seth: Wyrding Dash (Strike): -0.14
-Unbeatable strategy for Seth: Wyrding Dash (Drive): -0.14
-Unbeatable strategy for Seth: Wyrding Dash (Burst): -0.14
-Unbeatable strategy for Seth: Wyrding Dash (Grasp): -0.14
-Unbeatable strategy for Seth: Wyrding Dash (Dash): -0.14
-
-
-Cesar:
-65% Fueled Burst
-35% Fueled Grasp
-
-Seth:
-7% Mimic's Dash (Strike)
-7% Mimic's Dash (Drive)
-7% Mimic's Dash (Burst)
-7% Mimic's Dash (Grasp)
-7% Mimic's Dash (Dash)
-7% Wyrding Dash (Strike)
-7% Wyrding Dash (Drive)
-7% Wyrding Dash (Burst)
-7% Wyrding Dash (Grasp)
-7% Wyrding Dash (Dash)
-6% Special Pulse (Strike)
-6% Special Pulse (Drive)
-6% Special Pulse (Burst)
-6% Special Pulse (Grasp)
-6% Special Pulse (Dash)
-
-
-Cesar: Fueled Grasp
-Seth: Special Pulse (Dash)
-
-Cesar gains a Threat Level (current level: 3)
-Seth Pulses:
-
-SC.....
-
-
-Beat 11
--------
-
-Cesar
------
-Life: 9
-Discard 1: Fueled Grasp
-Discard 2: Unstoppable Suppression
-Special action available
-Threat level: 3
-
-Seth
-----
-Life: 11
-Discard 1: Compelling Strike
-Discard 2: Vanishing Burst
-
-
-SC.....
-
-Unbeatable strategy for Cesar: Phalanx Burst: 1.45
-Unbeatable strategy for Cesar: Phalanx Dash: 0.86
-Unbeatable strategy for Cesar: Bulwark Burst: 1.23
-Unbeatable strategy for Cesar: Bulwark Dash: 0.68
-
-
-Cesar:
-26% Phalanx Strike
-27% Phalanx Shot
-28% Phalanx Burst
-19% Inevitable Drive
-
-Seth:
-19% Mimic's Drive (Strike)
-21% Mimic's Drive (Shot)
-39% Mimic's Drive (Drive)
-20% Mimic's Drive (Burst)
-
-
-Cesar: Phalanx Burst
-Seth: Mimic's Drive (Burst)
-
-Cesar gains a Threat Level (current level: 4)
-Cesar is stunned
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  -1 | 6
-Seth is active
-Cesar moves:
-
-S.C....
-
-Seth moves:
-
-..CS...
-
-Seth hits
-Cesar has 2 soak
-Cesar takes 4 damage (now at 5 life)
-Cesar is stunned
-
-Beat 12
--------
-
-Cesar
------
 Life: 5
-Discard 1: Phalanx Burst
-Discard 2: Fueled Grasp
-Special action available
-Threat level: 4
-
-Seth
-----
-Life: 11
-Discard 1: Mimic's Drive
-Discard 2: Compelling Strike
+Discard 1: Vanishing Dash
+Discard 2: Mimic's Omen
 
 
-..CS...
+..S.C..
 
 
 Cesar:
-21% Unstoppable Strike
-5% Unstoppable Shot
-2% Unstoppable Drive
-15% Unstoppable Dash
-4% Bulwark Dash
-21% Inevitable Suppression
-14% Inevitable Shot
-13% Inevitable Drive
-5% Inevitable Dash
-
-Seth:
-20% Fool's Omen (Shot)
-14% Vanishing Omen (Drive)
-11% Vanishing Burst (Shot)
-20% Wyrding Omen (Strike)
-17% Wyrding Omen (Drive)
-12% Wyrding Omen (Dash)
-6% Wyrding Shot (Suppression)
-
-
-Cesar: Unstoppable Shot
-Seth: Fool's Omen (Shot)
-
-Cesar gains a Threat Level (current level: 0)
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  0 | -1
-Cesar is active
-Cesar is stunned
-Seth hits
-Cesar takes 4 damage (now at 1 life)
-Cesar is stunned
-
-Beat 13
--------
-
-Cesar
------
-Life: 1
-Discard 1: Unstoppable Shot
-Discard 2: Phalanx Burst
-Special action available
-Threat level: 0
-
-Seth
-----
-Life: 11
-Discard 1: Fool's Omen
-Discard 2: Mimic's Drive
-
-
-..CS...
-
-Unbeatable strategy for Seth: Vanishing Burst (Drive): -0.69
-Unbeatable strategy for Seth: Vanishing Grasp (Suppression): -0.98
-Unbeatable strategy for Seth: Vanishing Grasp (Strike): -0.98
-Unbeatable strategy for Seth: Vanishing Grasp (Drive): -0.98
-Unbeatable strategy for Seth: Vanishing Grasp (Grasp): -0.98
-Unbeatable strategy for Seth: Vanishing Grasp (Dash): -0.98
-Unbeatable strategy for Seth: Vanishing Dash (Suppression): -0.03
-Unbeatable strategy for Seth: Vanishing Dash (Strike): -0.03
-Unbeatable strategy for Seth: Vanishing Dash (Drive): -0.03
-Unbeatable strategy for Seth: Vanishing Dash (Grasp): -0.03
-Unbeatable strategy for Seth: Vanishing Dash (Dash): -0.03
-Unbeatable strategy for Seth: Wyrding Grasp (Suppression): -0.47
-Unbeatable strategy for Seth: Wyrding Grasp (Strike): -0.47
-Unbeatable strategy for Seth: Wyrding Grasp (Drive): -0.52
-Unbeatable strategy for Seth: Wyrding Grasp (Grasp): -0.47
-Unbeatable strategy for Seth: Wyrding Grasp (Dash): -0.47
-Unbeatable strategy for Seth: Wyrding Dash (Drive): -0.11
-Unbeatable strategy for Seth: Compelling Grasp (Suppression): -0.58
-Unbeatable strategy for Seth: Compelling Grasp (Strike): -0.58
-Unbeatable strategy for Seth: Compelling Grasp (Drive): -0.58
-Unbeatable strategy for Seth: Compelling Grasp (Grasp): -0.58
-Unbeatable strategy for Seth: Compelling Grasp (Dash): -0.58
-
-
-Cesar:
+10% Phalanx Suppression
+10% Phalanx Burst
+11% Unstoppable Suppression
+9% Unstoppable Burst
+3% Unstoppable Grasp
+27% Fueled Suppression
 19% Fueled Strike
-5% Fueled Dash
-13% Bulwark Drive
-16% Bulwark Grasp
-10% Bulwark Dash
-6% Inevitable Drive
-31% Inevitable Dash
+11% Fueled Burst
 
 Seth:
-30% Vanishing Shot (Drive)
-9% Vanishing Burst (Strike)
-6% Vanishing Burst (Grasp)
-24% Vanishing Grasp (Dash)
-24% Vanishing Dash (Drive)
-4% Wyrding Dash (Dash)
-4% Compelling Shot (Grasp)
-
-
-Cesar: Inevitable Dash
-Seth: Vanishing Grasp (Dash)
-
-Cesar gains a Threat Level (current level: 1)
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  9 | 7
-Cesar is active
-Cesar moves:
-
-...SC..
-
-Seth misses
-
-Beat 14
--------
-
-Cesar
------
-Life: 1
-Discard 1: Inevitable Dash
-Discard 2: Unstoppable Shot
-Special action available
-Threat level: 1
-
-Seth
-----
-Life: 11
-Discard 1: Vanishing Grasp
-Discard 2: Fool's Omen
-
-
-...SC..
-
-Unbeatable strategy for Seth: Mimic's Burst (Drive): -1.19
-Unbeatable strategy for Seth: Wyrding Strike (Burst): -0.07
-Unbeatable strategy for Seth: Wyrding Shot (Grasp): -0.22
-Unbeatable strategy for Seth: Wyrding Dash (Suppression): -0.46
-Unbeatable strategy for Seth: Wyrding Dash (Strike): -0.46
-Unbeatable strategy for Seth: Wyrding Dash (Drive): -0.78
-Unbeatable strategy for Seth: Wyrding Dash (Burst): -0.46
-Unbeatable strategy for Seth: Wyrding Dash (Grasp): -0.46
-Unbeatable strategy for Seth: Compelling Drive (Suppression): -1.07
-Unbeatable strategy for Seth: Compelling Drive (Strike): -1.07
-Unbeatable strategy for Seth: Compelling Drive (Drive): -1.07
-Unbeatable strategy for Seth: Compelling Drive (Burst): -1.07
-Unbeatable strategy for Seth: Compelling Drive (Grasp): -1.07
-Unbeatable strategy for Seth: Compelling Dash (Suppression): -0.53
-Unbeatable strategy for Seth: Compelling Dash (Strike): -0.53
-Unbeatable strategy for Seth: Compelling Dash (Drive): -0.53
-Unbeatable strategy for Seth: Compelling Dash (Burst): -0.53
-Unbeatable strategy for Seth: Compelling Dash (Grasp): -0.53
-
-
-Cesar:
-16% Phalanx Strike
-4% Phalanx Drive
-2% Fueled Drive
-33% Bulwark Strike
-4% Bulwark Drive
-27% Bulwark Burst
-15% Bulwark Grasp
-
-Seth:
-5% Mimic's Drive (Grasp)
-35% Mimic's Burst (Drive)
-15% Mimic's Burst (Burst)
-5% Mimic's Burst (Grasp)
-7% Wyrding Drive (Strike)
-30% Wyrding Burst (Grasp)
-3% Compelling Drive (Drive)
-
-
-Cesar: Bulwark Strike
-Seth: Mimic's Burst (Grasp)
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  1 | 1
-Clash!
-
-
-Cesar: Bulwark Drive
-Seth: Mimic's Shot (Grasp)
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  2 | 2
-Clash!
-
-
-Cesar: Bulwark Suppression
-Seth: Mimic's Drive (Grasp)
-
-Cesar gains a Threat Level (current level: 2)
-Priorities:  0 | 4
-Seth is active
-Seth hits
-Cesar takes 4 damage (now at 0 life)
-Cesar hits
-Seth takes 4 damage (now at 7 life)
-Seth is stunned
-Cesar moves:
-
-.C.S...
-
-
-Beat 15
--------
-
-Cesar
------
-Life: 1
-Discard 1: Bulwark Suppression
-Discard 2: Inevitable Dash
-Special action available
-Threat level: 2
-Defeat immunity used-up
-
-Seth
-----
-Life: 7
-Discard 1: Mimic's Drive
-Discard 2: Vanishing Grasp
-
-
-SC.....
-
-Unbeatable strategy for Seth: Wyrding Omen (Burst): -6.00
-Unbeatable strategy for Seth: Wyrding Strike (Burst): -6.00
-Unbeatable strategy for Seth: Wyrding Shot (Strike): -6.00
-Unbeatable strategy for Seth: Wyrding Shot (Shot): -6.00
-Unbeatable strategy for Seth: Wyrding Shot (Drive): -6.00
-Unbeatable strategy for Seth: Wyrding Shot (Burst): -6.00
-Unbeatable strategy for Seth: Wyrding Shot (Grasp): -6.00
-Unbeatable strategy for Seth: Wyrding Dash (Strike): -6.00
-Unbeatable strategy for Seth: Wyrding Dash (Shot): -6.00
-Unbeatable strategy for Seth: Wyrding Dash (Drive): -6.00
-Unbeatable strategy for Seth: Wyrding Dash (Burst): -6.00
-Unbeatable strategy for Seth: Wyrding Dash (Grasp): -6.00
-Unbeatable strategy for Seth: Compelling Shot (Strike): -6.00
-Unbeatable strategy for Seth: Compelling Shot (Shot): -6.00
-Unbeatable strategy for Seth: Compelling Shot (Drive): -6.00
-Unbeatable strategy for Seth: Compelling Shot (Burst): -6.00
-Unbeatable strategy for Seth: Compelling Shot (Grasp): -6.00
-Unbeatable strategy for Seth: Compelling Burst (Drive): -6.00
-Unbeatable strategy for Seth: Compelling Dash (Strike): -6.00
-Unbeatable strategy for Seth: Compelling Dash (Shot): -6.00
-Unbeatable strategy for Seth: Compelling Dash (Drive): -6.00
-Unbeatable strategy for Seth: Compelling Dash (Burst): -6.00
-Unbeatable strategy for Seth: Compelling Dash (Grasp): -6.00
-
-
-Cesar:
-43% Phalanx Drive
-43% Unstoppable Burst
-14% Special Level 4 Protocol
-
-Seth:
-31% Fool's Strike (Strike)
-5% Fool's Strike (Shot)
-2% Fool's Strike (Drive)
-2% Fool's Strike (Grasp)
 2% Fool's Shot (Burst)
-2% Fool's Burst (Burst)
-9% Fool's Dash (Strike)
-9% Fool's Dash (Shot)
-9% Fool's Dash (Drive)
-9% Fool's Dash (Burst)
-9% Fool's Dash (Grasp)
-1% Wyrding Omen (Burst)
-1% Wyrding Strike (Burst)
-1% Wyrding Shot (Strike)
-1% Wyrding Shot (Shot)
-1% Wyrding Shot (Drive)
-1% Wyrding Shot (Burst)
-1% Wyrding Shot (Grasp)
-0% Wyrding Burst (Strike)
-0% Wyrding Burst (Shot)
-0% Wyrding Burst (Drive)
-0% Wyrding Burst (Burst)
-0% Wyrding Burst (Grasp)
-1% Wyrding Dash (Strike)
-1% Wyrding Dash (Shot)
-1% Wyrding Dash (Drive)
-1% Wyrding Dash (Burst)
-1% Wyrding Dash (Grasp)
-1% Compelling Shot (Strike)
-1% Compelling Shot (Shot)
-1% Compelling Shot (Drive)
-1% Compelling Shot (Burst)
-1% Compelling Shot (Grasp)
-1% Compelling Burst (Drive)
-1% Compelling Dash (Strike)
-1% Compelling Dash (Shot)
-1% Compelling Dash (Drive)
-1% Compelling Dash (Burst)
-1% Compelling Dash (Grasp)
+4% Fool's Burst (Strike)
+3% Wyrding Shot (Burst)
+10% Wyrding Drive (Suppression)
+28% Wyrding Burst (Suppression)
+39% Wyrding Burst (Burst)
+13% Compelling Drive (Suppression)
+1% Compelling Burst (Suppression)
 
 
 Cesar: Unstoppable Burst
-Seth: Fool's Dash (Shot)
+Seth: Wyrding Burst (Suppression)
 
 Cesar gains a Threat Level (current level: 3)
-Priorities:  -1 | 5
+Priorities:  -1 | 2
 Seth is active
+Seth moves:
+
+S...C..
+
 Cesar moves:
 
 S.C....
 
-Seth moves:
-
-.SC....
-
 Cesar moves:
 
-CS.....
+S..C...
 
+Seth hits
+Cesar takes 3 damage (now at 1 life)
 Cesar hits
-Seth takes 6 damage (now at 1 life)
-Seth is stunned
-Game goes to time
-THE GAME IS TIED!
-total_time: 39
+Seth takes 6 damage (now at 0 life)
+CESAR WINS!
+total_time: 25

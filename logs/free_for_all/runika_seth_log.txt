@@ -16,10 +16,10 @@ Discard 1: Channeled Grasp
 Discard 2: Impact Strike
 Special action available
 Active artifacts: 
-  Autodeflector
   Shield Amulet
   Hover Boots
   Phase Goggles
+  Autodeflector
   Battlefist
 
 Seth
@@ -48,25 +48,22 @@ Seth:
 1% Vanishing Shot (Burst)
 
 
-Runika: Overcharged Drive
-Seth: Vanishing Omen (Drive)
+Runika: Maintenance Shot
+Seth: Mimic's Shot (Burst)
 
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  6 | 3
+Priorities:  3 | 2
 Runika is active
-Runika overcharges her Shield Amulet
-Seth moves:
-
-.R....S
-
+Runika hits
+Seth takes 3 damage (now at 17 life)
+Seth is stunned
 Runika moves:
 
-...R..S
+R....S.
 
-Runika misses
-Seth misses
-Shield Amulet is removed from the game
+Seth mimics Runika's movement:
+
+R...S..
+
 
 Beat 2
 -------
@@ -74,64 +71,59 @@ Beat 2
 Runika
 ------
 Life: 20
-Discard 1: Overcharged Drive
+Discard 1: Maintenance Shot
 Discard 2: Channeled Grasp
 Special action available
 Active artifacts: 
-  Battlefist
-  Hover Boots
   Phase Goggles
-  Autodeflector
-Removed artifacts: 
+  Hover Boots
   Shield Amulet
+  Autodeflector
+  Battlefist
 
 Seth
 ----
-Life: 20
-Discard 1: Vanishing Omen
+Life: 17
+Discard 1: Mimic's Shot
 Discard 2: Fool's Grasp
 Special action available
 
 
-...R..S
+R...S..
+
+Unbeatable strategy for Seth: Compelling Burst (Tinker): -0.13
+Unbeatable strategy for Seth: Compelling Burst (Strike): -0.13
+Unbeatable strategy for Seth: Compelling Burst (Drive): -0.13
+Unbeatable strategy for Seth: Compelling Burst (Burst): -0.07
+Unbeatable strategy for Seth: Compelling Burst (Dash): -0.13
 
 
 Runika:
-8% Maintenance Strike
-13% Maintenance Burst
 8% Explosive Tinker
-45% Explosive Dash
-3% Impact Tinker
-9% Impact Strike
-13% Impact Shot
+1% Explosive Burst
+90% Impact Dash
+1% Overcharged Drive
 
 Seth:
-4% Mimic's Shot (Shot)
-11% Mimic's Drive (Tinker)
-30% Mimic's Drive (Strike)
-5% Mimic's Burst (Burst)
-24% Wyrding Drive (Tinker)
-4% Wyrding Burst (Shot)
-21% Wyrding Dash (Dash)
+13% Wyrding Omen (Dash)
+65% Wyrding Burst (Tinker)
+19% Compelling Drive (Drive)
+3% Compelling Drive (Burst)
 
 
-Runika: Explosive Dash
-Seth: Mimic's Drive (Strike)
+Runika: Explosive Tinker
+Seth: Wyrding Burst (Tinker)
 
-Priorities:  11 | 4
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  5 | 4
 Runika is active
-Runika moves Seth:
-
-...R.S.
-
-Runika moves:
-
-R....S.
-
 Seth moves:
 
-RS.....
+R.....S
 
+Runika misses
+No artifacts to activate
 Seth misses
 
 Beat 3
@@ -140,59 +132,89 @@ Beat 3
 Runika
 ------
 Life: 20
-Discard 1: Explosive Dash
-Discard 2: Overcharged Drive
+Discard 1: Explosive Tinker
+Discard 2: Maintenance Shot
 Special action available
 Active artifacts: 
-  Battlefist
-  Hover Boots
   Phase Goggles
-  Autodeflector
-Removed artifacts: 
+  Hover Boots
   Shield Amulet
+  Autodeflector
+  Battlefist
 
 Seth
 ----
-Life: 20
-Discard 1: Mimic's Drive
-Discard 2: Vanishing Omen
+Life: 17
+Discard 1: Wyrding Burst
+Discard 2: Mimic's Shot
 Special action available
 
 
-RS.....
+R.....S
+
+Unbeatable strategy for Seth: Vanishing Omen (Drive): -0.15
+Unbeatable strategy for Seth: Vanishing Omen (Burst): -0.14
+Unbeatable strategy for Seth: Vanishing Omen (Dash): -0.28
+Unbeatable strategy for Seth: Vanishing Strike (Strike): -0.28
+Unbeatable strategy for Seth: Vanishing Strike (Drive): -0.28
+Unbeatable strategy for Seth: Vanishing Strike (Burst): -0.28
+Unbeatable strategy for Seth: Vanishing Strike (Grasp): -0.28
+Unbeatable strategy for Seth: Vanishing Strike (Dash): -0.28
+Unbeatable strategy for Seth: Vanishing Grasp (Strike): -0.23
+Unbeatable strategy for Seth: Vanishing Grasp (Drive): -0.23
+Unbeatable strategy for Seth: Vanishing Grasp (Burst): -0.23
+Unbeatable strategy for Seth: Vanishing Grasp (Grasp): -0.23
+Unbeatable strategy for Seth: Vanishing Grasp (Dash): -0.23
+Unbeatable strategy for Seth: Compelling Omen (Strike): -0.27
+Unbeatable strategy for Seth: Compelling Omen (Drive): -0.54
+Unbeatable strategy for Seth: Compelling Omen (Burst): -0.54
+Unbeatable strategy for Seth: Compelling Omen (Grasp): -0.12
+Unbeatable strategy for Seth: Compelling Omen (Dash): -0.54
+Unbeatable strategy for Seth: Compelling Strike (Strike): -0.54
+Unbeatable strategy for Seth: Compelling Strike (Drive): -0.54
+Unbeatable strategy for Seth: Compelling Strike (Burst): -0.54
+Unbeatable strategy for Seth: Compelling Strike (Grasp): -0.54
+Unbeatable strategy for Seth: Compelling Strike (Dash): -0.54
+Unbeatable strategy for Seth: Compelling Grasp (Strike): -0.49
+Unbeatable strategy for Seth: Compelling Grasp (Burst): -0.49
+Unbeatable strategy for Seth: Compelling Grasp (Grasp): -0.49
+Unbeatable strategy for Seth: Compelling Grasp (Dash): -0.49
 
 
 Runika:
-15% Channeled Strike
-5% Channeled Shot
-14% Maintenance Shot
-21% Impact Tinker
-3% Impact Strike
-10% Impact Shot
-12% Impact Burst
-21% Impact Grasp
+100% Impact Grasp
 
 Seth:
-16% Fool's Burst (Tinker)
-11% Fool's Burst (Grasp)
-6% Wyrding Strike (Tinker)
-6% Wyrding Strike (Strike)
-8% Wyrding Burst (Shot)
-15% Compelling Strike (Shot)
-12% Compelling Grasp (Strike)
-25% Compelling Grasp (Grasp)
+10% Compelling Omen (Strike)
+13% Compelling Omen (Drive)
+12% Compelling Omen (Burst)
+13% Compelling Omen (Dash)
+10% Compelling Strike (Strike)
+10% Compelling Strike (Drive)
+13% Compelling Strike (Burst)
+10% Compelling Strike (Grasp)
+10% Compelling Strike (Dash)
 
 
-Runika: Channeled Strike
-Seth: Compelling Grasp (Grasp)
+Runika: Impact Grasp
+Seth: Compelling Omen (Drive)
 
-Priorities:  6 | 5
+Priorities:  7 | 1
 Runika is active
-No artifacts to activate
-Runika hits
-Seth takes 6 damage (now at 14 life)
-Seth is stunned
-Battlefist is de-activated
+Runika moves:
+
+.R....S
+
+Runika misses
+Seth moves Runika:
+
+R.....S
+
+Seth misses
+Seth moves Runika:
+
+.R....S
+
 
 Beat 4
 -------
@@ -200,68 +222,62 @@ Beat 4
 Runika
 ------
 Life: 20
-Discard 1: Channeled Strike
-Discard 2: Explosive Dash
+Discard 1: Impact Grasp
+Discard 2: Explosive Tinker
 Special action available
 Active artifacts: 
   Phase Goggles
   Hover Boots
-  Autodeflector
-Removed artifacts: 
   Shield Amulet
+  Autodeflector
+  Battlefist
 
 Seth
 ----
-Life: 14
-Discard 1: Compelling Grasp
-Discard 2: Mimic's Drive
+Life: 17
+Discard 1: Compelling Omen
+Discard 2: Wyrding Burst
 Special action available
 
 
-RS.....
+.R....S
 
 
 Runika:
-1% Maintenance Shot
-23% Maintenance Drive
-9% Impact Shot
-4% Impact Drive
-4% Impact Burst
-28% Overcharged Tinker
-23% Overcharged Shot
-9% Overcharged Drive
+9% Maintenance Strike
+2% Maintenance Drive
+38% Maintenance Burst
+45% Maintenance Dash
+5% Overcharged Drive
 
 Seth:
-3% Vanishing Omen (Drive)
-21% Vanishing Strike (Tinker)
-0% Vanishing Strike (Drive)
-8% Vanishing Burst (Tinker)
-23% Vanishing Burst (Burst)
-7% Wyrding Strike (Drive)
-3% Wyrding Shot (Tinker)
-35% Wyrding Shot (Drive)
+3% Fool's Shot (Strike)
+3% Fool's Shot (Shot)
+3% Fool's Shot (Drive)
+3% Fool's Shot (Burst)
+3% Fool's Shot (Dash)
+2% Fool's Drive (Strike)
+2% Fool's Drive (Shot)
+2% Fool's Drive (Drive)
+2% Fool's Drive (Burst)
+2% Fool's Drive (Dash)
+1% Mimic's Shot (Drive)
+8% Vanishing Shot (Strike)
+67% Vanishing Grasp (Drive)
 
 
-Runika: Overcharged Shot
-Seth: Vanishing Burst (Tinker)
+Runika: Maintenance Dash
+Seth: Fool's Shot (Dash)
 
-Priorities:  4 | 1
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  10 | 0
 Runika is active
-Runika overcharges her Autodeflector
-Seth moves:
+Runika moves:
 
-R.S....
+R.....S
 
-Seth moves:
-
-R...S..
-
-Runika misses
-Seth hits
-Phase Goggles is de-activated
-Runika has 4 soak
-Runika takes 0 damage (now at 20 life)
-Autodeflector is removed from the game
+Seth misses
 
 Beat 5
 -------
@@ -269,241 +285,235 @@ Beat 5
 Runika
 ------
 Life: 20
-Discard 1: Overcharged Shot
-Discard 2: Channeled Strike
+Discard 1: Maintenance Dash
+Discard 2: Impact Grasp
 Special action available
 Active artifacts: 
+  Phase Goggles
   Hover Boots
-Removed artifacts: 
-  Autodeflector
   Shield Amulet
+  Autodeflector
+  Battlefist
 
 Seth
 ----
-Life: 14
-Discard 1: Vanishing Burst
-Discard 2: Compelling Grasp
+Life: 17
+Discard 1: Fool's Shot
+Discard 2: Compelling Omen
 Special action available
 
 
-R...S..
-
-Unbeatable strategy for Seth: Fool's Shot (Tinker): -0.20
-Unbeatable strategy for Seth: Mimic's Shot (Burst): -1.35
+R.....S
 
 
 Runika:
-78% Maintenance Tinker
-13% Maintenance Burst
-9% Maintenance Grasp
+83% Explosive Tinker
+13% Explosive Shot
+4% Explosive Burst
 
 Seth:
-16% Mimic's Shot (Tinker)
-53% Mimic's Shot (Burst)
-31% Mimic's Drive (Burst)
+20% Mimic's Drive (Strike)
+4% Mimic's Grasp (Strike)
+4% Mimic's Grasp (Drive)
+72% Wyrding Strike (Burst)
 
 
-Runika: Maintenance Tinker
-Seth: Mimic's Drive (Burst)
+Runika: Explosive Tinker
+Seth: Wyrding Strike (Burst)
 
-Priorities:  4 | 4
-Clash!
-
-
-Runika: Maintenance Grasp
-Seth: Mimic's Shot (Burst)
-
-Priorities:  6 | 2
+Priorities:  5 | 4
 Runika is active
+Runika moves Seth:
+
+R....S.
+
 Runika misses
-Seth hits
-Hover Boots is de-activated
-Runika has 3 soak
-Runika takes 1 damage (now at 19 life)
-Runika is stunned
+No artifacts to activate
+Seth misses
 
 Beat 6
 -------
 
 Runika
 ------
-Life: 19
-Discard 1: Maintenance Grasp
-Discard 2: Overcharged Shot
+Life: 20
+Discard 1: Explosive Tinker
+Discard 2: Maintenance Dash
 Special action available
-No active artifacts
-Removed artifacts: 
-  Autodeflector
+Active artifacts: 
+  Phase Goggles
+  Hover Boots
   Shield Amulet
+  Autodeflector
+  Battlefist
 
 Seth
 ----
-Life: 14
-Discard 1: Mimic's Shot
-Discard 2: Vanishing Burst
+Life: 17
+Discard 1: Wyrding Strike
+Discard 2: Fool's Shot
 Special action available
 
 
-R...S..
+R....S.
 
-Unbeatable strategy for Seth: Fool's Omen (Tinker): -0.14
+Unbeatable strategy for Seth: Vanishing Omen (Strike): -0.46
+Unbeatable strategy for Seth: Vanishing Omen (Shot): -0.62
+Unbeatable strategy for Seth: Vanishing Omen (Drive): -0.96
+Unbeatable strategy for Seth: Vanishing Omen (Burst): -0.62
+Unbeatable strategy for Seth: Vanishing Omen (Grasp): -0.31
+Unbeatable strategy for Seth: Vanishing Drive (Strike): -0.28
+Unbeatable strategy for Seth: Vanishing Drive (Shot): -0.28
+Unbeatable strategy for Seth: Vanishing Drive (Burst): -0.28
+Unbeatable strategy for Seth: Vanishing Drive (Grasp): -0.28
+Unbeatable strategy for Seth: Vanishing Burst (Strike): -0.72
+Unbeatable strategy for Seth: Vanishing Burst (Shot): -0.72
+Unbeatable strategy for Seth: Vanishing Burst (Drive): -0.72
+Unbeatable strategy for Seth: Vanishing Burst (Burst): -0.72
+Unbeatable strategy for Seth: Vanishing Burst (Grasp): -0.72
+Unbeatable strategy for Seth: Vanishing Grasp (Strike): -0.57
+Unbeatable strategy for Seth: Vanishing Grasp (Shot): -0.57
+Unbeatable strategy for Seth: Vanishing Grasp (Drive): -0.57
+Unbeatable strategy for Seth: Vanishing Grasp (Burst): -0.57
+Unbeatable strategy for Seth: Vanishing Grasp (Grasp): -0.57
 
 
 Runika:
-30% Channeled Tinker
-34% Channeled Strike
-27% Channeled Drive
-9% Impact Tinker
+37% Impact Shot
+3% Impact Drive
+49% Impact Burst
+11% Impact Grasp
 
 Seth:
-13% Fool's Drive (Drive)
-17% Compelling Drive (Tinker)
-33% Compelling Drive (Strike)
-37% Compelling Drive (Drive)
+39% Mimic's Omen (Shot)
+49% Vanishing Omen (Drive)
+5% Vanishing Drive (Grasp)
+8% Vanishing Burst (Drive)
 
 
-Runika: Channeled Drive
-Seth: Compelling Drive (Drive)
+Runika: Impact Burst
+Seth: Vanishing Omen (Drive)
 
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  5 | 6
-Seth is active
-Battlefist is activated
-Seth moves Runika:
-
-.R..S..
-
+Priorities:  3 | 1
+Runika is active
 Seth moves:
 
-.RS....
+R.....S
 
-Seth hits
-Battlefist is de-activated
-Runika takes 5 damage (now at 14 life)
-Runika is stunned
-Seth moves Runika:
+Runika moves:
 
-..SR...
+.R....S
 
-No artifacts to de-activate
+Runika misses
+Seth misses
 
 Beat 7
 -------
 
 Runika
 ------
-Life: 14
-Discard 1: Channeled Drive
-Discard 2: Maintenance Grasp
+Life: 20
+Discard 1: Impact Burst
+Discard 2: Explosive Tinker
 Special action available
-No active artifacts
-Removed artifacts: 
-  Autodeflector
+Active artifacts: 
+  Phase Goggles
+  Hover Boots
   Shield Amulet
+  Autodeflector
+  Battlefist
 
 Seth
 ----
-Life: 14
-Discard 1: Compelling Drive
-Discard 2: Mimic's Shot
+Life: 17
+Discard 1: Vanishing Omen
+Discard 2: Wyrding Strike
 Special action available
 
 
-..SR...
+.R....S
+
+Unbeatable strategy for Runika: Maintenance Grasp: 0.60
 
 
 Runika:
-77% Explosive Burst
-6% Impact Burst
-4% Overcharged Shot
-12% Overcharged Dash
+100% Overcharged Shot
 
 Seth:
-12% Fool's Burst (Burst)
-18% Vanishing Burst (Burst)
-37% Wyrding Burst (Shot)
-33% Wyrding Burst (Dash)
+20% Fool's Grasp (Strike)
+20% Fool's Grasp (Shot)
+20% Fool's Grasp (Drive)
+20% Fool's Grasp (Grasp)
+20% Fool's Grasp (Dash)
 
 
-Runika: Explosive Burst
-Seth: Wyrding Burst (Shot)
+Runika: Overcharged Shot
+Seth: Fool's Grasp (Dash)
 
-Priorities:  1 | 2
-Seth is active
-Seth moves:
-
-S..R...
-
-Runika moves Seth:
-
-.S.R...
-
-Runika moves:
-
-.S...R.
-
-Seth misses
-Runika misses
+Priorities:  4 | 1
+Runika is active
+Runika overcharges her Phase Goggles
+Runika hits
+Seth takes 4 damage (now at 13 life)
+Seth is stunned
+Phase Goggles is removed from the game
 
 Beat 8
 -------
 
 Runika
 ------
-Life: 14
-Discard 1: Explosive Burst
-Discard 2: Channeled Drive
+Life: 20
+Discard 1: Overcharged Shot
+Discard 2: Impact Burst
 Special action available
-No active artifacts
-Removed artifacts: 
-  Autodeflector
+Active artifacts: 
   Shield Amulet
+  Hover Boots
+  Battlefist
+  Autodeflector
+Removed artifacts: 
+  Phase Goggles
 
 Seth
 ----
-Life: 14
-Discard 1: Wyrding Burst
-Discard 2: Compelling Drive
+Life: 13
+Discard 1: Fool's Grasp
+Discard 2: Vanishing Omen
 Special action available
 
 
-.S...R.
+.R....S
 
-Unbeatable strategy for Seth: Mimic's Shot (Shot): -0.19
+Unbeatable strategy for Runika: Maintenance Grasp: 0.32
 
 
 Runika:
-81% Maintenance Tinker
-6% Maintenance Strike
-2% Maintenance Shot
-8% Maintenance Grasp
-3% Impact Shot
+15% Maintenance Tinker
+0% Maintenance Strike
+71% Maintenance Grasp
+14% Explosive Dash
 
 Seth:
-10% Mimic's Shot (Strike)
-2% Mimic's Shot (Shot)
-2% Vanishing Omen (Tinker)
-58% Vanishing Shot (Strike)
-29% Vanishing Shot (Grasp)
-
-
-Runika: Maintenance Tinker
-Seth: Mimic's Shot (Strike)
-
-Priorities:  2 | 2
-Clash!
+18% Wyrding Strike (Tinker)
+13% Wyrding Strike (Strike)
+13% Compelling Strike (Tinker)
+13% Compelling Strike (Strike)
+11% Compelling Strike (Drive)
+13% Compelling Strike (Grasp)
+13% Compelling Strike (Dash)
+8% Compelling Shot (Tinker)
 
 
 Runika: Maintenance Grasp
-Seth: Mimic's Omen (Strike)
+Seth: Wyrding Strike (Tinker)
 
-Priorities:  4 | 1
+Priorities:  6 | 4
 Runika is active
 Runika misses
 Runika moves:
 
-.S....R
+R.....S
 
 Seth misses
 
@@ -512,431 +522,351 @@ Beat 9
 
 Runika
 ------
-Life: 14
+Life: 20
 Discard 1: Maintenance Grasp
-Discard 2: Explosive Burst
+Discard 2: Overcharged Shot
 Special action available
-No active artifacts
-Removed artifacts: 
-  Autodeflector
+Active artifacts: 
   Shield Amulet
+  Hover Boots
+  Battlefist
+  Autodeflector
+Removed artifacts: 
+  Phase Goggles
 
 Seth
 ----
-Life: 14
-Discard 1: Mimic's Omen
-Discard 2: Wyrding Burst
+Life: 13
+Discard 1: Wyrding Strike
+Discard 2: Fool's Grasp
 Special action available
 
 
-..S...R
+R.....S
 
-Unbeatable strategy for Seth: Vanishing Shot (Tinker): -0.32
-Unbeatable strategy for Seth: Vanishing Shot (Strike): -0.32
-Unbeatable strategy for Seth: Vanishing Shot (Shot): -0.32
-Unbeatable strategy for Seth: Vanishing Shot (Drive): -0.32
-Unbeatable strategy for Seth: Vanishing Shot (Dash): -0.32
+Unbeatable strategy for Runika: Explosive Tinker: 0.99
+Unbeatable strategy for Runika: Explosive Strike: 0.53
 
 
 Runika:
-15% Channeled Tinker
-0% Channeled Strike
-3% Channeled Drive
-4% Impact Strike
-5% Impact Drive
-67% Impact Dash
-6% Overcharged Shot
-1% Overcharged Drive
+100% Explosive Tinker
 
 Seth:
-23% Vanishing Shot (Tinker)
-12% Vanishing Shot (Shot)
-17% Vanishing Drive (Tinker)
-7% Vanishing Drive (Drive)
-34% Vanishing Dash (Shot)
-2% Compelling Shot (Shot)
-3% Compelling Shot (Drive)
-2% Compelling Drive (Tinker)
+24% Compelling Burst (Tinker)
+24% Compelling Burst (Strike)
+9% Compelling Burst (Drive)
+20% Compelling Burst (Burst)
+24% Compelling Burst (Dash)
 
 
-Runika: Overcharged Shot
-Seth: Vanishing Dash (Shot)
+Runika: Explosive Tinker
+Seth: Compelling Burst (Strike)
 
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  2 | 11
-Seth is active
+Priorities:  5 | 1
+Runika is active
+Runika moves Seth:
+
+R....S.
+
 Seth moves:
 
-.S....R
-
-No active artifacts to overcharge
-Seth moves:
-
-S.....R
+R.....S
 
 Runika misses
+No artifacts to activate
+Seth moves Runika:
+
+.R....S
+
+Seth misses
+Seth moves Runika:
+
+..R...S
+
 
 Beat 10
 -------
 
 Runika
 ------
-Life: 14
-Discard 1: Overcharged Shot
+Life: 20
+Discard 1: Explosive Tinker
 Discard 2: Maintenance Grasp
 Special action available
-No active artifacts
-Removed artifacts: 
-  Autodeflector
+Active artifacts: 
   Shield Amulet
+  Hover Boots
+  Battlefist
+  Autodeflector
+Removed artifacts: 
+  Phase Goggles
 
 Seth
 ----
-Life: 14
-Discard 1: Vanishing Dash
-Discard 2: Mimic's Omen
+Life: 13
+Discard 1: Compelling Burst
+Discard 2: Wyrding Strike
 Special action available
 
 
-S.....R
+..R...S
 
 
 Runika:
-43% Channeled Tinker
-52% Explosive Tinker
-5% Explosive Strike
+19% Impact Shot
+39% Impact Drive
+30% Impact Burst
+12% Overcharged Shot
 
 Seth:
-15% Wyrding Strike (Strike)
-10% Wyrding Strike (Drive)
-10% Wyrding Strike (Burst)
-10% Wyrding Strike (Dash)
-5% Compelling Strike (Strike)
-49% Compelling Strike (Burst)
+40% Fool's Shot (Drive)
+39% Mimic's Shot (Shot)
+2% Vanishing Shot (Shot)
+18% Vanishing Drive (Drive)
 
 
-Runika: Explosive Tinker
-Seth: Wyrding Strike (Dash)
+Runika: Impact Drive
+Seth: Vanishing Shot (Shot)
 
-Priorities:  3 | 4
-Seth is active
-Runika moves Seth:
+Priorities:  6 | 2
+Runika is active
+Runika moves:
 
-.S....R
+...R..S
 
-Seth misses
-Runika misses
-Phase Goggles is activated
+Runika moves:
+
+.....RS
+
+Runika hits
+Seth takes 3 damage (now at 10 life)
+Seth is stunned
 
 Beat 11
 -------
 
 Runika
 ------
-Life: 14
-Discard 1: Explosive Tinker
-Discard 2: Overcharged Shot
+Life: 20
+Discard 1: Impact Drive
+Discard 2: Explosive Tinker
 Special action available
 Active artifacts: 
-  Phase Goggles
-Removed artifacts: 
-  Autodeflector
   Shield Amulet
+  Hover Boots
+  Battlefist
+  Autodeflector
+Removed artifacts: 
+  Phase Goggles
 
 Seth
 ----
-Life: 14
-Discard 1: Wyrding Strike
-Discard 2: Vanishing Dash
+Life: 10
+Discard 1: Vanishing Shot
+Discard 2: Compelling Burst
 Special action available
 
 
-.S....R
-
-Unbeatable strategy for Seth: Fool's Drive (Strike): -0.14
-Unbeatable strategy for Seth: Fool's Drive (Drive): -0.14
-Unbeatable strategy for Seth: Fool's Drive (Grasp): -0.14
-Unbeatable strategy for Seth: Fool's Drive (Dash): -0.14
-Unbeatable strategy for Seth: Mimic's Omen (Strike): -0.06
-Unbeatable strategy for Seth: Mimic's Omen (Drive): -0.06
-Unbeatable strategy for Seth: Mimic's Omen (Burst): -0.06
-Unbeatable strategy for Seth: Mimic's Omen (Grasp): -0.06
-Unbeatable strategy for Seth: Mimic's Omen (Dash): -0.07
-Unbeatable strategy for Seth: Mimic's Burst (Strike): -0.10
-Unbeatable strategy for Seth: Mimic's Burst (Drive): -0.10
-Unbeatable strategy for Seth: Mimic's Burst (Burst): -0.10
-Unbeatable strategy for Seth: Mimic's Burst (Grasp): -0.10
-Unbeatable strategy for Seth: Mimic's Burst (Dash): -0.10
-Unbeatable strategy for Seth: Mimic's Grasp (Strike): -0.01
-Unbeatable strategy for Seth: Mimic's Grasp (Drive): -0.01
-Unbeatable strategy for Seth: Mimic's Grasp (Burst): -0.01
-Unbeatable strategy for Seth: Mimic's Grasp (Grasp): -0.01
-Unbeatable strategy for Seth: Mimic's Grasp (Dash): -0.01
-Unbeatable strategy for Seth: Compelling Omen (Drive): -0.07
-Unbeatable strategy for Seth: Compelling Shot (Strike): -2.10
-Unbeatable strategy for Seth: Compelling Shot (Drive): -2.10
-Unbeatable strategy for Seth: Compelling Shot (Burst): -2.60
-Unbeatable strategy for Seth: Compelling Shot (Grasp): -2.10
-Unbeatable strategy for Seth: Compelling Shot (Dash): -2.10
-Unbeatable strategy for Seth: Compelling Burst (Drive): -0.34
-Unbeatable strategy for Seth: Compelling Burst (Burst): -0.34
-Unbeatable strategy for Seth: Compelling Burst (Grasp): -0.34
-Unbeatable strategy for Seth: Compelling Burst (Dash): -0.34
+.....RS
 
 
 Runika:
-14% Channeled Burst
-32% Maintenance Strike
-54% Maintenance Grasp
+5% Channeled Strike
+4% Maintenance Grasp
+38% Overcharged Strike
+36% Overcharged Shot
+18% Overcharged Burst
 
 Seth:
-67% Compelling Shot (Strike)
-30% Compelling Shot (Burst)
-3% Compelling Shot (Grasp)
+36% Fool's Omen (Shot)
+21% Mimic's Strike (Shot)
+16% Mimic's Drive (Strike)
+18% Mimic's Grasp (Shot)
+10% Mimic's Grasp (Grasp)
 
 
-Runika: Channeled Burst
-Seth: Compelling Shot (Strike)
+Runika: Overcharged Strike
+Seth: Mimic's Grasp (Grasp)
 
-Priorities:  2 | 2
+Priorities:  5 | 5
 Clash!
 
 
-Runika: Channeled Grasp
-Seth: Compelling Drive (Strike)
+Runika: Overcharged Shot
+Seth: Mimic's Strike (Grasp)
 
-Priorities:  6 | 4
+Priorities:  4 | 3
 Runika is active
-Battlefist is activated
-Runika misses
-Seth moves Runika:
-
-.S...R.
-
-Seth moves:
-
-...S.R.
-
-Seth misses
-Seth moves Runika:
-
-...SR..
-
-Battlefist is de-activated
+Runika overcharges her Battlefist
+Runika hits
+Seth takes 6 damage (now at 4 life)
+Seth is stunned
+Battlefist is removed from the game
 
 Beat 12
 -------
 
 Runika
 ------
-Life: 14
-Discard 1: Channeled Grasp
-Discard 2: Explosive Tinker
+Life: 20
+Discard 1: Overcharged Shot
+Discard 2: Impact Drive
 Special action available
 Active artifacts: 
-  Phase Goggles
-Removed artifacts: 
+  Hover Boots
   Autodeflector
   Shield Amulet
+Removed artifacts: 
+  Phase Goggles
+  Battlefist
 
 Seth
 ----
-Life: 14
-Discard 1: Compelling Drive
-Discard 2: Wyrding Strike
+Life: 4
+Discard 1: Mimic's Strike
+Discard 2: Vanishing Shot
 Special action available
 
 
-...SR..
-
-Unbeatable strategy for Seth: Mimic's Grasp (Strike): -0.10
+.....RS
 
 
 Runika:
-31% Maintenance Strike
-11% Maintenance Drive
-48% Maintenance Dash
-8% Impact Shot
-1% Impact Drive
-1% Overcharged Drive
+2% Channeled Tinker
+7% Channeled Strike
+20% Maintenance Tinker
+9% Explosive Tinker
+7% Explosive Strike
+18% Explosive Burst
+15% Explosive Grasp
+23% Explosive Dash
 
 Seth:
-3% Mimic's Omen (Strike)
-17% Mimic's Omen (Dash)
-33% Mimic's Shot (Strike)
-19% Mimic's Shot (Drive)
-14% Mimic's Burst (Shot)
-14% Mimic's Burst (Drive)
+14% Fool's Drive (Tinker)
+4% Wyrding Drive (Strike)
+13% Wyrding Drive (Grasp)
+13% Wyrding Grasp (Burst)
+20% Wyrding Dash (Burst)
+29% Wyrding Dash (Dash)
+4% Compelling Drive (Tinker)
+2% Compelling Drive (Strike)
 
 
-Runika: Impact Shot
-Seth: Mimic's Omen (Dash)
+Runika: Explosive Dash
+Seth: Wyrding Dash (Dash)
 
-Priorities:  2 | 1
-Runika is active
-Runika moves:
-
-...S...
-
-Runika hits
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  11 | 12
+Seth is active
+Seth selects Drive as his new base
 Runika moves Seth:
 
-S..R...
+....SR.
 
-Seth takes 2 damage (now at 12 life)
-Seth is stunned
+Seth moves:
+
+.....RS
+
+Seth hits
+Autodeflector is de-activated
+Runika takes 5 damage (now at 15 life)
+Runika is stunned
 
 Beat 13
 -------
 
 Runika
 ------
-Life: 14
-Discard 1: Impact Shot
-Discard 2: Channeled Grasp
+Life: 15
+Discard 1: Explosive Dash
+Discard 2: Overcharged Shot
 Special action available
 Active artifacts: 
-  Phase Goggles
-Removed artifacts: 
-  Autodeflector
+  Hover Boots
   Shield Amulet
+Removed artifacts: 
+  Phase Goggles
+  Battlefist
 
 Seth
 ----
-Life: 12
-Discard 1: Mimic's Omen
-Discard 2: Compelling Drive
+Life: 4
+Discard 1: Wyrding Dash Drive
+Discard 2: Mimic's Strike
 Special action available
 
 
-S..R...
-
-Unbeatable strategy for Seth: Wyrding Shot (Drive): -0.69
+.....RS
 
 
 Runika:
-36% Maintenance Tinker
-3% Maintenance Burst
-1% Explosive Strike
-8% Explosive Drive
-45% Explosive Dash
-6% Overcharged Strike
+22% Channeled Drive
+25% Channeled Burst
+35% Maintenance Tinker
+18% Maintenance Strike
 
 Seth:
-10% Vanishing Shot (Drive)
-10% Vanishing Burst (Tinker)
-43% Wyrding Shot (Tinker)
-15% Wyrding Shot (Drive)
-6% Wyrding Burst (Drive)
-16% Wyrding Dash (Dash)
+45% Fool's Omen (Burst)
+26% Fool's Shot (Tinker)
+12% Vanishing Shot (Burst)
+17% Compelling Shot (Burst)
 
 
-Runika: Explosive Dash
-Seth: Wyrding Shot (Drive)
+Runika: Maintenance Strike
+Seth: Vanishing Shot (Burst)
 
-Priorities:  9 | 3
+Priorities:  4 | 2
 Runika is active
-Runika moves Seth:
-
-.S.R...
-
+Runika hits
+Seth takes 3 damage (now at 1 life)
+Seth is stunned
 Runika moves:
 
-RS.....
+...R..S
 
-Seth misses
 
 Beat 14
 -------
 
 Runika
 ------
-Life: 14
-Discard 1: Explosive Dash
-Discard 2: Impact Shot
-Special action available
-Active artifacts: 
-  Phase Goggles
-Removed artifacts: 
-  Autodeflector
-  Shield Amulet
-
-Seth
-----
-Life: 12
-Discard 1: Wyrding Shot
-Discard 2: Mimic's Omen
-Special action available
-
-
-RS.....
-
-
-Runika:
-10% Channeled Strike
-5% Channeled Drive
-69% Maintenance Tinker
-11% Overcharged Drive
-5% Overcharged Grasp
-
-Seth:
-13% Fool's Burst (Tinker)
-20% Vanishing Strike (Drive)
-24% Compelling Strike (Tinker)
-43% Compelling Strike (Strike)
-1% Compelling Drive (Tinker)
-
-
-Runika: Channeled Strike
-Seth: Compelling Strike (Tinker)
-
-Priorities:  4 | 3
-Runika is active
-Battlefist is activated
-Runika hits
-Seth takes 6 damage (now at 6 life)
-Seth is stunned
-Battlefist is de-activated
-
-Beat 15
--------
-
-Runika
-------
-Life: 14
-Discard 1: Channeled Strike
+Life: 15
+Discard 1: Maintenance Strike
 Discard 2: Explosive Dash
 Special action available
 Active artifacts: 
-  Phase Goggles
-Removed artifacts: 
-  Autodeflector
+  Hover Boots
   Shield Amulet
+Removed artifacts: 
+  Phase Goggles
+  Battlefist
 
 Seth
 ----
-Life: 6
-Discard 1: Compelling Strike
-Discard 2: Wyrding Shot
+Life: 1
+Discard 1: Vanishing Shot
+Discard 2: Wyrding Dash Drive
 Special action available
 
 
-RS.....
+...R..S
 
-Unbeatable strategy for Runika: Maintenance Tinker: 11.00
-Unbeatable strategy for Runika: Maintenance Drive: 11.00
-Unbeatable strategy for Runika: Impact Tinker: 11.00
-Unbeatable strategy for Runika: Impact Shot: 11.00
-Unbeatable strategy for Runika: Overcharged Tinker: 11.00
-Unbeatable strategy for Runika: Overcharged Shot: 11.00
+Unbeatable strategy for Runika: Overcharged Shot: 6.00
 
 
 Runika:
-50% Impact Tinker
-50% Overcharged Tinker
+23% Channeled Burst
+1% Impact Shot
+0% Impact Drive
+0% Impact Burst
+76% Overcharged Shot
 
 Seth:
+0% Fool's Omen (Shot)
+0% Mimic's Burst (Burst)
+0% Compelling Omen (Shot)
+1% Compelling Burst (Burst)
 20% Special Pulse (Tinker)
 20% Special Pulse (Shot)
 20% Special Pulse (Drive)
@@ -944,155 +874,120 @@ Seth:
 20% Special Pulse (Grasp)
 
 
-Runika: Overcharged Tinker
-Seth: Special Pulse (Grasp)
+Runika: Channeled Burst
+Seth: Special Pulse (Tinker)
 
 Seth Pulses:
 
 .RS....
 
 
-Beat 15
+Beat 14
 -------
 
 Runika
 ------
-Life: 14
-Discard 1: Overcharged Tinker
-Discard 2: Channeled Strike
+Life: 15
+Discard 1: Channeled Burst
+Discard 2: Maintenance Strike
 Special action available
 Active artifacts: 
-  Phase Goggles
-Removed artifacts: 
-  Autodeflector
+  Hover Boots
   Shield Amulet
+Removed artifacts: 
+  Phase Goggles
+  Battlefist
 
 Seth
 ----
-Life: 6
-Discard 1: Compelling Strike
-Discard 2: Wyrding Shot
+Life: 1
+Discard 1: Vanishing Shot
+Discard 2: Wyrding Dash Drive
 
 
 .RS....
 
-Unbeatable strategy for Runika: Maintenance Drive: 11.00
-Unbeatable strategy for Runika: Maintenance Dash: 11.00
-Unbeatable strategy for Runika: Explosive Shot: 11.00
-Unbeatable strategy for Runika: Impact Shot: 11.00
+Unbeatable strategy for Runika: Overcharged Shot: 6.00
 
 
 Runika:
-7% Maintenance Shot
-7% Maintenance Drive
-7% Maintenance Burst
-7% Maintenance Grasp
-7% Maintenance Dash
-7% Explosive Shot
-7% Explosive Drive
-7% Explosive Burst
-7% Explosive Grasp
-7% Explosive Dash
-7% Impact Shot
-7% Impact Drive
-7% Impact Burst
-7% Impact Grasp
-7% Impact Dash
+100% Overcharged Shot
 
 Seth:
+1% Fool's Omen (Tinker)
 1% Fool's Omen (Shot)
 1% Fool's Omen (Drive)
-1% Fool's Omen (Burst)
 1% Fool's Omen (Grasp)
 1% Fool's Omen (Dash)
-1% Fool's Drive (Shot)
-1% Fool's Drive (Drive)
-1% Fool's Drive (Burst)
-1% Fool's Drive (Grasp)
-1% Fool's Drive (Dash)
-1% Fool's Burst (Shot)
-1% Fool's Burst (Drive)
-1% Fool's Burst (Burst)
+1% Fool's Strike (Tinker)
+1% Fool's Strike (Shot)
+1% Fool's Strike (Drive)
+1% Fool's Strike (Grasp)
+1% Fool's Strike (Dash)
+1% Fool's Burst (Tinker)
+2% Fool's Burst (Shot)
+2% Fool's Burst (Drive)
 1% Fool's Burst (Grasp)
-1% Fool's Burst (Dash)
+2% Fool's Burst (Dash)
+1% Fool's Grasp (Tinker)
 1% Fool's Grasp (Shot)
 1% Fool's Grasp (Drive)
-1% Fool's Grasp (Burst)
 1% Fool's Grasp (Grasp)
 1% Fool's Grasp (Dash)
-1% Fool's Dash (Shot)
-1% Fool's Dash (Drive)
-1% Fool's Dash (Burst)
-1% Fool's Dash (Grasp)
-1% Fool's Dash (Dash)
-1% Mimic's Omen (Shot)
-1% Mimic's Omen (Drive)
-1% Mimic's Omen (Burst)
-1% Mimic's Omen (Grasp)
-1% Mimic's Omen (Dash)
-1% Mimic's Drive (Shot)
-1% Mimic's Drive (Drive)
-1% Mimic's Drive (Burst)
-1% Mimic's Drive (Grasp)
-1% Mimic's Drive (Dash)
+2% Mimic's Omen (Tinker)
+2% Mimic's Omen (Shot)
+2% Mimic's Omen (Drive)
+2% Mimic's Omen (Grasp)
+2% Mimic's Omen (Dash)
+2% Mimic's Strike (Tinker)
+2% Mimic's Strike (Shot)
+2% Mimic's Strike (Drive)
+2% Mimic's Strike (Grasp)
+2% Mimic's Strike (Dash)
+1% Mimic's Burst (Tinker)
 1% Mimic's Burst (Shot)
 1% Mimic's Burst (Drive)
-1% Mimic's Burst (Burst)
 1% Mimic's Burst (Grasp)
 1% Mimic's Burst (Dash)
-1% Mimic's Grasp (Shot)
-1% Mimic's Grasp (Drive)
-1% Mimic's Grasp (Burst)
-1% Mimic's Grasp (Grasp)
-1% Mimic's Grasp (Dash)
-1% Mimic's Dash (Shot)
-1% Mimic's Dash (Drive)
-1% Mimic's Dash (Burst)
-1% Mimic's Dash (Grasp)
-1% Mimic's Dash (Dash)
-1% Vanishing Omen (Shot)
-1% Vanishing Omen (Drive)
-1% Vanishing Omen (Burst)
-1% Vanishing Omen (Grasp)
-1% Vanishing Omen (Dash)
-1% Vanishing Drive (Shot)
-1% Vanishing Drive (Drive)
-1% Vanishing Drive (Burst)
-1% Vanishing Drive (Grasp)
-1% Vanishing Drive (Dash)
-1% Vanishing Burst (Shot)
-1% Vanishing Burst (Drive)
-1% Vanishing Burst (Burst)
-1% Vanishing Burst (Grasp)
-1% Vanishing Burst (Dash)
-1% Vanishing Grasp (Shot)
-1% Vanishing Grasp (Drive)
-1% Vanishing Grasp (Burst)
-1% Vanishing Grasp (Grasp)
-1% Vanishing Grasp (Dash)
-1% Vanishing Dash (Shot)
-1% Vanishing Dash (Drive)
-1% Vanishing Dash (Burst)
-1% Vanishing Dash (Grasp)
-2% Vanishing Dash (Dash)
+2% Mimic's Grasp (Tinker)
+2% Mimic's Grasp (Shot)
+2% Mimic's Grasp (Drive)
+2% Mimic's Grasp (Grasp)
+2% Mimic's Grasp (Dash)
+2% Compelling Omen (Tinker)
+2% Compelling Omen (Shot)
+2% Compelling Omen (Drive)
+2% Compelling Omen (Grasp)
+2% Compelling Omen (Dash)
+2% Compelling Strike (Tinker)
+2% Compelling Strike (Shot)
+2% Compelling Strike (Drive)
+2% Compelling Strike (Grasp)
+2% Compelling Strike (Dash)
+2% Compelling Burst (Tinker)
+2% Compelling Burst (Shot)
+2% Compelling Burst (Drive)
+2% Compelling Burst (Grasp)
+2% Compelling Burst (Dash)
+2% Compelling Grasp (Tinker)
+2% Compelling Grasp (Shot)
+2% Compelling Grasp (Drive)
+2% Compelling Grasp (Grasp)
+2% Compelling Grasp (Dash)
 
 
-Runika: Maintenance Grasp
-Seth: Fool's Grasp (Dash)
+Runika: Overcharged Shot
+Seth: Mimic's Burst (Dash)
 
 Priorities:  4 | 1
 Runika is active
+Runika overcharges her Hover Boots
+Runika becomes the active player
+Seth moves:
+
+.R.S...
+
 Runika hits
-Runika moves Seth:
-
-SR.....
-
-Seth takes 1 damage (now at 5 life)
-Seth is stunned
-Runika moves:
-
-S.R....
-
-Game goes to time
+Seth takes 3 damage (now at 0 life)
 RUNIKA WINS!
-total_time: 45
+total_time: 47

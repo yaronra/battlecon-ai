@@ -11,69 +11,60 @@ Beat 1
 
 Lixis
 -----
-life: 20
-discard 1: Pruning Grasp
-discard 2: Rooted Strike
-special action
+Life: 20
+Discard 1: Pruning Grasp
+Discard 2: Rooted Strike
+Special action available
 
 Luc
 ---
-life: 20
-discard 1: Eternal Flash
-discard 2: Fusion Strike
-special action
+Life: 20
+Discard 1: Eternal Flash
+Discard 2: Fusion Strike
+Special action available
 2 Time tokens
 
 
 .L...l.
 
+
 Lixis:
-8% Venomous Drive
-36% Naturalizing Shot
-35% Vine Shot
-20% Vine Drive
-1% Vine Burst
+5% Venomous Drive
+31% Naturalizing Shot
+19% Naturalizing Burst
+37% Vine Drive
+7% Vine Burst
 
 Luc:
-1% Memento Shot
-6% Memento Drive
-7% Chrono Shot
-45% Chrono Shot (1 token)
-40% Chrono Dash
+7% Feinting Shot
+6% Feinting Drive
+20% Chrono Shot
+34% Chrono Shot (1 token)
+34% Chrono Burst
 
 
-Lixis: Naturalizing Shot
-Luc: Chrono Shot (1 token)
+Lixis: Vine Drive
+Luc: Chrono Burst
 
-Luc antes a Time token
-Priorities:  3 | 3
+Priorities:  2 | 2
 Clash!
 
-Lixis:
-7% Naturalizing Drive
-93% Naturalizing Burst
 
-Luc:
-91% Chrono Burst (1 token)
-9% Chrono Grasp (1 token)
+Lixis: Vine Shot
+Luc: Chrono Dash
 
-
-Lixis: Naturalizing Drive
-Luc: Chrono Burst (1 token)
-
-Luc antes a Time token
-Priorities:  5 | 2
-Lixis is active
+Priorities:  0 | 10
+Luc is active
+Luc spends a Time token
 Luc moves:
 
-.L....l
+.L..l..
 
-Lixis moves:
+Luc moves:
 
-..L...l
+lL.....
 
 Lixis misses
-Luc misses
 Luc gains 1 Time token
 
 Beat 2
@@ -81,48 +72,50 @@ Beat 2
 
 Lixis
 -----
-life: 20
-discard 1: Naturalizing Drive
-discard 2: Pruning Grasp
-special action
+Life: 20
+Discard 1: Vine Shot
+Discard 2: Pruning Grasp
+Special action available
 
 Luc
 ---
-life: 20
-discard 1: Chrono Burst
-discard 2: Eternal Flash
-special action
+Life: 20
+Discard 1: Chrono Dash
+Discard 2: Eternal Flash
+Special action available
 2 Time tokens
 
 
-..L...l
+lL.....
 
-Unbeatable strategy for Lixis: Vine Burst: 0.43
 
 Lixis:
-18% Rooted Shot
-42% Vine Lance
-40% Vine Burst
+4% Rooted Lance
+9% Rooted Strike
+38% Rooted Burst
+50% Naturalizing Strike
 
 Luc:
-50% Memento Dash
-39% Fusion Shot (1 token)
-11% Feinting Shot
+23% Memento Drive
+27% Memento Drive (1 token)
+35% Fusion Strike
+15% Fusion Drive
 
 
-Lixis: Vine Lance
-Luc: Memento Dash
+Lixis: Rooted Burst
+Luc: Memento Drive (1 token)
 
-Priorities:  3 | 8
+Luc antes a Time token
+Priorities:  -1 | 4
 Luc is active
 Luc moves:
 
-..L.l..
+.Ll....
 
-Lixis hits
-Luc discards Grasp
-Luc takes 3 damage (now at 17 life)
-Luc is stunned
+Luc hits
+Lixis has 2 soak
+Lixis takes 1 damage (now at 19 life)
+Lixis is stunned
 Luc gains 1 Time token
 
 Beat 3
@@ -130,53 +123,53 @@ Beat 3
 
 Lixis
 -----
-life: 20
-discard 1: Vine Lance
-discard 2: Naturalizing Drive
-special action
+Life: 19
+Discard 1: Rooted Burst
+Discard 2: Vine Shot
+Special action available
 
 Luc
 ---
-life: 17
-discard 1: Memento Grasp Dash
-discard 2: Chrono Burst
-special action
-3 Time tokens
+Life: 20
+Discard 1: Memento Drive
+Discard 2: Chrono Dash
+Special action available
+2 Time tokens
 
 
-..L.l..
+.Ll....
+
 
 Lixis:
-9% Venomous Strike
-42% Rooted Shot
-31% Rooted Burst
-15% Pruning Shot
-3% Pruning Burst
+16% Venomous Strike
+14% Venomous Drive
+1% Naturalizing Strike
+5% Naturalizing Drive
+64% Pruning Dash
 
 Luc:
-6% Eternal Flash
-20% Eternal Strike
-62% Eternal Shot
-10% Eternal Drive
-2% Fusion Flash
+63% Eternal Shot
+16% Eternal Burst
+2% Fusion Strike (1 token)
+7% Fusion Grasp
+12% Feinting Grasp (1 token)
 
 
-Lixis: Rooted Shot
+Lixis: Venomous Strike
 Luc: Eternal Shot
 
-Priorities:  0 | -2
+Priorities:  3 | -2
 Lixis is active
 Lixis hits
-Luc discards Strike
+Luc will have -2 priority next beat
+Luc discards Flash
 Luc spends a Time token
 Luc spends a Time token
-Luc spends a Time token
-Luc gains +3 soak (4 total)
-Luc has 4 soak
-Luc takes 0 damage (now at 17 life)
+Luc gains +2 soak (3 total)
+Luc has 3 soak
+Luc takes 2 damage (now at 18 life)
 Luc hits
-Lixis has 2 soak
-Lixis takes 1 damage (now at 19 life)
+Lixis takes 3 damage (now at 16 life)
 Luc gains 1 Time token
 
 Beat 4
@@ -184,55 +177,64 @@ Beat 4
 
 Lixis
 -----
-life: 19
-discard 1: Rooted Shot
-discard 2: Vine Lance
-special action
+Life: 16
+Discard 1: Venomous Strike
+Discard 2: Rooted Burst
+Special action available
+Opponent has priority penalty: -2
 
 Luc
 ---
-life: 17
-discard 1: Eternal Strike Shot
-discard 2: Memento Grasp Dash
-special action
-1 Time tokens
+Life: 18
+Discard 1: Eternal Flash Shot
+Discard 2: Memento Drive
+Special action available
+1 Time token
 
 
-..L.l..
+.Ll....
+
 
 Lixis:
-27% Venomous Drive
-10% Naturalizing Drive
-45% Naturalizing Burst
-13% Pruning Drive
-5% Pruning Burst
+56% Naturalizing Drive
+22% Naturalizing Grasp
+11% Vine Lance
+9% Pruning Lance
+2% Pruning Grasp
 
 Luc:
-43% Feinting Burst
-17% Chrono Flash
-24% Chrono Drive
-13% Chrono Drive (1 token)
-2% Chrono Burst
+16% Fusion Strike
+11% Feinting Burst
+20% Feinting Dash
+26% Feinting Dash (1 token)
+27% Chrono Dash
 
 
-Lixis: Naturalizing Burst
-Luc: Chrono Flash
+Lixis: Naturalizing Drive
+Luc: Feinting Burst
 
-Priorities:  2 | 7
-Luc is active
+Priorities:  5 | -3
+Lixis is active
 Luc moves:
-
-..Ll...
-
-Lixis moves:
 
 .L.l...
 
-Luc misses
+Luc moves:
+
+.L..l..
+
+Lixis moves:
+
+..L.l..
+
 Lixis hits
-Luc discards Drive
-Luc takes 2 damage (now at 15 life)
+Luc discards Strike
+Luc takes 2 damage (now at 16 life)
 Luc is stunned
+Luc moves:
+
+.lL....
+
 Luc gains 1 Time token
 
 Beat 5
@@ -240,42 +242,44 @@ Beat 5
 
 Lixis
 -----
-life: 19
-discard 1: Naturalizing Burst
-discard 2: Rooted Shot
-special action
+Life: 16
+Discard 1: Naturalizing Drive
+Discard 2: Venomous Strike
+Special action available
 
 Luc
 ---
-life: 15
-discard 1: Chrono Flash Drive
-discard 2: Eternal Strike Shot
-special action
+Life: 16
+Discard 1: Feinting Burst Strike
+Discard 2: Eternal Shot Flash
+Special action available
 2 Time tokens
 
 
-.L.l...
+.lL....
+
 
 Lixis:
-2% Venomous Drive
-97% Vine Drive
-2% Vine Dash
+46% Rooted Lance
+8% Rooted Shot
+46% Pruning Grasp
 
 Luc:
-56% Memento Dash
-0% Fusion Burst
-34% Fusion Dash
-10% Feinting Dash
+49% Memento Dash
+43% Chrono Drive
+8% Chrono Grasp (1 token)
 
 
-Lixis: Vine Drive
+Lixis: Pruning Grasp
 Luc: Memento Dash
 
-Priorities:  2 | 8
+Lixis gets +4 power
+Lixis gets +4 priority
+Priorities:  7 | 8
 Luc is active
 Luc moves:
 
-lL.....
+l.L....
 
 Lixis misses
 Luc gains 1 Time token
@@ -285,55 +289,48 @@ Beat 6
 
 Lixis
 -----
-life: 19
-discard 1: Vine Drive
-discard 2: Naturalizing Burst
-special action
+Life: 16
+Discard 1: Pruning Grasp
+Discard 2: Naturalizing Drive
+Special action available
 
 Luc
 ---
-life: 15
-discard 1: Memento Dash
-discard 2: Chrono Flash Drive
-special action
+Life: 16
+Discard 1: Memento Dash
+Discard 2: Feinting Burst Strike
+Special action available
 3 Time tokens
 
 
-lL.....
+l.L....
+
 
 Lixis:
-19% Rooted Lance
-58% Rooted Strike
-23% Rooted Shot
+2% Rooted Lance
+98% Rooted Shot
 
 Luc:
-83% Eternal Strike
-6% Fusion Strike (3 tokens)
-11% Feinting Shot (3 tokens)
+99% Eternal Shot
+1% Eternal Drive (1 token)
 
 
 Lixis: Rooted Shot
-Luc: Fusion Strike (3 tokens)
+Luc: Eternal Shot
 
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  0 | 4
-Luc is active
-Luc moves:
-
-.Ll....
-
+Priorities:  0 | -2
+Lixis is active
+Lixis hits
+Luc discards Drive
+Luc spends a Time token
+Luc spends a Time token
+Luc spends a Time token
+Luc gains +3 soak (4 total)
+Luc has 4 soak
+Luc takes 0 damage (now at 16 life)
 Luc hits
 Lixis has 2 soak
-Lixis takes 1 damage (now at 18 life)
-Luc moves Lixis:
-
-L.l....
-
-Lixis hits
-Luc discards Grasp
-Luc takes 4 damage (now at 11 life)
+Lixis takes 1 damage (now at 15 life)
 Luc gains 1 Time token
 
 Beat 7
@@ -341,55 +338,71 @@ Beat 7
 
 Lixis
 -----
-life: 18
-discard 1: Rooted Shot
-discard 2: Vine Drive
-special action
+Life: 15
+Discard 1: Rooted Shot
+Discard 2: Pruning Grasp
+Special action available
 
 Luc
 ---
-life: 11
-discard 1: Fusion Strike Grasp
-discard 2: Memento Dash
-special action
-1 Time tokens
+Life: 16
+Discard 1: Eternal Shot Drive
+Discard 2: Memento Dash
+Special action available
+1 Time token
 
 
-L.l....
+l.L....
 
-Unbeatable strategy for Luc: Chrono Burst: -0.42
-Unbeatable strategy for Luc: Chrono Burst (1 token): -0.02
 
 Lixis:
-12% Venomous Lance
-7% Venomous Burst
-21% Naturalizing Lance
-46% Naturalizing Burst
-16% Pruning Lance
+47% Venomous Lance
+24% Venomous Strike
+2% Venomous Drive
+26% Venomous Burst
 
 Luc:
-29% Eternal Burst
-12% Feinting Burst
-12% Chrono Shot
-22% Chrono Drive
-24% Chrono Burst
+25% Feinting Flash (1 token)
+46% Feinting Strike
+7% Feinting Grasp (1 token)
+22% Chrono Burst
 
 
-Lixis: Pruning Lance
-Luc: Eternal Burst
+Lixis: Venomous Lance
+Luc: Feinting Flash (1 token)
 
-Lixis gets +3 power
-Lixis gets +3 priority
-Priorities:  6 | -3
+Luc antes a Time token
+Priorities:  5 | 5
+Clash!
+
+
+Lixis: Venomous Drive
+Luc: Feinting Grasp (1 token)
+
+Luc antes a Time token
+Priorities:  4 | 4
+Clash!
+
+
+Lixis: Venomous Strike
+Luc: Feinting Strike (1 token)
+
+Luc antes a Time token
+Priorities:  3 | 2
 Lixis is active
+Lixis moves:
+
+lL.....
+
+Lixis hits
+Luc will have -2 priority next beat
+Luc discards Flash
+Luc takes 5 damage (now at 11 life)
+Luc misses
 Luc moves:
 
-L..l...
+.Ll....
 
-Lixis misses
-Luc hits
-Lixis takes 3 damage (now at 15 life)
-Lixis is stunned
 Luc gains 1 Time token
 
 Beat 8
@@ -397,55 +410,45 @@ Beat 8
 
 Lixis
 -----
-life: 15
-discard 1: Pruning Lance
-discard 2: Rooted Shot
-special action
+Life: 15
+Discard 1: Venomous Strike
+Discard 2: Rooted Shot
+Special action available
+Opponent has priority penalty: -2
 
 Luc
 ---
-life: 11
-discard 1: Eternal Burst
-discard 2: Fusion Strike Grasp
-special action
-2 Time tokens
+Life: 11
+Discard 1: Feinting Flash Strike
+Discard 2: Eternal Drive Shot
+Special action available
+1 Time token
 
 
-L..l...
+.Ll....
+
 
 Lixis:
-11% Venomous Drive
-7% Venomous Grasp
-5% Naturalizing Strike
-14% Naturalizing Drive
-9% Naturalizing Grasp
-31% Vine Strike
-22% Vine Drive
+50% Vine Lance
+50% Pruning Drive
 
 Luc:
-1% Memento Drive
-3% Memento Dash
-2% Feinting Flash
-1% Feinting Flash (1 token)
-92% Feinting Dash
-0% Chrono Flash
-1% Chrono Drive
+31% Memento Grasp
+69% Chrono Dash
 
 
-Lixis: Venomous Grasp
-Luc: Feinting Dash
+Lixis: Vine Lance
+Luc: Memento Grasp
 
-Priorities:  5 | 7
-Luc is active
-Luc moves:
-
-L...l..
-
+Priorities:  3 | 2
+Lixis is active
 Lixis misses
-Luc moves:
+Luc hits
+Luc moves Lixis:
 
 L.l....
 
+Lixis takes 2 damage (now at 13 life)
 Luc gains 1 Time token
 
 Beat 9
@@ -453,57 +456,44 @@ Beat 9
 
 Lixis
 -----
-life: 15
-discard 1: Venomous Grasp
-discard 2: Pruning Lance
-special action
+Life: 13
+Discard 1: Vine Lance
+Discard 2: Venomous Strike
+Special action available
 
 Luc
 ---
-life: 11
-discard 1: Feinting Dash
-discard 2: Eternal Burst
-special action
-3 Time tokens
+Life: 11
+Discard 1: Memento Grasp
+Discard 2: Feinting Flash Strike
+Special action available
+2 Time tokens
 
 
 L.l....
 
-Unbeatable strategy for Luc: Memento Flash: -1.04
-Unbeatable strategy for Luc: Memento Flash (1 token): -0.64
-Unbeatable strategy for Luc: Fusion Flash: -1.00
-Unbeatable strategy for Luc: Fusion Flash (1 token): -0.60
-Unbeatable strategy for Luc: Chrono Flash: -1.25
-Unbeatable strategy for Luc: Chrono Flash (1 token): -0.85
-Unbeatable strategy for Luc: Chrono Flash (3 tokens): -0.05
 
 Lixis:
-10% Rooted Shot
-8% Rooted Dash
-10% Naturalizing Drive
-73% Naturalizing Dash
+51% Rooted Shot
+25% Rooted Drive
+24% Naturalizing Shot
 
 Luc:
-21% Memento Flash
-10% Chrono Flash
-68% Chrono Flash (1 token)
-2% Chrono Drive
+36% Eternal Shot
+61% Eternal Dash
+3% Chrono Drive
 
 
 Lixis: Rooted Shot
-Luc: Chrono Flash (1 token)
+Luc: Eternal Dash
 
-Luc antes a Time token
-Priorities:  0 | 8
+Priorities:  0 | 5
 Luc is active
 Luc moves:
 
-Ll.....
+L....l.
 
-Luc hits
-Lixis has 2 soak
-Lixis takes 0 damage (now at 15 life)
-Lixis is stunned
+Lixis misses
 Luc gains 1 Time token
 
 Beat 10
@@ -511,51 +501,63 @@ Beat 10
 
 Lixis
 -----
-life: 15
-discard 1: Rooted Shot
-discard 2: Venomous Grasp
-special action
+Life: 13
+Discard 1: Rooted Shot
+Discard 2: Vine Lance
+Special action available
 
 Luc
 ---
-life: 11
-discard 1: Chrono Flash
-discard 2: Feinting Dash
-special action
+Life: 11
+Discard 1: Eternal Dash
+Discard 2: Memento Grasp
+Special action available
 3 Time tokens
 
 
-Ll.....
+L....l.
+
 
 Lixis:
-32% Naturalizing Strike
-49% Naturalizing Drive
-7% Vine Strike
-11% Pruning Strike
+92% Naturalizing Burst
+5% Naturalizing Grasp
+3% Pruning Grasp
 
 Luc:
-82% Eternal Shot
-8% Eternal Burst
-6% Fusion Drive
-3% Fusion Burst
+48% Fusion Burst
+35% Feinting Drive
+17% Chrono Burst
 
 
-Lixis: Naturalizing Drive
-Luc: Eternal Shot
+Lixis: Naturalizing Burst
+Luc: Feinting Drive
 
-Priorities:  5 | -2
+Priorities:  2 | 2
+Clash!
+
+
+Lixis: Naturalizing Strike
+Luc: Feinting Flash
+
+Priorities:  4 | 4
+Clash!
+
+
+Lixis: Naturalizing Grasp
+Luc: Feinting Strike
+
+Priorities:  6 | 1
 Lixis is active
-Lixis moves:
+Luc moves:
 
-.l.L...
+L.....l
 
-Lixis hits
-Luc discards Strike
-Luc has 1 soak
-Luc takes 1 damage (now at 10 life)
-Luc hits
-Lixis takes 3 damage (now at 12 life)
-Lixis is stunned
+Lixis misses
+Luc misses
+Luc moves:
+
+L...l..
+
 Luc gains 1 Time token
 
 Beat 11
@@ -563,57 +565,53 @@ Beat 11
 
 Lixis
 -----
-life: 12
-discard 1: Naturalizing Drive
-discard 2: Rooted Shot
-special action
+Life: 13
+Discard 1: Naturalizing Grasp
+Discard 2: Rooted Shot
+Special action available
 
 Luc
 ---
-life: 10
-discard 1: Eternal Strike Shot
-discard 2: Chrono Flash
-special action
+Life: 11
+Discard 1: Feinting Strike
+Discard 2: Eternal Dash
+Special action available
 4 Time tokens
 
 
-.l.L...
+L...l..
+
+Unbeatable strategy for Luc: Fusion Shot (1 token): -0.02
+
 
 Lixis:
-39% Venomous Lance
-6% Venomous Burst
-2% Venomous Grasp
-14% Vine Lance
-18% Vine Burst
-22% Pruning Lance
+26% Venomous Lance
+30% Venomous Drive
+44% Vine Lance
 
 Luc:
-15% Memento Drive
-10% Memento Burst
-2% Memento Dash
-32% Fusion Drive
-18% Fusion Drive (3 tokens)
-21% Fusion Burst (1 token)
-2% Fusion Dash
+46% Memento Burst
+0% Fusion Burst
+24% Chrono Shot (1 token)
+30% Chrono Burst (1 token)
 
 
-Lixis: Vine Lance
-Luc: Fusion Drive (3 tokens)
+Lixis: Venomous Drive
+Luc: Chrono Burst (1 token)
 
 Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  3 | 5
-Luc is active
+Priorities:  4 | 3
+Lixis is active
+Luc moves:
+
+L.....l
+
+Lixis moves:
+
+..L...l
+
+Lixis misses
 Luc misses
-Lixis hits
-Lixis moves Luc:
-
-..lL...
-
-Luc discards Burst
-Luc takes 3 damage (now at 7 life)
-Luc is stunned
 Luc gains 1 Time token
 
 Beat 12
@@ -621,49 +619,49 @@ Beat 12
 
 Lixis
 -----
-life: 12
-discard 1: Vine Lance
-discard 2: Naturalizing Drive
-special action
+Life: 13
+Discard 1: Venomous Drive
+Discard 2: Naturalizing Grasp
+Special action available
 
 Luc
 ---
-life: 7
-discard 1: Fusion Burst Drive
-discard 2: Eternal Shot Strike
-special action
-2 Time tokens
+Life: 11
+Discard 1: Chrono Burst
+Discard 2: Feinting Strike
+Special action available
+4 Time tokens
 
 
-..lL...
+..L...l
 
-Unbeatable strategy for Luc: Memento Dash: -0.23
-Unbeatable strategy for Luc: Feinting Dash: -0.23
-Unbeatable strategy for Luc: Chrono Dash: -0.07
 
 Lixis:
-71% Venomous Shot
-5% Rooted Shot
-20% Rooted Burst
-3% Rooted Dash
+43% Rooted Shot
+11% Rooted Burst
+2% Vine Lance
+43% Pruning Burst
 
 Luc:
-1% Memento Flash
-40% Memento Dash
-59% Chrono Dash
-1% Special Temporal Recursion
+53% Eternal Shot
+6% Eternal Shot (3 tokens)
+11% Eternal Grasp
+30% Memento Dash
 
 
-Lixis: Venomous Shot
-Luc: Chrono Dash
+Lixis: Pruning Burst
+Luc: Eternal Shot
 
-Priorities:  2 | 10
-Luc is active
-Luc moves:
+Lixis gets +2 power
+Lixis gets +2 priority
+Priorities:  1 | -2
+Lixis is active
+Lixis moves:
 
-...Ll..
+L.....l
 
 Lixis misses
+Luc misses
 Luc gains 1 Time token
 
 Beat 13
@@ -671,56 +669,58 @@ Beat 13
 
 Lixis
 -----
-life: 12
-discard 1: Venomous Shot
-discard 2: Vine Lance
-special action
+Life: 13
+Discard 1: Pruning Burst
+Discard 2: Venomous Drive
+Special action available
 
 Luc
 ---
-life: 7
-discard 1: Chrono Dash
-discard 2: Fusion Burst Drive
-special action
-3 Time tokens
+Life: 11
+Discard 1: Eternal Shot
+Discard 2: Chrono Burst
+Special action available
+5 Time tokens
 
 
-...Ll..
+L.....l
+
+Unbeatable strategy for Lixis: Vine Shot: 0.24
+
 
 Lixis:
-24% Rooted Strike
-21% Rooted Drive
-32% Rooted Burst
-8% Rooted Grasp
-13% Naturalizing Drive
-1% Pruning Burst
+100% Vine Shot
 
 Luc:
-1% Eternal Flash
-40% Eternal Strike
-12% Eternal Strike (3 tokens)
-42% Eternal Shot
-2% Memento Flash
-4% Feinting Shot (3 tokens)
+100% Feinting Drive (3 tokens)
 
 
-Lixis: Rooted Drive
-Luc: Eternal Strike
+Lixis: Vine Shot
+Luc: Feinting Drive (3 tokens)
 
-Priorities:  2 | -1
-Lixis is active
-Lixis hits
-Luc discards Shot
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +3 soak (4 total)
-Luc has 4 soak
-Luc takes 0 damage (now at 7 life)
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  0 | 2
+Luc is active
+Luc moves:
+
+L...l..
+
+Luc moves:
+
+L.l....
+
 Luc hits
-Lixis has 2 soak
-Lixis takes 2 damage (now at 10 life)
-Lixis is stunned
+Lixis takes 3 damage (now at 10 life)
+Lixis hits
+Lixis moves Luc:
+
+Ll.....
+
+Luc discards Grasp
+Luc takes 3 damage (now at 8 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 14
@@ -728,57 +728,52 @@ Beat 14
 
 Lixis
 -----
-life: 10
-discard 1: Rooted Drive
-discard 2: Venomous Shot
-special action
+Life: 10
+Discard 1: Vine Shot
+Discard 2: Pruning Burst
+Special action available
 
 Luc
 ---
-life: 7
-discard 1: Eternal Shot Strike
-discard 2: Chrono Dash
-special action
-1 Time tokens
+Life: 8
+Discard 1: Feinting Drive Grasp
+Discard 2: Eternal Shot
+Special action available
+3 Time tokens
 
 
-...Ll..
+Ll.....
+
 
 Lixis:
-6% Vine Strike
-43% Vine Burst
-16% Vine Grasp
-3% Pruning Burst
-33% Pruning Grasp
+7% Venomous Drive
+2% Rooted Lance
+22% Rooted Strike
+22% Rooted Drive
+48% Naturalizing Drive
 
 Luc:
-22% Memento Drive
-22% Memento Drive (1 token)
-44% Fusion Flash
-7% Fusion Burst
-6% Feinting Burst
+28% Memento Dash
+36% Chrono Flash
+1% Chrono Strike
+6% Chrono Burst
+29% Chrono Burst (1 token)
 
 
-Lixis: Vine Grasp
-Luc: Memento Drive (1 token)
+Lixis: Rooted Drive
+Luc: Chrono Burst (1 token)
 
 Luc antes a Time token
-Priorities:  3 | 4
+Priorities:  2 | 3
 Luc is active
 Luc moves:
 
-..lL...
+L.l....
 
 Luc hits
-Lixis takes 3 damage (now at 7 life)
-Lixis hits
-Lixis moves Luc:
-
-.l.L...
-
-Luc discards Grasp
-Luc takes 2 damage (now at 5 life)
-Luc is stunned
+Lixis has 2 soak
+Lixis takes 1 damage (now at 9 life)
+Lixis is stunned
 Luc gains 1 Time token
 
 Beat 15
@@ -786,42 +781,44 @@ Beat 15
 
 Lixis
 -----
-life: 7
-discard 1: Vine Grasp
-discard 2: Rooted Drive
-special action
+Life: 9
+Discard 1: Rooted Drive
+Discard 2: Vine Shot
+Special action available
 
 Luc
 ---
-life: 5
-discard 1: Memento Grasp Drive
-discard 2: Eternal Shot Strike
-special action
-1 Time tokens
+Life: 8
+Discard 1: Chrono Burst
+Discard 2: Feinting Drive Grasp
+Special action available
+3 Time tokens
 
 
-.l.L...
+L.l....
 
-Unbeatable strategy for Lixis: Venomous Burst: 10.00
-Unbeatable strategy for Lixis: Venomous Dash: 10.00
-Unbeatable strategy for Lixis: Naturalizing Lance: 10.00
-Unbeatable strategy for Lixis: Naturalizing Shot: 10.00
 
 Lixis:
-67% Venomous Lance
-33% Venomous Strike
+64% Naturalizing Strike
+1% Naturalizing Grasp
+34% Naturalizing Dash
 
 Luc:
-2% Chrono Burst
+1% Eternal Shot
+0% Eternal Shot (1 token)
+0% Eternal Shot (3 tokens)
+0% Fusion Strike
+0% Fusion Strike (1 token)
+0% Fusion Strike (3 tokens)
 98% Special Pulse
 
 
-Lixis: Venomous Lance
+Lixis: Naturalizing Dash
 Luc: Special Pulse
 
-Pulse:
+Luc Pulses:
 
-.L....l
+Ll.....
 
 
 Beat 15
@@ -829,80 +826,131 @@ Beat 15
 
 Lixis
 -----
-life: 7
-discard 1: Venomous Lance
-discard 2: Vine Grasp
-special action
+Life: 9
+Discard 1: Naturalizing Dash
+Discard 2: Rooted Drive
+Special action available
 
 Luc
 ---
-life: 5
-discard 1: Memento Grasp Drive
-discard 2: Eternal Shot Strike
-1 Time tokens
+Life: 8
+Discard 1: Chrono Burst
+Discard 2: Feinting Drive Grasp
+3 Time tokens
 
 
-.L....l
+Ll.....
 
-Unbeatable strategy for Lixis: Rooted Strike: 10.00
-Unbeatable strategy for Lixis: Naturalizing Shot: 10.00
+Unbeatable strategy for Luc: Memento Flash (1 token): -14.00
+
 
 Lixis:
-7% Rooted Strike
-7% Rooted Shot
-7% Rooted Drive
-7% Rooted Burst
-7% Rooted Dash
-7% Naturalizing Strike
-7% Naturalizing Shot
-7% Naturalizing Burst
-7% Naturalizing Dash
-7% Pruning Strike
-7% Pruning Shot
-7% Pruning Burst
-7% Pruning Dash
-7% Special Virulent Miasma
+0% Venomous Grasp
+2% Pruning Grasp
+98% Special Pulse
 
 Luc:
-5% Fusion Flash
-6% Fusion Flash (1 token)
-5% Fusion Burst
-6% Fusion Burst (1 token)
-6% Fusion Dash
-6% Fusion Dash (1 token)
-5% Feinting Flash
-6% Feinting Flash (1 token)
-4% Feinting Burst
-4% Feinting Burst (1 token)
-6% Feinting Dash
-6% Feinting Dash (1 token)
-6% Chrono Flash
-6% Chrono Flash (1 token)
-4% Chrono Burst
-6% Chrono Burst (1 token)
-6% Chrono Dash
-6% Chrono Dash (1 token)
+34% Eternal Strike
+65% Eternal Shot
+1% Memento Strike
+1% Fusion Strike
 
 
-Lixis: Naturalizing Strike
-Luc: Feinting Dash (1 token)
+Lixis: Special Pulse
+Luc: Eternal Shot
+
+Lixis Pulses:
+
+L....l.
+
+
+Beat 15
+-------
+
+Lixis
+-----
+Life: 9
+Discard 1: Naturalizing Dash
+Discard 2: Rooted Drive
+
+Luc
+---
+Life: 8
+Discard 1: Eternal Shot
+Discard 2: Chrono Burst
+3 Time tokens
+
+
+L....l.
+
+
+Lixis:
+50% Vine Lance
+50% Vine Strike
+
+Luc:
+3% Memento Flash
+3% Memento Flash (1 token)
+2% Memento Flash (3 tokens)
+3% Memento Strike
+1% Memento Strike (1 token)
+3% Memento Strike (3 tokens)
+0% Memento Drive
+0% Memento Drive (1 token)
+0% Memento Drive (3 tokens)
+3% Memento Grasp
+1% Memento Grasp (1 token)
+3% Memento Grasp (3 tokens)
+3% Memento Dash
+3% Memento Dash (1 token)
+3% Memento Dash (3 tokens)
+3% Fusion Flash
+3% Fusion Flash (1 token)
+3% Fusion Flash (3 tokens)
+3% Fusion Strike
+3% Fusion Strike (1 token)
+3% Fusion Strike (3 tokens)
+3% Fusion Drive
+3% Fusion Drive (1 token)
+0% Fusion Drive (3 tokens)
+3% Fusion Grasp
+3% Fusion Grasp (1 token)
+3% Fusion Grasp (3 tokens)
+3% Fusion Dash
+3% Fusion Dash (1 token)
+3% Fusion Dash (3 tokens)
+3% Feinting Flash
+3% Feinting Flash (1 token)
+3% Feinting Flash (3 tokens)
+1% Feinting Strike
+3% Feinting Strike (1 token)
+3% Feinting Strike (3 tokens)
+3% Feinting Drive
+1% Feinting Drive (1 token)
+0% Feinting Drive (3 tokens)
+1% Feinting Grasp
+3% Feinting Grasp (1 token)
+3% Feinting Grasp (3 tokens)
+3% Feinting Dash
+3% Feinting Dash (1 token)
+3% Feinting Dash (3 tokens)
+
+
+Lixis: Vine Lance
+Luc: Fusion Dash (1 token)
 
 Luc antes a Time token
-Priorities:  4 | 7
+Priorities:  3 | 11
 Luc is active
 Luc moves:
 
-.L.l...
+L.l....
 
 Lixis hits
-Luc discards Flash
-Luc takes 3 damage (now at 2 life)
+Luc discards Strike
+Luc takes 3 damage (now at 5 life)
 Luc is stunned
-Luc moves:
-
-lL.....
-
 Luc gains 1 Time token
 Game goes to time
 LIXIS WINS!
-total_time: 25
+total_time: 48

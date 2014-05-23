@@ -27,11 +27,11 @@ Special action available
 
 .R...S.
 
-Unbeatable strategy for Seth: Compelling Dash (Strike): -0.62
-Unbeatable strategy for Seth: Compelling Dash (Drive): -0.62
-Unbeatable strategy for Seth: Compelling Dash (Burst): -0.62
-Unbeatable strategy for Seth: Compelling Dash (Grasp): -0.62
-Unbeatable strategy for Seth: Compelling Dash (Dash): -0.62
+Unbeatable strategy for Seth: Compelling Dash (Strike): -0.59
+Unbeatable strategy for Seth: Compelling Dash (Drive): -0.59
+Unbeatable strategy for Seth: Compelling Dash (Burst): -0.59
+Unbeatable strategy for Seth: Compelling Dash (Grasp): -0.59
+Unbeatable strategy for Seth: Compelling Dash (Dash): -0.59
 
 
 Rukyuk:
@@ -57,20 +57,32 @@ Seth:
 9% Compelling Dash (Dash)
 
 
-Rukyuk: Sniper Strike (AP)
+Rukyuk: Sniper Drive (Longshot)
 Seth: Mimic's Dash (Grasp)
 
-Rukyuk antes an AP token
-Priorities:  5 | 9
+Rukyuk antes a Longshot token
+Priorities:  6 | 9
 Seth is active
 Seth moves:
 
 .RS....
 
+Rukyuk moves:
+
+..S....
+
+Seth mimics Rukyuk's movement:
+
+..RS...
+
 Rukyuk misses
 Rukyuk moves:
 
-..S.R..
+...S.R.
+
+Seth mimics Rukyuk's movement:
+
+.....RS
 
 
 Beat 2
@@ -79,10 +91,10 @@ Beat 2
 Rukyuk
 ------
 Life: 20
-Discard 1: Sniper Strike
+Discard 1: Sniper Drive
 Discard 2: Crossfire Reload
 Special action available
-pool: Explosive, Flash, Impact, Longshot, Swift
+pool: AP, Explosive, Flash, Impact, Swift
 
 Seth
 ----
@@ -92,109 +104,163 @@ Discard 2: Fool's Grasp
 Special action available
 
 
-....RS.
+.....RS
 
 
 Rukyuk:
-17% Point Blank Shot (Explosive)
-17% Point Blank Drive (Swift)
-15% Point Blank Grasp (Explosive)
-6% Point Blank Grasp (Swift)
-39% Gunner Dash
-6% Trick Dash
+21% Point Blank Strike (Explosive)
+9% Point Blank Shot (Explosive)
+8% Point Blank Shot (Impact)
+10% Point Blank Grasp (Impact)
+7% Point Blank Grasp (Swift)
+1% Gunner Burst (Explosive)
+0% Gunner Grasp
+41% Gunner Dash
+3% Trick Dash
 
 Seth:
-11% Wyrding Omen (Dash)
-5% Wyrding Drive (Drive)
-22% Wyrding Drive (Grasp)
-27% Compelling Strike (Shot)
-21% Compelling Drive (Drive)
-13% Compelling Drive (Grasp)
+12% Wyrding Omen (Strike)
+20% Wyrding Omen (Dash)
+11% Wyrding Strike (Grasp)
+1% Wyrding Strike (Dash)
+2% Wyrding Shot (Dash)
+31% Wyrding Drive (Strike)
+6% Wyrding Drive (Shot)
+11% Wyrding Drive (Grasp)
+6% Compelling Drive (Shot)
 
 
-Rukyuk: Point Blank Shot (Explosive)
-Seth: Wyrding Drive (Grasp)
+Rukyuk: Point Blank Strike (Explosive)
+Seth: Wyrding Omen (Strike)
 
 Rukyuk antes an Explosive token
-Priorities:  2 | 5
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  3 | 4
 Seth is active
-Seth moves:
-
-...SR..
-
+Rukyuk is stunned
 Seth hits
-Rukyuk takes 3 damage (now at 17 life)
-Rukyuk hits
-Seth takes 5 damage (now at 15 life)
-Rukyuk moves Seth:
-
-.S..R..
-
-Seth is stunned
+Rukyuk takes 5 damage (now at 15 life)
 
 Beat 3
 -------
 
 Rukyuk
 ------
-Life: 17
-Discard 1: Point Blank Shot
-Discard 2: Sniper Strike
+Life: 15
+Discard 1: Point Blank Strike
+Discard 2: Sniper Drive
 Special action available
-pool: Flash, Impact, Longshot, Swift
+pool: AP, Flash, Impact, Swift
 
 Seth
 ----
-Life: 15
-Discard 1: Wyrding Drive
+Life: 20
+Discard 1: Wyrding Omen
 Discard 2: Mimic's Dash
 Special action available
 
 
-.S..R..
+.....RS
+
+Unbeatable strategy for Seth: Compelling Drive (Reload): -0.75
 
 
 Rukyuk:
-12% Gunner Reload
-1% Gunner Drive (Flash)
-18% Gunner Drive (Longshot)
-7% Gunner Drive (Swift)
-15% Gunner Burst (Swift)
-23% Gunner Grasp (Flash)
-7% Crossfire Reload
-17% Crossfire Reload (Longshot)
+28% Gunner Dash
+72% Special Pulse
 
 Seth:
-0% Vanishing Shot (Drive)
-15% Compelling Omen (Grasp)
-10% Compelling Strike (Grasp)
-1% Compelling Shot (Reload)
-6% Compelling Shot (Drive)
-17% Compelling Shot (Burst)
-14% Compelling Grasp (Drive)
-7% Special Pulse (Reload)
-7% Special Pulse (Drive)
-7% Special Pulse (Burst)
-7% Special Pulse (Grasp)
-7% Special Pulse (Dash)
+17% Fool's Drive (Reload)
+0% Fool's Drive (Shot)
+0% Fool's Drive (Burst)
+0% Fool's Drive (Grasp)
+0% Fool's Drive (Dash)
+39% Compelling Drive (Reload)
+36% Compelling Drive (Shot)
+2% Compelling Drive (Burst)
+2% Compelling Drive (Grasp)
+2% Compelling Drive (Dash)
 
 
-Rukyuk: Gunner Drive (Longshot)
-Seth: Compelling Shot (Burst)
+Rukyuk: Special Pulse
+Seth: Fool's Drive (Reload)
 
-Rukyuk antes a Longshot token
-Priorities:  4 | 2
-Rukyuk is active
+Rukyuk Pulses:
+
+R.....S
+
+
+Beat 3
+-------
+
+Rukyuk
+------
+Life: 15
+Discard 1: Point Blank Strike
+Discard 2: Sniper Drive
+pool: AP, Flash, Impact, Swift
+
+Seth
+----
+Life: 20
+Discard 1: Fool's Drive
+Discard 2: Wyrding Omen
+Special action available
+
+
+R.....S
+
+Unbeatable strategy for Seth: Vanishing Dash (Reload): -1.23
+Unbeatable strategy for Seth: Vanishing Dash (Shot): -1.23
+Unbeatable strategy for Seth: Vanishing Dash (Burst): -1.23
+Unbeatable strategy for Seth: Vanishing Dash (Grasp): -1.23
+Unbeatable strategy for Seth: Vanishing Dash (Dash): -1.23
+Unbeatable strategy for Seth: Compelling Dash (Reload): -1.63
+Unbeatable strategy for Seth: Compelling Dash (Shot): -1.63
+Unbeatable strategy for Seth: Compelling Dash (Burst): -1.63
+Unbeatable strategy for Seth: Compelling Dash (Grasp): -1.63
+Unbeatable strategy for Seth: Compelling Dash (Dash): -1.63
+
+
+Rukyuk:
+95% Gunner Reload
+5% Gunner Shot
+
+Seth:
+2% Compelling Dash (Reload)
+2% Compelling Dash (Shot)
+2% Compelling Dash (Burst)
+2% Compelling Dash (Grasp)
+12% Compelling Dash (Dash)
+16% Special Pulse (Reload)
+16% Special Pulse (Shot)
+16% Special Pulse (Burst)
+16% Special Pulse (Grasp)
+16% Special Pulse (Dash)
+
+
+Rukyuk: Gunner Shot
+Seth: Compelling Dash (Dash)
+
+Priorities:  2 | 9
+Seth is active
+Seth moves Rukyuk:
+
+.R....S
+
+Seth moves Rukyuk:
+
+R.....S
+
+Seth moves:
+
+R..S...
+
+Rukyuk misses
 Rukyuk moves:
 
-.S.R...
-
-Rukyuk hits
-Seth takes 3 damage (now at 12 life)
-Seth is stunned
-Rukyuk moves:
-
-.S...R.
+.R.S...
 
 
 Beat 4
@@ -202,133 +268,111 @@ Beat 4
 
 Rukyuk
 ------
-Life: 17
-Discard 1: Gunner Drive
-Discard 2: Point Blank Shot
-Special action available
-pool: Flash, Impact, Swift
+Life: 15
+Discard 1: Gunner Shot
+Discard 2: Point Blank Strike
+pool: AP, Flash, Impact, Swift
 
 Seth
 ----
-Life: 12
-Discard 1: Compelling Shot
-Discard 2: Wyrding Drive
+Life: 20
+Discard 1: Compelling Dash
+Discard 2: Fool's Drive
 Special action available
 
 
-.S...R.
-
-Unbeatable strategy for Rukyuk: Sniper Reload: 0.46
-Unbeatable strategy for Rukyuk: Sniper Reload (Flash): 0.46
-Unbeatable strategy for Rukyuk: Sniper Reload (Impact): 0.46
-Unbeatable strategy for Rukyuk: Sniper Reload (Swift): 0.46
-Unbeatable strategy for Rukyuk: Crossfire Reload: 0.90
-Unbeatable strategy for Rukyuk: Crossfire Reload (Flash): 0.90
-Unbeatable strategy for Rukyuk: Crossfire Reload (Impact): 0.90
-Unbeatable strategy for Rukyuk: Crossfire Reload (Swift): 0.90
+.R.S...
 
 
 Rukyuk:
-24% Sniper Reload
-2% Sniper Reload (Flash)
-1% Sniper Reload (Impact)
-1% Sniper Reload (Swift)
-15% Sniper Grasp (Swift)
-55% Crossfire Reload
-1% Crossfire Reload (Flash)
-1% Crossfire Reload (Impact)
-1% Crossfire Reload (Swift)
+29% Sniper Reload (Swift)
+3% Sniper Dash
+12% Crossfire Reload (Swift)
+12% Crossfire Drive
+23% Trick Burst (Impact)
+21% Trick Grasp (Impact)
 
 Seth:
-25% Fool's Dash (Strike)
-8% Fool's Dash (Burst)
-20% Fool's Dash (Grasp)
-6% Fool's Dash (Dash)
-10% Mimic's Dash (Grasp)
-31% Vanishing Dash (Grasp)
+3% Mimic's Shot (Burst)
+19% Vanishing Omen (Reload)
+36% Vanishing Shot (Burst)
+20% Vanishing Grasp (Reload)
+1% Vanishing Grasp (Grasp)
+21% Wyrding Shot (Reload)
 
 
-Rukyuk: Crossfire Reload
-Seth: Vanishing Dash (Grasp)
+Rukyuk: Crossfire Reload (Swift)
+Seth: Wyrding Shot (Reload)
 
-Priorities:  2 | 9
+Rukyuk antes a Swift token
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  4 | 5
 Seth is active
-Seth moves:
-
-S....R.
-
-Seth moves:
-
-...S.R.
-
-Rukyuk moves:
-
-R..S...
-
+Seth hits
+Rukyuk has 2 soak
+Rukyuk takes 3 damage (now at 12 life)
+Rukyuk is stunned
 
 Beat 5
 -------
 
 Rukyuk
 ------
-Life: 17
+Life: 12
 Discard 1: Crossfire Reload
-Discard 2: Gunner Drive
-Special action available
+Discard 2: Gunner Shot
 pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 Seth
 ----
-Life: 12
-Discard 1: Vanishing Dash
-Discard 2: Compelling Shot
+Life: 20
+Discard 1: Wyrding Shot
+Discard 2: Compelling Dash
 Special action available
 
 
-R..S...
+.R.S...
 
 
 Rukyuk:
-20% Sniper Strike (Longshot)
-6% Sniper Grasp (Longshot)
-28% Point Blank Strike (Impact)
-11% Point Blank Shot (Impact)
-20% Point Blank Shot (Swift)
-3% Point Blank Burst (Explosive)
+3% Sniper Strike (Longshot)
+16% Sniper Dash
+20% Point Blank Strike (Explosive)
+10% Point Blank Strike (Longshot)
+4% Point Blank Strike (Swift)
+13% Point Blank Drive (Longshot)
+2% Point Blank Drive (Swift)
 12% Point Blank Grasp (Longshot)
+12% Point Blank Grasp (Swift)
+7% Trick Strike (Longshot)
 
 Seth:
-7% Fool's Drive (Strike)
-7% Fool's Drive (Shot)
-3% Mimic's Drive (Strike)
-27% Wyrding Omen (Strike)
-25% Wyrding Drive (Shot)
-29% Wyrding Drive (Grasp)
-2% Wyrding Grasp (Shot)
+3% Fool's Drive (Strike)
+14% Fool's Burst (Strike)
+26% Mimic's Drive (Drive)
+8% Mimic's Drive (Grasp)
+7% Mimic's Burst (Strike)
+7% Vanishing Omen (Strike)
+26% Vanishing Drive (Grasp)
+1% Vanishing Burst (Strike)
+4% Vanishing Grasp (Drive)
+5% Vanishing Grasp (Grasp)
 
 
-Rukyuk: Point Blank Strike (Impact)
-Seth: Wyrding Drive (Shot)
+Rukyuk: Point Blank Strike (Explosive)
+Seth: Vanishing Drive (Grasp)
 
-Rukyuk antes an Impact token
-Priorities:  3 | 5
+Rukyuk antes an Explosive token
+Priorities:  3 | 4
 Seth is active
 Seth moves:
 
-RS.....
+SR.....
 
-Seth hits
-Rukyuk takes 3 damage (now at 14 life)
+Seth misses
 Rukyuk hits
-Rukyuk moves Seth:
-
-R..S...
-
-Seth takes 4 damage (now at 8 life)
-Rukyuk moves Seth:
-
-R....S.
-
+Seth takes 6 damage (now at 14 life)
 Seth is stunned
 
 Beat 6
@@ -336,119 +380,504 @@ Beat 6
 
 Rukyuk
 ------
-Life: 14
+Life: 12
 Discard 1: Point Blank Strike
 Discard 2: Crossfire Reload
-Special action available
-pool: AP, Explosive, Flash, Longshot, Swift
+pool: AP, Flash, Impact, Longshot, Swift
 
 Seth
 ----
-Life: 8
-Discard 1: Wyrding Drive
-Discard 2: Vanishing Dash
+Life: 14
+Discard 1: Vanishing Drive
+Discard 2: Wyrding Shot
 Special action available
 
 
-R....S.
+SR.....
+
+Unbeatable strategy for Seth: Mimic's Strike (Shot): -2.57
+Unbeatable strategy for Seth: Mimic's Strike (Drive): -2.98
+Unbeatable strategy for Seth: Mimic's Strike (Burst): -2.57
+Unbeatable strategy for Seth: Mimic's Strike (Grasp): -2.57
+Unbeatable strategy for Seth: Mimic's Strike (Dash): -2.57
+Unbeatable strategy for Seth: Mimic's Grasp (Shot): -0.51
+Unbeatable strategy for Seth: Mimic's Grasp (Drive): -0.51
+Unbeatable strategy for Seth: Mimic's Grasp (Burst): -0.51
+Unbeatable strategy for Seth: Mimic's Grasp (Grasp): -0.67
+Unbeatable strategy for Seth: Mimic's Grasp (Dash): -0.51
 
 
 Rukyuk:
-10% Sniper Shot (AP)
-18% Sniper Drive (AP)
-18% Sniper Burst (AP)
-16% Sniper Grasp (Explosive)
-8% Gunner Shot (Explosive)
-31% Special Pulse
+23% Sniper Burst
+4% Gunner Drive (Longshot)
+40% Trick Shot (Longshot)
+33% Trick Drive (Longshot)
 
 Seth:
-16% Fool's Omen (Drive)
-0% Compelling Shot (Shot)
-2% Compelling Shot (Burst)
-7% Compelling Grasp (Drive)
-10% Compelling Grasp (Grasp)
-13% Special Pulse (Shot)
-13% Special Pulse (Drive)
-13% Special Pulse (Burst)
-13% Special Pulse (Grasp)
-13% Special Pulse (Dash)
+1% Mimic's Omen (Shot)
+36% Mimic's Strike (Shot)
+26% Mimic's Strike (Drive)
+36% Mimic's Strike (Burst)
 
 
-Rukyuk: Sniper Burst (AP)
-Seth: Fool's Omen (Drive)
+Rukyuk: Sniper Burst
+Seth: Mimic's Strike (Shot)
 
-Rukyuk antes an AP token
-Priorities:  3 | -3
+Priorities:  3 | 3
+Clash!
+
+
+Rukyuk: Sniper Drive
+Seth: Mimic's Omen (Shot)
+
+Priorities:  6 | 1
 Rukyuk is active
-Rukyuk hits
-Seth takes 4 damage (now at 4 life)
-Seth is stunned
+Rukyuk misses
 Rukyuk moves:
 
-.R...S.
+S.R....
 
+Seth mimics Rukyuk's movement:
+
+.SR....
+
+Seth hits
+Rukyuk takes 4 damage (now at 8 life)
+Rukyuk is stunned
 
 Beat 7
 -------
 
 Rukyuk
 ------
-Life: 14
-Discard 1: Sniper Burst
+Life: 8
+Discard 1: Sniper Drive
 Discard 2: Point Blank Strike
-Special action available
-pool: Explosive, Flash, Longshot, Swift
+pool: AP, Flash, Impact, Longshot, Swift
 
 Seth
 ----
-Life: 4
-Discard 1: Fool's Omen
-Discard 2: Wyrding Drive
+Life: 14
+Discard 1: Mimic's Omen
+Discard 2: Vanishing Drive
+Special action available
+
+
+.SR....
+
+
+Rukyuk:
+9% Gunner Reload (Swift)
+8% Gunner Burst (Swift)
+8% Gunner Grasp (Longshot)
+37% Gunner Dash
+7% Crossfire Dash
+7% Trick Reload
+6% Trick Reload (AP)
+6% Trick Reload (Flash)
+6% Trick Reload (Impact)
+6% Trick Reload (Longshot)
+
+Seth:
+10% Wyrding Dash (Dash)
+36% Compelling Strike (Reload)
+2% Compelling Strike (Grasp)
+28% Compelling Shot (Reload)
+16% Compelling Shot (Burst)
+8% Compelling Grasp (Reload)
+
+
+Rukyuk: Gunner Reload (Swift)
+Seth: Compelling Strike (Reload)
+
+Rukyuk antes a Swift token
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  6 | 5
+Rukyuk is active
+Rukyuk moves:
+
+RS.....
+
+Rukyuk moves:
+
+.S....R
+
+Seth moves Rukyuk:
+
+.S...R.
+
+Seth misses
+Seth moves Rukyuk:
+
+.S..R..
+
+
+Beat 8
+-------
+
+Rukyuk
+------
+Life: 8
+Discard 1: Gunner Reload
+Discard 2: Sniper Drive
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
+
+Seth
+----
+Life: 14
+Discard 1: Compelling Strike
+Discard 2: Mimic's Omen
+Special action available
+
+
+.S..R..
+
+
+Rukyuk:
+8% Point Blank Burst (AP)
+8% Point Blank Burst (Flash)
+16% Point Blank Burst (Longshot)
+29% Crossfire Burst
+6% Crossfire Burst (Longshot)
+32% Crossfire Dash
+
+Seth:
+1% Fool's Drive (Strike)
+7% Fool's Drive (Shot)
+0% Fool's Drive (Grasp)
+0% Fool's Drive (Dash)
+0% Fool's Dash (Strike)
+0% Fool's Dash (Shot)
+0% Fool's Dash (Burst)
+0% Fool's Dash (Grasp)
+57% Vanishing Shot (Burst)
+4% Vanishing Dash (Strike)
+5% Vanishing Dash (Shot)
+3% Vanishing Dash (Burst)
+4% Vanishing Dash (Grasp)
+4% Vanishing Dash (Dash)
+12% Wyrding Drive (Dash)
+
+
+Rukyuk: Crossfire Dash
+Seth: Vanishing Dash (Burst)
+
+Priorities:  7 | 9
+Seth is active
+Seth moves:
+
+S...R..
+
+Seth moves:
+
+...SR..
+
+Rukyuk moves:
+
+R..S...
+
+
+Beat 9
+-------
+
+Rukyuk
+------
+Life: 8
+Discard 1: Crossfire Dash
+Discard 2: Gunner Reload
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
+
+Seth
+----
+Life: 14
+Discard 1: Vanishing Dash
+Discard 2: Compelling Strike
+Special action available
+
+
+R..S...
+
+
+Rukyuk:
+16% Sniper Strike (Longshot)
+13% Sniper Drive (Longshot)
+3% Sniper Grasp (Longshot)
+17% Point Blank Strike (Impact)
+15% Point Blank Shot (Impact)
+7% Point Blank Shot (Swift)
+14% Point Blank Drive (Swift)
+15% Point Blank Grasp (Longshot)
+
+Seth:
+11% Fool's Drive (Shot)
+5% Mimic's Shot (Shot)
+15% Mimic's Drive (Strike)
+14% Mimic's Drive (Shot)
+18% Wyrding Omen (Strike)
+5% Wyrding Drive (Strike)
+2% Wyrding Drive (Drive)
+30% Wyrding Drive (Grasp)
+
+
+Rukyuk: Point Blank Drive (Swift)
+Seth: Wyrding Omen (Strike)
+
+Rukyuk antes a Swift token
+Priorities:  6 | 2
+Rukyuk is active
+Rukyuk moves:
+
+.R.S...
+
+Rukyuk hits
+Seth takes 3 damage (now at 11 life)
+Rukyuk moves Seth:
+
+.R...S.
+
+Seth is stunned
+
+Beat 10
+-------
+
+Rukyuk
+------
+Life: 8
+Discard 1: Point Blank Drive
+Discard 2: Crossfire Dash
+pool: AP, Explosive, Flash, Impact, Longshot
+
+Seth
+----
+Life: 11
+Discard 1: Wyrding Omen
+Discard 2: Vanishing Dash
 Special action available
 
 
 .R...S.
 
+Unbeatable strategy for Rukyuk: Sniper Grasp (AP): 0.23
+Unbeatable strategy for Rukyuk: Sniper Grasp (Flash): 0.17
+Unbeatable strategy for Rukyuk: Sniper Grasp (Impact): 0.03
+
 
 Rukyuk:
-12% Gunner Reload (Swift)
-8% Gunner Shot (Explosive)
-9% Gunner Drive (Explosive)
-1% Gunner Drive (Swift)
-9% Gunner Grasp (Explosive)
-14% Trick Reload
-11% Trick Reload (Explosive)
-11% Trick Reload (Flash)
-26% Trick Reload (Longshot)
+3% Sniper Reload
+11% Sniper Strike (Flash)
+15% Sniper Shot
+19% Sniper Burst
+37% Sniper Grasp (AP)
+15% Sniper Grasp (Flash)
 
 Seth:
-0% Mimic's Shot (Drive)
-2% Mimic's Dash (Reload)
-2% Mimic's Dash (Shot)
-2% Mimic's Dash (Drive)
-2% Mimic's Dash (Grasp)
-9% Mimic's Dash (Dash)
-22% Vanishing Shot (Reload)
-2% Compelling Shot (Reload)
-16% Compelling Shot (Drive)
+4% Mimic's Shot (Shot)
+0% Mimic's Shot (Burst)
+3% Compelling Strike (Strike)
+3% Compelling Drive (Strike)
+12% Compelling Grasp (Grasp)
+16% Special Pulse (Reload)
+16% Special Pulse (Strike)
+16% Special Pulse (Shot)
+16% Special Pulse (Burst)
+16% Special Pulse (Grasp)
+
+
+Rukyuk: Sniper Burst
+Seth: Special Pulse (Strike)
+
+Seth Pulses:
+
+.RS....
+
+
+Beat 10
+-------
+
+Rukyuk
+------
+Life: 8
+Discard 1: Sniper Burst
+Discard 2: Point Blank Drive
+pool: AP, Explosive, Flash, Impact, Longshot
+
+Seth
+----
+Life: 11
+Discard 1: Wyrding Omen
+Discard 2: Vanishing Dash
+
+
+.RS....
+
+
+Rukyuk:
+0% Gunner Reload
+3% Gunner Reload (AP)
+3% Gunner Reload (Explosive)
+3% Gunner Reload (Flash)
+3% Gunner Reload (Impact)
+3% Gunner Reload (Longshot)
+20% Gunner Grasp (Longshot)
+3% Trick Reload
+3% Trick Reload (AP)
+3% Trick Reload (Explosive)
+3% Trick Reload (Flash)
+3% Trick Reload (Impact)
+3% Trick Reload (Longshot)
+48% Trick Strike (Longshot)
+
+Seth:
+44% Mimic's Strike (Reload)
+29% Mimic's Strike (Grasp)
+17% Mimic's Shot (Reload)
+11% Mimic's Grasp (Strike)
+
+
+Rukyuk: Trick Strike (Longshot)
+Seth: Mimic's Strike (Reload)
+
+Rukyuk antes a Longshot token
+Priorities:  0 | 3
+Seth is active
+Seth hits
+Rukyuk takes 5 damage (now at 3 life)
+Rukyuk hits
+Seth takes 4 damage (now at 7 life)
+
+Beat 11
+-------
+
+Rukyuk
+------
+Life: 3
+Discard 1: Trick Strike
+Discard 2: Sniper Burst
+pool: AP, Explosive, Flash, Impact
+
+Seth
+----
+Life: 7
+Discard 1: Mimic's Strike
+Discard 2: Wyrding Omen
+
+
+.RS....
+
+Unbeatable strategy for Seth: Compelling Drive (Grasp): -0.01
+
+
+Rukyuk:
+3% Point Blank Drive (Explosive)
+3% Point Blank Grasp (Explosive)
+2% Gunner Drive (AP)
+2% Gunner Drive (Flash)
+28% Gunner Dash
+1% Crossfire Reload
+1% Crossfire Reload (AP)
+1% Crossfire Reload (Explosive)
+1% Crossfire Reload (Flash)
+1% Crossfire Reload (Impact)
+58% Crossfire Dash
+
+Seth:
+28% Compelling Drive (Reload)
+10% Compelling Drive (Drive)
+41% Compelling Drive (Grasp)
+0% Compelling Burst (Reload)
+12% Compelling Grasp (Dash)
 3% Compelling Dash (Reload)
-3% Compelling Dash (Shot)
+2% Compelling Dash (Shot)
 3% Compelling Dash (Drive)
-3% Compelling Dash (Grasp)
-30% Compelling Dash (Dash)
+2% Compelling Dash (Grasp)
 
 
-Rukyuk: Gunner Drive (Explosive)
-Seth: Vanishing Shot (Reload)
+Rukyuk: Gunner Dash
+Seth: Compelling Drive (Reload)
 
-Rukyuk antes an Explosive token
-Priorities:  4 | 2
+Priorities:  9 | 4
 Rukyuk is active
 Rukyuk moves:
 
-..R..S.
+..S.R..
 
-Rukyuk hits
-Seth takes 5 damage (now at 0 life)
-RUKYUK WINS!
-total_time: 140
+Rukyuk moves:
+
+..S...R
+
+Seth moves Rukyuk:
+
+..S..R.
+
+Seth moves:
+
+...S.R.
+
+Seth misses
+Seth moves Rukyuk:
+
+...SR..
+
+
+Beat 12
+-------
+
+Rukyuk
+------
+Life: 3
+Discard 1: Gunner Dash
+Discard 2: Trick Strike
+pool: AP, Explosive, Flash, Impact
+
+Seth
+----
+Life: 7
+Discard 1: Compelling Drive
+Discard 2: Mimic's Strike
+
+
+...SR..
+
+
+Rukyuk:
+0% Sniper Reload
+0% Sniper Reload (AP)
+0% Sniper Reload (Explosive)
+0% Sniper Reload (Flash)
+0% Sniper Reload (Impact)
+1% Sniper Drive
+20% Sniper Burst
+3% Sniper Grasp
+14% Point Blank Drive (Explosive)
+4% Point Blank Grasp (Explosive)
+16% Crossfire Reload
+24% Crossfire Shot
+18% Crossfire Grasp
+
+Seth:
+13% Vanishing Shot (Drive)
+8% Wyrding Omen (Drive)
+9% Wyrding Omen (Grasp)
+12% Wyrding Shot (Drive)
+3% Wyrding Shot (Burst)
+5% Wyrding Shot (Grasp)
+21% Wyrding Burst (Burst)
+19% Wyrding Dash (Reload)
+10% Wyrding Dash (Shot)
+
+
+Rukyuk: Point Blank Drive (Explosive)
+Seth: Wyrding Shot (Drive)
+
+Rukyuk antes an Explosive token
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  4 | 5
+Seth is active
+Seth selects Omen as his new base
+Rukyuk is stunned
+Seth hits
+Rukyuk takes 5 damage (now at 0 life)
+SETH WINS!
+total_time: 275

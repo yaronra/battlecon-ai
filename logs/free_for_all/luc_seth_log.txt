@@ -15,7 +15,7 @@ Life: 20
 Discard 1: Eternal Flash
 Discard 2: Fusion Strike
 Special action available
-2 Time token
+2 Time tokens
 
 Seth
 ----
@@ -29,39 +29,43 @@ Special action available
 
 
 Luc:
+0% Feinting Shot
 32% Feinting Drive
 19% Chrono Shot
 6% Chrono Shot (1 token)
-8% Chrono Drive
+7% Chrono Drive
 35% Chrono Burst
 
 Seth:
-5% Mimic's Shot (Burst)
-10% Vanishing Shot (Shot)
-10% Vanishing Shot (Burst)
-24% Compelling Shot (Drive)
-51% Compelling Drive (Drive)
+2% Mimic's Shot (Burst)
+1% Vanishing Shot (Shot)
+12% Vanishing Shot (Burst)
+23% Compelling Shot (Drive)
+10% Compelling Drive (Shot)
+52% Compelling Drive (Drive)
 
 
 Luc: Chrono Burst
-Seth: Vanishing Shot (Shot)
+Seth: Compelling Drive (Drive)
 
-Priorities:  2 | 2
-Clash!
-
-
-Luc: Chrono Drive
-Seth: Vanishing Dash (Shot)
-
-Priorities:  5 | 9
+Priorities:  2 | 4
 Seth is active
-Seth moves:
-
-.L....S
-
 Luc moves:
 
-...L..S
+L....S.
+
+Seth moves Luc:
+
+.L...S.
+
+Seth moves:
+
+.L..S..
+
+Seth misses
+Seth moves Luc:
+
+L...S..
 
 Luc misses
 Luc gains 1 Time token
@@ -72,65 +76,52 @@ Beat 2
 Luc
 ---
 Life: 20
-Discard 1: Chrono Drive
+Discard 1: Chrono Burst
 Discard 2: Eternal Flash
 Special action available
-3 Time token
+3 Time tokens
 
 Seth
 ----
 Life: 20
-Discard 1: Vanishing Dash
+Discard 1: Compelling Drive
 Discard 2: Fool's Grasp
 Special action available
 
 
-...L..S
+L...S..
 
-Unbeatable strategy for Seth: Mimic's Drive (Strike): -0.34
-Unbeatable strategy for Seth: Compelling Drive (Strike): -0.29
-Unbeatable strategy for Seth: Compelling Drive (Shot): -0.29
-Unbeatable strategy for Seth: Compelling Drive (Burst): -0.29
-Unbeatable strategy for Seth: Compelling Drive (Grasp): -0.36
-Unbeatable strategy for Seth: Compelling Drive (Dash): -0.29
+Unbeatable strategy for Seth: Mimic's Shot (Shot): -3.37
+Unbeatable strategy for Seth: Vanishing Shot (Drive): -0.94
 
 
 Luc:
-6% Memento Grasp (3 tokens)
-74% Memento Dash
-6% Fusion Strike (3 tokens)
-10% Fusion Shot (1 token)
-3% Fusion Burst (1 token)
+30% Memento Strike
+14% Memento Drive (1 token)
+8% Memento Dash
+22% Fusion Shot (1 token)
+24% Feinting Drive
+3% Feinting Grasp
 
 Seth:
-17% Mimic's Shot (Strike)
+25% Mimic's Shot (Strike)
 20% Mimic's Shot (Shot)
-33% Mimic's Drive (Strike)
-5% Mimic's Drive (Shot)
-26% Wyrding Omen (Dash)
+2% Mimic's Shot (Drive)
+9% Vanishing Shot (Drive)
+32% Wyrding Shot (Shot)
+12% Wyrding Shot (Drive)
 
 
-Luc: Memento Dash
-Seth: Mimic's Drive (Strike)
+Luc: Memento Strike
+Seth: Mimic's Shot (Strike)
 
-Priorities:  8 | 4
-Luc is active
-Luc spends a Time token
-Luc spends a Time token
-Luc attacks again
-Luc moves:
-
-.....LS
-
-Luc moves:
-
-..L...S
-
-Seth moves:
-
-.SL....
-
-Seth misses
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  2 | 4
+Seth is active
+Seth hits
+Luc takes 6 damage (now at 14 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 3
@@ -138,61 +129,69 @@ Beat 3
 
 Luc
 ---
-Life: 20
-Discard 1: Memento Dash
-Discard 2: Chrono Drive
+Life: 14
+Discard 1: Memento Strike
+Discard 2: Chrono Burst
 Special action available
-2 Time token
+4 Time tokens
 
 Seth
 ----
 Life: 20
-Discard 1: Mimic's Drive
-Discard 2: Vanishing Dash
+Discard 1: Mimic's Shot
+Discard 2: Compelling Drive
 Special action available
 
 
-.SL....
+L...S..
 
 
 Luc:
-30% Eternal Strike
-18% Eternal Shot
-13% Eternal Grasp
-0% Fusion Strike
-9% Fusion Strike (1 token)
-9% Fusion Burst
-1% Fusion Grasp
-13% Feinting Burst
-7% Feinting Grasp (1 token)
+26% Eternal Shot
+10% Eternal Shot (3 tokens)
+7% Eternal Drive (3 tokens)
+17% Fusion Shot
+6% Fusion Grasp
+2% Feinting Flash
+5% Feinting Shot (3 tokens)
+14% Feinting Drive (1 token)
+14% Feinting Drive (3 tokens)
 
 Seth:
-10% Fool's Shot (Burst)
-45% Compelling Strike (Shot)
-8% Compelling Strike (Grasp)
-3% Compelling Shot (Strike)
-3% Compelling Shot (Burst)
-1% Compelling Shot (Grasp)
-7% Compelling Burst (Strike)
-15% Compelling Burst (Burst)
-9% Compelling Grasp (Strike)
+10% Fool's Omen (Shot)
+0% Fool's Strike (Flash)
+0% Fool's Strike (Shot)
+0% Fool's Strike (Grasp)
+0% Fool's Strike (Dash)
+10% Fool's Burst (Drive)
+11% Vanishing Omen (Drive)
+1% Vanishing Burst (Flash)
+1% Vanishing Burst (Shot)
+4% Vanishing Burst (Drive)
+1% Vanishing Burst (Grasp)
+1% Vanishing Burst (Dash)
+12% Wyrding Omen (Shot)
+4% Wyrding Dash (Flash)
+5% Wyrding Dash (Shot)
+4% Wyrding Dash (Drive)
+4% Wyrding Dash (Grasp)
+29% Wyrding Dash (Dash)
 
 
-Luc: Eternal Strike
-Seth: Compelling Strike (Shot)
+Luc: Feinting Drive (1 token)
+Seth: Vanishing Omen (Drive)
 
-Priorities:  -1 | 3
+Luc antes a Time token
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  3 | 3
 Seth is active
-Seth moves Luc:
-
-.S.L...
-
+Luc is stunned
 Seth misses
-Seth moves Luc:
+Luc moves:
 
-.S..L..
+..L.S..
 
-Luc misses
 Luc gains 1 Time token
 
 Beat 4
@@ -200,62 +199,63 @@ Beat 4
 
 Luc
 ---
-Life: 20
-Discard 1: Eternal Strike
-Discard 2: Memento Dash
+Life: 14
+Discard 1: Feinting Drive
+Discard 2: Memento Strike
 Special action available
-3 Time token
+4 Time tokens
 
 Seth
 ----
 Life: 20
-Discard 1: Compelling Strike
-Discard 2: Mimic's Drive
+Discard 1: Vanishing Omen
+Discard 2: Mimic's Shot
 Special action available
 
 
-.S..L..
+..L.S..
 
 
 Luc:
-2% Feinting Grasp
-22% Chrono Flash
-16% Chrono Shot
-16% Chrono Drive
-10% Chrono Drive (1 token)
-35% Chrono Burst
+68% Eternal Shot
+2% Eternal Burst
+15% Eternal Grasp
+2% Fusion Shot (3 tokens)
+0% Fusion Burst
+7% Chrono Shot (1 token)
+6% Chrono Burst
 
 Seth:
-18% Vanishing Shot (Burst)
-4% Wyrding Shot (Drive)
-2% Wyrding Burst (Shot)
-1% Wyrding Dash (Flash)
-49% Wyrding Dash (Shot)
-27% Wyrding Dash (Drive)
+52% Fool's Burst (Burst)
+23% Compelling Strike (Shot)
+6% Compelling Burst (Shot)
+6% Compelling Burst (Burst)
+2% Compelling Burst (Grasp)
+2% Compelling Dash (Flash)
+2% Compelling Dash (Shot)
+2% Compelling Dash (Burst)
+2% Compelling Dash (Grasp)
+2% Compelling Dash (Dash)
 
 
-Luc: Chrono Drive (1 token)
-Seth: Vanishing Shot (Burst)
+Luc: Eternal Shot
+Seth: Compelling Dash (Flash)
 
-Luc antes a Time token
-Priorities:  6 | 2
-Luc is active
-Luc spends a Time token
-Luc moves:
+Priorities:  -2 | 9
+Seth is active
+Seth moves Luc:
 
-.S.L...
+.L..S..
+
+Seth moves Luc:
+
+L...S..
 
 Seth moves:
 
-S..L...
+L.....S
 
-Luc moves:
-
-SL.....
-
-Luc hits
-Seth takes 3 damage (now at 17 life)
-Seth is stunned
+Luc misses
 Luc gains 1 Time token
 
 Beat 5
@@ -263,55 +263,67 @@ Beat 5
 
 Luc
 ---
-Life: 20
-Discard 1: Chrono Drive
-Discard 2: Eternal Strike
+Life: 14
+Discard 1: Eternal Shot
+Discard 2: Feinting Drive
 Special action available
-2 Time token
+5 Time tokens
 
 Seth
 ----
-Life: 17
-Discard 1: Vanishing Shot
-Discard 2: Compelling Strike
+Life: 20
+Discard 1: Compelling Dash
+Discard 2: Vanishing Omen
 Special action available
 
 
-SL.....
+L.....S
+
+Unbeatable strategy for Luc: Fusion Grasp (1 token): 0.14
+Unbeatable strategy for Luc: Chrono Flash: 0.03
+Unbeatable strategy for Luc: Chrono Flash (1 token): 0.03
+Unbeatable strategy for Luc: Chrono Grasp (1 token): 0.01
 
 
 Luc:
-10% Memento Flash
-14% Memento Flash (1 token)
-10% Memento Dash
-9% Fusion Shot (1 token)
-23% Fusion Grasp
-28% Fusion Dash
-5% Feinting Burst
+47% Chrono Flash
+4% Chrono Flash (1 token)
+17% Chrono Strike
+33% Chrono Burst (1 token)
 
 Seth:
-21% Mimic's Omen (Dash)
-9% Mimic's Drive (Flash)
-0% Mimic's Grasp (Flash)
-6% Mimic's Grasp (Grasp)
-29% Wyrding Drive (Flash)
-35% Wyrding Drive (Grasp)
+1% Fool's Shot (Flash)
+1% Fool's Shot (Strike)
+1% Fool's Shot (Burst)
+1% Fool's Shot (Grasp)
+1% Fool's Shot (Dash)
+63% Wyrding Shot (Strike)
+14% Wyrding Drive (Flash)
+16% Wyrding Burst (Burst)
 
 
-Luc: Fusion Dash
+Luc: Chrono Strike
 Seth: Wyrding Drive (Flash)
 
-Priorities:  10 | 5
-Luc is active
+Priorities:  4 | 5
+Seth is active
+Luc spends a Time token
+Luc spends a Time token
+Luc spends a Time token
+Luc spends a Time token
 Luc moves:
 
-S...L..
+....L.S
 
 Seth moves:
 
-..S.L..
+...SL..
 
-Seth misses
+Seth hits
+Luc takes 3 damage (now at 11 life)
+Luc hits
+Seth takes 4 damage (now at 16 life)
+Seth is stunned
 Luc gains 1 Time token
 
 Beat 6
@@ -319,54 +331,66 @@ Beat 6
 
 Luc
 ---
-Life: 20
-Discard 1: Fusion Dash
-Discard 2: Chrono Drive
+Life: 11
+Discard 1: Chrono Strike
+Discard 2: Eternal Shot
 Special action available
-3 Time token
+2 Time tokens
 
 Seth
 ----
-Life: 17
+Life: 16
 Discard 1: Wyrding Drive
-Discard 2: Vanishing Shot
+Discard 2: Compelling Dash
 Special action available
 
 
-..S.L..
+...SL..
+
+Unbeatable strategy for Seth: Vanishing Shot (Drive): -0.46
+Unbeatable strategy for Seth: Vanishing Burst (Drive): -0.50
 
 
 Luc:
-20% Eternal Flash
-26% Eternal Shot
-34% Eternal Burst
-11% Eternal Grasp
-1% Memento Shot (1 token)
-6% Feinting Strike
-3% Feinting Shot (1 token)
+7% Memento Flash
+14% Memento Flash (1 token)
+9% Memento Drive
+1% Memento Grasp
+17% Memento Dash
+9% Fusion Drive (1 token)
+13% Fusion Burst
+13% Fusion Grasp
+17% Fusion Dash
 
 Seth:
-8% Mimic's Burst (Burst)
-33% Compelling Omen (Shot)
-14% Compelling Strike (Shot)
-14% Compelling Burst (Flash)
-6% Compelling Burst (Strike)
-3% Compelling Burst (Shot)
-23% Compelling Burst (Grasp)
+11% Mimic's Omen (Drive)
+18% Mimic's Shot (Drive)
+17% Mimic's Burst (Drive)
+22% Mimic's Burst (Burst)
+11% Mimic's Grasp (Flash)
+4% Mimic's Grasp (Drive)
+5% Mimic's Grasp (Grasp)
+11% Vanishing Omen (Dash)
 
 
-Luc: Eternal Flash
-Seth: Compelling Omen (Shot)
+Luc: Fusion Dash
+Seth: Mimic's Burst (Burst)
 
-Priorities:  2 | 1
+Priorities:  10 | 1
 Luc is active
+Seth moves:
+
+.S..L..
+
 Luc moves:
 
-..SL...
+.S.....
 
-Luc hits
-Seth takes 1 damage (now at 16 life)
-Seth is stunned
+Seth mimics Luc's movement:
+
+SL.....
+
+Seth misses
 Luc gains 1 Time token
 
 Beat 7
@@ -374,57 +398,62 @@ Beat 7
 
 Luc
 ---
-Life: 20
-Discard 1: Eternal Flash
-Discard 2: Fusion Dash
+Life: 11
+Discard 1: Fusion Dash
+Discard 2: Chrono Strike
 Special action available
-4 Time token
+3 Time tokens
 
 Seth
 ----
 Life: 16
-Discard 1: Compelling Omen
+Discard 1: Mimic's Burst
 Discard 2: Wyrding Drive
 Special action available
 
 
-..SL...
+SL.....
 
 
 Luc:
-5% Memento Burst
-2% Memento Burst (1 token)
-13% Chrono Strike (1 token)
-8% Chrono Shot
-30% Chrono Drive (1 token)
-6% Chrono Burst
-34% Chrono Grasp
-3% Chrono Grasp (3 tokens)
+5% Eternal Shot
+45% Eternal Drive
+16% Memento Flash
+33% Feinting Flash
 
 Seth:
-3% Fool's Strike (Grasp)
-2% Fool's Shot (Grasp)
-4% Mimic's Burst (Burst)
-2% Mimic's Burst (Grasp)
-50% Mimic's Grasp (Drive)
-13% Mimic's Grasp (Grasp)
-17% Vanishing Strike (Grasp)
-8% Vanishing Burst (Grasp)
+1% Fool's Strike (Drive)
+3% Compelling Shot (Flash)
+13% Compelling Shot (Drive)
+17% Compelling Dash (Flash)
+17% Compelling Dash (Shot)
+17% Compelling Dash (Drive)
+17% Compelling Dash (Burst)
+17% Compelling Dash (Grasp)
 
 
-Luc: Chrono Drive (1 token)
-Seth: Mimic's Grasp (Grasp)
+Luc: Eternal Drive
+Seth: Compelling Dash (Burst)
 
-Luc antes a Time token
-Priorities:  6 | 5
-Luc is active
+Priorities:  0 | 9
+Seth is active
+Seth moves Luc:
+
+S.L....
+
+Seth moves Luc:
+
+S..L...
+
+Seth moves:
+
+...LS..
+
 Luc moves:
 
-.LS....
+....SL.
 
-Luc hits
-Seth takes 3 damage (now at 13 life)
-Seth is stunned
+Luc misses
 Luc gains 1 Time token
 
 Beat 8
@@ -432,68 +461,61 @@ Beat 8
 
 Luc
 ---
-Life: 20
-Discard 1: Chrono Drive
-Discard 2: Eternal Flash
+Life: 11
+Discard 1: Eternal Drive
+Discard 2: Fusion Dash
 Special action available
-4 Time token
+4 Time tokens
 
 Seth
 ----
-Life: 13
-Discard 1: Mimic's Grasp
-Discard 2: Compelling Omen
+Life: 16
+Discard 1: Compelling Dash
+Discard 2: Mimic's Burst
 Special action available
 
 
-SL.....
-
-Unbeatable strategy for Seth: Vanishing Dash (Strike): -0.31
-Unbeatable strategy for Seth: Vanishing Dash (Shot): -0.31
-Unbeatable strategy for Seth: Vanishing Dash (Burst): -0.31
-Unbeatable strategy for Seth: Vanishing Dash (Grasp): -0.31
-Unbeatable strategy for Seth: Vanishing Dash (Dash): -0.31
-Unbeatable strategy for Seth: Wyrding Drive (Grasp): -0.87
-Unbeatable strategy for Seth: Wyrding Dash (Strike): -0.12
-Unbeatable strategy for Seth: Wyrding Dash (Shot): -0.12
-Unbeatable strategy for Seth: Wyrding Dash (Burst): -0.42
-Unbeatable strategy for Seth: Wyrding Dash (Grasp): -0.12
-Unbeatable strategy for Seth: Wyrding Dash (Dash): -0.12
+....SL.
 
 
 Luc:
-10% Memento Grasp (1 token)
-29% Memento Dash
-8% Fusion Strike (1 token)
-7% Fusion Shot (1 token)
-27% Feinting Burst
-9% Feinting Dash
-11% Feinting Dash (1 token)
+1% Memento Flash
+4% Memento Strike
+21% Memento Strike (3 tokens)
+1% Memento Shot (1 token)
+23% Memento Burst (3 tokens)
+17% Feinting Flash (1 token)
+1% Feinting Strike (1 token)
+6% Chrono Strike (3 tokens)
+7% Chrono Shot
+7% Chrono Shot (1 token)
+9% Chrono Burst (1 token)
+0% Chrono Grasp
 
 Seth:
-19% Vanishing Drive (Strike)
-7% Vanishing Drive (Grasp)
-15% Wyrding Shot (Strike)
+1% Vanishing Omen (Flash)
+4% Vanishing Omen (Shot)
+30% Vanishing Omen (Burst)
+9% Vanishing Strike (Flash)
+2% Wyrding Strike (Burst)
+4% Wyrding Shot (Flash)
+3% Wyrding Shot (Strike)
+17% Wyrding Shot (Shot)
+2% Wyrding Shot (Burst)
+17% Wyrding Drive (Strike)
 6% Wyrding Drive (Burst)
-28% Wyrding Drive (Grasp)
-6% Wyrding Drive (Dash)
-20% Wyrding Dash (Dash)
+3% Wyrding Grasp (Burst)
 
 
-Luc: Memento Dash
-Seth: Wyrding Dash (Dash)
+Luc: Chrono Shot
+Seth: Wyrding Shot (Shot)
 
 Seth gets +2 power
 Seth gets +2 priority
-Priorities:  8 | 12
+Priorities:  3 | 5
 Seth is active
-Seth selects Drive as his new base
-Seth moves:
-
-.LS....
-
 Seth hits
-Luc takes 5 damage (now at 15 life)
+Luc takes 5 damage (now at 6 life)
 Luc is stunned
 Luc gains 1 Time token
 
@@ -502,68 +524,70 @@ Beat 9
 
 Luc
 ---
-Life: 15
-Discard 1: Memento Dash
-Discard 2: Chrono Drive
+Life: 6
+Discard 1: Chrono Shot
+Discard 2: Eternal Drive
 Special action available
-5 Time token
+5 Time tokens
 
 Seth
 ----
-Life: 13
-Discard 1: Wyrding Drive Dash
-Discard 2: Mimic's Grasp
+Life: 16
+Discard 1: Wyrding Shot
+Discard 2: Compelling Dash
 Special action available
 
 
-.LS....
+....SL.
 
 
 Luc:
-8% Eternal Flash
-5% Eternal Flash (1 token)
-36% Eternal Shot
-18% Eternal Burst
-19% Eternal Grasp
-1% Fusion Strike (3 tokens)
-13% Fusion Burst (3 tokens)
+11% Memento Burst (3 tokens)
+1% Memento Burst (5 tokens)
+13% Memento Dash
+16% Memento Dash (3 tokens)
+16% Fusion Dash (3 tokens)
+8% Feinting Strike (3 tokens)
+10% Feinting Grasp (3 tokens)
+25% Special Temporal Recursion
 
 Seth:
-25% Vanishing Omen (Shot)
-7% Vanishing Burst (Burst)
-18% Vanishing Burst (Grasp)
-14% Compelling Omen (Shot)
-3% Compelling Strike (Flash)
-21% Compelling Strike (Shot)
-14% Compelling Shot (Burst)
+1% Fool's Omen (Burst)
+8% Fool's Omen (Dash)
+20% Fool's Strike (Strike)
+40% Fool's Burst (Burst)
+8% Mimic's Strike (Dash)
+15% Mimic's Burst (Burst)
+8% Mimic's Burst (Grasp)
 
 
-Luc: Fusion Burst (3 tokens)
-Seth: Compelling Strike (Shot)
+Luc: Feinting Grasp (3 tokens)
+Seth: Fool's Strike (Strike)
 
 Luc antes a Time token
 Luc antes a Time token
 Luc antes a Time token
-Priorities:  2 | 3
-Seth is active
+Priorities:  3 | -1
+Luc is active
 Luc moves:
 
-..SL...
+....S.L
 
 Luc moves:
 
-..S..L.
+...LS..
 
-Seth moves Luc:
+Luc hits
+Luc moves Seth:
 
-..S.L..
+...L.S.
 
+Seth takes 2 damage (now at 14 life)
 Seth misses
-Seth moves Luc:
+Luc moves:
 
-..SL...
+....LS.
 
-Luc misses
 Luc gains 1 Time token
 
 Beat 10
@@ -571,53 +595,85 @@ Beat 10
 
 Luc
 ---
-Life: 15
-Discard 1: Fusion Burst
-Discard 2: Memento Dash
+Life: 6
+Discard 1: Feinting Grasp
+Discard 2: Chrono Shot
 Special action available
-3 Time token
+3 Time tokens
 
 Seth
 ----
-Life: 13
-Discard 1: Compelling Strike
-Discard 2: Wyrding Drive Dash
+Life: 14
+Discard 1: Fool's Strike
+Discard 2: Wyrding Shot
 Special action available
 
 
-..SL...
+....LS.
 
 
 Luc:
-17% Eternal Strike
-37% Eternal Shot
-3% Eternal Shot (1 token)
-23% Eternal Drive
-15% Eternal Grasp
-3% Feinting Strike (3 tokens)
-1% Chrono Drive (1 token)
+5% Eternal Flash
+9% Eternal Strike
+10% Eternal Drive
+27% Eternal Burst
+16% Eternal Dash
+10% Memento Flash
+0% Memento Drive
+3% Memento Drive (1 token)
+7% Fusion Strike (1 token)
+5% Fusion Drive (3 tokens)
+6% Special Temporal Recursion
 
 Seth:
-24% Fool's Omen (Shot)
-23% Fool's Shot (Drive)
-10% Mimic's Omen (Shot)
-6% Mimic's Burst (Drive)
-22% Mimic's Grasp (Shot)
-9% Mimic's Grasp (Drive)
-6% Vanishing Omen (Shot)
+4% Mimic's Drive (Drive)
+0% Mimic's Grasp (Drive)
+1% Vanishing Drive (Flash)
+6% Vanishing Drive (Drive)
+5% Compelling Drive (Strike)
+8% Compelling Drive (Drive)
+1% Compelling Burst (Flash)
+1% Compelling Burst (Strike)
+0% Compelling Burst (Drive)
+10% Compelling Burst (Burst)
+15% Compelling Dash (Flash)
+12% Compelling Dash (Strike)
+13% Compelling Dash (Drive)
+13% Compelling Dash (Burst)
+11% Compelling Dash (Dash)
 
 
-Luc: Eternal Drive
-Seth: Fool's Omen (Shot)
+Luc: Memento Drive (1 token)
+Seth: Compelling Dash (Burst)
 
-Priorities:  0 | -3
-Luc is active
+Luc antes a Time token
+Priorities:  4 | 9
+Seth is active
+Seth moves Luc:
+
+...L.S.
+
+Seth moves Luc:
+
+..L..S.
+
+Seth moves:
+
+.SL....
+
 Luc moves:
 
-L.S....
+LS.....
 
 Luc misses
-Seth misses
+Luc spends a Time token
+Luc spends a Time token
+Luc attacks again
+Luc moves:
+
+.S.L...
+
+Luc misses
 Luc gains 1 Time token
 
 Beat 11
@@ -625,65 +681,54 @@ Beat 11
 
 Luc
 ---
-Life: 15
-Discard 1: Eternal Drive
-Discard 2: Fusion Burst
+Life: 6
+Discard 1: Memento Drive
+Discard 2: Feinting Grasp
 Special action available
-4 Time token
+1 Time token
 
 Seth
 ----
-Life: 13
-Discard 1: Fool's Omen
-Discard 2: Compelling Strike
+Life: 14
+Discard 1: Compelling Dash
+Discard 2: Fool's Strike
 Special action available
 
 
-L.S....
+.S.L...
+
+Unbeatable strategy for Seth: Vanishing Shot (Shot): -1.02
+Unbeatable strategy for Seth: Wyrding Burst (Shot): -0.49
 
 
 Luc:
-8% Memento Strike
-13% Memento Grasp
-58% Memento Dash
-4% Memento Dash (1 token)
-11% Feinting Flash (1 token)
-2% Feinting Grasp (1 token)
-3% Chrono Shot
-1% Chrono Shot (1 token)
+19% Eternal Flash
+32% Eternal Strike
+11% Eternal Shot
+21% Eternal Dash
+12% Chrono Flash
+5% Chrono Burst
 
 Seth:
-11% Mimic's Shot (Strike)
-32% Mimic's Drive (Flash)
-25% Mimic's Drive (Strike)
-1% Mimic's Drive (Grasp)
-4% Mimic's Burst (Shot)
-4% Mimic's Burst (Grasp)
-9% Wyrding Grasp (Dash)
-14% Wyrding Dash (Dash)
+6% Mimic's Shot (Flash)
+17% Mimic's Shot (Shot)
+18% Mimic's Burst (Burst)
+21% Vanishing Omen (Dash)
+0% Vanishing Shot (Flash)
+38% Vanishing Shot (Shot)
 
 
-Luc: Memento Dash
-Seth: Mimic's Drive (Strike)
+Luc: Eternal Strike
+Seth: Mimic's Shot (Shot)
 
-Priorities:  8 | 4
-Luc is active
+Priorities:  -1 | 2
+Seth is active
+Seth hits
 Luc spends a Time token
-Luc spends a Time token
-Luc attacks again
-Luc moves:
-
-..SL...
-
-Luc moves:
-
-L....S.
-
-Seth moves:
-
-LS.....
-
-Seth misses
+Luc gains +1 soak (2 total)
+Luc has 2 soak
+Luc takes 2 damage (now at 4 life)
+Luc misses
 Luc gains 1 Time token
 
 Beat 12
@@ -691,63 +736,62 @@ Beat 12
 
 Luc
 ---
-Life: 15
-Discard 1: Memento Dash
-Discard 2: Eternal Drive
+Life: 4
+Discard 1: Eternal Strike
+Discard 2: Memento Drive
 Special action available
-3 Time token
+1 Time token
 
 Seth
 ----
-Life: 13
-Discard 1: Mimic's Drive
-Discard 2: Fool's Omen
+Life: 14
+Discard 1: Mimic's Shot
+Discard 2: Compelling Dash
 Special action available
 
 
-LS.....
+.S.L...
+
+Unbeatable strategy for Seth: Wyrding Burst (Shot): -0.25
 
 
 Luc:
-11% Fusion Strike
-0% Fusion Strike (3 tokens)
-6% Fusion Shot (1 token)
-7% Fusion Grasp (3 tokens)
-14% Feinting Flash
-12% Feinting Strike (3 tokens)
-17% Feinting Grasp (3 tokens)
-8% Chrono Flash
-7% Chrono Shot
-17% Chrono Burst (3 tokens)
+5% Fusion Dash
+31% Feinting Burst
+10% Chrono Shot
+53% Chrono Burst
 
 Seth:
-22% Vanishing Strike (Flash)
-3% Vanishing Shot (Strike)
-9% Vanishing Shot (Shot)
-2% Wyrding Shot (Grasp)
-21% Compelling Strike (Flash)
-1% Compelling Shot (Strike)
-9% Compelling Shot (Shot)
-14% Compelling Burst (Burst)
-0% Compelling Grasp (Flash)
-20% Compelling Grasp (Shot)
+13% Vanishing Drive (Flash)
+11% Vanishing Drive (Shot)
+12% Vanishing Drive (Burst)
+15% Vanishing Drive (Grasp)
+13% Vanishing Drive (Dash)
+0% Wyrding Omen (Shot)
+25% Wyrding Burst (Shot)
+11% Wyrding Burst (Burst)
 
 
-Luc: Feinting Flash
-Seth: Vanishing Shot (Strike)
+Luc: Chrono Burst
+Seth: Vanishing Drive (Shot)
 
-Priorities:  4 | 2
-Luc is active
+Priorities:  2 | 4
+Seth is active
+Luc spends a Time token
 Luc moves:
 
 .SL....
 
-Luc misses
-Seth misses
 Luc moves:
 
-LS.....
+.S.L...
 
+Seth moves:
+
+..SL...
+
+Seth misses
+Luc misses
 Luc gains 1 Time token
 
 Beat 13
@@ -755,313 +799,57 @@ Beat 13
 
 Luc
 ---
-Life: 15
-Discard 1: Feinting Flash
-Discard 2: Memento Dash
-Special action available
-4 Time token
-
-Seth
-----
-Life: 13
-Discard 1: Vanishing Shot
-Discard 2: Mimic's Drive
-Special action available
-
-
-LS.....
-
-
-Luc:
-2% Eternal Strike
-43% Eternal Shot
-25% Eternal Drive
-12% Eternal Burst (1 token)
-12% Fusion Strike
-6% Chrono Burst
-
-Seth:
-15% Fool's Omen (Shot)
-2% Wyrding Strike (Drive)
-2% Compelling Omen (Shot)
-1% Compelling Strike (Strike)
-6% Compelling Strike (Drive)
-15% Compelling Dash (Strike)
-15% Compelling Dash (Shot)
-15% Compelling Dash (Drive)
-15% Compelling Dash (Burst)
-15% Compelling Dash (Grasp)
-
-
-Luc: Eternal Drive
-Seth: Compelling Dash (Drive)
-
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  0 | 11
-Seth is active
-Seth moves Luc:
-
-.SL....
-
-Seth moves Luc:
-
-.S.L...
-
-Seth moves:
-
-...LS..
-
-Luc moves:
-
-....S.L
-
-Luc misses
-Luc gains 1 Time token
-
-Beat 14
--------
-
-Luc
----
-Life: 15
-Discard 1: Eternal Drive
-Discard 2: Feinting Flash
-Special action available
-5 Time token
-
-Seth
-----
-Life: 13
-Discard 1: Compelling Dash
-Discard 2: Vanishing Shot
-Special action available
-
-
-....S.L
-
-
-Luc:
-7% Memento Shot (3 tokens)
-17% Memento Shot (5 tokens)
-16% Memento Burst (5 tokens)
-5% Memento Grasp (3 tokens)
-41% Memento Dash
-4% Chrono Strike (3 tokens)
-3% Chrono Shot (1 token)
-7% Chrono Shot (5 tokens)
-
-Seth:
-33% Fool's Burst (Burst)
-19% Mimic's Drive (Strike)
-10% Mimic's Drive (Shot)
-14% Mimic's Drive (Grasp)
-0% Mimic's Burst (Shot)
-2% Mimic's Burst (Burst)
-21% Wyrding Omen (Shot)
-0% Wyrding Grasp (Dash)
-
-
-Luc: Memento Burst (5 tokens)
-Seth: Fool's Burst (Burst)
-
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  0 | -1
-Luc is active
-Luc becomes the active player
-Seth moves:
-
-...S..L
-
-Luc misses
-Seth hits
-Luc takes 4 damage (now at 11 life)
-Luc is stunned
-Luc gains 1 Time token
-
-Beat 15
--------
-
-Luc
----
-Life: 11
-Discard 1: Memento Burst
-Discard 2: Eternal Drive
+Life: 4
+Discard 1: Chrono Burst
+Discard 2: Eternal Strike
 Special action available
 1 Time token
 
 Seth
 ----
-Life: 13
-Discard 1: Fool's Burst
-Discard 2: Compelling Dash
+Life: 14
+Discard 1: Vanishing Drive
+Discard 2: Mimic's Shot
 Special action available
 
 
-...S..L
-
-Unbeatable strategy for Seth: Mimic's Omen (Shot): -16.00
-Unbeatable strategy for Seth: Mimic's Shot (Shot): -16.00
-Unbeatable strategy for Seth: Mimic's Drive (Flash): -16.00
-Unbeatable strategy for Seth: Mimic's Drive (Strike): -16.00
-Unbeatable strategy for Seth: Mimic's Drive (Shot): -16.00
-Unbeatable strategy for Seth: Mimic's Drive (Grasp): -16.00
-Unbeatable strategy for Seth: Mimic's Drive (Dash): -16.00
-Unbeatable strategy for Seth: Vanishing Omen (Shot): -16.00
-Unbeatable strategy for Seth: Vanishing Strike (Flash): -16.00
-Unbeatable strategy for Seth: Vanishing Strike (Strike): -16.00
-Unbeatable strategy for Seth: Vanishing Strike (Grasp): -16.00
-Unbeatable strategy for Seth: Vanishing Strike (Dash): -16.00
-Unbeatable strategy for Seth: Vanishing Shot (Shot): -16.00
-Unbeatable strategy for Seth: Vanishing Drive (Flash): -16.00
-Unbeatable strategy for Seth: Vanishing Drive (Strike): -16.00
-Unbeatable strategy for Seth: Vanishing Drive (Shot): -16.00
-Unbeatable strategy for Seth: Vanishing Drive (Grasp): -16.00
-Unbeatable strategy for Seth: Vanishing Drive (Dash): -16.00
-Unbeatable strategy for Seth: Wyrding Omen (Shot): -16.00
-Unbeatable strategy for Seth: Wyrding Strike (Shot): -16.00
-Unbeatable strategy for Seth: Wyrding Shot (Shot): -16.00
-Unbeatable strategy for Seth: Wyrding Drive (Flash): -16.00
-Unbeatable strategy for Seth: Wyrding Drive (Strike): -16.00
-Unbeatable strategy for Seth: Wyrding Drive (Shot): -16.00
-Unbeatable strategy for Seth: Wyrding Drive (Grasp): -16.00
-Unbeatable strategy for Seth: Wyrding Drive (Dash): -16.00
-Unbeatable strategy for Seth: Wyrding Grasp (Shot): -16.00
+..SL...
 
 
 Luc:
-100% Special Pulse
-
-Seth:
-3% Mimic's Strike (Flash)
-3% Mimic's Strike (Strike)
-4% Mimic's Strike (Shot)
-3% Mimic's Strike (Grasp)
-3% Mimic's Strike (Dash)
-3% Wyrding Strike (Flash)
-3% Wyrding Strike (Strike)
-70% Wyrding Strike (Shot)
-3% Wyrding Strike (Grasp)
-3% Wyrding Strike (Dash)
-
-
-Luc: Special Pulse
-Seth: Wyrding Strike (Shot)
-
-Luc Pulses:
-
-.LS....
-
-
-Beat 15
--------
-
-Luc
----
-Life: 11
-Discard 1: Memento Burst
-Discard 2: Eternal Drive
-1 Time token
-
-Seth
-----
-Life: 13
-Discard 1: Wyrding Strike
-Discard 2: Fool's Burst
-Special action available
-
-
-.LS....
-
-Unbeatable strategy for Seth: Mimic's Grasp (Grasp): -16.00
-Unbeatable strategy for Seth: Vanishing Omen (Shot): -16.00
-Unbeatable strategy for Seth: Vanishing Dash (Flash): -16.00
-Unbeatable strategy for Seth: Vanishing Dash (Strike): -16.00
-Unbeatable strategy for Seth: Vanishing Dash (Shot): -16.00
-Unbeatable strategy for Seth: Vanishing Dash (Grasp): -16.00
-Unbeatable strategy for Seth: Vanishing Dash (Dash): -16.00
-Unbeatable strategy for Seth: Compelling Grasp (Grasp): -16.00
-Unbeatable strategy for Seth: Compelling Dash (Flash): -16.00
-Unbeatable strategy for Seth: Compelling Dash (Strike): -16.00
-Unbeatable strategy for Seth: Compelling Dash (Shot): -16.00
-Unbeatable strategy for Seth: Compelling Dash (Grasp): -16.00
-Unbeatable strategy for Seth: Compelling Dash (Dash): -16.00
-
-
-Luc:
-3% Fusion Flash
-3% Fusion Flash (1 token)
-2% Fusion Strike
-2% Fusion Strike (1 token)
-3% Fusion Shot
-2% Fusion Shot (1 token)
+19% Memento Flash (1 token)
+17% Memento Dash
+7% Fusion Shot
+11% Fusion Shot (1 token)
+18% Fusion Drive (1 token)
 3% Fusion Grasp
-5% Fusion Grasp (1 token)
-3% Fusion Dash
-3% Fusion Dash (1 token)
-3% Feinting Flash
-3% Feinting Flash (1 token)
-3% Feinting Strike
-3% Feinting Strike (1 token)
-6% Feinting Shot
-7% Feinting Shot (1 token)
-2% Feinting Grasp
-2% Feinting Grasp (1 token)
-3% Feinting Dash
-3% Feinting Dash (1 token)
-3% Chrono Flash
-3% Chrono Flash (1 token)
-3% Chrono Strike
-2% Chrono Strike (1 token)
-9% Chrono Shot
-2% Chrono Shot (1 token)
-4% Chrono Grasp
-4% Chrono Grasp (1 token)
-3% Chrono Dash
-3% Chrono Dash (1 token)
+6% Fusion Dash
+1% Feinting Flash
+17% Feinting Grasp
+2% Feinting Dash
 
 Seth:
-8% Mimic's Grasp (Grasp)
-8% Vanishing Omen (Shot)
-8% Vanishing Dash (Flash)
-8% Vanishing Dash (Strike)
-8% Vanishing Dash (Shot)
-8% Vanishing Dash (Grasp)
-8% Vanishing Dash (Dash)
-8% Compelling Grasp (Grasp)
-8% Compelling Dash (Flash)
-8% Compelling Dash (Strike)
-8% Compelling Dash (Shot)
-8% Compelling Dash (Grasp)
-8% Compelling Dash (Dash)
+3% Fool's Omen (Dash)
+1% Wyrding Strike (Grasp)
+32% Wyrding Burst (Shot)
+28% Wyrding Burst (Drive)
+4% Wyrding Burst (Dash)
+3% Wyrding Grasp (Grasp)
+17% Wyrding Grasp (Dash)
+4% Compelling Grasp (Flash)
+9% Compelling Grasp (Drive)
 
 
-Luc: Chrono Strike (1 token)
-Seth: Compelling Dash (Flash)
+Luc: Fusion Dash
+Seth: Wyrding Grasp (Dash)
 
-Luc antes a Time token
-Priorities:  5 | 9
-Seth is active
-Seth moves Luc:
-
-L.S....
-
-Seth moves Luc:
-
-.LS....
-
-Seth moves:
-
-SL.....
-
-Luc misses
-Luc gains 1 Time token
-Game goes to time
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  10 | 8
+Luc is active
+Seth selects Omen as his new base
+Luc is stunned
+Seth hits
+Luc takes 5 damage (now at 0 life)
 SETH WINS!
-total_time: 123
+total_time: 114

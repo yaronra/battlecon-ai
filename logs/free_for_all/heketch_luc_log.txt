@@ -11,54 +11,51 @@ Beat 1
 
 Heketch
 -------
-life: 20
-discard 1: Rasping Burst
-discard 2: Critical Strike
-special action
+Life: 20
+Discard 1: Rasping Burst
+Discard 2: Critical Strike
+Special action available
 Dark Force in pool
 
 Luc
 ---
-life: 20
-discard 1: Eternal Flash
-discard 2: Fusion Strike
-special action
+Life: 20
+Discard 1: Eternal Flash
+Discard 2: Fusion Strike
+Special action available
 2 Time tokens
 
 
 .H...L.
 
+
 Heketch:
-32% Merciless Shot
-7% Merciless Drive
-10% Assassin Knives (Dark Force - left)
-5% Assassin Shot (Dark Force - right)
-33% Assassin Drive (Dark Force - right)
-12% Psycho Shot (Dark Force - right)
+48% Merciless Shot
+11% Assassin Knives (Dark Force - left)
+3% Assassin Shot (Dark Force - right)
+36% Assassin Drive (Dark Force - right)
+2% Psycho Shot (Dark Force - right)
 
 Luc:
-13% Feinting Drive (1 token)
-6% Feinting Dash (1 token)
-3% Chrono Drive
-8% Chrono Drive (1 token)
-19% Chrono Grasp (1 token)
-51% Chrono Dash
+8% Feinting Burst
+18% Feinting Dash (1 token)
+13% Chrono Drive
+6% Chrono Drive (1 token)
+55% Chrono Dash
 
 
-Heketch: Merciless Drive
+Heketch: Merciless Shot
 Luc: Chrono Dash
 
-Priorities:  4 | 10
+Priorities:  2 | 10
 Luc is active
 Luc moves:
 
-.H....L
+.HL....
 
-Heketch moves:
-
-..H...L
-
-Heketch misses
+Heketch hits
+Luc takes 2 damage (now at 18 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 2
@@ -66,62 +63,80 @@ Beat 2
 
 Heketch
 -------
-life: 20
-discard 1: Merciless Drive
-discard 2: Rasping Burst
-special action
+Life: 20
+Discard 1: Merciless Shot
+Discard 2: Rasping Burst
+Special action available
 Dark Force in pool
 
 Luc
 ---
-life: 20
-discard 1: Chrono Dash
-discard 2: Eternal Flash
-special action
+Life: 18
+Discard 1: Chrono Dash
+Discard 2: Eternal Flash
+Special action available
 3 Time tokens
 
 
-..H...L
+.HL....
+
 
 Heketch:
-35% Critical Shot
-6% Assassin Knives (Dark Force - left)
-6% Assassin Knives (Dark Force - right)
-8% Assassin Shot
-12% Assassin Shot (Dark Force - left)
-12% Assassin Shot (Dark Force - right)
-3% Psycho Knives
-9% Psycho Shot (Dark Force - left)
-9% Psycho Shot (Dark Force - right)
+3% Assassin Knives (Dark Force - left)
+3% Assassin Knives (Dark Force - right)
+45% Assassin Drive (Dark Force - left)
+45% Assassin Drive (Dark Force - right)
+2% Psycho Drive (Dark Force - left)
+2% Psycho Drive (Dark Force - right)
 
 Luc:
-12% Memento Drive (1 token)
-30% Memento Drive (3 tokens)
-14% Fusion Drive (3 tokens)
-20% Fusion Grasp (3 tokens)
-23% Feinting Burst (3 tokens)
-1% Feinting Grasp (3 tokens)
+7% Memento Strike
+6% Memento Grasp
+6% Fusion Strike
+42% Fusion Grasp
+38% Feinting Burst (3 tokens)
 
 
-Heketch: Assassin Shot
-Luc: Memento Drive (3 tokens)
+Heketch: Assassin Drive (Dark Force - left)
+Luc: Feinting Burst (3 tokens)
+
+Heketch antes a Dark Force token
+Heketch moves:
+
+..LH...
 
 Luc antes a Time token
 Luc antes a Time token
 Luc antes a Time token
-Priorities:  2 | 3
-Luc is active
+Priorities:  7 | -1
+Heketch is active
 Luc moves:
 
-..H.L..
+.L.H...
 
 Luc moves:
 
-.LH....
+L..H...
 
-Luc hits
-Heketch takes 3 damage (now at 17 life)
-Heketch is stunned
+Luc moves:
+
+..LH...
+
+Heketch moves:
+
+.HL....
+
+Heketch hits
+Heketch moves:
+
+H.L....
+
+Luc takes 3 damage (now at 15 life)
+Luc is stunned
+Luc moves:
+
+HL.....
+
 Luc gains 1 Time token
 
 Beat 3
@@ -129,53 +144,48 @@ Beat 3
 
 Heketch
 -------
-life: 17
-discard 1: Assassin Shot
-discard 2: Merciless Drive
-special action
-Dark Force in pool
+Life: 20
+Discard 1: Assassin Drive
+Discard 2: Merciless Shot
+Special action available
 
 Luc
 ---
-life: 20
-discard 1: Memento Drive
-discard 2: Chrono Dash
-special action
-1 Time tokens
+Life: 15
+Discard 1: Feinting Burst
+Discard 2: Chrono Dash
+Special action available
+1 Time token
 
 
-.LH....
+HL.....
+
 
 Heketch:
-2% Rasping Knives
-34% Rasping Strike
-18% Critical Strike
-47% Psycho Burst
+37% Psycho Strike
+16% Psycho Grasp
+47% Psycho Dash
 
 Luc:
-49% Eternal Strike
-32% Eternal Shot
-4% Eternal Burst
-15% Fusion Strike (1 token)
+24% Eternal Shot
+18% Eternal Drive
+58% Fusion Drive
 
 
-Heketch: Psycho Burst
-Luc: Eternal Shot
+Heketch: Psycho Dash
+Luc: Fusion Drive
 
-Priorities:  2 | -2
+Priorities:  10 | 5
 Heketch is active
 Heketch moves:
 
-.L..H..
+.LH....
 
-Heketch hits
-Luc spends a Time token
-Luc gains +1 soak (2 total)
-Luc has 2 soak
-Luc takes 1 damage (now at 19 life)
-Luc hits
-Heketch takes 3 damage (now at 14 life)
-Heketch is stunned
+Luc moves:
+
+..HL...
+
+Luc misses
 Luc gains 1 Time token
 
 Beat 4
@@ -183,56 +193,54 @@ Beat 4
 
 Heketch
 -------
-life: 14
-discard 1: Psycho Burst
-discard 2: Assassin Shot
-special action
-Dark Force in pool
+Life: 20
+Discard 1: Psycho Dash
+Discard 2: Assassin Drive
+Special action available
 
 Luc
 ---
-life: 19
-discard 1: Eternal Shot
-discard 2: Memento Drive
-special action
-1 Time tokens
+Life: 15
+Discard 1: Fusion Drive
+Discard 2: Feinting Burst
+Special action available
+2 Time tokens
 
 
-.L..H..
+..HL...
+
+Unbeatable strategy for Luc: Eternal Shot: -0.45
+
 
 Heketch:
-8% Merciless Grasp (Dark Force - right)
-5% Rasping Knives
-12% Rasping Knives (Dark Force - left)
-12% Rasping Drive
-63% Rasping Drive (Dark Force - left)
+36% Merciless Burst
+2% Rasping Strike
+62% Critical Burst
 
 Luc:
-15% Fusion Flash (1 token)
-10% Fusion Strike (1 token)
-46% Chrono Flash
-5% Chrono Strike
-24% Chrono Dash
+2% Eternal Flash
+54% Eternal Shot
+45% Chrono Shot
 
 
-Heketch: Merciless Grasp (Dark Force - right)
-Luc: Fusion Strike (1 token)
+Heketch: Critical Burst
+Luc: Eternal Shot
 
-Heketch antes a Dark Force token
+Priorities:  2 | -2
+Heketch is active
 Heketch moves:
 
-.LH....
+H..L...
 
-Luc antes a Time token
-Priorities:  8 | 5
-Heketch is active
 Heketch hits
-Heketch moves Luc:
-
-L.H....
-
-Luc takes 1 damage (now at 18 life)
-Luc misses
+Luc spends a Time token
+Luc gains +1 soak (2 total)
+Luc has 2 soak
+Luc takes 0 damage (now at 15 life)
+Luc hits
+Heketch takes 3 damage (now at 17 life)
+Heketch is stunned
+Heketch gains 1 Dark Force token
 Luc gains 1 Time token
 
 Beat 5
@@ -240,54 +248,59 @@ Beat 5
 
 Heketch
 -------
-life: 14
-discard 1: Merciless Grasp
-discard 2: Psycho Burst
-special action
+Life: 17
+Discard 1: Critical Burst
+Discard 2: Psycho Dash
+Special action available
+Dark Force in pool
 
 Luc
 ---
-life: 18
-discard 1: Fusion Strike
-discard 2: Eternal Shot
-special action
-1 Time tokens
+Life: 15
+Discard 1: Eternal Shot
+Discard 2: Fusion Drive
+Special action available
+2 Time tokens
 
 
-L.H....
+H..L...
 
-Unbeatable strategy for Luc: Memento Dash: -0.38
-Unbeatable strategy for Luc: Feinting Dash: -0.38
 
 Heketch:
-21% Rasping Strike
-9% Rasping Shot
-35% Rasping Drive
-25% Rasping Dash
-9% Assassin Dash
+31% Merciless Grasp
+31% Rasping Shot
+4% Rasping Drive (Dark Force - left)
+4% Rasping Drive (Dark Force - right)
+10% Assassin Knives (Dark Force - left)
+10% Assassin Knives (Dark Force - right)
+5% Assassin Shot (Dark Force - left)
+5% Assassin Shot (Dark Force - right)
 
 Luc:
-83% Feinting Dash
-8% Chrono Flash
-3% Chrono Drive
-3% Chrono Drive (1 token)
-3% Chrono Dash
+30% Feinting Burst
+41% Chrono Flash
+2% Chrono Flash (1 token)
+16% Chrono Burst (1 token)
+11% Chrono Dash
 
 
-Heketch: Rasping Shot
-Luc: Feinting Dash
+Heketch: Merciless Grasp
+Luc: Chrono Flash
 
-Priorities:  3 | 7
+Priorities:  5 | 7
 Luc is active
+Luc spends a Time token
 Luc moves:
 
-..HL...
+H.L....
 
-Heketch misses
 Luc moves:
 
-.LH....
+HL.....
 
+Luc hits
+Heketch takes 1 damage (now at 16 life)
+Heketch is stunned
 Luc gains 1 Time token
 
 Beat 6
@@ -295,48 +308,47 @@ Beat 6
 
 Heketch
 -------
-life: 14
-discard 1: Rasping Shot
-discard 2: Merciless Grasp
-special action
+Life: 16
+Discard 1: Merciless Grasp
+Discard 2: Critical Burst
+Special action available
+Dark Force in pool
 
 Luc
 ---
-life: 18
-discard 1: Feinting Dash
-discard 2: Fusion Strike
-special action
+Life: 15
+Discard 1: Chrono Flash
+Discard 2: Eternal Shot
+Special action available
 2 Time tokens
 
 
-.LH....
+HL.....
+
 
 Heketch:
-24% Critical Dash
-3% Assassin Knives
-12% Assassin Strike
-24% Assassin Dash
-30% Psycho Knives
-7% Psycho Strike
+34% Rasping Strike
+18% Rasping Shot
+26% Rasping Drive
+11% Assassin Knives (Dark Force - left)
+11% Assassin Knives (Dark Force - right)
 
 Luc:
-2% Eternal Shot
-4% Memento Drive
-19% Chrono Flash
-27% Chrono Drive
-50% Chrono Drive (1 token)
+18% Fusion Strike (1 token)
+25% Fusion Drive (1 token)
+56% Fusion Dash
+1% Feinting Burst
 
 
-Heketch: Psycho Strike
-Luc: Chrono Drive
+Heketch: Rasping Strike
+Luc: Fusion Dash
 
-Priorities:  4 | 5
+Priorities:  4 | 10
 Luc is active
 Luc moves:
 
-..H.L..
+H..L...
 
-Luc misses
 Heketch misses
 Luc gains 1 Time token
 
@@ -345,55 +357,54 @@ Beat 7
 
 Heketch
 -------
-life: 14
-discard 1: Psycho Strike
-discard 2: Rasping Shot
-special action
+Life: 16
+Discard 1: Rasping Strike
+Discard 2: Merciless Grasp
+Special action available
+Dark Force in pool
 
 Luc
 ---
-life: 18
-discard 1: Chrono Drive
-discard 2: Feinting Dash
-special action
+Life: 15
+Discard 1: Fusion Dash
+Discard 2: Chrono Flash
+Special action available
 3 Time tokens
 
 
-..H.L..
+H..L...
+
+Unbeatable strategy for Luc: Eternal Shot: -0.88
+Unbeatable strategy for Luc: Eternal Shot (1 token): -0.68
+Unbeatable strategy for Luc: Eternal Drive: -0.62
+
 
 Heketch:
-18% Critical Burst
-6% Assassin Knives
-22% Assassin Drive
-54% Assassin Burst
+0% Assassin Burst (Dark Force - left)
+0% Assassin Burst (Dark Force - right)
+4% Psycho Drive
+95% Psycho Dash
 
 Luc:
-73% Eternal Shot
-2% Eternal Shot (3 tokens)
-11% Memento Burst (1 token)
-15% Fusion Burst (3 tokens)
+28% Eternal Strike
+51% Eternal Shot
+21% Feinting Drive
 
 
-Heketch: Assassin Knives
-Luc: Eternal Shot
+Heketch: Psycho Dash
+Luc: Eternal Strike
 
-Priorities:  5 | -2
+Priorities:  10 | -1
 Heketch is active
-Heketch hits
 Heketch moves:
 
-H...L..
+..HL...
 
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +3 soak (4 total)
-Luc has 4 soak
-Luc takes 0 damage (now at 18 life)
-Luc hits
-Heketch takes 3 damage (now at 11 life)
-Heketch is stunned
-Heketch gains 1 Dark Force token
+Heketch moves:
+
+...LH..
+
+Luc misses
 Luc gains 1 Time token
 
 Beat 8
@@ -401,63 +412,65 @@ Beat 8
 
 Heketch
 -------
-life: 11
-discard 1: Assassin Knives
-discard 2: Psycho Strike
-special action
+Life: 16
+Discard 1: Psycho Dash
+Discard 2: Rasping Strike
+Special action available
 Dark Force in pool
 
 Luc
 ---
-life: 18
-discard 1: Eternal Shot
-discard 2: Chrono Drive
-special action
-1 Time tokens
+Life: 15
+Discard 1: Eternal Strike
+Discard 2: Fusion Dash
+Special action available
+4 Time tokens
 
 
-H...L..
+...LH..
 
-Unbeatable strategy for Luc: Feinting Burst: -0.00
 
 Heketch:
-62% Merciless Shot
-7% Merciless Drive (Dark Force - left)
-31% Rasping Shot
+13% Merciless Shot
+21% Merciless Drive
+8% Assassin Knives (Dark Force - left)
+8% Assassin Knives (Dark Force - right)
+16% Assassin Shot
+3% Assassin Shot (Dark Force - left)
+3% Assassin Shot (Dark Force - right)
+12% Assassin Drive (Dark Force - left)
+12% Assassin Drive (Dark Force - right)
+3% Assassin Burst
 
 Luc:
-6% Fusion Burst
-93% Feinting Burst
-1% Feinting Grasp
+4% Memento Drive
+2% Memento Grasp (1 token)
+35% Feinting Burst
+7% Chrono Flash (1 token)
+25% Chrono Drive (1 token)
+4% Chrono Burst (1 token)
+24% Chrono Grasp (1 token)
 
 
-Heketch: Merciless Drive (Dark Force - left)
-Luc: Feinting Burst
+Heketch: Assassin Knives (Dark Force - right)
+Luc: Chrono Grasp (1 token)
 
 Heketch antes a Dark Force token
 Heketch moves:
 
-...HL..
+..HL...
 
-Priorities:  7 | -1
+Luc antes a Time token
+Priorities:  8 | 7
 Heketch is active
-Luc moves:
-
-...H.L.
-
+Heketch hits
 Heketch moves:
 
-....HL.
+H..L...
 
-Heketch hits
-Luc takes 2 damage (now at 16 life)
+Luc takes 4 damage (now at 11 life)
 Luc is stunned
-Luc moves:
-
-...LH..
-
-Luc loses 2 life (now at 14)
-Luc cannot move again this beat
+Heketch gains 1 Dark Force token
 Luc gains 1 Time token
 
 Beat 9
@@ -465,51 +478,61 @@ Beat 9
 
 Heketch
 -------
-life: 11
-discard 1: Merciless Drive
-discard 2: Assassin Knives
-special action
+Life: 16
+Discard 1: Assassin Knives
+Discard 2: Psycho Dash
+Special action available
+Dark Force in pool
 
 Luc
 ---
-life: 14
-discard 1: Feinting Burst
-discard 2: Eternal Shot
-special action
-2 Time tokens
+Life: 11
+Discard 1: Chrono Grasp
+Discard 2: Eternal Strike
+Special action available
+4 Time tokens
 
 
-...LH..
+H..L...
+
 
 Heketch:
-3% Rasping Strike
-5% Psycho Strike
-6% Psycho Shot
-22% Psycho Burst
-59% Psycho Grasp
-5% Psycho Dash
+12% Rasping Strike
+5% Rasping Strike (Dark Force - left)
+5% Rasping Strike (Dark Force - right)
+6% Rasping Shot
+16% Rasping Drive
+15% Rasping Drive (Dark Force - left)
+15% Rasping Drive (Dark Force - right)
+26% Critical Shot
 
 Luc:
-5% Memento Drive
-38% Memento Dash
-1% Chrono Flash
-5% Chrono Drive
-7% Chrono Grasp (1 token)
-44% Chrono Dash
+1% Memento Flash (3 tokens)
+23% Memento Shot
+12% Memento Drive (1 token)
+27% Fusion Drive (1 token)
+31% Feinting Burst
+6% Feinting Burst (3 tokens)
 
 
-Heketch: Psycho Grasp
-Luc: Chrono Grasp (1 token)
+Heketch: Critical Shot
+Luc: Memento Drive (1 token)
 
 Luc antes a Time token
-Priorities:  6 | 7
+Priorities:  3 | 4
 Luc is active
+Luc moves:
+
+HL.....
+
 Luc hits
-Luc moves Heketch:
-
-..HL...
-
-Heketch takes 2 damage (now at 9 life)
+Heketch takes 3 damage (now at 13 life)
+Heketch is stunned
+Luc spends a Time token
+Luc spends a Time token
+Luc attacks again
+Luc hits
+Heketch takes 3 damage (now at 10 life)
 Heketch is stunned
 Luc gains 1 Time token
 
@@ -518,52 +541,54 @@ Beat 10
 
 Heketch
 -------
-life: 9
-discard 1: Psycho Grasp
-discard 2: Merciless Drive
-special action
+Life: 10
+Discard 1: Critical Shot
+Discard 2: Assassin Knives
+Special action available
+Dark Force in pool
 
 Luc
 ---
-life: 14
-discard 1: Chrono Grasp
-discard 2: Feinting Burst
-special action
+Life: 11
+Discard 1: Memento Drive
+Discard 2: Chrono Grasp
+Special action available
 2 Time tokens
 
 
-..HL...
-
-Heketch:
-37% Rasping Strike
-18% Rasping Burst
-6% Assassin Knives
-37% Assassin Strike
-3% Assassin Shot
-
-Luc:
-3% Eternal Shot
-1% Memento Flash
-5% Memento Drive (1 token)
-87% Memento Dash
-0% Fusion Drive
-4% Fusion Dash
-
-
-Heketch: Rasping Burst
-Luc: Fusion Dash
-
-Priorities:  2 | 10
-Luc is active
-Heketch moves:
-
-H..L...
-
-Luc moves:
-
 HL.....
 
-Heketch misses
+Unbeatable strategy for Heketch: Merciless Dash: 0.46
+
+
+Heketch:
+8% Merciless Drive
+3% Merciless Burst (Dark Force - left)
+3% Merciless Burst (Dark Force - right)
+30% Merciless Dash
+19% Rasping Strike
+27% Rasping Drive
+10% Psycho Drive
+
+Luc:
+25% Eternal Strike
+19% Eternal Shot
+10% Eternal Burst
+8% Eternal Dash
+9% Fusion Strike (1 token)
+30% Feinting Dash
+
+
+Heketch: Merciless Dash
+Luc: Eternal Shot
+
+Priorities:  9 | -2
+Heketch is active
+Heketch moves:
+
+.L..H..
+
+Luc misses
 Luc gains 1 Time token
 
 Beat 11
@@ -571,47 +596,71 @@ Beat 11
 
 Heketch
 -------
-life: 9
-discard 1: Rasping Burst
-discard 2: Psycho Grasp
-special action
+Life: 10
+Discard 1: Merciless Dash
+Discard 2: Critical Shot
+Special action available
+Dark Force in pool
 
 Luc
 ---
-life: 14
-discard 1: Fusion Dash
-discard 2: Chrono Grasp
-special action
+Life: 11
+Discard 1: Eternal Shot
+Discard 2: Memento Drive
+Special action available
 3 Time tokens
 
 
-HL.....
+.L..H..
+
 
 Heketch:
-52% Merciless Dash
-48% Assassin Drive
+16% Rasping Knives (Dark Force - left)
+7% Rasping Drive
+42% Rasping Drive (Dark Force - left)
+21% Rasping Burst
+3% Rasping Burst (Dark Force - left)
+10% Psycho Drive
 
 Luc:
-62% Eternal Burst
-38% Memento Flash
+4% Feinting Strike
+3% Feinting Burst
+6% Feinting Burst (3 tokens)
+13% Feinting Dash (1 token)
+1% Chrono Flash (1 token)
+74% Chrono Dash
 
 
-Heketch: Assassin Drive
-Luc: Memento Flash
+Heketch: Rasping Drive (Dark Force - left)
+Luc: Feinting Burst
 
-Priorities:  4 | 5
-Luc is active
-Luc hits
-Heketch takes 1 damage (now at 8 life)
-Heketch is stunned
-Heketch is stunned
-Luc spends a Time token
-Luc spends a Time token
-Luc attacks again
-Luc hits
-Heketch takes 1 damage (now at 7 life)
-Heketch is stunned
-Heketch is stunned
+Heketch antes a Dark Force token
+Heketch moves:
+
+HL.....
+
+Priorities:  8 | -1
+Heketch is active
+Luc moves:
+
+H.L....
+
+Luc moves:
+
+H..L...
+
+Heketch moves:
+
+..HL...
+
+Heketch hits
+Luc takes 2 damage (now at 9 life)
+Heketch gains 1 life (now at 11)
+Luc is stunned
+Luc moves:
+
+.LH....
+
 Luc gains 1 Time token
 
 Beat 12
@@ -619,36 +668,94 @@ Beat 12
 
 Heketch
 -------
-life: 7
-discard 1: Assassin Drive
-discard 2: Rasping Burst
-special action
+Life: 11
+Discard 1: Rasping Drive
+Discard 2: Merciless Dash
+Special action available
 
 Luc
 ---
-life: 14
-discard 1: Memento Flash
-discard 2: Fusion Dash
-special action
-2 Time tokens
+Life: 9
+Discard 1: Feinting Burst
+Discard 2: Eternal Shot
+Special action available
+4 Time tokens
+
+
+.LH....
+
+
+Heketch:
+9% Assassin Knives
+18% Assassin Burst
+33% Psycho Knives
+22% Psycho Strike
+17% Psycho Grasp
+
+Luc:
+12% Memento Drive (1 token)
+16% Memento Drive (3 tokens)
+4% Fusion Grasp (1 token)
+40% Chrono Drive (1 token)
+28% Chrono Grasp (1 token)
+
+
+Heketch: Psycho Strike
+Luc: Fusion Grasp (1 token)
+
+Luc antes a Time token
+Priorities:  4 | 7
+Luc is active
+Luc hits
+Luc moves Heketch:
+
+HL.....
+
+Heketch takes 1 damage (now at 10 life)
+Heketch loses 2 life (now at 8)
+Heketch hits
+Luc takes 4 damage (now at 5 life)
+Luc is stunned
+Luc gains 1 Time token
+
+Beat 13
+-------
+
+Heketch
+-------
+Life: 8
+Discard 1: Psycho Strike
+Discard 2: Rasping Drive
+Special action available
+
+Luc
+---
+Life: 5
+Discard 1: Fusion Grasp
+Discard 2: Feinting Burst
+Special action available
+4 Time tokens
 
 
 HL.....
 
+
 Heketch:
-1% Merciless Grasp
-5% Merciless Dash
-1% Psycho Shot
-93% Psycho Dash
+3% Merciless Grasp
+26% Merciless Dash
+3% Critical Shot
+60% Critical Dash
+8% Assassin Shot
 
 Luc:
-23% Eternal Drive
-50% Eternal Burst
-1% Chrono Drive
-26% Chrono Burst
+41% Eternal Drive
+6% Memento Drive
+5% Memento Drive (1 token)
+36% Memento Dash (1 token)
+12% Chrono Dash
 
 
-Heketch: Psycho Dash
+Heketch: Critical Dash
 Luc: Eternal Drive
 
 Priorities:  10 | 0
@@ -664,407 +771,138 @@ Luc moves:
 Luc misses
 Luc gains 1 Time token
 
-Beat 13
+Beat 14
 -------
 
 Heketch
 -------
-life: 7
-discard 1: Psycho Dash
-discard 2: Assassin Drive
-special action
+Life: 8
+Discard 1: Critical Dash
+Discard 2: Psycho Strike
+Special action available
 
 Luc
 ---
-life: 14
-discard 1: Eternal Drive
-discard 2: Memento Flash
-special action
-3 Time tokens
+Life: 5
+Discard 1: Eternal Drive
+Discard 2: Fusion Grasp
+Special action available
+5 Time tokens
 
 
 ..HL...
 
+Unbeatable strategy for Luc: Feinting Shot (5 tokens): -0.97
+
+
 Heketch:
-29% Merciless Strike
-33% Merciless Burst
-5% Merciless Grasp
-29% Rasping Knives
-4% Critical Grasp
+1% Rasping Grasp
+1% Assassin Knives
+2% Assassin Burst
+96% Special Pulse
 
 Luc:
-4% Feinting Burst
-14% Feinting Dash
-45% Chrono Shot (1 token)
-38% Chrono Dash
+49% Memento Strike
+2% Memento Burst
+10% Special Temporal Recursion
+39% Special Temporal Recursion (1 token)
 
 
-Heketch: Merciless Burst
-Luc: Feinting Burst
+Heketch: Special Pulse
+Luc: Memento Strike
 
-Priorities:  1 | -1
-Heketch is active
-Heketch moves:
+Heketch Pulses:
 
-H..L...
+H....L.
 
-Luc moves:
-
-H...L..
-
-Heketch hits
-Luc takes 2 damage (now at 12 life)
-Luc is stunned
-Luc moves:
-
-H.L....
-
-Luc gains 1 Time token
 
 Beat 14
 -------
 
 Heketch
 -------
-life: 7
-discard 1: Merciless Burst
-discard 2: Psycho Dash
-special action
+Life: 8
+Discard 1: Critical Dash
+Discard 2: Psycho Strike
 
 Luc
 ---
-life: 12
-discard 1: Feinting Burst
-discard 2: Eternal Drive
-special action
-4 Time tokens
+Life: 5
+Discard 1: Memento Strike
+Discard 2: Eternal Drive
+Special action available
+5 Time tokens
 
 
-H.L....
+H....L.
 
-Unbeatable strategy for Luc: Fusion Flash: -1.05
-Unbeatable strategy for Luc: Fusion Flash (1 token): -0.65
-Unbeatable strategy for Luc: Chrono Flash: -2.09
-Unbeatable strategy for Luc: Chrono Flash (1 token): -1.69
-Unbeatable strategy for Luc: Chrono Flash (3 tokens): -0.89
+Unbeatable strategy for Luc: Feinting Shot (3 tokens): -0.49
+Unbeatable strategy for Luc: Chrono Flash: -1.86
+Unbeatable strategy for Luc: Chrono Flash (1 token): -1.66
+Unbeatable strategy for Luc: Chrono Flash (3 tokens): -1.66
+Unbeatable strategy for Luc: Chrono Shot: -1.14
+Unbeatable strategy for Luc: Chrono Shot (1 token): -0.94
+Unbeatable strategy for Luc: Chrono Shot (3 tokens): -0.74
+
 
 Heketch:
-40% Rasping Shot
-34% Rasping Drive
-26% Rasping Grasp
+5% Merciless Knives
+8% Merciless Shot
+12% Merciless Drive
+6% Merciless Burst
+6% Merciless Grasp
+10% Rasping Knives
+9% Rasping Shot
+9% Rasping Drive
+8% Rasping Burst
+1% Rasping Grasp
+4% Assassin Knives
+8% Assassin Shot
+5% Assassin Drive
+5% Assassin Burst
+4% Assassin Grasp
 
 Luc:
-0% Memento Strike
-96% Chrono Flash
-4% Chrono Strike
+100% Special Temporal Recursion
 
 
-Heketch: Rasping Shot
-Luc: Chrono Flash
+Heketch: Rasping Burst
+Luc: Special Temporal Recursion
 
-Priorities:  3 | 7
+Priorities:  2 | 5
 Luc is active
 Luc moves:
 
+H...L..
+
+Luc misses
+Luc spends a Time token
+Luc spends a Time token
+Luc spends a Time token
+Luc spends a Time token
+Luc spends a Time token
+Luc attacks 5 more times
+Luc moves:
+
+H..L...
+
+Luc misses
+Luc moves:
+
+H.L....
+
+Luc misses
+Luc moves:
+
 HL.....
 
 Luc hits
-Heketch takes 1 damage (now at 6 life)
+Heketch takes 3 damage (now at 5 life)
 Heketch is stunned
-Luc gains 1 Time token
-
-Beat 15
--------
-
-Heketch
--------
-life: 6
-discard 1: Rasping Shot
-discard 2: Merciless Burst
-special action
-
-Luc
----
-life: 12
-discard 1: Chrono Flash
-discard 2: Feinting Burst
-special action
-5 Time tokens
-
-
-HL.....
-
-Unbeatable strategy for Luc: Eternal Strike: -11.00
-Unbeatable strategy for Luc: Eternal Strike (1 token): -11.00
-Unbeatable strategy for Luc: Eternal Strike (3 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Strike (5 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Shot: -11.00
-Unbeatable strategy for Luc: Eternal Shot (1 token): -11.00
-Unbeatable strategy for Luc: Eternal Shot (3 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Shot (5 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Drive: -11.00
-Unbeatable strategy for Luc: Eternal Drive (1 token): -11.00
-Unbeatable strategy for Luc: Eternal Drive (3 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Drive (5 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Grasp: -11.00
-Unbeatable strategy for Luc: Eternal Grasp (1 token): -11.00
-Unbeatable strategy for Luc: Eternal Grasp (3 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Grasp (5 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Dash: -11.00
-Unbeatable strategy for Luc: Eternal Dash (1 token): -11.00
-Unbeatable strategy for Luc: Eternal Dash (3 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Dash (5 tokens): -11.00
-Unbeatable strategy for Luc: Memento Strike: -11.00
-Unbeatable strategy for Luc: Memento Strike (1 token): -11.00
-Unbeatable strategy for Luc: Memento Strike (3 tokens): -11.00
-Unbeatable strategy for Luc: Memento Strike (5 tokens): -11.00
-Unbeatable strategy for Luc: Memento Shot: -11.00
-Unbeatable strategy for Luc: Memento Shot (1 token): -11.00
-Unbeatable strategy for Luc: Memento Shot (3 tokens): -11.00
-Unbeatable strategy for Luc: Memento Shot (5 tokens): -11.00
-Unbeatable strategy for Luc: Memento Drive: -11.00
-Unbeatable strategy for Luc: Memento Drive (1 token): -11.00
-Unbeatable strategy for Luc: Memento Drive (3 tokens): -11.00
-Unbeatable strategy for Luc: Memento Drive (5 tokens): -11.00
-Unbeatable strategy for Luc: Memento Grasp: -11.00
-Unbeatable strategy for Luc: Memento Grasp (1 token): -11.00
-Unbeatable strategy for Luc: Memento Grasp (3 tokens): -11.00
-Unbeatable strategy for Luc: Memento Grasp (5 tokens): -11.00
-Unbeatable strategy for Luc: Memento Dash: -11.00
-Unbeatable strategy for Luc: Memento Dash (1 token): -11.00
-Unbeatable strategy for Luc: Memento Dash (3 tokens): -11.00
-Unbeatable strategy for Luc: Memento Dash (5 tokens): -11.00
-Unbeatable strategy for Luc: Fusion Strike: -11.00
-Unbeatable strategy for Luc: Fusion Strike (1 token): -11.00
-Unbeatable strategy for Luc: Fusion Strike (3 tokens): -11.00
-Unbeatable strategy for Luc: Fusion Strike (5 tokens): -11.00
-Unbeatable strategy for Luc: Fusion Shot: -11.00
-Unbeatable strategy for Luc: Fusion Shot (1 token): -11.00
-Unbeatable strategy for Luc: Fusion Shot (3 tokens): -11.00
-Unbeatable strategy for Luc: Fusion Shot (5 tokens): -11.00
-Unbeatable strategy for Luc: Fusion Drive: -11.00
-Unbeatable strategy for Luc: Fusion Drive (1 token): -11.00
-Unbeatable strategy for Luc: Fusion Drive (3 tokens): -11.00
-Unbeatable strategy for Luc: Fusion Drive (5 tokens): -11.00
-Unbeatable strategy for Luc: Fusion Grasp: -11.00
-Unbeatable strategy for Luc: Fusion Grasp (1 token): -11.00
-Unbeatable strategy for Luc: Fusion Grasp (3 tokens): -11.00
-Unbeatable strategy for Luc: Fusion Grasp (5 tokens): -11.00
-Unbeatable strategy for Luc: Fusion Dash: -11.00
-Unbeatable strategy for Luc: Fusion Dash (1 token): -11.00
-Unbeatable strategy for Luc: Fusion Dash (3 tokens): -11.00
-Unbeatable strategy for Luc: Fusion Dash (5 tokens): -11.00
-
-Heketch:
-100% Special Pulse
-
-Luc:
-17% Eternal Strike
-17% Eternal Grasp
-17% Memento Strike
-17% Memento Grasp
-17% Fusion Strike
-17% Fusion Grasp
-
-
-Heketch: Special Pulse
-Luc: Fusion Grasp
-
-Pulse:
-
-H....L.
-
-
-Beat 15
--------
-
-Heketch
--------
-life: 6
-discard 1: Rasping Shot
-discard 2: Merciless Burst
-
-Luc
----
-life: 12
-discard 1: Fusion Grasp
-discard 2: Chrono Flash
-special action
-5 Time tokens
-
-
-H....L.
-
-Unbeatable strategy for Luc: Eternal Strike: -11.00
-Unbeatable strategy for Luc: Eternal Strike (1 token): -11.00
-Unbeatable strategy for Luc: Eternal Strike (3 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Strike (5 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Shot: -11.00
-Unbeatable strategy for Luc: Eternal Shot (1 token): -11.00
-Unbeatable strategy for Luc: Eternal Shot (3 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Shot (5 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Drive: -11.00
-Unbeatable strategy for Luc: Eternal Drive (1 token): -11.00
-Unbeatable strategy for Luc: Eternal Drive (3 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Drive (5 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Burst: -11.00
-Unbeatable strategy for Luc: Eternal Burst (1 token): -11.00
-Unbeatable strategy for Luc: Eternal Burst (3 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Burst (5 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Dash: -11.00
-Unbeatable strategy for Luc: Eternal Dash (1 token): -11.00
-Unbeatable strategy for Luc: Eternal Dash (3 tokens): -11.00
-Unbeatable strategy for Luc: Eternal Dash (5 tokens): -11.00
-Unbeatable strategy for Luc: Memento Strike: -11.00
-Unbeatable strategy for Luc: Memento Strike (1 token): -11.00
-Unbeatable strategy for Luc: Memento Strike (3 tokens): -11.00
-Unbeatable strategy for Luc: Memento Strike (5 tokens): -11.00
-Unbeatable strategy for Luc: Memento Shot: -11.00
-Unbeatable strategy for Luc: Memento Shot (1 token): -11.00
-Unbeatable strategy for Luc: Memento Shot (3 tokens): -11.00
-Unbeatable strategy for Luc: Memento Shot (5 tokens): -11.00
-Unbeatable strategy for Luc: Memento Drive: -11.00
-Unbeatable strategy for Luc: Memento Drive (1 token): -11.00
-Unbeatable strategy for Luc: Memento Drive (3 tokens): -11.00
-Unbeatable strategy for Luc: Memento Drive (5 tokens): -11.00
-Unbeatable strategy for Luc: Memento Burst: -11.00
-Unbeatable strategy for Luc: Memento Burst (1 token): -11.00
-Unbeatable strategy for Luc: Memento Burst (3 tokens): -11.00
-Unbeatable strategy for Luc: Memento Burst (5 tokens): -11.00
-Unbeatable strategy for Luc: Memento Dash: -11.00
-Unbeatable strategy for Luc: Memento Dash (1 token): -11.00
-Unbeatable strategy for Luc: Memento Dash (3 tokens): -11.00
-Unbeatable strategy for Luc: Memento Dash (5 tokens): -11.00
-Unbeatable strategy for Luc: Feinting Strike: -11.00
-Unbeatable strategy for Luc: Feinting Strike (1 token): -11.00
-Unbeatable strategy for Luc: Feinting Strike (3 tokens): -11.00
-Unbeatable strategy for Luc: Feinting Strike (5 tokens): -11.00
-Unbeatable strategy for Luc: Feinting Shot: -11.00
-Unbeatable strategy for Luc: Feinting Shot (1 token): -11.00
-Unbeatable strategy for Luc: Feinting Shot (3 tokens): -11.00
-Unbeatable strategy for Luc: Feinting Shot (5 tokens): -11.00
-Unbeatable strategy for Luc: Feinting Drive: -11.00
-Unbeatable strategy for Luc: Feinting Drive (1 token): -11.00
-Unbeatable strategy for Luc: Feinting Drive (3 tokens): -11.00
-Unbeatable strategy for Luc: Feinting Drive (5 tokens): -11.00
-Unbeatable strategy for Luc: Feinting Burst: -11.00
-Unbeatable strategy for Luc: Feinting Burst (1 token): -11.00
-Unbeatable strategy for Luc: Feinting Burst (3 tokens): -11.00
-Unbeatable strategy for Luc: Feinting Burst (5 tokens): -11.00
-Unbeatable strategy for Luc: Feinting Dash: -11.00
-Unbeatable strategy for Luc: Feinting Dash (1 token): -11.00
-Unbeatable strategy for Luc: Feinting Dash (3 tokens): -11.00
-Unbeatable strategy for Luc: Feinting Dash (5 tokens): -11.00
-
-Heketch:
-7% Critical Knives
-6% Critical Strike
-7% Critical Drive
-6% Critical Grasp
-6% Critical Dash
-7% Assassin Knives
-6% Assassin Strike
-7% Assassin Drive
-6% Assassin Grasp
-6% Assassin Dash
-6% Psycho Knives
-8% Psycho Strike
-6% Psycho Drive
-8% Psycho Grasp
-7% Psycho Dash
-
-Luc:
-2% Eternal Strike
-2% Eternal Strike (1 token)
-2% Eternal Strike (3 tokens)
-2% Eternal Strike (5 tokens)
-2% Eternal Shot
-2% Eternal Shot (1 token)
-2% Eternal Shot (3 tokens)
-2% Eternal Shot (5 tokens)
-2% Eternal Drive
-2% Eternal Drive (1 token)
-2% Eternal Drive (3 tokens)
-2% Eternal Drive (5 tokens)
-2% Eternal Burst
-2% Eternal Burst (1 token)
-2% Eternal Burst (3 tokens)
-2% Eternal Burst (5 tokens)
-2% Eternal Dash
-2% Eternal Dash (1 token)
-2% Eternal Dash (3 tokens)
-2% Eternal Dash (5 tokens)
-2% Memento Strike
-2% Memento Strike (1 token)
-2% Memento Strike (3 tokens)
-2% Memento Strike (5 tokens)
-2% Memento Shot
-2% Memento Shot (1 token)
-2% Memento Shot (3 tokens)
-2% Memento Shot (5 tokens)
-2% Memento Drive
-2% Memento Drive (1 token)
-2% Memento Drive (3 tokens)
-2% Memento Drive (5 tokens)
-2% Memento Burst
-2% Memento Burst (1 token)
-2% Memento Burst (3 tokens)
-2% Memento Burst (5 tokens)
-2% Memento Dash
-2% Memento Dash (1 token)
-2% Memento Dash (3 tokens)
-2% Memento Dash (5 tokens)
-2% Feinting Strike
-2% Feinting Strike (1 token)
-2% Feinting Strike (3 tokens)
-2% Feinting Strike (5 tokens)
-2% Feinting Shot
-2% Feinting Shot (1 token)
-2% Feinting Shot (3 tokens)
-2% Feinting Shot (5 tokens)
-2% Feinting Drive
-2% Feinting Drive (1 token)
-2% Feinting Drive (3 tokens)
-2% Feinting Drive (5 tokens)
-2% Feinting Burst
-2% Feinting Burst (1 token)
-2% Feinting Burst (3 tokens)
-2% Feinting Burst (5 tokens)
-2% Feinting Dash
-2% Feinting Dash (1 token)
-2% Feinting Dash (3 tokens)
-2% Feinting Dash (5 tokens)
-
-
-Heketch: Psycho Drive
-Luc: Memento Burst (3 tokens)
-
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  5 | 0
-Heketch is active
-Heketch moves:
-
-....HL.
-
-Luc moves:
-
-....H.L
-
-Luc moves:
-
-...LH..
-
-Heketch moves:
-
-.H.L...
-
-Heketch misses
 Luc hits
-Heketch takes 3 damage (now at 3 life)
+Heketch takes 3 damage (now at 2 life)
 Heketch is stunned
-Luc gains 1 Time token
-Game goes to time
+Luc hits
+Heketch takes 3 damage (now at 0 life)
 LUC WINS!
-total_time: 26
+total_time: 81

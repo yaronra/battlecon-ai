@@ -11,53 +11,54 @@ Beat 1
 
 Luc
 ---
-life: 20
-discard 1: Eternal Flash
-discard 2: Fusion Strike
-special action
+Life: 20
+Discard 1: Eternal Flash
+Discard 2: Fusion Strike
+Special action available
 2 Time tokens
 
 Zaamassal
 ---------
-life: 20
-discard 1: Malicious Grasp
-discard 2: Sinuous Burst
-special action
+Life: 20
+Discard 1: Malicious Grasp
+Discard 2: Sinuous Burst
+Special action available
 Active paradigm: None
 
 
 .L...Z.
 
-Unbeatable strategy for Zaamassal: Sturdy Shot: -0.15
 
 Luc:
-23% Feinting Drive
-40% Chrono Shot
-37% Chrono Drive
+5% Memento Drive
+18% Feinting Shot
+44% Chrono Shot
+34% Chrono Drive
 
 Zaamassal:
-31% Urgent Drive
-58% Sturdy Shot
-10% Warped Drive
+22% Urgent Drive
+15% Sturdy Shot
+46% Sturdy Dash
+18% Warped Drive
 
 
-Luc: Chrono Drive
-Zaamassal: Urgent Drive
+Luc: Feinting Shot
+Zaamassal: Sturdy Shot
 
-Priorities:  5 | 6
+Priorities:  0 | 2
 Zaamassal is active
-Zaamassal moves:
+Luc moves:
 
-.L..Z..
+L....Z.
 
-Zaamassal moves:
+Zaamassal misses
+Zaamassal assumes the Paradigm of Resilience
+Luc hits
+Zaamassal takes 3 damage (now at 17 life)
+Luc moves:
 
-.LZ....
+..L..Z.
 
-Zaamassal hits
-Luc takes 2 damage (now at 18 life)
-Luc is stunned
-Zaamassal assumes the Paradigm of Haste
 Luc gains 1 Time token
 
 Beat 2
@@ -65,58 +66,71 @@ Beat 2
 
 Luc
 ---
-life: 18
-discard 1: Chrono Drive
-discard 2: Eternal Flash
-special action
+Life: 20
+Discard 1: Feinting Shot
+Discard 2: Eternal Flash
+Special action available
 3 Time tokens
 
 Zaamassal
 ---------
-life: 20
-discard 1: Urgent Drive
-discard 2: Malicious Grasp
-special action
-Active paradigm: Haste
+Life: 17
+Discard 1: Sturdy Shot
+Discard 2: Malicious Grasp
+Special action available
+Active paradigm: Resilience
 
 
-.LZ....
+..L..Z.
 
-Unbeatable strategy for Zaamassal: Sinuous Dash: -0.23
+Unbeatable strategy for Zaamassal: Sinuous Dash: -0.50
+Unbeatable strategy for Zaamassal: Warped Strike: -0.03
+
 
 Luc:
-53% Memento Strike
-3% Memento Shot (1 token)
-45% Feinting Strike (3 tokens)
+2% Memento Strike (3 tokens)
+12% Fusion Drive (3 tokens)
+37% Fusion Dash (3 tokens)
+10% Chrono Drive (1 token)
+21% Chrono Burst (1 token)
+4% Chrono Grasp
+14% Chrono Grasp (1 token)
 
 Zaamassal:
-23% Sinuous Strike
-44% Sturdy Burst
-33% Warped Strike
+3% Sinuous Paradigm Shift
+5% Sinuous Drive
+17% Sinuous Burst
+59% Sinuous Dash
+3% Urgent Strike
+7% Urgent Drive
+6% Warped Drive
 
 
-Luc: Memento Strike
-Zaamassal: Sinuous Strike
+Luc: Chrono Burst (1 token)
+Zaamassal: Sinuous Dash
 
-Priorities:  2 | 4
+Luc antes a Time token
+Priorities:  3 | 10
 Zaamassal is active
-Zaamassal hits
-Luc takes 4 damage (now at 14 life)
+Luc spends a Time token
+Luc spends a Time token
+Luc moves:
+
+....LZ.
+
+Luc moves:
+
+...L.Z.
+
 Zaamassal assumes the Paradigm of Fluidity
-Luc hits
-Zaamassal takes 4 damage (now at 16 life)
-Luc spends a Time token
-Luc spends a Time token
-Luc attacks again
-Luc hits
-Zaamassal takes 4 damage (now at 12 life)
 Zaamassal moves:
 
-ZL.....
+.Z.L...
 
+Luc misses
 Zaamassal moves:
 
-.L....Z
+Z..L...
 
 Luc gains 1 Time token
 
@@ -125,91 +139,46 @@ Beat 3
 
 Luc
 ---
-life: 14
-discard 1: Memento Strike
-discard 2: Chrono Drive
-special action
-2 Time tokens
+Life: 20
+Discard 1: Chrono Burst
+Discard 2: Feinting Shot
+Special action available
+1 Time token
 
 Zaamassal
 ---------
-life: 12
-discard 1: Sinuous Strike
-discard 2: Urgent Drive
-special action
+Life: 17
+Discard 1: Sinuous Dash
+Discard 2: Sturdy Shot
+Special action available
 Active paradigm: Fluidity
 
 
-.L....Z
+Z..L...
 
-Unbeatable strategy for Luc: Eternal Burst: 0.26
 
 Luc:
-96% Eternal Dash
-3% Feinting Shot
-1% Feinting Shot (1 token)
+28% Eternal Drive
+18% Fusion Drive
+54% Fusion Drive (1 token)
 
 Zaamassal:
-8% Malicious Burst
-7% Warped Paradigm Shift
-51% Warped Shot
-34% Warped Grasp
+5% Urgent Strike
+27% Urgent Drive
+69% Warped Strike
 
 
-Luc: Eternal Dash
-Zaamassal: Warped Grasp
+Luc: Eternal Drive
+Zaamassal: Warped Strike
 
-Priorities:  5 | 5
-Clash!
-
-Luc:
-64% Eternal Flash
-36% Eternal Burst
-
-Zaamassal:
-36% Warped Paradigm Shift
-36% Warped Shot
-28% Warped Burst
-
-
-Luc: Eternal Flash
-Zaamassal: Warped Shot
-
-Priorities:  2 | 2
-Clash!
-
-Luc:
-100% Eternal Burst
-
-Zaamassal:
-62% Warped Paradigm Shift
-38% Warped Burst
-
-
-Luc: Eternal Burst
-Zaamassal: Warped Paradigm Shift
-
-Priorities:  -3 | 3
+Priorities:  0 | 3
 Zaamassal is active
-Luc moves:
-
-L.....Z
-
-Zaamassal moves:
-
-L....Z.
-
 Zaamassal hits
 Luc spends a Time token
-Luc spends a Time token
-Luc gains +2 soak (3 total)
-Luc has 3 soak
-Luc takes 0 damage (now at 14 life)
-Luc misses
-Zaamassal moves:
-
-L.....Z
-
+Luc gains +1 soak (2 total)
+Luc has 2 soak
+Luc takes 2 damage (now at 18 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 4
@@ -217,57 +186,58 @@ Beat 4
 
 Luc
 ---
-life: 14
-discard 1: Eternal Burst
-discard 2: Memento Strike
-special action
-1 Time tokens
+Life: 18
+Discard 1: Eternal Drive
+Discard 2: Chrono Burst
+Special action available
+1 Time token
 
 Zaamassal
 ---------
-life: 12
-discard 1: Warped Paradigm Shift
-discard 2: Sinuous Strike
-special action
+Life: 17
+Discard 1: Warped Strike
+Discard 2: Sinuous Dash
+Special action available
 Active paradigm: Fluidity
 
 
-L.....Z
+Z..L...
+
 
 Luc:
-7% Fusion Shot
-11% Feinting Flash
-29% Feinting Shot
-45% Feinting Shot (1 token)
-8% Feinting Grasp
+5% Memento Strike
+2% Memento Shot
+18% Fusion Shot
+3% Fusion Shot (1 token)
+15% Feinting Shot (1 token)
+57% Feinting Dash
 
 Zaamassal:
-32% Malicious Burst
-12% Urgent Shot
-35% Urgent Drive
-17% Urgent Burst
-4% Sturdy Burst
+13% Malicious Shot
+15% Malicious Drive
+23% Urgent Shot
+2% Urgent Drive
+7% Sturdy Shot
+39% Sturdy Drive
 
 
-Luc: Feinting Shot (1 token)
-Zaamassal: Urgent Burst
+Luc: Feinting Dash
+Zaamassal: Sturdy Drive
 
-Luc antes a Time token
-Priorities:  1 | 3
-Zaamassal is active
-Zaamassal moves:
-
-L....Z.
-
-Zaamassal moves:
-
-L.....Z
-
-Zaamassal misses
-Luc misses
+Priorities:  7 | 4
+Luc is active
 Luc moves:
 
-..L...Z
+Z...L..
+
+Luc moves:
+
+Z....L.
+
+Zaamassal misses
+Luc moves:
+
+Z..L...
 
 Luc gains 1 Time token
 
@@ -276,57 +246,56 @@ Beat 5
 
 Luc
 ---
-life: 14
-discard 1: Feinting Shot
-discard 2: Eternal Burst
-special action
-1 Time tokens
+Life: 18
+Discard 1: Feinting Dash
+Discard 2: Eternal Drive
+Special action available
+2 Time tokens
 
 Zaamassal
 ---------
-life: 12
-discard 1: Urgent Burst
-discard 2: Warped Paradigm Shift
-special action
+Life: 17
+Discard 1: Sturdy Drive
+Discard 2: Warped Strike
+Special action available
 Active paradigm: Fluidity
 
 
-..L...Z
+Z..L...
 
-Unbeatable strategy for Zaamassal: Malicious Shot: -0.31
 
 Luc:
-5% Memento Strike
-42% Memento Dash
-3% Fusion Strike
-39% Fusion Dash
-11% Chrono Drive
+13% Fusion Shot
+16% Chrono Flash
+52% Chrono Strike
+19% Chrono Shot
 
 Zaamassal:
-32% Malicious Shot
-5% Malicious Dash
-56% Sinuous Drive
-7% Sinuous Dash
+18% Malicious Shot
+43% Malicious Dash
+1% Sinuous Paradigm Shift
+33% Sinuous Dash
+5% Urgent Grasp
 
 
-Luc: Memento Dash
+Luc: Chrono Flash
 Zaamassal: Malicious Shot
 
-Priorities:  8 | 1
+Priorities:  7 | 1
 Luc is active
+Luc spends a Time token
 Luc moves:
 
-L.....Z
+Z.L....
 
-Zaamassal moves:
+Luc moves:
 
-L....Z.
+ZL.....
 
-Zaamassal misses
-Zaamassal moves:
-
-L.....Z
-
+Luc hits
+Zaamassal takes 1 damage (now at 16 life)
+Zaamassal is stunned
+Zaamassal loses all paradigms
 Luc gains 1 Time token
 
 Beat 6
@@ -334,61 +303,54 @@ Beat 6
 
 Luc
 ---
-life: 14
-discard 1: Memento Dash
-discard 2: Feinting Shot
-special action
+Life: 18
+Discard 1: Chrono Flash
+Discard 2: Feinting Dash
+Special action available
 2 Time tokens
 
 Zaamassal
 ---------
-life: 12
-discard 1: Malicious Shot
-discard 2: Urgent Burst
-special action
-Active paradigm: Fluidity
+Life: 16
+Discard 1: Malicious Shot
+Discard 2: Sturdy Drive
+Special action available
+Active paradigm: None
 
 
-L.....Z
+ZL.....
 
-Unbeatable strategy for Luc: Eternal Strike: 1.03
-Unbeatable strategy for Luc: Eternal Strike (1 token): 0.03
-Unbeatable strategy for Luc: Eternal Drive: 0.31
-Unbeatable strategy for Luc: Eternal Burst: 0.52
-Unbeatable strategy for Luc: Eternal Grasp: 1.03
-Unbeatable strategy for Luc: Eternal Grasp (1 token): 0.03
+Unbeatable strategy for Zaamassal: Sinuous Dash: -1.94
+Unbeatable strategy for Zaamassal: Urgent Dash: -0.39
+
 
 Luc:
-50% Eternal Strike
-50% Eternal Grasp
+92% Eternal Burst
+4% Memento Burst
+4% Fusion Burst
 
 Zaamassal:
-100% Warped Drive
+100% Sinuous Dash
 
 
-Luc: Eternal Grasp
-Zaamassal: Warped Drive
+Luc: Eternal Burst
+Zaamassal: Sinuous Dash
 
-Priorities:  1 | 4
+Priorities:  -3 | 10
 Zaamassal is active
+Luc moves:
+
+Z..L...
+
+Zaamassal assumes the Paradigm of Fluidity
 Zaamassal moves:
 
-L...Z..
+..ZL...
 
-Zaamassal moves:
-
-L..Z...
-
-Zaamassal hits
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +2 soak (3 total)
-Luc has 3 soak
-Luc takes 0 damage (now at 14 life)
 Luc misses
 Zaamassal moves:
 
-L.Z....
+Z..L...
 
 Luc gains 1 Time token
 
@@ -397,54 +359,64 @@ Beat 7
 
 Luc
 ---
-life: 14
-discard 1: Eternal Grasp
-discard 2: Memento Dash
-special action
-1 Time tokens
+Life: 18
+Discard 1: Eternal Burst
+Discard 2: Chrono Flash
+Special action available
+3 Time tokens
 
 Zaamassal
 ---------
-life: 12
-discard 1: Warped Drive
-discard 2: Malicious Shot
-special action
+Life: 16
+Discard 1: Sinuous Dash
+Discard 2: Malicious Shot
+Special action available
 Active paradigm: Fluidity
 
 
-L.Z....
+Z..L...
+
 
 Luc:
-15% Chrono Flash
-4% Chrono Strike
-19% Chrono Shot (1 token)
-62% Chrono Drive
+12% Memento Shot
+10% Memento Grasp (1 token)
+22% Fusion Shot (3 tokens)
+56% Fusion Drive (1 token)
 
 Zaamassal:
-21% Sinuous Strike
-16% Sinuous Grasp
-32% Sturdy Strike
-31% Sturdy Burst
+35% Urgent Strike
+32% Urgent Grasp
+10% Sturdy Drive
+23% Warped Strike
 
 
-Luc: Chrono Flash
-Zaamassal: Sinuous Grasp
+Luc: Fusion Drive (1 token)
+Zaamassal: Urgent Strike
 
-Priorities:  7 | 6
+Luc antes a Time token
+Priorities:  6 | 5
 Luc is active
 Luc moves:
 
-.LZ....
+ZL.....
 
 Luc hits
-Zaamassal takes 1 damage (now at 11 life)
-Zaamassal is stunned
-Zaamassal assumes the following paradigms:
-Zaamassal is stunned
-Zaamassal assumes the following paradigms:
+Zaamassal takes 2 damage (now at 14 life)
+Zaamassal loses 2 life (now at 12)
 Zaamassal moves:
 
-.L....Z
+.LZ....
+
+Zaamassal moves:
+
+.L.Z...
+
+Zaamassal hits
+Luc takes 3 damage (now at 15 life)
+Luc is stunned
+Zaamassal moves:
+
+.L..Z..
 
 Luc gains 1 Time token
 
@@ -453,48 +425,72 @@ Beat 8
 
 Luc
 ---
-life: 14
-discard 1: Chrono Flash
-discard 2: Eternal Grasp
-special action
-2 Time tokens
+Life: 15
+Discard 1: Fusion Drive
+Discard 2: Eternal Burst
+Special action available
+3 Time tokens
 
 Zaamassal
 ---------
-life: 11
-discard 1: Sinuous Grasp
-discard 2: Warped Drive
-special action
-Active paradigm: None
+Life: 12
+Discard 1: Urgent Strike
+Discard 2: Sinuous Dash
+Special action available
+Active paradigm: Fluidity
 
 
-.L....Z
+.L..Z..
 
-Unbeatable strategy for Zaamassal: Urgent Paradigm Shift: -0.45
+Unbeatable strategy for Zaamassal: Sturdy Burst: -0.74
+Unbeatable strategy for Zaamassal: Warped Drive: -0.60
+
 
 Luc:
-91% Feinting Shot
-9% Feinting Shot (1 token)
+45% Memento Dash
+54% Feinting Dash (3 tokens)
+1% Chrono Shot
 
 Zaamassal:
-9% Malicious Burst
-91% Urgent Paradigm Shift
+80% Sturdy Burst
+3% Warped Drive
+17% Warped Grasp
 
 
-Luc: Feinting Shot
-Zaamassal: Urgent Paradigm Shift
+Luc: Feinting Dash (3 tokens)
+Zaamassal: Warped Drive
 
-Priorities:  0 | 5
-Zaamassal is active
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  7 | 4
+Luc is active
+Luc moves:
+
+L...Z..
+
+Luc moves:
+
+..L.Z..
+
 Zaamassal moves:
 
-.L...Z.
+..L..Z.
 
-Zaamassal hits
-Luc takes 2 damage (now at 12 life)
-Zaamassal assumes the Paradigm of Distortion
-Luc misses
 Luc moves:
+
+.....ZL
+
+Zaamassal moves:
+
+....Z.L
+
+Zaamassal misses
+Luc moves:
+
+...LZ..
+
+Zaamassal moves:
 
 ...L.Z.
 
@@ -505,48 +501,51 @@ Beat 9
 
 Luc
 ---
-life: 12
-discard 1: Feinting Shot
-discard 2: Chrono Flash
-special action
-3 Time tokens
+Life: 15
+Discard 1: Feinting Dash
+Discard 2: Fusion Drive
+Special action available
+1 Time token
 
 Zaamassal
 ---------
-life: 11
-discard 1: Urgent Paradigm Shift
-discard 2: Sinuous Grasp
-special action
-Active paradigm: Distortion
+Life: 12
+Discard 1: Warped Drive
+Discard 2: Urgent Strike
+Special action available
+Active paradigm: Fluidity
 
 
 ...L.Z.
 
-Unbeatable strategy for Zaamassal: Malicious Dash: -0.40
-Unbeatable strategy for Zaamassal: Sturdy Dash: -0.80
+Unbeatable strategy for Luc: Eternal Shot: 0.53
+
 
 Luc:
-73% Eternal Drive
-16% Memento Drive
-11% Fusion Drive
+63% Eternal Shot
+35% Eternal Grasp
+2% Memento Shot
 
 Zaamassal:
-100% Sturdy Dash
+8% Malicious Shot
+7% Malicious Burst
+40% Malicious Dash
+22% Sinuous Dash
+22% Sturdy Dash
 
 
-Luc: Eternal Drive
+Luc: Eternal Grasp
 Zaamassal: Sturdy Dash
 
-Priorities:  0 | 9
+Priorities:  1 | 9
 Zaamassal is active
-Zaamassal assumes the Paradigm of Resilience
 Zaamassal moves:
 
-.Z.L...
+...LZ..
 
-Luc moves:
+Zaamassal moves:
 
-.ZL....
+Z..L...
 
 Luc misses
 Luc gains 1 Time token
@@ -556,60 +555,62 @@ Beat 10
 
 Luc
 ---
-life: 12
-discard 1: Eternal Drive
-discard 2: Feinting Shot
-special action
-4 Time tokens
+Life: 15
+Discard 1: Eternal Grasp
+Discard 2: Feinting Dash
+Special action available
+2 Time tokens
 
 Zaamassal
 ---------
-life: 11
-discard 1: Sturdy Dash
-discard 2: Urgent Paradigm Shift
-special action
-Active paradigm: Resilience
+Life: 12
+Discard 1: Sturdy Dash
+Discard 2: Warped Drive
+Special action available
+Active paradigm: Fluidity
 
 
-.ZL....
+Z..L...
 
-Unbeatable strategy for Zaamassal: Warped Strike: -1.26
-Unbeatable strategy for Zaamassal: Warped Grasp: -1.26
+Unbeatable strategy for Luc: Chrono Flash (1 token): 0.38
+
 
 Luc:
-1% Memento Strike
-35% Memento Dash
-25% Memento Dash (3 tokens)
-5% Fusion Grasp
-1% Fusion Dash
-25% Fusion Dash (3 tokens)
-7% Chrono Burst (1 token)
+3% Fusion Shot
+47% Chrono Flash
+24% Chrono Flash (1 token)
+6% Chrono Strike
+20% Chrono Shot
 
 Zaamassal:
-15% Sinuous Shot
-18% Sinuous Drive
-9% Sinuous Burst
-47% Warped Strike
-11% Warped Shot
+6% Sinuous Paradigm Shift
+57% Sinuous Strike
+5% Sinuous Shot
+26% Urgent Strike
+6% Urgent Grasp
 
 
-Luc: Fusion Grasp
-Zaamassal: Sinuous Drive
+Luc: Chrono Flash
+Zaamassal: Sinuous Strike
 
-Priorities:  6 | 5
+Priorities:  7 | 4
 Luc is active
-Luc hits
-Luc moves Zaamassal:
+Luc spends a Time token
+Luc moves:
 
 Z.L....
 
-Zaamassal takes 1 damage (now at 10 life)
-Zaamassal loses 2 life (now at 8)
+Luc moves:
+
+ZL.....
+
+Luc hits
+Zaamassal takes 1 damage (now at 11 life)
 Zaamassal is stunned
-Zaamassal assumes the following paradigms:
+Zaamassal loses all paradigms
 Zaamassal moves:
 
-..L..Z.
+.L....Z
 
 Luc gains 1 Time token
 
@@ -618,43 +619,103 @@ Beat 11
 
 Luc
 ---
-life: 12
-discard 1: Fusion Grasp
-discard 2: Eternal Drive
-special action
-5 Time tokens
+Life: 15
+Discard 1: Chrono Flash
+Discard 2: Eternal Grasp
+Special action available
+2 Time tokens
 
 Zaamassal
 ---------
-life: 8
-discard 1: Sinuous Drive
-discard 2: Sturdy Dash
-special action
+Life: 11
+Discard 1: Sinuous Strike
+Discard 2: Sturdy Dash
+Special action available
 Active paradigm: None
+
+
+.L....Z
+
+
+Luc:
+11% Memento Drive
+10% Memento Dash
+5% Fusion Burst
+74% Feinting Drive
+
+Zaamassal:
+10% Urgent Paradigm Shift
+63% Urgent Shot
+17% Warped Shot
+10% Warped Burst
+
+
+Luc: Feinting Drive
+Zaamassal: Urgent Shot
+
+Priorities:  2 | 4
+Zaamassal is active
+Luc moves:
+
+L.....Z
+
+Zaamassal moves:
+
+L....Z.
+
+Zaamassal hits
+Luc takes 2 damage (now at 13 life)
+Luc is stunned
+Zaamassal assumes the Paradigm of Haste
+Luc moves:
+
+..L..Z.
+
+Luc gains 1 Time token
+
+Beat 12
+-------
+
+Luc
+---
+Life: 13
+Discard 1: Feinting Drive
+Discard 2: Chrono Flash
+Special action available
+3 Time tokens
+
+Zaamassal
+---------
+Life: 11
+Discard 1: Urgent Shot
+Discard 2: Sinuous Strike
+Special action available
+Active paradigm: Haste
 
 
 ..L..Z.
 
+
 Luc:
-15% Memento Strike (3 tokens)
-21% Feinting Strike (3 tokens)
-45% Feinting Shot (5 tokens)
-20% Chrono Shot (1 token)
+28% Eternal Shot
+38% Eternal Shot (3 tokens)
+16% Eternal Dash
+17% Fusion Shot (1 token)
 
 Zaamassal:
-10% Malicious Shot
-6% Urgent Strike
-39% Warped Paradigm Shift
-45% Warped Grasp
+33% Malicious Drive
+7% Sturdy Paradigm Shift
+18% Warped Burst
+42% Warped Grasp
 
 
-Luc: Feinting Strike (3 tokens)
-Zaamassal: Warped Paradigm Shift
+Luc: Eternal Shot (3 tokens)
+Zaamassal: Warped Burst
 
 Luc antes a Time token
 Luc antes a Time token
 Luc antes a Time token
-Priorities:  1 | 3
+Priorities:  -2 | 1
 Zaamassal is active
 Zaamassal moves:
 
@@ -665,70 +726,12 @@ Luc moves:
 ....L.Z
 
 Zaamassal hits
-Luc takes 3 damage (now at 9 life)
-Zaamassal assumes the Paradigm of Pain
+Luc has 1 soak
+Luc takes 2 damage (now at 11 life)
 Luc hits
-Zaamassal takes 4 damage (now at 4 life)
+Zaamassal takes 3 damage (now at 8 life)
 Zaamassal is stunned
-Zaamassal assumes the following paradigms:
-Luc moves:
-
-.....LZ
-
-Luc gains 1 Time token
-
-Beat 12
--------
-
-Luc
----
-life: 9
-discard 1: Feinting Strike
-discard 2: Fusion Grasp
-special action
-3 Time tokens
-
-Zaamassal
----------
-life: 4
-discard 1: Warped Paradigm Shift
-discard 2: Sinuous Drive
-special action
-Active paradigm: None
-
-
-.....LZ
-
-Unbeatable strategy for Zaamassal: Sturdy Dash: -0.19
-
-Luc:
-42% Eternal Shot
-8% Memento Drive
-3% Memento Burst
-10% Memento Dash
-13% Memento Dash (1 token)
-24% Chrono Dash (1 token)
-
-Zaamassal:
-19% Malicious Dash
-1% Urgent Strike
-54% Urgent Dash
-3% Sturdy Strike
-2% Sturdy Shot
-20% Sturdy Dash
-
-
-Luc: Memento Dash (1 token)
-Zaamassal: Urgent Dash
-
-Luc antes a Time token
-Priorities:  9 | 11
-Zaamassal is active
-Zaamassal assumes the Paradigm of Haste
-Zaamassal moves:
-
-....ZL.
-
+Zaamassal loses all paradigms
 Luc gains 1 Time token
 
 Beat 13
@@ -736,49 +739,60 @@ Beat 13
 
 Luc
 ---
-life: 9
-discard 1: Memento Dash
-discard 2: Feinting Strike
-special action
-3 Time tokens
+Life: 11
+Discard 1: Eternal Shot
+Discard 2: Feinting Drive
+Special action available
+1 Time token
 
 Zaamassal
 ---------
-life: 4
-discard 1: Urgent Dash
-discard 2: Warped Paradigm Shift
-special action
-Active paradigm: Haste
+Life: 8
+Discard 1: Warped Burst
+Discard 2: Urgent Shot
+Special action available
+Active paradigm: None
 
 
-....ZL.
+....L.Z
 
-Unbeatable strategy for Luc: Eternal Shot: 0.53
+Unbeatable strategy for Zaamassal: Sinuous Paradigm Shift: -0.12
+Unbeatable strategy for Zaamassal: Sinuous Strike: -0.01
+Unbeatable strategy for Zaamassal: Sinuous Dash: -1.35
+Unbeatable strategy for Zaamassal: Sturdy Drive: -0.96
+
 
 Luc:
-50% Eternal Shot
-26% Eternal Drive
-24% Chrono Flash
+11% Memento Grasp
+17% Fusion Strike
+21% Fusion Burst
+10% Fusion Dash
+30% Chrono Strike
+11% Chrono Grasp
 
 Zaamassal:
-18% Malicious Strike
-61% Sinuous Strike
-20% Sturdy Burst
+12% Sinuous Paradigm Shift
+3% Sinuous Strike
+2% Sinuous Drive
+72% Sinuous Dash
+2% Sturdy Paradigm Shift
+10% Sturdy Drive
 
 
-Luc: Chrono Flash
-Zaamassal: Sinuous Strike
+Luc: Fusion Strike
+Zaamassal: Sinuous Dash
 
-Priorities:  7 | 4
-Luc is active
-Luc hits
-Zaamassal takes 1 damage (now at 3 life)
-Zaamassal is stunned
-Zaamassal assumes the following paradigms:
-Zaamassal assumes the following paradigms:
+Priorities:  4 | 10
+Zaamassal is active
+Zaamassal assumes the Paradigm of Fluidity
 Zaamassal moves:
 
-.Z...L.
+..Z.L..
+
+Luc misses
+Zaamassal moves:
+
+Z...L..
 
 Luc gains 1 Time token
 
@@ -787,55 +801,156 @@ Beat 14
 
 Luc
 ---
-life: 9
-discard 1: Chrono Flash
-discard 2: Memento Dash
-special action
-4 Time tokens
+Life: 11
+Discard 1: Fusion Strike
+Discard 2: Eternal Shot
+Special action available
+2 Time tokens
 
 Zaamassal
 ---------
-life: 3
-discard 1: Sinuous Strike
-discard 2: Urgent Dash
-special action
-Active paradigm: None
+Life: 8
+Discard 1: Sinuous Dash
+Discard 2: Warped Burst
+Special action available
+Active paradigm: Fluidity
 
 
-.Z...L.
+Z...L..
+
+Unbeatable strategy for Zaamassal: Sturdy Shot: -0.48
+
 
 Luc:
-41% Eternal Shot (3 tokens)
-17% Fusion Drive (3 tokens)
-42% Feinting Drive (3 tokens)
+15% Feinting Drive
+64% Feinting Dash
+15% Chrono Flash
+6% Chrono Drive (1 token)
 
 Zaamassal:
-31% Warped Paradigm Shift
-40% Warped Grasp
-29% Special Plane Divider
+14% Malicious Shot
+6% Urgent Paradigm Shift
+9% Urgent Shot
+9% Urgent Drive
+62% Sturdy Shot
 
 
-Luc: Eternal Shot (3 tokens)
-Zaamassal: Warped Paradigm Shift
+Luc: Feinting Dash
+Zaamassal: Sturdy Shot
 
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  -2 | 3
-Zaamassal is active
-Zaamassal moves:
+Priorities:  7 | 2
+Luc is active
+Luc moves:
 
 Z....L.
 
 Luc moves:
 
-Z..L...
+Z.....L
 
-Zaamassal hits
-Luc has 1 soak
-Luc takes 2 damage (now at 7 life)
-Zaamassal assumes the Paradigm of Pain
-Luc hits
-Zaamassal takes 3 damage (now at 0 life)
+Zaamassal misses
+Luc moves:
+
+Z...L..
+
+Luc gains 1 Time token
+
+Beat 15
+-------
+
+Luc
+---
+Life: 11
+Discard 1: Feinting Dash
+Discard 2: Fusion Strike
+Special action available
+3 Time tokens
+
+Zaamassal
+---------
+Life: 8
+Discard 1: Sturdy Shot
+Discard 2: Sinuous Dash
+Special action available
+Active paradigm: Fluidity
+
+
+Z...L..
+
+Unbeatable strategy for Luc: Eternal Shot: 13.00
+Unbeatable strategy for Luc: Eternal Shot (1 token): 13.00
+Unbeatable strategy for Luc: Eternal Burst: 13.00
+Unbeatable strategy for Luc: Eternal Burst (1 token): 13.00
+Unbeatable strategy for Luc: Eternal Burst (3 tokens): 13.00
+Unbeatable strategy for Luc: Chrono Flash (1 token): 13.00
+
+
+Luc:
+76% Eternal Grasp
+24% Memento Grasp
+
+Zaamassal:
+100% Special Pulse
+
+
+Luc: Eternal Grasp
+Zaamassal: Special Pulse
+
+Zaamassal Pulses:
+
+L.....Z
+
+
+Beat 15
+-------
+
+Luc
+---
+Life: 11
+Discard 1: Eternal Grasp
+Discard 2: Feinting Dash
+Special action available
+3 Time tokens
+
+Zaamassal
+---------
+Life: 8
+Discard 1: Sturdy Shot
+Discard 2: Sinuous Dash
+Active paradigm: Fluidity
+
+
+L.....Z
+
+
+Luc:
+32% Chrono Strike
+27% Chrono Shot (1 token)
+41% Chrono Drive
+
+Zaamassal:
+21% Warped Paradigm Shift
+32% Warped Drive
+6% Warped Burst
+41% Warped Grasp
+
+
+Luc: Chrono Strike
+Zaamassal: Warped Grasp
+
+Priorities:  4 | 5
+Zaamassal is active
+Zaamassal moves:
+
+L....Z.
+
+Zaamassal misses
+Luc misses
+Zaamassal moves:
+
+L...Z..
+
+Luc gains 1 Time token
+Game goes to time
 LUC WINS!
-total_time: 77
+total_time: 188

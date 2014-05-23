@@ -2435,17 +2435,23 @@ class Character (object):
         if self.standard_range():
             distance = self.attack_range()
             if self.game.debugging:
-                self.game.report ("%s's range: %d-%d"
+                self.game.report ("%s's range: %d-%d attack range: %d"
                                   %(self.name,
                                     self.get_minrange(),
-                                    self.get_maxrange()))
+                                    self.get_maxrange(),
+                                    distance))
             in_range = distance <= self.get_maxrange() and \
                        distance >= self.get_minrange()
+            if self.game.debugging:
+                self.game.report("in range: %s" % in_range)
+                self.game.report("all cards can hit: %s" % all(card.can_hit() for card in self.active_cards)) 
         else:
             in_range = False
         return (in_range or self.special_range_hit()) and \
                all(card.can_hit() for card in self.active_cards)
     def can_be_hit (self):
+        if self.game.debugging:
+            self.game.report("triggered dodge: %s" % self.triggered_dodge)
         return not self.triggered_dodge and \
                all(card.can_be_hit() for card in self.active_cards)
     def standard_range (self):
@@ -8862,9 +8868,11 @@ class Dash (Base):
     preferred_range = 2 # dash can switch sides at range 1-3
     is_attack = False
     def after_trigger(self):
-        old_pos = self.me.position
+        my_old_pos = self.me.position
+        opp_old_pos = self.opponent.position
         self.me.move([1,2,3])
-        if ordered (old_pos, self.opponent.position, self.me.position):
+        if ((self.me.position - self.opponent.position) *
+            (my_old_pos - opp_old_pos)) < 0:
             self.me.triggered_dodge = True
     ordered_after_trigger = True
     # Dash is usually a strong out, that's worth keeping in hand
@@ -14068,11 +14076,16 @@ class Mimics (Style):
     # move the same as opponent
     def movement_reaction (self, initiator, mover, old_position, direct):
         if mover is self.opponent and not direct:
+            old_postion = self.me.position
             self.me.position += (self.opponent.position - old_position)
             if self.me.position > 6:
                 self.me.position = 6
             if self.me.position < 0:
                 self.me.position = 0
+            if self.game.reporting and self.me.position != old_postion:
+                self.game.report("Seth mimics %s's movement:" % self.opponent)
+                for s in self.game.get_board():
+                    self.game.report (s)
 
 class Vanishing (Style):
     minrange = 1

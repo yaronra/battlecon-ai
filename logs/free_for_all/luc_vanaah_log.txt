@@ -11,49 +11,64 @@ Beat 1
 
 Luc
 ---
-life: 20
-discard 1: Eternal Flash
-discard 2: Fusion Strike
-special action
+Life: 20
+Discard 1: Eternal Flash
+Discard 2: Fusion Strike
+Special action available
 2 Time tokens
 
 Vanaah
 ------
-life: 20
-discard 1: Vengeance Burst
-discard 2: Reaping Strike
-special action
+Life: 20
+Discard 1: Vengeance Burst
+Discard 2: Reaping Strike
+Special action available
 Divine Rush token in pool
 
 
 .L...V.
 
+
 Luc:
-10% Memento Shot
-6% Feinting Drive
-85% Chrono Dash
+6% Memento Shot
+2% Feinting Shot
+92% Chrono Dash
 
 Vanaah:
-6% Glorious Scythe (Divine Rush)
-71% Paladin Shot
-23% Paladin Shot (Divine Rush)
+66% Paladin Shot
+30% Paladin Shot (Divine Rush)
+4% Paladin Drive
 
 
-Luc: Chrono Dash
+Luc: Feinting Shot
 Vanaah: Paladin Shot
 
-Priorities:  10 | 0
-Luc is active
-Luc spends a Time token
+Priorities:  0 | 0
+Clash!
+
+
+Luc: Feinting Burst
+Vanaah: Paladin Dash
+
+Priorities:  -1 | 7
+Vanaah is active
 Luc moves:
 
-..L..V.
+L....V.
+
+Vanaah moves:
+
+L.V....
+
+Luc misses
+Vanaah moves:
+
+LV.....
 
 Luc moves:
 
-.....VL
+.VL....
 
-Vanaah misses
 Luc gains 1 Time token
 
 Beat 2
@@ -61,96 +76,52 @@ Beat 2
 
 Luc
 ---
-life: 20
-discard 1: Chrono Dash
-discard 2: Eternal Flash
-special action
-2 Time tokens
+Life: 20
+Discard 1: Feinting Burst
+Discard 2: Eternal Flash
+Special action available
+3 Time tokens
 
 Vanaah
 ------
-life: 20
-discard 1: Paladin Shot
-discard 2: Vengeance Burst
-special action
+Life: 20
+Discard 1: Paladin Dash
+Discard 2: Vengeance Burst
+Special action available
 Divine Rush token in pool
 
 
-.....VL
+.VL....
 
-Unbeatable strategy for Vanaah: Reaping Scythe (Divine Rush): -0.27
-Unbeatable strategy for Vanaah: Reaping Drive (Divine Rush): -0.27
-Unbeatable strategy for Vanaah: Glorious Grasp (Divine Rush): -4.76
+Unbeatable strategy for Vanaah: Reaping Strike (Divine Rush): -0.29
+Unbeatable strategy for Vanaah: Reaping Drive (Divine Rush): -0.40
+Unbeatable strategy for Vanaah: Glorious Grasp (Divine Rush): -0.61
+
 
 Luc:
-0% Fusion Drive (1 token)
-2% Fusion Grasp (1 token)
-98% Special Pulse
+21% Memento Grasp (1 token)
+4% Fusion Drive (1 token)
+19% Fusion Grasp (1 token)
+57% Chrono Dash
 
 Vanaah:
-8% Glorious Scythe (Divine Rush)
-16% Glorious Drive (Divine Rush)
-75% Glorious Grasp (Divine Rush)
+9% Reaping Strike (Divine Rush)
+56% Reaping Grasp (Divine Rush)
+26% Judgment Drive (Divine Rush)
+9% Glorious Grasp (Divine Rush)
 
 
-Luc: Special Pulse
-Vanaah: Glorious Grasp (Divine Rush)
+Luc: Chrono Dash
+Vanaah: Reaping Grasp (Divine Rush)
 
 Vanaah antes a Divine Rush token
-Pulse:
+Priorities:  10 | 8
+Luc is active
+Luc moves:
 
-VL.....
+LV.....
 
-
-Beat 2
--------
-
-Luc
----
-life: 20
-discard 1: Chrono Dash
-discard 2: Eternal Flash
-2 Time tokens
-
-Vanaah
-------
-life: 20
-discard 1: Glorious Grasp Divine Rush
-discard 2: Paladin Shot
-special action
-
-
-VL.....
-
-Luc:
-7% Memento Strike
-8% Memento Drive
-35% Fusion Strike (1 token)
-14% Fusion Drive
-28% Fusion Drive (1 token)
-9% Feinting Burst
-
-Vanaah:
-16% Reaping Scythe
-14% Reaping Strike
-8% Reaping Drive
-0% Reaping Dash
-36% Judgment Dash
-4% Vengeance Strike
-22% Vengeance Drive
-
-
-Luc: Fusion Strike (1 token)
-Vanaah: Judgment Dash
-
-Luc antes a Time token
-Priorities:  5 | 8
-Vanaah is active
-Vanaah moves:
-
-.L..V..
-
-Luc misses
+Vanaah misses
 Luc gains 1 Time token
 
 Beat 3
@@ -158,44 +129,68 @@ Beat 3
 
 Luc
 ---
-life: 20
-discard 1: Fusion Strike
-discard 2: Chrono Dash
-2 Time tokens
+Life: 20
+Discard 1: Chrono Dash
+Discard 2: Feinting Burst
+Special action available
+4 Time tokens
 
 Vanaah
 ------
-life: 20
-discard 1: Judgment Dash
-discard 2: Glorious Grasp Divine Rush
-special action
+Life: 20
+Discard 1: Reaping Grasp Divine Rush
+Discard 2: Paladin Dash
+Special action available
 
 
-.L..V..
+LV.....
+
+Unbeatable strategy for Luc: Eternal Shot: 0.91
+
 
 Luc:
-67% Eternal Shot
-12% Eternal Grasp
-21% Memento Drive
+29% Eternal Strike
+21% Eternal Drive
+8% Memento Strike (1 token)
+2% Memento Drive
+28% Memento Drive (1 token)
+11% Fusion Drive
 
 Vanaah:
-24% Reaping Scythe
-18% Reaping Drive
-22% Reaping Burst
-37% Vengeance Burst
+15% Judgment Burst
+26% Glorious Strike
+20% Glorious Drive
+4% Vengeance Scythe
+30% Vengeance Drive
+5% Vengeance Burst
 
 
-Luc: Eternal Shot
+Luc: Memento Drive (1 token)
 Vanaah: Vengeance Burst
 
-Priorities:  -2 | 1
-Vanaah is active
+Luc antes a Time token
+Priorities:  4 | 1
+Luc is active
 Vanaah moves:
 
-.L....V
+L.V....
 
+Luc moves:
+
+.LV....
+
+Luc hits
+Vanaah takes 3 damage (now at 17 life)
+Luc spends a Time token
+Luc spends a Time token
+Luc attacks again
+Luc moves:
+
+..VL...
+
+Luc hits
+Vanaah takes 3 damage (now at 14 life)
 Vanaah misses
-Luc misses
 Luc gains 1 Time token
 
 Beat 4
@@ -203,54 +198,55 @@ Beat 4
 
 Luc
 ---
-life: 20
-discard 1: Eternal Shot
-discard 2: Fusion Strike
-3 Time tokens
+Life: 20
+Discard 1: Memento Drive
+Discard 2: Chrono Dash
+Special action available
+2 Time tokens
 
 Vanaah
 ------
-life: 20
-discard 1: Vengeance Burst
-discard 2: Judgment Dash
-special action
-Divine Rush token in pool
+Life: 14
+Discard 1: Vengeance Burst
+Discard 2: Reaping Grasp Divine Rush
+Special action available
 
 
-.L....V
+..VL...
 
-Unbeatable strategy for Luc: Feinting Burst: 0.11
+Unbeatable strategy for Vanaah: Judgment Dash: -0.52
+
 
 Luc:
-39% Memento Burst
-7% Feinting Burst (3 tokens)
-47% Chrono Flash
-6% Chrono Burst
+2% Eternal Strike
+20% Fusion Flash (1 token)
+50% Fusion Strike
+8% Feinting Flash
+20% Feinting Flash (1 token)
 
 Vanaah:
-9% Reaping Scythe
-6% Reaping Strike
-12% Reaping Drive
-6% Reaping Grasp
-3% Reaping Grasp (Divine Rush)
-63% Paladin Shot
+1% Judgment Drive
+82% Judgment Dash
+3% Glorious Drive
+10% Paladin Shot
+4% Paladin Drive
 
 
-Luc: Memento Burst
-Vanaah: Reaping Scythe
+Luc: Feinting Flash (1 token)
+Vanaah: Judgment Dash
 
-Priorities:  0 | 4
+Luc antes a Time token
+Priorities:  5 | 8
 Vanaah is active
-Luc moves:
-
-L.....V
-
 Vanaah moves:
 
-L....V.
+V..L...
 
-Vanaah misses
 Luc misses
+Luc moves:
+
+VL.....
+
 Luc gains 1 Time token
 
 Beat 5
@@ -258,55 +254,56 @@ Beat 5
 
 Luc
 ---
-life: 20
-discard 1: Memento Burst
-discard 2: Eternal Shot
-4 Time tokens
+Life: 20
+Discard 1: Feinting Flash
+Discard 2: Memento Drive
+Special action available
+2 Time tokens
 
 Vanaah
 ------
-life: 20
-discard 1: Reaping Scythe
-discard 2: Vengeance Burst
-special action
+Life: 14
+Discard 1: Judgment Dash
+Discard 2: Vengeance Burst
+Special action available
 Divine Rush token in pool
 
 
-L....V.
+VL.....
+
+Unbeatable strategy for Vanaah: Reaping Drive (Divine Rush): -3.27
+
 
 Luc:
-5% Feinting Drive
-59% Chrono Flash
-27% Chrono Flash (1 token)
-9% Chrono Drive
+30% Eternal Strike
+70% Eternal Burst
 
 Vanaah:
-53% Glorious Dash (Divine Rush)
-22% Paladin Shot
-4% Paladin Shot (Divine Rush)
-22% Paladin Dash
+98% Reaping Drive (Divine Rush)
+2% Glorious Drive (Divine Rush)
 
 
-Luc: Chrono Flash (1 token)
-Vanaah: Glorious Dash (Divine Rush)
+Luc: Eternal Burst
+Vanaah: Reaping Drive (Divine Rush)
 
-Luc antes a Time token
 Vanaah antes a Divine Rush token
-Priorities:  8 | 11
+Priorities:  -3 | 7
 Vanaah is active
 Luc moves:
 
-.L...V.
+V.L....
 
 Vanaah moves:
 
-.L..V..
+..LV...
 
-Vanaah moves:
-
-.L....V
-
-Luc misses
+Vanaah hits
+Luc discards a Time token
+Luc spends a Time token
+Luc gains +1 soak (2 total)
+Luc has 2 soak
+Luc takes 3 damage (now at 17 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 6
@@ -314,51 +311,50 @@ Beat 6
 
 Luc
 ---
-life: 20
-discard 1: Chrono Flash
-discard 2: Memento Burst
-4 Time tokens
+Life: 17
+Discard 1: Eternal Burst
+Discard 2: Feinting Flash
+Special action available
+1 Time token
 
 Vanaah
 ------
-life: 20
-discard 1: Glorious Dash Divine Rush
-discard 2: Reaping Scythe
-special action
+Life: 14
+Discard 1: Reaping Drive Divine Rush
+Discard 2: Judgment Dash
+Special action available
 
 
-.L....V
+..LV...
+
 
 Luc:
-11% Eternal Shot (3 tokens)
-42% Eternal Drive
-13% Eternal Drive (3 tokens)
-34% Fusion Drive (3 tokens)
+13% Chrono Strike
+3% Chrono Strike (1 token)
+5% Chrono Drive
+79% Chrono Dash
 
 Vanaah:
-23% Judgment Shot
-59% Paladin Shot
-5% Paladin Drive
-13% Vengeance Grasp
+3% Glorious Grasp
+3% Paladin Strike
+85% Paladin Shot
+9% Paladin Burst
 
 
-Luc: Eternal Drive
-Vanaah: Judgment Shot
+Luc: Chrono Dash
+Vanaah: Glorious Grasp
 
-Priorities:  0 | 1
-Vanaah is active
-Vanaah hits
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +3 soak (4 total)
-Luc has 4 soak
-Luc takes 0 damage (now at 20 life)
+Priorities:  10 | 5
+Luc is active
 Luc moves:
 
-...L..V
+...VL..
 
-Luc misses
+Vanaah moves:
+
+....LV.
+
+Vanaah misses
 Luc gains 1 Time token
 
 Beat 7
@@ -366,50 +362,48 @@ Beat 7
 
 Luc
 ---
-life: 20
-discard 1: Eternal Drive
-discard 2: Chrono Flash
+Life: 17
+Discard 1: Chrono Dash
+Discard 2: Eternal Burst
+Special action available
 2 Time tokens
 
 Vanaah
 ------
-life: 20
-discard 1: Judgment Shot
-discard 2: Glorious Dash Divine Rush
-special action
+Life: 14
+Discard 1: Glorious Grasp
+Discard 2: Reaping Drive Divine Rush
+Special action available
 
 
-...L..V
+....LV.
 
-Unbeatable strategy for Luc: Feinting Burst (1 token): 0.14
 
 Luc:
-28% Memento Shot
-17% Fusion Shot
-55% Feinting Burst
+12% Memento Strike
+87% Memento Drive
+1% Feinting Drive
 
 Vanaah:
-4% Reaping Scythe
-7% Reaping Drive
-12% Reaping Burst
-76% Paladin Burst
+3% Vengeance Scythe
+6% Vengeance Strike
+91% Vengeance Dash
 
 
-Luc: Feinting Burst
-Vanaah: Reaping Burst
+Luc: Memento Drive
+Vanaah: Vengeance Dash
 
-Priorities:  -1 | 2
+Priorities:  3 | 9
 Vanaah is active
+Vanaah moves:
+
+..V.L..
+
 Luc moves:
 
-.L....V
+..VL...
 
-Vanaah misses
 Luc misses
-Luc moves:
-
-..L...V
-
 Luc gains 1 Time token
 
 Beat 8
@@ -417,83 +411,59 @@ Beat 8
 
 Luc
 ---
-life: 20
-discard 1: Feinting Burst
-discard 2: Eternal Drive
+Life: 17
+Discard 1: Memento Drive
+Discard 2: Chrono Dash
+Special action available
 3 Time tokens
 
 Vanaah
 ------
-life: 20
-discard 1: Reaping Burst
-discard 2: Judgment Shot
-special action
+Life: 14
+Discard 1: Vengeance Dash
+Discard 2: Glorious Grasp
+Special action available
 Divine Rush token in pool
 
 
-..L...V
+..VL...
+
 
 Luc:
-1% Memento Shot
-36% Chrono Flash
-63% Chrono Flash (1 token)
-0% Chrono Grasp
+7% Eternal Strike (3 tokens)
+57% Eternal Shot
+33% Eternal Burst
+3% Eternal Burst (3 tokens)
+0% Fusion Shot (3 tokens)
 
 Vanaah:
-16% Glorious Scythe (Divine Rush)
-20% Glorious Drive (Divine Rush)
-50% Glorious Grasp (Divine Rush)
-14% Glorious Dash (Divine Rush)
+1% Reaping Strike (Divine Rush)
+42% Reaping Burst (Divine Rush)
+18% Judgment Drive (Divine Rush)
+9% Judgment Burst (Divine Rush)
+30% Paladin Strike (Divine Rush)
 
 
-Luc: Chrono Flash
-Vanaah: Glorious Grasp (Divine Rush)
-
-Vanaah antes a Divine Rush token
-Priorities:  7 | 7
-Clash!
-
-Luc:
-68% Chrono Grasp
-32% Chrono Dash
-
-Vanaah:
-100% Glorious Drive (Divine Rush)
-
-
-Luc: Chrono Grasp
-Vanaah: Glorious Drive (Divine Rush)
+Luc: Eternal Shot
+Vanaah: Reaping Burst (Divine Rush)
 
 Vanaah antes a Divine Rush token
-Priorities:  6 | 6
-Clash!
-
-Luc:
-100% Chrono Dash
-
-Vanaah:
-100% Glorious Scythe (Divine Rush)
-
-
-Luc: Chrono Dash
-Vanaah: Glorious Scythe (Divine Rush)
-
-Vanaah antes a Divine Rush token
-Priorities:  10 | 5
-Luc is active
-Luc moves:
-
-...L..V
-
+Priorities:  -2 | 4
+Vanaah is active
 Vanaah moves:
 
-...L.V.
+V..L...
 
-Vanaah moves:
-
-...LV..
-
-Vanaah misses
+Vanaah hits
+Luc discards a Time token
+Luc spends a Time token
+Luc spends a Time token
+Luc gains +2 soak (3 total)
+Luc has 3 soak
+Luc takes 2 damage (now at 15 life)
+Luc hits
+Vanaah takes 3 damage (now at 11 life)
+Vanaah is stunned
 Luc gains 1 Time token
 
 Beat 9
@@ -501,52 +471,54 @@ Beat 9
 
 Luc
 ---
-life: 20
-discard 1: Chrono Dash
-discard 2: Feinting Burst
-4 Time tokens
+Life: 15
+Discard 1: Eternal Shot
+Discard 2: Memento Drive
+Special action available
+1 Time token
 
 Vanaah
 ------
-life: 20
-discard 1: Glorious Scythe Divine Rush
-discard 2: Reaping Burst
-special action
+Life: 11
+Discard 1: Reaping Burst Divine Rush
+Discard 2: Vengeance Dash
+Special action available
 
-
-...LV..
-
-Unbeatable strategy for Luc: Eternal Shot: 0.39
-Unbeatable strategy for Luc: Memento Flash (1 token): 0.09
-
-Luc:
-58% Eternal Drive
-36% Memento Drive
-6% Fusion Drive
-
-Vanaah:
-9% Judgment Dash
-91% Paladin Dash
-
-
-Luc: Memento Drive
-Vanaah: Paladin Dash
-
-Priorities:  3 | 7
-Vanaah is active
-Vanaah moves:
 
 V..L...
+
+Unbeatable strategy for Luc: Feinting Dash: 0.04
+Unbeatable strategy for Luc: Chrono Flash: 1.03
+
+
+Luc:
+2% Feinting Strike (1 token)
+94% Chrono Flash
+5% Chrono Burst
+
+Vanaah:
+12% Glorious Scythe
+73% Glorious Shot
+15% Paladin Shot
+
+
+Luc: Chrono Flash
+Vanaah: Paladin Shot
+
+Priorities:  7 | 0
+Luc is active
+Luc spends a Time token
+Luc moves:
+
+V.L....
 
 Luc moves:
 
 VL.....
 
-Luc misses
-Vanaah moves:
-
-.LV....
-
+Luc hits
+Vanaah takes 1 damage (now at 10 life)
+Vanaah is stunned
 Luc gains 1 Time token
 
 Beat 10
@@ -554,49 +526,51 @@ Beat 10
 
 Luc
 ---
-life: 20
-discard 1: Memento Drive
-discard 2: Chrono Dash
-5 Time tokens
+Life: 15
+Discard 1: Chrono Flash
+Discard 2: Eternal Shot
+Special action available
+1 Time token
 
 Vanaah
 ------
-life: 20
-discard 1: Paladin Dash
-discard 2: Glorious Scythe Divine Rush
-special action
+Life: 10
+Discard 1: Paladin Shot
+Discard 2: Reaping Burst Divine Rush
+Special action available
 
+
+VL.....
+
+
+Luc:
+10% Memento Drive
+31% Fusion Strike
+28% Fusion Strike (1 token)
+30% Fusion Burst
+
+Vanaah:
+20% Glorious Drive
+9% Glorious Grasp
+18% Vengeance Strike
+53% Vengeance Drive
+
+
+Luc: Fusion Strike (1 token)
+Vanaah: Vengeance Drive
+
+Luc antes a Time token
+Priorities:  5 | 4
+Luc is active
+Luc hits
+Vanaah takes 3 damage (now at 7 life)
+Vanaah loses 2 life (now at 5)
+Vanaah moves:
 
 .LV....
 
-Unbeatable strategy for Luc: Eternal Shot: 1.82
-Unbeatable strategy for Luc: Eternal Shot (1 token): 1.42
-
-Luc:
-10% Eternal Strike (3 tokens)
-90% Eternal Shot
-
-Vanaah:
-50% Reaping Strike
-36% Reaping Burst
-14% Judgment Burst
-
-
-Luc: Eternal Shot
-Vanaah: Reaping Strike
-
-Priorities:  -2 | 4
-Vanaah is active
 Vanaah hits
-Luc discards a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +3 soak (4 total)
-Luc has 4 soak
-Luc takes 0 damage (now at 20 life)
-Luc hits
-Vanaah takes 3 damage (now at 17 life)
+Luc takes 5 damage (now at 10 life)
 Luc gains 1 Time token
 
 Beat 11
@@ -604,47 +578,52 @@ Beat 11
 
 Luc
 ---
-life: 20
-discard 1: Eternal Shot
-discard 2: Memento Drive
-2 Time tokens
+Life: 10
+Discard 1: Fusion Strike
+Discard 2: Chrono Flash
+Special action available
+1 Time token
 
 Vanaah
 ------
-life: 17
-discard 1: Reaping Strike
-discard 2: Paladin Dash
-special action
+Life: 5
+Discard 1: Vengeance Drive
+Discard 2: Paladin Shot
+Special action available
 Divine Rush token in pool
 
 
 .LV....
 
-Unbeatable strategy for Vanaah: Glorious Burst (Divine Rush): -0.01
 
 Luc:
-1% Feinting Burst
-3% Chrono Flash
-96% Chrono Dash
+3% Eternal Shot
+5% Memento Grasp
+2% Memento Grasp (1 token)
+6% Memento Dash
+84% Memento Dash (1 token)
 
 Vanaah:
-14% Glorious Shot (Divine Rush)
-65% Vengeance Shot
-21% Vengeance Burst
+30% Reaping Scythe
+30% Reaping Strike
+3% Reaping Grasp (Divine Rush)
+25% Judgment Strike
+11% Glorious Strike (Divine Rush)
 
 
-Luc: Chrono Dash
-Vanaah: Vengeance Burst
+Luc: Memento Dash (1 token)
+Vanaah: Reaping Scythe
 
-Priorities:  10 | 1
+Luc antes a Time token
+Priorities:  9 | 4
 Luc is active
-Vanaah moves:
-
-.L.V...
-
 Luc moves:
 
-..LV...
+..VL...
+
+Vanaah moves:
+
+...LV..
 
 Vanaah misses
 Luc gains 1 Time token
@@ -654,45 +633,56 @@ Beat 12
 
 Luc
 ---
-life: 20
-discard 1: Chrono Dash
-discard 2: Eternal Shot
-3 Time tokens
+Life: 10
+Discard 1: Memento Dash
+Discard 2: Fusion Strike
+Special action available
+1 Time token
 
 Vanaah
 ------
-life: 17
-discard 1: Vengeance Burst
-discard 2: Reaping Strike
-special action
+Life: 5
+Discard 1: Reaping Scythe
+Discard 2: Vengeance Drive
+Special action available
 Divine Rush token in pool
 
 
-..LV...
+...LV..
+
 
 Luc:
-2% Memento Flash
-5% Memento Drive
-41% Fusion Flash
-51% Fusion Flash (1 token)
-1% Fusion Drive
+30% Chrono Flash
+38% Chrono Drive
+32% Chrono Burst
 
 Vanaah:
-65% Judgment Dash
-9% Glorious Shot (Divine Rush)
-6% Glorious Grasp (Divine Rush)
-17% Paladin Shot
-3% Paladin Dash
+13% Glorious Grasp (Divine Rush)
+54% Paladin Shot (Divine Rush)
+33% Paladin Burst (Divine Rush)
 
 
-Luc: Fusion Flash
-Vanaah: Judgment Dash
+Luc: Chrono Flash
+Vanaah: Glorious Grasp (Divine Rush)
 
-Priorities:  7 | 8
+Vanaah antes a Divine Rush token
+Priorities:  7 | 7
+Clash!
+
+
+Luc: Chrono Grasp
+Vanaah: Glorious Dash (Divine Rush)
+
+Vanaah antes a Divine Rush token
+Priorities:  6 | 11
 Vanaah is active
 Vanaah moves:
 
-..L...V
+..VL...
+
+Vanaah moves:
+
+...LV..
 
 Luc misses
 Luc gains 1 Time token
@@ -702,54 +692,56 @@ Beat 13
 
 Luc
 ---
-life: 20
-discard 1: Fusion Flash
-discard 2: Chrono Dash
-4 Time tokens
+Life: 10
+Discard 1: Chrono Grasp
+Discard 2: Memento Dash
+Special action available
+2 Time tokens
 
 Vanaah
 ------
-life: 17
-discard 1: Judgment Dash
-discard 2: Vengeance Burst
-special action
-Divine Rush token in pool
+Life: 5
+Discard 1: Glorious Dash Divine Rush
+Discard 2: Reaping Scythe
+Special action available
 
 
-..L...V
+...LV..
 
-Unbeatable strategy for Luc: Eternal Shot: 0.58
-Unbeatable strategy for Luc: Eternal Burst: 1.10
-Unbeatable strategy for Luc: Eternal Burst (1 token): 0.70
-Unbeatable strategy for Luc: Eternal Burst (3 tokens): 0.18
-Unbeatable strategy for Luc: Feinting Burst: 1.26
-Unbeatable strategy for Luc: Feinting Burst (3 tokens): 0.06
+Unbeatable strategy for Luc: Eternal Shot: 1.05
+
 
 Luc:
-26% Eternal Shot
-72% Eternal Burst
-2% Memento Burst
+2% Eternal Strike
+83% Eternal Shot
+13% Fusion Strike
+1% Fusion Shot
+1% Feinting Burst
 
 Vanaah:
-34% Glorious Shot (Divine Rush)
-66% Paladin Shot (Divine Rush)
+3% Judgment Burst
+58% Paladin Strike
+5% Paladin Shot
+7% Paladin Drive
+27% Paladin Burst
 
 
-Luc: Eternal Burst
-Vanaah: Paladin Shot (Divine Rush)
+Luc: Eternal Shot
+Vanaah: Paladin Strike
 
-Vanaah antes a Divine Rush token
-Priorities:  -3 | 2
+Priorities:  -2 | 1
 Vanaah is active
-Luc moves:
-
-L.....V
-
-Vanaah misses
-Luc misses
+Vanaah hits
+Luc spends a Time token
+Luc spends a Time token
+Luc gains +2 soak (3 total)
+Luc has 3 soak
+Luc takes 2 damage (now at 8 life)
+Luc hits
+Vanaah takes 3 damage (now at 2 life)
 Vanaah moves:
 
-LV.....
+..VL...
 
 Luc gains 1 Time token
 
@@ -758,129 +750,194 @@ Beat 14
 
 Luc
 ---
-life: 20
-discard 1: Eternal Burst
-discard 2: Fusion Flash
-5 Time tokens
+Life: 8
+Discard 1: Eternal Shot
+Discard 2: Chrono Grasp
+Special action available
+1 Time token
 
 Vanaah
 ------
-life: 17
-discard 1: Paladin Shot Divine Rush
-discard 2: Judgment Dash
-special action
+Life: 2
+Discard 1: Paladin Strike
+Discard 2: Glorious Dash Divine Rush
+Special action available
 
 
-LV.....
+..VL...
+
 
 Luc:
-25% Memento Strike
-13% Memento Strike (1 token)
-33% Memento Drive (1 token)
-28% Chrono Drive (1 token)
+7% Memento Burst
+8% Memento Burst (1 token)
+58% Fusion Drive (1 token)
+12% Fusion Burst
+15% Fusion Burst (1 token)
 
 Vanaah:
-53% Reaping Strike
-5% Glorious Strike
-18% Glorious Grasp
-24% Vengeance Burst
+42% Reaping Scythe
+58% Reaping Grasp
 
 
-Luc: Memento Strike
-Vanaah: Glorious Strike
+Luc: Fusion Drive (1 token)
+Vanaah: Reaping Grasp
 
-Priorities:  2 | 3
-Vanaah is active
-Vanaah hits
-Luc takes 6 damage (now at 14 life)
-Luc is stunned
+Luc antes a Time token
+Priorities:  6 | 6
+Clash!
+
+
+Luc: Fusion Dash (1 token)
+Vanaah: Reaping Burst
+
+Luc antes a Time token
+Priorities:  11 | 2
+Luc is active
+Vanaah moves:
+
+V..L...
+
+Luc moves:
+
+VL.....
+
+Vanaah misses
+Luc gains 1 Time token
 
 Beat 15
 -------
 
 Luc
 ---
-life: 14
-discard 1: Memento Strike
-discard 2: Eternal Burst
-5 Time tokens
+Life: 8
+Discard 1: Fusion Dash
+Discard 2: Eternal Shot
+Special action available
+1 Time token
 
 Vanaah
 ------
-life: 17
-discard 1: Glorious Strike
-discard 2: Paladin Shot Divine Rush
-special action
+Life: 2
+Discard 1: Reaping Burst
+Discard 2: Paladin Strike
+Special action available
+Divine Rush token in pool
 
 
-LV.....
+VL.....
 
-Unbeatable strategy for Vanaah: Reaping Scythe: -19.00
 
 Luc:
-50% Feinting Flash (5 tokens)
-25% Feinting Drive (5 tokens)
-25% Chrono Drive (5 tokens)
+14% Memento Grasp
+26% Chrono Grasp
+61% Chrono Grasp (1 token)
 
 Vanaah:
-50% Reaping Scythe
-4% Reaping Drive
-1% Reaping Burst
-2% Judgment Scythe
+0% Glorious Scythe (Divine Rush)
+0% Glorious Shot (Divine Rush)
+0% Glorious Drive (Divine Rush)
+3% Glorious Grasp (Divine Rush)
+48% Special Pulse
+48% Special Pulse (Divine Rush)
+
+
+Luc: Memento Grasp
+Vanaah: Special Pulse
+
+Vanaah Pulses:
+
+.L....V
+
+
+Beat 15
+-------
+
+Luc
+---
+Life: 8
+Discard 1: Memento Grasp
+Discard 2: Fusion Dash
+Special action available
+1 Time token
+
+Vanaah
+------
+Life: 2
+Discard 1: Reaping Burst
+Discard 2: Paladin Strike
+Divine Rush token in pool
+
+
+.L....V
+
+Unbeatable strategy for Luc: Eternal Strike: 7.00
+Unbeatable strategy for Luc: Eternal Shot: 7.00
+Unbeatable strategy for Luc: Eternal Drive: 7.00
+Unbeatable strategy for Luc: Eternal Burst: 7.00
+Unbeatable strategy for Luc: Eternal Burst (1 token): 7.00
+
+
+Luc:
+13% Eternal Flash
+12% Eternal Strike
+12% Eternal Shot
+12% Eternal Drive
+12% Eternal Burst
+12% Eternal Burst (1 token)
+13% Feinting Drive (1 token)
+13% Chrono Burst (1 token)
+
+Vanaah:
+3% Judgment Scythe
+3% Judgment Scythe (Divine Rush)
+3% Judgment Shot
+15% Judgment Shot (Divine Rush)
 3% Judgment Drive
-2% Judgment Burst
-2% Judgment Grasp
-8% Judgment Dash
-20% Vengeance Scythe
-7% Vengeance Burst
-1% Vengeance Grasp
+3% Judgment Drive (Divine Rush)
+3% Judgment Grasp
+3% Judgment Grasp (Divine Rush)
+3% Judgment Dash
+3% Judgment Dash (Divine Rush)
+3% Glorious Scythe
+3% Glorious Scythe (Divine Rush)
+3% Glorious Shot
+8% Glorious Shot (Divine Rush)
+3% Glorious Drive
+3% Glorious Drive (Divine Rush)
+3% Glorious Grasp
+3% Glorious Grasp (Divine Rush)
+3% Glorious Dash
+3% Glorious Dash (Divine Rush)
+2% Vengeance Scythe
+3% Vengeance Scythe (Divine Rush)
+2% Vengeance Shot
+2% Vengeance Shot (Divine Rush)
+2% Vengeance Drive
+3% Vengeance Drive (Divine Rush)
+3% Vengeance Grasp
+3% Vengeance Grasp (Divine Rush)
+3% Vengeance Dash
+3% Vengeance Dash (Divine Rush)
 
 
-Luc: Feinting Flash (5 tokens)
-Vanaah: Reaping Scythe
+Luc: Feinting Drive (1 token)
+Vanaah: Judgment Grasp (Divine Rush)
 
 Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  4 | 4
-Clash!
-
-Luc:
-50% Feinting Shot (5 tokens)
-50% Feinting Drive (5 tokens)
-
-Vanaah:
-17% Reaping Drive
-50% Reaping Burst
-17% Reaping Grasp
-17% Reaping Dash
-
-
-Luc: Feinting Drive (5 tokens)
-Vanaah: Reaping Grasp
-
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  2 | 6
+Vanaah antes a Divine Rush token
+Priorities:  3 | 6
 Vanaah is active
-Luc becomes the active player
+Vanaah misses
 Luc moves:
 
-.V.L...
+..L...V
 
-Luc hits
-Vanaah takes 3 damage (now at 14 life)
-Vanaah is stunned
+Luc misses
 Luc moves:
 
-LV.....
+...L..V
 
 Luc gains 1 Time token
 Game goes to time
-THE GAME IS TIED!
-total_time: 36
+LUC WINS!
+total_time: 32

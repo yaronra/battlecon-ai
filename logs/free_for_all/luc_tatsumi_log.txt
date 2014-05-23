@@ -11,42 +11,47 @@ Beat 1
 
 Luc
 ---
-life: 20
-discard 1: Eternal Flash
-discard 2: Fusion Strike
-special action
+Life: 20
+Discard 1: Eternal Flash
+Discard 2: Fusion Strike
+Special action available
 2 Time tokens
 
 Tatsumi
 -------
-life: 20
-discard 1: Fearless Burst
-discard 2: Riptide Strike
-special action
+Life: 20
+Discard 1: Fearless Burst
+Discard 2: Riptide Strike
+Special action available
 Juto's life: 4
 
 
 .L...T.
 .....j.
 
+
 Luc:
-15% Feinting Dash
-9% Chrono Grasp
-77% Chrono Dash
+34% Memento Dash
+3% Feinting Drive
+4% Chrono Drive (1 token)
+8% Chrono Grasp
+50% Chrono Dash
 
 Tatsumi:
-21% Siren Whirlpool
-54% Siren Drive
-9% Siren Dash
-16% Empathic Whirlpool
+17% Siren Whirlpool
+23% Siren Shot
+47% Siren Drive
+10% Empathic Whirlpool
+3% Empathic Dash
 
 
 Luc: Chrono Dash
-Tatsumi: Siren Whirlpool
+Tatsumi: Siren Drive
 
-Priorities:  10 | 4
+Priorities:  10 | 5
 Luc is active
-Tatsumi moves Luc:
+Luc spends a Time token
+Luc moves:
 
 ..L..T.
 .....j.
@@ -57,20 +62,10 @@ Luc moves:
 .....j.
 
 Tatsumi misses
-Tatsumi moves:
-
-...T..L
-.....j.
-
 Juto moves
 
-...T..L
+.....TL
 ...j...
-
-Juto moves
-
-...T..L
-....j..
 
 Luc gains 1 Time token
 
@@ -79,68 +74,61 @@ Beat 2
 
 Luc
 ---
-life: 20
-discard 1: Chrono Dash
-discard 2: Eternal Flash
-special action
-3 Time tokens
+Life: 20
+Discard 1: Chrono Dash
+Discard 2: Eternal Flash
+Special action available
+2 Time tokens
 
 Tatsumi
 -------
-life: 20
-discard 1: Siren Whirlpool
-discard 2: Fearless Burst
-special action
+Life: 20
+Discard 1: Siren Drive
+Discard 2: Fearless Burst
+Special action available
 Juto's life: 4
 
 
-...T..L
-....j..
+.....TL
+...j...
+
 
 Luc:
-35% Memento Drive
-2% Memento Drive (1 token)
-21% Fusion Strike (3 tokens)
-30% Fusion Drive
-12% Feinting Strike (3 tokens)
+42% Memento Drive
+4% Fusion Strike
+54% Fusion Drive
 
 Tatsumi:
-35% Riptide Strike
-10% Riptide Drive
-20% Riptide Grasp
-30% Riptide Dash
-5% Wave Grasp
+70% Riptide Strike
+28% Empathic Dash
+2% Wave Grasp
 
 
-Luc: Memento Drive
+Luc: Fusion Drive
 Tatsumi: Riptide Strike
 
-Priorities:  3 | 2
+Priorities:  5 | 2
 Luc is active
 Luc moves:
 
-...TL..
-....j..
+....LT.
+...j...
 
 Luc hits
-Tatsumi takes 3 damage (now at 17 life)
-Luc spends a Time token
-Luc spends a Time token
-Luc attacks again
-Luc moves:
+Tatsumi takes 2 damage (now at 18 life)
+Luc moves Tatsumi:
 
-..LT...
-....j..
+....L.T
+...j...
 
-Luc hits
-Tatsumi takes 3 damage (now at 14 life)
+Tatsumi loses 2 life (now at 16)
 Tatsumi hits
-Luc takes 5 damage (now at 15 life)
+Luc takes 4 damage (now at 16 life)
 Luc is stunned
 Juto moves
 
-..LT...
-....j..
+....L.T
+...j...
 
 Luc gains 1 Time token
 
@@ -149,53 +137,61 @@ Beat 3
 
 Luc
 ---
-life: 15
-discard 1: Memento Drive
-discard 2: Chrono Dash
-special action
-2 Time tokens
+Life: 16
+Discard 1: Fusion Drive
+Discard 2: Chrono Dash
+Special action available
+3 Time tokens
 
 Tatsumi
 -------
-life: 14
-discard 1: Riptide Strike
-discard 2: Siren Whirlpool
-special action
+Life: 16
+Discard 1: Riptide Strike
+Discard 2: Siren Drive
+Special action available
 Juto's life: 4
 
 
-..LT...
-....j..
+....L.T
+...j...
+
+Unbeatable strategy for Tatsumi: Empathic Whirlpool: -0.55
+
 
 Luc:
-100% Eternal Flash
+34% Eternal Flash
+42% Eternal Flash (1 token)
+19% Eternal Shot
+5% Eternal Burst
 
 Tatsumi:
-100% Empathic Burst
+18% Empathic Whirlpool
+9% Empathic Burst
+10% Wave Whirlpool
+63% Wave Dash
 
 
-Luc: Eternal Flash
-Tatsumi: Empathic Burst
+Luc: Eternal Burst
+Tatsumi: Wave Dash
 
-Priorities:  2 | 0
-Luc is active
+Priorities:  -3 | 10
+Tatsumi is active
 Luc moves:
 
-...TL..
-....j..
+..L...T
+...j...
+
+Juto moves
+
+..L...T
+j......
 
 Tatsumi moves:
 
-.T..L..
-....j..
+..LT...
+j......
 
 Luc misses
-Tatsumi hits
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +2 soak (3 total)
-Luc has 3 soak
-Luc takes 0 damage (now at 15 life)
 Luc gains 1 Time token
 
 Beat 4
@@ -203,65 +199,78 @@ Beat 4
 
 Luc
 ---
-life: 15
-discard 1: Eternal Flash
-discard 2: Memento Drive
-special action
-1 Time tokens
+Life: 16
+Discard 1: Eternal Burst
+Discard 2: Fusion Drive
+Special action available
+4 Time tokens
 
 Tatsumi
 -------
-life: 14
-discard 1: Empathic Burst
-discard 2: Riptide Strike
-special action
+Life: 16
+Discard 1: Wave Dash
+Discard 2: Riptide Strike
+Special action available
 Juto's life: 4
 
 
-.T..L..
-....j..
+..LT...
+j......
+
 
 Luc:
-39% Feinting Dash
-53% Feinting Dash (1 token)
-8% Chrono Shot
+11% Feinting Flash (1 token)
+1% Feinting Strike (3 tokens)
+1% Feinting Grasp (1 token)
+35% Feinting Dash (1 token)
+3% Chrono Flash (1 token)
+24% Chrono Flash (3 tokens)
+24% Chrono Shot (1 token)
+1% Chrono Grasp (3 tokens)
 
 Tatsumi:
-25% Fearless Whirlpool
-11% Fearless Grasp
-64% Wave Whirlpool
+21% Siren Whirlpool
+14% Siren Drive
+16% Siren Grasp
+1% Fearless Whirlpool
+12% Empathic Whirlpool
+17% Empathic Shot
+17% Empathic Drive
+1% Empathic Grasp
 
 
 Luc: Feinting Dash (1 token)
-Tatsumi: Wave Whirlpool
+Tatsumi: Empathic Shot
 
 Luc antes a Time token
-Priorities:  8 | 4
+Priorities:  8 | 2
 Luc is active
 Luc moves:
 
-.T.L...
-....j..
-
-Tatsumi misses
-Juto moves
-
-.T.L...
-....j..
+.L.T...
+j......
 
 Tatsumi moves:
 
-..TL...
-....j..
+TL.....
+j......
 
 Juto moves
 
-..TL...
+TL.....
 ...j...
 
 Luc moves:
 
-L.T....
+T...L..
+...j...
+
+Tatsumi hits
+Luc takes 3 damage (now at 13 life)
+Luc is stunned
+Luc moves:
+
+T..L...
 ...j...
 
 Luc gains 1 Time token
@@ -271,107 +280,57 @@ Beat 5
 
 Luc
 ---
-life: 15
-discard 1: Feinting Dash
-discard 2: Eternal Flash
-special action
-1 Time tokens
+Life: 13
+Discard 1: Feinting Dash
+Discard 2: Eternal Burst
+Special action available
+4 Time tokens
 
 Tatsumi
 -------
-life: 14
-discard 1: Wave Whirlpool
-discard 2: Empathic Burst
-special action
+Life: 16
+Discard 1: Empathic Shot
+Discard 2: Wave Dash
+Special action available
 Juto's life: 4
 
 
-L.T....
+T..L...
 ...j...
 
-Unbeatable strategy for Tatsumi: Siren Grasp: -1.51
 
 Luc:
-18% Fusion Shot
-82% Chrono Grasp
+6% Memento Drive (1 token)
+5% Fusion Drive (1 token)
+43% Chrono Flash
+46% Chrono Drive (1 token)
 
 Tatsumi:
-80% Siren Grasp
-20% Riptide Strike
+13% Fearless Whirlpool
+20% Fearless Drive
+8% Riptide Whirlpool
+59% Riptide Strike
 
 
-Luc: Chrono Grasp
-Tatsumi: Siren Grasp
+Luc: Chrono Drive (1 token)
+Tatsumi: Riptide Strike
 
-Priorities:  6 | 6
-Clash!
-
-Luc:
-100% Chrono Drive
-
-Tatsumi:
-100% Siren Drive
-
-
-Luc: Chrono Drive
-Tatsumi: Siren Drive
-
-Priorities:  5 | 5
-Clash!
-
-Luc:
-100% Chrono Strike
-
-Tatsumi:
-100% Siren Strike
-
-
-Luc: Chrono Strike
-Tatsumi: Siren Strike
-
-Priorities:  4 | 4
-Clash!
-
-Luc:
-100% Chrono Shot
-
-Tatsumi:
-100% Siren Shot
-
-
-Luc: Chrono Shot
-Tatsumi: Siren Shot
-
-Priorities:  3 | 3
-Clash!
-
-Luc:
-100% Chrono Burst
-
-Tatsumi:
-100% Siren Dash
-
-
-Luc: Chrono Burst
-Tatsumi: Siren Dash
-
-Priorities:  2 | 10
-Tatsumi is active
-Luc spends a Time token
+Luc antes a Time token
+Priorities:  6 | 3
+Luc is active
 Luc moves:
 
-.LT....
+TL.....
 ...j...
 
-Tatsumi moves:
-
-.L...T.
-...j...
-
-Luc misses
+Luc hits
+Tatsumi takes 3 damage (now at 13 life)
+Tatsumi hits
+Luc takes 4 damage (now at 9 life)
+Luc is stunned
 Juto moves
 
-.L...T.
+TL.....
 ...j...
 
 Luc gains 1 Time token
@@ -381,61 +340,71 @@ Beat 6
 
 Luc
 ---
-life: 15
-discard 1: Chrono Burst
-discard 2: Feinting Dash
-special action
-1 Time tokens
+Life: 9
+Discard 1: Chrono Drive
+Discard 2: Feinting Dash
+Special action available
+4 Time tokens
 
 Tatsumi
 -------
-life: 14
-discard 1: Siren Dash
-discard 2: Wave Whirlpool
-special action
+Life: 13
+Discard 1: Riptide Strike
+Discard 2: Empathic Shot
+Special action available
 Juto's life: 4
 
 
-.L...T.
+TL.....
 ...j...
 
-Unbeatable strategy for Tatsumi: Riptide Burst: -0.62
-Unbeatable strategy for Tatsumi: Empathic Burst: -0.26
+Unbeatable strategy for Tatsumi: Siren Whirlpool: -0.81
+Unbeatable strategy for Tatsumi: Siren Drive: -0.51
+Unbeatable strategy for Tatsumi: Siren Dash: -0.30
+Unbeatable strategy for Tatsumi: Wave Dash: -0.83
+
 
 Luc:
-66% Eternal Flash
-7% Eternal Drive
-15% Eternal Grasp
-12% Memento Drive
+38% Eternal Shot
+52% Eternal Burst
+9% Fusion Grasp (1 token)
 
 Tatsumi:
-1% Fearless Strike
-1% Fearless Shot
-51% Riptide Burst
-47% Empathic Shot
+23% Siren Whirlpool
+75% Siren Drive
+2% Wave Whirlpool
 
 
-Luc: Eternal Grasp
-Tatsumi: Riptide Burst
+Luc: Eternal Shot
+Tatsumi: Siren Whirlpool
 
-Priorities:  1 | 0
-Luc is active
-Tatsumi moves:
+Priorities:  -2 | 5
+Tatsumi is active
+Tatsumi moves Luc:
 
-.L....T
+T.L....
 ...j...
 
-Luc misses
 Tatsumi hits
+Luc is stunned
 Luc spends a Time token
 Luc gains +1 soak (2 total)
 Luc has 2 soak
-Luc takes 1 damage (now at 14 life)
-Luc is stunned
+Luc takes 0 damage (now at 9 life)
+Tatsumi moves:
+
+..LT...
+...j...
+
 Juto moves
 
-.L....T
-...j...
+..LT...
+..j....
+
+Juto moves
+
+..LT...
+....j..
 
 Luc gains 1 Time token
 
@@ -444,54 +413,66 @@ Beat 7
 
 Luc
 ---
-life: 14
-discard 1: Eternal Grasp
-discard 2: Chrono Burst
-special action
-1 Time tokens
+Life: 9
+Discard 1: Eternal Shot
+Discard 2: Chrono Drive
+Special action available
+4 Time tokens
 
 Tatsumi
 -------
-life: 14
-discard 1: Riptide Burst
-discard 2: Siren Dash
-special action
+Life: 13
+Discard 1: Siren Whirlpool
+Discard 2: Riptide Strike
+Special action available
 Juto's life: 4
 
 
-.L....T
-...j...
+..LT...
+....j..
 
-Unbeatable strategy for Tatsumi: Fearless Shot: -0.97
 
 Luc:
-5% Fusion Shot
-52% Feinting Drive (1 token)
-43% Feinting Dash
+6% Memento Flash
+10% Memento Flash (1 token)
+47% Memento Dash
+8% Memento Dash (1 token)
+3% Fusion Flash
+5% Feinting Flash
+22% Feinting Dash
 
 Tatsumi:
-28% Fearless Whirlpool
-55% Fearless Shot
-18% Empathic Shot
+11% Fearless Burst
+4% Empathic Burst
+12% Empathic Dash
+2% Wave Shot
+39% Wave Burst
+8% Wave Grasp
+24% Wave Dash
 
 
-Luc: Feinting Dash
-Tatsumi: Fearless Shot
+Luc: Memento Flash (1 token)
+Tatsumi: Wave Burst
 
-Priorities:  7 | 3
+Luc antes a Time token
+Priorities:  6 | 1
 Luc is active
 Luc moves:
 
-...L..T
-...j...
+...TL..
+....j..
 
-Tatsumi hits
-Luc takes 3 damage (now at 11 life)
-Luc is stunned
-Luc moves:
+Tatsumi moves:
 
-.....LT
-...j...
+.T..L..
+....j..
+
+Luc misses
+Tatsumi misses
+Juto moves
+
+.T..L..
+.....j.
 
 Luc gains 1 Time token
 
@@ -500,55 +481,74 @@ Beat 8
 
 Luc
 ---
-life: 11
-discard 1: Feinting Dash
-discard 2: Eternal Grasp
-special action
-2 Time tokens
+Life: 9
+Discard 1: Memento Flash
+Discard 2: Eternal Shot
+Special action available
+4 Time tokens
 
 Tatsumi
 -------
-life: 14
-discard 1: Fearless Shot
-discard 2: Riptide Burst
-special action
+Life: 13
+Discard 1: Wave Burst
+Discard 2: Siren Whirlpool
+Special action available
 Juto's life: 4
 
 
-.....LT
-...j...
+.T..L..
+.....j.
+
 
 Luc:
-13% Memento Drive
-14% Memento Burst
-35% Chrono Flash
-5% Chrono Drive
-33% Chrono Drive (1 token)
+5% Fusion Drive (3 tokens)
+28% Feinting Drive
+47% Chrono Drive (1 token)
+20% Chrono Drive (3 tokens)
 
 Tatsumi:
-13% Siren Drive
-4% Siren Grasp
-4% Empathic Whirlpool
-3% Empathic Dash
-76% Wave Dash
+7% Fearless Drive
+4% Riptide Strike
+78% Riptide Dash
+11% Empathic Strike
 
 
-Luc: Chrono Flash
-Tatsumi: Wave Dash
+Luc: Chrono Drive (3 tokens)
+Tatsumi: Empathic Strike
 
-Priorities:  7 | 10
-Tatsumi is active
-Juto moves
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  5 | 3
+Luc is active
+Luc spends a Time token
+Luc moves:
 
-.....LT
-...j...
+.T.L...
+.....j.
+
+Luc moves:
+
+LT.....
+.....j.
 
 Tatsumi moves:
 
-..T..L.
-...j...
+L....T.
+.....j.
+
+Juto moves
+
+L....T.
+.j.....
+
+Luc moves:
+
+..L..T.
+.j.....
 
 Luc misses
+Tatsumi misses
 Luc gains 1 Time token
 
 Beat 9
@@ -556,61 +556,76 @@ Beat 9
 
 Luc
 ---
-life: 11
-discard 1: Chrono Flash
-discard 2: Feinting Dash
-special action
-3 Time tokens
+Life: 9
+Discard 1: Chrono Drive
+Discard 2: Memento Flash
+Special action available
+1 Time token
 
 Tatsumi
 -------
-life: 14
-discard 1: Wave Dash
-discard 2: Fearless Shot
-special action
+Life: 13
+Discard 1: Empathic Strike
+Discard 2: Wave Burst
+Special action available
 Juto's life: 4
 
 
-..T..L.
-...j...
+..L..T.
+.j.....
+
+Unbeatable strategy for Tatsumi: Siren Whirlpool: -0.17
+Unbeatable strategy for Tatsumi: Fearless Whirlpool: -0.84
+
 
 Luc:
-43% Eternal Drive
-2% Fusion Drive
-28% Fusion Drive (1 token)
-28% Fusion Drive (3 tokens)
+11% Eternal Shot
+45% Eternal Dash
+18% Fusion Shot (1 token)
+26% Feinting Dash
 
 Tatsumi:
-47% Siren Whirlpool
-15% Siren Drive
-25% Riptide Strike
-13% Riptide Burst
+18% Siren Whirlpool
+39% Riptide Whirlpool
+34% Riptide Drive
+9% Riptide Grasp
 
 
-Luc: Fusion Drive (1 token)
-Tatsumi: Riptide Burst
+Luc: Feinting Dash
+Tatsumi: Riptide Whirlpool
 
-Luc antes a Time token
-Priorities:  6 | 0
+Priorities:  7 | 3
 Luc is active
-Tatsumi moves:
+Luc moves:
 
-T....L.
-...j...
+.L...T.
+.j.....
 
 Luc moves:
 
-T..L...
-...j...
+L....T.
+.j.....
 
-Luc misses
-Tatsumi hits
-Luc takes 3 damage (now at 8 life)
-Luc is stunned
+Tatsumi misses
+Tatsumi moves:
+
+L.....T
+.j.....
+
 Juto moves
 
-T..L...
-..j....
+L.....T
+j......
+
+Luc moves:
+
+..L...T
+j......
+
+Juto moves
+
+..L...T
+j......
 
 Luc gains 1 Time token
 
@@ -619,65 +634,63 @@ Beat 10
 
 Luc
 ---
-life: 8
-discard 1: Fusion Drive
-discard 2: Chrono Flash
-special action
-3 Time tokens
+Life: 9
+Discard 1: Feinting Dash
+Discard 2: Chrono Drive
+Special action available
+2 Time tokens
 
 Tatsumi
 -------
-life: 14
-discard 1: Riptide Burst
-discard 2: Wave Dash
-special action
+Life: 13
+Discard 1: Riptide Whirlpool
+Discard 2: Empathic Strike
+Special action available
 Juto's life: 4
 
 
-T..L...
-..j....
-
-Unbeatable strategy for Tatsumi: Siren Shot: -0.12
-
-Luc:
-54% Eternal Strike
-34% Eternal Dash
-4% Feinting Grasp (3 tokens)
-9% Feinting Dash
-
-Tatsumi:
-19% Fearless Whirlpool
-5% Fearless Strike
-14% Fearless Shot
-62% Empathic Whirlpool
-
-
-Luc: Eternal Dash
-Tatsumi: Empathic Whirlpool
-
-Priorities:  5 | 2
-Luc is active
-Tatsumi moves Luc:
-
-T.L....
-..j....
-
-Luc moves:
-
-T..L...
-..j....
-
-Tatsumi misses
-Tatsumi moves:
-
-.T.L...
-..j....
-
-Juto moves
-
-.T.L...
+..L...T
 j......
 
+Unbeatable strategy for Luc: Eternal Strike: 0.48
+Unbeatable strategy for Luc: Eternal Grasp: 0.63
+
+
+Luc:
+7% Eternal Flash (1 token)
+92% Eternal Grasp
+2% Fusion Shot
+
+Tatsumi:
+4% Fearless Burst
+28% Wave Burst
+67% Wave Grasp
+
+
+Luc: Eternal Grasp
+Tatsumi: Wave Grasp
+
+Priorities:  1 | 6
+Tatsumi is active
+Tatsumi hits
+Tatsumi moves Luc:
+
+L.....T
+j......
+
+Tatsumi moves Luc:
+
+.L....T
+j......
+
+Luc has 1 soak
+Luc takes 0 damage (now at 9 life)
+Juto moves
+
+.L....T
+j......
+
+Luc misses
 Luc gains 1 Time token
 
 Beat 11
@@ -685,58 +698,68 @@ Beat 11
 
 Luc
 ---
-life: 8
-discard 1: Eternal Dash
-discard 2: Fusion Drive
-special action
-4 Time tokens
+Life: 9
+Discard 1: Eternal Grasp
+Discard 2: Feinting Dash
+Special action available
+3 Time tokens
 
 Tatsumi
 -------
-life: 14
-discard 1: Empathic Whirlpool
-discard 2: Riptide Burst
-special action
+Life: 13
+Discard 1: Wave Grasp
+Discard 2: Riptide Whirlpool
+Special action available
 Juto's life: 4
 
 
-.T.L...
+.L....T
 j......
 
-Unbeatable strategy for Luc: Chrono Flash: 1.84
-Unbeatable strategy for Luc: Chrono Flash (1 token): 1.44
-Unbeatable strategy for Luc: Chrono Flash (3 tokens): 0.64
-Unbeatable strategy for Luc: Chrono Grasp (1 token): 0.27
+Unbeatable strategy for Luc: Chrono Flash: 0.25
+
 
 Luc:
-15% Feinting Shot (3 tokens)
-79% Chrono Flash
-5% Chrono Strike
-1% Chrono Grasp
+4% Fusion Flash
+3% Chrono Flash
+54% Chrono Strike
+25% Chrono Drive
+14% Chrono Burst
 
 Tatsumi:
-17% Fearless Strike
-10% Fearless Shot
-72% Fearless Dash
-1% Wave Dash
+2% Siren Strike
+3% Siren Burst
+0% Fearless Burst
+9% Empathic Strike
+87% Empathic Dash
 
 
-Luc: Chrono Flash
-Tatsumi: Fearless Dash
+Luc: Chrono Burst
+Tatsumi: Siren Strike
 
-Priorities:  7 | 10
+Priorities:  2 | 5
 Tatsumi is active
+Luc spends a Time token
+Luc spends a Time token
+Luc spends a Time token
 Luc moves:
 
-.TL....
+....L.T
 j......
 
-Tatsumi moves:
+Luc moves:
 
-..L..T.
+...L..T
 j......
 
-Luc misses
+Tatsumi misses
+Luc hits
+Tatsumi takes 3 damage (now at 10 life)
+Juto moves
+
+...L..T
+.j.....
+
 Luc gains 1 Time token
 
 Beat 12
@@ -744,71 +767,64 @@ Beat 12
 
 Luc
 ---
-life: 8
-discard 1: Chrono Flash
-discard 2: Eternal Dash
-special action
-5 Time tokens
+Life: 9
+Discard 1: Chrono Burst
+Discard 2: Eternal Grasp
+Special action available
+1 Time token
 
 Tatsumi
 -------
-life: 14
-discard 1: Fearless Dash
-discard 2: Empathic Whirlpool
-special action
+Life: 10
+Discard 1: Siren Strike
+Discard 2: Wave Grasp
+Special action available
 Juto's life: 4
 
 
-..L..T.
-j......
+...L..T
+.j.....
+
+Unbeatable strategy for Tatsumi: Fearless Whirlpool: -0.05
+
 
 Luc:
-7% Memento Drive (1 token)
-7% Memento Drive (3 tokens)
-5% Fusion Drive (1 token)
-28% Fusion Drive (3 tokens)
-7% Feinting Shot (5 tokens)
-11% Feinting Burst
-11% Feinting Burst (1 token)
-24% Feinting Burst (5 tokens)
+25% Fusion Drive (1 token)
+43% Feinting Drive
+32% Feinting Dash
 
 Tatsumi:
-23% Siren Drive
-25% Riptide Strike
-18% Riptide Shot
-4% Riptide Drive
-16% Riptide Burst
-4% Riptide Grasp
-10% Wave Strike
+38% Fearless Whirlpool
+41% Riptide Whirlpool
+21% Riptide Shot
 
 
-Luc: Feinting Burst (5 tokens)
-Tatsumi: Riptide Shot
+Luc: Feinting Drive
+Tatsumi: Fearless Whirlpool
 
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  -1 | 2
+Priorities:  2 | 5
 Tatsumi is active
-Luc becomes the active player
+Tatsumi moves Luc:
+
+..L...T
+.j.....
+
 Luc moves:
 
-.L...T.
-j......
+.L....T
+.j.....
 
-Luc hits
-Tatsumi takes 3 damage (now at 11 life)
-Tatsumi is stunned
-Luc moves:
-
-...L.T.
-j......
-
+Tatsumi hits
+Luc takes 3 damage (now at 6 life)
+Luc is stunned
 Juto moves
 
-...L.T.
+.L....T
+j......
+
+Luc moves:
+
+...L..T
 j......
 
 Luc gains 1 Time token
@@ -818,84 +834,61 @@ Beat 13
 
 Luc
 ---
-life: 8
-discard 1: Feinting Burst
-discard 2: Chrono Flash
-special action
-1 Time tokens
+Life: 6
+Discard 1: Feinting Drive
+Discard 2: Chrono Burst
+Special action available
+2 Time tokens
 
 Tatsumi
 -------
-life: 11
-discard 1: Riptide Shot
-discard 2: Fearless Dash
-special action
+Life: 10
+Discard 1: Fearless Whirlpool
+Discard 2: Siren Strike
+Special action available
 Juto's life: 4
 
 
-...L.T.
+...L..T
 j......
 
-Unbeatable strategy for Tatsumi: Siren Drive: -0.53
 
 Luc:
-22% Fusion Shot (1 token)
-70% Fusion Drive (1 token)
-7% Fusion Grasp
+40% Eternal Flash
+43% Eternal Shot
+17% Eternal Dash
 
 Tatsumi:
-36% Siren Drive
-55% Empathic Whirlpool
-8% Wave Grasp
+16% Riptide Drive
+22% Riptide Grasp
+63% Wave Grasp
 
 
-Luc: Fusion Drive (1 token)
-Tatsumi: Wave Grasp
+Luc: Eternal Flash
+Tatsumi: Riptide Grasp
 
-Luc antes a Time token
-Priorities:  6 | 6
-Clash!
-
-Luc:
-46% Fusion Shot (1 token)
-54% Fusion Dash (1 token)
-
-Tatsumi:
-46% Wave Whirlpool
-54% Wave Strike
-
-
-Luc: Fusion Dash (1 token)
-Tatsumi: Wave Whirlpool
-
-Luc antes a Time token
-Priorities:  11 | 4
-Luc is active
-Tatsumi moves Luc:
-
-..L..T.
-j......
-
+Priorities:  2 | 5
+Tatsumi is active
 Luc moves:
 
-...L.T.
+....L.T
 j......
 
-Tatsumi misses
+Tatsumi hits
+Tatsumi moves Luc:
+
+...L..T
+j......
+
+Luc spends a Time token
+Luc gains +1 soak (2 total)
+Luc has 2 soak
+Luc takes 0 damage (now at 6 life)
+Luc misses
 Juto moves
 
-...L.T.
+...L..T
 j......
-
-Tatsumi moves:
-
-..TL...
-j......
-
-Juto moves
-
-..TL...
-.j.....
 
 Luc gains 1 Time token
 
@@ -904,60 +897,68 @@ Beat 14
 
 Luc
 ---
-life: 8
-discard 1: Fusion Dash
-discard 2: Feinting Burst
-special action
-1 Time tokens
+Life: 6
+Discard 1: Eternal Flash
+Discard 2: Feinting Drive
+Special action available
+2 Time tokens
 
 Tatsumi
 -------
-life: 11
-discard 1: Wave Whirlpool
-discard 2: Riptide Shot
-special action
+Life: 10
+Discard 1: Riptide Grasp
+Discard 2: Fearless Whirlpool
+Special action available
 Juto's life: 4
 
 
-..TL...
-.j.....
+...L..T
+j......
+
+Unbeatable strategy for Tatsumi: Siren Shot: -0.68
+
 
 Luc:
-40% Eternal Flash
-11% Eternal Drive
-6% Chrono Flash
-18% Chrono Drive
-26% Chrono Drive (1 token)
+16% Memento Burst
+32% Chrono Strike
+48% Chrono Shot (1 token)
+3% Chrono Burst
 
 Tatsumi:
-26% Siren Burst
-22% Siren Grasp
-8% Fearless Burst
-8% Fearless Grasp
-36% Empathic Burst
+51% Siren Shot
+28% Siren Drive
+13% Empathic Burst
+7% Wave Strike
 
 
-Luc: Eternal Flash
-Tatsumi: Fearless Grasp
+Luc: Chrono Strike
+Tatsumi: Siren Shot
 
-Priorities:  2 | 6
+Priorities:  4 | 4
+Clash!
+
+
+Luc: Chrono Burst
+Tatsumi: Siren Dash
+
+Priorities:  2 | 11
 Tatsumi is active
 Luc moves:
 
-.LT....
-.j.....
+..L...T
+j......
 
-Tatsumi hits
-Tatsumi moves Luc:
+Tatsumi moves:
 
-..TL...
-.j.....
+..LT...
+j......
 
-Luc spends a Time token
-Luc gains +1 soak (2 total)
-Luc has 2 soak
-Luc takes 1 damage (now at 7 life)
-Luc is stunned
+Luc misses
+Juto moves
+
+..LT...
+j......
+
 Luc gains 1 Time token
 
 Beat 15
@@ -965,52 +966,113 @@ Beat 15
 
 Luc
 ---
-life: 7
-discard 1: Eternal Flash
-discard 2: Fusion Dash
-special action
-1 Time tokens
+Life: 6
+Discard 1: Chrono Burst
+Discard 2: Eternal Flash
+Special action available
+3 Time tokens
 
 Tatsumi
 -------
-life: 11
-discard 1: Fearless Grasp
-discard 2: Wave Whirlpool
-special action
+Life: 10
+Discard 1: Siren Dash
+Discard 2: Riptide Grasp
+Special action available
 Juto's life: 4
 
 
-..TL...
-.j.....
+..LT...
+j......
 
-Unbeatable strategy for Tatsumi: Siren Strike: -12.00
-Unbeatable strategy for Tatsumi: Siren Drive: -12.00
-Unbeatable strategy for Tatsumi: Siren Burst: -12.00
-Unbeatable strategy for Tatsumi: Siren Dash: -12.00
-Unbeatable strategy for Tatsumi: Riptide Strike: -12.00
-Unbeatable strategy for Tatsumi: Riptide Burst: -12.00
-Unbeatable strategy for Tatsumi: Riptide Dash: -12.00
-Unbeatable strategy for Tatsumi: Empathic Strike: -12.00
-Unbeatable strategy for Tatsumi: Empathic Shot: -12.00
-Unbeatable strategy for Tatsumi: Empathic Drive: -12.00
-Unbeatable strategy for Tatsumi: Empathic Burst: -12.00
-Unbeatable strategy for Tatsumi: Empathic Dash: -12.00
+Unbeatable strategy for Tatsumi: Fearless Whirlpool: -11.00
+Unbeatable strategy for Tatsumi: Empathic Drive: -11.00
+Unbeatable strategy for Tatsumi: Wave Whirlpool: -11.00
+
+
+Luc:
+13% Memento Grasp
+38% Fusion Grasp
+48% Special Temporal Recursion (1 token)
+
+Tatsumi:
+0% Fearless Whirlpool
+0% Fearless Shot
+1% Fearless Drive
+0% Fearless Burst
+0% Empathic Whirlpool
+0% Empathic Strike
+0% Empathic Shot
+0% Empathic Drive
+0% Empathic Burst
+0% Wave Whirlpool
+0% Wave Strike
+0% Wave Drive
+0% Wave Burst
+96% Special Pulse
+
+
+Luc: Fusion Grasp
+Tatsumi: Special Pulse
+
+Tatsumi Pulses:
+
+L.....T
+j......
+
+
+Beat 15
+-------
+
+Luc
+---
+Life: 6
+Discard 1: Fusion Grasp
+Discard 2: Chrono Burst
+Special action available
+3 Time tokens
+
+Tatsumi
+-------
+Life: 10
+Discard 1: Siren Dash
+Discard 2: Riptide Grasp
+Juto's life: 4
+
+
+L.....T
+j......
+
+Unbeatable strategy for Tatsumi: Fearless Whirlpool: -11.00
+Unbeatable strategy for Tatsumi: Fearless Strike: -11.00
+Unbeatable strategy for Tatsumi: Fearless Shot: -11.00
+Unbeatable strategy for Tatsumi: Fearless Drive: -11.00
+Unbeatable strategy for Tatsumi: Fearless Burst: -11.00
+Unbeatable strategy for Tatsumi: Empathic Whirlpool: -11.00
+Unbeatable strategy for Tatsumi: Empathic Strike: -11.00
+Unbeatable strategy for Tatsumi: Empathic Shot: -11.00
+Unbeatable strategy for Tatsumi: Empathic Drive: -11.00
+Unbeatable strategy for Tatsumi: Empathic Burst: -11.00
+Unbeatable strategy for Tatsumi: Wave Whirlpool: -11.00
+Unbeatable strategy for Tatsumi: Wave Strike: -11.00
+Unbeatable strategy for Tatsumi: Wave Shot: -11.00
+Unbeatable strategy for Tatsumi: Wave Drive: -11.00
+Unbeatable strategy for Tatsumi: Wave Burst: -11.00
+
 
 Luc:
 100% Special Pulse
 
 Tatsumi:
-19% Riptide Shot
-81% Riptide Burst
+100% Fearless Burst
 
 
 Luc: Special Pulse
-Tatsumi: Riptide Burst
+Tatsumi: Fearless Burst
 
-Pulse:
+Luc Pulses:
 
-TL.....
-.j.....
+.LT....
+j......
 
 
 Beat 15
@@ -1018,97 +1080,107 @@ Beat 15
 
 Luc
 ---
-life: 7
-discard 1: Eternal Flash
-discard 2: Fusion Dash
-1 Time tokens
+Life: 6
+Discard 1: Fusion Grasp
+Discard 2: Chrono Burst
+3 Time tokens
 
 Tatsumi
 -------
-life: 11
-discard 1: Riptide Burst
-discard 2: Fearless Grasp
-special action
+Life: 10
+Discard 1: Fearless Burst
+Discard 2: Siren Dash
 Juto's life: 4
 
-
-TL.....
-.j.....
-
-Unbeatable strategy for Tatsumi: Siren Whirlpool: -12.00
-Unbeatable strategy for Tatsumi: Siren Strike: -12.00
-Unbeatable strategy for Tatsumi: Siren Drive: -12.00
-Unbeatable strategy for Tatsumi: Siren Dash: -12.00
-Unbeatable strategy for Tatsumi: Empathic Strike: -12.00
-Unbeatable strategy for Tatsumi: Empathic Dash: -12.00
-Unbeatable strategy for Tatsumi: Wave Drive: -12.00
-Unbeatable strategy for Tatsumi: Wave Dash: -12.00
-
-Luc:
-3% Memento Strike
-3% Memento Strike (1 token)
-3% Memento Shot
-3% Memento Shot (1 token)
-3% Memento Drive
-3% Memento Drive (1 token)
-3% Memento Burst
-3% Memento Burst (1 token)
-3% Memento Grasp
-3% Memento Grasp (1 token)
-3% Feinting Strike
-3% Feinting Strike (1 token)
-3% Feinting Shot
-3% Feinting Shot (1 token)
-3% Feinting Drive
-3% Feinting Drive (1 token)
-3% Feinting Burst
-3% Feinting Burst (1 token)
-3% Feinting Grasp
-3% Feinting Grasp (1 token)
-3% Chrono Strike
-6% Chrono Strike (1 token)
-3% Chrono Shot
-4% Chrono Shot (1 token)
-3% Chrono Drive
-3% Chrono Drive (1 token)
-3% Chrono Burst
-4% Chrono Burst (1 token)
-3% Chrono Grasp
-3% Chrono Grasp (1 token)
-
-Tatsumi:
-12% Siren Whirlpool
-12% Siren Strike
-13% Siren Drive
-13% Siren Dash
-12% Empathic Strike
-13% Empathic Dash
-12% Wave Drive
-13% Wave Dash
-
-
-Luc: Chrono Grasp
-Tatsumi: Siren Strike
-
-Priorities:  6 | 5
-Luc is active
-Luc hits
-Luc moves Tatsumi:
-
-.LT....
-.j.....
-
-Tatsumi takes 2 damage (now at 9 life)
-Tatsumi hits
-Luc is stunned
-Luc takes 3 damage (now at 4 life)
-Luc is stunned
-Juto moves
 
 .LT....
 j......
 
+Unbeatable strategy for Tatsumi: Riptide Drive: -11.00
+Unbeatable strategy for Tatsumi: Riptide Grasp: -11.00
+Unbeatable strategy for Tatsumi: Empathic Drive: -11.00
+Unbeatable strategy for Tatsumi: Wave Whirlpool: -11.00
+Unbeatable strategy for Tatsumi: Wave Drive: -11.00
+
+
+Luc:
+2% Eternal Flash
+3% Eternal Flash (1 token)
+3% Eternal Flash (3 tokens)
+0% Eternal Strike
+0% Eternal Strike (1 token)
+0% Eternal Strike (3 tokens)
+3% Eternal Shot
+3% Eternal Shot (1 token)
+3% Eternal Shot (3 tokens)
+3% Eternal Drive
+3% Eternal Drive (1 token)
+3% Eternal Drive (3 tokens)
+3% Eternal Dash
+3% Eternal Dash (1 token)
+4% Eternal Dash (3 tokens)
+2% Memento Flash
+2% Memento Flash (1 token)
+4% Memento Flash (3 tokens)
+0% Memento Strike
+0% Memento Strike (1 token)
+0% Memento Strike (3 tokens)
+0% Memento Shot
+0% Memento Shot (1 token)
+3% Memento Shot (3 tokens)
+0% Memento Drive
+0% Memento Drive (1 token)
+3% Memento Drive (3 tokens)
+3% Memento Dash
+2% Memento Dash (1 token)
+3% Memento Dash (3 tokens)
+8% Feinting Flash
+4% Feinting Flash (1 token)
+3% Feinting Flash (3 tokens)
+0% Feinting Strike
+0% Feinting Strike (1 token)
+0% Feinting Strike (3 tokens)
+2% Feinting Shot
+3% Feinting Shot (1 token)
+3% Feinting Shot (3 tokens)
+3% Feinting Drive
+3% Feinting Drive (1 token)
+3% Feinting Drive (3 tokens)
+3% Feinting Dash
+3% Feinting Dash (1 token)
+2% Feinting Dash (3 tokens)
+
+Tatsumi:
+20% Riptide Drive
+20% Riptide Grasp
+20% Empathic Drive
+20% Wave Whirlpool
+20% Wave Drive
+
+
+Luc: Eternal Drive (3 tokens)
+Tatsumi: Wave Drive
+
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  0 | 5
+Tatsumi is active
+Tatsumi moves:
+
+TL.....
+j......
+
+Tatsumi misses
+Juto moves
+
+TL.....
+j......
+
+Luc hits
+Tatsumi has 3 soak
+Tatsumi takes 0 damage (now at 10 life)
 Luc gains 1 Time token
 Game goes to time
 TATSUMI WINS!
-total_time: 65
+total_time: 141

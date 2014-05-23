@@ -11,51 +11,53 @@ Beat 1
 
 Kallistar
 ---------
-life: 20
-discard 1: Flare Strike
-discard 2: Caustic Drive
-special action
+Life: 20
+Discard 1: Flare Strike
+Discard 2: Caustic Drive
+Special action available
 Human Form
 
 Luc
 ---
-life: 20
-discard 1: Eternal Flash
-discard 2: Fusion Strike
-special action
+Life: 20
+Discard 1: Eternal Flash
+Discard 2: Fusion Strike
+Special action available
 2 Time tokens
 
 
 .K...L.
 
-Unbeatable strategy for Luc: Memento Dash: -0.06
-Unbeatable strategy for Luc: Chrono Dash: -0.04
 
 Kallistar:
-16% Volcanic Grasp
-38% Ignition Shot
-23% Ignition Dash
-23% Blazing Shot
+15% Volcanic Shot
+7% Volcanic Burst
+57% Ignition Shot
+21% Blazing Shot
 
 Luc:
-8% Memento Drive
-9% Chrono Shot
-5% Chrono Drive
-78% Chrono Dash
+6% Memento Shot
+31% Feinting Shot
+20% Chrono Shot
+43% Chrono Drive
 
 
-Kallistar: Ignition Dash
-Luc: Chrono Dash
+Kallistar: Ignition Shot
+Luc: Feinting Shot
 
-Priorities:  8 | 10
-Luc is active
+Priorities:  1 | 0
+Kallistar is active
 Luc moves:
 
-.K.L...
+.K....L
 
-Kallistar moves:
+Kallistar misses
+Luc hits
+Kallistar has 1 soak
+Kallistar takes 2 damage (now at 18 life)
+Luc moves:
 
-K..L...
+.K..L..
 
 Luc gains 1 Time token
 
@@ -64,54 +66,60 @@ Beat 2
 
 Kallistar
 ---------
-life: 20
-discard 1: Ignition Dash
-discard 2: Flare Strike
-special action
+Life: 18
+Discard 1: Ignition Shot
+Discard 2: Flare Strike
+Special action available
 Elemental Form
 
 Luc
 ---
-life: 20
-discard 1: Chrono Dash
-discard 2: Eternal Flash
-special action
+Life: 20
+Discard 1: Feinting Shot
+Discard 2: Eternal Flash
+Special action available
 3 Time tokens
 
 
-K..L...
+.K..L..
+
+Unbeatable strategy for Luc: Memento Dash: -1.13
+Unbeatable strategy for Luc: Memento Dash (1 token): -0.93
+Unbeatable strategy for Luc: Memento Dash (3 tokens): -0.53
+Unbeatable strategy for Luc: Fusion Dash: -1.13
+Unbeatable strategy for Luc: Fusion Dash (1 token): -0.93
+Unbeatable strategy for Luc: Fusion Dash (3 tokens): -0.53
+Unbeatable strategy for Luc: Chrono Dash: -1.16
+Unbeatable strategy for Luc: Chrono Dash (1 token): -0.92
+Unbeatable strategy for Luc: Chrono Dash (3 tokens): -0.56
+
 
 Kallistar:
-5% Caustic Shot
-5% Caustic Drive
-58% Blazing Shot
-32% Blazing Drive
+1% Caustic Drive
+13% Volcanic Drive
+41% Volcanic Burst
+43% Blazing Drive
+3% Blazing Burst
 
 Luc:
-38% Memento Strike (3 tokens)
-19% Fusion Strike (3 tokens)
-20% Fusion Drive (1 token)
-24% Feinting Burst
+5% Fusion Burst (3 tokens)
+9% Chrono Strike
+8% Chrono Burst
+0% Chrono Grasp (1 token)
+77% Chrono Dash
 
 
-Kallistar: Blazing Shot
-Luc: Memento Strike (3 tokens)
+Kallistar: Blazing Drive
+Luc: Chrono Dash
 
-Kallistar loses 1 life (now at 19)
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  5 | 2
-Kallistar is active
+Kallistar loses 1 life (now at 17)
+Priorities:  7 | 10
+Luc is active
 Luc moves:
 
-KL.....
+LK.....
 
-Kallistar hits
-Luc takes 5 damage (now at 15 life)
-Luc hits
-Kallistar takes 4 damage (now at 15 life)
-Kallistar is stunned
+Kallistar misses
 Luc gains 1 Time token
 
 Beat 3
@@ -119,61 +127,70 @@ Beat 3
 
 Kallistar
 ---------
-life: 15
-discard 1: Blazing Shot
-discard 2: Ignition Dash
-special action
+Life: 17
+Discard 1: Blazing Drive
+Discard 2: Ignition Shot
+Special action available
 Elemental Form
 
 Luc
 ---
-life: 15
-discard 1: Memento Strike
-discard 2: Chrono Dash
-special action
-1 Time tokens
+Life: 20
+Discard 1: Chrono Dash
+Discard 2: Feinting Shot
+Special action available
+4 Time tokens
 
 
-KL.....
+LK.....
 
-Unbeatable strategy for Luc: Fusion Flash: -0.13
-Unbeatable strategy for Luc: Fusion Grasp (1 token): -0.82
+Unbeatable strategy for Luc: Eternal Strike (3 tokens): -0.53
+Unbeatable strategy for Luc: Eternal Drive (3 tokens): -0.85
+Unbeatable strategy for Luc: Eternal Burst (3 tokens): -0.52
+Unbeatable strategy for Luc: Eternal Grasp (3 tokens): -0.65
+Unbeatable strategy for Luc: Memento Strike (3 tokens): -0.53
+Unbeatable strategy for Luc: Memento Drive (3 tokens): -0.85
+Unbeatable strategy for Luc: Memento Burst (3 tokens): -0.52
+Unbeatable strategy for Luc: Fusion Drive (3 tokens): -0.85
+Unbeatable strategy for Luc: Fusion Burst (3 tokens): -0.52
+
 
 Kallistar:
-5% Flare Grasp
-39% Caustic Spellbolt
-43% Caustic Strike
-4% Caustic Grasp
-8% Volcanic Strike
-0% Volcanic Burst
+1% Flare Strike
+20% Caustic Strike
+3% Caustic Grasp
+76% Volcanic Dash
 
 Luc:
-1% Eternal Burst
-1% Fusion Shot (1 token)
-1% Fusion Drive
-5% Fusion Drive (1 token)
-3% Fusion Grasp
-89% Fusion Grasp (1 token)
+52% Eternal Drive (3 tokens)
+29% Memento Drive
+7% Memento Drive (3 tokens)
+3% Fusion Drive
+9% Fusion Drive (1 token)
 
 
-Kallistar: Caustic Spellbolt
-Luc: Fusion Grasp (1 token)
+Kallistar: Volcanic Dash
+Luc: Memento Drive (3 tokens)
 
-Kallistar loses 1 life (now at 14)
+Kallistar loses 1 life (now at 16)
 Luc antes a Time token
-Priorities:  4 | 7
-Luc is active
-Luc hits
-Luc moves Kallistar:
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  11 | 3
+Kallistar is active
+Luc moves:
 
-.LK....
+.KL....
 
-Kallistar takes 1 damage (now at 13 life)
-Luc moves Kallistar:
+Kallistar moves:
 
-.L.K...
+..LK...
 
-Kallistar is stunned
+Luc moves:
+
+...KL..
+
+Luc misses
 Luc gains 1 Time token
 
 Beat 4
@@ -181,59 +198,55 @@ Beat 4
 
 Kallistar
 ---------
-life: 13
-discard 1: Caustic Spellbolt
-discard 2: Blazing Shot
-special action
+Life: 16
+Discard 1: Volcanic Dash
+Discard 2: Blazing Drive
+Special action available
 Elemental Form
 
 Luc
 ---
-life: 15
-discard 1: Fusion Grasp
-discard 2: Memento Strike
-special action
-1 Time tokens
+Life: 20
+Discard 1: Memento Drive
+Discard 2: Chrono Dash
+Special action available
+2 Time tokens
 
 
-.L.K...
+...KL..
 
-Unbeatable strategy for Luc: Eternal Dash (1 token): -0.46
-Unbeatable strategy for Luc: Feinting Dash: -0.83
-Unbeatable strategy for Luc: Feinting Dash (1 token): -0.43
-Unbeatable strategy for Luc: Chrono Dash: -0.85
-Unbeatable strategy for Luc: Chrono Dash (1 token): -0.45
 
 Kallistar:
-20% Flare Drive
-9% Flare Burst
-22% Volcanic Strike
-34% Volcanic Burst
-15% Volcanic Dash
+0% Flare Spellbolt
+40% Flare Shot
+5% Flare Grasp
+2% Caustic Shot
+52% Caustic Burst
 
 Luc:
-17% Chrono Flash
-6% Chrono Shot (1 token)
-10% Chrono Drive
-63% Chrono Dash
-4% Chrono Dash (1 token)
+7% Eternal Strike
+39% Eternal Burst
+27% Fusion Strike (1 token)
+25% Fusion Shot (1 token)
+2% Feinting Flash (1 token)
 
 
-Kallistar: Volcanic Burst
-Luc: Chrono Dash
+Kallistar: Caustic Burst
+Luc: Fusion Strike (1 token)
 
-Kallistar loses 1 life (now at 12)
-Priorities:  3 | 10
+Kallistar loses 1 life (now at 15)
+Luc antes a Time token
+Priorities:  2 | 5
 Luc is active
 Kallistar moves:
 
-.L..K..
+.K..L..
 
-Luc moves:
-
-...LK..
-
-Kallistar misses
+Luc misses
+Kallistar hits
+Luc is stunned
+Luc takes 6 damage (now at 14 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 5
@@ -241,63 +254,55 @@ Beat 5
 
 Kallistar
 ---------
-life: 12
-discard 1: Volcanic Burst
-discard 2: Caustic Spellbolt
-special action
+Life: 15
+Discard 1: Caustic Burst
+Discard 2: Volcanic Dash
+Special action available
 Elemental Form
 
 Luc
 ---
-life: 15
-discard 1: Chrono Dash
-discard 2: Fusion Grasp
-special action
+Life: 14
+Discard 1: Fusion Strike
+Discard 2: Memento Drive
+Special action available
 2 Time tokens
 
 
-...LK..
+.K..L..
+
+Unbeatable strategy for Luc: Chrono Flash (1 token): -2.40
+Unbeatable strategy for Luc: Chrono Dash: -0.81
+Unbeatable strategy for Luc: Chrono Dash (1 token): -0.61
+
 
 Kallistar:
-27% Flare Drive
-13% Flare Grasp
-24% Ignition Shot
-36% Blazing Drive
+9% Flare Spellbolt
+14% Flare Shot
+4% Flare Drive
+9% Blazing Shot
+0% Blazing Drive
+64% Blazing Grasp
 
 Luc:
-45% Eternal Strike
-20% Eternal Shot
-21% Eternal Burst
-14% Memento Flash (1 token)
+16% Eternal Shot
+8% Eternal Dash
+3% Feinting Shot
+63% Chrono Flash (1 token)
+5% Chrono Shot
+5% Chrono Shot (1 token)
 
 
-Kallistar: Flare Drive
-Luc: Memento Flash (1 token)
+Kallistar: Blazing Grasp
+Luc: Chrono Shot
 
-Kallistar loses 1 life (now at 11)
-Luc antes a Time token
-Priorities:  6 | 6
-Clash!
-
-Kallistar:
-41% Flare Strike
-59% Flare Shot
-
-Luc:
-56% Memento Drive (1 token)
-44% Memento Burst (1 token)
-
-
-Kallistar: Flare Strike
-Luc: Memento Drive (1 token)
-
-Kallistar loses 1 life (now at 11)
-Luc antes a Time token
-Priorities:  5 | 4
+Kallistar loses 1 life (now at 14)
+Priorities:  8 | 3
 Kallistar is active
-Kallistar hits
-Luc takes 9 damage (now at 6 life)
-Luc is stunned
+Kallistar misses
+Luc hits
+Kallistar takes 3 damage (now at 11 life)
+Kallistar is stunned
 Luc gains 1 Time token
 
 Beat 6
@@ -305,51 +310,71 @@ Beat 6
 
 Kallistar
 ---------
-life: 11
-discard 1: Flare Strike
-discard 2: Volcanic Burst
-special action
-Human Form
+Life: 11
+Discard 1: Blazing Grasp
+Discard 2: Caustic Burst
+Special action available
+Elemental Form
 
 Luc
 ---
-life: 6
-discard 1: Memento Drive
-discard 2: Chrono Dash
-special action
-2 Time tokens
+Life: 14
+Discard 1: Chrono Shot
+Discard 2: Fusion Strike
+Special action available
+3 Time tokens
 
 
-...LK..
+.K..L..
+
+Unbeatable strategy for Luc: Eternal Dash (1 token): -1.10
+Unbeatable strategy for Luc: Memento Dash: -1.24
+Unbeatable strategy for Luc: Memento Dash (1 token): -1.04
+Unbeatable strategy for Luc: Memento Dash (3 tokens): -0.64
+Unbeatable strategy for Luc: Feinting Dash: -1.09
+Unbeatable strategy for Luc: Feinting Dash (1 token): -0.89
+Unbeatable strategy for Luc: Feinting Dash (3 tokens): -0.55
+
 
 Kallistar:
-25% Caustic Shot
-0% Caustic Drive
-23% Ignition Drive
-49% Ignition Dash
-3% Blazing Grasp
+1% Flare Shot
+4% Flare Drive
+3% Volcanic Strike
+3% Volcanic Shot
+3% Volcanic Drive
+87% Volcanic Dash
 
 Luc:
-13% Eternal Strike
-37% Eternal Shot
-16% Fusion Flash
-19% Feinting Strike
-15% Feinting Grasp
+14% Eternal Drive (3 tokens)
+0% Memento Drive
+2% Memento Drive (1 token)
+80% Memento Dash
+2% Feinting Drive
+2% Feinting Drive (3 tokens)
 
 
-Kallistar: Caustic Shot
-Luc: Feinting Grasp
+Kallistar: Volcanic Dash
+Luc: Eternal Drive (3 tokens)
 
-Priorities:  1 | 3
-Luc is active
-Luc misses
-Kallistar hits
-Luc takes 4 damage (now at 2 life)
-Luc is stunned
+Kallistar loses 1 life (now at 10)
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  11 | 0
+Kallistar is active
 Luc moves:
 
-....KL.
+.KL....
 
+Kallistar moves:
+
+..LK...
+
+Luc moves:
+
+...KL..
+
+Luc misses
 Luc gains 1 Time token
 
 Beat 7
@@ -357,78 +382,55 @@ Beat 7
 
 Kallistar
 ---------
-life: 11
-discard 1: Caustic Shot
-discard 2: Flare Strike
-special action
-Human Form
+Life: 10
+Discard 1: Volcanic Dash
+Discard 2: Blazing Grasp
+Special action available
+Elemental Form
 
 Luc
 ---
-life: 2
-discard 1: Feinting Grasp
-discard 2: Memento Drive
-special action
-3 Time tokens
+Life: 14
+Discard 1: Eternal Drive
+Discard 2: Chrono Shot
+Special action available
+1 Time token
 
 
-....KL.
+...KL..
 
-Unbeatable strategy for Kallistar: Volcanic Dash: 0.35
 
 Kallistar:
-5% Ignition Burst
-34% Ignition Dash
-19% Blazing Drive
-39% Blazing Burst
-3% Blazing Grasp
+46% Caustic Spellbolt
+3% Caustic Strike
+22% Caustic Shot
+12% Caustic Drive
+18% Caustic Burst
 
 Luc:
-19% Eternal Flash
-10% Eternal Shot
-59% Eternal Dash
-3% Chrono Shot
-8% Special Temporal Recursion
+0% Memento Flash
+3% Memento Flash (1 token)
+0% Memento Strike
+3% Memento Strike (1 token)
+47% Memento Dash
+47% Fusion Dash
 
 
-Kallistar: Blazing Burst
-Luc: Special Temporal Recursion
+Kallistar: Caustic Drive
+Luc: Memento Dash
 
-Priorities:  2 | 5
+Kallistar loses 1 life (now at 9)
+Priorities:  5 | 8
 Luc is active
+Luc moves:
+
+..LK...
+
 Kallistar moves:
 
-..K..L.
+K.L....
 
-Luc moves:
-
-..K.L..
-
-Luc misses
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc attacks 3 more times
-Luc moves:
-
-..KL...
-
-Luc hits
-Kallistar has 1 soak
-Kallistar takes 2 damage (now at 9 life)
-Kallistar is stunned
-Luc moves:
-
-.LK....
-
-Luc hits
-Kallistar has 1 soak
-Kallistar takes 2 damage (now at 7 life)
-Kallistar is stunned
-Luc hits
-Kallistar has 1 soak
-Kallistar takes 2 damage (now at 5 life)
-Kallistar is stunned
+Kallistar misses
 Luc gains 1 Time token
 
 Beat 8
@@ -436,56 +438,56 @@ Beat 8
 
 Kallistar
 ---------
-life: 5
-discard 1: Blazing Burst
-discard 2: Caustic Shot
-special action
-Human Form
+Life: 9
+Discard 1: Caustic Drive
+Discard 2: Volcanic Dash
+Special action available
+Elemental Form
 
 Luc
 ---
-life: 2
-discard 1: Feinting Grasp
-discard 2: Memento Drive
-1 Time tokens
+Life: 14
+Discard 1: Memento Dash
+Discard 2: Eternal Drive
+Special action available
+2 Time tokens
 
 
-.LK....
+K.L....
 
-Unbeatable strategy for Kallistar: Volcanic Dash: 0.23
+Unbeatable strategy for Luc: Chrono Flash (1 token): -2.77
+
 
 Kallistar:
-1% Flare Grasp
-13% Volcanic Strike
-44% Ignition Spellbolt
-15% Ignition Strike
-5% Ignition Drive
-3% Ignition Grasp
-19% Ignition Dash
+2% Flare Shot
+25% Blazing Shot
+28% Blazing Burst
+45% Blazing Grasp
 
 Luc:
-2% Eternal Shot
-39% Fusion Flash (1 token)
-10% Fusion Strike
-33% Chrono Flash
-4% Chrono Shot
-3% Chrono Shot (1 token)
-10% Chrono Burst (1 token)
+30% Feinting Shot
+1% Feinting Burst
+63% Chrono Flash (1 token)
+5% Chrono Burst
 
 
-Kallistar: Ignition Grasp
-Luc: Chrono Flash
+Kallistar: Blazing Shot
+Luc: Feinting Shot
 
-Priorities:  4 | 7
-Luc is active
+Kallistar loses 1 life (now at 8)
+Priorities:  5 | 0
+Kallistar is active
 Luc moves:
 
-..KL...
+K..L...
 
-Luc hits
-Kallistar has 1 soak
-Kallistar takes 0 damage (now at 5 life)
-Kallistar is stunned
+Kallistar hits
+Luc takes 5 damage (now at 9 life)
+Luc is stunned
+Luc moves:
+
+KL.....
+
 Luc gains 1 Time token
 
 Beat 9
@@ -493,50 +495,53 @@ Beat 9
 
 Kallistar
 ---------
-life: 5
-discard 1: Ignition Grasp
-discard 2: Blazing Burst
-special action
+Life: 8
+Discard 1: Blazing Shot
+Discard 2: Caustic Drive
+Special action available
 Elemental Form
 
 Luc
 ---
-life: 2
-discard 1: Chrono Flash
-discard 2: Feinting Grasp
-2 Time tokens
+Life: 9
+Discard 1: Feinting Shot
+Discard 2: Memento Dash
+Special action available
+3 Time tokens
 
 
-..KL...
+KL.....
+
+Unbeatable strategy for Luc: Chrono Burst: -0.37
+Unbeatable strategy for Luc: Chrono Burst (1 token): -0.17
+
 
 Kallistar:
-3% Caustic Shot
-6% Caustic Drive
-1% Volcanic Shot
-89% Volcanic Dash
+2% Flare Strike
+96% Volcanic Dash
+1% Ignition Strike
 
 Luc:
-8% Memento Drive
-68% Memento Dash
-3% Fusion Drive
-2% Fusion Dash
-18% Fusion Dash (1 token)
+47% Eternal Drive
+3% Chrono Drive
+50% Chrono Burst
 
 
 Kallistar: Volcanic Dash
-Luc: Memento Dash
+Luc: Chrono Drive
 
-Kallistar loses 1 life (now at 4)
-Priorities:  11 | 8
+Kallistar loses 1 life (now at 7)
+Priorities:  11 | 5
 Kallistar is active
 Kallistar moves:
 
-.K.L...
+.LK....
 
 Luc moves:
 
-.K..L..
+..KL...
 
+Luc misses
 Luc gains 1 Time token
 
 Beat 10
@@ -544,55 +549,59 @@ Beat 10
 
 Kallistar
 ---------
-life: 4
-discard 1: Volcanic Dash
-discard 2: Ignition Grasp
-special action
+Life: 7
+Discard 1: Volcanic Dash
+Discard 2: Blazing Shot
+Special action available
 Elemental Form
 
 Luc
 ---
-life: 2
-discard 1: Memento Dash
-discard 2: Chrono Flash
-3 Time tokens
+Life: 9
+Discard 1: Chrono Drive
+Discard 2: Feinting Shot
+Special action available
+4 Time tokens
 
 
-.K..L..
+..KL...
+
+Unbeatable strategy for Luc: Memento Dash: -0.11
+Unbeatable strategy for Luc: Fusion Dash: -0.11
+
 
 Kallistar:
-38% Flare Spellbolt
-22% Flare Drive
-1% Caustic Drive
-38% Blazing Shot
+29% Caustic Spellbolt
+11% Caustic Strike
+19% Caustic Drive
+21% Caustic Burst
+20% Caustic Grasp
 
 Luc:
-2% Eternal Strike (3 tokens)
-23% Eternal Shot
-3% Eternal Shot (3 tokens)
-2% Eternal Drive (3 tokens)
-38% Eternal Burst
-31% Fusion Strike (3 tokens)
+8% Eternal Strike (3 tokens)
+2% Memento Strike
+2% Memento Burst
+42% Memento Dash
+5% Fusion Grasp (3 tokens)
+42% Fusion Dash
 
 
-Kallistar: Blazing Shot
-Luc: Eternal Burst
+Kallistar: Caustic Burst
+Luc: Memento Burst
 
-Kallistar loses 1 life (now at 3)
-Priorities:  5 | -3
+Kallistar loses 1 life (now at 6)
+Priorities:  2 | 0
 Kallistar is active
+Kallistar moves:
+
+K..L...
+
 Luc moves:
 
-.K....L
+K...L..
 
-Kallistar hits
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +3 soak (4 total)
-Luc has 4 soak
-Luc takes 1 damage (now at 1 life)
-Luc is stunned
+Kallistar misses
+Luc misses
 Luc gains 1 Time token
 
 Beat 11
@@ -600,60 +609,483 @@ Beat 11
 
 Kallistar
 ---------
-life: 3
-discard 1: Blazing Shot
-discard 2: Volcanic Dash
-special action
+Life: 6
+Discard 1: Caustic Burst
+Discard 2: Volcanic Dash
+Special action available
 Elemental Form
 
 Luc
 ---
-life: 1
-discard 1: Eternal Burst
-discard 2: Memento Dash
-1 Time tokens
+Life: 9
+Discard 1: Memento Burst
+Discard 2: Chrono Drive
+Special action available
+5 Time tokens
 
 
-.K....L
+K...L..
+
+Unbeatable strategy for Luc: Eternal Flash: -0.74
+Unbeatable strategy for Luc: Eternal Shot (5 tokens): -2.07
+Unbeatable strategy for Luc: Eternal Dash: -2.03
+Unbeatable strategy for Luc: Eternal Dash (1 token): -1.03
+Unbeatable strategy for Luc: Eternal Dash (3 tokens): -0.01
+Unbeatable strategy for Luc: Feinting Shot (5 tokens): -3.44
+
 
 Kallistar:
-23% Flare Spellbolt
-45% Caustic Spellbolt
-32% Caustic Strike
+44% Blazing Strike
+56% Blazing Shot
 
 Luc:
-45% Feinting Flash
-40% Feinting Flash (1 token)
-6% Feinting Shot
-5% Feinting Shot (1 token)
-4% Chrono Shot
+0% Eternal Dash
+100% Feinting Shot (5 tokens)
+
+
+Kallistar: Blazing Shot
+Luc: Feinting Shot (5 tokens)
+
+Kallistar loses 1 life (now at 5)
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  5 | 0
+Kallistar is active
+Luc becomes the active player
+Luc moves:
+
+K....L.
+
+Luc hits
+Kallistar takes 3 damage (now at 2 life)
+Kallistar is stunned
+Luc moves:
+
+K..L...
+
+Luc gains 1 Time token
+
+Beat 12
+-------
+
+Kallistar
+---------
+Life: 2
+Discard 1: Blazing Shot
+Discard 2: Caustic Burst
+Special action available
+Elemental Form
+
+Luc
+---
+Life: 9
+Discard 1: Feinting Shot
+Discard 2: Memento Burst
+Special action available
+1 Time token
+
+
+K..L...
+
+Unbeatable strategy for Luc: Fusion Dash: -1.42
+Unbeatable strategy for Luc: Fusion Dash (1 token): -1.22
+Unbeatable strategy for Luc: Chrono Flash: -2.92
+Unbeatable strategy for Luc: Chrono Dash: -1.32
+Unbeatable strategy for Luc: Chrono Dash (1 token): -1.12
+
+
+Kallistar:
+15% Flare Drive
+8% Volcanic Grasp
+66% Volcanic Dash
+5% Ignition Drive
+6% Special Supernova
+
+Luc:
+20% Chrono Flash
+26% Chrono Drive
+15% Chrono Drive (1 token)
+10% Chrono Grasp
+29% Chrono Dash
+
+
+Kallistar: Volcanic Dash
+Luc: Chrono Drive
+
+Kallistar loses 1 life (now at 1)
+Priorities:  11 | 5
+Kallistar is active
+Luc spends a Time token
+Luc moves:
+
+K.L....
+
+Kallistar moves:
+
+..LK...
+
+Luc moves:
+
+...KL..
+
+Luc misses
+Luc gains 1 Time token
+
+Beat 13
+-------
+
+Kallistar
+---------
+Life: 1
+Discard 1: Volcanic Dash
+Discard 2: Blazing Shot
+Special action available
+Elemental Form
+
+Luc
+---
+Life: 9
+Discard 1: Chrono Drive
+Discard 2: Feinting Shot
+Special action available
+1 Time token
+
+
+...KL..
+
+
+Kallistar:
+25% Caustic Spellbolt
+19% Ignition Spellbolt
+24% Ignition Drive
+32% Ignition Burst
+
+Luc:
+2% Eternal Flash
+1% Memento Flash (1 token)
+48% Memento Dash
+1% Fusion Grasp
+1% Fusion Grasp (1 token)
+48% Fusion Dash
 
 
 Kallistar: Caustic Spellbolt
-Luc: Feinting Flash
+Luc: Fusion Dash
 
-Kallistar loses 1 life (now at 2)
-Priorities:  4 | 4
-Clash!
+Kallistar loses 1 life (now at 1)
+Priorities:  4 | 10
+Luc is active
+Luc moves:
+
+..LK...
+
+Kallistar misses
+Luc gains 1 Time token
+
+Beat 14
+-------
+
+Kallistar
+---------
+Life: 1
+Discard 1: Caustic Spellbolt
+Discard 2: Volcanic Dash
+Special action available
+Elemental Form
+
+Luc
+---
+Life: 9
+Discard 1: Fusion Dash
+Discard 2: Chrono Drive
+Special action available
+2 Time tokens
+
+
+..LK...
+
 
 Kallistar:
-28% Caustic Strike
-44% Caustic Burst
-28% Caustic Grasp
+47% Ignition Shot
+0% Ignition Drive
+48% Ignition Burst
+4% Blazing Burst
 
 Luc:
-44% Feinting Shot
-56% Feinting Drive
+19% Eternal Burst
+4% Memento Flash (1 token)
+1% Feinting Flash (1 token)
+76% Special Pulse
 
 
-Kallistar: Caustic Strike
-Luc: Feinting Shot
+Kallistar: Ignition Shot
+Luc: Special Pulse
 
-Kallistar loses 1 life (now at 2)
-Priorities:  4 | 0
+Kallistar loses 1 life (now at 1)
+Luc Pulses:
+
+KL.....
+
+
+Beat 14
+-------
+
+Kallistar
+---------
+Life: 1
+Discard 1: Ignition Shot
+Discard 2: Caustic Spellbolt
+Special action available
+Elemental Form
+
+Luc
+---
+Life: 9
+Discard 1: Fusion Dash
+Discard 2: Chrono Drive
+2 Time tokens
+
+
+KL.....
+
+Unbeatable strategy for Kallistar: Volcanic Dash: 0.28
+
+
+Kallistar:
+5% Flare Drive
+89% Volcanic Dash
+6% Blazing Drive
+
+Luc:
+41% Eternal Shot
+22% Eternal Burst
+37% Feinting Burst
+
+
+Kallistar: Volcanic Dash
+Luc: Eternal Shot
+
+Kallistar loses 1 life (now at 1)
+Priorities:  11 | -2
 Kallistar is active
+Kallistar moves:
+
+.L..K..
+
+Luc misses
+Luc gains 1 Time token
+
+Beat 15
+-------
+
+Kallistar
+---------
+Life: 1
+Discard 1: Volcanic Dash
+Discard 2: Ignition Shot
+Special action available
+Elemental Form
+
+Luc
+---
+Life: 9
+Discard 1: Eternal Shot
+Discard 2: Fusion Dash
+3 Time tokens
+
+
+.L..K..
+
+Unbeatable strategy for Luc: Memento Burst: -6.00
+Unbeatable strategy for Luc: Memento Burst (1 token): -6.00
+Unbeatable strategy for Luc: Memento Burst (3 tokens): -6.00
+Unbeatable strategy for Luc: Feinting Strike: -6.00
+Unbeatable strategy for Luc: Feinting Strike (1 token): -6.00
+Unbeatable strategy for Luc: Feinting Strike (3 tokens): -6.00
+Unbeatable strategy for Luc: Feinting Drive: -6.00
+Unbeatable strategy for Luc: Feinting Drive (1 token): -6.00
+Unbeatable strategy for Luc: Feinting Drive (3 tokens): -6.00
+Unbeatable strategy for Luc: Feinting Burst: -6.00
+Unbeatable strategy for Luc: Feinting Burst (1 token): -6.00
+Unbeatable strategy for Luc: Feinting Burst (3 tokens): -6.00
+Unbeatable strategy for Luc: Feinting Grasp: -6.00
+Unbeatable strategy for Luc: Feinting Grasp (1 token): -6.00
+Unbeatable strategy for Luc: Feinting Grasp (3 tokens): -6.00
+Unbeatable strategy for Luc: Chrono Drive (1 token): -6.00
+Unbeatable strategy for Luc: Chrono Burst: -6.00
+Unbeatable strategy for Luc: Chrono Burst (1 token): -6.00
+Unbeatable strategy for Luc: Chrono Burst (3 tokens): -6.00
+Unbeatable strategy for Luc: Chrono Grasp: -6.00
+Unbeatable strategy for Luc: Chrono Grasp (1 token): -6.00
+Unbeatable strategy for Luc: Chrono Grasp (3 tokens): -6.00
+
+
+Kallistar:
+2% Flare Drive
+98% Special Pulse
+
+Luc:
+21% Memento Grasp
+79% Feinting Grasp
+
+
+Kallistar: Special Pulse
+Luc: Feinting Grasp
+
+Kallistar loses 1 life (now at 1)
+Kallistar Pulses:
+
+K....L.
+
+
+Beat 15
+-------
+
+Kallistar
+---------
+Life: 1
+Discard 1: Volcanic Dash
+Discard 2: Ignition Shot
+Elemental Form
+
+Luc
+---
+Life: 9
+Discard 1: Feinting Grasp
+Discard 2: Eternal Shot
+3 Time tokens
+
+
+K....L.
+
+Unbeatable strategy for Luc: Memento Flash: -6.00
+Unbeatable strategy for Luc: Memento Flash (1 token): -6.00
+Unbeatable strategy for Luc: Memento Flash (3 tokens): -6.00
+Unbeatable strategy for Luc: Memento Strike: -6.00
+Unbeatable strategy for Luc: Memento Strike (1 token): -6.00
+Unbeatable strategy for Luc: Memento Strike (3 tokens): -6.00
+Unbeatable strategy for Luc: Memento Drive: -6.00
+Unbeatable strategy for Luc: Memento Drive (1 token): -6.00
+Unbeatable strategy for Luc: Memento Drive (3 tokens): -6.00
+Unbeatable strategy for Luc: Memento Burst: -6.00
+Unbeatable strategy for Luc: Memento Burst (1 token): -6.00
+Unbeatable strategy for Luc: Memento Burst (3 tokens): -6.00
+Unbeatable strategy for Luc: Memento Dash: -6.00
+Unbeatable strategy for Luc: Memento Dash (1 token): -6.00
+Unbeatable strategy for Luc: Memento Dash (3 tokens): -6.00
+Unbeatable strategy for Luc: Fusion Flash: -6.00
+Unbeatable strategy for Luc: Fusion Flash (1 token): -6.00
+Unbeatable strategy for Luc: Fusion Flash (3 tokens): -6.00
+Unbeatable strategy for Luc: Fusion Strike: -6.00
+Unbeatable strategy for Luc: Fusion Strike (1 token): -6.00
+Unbeatable strategy for Luc: Fusion Strike (3 tokens): -6.00
+Unbeatable strategy for Luc: Fusion Drive: -6.00
+Unbeatable strategy for Luc: Fusion Drive (1 token): -6.00
+Unbeatable strategy for Luc: Fusion Drive (3 tokens): -6.00
+Unbeatable strategy for Luc: Fusion Burst: -6.00
+Unbeatable strategy for Luc: Fusion Burst (1 token): -6.00
+Unbeatable strategy for Luc: Fusion Burst (3 tokens): -6.00
+Unbeatable strategy for Luc: Fusion Dash: -6.00
+Unbeatable strategy for Luc: Fusion Dash (1 token): -6.00
+Unbeatable strategy for Luc: Fusion Dash (3 tokens): -6.00
+Unbeatable strategy for Luc: Chrono Flash: -6.00
+Unbeatable strategy for Luc: Chrono Flash (1 token): -6.00
+Unbeatable strategy for Luc: Chrono Flash (3 tokens): -6.00
+Unbeatable strategy for Luc: Chrono Strike: -6.00
+Unbeatable strategy for Luc: Chrono Strike (1 token): -6.00
+Unbeatable strategy for Luc: Chrono Strike (3 tokens): -6.00
+Unbeatable strategy for Luc: Chrono Drive: -6.00
+Unbeatable strategy for Luc: Chrono Drive (1 token): -6.00
+Unbeatable strategy for Luc: Chrono Drive (3 tokens): -6.00
+Unbeatable strategy for Luc: Chrono Burst: -6.00
+Unbeatable strategy for Luc: Chrono Burst (1 token): -6.00
+Unbeatable strategy for Luc: Chrono Burst (3 tokens): -6.00
+Unbeatable strategy for Luc: Chrono Dash: -6.00
+Unbeatable strategy for Luc: Chrono Dash (1 token): -6.00
+Unbeatable strategy for Luc: Chrono Dash (3 tokens): -6.00
+
+
+Kallistar:
+7% Flare Spellbolt
+7% Flare Strike
+7% Flare Drive
+7% Flare Burst
+7% Flare Grasp
+7% Caustic Spellbolt
+7% Caustic Strike
+7% Caustic Drive
+7% Caustic Burst
+7% Caustic Grasp
+7% Blazing Spellbolt
+7% Blazing Strike
+7% Blazing Drive
+7% Blazing Burst
+7% Blazing Grasp
+
+Luc:
+2% Memento Flash
+2% Memento Flash (1 token)
+2% Memento Flash (3 tokens)
+2% Memento Strike
+2% Memento Strike (1 token)
+2% Memento Strike (3 tokens)
+2% Memento Drive
+2% Memento Drive (1 token)
+2% Memento Drive (3 tokens)
+2% Memento Burst
+2% Memento Burst (1 token)
+2% Memento Burst (3 tokens)
+2% Memento Dash
+2% Memento Dash (1 token)
+2% Memento Dash (3 tokens)
+2% Fusion Flash
+2% Fusion Flash (1 token)
+2% Fusion Flash (3 tokens)
+2% Fusion Strike
+2% Fusion Strike (1 token)
+2% Fusion Strike (3 tokens)
+2% Fusion Drive
+2% Fusion Drive (1 token)
+2% Fusion Drive (3 tokens)
+2% Fusion Burst
+2% Fusion Burst (1 token)
+2% Fusion Burst (3 tokens)
+2% Fusion Dash
+2% Fusion Dash (1 token)
+2% Fusion Dash (3 tokens)
+2% Chrono Flash
+2% Chrono Flash (1 token)
+2% Chrono Flash (3 tokens)
+2% Chrono Strike
+2% Chrono Strike (1 token)
+2% Chrono Strike (3 tokens)
+2% Chrono Drive
+2% Chrono Drive (1 token)
+2% Chrono Drive (3 tokens)
+2% Chrono Burst
+2% Chrono Burst (1 token)
+2% Chrono Burst (3 tokens)
+2% Chrono Dash
+2% Chrono Dash (1 token)
+2% Chrono Dash (3 tokens)
+
+
+Kallistar: Caustic Burst
+Luc: Memento Burst
+
+Kallistar loses 1 life (now at 1)
+Priorities:  2 | 0
+Kallistar is active
+Luc moves:
+
+K.....L
+
 Kallistar misses
-Luc hits
-Kallistar takes 3 damage (now at 0 life)
+Luc misses
+Luc gains 1 Time token
+Game goes to time
 LUC WINS!
-total_time: 14
+total_time: 30

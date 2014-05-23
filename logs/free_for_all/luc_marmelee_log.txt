@@ -11,55 +11,51 @@ Beat 1
 
 Luc
 ---
-life: 20
-discard 1: Eternal Flash
-discard 2: Fusion Strike
-special action
+Life: 20
+Discard 1: Eternal Flash
+Discard 2: Fusion Strike
+Special action available
 2 Time tokens
 
 Marmelee
 --------
-life: 20
-discard 1: Petrifying Burst
-discard 2: Barrier Grasp
-special action
+Life: 20
+Discard 1: Petrifying Burst
+Discard 2: Barrier Grasp
+Special action available
 2 Concentration counters
 
 
 .L...M.
 
+
 Luc:
-20% Memento Drive
-23% Chrono Shot
-36% Chrono Shot (1 token)
-21% Chrono Drive
+12% Memento Drive
+45% Chrono Shot
+20% Chrono Shot (1 token)
+23% Chrono Drive
 
 Marmelee:
-35% Magnificent Meditation
-40% Magnificent Dash
-21% Sorceress Strike
-5% Nullifying Meditation
+28% Magnificent Meditation
+31% Magnificent Dash
+25% Sorceress Strike
+15% Nullifying Meditation
 
 
 Luc: Chrono Drive
-Marmelee: Sorceress Strike
+Marmelee: Magnificent Dash
 
-Priorities:  5 | 2
-Luc is active
-Luc spends a Time token
+Priorities:  5 | 9
+Marmelee is active
+Marmelee moves:
+
+.L....M
+
 Luc moves:
 
-..L..M.
+...L..M
 
-Luc moves:
-
-....LM.
-
-Luc hits
-Marmelee takes 3 damage (now at 17 life)
-Marmelee hits
-Luc takes 4 damage (now at 16 life)
-Luc is stunned
+Luc misses
 Luc gains 1 Time token
 Marmelee gains 1 Concentration Counter
 
@@ -68,72 +64,61 @@ Beat 2
 
 Luc
 ---
-life: 16
-discard 1: Chrono Drive
-discard 2: Eternal Flash
-special action
-2 Time tokens
+Life: 20
+Discard 1: Chrono Drive
+Discard 2: Eternal Flash
+Special action available
+3 Time tokens
 
 Marmelee
 --------
-life: 17
-discard 1: Sorceress Strike
-discard 2: Petrifying Burst
-special action
+Life: 20
+Discard 1: Magnificent Dash
+Discard 2: Petrifying Burst
+Special action available
 3 Concentration counters
 
 
-....LM.
+...L..M
 
-Unbeatable strategy for Marmelee: Magnificent Dash: -0.92
-Unbeatable strategy for Marmelee: Barrier Dash: -0.64
-Unbeatable strategy for Marmelee: Nullifying Shot: -1.02
-Unbeatable strategy for Marmelee: Nullifying Dash: -0.72
 
 Luc:
-4% Fusion Strike (1 token)
-27% Fusion Shot
-7% Fusion Shot (1 token)
-16% Feinting Shot
-46% Feinting Grasp
+4% Memento Shot
+3% Memento Shot (3 tokens)
+39% Fusion Strike (3 tokens)
+3% Fusion Shot (3 tokens)
+42% Feinting Shot
+10% Feinting Burst (3 tokens)
 
 Marmelee:
-10% Magnificent Meditation
-12% Magnificent Drive
-11% Barrier Drive
-33% Nullifying Meditation
-34% Nullifying Shot
+39% Sorceress Meditation
+10% Sorceress Strike
+8% Sorceress Shot
+33% Nullifying Strike
+6% Nullifying Shot
+3% Nullifying Drive
 
 
-Luc: Fusion Shot
-Marmelee: Magnificent Meditation
+Luc: Feinting Shot
+Marmelee: Sorceress Meditation
 
-Priorities:  3 | 3
-Clash!
-
-Luc:
-78% Fusion Burst
-22% Fusion Grasp
-
-Marmelee:
-0% Magnificent Grasp
-100% Magnificent Dash
-
-
-Luc: Fusion Burst
-Marmelee: Magnificent Dash
-
-Priorities:  2 | 9
+Priorities:  0 | 2
 Marmelee is active
+Marmelee discards 3 Concentration Counters
+Marmelee gains Soak 3
 Luc moves:
 
-...L.M.
+..L...M
 
-Marmelee moves:
+Marmelee misses
+Luc hits
+Marmelee has 3 soak
+Marmelee takes 0 damage (now at 20 life)
+Marmelee gains 1 Concentration Counter
+Luc moves:
 
-.M.L...
+....L.M
 
-Luc misses
 Luc gains 1 Time token
 Marmelee gains 1 Concentration Counter
 
@@ -142,50 +127,59 @@ Beat 3
 
 Luc
 ---
-life: 16
-discard 1: Fusion Burst
-discard 2: Chrono Drive
-special action
-3 Time tokens
+Life: 20
+Discard 1: Feinting Shot
+Discard 2: Chrono Drive
+Special action available
+4 Time tokens
 
 Marmelee
 --------
-life: 17
-discard 1: Magnificent Dash
-discard 2: Sorceress Strike
-special action
-4 Concentration counters
+Life: 20
+Discard 1: Sorceress Meditation
+Discard 2: Magnificent Dash
+Special action available
+2 Concentration counters
 
 
-.M.L...
+....L.M
 
-Unbeatable strategy for Luc: Eternal Shot: 0.20
 
 Luc:
-1% Eternal Flash
-5% Eternal Strike (3 tokens)
-94% Eternal Shot
+9% Eternal Strike (3 tokens)
+20% Eternal Burst
+2% Memento Flash
+41% Memento Flash (1 token)
+8% Memento Strike (3 tokens)
+3% Memento Burst
+3% Memento Burst (1 token)
+10% Fusion Strike (3 tokens)
+4% Fusion Burst (1 token)
 
 Marmelee:
-36% Petrifying Shot
-31% Petrifying Drive
-33% Petrifying Burst
+24% Petrifying Strike
+2% Petrifying Shot
+4% Barrier Strike
+5% Barrier Drive
+17% Barrier Grasp
+0% Nullifying Strike
+7% Nullifying Drive
+15% Nullifying Burst
+25% Nullifying Grasp
 
 
-Luc: Eternal Shot
-Marmelee: Petrifying Shot
+Luc: Eternal Burst
+Marmelee: Petrifying Strike
 
-Priorities:  -2 | 1
+Priorities:  -3 | 2
 Marmelee is active
-Marmelee hits
-Marmelee discards 2 Concentration Counters
-Luc is stunned
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +3 soak (4 total)
-Luc has 4 soak
-Luc takes 0 damage (now at 16 life)
+Luc moves:
+
+...L..M
+
+Marmelee misses
+Luc hits
+Marmelee takes 3 damage (now at 17 life)
 Luc gains 1 Time token
 Marmelee gains 1 Concentration Counter
 
@@ -194,59 +188,110 @@ Beat 4
 
 Luc
 ---
-life: 16
-discard 1: Eternal Shot
-discard 2: Fusion Burst
-special action
-1 Time tokens
+Life: 20
+Discard 1: Eternal Burst
+Discard 2: Feinting Shot
+Special action available
+5 Time tokens
 
 Marmelee
 --------
-life: 17
-discard 1: Petrifying Shot
-discard 2: Magnificent Dash
-special action
+Life: 17
+Discard 1: Petrifying Strike
+Discard 2: Sorceress Meditation
+Special action available
 3 Concentration counters
 
 
-.M.L...
+...L..M
+
 
 Luc:
-27% Feinting Flash
-12% Feinting Flash (1 token)
-16% Feinting Drive (1 token)
-9% Chrono Drive
-36% Chrono Drive (1 token)
+15% Memento Drive (5 tokens)
+0% Memento Grasp
+21% Fusion Drive (5 tokens)
+0% Fusion Grasp
+20% Chrono Strike
+44% Chrono Grasp
 
 Marmelee:
-36% Sorceress Strike
-4% Barrier Meditation
-54% Nullifying Meditation
-5% Nullifying Drive
-1% Nullifying Grasp
+15% Magnificent Dash
+2% Barrier Shot
+1% Barrier Grasp
+1% Nullifying Shot
+81% Special Pulse
 
 
-Luc: Chrono Drive (1 token)
-Marmelee: Nullifying Meditation
+Luc: Chrono Strike
+Marmelee: Special Pulse
+
+Marmelee Pulses:
+
+.L....M
+
+Marmelee gains 1 Concentration Counter
+
+Beat 4
+-------
+
+Luc
+---
+Life: 20
+Discard 1: Chrono Strike
+Discard 2: Eternal Burst
+Special action available
+5 Time tokens
+
+Marmelee
+--------
+Life: 17
+Discard 1: Petrifying Strike
+Discard 2: Sorceress Meditation
+4 Concentration counters
+
+
+.L....M
+
+
+Luc:
+12% Memento Drive
+23% Memento Drive (1 token)
+28% Fusion Drive (3 tokens)
+37% Feinting Shot (3 tokens)
+
+Marmelee:
+12% Magnificent Drive
+84% Magnificent Dash
+3% Barrier Drive
+0% Nullifying Shot
+
+
+Luc: Fusion Drive (3 tokens)
+Marmelee: Magnificent Dash
 
 Luc antes a Time token
-Priorities:  6 | 4
-Luc is active
-Marmelee discards 3 Concentration Counters
-Marmelee gains Soak 3
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  5 | 9
+Marmelee is active
+Luc moves:
+
+..L...M
+
+Marmelee discards 2 Concentration Counters
 Marmelee moves:
 
-M..L...
+..LM...
+
+Marmelee moves:
+
+.ML....
 
 Luc moves:
 
-ML.....
+LM.....
 
-Luc hits
-Marmelee has 3 soak
-Marmelee takes 0 damage (now at 17 life)
-Marmelee misses
-Marmelee gains 1 Concentration Counter
+Luc misses
 Luc gains 1 Time token
 Marmelee gains 1 Concentration Counter
 
@@ -255,59 +300,59 @@ Beat 5
 
 Luc
 ---
-life: 16
-discard 1: Chrono Drive
-discard 2: Eternal Shot
-special action
-1 Time tokens
+Life: 20
+Discard 1: Fusion Drive
+Discard 2: Chrono Strike
+Special action available
+3 Time tokens
 
 Marmelee
 --------
-life: 17
-discard 1: Nullifying Meditation
-discard 2: Petrifying Shot
-special action
-2 Concentration counters
+Life: 17
+Discard 1: Magnificent Dash
+Discard 2: Petrifying Strike
+3 Concentration counters
 
 
-ML.....
+LM.....
 
-Unbeatable strategy for Marmelee: Magnificent Dash: -0.75
-Unbeatable strategy for Marmelee: Sorceress Dash: -0.53
-Unbeatable strategy for Marmelee: Barrier Dash: -0.73
+Unbeatable strategy for Luc: Eternal Shot: 1.03
+Unbeatable strategy for Luc: Eternal Shot (1 token): 0.83
+Unbeatable strategy for Luc: Eternal Shot (3 tokens): 1.83
+
 
 Luc:
-29% Memento Dash (1 token)
-48% Fusion Flash (1 token)
-3% Fusion Strike (1 token)
-7% Fusion Grasp
-7% Feinting Flash
-6% Feinting Dash (1 token)
+1% Eternal Flash (1 token)
+99% Eternal Shot (3 tokens)
+0% Memento Grasp (3 tokens)
 
 Marmelee:
-1% Magnificent Strike
-12% Magnificent Grasp
-5% Sorceress Burst
-29% Sorceress Dash
-9% Barrier Drive
-45% Barrier Dash
+20% Sorceress Meditation
+46% Barrier Meditation
+33% Nullifying Meditation
 
 
-Luc: Memento Dash (1 token)
-Marmelee: Sorceress Burst
+Luc: Eternal Shot (3 tokens)
+Marmelee: Barrier Meditation
 
 Luc antes a Time token
-Priorities:  9 | 0
-Luc is active
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  -2 | 3
+Marmelee is active
+Marmelee discards 3 Concentration Counters
+Marmelee gains Soak 3
 Luc moves:
 
-M...L..
+.ML....
 
-Marmelee discards 1 Concentration Counter
-Marmelee gains +0~2 range
 Marmelee hits
-Luc takes 3 damage (now at 13 life)
-Luc is stunned
+Luc has 1 soak
+Luc takes 0 damage (now at 20 life)
+Luc hits
+Marmelee has 3 soak
+Marmelee takes 0 damage (now at 17 life)
+Marmelee gains 1 Concentration Counter
 Luc gains 1 Time token
 Marmelee gains 1 Concentration Counter
 
@@ -316,44 +361,53 @@ Beat 6
 
 Luc
 ---
-life: 13
-discard 1: Memento Dash
-discard 2: Chrono Drive
-special action
-1 Time tokens
+Life: 20
+Discard 1: Eternal Shot
+Discard 2: Fusion Drive
+Special action available
+1 Time token
 
 Marmelee
 --------
-life: 17
-discard 1: Sorceress Burst
-discard 2: Nullifying Meditation
-special action
+Life: 17
+Discard 1: Barrier Meditation
+Discard 2: Magnificent Dash
 2 Concentration counters
 
 
-M...L..
+.ML....
+
 
 Luc:
-63% Eternal Shot
-37% Feinting Shot
+22% Feinting Flash
+12% Feinting Burst
+31% Feinting Grasp
+10% Chrono Flash
+9% Chrono Strike
+15% Chrono Burst (1 token)
 
 Marmelee:
-45% Petrifying Shot
-55% Magnificent Drive
+43% Sorceress Strike
+7% Sorceress Drive
+2% Sorceress Burst
+32% Nullifying Shot
+5% Nullifying Drive
+11% Nullifying Burst
 
 
-Luc: Eternal Shot
-Marmelee: Petrifying Shot
+Luc: Chrono Flash
+Marmelee: Sorceress Strike
 
-Priorities:  -2 | 1
-Marmelee is active
-Marmelee hits
-Marmelee discards 2 Concentration Counters
-Luc is stunned
-Luc spends a Time token
-Luc gains +1 soak (2 total)
-Luc has 2 soak
-Luc takes 2 damage (now at 11 life)
+Priorities:  7 | 2
+Luc is active
+Luc moves:
+
+LM.....
+
+Luc hits
+Marmelee takes 1 damage (now at 16 life)
+Marmelee is stunned
+Marmelee loses all Concentration counters
 Luc gains 1 Time token
 Marmelee gains 1 Concentration Counter
 
@@ -362,53 +416,44 @@ Beat 7
 
 Luc
 ---
-life: 11
-discard 1: Eternal Shot
-discard 2: Memento Dash
-special action
-1 Time tokens
+Life: 20
+Discard 1: Chrono Flash
+Discard 2: Eternal Shot
+Special action available
+2 Time tokens
 
 Marmelee
 --------
-life: 17
-discard 1: Petrifying Shot
-discard 2: Sorceress Burst
-special action
+Life: 16
+Discard 1: Sorceress Strike
+Discard 2: Barrier Meditation
 1 Concentration counters
 
 
-M...L..
+LM.....
+
 
 Luc:
-37% Feinting Flash
-45% Feinting Drive
-18% Chrono Drive
+37% Memento Strike
+19% Memento Drive
+44% Memento Drive (1 token)
 
 Marmelee:
-13% Magnificent Meditation
-20% Magnificent Drive
-67% Magnificent Grasp
+29% Petrifying Dash
+32% Nullifying Shot
+39% Nullifying Grasp
 
 
-Luc: Feinting Drive
-Marmelee: Magnificent Grasp
+Luc: Memento Strike
+Marmelee: Petrifying Dash
 
-Priorities:  2 | 5
+Priorities:  2 | 8
 Marmelee is active
-Luc moves:
+Marmelee moves:
 
-M....L.
-
-Marmelee misses
-Luc moves:
-
-M..L...
+L.M....
 
 Luc misses
-Luc moves:
-
-ML.....
-
 Luc gains 1 Time token
 Marmelee gains 1 Concentration Counter
 
@@ -417,59 +462,59 @@ Beat 8
 
 Luc
 ---
-life: 11
-discard 1: Feinting Drive
-discard 2: Eternal Shot
-special action
-2 Time tokens
+Life: 20
+Discard 1: Memento Strike
+Discard 2: Chrono Flash
+Special action available
+3 Time tokens
 
 Marmelee
 --------
-life: 17
-discard 1: Magnificent Grasp
-discard 2: Petrifying Shot
-special action
+Life: 16
+Discard 1: Petrifying Dash
+Discard 2: Sorceress Strike
 2 Concentration counters
 
 
-ML.....
+L.M....
 
-Unbeatable strategy for Marmelee: Sorceress Dash: -0.62
-Unbeatable strategy for Marmelee: Barrier Dash: -0.82
-Unbeatable strategy for Marmelee: Nullifying Dash: -0.58
+Unbeatable strategy for Luc: Eternal Shot (3 tokens): 0.24
+
 
 Luc:
-33% Memento Flash
-2% Memento Dash
-10% Memento Dash (1 token)
-3% Fusion Strike
-39% Chrono Burst
-9% Chrono Grasp
-4% Chrono Dash
+28% Eternal Shot (3 tokens)
+18% Eternal Drive
+3% Eternal Drive (3 tokens)
+37% Fusion Shot (3 tokens)
+13% Fusion Drive
 
 Marmelee:
-3% Sorceress Meditation
-0% Sorceress Drive
-22% Sorceress Dash
-2% Barrier Drive
-39% Barrier Dash
-1% Nullifying Drive
-32% Nullifying Dash
+41% Magnificent Meditation
+4% Magnificent Shot
+25% Magnificent Drive
+27% Barrier Meditation
+2% Barrier Shot
 
 
-Luc: Memento Dash
-Marmelee: Barrier Dash
+Luc: Fusion Shot (3 tokens)
+Marmelee: Magnificent Drive
 
-Priorities:  8 | 9
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  3 | 4
 Marmelee is active
 Marmelee moves:
 
-.LM....
+LM.....
 
-Luc moves:
+Marmelee misses
+Marmelee discards 2 Concentration Counters
+Marmelee moves:
 
-..ML...
+L.....M
 
+Luc misses
 Luc gains 1 Time token
 Marmelee gains 1 Concentration Counter
 
@@ -478,52 +523,63 @@ Beat 9
 
 Luc
 ---
-life: 11
-discard 1: Memento Dash
-discard 2: Feinting Drive
-special action
-3 Time tokens
+Life: 20
+Discard 1: Fusion Shot
+Discard 2: Memento Strike
+Special action available
+1 Time token
 
 Marmelee
 --------
-life: 17
-discard 1: Barrier Dash
-discard 2: Magnificent Grasp
-special action
-3 Concentration counters
+Life: 16
+Discard 1: Magnificent Drive
+Discard 2: Petrifying Dash
+1 Concentration counters
 
 
-..ML...
+L.....M
+
+Unbeatable strategy for Marmelee: Sorceress Meditation: -1.62
+Unbeatable strategy for Marmelee: Sorceress Strike: -0.35
+Unbeatable strategy for Marmelee: Sorceress Shot: -0.44
+Unbeatable strategy for Marmelee: Sorceress Grasp: -0.07
+Unbeatable strategy for Marmelee: Barrier Meditation: -1.34
+Unbeatable strategy for Marmelee: Barrier Strike: -0.07
+Unbeatable strategy for Marmelee: Barrier Burst: -0.38
+Unbeatable strategy for Marmelee: Nullifying Meditation: -1.61
+Unbeatable strategy for Marmelee: Nullifying Strike: -0.39
+Unbeatable strategy for Marmelee: Nullifying Grasp: -0.31
+
 
 Luc:
-84% Eternal Shot
-9% Eternal Shot (3 tokens)
-7% Eternal Burst
+45% Eternal Grasp (1 token)
+24% Feinting Flash
+31% Feinting Grasp
 
 Marmelee:
-43% Petrifying Strike
-37% Petrifying Drive
-20% Petrifying Burst
+26% Sorceress Shot
+39% Barrier Meditation
+35% Nullifying Meditation
 
 
-Luc: Eternal Shot
-Marmelee: Petrifying Burst
+Luc: Feinting Flash
+Marmelee: Nullifying Meditation
 
-Priorities:  -2 | 0
+Priorities:  4 | 4
+Clash!
+
+
+Luc: Feinting Grasp
+Marmelee: Nullifying Strike
+
+Priorities:  3 | 4
 Marmelee is active
-Marmelee moves:
+Marmelee misses
+Luc misses
+Luc moves:
 
-M..L...
+..L...M
 
-Marmelee hits
-Marmelee discards 2 Concentration Counters
-Luc is stunned
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +3 soak (4 total)
-Luc has 4 soak
-Luc takes 0 damage (now at 11 life)
 Luc gains 1 Time token
 Marmelee gains 1 Concentration Counter
 
@@ -532,55 +588,56 @@ Beat 10
 
 Luc
 ---
-life: 11
-discard 1: Eternal Shot
-discard 2: Memento Dash
-special action
-1 Time tokens
+Life: 20
+Discard 1: Feinting Grasp
+Discard 2: Fusion Shot
+Special action available
+2 Time tokens
 
 Marmelee
 --------
-life: 17
-discard 1: Petrifying Burst
-discard 2: Barrier Dash
-special action
+Life: 16
+Discard 1: Nullifying Strike
+Discard 2: Magnificent Drive
 2 Concentration counters
 
 
-M..L...
+..L...M
 
-Unbeatable strategy for Luc: Chrono Flash: 1.19
+Unbeatable strategy for Luc: Chrono Drive (1 token): 1.93
+
 
 Luc:
-2% Fusion Burst (1 token)
-53% Chrono Flash
-45% Chrono Drive
+55% Chrono Drive
+44% Chrono Drive (1 token)
+1% Chrono Burst (1 token)
 
 Marmelee:
-64% Magnificent Meditation
-27% Sorceress Strike
-9% Nullifying Meditation
+27% Petrifying Meditation
+69% Barrier Meditation
+4% Barrier Grasp
 
 
-Luc: Chrono Flash
-Marmelee: Magnificent Meditation
+Luc: Chrono Drive (1 token)
+Marmelee: Barrier Meditation
 
-Priorities:  7 | 3
+Luc antes a Time token
+Priorities:  6 | 3
 Luc is active
 Luc spends a Time token
 Luc moves:
 
-M.L....
+...L..M
 
+Marmelee discards 2 Concentration Counters
+Marmelee gains Soak 2
 Luc moves:
 
-ML.....
+.....LM
 
-Marmelee discards 1 Concentration Counter
-Marmelee gains Soak 1
 Luc hits
-Marmelee has 1 soak
-Marmelee takes 0 damage (now at 17 life)
+Marmelee has 2 soak
+Marmelee takes 1 damage (now at 15 life)
 Marmelee is stunned
 Marmelee gains 1 Concentration Counter
 Luc gains 1 Time token
@@ -591,54 +648,60 @@ Beat 11
 
 Luc
 ---
-life: 11
-discard 1: Chrono Flash
-discard 2: Eternal Shot
-special action
-1 Time tokens
+Life: 20
+Discard 1: Chrono Drive
+Discard 2: Feinting Grasp
+Special action available
+1 Time token
 
 Marmelee
 --------
-life: 17
-discard 1: Magnificent Meditation
-discard 2: Petrifying Burst
-special action
+Life: 15
+Discard 1: Barrier Meditation
+Discard 2: Nullifying Strike
 2 Concentration counters
 
 
-ML.....
+.....LM
 
-Unbeatable strategy for Marmelee: Sorceress Dash: -0.62
-Unbeatable strategy for Marmelee: Barrier Dash: -0.82
-Unbeatable strategy for Marmelee: Nullifying Dash: -0.58
+Unbeatable strategy for Marmelee: Petrifying Dash: -1.13
+Unbeatable strategy for Marmelee: Magnificent Dash: -1.54
+Unbeatable strategy for Marmelee: Sorceress Dash: -1.35
+
 
 Luc:
-10% Memento Dash (1 token)
-85% Fusion Drive
-2% Fusion Burst
-2% Feinting Burst
+31% Memento Flash (1 token)
+32% Memento Dash (1 token)
+17% Fusion Flash (1 token)
+12% Fusion Strike
+8% Fusion Strike (1 token)
 
 Marmelee:
-3% Sorceress Strike
-1% Barrier Grasp
-93% Barrier Dash
-3% Nullifying Drive
+11% Petrifying Shot
+5% Magnificent Drive
+16% Magnificent Grasp
+49% Magnificent Dash
+20% Sorceress Dash
 
 
-Luc: Fusion Drive
-Marmelee: Barrier Dash
+Luc: Memento Dash (1 token)
+Marmelee: Magnificent Dash
 
-Priorities:  5 | 9
-Marmelee is active
-Marmelee moves:
+Luc antes a Time token
+Priorities:  9 | 9
+Clash!
 
-.LM....
 
-Luc moves:
+Luc: Memento Flash (1 token)
+Marmelee: Magnificent Burst
 
-..ML...
-
-Luc misses
+Luc antes a Time token
+Priorities:  6 | 1
+Luc is active
+Luc hits
+Marmelee takes 1 damage (now at 14 life)
+Marmelee is stunned
+Marmelee loses all Concentration counters
 Luc gains 1 Time token
 Marmelee gains 1 Concentration Counter
 
@@ -647,52 +710,52 @@ Beat 12
 
 Luc
 ---
-life: 11
-discard 1: Fusion Drive
-discard 2: Chrono Flash
-special action
-2 Time tokens
+Life: 20
+Discard 1: Memento Flash
+Discard 2: Chrono Drive
+Special action available
+1 Time token
 
 Marmelee
 --------
-life: 17
-discard 1: Barrier Dash
-discard 2: Magnificent Meditation
-special action
-3 Concentration counters
+Life: 14
+Discard 1: Magnificent Burst
+Discard 2: Barrier Meditation
+1 Concentration counters
 
 
-..ML...
+.....LM
 
-Unbeatable strategy for Marmelee: Petrifying Drive: -0.25
-Unbeatable strategy for Marmelee: Petrifying Burst: -1.12
+Unbeatable strategy for Marmelee: Petrifying Dash: -0.83
+Unbeatable strategy for Marmelee: Sorceress Dash: -0.58
+Unbeatable strategy for Marmelee: Nullifying Dash: -0.48
+
 
 Luc:
-82% Eternal Shot
-18% Feinting Shot
+28% Eternal Strike
+7% Eternal Shot
+9% Fusion Strike
+21% Fusion Burst
+34% Fusion Grasp
 
 Marmelee:
-2% Petrifying Shot
-98% Petrifying Burst
+1% Petrifying Shot
+1% Petrifying Drive
+92% Petrifying Dash
+2% Sorceress Strike
+4% Nullifying Drive
 
 
-Luc: Eternal Shot
-Marmelee: Petrifying Burst
+Luc: Fusion Grasp
+Marmelee: Petrifying Dash
 
-Priorities:  -2 | 0
+Priorities:  6 | 8
 Marmelee is active
 Marmelee moves:
 
-M..L...
+....ML.
 
-Marmelee hits
-Marmelee discards 2 Concentration Counters
-Luc is stunned
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +2 soak (3 total)
-Luc has 3 soak
-Luc takes 1 damage (now at 10 life)
+Luc misses
 Luc gains 1 Time token
 Marmelee gains 1 Concentration Counter
 
@@ -701,53 +764,56 @@ Beat 13
 
 Luc
 ---
-life: 10
-discard 1: Eternal Shot
-discard 2: Fusion Drive
-special action
-1 Time tokens
+Life: 20
+Discard 1: Fusion Grasp
+Discard 2: Memento Flash
+Special action available
+2 Time tokens
 
 Marmelee
 --------
-life: 17
-discard 1: Petrifying Burst
-discard 2: Barrier Dash
-special action
+Life: 14
+Discard 1: Petrifying Dash
+Discard 2: Magnificent Burst
 2 Concentration counters
 
 
-M..L...
+....ML.
 
-Unbeatable strategy for Luc: Chrono Flash: 0.94
+Unbeatable strategy for Luc: Eternal Shot: 0.43
+
 
 Luc:
-100% Chrono Flash
+87% Eternal Shot
+6% Chrono Drive
+7% Chrono Burst
 
 Marmelee:
-100% Magnificent Meditation
+40% Sorceress Strike
+21% Barrier Meditation
+39% Nullifying Strike
 
 
-Luc: Chrono Flash
-Marmelee: Magnificent Meditation
+Luc: Chrono Burst
+Marmelee: Sorceress Strike
 
-Priorities:  7 | 3
+Priorities:  2 | 2
+Clash!
+
+
+Luc: Chrono Drive
+Marmelee: Sorceress Grasp
+
+Priorities:  5 | 4
 Luc is active
-Luc spends a Time token
 Luc moves:
 
-M.L....
+...LM..
 
-Luc moves:
-
-ML.....
-
-Marmelee discards 1 Concentration Counter
-Marmelee gains Soak 1
 Luc hits
-Marmelee has 1 soak
-Marmelee takes 0 damage (now at 17 life)
+Marmelee takes 3 damage (now at 11 life)
 Marmelee is stunned
-Marmelee gains 1 Concentration Counter
+Marmelee loses all Concentration counters
 Luc gains 1 Time token
 Marmelee gains 1 Concentration Counter
 
@@ -756,54 +822,51 @@ Beat 14
 
 Luc
 ---
-life: 10
-discard 1: Chrono Flash
-discard 2: Eternal Shot
-special action
-1 Time tokens
+Life: 20
+Discard 1: Chrono Drive
+Discard 2: Fusion Grasp
+Special action available
+3 Time tokens
 
 Marmelee
 --------
-life: 17
-discard 1: Magnificent Meditation
-discard 2: Petrifying Burst
-special action
-2 Concentration counters
+Life: 11
+Discard 1: Sorceress Grasp
+Discard 2: Petrifying Dash
+1 Concentration counters
 
 
-ML.....
+...LM..
 
-Unbeatable strategy for Marmelee: Sorceress Dash: -0.62
-Unbeatable strategy for Marmelee: Barrier Dash: -0.82
-Unbeatable strategy for Marmelee: Nullifying Dash: -0.58
+Unbeatable strategy for Luc: Eternal Strike (3 tokens): 0.40
+Unbeatable strategy for Luc: Eternal Shot: 0.62
+Unbeatable strategy for Luc: Eternal Shot (1 token): 0.42
+
 
 Luc:
-10% Memento Dash (1 token)
-85% Fusion Drive
-2% Fusion Burst
-2% Feinting Burst
+40% Eternal Strike (3 tokens)
+56% Eternal Shot
+4% Memento Strike
 
 Marmelee:
-3% Sorceress Strike
-1% Barrier Grasp
-93% Barrier Dash
-3% Nullifying Drive
+29% Magnificent Meditation
+37% Barrier Strike
+34% Nullifying Meditation
 
 
-Luc: Fusion Drive
-Marmelee: Barrier Dash
+Luc: Eternal Strike (3 tokens)
+Marmelee: Barrier Strike
 
-Priorities:  5 | 9
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  -1 | 3
 Marmelee is active
-Marmelee moves:
-
-.LM....
-
-Luc moves:
-
-..ML...
-
-Luc misses
+Marmelee hits
+Luc has 1 soak
+Luc takes 2 damage (now at 18 life)
+Luc hits
+Marmelee takes 4 damage (now at 7 life)
 Luc gains 1 Time token
 Marmelee gains 1 Concentration Counter
 
@@ -812,110 +875,54 @@ Beat 15
 
 Luc
 ---
-life: 10
-discard 1: Fusion Drive
-discard 2: Chrono Flash
-special action
-2 Time tokens
+Life: 18
+Discard 1: Eternal Strike
+Discard 2: Chrono Drive
+Special action available
+1 Time token
 
 Marmelee
 --------
-life: 17
-discard 1: Barrier Dash
-discard 2: Magnificent Meditation
-special action
-3 Concentration counters
+Life: 7
+Discard 1: Barrier Strike
+Discard 2: Sorceress Grasp
+2 Concentration counters
 
 
-..ML...
+...LM..
 
-Unbeatable strategy for Marmelee: Petrifying Strike: -15.00
-Unbeatable strategy for Marmelee: Petrifying Shot: -15.00
-Unbeatable strategy for Marmelee: Petrifying Drive: -15.00
-Unbeatable strategy for Marmelee: Petrifying Burst: -15.00
-Unbeatable strategy for Marmelee: Petrifying Grasp: -15.00
-Unbeatable strategy for Marmelee: Sorceress Strike: -15.00
-Unbeatable strategy for Marmelee: Sorceress Drive: -15.00
-Unbeatable strategy for Marmelee: Sorceress Burst: -15.00
-Unbeatable strategy for Marmelee: Sorceress Grasp: -15.00
-Unbeatable strategy for Marmelee: Nullifying Strike: -15.00
-Unbeatable strategy for Marmelee: Nullifying Shot: -15.00
-Unbeatable strategy for Marmelee: Nullifying Burst: -15.00
-Unbeatable strategy for Marmelee: Nullifying Grasp: -15.00
+Unbeatable strategy for Luc: Memento Flash (1 token): 12.00
+Unbeatable strategy for Luc: Fusion Flash: 12.00
+Unbeatable strategy for Luc: Fusion Grasp: 12.00
+Unbeatable strategy for Luc: Fusion Grasp (1 token): 12.00
+Unbeatable strategy for Luc: Fusion Dash (1 token): 12.00
+Unbeatable strategy for Luc: Feinting Burst: 12.00
+Unbeatable strategy for Luc: Feinting Dash: 12.00
+
 
 Luc:
-100% Special Pulse
-
-Marmelee:
-50% Nullifying Shot
-50% Nullifying Burst
-
-
-Luc: Special Pulse
-Marmelee: Nullifying Shot
-
-Pulse:
-
-ML.....
-
-
-Beat 15
--------
-
-Luc
----
-life: 10
-discard 1: Fusion Drive
-discard 2: Chrono Flash
-2 Time tokens
-
-Marmelee
---------
-life: 17
-discard 1: Nullifying Shot
-discard 2: Barrier Dash
-special action
-3 Concentration counters
-
-
-ML.....
-
-Unbeatable strategy for Marmelee: Petrifying Meditation: -15.00
-Unbeatable strategy for Marmelee: Petrifying Strike: -15.00
-Unbeatable strategy for Marmelee: Petrifying Drive: -15.00
-Unbeatable strategy for Marmelee: Petrifying Grasp: -15.00
-Unbeatable strategy for Marmelee: Magnificent Meditation: -15.00
-Unbeatable strategy for Marmelee: Magnificent Strike: -15.00
-Unbeatable strategy for Marmelee: Magnificent Drive: -15.00
-Unbeatable strategy for Marmelee: Magnificent Grasp: -15.00
-Unbeatable strategy for Marmelee: Sorceress Meditation: -15.00
-Unbeatable strategy for Marmelee: Sorceress Strike: -15.00
-Unbeatable strategy for Marmelee: Sorceress Drive: -15.00
-Unbeatable strategy for Marmelee: Sorceress Grasp: -15.00
-
-Luc:
-3% Eternal Strike
-3% Eternal Strike (1 token)
-3% Eternal Shot
-3% Eternal Shot (1 token)
-3% Eternal Burst
-3% Eternal Burst (1 token)
-3% Eternal Grasp
-3% Eternal Grasp (1 token)
-3% Eternal Dash
-4% Eternal Dash (1 token)
-3% Memento Strike
-4% Memento Strike (1 token)
+3% Memento Flash
+3% Memento Flash (1 token)
 3% Memento Shot
-4% Memento Shot (1 token)
+3% Memento Shot (1 token)
 3% Memento Burst
 3% Memento Burst (1 token)
 3% Memento Grasp
 3% Memento Grasp (1 token)
 3% Memento Dash
-4% Memento Dash (1 token)
-3% Feinting Strike
-4% Feinting Strike (1 token)
+3% Memento Dash (1 token)
+3% Fusion Flash
+3% Fusion Flash (1 token)
+3% Fusion Shot
+3% Fusion Shot (1 token)
+3% Fusion Burst
+3% Fusion Burst (1 token)
+3% Fusion Grasp
+3% Fusion Grasp (1 token)
+3% Fusion Dash
+3% Fusion Dash (1 token)
+3% Feinting Flash
+3% Feinting Flash (1 token)
 3% Feinting Shot
 3% Feinting Shot (1 token)
 3% Feinting Burst
@@ -923,38 +930,50 @@ Luc:
 3% Feinting Grasp
 3% Feinting Grasp (1 token)
 3% Feinting Dash
-4% Feinting Dash (1 token)
+3% Feinting Dash (1 token)
 
 Marmelee:
-8% Petrifying Meditation
-8% Petrifying Strike
-8% Petrifying Drive
-8% Petrifying Grasp
-8% Magnificent Meditation
-8% Magnificent Strike
-8% Magnificent Drive
-8% Magnificent Grasp
-8% Sorceress Meditation
-8% Sorceress Strike
-8% Sorceress Drive
-8% Sorceress Grasp
+5% Petrifying Meditation
+6% Petrifying Shot
+6% Petrifying Drive
+7% Petrifying Burst
+3% Petrifying Dash
+7% Magnificent Meditation
+8% Magnificent Shot
+7% Magnificent Drive
+8% Magnificent Burst
+6% Magnificent Dash
+7% Nullifying Meditation
+7% Nullifying Shot
+7% Nullifying Drive
+8% Nullifying Burst
+7% Nullifying Dash
 
 
-Luc: Eternal Shot (1 token)
-Marmelee: Sorceress Meditation
+Luc: Feinting Flash
+Marmelee: Petrifying Meditation
 
-Luc antes a Time token
-Priorities:  -1 | 2
-Marmelee is active
+Priorities:  4 | 2
+Luc is active
+Luc moves:
+
+..L.M..
+
+Luc moves:
+
+...LM..
+
+Luc misses
 Marmelee hits
-Luc has 1 soak
-Luc takes 1 damage (now at 9 life)
-Luc hits
-Marmelee takes 3 damage (now at 14 life)
-Marmelee is stunned
+Luc takes 3 damage (now at 15 life)
+Luc is stunned
+Luc moves:
+
+....ML.
+
 Marmelee gains 1 Concentration Counter
 Luc gains 1 Time token
 Marmelee gains 1 Concentration Counter
 Game goes to time
-MARMELEE WINS!
-total_time: 35
+LUC WINS!
+total_time: 67

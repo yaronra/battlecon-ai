@@ -11,56 +11,61 @@ Beat 1
 
 Eligor
 ------
-life: 20
-discard 1: Martial Grasp
-discard 2: Vengeful Aegis
-special action
+Life: 20
+Discard 1: Martial Grasp
+Discard 2: Vengeful Aegis
+Special action available
 2 Vengeance tokens
 
 Luc
 ---
-life: 20
-discard 1: Eternal Flash
-discard 2: Fusion Strike
-special action
+Life: 20
+Discard 1: Eternal Flash
+Discard 2: Fusion Strike
+Special action available
 2 Time tokens
 
 
 .E...L.
 
+
 Eligor:
-10% Counter Dash (1 token)
-6% Chained Shot (1 token)
+27% Counter Shot (1 token)
+2% Counter Burst (2 tokens)
+17% Chained Shot (1 token)
 23% Chained Drive
-16% Chained Dash
-44% Retribution Shot
+32% Retribution Shot
 
 Luc:
-6% Memento Burst
-17% Memento Dash
-8% Feinting Shot (1 token)
-12% Chrono Drive
-57% Chrono Dash
+2% Feinting Shot
+35% Feinting Shot (1 token)
+23% Chrono Drive
+12% Chrono Burst
+28% Chrono Dash
 
 
 Eligor: Chained Drive
-Luc: Chrono Drive
+Luc: Chrono Burst
 
-Priorities:  3 | 5
-Luc is active
-Luc spends a Time token
+Priorities:  3 | 2
+Eligor is active
 Luc moves:
+
+.E....L
+
+Eligor spends a Vengeance token
+Eligor spends a Vengeance token
+Eligor moves Luc:
 
 .E..L..
 
-Luc moves:
+Eligor moves:
 
-.EL....
+...EL..
 
-Luc hits
-Eligor takes 3 damage (now at 17 life)
-Eligor is stunned
-Eligor gains 3 Vengeance tokens
+Eligor hits
+Luc takes 3 damage (now at 17 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 2
@@ -68,50 +73,55 @@ Beat 2
 
 Eligor
 ------
-life: 17
-discard 1: Chained Drive
-discard 2: Martial Grasp
-special action
-5 Vengeance tokens
+Life: 20
+Discard 1: Chained Drive
+Discard 2: Martial Grasp
+Special action available
+0 Vengeance tokens
 
 Luc
 ---
-life: 20
-discard 1: Chrono Drive
-discard 2: Eternal Flash
-special action
-2 Time tokens
+Life: 17
+Discard 1: Chrono Burst
+Discard 2: Eternal Flash
+Special action available
+3 Time tokens
 
 
-.EL....
+...EL..
+
 
 Eligor:
-0% Retribution Aegis (1 token)
-13% Retribution Strike
-71% Retribution Shot
-16% Retribution Burst
+19% Vengeful Shot
+40% Retribution Strike
+25% Retribution Shot
+15% Retribution Burst
 
 Luc:
-5% Memento Strike
-2% Memento Burst (1 token)
-3% Feinting Strike
-90% Feinting Dash
+6% Memento Strike
+0% Memento Drive
+19% Memento Dash
+59% Fusion Dash
+15% Feinting Strike (3 tokens)
 
 
-Eligor: Retribution Shot
-Luc: Feinting Dash
+Eligor: Retribution Strike
+Luc: Memento Strike
 
-Priorities:  1 | 7
-Luc is active
-Luc moves:
+Priorities:  2 | 2
+Clash!
 
-LE.....
 
-Eligor misses
-Luc moves:
+Eligor: Retribution Dash
+Luc: Memento Shot
 
-.EL....
+Priorities:  8 | 1
+Eligor is active
+Eligor moves:
 
+....L.E
+
+Luc misses
 Luc gains 1 Time token
 
 Beat 3
@@ -119,63 +129,65 @@ Beat 3
 
 Eligor
 ------
-life: 17
-discard 1: Retribution Shot
-discard 2: Chained Drive
-special action
-5 Vengeance tokens
+Life: 20
+Discard 1: Retribution Dash
+Discard 2: Chained Drive
+Special action available
+0 Vengeance tokens
 
 Luc
 ---
-life: 20
-discard 1: Feinting Dash
-discard 2: Chrono Drive
-special action
-3 Time tokens
+Life: 17
+Discard 1: Memento Shot
+Discard 2: Chrono Burst
+Special action available
+4 Time tokens
 
 
-.EL....
+....L.E
+
+Unbeatable strategy for Luc: Eternal Drive: -0.55
+Unbeatable strategy for Luc: Feinting Flash (1 token): -0.54
+
 
 Eligor:
-28% Vengeful Aegis (3 tokens)
-8% Counter Burst
-16% Martial Aegis (3 tokens)
-20% Martial Burst
-27% Martial Burst (2 tokens)
+3% Vengeful Aegis
+11% Vengeful Strike
+27% Vengeful Shot
+4% Vengeful Grasp
+27% Martial Strike
+28% Martial Burst
 
 Luc:
-1% Eternal Strike (3 tokens)
-7% Eternal Shot
-56% Eternal Burst
-28% Memento Burst (1 token)
-7% Fusion Burst
+13% Eternal Strike
+25% Eternal Strike (3 tokens)
+44% Eternal Drive
+2% Feinting Flash
+6% Feinting Strike (3 tokens)
+10% Feinting Drive
 
 
-Eligor: Martial Burst (2 tokens)
-Luc: Eternal Burst
+Eligor: Vengeful Strike
+Luc: Eternal Strike (3 tokens)
 
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  0 | -3
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  3 | -1
 Eligor is active
 Eligor moves:
 
-E.L....
-
-Luc moves:
-
-E..L...
+....LE.
 
 Eligor hits
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +3 soak (4 total)
-Luc has 4 soak
-Luc takes 0 damage (now at 20 life)
-Luc hits
-Eligor takes 3 damage (now at 14 life)
 Eligor gains 2 Vengeance tokens
+Luc spends a Time token
+Luc gains +1 soak (2 total)
+Luc has 2 soak
+Luc takes 3 damage (now at 14 life)
+Luc hits
+Eligor takes 4 damage (now at 16 life)
+Eligor gains 3 Vengeance tokens
 Luc gains 1 Time token
 
 Beat 4
@@ -183,74 +195,56 @@ Beat 4
 
 Eligor
 ------
-life: 14
-discard 1: Martial Burst
-discard 2: Retribution Shot
-special action
+Life: 16
+Discard 1: Vengeful Strike
+Discard 2: Retribution Dash
+Special action available
 5 Vengeance tokens
 
 Luc
 ---
-life: 20
-discard 1: Eternal Burst
-discard 2: Feinting Dash
-special action
-1 Time tokens
+Life: 14
+Discard 1: Eternal Strike
+Discard 2: Memento Shot
+Special action available
+1 Time token
 
 
-E..L...
+....LE.
+
 
 Eligor:
-22% Vengeful Drive (5 tokens)
-17% Counter Drive (5 tokens)
-7% Counter Grasp
-53% Chained Aegis (2 tokens)
+36% Martial Shot (1 token)
+11% Martial Burst
+42% Chained Shot
+12% Chained Drive
 
 Luc:
-23% Memento Grasp
-16% Fusion Shot
-39% Fusion Shot (1 token)
-21% Chrono Flash
+92% Feinting Dash
+3% Chrono Flash
+4% Chrono Drive
+1% Chrono Burst
 
 
-Eligor: Vengeful Drive (5 tokens)
-Luc: Memento Grasp
+Eligor: Martial Shot (1 token)
+Luc: Feinting Dash
 
 Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  4 | 4
-Clash!
-
-Eligor:
-75% Vengeful Aegis (5 tokens)
-24% Vengeful Strike (5 tokens)
-1% Vengeful Grasp (5 tokens)
-
-Luc:
-97% Memento Flash
-0% Memento Shot
-3% Memento Drive
-
-
-Eligor: Vengeful Aegis (5 tokens)
-Luc: Memento Flash
-
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  0 | 5
+Priorities:  1 | 7
 Luc is active
 Luc moves:
 
-E.L....
+...L.E.
 
-Luc misses
+Luc moves:
+
+.....EL
+
 Eligor misses
+Luc moves:
+
+....LE.
+
 Luc gains 1 Time token
 
 Beat 5
@@ -258,48 +252,70 @@ Beat 5
 
 Eligor
 ------
-life: 14
-discard 1: Vengeful Aegis
-discard 2: Martial Burst
-special action
-0 Vengeance tokens
+Life: 16
+Discard 1: Martial Shot
+Discard 2: Vengeful Strike
+Special action available
+4 Vengeance tokens
 
 Luc
 ---
-life: 20
-discard 1: Memento Flash
-discard 2: Eternal Burst
-special action
+Life: 14
+Discard 1: Feinting Dash
+Discard 2: Eternal Strike
+Special action available
 2 Time tokens
 
 
-E.L....
+....LE.
+
 
 Eligor:
-17% Counter Shot
-67% Retribution Shot
-17% Retribution Drive
+35% Retribution Aegis (1 token)
+1% Retribution Drive
+47% Retribution Drive (1 token)
+11% Retribution Burst
+5% Retribution Burst (1 token)
 
 Luc:
-13% Feinting Strike
-84% Feinting Dash
-2% Chrono Strike
+1% Memento Drive
+23% Fusion Flash
+34% Fusion Shot
+38% Fusion Burst (1 token)
+4% Chrono Shot
 
 
-Eligor: Retribution Shot
-Luc: Feinting Dash
+Eligor: Retribution Drive (1 token)
+Luc: Fusion Burst (1 token)
 
-Priorities:  1 | 7
+Eligor antes a Vengeance token
+Luc antes a Time token
+Priorities:  3 | 3
+Clash!
+
+
+Eligor: Retribution Grasp (1 token)
+Luc: Fusion Drive (1 token)
+
+Eligor antes a Vengeance token
+Luc antes a Time token
+Priorities:  4 | 6
 Luc is active
 Luc moves:
 
-E....L.
+.....EL
 
-Eligor misses
-Luc moves:
+Luc hits
+Eligor has 2 soak
+Eligor gains 2 Vengeance tokens
+Eligor takes 0 damage (now at 16 life)
+Eligor hits
+Eligor moves Luc:
 
-E..L...
+....LE.
 
+Luc takes 2 damage (now at 12 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 6
@@ -307,61 +323,59 @@ Beat 6
 
 Eligor
 ------
-life: 14
-discard 1: Retribution Shot
-discard 2: Vengeful Aegis
-special action
-0 Vengeance tokens
+Life: 16
+Discard 1: Retribution Grasp
+Discard 2: Martial Shot
+Special action available
+5 Vengeance tokens
 
 Luc
 ---
-life: 20
-discard 1: Feinting Dash
-discard 2: Memento Flash
-special action
-3 Time tokens
+Life: 12
+Discard 1: Fusion Drive
+Discard 2: Feinting Dash
+Special action available
+2 Time tokens
 
 
-E..L...
+....LE.
 
-Unbeatable strategy for Luc: Eternal Shot: -1.42
-Unbeatable strategy for Luc: Eternal Shot (1 token): -1.02
-Unbeatable strategy for Luc: Eternal Burst: -0.26
-Unbeatable strategy for Luc: Fusion Burst: -0.26
-Unbeatable strategy for Luc: Chrono Strike: -0.56
-Unbeatable strategy for Luc: Chrono Strike (1 token): -0.16
-Unbeatable strategy for Luc: Chrono Burst: -0.83
-Unbeatable strategy for Luc: Chrono Grasp: -0.56
-Unbeatable strategy for Luc: Chrono Grasp (1 token): -0.16
 
 Eligor:
-1% Counter Strike
-1% Counter Grasp
-2% Counter Dash
-48% Martial Dash
-48% Chained Dash
+68% Vengeful Aegis (3 tokens)
+2% Vengeful Drive
+2% Vengeful Drive (1 token)
+2% Vengeful Drive (2 tokens)
+12% Counter Burst
+14% Chained Strike
 
 Luc:
-24% Eternal Shot
-7% Fusion Drive
-59% Fusion Burst
-10% Chrono Shot
+40% Eternal Shot
+56% Eternal Burst
+0% Memento Burst
+4% Chrono Burst
 
 
-Eligor: Chained Dash
-Luc: Fusion Burst
+Eligor: Vengeful Aegis (3 tokens)
+Luc: Eternal Burst
 
-Priorities:  8 | 2
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  0 | -3
 Eligor is active
 Luc moves:
 
-E....L.
+..L..E.
 
 Eligor moves:
 
-.E...L.
+..L.E..
 
-Luc misses
+Eligor misses
+Luc hits
+Eligor has 3 soak
+Eligor takes 0 damage (now at 16 life)
 Luc gains 1 Time token
 
 Beat 7
@@ -369,62 +383,56 @@ Beat 7
 
 Eligor
 ------
-life: 14
-discard 1: Chained Dash
-discard 2: Retribution Shot
-special action
-0 Vengeance tokens
+Life: 16
+Discard 1: Vengeful Aegis
+Discard 2: Retribution Grasp
+Special action available
+2 Vengeance tokens
 
 Luc
 ---
-life: 20
-discard 1: Fusion Burst
-discard 2: Feinting Dash
-special action
-4 Time tokens
+Life: 12
+Discard 1: Eternal Burst
+Discard 2: Fusion Drive
+Special action available
+3 Time tokens
 
 
-.E...L.
+..L.E..
+
 
 Eligor:
-10% Vengeful Drive
-15% Vengeful Burst
-11% Counter Strike
-10% Counter Burst
-33% Martial Strike
-21% Martial Drive
+11% Counter Shot
+10% Counter Dash
+14% Martial Burst
+6% Martial Burst (2 tokens)
+16% Chained Strike
+42% Chained Dash
 
 Luc:
-19% Eternal Shot
-10% Eternal Drive
-17% Memento Shot
-4% Memento Drive
-6% Chrono Shot
-44% Chrono Drive
+3% Memento Shot (1 token)
+4% Feinting Flash
+1% Feinting Shot
+3% Feinting Shot (1 token)
+19% Feinting Dash
+71% Chrono Dash
 
 
-Eligor: Vengeful Burst
-Luc: Chrono Drive
+Eligor: Chained Strike
+Luc: Chrono Dash
 
-Priorities:  1 | 5
+Priorities:  2 | 10
 Luc is active
-Luc spends a Time token
-Luc spends a Time token
 Luc moves:
 
-.E.L...
+....EL.
 
-Eligor moves:
+Eligor spends a Vengeance token
+Eligor spends a Vengeance token
+Eligor moves Luc:
 
-E..L...
+..L.E..
 
-Luc moves:
-
-EL.....
-
-Luc hits
-Eligor takes 3 damage (now at 11 life)
-Eligor gains 3 Vengeance tokens
 Eligor misses
 Luc gains 1 Time token
 
@@ -433,45 +441,59 @@ Beat 8
 
 Eligor
 ------
-life: 11
-discard 1: Vengeful Burst
-discard 2: Chained Dash
-special action
-3 Vengeance tokens
+Life: 16
+Discard 1: Chained Strike
+Discard 2: Vengeful Aegis
+Special action available
+0 Vengeance tokens
 
 Luc
 ---
-life: 20
-discard 1: Chrono Drive
-discard 2: Fusion Burst
-special action
-3 Time tokens
+Life: 12
+Discard 1: Chrono Dash
+Discard 2: Eternal Burst
+Special action available
+4 Time tokens
 
 
-EL.....
+..L.E..
+
 
 Eligor:
-6% Retribution Aegis (1 token)
-85% Retribution Drive
-9% Retribution Grasp
+11% Counter Drive
+4% Martial Burst
+55% Retribution Shot
+30% Retribution Drive
 
 Luc:
-22% Eternal Strike
-19% Eternal Shot
-59% Memento Flash
+19% Memento Drive (1 token)
+29% Fusion Strike (3 tokens)
+25% Feinting Strike
+27% Feinting Shot (1 token)
 
 
 Eligor: Retribution Drive
-Luc: Eternal Strike
+Luc: Fusion Strike (3 tokens)
 
-Priorities:  3 | -1
-Eligor is active
-Eligor moves:
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  3 | 4
+Luc is active
+Luc moves:
 
-.L.E...
+...LE..
 
-Eligor misses
-Luc misses
+Luc hits
+Eligor has 2 soak
+Eligor gains 2 Vengeance tokens
+Eligor takes 1 damage (now at 15 life)
+Luc moves Eligor:
+
+...L.E.
+
+Eligor is stunned
+Eligor gains 1 Vengeance token
 Luc gains 1 Time token
 
 Beat 9
@@ -479,50 +501,59 @@ Beat 9
 
 Eligor
 ------
-life: 11
-discard 1: Retribution Drive
-discard 2: Vengeful Burst
-special action
+Life: 15
+Discard 1: Retribution Drive
+Discard 2: Chained Strike
+Special action available
 3 Vengeance tokens
 
 Luc
 ---
-life: 20
-discard 1: Eternal Strike
-discard 2: Chrono Drive
-special action
-4 Time tokens
+Life: 12
+Discard 1: Fusion Strike
+Discard 2: Chrono Dash
+Special action available
+2 Time tokens
 
 
-.L.E...
+...L.E.
 
-Unbeatable strategy for Luc: Memento Flash: -0.64
-Unbeatable strategy for Luc: Memento Flash (1 token): -0.24
-Unbeatable strategy for Luc: Fusion Flash: -0.30
 
 Eligor:
-3% Martial Aegis (1 token)
-97% Chained Aegis (1 token)
+35% Vengeful Aegis (3 tokens)
+11% Vengeful Shot
+10% Counter Shot
+17% Counter Burst
+19% Martial Aegis (2 tokens)
+8% Martial Burst (2 tokens)
 
 Luc:
-98% Memento Flash
-2% Fusion Flash
+38% Eternal Flash
+33% Eternal Shot
+22% Eternal Drive
+1% Eternal Burst
+1% Memento Drive
+5% Feinting Shot (1 token)
 
 
-Eligor: Chained Aegis (1 token)
-Luc: Memento Flash
+Eligor: Vengeful Shot
+Luc: Eternal Shot
 
-Eligor antes a Vengeance token
-Priorities:  -1 | 5
-Luc is active
-Luc moves:
+Priorities:  2 | -2
+Eligor is active
+Eligor moves:
 
-..LE...
+...LE..
 
+Eligor hits
+Eligor gains 2 Vengeance tokens
+Luc spends a Time token
+Luc spends a Time token
+Luc gains +2 soak (3 total)
+Luc has 3 soak
+Luc takes 1 damage (now at 11 life)
 Luc hits
-Eligor has 1 soak
-Eligor takes 0 damage (now at 11 life)
-Eligor is stunned
+Eligor takes 3 damage (now at 12 life)
 Luc gains 1 Time token
 
 Beat 10
@@ -530,105 +561,134 @@ Beat 10
 
 Eligor
 ------
-life: 11
-discard 1: Chained Aegis
-discard 2: Retribution Drive
-special action
-2 Vengeance tokens
+Life: 12
+Discard 1: Vengeful Shot
+Discard 2: Retribution Drive
+Special action available
+5 Vengeance tokens
 
 Luc
 ---
-life: 20
-discard 1: Memento Flash
-discard 2: Eternal Strike
-special action
-5 Time tokens
+Life: 11
+Discard 1: Eternal Shot
+Discard 2: Fusion Strike
+Special action available
+1 Time token
 
 
-..LE...
+...LE..
+
 
 Eligor:
-3% Vengeful Strike
-84% Vengeful Shot
-3% Counter Dash
-11% Martial Shot (1 token)
+3% Counter Burst
+29% Martial Strike
+14% Martial Burst
+5% Martial Burst (2 tokens)
+20% Chained Strike
+29% Chained Grasp
 
 Luc:
-5% Feinting Drive
-0% Feinting Drive (5 tokens)
-74% Feinting Dash
-10% Chrono Dash
-10% Chrono Dash (1 token)
+4% Feinting Flash (1 token)
+1% Feinting Drive
+1% Feinting Burst (1 token)
+87% Feinting Dash
+1% Chrono Drive
+5% Chrono Burst
 
 
-Eligor: Vengeful Shot
+Eligor: Chained Grasp
 Luc: Feinting Dash
 
-Priorities:  2 | 7
+Priorities:  4 | 7
 Luc is active
 Luc moves:
 
-...EL..
+..L.E..
+
+Luc moves:
+
+....E.L
 
 Eligor misses
 Luc moves:
 
-..LE...
+...LE..
 
+Luc gains 1 Time token
 
 Beat 11
 -------
 
 Eligor
 ------
-life: 11
-discard 1: Vengeful Shot
-discard 2: Chained Aegis
-special action
-2 Vengeance tokens
+Life: 12
+Discard 1: Chained Grasp
+Discard 2: Vengeful Shot
+Special action available
+5 Vengeance tokens
 
 Luc
 ---
-life: 20
-discard 1: Feinting Dash
-discard 2: Memento Flash
-special action
-5 Time tokens
+Life: 11
+Discard 1: Feinting Dash
+Discard 2: Eternal Shot
+Special action available
+2 Time tokens
 
 
-..LE...
+...LE..
+
+Unbeatable strategy for Eligor: Martial Aegis (3 tokens): 0.06
+
 
 Eligor:
-15% Retribution Strike
-42% Retribution Drive
-11% Retribution Drive (1 token)
-32% Retribution Burst
+1% Counter Burst (2 tokens)
+15% Martial Aegis (2 tokens)
+15% Martial Drive (2 tokens)
+56% Martial Drive (5 tokens)
+9% Retribution Strike
+4% Retribution Drive (1 token)
 
 Luc:
-26% Eternal Strike
-60% Eternal Shot
-7% Eternal Burst
-3% Chrono Drive
-3% Chrono Drive (1 token)
+24% Memento Flash
+3% Memento Strike (1 token)
+9% Memento Drive
+11% Memento Burst
+23% Fusion Burst (1 token)
+30% Chrono Drive
 
 
-Eligor: Retribution Strike
-Luc: Eternal Strike
+Eligor: Martial Drive (5 tokens)
+Luc: Memento Flash
 
-Priorities:  2 | -1
-Eligor is active
-Eligor hits
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +3 soak (4 total)
-Luc has 4 soak
-Luc takes 0 damage (now at 20 life)
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  3 | 5
+Luc is active
+Luc moves:
+
+....EL.
+
 Luc hits
-Eligor has 2 soak
-Eligor gains 2 Vengeance tokens
-Eligor takes 2 damage (now at 9 life)
+Eligor takes 1 damage (now at 11 life)
 Eligor gains 1 Vengeance token
+Luc spends a Time token
+Luc spends a Time token
+Luc attacks again
+Luc hits
+Eligor takes 1 damage (now at 10 life)
+Eligor gains 1 Vengeance token
+Eligor gets +2 power
+Eligor moves:
+
+.....LE
+
+Eligor hits
+Luc takes 6 damage (now at 5 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 12
@@ -636,94 +696,67 @@ Beat 12
 
 Eligor
 ------
-life: 9
-discard 1: Retribution Strike
-discard 2: Vengeful Shot
-special action
-5 Vengeance tokens
+Life: 10
+Discard 1: Martial Drive
+Discard 2: Chained Grasp
+Special action available
+2 Vengeance tokens
 
 Luc
 ---
-life: 20
-discard 1: Eternal Strike
-discard 2: Feinting Dash
-special action
-3 Time tokens
+Life: 5
+Discard 1: Memento Flash
+Discard 2: Feinting Dash
+Special action available
+1 Time token
 
 
-..LE...
+.....LE
+
 
 Eligor:
-13% Martial Aegis (1 token)
-4% Martial Aegis (2 tokens)
-82% Martial Drive (5 tokens)
-2% Martial Grasp
+24% Vengeful Strike
+4% Vengeful Shot
+45% Vengeful Shot (1 token)
+12% Counter Strike (1 token)
+14% Counter Shot
 
 Luc:
-61% Memento Drive
-27% Memento Burst
-4% Chrono Shot
-7% Chrono Burst (1 token)
+53% Eternal Strike
+24% Eternal Burst
+13% Eternal Grasp (1 token)
+9% Fusion Burst
+1% Chrono Burst
 
 
-Eligor: Martial Drive (5 tokens)
-Luc: Memento Drive
+Eligor: Vengeful Shot (1 token)
+Luc: Eternal Grasp (1 token)
 
 Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  3 | 3
+Luc antes a Time token
+Priorities:  2 | 2
 Clash!
 
-Eligor:
-100% Martial Burst (5 tokens)
 
-Luc:
-100% Memento Burst
-
-
-Eligor: Martial Burst (5 tokens)
-Luc: Memento Burst
+Eligor: Vengeful Strike (1 token)
+Luc: Eternal Burst (1 token)
 
 Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  0 | 0
-Clash!
+Luc antes a Time token
+Priorities:  3 | -2
+Eligor is active
+Luc moves:
 
-Eligor:
-69% Martial Aegis (5 tokens)
-31% Martial Grasp (5 tokens)
+...L..E
 
-Luc:
-31% Memento Flash
-69% Memento Grasp
+Eligor moves:
 
+...L.E.
 
-Eligor: Martial Aegis (5 tokens)
-Luc: Memento Grasp
-
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Eligor antes a Vengeance token
-Priorities:  -1 | 4
-Luc is active
+Eligor misses
 Luc hits
-Luc moves Eligor:
-
-.EL....
-
-Eligor has 5 soak
-Eligor takes 0 damage (now at 9 life)
-Eligor hits
-Luc takes 3 damage (now at 17 life)
-Luc is stunned
+Eligor takes 3 damage (now at 7 life)
+Eligor gains 3 Vengeance tokens
 Luc gains 1 Time token
 
 Beat 13
@@ -731,51 +764,55 @@ Beat 13
 
 Eligor
 ------
-life: 9
-discard 1: Martial Aegis
-discard 2: Retribution Strike
-special action
-0 Vengeance tokens
+Life: 7
+Discard 1: Vengeful Strike
+Discard 2: Martial Drive
+Special action available
+4 Vengeance tokens
 
 Luc
 ---
-life: 17
-discard 1: Memento Grasp
-discard 2: Eternal Strike
-special action
-4 Time tokens
+Life: 5
+Discard 1: Eternal Burst
+Discard 2: Memento Flash
+Special action available
+1 Time token
 
 
-.EL....
+...L.E.
 
-Unbeatable strategy for Luc: Feinting Dash: -0.16
 
 Eligor:
-49% Vengeful Shot
-4% Vengeful Drive
-20% Vengeful Burst
-27% Chained Shot
+16% Counter Shot (1 token)
+12% Chained Aegis (2 tokens)
+2% Chained Burst
+6% Retribution Aegis (1 token)
+0% Retribution Shot
+1% Retribution Burst
+54% Retribution Dash
+10% Retribution Dash (1 token)
 
 Luc:
-7% Feinting Flash (3 tokens)
-90% Feinting Dash
-3% Chrono Flash
+9% Fusion Drive
+42% Fusion Dash
+6% Feinting Strike
+1% Feinting Shot (1 token)
+21% Feinting Dash
+9% Feinting Dash (1 token)
+6% Chrono Strike
+6% Chrono Drive
 
 
-Eligor: Vengeful Shot
-Luc: Feinting Dash
+Eligor: Retribution Dash
+Luc: Chrono Strike
 
-Priorities:  2 | 7
-Luc is active
-Luc moves:
+Priorities:  8 | 4
+Eligor is active
+Eligor moves:
 
-LE.....
+..EL...
 
-Eligor misses
-Luc moves:
-
-.EL....
-
+Luc misses
 Luc gains 1 Time token
 
 Beat 14
@@ -783,328 +820,237 @@ Beat 14
 
 Eligor
 ------
-life: 9
-discard 1: Vengeful Shot
-discard 2: Martial Aegis
-special action
-0 Vengeance tokens
+Life: 7
+Discard 1: Retribution Dash
+Discard 2: Vengeful Strike
+Special action available
+4 Vengeance tokens
 
 Luc
 ---
-life: 17
-discard 1: Feinting Dash
-discard 2: Memento Grasp
-special action
-5 Time tokens
+Life: 5
+Discard 1: Chrono Strike
+Discard 2: Eternal Burst
+Special action available
+2 Time tokens
+
+
+..EL...
+
+
+Eligor:
+35% Martial Aegis (1 token)
+16% Martial Shot (1 token)
+12% Chained Drive
+37% Chained Burst
+
+Luc:
+2% Memento Drive
+2% Fusion Drive
+93% Feinting Dash
+2% Special Temporal Recursion
+
+
+Eligor: Martial Aegis (1 token)
+Luc: Memento Drive
+
+Eligor antes a Vengeance token
+Priorities:  -1 | 3
+Luc is active
+Luc moves:
+
+L.E....
+
+Luc misses
+Eligor hits
+Luc takes 4 damage (now at 1 life)
+Luc is stunned
+Luc gains 1 Time token
+
+Beat 15
+-------
+
+Eligor
+------
+Life: 7
+Discard 1: Martial Aegis
+Discard 2: Retribution Dash
+Special action available
+3 Vengeance tokens
+
+Luc
+---
+Life: 1
+Discard 1: Memento Drive
+Discard 2: Chrono Strike
+Special action available
+3 Time tokens
+
+
+L.E....
+
+
+Eligor:
+100% Vengeful Burst
+
+Luc:
+100% Special Pulse
+
+
+Eligor: Vengeful Burst
+Luc: Special Pulse
+
+Luc Pulses:
+
+.EL....
+
+
+Beat 15
+-------
+
+Eligor
+------
+Life: 7
+Discard 1: Vengeful Burst
+Discard 2: Martial Aegis
+Special action available
+3 Vengeance tokens
+
+Luc
+---
+Life: 1
+Discard 1: Memento Drive
+Discard 2: Chrono Strike
+3 Time tokens
 
 
 .EL....
 
-Eligor:
-35% Counter Drive
-31% Counter Burst
-27% Retribution Strike
-7% Retribution Drive
-
-Luc:
-34% Eternal Shot
-32% Eternal Drive
-32% Eternal Burst
-3% Fusion Shot (1 token)
-
-
-Eligor: Counter Burst
-Luc: Eternal Burst
-
-Priorities:  0 | -3
-Eligor is active
-Luc is stunned
-Eligor moves:
-
-E.L....
-
-Luc moves:
-
-E...L..
-
-Eligor misses
-
-Beat 15
--------
-
-Eligor
-------
-life: 9
-discard 1: Counter Burst
-discard 2: Vengeful Shot
-special action
-0 Vengeance tokens
-
-Luc
----
-life: 17
-discard 1: Eternal Burst
-discard 2: Feinting Dash
-special action
-5 Time tokens
-
-
-E...L..
-
-Unbeatable strategy for Luc: Memento Flash: -14.00
-Unbeatable strategy for Luc: Memento Flash (1 token): -14.00
-Unbeatable strategy for Luc: Memento Flash (3 tokens): -14.00
-Unbeatable strategy for Luc: Memento Flash (5 tokens): -14.00
-Unbeatable strategy for Luc: Memento Strike: -14.00
-Unbeatable strategy for Luc: Memento Strike (1 token): -14.00
-Unbeatable strategy for Luc: Memento Strike (3 tokens): -14.00
-Unbeatable strategy for Luc: Memento Strike (5 tokens): -14.00
-Unbeatable strategy for Luc: Memento Shot: -14.00
-Unbeatable strategy for Luc: Memento Shot (1 token): -14.00
-Unbeatable strategy for Luc: Memento Shot (3 tokens): -14.00
-Unbeatable strategy for Luc: Memento Shot (5 tokens): -14.00
-Unbeatable strategy for Luc: Memento Drive: -14.00
-Unbeatable strategy for Luc: Memento Drive (1 token): -14.00
-Unbeatable strategy for Luc: Memento Drive (3 tokens): -14.00
-Unbeatable strategy for Luc: Memento Drive (5 tokens): -14.00
-Unbeatable strategy for Luc: Memento Grasp: -14.00
-Unbeatable strategy for Luc: Memento Grasp (1 token): -14.00
-Unbeatable strategy for Luc: Memento Grasp (3 tokens): -14.00
-Unbeatable strategy for Luc: Memento Grasp (5 tokens): -14.00
-Unbeatable strategy for Luc: Fusion Flash: -14.00
-Unbeatable strategy for Luc: Fusion Flash (1 token): -14.00
-Unbeatable strategy for Luc: Fusion Flash (3 tokens): -14.00
-Unbeatable strategy for Luc: Fusion Flash (5 tokens): -14.00
-Unbeatable strategy for Luc: Fusion Strike: -14.00
-Unbeatable strategy for Luc: Fusion Strike (1 token): -14.00
-Unbeatable strategy for Luc: Fusion Strike (3 tokens): -14.00
-Unbeatable strategy for Luc: Fusion Strike (5 tokens): -14.00
-Unbeatable strategy for Luc: Fusion Shot: -14.00
-Unbeatable strategy for Luc: Fusion Shot (1 token): -14.00
-Unbeatable strategy for Luc: Fusion Shot (3 tokens): -14.00
-Unbeatable strategy for Luc: Fusion Shot (5 tokens): -14.00
-Unbeatable strategy for Luc: Fusion Drive: -14.00
-Unbeatable strategy for Luc: Fusion Drive (1 token): -14.00
-Unbeatable strategy for Luc: Fusion Drive (3 tokens): -14.00
-Unbeatable strategy for Luc: Fusion Drive (5 tokens): -14.00
-Unbeatable strategy for Luc: Fusion Grasp: -14.00
-Unbeatable strategy for Luc: Fusion Grasp (1 token): -14.00
-Unbeatable strategy for Luc: Fusion Grasp (3 tokens): -14.00
-Unbeatable strategy for Luc: Fusion Grasp (5 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Flash: -14.00
-Unbeatable strategy for Luc: Chrono Flash (1 token): -14.00
-Unbeatable strategy for Luc: Chrono Flash (3 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Flash (5 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Strike: -14.00
-Unbeatable strategy for Luc: Chrono Strike (1 token): -14.00
-Unbeatable strategy for Luc: Chrono Strike (3 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Strike (5 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Shot: -14.00
-Unbeatable strategy for Luc: Chrono Shot (1 token): -14.00
-Unbeatable strategy for Luc: Chrono Shot (3 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Shot (5 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Drive: -14.00
-Unbeatable strategy for Luc: Chrono Drive (1 token): -14.00
-Unbeatable strategy for Luc: Chrono Drive (3 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Drive (5 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Grasp: -14.00
-Unbeatable strategy for Luc: Chrono Grasp (1 token): -14.00
-Unbeatable strategy for Luc: Chrono Grasp (3 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Grasp (5 tokens): -14.00
 
 Eligor:
-100% Special Pulse
+2% Counter Strike
+2% Counter Strike (1 token)
+2% Counter Strike (2 tokens)
+2% Counter Strike (3 tokens)
+2% Counter Shot
+2% Counter Shot (1 token)
+2% Counter Shot (2 tokens)
+2% Counter Shot (3 tokens)
+2% Counter Drive
+2% Counter Drive (1 token)
+2% Counter Drive (2 tokens)
+2% Counter Drive (3 tokens)
+2% Counter Grasp
+2% Counter Grasp (1 token)
+2% Counter Grasp (2 tokens)
+2% Counter Grasp (3 tokens)
+2% Counter Dash
+2% Counter Dash (1 token)
+2% Counter Dash (2 tokens)
+2% Counter Dash (3 tokens)
+2% Chained Strike
+2% Chained Strike (1 token)
+2% Chained Strike (2 tokens)
+2% Chained Strike (3 tokens)
+2% Chained Shot
+2% Chained Shot (1 token)
+2% Chained Shot (2 tokens)
+2% Chained Shot (3 tokens)
+2% Chained Drive
+2% Chained Drive (1 token)
+2% Chained Drive (2 tokens)
+2% Chained Drive (3 tokens)
+2% Chained Grasp
+2% Chained Grasp (1 token)
+2% Chained Grasp (2 tokens)
+2% Chained Grasp (3 tokens)
+2% Chained Dash
+2% Chained Dash (1 token)
+2% Chained Dash (2 tokens)
+2% Chained Dash (3 tokens)
+2% Retribution Strike
+2% Retribution Strike (1 token)
+2% Retribution Strike (2 tokens)
+2% Retribution Strike (3 tokens)
+2% Retribution Shot
+2% Retribution Shot (1 token)
+2% Retribution Shot (2 tokens)
+2% Retribution Shot (3 tokens)
+2% Retribution Drive
+2% Retribution Drive (1 token)
+2% Retribution Drive (2 tokens)
+2% Retribution Drive (3 tokens)
+2% Retribution Grasp
+2% Retribution Grasp (1 token)
+2% Retribution Grasp (2 tokens)
+2% Retribution Grasp (3 tokens)
+2% Retribution Dash
+2% Retribution Dash (1 token)
+2% Retribution Dash (2 tokens)
+2% Retribution Dash (3 tokens)
 
 Luc:
-25% Memento Strike
-25% Memento Grasp
-25% Fusion Strike
-25% Fusion Grasp
-
-
-Eligor: Special Pulse
-Luc: Fusion Grasp
-
-Pulse:
-
-E....L.
-
-
-Beat 15
--------
-
-Eligor
-------
-life: 9
-discard 1: Counter Burst
-discard 2: Vengeful Shot
-0 Vengeance tokens
-
-Luc
----
-life: 17
-discard 1: Fusion Grasp
-discard 2: Eternal Burst
-special action
-5 Time tokens
-
-
-E....L.
-
-Unbeatable strategy for Luc: Memento Flash: -14.00
-Unbeatable strategy for Luc: Memento Flash (1 token): -14.00
-Unbeatable strategy for Luc: Memento Flash (3 tokens): -14.00
-Unbeatable strategy for Luc: Memento Flash (5 tokens): -14.00
-Unbeatable strategy for Luc: Memento Strike: -14.00
-Unbeatable strategy for Luc: Memento Strike (1 token): -14.00
-Unbeatable strategy for Luc: Memento Strike (3 tokens): -14.00
-Unbeatable strategy for Luc: Memento Strike (5 tokens): -14.00
-Unbeatable strategy for Luc: Memento Shot: -14.00
-Unbeatable strategy for Luc: Memento Shot (1 token): -14.00
-Unbeatable strategy for Luc: Memento Shot (3 tokens): -14.00
-Unbeatable strategy for Luc: Memento Shot (5 tokens): -14.00
-Unbeatable strategy for Luc: Memento Drive: -14.00
-Unbeatable strategy for Luc: Memento Drive (1 token): -14.00
-Unbeatable strategy for Luc: Memento Drive (3 tokens): -14.00
-Unbeatable strategy for Luc: Memento Drive (5 tokens): -14.00
-Unbeatable strategy for Luc: Memento Dash: -14.00
-Unbeatable strategy for Luc: Memento Dash (1 token): -14.00
-Unbeatable strategy for Luc: Memento Dash (3 tokens): -14.00
-Unbeatable strategy for Luc: Memento Dash (5 tokens): -14.00
-Unbeatable strategy for Luc: Feinting Flash: -14.00
-Unbeatable strategy for Luc: Feinting Flash (1 token): -14.00
-Unbeatable strategy for Luc: Feinting Flash (3 tokens): -14.00
-Unbeatable strategy for Luc: Feinting Flash (5 tokens): -14.00
-Unbeatable strategy for Luc: Feinting Strike: -14.00
-Unbeatable strategy for Luc: Feinting Strike (1 token): -14.00
-Unbeatable strategy for Luc: Feinting Strike (3 tokens): -14.00
-Unbeatable strategy for Luc: Feinting Strike (5 tokens): -14.00
-Unbeatable strategy for Luc: Feinting Shot: -14.00
-Unbeatable strategy for Luc: Feinting Shot (1 token): -14.00
-Unbeatable strategy for Luc: Feinting Shot (3 tokens): -14.00
-Unbeatable strategy for Luc: Feinting Shot (5 tokens): -14.00
-Unbeatable strategy for Luc: Feinting Drive: -14.00
-Unbeatable strategy for Luc: Feinting Drive (1 token): -14.00
-Unbeatable strategy for Luc: Feinting Drive (3 tokens): -14.00
-Unbeatable strategy for Luc: Feinting Drive (5 tokens): -14.00
-Unbeatable strategy for Luc: Feinting Dash: -14.00
-Unbeatable strategy for Luc: Feinting Dash (1 token): -14.00
-Unbeatable strategy for Luc: Feinting Dash (3 tokens): -14.00
-Unbeatable strategy for Luc: Feinting Dash (5 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Flash: -14.00
-Unbeatable strategy for Luc: Chrono Flash (1 token): -14.00
-Unbeatable strategy for Luc: Chrono Flash (3 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Flash (5 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Strike: -14.00
-Unbeatable strategy for Luc: Chrono Strike (1 token): -14.00
-Unbeatable strategy for Luc: Chrono Strike (3 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Strike (5 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Shot: -14.00
-Unbeatable strategy for Luc: Chrono Shot (1 token): -14.00
-Unbeatable strategy for Luc: Chrono Shot (3 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Shot (5 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Drive: -14.00
-Unbeatable strategy for Luc: Chrono Drive (1 token): -14.00
-Unbeatable strategy for Luc: Chrono Drive (3 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Drive (5 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Dash: -14.00
-Unbeatable strategy for Luc: Chrono Dash (1 token): -14.00
-Unbeatable strategy for Luc: Chrono Dash (3 tokens): -14.00
-Unbeatable strategy for Luc: Chrono Dash (5 tokens): -14.00
-
-Eligor:
-6% Martial Aegis
-6% Martial Strike
-6% Martial Drive
-6% Martial Grasp
-7% Martial Dash
-6% Chained Aegis
-6% Chained Strike
-6% Chained Drive
-6% Chained Grasp
-7% Chained Dash
-7% Retribution Aegis
-7% Retribution Strike
-6% Retribution Drive
-7% Retribution Grasp
-9% Retribution Dash
-
-Luc:
-2% Memento Flash
-2% Memento Flash (1 token)
-2% Memento Flash (3 tokens)
-2% Memento Flash (5 tokens)
-2% Memento Strike
-2% Memento Strike (1 token)
-2% Memento Strike (3 tokens)
-2% Memento Strike (5 tokens)
-2% Memento Shot
-2% Memento Shot (1 token)
-2% Memento Shot (3 tokens)
-2% Memento Shot (5 tokens)
-2% Memento Drive
-2% Memento Drive (1 token)
-2% Memento Drive (3 tokens)
-2% Memento Drive (5 tokens)
-2% Memento Dash
-2% Memento Dash (1 token)
-2% Memento Dash (3 tokens)
-2% Memento Dash (5 tokens)
+2% Eternal Flash
+2% Eternal Flash (1 token)
+2% Eternal Flash (3 tokens)
+2% Eternal Shot
+2% Eternal Shot (1 token)
+2% Eternal Shot (3 tokens)
+3% Eternal Burst
+2% Eternal Burst (1 token)
+2% Eternal Burst (3 tokens)
+3% Eternal Grasp
+2% Eternal Grasp (1 token)
+2% Eternal Grasp (3 tokens)
+2% Eternal Dash
+2% Eternal Dash (1 token)
+2% Eternal Dash (3 tokens)
+3% Fusion Flash
+2% Fusion Flash (1 token)
+2% Fusion Flash (3 tokens)
+2% Fusion Shot
+2% Fusion Shot (1 token)
+2% Fusion Shot (3 tokens)
+2% Fusion Burst
+2% Fusion Burst (1 token)
+2% Fusion Burst (3 tokens)
+3% Fusion Grasp
+3% Fusion Grasp (1 token)
+2% Fusion Grasp (3 tokens)
+2% Fusion Dash
+2% Fusion Dash (1 token)
+2% Fusion Dash (3 tokens)
 2% Feinting Flash
 2% Feinting Flash (1 token)
 2% Feinting Flash (3 tokens)
-2% Feinting Flash (5 tokens)
-2% Feinting Strike
-2% Feinting Strike (1 token)
-2% Feinting Strike (3 tokens)
-2% Feinting Strike (5 tokens)
 2% Feinting Shot
 2% Feinting Shot (1 token)
-2% Feinting Shot (3 tokens)
-2% Feinting Shot (5 tokens)
-2% Feinting Drive
-2% Feinting Drive (1 token)
-2% Feinting Drive (3 tokens)
-2% Feinting Drive (5 tokens)
+3% Feinting Shot (3 tokens)
+2% Feinting Burst
+2% Feinting Burst (1 token)
+2% Feinting Burst (3 tokens)
+2% Feinting Grasp
+2% Feinting Grasp (1 token)
+2% Feinting Grasp (3 tokens)
 2% Feinting Dash
 2% Feinting Dash (1 token)
-2% Feinting Dash (3 tokens)
-2% Feinting Dash (5 tokens)
-2% Chrono Flash
-2% Chrono Flash (1 token)
-2% Chrono Flash (3 tokens)
-2% Chrono Flash (5 tokens)
-2% Chrono Strike
-2% Chrono Strike (1 token)
-2% Chrono Strike (3 tokens)
-2% Chrono Strike (5 tokens)
-2% Chrono Shot
-2% Chrono Shot (1 token)
-2% Chrono Shot (3 tokens)
-2% Chrono Shot (5 tokens)
-2% Chrono Drive
-2% Chrono Drive (1 token)
-2% Chrono Drive (3 tokens)
-2% Chrono Drive (5 tokens)
-2% Chrono Dash
-2% Chrono Dash (1 token)
-2% Chrono Dash (3 tokens)
-2% Chrono Dash (5 tokens)
+3% Feinting Dash (3 tokens)
 
 
-Eligor: Retribution Aegis
-Luc: Memento Flash (1 token)
+Eligor: Counter Drive (2 tokens)
+Luc: Fusion Flash
 
-Luc antes a Time token
-Priorities:  -1 | 6
+Eligor antes a Vengeance token
+Eligor antes a Vengeance token
+Priorities:  3 | 7
 Luc is active
 Luc moves:
 
-E...L..
+LE.....
 
-Luc misses
-Eligor misses
-Luc gains 1 Time token
-Game goes to time
-LUC WINS!
-total_time: 83
+Luc hits
+Eligor takes 0 damage (now at 7 life)
+Eligor hits
+Luc takes 4 damage (now at 0 life)
+ELIGOR WINS!
+total_time: 109

@@ -11,70 +11,59 @@ Beat 1
 
 Luc
 ---
-life: 20
-discard 1: Eternal Flash
-discard 2: Fusion Strike
-special action
+Life: 20
+Discard 1: Eternal Flash
+Discard 2: Fusion Strike
+Special action available
 2 Time tokens
 
 Shekhtur
 --------
-life: 20
-discard 1: Combination Brand
-discard 2: Jugular Grasp
-special action
+Life: 20
+Discard 1: Combination Brand
+Discard 2: Jugular Grasp
+Special action available
 3 Malice tokens
 
 
 .L...S.
 
+
 Luc:
-35% Memento Dash
-20% Feinting Shot
-1% Feinting Shot (1 token)
-6% Feinting Burst
-4% Chrono Shot
-8% Chrono Shot (1 token)
-14% Chrono Drive (1 token)
-13% Chrono Dash
+41% Memento Dash
+12% Feinting Drive
+17% Chrono Shot
+14% Chrono Shot (1 token)
+16% Chrono Drive (1 token)
 
 Shekhtur:
-18% Unleashed Strike
-18% Unleashed Drive (2 tokens)
-22% Unleashed Drive (3 tokens)
-0% Reaver Shot
-5% Reaver Shot (2 tokens)
-9% Reaver Shot (3 tokens)
-12% Reaver Drive (3 tokens)
-16% Spiral Shot
+28% Unleashed Strike
+43% Unleashed Drive (3 tokens)
+2% Unleashed Burst
+3% Unleashed Burst (3 tokens)
+24% Reaver Shot (3 tokens)
 
 
-Luc: Feinting Shot
-Shekhtur: Unleashed Drive (3 tokens)
+Luc: Chrono Shot
+Shekhtur: Reaver Shot (3 tokens)
 
 Shekhtur antes a Malice token
 Shekhtur antes a Malice token
 Shekhtur antes a Malice token
-Priorities:  0 | 7
+Priorities:  3 | 5
 Shekhtur is active
-Shekhtur moves:
-
-.L.S...
-
-Shekhtur hits
-Luc takes 2 damage (now at 18 life)
-Shekhtur gains 2 Malice tokens
-Shekhtur moves:
-
-.L...S.
-
-Luc hits
-Shekhtur takes 3 damage (now at 17 life)
-Shekhtur is stunned
-Shekhtur gains 2 Malice tokens
+Luc spends a Time token
 Luc moves:
 
-...L.S.
+..L..S.
+
+Shekhtur hits
+Luc takes 3 damage (now at 17 life)
+Shekhtur gains 3 Malice tokens
+Luc is stunned
+Shekhtur moves:
+
+..L.S..
 
 Luc gains 1 Time token
 
@@ -83,63 +72,68 @@ Beat 2
 
 Luc
 ---
-life: 18
-discard 1: Feinting Shot
-discard 2: Eternal Flash
-special action
-3 Time tokens
+Life: 17
+Discard 1: Chrono Shot
+Discard 2: Eternal Flash
+Special action available
+2 Time tokens
 
 Shekhtur
 --------
-life: 17
-discard 1: Unleashed Drive
-discard 2: Combination Brand
-special action
-4 Malice tokens
-+1 Power from playing Unleashed last beat
-Shekhtur hit the opponent last beat
+Life: 20
+Discard 1: Reaver Shot
+Discard 2: Combination Brand
+Special action available
+3 Malice tokens
+Shekhtur hit her opponent last beat
 
 
-...L.S.
+..L.S..
+
+Unbeatable strategy for Shekhtur: Unleashed Drive (2 tokens): -0.31
+Unbeatable strategy for Shekhtur: Unleashed Drive (3 tokens): -0.01
+Unbeatable strategy for Shekhtur: Unleashed Grasp (1 token): -0.13
+Unbeatable strategy for Shekhtur: Unleashed Dash: -0.26
+
 
 Luc:
-10% Memento Drive
-21% Memento Dash
-8% Memento Dash (1 token)
-2% Fusion Drive
-31% Fusion Dash
-26% Fusion Dash (1 token)
-0% Chrono Drive
-2% Chrono Burst
+4% Memento Drive
+5% Memento Burst
+18% Memento Dash
+11% Fusion Drive (1 token)
+14% Fusion Burst
+24% Fusion Dash
+24% Fusion Dash (1 token)
 
 Shekhtur:
-2% Reaver Shot (2 tokens)
-7% Reaver Grasp (3 tokens)
-0% Reaver Grasp (4 tokens)
-2% Jugular Shot (2 tokens)
-40% Jugular Shot (3 tokens)
-2% Jugular Burst (3 tokens)
-3% Jugular Burst (4 tokens)
-9% Jugular Grasp (3 tokens)
-30% Spiral Burst
-6% Spiral Grasp
+27% Unleashed Drive
+23% Unleashed Grasp
+4% Unleashed Grasp (1 token)
+1% Unleashed Grasp (3 tokens)
+7% Unleashed Dash (1 token)
+4% Jugular Drive (3 tokens)
+35% Spiral Burst
 
 
-Luc: Fusion Dash (1 token)
-Shekhtur: Jugular Shot (3 tokens)
+Luc: Fusion Dash
+Shekhtur: Unleashed Grasp (3 tokens)
 
-Luc antes a Time token
 Shekhtur antes a Malice token
 Shekhtur antes a Malice token
 Shekhtur antes a Malice token
-Priorities:  11 | 7
+Priorities:  10 | 8
 Luc is active
 Luc moves:
 
-L....S.
+....S.L
 
 Shekhtur misses
+Shekhtur moves:
+
+..S...L
+
 Shekhtur gains 2 Malice tokens
+Shekhtur will have 1 power next beat
 Luc gains 1 Time token
 
 Beat 3
@@ -147,57 +141,55 @@ Beat 3
 
 Luc
 ---
-life: 18
-discard 1: Fusion Dash
-discard 2: Feinting Shot
-special action
+Life: 17
+Discard 1: Fusion Dash
+Discard 2: Chrono Shot
+Special action available
 3 Time tokens
 
 Shekhtur
 --------
-life: 17
-discard 1: Jugular Shot
-discard 2: Unleashed Drive
-special action
-3 Malice tokens
+Life: 20
+Discard 1: Unleashed Grasp
+Discard 2: Reaver Shot
+Special action available
+Power bonus: 1
+2 Malice tokens
 
 
-L....S.
+..S...L
 
-Unbeatable strategy for Luc: Eternal Burst: 0.03
 
 Luc:
-0% Eternal Drive (3 tokens)
-15% Eternal Burst
-27% Eternal Grasp
-30% Memento Strike
-6% Memento Drive
-11% Memento Burst
-11% Chrono Burst
+78% Eternal Drive
+14% Eternal Burst
+8% Feinting Drive (3 tokens)
 
 Shekhtur:
-22% Combination Brand
-11% Combination Strike
-27% Combination Dash
-10% Reaver Dash
-4% Spiral Brand
-27% Spiral Strike
+14% Combination Burst
+48% Spiral Strike
+37% Spiral Burst
+
+
+Luc: Eternal Drive
+Shekhtur: Spiral Burst
+
+Priorities:  0 | 0
+Clash!
 
 
 Luc: Eternal Grasp
-Shekhtur: Reaver Dash
+Shekhtur: Spiral Strike
 
-Priorities:  1 | 9
+Priorities:  1 | 2
 Shekhtur is active
 Shekhtur moves:
 
-L.S....
+....S.L
 
+Shekhtur gets -2 power
+Shekhtur misses
 Luc misses
-Shekhtur moves:
-
-LS.....
-
 Luc gains 1 Time token
 
 Beat 4
@@ -205,83 +197,72 @@ Beat 4
 
 Luc
 ---
-life: 18
-discard 1: Eternal Grasp
-discard 2: Fusion Dash
-special action
+Life: 17
+Discard 1: Eternal Grasp
+Discard 2: Fusion Dash
+Special action available
 4 Time tokens
 
 Shekhtur
 --------
-life: 17
-discard 1: Reaver Dash
-discard 2: Jugular Shot
-special action
-3 Malice tokens
+Life: 20
+Discard 1: Spiral Strike
+Discard 2: Unleashed Grasp
+Special action available
+2 Malice tokens
 
 
-LS.....
+....S.L
+
 
 Luc:
-3% Memento Strike
-13% Memento Shot (3 tokens)
-10% Feinting Burst (3 tokens)
-2% Chrono Flash
-36% Chrono Flash (1 token)
-5% Chrono Shot (1 token)
-9% Chrono Shot (3 tokens)
-10% Chrono Drive (1 token)
-11% Chrono Burst (3 tokens)
+38% Memento Strike
+3% Memento Strike (1 token)
+2% Chrono Strike (1 token)
+49% Chrono Drive (1 token)
+8% Chrono Burst (3 tokens)
 
 Shekhtur:
-8% Unleashed Strike (1 token)
-8% Unleashed Strike (2 tokens)
-24% Unleashed Drive (2 tokens)
-10% Unleashed Drive (3 tokens)
-5% Unleashed Burst
-1% Combination Drive (3 tokens)
-18% Combination Grasp (3 tokens)
-13% Spiral Drive (3 tokens)
-13% Spiral Burst (3 tokens)
+4% Combination Brand (1 token)
+16% Combination Brand (2 tokens)
+20% Reaver Burst
+40% Jugular Shot (2 tokens)
+3% Jugular Drive (1 token)
+17% Jugular Drive (2 tokens)
 
 
-Luc: Chrono Drive (1 token)
-Shekhtur: Unleashed Drive (2 tokens)
+Luc: Chrono Burst (3 tokens)
+Shekhtur: Jugular Shot (2 tokens)
 
+Luc antes a Time token
+Luc antes a Time token
 Luc antes a Time token
 Shekhtur antes a Malice token
 Shekhtur antes a Malice token
-Priorities:  6 | 6
-Clash!
-
-Luc:
-8% Chrono Flash (1 token)
-68% Chrono Strike (1 token)
-24% Chrono Shot (1 token)
-
-Shekhtur:
-54% Unleashed Strike (2 tokens)
-44% Unleashed Burst (2 tokens)
-2% Unleashed Grasp (2 tokens)
-
-
-Luc: Chrono Shot (1 token)
-Shekhtur: Unleashed Strike (2 tokens)
-
-Luc antes a Time token
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Priorities:  4 | 5
+Priorities:  2 | 6
 Shekhtur is active
+Luc spends a Time token
+Luc moves:
+
+....SL.
+
+Luc moves:
+
+..L.S..
+
+Luc moves:
+
+L...S..
+
 Shekhtur hits
-Luc takes 3 damage (now at 15 life)
-Shekhtur gains 3 Malice tokens
+Shekhtur moves Luc:
+
+.L..S..
+
+Luc takes 4 damage (now at 13 life)
+Shekhtur gains 4 Malice tokens
 Luc is stunned
-Shekhtur moves:
-
-L.S....
-
-Shekhtur gains 1 Malice token
+Shekhtur discards a Malice token
 Luc gains 1 Time token
 
 Beat 5
@@ -289,79 +270,81 @@ Beat 5
 
 Luc
 ---
-life: 15
-discard 1: Chrono Shot
-discard 2: Eternal Grasp
-special action
-4 Time tokens
+Life: 13
+Discard 1: Chrono Burst
+Discard 2: Eternal Grasp
+Special action available
+1 Time token
 
 Shekhtur
 --------
-life: 17
-discard 1: Unleashed Strike
-discard 2: Reaver Dash
-special action
-5 Malice tokens
-+1 Power from playing Unleashed last beat
-Shekhtur hit the opponent last beat
+Life: 20
+Discard 1: Jugular Shot
+Discard 2: Spiral Strike
+Special action available
+3 Malice tokens
+Shekhtur hit her opponent last beat
 
+
+.L..S..
+
+Unbeatable strategy for Shekhtur: Unleashed Drive (2 tokens): -0.75
+Unbeatable strategy for Shekhtur: Unleashed Drive (3 tokens): -0.45
+Unbeatable strategy for Shekhtur: Unleashed Burst: -1.11
+Unbeatable strategy for Shekhtur: Unleashed Burst (1 token): -0.81
+Unbeatable strategy for Shekhtur: Unleashed Burst (2 tokens): -0.51
+Unbeatable strategy for Shekhtur: Unleashed Burst (3 tokens): -0.21
+Unbeatable strategy for Shekhtur: Unleashed Grasp (1 token): -0.69
+Unbeatable strategy for Shekhtur: Unleashed Grasp (2 tokens): -0.39
+Unbeatable strategy for Shekhtur: Unleashed Grasp (3 tokens): -0.09
+Unbeatable strategy for Shekhtur: Unleashed Dash: -0.55
+Unbeatable strategy for Shekhtur: Unleashed Dash (1 token): -0.25
+Unbeatable strategy for Shekhtur: Combination Burst: -0.58
+Unbeatable strategy for Shekhtur: Combination Burst (1 token): -0.28
+
+
+Luc:
+25% Memento Dash
+10% Memento Dash (1 token)
+9% Fusion Drive (1 token)
+34% Fusion Dash
+12% Fusion Dash (1 token)
+10% Feinting Strike
+
+Shekhtur:
+5% Unleashed Drive
+49% Unleashed Burst
+39% Unleashed Grasp
+2% Combination Grasp (3 tokens)
+4% Reaver Dash (1 token)
+
+
+Luc: Feinting Strike
+Shekhtur: Unleashed Drive
+
+Priorities:  1 | 4
+Shekhtur is active
+Luc moves:
+
+L...S..
+
+Shekhtur moves:
 
 L.S....
 
-Luc:
-27% Memento Strike
-3% Memento Strike (1 token)
-0% Memento Drive (1 token)
-1% Memento Burst (3 tokens)
-4% Memento Dash
-2% Memento Dash (1 token)
-2% Fusion Strike
-2% Fusion Drive (3 tokens)
-5% Fusion Burst (3 tokens)
-41% Fusion Dash
-14% Fusion Dash (1 token)
-
-Shekhtur:
-4% Combination Brand (1 token)
-5% Combination Brand (2 tokens)
-6% Combination Brand (3 tokens)
-5% Combination Brand (4 tokens)
-4% Combination Drive
-5% Combination Drive (4 tokens)
-6% Combination Drive (5 tokens)
-7% Combination Grasp (5 tokens)
-38% Jugular Drive (5 tokens)
-21% Spiral Burst
-0% Spiral Burst (1 token)
-
-
-Luc: Memento Burst (3 tokens)
-Shekhtur: Jugular Drive (5 tokens)
-
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Priorities:  0 | 11
-Shekhtur is active
+Shekhtur hits
+Luc takes 2 damage (now at 11 life)
+Shekhtur gains 2 Malice tokens
 Shekhtur moves:
 
-LS.....
+L..S...
 
-Shekhtur hits
-Shekhtur moves Luc:
+Luc misses
+Shekhtur will have 1 power next beat
+Luc moves:
 
-.SL....
+..LS...
 
-Luc takes 5 damage (now at 10 life)
-Shekhtur gains 5 Malice tokens
-Luc is stunned
-Shekhtur discards a Malice token
-Shekhtur discards a Malice token
 Luc gains 1 Time token
 
 Beat 6
@@ -369,63 +352,59 @@ Beat 6
 
 Luc
 ---
-life: 10
-discard 1: Memento Burst
-discard 2: Chrono Shot
-special action
+Life: 11
+Discard 1: Feinting Strike
+Discard 2: Chrono Burst
+Special action available
 2 Time tokens
 
 Shekhtur
 --------
-life: 17
-discard 1: Jugular Drive
-discard 2: Unleashed Strike
-special action
-3 Malice tokens
-Shekhtur hit the opponent last beat
+Life: 20
+Discard 1: Unleashed Drive
+Discard 2: Jugular Shot
+Special action available
+Power bonus: 1
+5 Malice tokens
+Shekhtur hit her opponent last beat
 
 
-.SL....
+..LS...
+
 
 Luc:
-5% Eternal Drive
-3% Fusion Flash
-11% Fusion Drive
-4% Fusion Drive (1 token)
-66% Fusion Dash
-11% Fusion Dash (1 token)
+18% Eternal Shot
+4% Eternal Dash
+0% Memento Drive
+3% Fusion Drive
+2% Fusion Grasp
+2% Fusion Grasp (1 token)
+6% Fusion Dash
+65% Fusion Dash (1 token)
 
 Shekhtur:
-6% Combination Grasp (1 token)
-27% Combination Grasp (2 tokens)
-1% Combination Grasp (3 tokens)
-21% Combination Dash (1 token)
-12% Reaver Shot
-33% Spiral Burst
+4% Combination Brand
+3% Combination Strike
+2% Combination Strike (4 tokens)
+4% Combination Strike (5 tokens)
+2% Combination Burst
+5% Combination Grasp
+21% Combination Grasp (5 tokens)
+58% Combination Dash (2 tokens)
 
 
-Luc: Fusion Dash
-Shekhtur: Spiral Burst
+Luc: Fusion Grasp
+Shekhtur: Combination Dash (2 tokens)
 
-Priorities:  10 | 0
-Luc is active
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Priorities:  6 | 11
+Shekhtur is active
 Shekhtur moves:
 
-S.L....
+..L...S
 
-Luc moves:
-
-S....L.
-
-Shekhtur moves:
-
-..S..L.
-
-Shekhtur gets -2 power
-Shekhtur hits
-Luc takes 1 damage (now at 9 life)
-Shekhtur gains 1 Malice token
-Luc is stunned
+Luc misses
 Luc gains 1 Time token
 
 Beat 7
@@ -433,61 +412,62 @@ Beat 7
 
 Luc
 ---
-life: 9
-discard 1: Fusion Dash
-discard 2: Memento Burst
-special action
+Life: 11
+Discard 1: Fusion Grasp
+Discard 2: Feinting Strike
+Special action available
 3 Time tokens
 
 Shekhtur
 --------
-life: 17
-discard 1: Spiral Burst
-discard 2: Jugular Drive
-special action
-4 Malice tokens
-Shekhtur hit the opponent last beat
+Life: 20
+Discard 1: Combination Dash
+Discard 2: Unleashed Drive
+Special action available
+3 Malice tokens
 
 
-..S..L.
+..L...S
+
 
 Luc:
-11% Eternal Drive
-9% Feinting Shot
-34% Chrono Flash
-2% Chrono Shot
-10% Chrono Drive
-34% Chrono Grasp
+10% Eternal Shot
+1% Memento Shot
+49% Chrono Flash
+21% Chrono Flash (1 token)
+12% Chrono Drive (1 token)
+9% Chrono Burst
 
 Shekhtur:
-3% Unleashed Brand
-4% Unleashed Brand (4 tokens)
-2% Unleashed Shot (1 token)
-3% Unleashed Grasp (3 tokens)
-43% Unleashed Dash
-43% Unleashed Dash (1 token)
-2% Reaver Brand (4 tokens)
+2% Reaver Shot
+35% Jugular Brand (3 tokens)
+12% Jugular Strike (3 tokens)
+14% Jugular Shot (2 tokens)
+26% Jugular Shot (3 tokens)
+11% Jugular Burst (3 tokens)
 
 
 Luc: Chrono Flash
-Shekhtur: Unleashed Dash
+Shekhtur: Jugular Shot (2 tokens)
 
-Priorities:  7 | 9
-Shekhtur is active
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Priorities:  7 | 6
+Luc is active
+Luc spends a Time token
+Luc spends a Time token
 Luc moves:
 
-..S.L..
+....L.S
 
-Shekhtur moves:
+Luc moves:
 
-S...L..
+.....LS
 
-Shekhtur moves:
-
-..S.L..
-
-Luc misses
-Shekhtur gains 1 Malice token
+Luc hits
+Shekhtur takes 1 damage (now at 19 life)
+Shekhtur is stunned
+Shekhtur gains 2 Malice tokens
 Luc gains 1 Time token
 
 Beat 8
@@ -495,64 +475,64 @@ Beat 8
 
 Luc
 ---
-life: 9
-discard 1: Chrono Flash
-discard 2: Fusion Dash
-special action
-4 Time tokens
+Life: 11
+Discard 1: Chrono Flash
+Discard 2: Fusion Grasp
+Special action available
+2 Time tokens
 
 Shekhtur
 --------
-life: 17
-discard 1: Unleashed Dash
-discard 2: Spiral Burst
-special action
-5 Malice tokens
-+1 Power from playing Unleashed last beat
+Life: 19
+Discard 1: Jugular Shot
+Discard 2: Combination Dash
+Special action available
+3 Malice tokens
 
 
-..S.L..
+.....LS
 
-Unbeatable strategy for Luc: Eternal Burst: 0.45
 
 Luc:
-85% Eternal Burst
-6% Memento Drive (1 token)
-9% Feinting Burst
+80% Eternal Shot
+8% Eternal Burst
+5% Memento Drive
+7% Memento Drive (1 token)
 
 Shekhtur:
-47% Reaver Brand
-18% Reaver Brand (2 tokens)
-34% Reaver Drive
+50% Unleashed Brand
+46% Unleashed Drive
+0% Reaver Brand (1 token)
+4% Spiral Strike
 
 
 Luc: Eternal Burst
-Shekhtur: Reaver Drive
+Shekhtur: Unleashed Drive
 
 Priorities:  -3 | 4
 Shekhtur is active
 Luc moves:
 
-..S...L
+...L..S
 
 Shekhtur moves:
 
-....S.L
+...LS..
 
 Shekhtur hits
 Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +3 soak (4 total)
-Luc has 4 soak
-Luc takes 0 damage (now at 9 life)
-Luc hits
-Shekhtur takes 3 damage (now at 14 life)
-Shekhtur is stunned
+Luc gains +1 soak (2 total)
+Luc has 2 soak
+Luc takes 0 damage (now at 11 life)
 Shekhtur moves:
 
-.....SL
+...L.S.
 
+Luc hits
+Shekhtur takes 3 damage (now at 16 life)
+Shekhtur is stunned
+Shekhtur gains 2 Malice tokens
+Shekhtur will have 1 power next beat
 Luc gains 1 Time token
 
 Beat 9
@@ -560,75 +540,64 @@ Beat 9
 
 Luc
 ---
-life: 9
-discard 1: Eternal Burst
-discard 2: Chrono Flash
-special action
+Life: 11
+Discard 1: Eternal Burst
+Discard 2: Chrono Flash
+Special action available
 2 Time tokens
 
 Shekhtur
 --------
-life: 14
-discard 1: Reaver Drive
-discard 2: Unleashed Dash
-special action
+Life: 16
+Discard 1: Unleashed Drive
+Discard 2: Jugular Shot
+Special action available
+Power bonus: 1
 5 Malice tokens
-Shekhtur hit the opponent last beat
+Shekhtur hit her opponent last beat
 
-
-.....SL
-
-Unbeatable strategy for Shekhtur: Jugular Grasp (4 tokens): -2.25
-Unbeatable strategy for Shekhtur: Jugular Grasp (5 tokens): -2.25
-
-Luc:
-2% Fusion Strike
-2% Fusion Drive
-2% Fusion Grasp
-1% Fusion Grasp (1 token)
-13% Fusion Dash
-40% Fusion Dash (1 token)
-38% Feinting Shot
-2% Feinting Drive
-
-Shekhtur:
-0% Combination Brand
-1% Combination Brand (1 token)
-1% Combination Brand (3 tokens)
-0% Combination Brand (4 tokens)
-4% Combination Brand (5 tokens)
-6% Combination Grasp (5 tokens)
-1% Jugular Brand (4 tokens)
-2% Jugular Brand (5 tokens)
-84% Jugular Grasp (4 tokens)
-
-
-Luc: Feinting Shot
-Shekhtur: Jugular Grasp (4 tokens)
-
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Shekhtur antes a Malice token
-Priorities:  0 | 11
-Shekhtur is active
-Shekhtur hits
-Shekhtur moves Luc:
-
-....LS.
-
-Shekhtur moves Luc:
 
 ...L.S.
 
-Luc takes 3 damage (now at 6 life)
-Shekhtur gains 3 Malice tokens
-Luc is stunned
-Shekhtur discards a Malice token
+
+Luc:
+2% Memento Strike
+8% Memento Dash
+8% Fusion Shot
+3% Fusion Drive
+2% Fusion Drive (1 token)
+10% Fusion Dash
+59% Fusion Dash (1 token)
+6% Feinting Dash
+0% Feinting Dash (1 token)
+
+Shekhtur:
+1% Combination Brand (2 tokens)
+2% Combination Brand (4 tokens)
+5% Combination Brand (5 tokens)
+4% Reaver Grasp (2 tokens)
+0% Reaver Grasp (3 tokens)
+2% Reaver Grasp (5 tokens)
+75% Spiral Strike
+11% Spiral Grasp
+1% Spiral Grasp (4 tokens)
+
+
+Luc: Fusion Dash
+Shekhtur: Spiral Strike
+
+Priorities:  10 | 2
+Luc is active
 Luc moves:
 
-....LS.
+L....S.
 
+Shekhtur moves:
+
+L.S....
+
+Shekhtur gets -3 power
+Shekhtur misses
 Luc gains 1 Time token
 
 Beat 10
@@ -636,69 +605,64 @@ Beat 10
 
 Luc
 ---
-life: 6
-discard 1: Feinting Shot
-discard 2: Eternal Burst
-special action
+Life: 11
+Discard 1: Fusion Dash
+Discard 2: Eternal Burst
+Special action available
 3 Time tokens
 
 Shekhtur
 --------
-life: 14
-discard 1: Jugular Grasp
-discard 2: Reaver Drive
-special action
-3 Malice tokens
-Shekhtur hit the opponent last beat
+Life: 16
+Discard 1: Spiral Strike
+Discard 2: Unleashed Drive
+Special action available
+5 Malice tokens
 
 
-....LS.
+L.S....
 
-Unbeatable strategy for Shekhtur: Unleashed Dash: -0.09
 
 Luc:
-3% Memento Drive
-2% Memento Drive (1 token)
-14% Memento Dash (1 token)
-36% Fusion Drive (1 token)
-8% Fusion Dash
-25% Chrono Flash
-12% Chrono Drive (1 token)
+42% Feinting Flash (3 tokens)
+6% Chrono Flash
+41% Chrono Strike
+11% Chrono Drive (1 token)
 
 Shekhtur:
-21% Unleashed Strike (3 tokens)
-22% Unleashed Shot
-3% Unleashed Shot (2 tokens)
-19% Unleashed Dash
-24% Unleashed Dash (1 token)
-3% Combination Strike (1 token)
-4% Combination Strike (2 tokens)
-5% Combination Burst
+37% Reaver Brand (4 tokens)
+20% Reaver Burst
+1% Jugular Brand (4 tokens)
+41% Jugular Brand (5 tokens)
+1% Jugular Burst (1 token)
 
 
-Luc: Memento Drive
-Shekhtur: Unleashed Shot
+Luc: Chrono Drive (1 token)
+Shekhtur: Reaver Burst
 
-Priorities:  3 | 2
+Luc antes a Time token
+Priorities:  6 | 1
 Luc is active
+Luc spends a Time token
 Luc moves:
 
-.....SL
+.LS....
 
-Luc hits
-Shekhtur takes 3 damage (now at 11 life)
-Shekhtur is stunned
-Luc spends a Time token
-Luc spends a Time token
-Luc attacks again
+Shekhtur moves:
+
+.L.S...
+
 Luc moves:
 
-....LS.
+..LS...
 
 Luc hits
-Shekhtur takes 3 damage (now at 8 life)
+Shekhtur takes 3 damage (now at 13 life)
 Shekhtur is stunned
-Shekhtur gains 2 Malice tokens
+Shekhtur moves:
+
+S.L....
+
 Luc gains 1 Time token
 
 Beat 11
@@ -706,66 +670,56 @@ Beat 11
 
 Luc
 ---
-life: 6
-discard 1: Memento Drive
-discard 2: Feinting Shot
-special action
+Life: 11
+Discard 1: Chrono Drive
+Discard 2: Fusion Dash
+Special action available
 2 Time tokens
 
 Shekhtur
 --------
-life: 8
-discard 1: Unleashed Shot
-discard 2: Jugular Grasp
-special action
+Life: 13
+Discard 1: Reaver Burst
+Discard 2: Spiral Strike
+Special action available
 5 Malice tokens
-+1 Power from playing Unleashed last beat
 
 
-....LS.
+S.L....
+
 
 Luc:
-7% Eternal Strike
-22% Eternal Burst
-2% Fusion Grasp (1 token)
-2% Chrono Flash (1 token)
-26% Chrono Dash
-35% Chrono Dash (1 token)
-6% Special Temporal Recursion
-1% Special Temporal Recursion (1 token)
+39% Eternal Shot
+18% Eternal Burst
+8% Memento Flash
+35% Feinting Burst
 
 Shekhtur:
-11% Combination Drive (2 tokens)
-1% Combination Drive (3 tokens)
-7% Combination Drive (4 tokens)
-1% Combination Drive (5 tokens)
-12% Combination Dash (1 token)
-3% Combination Dash (2 tokens)
-31% Reaver Drive (2 tokens)
-35% Spiral Burst
+45% Unleashed Brand
+9% Unleashed Shot
+12% Unleashed Shot (1 token)
+12% Unleashed Shot (2 tokens)
+1% Unleashed Dash
+1% Unleashed Dash (1 token)
+1% Unleashed Dash (2 tokens)
+3% Jugular Shot (2 tokens)
+5% Jugular Shot (3 tokens)
+5% Jugular Shot (4 tokens)
+5% Jugular Shot (5 tokens)
 
 
-Luc: Chrono Dash
-Shekhtur: Spiral Burst
+Luc: Eternal Burst
+Shekhtur: Unleashed Brand
 
-Priorities:  10 | 0
-Luc is active
-Shekhtur moves:
-
-....L.S
-
+Priorities:  -3 | 2
+Shekhtur is active
 Luc moves:
 
-.L....S
+S...L..
 
-Shekhtur moves:
-
-.L..S..
-
-Shekhtur gets -2 power
-Shekhtur hits
-Luc takes 2 damage (now at 4 life)
-Luc is stunned
+Shekhtur misses
+Luc misses
+Shekhtur will have 1 power next beat
 Luc gains 1 Time token
 
 Beat 12
@@ -773,60 +727,72 @@ Beat 12
 
 Luc
 ---
-life: 4
-discard 1: Chrono Dash
-discard 2: Memento Drive
-special action
+Life: 11
+Discard 1: Eternal Burst
+Discard 2: Chrono Drive
+Special action available
 3 Time tokens
 
 Shekhtur
 --------
-life: 8
-discard 1: Spiral Burst
-discard 2: Unleashed Shot
-special action
+Life: 13
+Discard 1: Unleashed Brand
+Discard 2: Reaver Burst
+Special action available
+Power bonus: 1
 5 Malice tokens
-Shekhtur hit the opponent last beat
 
 
-.L..S..
+S...L..
+
+Unbeatable strategy for Shekhtur: Spiral Shot (4 tokens): -0.71
+Unbeatable strategy for Shekhtur: Spiral Shot (5 tokens): -0.41
+
 
 Luc:
-6% Eternal Flash
-58% Eternal Burst
-7% Feinting Flash
-2% Feinting Flash (1 token)
-12% Feinting Shot
-16% Feinting Burst
+9% Memento Flash (3 tokens)
+7% Memento Strike
+7% Memento Strike (1 token)
+3% Memento Shot (1 token)
+24% Memento Dash
+12% Memento Dash (1 token)
+1% Fusion Shot (1 token)
+37% Fusion Dash
 
 Shekhtur:
-1% Combination Drive (1 token)
-2% Combination Drive (2 tokens)
-85% Combination Dash
-4% Reaver Brand
-1% Reaver Brand (1 token)
-8% Reaver Drive (1 token)
+2% Jugular Shot (5 tokens)
+2% Jugular Drive (4 tokens)
+21% Spiral Shot
+6% Spiral Shot (2 tokens)
+0% Spiral Shot (3 tokens)
+20% Spiral Shot (5 tokens)
+14% Spiral Drive
+34% Spiral Drive (2 tokens)
 
 
-Luc: Feinting Flash (1 token)
-Shekhtur: Combination Dash
+Luc: Fusion Dash
+Shekhtur: Spiral Shot (5 tokens)
 
-Luc antes a Time token
-Priorities:  5 | 9
-Shekhtur is active
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Priorities:  10 | 6
+Luc is active
 Luc moves:
 
-..L.S..
+S.....L
 
 Shekhtur moves:
 
-..L...S
+..S...L
 
-Luc misses
-Luc moves:
-
-....L.S
-
+Shekhtur gets -2 power
+Shekhtur hits
+Luc takes 2 damage (now at 9 life)
+Shekhtur gains 2 Malice tokens
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 13
@@ -834,64 +800,65 @@ Beat 13
 
 Luc
 ---
-life: 4
-discard 1: Feinting Flash
-discard 2: Chrono Dash
-special action
-3 Time tokens
+Life: 9
+Discard 1: Fusion Dash
+Discard 2: Eternal Burst
+Special action available
+4 Time tokens
 
 Shekhtur
 --------
-life: 8
-discard 1: Combination Dash
-discard 2: Spiral Burst
-special action
-5 Malice tokens
+Life: 13
+Discard 1: Spiral Shot
+Discard 2: Unleashed Brand
+Special action available
+2 Malice tokens
+Shekhtur hit her opponent last beat
 
 
-....L.S
+..S...L
+
 
 Luc:
-74% Eternal Drive
-11% Eternal Burst
-6% Fusion Burst (1 token)
-2% Special Temporal Recursion
-6% Special Temporal Recursion (1 token)
+12% Memento Shot
+3% Memento Drive
+23% Chrono Flash
+62% Chrono Drive (1 token)
 
 Shekhtur:
-34% Unleashed Brand
-12% Unleashed Brand (1 token)
-36% Jugular Brand (3 tokens)
-7% Jugular Shot (3 tokens)
-6% Jugular Shot (4 tokens)
-6% Jugular Shot (5 tokens)
+4% Reaver Strike
+10% Reaver Drive (2 tokens)
+2% Reaver Burst
+84% Reaver Dash
 
 
-Luc: Eternal Drive
-Shekhtur: Unleashed Brand (1 token)
+Luc: Chrono Drive (1 token)
+Shekhtur: Reaver Drive (2 tokens)
 
+Luc antes a Time token
 Shekhtur antes a Malice token
-Priorities:  0 | 3
+Shekhtur antes a Malice token
+Priorities:  6 | 6
+Clash!
+
+
+Luc: Chrono Shot (1 token)
+Shekhtur: Reaver Dash (2 tokens)
+
+Luc antes a Time token
+Shekhtur antes a Malice token
+Shekhtur antes a Malice token
+Priorities:  4 | 11
 Shekhtur is active
-Shekhtur hits
-Luc spends a Time token
-Luc gains +1 soak (2 total)
-Luc has 2 soak
-Luc takes 0 damage (now at 4 life)
-Shekhtur spends a Malice token
-Shekhtur spends a Malice token
-Shekhtur spends a Malice token
-Shekhtur spends a Malice token
-Luc loses 2 life (now at 2)
-Shekhtur gains 2 life (now at 10)
-Luc moves:
+Shekhtur moves:
 
-.....LS
+.S....L
 
-Luc hits
-Shekhtur takes 3 damage (now at 7 life)
-Shekhtur is stunned
-Shekhtur gains 2 Malice tokens
+Luc misses
+Shekhtur moves:
+
+...S..L
+
 Luc gains 1 Time token
 
 Beat 14
@@ -899,81 +866,238 @@ Beat 14
 
 Luc
 ---
-life: 2
-discard 1: Eternal Drive
-discard 2: Feinting Flash
-special action
-3 Time tokens
+Life: 9
+Discard 1: Chrono Shot
+Discard 2: Fusion Dash
+Special action available
+4 Time tokens
 
 Shekhtur
 --------
-life: 7
-discard 1: Unleashed Brand
-discard 2: Combination Dash
-special action
-2 Malice tokens
-+1 Power from playing Unleashed last beat
-Shekhtur hit the opponent last beat
+Life: 13
+Discard 1: Reaver Dash
+Discard 2: Spiral Shot
+Special action available
+0 Malice tokens
 
 
-.....LS
+...S..L
 
-Unbeatable strategy for Shekhtur: Jugular Shot (1 token): -1.36
-Unbeatable strategy for Shekhtur: Jugular Shot (2 tokens): -1.36
-Unbeatable strategy for Shekhtur: Jugular Drive (1 token): -1.17
-Unbeatable strategy for Shekhtur: Jugular Drive (2 tokens): -1.25
-Unbeatable strategy for Shekhtur: Spiral Strike (1 token): -0.69
-Unbeatable strategy for Shekhtur: Spiral Strike (2 tokens): -0.39
 
 Luc:
-77% Fusion Dash
-23% Special Temporal Recursion (1 token)
+65% Eternal Drive
+21% Eternal Drive (3 tokens)
+6% Memento Drive
+8% Feinting Drive (3 tokens)
 
 Shekhtur:
-0% Reaver Shot
-0% Reaver Shot (1 token)
-0% Reaver Shot (2 tokens)
-0% Reaver Drive
-0% Reaver Drive (1 token)
-0% Reaver Drive (2 tokens)
-0% Reaver Burst
-0% Reaver Burst (1 token)
-0% Reaver Burst (2 tokens)
-0% Jugular Shot
-0% Jugular Shot (1 token)
-0% Jugular Shot (2 tokens)
-28% Jugular Drive (1 token)
-49% Jugular Drive (2 tokens)
-0% Spiral Strike
-0% Spiral Strike (1 token)
-0% Spiral Strike (2 tokens)
-5% Spiral Shot
-5% Spiral Shot (1 token)
-8% Spiral Shot (2 tokens)
-0% Spiral Drive
-0% Spiral Drive (1 token)
-0% Spiral Drive (2 tokens)
-0% Spiral Burst
-0% Spiral Burst (1 token)
-0% Spiral Burst (2 tokens)
+4% Unleashed Strike
+30% Unleashed Drive
+51% Unleashed Burst
+15% Jugular Drive
 
 
-Luc: Special Temporal Recursion (1 token)
-Shekhtur: Jugular Drive (1 token)
+Luc: Eternal Drive
+Shekhtur: Unleashed Burst
 
-Luc antes a Time token
-Shekhtur antes a Malice token
-Priorities:  6 | 7
+Priorities:  0 | 1
 Shekhtur is active
 Shekhtur moves:
 
-....SL.
+..S...L
 
 Shekhtur hits
-Shekhtur moves Luc:
+Luc spends a Time token
+Luc gains +1 soak (2 total)
+Luc has 2 soak
+Luc takes 0 damage (now at 9 life)
+Shekhtur moves:
 
-...LS..
+S.....L
 
-Luc takes 5 damage (now at 0 life)
+Luc moves:
+
+S...L..
+
+Luc misses
+Shekhtur gains 2 Malice tokens
+Shekhtur will have 1 power next beat
+Luc gains 1 Time token
+
+Beat 15
+-------
+
+Luc
+---
+Life: 9
+Discard 1: Eternal Drive
+Discard 2: Chrono Shot
+Special action available
+4 Time tokens
+
+Shekhtur
+--------
+Life: 13
+Discard 1: Unleashed Burst
+Discard 2: Reaver Dash
+Special action available
+Power bonus: 1
+2 Malice tokens
+Shekhtur hit her opponent last beat
+
+
+S...L..
+
+Unbeatable strategy for Shekhtur: Combination Brand: -14.00
+Unbeatable strategy for Shekhtur: Combination Shot: -14.00
+Unbeatable strategy for Shekhtur: Combination Drive: -14.00
+Unbeatable strategy for Shekhtur: Combination Drive (1 token): -14.00
+Unbeatable strategy for Shekhtur: Combination Drive (2 tokens): -14.00
+Unbeatable strategy for Shekhtur: Jugular Shot: -14.00
+Unbeatable strategy for Shekhtur: Jugular Shot (1 token): -14.00
+Unbeatable strategy for Shekhtur: Jugular Shot (2 tokens): -14.00
+Unbeatable strategy for Shekhtur: Jugular Drive: -14.00
+Unbeatable strategy for Shekhtur: Jugular Drive (1 token): -14.00
+Unbeatable strategy for Shekhtur: Jugular Drive (2 tokens): -14.00
+Unbeatable strategy for Shekhtur: Spiral Brand (1 token): -14.00
+Unbeatable strategy for Shekhtur: Spiral Brand (2 tokens): -14.00
+Unbeatable strategy for Shekhtur: Spiral Strike: -14.00
+Unbeatable strategy for Shekhtur: Spiral Strike (1 token): -14.00
+Unbeatable strategy for Shekhtur: Spiral Strike (2 tokens): -14.00
+Unbeatable strategy for Shekhtur: Spiral Shot: -14.00
+Unbeatable strategy for Shekhtur: Spiral Shot (1 token): -14.00
+Unbeatable strategy for Shekhtur: Spiral Shot (2 tokens): -14.00
+Unbeatable strategy for Shekhtur: Spiral Drive: -14.00
+Unbeatable strategy for Shekhtur: Spiral Drive (1 token): -14.00
+Unbeatable strategy for Shekhtur: Spiral Drive (2 tokens): -14.00
+Unbeatable strategy for Shekhtur: Spiral Grasp: -14.00
+Unbeatable strategy for Shekhtur: Spiral Grasp (1 token): -14.00
+Unbeatable strategy for Shekhtur: Spiral Grasp (2 tokens): -14.00
+
+
+Luc:
+100% Special Pulse
+
+Shekhtur:
+100% Jugular Drive
+
+
+Luc: Special Pulse
+Shekhtur: Jugular Drive
+
+Luc Pulses:
+
+.SL....
+
+
+Beat 15
+-------
+
+Luc
+---
+Life: 9
+Discard 1: Eternal Drive
+Discard 2: Chrono Shot
+4 Time tokens
+
+Shekhtur
+--------
+Life: 13
+Discard 1: Jugular Drive
+Discard 2: Unleashed Burst
+Special action available
+2 Malice tokens
+
+
+.SL....
+
+Unbeatable strategy for Shekhtur: Combination Dash: -14.00
+Unbeatable strategy for Shekhtur: Combination Dash (1 token): -14.00
+Unbeatable strategy for Shekhtur: Combination Dash (2 tokens): -14.00
+Unbeatable strategy for Shekhtur: Reaver Dash: -14.00
+Unbeatable strategy for Shekhtur: Reaver Dash (1 token): -14.00
+Unbeatable strategy for Shekhtur: Reaver Dash (2 tokens): -14.00
+Unbeatable strategy for Shekhtur: Spiral Strike (1 token): -14.00
+Unbeatable strategy for Shekhtur: Spiral Strike (2 tokens): -14.00
+Unbeatable strategy for Shekhtur: Spiral Grasp (1 token): -14.00
+Unbeatable strategy for Shekhtur: Spiral Grasp (2 tokens): -14.00
+Unbeatable strategy for Shekhtur: Spiral Dash: -14.00
+Unbeatable strategy for Shekhtur: Spiral Dash (1 token): -14.00
+Unbeatable strategy for Shekhtur: Spiral Dash (2 tokens): -14.00
+
+
+Luc:
+2% Memento Flash
+2% Memento Flash (1 token)
+2% Memento Flash (3 tokens)
+2% Memento Strike
+2% Memento Strike (1 token)
+2% Memento Strike (3 tokens)
+2% Memento Burst
+2% Memento Burst (1 token)
+2% Memento Burst (3 tokens)
+2% Memento Grasp
+2% Memento Grasp (1 token)
+2% Memento Grasp (3 tokens)
+2% Memento Dash
+5% Memento Dash (1 token)
+2% Memento Dash (3 tokens)
+2% Fusion Flash
+2% Fusion Flash (1 token)
+2% Fusion Flash (3 tokens)
+1% Fusion Strike
+3% Fusion Strike (1 token)
+1% Fusion Strike (3 tokens)
+2% Fusion Burst
+2% Fusion Burst (1 token)
+2% Fusion Burst (3 tokens)
+2% Fusion Grasp
+2% Fusion Grasp (1 token)
+2% Fusion Grasp (3 tokens)
+4% Fusion Dash
+5% Fusion Dash (1 token)
+4% Fusion Dash (3 tokens)
+2% Feinting Flash
+2% Feinting Flash (1 token)
+2% Feinting Flash (3 tokens)
+2% Feinting Strike
+2% Feinting Strike (1 token)
+2% Feinting Strike (3 tokens)
+2% Feinting Burst
+2% Feinting Burst (1 token)
+2% Feinting Burst (3 tokens)
+2% Feinting Grasp
+2% Feinting Grasp (1 token)
+2% Feinting Grasp (3 tokens)
+2% Feinting Dash
+2% Feinting Dash (1 token)
+2% Feinting Dash (3 tokens)
+
+Shekhtur:
+14% Spiral Strike (1 token)
+14% Spiral Strike (2 tokens)
+14% Spiral Grasp (1 token)
+14% Spiral Grasp (2 tokens)
+14% Spiral Dash
+14% Spiral Dash (1 token)
+14% Spiral Dash (2 tokens)
+
+
+Luc: Fusion Burst
+Shekhtur: Spiral Dash
+
+Priorities:  2 | 8
+Shekhtur is active
+Luc moves:
+
+.S.L...
+
+Shekhtur moves:
+
+..SL...
+
+Luc misses
+Luc gains 1 Time token
+Game goes to time
 SHEKHTUR WINS!
-total_time: 145
+total_time: 197

@@ -11,54 +11,54 @@ Beat 1
 
 Luc
 ---
-life: 20
-discard 1: Eternal Flash
-discard 2: Fusion Strike
-special action
+Life: 20
+Discard 1: Eternal Flash
+Discard 2: Fusion Strike
+Special action available
 2 Time tokens
 
 Mikhail
 -------
-life: 20
-discard 1: Hallowed Grasp
-discard 2: Apocalyptic Strike
-special action
+Life: 20
+Discard 1: Hallowed Grasp
+Discard 2: Apocalyptic Strike
+Special action available
 3 Seal tokens
 
 
 .L...M.
 
-Unbeatable strategy for Luc: Chrono Dash: 0.29
 
 Luc:
-24% Feinting Shot
-19% Feinting Drive (1 token)
-8% Chrono Drive
-15% Chrono Burst
-34% Chrono Dash
+3% Feinting Shot
+3% Feinting Drive (1 token)
+4% Chrono Drive
+13% Chrono Burst
+77% Chrono Dash
 
 Mikhail:
-16% Immutable Shot (Seal)
-21% Transcendent Scroll (Seal)
-10% Transcendent Dash
-40% Sacred Scroll (Seal)
-13% Sacred Shot
+29% Immutable Scroll (Seal)
+21% Immutable Shot (Seal)
+3% Immutable Dash
+38% Sacred Scroll (Seal)
+9% Sacred Shot
 
 
-Luc: Feinting Shot
-Mikhail: Transcendent Dash
+Luc: Chrono Dash
+Mikhail: Sacred Shot
 
-Priorities:  0 | 9
-Mikhail is active
-Mikhail moves:
-
-.LM....
-
-Luc misses
+Priorities:  10 | 2
+Luc is active
+Luc spends a Time token
 Luc moves:
 
-..ML...
+..L..M.
 
+Luc moves:
+
+.....ML
+
+Mikhail misses
 Luc gains 1 Time token
 
 Beat 2
@@ -66,58 +66,56 @@ Beat 2
 
 Luc
 ---
-life: 20
-discard 1: Feinting Shot
-discard 2: Eternal Flash
-special action
-3 Time tokens
+Life: 20
+Discard 1: Chrono Dash
+Discard 2: Eternal Flash
+Special action available
+2 Time tokens
 
 Mikhail
 -------
-life: 20
-discard 1: Transcendent Dash
-discard 2: Hallowed Grasp
-special action
+Life: 20
+Discard 1: Sacred Shot
+Discard 2: Hallowed Grasp
+Special action available
 3 Seal tokens
 
 
-..ML...
+.....ML
 
-Unbeatable strategy for Mikhail: Immutable Scroll (Seal): -0.30
+Unbeatable strategy for Mikhail: Immutable Scroll (Seal): -1.32
+Unbeatable strategy for Mikhail: Immutable Strike (Seal): -2.27
+
 
 Luc:
-3% Memento Strike
-3% Memento Strike (1 token)
-8% Chrono Drive
-5% Chrono Burst
-82% Chrono Dash
+7% Memento Strike
+15% Memento Drive
+29% Fusion Drive
+49% Feinting Shot
 
 Mikhail:
-34% Immutable Scroll (Seal)
-3% Sacred Scroll
-42% Sacred Scroll (Seal)
-12% Sacred Drive
-8% Sacred Burst
+32% Immutable Scroll (Seal)
+56% Immutable Strike (Seal)
+13% Immutable Drive (Seal)
 
 
-Luc: Chrono Drive
-Mikhail: Immutable Scroll (Seal)
+Luc: Fusion Drive
+Mikhail: Immutable Strike (Seal)
 
 Mikhail antes a Seal token
-Priorities:  5 | -1
+Priorities:  5 | 0
 Luc is active
 Luc moves:
 
-.LM....
+....LM.
 
 Luc hits
 Mikhail discards a Seal token
-Mikhail has 4 soak
+Mikhail has 3 soak
 Mikhail takes 0 damage (now at 20 life)
 Mikhail hits
-Luc takes 4 damage (now at 16 life)
+Luc takes 6 damage (now at 14 life)
 Luc is stunned
-Mikhail gains 1 Seal token
 Luc gains 1 Time token
 
 Beat 3
@@ -125,51 +123,47 @@ Beat 3
 
 Luc
 ---
-life: 16
-discard 1: Chrono Drive
-discard 2: Feinting Shot
-special action
-4 Time tokens
+Life: 14
+Discard 1: Fusion Drive
+Discard 2: Chrono Dash
+Special action available
+3 Time tokens
 
 Mikhail
 -------
-life: 20
-discard 1: Immutable Scroll
-discard 2: Transcendent Dash
-special action
-2 Seal tokens
+Life: 20
+Discard 1: Immutable Strike
+Discard 2: Sacred Shot
+Special action available
+1 Seal token
 
 
-.LM....
+....LM.
+
 
 Luc:
-11% Eternal Strike
-10% Eternal Strike (3 tokens)
-51% Eternal Dash
-14% Memento Dash
-14% Fusion Dash
+29% Eternal Shot
+31% Eternal Burst
+3% Feinting Shot (3 tokens)
+37% Feinting Burst (3 tokens)
 
 Mikhail:
-1% Hallowed Drive (Seal)
-40% Sacred Shot
-35% Sacred Burst
-24% Sacred Grasp
+15% Hallowed Scroll (Seal)
+3% Hallowed Burst (Seal)
+17% Apocalyptic Drive
+65% Apocalyptic Dash
 
 
-Luc: Eternal Dash
-Mikhail: Sacred Burst
+Luc: Eternal Shot
+Mikhail: Apocalyptic Dash
 
-Priorities:  5 | 1
-Luc is active
+Priorities:  -2 | 9
+Mikhail is active
 Mikhail moves:
 
-.L.M...
+.M..L..
 
-Luc moves:
-
-..LM...
-
-Mikhail misses
+Luc misses
 Luc gains 1 Time token
 
 Beat 4
@@ -177,120 +171,131 @@ Beat 4
 
 Luc
 ---
-life: 16
-discard 1: Eternal Dash
-discard 2: Chrono Drive
-special action
-5 Time tokens
+Life: 14
+Discard 1: Eternal Shot
+Discard 2: Fusion Drive
+Special action available
+4 Time tokens
 
 Mikhail
 -------
-life: 20
-discard 1: Sacred Burst
-discard 2: Immutable Scroll
-special action
-2 Seal tokens
+Life: 20
+Discard 1: Apocalyptic Dash
+Discard 2: Immutable Strike
+Special action available
+1 Seal token
 
 
-..LM...
+.M..L..
+
 
 Luc:
-13% Memento Strike
-4% Memento Strike (1 token)
-18% Memento Strike (5 tokens)
-7% Memento Burst (1 token)
-30% Fusion Flash
-17% Fusion Flash (1 token)
-11% Fusion Strike (1 token)
+22% Memento Dash
+13% Feinting Strike (3 tokens)
+31% Feinting Burst (3 tokens)
+4% Feinting Grasp
+4% Feinting Grasp (3 tokens)
+14% Chrono Strike
+8% Chrono Burst
+3% Chrono Burst (1 token)
 
 Mikhail:
-4% Transcendent Shot (Seal)
-31% Transcendent Dash
-2% Hallowed Strike (Seal)
-31% Hallowed Dash
-16% Apocalyptic Strike
-7% Apocalyptic Shot
-9% Apocalyptic Drive
+24% Transcendent Scroll (Seal)
+8% Hallowed Scroll (Seal)
+4% Hallowed Shot (Seal)
+3% Hallowed Drive (Seal)
+3% Hallowed Burst (Seal)
+28% Sacred Scroll
+28% Sacred Scroll (Seal)
+2% Sacred Shot
 
 
-Luc: Fusion Flash
-Mikhail: Hallowed Dash
+Luc: Feinting Burst (3 tokens)
+Mikhail: Transcendent Scroll (Seal)
 
-Priorities:  7 | 9
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Mikhail antes a Seal token
+Priorities:  -1 | 1
 Mikhail is active
 Luc moves:
 
-...ML..
+.M...L.
 
-Mikhail moves:
+Luc moves:
 
-M...L..
+.M....L
 
-Luc misses
+Luc moves:
+
+.M..L..
+
+Mikhail hits
+Luc takes 1 damage (now at 13 life)
+Luc is stunned
+Mikhail gains 1 Seal token
+Luc moves:
+
+.ML....
+
+Luc gains 1 Time token
 
 Beat 5
 -------
 
 Luc
 ---
-life: 16
-discard 1: Fusion Flash
-discard 2: Eternal Dash
-special action
-5 Time tokens
+Life: 13
+Discard 1: Feinting Burst
+Discard 2: Eternal Shot
+Special action available
+2 Time tokens
 
 Mikhail
 -------
-life: 20
-discard 1: Hallowed Dash
-discard 2: Sacred Burst
-special action
-2 Seal tokens
+Life: 20
+Discard 1: Transcendent Scroll
+Discard 2: Apocalyptic Dash
+Special action available
+1 Seal token
 
 
-M...L..
+.ML....
+
 
 Luc:
-14% Memento Strike (3 tokens)
-36% Memento Drive (3 tokens)
-35% Feinting Shot
-15% Feinting Burst (3 tokens)
+10% Memento Drive
+35% Memento Dash
+3% Fusion Strike (1 token)
+14% Fusion Drive (1 token)
+10% Fusion Grasp
+9% Chrono Drive (1 token)
+20% Chrono Dash
 
 Mikhail:
-7% Immutable Drive (Seal)
-17% Transcendent Scroll (Seal)
-59% Apocalyptic Scroll
-18% Apocalyptic Shot
+10% Hallowed Strike (Seal)
+0% Hallowed Burst (Seal)
+30% Sacred Strike
+4% Sacred Shot
+0% Sacred Drive
+25% Sacred Burst
+31% Sacred Grasp
 
 
-Luc: Memento Drive (3 tokens)
-Mikhail: Apocalyptic Scroll
+Luc: Fusion Grasp
+Mikhail: Sacred Strike
 
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  3 | 2
+Priorities:  6 | 3
 Luc is active
-Luc moves:
+Luc hits
+Luc moves Mikhail:
 
 M.L....
 
-Luc moves:
-
-ML.....
-
-Luc hits
-Mikhail has 1 soak
-Mikhail takes 2 damage (now at 18 life)
-Luc spends a Time token
-Luc spends a Time token
-Luc attacks again
-Luc hits
-Mikhail has 1 soak
-Mikhail takes 2 damage (now at 16 life)
-Mikhail hits
-Luc takes 2 damage (now at 14 life)
-Luc is stunned
+Mikhail takes 1 damage (now at 19 life)
+Mikhail loses 2 life (now at 17)
+Mikhail misses
 Luc gains 1 Time token
 Mikhail gains 1 Seal token
 
@@ -299,58 +304,49 @@ Beat 6
 
 Luc
 ---
-life: 14
-discard 1: Memento Drive
-discard 2: Fusion Flash
-special action
-1 Time tokens
+Life: 13
+Discard 1: Fusion Grasp
+Discard 2: Feinting Burst
+Special action available
+3 Time tokens
 
 Mikhail
 -------
-life: 16
-discard 1: Apocalyptic Scroll
-discard 2: Hallowed Dash
-special action
-3 Seal tokens
+Life: 17
+Discard 1: Sacred Strike
+Discard 2: Transcendent Scroll
+Special action available
+2 Seal tokens
 
 
-ML.....
+M.L....
+
 
 Luc:
-37% Eternal Strike
-17% Eternal Burst
-27% Eternal Grasp
-12% Chrono Strike (1 token)
-7% Chrono Grasp
+49% Eternal Shot
+20% Memento Dash (1 token)
+1% Chrono Flash
+0% Chrono Strike (1 token)
+30% Chrono Drive (1 token)
 
 Mikhail:
-23% Immutable Strike (Seal)
-37% Immutable Shot (Seal)
-3% Immutable Drive (Seal)
-7% Sacred Strike (Seal)
-31% Sacred Drive
+14% Immutable Drive (Seal)
+14% Immutable Dash (Seal)
+24% Hallowed Drive (Seal)
+2% Hallowed Grasp (Seal)
+46% Apocalyptic Dash
 
 
-Luc: Eternal Grasp
-Mikhail: Immutable Shot (Seal)
+Luc: Eternal Shot
+Mikhail: Apocalyptic Dash
 
-Mikhail antes a Seal token
-Priorities:  1 | -1
-Luc is active
-Luc hits
-Luc moves Mikhail:
+Priorities:  -2 | 9
+Mikhail is active
+Mikhail moves:
 
-.LM....
+..L.M..
 
-Mikhail discards a Seal token
-Mikhail has 3 soak
-Mikhail takes 0 damage (now at 16 life)
-Mikhail hits
-Luc spends a Time token
-Luc gains +1 soak (2 total)
-Luc has 2 soak
-Luc takes 3 damage (now at 11 life)
-Luc is stunned
+Luc misses
 Luc gains 1 Time token
 
 Beat 7
@@ -358,96 +354,122 @@ Beat 7
 
 Luc
 ---
-life: 11
-discard 1: Eternal Grasp
-discard 2: Memento Drive
-special action
-1 Time tokens
+Life: 13
+Discard 1: Eternal Shot
+Discard 2: Fusion Grasp
+Special action available
+4 Time tokens
 
 Mikhail
 -------
-life: 16
-discard 1: Immutable Shot
-discard 2: Apocalyptic Scroll
-special action
-1 Seal tokens
+Life: 17
+Discard 1: Apocalyptic Dash
+Discard 2: Sacred Strike
+Special action available
+2 Seal tokens
 
 
-.LM....
+..L.M..
+
+Unbeatable strategy for Mikhail: Transcendent Scroll (Seal): -0.07
+
 
 Luc:
-44% Feinting Dash
+5% Memento Drive
+4% Memento Burst (1 token)
+21% Feinting Burst (1 token)
+55% Feinting Dash
 1% Chrono Strike (1 token)
-55% Chrono Dash
+14% Chrono Drive (1 token)
 
 Mikhail:
-1% Transcendent Dash
-1% Hallowed Dash
-62% Sacred Drive
-35% Sacred Burst
+14% Immutable Scroll (Seal)
+48% Transcendent Scroll
+22% Transcendent Scroll (Seal)
+3% Hallowed Scroll (Seal)
+3% Hallowed Shot (Seal)
+10% Hallowed Drive (Seal)
 
 
-Luc: Chrono Dash
-Mikhail: Sacred Drive
+Luc: Memento Drive
+Mikhail: Transcendent Scroll
 
-Priorities:  10 | 4
+Priorities:  3 | 2
 Luc is active
 Luc moves:
 
-..M.L..
+....ML.
 
-Mikhail moves:
+Luc hits
+Mikhail has 1 soak
+Mikhail takes 2 damage (now at 15 life)
+Luc spends a Time token
+Luc spends a Time token
+Luc attacks again
+Luc moves:
 
-...ML..
+...LM..
 
-Mikhail misses
+Luc hits
+Mikhail has 1 soak
+Mikhail takes 2 damage (now at 13 life)
+Mikhail hits
+Luc takes 2 damage (now at 11 life)
+Luc is stunned
 Luc gains 1 Time token
+Mikhail gains 1 Seal token
 
 Beat 8
 -------
 
 Luc
 ---
-life: 11
-discard 1: Chrono Dash
-discard 2: Eternal Grasp
-special action
-2 Time tokens
+Life: 11
+Discard 1: Memento Drive
+Discard 2: Eternal Shot
+Special action available
+3 Time tokens
 
 Mikhail
 -------
-life: 16
-discard 1: Sacred Drive
-discard 2: Immutable Shot
-special action
-1 Seal tokens
+Life: 13
+Discard 1: Transcendent Scroll
+Discard 2: Apocalyptic Dash
+Special action available
+3 Seal tokens
 
 
-...ML..
+...LM..
+
 
 Luc:
-59% Memento Drive
-17% Memento Burst
-25% Fusion Flash
+5% Fusion Strike (1 token)
+2% Feinting Strike
+2% Feinting Burst (3 tokens)
+13% Chrono Burst (1 token)
+78% Chrono Dash
 
 Mikhail:
-32% Hallowed Scroll (Seal)
-46% Apocalyptic Scroll
-22% Apocalyptic Grasp
+9% Sacred Strike
+19% Sacred Shot
+20% Sacred Drive
+43% Sacred Burst
+9% Sacred Burst (Seal)
 
 
-Luc: Fusion Flash
-Mikhail: Apocalyptic Grasp
+Luc: Fusion Strike (1 token)
+Mikhail: Sacred Burst
 
-Priorities:  7 | 5
+Luc antes a Time token
+Priorities:  5 | 1
 Luc is active
-Luc moves:
+Mikhail moves:
 
-..LM...
+...L..M
 
-Luc hits
-Mikhail takes 0 damage (now at 16 life)
-Mikhail is stunned
+Luc misses
+Mikhail hits
+Luc takes 3 damage (now at 8 life)
 Luc gains 1 Time token
 
 Beat 9
@@ -455,237 +477,38 @@ Beat 9
 
 Luc
 ---
-life: 11
-discard 1: Fusion Flash
-discard 2: Chrono Dash
-special action
+Life: 8
+Discard 1: Fusion Strike
+Discard 2: Memento Drive
+Special action available
 3 Time tokens
 
 Mikhail
 -------
-life: 16
-discard 1: Apocalyptic Grasp
-discard 2: Sacred Drive
-special action
-1 Seal tokens
+Life: 13
+Discard 1: Sacred Burst
+Discard 2: Transcendent Scroll
+Special action available
+3 Seal tokens
 
 
-..LM...
+...L..M
+
 
 Luc:
-77% Eternal Shot
-16% Eternal Burst
-7% Memento Drive
+17% Eternal Shot
+3% Feinting Burst
+77% Feinting Dash
+3% Chrono Shot (1 token)
 
 Mikhail:
-23% Immutable Burst
-36% Hallowed Scroll (Seal)
-29% Hallowed Strike (Seal)
-12% Hallowed Burst (Seal)
-
-
-Luc: Eternal Shot
-Mikhail: Hallowed Strike (Seal)
-
-Mikhail antes a Seal token
-Priorities:  -2 | 4
-Mikhail is active
-Mikhail moves Luc:
-
-...ML..
-
-Mikhail hits
-Luc spends a Time token
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +3 soak (4 total)
-Luc has 4 soak
-Luc takes 3 damage (now at 8 life)
-Mikhail moves Luc:
-
-...M..L
-
-Luc is stunned
-Luc gains 1 Time token
-
-Beat 10
--------
-
-Luc
----
-life: 8
-discard 1: Eternal Shot
-discard 2: Fusion Flash
-special action
-1 Time tokens
-
-Mikhail
--------
-life: 16
-discard 1: Hallowed Strike
-discard 2: Apocalyptic Grasp
-special action
-0 Seal tokens
-
-
-...M..L
-
-Unbeatable strategy for Mikhail: Transcendent Scroll: -0.01
-Unbeatable strategy for Mikhail: Sacred Scroll: -0.44
-
-Luc:
-65% Feinting Drive
-35% Feinting Dash
-
-Mikhail:
-41% Sacred Scroll
-59% Sacred Drive
-
-
-Luc: Feinting Drive
-Mikhail: Sacred Scroll
-
-Priorities:  2 | 2
-Clash!
-
-Luc:
-15% Feinting Strike
-85% Feinting Dash
-
-Mikhail:
-15% Sacred Shot
-85% Sacred Burst
+29% Immutable Shot
+44% Immutable Shot (Seal)
+16% Hallowed Strike (Seal)
+11% Hallowed Shot (Seal)
 
 
 Luc: Feinting Dash
-Mikhail: Sacred Burst
-
-Priorities:  7 | 1
-Luc is active
-Mikhail moves:
-
-.M....L
-
-Luc moves:
-
-.M...L.
-
-Mikhail misses
-Luc moves:
-
-.M.L...
-
-Luc gains 1 Time token
-
-Beat 11
--------
-
-Luc
----
-life: 8
-discard 1: Feinting Dash
-discard 2: Eternal Shot
-special action
-2 Time tokens
-
-Mikhail
--------
-life: 16
-discard 1: Sacred Burst
-discard 2: Hallowed Strike
-special action
-0 Seal tokens
-
-
-.M.L...
-
-Unbeatable strategy for Mikhail: Immutable Scroll: -0.61
-Unbeatable strategy for Mikhail: Transcendent Scroll: -0.58
-Unbeatable strategy for Mikhail: Apocalyptic Scroll: -0.44
-
-Luc:
-93% Memento Strike
-7% Memento Drive
-
-Mikhail:
-36% Immutable Shot
-64% Apocalyptic Scroll
-
-
-Luc: Memento Strike
-Mikhail: Immutable Shot
-
-Priorities:  2 | 2
-Clash!
-
-Luc:
-100% Memento Burst
-
-Mikhail:
-100% Immutable Scroll
-
-
-Luc: Memento Burst
-Mikhail: Immutable Scroll
-
-Priorities:  0 | 2
-Mikhail is active
-Luc moves:
-
-.M..L..
-
-Mikhail misses
-Luc hits
-Mikhail has 1 soak
-Mikhail takes 2 damage (now at 14 life)
-Luc spends a Time token
-Luc spends a Time token
-Luc attacks again
-Luc hits
-Mikhail has 1 soak
-Mikhail takes 2 damage (now at 12 life)
-Luc gains 1 Time token
-Mikhail gains 1 Seal token
-
-Beat 12
--------
-
-Luc
----
-life: 8
-discard 1: Memento Burst
-discard 2: Feinting Dash
-special action
-1 Time tokens
-
-Mikhail
--------
-life: 12
-discard 1: Immutable Scroll
-discard 2: Sacred Burst
-special action
-1 Seal tokens
-
-
-.M..L..
-
-Unbeatable strategy for Luc: Chrono Flash: 0.30
-
-Luc:
-2% Fusion Flash
-59% Chrono Flash
-34% Chrono Drive
-6% Chrono Drive (1 token)
-
-Mikhail:
-11% Transcendent Dash
-22% Hallowed Strike (Seal)
-11% Hallowed Dash
-40% Apocalyptic Shot
-15% Apocalyptic Grasp
-
-
-Luc: Chrono Flash
 Mikhail: Hallowed Strike (Seal)
 
 Mikhail antes a Seal token
@@ -693,15 +516,238 @@ Priorities:  7 | 4
 Luc is active
 Luc moves:
 
-.M.L...
+..L...M
 
 Mikhail moves Luc:
 
-.ML....
+...L..M
+
+Luc moves:
+
+..L...M
+
+Mikhail misses
+Luc moves:
+
+....L.M
+
+Luc gains 1 Time token
+
+Beat 10
+-------
+
+Luc
+---
+Life: 8
+Discard 1: Feinting Dash
+Discard 2: Fusion Strike
+Special action available
+4 Time tokens
+
+Mikhail
+-------
+Life: 13
+Discard 1: Hallowed Strike
+Discard 2: Sacred Burst
+Special action available
+2 Seal tokens
+
+
+....L.M
+
+Unbeatable strategy for Luc: Eternal Shot: 1.30
+Unbeatable strategy for Luc: Eternal Drive: 1.58
+
+
+Luc:
+77% Eternal Drive
+23% Chrono Drive
+
+Mikhail:
+1% Immutable Scroll (Seal)
+99% Apocalyptic Dash
+
+
+Luc: Eternal Drive
+Mikhail: Apocalyptic Dash
+
+Priorities:  0 | 9
+Mikhail is active
+Mikhail moves:
+
+..M.L..
+
+Luc moves:
+
+..ML...
+
+Luc misses
+Luc gains 1 Time token
+
+Beat 11
+-------
+
+Luc
+---
+Life: 8
+Discard 1: Eternal Drive
+Discard 2: Feinting Dash
+Special action available
+5 Time tokens
+
+Mikhail
+-------
+Life: 13
+Discard 1: Apocalyptic Dash
+Discard 2: Hallowed Strike
+Special action available
+2 Seal tokens
+
+
+..ML...
+
+Unbeatable strategy for Mikhail: Immutable Scroll (Seal): -2.70
+Unbeatable strategy for Mikhail: Immutable Shot (Seal): -0.71
+Unbeatable strategy for Mikhail: Immutable Burst (Seal): -2.55
+Unbeatable strategy for Mikhail: Transcendent Scroll (Seal): -0.75
+Unbeatable strategy for Mikhail: Transcendent Burst (Seal): -1.60
+Unbeatable strategy for Mikhail: Sacred Burst (Seal): -1.03
+
+
+Luc:
+37% Memento Shot
+21% Memento Shot (3 tokens)
+1% Memento Shot (5 tokens)
+1% Memento Burst (3 tokens)
+31% Fusion Shot
+3% Fusion Shot (1 token)
+6% Chrono Strike (1 token)
+
+Mikhail:
+42% Immutable Scroll (Seal)
+8% Immutable Drive (Seal)
+20% Immutable Burst (Seal)
+4% Transcendent Burst (Seal)
+1% Sacred Drive
+4% Sacred Drive (Seal)
+21% Sacred Burst (Seal)
+
+
+Luc: Fusion Shot
+Mikhail: Immutable Scroll (Seal)
+
+Mikhail antes a Seal token
+Priorities:  3 | -1
+Luc is active
+Luc hits
+Mikhail discards a Seal token
+Mikhail has 4 soak
+Mikhail takes 0 damage (now at 13 life)
+Mikhail hits
+Luc takes 4 damage (now at 4 life)
+Luc is stunned
+Mikhail gains 1 Seal token
+
+Beat 12
+-------
+
+Luc
+---
+Life: 4
+Discard 1: Fusion Shot
+Discard 2: Eternal Drive
+Special action available
+5 Time tokens
+
+Mikhail
+-------
+Life: 13
+Discard 1: Immutable Scroll
+Discard 2: Apocalyptic Dash
+Special action available
+1 Seal token
+
+
+..ML...
+
+Unbeatable strategy for Mikhail: Sacred Burst: -0.09
+
+
+Luc:
+49% Chrono Grasp
+30% Special Temporal Recursion
+21% Special Temporal Recursion (1 token)
+
+Mikhail:
+2% Hallowed Grasp (Seal)
+3% Sacred Burst (Seal)
+96% Special Pulse
+
+
+Luc: Chrono Grasp
+Mikhail: Special Pulse
+
+Mikhail Pulses:
+
+.L....M
+
+
+Beat 12
+-------
+
+Luc
+---
+Life: 4
+Discard 1: Chrono Grasp
+Discard 2: Fusion Shot
+Special action available
+5 Time tokens
+
+Mikhail
+-------
+Life: 13
+Discard 1: Immutable Scroll
+Discard 2: Apocalyptic Dash
+1 Seal token
+
+
+.L....M
+
+
+Luc:
+39% Eternal Drive (3 tokens)
+40% Eternal Dash
+3% Memento Drive (3 tokens)
+12% Feinting Burst (3 tokens)
+7% Special Temporal Recursion
+
+Mikhail:
+23% Hallowed Shot (Seal)
+6% Hallowed Drive (Seal)
+43% Sacred Strike
+23% Sacred Shot
+5% Sacred Burst
+
+
+Luc: Eternal Drive (3 tokens)
+Mikhail: Sacred Strike
+
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  0 | 3
+Mikhail is active
+Luc moves:
+
+...L..M
+
+Mikhail misses
+Luc moves:
+
+.....LM
 
 Luc hits
-Mikhail takes 1 damage (now at 11 life)
-Mikhail is stunned
+Mikhail takes 3 damage (now at 10 life)
 Luc gains 1 Time token
 Mikhail gains 1 Seal token
 
@@ -710,110 +756,115 @@ Beat 13
 
 Luc
 ---
-life: 8
-discard 1: Chrono Flash
-discard 2: Memento Burst
-special action
-2 Time tokens
+Life: 4
+Discard 1: Eternal Drive
+Discard 2: Chrono Grasp
+Special action available
+3 Time tokens
 
 Mikhail
 -------
-life: 11
-discard 1: Hallowed Strike
-discard 2: Immutable Scroll
-special action
-1 Seal tokens
+Life: 10
+Discard 1: Sacred Strike
+Discard 2: Immutable Scroll
+2 Seal tokens
 
 
-.ML....
+.....LM
+
+Unbeatable strategy for Mikhail: Apocalyptic Dash: -0.13
+
 
 Luc:
-96% Eternal Drive
-4% Fusion Strike
-0% Feinting Strike (1 token)
+57% Memento Flash (1 token)
+13% Memento Burst
+22% Memento Dash (1 token)
+3% Fusion Burst (1 token)
+2% Special Temporal Recursion
+1% Special Temporal Recursion (1 token)
 
 Mikhail:
-57% Sacred Shot
-1% Sacred Drive
-42% Sacred Burst
+4% Transcendent Shot
+7% Hallowed Shot (Seal)
+7% Hallowed Drive (Seal)
+26% Hallowed Grasp (Seal)
+8% Apocalyptic Shot
+47% Apocalyptic Dash
 
 
-Luc: Eternal Drive
-Mikhail: Sacred Burst
+Luc: Memento Flash (1 token)
+Mikhail: Apocalyptic Dash
 
-Priorities:  0 | 1
+Luc antes a Time token
+Priorities:  6 | 9
 Mikhail is active
 Mikhail moves:
 
-M.L....
+..M..L.
 
-Mikhail hits
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +2 soak (3 total)
-Luc has 3 soak
-Luc takes 0 damage (now at 8 life)
-Luc moves:
-
-ML.....
-
-Luc hits
-Mikhail takes 3 damage (now at 8 life)
-Mikhail is stunned
+Luc misses
 Luc gains 1 Time token
-Mikhail gains 1 Seal token
 
 Beat 14
 -------
 
 Luc
 ---
-life: 8
-discard 1: Eternal Drive
-discard 2: Chrono Flash
-special action
-1 Time tokens
+Life: 4
+Discard 1: Memento Flash
+Discard 2: Eternal Drive
+Special action available
+3 Time tokens
 
 Mikhail
 -------
-life: 8
-discard 1: Sacred Burst
-discard 2: Hallowed Strike
-special action
+Life: 10
+Discard 1: Apocalyptic Dash
+Discard 2: Sacred Strike
 2 Seal tokens
 
 
-ML.....
+..M..L.
 
-Unbeatable strategy for Mikhail: Immutable Scroll (Seal): -0.68
 
 Luc:
-48% Fusion Strike
-1% Fusion Burst
-3% Feinting Burst (1 token)
-48% Feinting Dash
+2% Feinting Shot
+0% Feinting Burst (1 token)
+15% Feinting Burst (3 tokens)
+4% Feinting Grasp (3 tokens)
+7% Chrono Strike (1 token)
+72% Chrono Dash
+1% Special Temporal Recursion
 
 Mikhail:
-50% Immutable Scroll (Seal)
-8% Immutable Drive (Seal)
-23% Apocalyptic Scroll
-19% Apocalyptic Grasp
+5% Immutable Scroll (Seal)
+3% Immutable Shot (Seal)
+0% Immutable Drive (Seal)
+38% Transcendent Scroll
+38% Hallowed Scroll
+3% Hallowed Scroll (Seal)
+8% Hallowed Shot (Seal)
+5% Hallowed Drive (Seal)
 
 
-Luc: Feinting Dash
+Luc: Feinting Grasp (3 tokens)
 Mikhail: Immutable Scroll (Seal)
 
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
 Mikhail antes a Seal token
-Priorities:  7 | -1
+Priorities:  3 | -1
 Luc is active
 Luc moves:
 
-M...L..
+..M...L
 
+Luc misses
 Mikhail misses
 Luc moves:
 
-M.L....
+..M.L..
 
 Mikhail gains 1 Seal token
 Luc gains 1 Time token
@@ -823,76 +874,199 @@ Beat 15
 
 Luc
 ---
-life: 8
-discard 1: Feinting Dash
-discard 2: Eternal Drive
-special action
-2 Time tokens
+Life: 4
+Discard 1: Feinting Grasp
+Discard 2: Memento Flash
+Special action available
+1 Time token
 
 Mikhail
 -------
-life: 8
-discard 1: Immutable Scroll
-discard 2: Sacred Burst
-special action
+Life: 10
+Discard 1: Immutable Scroll
+Discard 2: Apocalyptic Dash
 2 Seal tokens
 
 
-M.L....
+..M.L..
+
+Unbeatable strategy for Mikhail: Transcendent Strike: -9.00
+Unbeatable strategy for Mikhail: Transcendent Strike (Seal): -9.00
+Unbeatable strategy for Mikhail: Transcendent Shot: -9.00
+Unbeatable strategy for Mikhail: Transcendent Shot (Seal): -9.00
+Unbeatable strategy for Mikhail: Transcendent Drive: -9.00
+Unbeatable strategy for Mikhail: Transcendent Drive (Seal): -9.00
+Unbeatable strategy for Mikhail: Transcendent Burst: -9.00
+Unbeatable strategy for Mikhail: Transcendent Burst (Seal): -9.00
+Unbeatable strategy for Mikhail: Transcendent Grasp: -9.00
+Unbeatable strategy for Mikhail: Transcendent Grasp (Seal): -9.00
+Unbeatable strategy for Mikhail: Hallowed Strike: -9.00
+Unbeatable strategy for Mikhail: Hallowed Strike (Seal): -9.00
+Unbeatable strategy for Mikhail: Hallowed Shot: -9.00
+Unbeatable strategy for Mikhail: Hallowed Shot (Seal): -9.00
+Unbeatable strategy for Mikhail: Hallowed Drive: -9.00
+Unbeatable strategy for Mikhail: Hallowed Drive (Seal): -9.00
+Unbeatable strategy for Mikhail: Hallowed Burst: -9.00
+Unbeatable strategy for Mikhail: Hallowed Burst (Seal): -9.00
+Unbeatable strategy for Mikhail: Hallowed Grasp: -9.00
+Unbeatable strategy for Mikhail: Hallowed Grasp (Seal): -9.00
+Unbeatable strategy for Mikhail: Sacred Strike: -9.00
+Unbeatable strategy for Mikhail: Sacred Strike (Seal): -9.00
+Unbeatable strategy for Mikhail: Sacred Shot: -9.00
+Unbeatable strategy for Mikhail: Sacred Shot (Seal): -9.00
+Unbeatable strategy for Mikhail: Sacred Drive: -9.00
+Unbeatable strategy for Mikhail: Sacred Drive (Seal): -9.00
+Unbeatable strategy for Mikhail: Sacred Burst: -9.00
+Unbeatable strategy for Mikhail: Sacred Burst (Seal): -9.00
+Unbeatable strategy for Mikhail: Sacred Grasp: -9.00
+Unbeatable strategy for Mikhail: Sacred Grasp (Seal): -9.00
+
 
 Luc:
-5% Memento Flash
-7% Memento Flash (1 token)
-2% Memento Strike
-2% Memento Strike (1 token)
-3% Memento Shot
-2% Memento Shot (1 token)
-2% Memento Burst
-2% Memento Burst (1 token)
-1% Memento Grasp
-2% Memento Grasp (1 token)
-5% Fusion Flash
-2% Fusion Strike
-2% Fusion Strike (1 token)
-2% Fusion Shot
-2% Fusion Shot (1 token)
-2% Fusion Burst
-2% Fusion Burst (1 token)
-3% Fusion Grasp
-3% Fusion Grasp (1 token)
-31% Chrono Flash
-3% Chrono Strike
-2% Chrono Strike (1 token)
-2% Chrono Shot
-1% Chrono Shot (1 token)
-2% Chrono Burst
-2% Chrono Burst (1 token)
-3% Chrono Grasp
-2% Chrono Grasp (1 token)
+99% Special Pulse
+1% Special Temporal Recursion
 
 Mikhail:
-18% Transcendent Dash
-21% Transcendent Dash (Seal)
-18% Hallowed Dash
-25% Hallowed Dash (Seal)
-18% Apocalyptic Dash
+43% Sacred Shot
+57% Sacred Burst
 
 
-Luc: Fusion Flash
-Mikhail: Transcendent Dash
+Luc: Special Pulse
+Mikhail: Sacred Shot
 
-Priorities:  7 | 9
-Mikhail is active
-Luc moves:
+Luc Pulses:
 
 ML.....
 
-Mikhail moves:
 
-.LM....
+Beat 15
+-------
 
-Luc misses
+Luc
+---
+Life: 4
+Discard 1: Feinting Grasp
+Discard 2: Memento Flash
+1 Time token
+
+Mikhail
+-------
+Life: 10
+Discard 1: Sacred Shot
+Discard 2: Immutable Scroll
+2 Seal tokens
+
+
+ML.....
+
+Unbeatable strategy for Mikhail: Transcendent Strike: -9.00
+Unbeatable strategy for Mikhail: Transcendent Strike (Seal): -9.00
+Unbeatable strategy for Mikhail: Transcendent Drive: -9.00
+Unbeatable strategy for Mikhail: Transcendent Drive (Seal): -9.00
+Unbeatable strategy for Mikhail: Transcendent Burst: -9.00
+Unbeatable strategy for Mikhail: Transcendent Burst (Seal): -9.00
+Unbeatable strategy for Mikhail: Transcendent Grasp: -9.00
+Unbeatable strategy for Mikhail: Transcendent Grasp (Seal): -9.00
+Unbeatable strategy for Mikhail: Transcendent Dash: -9.00
+Unbeatable strategy for Mikhail: Transcendent Dash (Seal): -9.00
+Unbeatable strategy for Mikhail: Hallowed Strike: -9.00
+Unbeatable strategy for Mikhail: Hallowed Strike (Seal): -9.00
+Unbeatable strategy for Mikhail: Hallowed Drive: -9.00
+Unbeatable strategy for Mikhail: Hallowed Drive (Seal): -9.00
+Unbeatable strategy for Mikhail: Hallowed Burst: -9.00
+Unbeatable strategy for Mikhail: Hallowed Burst (Seal): -9.00
+Unbeatable strategy for Mikhail: Hallowed Grasp: -9.00
+Unbeatable strategy for Mikhail: Hallowed Grasp (Seal): -9.00
+Unbeatable strategy for Mikhail: Hallowed Dash: -9.00
+Unbeatable strategy for Mikhail: Hallowed Dash (Seal): -9.00
+Unbeatable strategy for Mikhail: Apocalyptic Strike: -9.00
+Unbeatable strategy for Mikhail: Apocalyptic Strike (Seal): -9.00
+Unbeatable strategy for Mikhail: Apocalyptic Drive: -9.00
+Unbeatable strategy for Mikhail: Apocalyptic Drive (Seal): -9.00
+Unbeatable strategy for Mikhail: Apocalyptic Burst: -9.00
+Unbeatable strategy for Mikhail: Apocalyptic Burst (Seal): -9.00
+Unbeatable strategy for Mikhail: Apocalyptic Grasp: -9.00
+Unbeatable strategy for Mikhail: Apocalyptic Grasp (Seal): -9.00
+Unbeatable strategy for Mikhail: Apocalyptic Dash: -9.00
+Unbeatable strategy for Mikhail: Apocalyptic Dash (Seal): -9.00
+
+
+Luc:
+3% Eternal Strike
+3% Eternal Strike (1 token)
+3% Eternal Shot
+3% Eternal Shot (1 token)
+3% Eternal Drive
+3% Eternal Drive (1 token)
+3% Eternal Burst
+3% Eternal Burst (1 token)
+3% Eternal Dash
+3% Eternal Dash (1 token)
+3% Fusion Strike
+3% Fusion Strike (1 token)
+3% Fusion Shot
+3% Fusion Shot (1 token)
+3% Fusion Drive
+3% Fusion Drive (1 token)
+3% Fusion Burst
+3% Fusion Burst (1 token)
+3% Fusion Dash
+3% Fusion Dash (1 token)
+3% Chrono Strike
+3% Chrono Strike (1 token)
+3% Chrono Shot
+3% Chrono Shot (1 token)
+3% Chrono Drive
+3% Chrono Drive (1 token)
+3% Chrono Burst
+3% Chrono Burst (1 token)
+3% Chrono Dash
+3% Chrono Dash (1 token)
+
+Mikhail:
+3% Transcendent Strike
+3% Transcendent Strike (Seal)
+3% Transcendent Drive
+3% Transcendent Drive (Seal)
+3% Transcendent Burst
+3% Transcendent Burst (Seal)
+3% Transcendent Grasp
+3% Transcendent Grasp (Seal)
+3% Transcendent Dash
+3% Transcendent Dash (Seal)
+3% Hallowed Strike
+3% Hallowed Strike (Seal)
+3% Hallowed Drive
+3% Hallowed Drive (Seal)
+3% Hallowed Burst
+3% Hallowed Burst (Seal)
+3% Hallowed Grasp
+3% Hallowed Grasp (Seal)
+3% Hallowed Dash
+3% Hallowed Dash (Seal)
+3% Apocalyptic Strike
+3% Apocalyptic Strike (Seal)
+3% Apocalyptic Drive
+3% Apocalyptic Drive (Seal)
+3% Apocalyptic Burst
+3% Apocalyptic Burst (Seal)
+3% Apocalyptic Grasp
+3% Apocalyptic Grasp (Seal)
+3% Apocalyptic Dash
+3% Apocalyptic Dash (Seal)
+
+
+Luc: Eternal Dash
+Mikhail: Hallowed Strike
+
+Priorities:  5 | 3
+Luc is active
+Luc moves:
+
+M.L....
+
+Mikhail misses
 Luc gains 1 Time token
 Game goes to time
-THE GAME IS TIED!
-total_time: 36
+MIKHAIL WINS!
+total_time: 90

@@ -24,21 +24,21 @@ Life: 20
 Discard 1: Eternal Flash
 Discard 2: Fusion Strike
 Special action available
-2 Time token
+2 Time tokens
 
 
 .G...L.
 
 
 Gerard:
-47% Gilded Drive (Hire Brawler)
-48% Gilded Dash (Hire Brawler)
-6% Initiation Drive (Hire Brawler)
+35% Gilded Drive (Hire Brawler)
+62% Gilded Dash (Hire Brawler)
+3% Initiation Drive (Hire Brawler)
 
 Luc:
-12% Feinting Grasp
-15% Chrono Shot
-73% Chrono Drive
+10% Memento Drive
+2% Chrono Shot
+88% Chrono Drive
 
 
 Gerard: Gilded Dash (Hire Brawler)
@@ -47,18 +47,24 @@ Luc: Chrono Drive
 Gerard hires a Brawler for 3 gold (0 remaining)
 Priorities:  8 | 5
 Gerard is active
+Luc spends a Time token
+Luc spends a Time token
+Luc moves:
+
+.G.L...
+
 Gerard moves Luc:
 
-.G..L..
+.GL....
 
 Gerard moves:
 
-....LG.
+..LG...
 
 Luc loses 1 life (now at 19)
 Luc moves:
 
-.....GL
+...GL..
 
 Luc misses
 Gerard gains 1 Gold Token (has 1)
@@ -83,46 +89,51 @@ Life: 19
 Discard 1: Chrono Drive
 Discard 2: Eternal Flash
 Special action available
-3 Time token
+1 Time token
 
 
-.....GL
+...GL..
 
 
 Gerard:
-21% Avaricious Drive
-17% Avaricious Burst
-0% Hooked Shot
-55% Hooked Drive
-6% Initiation Shot
+5% Hooked Shot
+20% Hooked Drive
+21% Initiation Shot
+37% Initiation Drive
+10% Initiation Burst
+6% Initiation Grasp
 
 Luc:
-0% Memento Strike
-5% Memento Strike (1 token)
-88% Memento Dash
-1% Fusion Strike (3 tokens)
-5% Fusion Shot (3 tokens)
+8% Memento Strike
+29% Memento Dash
+5% Fusion Strike
+12% Fusion Shot (1 token)
+1% Fusion Grasp
+15% Fusion Grasp (1 token)
+29% Fusion Dash
 
 
-Gerard: Hooked Drive
-Luc: Memento Dash
+Gerard: Initiation Shot
+Luc: Fusion Grasp (1 token)
 
-Priorities:  3 | 8
+Luc antes a Time token
+Priorities:  3 | 7
 Luc is active
-Gerard moves:
+Luc hits
+Luc moves Gerard:
 
-G.....L
+....LG.
 
-Luc moves:
+Gerard takes 1 damage (now at 19 life)
+Luc moves Gerard:
 
-G..L...
+....L.G
 
-Gerard moves:
-
-..GL...
-
-Gerard misses
-Luc loses 1 life (now at 18)
+Gerard hits
+First hireling next beat will cost 2 gold less
+Luc takes 3 damage (now at 16 life)
+Luc is stunned
+Luc loses 1 life (now at 15)
 Gerard gains 1 Gold Token (has 2)
 Luc gains 1 Time token
 
@@ -131,71 +142,66 @@ Beat 3
 
 Gerard
 ------
-Life: 20
-Discard 1: Hooked Drive
+Life: 19
+Discard 1: Initiation Shot
 Discard 2: Gilded Dash
 Special action available
+First hireling costs 2 gold less
 Gold: 2
 Mercenaries in play:
   Brawler
 
 Luc
 ---
-Life: 18
-Discard 1: Memento Dash
+Life: 15
+Discard 1: Fusion Grasp
 Discard 2: Chrono Drive
 Special action available
-4 Time token
+1 Time token
 
 
-..GL...
+....L.G
 
 
 Gerard:
-7% Villainous Larceny
-5% Villainous Shot
-11% Avaricious Shot
-28% Avaricious Burst
-15% Initiation Larceny
-11% Initiation Burst
-23% Initiation Grasp
+19% Avaricious Larceny (Hire Archer)
+59% Avaricious Drive (Hire Archer)
+18% Avaricious Burst (Hire Archer)
+5% Hooked Burst (Hire Archer)
 
 Luc:
-18% Eternal Strike (3 tokens)
-25% Eternal Shot
-2% Eternal Burst
-25% Fusion Strike (1 token)
-1% Fusion Shot (1 token)
-16% Feinting Burst
-14% Feinting Burst (3 tokens)
+11% Eternal Shot
+36% Memento Flash (1 token)
+41% Feinting Burst
+11% Feinting Burst (1 token)
 
 
-Gerard: Avaricious Burst
-Luc: Eternal Strike (3 tokens)
+Gerard: Avaricious Burst (Hire Archer)
+Luc: Memento Flash (1 token)
 
+Gerard hires a Archer for 1 gold (1 remaining)
 Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  1 | -1
-Gerard is active
-Gerard moves:
-
-...LG..
-
-Gerard moves:
-
-...L..G
-
+Priorities:  2 | 6
+Luc is active
 Luc moves:
 
 .....LG
 
-Gerard misses
-Luc loses 1 life (now at 17)
-Luc hits
-Gerard takes 4 damage (now at 16 life)
-Gerard is stunned
-Gerard gains 1 Gold Token (has 3)
+Gerard moves:
+
+....GL.
+
+Gerard moves:
+
+..G..L.
+
+Luc misses
+Gerard hits
+Luc takes 3 damage (now at 12 life)
+Gerard gains 2 Gold Tokens (has 3)
+Luc is stunned
+Luc loses 1 life (now at 11)
+Gerard gains 1 Gold Token (has 4)
 Luc gains 1 Time token
 
 Beat 4
@@ -203,277 +209,9 @@ Beat 4
 
 Gerard
 ------
-Life: 16
+Life: 19
 Discard 1: Avaricious Burst
-Discard 2: Hooked Drive
-Special action available
-Gold: 3
-Mercenaries in play:
-  Brawler
-
-Luc
----
-Life: 17
-Discard 1: Eternal Strike
-Discard 2: Memento Dash
-Special action available
-2 Time token
-
-
-.....LG
-
-Unbeatable strategy for Gerard: Villainous Dash: 0.71
-Unbeatable strategy for Gerard: Villainous Dash (Hire Archer): 2.22
-Unbeatable strategy for Gerard: Initiation Dash: 0.53
-Unbeatable strategy for Gerard: Initiation Dash (Hire Archer): 1.90
-
-
-Gerard:
-31% Villainous Dash (Hire Archer)
-2% Gilded Larceny
-11% Gilded Larceny (Hire Archer)
-2% Gilded Strike
-53% Gilded Shot
-0% Initiation Larceny (Hire Archer)
-2% Initiation Grasp (Hire Archer)
-
-Luc:
-24% Feinting Flash
-13% Feinting Shot (1 token)
-12% Feinting Burst
-0% Chrono Flash
-0% Chrono Shot
-30% Chrono Drive
-21% Chrono Burst
-
-
-Gerard: Villainous Dash (Hire Archer)
-Luc: Feinting Shot (1 token)
-
-Gerard hires a Archer for 3 gold (0 remaining)
-Luc antes a Time token
-Priorities:  9 | 1
-Gerard is active
-Luc moves:
-
-....L.G
-
-Gerard moves:
-
-..G.L..
-
-Luc loses 1 life (now at 16)
-Luc misses
-Gerard moves:
-
-....LG.
-
-Luc moves:
-
-.....GL
-
-Gerard gains 1 Gold Token (has 1)
-Luc gains 1 Time token
-
-Beat 5
--------
-
-Gerard
-------
-Life: 16
-Discard 1: Villainous Dash
-Discard 2: Avaricious Burst
-Special action available
-Gold: 1
-Mercenaries in play:
-  Brawler
-  Archer
-
-Luc
----
-Life: 16
-Discard 1: Feinting Shot
-Discard 2: Eternal Strike
-Special action available
-2 Time token
-
-
-.....GL
-
-
-Gerard:
-98% Hooked Shot
-2% Initiation Grasp
-
-Luc:
-39% Memento Flash
-20% Fusion Flash
-41% Chrono Flash
-
-
-Gerard: Hooked Shot
-Luc: Chrono Flash
-
-Priorities:  1 | 7
-Luc is active
-Luc moves:
-
-....LG.
-
-Gerard moves:
-
-....L.G
-
-Luc misses
-Gerard misses
-Luc loses 1 life (now at 15)
-Gerard gains 1 Gold Token (has 2)
-Luc gains 1 Time token
-
-Beat 6
--------
-
-Gerard
-------
-Life: 16
-Discard 1: Hooked Shot
-Discard 2: Villainous Dash
-Special action available
-Gold: 2
-Mercenaries in play:
-  Brawler
-  Archer
-
-Luc
----
-Life: 15
-Discard 1: Chrono Flash
-Discard 2: Feinting Shot
-Special action available
-3 Time token
-
-
-....L.G
-
-
-Gerard:
-64% Gilded Larceny
-36% Avaricious Drive
-
-Luc:
-66% Fusion Drive (1 token)
-34% Fusion Burst
-
-
-Gerard: Gilded Larceny
-Luc: Fusion Burst
-
-Priorities:  2 | 2
-Clash!
-
-
-Gerard: Gilded Drive
-Luc: Fusion Drive
-
-Priorities:  3 | 5
-Luc is active
-Luc moves:
-
-.....LG
-
-Luc hits
-Gerard takes 2 damage (now at 14 life)
-Gerard loses 2 life (now at 12)
-Gerard moves:
-
-...G.L.
-
-Gerard hits
-Luc takes 3 damage (now at 12 life)
-Luc is stunned
-Luc loses 1 life (now at 11)
-Gerard gains 1 Gold Token (has 3)
-Luc gains 1 Time token
-
-Beat 7
--------
-
-Gerard
-------
-Life: 12
-Discard 1: Gilded Drive
-Discard 2: Hooked Shot
-Special action available
-Gold: 3
-Mercenaries in play:
-  Brawler
-  Archer
-
-Luc
----
-Life: 11
-Discard 1: Fusion Drive
-Discard 2: Chrono Flash
-Special action available
-4 Time token
-
-
-...G.L.
-
-Unbeatable strategy for Gerard: Initiation Dash: 0.42
-
-
-Gerard:
-15% Villainous Dash
-19% Avaricious Burst
-27% Initiation Larceny
-5% Initiation Strike
-13% Initiation Grasp
-21% Initiation Dash
-
-Luc:
-2% Eternal Strike (3 tokens)
-14% Eternal Shot
-9% Memento Strike
-2% Memento Shot (1 token)
-66% Memento Dash
-7% Memento Dash (1 token)
-
-
-Gerard: Initiation Larceny
-Luc: Memento Dash
-
-Priorities:  4 | 8
-Luc is active
-Luc moves:
-
-.L.G...
-
-Gerard moves Luc:
-
-..LG...
-
-Gerard moves:
-
-.GL....
-
-Gerard moves:
-
-..LG...
-
-Gerard misses
-Luc loses 1 life (now at 10)
-Gerard gains 1 Gold Token (has 4)
-Luc gains 1 Time token
-
-Beat 8
--------
-
-Gerard
-------
-Life: 12
-Discard 1: Initiation Larceny
-Discard 2: Gilded Drive
+Discard 2: Initiation Shot
 Special action available
 Gold: 4
 Mercenaries in play:
@@ -482,75 +220,208 @@ Mercenaries in play:
 
 Luc
 ---
-Life: 10
-Discard 1: Memento Dash
-Discard 2: Fusion Drive
+Life: 11
+Discard 1: Memento Flash
+Discard 2: Fusion Grasp
 Special action available
-5 Time token
+1 Time token
+
+
+..G..L.
+
+Unbeatable strategy for Gerard: Villainous Dash: 0.03
+
+
+Gerard:
+1% Villainous Drive
+4% Villainous Dash
+41% Gilded Strike
+40% Gilded Dash
+14% Hooked Drive
+
+Luc:
+1% Eternal Shot
+71% Eternal Dash
+16% Feinting Shot
+6% Feinting Drive (1 token)
+5% Chrono Drive
+
+
+Gerard: Hooked Drive
+Luc: Eternal Dash
+
+Priorities:  3 | 5
+Luc is active
+Gerard moves:
+
+G....L.
+
+Luc moves:
+
+G.L....
+
+Gerard moves:
+
+..LG...
+
+Gerard misses
+Luc loses 1 life (now at 10)
+Gerard gains 1 Gold Token (has 5)
+Luc gains 1 Time token
+
+Beat 5
+-------
+
+Gerard
+------
+Life: 19
+Discard 1: Hooked Drive
+Discard 2: Avaricious Burst
+Special action available
+Gold: 5
+Mercenaries in play:
+  Brawler
+  Archer
+
+Luc
+---
+Life: 10
+Discard 1: Eternal Dash
+Discard 2: Memento Flash
+Special action available
+2 Time tokens
 
 
 ..LG...
 
-Unbeatable strategy for Luc: Feinting Shot (5 tokens): -1.07
+Unbeatable strategy for Gerard: Villainous Dash: 0.57
+Unbeatable strategy for Gerard: Gilded Dash: 0.48
+Unbeatable strategy for Gerard: Initiation Dash: 0.50
 
 
 Gerard:
-22% Villainous Strike
-18% Villainous Shot
-9% Villainous Grasp
-8% Villainous Dash
-13% Hooked Shot
-29% Hooked Burst
-1% Hooked Grasp
+0% Villainous Grasp
+61% Villainous Dash
+22% Gilded Strike
+2% Gilded Grasp
+3% Initiation Larceny
+12% Initiation Grasp
 
 Luc:
-7% Eternal Shot (5 tokens)
-7% Feinting Strike (5 tokens)
-33% Feinting Shot (1 token)
-25% Feinting Shot (5 tokens)
-6% Chrono Shot
-21% Chrono Shot (1 token)
-2% Chrono Shot (3 tokens)
+3% Feinting Shot
+30% Chrono Strike
+18% Chrono Strike (1 token)
+14% Chrono Shot
+17% Chrono Burst
+19% Chrono Grasp (1 token)
 
 
-Gerard: Villainous Shot
-Luc: Feinting Shot (1 token)
+Gerard: Villainous Dash
+Luc: Chrono Burst
 
-Luc antes a Time token
-Priorities:  2 | 1
+Priorities:  9 | 2
 Gerard is active
 Luc moves:
 
 .L.G...
 
-Gerard hits
-Gerard moves Luc:
-
-L..G...
-
-Luc takes 4 damage (now at 6 life)
-Luc is stunned
-Luc loses 1 life (now at 5)
-Gerard moves:
-
-LG.....
-
-Gerard gains 2 Gold Tokens (has 6)
+Luc spends a Time token
 Luc moves:
 
-.GL....
+..LG...
 
-Gerard gains 1 Gold Token (has 7)
+Luc loses 1 life (now at 9)
+Gerard moves:
+
+..L...G
+
+Luc loses 1 life (now at 8)
+Luc misses
+Gerard moves:
+
+..L..G.
+
+Gerard gains 1 Gold Token (has 6)
 Luc gains 1 Time token
 
-Beat 9
+Beat 6
 -------
 
 Gerard
 ------
-Life: 12
-Discard 1: Villainous Shot
-Discard 2: Initiation Larceny
+Life: 19
+Discard 1: Villainous Dash
+Discard 2: Hooked Drive
+Special action available
+Gold: 6
+Mercenaries in play:
+  Brawler
+  Archer
+
+Luc
+---
+Life: 8
+Discard 1: Chrono Burst
+Discard 2: Eternal Dash
+Special action available
+2 Time tokens
+
+
+..L..G.
+
+
+Gerard:
+56% Gilded Burst
+19% Gilded Grasp
+17% Initiation Larceny
+8% Initiation Shot
+
+Luc:
+28% Memento Drive
+19% Fusion Drive
+24% Feinting Drive
+29% Feinting Drive (1 token)
+
+
+Gerard: Initiation Larceny
+Luc: Feinting Drive
+
+Priorities:  4 | 2
+Gerard is active
+Luc moves:
+
+.L...G.
+
+Gerard moves Luc:
+
+..L..G.
+
+Gerard moves:
+
+..L.G..
+
+Gerard misses
+Luc loses 1 life (now at 7)
+Luc moves:
+
+....GL.
+
+Luc misses
+Luc moves:
+
+...LG..
+
+Gerard gains 1 Gold Token (has 7)
+Luc gains 1 Time token
+
+Beat 7
+-------
+
+Gerard
+------
+Life: 19
+Discard 1: Initiation Larceny
+Discard 2: Villainous Dash
 Special action available
 Gold: 7
 Mercenaries in play:
@@ -559,71 +430,62 @@ Mercenaries in play:
 
 Luc
 ---
-Life: 5
-Discard 1: Feinting Shot
-Discard 2: Memento Dash
+Life: 7
+Discard 1: Feinting Drive
+Discard 2: Chrono Burst
 Special action available
-5 Time token
+3 Time tokens
 
 
-.GL....
+...LG..
 
 
 Gerard:
-50% Gilded Burst
-44% Gilded Dash
-0% Avaricious Strike
-1% Avaricious Burst
-3% Avaricious Dash
-2% Hooked Dash
+7% Gilded Strike
+13% Gilded Shot
+42% Gilded Burst
+22% Gilded Grasp
+15% Avaricious Grasp
 
 Luc:
-13% Eternal Strike (3 tokens)
-20% Eternal Strike (5 tokens)
-25% Eternal Drive (1 token)
-16% Chrono Flash (1 token)
-13% Chrono Strike (5 tokens)
-5% Chrono Drive
-9% Chrono Drive (1 token)
-
-
-Gerard: Gilded Dash
-Luc: Chrono Flash (1 token)
-
-Luc antes a Time token
-Priorities:  8 | 8
-Clash!
+7% Eternal Strike (3 tokens)
+40% Eternal Shot (3 tokens)
+26% Memento Shot
+10% Memento Shot (1 token)
+16% Fusion Strike (1 token)
 
 
 Gerard: Gilded Burst
-Luc: Chrono Drive (1 token)
+Luc: Eternal Shot (3 tokens)
 
 Luc antes a Time token
-Priorities:  0 | 6
-Luc is active
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  0 | -2
+Gerard is active
 Gerard moves:
 
-G.L....
+...L.G.
 
-Luc moves:
-
-GL.....
-
+Gerard hits
+Luc has 1 soak
+Luc takes 2 damage (now at 5 life)
+Luc loses 1 life (now at 4)
 Luc hits
 Gerard has 2 soak
-Gerard takes 1 damage (now at 11 life)
+Gerard takes 1 damage (now at 18 life)
 Gerard is stunned
 Gerard gains 1 Gold Token (has 8)
 Luc gains 1 Time token
 
-Beat 10
+Beat 8
 -------
 
 Gerard
 ------
-Life: 11
+Life: 18
 Discard 1: Gilded Burst
-Discard 2: Villainous Shot
+Discard 2: Initiation Larceny
 Special action available
 Gold: 8
 Mercenaries in play:
@@ -632,488 +494,301 @@ Mercenaries in play:
 
 Luc
 ---
-Life: 5
-Discard 1: Chrono Drive
-Discard 2: Feinting Shot
+Life: 4
+Discard 1: Eternal Shot
+Discard 2: Feinting Drive
 Special action available
-5 Time token
+1 Time token
 
 
-GL.....
-
-Unbeatable strategy for Luc: Eternal Strike (5 tokens): -0.55
+...L.G.
 
 
 Gerard:
-13% Avaricious Larceny
-9% Avaricious Drive
-34% Avaricious Dash
-4% Hooked Drive
-21% Hooked Dash
-20% Initiation Larceny (Hire Lackey)
+61% Villainous Shot
+7% Villainous Shot (Hire Lackey)
+15% Avaricious Strike
+13% Avaricious Drive
+1% Avaricious Drive (Hire Mage; Activate Mage)
+4% Avaricious Dash
 
 Luc:
-84% Eternal Strike (5 tokens)
-2% Memento Strike (5 tokens)
-1% Memento Dash
-3% Memento Dash (1 token)
-3% Fusion Strike (5 tokens)
-5% Fusion Grasp (5 tokens)
-3% Special Temporal Recursion
+9% Memento Flash
+48% Memento Dash
+14% Chrono Flash
+9% Chrono Strike
+11% Chrono Burst
+9% Chrono Dash
 
 
-Gerard: Initiation Larceny (Hire Lackey)
-Luc: Memento Dash
+Gerard: Villainous Shot
+Luc: Memento Flash
 
-Gerard hires a Lackey for 7 gold (1 remaining)
-Priorities:  4 | 8
+Priorities:  2 | 5
 Luc is active
 Luc moves:
 
-G...L..
+....LG.
 
-Gerard moves Luc:
+Luc hits
+Gerard takes 1 damage (now at 17 life)
+Gerard is stunned
+Gerard moves:
 
-G..L...
+.G..L..
+
+Gerard gains 1 Gold Token (has 9)
+Luc gains 1 Time token
+
+Beat 9
+-------
+
+Gerard
+------
+Life: 17
+Discard 1: Villainous Shot
+Discard 2: Gilded Burst
+Special action available
+Gold: 9
+Mercenaries in play:
+  Brawler
+  Archer
+
+Luc
+---
+Life: 4
+Discard 1: Memento Flash
+Discard 2: Eternal Shot
+Special action available
+2 Time tokens
+
+
+.G..L..
+
+Unbeatable strategy for Luc: Feinting Dash: -0.09
+
+
+Gerard:
+0% Avaricious Drive
+79% Avaricious Dash
+2% Hooked Drive
+8% Initiation Strike
+5% Initiation Drive (Hire Mage; Activate Mage)
+5% Initiation Dash
+
+Luc:
+7% Feinting Drive
+15% Feinting Drive (1 token)
+27% Feinting Dash
+19% Chrono Drive (1 token)
+33% Chrono Burst
+
+
+Gerard: Avaricious Dash
+Luc: Feinting Dash
+
+Priorities:  9 | 7
+Gerard is active
+Gerard moves:
+
+..G.L..
+
+Luc moves:
+
+..G..L.
 
 Gerard moves:
 
-.G.L...
+...G.L.
 
-Gerard misses
-Luc loses 1 life (now at 4)
-Gerard gains 1 Gold Token (has 2)
+Luc moves:
+
+.L.G...
+
+Luc moves:
+
+..LG...
+
+Gerard gains 1 Gold Token (has 10)
+Luc gains 1 Time token
+
+Beat 10
+-------
+
+Gerard
+------
+Life: 17
+Discard 1: Avaricious Dash
+Discard 2: Villainous Shot
+Special action available
+Gold: 10
+Mercenaries in play:
+  Brawler
+  Archer
+
+Luc
+---
+Life: 4
+Discard 1: Feinting Dash
+Discard 2: Memento Flash
+Special action available
+3 Time tokens
+
+
+..LG...
+
+Unbeatable strategy for Luc: Eternal Strike: -0.52
+Unbeatable strategy for Luc: Eternal Strike (1 token): -0.32
+Unbeatable strategy for Luc: Eternal Shot: -0.92
+Unbeatable strategy for Luc: Eternal Shot (1 token): -0.72
+Unbeatable strategy for Luc: Eternal Drive: -1.12
+Unbeatable strategy for Luc: Eternal Drive (1 token): -0.67
+Unbeatable strategy for Luc: Eternal Burst: -0.04
+Unbeatable strategy for Luc: Eternal Grasp: -0.47
+Unbeatable strategy for Luc: Eternal Grasp (1 token): -0.27
+
+
+Gerard:
+2% Gilded Larceny (Hire Mage; Activate Mage)
+0% Gilded Larceny (Hire Mage, Gunslinger; Activate Mage)
+0% Gilded Larceny (Hire Mage, Heavy Knight; Activate Mage)
+0% Gilded Strike
+0% Gilded Strike (Hire Mage)
+0% Gilded Strike (Hire Gunslinger)
+0% Gilded Strike (Hire Heavy Knight)
+9% Gilded Grasp
+9% Gilded Grasp (Hire Mage)
+9% Gilded Grasp (Hire Gunslinger)
+9% Gilded Grasp (Hire Heavy Knight)
+2% Hooked Strike (Hire Gunslinger; Activate Gunslinger)
+22% Hooked Grasp
+9% Hooked Grasp (Hire Mage)
+9% Hooked Grasp (Hire Gunslinger)
+9% Hooked Grasp (Hire Heavy Knight)
+1% Initiation Larceny (Hire Lackey)
+9% Initiation Larceny (Hire Mage, Gunslinger; Activate Mage, Gunslinger)
+0% Initiation Strike (Hire Mage, Gunslinger; Activate Mage, Gunslinger)
+
+Luc:
+15% Eternal Strike
+41% Eternal Shot
+7% Eternal Shot (3 tokens)
+26% Eternal Grasp
+0% Fusion Drive (1 token)
+0% Fusion Grasp
+7% Chrono Shot
+2% Chrono Drive (1 token)
+3% Chrono Grasp
+
+
+Gerard: Initiation Larceny (Hire Mage, Gunslinger; Activate Mage, Gunslinger)
+Luc: Eternal Strike
+
+Gerard hires a Mage for 2 gold (8 remaining)
+Gerard hires a Gunslinger for 2 gold (6 remaining)
+Gerard activates his Mage for 3 gold (3 remaining)
+Gerard activates his Gunslinger for 3 gold (0 remaining)
+Priorities:  5 | -1
+Gerard is active
+Gerard moves Luc:
+
+...GL..
+
+Gerard moves:
+
+....LG.
+
+Gerard moves:
+
+...GL..
+
+Gerard hits
+First hireling next beat will cost 2 gold less
+Luc spends a Time token
+Luc gains +1 soak (2 total)
+Luc has 2 soak
+Luc takes 3 damage (now at 1 life)
+Gerard gains 3 Gold Tokens (has 3)
+Luc is stunned
+Luc loses 1 life (now at 1)
+Gerard gains 1 Gold Token (has 4)
+Luc gains 1 Time token
 
 Beat 11
 -------
 
 Gerard
 ------
-Life: 11
+Life: 17
 Discard 1: Initiation Larceny
-Discard 2: Gilded Burst
+Discard 2: Avaricious Dash
 Special action available
-Gold: 2
-Mercenaries in play:
-  Brawler
-  Archer
-Mercenaries removed from the game:
-  Lackey
-
-Luc
----
-Life: 4
-Discard 1: Memento Dash
-Discard 2: Chrono Drive
-Special action available
-5 Time token
-
-
-.G.L...
-
-
-Gerard:
-5% Villainous Shot
-17% Villainous Dash
-15% Hooked Strike
-63% Hooked Dash
-
-Luc:
-24% Eternal Shot
-57% Eternal Shot (3 tokens)
-8% Fusion Shot (5 tokens)
-11% Feinting Shot (5 tokens)
-
-
-Gerard: Hooked Dash
-Luc: Eternal Shot (3 tokens)
-
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  8 | -2
-Gerard is active
-Gerard moves:
-
-G..L...
-
-Luc loses 1 life (now at 3)
-Gerard moves:
-
-...LG..
-
-Luc loses 1 life (now at 2)
-Luc misses
-Gerard gains 1 Gold Token (has 3)
-Luc gains 1 Time token
-
-Beat 12
--------
-
-Gerard
-------
-Life: 11
-Discard 1: Hooked Dash
-Discard 2: Initiation Larceny
-Special action available
-Gold: 3
-Mercenaries in play:
-  Brawler
-  Archer
-Mercenaries removed from the game:
-  Lackey
-
-Luc
----
-Life: 2
-Discard 1: Eternal Shot
-Discard 2: Memento Dash
-Special action available
-3 Time token
-
-
-...LG..
-
-
-Gerard:
-17% Gilded Strike
-54% Gilded Shot
-30% Gilded Burst
-
-Luc:
-1% Feinting Burst (3 tokens)
-3% Chrono Drive
-96% Special Pulse
-
-
-Gerard: Gilded Shot
-Luc: Special Pulse
-
-Pulse:
-
-G.....L
-
-
-Beat 12
--------
-
-Gerard
-------
-Life: 11
-Discard 1: Gilded Shot
-Discard 2: Hooked Dash
-Special action available
-Gold: 3
-Mercenaries in play:
-  Brawler
-  Archer
-Mercenaries removed from the game:
-  Lackey
-
-Luc
----
-Life: 2
-Discard 1: Eternal Shot
-Discard 2: Memento Dash
-3 Time token
-
-
-G.....L
-
-
-Gerard:
-13% Initiation Strike
-58% Initiation Drive
-29% Initiation Burst
-
-Luc:
-52% Feinting Drive
-17% Feinting Drive (3 tokens)
-30% Chrono Drive
-
-
-Gerard: Initiation Burst
-Luc: Feinting Drive
-
-Priorities:  2 | 2
-Clash!
-
-
-Gerard: Initiation Strike
-Luc: Feinting Flash
-
-Priorities:  4 | 4
-Clash!
-
-
-Gerard: Initiation Grasp
-Luc: Feinting Grasp
-
-Priorities:  6 | 3
-Gerard is active
-Gerard misses
-Luc misses
-Luc moves:
-
-G...L..
-
-Gerard gains 1 Gold Token (has 4)
-Luc gains 1 Time token
-
-Beat 13
--------
-
-Gerard
-------
-Life: 11
-Discard 1: Initiation Grasp
-Discard 2: Gilded Shot
-Special action available
+First hireling costs 2 gold less
 Gold: 4
 Mercenaries in play:
   Brawler
   Archer
-Mercenaries removed from the game:
-  Lackey
+  Mage
+  Gunslinger
 
 Luc
 ---
-Life: 2
-Discard 1: Feinting Grasp
-Discard 2: Eternal Shot
-4 Time token
+Life: 1
+Discard 1: Eternal Strike
+Discard 2: Feinting Dash
+Special action available
+3 Time tokens
 
 
-G...L..
-
-Unbeatable strategy for Luc: Fusion Drive (3 tokens): -0.48
-Unbeatable strategy for Luc: Fusion Burst (3 tokens): -0.21
-Unbeatable strategy for Luc: Chrono Drive: -1.24
-Unbeatable strategy for Luc: Chrono Drive (1 token): -0.94
-Unbeatable strategy for Luc: Chrono Drive (3 tokens): -0.47
-Unbeatable strategy for Luc: Chrono Burst: -0.56
-Unbeatable strategy for Luc: Chrono Burst (1 token): -0.76
-Unbeatable strategy for Luc: Chrono Burst (3 tokens): -0.26
+...GL..
 
 
 Gerard:
-2% Avaricious Drive (Hire Heavy Knight)
-2% Avaricious Drive (Hire Gunslinger)
-2% Avaricious Drive (Hire Mage)
-93% Avaricious Dash
+1% Villainous Grasp (Hire Heavy Knight; Activate Mage)
+26% Gilded Strike (Hire Heavy Knight)
+6% Gilded Shot (Hire Heavy Knight)
+8% Gilded Burst (Hire Heavy Knight)
+14% Gilded Grasp (Hire Heavy Knight)
+1% Gilded Grasp (Hire Heavy Knight; Activate Mage)
+4% Hooked Strike (Hire Heavy Knight)
+20% Hooked Shot (Hire Heavy Knight)
+2% Hooked Drive (Hire Heavy Knight)
+10% Hooked Drive (Hire Heavy Knight; Activate Mage)
+3% Hooked Drive (Hire Heavy Knight; Activate Heavy Knight)
+5% Hooked Grasp (Hire Heavy Knight)
 
 Luc:
-8% Memento Drive
-92% Chrono Drive
+4% Memento Flash
+33% Memento Flash (1 token)
+2% Memento Shot (1 token)
+6% Memento Shot (3 tokens)
+9% Memento Drive (1 token)
+9% Memento Drive (3 tokens)
+1% Fusion Shot (3 tokens)
+9% Chrono Flash (3 tokens)
+3% Chrono Shot
+3% Chrono Shot (1 token)
+0% Chrono Shot (3 tokens)
+21% Chrono Drive
 
 
-Gerard: Avaricious Dash
-Luc: Chrono Drive
+Gerard: Gilded Burst (Hire Heavy Knight)
+Luc: Memento Flash (1 token)
 
-Priorities:  9 | 5
-Gerard is active
-Gerard moves:
-
-.G..L..
-
-Luc spends a Time token
-Luc spends a Time token
+Gerard hires a Heavy Knight for 0 gold (4 remaining)
+Luc antes a Time token
+Priorities:  0 | 6
+Luc is active
 Luc moves:
-
-.GL....
-
-Gerard moves:
 
 ..LG...
 
-Luc loses 1 life (now at 1)
-Luc moves:
-
-...GL..
-
-Luc misses
-Gerard gains 1 Gold Token (has 5)
-Luc gains 1 Time token
-
-Beat 14
--------
-
-Gerard
-------
-Life: 11
-Discard 1: Avaricious Dash
-Discard 2: Initiation Grasp
-Special action available
-Gold: 5
-Mercenaries in play:
-  Brawler
-  Archer
-Mercenaries removed from the game:
-  Lackey
-
-Luc
----
-Life: 1
-Discard 1: Chrono Drive
-Discard 2: Feinting Grasp
-3 Time token
-
-
-...GL..
-
-
-Gerard:
-6% Villainous Shot (Hire Heavy Knight; Activate Heavy Knight)
-16% Villainous Drive (Hire Heavy Knight; Activate Heavy Knight)
-20% Villainous Drive (Hire Mage; Activate Mage)
-28% Villainous Burst
-3% Gilded Shot
-5% Gilded Drive (Hire Heavy Knight; Activate Heavy Knight)
-6% Gilded Burst
-11% Hooked Drive (Hire Mage; Activate Mage)
-4% Hooked Burst (Hire Mage; Activate Mage)
-
-Luc:
-3% Eternal Flash
-5% Eternal Strike (3 tokens)
-10% Eternal Shot
-11% Eternal Burst
-7% Eternal Dash
-0% Eternal Dash (1 token)
-20% Memento Flash (1 token)
-3% Memento Shot (1 token)
-40% Memento Dash
-
-
-Gerard: Gilded Drive (Hire Heavy Knight; Activate Heavy Knight)
-Luc: Eternal Dash
-
-Gerard hires a Heavy Knight for 2 gold (3 remaining)
-Gerard activates his Heavy Knight for 3 gold (0 remaining)
-Priorities:  3 | 5
-Luc is active
-Luc moves:
-
-...G.L.
-
 Gerard moves:
 
-....GL.
-
-Gerard hits
-Luc spends a Time token
-Luc spends a Time token
-Luc gains +2 soak (3 total)
-Luc has 3 soak
-Luc takes 0 damage (now at 1 life)
-Luc loses 1 life (now at 1)
-Gerard gains 1 Gold Token (has 1)
-Luc gains 1 Time token
-
-Beat 15
--------
-
-Gerard
-------
-Life: 11
-Discard 1: Gilded Drive
-Discard 2: Avaricious Dash
-Special action available
-Gold: 1
-Mercenaries in play:
-  Brawler
-  Archer
-  Heavy Knight
-Mercenaries removed from the game:
-  Lackey
-
-Luc
----
-Life: 1
-Discard 1: Eternal Dash
-Discard 2: Chrono Drive
-2 Time token
-
-
-....GL.
-
-
-Gerard:
-7% Villainous Larceny
-7% Villainous Strike
-7% Villainous Shot
-7% Villainous Burst
-7% Villainous Grasp
-7% Hooked Larceny
-7% Hooked Strike
-7% Hooked Shot
-6% Hooked Burst
-7% Hooked Grasp
-7% Initiation Larceny
-7% Initiation Strike
-7% Initiation Shot
-7% Initiation Burst
-6% Initiation Grasp
-
-Luc:
-3% Memento Flash
-3% Memento Flash (1 token)
-3% Memento Strike
-3% Memento Strike (1 token)
-3% Memento Shot
-3% Memento Shot (1 token)
-3% Memento Burst
-3% Memento Burst (1 token)
-3% Memento Grasp
-4% Memento Grasp (1 token)
-3% Fusion Flash
-4% Fusion Flash (1 token)
-3% Fusion Strike
-4% Fusion Strike (1 token)
-3% Fusion Shot
-3% Fusion Shot (1 token)
-3% Fusion Burst
-3% Fusion Burst (1 token)
-3% Fusion Grasp
-4% Fusion Grasp (1 token)
-3% Feinting Flash
-3% Feinting Flash (1 token)
-3% Feinting Strike
-3% Feinting Strike (1 token)
-4% Feinting Shot
-4% Feinting Shot (1 token)
-3% Feinting Burst
-4% Feinting Burst (1 token)
-3% Feinting Grasp
-3% Feinting Grasp (1 token)
-
-
-Gerard: Villainous Strike
-Luc: Feinting Grasp
-
-Priorities:  3 | 3
-Clash!
-
-
-Gerard: Villainous Shot
-Luc: Feinting Flash
-
-Priorities:  2 | 4
-Luc is active
-Luc moves:
-
-....G.L
-
-Luc moves:
-
-....GL.
+..L.G..
 
 Luc misses
 Gerard hits
-Gerard moves Luc:
-
-....G.L
-
-Luc takes 4 damage (now at 0 life)
+Luc takes 3 damage (now at 0 life)
 GERARD WINS!
-total_time: 2318
+total_time: 1031

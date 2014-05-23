@@ -11,59 +11,51 @@ Beat 1
 
 Hikaru
 ------
-life: 20
-discard 1: Focused Palm Strike
-discard 2: Trance Strike
-special action
+Life: 20
+Discard 1: Focused Palm Strike
+Discard 2: Trance Strike
+Special action available
 pool: Earth, Fire, Water, Wind
 
 Luc
 ---
-life: 20
-discard 1: Eternal Flash
-discard 2: Fusion Strike
-special action
+Life: 20
+Discard 1: Eternal Flash
+Discard 2: Fusion Strike
+Special action available
 2 Time tokens
 
 
 .H...L.
 
+
 Hikaru:
-2% Advancing Grasp (Wind)
-10% Sweeping Shot
-8% Sweeping Shot (Water)
-20% Sweeping Burst
-46% Geomantic Shot
-14% Geomantic Drive
+9% Advancing Shot
+19% Sweeping Shot (Water)
+55% Geomantic Shot
+17% Geomantic Drive
 
 Luc:
-4% Memento Shot (1 token)
-50% Memento Dash
-4% Feinting Drive
-5% Chrono Drive
-5% Chrono Burst
-33% Chrono Dash
+0% Memento Shot (1 token)
+12% Feinting Drive
+7% Chrono Drive (1 token)
+81% Chrono Dash
 
 
-Hikaru: Sweeping Burst
-Luc: Feinting Drive
+Hikaru: Geomantic Drive
+Luc: Chrono Dash
 
-Priorities:  4 | 2
-Hikaru is active
+Priorities:  4 | 10
+Luc is active
+Luc moves:
+
+.H....L
+
 Hikaru moves:
 
-H....L.
+..H...L
 
 Hikaru misses
-Luc moves:
-
-H..L...
-
-Luc misses
-Luc moves:
-
-HL.....
-
 Luc gains 1 Time token
 
 Beat 2
@@ -71,55 +63,80 @@ Beat 2
 
 Hikaru
 ------
-life: 20
-discard 1: Sweeping Burst
-discard 2: Focused Palm Strike
-special action
+Life: 20
+Discard 1: Geomantic Drive
+Discard 2: Focused Palm Strike
+Special action available
 pool: Earth, Fire, Water, Wind
 
 Luc
 ---
-life: 20
-discard 1: Feinting Drive
-discard 2: Eternal Flash
-special action
+Life: 20
+Discard 1: Chrono Dash
+Discard 2: Eternal Flash
+Special action available
 3 Time tokens
 
 
-HL.....
+..H...L
+
 
 Hikaru:
-2% Trance Drive
-3% Trance Drive (Earth)
-3% Trance Drive (Fire)
-3% Trance Drive (Water)
-3% Trance Drive (Wind)
-80% Geomantic Shot
-7% Geomantic Shot (Wind)
+0% Trance Shot
+0% Trance Shot (Earth)
+0% Trance Shot (Fire)
+0% Trance Shot (Water)
+0% Trance Shot (Wind)
+1% Trance Burst
+1% Trance Burst (Earth)
+1% Trance Burst (Fire)
+1% Trance Burst (Water)
+1% Trance Burst (Wind)
+24% Advancing Shot (Earth)
+20% Advancing Shot (Fire)
+2% Advancing Burst (Fire)
+45% Sweeping Shot (Fire)
+1% Sweeping Shot (Wind)
 
 Luc:
-11% Memento Strike
-86% Memento Dash
-3% Chrono Strike (1 token)
+11% Memento Strike (1 token)
+13% Memento Drive
+5% Memento Drive (1 token)
+48% Fusion Drive
+8% Fusion Drive (3 tokens)
+3% Feinting Strike (3 tokens)
+12% Feinting Grasp
 
 
-Hikaru: Geomantic Shot
-Luc: Memento Dash
+Hikaru: Sweeping Shot (Fire)
+Luc: Fusion Drive (3 tokens)
 
-Priorities:  2 | 8
-Luc is active
-Luc spends a Time token
-Luc spends a Time token
-Luc attacks again
+Hikaru antes a Fire token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  5 | 5
+Clash!
+
+
+Hikaru: Sweeping Dash (Fire)
+Luc: Fusion Shot (3 tokens)
+
+Hikaru antes a Fire token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  12 | 3
+Hikaru is active
 Luc moves:
 
-H..L...
+..H.L..
 
-Luc moves:
+Hikaru moves:
 
-H.....L
+....L.H
 
-Hikaru misses
+Luc misses
 Luc gains 1 Time token
 
 Beat 3
@@ -127,77 +144,73 @@ Beat 3
 
 Hikaru
 ------
-life: 20
-discard 1: Geomantic Shot
-discard 2: Sweeping Burst
-special action
-pool: Earth, Fire, Water, Wind
+Life: 20
+Discard 1: Sweeping Dash
+Discard 2: Geomantic Drive
+Special action available
+pool: Earth, Water, Wind
 
 Luc
 ---
-life: 20
-discard 1: Memento Dash
-discard 2: Feinting Drive
-special action
-2 Time tokens
+Life: 20
+Discard 1: Fusion Shot
+Discard 2: Chrono Dash
+Special action available
+1 Time token
 
 
-H.....L
+....L.H
 
-Unbeatable strategy for Luc: Eternal Flash: -0.08
-Unbeatable strategy for Luc: Eternal Strike: -1.44
-Unbeatable strategy for Luc: Eternal Strike (1 token): -1.04
-Unbeatable strategy for Luc: Eternal Shot: -0.75
-Unbeatable strategy for Luc: Eternal Shot (1 token): -0.35
-Unbeatable strategy for Luc: Eternal Burst: -0.75
-Unbeatable strategy for Luc: Eternal Burst (1 token): -0.35
-Unbeatable strategy for Luc: Eternal Grasp: -1.44
-Unbeatable strategy for Luc: Eternal Grasp (1 token): -1.04
-Unbeatable strategy for Luc: Fusion Strike: -1.44
-Unbeatable strategy for Luc: Fusion Strike (1 token): -1.04
-Unbeatable strategy for Luc: Fusion Shot: -0.75
-Unbeatable strategy for Luc: Fusion Shot (1 token): -0.35
-Unbeatable strategy for Luc: Fusion Burst: -0.75
-Unbeatable strategy for Luc: Fusion Burst (1 token): -0.35
-Unbeatable strategy for Luc: Fusion Grasp: -1.44
-Unbeatable strategy for Luc: Fusion Grasp (1 token): -1.04
-Unbeatable strategy for Luc: Chrono Strike: -0.43
-Unbeatable strategy for Luc: Chrono Strike (1 token): -0.03
-Unbeatable strategy for Luc: Chrono Shot: -0.86
-Unbeatable strategy for Luc: Chrono Grasp: -0.43
-Unbeatable strategy for Luc: Chrono Grasp (1 token): -0.03
 
 Hikaru:
-2% Trance Strike
-2% Trance Strike (Earth)
-2% Trance Strike (Fire)
-2% Trance Strike (Water)
-2% Trance Strike (Wind)
-20% Focused Strike
-22% Focused Grasp
-47% Advancing Dash
+1% Trance Strike
+1% Trance Strike (Earth)
+1% Trance Strike (Water)
+1% Trance Strike (Wind)
+3% Trance Shot
+3% Trance Shot (Earth)
+3% Trance Shot (Water)
+3% Trance Shot (Wind)
+1% Focused Shot
+0% Focused Shot (Water)
+32% Focused Shot (Wind)
+19% Advancing Strike (Earth)
+15% Advancing Shot (Earth)
+17% Advancing Burst (Water)
+2% Advancing Burst (Wind)
 
 Luc:
-23% Eternal Strike
-23% Eternal Grasp
-23% Fusion Shot
-31% Chrono Shot
+9% Eternal Flash
+38% Eternal Strike
+16% Eternal Burst
+15% Memento Drive
+1% Memento Grasp (1 token)
+7% Feinting Flash (1 token)
+2% Feinting Drive
+2% Feinting Drive (1 token)
+10% Feinting Burst
 
 
-Hikaru: Advancing Dash
-Luc: Eternal Grasp
+Hikaru: Advancing Shot (Earth)
+Luc: Eternal Burst
 
-Priorities:  10 | 1
+Hikaru antes an Earth token
+Priorities:  3 | -3
 Hikaru is active
 Hikaru moves:
 
-.H....L
+....LH.
 
-Hikaru moves:
+Luc moves:
 
-....H.L
+..L..H.
 
-Luc misses
+Hikaru hits
+Luc spends a Time token
+Luc gains +1 soak (2 total)
+Luc has 2 soak
+Luc takes 2 damage (now at 18 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 4
@@ -205,62 +218,65 @@ Beat 4
 
 Hikaru
 ------
-life: 20
-discard 1: Advancing Dash
-discard 2: Geomantic Shot
-special action
-pool: Earth, Fire, Water, Wind
+Life: 20
+Discard 1: Advancing Shot
+Discard 2: Sweeping Dash
+Special action available
+pool: Water, Wind
 
 Luc
 ---
-life: 20
-discard 1: Eternal Grasp
-discard 2: Memento Dash
-special action
-3 Time tokens
+Life: 18
+Discard 1: Eternal Burst
+Discard 2: Fusion Shot
+Special action available
+1 Time token
 
 
-....H.L
+..L..H.
+
 
 Hikaru:
-10% Focused Burst (Earth)
-36% Focused Burst (Fire)
-6% Sweeping Palm Strike (Fire)
-5% Sweeping Strike (Water)
-41% Sweeping Drive (Fire)
-2% Sweeping Drive (Wind)
+19% Trance Palm Strike
+18% Trance Palm Strike (Water)
+18% Trance Palm Strike (Wind)
+10% Trance Burst
+10% Trance Burst (Water)
+10% Trance Burst (Wind)
+6% Focused Drive (Wind)
+8% Geomantic Drive (Wind)
 
 Luc:
-1% Fusion Flash (3 tokens)
-15% Fusion Strike
-11% Fusion Drive (3 tokens)
-35% Chrono Flash (1 token)
-7% Chrono Shot
-31% Chrono Drive
+66% Memento Dash
+9% Feinting Drive
+17% Chrono Drive
+9% Chrono Drive (1 token)
 
 
-Hikaru: Focused Burst (Fire)
+Hikaru: Trance Palm Strike (Water)
 Luc: Chrono Drive
 
-Hikaru antes a Fire token
-Priorities:  2 | 5
+Hikaru antes a Water token
+Priorities:  5 | 5
+Clash!
+
+
+Hikaru: Trance Burst (Water)
+Luc: Chrono Dash
+
+Hikaru antes a Water token
+Priorities:  1 | 10
 Luc is active
-Luc spends a Time token
-Luc moves:
-
-....HL.
-
 Hikaru moves:
 
-..H..L.
+..L...H
 
 Luc moves:
 
-..HL...
+L.....H
 
-Luc hits
-Hikaru takes 3 damage (now at 17 life)
-Hikaru is stunned
+Hikaru misses
+Hikaru recovers his Earth token
 Luc gains 1 Time token
 
 Beat 5
@@ -268,75 +284,43 @@ Beat 5
 
 Hikaru
 ------
-life: 17
-discard 1: Focused Burst
-discard 2: Advancing Dash
-special action
-pool: Earth, Water, Wind
+Life: 20
+Discard 1: Trance Burst
+Discard 2: Advancing Shot
+Special action available
+pool: Wind, Water, Earth
 
 Luc
 ---
-life: 20
-discard 1: Chrono Drive
-discard 2: Eternal Grasp
-special action
-3 Time tokens
+Life: 18
+Discard 1: Chrono Dash
+Discard 2: Eternal Burst
+Special action available
+2 Time tokens
 
 
-..HL...
+L.....H
+
+Unbeatable strategy for Hikaru: Sweeping Grasp (Wind): 0.14
+
 
 Hikaru:
-2% Trance Strike
-2% Trance Strike (Earth)
-2% Trance Strike (Water)
-2% Trance Strike (Wind)
-5% Trance Drive
-6% Trance Drive (Earth)
-6% Trance Drive (Water)
-6% Trance Drive (Wind)
-4% Trance Grasp
-5% Trance Grasp (Earth)
-5% Trance Grasp (Water)
-4% Trance Grasp (Wind)
-15% Sweeping Drive
-18% Geomantic Drive
-2% Geomantic Drive (Wind)
-17% Geomantic Grasp (Wind)
+11% Sweeping Palm Strike
+89% Sweeping Grasp
 
 Luc:
-1% Memento Flash
-22% Memento Flash (1 token)
-12% Memento Strike (3 tokens)
-3% Memento Burst
-19% Memento Dash
-9% Fusion Strike (1 token)
-4% Fusion Strike (3 tokens)
-29% Fusion Dash
+3% Memento Drive
+87% Memento Grasp
+10% Fusion Grasp
 
 
-Hikaru: Geomantic Drive
-Luc: Memento Strike (3 tokens)
+Hikaru: Sweeping Grasp
+Luc: Memento Grasp
 
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
-Priorities:  4 | 2
+Priorities:  8 | 4
 Hikaru is active
-Hikaru antes an Earth token
-Luc moves:
-
-.LH....
-
-Hikaru moves:
-
-HL.....
-
-Hikaru hits
-Luc takes 4 damage (now at 16 life)
-Luc hits
-Hikaru has 3 soak
-Hikaru takes 1 damage (now at 16 life)
-Hikaru is stunned
+Hikaru misses
+Luc misses
 Luc gains 1 Time token
 
 Beat 6
@@ -344,61 +328,81 @@ Beat 6
 
 Hikaru
 ------
-life: 16
-discard 1: Geomantic Drive
-discard 2: Focused Burst
-special action
-pool: Water, Wind
+Life: 20
+Discard 1: Sweeping Grasp
+Discard 2: Trance Burst
+Special action available
+pool: Wind, Water, Earth
 
 Luc
 ---
-life: 16
-discard 1: Memento Strike
-discard 2: Chrono Drive
-special action
-1 Time tokens
+Life: 18
+Discard 1: Memento Grasp
+Discard 2: Chrono Dash
+Special action available
+3 Time tokens
 
 
-HL.....
+L.....H
 
-Unbeatable strategy for Hikaru: Trance Dash: 0.43
-Unbeatable strategy for Hikaru: Trance Dash (Water): 0.43
-Unbeatable strategy for Hikaru: Trance Dash (Wind): 0.43
 
 Hikaru:
-13% Trance Shot
-15% Trance Shot (Water)
-14% Trance Shot (Wind)
-7% Advancing Strike (Water)
-16% Advancing Strike (Wind)
-3% Advancing Shot
-31% Advancing Shot (Wind)
+8% Focused Shot
+9% Advancing Shot (Water)
+28% Advancing Dash
+5% Geomantic Palm Strike
+36% Geomantic Strike
+14% Geomantic Shot
 
 Luc:
-28% Eternal Shot
-9% Eternal Burst
-33% Eternal Dash
-15% Fusion Burst (1 token)
-16% Fusion Grasp
+24% Eternal Strike
+4% Eternal Burst
+39% Fusion Shot
+14% Fusion Shot (3 tokens)
+0% Feinting Shot (3 tokens)
+19% Feinting Drive (3 tokens)
 
 
-Hikaru: Trance Shot (Wind)
-Luc: Eternal Dash
+Hikaru: Advancing Shot (Water)
+Luc: Fusion Shot (3 tokens)
 
-Hikaru antes a Wind token
-Priorities:  2 | 5
-Luc is active
-Luc moves:
+Hikaru antes a Water token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  3 | 3
+Clash!
 
-H...L..
 
-Hikaru hits
-Luc spends a Time token
-Luc gains +1 soak (2 total)
-Luc has 2 soak
-Luc takes 1 damage (now at 15 life)
-Luc is stunned
-Hikaru recovers an Earth token
+Hikaru: Advancing Drive (Water)
+Luc: Fusion Drive (3 tokens)
+
+Hikaru antes a Water token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  5 | 5
+Clash!
+
+
+Hikaru: Advancing Dash (Water)
+Luc: Fusion Burst (3 tokens)
+
+Hikaru antes a Water token
+Luc antes a Time token
+Luc antes a Time token
+Luc antes a Time token
+Priorities:  10 | 2
+Hikaru is active
+Hikaru moves:
+
+L....H.
+
+Hikaru moves:
+
+L...H..
+
+Luc misses
 Luc gains 1 Time token
 
 Beat 7
@@ -406,311 +410,35 @@ Beat 7
 
 Hikaru
 ------
-life: 16
-discard 1: Trance Shot
-discard 2: Geomantic Drive
-special action
-pool: Water, Wind, Earth
+Life: 20
+Discard 1: Advancing Dash
+Discard 2: Sweeping Grasp
+Special action available
+pool: Wind, Earth
 
 Luc
 ---
-life: 15
-discard 1: Eternal Dash
-discard 2: Memento Strike
-special action
-1 Time tokens
+Life: 18
+Discard 1: Fusion Burst
+Discard 2: Memento Grasp
+Special action available
+1 Time token
 
 
-H...L..
+L...H..
 
-Unbeatable strategy for Luc: Fusion Burst: -0.27
 
 Hikaru:
-61% Focused Strike
-5% Advancing Palm Strike (Water)
-30% Advancing Burst (Wind)
-3% Advancing Burst (Earth)
+4% Trance Drive
+4% Trance Drive (Wind)
+4% Trance Drive (Earth)
+52% Focused Shot (Earth)
+36% Geomantic Shot
 
 Luc:
-9% Fusion Shot
-66% Fusion Burst
-12% Feinting Drive
-13% Chrono Drive
-
-
-Hikaru: Advancing Burst (Wind)
-Luc: Fusion Shot
-
-Hikaru antes a Wind token
-Priorities:  4 | 3
-Hikaru is active
-Hikaru moves:
-
-.H..L..
-
-Hikaru hits
-Luc takes 4 damage (now at 11 life)
-Luc is stunned
-Luc gains 1 Time token
-
-Beat 8
--------
-
-Hikaru
-------
-life: 16
-discard 1: Advancing Burst
-discard 2: Trance Shot
-special action
-pool: Water, Earth
-
-Luc
----
-life: 11
-discard 1: Fusion Shot
-discard 2: Eternal Dash
-special action
-2 Time tokens
-
-
-.H..L..
-
-Unbeatable strategy for Luc: Memento Burst: -0.09
-Unbeatable strategy for Luc: Feinting Burst: -0.52
-Unbeatable strategy for Luc: Feinting Burst (1 token): -0.12
-Unbeatable strategy for Luc: Chrono Flash (1 token): -0.03
-Unbeatable strategy for Luc: Chrono Burst: -0.11
-
-Hikaru:
-93% Sweeping Dash
-4% Geomantic Strike
-3% Geomantic Grasp
-
-Luc:
-83% Memento Burst
-17% Feinting Drive
-
-
-Hikaru: Sweeping Dash
-Luc: Memento Burst
-
-Priorities:  12 | 0
-Hikaru is active
-Luc moves:
-
-.H....L
-
-Hikaru moves:
-
-..H...L
-
-Luc misses
-Luc gains 1 Time token
-
-Beat 9
--------
-
-Hikaru
-------
-life: 16
-discard 1: Sweeping Dash
-discard 2: Advancing Burst
-special action
-pool: Water, Earth
-
-Luc
----
-life: 11
-discard 1: Memento Burst
-discard 2: Fusion Shot
-special action
-3 Time tokens
-
-
-..H...L
-
-Hikaru:
-17% Trance Strike
-20% Trance Strike (Water)
-20% Trance Strike (Earth)
-8% Trance Drive
-9% Trance Drive (Water)
-9% Trance Drive (Earth)
-17% Focused Shot
-2% Geomantic Drive
-
-Luc:
-6% Eternal Drive
-9% Feinting Drive
-68% Chrono Flash
-17% Chrono Drive
-
-
-Hikaru: Trance Strike
-Luc: Chrono Drive
-
-Priorities:  3 | 5
-Luc is active
-Luc moves:
-
-..H..L.
-
-Luc misses
-Hikaru misses
-Hikaru recovers a Fire token
-Luc gains 1 Time token
-
-Beat 10
--------
-
-Hikaru
-------
-life: 16
-discard 1: Trance Strike
-discard 2: Sweeping Dash
-special action
-pool: Water, Earth, Fire
-
-Luc
----
-life: 11
-discard 1: Chrono Drive
-discard 2: Memento Burst
-special action
-4 Time tokens
-
-
-..H..L.
-
-Unbeatable strategy for Luc: Feinting Dash: -0.03
-
-Hikaru:
-19% Focused Burst
-11% Geomantic Shot
-70% Geomantic Burst
-
-Luc:
-7% Eternal Grasp
-1% Eternal Grasp (1 token)
-92% Feinting Dash
-
-
-Hikaru: Geomantic Burst
-Luc: Feinting Dash
-
-Priorities:  1 | 7
-Luc is active
-Hikaru moves:
-
-H....L.
-
-Luc moves:
-
-H...L..
-
-Hikaru misses
-Luc moves:
-
-H.L....
-
-Luc gains 1 Time token
-
-Beat 11
--------
-
-Hikaru
-------
-life: 16
-discard 1: Geomantic Burst
-discard 2: Trance Strike
-special action
-pool: Water, Earth, Fire
-
-Luc
----
-life: 11
-discard 1: Feinting Dash
-discard 2: Chrono Drive
-special action
-5 Time tokens
-
-
-H.L....
-
-Unbeatable strategy for Luc: Eternal Shot: -0.25
-
-Hikaru:
-1% Focused Shot
-37% Focused Shot (Earth)
-12% Advancing Palm Strike (Earth)
-7% Advancing Drive
-5% Advancing Drive (Earth)
-6% Advancing Grasp (Earth)
-32% Sweeping Dash
-
-Luc:
-6% Eternal Flash (1 token)
-39% Eternal Strike
-1% Eternal Shot
-27% Eternal Burst
-14% Memento Flash (1 token)
-10% Memento Flash (5 tokens)
-3% Fusion Shot (5 tokens)
-
-
-Hikaru: Sweeping Dash
-Luc: Memento Flash (1 token)
-
-Luc antes a Time token
-Priorities:  12 | 6
-Hikaru is active
-Luc moves:
-
-HL.....
-
-Hikaru moves:
-
-.L..H..
-
-Luc misses
-Luc gains 1 Time token
-
-Beat 12
--------
-
-Hikaru
-------
-life: 16
-discard 1: Sweeping Dash
-discard 2: Geomantic Burst
-special action
-pool: Water, Earth, Fire
-
-Luc
----
-life: 11
-discard 1: Memento Flash
-discard 2: Feinting Dash
-special action
-5 Time tokens
-
-
-.L..H..
-
-Unbeatable strategy for Luc: Eternal Shot: -0.51
-Unbeatable strategy for Luc: Eternal Shot (1 token): -0.11
-
-Hikaru:
-66% Focused Shot (Earth)
-12% Advancing Shot (Fire)
-21% Advancing Drive (Earth)
-1% Advancing Drive (Fire)
-
-Luc:
-14% Eternal Strike
-54% Eternal Shot
-27% Eternal Burst
-4% Chrono Burst (1 token)
+26% Eternal Flash
+48% Eternal Shot
+26% Chrono Dash
 
 
 Hikaru: Focused Shot (Earth)
@@ -720,15 +448,315 @@ Hikaru antes an Earth token
 Priorities:  3 | -2
 Hikaru is active
 Hikaru hits
-Hikaru recovers a Wind token
+Hikaru recovers his Fire token
+Luc spends a Time token
+Luc gains +1 soak (2 total)
+Luc has 2 soak
+Luc takes 1 damage (now at 17 life)
+Luc hits
+Hikaru has 3 soak
+Hikaru takes 0 damage (now at 20 life)
+Luc gains 1 Time token
+
+Beat 8
+-------
+
+Hikaru
+------
+Life: 20
+Discard 1: Focused Shot
+Discard 2: Advancing Dash
+Special action available
+pool: Wind, Fire
+
+Luc
+---
+Life: 17
+Discard 1: Eternal Shot
+Discard 2: Fusion Burst
+Special action available
+1 Time token
+
+
+L...H..
+
+
+Hikaru:
+12% Trance Palm Strike
+12% Trance Palm Strike (Wind)
+12% Trance Palm Strike (Fire)
+9% Trance Drive
+9% Trance Drive (Wind)
+9% Trance Drive (Fire)
+6% Trance Burst
+6% Trance Burst (Wind)
+6% Trance Burst (Fire)
+6% Trance Grasp
+6% Trance Grasp (Wind)
+6% Trance Grasp (Fire)
+3% Sweeping Burst
+
+Luc:
+8% Memento Drive (1 token)
+76% Memento Grasp
+5% Feinting Drive
+0% Chrono Strike
+11% Chrono Drive
+
+
+Hikaru: Trance Palm Strike
+Luc: Memento Grasp
+
+Priorities:  5 | 4
+Hikaru is active
+Hikaru moves:
+
+L..H...
+
+Hikaru misses
+Luc misses
+Hikaru recovers his Earth token
+Luc gains 1 Time token
+
+Beat 9
+-------
+
+Hikaru
+------
+Life: 20
+Discard 1: Trance Palm Strike
+Discard 2: Focused Shot
+Special action available
+pool: Wind, Fire, Earth
+
+Luc
+---
+Life: 17
+Discard 1: Memento Grasp
+Discard 2: Eternal Shot
+Special action available
+2 Time tokens
+
+
+L..H...
+
+
+Hikaru:
+6% Advancing Dash (Earth)
+17% Sweeping Drive
+13% Sweeping Burst
+20% Sweeping Grasp
+27% Geomantic Drive
+17% Geomantic Drive (Wind)
+
+Luc:
+1% Fusion Drive (1 token)
+16% Feinting Dash
+7% Chrono Strike
+7% Chrono Drive
+46% Chrono Dash
+23% Chrono Dash (1 token)
+
+
+Hikaru: Advancing Dash (Earth)
+Luc: Chrono Dash (1 token)
+
+Hikaru antes an Earth token
+Luc antes a Time token
+Priorities:  10 | 11
+Luc is active
+Hikaru moves:
+
+L.H....
+
+Luc moves:
+
+..HL...
+
+Hikaru moves:
+
+...LH..
+
+Luc gains 1 Time token
+
+Beat 10
+-------
+
+Hikaru
+------
+Life: 20
+Discard 1: Advancing Dash
+Discard 2: Trance Palm Strike
+Special action available
+pool: Wind, Fire
+
+Luc
+---
+Life: 17
+Discard 1: Chrono Dash
+Discard 2: Memento Grasp
+Special action available
+2 Time tokens
+
+
+...LH..
+
+
+Hikaru:
+5% Focused Shot (Fire)
+20% Focused Drive (Fire)
+28% Focused Burst (Fire)
+22% Geomantic Shot
+16% Geomantic Burst
+8% Geomantic Burst (Wind)
+
+Luc:
+55% Eternal Strike
+19% Eternal Burst
+6% Fusion Drive
+6% Fusion Burst (1 token)
+6% Feinting Drive (1 token)
+8% Feinting Burst
+
+
+Hikaru: Focused Shot (Fire)
+Luc: Eternal Burst
+
+Hikaru antes a Fire token
+Priorities:  3 | -3
+Hikaru is active
+Luc moves:
+
+.L..H..
+
+Hikaru hits
+Hikaru recovers his Earth token
 Luc spends a Time token
 Luc spends a Time token
 Luc gains +2 soak (3 total)
 Luc has 3 soak
-Luc takes 0 damage (now at 11 life)
-Luc hits
-Hikaru has 3 soak
-Hikaru takes 0 damage (now at 16 life)
+Luc takes 3 damage (now at 14 life)
+Luc is stunned
+Luc gains 1 Time token
+
+Beat 11
+-------
+
+Hikaru
+------
+Life: 20
+Discard 1: Focused Shot
+Discard 2: Advancing Dash
+Special action available
+pool: Wind, Earth
+
+Luc
+---
+Life: 14
+Discard 1: Eternal Burst
+Discard 2: Chrono Dash
+Special action available
+1 Time token
+
+
+.L..H..
+
+
+Hikaru:
+12% Trance Palm Strike
+12% Trance Palm Strike (Wind)
+12% Trance Palm Strike (Earth)
+9% Trance Drive
+9% Trance Drive (Wind)
+9% Trance Drive (Earth)
+13% Trance Burst
+13% Trance Burst (Wind)
+13% Trance Burst (Earth)
+
+Luc:
+7% Fusion Drive (1 token)
+8% Feinting Shot
+85% Feinting Grasp (1 token)
+
+
+Hikaru: Trance Palm Strike (Wind)
+Luc: Feinting Grasp (1 token)
+
+Hikaru antes a Wind token
+Luc antes a Time token
+Priorities:  5 | 4
+Hikaru is active
+Hikaru moves:
+
+.L.H...
+
+Luc moves:
+
+L..H...
+
+Hikaru misses
+Luc misses
+Hikaru recovers his Fire token
+Luc moves:
+
+.L.H...
+
+Luc gains 1 Time token
+
+Beat 12
+-------
+
+Hikaru
+------
+Life: 20
+Discard 1: Trance Palm Strike
+Discard 2: Focused Shot
+Special action available
+pool: Earth, Wind, Fire
+
+Luc
+---
+Life: 14
+Discard 1: Feinting Grasp
+Discard 2: Eternal Burst
+Special action available
+1 Time token
+
+
+.L.H...
+
+
+Hikaru:
+15% Advancing Drive
+29% Advancing Grasp
+7% Advancing Dash (Earth)
+7% Sweeping Strike
+3% Sweeping Drive
+4% Sweeping Grasp (Fire)
+35% Geomantic Strike
+
+Luc:
+1% Memento Shot
+16% Memento Dash
+3% Chrono Flash (1 token)
+2% Chrono Strike
+3% Chrono Drive
+48% Chrono Dash
+26% Chrono Dash (1 token)
+
+
+Hikaru: Sweeping Grasp (Fire)
+Luc: Chrono Dash (1 token)
+
+Hikaru antes a Fire token
+Luc antes a Time token
+Priorities:  8 | 11
+Luc is active
+Luc moves:
+
+...HL..
+
+Hikaru misses
 Luc gains 1 Time token
 
 Beat 13
@@ -736,68 +764,60 @@ Beat 13
 
 Hikaru
 ------
-life: 16
-discard 1: Focused Shot
-discard 2: Sweeping Dash
-special action
-pool: Water, Fire, Wind
+Life: 20
+Discard 1: Sweeping Grasp
+Discard 2: Trance Palm Strike
+Special action available
+pool: Earth, Wind
 
 Luc
 ---
-life: 11
-discard 1: Eternal Shot
-discard 2: Memento Flash
-special action
-4 Time tokens
+Life: 14
+Discard 1: Chrono Dash
+Discard 2: Feinting Grasp
+Special action available
+1 Time token
 
-
-.L..H..
-
-Hikaru:
-1% Trance Palm Strike
-1% Trance Palm Strike (Water)
-1% Trance Palm Strike (Fire)
-1% Trance Palm Strike (Wind)
-10% Trance Strike
-10% Trance Strike (Water)
-10% Trance Strike (Fire)
-10% Trance Strike (Wind)
-6% Trance Drive
-6% Trance Drive (Water)
-6% Trance Drive (Fire)
-6% Trance Drive (Wind)
-3% Trance Burst
-3% Trance Burst (Water)
-3% Trance Burst (Fire)
-3% Trance Burst (Wind)
-16% Advancing Drive (Wind)
-5% Geomantic Drive (Wind)
-
-Luc:
-10% Fusion Drive
-66% Fusion Dash
-8% Feinting Burst
-1% Chrono Strike
-9% Chrono Drive
-6% Chrono Drive (1 token)
-
-
-Hikaru: Trance Palm Strike (Wind)
-Luc: Fusion Dash
-
-Hikaru antes a Wind token
-Priorities:  5 | 10
-Luc is active
-Hikaru moves:
-
-.L.H...
-
-Luc moves:
 
 ...HL..
 
-Hikaru misses
-Hikaru recovers an Earth token
+
+Hikaru:
+13% Advancing Strike (Earth)
+54% Advancing Drive (Earth)
+30% Advancing Burst
+3% Advancing Burst (Wind)
+
+Luc:
+63% Eternal Strike
+20% Eternal Burst
+9% Memento Drive
+8% Fusion Drive
+
+
+Hikaru: Advancing Burst
+Luc: Eternal Burst
+
+Priorities:  2 | -3
+Hikaru is active
+Hikaru moves:
+
+..H.L..
+
+Hikaru moves:
+
+...HL..
+
+Luc moves:
+
+...H..L
+
+Hikaru hits
+Luc spends a Time token
+Luc gains +1 soak (2 total)
+Luc has 2 soak
+Luc takes 2 damage (now at 12 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 14
@@ -805,52 +825,60 @@ Beat 14
 
 Hikaru
 ------
-life: 16
-discard 1: Trance Palm Strike
-discard 2: Focused Shot
-special action
-pool: Water, Fire, Wind, Earth
+Life: 20
+Discard 1: Advancing Burst
+Discard 2: Sweeping Grasp
+Special action available
+pool: Earth, Wind
 
 Luc
 ---
-life: 11
-discard 1: Fusion Dash
-discard 2: Eternal Shot
-special action
-5 Time tokens
+Life: 12
+Discard 1: Eternal Burst
+Discard 2: Chrono Dash
+Special action available
+1 Time token
 
 
-...HL..
+...H..L
+
 
 Hikaru:
-23% Advancing Drive (Wind)
-3% Advancing Burst (Fire)
-16% Geomantic Drive
-9% Geomantic Drive (Wind)
-49% Geomantic Burst (Water)
+5% Trance Palm Strike
+5% Trance Palm Strike (Earth)
+5% Trance Palm Strike (Wind)
+17% Focused Shot (Earth)
+16% Focused Drive (Earth)
+10% Geomantic Shot
+16% Geomantic Shot (Wind)
+19% Geomantic Drive
+6% Geomantic Drive (Wind)
 
 Luc:
-16% Memento Drive (1 token)
-31% Memento Burst (1 token)
-30% Chrono Flash (1 token)
-17% Chrono Drive (1 token)
-6% Chrono Drive (5 tokens)
+29% Memento Strike
+3% Memento Strike (1 token)
+24% Memento Grasp
+7% Fusion Shot
+5% Fusion Shot (1 token)
+15% Fusion Drive
+17% Fusion Drive (1 token)
 
 
-Hikaru: Geomantic Drive
-Luc: Chrono Flash (1 token)
+Hikaru: Trance Palm Strike (Wind)
+Luc: Memento Grasp
 
-Luc antes a Time token
-Priorities:  4 | 8
-Luc is active
-Luc moves:
+Hikaru antes a Wind token
+Priorities:  5 | 4
+Hikaru is active
+Hikaru moves:
 
-..LH...
+....H.L
 
-Luc hits
-Hikaru takes 1 damage (now at 15 life)
-Hikaru is stunned
-Hikaru is stunned
+Hikaru hits
+Luc takes 2 damage (now at 10 life)
+Hikaru recovers his Fire token
+Luc is stunned
+Hikaru recovers his Water token
 Luc gains 1 Time token
 
 Beat 15
@@ -858,57 +886,49 @@ Beat 15
 
 Hikaru
 ------
-life: 15
-discard 1: Geomantic Drive
-discard 2: Trance Palm Strike
-special action
-pool: Water, Fire, Wind, Earth
+Life: 20
+Discard 1: Trance Palm Strike
+Discard 2: Advancing Burst
+Special action available
+pool: Earth, Wind, Fire, Water
 
 Luc
 ---
-life: 11
-discard 1: Chrono Flash
-discard 2: Fusion Dash
-special action
-5 Time tokens
+Life: 10
+Discard 1: Memento Grasp
+Discard 2: Eternal Burst
+Special action available
+2 Time tokens
 
 
-..LH...
+....H.L
 
-Unbeatable strategy for Hikaru: Focused Grasp (Earth): 16.00
-Unbeatable strategy for Hikaru: Focused Dash (Earth): 16.00
-Unbeatable strategy for Hikaru: Advancing Grasp (Earth): 16.00
-Unbeatable strategy for Hikaru: Advancing Dash (Earth): 16.00
-Unbeatable strategy for Hikaru: Sweeping Dash (Earth): 16.00
+Unbeatable strategy for Hikaru: Focused Dash (Wind): 15.00
+Unbeatable strategy for Hikaru: Sweeping Drive (Wind): 15.00
+Unbeatable strategy for Hikaru: Sweeping Dash: 15.00
+Unbeatable strategy for Hikaru: Sweeping Dash (Earth): 15.00
+Unbeatable strategy for Hikaru: Sweeping Dash (Wind): 15.00
+Unbeatable strategy for Hikaru: Sweeping Dash (Fire): 15.00
+Unbeatable strategy for Hikaru: Sweeping Dash (Water): 15.00
+Unbeatable strategy for Hikaru: Geomantic Dash: 15.00
+Unbeatable strategy for Hikaru: Geomantic Dash (Earth): 15.00
+Unbeatable strategy for Hikaru: Geomantic Dash (Fire): 15.00
+Unbeatable strategy for Hikaru: Geomantic Dash (Water): 15.00
+
 
 Hikaru:
-20% Focused Shot
-20% Focused Burst
-30% Advancing Strike
-2% Sweeping Shot
-9% Sweeping Burst
-20% Sweeping Dash
+100% Sweeping Strike
 
 Luc:
-0% Eternal Shot (5 tokens)
-0% Eternal Drive (5 tokens)
-1% Memento Strike (3 tokens)
-1% Memento Shot (3 tokens)
-0% Memento Shot (5 tokens)
-0% Memento Drive (5 tokens)
-0% Memento Burst
-0% Memento Burst (1 token)
-0% Memento Burst (3 tokens)
-0% Feinting Burst (5 tokens)
-97% Special Pulse
+100% Special Pulse
 
 
-Hikaru: Advancing Strike
+Hikaru: Sweeping Strike
 Luc: Special Pulse
 
-Pulse:
+Luc Pulses:
 
-HL.....
+.H....L
 
 
 Beat 15
@@ -916,115 +936,155 @@ Beat 15
 
 Hikaru
 ------
-life: 15
-discard 1: Advancing Strike
-discard 2: Geomantic Drive
-special action
-pool: Water, Fire, Wind, Earth
+Life: 20
+Discard 1: Sweeping Strike
+Discard 2: Trance Palm Strike
+Special action available
+pool: Earth, Wind, Fire, Water
 
 Luc
 ---
-life: 11
-discard 1: Chrono Flash
-discard 2: Fusion Dash
-5 Time tokens
+Life: 10
+Discard 1: Memento Grasp
+Discard 2: Eternal Burst
+2 Time tokens
 
 
-HL.....
+.H....L
 
-Unbeatable strategy for Hikaru: Focused Palm Strike (Earth): 16.00
-Unbeatable strategy for Hikaru: Focused Grasp (Earth): 16.00
-Unbeatable strategy for Hikaru: Focused Dash (Earth): 16.00
-Unbeatable strategy for Hikaru: Sweeping Dash (Earth): 16.00
+Unbeatable strategy for Hikaru: Focused Dash (Wind): 15.00
+Unbeatable strategy for Hikaru: Advancing Dash (Wind): 15.00
+Unbeatable strategy for Hikaru: Geomantic Dash: 15.00
+Unbeatable strategy for Hikaru: Geomantic Dash (Earth): 15.00
+Unbeatable strategy for Hikaru: Geomantic Dash (Fire): 15.00
+Unbeatable strategy for Hikaru: Geomantic Dash (Water): 15.00
+
 
 Hikaru:
-17% Focused Palm Strike (Earth)
-17% Focused Shot (Earth)
-17% Focused Burst (Earth)
-17% Focused Grasp (Earth)
-17% Focused Dash (Earth)
-17% Sweeping Dash (Earth)
+1% Focused Shot
+1% Focused Shot (Earth)
+1% Focused Shot (Wind)
+1% Focused Shot (Fire)
+1% Focused Shot (Water)
+1% Focused Drive
+1% Focused Drive (Earth)
+1% Focused Drive (Wind)
+1% Focused Drive (Fire)
+1% Focused Drive (Water)
+1% Focused Burst
+1% Focused Burst (Earth)
+1% Focused Burst (Wind)
+1% Focused Burst (Fire)
+1% Focused Burst (Water)
+1% Focused Grasp
+1% Focused Grasp (Earth)
+1% Focused Grasp (Wind)
+1% Focused Grasp (Fire)
+1% Focused Grasp (Water)
+1% Focused Dash
+1% Focused Dash (Earth)
+1% Focused Dash (Wind)
+1% Focused Dash (Fire)
+1% Focused Dash (Water)
+1% Advancing Shot
+1% Advancing Shot (Earth)
+1% Advancing Shot (Wind)
+1% Advancing Shot (Fire)
+1% Advancing Shot (Water)
+1% Advancing Drive
+1% Advancing Drive (Earth)
+1% Advancing Drive (Wind)
+1% Advancing Drive (Fire)
+1% Advancing Drive (Water)
+1% Advancing Burst
+1% Advancing Burst (Earth)
+1% Advancing Burst (Wind)
+1% Advancing Burst (Fire)
+1% Advancing Burst (Water)
+1% Advancing Grasp
+1% Advancing Grasp (Earth)
+1% Advancing Grasp (Wind)
+1% Advancing Grasp (Fire)
+1% Advancing Grasp (Water)
+1% Advancing Dash
+1% Advancing Dash (Earth)
+1% Advancing Dash (Wind)
+1% Advancing Dash (Fire)
+1% Advancing Dash (Water)
+1% Geomantic Shot
+1% Geomantic Shot (Earth)
+1% Geomantic Shot (Wind)
+1% Geomantic Shot (Fire)
+1% Geomantic Shot (Water)
+1% Geomantic Drive
+1% Geomantic Drive (Earth)
+1% Geomantic Drive (Wind)
+1% Geomantic Drive (Fire)
+1% Geomantic Drive (Water)
+1% Geomantic Burst
+1% Geomantic Burst (Earth)
+1% Geomantic Burst (Wind)
+1% Geomantic Burst (Fire)
+1% Geomantic Burst (Water)
+1% Geomantic Grasp
+1% Geomantic Grasp (Earth)
+1% Geomantic Grasp (Wind)
+1% Geomantic Grasp (Fire)
+1% Geomantic Grasp (Water)
+1% Geomantic Dash
+1% Geomantic Dash (Earth)
+1% Geomantic Dash (Wind)
+1% Geomantic Dash (Fire)
+1% Geomantic Dash (Water)
 
 Luc:
-3% Eternal Strike
-1% Eternal Strike (1 token)
-1% Eternal Strike (3 tokens)
-6% Eternal Strike (5 tokens)
-1% Eternal Shot
-1% Eternal Shot (1 token)
-1% Eternal Shot (3 tokens)
-1% Eternal Shot (5 tokens)
-1% Eternal Drive
-1% Eternal Drive (1 token)
-1% Eternal Drive (3 tokens)
-1% Eternal Drive (5 tokens)
-1% Eternal Burst
-1% Eternal Burst (1 token)
-1% Eternal Burst (3 tokens)
-1% Eternal Burst (5 tokens)
-2% Eternal Grasp
-1% Eternal Grasp (1 token)
-2% Eternal Grasp (3 tokens)
-2% Eternal Grasp (5 tokens)
-2% Memento Strike
-2% Memento Strike (1 token)
-2% Memento Strike (3 tokens)
-3% Memento Strike (5 tokens)
-1% Memento Shot
-1% Memento Shot (1 token)
-1% Memento Shot (3 tokens)
-1% Memento Shot (5 tokens)
-2% Memento Drive
-2% Memento Drive (1 token)
-1% Memento Drive (3 tokens)
-1% Memento Drive (5 tokens)
-2% Memento Burst
-2% Memento Burst (1 token)
-2% Memento Burst (3 tokens)
-1% Memento Burst (5 tokens)
-2% Memento Grasp
-2% Memento Grasp (1 token)
-2% Memento Grasp (3 tokens)
-1% Memento Grasp (5 tokens)
-2% Feinting Strike
-1% Feinting Strike (1 token)
-1% Feinting Strike (3 tokens)
-3% Feinting Strike (5 tokens)
+3% Fusion Flash
+3% Fusion Flash (1 token)
+3% Fusion Strike
+3% Fusion Strike (1 token)
+3% Fusion Shot
+3% Fusion Shot (1 token)
+3% Fusion Drive
+3% Fusion Drive (1 token)
+3% Fusion Dash
+3% Fusion Dash (1 token)
+3% Feinting Flash
+3% Feinting Flash (1 token)
+3% Feinting Strike
+3% Feinting Strike (1 token)
 3% Feinting Shot
-3% Feinting Shot (1 token)
-2% Feinting Shot (3 tokens)
-3% Feinting Shot (5 tokens)
-2% Feinting Drive
-2% Feinting Drive (1 token)
-2% Feinting Drive (3 tokens)
-1% Feinting Drive (5 tokens)
-2% Feinting Burst
-2% Feinting Burst (1 token)
-1% Feinting Burst (3 tokens)
-1% Feinting Burst (5 tokens)
-3% Feinting Grasp
-3% Feinting Grasp (1 token)
-2% Feinting Grasp (3 tokens)
-2% Feinting Grasp (5 tokens)
+5% Feinting Shot (1 token)
+3% Feinting Drive
+3% Feinting Drive (1 token)
+3% Feinting Dash
+5% Feinting Dash (1 token)
+3% Chrono Flash
+3% Chrono Flash (1 token)
+3% Chrono Strike
+3% Chrono Strike (1 token)
+3% Chrono Shot
+6% Chrono Shot (1 token)
+3% Chrono Drive
+3% Chrono Drive (1 token)
+3% Chrono Dash
+6% Chrono Dash (1 token)
 
 
-Hikaru: Sweeping Dash (Earth)
-Luc: Feinting Shot (1 token)
+Hikaru: Focused Dash
+Luc: Chrono Dash (1 token)
 
-Hikaru antes an Earth token
 Luc antes a Time token
-Priorities:  12 | 1
-Hikaru is active
-Hikaru moves:
-
-.LH....
-
-Luc misses
+Priorities:  10 | 11
+Luc is active
 Luc moves:
 
-..HL...
+.H.L...
+
+Hikaru moves:
+
+H..L...
 
 Luc gains 1 Time token
 Game goes to time
 HIKARU WINS!
-total_time: 135
+total_time: 101

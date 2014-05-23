@@ -15,7 +15,7 @@ Life: 20
 Discard 1: Eternal Flash
 Discard 2: Fusion Strike
 Special action available
-2 Time token
+2 Time tokens
 
 Rexan
 -----
@@ -23,7 +23,7 @@ Life: 20
 Discard 1: Enervating Grasp
 Discard 2: Devastating Dash
 Special action available
-Luc has 0 Curse token
+Luc has 0 Curse tokens
 
 
 .L...R.
@@ -36,32 +36,23 @@ Luc:
 50% Chrono Drive
 
 Rexan:
-86% Vainglorious Malediction
-14% Vainglorious Shot
+88% Vainglorious Malediction
+12% Vainglorious Shot
 
 
 Luc: Chrono Drive
-Rexan: Vainglorious Malediction
+Rexan: Vainglorious Shot
 
-Priorities:  5 | 4
+Priorities:  5 | 2
 Luc is active
-Luc spends a Time token
 Luc moves:
 
-..L..R.
+...L.R.
 
-Luc moves:
-
-....LR.
-
-Luc hits
-Luc gains 1 Curse token
-Rexan takes 1 damage (now at 19 life)
-Rexan is stunned
-Rexan moves Luc:
-
-.....RL
-
+Luc misses
+Rexan hits
+Luc takes 4 damage (now at 16 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 2
@@ -69,61 +60,58 @@ Beat 2
 
 Luc
 ---
-Life: 20
+Life: 16
 Discard 1: Chrono Drive
 Discard 2: Eternal Flash
 Special action available
-2 Time token
+3 Time tokens
 
 Rexan
 -----
-Life: 19
-Discard 1: Vainglorious Malediction
+Life: 20
+Discard 1: Vainglorious Shot
 Discard 2: Enervating Grasp
 Special action available
-Luc has 1 Curse token
+Luc has 0 Curse tokens
 
 
-.....RL
-
-Unbeatable strategy for Luc: Feinting Dash: 0.10
-Unbeatable strategy for Luc: Feinting Dash | (1 Curse token): 0.10
+...L.R.
 
 
 Luc:
-12% Fusion Strike (1 token) | (1 Curse token)
-3% Fusion Shot (1 token) | (1 Curse token)
-8% Fusion Burst (1 token) | (1 Curse token)
-38% Feinting Dash
-38% Feinting Dash | (1 Curse token)
+28% Fusion Shot (1 token)
+13% Fusion Grasp (3 tokens)
+59% Feinting Dash
 
 Rexan:
-18% Devastating Burst
-61% Overlord's Strike
-19% Overlord's Drive
-2% Overlord's Burst
+13% Devastating Burst
+37% Overlord's Strike
+49% Overlord's Drive
 
 
-Luc: Fusion Strike (1 token) | (1 Curse token)
+Luc: Feinting Dash
 Rexan: Overlord's Strike
 
-Luc antes a Time token
-Luc antes a Curse token
-Priorities:  5 | 3
+Priorities:  7 | 3
 Luc is active
-Luc hits
-Rexan takes 3 damage (now at 16 life)
-Luc moves Rexan:
+Luc moves:
 
-....R.L
+..L..R.
+
+Luc moves:
+
+.....RL
 
 Rexan moves Luc:
 
-....RL.
+L....R.
 
-Rexan gets -1 power
-Rexan hits
-Luc takes 4 damage (now at 16 life)
+Rexan gets -5 power
+Rexan misses
+Luc moves:
+
+..L..R.
+
 Luc gains 1 Time token
 
 Beat 3
@@ -132,54 +120,65 @@ Beat 3
 Luc
 ---
 Life: 16
-Discard 1: Fusion Strike
+Discard 1: Feinting Dash
 Discard 2: Chrono Drive
 Special action available
-2 Time token
+4 Time tokens
 
 Rexan
 -----
-Life: 16
+Life: 20
 Discard 1: Overlord's Strike
-Discard 2: Vainglorious Malediction
+Discard 2: Vainglorious Shot
 Special action available
-Luc has 0 Curse token
+Luc has 0 Curse tokens
 
 
-....RL.
+..L..R.
+
+Unbeatable strategy for Rexan: Enervating Malediction: -0.44
 
 
 Luc:
-17% Eternal Shot
-59% Eternal Dash
-0% Memento Flash
-0% Memento Shot (1 token)
-4% Memento Dash
-19% Feinting Dash
+47% Eternal Flash
+41% Eternal Shot
+12% Fusion Strike (3 tokens)
 
 Rexan:
-59% Devastating Shot
-22% Devastating Drive
-4% Enervating Shot
-11% Enervating Drive
-3% Enervating Dash
+36% Devastating Malediction
+22% Devastating Burst
+43% Enervating Malediction
 
 
-Luc: Eternal Shot
-Rexan: Devastating Shot
+Luc: Eternal Flash
+Rexan: Devastating Malediction
 
-Priorities:  -2 | 1
+Priorities:  2 | 3
 Rexan is active
+Rexan moves:
+
+..LR...
+
+Luc moves:
+
+...RL..
+
 Rexan hits
+Luc gains 1 Curse token
 Luc spends a Time token
 Luc spends a Time token
-Luc gains +2 soak (3 total)
-Luc has 3 soak
-Luc takes 2 damage (now at 14 life)
+Luc spends a Time token
+Luc gains +3 soak (4 total)
+Luc has 4 soak
+Luc takes 0 damage (now at 16 life)
 Luc hits
 Luc gains 1 Curse token
-Rexan takes 3 damage (now at 13 life)
+Rexan takes 1 damage (now at 19 life)
 Rexan is stunned
+Rexan moves Luc:
+
+.L.R...
+
 Luc gains 1 Time token
 
 Beat 4
@@ -187,121 +186,110 @@ Beat 4
 
 Luc
 ---
-Life: 14
-Discard 1: Eternal Shot
-Discard 2: Fusion Strike
+Life: 16
+Discard 1: Eternal Flash
+Discard 2: Feinting Dash
 Special action available
-1 Time token
+2 Time tokens
 
 Rexan
 -----
-Life: 13
-Discard 1: Devastating Shot
+Life: 19
+Discard 1: Devastating Malediction
 Discard 2: Overlord's Strike
 Special action available
-Luc has 1 Curse token
+Luc has 2 Curse tokens
 
 
-....RL.
+.L.R...
 
 
 Luc:
-43% Feinting Flash | (1 Curse token)
-4% Feinting Drive | (1 Curse token)
-53% Chrono Drive (1 token) | (1 Curse token)
-1% Chrono Burst | (1 Curse token)
+50% Memento Drive | (2 Curse tokens)
+13% Chrono Shot (1 token) | (2 Curse tokens)
+38% Chrono Grasp | (2 Curse tokens)
 
 Rexan:
-49% Enervating Malediction
-13% Vainglorious Burst
-14% Vainglorious Grasp
-25% Vainglorious Dash
+6% Vainglorious Shot
+13% Vainglorious Drive
+81% Vainglorious Dash
 
 
-Luc: Chrono Drive (1 token) | (1 Curse token)
+Luc: Chrono Shot (1 token) | (2 Curse tokens)
 Rexan: Vainglorious Dash
 
 Luc antes a Time token
 Luc antes a Curse token
-Priorities:  6 | 9
+Luc antes a Curse token
+Priorities:  4 | 9
 Rexan is active
-Rexan moves Luc:
+Luc spends a Time token
+Luc moves:
 
-...LR..
+..LR...
 
 Rexan moves:
 
-..RL...
-
-Luc moves:
-
-.LR....
+R.L....
 
 Luc misses
 Luc gains 1 Time token
-Luc gains 1 Curse token
+Luc gains 2 Curse tokens
 
 Beat 5
 -------
 
 Luc
 ---
-Life: 14
-Discard 1: Chrono Drive
-Discard 2: Eternal Shot
+Life: 16
+Discard 1: Chrono Shot
+Discard 2: Eternal Flash
 Special action available
 1 Time token
 
 Rexan
 -----
-Life: 13
+Life: 19
 Discard 1: Vainglorious Dash
-Discard 2: Devastating Shot
+Discard 2: Devastating Malediction
 Special action available
-Luc has 1 Curse token
+Luc has 2 Curse tokens
 
 
-.LR....
+R.L....
 
-Unbeatable strategy for Rexan: Unyielding Burst: -0.05
-Unbeatable strategy for Rexan: Overlord's Burst: -1.16
+Unbeatable strategy for Luc: Fusion Drive (1 token) | (2 Curse tokens): 1.44
 
 
 Luc:
-22% Memento Burst (1 token) | (1 Curse token)
-5% Fusion Grasp | (1 Curse token)
-18% Feinting Flash (1 token) | (1 Curse token)
-56% Feinting Dash | (1 Curse token)
+26% Fusion Drive | (2 Curse tokens)
+35% Fusion Drive (1 token) | (2 Curse tokens)
+39% Fusion Burst (1 token) | (2 Curse tokens)
 
 Rexan:
-19% Enervating Malediction
-12% Enervating Burst
-22% Overlord's Malediction
-47% Overlord's Burst
+3% Unyielding Grasp
+69% Overlord's Strike
+28% Overlord's Shot
 
 
-Luc: Feinting Flash (1 token) | (1 Curse token)
-Rexan: Enervating Malediction
+Luc: Fusion Drive (1 token) | (2 Curse tokens)
+Rexan: Overlord's Shot
 
 Luc antes a Time token
 Luc antes a Curse token
-Priorities:  5 | 2
+Luc antes a Curse token
+Priorities:  6 | 2
 Luc is active
 Luc moves:
 
-..RL...
-
-Luc moves:
-
-..R.L..
+RL.....
 
 Luc hits
-Rexan takes 1 damage (now at 12 life)
-Rexan is stunned
-Luc moves:
-
-..RL...
-
+Rexan takes 2 damage (now at 17 life)
+Rexan loses 2 life (now at 15)
+Rexan hits
+Luc takes 4 damage (now at 12 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 6
@@ -309,152 +297,44 @@ Beat 6
 
 Luc
 ---
-Life: 14
-Discard 1: Feinting Flash
-Discard 2: Chrono Drive
+Life: 12
+Discard 1: Fusion Drive
+Discard 2: Chrono Shot
 Special action available
 1 Time token
 
 Rexan
 -----
-Life: 12
-Discard 1: Enervating Malediction
+Life: 15
+Discard 1: Overlord's Shot
 Discard 2: Vainglorious Dash
 Special action available
-Luc has 0 Curse token
+Luc has 0 Curse tokens
 
 
-..RL...
+RL.....
 
-Unbeatable strategy for Rexan: Overlord's Strike: -0.31
-
-
-Luc:
-12% Eternal Strike
-1% Eternal Shot
-43% Memento Dash
-2% Fusion Strike (1 token)
-43% Fusion Dash
-
-Rexan:
-5% Devastating Burst
-29% Overlord's Strike
-8% Overlord's Shot
-59% Overlord's Grasp
-
-
-Luc: Fusion Dash
-Rexan: Overlord's Strike
-
-Priorities:  10 | 3
-Luc is active
-Luc moves:
-
-L.R....
-
-Rexan moves Luc:
-
-..R..L.
-
-Rexan gets -4 power
-Rexan misses
-Luc gains 1 Time token
-
-Beat 7
--------
-
-Luc
----
-Life: 14
-Discard 1: Fusion Dash
-Discard 2: Feinting Flash
-Special action available
-2 Time token
-
-Rexan
------
-Life: 12
-Discard 1: Overlord's Strike
-Discard 2: Enervating Malediction
-Special action available
-Luc has 0 Curse token
-
-
-..R..L.
+Unbeatable strategy for Rexan: Unyielding Malediction: -0.44
+Unbeatable strategy for Rexan: Unyielding Drive: -0.33
+Unbeatable strategy for Rexan: Devastating Malediction: -0.05
+Unbeatable strategy for Rexan: Enervating Malediction: -1.91
+Unbeatable strategy for Rexan: Enervating Drive: -0.65
 
 
 Luc:
-56% Chrono Shot (1 token)
-20% Chrono Drive
-24% Chrono Grasp
+81% Eternal Strike
+10% Memento Strike (1 token)
+10% Feinting Dash
 
 Rexan:
-30% Vainglorious Shot
-64% Vainglorious Drive
-7% Vainglorious Burst
+51% Devastating Malediction
+11% Devastating Grasp
+38% Enervating Malediction
 
 
-Luc: Chrono Shot (1 token)
-Rexan: Vainglorious Shot
-
-Luc antes a Time token
-Priorities:  4 | 2
-Luc is active
-Luc spends a Time token
-Luc moves:
-
-..R.L..
-
-Luc hits
-Luc gains 1 Curse token
-Rexan takes 3 damage (now at 9 life)
-Rexan is stunned
-Luc gains 1 Time token
-
-Beat 8
--------
-
-Luc
----
-Life: 14
-Discard 1: Chrono Shot
-Discard 2: Fusion Dash
-Special action available
-1 Time token
-
-Rexan
------
-Life: 9
-Discard 1: Vainglorious Shot
-Discard 2: Overlord's Strike
-Special action available
-Luc has 1 Curse token
-
-
-..R.L..
-
-
-Luc:
-2% Eternal Flash (1 token) | (1 Curse token)
-53% Eternal Strike | (1 Curse token)
-2% Eternal Drive | (1 Curse token)
-3% Memento Flash | (1 Curse token)
-11% Memento Drive (1 token) | (1 Curse token)
-29% Feinting Drive | (1 Curse token)
-
-Rexan:
-21% Unyielding Burst
-9% Devastating Malediction
-6% Devastating Burst
-0% Devastating Grasp
-29% Enervating Malediction
-35% Enervating Burst
-
-
-Luc: Eternal Strike | (1 Curse token)
+Luc: Eternal Strike
 Rexan: Enervating Malediction
 
-Luc antes a Curse token
 Priorities:  -1 | 2
 Rexan is active
 Rexan hits
@@ -463,8 +343,137 @@ Rexan gets +1 power
 Luc spends a Time token
 Luc gains +1 soak (2 total)
 Luc has 2 soak
-Luc takes 1 damage (now at 13 life)
+Luc takes 1 damage (now at 11 life)
+Luc hits
+Luc gains 1 Curse token
+Rexan takes 2 damage (now at 13 life)
+Luc gains 1 Time token
+
+Beat 7
+-------
+
+Luc
+---
+Life: 11
+Discard 1: Eternal Strike
+Discard 2: Fusion Drive
+Special action available
+1 Time token
+
+Rexan
+-----
+Life: 13
+Discard 1: Enervating Malediction
+Discard 2: Overlord's Shot
+Special action available
+Luc has 2 Curse tokens
+
+
+RL.....
+
+
+Luc:
+1% Memento Dash (1 token) | (2 Curse tokens)
+35% Feinting Flash (1 token) | (2 Curse tokens)
+36% Feinting Burst | (2 Curse tokens)
+27% Chrono Shot (1 token) | (2 Curse tokens)
+
+Rexan:
+42% Unyielding Dash
+14% Devastating Strike
+10% Devastating Drive
+34% Vainglorious Drive
+
+
+Luc: Feinting Flash (1 token) | (2 Curse tokens)
+Rexan: Unyielding Dash
+
+Luc antes a Time token
+Luc antes a Curse token
+Luc antes a Curse token
+Priorities:  5 | 9
+Rexan is active
+Luc moves:
+
+R.L....
+
+Luc moves:
+
+RL.....
+
+Rexan moves:
+
+.L.R...
+
 Luc misses
+Luc moves:
+
+..LR...
+
+Luc gains 1 Time token
+Luc gains 2 Curse tokens
+
+Beat 8
+-------
+
+Luc
+---
+Life: 11
+Discard 1: Feinting Flash
+Discard 2: Eternal Strike
+Special action available
+1 Time token
+
+Rexan
+-----
+Life: 13
+Discard 1: Unyielding Dash
+Discard 2: Enervating Malediction
+Special action available
+Luc has 2 Curse tokens
+
+
+..LR...
+
+
+Luc:
+9% Fusion Grasp | (2 Curse tokens)
+2% Chrono Shot | (2 Curse tokens)
+42% Chrono Drive | (2 Curse tokens)
+25% Chrono Burst | (2 Curse tokens)
+22% Chrono Burst (1 token) | (2 Curse tokens)
+
+Rexan:
+19% Devastating Shot
+29% Vainglorious Strike
+37% Vainglorious Shot
+12% Vainglorious Drive
+2% Overlord's Grasp
+
+
+Luc: Chrono Burst (1 token) | (2 Curse tokens)
+Rexan: Vainglorious Drive
+
+Luc antes a Time token
+Luc antes a Curse token
+Luc antes a Curse token
+Priorities:  3 | 4
+Rexan is active
+Luc moves:
+
+L..R...
+
+Rexan moves Luc:
+
+.L.R...
+
+Rexan moves:
+
+.LR....
+
+Rexan hits
+Luc takes 4 damage (now at 7 life)
+Luc is stunned
 Luc gains 1 Time token
 
 Beat 9
@@ -472,120 +481,121 @@ Beat 9
 
 Luc
 ---
-Life: 13
-Discard 1: Eternal Strike
-Discard 2: Chrono Shot
+Life: 7
+Discard 1: Chrono Burst
+Discard 2: Feinting Flash
 Special action available
 1 Time token
 
 Rexan
 -----
-Life: 9
-Discard 1: Enervating Malediction
-Discard 2: Vainglorious Shot
+Life: 13
+Discard 1: Vainglorious Drive
+Discard 2: Unyielding Dash
 Special action available
-Luc has 1 Curse token
+Luc has 0 Curse tokens
 
 
-..R.L..
+.LR....
 
-Unbeatable strategy for Rexan: Overlord's Burst: -0.35
+Unbeatable strategy for Rexan: Enervating Malediction: -0.60
 
 
 Luc:
-7% Memento Flash | (1 Curse token)
-20% Memento Burst (1 token) | (1 Curse token)
-12% Memento Dash
-8% Fusion Drive | (1 Curse token)
-3% Fusion Dash
-50% Feinting Dash | (1 Curse token)
+4% Eternal Shot
+1% Memento Shot (1 token)
+2% Memento Drive
+0% Memento Drive (1 token)
+46% Memento Dash
+46% Fusion Dash
 
 Rexan:
-19% Unyielding Burst
-15% Devastating Drive
-15% Overlord's Strike
-9% Overlord's Drive
-43% Overlord's Burst
+19% Enervating Malediction
+8% Overlord's Malediction
+3% Overlord's Strike
+46% Overlord's Burst
+25% Overlord's Grasp
 
 
-Luc: Feinting Dash | (1 Curse token)
-Rexan: Overlord's Burst
+Luc: Eternal Shot
+Rexan: Overlord's Grasp
 
-Luc antes a Curse token
-Priorities:  7 | 1
-Luc is active
-Luc moves:
+Priorities:  -2 | 5
+Rexan is active
+Rexan hits
+Rexan moves Luc:
 
-..R..L.
+L.R....
 
-Rexan moves:
-
-R....L.
-
-Luc moves:
-
-R.....L
-
-Rexan misses
-Luc moves:
-
-R...L..
-
-Luc gains 1 Time token
+Luc spends a Time token
+Luc gains +1 soak (2 total)
+Luc has 2 soak
+Luc takes 1 damage (now at 6 life)
+Luc hits
 Luc gains 1 Curse token
+Rexan takes 3 damage (now at 10 life)
+Rexan is stunned
+Luc gains 1 Time token
 
 Beat 10
 -------
 
 Luc
 ---
-Life: 13
-Discard 1: Feinting Dash
-Discard 2: Eternal Strike
+Life: 6
+Discard 1: Eternal Shot
+Discard 2: Chrono Burst
 Special action available
-2 Time token
+1 Time token
 
 Rexan
 -----
-Life: 9
-Discard 1: Overlord's Burst
-Discard 2: Enervating Malediction
+Life: 10
+Discard 1: Overlord's Grasp
+Discard 2: Vainglorious Drive
 Special action available
 Luc has 1 Curse token
 
 
-R...L..
+L.R....
 
 
 Luc:
-13% Memento Burst | (1 Curse token)
-12% Chrono Shot | (1 Curse token)
-27% Chrono Shot (1 token) | (1 Curse token)
-47% Chrono Drive | (1 Curse token)
+9% Memento Flash | (1 Curse token)
+1% Memento Drive (1 token) | (1 Curse token)
+8% Memento Dash
+19% Memento Dash | (1 Curse token)
+4% Fusion Drive | (1 Curse token)
+24% Fusion Dash
+21% Fusion Dash | (1 Curse token)
+5% Feinting Flash | (1 Curse token)
+9% Feinting Drive | (1 Curse token)
 
 Rexan:
-18% Devastating Strike
-0% Vainglorious Strike
-40% Vainglorious Shot
-41% Vainglorious Drive
+9% Unyielding Malediction
+2% Unyielding Burst
+5% Devastating Malediction
+4% Devastating Burst
+10% Enervating Malediction
+28% Enervating Shot
+42% Enervating Burst
 
 
-Luc: Memento Burst | (1 Curse token)
-Rexan: Vainglorious Shot
+Luc: Fusion Dash | (1 Curse token)
+Rexan: Enervating Burst
 
 Luc antes a Curse token
-Priorities:  0 | 2
-Rexan is active
+Priorities:  10 | -1
+Luc is active
+Rexan moves:
+
+L..R...
+
 Luc moves:
 
-R.....L
-
-Rexan moves Luc:
-
-R....L.
+..LR...
 
 Rexan misses
-Luc misses
 Luc gains 1 Time token
 Luc gains 1 Curse token
 
@@ -594,126 +604,119 @@ Beat 11
 
 Luc
 ---
-Life: 13
-Discard 1: Memento Burst
-Discard 2: Feinting Dash
+Life: 6
+Discard 1: Fusion Dash
+Discard 2: Eternal Shot
 Special action available
-3 Time token
+2 Time tokens
 
 Rexan
 -----
-Life: 9
-Discard 1: Vainglorious Shot
-Discard 2: Overlord's Burst
+Life: 10
+Discard 1: Enervating Burst
+Discard 2: Overlord's Grasp
 Special action available
 Luc has 1 Curse token
 
 
-R....L.
-
-Unbeatable strategy for Luc: Eternal Strike | (1 Curse token): 0.41
-Unbeatable strategy for Luc: Eternal Strike (1 token) | (1 Curse token): 0.11
-Unbeatable strategy for Luc: Eternal Drive | (1 Curse token): 0.08
-Unbeatable strategy for Luc: Chrono Drive (1 token) | (1 Curse token): 0.59
+..LR...
 
 
 Luc:
-9% Eternal Flash (3 tokens) | (1 Curse token)
-10% Fusion Flash (1 token) | (1 Curse token)
-60% Chrono Flash | (1 Curse token)
-21% Chrono Drive | (1 Curse token)
+29% Memento Drive | (1 Curse token)
+4% Memento Burst | (1 Curse token)
+20% Memento Grasp | (1 Curse token)
+28% Feinting Flash (1 token) | (1 Curse token)
+19% Chrono Grasp | (1 Curse token)
 
 Rexan:
-8% Unyielding Strike
-55% Devastating Dash
-33% Enervating Malediction
-5% Enervating Dash
+14% Devastating Strike
+7% Devastating Shot
+20% Vainglorious Strike
+51% Vainglorious Shot
+7% Vainglorious Drive
 
 
-Luc: Eternal Flash (3 tokens) | (1 Curse token)
-Rexan: Devastating Dash
+Luc: Chrono Grasp | (1 Curse token)
+Rexan: Vainglorious Strike
 
-Luc antes a Time token
-Luc antes a Time token
-Luc antes a Time token
 Luc antes a Curse token
-Priorities:  2 | 8
-Rexan is active
-Rexan moves:
+Priorities:  6 | 3
+Luc is active
+Luc hits
+Luc moves Rexan:
 
-....RL.
+..L.R..
 
-Luc moves:
+Rexan takes 2 damage (now at 8 life)
+Rexan moves Luc:
 
 ...LR..
 
-Luc moves:
-
-....RL.
-
-Rexan moves:
-
-..R..L.
-
-Luc misses
+Rexan hits
+Luc takes 5 damage (now at 1 life)
+Luc is stunned
 Luc gains 1 Time token
-Luc gains 1 Curse token
 
 Beat 12
 -------
 
 Luc
 ---
-Life: 13
-Discard 1: Eternal Flash
-Discard 2: Memento Burst
+Life: 1
+Discard 1: Chrono Grasp
+Discard 2: Fusion Dash
 Special action available
-1 Time token
+3 Time tokens
 
 Rexan
 -----
-Life: 9
-Discard 1: Devastating Dash
-Discard 2: Vainglorious Shot
+Life: 8
+Discard 1: Vainglorious Strike
+Discard 2: Enervating Burst
 Special action available
-Luc has 1 Curse token
+Luc has 0 Curse tokens
 
 
-..R..L.
+...LR..
+
+Unbeatable strategy for Rexan: Unyielding Malediction: -0.06
+Unbeatable strategy for Rexan: Overlord's Malediction: -0.02
 
 
 Luc:
-8% Fusion Shot (1 token) | (1 Curse token)
-46% Chrono Shot | (1 Curse token)
-14% Chrono Shot (1 token) | (1 Curse token)
-32% Chrono Drive | (1 Curse token)
+13% Eternal Drive
+75% Memento Flash (1 token)
+12% Memento Drive (1 token)
+0% Feinting Drive
 
 Rexan:
-2% Enervating Malediction
-42% Enervating Burst
-7% Overlord's Malediction
-49% Overlord's Strike
+7% Unyielding Malediction
+66% Unyielding Dash
+14% Devastating Shot
+14% Overlord's Grasp
 
 
-Luc: Chrono Shot | (1 Curse token)
-Rexan: Overlord's Malediction
+Luc: Memento Flash (1 token)
+Rexan: Devastating Shot
 
-Luc antes a Curse token
-Priorities:  3 | 4
-Rexan is active
-Luc spends a Time token
+Luc antes a Time token
+Priorities:  6 | 1
+Luc is active
 Luc moves:
 
-..R.L..
+....RL.
 
-Rexan hits
+Luc hits
 Luc gains 1 Curse token
-Luc takes 3 damage (now at 10 life)
-Luc is stunned
-Rexan moves Luc:
-
-..RL...
-
+Rexan takes 1 damage (now at 7 life)
+Rexan is stunned
+Luc spends a Time token
+Luc spends a Time token
+Luc attacks again
+Luc hits
+Rexan takes 1 damage (now at 6 life)
+Rexan is stunned
 Luc gains 1 Time token
 
 Beat 13
@@ -721,186 +724,224 @@ Beat 13
 
 Luc
 ---
-Life: 10
-Discard 1: Chrono Shot
-Discard 2: Eternal Flash
+Life: 1
+Discard 1: Memento Flash
+Discard 2: Chrono Grasp
 Special action available
 1 Time token
 
 Rexan
 -----
-Life: 9
-Discard 1: Overlord's Malediction
-Discard 2: Devastating Dash
+Life: 6
+Discard 1: Devastating Shot
+Discard 2: Vainglorious Strike
 Special action available
 Luc has 1 Curse token
 
 
-..RL...
+....RL.
 
-Unbeatable strategy for Rexan: Vainglorious Shot: -0.65
+Unbeatable strategy for Rexan: Enervating Malediction: -0.29
 
 
 Luc:
-3% Memento Strike | (1 Curse token)
-2% Memento Drive (1 token) | (1 Curse token)
-1% Memento Grasp (1 token) | (1 Curse token)
+6% Fusion Shot | (1 Curse token)
+5% Fusion Shot (1 token) | (1 Curse token)
+4% Fusion Drive (1 token) | (1 Curse token)
+0% Fusion Dash
+75% Fusion Dash | (1 Curse token)
 1% Feinting Drive | (1 Curse token)
-93% Feinting Dash
+9% Special Temporal Recursion | (1 Curse token)
 
 Rexan:
-13% Unyielding Strike
-10% Unyielding Burst
-12% Enervating Burst
-52% Vainglorious Shot
-13% Vainglorious Drive
+52% Unyielding Dash
+10% Enervating Drive
+11% Enervating Burst
+2% Overlord's Drive
+18% Overlord's Burst
+7% Overlord's Grasp
 
 
-Luc: Feinting Dash
-Rexan: Vainglorious Drive
+Luc: Fusion Dash | (1 Curse token)
+Rexan: Unyielding Dash
 
-Priorities:  7 | 4
+Luc antes a Curse token
+Priorities:  10 | 9
 Luc is active
 Luc moves:
 
-..R.L..
-
-Luc moves:
-
-L.R....
+...LR..
 
 Rexan moves:
 
-LR.....
-
-Rexan moves Luc:
-
-.RL....
-
-Rexan misses
-Luc moves:
-
-LR.....
+..RL...
 
 Luc gains 1 Time token
+Luc gains 1 Curse token
 
 Beat 14
 -------
 
 Luc
 ---
-Life: 10
-Discard 1: Feinting Dash
-Discard 2: Chrono Shot
+Life: 1
+Discard 1: Fusion Dash
+Discard 2: Memento Flash
 Special action available
-2 Time token
+2 Time tokens
 
 Rexan
 -----
-Life: 9
-Discard 1: Vainglorious Drive
-Discard 2: Overlord's Malediction
+Life: 6
+Discard 1: Unyielding Dash
+Discard 2: Devastating Shot
 Special action available
 Luc has 1 Curse token
 
 
-LR.....
-
-Unbeatable strategy for Luc: Fusion Drive (1 token) | (1 Curse token): 0.35
+..RL...
 
 
 Luc:
-39% Eternal Strike | (1 Curse token)
-43% Memento Drive | (1 Curse token)
-18% Fusion Drive | (1 Curse token)
+20% Eternal Burst | (1 Curse token)
+27% Chrono Strike (1 token) | (1 Curse token)
+9% Chrono Drive | (1 Curse token)
+9% Chrono Drive (1 token) | (1 Curse token)
+31% Chrono Burst (1 token) | (1 Curse token)
+4% Chrono Grasp | (1 Curse token)
+0% Special Temporal Recursion | (1 Curse token)
 
 Rexan:
-26% Unyielding Strike
-57% Unyielding Dash
-17% Devastating Grasp
+1% Enervating Drive
+1% Enervating Burst
+38% Vainglorious Strike
+45% Vainglorious Drive
+5% Vainglorious Burst
+8% Overlord's Strike
+2% Overlord's Grasp
 
 
-Luc: Eternal Strike | (1 Curse token)
-Rexan: Unyielding Dash
+Luc: Chrono Strike (1 token) | (1 Curse token)
+Rexan: Vainglorious Drive
 
+Luc antes a Time token
 Luc antes a Curse token
-Priorities:  -1 | 9
-Rexan is active
-Rexan moves:
-
-L...R..
-
-Luc misses
+Priorities:  5 | 4
+Luc is active
+Luc hits
+Rexan takes 2 damage (now at 4 life)
+Rexan is stunned
 Luc gains 1 Time token
-Luc gains 1 Curse token
 
 Beat 15
 -------
 
 Luc
 ---
-Life: 10
-Discard 1: Eternal Strike
-Discard 2: Feinting Dash
+Life: 1
+Discard 1: Chrono Strike
+Discard 2: Fusion Dash
 Special action available
-3 Time token
+2 Time tokens
 
 Rexan
 -----
-Life: 9
-Discard 1: Unyielding Dash
-Discard 2: Vainglorious Drive
+Life: 4
+Discard 1: Vainglorious Drive
+Discard 2: Unyielding Dash
 Special action available
-Luc has 1 Curse token
+Luc has 0 Curse tokens
 
 
-L...R..
+..RL...
+
+Unbeatable strategy for Rexan: Overlord's Malediction: -6.00
 
 
 Luc:
-2% Memento Flash (3 tokens) | (1 Curse token)
-3% Memento Shot
-3% Memento Shot (3 tokens)
-3% Fusion Shot (3 tokens)
-4% Chrono Flash
-19% Chrono Flash | (1 Curse token)
-3% Chrono Flash (1 token)
-3% Chrono Flash (1 token) | (1 Curse token)
-1% Chrono Flash (3 tokens)
-2% Chrono Flash (3 tokens) | (1 Curse token)
-6% Chrono Shot
-17% Chrono Shot (1 token) | (1 Curse token)
-2% Chrono Shot (3 tokens)
-33% Chrono Drive | (1 Curse token)
+30% Eternal Grasp
+8% Memento Grasp
+62% Special Temporal Recursion
 
 Rexan:
-12% Devastating Burst
-33% Overlord's Malediction
-33% Overlord's Strike
-21% Overlord's Burst
+0% Devastating Burst
+0% Devastating Grasp
+0% Enervating Malediction
+0% Enervating Strike
+0% Enervating Shot
+0% Enervating Burst
+1% Enervating Grasp
+1% Overlord's Malediction
+0% Overlord's Burst
+1% Overlord's Grasp
+94% Special Pulse
 
 
-Luc: Chrono Shot (1 token) | (1 Curse token)
-Rexan: Overlord's Burst
+Luc: Eternal Grasp
+Rexan: Special Pulse
 
-Luc antes a Time token
-Luc antes a Curse token
-Priorities:  4 | 1
+Rexan Pulses:
+
+LR.....
+
+
+Beat 15
+-------
+
+Luc
+---
+Life: 1
+Discard 1: Eternal Grasp
+Discard 2: Chrono Strike
+Special action available
+2 Time tokens
+
+Rexan
+-----
+Life: 4
+Discard 1: Vainglorious Drive
+Discard 2: Unyielding Dash
+Luc has 0 Curse tokens
+
+
+LR.....
+
+Unbeatable strategy for Rexan: Enervating Grasp: -6.00
+Unbeatable strategy for Rexan: Overlord's Strike: -6.00
+
+
+Luc:
+100% Special Temporal Recursion
+
+Rexan:
+6% Devastating Malediction
+2% Devastating Strike
+5% Devastating Shot
+8% Devastating Burst
+8% Devastating Grasp
+3% Enervating Malediction
+3% Enervating Strike
+3% Enervating Shot
+12% Enervating Burst
+8% Enervating Grasp
+7% Overlord's Malediction
+8% Overlord's Strike
+4% Overlord's Shot
+12% Overlord's Burst
+8% Overlord's Grasp
+
+
+Luc: Special Temporal Recursion
+Rexan: Overlord's Strike
+
+Priorities:  5 | 3
 Luc is active
-Luc spends a Time token
-Luc spends a Time token
-Luc moves:
-
-..L.R..
-
-Rexan moves:
-
-..L..R.
-
 Luc hits
-Rexan takes 3 damage (now at 6 life)
-Rexan is stunned
-Luc gains 1 Time token
-Game goes to time
+Luc gains 1 Curse token
+Rexan takes 3 damage (now at 1 life)
+Luc spends a Time token
+Luc attacks 1 more times
+Luc hits
+Rexan takes 3 damage (now at 0 life)
 LUC WINS!
-total_time: 42
+total_time: 55
