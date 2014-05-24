@@ -44,18 +44,20 @@ Seth:
 1% Vanishing Shot (Drive)
 6% Vanishing Shot (Burst)
 9% Vanishing Drive (Drive)
-10% Vanishing Dash (Hex)
-14% Vanishing Dash (Shot)
-12% Vanishing Dash (Drive)
-10% Vanishing Dash (Burst)
-22% Vanishing Dash (Dash)
+8% Vanishing Dash (Hex)
+12% Vanishing Dash (Shot)
+11% Vanishing Dash (Drive)
+8% Vanishing Dash (Burst)
+28% Vanishing Dash (Dash)
 5% Compelling Drive (Drive)
 
 
 Arec: Perceptional Drive
-Seth: Vanishing Dash (Burst)
+Seth: Vanishing Dash (Drive)
 
-Priorities:  5 | 9
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  5 | 11
 Seth is active
 Seth moves:
 
@@ -91,25 +93,26 @@ Special action available
 Arec:
 10% Returning Hex
 24% Returning Hex (Fear)
-44% Returning Shot
+43% Returning Shot
 2% Mirrored Shot (Fear)
 5% Manipulative Hex (Fear)
 16% Manipulative Hex (Recklessness)
 
 Seth:
-9% Mimic's Omen (Hex)
-18% Wyrding Omen (Hex)
-32% Wyrding Omen (Shot)
-7% Compelling Strike (Dash)
-21% Compelling Shot (Hex)
-13% Compelling Shot (Shot)
+8% Mimic's Omen (Hex)
+10% Wyrding Omen (Hex)
+31% Wyrding Omen (Shot)
+15% Compelling Strike (Dash)
+15% Compelling Shot (Hex)
+21% Compelling Shot (Shot)
 
 
 Arec: Returning Shot
-Seth: Wyrding Omen (Hex)
+Seth: Compelling Shot (Hex)
 
 Priorities:  3 | 2
 Arec is active
+Seth is stunned
 Arec hits
 Seth takes 3 damage (now at 17 life)
 Seth is stunned
@@ -128,7 +131,7 @@ pool: Fear, Mercy, Recklessness
 Seth
 ----
 Life: 17
-Discard 1: Wyrding Omen
+Discard 1: Compelling Shot
 Discard 2: Vanishing Dash
 Special action available
 
@@ -138,39 +141,41 @@ Special action available
 
 
 Arec:
-79% Phantom Burst
-17% Mirrored Hex
-5% Mirrored Hex (Recklessness)
+7% Mirrored Hex
+49% Mirrored Hex (Fear)
+44% Mirrored Burst
 
 Seth:
-48% Compelling Strike (Strike)
-7% Compelling Shot (Hex)
-45% Compelling Shot (Strike)
+11% Fool's Drive (Hex)
+11% Fool's Drive (Strike)
+11% Fool's Drive (Grasp)
+11% Fool's Drive (Dash)
+35% Mimic's Strike (Strike)
+13% Mimic's Strike (Dash)
+7% Wyrding Omen (Hex)
 
 
-Arec: Phantom Burst
-Seth: Compelling Strike (Strike)
+Arec: Mirrored Hex (Fear)
+Seth: Mimic's Strike (Strike)
 
-Priorities:  2 | 3
-Seth is active
-Arec moves:
-
-A.....S
+Arec antes a Fear token
+Priorities:  3 | 3
+Clash!
 
 
-Seth moves Arec:
+Arec: Mirrored Grasp (Fear)
+Seth: Mimic's Omen (Strike)
+
+Arec antes a Fear token
+Priorities:  5 | 1
+Arec is active
+Arec misses
+Seth misses
+Arec places clone:
 
 .A....S
+c......
 
-
-Seth misses
-Seth moves Arec:
-
-A.....S
-
-
-Arec misses
-Arec recovers his Hesitation token
 
 Beat 4
 -------
@@ -178,59 +183,61 @@ Beat 4
 Arec
 ----
 Life: 20
-Discard 1: Phantom Burst
+Discard 1: Mirrored Grasp
 Discard 2: Returning Shot
 Special action available
-pool: Fear, Mercy, Recklessness, Hesitation
+pool: Mercy, Recklessness
 
 Seth
 ----
 Life: 17
-Discard 1: Compelling Strike
-Discard 2: Wyrding Omen
+Discard 1: Mimic's Omen
+Discard 2: Compelling Shot
 Special action available
 
+
+.A....S
+c......
+
+
+Arec:
+7% Phantom Hex (move to clone)
+35% Phantom Strike (move to clone)
+34% Phantom Drive
+6% Phantom Drive (move to clone)
+18% Manipulative Hex (move to clone)
+
+Seth:
+3% Fool's Drive (Hex)
+3% Fool's Drive (Strike)
+3% Fool's Drive (Drive)
+2% Fool's Drive (Burst)
+3% Fool's Drive (Dash)
+5% Vanishing Drive (Strike)
+23% Vanishing Drive (Drive)
+25% Vanishing Grasp (Strike)
+6% Vanishing Dash (Hex)
+6% Vanishing Dash (Strike)
+6% Vanishing Dash (Drive)
+6% Vanishing Dash (Burst)
+7% Vanishing Dash (Dash)
+
+
+Arec: Phantom Strike (move to clone)
+Seth: Vanishing Grasp (Strike)
+
+Arec moves:
 
 A.....S
 
 
-Unbeatable strategy for Arec: Manipulative Hex: 0.55
-Unbeatable strategy for Arec: Manipulative Hex (Fear): 0.05
-Unbeatable strategy for Arec: Manipulative Hex (Mercy): 0.15
-Unbeatable strategy for Arec: Manipulative Hex (Hesitation): 0.11
-Unbeatable strategy for Arec: Manipulative Strike (Hesitation): 0.19
-
-
-Arec:
-15% Manipulative Hex
-4% Manipulative Strike
-22% Manipulative Grasp
-59% Manipulative Grasp (Hesitation)
-
-Seth:
-2% Fool's Grasp (Hex)
-2% Fool's Grasp (Strike)
-2% Fool's Grasp (Drive)
-2% Fool's Grasp (Grasp)
-2% Fool's Grasp (Dash)
-5% Vanishing Grasp (Drive)
-63% Vanishing Grasp (Grasp)
-4% Vanishing Grasp (Dash)
-4% Vanishing Dash (Hex)
-4% Vanishing Dash (Strike)
-4% Vanishing Dash (Drive)
-4% Vanishing Dash (Grasp)
-4% Vanishing Dash (Dash)
-
-
-Arec: Manipulative Grasp (Hesitation)
-Seth: Fool's Grasp (Hex)
-
-Arec antes a Hesitation token
-Priorities:  5 | 1
-Arec is active
-Arec misses
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  4 | 7
+Seth is active
 Seth misses
+Arec misses
+Arec recovers his Hesitation token
 
 Beat 5
 -------
@@ -238,61 +245,67 @@ Beat 5
 Arec
 ----
 Life: 20
-Discard 1: Manipulative Grasp
-Discard 2: Phantom Burst
+Discard 1: Phantom Strike
+Discard 2: Mirrored Grasp
 Special action available
-pool: Fear, Mercy, Recklessness
+pool: Mercy, Recklessness, Hesitation
 
 Seth
 ----
 Life: 17
-Discard 1: Fool's Grasp
-Discard 2: Compelling Strike
+Discard 1: Vanishing Grasp
+Discard 2: Mimic's Omen
 Special action available
 
 
 A.....S
 
 
-Unbeatable strategy for Seth: Vanishing Drive (Hex): -0.27
-Unbeatable strategy for Seth: Vanishing Drive (Strike): -0.27
-Unbeatable strategy for Seth: Vanishing Drive (Shot): -0.27
-Unbeatable strategy for Seth: Vanishing Drive (Dash): -0.27
-
 
 Arec:
-15% Perceptional Hex
-29% Perceptional Strike
-10% Mirrored Strike
-4% Mirrored Shot
-41% Mirrored Drive
+35% Perceptional Hex
+44% Returning Hex
+2% Returning Hex (Hesitation)
+0% Returning Drive (Hesitation)
+19% Manipulative Hex (Hesitation)
 
 Seth:
-8% Vanishing Shot (Dash)
-17% Vanishing Drive (Hex)
-24% Vanishing Drive (Strike)
-39% Vanishing Drive (Dash)
-12% Wyrding Omen (Hex)
+27% Compelling Strike (Drive)
+2% Compelling Strike (Dash)
+7% Compelling Shot (Hex)
+8% Compelling Drive (Drive)
+7% Compelling Drive (Dash)
+10% Special Pulse (Hex)
+10% Special Pulse (Shot)
+10% Special Pulse (Drive)
+10% Special Pulse (Burst)
+10% Special Pulse (Dash)
 
 
-Arec: Perceptional Strike
-Seth: Vanishing Drive (Hex)
+Arec: Returning Hex
+Seth: Compelling Drive (Dash)
 
 Priorities:  4 | 4
-Clash!
+Arec is active
+Arec hits
+Arec recovers his Fear token
+Seth takes 3 damage (now at 14 life)
+Seth moves Arec:
+
+.A....S
 
 
-Arec: Perceptional Shot
-Seth: Vanishing Dash (Hex)
-
-Priorities:  3 | 9
-Seth is active
 Seth moves:
 
-A...S..
+.A..S..
 
 
-Arec misses
+Seth misses
+Seth moves Arec:
+
+..A.S..
+
+
 
 Beat 6
 -------
@@ -300,57 +313,63 @@ Beat 6
 Arec
 ----
 Life: 20
-Discard 1: Perceptional Shot
-Discard 2: Manipulative Grasp
+Discard 1: Returning Hex
+Discard 2: Phantom Strike
 Special action available
-pool: Fear, Mercy, Recklessness
+pool: Mercy, Recklessness, Hesitation, Fear
 
 Seth
 ----
-Life: 17
-Discard 1: Vanishing Dash
-Discard 2: Fool's Grasp
+Life: 14
+Discard 1: Compelling Drive
+Discard 2: Vanishing Grasp
 Special action available
 
 
-A...S..
+..A.S..
 
 
 
 Arec:
-4% Returning Hex (Fear)
-47% Returning Hex (Recklessness)
-27% Returning Drive
-7% Returning Burst
-6% Mirrored Hex (Fear)
-9% Mirrored Burst (Recklessness)
+2% Perceptional Shot (Recklessness)
+12% Perceptional Drive
+13% Perceptional Drive (Recklessness)
+14% Mirrored Shot (Hesitation)
+2% Mirrored Drive (Hesitation)
+15% Mirrored Burst (Hesitation)
+17% Mirrored Grasp (Hesitation)
+25% Mirrored Grasp (Fear)
 
 Seth:
-53% Mimic's Omen (Hex)
-7% Mimic's Shot (Hex)
-1% Compelling Shot (Hex)
-7% Compelling Shot (Burst)
-26% Compelling Drive (Hex)
-6% Compelling Burst (Drive)
+18% Mimic's Burst (Shot)
+4% Mimic's Burst (Burst)
+8% Wyrding Shot (Shot)
+7% Wyrding Shot (Drive)
+7% Wyrding Shot (Grasp)
+21% Wyrding Dash (Drive)
+6% Wyrding Dash (Burst)
+28% Wyrding Dash (Grasp)
 
 
-Arec: Returning Hex (Fear)
-Seth: Mimic's Omen (Hex)
+Arec: Mirrored Burst (Hesitation)
+Seth: Wyrding Dash (Grasp)
 
-Arec antes a Fear token
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  4 | 3
-Arec is active
+Arec antes a Hesitation token
+Priorities:  1 | 10
+Seth is active
+Arec moves:
+
+A...S..
+
+
 Arec hits
-Arec moves Seth:
+Seth takes 4 damage (now at 10 life)
+Seth is stunned
+Arec places clone:
 
-A....S.
+A...S..
+.c.....
 
-
-Arec recovers his Hesitation token
-Seth takes 3 damage (now at 14 life)
-Seth misses
 
 Beat 7
 -------
@@ -358,56 +377,56 @@ Beat 7
 Arec
 ----
 Life: 20
-Discard 1: Returning Hex
-Discard 2: Perceptional Shot
+Discard 1: Mirrored Burst
+Discard 2: Returning Hex
 Special action available
-pool: Mercy, Recklessness, Hesitation
+pool: Mercy, Recklessness, Fear
 
 Seth
 ----
-Life: 14
-Discard 1: Mimic's Omen
-Discard 2: Vanishing Dash
+Life: 10
+Discard 1: Wyrding Dash
+Discard 2: Compelling Drive
 Special action available
 
 
-A....S.
-
-
-Unbeatable strategy for Seth: Fool's Drive (Strike): -0.15
-Unbeatable strategy for Seth: Fool's Drive (Drive): -0.15
-Unbeatable strategy for Seth: Fool's Drive (Grasp): -0.15
-Unbeatable strategy for Seth: Fool's Drive (Dash): -0.15
+A...S..
+.c.....
 
 
 Arec:
-20% Phantom Strike
-76% Phantom Strike (Hesitation)
-2% Phantom Burst
-1% Phantom Burst (Hesitation)
-1% Mirrored Drive
+3% Phantom Strike (Fear; move to clone)
+5% Perceptional Strike (move to clone)
+5% Perceptional Shot (Recklessness; move to clone)
+46% Perceptional Drive (move to clone)
+35% Perceptional Drive (Recklessness; move to clone)
+1% Manipulative Shot (Recklessness; move to clone)
+4% Manipulative Shot (Fear; move to clone)
 
 Seth:
-3% Fool's Grasp (Strike)
-3% Fool's Grasp (Drive)
-76% Fool's Grasp (Burst)
-3% Fool's Grasp (Grasp)
-3% Fool's Grasp (Dash)
-1% Compelling Shot (Strike)
-6% Compelling Shot (Drive)
-6% Compelling Shot (Burst)
-1% Compelling Drive (Burst)
+31% Fool's Omen (Drive)
+30% Mimic's Grasp (Strike)
+1% Vanishing Omen (Drive)
+1% Vanishing Strike (Strike)
+2% Vanishing Strike (Shot)
+6% Vanishing Shot (Strike)
+29% Vanishing Shot (Shot)
 
 
-Arec: Phantom Strike (Hesitation)
-Seth: Fool's Grasp (Burst)
+Arec: Perceptional Strike (move to clone)
+Seth: Vanishing Omen (Drive)
 
-Arec antes a Hesitation token
+Arec moves:
+
+.A..S..
+
+
 Priorities:  4 | 1
 Arec is active
-Arec misses
-Seth misses
-Arec recovers his Fear token
+Arec antes a Fear token
+Arec hits
+Seth takes 4 damage (now at 6 life)
+Seth is stunned
 
 Beat 8
 -------
@@ -415,483 +434,96 @@ Beat 8
 Arec
 ----
 Life: 20
-Discard 1: Phantom Strike
-Discard 2: Returning Hex
+Discard 1: Perceptional Strike
+Discard 2: Mirrored Burst
 Special action available
-pool: Mercy, Recklessness, Fear
+pool: Mercy, Recklessness
 
 Seth
 ----
-Life: 14
-Discard 1: Fool's Grasp
-Discard 2: Mimic's Omen
+Life: 6
+Discard 1: Vanishing Omen
+Discard 2: Wyrding Dash
 Special action available
 
 
-A....S.
+.A..S..
 
-
-Unbeatable strategy for Seth: Compelling Dash (Shot): -0.00
-Unbeatable strategy for Seth: Compelling Dash (Drive): -0.00
-Unbeatable strategy for Seth: Compelling Dash (Burst): -0.00
-Unbeatable strategy for Seth: Compelling Dash (Grasp): -0.00
-Unbeatable strategy for Seth: Compelling Dash (Dash): -0.00
 
 
 Arec:
-30% Perceptional Drive
-10% Mirrored Shot
-27% Mirrored Drive
-4% Mirrored Drive (Recklessness)
-26% Mirrored Burst
-2% Manipulative Shot
+34% Phantom Drive (Recklessness)
+18% Returning Hex
+39% Returning Hex (Recklessness)
+9% Returning Shot
 
 Seth:
-11% Vanishing Shot (Shot)
-8% Vanishing Shot (Drive)
-1% Vanishing Shot (Burst)
-5% Compelling Shot (Drive)
-11% Compelling Drive (Drive)
-25% Compelling Dash (Shot)
-12% Compelling Dash (Drive)
-7% Compelling Dash (Burst)
-7% Compelling Dash (Grasp)
-13% Compelling Dash (Dash)
+3% Mimic's Shot (Shot)
+31% Mimic's Shot (Drive)
+17% Mimic's Shot (Grasp)
+3% Mimic's Shot (Dash)
+12% Compelling Shot (Hex)
+5% Compelling Drive (Hex)
+29% Compelling Drive (Shot)
 
 
-Arec: Mirrored Burst
-Seth: Compelling Dash (Grasp)
+Arec: Returning Hex
+Seth: Mimic's Shot (Drive)
 
-Priorities:  1 | 9
-Seth is active
-Seth moves Arec:
+Priorities:  4 | 2
+Arec is active
+Arec hits
+Arec moves Seth:
 
 .A...S.
 
 
-Seth moves Arec:
-
-..A..S.
-
-
-Seth moves:
-
-..AS...
-
-
-Arec misses
-Arec places clone:
-
-..AS...
-c......
-
+Arec recovers his Hesitation token
+Seth takes 3 damage (now at 3 life)
+Seth hits
+Arec takes 4 damage (now at 16 life)
+Arec is stunned
 
 Beat 9
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Mirrored Burst
-Discard 2: Phantom Strike
+Life: 16
+Discard 1: Returning Hex
+Discard 2: Perceptional Strike
 Special action available
-pool: Mercy, Recklessness, Fear
+pool: Mercy, Recklessness, Hesitation
 
 Seth
 ----
-Life: 14
-Discard 1: Compelling Dash
-Discard 2: Fool's Grasp
-Special action available
-
-
-..AS...
-c......
-
-
-Arec:
-6% Perceptional Drive (Recklessness; move to clone)
-4% Perceptional Grasp (move to clone)
-42% Perceptional Grasp (Recklessness; move to clone)
-14% Returning Shot (move to clone)
-22% Returning Drive (Recklessness)
-4% Returning Drive (Recklessness; move to clone)
-4% Manipulative Grasp (Recklessness)
-5% Manipulative Grasp (Fear)
-
-Seth:
-3% Mimic's Strike (Grasp)
-25% Mimic's Shot (Grasp)
-12% Vanishing Omen (Drive)
-5% Wyrding Shot (Shot)
-9% Wyrding Shot (Drive)
-11% Wyrding Shot (Grasp)
-29% Wyrding Drive (Drive)
-6% Wyrding Drive (Grasp)
-
-
-Arec: Returning Drive (Recklessness)
-Seth: Mimic's Shot (Grasp)
-
-Arec antes a Recklessness token
-Priorities:  5 | 2
-Arec is active
-Arec moves:
-
-...SA..
-
-
-Seth mimics Arec's movement:
-
-....AS.
-
-
-Arec hits
-Seth takes 3 damage (now at 11 life)
-Seth is stunned
-
-Beat 10
--------
-
-Arec
-----
-Life: 20
-Discard 1: Returning Drive
-Discard 2: Mirrored Burst
-Special action available
-pool: Mercy, Fear
-
-Seth
-----
-Life: 11
+Life: 3
 Discard 1: Mimic's Shot
-Discard 2: Compelling Dash
+Discard 2: Vanishing Omen
 Special action available
 
 
-....AS.
-
-
-Unbeatable strategy for Seth: Vanishing Drive (Grasp): -0.55
-
-
-Arec:
-24% Phantom Strike
-12% Phantom Grasp
-34% Phantom Dash
-28% Perceptional Dash
-3% Manipulative Strike
-
-Seth:
-1% Vanishing Drive (Strike)
-14% Wyrding Strike (Strike)
-41% Wyrding Drive (Grasp)
-35% Wyrding Drive (Dash)
-9% Wyrding Grasp (Dash)
-
-
-Arec: Phantom Strike
-Seth: Wyrding Drive (Grasp)
-
-Priorities:  4 | 5
-Seth is active
-Seth moves:
-
-...SA..
-
-
-Seth hits
-Arec takes 3 damage (now at 17 life)
-Arec hits
-Seth takes 3 damage (now at 8 life)
-Seth is stunned
-Arec recovers his Hesitation token
-
-Beat 11
--------
-
-Arec
-----
-Life: 17
-Discard 1: Phantom Strike
-Discard 2: Returning Drive
-Special action available
-pool: Mercy, Fear, Hesitation
-
-Seth
-----
-Life: 8
-Discard 1: Wyrding Drive
-Discard 2: Mimic's Shot
-Special action available
-
-
-...SA..
-
-
-Unbeatable strategy for Arec: Perceptional Burst: 0.35
-
-
-Arec:
-11% Perceptional Hex
-58% Perceptional Burst
-6% Manipulative Shot (Fear)
-9% Manipulative Burst (Hesitation)
-16% Manipulative Grasp (Fear)
-
-Seth:
-28% Vanishing Burst (Burst)
-31% Compelling Omen (Burst)
-20% Compelling Strike (Hex)
-11% Compelling Strike (Grasp)
-10% Compelling Grasp (Grasp)
-
-
-Arec: Manipulative Shot (Fear)
-Seth: Vanishing Burst (Burst)
-
-Arec antes a Fear token
-Priorities:  2 | 1
-Arec is active
-Arec hits
-Arec chooses Seth's base: Strike
-Seth takes 4 damage (now at 4 life)
-Arec recovers his Recklessness token
-Seth is stunned
-
-Beat 12
--------
-
-Arec
-----
-Life: 17
-Discard 1: Manipulative Shot
-Discard 2: Phantom Strike
-Special action available
-pool: Mercy, Hesitation, Recklessness
-Manipulative forced base: Strike
-
-Seth
-----
-Life: 4
-Discard 1: Vanishing Burst
-Discard 2: Wyrding Drive
-Special action available
-
-
-...SA..
+.A...S.
 
 
 
 Arec:
-53% Perceptional Hex (Recklessness)
-1% Returning Drive
-43% Returning Grasp (Hesitation)
-0% Mirrored Drive
-3% Mirrored Drive (Recklessness)
+52% Mirrored Shot (Hesitation)
+19% Mirrored Drive
+29% Mirrored Burst
 
 Seth:
-25% Mimic's Omen (Hex)
-15% Mimic's Omen (Grasp)
-9% Mimic's Strike (Hex)
-5% Mimic's Strike (Burst)
-5% Mimic's Strike (Grasp)
-5% Mimic's Strike (Dash)
-17% Compelling Strike (Hex)
-3% Compelling Strike (Drive)
-6% Compelling Strike (Burst)
-6% Compelling Strike (Grasp)
-6% Compelling Strike (Dash)
-
-
-Arec: Perceptional Hex (Recklessness)
-Seth: Compelling Strike (Hex)
-
-Arec antes a Recklessness token
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  4 | 3
-Arec is active
-Arec antes a Hesitation token
-Arec hits
-Arec moves Seth:
-
-..S.A..
-
-
-Arec recovers his Fear token
-Seth takes 3 damage (now at 1 life)
-Seth misses
-
-Beat 13
--------
-
-Arec
-----
-Life: 17
-Discard 1: Perceptional Hex
-Discard 2: Manipulative Shot
-Special action available
-pool: Mercy, Fear
-
-Seth
-----
-Life: 1
-Discard 1: Compelling Strike
-Discard 2: Vanishing Burst
-Special action available
-
-
-..S.A..
-
-
-
-Arec:
-37% Phantom Strike
-16% Phantom Drive
-22% Phantom Grasp
-8% Phantom Dash (Fear)
-8% Returning Drive
-9% Mirrored Drive
-
-Seth:
-6% Mimic's Drive (Strike)
-5% Mimic's Drive (Drive)
-5% Mimic's Drive (Grasp)
-4% Wyrding Dash (Drive)
-24% Wyrding Dash (Grasp)
-55% Wyrding Dash (Dash)
+4% Wyrding Burst (Burst)
+7% Compelling Drive (Drive)
+18% Special Pulse (Shot)
+18% Special Pulse (Drive)
+18% Special Pulse (Burst)
+18% Special Pulse (Grasp)
+18% Special Pulse (Dash)
 
 
 Arec: Mirrored Drive
-Seth: Wyrding Dash (Grasp)
-
-Priorities:  4 | 10
-Seth is active
-Seth moves:
-
-....AS.
-
-
-Arec moves:
-
-.....SA
-
-
-Arec misses
-Arec places clone:
-
-.....SA
-c......
-
-
-Beat 14
--------
-
-Arec
-----
-Life: 17
-Discard 1: Mirrored Drive
-Discard 2: Perceptional Hex
-Special action available
-pool: Mercy, Fear
-
-Seth
-----
-Life: 1
-Discard 1: Wyrding Dash
-Discard 2: Compelling Strike
-Special action available
-
-
-.....SA
-c......
-
-
-Arec:
-22% Phantom Strike (Fear)
-20% Phantom Shot (move to clone)
-9% Phantom Burst (move to clone)
-4% Phantom Grasp (Fear)
-0% Returning Strike (Fear)
-20% Returning Shot (move to clone)
-5% Returning Grasp
-20% Returning Grasp (Fear)
-
-Seth:
-9% Fool's Burst (Grasp)
-0% Mimic's Shot (Strike)
-22% Mimic's Drive (Strike)
-0% Mimic's Drive (Grasp)
-24% Mimic's Grasp (Grasp)
-4% Vanishing Shot (Shot)
-18% Vanishing Shot (Burst)
-24% Vanishing Burst (Shot)
-
-
-Arec: Phantom Strike (Fear)
-Seth: Mimic's Drive (Strike)
-
-Arec antes a Fear token
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  4 | 6
-Seth is active
-Seth hits
-Arec takes 6 damage (now at 11 life)
-Arec is stunned
-
-Beat 15
--------
-
-Arec
-----
-Life: 11
-Discard 1: Phantom Strike
-Discard 2: Mirrored Drive
-Special action available
-pool: Mercy
-
-Seth
-----
-Life: 1
-Discard 1: Mimic's Drive
-Discard 2: Wyrding Dash
-Special action available
-
-
-.....SA
-
-
-Unbeatable strategy for Arec: Perceptional Hex: 6.00
-Unbeatable strategy for Arec: Perceptional Hex (Mercy): 6.00
-Unbeatable strategy for Arec: Perceptional Grasp: 6.00
-Unbeatable strategy for Arec: Perceptional Grasp (Mercy): 6.00
-Unbeatable strategy for Arec: Perceptional Dash: 6.00
-Unbeatable strategy for Arec: Perceptional Dash (Mercy): 6.00
-Unbeatable strategy for Arec: Returning Burst: 6.00
-Unbeatable strategy for Arec: Returning Burst (Mercy): 6.00
-Unbeatable strategy for Arec: Returning Grasp: 6.00
-Unbeatable strategy for Arec: Returning Grasp (Mercy): 6.00
-Unbeatable strategy for Arec: Returning Dash: 6.00
-Unbeatable strategy for Arec: Returning Dash (Mercy): 6.00
-Unbeatable strategy for Arec: Manipulative Dash: 6.00
-Unbeatable strategy for Arec: Manipulative Dash (Mercy): 6.00
-
-
-Arec:
-100% Perceptional Burst
-
-Seth:
-20% Special Pulse (Hex)
-20% Special Pulse (Shot)
-20% Special Pulse (Burst)
-20% Special Pulse (Grasp)
-20% Special Pulse (Dash)
-
-
-Arec: Perceptional Burst
-Seth: Special Pulse (Grasp)
+Seth: Special Pulse (Burst)
 
 Seth Pulses:
 
@@ -899,176 +531,514 @@ Seth Pulses:
 
 
 
-Beat 15
+Beat 9
 -------
 
 Arec
 ----
-Life: 11
-Discard 1: Perceptional Burst
-Discard 2: Phantom Strike
+Life: 16
+Discard 1: Mirrored Drive
+Discard 2: Returning Hex
 Special action available
-pool: Mercy
+pool: Mercy, Recklessness, Hesitation
 
 Seth
 ----
-Life: 1
-Discard 1: Mimic's Drive
-Discard 2: Wyrding Dash
+Life: 3
+Discard 1: Mimic's Shot
+Discard 2: Vanishing Omen
 
 
 .AS....
 
 
-Unbeatable strategy for Arec: Returning Grasp: 6.00
-Unbeatable strategy for Arec: Returning Grasp (Mercy): 6.00
-Unbeatable strategy for Arec: Returning Dash: 6.00
-Unbeatable strategy for Arec: Returning Dash (Mercy): 6.00
-Unbeatable strategy for Arec: Mirrored Drive: 6.00
-Unbeatable strategy for Arec: Mirrored Drive (Mercy): 6.00
-Unbeatable strategy for Arec: Mirrored Dash: 6.00
-Unbeatable strategy for Arec: Mirrored Dash (Mercy): 6.00
-Unbeatable strategy for Arec: Manipulative Drive: 6.00
-Unbeatable strategy for Arec: Manipulative Drive (Mercy): 6.00
-Unbeatable strategy for Arec: Manipulative Dash: 6.00
-Unbeatable strategy for Arec: Manipulative Dash (Mercy): 6.00
+
+Arec:
+35% Phantom Strike (Recklessness)
+5% Perceptional Shot
+25% Perceptional Burst
+3% Perceptional Burst (Recklessness)
+5% Manipulative Strike (Recklessness)
+7% Manipulative Strike (Hesitation)
+9% Manipulative Burst (Hesitation)
+6% Manipulative Grasp (Recklessness)
+3% Manipulative Grasp (Hesitation)
+
+Seth:
+19% Fool's Burst (Burst)
+22% Wyrding Strike (Burst)
+10% Wyrding Strike (Grasp)
+3% Wyrding Burst (Shot)
+12% Wyrding Burst (Burst)
+22% Wyrding Dash (Strike)
+2% Wyrding Dash (Burst)
+8% Compelling Drive (Grasp)
+2% Compelling Burst (Burst)
+
+
+Arec: Manipulative Strike (Hesitation)
+Seth: Fool's Burst (Burst)
+
+Arec antes a Hesitation token
+Priorities:  3 | -3
+Arec is active
+Seth moves:
+
+.A.S...
+
+
+Arec misses
+Seth hits
+Arec takes 2 damage (now at 14 life)
+
+Beat 10
+-------
+
+Arec
+----
+Life: 14
+Discard 1: Manipulative Strike
+Discard 2: Mirrored Drive
+Special action available
+pool: Mercy, Recklessness
+
+Seth
+----
+Life: 3
+Discard 1: Fool's Burst
+Discard 2: Mimic's Shot
+
+
+.A.S...
+
 
 
 Arec:
-3% Returning Hex
-3% Returning Hex (Mercy)
-3% Returning Shot
-3% Returning Shot (Mercy)
-3% Returning Drive
-3% Returning Drive (Mercy)
-3% Returning Grasp
-3% Returning Grasp (Mercy)
-3% Returning Dash
-3% Returning Dash (Mercy)
+5% Phantom Shot
+2% Phantom Burst
+2% Phantom Grasp
+55% Phantom Grasp (Recklessness)
+4% Perceptional Hex
+4% Perceptional Shot
+12% Perceptional Burst
+17% Returning Dash
+
+Seth:
+3% Wyrding Drive (Shot)
+5% Wyrding Drive (Burst)
+5% Wyrding Drive (Grasp)
+1% Wyrding Grasp (Burst)
+3% Wyrding Dash (Dash)
+10% Compelling Omen (Grasp)
+16% Compelling Drive (Hex)
+0% Compelling Drive (Grasp)
+13% Compelling Dash (Hex)
+13% Compelling Dash (Shot)
+13% Compelling Dash (Burst)
+13% Compelling Dash (Grasp)
+2% Compelling Dash (Dash)
+
+
+Arec: Phantom Grasp (Recklessness)
+Seth: Compelling Omen (Grasp)
+
+Arec antes a Recklessness token
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  6 | 1
+Arec is active
+Arec is stunned
+Seth moves Arec:
+
+..AS...
+
+
+Seth hits
+Arec takes 3 damage (now at 11 life)
+Arec is stunned
+Seth moves Arec:
+
+...SA..
+
+
+Arec recovers his Hesitation token
+
+Beat 11
+-------
+
+Arec
+----
+Life: 11
+Discard 1: Phantom Grasp
+Discard 2: Manipulative Strike
+Special action available
+pool: Mercy, Hesitation
+
+Seth
+----
+Life: 3
+Discard 1: Compelling Omen
+Discard 2: Fool's Burst
+
+
+...SA..
+
+
+Unbeatable strategy for Seth: Mimic's Grasp (Drive): -0.85
+
+
+Arec:
+1% Returning Drive
+4% Mirrored Burst (Mercy)
+4% Mirrored Dash (Mercy)
+91% Special Pulse
+
+Seth:
+1% Mimic's Strike (Burst)
+7% Mimic's Strike (Dash)
+73% Mimic's Grasp (Drive)
+20% Mimic's Grasp (Burst)
+
+
+Arec: Special Pulse
+Seth: Mimic's Grasp (Drive)
+
+Arec Pulses:
+
+A.....S
+
+
+
+Beat 11
+-------
+
+Arec
+----
+Life: 11
+Discard 1: Phantom Grasp
+Discard 2: Manipulative Strike
+pool: Mercy, Hesitation
+
+Seth
+----
+Life: 3
+Discard 1: Mimic's Grasp
+Discard 2: Compelling Omen
+
+
+A.....S
+
+
+Unbeatable strategy for Seth: Vanishing Strike (Hex): -0.21
+Unbeatable strategy for Seth: Vanishing Strike (Shot): -0.21
+Unbeatable strategy for Seth: Vanishing Strike (Drive): -0.21
+Unbeatable strategy for Seth: Vanishing Strike (Burst): -0.21
+Unbeatable strategy for Seth: Vanishing Strike (Dash): -0.21
+Unbeatable strategy for Seth: Vanishing Drive (Hex): -0.54
+Unbeatable strategy for Seth: Vanishing Drive (Shot): -0.54
+Unbeatable strategy for Seth: Vanishing Drive (Burst): -0.54
+Unbeatable strategy for Seth: Vanishing Drive (Dash): -0.54
+
+
+Arec:
+8% Returning Hex
+29% Returning Burst
+63% Returning Burst (Hesitation)
+
+Seth:
+1% Fool's Strike (Hex)
+1% Fool's Strike (Shot)
+1% Fool's Strike (Drive)
+1% Fool's Strike (Burst)
+1% Fool's Strike (Dash)
+10% Vanishing Strike (Hex)
+7% Vanishing Strike (Shot)
+3% Vanishing Strike (Drive)
+7% Vanishing Strike (Burst)
+7% Vanishing Strike (Dash)
+24% Vanishing Drive (Hex)
+9% Vanishing Drive (Shot)
+1% Vanishing Drive (Drive)
+7% Vanishing Drive (Burst)
+20% Vanishing Drive (Dash)
+
+
+Arec: Returning Burst (Hesitation)
+Seth: Vanishing Drive (Dash)
+
+Arec antes a Hesitation token
+Priorities:  2 | 4
+Seth is active
+Seth misses
+Arec misses
+
+Beat 12
+-------
+
+Arec
+----
+Life: 11
+Discard 1: Returning Burst
+Discard 2: Phantom Grasp
+pool: Mercy
+
+Seth
+----
+Life: 3
+Discard 1: Vanishing Drive
+Discard 2: Mimic's Grasp
+
+
+A.....S
+
+
+
+Arec:
+18% Mirrored Shot
+21% Manipulative Hex
+61% Manipulative Strike
+
+Seth:
+84% Fool's Omen (Hex)
+10% Compelling Omen (Hex)
+1% Compelling Dash (Hex)
+1% Compelling Dash (Strike)
+1% Compelling Dash (Shot)
+1% Compelling Dash (Drive)
+1% Compelling Dash (Dash)
+
+
+Arec: Mirrored Shot
+Seth: Fool's Omen (Hex)
+
+Priorities:  2 | -3
+Arec is active
+Arec misses
+Seth misses
+Arec places clone:
+
+A.....S
+.c.....
+
+
+Beat 13
+-------
+
+Arec
+----
+Life: 11
+Discard 1: Mirrored Shot
+Discard 2: Returning Burst
+pool: Mercy
+
+Seth
+----
+Life: 3
+Discard 1: Fool's Omen
+Discard 2: Vanishing Drive
+
+
+A.....S
+.c.....
+
+
+Arec:
+19% Perceptional Hex
+28% Perceptional Hex (move to clone)
+5% Perceptional Drive (move to clone)
+45% Manipulative Hex
+3% Manipulative Strike
+
+Seth:
+23% Wyrding Strike (Drive)
+26% Wyrding Strike (Dash)
+47% Wyrding Shot (Drive)
+1% Compelling Strike (Strike)
+2% Compelling Shot (Hex)
+
+
+Arec: Perceptional Drive (move to clone)
+Seth: Wyrding Strike (Drive)
+
+Arec moves:
+
+.A....S
+
+
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  5 | 6
+Seth is active
+Seth selects Dash as his new base
+Seth moves:
+
+.A.S...
+
+
+Arec moves:
+
+..AS...
+
+
+Arec misses
+
+Beat 14
+-------
+
+Arec
+----
+Life: 11
+Discard 1: Perceptional Drive
+Discard 2: Mirrored Shot
+pool: Mercy
+
+Seth
+----
+Life: 3
+Discard 1: Wyrding Strike Dash
+Discard 2: Fool's Omen
+
+
+..AS...
+
+
+
+Arec:
+10% Phantom Strike
+0% Phantom Grasp
+27% Phantom Dash
+11% Returning Hex
+8% Returning Strike
+27% Returning Burst
+8% Returning Grasp
+9% Manipulative Grasp
+
+Seth:
+3% Mimic's Shot (Strike)
+11% Mimic's Drive (Strike)
+3% Mimic's Drive (Grasp)
+10% Mimic's Grasp (Burst)
+3% Mimic's Grasp (Grasp)
+8% Mimic's Grasp (Dash)
+46% Vanishing Burst (Strike)
+17% Vanishing Burst (Grasp)
+
+
+Arec: Returning Burst
+Seth: Mimic's Shot (Strike)
+
+Priorities:  2 | 2
+Arec is active
+Arec moves:
+
+A..S...
+
+
+Seth mimics Arec's movement:
+
+AS.....
+
+
+Arec misses
+Seth hits
+Arec takes 4 damage (now at 7 life)
+Arec is stunned
+
+Beat 15
+-------
+
+Arec
+----
+Life: 7
+Discard 1: Returning Burst
+Discard 2: Perceptional Drive
+pool: Mercy
+
+Seth
+----
+Life: 3
+Discard 1: Mimic's Shot
+Discard 2: Wyrding Strike Dash
+
+
+AS.....
+
+
+
+Arec:
+3% Phantom Hex
+3% Phantom Hex (Mercy)
+3% Phantom Strike
+3% Phantom Strike (Mercy)
+3% Phantom Shot
+3% Phantom Shot (Mercy)
+3% Phantom Grasp
+3% Phantom Grasp (Mercy)
+3% Phantom Dash
+3% Phantom Dash (Mercy)
 3% Mirrored Hex
 3% Mirrored Hex (Mercy)
-3% Mirrored Shot
-3% Mirrored Shot (Mercy)
-3% Mirrored Drive
-3% Mirrored Drive (Mercy)
+3% Mirrored Strike
+3% Mirrored Strike (Mercy)
+4% Mirrored Shot
+4% Mirrored Shot (Mercy)
 3% Mirrored Grasp
 3% Mirrored Grasp (Mercy)
 3% Mirrored Dash
 3% Mirrored Dash (Mercy)
 3% Manipulative Hex
 3% Manipulative Hex (Mercy)
+3% Manipulative Strike
+4% Manipulative Strike (Mercy)
 3% Manipulative Shot
 3% Manipulative Shot (Mercy)
-3% Manipulative Drive
-3% Manipulative Drive (Mercy)
-3% Manipulative Grasp
-3% Manipulative Grasp (Mercy)
+4% Manipulative Grasp
+4% Manipulative Grasp (Mercy)
 3% Manipulative Dash
 3% Manipulative Dash (Mercy)
 
 Seth:
-1% Fool's Omen (Hex)
-1% Fool's Omen (Shot)
-1% Fool's Omen (Drive)
-2% Fool's Omen (Grasp)
-1% Fool's Omen (Dash)
-2% Fool's Strike (Hex)
-2% Fool's Strike (Shot)
-1% Fool's Strike (Drive)
-1% Fool's Strike (Grasp)
-1% Fool's Strike (Dash)
-1% Fool's Shot (Hex)
-1% Fool's Shot (Shot)
-1% Fool's Shot (Drive)
-1% Fool's Shot (Grasp)
-1% Fool's Shot (Dash)
-1% Fool's Burst (Hex)
-1% Fool's Burst (Shot)
-1% Fool's Burst (Drive)
-1% Fool's Burst (Grasp)
-1% Fool's Burst (Dash)
-2% Fool's Grasp (Hex)
-1% Fool's Grasp (Shot)
-2% Fool's Grasp (Drive)
-2% Fool's Grasp (Grasp)
-2% Fool's Grasp (Dash)
-1% Vanishing Omen (Hex)
-1% Vanishing Omen (Shot)
-1% Vanishing Omen (Drive)
-1% Vanishing Omen (Grasp)
-1% Vanishing Omen (Dash)
-1% Vanishing Strike (Hex)
-1% Vanishing Strike (Shot)
-1% Vanishing Strike (Drive)
-1% Vanishing Strike (Grasp)
-1% Vanishing Strike (Dash)
-1% Vanishing Shot (Hex)
-1% Vanishing Shot (Shot)
-1% Vanishing Shot (Drive)
-1% Vanishing Shot (Grasp)
-1% Vanishing Shot (Dash)
-1% Vanishing Burst (Hex)
-1% Vanishing Burst (Shot)
-1% Vanishing Burst (Drive)
-1% Vanishing Burst (Grasp)
-1% Vanishing Burst (Dash)
-1% Vanishing Grasp (Hex)
-1% Vanishing Grasp (Shot)
-1% Vanishing Grasp (Drive)
-1% Vanishing Grasp (Grasp)
-1% Vanishing Grasp (Dash)
-1% Compelling Omen (Hex)
-1% Compelling Omen (Shot)
-1% Compelling Omen (Drive)
-1% Compelling Omen (Grasp)
-1% Compelling Omen (Dash)
-1% Compelling Strike (Hex)
-1% Compelling Strike (Shot)
-1% Compelling Strike (Drive)
-1% Compelling Strike (Grasp)
-1% Compelling Strike (Dash)
-1% Compelling Shot (Hex)
-1% Compelling Shot (Shot)
-1% Compelling Shot (Drive)
-1% Compelling Shot (Grasp)
-1% Compelling Shot (Dash)
-1% Compelling Burst (Hex)
-1% Compelling Burst (Shot)
-1% Compelling Burst (Drive)
-1% Compelling Burst (Grasp)
-1% Compelling Burst (Dash)
-1% Compelling Grasp (Hex)
-1% Compelling Grasp (Shot)
-1% Compelling Grasp (Drive)
-1% Compelling Grasp (Grasp)
-1% Compelling Grasp (Dash)
+7% Vanishing Burst (Hex)
+10% Vanishing Burst (Strike)
+7% Vanishing Burst (Shot)
+7% Vanishing Burst (Grasp)
+7% Compelling Omen (Hex)
+10% Compelling Omen (Strike)
+7% Compelling Omen (Shot)
+7% Compelling Omen (Grasp)
+20% Compelling Omen (Dash)
+7% Compelling Drive (Hex)
+6% Compelling Drive (Shot)
+7% Compelling Drive (Grasp)
 
 
-Arec: Manipulative Dash
-Seth: Compelling Shot (Dash)
+Arec: Mirrored Dash (Mercy)
+Seth: Compelling Omen (Hex)
 
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  9 | 4
+Arec antes a Mercy token
+Priorities:  9 | 1
 Arec is active
 Arec moves:
 
-A.S....
+.SA....
 
 
 Seth moves Arec:
 
-.AS....
+AS.....
 
 
-Seth hits
-Arec takes 5 damage (now at 6 life)
-Arec is stunned
+Seth misses
 Seth moves Arec:
 
-A.S....
+.SA....
 
+
+Arec places clone:
+
+.SA....
+c......
 
 Game goes to time
 AREC WINS!
-total_time: 144
+total_time: 136

@@ -31,27 +31,42 @@ Special action available
 
 
 Arec:
-10% Perceptional Drive
-12% Returning Shot (Fear)
-44% Mirrored Hex (Hesitation)
-14% Mirrored Shot (Hesitation)
-16% Mirrored Drive
-4% Mirrored Burst (Fear)
+0% Perceptional Shot
+4% Perceptional Drive
+14% Returning Shot (Fear)
+23% Mirrored Hex (Hesitation)
+24% Mirrored Shot (Hesitation)
+34% Mirrored Drive
+1% Mirrored Burst (Fear)
 
 Marmelee:
-10% Magnificent Drive
-16% Sorceress Strike
-42% Nullifying Meditation
-17% Nullifying Strike
-4% Nullifying Shot
-12% Nullifying Dash
+4% Magnificent Drive
+15% Magnificent Dash
+25% Sorceress Meditation
+32% Nullifying Meditation
+3% Nullifying Strike
+11% Nullifying Shot
+10% Nullifying Dash
 
 
-Arec: Mirrored Hex (Hesitation)
+Arec: Mirrored Drive
 Marmelee: Nullifying Meditation
 
-Arec antes a Hesitation token
-Priorities:  3 | 4
+Priorities:  4 | 4
+Clash!
+
+
+Arec: Mirrored Hex
+Marmelee: Nullifying Shot
+
+Priorities:  3 | 3
+Clash!
+
+
+Arec: Mirrored Shot
+Marmelee: Nullifying Strike
+
+Priorities:  2 | 4
 Marmelee is active
 Marmelee moves:
 
@@ -60,16 +75,10 @@ Marmelee moves:
 
 Marmelee misses
 Arec hits
-Arec moves Marmelee:
-
-.A...M.
-
-
 Marmelee takes 4 damage (now at 16 life)
-Marmelee gains 1 Concentration Counter
 Arec places clone:
 
-.A...M.
+.A....M
 c......
 
 Marmelee gains 1 Concentration Counter
@@ -80,60 +89,61 @@ Beat 2
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Hex
+Discard 1: Mirrored Shot
 Discard 2: Phantom Strike
 Special action available
-pool: Fear, Mercy, Recklessness
+pool: Fear, Hesitation, Mercy, Recklessness
 
 Marmelee
 --------
 Life: 16
-Discard 1: Nullifying Meditation
+Discard 1: Nullifying Strike
 Discard 2: Petrifying Burst
 Special action available
-4 Concentration counters
+3 Concentration counters
 
 
-.A...M.
+.A....M
 c......
 
-Unbeatable strategy for Arec: Returning Shot (Mercy): 0.40
-Unbeatable strategy for Arec: Returning Shot (Recklessness): 0.20
+Unbeatable strategy for Arec: Returning Hex (move to clone): 0.65
+Unbeatable strategy for Arec: Returning Hex (Fear; move to clone): 0.45
+Unbeatable strategy for Arec: Returning Hex (Hesitation; move to clone): 0.23
+Unbeatable strategy for Arec: Returning Hex (Recklessness; move to clone): 0.35
 
 
 Arec:
-8% Perceptional Shot (move to clone)
-6% Returning Shot
-60% Returning Shot (Mercy)
-15% Returning Shot (move to clone)
-11% Returning Dash
+46% Perceptional Drive
+3% Perceptional Burst (Fear)
+32% Perceptional Burst (Hesitation)
+19% Manipulative Hex (move to clone)
 
 Marmelee:
-5% Magnificent Drive
-43% Magnificent Dash
-33% Sorceress Strike
-9% Barrier Strike
-10% Barrier Drive
+5% Magnificent Meditation
+44% Magnificent Grasp
+4% Sorceress Meditation
+46% Barrier Meditation
 
 
-Arec: Returning Shot (Mercy)
-Marmelee: Magnificent Dash
+Arec: Manipulative Hex (move to clone)
+Marmelee: Magnificent Grasp
 
-Arec antes a Mercy token
-Priorities:  3 | 9
+Arec moves:
+
+A.....M
+
+
+Priorities:  3 | 5
 Marmelee is active
-Marmelee discards 2 Concentration Counters
-Marmelee moves:
+Marmelee misses
+Arec hits
+Arec chooses Marmelee's base: Meditation
+Arec moves Marmelee:
 
-MA.....
-
-
-Marmelee moves:
-
-.AM....
+A....M.
 
 
-Arec misses
+Marmelee takes 4 damage (now at 12 life)
 Marmelee gains 1 Concentration Counter
 
 Beat 3
@@ -142,57 +152,43 @@ Beat 3
 Arec
 ----
 Life: 20
-Discard 1: Returning Shot
-Discard 2: Mirrored Hex
+Discard 1: Manipulative Hex
+Discard 2: Mirrored Shot
 Special action available
-pool: Fear, Recklessness
+pool: Fear, Hesitation, Mercy, Recklessness
+Manipulative forced base: Meditation
 
 Marmelee
 --------
-Life: 16
-Discard 1: Magnificent Dash
-Discard 2: Nullifying Meditation
+Life: 12
+Discard 1: Magnificent Grasp
+Discard 2: Nullifying Strike
 Special action available
-3 Concentration counters
+4 Concentration counters
 
 
-.AM....
+A....M.
 
 
 
 Arec:
-6% Phantom Strike
-0% Perceptional Burst
-33% Manipulative Grasp
-61% Manipulative Grasp (Fear)
+61% Perceptional Drive
+39% Perceptional Burst
 
 Marmelee:
-4% Petrifying Strike
-31% Sorceress Strike
-27% Barrier Strike
-37% Barrier Grasp
+60% Petrifying Meditation
+40% Barrier Dash
 
 
-Arec: Manipulative Grasp (Fear)
-Marmelee: Sorceress Strike
+Arec: Perceptional Burst
+Marmelee: Barrier Dash
 
-Arec antes a Fear token
-Priorities:  5 | 2
-Arec is active
-Arec hits
-Arec chooses Marmelee's base: Drive
-Arec moves Marmelee:
-
-.A.M...
-
-
-Marmelee takes 3 damage (now at 13 life)
-Arec recovers a Hesitation token
-Marmelee discards 1 Concentration Counter
-Marmelee gains +0~2 range
-Marmelee hits
-Arec takes 4 damage (now at 16 life)
-Arec is stunned
+Marmelee loses 2 life (now at 10)
+Priorities:  2 | 9
+Marmelee is active
+Marmelee discards 4 Concentration Counters
+Arec antes a Hesitation token
+Arec misses
 Marmelee gains 1 Concentration Counter
 
 Beat 4
@@ -200,66 +196,49 @@ Beat 4
 
 Arec
 ----
-Life: 16
-Discard 1: Manipulative Grasp
-Discard 2: Returning Shot
+Life: 20
+Discard 1: Perceptional Burst
+Discard 2: Manipulative Hex
 Special action available
-pool: Recklessness, Hesitation
-Manipulative forced base: Drive
+pool: Fear, Mercy, Recklessness
 
 Marmelee
 --------
-Life: 13
-Discard 1: Sorceress Strike
-Discard 2: Magnificent Dash
+Life: 10
+Discard 1: Barrier Dash
+Discard 2: Magnificent Grasp
 Special action available
-3 Concentration counters
+1 Concentration counters
 
 
-.A.M...
+A....M.
 
+
+Unbeatable strategy for Arec: Returning Shot (Fear): 0.20
 
 
 Arec:
-21% Perceptional Drive
-10% Perceptional Burst
-6% Mirrored Hex
-12% Mirrored Hex (Hesitation)
-13% Mirrored Strike (Hesitation)
-16% Mirrored Drive (Hesitation)
-15% Mirrored Burst
-9% Mirrored Burst (Hesitation)
+72% Returning Shot (Fear)
+20% Mirrored Shot (Fear)
+8% Mirrored Drive (Fear)
 
 Marmelee:
-9% Petrifying Meditation
-15% Petrifying Shot
-5% Petrifying Drive
-17% Petrifying Burst
-17% Barrier Meditation
-2% Barrier Drive
-12% Nullifying Shot
-22% Nullifying Burst
+52% Petrifying Meditation
+29% Sorceress Meditation
+19% Nullifying Strike
 
 
-Arec: Mirrored Strike (Hesitation)
-Marmelee: Petrifying Burst
+Arec: Returning Shot (Fear)
+Marmelee: Sorceress Meditation
 
-Arec antes a Hesitation token
-Marmelee loses 2 life (now at 11)
-Priorities:  3 | 0
+Arec antes a Fear token
+Priorities:  3 | 2
 Arec is active
-Marmelee moves:
-
-.A...M.
-
-
-Arec misses
-Marmelee misses
-Arec places clone:
-
-.A...M.
-c......
-
+Arec hits
+Marmelee takes 3 damage (now at 7 life)
+Marmelee is stunned
+Marmelee loses all Concentration counters
+Marmelee gains 1 Concentration Counter
 Marmelee gains 1 Concentration Counter
 
 Beat 5
@@ -267,251 +246,17 @@ Beat 5
 
 Arec
 ----
-Life: 16
-Discard 1: Mirrored Strike
-Discard 2: Manipulative Grasp
-Special action available
-pool: Recklessness
-
-Marmelee
---------
-Life: 11
-Discard 1: Petrifying Burst
-Discard 2: Sorceress Strike
-Special action available
-4 Concentration counters
-
-
-.A...M.
-c......
-
-Unbeatable strategy for Arec: Returning Hex (move to clone): 0.83
-Unbeatable strategy for Arec: Returning Hex (Recklessness; move to clone): 0.35
-
-
-Arec:
-11% Phantom Shot (move to clone)
-28% Phantom Drive
-8% Phantom Burst (move to clone)
-39% Returning Hex (move to clone)
-15% Returning Shot (move to clone)
-
-Marmelee:
-17% Magnificent Shot
-2% Magnificent Drive
-11% Magnificent Grasp
-52% Barrier Meditation
-18% Nullifying Meditation
-
-
-Arec: Returning Hex (move to clone)
-Marmelee: Nullifying Meditation
-
-Arec moves:
-
-A....M.
-
-
-Priorities:  4 | 4
-Arec is active
-Marmelee discards 2 Concentration Counters
-Marmelee gains Soak 2
-Marmelee moves:
-
-A.....M
-
-
-Arec hits
-Arec moves Marmelee:
-
-A....M.
-
-
-Arec recovers a Hesitation token
-Marmelee has 2 soak
-Marmelee takes 1 damage (now at 10 life)
-Marmelee misses
-Marmelee gains 1 Concentration Counter
-Marmelee gains 1 Concentration Counter
-
-Beat 6
--------
-
-Arec
-----
-Life: 16
-Discard 1: Returning Hex
-Discard 2: Mirrored Strike
-Special action available
-pool: Recklessness, Hesitation
-
-Marmelee
---------
-Life: 10
-Discard 1: Nullifying Meditation
-Discard 2: Petrifying Burst
-Special action available
-4 Concentration counters
-
-
-A....M.
-
-
-
-Arec:
-17% Phantom Burst
-49% Perceptional Shot
-7% Perceptional Drive
-27% Perceptional Burst
-
-Marmelee:
-1% Sorceress Strike
-3% Sorceress Drive
-41% Barrier Strike
-55% Barrier Shot
-
-
-Arec: Perceptional Shot
-Marmelee: Barrier Strike
-
-Priorities:  3 | 3
-Clash!
-
-
-Arec: Perceptional Burst
-Marmelee: Barrier Grasp
-
-Priorities:  2 | 5
-Marmelee is active
-Marmelee discards 4 Concentration Counters
-Marmelee misses
-Arec misses
-Marmelee gains 1 Concentration Counter
-
-Beat 7
--------
-
-Arec
-----
-Life: 16
-Discard 1: Perceptional Burst
-Discard 2: Returning Hex
-Special action available
-pool: Recklessness, Hesitation
-
-Marmelee
---------
-Life: 10
-Discard 1: Barrier Grasp
-Discard 2: Nullifying Meditation
-Special action available
-1 Concentration counters
-
-
-A....M.
-
-
-
-Arec:
-58% Phantom Strike
-5% Mirrored Shot
-15% Mirrored Shot (Hesitation)
-22% Mirrored Drive
-
-Marmelee:
-13% Petrifying Burst
-8% Magnificent Drive
-72% Sorceress Strike
-7% Sorceress Burst
-
-
-Arec: Mirrored Shot (Hesitation)
-Marmelee: Magnificent Drive
-
-Arec antes a Hesitation token
-Priorities:  2 | 4
-Marmelee is active
-Marmelee misses
-Arec hits
-Marmelee takes 4 damage (now at 6 life)
-Marmelee is stunned
-Arec places clone:
-
-A....M.
-....c..
-
-Marmelee gains 1 Concentration Counter
-
-Beat 8
--------
-
-Arec
-----
-Life: 16
-Discard 1: Mirrored Shot
+Life: 20
+Discard 1: Returning Shot
 Discard 2: Perceptional Burst
 Special action available
-pool: Recklessness
+pool: Mercy, Recklessness
 
 Marmelee
 --------
-Life: 6
-Discard 1: Magnificent Drive
-Discard 2: Barrier Grasp
-Special action available
-1 Concentration counters
-
-
-A....M.
-....c..
-
-Unbeatable strategy for Arec: Phantom Grasp: 0.09
-Unbeatable strategy for Arec: Returning Hex: 2.78
-Unbeatable strategy for Arec: Returning Hex (Recklessness): 2.18
-
-
-Arec:
-0% Phantom Strike (move to clone)
-76% Returning Hex
-24% Manipulative Hex
-
-Marmelee:
-59% Petrifying Meditation
-32% Nullifying Shot
-9% Special Astral Trance
-
-
-Arec: Returning Hex
-Marmelee: Petrifying Meditation
-
-Priorities:  4 | 2
-Arec is active
-Marmelee discards 1 Concentration Counter
-Marmelee gains Soak 1
-Arec hits
-Arec recovers a Hesitation token
-Marmelee has 1 soak
-Marmelee takes 2 damage (now at 4 life)
-Marmelee misses
-Marmelee gains 1 Concentration Counter
-Marmelee gains 1 Concentration Counter
-
-Beat 9
--------
-
-Arec
-----
-Life: 16
-Discard 1: Returning Hex
-Discard 2: Mirrored Shot
-Special action available
-pool: Recklessness, Hesitation
-
-Marmelee
---------
-Life: 4
-Discard 1: Petrifying Meditation
-Discard 2: Magnificent Drive
+Life: 7
+Discard 1: Sorceress Meditation
+Discard 2: Barrier Dash
 Special action available
 2 Concentration counters
 
@@ -519,193 +264,201 @@ Special action available
 A....M.
 
 
-Unbeatable strategy for Marmelee: Sorceress Strike: -0.92
-Unbeatable strategy for Marmelee: Sorceress Burst: -1.01
-Unbeatable strategy for Marmelee: Barrier Burst: -1.21
-Unbeatable strategy for Marmelee: Nullifying Strike: -1.32
-Unbeatable strategy for Marmelee: Nullifying Shot: -0.72
-Unbeatable strategy for Marmelee: Nullifying Burst: -1.02
-Unbeatable strategy for Marmelee: Nullifying Grasp: -1.47
-
 
 Arec:
-16% Phantom Strike
-50% Phantom Burst
-4% Phantom Burst (Hesitation)
-7% Perceptional Drive
-23% Manipulative Grasp
+38% Phantom Hex
+33% Phantom Strike
+12% Phantom Drive
+6% Mirrored Strike
+12% Mirrored Drive
 
 Marmelee:
-19% Barrier Shot
-12% Barrier Dash
-2% Nullifying Strike
-9% Nullifying Burst
-57% Nullifying Grasp
+16% Magnificent Shot
+43% Magnificent Drive
+3% Nullifying Strike
+32% Nullifying Shot
+7% Nullifying Grasp
 
 
-Arec: Phantom Burst
-Marmelee: Nullifying Grasp
+Arec: Phantom Strike
+Marmelee: Magnificent Drive
 
-Priorities:  2 | 6
-Marmelee is active
-Marmelee moves:
-
-A.....M
+Priorities:  4 | 4
+Clash!
 
 
-Marmelee misses
-Arec misses
-Arec recovers a Fear token
-Marmelee gains 1 Concentration Counter
+Arec: Phantom Hex
+Marmelee: Magnificent Shot
 
-Beat 10
--------
-
-Arec
-----
-Life: 16
-Discard 1: Phantom Burst
-Discard 2: Returning Hex
-Special action available
-pool: Recklessness, Hesitation, Fear
-
-Marmelee
---------
-Life: 4
-Discard 1: Nullifying Grasp
-Discard 2: Petrifying Meditation
-Special action available
-3 Concentration counters
-
-
-A.....M
-
-
-
-Arec:
-83% Perceptional Shot
-17% Mirrored Shot (Hesitation)
-
-Marmelee:
-14% Magnificent Strike
-86% Sorceress Strike
-
-
-Arec: Perceptional Shot
-Marmelee: Sorceress Strike
-
-Priorities:  3 | 2
+Priorities:  4 | 2
 Arec is active
 Arec hits
-Arec moves Marmelee:
-
-A....M.
-
-
-Marmelee takes 3 damage (now at 1 life)
-Marmelee misses
-Marmelee gains 1 Concentration Counter
-
-Beat 11
--------
-
-Arec
-----
-Life: 16
-Discard 1: Perceptional Shot
-Discard 2: Phantom Burst
-Special action available
-pool: Recklessness, Hesitation, Fear
-
-Marmelee
---------
-Life: 1
-Discard 1: Sorceress Strike
-Discard 2: Nullifying Grasp
-Special action available
-4 Concentration counters
-
-
-A....M.
-
-
-Unbeatable strategy for Arec: Returning Hex: 2.77
-Unbeatable strategy for Arec: Returning Hex (Recklessness): 2.47
-Unbeatable strategy for Arec: Returning Hex (Hesitation): 2.27
-Unbeatable strategy for Arec: Returning Hex (Fear): 6.00
-
-
-Arec:
-14% Returning Hex
-67% Returning Hex (Fear)
-7% Mirrored Strike
-8% Mirrored Drive
-4% Manipulative Hex
-
-Marmelee:
-6% Petrifying Meditation
-1% Magnificent Drive
-6% Barrier Meditation
-4% Barrier Burst
-84% Special Pulse
-
-
-Arec: Returning Hex (Fear)
-Marmelee: Special Pulse
-
-Arec antes a Fear token
-Pulse:
-
-.A....M
-
-
-
-Beat 11
--------
-
-Arec
-----
-Life: 16
-Discard 1: Returning Hex
-Discard 2: Perceptional Shot
-Special action available
-pool: Recklessness, Hesitation
-
-Marmelee
---------
-Life: 1
-Discard 1: Sorceress Strike
-Discard 2: Nullifying Grasp
-4 Concentration counters
-
-
-.A....M
-
-
-Unbeatable strategy for Arec: Phantom Drive: 2.51
-Unbeatable strategy for Arec: Phantom Drive (Recklessness): 1.91
-
-
-Arec:
-81% Phantom Drive
-19% Mirrored Burst
-
-Marmelee:
-82% Magnificent Dash
-18% Barrier Burst
-
-
-Arec: Phantom Drive
-Marmelee: Magnificent Dash
-
-Priorities:  5 | 9
-Marmelee is active
+Arec recovers his Hesitation token
+Marmelee takes 2 damage (now at 5 life)
+Marmelee hits
+Arec takes 2 damage (now at 18 life)
+Arec is stunned
 Marmelee discards 2 Concentration Counters
 Marmelee moves:
 
-MA.....
+AM.....
 
 
+Arec recovers his Fear token
+Marmelee gains 1 Concentration Counter
+
+Beat 6
+-------
+
+Arec
+----
+Life: 18
+Discard 1: Phantom Hex
+Discard 2: Returning Shot
+Special action available
+pool: Mercy, Recklessness, Hesitation, Fear
+
+Marmelee
+--------
+Life: 5
+Discard 1: Magnificent Shot
+Discard 2: Sorceress Meditation
+Special action available
+1 Concentration counters
+
+
+AM.....
+
+
+
+Arec:
+22% Mirrored Strike
+50% Mirrored Drive
+18% Manipulative Strike (Hesitation)
+10% Manipulative Strike (Fear)
+
+Marmelee:
+7% Petrifying Grasp
+35% Petrifying Dash
+38% Barrier Strike
+20% Nullifying Strike
+
+
+Arec: Mirrored Drive
+Marmelee: Barrier Strike
+
+Priorities:  4 | 3
+Arec is active
+Arec moves:
+
+.M.A...
+
+
+Arec hits
+Marmelee takes 4 damage (now at 1 life)
+Marmelee misses
+Arec places clone:
+
+.M.A...
+......c
+
+Marmelee gains 1 Concentration Counter
+
+Beat 7
+-------
+
+Arec
+----
+Life: 18
+Discard 1: Mirrored Drive
+Discard 2: Phantom Hex
+Special action available
+pool: Mercy, Recklessness, Hesitation, Fear
+
+Marmelee
+--------
+Life: 1
+Discard 1: Barrier Strike
+Discard 2: Magnificent Shot
+Special action available
+2 Concentration counters
+
+
+.M.A...
+......c
+
+Unbeatable strategy for Arec: Returning Shot (Hesitation): 6.00
+Unbeatable strategy for Arec: Returning Burst (Hesitation): 6.00
+
+
+Arec:
+56% Perceptional Shot (Mercy)
+44% Perceptional Shot (Mercy; move to clone)
+
+Marmelee:
+100% Special Pulse
+
+
+Arec: Perceptional Shot (Mercy; move to clone)
+Marmelee: Special Pulse
+
+Arec moves:
+
+.M....A
+
+
+Arec antes a Mercy token
+Marmelee Pulses:
+
+.AM....
+
+
+Marmelee gains 1 Concentration Counter
+
+Beat 7
+-------
+
+Arec
+----
+Life: 18
+Discard 1: Perceptional Shot
+Discard 2: Mirrored Drive
+Special action available
+pool: Recklessness, Hesitation, Fear
+
+Marmelee
+--------
+Life: 1
+Discard 1: Barrier Strike
+Discard 2: Magnificent Shot
+3 Concentration counters
+
+
+.AM....
+
+
+Unbeatable strategy for Arec: Returning Burst (Hesitation): 1.36
+
+
+Arec:
+2% Phantom Burst (Hesitation)
+34% Phantom Grasp (Fear)
+44% Returning Burst (Hesitation)
+21% Manipulative Burst (Hesitation)
+
+Marmelee:
+16% Petrifying Meditation
+28% Nullifying Meditation
+22% Nullifying Burst
+34% Nullifying Dash
+
+
+Arec: Returning Burst (Hesitation)
+Marmelee: Nullifying Dash
+
+Arec antes a Hesitation token
+Priorities:  2 | 10
+Marmelee is active
 Marmelee moves:
 
 .A.M...
@@ -713,127 +466,10 @@ Marmelee moves:
 
 Arec moves:
 
-..AM...
+A..M...
 
 
-Arec misses
-Arec recovers a Fear token
-Marmelee gains 1 Concentration Counter
-
-Beat 12
--------
-
-Arec
-----
-Life: 16
-Discard 1: Phantom Drive
-Discard 2: Returning Hex
-Special action available
-pool: Recklessness, Hesitation, Fear
-
-Marmelee
---------
-Life: 1
-Discard 1: Magnificent Dash
-Discard 2: Sorceress Strike
-3 Concentration counters
-
-
-..AM...
-
-
-
-Arec:
-31% Perceptional Burst
-1% Mirrored Grasp (Hesitation)
-4% Manipulative Shot (Fear)
-64% Manipulative Grasp (Fear)
-
-Marmelee:
-5% Barrier Shot
-43% Barrier Grasp
-27% Nullifying Shot
-24% Nullifying Drive
-
-
-Arec: Perceptional Burst
-Marmelee: Nullifying Shot
-
-Priorities:  2 | 3
-Marmelee is active
-Marmelee moves:
-
-..A.M..
-
-
-Arec moves:
-
-A...M..
-
-
-Marmelee hits
-Arec takes 3 damage (now at 13 life)
-Arec is stunned
-Marmelee gains 1 Concentration Counter
-
-Beat 13
--------
-
-Arec
-----
-Life: 13
-Discard 1: Perceptional Burst
-Discard 2: Phantom Drive
-Special action available
-pool: Recklessness, Hesitation, Fear
-
-Marmelee
---------
-Life: 1
-Discard 1: Nullifying Shot
-Discard 2: Magnificent Dash
-4 Concentration counters
-
-
-A...M..
-
-
-Unbeatable strategy for Arec: Returning Hex: 1.02
-Unbeatable strategy for Arec: Returning Hex (Recklessness): 0.46
-Unbeatable strategy for Arec: Returning Hex (Hesitation): 0.52
-Unbeatable strategy for Arec: Returning Hex (Fear): 6.00
-Unbeatable strategy for Arec: Returning Shot (Fear): 6.00
-
-
-Arec:
-50% Returning Hex (Fear)
-50% Returning Shot (Fear)
-
-Marmelee:
-13% Petrifying Meditation
-5% Petrifying Strike
-3% Petrifying Drive
-7% Petrifying Burst
-1% Petrifying Grasp
-13% Sorceress Meditation
-6% Sorceress Strike
-15% Sorceress Drive
-2% Sorceress Burst
-2% Sorceress Grasp
-6% Barrier Meditation
-2% Barrier Strike
-11% Barrier Drive
-7% Barrier Burst
-8% Barrier Grasp
-
-
-Arec: Returning Shot (Fear)
-Marmelee: Petrifying Burst
-
-Arec antes a Fear token
-Priorities:  3 | 0
-Arec is active
 Arec hits
 Marmelee takes 3 damage (now at 0 life)
 AREC WINS!
-total_time: 82
+total_time: 64

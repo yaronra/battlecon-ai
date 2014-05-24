@@ -31,27 +31,22 @@ Human Form
 
 
 Arec:
-6% Perceptional Shot
-50% Returning Drive (Fear)
-1% Mirrored Hex
+55% Returning Drive
 6% Mirrored Shot
-10% Mirrored Drive
-27% Mirrored Drive (Fear)
+8% Mirrored Shot (Hesitation)
+31% Mirrored Drive
 
 Kallistar:
-44% Volcanic Grasp
-2% Volcanic Dash
-6% Ignition Shot
-5% Ignition Dash
-28% Blazing Shot
-14% Blazing Grasp
+54% Volcanic Grasp
+7% Ignition Shot
+13% Ignition Dash
+26% Blazing Shot
 
 
-Arec: Mirrored Drive (Fear)
-Kallistar: Ignition Shot
+Arec: Returning Drive
+Kallistar: Volcanic Grasp
 
-Arec antes a Fear token
-Priorities:  4 | 1
+Priorities:  5 | 5
 Arec is active
 Arec moves:
 
@@ -60,8 +55,13 @@ Arec moves:
 
 Arec hits
 Kallistar has 1 soak
-Kallistar takes 3 damage (now at 17 life)
+Kallistar takes 2 damage (now at 18 life)
 Kallistar is stunned
+Kallistar moves:
+
+..KA...
+
+
 
 Beat 2
 -------
@@ -69,61 +69,53 @@ Beat 2
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Drive
+Discard 1: Returning Drive
 Discard 2: Phantom Strike
 Special action available
-pool: Hesitation, Mercy, Recklessness
+pool: Fear, Hesitation, Mercy, Recklessness
 
 Kallistar
 ---------
-Life: 17
-Discard 1: Ignition Shot
+Life: 18
+Discard 1: Volcanic Grasp
 Discard 2: Flare Strike
 Special action available
 Human Form
 
 
-...A.K.
+..KA...
 
 
 
 Arec:
-55% Perceptional Hex
-24% Manipulative Hex
-21% Manipulative Shot (Hesitation)
+20% Mirrored Hex (Fear)
+24% Mirrored Hex (Hesitation)
+56% Mirrored Burst (Hesitation)
 
 Kallistar:
-39% Caustic Spellbolt
-49% Caustic Drive
-13% Blazing Spellbolt
+17% Ignition Shot
+70% Blazing Shot
+12% Blazing Drive
 
 
-Arec: Manipulative Shot (Hesitation)
-Kallistar: Caustic Spellbolt
-
-Arec antes a Hesitation token
-Priorities:  2 | 2
-Clash!
-
-
-Arec: Manipulative Burst (Hesitation)
-Kallistar: Caustic Burst
+Arec: Mirrored Burst (Hesitation)
+Kallistar: Blazing Shot
 
 Arec antes a Hesitation token
-Priorities:  1 | 0
-Arec is active
+Priorities:  1 | 3
+Kallistar is active
 Arec moves:
 
-..A..K.
+..K.A..
 
 
-Kallistar moves:
-
-..A...K
-
-
-Arec misses
 Kallistar misses
+Arec misses
+Arec places clone:
+
+..K.A..
+......c
+
 
 Beat 3
 -------
@@ -131,52 +123,64 @@ Beat 3
 Arec
 ----
 Life: 20
-Discard 1: Manipulative Burst
-Discard 2: Mirrored Drive
+Discard 1: Mirrored Burst
+Discard 2: Returning Drive
 Special action available
-pool: Mercy, Recklessness
+pool: Fear, Mercy, Recklessness
 
 Kallistar
 ---------
-Life: 17
-Discard 1: Caustic Burst
-Discard 2: Ignition Shot
+Life: 18
+Discard 1: Blazing Shot
+Discard 2: Volcanic Grasp
 Special action available
 Human Form
 
 
-..A...K
-
+..K.A..
+......c
 
 
 Arec:
-84% Phantom Dash
-12% Returning Hex
-4% Returning Shot
+19% Phantom Hex (move to clone)
+35% Phantom Strike (Recklessness)
+30% Manipulative Hex (move to clone)
+7% Manipulative Shot (move to clone)
+9% Manipulative Shot (Fear; move to clone)
 
 Kallistar:
-28% Volcanic Spellbolt
-25% Volcanic Drive
-47% Volcanic Grasp
+8% Flare Spellbolt
+14% Ignition Spellbolt
+38% Ignition Drive
+7% Ignition Burst
+34% Ignition Dash
 
 
-Arec: Phantom Dash
-Kallistar: Volcanic Grasp
+Arec: Manipulative Hex (move to clone)
+Kallistar: Ignition Dash
 
-Priorities:  10 | 5
-Arec is active
 Arec moves:
 
-A.....K
+..K...A
 
 
-Kallistar misses
-Arec recovers a Hesitation token
+Priorities:  3 | 8
+Kallistar is active
 Kallistar moves:
 
-AK.....
+K.....A
 
 
+Arec hits
+Arec chooses Kallistar's base: Strike
+Arec moves Kallistar:
+
+.K....A
+
+
+Arec recovers his Hesitation token
+Kallistar has 1 soak
+Kallistar takes 3 damage (now at 15 life)
 
 Beat 4
 -------
@@ -184,588 +188,443 @@ Beat 4
 Arec
 ----
 Life: 20
-Discard 1: Phantom Dash
-Discard 2: Manipulative Burst
+Discard 1: Manipulative Hex
+Discard 2: Mirrored Burst
 Special action available
-pool: Mercy, Recklessness, Hesitation
+pool: Fear, Mercy, Recklessness, Hesitation
+Manipulative forced base: Strike
 
 Kallistar
 ---------
-Life: 17
-Discard 1: Volcanic Grasp
-Discard 2: Caustic Burst
+Life: 15
+Discard 1: Ignition Dash
+Discard 2: Blazing Shot
 Special action available
-Human Form
+Elemental Form
 
 
-AK.....
+.K....A
 
 
 
 Arec:
-26% Returning Drive
-26% Returning Drive (Recklessness)
-33% Mirrored Drive
-15% Mirrored Drive (Recklessness)
+32% Phantom Dash
+28% Perceptional Shot (Recklessness)
+37% Perceptional Drive (Recklessness)
+3% Returning Grasp (Recklessness)
 
 Kallistar:
-6% Flare Strike
-0% Flare Shot
-50% Ignition Shot
-44% Blazing Drive
+3% Flare Spellbolt
+22% Volcanic Strike
+14% Volcanic Drive
+60% Volcanic Grasp
 
 
-Arec: Mirrored Drive (Recklessness)
-Kallistar: Blazing Drive
+Arec: Perceptional Drive (Recklessness)
+Kallistar: Volcanic Grasp
 
 Arec antes a Recklessness token
-Priorities:  4 | 5
-Kallistar is active
-Kallistar hits
-Arec takes 3 damage (now at 17 life)
-Arec is stunned
+Kallistar loses 1 life (now at 14)
+Kallistar loses 2 life (now at 12)
+Priorities:  5 | 5
+Clash!
+
+
+Arec: Perceptional Dash (Recklessness)
+Kallistar: Volcanic Drive
+
+Arec antes a Recklessness token
+Kallistar loses 1 life (now at 14)
+Kallistar loses 2 life (now at 12)
+Priorities:  10 | 4
+Arec is active
+Arec moves:
+
+.K.A...
+
+
 Kallistar moves:
 
-A.K....
+..KA...
 
 
-Arec places clone:
-
-A.K....
-....c..
-
+Kallistar misses
 
 Beat 5
 -------
 
 Arec
 ----
-Life: 17
-Discard 1: Mirrored Drive
-Discard 2: Phantom Dash
+Life: 20
+Discard 1: Perceptional Dash
+Discard 2: Manipulative Hex
 Special action available
-pool: Mercy, Hesitation
+pool: Fear, Mercy, Hesitation
 
 Kallistar
 ---------
-Life: 17
-Discard 1: Blazing Drive
-Discard 2: Volcanic Grasp
+Life: 12
+Discard 1: Volcanic Drive
+Discard 2: Ignition Dash
 Special action available
-Human Form
+Elemental Form
 
 
-A.K....
-....c..
+..KA...
+
 
 
 Arec:
-2% Returning Hex
-23% Returning Shot (move to clone)
-3% Returning Burst
-17% Returning Grasp (move to clone)
-26% Manipulative Hex
-28% Manipulative Burst (move to clone)
+4% Returning Strike
+35% Returning Drive
+23% Returning Burst
+38% Mirrored Burst
 
 Kallistar:
-29% Flare Spellbolt
-21% Flare Shot
-10% Flare Burst
-1% Caustic Spellbolt
-10% Caustic Shot
-27% Caustic Burst
+33% Caustic Shot
+2% Caustic Grasp
+29% Blazing Strike
+37% Blazing Burst
 
 
-Arec: Manipulative Burst (move to clone)
-Kallistar: Caustic Burst
+Arec: Returning Burst
+Kallistar: Caustic Shot
 
+Kallistar loses 1 life (now at 11)
+Priorities:  2 | 3
+Kallistar is active
 Arec moves:
 
 ..K.A..
 
 
-Priorities:  1 | 0
-Arec is active
-Arec moves:
-
-..K...A
-
-
-Kallistar moves:
-
-K.....A
-
-
-Arec misses
-Kallistar misses
+Kallistar hits
+Arec is stunned
+Arec takes 6 damage (now at 14 life)
+Arec is stunned
 
 Beat 6
 -------
 
 Arec
 ----
-Life: 17
-Discard 1: Manipulative Burst
-Discard 2: Mirrored Drive
+Life: 14
+Discard 1: Returning Burst
+Discard 2: Perceptional Dash
 Special action available
-pool: Mercy, Hesitation
+pool: Fear, Mercy, Hesitation
 
 Kallistar
 ---------
-Life: 17
-Discard 1: Caustic Burst
-Discard 2: Blazing Drive
+Life: 11
+Discard 1: Caustic Shot
+Discard 2: Volcanic Drive
 Special action available
-Human Form
+Elemental Form
 
 
-K.....A
+..K.A..
 
-
-Unbeatable strategy for Kallistar: Flare Spellbolt: -0.36
 
 
 Arec:
-40% Phantom Hex
-33% Phantom Shot
-15% Phantom Grasp
-13% Returning Hex
+16% Mirrored Hex (Hesitation)
+34% Mirrored Shot (Fear)
+50% Mirrored Drive (Hesitation)
 
 Kallistar:
-22% Flare Spellbolt
-3% Volcanic Shot
-66% Ignition Spellbolt
-9% Ignition Grasp
+32% Flare Burst
+21% Blazing Burst
+47% Blazing Dash
 
 
-Arec: Phantom Hex
-Kallistar: Flare Spellbolt
+Arec: Mirrored Drive (Hesitation)
+Kallistar: Blazing Dash
 
-Kallistar loses 3 life (now at 14)
-Kallistar gets +3 priority
-Priorities:  4 | 6
+Arec antes a Hesitation token
+Kallistar loses 1 life (now at 10)
+Priorities:  4 | 12
 Kallistar is active
-Kallistar hits
-Arec gets -2 power
-Arec takes 5 damage (now at 12 life)
-Arec is stunned
-Arec recovers a Recklessness token
+Arec hits
+Kallistar takes 4 damage (now at 6 life)
+Kallistar is stunned
+Arec places clone:
+
+..K.A..
+c......
+
 
 Beat 7
 -------
 
 Arec
 ----
-Life: 12
-Discard 1: Phantom Hex
-Discard 2: Manipulative Burst
+Life: 14
+Discard 1: Mirrored Drive
+Discard 2: Returning Burst
 Special action available
-pool: Mercy, Hesitation, Recklessness
+pool: Fear, Mercy
 
 Kallistar
 ---------
-Life: 14
-Discard 1: Flare Spellbolt
-Discard 2: Caustic Burst
+Life: 6
+Discard 1: Blazing Dash
+Discard 2: Caustic Shot
 Special action available
-Human Form
+Elemental Form
 
 
-K.....A
+..K.A..
+c......
 
+Unbeatable strategy for Arec: Phantom Dash: 0.71
+Unbeatable strategy for Arec: Phantom Dash (Fear): 0.21
+Unbeatable strategy for Arec: Phantom Dash (Mercy): 0.31
+Unbeatable strategy for Arec: Phantom Dash (move to clone): 0.87
+Unbeatable strategy for Arec: Phantom Dash (Fear; move to clone): 0.37
+Unbeatable strategy for Arec: Phantom Dash (Mercy; move to clone): 0.47
+Unbeatable strategy for Arec: Perceptional Dash (move to clone): 0.05
 
 
 Arec:
-40% Perceptional Shot
-26% Returning Shot
-15% Mirrored Shot
-18% Mirrored Shot (Hesitation)
+1% Phantom Grasp
+34% Phantom Dash
+65% Perceptional Grasp
 
 Kallistar:
-4% Volcanic Strike
-40% Volcanic Shot
-0% Volcanic Drive
-55% Ignition Strike
+54% Flare Drive
+46% Volcanic Strike
+1% Volcanic Burst
 
 
-Arec: Mirrored Shot
-Kallistar: Volcanic Strike
+Arec: Phantom Dash
+Kallistar: Flare Drive
 
-Priorities:  2 | 3
-Kallistar is active
-Kallistar misses
-Arec hits
-Kallistar has 1 soak
-Kallistar takes 3 damage (now at 11 life)
+Kallistar loses 1 life (now at 5)
+Priorities:  10 | 6
+Arec is active
+Arec moves:
+
+.AK....
+
+
 Kallistar moves:
 
-...K..A
+KA.....
 
 
-Arec places clone:
-
-...K..A
-c......
-
+Kallistar misses
+Arec recovers his Hesitation token
 
 Beat 8
 -------
 
 Arec
 ----
-Life: 12
-Discard 1: Mirrored Shot
-Discard 2: Phantom Hex
+Life: 14
+Discard 1: Phantom Dash
+Discard 2: Mirrored Drive
 Special action available
-pool: Mercy, Hesitation, Recklessness
+pool: Fear, Mercy, Hesitation
 
 Kallistar
 ---------
-Life: 11
-Discard 1: Volcanic Strike
-Discard 2: Flare Spellbolt
+Life: 5
+Discard 1: Flare Drive
+Discard 2: Blazing Dash
 Special action available
 Human Form
 
 
-...K..A
-c......
+KA.....
 
-Unbeatable strategy for Kallistar: Caustic Shot: -0.88
+
+Unbeatable strategy for Kallistar: Caustic Shot: -0.65
 
 
 Arec:
-15% Perceptional Strike
-15% Perceptional Strike (move to clone)
-2% Perceptional Drive
-2% Perceptional Drive (move to clone)
-24% Manipulative Burst
-9% Manipulative Burst (Hesitation)
-24% Manipulative Burst (move to clone)
-9% Manipulative Burst (Hesitation; move to clone)
+44% Returning Shot
+14% Manipulative Strike
+42% Manipulative Burst
 
 Kallistar:
-41% Caustic Shot
-8% Ignition Drive
-45% Ignition Burst
-6% Blazing Shot
+2% Caustic Spellbolt
+26% Caustic Strike
+72% Caustic Shot
 
 
-Arec: Perceptional Strike
-Kallistar: Ignition Burst
+Arec: Manipulative Burst
+Kallistar: Caustic Strike
 
-Priorities:  4 | 0
-Arec is active
-Kallistar moves:
+Priorities:  1 | 2
+Kallistar is active
+Arec moves:
 
-..K...A
+K.A....
 
 
-Arec misses
 Kallistar misses
+Arec hits
+Arec chooses Kallistar's base: Burst
+Kallistar has 3 soak
+Kallistar takes 1 damage (now at 4 life)
+Arec recovers his Recklessness token
 
 Beat 9
 -------
 
 Arec
 ----
-Life: 12
-Discard 1: Perceptional Strike
-Discard 2: Mirrored Shot
+Life: 14
+Discard 1: Manipulative Burst
+Discard 2: Phantom Dash
 Special action available
-pool: Mercy, Hesitation, Recklessness
+pool: Fear, Mercy, Hesitation, Recklessness
+Manipulative forced base: Burst
 
 Kallistar
 ---------
-Life: 11
-Discard 1: Ignition Burst
-Discard 2: Volcanic Strike
+Life: 4
+Discard 1: Caustic Strike
+Discard 2: Flare Drive
 Special action available
-Elemental Form
+Human Form
 
 
-..K...A
+K.A....
 
 
 
 Arec:
-71% Returning Drive (Recklessness)
-23% Manipulative Hex (Hesitation)
-6% Manipulative Hex (Recklessness)
+33% Perceptional Strike
+31% Mirrored Strike
+14% Mirrored Strike (Hesitation)
+22% Mirrored Grasp
 
 Kallistar:
-59% Caustic Dash
-39% Blazing Spellbolt
-2% Blazing Shot
+2% Ignition Burst
+4% Ignition Dash
+0% Blazing Spellbolt
+93% Special Pulse
 
 
-Arec: Returning Drive (Recklessness)
-Kallistar: Blazing Spellbolt
+Arec: Perceptional Strike
+Kallistar: Special Pulse
 
-Arec antes a Recklessness token
-Kallistar loses 1 life (now at 10)
-Priorities:  5 | 4
+Kallistar Pulses:
+
+.A....K
+
+
+
+Beat 9
+-------
+
+Arec
+----
+Life: 14
+Discard 1: Perceptional Strike
+Discard 2: Manipulative Burst
+Special action available
+pool: Fear, Mercy, Hesitation, Recklessness
+Manipulative forced base: Burst
+
+Kallistar
+---------
+Life: 4
+Discard 1: Caustic Strike
+Discard 2: Flare Drive
+Human Form
+
+
+.A....K
+
+
+
+Arec:
+25% Mirrored Hex
+75% Mirrored Shot (Mercy)
+
+Kallistar:
+19% Volcanic Burst
+81% Ignition Burst
+
+
+Arec: Mirrored Shot (Mercy)
+Kallistar: Ignition Burst
+
+Arec antes a Mercy token
+Priorities:  2 | 0
 Arec is active
-Arec moves:
-
-..K.A..
-
-
 Arec hits
-Kallistar takes 3 damage (now at 7 life)
+Kallistar has 1 soak
+Kallistar takes 3 damage (now at 1 life)
 Kallistar is stunned
+Arec places clone:
+
+.A....K
+.....c.
+
 
 Beat 10
 -------
 
 Arec
 ----
-Life: 12
-Discard 1: Returning Drive
+Life: 14
+Discard 1: Mirrored Shot
 Discard 2: Perceptional Strike
 Special action available
-pool: Mercy, Hesitation
+pool: Fear, Hesitation, Recklessness
 
 Kallistar
 ---------
-Life: 7
-Discard 1: Blazing Spellbolt
-Discard 2: Ignition Burst
-Special action available
+Life: 1
+Discard 1: Ignition Burst
+Discard 2: Caustic Strike
 Elemental Form
 
 
-..K.A..
-
-
-Unbeatable strategy for Arec: Mirrored Shot (Hesitation): 2.65
+.A....K
+.....c.
 
 
 Arec:
-60% Mirrored Hex (Hesitation)
-22% Mirrored Grasp
-19% Manipulative Hex (Hesitation)
+3% Phantom Hex (Recklessness)
+16% Phantom Burst (Hesitation; move to clone)
+17% Returning Hex (Recklessness)
+18% Returning Drive (Hesitation; move to clone)
+17% Returning Grasp (Hesitation; move to clone)
+29% Returning Grasp (Recklessness; move to clone)
 
 Kallistar:
-7% Flare Shot
-70% Caustic Shot
-23% Caustic Drive
+20% Volcanic Grasp
+29% Volcanic Dash
+0% Blazing Spellbolt
+16% Blazing Shot
+17% Blazing Drive
+18% Blazing Grasp
 
 
-Arec: Mirrored Hex (Hesitation)
-Kallistar: Caustic Shot
+Arec: Returning Grasp (Hesitation; move to clone)
+Kallistar: Volcanic Grasp
+
+Arec moves:
+
+.....AK
+
 
 Arec antes a Hesitation token
-Kallistar loses 1 life (now at 6)
-Priorities:  3 | 3
-Clash!
-
-
-Arec: Mirrored Grasp (Hesitation)
-Kallistar: Caustic Strike
-
-Arec antes a Hesitation token
-Kallistar loses 1 life (now at 6)
-Priorities:  5 | 4
-Arec is active
+Kallistar loses 1 life (now at 1)
+Priorities:  6 | 7
+Kallistar is active
+Kallistar is stunned
 Arec hits
 Arec moves Kallistar:
 
-.K..A..
+....KA.
 
 
-Kallistar takes 3 damage (now at 3 life)
-Kallistar misses
-Arec places clone:
-
-.K..A..
-c......
-
-
-Beat 11
--------
-
-Arec
-----
-Life: 12
-Discard 1: Mirrored Grasp
-Discard 2: Returning Drive
-Special action available
-pool: Mercy
-
-Kallistar
----------
-Life: 3
-Discard 1: Caustic Strike
-Discard 2: Blazing Spellbolt
-Special action available
-Elemental Form
-
-
-.K..A..
-c......
-
-
-Arec:
-21% Phantom Hex (move to clone)
-20% Phantom Strike (move to clone)
-4% Phantom Shot (move to clone)
-55% Phantom Burst (Mercy)
-
-Kallistar:
-9% Volcanic Shot
-41% Volcanic Drive
-6% Volcanic Burst
-44% Ignition Drive
-
-
-Arec: Phantom Hex (move to clone)
-Kallistar: Ignition Drive
-
-Arec moves:
-
-AK.....
-
-
-Kallistar loses 1 life (now at 2)
-Kallistar loses 3 life (now at 1)
-Kallistar gets +3 power
-Priorities:  4 | 5
-Kallistar is active
-Kallistar hits
-Arec takes 9 damage (now at 3 life)
-Arec is stunned
-Arec recovers a Hesitation token
-
-Beat 12
--------
-
-Arec
-----
-Life: 3
-Discard 1: Phantom Hex
-Discard 2: Mirrored Grasp
-Special action available
-pool: Mercy, Hesitation
-
-Kallistar
----------
-Life: 1
-Discard 1: Ignition Drive
-Discard 2: Caustic Strike
-Special action available
-Elemental Form
-
-
-AK.....
-
-
-
-Arec:
-1% Perceptional Drive
-1% Perceptional Drive (Mercy)
-1% Perceptional Drive (Hesitation)
-92% Perceptional Dash
-2% Returning Drive
-2% Returning Drive (Mercy)
-1% Returning Burst
-1% Returning Burst (Mercy)
-1% Returning Burst (Hesitation)
-
-Kallistar:
-57% Blazing Burst
-43% Blazing Grasp
-
-
-Arec: Perceptional Dash
-Kallistar: Blazing Burst
-
-Kallistar loses 1 life (now at 1)
-Priorities:  10 | 4
-Arec is active
-Kallistar moves:
-
-A..K...
-
-
-Arec moves:
-
-..AK...
-
-
-Kallistar misses
-
-Beat 13
--------
-
-Arec
-----
-Life: 3
-Discard 1: Perceptional Dash
-Discard 2: Phantom Hex
-Special action available
-pool: Mercy, Hesitation
-
-Kallistar
----------
-Life: 1
-Discard 1: Blazing Burst
-Discard 2: Ignition Drive
-Special action available
-Elemental Form
-
-
-..AK...
-
-
-Unbeatable strategy for Arec: Returning Grasp (Hesitation): 6.00
-Unbeatable strategy for Arec: Mirrored Burst: 0.90
-Unbeatable strategy for Arec: Mirrored Burst (Mercy): 0.50
-Unbeatable strategy for Arec: Mirrored Burst (Hesitation): 0.10
-
-
-Arec:
-0% Returning Strike
-0% Returning Strike (Mercy)
-4% Returning Strike (Hesitation)
-0% Returning Shot
-0% Returning Shot (Mercy)
-4% Returning Shot (Hesitation)
-0% Returning Drive
-0% Returning Drive (Mercy)
-4% Returning Drive (Hesitation)
-0% Returning Grasp
-0% Returning Grasp (Mercy)
-9% Returning Grasp (Hesitation)
-0% Mirrored Drive
-0% Mirrored Drive (Mercy)
-73% Mirrored Burst
-0% Manipulative Drive
-0% Manipulative Drive (Mercy)
-0% Manipulative Drive (Hesitation)
-0% Manipulative Grasp
-0% Manipulative Grasp (Mercy)
-3% Manipulative Grasp (Hesitation)
-
-Kallistar:
-27% Caustic Shot
-47% Volcanic Grasp
-27% Special Supernova
-
-
-Arec: Mirrored Burst
-Kallistar: Special Supernova
-
-Kallistar loses 1 life (now at 1)
-Priorities:  1 | 7
-Kallistar is active
-Arec moves:
-
-A..K...
-
-
-Kallistar misses
-Arec hits
-Kallistar takes 4 damage (now at 0 life)
+Kallistar takes 2 damage (now at 0 life)
 AREC WINS!
-total_time: 44
+total_time: 51

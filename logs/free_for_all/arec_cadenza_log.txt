@@ -32,34 +32,25 @@ Special action available
 
 Arec:
 1% Returning Hex
-24% Returning Drive
-19% Mirrored Hex
-35% Mirrored Drive
-11% Mirrored Burst
-9% Mirrored Dash
+15% Returning Drive
+1% Mirrored Hex
+12% Mirrored Drive
+27% Mirrored Burst (Hesitation)
+44% Mirrored Dash
 
 Cadenza:
-3% Battery Dash
-27% Clockwork Shot
-22% Clockwork Drive
-1% Clockwork Drive (Iron Body)
+0% Battery Shot
+12% Battery Dash
+24% Clockwork Shot
+13% Clockwork Drive
 34% Grapnel Drive
-14% Grapnel Grasp
-
-
-Arec: Mirrored Burst
-Cadenza: Clockwork Drive (Iron Body)
-
-Cadenza antes an Iron Body token
-Priorities:  1 | 1
-Clash!
+16% Grapnel Grasp
 
 
 Arec: Mirrored Drive
-Cadenza: Clockwork Shot (Iron Body)
+Cadenza: Clockwork Drive
 
-Cadenza antes an Iron Body token
-Priorities:  4 | -1
+Priorities:  4 | 1
 Arec is active
 Arec moves:
 
@@ -69,11 +60,20 @@ Arec moves:
 Arec hits
 Cadenza has 3 soak
 Cadenza takes 1 damage (now at 19 life)
-Cadenza misses
+Cadenza spends an Iron Body token
+Cadenza gains infinite stunguard
+Cadenza moves:
+
+..CA...
+
+
+Cadenza hits
+Arec takes 6 damage (now at 14 life)
+Arec is stunned
 Arec places clone:
 
-...A.C.
-c......
+..CA...
+......c
 
 
 Beat 2
@@ -81,7 +81,7 @@ Beat 2
 
 Arec
 ----
-Life: 20
+Life: 14
 Discard 1: Mirrored Drive
 Discard 2: Phantom Strike
 Special action available
@@ -90,73 +90,66 @@ pool: Fear, Hesitation, Mercy, Recklessness
 Cadenza
 -------
 Life: 19
-Discard 1: Clockwork Shot
+Discard 1: Clockwork Drive
 Discard 2: Hydraulic Burst
 Special action available
 2 Iron Body tokens
 
 
-...A.C.
-c......
-
-Unbeatable strategy for Arec: Returning Hex (Hesitation): 0.15
+..CA...
+......c
 
 
 Arec:
-42% Perceptional Hex
-33% Manipulative Hex (Hesitation)
-10% Manipulative Shot (Hesitation)
-3% Manipulative Shot (Recklessness)
-12% Manipulative Burst
+28% Manipulative Hex (move to clone)
+10% Manipulative Shot (Recklessness)
+5% Manipulative Shot (move to clone)
+0% Manipulative Burst
+25% Manipulative Burst (Recklessness)
+31% Manipulative Grasp (Hesitation)
 
 Cadenza:
-26% Battery Press
-11% Battery Drive
-5% Grapnel Strike
-19% Grapnel Drive
-39% Mechanical Grasp
+36% Battery Shot
+8% Battery Dash
+11% Grapnel Strike
+24% Grapnel Grasp
+12% Mechanical Press
+9% Mechanical Grasp
 
 
-Arec: Perceptional Hex
-Cadenza: Mechanical Grasp
+Arec: Manipulative Grasp (Hesitation)
+Cadenza: Grapnel Strike
 
-Priorities:  4 | 3
+Arec antes a Hesitation token
+Priorities:  5 | 3
 Arec is active
 Arec hits
+Arec chooses Cadenza's base: Press
 Arec moves Cadenza:
-
-...AC..
-
-
-Arec moves Cadenza:
-
-...A.C.
-
-
-Cadenza takes 3 damage (now at 16 life)
-Cadenza misses
-Cadenza moves:
 
 .C.A...
 
 
+Cadenza takes 3 damage (now at 16 life)
+Cadenza misses
 
 Beat 3
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Perceptional Hex
+Life: 14
+Discard 1: Manipulative Grasp
 Discard 2: Mirrored Drive
 Special action available
-pool: Fear, Hesitation, Mercy, Recklessness
+pool: Fear, Mercy, Recklessness
+Manipulative forced base: Press
 
 Cadenza
 -------
 Life: 16
-Discard 1: Mechanical Grasp
-Discard 2: Clockwork Shot
+Discard 1: Grapnel Strike
+Discard 2: Clockwork Drive
 Special action available
 2 Iron Body tokens
 
@@ -166,332 +159,339 @@ Special action available
 
 
 Arec:
-5% Returning Strike (Fear)
-1% Returning Burst (Hesitation)
-22% Manipulative Shot (Fear)
-21% Manipulative Shot (Hesitation)
-12% Manipulative Shot (Recklessness)
-39% Manipulative Burst (Hesitation)
+5% Phantom Burst
+39% Phantom Dash
+34% Perceptional Hex
+13% Perceptional Burst
+10% Returning Shot (Recklessness)
 
 Cadenza:
-5% Battery Strike
-37% Battery Burst
-38% Hydraulic Press
-3% Hydraulic Strike
-10% Hydraulic Drive
-8% Grapnel Drive
+2% Battery Dash
+27% Hydraulic Press
+40% Hydraulic Shot
+22% Mechanical Press
+9% Mechanical Shot
 
 
-Arec: Manipulative Burst (Hesitation)
-Cadenza: Hydraulic Drive
+Arec: Perceptional Hex
+Cadenza: Mechanical Shot
 
-Arec antes a Hesitation token
-Priorities:  1 | 3
-Cadenza is active
-Arec moves:
-
-.C..A..
-
-
-Cadenza misses
+Cadenza loses 2 life (now at 14)
+Priorities:  4 | 0
+Arec is active
 Arec hits
-Arec chooses Cadenza's base: Strike
-Cadenza has 1 soak
-Cadenza takes 3 damage (now at 13 life)
-Cadenza is stunned
+Arec moves Cadenza:
+
+C..A...
+
+
+Arec recovers his Hesitation token
+Cadenza takes 3 damage (now at 11 life)
+Cadenza hits
+Arec takes 5 damage (now at 9 life)
+Arec is stunned
+Cadenza moves:
+
+..CA...
+
+
 
 Beat 4
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Manipulative Burst
-Discard 2: Perceptional Hex
-Special action available
-pool: Fear, Mercy, Recklessness
-Manipulative forced base: Strike
-
-Cadenza
--------
-Life: 13
-Discard 1: Hydraulic Drive
-Discard 2: Mechanical Grasp
-Special action available
-2 Iron Body tokens
-
-
-.C..A..
-
-
-Unbeatable strategy for Arec: Mirrored Drive: 0.72
-Unbeatable strategy for Arec: Mirrored Drive (Mercy): 0.32
-Unbeatable strategy for Arec: Mirrored Drive (Recklessness): 0.12
-
-
-Arec:
-36% Phantom Shot
-19% Returning Dash
-21% Mirrored Drive
-24% Mirrored Drive (Fear)
-
-Cadenza:
-8% Battery Strike
-72% Battery Dash
-11% Clockwork Strike
-10% Clockwork Shot
-
-
-Arec: Phantom Shot
-Cadenza: Battery Strike
-
-Priorities:  3 | 2
-Arec is active
-Arec hits
-Cadenza takes 2 damage (now at 11 life)
-Cadenza misses
-Arec recovers a Hesitation token
-Cadenza will have 4 priority next beat
-
-Beat 5
--------
-
-Arec
-----
-Life: 20
-Discard 1: Phantom Shot
-Discard 2: Manipulative Burst
+Life: 9
+Discard 1: Perceptional Hex
+Discard 2: Manipulative Grasp
 Special action available
 pool: Fear, Mercy, Recklessness, Hesitation
 
 Cadenza
 -------
 Life: 11
-Discard 1: Battery Strike
-Discard 2: Hydraulic Drive
+Discard 1: Mechanical Shot
+Discard 2: Grapnel Strike
+Special action available
+2 Iron Body tokens
+
+
+..CA...
+
+
+Unbeatable strategy for Arec: Phantom Drive (Recklessness): 0.18
+Unbeatable strategy for Arec: Returning Burst (Hesitation): 0.43
+Unbeatable strategy for Arec: Mirrored Dash: 0.12
+Unbeatable strategy for Arec: Mirrored Dash (Mercy): 0.02
+
+
+Arec:
+16% Phantom Burst (Hesitation)
+9% Returning Drive
+26% Returning Burst (Hesitation)
+24% Mirrored Drive
+5% Mirrored Drive (Recklessness)
+20% Mirrored Burst
+
+Cadenza:
+18% Battery Drive
+9% Battery Dash
+33% Clockwork Drive
+16% Clockwork Burst
+14% Clockwork Grasp
+10% Hydraulic Press
+
+
+Arec: Mirrored Burst
+Cadenza: Battery Drive
+
+Priorities:  1 | 3
+Cadenza is active
+Arec moves:
+
+..C..A.
+
+
+Cadenza moves:
+
+....CA.
+
+
+Cadenza hits
+Arec takes 4 damage (now at 5 life)
+Arec is stunned
+Cadenza will have 4 priority next beat
+Arec places clone:
+
+....CA.
+......c
+
+
+Beat 5
+-------
+
+Arec
+----
+Life: 5
+Discard 1: Mirrored Burst
+Discard 2: Perceptional Hex
+Special action available
+pool: Fear, Mercy, Recklessness, Hesitation
+
+Cadenza
+-------
+Life: 11
+Discard 1: Battery Drive
+Discard 2: Mechanical Shot
 Special action available
 Priority bonus: 4
 2 Iron Body tokens
 
 
-.C..A..
-
+....CA.
+......c
 
 
 Arec:
-19% Perceptional Drive (Recklessness)
-39% Mirrored Hex (Recklessness)
-40% Mirrored Strike (Mercy)
-3% Mirrored Grasp (Recklessness)
+4% Phantom Shot (Hesitation; move to clone)
+3% Returning Grasp (Fear; move to clone)
+92% Returning Dash (Fear)
+2% Manipulative Drive (Recklessness)
+0% Manipulative Drive (Hesitation; move to clone)
 
 Cadenza:
-19% Clockwork Shot
-21% Grapnel Burst
-37% Grapnel Grasp
-22% Mechanical Shot
+28% Hydraulic Press
+16% Hydraulic Strike
+22% Hydraulic Burst
+11% Hydraulic Grasp
+24% Grapnel Grasp
 
 
-Arec: Mirrored Hex (Recklessness)
-Cadenza: Grapnel Grasp
+Arec: Returning Dash (Fear)
+Cadenza: Hydraulic Grasp
 
-Arec antes a Recklessness token
-Priorities:  3 | 5
-Cadenza is active
-Cadenza hits
-Cadenza moves Arec:
+Arec antes a Fear token
+Priorities:  10 | 8
+Arec is active
+Arec moves:
 
-AC.....
-
-
-Cadenza moves Arec:
-
-.CA....
+.A..C..
 
 
-Arec takes 2 damage (now at 18 life)
-Arec is stunned
-Arec places clone:
+Cadenza moves:
 
-.CA....
-....c..
+.A.C...
 
+
+Cadenza misses
 
 Beat 6
 -------
 
 Arec
 ----
-Life: 18
-Discard 1: Mirrored Hex
-Discard 2: Phantom Shot
+Life: 5
+Discard 1: Returning Dash
+Discard 2: Mirrored Burst
 Special action available
-pool: Fear, Mercy, Hesitation
+pool: Mercy, Recklessness, Hesitation
 
 Cadenza
 -------
 Life: 11
-Discard 1: Grapnel Grasp
-Discard 2: Battery Strike
+Discard 1: Hydraulic Grasp
+Discard 2: Battery Drive
 Special action available
 2 Iron Body tokens
 
 
-.CA....
-....c..
+.A.C...
+
+
+Unbeatable strategy for Cadenza: Clockwork Shot: -10.00
+Unbeatable strategy for Cadenza: Clockwork Shot (Iron Body): -10.00
+Unbeatable strategy for Cadenza: Mechanical Shot: -10.00
+Unbeatable strategy for Cadenza: Mechanical Shot (Iron Body): -10.00
 
 
 Arec:
-37% Perceptional Burst (move to clone)
-23% Returning Burst (move to clone)
-32% Returning Burst (Hesitation; move to clone)
-5% Manipulative Strike (Fear)
-3% Manipulative Grasp (Hesitation)
+22% Manipulative Hex
+78% Special Uncanny Oblivion
 
 Cadenza:
-51% Clockwork Drive
-5% Clockwork Burst
-5% Hydraulic Shot
-12% Mechanical Shot
-27% Mechanical Drive
+78% Clockwork Shot
+22% Clockwork Burst
 
 
-Arec: Returning Burst (move to clone)
-Cadenza: Clockwork Drive
+Arec: Special Uncanny Oblivion
+Cadenza: Clockwork Shot
 
-Arec moves:
-
-.C..A..
-
-
-Priorities:  2 | 1
+Priorities:  8 | -1
 Arec is active
-Arec moves:
-
-.C....A
-
-
-Arec misses
-Cadenza moves:
-
-...C..A
-
-
-Cadenza misses
+Arec hits
+Cadenza's Clockwork style is removed from the game
+Cadenza's Shot <class 'src.BattleConAIFull.Base'> is removed from the game
+Cadenza takes 2 damage (now at 9 life)
+Cadenza is stunned
 
 Beat 7
 -------
 
 Arec
 ----
-Life: 18
-Discard 1: Returning Burst
-Discard 2: Mirrored Hex
-Special action available
-pool: Fear, Mercy, Hesitation
+Life: 5
+Discard 1: Returning Dash
+Discard 2: Mirrored Burst
+pool: Mercy, Recklessness, Hesitation
 
 Cadenza
 -------
-Life: 11
-Discard 1: Clockwork Drive
-Discard 2: Grapnel Grasp
+Life: 9
+Discard 1: 
+Discard 2: Hydraulic Grasp
+Removed cards: Clockwork Shot
 Special action available
 2 Iron Body tokens
 
 
-...C..A
+.A.C...
 
 
 
 Arec:
-15% Phantom Strike (Hesitation)
-35% Perceptional Shot
-37% Manipulative Shot
-3% Manipulative Shot (Hesitation)
-9% Manipulative Drive (Fear)
+90% Perceptional Hex
+3% Perceptional Strike
+5% Perceptional Drive
+2% Manipulative Shot (Hesitation)
 
 Cadenza:
-7% Battery Strike
-11% Battery Dash
-7% Hydraulic Press
-22% Hydraulic Shot
-46% Mechanical Shot
-7% Mechanical Shot (Iron Body)
+72% Battery Drive
+17% Battery Burst
+1% Mechanical Press
+10% Mechanical Burst
 
 
-Arec: Manipulative Shot
-Cadenza: Mechanical Shot
+Arec: Perceptional Strike
+Cadenza: Battery Drive
 
-Priorities:  2 | 0
+Priorities:  4 | 3
 Arec is active
 Arec hits
-Arec chooses Cadenza's base: Strike
-Cadenza takes 4 damage (now at 7 life)
-Arec recovers a Recklessness token
+Arec moves Cadenza:
+
+.AC....
+
+
+Cadenza takes 4 damage (now at 5 life)
 Cadenza spends an Iron Body token
 Cadenza gains infinite stunguard
+Cadenza moves:
+
+CA.....
+
+
 Cadenza hits
-Arec takes 5 damage (now at 13 life)
-Arec is stunned
+Arec takes 4 damage (now at 1 life)
+Cadenza will have 4 priority next beat
 
 Beat 8
 -------
 
 Arec
 ----
-Life: 13
-Discard 1: Manipulative Shot
-Discard 2: Returning Burst
-Special action available
-pool: Fear, Mercy, Hesitation, Recklessness
-Manipulative forced base: Strike
+Life: 1
+Discard 1: Perceptional Strike
+Discard 2: Returning Dash
+pool: Mercy, Recklessness, Hesitation
 
 Cadenza
 -------
-Life: 7
-Discard 1: Mechanical Shot
-Discard 2: Clockwork Drive
+Life: 5
+Discard 1: Battery Drive
+Discard 2: 
+Removed cards: Clockwork Shot
 Special action available
-1 Iron Body tokens
+Priority bonus: 4
+1 Iron Body token
 
 
-...C..A
+CA.....
 
 
-Unbeatable strategy for Arec: Perceptional Grasp: 0.07
+Unbeatable strategy for Arec: Mirrored Burst: 0.40
+Unbeatable strategy for Arec: Mirrored Burst (Mercy): 0.00
 
 
 Arec:
-22% Mirrored Hex
-31% Mirrored Hex (Mercy)
-23% Mirrored Strike (Mercy)
-24% Mirrored Drive
+2% Mirrored Hex (Recklessness)
+27% Mirrored Hex (Hesitation)
+67% Mirrored Burst (Hesitation)
+4% Manipulative Burst
 
 Cadenza:
-18% Hydraulic Strike
-8% Hydraulic Burst
-68% Grapnel Strike
-5% Grapnel Grasp
+32% Hydraulic Strike
+7% Grapnel Strike
+41% Grapnel Grasp
+21% Mechanical Burst
 
 
-Arec: Mirrored Hex (Mercy)
-Cadenza: Hydraulic Strike
+Arec: Mirrored Burst (Hesitation)
+Cadenza: Mechanical Burst
 
-Arec antes a Mercy token
-Priorities:  3 | 2
-Arec is active
-Arec hits
-Cadenza has 1 soak
-Cadenza takes 3 damage (now at 4 life)
-Cadenza moves:
+Arec antes a Hesitation token
+Priorities:  1 | 3
+Cadenza is active
+Arec moves:
 
-....C.A
+C.A....
 
 
 Cadenza misses
+Arec misses
 Arec places clone:
 
-....C.A
-...c...
+C.A....
+.c.....
 
 
 Beat 9
@@ -499,159 +499,286 @@ Beat 9
 
 Arec
 ----
-Life: 13
-Discard 1: Mirrored Hex
-Discard 2: Manipulative Shot
-Special action available
-pool: Fear, Hesitation, Recklessness
+Life: 1
+Discard 1: Mirrored Burst
+Discard 2: Perceptional Strike
+pool: Mercy, Recklessness
 
 Cadenza
 -------
-Life: 4
-Discard 1: Hydraulic Strike
-Discard 2: Mechanical Shot
+Life: 5
+Discard 1: Mechanical Burst
+Discard 2: Battery Drive
+Removed cards: Clockwork Shot
 Special action available
-1 Iron Body tokens
+1 Iron Body token
 
 
-....C.A
-...c...
+C.A....
+.c.....
+
+Unbeatable strategy for Cadenza: Hydraulic Press: -1.54
+Unbeatable strategy for Cadenza: Hydraulic Strike: -1.20
 
 
 Arec:
-5% Perceptional Strike
-16% Perceptional Dash
-4% Returning Strike (Fear; move to clone)
-4% Returning Strike (Hesitation; move to clone)
-71% Returning Dash
+97% Phantom Dash
+3% Phantom Dash (move to clone)
 
 Cadenza:
-7% Battery Burst
-13% Battery Grasp
-18% Battery Dash
-57% Clockwork Press
-5% Grapnel Burst
+100% Hydraulic Press
 
 
-Arec: Returning Dash
-Cadenza: Clockwork Press
+Arec: Phantom Dash
+Cadenza: Hydraulic Press
 
-Priorities:  10 | -3
+Priorities:  10 | -1
 Arec is active
 Arec moves:
 
-...AC..
+C...A..
+
+
+Cadenza moves:
+
+.C..A..
 
 
 Cadenza misses
+Arec recovers his Hesitation token
 
 Beat 10
 -------
 
 Arec
 ----
-Life: 13
-Discard 1: Returning Dash
-Discard 2: Mirrored Hex
-Special action available
-pool: Fear, Hesitation, Recklessness
+Life: 1
+Discard 1: Phantom Dash
+Discard 2: Mirrored Burst
+pool: Mercy, Recklessness, Hesitation
 
 Cadenza
 -------
-Life: 4
-Discard 1: Clockwork Press
-Discard 2: Hydraulic Strike
+Life: 5
+Discard 1: Hydraulic Press
+Discard 2: Mechanical Burst
+Removed cards: Clockwork Shot
 Special action available
-1 Iron Body tokens
+1 Iron Body token
 
 
-...AC..
+.C..A..
 
+
+Unbeatable strategy for Arec: Perceptional Grasp: 1.30
+Unbeatable strategy for Arec: Perceptional Grasp (Recklessness): 0.70
+Unbeatable strategy for Arec: Perceptional Grasp (Hesitation): 0.90
 
 
 Arec:
-5% Perceptional Strike
-2% Manipulative Shot (Hesitation)
-48% Manipulative Drive (Fear)
-45% Manipulative Burst (Hesitation)
+12% Perceptional Hex
+7% Perceptional Hex (Hesitation)
+66% Perceptional Drive
+16% Returning Drive
 
 Cadenza:
-2% Battery Shot
-43% Battery Burst
-38% Battery Grasp
-17% Grapnel Dash
+52% Battery Drive
+38% Battery Dash
+11% Grapnel Grasp
 
 
-Arec: Manipulative Drive (Fear)
-Cadenza: Grapnel Dash
+Arec: Perceptional Hex
+Cadenza: Battery Drive
 
-Arec antes a Fear token
-Priorities:  4 | 9
-Cadenza is active
-Cadenza moves:
+Priorities:  4 | 3
+Arec is active
+Arec antes a Hesitation token
+Arec hits
+Arec moves Cadenza:
 
-..CA...
-
-
-Arec moves:
-
-.AC....
+..C.A..
 
 
-Arec misses
+Arec recovers his Fear token
+Cadenza takes 3 damage (now at 2 life)
+Cadenza misses
+Cadenza will have 4 priority next beat
 
 Beat 11
 -------
 
 Arec
 ----
-Life: 13
-Discard 1: Manipulative Drive
-Discard 2: Returning Dash
-Special action available
-pool: Hesitation, Recklessness
+Life: 1
+Discard 1: Perceptional Hex
+Discard 2: Phantom Dash
+pool: Mercy, Recklessness, Fear
 
 Cadenza
 -------
-Life: 4
-Discard 1: Grapnel Dash
-Discard 2: Clockwork Press
+Life: 2
+Discard 1: Battery Drive
+Discard 2: Hydraulic Press
+Removed cards: Clockwork Shot
 Special action available
-1 Iron Body tokens
+Priority bonus: 4
+1 Iron Body token
 
+
+..C.A..
+
+
+Unbeatable strategy for Arec: Mirrored Shot (Recklessness): 1.07
+Unbeatable strategy for Arec: Mirrored Shot (Fear): 1.17
+Unbeatable strategy for Arec: Mirrored Drive (Fear): 0.60
+Unbeatable strategy for Arec: Mirrored Burst (Fear): 0.23
+
+
+Arec:
+13% Mirrored Shot (Fear)
+13% Mirrored Drive
+74% Mirrored Grasp
+
+Cadenza:
+4% Grapnel Burst
+96% Grapnel Dash
+0% Mechanical Burst
+
+
+Arec: Mirrored Drive
+Cadenza: Grapnel Dash
+
+Priorities:  4 | 13
+Cadenza is active
+Cadenza moves:
+
+....A.C
+
+
+Arec moves:
+
+.....AC
+
+
+Arec misses
+Arec places clone:
+
+.....AC
+c......
+
+
+Beat 12
+-------
+
+Arec
+----
+Life: 1
+Discard 1: Mirrored Drive
+Discard 2: Perceptional Hex
+pool: Mercy, Recklessness, Fear
+
+Cadenza
+-------
+Life: 2
+Discard 1: Grapnel Dash
+Discard 2: Battery Drive
+Removed cards: Clockwork Shot
+Special action available
+1 Iron Body token
+
+
+.....AC
+c......
+
+Unbeatable strategy for Arec: Returning Strike: 7.00
+Unbeatable strategy for Arec: Returning Strike (Mercy): 7.00
+Unbeatable strategy for Arec: Returning Strike (Recklessness): 7.00
+Unbeatable strategy for Arec: Returning Strike (Fear): 7.00
+Unbeatable strategy for Arec: Returning Burst: 7.00
+Unbeatable strategy for Arec: Returning Burst (Mercy): 7.00
+Unbeatable strategy for Arec: Returning Burst (Recklessness): 7.00
+Unbeatable strategy for Arec: Manipulative Grasp: 7.00
+Unbeatable strategy for Arec: Manipulative Grasp (Mercy): 7.00
+Unbeatable strategy for Arec: Manipulative Grasp (Recklessness): 7.00
+Unbeatable strategy for Arec: Manipulative Grasp (Fear): 7.00
+
+
+Arec:
+85% Phantom Burst
+15% Phantom Burst (move to clone)
+
+Cadenza:
+100% Special Pulse
+
+
+Arec: Phantom Burst
+Cadenza: Special Pulse
+
+Cadenza Pulses:
 
 .AC....
 
 
 
+Beat 12
+-------
+
+Arec
+----
+Life: 1
+Discard 1: Phantom Burst
+Discard 2: Mirrored Drive
+pool: Mercy, Recklessness, Fear
+
+Cadenza
+-------
+Life: 2
+Discard 1: Grapnel Dash
+Discard 2: Battery Drive
+Removed cards: Clockwork Shot
+1 Iron Body token
+
+
+.AC....
+
+
+Unbeatable strategy for Arec: Returning Hex: 7.00
+Unbeatable strategy for Arec: Returning Hex (Mercy): 7.00
+Unbeatable strategy for Arec: Returning Hex (Recklessness): 7.00
+Unbeatable strategy for Arec: Returning Hex (Fear): 7.00
+Unbeatable strategy for Arec: Returning Strike (Fear): 7.00
+Unbeatable strategy for Arec: Manipulative Grasp (Fear): 7.00
+
+
 Arec:
-35% Phantom Strike
-13% Phantom Burst
-33% Phantom Burst (Hesitation)
-6% Mirrored Hex
-10% Mirrored Hex (Hesitation)
-3% Mirrored Strike
-1% Mirrored Burst
+17% Returning Hex
+17% Returning Hex (Mercy)
+17% Returning Hex (Recklessness)
+17% Returning Hex (Fear)
+17% Returning Strike (Fear)
+17% Manipulative Grasp (Fear)
 
 Cadenza:
-5% Battery Drive
-48% Battery Grasp
-8% Hydraulic Strike
-4% Hydraulic Shot
-7% Hydraulic Grasp
-15% Mechanical Shot
-13% Mechanical Grasp
+2% Hydraulic Press
+5% Hydraulic Press (Iron Body)
+4% Hydraulic Strike
+4% Hydraulic Strike (Iron Body)
+4% Hydraulic Burst
+11% Hydraulic Burst (Iron Body)
+18% Hydraulic Grasp
+8% Hydraulic Grasp (Iron Body)
+4% Mechanical Press
+5% Mechanical Press (Iron Body)
+4% Mechanical Strike
+6% Mechanical Strike (Iron Body)
+6% Mechanical Burst
+8% Mechanical Burst (Iron Body)
+4% Mechanical Grasp
+7% Mechanical Grasp (Iron Body)
 
 
-Arec: Phantom Strike
-Cadenza: Battery Grasp
-
-Priorities:  4 | 4
-Clash!
-
-
-Arec: Phantom Hex
-Cadenza: Battery Shot
+Arec: Returning Hex
+Cadenza: Mechanical Strike
 
 Priorities:  4 | 1
 Arec is active
@@ -661,231 +788,7 @@ Arec moves Cadenza:
 CA.....
 
 
-Arec recovers a Fear token
-Cadenza takes 2 damage (now at 2 life)
-Cadenza hits
-Arec takes 4 damage (now at 9 life)
-Arec is stunned
-Arec recovers a Mercy token
-Cadenza will have 4 priority next beat
-
-Beat 12
--------
-
-Arec
-----
-Life: 9
-Discard 1: Phantom Hex
-Discard 2: Manipulative Drive
-Special action available
-pool: Hesitation, Recklessness, Fear, Mercy
-
-Cadenza
--------
-Life: 2
-Discard 1: Battery Shot
-Discard 2: Grapnel Dash
-Special action available
-Priority bonus: 4
-1 Iron Body tokens
-
-
-CA.....
-
-
-
-Arec:
-29% Perceptional Burst
-8% Perceptional Burst (Recklessness)
-5% Mirrored Burst (Hesitation)
-11% Mirrored Burst (Recklessness)
-47% Mirrored Dash
-
-Cadenza:
-31% Clockwork Press
-32% Clockwork Drive
-18% Clockwork Burst
-18% Hydraulic Drive
-1% Mechanical Press
-
-
-Arec: Mirrored Dash
-Cadenza: Clockwork Drive
-
-Priorities:  9 | 5
-Arec is active
-Arec moves:
-
-C...A..
-
-
-Cadenza moves:
-
-..C.A..
-
-
-Cadenza misses
-Arec places clone:
-
-..C.A..
-...c...
-
-
-Beat 13
--------
-
-Arec
-----
-Life: 9
-Discard 1: Mirrored Dash
-Discard 2: Phantom Hex
-Special action available
-pool: Hesitation, Recklessness, Fear, Mercy
-
-Cadenza
--------
-Life: 2
-Discard 1: Clockwork Drive
-Discard 2: Battery Shot
-Special action available
-1 Iron Body tokens
-
-
-..C.A..
-...c...
-
-Unbeatable strategy for Arec: Returning Shot (Hesitation): 7.00
-Unbeatable strategy for Arec: Returning Burst (Hesitation; move to clone): 7.00
-
-
-Arec:
-45% Perceptional Strike (Mercy)
-16% Perceptional Burst (Mercy)
-28% Perceptional Grasp
-3% Returning Shot (Mercy; move to clone)
-1% Returning Drive (Mercy; move to clone)
-7% Returning Burst (Mercy)
-
-Cadenza:
-1% Hydraulic Grasp
-1% Hydraulic Dash
-1% Grapnel Strike
-84% Special Pulse
-1% Special Rocket Press
-14% Special Feedback Field
-
-
-Arec: Perceptional Burst (Mercy)
-Cadenza: Special Pulse
-
-Arec antes a Mercy token
-Pulse:
-
-.A....C
-
-
-
-Beat 13
--------
-
-Arec
-----
-Life: 9
-Discard 1: Perceptional Burst
-Discard 2: Mirrored Dash
-Special action available
-pool: Hesitation, Recklessness, Fear
-
-Cadenza
--------
-Life: 2
-Discard 1: Clockwork Drive
-Discard 2: Battery Shot
-1 Iron Body tokens
-
-
-.A....C
-
-
-
-Arec:
-17% Phantom Shot
-17% Phantom Shot (Recklessness)
-17% Phantom Shot (Fear)
-17% Phantom Drive
-17% Phantom Drive (Recklessness)
-17% Phantom Drive (Fear)
-
-Cadenza:
-3% Hydraulic Press
-3% Hydraulic Press (Iron Body)
-2% Hydraulic Strike
-3% Hydraulic Strike (Iron Body)
-3% Hydraulic Burst
-3% Hydraulic Burst (Iron Body)
-3% Hydraulic Grasp
-4% Hydraulic Grasp (Iron Body)
-3% Hydraulic Dash
-3% Hydraulic Dash (Iron Body)
-3% Grapnel Press
-3% Grapnel Press (Iron Body)
-5% Grapnel Strike
-5% Grapnel Strike (Iron Body)
-3% Grapnel Burst
-3% Grapnel Burst (Iron Body)
-6% Grapnel Grasp
-15% Grapnel Grasp (Iron Body)
-3% Grapnel Dash
-3% Grapnel Dash (Iron Body)
-3% Mechanical Press
-3% Mechanical Press (Iron Body)
-2% Mechanical Strike
-2% Mechanical Strike (Iron Body)
-3% Mechanical Burst
-3% Mechanical Burst (Iron Body)
-2% Mechanical Grasp
-2% Mechanical Grasp (Iron Body)
-3% Mechanical Dash
-3% Mechanical Dash (Iron Body)
-
-
-Arec: Phantom Drive (Recklessness)
-Cadenza: Grapnel Grasp (Iron Body)
-
-Arec antes a Recklessness token
-Cadenza antes an Iron Body token
-Priorities:  5 | 5
-Clash!
-
-
-Arec: Phantom Shot (Recklessness)
-Cadenza: Grapnel Strike (Iron Body)
-
-Arec antes a Recklessness token
-Cadenza antes an Iron Body token
-Priorities:  3 | 3
-Clash!
-
-
-Arec: Phantom Hex (Recklessness)
-Cadenza: Grapnel Dash (Iron Body)
-
-Arec antes a Recklessness token
-Cadenza antes an Iron Body token
-Priorities:  4 | 9
-Cadenza is active
-Cadenza moves:
-
-.A.C...
-
-
-Arec hits
-Arec moves Cadenza:
-
-.AC....
-
-
-Arec recovers a Mercy token
-Cadenza takes 2 damage (now at 0 life)
+Arec recovers his Hesitation token
+Cadenza takes 3 damage (now at 0 life)
 AREC WINS!
-total_time: 131
+total_time: 94

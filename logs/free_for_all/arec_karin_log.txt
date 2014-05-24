@@ -31,26 +31,34 @@ Special action available
 
 
 Arec:
-33% Perceptional Shot
-29% Perceptional Drive
-20% Perceptional Burst
-15% Mirrored Hex (Hesitation)
-3% Mirrored Burst (Hesitation)
+35% Perceptional Drive
+19% Perceptional Burst
+25% Returning Shot (Hesitation)
+2% Returning Shot (Mercy)
+19% Mirrored Hex (Hesitation)
 
 Karin:
-35% Coordinated Dash
-31% Full Moon Claw
-21% Full Moon Shot
-6% Feral Claw
-7% Feral Shot
+24% Coordinated Dash
+41% Full Moon Claw
+3% Feral Claw
+31% Feral Shot
+2% Feral Drive
+
+
+Arec: Perceptional Drive
+Karin: Full Moon Claw
+
+Priorities:  5 | 5
+Clash!
 
 
 Arec: Perceptional Shot
-Karin: Coordinated Dash
+Karin: Full Moon Drive
 
-Priorities:  3 | 9
+Priorities:  3 | 5
 Karin is active
 Arec antes a Hesitation token
+Karin misses
 Arec hits
 Arec moves Karin:
 
@@ -60,12 +68,6 @@ Arec moves Karin:
 
 Karin takes 3 damage (now at 17 life)
 Karin is stunned
-Jager moves:
-
-.A..K..
-
-...j...
-
 
 Beat 2
 -------
@@ -81,46 +83,58 @@ pool: Fear, Mercy, Recklessness
 Karin
 -----
 Life: 17
-Discard 1: Coordinated Dash
+Discard 1: Full Moon Drive
 Discard 2: Dual Grasp
 Special action available
 
 
 .A..K..
 
-...j...
+....j..
 
 
 Arec:
-17% Returning Drive
-10% Returning Drive (Fear)
-17% Returning Drive (Mercy)
-56% Mirrored Grasp (Fear)
+17% Returning Drive (Fear)
+11% Mirrored Drive (Fear)
+13% Mirrored Burst
+12% Mirrored Grasp
+42% Mirrored Grasp (Fear)
+4% Mirrored Dash
 
 Karin:
-20% Howling Claw
-4% Full Moon Strike
-69% Full Moon Drive
-7% Full Moon Burst
+2% Howling Shot
+11% Howling Burst
+23% Howling Dash
+1% Coordinated Dash
+32% Feral Claw
+31% Feral Dash
 
 
-Arec: Returning Drive (Mercy)
-Karin: Full Moon Drive
+Arec: Mirrored Grasp (Fear)
+Karin: Feral Dash
 
-Arec antes a Mercy token
-Priorities:  5 | 5
-Arec is active
-Karin is stunned
-Arec moves:
+Arec antes a Fear token
+Priorities:  5 | 10
+Karin is active
+Karin moves:
 
-..A.K..
+KA.....
+
+....j..
+
+Arec misses
+Jager moves:
+
+KA.....
 
 ...j...
 
-Arec hits
-Karin has 2 soak
-Karin takes 1 damage (now at 16 life)
-Karin is stunned
+Arec places clone:
+
+KA.....
+......c
+...j...
+
 
 Beat 3
 -------
@@ -128,62 +142,71 @@ Beat 3
 Arec
 ----
 Life: 20
-Discard 1: Returning Drive
+Discard 1: Mirrored Grasp
 Discard 2: Perceptional Shot
 Special action available
-pool: Fear, Recklessness
+pool: Mercy, Recklessness
 
 Karin
 -----
-Life: 16
-Discard 1: Full Moon Drive
-Discard 2: Coordinated Dash
+Life: 17
+Discard 1: Feral Dash
+Discard 2: Full Moon Drive
 Special action available
 
 
-..A.K..
-
+KA.....
+......c
 ...j...
 
-Unbeatable strategy for Karin: Feral Claw: -0.33
+Unbeatable strategy for Arec: Returning Hex (move to clone): 0.24
 
 
 Arec:
-55% Mirrored Burst
-37% Mirrored Grasp (Fear)
-8% Mirrored Grasp (Recklessness)
+64% Returning Hex (move to clone)
+7% Manipulative Hex (move to clone)
+29% Manipulative Drive
 
 Karin:
-33% Howling Grasp
-43% Feral Claw
-24% Dual Shot
+48% Howling Shot
+42% Howling Burst
+9% Dual Grasp
 
 
-Arec: Mirrored Burst
-Karin: Howling Grasp
+Arec: Returning Hex (move to clone)
+Karin: Howling Burst
 
-Priorities:  1 | 6
-Karin is active
 Arec moves:
 
-A...K..
+K.....A
 
 ...j...
 
-Karin misses
+Priorities:  4 | 2
+Arec is active
 Arec hits
-Karin takes 4 damage (now at 12 life)
+Arec moves Karin:
+
+.K....A
+
+...j...
+
+Arec recovers his Hesitation token
+Karin takes 3 damage (now at 14 life)
+Karin hits
+Arec takes 3 damage (now at 17 life)
+Arec is stunned
 Jager moves:
 
-A...K..
+.K....A
 
-..j....
+....j..
 
-Arec places clone:
+Jager moves:
 
-A...K..
-......c
-..j....
+.K....A
+
+.....j.
 
 
 Beat 4
@@ -191,80 +214,285 @@ Beat 4
 
 Arec
 ----
-Life: 20
-Discard 1: Mirrored Burst
-Discard 2: Returning Drive
+Life: 17
+Discard 1: Returning Hex
+Discard 2: Mirrored Grasp
 Special action available
-pool: Fear, Recklessness
+pool: Mercy, Recklessness, Hesitation
 
 Karin
 -----
-Life: 12
-Discard 1: Howling Grasp
-Discard 2: Full Moon Drive
+Life: 14
+Discard 1: Howling Burst
+Discard 2: Feral Dash
 Special action available
 
 
-A...K..
-......c
-..j....
+.K....A
+
+.....j.
+
+Unbeatable strategy for Karin: Full Moon Strike: -0.47
+Unbeatable strategy for Karin: Full Moon Drive: -0.49
 
 
 Arec:
-12% Phantom Strike (move to clone)
-43% Phantom Grasp (move to clone)
-12% Perceptional Hex (move to clone)
-12% Perceptional Strike (move to clone)
-5% Perceptional Grasp (move to clone)
-16% Manipulative Hex (Fear; move to clone)
+5% Phantom Strike (Mercy)
+31% Perceptional Shot
+19% Perceptional Drive
+32% Manipulative Strike
+5% Manipulative Strike (Hesitation)
+9% Manipulative Shot
 
 Karin:
-3% Coordinated Claw
-14% Coordinated Strike
-2% Coordinated Burst
-40% Feral Claw
-3% Feral Shot
-37% Dual Dash
+8% Coordinated Strike
+13% Coordinated Shot
+26% Full Moon Claw
+37% Full Moon Strike
+12% Full Moon Shot
+3% Full Moon Drive
 
 
-Arec: Phantom Strike (move to clone)
-Karin: Feral Shot
+Arec: Manipulative Strike
+Karin: Full Moon Strike
 
-Arec moves:
+Priorities:  3 | 4
+Karin is active
+Karin misses
+Arec misses
+Jager moves:
 
-....K.A
+.K....A
 
-..j....
+......j
 
-Priorities:  4 | 3
-Arec is active
-Karin moves:
-
-.....KA
-
-..j....
-
-Arec hits
-Karin takes 3 damage (now at 9 life)
-Karin is stunned
-Arec recovers a Hesitation token
 
 Beat 5
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Phantom Strike
-Discard 2: Mirrored Burst
+Life: 17
+Discard 1: Manipulative Strike
+Discard 2: Returning Hex
 Special action available
-pool: Fear, Recklessness, Hesitation
+pool: Mercy, Recklessness, Hesitation
 
 Karin
 -----
+Life: 14
+Discard 1: Full Moon Strike
+Discard 2: Howling Burst
+Special action available
+
+
+.K....A
+
+......j
+
+
+Arec:
+10% Perceptional Drive
+40% Mirrored Shot (Hesitation)
+49% Mirrored Drive (Mercy)
+
+Karin:
+27% Coordinated Drive
+40% Feral Shot
+33% Dual Grasp
+
+
+Arec: Mirrored Drive (Mercy)
+Karin: Dual Grasp
+
+Arec antes a Mercy token
+Priorities:  4 | 5
+Karin is active
+Jager moves:
+
+.K....A
+
+..j....
+
+Karin moves Arec:
+
+.KA....
+
+..j....
+
+Karin hits
+Arec takes 2 damage (now at 15 life)
+Arec is stunned
+Jager moves:
+
+.KA....
+
+...j...
+
+Arec places clone:
+
+.KA....
+......c
+...j...
+
+
+Beat 6
+-------
+
+Arec
+----
+Life: 15
+Discard 1: Mirrored Drive
+Discard 2: Manipulative Strike
+Special action available
+pool: Recklessness, Hesitation
+
+Karin
+-----
+Life: 14
+Discard 1: Dual Grasp
+Discard 2: Full Moon Strike
+Special action available
+
+
+.KA....
+......c
+...j...
+
+Unbeatable strategy for Karin: Howling Shot: -0.68
+
+
+Arec:
+36% Perceptional Hex
+47% Perceptional Shot (move to clone)
+17% Perceptional Burst (move to clone)
+
+Karin:
+10% Howling Drive
+61% Howling Burst
+29% Feral Shot
+
+
+Arec: Perceptional Shot (move to clone)
+Karin: Howling Burst
+
+Arec moves:
+
+.K....A
+
+...j...
+
+Priorities:  3 | 2
+Arec is active
+Karin moves:
+
+K.....A
+
+...j...
+
+Arec hits
+Arec moves Karin:
+
+.K....A
+
+...j...
+
+Karin takes 3 damage (now at 11 life)
+Karin hits
+Arec takes 3 damage (now at 12 life)
+Arec is stunned
+Jager moves:
+
+.K....A
+
+....j..
+
+Jager moves:
+
+.K....A
+
+.....j.
+
+
+Beat 7
+-------
+
+Arec
+----
+Life: 12
+Discard 1: Perceptional Shot
+Discard 2: Mirrored Drive
+Special action available
+pool: Recklessness, Hesitation
+
+Karin
+-----
+Life: 11
+Discard 1: Howling Burst
+Discard 2: Dual Grasp
+Special action available
+
+
+.K....A
+
+.....j.
+
+
+Arec:
+16% Phantom Hex
+42% Phantom Strike
+15% Returning Hex
+19% Returning Hex (Hesitation)
+4% Returning Strike
+4% Manipulative Strike (Hesitation)
+
+Karin:
+8% Full Moon Claw
+15% Full Moon Strike
+21% Full Moon Shot
+41% Full Moon Drive
+13% Feral Claw
+3% Feral Shot
+
+
+Arec: Returning Hex (Hesitation)
+Karin: Full Moon Drive
+
+Arec antes a Hesitation token
+Priorities:  4 | 5
+Karin is active
+Karin moves:
+
+.....KA
+
+.....j.
+
+Karin hits
+Arec takes 3 damage (now at 9 life)
+Arec is stunned
+Jager moves:
+
+.....KA
+
+..j....
+
+
+Beat 8
+-------
+
+Arec
+----
 Life: 9
-Discard 1: Feral Shot
-Discard 2: Howling Grasp
+Discard 1: Returning Hex
+Discard 2: Perceptional Shot
+Special action available
+pool: Recklessness
+
+Karin
+-----
+Life: 11
+Discard 1: Full Moon Drive
+Discard 2: Howling Burst
 Special action available
 
 
@@ -274,256 +502,151 @@ Special action available
 
 
 Arec:
-9% Returning Hex (Fear)
-40% Returning Grasp (Fear)
-8% Manipulative Hex (Fear)
-43% Manipulative Grasp (Fear)
+36% Phantom Strike
+39% Phantom Grasp
+25% Mirrored Drive
 
 Karin:
-38% Coordinated Strike
-27% Full Moon Claw
-21% Full Moon Strike
-15% Dual Dash
+31% Coordinated Strike
+3% Feral Strike
+66% Feral Grasp
 
 
-Arec: Manipulative Grasp (Fear)
-Karin: Coordinated Strike
+Arec: Phantom Strike
+Karin: Feral Grasp
 
-Arec antes a Fear token
-Priorities:  5 | 3
-Arec is active
-Arec hits
-Arec chooses Karin's base: Burst
-Arec moves Karin:
-
-....K.A
-
-..j....
-
-Karin takes 3 damage (now at 6 life)
-Arec recovers a Mercy token
-Karin hits
-Arec takes 4 damage (now at 16 life)
-Arec is stunned
-
-Beat 6
--------
-
-Arec
-----
-Life: 16
-Discard 1: Manipulative Grasp
-Discard 2: Phantom Strike
-Special action available
-pool: Recklessness, Hesitation, Mercy
-Manipulative forced base: Burst
-
-Karin
------
-Life: 6
-Discard 1: Coordinated Strike
-Discard 2: Feral Shot
-Special action available
-
-
-....K.A
-
-..j....
-
-Unbeatable strategy for Arec: Mirrored Hex (Hesitation): 0.78
-
-
-Arec:
-21% Mirrored Hex
-44% Mirrored Hex (Hesitation)
-35% Mirrored Shot (Hesitation)
-
-Karin:
-14% Full Moon Drive
-8% Full Moon Burst
-79% Special Pulse
-
-
-Arec: Mirrored Shot (Hesitation)
-Karin: Full Moon Drive
-
-Arec antes a Hesitation token
-Karin loses 2 life (now at 4)
-Priorities:  2 | 5
+Priorities:  4 | 6
 Karin is active
-Karin moves:
+Karin hits
+Karin moves Arec:
 
-..K...A
+....AK.
 
 ..j....
 
-Karin misses
+Arec takes 2 damage (now at 7 life)
 Arec hits
-Karin has 2 soak
-Karin takes 2 damage (now at 2 life)
+Karin takes 3 damage (now at 8 life)
 Karin is stunned
-Arec places clone:
+Arec recovers his Hesitation token
 
-..K...A
-c......
-....j..
-
-
-Beat 7
+Beat 9
 -------
 
 Arec
 ----
-Life: 16
-Discard 1: Mirrored Shot
-Discard 2: Manipulative Grasp
-Special action available
-pool: Recklessness, Mercy
-
-Karin
------
-Life: 2
-Discard 1: Full Moon Drive
-Discard 2: Coordinated Strike
-Special action available
-
-
-..K...A
-c......
-....j..
-
-
-Arec:
-45% Phantom Drive
-38% Phantom Drive (move to clone)
-17% Returning Hex
-
-Karin:
-0% Feral Grasp
-0% Dual Burst
-100% Special Pulse
-
-
-Arec: Returning Hex
-Karin: Special Pulse
-
-Pulse:
-
-K...A..
-
-....j..
-
-
-Beat 7
--------
-
-Arec
-----
-Life: 16
-Discard 1: Returning Hex
-Discard 2: Mirrored Shot
-Special action available
-pool: Recklessness, Mercy
-
-Karin
------
-Life: 2
-Discard 1: Full Moon Drive
-Discard 2: Coordinated Strike
-
-
-K...A..
-
-....j..
-
-
-Arec:
-5% Phantom Strike (Mercy)
-26% Phantom Drive (Mercy)
-2% Phantom Grasp (Mercy)
-66% Phantom Dash
-
-Karin:
-25% Howling Claw
-20% Howling Shot
-6% Howling Burst
-49% Howling Grasp
-
-
-Arec: Phantom Drive (Mercy)
-Karin: Howling Grasp
-
-Arec antes a Mercy token
-Priorities:  5 | 6
-Karin is active
-Karin hits
-Arec takes 2 damage (now at 14 life)
-Arec is stunned
-Jager moves:
-
-K...A..
-
-...j...
-
-Jager moves:
-
-K...A..
-
-....j..
-
-Arec recovers a Hesitation token
-
-Beat 8
--------
-
-Arec
-----
-Life: 14
-Discard 1: Phantom Drive
+Life: 7
+Discard 1: Phantom Strike
 Discard 2: Returning Hex
 Special action available
 pool: Recklessness, Hesitation
 
 Karin
 -----
-Life: 2
-Discard 1: Howling Grasp
+Life: 8
+Discard 1: Feral Grasp
 Discard 2: Full Moon Drive
+Special action available
 
 
-K...A..
+....AK.
 
-....j..
+..j....
 
 
 Arec:
-42% Perceptional Shot
-1% Perceptional Shot (Recklessness)
-13% Mirrored Strike (Hesitation)
-42% Mirrored Shot (Hesitation)
-1% Mirrored Burst (Hesitation)
+12% Mirrored Shot
+13% Mirrored Burst
+74% Mirrored Dash
+0% Manipulative Drive
+2% Manipulative Grasp (Hesitation)
 
 Karin:
-40% Coordinated Shot
-43% Feral Claw
-14% Feral Shot
-2% Dual Shot
+3% Howling Claw
+10% Howling Strike
+43% Coordinated Strike
+25% Coordinated Burst
+19% Coordinated Dash
 
 
-Arec: Mirrored Shot (Hesitation)
-Karin: Feral Claw
+Arec: Mirrored Shot
+Karin: Coordinated Strike
 
-Arec antes a Hesitation token
-Priorities:  2 | 5
+Priorities:  2 | 3
 Karin is active
+Karin hits
+Arec takes 4 damage (now at 3 life)
+Arec is stunned
+Jager moves:
+
+....AK.
+
+...j...
+
+Arec places clone:
+
+....AK.
+c......
+...j...
+
+
+Beat 10
+-------
+
+Arec
+----
+Life: 3
+Discard 1: Mirrored Shot
+Discard 2: Phantom Strike
+Special action available
+pool: Recklessness, Hesitation
+
+Karin
+-----
+Life: 8
+Discard 1: Coordinated Strike
+Discard 2: Feral Grasp
+Special action available
+
+
+....AK.
+c......
+...j...
+
+Unbeatable strategy for Karin: Howling Shot: -1.15
+
+
+Arec:
+0% Returning Burst
+92% Returning Dash
+7% Manipulative Burst
+0% Manipulative Burst (Hesitation)
+
+Karin:
+55% Howling Burst
+25% Full Moon Shot
+4% Full Moon Drive
+16% Full Moon Burst
+
+
+Arec: Manipulative Burst
+Karin: Full Moon Drive
+
+Priorities:  1 | 5
+Karin is active
+Arec moves:
+
+..A..K.
+
+...j...
+
 Karin moves:
 
-.K..A..
+..AK...
 
-....j..
+...j...
 
-Karin misses
-Arec hits
-Karin takes 4 damage (now at 0 life)
-AREC WINS!
-total_time: 144
+Karin hits
+Arec takes 3 damage (now at 0 life)
+KARIN WINS!
+total_time: 128

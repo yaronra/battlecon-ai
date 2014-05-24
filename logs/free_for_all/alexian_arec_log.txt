@@ -31,42 +31,36 @@ pool: Fear, Hesitation, Mercy, Recklessness
 
 
 Alexian:
-38% Gestalt Shot
-2% Gestalt Drive
-18% Stalwart Divider
-11% Stalwart Burst
-26% Mighty Divider
-4% Mighty Burst
+40% Gestalt Shot
+0% Gestalt Drive
+29% Stalwart Divider
+12% Stalwart Burst
+16% Mighty Divider
+2% Mighty Burst
 
 Arec:
-34% Perceptional Burst | (1 Chivalry token)
-17% Mirrored Hex | (1 Chivalry token)
-33% Mirrored Hex (Hesitation) | (1 Chivalry token)
-3% Mirrored Shot (Hesitation) | (1 Chivalry token)
-4% Mirrored Drive | (1 Chivalry token)
-9% Mirrored Drive (Fear) | (1 Chivalry token)
+33% Perceptional Burst | (1 Chivalry token)
+2% Perceptional Burst (Hesitation) | (1 Chivalry token)
+21% Mirrored Hex | (1 Chivalry token)
+29% Mirrored Hex (Hesitation) | (1 Chivalry token)
+2% Mirrored Shot (Hesitation) | (1 Chivalry token)
+13% Mirrored Drive (Fear) | (1 Chivalry token)
 
 
-Alexian: Stalwart Burst
-Arec: Mirrored Drive (Fear) | (1 Chivalry token)
+Alexian: Gestalt Shot
+Arec: Perceptional Burst | (1 Chivalry token)
 
 Arec antes a Chivalry token
-Arec antes a Fear token
-Priorities:  -2 | 5
+Priorities:  1 | 3
 Arec is active
 Arec moves:
 
-.A.a...
+.A....a
 
 
+Arec antes a Fear token
 Arec hits
-Alexian takes 5 damage (now at 15 life)
-Alexian moves:
-
-..Aa...
-
-
-Alexian gets +1 power
+Alexian takes 4 damage (now at 16 life)
 Alexian misses
 
 Beat 2
@@ -74,8 +68,8 @@ Beat 2
 
 Alexian
 -------
-Life: 15
-Discard 1: Stalwart Burst
+Life: 16
+Discard 1: Gestalt Shot
 Discard 2: Regal Grasp
 Special action available
 Arec has 0 Chivalry tokens
@@ -83,66 +77,478 @@ Arec has 0 Chivalry tokens
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Drive
+Discard 1: Perceptional Burst
 Discard 2: Phantom Strike
 Special action available
 pool: Hesitation, Mercy, Recklessness
 
 
-..Aa...
+.A....a
 
+
+Unbeatable strategy for Arec: Returning Hex (Hesitation): -0.52
+Unbeatable strategy for Arec: Returning Grasp (Hesitation): -0.12
+Unbeatable strategy for Arec: Mirrored Hex (Hesitation): -0.97
+Unbeatable strategy for Arec: Manipulative Hex (Hesitation): -2.45
+Unbeatable strategy for Arec: Manipulative Shot (Hesitation): -0.09
+Unbeatable strategy for Arec: Manipulative Grasp (Hesitation): -0.37
 
 
 Alexian:
-8% Gestalt Shot
-13% Gestalt Drive
-54% Mighty Shot
-23% Mighty Drive
-1% Steeled Dash
+6% Stalwart Drive
+2% Stalwart Burst
+92% Mighty Divider
 
 Arec:
-69% Perceptional Dash
-21% Returning Dash
-2% Manipulative Hex (Hesitation)
-2% Manipulative Burst (Hesitation)
-5% Manipulative Grasp
+60% Returning Hex (Hesitation)
+17% Mirrored Drive
+24% Manipulative Grasp
 
 
-Alexian: Mighty Drive
-Arec: Perceptional Dash
+Alexian: Mighty Divider
+Arec: Returning Hex (Hesitation)
 
-Priorities:  5 | 10
+Arec antes a Hesitation token
+Priorities:  3 | 4
 Arec is active
-Arec moves:
-
-..A...a
-
-
-Alexian moves:
-
-....A.a
-
-
+Arec hits
+Arec recovers his Fear token
+Alexian has 3 soak
+Alexian takes 0 damage (now at 16 life)
 Alexian misses
+Arec gains 1 Chivalry token
 
 Beat 3
 -------
 
 Alexian
 -------
-Life: 15
-Discard 1: Mighty Drive
-Discard 2: Stalwart Burst
+Life: 16
+Discard 1: Mighty Divider
+Discard 2: Gestalt Shot
 Special action available
-Arec has 0 Chivalry tokens
+Arec has 1 Chivalry token
 
 Arec
 ----
 Life: 20
-Discard 1: Perceptional Dash
+Discard 1: Returning Hex
+Discard 2: Perceptional Burst
+Special action available
+pool: Mercy, Recklessness, Fear
+
+
+.A....a
+
+
+
+Alexian:
+5% Stalwart Strike
+43% Stalwart Drive
+12% Stalwart Burst
+21% Stalwart Grasp
+19% Steeled Strike
+
+Arec:
+2% Phantom Shot (Recklessness)
+6% Mirrored Shot | (1 Chivalry token)
+19% Mirrored Shot (Recklessness)
+25% Mirrored Drive (Recklessness)
+48% Mirrored Drive (Fear) | (1 Chivalry token)
+
+
+Alexian: Stalwart Grasp
+Arec: Mirrored Shot (Recklessness)
+
+Arec antes a Recklessness token
+Priorities:  2 | 2
+Clash!
+
+
+Alexian: Stalwart Burst
+Arec: Mirrored Drive (Recklessness)
+
+Arec antes a Recklessness token
+Priorities:  -2 | 4
+Arec is active
+Alexian moves:
+
+A.....a
+
+
+Arec moves:
+
+A...a..
+
+
+Arec misses
+Alexian moves:
+
+.A..a..
+
+
+Alexian gets +1 power
+Alexian hits
+Arec gains 1 Chivalry token
+Arec takes 4 damage (now at 16 life)
+Arec is stunned
+Arec places clone:
+
+.A..a..
+......c
+
+
+Beat 4
+-------
+
+Alexian
+-------
+Life: 16
+Discard 1: Stalwart Burst
+Discard 2: Mighty Divider
+Special action available
+Arec has 2 Chivalry tokens
+
+Arec
+----
+Life: 16
+Discard 1: Mirrored Drive
+Discard 2: Returning Hex
+Special action available
+pool: Mercy, Fear
+
+
+.A..a..
+......c
+
+Unbeatable strategy for Arec: Phantom Shot (Fear; move to clone): -1.55
+Unbeatable strategy for Arec: Phantom Shot (Fear; move to clone) | (1 Chivalry token): -1.15
+Unbeatable strategy for Arec: Phantom Shot (Fear; move to clone) | (2 Chivalry tokens): -0.75
+Unbeatable strategy for Arec: Phantom Burst (Fear; move to clone): -0.05
+
+
+Alexian:
+5% Gestalt Shot
+5% Gestalt Drive
+8% Gestalt Dash
+38% Regal Shot
+45% Regal Dash
+
+Arec:
+2% Phantom Shot (move to clone)
+3% Phantom Shot (move to clone) | (1 Chivalry token)
+65% Phantom Shot (Fear; move to clone)
+22% Phantom Burst
+7% Phantom Burst (move to clone)
+1% Perceptional Shot (move to clone)
+
+
+Alexian: Regal Shot
+Arec: Phantom Shot (Fear; move to clone)
+
+Arec moves:
+
+.A....a
+
+
+Arec antes a Fear token
+Priorities:  3 | 3
+Clash!
+
+
+Alexian: Regal Drive
+Arec: Phantom Burst (Fear; move to clone)
+
+Arec moves:
+
+.A....a
+
+
+Arec antes a Fear token
+Priorities:  5 | 2
+Alexian is active
+Alexian moves:
+
+...A..a
+
+
+Alexian misses
+Arec hits
+Alexian takes 2 damage (now at 14 life)
+Arec recovers his Hesitation token
+
+Beat 5
+-------
+
+Alexian
+-------
+Life: 14
+Discard 1: Regal Drive
+Discard 2: Stalwart Burst
+Special action available
+Arec has 2 Chivalry tokens
+
+Arec
+----
+Life: 16
+Discard 1: Phantom Burst
 Discard 2: Mirrored Drive
 Special action available
-pool: Hesitation, Mercy, Recklessness
+pool: Mercy, Hesitation
+
+
+...A..a
+
+
+Unbeatable strategy for Arec: Manipulative Hex (Hesitation) | (2 Chivalry tokens): -0.57
+Unbeatable strategy for Arec: Manipulative Shot (Hesitation) | (1 Chivalry token): -0.18
+Unbeatable strategy for Arec: Manipulative Shot (Hesitation) | (2 Chivalry tokens): -1.84
+
+
+Alexian:
+4% Gestalt Shot
+2% Mighty Divider
+0% Mighty Strike
+5% Mighty Shot
+22% Steeled Divider
+6% Steeled Shot
+61% Special Pulse
+
+Arec:
+1% Perceptional Hex
+8% Perceptional Strike | (2 Chivalry tokens)
+21% Perceptional Shot | (1 Chivalry token)
+16% Manipulative Hex (Hesitation)
+11% Manipulative Hex (Hesitation) | (1 Chivalry token)
+12% Manipulative Hex (Hesitation) | (2 Chivalry tokens)
+31% Manipulative Shot (Hesitation) | (2 Chivalry tokens)
+
+
+Alexian: Gestalt Shot
+Arec: Perceptional Shot | (1 Chivalry token)
+
+Arec antes a Chivalry token
+Priorities:  1 | 4
+Arec is active
+Arec hits
+Alexian takes 4 damage (now at 10 life)
+Alexian hits
+Arec gains 1 Chivalry token
+Arec takes 5 damage (now at 11 life)
+Arec is stunned
+
+Beat 6
+-------
+
+Alexian
+-------
+Life: 10
+Discard 1: Gestalt Shot
+Discard 2: Regal Drive
+Special action available
+Arec has 2 Chivalry tokens
+
+Arec
+----
+Life: 11
+Discard 1: Perceptional Shot
+Discard 2: Phantom Burst
+Special action available
+pool: Mercy, Hesitation
+
+
+...A..a
+
+
+Unbeatable strategy for Arec: Returning Hex (Hesitation): -0.77
+Unbeatable strategy for Arec: Returning Hex (Hesitation) | (1 Chivalry token): -1.42
+Unbeatable strategy for Arec: Returning Hex (Hesitation) | (2 Chivalry tokens): -2.12
+Unbeatable strategy for Arec: Mirrored Hex (Hesitation): -1.48
+Unbeatable strategy for Arec: Mirrored Hex (Hesitation) | (1 Chivalry token): -2.18
+Unbeatable strategy for Arec: Mirrored Hex (Hesitation) | (2 Chivalry tokens): -2.13
+Unbeatable strategy for Arec: Manipulative Hex (Hesitation): -3.12
+Unbeatable strategy for Arec: Manipulative Hex (Hesitation) | (1 Chivalry token): -3.82
+Unbeatable strategy for Arec: Manipulative Hex (Hesitation) | (2 Chivalry tokens): -3.52
+
+
+Alexian:
+5% Stalwart Divider
+9% Mighty Divider
+8% Steeled Divider
+3% Steeled Burst
+5% Steeled Grasp
+69% Special Pulse
+
+Arec:
+1% Mirrored Strike
+12% Manipulative Hex (Hesitation)
+18% Manipulative Hex (Hesitation) | (1 Chivalry token)
+51% Manipulative Hex (Hesitation) | (2 Chivalry tokens)
+6% Manipulative Strike
+12% Manipulative Drive
+
+
+Alexian: Special Pulse
+Arec: Manipulative Hex (Hesitation) | (2 Chivalry tokens)
+
+Arec antes a Chivalry token
+Arec antes a Chivalry token
+Arec antes a Hesitation token
+Alexian Pulses:
+
+A....a.
+
+
+
+Beat 6
+-------
+
+Alexian
+-------
+Life: 10
+Discard 1: Gestalt Shot
+Discard 2: Regal Drive
+Arec has 0 Chivalry tokens
+
+Arec
+----
+Life: 11
+Discard 1: Manipulative Hex
+Discard 2: Perceptional Shot
+Special action available
+pool: Mercy
+
+
+A....a.
+
+
+Unbeatable strategy for Arec: Mirrored Dash: -1.11
+Unbeatable strategy for Arec: Mirrored Dash (Mercy): -0.41
+
+
+Alexian:
+15% Stalwart Strike
+7% Stalwart Burst
+18% Stalwart Grasp
+21% Stalwart Dash
+40% Mighty Grasp
+
+Arec:
+45% Returning Burst
+29% Returning Dash
+2% Mirrored Drive
+17% Mirrored Burst
+7% Mirrored Grasp
+
+
+Alexian: Stalwart Grasp
+Arec: Returning Burst
+
+Priorities:  2 | 2
+Arec is active
+Arec moves:
+
+A.....a
+
+
+Arec misses
+Alexian moves:
+
+...A..a
+
+
+Alexian gets +3 power
+Alexian misses
+
+Beat 7
+-------
+
+Alexian
+-------
+Life: 10
+Discard 1: Stalwart Grasp
+Discard 2: Gestalt Shot
+Arec has 0 Chivalry tokens
+
+Arec
+----
+Life: 11
+Discard 1: Returning Burst
+Discard 2: Manipulative Hex
+Special action available
+pool: Mercy
+
+
+...A..a
+
+
+
+Alexian:
+14% Regal Drive
+28% Mighty Strike
+19% Mighty Drive
+33% Mighty Burst
+6% Steeled Divider
+
+Arec:
+20% Phantom Strike
+4% Phantom Shot
+27% Phantom Drive
+3% Phantom Grasp
+46% Mirrored Grasp
+
+
+Alexian: Mighty Drive
+Arec: Phantom Drive
+
+Priorities:  5 | 5
+Clash!
+
+
+Alexian: Mighty Divider
+Arec: Phantom Shot
+
+Priorities:  3 | 3
+Clash!
+
+
+Alexian: Mighty Strike
+Arec: Phantom Strike
+
+Priorities:  4 | 4
+Clash!
+
+
+Alexian: Mighty Dash
+Arec: Phantom Grasp
+
+Priorities:  10 | 6
+Alexian is active
+Alexian moves:
+
+....A.a
+
+
+Arec misses
+Arec recovers his Hesitation token
+
+Beat 8
+-------
+
+Alexian
+-------
+Life: 10
+Discard 1: Mighty Dash
+Discard 2: Stalwart Grasp
+Arec has 0 Chivalry tokens
+
+Arec
+----
+Life: 11
+Discard 1: Phantom Grasp
+Discard 2: Returning Burst
+Special action available
+pool: Mercy, Hesitation
 
 
 ....A.a
@@ -150,19 +556,32 @@ pool: Hesitation, Mercy, Recklessness
 
 
 Alexian:
-80% Gestalt Divider
-9% Gestalt Strike
-10% Gestalt Shot
+24% Gestalt Divider
+2% Gestalt Strike
+22% Gestalt Drive
+34% Regal Shot
+17% Regal Drive
 
 Arec:
-32% Manipulative Hex
-40% Manipulative Strike
-28% Manipulative Burst
+8% Mirrored Hex (Hesitation)
+2% Mirrored Strike (Hesitation)
+1% Mirrored Shot (Hesitation)
+82% Mirrored Dash
+6% Manipulative Drive
+
+
+Alexian: Gestalt Drive
+Arec: Mirrored Strike (Hesitation)
+
+Arec antes a Hesitation token
+Priorities:  3 | 3
+Clash!
 
 
 Alexian: Gestalt Divider
-Arec: Manipulative Strike
+Arec: Mirrored Hex (Hesitation)
 
+Arec antes a Hesitation token
 Priorities:  1 | 3
 Arec is active
 Alexian moves:
@@ -171,442 +590,389 @@ Alexian moves:
 
 
 Arec hits
-Arec chooses Alexian's base: Shot
+Arec recovers his Recklessness token
 Alexian has 2 soak
-Alexian takes 3 damage (now at 12 life)
-Arec recovers a Fear token
+Alexian takes 2 damage (now at 8 life)
 Alexian hits
 Arec gains 1 Chivalry token
-Arec takes 6 damage (now at 14 life)
+Arec takes 6 damage (now at 5 life)
 Arec is stunned
+Arec places clone:
+
+.....Aa
+...c...
+
 Arec gains 1 Chivalry token
 
-Beat 4
+Beat 9
 -------
 
 Alexian
 -------
-Life: 12
+Life: 8
 Discard 1: Gestalt Divider
-Discard 2: Mighty Drive
-Special action available
+Discard 2: Mighty Dash
 Arec has 2 Chivalry tokens
 
 Arec
 ----
-Life: 14
-Discard 1: Manipulative Strike
-Discard 2: Perceptional Dash
+Life: 5
+Discard 1: Mirrored Hex
+Discard 2: Phantom Grasp
 Special action available
-pool: Hesitation, Mercy, Recklessness, Fear
-Manipulative forced base: Shot
+pool: Mercy, Recklessness
+
+
+.....Aa
+...c...
+
+
+Alexian:
+15% Regal Drive
+28% Stalwart Strike
+32% Stalwart Shot
+9% Stalwart Burst
+16% Steeled Burst
+
+Arec:
+7% Returning Strike | (2 Chivalry tokens)
+20% Returning Strike (Recklessness; move to clone)
+7% Returning Drive | (2 Chivalry tokens)
+48% Returning Dash (move to clone)
+17% Manipulative Drive | (2 Chivalry tokens)
+
+
+Alexian: Stalwart Shot
+Arec: Returning Dash (move to clone)
+
+Arec moves:
+
+...a.A.
+
+
+Priorities:  -1 | 10
+Arec is active
+Arec moves:
+
+.....Aa
+
+
+Alexian misses
+
+Beat 10
+-------
+
+Alexian
+-------
+Life: 8
+Discard 1: Stalwart Shot
+Discard 2: Gestalt Divider
+Arec has 2 Chivalry tokens
+
+Arec
+----
+Life: 5
+Discard 1: Returning Dash
+Discard 2: Mirrored Hex
+Special action available
+pool: Mercy, Recklessness
 
 
 .....Aa
 
 
-Unbeatable strategy for Arec: Mirrored Drive: -1.04
-Unbeatable strategy for Arec: Mirrored Drive | (1 Chivalry token): -0.64
-Unbeatable strategy for Arec: Mirrored Drive | (2 Chivalry tokens): -0.24
-Unbeatable strategy for Arec: Mirrored Drive (Mercy): -0.94
-Unbeatable strategy for Arec: Mirrored Drive (Mercy) | (1 Chivalry token): -0.54
-Unbeatable strategy for Arec: Mirrored Drive (Mercy) | (2 Chivalry tokens): -0.14
-Unbeatable strategy for Arec: Mirrored Drive (Recklessness): -0.74
-Unbeatable strategy for Arec: Mirrored Drive (Recklessness) | (1 Chivalry token): -0.34
+
+Alexian:
+15% Regal Strike
+24% Regal Drive
+49% Regal Grasp
+9% Mighty Drive
+1% Steeled Strike
+2% Steeled Burst
+
+Arec:
+22% Phantom Strike
+45% Phantom Drive
+9% Phantom Grasp
+4% Phantom Grasp | (2 Chivalry tokens)
+8% Manipulative Strike
+13% Manipulative Strike | (1 Chivalry token)
+
+
+Alexian: Regal Grasp
+Arec: Phantom Grasp
+
+Priorities:  6 | 6
+Clash!
+
+
+Alexian: Regal Drive
+Arec: Phantom Drive
+
+Priorities:  5 | 5
+Clash!
+
+
+Alexian: Regal Burst
+Arec: Phantom Burst
+
+Priorities:  2 | 2
+Clash!
+
+
+Alexian: Regal Dash
+Arec: Phantom Strike
+
+Priorities:  10 | 4
+Alexian is active
+Alexian moves:
+
+..A...a
+
+
+Arec misses
+Arec recovers his Hesitation token
+
+Beat 11
+-------
+
+Alexian
+-------
+Life: 8
+Discard 1: Regal Dash
+Discard 2: Stalwart Shot
+Arec has 2 Chivalry tokens
+
+Arec
+----
+Life: 5
+Discard 1: Phantom Strike
+Discard 2: Returning Dash
+Special action available
+pool: Mercy, Recklessness, Hesitation
+
+
+..A...a
+
+
+Unbeatable strategy for Arec: Perceptional Hex | (2 Chivalry tokens): -0.60
+Unbeatable strategy for Arec: Perceptional Hex (Hesitation) | (2 Chivalry tokens): -0.60
+Unbeatable strategy for Arec: Mirrored Hex (Hesitation): -0.76
+Unbeatable strategy for Arec: Mirrored Hex (Hesitation) | (1 Chivalry token): -1.19
+Unbeatable strategy for Arec: Mirrored Hex (Hesitation) | (2 Chivalry tokens): -1.79
+Unbeatable strategy for Arec: Manipulative Hex (Hesitation): -1.26
+Unbeatable strategy for Arec: Manipulative Hex (Hesitation) | (1 Chivalry token): -1.11
+Unbeatable strategy for Arec: Manipulative Hex (Hesitation) | (2 Chivalry tokens): -1.51
 
 
 Alexian:
-42% Regal Strike
-5% Regal Shot
-0% Regal Burst
-17% Regal Grasp
-36% Stalwart Shot
+9% Mighty Drive
+57% Steeled Divider
+34% Steeled Burst
 
 Arec:
-0% Returning Hex (Hesitation)
-5% Returning Hex (Hesitation) | (1 Chivalry token)
-25% Returning Grasp (Hesitation)
-5% Returning Grasp (Hesitation) | (1 Chivalry token)
-11% Returning Grasp (Hesitation) | (2 Chivalry tokens)
-12% Mirrored Hex (Hesitation)
-42% Mirrored Drive (Recklessness)
+13% Perceptional Hex | (2 Chivalry tokens)
+10% Perceptional Hex (Hesitation) | (2 Chivalry tokens)
+48% Mirrored Hex (Hesitation) | (2 Chivalry tokens)
+29% Manipulative Hex (Hesitation) | (1 Chivalry token)
 
 
-Alexian: Regal Strike
-Arec: Returning Hex (Hesitation) | (1 Chivalry token)
+Alexian: Steeled Burst
+Arec: Manipulative Hex (Hesitation) | (1 Chivalry token)
 
 Arec antes a Chivalry token
 Arec antes a Hesitation token
-Alexian loses 2 life (now at 10)
-Priorities:  4 | 4
+Priorities:  0 | 4
 Arec is active
+Alexian moves:
+
+A.....a
+
+
 Arec hits
+Arec chooses Alexian's base: Grasp
 Arec moves Alexian:
 
-....A.a
+.A....a
 
 
-Alexian takes 3 damage (now at 7 life)
+Arec recovers his Fear token
+Alexian has 4 soak
+Alexian takes 1 damage (now at 7 life)
 Alexian misses
 
-Beat 5
+Beat 12
 -------
 
 Alexian
 -------
 Life: 7
-Discard 1: Regal Strike
-Discard 2: Gestalt Divider
-Special action available
+Discard 1: Steeled Burst
+Discard 2: Regal Dash
 Arec has 1 Chivalry token
 
 Arec
 ----
-Life: 14
-Discard 1: Returning Hex
-Discard 2: Manipulative Strike
-Special action available
-pool: Mercy, Recklessness, Fear
-
-
-....A.a
-
-
-
-Alexian:
-68% Stalwart Shot
-9% Stalwart Burst
-23% Mighty Drive
-
-Arec:
-34% Phantom Drive | (1 Chivalry token)
-56% Mirrored Shot | (1 Chivalry token)
-9% Mirrored Grasp
-
-
-Alexian: Stalwart Shot
-Arec: Phantom Drive | (1 Chivalry token)
-
-Arec antes a Chivalry token
-Priorities:  -1 | 6
-Arec is active
-Arec moves:
-
-...aA..
-
-
-Arec hits
-Alexian takes 3 damage (now at 4 life)
-Alexian hits
-Arec gains 1 Chivalry token
-Arec takes 4 damage (now at 10 life)
-Arec is stunned
-Arec recovers a Hesitation token
-
-Beat 6
--------
-
-Alexian
--------
-Life: 4
-Discard 1: Stalwart Shot
-Discard 2: Regal Strike
-Special action available
-Arec has 1 Chivalry token
-
-Arec
-----
-Life: 10
-Discard 1: Phantom Drive
-Discard 2: Returning Hex
-Special action available
-pool: Mercy, Recklessness, Fear, Hesitation
-
-
-...aA..
-
-
-Unbeatable strategy for Arec: Perceptional Burst: -0.48
-Unbeatable strategy for Arec: Perceptional Burst | (1 Chivalry token): -1.27
-Unbeatable strategy for Arec: Perceptional Burst (Mercy): -0.38
-Unbeatable strategy for Arec: Perceptional Burst (Mercy) | (1 Chivalry token): -0.67
-Unbeatable strategy for Arec: Perceptional Burst (Recklessness): -0.18
-Unbeatable strategy for Arec: Perceptional Burst (Hesitation) | (1 Chivalry token): -1.27
-Unbeatable strategy for Arec: Mirrored Burst (Hesitation): -1.76
-Unbeatable strategy for Arec: Mirrored Burst (Hesitation) | (1 Chivalry token): -1.75
-Unbeatable strategy for Arec: Mirrored Dash: -0.63
-Unbeatable strategy for Arec: Mirrored Dash | (1 Chivalry token): -0.33
-Unbeatable strategy for Arec: Mirrored Dash (Mercy): -0.53
-Unbeatable strategy for Arec: Mirrored Dash (Mercy) | (1 Chivalry token): -0.23
-Unbeatable strategy for Arec: Mirrored Dash (Recklessness): -0.33
-Unbeatable strategy for Arec: Mirrored Dash (Recklessness) | (1 Chivalry token): -0.03
-Unbeatable strategy for Arec: Manipulative Burst (Hesitation): -1.37
-Unbeatable strategy for Arec: Manipulative Burst (Hesitation) | (1 Chivalry token): -2.18
-
-
-Alexian:
-14% Gestalt Divider
-53% Mighty Divider
-13% Mighty Burst
-20% Steeled Divider
-1% Steeled Drive
-
-Arec:
-2% Mirrored Shot (Hesitation) | (1 Chivalry token)
-51% Mirrored Burst | (1 Chivalry token)
-3% Mirrored Burst (Hesitation) | (1 Chivalry token)
-8% Manipulative Strike (Fear) | (1 Chivalry token)
-35% Manipulative Burst (Hesitation) | (1 Chivalry token)
-
-
-Alexian: Gestalt Divider
-Arec: Manipulative Burst (Hesitation) | (1 Chivalry token)
-
-Arec antes a Chivalry token
-Arec antes a Hesitation token
-Priorities:  1 | 2
-Arec is active
-Arec moves:
-
-.a..A..
-
-
-Alexian moves:
-
-.a.A...
-
-
-Arec hits
-Arec chooses Alexian's base: Grasp
-Alexian has 2 soak
-Alexian takes 3 damage (now at 1 life)
-Alexian misses
-Arec gains 1 Chivalry token
-
-Beat 7
--------
-
-Alexian
--------
-Life: 1
-Discard 1: Gestalt Divider
-Discard 2: Stalwart Shot
-Special action available
-Arec has 1 Chivalry token
-
-Arec
-----
-Life: 10
-Discard 1: Manipulative Burst
-Discard 2: Phantom Drive
+Life: 5
+Discard 1: Manipulative Hex
+Discard 2: Phantom Strike
 Special action available
 pool: Mercy, Recklessness, Fear
 Manipulative forced base: Grasp
 
 
-.a.A...
+.A....a
 
 
 
 Alexian:
-23% Regal Drive
-60% Regal Dash
-1% Mighty Drive
-16% Mighty Burst
+8% Stalwart Drive
+92% Mighty Grasp
 
 Arec:
-5% Perceptional Grasp
-10% Returning Strike
-25% Mirrored Hex
-60% Mirrored Grasp
+64% Perceptional Grasp
+36% Mirrored Shot | (1 Chivalry token)
 
 
-Alexian: Regal Dash
-Arec: Mirrored Grasp
+Alexian: Mighty Grasp
+Arec: Perceptional Grasp
 
-Alexian loses 2 life (now at 1)
-Priorities:  10 | 5
-Alexian is active
-Alexian moves:
-
-.aA....
-
-
-Arec misses
-Arec places clone:
-
-.aA....
-......c
-
-
-Beat 8
--------
-
-Alexian
--------
-Life: 1
-Discard 1: Regal Dash
-Discard 2: Gestalt Divider
-Special action available
-Arec has 1 Chivalry token
-
-Arec
-----
-Life: 10
-Discard 1: Mirrored Grasp
-Discard 2: Manipulative Burst
-Special action available
-pool: Mercy, Recklessness, Fear
-
-
-.aA....
-......c
-
-Unbeatable strategy for Arec: Phantom Hex (move to clone): -6.00
-Unbeatable strategy for Arec: Phantom Hex (move to clone) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Phantom Hex (Mercy; move to clone): -6.00
-Unbeatable strategy for Arec: Phantom Hex (Mercy; move to clone) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Phantom Hex (Recklessness; move to clone): -6.00
-Unbeatable strategy for Arec: Phantom Hex (Recklessness; move to clone) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Phantom Hex (Fear; move to clone): -6.00
-Unbeatable strategy for Arec: Phantom Hex (Fear; move to clone) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Phantom Shot (Fear; move to clone): -6.00
-Unbeatable strategy for Arec: Phantom Shot (Fear; move to clone) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Phantom Drive | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Phantom Drive (Mercy) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Phantom Drive (Fear) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Perceptional Hex (move to clone): -6.00
-Unbeatable strategy for Arec: Perceptional Hex (move to clone) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Perceptional Hex (Mercy; move to clone) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Perceptional Hex (Recklessness; move to clone): -6.00
-Unbeatable strategy for Arec: Perceptional Hex (Recklessness; move to clone) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Perceptional Hex (Fear; move to clone): -6.00
-Unbeatable strategy for Arec: Perceptional Hex (Fear; move to clone) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Perceptional Shot (move to clone): -6.00
-Unbeatable strategy for Arec: Perceptional Shot (move to clone) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Perceptional Shot (Mercy; move to clone) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Perceptional Shot (Recklessness; move to clone): -6.00
-Unbeatable strategy for Arec: Perceptional Shot (Recklessness; move to clone) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Perceptional Shot (Fear; move to clone): -6.00
-Unbeatable strategy for Arec: Perceptional Shot (Fear; move to clone) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Perceptional Drive | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Perceptional Drive (Mercy) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Perceptional Drive (Fear) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Returning Hex (Fear; move to clone): -6.00
-Unbeatable strategy for Arec: Returning Hex (Fear; move to clone) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Returning Shot (Fear; move to clone) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Returning Drive | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Returning Drive (Mercy) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Returning Drive (Fear) | (1 Chivalry token): -6.00
-
-
-Alexian:
-5% Mighty Strike
-9% Mighty Shot
-1% Mighty Drive
-1% Mighty Burst
-3% Mighty Grasp
-3% Steeled Burst
-75% Special Pulse
-2% Special Empire Divider
-
-Arec:
-18% Phantom Hex (move to clone)
-11% Phantom Hex (move to clone) | (1 Chivalry token)
-17% Phantom Shot (move to clone)
-4% Phantom Drive
-19% Perceptional Shot (move to clone)
-11% Perceptional Drive
-8% Perceptional Drive | (1 Chivalry token)
-12% Returning Hex (move to clone)
-
-
-Alexian: Special Pulse
-Arec: Perceptional Shot (move to clone)
-
-Arec moves:
-
-..A...a
-
-
-Pulse:
-
-A....a.
-
-
-
-Beat 8
--------
-
-Alexian
--------
-Life: 1
-Discard 1: Regal Dash
-Discard 2: Gestalt Divider
-Arec has 1 Chivalry token
-
-Arec
-----
-Life: 10
-Discard 1: Perceptional Shot
-Discard 2: Mirrored Grasp
-Special action available
-pool: Mercy, Recklessness, Fear
-
-
-A....a.
-
-
-Unbeatable strategy for Arec: Phantom Hex: -6.00
-Unbeatable strategy for Arec: Phantom Hex | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Phantom Hex (Mercy): -6.00
-Unbeatable strategy for Arec: Phantom Hex (Mercy) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Phantom Hex (Recklessness): -6.00
-Unbeatable strategy for Arec: Phantom Hex (Recklessness) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Phantom Hex (Fear): -6.00
-Unbeatable strategy for Arec: Phantom Hex (Fear) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Returning Hex | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Returning Hex (Fear) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Manipulative Hex: -6.00
-Unbeatable strategy for Arec: Manipulative Hex | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Manipulative Hex (Mercy) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Manipulative Hex (Recklessness): -6.00
-Unbeatable strategy for Arec: Manipulative Hex (Recklessness) | (1 Chivalry token): -6.00
-Unbeatable strategy for Arec: Manipulative Hex (Fear): -6.00
-Unbeatable strategy for Arec: Manipulative Hex (Fear) | (1 Chivalry token): -6.00
-
-
-Alexian:
-3% Stalwart Strike
-4% Stalwart Shot
-3% Stalwart Drive
-3% Stalwart Burst
-6% Stalwart Grasp
-24% Mighty Strike
-12% Mighty Shot
-12% Mighty Drive
-2% Mighty Burst
-4% Mighty Grasp
-2% Steeled Strike
-5% Steeled Shot
-10% Steeled Drive
-4% Steeled Burst
-6% Steeled Grasp
-
-Arec:
-50% Returning Hex | (1 Chivalry token)
-50% Returning Hex (Fear) | (1 Chivalry token)
+Priorities:  6 | 6
+Clash!
 
 
 Alexian: Mighty Strike
-Arec: Returning Hex | (1 Chivalry token)
+Arec: Perceptional Burst
+
+Alexian loses 2 life (now at 5)
+Priorities:  4 | 2
+Alexian is active
+Alexian misses
+Arec misses
+
+Beat 13
+-------
+
+Alexian
+-------
+Life: 5
+Discard 1: Mighty Strike
+Discard 2: Steeled Burst
+Arec has 1 Chivalry token
+
+Arec
+----
+Life: 5
+Discard 1: Perceptional Burst
+Discard 2: Manipulative Hex
+Special action available
+pool: Mercy, Recklessness, Fear
+
+
+.A....a
+
+
+Unbeatable strategy for Arec: Mirrored Shot | (1 Chivalry token): -0.79
+Unbeatable strategy for Arec: Mirrored Shot (Mercy) | (1 Chivalry token): -0.39
+Unbeatable strategy for Arec: Mirrored Shot (Fear) | (1 Chivalry token): -0.29
+
+
+Alexian:
+1% Gestalt Shot
+19% Gestalt Drive
+5% Gestalt Dash
+3% Regal Divider
+12% Stalwart Divider
+1% Stalwart Shot
+2% Stalwart Drive
+57% Stalwart Dash
+
+Arec:
+10% Phantom Shot | (1 Chivalry token)
+7% Mirrored Shot
+46% Mirrored Shot | (1 Chivalry token)
+6% Mirrored Shot (Fear) | (1 Chivalry token)
+6% Mirrored Drive | (1 Chivalry token)
+26% Mirrored Grasp | (1 Chivalry token)
+
+
+Alexian: Stalwart Divider
+Arec: Mirrored Grasp | (1 Chivalry token)
 
 Arec antes a Chivalry token
-Priorities:  4 | 5
+Priorities:  -1 | 6
 Arec is active
+Arec misses
+Alexian moves:
+
+...A..a
+
+
+Alexian gets +2 power
+Alexian misses
+Arec places clone:
+
+...A..a
+.c.....
+
+Arec gains 1 Chivalry token
+
+Beat 14
+-------
+
+Alexian
+-------
+Life: 5
+Discard 1: Stalwart Divider
+Discard 2: Mighty Strike
+Arec has 1 Chivalry token
+
+Arec
+----
+Life: 5
+Discard 1: Mirrored Grasp
+Discard 2: Perceptional Burst
+Special action available
+pool: Mercy, Recklessness, Fear
+
+
+...A..a
+.c.....
+
+
+Alexian:
+8% Gestalt Shot
+1% Gestalt Burst
+40% Regal Shot
+21% Regal Drive
+5% Regal Dash
+6% Steeled Burst
+19% Steeled Dash
+
+Arec:
+30% Returning Strike (Fear; move to clone) | (1 Chivalry token)
+2% Returning Shot
+4% Returning Shot | (1 Chivalry token)
+15% Returning Shot (move to clone) | (1 Chivalry token)
+36% Returning Drive
+4% Manipulative Hex | (1 Chivalry token)
+8% Manipulative Strike (move to clone)
+
+
+Alexian: Gestalt Shot
+Arec: Returning Drive
+
+Priorities:  1 | 5
+Arec is active
+Arec moves:
+
+...Aa..
+
+
 Arec hits
-Arec recovers a Hesitation token
-Alexian has 1 soak
-Alexian takes 3 damage (now at 0 life)
-AREC WINS!
-total_time: 71
+Alexian takes 3 damage (now at 2 life)
+Alexian hits
+Arec gains 1 Chivalry token
+Arec takes 5 damage (now at 0 life)
+ALEXIAN WINS!
+total_time: 109

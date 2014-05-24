@@ -20,8 +20,8 @@ pool: Fear, Hesitation, Mercy, Recklessness
 Borneo
 ------
 Life: 20
-Discard 1: Petulant Slippery
-Discard 2: Knuckle Smoke
+Discard 1: Slippery Petulant
+Discard 2: Smoke Knuckle
 Special action available
 
 
@@ -48,25 +48,23 @@ Borneo:
 14% Pathetic Claw
 
 
-Arec: Mirrored Burst (Hesitation)
-Borneo: Pathetic Claw
+Arec: Mirrored Drive
+Borneo: Clumsy Master Plan
 
-Arec antes a Hesitation token
-Priorities:  1 | 4
-Borneo is active
+Priorities:  4 | 0
+Arec is active
 Arec moves:
 
-A....B.
+...A.B.
 
 
-Borneo misses
 Arec hits
 Borneo takes 4 damage (now at 16 life)
-Borneo is stunned
+Borneo misses
 Arec places clone:
 
-A....B.
-.c.....
+...A.B.
+c......
 
 
 Beat 2
@@ -75,522 +73,379 @@ Beat 2
 Arec
 ----
 Life: 20
-Discard 1: Mirrored Burst
+Discard 1: Mirrored Drive
 Discard 2: Phantom Strike
 Special action available
-pool: Fear, Mercy, Recklessness
+pool: Fear, Hesitation, Mercy, Recklessness
 
 Borneo
 ------
 Life: 16
-Discard 1: Pathetic Claw
-Discard 2: Petulant Slippery
+Discard 1: Clumsy Master Plan
+Discard 2: Slippery Petulant
 Special action available
 
 
-A....B.
-.c.....
+...A.B.
+c......
 
-Unbeatable strategy for Arec: Returning Hex: 0.30
+Unbeatable strategy for Arec: Returning Hex (Hesitation; move to clone): 0.12
+Unbeatable strategy for Arec: Returning Shot (Hesitation; move to clone): 0.11
 
 
 Arec:
-100% Returning Hex
+29% Perceptional Shot (move to clone)
+41% Returning Shot (Hesitation; move to clone)
+6% Returning Shot (Mercy; move to clone)
+21% Manipulative Hex
+3% Manipulative Hex (move to clone)
 
 Borneo:
-100% Weaksauce Divider
+43% Weaksauce Divider
+3% Weaksauce Hex
+0% Weaksauce Scene Shift
+47% Pathetic Divider
+8% Pathetic Smoke
 
 
-Arec: Returning Hex
+Arec: Perceptional Shot (move to clone)
 Borneo: Weaksauce Divider
 
-Priorities:  4 | 3
-Arec is active
+Arec moves:
+
+A....B.
+
+
+Priorities:  3 | 3
+Clash!
+
+
+Arec: Perceptional Burst (move to clone)
+Borneo: Weaksauce Hex
+
+Arec moves:
+
+A....B.
+
+
+Priorities:  2 | 4
+Borneo is active
+Arec antes a Hesitation token
+Borneo hits
+Borneo moves Arec:
+
+.A...B.
+
+
+Arec takes 1 damage (now at 19 life)
 Arec hits
-Arec moves Borneo:
-
-A...B..
-
-
-Arec recovers a Hesitation token
-Borneo has 2 soak
-Borneo takes 1 damage (now at 15 life)
-Borneo misses
-Borneo moves:
-
-A.....B
-
-
-Opponent will have +1 power and +1 priority next beat
+Borneo takes 3 damage (now at 13 life)
+Borneo is stunned
 
 Beat 3
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Returning Hex
-Discard 2: Mirrored Burst
+Life: 19
+Discard 1: Perceptional Burst
+Discard 2: Mirrored Drive
 Special action available
-pool: Fear, Mercy, Recklessness, Hesitation
+pool: Fear, Mercy, Recklessness
 
 Borneo
 ------
-Life: 15
-Discard 1: Weaksauce Divider
-Discard 2: Pathetic Claw
+Life: 13
+Discard 1: Weaksauce Hex
+Discard 2: Clumsy Master Plan
 Special action available
-Opponent has +1 power and +1 priority
 
 
-A.....B
+.A...B.
 
 
 
 Arec:
-32% Perceptional Shot
-35% Perceptional Shot (Recklessness)
-33% Manipulative Grasp (Hesitation)
+86% Returning Hex
+14% Manipulative Hex
 
 Borneo:
-52% Clumsy Scene Shift
-17% Petulant Hex
-31% Petulant Knuckle
+30% Pathetic Scene Shift
+66% Petulant Scene Shift
+4% Slippery Scene Shift
 
 
-Arec: Perceptional Shot (Recklessness)
-Borneo: Clumsy Scene Shift
+Arec: Returning Hex
+Borneo: Pathetic Scene Shift
 
-Arec antes a Recklessness token
-Priorities:  3 | 4
-Borneo is active
-Arec antes a Hesitation token
-Borneo misses
+Priorities:  4 | 4
+Arec is active
 Arec hits
 Arec moves Borneo:
 
-A....B.
+.A..B..
 
 
-Borneo takes 3 damage (now at 12 life)
-Borneo is stunned
+Arec recovers his Hesitation token
+Borneo takes 3 damage (now at 10 life)
+Borneo moves:
+
+BA.....
+
+
+Borneo hits
+Arec takes 2 damage (now at 17 life)
+Arec is stunned
 
 Beat 4
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Perceptional Shot
-Discard 2: Returning Hex
-Special action available
-pool: Fear, Mercy
-
-Borneo
-------
-Life: 12
-Discard 1: Clumsy Scene Shift
-Discard 2: Weaksauce Divider
-Special action available
-
-
-A....B.
-
-
-
-Arec:
-40% Phantom Drive
-28% Mirrored Drive (Mercy)
-32% Mirrored Burst
-
-Borneo:
-19% Petulant Hex
-32% Petulant Master Plan
-49% Slippery Claw
-
-
-Arec: Phantom Drive
-Borneo: Petulant Master Plan
-
-Priorities:  5 | -2
-Arec is active
-Arec moves:
-
-..A..B.
-
-
-Arec hits
-Borneo takes 2 damage (now at 10 life)
-Borneo hits
-Arec takes 4 damage (now at 16 life)
-Arec is stunned
-Arec recovers a Hesitation token
-
-Beat 5
--------
-
-Arec
-----
-Life: 16
-Discard 1: Phantom Drive
-Discard 2: Perceptional Shot
-Special action available
-pool: Fear, Mercy, Hesitation
-
-Borneo
-------
-Life: 10
-Discard 1: Petulant Master Plan
-Discard 2: Clumsy Scene Shift
-Special action available
-
-
-..A..B.
-
-
-
-Arec:
-21% Mirrored Burst
-16% Mirrored Burst (Hesitation)
-19% Mirrored Grasp
-44% Mirrored Grasp (Hesitation)
-
-Borneo:
-11% Weaksauce Claw
-5% Weaksauce Hex
-43% Pathetic Knuckle
-41% Slippery Smoke
-
-
-Arec: Mirrored Grasp
-Borneo: Slippery Smoke
-
-Priorities:  5 | 3
-Arec is active
-Arec hits
-Arec moves Borneo:
-
-..A...B
-
-
-Borneo takes 3 damage (now at 7 life)
-Borneo is stunned
-Arec places clone:
-
-..A...B
-c......
-
-
-Beat 6
--------
-
-Arec
-----
-Life: 16
-Discard 1: Mirrored Grasp
-Discard 2: Phantom Drive
-Special action available
-pool: Fear, Mercy, Hesitation
-
-Borneo
-------
-Life: 7
-Discard 1: Slippery Smoke
-Discard 2: Petulant Master Plan
-Special action available
-
-
-..A...B
-c......
-
-Unbeatable strategy for Arec: Returning Hex (Hesitation): 0.93
-Unbeatable strategy for Arec: Returning Hex (move to clone): 1.30
-Unbeatable strategy for Arec: Returning Hex (Mercy; move to clone): 0.60
-Unbeatable strategy for Arec: Returning Hex (Hesitation; move to clone): 1.60
-
-
-Arec:
-7% Returning Hex (move to clone)
-56% Returning Hex (Hesitation; move to clone)
-7% Manipulative Strike (move to clone)
-16% Manipulative Strike (Fear; move to clone)
-0% Manipulative Shot
-14% Manipulative Shot (Hesitation)
-
-Borneo:
-68% Weaksauce Divider
-0% Weaksauce Hex
-3% Clumsy Divider
-12% Pathetic Claw
-8% Pathetic Divider
-9% Special Mama Mazzaroth
-
-
-Arec: Returning Hex (Hesitation; move to clone)
-Borneo: Weaksauce Divider
-
-Arec moves:
-
-A.....B
-
-
-Arec antes a Hesitation token
-Priorities:  4 | 3
-Arec is active
-Arec hits
-Arec moves Borneo:
-
-A....B.
-
-
-Arec recovers a Recklessness token
-Borneo has 2 soak
-Borneo takes 1 damage (now at 6 life)
-Borneo misses
-Opponent will have +1 power and +1 priority next beat
-
-Beat 7
--------
-
-Arec
-----
-Life: 16
+Life: 17
 Discard 1: Returning Hex
-Discard 2: Mirrored Grasp
-Special action available
-pool: Fear, Mercy, Recklessness
-
-Borneo
-------
-Life: 6
-Discard 1: Weaksauce Divider
-Discard 2: Slippery Smoke
-Special action available
-Opponent has +1 power and +1 priority
-
-
-A....B.
-
-
-
-Arec:
-79% Perceptional Shot
-21% Perceptional Drive
-
-Borneo:
-56% Clumsy Claw
-44% Petulant Master Plan
-
-
-Arec: Perceptional Shot
-Borneo: Clumsy Claw
-
-Priorities:  4 | 4
-Clash!
-
-
-Arec: Perceptional Burst
-Borneo: Clumsy Master Plan
-
-Priorities:  3 | 0
-Arec is active
-Arec hits
-Arec moves Borneo:
-
-A...B..
-
-
-Borneo takes 4 damage (now at 2 life)
-Borneo misses
-
-Beat 8
--------
-
-Arec
-----
-Life: 16
-Discard 1: Perceptional Burst
-Discard 2: Returning Hex
-Special action available
-pool: Fear, Mercy, Recklessness
-
-Borneo
-------
-Life: 2
-Discard 1: Clumsy Master Plan
-Discard 2: Weaksauce Divider
-Special action available
-
-
-A...B..
-
-
-
-Arec:
-2% Phantom Strike (Fear)
-49% Phantom Shot
-5% Phantom Drive (Fear)
-44% Phantom Drive (Mercy)
-
-Borneo:
-50% Pathetic Claw
-25% Pathetic Knuckle
-13% Slippery Knuckle
-12% Special Mama Mazzaroth
-
-
-Arec: Phantom Shot
-Borneo: Pathetic Claw
-
-Priorities:  3 | 4
-Borneo is active
-Borneo moves:
-
-A..B...
-
-
-Borneo hits
-Arec takes 2 damage (now at 14 life)
-Arec is stunned
-Arec recovers a Hesitation token
-
-Beat 9
--------
-
-Arec
-----
-Life: 14
-Discard 1: Phantom Shot
 Discard 2: Perceptional Burst
 Special action available
 pool: Fear, Mercy, Recklessness, Hesitation
 
 Borneo
 ------
-Life: 2
-Discard 1: Pathetic Claw
-Discard 2: Clumsy Master Plan
+Life: 10
+Discard 1: Pathetic Scene Shift
+Discard 2: Weaksauce Hex
 Special action available
 
 
-A..B...
+BA.....
 
-
-Unbeatable strategy for Arec: Returning Hex (Hesitation): 0.92
 
 
 Arec:
-35% Returning Hex
-35% Mirrored Strike
-1% Mirrored Strike (Fear)
-29% Mirrored Drive (Hesitation)
+26% Phantom Dash
+25% Manipulative Shot
+49% Manipulative Drive
 
 Borneo:
-5% Slippery Knuckle
-2% Slippery Scene Shift
-89% Special Pulse
-4% Special Mama Mazzaroth
+30% Clumsy Claw
+6% Clumsy Divider
+65% Petulant Divider
 
 
-Arec: Mirrored Strike
-Borneo: Special Pulse
+Arec: Phantom Dash
+Borneo: Petulant Divider
 
-Borneo Pulses:
+Priorities:  10 | 0
+Arec is active
+Arec moves:
 
-.AB....
+B.A....
 
 
+Borneo misses
+Opponent will have +1 power and +1 priority next beat
 
-Beat 9
+Beat 5
 -------
 
 Arec
 ----
-Life: 14
-Discard 1: Mirrored Strike
-Discard 2: Phantom Shot
+Life: 17
+Discard 1: Phantom Dash
+Discard 2: Returning Hex
 Special action available
 pool: Fear, Mercy, Recklessness, Hesitation
 
 Borneo
 ------
-Life: 2
-Discard 1: Pathetic Claw
-Discard 2: Clumsy Master Plan
+Life: 10
+Discard 1: Petulant Divider
+Discard 2: Pathetic Scene Shift
+Special action available
+Opponent has +1 power and +1 priority
 
 
-.AB....
+B.A....
 
+
+Unbeatable strategy for Arec: Perceptional Grasp: 2.64
+Unbeatable strategy for Arec: Perceptional Grasp (Fear): 2.22
+Unbeatable strategy for Arec: Perceptional Grasp (Mercy): 2.24
+Unbeatable strategy for Arec: Perceptional Grasp (Hesitation): 2.28
 
 
 Arec:
-22% Returning Drive (Mercy)
-17% Returning Grasp (Hesitation)
-10% Manipulative Hex (Hesitation)
-24% Manipulative Drive (Hesitation)
-27% Manipulative Burst (Hesitation)
+14% Perceptional Burst
+3% Mirrored Shot
+46% Mirrored Shot (Hesitation)
+6% Mirrored Burst
+31% Mirrored Grasp
 
 Borneo:
-16% Weaksauce Hex
-8% Petulant Divider
-31% Slippery Divider
-16% Slippery Hex
-29% Slippery Knuckle
+9% Weaksauce Claw
+1% Weaksauce Knuckle
+6% Clumsy Master Plan
+0% Slippery Master Plan
+84% Special Pulse
 
 
-Arec: Manipulative Drive (Hesitation)
-Borneo: Slippery Knuckle
+Arec: Mirrored Shot (Hesitation)
+Borneo: Special Pulse
 
 Arec antes a Hesitation token
-Priorities:  4 | 5
-Borneo is active
-Borneo hits
-Borneo moves:
+Borneo Pulses:
 
-BA.....
+AB.....
 
 
-Arec takes 1 damage (now at 13 life)
-Arec is stunned
 
-Beat 10
+Beat 5
 -------
 
 Arec
 ----
-Life: 13
-Discard 1: Manipulative Drive
-Discard 2: Mirrored Strike
+Life: 17
+Discard 1: Mirrored Shot
+Discard 2: Phantom Dash
 Special action available
 pool: Fear, Mercy, Recklessness
 
 Borneo
 ------
-Life: 2
-Discard 1: Slippery Knuckle
-Discard 2: Pathetic Claw
+Life: 10
+Discard 1: Petulant Divider
+Discard 2: Pathetic Scene Shift
 
 
-BA.....
+AB.....
+
+
+Unbeatable strategy for Arec: Returning Hex: 0.00
+Unbeatable strategy for Arec: Returning Strike: 0.22
+Unbeatable strategy for Arec: Returning Grasp: 2.73
+Unbeatable strategy for Arec: Returning Grasp (Fear): 2.23
+Unbeatable strategy for Arec: Returning Grasp (Mercy): 1.89
+Unbeatable strategy for Arec: Returning Grasp (Recklessness): 2.13
+
+
+Arec:
+39% Returning Drive
+19% Manipulative Hex
+41% Manipulative Grasp
+
+Borneo:
+32% Weaksauce Knuckle
+20% Clumsy Master Plan
+49% Slippery Knuckle
+
+
+Arec: Manipulative Hex
+Borneo: Clumsy Master Plan
+
+Priorities:  3 | 0
+Arec is active
+Arec hits
+Arec chooses Borneo's base: Hex
+Arec recovers his Hesitation token
+Borneo takes 4 damage (now at 6 life)
+Borneo misses
+
+Beat 6
+-------
+
+Arec
+----
+Life: 17
+Discard 1: Manipulative Hex
+Discard 2: Mirrored Shot
+Special action available
+pool: Fear, Mercy, Recklessness, Hesitation
+Manipulative forced base: Hex
+
+Borneo
+------
+Life: 6
+Discard 1: Clumsy Master Plan
+Discard 2: Petulant Divider
+
+
+AB.....
+
+
+Unbeatable strategy for Arec: Returning Drive: 2.09
+Unbeatable strategy for Arec: Returning Drive (Fear): 1.74
+Unbeatable strategy for Arec: Returning Drive (Mercy): 1.84
+Unbeatable strategy for Arec: Returning Drive (Recklessness): 1.64
+Unbeatable strategy for Arec: Returning Grasp: 0.56
+Unbeatable strategy for Arec: Returning Grasp (Fear): 0.21
+Unbeatable strategy for Arec: Returning Grasp (Recklessness): 0.11
+
+
+Arec:
+31% Perceptional Drive
+69% Returning Drive
+
+Borneo:
+51% Pathetic Hex
+48% Slippery Hex
+1% Slippery Knuckle
+
+
+Arec: Returning Drive
+Borneo: Slippery Hex
+
+Priorities:  5 | 3
+Arec is active
+Arec moves:
+
+.B.A...
+
+
+Arec hits
+Borneo takes 3 damage (now at 3 life)
+Borneo is stunned
+
+Beat 7
+-------
+
+Arec
+----
+Life: 17
+Discard 1: Returning Drive
+Discard 2: Manipulative Hex
+Special action available
+pool: Fear, Mercy, Recklessness, Hesitation
+
+Borneo
+------
+Life: 3
+Discard 1: Slippery Hex
+Discard 2: Clumsy Master Plan
+
+
+.B.A...
 
 
 
 Arec:
-45% Phantom Hex
-55% Phantom Shot
+22% Phantom Strike (Mercy)
+40% Mirrored Strike (Hesitation)
+36% Mirrored Shot (Hesitation)
+2% Mirrored Burst (Mercy)
 
 Borneo:
-55% Weaksauce Divider
-45% Weaksauce Scene Shift
+38% Weaksauce Divider
+2% Pathetic Claw
+20% Pathetic Knuckle
+40% Petulant Knuckle
 
 
-Arec: Phantom Hex
+Arec: Phantom Strike (Mercy)
 Borneo: Weaksauce Divider
 
+Arec antes a Mercy token
 Priorities:  4 | 3
 Arec is active
 Arec hits
-Arec recovers a Hesitation token
-Borneo takes 2 damage (now at 0 life)
+Borneo takes 3 damage (now at 0 life)
 AREC WINS!
-total_time: 49
+total_time: 40

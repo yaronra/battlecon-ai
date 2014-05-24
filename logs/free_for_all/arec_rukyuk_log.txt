@@ -42,28 +42,36 @@ Rukyuk:
 40% Gunner Drive (Longshot)
 
 
-Arec: Mirrored Dash (Recklessness)
-Rukyuk: Sniper Grasp (AP)
+Arec: Mirrored Dash
+Rukyuk: Gunner Drive (Longshot)
 
-Arec antes a Recklessness token
-Rukyuk antes an AP token
-Priorities:  9 | 7
+Rukyuk antes a Longshot token
+Priorities:  9 | 4
 Arec is active
 Arec moves:
 
 ..A..R.
 
 
-Rukyuk misses
+Rukyuk spends an AP token
+Rukyuk gains -1/+1 range
 Rukyuk moves:
 
 ..AR...
 
 
+Rukyuk hits
+Arec takes 3 damage (now at 17 life)
+Arec is stunned
+Rukyuk moves:
+
+..A.R..
+
+
 Arec places clone:
 
-..AR...
-c......
+..A.R..
+...c...
 
 
 Beat 2
@@ -71,74 +79,81 @@ Beat 2
 
 Arec
 ----
-Life: 20
+Life: 17
 Discard 1: Mirrored Dash
 Discard 2: Phantom Strike
 Special action available
-pool: Fear, Hesitation, Mercy
+pool: Fear, Hesitation, Mercy, Recklessness
 
 Rukyuk
 ------
 Life: 20
-Discard 1: Sniper Grasp
+Discard 1: Gunner Drive
 Discard 2: Crossfire Reload
 Special action available
-pool: Explosive, Flash, Impact, Longshot, Swift
+pool: Explosive, Flash, Impact, Swift
 
 
-..AR...
-c......
+..A.R..
+...c...
 
 
 Arec:
-24% Perceptional Hex (move to clone)
-8% Perceptional Burst (move to clone)
-13% Returning Shot (Mercy)
-6% Returning Shot (move to clone)
-23% Returning Drive (Mercy)
-2% Returning Drive (Mercy; move to clone)
-13% Manipulative Hex (Hesitation)
-11% Manipulative Drive (Hesitation)
+0% Perceptional Hex (Recklessness)
+9% Perceptional Shot (Recklessness)
+13% Perceptional Drive
+24% Perceptional Burst (Recklessness)
+3% Perceptional Burst (move to clone)
+21% Perceptional Burst (Recklessness; move to clone)
+0% Returning Shot (Hesitation; move to clone)
+19% Returning Shot (Mercy; move to clone)
+10% Manipulative Hex (Hesitation; move to clone)
 
 Rukyuk:
-10% Point Blank Strike (Explosive)
-22% Point Blank Strike (Longshot)
-10% Point Blank Strike (Swift)
-33% Point Blank Shot (Explosive)
-4% Point Blank Drive (Explosive)
-1% Point Blank Drive (Longshot)
-20% Gunner Drive (Swift)
+27% Sniper Shot
+12% Sniper Burst (Flash)
+26% Sniper Dash
+0% Point Blank Strike (Explosive)
+9% Point Blank Strike (Swift)
+10% Point Blank Shot (Explosive)
+10% Point Blank Shot (Swift)
+4% Point Blank Grasp (Explosive)
+1% Point Blank Grasp (Flash)
 
 
-Arec: Returning Shot (Mercy)
-Rukyuk: Point Blank Shot (Explosive)
+Arec: Perceptional Drive
+Rukyuk: Sniper Shot
 
-Arec antes a Mercy token
-Rukyuk antes an Explosive token
-Priorities:  3 | 2
+Priorities:  5 | 4
 Arec is active
-Rukyuk is stunned
+Arec antes a Hesitation token
 Arec hits
+Arec moves Rukyuk:
+
+..AR...
+
+
 Rukyuk takes 3 damage (now at 17 life)
+Rukyuk is stunned
 
 Beat 3
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Returning Shot
+Life: 17
+Discard 1: Perceptional Drive
 Discard 2: Mirrored Dash
 Special action available
-pool: Fear, Hesitation
+pool: Fear, Mercy, Recklessness
 
 Rukyuk
 ------
 Life: 17
-Discard 1: Point Blank Shot
-Discard 2: Sniper Grasp
+Discard 1: Sniper Shot
+Discard 2: Gunner Drive
 Special action available
-pool: Flash, Impact, Longshot, Swift
+pool: Explosive, Flash, Impact, Swift
 
 
 ..AR...
@@ -146,102 +161,45 @@ pool: Flash, Impact, Longshot, Swift
 
 
 Arec:
-2% Phantom Strike (Hesitation)
-5% Perceptional Hex
-1% Perceptional Grasp
-12% Manipulative Hex
-7% Manipulative Hex (Hesitation)
-4% Manipulative Strike (Fear)
-27% Manipulative Strike (Hesitation)
-42% Manipulative Drive
+14% Phantom Shot (Mercy)
+26% Phantom Burst
+18% Phantom Burst (Recklessness)
+11% Manipulative Hex
+6% Manipulative Hex (Recklessness)
+5% Manipulative Shot
+6% Manipulative Shot (Fear)
+7% Manipulative Shot (Recklessness)
+3% Manipulative Grasp (Fear)
+4% Manipulative Grasp (Recklessness)
 
 Rukyuk:
-1% Gunner Reload
-4% Gunner Reload (Swift)
-0% Gunner Drive (Impact)
-10% Gunner Drive (Swift)
-9% Crossfire Burst (Longshot)
-2% Crossfire Dash
+12% Point Blank Reload (Swift)
+5% Point Blank Strike (Swift)
+3% Point Blank Burst (Explosive)
+3% Point Blank Burst (Swift)
+2% Point Blank Grasp (Explosive)
+16% Point Blank Grasp (Flash)
+4% Crossfire Reload (Swift)
+45% Crossfire Dash
+0% Trick Reload
+0% Trick Reload (Explosive)
+0% Trick Reload (Flash)
+0% Trick Reload (Impact)
 8% Trick Reload (Swift)
-65% Special Pulse
 
 
-Arec: Manipulative Drive
-Rukyuk: Special Pulse
+Arec: Manipulative Grasp (Fear)
+Rukyuk: Crossfire Dash
 
-Pulse:
-
-A.....R
-
-
-
-Beat 3
--------
-
-Arec
-----
-Life: 20
-Discard 1: Manipulative Drive
-Discard 2: Returning Shot
-Special action available
-pool: Fear, Hesitation
-
-Rukyuk
-------
-Life: 17
-Discard 1: Point Blank Shot
-Discard 2: Sniper Grasp
-pool: Flash, Impact, Longshot, Swift
-
-
-A.....R
-
-
-
-Arec:
-55% Mirrored Hex
-13% Mirrored Hex (Hesitation)
-32% Mirrored Strike
-
-Rukyuk:
-83% Gunner Strike (Longshot)
-7% Crossfire Drive (Swift)
-5% Crossfire Burst (Flash)
-4% Crossfire Burst (Impact)
-
-
-Arec: Mirrored Hex
-Rukyuk: Gunner Strike (Longshot)
-
-Rukyuk antes a Longshot token
-Priorities:  3 | 3
-Clash!
-
-
-Arec: Mirrored Strike
-Rukyuk: Gunner Drive (Longshot)
-
-Rukyuk antes a Longshot token
-Priorities:  3 | 4
+Arec antes a Fear token
+Priorities:  5 | 7
 Rukyuk is active
 Rukyuk moves:
 
-A....R.
-
-
-Rukyuk hits
-Arec takes 3 damage (now at 17 life)
-Rukyuk moves:
-
-A...R..
+..A...R
 
 
 Arec misses
-Arec places clone:
-
-A...R..
-...c...
-
 
 Beat 4
 -------
@@ -249,59 +207,64 @@ Beat 4
 Arec
 ----
 Life: 17
-Discard 1: Mirrored Strike
-Discard 2: Manipulative Drive
+Discard 1: Manipulative Grasp
+Discard 2: Perceptional Drive
 Special action available
-pool: Fear, Hesitation
+pool: Mercy, Recklessness
 
 Rukyuk
 ------
 Life: 17
-Discard 1: Gunner Drive
-Discard 2: Point Blank Shot
-pool: Flash, Impact, Swift
+Discard 1: Crossfire Dash
+Discard 2: Sniper Shot
+Special action available
+pool: Explosive, Flash, Impact, Swift
 
 
-A...R..
-...c...
+..A...R
+
 
 
 Arec:
-3% Phantom Hex (Fear; move to clone)
-18% Phantom Hex (Hesitation; move to clone)
-30% Phantom Shot (Fear; move to clone)
-3% Phantom Burst (Hesitation; move to clone)
-46% Perceptional Hex (Hesitation; move to clone)
+72% Phantom Dash
+4% Returning Hex
+4% Returning Hex (Recklessness)
+13% Mirrored Hex
+7% Mirrored Hex (Recklessness)
 
 Rukyuk:
-10% Sniper Reload
-48% Crossfire Reload
-15% Crossfire Reload (Swift)
-13% Crossfire Grasp
-14% Crossfire Dash
+3% Gunner Reload
+6% Gunner Reload (Explosive)
+17% Gunner Reload (Flash)
+9% Gunner Reload (Impact)
+30% Gunner Drive (Explosive)
+7% Gunner Drive (Flash)
+28% Gunner Grasp (Flash)
 
 
-Arec: Perceptional Hex (Hesitation; move to clone)
-Rukyuk: Crossfire Reload
+Arec: Phantom Dash
+Rukyuk: Gunner Drive (Explosive)
 
+Rukyuk antes an Explosive token
+Priorities:  10 | 4
+Arec is active
 Arec moves:
 
-...AR..
+....A.R
 
 
-Arec antes a Hesitation token
-Priorities:  4 | 2
-Arec is active
-Arec antes a Fear token
-Arec hits
-Arec moves Rukyuk:
+Rukyuk moves:
 
-..RA...
+....AR.
 
 
-Arec recovers a Recklessness token
-Rukyuk has 2 soak
-Rukyuk takes 1 damage (now at 16 life)
+Rukyuk misses
+Rukyuk moves:
+
+...RA..
+
+
+Arec recovers his Hesitation token
 
 Beat 5
 -------
@@ -309,122 +272,133 @@ Beat 5
 Arec
 ----
 Life: 17
-Discard 1: Perceptional Hex
-Discard 2: Mirrored Strike
+Discard 1: Phantom Dash
+Discard 2: Manipulative Grasp
 Special action available
-pool: Recklessness
+pool: Mercy, Recklessness, Hesitation
 
 Rukyuk
 ------
-Life: 16
-Discard 1: Crossfire Reload
-Discard 2: Gunner Drive
+Life: 17
+Discard 1: Gunner Drive
+Discard 2: Crossfire Dash
+Special action available
 pool: Flash, Impact, Swift
 
 
-..RA...
+...RA..
 
 
 
 Arec:
-49% Phantom Drive
-33% Phantom Dash
-17% Manipulative Shot
-1% Manipulative Drive
+19% Perceptional Hex
+18% Mirrored Hex (Recklessness)
+32% Mirrored Hex (Hesitation)
+31% Mirrored Burst (Hesitation)
 
 Rukyuk:
-16% Sniper Strike
-74% Sniper Dash
-1% Point Blank Strike (Flash)
-9% Point Blank Grasp (Swift)
+18% Sniper Reload
+18% Sniper Reload (Flash)
+18% Sniper Reload (Impact)
+17% Sniper Reload (Swift)
+21% Sniper Burst
+2% Point Blank Strike (Swift)
+6% Point Blank Shot (Swift)
 
 
-Arec: Phantom Drive
-Rukyuk: Point Blank Grasp (Swift)
+Arec: Perceptional Hex
+Rukyuk: Sniper Reload (Swift)
 
 Rukyuk antes a Swift token
-Priorities:  5 | 7
+Priorities:  4 | 8
 Rukyuk is active
-Rukyuk hits
-Rukyuk moves Arec:
+Rukyuk moves:
+
+R...A..
+
+
+Rukyuk moves:
+
+.R..A..
+
+
+Arec hits
+Arec moves Rukyuk:
 
 ..R.A..
 
 
-Arec takes 2 damage (now at 15 life)
-Rukyuk moves Arec:
-
-..R...A
-
-
-Arec is stunned
-Arec recovers a Hesitation token
+Arec recovers his Fear token
+Rukyuk takes 3 damage (now at 14 life)
 
 Beat 6
 -------
 
 Arec
 ----
-Life: 15
-Discard 1: Phantom Drive
-Discard 2: Perceptional Hex
+Life: 17
+Discard 1: Perceptional Hex
+Discard 2: Phantom Dash
 Special action available
-pool: Recklessness, Hesitation
+pool: Mercy, Recklessness, Hesitation, Fear
 
 Rukyuk
 ------
-Life: 16
-Discard 1: Point Blank Grasp
-Discard 2: Crossfire Reload
-pool: Flash, Impact
+Life: 14
+Discard 1: Sniper Reload
+Discard 2: Gunner Drive
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-..R...A
+..R.A..
 
 
 
 Arec:
-4% Returning Shot (Hesitation)
-8% Returning Dash
-2% Mirrored Shot
-12% Mirrored Shot (Hesitation)
-74% Mirrored Dash
+15% Mirrored Strike (Hesitation)
+29% Mirrored Strike (Fear)
+8% Mirrored Shot
+3% Mirrored Shot (Recklessness)
+41% Mirrored Shot (Hesitation)
+5% Mirrored Shot (Fear)
 
 Rukyuk:
-51% Sniper Shot (Flash)
-11% Sniper Drive (Flash)
-1% Sniper Burst (Flash)
-34% Gunner Dash (Flash)
-3% Trick Burst (Impact)
+0% Point Blank Burst (Swift)
+17% Crossfire Shot (Swift)
+14% Crossfire Burst (AP)
+26% Crossfire Grasp
+41% Crossfire Dash
+1% Trick Burst (Explosive)
 
 
-Arec: Mirrored Dash
-Rukyuk: Gunner Dash (Flash)
+Arec: Mirrored Strike (Hesitation)
+Rukyuk: Crossfire Grasp
 
-Rukyuk antes a Flash token
-Priorities:  9 | 9
+Arec antes a Hesitation token
+Priorities:  3 | 3
 Clash!
 
 
-Arec: Mirrored Strike
-Rukyuk: Gunner Shot (Flash)
+Arec: Mirrored Shot (Hesitation)
+Rukyuk: Crossfire Burst
 
-Rukyuk antes a Flash token
-Priorities:  3 | 2
+Arec antes a Hesitation token
+Priorities:  2 | -1
 Arec is active
-Arec misses
-Rukyuk hits
-Arec takes 3 damage (now at 12 life)
-Arec is stunned
 Rukyuk moves:
 
-...R..A
+R...A..
 
 
+Arec hits
+Rukyuk has 2 soak
+Rukyuk takes 2 damage (now at 12 life)
+Rukyuk is stunned
 Arec places clone:
 
-...R..A
-..c....
+R...A..
+.c.....
 
 
 Beat 7
@@ -432,195 +406,204 @@ Beat 7
 
 Arec
 ----
-Life: 12
-Discard 1: Mirrored Strike
-Discard 2: Phantom Drive
+Life: 17
+Discard 1: Mirrored Shot
+Discard 2: Perceptional Hex
 Special action available
-pool: Recklessness, Hesitation
+pool: Mercy, Recklessness, Fear
 
 Rukyuk
 ------
-Life: 16
-Discard 1: Gunner Shot
-Discard 2: Point Blank Grasp
-pool: Impact
+Life: 12
+Discard 1: Crossfire Burst
+Discard 2: Sniper Reload
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-...R..A
-..c....
-
-Unbeatable strategy for Rukyuk: Sniper Reload: -0.74
-Unbeatable strategy for Rukyuk: Sniper Reload (Impact): -0.74
-Unbeatable strategy for Rukyuk: Crossfire Reload: -2.40
-Unbeatable strategy for Rukyuk: Crossfire Reload (Impact): -2.40
+R...A..
+.c.....
 
 
 Arec:
-13% Perceptional Grasp
-4% Perceptional Grasp (move to clone)
-27% Manipulative Hex (Hesitation; move to clone)
-55% Manipulative Shot (Hesitation; move to clone)
+10% Phantom Drive (Mercy)
+1% Returning Strike (Mercy; move to clone)
+35% Returning Drive (Mercy)
+3% Returning Drive (Mercy; move to clone)
+12% Manipulative Strike (move to clone)
+6% Manipulative Strike (Mercy; move to clone)
+19% Manipulative Drive (Recklessness; move to clone)
+12% Manipulative Dash (move to clone)
+3% Manipulative Dash (Recklessness; move to clone)
 
 Rukyuk:
-68% Sniper Reload
-21% Crossfire Reload
-4% Crossfire Drive
-3% Trick Reload
-4% Trick Reload (Impact)
+2% Point Blank Strike (Impact)
+5% Point Blank Strike (Longshot)
+19% Point Blank Shot (Explosive)
+5% Point Blank Shot (Swift)
+4% Point Blank Grasp (Impact)
+5% Gunner Strike (Explosive)
+6% Gunner Strike (Longshot)
+4% Gunner Drive (Swift)
+51% Gunner Dash
 
 
-Arec: Perceptional Grasp
-Rukyuk: Sniper Reload
+Arec: Manipulative Dash (move to clone)
+Rukyuk: Gunner Strike (Longshot)
 
-Priorities:  6 | 6
-Clash!
+Arec moves:
 
-
-Arec: Perceptional Hex
-Rukyuk: Sniper Strike
-
-Priorities:  4 | 5
-Rukyuk is active
-Arec antes a Hesitation token
-Rukyuk misses
-Arec hits
-Arec moves Rukyuk:
-
-....R.A
+RA.....
 
 
-Arec moves Rukyuk:
+Rukyuk antes a Longshot token
+Priorities:  9 | 3
+Arec is active
+Arec moves:
 
-.....RA
+R.A....
 
 
-Arec recovers a Fear token
-Rukyuk takes 3 damage (now at 13 life)
+Rukyuk hits
+Arec takes 4 damage (now at 13 life)
+Arec is stunned
+Rukyuk moves:
+
+.RA....
+
+
 
 Beat 8
 -------
 
 Arec
 ----
-Life: 12
-Discard 1: Perceptional Hex
-Discard 2: Mirrored Strike
+Life: 13
+Discard 1: Manipulative Dash
+Discard 2: Mirrored Shot
 Special action available
-pool: Recklessness, Fear
+pool: Mercy, Recklessness, Fear
 
 Rukyuk
 ------
-Life: 13
-Discard 1: Sniper Strike
-Discard 2: Gunner Shot
-pool: Impact
+Life: 12
+Discard 1: Gunner Strike
+Discard 2: Crossfire Burst
+Special action available
+pool: AP, Explosive, Flash, Impact, Swift
 
 
-.....RA
+.RA....
 
 
-Unbeatable strategy for Arec: Returning Drive (Fear): 1.10
+Unbeatable strategy for Rukyuk: Sniper Dash: -0.18
 
 
 Arec:
-4% Phantom Drive
-31% Phantom Drive (Fear)
-45% Returning Drive (Fear)
-9% Manipulative Shot (Fear)
-11% Manipulative Drive (Fear)
+4% Phantom Hex
+37% Phantom Hex (Mercy)
+45% Phantom Strike (Mercy)
+10% Perceptional Hex
+4% Returning Hex
 
 Rukyuk:
-4% Point Blank Drive (Impact)
-3% Point Blank Grasp (Impact)
-18% Crossfire Drive
-50% Crossfire Dash
-25% Trick Reload
+1% Sniper Reload
+1% Sniper Reload (AP)
+1% Sniper Reload (Explosive)
+1% Sniper Reload (Flash)
+1% Sniper Reload (Impact)
+1% Sniper Reload (Swift)
+4% Sniper Shot
+64% Sniper Dash
+0% Point Blank Reload (Explosive)
+25% Point Blank Shot (Explosive)
 
 
-Arec: Manipulative Shot (Fear)
-Rukyuk: Crossfire Dash
+Arec: Phantom Strike (Mercy)
+Rukyuk: Sniper Dash
 
-Arec antes a Fear token
-Priorities:  2 | 7
+Arec antes a Mercy token
+Priorities:  4 | 11
 Rukyuk is active
 Rukyuk moves:
 
-..R...A
+R.A....
 
 
-Arec hits
-Arec chooses Rukyuk's base: Grasp
-Rukyuk has 2 soak
-Rukyuk takes 2 damage (now at 11 life)
-Arec recovers a Hesitation token
-Rukyuk is stunned
+Rukyuk moves:
+
+..AR...
+
+
+Arec misses
+Arec recovers his Hesitation token
 
 Beat 9
 -------
 
 Arec
 ----
-Life: 12
-Discard 1: Manipulative Shot
-Discard 2: Perceptional Hex
+Life: 13
+Discard 1: Phantom Strike
+Discard 2: Manipulative Dash
 Special action available
-pool: Recklessness, Hesitation
-Manipulative forced base: Grasp
+pool: Recklessness, Fear, Hesitation
 
 Rukyuk
 ------
-Life: 11
-Discard 1: Crossfire Dash
-Discard 2: Sniper Strike
-pool: Impact
+Life: 12
+Discard 1: Sniper Dash
+Discard 2: Gunner Strike
+Special action available
+pool: AP, Explosive, Flash, Impact, Swift
 
 
-..R...A
+..AR...
 
 
 
 Arec:
-19% Returning Drive
-53% Mirrored Drive
-10% Mirrored Burst (Hesitation)
-18% Mirrored Dash
+28% Perceptional Burst
+5% Perceptional Burst (Recklessness)
+2% Returning Drive
+4% Mirrored Hex
+28% Mirrored Hex (Recklessness)
+21% Mirrored Drive
+7% Mirrored Drive (Recklessness)
+4% Mirrored Burst (Hesitation)
 
 Rukyuk:
-33% Gunner Reload (Impact)
-18% Gunner Drive (Impact)
-28% Gunner Burst (Impact)
-21% Trick Burst (Impact)
+5% Point Blank Shot (Swift)
+11% Point Blank Drive (Swift)
+8% Point Blank Grasp (Explosive)
+30% Crossfire Reload
+12% Crossfire Reload (Swift)
+14% Crossfire Burst
+4% Crossfire Grasp
+7% Crossfire Grasp (AP)
+7% Crossfire Grasp (Flash)
 
 
-Arec: Mirrored Dash
-Rukyuk: Trick Burst (Impact)
+Arec: Mirrored Hex (Recklessness)
+Rukyuk: Point Blank Shot (Swift)
 
-Rukyuk antes an Impact token
-Rukyuk loses 2 life (now at 9)
-Priorities:  9 | -2
+Arec antes a Recklessness token
+Rukyuk antes a Swift token
+Priorities:  3 | 2
 Arec is active
-Rukyuk moves:
+Arec hits
+Arec moves Rukyuk:
 
-R.....A
-
-
-Arec moves:
-
-R..A...
+..A.R..
 
 
-Rukyuk hits
-Rukyuk moves Arec:
-
-R....A.
-
-
-Arec takes 3 damage (now at 9 life)
-Arec is stunned
+Arec recovers his Mercy token
+Rukyuk takes 4 damage (now at 8 life)
+Rukyuk misses
 Arec places clone:
 
-R....A.
-.c.....
+..A.R..
+...c...
 
 
 Beat 10
@@ -628,252 +611,181 @@ Beat 10
 
 Arec
 ----
-Life: 9
-Discard 1: Mirrored Dash
-Discard 2: Manipulative Shot
+Life: 13
+Discard 1: Mirrored Hex
+Discard 2: Phantom Strike
 Special action available
-pool: Recklessness, Hesitation
+pool: Fear, Hesitation, Mercy
 
 Rukyuk
 ------
-Life: 9
-Discard 1: Trick Burst
-Discard 2: Crossfire Dash
-pool: 
+Life: 8
+Discard 1: Point Blank Shot
+Discard 2: Sniper Dash
+Special action available
+pool: AP, Explosive, Flash, Impact
 
 
-R....A.
-.c.....
-
-Unbeatable strategy for Rukyuk: Sniper Reload: -3.20
-Unbeatable strategy for Rukyuk: Point Blank Reload: -0.11
-Unbeatable strategy for Rukyuk: Gunner Reload: -1.83
+..A.R..
+...c...
 
 
 Arec:
-60% Phantom Strike (Hesitation; move to clone)
-40% Phantom Grasp (Hesitation; move to clone)
+3% Perceptional Shot
+22% Manipulative Shot (Fear)
+23% Manipulative Shot (Fear; move to clone)
+10% Manipulative Shot (Hesitation; move to clone)
+0% Manipulative Drive (move to clone)
+24% Manipulative Drive (Hesitation; move to clone)
+17% Manipulative Grasp (Fear; move to clone)
 
 Rukyuk:
-54% Sniper Reload
-46% Gunner Reload
+4% Gunner Reload
+11% Gunner Drive (Impact)
+3% Gunner Grasp (Explosive)
+17% Crossfire Reload
+7% Crossfire Drive
+31% Crossfire Burst
+13% Trick Reload
+4% Trick Reload (AP)
+2% Trick Reload (Explosive)
+4% Trick Reload (Flash)
+3% Trick Reload (Impact)
 
 
-Arec: Phantom Grasp (Hesitation; move to clone)
-Rukyuk: Sniper Reload
-
-Arec moves:
-
-RA.....
-
-
-Arec antes a Hesitation token
-Priorities:  6 | 6
-Clash!
-
-
-Arec: Phantom Hex (Hesitation; move to clone)
-Rukyuk: Sniper Shot
+Arec: Manipulative Grasp (Fear; move to clone)
+Rukyuk: Trick Reload
 
 Arec moves:
 
-RA.....
+...AR..
 
 
-Arec antes a Hesitation token
-Priorities:  4 | 4
-Clash!
-
-
-Arec: Phantom Strike (Hesitation; move to clone)
-Rukyuk: Sniper Drive
-
-Arec moves:
-
-RA.....
-
-
-Arec antes a Hesitation token
-Priorities:  4 | 6
-Rukyuk is active
-Rukyuk misses
+Arec antes a Fear token
+Priorities:  5 | 1
+Arec is active
 Arec hits
-Rukyuk takes 3 damage (now at 6 life)
-Rukyuk is stunned
-Arec recovers a Fear token
+Arec chooses Rukyuk's base: Burst
+Arec moves Rukyuk:
+
+..RA...
+
+
+Rukyuk takes 3 damage (now at 5 life)
+Arec recovers his Recklessness token
+Rukyuk moves:
+
+R..A...
+
+
 
 Beat 11
 -------
 
 Arec
 ----
-Life: 9
-Discard 1: Phantom Strike
-Discard 2: Mirrored Dash
+Life: 13
+Discard 1: Manipulative Grasp
+Discard 2: Mirrored Hex
 Special action available
-pool: Recklessness, Fear
+pool: Hesitation, Mercy, Recklessness
+Manipulative forced base: Burst
 
 Rukyuk
 ------
-Life: 6
-Discard 1: Sniper Drive
-Discard 2: Trick Burst
-pool: 
+Life: 5
+Discard 1: Trick Reload
+Discard 2: Point Blank Shot
+Special action available
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
-
-RA.....
-
-
-Unbeatable strategy for Rukyuk: Gunner Dash: -0.51
-Unbeatable strategy for Rukyuk: Crossfire Dash: -0.04
-
-
-Arec:
-27% Perceptional Drive
-43% Perceptional Burst
-30% Returning Drive (Fear)
-
-Rukyuk:
-5% Gunner Reload
-88% Gunner Dash
-7% Crossfire Reload
-
-
-Arec: Perceptional Burst
-Rukyuk: Gunner Dash
-
-Priorities:  2 | 9
-Rukyuk is active
-Arec moves:
 
 R..A...
 
 
-Rukyuk moves:
 
-..RA...
+Arec:
+0% Phantom Strike (Mercy)
+2% Phantom Drive
+47% Perceptional Strike
+26% Perceptional Strike (Hesitation)
+24% Returning Drive
+
+Rukyuk:
+9% Sniper Grasp (Longshot)
+12% Gunner Grasp (Flash)
+1% Crossfire Strike (Longshot)
+77% Crossfire Burst
+1% Crossfire Grasp (Swift)
 
 
-Rukyuk moves:
+Arec: Perceptional Strike
+Rukyuk: Crossfire Burst
 
-...A..R
+Priorities:  4 | -1
+Arec is active
+Arec hits
+Arec moves Rukyuk:
+
+.R.A...
 
 
-Arec misses
+Rukyuk has 2 soak
+Rukyuk takes 2 damage (now at 3 life)
+Rukyuk is stunned
 
 Beat 12
 -------
 
 Arec
 ----
-Life: 9
-Discard 1: Perceptional Burst
-Discard 2: Phantom Strike
+Life: 13
+Discard 1: Perceptional Strike
+Discard 2: Manipulative Grasp
 Special action available
-pool: Recklessness, Fear
+pool: Hesitation, Mercy, Recklessness
 
 Rukyuk
 ------
-Life: 6
-Discard 1: Gunner Dash
-Discard 2: Sniper Drive
-pool: 
-
-
-...A..R
-
-
-Unbeatable strategy for Arec: Returning Hex (Fear): 1.19
-Unbeatable strategy for Arec: Returning Drive (Fear): 1.13
-
-
-Arec:
-38% Manipulative Hex (Fear)
-62% Manipulative Drive (Fear)
-
-Rukyuk:
-62% Crossfire Reload
-38% Crossfire Burst
-
-
-Arec: Manipulative Drive (Fear)
-Rukyuk: Crossfire Reload
-
-Arec antes a Fear token
-Priorities:  4 | 2
-Arec is active
-Arec moves:
-
-.....AR
-
-
-Arec hits
-Arec chooses Rukyuk's base: Burst
-Rukyuk has 2 soak
-Rukyuk takes 2 damage (now at 4 life)
-Arec recovers a Hesitation token
-Rukyuk is stunned
-
-Beat 13
--------
-
-Arec
-----
-Life: 9
-Discard 1: Manipulative Drive
-Discard 2: Perceptional Burst
+Life: 3
+Discard 1: Crossfire Burst
+Discard 2: Trick Reload
 Special action available
-pool: Recklessness, Hesitation
-Manipulative forced base: Burst
-
-Rukyuk
-------
-Life: 4
-Discard 1: Crossfire Reload
-Discard 2: Gunner Dash
-pool: 
+pool: AP, Explosive, Flash, Impact, Longshot, Swift
 
 
-.....AR
+.R.A...
 
-
-Unbeatable strategy for Arec: Returning Hex: 1.21
-Unbeatable strategy for Arec: Returning Hex (Recklessness): 0.61
-Unbeatable strategy for Arec: Returning Hex (Hesitation): 0.93
-Unbeatable strategy for Arec: Returning Strike (Hesitation): 9.00
-Unbeatable strategy for Arec: Returning Shot: 0.86
-Unbeatable strategy for Arec: Returning Shot (Recklessness): 0.26
-Unbeatable strategy for Arec: Returning Shot (Hesitation): 0.06
 
 
 Arec:
-100% Returning Strike (Hesitation)
+5% Returning Shot
+4% Returning Shot (Hesitation)
+13% Returning Drive
+32% Returning Drive (Hesitation)
+8% Returning Drive (Recklessness)
+34% Returning Burst
+2% Returning Burst (Hesitation)
+3% Mirrored Drive
 
 Rukyuk:
-4% Sniper Strike
-5% Sniper Shot
-8% Sniper Drive
-20% Sniper Burst
-5% Sniper Grasp
-9% Point Blank Strike
-4% Point Blank Shot
-4% Point Blank Drive
-12% Point Blank Burst
-2% Point Blank Grasp
-4% Trick Strike
-5% Trick Shot
-3% Trick Drive
-13% Trick Burst
-2% Trick Grasp
+6% Sniper Dash
+1% Point Blank Drive (Explosive)
+3% Point Blank Grasp (Swift)
+0% Gunner Strike (Explosive)
+0% Gunner Drive (Longshot)
+1% Gunner Grasp (Explosive)
+2% Gunner Grasp (Swift)
+88% Special Pulse
 
 
-Arec: Returning Strike (Hesitation)
-Rukyuk: Sniper Burst
+Arec: Returning Drive (Hesitation)
+Rukyuk: Sniper Dash
 
 Arec antes a Hesitation token
-Priorities:  4 | 3
-Arec is active
+Priorities:  5 | 11
+Rukyuk is active
 Arec hits
-Rukyuk takes 4 damage (now at 0 life)
+Rukyuk takes 3 damage (now at 0 life)
 AREC WINS!
-total_time: 315
+total_time: 587

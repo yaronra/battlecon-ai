@@ -339,6 +339,8 @@ def strategies (name, logdir="free_for_all", beat=None,
                  if bool(b.lines_starting_with(condition)) != reverse_condition]
     if name == 'adjenna':
         post_processing_adjenna(beats)
+    if name == 'arec':
+        post_processing_arec(beats)
     if name == 'byron':
         post_processing_byron(beats)
     if name == 'cesar':
@@ -1605,6 +1607,13 @@ def post_processing_adjenna(beats):
     for beat in beats:
         lines = beat.lines_containing(' Petrification markers on ')
         beat.ante = "(Petrification %d)" % int(lines[0][0])
+        
+def post_processing_arec(beats):
+    for beat in beats:
+        if beat.ante == '(move to clone)':
+            beat.ante = ''
+        elif 'move to clone' in beat.ante:
+            beat.ante = beat.ante.split(';')[0] + ')'
         
 def post_processing_byron(beats):
     for beat in beats:

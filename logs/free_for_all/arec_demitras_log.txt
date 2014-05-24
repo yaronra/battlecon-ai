@@ -4,7 +4,7 @@ GAME 0
 
 Arec vs. Demitras
 Chosen finisher for Arec: Uncanny Oblivion
-Chosen finisher for Demitras: Symphony of Demise
+Chosen finisher for Demitras: Symphony of Demise, Accelerando
 
 Beat 1
 -------
@@ -31,24 +31,22 @@ Special action available
 
 
 Arec:
-2% Perceptional Hex
-9% Perceptional Drive (Recklessness)
-43% Perceptional Dash (Recklessness)
+5% Perceptional Drive (Recklessness)
+42% Perceptional Dash (Recklessness)
 18% Returning Shot (Hesitation)
-4% Returning Drive
-17% Returning Drive (Fear)
-5% Returning Drive (Mercy)
-3% Mirrored Hex (Fear)
+16% Returning Drive (Fear)
+10% Returning Drive (Mercy)
+5% Mirrored Hex (Fear)
+4% Mirrored Drive (Recklessness)
 
 Demitras:
 2% Darkside Drive
 10% Darkside Burst
-62% Darkside Dash
-4% Vapid Shot
-9% Vapid Drive
+66% Darkside Dash
+6% Vapid Shot
+8% Vapid Drive
+4% Vapid Dash
 4% Jousting Deathblow
-2% Jousting Drive
-7% Jousting Dash
 
 
 Arec: Perceptional Dash (Recklessness)
@@ -59,19 +57,28 @@ Priorities:  10 | 10
 Clash!
 
 
-Arec: Perceptional Shot (Recklessness)
-Demitras: Darkside Drive
+Arec: Perceptional Drive (Recklessness)
+Demitras: Darkside Burst
 
 Arec antes a Recklessness token
-Priorities:  3 | 5
-Demitras is active
+Priorities:  5 | 2
+Arec is active
 Demitras moves:
 
-.A.D...
+.A....D
 
 
-Demitras misses
+Arec moves:
+
+...A..D
+
+
 Arec hits
+Arec moves Demitras:
+
+...A.D.
+
+
 Demitras discards a Crescendo token
 Demitras takes 3 damage (now at 17 life)
 Demitras is stunned
@@ -82,7 +89,7 @@ Beat 2
 Arec
 ----
 Life: 20
-Discard 1: Perceptional Shot
+Discard 1: Perceptional Drive
 Discard 2: Phantom Strike
 Special action available
 pool: Fear, Hesitation, Mercy
@@ -90,268 +97,284 @@ pool: Fear, Hesitation, Mercy
 Demitras
 --------
 Life: 17
-Discard 1: Darkside Drive
+Discard 1: Darkside Burst
 Discard 2: Bloodletting Grasp
 Special action available
-1 Crescendo tokens
+1 Crescendo token
 
 
-.A.D...
+...A.D.
 
 
 
 Arec:
-7% Returning Burst (Hesitation)
-15% Mirrored Hex (Fear)
-22% Mirrored Hex (Hesitation)
-4% Mirrored Burst
-31% Mirrored Grasp (Fear)
-21% Manipulative Drive (Fear)
+13% Returning Shot
+5% Mirrored Hex (Hesitation)
+4% Mirrored Shot
+6% Mirrored Shot (Fear)
+22% Mirrored Shot (Hesitation)
+21% Mirrored Burst (Hesitation)
+12% Mirrored Grasp (Fear)
+2% Mirrored Grasp (Hesitation)
+17% Mirrored Dash
 
 Demitras:
-20% Vapid Shot
-1% Illusory Shot
-1% Illusory Shot (1 token)
-17% Illusory Burst
-19% Illusory Burst (1 token)
-10% Jousting Strike
-15% Jousting Shot
-16% Jousting Dash
+1% Vapid Drive
+6% Illusory Shot
+8% Illusory Shot (1 token)
+2% Illusory Drive
+2% Illusory Drive (1 token)
+0% Jousting Deathblow
+3% Jousting Strike (1 token)
+1% Jousting Drive
+11% Jousting Drive (1 token)
+2% Jousting Dash
+63% Special Pulse
 
 
-Arec: Manipulative Drive (Fear)
-Demitras: Jousting Dash
+Arec: Returning Shot
+Demitras: Special Pulse
+
+Demitras Pulses:
+
+.A....D
+
+
+
+Beat 2
+-------
+
+Arec
+----
+Life: 20
+Discard 1: Returning Shot
+Discard 2: Perceptional Drive
+Special action available
+pool: Fear, Hesitation, Mercy
+
+Demitras
+--------
+Life: 17
+Discard 1: Darkside Burst
+Discard 2: Bloodletting Grasp
+1 Crescendo token
+
+
+.A....D
+
+
+Unbeatable strategy for Arec: Mirrored Burst (Hesitation): 0.07
+
+
+Arec:
+5% Phantom Dash (Fear)
+29% Mirrored Hex (Fear)
+21% Mirrored Strike (Fear)
+10% Manipulative Burst
+4% Manipulative Burst (Hesitation)
+29% Manipulative Dash
+
+Demitras:
+41% Vapid Shot
+37% Vapid Shot (1 token)
+6% Illusory Strike
+6% Illusory Strike (1 token)
+1% Jousting Deathblow
+5% Jousting Shot
+4% Jousting Drive
+
+
+Arec: Mirrored Hex (Fear)
+Demitras: Vapid Shot (1 token)
 
 Arec antes a Fear token
-Priorities:  4 | 11
-Demitras is active
-Demitras moves:
+Demitras antes a Crescendo token
+Priorities:  3 | 2
+Arec is active
+Arec hits
+Arec moves Demitras:
 
-DA.....
+.A...D.
 
 
-Arec misses
+Arec recovers his Recklessness token
+Demitras takes 4 damage (now at 13 life)
+Demitras hits
+Demitras gains 1 Crescendo token
+Arec is stunned
+Arec takes 4 damage (now at 16 life)
+Arec is stunned
+Arec places clone:
+
+.A...D.
+c......
+
 
 Beat 3
 -------
 
 Arec
 ----
-Life: 20
-Discard 1: Manipulative Drive
-Discard 2: Perceptional Shot
+Life: 16
+Discard 1: Mirrored Hex
+Discard 2: Returning Shot
 Special action available
-pool: Hesitation, Mercy
+pool: Hesitation, Mercy, Recklessness
 
 Demitras
 --------
-Life: 17
-Discard 1: Jousting Dash
-Discard 2: Darkside Drive
-Special action available
-1 Crescendo tokens
+Life: 13
+Discard 1: Vapid Shot
+Discard 2: Darkside Burst
+1 Crescendo token
 
 
-DA.....
+.A...D.
+c......
 
+Unbeatable strategy for Arec: Phantom Burst (Hesitation): 6.44
 
 
 Arec:
-2% Phantom Grasp
-1% Returning Strike
-1% Returning Burst
-96% Mirrored Burst
+2% Phantom Burst
+97% Phantom Burst (Hesitation)
+1% Manipulative Burst (Hesitation)
 
 Demitras:
-47% Bloodletting Shot
-25% Bloodletting Burst
-0% Illusory Shot
-0% Illusory Shot (1 token)
-14% Illusory Burst
-13% Illusory Burst (1 token)
+27% Bloodletting Deathblow
+5% Jousting Drive
+40% Jousting Grasp
+28% Jousting Grasp (1 token)
 
 
-Arec: Returning Burst
-Demitras: Bloodletting Shot
+Arec: Phantom Burst (Hesitation)
+Demitras: Jousting Grasp (1 token)
 
+Arec antes a Hesitation token
+Demitras antes a Crescendo token
 Priorities:  2 | 6
 Demitras is active
+Demitras moves:
+
+.AD....
+
+
 Arec moves:
 
-D..A...
+A.D....
 
 
-Demitras hits
-Demitras gains 1 Crescendo token
-Arec takes 1 damage (now at 19 life)
-Arec is stunned
-
-Beat 4
--------
-
-Arec
-----
-Life: 19
-Discard 1: Returning Burst
-Discard 2: Manipulative Drive
-Special action available
-pool: Hesitation, Mercy
-
-Demitras
---------
-Life: 17
-Discard 1: Bloodletting Shot
-Discard 2: Jousting Dash
-Special action available
-2 Crescendo tokens
-
-
-D..A...
-
-
-
-Arec:
-48% Perceptional Hex
-29% Perceptional Shot
-23% Mirrored Shot
-
-Demitras:
-1% Illusory Drive
-1% Illusory Drive (1 token)
-1% Illusory Drive (2 tokens)
-2% Illusory Burst
-2% Illusory Burst (1 token)
-3% Illusory Burst (2 tokens)
-91% Special Pulse
-
-
-Arec: Perceptional Shot
-Demitras: Special Pulse
-
-Pulse:
-
-.AD....
-
-
+Demitras misses
+Arec hits
+Demitras takes 2 damage (now at 11 life)
+Demitras is stunned
+Arec recovers his Fear token
 
 Beat 4
 -------
 
 Arec
 ----
-Life: 19
-Discard 1: Perceptional Shot
-Discard 2: Returning Burst
+Life: 16
+Discard 1: Phantom Burst
+Discard 2: Mirrored Hex
 Special action available
-pool: Hesitation, Mercy
+pool: Mercy, Recklessness, Fear
 
 Demitras
 --------
-Life: 17
-Discard 1: Bloodletting Shot
-Discard 2: Jousting Dash
-2 Crescendo tokens
+Life: 11
+Discard 1: Jousting Grasp
+Discard 2: Vapid Shot
+0 Crescendo tokens
 
 
-.AD....
+A.D....
 
+
+Unbeatable strategy for Demitras: Illusory Burst: -0.82
 
 
 Arec:
-50% Phantom Strike (Mercy)
-26% Phantom Drive (Mercy)
-21% Phantom Dash
-3% Manipulative Strike (Hesitation)
+4% Perceptional Drive
+22% Manipulative Shot
+73% Manipulative Shot (Mercy)
 
 Demitras:
-16% Darkside Deathblow
-13% Illusory Deathblow
-5% Illusory Deathblow (1 token)
-3% Illusory Deathblow (2 tokens)
-15% Illusory Strike
-5% Illusory Strike (1 token)
-3% Illusory Strike (2 tokens)
-33% Illusory Burst
-5% Illusory Burst (1 token)
-3% Illusory Burst (2 tokens)
+6% Darkside Drive
+21% Darkside Burst
+73% Illusory Burst
 
 
-Arec: Phantom Strike (Mercy)
-Demitras: Illusory Deathblow (2 tokens)
+Arec: Manipulative Shot (Mercy)
+Demitras: Illusory Burst
 
 Arec antes a Mercy token
-Demitras antes a Crescendo token
-Demitras antes a Crescendo token
-Priorities:  4 | 11
+Priorities:  2 | 2
+Clash!
+
+
+Arec: Manipulative Strike (Mercy)
+Demitras: Illusory Strike
+
+Arec antes a Mercy token
+Priorities:  3 | 4
 Demitras is active
-Demitras hits
-Demitras gains 1 Crescendo token
-Arec takes 0 damage (now at 19 life)
-Demitras gains 1 Crescendo token
-Arec hits
-Demitras discards a Crescendo token
-Demitras takes 3 damage (now at 14 life)
-Demitras is stunned
-Arec recovers a Recklessness token
+Demitras misses
+Arec misses
 
 Beat 5
 -------
 
 Arec
 ----
-Life: 19
-Discard 1: Phantom Strike
-Discard 2: Perceptional Shot
+Life: 16
+Discard 1: Manipulative Strike
+Discard 2: Phantom Burst
 Special action available
-pool: Hesitation, Recklessness
+pool: Recklessness, Fear
 
 Demitras
 --------
-Life: 14
-Discard 1: Illusory Deathblow
-Discard 2: Bloodletting Shot
-3 Crescendo tokens
+Life: 11
+Discard 1: Illusory Strike
+Discard 2: Jousting Grasp
+0 Crescendo tokens
 
 
-.AD....
+A.D....
 
 
 
 Arec:
-31% Returning Drive (Recklessness)
-8% Returning Burst
-10% Returning Grasp
-8% Returning Grasp (Recklessness)
-30% Mirrored Drive (Recklessness)
-12% Manipulative Burst (Hesitation)
+7% Returning Drive (Recklessness)
+2% Mirrored Hex
+1% Mirrored Hex (Fear)
+90% Mirrored Dash
 
 Demitras:
-22% Darkside Burst
-33% Darkside Grasp
-26% Vapid Strike
-5% Vapid Drive
-4% Vapid Grasp
-9% Jousting Dash
+46% Bloodletting Drive
+4% Bloodletting Burst
+29% Bloodletting Dash
+20% Vapid Deathblow
 
 
-Arec: Returning Drive (Recklessness)
-Demitras: Vapid Strike
+Arec: Mirrored Dash
+Demitras: Vapid Deathblow
 
-Arec antes a Recklessness token
-Priorities:  5 | 3
+Priorities:  9 | 8
 Arec is active
 Arec moves:
 
-..D.A..
+..DA...
 
 
-Arec hits
-Demitras discards a Crescendo token
-Demitras takes 3 damage (now at 11 life)
-Demitras hits
-Demitras gains 1 Crescendo token
-Arec takes 3 damage (now at 16 life)
-Arec is stunned
+Demitras misses
+Arec places clone:
+
+..DA...
+......c
+
 
 Beat 6
 -------
@@ -359,65 +382,53 @@ Beat 6
 Arec
 ----
 Life: 16
-Discard 1: Returning Drive
-Discard 2: Phantom Strike
+Discard 1: Mirrored Dash
+Discard 2: Manipulative Strike
 Special action available
-pool: Hesitation
+pool: Recklessness, Fear
 
 Demitras
 --------
 Life: 11
-Discard 1: Vapid Strike
-Discard 2: Illusory Deathblow
-3 Crescendo tokens
+Discard 1: Vapid Deathblow
+Discard 2: Illusory Strike
+0 Crescendo tokens
 
 
-..D.A..
-
+..DA...
+......c
 
 
 Arec:
-26% Mirrored Shot
-19% Mirrored Burst
-18% Mirrored Burst (Hesitation)
-33% Mirrored Grasp (Hesitation)
-3% Manipulative Shot
+76% Phantom Shot (move to clone)
+8% Phantom Drive (move to clone)
+14% Perceptional Drive (move to clone)
+2% Returning Drive (move to clone)
 
 Demitras:
-18% Darkside Burst
-14% Darkside Burst (1 token)
-45% Jousting Shot
-8% Jousting Drive (1 token)
-14% Jousting Burst
+8% Darkside Shot
+9% Darkside Burst
+6% Darkside Grasp
+77% Darkside Dash
 
 
-Arec: Mirrored Burst
-Demitras: Jousting Burst
-
-Priorities:  1 | 5
-Demitras is active
-Demitras moves:
-
-D...A..
-
-
-Demitras moves:
-
-...DA..
-
+Arec: Phantom Shot (move to clone)
+Demitras: Darkside Dash
 
 Arec moves:
 
-...D.A.
+..D...A
 
 
-Demitras misses
+Priorities:  3 | 10
+Demitras is active
+Demitras moves:
+
+D.....A
+
+
 Arec misses
-Arec places clone:
-
-...D.A.
-c......
-
+Arec recovers his Hesitation token
 
 Beat 7
 -------
@@ -425,175 +436,266 @@ Beat 7
 Arec
 ----
 Life: 16
-Discard 1: Mirrored Burst
-Discard 2: Returning Drive
+Discard 1: Phantom Shot
+Discard 2: Mirrored Dash
 Special action available
-pool: Hesitation
+pool: Recklessness, Fear, Hesitation
 
 Demitras
 --------
 Life: 11
-Discard 1: Jousting Burst
-Discard 2: Vapid Strike
-3 Crescendo tokens
+Discard 1: Darkside Dash
+Discard 2: Vapid Deathblow
+0 Crescendo tokens
 
 
-...D.A.
-c......
+D.....A
 
-Unbeatable strategy for Demitras: Darkside Shot: -1.19
 
 
 Arec:
-49% Phantom Strike (move to clone)
-6% Phantom Dash
-7% Perceptional Strike (move to clone)
-31% Perceptional Grasp (move to clone)
-5% Manipulative Shot (move to clone)
-1% Manipulative Grasp (Hesitation; move to clone)
+10% Returning Burst
+2% Returning Grasp
+9% Manipulative Hex
+15% Manipulative Hex (Fear)
+18% Manipulative Grasp
+47% Manipulative Grasp (Fear)
 
 Demitras:
-23% Darkside Shot
-17% Darkside Shot (1 token)
-2% Darkside Drive
-48% Bloodletting Shot
-1% Bloodletting Shot (1 token)
-9% Bloodletting Shot (3 tokens)
+6% Bloodletting Drive
+47% Illusory Shot
+36% Illusory Burst
+1% Jousting Strike
+2% Jousting Shot
+8% Jousting Grasp
 
 
-Arec: Perceptional Grasp (move to clone)
-Demitras: Darkside Shot (1 token)
+Arec: Manipulative Grasp
+Demitras: Illusory Burst
 
-Arec moves:
-
-A..D...
-
-
-Demitras antes a Crescendo token
-Priorities:  6 | 5
+Priorities:  5 | 2
 Arec is active
-Arec hits
-Arec moves Demitras:
-
-A...D..
-
-
-Demitras discards a Crescendo token
-Demitras takes 2 damage (now at 9 life)
-Demitras hits
-Demitras gains 1 Crescendo token
-Arec takes 3 damage (now at 13 life)
-Arec is stunned
+Arec misses
+Demitras misses
 
 Beat 8
 -------
 
 Arec
 ----
-Life: 13
-Discard 1: Perceptional Grasp
-Discard 2: Mirrored Burst
+Life: 16
+Discard 1: Manipulative Grasp
+Discard 2: Phantom Shot
 Special action available
-pool: Hesitation
+pool: Recklessness, Fear, Hesitation
 
 Demitras
 --------
-Life: 9
-Discard 1: Darkside Shot
-Discard 2: Jousting Burst
-2 Crescendo tokens
+Life: 11
+Discard 1: Illusory Burst
+Discard 2: Darkside Dash
+0 Crescendo tokens
 
 
-A...D..
+D.....A
 
 
-Unbeatable strategy for Arec: Returning Hex (Hesitation): 5.35
-Unbeatable strategy for Arec: Returning Shot (Hesitation): 4.36
-Unbeatable strategy for Arec: Manipulative Shot (Hesitation): 7.04
+Unbeatable strategy for Arec: Returning Hex (Fear): 1.94
 
 
 Arec:
-6% Manipulative Hex
-94% Manipulative Hex (Hesitation)
+1% Returning Hex
+74% Returning Hex (Fear)
+20% Mirrored Hex
+4% Mirrored Hex (Fear)
 
 Demitras:
-96% Bloodletting Deathblow
-4% Vapid Drive
+77% Bloodletting Deathblow
+19% Vapid Strike
+1% Jousting Strike
+2% Jousting Drive
 
 
-Arec: Manipulative Hex (Hesitation)
+Arec: Mirrored Hex
 Demitras: Bloodletting Deathblow
 
-Arec antes a Hesitation token
-Priorities:  3 | 13
+Priorities:  3 | 11
 Demitras is active
 Demitras misses
 Arec hits
-Arec chooses Demitras's base: Grasp
 Arec moves Demitras:
 
-A....D.
+.D....A
 
 
-Arec recovers a Recklessness token
-Demitras discards a Crescendo token
-Demitras takes 4 damage (now at 5 life)
-Arec recovers a Fear token
+Arec recovers his Mercy token
+Demitras takes 4 damage (now at 7 life)
+Arec places clone:
+
+.D....A
+c......
+
 
 Beat 9
 -------
 
 Arec
 ----
-Life: 13
-Discard 1: Manipulative Hex
-Discard 2: Perceptional Grasp
+Life: 16
+Discard 1: Mirrored Hex
+Discard 2: Manipulative Grasp
 Special action available
-pool: Recklessness, Fear
-Manipulative forced base: Grasp
+pool: Recklessness, Fear, Hesitation, Mercy
 
 Demitras
 --------
-Life: 5
+Life: 7
 Discard 1: Bloodletting Deathblow
-Discard 2: Darkside Shot
-1 Crescendo tokens
+Discard 2: Illusory Burst
+0 Crescendo tokens
 
 
-A....D.
-
-
-Unbeatable strategy for Arec: Returning Shot (Fear): 0.27
+.D....A
+c......
 
 
 Arec:
-21% Phantom Shot
-3% Phantom Shot (Recklessness)
-16% Phantom Shot (Fear)
-13% Returning Shot (Fear)
-31% Mirrored Shot (Fear)
-17% Mirrored Burst (Fear)
+14% Returning Strike (Hesitation; move to clone)
+61% Returning Strike (Mercy; move to clone)
+0% Returning Shot (Hesitation)
+8% Returning Drive (move to clone)
+17% Returning Drive (Mercy; move to clone)
 
 Demitras:
-36% Vapid Burst
-35% Vapid Dash
-5% Illusory Burst
-5% Illusory Burst (1 token)
-0% Illusory Dash
-0% Illusory Dash (1 token)
-7% Jousting Burst
-12% Jousting Grasp
+17% Darkside Drive
+1% Darkside Grasp
+29% Darkside Dash
+23% Vapid Strike
+29% Vapid Dash
 
 
-Arec: Returning Shot (Fear)
-Demitras: Vapid Burst
+Arec: Returning Strike (Hesitation; move to clone)
+Demitras: Vapid Strike
+
+Arec moves:
+
+AD.....
+
+
+Arec antes a Hesitation token
+Priorities:  4 | 3
+Arec is active
+Demitras is stunned
+Arec hits
+Demitras takes 4 damage (now at 3 life)
+
+Beat 10
+-------
+
+Arec
+----
+Life: 16
+Discard 1: Returning Strike
+Discard 2: Mirrored Hex
+Special action available
+pool: Recklessness, Fear, Mercy
+
+Demitras
+--------
+Life: 3
+Discard 1: Vapid Strike
+Discard 2: Bloodletting Deathblow
+0 Crescendo tokens
+
+
+AD.....
+
+
+
+Arec:
+7% Phantom Shot (Fear)
+30% Phantom Drive
+39% Phantom Dash (Fear)
+6% Manipulative Shot
+17% Manipulative Shot (Mercy)
+
+Demitras:
+0% Darkside Shot
+2% Darkside Drive
+18% Darkside Dash
+11% Illusory Shot
+69% Illusory Burst
+
+
+Arec: Phantom Dash (Fear)
+Demitras: Illusory Burst
 
 Arec antes a Fear token
-Demitras loses 2 life (now at 3)
-Priorities:  3 | 2
+Priorities:  10 | 2
 Arec is active
+Arec moves:
+
+.D.A...
+
+
+Demitras misses
+Arec recovers his Hesitation token
+
+Beat 11
+-------
+
+Arec
+----
+Life: 16
+Discard 1: Phantom Dash
+Discard 2: Returning Strike
+Special action available
+pool: Recklessness, Mercy, Hesitation
+
+Demitras
+--------
+Life: 3
+Discard 1: Illusory Burst
+Discard 2: Vapid Strike
+0 Crescendo tokens
+
+
+.D.A...
+
+
+Unbeatable strategy for Arec: Manipulative Shot (Hesitation): 8.00
+
+
+Arec:
+100% Manipulative Shot (Hesitation)
+
+Demitras:
+4% Darkside Deathblow
+6% Darkside Shot
+1% Darkside Drive
+6% Darkside Grasp
+5% Darkside Dash
+3% Bloodletting Deathblow
+11% Bloodletting Shot
+5% Bloodletting Drive
+4% Bloodletting Grasp
+4% Bloodletting Dash
+4% Jousting Deathblow
+6% Jousting Shot
+9% Jousting Drive
+10% Jousting Grasp
+22% Jousting Dash
+
+
+Arec: Manipulative Shot (Hesitation)
+Demitras: Bloodletting Deathblow
+
+Arec antes a Hesitation token
+Priorities:  2 | 11
+Demitras is active
+Demitras misses
 Arec hits
-Demitras discards a Crescendo token
-Demitras takes 3 damage (now at 0 life)
+Arec chooses Demitras's base: Dash
+Demitras takes 4 damage (now at 0 life)
 AREC WINS!
 total_time: 60

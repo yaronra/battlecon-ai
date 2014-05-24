@@ -3879,8 +3879,6 @@ class Arec (Character):
         return self.mercy in self.active_cards
     def blocks_after_triggers(self):
         return self.hesitation in self.active_cards
-    def blocks_end_triggers(self):
-        return self.fear in self.active_cards
     
     # Tokens block own triggers.
     def start_trigger (self):
@@ -3901,9 +3899,6 @@ class Arec (Character):
     def after_trigger (self):
         if not any(p.blocks_after_triggers() for p in self.game.player):
             self.activate_card_triggers('after_trigger')
-    def end_trigger (self):
-        if not any(p.blocks_end_triggers() for p in self.game.player):
-            self.activate_card_triggers('end_trigger')
         
     # Token blocks opponent's bonuses
     def blocks_power_bonuses(self):
@@ -9543,7 +9538,7 @@ class Manipulative(Style):
     def evaluation_bonus(self):
         return 0.05 if len(self.me.pool) < 4 else -0.1
      
-# blocks start/end triggers
+# blocks start triggers
 class Fear(Token):
     value = 0.5
     
