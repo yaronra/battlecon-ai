@@ -15096,13 +15096,13 @@ class Haste (Paradigm):
 class Resilience (Paradigm):
     shorthand = 'r'
     def start_trigger (self):
-        self.resilience_soak = 2
+        self.me.resilience_soak = 2
     # if Resilience is replaced in the after trigger,
-    # it's own after trigger can be avoided
+    # its own after trigger can be avoided
     # (style and base triggers precede paradigm triggers)
     def after_trigger (self):
         if self in self.me.active_paradigms:
-            self.resilience_soak = 0
+            self.me.resilience_soak = 0
     def evaluate (self):
         return 1.2
 
