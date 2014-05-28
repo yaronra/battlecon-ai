@@ -1420,11 +1420,12 @@ class Game:
               if  ss1[jj][0] == s1[0]
               and ss1[jj][2] == s1[2]
               and ss1[jj][1] != s1[1]]
-        # if one player ran out of bases in clash, just apply unique abilities
-        # and cycle
+        # if one player ran out of bases in clash, just cycle
+        # (not sure if end-of-beat UAs should happen, 
+        # but some of them (Voco) require Forks, so I can't
+        # have them outside of simulate(), anyway) 
         if min (len(g0),len(g1)) == 0:
             for p in self.player:
-                p.unique_ability_end_trigger()
                 p.cycle ()
             state = self.full_save (None)
             report.append ("\nout of bases - cycling")
