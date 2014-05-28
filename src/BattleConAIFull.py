@@ -699,11 +699,11 @@ class Game:
                         for s0 in self.player[0].strats]
 
         self.initial_restore (self.initial_state)
-        
+
         # remove redundant finisher strategies
         # (that devolve into identical cancels)
         self.remove_redundant_finishers()
-
+    
         # Usually this does nothing, but some characters might need to
         # fix the result tables and strategies (e.g. Seth, Ottavia).
         for p in self.player:
@@ -5646,6 +5646,15 @@ class Heketch (Character):
                      else [])
         self.living_nightmare_active = find_start(lines, "Living Nightmare active")
 
+    def initial_save (self):
+        state = Character.initial_save (self)
+        state.living_nightmare_active = self.living_nightmare_active
+        return state
+
+    def initial_restore (self, state):
+        Character.initial_restore (self, state)
+        self.living_nightmare_active = state.living_nightmare_active
+
     def reset (self):
         self.merciless_immobilized = False
         self.merciless_dodge = False
@@ -7944,7 +7953,7 @@ class Seth (Character):
         fake_strats = self.strats
         opp_strats = self.opponent.strats
         fake_results = self.game.results
-
+        
         # For each pair of Seth's strategies (same except for guess 
         # correctness), pick one.
         strats_without_guesses = [s for s in fake_strats

@@ -1,10 +1,12 @@
 #!/usr/bin/python
 
-from collections import Counter
+from collections import Counter, defaultdict
 from numpy import array
 from operator import itemgetter
 import csv
+import math
 import os
+import pylab
 import re
 
 phrases = {  'abarene' : ['Hallicris Snare'],
@@ -286,6 +288,92 @@ class BeatData(object):
     def lines_containing(self, text):
         return [line for line in self.lines
                 if text in line]
+                     
+def entropy(logdir='free_for_all'):
+    my_entropy = defaultdict(list)
+    opp_entropy = defaultdict(list)
+    min_entropy = defaultdict(list)
+    dicts = {"SELF ENTROPIES": my_entropy, 
+             "OPPONENT ENTROPIES": opp_entropy, 
+             "MINIMUM ENTROPIES": min_entropy}
+    for filename in list_files(logdir):
+        names = filename.split('/')[-1].split('_')[:2]
+        with open (filename) as f:
+            log = [line for line in f]
+        starts = [i for i, line in enumerate(log)
+                  if line.startswith("Beat")]
+        for start in starts:
+            es = [calc_entropy(log, start, name) for name in names]
+            my_entropy[names[0]].append(es[0])
+            my_entropy[names[1]].append(es[1])
+            opp_entropy[names[0]].append(es[1])
+            opp_entropy[names[1]].append(es[0])
+            min_entropy[names[0]].append(min(es))
+            min_entropy[names[1]].append(min(es))
+    for title, d in dicts.items():
+        print title
+        for name in d:
+            d[name] = 2 ** sorted(d[name])[len(d[name])/2]
+        items = sorted(d.items(), key=itemgetter(1))
+        for i in items:
+            print "%.1f %s" % (i[1], i[0])
+    my_names = [m[0] for m in sorted(my_entropy.items(), key=itemgetter(1))]
+    opp_names = [m[0] for m in sorted(opp_entropy.items(), key=itemgetter(1))]
+    diffs = []
+    for i, m in enumerate(my_names):
+        j = opp_names.index(m)
+        diffs.append((i-j, m))
+    diffs = sorted(diffs)
+    print "DIFFS:"
+    for d in diffs:
+        print d[0], d[1]
+    
+    mys = sorted(my_entropy.items())
+    opps = sorted(opp_entropy.items())
+    antes = ['abarene',
+             'alexian',
+             'arec',
+             'cadenza',
+             'clinhyde',
+             'demitras',
+             'eligor',
+             'gerard',
+             'heketch',
+             'hikaru',
+             'lesandra',
+             'luc',
+             'mikhail',
+             'oriana',
+             'ottavia',
+             'rexan',
+             'rukyuk',
+             'seth',
+             'shekhtur',
+             'vanaah']
+    
+    pylab.scatter([x[1] for x in mys if x[0] in antes], 
+                  [x[1] for x in opps if x[0] in antes],
+                  c='r')
+    pylab.scatter([x[1] for x in mys if x[0] not in antes], 
+                  [x[1] for x in opps if x[0] not in antes],
+                  c='b')
+    pylab.grid()
+    pylab.show()
+       
+def calc_entropy(log, start, name):
+    i = start
+    line = "%s:\n" % name.capitalize()
+    while log[i] != line:
+        i += 1
+    i += 1
+    probs = []
+    while log[i] != '\n':
+        probs.append(float(log[i].split()[0][:-1])/100)
+        i += 1
+    s = sum(probs)
+    probs = [p/s for p in probs if p > 0]
+    return -sum(p * math.log(p, 2) for p in probs)
+        
                      
 def parse_beats(name, logdir='free_for_all'):
     replacement = {phrase : phrase.replace(' ','') 
