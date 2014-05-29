@@ -2791,6 +2791,10 @@ class Character (object):
         
         self.inner_execute_move (mover, moves, direct, max_move)
 
+        if not direct and mover.opponent.mimics_movement():
+            mover.opponent.position += (mover.position - mover_pos)
+            mover.opponent.position = min(6, max(0, mover.opponent.position))
+
         # Note and report movement
         if mover_pos != mover.position:
             if mover is self:
@@ -5615,6 +5619,8 @@ class Gerard (Character):
             self.removed_mercs.append(self.lackey)
 
     def movement_reaction(self, initiator, mover, old_position, direct):
+        if not direct and mover.opponent.mimics_movement():
+            return
         if ordered(old_position, mover.opponent.position, mover.position):
             self.switched_sides = True
 
@@ -6875,6 +6881,7 @@ class Luc (Character):
     # Changed on 1/5/14.  Previous logs use 0.3 per token.
     def evaluate (self):
         return Character.evaluate (self) + 0.2 * len(self.pool)
+
 
 class Lymn (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
@@ -8243,8 +8250,10 @@ class Tanis(Character):
         return self.game.CHOOSE_POSITION_BEFORE_ATTACK_PAIRS
 
     # Record switching sides, for SceneShift
-    def movement_reaction (self, initiator, mover, old_position, direct):
-        if ordered(mover.position, mover.opponent.position, old_position):
+    def movement_reaction(self, initiator, mover, old_position, direct):
+        if not direct and mover.opponent.mimics_movement():
+            return
+        if ordered(old_position, mover.opponent.position, mover.position):
             self.switched_sides = True
 
     def blocks_priority_bonuses (self):
@@ -14102,19 +14111,6 @@ class Mimics (Style):
     power = 1
     def mimics_movement (self):
         return True
-    # move the same as opponent
-    def movement_reaction (self, initiator, mover, old_position, direct):
-        if mover is self.opponent and not direct:
-            old_postion = self.me.position
-            self.me.position += (self.opponent.position - old_position)
-            if self.me.position > 6:
-                self.me.position = 6
-            if self.me.position < 0:
-                self.me.position = 0
-            if self.game.reporting and self.me.position != old_postion:
-                self.game.report("Seth mimics %s's movement:" % self.opponent)
-                for s in self.game.get_board():
-                    self.game.report (s)
 
 class Vanishing (Style):
     minrange = 1
