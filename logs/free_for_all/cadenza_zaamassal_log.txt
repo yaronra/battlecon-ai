@@ -11,35 +11,38 @@ Beat 1
 
 Cadenza
 -------
-life: 20
-discard 1: Hydraulic Burst
-discard 2: Mechanical Press
-special action
+Life: 20
+Discard 1: Hydraulic Burst
+Discard 2: Mechanical Press
+Special action available
 3 Iron Body tokens
 
 Zaamassal
 ---------
-life: 20
-discard 1: Malicious Grasp
-discard 2: Sinuous Burst
-special action
+Life: 20
+Discard 1: Malicious Grasp
+Discard 2: Sinuous Burst
+Special action available
 Active paradigm: None
 
 
 .C...Z.
 
-Unbeatable strategy for Zaamassal: Urgent Paradigm Shift: -0.91
-Unbeatable strategy for Zaamassal: Sturdy Paradigm Shift: -0.27
+Unbeatable strategy for Zaamassal: Urgent Paradigm Shift: -1.81
+Unbeatable strategy for Zaamassal: Urgent Dash: -0.43
+Unbeatable strategy for Zaamassal: Sturdy Paradigm Shift: -0.82
+Unbeatable strategy for Zaamassal: Sturdy Dash: -0.34
+
 
 Cadenza:
-87% Battery Dash
-2% Clockwork Drive
-11% Grapnel Strike
+86% Battery Dash
+1% Clockwork Shot
+12% Grapnel Strike
 
 Zaamassal:
-54% Urgent Paradigm Shift
-8% Urgent Drive
-37% Warped Shot
+68% Urgent Paradigm Shift
+6% Urgent Drive
+27% Warped Shot
 
 
 Cadenza: Battery Dash
@@ -56,53 +59,50 @@ Zaamassal moves:
 ...ZC..
 
 Zaamassal misses
-Zaamassal assumes the Paradigm of Pain
+Zaamassal assumes the Paradigm of Resilience
+Cadenza will have 4 priority next beat
 
 Beat 2
 -------
 
 Cadenza
 -------
-life: 20
-discard 1: Battery Dash
-discard 2: Hydraulic Burst
-special action
+Life: 20
+Discard 1: Battery Dash
+Discard 2: Hydraulic Burst
+Special action available
+Priority bonus: 4
 3 Iron Body tokens
-+4 priority from last beat
 
 Zaamassal
 ---------
-life: 20
-discard 1: Urgent Paradigm Shift
-discard 2: Malicious Grasp
-special action
-Active paradigm: Pain
+Life: 20
+Discard 1: Urgent Paradigm Shift
+Discard 2: Malicious Grasp
+Special action available
+Active paradigm: Resilience
 
 
 ...ZC..
 
+
 Cadenza:
-0% Clockwork Shot
-23% Mechanical Press
-52% Mechanical Shot
-25% Mechanical Drive
+29% Mechanical Press
+49% Mechanical Shot
+22% Mechanical Drive
 
 Zaamassal:
-12% Sturdy Drive
-3% Warped Strike
-1% Warped Drive
-85% Warped Dash
+95% Sinuous Dash
+4% Sturdy Burst
+2% Warped Strike
 
 
 Cadenza: Mechanical Drive
-Zaamassal: Warped Dash
+Zaamassal: Sinuous Dash
 
-Priorities:  6 | 9
+Priorities:  6 | 10
 Zaamassal is active
-Zaamassal moves:
-
-..Z.C..
-
+Zaamassal assumes the Paradigm of Fluidity
 Zaamassal moves:
 
 ....C.Z
@@ -112,96 +112,6 @@ Cadenza moves:
 .....CZ
 
 Cadenza misses
-
-Beat 3
--------
-
-Cadenza
--------
-life: 20
-discard 1: Mechanical Drive
-discard 2: Battery Dash
-special action
-3 Iron Body tokens
-
-Zaamassal
----------
-life: 20
-discard 1: Warped Dash
-discard 2: Urgent Paradigm Shift
-special action
-Active paradigm: Pain
-
-
-.....CZ
-
-Unbeatable strategy for Cadenza: Clockwork Press: 1.60
-Unbeatable strategy for Cadenza: Clockwork Shot: 2.02
-Unbeatable strategy for Cadenza: Hydraulic Press: 0.77
-
-Cadenza:
-83% Clockwork Shot
-17% Clockwork Burst
-
-Zaamassal:
-57% Malicious Strike
-43% Sturdy Drive
-
-
-Cadenza: Clockwork Shot
-Zaamassal: Sturdy Drive
-
-Priorities:  -1 | 4
-Zaamassal is active
-Zaamassal moves:
-
-....ZC.
-
-Zaamassal hits
-Cadenza has 3 soak
-Cadenza takes 0 damage (now at 20 life)
-Cadenza loses 2 life (now at 18)
-Cadenza hits
-Zaamassal takes 6 damage (now at 14 life)
-
-Beat 4
--------
-
-Cadenza
--------
-life: 18
-discard 1: Clockwork Shot
-discard 2: Mechanical Drive
-special action
-3 Iron Body tokens
-
-Zaamassal
----------
-life: 14
-discard 1: Sturdy Drive
-discard 2: Warped Dash
-special action
-Active paradigm: Pain
-
-
-....ZC.
-
-Unbeatable strategy for Cadenza: Battery Dash: 1.13
-
-Cadenza:
-86% Battery Dash
-14% Hydraulic Press
-
-Zaamassal:
-29% Malicious Strike
-71% Urgent Burst
-
-
-Cadenza: Hydraulic Press
-Zaamassal: Urgent Burst
-
-Priorities:  -1 | 3
-Zaamassal is active
 Zaamassal moves:
 
 ..Z..C.
@@ -210,72 +120,176 @@ Zaamassal moves:
 
 ...Z.C.
 
-Zaamassal hits
-Cadenza has 1 soak
-Cadenza takes 1 damage (now at 17 life)
-Cadenza loses 2 life (now at 15)
 Cadenza moves:
 
-...ZC..
+..CZ...
+
+
+Beat 3
+-------
+
+Cadenza
+-------
+Life: 20
+Discard 1: Mechanical Drive
+Discard 2: Battery Dash
+Special action available
+3 Iron Body tokens
+
+Zaamassal
+---------
+Life: 20
+Discard 1: Sinuous Dash
+Discard 2: Urgent Paradigm Shift
+Special action available
+Active paradigm: Fluidity
+
+
+..CZ...
+
+
+Cadenza:
+33% Clockwork Shot
+16% Clockwork Grasp
+29% Hydraulic Shot
+22% Grapnel Strike
+
+Zaamassal:
+21% Malicious Strike
+9% Sturdy Strike
+39% Warped Burst
+30% Warped Grasp
+
+
+Cadenza: Hydraulic Shot
+Zaamassal: Warped Grasp
+
+Priorities:  1 | 5
+Zaamassal is active
+Zaamassal moves:
+
+..C.Z..
+
+Zaamassal hits
+Zaamassal moves Cadenza:
+
+...CZ..
+
+Cadenza has 1 soak
+Cadenza takes 1 damage (now at 19 life)
+Cadenza moves:
+
+....ZC.
 
 Cadenza hits
-Zaamassal takes 4 damage (now at 10 life)
+Zaamassal takes 5 damage (now at 15 life)
 Zaamassal is stunned
-Zaamassal assumes the following paradigms:
+Zaamassal loses all paradigms
+
+Beat 4
+-------
+
+Cadenza
+-------
+Life: 19
+Discard 1: Hydraulic Shot
+Discard 2: Mechanical Drive
+Special action available
+3 Iron Body tokens
+
+Zaamassal
+---------
+Life: 15
+Discard 1: Warped Grasp
+Discard 2: Sinuous Dash
+Special action available
+Active paradigm: None
+
+
+....ZC.
+
+Unbeatable strategy for Zaamassal: Malicious Burst: -0.12
+Unbeatable strategy for Zaamassal: Sturdy Burst: -0.52
+
+
+Cadenza:
+89% Battery Dash
+7% Clockwork Press
+3% Clockwork Strike
+
+Zaamassal:
+16% Urgent Paradigm Shift
+10% Urgent Drive
+74% Sturdy Burst
+
+
+Cadenza: Battery Dash
+Zaamassal: Sturdy Burst
+
+Priorities:  8 | 1
+Cadenza is active
+Zaamassal moves:
+
+...Z.C.
+
+Cadenza moves:
+
+..CZ...
+
+Zaamassal misses
+Zaamassal assumes the Paradigm of Resilience
+Cadenza will have 4 priority next beat
 
 Beat 5
 -------
 
 Cadenza
 -------
-life: 15
-discard 1: Hydraulic Press
-discard 2: Clockwork Shot
-special action
+Life: 19
+Discard 1: Battery Dash
+Discard 2: Hydraulic Shot
+Special action available
+Priority bonus: 4
 3 Iron Body tokens
 
 Zaamassal
 ---------
-life: 10
-discard 1: Urgent Burst
-discard 2: Sturdy Drive
-special action
-Active paradigm: None
+Life: 15
+Discard 1: Sturdy Burst
+Discard 2: Warped Grasp
+Special action available
+Active paradigm: Resilience
 
 
-...ZC..
+..CZ...
 
-Unbeatable strategy for Zaamassal: Warped Paradigm Shift: -0.15
 
 Cadenza:
-15% Battery Drive
-9% Battery Burst
-76% Battery Dash
+12% Clockwork Strike
+40% Mechanical Strike
+7% Mechanical Burst
+41% Mechanical Grasp
 
 Zaamassal:
-10% Malicious Shot
-26% Sinuous Strike
-63% Warped Paradigm Shift
+17% Malicious Shot
+23% Sinuous Dash
+6% Urgent Drive
+54% Urgent Dash
 
 
-Cadenza: Battery Dash
-Zaamassal: Warped Paradigm Shift
+Cadenza: Mechanical Strike
+Zaamassal: Malicious Shot
 
-Priorities:  8 | 3
+Priorities:  5 | 1
 Cadenza is active
-Zaamassal moves:
-
-..Z.C..
-
+Cadenza hits
+Zaamassal has 2 soak
+Zaamassal takes 4 damage (now at 11 life)
+Zaamassal hits
+Cadenza takes 4 damage (now at 15 life)
 Cadenza moves:
 
-C.Z....
-
-Zaamassal misses
-Zaamassal assumes the Paradigm of Fluidity
-Zaamassal moves:
-
-CZ.....
+...Z..C
 
 
 Beat 6
@@ -283,51 +297,50 @@ Beat 6
 
 Cadenza
 -------
-life: 15
-discard 1: Battery Dash
-discard 2: Hydraulic Press
-special action
+Life: 15
+Discard 1: Mechanical Strike
+Discard 2: Battery Dash
+Special action available
 3 Iron Body tokens
-+4 priority from last beat
 
 Zaamassal
 ---------
-life: 10
-discard 1: Warped Paradigm Shift
-discard 2: Urgent Burst
-special action
-Active paradigm: Fluidity
+Life: 11
+Discard 1: Malicious Shot
+Discard 2: Sturdy Burst
+Special action available
+Active paradigm: Resilience
 
 
-CZ.....
+...Z..C
+
+Unbeatable strategy for Zaamassal: Sinuous Dash: -0.43
+
 
 Cadenza:
-13% Clockwork Shot
-39% Clockwork Drive
-47% Mechanical Strike
+10% Clockwork Drive
+32% Clockwork Burst
+58% Hydraulic Drive
 
 Zaamassal:
-24% Malicious Strike
-72% Sinuous Dash
-4% Sturdy Grasp
+5% Sinuous Drive
+84% Sinuous Dash
+12% Urgent Strike
 
 
-Cadenza: Mechanical Strike
-Zaamassal: Malicious Strike
+Cadenza: Clockwork Burst
+Zaamassal: Sinuous Dash
 
-Priorities:  5 | 2
-Cadenza is active
-Cadenza hits
-Zaamassal takes 6 damage (now at 4 life)
-Zaamassal hits
-Cadenza takes 5 damage (now at 10 life)
-Cadenza moves:
-
-.Z..C..
-
+Priorities:  -2 | 10
+Zaamassal is active
 Zaamassal moves:
 
-..Z.C..
+Z.....C
+
+Cadenza misses
+Zaamassal moves:
+
+.....ZC
 
 
 Beat 7
@@ -335,122 +348,118 @@ Beat 7
 
 Cadenza
 -------
-life: 10
-discard 1: Mechanical Strike
-discard 2: Battery Dash
-special action
+Life: 15
+Discard 1: Clockwork Burst
+Discard 2: Mechanical Strike
+Special action available
 3 Iron Body tokens
 
 Zaamassal
 ---------
-life: 4
-discard 1: Malicious Strike
-discard 2: Warped Paradigm Shift
-special action
-Active paradigm: Fluidity
+Life: 11
+Discard 1: Sinuous Dash
+Discard 2: Malicious Shot
+Special action available
+Active paradigm: Resilience
 
 
-..Z.C..
+.....ZC
 
-Unbeatable strategy for Cadenza: Clockwork Shot: 0.10
+Unbeatable strategy for Cadenza: Battery Dash: 0.18
+
 
 Cadenza:
-24% Clockwork Shot
-11% Grapnel Drive
-5% Grapnel Burst
-61% Grapnel Grasp
+22% Battery Dash
+42% Hydraulic Press
+18% Hydraulic Shot
+19% Hydraulic Drive
 
 Zaamassal:
-2% Sinuous Grasp
-54% Sinuous Dash
-41% Urgent Dash
-3% Special Open the Gate
+40% Urgent Strike
+18% Sturdy Drive
+19% Warped Strike
+23% Warped Burst
 
 
-Cadenza: Grapnel Grasp
-Zaamassal: Urgent Dash
+Cadenza: Hydraulic Press
+Zaamassal: Urgent Strike
 
-Priorities:  5 | 11
+Priorities:  -1 | 5
 Zaamassal is active
-Zaamassal moves:
-
-...ZC..
-
-Zaamassal moves:
+Zaamassal hits
+Cadenza has 1 soak
+Cadenza takes 2 damage (now at 13 life)
+Cadenza moves:
 
 ....CZ.
 
-Zaamassal moves:
-
-.Z..C..
-
-Cadenza misses
-Zaamassal moves:
-
-Z...C..
-
+Cadenza hits
+Zaamassal takes 5 damage (now at 6 life)
 
 Beat 8
 -------
 
 Cadenza
 -------
-life: 10
-discard 1: Grapnel Grasp
-discard 2: Mechanical Strike
-special action
+Life: 13
+Discard 1: Hydraulic Press
+Discard 2: Clockwork Burst
+Special action available
 3 Iron Body tokens
 
 Zaamassal
 ---------
-life: 4
-discard 1: Urgent Dash
-discard 2: Malicious Strike
-special action
-Active paradigm: Fluidity
+Life: 6
+Discard 1: Urgent Strike
+Discard 2: Sinuous Dash
+Special action available
+Active paradigm: Resilience
 
-
-Z...C..
-
-Unbeatable strategy for Cadenza: Battery Burst: 0.28
-Unbeatable strategy for Cadenza: Battery Dash: 0.02
-
-Cadenza:
-31% Battery Dash
-35% Hydraulic Shot
-34% Hydraulic Drive
-
-Zaamassal:
-20% Warped Paradigm Shift
-21% Warped Burst
-59% Special Plane Divider
-
-
-Cadenza: Hydraulic Drive
-Zaamassal: Special Plane Divider
-
-Priorities:  3 | 4
-Zaamassal is active
-Zaamassal moves:
-
-...ZC..
-
-Zaamassal moves:
 
 ....CZ.
 
-Zaamassal hits
-Zaamassal moves Cadenza:
 
-C....Z.
+Cadenza:
+6% Battery Strike
+34% Battery Drive
+14% Grapnel Drive
+3% Mechanical Shot
+3% Mechanical Shot (Iron Body)
+40% Mechanical Drive
 
-Zaamassal gets +4 power
-Cadenza has 1 soak
-Cadenza takes 5 damage (now at 5 life)
-Cadenza is stunned
+Zaamassal:
+4% Malicious Shot
+1% Malicious Drive
+46% Warped Paradigm Shift
+24% Warped Shot
+24% Warped Drive
+
+
+Cadenza: Grapnel Drive
+Zaamassal: Warped Drive
+
+Priorities:  4 | 4
+Clash!
+
+
+Cadenza: Grapnel Dash
+Zaamassal: Warped Paradigm Shift
+
+Priorities:  9 | 3
+Cadenza is active
 Zaamassal moves:
 
-C.....Z
+....C.Z
+
+Cadenza moves:
+
+.....CZ
+
+Zaamassal misses
+Zaamassal assumes the Paradigm of Fluidity
+Zaamassal moves:
+
+....ZC.
 
 
 Beat 9
@@ -458,60 +467,171 @@ Beat 9
 
 Cadenza
 -------
-life: 5
-discard 1: Hydraulic Drive
-discard 2: Grapnel Grasp
-special action
+Life: 13
+Discard 1: Grapnel Dash
+Discard 2: Hydraulic Press
+Special action available
 3 Iron Body tokens
 
 Zaamassal
 ---------
-life: 4
-discard 1: Urgent Dash
-discard 2: Malicious Strike
+Life: 6
+Discard 1: Warped Paradigm Shift
+Discard 2: Urgent Strike
+Special action available
 Active paradigm: Fluidity
 
 
-C.....Z
+....ZC.
+
 
 Cadenza:
-50% Special Rocket Press
-50% Special Rocket Press (Iron Body)
+0% Clockwork Shot (Iron Body)
+4% Clockwork Drive
+4% Clockwork Drive (Iron Body)
+92% Mechanical Drive
 
 Zaamassal:
-8% Sinuous Paradigm Shift
-8% Sinuous Shot
-6% Sinuous Drive
-6% Sinuous Burst
-6% Sinuous Grasp
-8% Sturdy Paradigm Shift
-5% Sturdy Shot
-8% Sturdy Drive
-4% Sturdy Burst
-6% Sturdy Grasp
-7% Warped Paradigm Shift
-7% Warped Shot
-5% Warped Drive
-7% Warped Burst
-9% Warped Grasp
+1% Sinuous Burst
+67% Sinuous Dash
+9% Sturdy Drive
+23% Special Open the Gate
 
 
-Cadenza: Special Rocket Press (Iron Body)
-Zaamassal: Sturdy Burst
+Cadenza: Mechanical Drive
+Zaamassal: Sturdy Drive
 
-Cadenza antes an Iron Body token
-Priorities:  0 | 1
+Priorities:  2 | 4
+Zaamassal is active
+Zaamassal hits
+Cadenza takes 3 damage (now at 10 life)
+Cadenza spends an Iron Body token
+Cadenza gains infinite stunguard
+Zaamassal assumes the Paradigm of Resilience
+Cadenza moves:
+
+...CZ..
+
+Cadenza hits
+Zaamassal takes 5 damage (now at 1 life)
+
+Beat 10
+-------
+
+Cadenza
+-------
+Life: 10
+Discard 1: Mechanical Drive
+Discard 2: Grapnel Dash
+Special action available
+2 Iron Body tokens
+
+Zaamassal
+---------
+Life: 1
+Discard 1: Sturdy Drive
+Discard 2: Warped Paradigm Shift
+Special action available
+Active paradigm: Resilience
+
+
+...CZ..
+
+
+Cadenza:
+41% Battery Shot
+59% Battery Grasp
+
+Zaamassal:
+72% Sinuous Dash
+28% Urgent Dash
+
+
+Cadenza: Battery Grasp
+Zaamassal: Sinuous Dash
+
+Priorities:  4 | 10
 Zaamassal is active
 Zaamassal moves:
 
-C....Z.
+Z..C...
 
-Zaamassal misses
+Cadenza misses
+Zaamassal moves:
+
+..ZC...
+
+Cadenza will have 4 priority next beat
+
+Beat 11
+-------
+
+Cadenza
+-------
+Life: 10
+Discard 1: Battery Grasp
+Discard 2: Mechanical Drive
+Special action available
+Priority bonus: 4
+2 Iron Body tokens
+
+Zaamassal
+---------
+Life: 1
+Discard 1: Sinuous Dash
+Discard 2: Sturdy Drive
+Special action available
+Active paradigm: Resilience
+
+
+..ZC...
+
+
+Cadenza:
+32% Hydraulic Press
+5% Hydraulic Press (Iron Body)
+58% Hydraulic Shot
+5% Hydraulic Shot (Iron Body)
+
+Zaamassal:
+5% Malicious Paradigm Shift
+5% Malicious Strike
+6% Malicious Shot
+9% Malicious Burst
+2% Malicious Grasp
+8% Urgent Paradigm Shift
+8% Urgent Strike
+6% Urgent Shot
+9% Urgent Burst
+6% Urgent Grasp
+8% Warped Paradigm Shift
+8% Warped Strike
+7% Warped Shot
+8% Warped Burst
+6% Warped Grasp
+
+
+Cadenza: Hydraulic Press
+Zaamassal: Warped Grasp
+
+Priorities:  3 | 5
+Zaamassal is active
+Zaamassal moves:
+
+.Z.C...
+
+Zaamassal hits
+Zaamassal moves Cadenza:
+
+.ZC....
+
+Cadenza has 1 soak
+Cadenza takes 1 damage (now at 9 life)
 Cadenza moves:
 
-....CZ.
+CZ.....
 
 Cadenza hits
-Zaamassal takes 8 damage (now at 0 life)
+Zaamassal takes 4 damage (now at 0 life)
 CADENZA WINS!
-total_time: 60
+total_time: 45

@@ -29,51 +29,43 @@ No mercenaries in play
 
 .A...G.
 
-Unbeatable strategy for Gerard: Gilded Shot (Hire Brawler): -1.44
-Unbeatable strategy for Gerard: Gilded Dash (Hire Archer): -1.48
-Unbeatable strategy for Gerard: Gilded Dash (Hire Brawler): -2.35
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Archer): -1.39
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Brawler): -2.35
-Unbeatable strategy for Gerard: Initiation Dash (Hire Archer): -1.39
-Unbeatable strategy for Gerard: Initiation Dash (Hire Brawler): -2.35
+Unbeatable strategy for Gerard: Gilded Shot: -0.12
+Unbeatable strategy for Gerard: Gilded Shot (Hire Brawler): -0.94
+Unbeatable strategy for Gerard: Gilded Dash (Hire Brawler): -1.06
+Unbeatable strategy for Gerard: Gilded Dash (Hire Archer): -0.59
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Brawler): -1.06
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Archer): -0.59
+Unbeatable strategy for Gerard: Initiation Dash (Hire Brawler): -1.06
+Unbeatable strategy for Gerard: Initiation Dash (Hire Archer): -0.59
 
 
 Abarene:
-29% Barbed Shot
-9% Barbed Drive (Fatigue)
-4% Crippling Thorns
-20% Crippling Thorns (Fatigue)
-12% Crippling Drive (Fatigue)
-27% Pestilent Drive (Fatigue)
+31% Barbed Shot
+12% Barbed Drive
+7% Crippling Thorns
+36% Crippling Thorns (Fatigue)
+14% Pestilent Burst
 
 Gerard:
+26% Gilded Shot (Hire Brawler)
 10% Gilded Drive (Hire Brawler)
-10% Gilded Burst (Hire Brawler)
-37% Gilded Dash (Hire Brawler)
-22% Avaricious Drive (Hire Brawler)
-6% Initiation Shot (Hire Brawler)
-15% Initiation Burst (Hire Brawler)
+24% Gilded Dash (Hire Brawler)
+19% Avaricious Drive (Hire Brawler)
+21% Initiation Burst (Hire Brawler)
 
 
-Abarene: Crippling Thorns
+Abarene: Barbed Shot
 Gerard: Gilded Dash (Hire Brawler)
 
 Gerard hires a Brawler for 3 gold (0 remaining)
-Priorities:  0 | 8
+Priorities:  3 | 8
 Gerard is active
-Gerard moves Abarene:
-
-..A..G.
-
 Gerard moves:
 
-.GA....
+.AG....
 
+Gerard loses 2 life (now at 18)
 Abarene loses 1 life (now at 19)
-Abarene moves:
-
-AG.....
-
 Abarene misses
 Gerard gains 1 Gold Token (has 1)
 
@@ -83,14 +75,14 @@ Beat 2
 Abarene
 -------
 Life: 19
-Discard 1: Crippling Thorns
+Discard 1: Barbed Shot
 Discard 2: Lethal Strike
 Special action available
 pool: Fatigue
 
 Gerard
 ------
-Life: 20
+Life: 18
 Discard 1: Gilded Dash
 Discard 2: Villainous Larceny
 Special action available
@@ -99,47 +91,47 @@ Mercenaries in play:
   Brawler
 
 
-AG.....
-
-Unbeatable strategy for Gerard: Hooked Shot: -0.90
-Unbeatable strategy for Gerard: Hooked Drive: -1.25
-Unbeatable strategy for Gerard: Hooked Burst: -0.36
+.AG....
 
 
 Abarene:
-2% Intoxicating Drive (Fatigue)
-21% Barbed Dash
-27% Pestilent Drive
-0% Pestilent Drive (Fatigue)
-51% Pestilent Dash
+24% Intoxicating Drive (Fatigue)
+18% Intoxicating Burst (Fatigue)
+41% Crippling Thorns
+18% Crippling Thorns (Fatigue)
 
 Gerard:
-18% Hooked Shot
-54% Hooked Drive
-2% Initiation Strike
-12% Initiation Shot
-13% Initiation Grasp
+24% Avaricious Drive
+5% Hooked Shot
+14% Hooked Burst
+57% Initiation Strike
 
 
-Abarene: Barbed Dash
-Gerard: Hooked Drive
+Abarene: Intoxicating Drive (Fatigue)
+Gerard: Hooked Shot
 
-Priorities:  10 | 3
+Abarene antes a Fatigue token
+Priorities:  5 | -1
 Abarene is active
+Abarene recovers her Fatigue token
 Gerard moves:
 
-A.....G
+.A....G
 
 Abarene moves:
 
-...A..G
+..A...G
 
-Gerard moves:
+Abarene misses
+Gerard hits
+Abarene takes 4 damage (now at 15 life)
+Gerard moves Abarene:
 
-...A.G.
+.....AG
 
-Gerard misses
-Abarene loses 1 life (now at 18)
+Abarene is stunned
+Abarene loses 1 life (now at 14)
+Abarene recovers her Nausea token
 Gerard gains 1 Gold Token (has 2)
 
 Beat 3
@@ -147,16 +139,16 @@ Beat 3
 
 Abarene
 -------
-Life: 18
-Discard 1: Barbed Dash
-Discard 2: Crippling Thorns
+Life: 14
+Discard 1: Intoxicating Drive
+Discard 2: Barbed Shot
 Special action available
-pool: Fatigue
+pool: Fatigue, Nausea
 
 Gerard
 ------
-Life: 20
-Discard 1: Hooked Drive
+Life: 18
+Discard 1: Hooked Shot
 Discard 2: Gilded Dash
 Special action available
 Gold: 2
@@ -164,44 +156,38 @@ Mercenaries in play:
   Brawler
 
 
-...A.G.
+.....AG
 
 
 Abarene:
-5% Intoxicating Shot
-9% Intoxicating Drive
-35% Intoxicating Drive (Fatigue)
-50% Intoxicating Burst (Fatigue)
+60% Crippling Thorns (Fatigue, Nausea)
+34% Crippling Strike (Fatigue, Nausea)
+6% Pestilent Grasp
 
 Gerard:
-49% Avaricious Strike
-17% Avaricious Burst
-9% Initiation Larceny
-24% Initiation Burst
+48% Villainous Grasp
+44% Initiation Burst
+8% Initiation Grasp
 
 
-Abarene: Intoxicating Burst (Fatigue)
-Gerard: Avaricious Burst
+Abarene: Pestilent Grasp
+Gerard: Initiation Burst
 
-Abarene antes a Fatigue token
-Priorities:  2 | -1
+Priorities:  6 | 2
 Abarene is active
-Abarene recovers a Fatigue token
+Abarene hits
+Abarene recovers her Dizziness token
+Abarene moves Gerard:
+
+....GA.
+
+Gerard takes 1 damage (now at 17 life)
+Gerard is stunned
 Abarene moves:
 
-.A...G.
+..A.G..
 
-Gerard moves:
-
-.A..G..
-
-Gerard moves:
-
-.A....G
-
-Abarene misses
-Gerard misses
-Abarene recovers a Nausea token
+Abarene recovers her Pain Spike token
 Gerard gains 1 Gold Token (has 3)
 
 Beat 4
@@ -209,131 +195,119 @@ Beat 4
 
 Abarene
 -------
-Life: 18
-Discard 1: Intoxicating Burst
-Discard 2: Barbed Dash
+Life: 14
+Discard 1: Pestilent Grasp
+Discard 2: Intoxicating Drive
 Special action available
-pool: Fatigue, Nausea
+pool: Dizziness, Fatigue, Nausea, Pain Spike
 
 Gerard
 ------
-Life: 20
-Discard 1: Avaricious Burst
-Discard 2: Hooked Drive
+Life: 17
+Discard 1: Initiation Burst
+Discard 2: Hooked Shot
 Special action available
 Gold: 3
 Mercenaries in play:
   Brawler
 
 
-.A....G
+..A.G..
 
-Unbeatable strategy for Gerard: Gilded Shot: -0.26
+Unbeatable strategy for Gerard: Gilded Dash (Hire Archer): -0.79
 
 
 Abarene:
-12% Crippling Strike
-7% Crippling Shot (Nausea)
-31% Crippling Drive
-39% Crippling Drive (Fatigue)
-12% Crippling Drive (Nausea)
+21% Lethal Thorns (Nausea, Pain Spike)
+42% Lethal Strike (Pain Spike)
+9% Lethal Burst (Pain Spike)
+27% Barbed Thorns (Nausea, Pain Spike)
 
 Gerard:
-7% Gilded Larceny (Hire Archer)
-36% Gilded Strike (Hire Archer)
-40% Gilded Shot
-9% Gilded Grasp (Hire Archer)
-8% Initiation Shot (Hire Archer)
+2% Villainous Drive (Hire Archer)
+3% Gilded Drive (Hire Archer)
+4% Gilded Grasp (Hire Archer)
+91% Gilded Dash (Hire Archer)
 
 
-Abarene: Crippling Drive
-Gerard: Gilded Shot
+Abarene: Lethal Thorns (Nausea, Pain Spike)
+Gerard: Gilded Dash (Hire Archer)
 
-Priorities:  2 | 1
-Abarene is active
+Abarene antes a Nausea token
+Abarene antes a Pain Spike token
+Gerard loses 3 life (now at 14)
+Gerard hires a Archer for 3 gold (0 remaining)
+Priorities:  2 | 8
+Gerard is active
+Abarene loses 1 life (now at 13)
+Gerard moves:
+
+..A...G
+
+Abarene loses 1 life (now at 12)
 Abarene moves:
 
-...A..G
+A.....G
 
-Abarene moves:
-
-.....AG
-
-Abarene hits
-Abarene recovers a Dizziness token
-Gerard has 2 soak
-Gerard takes 2 damage (now at 18 life)
-Gerard hits
-Abarene takes 3 damage (now at 15 life)
-Abarene is stunned
-Abarene loses 1 life (now at 14)
-Gerard gains 1 Gold Token (has 4)
+Abarene misses
+Gerard gains 1 Gold Token (has 1)
 
 Beat 5
 -------
 
 Abarene
 -------
-Life: 14
-Discard 1: Crippling Drive
-Discard 2: Intoxicating Burst
+Life: 12
+Discard 1: Lethal Thorns
+Discard 2: Pestilent Grasp
 Special action available
-pool: Dizziness, Fatigue, Nausea
+pool: Dizziness, Fatigue
 
 Gerard
 ------
-Life: 18
-Discard 1: Gilded Shot
-Discard 2: Avaricious Burst
+Life: 14
+Discard 1: Gilded Dash
+Discard 2: Initiation Burst
 Special action available
-Gold: 4
+Gold: 1
 Mercenaries in play:
   Brawler
+  Archer
 
 
-.....AG
+A.....G
 
-Unbeatable strategy for Gerard: Initiation Dash (Hire Archer): -0.09
+Unbeatable strategy for Gerard: Hooked Drive: -1.23
 
 
 Abarene:
-8% Lethal Thorns (Nausea)
-21% Barbed Strike (Nausea)
-11% Barbed Dash (Nausea)
-10% Pestilent Strike
-20% Pestilent Grasp
-10% Pestilent Grasp (Fatigue)
-18% Pestilent Dash (Nausea)
+100% Crippling Shot (Dizziness)
 
 Gerard:
-6% Villainous Dash (Hire Archer)
-3% Hooked Strike (Hire Archer)
-5% Hooked Drive (Hire Archer)
-21% Hooked Dash (Hire Archer)
-21% Initiation Strike (Hire Archer)
-1% Initiation Grasp (Hire Archer)
-43% Initiation Dash (Hire Archer)
+100% Hooked Drive
 
 
-Abarene: Pestilent Grasp
-Gerard: Initiation Strike (Hire Archer)
+Abarene: Crippling Shot (Dizziness)
+Gerard: Hooked Drive
 
-Gerard hires a Archer for 3 gold (1 remaining)
-Priorities:  6 | 4
-Abarene is active
-Abarene hits
-Abarene recovers a Pain Spike token
-Abarene moves Gerard:
+Abarene antes a Dizziness token
+Priorities:  0 | 3
+Gerard is active
+Gerard moves:
 
-....GA.
+A...G..
 
-Gerard takes 1 damage (now at 17 life)
+Gerard hits
+Abarene takes 2 damage (now at 10 life)
+Abarene loses 1 life (now at 9)
 Abarene moves:
 
-.A..G..
+..A.G..
 
-Gerard misses
-Abarene loses 1 life (now at 13)
+Abarene hits
+Abarene recovers her Nausea token
+Gerard takes 4 damage (now at 10 life)
+Gerard is stunned
 Gerard gains 1 Gold Token (has 2)
 
 Beat 6
@@ -341,17 +315,17 @@ Beat 6
 
 Abarene
 -------
-Life: 13
-Discard 1: Pestilent Grasp
-Discard 2: Crippling Drive
+Life: 9
+Discard 1: Crippling Shot
+Discard 2: Lethal Thorns
 Special action available
-pool: Dizziness, Fatigue, Nausea, Pain Spike
+pool: Fatigue, Nausea
 
 Gerard
 ------
-Life: 17
-Discard 1: Initiation Strike
-Discard 2: Gilded Shot
+Life: 10
+Discard 1: Hooked Drive
+Discard 2: Gilded Dash
 Special action available
 Gold: 2
 Mercenaries in play:
@@ -359,69 +333,48 @@ Mercenaries in play:
   Archer
 
 
-.A..G..
-
-Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Pain Spike): 0.46
-Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Nausea, Pain Spike): 0.65
+..A.G..
 
 
 Abarene:
-6% Lethal Thorns (Nausea, Pain Spike)
-10% Lethal Dash (Nausea, Pain Spike)
-11% Intoxicating Strike (Nausea, Pain Spike)
-2% Intoxicating Shot (Nausea, Pain Spike)
-19% Intoxicating Dash (Nausea, Pain Spike)
-6% Barbed Thorns (Dizziness, Nausea, Pain Spike)
-46% Barbed Thorns (Fatigue, Nausea, Pain Spike)
+14% Intoxicating Drive (Nausea)
+31% Intoxicating Burst (Fatigue)
+17% Intoxicating Burst (Nausea)
+6% Barbed Drive
+2% Barbed Drive (Nausea)
+30% Pestilent Drive
 
 Gerard:
-0% Villainous Burst
-4% Villainous Grasp
-43% Villainous Dash
-22% Avaricious Drive
-3% Avaricious Burst
-19% Avaricious Dash
-9% Hooked Drive
+32% Villainous Burst
+2% Initiation Larceny
+8% Initiation Strike
+20% Initiation Shot
+28% Initiation Burst
+10% Initiation Grasp
 
 
-Abarene: Barbed Thorns (Fatigue, Nausea, Pain Spike)
-Gerard: Avaricious Drive
-
-Abarene antes a Fatigue token
-Abarene antes a Nausea token
-Abarene antes a Pain Spike token
-Gerard loses 3 life (now at 14)
-Priorities:  3 | 3
-Clash!
-
-
-Abarene: Barbed Shot (Fatigue, Nausea, Pain Spike)
-Gerard: Avaricious Dash
+Abarene: Intoxicating Burst (Fatigue)
+Gerard: Villainous Burst
 
 Abarene antes a Fatigue token
-Abarene antes a Nausea token
-Abarene antes a Pain Spike token
-Gerard loses 3 life (now at 14)
-Priorities:  3 | 8
-Gerard is active
+Priorities:  2 | -1
+Abarene is active
+Abarene recovers her Fatigue token
+Abarene moves:
+
+A...G..
+
 Gerard moves:
 
-.A.G...
+A....G.
 
-Abarene loses 1 life (now at 12)
+Abarene misses
+Gerard misses
+Abarene recovers her Dizziness token
 Gerard moves:
 
-.A...G.
+A...G..
 
-Abarene loses 1 life (now at 11)
-Abarene hits
-Abarene recovers a Nausea token
-Abarene moves Gerard:
-
-.A..G..
-
-Gerard takes 2 damage (now at 12 life)
-Gerard is stunned
 Gerard gains 1 Gold Token (has 3)
 
 Beat 7
@@ -429,17 +382,17 @@ Beat 7
 
 Abarene
 -------
-Life: 11
-Discard 1: Barbed Shot
-Discard 2: Pestilent Grasp
+Life: 9
+Discard 1: Intoxicating Burst
+Discard 2: Crippling Shot
 Special action available
-pool: Dizziness, Nausea
+pool: Dizziness, Fatigue, Nausea
 
 Gerard
 ------
-Life: 12
-Discard 1: Avaricious Dash
-Discard 2: Initiation Strike
+Life: 10
+Discard 1: Villainous Burst
+Discard 2: Hooked Drive
 Special action available
 Gold: 3
 Mercenaries in play:
@@ -447,33 +400,51 @@ Mercenaries in play:
   Archer
 
 
-.A..G..
+A...G..
+
+Unbeatable strategy for Gerard: Gilded Strike: -0.14
+Unbeatable strategy for Gerard: Gilded Dash: -0.89
+Unbeatable strategy for Gerard: Gilded Dash (Hire Mage): -0.39
+Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight): -0.39
+Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger): -0.39
+Unbeatable strategy for Gerard: Gilded Dash (Hire Trebuchet): -0.64
+Unbeatable strategy for Gerard: Avaricious Dash: -0.02
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Trebuchet): -0.68
+Unbeatable strategy for Gerard: Initiation Dash: -0.34
+Unbeatable strategy for Gerard: Initiation Dash (Hire Trebuchet): -0.68
 
 
 Abarene:
-26% Intoxicating Drive (Dizziness)
-39% Crippling Thorns (Dizziness)
-34% Crippling Strike
-0% Crippling Drive
+12% Lethal Thorns (Nausea)
+42% Lethal Drive
+4% Pestilent Drive (Dizziness)
+4% Pestilent Grasp (Dizziness, Fatigue)
+38% Pestilent Dash
 
 Gerard:
-38% Gilded Larceny
-30% Gilded Burst
-1% Hooked Shot
-31% Hooked Grasp
+36% Gilded Strike
+13% Gilded Grasp
+12% Gilded Dash
+34% Gilded Dash (Hire Trebuchet)
+5% Initiation Dash (Hire Trebuchet)
 
 
-Abarene: Crippling Thorns (Dizziness)
-Gerard: Gilded Larceny
+Abarene: Pestilent Dash
+Gerard: Initiation Dash (Hire Trebuchet)
 
-Abarene antes a Dizziness token
-Priorities:  0 | 2
-Gerard is active
-Gerard moves Abarene:
+Gerard hires a Trebuchet for 3 gold (0 remaining)
+Priorities:  10 | 10
+Clash!
 
-..A.G..
 
-Gerard moves Abarene:
+Abarene: Pestilent Strike
+Gerard: Initiation Shot (Hire Trebuchet)
+
+Gerard hires a Trebuchet for 3 gold (0 remaining)
+Priorities:  4 | 3
+Abarene is active
+Abarene misses
+Abarene moves:
 
 ...AG..
 
@@ -482,418 +453,341 @@ Gerard moves:
 ..GA...
 
 Gerard hits
-Abarene takes 2 damage (now at 9 life)
-Gerard gains 3 Gold Tokens (has 6)
-Abarene loses 1 life (now at 8)
-Abarene moves:
-
-.AG....
-
-Abarene hits
-Abarene recovers a Fatigue token
-Abarene recovers a Pain Spike token
-Gerard has 2 soak
-Gerard takes 2 damage (now at 10 life)
-Gerard is stunned
-Gerard gains 1 Gold Token (has 7)
+First hireling next beat will cost 2 gold less
+Abarene takes 3 damage (now at 6 life)
+Abarene loses 1 life (now at 5)
+Gerard gains 1 Gold Token (has 1)
 
 Beat 8
 -------
 
 Abarene
 -------
-Life: 8
-Discard 1: Crippling Thorns
-Discard 2: Barbed Shot
+Life: 5
+Discard 1: Pestilent Strike
+Discard 2: Intoxicating Burst
 Special action available
-pool: Fatigue, Nausea, Pain Spike
+pool: Dizziness, Fatigue, Nausea
 
 Gerard
 ------
 Life: 10
-Discard 1: Gilded Larceny
-Discard 2: Avaricious Dash
+Discard 1: Initiation Shot
+Discard 2: Villainous Burst
 Special action available
-Gold: 7
+First hireling costs 2 gold less
+Gold: 1
 Mercenaries in play:
   Brawler
   Archer
+  Trebuchet
 
 
-.AG....
+..GA...
 
-Unbeatable strategy for Abarene: Intoxicating Dash (Pain Spike): 1.31
-Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Pain Spike): 0.46
-Unbeatable strategy for Abarene: Intoxicating Dash (Nausea, Pain Spike): 0.96
-Unbeatable strategy for Abarene: Intoxicating Dash (Fatigue, Nausea, Pain Spike): 0.11
+Unbeatable strategy for Gerard: Gilded Dash: -0.49
+Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight): -0.99
+Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger): -0.99
+Unbeatable strategy for Gerard: Gilded Dash (Hire Mage): -0.99
 
 
 Abarene:
-0% Intoxicating Strike (Fatigue, Pain Spike)
-9% Intoxicating Drive (Pain Spike)
-0% Intoxicating Drive (Fatigue, Pain Spike)
-0% Intoxicating Drive (Nausea, Pain Spike)
-2% Intoxicating Burst (Nausea, Pain Spike)
-73% Intoxicating Dash (Pain Spike)
-15% Intoxicating Dash (Nausea, Pain Spike)
+5% Lethal Drive
+60% Barbed Drive
+23% Barbed Drive (Nausea)
+8% Barbed Grasp (Fatigue)
+4% Crippling Thorns (Nausea)
 
 Gerard:
-8% Villainous Drive
-4% Villainous Grasp
-29% Hooked Shot
-32% Hooked Drive
-22% Hooked Burst
-2% Initiation Drive
-2% Initiation Grasp
+5% Gilded Larceny (Hire Heavy Knight)
+5% Gilded Larceny (Hire Gunslinger)
+5% Gilded Larceny (Hire Mage)
+16% Gilded Dash (Hire Heavy Knight)
+16% Gilded Dash (Hire Gunslinger)
+16% Gilded Dash (Hire Mage)
+2% Avaricious Drive (Hire Heavy Knight)
+2% Avaricious Drive (Hire Gunslinger)
+2% Avaricious Drive (Hire Mage)
+2% Avaricious Grasp (Hire Heavy Knight)
+2% Avaricious Grasp (Hire Gunslinger)
+2% Avaricious Grasp (Hire Mage)
+8% Hooked Dash (Hire Heavy Knight)
+8% Hooked Dash (Hire Gunslinger)
+8% Hooked Dash (Hire Mage)
 
 
-Abarene: Intoxicating Dash (Pain Spike)
-Gerard: Hooked Drive
+Abarene: Barbed Drive
+Gerard: Hooked Dash (Hire Gunslinger)
 
-Abarene antes a Pain Spike token
-Gerard loses 3 life (now at 7)
-Priorities:  10 | 3
-Abarene is active
-Abarene recovers a Pain Spike token
+Gerard hires a Gunslinger for 0 gold (1 remaining)
+Priorities:  5 | 8
+Gerard is active
 Gerard moves:
 
-.A....G
+G..A...
 
+Abarene loses 1 life (now at 4)
+Gerard moves:
+
+.G.A...
+
+Abarene loses 1 life (now at 3)
 Abarene moves:
 
-...A..G
+.GA....
 
-Gerard moves:
-
-...AG..
-
-Gerard misses
-Abarene loses 1 life (now at 7)
-Abarene recovers a Dizziness token
-Gerard gains 1 Gold Token (has 8)
+Abarene misses
+Gerard gains 1 Gold Token (has 2)
 
 Beat 9
 -------
 
 Abarene
 -------
-Life: 7
-Discard 1: Intoxicating Dash
-Discard 2: Crippling Thorns
+Life: 3
+Discard 1: Barbed Drive
+Discard 2: Pestilent Strike
 Special action available
-pool: Dizziness, Fatigue, Nausea, Pain Spike
+pool: Dizziness, Fatigue, Nausea
 
 Gerard
 ------
-Life: 7
-Discard 1: Hooked Drive
-Discard 2: Gilded Larceny
+Life: 10
+Discard 1: Hooked Dash
+Discard 2: Initiation Shot
 Special action available
-Gold: 8
+Gold: 2
 Mercenaries in play:
   Brawler
   Archer
+  Trebuchet
+  Gunslinger
 
 
-...AG..
+.GA....
 
 
 Abarene:
-9% Lethal Drive (Fatigue, Pain Spike)
-16% Lethal Drive (Nausea, Pain Spike)
-28% Barbed Shot (Pain Spike)
-13% Barbed Drive (Fatigue, Pain Spike)
-0% Barbed Burst (Fatigue, Pain Spike)
-20% Barbed Burst (Nausea, Pain Spike)
-7% Special Flytrap
-6% Special Flytrap (Fatigue)
+12% Lethal Thorns (Fatigue)
+54% Intoxicating Thorns (Dizziness, Nausea)
+3% Intoxicating Thorns (Dizziness, Fatigue, Nausea)
+12% Intoxicating Burst (Dizziness)
+18% Intoxicating Grasp (Dizziness)
 
 Gerard:
-17% Villainous Burst (Hire Lackey)
-10% Initiation Strike
-15% Initiation Burst
-6% Initiation Grasp
-51% Initiation Dash
-1% Initiation Dash (Hire Mage; Activate Mage)
-1% Special Windfall
+27% Villainous Strike
+40% Gilded Larceny
+10% Gilded Drive
+10% Gilded Burst
+13% Avaricious Drive
 
 
-Abarene: Barbed Shot (Pain Spike)
-Gerard: Villainous Burst (Hire Lackey)
+Abarene: Intoxicating Grasp (Dizziness)
+Gerard: Gilded Larceny
 
-Abarene antes a Pain Spike token
-Gerard loses 3 life (now at 4)
-Gerard hires a Lackey for 7 gold (1 remaining)
-Priorities:  3 | 1
+Abarene antes a Dizziness token
+Priorities:  6 | 2
 Abarene is active
-Gerard moves:
-
-...A..G
-
+Abarene recovers her Dizziness token
 Abarene hits
-Abarene recovers a Pain Spike token
+Abarene recovers her Pain Spike token
 Abarene moves Gerard:
 
-...A.G.
+..AG...
 
-Gerard has 5 soak
-Gerard takes 0 damage (now at 4 life)
-Gerard hits
+Gerard takes 3 damage (now at 7 life)
 Gerard moves Abarene:
 
-.A...G.
+...GA..
 
-Abarene takes 4 damage (now at 3 life)
-Abarene is stunned
-Abarene loses 1 life (now at 2)
 Gerard moves:
 
-.A..G..
+....AG.
 
-Gerard gains 1 Gold Token (has 2)
+Gerard hits
+Abarene takes 2 damage (now at 1 life)
+Gerard gains 3 Gold Tokens (has 5)
+Abarene is stunned
+Abarene loses 1 life (now at 1)
+Gerard gains 1 Gold Token (has 6)
 
 Beat 10
 -------
 
 Abarene
 -------
-Life: 2
-Discard 1: Barbed Shot
-Discard 2: Intoxicating Dash
+Life: 1
+Discard 1: Intoxicating Grasp
+Discard 2: Barbed Drive
 Special action available
 pool: Dizziness, Fatigue, Nausea, Pain Spike
 
 Gerard
 ------
-Life: 4
-Discard 1: Villainous Burst
-Discard 2: Hooked Drive
+Life: 7
+Discard 1: Gilded Larceny
+Discard 2: Hooked Dash
 Special action available
-Gold: 2
+Gold: 6
 Mercenaries in play:
   Brawler
   Archer
-Mercenaries removed from the game:
-  Lackey
+  Trebuchet
+  Gunslinger
 
 
-.A..G..
-
-Unbeatable strategy for Abarene: Lethal Grasp (Dizziness, Pain Spike): 0.40
-Unbeatable strategy for Abarene: Lethal Grasp (Dizziness, Nausea, Pain Spike): 0.20
-Unbeatable strategy for Abarene: Crippling Burst (Dizziness, Pain Spike): 0.41
-Unbeatable strategy for Abarene: Crippling Burst (Dizziness, Nausea, Pain Spike): 0.16
-Unbeatable strategy for Abarene: Crippling Grasp (Fatigue, Pain Spike): 2.12
-Unbeatable strategy for Abarene: Crippling Grasp (Dizziness, Fatigue, Pain Spike): 1.15
-Unbeatable strategy for Abarene: Crippling Grasp (Fatigue, Nausea, Pain Spike): 1.75
-Unbeatable strategy for Abarene: Crippling Grasp (Dizziness, Fatigue, Nausea, Pain Spike): 0.63
-Unbeatable strategy for Abarene: Pestilent Thorns (Fatigue, Pain Spike): 1.73
-Unbeatable strategy for Abarene: Pestilent Thorns (Dizziness, Fatigue, Pain Spike): 1.84
-Unbeatable strategy for Abarene: Pestilent Thorns (Fatigue, Nausea, Pain Spike): 2.44
-Unbeatable strategy for Abarene: Pestilent Thorns (Dizziness, Fatigue, Nausea, Pain Spike): 1.34
-Unbeatable strategy for Abarene: Pestilent Drive (Pain Spike): 3.70
-Unbeatable strategy for Abarene: Pestilent Drive (Dizziness, Pain Spike): 2.72
-Unbeatable strategy for Abarene: Pestilent Drive (Fatigue, Pain Spike): 2.82
-Unbeatable strategy for Abarene: Pestilent Drive (Nausea, Pain Spike): 3.32
-Unbeatable strategy for Abarene: Pestilent Drive (Dizziness, Fatigue, Pain Spike): 1.83
-Unbeatable strategy for Abarene: Pestilent Drive (Dizziness, Nausea, Pain Spike): 2.33
-Unbeatable strategy for Abarene: Pestilent Drive (Fatigue, Nausea, Pain Spike): 2.43
-Unbeatable strategy for Abarene: Pestilent Drive (Dizziness, Fatigue, Nausea, Pain Spike): 1.30
+....AG.
 
 
 Abarene:
-33% Crippling Burst (Pain Spike)
-32% Pestilent Drive (Pain Spike)
-34% Pestilent Drive (Nausea, Pain Spike)
-1% Pestilent Grasp (Fatigue, Nausea, Pain Spike)
+9% Lethal Thorns (Nausea, Pain Spike)
+29% Lethal Thorns (Fatigue, Nausea, Pain Spike)
+12% Lethal Strike (Fatigue, Pain Spike)
+0% Lethal Strike (Nausea, Pain Spike)
+4% Lethal Strike (Fatigue, Nausea, Pain Spike)
+1% Lethal Burst (Nausea, Pain Spike)
+1% Crippling Burst (Nausea, Pain Spike)
+23% Pestilent Strike (Pain Spike)
+18% Pestilent Strike (Nausea, Pain Spike)
+3% Special Flytrap (Pain Spike)
 
 Gerard:
-0% Gilded Shot
-0% Gilded Shot (Hire Heavy Knight)
-0% Gilded Shot (Hire Gunslinger)
-0% Gilded Shot (Hire Mage)
-27% Gilded Dash
-49% Avaricious Dash
-0% Initiation Shot
-0% Initiation Shot (Hire Heavy Knight)
-0% Initiation Shot (Hire Gunslinger)
-0% Initiation Shot (Hire Mage)
-20% Initiation Dash
-2% Special Windfall
+1% Villainous Drive
+0% Avaricious Drive (Hire Mage; Activate Mage)
+1% Avaricious Burst (Hire Heavy Knight)
+1% Avaricious Burst (Hire Mage)
+2% Avaricious Burst (Hire Mage; Activate Mage)
+1% Initiation Strike
+1% Initiation Strike (Hire Heavy Knight; Activate Heavy Knight)
+3% Initiation Shot (Hire Mage; Activate Mage)
+0% Initiation Drive (Hire Mage; Activate Mage)
+1% Initiation Grasp
+90% Special Pulse
 
 
-Abarene: Crippling Burst (Pain Spike)
-Gerard: Avaricious Dash
+Abarene: Lethal Thorns (Fatigue, Nausea, Pain Spike)
+Gerard: Special Pulse
 
+Abarene antes a Fatigue token
+Abarene antes a Nausea token
 Abarene antes a Pain Spike token
-Gerard loses 3 life (now at 1)
-Priorities:  -1 | 10
-Gerard is active
-Gerard moves:
-
-.A.G...
-
-Abarene moves:
+Gerard loses 3 life (now at 4)
+Gerard Pulses:
 
 A..G...
 
-Gerard moves:
 
-A.G....
-
-Abarene loses 1 life (now at 1)
-Abarene moves:
-
-..GA...
-
-Abarene misses
-Gerard gains 1 Gold Token (has 3)
-
-Beat 11
+Beat 10
 -------
 
 Abarene
 -------
 Life: 1
-Discard 1: Crippling Burst
-Discard 2: Barbed Shot
+Discard 1: Lethal Thorns
+Discard 2: Intoxicating Grasp
 Special action available
-pool: Dizziness, Fatigue, Nausea
+pool: Dizziness
 
 Gerard
 ------
-Life: 1
-Discard 1: Avaricious Dash
-Discard 2: Villainous Burst
-Special action available
-Gold: 3
+Life: 4
+Discard 1: Gilded Larceny
+Discard 2: Hooked Dash
+Gold: 6
 Mercenaries in play:
   Brawler
   Archer
-Mercenaries removed from the game:
-  Lackey
+  Trebuchet
+  Gunslinger
 
 
-..GA...
+A..G...
 
-Unbeatable strategy for Abarene: Intoxicating Drive (Fatigue): 6.00
-Unbeatable strategy for Abarene: Intoxicating Drive (Dizziness, Fatigue): 6.00
-Unbeatable strategy for Abarene: Intoxicating Drive (Fatigue, Nausea): 6.00
-Unbeatable strategy for Abarene: Intoxicating Drive (Dizziness, Fatigue, Nausea): 6.00
+Unbeatable strategy for Gerard: Avaricious Drive (Hire Heavy Knight; Activate Heavy Knight): -6.00
+Unbeatable strategy for Gerard: Initiation Drive (Hire Heavy Knight; Activate Heavy Knight): -6.00
 
 
 Abarene:
-9% Lethal Thorns (Fatigue, Nausea)
-9% Lethal Thorns (Dizziness, Fatigue, Nausea)
-9% Lethal Drive (Fatigue)
-9% Lethal Drive (Dizziness, Fatigue)
-9% Lethal Drive (Fatigue, Nausea)
-9% Intoxicating Thorns (Fatigue, Nausea)
-9% Intoxicating Thorns (Dizziness, Fatigue, Nausea)
-9% Intoxicating Drive (Fatigue)
-9% Intoxicating Drive (Dizziness, Fatigue)
-9% Intoxicating Drive (Fatigue, Nausea)
-9% Intoxicating Drive (Dizziness, Fatigue, Nausea)
+12% Barbed Drive (Dizziness)
+4% Barbed Dash
+14% Pestilent Strike
+11% Pestilent Drive
+16% Pestilent Dash
+44% Special Pulse
 
 Gerard:
-2% Gilded Larceny
-1% Gilded Larceny (Hire Heavy Knight)
-1% Gilded Larceny (Hire Gunslinger)
-1% Gilded Larceny (Hire Trebuchet)
-1% Gilded Larceny (Hire Mage)
-2% Gilded Strike
-1% Gilded Strike (Hire Heavy Knight)
-1% Gilded Strike (Hire Gunslinger)
-1% Gilded Strike (Hire Trebuchet)
-1% Gilded Strike (Hire Mage)
-3% Gilded Shot
-1% Gilded Shot (Hire Heavy Knight)
-1% Gilded Shot (Hire Gunslinger)
-1% Gilded Shot (Hire Trebuchet)
-1% Gilded Shot (Hire Mage)
-2% Gilded Drive
-1% Gilded Drive (Hire Heavy Knight)
-1% Gilded Drive (Hire Gunslinger)
-1% Gilded Drive (Hire Trebuchet)
-1% Gilded Drive (Hire Mage)
-3% Gilded Grasp
-1% Gilded Grasp (Hire Heavy Knight)
-1% Gilded Grasp (Hire Gunslinger)
-1% Gilded Grasp (Hire Trebuchet)
-1% Gilded Grasp (Hire Mage)
-1% Hooked Larceny
-1% Hooked Larceny (Hire Heavy Knight)
-1% Hooked Larceny (Hire Gunslinger)
-1% Hooked Larceny (Hire Trebuchet)
-1% Hooked Larceny (Hire Mage)
-1% Hooked Strike
-1% Hooked Strike (Hire Heavy Knight)
-1% Hooked Strike (Hire Gunslinger)
-2% Hooked Strike (Hire Trebuchet)
-1% Hooked Strike (Hire Mage)
-1% Hooked Shot
-1% Hooked Shot (Hire Heavy Knight)
-1% Hooked Shot (Hire Gunslinger)
-1% Hooked Shot (Hire Trebuchet)
-1% Hooked Shot (Hire Mage)
-1% Hooked Drive
-1% Hooked Drive (Hire Heavy Knight)
-1% Hooked Drive (Hire Gunslinger)
-1% Hooked Drive (Hire Trebuchet)
-1% Hooked Drive (Hire Mage)
-2% Hooked Grasp
-2% Hooked Grasp (Hire Heavy Knight)
-2% Hooked Grasp (Hire Gunslinger)
-2% Hooked Grasp (Hire Trebuchet)
-2% Hooked Grasp (Hire Mage)
-1% Initiation Larceny
-1% Initiation Larceny (Hire Heavy Knight)
-1% Initiation Larceny (Hire Gunslinger)
-1% Initiation Larceny (Hire Trebuchet)
-1% Initiation Larceny (Hire Mage)
-1% Initiation Strike
-1% Initiation Strike (Hire Heavy Knight)
-1% Initiation Strike (Hire Gunslinger)
-1% Initiation Strike (Hire Trebuchet)
-1% Initiation Strike (Hire Mage)
-1% Initiation Shot
-1% Initiation Shot (Hire Heavy Knight)
-1% Initiation Shot (Hire Gunslinger)
-1% Initiation Shot (Hire Trebuchet)
-1% Initiation Shot (Hire Mage)
-1% Initiation Drive
-1% Initiation Drive (Hire Heavy Knight)
-1% Initiation Drive (Hire Gunslinger)
-1% Initiation Drive (Hire Trebuchet)
-1% Initiation Drive (Hire Mage)
-1% Initiation Grasp
-1% Initiation Grasp (Hire Heavy Knight)
-1% Initiation Grasp (Hire Gunslinger)
-1% Initiation Grasp (Hire Trebuchet)
-1% Initiation Grasp (Hire Mage)
-4% Special Windfall
-1% Special Windfall (Hire Heavy Knight)
-1% Special Windfall (Hire Gunslinger)
-1% Special Windfall (Hire Trebuchet)
-1% Special Windfall (Hire Mage)
+10% Villainous Shot (Hire Heavy Knight; Activate Heavy Knight)
+22% Avaricious Shot (Hire Heavy Knight; Activate Heavy Knight)
+21% Initiation Drive
+14% Initiation Drive (Hire Heavy Knight; Activate Heavy Knight)
+18% Initiation Drive (Hire Mage; Activate Mage)
+15% Initiation Burst
 
 
-Abarene: Intoxicating Thorns (Fatigue, Nausea)
-Gerard: Hooked Grasp (Hire Gunslinger)
+Abarene: Special Pulse
+Gerard: Initiation Drive
 
-Abarene antes a Fatigue token
-Abarene antes a Nausea token
-Gerard hires a Gunslinger for 2 gold (1 remaining)
-Priorities:  3 | 2
-Abarene is active
-Abarene recovers a Fatigue token
+Abarene Pulses:
+
+A....G.
+
+
+Beat 10
+-------
+
+Abarene
+-------
+Life: 1
+Discard 1: Lethal Thorns
+Discard 2: Intoxicating Grasp
+pool: Dizziness
+
+Gerard
+------
+Life: 4
+Discard 1: Initiation Drive
+Discard 2: Gilded Larceny
+Gold: 6
+Mercenaries in play:
+  Brawler
+  Archer
+  Trebuchet
+  Gunslinger
+
+
+A....G.
+
+
+Abarene:
+33% Barbed Drive
+1% Crippling Shot
+1% Crippling Shot (Dizziness)
+25% Crippling Drive
+1% Crippling Burst
+1% Crippling Burst (Dizziness)
+18% Crippling Dash
+20% Pestilent Drive
+
+Gerard:
+0% Villainous Shot
+23% Avaricious Shot (Hire Heavy Knight; Activate Heavy Knight)
+18% Avaricious Burst (Hire Heavy Knight; Activate Heavy Knight)
+15% Hooked Strike
+44% Hooked Shot (Hire Mage; Activate Mage)
+
+
+Abarene: Crippling Drive
+Gerard: Avaricious Shot (Hire Heavy Knight; Activate Heavy Knight)
+
+Gerard hires a Heavy Knight for 2 gold (4 remaining)
+Gerard activates his Heavy Knight for 3 gold (1 remaining)
+Priorities:  2 | 3
+Gerard is active
 Gerard moves:
 
-G..A...
+A...G..
 
-Abarene hits
-Abarene recovers a Nausea token
-Abarene recovers a Pain Spike token
-Gerard takes 4 damage (now at 0 life)
-ABARENE WINS!
-total_time: 5390
+Gerard hits
+Abarene takes 3 damage (now at 0 life)
+GERARD WINS!
+total_time: 1642

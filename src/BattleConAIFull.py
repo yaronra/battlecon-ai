@@ -465,7 +465,11 @@ class Game:
                            board_start + 1 + a0 + a1]
         game.player[0].read_my_state(lines0, board, addendum0)
         game.player[1].read_my_state(lines1, board, addendum1)
+        game.debugging = True
+        game.interactive_mode = True
         game.initialize_simulations()
+        game.interactive_mode = False
+        game.debugging = False
         return game
 
     @staticmethod
@@ -1949,7 +1953,8 @@ class Character (object):
             next_line_index += 1
         self.active_status_effects = []
         for status in self.status_effects:
-            status.read_my_state(lines)
+            if status.read_my_state(lines) is not None:
+                next_line_index += 1
         return lines[next_line_index:]
     
     # set character state for start of a game
@@ -2967,6 +2972,13 @@ class Character (object):
         status_effect_bonus = sum([status.value for status in 
                                    self.pending_status_effects])
 
+        if self.game.debugging:
+            self.game.report("%s's evaluation:"%self)
+            self.game.report("evaluation bonus: %.2f"% self.evaluation_bonus)
+            self.game.report("card bonus: %.2f"% card_bonus)
+            self.game.report("discard penalty: %.2f"% discard_penalty)
+            self.game.report("special action: %.2f"% special_action_bonus)
+            self.game.report("status effects: %.2f"% status_effect_bonus)
         return (- self.opponent.effective_life() + self.evaluation_bonus
                 + self.evaluate_range() + card_bonus
                 + discard_penalty + special_action_bonus 
@@ -3222,6 +3234,8 @@ class StatusEffect(Card):
         if line:
             self.me.active_status_effects.append(self)
         # In case inherited method wants to do more with the line.
+        # (Also, so that character's read_my_state() knows to 
+        # skip a line).
         return line
     def situation_report(self, report):
         if self in self.me.active_status_effects:
@@ -3262,6 +3276,7 @@ class PowerBonusStatusEffect(StatusEffect):
         line = StatusEffect.read_my_state(self, lines)
         if line:
             self.me.active_power_bonus = int(line.split()[2])
+        return line
     def full_save(self, state):
         state.pending_power_bonus = self.me.pending_power_bonus
     def full_restore(self, state):
@@ -3291,6 +3306,7 @@ class PriorityBonusStatusEffect(StatusEffect):
         line = StatusEffect.read_my_state(self, lines)
         if line:
             self.me.active_priority_bonus = int(line.split()[2])
+        return line
     def full_save(self, state):
         state.pending_priority_bonus = self.me.pending_priority_bonus
     def full_restore(self, state):
@@ -3321,6 +3337,7 @@ class PowerPenaltyStatusEffect(StatusEffect):
         line = StatusEffect.read_my_state(self, lines)
         if line:
             self.me.active_power_penalty = int(line.split([4]))
+        return line
     def full_save(self, state):
         state.pending_power_penalty = self.me.pending_power_penalty
     def full_restore(self, state):
@@ -3351,6 +3368,7 @@ class PriorityPenaltyStatusEffect(StatusEffect):
         line = StatusEffect.read_my_state(self, lines)
         if line:
             self.me.active_priority_penalty = int(line.split([4]))
+        return line
     def full_save(self, state):
         state.pending_priority_penalty = self.me.pending_priority_penalty
     def full_restore(self, state):
@@ -5408,7 +5426,8 @@ class Gerard (Character):
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
-        self.gold = int(lines[0].split[' '][1][:-1])
+        lines.append('') # prevents going out of range in while loops.
+        self.gold = int(lines[0].split()[1])
         i = 2
         if lines[1] == "No mercenaries in play\n":
             self.mercs_in_play = []
@@ -5599,11 +5618,13 @@ class Gerard (Character):
         if ordered(old_position, mover.opponent.position, mover.position):
             self.switched_sides = True
 
-    @property
-    def gold_value(self):
-        return 0.2 * (min(3, self.game.expected_beats()) + 1) 
+    gold_value = 0.5 
         
     def evaluate(self):
+        if self.game.debugging:
+            self.game.report("gold evaluation: %.2f"% (self.gold*self.gold_value))
+            for merc in self.mercs_in_play:
+                self.game.report('%s: %.2f'%(merc.name, merc.get_value()))
         return (Character.evaluate(self) + self.gold * self.gold_value +
                 sum([merc.get_value() for merc in self.mercs_in_play]))
 
@@ -5736,7 +5757,10 @@ class Heketch (Character):
             self.recover_tokens(1)
 
     def evaluate (self):
-        return Character.evaluate (self) + 2 * len (self.pool)
+        ev = Character.evaluate(self)
+        if self.pool:
+            ev += 0.9 + (0.1 * self.game.distance() - 1)
+        return ev
 
 class Hepzibah(Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
@@ -11158,7 +11182,7 @@ class Brawler(Mercenary):
     def get_value(self):
         pr = self.opponent.preferred_range
         next_beats_value = 0.2 * (6 - self.game.distance())
-        return 0.12 * (6-pr) * (self.game.expected_beats() - 1) + next_beats_value
+        return 0.6 * (6-pr) + next_beats_value
 
 class Archer(Mercenary):
     hiring_cost = 3
@@ -11172,7 +11196,7 @@ class Archer(Mercenary):
         return self.me.style.ordered_after_trigger or self.me.base.ordered_after_trigger
     def get_value(self):
         next_beats_value = 0.5 * (2.5 - abs(3.5 - self.game.distance()))
-        return 0.4 * (self.game.expected_beats() -1) + next_beats_value
+        return 2.0 + next_beats_value
 
 class Trebuchet(Mercenary):
     hiring_cost = 3
@@ -11187,7 +11211,7 @@ class Trebuchet(Mercenary):
     def get_value(self):
         pr = self.opponent.preferred_range
         next_beats_value = 0.2 * (self.game.distance() - 1)
-        return 0.12 * (pr-1) * (self.game.expected_beats() -1) + next_beats_value
+        return 0.6 * (pr-1) + next_beats_value
 
 class Lackey(Mercenary):
     hiring_cost = 7

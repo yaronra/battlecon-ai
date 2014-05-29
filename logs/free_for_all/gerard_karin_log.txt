@@ -29,59 +29,42 @@ Special action available
 .G...K.
 ....j..
 
-Unbeatable strategy for Gerard: Gilded Dash (Hire Brawler): 1.85
-Unbeatable strategy for Gerard: Gilded Dash (Hire Archer): 1.46
+Unbeatable strategy for Gerard: Gilded Dash (Hire Brawler): 0.11
 
 
 Gerard:
-70% Gilded Drive (Hire Brawler)
-10% Gilded Burst (Hire Archer)
-20% Avaricious Drive (Hire Brawler)
+77% Gilded Drive (Hire Brawler)
+2% Gilded Burst (Hire Archer)
+21% Avaricious Drive (Hire Brawler)
 
 Karin:
-48% Coordinated Drive
-43% Feral Shot
-9% Feral Burst
+41% Coordinated Drive
+14% Full Moon Burst
+44% Feral Shot
 
 
-Gerard: Gilded Burst (Hire Archer)
-Karin: Feral Burst
+Gerard: Gilded Drive (Hire Brawler)
+Karin: Coordinated Drive
 
-Gerard hires a Archer for 3 gold (0 remaining)
-Priorities:  0 | 2
+Gerard hires a Brawler for 3 gold (0 remaining)
+Priorities:  3 | 4
 Karin is active
 Karin moves:
 
-.G..K..
+.G.K...
 ....j..
 
-Karin moves:
-
-.G....K
-....j..
-
+Karin hits
+Gerard takes 3 damage (now at 17 life)
 Gerard moves:
 
-G.....K
+..GK...
 ....j..
 
-Karin misses
-Gerard moves Karin:
-
-G....K.
-....j..
-
-Gerard misses
-Karin moves:
-
-G.....K
-....j..
-
-Jager moves:
-
-G.....K
-...j...
-
+Gerard hits
+Karin takes 3 damage (now at 17 life)
+Karin is stunned
+Karin loses 1 life (now at 16)
 Gerard gains 1 Gold Token (has 1)
 
 Beat 2
@@ -89,59 +72,69 @@ Beat 2
 
 Gerard
 ------
-Life: 20
-Discard 1: Gilded Burst
+Life: 17
+Discard 1: Gilded Drive
 Discard 2: Villainous Larceny
 Special action available
 Gold: 1
 Mercenaries in play:
-  Archer
+  Brawler
 
 Karin
 -----
-Life: 20
-Discard 1: Feral Burst
+Life: 16
+Discard 1: Coordinated Drive
 Discard 2: Dual Grasp
 Special action available
 
 
-G.....K
-...j...
-
-Unbeatable strategy for Karin: Howling Shot: -2.57
+..GK...
+....j..
 
 
 Gerard:
-4% Hooked Shot
-18% Hooked Drive
-37% Initiation Strike
-41% Initiation Shot
+23% Avaricious Dash
+3% Hooked Strike
+25% Hooked Shot
+7% Initiation Strike
+12% Initiation Shot
+31% Initiation Dash
 
 Karin:
-9% Howling Shot
-1% Full Moon Strike
-65% Full Moon Shot
-25% Full Moon Drive
+19% Howling Shot
+22% Full Moon Claw
+12% Full Moon Burst
+46% Full Moon Dash
+1% Feral Burst
+1% Feral Dash
 
 
-Gerard: Initiation Strike
-Karin: Howling Shot
+Gerard: Avaricious Dash
+Karin: Full Moon Dash
 
-Priorities:  4 | 3
+Priorities:  10 | 10
+Clash!
+
+
+Gerard: Avaricious Grasp
+Karin: Full Moon Burst
+
+Priorities:  6 | 2
 Gerard is active
+Gerard moves:
+
+...KG..
+....j..
+
+Karin moves:
+
+.K..G..
+....j..
+
 Gerard misses
 Karin hits
-Gerard takes 3 damage (now at 17 life)
-Jager moves:
-
-G.....K
-..j....
-
-Jager moves:
-
-G.....K
-.j.....
-
+Gerard takes 3 damage (now at 14 life)
+Gerard is stunned
 Gerard gains 1 Gold Token (has 2)
 
 Beat 3
@@ -149,52 +142,75 @@ Beat 3
 
 Gerard
 ------
-Life: 17
-Discard 1: Initiation Strike
-Discard 2: Gilded Burst
+Life: 14
+Discard 1: Avaricious Grasp
+Discard 2: Gilded Drive
 Special action available
 Gold: 2
 Mercenaries in play:
-  Archer
+  Brawler
 
 Karin
 -----
-Life: 20
-Discard 1: Howling Shot
-Discard 2: Feral Burst
+Life: 16
+Discard 1: Full Moon Burst
+Discard 2: Coordinated Drive
 Special action available
 
 
-G.....K
-.j.....
+.K..G..
+....j..
 
 
 Gerard:
-3% Villainous Dash
-9% Avaricious Grasp
-53% Avaricious Dash
-35% Hooked Shot
+14% Villainous Larceny
+48% Villainous Dash
+12% Hooked Shot
+25% Initiation Dash
 
 Karin:
-20% Coordinated Grasp
-60% Full Moon Drive
-14% Full Moon Grasp
-7% Dual Dash
+16% Howling Claw
+19% Howling Shot
+13% Feral Dash
+52% Dual Dash
 
 
-Gerard: Avaricious Dash
-Karin: Coordinated Grasp
+Gerard: Villainous Larceny
+Karin: Dual Dash
 
-Priorities:  9 | 5
-Gerard is active
-Gerard is blocked by Jager
-Gerard takes 2 damage (now at 15 life)
-Gerard is stunned
-Karin misses
+Priorities:  3 | 9
+Karin is active
 Jager moves:
 
-G.....K
-j......
+.K..G..
+..j....
+
+Karin moves Gerard:
+
+.KG....
+..j....
+
+Karin moves:
+
+..G.K..
+..j....
+
+Gerard moves Karin:
+
+..GK...
+..j....
+
+Gerard moves:
+
+...KG..
+..j....
+
+Gerard misses
+Karin loses 1 life (now at 15)
+Gerard moves:
+
+..GK...
+..j....
 
 Gerard gains 1 Gold Token (has 3)
 
@@ -203,175 +219,71 @@ Beat 4
 
 Gerard
 ------
-Life: 15
-Discard 1: Avaricious Dash
-Discard 2: Initiation Strike
+Life: 14
+Discard 1: Villainous Larceny
+Discard 2: Avaricious Grasp
 Special action available
 Gold: 3
 Mercenaries in play:
-  Archer
-
-Karin
------
-Life: 20
-Discard 1: Coordinated Grasp
-Discard 2: Howling Shot
-Special action available
-
-
-G.....K
-j......
-
-Unbeatable strategy for Karin: Feral Claw: -0.94
-
-
-Gerard:
-1% Villainous Drive (Hire Brawler)
-8% Villainous Grasp (Hire Brawler)
-16% Gilded Larceny (Hire Brawler)
-76% Special Pulse (Hire Brawler)
-
-Karin:
-44% Feral Claw
-20% Dual Claw
-33% Dual Strike
-2% Dual Drive
-
-
-Gerard: Special Pulse (Hire Brawler)
-Karin: Feral Claw
-
-Gerard hires a Brawler for 3 gold (0 remaining)
-Pulse:
-
-..K...G
-j......
-
-
-Beat 4
--------
-
-Gerard
-------
-Life: 15
-Discard 1: Avaricious Dash
-Discard 2: Initiation Strike
-Gold: 0
-Mercenaries in play:
-  Archer
   Brawler
 
 Karin
 -----
-Life: 20
-Discard 1: Feral Claw
-Discard 2: Coordinated Grasp
+Life: 15
+Discard 1: Dual Dash
+Discard 2: Full Moon Burst
 Special action available
 
 
-..K...G
-j......
+..GK...
+..j....
 
-Unbeatable strategy for Karin: Dual Dash: -0.23
-
-
-Gerard:
-17% Villainous Grasp
-42% Gilded Shot
-23% Gilded Drive
-4% Gilded Grasp
-14% Hooked Drive
-
-Karin:
-8% Full Moon Drive
-0% Dual Strike
-3% Dual Shot
-17% Dual Burst
-71% Special Pulse
-
-
-Gerard: Gilded Shot
-Karin: Special Pulse
-
-Pulse:
-
-G.....K
-j......
-
-
-Beat 4
--------
-
-Gerard
-------
-Life: 15
-Discard 1: Gilded Shot
-Discard 2: Avaricious Dash
-Gold: 0
-Mercenaries in play:
-  Archer
-  Brawler
-
-Karin
------
-Life: 20
-Discard 1: Feral Claw
-Discard 2: Coordinated Grasp
-
-
-G.....K
-j......
-
-Unbeatable strategy for Karin: Howling Drive: -0.88
+Unbeatable strategy for Gerard: Gilded Dash (Hire Archer): 0.59
+Unbeatable strategy for Gerard: Gilded Dash (Hire Trebuchet): 0.01
+Unbeatable strategy for Gerard: Initiation Dash (Hire Archer): 0.21
 
 
 Gerard:
-19% Villainous Drive
-24% Villainous Grasp
-57% Initiation Drive
+63% Gilded Dash (Hire Archer)
+13% Hooked Shot (Hire Archer)
+4% Hooked Dash (Hire Archer)
+19% Initiation Drive (Hire Archer)
 
 Karin:
-47% Howling Shot
-50% Howling Drive
-3% Full Moon Shot
+52% Howling Claw
+13% Howling Grasp
+14% Coordinated Drive
+22% Feral Claw
 
 
-Gerard: Initiation Drive
-Karin: Howling Drive
+Gerard: Gilded Dash (Hire Archer)
+Karin: Howling Claw
 
-Priorities:  5 | 5
-Clash!
-
-
-Gerard: Initiation Larceny
-Karin: Howling Shot
-
-Priorities:  4 | 3
+Gerard hires a Archer for 3 gold (0 remaining)
+Priorities:  8 | 5
 Gerard is active
-Gerard moves Karin:
-
-G....K.
-j......
-
+Karin loses 1 life (now at 14)
 Gerard moves:
 
-.G...K.
-j......
+...K..G
+..j....
 
-Gerard moves:
+Karin loses 1 life (now at 13)
+Karin moves:
 
-..G..K.
-j......
+.....KG
+..j....
 
-Gerard misses
-Karin loses 1 life (now at 19)
-Karin hits
-Gerard takes 3 damage (now at 12 life)
-Gerard is stunned
+Karin misses
 Jager moves:
 
-..G..K.
-.j.....
+.....KG
+...j...
+
+Jager moves:
+
+.....KG
+....j..
 
 Gerard gains 1 Gold Token (has 1)
 
@@ -380,66 +292,59 @@ Beat 5
 
 Gerard
 ------
-Life: 12
-Discard 1: Initiation Larceny
-Discard 2: Gilded Shot
+Life: 14
+Discard 1: Gilded Dash
+Discard 2: Villainous Larceny
+Special action available
 Gold: 1
 Mercenaries in play:
-  Archer
   Brawler
+  Archer
 
 Karin
 -----
-Life: 19
-Discard 1: Howling Shot
-Discard 2: Feral Claw
+Life: 13
+Discard 1: Howling Claw
+Discard 2: Dual Dash
+Special action available
 
 
-..G..K.
-.j.....
+.....KG
+....j..
 
 
 Gerard:
-42% Villainous Dash
-13% Avaricious Strike
-0% Avaricious Burst
-11% Avaricious Grasp
-34% Avaricious Dash
+11% Avaricious Burst
+35% Initiation Strike
+18% Initiation Shot
+36% Initiation Grasp
 
 Karin:
-0% Coordinated Strike
-59% Coordinated Dash
-3% Full Moon Drive
-13% Full Moon Burst
-25% Full Moon Dash
+13% Coordinated Strike
+19% Coordinated Burst
+27% Full Moon Strike
+41% Feral Grasp
 
 
-Gerard: Villainous Dash
-Karin: Full Moon Dash
+Gerard: Initiation Shot
+Karin: Coordinated Burst
 
-Priorities:  9 | 10
-Karin is active
+Priorities:  3 | 1
+Gerard is active
 Karin moves:
 
-..G.K..
-.j.....
+....K.G
+....j..
 
-Karin loses 1 life (now at 18)
-Gerard moves:
-
-.G..K..
-.j.....
-
-Karin loses 1 life (now at 17)
+Gerard hits
+First hireling next beat will cost 2 gold less
+Karin takes 3 damage (now at 10 life)
+Karin is stunned
+Karin loses 1 life (now at 9)
 Jager moves:
 
-.G..K..
-..j....
-
-Gerard moves:
-
-....KG.
-..j....
+....K.G
+.....j.
 
 Gerard gains 1 Gold Token (has 2)
 
@@ -448,62 +353,74 @@ Beat 6
 
 Gerard
 ------
-Life: 12
-Discard 1: Villainous Dash
-Discard 2: Initiation Larceny
+Life: 14
+Discard 1: Initiation Shot
+Discard 2: Gilded Dash
+Special action available
+First hireling costs 2 gold less
 Gold: 2
 Mercenaries in play:
-  Archer
   Brawler
+  Archer
 
 Karin
 -----
-Life: 17
-Discard 1: Full Moon Dash
-Discard 2: Howling Shot
+Life: 9
+Discard 1: Coordinated Burst
+Discard 2: Howling Claw
+Special action available
 
 
-....KG.
-..j....
+....K.G
+.....j.
 
 
 Gerard:
-57% Gilded Drive
-18% Gilded Burst
-18% Avaricious Drive
-7% Hooked Drive
+10% Villainous Strike (Hire Heavy Knight)
+10% Villainous Strike (Hire Gunslinger)
+10% Villainous Strike (Hire Mage)
+0% Villainous Grasp (Hire Heavy Knight)
+0% Villainous Grasp (Hire Gunslinger)
+0% Villainous Grasp (Hire Mage)
+6% Avaricious Strike (Hire Heavy Knight)
+6% Avaricious Strike (Hire Gunslinger)
+6% Avaricious Strike (Hire Mage)
+8% Avaricious Drive (Hire Heavy Knight)
+8% Avaricious Drive (Hire Gunslinger)
+8% Avaricious Drive (Hire Mage)
+11% Avaricious Burst (Hire Trebuchet)
+6% Avaricious Grasp (Hire Heavy Knight)
+6% Avaricious Grasp (Hire Gunslinger)
+6% Avaricious Grasp (Hire Mage)
 
 Karin:
-45% Coordinated Strike
-8% Feral Claw
-33% Feral Strike
-13% Dual Drive
+37% Full Moon Strike
+20% Full Moon Grasp
+20% Feral Strike
+4% Feral Drive
+14% Feral Grasp
+4% Dual Dash
 
 
-Gerard: Gilded Drive
-Karin: Feral Strike
+Gerard: Villainous Strike (Hire Gunslinger)
+Karin: Full Moon Strike
 
+Gerard hires a Gunslinger for 0 gold (2 remaining)
 Priorities:  3 | 4
 Karin is active
-Karin moves:
-
-.....GK
-..j....
-
 Karin hits
-Gerard takes 4 damage (now at 8 life)
-Gerard hits
-Karin takes 3 damage (now at 14 life)
-Karin loses 1 life (now at 13)
-Karin moves:
-
-....KG.
-..j....
-
+Gerard takes 4 damage (now at 10 life)
+Gerard misses
+Karin loses 1 life (now at 8)
 Jager moves:
 
-....KG.
-...j...
+....K.G
+....j..
+
+Gerard moves:
+
+..G.K..
+....j..
 
 Gerard gains 1 Gold Token (has 3)
 
@@ -512,77 +429,61 @@ Beat 7
 
 Gerard
 ------
-Life: 8
-Discard 1: Gilded Drive
-Discard 2: Villainous Dash
+Life: 10
+Discard 1: Villainous Strike
+Discard 2: Initiation Shot
+Special action available
 Gold: 3
 Mercenaries in play:
-  Archer
   Brawler
+  Archer
+  Gunslinger
 
 Karin
 -----
-Life: 13
-Discard 1: Feral Strike
-Discard 2: Full Moon Dash
+Life: 8
+Discard 1: Full Moon Strike
+Discard 2: Coordinated Burst
+Special action available
 
 
-....KG.
-...j...
+..G.K..
+....j..
 
 
 Gerard:
-20% Initiation Larceny
-1% Initiation Strike
-21% Initiation Shot
-21% Initiation Burst
-36% Initiation Grasp
+2% Gilded Larceny
+25% Gilded Drive
+73% Gilded Dash
 
 Karin:
-21% Howling Claw
-3% Howling Shot
-14% Howling Burst
-36% Coordinated Drive
-26% Coordinated Burst
+11% Feral Grasp
+49% Feral Dash
+40% Dual Claw
 
 
-Gerard: Initiation Grasp
-Karin: Howling Claw
+Gerard: Gilded Dash
+Karin: Feral Dash
 
-Priorities:  6 | 5
-Gerard is active
-Gerard hits
-First hireling next beat will cost 2 gold less
-Gerard moves Karin:
-
-...K.G.
-...j...
-
-Karin takes 2 damage (now at 11 life)
-Karin loses 1 life (now at 10)
+Priorities:  8 | 10
+Karin is active
 Karin moves:
 
-....KG.
-...j...
-
-Karin hits
-Jager moves:
-
-....KG.
+.KG....
 ....j..
 
-Gerard takes 2 damage (now at 6 life)
-Gerard is stunned
-Jager moves:
+Karin moves:
 
-....KG.
-.....j.
+K.G....
+....j..
 
-Jager moves:
+Karin loses 1 life (now at 7)
+Gerard moves:
 
-....KG.
-......j
+K..G...
+....j..
 
+Karin loses 1 life (now at 6)
 Gerard gains 1 Gold Token (has 4)
 
 Beat 8
@@ -590,214 +491,223 @@ Beat 8
 
 Gerard
 ------
-Life: 6
-Discard 1: Initiation Grasp
-Discard 2: Gilded Drive
-First hireling costs 2 gold less
+Life: 10
+Discard 1: Gilded Dash
+Discard 2: Villainous Strike
+Special action available
 Gold: 4
 Mercenaries in play:
-  Archer
   Brawler
+  Archer
+  Gunslinger
 
 Karin
 -----
-Life: 10
-Discard 1: Howling Claw
-Discard 2: Feral Strike
+Life: 6
+Discard 1: Feral Dash
+Discard 2: Full Moon Strike
+Special action available
 
 
-....KG.
-......j
+K..G...
+....j..
 
 
 Gerard:
-0% Villainous Shot (Hire Gunslinger)
-0% Villainous Shot (Hire Heavy Knight)
-0% Villainous Shot (Hire Mage)
-9% Avaricious Larceny (Hire Heavy Knight; Activate Heavy Knight)
-7% Avaricious Strike (Hire Mage; Activate Mage)
-11% Avaricious Dash (Hire Gunslinger)
-11% Avaricious Dash (Hire Heavy Knight)
-11% Avaricious Dash (Hire Mage)
-26% Avaricious Dash (Hire Mage; Activate Mage)
-9% Avaricious Dash (Hire Gunslinger, Heavy Knight)
-9% Avaricious Dash (Hire Gunslinger, Mage)
-9% Avaricious Dash (Hire Heavy Knight, Mage)
+10% Avaricious Larceny (Hire Heavy Knight)
+10% Avaricious Larceny (Hire Mage)
+21% Avaricious Drive (Hire Heavy Knight)
+21% Avaricious Drive (Hire Mage)
+23% Hooked Shot
+14% Initiation Larceny
 
 Karin:
-5% Coordinated Shot
-37% Coordinated Dash
-2% Full Moon Shot
-37% Full Moon Drive
-2% Full Moon Grasp
-17% Full Moon Dash
+29% Howling Claw
+40% Howling Shot
+16% Howling Drive
+15% Coordinated Grasp
 
 
-Gerard: Avaricious Dash (Hire Mage; Activate Mage)
-Karin: Coordinated Dash
+Gerard: Avaricious Drive (Hire Heavy Knight)
+Karin: Howling Drive
 
-Gerard hires a Mage for 0 gold (4 remaining)
-Gerard activates his Mage for 3 gold (1 remaining)
-Priorities:  11 | 9
+Gerard hires a Heavy Knight for 2 gold (2 remaining)
+Priorities:  5 | 5
+Clash!
+
+
+Gerard: Avaricious Shot (Hire Heavy Knight)
+Karin: Howling Shot
+
+Gerard hires a Heavy Knight for 2 gold (2 remaining)
+Priorities:  3 | 3
+Clash!
+
+
+Gerard: Avaricious Grasp (Hire Heavy Knight)
+Karin: Howling Claw
+
+Gerard hires a Heavy Knight for 2 gold (2 remaining)
+Priorities:  6 | 5
 Gerard is active
 Gerard moves:
 
-...GK..
-......j
-
-Karin loses 1 life (now at 9)
-Gerard moves:
-
-.G..K..
-......j
-
-Karin loses 1 life (now at 8)
-Karin moves:
-
-.GK....
-......j
-
-Jager moves:
-
-.GK....
-.....j.
-
-Jager moves:
-
-.GK....
+K.G....
 ....j..
 
-Gerard gains 1 Gold Token (has 2)
+Gerard misses
+Karin loses 1 life (now at 5)
+Karin moves:
+
+..GK...
+....j..
+
+Karin hits
+Jager moves:
+
+..GK...
+...j...
+
+Gerard takes 2 damage (now at 8 life)
+Gerard is stunned
+Jager moves:
+
+..GK...
+..j....
+
+Jager moves:
+
+..GK...
+.j.....
+
+Gerard gains 1 Gold Token (has 3)
 
 Beat 9
 -------
 
 Gerard
 ------
-Life: 6
-Discard 1: Avaricious Dash
-Discard 2: Initiation Grasp
-Gold: 2
+Life: 8
+Discard 1: Avaricious Grasp
+Discard 2: Gilded Dash
+Special action available
+Gold: 3
 Mercenaries in play:
-  Archer
   Brawler
-  Mage
+  Archer
+  Gunslinger
+  Heavy Knight
 
 Karin
 -----
-Life: 8
-Discard 1: Coordinated Dash
-Discard 2: Howling Claw
+Life: 5
+Discard 1: Howling Claw
+Discard 2: Feral Dash
+Special action available
 
 
-.GK....
-....j..
-
-Unbeatable strategy for Karin: Full Moon Drive: -2.05
+..GK...
+.j.....
 
 
 Gerard:
-3% Villainous Drive
-81% Gilded Strike
-16% Gilded Burst
+1% Villainous Strike (Activate Heavy Knight)
+22% Villainous Burst
+8% Villainous Burst (Activate Heavy Knight)
+26% Hooked Shot
+43% Initiation Drive (Activate Gunslinger)
 
 Karin:
-32% Full Moon Shot
-61% Full Moon Drive
-6% Full Moon Burst
+26% Coordinated Strike
+40% Coordinated Drive
+5% Coordinated Grasp
+4% Full Moon Drive
+25% Special Red Moon Rage
 
 
-Gerard: Gilded Strike
-Karin: Full Moon Drive
+Gerard: Villainous Burst
+Karin: Special Red Moon Rage
 
-Priorities:  2 | 5
+Priorities:  1 | 12
 Karin is active
-Karin moves:
+Gerard moves:
 
-KG.....
-....j..
+G..K...
+.j.....
 
-Karin hits
-Gerard takes 5 damage (now at 1 life)
+Karin misses
 Gerard hits
-Karin takes 4 damage (now at 4 life)
+Gerard moves Karin:
+
+G....K.
+.j.....
+
+Karin takes 4 damage (now at 1 life)
 Karin is stunned
-Karin loses 1 life (now at 3)
-Gerard gains 1 Gold Token (has 3)
+Gerard moves:
+
+.G...K.
+.j.....
+
+Gerard gains 1 Gold Token (has 4)
 
 Beat 10
 -------
 
 Gerard
 ------
-Life: 1
-Discard 1: Gilded Strike
-Discard 2: Avaricious Dash
-Gold: 3
+Life: 8
+Discard 1: Villainous Burst
+Discard 2: Avaricious Grasp
+Special action available
+Gold: 4
 Mercenaries in play:
-  Archer
   Brawler
-  Mage
+  Archer
+  Gunslinger
+  Heavy Knight
 
 Karin
 -----
-Life: 3
-Discard 1: Full Moon Drive
-Discard 2: Coordinated Dash
+Life: 1
+Discard 1: Howling Claw
+Discard 2: Feral Dash
 
 
-KG.....
-....j..
+.G...K.
+.j.....
 
 
 Gerard:
-74% Initiation Drive (Activate Mage)
-19% Initiation Burst (Activate Mage)
-7% Initiation Grasp (Activate Mage)
+49% Gilded Shot
+51% Gilded Drive
 
 Karin:
-3% Howling Claw
-2% Feral Claw
-19% Feral Burst
-74% Feral Grasp
-2% Dual Claw
+51% Coordinated Strike
+49% Coordinated Burst
 
 
-Gerard: Initiation Drive (Activate Mage)
-Karin: Feral Grasp
+Gerard: Gilded Drive
+Karin: Coordinated Burst
 
-Gerard activates his Mage for 3 gold (0 remaining)
-Priorities:  6 | 6
-Clash!
-
-
-Gerard: Initiation Larceny (Activate Mage)
-Karin: Feral Claw
-
-Gerard activates his Mage for 3 gold (0 remaining)
-Priorities:  5 | 5
-Clash!
-
-
-Gerard: Initiation Burst (Activate Mage)
-Karin: Feral Strike
-
-Gerard activates his Mage for 3 gold (0 remaining)
-Priorities:  3 | 4
-Karin is active
+Priorities:  3 | 1
+Gerard is active
 Karin moves:
 
-.GK....
-....j..
+.G....K
+.j.....
+
+Gerard moves Karin:
+
+.G...K.
+.j.....
 
 Gerard moves:
 
-G.K....
-....j..
+...G.K.
+.j.....
 
-Karin misses
 Gerard hits
-First hireling next beat will cost 2 gold less
-Karin takes 4 damage (now at 0 life)
+Karin takes 3 damage (now at 0 life)
 GERARD WINS!
-total_time: 244
+total_time: 246

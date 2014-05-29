@@ -11,44 +11,42 @@ Beat 1
 
 Magdelina
 ---------
-life: 20
-discard 1: Spiritual Drive
-discard 2: Sanctimonious Grasp
-special action
+Life: 20
+Discard 1: Spiritual Drive
+Discard 2: Sanctimonious Grasp
+Special action available
 Level: 0
 Trance: 0
 
 Zaamassal
 ---------
-life: 20
-discard 1: Malicious Grasp
-discard 2: Sinuous Burst
-special action
+Life: 20
+Discard 1: Malicious Grasp
+Discard 2: Sinuous Burst
+Special action available
 Active paradigm: None
 
 
 .M...Z.
 
-Unbeatable strategy for Magdelina: Safety Shot: 0.18
-Unbeatable strategy for Magdelina: Safety Dash: 1.58
-Unbeatable strategy for Magdelina: Priestess Dash: 1.11
-Unbeatable strategy for Magdelina: Excelsius Dash: 1.05
+Unbeatable strategy for Magdelina: Safety Dash: 0.86
+Unbeatable strategy for Magdelina: Priestess Dash: 0.86
+Unbeatable strategy for Magdelina: Excelsius Dash: 0.99
+
 
 Magdelina:
-80% Safety Dash
-12% Priestess Strike
-8% Excelsius Dash
+28% Excelsius Strike
+72% Excelsius Dash
 
 Zaamassal:
-21% Warped Paradigm Shift
-78% Warped Shot
-1% Warped Drive
+3% Warped Paradigm Shift
+97% Warped Shot
 
 
-Magdelina: Safety Dash
-Zaamassal: Warped Paradigm Shift
+Magdelina: Excelsius Dash
+Zaamassal: Warped Shot
 
-Priorities:  8 | 3
+Priorities:  8 | 2
 Magdelina is active
 Zaamassal moves:
 
@@ -56,10 +54,15 @@ Zaamassal moves:
 
 Magdelina moves:
 
-M.....Z
+..M...Z
 
-Zaamassal misses
-Zaamassal assumes the Paradigm of Distortion
+Magdelina moves:
+
+.....MZ
+
+Zaamassal hits
+Magdelina takes 3 damage (now at 17 life)
+Magdelina is stunned
 Magdelina gains a Trance counter: has 1
 Magdelina discards all Trance counters
 Magdelina gains a Level: has 1
@@ -69,63 +72,55 @@ Beat 2
 
 Magdelina
 ---------
-life: 20
-discard 1: Safety Dash
-discard 2: Spiritual Drive
-special action
+Life: 17
+Discard 1: Excelsius Dash
+Discard 2: Spiritual Drive
+Special action available
 Level: 1
 Trance: 0
 
 Zaamassal
 ---------
-life: 20
-discard 1: Warped Paradigm Shift
-discard 2: Malicious Grasp
-special action
-Active paradigm: Distortion
+Life: 20
+Discard 1: Warped Shot
+Discard 2: Malicious Grasp
+Special action available
+Active paradigm: None
 
 
-M.....Z
+.....MZ
 
-Unbeatable strategy for Magdelina: Sanctimonious Burst: 0.95
 
 Magdelina:
-86% Priestess Strike
-14% Priestess Shot
+66% Priestess Blessing
+6% Priestess Burst
+19% Priestess Grasp
+10% Sanctimonious Blessing
 
 Zaamassal:
-56% Urgent Shot
-44% Urgent Burst
-
-
-Magdelina: Priestess Strike
-Zaamassal: Urgent Burst
-
-Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  3 | 3
-Clash!
-
-Magdelina:
-100% Priestess Blessing
-
-Zaamassal:
-100% Urgent Shot
+21% Sinuous Strike
+59% Sinuous Dash
+19% Sturdy Paradigm Shift
+1% Sturdy Strike
 
 
 Magdelina: Priestess Blessing
-Zaamassal: Urgent Shot
+Zaamassal: Sinuous Dash
 
-Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  3 | 4
+Magdelina gets a +1 bonus to power, priority and stunguard
+Priorities:  3 | 10
 Zaamassal is active
+Zaamassal assumes the Paradigm of Fluidity
 Zaamassal moves:
 
-M....Z.
+..Z..M.
 
-Zaamassal hits
-Magdelina takes 2 damage (now at 18 life)
 Magdelina misses
-Magdelina gains 1 life (now at 19)
+Magdelina gains 1 life (now at 18)
+Zaamassal moves:
+
+Z....M.
+
 Magdelina gains a Trance counter: has 1
 
 Beat 3
@@ -133,52 +128,52 @@ Beat 3
 
 Magdelina
 ---------
-life: 19
-discard 1: Priestess Blessing
-discard 2: Safety Dash
-special action
+Life: 18
+Discard 1: Priestess Blessing
+Discard 2: Excelsius Dash
+Special action available
 Level: 1
 Trance: 1
 
 Zaamassal
 ---------
-life: 20
-discard 1: Urgent Shot
-discard 2: Warped Paradigm Shift
-special action
-Active paradigm: Distortion
+Life: 20
+Discard 1: Sinuous Dash
+Discard 2: Warped Shot
+Special action available
+Active paradigm: Fluidity
 
 
-M....Z.
+Z....M.
+
 
 Magdelina:
-88% Excelsius Strike
-12% Excelsius Drive
+33% Safety Shot
+45% Safety Grasp
+22% Sanctimonious Shot
 
 Zaamassal:
-12% Sinuous Drive
-88% Sturdy Drive
+22% Urgent Paradigm Shift
+18% Urgent Drive
+60% Sturdy Burst
 
 
-Magdelina: Excelsius Strike
-Zaamassal: Sturdy Drive
+Magdelina: Sanctimonious Shot
+Zaamassal: Sturdy Burst
 
-Magdelina gets a +1 bonus to power, priority and stungard
-Priorities:  3 | 4
-Zaamassal is active
-Zaamassal moves:
+Magdelina gets a +1 bonus to power, priority and stunguard
+Priorities:  1 | 1
+Clash!
 
-M..Z...
 
-Zaamassal hits
-Magdelina takes 3 damage (now at 16 life)
-Zaamassal assumes the Paradigm of Resilience
-Magdelina moves:
+Magdelina: Sanctimonious Grasp
+Zaamassal: Sturdy Strike
 
-.M.Z...
-
-Magdelina hits
-Zaamassal takes 4 damage (now at 16 life)
+Magdelina gets a +1 bonus to power, priority and stunguard
+Priorities:  4 | 3
+Magdelina is active
+Magdelina misses
+Zaamassal misses
 Magdelina gains a Trance counter: has 2
 Magdelina discards all Trance counters
 Magdelina gains a Level: has 2
@@ -188,53 +183,52 @@ Beat 4
 
 Magdelina
 ---------
-life: 16
-discard 1: Excelsius Strike
-discard 2: Priestess Blessing
-special action
+Life: 18
+Discard 1: Sanctimonious Grasp
+Discard 2: Priestess Blessing
+Special action available
 Level: 2
 Trance: 0
 
 Zaamassal
 ---------
-life: 16
-discard 1: Sturdy Drive
-discard 2: Urgent Shot
-special action
-Active paradigm: Resilience
+Life: 20
+Discard 1: Sturdy Strike
+Discard 2: Sinuous Dash
+Special action available
+Active paradigm: Fluidity
 
 
-.M.Z...
+Z....M.
+
+Unbeatable strategy for Magdelina: Safety Dash: 0.65
+Unbeatable strategy for Magdelina: Spiritual Dash: 0.80
+Unbeatable strategy for Magdelina: Excelsius Dash: 0.73
+
 
 Magdelina:
-9% Spiritual Dash
-42% Sanctimonious Drive
-49% Sanctimonious Grasp
+62% Safety Burst
+17% Excelsius Shot
+21% Excelsius Drive
 
 Zaamassal:
-2% Sinuous Dash
-77% Warped Strike
-22% Warped Burst
+44% Malicious Shot
+52% Urgent Paradigm Shift
+4% Warped Paradigm Shift
 
 
-Magdelina: Sanctimonious Grasp
-Zaamassal: Warped Strike
+Magdelina: Excelsius Shot
+Zaamassal: Malicious Shot
 
-Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  5 | 3
+Magdelina gets a +2 bonus to power, priority and stunguard
+Priorities:  3 | 1
 Magdelina is active
-Zaamassal moves:
+Magdelina moves:
 
-.M..Z..
+Z.....M
 
-Magdelina hits
-Magdelina moves Zaamassal:
-
-.M...Z.
-
-Zaamassal takes 3 damage (now at 13 life)
+Magdelina misses
 Zaamassal misses
-Zaamassal assumes the Paradigm of Distortion
 Magdelina gains a Trance counter: has 1
 
 Beat 5
@@ -242,50 +236,59 @@ Beat 5
 
 Magdelina
 ---------
-life: 16
-discard 1: Sanctimonious Grasp
-discard 2: Excelsius Strike
-special action
+Life: 18
+Discard 1: Excelsius Shot
+Discard 2: Sanctimonious Grasp
+Special action available
 Level: 2
 Trance: 1
 
 Zaamassal
 ---------
-life: 13
-discard 1: Warped Strike
-discard 2: Sturdy Drive
-special action
-Active paradigm: Distortion
+Life: 20
+Discard 1: Malicious Shot
+Discard 2: Sturdy Strike
+Special action available
+Active paradigm: Fluidity
 
 
-.M...Z.
+Z.....M
+
 
 Magdelina:
-11% Priestess Drive
-66% Priestess Dash
-23% Spiritual Drive
+50% Priestess Blessing
+50% Priestess Strike
 
 Zaamassal:
-43% Sinuous Shot
-12% Urgent Paradigm Shift
-45% Urgent Grasp
+50% Warped Drive
+50% Warped Burst
 
 
-Magdelina: Priestess Dash
-Zaamassal: Sinuous Shot
+Magdelina: Priestess Strike
+Zaamassal: Warped Drive
 
-Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  10 | 3
+Magdelina gets a +2 bonus to power, priority and stunguard
+Priorities:  4 | 4
+Clash!
+
+
+Magdelina: Priestess Blessing
+Zaamassal: Warped Burst
+
+Magdelina gets a +2 bonus to power, priority and stunguard
+Priorities:  4 | 1
 Magdelina is active
-Magdelina gains 1 life (now at 17)
-Magdelina moves:
-
-M....Z.
-
-Zaamassal misses
+Magdelina misses
+Magdelina gains 1 life (now at 19)
 Zaamassal moves:
 
-M.....Z
+.Z....M
+
+Zaamassal hits
+Magdelina takes 3 damage (now at 16 life)
+Zaamassal moves:
+
+Z.....M
 
 Magdelina gains a Trance counter: has 2
 
@@ -294,63 +297,66 @@ Beat 6
 
 Magdelina
 ---------
-life: 17
-discard 1: Priestess Dash
-discard 2: Sanctimonious Grasp
-special action
+Life: 16
+Discard 1: Priestess Blessing
+Discard 2: Excelsius Shot
+Special action available
 Level: 2
 Trance: 2
 
 Zaamassal
 ---------
-life: 13
-discard 1: Sinuous Shot
-discard 2: Warped Strike
-special action
-Active paradigm: Distortion
+Life: 20
+Discard 1: Warped Burst
+Discard 2: Malicious Shot
+Special action available
+Active paradigm: Fluidity
 
 
-M.....Z
+Z.....M
+
+Unbeatable strategy for Magdelina: Safety Burst: 0.80
+Unbeatable strategy for Magdelina: Sanctimonious Burst: 0.09
+
 
 Magdelina:
-49% Safety Strike
-38% Safety Shot
-14% Excelsius Drive
+56% Safety Drive
+44% Safety Burst
 
 Zaamassal:
-47% Malicious Drive
-22% Urgent Drive
-30% Sturdy Drive
+56% Urgent Paradigm Shift
+44% Urgent Strike
 
 
-Magdelina: Safety Strike
-Zaamassal: Sturdy Drive
+Magdelina: Safety Drive
+Zaamassal: Urgent Strike
 
-Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  4 | 4
+Magdelina gets a +2 bonus to power, priority and stunguard
+Priorities:  5 | 5
 Clash!
 
-Magdelina:
-58% Safety Blessing
-42% Safety Drive
 
-Zaamassal:
-21% Sturdy Paradigm Shift
-13% Sturdy Burst
-67% Sturdy Dash
+Magdelina: Safety Burst
+Zaamassal: Urgent Paradigm Shift
 
-
-Magdelina: Safety Blessing
-Zaamassal: Sturdy Dash
-
-Magdelina gets a +2 bonus to power, priority and stungard
-Priorities:  4 | 9
+Magdelina gets a +2 bonus to power, priority and stunguard
+Priorities:  2 | 5
 Zaamassal is active
 Zaamassal moves:
 
-M...Z..
+.Z....M
 
+Zaamassal moves:
+
+..Z...M
+
+Zaamassal hits
+Magdelina takes 2 damage (now at 14 life)
 Magdelina misses
+Zaamassal moves:
+
+...Z..M
+
 Magdelina gains a Trance counter: has 3
 Magdelina discards all Trance counters
 Magdelina gains a Level: has 3
@@ -360,57 +366,56 @@ Beat 7
 
 Magdelina
 ---------
-life: 17
-discard 1: Safety Blessing
-discard 2: Priestess Dash
-special action
+Life: 14
+Discard 1: Safety Burst
+Discard 2: Priestess Blessing
+Special action available
 Level: 3
 Trance: 0
 
 Zaamassal
 ---------
-life: 13
-discard 1: Sturdy Dash
-discard 2: Sinuous Shot
-special action
-Active paradigm: Distortion
+Life: 20
+Discard 1: Urgent Paradigm Shift
+Discard 2: Warped Burst
+Special action available
+Active paradigm: Fluidity
 
 
-M...Z..
+...Z..M
+
 
 Magdelina:
-6% Sanctimonious Shot
-10% Excelsius Shot
-61% Excelsius Drive
-23% Excelsius Burst
+16% Sanctimonious Strike
+84% Sanctimonious Shot
 
 Zaamassal:
-15% Malicious Burst
-9% Urgent Strike
-50% Urgent Burst
-27% Warped Burst
+5% Sturdy Strike
+95% Sturdy Drive
 
 
-Magdelina: Excelsius Drive
-Zaamassal: Urgent Burst
+Magdelina: Sanctimonious Shot
+Zaamassal: Sturdy Drive
 
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  6 | 3
-Magdelina is active
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  3 | 4
+Zaamassal is active
 Zaamassal moves:
 
-M.....Z
+....Z.M
 
-Magdelina moves:
+Zaamassal moves:
 
-.M....Z
+.....ZM
 
-Magdelina moves:
+Zaamassal hits
+Magdelina takes 3 damage (now at 11 life)
+Magdelina hits
+Zaamassal takes 5 damage (now at 15 life)
+Zaamassal moves:
 
-M.....Z
+....Z.M
 
-Magdelina misses
-Zaamassal misses
 Magdelina gains a Trance counter: has 1
 
 Beat 8
@@ -418,43 +423,60 @@ Beat 8
 
 Magdelina
 ---------
-life: 17
-discard 1: Excelsius Drive
-discard 2: Safety Blessing
-special action
+Life: 11
+Discard 1: Sanctimonious Shot
+Discard 2: Safety Burst
+Special action available
 Level: 3
 Trance: 1
 
 Zaamassal
 ---------
-life: 13
-discard 1: Urgent Burst
-discard 2: Sturdy Dash
-special action
-Active paradigm: Distortion
+Life: 15
+Discard 1: Sturdy Drive
+Discard 2: Urgent Paradigm Shift
+Special action available
+Active paradigm: Fluidity
 
 
-M.....Z
+....Z.M
+
 
 Magdelina:
-72% Priestess Grasp
-28% Spiritual Shot
+43% Excelsius Strike
+57% Excelsius Drive
 
 Zaamassal:
-72% Sinuous Drive
-28% Warped Shot
+38% Sinuous Burst
+62% Sinuous Grasp
 
 
-Magdelina: Priestess Grasp
-Zaamassal: Warped Shot
+Magdelina: Excelsius Drive
+Zaamassal: Sinuous Burst
 
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  7 | 2
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  6 | 2
 Magdelina is active
-Magdelina misses
-Magdelina gains 1 life (now at 18)
-Zaamassal hits
-Magdelina takes 3 damage (now at 15 life)
+Zaamassal moves:
+
+...Z..M
+
+Magdelina moves:
+
+...Z.M.
+
+Magdelina moves:
+
+..MZ...
+
+Magdelina hits
+Zaamassal takes 5 damage (now at 10 life)
+Zaamassal is stunned
+Zaamassal loses all paradigms
+Zaamassal moves:
+
+..M...Z
+
 Magdelina gains a Trance counter: has 2
 
 Beat 9
@@ -462,94 +484,104 @@ Beat 9
 
 Magdelina
 ---------
-life: 15
-discard 1: Priestess Grasp
-discard 2: Excelsius Drive
-special action
+Life: 11
+Discard 1: Excelsius Drive
+Discard 2: Sanctimonious Shot
+Special action available
 Level: 3
 Trance: 2
 
 Zaamassal
 ---------
-life: 13
-discard 1: Warped Shot
-discard 2: Urgent Burst
-special action
-Active paradigm: Distortion
+Life: 10
+Discard 1: Sinuous Burst
+Discard 2: Sturdy Drive
+Special action available
+Active paradigm: None
 
 
-M.....Z
+..M...Z
+
 
 Magdelina:
-28% Safety Shot
-50% Spiritual Shot
-22% Spiritual Burst
+41% Safety Grasp
+59% Priestess Dash
 
 Zaamassal:
-92% Sinuous Drive
-8% Sturdy Drive
+14% Warped Paradigm Shift
+86% Warped Shot
 
 
-Magdelina: Spiritual Shot
-Zaamassal: Sinuous Drive
+Magdelina: Priestess Dash
+Zaamassal: Warped Shot
 
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  3 | 5
-Zaamassal is active
-Zaamassal moves:
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  11 | 2
+Magdelina is active
+Magdelina gains 1 life (now at 12)
+Magdelina moves:
 
-M...Z..
+....M.Z
 
-Zaamassal misses
-Magdelina misses
-Zaamassal moves:
-
-M.....Z
-
-Magdelina gains a Trance counter: has 2
+Zaamassal hits
+Magdelina takes 3 damage (now at 9 life)
+Magdelina gains a Trance counter: has 3
 
 Beat 10
 -------
 
 Magdelina
 ---------
-life: 15
-discard 1: Spiritual Shot
-discard 2: Priestess Grasp
-special action
+Life: 9
+Discard 1: Priestess Dash
+Discard 2: Excelsius Drive
+Special action available
 Level: 3
-Trance: 2
+Trance: 3
 
 Zaamassal
 ---------
-life: 13
-discard 1: Sinuous Drive
-discard 2: Warped Shot
-special action
-Active paradigm: Distortion
+Life: 10
+Discard 1: Warped Shot
+Discard 2: Sinuous Burst
+Special action available
+Active paradigm: None
 
 
-M.....Z
+....M.Z
+
+Unbeatable strategy for Zaamassal: Urgent Dash: -0.21
+Unbeatable strategy for Zaamassal: Sturdy Paradigm Shift: -1.02
+Unbeatable strategy for Zaamassal: Sturdy Drive: -0.51
+Unbeatable strategy for Zaamassal: Sturdy Dash: -0.25
+
 
 Magdelina:
-75% Safety Strike
-25% Sanctimonious Burst
+47% Safety Burst
+43% Spiritual Strike
+10% Spiritual Shot
 
 Zaamassal:
-2% Malicious Paradigm Shift
-3% Malicious Strike
-95% Urgent Strike
+4% Urgent Drive
+63% Sturdy Paradigm Shift
+33% Sturdy Drive
 
 
-Magdelina: Sanctimonious Burst
-Zaamassal: Urgent Strike
+Magdelina: Spiritual Strike
+Zaamassal: Sturdy Paradigm Shift
 
-Magdelina gets a +3 bonus to power, priority and stungard
-Priorities:  2 | 5
-Zaamassal is active
-Zaamassal misses
+Magdelina gets a +3 bonus to power, priority and stunguard
+Priorities:  4 | 3
+Magdelina is active
 Magdelina hits
-Zaamassal takes 5 damage (now at 8 life)
+Zaamassal takes 6 damage (now at 4 life)
+Zaamassal hits
+Magdelina takes 3 damage (now at 6 life)
+Zaamassal assumes the Paradigm of Fluidity
+Zaamassal moves:
+
+....MZ.
+
 Magdelina gains a Trance counter: has 3
 
 Beat 11
@@ -557,107 +589,56 @@ Beat 11
 
 Magdelina
 ---------
-life: 15
-discard 1: Sanctimonious Burst
-discard 2: Spiritual Shot
-special action
+Life: 6
+Discard 1: Spiritual Strike
+Discard 2: Priestess Dash
+Special action available
 Level: 3
 Trance: 3
 
 Zaamassal
 ---------
-life: 8
-discard 1: Urgent Strike
-discard 2: Sinuous Drive
-special action
-Active paradigm: Distortion
+Life: 4
+Discard 1: Sturdy Paradigm Shift
+Discard 2: Warped Shot
+Special action available
+Active paradigm: Fluidity
 
 
-M.....Z
+....MZ.
+
 
 Magdelina:
-9% Safety Drive
-2% Priestess Strike
-7% Priestess Grasp
-81% Special Pulse
+70% Safety Grasp
+30% Excelsius Grasp
 
 Zaamassal:
-67% Warped Paradigm Shift
-30% Warped Shot
-3% Special Pulse
+0% Malicious Burst
+100% Sinuous Dash
 
 
-Magdelina: Special Pulse
-Zaamassal: Warped Paradigm Shift
-
-Magdelina gets a +3 bonus to power, priority and stungard
-Pulse:
-
-MZ.....
-
-
-Beat 11
--------
-
-Magdelina
----------
-life: 15
-discard 1: Sanctimonious Burst
-discard 2: Spiritual Shot
-Level: 3
-Trance: 3
-
-Zaamassal
----------
-life: 8
-discard 1: Warped Paradigm Shift
-discard 2: Urgent Strike
-special action
-Active paradigm: Distortion
-
-
-MZ.....
-
-Unbeatable strategy for Zaamassal: Malicious Burst: -0.26
-Unbeatable strategy for Zaamassal: Malicious Dash: -0.80
-Unbeatable strategy for Zaamassal: Sinuous Drive: -0.58
-Unbeatable strategy for Zaamassal: Sinuous Burst: -0.44
-Unbeatable strategy for Zaamassal: Sinuous Grasp: -0.80
-Unbeatable strategy for Zaamassal: Sinuous Dash: -0.84
-Unbeatable strategy for Zaamassal: Sturdy Shot: -1.87
-Unbeatable strategy for Zaamassal: Sturdy Drive: -1.84
-Unbeatable strategy for Zaamassal: Sturdy Burst: -1.76
-Unbeatable strategy for Zaamassal: Sturdy Grasp: -1.84
-Unbeatable strategy for Zaamassal: Sturdy Dash: -1.73
-
-Magdelina:
-44% Priestess Drive
-26% Priestess Grasp
-23% Priestess Dash
-7% Excelsius Drive
-
-Zaamassal:
-14% Sinuous Burst
-32% Sinuous Grasp
-26% Sinuous Dash
-28% Sturdy Shot
-
-
-Magdelina: Priestess Grasp
+Magdelina: Safety Grasp
 Zaamassal: Sinuous Dash
 
-Magdelina gets a +3 bonus to power, priority and stungard
+Magdelina gets a +3 bonus to power, priority and stunguard
 Priorities:  7 | 10
 Zaamassal is active
 Zaamassal moves:
 
-M.Z....
+...ZM..
 
-Magdelina misses
-Magdelina gains 1 life (now at 16)
 Zaamassal moves:
 
-M.....Z
+Z...M..
+
+Magdelina misses
+Zaamassal moves:
+
+.Z..M..
+
+Zaamassal moves:
+
+Z...M..
 
 Magdelina gains a Trance counter: has 4
 Magdelina discards all Trance counters
@@ -668,234 +649,93 @@ Beat 12
 
 Magdelina
 ---------
-life: 16
-discard 1: Priestess Grasp
-discard 2: Sanctimonious Burst
+Life: 6
+Discard 1: Safety Grasp
+Discard 2: Spiritual Strike
+Special action available
 Level: 4
 Trance: 0
 
 Zaamassal
 ---------
-life: 8
-discard 1: Sinuous Dash
-discard 2: Warped Paradigm Shift
-special action
-Active paradigm: Distortion
+Life: 4
+Discard 1: Sinuous Dash
+Discard 2: Sturdy Paradigm Shift
+Special action available
+Active paradigm: Fluidity
 
+
+Z...M..
+
+
+Magdelina:
+2% Priestess Blessing
+31% Priestess Shot
+68% Excelsius Drive
+
+Zaamassal:
+2% Urgent Grasp
+4% Warped Grasp
+94% Special Pulse
+
+
+Magdelina: Excelsius Drive
+Zaamassal: Special Pulse
+
+Magdelina gets a +4 bonus to power, priority and stunguard
+Zaamassal Pulses:
+
+.M....Z
+
+
+Beat 12
+-------
+
+Magdelina
+---------
+Life: 6
+Discard 1: Excelsius Drive
+Discard 2: Safety Grasp
+Special action available
+Level: 4
+Trance: 0
+
+Zaamassal
+---------
+Life: 4
+Discard 1: Sinuous Dash
+Discard 2: Sturdy Paradigm Shift
+Active paradigm: Fluidity
+
+
+.M....Z
+
+
+Magdelina:
+51% Sanctimonious Strike
+49% Sanctimonious Burst
+
+Zaamassal:
+49% Warped Drive
+51% Warped Grasp
+
+
+Magdelina: Sanctimonious Burst
+Zaamassal: Warped Grasp
+
+Magdelina gets a +4 bonus to power, priority and stunguard
+Priorities:  3 | 5
+Zaamassal is active
+Magdelina moves:
 
 M.....Z
 
-Unbeatable strategy for Magdelina: Safety Dash: 0.02
-Unbeatable strategy for Magdelina: Excelsius Dash: 0.68
-
-Magdelina:
-85% Safety Strike
-4% Spiritual Blessing
-11% Excelsius Shot
-
-Zaamassal:
-17% Urgent Shot
-44% Urgent Drive
-39% Sturdy Drive
-
-
-Magdelina: Safety Strike
-Zaamassal: Sturdy Drive
-
-Magdelina gets a +4 bonus to power, priority and stungard
-Priorities:  6 | 4
-Magdelina is active
-Magdelina misses
 Zaamassal moves:
 
-M...Z..
+M....Z.
 
 Zaamassal misses
-Magdelina gains a Trance counter: has 1
-
-Beat 13
--------
-
-Magdelina
----------
-life: 16
-discard 1: Safety Strike
-discard 2: Priestess Grasp
-Level: 4
-Trance: 1
-
-Zaamassal
----------
-life: 8
-discard 1: Sturdy Drive
-discard 2: Sinuous Dash
-special action
-Active paradigm: Distortion
-
-
-M...Z..
-
-Unbeatable strategy for Magdelina: Sanctimonious Drive: 0.69
-
-Magdelina:
-78% Sanctimonious Drive
-10% Excelsius Blessing
-0% Excelsius Drive
-11% Excelsius Burst
-
-Zaamassal:
-70% Malicious Strike
-27% Urgent Burst
-2% Warped Paradigm Shift
-2% Warped Shot
-
-
-Magdelina: Sanctimonious Drive
-Zaamassal: Malicious Strike
-
-Magdelina gets a +4 bonus to power, priority and stungard
-Priorities:  6 | 2
-Magdelina is active
-Magdelina moves:
-
-..M.Z..
-
 Magdelina hits
-Zaamassal takes 6 damage (now at 2 life)
-Zaamassal misses
-Zaamassal assumes the Paradigm of Pain
-Magdelina gains a Trance counter: has 2
-
-Beat 14
--------
-
-Magdelina
----------
-life: 16
-discard 1: Sanctimonious Drive
-discard 2: Safety Strike
-Level: 4
-Trance: 2
-
-Zaamassal
----------
-life: 2
-discard 1: Malicious Strike
-discard 2: Sturdy Drive
-special action
-Active paradigm: Pain
-
-
-..M.Z..
-
-Magdelina:
-21% Priestess Burst
-45% Priestess Dash
-14% Spiritual Dash
-20% Excelsius Shot
-
-Zaamassal:
-37% Sinuous Dash
-1% Warped Paradigm Shift
-2% Warped Grasp
-59% Warped Dash
-
-
-Magdelina: Priestess Dash
-Zaamassal: Warped Dash
-
-Magdelina gets a +4 bonus to power, priority and stungard
-Priorities:  12 | 9
-Magdelina is active
-Zaamassal moves:
-
-..M..Z.
-
-Magdelina gains 1 life (now at 17)
-Magdelina moves:
-
-...M.Z.
-
-Zaamassal assumes the Paradigm of Distortion
-Zaamassal moves:
-
-...M..Z
-
-Magdelina gains a Trance counter: has 3
-
-Beat 15
--------
-
-Magdelina
----------
-life: 17
-discard 1: Priestess Dash
-discard 2: Sanctimonious Drive
-Level: 4
-Trance: 3
-
-Zaamassal
----------
-life: 2
-discard 1: Warped Dash
-discard 2: Malicious Strike
-special action
-Active paradigm: Distortion
-
-
-...M..Z
-
-Unbeatable strategy for Magdelina: Safety Grasp: 7.00
-Unbeatable strategy for Magdelina: Excelsius Grasp: 7.00
-
-Magdelina:
-7% Safety Blessing
-7% Safety Strike
-7% Safety Shot
-7% Safety Burst
-6% Safety Grasp
-7% Spiritual Blessing
-7% Spiritual Strike
-7% Spiritual Shot
-7% Spiritual Burst
-7% Spiritual Grasp
-6% Excelsius Blessing
-6% Excelsius Strike
-6% Excelsius Shot
-7% Excelsius Burst
-6% Excelsius Grasp
-
-Zaamassal:
-6% Sinuous Paradigm Shift
-6% Sinuous Shot
-6% Sinuous Drive
-6% Sinuous Burst
-6% Sinuous Grasp
-6% Urgent Paradigm Shift
-6% Urgent Shot
-6% Urgent Drive
-6% Urgent Burst
-6% Urgent Grasp
-6% Sturdy Paradigm Shift
-6% Sturdy Shot
-6% Sturdy Drive
-6% Sturdy Burst
-6% Sturdy Grasp
-6% Special Open the Gate
-6% Special Plane Divider
-
-
-Magdelina: Spiritual Grasp
-Zaamassal: Urgent Shot
-
-Magdelina gets a +4 bonus to power, priority and stungard
-Priorities:  6 | 4
-Magdelina is active
-Magdelina hits
-Magdelina moves Zaamassal:
-
-...M.Z.
-
-Zaamassal takes 4 damage (now at 0 life)
+Zaamassal takes 6 damage (now at 0 life)
 MAGDELINA WINS!
-total_time: 17
+total_time: 59

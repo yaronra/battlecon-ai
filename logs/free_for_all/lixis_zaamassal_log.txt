@@ -11,155 +11,173 @@ Beat 1
 
 Lixis
 -----
-life: 20
-discard 1: Pruning Grasp
-discard 2: Rooted Strike
-special action
+Life: 20
+Discard 1: Pruning Grasp
+Discard 2: Rooted Strike
+Special action available
 
 Zaamassal
 ---------
-life: 20
-discard 1: Malicious Grasp
-discard 2: Sinuous Burst
-special action
+Life: 20
+Discard 1: Malicious Grasp
+Discard 2: Sinuous Burst
+Special action available
 Active paradigm: None
 
 
 .L...Z.
 
+Unbeatable strategy for Zaamassal: Urgent Dash: -0.03
+
+
 Lixis:
-9% Venomous Lance
-1% Venomous Shot
-44% Vine Shot
-46% Vine Drive
+6% Venomous Shot
+50% Vine Shot
+44% Vine Drive
 
 Zaamassal:
-9% Urgent Paradigm Shift
-70% Urgent Dash
-18% Warped Shot
-3% Warped Drive
+24% Urgent Paradigm Shift
+71% Warped Shot
+5% Warped Drive
 
 
-Lixis: Vine Shot
-Zaamassal: Urgent Dash
+Lixis: Vine Drive
+Zaamassal: Urgent Paradigm Shift
 
-Priorities:  0 | 11
+Priorities:  2 | 5
 Zaamassal is active
 Zaamassal moves:
 
 .L..Z..
 
-Zaamassal assumes the Paradigm of Haste
-Zaamassal moves:
+Zaamassal hits
+Lixis takes 2 damage (now at 18 life)
+Zaamassal assumes the Paradigm of Pain
+Lixis moves:
 
-ZL.....
+...LZ..
 
-Lixis misses
+Lixis hits
+Lixis moves Zaamassal:
+
+.Z.L...
+
+Zaamassal discards Drive
+Zaamassal takes 3 damage (now at 17 life)
+Zaamassal is stunned
+Zaamassal loses all paradigms
 
 Beat 2
 -------
 
 Lixis
 -----
-life: 20
-discard 1: Vine Shot
-discard 2: Pruning Grasp
-special action
+Life: 18
+Discard 1: Vine Drive
+Discard 2: Pruning Grasp
+Special action available
 
 Zaamassal
 ---------
-life: 20
-discard 1: Urgent Dash
-discard 2: Malicious Grasp
-special action
-Active paradigm: Haste
+Life: 17
+Discard 1: Urgent Paradigm Shift Drive
+Discard 2: Malicious Grasp
+Special action available
+Active paradigm: None
 
 
-ZL.....
+.Z.L...
 
-Unbeatable strategy for Lixis: Venomous Strike: 2.06
+Unbeatable strategy for Lixis: Venomous Lance: 0.09
+
 
 Lixis:
-65% Venomous Strike
-35% Rooted Strike
+49% Venomous Lance
+16% Venomous Burst
+36% Rooted Shot
 
 Zaamassal:
-79% Sinuous Strike
-21% Sturdy Drive
+14% Sinuous Dash
+8% Sturdy Shot
+78% Sturdy Burst
 
 
-Lixis: Venomous Strike
-Zaamassal: Sinuous Strike
+Lixis: Venomous Burst
+Zaamassal: Sturdy Burst
 
-Priorities:  3 | 4
-Zaamassal is active
-Zaamassal hits
-Lixis takes 4 damage (now at 16 life)
-Zaamassal assumes the Paradigm of Fluidity
+Priorities:  1 | 1
+Clash!
+
+
+Lixis: Venomous Lance
+Zaamassal: Sturdy Shot
+
+Priorities:  5 | 2
+Lixis is active
 Lixis hits
-Zaamassal discards Drive
-Zaamassal takes 5 damage (now at 15 life)
-Zaamassal moves:
-
-.L....Z
-
+Zaamassal will have -2 priority next beat
+Zaamassal discards Strike
+Zaamassal takes 4 damage (now at 13 life)
+Zaamassal hits
+Lixis takes 3 damage (now at 15 life)
+Lixis is stunned
+Zaamassal assumes the Paradigm of Resilience
 
 Beat 3
 -------
 
 Lixis
 -----
-life: 16
-discard 1: Venomous Strike
-discard 2: Vine Shot
-special action
-Opponent at -2 priority from last beat
+Life: 15
+Discard 1: Venomous Lance
+Discard 2: Vine Drive
+Special action available
+Opponent has priority penalty: -2
 
 Zaamassal
 ---------
-life: 15
-discard 1: Sinuous Drive Strike
-discard 2: Urgent Dash
-special action
-Active paradigm: Fluidity
+Life: 13
+Discard 1: Sturdy Strike Shot
+Discard 2: Urgent Paradigm Shift Drive
+Special action available
+Active paradigm: Resilience
 
 
-.L....Z
+.Z.L...
 
-Unbeatable strategy for Zaamassal: Warped Paradigm Shift: -0.07
-Unbeatable strategy for Zaamassal: Warped Shot: -0.07
-Unbeatable strategy for Zaamassal: Warped Burst: -0.07
+Unbeatable strategy for Zaamassal: Malicious Dash: -0.66
+Unbeatable strategy for Zaamassal: Sinuous Dash: -1.66
+
 
 Lixis:
-48% Rooted Drive
-52% Rooted Burst
+18% Rooted Shot
+58% Rooted Grasp
+24% Pruning Shot
 
 Zaamassal:
-23% Malicious Shot
-77% Warped Shot
+4% Malicious Burst
+4% Sinuous Grasp
+92% Sinuous Dash
 
 
-Lixis: Rooted Drive
-Zaamassal: Warped Shot
+Lixis: Rooted Grasp
+Zaamassal: Sinuous Dash
 
-Priorities:  2 | 0
-Lixis is active
-Lixis moves:
+Priorities:  3 | 8
+Zaamassal is active
+Zaamassal assumes the Paradigm of Fluidity
+Zaamassal moves:
 
-...L..Z
+Z..L...
 
 Lixis misses
 Zaamassal moves:
 
-...L.Z.
+.Z.L...
 
-Zaamassal hits
-Lixis has 2 soak
-Lixis takes 1 damage (now at 15 life)
-Lixis is stunned
 Zaamassal moves:
 
-...L..Z
+Z..L...
 
 
 Beat 4
@@ -167,236 +185,209 @@ Beat 4
 
 Lixis
 -----
-life: 15
-discard 1: Rooted Drive
-discard 2: Venomous Strike
-special action
+Life: 15
+Discard 1: Rooted Grasp
+Discard 2: Venomous Lance
+Special action available
 
 Zaamassal
 ---------
-life: 15
-discard 1: Warped Shot
-discard 2: Sinuous Drive Strike
-special action
+Life: 13
+Discard 1: Sinuous Dash
+Discard 2: Sturdy Strike Shot
+Special action available
 Active paradigm: Fluidity
 
 
-...L..Z
+Z..L...
+
 
 Lixis:
-28% Vine Lance
-3% Vine Burst
-56% Vine Grasp
-12% Pruning Shot
+52% Vine Drive
+32% Vine Burst
+5% Pruning Shot
+11% Pruning Drive
 
 Zaamassal:
-5% Urgent Burst
-36% Sturdy Paradigm Shift
-44% Sturdy Burst
-14% Sturdy Dash
-
-
-Lixis: Vine Grasp
-Zaamassal: Urgent Burst
-
-Priorities:  3 | 3
-Clash!
-
-Lixis:
-42% Vine Lance
-38% Vine Shot
-20% Vine Burst
-
-Zaamassal:
-7% Urgent Paradigm Shift
-48% Urgent Grasp
-45% Urgent Dash
+30% Malicious Drive
+4% Urgent Drive
+2% Warped Paradigm Shift
+64% Warped Grasp
 
 
 Lixis: Vine Burst
-Zaamassal: Urgent Grasp
+Zaamassal: Warped Grasp
 
-Priorities:  -1 | 7
+Priorities:  -1 | 5
 Zaamassal is active
 Lixis moves:
 
-.L....Z
+Z....L.
 
 Zaamassal moves:
 
-.L...Z.
-
-Zaamassal moves:
-
-.L....Z
+.Z...L.
 
 Zaamassal misses
-Lixis hits
-Lixis moves Zaamassal:
-
-.L..Z..
-
-Zaamassal discards Burst
-Zaamassal takes 3 damage (now at 12 life)
-Zaamassal is stunned
-Zaamassal assumes the following paradigms:
+Zaamassal assumes the Paradigm of Distortion
+Lixis misses
 
 Beat 5
 -------
 
 Lixis
 -----
-life: 15
-discard 1: Vine Burst
-discard 2: Rooted Drive
-special action
+Life: 15
+Discard 1: Vine Burst
+Discard 2: Rooted Grasp
+Special action available
 
 Zaamassal
 ---------
-life: 12
-discard 1: Urgent Grasp Burst
-discard 2: Warped Shot
-special action
-Active paradigm: None
+Life: 13
+Discard 1: Warped Grasp
+Discard 2: Sinuous Dash
+Special action available
+Active paradigm: Distortion
 
 
-.L..Z..
+.Z...L.
 
-Unbeatable strategy for Zaamassal: Malicious Dash: -0.69
-Unbeatable strategy for Zaamassal: Sinuous Dash: -1.68
-Unbeatable strategy for Zaamassal: Sturdy Dash: -0.69
 
 Lixis:
-33% Venomous Lance
-37% Venomous Strike
-11% Venomous Shot
-19% Naturalizing Dash
+1% Venomous Strike
+5% Venomous Shot
+1% Venomous Drive
+93% Venomous Dash
 
 Zaamassal:
-80% Malicious Dash
-1% Sinuous Paradigm Shift
-0% Sinuous Drive
-14% Sinuous Dash
-5% Sturdy Dash
+16% Malicious Paradigm Shift
+15% Urgent Paradigm Shift
+49% Urgent Burst
+20% Sturdy Burst
 
 
-Lixis: Venomous Shot
-Zaamassal: Malicious Dash
+Lixis: Venomous Dash
+Zaamassal: Sturdy Burst
 
-Priorities:  2 | 8
-Zaamassal is active
-Zaamassal assumes the Paradigm of Pain
+Priorities:  9 | 1
+Lixis is active
 Zaamassal moves:
+
+Z....L.
+
+Lixis moves:
+
+Z...L..
+
+Lixis moves:
 
 ZL.....
 
-Lixis misses
+Zaamassal misses
+Zaamassal assumes the Paradigm of Resilience
 
 Beat 6
 -------
 
 Lixis
 -----
-life: 15
-discard 1: Venomous Shot
-discard 2: Vine Burst
-special action
+Life: 15
+Discard 1: Venomous Dash
+Discard 2: Vine Burst
+Special action available
 
 Zaamassal
 ---------
-life: 12
-discard 1: Malicious Dash
-discard 2: Urgent Burst Grasp
-special action
-Active paradigm: Pain
+Life: 13
+Discard 1: Sturdy Burst
+Discard 2: Warped Grasp
+Special action available
+Active paradigm: Resilience
 
 
 ZL.....
 
-Unbeatable strategy for Zaamassal: Sinuous Strike: -0.13
 
 Lixis:
-40% Rooted Strike
-6% Pruning Strike
-54% Pruning Grasp
+11% Rooted Lance
+57% Rooted Strike
+32% Rooted Shot
 
 Zaamassal:
-5% Sinuous Strike
-45% Sturdy Strike
-49% Sturdy Drive
+37% Sinuous Strike
+22% Sinuous Drive
+41% Sinuous Dash
 
 
-Lixis: Pruning Grasp
-Zaamassal: Sturdy Strike
+Lixis: Rooted Lance
+Zaamassal: Sinuous Drive
 
-Lixis gets +3 power
-Lixis gets +3 priority
-Priorities:  6 | 3
-Lixis is active
-Lixis hits
-Zaamassal discards Shot
-Zaamassal takes 4 damage (now at 8 life)
+Priorities:  3 | 5
+Zaamassal is active
 Zaamassal hits
-Lixis takes 4 damage (now at 11 life)
-Lixis loses 2 life (now at 9)
+Lixis has 2 soak
+Lixis takes 1 damage (now at 14 life)
 Lixis is stunned
+Zaamassal assumes the Paradigm of Fluidity
+Zaamassal moves:
+
+.L...Z.
+
+Zaamassal moves:
+
+.L....Z
+
 
 Beat 7
 -------
 
 Lixis
 -----
-life: 9
-discard 1: Pruning Grasp
-discard 2: Venomous Shot
-special action
+Life: 14
+Discard 1: Rooted Lance
+Discard 2: Venomous Dash
+Special action available
 
 Zaamassal
 ---------
-life: 8
-discard 1: Sturdy Strike Shot
-discard 2: Malicious Dash
-special action
-Active paradigm: Pain
+Life: 13
+Discard 1: Sinuous Drive
+Discard 2: Sturdy Burst
+Special action available
+Active paradigm: Fluidity
 
 
-ZL.....
+.L....Z
+
 
 Lixis:
-17% Rooted Strike
-3% Vine Strike
-81% Vine Drive
+41% Naturalizing Shot
+59% Vine Drive
 
 Zaamassal:
-67% Sinuous Drive
-23% Sinuous Grasp
-10% Warped Drive
+1% Malicious Shot
+99% Warped Shot
 
 
-Lixis: Vine Drive
-Zaamassal: Sinuous Grasp
+Lixis: Naturalizing Shot
+Zaamassal: Warped Shot
 
-Priorities:  2 | 6
-Zaamassal is active
-Zaamassal hits
-Zaamassal moves Lixis:
-
-Z.L....
-
-Lixis takes 2 damage (now at 7 life)
-Lixis loses 2 life (now at 5)
-Lixis moves:
-
-ZL.....
-
+Priorities:  3 | 2
+Lixis is active
 Lixis hits
-Zaamassal discards Burst
-Zaamassal takes 3 damage (now at 5 life)
-Zaamassal is stunned
-Zaamassal assumes the following paradigms:
+Zaamassal discards Strike
+Zaamassal takes 2 damage (now at 11 life)
 Zaamassal moves:
 
 .L...Z.
+
+Zaamassal hits
+Lixis takes 3 damage (now at 11 life)
+Lixis is stunned
+Zaamassal moves:
+
+.L....Z
 
 
 Beat 8
@@ -404,375 +395,204 @@ Beat 8
 
 Lixis
 -----
-life: 5
-discard 1: Vine Drive
-discard 2: Pruning Grasp
-special action
+Life: 11
+Discard 1: Naturalizing Shot
+Discard 2: Rooted Lance
+Special action available
 
 Zaamassal
 ---------
-life: 5
-discard 1: Sinuous Grasp Burst
-discard 2: Sturdy Strike Shot
-special action
-Active paradigm: None
+Life: 11
+Discard 1: Warped Shot Strike
+Discard 2: Sinuous Drive
+Special action available
+Active paradigm: Fluidity
 
-
-.L...Z.
-
-Lixis:
-24% Venomous Dash
-19% Rooted Lance
-57% Rooted Dash
-
-Zaamassal:
-0% Urgent Paradigm Shift
-65% Warped Paradigm Shift
-35% Warped Drive
-
-
-Lixis: Rooted Lance
-Zaamassal: Warped Drive
-
-Priorities:  3 | 4
-Zaamassal is active
-Zaamassal moves:
 
 .L....Z
 
+
+Lixis:
+79% Venomous Dash
+21% Vine Drive
+
+Zaamassal:
+83% Malicious Paradigm Shift
+17% Urgent Burst
+
+
+Lixis: Venomous Dash
+Zaamassal: Urgent Burst
+
+Priorities:  9 | 3
+Lixis is active
+Lixis moves:
+
+....L.Z
+
 Zaamassal moves:
 
-.L...Z.
+....LZ.
 
-Zaamassal misses
-Zaamassal assumes the Paradigm of Distortion
-Lixis misses
+Zaamassal moves:
+
+....L.Z
+
+Zaamassal hits
+Lixis takes 2 damage (now at 9 life)
+Lixis is stunned
 
 Beat 9
 -------
 
 Lixis
 -----
-life: 5
-discard 1: Rooted Lance
-discard 2: Vine Drive
-special action
+Life: 9
+Discard 1: Venomous Dash
+Discard 2: Naturalizing Shot
+Special action available
 
 Zaamassal
 ---------
-life: 5
-discard 1: Warped Drive
-discard 2: Sinuous Grasp Burst
-special action
-Active paradigm: Distortion
+Life: 11
+Discard 1: Urgent Burst
+Discard 2: Warped Shot Strike
+Special action available
+Active paradigm: Fluidity
 
 
-.L...Z.
+....L.Z
 
-Unbeatable strategy for Lixis: Pruning Dash: 0.13
 
 Lixis:
-2% Venomous Shot
-3% Venomous Grasp
-83% Venomous Dash
-12% Pruning Dash
+32% Vine Lance
+44% Vine Grasp
+24% Pruning Lance
 
 Zaamassal:
-26% Urgent Strike
-7% Urgent Shot
-17% Sturdy Shot
-49% Sturdy Dash
+23% Sinuous Grasp
+52% Sturdy Paradigm Shift
+25% Sturdy Dash
 
 
-Lixis: Venomous Dash
+Lixis: Pruning Lance
 Zaamassal: Sturdy Dash
 
-Priorities:  9 | 9
-Clash!
-
-Lixis:
-3% Venomous Shot
-97% Venomous Burst
-
-Zaamassal:
-2% Sturdy Paradigm Shift
-98% Sturdy Shot
-
-
-Lixis: Venomous Burst
-Zaamassal: Sturdy Shot
-
-Priorities:  1 | 2
+Lixis gets +3 power
+Lixis gets +3 priority
+Priorities:  6 | 9
 Zaamassal is active
-Lixis moves:
-
-L....Z.
-
-Zaamassal misses
-Lixis misses
+Lixis hits
+Zaamassal discards Paradigm Shift
+Zaamassal takes 5 damage (now at 6 life)
 
 Beat 10
 -------
 
 Lixis
 -----
-life: 5
-discard 1: Venomous Burst
-discard 2: Rooted Lance
-special action
+Life: 9
+Discard 1: Pruning Lance
+Discard 2: Venomous Dash
+Special action available
 
 Zaamassal
 ---------
-life: 5
-discard 1: Sturdy Shot
-discard 2: Warped Drive
-special action
-Active paradigm: Distortion
+Life: 6
+Discard 1: Sturdy Dash Paradigm Shift
+Discard 2: Urgent Burst
+Special action available
+Active paradigm: Fluidity
 
 
-L....Z.
+....L.Z
 
-Unbeatable strategy for Zaamassal: Sinuous Dash: -0.22
 
 Lixis:
-28% Naturalizing Strike
-15% Naturalizing Drive
-23% Naturalizing Grasp
-1% Naturalizing Dash
-7% Vine Shot
-25% Vine Drive
+29% Rooted Shot
+1% Rooted Drive
+33% Rooted Burst
+37% Vine Strike
 
 Zaamassal:
-18% Sinuous Burst
-35% Sinuous Dash
-15% Urgent Paradigm Shift
-19% Urgent Burst
-14% Special Plane Divider
+42% Malicious Strike
+16% Malicious Shot
+13% Sinuous Strike
+30% Sinuous Drive
 
 
-Lixis: Vine Drive
-Zaamassal: Urgent Burst
+Lixis: Vine Strike
+Zaamassal: Malicious Strike
 
-Priorities:  2 | 3
+Priorities:  1 | 2
 Zaamassal is active
 Zaamassal moves:
 
-L.....Z
+....LZ.
 
-Zaamassal misses
-Lixis moves:
+Zaamassal hits
+Lixis takes 5 damage (now at 4 life)
+Lixis hits
+Lixis moves Zaamassal:
 
-.L....Z
+...ZL..
 
-Lixis misses
+Zaamassal discards Shot
+Zaamassal takes 4 damage (now at 2 life)
+Zaamassal moves:
+
+..Z.L..
+
 
 Beat 11
 -------
 
 Lixis
 -----
-life: 5
-discard 1: Vine Drive
-discard 2: Venomous Burst
-special action
+Life: 4
+Discard 1: Vine Strike
+Discard 2: Pruning Lance
+Special action available
 
 Zaamassal
 ---------
-life: 5
-discard 1: Urgent Burst
-discard 2: Sturdy Shot
-special action
-Active paradigm: Distortion
+Life: 2
+Discard 1: Malicious Strike Shot
+Discard 2: Sturdy Dash Paradigm Shift
+Special action available
+Active paradigm: Fluidity
 
 
-.L....Z
+..Z.L..
 
-Unbeatable strategy for Zaamassal: Sinuous Drive: -0.11
 
 Lixis:
-1% Rooted Shot
-63% Rooted Dash
-8% Naturalizing Shot
-28% Pruning Grasp
+34% Venomous Shot
+6% Venomous Grasp
+29% Rooted Shot
+25% Naturalizing Drive
+6% Special Virulent Miasma
 
 Zaamassal:
-32% Sinuous Strike
-31% Sinuous Drive
-29% Sinuous Dash
-8% Warped Paradigm Shift
+15% Sinuous Grasp
+16% Warped Drive
+14% Warped Burst
+35% Warped Grasp
+20% Special Plane Divider
 
 
-Lixis: Naturalizing Shot
-Zaamassal: Sinuous Drive
+Lixis: Rooted Shot
+Zaamassal: Special Plane Divider
 
-Priorities:  3 | 5
+Priorities:  0 | 4
 Zaamassal is active
 Zaamassal moves:
 
-.L..Z..
-
-Zaamassal hits
-Lixis takes 3 damage (now at 2 life)
-Lixis is stunned
-Zaamassal moves:
-
-.L...Z.
-
-
-Beat 12
--------
-
-Lixis
------
-life: 2
-discard 1: Naturalizing Shot
-discard 2: Vine Drive
-special action
-
-Zaamassal
----------
-life: 5
-discard 1: Sinuous Drive
-discard 2: Urgent Burst
-special action
-Active paradigm: Distortion
-
-
-.L...Z.
-
-Unbeatable strategy for Lixis: Rooted Dash: 0.30
-
-Lixis:
-12% Venomous Dash
-12% Rooted Lance
-30% Rooted Strike
-47% Rooted Dash
-
-Zaamassal:
-9% Malicious Shot
-82% Warped Strike
-3% Warped Shot
-6% Special Plane Divider
-
-
-Lixis: Rooted Dash
-Zaamassal: Warped Strike
-
-Priorities:  7 | 3
-Lixis is active
-Zaamassal moves:
-
-.L....Z
+Z...L..
 
 Zaamassal misses
-
-Beat 13
--------
-
-Lixis
------
-life: 2
-discard 1: Rooted Dash
-discard 2: Naturalizing Shot
-special action
-
-Zaamassal
----------
-life: 5
-discard 1: Warped Strike
-discard 2: Sinuous Drive
-special action
-Active paradigm: Distortion
-
-
-.L....Z
-
-Unbeatable strategy for Zaamassal: Urgent Shot: -7.00
-
-Lixis:
-100% Special Pulse
-
-Zaamassal:
-4% Malicious Paradigm Shift
-7% Malicious Shot
-5% Malicious Burst
-4% Malicious Grasp
-10% Urgent Paradigm Shift
-36% Urgent Shot
-10% Urgent Burst
-4% Urgent Grasp
-5% Sturdy Paradigm Shift
-8% Sturdy Shot
-4% Sturdy Burst
-4% Sturdy Grasp
-
-
-Lixis: Special Pulse
-Zaamassal: Urgent Paradigm Shift
-
-Pulse:
-
-ZL.....
-
-
-Beat 13
--------
-
-Lixis
------
-life: 2
-discard 1: Rooted Dash
-discard 2: Naturalizing Shot
-
-Zaamassal
----------
-life: 5
-discard 1: Urgent Paradigm Shift
-discard 2: Warped Strike
-special action
-Active paradigm: Distortion
-
-
-ZL.....
-
-Unbeatable strategy for Zaamassal: Malicious Dash: -1.22
-Unbeatable strategy for Zaamassal: Sinuous Drive: -7.00
-Unbeatable strategy for Zaamassal: Sinuous Dash: -2.37
-Unbeatable strategy for Zaamassal: Sturdy Drive: -7.00
-Unbeatable strategy for Zaamassal: Sturdy Dash: -2.42
-
-Lixis:
-8% Venomous Lance
-6% Venomous Strike
-6% Venomous Drive
-6% Venomous Burst
-6% Venomous Grasp
-7% Vine Lance
-5% Vine Strike
-5% Vine Drive
-9% Vine Burst
-7% Vine Grasp
-8% Pruning Lance
-6% Pruning Strike
-7% Pruning Drive
-7% Pruning Burst
-7% Pruning Grasp
-
-Zaamassal:
-100% Special Open the Gate
-
-
-Lixis: Vine Strike
-Zaamassal: Special Open the Gate
-
-Priorities:  1 | 7
-Zaamassal is active
-Zaamassal hits
-Lixis is stunned
-Zaamassal assumes the following paradigms:
-   Pain
-   Fluidity
-   Haste
-Lixis takes 3 damage (now at 0 life)
-ZAAMASSAL WINS!
-total_time: 23
+Lixis hits
+Zaamassal discards Grasp
+Zaamassal takes 4 damage (now at 0 life)
+LIXIS WINS!
+total_time: 51

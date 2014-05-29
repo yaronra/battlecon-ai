@@ -28,29 +28,29 @@ Special action available
 
 .G...L.
 
-Unbeatable strategy for Gerard: Gilded Dash (Hire Archer): 2.38
-Unbeatable strategy for Gerard: Gilded Dash (Hire Brawler): 3.62
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Archer): 1.94
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Brawler): 3.62
+Unbeatable strategy for Gerard: Gilded Dash (Hire Archer): 0.90
+Unbeatable strategy for Gerard: Gilded Dash (Hire Brawler): 1.56
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Archer): 0.46
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Brawler): 1.56
 
 
 Gerard:
-1% Gilded Drive (Hire Brawler)
-14% Gilded Burst (Hire Brawler)
-69% Gilded Dash (Hire Brawler)
-9% Avaricious Drive (Hire Brawler)
-7% Initiation Shot (Hire Brawler)
+20% Gilded Burst (Hire Brawler)
+54% Gilded Dash (Hire Brawler)
+3% Avaricious Shot (Hire Archer)
+14% Avaricious Drive (Hire Brawler)
+9% Initiation Shot (Hire Archer)
 
 Lixis:
-8% Venomous Lance
-18% Venomous Shot
-8% Venomous Drive
-15% Venomous Burst
-50% Vine Shot
+0% Venomous Lance
+1% Venomous Burst
+76% Vine Shot
+13% Vine Drive
+11% Vine Burst
 
 
 Gerard: Gilded Burst (Hire Brawler)
-Lixis: Venomous Shot
+Lixis: Vine Drive
 
 Gerard hires a Brawler for 3 gold (0 remaining)
 Priorities:  0 | 2
@@ -61,15 +61,21 @@ G....L.
 
 Lixis moves:
 
-G...L..
+G..L...
 
 Lixis hits
-Gerard will have -2 priority next beat
-Gerard discards Grasp
-Gerard takes 4 damage (now at 16 life)
-Gerard hits
-Lixis takes 3 damage (now at 17 life)
-Lixis is stunned
+Lixis moves Gerard:
+
+..GL...
+
+Gerard discards Shot
+Gerard takes 3 damage (now at 17 life)
+Gerard moves Lixis:
+
+.LG....
+
+Gerard misses
+Lixis loses 1 life (now at 19)
 Gerard gains 1 Gold Token (has 1)
 
 Beat 2
@@ -77,8 +83,8 @@ Beat 2
 
 Gerard
 ------
-Life: 16
-Discard 1: Gilded Burst Grasp
+Life: 17
+Discard 1: Gilded Burst Shot
 Discard 2: Villainous Larceny
 Special action available
 Gold: 1
@@ -87,48 +93,42 @@ Mercenaries in play:
 
 Lixis
 -----
-Life: 17
-Discard 1: Venomous Shot
+Life: 19
+Discard 1: Vine Drive
 Discard 2: Pruning Grasp
 Special action available
-Opponent has priority penalty: -2
 
 
-G...L..
+.LG....
 
-Unbeatable strategy for Lixis: Vine Lance: -4.55
+Unbeatable strategy for Gerard: Avaricious Dash: 0.54
 
 
 Gerard:
-18% Avaricious Dash
-6% Hooked Drive
-59% Initiation Drive
-18% Initiation Dash
+40% Avaricious Dash
+5% Initiation Strike
+55% Initiation Dash
 
 Lixis:
-18% Naturalizing Drive
-50% Vine Lance
-32% Vine Burst
+9% Venomous Lance
+74% Venomous Strike
+18% Rooted Burst
 
 
 Gerard: Avaricious Dash
-Lixis: Vine Burst
+Lixis: Venomous Strike
 
-Priorities:  8 | -1
+Priorities:  10 | 3
 Gerard is active
 Gerard moves:
 
-.G..L..
-
-Lixis moves:
-
-.G...L.
+GL.....
 
 Gerard moves:
 
-....GL.
+.L.G...
 
-Lixis loses 1 life (now at 16)
+Lixis loses 1 life (now at 18)
 Lixis misses
 Gerard gains 1 Gold Token (has 2)
 
@@ -137,9 +137,9 @@ Beat 3
 
 Gerard
 ------
-Life: 16
+Life: 17
 Discard 1: Avaricious Dash
-Discard 2: Gilded Burst Grasp
+Discard 2: Gilded Burst Shot
 Special action available
 Gold: 2
 Mercenaries in play:
@@ -147,45 +147,37 @@ Mercenaries in play:
 
 Lixis
 -----
-Life: 16
-Discard 1: Vine Burst
-Discard 2: Venomous Shot
+Life: 18
+Discard 1: Venomous Strike
+Discard 2: Vine Drive
 Special action available
 
 
-....GL.
+.L.G...
 
 
 Gerard:
-31% Hooked Shot
-50% Hooked Drive
-19% Initiation Drive
+62% Hooked Strike
+27% Hooked Drive
+11% Initiation Larceny
 
 Lixis:
-45% Rooted Strike
-35% Rooted Grasp
-20% Pruning Drive
+76% Rooted Lance
+1% Rooted Shot
+24% Naturalizing Shot
 
 
-Gerard: Initiation Drive
-Lixis: Rooted Grasp
+Gerard: Hooked Strike
+Lixis: Rooted Lance
 
-Priorities:  5 | 3
-Gerard is active
+Priorities:  2 | 3
+Lixis is active
 Gerard moves:
 
-.....LG
+.L....G
 
-Gerard moves:
-
-....GL.
-
-Gerard hits
-First hireling next beat will cost 2 gold less
-Lixis has 2 soak
-Lixis takes 1 damage (now at 15 life)
-Lixis is stunned
-Lixis loses 1 life (now at 14)
+Lixis misses
+Gerard misses
 Gerard gains 1 Gold Token (has 3)
 
 Beat 4
@@ -193,70 +185,60 @@ Beat 4
 
 Gerard
 ------
-Life: 16
-Discard 1: Initiation Drive
+Life: 17
+Discard 1: Hooked Strike
 Discard 2: Avaricious Dash
 Special action available
-First hireling costs 2 gold less
 Gold: 3
 Mercenaries in play:
   Brawler
 
 Lixis
 -----
-Life: 14
-Discard 1: Rooted Grasp
-Discard 2: Vine Burst
+Life: 18
+Discard 1: Rooted Lance
+Discard 2: Venomous Strike
 Special action available
 
 
-....GL.
+.L....G
 
 
 Gerard:
-10% Villainous Larceny (Hire Archer)
-2% Villainous Strike (Hire Archer)
-30% Villainous Grasp (Hire Archer)
-8% Gilded Larceny (Hire Archer)
-28% Hooked Larceny (Hire Archer)
-1% Hooked Strike (Hire Archer)
-20% Hooked Shot (Hire Archer)
+9% Villainous Grasp (Hire Archer)
+81% Gilded Shot
+10% Gilded Shot (Hire Archer)
 
 Lixis:
-30% Venomous Lance
-8% Venomous Strike
-15% Venomous Shot
-19% Venomous Drive
-10% Venomous Dash
-1% Naturalizing Shot
-17% Naturalizing Drive
+21% Vine Shot
+67% Vine Burst
+13% Pruning Burst
 
 
-Gerard: Gilded Larceny (Hire Archer)
-Lixis: Venomous Dash
+Gerard: Gilded Shot
+Lixis: Vine Burst
 
-Gerard hires a Archer for 1 gold (2 remaining)
-Priorities:  2 | 9
-Lixis is active
+Priorities:  1 | -1
+Gerard is active
 Lixis moves:
 
-...LG..
-
-Lixis moves:
-
-....GL.
+L.....G
 
 Gerard moves Lixis:
 
-...LG..
+.L....G
 
-Gerard moves:
+Gerard hits
+Lixis takes 3 damage (now at 15 life)
+Lixis hits
+Lixis moves Gerard:
 
-..GL...
+.L...G.
 
-Gerard misses
-Lixis loses 1 life (now at 13)
-Gerard gains 1 Gold Token (has 3)
+Gerard discards Grasp
+Gerard has 2 soak
+Gerard takes 1 damage (now at 16 life)
+Gerard gains 1 Gold Token (has 4)
 
 Beat 5
 -------
@@ -264,9 +246,127 @@ Beat 5
 Gerard
 ------
 Life: 16
-Discard 1: Gilded Larceny
-Discard 2: Initiation Drive
+Discard 1: Gilded Shot Grasp
+Discard 2: Hooked Strike
 Special action available
+Gold: 4
+Mercenaries in play:
+  Brawler
+
+Lixis
+-----
+Life: 15
+Discard 1: Vine Burst
+Discard 2: Rooted Lance
+Special action available
+
+
+.L...G.
+
+
+Gerard:
+17% Villainous Drive (Hire Archer)
+2% Avaricious Drive
+10% Avaricious Burst (Hire Archer)
+37% Initiation Drive (Hire Archer)
+34% Initiation Burst (Hire Archer)
+
+Lixis:
+65% Venomous Strike
+33% Venomous Grasp
+0% Naturalizing Strike
+2% Naturalizing Shot
+
+
+Gerard: Avaricious Burst (Hire Archer)
+Lixis: Venomous Grasp
+
+Gerard hires a Archer for 3 gold (1 remaining)
+Priorities:  2 | 5
+Lixis is active
+Gerard moves:
+
+.L..G..
+
+Gerard moves:
+
+.L...G.
+
+Lixis misses
+Gerard misses
+Lixis loses 1 life (now at 14)
+Gerard gains 1 Gold Token (has 2)
+
+Beat 6
+-------
+
+Gerard
+------
+Life: 16
+Discard 1: Avaricious Burst
+Discard 2: Gilded Grasp Shot
+Special action available
+Gold: 2
+Mercenaries in play:
+  Brawler
+  Archer
+
+Lixis
+-----
+Life: 14
+Discard 1: Venomous Grasp
+Discard 2: Vine Burst
+Special action available
+
+
+.L...G.
+
+
+Gerard:
+26% Villainous Dash
+1% Hooked Drive
+4% Initiation Larceny
+7% Initiation Drive
+62% Initiation Dash
+
+Lixis:
+25% Rooted Shot
+19% Naturalizing Shot
+29% Naturalizing Dash
+6% Pruning Lance
+21% Pruning Drive
+
+
+Gerard: Initiation Drive
+Lixis: Naturalizing Shot
+
+Priorities:  5 | 3
+Gerard is active
+Gerard moves:
+
+.L..G..
+
+Gerard moves:
+
+.LG....
+
+Gerard hits
+First hireling next beat will cost 2 gold less
+Lixis takes 3 damage (now at 11 life)
+Lixis is stunned
+Lixis loses 1 life (now at 10)
+Gerard gains 1 Gold Token (has 3)
+
+Beat 7
+-------
+
+Gerard
+------
+Life: 16
+Discard 1: Initiation Drive
+Discard 2: Avaricious Burst
+Special action available
+First hireling costs 2 gold less
 Gold: 3
 Mercenaries in play:
   Brawler
@@ -274,247 +374,135 @@ Mercenaries in play:
 
 Lixis
 -----
-Life: 13
-Discard 1: Venomous Dash
-Discard 2: Rooted Grasp
-Special action available
-
-
-..GL...
-
-
-Gerard:
-11% Villainous Grasp
-47% Villainous Dash
-4% Avaricious Strike
-20% Avaricious Shot
-0% Avaricious Burst (Hire Mage)
-0% Avaricious Burst (Hire Gunslinger)
-0% Avaricious Burst (Hire Heavy Knight)
-17% Avaricious Grasp
-
-Lixis:
-8% Naturalizing Strike
-22% Vine Lance
-3% Vine Strike
-25% Vine Drive
-18% Pruning Strike
-23% Pruning Burst
-
-
-Gerard: Avaricious Grasp
-Lixis: Pruning Burst
-
-Lixis gets +2 power
-Lixis gets +2 priority
-Priorities:  5 | 1
-Gerard is active
-Gerard moves:
-
-...LG..
-
-Lixis moves:
-
-..L.G..
-
-Gerard misses
-Lixis loses 1 life (now at 12)
-Lixis hits
-Gerard discards Shot
-Gerard takes 4 damage (now at 12 life)
-Gerard is stunned
-Gerard gains 1 Gold Token (has 4)
-
-Beat 6
--------
-
-Gerard
-------
-Life: 12
-Discard 1: Avaricious Grasp Shot
-Discard 2: Gilded Larceny
-Special action available
-Gold: 4
-Mercenaries in play:
-  Brawler
-  Archer
-
-Lixis
------
-Life: 12
-Discard 1: Pruning Burst
-Discard 2: Venomous Dash
-Special action available
-
-
-..L.G..
-
-Unbeatable strategy for Lixis: Vine Lance: -4.52
-
-
-Gerard:
-40% Villainous Strike
-53% Villainous Dash
-7% Initiation Strike
-
-Lixis:
-39% Rooted Drive
-59% Vine Lance
-2% Vine Strike
-
-
-Gerard: Villainous Dash
-Lixis: Rooted Drive
-
-Priorities:  9 | 2
-Gerard is active
-Lixis loses 1 life (now at 11)
-Gerard moves:
-
-..L...G
-
-Lixis loses 1 life (now at 10)
-Lixis moves:
-
-...L..G
-
-Lixis misses
-Gerard moves:
-
-..GL...
-
-Gerard gains 1 Gold Token (has 5)
-
-Beat 7
--------
-
-Gerard
-------
-Life: 12
-Discard 1: Villainous Dash
-Discard 2: Avaricious Grasp Shot
-Special action available
-Gold: 5
-Mercenaries in play:
-  Brawler
-  Archer
-
-Lixis
------
 Life: 10
-Discard 1: Rooted Drive
-Discard 2: Pruning Burst
+Discard 1: Naturalizing Shot
+Discard 2: Venomous Grasp
 Special action available
 
 
-..GL...
+.LG....
+
+Unbeatable strategy for Gerard: Gilded Dash: 0.30
 
 
 Gerard:
-29% Gilded Larceny
-10% Gilded Burst
-0% Initiation Larceny
-2% Initiation Larceny (Hire Gunslinger; Activate Gunslinger)
-44% Initiation Drive (Hire Gunslinger; Activate Gunslinger)
-14% Initiation Burst
+0% Villainous Larceny (Hire Mage; Activate Mage)
+3% Villainous Dash (Hire Gunslinger)
+3% Villainous Dash (Hire Heavy Knight)
+3% Villainous Dash (Hire Mage)
+3% Gilded Strike (Hire Gunslinger)
+3% Gilded Strike (Hire Heavy Knight)
+3% Gilded Strike (Hire Mage)
+8% Gilded Dash (Hire Gunslinger)
+8% Gilded Dash (Hire Heavy Knight)
+8% Gilded Dash (Hire Mage)
+55% Hooked Strike (Hire Trebuchet)
+2% Hooked Shot (Hire Trebuchet)
 
 Lixis:
-14% Venomous Lance
-13% Venomous Strike
-9% Venomous Shot
-32% Venomous Grasp
-0% Naturalizing Grasp
-31% Vine Strike
+6% Rooted Strike
+30% Rooted Burst
+14% Vine Lance
+21% Vine Drive
+11% Pruning Strike
+18% Pruning Dash
 
 
-Gerard: Initiation Larceny (Hire Gunslinger; Activate Gunslinger)
-Lixis: Vine Strike
+Gerard: Hooked Strike (Hire Trebuchet)
+Lixis: Vine Drive
 
-Gerard hires a Gunslinger for 2 gold (3 remaining)
-Gerard activates his Gunslinger for 3 gold (0 remaining)
-Priorities:  4 | 1
+Gerard hires a Trebuchet for 1 gold (2 remaining)
+Priorities:  2 | 2
+Clash!
+
+
+Gerard: Hooked Dash (Hire Trebuchet)
+Lixis: Vine Dash
+
+Gerard hires a Trebuchet for 1 gold (2 remaining)
+Priorities:  8 | 7
 Gerard is active
-Gerard moves Lixis:
-
-.LG....
-
 Gerard moves:
 
-GL.....
+.L....G
 
+Lixis loses 1 life (now at 9)
 Gerard moves:
 
-.LG....
+.L.G...
 
-Gerard hits
-First hireling next beat will cost 2 gold less
-Lixis takes 4 damage (now at 6 life)
-Gerard gains 3 Gold Tokens (has 3)
-Lixis is stunned
-Lixis loses 1 life (now at 5)
-Gerard gains 1 Gold Token (has 4)
+Lixis loses 1 life (now at 8)
+Lixis moves:
+
+..LG...
+
+Gerard gains 1 Gold Token (has 3)
 
 Beat 8
 -------
 
 Gerard
 ------
-Life: 12
-Discard 1: Initiation Larceny
-Discard 2: Villainous Dash
+Life: 16
+Discard 1: Hooked Dash
+Discard 2: Initiation Drive
 Special action available
-First hireling costs 2 gold less
-Gold: 4
+Gold: 3
 Mercenaries in play:
   Brawler
   Archer
-  Gunslinger
+  Trebuchet
 
 Lixis
 -----
-Life: 5
-Discard 1: Vine Strike
-Discard 2: Rooted Drive
+Life: 8
+Discard 1: Vine Dash
+Discard 2: Naturalizing Shot
 Special action available
 
 
-.LG....
+..LG...
 
 
 Gerard:
-46% Hooked Drive (Hire Mage)
-42% Hooked Drive (Hire Heavy Knight)
-6% Hooked Burst (Hire Mage)
-6% Hooked Burst (Hire Heavy Knight)
+7% Villainous Burst
+31% Villainous Grasp
+13% Gilded Larceny
+12% Gilded Shot
+8% Gilded Burst
+3% Avaricious Larceny
+25% Avaricious Burst
 
 Lixis:
-4% Venomous Shot
-96% Pruning Dash
+3% Venomous Lance
+1% Venomous Strike
+23% Venomous Drive
+9% Venomous Grasp
+17% Rooted Strike
+18% Rooted Drive
+29% Rooted Burst
 
 
-Gerard: Hooked Drive (Hire Mage)
-Lixis: Pruning Dash
+Gerard: Villainous Grasp
+Lixis: Rooted Burst
 
-Gerard hires a Mage for 0 gold (4 remaining)
-Lixis gets +2 power
-Lixis gets +2 priority
-Priorities:  3 | 9
-Lixis is active
-Gerard moves:
-
-.L....G
-
+Priorities:  5 | -1
+Gerard is active
 Lixis moves:
 
-...L..G
-
-Gerard moves:
-
-...LG..
+.L.G...
 
 Gerard misses
-Lixis loses 1 life (now at 4)
-Gerard gains 1 Gold Token (has 5)
+Lixis loses 1 life (now at 7)
+Lixis hits
+Gerard discards Shot
+Gerard takes 4 damage (now at 12 life)
+Gerard is stunned
+Gerard moves:
+
+.LG....
+
+Gerard gains 1 Gold Token (has 4)
 
 Beat 9
 -------
@@ -522,54 +510,58 @@ Beat 9
 Gerard
 ------
 Life: 12
-Discard 1: Hooked Drive
-Discard 2: Initiation Larceny
+Discard 1: Villainous Grasp Shot
+Discard 2: Hooked Dash
 Special action available
-Gold: 5
+Gold: 4
 Mercenaries in play:
   Brawler
   Archer
-  Gunslinger
-  Mage
+  Trebuchet
 
 Lixis
 -----
-Life: 4
-Discard 1: Pruning Dash
-Discard 2: Vine Strike
+Life: 7
+Discard 1: Rooted Burst
+Discard 2: Vine Dash
 Special action available
 
 
-...LG..
+.LG....
 
 
 Gerard:
-3% Villainous Strike (Activate Mage)
-10% Villainous Dash
-2% Gilded Strike
-0% Gilded Shot (Activate Mage)
-84% Gilded Dash
+48% Gilded Strike
+22% Initiation Strike
+19% Initiation Drive
+12% Initiation Burst
 
 Lixis:
-5% Venomous Lance
-10% Venomous Drive
-33% Rooted Drive
-50% Rooted Burst
-2% Naturalizing Drive
+51% Venomous Strike
+12% Venomous Shot
+33% Pruning Drive
+3% Special Virulent Miasma
 
 
-Gerard: Gilded Dash
-Lixis: Rooted Drive
+Gerard: Initiation Burst
+Lixis: Venomous Strike
 
-Priorities:  8 | 2
-Gerard is active
+Priorities:  2 | 3
+Lixis is active
 Gerard moves:
 
-..GL...
+.L..G..
 
-Lixis loses 1 life (now at 3)
+Lixis moves:
+
+..L.G..
+
 Lixis misses
-Gerard gains 1 Gold Token (has 6)
+Gerard hits
+First hireling next beat will cost 2 gold less
+Lixis takes 3 damage (now at 4 life)
+Lixis loses 1 life (now at 3)
+Gerard gains 1 Gold Token (has 5)
 
 Beat 10
 -------
@@ -577,201 +569,65 @@ Beat 10
 Gerard
 ------
 Life: 12
-Discard 1: Gilded Dash
-Discard 2: Hooked Drive
+Discard 1: Initiation Burst
+Discard 2: Villainous Grasp Shot
 Special action available
-Gold: 6
-Mercenaries in play:
-  Brawler
-  Archer
-  Gunslinger
-  Mage
-
-Lixis
------
-Life: 3
-Discard 1: Rooted Drive
-Discard 2: Pruning Dash
-Special action available
-
-
-..GL...
-
-
-Gerard:
-4% Villainous Shot
-1% Avaricious Larceny
-1% Initiation Larceny
-46% Initiation Strike
-1% Initiation Shot
-48% Initiation Burst
-
-Lixis:
-1% Venomous Lance
-42% Venomous Burst
-6% Naturalizing Burst
-52% Special Virulent Miasma
-
-
-Gerard: Villainous Shot
-Lixis: Special Virulent Miasma
-
-Priorities:  2 | 5
-Lixis is active
-Lixis hits
-Gerard discards Burst
-Gerard takes 4 damage (now at 8 life)
-Gerard is stunned
-Gerard moves:
-
-...L..G
-
-Gerard gains 1 Gold Token (has 7)
-
-Beat 11
--------
-
-Gerard
-------
-Life: 8
-Discard 1: Villainous Shot Burst
-Discard 2: Gilded Dash
-Special action available
-Gold: 7
-Mercenaries in play:
-  Brawler
-  Archer
-  Gunslinger
-  Mage
-
-Lixis
------
-Life: 3
-Discard 1: Rooted Drive
-Discard 2: Pruning Dash
-Virulent Miasma is active
-
-
-...L..G
-
-Unbeatable strategy for Lixis: Venomous Lance: -9.22
-
-
-Gerard:
-10% Hooked Drive (Hire Lackey)
-70% Hooked Grasp (Activate Mage)
-19% Initiation Larceny (Hire Lackey)
-
-Lixis:
-89% Venomous Lance
-7% Venomous Grasp
-4% Vine Burst
-
-
-Gerard: Hooked Grasp (Activate Mage)
-Lixis: Venomous Lance
-
-Gerard activates his Mage for 3 gold (4 remaining)
-Gerard loses 3 life (now at 5)
-Priorities:  5 | 5
-Clash!
-
-
-Gerard: Hooked Larceny (Activate Mage)
-Lixis: Venomous Strike
-
-Gerard activates his Mage for 3 gold (4 remaining)
-Gerard loses 3 life (now at 5)
-Priorities:  3 | 3
-Clash!
-
-
-Gerard: Hooked Strike (Activate Mage)
-Lixis: Venomous Grasp
-
-Gerard activates his Mage for 3 gold (4 remaining)
-Gerard loses 3 life (now at 5)
-Priorities:  3 | 5
-Lixis is active
-Lixis moves:
-
-....L.G
-
-Lixis misses
-Gerard misses
-Lixis loses 1 life (now at 2)
-Gerard gains 1 Gold Token (has 5)
-
-Beat 12
--------
-
-Gerard
-------
-Life: 5
-Discard 1: Hooked Strike
-Discard 2: Villainous Shot Burst
-Special action available
+First hireling costs 2 gold less
 Gold: 5
 Mercenaries in play:
   Brawler
   Archer
-  Gunslinger
-  Mage
+  Trebuchet
 
 Lixis
 -----
-Life: 2
-Discard 1: Venomous Grasp
-Discard 2: Rooted Drive
-Virulent Miasma is active
+Life: 3
+Discard 1: Venomous Strike
+Discard 2: Rooted Burst
+Special action available
 
 
-....L.G
+..L.G..
 
-Unbeatable strategy for Lixis: Pruning Lance: -4.07
+Unbeatable strategy for Gerard: Gilded Dash: 0.19
+Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight): 0.69
+Unbeatable strategy for Gerard: Gilded Dash (Hire Mage): 0.69
+Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger): 0.69
 
 
 Gerard:
-21% Gilded Drive (Activate Mage)
-21% Gilded Drive (Hire Heavy Knight; Activate Mage)
-58% Initiation Grasp
+20% Gilded Strike (Hire Heavy Knight)
+20% Gilded Strike (Hire Mage)
+20% Gilded Strike (Hire Gunslinger)
+7% Gilded Drive (Hire Heavy Knight; Activate Heavy Knight)
+1% Gilded Dash (Hire Heavy Knight)
+1% Gilded Dash (Hire Mage)
+1% Gilded Dash (Hire Gunslinger)
+19% Avaricious Drive (Hire Heavy Knight; Activate Heavy Knight)
+4% Hooked Drive (Hire Heavy Knight)
+4% Hooked Drive (Hire Mage)
+4% Hooked Drive (Hire Gunslinger)
 
 Lixis:
-6% Naturalizing Burst
-26% Vine Lance
-7% Vine Burst
-58% Pruning Lance
-3% Pruning Burst
+6% Vine Drive
+32% Vine Dash
+26% Pruning Lance
+37% Pruning Dash
 
 
-Gerard: Initiation Grasp
+Gerard: Gilded Strike (Hire Mage)
 Lixis: Pruning Lance
 
-Gerard loses 3 life (now at 2)
+Gerard hires a Mage for 0 gold (5 remaining)
 Lixis gets +3 power
 Lixis gets +3 priority
-Priorities:  6 | 6
-Clash!
-
-
-Gerard: Initiation Drive
-Lixis: Pruning Strike
-
-Gerard loses 3 life (now at 2)
-Lixis gets +3 power
-Lixis gets +3 priority
-Priorities:  5 | 4
-Gerard is active
-Gerard moves:
-
-....LG.
-
-Gerard moves:
-
-...GL..
-
+Priorities:  2 | 6
+Lixis is active
+Lixis hits
+Gerard discards Dash
+Gerard has 2 soak
+Gerard takes 3 damage (now at 9 life)
 Gerard hits
-First hireling next beat will cost 2 gold less
-Lixis takes 3 damage (now at 0 life)
+Lixis takes 4 damage (now at 0 life)
 GERARD WINS!
-total_time: 247
+total_time: 288

@@ -25,29 +25,28 @@ Discard 1: Channeled Grasp
 Discard 2: Impact Strike
 Special action available
 Active artifacts: 
-  Hover Boots
+  Battlefist
+  Phase Goggles
   Shield Amulet
   Autodeflector
-  Phase Goggles
-  Battlefist
+  Hover Boots
 
 
 .G...R.
 
-Unbeatable strategy for Gerard: Gilded Shot (Hire Archer): 0.44
-Unbeatable strategy for Gerard: Gilded Shot (Hire Brawler): 1.59
-Unbeatable strategy for Gerard: Gilded Burst (Hire Archer): 0.11
-Unbeatable strategy for Gerard: Gilded Burst (Hire Brawler): 0.73
-Unbeatable strategy for Gerard: Gilded Dash: 0.08
-Unbeatable strategy for Gerard: Gilded Dash (Hire Archer): 1.53
-Unbeatable strategy for Gerard: Gilded Dash (Hire Brawler): 2.40
+Unbeatable strategy for Gerard: Gilded Shot (Hire Brawler): 0.39
+Unbeatable strategy for Gerard: Gilded Burst (Hire Brawler): 0.07
+Unbeatable strategy for Gerard: Gilded Dash (Hire Brawler): 1.16
+Unbeatable strategy for Gerard: Gilded Dash (Hire Archer): 0.78
 
 
 Gerard:
-100% Gilded Dash (Hire Brawler)
+11% Gilded Burst
+89% Gilded Dash (Hire Brawler)
 
 Runika:
-100% Overcharged Drive
+11% Overcharged Shot
+89% Overcharged Drive
 
 
 Gerard: Gilded Dash (Hire Brawler)
@@ -96,56 +95,47 @@ Discard 1: Overcharged Drive
 Discard 2: Channeled Grasp
 Special action available
 Active artifacts: 
-  Phase Goggles
   Battlefist
   Shield Amulet
   Autodeflector
+  Phase Goggles
 Removed artifacts: 
   Hover Boots
 
 
 ..RG...
 
-Unbeatable strategy for Gerard: Avaricious Drive: 0.98
-Unbeatable strategy for Gerard: Initiation Drive: 0.58
+Unbeatable strategy for Gerard: Avaricious Drive: 1.06
+Unbeatable strategy for Gerard: Initiation Drive: 0.81
 
 
 Gerard:
-7% Hooked Shot
-15% Hooked Drive
-34% Hooked Grasp
-9% Initiation Shot
-7% Initiation Drive
-28% Initiation Grasp
+9% Hooked Shot
+20% Hooked Drive
+57% Initiation Strike
+14% Initiation Drive
 
 Runika:
-29% Maintenance Tinker
-40% Maintenance Dash
-14% Explosive Tinker
-2% Explosive Shot
-6% Explosive Burst
-8% Impact Tinker
+22% Maintenance Tinker
+0% Maintenance Burst
+7% Explosive Tinker
+71% Explosive Dash
 
 
-Gerard: Initiation Shot
-Runika: Maintenance Tinker
+Gerard: Initiation Strike
+Runika: Explosive Dash
 
-Priorities:  3 | 2
-Gerard is active
-Gerard hits
-First hireling next beat will cost 2 gold less
-Autodeflector is de-activated
-Runika has 1 soak
-Runika takes 2 damage (now at 17 life)
-Runika loses 1 life (now at 16)
-Runika hits
-Gerard takes 3 damage (now at 13 life)
-Gerard is stunned
-Autodeflector is activated
+Priorities:  4 | 9
+Runika is active
+Runika moves Gerard:
+
+.GR....
+
 Runika moves:
 
-R..G...
+.G...R.
 
+Gerard misses
 Gerard gains 1 Gold Token (has 2)
 
 Beat 3
@@ -153,12 +143,85 @@ Beat 3
 
 Gerard
 ------
-Life: 13
-Discard 1: Initiation Shot
+Life: 16
+Discard 1: Initiation Strike
 Discard 2: Gilded Dash
 Special action available
-First hireling costs 2 gold less
 Gold: 2
+Mercenaries in play:
+  Brawler
+
+Runika
+------
+Life: 19
+Discard 1: Explosive Dash
+Discard 2: Overcharged Drive
+Special action available
+Active artifacts: 
+  Battlefist
+  Shield Amulet
+  Phase Goggles
+  Autodeflector
+Removed artifacts: 
+  Hover Boots
+
+
+.G...R.
+
+
+Gerard:
+9% Hooked Larceny
+27% Hooked Shot
+64% Hooked Drive
+
+Runika:
+50% Maintenance Tinker
+30% Maintenance Shot
+21% Impact Shot
+
+
+Gerard: Hooked Shot
+Runika: Maintenance Shot
+
+Priorities:  1 | 1
+Clash!
+
+
+Gerard: Hooked Burst
+Runika: Maintenance Tinker
+
+Priorities:  0 | 2
+Runika is active
+Gerard moves:
+
+G....R.
+
+Runika misses
+No artifacts to activate
+Runika moves:
+
+G.....R
+
+Gerard hits
+Autodeflector is de-activated
+Runika has 1 soak
+Runika takes 3 damage (now at 16 life)
+Gerard moves Runika:
+
+G....R.
+
+Gerard gains 1 Gold Token (has 3)
+
+Beat 4
+-------
+
+Gerard
+------
+Life: 16
+Discard 1: Hooked Burst
+Discard 2: Initiation Strike
+Special action available
+Gold: 3
 Mercenaries in play:
   Brawler
 
@@ -166,67 +229,123 @@ Runika
 ------
 Life: 16
 Discard 1: Maintenance Tinker
-Discard 2: Overcharged Drive
+Discard 2: Explosive Dash
 Special action available
 Active artifacts: 
-  Phase Goggles
   Battlefist
+  Phase Goggles
   Shield Amulet
-  Autodeflector
 Removed artifacts: 
   Hover Boots
 
 
-R..G...
+G....R.
 
 
 Gerard:
-55% Villainous Drive (Hire Archer)
-16% Avaricious Burst (Hire Archer)
-16% Hooked Drive (Hire Archer)
-13% Hooked Burst (Hire Archer)
+21% Gilded Larceny (Hire Archer)
+28% Gilded Shot (Hire Archer)
+31% Gilded Drive (Hire Archer)
+19% Gilded Grasp (Hire Archer)
 
 Runika:
-5% Explosive Grasp
-2% Impact Shot
-2% Impact Grasp
-92% Impact Dash
+5% Channeled Shot
+18% Impact Burst
+25% Overcharged Shot
+52% Overcharged Drive
 
 
-Gerard: Villainous Drive (Hire Archer)
-Runika: Impact Dash
+Gerard: Gilded Shot (Hire Archer)
+Runika: Overcharged Drive
 
-Gerard hires a Archer for 1 gold (1 remaining)
-Priorities:  4 | 9
+Gerard hires a Archer for 3 gold (0 remaining)
+Priorities:  1 | 4
 Runika is active
+Runika overcharges her Phase Goggles
 Runika moves:
 
-.R.G...
+G..R...
 
-Runika moves:
+Runika hits
+Gerard takes 4 damage (now at 12 life)
+Gerard is stunned
+Phase Goggles is removed from the game
+Gerard gains 1 Gold Token (has 1)
 
-...GR..
-
-Gerard moves:
-
-....RG.
-
-Gerard misses
-Runika loses 1 life (now at 15)
-Gerard moves:
-
-.G..R..
-
-Gerard gains 1 Gold Token (has 2)
-
-Beat 4
+Beat 5
 -------
 
 Gerard
 ------
-Life: 13
-Discard 1: Villainous Drive
-Discard 2: Initiation Shot
+Life: 12
+Discard 1: Gilded Shot
+Discard 2: Hooked Burst
+Special action available
+Gold: 1
+Mercenaries in play:
+  Brawler
+  Archer
+
+Runika
+------
+Life: 16
+Discard 1: Overcharged Drive
+Discard 2: Maintenance Tinker
+Special action available
+Active artifacts: 
+  Battlefist
+  Shield Amulet
+Removed artifacts: 
+  Hover Boots
+  Phase Goggles
+
+
+G..R...
+
+
+Gerard:
+2% Villainous Drive
+20% Villainous Dash
+42% Initiation Drive
+6% Initiation Grasp
+31% Initiation Dash
+
+Runika:
+30% Channeled Strike
+2% Channeled Shot
+5% Channeled Burst
+52% Channeled Dash
+12% Explosive Dash
+
+
+Gerard: Initiation Drive
+Runika: Channeled Burst
+
+Priorities:  5 | 2
+Gerard is active
+Autodeflector is activated
+Runika moves:
+
+G....R.
+
+Gerard moves:
+
+.G...R.
+
+Gerard misses
+Runika loses 1 life (now at 15)
+Runika misses
+Battlefist is de-activated
+Gerard gains 1 Gold Token (has 2)
+
+Beat 6
+-------
+
+Gerard
+------
+Life: 12
+Discard 1: Initiation Drive
+Discard 2: Gilded Shot
 Special action available
 Gold: 2
 Mercenaries in play:
@@ -236,71 +355,56 @@ Mercenaries in play:
 Runika
 ------
 Life: 15
-Discard 1: Impact Dash
-Discard 2: Maintenance Tinker
+Discard 1: Channeled Burst
+Discard 2: Overcharged Drive
 Special action available
 Active artifacts: 
-  Phase Goggles
-  Autodeflector
-  Battlefist
   Shield Amulet
+  Autodeflector
 Removed artifacts: 
   Hover Boots
+  Phase Goggles
 
 
-.G..R..
-
-Unbeatable strategy for Gerard: Gilded Dash: 1.13
-Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight): 0.33
-Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger): 0.33
-Unbeatable strategy for Gerard: Gilded Dash (Hire Mage): 0.33
-Unbeatable strategy for Gerard: Avaricious Dash: 0.84
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Heavy Knight): 0.04
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Gunslinger): 0.04
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage): 0.04
+.G...R.
 
 
 Gerard:
-12% Gilded Strike
-68% Gilded Dash
-4% Avaricious Larceny
-16% Hooked Grasp
+55% Hooked Larceny
+19% Hooked Strike
+26% Hooked Burst
 
 Runika:
-15% Channeled Drive
-35% Explosive Shot
-47% Explosive Drive
-2% Overcharged Drive
+8% Maintenance Shot
+12% Explosive Tinker
+80% Impact Shot
 
 
-Gerard: Gilded Strike
-Runika: Channeled Drive
+Gerard: Hooked Strike
+Runika: Maintenance Shot
 
-Priorities:  2 | 5
-Runika is active
-No artifacts to activate
+Priorities:  2 | 1
+Gerard is active
+Gerard moves:
+
+G....R.
+
+Gerard misses
+Runika misses
 Runika moves:
 
-.G.R...
+G.....R
 
-Runika hits
-Gerard takes 5 damage (now at 8 life)
-Gerard hits
-Autodeflector is de-activated
-Runika takes 4 damage (now at 11 life)
-Runika is stunned
-Runika loses 1 life (now at 10)
-Battlefist is de-activated
 Gerard gains 1 Gold Token (has 3)
 
-Beat 5
+Beat 7
 -------
 
 Gerard
 ------
-Life: 8
-Discard 1: Gilded Strike
-Discard 2: Villainous Drive
+Life: 12
+Discard 1: Hooked Strike
+Discard 2: Initiation Drive
 Special action available
 Gold: 3
 Mercenaries in play:
@@ -309,126 +413,400 @@ Mercenaries in play:
 
 Runika
 ------
-Life: 10
-Discard 1: Channeled Drive
-Discard 2: Impact Dash
-Special action available
-Active artifacts: 
-  Phase Goggles
-  Shield Amulet
-Removed artifacts: 
-  Hover Boots
-
-
-.G.R...
-
-Unbeatable strategy for Gerard: Avaricious Dash: 0.11
-Unbeatable strategy for Gerard: Initiation Dash: 0.11
-
-
-Gerard:
-0% Hooked Grasp
-21% Initiation Larceny
-12% Initiation Shot
-26% Initiation Burst
-3% Initiation Grasp
-37% Initiation Dash
-
-Runika:
-45% Maintenance Tinker
-4% Maintenance Burst
-14% Explosive Burst
-9% Explosive Grasp
-7% Overcharged Tinker
-21% Overcharged Grasp
-
-
-Gerard: Initiation Larceny
-Runika: Maintenance Tinker
-
-Priorities:  4 | 2
-Gerard is active
-Gerard moves Runika:
-
-.GR....
-
-Gerard moves:
-
-..RG...
-
-Gerard hits
-First hireling next beat will cost 2 gold less
-Phase Goggles is de-activated
-Runika has 3 soak
-Runika takes 1 damage (now at 9 life)
-Gerard gains 3 Gold Tokens (has 6)
-Runika loses 1 life (now at 8)
-Runika hits
-Gerard takes 2 damage (now at 6 life)
-Gerard is stunned
-Autodeflector is activated
-Runika moves:
-
-R..G...
-
-Gerard gains 1 Gold Token (has 7)
-
-Beat 6
--------
-
-Gerard
-------
-Life: 6
-Discard 1: Initiation Larceny
-Discard 2: Gilded Strike
-Special action available
-First hireling costs 2 gold less
-Gold: 7
-Mercenaries in play:
-  Brawler
-  Archer
-
-Runika
-------
-Life: 8
-Discard 1: Maintenance Tinker
-Discard 2: Channeled Drive
+Life: 15
+Discard 1: Maintenance Shot
+Discard 2: Channeled Burst
 Special action available
 Active artifacts: 
   Shield Amulet
   Autodeflector
 Removed artifacts: 
   Hover Boots
+  Phase Goggles
+
+
+G.....R
+
+Unbeatable strategy for Gerard: Gilded Shot (Hire Trebuchet): 0.93
+Unbeatable strategy for Gerard: Gilded Burst (Hire Trebuchet): 0.06
+
+
+Gerard:
+56% Villainous Larceny
+7% Villainous Grasp (Hire Trebuchet)
+37% Gilded Shot (Hire Trebuchet)
+
+Runika:
+16% Explosive Strike
+55% Overcharged Tinker
+29% Overcharged Strike
+
+
+Gerard: Villainous Larceny
+Runika: Overcharged Tinker
+
+Priorities:  3 | 3
+Clash!
+
+
+Gerard: Villainous Dash
+Runika: Overcharged Drive
+
+Priorities:  9 | 4
+Gerard is active
+Runika overcharges her Autodeflector
+Gerard moves:
+
+.G....R
+
+Runika moves:
+
+.G..R..
+
+Runika misses
+Gerard moves:
+
+..G.R..
+
+Autodeflector is removed from the game
+Gerard gains 1 Gold Token (has 4)
+
+Beat 8
+-------
+
+Gerard
+------
+Life: 12
+Discard 1: Villainous Dash
+Discard 2: Hooked Strike
+Special action available
+Gold: 4
+Mercenaries in play:
+  Brawler
+  Archer
+
+Runika
+------
+Life: 15
+Discard 1: Overcharged Drive
+Discard 2: Maintenance Shot
+Special action available
+Active artifacts: 
+  Shield Amulet
+Removed artifacts: 
+  Hover Boots
+  Phase Goggles
+  Autodeflector
+
+
+..G.R..
+
+Unbeatable strategy for Gerard: Gilded Burst: 2.04
+Unbeatable strategy for Gerard: Gilded Burst (Hire Trebuchet): 0.92
+Unbeatable strategy for Gerard: Gilded Burst (Hire Gunslinger): 1.54
+Unbeatable strategy for Gerard: Gilded Burst (Hire Mage): 1.54
+Unbeatable strategy for Gerard: Gilded Burst (Hire Heavy Knight): 1.54
+Unbeatable strategy for Gerard: Gilded Burst (Hire Gunslinger, Mage): 1.04
+Unbeatable strategy for Gerard: Gilded Burst (Hire Gunslinger, Heavy Knight): 1.04
+Unbeatable strategy for Gerard: Gilded Burst (Hire Mage, Heavy Knight): 1.04
+
+
+Gerard:
+18% Gilded Burst
+82% Initiation Drive
+
+Runika:
+4% Channeled Tinker
+96% Explosive Dash
+
+
+Gerard: Initiation Drive
+Runika: Explosive Dash
+
+Priorities:  5 | 9
+Runika is active
+Runika moves Gerard:
+
+...GR..
+
+Runika moves:
+
+.R.G...
+
+Gerard moves:
+
+.RG....
+
+Gerard misses
+Runika loses 1 life (now at 14)
+Gerard gains 1 Gold Token (has 5)
+
+Beat 9
+-------
+
+Gerard
+------
+Life: 12
+Discard 1: Initiation Drive
+Discard 2: Villainous Dash
+Special action available
+Gold: 5
+Mercenaries in play:
+  Brawler
+  Archer
+
+Runika
+------
+Life: 14
+Discard 1: Explosive Dash
+Discard 2: Overcharged Drive
+Special action available
+Active artifacts: 
+  Shield Amulet
+Removed artifacts: 
+  Hover Boots
+  Phase Goggles
+  Autodeflector
+
+
+.RG....
+
+
+Gerard:
+14% Avaricious Larceny
+4% Avaricious Burst
+44% Hooked Shot
+38% Hooked Burst
+
+Runika:
+6% Maintenance Shot
+8% Maintenance Burst
+0% Impact Shot
+86% Special Pulse
+
+
+Gerard: Hooked Shot
+Runika: Special Pulse
+
+Runika Pulses:
+
+GR.....
+
+
+Beat 9
+-------
+
+Gerard
+------
+Life: 12
+Discard 1: Hooked Shot
+Discard 2: Initiation Drive
+Special action available
+Gold: 5
+Mercenaries in play:
+  Brawler
+  Archer
+
+Runika
+------
+Life: 14
+Discard 1: Explosive Dash
+Discard 2: Overcharged Drive
+Active artifacts: 
+  Shield Amulet
+Removed artifacts: 
+  Hover Boots
+  Phase Goggles
+  Autodeflector
+
+
+GR.....
+
+Unbeatable strategy for Gerard: Villainous Dash: 0.39
+Unbeatable strategy for Gerard: Gilded Dash: 0.76
+Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger): 0.26
+Unbeatable strategy for Gerard: Gilded Dash (Hire Mage): 0.26
+Unbeatable strategy for Gerard: Gilded Dash (Hire Heavy Knight): 0.26
+Unbeatable strategy for Gerard: Avaricious Dash: 0.69
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Gunslinger): 0.19
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Mage): 0.19
+Unbeatable strategy for Gerard: Avaricious Dash (Hire Heavy Knight): 0.19
+
+
+Gerard:
+13% Villainous Larceny (Hire Mage; Activate Mage)
+9% Villainous Strike (Hire Mage; Activate Mage)
+28% Gilded Strike
+7% Avaricious Larceny (Hire Gunslinger; Activate Gunslinger)
+44% Avaricious Burst (Hire Mage; Activate Mage)
+
+Runika:
+23% Channeled Strike
+48% Channeled Shot
+4% Channeled Burst
+12% Channeled Grasp
+12% Maintenance Burst
+
+
+Gerard: Avaricious Burst (Hire Mage; Activate Mage)
+Runika: Channeled Shot
+
+Gerard hires a Mage for 2 gold (3 remaining)
+Gerard activates his Mage for 3 gold (0 remaining)
+Priorities:  3 | 3
+Clash!
+
+
+Gerard: Avaricious Dash (Hire Mage; Activate Mage)
+Runika: Channeled Grasp
+
+Gerard hires a Mage for 2 gold (3 remaining)
+Gerard activates his Mage for 3 gold (0 remaining)
+Priorities:  11 | 6
+Gerard is active
+Gerard moves:
+
+.RG....
+
+Battlefist is activated
+Runika loses 1 life (now at 13)
+Gerard moves:
+
+.R..G..
+
+Runika loses 1 life (now at 12)
+Runika misses
+Battlefist is de-activated
+Gerard gains 1 Gold Token (has 1)
+
+Beat 10
+-------
+
+Gerard
+------
+Life: 12
+Discard 1: Avaricious Dash
+Discard 2: Hooked Shot
+Special action available
+Gold: 1
+Mercenaries in play:
+  Brawler
+  Archer
+  Mage
+
+Runika
+------
+Life: 12
+Discard 1: Channeled Grasp
+Discard 2: Explosive Dash
+Active artifacts: 
+  Shield Amulet
+Removed artifacts: 
+  Hover Boots
+  Phase Goggles
+  Autodeflector
+
+
+.R..G..
+
+Unbeatable strategy for Gerard: Initiation Drive: 0.18
+
+
+Gerard:
+5% Villainous Drive
+32% Gilded Drive
+63% Gilded Burst
+
+Runika:
+57% Maintenance Tinker
+7% Maintenance Shot
+36% Maintenance Burst
+
+
+Gerard: Gilded Burst
+Runika: Maintenance Burst
+
+Priorities:  0 | 0
+Clash!
+
+
+Gerard: Gilded Strike
+Runika: Maintenance Tinker
+
+Priorities:  2 | 2
+Clash!
+
+
+Gerard: Gilded Drive
+Runika: Maintenance Shot
+
+Priorities:  3 | 1
+Gerard is active
+Gerard moves:
+
+.R.G...
+
+Gerard hits
+Shield Amulet is de-activated
+Runika has 2 soak
+Runika takes 1 damage (now at 11 life)
+Runika loses 1 life (now at 10)
+Runika hits
+Gerard takes 2 damage (now at 10 life)
+Runika moves:
+
+R..G...
+
+Gerard gains 1 Gold Token (has 2)
+
+Beat 11
+-------
+
+Gerard
+------
+Life: 10
+Discard 1: Gilded Drive
+Discard 2: Avaricious Dash
+Special action available
+Gold: 2
+Mercenaries in play:
+  Brawler
+  Archer
+  Mage
+
+Runika
+------
+Life: 10
+Discard 1: Maintenance Shot
+Discard 2: Channeled Grasp
+No active artifacts
+Removed artifacts: 
+  Hover Boots
+  Autodeflector
+  Phase Goggles
 
 
 R..G...
 
-Unbeatable strategy for Gerard: Hooked Burst: 0.30
-Unbeatable strategy for Gerard: Hooked Burst (Hire Heavy Knight): 1.10
-Unbeatable strategy for Gerard: Hooked Burst (Hire Gunslinger): 1.10
-Unbeatable strategy for Gerard: Hooked Burst (Hire Mage): 1.10
+Unbeatable strategy for Gerard: Hooked Burst: 2.22
+Unbeatable strategy for Gerard: Hooked Burst (Hire Heavy Knight): 1.72
+Unbeatable strategy for Gerard: Hooked Burst (Hire Gunslinger): 1.72
+Unbeatable strategy for Gerard: Initiation Burst: 1.62
+Unbeatable strategy for Gerard: Initiation Burst (Hire Heavy Knight): 1.12
+Unbeatable strategy for Gerard: Initiation Burst (Hire Gunslinger): 1.12
 
 
 Gerard:
-10% Villainous Shot (Hire Heavy Knight; Activate Heavy Knight)
-23% Villainous Dash (Hire Heavy Knight)
-23% Villainous Dash (Hire Gunslinger)
-23% Villainous Dash (Hire Mage)
-7% Hooked Shot (Hire Heavy Knight)
-7% Hooked Shot (Hire Gunslinger)
-7% Hooked Shot (Hire Mage)
+100% Hooked Burst
 
 Runika:
-20% Explosive Shot
-14% Explosive Dash
-66% Impact Dash
+100% Impact Dash
 
 
-Gerard: Hooked Shot (Hire Heavy Knight)
+Gerard: Hooked Burst
 Runika: Impact Dash
 
-Gerard hires a Heavy Knight for 0 gold (7 remaining)
-Priorities:  1 | 9
+Priorities:  0 | 9
 Runika is active
 Gerard moves:
 
@@ -443,561 +821,342 @@ Runika moves:
 ....R.G
 
 Gerard misses
-Runika loses 1 life (now at 7)
-Gerard gains 1 Gold Token (has 8)
-
-Beat 7
--------
-
-Gerard
-------
-Life: 6
-Discard 1: Hooked Shot
-Discard 2: Initiation Larceny
-Special action available
-Gold: 8
-Mercenaries in play:
-  Brawler
-  Archer
-  Heavy Knight
-
-Runika
-------
-Life: 7
-Discard 1: Impact Dash
-Discard 2: Maintenance Tinker
-Special action available
-Active artifacts: 
-  Shield Amulet
-  Autodeflector
-Removed artifacts: 
-  Hover Boots
-
-
-....R.G
-
-Unbeatable strategy for Gerard: Villainous Dash: 1.08
-Unbeatable strategy for Gerard: Gilded Dash: 1.36
-Unbeatable strategy for Gerard: Gilded Dash (Hire Gunslinger): 0.16
-Unbeatable strategy for Gerard: Gilded Dash (Hire Mage): 0.16
-Unbeatable strategy for Gerard: Avaricious Dash: 1.17
-
-
-Gerard:
-20% Gilded Dash
-80% Special Pulse
-
-Runika:
-27% Channeled Drive
-73% Special Artifice Avarice
-
-
-Gerard: Special Pulse
-Runika: Special Artifice Avarice
-
-Gerard Pulses:
-
-..G..R.
-
-
-Beat 7
--------
-
-Gerard
-------
-Life: 6
-Discard 1: Hooked Shot
-Discard 2: Initiation Larceny
-Gold: 8
-Mercenaries in play:
-  Brawler
-  Archer
-  Heavy Knight
-
-Runika
-------
-Life: 7
-Discard 1: Special Strike
-Discard 2: Impact Dash
-Active artifacts: 
-  Shield Amulet
-  Autodeflector
-Removed artifacts: 
-  Hover Boots
-
-
-..G..R.
-
-
-Gerard:
-53% Villainous Dash
-20% Gilded Drive
-24% Gilded Burst
-3% Avaricious Drive (Hire Gunslinger; Activate Gunslinger)
-
-Runika:
-47% Channeled Tinker
-26% Channeled Shot
-15% Channeled Drive
-12% Maintenance Tinker
-
-
-Gerard: Villainous Dash
-Runika: Channeled Shot
-
-Priorities:  9 | 3
-Gerard is active
-Phase Goggles is activated
-Runika loses 1 life (now at 6)
-Gerard moves:
-
-.....RG
-
-Runika loses 1 life (now at 5)
-Runika misses
-Gerard moves:
-
-..G..R.
-
-Shield Amulet is de-activated
-Gerard gains 1 Gold Token (has 9)
-
-Beat 8
--------
-
-Gerard
-------
-Life: 6
-Discard 1: Villainous Dash
-Discard 2: Hooked Shot
-Gold: 9
-Mercenaries in play:
-  Brawler
-  Archer
-  Heavy Knight
-
-Runika
-------
-Life: 5
-Discard 1: Channeled Shot
-Discard 2: Special Strike
-Active artifacts: 
-  Phase Goggles
-  Autodeflector
-Removed artifacts: 
-  Hover Boots
-
-
-..G..R.
-
-Unbeatable strategy for Runika: Maintenance Tinker: -0.86
-Unbeatable strategy for Runika: Explosive Dash: -2.22
-Unbeatable strategy for Runika: Impact Dash: -2.09
-
-
-Gerard:
-59% Gilded Burst
-8% Initiation Larceny (Hire Mage; Activate Mage)
-33% Initiation Drive
-
-Runika:
-8% Explosive Tinker
-11% Explosive Drive
-81% Explosive Dash
-
-
-Gerard: Gilded Burst
-Runika: Explosive Tinker
-
-Priorities:  0 | 3
-Runika is active
-Runika moves Gerard:
-
-...G.R.
-
-Gerard moves:
-
-.G...R.
-
-Runika misses
-Shield Amulet is activated
-Gerard hits
-Phase Goggles is de-activated
-Runika has 2 soak
-Runika takes 1 damage (now at 4 life)
-Runika loses 1 life (now at 3)
-Gerard gains 1 Gold Token (has 10)
-
-Beat 9
--------
-
-Gerard
-------
-Life: 6
-Discard 1: Gilded Burst
-Discard 2: Villainous Dash
-Gold: 10
-Mercenaries in play:
-  Brawler
-  Archer
-  Heavy Knight
-
-Runika
-------
-Life: 3
-Discard 1: Explosive Tinker
-Discard 2: Channeled Shot
-Special action available
-Active artifacts: 
-  Autodeflector
-  Shield Amulet
-Removed artifacts: 
-  Hover Boots
-
-
-.G...R.
-
-
-Gerard:
-7% Hooked Strike
-7% Hooked Strike (Hire Gunslinger)
-7% Hooked Strike (Hire Mage)
-10% Hooked Grasp
-11% Hooked Grasp (Hire Gunslinger)
-11% Hooked Grasp (Hire Mage)
-7% Initiation Shot (Hire Lackey)
-30% Initiation Shot (Hire Mage; Activate Mage)
-10% Initiation Shot (Hire Mage; Activate Heavy Knight, Mage)
-
-Runika:
-4% Maintenance Grasp
-7% Impact Drive
-6% Impact Dash
-73% Special Artifice Avarice
-10% Special Udstad Beam
-
-
-Gerard: Hooked Grasp (Hire Mage)
-Runika: Impact Drive
-
-Gerard hires a Mage for 2 gold (8 remaining)
-Priorities:  4 | 4
-Clash!
-
-
-Gerard: Hooked Shot (Hire Mage)
-Runika: Impact Dash
-
-Gerard hires a Mage for 2 gold (8 remaining)
-Priorities:  1 | 9
-Runika is active
-Gerard moves:
-
-G....R.
-
-Runika moves:
-
-G...R..
-
-Runika moves:
-
-GR.....
-
-Gerard misses
-Runika loses 1 life (now at 2)
-Gerard gains 1 Gold Token (has 9)
-
-Beat 10
--------
-
-Gerard
-------
-Life: 6
-Discard 1: Hooked Shot
-Discard 2: Gilded Burst
-Gold: 9
-Mercenaries in play:
-  Brawler
-  Archer
-  Heavy Knight
-  Mage
-
-Runika
-------
-Life: 2
-Discard 1: Impact Dash
-Discard 2: Explosive Tinker
-Special action available
-Active artifacts: 
-  Autodeflector
-  Shield Amulet
-Removed artifacts: 
-  Hover Boots
-
-
-GR.....
-
-
-Gerard:
-44% Villainous Strike (Activate Mage)
-29% Villainous Drive (Activate Mage)
-20% Villainous Drive (Hire Lackey)
-7% Avaricious Larceny (Activate Mage)
-
-Runika:
-12% Channeled Strike
-21% Channeled Burst
-24% Overcharged Burst
-43% Special Artifice Avarice
-
-
-Gerard: Villainous Drive (Activate Mage)
-Runika: Special Artifice Avarice
-
-Gerard activates his Mage for 3 gold (6 remaining)
-Priorities:  5 | 3
-Gerard is active
-Battlefist is activated
-Hover Boots is activated
-Phase Goggles is activated
-Runika overcharges her Autodeflector
-Gerard moves:
-
-.R.G...
-
-Gerard misses
-Runika's Autodeflector blocks life loss
-Runika hits
-Gerard takes 4 damage (now at 2 life)
-Gerard is stunned
-Gerard moves:
-
-.RG....
-
-Gerard gains 1 Gold Token (has 7)
-
-Beat 11
--------
-
-Gerard
-------
-Life: 2
-Discard 1: Villainous Drive
-Discard 2: Hooked Shot
-Gold: 7
-Mercenaries in play:
-  Brawler
-  Archer
-  Heavy Knight
-  Mage
-
-Runika
-------
-Life: 2
-Discard 1: Impact Dash
-Discard 2: Explosive Tinker
-Active artifacts: 
-  Hover Boots
-  Battlefist
-  Autodeflector
-  Phase Goggles
-  Shield Amulet
-
-
-.RG....
-
-Unbeatable strategy for Runika: Overcharged Drive: -0.91
-
-
-Gerard:
-5% Gilded Burst (Hire Lackey)
-69% Gilded Dash (Hire Lackey)
-3% Initiation Burst (Hire Lackey)
-23% Initiation Grasp (Hire Lackey)
-
-Runika:
-25% Maintenance Drive
-3% Maintenance Burst
-54% Overcharged Drive
-18% Overcharged Grasp
-
-
-Gerard: Initiation Burst (Hire Lackey)
-Runika: Overcharged Grasp
-
-Gerard hires a Lackey for 7 gold (0 remaining)
-Priorities:  2 | 7
-Runika is active
-Runika overcharges her Autodeflector
-Gerard moves:
-
-.R..G..
-
-Runika misses
-Gerard hits
-First hireling next beat will cost 2 gold less
-Phase Goggles is de-activated
-Runika has 4 soak
-Runika takes 0 damage (now at 2 life)
-Runika's Autodeflector blocks life loss
-Autodeflector is removed from the game
-Gerard gains 1 Gold Token (has 1)
+Runika loses 1 life (now at 9)
+Gerard gains 1 Gold Token (has 3)
 
 Beat 12
 -------
 
 Gerard
 ------
-Life: 2
-Discard 1: Initiation Burst
-Discard 2: Villainous Drive
-First hireling costs 2 gold less
-Gold: 1
+Life: 10
+Discard 1: Hooked Burst
+Discard 2: Gilded Drive
+Special action available
+Gold: 3
 Mercenaries in play:
   Brawler
   Archer
-  Heavy Knight
   Mage
-Mercenaries removed from the game:
-  Lackey
 
 Runika
 ------
-Life: 2
-Discard 1: Overcharged Grasp
-Discard 2: Impact Dash
-Active artifacts: 
-  Hover Boots
-  Battlefist
-  Shield Amulet
+Life: 9
+Discard 1: Impact Dash
+Discard 2: Maintenance Shot
+No active artifacts
 Removed artifacts: 
+  Hover Boots
   Autodeflector
+  Phase Goggles
 
 
-.R..G..
-
-Unbeatable strategy for Runika: Channeled Shot: -1.39
+....R.G
 
 
 Gerard:
-1% Gilded Shot
-1% Gilded Shot (Hire Gunslinger)
-1% Gilded Shot (Hire Trebuchet)
-92% Gilded Dash (Hire Gunslinger)
-0% Avaricious Shot
-0% Avaricious Shot (Hire Gunslinger)
-0% Avaricious Shot (Hire Trebuchet)
-1% Hooked Shot
-1% Hooked Shot (Hire Gunslinger)
-1% Hooked Shot (Hire Trebuchet)
-0% Hooked Grasp
-0% Hooked Grasp (Hire Gunslinger)
-0% Hooked Grasp (Hire Trebuchet)
+7% Villainous Dash
+19% Initiation Larceny (Activate Mage)
+74% Initiation Dash
 
 Runika:
-63% Channeled Shot
-37% Maintenance Tinker
+2% Channeled Tinker
+40% Channeled Drive
+44% Channeled Burst
+11% Overcharged Tinker
+3% Overcharged Burst
 
 
-Gerard: Gilded Dash (Hire Gunslinger)
-Runika: Maintenance Tinker
+Gerard: Initiation Larceny (Activate Mage)
+Runika: Channeled Drive
 
-Gerard hires a Gunslinger for 0 gold (1 remaining)
-Priorities:  8 | 4
+Gerard activates his Mage for 3 gold (0 remaining)
+Priorities:  5 | 5
+Clash!
+
+
+Gerard: Initiation Shot (Activate Mage)
+Runika: Channeled Strike
+
+Gerard activates his Mage for 3 gold (0 remaining)
+Priorities:  4 | 4
+Clash!
+
+
+Gerard: Initiation Dash (Activate Mage)
+Runika: Channeled Burst
+
+Gerard activates his Mage for 3 gold (0 remaining)
+Priorities:  11 | 2
 Gerard is active
-Gerard moves Runika:
-
-..R.G..
-
-Gerard moves:
-
-G.R....
-
-Runika loses 1 life (now at 1)
-Runika misses
-Phase Goggles is activated
+Battlefist is activated
 Runika moves:
 
-G..R...
+...R..G
 
-Gerard gains 1 Gold Token (has 2)
+Runika loses 1 life (now at 8)
+Gerard moves:
+
+..GR...
+
+Runika loses 1 life (now at 7)
+Runika misses
+Battlefist is de-activated
+Gerard gains 1 Gold Token (has 1)
 
 Beat 13
 -------
 
 Gerard
 ------
-Life: 2
-Discard 1: Gilded Dash
-Discard 2: Initiation Burst
+Life: 10
+Discard 1: Initiation Dash
+Discard 2: Hooked Burst
+Special action available
+Gold: 1
+Mercenaries in play:
+  Brawler
+  Archer
+  Mage
+
+Runika
+------
+Life: 7
+Discard 1: Channeled Burst
+Discard 2: Impact Dash
+No active artifacts
+Removed artifacts: 
+  Hover Boots
+  Autodeflector
+  Phase Goggles
+
+
+..GR...
+
+Unbeatable strategy for Gerard: Avaricious Grasp: 0.11
+
+
+Gerard:
+16% Villainous Larceny
+18% Villainous Shot
+53% Villainous Grasp
+13% Gilded Larceny
+
+Runika:
+53% Maintenance Tinker
+15% Maintenance Grasp
+11% Overcharged Tinker
+20% Overcharged Grasp
+
+
+Gerard: Gilded Larceny
+Runika: Maintenance Tinker
+
+Priorities:  2 | 2
+Clash!
+
+
+Gerard: Gilded Drive
+Runika: Maintenance Drive
+
+Priorities:  3 | 3
+Clash!
+
+
+Gerard: Gilded Grasp
+Runika: Maintenance Grasp
+
+Priorities:  4 | 4
+Clash!
+
+
+Gerard: Gilded Shot
+Runika: Maintenance Strike
+
+Priorities:  1 | 2
+Runika is active
+Runika hits
+Gerard takes 3 damage (now at 7 life)
+Runika moves:
+
+..G.R..
+
+Gerard hits
+No artifacts to de-activate
+Runika has 2 soak
+Runika takes 1 damage (now at 6 life)
+Runika loses 1 life (now at 5)
+Gerard gains 1 Gold Token (has 2)
+
+Beat 14
+-------
+
+Gerard
+------
+Life: 7
+Discard 1: Gilded Shot
+Discard 2: Initiation Dash
+Special action available
 Gold: 2
 Mercenaries in play:
   Brawler
   Archer
-  Heavy Knight
   Mage
-  Gunslinger
-Mercenaries removed from the game:
-  Lackey
 
 Runika
 ------
-Life: 1
-Discard 1: Maintenance Tinker
-Discard 2: Overcharged Grasp
-Active artifacts: 
-  Hover Boots
-  Shield Amulet
-  Phase Goggles
-  Battlefist
+Life: 5
+Discard 1: Maintenance Strike
+Discard 2: Channeled Burst
+No active artifacts
 Removed artifacts: 
+  Hover Boots
   Autodeflector
+  Phase Goggles
 
 
-G..R...
+..G.R..
 
-Unbeatable strategy for Runika: Channeled Shot: -7.00
-Unbeatable strategy for Runika: Channeled Drive: -7.00
-Unbeatable strategy for Runika: Channeled Burst: -7.00
-Unbeatable strategy for Runika: Explosive Drive: -7.00
-Unbeatable strategy for Runika: Impact Strike: -7.00
-Unbeatable strategy for Runika: Impact Drive: -7.00
+Unbeatable strategy for Gerard: Avaricious Grasp: 0.68
 
 
 Gerard:
-7% Villainous Larceny
-5% Villainous Strike
-5% Villainous Shot
-5% Villainous Drive
-6% Villainous Grasp
-9% Avaricious Larceny
-5% Avaricious Strike
-6% Avaricious Shot
-11% Avaricious Drive
-15% Avaricious Grasp
-5% Hooked Larceny
-4% Hooked Strike
-4% Hooked Shot
-5% Hooked Drive
-7% Hooked Grasp
+47% Villainous Drive
+53% Avaricious Grasp
 
 Runika:
-33% Channeled Shot
-33% Channeled Drive
-33% Channeled Burst
+14% Explosive Grasp
+86% Explosive Dash
 
 
-Gerard: Avaricious Larceny
-Runika: Channeled Shot
+Gerard: Avaricious Grasp
+Runika: Explosive Dash
 
-Priorities:  4 | 5
+Priorities:  6 | 9
 Runika is active
-No artifacts to activate
+Runika moves Gerard:
+
+...GR..
+
+Gerard moves:
+
+....RG.
+
+Runika moves:
+
+...R.G.
+
+Gerard misses
+Runika loses 1 life (now at 4)
+Gerard gains 1 Gold Token (has 3)
+
+Beat 15
+-------
+
+Gerard
+------
+Life: 7
+Discard 1: Avaricious Grasp
+Discard 2: Gilded Shot
+Special action available
+Gold: 3
+Mercenaries in play:
+  Brawler
+  Archer
+  Mage
+
+Runika
+------
+Life: 4
+Discard 1: Explosive Dash
+Discard 2: Maintenance Strike
+No active artifacts
+Removed artifacts: 
+  Hover Boots
+  Autodeflector
+  Phase Goggles
+
+
+...R.G.
+
+Unbeatable strategy for Gerard: Villainous Dash: 9.00
+Unbeatable strategy for Gerard: Villainous Dash (Activate Mage): 9.00
+Unbeatable strategy for Gerard: Villainous Dash (Hire Heavy Knight): 9.00
+Unbeatable strategy for Gerard: Villainous Dash (Hire Gunslinger): 9.00
+Unbeatable strategy for Gerard: Villainous Dash (Hire Trebuchet): 9.00
+Unbeatable strategy for Gerard: Hooked Dash: 9.00
+Unbeatable strategy for Gerard: Hooked Dash (Activate Mage): 9.00
+Unbeatable strategy for Gerard: Hooked Dash (Hire Heavy Knight): 9.00
+Unbeatable strategy for Gerard: Hooked Dash (Hire Gunslinger): 9.00
+Unbeatable strategy for Gerard: Hooked Dash (Hire Trebuchet): 9.00
+Unbeatable strategy for Gerard: Initiation Dash: 9.00
+Unbeatable strategy for Gerard: Initiation Dash (Activate Mage): 9.00
+Unbeatable strategy for Gerard: Initiation Dash (Hire Heavy Knight): 9.00
+Unbeatable strategy for Gerard: Initiation Dash (Hire Gunslinger): 9.00
+Unbeatable strategy for Gerard: Initiation Dash (Hire Trebuchet): 9.00
+
+
+Gerard:
+5% Villainous Dash
+5% Villainous Dash (Activate Mage)
+5% Villainous Dash (Hire Heavy Knight)
+5% Villainous Dash (Hire Gunslinger)
+5% Villainous Dash (Hire Trebuchet)
+5% Hooked Dash
+5% Hooked Dash (Activate Mage)
+5% Hooked Dash (Hire Heavy Knight)
+5% Hooked Dash (Hire Gunslinger)
+5% Hooked Dash (Hire Trebuchet)
+5% Initiation Larceny (Activate Mage)
+5% Initiation Drive
+5% Initiation Drive (Activate Mage)
+5% Initiation Drive (Hire Heavy Knight)
+5% Initiation Drive (Hire Gunslinger)
+5% Initiation Drive (Hire Trebuchet)
+5% Initiation Dash
+5% Initiation Dash (Activate Mage)
+5% Initiation Dash (Hire Heavy Knight)
+5% Initiation Dash (Hire Gunslinger)
+5% Initiation Dash (Hire Trebuchet)
+
+Runika:
+5% Channeled Tinker
+5% Channeled Shot
+18% Channeled Drive
+17% Channeled Burst
+9% Channeled Grasp
+4% Impact Tinker
+8% Impact Shot
+6% Impact Drive
+5% Impact Burst
+2% Impact Grasp
+5% Overcharged Tinker
+5% Overcharged Shot
+4% Overcharged Drive
+5% Overcharged Burst
+4% Overcharged Grasp
+
+
+Gerard: Villainous Dash (Hire Gunslinger)
+Runika: Channeled Tinker
+
+Gerard hires a Gunslinger for 2 gold (1 remaining)
+Priorities:  9 | 4
+Gerard is active
+Shield Amulet is activated
 Gerard moves:
 
 .G.R...
 
-Runika hits
-Gerard takes 5 damage (now at 0 life)
-RUNIKA WINS!
-total_time: 732
+Runika loses 1 life (now at 3)
+Runika misses
+Battlefist is activated
+Gerard moves:
+
+..GR...
+
+Battlefist is de-activated
+Gerard gains 1 Gold Token (has 2)
+Game goes to time
+GERARD WINS!
+total_time: 141

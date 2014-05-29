@@ -11,51 +11,56 @@ Beat 1
 
 Hikaru
 ------
-life: 20
-discard 1: Focused Palm Strike
-discard 2: Trance Strike
-special action
+Life: 20
+Discard 1: Focused Palm Strike
+Discard 2: Trance Strike
+Special action available
 pool: Earth, Fire, Water, Wind
 
 Zaamassal
 ---------
-life: 20
-discard 1: Malicious Grasp
-discard 2: Sinuous Burst
-special action
+Life: 20
+Discard 1: Malicious Grasp
+Discard 2: Sinuous Burst
+Special action available
 Active paradigm: None
 
 
 .H...Z.
 
+
 Hikaru:
-24% Advancing Shot
-44% Advancing Shot (Wind)
-17% Advancing Drive
-0% Sweeping Burst
-11% Geomantic Shot
-5% Geomantic Shot (Wind)
+27% Advancing Shot
+2% Advancing Shot (Earth)
+21% Advancing Shot (Wind)
+10% Advancing Drive
+24% Advancing Drive (Water)
+15% Geomantic Shot (Water)
 
 Zaamassal:
-2% Urgent Paradigm Shift
-64% Urgent Dash
-21% Sturdy Shot
-2% Sturdy Drive
+3% Urgent Paradigm Shift
+74% Urgent Dash
+6% Sturdy Paradigm Shift
+7% Sturdy Drive
 7% Warped Strike
 3% Warped Drive
 
 
-Hikaru: Geomantic Shot (Wind)
-Zaamassal: Urgent Paradigm Shift
+Hikaru: Geomantic Shot (Water)
+Zaamassal: Urgent Dash
 
-Hikaru antes a Wind token
-Priorities:  4 | 5
+Hikaru antes a Water token
+Priorities:  2 | 11
 Zaamassal is active
-Hikaru antes an Earth token
-Zaamassal hits
-Hikaru has 3 soak
-Hikaru takes 0 damage (now at 20 life)
-Zaamassal assumes the Paradigm of Distortion
+Zaamassal moves:
+
+.H..Z..
+
+Zaamassal assumes the Paradigm of Haste
+Zaamassal moves:
+
+ZH.....
+
 Hikaru misses
 
 Beat 2
@@ -63,57 +68,53 @@ Beat 2
 
 Hikaru
 ------
-life: 20
-discard 1: Geomantic Shot
-discard 2: Focused Palm Strike
-special action
-pool: Fire, Water
+Life: 20
+Discard 1: Geomantic Shot
+Discard 2: Focused Palm Strike
+Special action available
+pool: Earth, Fire, Wind
 
 Zaamassal
 ---------
-life: 20
-discard 1: Urgent Paradigm Shift
-discard 2: Malicious Grasp
-special action
-Active paradigm: Distortion
+Life: 20
+Discard 1: Urgent Dash
+Discard 2: Malicious Grasp
+Special action available
+Active paradigm: Haste
 
 
-.H...Z.
+ZH.....
+
+Unbeatable strategy for Hikaru: Advancing Grasp (Fire): 0.64
+
 
 Hikaru:
-4% Trance Drive
-4% Trance Drive (Fire)
-4% Trance Drive (Water)
-6% Trance Grasp
-7% Trance Grasp (Fire)
-7% Trance Grasp (Water)
+14% Advancing Strike (Fire)
+36% Advancing Drive (Earth)
 5% Advancing Drive (Fire)
-34% Advancing Drive (Water)
-29% Sweeping Drive (Water)
+45% Advancing Grasp (Fire)
 
 Zaamassal:
-37% Sinuous Drive
-26% Sturdy Shot
-11% Sturdy Drive
-23% Sturdy Burst
-2% Warped Shot
-1% Warped Burst
+11% Sinuous Strike
+9% Sinuous Drive
+66% Sturdy Strike
+15% Sturdy Drive
 
 
-Hikaru: Sweeping Drive (Water)
-Zaamassal: Sturdy Shot
+Hikaru: Advancing Grasp (Fire)
+Zaamassal: Sturdy Drive
 
-Hikaru antes a Water token
-Priorities:  7 | 2
+Hikaru antes a Fire token
+Priorities:  6 | 4
 Hikaru is active
-Hikaru moves:
-
-...H.Z.
-
 Hikaru hits
-Zaamassal takes 2 damage (now at 18 life)
+Hikaru moves Zaamassal:
+
+.HZ....
+
+Zaamassal takes 6 damage (now at 14 life)
 Zaamassal hits
-Hikaru takes 5 damage (now at 15 life)
+Hikaru takes 3 damage (now at 17 life)
 Hikaru is stunned
 Zaamassal assumes the Paradigm of Resilience
 
@@ -122,298 +123,93 @@ Beat 3
 
 Hikaru
 ------
-life: 15
-discard 1: Sweeping Drive
-discard 2: Geomantic Shot
-special action
-pool: Fire
+Life: 17
+Discard 1: Advancing Grasp
+Discard 2: Geomantic Shot
+Special action available
+pool: Earth, Wind
 
 Zaamassal
 ---------
-life: 18
-discard 1: Sturdy Shot
-discard 2: Urgent Paradigm Shift
-special action
+Life: 14
+Discard 1: Sturdy Drive
+Discard 2: Urgent Dash
+Special action available
 Active paradigm: Resilience
 
 
-...H.Z.
+.HZ....
 
-Unbeatable strategy for Zaamassal: Warped Strike: -0.22
-Unbeatable strategy for Zaamassal: Warped Grasp: -0.52
+Unbeatable strategy for Zaamassal: Sinuous Strike: -0.78
+Unbeatable strategy for Zaamassal: Sinuous Shot: -0.36
+
 
 Hikaru:
-14% Trance Palm Strike
-11% Trance Palm Strike (Fire)
-34% Trance Burst
-38% Trance Burst (Fire)
-2% Trance Grasp
-2% Trance Grasp (Fire)
+21% Trance Dash
+19% Trance Dash (Earth)
+20% Trance Dash (Wind)
+40% Focused Drive (Earth)
 
 Zaamassal:
-39% Warped Strike
-1% Warped Drive
-60% Warped Grasp
+81% Sinuous Strike
+19% Sinuous Burst
 
 
-Hikaru: Trance Burst
-Zaamassal: Warped Grasp
+Hikaru: Trance Dash
+Zaamassal: Sinuous Strike
 
-Priorities:  1 | 5
-Zaamassal is active
-Zaamassal moves:
-
-...H..Z
-
+Priorities:  9 | 4
+Hikaru is active
 Hikaru moves:
 
-..H...Z
+..ZH...
 
 Zaamassal misses
-Zaamassal assumes the Paradigm of Distortion
-Hikaru misses
-Hikaru recovers an Earth token
+Zaamassal assumes the Paradigm of Fluidity
+Hikaru recovers his Fire token
+Zaamassal moves:
+
+Z..H...
+
 
 Beat 4
 -------
 
 Hikaru
 ------
-life: 15
-discard 1: Trance Burst
-discard 2: Sweeping Drive
-special action
-pool: Fire, Earth
+Life: 17
+Discard 1: Trance Dash
+Discard 2: Advancing Grasp
+Special action available
+pool: Earth, Wind, Fire
 
 Zaamassal
 ---------
-life: 18
-discard 1: Warped Grasp
-discard 2: Sturdy Shot
-special action
-Active paradigm: Distortion
+Life: 14
+Discard 1: Sinuous Strike
+Discard 2: Sturdy Drive
+Special action available
+Active paradigm: Fluidity
 
 
-..H...Z
+Z..H...
+
+Unbeatable strategy for Hikaru: Geomantic Drive (Wind): 0.33
+
 
 Hikaru:
-29% Advancing Shot (Earth)
-49% Geomantic Strike
-4% Geomantic Shot
-0% Geomantic Shot (Earth)
-17% Geomantic Dash
-
-Zaamassal:
-13% Malicious Drive
-11% Sinuous Strike
-10% Sinuous Dash
-13% Urgent Strike
-53% Urgent Burst
-
-
-Hikaru: Geomantic Strike
-Zaamassal: Urgent Burst
-
-Priorities:  3 | 3
-Clash!
-
-Hikaru:
-80% Geomantic Palm Strike
-20% Geomantic Grasp
-
-Zaamassal:
-69% Urgent Paradigm Shift
-31% Urgent Drive
-
-
-Hikaru: Geomantic Palm Strike
-Zaamassal: Urgent Paradigm Shift
-
-Priorities:  5 | 5
-Clash!
-
-Hikaru:
-13% Geomantic Shot
-69% Geomantic Grasp
-18% Geomantic Dash
-
-Zaamassal:
-37% Urgent Strike
-20% Urgent Drive
-43% Urgent Dash
-
-
-Hikaru: Geomantic Shot
-Zaamassal: Urgent Drive
-
-Priorities:  2 | 6
-Zaamassal is active
-Hikaru antes a Fire token
-Zaamassal moves:
-
-..H..Z.
-
-Zaamassal hits
-Hikaru takes 2 damage (now at 13 life)
-Hikaru hits
-Zaamassal takes 7 damage (now at 11 life)
-Zaamassal is stunned
-Zaamassal assumes the following paradigms:
-
-Beat 5
--------
-
-Hikaru
-------
-life: 13
-discard 1: Geomantic Shot
-discard 2: Trance Burst
-special action
-pool: Earth
-
-Zaamassal
----------
-life: 11
-discard 1: Urgent Drive
-discard 2: Warped Grasp
-special action
-Active paradigm: None
-
-
-..H..Z.
-
-Unbeatable strategy for Zaamassal: Sinuous Strike: -0.40
-Unbeatable strategy for Zaamassal: Sinuous Dash: -0.46
-
-Hikaru:
-16% Advancing Palm Strike (Earth)
-6% Advancing Drive
-12% Advancing Drive (Earth)
+21% Focused Drive
 11% Sweeping Strike
-10% Sweeping Grasp
-44% Sweeping Dash
+31% Sweeping Drive
+8% Sweeping Drive (Fire)
+29% Geomantic Drive
 
 Zaamassal:
-1% Sinuous Paradigm Shift
-40% Sinuous Strike
-30% Sinuous Burst
-21% Sinuous Dash
-9% Sturdy Burst
-
-
-Hikaru: Sweeping Strike
-Zaamassal: Sinuous Strike
-
-Priorities:  6 | 4
-Hikaru is active
-Hikaru misses
-Zaamassal misses
-Zaamassal assumes the Paradigm of Fluidity
-Zaamassal moves:
-
-..H.Z..
-
-Zaamassal moves:
-
-..H...Z
-
-
-Beat 6
--------
-
-Hikaru
-------
-life: 13
-discard 1: Sweeping Strike
-discard 2: Geomantic Shot
-special action
-pool: Earth
-
-Zaamassal
----------
-life: 11
-discard 1: Sinuous Strike
-discard 2: Urgent Drive
-special action
-Active paradigm: Fluidity
-
-
-..H...Z
-
-Hikaru:
-9% Trance Palm Strike
-9% Trance Palm Strike (Earth)
-2% Trance Drive
-2% Trance Drive (Earth)
-18% Trance Burst
-19% Trance Burst (Earth)
-40% Advancing Drive (Earth)
-
-Zaamassal:
-43% Malicious Shot
-6% Sturdy Grasp
-4% Warped Paradigm Shift
-5% Warped Shot
-41% Warped Grasp
-
-
-Hikaru: Trance Palm Strike (Earth)
-Zaamassal: Malicious Shot
-
-Hikaru antes an Earth token
-Priorities:  5 | 1
-Hikaru is active
-Hikaru moves:
-
-...H..Z
-
-Hikaru misses
-Zaamassal moves:
-
-...H.Z.
-
-Zaamassal hits
-Hikaru takes 4 damage (now at 9 life)
-Hikaru is stunned
-Hikaru recovers a Fire token
-Zaamassal moves:
-
-...H..Z
-
-
-Beat 7
--------
-
-Hikaru
-------
-life: 9
-discard 1: Trance Palm Strike
-discard 2: Sweeping Strike
-special action
-pool: Earth, Fire
-
-Zaamassal
----------
-life: 11
-discard 1: Malicious Shot
-discard 2: Sinuous Strike
-special action
-Active paradigm: Fluidity
-
-
-...H..Z
-
-Hikaru:
-30% Focused Drive
-10% Advancing Shot (Earth)
-3% Geomantic Drive
-57% Geomantic Grasp
-
-Zaamassal:
-19% Sturdy Drive
-9% Sturdy Grasp
-37% Warped Grasp
-34% Warped Dash
+3% Malicious Shot
+1% Malicious Grasp
+3% Urgent Shot
+0% Urgent Grasp
+92% Warped Dash
 
 
 Hikaru: Focused Drive
@@ -423,74 +219,269 @@ Priorities:  5 | 9
 Zaamassal is active
 Zaamassal moves:
 
-...H.Z.
-
-Zaamassal moves:
-
-..ZH...
+...HZ..
 
 Hikaru moves:
 
-.HZ....
+....ZH.
 
 Hikaru misses
 Zaamassal moves:
 
-.H.Z...
+...Z.H.
 
+
+Beat 5
+-------
+
+Hikaru
+------
+Life: 17
+Discard 1: Focused Drive
+Discard 2: Trance Dash
+Special action available
+pool: Earth, Wind, Fire
+
+Zaamassal
+---------
+Life: 14
+Discard 1: Warped Dash
+Discard 2: Sinuous Strike
+Special action available
+Active paradigm: Fluidity
+
+
+...Z.H.
+
+
+Hikaru:
+25% Advancing Shot (Earth)
+10% Advancing Shot (Wind)
+2% Geomantic Palm Strike (Earth)
+31% Geomantic Shot (Wind)
+33% Geomantic Shot (Fire)
+
+Zaamassal:
+25% Urgent Burst
+10% Sturdy Paradigm Shift
+2% Sturdy Shot
+24% Sturdy Drive
+38% Sturdy Burst
+
+
+Hikaru: Advancing Shot (Earth)
+Zaamassal: Sturdy Drive
+
+Hikaru antes an Earth token
+Priorities:  3 | 4
+Zaamassal is active
+Hikaru moves:
+
+...ZH..
+
+Zaamassal moves:
+
+..Z.H..
+
+Zaamassal misses
+Hikaru hits
+Zaamassal takes 4 damage (now at 10 life)
+Zaamassal moves:
+
+.Z..H..
+
+
+Beat 6
+-------
+
+Hikaru
+------
+Life: 17
+Discard 1: Advancing Shot
+Discard 2: Focused Drive
+Special action available
+pool: Wind, Fire
+
+Zaamassal
+---------
+Life: 10
+Discard 1: Sturdy Drive
+Discard 2: Warped Dash
+Special action available
+Active paradigm: Fluidity
+
+
+.Z..H..
+
+Unbeatable strategy for Zaamassal: Malicious Paradigm Shift: -0.18
+Unbeatable strategy for Zaamassal: Malicious Strike: -0.23
+Unbeatable strategy for Zaamassal: Malicious Shot: -0.18
+Unbeatable strategy for Zaamassal: Sinuous Strike: -1.03
+Unbeatable strategy for Zaamassal: Sinuous Shot: -0.22
+Unbeatable strategy for Zaamassal: Sinuous Burst: -2.78
+Unbeatable strategy for Zaamassal: Sinuous Grasp: -0.98
+Unbeatable strategy for Zaamassal: Urgent Paradigm Shift: -0.07
+Unbeatable strategy for Zaamassal: Urgent Strike: -0.18
+Unbeatable strategy for Zaamassal: Urgent Burst: -1.89
+Unbeatable strategy for Zaamassal: Urgent Grasp: -0.33
+
+
+Hikaru:
+11% Trance Palm Strike
+11% Trance Palm Strike (Wind)
+11% Trance Palm Strike (Fire)
+4% Trance Strike
+4% Trance Strike (Wind)
+4% Trance Strike (Fire)
+22% Trance Burst
+12% Trance Burst (Wind)
+11% Trance Burst (Fire)
+4% Trance Dash
+4% Trance Dash (Wind)
+4% Trance Dash (Fire)
+
+Zaamassal:
+1% Malicious Burst
+14% Sinuous Shot
+55% Sinuous Burst
+30% Sinuous Grasp
+
+
+Hikaru: Trance Burst (Wind)
+Zaamassal: Sinuous Grasp
+
+Hikaru antes a Wind token
+Priorities:  1 | 6
+Zaamassal is active
+Hikaru moves:
+
+.Z...H.
+
+Zaamassal moves:
+
+Z....H.
+
+Zaamassal misses
+Hikaru misses
+Zaamassal moves:
+
+.Z...H.
+
+Zaamassal moves:
+
+Z....H.
+
+Hikaru recovers his Earth token
+
+Beat 7
+-------
+
+Hikaru
+------
+Life: 17
+Discard 1: Trance Burst
+Discard 2: Advancing Shot
+Special action available
+pool: Fire, Wind, Earth
+
+Zaamassal
+---------
+Life: 10
+Discard 1: Sinuous Grasp
+Discard 2: Sturdy Drive
+Special action available
+Active paradigm: Fluidity
+
+
+Z....H.
+
+Unbeatable strategy for Hikaru: Focused Dash (Earth): 1.16
+
+
+Hikaru:
+25% Focused Dash (Earth)
+5% Sweeping Grasp
+66% Geomantic Dash
+5% Geomantic Dash (Earth)
+
+Zaamassal:
+5% Malicious Shot
+95% Malicious Burst
+
+
+Hikaru: Geomantic Dash
+Zaamassal: Malicious Burst
+
+Priorities:  9 | 0
+Hikaru is active
+Hikaru antes an Earth token
+Hikaru moves:
+
+Z.H....
+
+Zaamassal hits
+Hikaru has 3 soak
+Hikaru takes 1 damage (now at 16 life)
+Hikaru is stunned
 
 Beat 8
 -------
 
 Hikaru
 ------
-life: 9
-discard 1: Focused Drive
-discard 2: Trance Palm Strike
-special action
-pool: Earth, Fire
+Life: 16
+Discard 1: Geomantic Dash
+Discard 2: Trance Burst
+Special action available
+pool: Fire, Wind
 
 Zaamassal
 ---------
-life: 11
-discard 1: Warped Dash
-discard 2: Malicious Shot
-special action
+Life: 10
+Discard 1: Malicious Burst
+Discard 2: Sinuous Grasp
+Special action available
 Active paradigm: Fluidity
 
 
-.H.Z...
+Z.H....
+
 
 Hikaru:
-16% Sweeping Shot (Earth)
-25% Sweeping Shot (Fire)
-1% Geomantic Strike (Earth)
-57% Geomantic Shot (Earth)
+31% Focused Drive
+55% Focused Drive (Fire)
+11% Advancing Palm Strike (Fire)
+2% Sweeping Drive
 
 Zaamassal:
-27% Sinuous Strike
-32% Sinuous Burst
-19% Urgent Burst
-22% Sturdy Strike
+6% Urgent Paradigm Shift
+9% Urgent Strike
+59% Urgent Dash
+26% Sturdy Strike
 
 
-Hikaru: Geomantic Shot (Earth)
-Zaamassal: Sturdy Strike
+Hikaru: Advancing Palm Strike (Fire)
+Zaamassal: Urgent Dash
 
-Hikaru antes an Earth token
-Priorities:  2 | 3
-Zaamassal is active
 Hikaru antes a Fire token
+Priorities:  6 | 11
+Zaamassal is active
+Hikaru moves:
+
+ZH.....
+
 Zaamassal moves:
 
-.H..Z..
+.HZ....
 
-Zaamassal misses
-Hikaru hits
-Zaamassal takes 7 damage (now at 4 life)
 Zaamassal moves:
 
 .H...Z.
+
+Hikaru misses
+Zaamassal moves:
+
+.H....Z
 
 
 Beat 9
@@ -498,62 +489,126 @@ Beat 9
 
 Hikaru
 ------
-life: 9
-discard 1: Geomantic Shot
-discard 2: Focused Drive
-special action
-pool: 
+Life: 16
+Discard 1: Advancing Palm Strike
+Discard 2: Geomantic Dash
+Special action available
+pool: Wind
 
 Zaamassal
 ---------
-life: 4
-discard 1: Sturdy Strike
-discard 2: Warped Dash
-special action
+Life: 10
+Discard 1: Urgent Dash
+Discard 2: Malicious Burst
+Special action available
 Active paradigm: Fluidity
 
 
-.H...Z.
+.H....Z
 
-Unbeatable strategy for Zaamassal: Malicious Shot: -0.30
-Unbeatable strategy for Zaamassal: Sinuous Shot: -1.04
-Unbeatable strategy for Zaamassal: Urgent Paradigm Shift: -0.22
-Unbeatable strategy for Zaamassal: Urgent Shot: -0.22
-Unbeatable strategy for Zaamassal: Urgent Grasp: -0.03
+Unbeatable strategy for Zaamassal: Warped Paradigm Shift: -0.48
+Unbeatable strategy for Zaamassal: Warped Shot: -0.48
+
 
 Hikaru:
-9% Trance Strike
-15% Trance Dash
-76% Advancing Dash
+10% Trance Strike
+10% Trance Strike (Wind)
+10% Trance Shot
+10% Trance Shot (Wind)
+29% Trance Drive
+29% Trance Drive (Wind)
+1% Trance Burst
+1% Trance Burst (Wind)
 
 Zaamassal:
-48% Sinuous Paradigm Shift
-50% Sinuous Shot
-1% Sinuous Grasp
+3% Sinuous Shot
+22% Sturdy Shot
+60% Warped Paradigm Shift
+15% Warped Strike
 
 
-Hikaru: Advancing Dash
-Zaamassal: Sinuous Paradigm Shift
+Hikaru: Trance Strike
+Zaamassal: Warped Paradigm Shift
 
-Priorities:  10 | 4
-Hikaru is active
+Priorities:  3 | 3
+Clash!
+
+
+Hikaru: Trance Drive
+Zaamassal: Warped Drive
+
+Priorities:  4 | 4
+Clash!
+
+
+Hikaru: Trance Shot
+Zaamassal: Warped Shot
+
+Priorities:  2 | 2
+Clash!
+
+
+Hikaru: Trance Grasp
+Zaamassal: Warped Grasp
+
+Priorities:  5 | 5
+Clash!
+
+
+Hikaru: Trance Burst
+Zaamassal: Warped Strike
+
+Priorities:  1 | 3
+Zaamassal is active
 Hikaru moves:
 
-..H..Z.
-
-Hikaru moves:
-
-H....Z.
-
-Zaamassal moves:
-
-H...Z..
+H.....Z
 
 Zaamassal misses
 Zaamassal assumes the Paradigm of Distortion
-Zaamassal moves:
+Hikaru misses
+Hikaru recovers his Earth token
+
+Beat 10
+-------
+
+Hikaru
+------
+Life: 16
+Discard 1: Trance Burst
+Discard 2: Advancing Palm Strike
+Special action available
+pool: Wind, Earth
+
+Zaamassal
+---------
+Life: 10
+Discard 1: Warped Strike
+Discard 2: Urgent Dash
+Special action available
+Active paradigm: Distortion
+
 
 H.....Z
+
+
+Hikaru:
+3% Sweeping Strike
+3% Sweeping Drive
+94% Special Pulse
+
+Zaamassal:
+8% Sinuous Drive
+90% Sinuous Grasp
+2% Special Pulse
+
+
+Hikaru: Special Pulse
+Zaamassal: Sinuous Drive
+
+Hikaru Pulses:
+
+HZ.....
 
 
 Beat 10
@@ -561,209 +616,238 @@ Beat 10
 
 Hikaru
 ------
-life: 9
-discard 1: Advancing Dash
-discard 2: Geomantic Shot
-special action
-pool: 
+Life: 16
+Discard 1: Trance Burst
+Discard 2: Advancing Palm Strike
+pool: Wind, Earth
 
 Zaamassal
 ---------
-life: 4
-discard 1: Sinuous Paradigm Shift
-discard 2: Sturdy Strike
-special action
+Life: 10
+Discard 1: Sinuous Drive
+Discard 2: Warped Strike
+Special action available
 Active paradigm: Distortion
 
 
-H.....Z
+HZ.....
 
-Unbeatable strategy for Zaamassal: Warped Shot: -0.32
+Unbeatable strategy for Zaamassal: Malicious Dash: -1.02
+Unbeatable strategy for Zaamassal: Urgent Dash: -1.38
+Unbeatable strategy for Zaamassal: Sturdy Paradigm Shift: -0.19
+Unbeatable strategy for Zaamassal: Sturdy Shot: -0.49
+Unbeatable strategy for Zaamassal: Sturdy Burst: -0.17
+Unbeatable strategy for Zaamassal: Sturdy Grasp: -0.52
+Unbeatable strategy for Zaamassal: Sturdy Dash: -2.32
+
 
 Hikaru:
-7% Trance Strike
-30% Trance Drive
-7% Trance Grasp
-56% Focused Burst
+16% Focused Drive
+4% Geomantic Strike
+64% Geomantic Drive
+17% Geomantic Dash
 
 Zaamassal:
-53% Urgent Shot
-40% Warped Shot
-7% Warped Burst
+14% Malicious Shot
+37% Malicious Dash
+10% Urgent Shot
+40% Sturdy Dash
 
 
-Hikaru: Focused Burst
-Zaamassal: Urgent Shot
+Hikaru: Geomantic Drive
+Zaamassal: Malicious Shot
 
-Priorities:  2 | 4
-Zaamassal is active
-Zaamassal moves:
+Priorities:  4 | 1
+Hikaru is active
+Hikaru antes an Earth token
+Hikaru moves:
 
-H....Z.
+.ZH....
 
+Hikaru hits
+Zaamassal takes 4 damage (now at 6 life)
 Zaamassal hits
-Hikaru takes 2 damage (now at 7 life)
-Hikaru misses
+Hikaru has 3 soak
+Hikaru takes 1 damage (now at 15 life)
+Hikaru is stunned
+Zaamassal assumes the Paradigm of Pain
 
 Beat 11
 -------
 
 Hikaru
 ------
-life: 7
-discard 1: Focused Burst
-discard 2: Advancing Dash
-special action
-pool: 
+Life: 15
+Discard 1: Geomantic Drive
+Discard 2: Trance Burst
+pool: Wind
 
 Zaamassal
 ---------
-life: 4
-discard 1: Urgent Shot
-discard 2: Sinuous Paradigm Shift
-special action
-Active paradigm: Distortion
+Life: 6
+Discard 1: Malicious Shot
+Discard 2: Sinuous Drive
+Special action available
+Active paradigm: Pain
 
 
-H....Z.
+.ZH....
 
-Unbeatable strategy for Zaamassal: Sturdy Drive: -1.00
+Unbeatable strategy for Zaamassal: Sturdy Burst: -0.60
+Unbeatable strategy for Zaamassal: Warped Strike: -0.70
+
 
 Hikaru:
-33% Trance Strike
-43% Trance Drive
-24% Trance Grasp
+9% Focused Shot
+0% Advancing Strike
+1% Advancing Shot
+9% Advancing Shot (Wind)
+81% Advancing Dash
 
 Zaamassal:
-53% Sturdy Drive
-47% Warped Burst
+12% Urgent Paradigm Shift
+11% Urgent Strike
+8% Sturdy Paradigm Shift
+9% Warped Paradigm Shift
+60% Warped Strike
 
 
-Hikaru: Trance Grasp
-Zaamassal: Warped Burst
+Hikaru: Advancing Dash
+Zaamassal: Warped Strike
 
-Priorities:  5 | 1
+Priorities:  10 | 3
 Hikaru is active
+Hikaru moves:
+
+HZ.....
+
+Hikaru gets +1 power
 Zaamassal moves:
 
-H.....Z
+H.Z....
 
-Hikaru misses
+Hikaru moves:
+
+..ZH...
+
 Zaamassal misses
-Hikaru recovers an Earth token
 
 Beat 12
 -------
 
 Hikaru
 ------
-life: 7
-discard 1: Trance Grasp
-discard 2: Focused Burst
-special action
-pool: Earth
+Life: 15
+Discard 1: Advancing Dash
+Discard 2: Geomantic Drive
+pool: Wind
 
 Zaamassal
 ---------
-life: 4
-discard 1: Warped Burst
-discard 2: Urgent Shot
-special action
-Active paradigm: Distortion
+Life: 6
+Discard 1: Warped Strike
+Discard 2: Malicious Shot
+Special action available
+Active paradigm: Pain
 
 
-H.....Z
+..ZH...
+
+Unbeatable strategy for Zaamassal: Sturdy Drive: -0.19
+Unbeatable strategy for Zaamassal: Sturdy Burst: -2.05
+
 
 Hikaru:
-18% Sweeping Strike
-6% Geomantic Palm Strike
-75% Geomantic Strike
-1% Geomantic Drive
+9% Trance Shot
+9% Trance Shot (Wind)
+3% Trance Burst
+3% Trance Burst (Wind)
+69% Focused Shot
+7% Focused Shot (Wind)
 
 Zaamassal:
-46% Sinuous Grasp
-31% Sturdy Strike
-20% Sturdy Drive
-3% Special Plane Divider
+15% Sinuous Drive
+5% Urgent Burst
+9% Sturdy Paradigm Shift
+70% Sturdy Burst
 
 
-Hikaru: Geomantic Strike
-Zaamassal: Sturdy Drive
+Hikaru: Trance Shot
+Zaamassal: Sinuous Drive
 
-Priorities:  3 | 4
+Priorities:  2 | 5
 Zaamassal is active
 Zaamassal moves:
 
-H...Z..
+...HZ..
 
-Zaamassal misses
-Hikaru misses
+Zaamassal hits
+Hikaru takes 3 damage (now at 12 life)
+Hikaru loses 2 life (now at 10)
+Hikaru is stunned
+Zaamassal assumes the Paradigm of Fluidity
+Zaamassal moves:
+
+Z..H...
+
+Hikaru recovers his Earth token
 
 Beat 13
 -------
 
 Hikaru
 ------
-life: 7
-discard 1: Geomantic Strike
-discard 2: Trance Grasp
-special action
-pool: Earth
+Life: 10
+Discard 1: Trance Shot
+Discard 2: Advancing Dash
+pool: Wind, Earth
 
 Zaamassal
 ---------
-life: 4
-discard 1: Sturdy Drive
-discard 2: Warped Burst
-special action
-Active paradigm: Distortion
+Life: 6
+Discard 1: Sinuous Drive
+Discard 2: Warped Strike
+Special action available
+Active paradigm: Fluidity
 
 
-H...Z..
+Z..H...
+
+Unbeatable strategy for Hikaru: Geomantic Drive (Wind): 0.56
+
 
 Hikaru:
-18% Focused Drive
-35% Advancing Palm Strike
-3% Advancing Shot
-0% Advancing Shot (Earth)
-17% Advancing Drive
-6% Advancing Drive (Earth)
-4% Advancing Burst (Earth)
-17% Advancing Dash
+34% Focused Drive
+13% Sweeping Drive
+53% Geomantic Drive
 
 Zaamassal:
-3% Malicious Paradigm Shift
-38% Malicious Dash
-3% Sinuous Paradigm Shift
-2% Sinuous Shot
-22% Sinuous Grasp
-0% Sinuous Dash
-14% Urgent Paradigm Shift
-18% Urgent Grasp
+8% Malicious Shot
+2% Malicious Grasp
+90% Urgent Dash
 
 
-Hikaru: Advancing Dash
-Zaamassal: Sinuous Grasp
+Hikaru: Focused Drive
+Zaamassal: Urgent Dash
 
-Priorities:  10 | 6
-Hikaru is active
-Hikaru moves:
-
-.H..Z..
-
-Hikaru moves:
-
-H...Z..
-
-Zaamassal misses
-Zaamassal assumes the Paradigm of Fluidity
+Priorities:  5 | 11
+Zaamassal is active
 Zaamassal moves:
 
-H..Z...
+.Z.H...
 
 Zaamassal moves:
 
-H...Z..
+...H.Z.
+
+Hikaru moves:
+
+....HZ.
+
+Hikaru misses
+Zaamassal moves:
+
+....H.Z
 
 
 Beat 14
@@ -771,58 +855,109 @@ Beat 14
 
 Hikaru
 ------
-life: 7
-discard 1: Advancing Dash
-discard 2: Geomantic Strike
-special action
-pool: Earth
+Life: 10
+Discard 1: Focused Drive
+Discard 2: Trance Shot
+pool: Wind, Earth
 
 Zaamassal
 ---------
-life: 4
-discard 1: Sinuous Grasp
-discard 2: Sturdy Drive
-special action
+Life: 6
+Discard 1: Urgent Dash
+Discard 2: Sinuous Drive
+Special action available
 Active paradigm: Fluidity
 
 
-H...Z..
+....H.Z
 
-Unbeatable strategy for Zaamassal: Urgent Paradigm Shift: -0.74
-Unbeatable strategy for Zaamassal: Urgent Strike: -0.57
-Unbeatable strategy for Zaamassal: Warped Paradigm Shift: -0.74
-Unbeatable strategy for Zaamassal: Warped Shot: -0.74
-Unbeatable strategy for Zaamassal: Warped Burst: -0.70
+Unbeatable strategy for Hikaru: Advancing Palm Strike (Earth): 0.84
+Unbeatable strategy for Hikaru: Geomantic Palm Strike (Wind): 0.15
+
 
 Hikaru:
-3% Trance Palm Strike
-3% Trance Palm Strike (Earth)
-4% Trance Grasp
-4% Trance Grasp (Earth)
-26% Focused Shot (Earth)
-60% Focused Grasp (Earth)
+55% Advancing Palm Strike (Earth)
+6% Advancing Strike (Earth)
+17% Advancing Burst (Earth)
+22% Geomantic Burst (Wind)
 
 Zaamassal:
-17% Malicious Shot
-0% Malicious Burst
-59% Urgent Strike
-23% Warped Shot
+63% Malicious Strike
+3% Malicious Shot
+17% Warped Strike
+17% Warped Grasp
 
 
-Hikaru: Focused Grasp (Earth)
-Zaamassal: Urgent Strike
+Hikaru: Geomantic Burst (Wind)
+Zaamassal: Malicious Strike
 
-Hikaru antes an Earth token
-Priorities:  6 | 5
+Hikaru antes a Wind token
+Priorities:  3 | 2
 Hikaru is active
-Hikaru misses
+Hikaru moves:
+
+...H..Z
+
+Hikaru hits
+Zaamassal takes 4 damage (now at 2 life)
 Zaamassal moves:
 
-H....Z.
+...H.Z.
 
 Zaamassal misses
 Zaamassal moves:
 
+...H..Z
+
+
+Beat 15
+-------
+
+Hikaru
+------
+Life: 10
+Discard 1: Geomantic Burst
+Discard 2: Focused Drive
+pool: Earth
+
+Zaamassal
+---------
+Life: 2
+Discard 1: Malicious Strike
+Discard 2: Urgent Dash
+Special action available
+Active paradigm: Fluidity
+
+
+...H..Z
+
+Unbeatable strategy for Hikaru: Trance Dash: 7.00
+Unbeatable strategy for Hikaru: Trance Dash (Earth): 7.00
+Unbeatable strategy for Hikaru: Advancing Dash: 7.00
+Unbeatable strategy for Hikaru: Advancing Dash (Earth): 7.00
+Unbeatable strategy for Hikaru: Sweeping Palm Strike: 7.00
+Unbeatable strategy for Hikaru: Sweeping Palm Strike (Earth): 7.00
+Unbeatable strategy for Hikaru: Sweeping Grasp: 7.00
+Unbeatable strategy for Hikaru: Sweeping Grasp (Earth): 7.00
+Unbeatable strategy for Hikaru: Sweeping Dash: 7.00
+Unbeatable strategy for Hikaru: Sweeping Dash (Earth): 7.00
+
+
+Hikaru:
+7% Sweeping Palm Strike
+93% Sweeping Palm Strike (Earth)
+
+Zaamassal:
+96% Special Pulse
+4% Special Plane Divider
+
+
+Hikaru: Sweeping Palm Strike (Earth)
+Zaamassal: Special Pulse
+
+Hikaru antes an Earth token
+Zaamassal Pulses:
+
 H.....Z
 
 
@@ -831,108 +966,77 @@ Beat 15
 
 Hikaru
 ------
-life: 7
-discard 1: Focused Grasp
-discard 2: Advancing Dash
-special action
+Life: 10
+Discard 1: Sweeping Palm Strike
+Discard 2: Geomantic Burst
 pool: 
 
 Zaamassal
 ---------
-life: 4
-discard 1: Urgent Strike
-discard 2: Sinuous Grasp
-special action
+Life: 2
+Discard 1: Malicious Strike
+Discard 2: Urgent Dash
 Active paradigm: Fluidity
 
 
 H.....Z
 
-Hikaru:
-6% Trance Strike
-6% Trance Shot
-2% Trance Drive
-6% Trance Burst
-6% Geomantic Strike
-6% Geomantic Shot
-2% Geomantic Drive
-6% Geomantic Burst
-63% Special Pulse
+Unbeatable strategy for Hikaru: Trance Dash: 7.00
+Unbeatable strategy for Hikaru: Focused Dash: 7.00
+Unbeatable strategy for Hikaru: Advancing Dash: 7.00
 
-Zaamassal:
-20% Warped Paradigm Shift
-20% Warped Shot
-20% Warped Drive
-20% Warped Burst
-18% Special Plane Divider
-
-
-Hikaru: Special Pulse
-Zaamassal: Special Plane Divider
-
-Pulse:
-
-ZH.....
-
-
-Beat 15
--------
-
-Hikaru
-------
-life: 7
-discard 1: Focused Grasp
-discard 2: Advancing Dash
-pool: 
-
-Zaamassal
----------
-life: 4
-discard 1: Urgent Strike
-discard 2: Sinuous Grasp
-Active paradigm: Fluidity
-
-
-ZH.....
-
-Unbeatable strategy for Hikaru: Trance Palm Strike: 9.00
-Unbeatable strategy for Hikaru: Geomantic Palm Strike: 9.00
 
 Hikaru:
-25% Trance Palm Strike
-25% Trance Drive
-25% Geomantic Palm Strike
-25% Geomantic Drive
+7% Trance Strike
+7% Trance Shot
+7% Trance Drive
+7% Trance Grasp
+7% Trance Dash
+7% Focused Strike
+7% Focused Shot
+7% Focused Drive
+7% Focused Grasp
+7% Focused Dash
+7% Advancing Strike
+7% Advancing Shot
+7% Advancing Drive
+7% Advancing Grasp
+7% Advancing Dash
 
 Zaamassal:
-0% Malicious Paradigm Shift
-1% Malicious Shot
-0% Malicious Drive
-1% Malicious Burst
-4% Malicious Dash
-2% Sturdy Paradigm Shift
-1% Sturdy Shot
-1% Sturdy Drive
-4% Sturdy Burst
-26% Sturdy Dash
-3% Warped Paradigm Shift
-1% Warped Shot
-3% Warped Drive
-26% Warped Burst
-26% Warped Dash
+7% Sinuous Paradigm Shift
+7% Sinuous Shot
+7% Sinuous Drive
+7% Sinuous Burst
+7% Sinuous Grasp
+7% Sturdy Paradigm Shift
+7% Sturdy Shot
+7% Sturdy Drive
+7% Sturdy Burst
+7% Sturdy Grasp
+7% Warped Paradigm Shift
+7% Warped Shot
+7% Warped Drive
+7% Warped Burst
+7% Warped Grasp
 
 
-Hikaru: Trance Palm Strike
-Zaamassal: Warped Burst
+Hikaru: Advancing Shot
+Zaamassal: Sinuous Paradigm Shift
 
-Priorities:  5 | 1
-Hikaru is active
+Priorities:  3 | 4
+Zaamassal is active
+Hikaru moves:
+
+.H....Z
+
+Zaamassal moves:
+
+.H...Z.
+
+Zaamassal misses
+Zaamassal assumes the Paradigm of Pain
 Hikaru hits
-Zaamassal takes 2 damage (now at 2 life)
-Hikaru recovers an Earth token
-Zaamassal is stunned
-Zaamassal assumes the following paradigms:
-Hikaru recovers a Fire token
-Game goes to time
+Zaamassal takes 4 damage (now at 0 life)
 HIKARU WINS!
-total_time: 85
+total_time: 135
