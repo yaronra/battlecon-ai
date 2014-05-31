@@ -2060,8 +2060,6 @@ class Character (object):
         # replaced in reveal phase
         self.style = self.null_style
         self.base = self.null_base
-        # accumulated bonuses for misc. events that triggered during the beat
-        self.evaluation_bonus = 0
         # accumulated bonuses from triggers this beat
         self.triggered_power_bonus = 0
         self.triggered_priority_bonus = 0
@@ -2085,7 +2083,6 @@ class Character (object):
         state.active_cards = self.active_cards[:]
         state.style = self.style
         state.base = self.base
-        state.evaluation_bonus = self.evaluation_bonus
         state.triggered_power_bonus = self.triggered_power_bonus
         state.triggered_priority_bonus = self.triggered_priority_bonus
         state.alt_pair_power = self.alt_pair_power
@@ -2109,7 +2106,6 @@ class Character (object):
         self.active_cards = state.active_cards[:]
         self.style = state.style
         self.base = state.base
-        self.evaluation_bonus = state.evaluation_bonus
         self.triggered_power_bonus = state.triggered_power_bonus
         self.triggered_priority_bonus = state.triggered_priority_bonus
         self.alt_pair_power = state.alt_pair_power
@@ -2978,12 +2974,11 @@ class Character (object):
 
         if self.game.debugging:
             self.game.report("%s's evaluation:"%self)
-            self.game.report("evaluation bonus: %.2f"% self.evaluation_bonus)
             self.game.report("card bonus: %.2f"% card_bonus)
             self.game.report("discard penalty: %.2f"% discard_penalty)
             self.game.report("special action: %.2f"% special_action_bonus)
             self.game.report("status effects: %.2f"% status_effect_bonus)
-        return (- self.opponent.effective_life() + self.evaluation_bonus
+        return (- self.opponent.effective_life()
                 + self.evaluate_range() + card_bonus
                 + discard_penalty + special_action_bonus 
                 + status_effect_bonus)
@@ -4267,6 +4262,10 @@ class Borneo(Character):
 
     def wins_on_timeout(self):
         return self.mazzaroth_active
+    
+    def evaluate(self):
+        return Character.evaluate(self) + 6 * self.mazzaroth_active
+
 
 class Byron (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
@@ -4863,6 +4862,10 @@ class Clinhyde (Character):
     def evaluate (self):
         value = Character.evaluate(self)
         value += self.activation_values[len(self.active_packs)]
+        if self.ritherwhyte_activated:
+            value += 4
+        if self.vital_silver_activated:
+            value -= 4
         return value
 
 class Clive (Character):
@@ -5766,6 +5769,8 @@ class Heketch (Character):
         ev = Character.evaluate(self)
         if self.pool:
             ev += 0.9 + (0.1 * self.game.distance() - 1)
+        if self.living_nightmare_active:
+            ev += 7
         return ev
 
 class Hepzibah(Character):
@@ -5885,7 +5890,8 @@ class Hepzibah(Character):
 
     def evaluate(self):
         # having low life is especially bad, can't ante.
-        return Character.evaluate(self) + 0.5 * min(0, self.life - 5)
+        return (Character.evaluate(self) + 0.5 * min(0, self.life - 5) +
+                (self.pending_pactbond is not None))
 
 class Hikaru (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
@@ -6141,6 +6147,8 @@ class Kajia(Character):
         value = Character.evaluate(self)
         insects = self.insects[1]+self.insects[2]
         value += min (insects, self.opponent.life - 1)
+        if self.imago_emergence_active:
+            value += 3
         return value
 
 
@@ -6702,7 +6710,7 @@ class Lixis (Character):
         
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
-        self.virulent_miasma = False
+        self.virulent_miasma_active = False
     
     def choose_initial_discards (self):
         return (self.pruning, self.grasp,
@@ -6710,22 +6718,22 @@ class Lixis (Character):
 
     def situation_report (self):
         report = Character.situation_report (self)
-        if self.virulent_miasma:
+        if self.virulent_miasma_active:
             report.append ("Virulent Miasma is active")
         return report
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
-        self.virulent_miasma = find_start (lines, 'Virulent Miasma')
+        self.virulent_miasma_active = find_start (lines, 'Virulent Miasma')
 
     def initial_save (self):
         state = Character.initial_save (self)
-        state.virulent_miasma = self.virulent_miasma
+        state.virulent_miasma_active = self.virulent_miasma_active
         return state
 
     def initial_restore (self, state):
         Character.initial_restore (self, state)
-        self.virulent_miasma = state.virulent_miasma
+        self.virulent_miasma_active = state.virulent_miasma_active
 
     def hit_trigger (self):
         Character.hit_trigger (self)
@@ -6745,7 +6753,7 @@ class Lixis (Character):
         penalty = Character.give_priority_penalty(self)
         # If Virulent Miasma is active and opponent started beat with 1 life,
         # she gets a priority penalty
-        if self.virulent_miasma and \
+        if self.virulent_miasma_active and \
            self.game.initial_state.player_states[1-self.my_number].life == 1:
             penalty -= 3
         return penalty
@@ -6761,7 +6769,7 @@ class Lixis (Character):
         Character.execute_move (self, mover, moves, direct, max_move)
 
     def ante_trigger (self):
-        if self.virulent_miasma:
+        if self.virulent_miasma_active:
             self.opponent.lose_life (3)
 
     # for performance, the following methods just return False by default
@@ -6780,6 +6788,10 @@ class Lixis (Character):
     # cannot refer to self.active_cards, because it is used in making it
     def blocks_tokens (self):
         return self.naturalizing in self.active_cards
+
+    def evaluate(self):
+        return Character.evaluate(self) + 6 * self.virulent_miasma_active
+
 
 class Luc (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
@@ -8119,7 +8131,9 @@ class Shekhtur (Character):
         Character.damage_trigger (self, damage)
 
     def evaluate (self):
-        return Character.evaluate (self) + 0.3 * len(self.pool)
+        return (Character.evaluate (self) + 0.3 * len(self.pool) +
+                5 * self.me.coffin_nails_hit) 
+
 
 class Tanis(Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
@@ -9849,7 +9863,6 @@ class MamaMazzaroth(Finisher):
         # Assuming it's 3 beats including current one.
         self.game.current_beat = 13
         self.me.mazzaroth_active = True
-        self.me.evaluation_bonus += 6
     def after_trigger(self):
         self.me.move([1,2,3])
     ordered_after_trigger = True
@@ -10361,7 +10374,6 @@ class VitalSilverInfusion (Finisher):
     def after_trigger (self):
         self.me.gain_life (10)
         self.me.vital_silver_activated = True
-        self.me.evaluation_bonus -= 4 # for losing life in the future
 
 class RitherwhyteInfusion (Finisher):
     is_attack = False
@@ -10369,7 +10381,6 @@ class RitherwhyteInfusion (Finisher):
     priority = 4
     def after_trigger (self):
         self.me.ritherwhyte_activated = True
-        self.me.evaluation_bonus += 4 # for losing life and gaining range
 
 class Frenzy (Base):
     minrange = 1
@@ -11276,7 +11287,6 @@ class LivingNightmare (Finisher):
     def hit_trigger (self):
         self.opponent.stun()
         self.me.living_nightmare_active = True
-        self.me.evaluation_bonus += 7
     def evaluate_setup (self):
         # only real way of hitting is with +3 priority from token
         return 1 if len(self.me.pool) == 1 else 0
@@ -11419,7 +11429,6 @@ class Pactbond(Style):
         if self.game.reporting:
             self.game.report("Hepzibah Chooses %s as her free Pact" %
                              self.me.pending_pactbond)
-        self.me.evaluation_bonus += 1
         
 class Anathema(Style):
     power = -1
@@ -11439,8 +11448,8 @@ class Necrotizing(Style):
         spend = self.game.make_fork(max_spend + 1, self.me, prompt)
         self.me.lose_life(spend)
         self.me.add_triggered_power_bonus(spend)
-        # All things being equal, play offensively
-        self.me.evaluation_bonus += 0.01 * spend
+        # TODO: make opponents life worth 1.01, so that 
+        # Hepzibah plays Necrotizing aggressively.
 
 class Darkheart(Style):
     priority = -1
@@ -11727,7 +11736,6 @@ class ImagoEmergence (Finisher):
         self.opponent.stun()
         self.me.give_insects(1, pile=1)
         self.me.imago_emergence_active = True
-        self.me.evaluation_bonus += 3
     ordered_hit_trigger = True
     def evaluate_setup (self):
         return 0.5 if self.game.distance() >= 3 else 0
@@ -12597,8 +12605,7 @@ class VirulentMiasma (Finisher):
     power = 4
     priority = 5
     def hit_trigger (self):
-        self.me.virulent_miasma = True
-        self.me.evaluation_bonus += 6
+        self.me.virulent_miasma_active = True
     def evaluate_setup (self):
         return 1.5 if self.game.distance() <= 3 else 0
 
@@ -14065,7 +14072,7 @@ class ReadingFate (Finisher):
     priority = 6
     def hit_trigger (self):
         self.opponent.stun()
-        self.me.evaluation_bonus += 8 # for reading styles
+        self.reading_fate_active = True
     def evaluate_setup (self):
         return 2 if self.game.distanc() <= 3 else 0
 
@@ -14147,7 +14154,6 @@ class Wyrding (Style):
             new_base = available_bases[ans] if ans<len(available_bases) else None
             if new_base:
                 self.me.discard[0].add(new_base)
-                self.me.evaluation_bonus -= 2 # for discarding extra base
                 self.me.base = new_base
                 self.me.set_active_cards()
                 if self.game.reporting:
@@ -14182,9 +14188,6 @@ class CoffinNails (Finisher):
     def damage_trigger (self, damage):
         self.opponent.stun()
         self.me.coffin_nails_hit = True
-        # This should really depend on specific opponent for soak,
-        # but ignoring stunguard is always very good
-        self.me.evaluation_bonus += 5
 
 class Brand (Base):
     minrange = 1
