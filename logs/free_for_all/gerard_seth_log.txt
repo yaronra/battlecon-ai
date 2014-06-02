@@ -32,9 +32,9 @@ Special action available
 Gerard:
 57% Gilded Shot (Hire Archer)
 1% Avaricious Drive (Hire Brawler)
-9% Avaricious Dash (Hire Brawler)
+11% Avaricious Dash (Hire Brawler)
 18% Initiation Burst (Hire Brawler)
-15% Initiation Dash (Hire Brawler)
+12% Initiation Dash (Hire Brawler)
 
 Seth:
 41% Mimic's Shot (Shot)
@@ -44,30 +44,19 @@ Seth:
 
 
 Gerard: Gilded Shot (Hire Archer)
-Seth: Compelling Drive (Shot)
+Seth: Mimic's Shot (Shot)
 
 Gerard hires a Archer for 3 gold (0 remaining)
 Seth gets +2 power
 Seth gets +2 priority
-Priorities:  1 | 6
+Priorities:  1 | 4
 Seth is active
-Seth moves Gerard:
-
-..G..S.
-
-Seth moves:
-
-..GS...
-
 Seth hits
-Gerard takes 5 damage (now at 15 life)
-Seth moves Gerard:
-
-.G.S...
-
+Gerard takes 6 damage (now at 14 life)
 Gerard hits
 Seth takes 3 damage (now at 17 life)
 Seth is stunned
+Seth loses 1 life (now at 16)
 Gerard gains 1 Gold Token (has 1)
 
 Beat 2
@@ -75,7 +64,7 @@ Beat 2
 
 Gerard
 ------
-Life: 15
+Life: 14
 Discard 1: Gilded Shot
 Discard 2: Villainous Larceny
 Special action available
@@ -85,45 +74,56 @@ Mercenaries in play:
 
 Seth
 ----
-Life: 17
-Discard 1: Compelling Drive
+Life: 16
+Discard 1: Mimic's Shot
 Discard 2: Fool's Grasp
 Special action available
 
 
-.G.S...
+.G...S.
 
-Unbeatable strategy for Seth: Mimic's Shot (Strike): -3.32
-Unbeatable strategy for Seth: Mimic's Shot (Drive): -3.32
-Unbeatable strategy for Seth: Mimic's Shot (Burst): -3.40
-Unbeatable strategy for Seth: Mimic's Shot (Grasp): -3.32
-Unbeatable strategy for Seth: Mimic's Shot (Dash): -3.32
+Unbeatable strategy for Seth: Compelling Drive (Drive): -0.81
+Unbeatable strategy for Seth: Compelling Dash (Strike): -0.20
+Unbeatable strategy for Seth: Compelling Dash (Drive): -0.20
+Unbeatable strategy for Seth: Compelling Dash (Burst): -0.20
+Unbeatable strategy for Seth: Compelling Dash (Grasp): -0.20
 
 
 Gerard:
-48% Hooked Strike
-52% Initiation Burst
+4% Avaricious Drive
+3% Avaricious Dash
+54% Hooked Grasp
+34% Initiation Strike
+5% Initiation Dash
 
 Seth:
-49% Mimic's Shot (Strike)
-51% Mimic's Shot (Burst)
+6% Vanishing Drive (Strike)
+30% Compelling Drive (Strike)
+37% Compelling Drive (Drive)
+26% Compelling Drive (Grasp)
 
 
-Gerard: Initiation Burst
-Seth: Mimic's Shot (Strike)
+Gerard: Hooked Grasp
+Seth: Vanishing Drive (Strike)
 
-Priorities:  2 | 2
+Priorities:  4 | 4
 Clash!
 
 
-Gerard: Initiation Grasp
-Seth: Mimic's Dash (Strike)
+Gerard: Hooked Strike
+Seth: Vanishing Dash (Strike)
 
-Priorities:  6 | 9
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  2 | 11
 Seth is active
+Gerard moves:
+
+G....S.
+
 Seth moves:
 
-SG.....
+G.S....
 
 Gerard misses
 Gerard gains 1 Gold Token (has 2)
@@ -133,8 +133,8 @@ Beat 3
 
 Gerard
 ------
-Life: 15
-Discard 1: Initiation Grasp
+Life: 14
+Discard 1: Hooked Strike
 Discard 2: Gilded Shot
 Special action available
 Gold: 2
@@ -143,9 +143,80 @@ Mercenaries in play:
 
 Seth
 ----
-Life: 17
-Discard 1: Mimic's Dash
-Discard 2: Compelling Drive
+Life: 16
+Discard 1: Vanishing Dash
+Discard 2: Mimic's Shot
+Special action available
+
+
+G.S....
+
+Unbeatable strategy for Seth: Wyrding Drive (Grasp): -0.08
+
+
+Gerard:
+18% Villainous Larceny
+5% Avaricious Grasp
+6% Initiation Larceny
+9% Initiation Drive
+4% Initiation Grasp
+58% Initiation Dash
+
+Seth:
+18% Wyrding Drive (Drive)
+27% Wyrding Drive (Grasp)
+13% Compelling Omen (Dash)
+4% Compelling Strike (Larceny)
+22% Compelling Drive (Drive)
+17% Compelling Drive (Grasp)
+
+
+Gerard: Villainous Larceny
+Seth: Compelling Omen (Dash)
+
+Priorities:  3 | 1
+Gerard is active
+Gerard moves Seth:
+
+GS.....
+
+Gerard moves:
+
+.SG....
+
+Gerard hits
+Gerard moves Seth:
+
+S.G....
+
+Seth takes 5 damage (now at 11 life)
+Gerard gains 3 Gold Tokens (has 5)
+Seth is stunned
+Gerard moves:
+
+SG.....
+
+Gerard gains 2 Gold Tokens (has 7)
+Gerard gains 1 Gold Token (has 8)
+
+Beat 4
+-------
+
+Gerard
+------
+Life: 14
+Discard 1: Villainous Larceny
+Discard 2: Hooked Strike
+Special action available
+Gold: 8
+Mercenaries in play:
+  Archer
+
+Seth
+----
+Life: 11
+Discard 1: Compelling Omen
+Discard 2: Vanishing Dash
 Special action available
 
 
@@ -153,469 +224,50 @@ SG.....
 
 
 Gerard:
-13% Villainous Strike
-11% Villainous Drive
-0% Villainous Burst
-1% Villainous Dash
-17% Avaricious Burst
-1% Avaricious Burst (Hire Heavy Knight)
-1% Avaricious Burst (Hire Gunslinger)
-1% Avaricious Burst (Hire Mage)
-13% Hooked Larceny
-31% Hooked Drive
-10% Hooked Burst
+35% Gilded Shot (Hire Brawler)
+1% Gilded Shot (Hire Heavy Knight, Brawler)
+1% Gilded Shot (Hire Brawler, Gunslinger)
+1% Gilded Shot (Hire Brawler, Mage)
+12% Gilded Grasp (Hire Brawler)
+1% Gilded Dash (Hire Brawler)
+11% Avaricious Drive (Hire Brawler, Mage; Activate Mage)
+7% Avaricious Burst (Hire Brawler, Mage; Activate Mage)
+21% Avaricious Grasp (Hire Brawler, Gunslinger; Activate Gunslinger)
+2% Avaricious Grasp (Hire Brawler, Mage; Activate Mage)
+8% Initiation Drive (Hire Brawler)
 
 Seth:
-18% Fool's Omen (Drive)
-8% Fool's Omen (Burst)
-13% Fool's Shot (Larceny)
-8% Fool's Shot (Strike)
-2% Fool's Grasp (Strike)
-13% Fool's Grasp (Dash)
-5% Vanishing Shot (Burst)
-9% Wyrding Shot (Drive)
-24% Wyrding Shot (Burst)
+11% Fool's Strike (Shot)
+6% Mimic's Strike (Shot)
+17% Mimic's Strike (Drive)
+4% Mimic's Strike (Burst)
+19% Mimic's Strike (Grasp)
+1% Mimic's Drive (Shot)
+15% Mimic's Drive (Drive)
+19% Mimic's Drive (Grasp)
+8% Wyrding Drive (Shot)
 
 
-Gerard: Hooked Drive
-Seth: Wyrding Shot (Drive)
+Gerard: Gilded Shot (Hire Brawler)
+Seth: Mimic's Strike (Grasp)
 
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  3 | 5
-Seth is active
-Seth selects Omen as his new base
-Gerard is stunned
-Gerard moves:
-
-S.....G
-
-Seth misses
-Gerard gains 1 Gold Token (has 3)
-
-Beat 4
--------
-
-Gerard
-------
-Life: 15
-Discard 1: Hooked Drive
-Discard 2: Initiation Grasp
-Special action available
-Gold: 3
-Mercenaries in play:
-  Archer
-
-Seth
-----
-Life: 17
-Discard 1: Wyrding Omen Shot
-Discard 2: Mimic's Dash
-Special action available
-
-
-S.....G
-
-Unbeatable strategy for Gerard: Villainous Shot: 0.58
-Unbeatable strategy for Gerard: Villainous Shot (Hire Brawler): 2.05
-Unbeatable strategy for Gerard: Villainous Shot (Hire Trebuchet): 0.76
-Unbeatable strategy for Gerard: Villainous Shot (Hire Heavy Knight): 0.08
-Unbeatable strategy for Gerard: Villainous Shot (Hire Gunslinger): 0.08
-Unbeatable strategy for Gerard: Villainous Shot (Hire Mage): 0.08
-Unbeatable strategy for Gerard: Villainous Dash (Hire Brawler): 1.46
-Unbeatable strategy for Gerard: Gilded Larceny (Hire Brawler): 0.05
-Unbeatable strategy for Gerard: Gilded Strike: 0.61
-Unbeatable strategy for Gerard: Gilded Strike (Hire Brawler): 1.74
-Unbeatable strategy for Gerard: Gilded Strike (Hire Trebuchet): 1.34
-Unbeatable strategy for Gerard: Gilded Strike (Hire Heavy Knight): 0.11
-Unbeatable strategy for Gerard: Gilded Strike (Hire Gunslinger): 0.11
-Unbeatable strategy for Gerard: Gilded Strike (Hire Mage): 0.11
-Unbeatable strategy for Gerard: Gilded Dash (Hire Brawler): 0.48
-Unbeatable strategy for Gerard: Avaricious Burst (Hire Brawler): 0.25
-Unbeatable strategy for Gerard: Avaricious Burst (Hire Trebuchet): 0.40
-Unbeatable strategy for Gerard: Avaricious Dash (Hire Brawler): 0.63
-
-
-Gerard:
-36% Villainous Strike (Hire Brawler)
-2% Villainous Burst (Hire Brawler)
-23% Villainous Dash (Hire Brawler)
-37% Gilded Strike (Hire Brawler)
-2% Gilded Shot (Hire Brawler)
-
-Seth:
-18% Vanishing Strike (Burst)
-48% Vanishing Burst (Shot)
-5% Vanishing Burst (Burst)
-14% Compelling Strike (Burst)
-16% Compelling Burst (Burst)
-
-
-Gerard: Villainous Burst (Hire Brawler)
-Seth: Compelling Burst (Burst)
-
-Gerard hires a Brawler for 3 gold (0 remaining)
-Seth gets +2 power
-Seth gets +2 priority
+Gerard hires a Brawler for 3 gold (5 remaining)
 Priorities:  1 | 3
 Seth is active
-Seth moves Gerard:
-
-S....G.
-
-Seth misses
-Seth moves Gerard:
-
-S.....G
-
-Gerard misses
-Gerard moves:
-
-S..G...
-
-Gerard gains 1 Gold Token (has 1)
+Seth hits
+Gerard has 2 soak
+Gerard takes 3 damage (now at 11 life)
+Gerard is stunned
+Gerard gains 1 Gold Token (has 6)
 
 Beat 5
 -------
 
 Gerard
 ------
-Life: 15
-Discard 1: Villainous Burst
-Discard 2: Hooked Drive
-Special action available
-Gold: 1
-Mercenaries in play:
-  Archer
-  Brawler
-
-Seth
-----
-Life: 17
-Discard 1: Compelling Burst
-Discard 2: Wyrding Omen Shot
-Special action available
-
-
-S..G...
-
-
-Gerard:
-9% Gilded Larceny
-40% Gilded Strike
-40% Gilded Shot
-10% Gilded Grasp
-
-Seth:
-30% Mimic's Drive (Larceny)
-48% Mimic's Drive (Strike)
-1% Mimic's Drive (Shot)
-21% Mimic's Drive (Grasp)
-
-
-Gerard: Gilded Shot
-Seth: Mimic's Drive (Larceny)
-
-Priorities:  1 | 4
-Seth is active
-Seth moves:
-
-..SG...
-
-Seth hits
-Gerard takes 4 damage (now at 11 life)
-Gerard hits
-Seth takes 3 damage (now at 14 life)
-Seth is stunned
-Seth loses 1 life (now at 13)
-Gerard gains 1 Gold Token (has 2)
-
-Beat 6
--------
-
-Gerard
-------
 Life: 11
 Discard 1: Gilded Shot
-Discard 2: Villainous Burst
-Special action available
-Gold: 2
-Mercenaries in play:
-  Archer
-  Brawler
-
-Seth
-----
-Life: 13
-Discard 1: Mimic's Drive
-Discard 2: Compelling Burst
-Special action available
-
-
-..SG...
-
-
-Gerard:
-6% Avaricious Larceny
-2% Avaricious Strike
-24% Hooked Larceny
-22% Hooked Drive
-12% Hooked Grasp
-13% Initiation Strike
-8% Initiation Grasp
-13% Initiation Dash
-
-Seth:
-48% Fool's Omen (Drive)
-4% Vanishing Strike (Strike)
-4% Wyrding Shot (Larceny)
-1% Wyrding Shot (Strike)
-2% Wyrding Shot (Drive)
-1% Wyrding Shot (Grasp)
-9% Wyrding Dash (Larceny)
-31% Wyrding Dash (Dash)
-
-
-Gerard: Hooked Larceny
-Seth: Fool's Omen (Drive)
-
-Priorities:  2 | -3
-Gerard is active
-Gerard moves:
-
-..S...G
-
-Gerard moves Seth:
-
-...S..G
-
-Gerard moves:
-
-...S.G.
-
-Gerard misses
-Seth loses 1 life (now at 12)
-Seth misses
-Gerard gains 1 Gold Token (has 3)
-
-Beat 7
--------
-
-Gerard
-------
-Life: 11
-Discard 1: Hooked Larceny
-Discard 2: Gilded Shot
-Special action available
-Gold: 3
-Mercenaries in play:
-  Archer
-  Brawler
-
-Seth
-----
-Life: 12
-Discard 1: Fool's Omen
-Discard 2: Mimic's Drive
-Special action available
-
-
-...S.G.
-
-
-Gerard:
-13% Villainous Burst
-7% Avaricious Grasp
-14% Initiation Strike
-15% Initiation Drive
-9% Initiation Grasp
-42% Initiation Dash
-
-Seth:
-6% Vanishing Strike (Drive)
-21% Vanishing Burst (Burst)
-40% Wyrding Dash (Dash)
-8% Compelling Strike (Strike)
-13% Compelling Strike (Drive)
-12% Compelling Grasp (Grasp)
-
-
-Gerard: Initiation Drive
-Seth: Vanishing Burst (Burst)
-
-Priorities:  5 | 1
-Gerard is active
-Seth moves:
-
-..S..G.
-
-Seth moves:
-
-S....G.
-
-Gerard moves:
-
-S...G..
-
-Gerard moves:
-
-S.G....
-
-Gerard misses
-Seth loses 1 life (now at 11)
-Seth misses
-Gerard gains 1 Gold Token (has 4)
-
-Beat 8
--------
-
-Gerard
-------
-Life: 11
-Discard 1: Initiation Drive
-Discard 2: Hooked Larceny
-Special action available
-Gold: 4
-Mercenaries in play:
-  Archer
-  Brawler
-
-Seth
-----
-Life: 11
-Discard 1: Vanishing Burst
-Discard 2: Fool's Omen
-Special action available
-
-
-S.G....
-
-
-Gerard:
-63% Gilded Strike
-13% Gilded Shot
-3% Gilded Dash
-1% Avaricious Shot
-1% Avaricious Shot (Hire Heavy Knight)
-1% Avaricious Shot (Hire Mage)
-1% Avaricious Shot (Hire Gunslinger)
-17% Avaricious Grasp
-
-Seth:
-15% Mimic's Drive (Grasp)
-6% Wyrding Dash (Grasp)
-19% Compelling Strike (Strike)
-17% Compelling Strike (Shot)
-36% Compelling Shot (Strike)
-7% Compelling Shot (Shot)
-
-
-Gerard: Gilded Strike
-Seth: Mimic's Drive (Grasp)
-
-Priorities:  2 | 4
-Seth is active
-Seth moves:
-
-.SG....
-
-Seth hits
-Gerard has 2 soak
-Gerard takes 2 damage (now at 9 life)
-Gerard hits
-Seth takes 4 damage (now at 7 life)
-Seth is stunned
-Seth loses 1 life (now at 6)
-Gerard gains 1 Gold Token (has 5)
-
-Beat 9
--------
-
-Gerard
-------
-Life: 9
-Discard 1: Gilded Strike
-Discard 2: Initiation Drive
-Special action available
-Gold: 5
-Mercenaries in play:
-  Archer
-  Brawler
-
-Seth
-----
-Life: 6
-Discard 1: Mimic's Drive
-Discard 2: Vanishing Burst
-Special action available
-
-
-.SG....
-
-
-Gerard:
-7% Villainous Larceny
-1% Villainous Larceny (Hire Mage; Activate Mage)
-0% Villainous Grasp
-8% Villainous Dash
-5% Avaricious Larceny (Hire Mage; Activate Mage)
-0% Avaricious Shot
-2% Avaricious Shot (Hire Heavy Knight)
-2% Avaricious Shot (Hire Mage)
-2% Avaricious Shot (Hire Gunslinger)
-7% Avaricious Burst (Hire Mage; Activate Mage)
-19% Avaricious Grasp
-8% Avaricious Dash
-22% Hooked Shot
-17% Hooked Burst
-
-Seth:
-7% Fool's Omen (Shot)
-4% Wyrding Strike (Grasp)
-7% Wyrding Dash (Grasp)
-11% Wyrding Dash (Dash)
-4% Compelling Omen (Larceny)
-7% Compelling Strike (Grasp)
-10% Compelling Shot (Larceny)
-16% Compelling Shot (Shot)
-6% Compelling Shot (Burst)
-9% Compelling Grasp (Larceny)
-7% Compelling Grasp (Grasp)
-13% Compelling Dash (Shot)
-
-
-Gerard: Hooked Burst
-Seth: Compelling Shot (Burst)
-
-Seth gets +2 power
-Seth gets +2 priority
-Priorities:  0 | 4
-Seth is active
-Gerard moves:
-
-.S....G
-
-Seth moves Gerard:
-
-.S...G.
-
-Seth hits
-Gerard takes 5 damage (now at 4 life)
-Gerard is stunned
-Seth moves Gerard:
-
-.S....G
-
-Gerard gains 1 Gold Token (has 6)
-
-Beat 10
--------
-
-Gerard
-------
-Life: 4
-Discard 1: Hooked Burst
-Discard 2: Gilded Strike
+Discard 2: Villainous Larceny
 Special action available
 Gold: 6
 Mercenaries in play:
@@ -624,65 +276,69 @@ Mercenaries in play:
 
 Seth
 ----
-Life: 6
-Discard 1: Compelling Shot
-Discard 2: Mimic's Drive
+Life: 11
+Discard 1: Mimic's Strike
+Discard 2: Compelling Omen
 Special action available
 
 
-.S....G
+SG.....
 
 
 Gerard:
-24% Villainous Drive
-31% Villainous Grasp
-24% Villainous Grasp (Hire Trebuchet)
-12% Villainous Dash
-5% Initiation Shot (Hire Trebuchet)
-4% Initiation Dash
+1% Avaricious Strike (Hire Heavy Knight; Activate Heavy Knight)
+6% Avaricious Drive
+4% Avaricious Burst
+5% Hooked Drive
+29% Hooked Burst (Hire Trebuchet)
+3% Hooked Dash (Hire Trebuchet)
+10% Initiation Strike
+1% Initiation Strike (Hire Heavy Knight; Activate Heavy Knight)
+5% Initiation Drive
+14% Initiation Burst
+12% Initiation Grasp
+11% Initiation Dash
 
 Seth:
-36% Vanishing Omen (Drive)
-5% Vanishing Burst (Larceny)
-8% Vanishing Burst (Shot)
-8% Vanishing Burst (Drive)
-8% Vanishing Burst (Grasp)
-8% Vanishing Burst (Dash)
-3% Wyrding Omen (Shot)
-1% Wyrding Omen (Drive)
-10% Wyrding Omen (Grasp)
-13% Wyrding Omen (Dash)
+13% Fool's Shot (Strike)
+12% Fool's Shot (Dash)
+12% Fool's Drive (Burst)
+8% Fool's Grasp (Strike)
+6% Fool's Grasp (Grasp)
+7% Vanishing Shot (Burst)
+2% Vanishing Drive (Drive)
+1% Vanishing Drive (Grasp)
+1% Wyrding Drive (Burst)
+2% Wyrding Grasp (Burst)
+23% Wyrding Dash (Burst)
+12% Wyrding Dash (Dash)
 
 
-Gerard: Initiation Dash
-Seth: Vanishing Omen (Drive)
+Gerard: Initiation Strike
+Seth: Fool's Grasp (Strike)
 
-Priorities:  10 | 1
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  4 | 3
 Gerard is active
-Seth moves:
+Gerard misses
+Seth loses 1 life (now at 10)
+Seth hits
+Seth moves Gerard:
 
-S.....G
+S.G....
 
-Gerard moves:
-
-S....G.
-
-Gerard moves:
-
-S..G...
-
-Seth loses 1 life (now at 5)
-Seth misses
+Gerard takes 3 damage (now at 8 life)
 Gerard gains 1 Gold Token (has 7)
 
-Beat 11
+Beat 6
 -------
 
 Gerard
 ------
-Life: 4
-Discard 1: Initiation Dash
-Discard 2: Hooked Burst
+Life: 8
+Discard 1: Initiation Strike
+Discard 2: Gilded Shot
 Special action available
 Gold: 7
 Mercenaries in play:
@@ -691,59 +347,81 @@ Mercenaries in play:
 
 Seth
 ----
-Life: 5
-Discard 1: Vanishing Omen
-Discard 2: Compelling Shot
+Life: 10
+Discard 1: Fool's Grasp
+Discard 2: Mimic's Strike
 Special action available
 
 
-S..G...
+S.G....
 
 
 Gerard:
-1% Villainous Larceny (Hire Heavy Knight; Activate Heavy Knight)
-2% Villainous Drive (Hire Mage; Activate Mage)
-23% Gilded Strike
-23% Gilded Shot
-11% Gilded Drive
-23% Gilded Grasp
-18% Special Windfall
+4% Villainous Burst
+6% Villainous Dash
+4% Avaricious Larceny (Hire Mage; Activate Mage)
+5% Avaricious Drive
+1% Avaricious Drive (Hire Heavy Knight; Activate Heavy Knight)
+5% Avaricious Grasp
+3% Avaricious Dash
+9% Hooked Larceny
+10% Hooked Drive
+20% Hooked Burst
+32% Hooked Grasp (Hire Trebuchet)
+2% Hooked Dash
 
 Seth:
-11% Fool's Drive (Shot)
-12% Mimic's Drive (Strike)
-13% Mimic's Drive (Shot)
-9% Mimic's Drive (Grasp)
-9% Wyrding Dash (Larceny)
-27% Wyrding Dash (Drive)
-20% Wyrding Dash (Grasp)
+12% Vanishing Omen (Larceny)
+5% Vanishing Omen (Drive)
+1% Vanishing Burst (Burst)
+1% Wyrding Drive (Burst)
+20% Wyrding Dash (Drive)
+5% Wyrding Dash (Burst)
+8% Wyrding Dash (Grasp)
+8% Wyrding Dash (Dash)
+6% Compelling Drive (Larceny)
+9% Compelling Drive (Drive)
+13% Compelling Drive (Grasp)
+11% Compelling Dash (Drive)
 
 
-Gerard: Gilded Strike
-Seth: Wyrding Dash (Grasp)
+Gerard: Villainous Dash
+Seth: Compelling Drive (Larceny)
 
-Priorities:  2 | 10
-Seth is active
+Priorities:  9 | 4
+Gerard is active
+Seth loses 1 life (now at 9)
+Gerard moves:
+
+S....G.
+
+Seth moves Gerard:
+
+S...G..
+
 Seth moves:
 
-...GS..
+..S.G..
 
-Gerard moves Seth:
+Seth misses
+Seth moves Gerard:
 
 ..SG...
 
-Gerard misses
-Seth loses 1 life (now at 4)
+Gerard moves:
+
+G.S....
+
 Gerard gains 1 Gold Token (has 8)
 
-Beat 12
+Beat 7
 -------
 
 Gerard
 ------
-Life: 4
-Discard 1: Gilded Strike
-Discard 2: Initiation Dash
+Life: 8
+Discard 1: Villainous Dash
+Discard 2: Initiation Strike
 Special action available
 Gold: 8
 Mercenaries in play:
@@ -752,72 +430,56 @@ Mercenaries in play:
 
 Seth
 ----
-Life: 4
-Discard 1: Wyrding Dash
-Discard 2: Vanishing Omen
+Life: 9
+Discard 1: Compelling Drive
+Discard 2: Fool's Grasp
 Special action available
 
 
-..SG...
+G.S....
 
 
 Gerard:
-4% Villainous Shot
-27% Villainous Shot (Hire Lackey)
-6% Villainous Burst
-1% Avaricious Larceny
-2% Avaricious Shot
-11% Avaricious Shot (Hire Mage; Activate Mage)
-6% Avaricious Grasp
-3% Hooked Shot
-6% Hooked Drive
-34% Special Windfall
+27% Gilded Shot
+27% Gilded Drive
+20% Gilded Burst (Hire Lackey)
+20% Gilded Grasp
+1% Avaricious Larceny (Hire Mage, Gunslinger)
+1% Avaricious Larceny (Hire Mage, Heavy Knight)
+1% Avaricious Larceny (Hire Gunslinger, Heavy Knight)
+3% Avaricious Shot (Hire Mage; Activate Mage)
 
 Seth:
-8% Fool's Shot (Grasp)
-3% Fool's Drive (Shot)
-2% Fool's Drive (Burst)
-3% Fool's Burst (Grasp)
-4% Fool's Grasp (Shot)
-1% Mimic's Shot (Larceny)
-5% Mimic's Shot (Drive)
-8% Mimic's Drive (Shot)
-1% Mimic's Grasp (Shot)
-13% Special Pulse (Larceny)
-13% Special Pulse (Shot)
-13% Special Pulse (Drive)
-13% Special Pulse (Burst)
-13% Special Pulse (Grasp)
+4% Mimic's Shot (Shot)
+15% Mimic's Shot (Drive)
+28% Mimic's Burst (Shot)
+7% Vanishing Strike (Shot)
+34% Vanishing Strike (Grasp)
+11% Wyrding Dash (Drive)
 
 
-Gerard: Special Windfall
-Seth: Fool's Drive (Shot)
+Gerard: Gilded Grasp
+Seth: Vanishing Strike (Grasp)
 
-Priorities:  5 | 0
-Gerard is active
-Gerard moves:
-
-.GS....
-
-Gerard misses
-Seth loses 1 life (now at 3)
-Seth moves:
-
-SG.....
-
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  4 | 5
+Seth is active
 Seth hits
-Gerard takes 2 damage (now at 2 life)
+Gerard has 2 soak
+Gerard takes 4 damage (now at 4 life)
 Gerard is stunned
 Gerard gains 1 Gold Token (has 9)
 
-Beat 13
+Beat 8
 -------
 
 Gerard
 ------
-Life: 2
-Discard 1: Gilded Strike
-Discard 2: Initiation Dash
+Life: 4
+Discard 1: Gilded Grasp
+Discard 2: Villainous Dash
+Special action available
 Gold: 9
 Mercenaries in play:
   Archer
@@ -825,94 +487,244 @@ Mercenaries in play:
 
 Seth
 ----
-Life: 3
-Discard 1: Fool's Drive
-Discard 2: Wyrding Dash
+Life: 9
+Discard 1: Vanishing Strike
+Discard 2: Compelling Drive
 Special action available
 
 
-SG.....
+G.S....
 
 
 Gerard:
-17% Avaricious Larceny (Hire Heavy Knight, Mage; Activate Mage)
-17% Avaricious Larceny (Hire Mage, Gunslinger; Activate Mage)
-10% Avaricious Drive (Hire Mage; Activate Mage)
-11% Avaricious Drive (Hire Heavy Knight, Mage, Gunslinger)
-44% Avaricious Grasp
+12% Avaricious Larceny (Hire Lackey)
+10% Hooked Larceny
+18% Hooked Strike
+6% Hooked Drive
+7% Initiation Shot
+31% Initiation Shot (Hire Lackey)
+5% Initiation Burst
+11% Initiation Burst (Hire Mage; Activate Mage)
+0% Special Windfall
 
 Seth:
-0% Mimic's Omen (Grasp)
-1% Mimic's Strike (Grasp)
-3% Mimic's Grasp (Larceny)
-7% Mimic's Grasp (Drive)
-11% Mimic's Grasp (Grasp)
-16% Special Pulse (Larceny)
-16% Special Pulse (Shot)
-16% Special Pulse (Drive)
-16% Special Pulse (Burst)
-16% Special Pulse (Grasp)
+11% Mimic's Omen (Shot)
+12% Mimic's Shot (Strike)
+4% Mimic's Shot (Shot)
+17% Mimic's Shot (Burst)
+9% Mimic's Burst (Strike)
+1% Wyrding Shot (Larceny)
+16% Wyrding Shot (Shot)
+8% Wyrding Shot (Burst)
+22% Wyrding Dash (Shot)
 
 
-Gerard: Avaricious Larceny (Hire Mage, Gunslinger; Activate Mage)
-Seth: Special Pulse (Larceny)
+Gerard: Initiation Shot (Hire Lackey)
+Seth: Wyrding Shot (Shot)
 
-Gerard hires a Mage for 2 gold (7 remaining)
-Gerard hires a Gunslinger for 2 gold (5 remaining)
-Gerard activates his Mage for 3 gold (2 remaining)
-Seth Pulses:
+Gerard hires a Lackey for 7 gold (2 remaining)
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  3 | 5
+Seth is active
+Seth selects Omen as his new base
+Gerard is stunned
+Seth misses
+Gerard gains 1 Gold Token (has 3)
 
-GS.....
-
-
-Beat 13
+Beat 9
 -------
 
 Gerard
 ------
-Life: 2
-Discard 1: Avaricious Larceny
-Discard 2: Gilded Strike
-Gold: 2
+Life: 4
+Discard 1: Initiation Shot
+Discard 2: Gilded Grasp
+Special action available
+Gold: 3
 Mercenaries in play:
   Archer
   Brawler
-  Mage
-  Gunslinger
+Mercenaries removed from the game:
+  Lackey
 
 Seth
 ----
-Life: 3
-Discard 1: Fool's Drive
-Discard 2: Wyrding Dash
+Life: 9
+Discard 1: Wyrding Shot Omen
+Discard 2: Vanishing Strike
+Special action available
 
 
-GS.....
+G.S....
 
-Unbeatable strategy for Seth: Mimic's Grasp (Grasp): -7.00
+Unbeatable strategy for Seth: Mimic's Drive (Larceny): -9.00
+Unbeatable strategy for Seth: Mimic's Drive (Strike): -9.00
+Unbeatable strategy for Seth: Mimic's Drive (Drive): -9.00
+Unbeatable strategy for Seth: Mimic's Drive (Burst): -9.00
+Unbeatable strategy for Seth: Mimic's Drive (Dash): -9.00
 
 
 Gerard:
-4% Villainous Burst
-4% Villainous Burst (Hire Heavy Knight)
-3% Villainous Grasp
-2% Villainous Grasp (Hire Heavy Knight)
-17% Initiation Shot
-40% Initiation Drive
-4% Initiation Burst
-5% Initiation Burst (Hire Heavy Knight)
-21% Initiation Grasp
+3% Villainous Dash
+2% Avaricious Burst
+1% Hooked Strike
+94% Special Pulse
 
 Seth:
-17% Mimic's Burst (Shot)
-5% Mimic's Burst (Burst)
-21% Mimic's Grasp (Drive)
-40% Mimic's Grasp (Grasp)
-17% Compelling Strike (Drive)
+0% Mimic's Drive (Larceny)
+0% Mimic's Drive (Strike)
+2% Mimic's Drive (Drive)
+50% Mimic's Drive (Burst)
+0% Mimic's Drive (Dash)
+2% Mimic's Burst (Drive)
+3% Mimic's Burst (Burst)
+3% Mimic's Grasp (Larceny)
+3% Mimic's Grasp (Strike)
+17% Mimic's Grasp (Drive)
+3% Mimic's Grasp (Burst)
+3% Mimic's Grasp (Dash)
+11% Compelling Grasp (Burst)
 
 
-Gerard: Initiation Shot
-Seth: Mimic's Burst (Shot)
+Gerard: Special Pulse
+Seth: Mimic's Grasp (Strike)
+
+Gerard Pulses:
+
+G....S.
+
+
+Beat 9
+-------
+
+Gerard
+------
+Life: 4
+Discard 1: Initiation Shot
+Discard 2: Gilded Grasp
+Gold: 3
+Mercenaries in play:
+  Archer
+  Brawler
+Mercenaries removed from the game:
+  Lackey
+
+Seth
+----
+Life: 9
+Discard 1: Mimic's Grasp
+Discard 2: Wyrding Shot Omen
+Special action available
+
+
+G....S.
+
+
+Gerard:
+7% Villainous Strike
+4% Villainous Strike (Hire Trebuchet)
+1% Villainous Drive
+45% Villainous Drive (Hire Trebuchet)
+5% Villainous Burst
+28% Villainous Burst (Hire Trebuchet)
+9% Avaricious Dash (Hire Trebuchet)
+1% Hooked Drive
+
+Seth:
+0% Fool's Drive (Larceny)
+0% Fool's Drive (Strike)
+0% Fool's Drive (Drive)
+0% Fool's Drive (Dash)
+11% Vanishing Burst (Drive)
+33% Vanishing Burst (Burst)
+4% Compelling Strike (Burst)
+26% Compelling Drive (Drive)
+8% Compelling Drive (Dash)
+10% Compelling Burst (Burst)
+1% Compelling Dash (Larceny)
+1% Compelling Dash (Strike)
+1% Compelling Dash (Drive)
+1% Compelling Dash (Burst)
+
+
+Gerard: Villainous Burst (Hire Trebuchet)
+Seth: Compelling Drive (Dash)
+
+Gerard hires a Trebuchet for 3 gold (0 remaining)
+Priorities:  1 | 4
+Seth is active
+Seth moves Gerard:
+
+.G...S.
+
+Seth moves:
+
+.G..S..
+
+Seth misses
+Seth moves Gerard:
+
+G...S..
+
+Gerard misses
+Seth loses 1 life (now at 8)
+Gerard moves:
+
+.G..S..
+
+Gerard gains 1 Gold Token (has 1)
+
+Beat 10
+-------
+
+Gerard
+------
+Life: 4
+Discard 1: Villainous Burst
+Discard 2: Initiation Shot
+Gold: 1
+Mercenaries in play:
+  Archer
+  Brawler
+  Trebuchet
+Mercenaries removed from the game:
+  Lackey
+
+Seth
+----
+Life: 8
+Discard 1: Compelling Drive
+Discard 2: Mimic's Grasp
+Special action available
+
+
+.G..S..
+
+
+Gerard:
+21% Gilded Larceny
+20% Gilded Strike
+18% Gilded Drive
+16% Gilded Grasp
+18% Gilded Dash
+1% Avaricious Drive
+1% Hooked Drive
+4% Hooked Grasp
+
+Seth:
+7% Vanishing Burst (Drive)
+7% Wyrding Shot (Larceny)
+0% Wyrding Shot (Drive)
+11% Wyrding Dash (Larceny)
+18% Wyrding Dash (Strike)
+13% Wyrding Dash (Drive)
+18% Wyrding Dash (Grasp)
+27% Wyrding Dash (Dash)
+
+
+Gerard: Gilded Drive
+Seth: Vanishing Burst (Drive)
 
 Seth gets +2 power
 Seth gets +2 priority
@@ -920,9 +732,9 @@ Priorities:  3 | 3
 Seth is active
 Seth moves:
 
-G.S....
+.G...S.
 
 Seth hits
-Gerard takes 6 damage (now at 0 life)
+Gerard takes 5 damage (now at 0 life)
 SETH WINS!
-total_time: 517
+total_time: 614

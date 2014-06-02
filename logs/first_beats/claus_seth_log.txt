@@ -11,65 +11,63 @@ Beat 1
 
 Claus
 -----
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: 
+Discard 2: 
 
 Seth
 ----
-life: 20
-discard 1: 
-discard 2: 
-special action
+Life: 20
+Discard 1: 
+Discard 2: 
 
 
 .C...S.
+
 
 Claus:
-1% Tailwind Tempest
 1% Tailwind Drive
 1% Tailwind Grasp
+5% Tailwind Dash
 11% Blast Tempest
-1% Blast Dash
+2% Blast Shot
+2% Blast Dash
 1% Cyclone Tempest
 4% Cyclone Burst
-4% Downdraft Burst
-75% Downdraft Dash
+5% Downdraft Burst
+69% Downdraft Dash
 
 Seth:
-17% Mimic's Shot (Tempest)
-0% Mimic's Shot (Burst)
-0% Mimic's Dash (Dash)
-6% Compelling Shot (Tempest)
-13% Compelling Drive (Tempest)
-37% Compelling Drive (Drive)
-19% Compelling Drive (Grasp)
-2% Compelling Drive (Dash)
-5% Compelling Burst (Tempest)
+18% Mimic's Shot (Tempest)
+1% Mimic's Shot (Burst)
+10% Mimic's Dash (Dash)
+3% Wyrding Omen (Dash)
+8% Wyrding Drive (Tempest)
+9% Compelling Drive (Tempest)
+3% Compelling Drive (Shot)
+30% Compelling Drive (Drive)
+17% Compelling Drive (Grasp)
+0% Compelling Drive (Dash)
 
 
-Claus: Downdraft Dash
-Seth: Compelling Drive (Tempest)
+Claus: Tailwind Dash
+Seth: Mimic's Dash (Dash)
 
-Priorities:  8 | 4
-Claus is active
+Seth gets +2 power
+Seth gets +2 priority
+Priorities:  9 | 11
+Seth is active
 Claus moves:
 
-C....S.
-
-Seth moves Claus:
-
-.C...S.
+..C...S
 
 Seth moves:
 
-.C.S...
-
-Seth misses
-Seth moves Claus:
-
 ..CS...
+
+Claus moves:
+
+.....CS
 
 
 Beat 2
@@ -77,65 +75,53 @@ Beat 2
 
 Claus
 -----
-life: 20
-discard 1: Downdraft Dash
-discard 2: 
-special action
+Life: 20
+Discard 1: Tailwind Dash
+Discard 2: 
 
 Seth
 ----
-life: 20
-discard 1: Compelling Drive
-discard 2: 
-special action
+Life: 20
+Discard 1: Mimic's Dash
+Discard 2: 
 
 
-..CS...
+.....CS
+
 
 Claus:
-19% Tailwind Strike
-12% Tailwind Grasp
-34% Cyclone Tempest
-22% Cyclone Drive
-12% Cyclone Grasp
+18% Blast Strike
+21% Blast Shot
+17% Cyclone Tempest
+16% Cyclone Drive
+13% Cyclone Burst
+14% Cyclone Grasp
 
 Seth:
-6% Mimic's Strike (Tempest)
-31% Mimic's Strike (Strike)
-5% Mimic's Strike (Drive)
-13% Mimic's Grasp (Tempest)
-45% Mimic's Grasp (Grasp)
+10% Wyrding Drive (Tempest)
+2% Wyrding Drive (Strike)
+10% Wyrding Drive (Drive)
+39% Wyrding Drive (Grasp)
+26% Wyrding Grasp (Strike)
+13% Wyrding Grasp (Shot)
 
 
-Claus: Cyclone Tempest
-Seth: Mimic's Grasp (Grasp)
+Claus: Cyclone Grasp
+Seth: Wyrding Grasp (Shot)
 
-Priorities:  5 | 5
+Priorities:  6 | 6
 Clash!
 
-Claus:
-20% Cyclone Shot
-29% Cyclone Burst
-51% Cyclone Grasp
 
-Seth:
-20% Mimic's Strike (Incorrect Guess)
-5% Mimic's Burst (Incorrect Guess)
-75% Mimic's Dash (Incorrect Guess)
+Claus: Cyclone Drive
+Seth: Wyrding Strike (Shot)
 
-
-Claus: Cyclone Burst
-Seth: Mimic's Dash (Incorrect Guess)
-
-Priorities:  2 | 9
-Seth is active
-Claus moves:
-
-C..S...
-
-Seth moves:
-
-C...S..
-
-Claus misses
-total_time: 54
+Priorities:  5 | 4
+Claus is active
+Claus hits
+Seth takes 4 damage (now at 16 life)
+Seth hits
+Claus takes 4 damage (now at 16 life)
+Claus is stunned
+Seth loses 3 life (now at 13)
+total_time: 37

@@ -8132,7 +8132,7 @@ class Shekhtur (Character):
 
     def evaluate (self):
         return (Character.evaluate (self) + 0.3 * len(self.pool) +
-                5 * self.me.coffin_nails_hit) 
+                5 * self.coffin_nails_hit) 
 
 
 class Tanis(Character):
