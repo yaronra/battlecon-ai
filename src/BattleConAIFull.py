@@ -8275,7 +8275,7 @@ class Tatsumi (Character):
                        Empathic  (the_game, self), \
                        WaveStyle (the_game, self)  ]
         self.finishers = [TsunamisCollide (the_game, self),
-                           BearArms (the_game, self)]
+                          GuardianXandjinn (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         # give bases different preferred ranges for juto
         # (because juto isn't moved by base)
@@ -14550,7 +14550,7 @@ class TsunamisCollide (Finisher):
         else:
             return 0
 
-class BearArms (Finisher):
+class GuardianXandjinn (Finisher):
     power = 6
     priority = 5
     standard_range = False

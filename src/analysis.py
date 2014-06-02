@@ -47,7 +47,7 @@ phrases = {  'abarene' : ['Hallicris Snare'],
              'seth' : ['Fortune Buster'],
              'shekhtur' : ['Coffin Nails'],
              'tanis' : ['Scene Shift', 'Curtain Call'],
-             'tatsumi' : ['Tsunamis Collide', 'Bear Arms'],
+             'tatsumi' : ['Tsunamis Collide', 'Bear Arms', 'Guardian Xandjinn'],
              'vanaah' : ['Death Walks', 'Hand of Divinity'],
              'voco' : ['The Wave'],
              'zaamassal' : ['Paradigm Shift', 'Open the Gate', 'Plane Divider']}
