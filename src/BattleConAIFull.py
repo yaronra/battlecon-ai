@@ -6163,13 +6163,22 @@ class Kallistar (Character):
         self.finishers = [Supernova          (the_game, self),
                            ChainOfDestruction (the_game, self)]
         self.status_effects = [PriorityPenaltyStatusEffect(the_game, self)]
+        self.forms = [HumanForm     (the_game, self),
+                      ElementalForm (the_game, self)]
         Character.__init__ (self, the_game, n, use_beta_bases, is_user)
         
     mean_priority_bonus = 1 # Elemental
 
+    def all_cards(self):
+        return Character.all_cards(self) + self.forms
+    
+    def set_active_cards(self):
+        Character.set_active_cards(self)
+        self.active_cards.append(self.form)
+
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
-        self.is_elemental = False
+        self.form = self.human_form
 
     def choose_initial_discards (self):
         return (self.flare, self.strike,
@@ -6177,58 +6186,34 @@ class Kallistar (Character):
 
     def situation_report (self):
         report = Character.situation_report (self)
-        if self.is_elemental:
-            report.append ("Elemental Form")
-        else:
-            report.append ("Human Form")
+        report.append(self.form.name)
         return report
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
-        self.is_elemental = find_start (lines, 'Elemental')
+        self.form = (self.elemental_form 
+                     if find_start (lines, 'Elemental') 
+                     else self.human_form)
 
     def initial_save (self):
         state = Character.initial_save (self)
-        state.is_elemental = self.is_elemental
+        state.form = self.form
         return state
 
     def initial_restore (self, state):
         Character.initial_restore (self, state)
-        self.is_elemental = state.is_elemental
+        self.form = state.form
 
-    def get_priority_bonus (self):
-        return 2*self.is_elemental
-
-    def get_power_bonus (self):
-        return 2*self.is_elemental
-    
-    def get_soak(self):
-        soak = Character.get_soak(self)
-        if not self.is_elemental:
-            soak += 1
-        return soak
-    
-    def expected_soak(self):
-        ret = Character.expected_soak(self)
-        if not self.is_elemental:
-            ret += 1
-        return ret
-    
     def ante_trigger (self):
-        if self.is_elemental:
-            self.lose_life (1)
+        Character.ante_trigger(self)
+        self.form.ante_trigger()
 
     # assumes I'll change to elemental next beat,
     # so value of being elemental is value for one beat,
     # plus value of not having to ignite
     def evaluate (self):
-        return Character.evaluate (self) + \
-            self.is_elemental * (self.elemental_value() - Ignition.badness)
+        return Character.evaluate (self) + self.form.get_value()
         
-    # value of being elemental (per beat)
-    # with low life, the -1 life doesn't hurt
-    def elemental_value (self):
-        return 0 + (self.life <= 2)
 
 class Karin (Character):
     def __init__ (self, the_game, n, use_beta_bases=False, is_user=False):
@@ -11861,12 +11846,12 @@ class Supernova (Finisher):
     priority = 5
     # devolves to cancel if I'm human
     def devolves_into_cancel (self):
-        return Finisher.devolves_into_cancel (self) or not self.me.is_elemental
+        return Finisher.devolves_into_cancel(self) or self.me.form.is_human
     # if you got here, you lose
     def end_trigger (self):
         raise WinException (self.opponent.my_number)
     def evaluate_setup (self):
-        return 1 if self.me.is_elemental and self.game.distance() <=2 and \
+        return 1 if self.me.form.is_elemental and self.game.distance() <=2 and \
                self.opponent.life <= 8 else 0
 
 class ChainOfDestruction (Finisher):
@@ -11877,7 +11862,7 @@ class ChainOfDestruction (Finisher):
     priority = 5
     # devolves to cancel if I'm elemental
     def devolves_into_cancel (self):
-        return Finisher.devolves_into_cancel (self) or self.me.is_elemental
+        return Finisher.devolves_into_cancel(self) or self.me.form.is_elemental
     def hit_trigger (self):
         if self.me.life >= 4:
             if self.game.make_fork (2, self.me,
@@ -11886,7 +11871,7 @@ class ChainOfDestruction (Finisher):
                 self.me.lose_life (3)
                 self.me.max_attacks += 1
     def evaluate_setup (self):
-        if self.game.distance() >= 4:
+        if self.game.distance() >= 4 and self.me.form.is_human:
             return (2.5 if self.me.life >= 7 else
                     (1.5 if self.me.life >= 4 else 0.5))
         else:
@@ -11899,33 +11884,34 @@ class Spellbolt (Base):
     priority = 3
     preferred_range = 4
     def hit_trigger (self):
-        if self.me.is_elemental:
+        if self.me.form.is_elemental:
             self.me.pull ((0,1,2))
         else:
             self.opponent.add_triggered_power_bonus(-2)
     @property
     def ordered_hit_trigger(self):
-        return self.me.is_elemental
+        return self.me.form.is_elemental
 
 class Flare (Style):
     power = 3
     mean_priority = 1
     def reveal_trigger (self):
-        if not self.me.is_elemental:
+        if self.me.form.is_human:
             self.me.lose_life (3)
             self.me.add_triggered_priority_bonus(3)
     def end_trigger (self):
-        self.me.is_elemental = False
+        self.me.form = self.me.human_form
+        self.me.set_active_cards()
         
 class Caustic (Style):
     power = 1
     priority = -1
     def hit_trigger (self):
-        if self.me.is_elemental:
+        if self.me.form.is_elemental:
             self.opponent.stun()
     @property
     def soak (self):
-        return 2 * (not self.me.is_elemental)
+        return 2 * (self.me.form.is_human)
 
 class Volcanic (Style):
     minrange = 2
@@ -11933,45 +11919,59 @@ class Volcanic (Style):
     preferred_range = 3
     mean_priority = 1
     def hit_trigger (self):
-        if self.me.is_elemental:
+        if self.me.form.is_elemental:
             self.me.priority_penalty_status_effect.activate(-2)
     def end_trigger (self):
-        if not self.me.is_elemental:
+        if self.me.form.is_human:
             self.me.move_to_unoccupied()
     @property
     def ordered_end_trigger(self):
-        return not self.me.is_elemental
+        return self.me.form.is_human
     
 class Ignition (Style):
     power = 1
     priority = -1
-    # Ignition.badness adds to value of being elemental,
-    # because being elemental saves me another use of ignition
-    badness = -1.0 
     def reveal_trigger (self):
-        if self.me.is_elemental:
+        if self.me.form.is_elemental:
             self.me.lose_life (3)
             self.me.add_triggered_power_bonus(3)
     def end_trigger (self):
-        self.me.is_elemental = True
+        self.me.form = self.me.elemental_form
     # if Kallistar is human and Ignition is in discard, that delays ignition
     @property
     def discard_penalty (self):
-        return 0 if self.me.is_elemental else 2 * self.me.elemental_value()
+        return 0 if self.me.form.is_elemental else 2 * self.me.elemental_form.get_value()
         
 class Blazing (Style):
     priority = 1
     def get_maxrange_bonus (self):
-        return 1 * self.me.is_elemental
+        return 1 * self.me.form.is_elemental
     def get_preferred_range (self):
-        return 0.5 * self.me.is_elemental
+        return 0.5 * self.me.form.is_elemental
     def after_trigger(self):
-        if not self.me.is_elemental:
+        if self.me.form.is_human:
             self.me.move ((1,2))
     @property
     def ordered_after_trigger(self):
-        return not self.me.is_elemental
+        return self.me.form.is_human
 
+class HumanForm(Card):
+    is_human = True
+    is_elemental = False
+    soak = 1
+    def get_value(self):
+        return 0
+
+class ElementalForm(Card):
+    is_elemental = True
+    is_human = False
+    power = 2
+    priority = 2
+    def ante_trigger(self):
+        self.me.lose_life(1)
+    def get_value(self):
+        return 1 + (self.me.life <= 2)
+    
 #Karin
 
 class RedMoonRage (Finisher):
