@@ -8404,6 +8404,10 @@ class Tatsumi (Character):
     def soak_trigger (self, soaked_damage):
         self.juto_damage_taken += soaked_damage
         self.juto_life -= soaked_damage
+
+    # If Juto loses all life points, remove him (after the stun phase,
+    # if necessary).
+    def take_damage_trigger(self, damage_taken):
         if self.juto_life <= 0:
             self.juto_position = None
             self.juto_life = 0
@@ -10398,7 +10402,7 @@ class Toxic (Style):
     def get_preferred_range (self):
         # we might activate a stim before start of beat.
         projected_stims = min (3, len(self.me.active_packs)+0.5)
-        return projected_stims / 2.0
+        return (projected_stims + 1) / 2.0
     # Doesn't directly give stunguard, but might add to hylatine
     def get_stunguard(self):
         return 0
@@ -10406,16 +10410,14 @@ class Toxic (Style):
     def stunguard(self):
         return 2 if self.me.hylatine in self.me.active_packs else 1
     def start_trigger (self):
-        for i in xrange(len(self.me.active_packs)):
+        for i in xrange(len(self.me.active_packs) + 1):
             self.me.advance([1])
-    @property
-    def ordered_start_trigger(self):
-        return self.me.active_packs
-    # doubling of stims handled by stims themselves
+    ordered_start_trigger = True
     def evaluation_bonus (self):
         # if we have 2 stims at end of beat, we can easily go to 3 next beat
         n = min (2, len(self.me.active_packs))
-        return 0.3 * (n-2)
+        return 0.2 * (n-1)
+    # doubling of stims handled by stims themselves
 
 class Shock (Style):
     power = -1
