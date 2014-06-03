@@ -11,50 +11,57 @@ Beat 1
 
 Cadenza
 -------
-life: 20
-discard 1: Hydraulic Burst
-discard 2: Mechanical Press
-special action
+Life: 20
+Discard 1: Hydraulic Burst
+Discard 2: Mechanical Press
+Special action available
 3 Iron Body tokens
 
 Clinhyde
 --------
-life: 20
-discard 1: Diffusion Frenzy
-discard 2: Phase Grasp
-special action
+Life: 20
+Discard 1: Diffusion Frenzy
+Discard 2: Phase Grasp
+Special action available
 Active Stim Packs: 
 
 
 .C...c.
 
+
 Cadenza:
-34% Battery Grasp
-26% Battery Dash
-18% Clockwork Drive
-2% Clockwork Dash
-20% Grapnel Strike
+33% Battery Grasp
+4% Battery Dash
+0% Clockwork Strike
+31% Clockwork Dash
+32% Grapnel Strike
 
 Clinhyde:
-4% Toxic Shot
-16% Shock Drive (Crizma)
-25% Gravity Strike
-17% Gravity Drive (Crizma)
-38% Gravity Drive (Ehrlite)
+6% Toxic Drive (Crizma)
+32% Gravity Strike
+29% Gravity Drive (Crizma)
+29% Gravity Drive (Ehrlite)
+3% Gravity Burst (Hylatine)
 
 
-Cadenza: Clockwork Drive
-Clinhyde: Gravity Strike
+Cadenza: Clockwork Dash
+Clinhyde: Gravity Drive (Crizma)
 
-Priorities:  1 | 3
-Clinhyde is active
+Clinhyde activates Crizma
+Clinhyde loses 1 life (now at 19)
+Priorities:  6 | 4
+Cadenza is active
+Cadenza moves:
+
+...C.c.
+
 Clinhyde hits
 Clinhyde moves Cadenza:
 
-C....c.
+.C...c.
 
 Cadenza has 3 soak
-Cadenza takes 1 damage (now at 19 life)
+Cadenza takes 2 damage (now at 18 life)
 Cadenza is stunned
 
 Beat 2
@@ -62,170 +69,193 @@ Beat 2
 
 Cadenza
 -------
-life: 19
-discard 1: Clockwork Drive
-discard 2: Hydraulic Burst
-special action
+Life: 18
+Discard 1: Clockwork Dash
+Discard 2: Hydraulic Burst
+Special action available
 3 Iron Body tokens
 
 Clinhyde
 --------
-life: 20
-discard 1: Gravity Strike
-discard 2: Diffusion Frenzy
-special action
-Active Stim Packs: 
+Life: 19
+Discard 1: Gravity Drive
+Discard 2: Diffusion Frenzy
+Special action available
+Active Stim Packs: Crizma
 
 
-C....c.
+.C...c.
+
 
 Cadenza:
-8% Battery Press (Iron Body)
-12% Battery Shot
-45% Battery Shot (Iron Body)
-36% Grapnel Press
+7% Battery Drive
+1% Grapnel Drive
+34% Grapnel Grasp
+26% Mechanical Press
+32% Mechanical Shot (Iron Body)
 
 Clinhyde:
-10% Toxic Shot (Crizma)
-30% Toxic Burst
-50% Shock Shot (Crizma)
-9% Shock Burst (Crizma)
+31% Toxic Shot
+1% Toxic Burst (Ehrlite)
+7% Toxic Burst (Hylatine)
+47% Shock Strike
+13% Shock Shot
 
 
-Cadenza: Grapnel Press
-Clinhyde: Shock Burst (Crizma)
+Cadenza: Mechanical Shot (Iron Body)
+Clinhyde: Shock Strike
 
-Clinhyde activates Crizma
-Clinhyde loses 1 life (now at 19)
-Priorities:  0 | 2
+Cadenza antes an Iron Body token
+Clinhyde loses 1 life (now at 18)
+Priorities:  0 | 4
 Clinhyde is active
 Clinhyde moves:
 
-C.....c
-
-Clinhyde moves:
-
-C.c....
+.Cc....
 
 Clinhyde hits
-Cadenza takes 4 damage (now at 15 life)
-Cadenza misses
+Cadenza takes 4 damage (now at 14 life)
+Cadenza hits
+Clinhyde takes 5 damage (now at 13 life)
+Cadenza moves:
+
+..cC...
+
 
 Beat 3
 -------
 
 Cadenza
 -------
-life: 15
-discard 1: Grapnel Press
-discard 2: Clockwork Drive
-special action
-3 Iron Body tokens
+Life: 14
+Discard 1: Mechanical Shot
+Discard 2: Clockwork Dash
+Special action available
+2 Iron Body tokens
 
 Clinhyde
 --------
-life: 19
-discard 1: Shock Burst
-discard 2: Gravity Strike
-special action
+Life: 13
+Discard 1: Shock Strike
+Discard 2: Gravity Drive
+Special action available
 Active Stim Packs: Crizma
 
 
-C.c....
+..cC...
+
 
 Cadenza:
-5% Battery Strike
-20% Battery Shot
-0% Battery Grasp
-66% Battery Dash
-9% Hydraulic Strike
+12% Battery Strike
+27% Battery Grasp
+1% Hydraulic Press
+44% Hydraulic Drive
+16% Hydraulic Burst
 
 Clinhyde:
-10% Toxic Shot
-6% Toxic Grasp (Ehrlite)
-7% Diffusion Shot
-17% Diffusion Grasp (Ehrlite)
-60% Phase Dash
+34% Toxic Burst (Ehrlite)
+23% Diffusion Grasp
+14% Phase Shot
+23% Phase Burst
+5% Phase Grasp
 
 
-Cadenza: Battery Dash
-Clinhyde: Phase Dash
+Cadenza: Hydraulic Drive
+Clinhyde: Toxic Burst (Ehrlite)
 
-Clinhyde loses 1 life (now at 18)
-Priorities:  8 | 6
-Cadenza is active
-Cadenza moves:
+Clinhyde activates Ehrlite
+Clinhyde loses 2 life (now at 11)
+Priorities:  3 | 5
+Clinhyde is active
+Clinhyde moves:
+
+...Cc..
+
+Clinhyde moves:
 
 ..cC...
 
 Clinhyde moves:
 
-c..C...
+...Cc..
 
+Clinhyde moves:
+
+...C..c
+
+Clinhyde hits
+Cadenza has 1 soak
+Cadenza takes 4 damage (now at 10 life)
+Cadenza spends an Iron Body token
+Cadenza gains infinite stunguard
+Cadenza moves:
+
+....C.c
+
+Cadenza moves:
+
+.....Cc
+
+Cadenza hits
+Clinhyde takes 5 damage (now at 6 life)
+Clinhyde is stunned
 
 Beat 4
 -------
 
 Cadenza
 -------
-life: 15
-discard 1: Battery Dash
-discard 2: Grapnel Press
-special action
-3 Iron Body tokens
-+4 priority from last beat
+Life: 10
+Discard 1: Hydraulic Drive
+Discard 2: Mechanical Shot
+Special action available
+1 Iron Body token
 
 Clinhyde
 --------
-life: 18
-discard 1: Phase Dash
-discard 2: Shock Burst
-special action
-Active Stim Packs: Crizma
+Life: 6
+Discard 1: Toxic Burst
+Discard 2: Shock Strike
+Special action available
+Active Stim Packs: Crizma, Ehrlite
 
 
-c..C...
+.....Cc
+
+Unbeatable strategy for Cadenza: Clockwork Press: 0.13
+
 
 Cadenza:
-35% Clockwork Drive
-20% Hydraulic Drive
-4% Mechanical Drive
-40% Mechanical Burst
+84% Clockwork Press
+16% Clockwork Burst
 
 Clinhyde:
-12% Toxic Drive (Ehrlite)
-24% Gravity Frenzy (Ehrlite)
-5% Gravity Drive (Ehrlite)
-59% Gravity Grasp (Ehrlite)
+56% Diffusion Drive
+44% Gravity Drive
 
 
-Cadenza: Mechanical Burst
-Clinhyde: Gravity Frenzy (Ehrlite)
+Cadenza: Clockwork Press
+Clinhyde: Diffusion Drive
 
-Clinhyde activates Ehrlite
-Clinhyde loses 2 life (now at 16)
-Priorities:  3 | 5
+Clinhyde loses 2 life (now at 4)
+Priorities:  -3 | 6
 Clinhyde is active
 Clinhyde moves:
 
-.c.C...
-
-Cadenza moves:
-
-.c..C..
+...c.C.
 
 Clinhyde hits
 Clinhyde moves Cadenza:
 
-.cC....
+...c..C
 
-Cadenza takes 4 damage (now at 11 life)
-Cadenza is stunned
-Clinhyde de-activates Ehrlite
-Clinhyde de-activates Crizma
-Cadenza moves:
+Cadenza loses 2 life (now at 8)
+Cadenza has 3 soak
+Cadenza takes 0 damage (now at 8 life)
+Cadenza misses
+Clinhyde moves:
 
-Cc.....
+.....cC
 
 
 Beat 5
@@ -233,309 +263,317 @@ Beat 5
 
 Cadenza
 -------
-life: 11
-discard 1: Mechanical Burst
-discard 2: Battery Dash
-special action
-3 Iron Body tokens
+Life: 8
+Discard 1: Clockwork Press
+Discard 2: Hydraulic Drive
+Special action available
+1 Iron Body token
 
 Clinhyde
 --------
-life: 16
-discard 1: Gravity Frenzy
-discard 2: Phase Dash
-special action
-Active Stim Packs: 
+Life: 4
+Discard 1: Diffusion Drive
+Discard 2: Toxic Burst
+Special action available
+Active Stim Packs: Crizma, Ehrlite
 
 
-Cc.....
+.....cC
 
-Unbeatable strategy for Clinhyde: Shock Strike (Crizma): -1.27
-Unbeatable strategy for Clinhyde: Shock Strike: -0.62
-Unbeatable strategy for Clinhyde: Shock Drive (Crizma): -0.45
-Unbeatable strategy for Clinhyde: Shock Drive: -0.77
-Unbeatable strategy for Clinhyde: Shock Grasp: -0.42
+Unbeatable strategy for Cadenza: Battery Dash: 0.74
+
 
 Cadenza:
-100% Clockwork Shot
+60% Battery Dash
+40% Grapnel Grasp
 
 Clinhyde:
-100% Shock Strike (Crizma)
+100% Shock Frenzy
+0% Shock Grasp
 
 
-Cadenza: Clockwork Shot
-Clinhyde: Shock Strike (Crizma)
+Cadenza: Battery Dash
+Clinhyde: Shock Frenzy
 
-Clinhyde activates Crizma
-Clinhyde loses 1 life (now at 15)
-Priorities:  -1 | 4
-Clinhyde is active
-Clinhyde hits
-Cadenza has 3 soak
-Cadenza takes 2 damage (now at 9 life)
-Cadenza is stunned
+Clinhyde loses 2 life (now at 2)
+Priorities:  8 | 5
+Cadenza is active
+Cadenza moves:
+
+...C.c.
+
+Clinhyde moves:
+
+.c.C...
+
+Clinhyde misses
+Clinhyde de-activates Crizma
+Clinhyde de-activates Ehrlite
+Cadenza will have 4 priority next beat
 
 Beat 6
 -------
 
 Cadenza
 -------
-life: 9
-discard 1: Clockwork Shot
-discard 2: Mechanical Burst
-special action
-3 Iron Body tokens
+Life: 8
+Discard 1: Battery Dash
+Discard 2: Clockwork Press
+Special action available
+Priority bonus: 4
+1 Iron Body token
 
 Clinhyde
 --------
-life: 15
-discard 1: Shock Strike
-discard 2: Gravity Frenzy
-special action
-Active Stim Packs: Crizma
+Life: 2
+Discard 1: Shock Frenzy
+Discard 2: Diffusion Drive
+Special action available
+Active Stim Packs: 
 
 
-Cc.....
+.c.C...
+
 
 Cadenza:
-7% Battery Press
-18% Battery Strike
-51% Battery Dash
-9% Hydraulic Press
-15% Grapnel Dash
+21% Grapnel Drive
+27% Grapnel Grasp
+30% Mechanical Shot
+22% Mechanical Drive
 
 Clinhyde:
-11% Toxic Grasp (Ehrlite)
-4% Diffusion Burst
-28% Diffusion Grasp (Ehrlite)
-39% Diffusion Grasp
-18% Phase Burst
+4% Toxic Strike
+33% Toxic Dash
+60% Gravity Dash
+3% Phase Strike
 
 
-Cadenza: Battery Dash
-Clinhyde: Diffusion Grasp (Ehrlite)
+Cadenza: Grapnel Drive
+Clinhyde: Gravity Dash
 
-Clinhyde activates Ehrlite
-Clinhyde loses 2 life (now at 13)
-Priorities:  8 | 8
-Clash!
-
-Cadenza:
-49% Battery Press
-51% Battery Grasp
-
-Clinhyde:
-51% Diffusion Shot (Ehrlite)
-49% Diffusion Burst (Ehrlite)
-
-
-Cadenza: Battery Grasp
-Clinhyde: Diffusion Burst (Ehrlite)
-
-Clinhyde activates Ehrlite
-Clinhyde loses 2 life (now at 13)
-Priorities:  4 | 4
-Clash!
-
-Cadenza:
-100% Battery Press
-
-Clinhyde:
-100% Diffusion Shot (Ehrlite)
-
-
-Cadenza: Battery Press
-Clinhyde: Diffusion Shot (Ehrlite)
-
-Clinhyde activates Ehrlite
-Clinhyde loses 2 life (now at 13)
-Priorities:  -1 | 5
+Priorities:  8 | 9
 Clinhyde is active
-Clinhyde hits
-Cadenza loses 2 life (now at 7)
-Cadenza takes 3 damage (now at 4 life)
-Clinhyde de-activates Ehrlite
-Cadenza hits
-Clinhyde takes 5 damage (now at 8 life)
-Clinhyde is stunned
+Clinhyde moves:
+
+..cC...
+
+Cadenza moves:
+
+.Cc....
+
+Cadenza misses
 
 Beat 7
 -------
 
 Cadenza
 -------
-life: 4
-discard 1: Battery Press
-discard 2: Clockwork Shot
-special action
-3 Iron Body tokens
-+4 priority from last beat
+Life: 8
+Discard 1: Grapnel Drive
+Discard 2: Battery Dash
+Special action available
+1 Iron Body token
 
 Clinhyde
 --------
-life: 8
-discard 1: Diffusion Shot
-discard 2: Shock Strike
-special action
-Active Stim Packs: Crizma
+Life: 2
+Discard 1: Gravity Dash
+Discard 2: Shock Frenzy
+Special action available
+Active Stim Packs: 
 
-
-Cc.....
-
-Unbeatable strategy for Cadenza: Hydraulic Dash: 0.45
-
-Cadenza:
-3% Hydraulic Drive
-3% Mechanical Strike
-3% Mechanical Drive
-1% Mechanical Grasp
-90% Mechanical Dash
-
-Clinhyde:
-5% Toxic Frenzy (Ehrlite)
-3% Toxic Frenzy (Hylatine)
-35% Toxic Burst
-28% Phase Drive
-29% Special Vital Silver Infusion
-
-
-Cadenza: Mechanical Dash
-Clinhyde: Toxic Burst
-
-Clinhyde loses 1 life (now at 7)
-Priorities:  11 | 2
-Cadenza is active
-Clinhyde moves:
-
-C.c....
-
-Cadenza moves:
 
 .Cc....
 
-Clinhyde misses
-Cadenza moves:
 
-..c.C..
+Cadenza:
+67% Mechanical Shot
+33% Mechanical Grasp
 
+Clinhyde:
+8% Diffusion Burst (Crizma)
+92% Special Pulse
+
+
+Cadenza: Mechanical Shot
+Clinhyde: Special Pulse
+
+Clinhyde Pulses:
+
+C.....c
+
+
+Beat 7
+-------
+
+Cadenza
+-------
+Life: 8
+Discard 1: Mechanical Shot
+Discard 2: Grapnel Drive
+Special action available
+1 Iron Body token
+
+Clinhyde
+--------
+Life: 2
+Discard 1: Gravity Dash
+Discard 2: Shock Frenzy
+Active Stim Packs: 
+
+
+C.....c
+
+
+Cadenza:
+33% Battery Strike
+36% Battery Grasp
+23% Hydraulic Burst
+8% Hydraulic Dash
+
+Clinhyde:
+19% Toxic Shot (Crizma)
+41% Toxic Burst
+3% Phase Strike
+36% Phase Grasp
+
+
+Cadenza: Battery Strike
+Clinhyde: Toxic Shot (Crizma)
+
+Clinhyde activates Crizma
+Clinhyde loses 1 life (now at 1)
+Priorities:  2 | 3
+Clinhyde is active
+Clinhyde moves:
+
+C....c.
+
+Clinhyde moves:
+
+C...c..
+
+Clinhyde hits
+Cadenza takes 6 damage (now at 2 life)
+Cadenza is stunned
+Cadenza will have 4 priority next beat
 
 Beat 8
 -------
 
 Cadenza
 -------
-life: 4
-discard 1: Mechanical Dash
-discard 2: Battery Press
-special action
-3 Iron Body tokens
+Life: 2
+Discard 1: Battery Strike
+Discard 2: Mechanical Shot
+Special action available
+Priority bonus: 4
+1 Iron Body token
 
 Clinhyde
 --------
-life: 7
-discard 1: Toxic Burst
-discard 2: Diffusion Shot
-special action
+Life: 1
+Discard 1: Toxic Shot
+Discard 2: Gravity Dash
 Active Stim Packs: Crizma
 
 
-..c.C..
+C...c..
+
 
 Cadenza:
-50% Clockwork Shot
-9% Clockwork Shot (Iron Body)
-13% Hydraulic Drive
-17% Grapnel Drive
-10% Grapnel Grasp
+34% Clockwork Press
+6% Clockwork Burst
+4% Hydraulic Drive
+4% Hydraulic Drive (Iron Body)
+3% Grapnel Press
+4% Grapnel Drive
+3% Grapnel Drive (Iron Body)
+20% Grapnel Burst
+22% Grapnel Grasp
 
 Clinhyde:
-16% Shock Frenzy (Hylatine)
-12% Shock Drive
-66% Shock Dash
-3% Gravity Drive (Hylatine)
-4% Phase Frenzy (Hylatine)
-
-
-Cadenza: Grapnel Drive
-Clinhyde: Shock Frenzy (Hylatine)
-
-Clinhyde activates Hylatine
-Clinhyde loses 2 life (now at 5)
-Priorities:  4 | 4
-Clash!
-
-Cadenza:
-4% Grapnel Shot
-96% Grapnel Grasp
-
-Clinhyde:
+5% Diffusion Frenzy (Hylatine)
+10% Shock Strike (Ehrlite)
 4% Shock Drive (Hylatine)
-96% Shock Dash (Hylatine)
+5% Shock Burst
+32% Shock Grasp (Hylatine)
+7% Phase Frenzy (Hylatine)
+37% Phase Burst
 
 
 Cadenza: Grapnel Grasp
-Clinhyde: Shock Dash (Hylatine)
+Clinhyde: Shock Grasp (Hylatine)
 
 Clinhyde activates Hylatine
-Clinhyde loses 2 life (now at 5)
-Priorities:  5 | 10
-Clinhyde is active
+Clinhyde loses 2 life (now at 1)
+Priorities:  9 | 6
+Cadenza is active
+Cadenza hits
+Cadenza moves Clinhyde:
+
+Cc.....
+
+Cadenza moves Clinhyde:
+
+C.c....
+
+Clinhyde has 2 soak
+Clinhyde takes 0 damage (now at 1 life)
 Clinhyde moves:
 
-...cC..
+C.....c
 
-Cadenza misses
+Clinhyde misses
 
 Beat 9
 -------
 
 Cadenza
 -------
-life: 4
-discard 1: Grapnel Grasp
-discard 2: Mechanical Dash
-special action
-3 Iron Body tokens
+Life: 2
+Discard 1: Grapnel Grasp
+Discard 2: Battery Strike
+Special action available
+1 Iron Body token
 
 Clinhyde
 --------
-life: 5
-discard 1: Shock Dash
-discard 2: Toxic Burst
-special action
+Life: 1
+Discard 1: Shock Grasp
+Discard 2: Toxic Shot
 Active Stim Packs: Crizma, Hylatine
 
 
-...cC..
+C.....c
+
+Unbeatable strategy for Clinhyde: Gravity Drive: -0.38
+
 
 Cadenza:
-75% Clockwork Strike
-1% Clockwork Shot
-24% Clockwork Drive
+85% Clockwork Press
+2% Clockwork Burst
+12% Hydraulic Dash
 
 Clinhyde:
-3% Diffusion Strike
-2% Diffusion Drive
-95% Gravity Drive
+16% Gravity Drive
+34% Gravity Burst
+49% Phase Burst
 
 
-Cadenza: Clockwork Strike
-Clinhyde: Gravity Drive
+Cadenza: Clockwork Press
+Clinhyde: Gravity Burst
 
-Clinhyde loses 2 life (now at 3)
-Priorities:  0 | 4
+Clinhyde loses 2 life (now at 1)
+Priorities:  -3 | 1
 Clinhyde is active
-Clinhyde moves:
-
-....C.c
-
 Clinhyde hits
 Clinhyde moves Cadenza:
 
 .C....c
 
 Cadenza has 3 soak
-Cadenza takes 1 damage (now at 3 life)
+Cadenza takes 1 damage (now at 1 life)
 Cadenza misses
 
 Beat 10
@@ -543,109 +581,54 @@ Beat 10
 
 Cadenza
 -------
-life: 3
-discard 1: Clockwork Strike
-discard 2: Grapnel Grasp
-special action
-3 Iron Body tokens
+Life: 1
+Discard 1: Clockwork Press
+Discard 2: Grapnel Grasp
+Special action available
+1 Iron Body token
 
 Clinhyde
 --------
-life: 3
-discard 1: Gravity Drive
-discard 2: Shock Dash
-special action
+Life: 1
+Discard 1: Gravity Burst
+Discard 2: Shock Grasp
 Active Stim Packs: Crizma, Hylatine
 
 
 .C....c
 
-Cadenza:
-28% Battery Press
-8% Battery Dash
-18% Mechanical Burst
-31% Special Rocket Press
-15% Special Feedback Field
+Unbeatable strategy for Clinhyde: Toxic Drive (Ehrlite): -6.00
 
-Clinhyde:
-27% Toxic Frenzy (Ehrlite)
-24% Toxic Shot
-7% Phase Strike
-31% Phase Shot (Ehrlite)
-10% Phase Shot
-
-
-Cadenza: Special Rocket Press
-Clinhyde: Phase Shot (Ehrlite)
-
-Clinhyde activates Ehrlite
-Clinhyde loses 3 life (now at 1)
-Priorities:  0 | 1
-Clinhyde is active
-Clinhyde misses
-Cadenza moves:
-
-.....Cc
-
-Cadenza misses
-
-Beat 11
--------
-
-Cadenza
--------
-life: 3
-discard 1: Clockwork Strike
-discard 2: Grapnel Grasp
-3 Iron Body tokens
-
-Clinhyde
---------
-life: 1
-discard 1: Phase Shot
-discard 2: Gravity Drive
-special action
-Active Stim Packs: Ehrlite, Crizma, Hylatine
-
-
-.....Cc
-
-Unbeatable strategy for Clinhyde: Shock Frenzy: -1.20
-Unbeatable strategy for Clinhyde: Diffusion Frenzy: -1.87
 
 Cadenza:
-6% Battery Burst
-6% Battery Burst (Iron Body)
-53% Battery Dash
-10% Hydraulic Shot
-13% Hydraulic Shot (Iron Body)
-6% Mechanical Burst
-6% Mechanical Burst (Iron Body)
+34% Mechanical Strike
+31% Mechanical Burst
+3% Special Rocket Press
+31% Special Feedback Field
 
 Clinhyde:
-23% Toxic Grasp
-17% Shock Burst
-53% Diffusion Frenzy
-7% Diffusion Burst
+11% Toxic Frenzy (Ehrlite)
+5% Toxic Strike (Ehrlite)
+2% Toxic Shot (Ehrlite)
+2% Toxic Shot
+22% Toxic Drive (Ehrlite)
+3% Toxic Drive
+22% Diffusion Shot
+34% Phase Shot (Ehrlite)
 
 
-Cadenza: Mechanical Burst (Iron Body)
-Clinhyde: Diffusion Frenzy
+Cadenza: Mechanical Strike
+Clinhyde: Diffusion Shot
 
-Cadenza antes an Iron Body token
-Clinhyde loses 3 life (now at 1)
-Priorities:  -1 | 5
+Clinhyde loses 2 life (now at 1)
+Priorities:  1 | 3
 Clinhyde is active
-Clinhyde moves:
-
-....cC.
-
-Cadenza moves:
-
-....c.C
-
 Clinhyde hits
+Clinhyde moves Cadenza:
+
+C.....c
+
 Cadenza loses 2 life (now at 1)
-Cadenza takes 4 damage (now at 0 life)
+Cadenza takes 3 damage (now at 0 life)
 CLINHYDE WINS!
-total_time: 49
+total_time: 48
