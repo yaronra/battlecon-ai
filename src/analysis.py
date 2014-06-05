@@ -52,11 +52,16 @@ phrases = {  'abarene' : ['Hallicris Snare'],
              'voco' : ['The Wave'],
              'zaamassal' : ['Paradigm Shift', 'Open the Gate', 'Plane Divider']}
 
-devastation = ['adjenna', 'alexian', 'arec', 'aria', 'byron', 'cesar', 
-               'clinhyde', 'eligor', 'gerard', 'kajia', 'karin', 
-               'lesandra', 'lymn', 'marmelee', 'mikhail', 'oriana', 
-               'ottavia', 'rexan', 'runika', 'shekhtur', 'tanis', 'voco']
-
+devastation_flights = [['alexian', 'eligor', 'karin', 'marmelee', 'shekhtur'],
+                       ['cesar', 'kajia', 'mikhail', 'ottavia', 'rexan', 'runika'],
+                       ['aria', 'byron', 'clinhyde', 'lesandra', 'lymn', 'oriana'],
+                       ['adjenna', 'arec', 'gerard', 'voco'],
+                       ['tanis']]
+devastation = sum(devastation_flights, [])
+war_flights = [['cadenza', 'hikaru', 'kallistar', 'luc', 'magdelina', 'vanaah'],
+               ['demitras', 'heketch', 'kehrolhyn', 'rukyuk', 'zaamassal'],
+               ['khadath', 'lixis', 'seth', 'tatsumi']]
+war = sum(war_flights, [])
 all_names = sorted(phrases.keys())
 
 def list_files (logdir, name=None, player_num=None):
@@ -314,7 +319,7 @@ def entropy(logdir='free_for_all'):
         print title
         for name in d:
             d[name] = 2 ** sorted(d[name])[len(d[name])/2]
-        items = sorted(d.items(), key=itemgetter(1))
+        items = sorted(d.items(), key=itemgetter(0))
         for i in items:
             print "%.1f %s" % (i[1], i[0])
     my_names = [m[0] for m in sorted(my_entropy.items(), key=itemgetter(1))]
