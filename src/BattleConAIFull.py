@@ -2324,9 +2324,13 @@ class Character (object):
         # power has a minimum of 0
         return max (0, power)
     def get_minrange (self):
+        cards = self.active_cards
+        if (self.ignore_style_range(self) or 
+            self.opponent.ignore_style_range(self)):
+            cards = [c for c in cards if c is not self.style]
         minrange = self.get_minrange_bonus() + \
                    sum(card.minrange+card.get_minrange_bonus()
-                        for card in self.active_cards) + \
+                        for card in cards) + \
                    self.opponent.give_minrange_penalty()
         if self.opponent.blocks_minrange_bonuses():
             minrange = min (minrange, self.style.minrange + self.base.minrange)
@@ -2339,9 +2343,13 @@ class Character (object):
                 self.get_maxrange_bonus() + 
                 self.opponent.give_maxrange_penalty())
     def get_maxrange (self):
+        cards = self.active_cards
+        if (self.ignore_style_range(self) or 
+            self.opponent.ignore_style_range(self)):
+            cards = [c for c in cards if c is not self.style]
         maxrange = self.get_maxrange_bonus() + \
                    sum(card.maxrange+card.get_maxrange_bonus()
-                        for card in self.active_cards) + \
+                        for card in cards) + \
                    self.opponent.give_maxrange_penalty()
         if self.opponent.blocks_maxrange_bonuses():
             maxrange = min (maxrange, self.style.maxrange + self.base.maxrange)
@@ -2354,6 +2362,18 @@ class Character (object):
         return 0
     def get_maxrange_bonus (self):
         return 0
+    def give_priority_penalty (self):
+        return sum (card.give_priority_penalty() for card in self.active_cards)
+    def give_power_penalty (self):
+        return sum (card.give_power_penalty() for card in self.active_cards)
+    def give_minrange_penalty (self):
+        return sum (card.give_minrange_penalty() for card in self.active_cards)
+    def give_maxrange_penalty (self):
+        return sum (card.give_maxrange_penalty() for card in self.active_cards)
+
+    # Cause my or opponent's style range modifiers to be ignored.
+    def ignore_style_range(self, player):
+        return False
 
     def add_triggered_power_bonus (self, bonus):
         self.triggered_power_bonus += bonus
@@ -2536,14 +2556,6 @@ class Character (object):
     
     def has_stun_immunity (self):
         return any (card.has_stun_immunity() for card in self.active_cards)
-    def give_priority_penalty (self):
-        return sum (card.give_priority_penalty() for card in self.active_cards)
-    def give_power_penalty (self):
-        return sum (card.give_power_penalty() for card in self.active_cards)
-    def give_minrange_penalty (self):
-        return sum (card.give_minrange_penalty() for card in self.active_cards)
-    def give_maxrange_penalty (self):
-        return sum (card.give_maxrange_penalty() for card in self.active_cards)
     # fraction added to priority to break ties in clash
     # used when a card wins/loses ties without clashing
     def clash_priority (self):
@@ -3741,6 +3753,10 @@ class Alexian (Character):
     def soak_trigger (self, soaked_damage):
         self.damage_soaked += soaked_damage
 
+    def ignore_style_range(self, player):
+        return (player is self.opponent and 
+                self.mighty in self.active_cards)
+
     def evaluate (self):
         value = Character.evaluate(self)
         value -= 0.4 * len(self.induced_pool)
@@ -4353,26 +4369,9 @@ class Byron (Character):
         Character.lose_life (self, amount)
         self.life_lost += amount
 
-    # Smoke ignores style's range modifier
-    def get_maxrange (self):
-        if self.base.name == 'Smoke':
-            maxrange = self.base.maxrange + \
-                       self.opponent.give_maxrange_penalty()
-            if self.opponent.blocks_maxrange_bonuses():
-                maxrange = min (maxrange, self.base.maxrange)
-        else:
-            maxrange = Character.get_maxrange(self)
-        return maxrange
-            
-    def get_minrange (self):
-        if self.base.name == 'Smoke':
-            minrange = self.base.minrange + \
-                       self.opponent.give_minrange_penalty()
-            if self.opponent.blocks_minrange_bonuses():
-                minrange = min (minrange, self.base.minrange)
-        else:
-            minrange = Character.get_minrange(self)
-        return minrange
+    def ignore_style_range(self, player):
+        return (player is self and 
+                self.smoke in self.active_cards)
 
     # restoring life at end, rather than start of beat
     # this lets opponent's evaluation figure that damage is worthless
@@ -9421,14 +9420,7 @@ class Mighty (Style):
     priority = 1
     soak = 1
     stunguard = 2
-    # Opponent ignores style range modifier.
-    # Hack: give a penalty equal to the style bonus.
-    # This works because no one makes their own range equal to printed value
-    # TODO: check if non printed style bonuses are also ignored.
-    def give_minrange_penalty (self):
-        return -self.opponent.style.minrange
-    def give_maxrange_penalty (self):
-        return -self.opponent.style.maxrange
+    # Ignoring opponent's style range handled by Alexian.ignore_style_range()
 
 class Steeled (Style):
     power = 2
@@ -9986,7 +9978,7 @@ class SoulTrap (Finisher):
     def hit_trigger (self):
         self.me.recover_emblem()
     def evaluate_setup (self):
-        return 1 if self.game.distance() in (1,2,3) else 0
+        return 0.1 * min(7, self.opponent.life) if self.game.distance() in (1,2,3) else 0
 
 class SoulGate (Finisher):
     minrange = 3
@@ -9995,7 +9987,7 @@ class SoulGate (Finisher):
     def can_be_hit (self):
         return self.opponent.moved
     def evaluate_setup (self):
-        return 1 if self.game.distance() in (3,4) else 0
+        return 0.1 * self.opponent.life if self.game.distance() in (3,4) else 0
 
 class Smoke (Base):
     minrange = 1
@@ -10006,7 +9998,7 @@ class Smoke (Base):
     def hit_trigger (self):
         self.me.move_opponent((0,1))
     ordered_hit_trigger = True
-    # Ignoring style range handled by Byron.get_maxrange(), Byron.get_minrange()
+    # Ignoring style range handled by Byron.ignore_style_range
 
 class Soulless (Style):
     power = 1
@@ -10024,7 +10016,9 @@ class Soulless (Style):
         if self.me.emblems_discarded == 0:
             self.me.discard_emblem()
     def evaluation_bonus (self):
-        return 1 if self.game.distance() == 1 else -1
+        soak_bonus  = 0.2 * (self.soak - 2)
+        range_bonus = 0.3 if self.game.distance() == 1 else -0.6
+        return soak_bonus + range_bonus
 
 class Deathless (Style):
     minrange = 1
