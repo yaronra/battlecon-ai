@@ -14769,7 +14769,7 @@ class Glorious (Style):
     power = 2
     preferred_range = 0.5
     def before_trigger (self):
-        self.me.advance ([1])
+        self.me.advance ([0,1])
     ordered_before_trigger = True
     def can_hit (self):
         return self.me.get_priority() >= self.opponent.get_priority()
