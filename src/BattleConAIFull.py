@@ -5767,7 +5767,7 @@ class Heketch (Character):
     def evaluate (self):
         ev = Character.evaluate(self)
         if self.pool:
-            ev += 0.9 + (0.1 * self.game.distance() - 1)
+            ev += 0.8 + 0.1 * self.game.distance()
         if self.living_nightmare_active:
             ev += 7
         return ev
