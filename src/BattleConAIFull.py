@@ -868,12 +868,12 @@ class Game:
                     # discard 0, so that they'll cycle.
                     if opp.style is opp.special_action:
                         if opp.base is opp.cancel:
-                            options = opp.cancel_generators
+                            options = opp.cancel_generators.copy()
                             if any(f.devolves_into_cancel() 
                                    for f in opp.finishers):
                                 options |= opp.finisher_generators
                         else:
-                            options = opp.finisher_generators
+                            options = opp.finisher_generators.copy()
                         options &= set(opp.bases)
                         options -= (opp.discard[1] | opp.discard[2])
                         options = list(options)
