@@ -2535,7 +2535,8 @@ class Character (object):
     # react to own or opponent's execute_move()
     # invoked also for failed movement
     def movement_reaction (self, initiator, mover, old_position, direct):
-        pass
+        for card in self.active_cards:
+            card.movement_reaction (initiator, mover, old_position, direct)
     def mimics_movement (self):
         return False
     # makes in-beat choices (forks) for opponent
@@ -3542,11 +3543,6 @@ class Abarene(Character):
                                            from_ante=True)
         Character.hit_trigger(self)
 
-    # overrides default method, which I set to pass for performance
-    def movement_reaction (self, initiator, mover, old_position, direct):
-        for card in self.active_cards:
-            card.movement_reaction (initiator, mover, old_position, direct)
-
     def give_priority_penalty(self):
         return (-2 * self.flytrap_discard + 
                 Character.give_priority_penalty(self))
@@ -3612,11 +3608,6 @@ class Adjenna (Character):
         if self.arresting in self.active_cards:
             # treated as opponent pushing me
             self.opponent.push ([soaked_damage])
-
-    # overrides default method, which I set to pass for performance
-    def movement_reaction (self, initiator, mover, old_position, direct):
-        for card in self.active_cards:
-            card.movement_reaction (initiator, mover, old_position, direct)
 
     # Adjenna wants to be as close to opponent as possible
     # regardless of her cards?
@@ -4635,11 +4626,6 @@ class Cesar (Character):
         # check if this is first damage this beat
         self.damage_taken += final_damage
 
-    # overrides default method, which I set to pass for performance
-    def movement_reaction (self, initiator, mover, old_position, direct):
-        for card in self.active_cards:
-            card.movement_reaction (initiator, mover, old_position, direct)
-
     def blocks_hit_triggers (self):
         return self.unstoppable in self.active_cards
 
@@ -5022,11 +5008,6 @@ class Clive (Character):
         if self.game.reporting:
             self.game.report ("Clive discards %s" % module.name)
 
-    # overrides default method, which I set to pass for performance
-    def movement_reaction (self, initiator, mover, old_position, direct):
-        for card in self.active_cards:
-            card.movement_reaction (initiator, mover, old_position, direct)
-        
     def blocks_hit_triggers (self):
         return self.core_shielding in self.active_cards
 
@@ -5621,6 +5602,7 @@ class Gerard (Character):
             self.removed_mercs.append(self.lackey)
 
     def movement_reaction(self, initiator, mover, old_position, direct):
+        Character.movement_reaction(self, initiator, mover, old_position, direct)
         if not direct and mover.opponent.mimics_movement():
             return
         if ordered(old_position, mover.opponent.position, mover.position):
@@ -5753,11 +5735,6 @@ class Heketch (Character):
     def blocks_opponent_movement (self, initiator, direct):
         return (set(xrange(7)) if self.merciless_immobilized
                 else Character.blocks_opponent_movement(self, initiator, direct))
-
-    # overrides default method, which I set to pass for performance
-    def movement_reaction (self, initiator, mover, old_position, direct):
-        for card in self.active_cards:
-            card.movement_reaction (initiator, mover, old_position, direct)
 
     # retrieve token at end of beat
     def unique_ability_end_trigger (self):
@@ -6118,6 +6095,7 @@ class Kajia(Character):
 
     # Give counter when opponent moves and switches sides.
     def movement_reaction (self, initiator, mover, old_position, direct):
+        Character.movement_reaction(self, initiator, mover, old_position, direct)
         if (mover is self.opponent and
             ordered(self.opponent.position, self.position, old_position)):
             self.give_insects(1)
@@ -6317,11 +6295,6 @@ class Karin (Character):
                          if self.howling in self.active_cards else
                          self.position)
         return abs (self.opponent.position - attack_source)
-
-    # overrides default method, which I set to pass for performance
-    def movement_reaction (self, initiator, mover, old_position, direct):
-        for card in self.active_cards:
-            card.movement_reaction (initiator, mover, old_position, direct)
 
     # different preferred range for karin and jager, based on the styles
     # that let each of them attack
@@ -6669,11 +6642,6 @@ class Lesandra(Character):
         if self.invocation in self.active_cards:
             self.add_triggered_power_bonus(-damage)
 
-    # overrides default method, which I set to pass for performance
-    def movement_reaction (self, initiator, mover, old_position, direct):
-        for card in self.active_cards:
-            card.movement_reaction (initiator, mover, old_position, direct)
-    
     def evaluate(self):
         ret = Character.evaluate(self)
         if self.active_familiar is not None:
@@ -7960,11 +7928,6 @@ class Seth (Character):
             Character.start_trigger(self)
 
     # overrides default method, which I set to pass for performance
-    def movement_reaction (self, initiator, mover, old_position, direct):
-        for card in self.active_cards:
-            card.movement_reaction (initiator, mover, old_position, direct)
-
-    # overrides default method, which I set to pass for performance
     def mimics_movement (self):
         return any (card.mimics_movement() for card in self.active_cards)
 
@@ -8249,6 +8212,7 @@ class Tanis(Character):
 
     # Record switching sides, for SceneShift
     def movement_reaction(self, initiator, mover, old_position, direct):
+        Character.movement_reaction(self, initiator, mover, old_position, direct)
         if not direct and mover.opponent.mimics_movement():
             return
         if ordered(old_position, mover.opponent.position, mover.position):
@@ -8700,11 +8664,6 @@ class Voco (Character):
                                     ["No", "Yes"]):
                 self.opponent.lose_life (1)
                 self.remove_zombies(set([opp]), 1)
-
-    # overrides default method, which I set to pass for performance
-    def movement_reaction (self, initiator, mover, old_position, direct):
-        for card in self.active_cards:
-            card.movement_reaction (initiator, mover, old_position, direct)
 
     # zombies in the soak range or on opponent are .5
     # zombies anywhere else are .25
