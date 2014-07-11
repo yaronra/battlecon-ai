@@ -10167,10 +10167,8 @@ class Suppression (Base):
     preferred_range = 1
     # Opponents cannot move past you.
     def blocks_opponent_movement(self, initiator, direct):
-        if direct:
-            return set()
-        else:
-            return set([self.me.position])
+        me, opp = self.me.position, self.opponent.position
+        return set(xrange(me)) if me < opp else set(xrange(me+1, 7))
     def can_be_hit (self):
         return self.opponent.attack_range() < 3
     def end_trigger (self):
@@ -11197,7 +11195,8 @@ class HeavyKnight(Mercenary):
     hiring_cost = 2
     activation_cost = 3
     def blocks_opponent_movement(self, initiator, direct):
-        return set() if direct else set([self.me.position])
+        me, opp = self.me.position, self.opponent.position
+        return set(xrange(me)) if me < opp else set(range(me+1, 7))
     def get_value(self):
         return self.me.gold_value
 
@@ -11587,14 +11586,11 @@ class Staff(Base):
         self.me.staff_hit = True
     ordered_hit_trigger = True
     def blocks_opponent_movement(self, initiator, direct):
+        # Opponent can't advance.
         if direct or initiator is self.me or not self.me.staff_hit:
             return set()
-        me = self.me.position
-        opp = self.opponent.position
-        if me > opp:
-            return set(xrange(opp+1, 7))
-        else:
-            return set(xrange(opp))
+        me, opp = self.me.position, self.opponent.position
+        return set(xrange(opp+1, 7)) if me > opp else set(xrange(opp))
         
 class WhirlpoolJuto (Base):
     name_override = "Whirlpool"
@@ -14714,14 +14710,11 @@ class Judgment (Style):
     preferred_range = 1
     def blocks_opponent_movement (self, initiator, direct):
         # Can't retreat or move past me.
-        if direct:
-            return set()
-        if initiator is self.me:
-            return set([self.me.position])
-        direction = (self.me.position - self.opponent.position)
-        direction /= abs(direction)
-        return set([self.me.position,
-                    self.opponent.position - direction])
+        me, opp = self.me.position, self.opponent.position
+        if direct or initiator is self.me:
+            return set(xrange(me)) if me < opp else set(range(me+1, 7))
+        else:
+            return set(xrange(7)) - pos_range(me, opp)
 
 class Glorious (Style):
     power = 2
