@@ -59,7 +59,6 @@ import random
 import re
 import solve
 import time
-from cvxopt.coneprog import options
 
 debug_log = []
 

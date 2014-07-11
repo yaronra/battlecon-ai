@@ -75,14 +75,14 @@ def list_files (logdir, name=None, player_num=None):
     return [fulldir+fn for fn in filenames 
             if name == fn.split('_')[player_num]]
     
-def all_victories(logdir='free_for_all', devastation_only=False):
+def all_victories(logdir='free_for_all', sort_by_name=False, devastation_only=False):
     names = devastation if devastation_only else all_names
     name_power = []
     for name in names:
         vics = victories(name, logdir, silent=True)
         if vics is not None:
             name_power.append((name, vics))
-    name_power = sorted(name_power, key=itemgetter(1))
+    name_power = sorted(name_power, key=itemgetter(0 if sort_by_name else 1))
     for np in name_power:
         print "%s: %s" %(np[0], percentify(np[1]))
 
