@@ -11246,7 +11246,7 @@ class Merciless (Style):
     power = -1
     preferred_range = 0.5
     def movement_reaction (self, initiator, mover, old_pos, direct):
-        if (mover == self.opponent and not direct and
+        if (mover == self.opponent and
             ordered(mover.position, self.me.position, old_pos)):
             self.opponent.lose_life (2)
             self.me.merciless_immobilized = True
