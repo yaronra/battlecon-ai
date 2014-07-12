@@ -22,7 +22,7 @@ Life: 20
 Discard 1: Hydraulic Burst
 Discard 2: Mechanical Press
 Special action available
-3 Iron Body token
+3 Iron Body tokens
 
 
 .A...C.
@@ -35,52 +35,53 @@ Unbeatable strategy for Aria: Dimensional Reconfiguration: 2.34
 
 Aria:
 23% Photovoltaic Reconfiguration
-29% Catalyst Reconfiguration
-48% Dimensional Reconfiguration
+0% Photovoltaic Drive
+32% Catalyst Reconfiguration
+45% Dimensional Reconfiguration
 
 Cadenza:
-72% Battery Drive
-16% Battery Dash
-12% Grapnel Grasp
+24% Battery Drive
+40% Battery Grasp
+30% Battery Dash
+5% Grapnel Grasp
 
 
 Aria: Dimensional Reconfiguration
-Cadenza: Battery Drive
+Cadenza: Battery Dash
 
-Priorities:  7 | 3
-Aria is active
+Priorities:  7 | 8
+Cadenza is active
+Cadenza moves:
+
+.A.C...
+.......
+.m.....
+.......
+
 Aria moves:
 
-A....C.
+A..C...
 .......
 .m.....
 .......
 
 Aria adds her Turret droid:
 
-A....C.
-.......
-.m.....
-...t...
-
-Aria misses
-Cadenza moves:
-
 A..C...
 .......
 .m.....
-...t...
+....t..
 
-Cadenza misses
+Aria misses
+Cadenza will have 4 priority next beat
 Aria moves:
 
-...C..A
+.A.C...
 .......
 .m.....
-...t...
+....t..
 
 Cadenza loses 1 life (now at 19)
-Cadenza will have 4 priority next beat
 
 Beat 2
 -------
@@ -95,65 +96,63 @@ Special action available
 Cadenza
 -------
 Life: 19
-Discard 1: Battery Drive
+Discard 1: Battery Dash
 Discard 2: Hydraulic Burst
 Special action available
 Priority bonus: 4
-3 Iron Body token
+3 Iron Body tokens
 
 
-...C..A
+.A.C...
 .......
 .m.....
-...t...
+....t..
+
+Unbeatable strategy for Cadenza: Mechanical Drive: -0.51
 
 
 Aria:
-7% Photovoltaic Strike
-13% Photovoltaic Shot
-80% Photovoltaic Dash
+69% Photovoltaic Dash
+31% Catalyst Burst
 
 Cadenza:
-7% Grapnel Strike
-11% Mechanical Shot
-82% Mechanical Dash
+0% Clockwork Drive
+100% Mechanical Drive
 
 
-Aria: Photovoltaic Strike
-Cadenza: Mechanical Shot
+Aria: Photovoltaic Dash
+Cadenza: Mechanical Drive
 
-Priorities:  4 | 4
-Clash!
+Priorities:  10 | 6
+Aria is active
+Aria moves:
 
-
-Aria: Photovoltaic Shot
-Cadenza: Mechanical Dash
-
-Priorities:  3 | 11
-Cadenza is active
-Cadenza moves:
-
-C.....A
+...C.A.
 .......
 .m.....
-...t...
+....t..
 
-Aria hits
-Cadenza takes 2 damage (now at 17 life)
-Cadenza is stunned
 Aria adds her Dampening droid:
 
-C.....A
-......d
+...C.A.
+.....d.
 .m.....
-...t...
+....t..
 
 Cadenza moves:
 
-.C....A
-......d
+.....AC
+.....d.
 .m.....
-...t...
+....t..
+
+Cadenza misses
+Cadenza moves:
+
+..C..A.
+.....d.
+.m.....
+....t..
 
 
 Beat 3
@@ -162,497 +161,481 @@ Beat 3
 Aria
 ----
 Life: 20
-Discard 1: Photovoltaic Shot
+Discard 1: Photovoltaic Dash
 Discard 2: Dimensional Reconfiguration
 Special action available
 
 Cadenza
 -------
-Life: 17
-Discard 1: Mechanical Dash
-Discard 2: Battery Drive
+Life: 19
+Discard 1: Mechanical Drive
+Discard 2: Battery Dash
 Special action available
-3 Iron Body token
+3 Iron Body tokens
 
 
-.C....A
-......d
+..C..A.
+.....d.
 .m.....
-...t...
-
-Unbeatable strategy for Cadenza: Hydraulic Shot: -0.97
+....t..
 
 
 Aria:
-11% Laser Burst
-52% Catalyst Drive
-38% Catalyst Burst
+44% Ionic Burst
+1% Laser Grasp
+55% Catalyst Burst
 
 Cadenza:
-0% Clockwork Shot
-77% Hydraulic Shot
-22% Grapnel Strike
+64% Clockwork Grasp
+18% Hydraulic Shot
+18% Hydraulic Burst
 
 
-Aria: Catalyst Burst
-Cadenza: Hydraulic Shot
+Aria: Ionic Burst
+Cadenza: Clockwork Grasp
 
-Priorities:  2 | 0
+Priorities:  2 | -1
 Aria is active
-Aria hits
-Cadenza has 1 soak
-Cadenza takes 1 damage (now at 16 life)
-Cadenza moves:
+Aria moves Cadenza:
 
-..C...A
-......d
+.C...A.
+.....d.
 .m.....
-...t...
+....t..
 
-Cadenza hits
-Aria takes 5 damage (now at 15 life)
-Aria is stunned
-Cadenza loses 1 life (now at 15)
+Aria moves:
+
+.C....A
+.....d.
+.m.....
+....t..
+
+Aria misses
+Cadenza misses
 
 Beat 4
 -------
 
 Aria
 ----
-Life: 15
-Discard 1: Catalyst Burst
-Discard 2: Photovoltaic Shot
+Life: 20
+Discard 1: Ionic Burst
+Discard 2: Photovoltaic Dash
 Special action available
 
 Cadenza
 -------
-Life: 15
-Discard 1: Hydraulic Shot
-Discard 2: Mechanical Dash
+Life: 19
+Discard 1: Clockwork Grasp
+Discard 2: Mechanical Drive
 Special action available
-3 Iron Body token
+3 Iron Body tokens
 
 
-..C...A
-......d
+.C....A
+.....d.
 .m.....
-...t...
+....t..
 
 
 Aria:
-28% Ionic Reconfiguration
-29% Laser Reconfiguration
-30% Laser Strike
-13% Dimensional Reconfiguration
+11% Laser Grasp
+89% Catalyst Shot
 
 Cadenza:
-20% Battery Burst
-20% Clockwork Drive
-33% Grapnel Burst
-27% Grapnel Grasp
+50% Battery Burst
+50% Hydraulic Shot
 
 
-Aria: Ionic Reconfiguration
-Cadenza: Clockwork Drive
+Aria: Catalyst Shot
+Cadenza: Battery Burst
 
-Priorities:  4 | 0
+Priorities:  3 | -1
 Aria is active
-Aria moves Cadenza:
-
-.C....A
-......d
-.m.....
-...t...
-
-Aria moves:
-
-.C...A.
-......d
-.m.....
-...t...
-
-Aria hits
-Cadenza has 3 soak
-Cadenza takes 0 damage (now at 15 life)
 Cadenza moves:
 
-...C.A.
-......d
+C.....A
+.....d.
 .m.....
-...t...
+....t..
 
-Cadenza misses
-Cadenza loses 1 life (now at 14)
+Aria hits
+Cadenza takes 2 damage (now at 17 life)
+Cadenza is stunned
+Cadenza will have 4 priority next beat
 
 Beat 5
 -------
 
 Aria
 ----
-Life: 15
-Discard 1: Ionic Reconfiguration
-Discard 2: Catalyst Burst
+Life: 20
+Discard 1: Catalyst Shot
+Discard 2: Ionic Burst
 Special action available
 
 Cadenza
 -------
-Life: 14
-Discard 1: Clockwork Drive
-Discard 2: Hydraulic Shot
+Life: 17
+Discard 1: Battery Burst
+Discard 2: Clockwork Grasp
 Special action available
-3 Iron Body token
+Priority bonus: 4
+3 Iron Body tokens
 
 
-...C.A.
-......d
+C.....A
+.....d.
 .m.....
-...t...
+....t..
 
 
 Aria:
-36% Photovoltaic Drive
-38% Photovoltaic Grasp
-18% Laser Shot
-8% Dimensional Dash
+13% Laser Strike
+38% Dimensional Reconfiguration
+48% Dimensional Strike
 
 Cadenza:
-39% Battery Dash
-10% Grapnel Burst
-40% Mechanical Press
-11% Mechanical Burst
+26% Grapnel Press
+23% Grapnel Shot
+51% Grapnel Drive
 
 
-Aria: Laser Shot
-Cadenza: Battery Dash
+Aria: Dimensional Strike
+Cadenza: Grapnel Shot
 
-Priorities:  2 | 8
-Cadenza is active
-Cadenza moves:
-
-.....AC
-......d
-.m.....
-...t...
-
+Priorities:  7 | 5
+Aria is active
 Aria misses
-Cadenza will have 4 priority next beat
-Cadenza loses 3 life (now at 11)
+Cadenza hits
+Aria takes 3 damage (now at 17 life)
+Aria moves:
+
+C....A.
+.....d.
+.m.....
+....t..
+
 
 Beat 6
 -------
 
 Aria
 ----
-Life: 15
-Discard 1: Laser Shot
-Discard 2: Ionic Reconfiguration
+Life: 17
+Discard 1: Dimensional Strike
+Discard 2: Catalyst Shot
 Special action available
 
 Cadenza
 -------
-Life: 11
-Discard 1: Battery Dash
-Discard 2: Clockwork Drive
+Life: 17
+Discard 1: Grapnel Shot
+Discard 2: Battery Burst
 Special action available
-Priority bonus: 4
-3 Iron Body token
+3 Iron Body tokens
 
 
-.....AC
-......d
+C....A.
+.....d.
 .m.....
-...t...
+....t..
 
-Unbeatable strategy for Cadenza: Hydraulic Shot: -1.70
-Unbeatable strategy for Cadenza: Mechanical Press: -0.42
+Unbeatable strategy for Aria: Ionic Reconfiguration: 1.70
 
 
 Aria:
-33% Photovoltaic Drive
-25% Photovoltaic Burst
-24% Photovoltaic Grasp
-18% Dimensional Burst
+94% Ionic Reconfiguration
+6% Laser Grasp
 
 Cadenza:
-16% Hydraulic Strike
-10% Hydraulic Shot
-28% Hydraulic Grasp
-45% Mechanical Shot
+39% Clockwork Drive
+61% Mechanical Grasp
 
 
-Aria: Photovoltaic Drive
-Cadenza: Hydraulic Grasp
+Aria: Ionic Reconfiguration
+Cadenza: Clockwork Drive
 
-Priorities:  5 | 8
-Cadenza is active
+Priorities:  4 | -1
+Aria is active
+Aria moves:
+
+C.....A
+.....d.
+.m.....
+....t..
+
+Aria misses
 Cadenza moves:
 
-....CA.
-......d
+..C...A
+.....d.
 .m.....
-...t...
+....t..
 
-Cadenza hits
-Cadenza moves Aria:
-
-....C.A
-......d
-.m.....
-...t...
-
-Aria takes 4 damage (now at 11 life)
-Aria is stunned
-Cadenza loses 1 life (now at 10)
+Cadenza misses
 
 Beat 7
 -------
 
 Aria
 ----
-Life: 11
-Discard 1: Photovoltaic Drive
-Discard 2: Laser Shot
+Life: 17
+Discard 1: Ionic Reconfiguration
+Discard 2: Dimensional Strike
 Special action available
 
 Cadenza
 -------
-Life: 10
-Discard 1: Hydraulic Grasp
-Discard 2: Battery Dash
+Life: 17
+Discard 1: Clockwork Drive
+Discard 2: Grapnel Shot
 Special action available
-3 Iron Body token
+3 Iron Body tokens
 
 
-....C.A
-......d
+..C...A
+.....d.
 .m.....
-...t...
+....t..
 
 
 Aria:
-83% Catalyst Dash
-17% Dimensional Reconfiguration
+29% Photovoltaic Shot
+42% Laser Shot
+30% Laser Grasp
 
 Cadenza:
-27% Mechanical Shot
-73% Mechanical Drive
+14% Battery Grasp
+29% Mechanical Grasp
+57% Mechanical Dash
 
 
-Aria: Catalyst Dash
-Cadenza: Mechanical Drive
+Aria: Laser Shot
+Cadenza: Mechanical Dash
 
-Priorities:  10 | 2
-Aria is active
-Aria moves:
-
-...AC..
-......d
-.m.....
-...t...
-
+Priorities:  2 | 6
+Cadenza is active
 Cadenza moves:
 
-.C.A...
-......d
+...C..A
+.....d.
 .m.....
-...t...
+....t..
 
-Cadenza misses
+Aria hits
+Cadenza takes 3 damage (now at 14 life)
+Cadenza is stunned
 Cadenza moves:
 
-...AC..
-......d
+.....CA
+.....d.
 .m.....
-...t...
+....t..
 
+Cadenza loses 1 life (now at 13)
 
 Beat 8
 -------
 
 Aria
 ----
-Life: 11
-Discard 1: Catalyst Dash
-Discard 2: Photovoltaic Drive
+Life: 17
+Discard 1: Laser Shot
+Discard 2: Ionic Reconfiguration
 Special action available
 
 Cadenza
 -------
-Life: 10
-Discard 1: Mechanical Drive
-Discard 2: Hydraulic Grasp
+Life: 13
+Discard 1: Mechanical Dash
+Discard 2: Clockwork Drive
 Special action available
-3 Iron Body token
+3 Iron Body tokens
 
 
-...AC..
-......d
+.....CA
+.....d.
 .m.....
-...t...
+....t..
 
-Unbeatable strategy for Cadenza: Clockwork Shot: -2.48
+Unbeatable strategy for Aria: Catalyst Dash: 0.12
+Unbeatable strategy for Aria: Dimensional Dash: 0.11
 
 
 Aria:
-87% Ionic Strike
-13% Dimensional Reconfiguration
+22% Photovoltaic Drive
+10% Photovoltaic Burst
+68% Catalyst Dash
 
 Cadenza:
-98% Clockwork Shot
-2% Clockwork Burst
+40% Battery Press
+36% Battery Burst
+24% Hydraulic Strike
 
 
-Aria: Ionic Strike
-Cadenza: Clockwork Shot
+Aria: Photovoltaic Burst
+Cadenza: Battery Burst
 
-Priorities:  4 | -1
+Priorities:  2 | 0
 Aria is active
-Aria moves Cadenza:
+Cadenza moves:
 
-..CA...
-......d
+...C..A
+.....d.
 .m.....
-...t...
+....t..
 
 Aria hits
-Cadenza has 3 soak
-Cadenza takes 1 damage (now at 9 life)
+Aria removes her Magnetron droid:
+
+...C..A
+.....d.
+.......
+....t..
+
+Aria gets +1 power
+Cadenza takes 3 damage (now at 10 life)
+Cadenza spends an Iron Body token
+Cadenza gains infinite stunguard
+Aria adds her Magnetron droid:
+
+...C..A
+.....d.
+......m
+....t..
+
 Cadenza hits
-Aria takes 6 damage (now at 5 life)
+Aria takes 4 damage (now at 13 life)
 Aria is stunned
-Cadenza loses 1 life (now at 8)
+Cadenza loses 1 life (now at 9)
+Cadenza will have 4 priority next beat
 
 Beat 9
 -------
 
 Aria
 ----
-Life: 5
-Discard 1: Ionic Strike
-Discard 2: Catalyst Dash
+Life: 13
+Discard 1: Photovoltaic Burst
+Discard 2: Laser Shot
 Special action available
 
 Cadenza
 -------
-Life: 8
-Discard 1: Clockwork Shot
-Discard 2: Mechanical Drive
+Life: 9
+Discard 1: Battery Burst
+Discard 2: Mechanical Dash
 Special action available
-3 Iron Body token
+Priority bonus: 4
+2 Iron Body tokens
 
 
-..CA...
-......d
-.m.....
-...t...
+...C..A
+.....d.
+......m
+....t..
 
 
 Aria:
-48% Photovoltaic Reconfiguration
-19% Photovoltaic Burst
-6% Laser Reconfiguration
-3% Laser Drive
-24% Dimensional Reconfiguration
+21% Ionic Strike
+29% Catalyst Strike
+21% Catalyst Grasp
+29% Dimensional Grasp
 
 Cadenza:
-48% Hydraulic Press
-6% Hydraulic Strike
-3% Hydraulic Burst
-16% Hydraulic Grasp
-26% Hydraulic Dash
+28% Clockwork Shot
+25% Clockwork Drive
+3% Hydraulic Shot
+44% Hydraulic Drive
 
 
-Aria: Photovoltaic Reconfiguration
-Cadenza: Hydraulic Press
+Aria: Catalyst Strike
+Cadenza: Hydraulic Drive
 
-Priorities:  4 | -2
+Aria gets +4 priority
+Priorities:  8 | 7
 Aria is active
-Aria moves:
-
-..C...A
-......d
-.m.....
-...t...
-
-Aria misses
+Aria hits
+Cadenza has 1 soak
+Cadenza takes 2 damage (now at 7 life)
+Cadenza spends an Iron Body token
+Cadenza gains infinite stunguard
 Cadenza moves:
 
-...C..A
-......d
-.m.....
-...t...
+....C.A
+.....d.
+......m
+....t..
 
-Cadenza misses
-Cadenza loses 1 life (now at 7)
+Cadenza moves:
+
+.....CA
+.....d.
+......m
+....t..
+
+Cadenza hits
+Aria takes 4 damage (now at 9 life)
+Cadenza loses 1 life (now at 6)
 
 Beat 10
 -------
 
 Aria
 ----
-Life: 5
-Discard 1: Photovoltaic Reconfiguration
-Discard 2: Ionic Strike
+Life: 9
+Discard 1: Catalyst Strike
+Discard 2: Photovoltaic Burst
 Special action available
 
 Cadenza
 -------
-Life: 7
-Discard 1: Hydraulic Press
-Discard 2: Clockwork Shot
+Life: 6
+Discard 1: Hydraulic Drive
+Discard 2: Battery Burst
 Special action available
-3 Iron Body token
+1 Iron Body token
 
 
-...C..A
-......d
-.m.....
-...t...
-
-Unbeatable strategy for Aria: Dimensional Shot: 1.94
+.....CA
+.....d.
+......m
+....t..
 
 
 Aria:
-16% Dimensional Shot
-24% Dimensional Burst
-34% Dimensional Grasp
-26% Dimensional Dash
+29% Ionic Reconfiguration
+1% Ionic Shot
+70% Dimensional Reconfiguration
 
 Cadenza:
-17% Grapnel Burst
-2% Mechanical Drive
-61% Mechanical Burst
-20% Special Rocket Press
+32% Clockwork Dash
+33% Mechanical Shot
+35% Mechanical Dash
 
 
-Aria: Dimensional Grasp
-Cadenza: Mechanical Burst
+Aria: Ionic Reconfiguration
+Cadenza: Clockwork Dash
 
-Aria gets +2 power
-Priorities:  9 | -1
+Priorities:  4 | -1
 Aria is active
-Cadenza moves:
-
-.C....A
-......d
-.m.....
-...t...
-
-Aria misses
-Cadenza misses
 Aria moves:
 
-.CA....
-......d
-.m.....
-...t...
+..A..C.
+.....d.
+......m
+....t..
 
+Aria hits
+Cadenza has 3 soak
+Cadenza takes 0 damage (now at 6 life)
 Cadenza moves:
 
-..A..C.
-......d
-.m.....
-...t...
+..A...C
+.....d.
+......m
+....t..
 
 
 Beat 11
@@ -660,217 +643,329 @@ Beat 11
 
 Aria
 ----
-Life: 5
-Discard 1: Dimensional Grasp
-Discard 2: Photovoltaic Reconfiguration
+Life: 9
+Discard 1: Ionic Reconfiguration
+Discard 2: Catalyst Strike
 Special action available
 
 Cadenza
 -------
-Life: 7
-Discard 1: Mechanical Burst
-Discard 2: Hydraulic Press
+Life: 6
+Discard 1: Clockwork Dash
+Discard 2: Hydraulic Drive
 Special action available
-3 Iron Body token
+1 Iron Body token
 
 
-..A..C.
-......d
-.m.....
-...t...
+..A...C
+.....d.
+......m
+....t..
+
+Unbeatable strategy for Aria: Photovoltaic Drive: 1.15
+Unbeatable strategy for Aria: Dimensional Burst: 0.06
 
 
 Aria:
-6% Ionic Drive
-24% Ionic Dash
-27% Laser Burst
-44% Catalyst Dash
+97% Photovoltaic Drive
+3% Dimensional Dash
 
 Cadenza:
-4% Battery Shot
-52% Battery Dash
-10% Clockwork Drive
-34% Grapnel Strike
+66% Mechanical Shot
+34% Special Rocket Press
 
 
-Aria: Catalyst Dash
-Cadenza: Grapnel Strike
+Aria: Photovoltaic Drive
+Cadenza: Special Rocket Press
 
-Priorities:  10 | 3
+Priorities:  5 | -1
 Aria is active
 Aria moves:
 
-....AC.
-......d
-.m.....
-...t...
+....A.C
+.....d.
+......m
+....t..
 
-Cadenza misses
+Aria hits
+Aria removes her Dampening droid:
+
+....A.C
+.......
+......m
+....t..
+
+Aria gets +1 power
+Cadenza has 3 soak
+Cadenza takes 0 damage (now at 6 life)
+Aria adds her Dampening droid:
+
+....A.C
+....d..
+......m
+....t..
+
+Cadenza moves:
+
+...CA..
+....d..
+......m
+....t..
+
+Cadenza hits
+Aria takes 7 damage (now at 2 life)
+Aria is stunned
+Cadenza loses 1 life (now at 5)
 
 Beat 12
 -------
 
 Aria
 ----
-Life: 5
-Discard 1: Catalyst Dash
-Discard 2: Dimensional Grasp
+Life: 2
+Discard 1: Photovoltaic Drive
+Discard 2: Ionic Reconfiguration
 Special action available
 
 Cadenza
 -------
-Life: 7
-Discard 1: Grapnel Strike
-Discard 2: Mechanical Burst
-Special action available
-3 Iron Body token
+Life: 5
+Discard 1: Clockwork Dash
+Discard 2: Hydraulic Drive
+1 Iron Body token
 
 
-....AC.
-......d
-.m.....
-...t...
-
-Unbeatable strategy for Cadenza: Battery Dash: -0.60
-Unbeatable strategy for Cadenza: Clockwork Grasp: -0.26
+...CA..
+....d..
+......m
+....t..
 
 
 Aria:
-55% Photovoltaic Reconfiguration
-31% Photovoltaic Strike
-1% Photovoltaic Shot
-9% Ionic Reconfiguration
-3% Laser Burst
+27% Laser Burst
+57% Catalyst Burst
+16% Dimensional Dash
 
 Cadenza:
-11% Clockwork Shot
-30% Clockwork Drive
-7% Hydraulic Press
-51% Hydraulic Shot
-1% Special Rocket Press
+52% Battery Strike
+10% Battery Burst
+38% Mechanical Shot
 
 
-Aria: Photovoltaic Reconfiguration
-Cadenza: Hydraulic Shot
+Aria: Catalyst Burst
+Cadenza: Battery Burst
 
-Priorities:  4 | 1
+Priorities:  2 | 0
 Aria is active
 Aria moves:
 
-.....CA
-......d
-.m.....
-...t...
+...C.A.
+....d..
+......m
+....t..
 
-Aria misses
-Cadenza hits
-Aria takes 4 damage (now at 1 life)
-Aria is stunned
+Cadenza moves:
 
-Beat 13
--------
+.C...A.
+....d..
+......m
+....t..
 
-Aria
-----
-Life: 1
-Discard 1: Photovoltaic Reconfiguration
-Discard 2: Catalyst Dash
-Special action available
-
-Cadenza
--------
-Life: 7
-Discard 1: Hydraulic Shot
-Discard 2: Grapnel Strike
-Special action available
-3 Iron Body token
-
-
-.....CA
-......d
-.m.....
-...t...
-
-Unbeatable strategy for Cadenza: Battery Drive: -6.00
-Unbeatable strategy for Cadenza: Battery Drive (Iron Body): -6.00
-Unbeatable strategy for Cadenza: Clockwork Drive: -6.00
-Unbeatable strategy for Cadenza: Clockwork Drive (Iron Body): -6.00
-Unbeatable strategy for Cadenza: Mechanical Drive: -6.00
-Unbeatable strategy for Cadenza: Mechanical Drive (Iron Body): -6.00
-
-
-Aria:
-2% Ionic Burst
-98% Special Pulse
-
-Cadenza:
-19% Mechanical Press
-81% Mechanical Drive
-
-
-Aria: Special Pulse
-Cadenza: Mechanical Drive
-
-Pulse:
-
-CA.....
-......d
-.m.....
-...t...
-
-
-Beat 13
--------
-
-Aria
-----
-Life: 1
-Discard 1: Photovoltaic Reconfiguration
-Discard 2: Catalyst Dash
-
-Cadenza
--------
-Life: 7
-Discard 1: Mechanical Drive
-Discard 2: Hydraulic Shot
-Special action available
-3 Iron Body token
-
-
-CA.....
-......d
-.m.....
-...t...
-
-
-Aria:
-2% Ionic Burst
-48% Ionic Grasp
-28% Laser Burst
-22% Dimensional Burst
-
-Cadenza:
-30% Battery Press
-17% Battery Strike
-15% Clockwork Press
-37% Clockwork Burst
-
-
-Aria: Ionic Grasp
-Cadenza: Battery Press
-
-Priorities:  6 | -2
-Aria is active
 Aria hits
+Cadenza takes 2 damage (now at 3 life)
+Cadenza is stunned
+Cadenza will have 4 priority next beat
+
+Beat 13
+-------
+
+Aria
+----
+Life: 2
+Discard 1: Catalyst Burst
+Discard 2: Photovoltaic Drive
+Special action available
+
+Cadenza
+-------
+Life: 3
+Discard 1: Battery Burst
+Discard 2: Clockwork Dash
+Priority bonus: 4
+1 Iron Body token
+
+
+.C...A.
+....d..
+......m
+....t..
+
+Unbeatable strategy for Cadenza: Hydraulic Shot: -1.44
+
+
+Aria:
+0% Ionic Shot
+100% Ionic Dash
+0% Laser Grasp
+
+Cadenza:
+35% Hydraulic Shot
+37% Mechanical Press
+28% Mechanical Shot
+
+
+Aria: Ionic Dash
+Cadenza: Hydraulic Shot
+
+Priorities:  10 | 6
+Aria is active
 Aria moves Cadenza:
 
-.AC....
-......d
-.m.....
-...t...
+..C..A.
+....d..
+......m
+....t..
 
-Cadenza takes 2 damage (now at 5 life)
-Cadenza hits
-Aria takes 4 damage (now at 0 life)
+Aria moves:
+
+.AC....
+....d..
+......m
+....t..
+
+Cadenza moves:
+
+CA.....
+....d..
+......m
+....t..
+
+Cadenza misses
+
+Beat 14
+-------
+
+Aria
+----
+Life: 2
+Discard 1: Ionic Dash
+Discard 2: Catalyst Burst
+Special action available
+
+Cadenza
+-------
+Life: 3
+Discard 1: Hydraulic Shot
+Discard 2: Battery Burst
+1 Iron Body token
+
+
+CA.....
+....d..
+......m
+....t..
+
+
+Aria:
+2% Photovoltaic Reconfiguration
+3% Photovoltaic Strike
+82% Laser Reconfiguration
+13% Laser Drive
+
+Cadenza:
+5% Clockwork Drive
+13% Grapnel Strike
+8% Mechanical Grasp
+75% Mechanical Dash
+
+
+Aria: Laser Reconfiguration
+Cadenza: Mechanical Dash
+
+Priorities:  3 | 7
+Cadenza is active
+Cadenza moves:
+
+.AC....
+....d..
+......m
+....t..
+
+Aria moves:
+
+..C...A
+....d..
+......m
+....t..
+
+Aria misses
+
+Beat 15
+-------
+
+Aria
+----
+Life: 2
+Discard 1: Laser Reconfiguration
+Discard 2: Ionic Dash
+Special action available
+
+Cadenza
+-------
+Life: 3
+Discard 1: Mechanical Dash
+Discard 2: Hydraulic Shot
+1 Iron Body token
+
+
+..C...A
+....d..
+......m
+....t..
+
+
+Aria:
+50% Photovoltaic Shot
+26% Catalyst Shot
+24% Catalyst Burst
+
+Cadenza:
+7% Battery Drive
+6% Battery Drive (Iron Body)
+4% Clockwork Press
+3% Clockwork Press (Iron Body)
+4% Clockwork Strike
+3% Clockwork Strike (Iron Body)
+16% Clockwork Burst
+14% Clockwork Burst (Iron Body)
+4% Clockwork Grasp
+3% Clockwork Grasp (Iron Body)
+3% Grapnel Strike
+2% Grapnel Strike (Iron Body)
+4% Grapnel Drive
+3% Grapnel Drive (Iron Body)
+13% Grapnel Grasp
+12% Grapnel Grasp (Iron Body)
+
+
+Aria: Catalyst Shot
+Cadenza: Clockwork Burst (Iron Body)
+
+Cadenza antes an Iron Body token
+Aria gets +4 priority
+Priorities:  7 | -2
+Aria is active
+Cadenza moves:
+
+C.....A
+....d..
+......m
+....t..
+
+Aria hits
+Cadenza has 3 soak
+Cadenza takes 0 damage (now at 3 life)
+Cadenza misses
+Game goes to time
 CADENZA WINS!
-total_time: 39
+total_time: 45

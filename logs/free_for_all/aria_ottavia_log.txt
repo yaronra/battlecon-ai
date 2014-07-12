@@ -31,18 +31,18 @@ Special action available
 
 
 Aria:
-22% Photovoltaic Reconfiguration
-18% Photovoltaic Drive
-26% Catalyst Reconfiguration
-6% Catalyst Drive
-28% Dimensional Reconfiguration
+23% Photovoltaic Reconfiguration
+16% Photovoltaic Drive
+27% Catalyst Reconfiguration
+5% Catalyst Drive
+29% Dimensional Reconfiguration
 
 Ottavia:
-51% Snapback Grasp (Target Lock: 7)
+52% Snapback Grasp (Target Lock: 7)
 6% Anti-Personnel Grasp (Target Lock: 5)
-4% Cover Shooter (Target Lock: 4)
+3% Cover Shooter (Target Lock: 4)
 1% Cover Shooter (Target Lock: 7)
-38% Cover Shooter (Target Lock: 8)
+37% Cover Shooter (Target Lock: 8)
 
 
 Aria: Dimensional Reconfiguration
@@ -100,22 +100,23 @@ Special action available
 
 
 Aria:
-34% Photovoltaic Strike
-31% Photovoltaic Drive
-25% Photovoltaic Dash
-11% Ionic Burst
+9% Photovoltaic Strike
+42% Photovoltaic Dash
+24% Ionic Strike
+24% Ionic Drive
 
 Ottavia:
-12% Snapback Drive (Target Lock: 5)
-4% Demolition Drive (Target Lock: 4)
-47% Demolition Drive (Target Lock: 10)
-37% Demolition Grasp (Target Lock: 4)
+56% Demolition Drive (Target Lock: 5)
+23% Demolition Drive (Target Lock: 10)
+7% Demolition Burst (Target Lock: 4)
+14% Demolition Dash (Target Lock: 4)
 
 
-Aria: Photovoltaic Strike
-Ottavia: Demolition Drive (Target Lock: 10)
+Aria: Ionic Drive
+Ottavia: Demolition Drive (Target Lock: 5)
 
-Priorities:  4 | 5
+Ottavia acquires target lock
+Priorities:  -5 | 4
 Ottavia is active
 Ottavia moves:
 
@@ -125,7 +126,9 @@ Ottavia moves:
 ....t..
 
 Ottavia hits
-Aria takes 3 damage (now at 17 life)
+Aria is stunned
+Aria takes 2 damage (now at 18 life)
+Aria is stunned
 Ottavia moves:
 
 ....A.O
@@ -133,226 +136,176 @@ Ottavia moves:
 .m.....
 ....t..
 
-Aria hits
-Aria removes her Turret droid:
-
-....A.O
-.......
-.m.....
-.......
-
-Aria gets +1 power
-Ottavia takes 4 damage (now at 15 life)
-Ottavia is stunned
-Aria adds her Dampening droid:
-
-....A.O
-....d..
-.m.....
-.......
-
 
 Beat 3
 -------
 
 Aria
 ----
-Life: 17
-Discard 1: Photovoltaic Strike
+Life: 18
+Discard 1: Ionic Drive
 Discard 2: Dimensional Reconfiguration
 Special action available
 
 Ottavia
 -------
-Life: 15
+Life: 19
 Discard 1: Demolition Drive
 Discard 2: Cover Shooter
 Special action available
 
 
 ....A.O
-....d..
-.m.....
 .......
+.m.....
+....t..
 
 
 Aria:
-26% Ionic Shot
-33% Ionic Drive
-17% Ionic Grasp
-23% Catalyst Grasp
+43% Photovoltaic Strike
+20% Photovoltaic Shot
+19% Photovoltaic Grasp
+19% Photovoltaic Dash
 
 Ottavia:
-7% Snapback Strike (Target Lock: 6)
-10% Snapback Dash (Target Lock: 1)
-10% Snapback Dash (Target Lock: 2)
-10% Snapback Dash (Target Lock: 3)
-8% Snapback Dash (Target Lock: 4)
-9% Snapback Dash (Target Lock: 5)
-10% Snapback Dash (Target Lock: 6)
-10% Snapback Dash (Target Lock: 9)
-20% Snapback Dash (Target Lock: 10)
-4% Cybernetic Strike (Target Lock: 3)
-4% Cybernetic Shot (Target Lock: 5)
+32% Snapback Strike (Target Lock: 3)
+34% Snapback Strike (Target Lock: 6)
+32% Snapback Strike (Target Lock: 10)
+1% Cybernetic Shot (Target Lock: 4)
 
 
-Aria: Catalyst Grasp
-Ottavia: Snapback Dash (Target Lock: 5)
+Aria: Photovoltaic Dash
+Ottavia: Snapback Strike (Target Lock: 3)
 
-Priorities:  6 | 9
-Ottavia is active
-Ottavia moves:
+Priorities:  10 | 3
+Aria is active
+Aria moves:
 
-..O.A..
-....d..
-.m.....
+.....AO
 .......
-
-Ottavia moves:
-
-O...A..
-....d..
 .m.....
-.......
+....t..
 
-Aria misses
+Aria adds her Dampening droid:
+
+.....AO
+.....d.
+.m.....
+....t..
+
+Ottavia misses
 
 Beat 4
 -------
 
 Aria
 ----
-Life: 17
-Discard 1: Catalyst Grasp
-Discard 2: Photovoltaic Strike
+Life: 18
+Discard 1: Photovoltaic Dash
+Discard 2: Ionic Drive
 Special action available
 
 Ottavia
 -------
-Life: 15
-Discard 1: Snapback Dash
+Life: 19
+Discard 1: Snapback Strike
 Discard 2: Demolition Drive
 Special action available
 
 
-O...A..
-....d..
+.....AO
+.....d.
 .m.....
-.......
+....t..
 
 
 Aria:
-20% Ionic Reconfiguration
-2% Ionic Shot
-22% Ionic Drive
-18% Laser Reconfiguration
-4% Laser Shot
-25% Dimensional Reconfiguration
-8% Dimensional Shot
+23% Laser Strike
+32% Laser Shot
+24% Laser Grasp
+5% Catalyst Burst
+16% Dimensional Reconfiguration
 
 Ottavia:
-3% Anti-Personnel Shooter (Target Lock: 3)
-18% Anti-Personnel Shooter (Target Lock: 5)
-30% Anti-Personnel Burst (Target Lock: 3)
-16% Anti-Personnel Burst (Target Lock: 7)
-2% Anti-Personnel Grasp (Target Lock: 4)
-27% Cover Shooter (Target Lock: 4)
-4% Cover Shooter (Target Lock: 7)
+12% Cover Shooter (Target Lock: 2)
+19% Cover Shooter (Target Lock: 3)
+12% Cybernetic Shooter (Target Lock: 3)
+14% Cybernetic Shot (Target Lock: 3)
+43% Cybernetic Grasp (Target Lock: 3)
 
 
-Aria: Dimensional Shot
-Ottavia: Anti-Personnel Burst (Target Lock: 3)
+Aria: Laser Strike
+Ottavia: Cover Shooter (Target Lock: 3)
 
-Priorities:  6 | -1
-Aria is active
-Aria hits
-Ottavia is stunned
-Ottavia takes 2 damage (now at 13 life)
-Aria moves:
-
-O.....A
-....d..
-.m.....
-.......
-
-Ottavia moves:
-
-.....OA
-....d..
-.m.....
-.......
-
+Ottavia acquires target lock
+Priorities:  -7 | -1
+Ottavia is active
+Ottavia misses
+Aria misses
 
 Beat 5
 -------
 
 Aria
 ----
-Life: 17
-Discard 1: Dimensional Shot
-Discard 2: Catalyst Grasp
+Life: 18
+Discard 1: Laser Strike
+Discard 2: Photovoltaic Dash
 Special action available
 
 Ottavia
 -------
-Life: 13
-Discard 1: Anti-Personnel Burst
-Discard 2: Snapback Dash
+Life: 19
+Discard 1: Cover Shooter
+Discard 2: Snapback Strike
 Special action available
 
 
-.....OA
-....d..
+.....AO
+.....d.
 .m.....
-.......
+....t..
 
 
 Aria:
-9% Photovoltaic Strike
-13% Photovoltaic Drive
-12% Photovoltaic Dash
-9% Ionic Reconfiguration
-8% Ionic Strike
-15% Ionic Drive
-34% Laser Strike
+18% Ionic Reconfiguration
+4% Ionic Shot
+14% Ionic Drive
+6% Ionic Grasp
+58% Dimensional Reconfiguration
 
 Ottavia:
-18% Demolition Shooter (Target Lock: 4)
-14% Demolition Shooter (Target Lock: 5)
-12% Demolition Shot (Target Lock: 5)
-0% Demolition Drive (Target Lock: 3)
-44% Demolition Drive (Target Lock: 4)
-2% Demolition Grasp (Target Lock: 3)
-10% Demolition Grasp (Target Lock: 10)
+8% Demolition Shot (Target Lock: 4)
+26% Demolition Shot (Target Lock: 5)
+3% Demolition Shot (Target Lock: 7)
+36% Demolition Drive (Target Lock: 5)
+28% Cybernetic Shot (Target Lock: 7)
 
 
-Aria: Laser Strike
-Ottavia: Demolition Shot (Target Lock: 5)
+Aria: Ionic Shot
+Ottavia: Demolition Drive (Target Lock: 5)
 
-Priorities:  3 | 3
-Clash!
+Priorities:  3 | 4
+Ottavia is active
+Aria moves Ottavia:
 
-
-Aria: Laser Dash
-Ottavia: Demolition Shooter (Target Lock: 5)
-
-Priorities:  9 | 3
-Aria is active
-Aria moves:
-
-..A..O.
-....d..
+....OA.
+.....d.
 .m.....
-.......
+....t..
 
-Ottavia misses
 Ottavia moves:
 
-O.A....
-....d..
+.....AO
+.....d.
 .m.....
-.......
+....t..
 
+Ottavia hits
+Aria takes 1 damage (now at 17 life)
+Aria hits
+Ottavia takes 3 damage (now at 16 life)
+Ottavia is stunned
 
 Beat 6
 -------
@@ -360,58 +313,61 @@ Beat 6
 Aria
 ----
 Life: 17
-Discard 1: Laser Dash
-Discard 2: Dimensional Shot
+Discard 1: Ionic Shot
+Discard 2: Laser Strike
 Special action available
 
 Ottavia
 -------
-Life: 13
-Discard 1: Demolition Shooter
-Discard 2: Anti-Personnel Burst
+Life: 16
+Discard 1: Demolition Drive
+Discard 2: Cover Shooter
 Special action available
 
 
-O.A....
-....d..
+.....AO
+.....d.
 .m.....
-.......
+....t..
 
 
 Aria:
-5% Photovoltaic Grasp
-42% Ionic Reconfiguration
-48% Ionic Drive
-4% Ionic Burst
+3% Photovoltaic Drive
+6% Photovoltaic Burst
+4% Photovoltaic Grasp
+5% Catalyst Reconfiguration
+5% Catalyst Dash
+8% Dimensional Reconfiguration
+15% Dimensional Drive
+36% Dimensional Grasp
+16% Dimensional Dash
 
 Ottavia:
-37% Cover Shot (Target Lock: 5)
-29% Cover Drive (Target Lock: 5)
-32% Cybernetic Shot (Target Lock: 4)
-2% Cybernetic Shot (Target Lock: 5)
+25% Snapback Dash (Target Lock: 8)
+5% Snapback Dash (Target Lock: 9)
+39% Snapback Dash (Target Lock: 13)
+2% Cybernetic Strike (Target Lock: 4)
+0% Cybernetic Strike (Target Lock: 7)
+12% Cybernetic Strike (Target Lock: 10)
+1% Cybernetic Shot (Target Lock: 2)
+6% Cybernetic Shot (Target Lock: 5)
+9% Cybernetic Shot (Target Lock: 6)
 
 
-Aria: Ionic Drive
-Ottavia: Cover Shot (Target Lock: 5)
+Aria: Dimensional Grasp
+Ottavia: Snapback Dash (Target Lock: 8)
+
+Priorities:  9 | 9
+Clash!
+
+
+Aria: Dimensional Drive
+Ottavia: Snapback Shot (Target Lock: 8)
 
 Ottavia acquires target lock
-Priorities:  -5 | -2
+Priorities:  -2 | 2
 Ottavia is active
-Aria moves Ottavia:
-
-.OA....
-....d..
-.m.....
-.......
-
 Ottavia misses
-Aria moves:
-
-AO.....
-....d..
-.m.....
-.......
-
 Aria misses
 
 Beat 7
@@ -420,185 +376,195 @@ Beat 7
 Aria
 ----
 Life: 17
-Discard 1: Ionic Drive
-Discard 2: Laser Dash
+Discard 1: Dimensional Drive
+Discard 2: Ionic Shot
 Special action available
 
 Ottavia
 -------
-Life: 13
-Discard 1: Cover Shot
-Discard 2: Demolition Shooter
+Life: 16
+Discard 1: Snapback Shot
+Discard 2: Demolition Drive
 Special action available
 
 
-AO.....
-....d..
+.....AO
+.....d.
 .m.....
-.......
+....t..
 
 
 Aria:
-17% Photovoltaic Reconfiguration
-18% Photovoltaic Strike
-39% Photovoltaic Grasp
-26% Dimensional Reconfiguration
+5% Photovoltaic Strike
+9% Photovoltaic Burst
+9% Photovoltaic Grasp
+7% Laser Reconfiguration
+15% Laser Strike
+8% Laser Grasp
+47% Catalyst Burst
 
 Ottavia:
-36% Cybernetic Strike (Target Lock: 4)
-12% Cybernetic Strike (Target Lock: 6)
-28% Cybernetic Strike (Target Lock: 7)
-24% Cybernetic Grasp (Target Lock: 7)
+1% Anti-Personnel Dash (Target Lock: 1)
+1% Anti-Personnel Dash (Target Lock: 2)
+1% Anti-Personnel Dash (Target Lock: 3)
+1% Anti-Personnel Dash (Target Lock: 4)
+1% Anti-Personnel Dash (Target Lock: 5)
+1% Anti-Personnel Dash (Target Lock: 6)
+1% Anti-Personnel Dash (Target Lock: 9)
+44% Anti-Personnel Dash (Target Lock: 10)
+7% Cover Shooter (Target Lock: 2)
+0% Cybernetic Shooter (Target Lock: 3)
+9% Cybernetic Strike (Target Lock: 3)
+15% Cybernetic Strike (Target Lock: 4)
+3% Cybernetic Strike (Target Lock: 5)
+12% Cybernetic Grasp (Target Lock: 6)
 
 
-Aria: Dimensional Reconfiguration
-Ottavia: Cybernetic Grasp (Target Lock: 7)
+Aria: Catalyst Burst
+Ottavia: Anti-Personnel Dash (Target Lock: 10)
 
-Ottavia acquires target lock
-Priorities:  -3 | 4
+Priorities:  2 | 8
 Ottavia is active
-Ottavia hits
-Ottavia moves Aria:
-
-.OA....
-....d..
-.m.....
-.......
-
-Aria takes 2 damage (now at 15 life)
-Aria is stunned
 Aria moves:
 
-.O.A...
-....d..
+....A.O
+.....d.
 .m.....
-.......
+....t..
 
+Ottavia moves:
+
+..O.A..
+.....d.
+.m.....
+....t..
+
+Aria misses
 
 Beat 8
 -------
 
 Aria
 ----
-Life: 15
-Discard 1: Dimensional Reconfiguration
-Discard 2: Ionic Drive
+Life: 17
+Discard 1: Catalyst Burst
+Discard 2: Dimensional Drive
 Special action available
 
 Ottavia
 -------
-Life: 13
-Discard 1: Cybernetic Grasp
-Discard 2: Cover Shot
+Life: 16
+Discard 1: Anti-Personnel Dash
+Discard 2: Snapback Shot
 Special action available
 
 
-.O.A...
-....d..
+..O.A..
+.....d.
 .m.....
-.......
+....t..
 
 
 Aria:
-30% Photovoltaic Strike
-20% Photovoltaic Burst
-20% Photovoltaic Grasp
-20% Photovoltaic Dash
-9% Laser Dash
+1% Photovoltaic Strike
+13% Photovoltaic Shot
+9% Photovoltaic Grasp
+26% Photovoltaic Dash
+11% Ionic Reconfiguration
+2% Laser Reconfiguration
+4% Laser Shot
+10% Laser Grasp
+24% Laser Dash
 
 Ottavia:
-20% Snapback Strike (Target Lock: 2)
-35% Snapback Strike (Target Lock: 6)
-26% Snapback Strike (Target Lock: 10)
-14% Demolition Burst (Target Lock: 4)
-5% Anti-Personnel Burst (Target Lock: 2)
+0% Demolition Burst (Target Lock: 3)
+19% Demolition Burst (Target Lock: 9)
+17% Demolition Burst (Target Lock: 10)
+23% Cover Shooter (Target Lock: 3)
+6% Cover Strike (Target Lock: 4)
+1% Cover Strike (Target Lock: 5)
+10% Cover Strike (Target Lock: 6)
+2% Cover Burst (Target Lock: 3)
+21% Cover Burst (Target Lock: 4)
 
 
-Aria: Laser Dash
-Ottavia: Snapback Strike (Target Lock: 10)
+Aria: Laser Shot
+Ottavia: Cover Shooter (Target Lock: 3)
 
-Priorities:  9 | 2
+Priorities:  2 | -2
 Aria is active
-Aria moves:
-
-.OA....
-....d..
-.m.....
-.......
-
-Ottavia misses
-Ottavia moves:
-
-O.A....
-....d..
-.m.....
-.......
-
+Aria hits
+Ottavia has 1 soak
+Ottavia takes 2 damage (now at 14 life)
+Ottavia hits
+Aria takes 5 damage (now at 12 life)
+Aria is stunned
 
 Beat 9
 -------
 
 Aria
 ----
-Life: 15
-Discard 1: Laser Dash
-Discard 2: Dimensional Reconfiguration
+Life: 12
+Discard 1: Laser Shot
+Discard 2: Catalyst Burst
 Special action available
 
 Ottavia
 -------
-Life: 13
-Discard 1: Snapback Strike
-Discard 2: Cybernetic Grasp
+Life: 14
+Discard 1: Cover Shooter
+Discard 2: Anti-Personnel Dash
 Special action available
 
 
-O.A....
-....d..
+..O.A..
+.....d.
 .m.....
-.......
+....t..
 
 
 Aria:
-22% Photovoltaic Strike
-7% Photovoltaic Drive
-17% Photovoltaic Grasp
-6% Ionic Strike
-31% Ionic Shot
-18% Ionic Drive
+12% Photovoltaic Drive
+11% Photovoltaic Grasp
+14% Ionic Reconfiguration
+19% Dimensional Reconfiguration
+45% Dimensional Dash
 
 Ottavia:
-9% Anti-Personnel Dash (Target Lock: 2)
-9% Anti-Personnel Dash (Target Lock: 3)
-9% Anti-Personnel Dash (Target Lock: 4)
-9% Anti-Personnel Dash (Target Lock: 5)
-9% Anti-Personnel Dash (Target Lock: 6)
-9% Cover Shooter (Target Lock: 4)
-19% Cover Shot (Target Lock: 5)
-6% Cover Shot (Target Lock: 6)
-15% Cover Drive (Target Lock: 3)
-8% Cover Drive (Target Lock: 4)
+39% Snapback Burst (Target Lock: 5)
+10% Snapback Burst (Target Lock: 7)
+24% Demolition Strike (Target Lock: 13)
+9% Demolition Shot (Target Lock: 5)
+19% Cybernetic Shot (Target Lock: 4)
 
 
-Aria: Photovoltaic Grasp
-Ottavia: Anti-Personnel Dash (Target Lock: 4)
+Aria: Dimensional Dash
+Ottavia: Snapback Burst (Target Lock: 7)
 
-Priorities:  6 | 7
-Ottavia is active
+Priorities:  13 | 0
+Aria is active
 Ottavia moves:
 
-..A.O..
-....d..
+O...A..
+.....d.
 .m.....
-.......
+....t..
 
-Aria misses
-Aria adds her Turret droid:
+Aria moves:
 
-..A.O..
-....d..
+OA.....
+.....d.
 .m.....
-..t....
+....t..
+
+Ottavia misses
+Aria moves:
+
+O.....A
+.....d.
+.m.....
+....t..
 
 
 Beat 10
@@ -606,121 +572,118 @@ Beat 10
 
 Aria
 ----
-Life: 15
-Discard 1: Photovoltaic Grasp
-Discard 2: Laser Dash
+Life: 12
+Discard 1: Dimensional Dash
+Discard 2: Laser Shot
 Special action available
 
 Ottavia
 -------
-Life: 13
-Discard 1: Anti-Personnel Dash
-Discard 2: Snapback Strike
+Life: 14
+Discard 1: Snapback Burst
+Discard 2: Cover Shooter
 Special action available
 
 
-..A.O..
-....d..
+O.....A
+.....d.
 .m.....
-..t....
+....t..
+
+Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: 2): -0.27
+Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: 5): -0.27
+Unbeatable strategy for Ottavia: Demolition Shot (Target Lock: 6): -0.27
+Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 2): -0.13
+Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 5): -0.13
+Unbeatable strategy for Ottavia: Cybernetic Shot (Target Lock: 6): -0.13
 
 
 Aria:
-2% Ionic Reconfiguration
-11% Ionic Strike
-31% Ionic Shot
-7% Ionic Drive
-44% Ionic Burst
-6% Dimensional Reconfiguration
+5% Ionic Reconfiguration
+16% Ionic Burst
+14% Catalyst Reconfiguration
+40% Catalyst Strike
+25% Catalyst Grasp
 
 Ottavia:
-2% Demolition Shooter (Target Lock: 3)
-11% Demolition Shooter (Target Lock: 4)
-25% Demolition Shooter (Target Lock: 5)
-16% Demolition Drive (Target Lock: 5)
-22% Demolition Drive (Target Lock: 7)
-25% Demolition Burst (Target Lock: 5)
+47% Demolition Shot (Target Lock: 2)
+7% Demolition Shot (Target Lock: 5)
+9% Demolition Shot (Target Lock: 6)
+14% Demolition Grasp (Target Lock: 4)
+5% Anti-Personnel Shot (Target Lock: 4)
+9% Anti-Personnel Shot (Target Lock: 5)
+3% Cybernetic Shot (Target Lock: 2)
+7% Cybernetic Grasp (Target Lock: 2)
 
 
-Aria: Dimensional Reconfiguration
-Ottavia: Demolition Burst (Target Lock: 5)
+Aria: Catalyst Grasp
+Ottavia: Demolition Shot (Target Lock: 6)
 
-Priorities:  7 | 2
-Aria is active
-Ottavia moves:
-
-..A...O
-....d..
-.m.....
-..t....
-
-Aria moves:
-
-A.....O
-....d..
-.m.....
-..t....
-
-Aria misses
+Ottavia acquires target lock
+Priorities:  -4 | 2
+Ottavia is active
 Ottavia misses
-Aria moves:
-
-...A..O
-....d..
-.m.....
-..t....
-
+Aria misses
 
 Beat 11
 -------
 
 Aria
 ----
-Life: 15
-Discard 1: Dimensional Reconfiguration
-Discard 2: Photovoltaic Grasp
+Life: 12
+Discard 1: Catalyst Grasp
+Discard 2: Dimensional Dash
 Special action available
 
 Ottavia
 -------
-Life: 13
-Discard 1: Demolition Burst
-Discard 2: Anti-Personnel Dash
+Life: 14
+Discard 1: Demolition Shot
+Discard 2: Snapback Burst
 Special action available
 
 
-...A..O
-....d..
+O.....A
+.....d.
 .m.....
-..t....
+....t..
 
 
 Aria:
-1% Ionic Shot
-17% Ionic Drive
-1% Ionic Burst
-26% Ionic Dash
-48% Catalyst Strike
-4% Catalyst Drive
-3% Catalyst Burst
+23% Photovoltaic Reconfiguration
+17% Ionic Reconfiguration
+52% Laser Reconfiguration
+8% Laser Shot
 
 Ottavia:
-1% Snapback Shooter (Target Lock: 5)
-10% Snapback Strike (Target Lock: 5)
-36% Snapback Drive (Target Lock: 5)
-31% Cover Shooter (Target Lock: 4)
-0% Cover Shooter (Target Lock: 5)
-7% Cybernetic Drive (Target Lock: 4)
-15% Cybernetic Drive (Target Lock: 5)
+9% Anti-Personnel Shooter (Target Lock: 3)
+3% Anti-Personnel Shooter (Target Lock: 4)
+40% Cover Shooter (Target Lock: 3)
+48% Cover Shooter (Target Lock: 4)
 
 
-Aria: Catalyst Strike
-Ottavia: Snapback Strike (Target Lock: 5)
+Aria: Ionic Reconfiguration
+Ottavia: Cover Shooter (Target Lock: 3)
 
-Priorities:  4 | 3
+Priorities:  4 | -1
 Aria is active
+Aria moves Ottavia:
+
+.O....A
+.....d.
+.m.....
+....t..
+
+Aria moves:
+
+.OA....
+.....d.
+.m.....
+....t..
+
 Aria hits
-Ottavia takes 3 damage (now at 10 life)
+Ottavia has 1 soak
+Ottavia takes 1 damage (now at 13 life)
 Ottavia misses
 
 Beat 12
@@ -728,330 +691,259 @@ Beat 12
 
 Aria
 ----
-Life: 15
-Discard 1: Catalyst Strike
-Discard 2: Dimensional Reconfiguration
+Life: 12
+Discard 1: Ionic Reconfiguration
+Discard 2: Catalyst Grasp
 Special action available
 
 Ottavia
 -------
-Life: 10
-Discard 1: Snapback Strike
-Discard 2: Demolition Burst
+Life: 13
+Discard 1: Cover Shooter
+Discard 2: Demolition Shot
 Special action available
 
 
-...A..O
-....d..
+.OA....
+.....d.
 .m.....
-..t....
+....t..
 
 
 Aria:
-6% Photovoltaic Shot
-14% Ionic Drive
-20% Ionic Grasp
-46% Ionic Dash
-14% Laser Drive
+20% Photovoltaic Strike
+18% Photovoltaic Shot
+18% Photovoltaic Drive
+12% Laser Shot
+12% Laser Burst
+20% Laser Dash
 
 Ottavia:
-33% Cover Shooter (Target Lock: 5)
-20% Cover Shooter (Target Lock: 6)
-28% Cover Shot (Target Lock: 4)
-16% Cover Shot (Target Lock: 5)
-3% Cybernetic Drive (Target Lock: 10)
+4% Snapback Drive (Target Lock: 4)
+69% Snapback Dash (Target Lock: 9)
+1% Cybernetic Strike (Target Lock: 4)
+6% Cybernetic Drive (Target Lock: 4)
+2% Cybernetic Drive (Target Lock: 5)
+17% Cybernetic Grasp (Target Lock: 5)
 
 
-Aria: Ionic Dash
-Ottavia: Cover Shooter (Target Lock: 5)
+Aria: Laser Shot
+Ottavia: Snapback Dash (Target Lock: 9)
 
-Priorities:  10 | -1
-Aria is active
-Aria moves Ottavia:
+Priorities:  2 | 8
+Ottavia is active
+Ottavia moves:
 
-...A.O.
-....d..
+O.A....
+.....d.
 .m.....
-..t....
+....t..
 
-Aria moves:
+Ottavia moves:
 
-....AO.
-....d..
+..AO...
+.....d.
 .m.....
-..t....
+....t..
 
-Ottavia misses
+Aria misses
+Ottavia loses 1 life (now at 12)
 
 Beat 13
 -------
 
 Aria
 ----
-Life: 15
-Discard 1: Ionic Dash
-Discard 2: Catalyst Strike
+Life: 12
+Discard 1: Laser Shot
+Discard 2: Ionic Reconfiguration
 Special action available
 
 Ottavia
 -------
-Life: 10
-Discard 1: Cover Shooter
-Discard 2: Snapback Strike
+Life: 12
+Discard 1: Snapback Dash
+Discard 2: Cover Shooter
 Special action available
 
 
-....AO.
-....d..
+..AO...
+.....d.
 .m.....
-..t....
+....t..
 
 
 Aria:
-19% Photovoltaic Shot
-8% Photovoltaic Drive
-8% Photovoltaic Grasp
-20% Laser Shot
-30% Dimensional Reconfiguration
-14% Dimensional Burst
+9% Photovoltaic Strike
+15% Photovoltaic Drive
+20% Photovoltaic Grasp
+11% Catalyst Dash
+24% Dimensional Burst
+21% Dimensional Dash
 
 Ottavia:
-11% Demolition Shot (Target Lock: 6)
-5% Demolition Drive (Target Lock: 3)
-48% Demolition Drive (Target Lock: 6)
-7% Demolition Drive (Target Lock: 7)
-11% Demolition Burst (Target Lock: 3)
-17% Demolition Burst (Target Lock: 5)
+3% Demolition Drive (Target Lock: 5)
+23% Demolition Drive (Target Lock: 6)
+24% Demolition Drive (Target Lock: 13)
+32% Demolition Grasp (Target Lock: 10)
+12% Demolition Grasp (Target Lock: 13)
+7% Cybernetic Drive (Target Lock: 6)
 
 
-Aria: Dimensional Reconfiguration
-Ottavia: Demolition Burst (Target Lock: 3)
+Aria: Photovoltaic Grasp
+Ottavia: Cybernetic Drive (Target Lock: 6)
 
-Priorities:  7 | 2
-Aria is active
+Ottavia acquires target lock
+Priorities:  -4 | 4
+Ottavia is active
 Ottavia moves:
 
-....A.O
-....d..
+.OA....
+.....d.
 .m.....
-..t....
+....t..
 
-Aria moves:
+Ottavia hits
+Aria takes 3 damage (now at 9 life)
+Ottavia moves Aria:
 
-A.....O
-....d..
+AO.....
+.....d.
 .m.....
-..t....
+....t..
 
-Aria misses
-Ottavia misses
-Aria moves:
-
-.....AO
-....d..
-.m.....
-..t....
-
+Aria is stunned
 
 Beat 14
 -------
 
 Aria
 ----
-Life: 15
-Discard 1: Dimensional Reconfiguration
-Discard 2: Ionic Dash
+Life: 9
+Discard 1: Photovoltaic Grasp
+Discard 2: Laser Shot
 Special action available
 
 Ottavia
 -------
-Life: 10
-Discard 1: Demolition Burst
-Discard 2: Cover Shooter
+Life: 12
+Discard 1: Cybernetic Drive
+Discard 2: Snapback Dash
 Special action available
 
 
-.....AO
-....d..
+AO.....
+.....d.
 .m.....
-..t....
+....t..
 
 
 Aria:
-10% Photovoltaic Strike
-22% Photovoltaic Drive
-32% Photovoltaic Burst
-14% Photovoltaic Grasp
-22% Laser Burst
+8% Ionic Reconfiguration
+4% Ionic Strike
+7% Ionic Drive
+13% Catalyst Reconfiguration
+6% Catalyst Drive
+31% Dimensional Reconfiguration
+31% Dimensional Dash
 
 Ottavia:
-21% Cybernetic Strike (Target Lock: 5)
-16% Cybernetic Shot (Target Lock: 2)
-2% Cybernetic Shot (Target Lock: 5)
-12% Cybernetic Grasp (Target Lock: 5)
-49% Cybernetic Grasp (Target Lock: 6)
+4% Demolition Shooter (Target Lock: 4)
+10% Demolition Shot (Target Lock: 7)
+8% Demolition Burst (Target Lock: 4)
+15% Demolition Burst (Target Lock: 5)
+4% Cover Shooter (Target Lock: 4)
+57% Cover Shooter (Target Lock: 5)
+3% Cover Burst (Target Lock: 5)
 
 
-Aria: Photovoltaic Strike
-Ottavia: Cybernetic Grasp (Target Lock: 6)
+Aria: Ionic Strike
+Ottavia: Cover Shooter (Target Lock: 5)
 
-Priorities:  4 | 5
-Ottavia is active
-Ottavia hits
-Ottavia moves Aria:
-
-....A.O
-....d..
-.m.....
-..t....
-
-Aria takes 2 damage (now at 13 life)
-Ottavia moves Aria:
-
-.A....O
-....d..
-.m.....
-..t....
-
-Aria misses
+Priorities:  4 | -1
+Aria is active
+Aria hits
+Ottavia has 1 soak
+Ottavia takes 3 damage (now at 9 life)
+Ottavia misses
 
 Beat 15
 -------
 
 Aria
 ----
-Life: 13
-Discard 1: Photovoltaic Strike
-Discard 2: Dimensional Reconfiguration
+Life: 9
+Discard 1: Ionic Strike
+Discard 2: Photovoltaic Grasp
 Special action available
 
 Ottavia
 -------
-Life: 10
-Discard 1: Cybernetic Grasp
-Discard 2: Demolition Burst
+Life: 9
+Discard 1: Cover Shooter
+Discard 2: Cybernetic Drive
 Special action available
 
 
-.A....O
-....d..
+AO.....
+.....d.
 .m.....
-..t....
+....t..
 
 
 Aria:
-11% Ionic Shot
-11% Ionic Drive
-11% Ionic Dash
-10% Laser Shot
-11% Laser Drive
-11% Laser Burst
-11% Catalyst Shot
-11% Catalyst Drive
-10% Catalyst Dash
+11% Laser Shot
+1% Laser Drive
+22% Laser Dash
+8% Catalyst Reconfiguration
+4% Catalyst Drive
+22% Catalyst Dash
+11% Dimensional Reconfiguration
+22% Dimensional Dash
 
 Ottavia:
-0% Snapback Shooter (Target Lock: 2)
-0% Snapback Shooter (Target Lock: 3)
-0% Snapback Shooter (Target Lock: 5)
-1% Snapback Shooter (Target Lock: 10)
-0% Anti-Personnel Drive (Target Lock: 3)
-0% Anti-Personnel Drive (Target Lock: 4)
-0% Anti-Personnel Drive (Target Lock: 5)
-0% Anti-Personnel Drive (Target Lock: 7)
-1% Anti-Personnel Drive (Target Lock: 9)
-1% Anti-Personnel Drive (Target Lock: 10)
-1% Cover Shooter (Target Lock: 3)
-2% Cover Shooter (Target Lock: 5)
-9% Special Pulse (Target Lock: 1)
-9% Special Pulse (Target Lock: 2)
-9% Special Pulse (Target Lock: 3)
-9% Special Pulse (Target Lock: 4)
-9% Special Pulse (Target Lock: 5)
-9% Special Pulse (Target Lock: 6)
-9% Special Pulse (Target Lock: 7)
-9% Special Pulse (Target Lock: 9)
-9% Special Pulse (Target Lock: 10)
-9% Special Pulse (Target Lock: 14)
+10% Demolition Strike (Target Lock: 7)
+2% Demolition Strike (Target Lock: 9)
+2% Demolition Strike (Target Lock: 10)
+21% Demolition Shot (Target Lock: 7)
+2% Demolition Shot (Target Lock: 10)
+8% Demolition Burst (Target Lock: 2)
+2% Demolition Burst (Target Lock: 9)
+2% Demolition Burst (Target Lock: 10)
+17% Demolition Grasp (Target Lock: 2)
+16% Demolition Grasp (Target Lock: 7)
+3% Demolition Grasp (Target Lock: 9)
+2% Demolition Grasp (Target Lock: 10)
+9% Demolition Grasp (Target Lock: 13)
+2% Demolition Dash (Target Lock: 2)
 
 
-Aria: Ionic Drive
-Ottavia: Special Pulse (Target Lock: 4)
+Aria: Dimensional Dash
+Ottavia: Demolition Dash (Target Lock: 2)
 
-Ottavia Pulses:
-
-A.....O
-....d..
-.m.....
-..t....
-
-
-Beat 15
--------
-
-Aria
-----
-Life: 13
-Discard 1: Ionic Drive
-Discard 2: Photovoltaic Strike
-Special action available
-
-Ottavia
--------
-Life: 10
-Discard 1: Cybernetic Grasp
-Discard 2: Demolition Burst
-
-
-A.....O
-....d..
-.m.....
-..t....
-
-
-Aria:
-1% Laser Dash
-25% Catalyst Reconfiguration
-25% Catalyst Shot
-25% Catalyst Dash
-14% Dimensional Reconfiguration
-8% Dimensional Shot
-1% Dimensional Dash
-
-Ottavia:
-25% Anti-Personnel Drive (Target Lock: 3)
-25% Anti-Personnel Drive (Target Lock: 4)
-25% Anti-Personnel Drive (Target Lock: 10)
-25% Cover Shooter (Target Lock: 7)
-
-
-Aria: Catalyst Shot
-Ottavia: Anti-Personnel Drive (Target Lock: 4)
-
-Priorities:  3 | 3
-Clash!
-
-
-Aria: Catalyst Dash
-Ottavia: Anti-Personnel Shot (Target Lock: 4)
-
-Priorities:  10 | 1
+Priorities:  13 | 9
 Aria is active
 Aria moves:
 
-.A....O
-....d..
+.OA....
+.....d.
 .m.....
-..t....
+....t..
 
-Ottavia misses
 Ottavia moves:
 
-OA.....
-....d..
+O.A....
+.....d.
 .m.....
-..t....
+....t..
+
+Aria moves:
+
+OA.....
+.....d.
+.m.....
+....t..
 
 Game goes to time
-ARIA WINS!
-total_time: 61
+THE GAME IS TIED!
+total_time: 49
