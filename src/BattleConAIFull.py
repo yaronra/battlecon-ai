@@ -2012,7 +2012,7 @@ class Character (object):
     # set character state for start of a game
     def set_starting_setup (self, default_discards, use_special_actions):
         self.life = self.starting_life
-        self.position = (1 if self.my_number==0 else 5)
+        self.position = (2 if self.my_number==0 else 4)
         self.special_action_available = use_special_actions
 
         # Set initial discard piles
@@ -6953,12 +6953,9 @@ class Karin (Character):
 
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
-        if self.position == 1:
-            self.jager_position = 2
-        elif self.position == 5:
-            self.jager_position = 4
-        else:
-            raise Exception()
+        # Jager starts in front of Karin.
+        # With new starting position (2 or 4), this always means the center.
+        self.jager_position = 3
 
     def read_my_state (self, lines, board, addendum):
         lines = Character.read_my_state (self, lines, board, addendum)
@@ -9113,15 +9110,15 @@ class Tanis(Character):
         self.possessed_puppet = None
         if self.is_user:
             perms = list(itertools.permutations(self.puppets))
-            options = ['....' + ''.join([puppet.initial for puppet in permutation])
+            options = ['...' + ''.join([puppet.initial for puppet in permutation] + '.')
                        for permutation in perms]
             print "Choose initial puppet positions:"
             perm = perms[menu(options)]
             for i, puppet in enumerate(perm):
-                puppet.position = i + 4
+                puppet.position = i + 3
         else:
             (self.mephisto.position, self.eris.position, self.loki.position) = \
-                ((0,1,2) if self.position == 1 else (6,5,4))    
+                ((1,2,3) if self.position == 1 else (5,4,3))
         self.position = None
 
     def situation_report (self):
