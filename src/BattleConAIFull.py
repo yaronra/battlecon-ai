@@ -4357,11 +4357,12 @@ class Aria (Character):
                 else 0)
 
     def give_priority_penalty (self):
+        penalty = Character.give_priority_penalty(self)
         magnetron = self.magnetron.position
-        return (-1
-                if magnetron is not None and
-                   abs (self.opponent.position - magnetron) <= 1
-                else 0)
+        if (magnetron is not None and
+            abs (self.opponent.position - magnetron) <= 1):
+            penalty -= 1
+        return penalty
 
     def end_trigger (self):
         Character.end_trigger (self)
