@@ -2704,10 +2704,6 @@ class Character (object):
 
     # apply damage from attack or other source
     def take_damage (self, damage):
-        # Dash in discard adds 2 to damage taken on first hit.
-        if self.opponent.hits_scored == 1:
-            for card in self.discard[1] | self.discard[2]:
-                damage += card.extra_damage_from_discard
         soak = self.opponent.reduce_soak(self.get_soak())
         if self.game.reporting and soak:
             self.game.report ('%s has %d soak' % (self, soak))
@@ -3381,9 +3377,6 @@ class Card (object):
     # card?
     # Badness is halved in discard 2.
     discard_penalty = 0
-    # Some cards (Dash) cause you to take extra damage when they're
-    # in your discard piles.
-    extra_damage_from_discard = 0
     # This is only for special cards that may end up in the discard.
     # Styles and Bases override this.
     def get_discard_penalty (self):
@@ -4957,9 +4950,6 @@ class Cesar (Character):
 
     # Copying all this to implement Cesar's death immunity.
     def take_damage (self, damage):
-        # Dash in discard adds 2 to damage taken.
-        for card in self.discard[1] | self.discard[2]:
-            damage += card.extra_damage_from_discard
         soak = self.opponent.reduce_soak(self.get_soak())
         if self.game.reporting and soak:
             self.game.report ('%s has %d soak' % (self, soak))
@@ -8071,9 +8061,6 @@ class Oriana (Character):
     # convert damage to life loss when using Celestial
     def take_damage (self, damage, for_real=False):
         if self.celestial in self.active_cards:
-            # Dash in discard adds 2 to damage taken.
-            for card in self.discard[1] | self.discard[2]:
-                damage += card.extra_damage_from_discard
             self.lose_life (damage)
         else:
             Character.take_damage(self, damage)
@@ -9752,9 +9739,6 @@ class Xenitia(Character):
 
     # Copying to allow Guilty to block damage.
     def take_damage (self, damage):
-        # Dash in discard adds 2 to damage taken.
-        for card in self.discard[1] | self.discard[2]:
-            damage += card.extra_damage_from_discard
         soak = self.opponent.reduce_soak(self.get_soak())
         if self.game.reporting and soak:
             self.game.report ('%s has %d soak' % (self, soak))
@@ -9983,8 +9967,8 @@ class Dash (Base):
             (my_old_pos - opp_old_pos)) < 0:
             self.me.set_triggered_dodge()
     ordered_after_trigger = True
-    extra_damage_from_discard = 2
-    discard_penalty = 1.5 # Because of +2 damage while in discard
+    # Dash is usually a strong out, that's worth keeping in hand
+    discard_penalty = 0.5
     def evaluation_bonus(self):
         if self.opponent.position in [0,6]:
             return -0.3
