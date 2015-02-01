@@ -14821,7 +14821,7 @@ class Visions (Base):
     priority = 3
     preferred_range = 1.5
     def before_trigger (self):
-        self.me.move(range(self.me.disparity + 1))
+        self.me.advance(range(self.me.disparity + 1))
     ordered_before_trigger = True
     def hit_trigger (self):
         self.me.move_opponent([1,2])
