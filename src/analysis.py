@@ -9,12 +9,14 @@ import os
 import pylab
 import re
 
-phrases = {  'abarene' : ['Hallicris Snare'],
+phrases = {  #'abarene' : ['Hallicris Snare'],
              'adjenna' : ['Basilisk Gaze'],
              'alexian' : ['Empire Divider', 'Hail the King'],
+             'alumis' : ['Aphotic Terror', 'Umbral Vice'],
              'arec': ['Uncanny Oblivion'],
              'aria' : ['Laser Lattice'],
-             'borneo': ['Master Plan', 'Scene Shift', 'Mama Mazzaroth'],
+             'baenvier' : [],
+             #'borneo': ['Master Plan', 'Scene Shift', 'Mama Mazzaroth'],
              'byron' : ['Soul Trap', 'Soul Gate'],
              'cadenza' : ['Rocket Press', 'Feedback Field'],
              'cesar' : ['Level 4 Protocol'],
@@ -23,15 +25,19 @@ phrases = {  'abarene' : ['Hallicris Snare'],
              'danny': ['The Dark Ride'],
              'demitras' : ['Symphony of Demise'],
              'eligor' : ['Sweet Revenge', 'Sheet Lightning'],
-             'gerard' : ['Ultra Beatdown'],
+             'eustace' : ['Bone Breaker', 'Rime Blitzer'],
+             #'gerard' : ['Ultra Beatdown'],
              'heketch' : ['Million Knives', 'Living Nightmare'],
              'hikaru' : ['Wrath of Elements', 'Four Winds', 'Palm Strike'],
-             'juto' : ['Ban Hammer'],
+             'jager' : ['Blood Moon', 'Blood Hunt', 'Sign of the Wolf'],
+             'iri' : ['Limit Exceed', 'Final Galaxy Sword Atamos'],
+             #'juto' : ['Ban Hammer'],
              'kajia' : ['Imago Emergence'],
              'kallistar' : ['Chain of Destruction'],
              'karin' : ['Red Moon Rage', 'Lunar Cross', 'Full Moon'],
              'kehrolyn' : ['Hydra Fork'],
              'khadath' : ['Dimensional Exile'],
+             'larimore' : ['The Jump'],
              'lesandra' : ['Invoke Duststalker'],
              'lixis' : ['Virulent Miasma'],
              'luc' : ['Temporal Recursion'],
@@ -39,17 +45,19 @@ phrases = {  'abarene' : ['Hallicris Snare'],
              'magdelina' : ['Solar Soul'],
              'marmelee' : ['Astral Cannon', 'Astral Trance'],
              'mikhail' : ['Magnus Malleus', 'The Fourth Seal'],
-             'oriana' : ['Nihil Eraser', 'Galaxy Conduit'],
+             #'oriana' : ['Nihil Eraser', 'Galaxy Conduit'],
              'ottavia' : ['Extreme Prejudice'],
              'rexan' : ['Zero Hour'],
              'rukyuk' : ['Point Blank', 'Fully Automatic', 'Force Grenade'],
              'runika' : ['Artifice Avarice', 'Udstad Beam'],
+             'sarafina' : ['Ritherwhyte Infusion', 'Fulminating Vortex'],
              'seth' : ['Fortune Buster'],
              'shekhtur' : ['Coffin Nails'],
              'tanis' : ['Scene Shift', 'Curtain Call'],
              'tatsumi' : ['Tsunamis Collide', 'Bear Arms', 'Guardian Xandjinn'],
              'vanaah' : ['Death Walks', 'Hand of Divinity'],
              'voco' : ['The Wave'],
+             'xenitia' : ['Awakening Blood'],
              'zaamassal' : ['Paradigm Shift', 'Open the Gate', 'Plane Divider']}
 
 devastation_flights = [['alexian', 'eligor', 'karin', 'marmelee', 'shekhtur'],
@@ -75,18 +83,18 @@ def list_files (logdir, name=None, player_num=None):
     return [fulldir+fn for fn in filenames 
             if name == fn.split('_')[player_num]]
     
-def all_victories(logdir='free_for_all', sort_by_name=False, devastation_only=False):
+def all_victories(logdir='core_tests', devastation_only=False):
     names = devastation if devastation_only else all_names
     name_power = []
     for name in names:
         vics = victories(name, logdir, silent=True)
         if vics is not None:
             name_power.append((name, vics))
-    name_power = sorted(name_power, key=itemgetter(0 if sort_by_name else 1))
+    name_power = sorted(name_power, key=itemgetter(1))
     for np in name_power:
         print "%s: %s" %(np[0], percentify(np[1]))
 
-def victories (name, logdir="free_for_all", return_timeouts=False, silent=False,
+def victories (name, logdir="core_tests", return_timeouts=False, silent=False,
                per_name=False):
     (win,lose,draw,time_win,time_lose) = (0,0,0,0,0)
     next_result_is_timeout = False
@@ -131,11 +139,11 @@ def victories (name, logdir="free_for_all", return_timeouts=False, silent=False,
         print "total: %s by timeout" %percentify((time_win+time_lose+draw)/games)
 
     if return_timeouts:
-        return (time_win+time_lose)/games
+        return (time_win+time_lose+draw)/games
     else:
         return (win+draw/2.0)/games
 
-def side_victories (logdir="free_for_all"):
+def side_victories (logdir="core_tests"):
     (win,lose,draw,time_win,time_lose) = (0,0,0,0,0)
     next_result_is_timeout = False
     for filename in list_files(logdir, None):
@@ -168,7 +176,7 @@ def side_victories (logdir="free_for_all"):
     print "draw: %d (%s)" %(draw, percentify(draw/games))
     print "total: %s by timeout" %percentify((time_win+time_lose)/games)
 
-def victory_csv (logdir="free_for_all"):
+def victory_csv (logdir="core_tests"):
     index = {name:i for (i,name) in enumerate(all_names)}
     wins = [[0 for i in all_names] for j in all_names]
     logdir = "logs/" + logdir + "/"
@@ -226,7 +234,7 @@ def check_redundancies():
                 if not exist01 and not exist10:
                     print "missing:", name0, name1
 
-def analyze (name, logdir="free_for_all"):
+def analyze (name, logdir="core_tests"):
     victories (name,logdir)
     print "Average game length: %.1f"% game_length(name, logdir)
     strategies(name, logdir)
@@ -240,6 +248,7 @@ class BeatData(object):
     number: beat number
     style: the style chosen by analyzed player
     base: the base chosen by analyzed player
+    final_base: the final base played (after clashes)
     ante: the ante chosen by analyzed player (without induced ante)
     induced_ante: the induced ante chosen by analyzed player
     opp_style: the style chosen by opponent
@@ -255,32 +264,44 @@ class BeatData(object):
         self.lines = lines
         styles = [None, None]
         bases = [None, None]
+        final_bases = [None, None]
         antes = [None, None]
         induced_antes = [None, None]
         line_starts = ["%s: " % n.capitalize()
                        for n in (name, opp_name)]
-        for line in lines:
-            for i in (0,1):
-                if (styles[i] is None and
-                    line.startswith(line_starts[i])):
-                    line = line[:-1] # snip new line
-                    induced_split = line.split(' | ')
-                    if len(induced_split) > 1:
-                        induced_antes[i] = induced_split[1]
-                    line = induced_split[0]
-                    for p in replacement:
-                        line = line.replace(p, replacement[p])
-                    split = line.split(' ')
-                    styles[i] = split[1]
-                    bases[i] = split[2]
-                    antes[i] = ' '.join(split[3:])
-            if all(styles):
-                break
+        for i in (0,1):
+            my_lines = [line for line in lines
+                        if line.startswith(line_starts[i])]
+            styles[i], bases[i], antes[i], induced_antes[i] = \
+                self.parse_line(my_lines[0], replacement)
+            if len(my_lines) == 1:
+                final_bases[i] = bases[i]
+            else:
+                final_bases[i] = self.parse_line(my_lines[-1], 
+                                                 replacement) [1]
+
         self.style, self.opp_style = tuple(styles)
         self.base, self.opp_base = tuple(bases)
+        self.final_base, self.opp_final_base = tuple(final_bases)
         self.ante, self.opp_ante = tuple(antes)
         self.induced_ante, self.opp_induced_ante = tuple(induced_antes)
             
+    def parse_line(self, line, replacement):
+        line = line[:-1] # snip new line
+        induced_split = line.split(' | ')
+        if len(induced_split) > 1:
+            induced_ante = induced_split[1]
+        else:
+            induced_ante = None
+        line = induced_split[0]
+        for p in replacement:
+            line = line.replace(p, replacement[p])
+        split = line.split(' ')
+        style = split[1]
+        base = split[2]
+        ante = ' '.join(split[3:])
+        return style, base, ante, induced_ante
+    
     def lines_starting_with(self, start):
         return [line for line in self.lines
                 if line.startswith(start)]
@@ -294,7 +315,7 @@ class BeatData(object):
         return [line for line in self.lines
                 if text in line]
                      
-def entropy(logdir='free_for_all'):
+def entropy(logdir='core_tests'):
     my_entropy = defaultdict(list)
     opp_entropy = defaultdict(list)
     min_entropy = defaultdict(list)
@@ -319,7 +340,7 @@ def entropy(logdir='free_for_all'):
         print title
         for name in d:
             d[name] = 2 ** sorted(d[name])[len(d[name])/2]
-        items = sorted(d.items(), key=itemgetter(0))
+        items = sorted(d.items(), key=itemgetter(1))
         for i in items:
             print "%.1f %s" % (i[1], i[0])
     my_names = [m[0] for m in sorted(my_entropy.items(), key=itemgetter(1))]
@@ -345,6 +366,8 @@ def entropy(logdir='free_for_all'):
              'gerard',
              'heketch',
              'hikaru',
+             'jager',
+             'larimore',
              'lesandra',
              'luc',
              'mikhail',
@@ -352,6 +375,7 @@ def entropy(logdir='free_for_all'):
              'ottavia',
              'rexan',
              'rukyuk',
+             'sarafina',
              'seth',
              'shekhtur',
              'vanaah']
@@ -380,7 +404,7 @@ def calc_entropy(log, start, name):
     return -sum(p * math.log(p, 2) for p in probs)
         
                      
-def parse_beats(name, logdir='free_for_all'):
+def parse_beats(name, logdir='core_tests'):
     replacement = {phrase : phrase.replace(' ','') 
                    for char_name in phrases
                    for phrase in phrases[char_name]}
@@ -422,8 +446,8 @@ def check_victories(beats):
             beat.final = False
             beat.game_points = beats[i+1].game_points
 
-def strategies (name, logdir="free_for_all", beat=None,
-                        condition='',reverse_condition=False):
+def strategies (name, logdir="core_tests", beat=None,
+                condition='',reverse_condition=False):
     beats = parse_beats(name, logdir)
     if beat is not None:
         beats = [b for b in beats if b.number == beat]
@@ -438,6 +462,8 @@ def strategies (name, logdir="free_for_all", beat=None,
         post_processing_byron(beats)
     if name == 'cesar':
         post_processing_cesar(beats)
+    if name == 'jager':
+        post_processing_jager(beats)
     if name == 'kallistar':
         post_processing_kallistar(beats)
     if name == 'lymn':
@@ -460,8 +486,8 @@ def strategies (name, logdir="free_for_all", beat=None,
     sc = [(styles[i],style_count[i], no_dash_style_count[i]) for i in range(len(styles))]
     sc = sorted (sc, key=itemgetter(1), reverse=True)
     for s in sc:
-        print "%s %s (%s)" % (percentify(s[1]/float(total)), s[0],
-                              percentify(s[2]/no_dash_total))
+        print "%s %s (%s)" % (percentify(s[2]/no_dash_total), s[0],
+                              percentify(s[1]/float(total)))
     print '--------------'
     base_count = count.sum(axis=0)
     bc = [(bases[i],base_count[i]) for i in range(len(bases))]
@@ -510,73 +536,84 @@ class HitRecord (object):
         self.opp_misses = 0
         self.opp_stunned = 0
         self.opp_damage = 0
+    def __str__(self):
+        return "%s b%d h%d m%d s%d d%d oh%d om%d os%d od%d" %(
+            self.name, self.beats, self.hits, self.misses, self.stunned, self.damage, 
+            self.opp_hits, self.opp_misses, self.opp_stunned, self.opp_damage)
 
-def hitting (name, logdir="free_for_all", printing=True):
-    record = {}
+def hitting (name, logdir="core_tests", printing=True):
+    style_record = {}
+    base_record = {}
     cap_name = name.capitalize()
     beats = parse_beats(name, logdir)
     for beat in beats:
         style = beat.style
+        base = beat.final_base
         if style == 'Special' or beat.opp_base == 'Pulse':
             continue
-        if style not in record.keys():
-            record[style] = HitRecord(style)
-        record[style].beats += 1
-        lines = beat.lines_ending_with(" is active")
-        if not lines:
+        active_lines = beat.lines_ending_with(" is active")
+        if not active_lines:
             continue
-        me_active = lines[0].startswith(cap_name)
-        lines = beat.lines_ending_with(" is stunned")
-        my_stuns = [line.startswith(cap_name) for line in lines]
+        me_active = active_lines[0].startswith(cap_name)
+        stun_lines = beat.lines_ending_with(" is stunned")
+        my_stuns = [line.startswith(cap_name) for line in stun_lines]
         me_stunned = any(my_stuns)
         opp_stunned = not all(my_stuns)
-        if me_active and opp_stunned:
-            record[style].opp_stunned += 1
-        if not me_active and me_stunned:
-            record[style].stunned += 1
-        lines = beat.lines_ending_with(" misses")
-        for line in lines:
+        miss_lines = beat.lines_ending_with(" misses")
+        my_misses = [line.startswith(cap_name) for line in miss_lines]
+        me_missed = any(my_misses)
+        opp_missed = not all(my_misses)
+        hit_lines = beat.lines_ending_with(" hits")
+        my_hits = [line.startswith(cap_name) for line in hit_lines]
+        me_hit = any(my_hits)
+        opp_hit = not all(my_hits)
+        damage_lines = beat.lines_containing(" damage (now at ")
+        my_damage = 0
+        opp_damage = 0
+        for line in damage_lines:
             if line.startswith(cap_name):
-                record[style].misses += 1
+                opp_damage += int(line.split(' ')[2])
             else:
-                record[style].opp_misses += 1
-        lines = beat.lines_ending_with(" hits")
-        for line in lines:
-            if line.startswith(cap_name):
-                record[style].hits += 1
-            else:
-                record[style].opp_hits += 1
-        lines = beat.lines_containing(" damage (now at ")
-        for line in lines:
-            if line.startswith(cap_name):
-                record[style].opp_damage += int(line.split(' ')[2])
-            else:
-                record[style].damage += int(line.split(' ')[2])
-    total = HitRecord("All")
-    for key in total.__dict__.keys():
-        if key != 'name':
-            total.__dict__[key] = sum([rec.__dict__[key] for rec in record.itervalues()])
-    all_recs = record.values() + [total]
-    print "stunned/missed/hit/dam per hit/dam per beat"
-    for rec in all_recs:
-        if rec.name != 'Special':
-            # a stunned beat is not necessarily an attack beat,
-            # but dashes don't usually get stunned
-            attack_beats = float(rec.stunned + rec.misses + rec.hits)
-            opp_attack_beats = float(rec.opp_stunned + rec.opp_misses + rec.opp_hits)
-            print "%.2f %s %s %s %s %.1f %.1f | %s %s %s %.1f %.1f" % \
-                  (rec.damage/attack_beats/((rec.opp_damage+0.00001)/opp_attack_beats),
-                   rec.name + (' ' * (12-len(rec.name))),
-                   percentify(rec.stunned/attack_beats),
-                   percentify(rec.misses/attack_beats),
-                   percentify(rec.hits/attack_beats),
-                   rec.damage/float(rec.hits),
-                   rec.damage/attack_beats,
-                   percentify(rec.opp_stunned/opp_attack_beats),
-                   percentify(rec.opp_misses/opp_attack_beats),
-                   percentify(rec.opp_hits/opp_attack_beats),
-                   rec.opp_damage/float(rec.opp_hits),
-                   rec.opp_damage/opp_attack_beats)
+                my_damage += int(line.split(' ')[2])
+        for key, record in ((style, style_record),
+                            (base, base_record)):
+            if key not in record.keys():
+                record[key] = HitRecord(key)
+            record[key].beats += 1
+            if me_active and opp_stunned:
+                record[key].opp_stunned += 1
+            if not me_active and me_stunned:
+                record[key].stunned += 1
+            record[key].misses += me_missed
+            record[key].opp_misses += opp_missed
+            record[key].hits += me_hit
+            record[key].opp_hits += opp_hit
+            record[key].damage += my_damage
+            record[key].opp_damage += opp_damage
+    for record in style_record, base_record:
+        total = HitRecord("All")
+        for key in total.__dict__.keys():
+            if key != 'name':
+                total.__dict__[key] = sum([rec.__dict__[key] 
+                                           for rec in record.itervalues()])
+        all_recs = record.values() + [total]
+        print "stunned/missed/hit/dam per hit/dam per beat"
+        for rec in all_recs:
+            if rec.name != 'Special' and rec.hits > 0:
+                beats = float(rec.beats)
+                print "%.2f %s %s %s %s %.1f %.1f | %s %s %s %.1f %.1f" % \
+                      (rec.damage/beats/((rec.opp_damage+0.00001)/beats),
+                       rec.name + (' ' * (12-len(rec.name))),
+                       percentify(rec.stunned/beats),
+                       percentify(rec.misses/beats),
+                       percentify(rec.hits/beats),
+                       rec.damage/float(rec.hits),
+                       rec.damage/beats,
+                       percentify(rec.opp_stunned/beats),
+                       percentify(rec.opp_misses/beats),
+                       percentify(rec.opp_hits/beats),
+                       rec.opp_damage/float(rec.opp_hits),
+                       rec.opp_damage/beats)
 
 class HitWinCorrelationRecord (object):
     def __init__ (self):
@@ -584,7 +621,7 @@ class HitWinCorrelationRecord (object):
         self.tie_hits = [0] * 6
         self.lose_hits = [0] * 6
         
-def style_win_correlation (name, logdir="free_for_all"):
+def style_win_correlation (name, logdir="core_tests"):
     replacement = {p : p.replace(' ','') for p in phrases[name]} 
     record = {}
     cap_name = name.capitalize()
@@ -642,23 +679,26 @@ def style_win_correlation (name, logdir="free_for_all"):
 ##                                            lose,
 ##                                            tie)
 
-def specials (name, logdir="free_for_all"):
+def specials (name=None, logdir="core_tests"):
+    names = [name] if name else phrases.keys()
     stats = {'all': [0]*16,
              'pulse': [0]*16,
              'cancel': [0]*16,
              'finisher': [0]*16}
-    beats = parse_beats(name, logdir)
-    games = len([beats[i].number == 1 and beats[i+1].number != 1
-                 for i in xrange(len(beats))])
-    for beat in beats:
-        if beat.style == 'Special':
-            stats['all'][beat.number] += 1
-            if beat.base == 'Pulse':
-                stats['pulse'][beat.number] += 1
-            elif beats.base == 'Cancel':
-                stats['cancel'][beat.number] += 1
-            else:
-                stats['finisher'][beat.number] += 1
+    games=0
+    for name in names:
+        beats = parse_beats(name, logdir)
+        for i, beat in enumerate(beats):
+            if beat.number == 1 and beats[i+1].number != 1:
+                games += 1
+            if beat.style == 'Special':
+                stats['all'][beat.number] += 1
+                if beat.base == 'Pulse':
+                    stats['pulse'][beat.number] += 1
+                elif beat.base == 'Cancel':
+                    stats['cancel'][beat.number] += 1
+                else:
+                    stats['finisher'][beat.number] += 1
     for stat in sorted(stats.keys()):
         s = stats[stat]
         total = 0
@@ -668,7 +708,7 @@ def specials (name, logdir="free_for_all"):
             print "%d: %s - %s" %(beat, percentify(s[beat]/float(games)),
                                   percentify(total/float(games)))
         
-def anomalies(logdir='free_for_all'):
+def anomalies(logdir='core_tests'):
     for name in all_names:
         strategy_dict = Counter([(b.style, b.base, b.ante) 
                                  for b in parse_beats(name, logdir)])
@@ -701,9 +741,18 @@ def anomalies(logdir='free_for_all'):
                           %(styles[s], bases[b], sb, base_count[b],
                             percentify (sb/float(base_count[b])))
         
-def total_bases(specials=True, player_num=None, beta_bases=False, 
-                logdir="free_for_all"):
-    if beta_bases:
+def total_bases(specials=True, player_num=None, base_set='alpha', 
+                logdir="core_tests"):
+    if base_set == 'alpha':
+        base_dict = {"Strike" : 0,
+                     "Shot" : 0,
+                     "Drive" : 0,
+                     "Burst" : 0,
+                     "Grasp" : 0,
+                     "Dash" : 0,
+                     "Pulse" : 0,
+                     "Cancel" : 0}
+    elif base_set == 'beta':
         base_dict = {"Counter" : 0,
                      "Wave" : 0,
                      "Force" : 0,
@@ -713,21 +762,22 @@ def total_bases(specials=True, player_num=None, beta_bases=False,
                      "Pulse" : 0,
                      "Cancel" : 0}
     else:
-        base_dict = {"Strike" : 0,
-                     "Shot" : 0,
-                     "Drive" : 0,
-                     "Burst" : 0,
-                     "Grasp" : 0,
-                     "Dash" : 0,
+        base_dict = {"Stagger" : 0,
+                     "Leap" : 0,
+                     "Lunge" : 0,
+                     "Sweep" : 0,
+                     "Catch" : 0,
+                     "Block" : 0,
                      "Pulse" : 0,
                      "Cancel" : 0}
+        
     total_total = 0
     for name in all_names:
         beats = parse_beats(name, logdir)
         if player_num is not None:
             beats = [b for b in beats if b.player_num==player_num]
         strategy_dict = Counter([(b.style, b.base, b.ante) 
-                                 for b in parse_beats(name, logdir)])
+                                 for b in beats])
         count, unused_styles, bases = pair_count (strategy_dict, specials)
         base_count = count.sum(axis=0)
         total = (count.sum())
@@ -742,7 +792,7 @@ def total_bases(specials=True, player_num=None, beta_bases=False,
     for b in bases_counts:
         print percentify(b[1]/float(total_total)), b[0]
 
-def game_length (name, logdir="free_for_all"):
+def game_length (name, logdir="core_tests"):
     beats = parse_beats(name, logdir)
     beats = [beats[i] for i in xrange(len(beats))
              if i==0 or beats[i-1].number != beats[i].number]
@@ -750,11 +800,13 @@ def game_length (name, logdir="free_for_all"):
                  if beats[i].number == 1])
     return len(beats) / float(games)
     
-def all_game_lengths(logdir="free_for_all"):
+def all_game_lengths(logdir="core_tests"):
     res = []
+    filenames_string = ''.join(list_files(logdir))
     for name in all_names:
-        res.append ((name, game_length(name, logdir),
-                     victories(name,logdir,return_timeouts=True,silent=True)))
+        if name in filenames_string:
+            res.append ((name, game_length(name, logdir),
+                         victories(name,logdir,return_timeouts=True,silent=True)))
     res = sorted(res,key=itemgetter(2))
     print "mean game length: %.1f" %(sum([r[1] for r in res])/len(res))
     print "mean timeout percent: %s" %percentify((sum([r[2] for r in res])/len(res))) 
@@ -870,7 +922,7 @@ def string_is_float (s):
         return False
 
 def unbeatable_strategies (name, thresh=5, life_thresh=8,
-                           logdir="free_for_all", outdir="logs/unbeatables/"):
+                           logdir="core_tests", outdir="logs/unbeatables/"):
     winfile = open (outdir+'/'+name+'_win_by_%d.txt'%thresh,'w')
     total = 0
     for filename in list_files(logdir, name):
@@ -921,7 +973,7 @@ def unbeatable_strategies (name, thresh=5, life_thresh=8,
     winfile.close()
     print "total:", total
 
-def text (text, name=None, logdir="free_for_all", show=False):
+def text (text, name=None, logdir="core_tests", show=False):
     total = 0
     for filename in list_files(logdir, name):
         with open (filename) as f:
@@ -934,16 +986,16 @@ def text (text, name=None, logdir="free_for_all", show=False):
     return total
   
 def percentify (fraction):
-    if fraction > 0.05:
+    if fraction >= 0.1:
         return str (int (fraction*100+.5)) + '%'
     else:
-        return str(int(fraction*1000+.5)/10.0)+'%'
+        return str(int(fraction*1000+.5)/10.0) + '%'
 
-def abarene_tokens (logdir="free_for_all"):
+def abarene_tokens (logdir="core_tests"):
     token_dict = {'Dizziness':0,
                   'Fatigue':0,
                   'Nausea':0,
-                  'Pain Spike':0}
+                  'Lethargy':0}
     beats = 0
     for filename in list_files(logdir, 'abarene'):
         with open (filename) as f:
@@ -964,7 +1016,7 @@ def abarene_tokens (logdir="free_for_all"):
         print token, percentify(count/float(beats))
     print "total:", sum([token_dict[t] for t in token_dict])/float(beats)
 
-def adjenna_marker_beat (target=1, logdir="free_for_all"):
+def adjenna_marker_beat (target=1, logdir="core_tests"):
     beats = parse_beats('adjenna', logdir)
     check_victories(beats)
     final_beats = [b for b in beats if b.final]
@@ -979,7 +1031,7 @@ def adjenna_marker_beat (target=1, logdir="free_for_all"):
                                  if beat.markers >= target])
     # 1-15 is beat in which opponent got to target number of markers
     # 0 means never
-    gain_beat = [0 for _ in range (16)]
+    gain_beat = [0] * 16
     for i in xrange(1, len(beats)):
         if beats[i].markers >= target and beats[i-1].markers < target:
             gain_beat[beats[i].number] += 1
@@ -995,7 +1047,7 @@ def adjenna_marker_beat (target=1, logdir="free_for_all"):
     for beat,count in enumerate(gain_beat):
         print beat,count
                         
-def adjenna_marker_and_wins (target_beat, logdir="free_for_all"):
+def adjenna_marker_and_wins (target_beat, logdir="core_tests"):
     games_with_x_markers = [0,0,0,0,0,0,0]
     victories_with_x_markers = [0,0,0,0,0,0,0]
     beats = parse_beats['adjenna', logdir]
@@ -1019,7 +1071,7 @@ def adjenna_marker_and_wins (target_beat, logdir="free_for_all"):
               percentify (float(sum(victories_with_x_markers[:i+1])) /\
                           (0.000001+sum(games_with_x_markers[:i+1])))
 
-def alexian_tokens (logdir="free_for_all"):
+def alexian_tokens (logdir="core_tests"):
     beats = parse_beats('alexian', logdir)
     for beat in beats:
         if beat.opp_induced_ante:
@@ -1059,7 +1111,65 @@ def alexian_tokens (logdir="free_for_all"):
 
     parse_base_vs_induced_ante('alexian', logdir)
 
-def arec_tokens (logdir="free_for_all"):
+def alumis_styles(logdir='core_tests'):
+    beats = parse_beats('alumis', logdir)
+    arcane = [b for b in beats if b.style == 'Arcane']
+    arcane_hits = [b for b in arcane 
+                   if any(line != 'Alumis hits\n' 
+                          for line in b.lines_containing(' hits\n'))]
+    arcane_soak = [b for b in arcane_hits
+                   if b.lines_containing('Alumis has 2 soak')]
+    print "Arcane beats:", len(arcane)
+    print "Arcane hits taken:", len(arcane_hits)
+    print "Arcane soaks: %d (%s)" % (len(arcane_soak),
+                                     percentify(len(arcane_soak) / 
+                                                float(len(arcane_hits))))
+    for b in arcane_soak:
+        if b not in arcane_hits:
+            for line in b.lines:
+                print line
+    ghastly = [b for b in beats if b.style == 'Ghastly']
+    ghastly_power = [b for b in ghastly
+                     if b.lines_containing('Alumis gets +2 power')]
+    ghastly_life = [b for b in ghastly
+                      if not all(line.startswith('Alumis loses 2 life') 
+                                 for line in b.lines_containing(' loses 2 life'))]
+    print "Ghastly beats:", len(ghastly)
+    print "Ghastly power: %d (%s)" % (len(ghastly_power),
+                                      percentify(len(ghastly_power) /
+                                                 float(len(ghastly))))
+    print "Ghastly life loss: %d (%s)" % (len(ghastly_life),
+                                         percentify(len(ghastly_life) /
+                                                    float(len(ghastly))))
+    tenebrous = [b for b in beats if b.style == 'Tenebrous']
+    tenebrous_life = [b for b in tenebrous
+                      if not all(line.startswith('Alumis loses 2 life') 
+                                 for line in b.lines_containing(' loses 2 life'))]
+    print "Tenebrous beats:", len(tenebrous)
+    print "Tenebrous life loss: %d (%s)" % (len(tenebrous_life),
+                                            percentify(len(tenebrous_life) /
+                                                       float(len(tenebrous))))
+    sinister = [b for b in beats if b.style == 'Sinister']
+    sinister_hits = 0
+    sinister_moves = 0
+    for b in sinister:
+        hit = False
+        for line in b.lines:
+            if line == "Alumis hits\n":
+                hit = True
+                sinister_hits += 1
+            # Any move after the hit is from Sinister.
+            if hit:
+                if line == 'Alumis moves:\n':
+                    sinister_moves += 1
+                    break
+    print "Sinister beats:", len(sinister)
+    print "Sinister hits:", sinister_hits
+    print "Sinister moves: %d (%s)" % (sinister_moves,
+                                       percentify(sinister_moves / 
+                                                  float(sinister_hits)))
+
+def arec_tokens (logdir="core_tests"):
     token_dict = {'Fear':0,
                   'Hesitation':0,
                   'Mercy':0,
@@ -1084,7 +1194,7 @@ def arec_tokens (logdir="free_for_all"):
         print token, percentify(count/float(beats))
     print "total:", sum([token_dict[t] for t in token_dict])/float(beats)
 
-def aria_droids (logdir="free_for_all"):
+def aria_droids (logdir="core_tests"):
     n_beats = 0.0
     # last slot is for 'None'
     dampening = [0] * 8
@@ -1134,7 +1244,28 @@ def aria_droids (logdir="free_for_all"):
         print percentify(turret[i]/n_beats),
     print
 
-def clinhyde_stims (logdir="free_for_all"):
+def baenvier_tokens (logdir="core_tests"):
+    beat_counts = [0] * 16
+    beat_tokens = [0] * 16
+    beats = parse_beats('baenvier', logdir)
+    for beat in beats:
+        beat_counts[beat.number] += 1
+        for line in beat.lines:
+            if (line[1:] == " Spell Eater token\n" or 
+                line[1:] == " Spell Eater tokens\n"):
+                beat.tokens = int(line[0])
+                beat_tokens[beat.number] += beat.tokens
+                break
+    tokens = Counter([beat.tokens for beat in beats])
+    total = len(beats)
+    for t in sorted(tokens.keys()):
+        print t, percentify(tokens[t]/float(total))
+    print "total:", total
+    print
+    for b in xrange(1,16):
+        print "%d: %.1f" % (b, beat_tokens[b]/float(beat_counts[b]))
+
+def clinhyde_stims (logdir="core_tests"):
     stims = {}
     n_stims = [0,0,0,0]
     for filename in list_files(logdir, 'clinhyde'):
@@ -1157,7 +1288,7 @@ def clinhyde_stims (logdir="free_for_all"):
     for p in stims.keys():
         print p, percentify (stims[p]/total)
      
-def eligor_tokens (logdir="free_for_all"):
+def eligor_tokens (logdir="core_tests"):
     tokens = [0,0,0,0,0,0]
     for filename in list_files(logdir, 'eligor'):
         with open (filename) as f:
@@ -1169,7 +1300,29 @@ def eligor_tokens (logdir="free_for_all"):
         print i, percentify(count/float(sum(tokens)))
     print "total:", sum(tokens)
 
-def gerard_gold(logdir='free_for_all'):
+def eustace_counters (logdir="core_tests"):
+    beat_counts = [0] * 16
+    beat_tokens = [0] * 16
+    beats = parse_beats('eustace', logdir)
+    for beat in beats:
+        beat_counts[beat.number] += 1
+        for line in beat.lines:
+            if (line.startswith("Frost: ")):
+                beat.tokens = int(line[-2])
+                beat_tokens[beat.number] += beat.tokens
+                break
+    tokens = Counter([beat.tokens for beat in beats])
+    total = len(beats)
+    for t in sorted(tokens.keys()):
+        print t, percentify(tokens[t]/float(total))
+    print "total:", total
+    print
+    for b in xrange(1,16):
+        print "%d: %.1f" % (b, beat_tokens[b]/float(beat_counts[b]))
+    print "Defrosting losses:", text("Eustace runs out of Frost",
+                                     'eustace', logdir)
+
+def gerard_gold(logdir='core_tests'):
     beat_counts = [0] * 16
     beat_gold = [0] * 16
     for filename in list_files(logdir, 'gerard'):
@@ -1185,7 +1338,7 @@ def gerard_gold(logdir='free_for_all'):
     for beat in xrange(1,16):
         print "%d: %f" % (beat, beat_gold[beat] / float(beat_counts[beat]))
 
-def hikaru_tokens (logdir="free_for_all"):
+def hikaru_tokens (logdir="core_tests"):
     token_dict = {'Earth':0,
                   'Fire':0,
                   'Water':0,
@@ -1199,7 +1352,7 @@ def hikaru_tokens (logdir="free_for_all"):
         for line in log:
             if line.startswith('---'):
                 hikaru_reporting = (previous_line == 'Hikaru\n')
-            elif hikaru_reporting and line.startswith ('pool:'):
+            elif hikaru_reporting and line.startswith ('Pool:'):
                 tokens = line[6:-1].split(', ')
                 for t in tokens:
                     if t!='':
@@ -1210,8 +1363,40 @@ def hikaru_tokens (logdir="free_for_all"):
         print token, percentify(count/float(beats))
     print "total:", sum([token_dict[t] for t in token_dict])/float(beats)
 
-def kajia_insects(logdir='free_for_all'):
-    insect_count = [[0]*10 for _ in (0,1,2)]
+def jager_signatures(logdir='core_tests'):
+    beats = parse_beats('jager', logdir)
+    full_count = Counter(beat.ante for beat in beats)
+    refined_count = Counter(beat.ante for beat in beats
+                            if beat.lines_starting_with('+1 power & priority to signature moves'))
+    del full_count['']
+    del refined_count['']
+    for ante in full_count:
+        if ante:
+            print "%s: %d (%d)" % (ante, full_count[ante], 
+                                         refined_count[ante]) 
+    print "Total: %d (%d)" % (sum(full_count.values()), 
+                              sum(refined_count.values()))
+    
+def iri_forms(logdir="core_tests"):
+    beats = parse_beats('iri', logdir)
+    beats = [b for b in beats 
+             if b.ante and b.base not in ('Pulse', 'Dash')]
+    forms = Counter(beat.ante for beat in beats)
+    total = float(sum(forms.values()))
+    print "Forms:"
+    for form, count in forms.items():
+        print form, count, percentify(count / total)
+    for beat in beats:
+        beat.current_form = beat.lines_ending_with(' Form')[0][:-1]
+    transforms = Counter(beat.ante for beat in beats
+                         if beat.ante[1:-1] != beat.current_form)
+    total = float(sum(transforms.values()))
+    print "\nTransforms:"
+    for form, count in transforms.items():
+        print form, count, percentify(count / total), percentify(count/float(forms[form]))
+        
+def kajia_insects(logdir='core_tests'):
+    insect_count = [[0]*10 for unused in (0,1,2)]
     totals_count = [0] * 10
     piles_count = [0] * 3
     for filename in list_files(logdir, 'kajia'):
@@ -1249,7 +1434,7 @@ def kajia_insects(logdir='free_for_all'):
         if insect_count[2][i]:
             print "%d: %s" % (i, percentify(insect_count[2][i]/beats))
 
-def karin_jager (logdir="free_for_all"):
+def karin_jager (logdir="core_tests"):
     karin_dists = [0,0,0,0,0,0,0]
     opp_dists = [0,0,0,0,0,0,0]
     for filename in list_files(logdir, 'karin'):
@@ -1292,7 +1477,63 @@ def karin_jager (logdir="free_for_all"):
     for i,d in enumerate(opp_dists):
         print "%d: %s" %(i, percentify(d/total))
 
-def luc_tokens (logdir="free_for_all"):
+def larimore_counters (logdir="core_tests"):
+    beat_counts = [0] * 16
+    beat_tokens = [0] * 16
+    beats = parse_beats('larimore', logdir)
+    for beat in beats:
+        beat_counts[beat.number] += 1
+        for line in beat.lines:
+            if (line.startswith("Firepower: ")):
+                beat.tokens = int(line[-2])
+                beat_tokens[beat.number] += beat.tokens
+                break
+    tokens = Counter([beat.tokens for beat in beats])
+    total = len(beats)
+    for t in sorted(tokens.keys()):
+        print t, percentify(tokens[t]/float(total))
+    print "total:", total
+    print
+    for b in xrange(1,16):
+        print "%d: %.1f" % (b, beat_tokens[b]/float(beat_counts[b]))
+
+def larimore_spending(logdir='core_tests'):
+    beats = parse_beats('larimore', logdir)
+    for beat in beats:
+        beat.style_spend = 0
+        beat.might_spend = 0
+        for i, line in enumerate(beat.lines):
+            if line.startswith('Larimore spends '):
+                spend = int(line.split()[2])
+                if (beat.final_base == 'Might' and 
+                    beat.lines[i+1] == "Larimore gets +%d power\n" % spend):
+                    beat.might_spend += spend
+                else:
+                    beat.style_spend += spend
+    styles = set(beat.style for beat in beats)
+    total_spend = 0
+    for style in styles:
+        style_spend = 0
+        print style
+        for spend in range(6):
+            n = len([b for b in beats if b.style == style and 
+                     b.style_spend == spend])
+            print spend, n 
+            style_spend += spend * n
+        print "total:", style_spend 
+        total_spend += style_spend
+    print 'Might'
+    might_spend = 0
+    for spend in range(6):
+        n = len([b for b in beats if b.final_base == 'Might' and 
+                 b.might_spend == spend])
+        print spend, n
+        might_spend += spend *n
+    print "total:", might_spend
+    total_spend += might_spend
+    print "grand total:", total_spend
+
+def luc_tokens (logdir="core_tests"):
     beat_counts = [0] * 16
     beat_tokens = [0] * 16
     beats = parse_beats('luc', logdir)
@@ -1313,7 +1554,15 @@ def luc_tokens (logdir="free_for_all"):
     for b in xrange(1,16):
         print "%d: %.1f" % (b, beat_tokens[b]/float(beat_counts[b]))
 
-def marmelee_counters (logdir="free_for_all"):
+def magdelina_spiritual(logdir="core_tests"):
+    beats = parse_beats('magdelina', logdir)
+    for beat in beats:
+        if (beat.style == 'Spiritual' and
+            "Level: 0\n" in beat.lines):
+            for line in beat.lines:
+                print line 
+
+def marmelee_counters (logdir="core_tests"):
     beat_counts = [0] * 16
     beat_tokens = [0] * 16
     beats = parse_beats('marmelee', logdir)
@@ -1334,7 +1583,7 @@ def marmelee_counters (logdir="free_for_all"):
     for b in xrange(1,16):
         print "%d: %.1f" % (b, beat_tokens[b]/float(beat_counts[b]))
 
-def marmelee_spending (logdir="free_for_all"):
+def marmelee_spending (logdir="core_tests"):
     style_spend_dict = {}
     for filename in list_files(logdir, 'marmelee'):
         names = filename.split('/')[-1].split('_')
@@ -1383,7 +1632,7 @@ def marmelee_spending (logdir="free_for_all"):
         print key, style_spend_dict[key], \
               percentify(style_spend_dict[key]/float(total))
 
-def mikhail_pairs_with_tokens (logdir="free_for_all"):
+def mikhail_pairs_with_tokens (logdir="core_tests"):
     beats = parse_beats('mikhail', logdir)
     beats = [b for b in beats if b.ante]
     d = Counter([(b.style, b.base, b.ante) for b in beats])
@@ -1406,9 +1655,9 @@ def mikhail_pairs_with_tokens (logdir="free_for_all"):
                 else:
                     print                                     
           
-def mikhail_tokens (logdir="free_for_all"):
-    beat_tokens = [[0] * 4 for i in range(16)]
-    antes = [[0] * 2 for i in range(16)]
+def mikhail_tokens (logdir="core_tests"):
+    beat_tokens = [[0] * 4 for unused in range(16)]
+    antes = [[0] * 2 for unused in range(16)]
     ante_this_beat = None
     for filename in list_files(logdir, 'mikhail'):
         with open (filename) as f:
@@ -1434,7 +1683,7 @@ def mikhail_tokens (logdir="free_for_all"):
                    float(sum(beat_tokens[b])),
                 percentify(antes[b][1]/float(sum(antes[b]))))
 
-def oriana_meteor (logdir="free_for_all"):
+def oriana_meteor (logdir="core_tests"):
     beats = parse_beats('oriana', logdir)
     d = Counter([(b.style, b.base, b.ante) for b in beats])
     styles = sorted(list(set([k[0] for k in d])))
@@ -1455,7 +1704,7 @@ def oriana_meteor (logdir="free_for_all"):
                         tmp += d.get((s,b,t),0)
                 print t, percentify(tmp/total)
         
-def oriana_tokens (logdir="free_for_all"):
+def oriana_tokens (logdir="core_tests"):
     beat_counts = [0] * 16
     beat_tokens = [0] * 16
     beats = parse_beats('oriana', logdir)
@@ -1479,7 +1728,7 @@ def oriana_tokens (logdir="free_for_all"):
         print "%d: %.1f" % (b, beat_tokens[b]/float(beat_counts[b]))
 
 
-def rexan_tokens (logdir="free_for_all"):
+def rexan_tokens (logdir="core_tests"):
     beats = parse_beats('alexian', logdir)
     for beat in beats:
         if beat.opp_induced_ante:
@@ -1519,7 +1768,7 @@ def rexan_tokens (logdir="free_for_all"):
     print
     parse_base_vs_induced_ante('rexan', logdir)
     
-def runika_artifacts (logdir="free_for_all"):
+def runika_artifacts (logdir="core_tests"):
     artifacts = ['Hover Boots',
                  'Battlefist',
                  'Autodeflector',
@@ -1589,7 +1838,7 @@ def runika_artifacts (logdir="free_for_all"):
                            - sum(activations.itervalues()))
     
 
-def shekhtur_tokens (logdir="free_for_all"):
+def shekhtur_tokens (logdir="core_tests"):
     tokens = [0,0,0,0,0,0]
     for filename in list_files(logdir, 'shekhtur'):
         with open (filename) as f:
@@ -1601,7 +1850,7 @@ def shekhtur_tokens (logdir="free_for_all"):
         print i, percentify(count/float(sum(tokens)))
     print "total:", sum(tokens)
 
-def voco_zombies (logdir="free_for_all"):
+def voco_zombies (logdir="core_tests"):
     zombies = [0,0,0,0,0,0,0,0]
     zom_pos = [0,0,0,0,0,0,0]
     zom_opp = 0
@@ -1643,13 +1892,28 @@ def voco_zombies (logdir="free_for_all"):
         print "%d: %s" %(p, percentify(z/total))
     print "on opponent:", percentify(zom_opp/total)
 
-def zaamassal_paradigms (logdir="free_for_all"):
+def xenitia_draw(logdir="core_tests"):
+    beats = parse_beats('xenitia', logdir)
+    style_dict = {}
+    for beat in beats:
+        if beat.style == 'Special' or beat.base in ('Dash', 'Bloodweapon'):
+            continue
+        if beat.style not in style_dict:
+            style_dict[beat.style] = [0] * 6
+        style_dict[beat.style][int(beat.ante[1])] += 1
+    for style, draws in style_dict.items():
+        print style
+        total = float(sum(draws))
+        for i, d in enumerate(draws):
+            print i, percentify(d / total)
+
+def zaamassal_paradigms (logdir="core_tests"):
     for paradigm in ['Pain','Fluidity','Haste','Resilience','Distortion']:
         print paradigm, 
         print text("Zaamassal assumes the Paradigm of %s"%paradigm, 'zaamassal',
              logdir)
 
-def parse_base_vs_induced_ante (name, logdir="free_for_all"):
+def parse_base_vs_induced_ante (name, logdir="core_tests"):
     beats = parse_beats(name, logdir)
     bases = ['Burst','Dash','Drive','Grasp','Shot','Strike','Cancel','Pulse']
     all_bases = bases + ['Finisher','Unique']
@@ -1725,6 +1989,13 @@ def post_processing_kallistar(beats):
             beat.ante = 'Elemental'
         else:
             beat.ante = 'Human'
+
+def post_processing_jager(beats):
+    for beat in beats:
+        if beat.ante != '':
+            beat.style = 'Special'
+            beat.base = beat.ante
+            beat.ante = ''
 
 def post_processing_lymn(beats):
     for beat in beats:
