@@ -9373,9 +9373,35 @@ class Tatsumi (Character):
         self.juto_damage_taken += soaked_damage
         self.juto_life -= soaked_damage
 
-    # If Juto loses all life points, remove him (after the stun phase,
-    # if necessary).
-    def take_damage_trigger(self, damage_taken):
+    # Copying all this to have Juto disappear when out of life points.
+    def take_damage (self, damage):
+        soak = self.opponent.reduce_soak(self.get_soak())
+        if self.game.reporting and soak:
+            self.game.report ('%s has %d soak' % (self, soak))
+        damage_soaked = min (soak, damage)
+        if damage_soaked:
+            self.soak_trigger (damage_soaked)
+        remaining_damage = max(self.get_damage_cap() - self.damage_taken, 0)
+        final_damage = min (damage - damage_soaked, remaining_damage)
+
+        # life can't go below certain minimum (usually 0)
+        self.life = max (self.life - final_damage,
+                         self.get_minimum_life())
+        if self.game.reporting:
+            self.game.report (self.name + \
+                              " takes %d damage (now at %d life)" \
+                              %(final_damage, self.life))
+        if self.life <= 0:
+            raise WinException (self.opponent.my_number)
+        if final_damage:
+            self.opponent.damage_trigger (final_damage)
+            self.take_damage_trigger (final_damage)
+        # damage_taken updated after triggers, so that triggers can
+        # check if this is first damage this beat
+        self.damage_taken += final_damage
+        
+        # Remove Juto (after stun, so that he has a chance to contribute
+        # stunguard).
         if self.juto_life <= 0:
             self.juto_position = None
             self.juto_life = 0
