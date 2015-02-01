@@ -9078,12 +9078,17 @@ class Shekhtur (Character):
             return "1 token"
         return str(a) + " tokens"
 
-    # shortcut: no other way for opponent to lose all soak
     def reduce_soak (self, soak):
-        return 0 if self.coffin_nails_hit else soak
-    # shortcut: no other way for opponent to lose all stunguard
+        if self.coffin_nails_hit:
+            return 0
+        else:
+            return Character.reduce_soak(self,soak)
+
     def reduce_stunguard (self, stunguard):
-        return 0 if self.coffin_nails_hit else stunguard
+        if self.coffin_nails_hit:
+            return 0
+        else:
+            return Character.reduce_stunguard(self,stunguard)
 
     def damage_trigger (self, damage):
         self.recover_tokens (damage)
