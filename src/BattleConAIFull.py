@@ -2914,34 +2914,40 @@ class Character (object):
                 self, card, "style" if isinstance(card, Style) else Base))
 
     # Various convenience movement functions:
-    def advance (self, moves, max_move=False):
-        self.execute_move (self, moves, max_move=max_move)
-    def pull (self, moves, max_move=False):
-        self.execute_move (self.opponent, moves, max_move=max_move)
-    def retreat (self, moves, max_move=False):
+    def advance (self, moves, max_move=False, specific_movement_reaction=None):
+        self.execute_move (self, moves, max_move=max_move, 
+                           specific_movement_reaction=specific_movement_reaction)
+    def pull (self, moves, max_move=False, specific_movement_reaction=None):
+        self.execute_move (self.opponent, moves, max_move=max_move, 
+                           specific_movement_reaction=specific_movement_reaction)
+    def retreat (self, moves, max_move=False, specific_movement_reaction=None):
         moves = [-m for m in moves]
-        self.execute_move (self, moves, max_move=max_move)
-    def push (self, moves, max_move=False):
+        self.execute_move (self, moves, max_move=max_move, 
+                           specific_movement_reaction=specific_movement_reaction)
+    def push (self, moves, max_move=False, specific_movement_reaction=None):
         moves = [-m for m in moves]
-        self.execute_move (self.opponent, moves, max_move=max_move)
-    def move (self, moves):
+        self.execute_move (self.opponent, moves, max_move=max_move, 
+                           specific_movement_reaction=specific_movement_reaction)
+    def move (self, moves, specific_movement_reaction=None):
         moves = [-m for m in moves if m != 0] + list(moves)
-        self.execute_move (self, moves)
-    def move_opponent (self, moves):
+        self.execute_move (self, moves, 
+                           specific_movement_reaction=specific_movement_reaction)
+    def move_opponent (self, moves, specific_movement_reaction=None):
         moves = [-m for m in moves if m != 0] + list(moves)
-        self.execute_move (self.opponent, moves)
-    def move_directly (self, dests):
-        self.execute_move (self, dests, direct=True)
-    def move_opponent_directly (self, dests):
-        self.execute_move (self.opponent, dests, direct=True)
-    def move_to_unoccupied (self):
-        self.move_directly (list(set(xrange(7)) -
-                                 set((self.position,
-                                      self.opponent.position))))
-    def move_opponent_to_unoccupied (self):
-        self.move_opponent_directly (list(set(xrange(7)) -
-                                          set((self.position,
-                                               self.opponent.position))))
+        self.execute_move (self.opponent, moves, 
+                           specific_movement_reaction=specific_movement_reaction)
+    def move_directly (self, dests, specific_movement_reaction=None):
+        self.execute_move (self, dests, direct=True, 
+                           specific_movement_reaction=specific_movement_reaction)
+    def move_opponent_directly (self, dests, specific_movement_reaction=None):
+        self.execute_move (self.opponent, dests, direct=True, 
+                           specific_movement_reaction=specific_movement_reaction)
+    def move_to_unoccupied (self, specific_movement_reaction=None):
+        self.move_directly (list(set(xrange(7)) - set((self.position, self.opponent.position))), 
+                            specific_movement_reaction=specific_movement_reaction)
+    def move_opponent_to_unoccupied (self, specific_movement_reaction=None):
+        self.move_opponent_directly (list(set(xrange(7)) - set((self.position, self.opponent.position))), 
+                                     specific_movement_reaction=specific_movement_reaction)
 
     # Handles both moving yourself and moving opponent.
     # Mover is player that is actually being moved.
@@ -2950,7 +2956,9 @@ class Character (object):
     # max_move means you move as much as possible.  It's only relevant
     # for indirect moves, which should give the entire range in the
     # moves parameter.
-    def execute_move (self, mover, moves, direct=False, max_move=False):
+    # specific_movement_reaction is a movement reaction by the initiator for this particular move.
+    def execute_move (self, mover, moves, direct=False, max_move=False, 
+                      specific_movement_reaction=None):
         transform = self.opponent.transform_opponent_moves()
         if transform is not None:
             mover, moves, direct, max_move = transform
@@ -2988,6 +2996,8 @@ class Character (object):
                     self.game.report (s)
         # reactions not dependent on actual movement, some cards react 
         # to failed movement.
+        if specific_movement_reaction:
+            specific_movement_reaction(self, mover, mover_pos, direct)
         self.movement_reaction (self, mover, mover_pos, direct)
         self.opponent.movement_reaction (self, mover, mover_pos, direct)
 
@@ -5062,11 +5072,11 @@ class Claus (Character):
             else:
                 self.position = self.opponent.position + 1
             push_distance = abs(dest - self.opponent.position)
-            opp_initial_pos = self.opponent.position
-            self.push([push_distance])
+            self.push([push_distance], specific_movement_reaction=self.specific_movement_reaction)
+
+    def specific_movement_reaction(self, initiator, mover, old_position, direct):
             self.deal_damage(abs(self.opponent.position - 
-                                 opp_initial_pos))
-            
+                                 old_position))
 
 class Clinhyde (Character):
     def __init__ (self, the_game, n, base_set='alpha', is_user=False):
@@ -7292,10 +7302,10 @@ class Larimore(Character):
         return "charge: %d" % a
 
     # Ignore own movement effects if charging 3.
-    def execute_move(self, mover, moves, direct=False, max_move=False):
+    def execute_move(self, mover, moves, direct=False, max_move=False, specific_movement_reaction=None):
         if self.strat[2][0] == 3:
             return 
-        Character.execute_move(self, mover, moves, direct, max_move)
+        Character.execute_move(self, mover, moves, direct, max_move, specific_movement_reaction)
 
     def get_maxrange_bonus(self):
         return 2 * self.blistering_range
@@ -9984,13 +9994,12 @@ class Dash (Base):
     preferred_range = 2 # dash can switch sides at range 1-3
     is_attack = False
     def after_trigger(self):
-        my_old_pos = self.me.position
-        opp_old_pos = self.opponent.position
-        self.me.move([1,2,3])
-        if ((self.me.position - self.opponent.position) *
-            (my_old_pos - opp_old_pos)) < 0:
-            self.me.set_triggered_dodge()
+        self.me.move([1,2,3], specific_movement_reaction=self.specific_movement_reaction)
     ordered_after_trigger = True
+    def specific_movement_reaction(self, initiator, mover, old_position, direct):
+        if (ordered(old_position, self.opponent.position, self.me.position) and
+            not self.opponent.mimics_movement()):
+            self.me.set_triggered_dodge()
     # Dash is usually a strong out, that's worth keeping in hand
     discard_penalty = 0.5
     def evaluation_bonus(self):
@@ -10267,12 +10276,15 @@ class HallicrisSnare(Finisher):
     power = 1
     priority = 6
     def hit_trigger(self):
-        old_pos = self.opponent.position
-        self.me.pull(range(6))
-        distance = abs(self.opponent.position - old_pos)
-        if ordered(old_pos, self.me.position, self.opponent.position):
-            distance -= 1
-        self.me.add_triggered_power_bonus(distance)
+        self.me.pull(range(6), specific_movement_reaction=self.specific_movement_reaction)
+    def specific_movement_reaction(self, initiator, mover, old_position, direct):
+        # Get +1 power per pull
+        spaces_pulled = abs(self.opponent.position - old_position)
+        # If opponent switched sides, actual advance is one less then distance moved
+        if ordered (old_position, self.me.position, self.opponent.position):
+            spaces_pulled -= 1
+        self.me.add_triggered_power_bonus(spaces_pulled)
+        
     def evaluate_setup(self):
         return 0.5 * (self.game.distance() in [4,5,6]) 
 
@@ -10509,15 +10521,15 @@ class HailTheKing (Finisher):
     maxrange = 1
     soak = 6
     def before_trigger(self):
-        # advance up to 5, get +1 power per advance
-        old_pos = self.me.position
-        self.me.advance ((0,1,2,3,4,5))
-        spaces_advanced = abs(self.me.position-old_pos)
+        self.me.advance([0,1,2,3,4,5], specific_movement_reaction=self.specific_movement_reaction)
+    ordered_before_trigger = True
+    def specific_movement_reaction(self, initiator, mover, old_position, direct):
+        # Get +1 power per advance.
+        spaces_advanced = abs(self.me.position-old_position)
         # If I switched sides, actual advance is one less then distance moved
-        if ordered (old_pos, self.opponent.position, self.me.position):
+        if ordered (old_position, self.opponent.position, self.me.position):
             spaces_advanced -= 1
         self.me.add_triggered_power_bonus (spaces_advanced)
-    ordered_before_trigger = True
     # recording soaked damage handled by Alexian.soak_trigger()
     def get_power_bonus (self):
         return self.me.damage_soaked
@@ -10585,12 +10597,12 @@ class Stalwart (Style):
     stunguard = 5
     preferred_range = 2 # range is 0-3, but more is more power
     def before_trigger(self):
-        old_pos = self.me.position
         # advance up to 3, but don't switch sides
-        self.me.advance (range(min(self.game.distance(), 4)))
-        spaces_advanced = abs(self.me.position-old_pos)
-        self.me.add_triggered_power_bonus (spaces_advanced)
+        self.me.advance (range(min(self.game.distance(), 4)), specific_movement_reaction=self.specific_movement_reaction)
     ordered_before_trigger = True
+    def specific_movement_reaction(self, initiator, mover, old_position, direct):
+        spaces_advanced = abs(self.me.position-old_position)
+        self.me.add_triggered_power_bonus (spaces_advanced)
 
 class Mighty (Style):
     priority = 1
@@ -10770,9 +10782,8 @@ class Tenebrous(Style):
         if mover is self.me:
             return
         shadow = self.me.shadow_position
-        if old_position == shadow or self.opponent.position != shadow:
-            return
-        self.opponent.lose_life(2)
+        if old_position != shadow and self.opponent.position == shadow:
+            self.opponent.lose_life(2)
      
     def evaluation_bonus(self):
         return (-0.1 if self.me.shadow_position in 
@@ -11347,12 +11358,12 @@ class SceneShiftBorneo(Base):
     def special_range_hit(self):
         return self.me.switched_sides
     def before_trigger(self):
-        pos = self.me.position
-        self.me.move(xrange(6))
-        if ((pos - self.opponent.position) * 
-            (self.me.position - self.opponent.position)) < 0:
-            self.me.switched_sides = True
+        self.me.move(xrange(6), specific_movement_reaction=self.specific_movement_reaction)
     ordered_before_trigger = True
+    def specific_movement_reaction(self, initiator, mover, old_position, direct):
+        if (ordered(old_position, self.opponent.position, self.me.position) and
+            not self.opponent.mimics_movement()):
+            self.me.switched_sides = True
     def evaluation_bonus(self):
         return -0.4 if self.opponent.position in [0,6] else 0.2 
     
@@ -12521,11 +12532,11 @@ class Elementary(Style):
     power = 1
     priority = -1
     def start_trigger(self):
-        pos = self.me.position
-        self.me.retreat([0,1])
-        if self.me.position != pos:
-            self.me.elementary_range_bonus += 1
+        self.me.retreat([0,1], specific_movement_reaction=self.specific_movement_reaction)
     ordered_start_trigger = True
+    def specific_movement_reaction(self, initiator, mover, old_position, direct):
+        if self.me.position != old_position:
+            self.me.elementary_range_bonus += 1
 
 class Frostbite(Style):
     priority = -3
@@ -12588,6 +12599,8 @@ class Villainous(Style):
         self.me.push([1,2])
     ordered_hit_trigger = True
     def end_trigger(self):
+        # Not using specific_movement_reaction, because opponent has a chance to escape with reaction.
+        # Or does he?  Rules unclear.
         self.me.advance([1,2,3])
         if self.opponent.position in [0,6] and self.game.distance() == 1:
             self.me.gain_gold(2)
@@ -13038,14 +13051,12 @@ class Advancing (Style):
     priority = 1
     preferred_range = 0.5 # advance only adds to maxrange
     def start_trigger (self):
-        me = self.me
-        her = self.opponent
-        old_pos = me.position
-        self.me.advance ((1,))
-        if ordered (old_pos, her.position, me.position):
-            me.add_triggered_power_bonus(1)
+        self.me.advance ((1,), specific_movement_reaction=self.specific_movement_reaction)
     ordered_start_trigger = True
-
+    def specific_movement_reaction(self, initiator, mover, old_position, direct):
+        if ordered(old_position, self.opponent.position, self.me.position):
+            self.me.add_triggered_power_bonus(1)
+        
 class Sweeping (Style):
     power = -1
     priority = 3
@@ -13158,12 +13169,11 @@ class Comet(Style):
         # (because switching causes a miss).
         return 3 if self.me.retreat_range() <= 2 else 0
     def before_trigger(self):
-        me = self.me.position
-        her = self.opponent.position
-        self.me.advance([3])
-        if (self.me.position - self.opponent.position) * (me - her) < 0:
-            self.opponent.set_triggered_dodge()
+        self.me.advance([3], specific_movement_reaction=self.specific_movement_reaction)
     ordered_before_trigger = True
+    def specific_movement_reaction(self, initiator, mover, old_position, direct):
+        if ordered(old_position, self.opponent.position, self.me.position):
+            self.opponent.set_triggered_dodge()
     def hit_trigger(self):
         self.me.pull([1,2])
     ordered_hit_trigger = True
@@ -13286,10 +13296,11 @@ class Slicer(Base):
     priority = 4
     preferred_range = 1.5
     def hit_trigger(self):
-        me, opp = self.me.position, self.opponent.position
-        self.me.move([1])
+        self.me.move([1], specific_movement_reaction=self.specific_movement_reaction)
+    def specific_movement_reaction(self, initiator, mover, old_position, direct):
         # +1 power if switched sides.
-        if (self.me.position - self.opponent.position) * (me - opp) < 0:
+        if (ordered(old_position, self.opponent.position, self.me.position) and
+            not self.opponent.mimics_movement()):
             self.me.add_triggered_power_bonus(1)
     ordered_hit_trigger = True
     def after_trigger(self):
@@ -13368,13 +13379,11 @@ class Fanged(Style):
         return 2 if (self.game.distance() == 1 and 
                      self.opponent.retreat_range() > 1) else 3
     def before_trigger(self):
-        my_old = self.me.position
-        opp_old = self.opponent.position
-        self.me.advance([1,2])
-        if ((self.me.position - self.opponent.position) * 
-            (my_old - opp_old)) < 0:
-            self.me.add_triggered_power_bonus(1)
+        self.me.advance ([1,2], specific_movement_reaction=self.specific_movement_reaction)
     ordered_before_trigger = True        
+    def specific_movement_reaction(self, initiator, mover, old_position, direct):
+        if ordered(old_position, self.opponent.position, self.me.position):
+            self.me.add_triggered_power_bonus(1)
 
 class Signature(Base):
     # More than regular bonuses, less than Finishers.
@@ -15603,17 +15612,19 @@ class Overlords (Style):
         self.opponent.add_triggered_priority_bonus(-len(self.me.induced_pool))
     def before_trigger (self):
         if self.me.base.is_attack and self.me.base.deals_damage:
-            old_pos = self.opponent.position
             power = self.me.get_power()
-            self.me.pull(range(power+1))
-            spaces_pulled = abs(self.opponent.position-old_pos)
-            # If opponent switched sides, actual pull is one less then distance
-            if ordered (old_pos, self.me.position, self.opponent.position):
-                spaces_pulled -= 1
-            self.me.add_triggered_power_bonus(-spaces_pulled)
+            self.me.pull(range(power+1), specific_movement_reaction=self.specific_movement_reaction)
     @property
     def ordered_before_trigger(self):
         return self.me.base.is_attack and self.me.base.deals_damage
+    def specific_movement_reaction(self, initiator, mover, old_position, direct):
+        # Get -1 power per pull
+        spaces_pulled = abs(self.opponent.position - old_position)
+        # If opponent switched sides, actual advance is one less then distance moved
+        if ordered (old_position, self.me.position, self.opponent.position):
+            spaces_pulled -= 1
+        self.me.add_triggered_power_bonus(-spaces_pulled)
+
 
 class CurseToken (Token):
     name_override = 'Curse'
@@ -15855,7 +15866,7 @@ class Explosive (Style):
     power = -1
     preferred_range = 0.5
     def start_trigger (self):
-        self.me.pull ([0,1])
+        self.me.pull([0,1])
     ordered_start_trigger = True
     def hit_trigger (self):
         if self.me.active_artifacts:
@@ -16245,14 +16256,16 @@ class Spiral (Style):
     priority = -1
     preferred_range = 1 # range 0-3, but prefers shorter ones
     def before_trigger (self):
-        old_pos = self.me.position
-        self.me.advance ((0,1,2,3))
-        spiral_move = abs(old_pos-self.me.position)
-        # take one space off if jumped over opponent
-        if ordered (old_pos, self.opponent.position, self.me.position):
-            spiral_move -= 1
-        self.me.add_triggered_power_bonus (-spiral_move)
+        self.me.advance ([0,1,2,3], specific_movement_reaction=self.specific_movement_reaction)
     ordered_before_trigger = True
+    def specific_movement_reaction(self, initiator, mover, old_position, direct):
+        # Get -1 power per advance.
+        spaces_advanced = abs(self.me.position-old_position)
+        # If I switched sides, actual advance is one less then distance moved
+        if ordered (old_position, self.opponent.position, self.me.position):
+            spaces_advanced -= 1
+        self.me.add_triggered_power_bonus (spaces_advanced)
+            
             
 class Malice (Token):
     priority = 1
