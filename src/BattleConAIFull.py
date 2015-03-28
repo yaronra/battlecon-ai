@@ -8608,7 +8608,7 @@ class Runika (Character):
         targets = self.active_artifacts - set((self.overcharged_artifact,))
         # tinkered artifacts cannot be deactivated by opponent on hit
         if player is self.opponent:
-            targets -= set((self.overcharged_artifact,))
+            targets -= set((self.tinkered_artifact,))
         targets = list(targets)
         if not targets:
             if self.game.reporting:
