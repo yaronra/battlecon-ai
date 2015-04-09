@@ -3855,8 +3855,8 @@ class Alexian (Character):
         return Character.all_cards(self) + self.induced_tokens
     
     def choose_initial_discards (self):
-        return (self.regal, self.grasp,
-                self.steeled, self.strike)
+        return (self.mighty, self.strike,
+                self.regal, self.grasp)
 
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -4772,8 +4772,8 @@ class Cadenza (Character):
         self.pool = [self.iron_body] * 3
 
     def choose_initial_discards (self):
-        return (self.hydraulic, self.burst,
-                self.mechanical, self.unique_base)
+        return (self.mechanical, self.strike,
+                self.grapnel, self.grasp)
 
     def situation_report (self):
         report = Character.situation_report (self)
@@ -5657,7 +5657,7 @@ class Eligor (Character):
 
     def choose_initial_discards (self):
         return (self.martial, self.grasp,
-                self.vengeful, self.unique_base)
+                self.chained, self.strike)
 
     def situation_report (self):
         report = Character.situation_report (self)
@@ -6360,7 +6360,7 @@ class Hikaru (Character):
         self.pool = self.tokens[:]
 
     def choose_initial_discards (self):
-        return (self.focused, self.unique_base,
+        return (self.sweeping, self.grasp,
                 self.trance, self.strike)
 
     def situation_report (self):
@@ -8260,8 +8260,8 @@ class Rexan (Character):
         return Character.all_cards(self) + self.induced_tokens
 
     def choose_initial_discards (self):
-        return (self.enervating, self.grasp,
-                self.devastating, self.dash)
+        return (self.unyielding, self.drive,
+                self.enervating, self.strike)
 
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -8382,9 +8382,8 @@ class Rukyuk (Character):
     mean_priority_bonus = 0.4 # Swift
 
     def choose_initial_discards (self):
-        # AI says: Crossfire Reload, Trick Shot
-        return (self.crossfire, self.unique_base,
-                self.trick, self.shot)
+        return (self.crossfire, self.shot,
+                self.trick, self.reload)
 
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
@@ -9012,8 +9011,8 @@ class Shekhtur (Character):
     mean_priority_bonus = 1.2 # Tokens
 
     def choose_initial_discards (self):
-        return (self.combination, self.unique_base,
-                self.jugular, self.grasp)
+        return (self.combination, self.grasp,
+                self.reaver, self.shot)
 
     def set_starting_setup (self, default_discards, use_special_actions):
         Character.set_starting_setup (self, default_discards, use_special_actions)
