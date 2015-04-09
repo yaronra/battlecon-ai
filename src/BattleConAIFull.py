@@ -6460,7 +6460,7 @@ class Iri(Character):
         if self.limit_exceeded:
             self.active_cards += [form for form in self.forms
                                   if form is not self.current_form
-                                  or not self.changed_forms
+                                  or not self.changed_form
                                   or self.galactic in self.active_cards]
         elif not self.changed_form or self.galactic in self.active_cards:
             self.active_cards.append(self.current_form)
