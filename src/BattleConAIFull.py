@@ -5732,6 +5732,16 @@ class Eustace(Character):
         Character.set_starting_setup (self, default_discards, use_special_actions)
         self.pool = [self.frostflow] * 3
 
+    def situation_report (self):
+        report = Character.situation_report (self)
+        report.append ("%d Frostflow token%s" %(len(self.pool),
+                       '' if len(self.pool)==1 else 's'))
+        return report
+
+    def read_my_state (self, lines, board, addendum):
+        lines = Character.read_my_state (self, lines, board, addendum)
+        self.pool = [self.frostflow] * int(lines[0][0])
+
     def reset (self):
         self.elementary_range_bonus = 0
         Character.reset (self)
@@ -5782,6 +5792,7 @@ class Eustace(Character):
                 self.game.report("Eustace runs out of Frost")
             self.lose_life(3)
             self.opponent.set_triggered_dodge()
+        return ret
 
     # Discard a token on first damage.
     def take_damage_trigger(self, damage):
