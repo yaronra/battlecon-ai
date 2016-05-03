@@ -7731,6 +7731,7 @@ class Magdelina (Character):
                        Excelsius     (the_game,self)]
         self.finishers = [SolarSoul  (the_game, self),
                           Apotheosis (the_game, self)]
+        self.initial_level_delay = True
         Character.__init__ (self, the_game, n, base_set, is_user)
 
     # This assumes steady gain (no Blessing or Spiritual) for 15 beats.
@@ -7805,13 +7806,14 @@ class Magdelina (Character):
         # Spiritual only gains a counter if it hit.
         if self.spiritual in self.active_cards and not self.hits_scored:
             return
+        self.gain_trance()
         if self.trance > self.level:
-            self.trance = 0
-            if self.game.reporting:
-                self.game.report("Magdelina discards all Trance counters")
-            self.gain_level()
-        else:
-            self.gain_trance()
+            if self.initial_level_delay:
+                self.initial_level_delay = False
+            else:
+                if self.game.reporting:
+                    self.game.report("Magdelina discards all Trance counters")
+                self.gain_level()
 
     def gain_trance(self):
         if self.trance < 5:
