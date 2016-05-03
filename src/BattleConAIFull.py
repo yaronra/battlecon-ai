@@ -7726,9 +7726,9 @@ class Magdelina (Character):
         self.unique_base = Blessing (the_game,self)
         self.styles = [Safety        (the_game, self),
                        Priestess     (the_game, self),
-                       Spiritual     (the_game,self),
+                       Spiritual     (the_game, self),
                        Sanctimonious (the_game, self),
-                       Excelsius     (the_game,self)]
+                       Excelsius     (the_game, self)]
         self.finishers = [SolarSoul  (the_game, self),
                           Apotheosis (the_game, self)]
         self.initial_level_delay = True
